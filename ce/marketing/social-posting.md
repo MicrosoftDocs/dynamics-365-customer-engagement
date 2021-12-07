@@ -38,7 +38,7 @@ To schedule and publish a message to one of your social-media channels:
     - To schedule a social post using the calendar, choose a calendar view (month, day, or week), select a day or time slot to highlight it, and then select again (click or press enter) and choose **New item** from the context menu. More information: [Work with marketing calendars](marketing-calendar.md)
     - To schedule a message using date pickers, or to send it right away, select **New** on the command bar.
 
-    ![The social-posts calendar](media/social-posting-calendar-update.png "The social-posts calendar")
+    ![The social-posts calendar.](media/social-posting-calendar-update.png "The social-posts calendar")
 
 1. A new social post record is created. Make the following settings:
     - **Name**: Enter an internal name for the post. This name will be shown on the calendar, but won't appear in the post itself.
@@ -51,12 +51,12 @@ To schedule and publish a message to one of your social-media channels:
     - **Media**: If you'd like to include an image with your post, select the **Add media** button.
     - **Preview**: On the right side of the designer, you will see a rendered preview of your social post. The preview corresponds with the selected social network formatting.
 
-    ![Social post settings and content](media/social-posting-new-post-update.png "Social post settings and content")
+    ![Social post settings and content.](media/social-posting-new-post-update.png "Social post settings and content")
 
 1. When you are done designing your post, select one of the following buttons at the bottom of the page:
       - **Schedule**: Select this to save your post and schedule it to be published at the configured **Schedule time**. (This button only appears if you've chosen a schedule.)
         > [!IMPORTANT]
-        > The dates and times for the posting schedule use the time zone configured in your personal settings. To view or edit your time zone, open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon")
+        > The dates and times for the posting schedule use the time zone configured in your personal settings. To view or edit your time zone, open the **Settings** menu ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon")
       - **Post now**: Select this to publish your post right now. Your message will be posted immediately and shown on the calendar for the current date and time. The label of this button changes based on whether you've already set a schedule or not.
       - **Change schedule**: Establish a specific date and time to post the message or edit the existing one. The label of this button changes based on whether you've already set a schedule or not.
 

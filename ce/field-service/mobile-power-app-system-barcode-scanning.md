@@ -1,12 +1,11 @@
 ---
 title: "Barcode scanning and global search on the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
 description: Learn about barcode scanning and global search in the Field Service (Dynamics 365) mobile app.
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 04/21/2021
 ms.reviewer: krbjoran
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: field-service-mobile
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
@@ -92,7 +91,7 @@ Within the mobile app you may need to go to **Profile** > **Reconfigure** to ena
 
 By default, Dynamics 365 Field Service is configured to search against account, contact, user, and activity. You can customize search to include additional record types, such as customer assets and products. Expanding search parameters can help technicians search, find by keyword, and scan to search by barcode, UPC, or QR code.
 
-1. Enable the record type your barcode is part of for relevance search. In our example, we use the customer asset record type). For more information, see [how to set up relevance search](https://docs.microsoft.com/power-platform/admin/configure-relevance-search-organization). 
+1. Enable the record type your barcode is part of for relevance search. In our example, we use the customer asset record type). For more information, see [how to set up relevance search](/power-platform/admin/configure-relevance-search-organization). 
 
 2. Add the barcode-enabled field to the record type's quick find view, as seen in the following screenshot.
 
@@ -118,6 +117,8 @@ By default, Dynamics 365 Field Service is configured to search against account, 
 > [!Note]
 > If you are using offline first the record will need to be included in your offline profile and downlaoded to the device to display in search results. 
 
+### See also
 
+[```getBarcodeValue``` - Power Apps](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-device/getbarcodevalue)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -4,7 +4,7 @@ description: "The sample demonstrates how to programmatically work with business
 ms.custom: 
 ms.date: 04/05/2018
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -57,7 +57,7 @@ This sample is available to download from [Sample: Work with business process fl
 
      Here is the output of the sample:  
 
-    ![Sample output](media/work-with-bpf-sample-output.png "Sample output")  
+    ![Sample output.](media/work-with-bpf-sample-output.png "Sample output")  
 
 <a name="BKMK_runSample"></a>   
 ## Run the sample  

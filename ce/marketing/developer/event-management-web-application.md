@@ -1,7 +1,7 @@
 ---
 title: "Event management web application overview (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Learn how you can extend event management web application functionality in Dynamics 365 Marketing."
-ms.date: 04/14/2021
+ms.date: 12/06/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -41,7 +41,7 @@ You can build your frontend or customize the provided demo event website.
 
 To get started with customizing the demo event website, you need to follow these steps:
 
-1. Download the [source code](#download-sample-event-website). Make sure that the version of the source code matches the version of the event management solution installed in your instance. More information: [Download sample event website](#download-sample-event-website)
+1. Download the [source code](#download-sample-event-website). Make sure that the version of the source code matches the version of the event management solution installed in your instance. More information: [Download sample event website](#download-sample-event-website).
 
 2. Install [Node.js](https://nodejs.org/en/download) version 10.x or higher.
 
@@ -69,12 +69,12 @@ To get started with customizing the demo event website, you need to follow these
    > You need to run the command in the same directory where the `package.json` file is located.
 
 6. See [public API documentation](https://go.microsoft.com/fwlink/?linkid=2042224) to interact with the backend services.
-7. Dynamics 365 Marketing instance with Event Management solution and Portals solution installed. To install, see [Dynamics 365 Marketing](/dynamics365/customer-engagement/marketing/trial-signup)
+7. Dynamics 365 Marketing instance with Event Management solution and Portals solution installed. To install, see [Dynamics 365 Marketing](/dynamics365/customer-engagement/marketing/trial-signup).
 
 ## Download sample event website
 
 > [!NOTE]
-> Newer versions of Event Website will be available once new features and bug fixes are be released.
+> Newer versions of the sample event website will be available once new features and bug fixes are released.
 
 Select the version you would like to download from the table below.
 
@@ -114,7 +114,7 @@ Some of the parameters that you need to understand before you start configuring 
 |**useRestStack** | This setting specifies which API is used. If set to true, then the new event management public API is used. If set to false, then the deprecated event management Portal API is used. This API can only be used if you host the custom event website on Portals. To use the new event management public API, you need to register the web application.|
 |**emApplicationtoken**| This token authenticates your web application against the event management public API. You can retrieve the application token by registering a new web application in Dynamics 365 Marketing instance. This token is not required if you're using the deprecated event management Portal API.
 |**isAuthenticationEnabled** | This flag specifies whether the user authentication is supported or not (that is, the user can register or sign in). If set to false, then the application doesn't display a way to sign in or register.|
-|**useAadB2C** | Specifies whether you want to use **Azure Active Directory B2C identity management** for authentication. If you want to use **Power Apps portals identity management** then this flag needs to be set to false. If AAD B2C is enabled, then you need to configure the `aadB2CConfig` variable.|
+|**useAadB2C** | Specifies whether you want to use **Azure Active Directory B2C identity management** for authentication. If you want to use **Power Apps portals identity management**, this flag needs to be set to false. If AAD B2C is enabled, then you need to configure the `aadB2CConfig` variable.|
 |**aadB2CConfig** | Configuration object used by event management application when **AAD B2C identity management** is enabled. |
 |**useMockData** | This setting can be used to return mock objects instead of making real API calls.|
 |**dateSettings** | This setting can be used to configure how the dates will be formatted in the website. If `convertToLocalDate` flag is set to true, all dates will be automatically converted to the end users local time. |
@@ -127,9 +127,9 @@ Some of the parameters that you need to understand before you start configuring 
 To expose the new field to be visible in the API, follow the steps below:
 
 1. Open your Dynamics 365 Marketing instance.
-1. Open **Advanced Find**
-1. Select the **Website Entity Configurations** entity from the dropdown and click on **Results**
-1. Click on **New Website Entity Configuration** to create a new record.
+1. Open **Advanced Find**.
+1. Select the **Website table configurations** entity from the dropdown and select **Results**.
+1. Click on **New Website table configuration** to create a new record.
 1. Enter the name of your choice in the **Name** field.
 1. Select the entity that you want an extra field to be visible in the **Selected Entity** field.
 1. Write a JSON array that contains the new custom field that should be visible through the API in the **Selected fields**. This exposes the new custom field through the API, and you can utilize it in the frontend.

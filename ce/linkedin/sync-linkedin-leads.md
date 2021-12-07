@@ -1,28 +1,27 @@
 ---
-title: "Sync leads by using the Dynamics 365 Connector for LinkedIn Lead Gen Forms | Microsoft Docs"
-description: "Learn how to set up and configure the Dynamics 365 Connector for LinkedIn Lead Gen Forms to sync leads from sponsored campaigns on LinkedIn to your Dynamics 365 organization."
+title:  "Sync with Dynamics 365 Connector for LinkedIn Lead Gen Forms"
+description: "Learn how to set up the Dynamics 365 Connector for LinkedIn Lead Gen Forms to sync leads from sponsored LinkedIn campaigns to your Dynamics 365 apps."
 keywords: linkedin lead gen, lead gen form, get started
 ms.date: 04/02/2018
-ms.service: dynamics-365-sales
 ms.topic: article
-applies_to:
-  - Dynamics 365 Sales
-ms.assetid: 13c8a439-30bc-45a4-bf4e-a25781148a4c
 author: shubhadaj
 ms.author: shujoshi
 manager: sakudes
-ms.custom:
-  - dyn365-LinkedIn
-search.audienceType:
+search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app:
+search.app: 
   - D365CE
   - D365LinkedIn
+applies_to: 
+  - Dynamics 365 Sales
+ms.assetid: 13c8a439-30bc-45a4-bf4e-a25781148a4c
+ms.custom: 
+  - dyn365-LinkedIn
 ---
 
-# How to sync [!include[LinkedIn](../includes/pn-linkedin.md)] leads by using [!include[Dynamics 365 Connector for LinkedIn Lead Gen Forms](../includes/cc-linkedin-solution.md)]
+# Sync LinkedIn leads using Dynamics 365 Connector for LinkedIn Lead Gen Forms
 
 [!include[Dynamics 365 Connector for LinkedIn Lead Gen Forms](../includes/cc-linkedin-solution.md)] enables seamless synchronization of [!include[LinkedIn](../includes/pn-linkedin.md)] leads to Dynamics 365 apps. [!include[LinkedIn](../includes/pn-linkedin.md)] members can drive leads from [Sponsored Content](https://business.linkedin.com/marketing-solutions/native-advertising) campaigns, based on a variety of calls to action. The [!include[LinkedIn Connector](../includes/pn-linkedin-solution-shortest.md)] lets campaign managers sync the leads from [LinkedIn's Lead Gen forms](https://business.linkedin.com/marketing-solutions/native-advertising/lead-gen-ads) to a Dynamics 365 instance for further nurturing. If a lead is already known in a Dynamics 365 app, the data for that lead will be updated by using the information provided from [!include[LinkedIn](../includes/pn-linkedin.md)]; otherwise, a new lead record is created.
 

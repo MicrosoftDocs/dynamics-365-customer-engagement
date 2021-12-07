@@ -1,9 +1,10 @@
 ---
-title: "Stay up-to-date with customer news with the activity feed (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Activity feeds in Dynamics 365 Customer Engagement (on-premises)"
+description: "Monitor the activity feed to stay current with sales, projects, and campaigns. Follow updates for up to 1,000 contacts, colleagues, and records."
 ms.custom: 
 ms.date: 05/05/2020
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -47,7 +48,7 @@ Monitor real-time updates in the activity feed to stay current with fast-moving 
   
 1.  Open the contact, account, lead, or other type of record you want to follow.  
   
-2.  On the command bar, select the **More Commands** button (![More commands button](../basics/media/morecommands.gif "More commands button")).  
+2.  On the command bar, select the **More Commands** button (![More commands button.](../basics/media/morecommands.gif "More commands button")).  
   
 3.  Select **Follow** or **Unfollow**.  
   
@@ -61,7 +62,7 @@ Monitor real-time updates in the activity feed to stay current with fast-moving 
   
 4.  Select the person's name.  
   
-5.  Select the **More Commands** (![More commands button](../basics/media/morecommands.gif "More commands button")).  
+5.  Select the **More Commands** (![More commands button.](../basics/media/morecommands.gif "More commands button")).  
   
 6.  Select **Follow** or **Unfollow**.  
   
@@ -86,7 +87,7 @@ Monitor real-time updates in the activity feed to stay current with fast-moving 
   
 1.  Under **What's new**, select **All records**.  
   
-2.  Select **Modify this list** ( ![Gear button](../basics/media/selection-rule-gear-button.gif "Gear button") ).  
+2.  Select **Modify this list** ( ![Gear button.](../basics/media/selection-rule-gear-button.gif "Gear button") ).  
   
 3.  In the **Filters My Filters** dialog box, select the record types you want to change.  
   

@@ -4,7 +4,7 @@ description: "Developers and authors create, package and maintain units that ext
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
@@ -21,7 +21,7 @@ search.audienceType:
 ---
 # Introduction to solutions
 
-[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Introduction to solutions](/powerapps/developer/common-data-service/introduction-solutions).
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Solution concepts](/power-platform/alm/solution-concepts-alm).
 
 *Solutions* are how customizers and developers author, package, and maintain units of software that extend [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Customizers and developers distribute solutions so that organizations can use Dynamics 365 Customer Engagement (on-premises) to install and uninstall the business functionality defined by the solution.  
   
@@ -31,7 +31,7 @@ search.audienceType:
   
  If your application consists only of Dynamics 365 Customer Engagement (on-premises) solution components, it can be imported directly into [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. You won't have to create an installer program.  
   
- ![An application with external components](media/external-components.png "An application with external components")  
+ ![An application with external components.](media/external-components.png "An application with external components")  
   
  However, if your extensions include a combination of Dynamics 365 Customer Engagement (on-premises) solution components and external components, which are not Dynamics 365 Customer Engagement (on-premises) solution components, you'll need an installer.  
   
@@ -41,7 +41,7 @@ search.audienceType:
 ## Version compatibility  
  Solutions exported from an earlier version of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] can be imported into later versions as shown in the following chart.  
   
- ![Solution version compatiblity](media/crm_v9.0_solution_compatibility_chart.png) 
+ ![Solution version compatiblity.](media/crm_v9.0_solution_compatibility_chart.png) 
   
  Generally, solutions can be imported into organizations less than two versions higher than the version the solution was exported from. Service pack releases will provide the option to either export a solution with compatibility for that service pack, or just with capabilities included in the base version. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Maintain managed solutions: Version compatibility](maintain-managed-solutions.md#BKMK_VersionCompatibilty).  
   
@@ -54,7 +54,7 @@ search.audienceType:
 
  Solution components are created by using the customization tools or APIs included in Dynamics 365 Customer Engagement (on-premises) and are fully hosted in the application. The following diagram shows the types of solution components.  
   
- ![Solution Components](media/solution-components.png "Solution Components")  
+ ![Solution Components.](media/solution-components.png "Solution Components")  
   
  When you define a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] solution you create a group of solution components that can be managed together.  
   
@@ -67,7 +67,7 @@ search.audienceType:
   
  The following diagram introduces how managed and unmanaged solutions interact with the system solution to control application behavior.  
   
- ![Solution layering](media/solution-layering.png "Solution layering")  
+ ![Solution layering.](media/solution-layering.png "Solution layering")  
   
  **System solution**  
  The system solution represents the solution components defined within Dynamics 365 Customer Engagement (on-premises). Without any managed solutions or customizations, the system solution defines the default application behavior.  
@@ -178,7 +178,7 @@ search.audienceType:
   
  The exact managed properties available depend on the type of solution component. The following screenshot shows the managed properties for a custom entity.  
   
- ![Managed properties for an entity](media/entity-managed-properties.png "Managed properties for an entity")  
+ ![Managed properties for an entity.](media/entity-managed-properties.png "Managed properties for an entity")  
   
  By default, the managed property settings assume that any kind of solution component is fully customizable. Solution developers are encouraged to enable solution components in their solutions to be customizable. However, there are situations where the definition of a solution component must be "locked down" to avoid potential breaking changes or to make future maintenance of the solution component easier.  
   
@@ -188,7 +188,7 @@ search.audienceType:
 ## Conflict resolution  
  When two or more solutions define solution components differently, Dynamics 365 Customer Engagement (on-premises) resolve the conflict using two strategies, **Merge** and **Top Wins**. The following diagram illustrates the differences.  
   
- ![Two Solution conflict resolution strategies](media/solution-merge.png "Two Solution conflict resolution strategies")  
+ ![Two Solution conflict resolution strategies.](media/solution-merge.png "Two Solution conflict resolution strategies")  
   
  **Merge**  
  User interface components (command bar, ribbons, forms, and site map) are merged. This means that the solution components are re-calculated from the lowest level to the highest so that the organization's unmanaged customizations are the last to be applied.  

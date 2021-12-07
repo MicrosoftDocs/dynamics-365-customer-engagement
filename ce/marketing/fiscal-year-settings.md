@@ -24,7 +24,7 @@ search.app:
 A fiscal period defines the time reflected in financial reports. It is used for reporting financial data in each period.
 
 1. Make sure you have the System Administrator security role or equivalent permissions in Dynamics 365 Marketing.
-1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
+1. Open the **Settings** menu ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**. The advanced-settings area then opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator.
 1. The new tab will open the **Business management** settings by default. On the **Business management** page, select **Fiscal year settings**.
 1. Enter information in the text boxes.
     - In the **Start Date** box, select the date to start the fiscal year.

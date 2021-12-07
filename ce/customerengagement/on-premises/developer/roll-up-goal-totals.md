@@ -4,7 +4,7 @@ description: "RecalculateRequest message can be used to roll up data in a goal h
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

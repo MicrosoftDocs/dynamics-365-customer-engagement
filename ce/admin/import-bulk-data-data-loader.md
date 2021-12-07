@@ -1,5 +1,6 @@
 ---
-title: "Preview feature: Import bulk data with the Data Loader | MicrosoftDocs"
+title: "Dynamics 365 Data Loader preview feature"
+description: "The bulk Data Loader service for Dynamics 365 has been retired. Thank you for participating in the preview."
 ms.custom: 
 ms.date: 07/25/2018
 ms.reviewer: 

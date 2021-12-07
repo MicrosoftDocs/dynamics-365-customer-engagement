@@ -1,12 +1,11 @@
 ---
 title: "Set idle time threshold | Microsoft Docs"
 description: "Learn how to set the idle time threshold."
+ms.date: 12/29/2020
+ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 12/29/2020
-ms.topic: reference
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Set the idle time threshold for average handle time

@@ -1,11 +1,10 @@
 ---
 title: "Smart assist for agent efficiency | MicrosoftDocs"
-description: "Learn about how to smartly assist agents with the next-best steps in the Customer Service workspace and Omnichannel Administration apps."
+description: "Learn how to smartly assist agents with the next-best steps in Customer Service workspace and Omnichannel Administration apps."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 03/11/2021
-ms.service: "dynamics-365-customerservice"
+ms.date: 10/07/2021
 ms.topic: article
 ---
 
@@ -36,8 +35,8 @@ The smart assist feature can be enabled across all channels, such as Chat for Dy
 - Productivity pane must be enabled. Out of the box, productivity pane is enabled by default.
 - Smart assist must be enabled.
 - One of the following:
-    - AI-suggested similar cases and knowledge articles should be enabled by your administrator. This feature is currently available in preview mode only.
-    - Develop a smart assist bot and integrate it with Omnichannel for Customer Service. The smart-assist bot interprets the conversation context in real time and provides suggestions to agents. For information: [Build a smart assist bot](../omnichannel/developer/how-to/smart-assist-bot.md).
+  - AI-suggested similar cases and knowledge articles should be enabled by your administrator.
+  - Develop a smart assist bot and integrate it with Omnichannel for Customer Service. The smart-assist bot interprets the conversation context in real time and provides suggestions to agents. For information: [Build a smart assist bot](../customer-service/smart-assist-bot.md).
 
 ## Enable AI suggestions for similar cases and knowledge articles
 
@@ -45,38 +44,33 @@ To enable AI-suggested similar cases and knowledge articles, see [Enable AI sugg
 
 ## Enable smart assist for the bot framework in Omnichannel for Customer Service
 
-[Step 1: Create a bot user](#step-1-create-a-bot-user)
+To enable smart assist for the bot framework in Omnichannel for Customer Service, perform the following steps:
+1. [Create a bot user](#step-1-create-a-bot-user)
 
-[Step 2: Add smart assist bot to a workstream](#step-2-add-smart-assist-bot-to-a-workstream)
+2. [Add smart assist bot to a workstream](#step-2-add-smart-assist-bot-to-a-workstream)
 
-### Step 1: Create a bot user<a name="step-1-create-a-bot-user"></a>
+### Create a bot user<a name="step-1-create-a-bot-user"></a>
 
 Create a bot user in the application to work as a smart assistant to the agent. A bot user is created as an application user and assigned the **Omnichannel agent** role. If your bot needs to search for knowledge base articles, then you need to provide either the **Customer Service Manager** or **Customer Service Representative** role.
 
-You can create an application user only in the web client. Use the bot application ID of the smart assist bot to create the bot user. For information: [Create a bot user](../customer-service/configure-bot.md#step-1-create-a-bot-user).
+You can create an application user only in the web client. Use the bot application ID of the smart assist bot to create the bot user. More information: [Create a bot user](../customer-service/configure-bot.md#configure-the-bot-user-as-an-omnichannel-agent)
 
-### Step 2: Add a smart assist bot to a work stream<a name="step-2-add-smart-assist-bot-to-a-workstream"></a>
+### Add a smart assist bot to a workstream<a name="step-2-add-smart-assist-bot-to-a-workstream"></a>
 
-After you create a bot user, you need to add the bot to the work stream so that agents who use the channel of this workstream can see the suggestions.
+After you create a bot user, you need to add the bot to the workstream so that agents who use the channel of this workstream can see the suggestions.
 
-1. Sign in to the Omnichannel Administration app.
+1. In Omnichannel admin center, go to **Workstreams** under **General settings**, and select the workstream to which you want to add the smart assist bot.
 
-2. Under **Work Distribution Management**, select **Work Streams**.
+2. Expand Show advanced settings, and select Add bot in the **Smart Assist bots** area.
 
-3. Select the work stream for which you want to add the smart-assist bot.
+3. In the **Add from existing** panel, select a bot user from the list, and select **Add**.
 
-4. Select the **Smart Assist** tab.
+You can add multiple bots to a workstream based on your business requirements.
 
-5. In the **Smart Assist** section, select **Add Existing**. The **Lookup Records** pane appears.
-
-6. Select the search icon to see the list of available smart-assist bots, select a bot from the list, and then select **Add**.
-You can add multiple bots to a work stream based on your business requirements.
-
-7. Select **Save**.
 
 ### See also
 
 [Macros](macros.md)  
-[Agent scripts](agent-scripts.md)
+[Agent scripts](agent-scripts.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

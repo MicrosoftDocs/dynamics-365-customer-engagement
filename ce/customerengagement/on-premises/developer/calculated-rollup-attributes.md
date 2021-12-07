@@ -2,9 +2,9 @@
 title: "Calculated and rollup attributes (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about common elements and characterstics, calculated attributes, rollup attributes, retrieve a calculated rollup field value immediately, and SourceTypeMasks enumeration."
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 11/12/2021
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -85,6 +85,8 @@ search.audienceType:
  Calculated attributes don’t have values when a user with [!INCLUDE[pn_crm_for_outlook_full](../includes/pn-crm-for-outlook-full.md)] is offline.  
   
  `MaxValue` and `MinValue` metadata properties can’t be set on calculated attributes  
+
+More information: [Additional limitations](#additional-limitations)
   
 <a name="BKMK_Rollup"></a>   
 
@@ -143,7 +145,9 @@ search.audienceType:
   
  A rollup attribute formula can’t include records in many-to-many (N:N) relationships. It can only include records in one-to-many (1:N) relationships.  
   
- Rollup attribute formulas can’t use one-to-many (1:N) relationships with the `ActivityPointer` or `ActivityParty` entity.  
+Rollup attribute formulas can’t use one-to-many (1:N) relationships with the `ActivityPointer` or `ActivityParty` entity.
+
+More information: [Additional limitations](#additional-limitations)
   
 <a name="BKMK_SourceTypeMasks"></a>   
 ## SourceTypeMasks enumeration  
@@ -182,7 +186,21 @@ search.audienceType:
     /// </summary>  
     Invalid = 32  
 }  
-```  
+```
+
+## Additional limitations
+
+These additional limitations apply to both rollup and calculated attributes.
+
+An active layer, within a solution, on a calculated field or rollup field cannot be removed using **Remove active customizations**. However active layer changes can be removed by following the below steps.
+
+1. Open **Solution Layers** of a field.
+
+1. Open the **Active Layer** and choose **Remove active customizations**. This will not remove the active layer but removes all changes in it.
+
+1. Open the field and navigate to the **Formula Designer** page using the **Edit**/**Modify** button next to the **Field Type** drop down.
+
+1. Make some change in the formula and save it. Update the formula back to the original one and save it. The system will regenerate the field with the latest definition and the field will work as expected.
   
 ### See also  
  [Video: Rollup and Calculated Fields in Dynamics 365 Customer Engagement (on-premises)](https://youtu.be/RoahCH1p3T8)   

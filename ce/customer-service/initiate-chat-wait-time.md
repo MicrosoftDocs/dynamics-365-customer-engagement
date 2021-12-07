@@ -1,28 +1,24 @@
 ---
-title: "Initiate a chat | Microsoft Docs"
-description: "Read how you can start a chat using the startChat API"
+title: "Start a chat | MicrosoftDocs"
+description: "Understand how to start a chat using the startChat API. Also included are code snippets to start a chat and hide the chat button."
+ms.date: 07/15/2019
+ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 07/15/2019
-ms.topic: reference
-ms.service: dynamics-365-customerservice
 ---
-# Initiate a chat
+# Start a chat
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 Follow these steps to start a chat:
 
-1. Listen to the **lcw:ready** event raised by a live chat to start using the live chat SDK methods. The live chat methods should be invoked after the **lcw:ready** event is raised. You can listen for this event by adding your own event listener on the window object.
-2. Once the **lcw:ready** event is raised, call the [startChat](developer/reference/methods/startChat.md) method to initiate a chat.
+1. Listen to the **lcw:ready** event raised by a live chat to start using the [live chat SDK methods](developer/omnichannel-reference.md). The live chat methods should be invoked after the **lcw:ready** event is raised. You can listen for this event by adding your own event listener on the window object.
+2. After the **lcw:ready** event is raised, call the [startChat](developer/reference/methods/startChat.md) method to start a chat.
 
-> [!NOTE]
-> To use a custom chat button instead of the out-of-the-box chat button, add the attribute `data-hide-chat-button` in the Widget snippet and set its value to `true`. Invoke the [startChat](developer/reference/methods/startChat.md) method on click of the custom UI component to start chat.
->
-> **Sample widget code snippet to hide chat button**
->
-> `<script id="Microsoft_Omnichannel_LCWidget" src="<valid-src>" data-app-id="<valid-app-id>" data-org-id="<valid-org-id>" data-org-url="<valid-org-url>" data-hide-chat-button="true"></script>`  
+   To authenticate a customer when you start a chat, see [Send authentication token](send-auth-token-starting-chat.md).
+
+   To start a chat proactively depending on various customer scenarios in your organization, see [Start a chat proactively](start-proactive-chat.md).
 
 ## Sample code
 
@@ -40,9 +36,9 @@ window.addEventListener("lcw:error", function handleLivechatErrorEvent(errorEven
 });
 ```
 
-Consider a scenario where the customer is on your portal page, and you want to initiate chat once the customer has spent some time on the page. You can programmatically open the chat widget once the specified time has elapsed.
+Consider a scenario where the customer is on your portal page, and you want to start a chat after the customer has spent some time on the page. You can programmatically open the chat widget after the specified time has elapsed.
 
-The sample code given below shows how you can start a chat after the customer has been waiting for 5 minutes.
+The following sample code shows how you can start a chat after the customer has been waiting for 5 minutes:
 
 ```JavaScript
 window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
@@ -52,10 +48,19 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
     }, 300000);
 });
 ```
+
+## Use custom chat button
+
+To use a custom chat button instead of the out-of-the-box chat button, add the attribute `data-hide-chat-button` in the widget snippet and set its value to `true`. Invoke the [startChat](developer/reference/methods/startChat.md) method on click of the custom UI component to start the chat.
+
+### Sample code snippet to hide the standard chat button
+
+`<script id="Microsoft_Omnichannel_LCWidget" src="<valid-src>" data-app-id="<valid-app-id>" data-org-id="<valid-org-id>" data-org-url="<valid-org-url>" data-hide-chat-button="true"></script>`  
+
 ### See also
 
 [startChat](developer/reference/methods/startChat.md)<br />
-[JavaScript API reference for Live chat SDK](developer/omnichannel-reference.md)<br />
+[JavaScript API reference for Live Chat SDK](developer/omnichannel-reference.md)<br />
 [Customize chat widget](customize-chat-widget.md)
 
 

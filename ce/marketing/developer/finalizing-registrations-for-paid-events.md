@@ -46,18 +46,18 @@ Follow these steps to register your application:
 
 1. Navigate to **Azure Active Directory**, select **App registrations**, and then select **New registration**. 
 
-    ![Azure app registration](../media/azure-app-registration.png "Azure app registration")
+    ![Azure app registration.](../media/azure-app-registration.png "Azure app registration")
  
 1. Enter a name for your application. Select the **Accounts in any organizational directory** option in the **Supported account types** section. You don’t need to add a redirect URI. 
  
-    ![Supported account types](../media/supported-account-types.png "Supported account types")
+    ![Supported account types.](../media/supported-account-types.png "Supported account types")
 
 1. Select **Register**. 
 1. After the application is registered, you should be redirected to the **Overview** page. Look for the **application ID** and **tenant ID** values and save them. 
 
 1. Navigate to **Certificates & secrets** and select **New client secret**. Make note of the client secret value.  
 
-    ![Certificates and secrets](../media/certificates-and-secrets.png "Certificates and secrets")
+    ![Certificates and secrets.](../media/certificates-and-secrets.png "Certificates and secrets")
 
 ## Step 2: Create an application user 
 
@@ -65,15 +65,15 @@ In this step, create an application user and associate the application user with
 
 1. Go to your Dynamics 365 Marketing instance and navigate to **Settings** > **Security** and then select **Users**. 
  
-    ![Select users](../media/settings-secuirty-users.png "Select users")
+    ![Select users.](../media/settings-secuirty-users.png "Select users")
 
 1. Switch the view to **Application Users** and select **New**. 
 
-    ![Application user form](../media/application-user-form.png "Application user form")
+    ![Application user form.](../media/application-user-form.png "Application user form")
 
 1. Make sure the **User: Application User** view is selected. If not, select the drop-down arrow, select **Application User**, and then enter the **User Name**, **Application ID**, **Full Name** and **Primary Email** values.
 
-   ![Application user form sample](../media/application-user-form-sample.png "Application user form sample")
+   ![Application user form sample.](../media/application-user-form-sample.png "Application user form sample")
 
 1. Select **Save**. After you save the record, the **Application ID URI** and **Azure AD Object ID** values should be automatically filled. If not, make sure that you entered the correct application ID and that you registered your application correctly. 
 

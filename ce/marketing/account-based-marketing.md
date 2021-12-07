@@ -48,19 +48,19 @@ Firmographic segments are dynamic segments pre-configured to include a query int
 
 1. A new firmographic segment opens. Check the view setting near the upper corner of the **Definition** tab and make sure it's set to **Tree view**. (You could use either view, but in this procedure we show and describe the tree view, so it's a good idea to use it for now.)
 
-    ![Choose the tree view](media/segment-firmographic-tree-view.png "Choose the tree view")
+    ![Choose the tree view.](media/segment-firmographic-tree-view.png "Choose the tree view")
 
 1. Note that your firmographic segment already includes a link to the related account entity, as indicated by the **Account (Contact -> Account (Company Name))** relationship. This relationship tells you that you are referencing the **Account** entity, and that the relation between that entity and the parent **Contact** entity (shown at the base of the tree) goes through the **Company Name** field of the **Contact** entity. The **Company Name** field holds the name of the company (account) that each contact works for, so this query will find employees of the accounts we are about to define. More information: [Move between entities with relationships](segments-profile.md#relationships)
 
-    ![The contact entity with a relation to accounts](media/segment-firmographic-entities.png "The contact entity with a relation to accounts")
+    ![The contact entity with a relation to accounts.](media/segment-firmographic-entities.png "The contact entity with a relation to accounts")
 
 1. Use the drop-down lists and input fields in the rows indented under the **Account (Contact -> Account (Company Name))** relation to define the set of accounts you'd like to find. All of the criteria you enter here are based on values found in your account records (not contact records). For example, to find all accounts in Chicago with an annual revenue of $100,000 or more, you'd include the following two rows here, and combine them with an AND operator:
 
-    ![Accounts in Chicago with an annual revenue of $100,000 or more](media/segment-firmographic-accounts.png "Accounts in Chicago with an annual revenue of $100,000 or more")
+    ![Accounts in Chicago with an annual revenue of $100,000 or more.](media/segment-firmographic-accounts.png "Accounts in Chicago with an annual revenue of $100,000 or more")
 
 1. The segment currently finds all contacts who work for the accounts that have the properties you specified. If needed, you can now add more contact-based criteria to further limit the set of contacts found for the segment (for example, to filter by job title). To add criteria for the contact entity, work directly under the **Contact** entity (at the base of the tree, outside the **Account (Contact -> Account (Company Name))** relation). For example, to find only contacts with a job title of purchaser, open the **Add** drop-down list at the base of the tree, select **Add row** and then specify the row as follows:
 
-    ![Add contact filters as needed](media/segment-firmographic-contact.png "Add contact filters as needed")
+    ![Add contact filters as needed.](media/segment-firmographic-contact.png "Add contact filters as needed")
 
 1. Select the field that shows **Enter segment name** as ghost text. Then type a name for your segment.
 
@@ -68,7 +68,7 @@ Firmographic segments are dynamic segments pre-configured to include a query int
 
 1. Wait for about a minute and then select **Refresh** on the command bar to refresh the page. You should now see that a **Members** tab has been added (if you don't see it, wait a little longer and try to **Refresh** again until you do). When the **Members** tab appears, open it and note that the list includes a column that shows which company name (account) each contact belongs to.
 
-    ![Segment members with accounts](media/abm-segment-5.png "Segment members with accounts")
+    ![Segment members with accounts.](media/abm-segment-5.png "Segment members with accounts")
 
 ### Create a static segment using an account filter
 
@@ -78,7 +78,7 @@ When you set up a static segment, you'll mark a check box for each specific cont
 
 1. The static-segment designer opens which shows a list of all contacts in your database, plus a set of filter controls that can help you find the contacts you want to include. Select the filter button to expose the filter controls.
 
-    ![A static segment with filter](media/abm-segment-static.png "A static segment with filter")
+    ![A static segment with filter.](media/abm-segment-static.png "A static segment with filter")
 
 1. Use the filter to find the contacts that you want to include in the segment. One query that might be useful when setting up segments for account-based marketing is one that filters the list by company name. To do that, use the various drop-down lists in the **Filter** area to set up a query clause of the following form:
 
@@ -124,7 +124,7 @@ For more information about dynamic content and handlebars expressions, see [Add 
 
 You must set each customer journey to be _either_ contact-based _or_ account-based. This option modifies many of the ways that the journey's tiles will work. Use the **Target** setting on the **General** tab to configure this option for each journey.
 
-![Set a journey to target accounts](media/abm-journeys-target.png "Set a journey to target accounts")
+![Set a journey to target accounts.](media/abm-journeys-target.png "Set a journey to target accounts")
 
 The following subsections summarize how various tiles behave for account-based journeys. Tiles not mentioned here work the same for both contact and account-based journeys (as described in the [Customer journey tiles reference](customer-journey-tiles-reference.md)).
 
@@ -137,7 +137,7 @@ For account-based journeys, trigger tiles can work based on contacts or on accou
 
 Use the **Based on** property to set this option for each tile. This option is not available to triggers in contact-based journeys.
 
-![An account-based trigger](media/abm-journeys-trigger.png "An account-based trigger")
+![An account-based trigger.](media/abm-journeys-trigger.png "An account-based trigger")
 
 ### Activity tiles
 
@@ -145,7 +145,7 @@ When a contact flows through an activity tile in account-based journeys, you can
 
 Use the **Create for each** and **Assigned to** settings to choose these options for each activity tile. The account option is only available when you are working with an account-based journey.
 
-![Create an activity for each account](media/abm-journeys-activity.png "Create an activity for each account")
+![Create an activity for each account.](media/abm-journeys-activity.png "Create an activity for each account")
 
 ### Launch-workflow tiles
 
@@ -156,7 +156,7 @@ When you are creating an account-based journey, you can control how each launch-
 
 Use the **Launch for each** setting to choose this option for each launch-workflow tile. The account option is only available when you are working with an account-based journey.
 
-![Launch a workflow for each account](media/abm-journeys-workflow.png "Launch a workflow for each account")
+![Launch a workflow for each account.](media/abm-journeys-workflow.png "Launch a workflow for each account")
 
 ### Create-lead tiles
 
@@ -167,7 +167,7 @@ When you are creating an account-based journey, you can control how each create-
 
 Use the **Create for each** setting to choose this option for each create-lead tile. The account option is only available when you are working with an account-based journey.
 
-![Create account-based leads](media/abm-journeys-leads.png "Create account-based leads")
+![Create account-based leads.](media/abm-journeys-leads.png "Create account-based leads")
 
 > [!NOTE]
 > The create-lead tile doesn't try to match any existing leads. It always creates new leads, regardless of whether you are creating account or contact leads.
@@ -176,7 +176,7 @@ Use the **Create for each** setting to choose this option for each create-lead t
 
 When you are viewing insights on the Designer tab for an account-based journey, you can filter the KPIs shown for any selected tile by account. To do so, select a tile and then choose an account from the **Filter by account** field in the **Data** tab.
 
-![Filter insights by account](media/abm-journeys-data.png "Filter insights by account")
+![Filter insights by account.](media/abm-journeys-data.png "Filter insights by account")
 
 ## Account-based leads and lead scoring
 
@@ -191,7 +191,7 @@ Leads can be associated with accounts or contacts. If a lead is associated with 
 
 To set a scoring model to be lead-based or account-based, use the **Entity target** setting on the **Summary** tab for the model.
 
-![Set a scoring model to target accounts](media/abm-scoring-target.png "Set a scoring model to target accounts")
+![Set a scoring model to target accounts.](media/abm-scoring-target.png "Set a scoring model to target accounts")
 
 One way to score a lead based on the account associated with it is to set up a condition tile with the following properties:
 
@@ -199,13 +199,13 @@ One way to score a lead based on the account associated with it is to set up a c
 
 1. Add an **Expression** where **Parent Account for lead account = _&lt;account-ID&gt;_** , where you can find the account ID by opening the account record and checking for the value of **id** parameter at the end of the page URL.
 
-    ![A condition that scores leads by account name](media/abm-scoring-expression.png "A condition that scores leads by account name")
+    ![A condition that scores leads by account name.](media/abm-scoring-expression.png "A condition that scores leads by account name")
 
 For more information about lead scoring in Marketing, see [Design lead-scoring models](score-manage-leads.md).
 
 To view and assign which contact and/or account is associated with each lead, open the lead and then select the **Inquiry** stage of the **Lead-to-opportunity marketing sales process** business process display. Then view or edit the **Existing contact?** and **Existing account?** fields shown here.
 
-![Assign an account to a lead](media/abm-lead-assign-account.png "Assign an account to a lead")
+![Assign an account to a lead.](media/abm-lead-assign-account.png "Assign an account to a lead")
 
 ## Account insights
 

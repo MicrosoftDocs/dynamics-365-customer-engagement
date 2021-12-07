@@ -1,9 +1,10 @@
 ---
-title: "Error logging for server-side synchronization  | MicrosoftDocs"
+title: "Error logging for server-side sync in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn about the error logging tasks performed by server-side synchronization. Server-side sync generates alerts if an error occurs while processing email."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

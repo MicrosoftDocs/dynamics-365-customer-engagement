@@ -1,10 +1,10 @@
 ---
-title: "Use the solution explorer (Dynamics 365 Customer Engagement on-premises) | MicrosoftDocs"
-description: "Learn how to use solution explorer to create or customize apps"
+title: "Use the solution explorer in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how to use the solution explorer to create or customize apps. Get guidance on customizing the individual components found in the solution explorer."
 ms.custom: 
 ms.date: 01/11/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -20,12 +20,12 @@ search.audienceType:
   - customizer
 
 ---
-# Use the solution explorer
+# Use the solution explorer to customize components
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Use solutions in Power Apps](/powerapps/maker/common-data-service/use-solution-explorer)
 
 Within the solution explorer you can navigate through a hierarchy of nodes using the navigation pane on the left side as shown in the following screenshot:  
   
- ![Default solution with entities collapsed](../customize/media/crm-itpro-cust-defaultsolutionentitiescollapsed.PNG "Default solution with entities collapsed")  
+ ![Default solution with entities collapsed.](../customize/media/crm-itpro-cust-defaultsolutionentitiescollapsed.PNG "Default solution with entities collapsed")  
   
 > [!NOTE]
 >  Use your mouse and keyboard when working with customization tools in the solution explorer. This part of the application isn’t optimized for touch.  
@@ -41,7 +41,7 @@ With managed solutions there will be no commands available and you’ll see the 
   
  Many of the customizations you’ll want to do will involve entities. You can expand the **Entities** node to show a list of all the entities in the system that can be customized in some way. You can further expand each entity to see the solutions components that are part of the entity as shown with the account entity in the following screenshot:  
   
- ![Default Solution showing expanded account entity](../customize/media/crm-itpro-cust-defaultsolution.PNG "Default Solution showing expanded account entity")  
+ ![Default Solution showing expanded account entity.](../customize/media/crm-itpro-cust-defaultsolution.PNG "Default Solution showing expanded account entity")  
   
  For details about customizing the individual solution components found in the solution explorer, see the following topics:  
   

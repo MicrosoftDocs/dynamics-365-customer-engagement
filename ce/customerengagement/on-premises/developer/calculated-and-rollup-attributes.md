@@ -1,11 +1,12 @@
 ---
-title: "Calculated and rollup attributes (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Rollup and calculated attributes (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+description: "Learn how calculated and rollup attributes free the user from having to manually perform calculations and focus on their work."
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
-ms.tgt_pltfrm: 
+ms.tgt_pltfrm: s
 ms.topic: article
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
@@ -18,7 +19,7 @@ search.audienceType:
   - developer
 
 ---
-# Calculated and rollup attributes
+# Rollup and calculated attributes
 
 *Calculated* and *rollup* attributes free the user from having to manually perform calculations and focus on their work. System administrators can now easily define a field to contain the value of many common calculations without having to work with a developer. Developers can also leverage the platform capabilities to perform these calculations rather than within their own code.  
   

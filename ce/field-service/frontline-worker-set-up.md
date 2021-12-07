@@ -1,15 +1,13 @@
 ---
 title: Set up frontline workers in your Dynamics 365 Field Service organization
 description: Learn how to set up frontline workers through the Dynamics 365 Field Service get started page
-author: xonatia
-ms.service: dynamics-365-customerservice
+author: FieldServiceDave
+ms.service: dynamics-365-field-service
 ms.reviewer: krbjoran
-ms.custom:
-  - dyn365-fieldservice
 ms.date: 04/01/2021
 ms.topic: overview
  - field-service
-ms.author: xolee
+ms.author: daclar
 search.app:
   - D365CE
   - D365FS
@@ -19,11 +17,14 @@ search.app:
 
 Frontline workers in Dynamics 365 Field Service are people in your organization who are primarily scheduled for onsite jobs and who use the Dynamics 365 Field Service mobile app for their work. Quickly getting frontline workers set up in Field Service is critical in order to ensure they can immediately start fixing problems at customer locations and completing service calls. 
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWN1Bb]
+
+
 Admins can now use a single form to set up frontline workers in their organizations with all the required permissions frontline workers need to quickly get up and running with the Field Service mobile app and be scheduled for work orders. 
 
 With a single form, admins can: 
 
-1. Set up one or more frontline workers in their organization with the appropriate [characteristics (skills and certifications)](https://docs.microsoft.com/dynamics365/field-service/set-up-characteristics), [territories](https://docs.microsoft.com/dynamics365/field-service/set-up-territories), time zone, [security roles](https://docs.microsoft.com/dynamics365/field-service/view-user-accounts-security-roles), [field security profiles](https://docs.microsoft.com/dynamics365/field-service/view-user-accounts-security-roles), and [mobile offline profile](https://docs.microsoft.com/dynamics365/field-service/mobile-power-app-system-offline). 
+1. Set up one or more frontline workers in their organization with the appropriate [characteristics (skills and certifications)](set-up-characteristics.md), [territories](set-up-territories.md), time zone, [security roles](view-user-accounts-security-roles.md), [field security profiles](view-user-accounts-security-roles.md), and [mobile offline profile](mobile-power-app-system-offline.md). 
 2. View and update the defaulted security role, field security profile, and mobile offline profile set for their frontline workers, which controls the data their frontline workers can see and access. Admins can  update these permissions or add any custom security roles, field security profiles, or mobile offline profile.
 3. Automatically send an email to their frontline workers with a link to download the Dynamics 365 Field Service mobile app. 
 
@@ -33,10 +34,10 @@ After setting up one or more frontline workers, admins can then:
 2. View and update details for individual frontline workers on the bookable resource form, including their home address, security role, field security profile, and mobile offline profile. 
 
 > [!NOTE]
-> Bing Maps has been enabled for new organizations. One-click directions has been enabled for all frontline workers. For more information, learn more [here](https://docs.microsoft.com/dynamics365/field-service/field-service-maps-address-locations). For privacy information, see: [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement). 
+> Bing Maps has been enabled for new organizations. One-click directions has been enabled for all frontline workers. For more information, learn more [here](field-service-maps-address-locations.md). For privacy information, see: [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement). 
 
 ## Prerequisites 
-- Your organization's global admin or system admin must have a Microsoft 365 [administrator account](https://www.microsoft.com/microsoft-365/business/office-365-administration?rtc=1). For more information, learn more about [admin permissions](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide).
+- Your organization's global admin or system admin must have a Microsoft 365 [administrator account](https://www.microsoft.com/microsoft-365/business/office-365-administration?rtc=1). For more information, learn more about [admin permissions](/microsoft-365/admin/add-users/about-admin-roles).
 - Each frontline worker must have a Dynamics 365 Field Service license assigned through the [Microsoft Admin Center](https://admin.microsoft.com). 
 
 ## Definitions 
@@ -89,7 +90,7 @@ After setting up one or more frontline workers, admins can then:
 5a. If the **Territories** do not exist, select the drop-down and select **+ New Territories**. A pop-up form will appear and admins must leave the current form to create new territories for their frontline workers. Admins *will* lose their work on the **Quick Set Up: Frontline Workers** form. 
 
 >[!Important]
-> To ensure no work is lost, admins should set up new territories outside of the quick-create form. For more information about setting up territories, see: [setting up territories without this form](https://docs.microsoft.com/dynamics365/field-service/set-up-territories)
+> To ensure no work is lost, admins should set up new territories outside of the quick-create form. For more information about setting up territories, see: [setting up territories without this form](set-up-territories.md)
 
 6. View or update the defaulted **Time Zone** for your frontline workers.
 
@@ -107,7 +108,7 @@ After setting up one or more frontline workers, admins can then:
 9. View or update the defaulted **Mobile Offline Profile** for your frontline workers. Admins can only add *one* mobile offline profile, including any custom mobile offline profile, to this field. This field is required. 
 
  > [!NOTE]
- > Unpublished mobile offline profiles will not appear until published; [learn more here](https://docs.microsoft.com/dynamics365/field-service/mobile-power-app-system-offline).
+ > Unpublished mobile offline profiles will not appear until published; [learn more here](mobile-power-app-system-offline.md).
 
 > ![Screenshot of adding mobile offline profiles in Field Service.](./media/setup_form_mop.PNG)
 

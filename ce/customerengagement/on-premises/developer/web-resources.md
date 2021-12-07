@@ -3,7 +3,7 @@ title: "Web resources for Dynamics 365 Customer Engagement (Developer Guide for 
 description: "Web resources are virtual files that are stored in the Dynamics 365 Customer Engagement database and that you can retrieve by using a unique URL address."
 keywords: 
 ms.date: 10/31/2017
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.topic: get-started-article
 applies_to: 

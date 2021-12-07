@@ -1,20 +1,19 @@
 ---
-title: "Walkthrough 6  Configure the Debugger hosted control in your agent application | MicrosoftDocs"
-description: 
+title: "Walkthrough 6: Configure Debugger hosted control in agent applications | MicrosoftDocs"
+description: "Use this walkthrough to understand the prerequisites and procedures for configuring the Debugger hosted control in your agent applications."
+ms.date: 08/17/2018
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/17/2018
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 
 # Walkthrough 6: Configure the Debugger hosted control in your agent application
@@ -72,7 +71,7 @@ search.app:
    |USD Component Type|Debugger|  
    |Display Group|MainPanel|  
 
-   ![Create a Debugger hosted control](../unified-service-desk/media/usd-create-session-lines-hosted-control.png "Create a Debugger hosted control")  
+   ![Create a Debugger hosted control.](../unified-service-desk/media/usd-create-session-lines-hosted-control.png "Create a Debugger hosted control")  
 
 6. Click **Save**.  
 
@@ -116,7 +115,7 @@ search.app:
     |Action|CallDoAction|  
     |Data|action=default<br />application=Contoso Debugger|  
 
-    ![Create action call in Unified Service Desk](../unified-service-desk/media/usd-session-tab-name-format.png "Create action call in Unified Service Desk")  
+    ![Create action call in Unified Service Desk.](../unified-service-desk/media/usd-session-tab-name-format.png "Create action call in Unified Service Desk")  
 
 11. Click **Save**.  
 
@@ -157,7 +156,7 @@ search.app:
 
  Your agent application will now have a **DEBUGGER** button in the toolbar area. Clicking this button displays the Debugger control.  
 
- ![Debugger in your agent application](../unified-service-desk/media/usd-debugger-agent-application.png "Debugger in your agent application")  
+ ![Debugger in your agent application.](../unified-service-desk/media/usd-debugger-agent-application.png "Debugger in your agent application")  
 
 <a name="conclusion"></a>   
 ## Conclusion  

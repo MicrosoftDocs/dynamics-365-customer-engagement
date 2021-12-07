@@ -3,7 +3,7 @@ title: "Sample: Bulk delete exported records | MicrosoftDocs"
 description: "Sample demonstrates how to perform a bulk deletion of records that were previously exported by using the Export-to-Excel option."
 keywords: 
 ms.date: 10/31/2017
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.topic: samples
 applies_to: 

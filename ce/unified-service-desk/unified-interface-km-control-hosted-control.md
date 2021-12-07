@@ -1,20 +1,19 @@
 ---
-title: "Unified Interface KM Control (Hosted Control) in Unified Service Desk for Unified Interface App| MicrosoftDocs"
+title: "Unified Interface KM Control (hosted control) for Unified Service Desk | MicrosoftDocs"
 description: "Learn to use the KM Control type of hosted control to display knowledge base articles in your agent application."
+ms.date: 12/31/2019
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 12/31/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 monikerRange: ">=dynamics-usd-4"
 ---
 
@@ -31,7 +30,7 @@ Use the **Unified Interface KM Control** type of hosted control to display knowl
 ## Create a KM Control hosted control  
  While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **Unified Interface KM Control** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
 
- ![Unified Interface KM Control hosted control](../unified-service-desk/media/usd-unified-interface-kmcontrolhostedcontrol.png "Unified Interface KM Control hosted control")  
+ ![Unified Interface KM Control hosted control.](../unified-service-desk/media/usd-unified-interface-kmcontrolhostedcontrol.png "Unified Interface KM Control hosted control")  
 
  In the **New Hosted Control** screen:
 

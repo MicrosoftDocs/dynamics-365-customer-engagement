@@ -1,14 +1,11 @@
 ---
 title: Create organizational units in Service Scheduling (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to create organizational units in service scheduling in Dynamics 365 Customer Service
+ms.date: 11/20/2018
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 11/20/2018
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Create and manage organizational units  
@@ -48,7 +47,7 @@ Make sure that you have the required security role or equivalent permissions.
 
    Active organizational units can be edited, assigned, shared, or viewed from the **Active Organizational Units** system view.
 
-   ![create organizational unit](media/create-org-unit.png)
+   ![create organizational unit.](media/create-org-unit.png)
 
 ### See also
 

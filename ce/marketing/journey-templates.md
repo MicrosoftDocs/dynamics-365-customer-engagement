@@ -22,7 +22,7 @@ search.app:
 
 Each time you create a new customer journey, you're asked to select from a gallery of _customer journey templates_ that are available on your instance.
 
-![The customer journey template gallery](media/customer-journey-template.png "The customer journey template gallery")
+![The customer journey template gallery.](media/customer-journey-template.png "The customer journey template gallery")
 
 Each template is assigned a language and purpose, and you can filter the gallery by these values to make the template you're looking for easier to find. You can view details about any listed template by selecting it in the list.
 
@@ -46,7 +46,7 @@ To save an existing customer journey as a template:
 
 1. A quick-create form opens at the side of the window.
 
-    ![Customer journey quick-create form](media/journey-templates-quick-create.png "Customer journey quick-create form")
+    ![Customer journey quick-create form.](media/journey-templates-quick-create.png "Customer journey quick-create form")
 
     Make the following settings:
 
@@ -92,7 +92,7 @@ To reactivate an inactive template:
 
 1. Open the system-view selector and switch to the **Inactive customer journey templates** view.
 
-    ![The system-view selector](media/journey-templates-inactive.png "The system-view selector")
+    ![The system-view selector.](media/journey-templates-inactive.png "The system-view selector")
 
 1. Mark the template that you want to reactivate by selecting any part of the row other than the template name. Then select **Activate** on the command bar. This moves the selected template back to the **Active customer journey templates** system view and will also make it available in the customer journey template gallery.
 

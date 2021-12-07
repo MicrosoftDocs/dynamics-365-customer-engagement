@@ -1,5 +1,7 @@
 ---
 title: "Cannot Connect to the Specified Microsoft SQL Server | Microsoft Docs"
+description: Environment diagnostics warning that the user can't connect to the SQL Server
+ms.prod: d365ce-op
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -23,7 +25,7 @@ ms.author: matp
   
  ## Solution
   
- For information about how to troubleshoot this problem, see [Configure the Windows Firewall to Allow SQL Server Access](/sql/sql-server/install/configure-the-windows-firewall-to-allow-sql-server-access?view=sql-server-2017).
+ For information about how to troubleshoot this problem, see [Configure the Windows Firewall to Allow SQL Server Access](/sql/sql-server/install/configure-the-windows-firewall-to-allow-sql-server-access?view=sql-server-2017&preserve-view=true).
 
 
 

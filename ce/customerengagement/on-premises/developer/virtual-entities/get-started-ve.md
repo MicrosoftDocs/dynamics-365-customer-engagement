@@ -1,7 +1,7 @@
 ---
 title: "Get started with virtual entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.date: 06/21/2019
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.topic: get-started-article
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)

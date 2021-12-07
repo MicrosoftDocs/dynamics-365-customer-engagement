@@ -4,7 +4,7 @@ description: "The sample shows you how to create a real-time workflow in code in
 ms.custom: 
 ms.date: 1/14/2020
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: samples

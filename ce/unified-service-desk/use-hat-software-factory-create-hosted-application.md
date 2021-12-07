@@ -1,20 +1,19 @@
 ---
-title: "Use HAT Software Factory to create a hosted application in Unified Service Desk | MicrosoftDocs"
-description: "Learn how to HAT Software Factory to create a hosted application in Unified Service Desk."
+title: "Use HAT Software Factory to create hosted application projects | MicrosoftDocs"
+description: "Learn to install and use the HAT Software Factory to create hosted application projects in Unified Service Desk."
+ms.date: 08/23/2017
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/23/2017
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Use HAT Software Factory to create a hosted application in Unified Service Desk
 
@@ -45,19 +44,19 @@ The [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-hosted-applicati
 
       In this topic, you’ll create a web application.
 
-   ![HAT Bing search](../unified-service-desk/media/usd-hat-bing-search.PNG "HAT Bing search")
+   ![HAT Bing search.](../unified-service-desk/media/usd-hat-bing-search.PNG "HAT Bing search")
 
 3. Specify the name and location of the project, and click **OK**.
 
 4. You are prompted to enter a URL for your web application. Type the URL, and then click **OK**.
 
-   ![Application properties for Bing](../unified-service-desk/media/usd-bing-url.PNG "Application properties for Bing")
+   ![Application properties for Bing.](../unified-service-desk/media/usd-bing-url.PNG "Application properties for Bing")
 
     This creates a web application project with an initialization string (Initstring.xml) that contains information about your web application URL, adapter info, and data bindings. This is basic information, and will get updated as you configure your hosted application with automations and bindings.
 
 5. Next, configure the application by using one of the following options by right-clicking the project name, and selecting an option from the shortcut menu.
 
-   ![Use the shortcut menu to configure](../unified-service-desk/media/usd-create-hat-control-11.png "Use the shortcut menu to configure")
+   ![Use the shortcut menu to configure.](../unified-service-desk/media/usd-create-hat-control-11.png "Use the shortcut menu to configure")
 
 
    |             Option             |                                                                                                                                                                             Description                                                                                                                                                                             |

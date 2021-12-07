@@ -1,8 +1,9 @@
 ---
 title: "SQL Server failure recovery | Microsoft Docs"
+description: This article provides information about how to recover from a SQL Server failure when you use Dynamics 365 Customer Engagement (on-premises) 
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: "crm-2016"
+ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -16,8 +17,6 @@ author: Mattp123
 manager: kvivek
 ---
 # SQL Server failure recovery with Dynamics 365 Customer Engagement (on-premises)
-
-
 
 If the computer that is running [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] fails, you must restore the databases from backup, and then reassociate them with the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] deployment.  
   

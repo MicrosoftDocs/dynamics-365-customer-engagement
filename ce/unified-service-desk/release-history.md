@@ -1,20 +1,21 @@
 ---
 title: "Release history (Unified Service Desk )| MicrosoftDocs"
-description: "This topic provides release history information for the Unified Service Desk Guide."
+description: "Find information about all the documentation updates made in various versions of Unified Service Desk."
+ms.date: 06/21/2021
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 04/05/2021
-ms.topic: article
 ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+monikerRange: '>= dynamics-usd-4'
 ---
 
 
@@ -29,13 +30,9 @@ This is the release history page for the [!INCLUDE[pn_unified_service_desk](../i
 
 <a name="Release_4_2"></a>
 
-## Preview: Release history for Unified Service Desk 4.2, April 2021
+## Release history for Unified Service Desk 4.2, June 2021
 
-The list provides an overview of documentation updates made in Unified Service Desk 4.2.
-
-> [!NOTE]
-> - If your organization is using a previously released version of the Unified Service Desk 4.1 client application, you must uninstall the application and then install version 4.2, instead of upgrading to version 4.2.
-> - If your organization is using a previous version other than the Unified Service Desk 4.1 client application, you can upgrade to the version 4.2.
+The list provides an overview of documentation updates made in Unified Service Desk version 4.2.
 
 
 | Topic | Updates |
@@ -193,9 +190,10 @@ The list provides an overview of documentation updates made in [!INCLUDE [pn-uni
 | [Popup Notification (Hosted Control)](popup-notification-hosted-control.md) | Updated information about the **Show** action parameters like **stack** and **stackHeight** used for configuring stack notifications. <br><br> |
 | [Session Tabs (Hosted Control)](session-tabs-hosted-control.md) | Updated new action, **SwitchSession** action that is used to switch between local sessions  and switch between local and global sessions. <br><br> |
 | [Unified Interface Page (Hosted Control)](unified-interface-page-hosted-control.md) | General Availability of the Unified Interface Support in Unified Service Desk. |
-| [Release notes of Unified Service Desk 4.0](release-notes.md) | This section describes the known issues and limitations in Unified Service Desk 4.0. |
+
 
 ::: moniker-end
+
 
 ::: moniker range="dynamics-usd-3"
 
@@ -227,7 +225,6 @@ The list provides an overview of documentation updates made in [!INCLUDE [pn-uni
 |                                 [Preview feature: Support for Unified Interface Apps](../unified-service-desk/admin/Support-unified-interfaces-apps-usd.md)                                  |  [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] supports the apps built using Unified Interface framework. That is, you can host a Unified Interface Page to load a URL or page from model-driven apps, which is built based on the Unified Interface framework.<br> <br> This is a new section under [Configure your agent application using Unified Service Desk](../unified-service-desk/configure-agent-application-unified-service-desk.md)  |
 | [Preview Feature: Unified Service Desk and Unified Interface configuration walkthroughs](../unified-service-desk/unified-service-desk-unified-interface-configuration-walkthroughs.md) |     There are seven walkthroughs in this section, which covers an area or a combination of areas in [!INCLUDE[pn_unified_service_desk_for_crm](../includes/pn-unified-service-desk-for-crm.md)]. These walkthroughs are arranged in increasing order of complexity so it may benefit you to do them in sequence. <br><br> This is a new section under [Preview feature: Support for Unified Interface Apps](../unified-service-desk/admin/Support-unified-interfaces-apps-usd.md)     |
 |                              [Preview feature: Unified Interface Page (Hosted Control)](../unified-service-desk/unified-interface-page-hosted-control.md)                              |                                                                    The **Unified Interface Page** hosted control type is used to load a URL or page from a model-driven app. <br><br> This is a new topic under [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)                                                                    |
-|                                     [Release notes of Unified Service Desk 3.3](../unified-service-desk/release-notes.md)                                      |                                                                                                       This section describes the known issues and limitations in [!INCLUDE [pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)].                                                                                                        |
 
 For information about this release, see [What's new for Administrators](../unified-service-desk/admin/whats-new-unified-service-desk-administrators.md)
 
@@ -267,6 +264,7 @@ Content for earlier version of Unified Service Desk continues to be available on
 [What's new for Developers](what-s-new-in-unified-service-desk.md)
 
 ::: moniker-end
+
 
 <!--| Version 3.3, April 2018    | [!INCLUDE[pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)] update |
 | Version 3.2, February 2018 | [!INCLUDE[pn-unified-service-desk-3-2](../includes/pn-unified-service-desk-3-2.md)] update |

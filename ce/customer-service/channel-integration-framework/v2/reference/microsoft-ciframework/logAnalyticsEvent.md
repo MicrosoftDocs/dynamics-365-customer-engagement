@@ -1,18 +1,17 @@
 ---
-title: "logAnalyticsEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework (CIF) version 2.0 | MicrosoftDocs"
-description: ""
+title: "logAnalyticsEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
+description: "Includes description, syntax, and parameter information for the logAnalyticsEvent method in JavaScript API Reference for Channel Integration Framework 2.0."
+ms.date: 10/25/2019
+ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 10/25/2019
-ms.topic: reference
-ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
 ---
 
-# logAnalyticsEvent
+# logAnalyticsEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
 
  
 
@@ -62,9 +61,9 @@ The structure of the `data` parameter JSON is shown below. It is mandatory to in
 
 Promise with value as string
 
-## See also
+### See also
 
-[initLogAnalytics method](initLogAnalytics.md)<br />
+[initLogAnalytics method](./updateconversation.md)<br />
 [Channel Analytics](../../channel-analytics.md)
 
 

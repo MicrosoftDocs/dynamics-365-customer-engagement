@@ -1,11 +1,9 @@
 ---
 title: "Integrate Dynamics 365 Field Service and Supply Chain Management | MicrosoftDocs"
 description: Learn about integration between Dynamics 365 Field Service and Dynamics 365 Supply Chain Management.
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 10/01/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
@@ -61,13 +59,13 @@ For example, in Field Service, you'll see new fields added to the warehouse enti
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a warehouse, showing the integration section](./media/inventory-warehouse-supply-chain2.png)
+> ![Screenshot of a warehouse, showing the integration section.](./media/inventory-warehouse-supply-chain2.png)
 
 When a warehouse record is created or updated in either system, the change will show in the other system in near real time.
 
 Business rules and validations in either system are respected in the other system. For example, imagine a warehouse can't be created in Supply Chain Management without a specific field value. When a user attempts to create the warehouse in Field Service, an error will appear based on the validation logic in Supply Chain Management.
 
-## Purchase Orders
+## Purchase orders
 
 Here is another example.
 
@@ -85,14 +83,14 @@ For each entity in the integration, the relevant fields are mapped to the other 
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of dual-write mapping details](./media/scm-pomap-details.jpg)
+> ![Screenshot of dual-write mapping details.](./media/scm-pomap-details.jpg)
 
 As the last part of the process, a purchase order is created in Field Service with relevant information from both systems. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of purchase order in Field Service.](./media/scm-po-form-fs.jpg)
 
-## Additional Notes
+## Additional notes
 
 - Dual-write allows organizations to integrate Supply Chain Management with Common Data Service, even without Field Service. 
 

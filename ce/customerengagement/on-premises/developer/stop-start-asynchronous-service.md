@@ -3,7 +3,7 @@ title: "Stop and start the asynchronous service (Developer Guide for Dynamics 36
 description: "Learn about stopping and starting the asynchronous service by using the Services administrative tool. The service should be stopped before a plug-in assembly that contains asynchronous plug-ins is deleted."
 ms.custom: 
 ms.date: 04/10/2019
-ms.prod: crm-2016
+ms.prod: d365ce-op
 ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 

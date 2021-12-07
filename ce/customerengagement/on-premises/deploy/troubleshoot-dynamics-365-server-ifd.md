@@ -1,8 +1,9 @@
 ---
 title: "Troubleshoot Dynamics 365 Server IFD | Microsoft Docs"
+description: This article provides a checklist to verify your internet-facing deployment is working correctly with Dynamics 365 Customer Engagement (on-premises) 
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: "crm-2016"
+ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -16,8 +17,6 @@ author: Mattp123
 manager: kvivek
 ---
 # Troubleshoot Dynamics 365 Server IFD
-
-
 
 ## A quick checklist  
   
@@ -55,11 +54,11 @@ manager: kvivek
   
      Relying party trust for claims: internalcrm.contoso.com  
   
-     ![Relying party trust for claims](media/crm-itpro-claimswp-identintern.PNG "Relying party trust for claims")  
+     ![Relying party trust for claims.](media/crm-itpro-claimswp-identintern.PNG "Relying party trust for claims")  
   
      Relying party trust for IFD: auth.contoso.com  
   
-     ![Dynamics 365 IFD Relying Party](media/crm-itpro-claimswp-identauth.PNG "Dynamics 365 IFD Relying Party")  
+     ![Dynamics 365 IFD Relying Party.](media/crm-itpro-claimswp-identauth.PNG "Dynamics 365 IFD Relying Party")  
   
  If your identifiers aren’t similar to the above examples, check the path entered for the relying party’s federation metadata URL on the **Monitoring** tab and check your DNS records.  
   

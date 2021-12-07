@@ -1,9 +1,10 @@
 ---
-title: "Import data (all record types)  | MicrosoftDocs"
+title: "Import data (all record types) into Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how to import data from various systems and sources. You can import large volumes, smaller jobs, or data for an individual record."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

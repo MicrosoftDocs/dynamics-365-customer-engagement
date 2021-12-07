@@ -3,7 +3,7 @@ title: "User and team entities (Developer Guide for Dynamics 365 Customer Engage
 description: "Learn about user and team management using which you can create and maintain user accounts and profiles."
 keywords: 
 ms.date: 10/31/2017
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.topic: article
 applies_to: 
@@ -50,7 +50,7 @@ User and team management is the area of [!INCLUDE[pn_microsoftcrm](../includes/p
 
  The following illustration shows the entity relationships for users and teams.  
 
- ![User and team entity relationship diagram](media/crm-v5s-em-userteam.gif "User and team entity relationship diagram")  
+ ![User and team entity relationship diagram.](media/crm-v5s-em-userteam.gif "User and team entity relationship diagram")  
 
 ## Users  
  In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], users can be disabled but they cannot be deleted. To find the user who is currently logged on or who is impersonated, call the <xref:Microsoft.Crm.Sdk.Messages.WhoAmIRequest> message.  

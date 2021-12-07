@@ -1,20 +1,19 @@
 ---
-title: "Use data driven adapters (DDAs) in Unified Service Desk | MicrosoftDocs"
-description: "Learn how to use data-driven adapters (DDAs) in Unified Service Desk."
+title: "Use data driven adapters in Unified Service Desk | MicrosoftDocs"
+description: "Learn about data-driven adapters, their types, and how you can create new adapters or extend existing ones in Unified Service Desk."
+ms.date: 08/23/2017
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/23/2017
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Use data driven adapters (DDAs) in Unified Service Desk
 Data-driven adapters (DDAs) are the adapters leveraged generally by the [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-hosted-application-toolkit-hat.md)]. These adapters are generic assemblies that handle only the interaction with the UI and do not contain business processes. The [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] SDK ships with a DDA that provides a common set of functions that allows you to host and access a wide range of applications. However, you might require additional functionality depending on the type of application. There are various ways of extending the existing functionality, such as creating a new DDA (and using it in a composite DDA with outer DDAs) and extending an existing DDA.  
@@ -109,12 +108,12 @@ Data-driven adapters (DDAs) are the adapters leveraged generally by the [!INCLUD
   
 ```csharp  
 DataDrivenAdapter Dda;  
-public overrIDe bool Initialize()  
+public override bool Initialize()  
 {  
    Dda=DataDrivenAdapter.CreateInstance(ApplicationInitString,ApplicationObject);  
    return (Dda != null);  
 }  
-public overrIDe bool DoAction(Action action, ref string data)  
+public override bool DoAction(Action action, ref string data)  
 {  
 if (action.Name == "AddToHistory")  
    {  

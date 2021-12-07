@@ -1,22 +1,20 @@
 ---
-title: Universal FetchXML | Microsoft Docs
-description: Advanced query language to extend Universal Resource Scheduling
+title: "Universal FetchXML to extend Universal Resource Scheduling"
+description: "Use Universal FetchXML to create custom queries in order to extend the schedule board and schedule assistant filters in Universal Resource Scheduling."
 author: FieldServiceDave
 ms.author: daclar
 ms.date: 06/14/2018
 ms.reviewer: krbjoran
-ms.service: crm-online
+ms.service: dynamics-365-field-service
+ms.subservice: common-scheduler
 ms.topic: article
-ms.custom: 
-  - dyn365-projectservice
-  - dyn365-fieldservice
 search.app: 
   - D365CE
   - D365PS
   - D365FS
 ---
 
-# Universal FetchXML
+# Extend Universal Resource Scheduling with Universal FetchXML
 
 UFX is an advanced query language that allows you to query data using dynamic FetchXML, shape, and prepare the resulting data for consumption by the **Universal Resource Scheduling (URS)** solution. 
 This query language enables you to create custom queries to customize and extend the schedule board and schedule assistant filters to meet the unique business needs of the organization. 

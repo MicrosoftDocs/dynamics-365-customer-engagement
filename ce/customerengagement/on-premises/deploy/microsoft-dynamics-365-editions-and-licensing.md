@@ -1,8 +1,9 @@
 ---
 title: "Dynamics 365 Customer Engagement (on-premises) editions and licensing | Microsoft Docs"
+description: Find information about the editions and licensing with Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
 ms.date: "10/17/2019"
-ms.prod: "crm-2016"
+ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -16,8 +17,6 @@ author: Mattp123
 manager: kvivek
 ---
 # Microsoft Dynamics 365 Customer Engagement (on-premises) editions and licensing
-
-
 
 [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] offers a licensing option that scales from small, to mid-level, to very large deployments.  
   

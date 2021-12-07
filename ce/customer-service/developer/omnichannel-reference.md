@@ -1,12 +1,11 @@
 ---
-title: "Live chat SDK JavaScript API Reference| Microsoft Docs"
-description: ""
+title: "Live chat SDK JavaScript API Reference| MicrosoftDocs"
+description: "Get an overview of the JavaScript methods and events you can use with the live chat widget in Omnichannel for Customer Service."
+ms.date: 07/01/2019
+ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 07/01/2019
-ms.topic: reference
-ms.service: dynamics-365-customerservice
 ---
 # Live chat SDK JavaScript API Reference
 
@@ -20,12 +19,13 @@ The following JavaScript methods can be used to perform various operations with 
 |---------|-------------|
 | [setContextProvider](reference/methods/setContextProvider.md) | [!INCLUDE[setContextProvider-description](reference/includes/setContextProvider-description.md)] |
 | [getContextProvider](reference/methods/getContextProvider.md) | [!INCLUDE[getContextProvider-description](reference/includes/getContextProvider-description.md)] |
-| [removeContextProvider](reference/methods/removeContextProvider.md) | [!INCLUDE[setContextProvider-description](reference/includes/removeContextProvider-description.md)] |
+| [removeContextProvider](reference/methods/removeContextProvider.md) | [!INCLUDE[removeContextProvider-description](reference/includes/removeContextProvider-description.md)] |
 | [setAuthTokenProvider](reference/methods/setAuthTokenProvider.md) | [!INCLUDE[setAuthTokenProvider-description](reference/includes/setAuthTokenProvider-description.md)] |
-| [getAuthTokenProvider](reference/methods/getAuthTokenProvider.md) | [!INCLUDE[getContextProvider-description](reference/includes/getAuthTokenProvider-description.md)] |
-| [removeAuthTokenProvider](reference/methods/removeAuthTokenProvider.md) | [!INCLUDE[getContextProvider-description](reference/includes/removeAuthTokenProvider-description.md)] |
+| [getAuthTokenProvider](reference/methods/getAuthTokenProvider.md) | [!INCLUDE[getAuthTokenProvider-description](reference/includes/getAuthTokenProvider-description.md)] |
+| [removeAuthTokenProvider](reference/methods/removeAuthTokenProvider.md) | [!INCLUDE[removeAuthTokenProvider-description](reference/includes/removeAuthTokenProvider-description.md)] |
 | [startChat](reference/methods/startChat.md) | [!INCLUDE[startchat-description](reference/includes/startChat-description.md)] |
 | [startProactiveChat](reference/methods/startProactiveChat.md) | [!INCLUDE[startproactivechat-description](reference/includes/startProactiveChat-description.md)] |
+| [closeChat](reference/methods/closeChat.md) | [!INCLUDE[closechat-description](reference/includes/closeChat-description.md)] |
 
 ## Events
 
@@ -36,7 +36,7 @@ The following JavaScript methods can be used to perform various operations with 
 
 ### See also
 
-[Omnichannel for Customer Service for developers](omnichannel-developer.md)
+[Omnichannel for Customer Service for developers](omnichannel-developer.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

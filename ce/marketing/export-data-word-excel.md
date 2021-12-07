@@ -47,7 +47,7 @@ You can export information from a multiple-record list by using an Excel templat
 
 The process for using an Excel template looks like this:
 
-![The process for using an Excel template](media/excel-process-ill.png "The process for using an Excel template")
+![The process for using an Excel template.](media/excel-process-ill.png "The process for using an Excel template")
 
 ### Step 1: Select an entity to analyze
 
@@ -59,7 +59,7 @@ For example, go to **Marketing** > **Lead management** > **Leads**.
 
 On the command bar, select **Excel Templates** to open a list of available templates, and then choose the one you want to use for the export.
 
-![Choose an Excel template to export to](media/export-choose-excel-template.png "Choose an Excel template to export to")
+![Choose an Excel template to export to.](media/export-choose-excel-template.png "Choose an Excel template to export to")
 
 Dynamics 365 Marketing generates your Excel workbook and downloads it to your computer.
 

@@ -1,5 +1,6 @@
 ---
-title: "Administer Dynamics 365 apps (customer engagement apps)  | MicrosoftDocs"
+title: "Administer Dynamics 365 customer engagement apps"
+description: "Administration for Dynamics 365 customer engagement apps has transitioned to the Power Platform admin center. See this page for more information."
 ms.custom: 
 ms.date: 08/12/2020
 ms.reviewer: 

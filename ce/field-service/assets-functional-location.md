@@ -1,11 +1,9 @@
 ---
 title: "Functional location in Dynamics 365 Field Service| MicrosoftDocs"
 description: Learn how to use functional location for assets in Dynamics 365 Field Service.
-ms.custom: 
-  - dyn365-fieldservice
-ms.date: 11/19/2020
+ms.date: 08/12/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
@@ -68,7 +66,7 @@ In our example, we've created "Building A Roof" as a location under "Building A,
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the assets and locations on a service account.](./media/assets-functional-location-tree.png)
 
-Select any location in the list for additional details, such as latitude and longitude.
+Select any location in the list for more details, such as latitude and longitude.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a functional location details form.](./media/assets-functional-location-address.png)
@@ -92,6 +90,22 @@ To add a new asset, select the ellipses icon, and either add a new asset, or rel
 > [!Note]
 > You can't drag a sub asset to a functional location different from the parent asset's functional location.
 
+## Search the functional location tree
+
+Use the search bar to search for functional locations and associated assets. When searching, check the **Show Assets** box to include assets in search. Matching search results are highlighted and bold.
+
+The number of search matches are shown beneath the search bar.
+
+> [!div class="mx-imgBorder"]
+> ![Functional location tree in Field Service, showing the search bar and the collapse and expand all options.](./media/assets-functional-location-search.png)
+
+For larger or more complex trees, you can also expand or collapse all the results by using the **Plus** and **Minus** icons at the top of the tree, as seen in the previous screenshot.
+
+For a guided walkthrough, check out the following video.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWOjSM]
+
+
 ## Use functional location for work orders
 
 Once defined, functional locations help flesh out work order details, once again making it easier for technicians to see where they must perform their work.
@@ -107,14 +121,14 @@ Once the functional location is selected, you'll see that more detailed informat
 
 ### Add multiple functional locations to a single work order
 
-Use additional work order incident types to define more work that needs to be done in addition to the primary incident type.
+Use more work order incidents to define more work that needs to be done in addition to the primary work order incident.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a work order incident.](./media/assets-functional-location-work-order-new-incident.png)
 
-For each work order incident type, you can define a functional location in scenarios where they must be completed at a different location than the one defined on the work order.
+For each work order incident, you can define a functional location in scenarios where they must be completed at a different location than the one defined on the work order.
 
-For example, imagine as part of one work order, a technician needs to go to three different buildings to perform a different task at each. In this scenario, add three work order incident types with each one having the respective functional location. Use the primary incident duration as either the most important work order incident or the location that the technician should travel to first.
+For example, imagine as part of one work order, a technician needs to go to three different buildings to perform a different task at each. In this scenario, add three work order incidents with each one having the respective functional location. Use the primary incident duration as either the most important work order incident or the location that the technician should travel to first.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a work order with related incidents.](./media/assets-functional-location-work-order-new-incident1.png)

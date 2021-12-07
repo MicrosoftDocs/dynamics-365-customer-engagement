@@ -1,10 +1,10 @@
 ---
-title: "How to assign from order in Dynamics 365 for Customer Engagement | MicrosoftDocs"
-description: "Learn how to assign the default form in your app"
+title: "Set a form order in Dynamics 365 Customer Engagement (on-premises)"
+description: "When you have multiple forms for an entity, follow these steps to assign a form order to determine which of the available forms will be shown by default."
 ms.custom: 
 ms.date: 03/07/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -20,7 +20,7 @@ search.audienceType:
   - customizer
 
 ---
-# Assign form order
+# Assign a form order
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Set the form order](/powerapps/maker/model-driven-apps/control-access-forms#set-the-form-order)
 

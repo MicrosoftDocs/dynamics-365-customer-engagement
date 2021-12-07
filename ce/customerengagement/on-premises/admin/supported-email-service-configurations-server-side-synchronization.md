@@ -1,9 +1,10 @@
 ---
-title: "Supported email service configurations for server-side synchronization  | MicrosoftDocs"
+title: "Supported email synchronization in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn which scenarios are and aren't supported by server-side synchronization. For most situations that aren't, you can use the Dynamics CRM Email Router."
 ms.custom: 
 ms.date: 05/19/2020
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

@@ -4,7 +4,7 @@ description: "The sample demonstrates creating and updating Web Resources. The W
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: samples
@@ -53,7 +53,7 @@ Manually creating Web resources one at a time using the customization tools can 
 ## Web Resource Utility  
  The following screenshot shows the Web Resource Utility user interface:  
   
- ![The Web Resource Utility user interface](media/web-resource-utility.png "The Web Resource Utility user interface")  
+ ![The Web Resource Utility user interface.](media/web-resource-utility.png "The Web Resource Utility user interface")  
   
 ### See also  
  [Sample: Importing Files as Web Resources](sample-import-files-web-resources.md)   

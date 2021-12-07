@@ -1,8 +1,9 @@
 ---
 title: "Uninstall, change, or repair Dynamics 365 Server | Microsoft Docs"
+description: Learn how to uninstall, change, or repair Dynamics 365 Server with Dynamics 365 Customer Engagement (on-premises) 
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: "crm-2016"
+ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -16,8 +17,6 @@ author: Mattp123
 manager: kvivek
 ---
 # Uninstall, change, or repair Dynamics 365 Server
-
-
 
 To perform [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] maintenance, select from the following options that are available. Before selecting an option, you must start **Programs and Features** in [!INCLUDE[pn_Control_Panel](../includes/pn-control-panel.md)].  
   

@@ -1,8 +1,9 @@
 ---
 title: "Dynamics 365 Customer Engagement (on-premises) multiple-server deployment | Microsoft Docs"
+description: Learn how to deploy multiple-servers with Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: "crm-2016"
+ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -16,8 +17,6 @@ author: Mattp123
 manager: kvivek
 ---
 # Dynamics 365 Customer Engagement (on-premises) multiple-server deployment
-
-
 
 [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] deployments can include multiple servers, which provide additional performance and scaling benefits.   
   

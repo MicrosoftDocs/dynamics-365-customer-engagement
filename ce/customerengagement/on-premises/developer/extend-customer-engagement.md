@@ -4,7 +4,7 @@ description: "Understand the different ways you can write code to change how a D
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
@@ -29,7 +29,7 @@ When you develop an application that uses the Dynamics 365 Server, you use Web s
   
  The xRM platform also controls access to data through security, controls access to the database, and raises events for workflow processes and custom business logic implementations (plug-ins). The platform layer provides for both incoming and outgoing email processing through [!INCLUDE[pn_Exchange_Server_full](../includes/pn-exchange-server-full.md)].
   
- ![Dynamics 365 Customer Engagement (on-premises) SDK architecture](media/crm-v5s-architecture.png "Dynamics 365 Customer Engagement (on-premises) SDK architecture")  
+ ![Dynamics 365 Customer Engagement (on-premises) SDK architecture.](media/crm-v5s-architecture.png "Dynamics 365 Customer Engagement (on-premises) SDK architecture")  
   
 ## In This Section  
  [Dynamics 365 Customer Engagement application platform - A platform for building extended Dynamics 365 Customer Engagement (xRM) applications](building-extended-xrm-applications.md)  

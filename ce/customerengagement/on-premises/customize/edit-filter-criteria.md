@@ -1,10 +1,10 @@
 ---
-title: "Edit filter criteria and change sort order in views | MicrosoftDocs"
-description: "Learn how to edit filter criteria and change sort order in views"
+title: "Edit filter criteria of a view in Dynamics 365 Customer Engagement (on-premises)"
+description: "The filter criteria applied to a view is a critical part of its value. When creating or editing a view, be sure to specify and group its criteria."
 ms.custom: 
 ms.date: 11/03/2018
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -20,7 +20,7 @@ search.audienceType:
   - customizer
 
 ---
-# Edit filter criteria and change sort order in views
+# Edit filter criteria of a view
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Edit filter criteria and change sort order in model-driven app views](/powerapps/maker/model-driven-apps/edit-filter-criteria)
 

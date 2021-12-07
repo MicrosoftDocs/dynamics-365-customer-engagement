@@ -1,9 +1,10 @@
 ---
-title: "Privileges required for customizing | MicrosoftDocs"
+title: "Security roles for customizing Dynamics 365 Customer Engagement (on-premises)"
+description: "To customize Customer Engagement (on-premises), you need to be a System Administrator or System Customizer. Learn about the difference between these roles."
 ms.custom: 
 ms.date: 01/08/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -18,7 +19,7 @@ manager: kvivek
 search.audienceType: 
   - customizer
 ---
-# Privileges required for customization
+# Security roles and privileges required for customization
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Privileges required for Dataverse customization](/powerapps/maker/model-driven-apps/privileges-required-customization)
 

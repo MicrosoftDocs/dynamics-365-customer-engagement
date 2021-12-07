@@ -4,7 +4,7 @@ ms.custom:
 description: "The sample shows how to create a new system user in Active Directory and Customer Engagement."
 ms.date: 1/23/2020
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: samples

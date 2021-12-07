@@ -1,11 +1,9 @@
 ---
 title: "Set up booking rules in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to set up booking rules in Dynamics 365 Field Service.
-ms.custom: 
-  - dyn365-fieldservice
-ms.date: 09/04/2020
+ms.date: 11/08/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice 
+ms.service: dynamics-365-field-service
 ms.topic: article
 author: FieldServiceDave
 ms.author: daclar
@@ -24,7 +22,8 @@ Booking rules are custom JavaScript methods that will be executed prior to the b
 Set up booking rules to validate a booking when it is created or modified.  
  
 > [!Note]
-> - Booking rules are only available for the hourly view, and not daily, weekly, or monthly views.
+> - Booking rules are only available for the hourly view, and not daily, weekly, or monthly views of the schedule board and schedule assistant. They are also available when a booking is created or updated via bookable resource booking form. 
+> - Booking rules are not available on the bookable resource booking form, if it has business process flow enabled on the form.  
 > - Booking rules are not available on the reassign functionality on the schedule board.
 
 ## Create a solution
@@ -69,10 +68,10 @@ The following screenshot shows a newly created solution. We recommend that your 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the booking rules.](./media/scheduling-booking-rules-new.png)
 
-4. Save your booking rule. Once you save the booking rule, it will be used by the schedule board and schedule assistant. You can deactivate your booking rule record to keep the schedule board and schedule assistant from executing the rule.
+4. Save your booking rule. Once you save the booking rule, it will be used by the hourly view of schedule board and schedule assistant or the entity form. You can deactivate your booking rule record to keep the schedule board, schedule assistant, or the booking entity form, from executing the rule.
 
 > [!Note]
-> The booking rules are currently only supported on the hourly view of the schedule board.
+> The booking rules are currently only supported on the hourly view of the schedule board and schedule assistant. The booking rules are also supported when the bookings are created or updated using the bookable resource booking form.
 
 ## Create a CRM action
 
@@ -106,7 +105,7 @@ The following screenshot shows an example custom CRM action.  This sample is che
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a custom CRM action](./media/scheduling-booking-rules-worflow.png)
+> ![Screenshot of a custom CRM action.](./media/scheduling-booking-rules-worflow.png)
 
 ## Sample code
 
@@ -122,14 +121,12 @@ The possible values for *ResourceScheduleSource* are from the resource schedule 
 ```
     var sbContext = {
     oldValues: {
-        WorkOrderId: "00000000-0000-0000-0000-00000000",
         StartTime: "01/01/2016 08:00AM",
         EndTime: "01/01/2016 05:00PM",
         ResourceId: "00000000-0000-0000-0000-00000000",
         ResourceScheduleSource: 690970001
     },
     newValues: {
-        WorkOrderId: "00000000-0000-0000-0000-00000000",
         StartTime: "01/01/2016 08:00AM",
         EndTime: "01/01/2016 05:00PM",
         ResourceId: "00000000-0000-0000-0000-00000000",
@@ -161,9 +158,9 @@ Example JavaScript function definition. The following JavaScript code is the onl
     function Validate(ctx) {
       var url = Xrm.Page.context.getClientUrl();
       var ruleResult = {
-  	IsValid = false;
-       Message = '';
-       Type = 'error';
+  	IsValid = false,
+       Message = '',
+       Type = 'error'
       };
 
       //
@@ -187,7 +184,8 @@ On the booking rule record, the **Method Name** must be: *MSFSAENG.ScheduleBoard
     /// <reference path="xrm.d.ts" />
     function brErrorCallback(sb) {
     // Add custom error handeling here if desired.
-     return:
+     return;
+    }
     function brWarningCallback(sb) {
     // Add custom warning handeling here if desired.
     return;
@@ -266,7 +264,7 @@ On the booking rule record, the **Method Name** must be: *MSFSAENG.ScheduleBoard
         function ScheduleBoardHelper() {
         }
         ScheduleBoardHelper.callActionWebApi = function (sb) {
-            var oDataEndpoint = sb.url + "msdyn_workorders(" + sb.ctx.newValues.WorkOrderId + ")/Microsoft.Dynamics.CRM." + sb.actionName;
+            var oDataEndpoint = sb.url + sb.actionName;
             var req = new XMLHttpRequest();
             req.open("POST", oDataEndpoint, false);
             req.setRequestHeader("Accept", "application/json");
@@ -318,12 +316,33 @@ On the booking rule record, the **Method Name** must be: *MSFSAENG.ScheduleBoard
 
 ## Additional notes
 
-- The bookable resource booking is enabled to leverage booking rules, in order to create warning or error messages that users see when creating or editing a resource booking record, based on custom conditions. As a result, business process flows can't be used on the bookable resource booking entity.
+The bookable resource booking is enabled to leverage booking rules, in order to create warning or error messages that users see when creating or editing a resource booking record, based on custom conditions. As a result, business process flows can't be used on the bookable resource booking entity with Booking rules enabled. 
 
-### See also    
- [Schedule within time constraints](../field-service/schedule-time-constraints.md)   
- [Set up booking statuses](../field-service/set-up-booking-statuses.md)   
- [Create and edit web resources](../customerengagement/on-premises/customize/create-edit-web-resources.md)
+However, the processing of booking rules can be disabled on the save of the Booking form by enabling the below setting, which would let the users use the business process flows. The client side APIs can be used to enable this setting at an environment level. 
+
+Read current value of the setting `msdyn_DisableProcessBookingRulesOnSaveBookingForm`.
+
+```
+Xrm.Utility.getGlobalContext().getCurrentAppSettings()["msdyn_DisableProcessBookingRulesOnSaveBookingForm"]
+```
+
+Enable the setting `msdyn_DisableProcessBookingRulesOnSaveBookingForm`.
+
+```
+Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_DisableProcessBookingRulesOnSaveBookingForm",true,).then(() => {a = "success"}, (error) => {a = error})
+```
+
+Disable the setting `**msdyn_DisableProcessBookingRulesOnSaveBookingForm**`.
+
+```
+Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_DisableProcessBookingRulesOnSaveBookingForm",false,).then(() => {a = "success"}, (error) => {a = error})
+```
+
+### See also   
+
+- [Schedule within time constraints](../field-service/schedule-time-constraints.md)   
+- [Set up booking statuses](../field-service/set-up-booking-statuses.md)   
+- [Create and edit web resources](../customerengagement/on-premises/customize/create-edit-web-resources.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,9 +1,9 @@
 ---
-title: "System Settings dialog box - Goals tab  | MicrosoftDocs"
-description: ""
+title: "Goals settings tab in Dynamics 365 Customer Engagement (on-premises)"
+description: "From the System Settings Goals tab in Dynamics 365 Customer Engagement (on-premises), Set the duration and frequency of the automatic rollup of goals."
 keywords: 
-ms.date: 10/01/2019
-ms.service: crm-online
+ms.date: 09/13/2021
+ms.prod: d365ce-op
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
@@ -11,13 +11,16 @@ applies_to:
 ms.assetid: 14c34660-19df-40cb-bf84-3878dcfa3787
 author: jimholtz
 ms.author: jimholtz
-manager: annbe
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 12
 ---
-# System Settings dialog box - Goals tab
+# Define system settings from the Goals tab
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 Set the duration and frequency of the automatic rollup of goals. These settings only affect the automatic handling of all goals set in Dynamics 365 Customer Engagement (on-premises). You can always perform a manual rollup for any goal at any time.  
   
@@ -33,17 +36,17 @@ Set the duration and frequency of the automatic rollup of goals. These settings 
 
    OR
 
-   If you are using the Sales Hub App, select the Site map icon ![Site map icon](../../../sales-enterprise/media/site-map-icon.png "Site map icon"), then select ellipsis ![Ellipsis to open more options](../../../sales-enterprise/media/ellipsis-more-options.png "Ellipsis to open more options") , then select **App Settings**, and then select **Goals Settings**.
+   If you are using the Sales Hub App, select the Site map icon ![Site map icon](../../../sales/media/site-map-icon.png "Site map icon"), then select ellipsis ![Ellipsis to open more options](../../../sales/media/ellipsis-more-options.png "Ellipsis to open more options") , then select **App Settings**, and then select **Goals Settings**.
   
   
 |                            Settings                            |                                                                                  Description                                                                                   |
 |----------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Set the roll-up expiration time and the roll-up frequency.** |                                                                                                                                                                                |
-|     Days after the goal end date when the rollup will stop     | Default: 30 days. Set the number of days after the ending date of a goal for Customer Engagement (on-premises) to stop including a goal in a rollup. |
-|                  Roll-up recurrence frequency                  |                                                      Default: 24 hours. Set the number of hours between each goal rollup.                                                      |
+|     Days after the goal end date when the rollup will stop     | Set the number of days after the ending date of a goal for Customer Engagement (on-premises) to stop including a goal in a rollup. <br> **Default:** 30 days. |
+|                  Roll-up recurrence frequency                  |                                                     Set the number of hours between each goal rollup.<br>**Default**: 24 <br>**Limits**: Must be greater than or equal to 24 hours                                                      |
   
 ### See also  
- [Administrator and Sales Manager Guide](../../../sales-enterprise/admin-guide.md)  
+ [Administrator and Sales Manager Guide](../../../sales/admin-guide.yml)  
  [Progress Against Goals report](../basics/sales-insights-reports.md#BKMK_ProgressGoals)
 
 

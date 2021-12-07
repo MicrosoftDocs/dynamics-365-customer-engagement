@@ -56,7 +56,7 @@ To view the event templates available on your system:
 
 2. Open the view selector (located just above the list) and choose **Event templates**.  
 
-    ![The view selector menu](media/events-template-view-selector.png "The view selector menu")
+    ![The view selector menu.](media/events-template-view-selector.png "The view selector menu")
 
 3. The list now shows only event templates. You can open and work with these templates just as you can with standard events. Changes you make to a template won't affect events that were created based on that template.
 

@@ -1,7 +1,7 @@
 ---
 title: "Use AI to check your message-content spam score (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to check the content of your email messages to see whether they might get flagged as spam by recipient systems in Dynamics 365 Marketing."
-ms.date: 04/03/2020
+ms.date: 04/28/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -22,9 +22,6 @@ search.app:
 
 The spam checker feature applies artificial intelligence to analyze the content of each marketing email message. Spam checker then generates a range that predicts how likely the message is to be flagged by content-based spam filters.
 
-> [!NOTE]
-> Before you can use spam checker, your admin must enable and configure it. If you don't see the features described in this topic, please ask your admin to enable spam checker for your site. More information: [Enable and configure artificial intelligence features](admin-machine-learning.md)
-
 There are two ways to view your spam risk:
 
 - **Automatically**: A spam check is always made as part of the standard **Check for errors** and **Go live** processes. Spam risk results are shown together with other results of the error check. Spam risk results are classified as high, medium, or low (lower is better). If you get a high or medium spam risk level, you should consider revising your content.
@@ -39,12 +36,12 @@ To manually view and interpret the spam risk for a message:
 1. Before you go live, open the **Designer** > **Email checker** tab for your message and select **Spam checker** to run the check on your current content. The check may take a couple of minutes but is usually faster.
     
     > [!div class="mx-imgBorder"]
-    > ![The path to getting spam risk result](media/spam-checker.png)
+    > ![The path to getting spam risk result.](media/spam-checker.png)
 
 1. When the analysis is finished, you get a low, medium, or high-risk result. If you click the **Details** panel, you are given recommendations on how to decrease your spam risk. A low risk is encouraged however due to the nature of marketing content, some errors are to be expected.
 
     > [!div class="mx-imgBorder"]
-    > ![The calculated spam risk](media/spam-checker-score.png)
+    > ![The calculated spam risk.](media/spam-checker-score.png)
 
     Though exact thresholds may vary based on your topic and audience, here are a few guidelines for interpreting the score:
 

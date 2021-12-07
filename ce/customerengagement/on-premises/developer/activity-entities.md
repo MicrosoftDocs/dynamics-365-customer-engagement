@@ -4,7 +4,7 @@ description: "In Dynamics 365 Customer Engagement (on-premises), activities are 
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -28,7 +28,7 @@ In [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], ac
   
  Activities involve one or more participants, called activity parties in Dynamics 365 Customer Engagement (on-premises). For a meeting activity, the participants are those contacts or users attending the meeting. For a telephone call or fax activity, the parties are the caller and the person who is called. The following diagram shows the entity relationships for activities.  
   
- ![Activity diagram](media/entity-model-activity.gif "Activity diagram")  
+ ![Activity diagram.](media/entity-model-activity.gif "Activity diagram")  
   
  To support the communication needs of the modern-day business, such as instant messaging (IM) and SMS, you can create custom activities in [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)].  
   

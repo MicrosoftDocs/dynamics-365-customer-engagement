@@ -1,10 +1,10 @@
 ---
-title: "Create 1:N (one-to-many) or N:1 (many-to-one) relationships in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to create one-to-many or many-to-one relationships"
+title: "Create 1:N relationships in Dynamics 365 Customer Engagement (on-premises)"
+description: "A 1:N relationship is one in which a primary entity is associated with many other records. Learn about creating this relationship and behaviors you can set."
 ms.custom: 
 ms.date: 11/09/2018
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -20,7 +20,7 @@ search.audienceType:
   - customizer
 
 ---
-# Create 1:N (one-to-many) or N:1 (many-to-one) relationships
+# Create 1:N (one-to-many) relationships between entities
 
 <a name="BKMK_CreateEditN1Relationships"></a>   
 
@@ -39,7 +39,7 @@ search.audienceType:
   
  The definition for the 1:N relationship has four parts: **Relationship Definition**, **Lookup Field**, **Navigation Pane Item for Primary Entity**, and **Relationship Behavior**.  
   
- ![1:N Entity Relationship](../customize/media/cust-1n-relationship-properties.png "1:N Entity Relationship")  
+ ![1:N Entity Relationship.](../customize/media/cust-1n-relationship-properties.png "1:N Entity Relationship")  
   
 ## Create or edit 1:N relationships between entities  
   

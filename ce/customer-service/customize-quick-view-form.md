@@ -1,12 +1,11 @@
 ---
 title: "Customize quick view forms | MicrosoftDocs"
-description: "Learn how to customize the quick view forms present in the Customer Summary page."
+description: "This topic provides procedural steps to customize the quick view forms present in the Customer Summary page in Omnichannel for Customer Service."
+ms.date: 10/05/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/05/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 # Customize quick view forms
 
@@ -14,7 +13,7 @@ ms.service: "dynamics-365-customerservice"
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-You customize the quick view form in the section by navigating to the respective entities and quick view forms. Some of the relevant entities are as follows.
+You can customize the quick view form in the section by navigating to the respective entities and quick view forms. The following are some of the relevant entities.
 
 | Card         | Entity      | Quick View Form |
 |------------------|-----------------|---------------------|
@@ -40,12 +39,12 @@ The following procedure shows how to modify the **Customer profile** quick view 
 6.  Select **Save**, and then select **Publish**.
 
 > [!TIP]
-> To edit a quick view form, see [Edit a quick view form](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-quick-view-forms#edit-a-quick-view-form)  
+> To edit a quick view form, see [Edit a quick view form](/dynamics365/customer-engagement/customize/create-edit-quick-view-forms#edit-a-quick-view-form)  
 
 
 ### See also
 
-[Omnichannelsystem customizers](omnichannel-customizer.md)  
+[Omnichannel system customizers](omnichannel-customizer.md)  
 [Customize Customer summary form](customize-customer-summary.md)   
 
 

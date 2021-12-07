@@ -4,7 +4,7 @@ description: "A plug-in is custom business logic that you can integrate with Dyn
 ms.custom: on-premise
 ms.date: 02/13/2020
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article

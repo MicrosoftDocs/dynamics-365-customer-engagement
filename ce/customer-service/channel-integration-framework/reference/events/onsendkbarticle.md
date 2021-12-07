@@ -1,24 +1,23 @@
 ---
-title: "onsendkbarticle (JavaScript API Reference) for Dynamics 365 Channel Integration Framework (CIF) in version 1.0| Microsoft Docs"
-description: ""
+title: "onSendKBArticle (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0| MicrosoftDocs"
+description: "Learn about the onSendKBArticle event raised by the Channel Integration Framework library in Dynamics 365 Channel Integration Framework 1.0."
+ms.date: 12/31/2019
+ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 12/31/2019
-ms.topic: reference
-ms.service: dynamics-365-customerservice
+applies_to: 
+  - "Dynamics 365 for Customer Engagement (online)"
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
-applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
 ---
 
-# onsendkbarticle event (CIF JavaScript API reference)
+# onSendKBArticle event (JavaScript API reference) for Dynamics 365 Channel Integration Framework 1.0
 
 [!INCLUDE[token-onsendkbarticle](../../shared/token-onsendkbarticle.md)]
 
-## Related topics
+### See also
 
 [addHandler](../microsoft-ciframework/addHandler.md)
 

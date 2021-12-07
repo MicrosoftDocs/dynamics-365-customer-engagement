@@ -1,12 +1,11 @@
 ---
 title: "Create message templates in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how to create message templates in Omnichannel for Customer Service."
+ms.date: 04/09/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/09/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: nenellim
 ---
 
@@ -32,7 +31,7 @@ To create a message template:
 4. Select **New message** and create a message using localized text in each language that you want to support.
 
     > [!div class=mx-imgBorder]
-    > ![Create localized text of new message](media/message-template3.png "Create localized text of new message")
+    > ![Create localized text of new message.](media/message-template3.png "Create localized text of new message")
     
     Message templates support the following slugs.  
 

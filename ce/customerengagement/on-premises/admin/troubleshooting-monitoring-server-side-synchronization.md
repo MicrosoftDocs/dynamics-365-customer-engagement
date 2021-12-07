@@ -1,10 +1,11 @@
 ---
 title: "Troubleshooting and monitoring server-side synchronization  | MicrosoftDocs"
+description: "Discusses issues and resolutions for troubleshooting server-side synchronization."
 ms.custom: 
   - dyn365-deflc
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -15,12 +16,14 @@ ms.assetid: 4b5e4f18-cb04-4c4a-bb22-2c3505868e90
 caps.latest.revision: 42
 author: jimholtz
 ms.author: jimholtz
-manager: kvivek
 search.audienceType: 
   - admin
-
 ---
 # Troubleshooting and monitoring server-side synchronization 
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 This page is your source for issues and resolutions for troubleshooting server-side synchronization. Check back for updated information as issues are discovered and resolutions recorded.  
   
@@ -33,7 +36,7 @@ Follow the steps in this [KB article](https://support.microsoft.com/help/4468755
 
 
 > [!div class="mx-imgBorder"] 
-> ![Server-side sync failures dashboard](media/server-side-sync-failures-dashboard.png "Server-side sync failures dashboard")
+> ![Server-side sync failures dashboard.](media/server-side-sync-failures-dashboard.png "Server-side sync failures dashboard")
 
  
 <a name="BKMK_PerformanceDashboard"></a>   
@@ -41,9 +44,9 @@ Follow the steps in this [KB article](https://support.microsoft.com/help/4468755
 ## The Server-Side Synchronization Performance dashboard  
  You can use the Server-Side Synchronization Performance dashboard to get a quick look at the health of mailboxes using server-side sync.  
   
- Go to any dashboard, click Select ![Drop-down button](../admin/media/drop-down-button.png "Drop-down button") next to the dashboard title, and then click **Server-Side Synchronization Performance**.  
+ Go to any dashboard, click Select ![Drop-down button.](../admin/media/drop-down-button.png "Drop-down button") next to the dashboard title, and then click **Server-Side Synchronization Performance**.  
   
- ![Server-side Synchronization Performance dashboard](../admin/media/server-side-sync-performance-dashboard.png "Server-side Synchronization Performance dashboard")  
+ ![Server-side Synchronization Performance dashboard.](../admin/media/server-side-sync-performance-dashboard.png "Server-side Synchronization Performance dashboard")  
   
  This dashboard is made up of multiple charts, each providing insights into your organization’s server-side sync performance.  
   
@@ -53,7 +56,7 @@ Follow the steps in this [KB article](https://support.microsoft.com/help/4468755
   
  Click on the grid icon in each chart to view the records that are used to generate the chart.  
   
- ![Click to view records used to create chart](../admin/media/server-side-sync-performance-dashboard-chart.PNG "Click to view records used to create chart")  
+ ![Click to view records used to create chart.](../admin/media/server-side-sync-performance-dashboard-chart.PNG "Click to view records used to create chart")  
   
 ## Common alerts and recommended resolutions  
   

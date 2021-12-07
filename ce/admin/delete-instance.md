@@ -1,5 +1,6 @@
 ---
-title: "Delete an instance  | MicrosoftDocs"
+title: "Delete a Sandbox instance"
+description: "Deleting Sandbox instances (now called environments) has transitioned to the Power Platform admin center. See this page for more information."
 ms.custom: 
 ms.date: 08/12/2020
 ms.reviewer: 
@@ -20,7 +21,7 @@ search.app:
 ---
 # Delete an instance
 
-Deleting Sandbox instances (environments) has transitioned to the [Power Platform Admin center](https://admin.powerplatform.microsoft.com). For more information, see [Delete environment](/power-platform/admin/delete-environment).
+Deleting Sandbox instances (environments) has transitioned to the [Power Platform admin center](https://admin.powerplatform.microsoft.com). For more information, see [Delete environment](/power-platform/admin/delete-environment).
 
 
 

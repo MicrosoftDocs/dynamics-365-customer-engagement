@@ -1,12 +1,11 @@
 ---
 title: "msdyn_panetoolconfiguration Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_panetoolconfiguration entity."
+ms.date: 10/12/2020
+ms.topic: "reference"
 author: "platkat"
 ms.author: "ktaylor"
 manager: "shujoshi"
-ms.date: 10/12/2020
-ms.topic: "reference"
-ms.service: "dynamics-365-customerservice"
 search.audienceType: 
   - developer
 search.app: 

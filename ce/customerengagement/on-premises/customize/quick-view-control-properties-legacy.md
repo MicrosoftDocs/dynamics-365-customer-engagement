@@ -1,6 +1,6 @@
 ---
-title: Quick view control properties for main forms | MicrosoftDocs
-description: Understand the quick view control properties for main forms
+title: "Change quick view control properties in Dynamics 365 Customer Engagement (on-premises)"
+description: "A quick view control displays data from a record on a form. Learn how to manage properties such as name, label, lookup field, related entity, and more."
 Keywords: Quick view control properties; Dynamics 365 for Customer Engagement; Main forms
 author: Mattp123
 applies_to: 
@@ -9,24 +9,24 @@ applies_to:
 ms.author: matp
 manager: kvivek
 ms.date: 10/29/2019
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.topic: article
 ms.assetid: 68f68d5b-6c71-4b95-bb46-d48c59d9008e
 search.audienceType: 
   - customizer
 
 ---
-# Quick view control properties
+# Access and manage the quick view control properties of a form
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Configure a quick view component](/powerapps/maker/model-driven-apps/sub-grid-properties-legacy)
 
 A quick view control on a custom business app form displays data from a record that is selected in a lookup on the form. The data displayed in the control is defined using a quick view form. The data displayed is not editable, but when the primary field is included in the quick view form, it becomes a link in the legacy web client app to open the related record. It is not an actionable link in a Unified Interface app. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and edit quick view forms](create-edit-quick-view-forms.md)  
 
-![Contact quick view form on the account form](../customize/media/quick-view-form-contact.png "Contact quick view form on the account form")  
+![Contact quick view form on the account form.](../customize/media/quick-view-form-contact.png "Contact quick view form on the account form")  
 
 You can access **Quick view control properties** in solution explorer. Under **Components**, expand **Entities**, expand the entity you want, and then select **Forms**. In the list of forms, open the form of type **Main**. Then on the **Insert** tab, select **Quick View Form** to view the **Quick View Control Properties** page.
 
-![Quick view control example for a primary contact record](media/quick-view-control.png)
+![Quick view control example for a primary contact record.](media/quick-view-control.png)
   
 |Property|Description|  
 |--------------|-----------------|  

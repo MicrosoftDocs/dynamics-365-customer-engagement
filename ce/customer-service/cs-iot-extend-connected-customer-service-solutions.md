@@ -1,12 +1,11 @@
 ---
 title: "Extend Connected Customer Service solutions | MicrosoftDocs"
 description: "Connected Customer Service supports the customization of each standard component or service and the easy addition of custom Azure-based components and services."
+ms.date: 04/03/2020
+ms.topic: article
 author: lalexms
 ms.author: lalexms
 manager: shujoshi
-ms.date: 04/03/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Extend Connected Customer Service solutions
@@ -19,13 +18,13 @@ The Azure services and components, including the ones detailed in [Connected Cus
   
  After the standard installation, Connected Customer Service will configure your resource group with a set of Azure services similar to the following.  
   
- ![Connected Customer Service Standard Azure Services](media/cs-iot-standard-azure-service.png "Connected Customer Service Standard Azure Services")  
+ ![Connected Customer Service Standard Azure Services.](media/cs-iot-standard-azure-service.png "Connected Customer Service Standard Azure Services")  
   
  Although extending these Azure services (or adding additional ones) is beyond the scope of this topic, there are ample resources available to the developer, including the following from Microsoft:  
   
 -   The [Microsoft Azure](https://azure.microsoft.com/) site for product descriptions, pricing and trial offers, documentation, downloads, blogs, and related resources, including the [Azure Documentation Center](https://azure.microsoft.com/documentation/) for developers and administrators. Most developers will want to download one or more [Azure SDKs](https://azure.microsoft.com/downloads/) and tools such as the [Azure Storage Explorer](https://storageexplorer.com/) and the [Azure Device Explorer](https://github.com/Azure/azure-iot-sdks/blob/master/tools/DeviceExplorer/doc/how_to_use_device_explorer.md).  
   
--   [MSDN Azure Technical Documentation Library](https://msdn.microsoft.com/library/azure/dn578280.aspx) for developer-oriented information and downloads  
+-   [MSDN Azure Technical Documentation Library](/azure/) for developer-oriented information and downloads  
   
 -   [MSDN Channel 9](https://channel9.msdn.com/) for a wide selection of current and ever-growing [Azure videos and posts](https://channel9.msdn.com/tags/Azure/)  
   
@@ -54,7 +53,7 @@ The Azure services and components, including the ones detailed in [Connected Cus
 
  [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] entities can be associated to IoT entities listed above so that within [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] they can participate in IoT-related business processes and analyses. There are two methods of “IoT enabling” a [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] entity; you can:  
   
-- Programmatically form an association through the standard Dynamics 365 [Connection entities](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/connection-entities) capability. You can alternatively accomplish this same association through the administration UI; for more information, see [Create connections to view relationships between records](https://docs.microsoft.com/dynamics365/customer-engagement/basics/create-connections-view-relationships-between-records).  
+- Programmatically form an association through the standard Dynamics 365 [Connection entities](../customerengagement/on-premises/developer/connection-entities.md) capability. You can alternatively accomplish this same association through the administration UI; for more information, see [Create connections to view relationships between records](/dynamics365/customer-engagement/basics/create-connections-view-relationships-between-records).  
   
 - Call the `IoT – Register Custom Entity` action to associate an entity with an existing or new `IoT Device`.  
   

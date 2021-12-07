@@ -49,7 +49,7 @@ You can also add resources to existing selection rules.
   
 5. On the **Service** form, click **Required Resources**, and then double-click or double-tap the first selection rule in the right pane.  
   
-    Selection rules appear in the tree beside the **Selection Rule** button ![Selection rule button](../customer-service/media/crm-ua-selection-rule-folder.gif "Selection rule button").  
+    Selection rules appear in the tree beside the **Selection Rule** button ![Selection rule button.](../customer-service/media/crm-ua-selection-rule-folder.gif "Selection rule button").  
   
 6. In the **Edit a Selection Rule** dialog box, enter the following information:  
   

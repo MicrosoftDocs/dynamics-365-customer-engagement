@@ -1,9 +1,10 @@
 ---
-title: "Verify network capacity and throughput for clients | MicrosoftDocs"
+title: "Check network capacity in Dynamics 365 Customer Engagement (on-premises)"
+description: "The primary characteristics of a network that affects performance are bandwidth and latency. Verify your capacity by running the provided diagnostics test."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

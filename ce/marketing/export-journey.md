@@ -31,7 +31,7 @@ You can now export all customer journey interactions into a .CSV file for furthe
 
 3. The .CSV file is automatically downloaded with the same columns and data as the table you selected to export.
 
-    ![Export a category to CSV](media/customer-journey-export.png "Export a category to CSV")
+    ![Export a category to CSV.](media/customer-journey-export.png "Export a category to CSV")
 
 > [!IMPORTANT]
 > You cannot download different categories of interactions (e.g., **Sent** + **Delivered** + **Blocked** + **Delivery failed**) all at once into a single file. You must export each category individually.

@@ -1,11 +1,10 @@
 ---
 title: "Run resource scheduling optimization as a simulation in Dynamics 365 Field Service | Microsoft Docs"
 description: Learn how to run resource scheduling optimization as a simulation in Dynamics 365 Field Service
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 07/17/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: resource-scheduling-optimization
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
@@ -59,10 +58,10 @@ Users can also review their simulations through the resource scheduling optimiza
 After reviewing the results of their simulation runs, users can then apply or discard the simulation.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing the apply or discard option](media/rso_trigger_sim_5.png)
+> ![Screenshot showing the apply or discard option.](media/rso_trigger_sim_5.png)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing simulation status](media/rso_trigger_sim_6.png)
+> ![Screenshot showing simulation status.](media/rso_trigger_sim_6.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

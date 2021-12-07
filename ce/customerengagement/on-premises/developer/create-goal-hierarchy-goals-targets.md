@@ -4,7 +4,7 @@ description: "This article discusses how to create a goal hierarchy, set and mon
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -45,7 +45,7 @@ In preparation for goal management, you should specify a metric for a goal (amou
 ## Create Goal Hierarchy  
  Typically, the manager’s goal is an aggregate of the goals assigned to the team members. A manager decides on the overall goal for the organization and then divides the goal into individual goals for each person. In a large organization, a goal for the company could be a combination of regional goals. In a simple goal hierarchy that is shown here, the manager’s goal is composed of two salesperson goals.  
   
- ![Goals hierarchy](media/crm-v5s-em-goalshierarchy.png "Goals hierarchy")  
+ ![Goals hierarchy.](media/crm-v5s-em-goalshierarchy.png "Goals hierarchy")  
   
  The manager’s goal can be referred to as a parent goal, and the salesperson goals as child goals. A goal can have multiple child goals (one-to-many relationship) and be a child goal of another goal. The relationship between a parent goal record and a child goal record can also be described as a referential relationship, in which a child goal references the parent goal. If you delete a parent goal, the child goal is not deleted, only a reference to the parent goal is removed. For more information, see [Entity Relationship Behavior](entity-relationship-behavior.md).  
   

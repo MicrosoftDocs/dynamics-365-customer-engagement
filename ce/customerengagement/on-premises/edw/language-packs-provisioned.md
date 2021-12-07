@@ -1,5 +1,7 @@
 ---
 title: "One or more Microsoft Dynamics 365 for Customer Engagement Language Packs are provisioned for this organization | Microsoft Docs"
+description: Environment diagnostics warning that you'll need to upgrade your language packs.
+ms.prod: d365ce-op
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 

@@ -72,7 +72,7 @@ To mitigate risks, we’ve assembled a list of recommendations to follow when sw
 
 ## More help
 
-Contact our [support team](troubleshoot-faq.md#where-can-i-find-help-for-errors-unexpected-behavior-crashes-or-bugs) if you have any questions.
+Contact our [support team](/dynamics365/field-service/troubleshoot-faq#where-can-i-find-help-for-errors-unexpected-behavior-crashes-or-bugs) if you have any questions.
 
 ### See also
 

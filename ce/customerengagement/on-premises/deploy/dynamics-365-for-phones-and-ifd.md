@@ -1,8 +1,9 @@
 ---
 title: "Dynamics 365 for phones and IFD | Microsoft Docs"
+description: Learn about authentication with Dynamics 365 for phones in Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: "crm-2016"
+ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -16,8 +17,6 @@ author: Mattp123
 manager: kvivek
 ---
 # Dynamics 365 for phones and IFD
-
-
 
 By default, Windows Integrated Authentication (WIA) is enabled in [!INCLUDE[pn_adfs_windows_server_2012R2_long](../includes/pn-adfs-windows-server-2012r2-long.md)]. WIA is used for authentication requests that occur within the organization’s internal network (intranet) for any application that uses a browser for its authentication.  
   

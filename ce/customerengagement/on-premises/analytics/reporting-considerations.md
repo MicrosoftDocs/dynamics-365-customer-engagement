@@ -1,9 +1,10 @@
 ---
-title: "Dynamics 365 Customer Engagement (on-premises) reporting considerations | MicrosoftDocs"
+title: "Reporting capabilities in Dynamics 365 Customer Engagement (on-premises)"
+description: "Reporting capabilities are designed to let users run reports on datasets that span shorter periods of time. Learn about fixed settings and best practices."
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 06/28/2021
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

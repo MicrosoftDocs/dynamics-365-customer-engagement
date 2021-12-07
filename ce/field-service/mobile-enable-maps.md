@@ -5,7 +5,8 @@ ms.custom:
   - dyn365-fieldservice
 ms.date: 04/15/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: field-service-mobile
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
@@ -78,7 +79,7 @@ Once in Woodford, double-click into your active project.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the mobile configuration tool, showing the project name in a list of projects](./media/mobile-map-api-projects.png)
+> ![Screenshot of the mobile configuration tool, showing the project name in a list of projects.](./media/mobile-map-api-projects.png)
 
 From the left menu, go to **Configuration** then go to the **Integrations** tab.
 

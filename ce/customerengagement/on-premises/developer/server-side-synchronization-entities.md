@@ -4,7 +4,7 @@ description: "In Dynamics 365 Customer Engagement (on-premises), server-side syn
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -25,7 +25,7 @@ In [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], se
   
  With the centralized email configuration, the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] entity model allows having common user interface (UI) settings (like user name, password, email address, and synchronization methods) for users, queues, and forward mailboxes. Each [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] user or a queue can have mailboxes, which can be monitored through either server-side synchronization or [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)]. The `EmailServerProfile` entity represents the email server profile for an organization. The `Mailbox` entity represents the appointments, contacts, and tasks delivery method of the mailbox. Currently, the user entity is restricted to have only one mailbox record per user and the queues entity to have only one mailbox record per queue, as shown in the following illustration.  
   
- ![Email connector entity model](media/email-connector-entity-model.png "Email connector entity model")  
+ ![Email connector entity model.](media/email-connector-entity-model.png "Email connector entity model")  
   
  Server-side synchronization offers the following capabilities:  
   

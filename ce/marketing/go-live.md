@@ -1,7 +1,7 @@
 ---
 title: "Publish records through the go-live process (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Find out which types of records must be published (go live) before you can use them, how to track go-live status, and how to stop processing records that are already live in Dynamics 365 Marketing."
-ms.date: 05/19/2020
+ms.date: 10/20/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -32,7 +32,7 @@ For most entities, you can manually assign the active or inactive **Status** for
 
 All entities provide a view selector for list views where you choose a saved query such as "Active journeys," "All live journeys," "Inactive journeys," and so on. In most cases, you can find inactive records by going to the "Inactive …" view, where you can usually reactivate a record if needed.
 
-![Use the system-view selector to see inactive records](media/golive-see-inactive-records.png "Use the system-view selector to see inactive records")
+![Use the system-view selector to see inactive records.](media/golive-see-inactive-records.png "Use the system-view selector to see inactive records")
 
 ## Customer journey go-live operations and status
 
@@ -68,13 +68,24 @@ Some customer journey settings become locked (read-only) based on the journey's 
 
 If you attempt to stop records such as email messages, forms, or segments utilized by live customer journeys, a warning pops up to prevent you from stopping a record that may disrupt a live journey.
 
-![Warning dialog when deleting a live record](media/customer-journey-publishable-entities.png "Warning dialog when deleting a live record")
+![Warning dialog when deleting a live record.](media/customer-journey-publishable-entities.png "Warning dialog when deleting a live record")
 
 > [!NOTE]
 > If you change the recurrence interval after the journey has already started, the current iteration will continue to run using the previous interval. Your new interval will take effect starting at the next iteration.
 
 > [!NOTE]
 > If you change the segment source for one or more segment tiles after a journey has started, the journey won't process any contacts that are no longer part of the segment and that haven't yet left the segment group tile. However, removed contacts that have already started the journey (that *have* left the segment group tile) continue to be processed to the end. The removed segment might be fully unprocessed, partially processed, or fully processed, depending on how far it progressed by the time you removed it. New contacts added by a new segment join the journey as usual, and contacts that were part of both the replaced and new segment continue where they left off.
+
+## Real-time marketing go-live operations and status
+
+| Status | Description |
+|---|---|
+| Draft | The journey has never been live. It can be edited, saved, or deleted without restrictions.  To publish a draft journey, open it and select **Publish** on the command bar. |
+| Live | The journey is currently live.  To make changes to a live journey, open it and select **Create a new version** on the command bar. |
+| Stopped | The journey was once live and may have processed some contacts but is now stopped manually.  No actions are being taken and no more contacts can be processed, including customers that were in the middle of the journey flow.  **Stop** is a manual user action. |
+| Completed | The journey is completed and is no longer accepting new customers into it. The journey completed because:  (1) the end date passed, (2) a static segment-based journey has run through every member, or (3) the last customer exited the previous journey version and the journey was marked as completed.  **Completed** is a system action. |
+| Publishing | The journey is currently being published. No actions can be taken. |
+| Completing | The journey is currently being completed. No actions can be taken. |
 
 ## Marketing email go-live operations and status
 

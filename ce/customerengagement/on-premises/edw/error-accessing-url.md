@@ -1,5 +1,7 @@
 ---
 title: "Error accessing URL | Microsoft Docs"
+description: Environment diagnostics warning that there was an error accessing the specified URL.
+ms.prod: d365ce-op
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 

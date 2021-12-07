@@ -4,7 +4,7 @@ description: "Dynamics 365 Customer Engagement (on-premises) offers several prog
 ms.custom: 
 ms.date: 03/29/2019
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
@@ -27,7 +27,7 @@ Microsoft Dynamics 365 Customer Engagement (on-premises) offers several programm
 
 The following diagram illustrates the key programmability scenarios for Dynamics 365 Customer Engagement (on-premises). Use the appropriate Dynamics 365 Customer Engagement (on-premises) programming models for the type of solutions you create.
 
-![Programmability Scenarios for Dynamics 365 Customer Engagement (on-premises)](media/crm-v8-programmabilityscenarios.png "Programmability Scenarios for Dynamics 365 Customer Engagement (on-premises)")  
+![Programmability Scenarios for Dynamics 365 Customer Engagement (on-premises).](media/crm-v8-programmabilityscenarios.png "Programmability Scenarios for Dynamics 365 Customer Engagement (on-premises)")  
 
 <a name="bkmk_ExternalApplications"></a>
 

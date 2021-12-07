@@ -33,22 +33,22 @@ To opt out of data collection, sign out and then sign back in using your web add
 
    - If you're signed in and using an app, select the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon"), select the profile icon ![Profile icon](media/d365_profile_icon.png "Site map icon"), then **Sign out**.
    
-   - If you're on the apps screen, select the gear icon ![Gear icon button](media/gear-settings-icon.png) and then **Sign out**.
+   - If you're on the apps screen, select the gear icon ![Gear icon button.](media/gear-settings-icon.png) and then **Sign out**.
 
 2. On the sign-in screen, select **Sign in with a web address instead**.
 
    > [!div class="mx-imgBorder"]
-   > ![Sign in using web address](media/sign-in-screen-web-address.jpg "Sign in using web address")
+   > ![Sign in using web address.](media/sign-in-screen-web-address.jpg "Sign in using web address")
 
 3. Enter the web address and then select the arrow button or select the enter key on your keyboard.
 
    > [!div class="mx-imgBorder"]
-   > ![Enter web address](media/enter-web-address-mobile.png "Enter web address")
+   > ![Enter web address.](media/enter-web-address-mobile.png "Enter web address")
    
 4. In the **Usage data collection** dialog box, clear the **Help improve Dynamics 365 by sharing usage data** check box and then select **Close**.
 
    > [!div class="mx-imgBorder"]
-   > ![Opt out of data collection](media/optoutdata.png "Opt out of data collection"). 
+   > ![Opt out of data collection.](media/optoutdata.png "Opt out of data collection"). 
    
   
    

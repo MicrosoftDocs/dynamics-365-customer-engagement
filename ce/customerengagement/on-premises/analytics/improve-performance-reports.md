@@ -1,9 +1,10 @@
 ---
-title: "Improve performance of reports (Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
+title: "Improve report performance in Dynamics 365 Customer Engagement (on-premises)"
+description: "This page offers guidelines that can help you improve the performance of your reports in Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 06/28/2021
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

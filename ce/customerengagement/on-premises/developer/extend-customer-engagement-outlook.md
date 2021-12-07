@@ -4,7 +4,7 @@ description: "Dynamics 365 for Outlook lets users interact with data while theyâ
 ms.custom: 
 ms.date: 01/29/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

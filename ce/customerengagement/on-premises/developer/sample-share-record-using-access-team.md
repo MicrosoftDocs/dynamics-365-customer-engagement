@@ -3,7 +3,7 @@ title: "Sample: Share a record using an access team (Developer Guide for Dynamic
 description: "The sample shows how to allow access to a record using an access team. All members of the team receive the same access to the record as is granted to the team."
 keywords: 
 ms.date: 01/08/2020
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.topic: samples
 applies_to: 

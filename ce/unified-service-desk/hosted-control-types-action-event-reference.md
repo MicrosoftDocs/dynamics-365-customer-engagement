@@ -1,20 +1,19 @@
 ---
-title: "Hosted control types, action, and event reference in Unified Service Desk | MicrosoftDocs"
-description: "The section provides information about the various types of hosted controls in Unified Service Desk, and the predefined User Interface Integration (UII) actions and events available for each hosted control type."
+title: "Hosted control types, action, and event reference | MicrosoftDocs"
+description: "Use this topic to get an overview of predefined and custom hosted controls, predefined UII actions, and events available for each hosted control type in Unified Service Desk."
+ms.date: 08/17/2018
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/17/2018
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 
 # Hosted control types, action, and event reference in Unified Service Desk
@@ -26,9 +25,10 @@ This section provides information about the various types of hosted controls in 
  Apart from the predefined hosted control types, this section also provides information about a custom hosted control, `Session Timer`, that becomes available when you deploy one of the sample [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] applications on your Microsoft Dataverse instance. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Session Timer (Custom Hosted Control)](../unified-service-desk/session-timer-custom-hosted-control.md)  
   
 > [!NOTE]
->  Most of the predefined hosted controls in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] have a predefined action called **default**, which calls an action on the hosted control that’s marked as the default. Because none of the predefined actions for any of the predefined hosted controls are marked as default, calling the **default** action on any predefined hosted control just loads the respective hosted control. However, for a custom [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] hosted control, you can define an action and set it as default so that the action is called when the **default** action is called on the custom hosted control. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [USD Hosted Control (Hosted Control)](../unified-service-desk/usd-hosted-control-hosted-control.md)  
+> Most of the predefined hosted controls in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] have a predefined action called **default**, which calls an action on the hosted control that’s marked as the default. Because none of the predefined actions for any of the predefined hosted controls are marked as default, calling the **default** action on any predefined hosted control just loads the respective hosted control. However, for a custom [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] hosted control, you can define an action and set it as default so that the action is called when the **default** action is called on the custom hosted control. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [USD Hosted Control (Hosted Control)](../unified-service-desk/usd-hosted-control-hosted-control.md)  
   
-## In this section  
+## In this section 
+ 
  [Connection Manager (Hosted Control)](../unified-service-desk/connection-manager-hosted-control.md)  
   
  [Global Manager (Hosted Control)](../unified-service-desk/global-manager-hosted-control.md)  
@@ -72,11 +72,12 @@ This section provides information about the various types of hosted controls in 
  [Session Timer (Custom Hosted Control)](../unified-service-desk/session-timer-custom-hosted-control.md)  
   
   
-## Related topics  
+## Related topics 
+ 
  [Learn to configure Unified Service Desk](../unified-service-desk/learn-to-use-unified-service-desk.md)  
   
  [Get started with configuring your agent application](../unified-service-desk/get-started-configuring-agent-application.md)  
-  
+
  [Unified Service Desk walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)  
   
  [Extend Unified Service Desk](../unified-service-desk/extend-unified-service-desk.md)  

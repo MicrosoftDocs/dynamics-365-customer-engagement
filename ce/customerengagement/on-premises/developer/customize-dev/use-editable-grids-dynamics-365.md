@@ -4,7 +4,7 @@ description: "Editable grid is a new custom control in Dynamics 365 Customer Eng
 ms.custom: 
 ms.date: 10/18/2018
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

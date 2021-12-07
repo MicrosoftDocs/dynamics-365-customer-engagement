@@ -30,7 +30,7 @@ Use section elements to establish the basic layout of your emails, marketing pag
 
 To add a section element, open the **Toolbox** panel, choose the section element that provides the column layout you'd like to start with and drag it into position above or below any existing section element in your design.
 
-![Add a section element to your design](media/email-layout-add.png "Add a section element to your design")
+![Add a section element to your design.](media/email-layout-add.png "Add a section element to your design")
 
 > [!NOTE]
 > If you start your design by choosing a template that implement layouts using custom HTML instead of section elements, then section elements aren't available. Instead, you'll be able to drag design elements into any container defined by the template. This may also apply to other custom templates that use custom HTML to create layouts.
@@ -39,8 +39,8 @@ When you first add a section element, it will have the number of columns that ma
 
 - **Section layout**: Select a button here to change the column layout to the one indicated by the graphic on each button. If you remove a column, all of its content will be moved into one of the remaining columns. If you add a column, the new column will initially be empty.
 - **Section styles**: Choose a **Background color** and/or image (**Background src**) for the section. This color or image appears inside the border (including the padding area, but not the margin area). If you  use a **Background src**, note the following:
-    - Select the **Image gallery** button ![The Image gallery button](media/email-browse-button.png "The Image gallery button") to select an image from the Dynamics 365 Marketing file library (you can also upload new images here).
-    - You can instead enter a custom image URL as text. For email messages, your URL can include dynamic expressions to show different images to different recipients. Select the **[Assist edit](dynamic-email-content.md#assist-edit)** button ![The assist-edit button](media/button-assist-edit.png "The assist-edit button") to get help constructing a dynamic expression.
+    - Select the **Image gallery** button ![The Image gallery button.](media/email-browse-button.png "The Image gallery button") to select an image from the Dynamics 365 Marketing file library (you can also upload new images here).
+    - You can instead enter a custom image URL as text. For email messages, your URL can include dynamic expressions to show different images to different recipients. Select the **[Assist edit](dynamic-email-content.md#assist-edit)** button ![The assist-edit button.](media/button-assist-edit.png "The assist-edit button") to get help constructing a dynamic expression.
     - If you've specified an image, the **Background size** setting is also shown. Select **Initial** to use the original image size. Select  **Fill (cover)** to fit the image to the section (the image will zoom to fill the entire area, as needed, but the original aspect ratio will be maintained, so clipping may occur but warping won't).
     - When your image is set with a **Background size** of **Initial**, you'll also be able to choose the horizontal and vertical alignments, which affect the image position. You can chose center, left, or right alignment for each axis.
     - If your image doesn't cover the full section area, then the **Background color** will be shown in areas not covered by the image.
@@ -48,7 +48,7 @@ When you first add a section element, it will have the number of columns that ma
 - **Section padding**: Specify how much padding (in pixels) you'd like to place between the columns and the colored border. You can enter separate values for top, bottom, left, and right.
 - **Section margin**: Specify how much margin (in pixels) you'd like to place between the colored border and the outside edge of the section element. You can enter separate values for top, bottom, left, and right.
 
-![Section element properties](media/email-layout-edit.png "Section element properties")
+![Section element properties.](media/email-layout-edit.png "Section element properties")
 
 > [!NOTE]
 > Microsoft Windows Outlook clients don't support all border-style and border-radius settings.
@@ -63,7 +63,7 @@ Text elements create a block of text within a column.
 
 You can edit the text of any new or existing text element by working directly in the element on the canvas. Use the inline toolbar at the top of the selected text element to do inline styling like font face, font color, bold, italic, paragraph justification, and more. You can also delete, clone, or move a selected text element by using the toolbar.
 
-![The text-element toolbar](media/text-block-toolbar.png "The text-element toolbar")
+![The text-element toolbar.](media/text-block-toolbar.png "The text-element toolbar")
 
 Select a text element and use the settings provided on the **Properties** tabs to stylize the element itself by using colors, fonts, margins, borders, and backgrounds. Many of the settings on the **Style** tab (which apply to the overall page, form, or message design) also affect the styling of text-element content unless overruled locally.
 
@@ -77,7 +77,7 @@ When you first add an image element, an image placeholder appears at the locatio
 
 - **Source**: Specify the image you want to display using a combination of the following:
   - Enter a URL directly in the field.
-  - Select the **Image Gallery** button ![The image gallery button](media/button-image-gallery.png "The image gallery button") next to this field to select an existing image from the gallery, or to upload a new one. When an image is selected, its URL is shown here.
+  - Select the **Image Gallery** button ![The image gallery button.](media/button-image-gallery.png "The image gallery button") next to this field to select an existing image from the gallery, or to upload a new one. When an image is selected, its URL is shown here.
   - If you are using the image in an email message, then you can use the **[Assist edit](dynamic-email-content.md#assist-edit)** button ![The assist-edit button](media/button-assist-edit.png "The assist-edit button") to place dynamic text as part of the URL. For example, you could include the recipient's contact ID or company name to select an image that is relevant for each individual recipient. More information: [Use dynamic values to choose an image source or link](dynamic-email-content.md#image-source)
 - **Alt text**: Enter a short description of the image. This text will be read aloud to contacts that are using a screen reader, and will also be shown to contacts that have images disabled in their browser or email client. 
 - **Link**: Enter a URL here if you'd like the image to function as a link.
@@ -185,7 +185,7 @@ The designer provides many elements that are unique to marketing forms. They are
 
 Each field element creates a single form control (such as an input field, check box, or radio button set) that is mapped to the contact and/or lead entity in Dynamics 365. For each marketing-form field that you've set up, you'll find a unique design element named after the field under the **Fields** heading of the designer's **Toolbox** tab. So, for example, if you've mapped the **First Name** field of the contact entity to a marketing-form field called "First Name", you'll also have field element called **First Name** under the **Fields** heading of the form designer. More information: [Create, view, and manage marketing forms](marketing-forms.md)
 
-![Field-element settings](media/field-block-details.png "Field-element settings")
+![Field-element settings.](media/field-block-details.png "Field-element settings")
 
 When you add or select a field in your form, you can read and set the following properties on the **Properties** tab:
 
@@ -259,7 +259,7 @@ Reset-button elements are only available when you are working with a forward-to-
 
 Captcha elements add a captcha to your form, which helps make sure that only humans can submit the form, thus preventing bots from filling your database full of spam or noise.
 
-![A captcha element and its settings](media/captcha-block.png "A captcha element and its settings")
+![A captcha element and its settings.](media/captcha-block.png "A captcha element and its settings")
 
 You've probably seen captchas before. They require you to recognize and repeat a set of characters designed to be difficult for a computer to recognize.
 

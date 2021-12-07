@@ -1,9 +1,10 @@
 ---
-title: "Create or edit entities | MicrosoftDocs"
+title: "Overview of entities in Dynamics 365 Customer Engagement (on-premises)"
+description: "Entities define the types of records people can use in Dynamics 365. You can edit customizable system entities and create, edit, or delete custom entities."
 ms.custom: 
 ms.date: 04/30/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -18,7 +19,7 @@ search.audienceType:
   - customizer
 
 ---
-# Create or edit entities (record types) 
+# Overview of entities (record types)
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Entity overview](/powerapps/maker/common-data-service/entity-overview)
 

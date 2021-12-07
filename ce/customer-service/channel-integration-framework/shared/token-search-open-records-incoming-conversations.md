@@ -13,18 +13,18 @@ The sample given below covers four scenarios:
 ## Prerequisites
 
 - Visual Studio 2017.
-- A valid Microsoft Azure subscription is required to publish the sample app to Azure.
+- A valid Microsoft Azure subscription to publish the sample app to Azure.
 
 > [!IMPORTANT]
-> This tutorial is a continuation of [Getting started with building a simple communication widget](getting-started-simple-widget.md). If you have not created a simple *Hello World!* widget yet that can be hosted on Dynamics 365 Channel Integration Framework, we suggest you read that first.
+> This tutorial is a continuation of [Get started with building a simple communication widget](getting-started-simple-widget.md). If you have not created a simple *Hello World!* widget yet that can be hosted on Dynamics 365 Channel Integration Framework, we suggest you read that first.
 
 ## Build the widget
 
-1. Open the basic widget that you created using the steps mentioned in [Get started with building a simple communication widget](getting-started-simple-widget.md) in Visual Studio 2017.
+1. Open the basic widget that you created using the steps given in [Get started with building a simple communication widget](getting-started-simple-widget.md) in Visual Studio 2017.
 
 2. Open the `Index.cshtml` file and replace the code in the file with the code given below. 
 
-   ![Open Index.cshtml file from solution explorer](../media/cif-helloworld-solution-explorer.PNG "Open Index.cshtml file from solution explorer")<br />
+   ![Open Index.cshtml file from Solution Explorer.](../media/cif-helloworld-solution-explorer.PNG "Open Index.cshtml file from Solution Explorer")<br />
 
 ```html
 <!DOCTYPE html>
@@ -187,6 +187,6 @@ The sample given below covers four scenarios:
 
 ## Publish and configure the widget
 
-Follow the steps mentioned in [Publish and configure the widget](getting-started-simple-widget.md#BKMK_publish) to publish the widget. The published widget should look like this:
+Follow the steps in [Publish and configure the widget](getting-started-simple-widget.md#BKMK_publish) to publish the widget. The published widget should look like this:
 
-  ![Published sample widget in Unified Interface apps](../media/cif-search-records-publish-app.PNG "Published sample widget in Unified Interface apps")<br />
+  ![Published sample widget in Unified Interface apps.](../media/cif-search-records-publish-app.PNG "Published sample widget in Unified Interface apps")<br />

@@ -1,12 +1,11 @@
 ---
-title: "Configure a Microsoft Teams channel in Omnichannel for Customer Service | MicrosoftDocs"
+title: "Configure Microsoft Teams channel in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the Microsoft Teams channel and how to configure the channel in Omnichannel for Customer Service."
+ms.date: 10/26/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 # Configure a Microsoft Teams channel
 
@@ -25,7 +24,7 @@ Make sure that the following prerequisites are met:
   > [!NOTE]
   > To enable the Teams channel in an existing Omnichannel for Customer Service environment, you must upgrade to the latest version of Omnichannel for Customer Service. More information: [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)
 
-- An app is created and configured in **Teams** > **App Studio**.
+- An app is created and configured in **Teams** > **App Studio**. More information: [Build your first Teams app using C#](/microsoftteams/platform/get-started/get-started-dotnet-app-studio?tabs=AS).
 
 ## Configure a Microsoft Teams channel in Omnichannel admin center<a name="configureinoac"></a>
 
@@ -48,11 +47,11 @@ Make sure that the following prerequisites are met:
    5. Verify the settings on the **Summary** page, and select **Finish**. The WhatsApp channel instance is configured.
 5. Configure routing rules. More information: [Configure work classification](configure-work-classification.md).
 6. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
-7. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot).
+7. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream).
 8. In **Advanced settings**, configure the following options based on your business needs:
    - [Sessions](../app-profile-manager/session-templates.md)
    - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
-   - [Context variables](create-workstreams.md#configure-context-variables)
+   - [Context variables](context-variables-for-bot.md#add-context-variables)
    - [Smart assist bots](smart-assist-bot.md)
    - [Quick replies](create-quick-replies.md)
 
@@ -73,7 +72,7 @@ Make sure that the following prerequisites are met:
 5. In **Step 3: Callback information**, copy the value that's displayed in **Bot ID**.
 
     > [!div class=mx-imgBorder]
-    > ![Create a Teams channel](media/teams-channel.png "Create a Teams channel")
+    > ![Create a Teams channel.](media/teams-channel.png "Create a Teams channel")
 
 6. Optionally, on the **Automated messages** tab, [configure automated messages](configure-automated-message.md).
 7. Optionally, on the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).

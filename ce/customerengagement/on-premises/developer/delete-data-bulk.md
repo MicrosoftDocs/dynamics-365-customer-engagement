@@ -4,7 +4,7 @@ description: "Helps maintain data quality and manage the consumption of system s
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: nabuthuk
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article

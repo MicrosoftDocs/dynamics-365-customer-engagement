@@ -1,14 +1,11 @@
 ---
-title: Convert a case to a knowledge article in Customer Service Hub | Microsoft Docs
-description: Understand Cases and SLA in Customer Service Hub for Dynamics 365 Customer Service.
+title: "Convert a case to a knowledge article in Customer Service Hub | MicrosoftDocs"
+description: "Perform the steps mentioned in the topic to convert a case to a Knowledge article in Customer Service Hub for Dynamics 365 Customer Service."
+ms.date: 11/27/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 11/27/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,10 +13,20 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
+searchScope:
+- D365-App-customerservicehub
+- D365-Entity-incident
+- D365-UI-*
+- Customer Engagement
+- Dynamics 365
+- Customer Service
 ---
 
-# Convert a case to a Knowledge article  
- There are times when existing knowledge articles do not contain relevant information for resolving a case. You, as a CSR, can now contribute to the knowledge base by turning all information that has been researched for a case into a knowledge article. You can convert one case into multiple knowledge articles.  
+# Convert a case to a Knowledge article
+
+There are times when existing knowledge articles do not contain relevant information for resolving a case. You, as a CSR, can now contribute to the knowledge base by turning all information that has been researched for a case into a knowledge article. You can convert one case into multiple knowledge articles.  
 
 
 1. Make sure you have Create permissions on the Knowledge Article entity.  

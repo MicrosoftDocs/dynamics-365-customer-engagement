@@ -1,5 +1,7 @@
 ---
 title: "Not all base and extensionbase tables were merged | Microsoft Docs"
+description: Environment diagnostics warning that not all tables were merged.
+ms.prod: d365ce-op
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 

@@ -1,12 +1,12 @@
 ---
 title: "Introduction to Omnichannel for Customer Service | MicrosoftDocs"
-description: 
+description: Learn about Omnichannel for Customer Service, the features that are offered, and how they can be configured in your organization.
+ms.date: 06/18/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/18/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
+ms.custom: intro-internal
 ---
 # Introduction to Omnichannel for Customer Service
 
@@ -38,7 +38,21 @@ SMS is an engagement channel that supports asynchronous mode of communication, a
 
 ### Social channels
 
-Social channels such as Facebook, LINE, Twitter, and WeChat give you an incredible opportunity to capitalize on the social media trend and engage with your customers in a seamless and personalized experience. In addition to the aforementioned generally available channels, Custom channels are currently available in preview. For more information, see [Try channels for Dynamics 365 Customer Service](try-channels.md).
+Social channels such as Facebook, LINE, Twitter, and WeChat give you an incredible opportunity to capitalize on the social media trend and engage with your customers in a seamless and personalized experience. In addition to popular social channels, you can create your own custom messaging channel. For more information, see [Try channels for Dynamics 365 Customer Service](try-channels.md).
+
+### Inbox view
+
+As an agent, when you open Customer Service workspace or Omnichannel for Customer Service, you can select the inbox icon to show all of the cases and conversations that are assigned to you. The inbox is designed to help you efficiently work on high velocity tasks, as well as promote inbox sessions to regular sessions when you need more time to resolve cases and complete your conversations. The following asynchronized channels are available in the conversation inbox: SMS, persistent chat, Facebook, Twitter, WeChat, LINE, WhatsApp, and Teams.
+
+The following image shows the inbox conversation view:
+
+:::image type="content" source="media/inbox-csw.png" alt-text="Customer Service workspace inbox conversations view" border="false":::
+
+The following image shows the inbox case view:
+
+:::image type="content" source="media/inbox-case.png" alt-text="Customer Service workspace inbox case view" border="false":::
+
+For information on how to configure the inbox view, see [Configure the inbox view in App profile manager](/dynamics365/app-profile-manager/app-profile-manager#configure-the-inbox-view).
 
 ## Videos
 
@@ -54,8 +68,8 @@ To view more videos on Omnichannel for Customer Service, see [Videos](videos.md)
 [Configure an SMS channel](configure-sms-channel.md)  
 [Configure a Facebook channel](configure-facebook-channel.md)  
 [Quickly configure a chat widget](configure-live-chat.md)  
-[Understand unified routing and work distribution](unified-routing-work-distribution.md)  
-[Administrators guide](omnichannel-administrator.md)  
+[Understand routing](overview-unified-routing.md)  
+[Omnichannel admin center](oc-admin-center.md)  
 [Agents using Unified Service Desk](../unified-service-desk/oc-usd/omnichannel-agent.md)  
 [Agents using Omnichannel for Customer Service app](omnichannel-customer-service-app-agent.md)  
 [System customizers guide](omnichannel-customizer.md)  

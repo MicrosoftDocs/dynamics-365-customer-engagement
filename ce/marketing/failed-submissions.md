@@ -47,11 +47,11 @@ To find incoming submissions:
 1. Find and open the form you want to inspect.
 1. Go to the **Form submissions** tab. Incoming forms that haven't been processed yet are listed here as pending. If any failed submissions have been received, you'll see them listed here too. If you've configured the form to [store all incoming submissions](#keep-all), then you'll also see successful submissions here. The **Status Reason** column reports the pending/success/fail status of each submission.
 
-    ![List of failed form submissions](media/form-failed-submission.png "List of failed form submissions")
+    ![List of failed form submissions.](media/form-failed-submission.png "List of failed form submissions")
 
 1. To inspect a submission, select and open it from this list (for example, with double-click). A new page opens showing details of the submission, including a failure description (if relevant), technical details, and a list of values submitted.
 
-    ![Failed submission details](media/form-failed-submission-details.png "Failed submission details")
+    ![Failed submission details.](media/form-failed-submission-details.png "Failed submission details")
 
 1. Do the following:
 

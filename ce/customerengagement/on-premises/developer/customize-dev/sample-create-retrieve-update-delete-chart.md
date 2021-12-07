@@ -3,7 +3,7 @@ title: "Sample: Create, retrieve, update, and delete a chart (Developer Guide fo
 description: "The sample shows how to create, retrieve, update, and delete an organization-owned visualization. "
 keywords: 
 ms.date: 10/31/2017
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.topic: samples
 applies_to: 

@@ -34,7 +34,7 @@ To add or remove a contact to/from a static segment using their contact record:
     - **Remove from segment**: To remove the current contact from one or more existing static segments.
 1. A dialog box opens, showing a list of available segments. Select each segment that you'd like to update and then choose **Select** to apply your changes.
 
-    ![Select segments to add the current contact to](media/select-segment-from-contact.png "Select segments to add the current contact to")
+    ![Select segments to add the current contact to.](media/select-segment-from-contact.png "Select segments to add the current contact to")
 
 ### See also
 

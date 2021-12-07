@@ -1,14 +1,11 @@
 ---
 title: Schedule time off (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Understand how to schedule time off in Dynamics 365 Customer Service
+ms.date: 09/15/2017
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 09/15/2017
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Schedule time off 
@@ -23,7 +22,7 @@ search.app:
 You can schedule a period of time in the middle of a schedule when a resource is not available to be scheduled for a service activity. For a user, this could be a sick day or vacation. For a facility or equipment, this could be an equipment failure.
 
 > [!IMPORTANT]
-> Service scheduling has been deprecated. For more information, see [Important changes coming](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
+> Service scheduling has been deprecated. For more information, see [Important changes coming](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
   
 More information on scheduling a resource for business closure or holiday: *Set or change work hours for a user, facility, or equipment*.  
   

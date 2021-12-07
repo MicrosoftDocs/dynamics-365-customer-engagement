@@ -4,7 +4,7 @@ description: "Learn about converting an opportunity to a quote, sales order, or 
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

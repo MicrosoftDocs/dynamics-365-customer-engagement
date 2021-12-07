@@ -1,20 +1,18 @@
 ---
-title: "focusTab (JavaScript API Reference) for Dynamics 365 Channel Integration Framework (CIF) version 2.0 | MicrosoftDocs"
-description: ""
+title: "focusTab (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
+description: "Includes description, syntax, and parameter information for the focusTab method in JavaScript API Reference for Channel Integration Framework 2.0."
+ms.date: 11/02/2020
+ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 11/02/2020
-ms.topic: reference
-ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
 ---
 
-# focusTab
+# focusTab (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
 
- 
 
 Sets the focus on a tab, if the focused session belongs to the channel provider and if the tab belongs to the session in focus.
 

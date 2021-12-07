@@ -3,7 +3,7 @@ title: "Sample: Detect multiple duplicate records | MicrosoftDocs"
 description: "Sample demonstrates how to detect and log multiple duplicate records for a specified entity type."
 keywords: 
 ms.date: 10/31/2017
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.topic: samples
 applies_to: 

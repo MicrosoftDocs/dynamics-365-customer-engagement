@@ -1,41 +1,39 @@
 ---
 title: "Regional availability and service limits for Customer Service | MicrosoftDocs"
 description: "Learn about regional availability and service limits for Customer Service applications."
-author: meghanalanka
-feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
-ms.author: v-mlanka
-manager: shujoshi
-ms.date: 04/09/2021
+ms.date: 10/07/2021
 ms.topic: article
-ms.service: dynamics-365-customerservice
+author: neeranelli
+ms.author: nenellim
+manager: shujoshi
+feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
-# Regional availability for Customer Service
+# Regional availability of insights in Customer Service
 
-Customer Service features are available in the following regions.
+The following table lists the regional availability of Customer Service Insights features.
 
-| Feature | NAM | EUR | APJ | SAM | OCE |JPN | IND | CAN | GBR |
-| ------- | ----- | ------- | -------- | ----- | ------- | ------- | ----- |---- | ------ |
-| Customer Service historical analytics | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
-| Case Topic Clustering | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
-| Smart Assist Suggestions | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✔ | ✔ |
-| Omnichannel historical analytics | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
-| Conversation Topic clustering | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
-| Sentiment analysis | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
+| Feature | North America| Europe | Asia Pacific | South America | Australia |Japan | India | Canada | United Kingdom | France | United Arab Emirates | Switzerland |Germany | South Africa |Korea | Norway
+| ------- | ----- | ------- | -------- | ----- | ------- | ------- | ----- |---- | ------ | ------ | -------- | ------ | 
+| Customer Service historical analytics | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ | ✖ |
+| Case Topic Clustering | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ | ✖ |
+| Smart Assist Suggestions | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ | ✖ |
+| Omnichannel historical analytics | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |✖ | ✖ | ✖ | ✖ |
+| Conversation Topic clustering | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ | ✖ |
+| Sentiment analysis | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ | ✖ |
+| AI suggestions for cases and knowledge articles | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ | ✖ |
+| AI suggestions for article keywords and description | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ | ✖ |
 
-
-✔ : Available
-
-✖: Not available
-
+✔ : Available  
+✖ : Not available
 
 ## Service limits in Dynamics 365 Customer Service Insights
 
-This article describes the built-in limits to the Customer Service Insights service, which are designed to ensure the reliability and stability of the service. Any requests for changes can be made through the Ideas forum.
+Customer Service Insights service has built-in limits that are designed to ensure reliability and stability of the service. Any requests for changes can be made through the Ideas forum.
 
 ### Service limits
 
-This following table lists the built-in limits for the embedded version of insights in Customer Service Hub, Customer Service workspace, and Omnichannel for Customer Service.
+The following table lists the built-in limits for the embedded version of insights in Customer Service Hub, Customer Service workspace, and Omnichannel for Customer Service.
 
 | Area | Limits | Notes |
 | ------------ | ------------- | ----------------- |
@@ -49,10 +47,10 @@ This following table lists the built-in limits for the embedded version of insig
 
 ## Service protection limits for AI suggestions
 
-AI suggestions for Case and Knowledge are available starting Oct, 2020. We're introducing service protection limits on these capabilities to maintain a consistent quality of service for all our customers, but there aren't penalties if customers exceed pre-defined limits. Over time, Microsoft may adjust these limits in keeping with customer usage patterns and provide options for customers with high usage scenarios and patterns to purchase additional capacity in a manner minimally disruptive to those customers.
+AI suggestions for case and knowledge are available starting October 2020. We're introducing service protection limits on these capabilities to maintain a consistent quality of service for all our customers, but there aren't penalties if customers exceed pre-defined limits. Over time, Microsoft may adjust these limits in keeping with customer usage patterns and provide options for customers with high usage scenarios and patterns to purchase additional capacity in a manner minimally disruptive to those customers.
 
 For information on the service protection limits for AI suggestions, see [Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md). The total limits are pooled at the tenant level based on the number of Customer Service Enterprise user licenses that are available in the tenant.
 
-## Power platform capacity impact
+## Microsoft Power Platform capacity impact
 
 Enabling the insights feature will impact Dataverse entitlements. For more information, see [New Microsoft Dataverse storage capacity](/power-platform/admin/capacity-storage)

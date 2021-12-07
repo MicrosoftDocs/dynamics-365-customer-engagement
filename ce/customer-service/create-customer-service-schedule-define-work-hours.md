@@ -1,14 +1,11 @@
 ---
 title: "Create customer service schedule and define work hours (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Learn how to create a customer service schedule and define the work hours for Dynamics 365 Customer Service."
+ms.date: 10/01/2018
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 10/01/2018
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,13 +13,18 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Create customer service schedule and define the work hours
 
 To define when your service or support team is available for providing support to customers, create a customer service schedule in Dynamics 365 Customer Service. A customer service schedule determines the business hours for each day in a week and also the weekly off. Customer Service uses these details for time tracking of service-level agreements (SLAs).  
   
- For SLA time tracking, make sure you add a holiday schedule to the customer service schedule, and associate this customer service schedule to the SLA record.  
+For SLA time tracking, make sure you add a holiday schedule to the customer service schedule, and associate this customer service schedule to the SLA record.
+
+You can create the service schedule and define work hours in Dynamics 365 Customer Engagement (on-premises) 9.1 also. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new.md#new-work-hour-calendar-in-service-scheduling)
+
 
 > [!NOTE]
 > With the latest release of Dynamics 365 Customer Service app, customer service schedule in service management is available in the Customer Service Hub. We recommend that you create and manage customer service schedule using the new experience.
@@ -37,7 +39,7 @@ To define when your service or support team is available for providing support t
   
    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
-2. In the Customer Service Hub sitemap, go to **Service Management** and select **Service Terms** > **Customer Service Schedule**.
+2. In the Customer Service Hub site map, go to **Service Management** and select **Service Terms** > **Customer Service Schedule**.
 
     > [!NOTE]
     > In the Customer Service app, [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)] and select **Customer Service Schedule**.
@@ -72,7 +74,7 @@ To define when your service or support team is available for providing support t
   
 7. Select **Save**.  
 
-   ![customer service schedule](media/customer-service-schedule.png "customer service schedule")
+   ![customer service schedule.](media/customer-service-schedule.png "customer service schedule")
  
 ## Define the work hours for the schedule
 

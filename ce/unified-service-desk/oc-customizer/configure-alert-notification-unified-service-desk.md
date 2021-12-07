@@ -1,12 +1,11 @@
 ---
 title: "Configure alert notifications in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to configure alert notification for agents using Omnichannel for Customer Service in Unified Service Desk."
+ms.date: 07/01/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/01/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 monikerRange: '>= dynamics-usd-4.1'
 ---
 # Configure alert notifications in Unified Service Desk

@@ -4,7 +4,7 @@ description: "For a multi-tenant environment like Dynamics 365 Server, you can u
 ms.custom: on-premise
 ms.date: 09/05/2019
 ms.reviewer: pehecke
-ms.service: 
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

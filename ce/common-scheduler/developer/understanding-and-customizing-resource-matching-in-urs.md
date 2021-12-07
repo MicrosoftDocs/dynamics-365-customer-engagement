@@ -1,22 +1,20 @@
 ---
-title: Understanding and customizing resource matching in Universal Resource Scheduling | Microsoft Docs
-description: Understanding and customizing resource matching in Universal Resource Scheduling
+title: "Customize resource matching in Universal Resource Scheduling"
+description: "Learn how the built-in resource constraints are implemented in Universal Resource Scheduling, and how to extend the system with custom resource constraints."
 author: FieldServiceDave
 ms.author: daclar
 ms.date: 06/14/2018
 ms.reviewer: krbjoran
-ms.service: crm-online
+ms.service: dynamics-365-field-service
+ms.subservice: common-scheduler
 ms.topic: article
-ms.custom: 
-  - dyn365-projectservice
-  - dyn365-fieldservice
 search.app: 
   - D365CE
   - D365PS
   - D365FS
 ---
 
-# Understanding and customizing resource matching in Universal Resource Scheduling
+# Extend Universal Resource Scheduling with custom resource constraints
 
 Universal Resource Scheduling, the scheduling engine underlying Dynamics 365 Field Service and Project Service Automation, ships with extensive resource matching capabilities to book the right resources for a job. While the Universal Resource Scheduling solution ships with Field and Project service, Universal Resource Scheduling can also be used to schedule any workstream in Dynamics 365. In this article, we'll take a look at how the built-in resource constraints are implemented and how to customize Universal Resource Scheduling with custom resource constraints.
 

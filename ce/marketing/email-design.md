@@ -29,14 +29,14 @@ For a step-by-step tutorial on how to create and send your first marketing email
 To create a new email marketing message, go to **Marketing** > **Marketing Execution** > **Marketing emails** and select **New** on the command bar.
 
 > [!div class="mx-imgBorder"]
-> ![Location of the new-email button](media/new-email-button-location4.png)
+> ![Location of the new-email button.](media/new-email-button-location4.png)
 
 ## Establish your basic layout by choosing the right template
 
 The first thing you are asked when you create a new message is to select a template. Dynamics 365 Marketing includes many templates, each of which includes both structural and style elements. You can select **Skip** to start with a  blank template, which lets you start from scratch with an empty message. After you select a template or choose **Skip**, you'll be in the email designer, where you can finish creating your email content.
 
 > [!div class="mx-imgBorder"]
-> ![Dialog for choosing an email template](media/email-template-dialog2.png)
+> ![Dialog for choosing an email template.](media/email-template-dialog2.png)
 
 When you create a new message from a template, the template content is copied into your new message. The message and template aren't linked, so when you edit the message, the template won't change. Likewise, any future changes that you make to a template won't affect any existing messages that were created using it.
 
@@ -53,7 +53,7 @@ After choosing a template, a new email message opens showing the initial content
 Each email message must have a name, which identifies the message when you're looking at the list view or when selecting messages to include in a customer journey. To enter a name, select the **Email name** field on the left side of the header and enter a name for your new message.
 
 > [!div class="mx-imgBorder"]
-> ![Enter a name for your new email](media/email-edit-header-fields3.png)
+> ![Enter a name for your new email.](media/email-edit-header-fields3.png)
 
 ### Enter a subject for the message
 
@@ -62,14 +62,14 @@ Enter a subject for your message by selecting **Add a subject** in the email hea
 You can also add a preheader, which shows up next to or below the subject line in the recipient's inbox. Preheader allows you to create custom text that displays in your recipient's inbox before they open the email message. The preheader is your chance to create a line that grabs the recipient's attention as soon as they see your message.
 
 > [!div class="mx-imgBorder"]
-> ![Enter a subject for your new email](media/email-edit-subject2.png)
+> ![Enter a subject for your new email.](media/email-edit-subject2.png)
 
 ### Other important settings
 
 Other important settings are also provided in the **Email header** pane, but these should already show default values that should work fine in most situations.
 
 > [!div class="mx-imgBorder"]
-> ![Access additional email header settings](media/email-header-settings.png)
+> ![Access additional email header settings.](media/email-header-settings.png)
 
 To access all the **Email header** settings, select a section when hovering over it. The **Email header** settings include the following:
 
@@ -99,7 +99,7 @@ The email content designer resembles the other [digital content designers](desig
 - When you select a design element on the canvas, you'll usually see a formatting toolbar just above the element. The controls offered by the toolbar vary depending on which type of element you've selected. Most toolbars provide buttons to move, copy, or delete the selected element, in addition to specialized buttons that vary by element type. The toolbar also includes an arrow, which allows you to quickly switch to the parent element that contains the selected element.
 - When a text element is selected, you'll get a full formatting toolbar that you can use to apply basic text formatting like you would in Microsoft Word. It also includes a **Personalization** button ![Personalization button](media/personalization-button.png "Personalization button"), which you can use to add dynamic content such as a mail-merge field that displays the recipient's name. More information: [Use assist edit to place dynamic field values](dynamic-email-content.md#assist-edit)
 - To resize an image, divider, or button, click to select the element. You will see small circles on the corners and sides of the element. Select a circle and drag to resize.
-- Use the **HTML** button ![HTML button](media/html-button2.png "HTML button") to edit the raw HTML directly. You might use this to paste in an existing HTML design, or to fine-tune the code in ways that aren't supported by the graphical editor (such as custom attributes or logic).
+- Use the **HTML** button ![HTML button.](media/html-button2.png "HTML button") to edit the raw HTML directly. You might use this to paste in an existing HTML design, or to fine-tune the code in ways that aren't supported by the graphical editor (such as custom attributes or logic).
 
 More information: [Design your digital content](design-digital-content.md)
 

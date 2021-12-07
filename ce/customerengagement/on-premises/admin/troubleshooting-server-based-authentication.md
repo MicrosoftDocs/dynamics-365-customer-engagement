@@ -1,9 +1,10 @@
 ---
-title: "Troubleshooting server-based authentication  | MicrosoftDocs"
+title: "Troubleshoot server-based integration in Dynamics 365 Customer Engagement (on-premises)"
+description: "Troubleshoot issues that can occur during server-based authentication. Run a validation check with the integration wizard or review reports in SharePoint."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -19,7 +20,7 @@ search.audienceType:
   - admin
 
 ---
-# Troubleshooting server-based authentication
+# Troubleshoot server-based authentication
 
 <a name="BKMK_tshoot_wizard"></a>   
 ## Troubleshooting the Enable server-based SharePoint Integration wizard  

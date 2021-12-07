@@ -3,7 +3,7 @@ title: "Sample: Use Dynamics 365 for Outlook methods (Developer Guide for Dynami
 ms.custom: 
 ms.date: 01/28/2020
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: samples

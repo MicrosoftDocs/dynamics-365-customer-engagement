@@ -1,9 +1,10 @@
 ---
-title: "Add Office 365 Online services | MicrosoftDocs"
+title: "Add Office 365 Online services to Dynamics 365 Customer Engagement apps"
+description: "Enhance customer relationship management with the power of cloud services by integrating Office 365 with Dynamics 365 for Customer Engagement apps."
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -19,10 +20,10 @@ search.audienceType:
   - admin
 
 ---
-# Add Office 365 Online services
+# Add Office 365 Online services to Customer Engagement apps
 Integrating [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] with [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps is a great way to enhance your customer relationship management with the power of cloud services: easier maintenance, broader availability, and better coordination across multiple devices.  
   
- ![Office 365 Services](../admin/media/office365services.png "Office 365 Services")  
+ ![Office 365 Services.](../admin/media/office365services.png "Office 365 Services")  
   
  The following topics provide information on how to integrate [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)], [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)], and [!INCLUDE[pn_skype](../includes/pn-skype.md)] into [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] apps.  
   

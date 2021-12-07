@@ -1,13 +1,12 @@
 ---
 title: "Configure Customer Service insights for Dynamics 365 in Customer Service Hub and Customer Service workspace | MicrosoftDocs"
 description: "Learn about Customer Service Insights configuration options for Customer Service Hub and Customer Service workspace"
-author: lalexms
-feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
-ms.author: laalexan
-manager: shujoshi
 ms.date: 10/22/2020
 ms.topic: article
-ms.service: "dynamics-365-customerservice"
+author: lalexms
+ms.author: laalexan
+manager: shujoshi
+feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
 # Configure Customer Service Insights for Customer Service Hub and Customer Service workspace
@@ -17,7 +16,7 @@ ms.service: "dynamics-365-customerservice"
 You can enable and configure the Customer Service Insights features and services for Dynamics 365 Customer Service and share them with service managers, who can then view and analyze the different activities performed. Setup is done in Customer Service Hub, but applies to both Customer Service Hub and Customer Service workspace.
 
    > [!div class="mx-imgBorder"]
-   > ![Customer Service analytics configuration](media/cs-enable-analyticsinsights.png "Configuration of Customer Service historical analytics reports")
+   > ![Customer Service analytics configuration.](media/cs-enable-analyticsinsights.png "Configuration of Customer Service historical analytics reports")
 
 The following report is available out of the box:
 

@@ -1,9 +1,10 @@
 ---
-title: "Create or edit system dashboards | MicrosoftDocs"
+title: "Create a system dashboard in Dynamics 365 Customer Engagement (on-premises)"
+description: "Follow these steps to create or edit a system dashboard. An admin or customizer can do this, allowing the dashboard to be seen by everyone in an organization."
 ms.custom: 
 ms.date: 06/12/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -18,7 +19,7 @@ search.audienceType:
   - customizer
 
 ---
-# Create or edit system dashboards
+# Create or edit a system dashboard
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Create or edit model-driven app dashboards](/powerapps/maker/model-driven-apps/create-edit-dashboards) 
 

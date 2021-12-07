@@ -1,7 +1,7 @@
 ---
 title: "Initial and ongoing event planning (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to plan an event, register basic info, set up your team, manage sessions and speakers, set the event schedule, issue passes,  and manage venues in Dynamics 365 Marketing."
-ms.date: 04/21/2021
+ms.date: 09/27/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -33,7 +33,7 @@ You can see a list of all your event records by [opening the **Events** work are
 If you often run similar events, you can save time by creating one or more [event templates](event-templates.md) and then choosing an appropriate template when you first create a new event.
 
 > [!div class="mx-imgBorder"]
-> ![Example of an event record](media/event-record2.png)
+> ![Example of an event record.](media/event-record2.png)
 
 As with other forms in Dynamics 365, the event form provides a summary of its most important settings at the top, where you'll also find the business workflow timeline, which helps organize your work at each stage of the event-management process. A standard business workflow for events is provided out of the box, but you can customize it to match the process in place at your organization.
 
@@ -128,7 +128,7 @@ The **Room reservations** tab provides a calendar that shows the rooms assigned 
 The **Recovery items** tab allows system administrators to track customization errors, improving the event workflow creation process. This tab contains a grid with customization errors and gives administrators options to handle them. For events, typical errors occur during registration on event websites.
 
 > [!div class="mx-imgBorder"]
-> ![List of event recovery items](media/event-recovery-items.png)
+> ![List of event recovery items.](media/event-recovery-items.png)
 
 After selecting rows in the Recovery items tab, you can delete the items (which will delete them from blob storage), or you can fix the issue and "recover" any item, which will replay the previously failed functionality.
 
@@ -167,7 +167,7 @@ The core attractions of your event offering will typically be its sessions and s
 
 A session represents a subdivision of things that are happening at your event. Each session is usually a something like a seminar or keynote, but the concept is flexible so you can adapt it as needed. For example, if your event is a trade show rather than a conference, you can use sessions to represent booths.
 
-A large conference might have several sessions running concurrently, and might even feature several session *tracks*, which organize multiple related and non-conflicting sessions by audience so attendees can easily choose the best track for themselves without having to study the entire offering. Later, you'll be able up event and session passes to manage ticketing.
+A large conference might have several sessions running concurrently, and might even feature several session *tracks*, which organize multiple related and non-conflicting sessions by audience so attendees can easily choose the best track for themselves without having to study the entire offering. Later, you'll be able to set up event and session passes to manage ticketing.
 
 There are two types of tracks: _internal_ and _external_. Use internal tracks during the planning phase to group sessions along organization lines, such as according to team resources or required equipment. Use external tracks to group sessions by content or audience. External tracks are published on customer-facing platforms such as event websites and mobile apps. As needed, you can set up a pass type for each relevant external track, but you wouldn't set up passes for internal tracks. Use the **Track Type** setting, at the top of the form to set the track to internal or external.
 

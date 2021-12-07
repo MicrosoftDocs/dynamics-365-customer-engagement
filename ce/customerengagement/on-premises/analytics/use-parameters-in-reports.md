@@ -1,9 +1,10 @@
 ---
-title: "Use parameters in reports (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Use report parameters in Dynamics 365 Customer Engagement (on-premises)"
+description: "Parameters control reports by retrieving only the data requested by the user. Learn how to add parameters, including formatting and special hidden parameters."
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 06/28/2021
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

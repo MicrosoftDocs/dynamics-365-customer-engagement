@@ -1,20 +1,19 @@
 ---
-title: "Walkthrough 7  Configure agent scripting in your agent application | MicrosoftDocs"
-description: 
+title: "Walkthrough 7: Configure agent scripting in your agent applications | MicrosoftDocs"
+description: "Use this walkthrough to understand the prerequisites and procedures for configuring agent scripting in your agent applications."
+ms.date: 08/23/2017
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/23/2017
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Walkthrough 7: Configure agent scripting in your agent application
 
@@ -87,7 +86,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
    |USD Component Type|Agent Scripting|  
    |Display Group|WorkflowPanel|  
 
-   ![Create an Agent Scripting hosted control](../unified-service-desk/media/usd-create-agent-scripting-hosted-control.png "Create an Agent Scripting hosted control")  
+   ![Create an Agent Scripting hosted control.](../unified-service-desk/media/usd-create-agent-scripting-hosted-control.png "Create an Agent Scripting hosted control")  
 
 6. Click **Save**.  
 
@@ -109,7 +108,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
    |Application is Global|Not checked|  
    |Display Group|MainPanel|  
 
-   ![Create a CRM Page hosted control](../unified-service-desk/media/usd-create-page-hosted-control-2.png "Create a CRM Page hosted control")  
+   ![Create a CRM Page hosted control for new case form.](../unified-service-desk/media/usd-create-page-hosted-control-2.png "Create a CRM Page hosted control for new case form")  
 
 3. Click **Save**.  
 
@@ -127,7 +126,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
    |Application is Global|Not checked|  
    |Display Group|MainPanel|  
 
-   ![Create a CRM Page hosted control](../unified-service-desk/media/usd-create-agent-script-task.png "Create a CRM Page hosted control")  
+   ![Create a CRM Page hosted control for existing account cases.](../unified-service-desk/media/usd-create-agent-script-task.png "Create a CRM Page hosted control for existing account cases")  
 
 6. Click **Save**.  
 
@@ -152,7 +151,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
    |ScriptText|Welcome [[$Context.name]]. My name is [[$User.firstname]]. Is this call regarding a new or an existing service request? **Note:**  We are using replacement parameters to dynamically display the account name and the current agent’s name to the agent at runtime.|  
    |Instructions|Based on the customer response, click one of the tasks below.|  
 
-   ![Create an agent script task](../unified-service-desk/media/usd-create-agent-script-task-2.png "Create an agent script task")  
+   ![Create an agent script task.](../unified-service-desk/media/usd-create-agent-script-task-2.png "Create an agent script task")  
 
 6. Click **Save** to create the agent script.  
 
@@ -164,7 +163,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
 
 2. In the search box, press ENTER or click the search icon, and then click **New** in the search results box.  
 
-   ![Create an answer for an agent script task](../unified-service-desk/media/usd-create-answer-agent-script-task.png "Create an answer for an agent script task")  
+   ![Create an answer for an agent script task.](../unified-service-desk/media/usd-create-answer-agent-script-task.png "Create an answer for an agent script task")  
 
 3. On the **New Agent Script Answer** page, specify the following values:  
 
@@ -175,13 +174,13 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
    |Linked Task|Contoso: Welcome to Account Session|  
    |Order|1|  
 
-   ![Create an answer in Unified Service Desk](../unified-service-desk/media/usd-create-answer.png "Create an answer in Unified Service Desk")  
+   ![Create an answer in Unified Service Desk.](../unified-service-desk/media/usd-create-answer.png "Create an answer in Unified Service Desk")  
 
 4. Click **Save**.  
 
 5. Next, add an action call to this answer to display a new case form for the account when the agent clicks this answer. On the nav bar, click the down arrow next to **Contoso: New case**, and select **Actions**.  
 
-   ![Create an action call for the answer](../unified-service-desk/media/usd-create-action-call-answer.png "Create an action call for the answer")  
+   ![Create an action call for the answer.](../unified-service-desk/media/usd-create-action-call-answer.png "Create an action call for the answer")  
 
 6. On the next page, click **Add Existing Action Call**.  
 
@@ -197,7 +196,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
    |Action|New_CRM_Page|  
    |Data|LogicalName=incident<br /> customerid=EntityReference([[$Context.InitialEntity]],[[$Context.Id]])  <br /> customeridname=[[$Context.name]] <br /> primarycontactid=[[$Context.primarycontactid.id]+]  <br /> primarycontactidname=[[$Context.primarycontactid.name]+] **Note:**  The new case form will be populated with the current account record data to help the agent quickly create a case for the customer.|  
 
-   ![Create an action call in Unified Service Desk](../unified-service-desk/media/usd-create-action-call-answer.png "Create an action call in Unified Service Desk")  
+   ![Create an action call for Create Case.](../unified-service-desk/media/usd-create-action-call-answer.png "Create an action call for Create Case")  
 
 9. Click **Save**.  
 
@@ -223,7 +222,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
     |Hide Command Bar|No|  
     |Hide Navigation Bar|Yes|  
 
-    ![Create a window navigation rule](../unified-service-desk/media/usd-window-navigation-rule.png "Create a window navigation rule")  
+    ![Create a window navigation rule.](../unified-service-desk/media/usd-window-navigation-rule.png "Create a window navigation rule")  
 
 14. Click **Save**.  
 
@@ -264,7 +263,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
    |Action|AssociatedView|  
    |Data|navItemName=Cases<br />Id=[[$Context.Id]] <br />type=[[$Context.etc]] <br />tabset=areaService|  
 
-   ![Create an action call in Unified Service Desk](../unified-service-desk/media/usd-create-action-call.png "Create an action call in Unified Service Desk")  
+   ![Create an action call to display existing cases.](../unified-service-desk/media/usd-create-action-call.png "Create an action call to display existing cases")  
 
 9. Click **Save**.  
 
@@ -278,7 +277,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
     |Action|ShowTab|  
     |Data|Contoso existing cases for an account|  
 
-    ![Create an action call in Unified Service Desk](../unified-service-desk/media/usd-create-action-call-2.png "Create an action call in Unified Service Desk")  
+    ![Create an action call to set focus on existing cases.](../unified-service-desk/media/usd-create-action-call-2.png "Create an action call to set focus on existing cases")  
 
 11. Click **Save**.  
 
@@ -318,7 +317,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
    |Action|CloseSession|  
    |Data|sessionid=[[$Context.SessionId]]|  
 
-   ![Create an action call in Unified Service Desk](../unified-service-desk/media/usd-create-action-call-3.png "Create an action call in Unified Service Desk")  
+   ![Create an action call to close session.](../unified-service-desk/media/usd-create-action-call-3.png "Create an action call to close session")  
 
 9. Click **Save**.  
 
@@ -343,7 +342,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
    |Action|GoToTask|  
    |Data|Contoso: Welcome to Account Session|  
 
-   ![Create an action call in Unified Service Desk](../unified-service-desk/media/usd-create-action-call-4.png "Create an action call in Unified Service Desk")  
+   ![Create an action call to display the agent script.](../unified-service-desk/media/usd-create-action-call-4.png "Create an action call to display the agent script")  
 
 6. Click **Save**.  
 
@@ -361,7 +360,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
 
 5. On the nav bar, click the down arrow next to **Contoso Account Session**, and then click **Events**.  
 
-   ![Configure events for a hosted control](../unified-service-desk/media/usd-configure-events-hosted-control.png "Configure events for a hosted control")  
+   ![Configure events for a hosted control.](../unified-service-desk/media/usd-configure-events-hosted-control.png "Configure events for a hosted control")  
 
 6. On the events page, click **BrowserDocumentComplete**.  
 
@@ -421,21 +420,21 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
 
 3. Click the expander to display the left pane.  
 
-   ![Choose the expander in Unified Service Desk](../unified-service-desk/media/usd-choose-expander.png "Choose the expander in Unified Service Desk")  
+   ![Choose the expander in Unified Service Desk.](../unified-service-desk/media/usd-choose-expander.png "Choose the expander in Unified Service Desk")  
 
 4. Click on any of the account records to display the respective account information in a session. In the left pane, the **Contoso: Welcome to Account Session** agent script appears.  
 
-   ![Agent script in Unified Service Desk](../unified-service-desk/media/usd-agent-script.png "Agent script in Unified Service Desk")  
+   ![Agent script in Unified Service Desk.](../unified-service-desk/media/usd-agent-script.png "Agent script in Unified Service Desk")  
 
 5. In the agent script:  
 
    1.  Click **New case** to open a new case form with pre-populated values (in the red box) from the current account record.  
 
-   ![New case form using the agent script](../unified-service-desk/media/usd-new-case-form-agent-script.png "New case form using the agent script")  
+   ![New case form using the agent script.](../unified-service-desk/media/usd-new-case-form-agent-script.png "New case form using the agent script")  
 
    2.  Click **Display existing cases** to display the associated cases for the current account record.  
 
-   ![Display existing cases for an account](../unified-service-desk/media/usd-show-cases-account.png "Display existing cases for an account")  
+   ![Display existing cases for an account.](../unified-service-desk/media/usd-show-cases-account.png "Display existing cases for an account")  
 
    3.  Click **Close session** to close the current session.  
 

@@ -43,7 +43,7 @@ Each query block in your segment must result in a list of contacts, which are se
 
 The following image shows an example of typical query block in a dynamic profile segment query. It highlights the key features of the designer that you'll use to create your query.
 
-![Segment designer UI elements for dynamic profile segments](media/segment-dynamic-callouts.png "Segment designer UI elements for dynamic profile segments")
+![Segment designer UI elements for dynamic profile segments.](media/segment-dynamic-callouts.png "Segment designer UI elements for dynamic profile segments")
 
 Legend:
 
@@ -81,7 +81,7 @@ The segmentation designer supports fields of all data types supported by Dynamic
 
 *Standard fields* are fields where users can freely enter any value (of the appropriate data type). A typical example is the **First Name** field of the contact entity. Users are free to enter any text in this field, and the field is directly part of the contact entity. The following illustration shows how to construct a clause based on a standard field.
 
-![A clause based on a standard field](media/segment-clause-standard.png "A clause based on a standard field")
+![A clause based on a standard field.](media/segment-clause-standard.png "A clause based on a standard field")
 
 Legend:
 
@@ -115,7 +115,7 @@ Provided the related entity is available to the marketing-insights service, you'
 
 <!-- Lookup fields also provide a special operator called **has**. Use this operator to test for the value of any field from the related entity, rather than just the value displayed by the local entity. For example, if you are querying the **Company Name** (Account) field of the **Contact** entity, you can use the **is/is in** operator to test for values of the **Name** field of the related account entity. But if you use the **has** operator, you can test for any field value from the related account record (such as **Address 1: City**). In the following illustration, this clause will find contacts who work for companies with street addresses in New York or Chicago.
 
-![A lookup field in the fields name drop-down list](media/segment-clause-has.png "A lookup field in the fields name drop-down list") -->
+![A lookup field in the fields name drop-down list.](media/segment-clause-has.png "A lookup field in the fields name drop-down list") -->
 
 <a name="relationships"></a>
 
@@ -150,7 +150,7 @@ For example:
 > [!TIP]
 > While you're designing your query, select the **Explore related entitites** button to see a graphical map of how the current entity relates to other entities. This tool can help you figure out how to traverse the various entities to create a path that ends at the required **Contact** entity. Available paths and entities are shown in blue, while entities and paths that aren't directly available to the current entity appear in light gray. Already used paths and entities are shown in dark gray.
 > 
-> ![The segment explorer](media/segment-explorer-example1.png "The segment explorer")
+> ![The segment explorer.](media/segment-explorer-example1.png "The segment explorer")
 
 ## Example: Define a simple segment based on contacts
 
@@ -166,15 +166,15 @@ Here's an example of how to define a segment that finds contacts associated with
 
 1. A new demographic segment opens. Check the view setting near the upper corner of the **Definition** tab and make sure it's set to **Tree view**. (You could use either view, but in this procedure we show and describe the tree view, so it's a good idea to use it for now.)
 
-    ![Choose the tree view](media/segment-firmographic-tree-view.png "Choose the tree view")
+    ![Choose the tree view.](media/segment-firmographic-tree-view.png "Choose the tree view")
 
 1. Open the **Add** drop-down list under the **Contact** entity and select **Add related entity**.
 
-    ![Add a related entity](media/segment-add-related-entity.png "Add a related entity")
+    ![Add a related entity.](media/segment-add-related-entity.png "Add a related entity")
 
 1. A new related entity is added to your query. Select the field with **Select related entity** in ghost text to open a large drop-down list of available relations. Type "opportunity" in the field to filter the list and then select **Opportunity (Opportunity -> Contact (Contact))** from the drop-down list. This relation links the parent **Contact** entity to the **Opportunity** entity through the **Contact** field of the **Opportunity** entity. The **Contact** field identifies the contact associated with each found opportunity. More information: [Move between entities with relationships](#relationships)
 
-    ![Link to opportunities](media/segment-opportunity-relation.png "Link to opportunities")
+    ![Link to opportunities.](media/segment-opportunity-relation.png "Link to opportunities")
 
 1. Open the **Add** drop-down list under the new related entity and select **Add row** to begin defining the collection of opportunities you're looking for. 
 
@@ -182,7 +182,7 @@ Here's an example of how to define a segment that finds contacts associated with
 
     **Est. Revenue | Is greater than or equal to | 100000**  
 
-    ![Filter opportunities based on revenue](media/segment-opportunity-revenue.png "Filter opportunities based on revenue")
+    ![Filter opportunities based on revenue.](media/segment-opportunity-revenue.png "Filter opportunities based on revenue")
 
 1. The segment currently finds all contacts associated with opportunities with an estimated revenue of $100,000 or more. If needed, you can now add more opportunities-based criteria indented under the **Opportunity (Opportunity -> Contact (Contact))** relation to expand or limit the set of opportunities found. You could likewise add more contact-based criteria directly under the **Contact** entity (at the base of the tree, outside the **Opportunity (Opportunity -> Contact (Contact))** relation) to expand or limit the set of contacts found. 
 
@@ -196,7 +196,7 @@ You can design your segment to include multiple query blocks and then set rules 
 
 The following image shows the dynamic-profile segment designer with when several query blocks are present.
 
-![Segment designer UI elements for combining query blocks](media/segment-dynamic-groups-callouts.png "Segment designer UI elements for combining query blocks")
+![Segment designer UI elements for combining query blocks.](media/segment-dynamic-groups-callouts.png "Segment designer UI elements for combining query blocks")
 
 Legend:
 

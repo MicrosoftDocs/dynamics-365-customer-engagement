@@ -3,7 +3,7 @@ title: "Create auto-number-attributes (Developer Guide for Dynamics 365 Customer
 description: "Learn about creating auto-number attribute in the same way you create a string attribute using the StringAttributeMetadata class except that you use the new AutoNumberFormat property. Use the AutoNumberFormat property to define a pattern that includes sequential numbers and random strings by composing placeholders, which indicate the length and type of values that are generated."
 keywords: Auto-number attributes
 ms.date: 04/03/2020
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.topic: article
 applies_to: 
   - CRM 2017
@@ -43,7 +43,7 @@ Autonumber sequencing is managed by SQL and is ensured to be unique.
 In the legacy web client, when adding a control on a form bound to an auto-number attribute, the control is disabled automatically and behaves as read-only in the form where end users cannot edit the control. In the Unified Interface, controls bound to an auto-number attribute need to explicitly be set as disabled. If you do not set the initial attribute value on the form, the value is set only after you save the entity. Auto-numbering can be applied to attribute field values in views, grids, and so on.
 
 ### Examples
-The following examples show how to create a new auto-number attribute named **new\_SerialNumber** for a custom entity named **new\_Widget, which will have a value that looks like this: **WID-00001-AB7LSFG-20170913070240**.
+The following examples show how to create a new auto-number attribute named **new\_SerialNumber** for a custom entity named **new\_Widget**, which will have a value that looks like this: **WID-00001-AB7LSFG-20170913070240**.
 Using the Organization service with SDK assemblies **CreateAttributeRequest** and **StringAttributeMetadata** classes:
 
 ```csharp
@@ -73,7 +73,7 @@ More information: [Create and update entity definitions using the Web API > Crea
 
 #### Request
 ```http
-POST [Organization URI]/api/data/v9.0/EntityDefinitions(LogicalName='new_widget')/Attributes HTTP/1.1
+POST [Organization URI]/api/data/v9.1/EntityDefinitions(LogicalName='new_widget')/Attributes HTTP/1.1
 Accept: application/json
 Content-Type: application/json; charset=utf-8
 OData-MaxVersion: 4.0
@@ -124,7 +124,7 @@ OData-Version: 4.0
 ```http
 HTTP/1.1 204 No Content
 OData-Version: 4.0
-OData-EntityId: [Organization URI]/api/data/v9.0/EntityDefinitions(402fa40f-287c-e511-80d2-00155d2a68d2)/Attributes(f01bef16-287c-e511-80d2-00155d2a68d2)
+OData-EntityId: [Organization URI]/api/data/v9.1/EntityDefinitions(402fa40f-287c-e511-80d2-00155d2a68d2)/Attributes(f01bef16-287c-e511-80d2-00155d2a68d2)
 ```
 
 ## AutoNumberFormat options
@@ -250,7 +250,7 @@ More information: [Use Web API actions > Unbound actions](/previous-versions/dyn
 #### Request
 
 ```http
-POST [Organization URI]/api/data/v9.0/SetAutoNumberSeed HTTP/1.1
+POST [Organization URI]/api/data/v9.1/SetAutoNumberSeed HTTP/1.1
 Accept: application/json
 Content-Type: application/json; charset=utf-8
 OData-MaxVersion: 4.0

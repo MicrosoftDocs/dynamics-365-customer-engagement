@@ -1,12 +1,11 @@
 ---
 title: "msdyn_oclinechannelconfig Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_oclinechannelconfig entity."
+ms.date: 09/14/2020
+ms.topic: "reference"
 author: "mh-jaya"
 ms.author: v-jmh
 manager: "shujoshi"
-ms.date: 09/14/2020
-ms.topic: "reference"
-ms.service: "dynamics-365-customerservice"
 applies_to: 
   - "Dynamics 365 (online)"
 ---

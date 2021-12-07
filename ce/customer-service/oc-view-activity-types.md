@@ -1,35 +1,34 @@
 ---
-title: "View omnichannel conversation and session forms | MicrosoftDocs"
-description: "Learn about the omnichannel conversation and session activity types that users (agents and supervisors) can see under the Activities in the Model-driven apps."
+title: "View conversation and session forms, and activity types | MicrosoftDocs"
+description: "Learn to view conversation and session forms in Omnichannel for Customer Service. Also learn about conversation and session activity types."
+ms.date: 04/01/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/01/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # View conversation and session form
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Your organization might have a classification where certain agents work in the contact center, which uses Omnichannel for Customer Service on the web and certain agents work in another contact center, which uses model-driven app such as Customer Service Hub. In this case, if you are an agent who works on the model-driven app, and you need to analyze the conversation request from Omnichannel for Customer Service, you can find the information through **Activities** in the model-driven app.*
+Your organization might have a classification where certain agents work in the contact center, which uses Omnichannel for Customer Service on the web and certain agents work in another contact center, which uses model-driven app such as Customer Service Hub. In this case, if you are an agent who works on the model-driven app, and you need to analyze the conversation request from Omnichannel for Customer Service, you can find the information through **Activities** in the model-driven app.
 
-Select the plus icon in the application tab to view the sitemap and select **Activities**.
-
-> [!div class=mx-imgBorder]
-> ![Select activities in the sitemap to view the list of activity types](media/oceh-oc-activities.png "Select activities in the sitemap")
-
-There will be many activity types, and you need to look for **Conversation** and **Session** types.
+Select the plus icon in the application tab to view the site map and select **Activities**.
 
 > [!div class=mx-imgBorder]
-> ![Select activities in the sitemap to view the list of activity types](media/oceh-oc-activities-list.png "Select activities in the sitemap")
+> ![Select activities in the site map to view the list of activity types.](media/oceh-oc-activities.png "Select activities in the site map")
+
+There'll be many activity types, and you need to look for **Conversation** and **Session** types.
+
+> [!div class=mx-imgBorder]
+> ![List of all activity types.](media/oceh-oc-activities-list.png "List of all activity types")
 
 ### Conversation activity type
 
 The Conversation activity type displays information about a conversation request.
 
-![Omnichannel conversation form](media/oceh-oc-conversation-form.png "Omnichannel conversation form")  
+![Omnichannel conversation form.](media/oceh-oc-conversation-form.png "Omnichannel conversation form")  
 
 | **Tab** | **Section**     | **Fields**        |
 |---------|-----------------|-------------------|
@@ -42,7 +41,7 @@ The Conversation activity type displays information about a conversation request
 
 The session activity type displays information about a individual session in a conversation request.
 
-![Omnichannel session form](media/oceh-oc-session-form.png "Omnichannel session form")  
+![Omnichannel session form.](media/oceh-oc-session-form.png "Omnichannel session form")  
 
 | **Tab** | **Section**          | **Field**          |
 |---------|----------------------|--------------------|
@@ -52,7 +51,7 @@ The session activity type displays information about a individual session in a c
 
 The Session Participants section lets you add a participant related to the session or add a session participant that already exists for the record you are working with.
 
-## See also
+### See also
 
 - [View customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)
 - [View customer summary](oc-customer-summary.md)

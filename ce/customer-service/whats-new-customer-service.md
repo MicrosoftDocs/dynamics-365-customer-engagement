@@ -1,14 +1,11 @@
 ---
 title: What's new in Dynamics 365 Customer Service | MicrosoftDocs
 description: Visit this page to see what's recently updated or added in Dynamics 365 Customer Service
+ms.date: 11/02/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/12/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,11 +13,18 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # What's new in Dynamics 365 Customer Service
 
 Welcome to Dynamics 365 Customer Service. Visit this page to learn about new or updated features for Customer Service.
+
+## What's new in October 2021 update
+
+For information about the features that released in October 2021, see
+[2021 release wave 2 plan - Customer Service](/dynamics365-release-plan/2021wave2/service/dynamics365-customer-service/)
 
 ## What's new in April 2021 update
 

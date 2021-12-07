@@ -3,7 +3,7 @@ title: "Calendar entities (Developer Guide for Dynamics 365 Customer Engagement)
 ms.custom: 
 ms.date: 10/10/2018
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

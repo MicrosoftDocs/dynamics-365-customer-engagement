@@ -1,7 +1,7 @@
 ---
 title: "Move data between environments (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to move data between environments using the Configuration Migration tool in Dynamics 365 Marketing."
-ms.date: 12/03/2020
+ms.date: 07/28/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -51,6 +51,8 @@ The following notes apply when you use export/import to move data from one Dynam
 - If you import (or reimport) a record that already exists on the destination environment, that record will end with a status of "draft" on the destination environment. Matching records won't be duplicated.
 - Interaction data can't be exported or transferred to a new environment. It will never be included in the export file.
 - If you export from a language not present on the destination environment, that language will simply be added to the destination environment.
+- After a real-time marketing journey is migrated, restored, or copied, its state is changed from **Live** to **Stopped**. To restart a migrated, restored, or copied journey, you need to first duplicate the journey, and then execute it.
+- Event triggers cannot be migrated when moving data between environments. Any events in the old environment need to be re-created in the new environment.
 
 <a name="install-tools"></a>
 ## Download the Configuration Migration tool
@@ -70,12 +72,12 @@ To find your Dynamics 365 Marketing version number:
 1. Select the **Resources** drop down in the top ribbon, then select **Dynamics 365 apps**.
 
     > [!div class="mx-imgBorder"]
-    > ![Manage the apps installed on your environment](media/admin-cv-instances.png)
+    > ![Manage the apps installed on your environment.](media/admin-cv-instances.png)
 
 1. A list of solutions installed on your selected environment is shown. Select the solution called **Dynamics 365 Marketing Application** then select **Details** in the top ribbon.
 
     > [!div class="mx-imgBorder"]
-    > ![Marketing app details](media/admin-mkt-version2.png)
+    > ![Marketing app details.](media/admin-mkt-version2.png)
 
 1. A pane will appear on the right side of the page titled **Dynamics 365 Marketing Application Details**. Check the value shown in the **Version** column.
 
@@ -106,21 +108,21 @@ To export data from your source environment:
 
 1. The tool launches. Select **Export data** and then **Continue**.  
 
-    ![Select Export data and continue](media/dmt-export1.png "Select Export data and continue")
+    ![Select Export data and continue.](media/dmt-export1.png "Select Export data and continue")
 
 1. Set the **Deployment type** to **Microsoft 365** and then select **Login**.
 
-    ![Select Microsoft 365 and then Login](media/dmt-export2.png "Select Microsoft 365 and then Login")
+    ![Select Microsoft 365 and then Login.](media/dmt-export2.png "Select Microsoft 365 and then Login")
 
 1. Follow the instructions on your screen to sign in using the user name and password for the tenant where your source environment is running.
 
 1. If multiple environments are available on the tenant you signed in to, then choose your source environment and select **Login** to continue. (If only one environment is available, then you'll skip this step.)
 
-    ![Choose your source environment and then Login](media/dmt-export2b.png "Choose your source environment and then Login")
+    ![Choose your source environment and then Login.](media/dmt-export2b.png "Choose your source environment and then Login")
 
 1. On successful sign in, you're asked to choose a schema and export file name.
   
-    ![Choose a schema and export file name](media/dmt-export3.png "Choose a schema and export file name")
+    ![Choose a schema and export file name.](media/dmt-export3.png "Choose a schema and export file name")
 
     Make the following settings:
     - **Schema file**: Select the ellipsis button to open a file browser, and then navigate to and select the schema file that you generated for your source environment.
@@ -128,7 +130,7 @@ To export data from your source environment:
 
 1. Select **Export data** to continue. The tool tracks the progress of your export and, when it's done, creates a zip file containing both the schema and your data.
 
-    ![Export complete](media/dmt-export4.png "Export complete")
+    ![Export complete.](media/dmt-export4.png "Export complete")
 
 1. When the export is done, select **Exit** to close the export page.
 
@@ -140,28 +142,28 @@ To import data to your destination environment:
 
 1. Select **Import data** and then **Continue**.
 
-    ![Select Import data and continue](media/dmt-import1.png "Select Import data and continue")
+    ![Select Import data and continue.](media/dmt-import1.png "Select Import data and continue")
 
 1. Set the **Deployment type** to **Microsoft 365** and then select **Login**.
  
-    ![Select the Deployment type and then Login](media/dmt-export2.png "Select the Deployment type and then Login")
+    ![Select the Deployment type and then Login.](media/dmt-export2.png "Select the Deployment type and then Login")
 
 1. Follow the instructions on your screen to sign in using the user name and password for the tenant where your destination environment is running.
 
 1. If multiple environments are available on the tenant you signed in to, then choose your destination environment and select **Login** to continue. (If only one environment is available, then you'll skip this step.)
 
-    ![Choose the destination environment and then Login](media/dmt-import2b.png "Choose the destination environment and then Login")
+    ![Choose the destination environment and then Login.](media/dmt-import2b.png "Choose the destination environment and then Login")
 
 1. On successful sign in, you're asked to choose a file to import. Select the ellipsis button next to the **Zip file** field to open a file browser, and then navigate to the folder where you saved the export file from your source environment. This file contains both data and the schema you used for export
  
-    ![Choose a file to import](media/dmt-import3.png "Choose a file to import")
+    ![Choose a file to import.](media/dmt-import3.png "Choose a file to import")
 
     > [!IMPORTANT]
     > As mentioned previously, your source and destination environments must use exactly the same schema for the data being transferred, so they must be running identical versions of Dynamics 365 Marketing, and all relevant schema customizations must be identical on both environments. If the schemas don't match, you will get an error and the import will fail. <!-- but can we use just a partial schema? -->
 
 1. Select **Import data** to continue. The tool tracks the progress of your import.
 
-    ![Import complete](media/dmt-import4.png "Import complete")
+    ![Import complete.](media/dmt-import4.png "Import complete")
 
 1. When the import is done, select **Exit** to close the import page.
 

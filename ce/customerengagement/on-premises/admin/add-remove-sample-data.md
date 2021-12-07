@@ -1,9 +1,10 @@
 ---
-title: "Add or remove sample data | MicrosoftDocs"
+title: "Use sample data in Dynamics 365 Customer Engagement (on-premises)"
+description: "Sample data gives you something to experiment with and helps you see how data is organized in the system. Learn how to add or remove sample data."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -14,14 +15,16 @@ ms.assetid: 04c3ec5d-fd44-43ed-a5b0-a393935a5679
 caps.latest.revision: 50
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-
 ---
 # Add or remove sample data
 
-Sample data gives you something to experiment with as you learn Dynamics 365 Customer Engagement (on-premises), and helps you see how data is organized in the system. At some point, you’ll probably want to remove the sample data.  
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
+
+Sample data gives you something to experiment with as you learn Dynamics 365 Customer Engagement (on-premises), and helps you see how data is organized in the system. After working with sample data, you’ll probably want to remove it at some point. 
   
  Or, if sample data isn’t installed on your system, you may want to add it for training purposes. Later, when you’re ready, you can remove it.  
   

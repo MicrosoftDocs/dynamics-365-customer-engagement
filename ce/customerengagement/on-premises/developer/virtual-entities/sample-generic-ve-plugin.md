@@ -4,7 +4,7 @@ description: "Sample demonstrates how to implement a generic custom Dynamics 365
 ms.custom: 
 ms.date: 05/01/2018
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: samples

@@ -1,11 +1,9 @@
 ---
 title: "Facility scheduling in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn about facility scheduling in Dynamics 365 Field Service
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 1/9/2019
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"

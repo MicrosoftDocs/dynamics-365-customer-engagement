@@ -82,7 +82,7 @@ The only limitations that remain to customize the Marketing solution are:
 
  5. Select **Edit Status Reason Transitions**, select the **ellipsis** (...) next to the options available, add the status reasons as shown below, and then select **OK**.
 
-    ![Status Reason Transitions](../media/marketing-status-reason-transition.png "Status Reason Transitions")
+    ![Status Reason Transitions.](../media/marketing-status-reason-transition.png "Status Reason Transitions")
 
 6. Create a new field **msdyncrm_restorestatuscode** of data type **Whole number**, which stores the previous state information.
 7. Inside the solution, create a new entity that can be named, for example, approvals. We use this entity to decide whether the user logged in the system is an approver or a marketer. 

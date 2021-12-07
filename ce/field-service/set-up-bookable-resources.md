@@ -1,11 +1,9 @@
 ---
 title: "Set up bookable resources (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn about bookable resources in Dynamics 365 Field Service, and how to set them up.
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 04/01/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.topic: article
 author: xonatia
 ms.author: xolee
@@ -80,10 +78,10 @@ To quickly create frontline workers refer to the topic on [setting up frontline 
 4.  **Name**: Enter a name. This can be different from the name of the related user, account, or contact record. The name entered here will appear on the schedule board.
 5.  **Time Zone**: Select the time zone in which the resource is located. This is considered in the schedule process.  
 
-6. **Start/End Location**: Decide where the resource starts and ends their working day for scheduling and routing purposes.
+6. **Start/End Location**: Decide where the resource starts and ends their working day for scheduling and routing purposes. The start and end location can be different as long as neither of them is location agnostic. So, the start location can be resource address and end location can be organizational unit, or vice versa.
    - **Location agnostic** - select this option if the location of this resource is not required for the business need and does not need to be considered during the scheduling process. If the work location of a requirement is set to **On site**, location agnostic resources will not return in results. 
-   - **Resource Address** - select this option if the resource starts and ends their day at a unique location. The exact location is derived from the latitude and longitude values on the related user, account, or contact records depending on the resource type. See the configuration considerations section in this article for an example of how resource type and start/end location work together. Be sure that you [connect to maps and turn on geo coding](/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) in your environment. 
-   - **Organizational Unit** - select this option if the resource starts and ends the day at an organizational unit, typically representing a company location. The exact location is derived from the latitude and longitude values on the selected organizational unit for which there is a lookup field on the bookable resource form. If the resource is of type facility, the organizational unit acts as the location of the facility.
+   - **Resource Address** - select this option as the start and/or end location if the resource starts and/or ends their day at a unique location. The exact location is derived from the latitude and longitude values on the related user, account, or contact records depending on the resource type. See the configuration considerations section in this article for an example of how resource type and start/end location work together. Be sure that you [connect to maps and turn on geo coding](/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) in your environment. 
+   - **Organizational Unit** - select this option as the start and/or end location if the resource starts and/or ends the day at an organizational unit, typically representing a company location. The exact location is derived from the latitude and longitude values on the selected organizational unit for which there is a lookup field on the bookable resource form. If the resource is of type facility, the organizational unit acts as the location of the facility.
 7. **Organizational Unit**: Select the organizational unit the resource belongs to. This can represent a team the resource belongs to, an office the resource reports to, or the location where the resource starts and ends their day. 
 8. **Display On Schedule Board**: This determines if the resource is eligible to be added to the schedule board. If set to **yes**, then the resource can be added to the schedule board or manually selected.
 9. **Enable for Availability Search**: This determines if the resource is eligible to be returned in schedule assistant results given the resource attributes meet the filter criteria of the requirement.
@@ -91,7 +89,7 @@ To quickly create frontline workers refer to the topic on [setting up frontline 
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of scheduling tab on resource form](media/resource-scheduling-tab.png)
+> ![Screenshot of scheduling tab on resource form.](media/resource-scheduling-tab.png)
 
 10. **Hourly Rate**: Enter the internal hourly cost of the resource. This is the hourly pay that the resource should be paid by the company. It is used by schedule journals to calculate pay for time worked.
 11. **Warehouse**:  Select the default warehouse from which the resource will get their parts. 
@@ -115,7 +113,7 @@ In the web interface (Field Service v7.x or earlier), select the arrow next to t
 In the unified client interface (Field Service v8.x or later), select **Show Working Hours** at the top of the form. 
 
  > [!div class="mx-imgBorder"]
-> ![Screenshot of work hours tab on a bookable resource](./media/resource-work-hours-new-navigate.png)
+> ![Screenshot of work hours tab on a bookable resource.](./media/resource-work-hours-new-navigate.png)
 
 In Field Service **v8.8.14** or later the work hours are displayed directly in the form.
 
@@ -123,21 +121,25 @@ In Field Service **v8.8.14** or later the work hours are displayed directly in t
 Select **+New** > **Working hours**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the new work hours dropdown](./media/resource-work-hours-new-working-hours.png)
+> ![Screenshot of the new work hours dropdown.](./media/resource-work-hours-new-working-hours.png)
 
 Choosing the beginning and end time of working hours, along with a repeat option such as "every day."
 
-Then **Save**.
+**Capacity** is the number of times the resource can be booked during that specific work hour. For example, setting the capacity to *5* means that when booking a resource with the schedule assistant, the resource will show as available and can be overbooked up to the capacity limit (in this case, five times). It's set to *1* by default. If this setting is set to *0*, the resource will never be shown as available in a resource search. 
+
+**Add break** splits each working hours entry and adds a break of 30 minutes. **Add split** splits each working hours entry evenly into two working hours entries, so that each split entry can have a different capacity. The **Add split** option is only shown when the **Capacity** button is enabled. 
+
+Once the working hours are entered as needed, be sure to **Save**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the working hours, with emphasis on the repeat feature](./media/resource-work-hours-new-hours.png)
+> ![Screenshot of the working hours, with emphasis on the repeat feature.](./media/resource-work-hours-new-hours.png)
 
 This will update the working hours calendar.
 
 You can edit or delete the working hours bu double-clicking the time slot on the calendar. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of work hours on a bookable resource](./media/resource-work-hours-new-edit.png) 
+> ![Screenshot of work hours on a bookable resource.](./media/resource-work-hours-new-edit.png) 
 
 > [!Note]
 > Whether setting the working hours for a day or longer, make sure the time zone reflects where the resource is located, which is configured on the resource form.
@@ -148,12 +150,12 @@ In Field Service versions **v8.8.40** or later, you can use a new custom input f
 > ![Screenshot of custom work hours on a bookable resource.](./media/Resource-Work-Hours-Custom.png)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of custom work hours on a bookable resource with different work hours on different days of a week](./media/Resource-Work-Hours-Custom-01.png)
+> ![Screenshot of custom work hours on a bookable resource with different work hours on different days of a week.](./media/Resource-Work-Hours-Custom-01.png)
 
 You can add breaks or split a resource's work hours into different capacities for each day of the week, as needed for your business. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of custom work hours on a bookable resource with different capacity on a day](./media/Resource-Work-Hours-Custom-02.png)
+> ![Screenshot of custom work hours on a bookable resource with different capacity on a day.](./media/Resource-Work-Hours-Custom-02.png)
 
 In Field Service versions earlier than **8.8.14**, select the **Set-Up** drop-down list and choose one of the following as seen in the following screenshot:  
   
@@ -164,7 +166,7 @@ In Field Service versions earlier than **8.8.14**, select the **Set-Up** drop-do
   - **Time Off**: Set the dates and times the resources can't work. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of setting working hours and timezone](media/resource-working-hours-timezone.png)
+> ![Screenshot of setting working hours and timezone.](media/resource-working-hours-timezone.png)
  
 
 
@@ -177,7 +179,7 @@ The most common attributes that distinguish resources are characteristics, terri
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing where to find related entities on the Bookable Resource form](media/resource-add-related-details.png)
+> ![Screenshot showing where to find related entities on the Bookable Resource form.](media/resource-add-related-details.png)
 
 
 ### Add characteristics 
@@ -232,7 +234,7 @@ Setting to yes does not mean requirements will automatically be scheduled to thi
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of enabling rso for a resource](media/resource-enable-rso.png)
+> ![Screenshot of enabling rso for a resource.](media/resource-enable-rso.png)
 
 ## Geolocate resources
 
@@ -284,19 +286,20 @@ Resource type and the start and end location of **resource address** work togeth
 For example, the following screenshot shows a bookable resource with resource type of **Contact** and a lookup to a contact record. Not shown is the start/end location field set to resource address.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of resource with resource type of contact](media/resource-type-contact.png)
+> ![Screenshot of resource with resource type of contact.](media/resource-type-contact.png)
 
 After going to the related contact record, you can add an address and then select the geo code button to populate latitude and longitude values that are used as the resource's start and end location for scheduling and routing purposes. This is also the resource's location displayed on the schedule board map.
 
 The process is similar for resources with resource type of Account or User. **Editing a user record address may have to be done in the Microsoft 365 admin center.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of geo coding a contact record](media/resource-contact-location-example.png)
+> ![Screenshot of geo coding a contact record.](media/resource-contact-location-example.png)
 
 ## Additional notes
 
 - Only one resource record can be associated to a user record; however, multiple resources can be associated to a single account or contact record. 
 - The start and end location of a resource is used as the resource's location during break hours if a break is configured when working hours are set up for that resource. 
+- The resource work hours are saved in the calendar entity, which is not supported by the configuration migration tool and also audit history cannot be enabled on the calendar entity. 
 - The new work hours control is added to the bookable resource out-of-the-box form. But if you have a custom form defined on this entity, you must enable the work hours tab on the form by following these steps:
   1. Create a tab with name as "work hours." Create a section in it and add the "calendar" field to it.
   2. Double-click on the calendar field, and change the control to "Work Hour Control." Save and publish the form.

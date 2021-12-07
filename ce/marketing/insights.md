@@ -1,7 +1,7 @@
 ---
 title: "Analyze marketing results and gain insights (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to find and interpret marketing results, KPIs, and analytics in Dynamics 365 Marketing."
-ms.date: 01/12/2021
+ms.date: 10/04/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -37,7 +37,7 @@ Dynamics 365 Marketing keeps track of the way your contacts react to your variou
 
 For nearly all entity types, you can view related results and analytics by opening a record and then switching to the **Insights** tab.
 
-![Open the insights tab](media/insights-tab-selector.png "Open the insights tab")
+![Open the insights tab.](media/insights-tab-selector.png "Open the insights tab")
 
 > [!IMPORTANT]
 > Marketing analytics are processed in less than 10 minutes per 100,000 items (emails sent, contacts, etc.). Processing, however, can take up to 1 hour, especially when processing a large number of items. For example, 1,000,000 items may take up 6 hours to process. The processing speed decreases when the number of items exceeds the maximum limit listed in the [fair use policy](fair-use-policy.md).
@@ -46,9 +46,9 @@ For nearly all entity types, you can view related results and analytics by openi
 
 ### Move between insight categories
 
-Some **Insights** tabs include two or more categories of insights. You can navigate between these categories by using the vertical navigator at the side of the page. Use the **Menu** button ![Insights tabs](media/insights-menu-button.png "Insights tabs") at the top of the tab to open or close the navigator.
+Some **Insights** tabs include two or more categories of insights. You can navigate between these categories by using the vertical navigator at the side of the page. Use the **Menu** button ![Insights tabs.](media/insights-menu-button.png "Insights tabs") at the top of the tab to open or close the navigator.
 
-![Insights navigator](media/insights-navigator.png "Insights navigator")
+![Insights navigator.](media/insights-navigator.png "Insights navigator")
 
 <a name="filter"></a>
 
@@ -56,13 +56,13 @@ Some **Insights** tabs include two or more categories of insights. You can navig
 
 At the top of most insights tabs, you'll find settings that let you filter the information shown—for example, by date (**From** and **To** settings) or usage (such as which **Customer journey** an email was used in).
 
-![Filter insights by date range and usage](media/insights-filters.png "Filter insights by date range and usage")
+![Filter insights by date range and usage.](media/insights-filters.png "Filter insights by date range and usage")
 
 ### Read and understand insights and KPIs
 
-When you're reviewing your insights, you'll see graphs, timelines, and values for a wide variety of results, interactions, and key performance indicators (KPIs). To learn more about what each display is telling you, hover your mouse pointer near the value you're interested in until the info icon ![The info icon](media/insights-info-icon.png "The info icon") appears, then hover on this icon to view a tool tip with a description of that value.
+When you're reviewing your insights, you'll see graphs, timelines, and values for a wide variety of results, interactions, and key performance indicators (KPIs). To learn more about what each display is telling you, hover your mouse pointer near the value you're interested in until the info icon ![The info icon.](media/insights-info-icon.png "The info icon") appears, then hover on this icon to view a tool tip with a description of that value.
 
-![Insights tool tips](media/insights-tooltip.png "Insights tool tips")
+![Insights tool tips.](media/insights-tooltip.png "Insights tool tips")
 
 For more information about many of the most-used insights and how they are calculated, see the [Insights glossary](insights-glossary.md). Many of the tool tips also reference this glossary.
 
@@ -125,7 +125,7 @@ For live journeys, the **Designer** tab is a read-only version of your journey p
 
 Below email tiles, you'll see the dependencies for the email.
 
-![Contact flow KPIs in the insights view of the customer journey pipeline](media/insights-tile-kpis1.png "Contact flow KPIs in the insights view of the customer journey pipeline")
+![Contact flow KPIs in the insights view of the customer journey pipeline.](media/insights-tile-kpis1.png "Contact flow KPIs in the insights view of the customer journey pipeline")
 
 Legend:
 
@@ -140,14 +140,14 @@ Legend:
 
 For even more information about what happened on a tile, select it from the pipeline and look at the **Data** panel. The information shown here depends on the tile type.
 
-![Data panel showing tile results](media/insights-journey-data-panel.png "Data panel showing tile results")
+![Data panel showing tile results.](media/insights-journey-data-panel.png "Data panel showing tile results")
 
 All types of tiles provide a **Volume** section on the **Data** panel with the following information:
 
 - **Volume** > **Queued**: Shows the number of contacts in the customer journey that have not yet reached the selected tile. The queued contacts number is only displayed when there are contacts in a live customer journey that have not yet reached the tile.
 - **Volume** > **Inflow**: Counts how many contacts entered the tile.
 - **Volume** > **Processing**: Counts how many contacts are still waiting for that tile to finish processing them. For trigger tiles, for example, this value indicates the number of contacts that are waiting for the trigger condition to be met or for the timeout to arrive.
-- **Volume** > **Stopped** (only shown when stopped contacts exist): Counts the number of contacts that were stopped from continuing the journey at this tile. There are three main reasons that a contact might get stopped at a tile during a journey: they [unsubscribed](customer-journeys-create-automated-campaigns.md#target-subscription-list) from the mailing list targeted by the journey, they got added to the journey's [suppression segment](customer-journeys-create-automated-campaigns.md#general-options), or they lowered their [consent level](gdpr.md#view-and-set-the-consent-level-for-each-contact) below the [minimum threshold](gdpr.md#journey-consent-level) set for the journey. This value is also displayed as the second value shown above the tile in the pipeline. Some tile types provide a **Save as segment** button ![save-as-segment button](media/Save-as-segment-button.png "Save-as-segment button") here; select this button to [generate a segment](generate-segment-from-journey.md) that includes all contacts that were stopped at exactly this tile of this journey. You can see a detailed breakdown of which contacts stopped here and why by going to the [Incomplete journeys](#incomplete) view.
+- **Volume** > **Stopped** (only shown when stopped contacts exist): Counts the number of contacts that were stopped from continuing the journey at this tile. There are three main reasons that a contact might get stopped at a tile during a journey: they [unsubscribed](customer-journeys-create-automated-campaigns.md#target-subscription-list) from the mailing list targeted by the journey, they got added to the journey's [suppression segment](customer-journeys-create-automated-campaigns.md#general-options), or they lowered their [consent level](gdpr-use-features.md#view-and-set-the-consent-level-for-each-contact) below the [minimum threshold](gdpr-use-features.md#journey-consent-level) set for the journey. This value is also displayed as the second value shown above the tile in the pipeline. Some tile types provide a **Save as segment** button ![save-as-segment button](media/Save-as-segment-button.png "Save-as-segment button") here; select this button to [generate a segment](generate-segment-from-journey.md) that includes all contacts that were stopped at exactly this tile of this journey. You can see a detailed breakdown of which contacts stopped here and why by going to the [Incomplete journeys](#incomplete) view.
 - **Volume** > **Failed** (only shown when failed contacts exist): Counts the number of contacts that failed to be processed by the tile, typically because of an internal error. This value is also displayed as the third value shown above the tile in the pipeline. Some tile types provide a **Save as segment** button ![save-as-segment button](media/Save-as-segment-button.png "Save-as-segment button") here; select this button to [generate a segment](generate-segment-from-journey.md) that includes all contacts that failed at exactly this tile of this journey.
 - **Volume** > **Processed**: Counts the number of contacts that were successfully processed by this tile and passed on to the appropriate next tile. Some tile types provide a **Save as segment** button ![save-as-segment button](media/Save-as-segment-button.png "Save-as-segment button") here; select this button to [generate a segment](generate-segment-from-journey.md) that includes all contacts that were successfully processed by exactly this tile of this journey. This value is also displayed as the first value shown above the tile in the pipeline.
 
@@ -161,7 +161,7 @@ The Insights tab for A/B test email tiles has a special section above the **Volu
 
 In the screenshot below, 10% of contacts received message A, 10% received message B, and the remaining 80% received the inconclusive default, which was set to message A.
 
-![A/B test insights](media/insights-a-b-test.png "A/B test insights")
+![A/B test insights.](media/insights-a-b-test.png "A/B test insights")
 
 ### Insights > Overview
 

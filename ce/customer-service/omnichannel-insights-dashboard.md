@@ -1,13 +1,12 @@
 ---
 title: "Omnichannel Insights dashboards for supervisors | MicrosoftDocs"
 description: "Learn about Omnichannel Insights dashboards for supervisors"
-author: neeranelli
-feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
-ms.author: nenellim
-manager: shujoshi
 ms.date: 03/12/2021
 ms.topic: article
-ms.service: "dynamics-365-customerservice"
+author: neeranelli
+ms.author: nenellim
+manager: shujoshi
+feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
 # View and understand Omnichannel Insights dashboards
@@ -29,7 +28,7 @@ Typically, the overview dashboard is divided into two sections:
 The following illustration is an example of the Omnichannel Insights for Dynamics 365 dashboard:
 
    > [!div class=mx-imgBorder]
-   > ![Omnichannel for Customer Service dashboard](media/oc-full-dashboard.png "Omnichannel for Customer Service dashboard")
+   > ![Omnichannel for Customer Service dashboard.](media/oc-full-dashboard.png "Omnichannel for Customer Service dashboard")
 
 This section consists of the following conversation KPIs.
 
@@ -42,9 +41,9 @@ This section consists of the following conversation KPIs.
 |Abandon Rate | The percentage of conversations that are not engaged by agents.|
 |Average Handle Time (mins) |Average length of time an agent takes to complete a conversation with a customer. This time considers the time spent by one or more agents to help the customer.|
 |Transfer rate |The percentage of conversations that are transferred to another agent/queue.|
-|Average Customer Sentiment Pulse (CSP) | The predicted customer sentiment in a given timeframe for a set queue/agent, which indicates the degree of positive sentiment expressed by customers at the end of their interactions.|
+|Average Customer Sentiment Pulse (CSP) | The predicted customer sentiment in a given timeframe for a set queue or agent, which indicates the degree of positive sentiment expressed by customers at the end of their interactions.|
 |Average customer effort time |Average length of time a customer takes to contact support and complete a conversation with an agent. Only the conversations engaged by an agent are considered for this metric.|
-||||
+|||
 
 ## Omnichannel Insights for Dynamics 365
 
@@ -54,21 +53,19 @@ The reporting structure consists of the following sections:
 
 - [Conversations and channels](#conversations-and-channels)
 - [Queue and agents](#queues-and-agents)
-- [Bot insights] (#botinsights)
+- [Bot insights](#botinsights)
 
 ### Conversations and channels
 
 This section provides historical visibility into the overall support operations across various conversations and channels.
-   
+
    > [!div class=mx-imgBorder]
-   > ![Conversation](media/conversation-report.png "Conversation")
-   
-  
+   > ![Conversation.](media/conversation-report.png "Conversation")
+
    > [!div class=mx-imgBorder]
-   > ![Channel report](media/channel.png "Channel report")
+   > ![Channel report.](media/channel.png "Channel report")
 
 The KPIs for conversations and channels are listed in the following table. For conversations, these are applicable to scenarios in which bots escalate to agents or agents directly handle customer calls. For channels, the KPIs represent support operations by each channel to help supervisors easily understand how each support channel (for example, SMS or chat) is performing, and take appropriate actions to improve the overall support experience for customers. <br> <br>
-
 
    | KPI | Description | Derivation | Measure |
    |------|----------|------------|---------|
@@ -93,21 +90,20 @@ The KPIs for conversations and channels are listed in the following table. For c
    | Average consult time | Total consult time divided by the total consult sessions. | Only consult sessions are considered as a denominator. | FactSessionParticipant[AvgConsultTime] |
    | Total monitor time | The time spent on the monitor from when the agent joined to when they left in session participant. | Only monitor sessions are considered as a denominator. | |
    | Average monitor time | The total monitor time divided by the total of monitor sessions. | Only monitor sessions are considered as a denominator. | FactSessionParticipant[AvgMonitorTime] |
-   | Average Customer sentiment pulse (CSP) | The predicted customer sentiment in a given timeframe for a set queue/agent, which indicates the degree of positive sentiment expressed by customers at the end of their interactions. | Conversations engaged are considered. | Average of FactConversationSentiment[msdyn_sentimentpulse] |
+   | Average Customer sentiment pulse (CSP) | The predicted customer sentiment in a given timeframe for a set queue or agent, which indicates the degree of positive sentiment expressed by customers at the end of their interactions. | Conversations engaged are considered. | Average of FactConversationSentiment[msdyn_sentimentpulse] |
    ||||
-
 
 ### Queues and agents
 
-This section provides historical visibility into how each queue is performing and how each agent is performing across different channels and queues so supervisors can take appropriate steps to improve the overall support experience for the customer. 
+This section provides historical visibility into how each queue is performing and how each agent is performing across different channels and queues so supervisors can take appropriate steps to improve the overall support experience for the customer.
 
    > [!div class=mx-imgBorder]
-   > ![Queue report](media/queue-report.png "Queue report")
+   > ![Queue report.](media/queue-report.png "Queue report")
 
    > [!div class=mx-imgBorder]
-   > ![Agent report](media/agent.png "Agent report")
-   
-The KPIs for queues and agents are listed in the following table. Metrics in this section are computed at the session granularity. Each customer contact is defined as a conversation. Each conversation is defined as a session and can be handled by one or more agents.
+   > ![Agent report.](media/agent.png "Agent report")
+
+The KPIs for queues and agents are listed in the following table. Metrics in this section are computed based on the session granularity. Each customer contact is defined as a conversation. Each conversation is defined as a session and can be handled by one or more agents.
 
 | KPI | Description | Derivation | Measure |
 |------|----------|------------|---------|
@@ -142,10 +138,10 @@ The KPIs for queues and agents are listed in the following table. Metrics in thi
   
 ### Bot insights
 
-This section provides historical visibility into how bots are performing to help resolve customer support issues. 
+This section provides historical visibility into how bots are performing to help resolve customer support issues.
 
    > [!div class=mx-imgBorder]
-   > ![Bot insights](media/bot-insights.png "Bot insights")  
+   > ![Bot insights.](media/bot-insights.png "Bot insights")  
 
 The KPIs for bots are listed in the following table.
 
@@ -163,20 +159,20 @@ The KPIs for bots are listed in the following table.
 This illustration of the Omnichannel Sentiment Analysis dashboard provides an **overview** of important KPIs and trends relative to the sentiment analysis of conversation offered.  
 
    > [!div class=mx-imgBorder]
-   > ![Sentiment analysis overview](media/oc-overview.png "Sentiment analysis overview")  
+   > ![Sentiment analysis overview.](media/oc-overview.png "Sentiment analysis overview")  
 
 ## Omnichannel Insights – Sentiment Analysis report
 
-This illustration of the Omnichannel Sentiment Analysis report provides a **detailed view** of more comprehensive information. 
+The following illustration provides a detailed view of the Omnichannel Sentiment Analysis report .
 
    > [!div class=mx-imgBorder]
-   > ![Sentiment Analysis detailed report](media/oc-detailed.png "Sentiment Analysis detailed report")
+   > ![Sentiment Analysis detailed report.](media/oc-detailed.png "Sentiment Analysis detailed report")
 
    Explanation of Sentiment Analysis KPIs
-    
+
    |KPI             |Description                |
    |-----------------|---------------------------|
-   |Average Sentiment Pulse              |The predicted customer sentiment in a given timeframe for a set queue/agent that indicates the degree of positive sentiment expressed by customers at the end of their interactions. For channel and queue, it provides the overall customer sentiment of the conversation. For agent, it provides the customer sentiment specific to the sessions handled by the agent in the conversation.  |
+   |Average Sentiment Pulse              |The predicted customer sentiment in a given timeframe for a set queue or agent that indicates the degree of positive sentiment expressed by customers at the end of their interactions. For channel and queue, it provides the overall customer sentiment of the conversation. For agent, it provides the customer sentiment specific to the sessions handled by the agent in the conversation.  |
    |% Positive Sentiment                 |Count of positive sentiment zone conversations divided by total sessions.  |
    |% Neutral Sentiment                  |Count of neutral sentiment zone conversations divided by total sessions.  |
    |% Negative Sentiment                 |Count of negative sentiment zone conversations divided by total sessions.  |
@@ -189,20 +185,18 @@ This illustration of the Omnichannel Sentiment Analysis report provides 
 Topics are generated when chat transcripts from Omnichannel for Customer Service are analyzed and grouped together, and similarities are discovered among the conversations. These are then correlated with sentiment, so that supervisors can better understand how their customers feel about each topic on which they've interacted with agents.
 
    > [!div class=mx-imgBorder]
-   > ![Topics that affect sentiment](media/topics-impacting-sentiment.png "Topics that affect sentiment")
+   > ![Topics that affect sentiment.](media/topics-impacting-sentiment.png "Topics that affect sentiment")
 
    > [!NOTE]
    >
    > - The filters at the top of the report (duration, channel, agent, queue) don't have an impact on the topic-related tiles.
    > - This component of the report will display data only when sentiment drivers reporting is enabled and a minimum of 10 chat conversations per organization take place.
 
-
    |Tile             |Description                |
    |-----------------|---------------------------|
    |Grid             | Displays the discovered topics from the most recent 24-hour period in which chat transcripts were processed. |
    |Keyword          | Displays the keywords that are related to a topic.  |
    |Ribbon chart     | Displays the topics that have been discovered over the course of the most recent full week in which chat transcripts were processed. |
-
 
    |KPI             |Description                |
    |-----------------|---------------------------|
@@ -231,7 +225,7 @@ Neutral sentiment is represented when a customer's sentiment was neither positiv
 You can filter the information presented in the reports by selecting **Duration**, **Channel**, **Queue,** and **Agent**.
 
    > [!div class=mx-imgBorder]
-   > ![Sentiment Analysis filtered report](media/supervisor-historical-filter-reports.png "Sentiment Analysis filtered report")
+   > ![Sentiment Analysis filtered report.](media/supervisor-historical-filter-reports.png "Sentiment Analysis filtered report")
 
 ### See also
 
@@ -240,6 +234,5 @@ You can filter the information presented in the reports by selecting **Duration*
 [Configure Omnichannel Insights dashboard](configure-historical-sentiment-dashboard-supervisor.md)
 
 [Analyze real-time customer sentiment](enable-sentiment-analysis.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

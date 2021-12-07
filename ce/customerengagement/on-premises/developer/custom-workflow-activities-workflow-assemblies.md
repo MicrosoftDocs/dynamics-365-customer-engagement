@@ -4,7 +4,7 @@ description: "Learn about registration and execution of custom workflow activiti
 ms.custom: 
 ms.date: 06/12/2019
 ms.reviewer: pehecke
-ms.prod: dynamicscrm-2016 
+ms.prod: d365ce-op
 ms.assetid: d4e6e932-61cd-42fd-a280-ef63bbad45f0
 author: JimDaly
 ms.author: kvivek

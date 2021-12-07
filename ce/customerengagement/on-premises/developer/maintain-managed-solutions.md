@@ -3,7 +3,7 @@ title: "Maintain managed solutions (Developer Guide for Dynamics 365 Customer En
 ms.custom: 
 ms.date: 04/02/2020
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -28,7 +28,7 @@ Before you release your managed solution, you should consider how you will maint
 ## Version compatibility  
  Any solution exported from a newer version of Dynamics 365 Customer Engagement (on-premises) cannot be imported into an older version of Dynamics 365 Customer Engagement (on-premises). This includes major and minor versions. Solutions exported from an earlier version of Dynamics 365 Customer Engagement (on-premises) can be imported into later versions as shown in the following chart.  
   
-![Solution version compatiblity](media/crm_v9.0_solution_compatibility_chart.png)
+![Solution version compatiblity.](media/crm_v9.0_solution_compatibility_chart.png)
 
 
 > [!NOTE]

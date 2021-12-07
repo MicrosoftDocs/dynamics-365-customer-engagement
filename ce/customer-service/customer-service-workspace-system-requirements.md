@@ -1,12 +1,11 @@
 ---
 title: "Customer Service workspace system requirements | MicrosoftDocs"
 description: "Learn about the system requirements for Customer Service workspace."
+ms.date: 10/05/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/05/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Customer Service workspace system requirements
@@ -29,7 +28,7 @@ An active subscription to Microsoft Dynamics 365 Customer Service Enterprise in 
 | Web browsers | Supported browsers: <li> Microsoft Edge ([Chromium based](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium) is recommended); version 79.0.309.65 or later is required for the desktop notifications feature </li> <li> Google Chrome </li> |
 |||
 
-For hardware and other requirements, see [Model-driven app requirements](../admin/online-requirements.md).
+For hardware and other requirements, see [Model-driven app requirements](/power-platform/admin/online-requirements).
 
 ### See also
 

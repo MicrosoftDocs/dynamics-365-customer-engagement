@@ -1,5 +1,7 @@
 ---
 title: "Applications must be closed | Microsoft Docs"
+description: Environment diagnostics warning that applications must be closed.
+ms.prod: d365ce-op
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 

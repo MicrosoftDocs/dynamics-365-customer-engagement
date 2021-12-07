@@ -4,7 +4,7 @@ description: "Dialogs contain pages, and each page can contain multiple sets of 
 ms.custom: 
 ms.date: 05/24/2019
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -30,7 +30,7 @@ Dialogs contain pages, and each page can contain multiple sets of prompts and re
 ## Dialog components  
  The following diagram illustrates a sample dialog page and its components.  
   
- ![Components of a dialog](media/sample-dialog.png "Components of a dialog")  
+ ![Components of a dialog.](media/sample-dialog.png "Components of a dialog")  
   
  Let us look at each component in detail.  
   

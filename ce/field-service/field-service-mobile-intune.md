@@ -1,11 +1,10 @@
 ---
 title: "Device and app management with Microsoft Intune | MicrosoftDocs"
 description: Learn all about device and app management for Dynamics 365 Field Service with Microsoft Intune
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 07/06/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: field-service-mobile
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"

@@ -4,7 +4,7 @@ description: "Read how to detect duplicates during create and update operations 
 ms.custom: 
 ms.date: 11/15/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

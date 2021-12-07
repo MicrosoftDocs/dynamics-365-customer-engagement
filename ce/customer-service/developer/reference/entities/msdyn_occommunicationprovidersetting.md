@@ -2,7 +2,6 @@
 title: "msdyn_occommunicationprovidersetting Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_occommunicationprovidersetting entity."
 ms.date: 04/05/2021
-ms.service: "crm-online"
 ms.topic: "reference"
 author: "mh-jaya"
 ms.author: "v-jmh"

@@ -37,17 +37,17 @@ To change the URL for your portal and the default URL for your events and pages:
 1. In Dynamics 365 Marketing, select **Marketing** in the top ribbon to change apps, then select **Power Apps portals**.
 
     > [!div class="mx-imgBorder"]
-    > ![Open the Portals app](media/app-selector-portals2.png)
+    > ![Open the Portals app.](media/app-selector-portals2.png)
 
 1. You are now in the Portals app. Go to **Portals** > **Website** > **Website bindings**.
 
 1. A list of website bindings opens. Often, there will be just one. Select the binding for your event portal to open it. This same website is normally used for both the event website and all marketing pages on the same portal.
 
-    ![Open your event website binding](media/event-website-binding.png "Open your event website binding")
+    ![Open your event website binding.](media/event-website-binding.png "Open your event website binding")
 
 1. Edit the **Site name** field to match the new name you selected as your portal base URL. Enter the full domain and subdomain, such as **_MySubdomain_.microsoftcrmportals.com**.
 
-    ![Edit the site name for your binding](media/event-website-site-name.png "Edit the site name for your binding")
+    ![Edit the site name for your binding.](media/event-website-site-name.png "Edit the site name for your binding")
 
 
 ## Update existing events and marketing pages records
@@ -77,7 +77,7 @@ You can update the URLs for many events at the same time, but you'll still need 
 
 1. Select **Edit** on the command bar. The **Change multiple records** dialog box opens. Expand the **Header** section here.
 
-    ![The publish-status setting](media/change-multiple-records.png "The publish-status setting")
+    ![The publish-status setting.](media/change-multiple-records.png "The publish-status setting")
 
 1. Set the **Header** > **Publish status** drop-down list to **Draft** and then select the **Change** button to apply your change.
 

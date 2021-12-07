@@ -1,12 +1,11 @@
 ---
 title: "Sign in to Omnichannel for Customer Service app | MicrosoftDocs"
-description: "Learn how to sign in to Omnichannel for Customer Service app."
+description: "Use this topic to understand how to sign in to Omnichannel for Customer Service app."
+ms.date: 07/01/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/01/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Sign in to Omnichannel for Customer Service
@@ -23,19 +22,17 @@ To sign in to Omnichannel for Customer Service, do the following:
 
 3. Select the **Omnichannel for Customer Service** app.
 
-    ![Sign in to Omnichannel for Customer Service](media/oceh-sign-in.png "Sign in to Omnichannel for Customer Service")
+    ![Sign in to Omnichannel for Customer Service.](media/oceh-sign-in.png "Sign in to Omnichannel for Customer Service")
 
 > [!Note]
 > If you have Omnichannel access, then you can see the Omnichannel for Customer Service app in your instance.
 
-> [!div class="nextstepaction"]
->  
 
-## See also
+### See also
 
-- [Introduction to the agent interface](oc-introduction-agent-interface.md)
-- [View communication panel](oc-conversation-control.md)
-- [Manage presence status](oc-manage-presence-status.md)
+- [Introduction to the agent interface](oc-introduction-agent-interface.md)  
+- [View communication panel](oc-conversation-control.md)  
+- [Manage presence status](oc-manage-presence-status.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

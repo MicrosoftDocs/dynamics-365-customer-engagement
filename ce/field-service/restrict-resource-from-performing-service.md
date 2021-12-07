@@ -66,7 +66,7 @@ You can restrict a resource from performing a service and define the service cap
   
 9. On the Actions toolbar, click **New**.  
   
-10. In the **Service Restrictions** dialog box, find and select a **Service**. Click the **Lookup** button ![Lookup button](../customer-service/media/crm-ua-lookup-v4.gif "Lookup button") to search for a record.  
+10. In the **Service Restrictions** dialog box, find and select a **Service**. Click the **Lookup** button ![Lookup button.](../customer-service/media/crm-ua-lookup-v4.gif "Lookup button") to search for a record.  
   
 11. In the **Start time** and **End time** lists, set the time when the facility or equipment is not available, and then click **OK**.  
   

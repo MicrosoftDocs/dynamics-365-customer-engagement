@@ -1,8 +1,9 @@
 ---
 title: "Monitoring and troubleshooting Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
+description: This article contains resources that explain how to monitor and troubleshoot Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: "crm-2016"
+ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -16,8 +17,6 @@ author: Mattp123
 manager: kvivek
 ---
 # Monitoring and troubleshooting Dynamics 365 Customer Engagement (on-premises)
-
-
 
 Administrators can use the information in this section to monitor and troubleshoot issues with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   

@@ -1,14 +1,11 @@
 ---
 title: Define settings for parent and child cases (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Learn to define settings for parent and child cases in Dynamics 365 Customer Service
+ms.date: 10/01/2018
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/01/2018
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,11 +13,18 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
+searchScope:
+- D365-App-customerservicehub
+- D365-Entity-incident
+- D365-UI-*
+- Customer Engagement
+- Dynamics 365
+- Customer Service
 ---
 
 # Define parent and child case settings
-
-Case management is the core record that tracks individual customer service issues across channels and agents over time. Customers want to have a long and happy relationship with brands over time, and throughout that relationship they may have several support inquiries through more than one support channel. To achieve this goal, Dynamics 365 Customer Service provides enhanced case configuration and improved case analytics for supervisors.
 
 In Dynamics 365 Customer Service, you can track multiple issues for a customer, or track the same issue that's affecting multiple customers, using parent and child cases. For example, you could track a case where work needs to be done by other departments. The primary case or issue is called the **Parent** case. Any related cases are called **Child** cases. Before your service team can start using this feature, you need to go to service management and set up a few rules about how information is inherited. 
 
@@ -33,7 +37,7 @@ In Dynamics 365 Customer Service, you can track multiple issues for a customer, 
   
    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)] [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
-2. In the Customer Service Hub sitemap, go to **Service Management** and select **Case Settings** > **Parent Child Case Settings**.  
+2. In the Customer Service Hub site map, go to **Service Management** and select **Case Settings** > **Parent Child Case Settings**.  
   
 3. In the **Case Settings** dialog box, select the attributes that the child case will inherit from the parent case.  
 

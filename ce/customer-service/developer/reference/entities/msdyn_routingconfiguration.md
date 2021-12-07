@@ -2,7 +2,6 @@
 title: "msdyn_routingconfiguration Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_routingconfiguration entity."
 ms.date: 03/31/2021
-ms.service: "crm-online"
 ms.topic: "reference"
 author: "platkat"
 ms.author: "ktaylor"

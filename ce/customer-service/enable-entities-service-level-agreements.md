@@ -1,14 +1,11 @@
 ---
 title: "Enable entities for service level agreements (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Learn how to enable entities for service level agreements in Dynamics 365 Customer Service."
+ms.date: 09/07/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 09/07/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Enable entities for service level agreements

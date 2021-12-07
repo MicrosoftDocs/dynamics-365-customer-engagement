@@ -1,23 +1,22 @@
 ---
-title: "Register and unregister action for event in Unified Service Desk | MicrosoftDocs"
-description: "The topic describes the events that can be registered/unregistered for an action."
+title: "Register actions for events in Unified Service Desk | MicrosoftDocs"
+description: "Learn about events that can be registered for an action and event names you can use to subscribe for the registered actions."
+ms.date: 08/23/2017
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/23/2017
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
-# Register and unregister action for event in Unified Service Desk
-This topic describes the events that can be registered/unregistered for an action.  
+# Register actions for event in Unified Service Desk
+This topic describes the events that can be registered for an action.  
   
 ## UIA events  
  The following UIA events can be registered for an action:  
@@ -37,7 +36,7 @@ This topic describes the events that can be registered/unregistered for an actio
 -   Events  
   
 ## Event names  
- The following event names can be used to subscribe in the register/unregister activities:  
+ The following event names can be used to subscribe to the registered actions:  
   
 -   [AsyncContentLoadedEvent](/dotnet/api/system.windows.automation.automationelementidentifiers.asynccontentloadedevent)  
   

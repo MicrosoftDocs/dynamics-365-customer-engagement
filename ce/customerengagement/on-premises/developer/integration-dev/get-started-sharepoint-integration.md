@@ -4,7 +4,7 @@ description: "By using SharePoint Server document management capabilities, you c
 ms.custom: 
 ms.date: 01/20/2021
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article

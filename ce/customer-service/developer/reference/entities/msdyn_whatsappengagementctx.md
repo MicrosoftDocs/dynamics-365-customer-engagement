@@ -1,12 +1,11 @@
 ---
 title: "msdyn_whatsappengagementctx Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_whatsappengagementctx entity."
+ms.date: 10/12/2020
+ms.topic: "reference"
 author: "mh-jaya"
 ms.author: "v-jmh"
 manager: "shujoshi"
-ms.date: 10/12/2020
-ms.topic: "reference"
-ms.service: "dynamics-365-customerservice"
 search.audienceType: 
   - developer
 search.app: 

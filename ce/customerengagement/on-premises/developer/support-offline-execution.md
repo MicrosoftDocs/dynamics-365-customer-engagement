@@ -4,7 +4,7 @@ description: "Add support to your plug-in for execution by the Dynamics 365 for 
 ms.custom: on-premise
 ms.date: 1/22/2019
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

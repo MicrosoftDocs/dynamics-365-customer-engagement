@@ -1,11 +1,9 @@
 ---
 title: "Types of Field Service scheduling capabilities in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn about the different types of scheduling capabilities in Dynamics 365 Field Service
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 1/28/2019
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
@@ -32,7 +30,7 @@ Manual scheduling works well in the following scenarios:
 - For less complex requirements or less mature scheduling processes.
 
   > [!div class="mx-imgBorder"]
-  > ![Screenshot of the schedule board with booking requirements pane](media/29a8d922fb088fa1d668c598f6887e65.png)
+  > ![Screenshot of the schedule board with booking requirements pane.](media/29a8d922fb088fa1d668c598f6887e65.png)
 
 > [!Note]
 > The schedule board plays a big role across all types of scheduling, and is configurable and extensible to meet specific scheduling requirements.
@@ -48,14 +46,14 @@ The schedule assistant uses requirement details to recommend times and resources
 The schedule assistant is configurable and extensible, and can be used from within the schedule board or from within a work order. It can also be embedded on others forms (like case forms). 
 
   > [!div class="mx-imgBorder"]
-  > ![Screenshot of the schedule board](media/131ed6d21d96cbc0ccc5a730dcbe1bd0.png)
+  > ![Screenshot of the schedule board.](media/131ed6d21d96cbc0ccc5a730dcbe1bd0.png)
 
 ## Optimized or automated scheduling 
 
 Field service includes a set of optimized or automated capabilities called resource scheduling optimization that can be used in various combinations, including in combination with manual scheduling and the schedule assistant.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board with optimizations](media/8cce1b1462b960eecac5012ad1a2d685.png)
+> ![Screenshot of the schedule board with optimizations.](media/8cce1b1462b960eecac5012ad1a2d685.png)
 
 Resource scheduling optimization provides several different types of scheduling optimizations:
 

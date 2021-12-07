@@ -1,14 +1,11 @@
 ---
 title: "Add timer in forms to track time against enhanced SLAs (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Learn the procedure to add a timer in forms to track time against enhanced SLAs in Dynamics 365 Customer Service."
+ms.date: 06/01/2018
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/01/2018
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Add a timer in forms to track time against enhanced SLAs
@@ -30,9 +29,9 @@ A timer helps users gauge the amount of time they have to complete a key perform
   
  The timer control can show any of the following, depending on the actions of the user and what you as a system administrator or customizer specify when you set up the timer control:  
   
--   If the user completes the task within the time remaining, the control shows the word **Succeeded**.  
+-   If the user completes the task within the remaining time, the control shows the word **Succeeded**.  
   
--   If the user doesn’t complete the task within the time remaining, the control shows the word **Expired**.  
+-   If the user doesn’t complete the task within the remaining time, the control shows the word **Expired**.  
   
 -   As the timer counts down, the color changes to yellow as the time remaining nears non-compliance. If the time remaining expires, the timer shows the word **Expired**. Then the timer color changes to red and the timer starts counting up to show the elapsed time since the task should have been completed.  
   
@@ -40,7 +39,7 @@ A timer helps users gauge the amount of time they have to complete a key perform
   
 -   If a condition causes the SLA KPI to be canceled, the control shows the word **Canceled**. This behavior is optional.  
   
--   If either of the required fields in the **Timer Control** dialog box do not have a value in the record, the control shows the words **Not Set**.  
+-   If either of the required fields in the **Timer Control** dialog box does not have a value in the record, the control shows the words **Not Set**.  
   
 To add a timer to track time against enhanced SLAs:  
   
@@ -116,7 +115,7 @@ To add a timer to track time against enhanced SLAs:
   
     Following is an example of the properties you'd set for a timer for a Case entity.  
   
-    ![Timer control properties for Enhanced SLA](../customer-service/media/crm-ua-v8-1-timer-control-dialog-box-enhanced-sla.png "Timer control properties for enhanced SLA")  
+    ![Timer control properties for Enhanced SLA.](../customer-service/media/crm-ua-v8-1-timer-control-dialog-box-enhanced-sla.png "Timer control properties for enhanced SLA")  
   
    > [!NOTE]
    >  Typically, for enhanced SLAs, the timer control is set up using the SLA KPI Instance status field values only.  

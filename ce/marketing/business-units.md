@@ -1,7 +1,7 @@
 ---
 title: "Control access to Marketing records with business units (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how business units affect users and record visibility in Dynamics 365 Marketing."
-ms.date: 02/25/2021
+ms.date: 06/02/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -103,7 +103,12 @@ Although most business-unit functionality is always enabled in Dynamics 365 mark
 To enable or disable this feature:
 
 1. Go to **Settings** > **Other settings** > **Feature switches**.
-1. Set the **Business unit scoping** slider to **On** to turn the feature on, or to **Off** to turn it off.
+1. Set the **Business unit scoping** slider to **On** to turn on the feature, or to **Off** to turn it off.
+1. Go to **Outbound marketing** > **Marketing templates** > **Content settings**, then select or create a new [content setting](dynamic-email-content.md) specific for the scope of the business-unit.
+1. Set **Default for owning business unit** to **Yes**.
+
+> [!TIP]
+> The **Default for owning business unit** toggle will only appear when the **Business unit scoping** feature switch is enabled.
 
 ### See also
 

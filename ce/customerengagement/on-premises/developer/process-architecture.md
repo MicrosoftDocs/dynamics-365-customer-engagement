@@ -4,7 +4,7 @@ description: "The topic illustrates the high-level system architecture for Dynam
 ms.custom: 
 ms.date: 12/16/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -29,7 +29,7 @@ The process management system in Dynamics 365 Customer Engagement (on-premises) 
 
 The following diagram illustrates the high-level system architecture for Dynamics 365 Customer Engagement (on-premises), and highlights parts of the system that are specific to processes.  
   
-![Process Architecture](media/process-architecture.png "Process Architecture")  
+![Process Architecture.](media/process-architecture.png "Process Architecture")  
   
 This diagram shows the process architecture of Dynamics 365 Customer Engagement (on-premises) including the internal components, the external components, the infrastructure, and the data.  
   

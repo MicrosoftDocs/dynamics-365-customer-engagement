@@ -4,7 +4,7 @@ description: "Learn about how to create, manage, and publish business apps in Cu
 ms.custom: 
 ms.date: 03/04/2019
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

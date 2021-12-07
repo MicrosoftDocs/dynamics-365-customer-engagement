@@ -16,7 +16,7 @@ search.app:
   - D365Mktg
 ---
 
-# Developer Guide (Marketing)
+# Developer guide (Marketing)
 
 <table>
 

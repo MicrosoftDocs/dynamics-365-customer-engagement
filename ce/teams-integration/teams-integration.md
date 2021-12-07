@@ -1,7 +1,7 @@
 ---
-title: "Integrate customer engagement apps in Dynamics 365 with Microsoft Teams| MicrosoftDocs"
+title: "Teams integration with Dynamics 365 customer engagement apps"
 ms.custom: 
-description: "Integrate customer engagement apps in Dynamics 365 with Microsoft Teams."
+description: "Dynamics 365 for Microsoft Teams integration enables users to easily work with customer engagement apps and share files directly from Microsoft Teams."
 ms.date: 08/26/2020
 ms.reviewer: 
 ms.service: crm-online
@@ -41,7 +41,7 @@ Dynamics 365 for Microsoft Teams integration enables users to easily work with c
  
  
 > [!div class="mx-imgBorder"] 
-> ![Features of Microsoft Teams app](media/teams-intro.png "Features of Microsoft Teams app")
+> ![Features of Microsoft Teams app.](media/teams-intro.png "Features of Microsoft Teams app")
 
 With the Dynamics 365 for Microsoft Teams integration, add app features that you rely on, to the Microsoft Teams app you collaborate with. This lets you easily work with your customer information and share files directly from Microsoft Teams.
 

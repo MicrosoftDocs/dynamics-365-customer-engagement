@@ -4,7 +4,7 @@ description: "Learn about connecting Dynamics 365 Customer Engagement (on-premis
 ms.custom: 
 ms.date: 09/19/2018
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -87,7 +87,7 @@ You can connect [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-on
   
  The following diagram shows the physical elements that make up the scenario.  
   
- ![Dynamics 365 Customer Engagement (on-premises) to Service Bus scenario](media/crm-v5s-az.png "Dynamics 365 Customer Engagement (on-premises) to Service Bus scenario")  
+ ![Dynamics 365 Customer Engagement (on-premises) to Service Bus scenario.](media/crm-v5s-az.png "Dynamics 365 Customer Engagement (on-premises) to Service Bus scenario")  
   
  The sequence of events as identified in this diagram are as follows:  
   

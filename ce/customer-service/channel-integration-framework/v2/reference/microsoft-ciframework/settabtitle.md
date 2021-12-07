@@ -1,18 +1,17 @@
 ---
-title: "setTabTitle (JavaScript API Reference) for Channel Integration Framework (CIF) version 2.0 | Microsoft Docs"
-description: ""
+title: "setTabTitle (JavaScript API Reference) for Channel Integration Framework 2.0 | MicrosoftDocs"
+description: "Learn about setTabTitle (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0."
+ms.date: 03/06/2020
+ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 03/06/2020
-ms.topic: reference
-ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
 ---
 
-# setTabTitle
+# setTabTitle (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
 
 Sets the title of the tab, if the focused session belongs to the channel provider and if the tab belongs to the session in focus.
 

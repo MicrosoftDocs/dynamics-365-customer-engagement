@@ -1,8 +1,9 @@
 ---
 title: "Upgrade Dynamics 365 Server | Microsoft Docs"
+description: Learn how to upgrade a server in Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: "crm-2016"
+ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -17,7 +18,12 @@ manager: kvivek
 ---
 # Upgrade Dynamics 365 Server
 
+::: moniker range="op-9-1"
+[!INCLUDE [applies-not-to-9-1](../includes/applies-not-to-9-1.md)]
 
+::: moniker-end
+
+::: moniker range="op-9-0"
 
 This section shows you how to run the actual in-place upgrade on Dynamics 365 Server with December 2016 Service Pack for Dynamics 365 (on-premises). If you encounter problems during the upgrade, see [Troubleshooting installation and upgrade](troubleshooting-installation-and-upgrade.md) in this guide.  
   
@@ -86,7 +92,7 @@ This section shows you how to run the actual in-place upgrade on Dynamics 365 Se
   
 7.  On the **Specify Service Accounts** page, Setup will add the service accounts used for the [!INCLUDE[pn_crm_legacy](../includes/pn-crm-legacy.md)] Server services. You can use the existing service accounts or specify new ones. For information about the permissions required to run these services see [Minimum permissions required for Microsoft Dynamics 365 Setup and services](security-considerations-for-microsoft-dynamics-365.md#BKMK_MinimumPermissions).  
   
-8.  If you want to use server-side synchronization and/or [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] for the deployment, leave this box blank.  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][ntegrate your email system with Microsoft Dynamics 365](../admin/integrate-synchronize-your-email-system.md)  
+8.  If you want to use server-side synchronization and/or [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] for the deployment, leave this box blank.  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Integrate your email system with Microsoft Dynamics 365](../admin/integrate-synchronize-your-email-system.md)  
   
      Otherwise, on the **Specify E-mail Router Settings** in the, **Email router server name** box, type the name of the computer where the [!INCLUDE[pn_emailrouter](../includes/pn-emailrouter.md)] will be installed. This computer will route Dynamics 365 Customer Engagement (on-premises) email messages. If you leave the box blank but decide later you want to use the [!INCLUDE[pn_emailrouter](../includes/pn-emailrouter.md)], you must add the computer where the [!INCLUDE[pn_emailrouter](../includes/pn-emailrouter.md)] Service is running (part of the [!INCLUDE[pn_Asynchronous_Service](../includes/pn-asynchronous-service.md)]) when you use Network Service, or if you use a domain user account, the account to the PrivUserGroup security group.  
   
@@ -113,7 +119,6 @@ This section shows you how to run the actual in-place upgrade on Dynamics 365 Se
 ## See also  
  [Administer the deployment using Windows PowerShell](administer-the-deployment-using-windows-powershell.md)   </br>
  
-
-
+::: moniker-end
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

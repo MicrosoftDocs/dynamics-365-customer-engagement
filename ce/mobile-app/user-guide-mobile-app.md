@@ -44,7 +44,7 @@ You can run your Sales Hub app, Customer Service Hub app, and Dynamics 365 Custo
 
 It's easy to get around in Dynamics 365 for phones and tablets. The following image shows the primary navigation elements on the home screen.
 
-![Navigation controls, expanded view](media/home_screen_iphone_d365.png "Navigation controls, expanded view")
+![Navigation controls, expanded view.](media/home_screen_iphone_d365.png "Navigation controls, expanded view")
 
 Legend:
 
@@ -66,36 +66,36 @@ Your administrator has to opt in to early access updates for your environment an
 
 When you're on a form page with tabs, you can scroll and span horizontally across the screen. When you select a tab, the header is adjusted so you can easily view the next few tabs.
 
-![Form pages with tabs](media/form-tabs.png "Form pages with tabs")
+![Form pages with tabs.](media/form-tabs.png "Form pages with tabs")
 
 ### Add a new record on subgrids
 
 On a subgrid with no records, you can now add a new record quickly.
 
-![Add a new record on a subgrid](media/subgrid-add-record.png "Add a new record on a subgrid")
+![Add a new record on a subgrid.](media/subgrid-add-record.png "Add a new record on a subgrid")
 
 ### More commands
 
 You can easily see the commands on a subgrid that appear at the bottom of the screen.
 
-![More commands on subgrids](media/more-command-drawer.png "More commands on subgrids")
+![More commands on subgrids.](media/more-command-drawer.png "More commands on subgrids")
 
 ### Search this view
 
 When you're on a view, use the **Search this view** option to search the current view.
 
-![Search this view](media/search-view.png "Search this view")
+![Search this view.](media/search-view.png "Search this view")
 
 ## Site map
 
-On the home screen, select the site map ![Site map](media/d365_mobile_sitemap_icon.png "Site map") to access entities, favorite or most-used records, other apps, and settings.
+On the home screen, select the site map ![Site map.](media/d365_mobile_sitemap_icon.png "Site map") to access entities, favorite or most-used records, other apps, and settings.
 
    > [!div class="mx-imgBorder"]
-   > ![This image demonstrates how to get to the site map](media/homesceen_d365.gif "This image demonstrates how to get to the site map")
+   > ![This image demonstrates how to get to the site map.](media/homesceen_d365.gif "This image demonstrates how to get to the site map")
 
 The following image shows the primary navigation elements on the site map. 
 
-![Elements of the site map](media/site_map_iphone_d365.png "Elements of the site map")
+![Elements of the site map.](media/site_map_iphone_d365.png "Elements of the site map")
 
 Legend
 
@@ -115,43 +115,43 @@ The **Pinned** and **Recent** lists provide quick access to records that you've 
 
 1. On the site map ![Site map icon](media/d365_mobile_sitemap_icon.png "Site map icon"), select **Recent** ![Recent records](media/d365_mobile_recent_icon.png "Recent records").
 
-2. On the **Recent** records screen, select the pushpin ![Pinned favorites](media/d365_mobile_pinned_favs_icon.png "Pinned favorites") next to a record to add it to your favorites (pinned records).
+2. On the **Recent** records screen, select the pushpin ![Pinned favorites.](media/d365_mobile_pinned_favs_icon.png "Pinned favorites") next to a record to add it to your favorites (pinned records).
 
 3. To view the newly pinned records, select **Close** ![Close button](media/close.png "Close button"), and then select **Pinned** ![Pinned favorites](media/d365_mobile_pinned_favs_icon.png "Pinned favorites").
 
    > [!div class="mx-imgBorder"]
-   > ![This image demonstrates how to pin favorite records](media/pin_to-favs.gif "This image demonstrates how to pin favorite records")
+   > ![This image demonstrates how to pin favorite records.](media/pin_to-favs.gif "This image demonstrates how to pin favorite records")
 
 ### Unpin a record
 
 1. On the site map ![Site map](media/d365_mobile_sitemap_icon.png "Site map"), select **Pinned** ![Pinned](media/d365_mobile_pinned_favs_icon.png "Pinned").
 
-2. Select **Remove** ![Remove a pin](media/d365_mobile_remove_pin_icon.png "Remove a pin") next to a record to remove it from favorites (pinned records).
+2. Select **Remove** ![Remove a pin.](media/d365_mobile_remove_pin_icon.png "Remove a pin") next to a record to remove it from favorites (pinned records).
 
    > [!div class="mx-imgBorder"]
-   > ![This image demonstrates how to unpin a record](media/unpin_favs.gif "This image demonstrates how to unpin a record")
+   > ![This image demonstrates how to unpin a record.](media/unpin_favs.gif "This image demonstrates how to unpin a record")
 
 ## Change views
 
-- On the home screen, select the down arrow ![Change view](media/d365_mobile_view_selector_icon.png "Change view") next to the current view, and then select a new view.
+- On the home screen, select the down arrow ![Change view.](media/d365_mobile_view_selector_icon.png "Change view") next to the current view, and then select a new view.
 
    > [!div class="mx-imgBorder"]
-   > ![This image demonstrates how to select a different view](media/change_views.gif "This image demonstrates how to select a different view")
+   > ![This image demonstrates how to select a different view.](media/change_views.gif "This image demonstrates how to select a different view")
 
 ## Add a record quickly
 
-1. On the home screen, select **New** ![Create record button](media/d365_create-record-button.png "Create record button").
+1. On the home screen, select **New** ![Create record button.](media/d365_create-record-button.png "Create record button").
 2. Fill in the fields, and then select **Save**. After the record is created, you can view the new record. 
 
    > [!div class="mx-imgBorder"]
-   > ![Create a new record](media/create_new_record.gif "This image demonstrates how create a new record")
+   > ![Create a new record.](media/create_new_record.gif "This image demonstrates how create a new record")
 
--  To save and open the record that you created, select **More** ![More commands](media/d365_mobile_more_commands_icon.png "More commands"), and then select **Save and open**.
+-  To save and open the record that you created, select **More** ![More commands.](media/d365_mobile_more_commands_icon.png "More commands"), and then select **Save and open**.
 
-- To save and create another record, select **More** ![More commands](media/d365_mobile_more_commands_icon.png "More commands"), and then select **Save and create new**.
+- To save and create another record, select **More** ![More commands.](media/d365_mobile_more_commands_icon.png "More commands"), and then select **Save and create new**.
 
    > [!div class="mx-imgBorder"]
-   > ![This image demonstrates how to save a record and open it, or save and create a new record](media/create_new_record_more_options.gif "This image demonstrates how to save a record and open it, or save and create a new record")
+   > ![This image demonstrates how to save a record and open it, or save and create a new record.](media/create_new_record_more_options.gif "This image demonstrates how to save a record and open it, or save and create a new record")
 
 ## View commands for a record
 
@@ -159,7 +159,7 @@ The **Pinned** and **Recent** lists provide quick access to records that you've 
 2. On the open record, select **More** to access more commands.
 
    > [!div class="mx-imgBorder"]
-   > ![This image demonstrates how to access more commands on a record](media/open_record_more_options.gif "This image demonstrates how to access more commands on a record")
+   > ![This image demonstrates how to access more commands on a record.](media/open_record_more_options.gif "This image demonstrates how to access more commands on a record")
 
 ## Edit a record
 
@@ -167,15 +167,15 @@ The **Pinned** and **Recent** lists provide quick access to records that you've 
 2. Edit the record, and then select **Save**. To cancel your changes, select **Discard**.
 
    > [!div class="mx-imgBorder"]
-   > ![This image demonstrates how to edit and then save a record](media/edit_record.gif "This image demonstrates how to edit and then save a record")
+   > ![This image demonstrates how to edit and then save a record.](media/edit_record.gif "This image demonstrates how to edit and then save a record")
 
 ## Go back to the home screen
 
-- To get back to the home screen when you're in a record, select **Back** ![Back](media/d365_mobile_back_icon.png "Back").
-- At any point, you can select and hold **Back** ![Back](media/d365_mobile_back_icon.png "Back") to go back to the home screen. 
+- To get back to the home screen when you're in a record, select **Back** ![Back.](media/d365_mobile_back_icon.png "Back").
+- At any point, you can select and hold **Back** ![Back.](media/d365_mobile_back_icon.png "Back") to go back to the home screen. 
 
    > [!div class="mx-imgBorder"]
-   > ![This image demonstrates how to go back to the home screen by selecting and holding the back arrow](media/go_back_home.gif "This image demonstrates how to go back to the home screen by selecting and holding the back arrow")
+   > ![This image demonstrates how to go back to the home screen by selecting and holding the back arrow.](media/go_back_home.gif "This image demonstrates how to go back to the home screen by selecting and holding the back arrow")
 
 ## Sign out
 

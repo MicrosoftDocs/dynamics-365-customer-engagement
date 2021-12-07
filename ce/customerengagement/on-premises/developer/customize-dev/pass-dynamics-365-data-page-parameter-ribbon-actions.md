@@ -4,7 +4,7 @@ description: "The topic describes options for using the <CrmParameter> element t
 ms.custom: 
 ms.date: 02/15/2019
 ms.reviewer: peheckekvivek 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

@@ -1,17 +1,16 @@
 ---
 title: "msdyn_appconfiguration Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_appconfiguration entity."
+description: "Includes schema information and supported messages for the msdyn_appconfiguration entity in Dynamics 365 Channel Integration Framework 2.0."
+ms.date: 11/03/2020
+ms.topic: "reference"
 author: "mh-jaya"
 ms.author: v-jmh
 manager: "jdaly"
-ms.date: 11/03/2020
-ms.topic: "reference"
-ms.service: "dynamics-365-customerservice"
 applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 ---
-# msdyn_appconfiguration Entity Reference
+# msdyn_appconfiguration Entity Reference for Dynamics 365 Channel Integration Framework 2.0
 
 **Added by**: App profile manager Solution
 
@@ -888,7 +887,7 @@ IntersectEntityName: msdyn_appconfig_msdyn_channelprovider<br />
 
 ### See also
 
-- [Configure the channel provider](../../configure-channel-provider-channel-integration-framework.md)
+- [Configure the channel provider](/dynamics365/customer-service/channel-integration-framework/v2/reference/entities-attributes/configure-channel-provider-app-profile-manager)
 
 - [Microsoft.CIFramework](../microsoft-ciframework-v2.md)
 

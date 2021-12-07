@@ -3,7 +3,7 @@ title: "Sample: Associate a Security Role to a User (Developer Guide for Dynamic
 description: "The sample shows how to associate a role with a user by using the IOrganizationService.EntityReferenceCollection) method."
 keywords: 
 ms.date: 10/31/2017
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.topic: samples
 applies_to: 

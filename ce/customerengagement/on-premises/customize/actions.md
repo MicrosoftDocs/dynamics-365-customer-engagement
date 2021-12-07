@@ -1,9 +1,10 @@
 ---
-title: "Actions overview | MicrosoftDocs"
+title: "Use actions in Dynamics 365 Customer Engagement (on-premises)"
+description: "Actions provide the ability to define a verb that matches an operation you need to run your business. Learn more about what actions do and why to use them."
 ms.custom: 
 ms.date: 11/08/2018
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -18,7 +19,7 @@ search.audienceType:
   - customizer
 
 ---
-# Actions overview
+# Overview of working with actions
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Use actions](/powerapps/maker/common-data-service/actions)
 

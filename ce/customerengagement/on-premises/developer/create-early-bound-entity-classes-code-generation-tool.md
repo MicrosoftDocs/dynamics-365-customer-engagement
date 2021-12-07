@@ -3,7 +3,7 @@ title: "Create early bound entity classes with the code generation tool (CrmSvcU
 description: ""
 keywords: 
 ms.date: 09/05/2019
-ms.prod: dynamicscrm-2016 
+ms.prod: d365ce-op
 ms.custom: on-premise
 ms.topic: article
 ms.assetid: 06abab26-40fc-4b85-9a2a-5e68903ea138

@@ -1,12 +1,11 @@
 ---
 title: "Enable self-service settings | MicrosoftDocs"
 description: "Enable self service in the Omnichannel Administration app."
+ms.date: 04/09/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/09/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Enable self-service settings for customer actions in a conversation summary
@@ -32,7 +31,7 @@ Perform the following steps to enable self service.
 5. On the **Self service settings** tab, set the **Self service** toggle to **Yes**.
 
    > [!div class='mx-imgBorder']
-   > ![Enable self service](media/enable-self-service.png "Enable self service")
+   > ![Enable self service.](media/enable-self-service.png "Enable self service")
  
 6. Select **Save**. The **Self service** tab will appear for the agent when a chat is started with a customer.
 

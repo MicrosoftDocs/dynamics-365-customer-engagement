@@ -143,7 +143,7 @@ The following capabilities were included with the October 2017 update to Field S
 
 - Users can download the Field Resource Hub app from their usual app store. Note that the hub app is different from the full-featured Resco mobile app and doesn't require the organization to install the Woodford mobile solution.
 
-   ![Substitute Resource on the schedule board](../field-service/media/substitute_resource.png "Substitute Resource on the schedule board") 
+   ![Substitute Resource on the schedule board.](../field-service/media/substitute_resource.png "Substitute Resource on the schedule board") 
  
 **Project Service Automation**
  - **Project Resource hub**: The Project Resource Hub app lets resources use their phone or tablet to enter time and expenses for projects. For more information, check out the [Project Resource Hub User's Guide](/dynamics365/project-operations/psa/project-resource-hub-users-guide)
@@ -177,13 +177,13 @@ These updates apply to Dynamics 365 (online), version 8.x.
   
     - **Everyone** – If the user has access to use the schedule board, they will see these boards.  
   
-  ![Share the schedule board](../field-service/media/field-service-share-schedule-board.png "Share the schedule board")  
+  ![Share the schedule board.](../field-service/media/field-service-share-schedule-board.png "Share the schedule board")  
   
 - **Dim unavailable resources**: When searching for availability on the schedule board, resources that are unavailable in the search are either be dimmed or removed from the schedule board.  
   
      A user who only wants to see a specific set of resources can choose to dim unavailable resources instead of removing resources that are  not a match while a user  without this requirement can have unavailable resources completely removed from the board. This setting can be changed in the schedule board tab settings.  
   
-  ![Dim the schedule board](../field-service/media/field-service-dim-schedule-board.png "Dim the schedule board")  
+  ![Dim the schedule board.](../field-service/media/field-service-dim-schedule-board.png "Dim the schedule board")  
   
   **Project Service Automation:**  
   

@@ -1,9 +1,9 @@
 ---
-title: "Manage app properties in the app designer | MicrosoftDocs"
-description: "Learn how to manage the properties for your app"
+title: "Manage properties with the app designer in Dynamics 365 Customer Engagement (on-premises)"
+description: "App properties define important details about the app, like its title or URL. To change these after creating an app, edit the properties in the app designer."
 keywords: 
 ms.date: 02/21/2019
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.topic: article
 applies_to: 
@@ -31,7 +31,7 @@ App properties define important details about the app, like its title or URL. Yo
 
 1. In the app designer, on the right side, select the **Properties** tab.  
 
-   ![App designer Properties pane](../customize/media/app-designer-properties-tab.png "App designer Properties pane")  
+   ![App designer Properties pane.](../customize/media/app-designer-properties-tab.png "App designer Properties pane")  
 
 2. Change the information, as required:  
 

@@ -1,12 +1,11 @@
 ---
 title: "Enable conversations to be assigned automatically in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Instructions for enabling auto-assign of conversations in Omnichannel for Customer Service."
+ms.date: 10/12/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Enable conversations to be assigned automatically
@@ -30,14 +29,14 @@ Perform the following steps:
 4. On the **General** tab of the ***<notification_name>* Notification Template**, set the toggle to **Yes** for **Auto-assign work items**. The label for **Accept Button** changes to **Open**, and the toggle for **Reject Button** is disabled.
 5. Select **Save**.
 
-   > ![Enable automatic assignment of conversations](media/enable-auto-assign-chat.png " Enable automatic assignment of conversations ")
+   > ![Enable automatic assignment of conversations.](media/enable-auto-assign-chat.png " Enable automatic assignment of conversations ")
 
 > [!NOTE]
 > We recommend that you don't enable the auto-assign setting in consult notification templates.
 
 ### See also
 
-[Manage notification templates](notification-templates.md)  
+[Manage notification templates](/dynamics365/customer-servi/app-profile-manager/notification-templates)  
 [View notifications](oc-notifications.md)  
 
 

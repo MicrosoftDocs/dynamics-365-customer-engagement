@@ -1,5 +1,6 @@
 ---
-title: "Enable Office Delve| MicrosoftDocs"
+title: "Office Graph integration removal"
+description: "Office Graph integration for Dynamics 365 was removed on August 31, 2017. After this date, the Office Graph trending documents component ceased to function."
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 
@@ -19,7 +20,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
-# About Office Delve/Graph
+# About Office Graph removal
 
 [!INCLUDE[applies-to](../includes/cc_applies_to_ce.md)]
 

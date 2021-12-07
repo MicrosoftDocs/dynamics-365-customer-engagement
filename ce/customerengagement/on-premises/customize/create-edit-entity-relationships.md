@@ -1,9 +1,10 @@
 ---
-title: "Create and edit entity relationships | MicrosoftDocs"
+title: "Types of entity relationships in Dynamics 365 Customer Engagement (on-premises)"
+description: "Entity relationships define how records can be related to each other in the database. Learn about the difference between the two main types of relationships."
 ms.custom: 
 ms.date: 11/09/2018
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -18,7 +19,7 @@ search.audienceType:
   - customizer
 
 ---
-# Create and edit relationships between entities 
+# Overview of entity relationships and types
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Entity relationships](/powerapps/maker/common-data-service/create-edit-entity-relationships) 
 

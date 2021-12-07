@@ -4,7 +4,7 @@ description: "Learn more about how to develop plug-ins that can integrate with D
 ms.custom: on-premise
 ms.date: 4/30/2019
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

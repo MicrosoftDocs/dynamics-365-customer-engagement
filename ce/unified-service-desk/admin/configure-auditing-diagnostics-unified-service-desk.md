@@ -1,23 +1,22 @@
 ---
-title: "Configure auditing and diagnostics in Unified Service Desk | MicrosoftDocs"
+title: "Configure audit and diagnostics in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to set auditing and diagnostics."
+ms.date: 02/06/2018
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 02/06/2018
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 tags: MigrationHO
 ---
-# Auditing and diagnostics overview
+# Audit and diagnostics overview
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
@@ -105,15 +104,15 @@ The **Audit & Diagnostics Settings** area provides centralized management for ag
    >  You must provide a Trace Source Setting record that contains a valid Listener Hosted Control that will be used to record the audit activity, or the audit activity will not be saved. For information about how to create a Listener Hosted Control, see [Create custom listeners for auditing, diagnostics and traces](../../unified-service-desk/create-custom-listeners-auditing-diagnostics-traces.md).  
 
   1. Select **Add Existing Trace Setting** in the Trace Source Settings section. The **Lookup Records** pane appears.
-    ![Select Add Existing Trace Source Setting](../../unified-service-desk/unified-interface/media/usd-add-existing-trace-source-settings.PNG "Select Add Existing Trace Source Setting")
+    ![Select Add Existing Trace Source Setting.](../../unified-service-desk/unified-interface/media/usd-add-existing-trace-source-settings.PNG "Select Add Existing Trace Source Setting")
 
   2. Type the name to search for the Trace Source Settings record. If the record is not available, you must select **+ New** to create a new trace source setting page. When you select **+ New**, a confirmation dialog appears. Ensure that you've saved the record before leave the page. Now, when you select **OK**, the **New Trace Source Setting** page appears.
 
-  ![Confirmation dialog to leave the page](../../unified-service-desk/unified-interface/media/usd-leave-page-confirmation-dialog.PNG "Confirmation dialog")
+  ![Confirmation dialog to leave the page.](../../unified-service-desk/unified-interface/media/usd-leave-page-confirmation-dialog.PNG "Confirmation dialog")
 
   3. Type the source name such as *Agent Auditing Trace Source for Azure Data Store*.
 
-   ![Create a new Trace Source Settings record](../../unified-service-desk/unified-interface/media/usd-create-trace-source-settings.PNG "Create a new Trace Source Settings record")  
+   ![Create a new Trace Source Settings record.](../../unified-service-desk/unified-interface/media/usd-create-trace-source-settings.PNG "Create a new Trace Source Settings record")  
 
   4. Select **Save**. After you save the trace source setting record, the **Listener Hosted Controls** section appears.
 
@@ -130,13 +129,13 @@ The **Audit & Diagnostics Settings** area provides centralized management for ag
 
 14. Select **Diagnostics Settings** tab and select **Add Existing Trace Setting** in the Trace Source Settings section. The **Lookup Records** pane appears. Type the name of trace source setting record you created in the search box, and select **Add**.
 
-     ![Add the new Trace Source Settings record](../../unified-service-desk/unified-interface/media/usd-select-existing-trace-source-settings.PNG "Add the new Trace Source Settings record")
+     ![Add the new Trace Source Settings record.](../../unified-service-desk/unified-interface/media/usd-select-existing-trace-source-settings.PNG "Add the new Trace Source Settings record")
 
 15. Select the **User Schema Settings** tab.
 
 16. Select the user entities and select the **>** to add.
 
-     ![Add the new User Schema Settings](../../unified-service-desk/unified-interface/media/usd-add-user-schema-settings.PNG "Add the new User Schema Settings")
+     ![Add the new User Schema Settings.](../../unified-service-desk/unified-interface/media/usd-add-user-schema-settings.PNG "Add the new User Schema Settings")
 
 17. Select **Save** to save the Audit & Diagnostics record.
 
@@ -158,7 +157,7 @@ The **Audit & Diagnostics Settings** area provides centralized management for ag
 
 6. Type an audit flag name in the **Name** field and an appropriate value in the **Value** field.  
 
-   ![Add an audit flag in Unified Service Desk](../../unified-service-desk/unified-interface/media/usd-add-audit-flag.PNG "Add an audit flag in Unified Service Desk")  
+   ![Add an audit flag in Unified Service Desk.](../../unified-service-desk/unified-interface/media/usd-add-audit-flag.PNG "Add an audit flag in Unified Service Desk")  
 
    You can use the audit flags listed in this table.
 

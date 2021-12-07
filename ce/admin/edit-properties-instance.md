@@ -1,5 +1,6 @@
 ---
-title: "Edit properties of an instance | MicrosoftDocs"
+title: "Edit properties of a Dynamics 365 instance"
+description: "Editing properties of an instance (now called an environment) is now done in the Power Platform admin center. See this page for more information."
 ms.custom: 
 ms.date: 02/27/2020
 ms.reviewer: 

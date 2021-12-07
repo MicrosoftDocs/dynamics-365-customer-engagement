@@ -4,7 +4,7 @@ description: "Use this reference to understand the available operations that can
 ms.custom: 
 ms.date: 04/02/2019
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.topic: article
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)

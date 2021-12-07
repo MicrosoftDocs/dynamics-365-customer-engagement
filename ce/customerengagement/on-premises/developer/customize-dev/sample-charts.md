@@ -4,7 +4,7 @@ description: "The topic contains sample charts along with the respective data de
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: samples
@@ -31,7 +31,7 @@ This topic contains sample charts along with the respective data description and
 ## Column Chart  
  The following is a column chart that shows the account by industry. We modified the presentation description of the existing Account By Industry default chart available in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] for the `Account` entity to change it to a column chart.  
   
- ![Sample column chart: Accounts by Industry](../media/charts-accounts-by-industry.gif "Sample column chart: Accounts by Industry")  
+ ![Sample column chart: Accounts by Industry.](../media/charts-accounts-by-industry.gif "Sample column chart: Accounts by Industry")  
   
 ### Data Description  
  The following is the contents of the data description XML string for this chart.  
@@ -90,7 +90,7 @@ This topic contains sample charts along with the respective data description and
 ## Bar Chart  
  The following is a bar chart that shows the top 10 customers. This is one of the default charts available in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] for the `Opportunity` entity.  
   
- ![Sample bar chart: Top 10 Customers](../media/charts-top-10-customers.gif "Sample bar chart: Top 10 Customers")  
+ ![Sample bar chart: Top 10 Customers.](../media/charts-top-10-customers.gif "Sample bar chart: Top 10 Customers")  
   
 ### Data Description  
  The following is the contents of the data description XML string for this chart.  
@@ -150,7 +150,7 @@ This topic contains sample charts along with the respective data description and
 ## Area Chart  
  The following is an area chart that shows the number of records generated between a given date range.  
   
- ![Sample area chart](../media/charts-count-of-records-areachart.gif "Sample area chart")  
+ ![Sample area chart.](../media/charts-count-of-records-areachart.gif "Sample area chart")  
   
 ### Data Description  
  The following is the contents of the data description XML string for this chart.  
@@ -210,7 +210,7 @@ This topic contains sample charts along with the respective data description and
 ## Line Chart  
  The following is a line chart that shows the number of leads generated in the last five months. This is one of the default charts available in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] for the `Lead` entity.  
   
- ![Sample line chart: Lead Generation Rate](../media/lead-generation-rate-chart.png "Sample line chart: Lead Generation Rate")  
+ ![Sample line chart: Lead Generation Rate.](../media/lead-generation-rate-chart.png "Sample line chart: Lead Generation Rate")  
   
 ### Data Description  
  The following is the contents of the data description XML string for this chart.  
@@ -267,7 +267,7 @@ This topic contains sample charts along with the respective data description and
 ## Pie Chart  
  The following is a pie chart that shows the total number of leads and their importance. This is one of the default charts available in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] for the `Lead` entity.  
   
- ![Sample pie chart: Leads by Rating](../media/leads-by-source-chart.png "Sample pie chart: Leads by Rating")  
+ ![Sample pie chart: Leads by Rating.](../media/leads-by-source-chart.png "Sample pie chart: Leads by Rating")  
   
 ### Data Description  
  The following is the contents of the data description XML string for this chart.  
@@ -321,7 +321,7 @@ This topic contains sample charts along with the respective data description and
 ## Funnel Chart  
  The following is a funnel chart that shows the sum of estimated revenue in each stage of the sales pipeline. This is one of the default charts available in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] for the `Opportunity` entity.  
   
- ![Sample funnel chart: Sales Pipeline](../media/charts-sales-pipeline-chart.png "Sample funnel chart: Sales Pipeline")  
+ ![Sample funnel chart: Sales Pipeline.](../media/charts-sales-pipeline-chart.png "Sample funnel chart: Sales Pipeline")  
   
 ### Data Description  
  The following is the contents of the data description XML string for this chart.  
@@ -381,7 +381,7 @@ This topic contains sample charts along with the respective data description and
   
  A multi-series chart has multiple `<Series>` elements in the presentation description; the number of `<Series>` elements is the same as the number of `<measurecollection>` elements in the data description XML string.  
   
- ![Sample multi&#45;series chart](../media/estimated-actual-revenue-chart.gif "Sample multi-series chart")  
+ ![Sample multi&#45;series chart.](../media/estimated-actual-revenue-chart.gif "Sample multi-series chart")  
   
 ### Data Description  
  The following is the contents of the data description XML string for this chart.  
@@ -458,7 +458,7 @@ This topic contains sample charts along with the respective data description and
   
  A comparison chart has two `groupby` clauses in the data description XML.  
   
- ![Sample comparison chart](../media/charts-activities-by-type-and-priority-comparison-chart.gif "Sample comparison chart")  
+ ![Sample comparison chart.](../media/charts-activities-by-type-and-priority-comparison-chart.gif "Sample comparison chart")  
   
 ### Data Description  
  The following is the contents of the data description XML string for this chart.  
@@ -525,7 +525,7 @@ This topic contains sample charts along with the respective data description and
   
  A comparison chart has two `groupby` clauses in the data description XML.  
   
- ![Sample100% stacked chart](../media/charts-numberofcases-anydate-bypriority-100stackedchart.gif "Sample100% stacked chart")  
+ ![Sample100% stacked chart.](../media/charts-numberofcases-anydate-bypriority-100stackedchart.gif "Sample100% stacked chart")  
   
 ### Data Description  
  The following is the contents of the data description XML string for this chart.  

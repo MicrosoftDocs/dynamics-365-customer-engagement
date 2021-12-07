@@ -1,8 +1,9 @@
 ---
 title: "Microsoft Dynamics 365 Report Authoring Extension XML configuration file | Microsoft Docs"
+description: Learn how to configure the report authoring extension Setup XML configuration file in Dynamics 365 Customer Engagement (on-premise)
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: "crm-2016"
+ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -17,8 +18,12 @@ manager: kvivek
 ---
 # Microsoft Dynamics 365 Report Authoring Extension XML configuration file
 
+::: moniker range="op-9-1"
+[!INCLUDE [applies-not-to-9-1](../includes/applies-not-to-9-1.md)]
 
+::: moniker-end
 
+::: moniker range="op-9-0"
 This topic lists explanations for each XML element and a sample XML file for installing Dynamics 365 [!INCLUDE[pn_crm_fetch_extension_short](../includes/pn-crm-fetch-extension-short.md)]:  
   
  `<CRMSetup> </CRMSetup>`  
@@ -71,6 +76,6 @@ This topic lists explanations for each XML element and a sample XML file for ins
  [Install Microsoft Dynamics 365 Reporting Extensions](install-dynamics-365-reporting-extensions-command.md)   </br>
  [Sample Microsoft Dynamics 365 Reporting Extensions XML configuration file](sample-dynamics-365-reporting-extensions-xml-config-file.md)
 
-
+::: moniker-end
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

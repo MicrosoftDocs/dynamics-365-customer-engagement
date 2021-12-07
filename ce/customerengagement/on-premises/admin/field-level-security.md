@@ -1,9 +1,10 @@
 ---
 title: "Field level security | MicrosoftDocs"
+description: "Use field level security to control access to specific fields."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -14,14 +15,15 @@ ms.assetid: 7b3e2bc3-6197-4afe-953a-62f6694899ed
 caps.latest.revision: 20
 author: Mattp123
 ms.author: matp
-manager: kvivek
 search.audienceType: 
   - admin
 
 ---
 # Field level security to control access
 
-*This content also applies to the on-premises version.*
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 Record-level permissions are granted at the entity level, but you may have certain fields associated with an entity that contain data that is more sensitive than the other fields. For these situations, you use field level security to control access to specific fields.  
   
@@ -113,14 +115,14 @@ Configure the security profiles.
   
 3. Click **Save and Close**.  
   
-Any Customer Engagement (on-premises) users not defined in the previously created field security profiles will not have access to the mobile phone field on contact forms or views. The field value displays ![Lock icon for Dynamics 365 for Customer Engagement](../admin/media/admin-field-level-security-lock.png "Lock icon for Dynamics 365 for Customer Engagement") ********, indicating that the field is secured.  
+Any Customer Engagement (on-premises) users not defined in the previously created field security profiles will not have access to the mobile phone field on contact forms or views. The field value displays ![Lock icon for Dynamics 365 for Customer Engagement.](../admin/media/admin-field-level-security-lock.png "Lock icon for Dynamics 365 for Customer Engagement") ********, indicating that the field is secured.  
   
 <a name="BKMK_FLS_fields"></a>   
 ## Which fields can be secured?  
  Every field in the system contains a setting for whether field security is allowed. You can view this in the field definition from Solution Explorer. In Solution Explorer expand **Entities**, expand the entity that you want, select **Fields**, and then open the field that you want. If **Enable** can be selected, the field can be enabled for field security. 
 
 > [!div class="mx-imgBorder"] 
-> ![Field security enabled](media/field-security-enabled.png "Field security enabled")
+> ![Field security enabled.](media/field-security-enabled.png "Field security enabled")
  
 Although most attributes can be secured, there are system attributes, such as IDs, timestamps, and record tracking attributes, that can't. Below are a few examples of attributes that can't be enabled for field security. 
 -	ownerid, processid, stageid, accountid, contactid
@@ -137,7 +139,7 @@ You can view the entity metadata for your organization including which fields ca
  Some data, such as addresses, are actually made up of multiple fields. Therefore, to completely secure data that includes multiple fields, such as addresses, you must secure and configure the appropriate field security profiles on multiple fields for the entity. For example, to completely secure addresses for an entity, secure all relevant address fields, such as address_line1, address_line2, address_line3, address1_city, address1_composite, and so on.  
   
 ### See also  
- [Video: Field Level Security in Microsoft Dynamics CRM 2015](https://www.youtube.com/watch?v=Czc9sKvWd9k&list=UUem1HuioGqKEn8Li3l4DIYQ)   
+ <!-- [Video: Field Level Security in Microsoft Dynamics CRM 2015](https://www.youtube.com/watch?v=Czc9sKvWd9k&list=UUem1HuioGqKEn8Li3l4DIYQ) -->
  [Create a field security profile](set-up-security-permissions-field.md)   
  [Add or remove security from a field](enable-disable-security-field.md)   
  [Hierarchy security](../admin/hierarchy-security.md)

@@ -1,12 +1,11 @@
 ---
 title: "Create communication panel hosted control for agents | MicrosoftDocs"
 description: "Learn how to create the communication panel hosted control for agents using Omnichannel for Customer Service."
+ms.date: 07/01/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/01/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 monikerRange: '>= dynamics-usd-4.1'
 ---
 

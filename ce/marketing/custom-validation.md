@@ -33,35 +33,35 @@ The validation feature works by implementing a *validation pipeline* with a seri
 
 Each custom action must accept the results of the previous validation action from the **ValidationContext**, and set the cumulative results to the **ValidationResults** output variable. In the following screenshot, **ValidationPipeline** is the envelope custom action, which holds the entire pipeline. The child actions are similar, using the same interface, outputs, and registration.
 
-![Validation pipeline actions](media/custom-validation-actions.png "Validation pipeline actions")
+![Validation pipeline actions.](media/custom-validation-actions.png "Validation pipeline actions")
 
 Note that after adding a new validation step to the pipeline, you must update the **SetResult** step of the **ValidationPipeline** action to take results from the previously called custom action. In this case, it's **Validator2**.
 
 Here's an example for how to add a custom validation step to a pipeline:
 
 1. Arrange the stages in the validation pipeline as indicated in the following screenshot.  
-    ![Validation pipeline stages](media/custom-validation-stages.png "Validation pipeline stages")
+    ![Validation pipeline stages.](media/custom-validation-stages.png "Validation pipeline stages")
 
 1. Set up the **Validator1** step as follows:  
-    ![The Validator1 step](media/custom-validation-Validator1.png "The Validator1 step")
+    ![The Validator1 step.](media/custom-validation-Validator1.png "The Validator1 step")
 
 1. Set up the **Validator2** step as follows:  
-    ![The Validator2 step](media/custom-validation-Validator2.png "The Validator2 step")
+    ![The Validator2 step.](media/custom-validation-Validator2.png "The Validator2 step")
 
 1. Set up the **SetResult** step as follows:  
-    ![The SetResult step](media/custom-validation-SetResult.png "The SetResult step")
+    ![The SetResult step.](media/custom-validation-SetResult.png "The SetResult step")
 
 1. Set the custom action for **Validator1** as follows:  
-    ![Custom action for Validator1](media/custom-validation-Validator1-action.png "Custom action for Validator1")
+    ![Custom action for Validator1.](media/custom-validation-Validator1-action.png "Custom action for Validator1")
 
 1. Set the plugin step for **Validator1** as follows:  
-    ![Plugin step for Validator1](media/custom-validation-Validator1-plugin.png "Plugin step for Validator1")
+    ![Plugin step for Validator1.](media/custom-validation-Validator1-plugin.png "Plugin step for Validator1")
 
 1. Set the custom action for **Validator2** as follows:  
-    ![Custom action for Validator2](media/custom-validation-Validator2-action.png "Custom action for Validator2")
+    ![Custom action for Validator2.](media/custom-validation-Validator2-action.png "Custom action for Validator2")
 
 1. Set the plugin step for **Validator2** as follows:  
-    ![Plugin step for Validator2](media/custom-validation-Validator2-plugin.png "Plugin step for Validator2")
+    ![Plugin step for Validator2.](media/custom-validation-Validator2-plugin.png "Plugin step for Validator2")
 
 ## Test the customized validation pipeline
 
@@ -71,11 +71,11 @@ To test your validation pipeline, do the following:
 
     `$.ajax({type:"POST", url:"https://<YourDomain>/StarterPortal/api/data/v8.2/new_ValidationPipeline", data: JSON.stringify({ValidationContext: "val-ctx"}), contentType:"application/json", dataType:"json"})`
 
-    ![Google Chrome console](media/custom-validation-test1.png "Google Chrome console")
+    ![Google Chrome console.](media/custom-validation-test1.png "Google Chrome console")
 
 2. The results will be visible on the **Network** tab.
 
-    ![Google Chrome Network tab](media/custom-validation-test2.png "Google Chrome Network tab")
+    ![Google Chrome Network tab.](media/custom-validation-test2.png "Google Chrome Network tab")
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

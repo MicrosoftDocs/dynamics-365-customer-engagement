@@ -1,20 +1,19 @@
 ---
 title: "Considerations for creating a CTI adapter for Unified Service Desk | MicrosoftDocs"
 description: "The topic provides information on things to consider while creating a computer telephony integration (CTI) adapter to make it work with Unified Service Desk."
+ms.date: 12/31/2019
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 12/31/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Considerations for creating a CTI adapter for Unified Service Desk
 
@@ -30,7 +29,7 @@ This topic provides information on things to consider while creating a computer 
 
 - [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] controls are placed on `CtiPanel`  panel in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. The height of the control should be 23 to fit in `CtiPanel`. Larger controls may be used.  
 
-- Multiple [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] control or user interface components can exist on `CtiPanel`. This is a horizontal stack panel so if you have multiple controls on this panel, they will appear next to each other.  
+- Multiple [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] control or user interface components can exist on `CtiPanel`. This is a horizontal stack panel so if you have multiple controls on this panel, they appear next to each other.  
 
 <a name="Actions"></a>   
 ## Actions supported for telephony functions  
@@ -40,10 +39,10 @@ We recommend that the following actions be defined and implemented in the **CTI 
 
 |Action|Description|  
 |------------|-----------------|  
-|Dial|The number to call. If this parameter is not provided, a dialpad will be displayed for the user to enter digits.<br /><br /> If the call is on an active call, this action would dial digits as if for an IVR.|  
-|Transfer|This would initiate or complete a transfer. If a transfer has been initiated but not completed, this would transfer the call and ignore the parameter. If an active call is present, it would place the call on hold and make a new call by passing the context data.|  
-|Conference|This would initiate or complete a conference. If a conference has been initiated but not completed, this would conference the call and ignore the parameter. If an active call is present, it would place the call on hold and make a new call by passing the context data.|  
-|Hangup|This ends the current call.|  
+|Dial|The number to call. If this parameter is not provided, a dialpad is displayed for the user to enter digits.<br /><br /> If the call is active, this action dials the digits as if for an IVR.|  
+|Transfer| Initiate or complete a transfer. If a transfer has been initiated but not completed, this action transfers the call and ignores the parameter. If an active call is present, this action places the call on hold and makes a new call by passing the context data.|  
+|Conference| Initiate or complete a conference. If a conference has been initiated but not completed, this action opens the call in conference mode and ignores the parameter. If an active call is present, it places the call on hold and makes a new call by passing the context data.|  
+|Hangup| Ends the current call.|  
 
 > [!NOTE]
 >  If these actions are supported by the **CTI Desktop Manager** hosted control, users will be able to trigger this functionality from a wide variety of locations within the application, thus providing a tightly integrated agent experience.  
@@ -58,7 +57,7 @@ We recommend that the following actions be defined and implemented in the **CTI 
   | Parameter |                                                                                               Description                                                                                               |
   |-----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
   | direction | Specify “inbound” for incoming calls and “outbound” for outgoing calls.<br /><br /> Is used by the system to allow the admin to specify different behavior depending on the direction of the call. |
-  | Calltype  |                                                                    Specify “phonecall” for voicecalls and “chat” for chat sessions.                                                                    |
+  | Calltype  |                                                                    Specify “phonecall” for voice calls and “chat” for chat sessions.                                                                    |
 
 
 - [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] adapters should not automatically create activities in Microsoft Dataverse because this is not always the required behavior. Therefore, this should be left for the system administrators to configure.  
@@ -100,7 +99,7 @@ We recommend that the following actions be defined and implemented in the **CTI 
 
     Enter the required FetchXML query for the [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] search. Use the advanced find feature in Dataverse to create your initial search, and then download the FetchXML. The key field is often not available in Dataverse Advanced Find search, so you may find that you need to add that condition manually to the XML after you have exported it. You should also select the attributes that you’re interested to show up in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] context. These show up immediately rather than be populated after pages load in the display like the other types of data parameters. Once you have the FetchXML you want, paste the text into the **FetchXML** box, and save the [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] search rule.  
 
-   ![New CTI search in Unified Service Desk](../unified-service-desk/media/usd-cti-search-rule-2.PNG "New CTI search in Unified Service Desk")  
+   ![New CTI search in Unified Service Desk.](../unified-service-desk/media/usd-cti-search-rule-2.PNG "New CTI search in Unified Service Desk")  
 
 9. The system will search each of your [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] search items for the rule. This can be thought of like a cross-entity search. The conditions relate to the final result set and might, in the case of multiple results handling, indicate that one or more records were found from more than one entity type.  
 
@@ -134,7 +133,7 @@ We recommend that the following actions be defined and implemented in the **CTI 
  [CTIDESKTOPMANAGERCONTROL](/dotnet/api/microsoft.uii.desktop.cti.core.lookuprequestkeys.ctidesktopmanagercontrol)   
  [Create a CTI Desktop Manager](../unified-service-desk/create-cti-desktop-manager.md)   
  [Use window navigation rules in Unified Service Desk](../unified-service-desk/use-window-navigation-rules-unified-service-desk.md)   
- [Walkthrough: Use generic listener adapter for CTI events](../unified-service-desk/walkthrough-use-the-generic-listener-adapter-for-cti-event-routing.md)
+ [Walkthrough: Use generic listener adapter for CTI events](../unified-service-desk/walkthrough-use-the-generic-listener-adapter-for-cti-event-routing.md) 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

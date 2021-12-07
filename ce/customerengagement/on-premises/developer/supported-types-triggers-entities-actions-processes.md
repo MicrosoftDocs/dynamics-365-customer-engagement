@@ -4,7 +4,7 @@ description: "The topic provides information about the supported types and entit
 ms.custom: 
 ms.date: 01/25/2019
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -200,7 +200,7 @@ This topic provides information about the supported types and entities for proce
  You can choose to perform following actions using workflows in [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)]. Use the `sdkmessage.workflowsdkstepenabled` attribute to find the list of supported actions available under a workflow step. You can use the following Web API query to retrieve the list of supported actions:  
 
 ```
-[Organization URI]/api/data/v9.0/sdkmessages?$select=name&$filter=workflowsdkstepenabled%20eq%20true  
+[Organization URI]/api/data/v9.1/sdkmessages?$select=name&$filter=workflowsdkstepenabled%20eq%20true  
 ```  
 
 

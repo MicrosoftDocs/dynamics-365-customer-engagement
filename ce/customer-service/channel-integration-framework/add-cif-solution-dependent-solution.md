@@ -1,22 +1,19 @@
 ---
-title: "Add a Dynamics 365 Channel Integration Framework (CIF) solution version 1.0 as a dependent solution| Microsoft Docs"
-description: "Read how you can add a Dynamics 365 Channel Integration Framework (CIF) solution version 1.0 as a dependent solution and use the solution's capabilities in your own solution."
+title: "Add Dynamics 365 Channel Integration Framework 1.0 solution| MicrosoftDocs"
+description: "Read how you can add a Channel Integration Framework 1.0 solution as a dependent solution and use its capabilities in your own solution."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 12/31/2019
-ms.topic: get-started-article
-ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
 ---
 
-# Add a Dynamics 365 Channel Integration Framework solution as a dependent solution
+# Add a Dynamics 365 Channel Integration Framework 1.0 solution as a dependent solution
 
 [!INCLUDE[token-add-cif-solution-dependent-solution](shared/token-add-cif-solution-dependent-solution.md)]
 
-## See also
+### See also
 
 [Authenticate channel users to the channel (widget)](authenticate-channel-users.md)
 
@@ -26,7 +23,7 @@ ms.custom:
 
 [Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)
 
-[Authenticate channel users to the channel (widget)](authenticate-channel-users.md)
+[Authenticate channel users to log in to the channel (widget)](authenticate-channel-users.md)
 
 [Pass a Dynamics 365 URL to a widget library](pass-url-widget-library.md)
 

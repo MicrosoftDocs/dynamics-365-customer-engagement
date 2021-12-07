@@ -4,7 +4,7 @@ description: "The section provides guidance about how to use the Web API with th
 ms.custom: 
 ms.date: 04/22/2019
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.topic: article
 author: brandonsimons # GitHub ID
 ms.author: pehecke

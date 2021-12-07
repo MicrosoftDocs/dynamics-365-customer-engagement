@@ -1,5 +1,7 @@
 ---
 title: "Customizations exist that are using the Microsoft Dynamics 4.0 (2007) endpoint | Microsoft Docs"
+description: Environment diagnostics warning that an outdated endpoint is in use.
+ms.prod: d365ce-op
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 

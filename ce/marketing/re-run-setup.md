@@ -36,21 +36,21 @@ To re-run the Marketing setup wizard:
 
 1. Go to **Resources** > **Dynamics 365 apps** on the left navigation pane.
 
-   ![Navigate to the Dynamics 365 apps](media/purchase-setup-ppac-apps2.png "Navigate to the Dynamics 365 apps")
+   ![Navigate to the Dynamics 365 apps.](media/purchase-setup-ppac-apps2.png "Navigate to the Dynamics 365 apps")
 
 1. The list shows a row marked **Dynamics 365 Marketing Application** for each entitlement (license) you have for Dynamics 365 Marketing. Installed entitlements show a **Status** of **Configured**.
 
 1. Select the configured entitlement that you want to manage and select the three dots between the **Name** and the **Status** columns for the Marketing application.
 
-    ![Choose an app and then select the Manage or Details link](media/purchase-setup-ppac-manage.png "Choose an app and then select the Manage or Details link")
+    ![Choose an app and then select the Manage or Details link.](media/purchase-setup-ppac-manage.png "Choose an app and then select the Manage or Details link")
 
 1. To launch the Dynamics 365 Marketing setup wizard, choose **Manage** from the pop-up menu. A message will pop up informing you that you are going to the Dynamics 365 Marketing admin page. To go to the page, select **OK**.
 
-    ![Dynamics 365 Marketing admin page prompt](media/purchase-setup-ppac-prompt.png "Dynamics 365 Marketing admin page prompt")
+    ![Dynamics 365 Marketing admin page prompt.](media/purchase-setup-ppac-prompt.png "Dynamics 365 Marketing admin page prompt")
 
 1. The Marketing setup wizard opens.  It shows the name of the Dynamics 365 Marketing instance you selected.
 
-    ![Setup wizard running on an existing Marketing instance](media/fre-re-run3.png "Setup wizard running on an existing Marketing instance")
+    ![Setup wizard running on an existing Marketing instance.](media/fre-re-run3.png "Setup wizard running on an existing Marketing instance")
 
     If an update is available, then you'll see a notice and an **Install** button at the top of the page. More information: [Keep Marketing up to date](apply-updates.md)
 

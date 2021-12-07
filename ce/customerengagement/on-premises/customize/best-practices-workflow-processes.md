@@ -1,10 +1,10 @@
 ---
-title: "Best practices for workflow processes in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Understand the recommended ways to use workflows"
+title: "Workflow process best practices for Dynamics 365 Customer Engagement (on-premises)"
+description: "Gain an understanding of best practices for managing workflow processes, such as using templates, avoiding infinite loops, tracking changes, and more."
 ms.custom: 
 ms.date: 11/08/2018
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -19,7 +19,7 @@ search.audienceType:
   - customizer
 
 ---
-# Best practices for workflow processes
+# Best practices for creating and managing workflow processes
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Best practices for workflow processes](/powerapps/maker/common-data-service/best-practices-workflow-processes)
 

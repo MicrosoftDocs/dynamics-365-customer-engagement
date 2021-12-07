@@ -1,11 +1,9 @@
 ---
 title: "Set priorities (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn how to set up priorities in Dynamics 365 Field Service
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 09/30/2017
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.topic: article
 author: FieldServiceDave
 ms.author: daclar
@@ -14,6 +12,7 @@ search.app:
   - D365CE
   - D365FS
 ---
+
 # Prioritize your work orders in Dynamics 365 Field Service
 
 Priority records let you prioritize your work orders. You can also assign each priority value a custom color, which will display in the outline of the resource booking time slot on the schedule board. This allows dispatchers to visually distinguish a job's priority while managing the schedule.  

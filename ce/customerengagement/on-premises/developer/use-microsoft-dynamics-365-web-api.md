@@ -4,7 +4,7 @@ description: "The Dynamics 365 Customer Engagement Web API implements OData v4 a
 ms.custom: 
 ms.date: 04/24/2019
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

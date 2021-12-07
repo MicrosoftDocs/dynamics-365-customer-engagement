@@ -1,9 +1,10 @@
 ---
-title: "Manage product catalog configuration   | MicrosoftDocs"
+title: "Configure product catalog in Dynamics 365 Customer Engagement (on-premises)"
+description: "Configure the product catalog to help your company sell with greater efficiency. As an administrator, you can also migrate the configuration data."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -14,12 +15,14 @@ author: jimholtz
 ms.assetid: 9e85b68f-4c35-4e41-aebc-75da775a5db4
 caps.latest.revision: 30
 ms.author: jimholtz
-manager: kvivek
 search.audienceType: 
   - admin
-
 ---
-# Manage product catalog configuration
+# Configure the product catalog and migrate configuration data
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 Dynamics 365 Customer Engagement (on-premises) offers a rich, easy to configure product catalog that will help your company sell products and services with greater efficiency. A sales operations manager will be able to create the product catalog with fewer SKUs, bundle product and service, as an attractive and cost effective offering, and define up-sell and cross-sell of products. In addition, the product catalog configuration data can be migrated across Customer Engagement (on-premises) systems. For example, after the product catalog configuration is fully tested on the test server, you can move the configuration data to the production environment, without having to recreate it. To migrate, you’ll be using the Configuration Migration Tool: [Manage configuration data](manage-configuration-data.md).  As an administrator, you will be responsible for configuring and migrating the product catalog configuration data.  
   
@@ -85,7 +88,7 @@ Dynamics 365 Customer Engagement (on-premises) offers a rich, easy to configure 
   
 ### See also  
  [Manage configuration data](manage-configuration-data.md)   
- [Video: Salesperson Experience with Product Taxonomy in Microsoft Dynamics CRM 2015](https://www.youtube.com/watch?v=MptViq7tf_s&index=2&list=PLC3591A8FE4ADBE07)   
+ <!-- [Video: Salesperson Experience with Product Taxonomy in Microsoft Dynamics CRM 2015](https://www.youtube.com/watch?v=MptViq7tf_s&index=2&list=PLC3591A8FE4ADBE07) -->
  [Product catalog entities](manage-product-catalog-configuration.md)
 
 

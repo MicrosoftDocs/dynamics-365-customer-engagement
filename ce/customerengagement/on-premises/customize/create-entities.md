@@ -1,10 +1,10 @@
 ---
-title: "Create an entity with Dynamics 365 for Customer Engagement | MicrosoftDocs"
-description: "Learn how to create an entity"
+title: "Create an entity in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how to create a new entity in Dynamics 365. As an app maker or customizer, follow these steps to create an entity using solution explorer."
 ms.custom: 
 ms.date: 02/13/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -19,7 +19,7 @@ search.audienceType:
   - customizer
 
 ---
-# Create an entity
+# Create a custom entity
 
 <a name="BKMK_CreatingEntities"></a>   
 

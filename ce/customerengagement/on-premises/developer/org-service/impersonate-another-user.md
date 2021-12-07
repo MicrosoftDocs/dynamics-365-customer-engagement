@@ -4,7 +4,7 @@ description: "Learn how to impersonate another user using Web API. You can do th
 ms.custom: 
 ms.date: 04/29/2019
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

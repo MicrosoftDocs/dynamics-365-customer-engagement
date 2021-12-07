@@ -1,20 +1,19 @@
 ---
 title: "UII Application Integration Framework | MicrosoftDocs"
 description: "Learn information about UII Application Integration Framework that enables the integration and automation of applications."
+ms.date: 11/29/2016
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 11/29/2016
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # UII Application Integration Framework
 The [!INCLUDE[pn_application_integration_framework_aif](../includes/pn-application-integration-framework-aif-md.md)] in [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-inteface-integration-uii-md.md)] enables the integration and automation of applications. Through [!INCLUDE[pn_aif_acronym](../includes/pn-aif-acronym-md.md)], applications can be launched and automated for a variety of purposes, for example, to reduce copy and paste. It also provides session management capabilities, which allows applications to be isolated from each other based on a session key. This separation helps to enforce data security and easier application management for the user.  
@@ -25,7 +24,7 @@ The [!INCLUDE[pn_application_integration_framework_aif](../includes/pn-applicati
 ## AIF components  
  The following illustration shows the [!INCLUDE[pn_aif_acronym](../includes/pn-aif-acronym-md.md)] components.  
   
- ![UII Application Integration Framework components](media/usd-aif-components.png "UII Application Integration Framework components")  
+ ![UII Application Integration Framework components.](media/usd-aif-components.png "UII Application Integration Framework components")  
   
  As shown in the preceding illustration, the [!INCLUDE[pn_aif_acronym](../includes/pn-aif-acronym-md.md)] has the following major components:  
   
@@ -41,7 +40,7 @@ The [!INCLUDE[pn_application_integration_framework_aif](../includes/pn-applicati
 ## AIF object model  
  [!INCLUDE[pn_aif_acronym](../includes/pn-aif-acronym-md.md)] exposes an object model to enable a shell application, such as [!INCLUDE[pn_unified_service_desk_for_crm](../includes/pn-unified-service-desk-for-crm-md.md)], to instantiate line-of-business applications. The object model also lets you use a session context object to implement interactions between applications and actions to pass messages between them.  
   
- ![Application Integration Framework object model](media/usd-aif-object-model.png "Application Integration Framework object model")  
+ ![Application Integration Framework object model.](media/usd-aif-object-model.png "Application Integration Framework object model")  
   
 - `ApplicationHost`: The `ApplicationHost` acts as a broker between the [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym-md.md)] desktop application (such as [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk-md.md)]) and a hosted application. It can also play the role of a broker between multiple hosted applications, enabling them to send and receive actions or events. The `ApplicationHost` object enables hosted applications to raise events, which are referred to as actions in [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym-md.md)]. The hosted applications pass actions to the `ApplicationHost` object, which in turn passes them to the target (hosted application) of the action. The `ApplicationHost` also provides hosted applications with access to the context object.  
   

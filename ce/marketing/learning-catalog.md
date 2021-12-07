@@ -21,11 +21,11 @@ search.app:
 # Learning catalog (Marketing)
 <p> Find the right online training, in person workshops, and events for your role in Customer Service for Dynamics 365.</p>
 
-<!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  
+<!-- ![Universal Windows Platform (UWP).](images/platform-uwp.png)  -->  
 
 :::row:::
     :::column:::
-<!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  
+<!-- ![Universal Windows Platform (UWP).](images/platform-uwp.png)  -->  
 
     ### Materials for functional consultants
     

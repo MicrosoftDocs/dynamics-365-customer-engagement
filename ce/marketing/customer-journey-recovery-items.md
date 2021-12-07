@@ -23,12 +23,12 @@ search.app:
 The Recovery items tab allows system administrators to track customization errors, improving the customer journey workflow creation process. If there are items in the Recovery items tab, non-system admin users will receive a notification that says, "There are work items to recover. Check the recovery items tab."
 
 > [!div class="mx-imgBorder"]
-> ![Customer journey recovery items notification](media/customer-journey-recovery-items-error.png)
+> ![Customer journey recovery items notification.](media/customer-journey-recovery-items-error.png)
 
 The Recovery items tab contains a grid with customization errors and gives administrators options to handle them. For customer journeys, typical errors occur when a CRM workflow is used in a customer journey but is not marked as **On Demand** in the workflow properties.
 
 > [!div class="mx-imgBorder"]
-> ![List of customer journey recovery items](media/customer-journey-recovery-items-grid.png)
+> ![List of customer journey recovery items.](media/customer-journey-recovery-items-grid.png)
 
 After selecting rows in the Recovery items tab, you can delete the items (which will delete them from blob storage), or you can fix the issue and "recover" any item, which will replay the previously failed functionality.
 

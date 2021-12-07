@@ -4,7 +4,7 @@ description: "ExecuteMultipleRequest message supports higher throughput bulk mes
 ms.custom: on-premise
 ms.date: 03/27/2020
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

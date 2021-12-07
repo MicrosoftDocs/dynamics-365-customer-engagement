@@ -31,21 +31,21 @@ This topic explains the basics of the workflow definition schema. After persisti
 Workflow design is the actual customer journey design, consisting of workflow tiles. A simple customer journey example contains one Segment group and one Marketing email message tile.
 
   > [!div class="mx-imgBorder"] 
-  > ![Workflow design](../media/workflow-design.png "Workflow design")
+  > ![Workflow design.](../media/workflow-design.png "Workflow design")
 
 ### Workflow tile
 
 A workflow tile is a node in the workflow design with associated properties—for example, an email tile.
 
    > [!div class="mx-imgBorder"] 
-   > ![Workflow tile](../media/workflow-tile.png "Workflow tile")
+   > ![Workflow tile.](../media/workflow-tile.png "Workflow tile")
 
 ### Nested workflow tile
 
 A nested workflow tile is a tile with associated properties, which is nested inside a workflow tile—for example, a Marketing page nested inside a Marketing email message tile.
 
    > [!div class="mx-imgBorder"] 
-   > ![Workflow tile](../media/workflow-tile.png "Workflow tile")
+   > ![Workflow tile.](../media/workflow-tile.png "Workflow tile")
 
 ### Workflow definition
 
@@ -60,10 +60,10 @@ A workflow activity object has several important properties, shown in the follow
 |Property|Type|Description|
 |------|-------|--------|
 |ActivityId|String|The identifier of workflow activity. Must be unique in the scope of the workflow definition of the current customer journey.|
-|ParentActivityId|String|The identifier of parent workflow activity (the value of the **ActivityId** of the parent activity). The following example demonstrates how to declare parent-child relationship between workflow activities using **ActivityId** and **ParentActivityId**<br /> ![Screenshot of ParentActivityID](../media/parentactivityid.png "Screenshot of ParentActivityID")|
+|ParentActivityId|String|The identifier of parent workflow activity (the value of the **ActivityId** of the parent activity). The following example demonstrates how to declare parent-child relationship between workflow activities using **ActivityId** and **ParentActivityId**<br /> ![Screenshot of ParentActivityID.](../media/parentactivityid.png "Screenshot of ParentActivityID")|
 |ActivityTypeId|String|The type of workflow activity. It has the following values<br />**bpf_root**: The hidden root of the workflow definition<br />**Email**: Marketing email message<br />**LandingPage**: Marketing page<br /> **Event**: Event<br /> **CreateCrmActivity**: Activity<br /> **InvokeWorkflow**: Launch workflow<br /> **CreateLead**: Create lead<br />**Scheduler**: Scheduler<br /> **Trigger**: Trigger<br /> **Splitter**: Splitter<br /> **SplitterBranch**: Splitter branch<br />**Segment**: Segment group<br />**Survey**: Survey<br /> **RecordUpdate**: Record updated<br />**LinkedInCampaign**: LinkedIn campaign<br /> **MarketingForm**: Marketing form<br />|
-|ParentBranchId|Number|0-based sequential position of a child tile among its siblings (for example, when parallel flows or multiple Splitter branches are used).<br /> ![Screenshot of ParentBranchId](../media/parentbranchid.png "Screenshot of ParentBranchId")|
-|ParentRelationshipType|String|Defines the relationship type of a workflow activity with its parent. It has the following values<br />**yesBranch**: If the parent workflow activity is a trigger tile, this value denotes the positive branch of the trigger.<br />**noBranch**: If the parent workflow activity is a trigger tile, this value denotes the negative branch of the trigger.<br /> **default**: Default value, used when the parent is any workflow activity other than the trigger activity. This value is not valid for the trigger.<br />The following example demonstrates how the **ParentRelationshipType** property is used to denote the positive and negative flows for a trigger.<br />![Parent Relationship Type](../media/parentrelationshiptype.png "Parent Relationship Type")|
+|ParentBranchId|Number|0-based sequential position of a child tile among its siblings (for example, when parallel flows or multiple Splitter branches are used).<br /> ![Screenshot of ParentBranchId.](../media/parentbranchid.png "Screenshot of ParentBranchId")|
+|ParentRelationshipType|String|Defines the relationship type of a workflow activity with its parent. It has the following values<br />**yesBranch**: If the parent workflow activity is a trigger tile, this value denotes the positive branch of the trigger.<br />**noBranch**: If the parent workflow activity is a trigger tile, this value denotes the negative branch of the trigger.<br /> **default**: Default value, used when the parent is any workflow activity other than the trigger activity. This value is not valid for the trigger.<br />The following example demonstrates how the **ParentRelationshipType** property is used to denote the positive and negative flows for a trigger.<br />![Parent Relationship Type.](../media/parentrelationshiptype.png "Parent Relationship Type")|
 |EntityTarget||Defines the target of the activity. It has the following values<br /> **contact**: For contact-based customer journey<br />**account**: For account-based customer journey|
 |Properties|Object|Defines the properties of the current workflow tile and nested tiles. Contains a single property, **Items**, which holds an array of workflow activity item objects.|
  
@@ -72,7 +72,7 @@ A workflow activity object has several important properties, shown in the follow
 A workflow activity item defines the properties of a single item within the workflow activity (title, description, related marketing email record, or trigger condition). The properties of the workflow item object differ from the workflow item type, but there are some common properties.
 
    > [!div class="mx-imgBorder"] 
-   > ![Customer Journey Design](../media/customer-journey-design.png "Customer Journey Design")
+   > ![Customer Journey Design.](../media/customer-journey-design.png "Customer Journey Design")
 
 
 |Property|Type|Description|

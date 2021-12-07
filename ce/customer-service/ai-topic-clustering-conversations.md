@@ -1,12 +1,11 @@
 ---
 title: "Configure AI topic clustering for conversations | MicrosoftDocs"
 description: "Configure topic cLustering for conversations using AI"
+ms.date: 04/09/2021
+ms.topic: article
 author: meghanalanka
 ms.author: v-mlanka
 manager: shujoshi
-ms.date: 04/09/2021
-ms.topic: article
-ms.service: "dynamics-365-customerservice"
 ---
 
 # Configure AI topic clustering for conversations
@@ -42,15 +41,16 @@ AI discovered topics in Omnichannel historical analytics are often prime candida
 
 The topics capability in the Omnichannel historical analytics reports comes with a natural language understanding model that can understand the text semantics and intent in the following languages:
 
--English
+- English
 - French
-- German 
+- German
 - Italian
 - Japanese
-- Portugese
+- Portuguese
 - Simplified Chinese
 - Spanish
 
 ### See also
 
-[Omnichannel conversation dashboard](oc-conversation-dashboard.md)  
+[Omnichannel Conversation Dashboard](oc-conversation-dashboard.md)  
+[Topics Dashboard](oc-conversation-topics-dashboard.md)  

@@ -4,7 +4,7 @@ description: "Supports auditing of entity and attribute data changes on a per or
 ms.custom: audit
 ms.date: 10/01/2019
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

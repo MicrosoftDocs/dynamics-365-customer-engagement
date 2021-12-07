@@ -1,24 +1,23 @@
 ---
-title: "notifyKpiBreach (JavaScript API Reference) for Dynamics 365 Channel Integration Framework (CIF) version 2.0 | MicrosoftDocs"
-description: ""
+title: "notifyKpiBreach (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
+description: "Learn about notifyKpiBreach (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0."
+ms.date: 04/01/2020
+ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 04/01/2020
-ms.topic: reference
-ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
 ---
 
-# notifyKpiBreach
+# notifyKpiBreach (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
 
 This method is used to indicate a KPI breach. When this API is invoked, an exclamation sign appears on the icon of the session whose unique identifier is passed, indicating that a KPI breach has occurred.
 
 To reset the KPI breach indication, invoke this API with the value of `shouldReset` parameter set as `false`.
 
-![Notify KPI Breach](../../../media/notifyKPIBreach.PNG "Notify KPI Breach")
+![Notify KPI Breach.](../../../media/notifyKPIBreach.PNG "Notify KPI Breach")
 <br>
 
 ## Syntax

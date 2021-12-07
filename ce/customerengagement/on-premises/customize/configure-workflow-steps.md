@@ -1,10 +1,10 @@
 ---
-title: "Configure workflow steps in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to configure workflow steps"
+title: "Configure a workflow in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn about configuring a workflow with actions, stages, and steps. Consider how they should run, what actions they should perform, and under what conditions."
 ms.custom: 
 ms.date: 11/09/2018
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,7 +17,7 @@ search.audienceType:
   - customizer
 
 ---
-# Configure workflow steps
+# Configure a workflow with actions, stages, and steps
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Configure real-time workflow stages and steps](/powerapps/maker/common-data-service/configure-workflow-steps)
 
@@ -95,7 +95,7 @@ When configuring workflows you have four major areas to consider:
   
  The following screenshot contains an example of the workflow process definition with the **Under** and **Not Under** hierarchical operators. In our example, we apply two different discounts to two groups of accounts. In **Add Step**, we selected the **Check Condition** to specify the **if-then** condition containing the **Under** or **Not Under** operators. The first **if-then** condition applies to all accounts that are **Under** the Alpine Ski House account. These accounts receive a 10% discount on purchased good and services. The second **if-then** condition applies to all accounts that are **Not Under** the Alpine Ski House account and they receive a 5% discount. Then, we selected **Update Record** to define the action to be performed based on the condition.  
   
- ![Workflow process with Under&#47;Not Under operators](../customize/media/wfp-under-not-under.PNG "Workflow process with Under/Not Under operators")  
+ ![Workflow process with Under&#47;Not Under operators.](../customize/media/wfp-under-not-under.PNG "Workflow process with Under/Not Under operators")  
   
 <a name="BKMK_SynchronousWorkflows"></a>   
 

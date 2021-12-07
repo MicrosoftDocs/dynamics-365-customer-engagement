@@ -3,7 +3,7 @@ title: "Sample: Import data using complex data map (Developer Guide for Dynamics
 description: "Sample demonstrates how to create new records with data import by using a complex data map."
 keywords: 
 ms.date: 10/31/2017
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.topic: samples
 applies_to: 

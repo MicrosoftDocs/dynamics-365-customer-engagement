@@ -4,7 +4,7 @@ description: "The sample shows how to create a user in an Active Directory envir
 ms.custom: 
 ms.date: 1/24/2020
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: samples

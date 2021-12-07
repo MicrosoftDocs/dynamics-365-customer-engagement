@@ -84,7 +84,7 @@ Read this section to get a basic overview of how to create a segment and start i
 
 3. If you selected a **dynamic segment**: The **Segment template** dialog box opens, showing a list of available [templates](segments-templates.md). Each template provides a fully or partially defined query designed for a particular purpose, as indicated by the template name. Select any template to read more information about it in the information panel. **Filter** and **Search** features are provided to help you find the template you're looking for. Select a listed template and then choose **Select** to load the template, or choose **Cancel** to start building a new segment from scratch.
 
-    ![Choose a segment template](media/segment-choose-template.png "Choose a segment template")
+    ![Choose a segment template.](media/segment-choose-template.png "Choose a segment template")
 
   - If you selected a template, your template will load and you skip this step. If you selected **Cancel** on the **Segment template** dialog, a blank designer opens, allowing you to start your segmentation from scratch. You can begin by selecting a query block (referred to as a profile block above, an interaction block, or a segment. You can add other blocks to this block, and pick the relationship between the blocks. You can choose contacts that appear in either of the blocks by selecting "or," contacts that appear in both blocks by selecting "and also," or contacts that appear in the first block but not in the second by selecting "but not."
   - Next, the segment designer opens, showing settings and tools that are appropriate for your selection or template. Start by naming your segment at the top of the segmentation canvas.
@@ -106,7 +106,7 @@ Read this section to get a basic overview of how to create a segment and start i
 > [!NOTE]
 > After you go live with a dynamic segment, you can check when it was last evaluated and the next evaluation time at top of the segment **Members** tab.
 >
-> ![Segment evaluation status](media/segment-lists-subscriptions-evaluated.png "Segment evaluation status")
+> ![Segment evaluation status.](media/segment-lists-subscriptions-evaluated.png "Segment evaluation status")
 
 ## Tabs and settings for segments
 

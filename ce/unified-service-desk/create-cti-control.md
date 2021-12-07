@@ -1,20 +1,19 @@
 ---
 title: "Create a CTI Control | MicrosoftDocs"
-description: "The topic explains on how to create a CTI control."
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
+description: "Learn about the interfaces required to create a CTI control and how you can configure the hosted control in Unified Service Desk."
 ms.date: 12/31/2019
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
+author: "mh-jaya"
+ms.author: "v-jmh"
+manager: "shujoshi"
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Create a CTI Control
 To manage agent states and call states, [!INCLUDE[pn_computer_telephony_integration_cti](../includes/pn-computer-telephony-integration-cti.md)] scenarios require the following user interface (UI) controls:  
@@ -83,12 +82,12 @@ string UserDefinedCommand(string command, string request);
    |     Display Group     |                                                                                                                                                                                               CtiPanel                                                                                                                                                                                                |
    |        Adapter        |                                                                                                                                                                                            Use No Adapter                                                                                                                                                                                             |
    
-5. Select the **Hosting** tab, and specify the following:
+5. Select the **Hosting** tab, and specify the following values:
 
    |         Field         |                                                                                                                                                                                                 Value                                                                                                                                                                                                 |
    |-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-   |     Assembly URI      |                                                                                                                                                          This is the name of your assembly (.dll) file that you built in the previous step.                                                                                                                                                           |
-   |     Assembly Type     | This is the name of your assembly followed by a dot, and then the class name of your [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] Control. For example, if your assembly (dll) name is `MyCtiControl`, and the name of the class of your [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] project is `CtiControl`, type the following in this field: `MyCtiControl.CtiControl`. |
+   |     Assembly URI      |                                                                                                                                                          Name of your assembly (.dll) file that you built in the previous step.                                                                                                                                                           |
+   |     Assembly Type     | Name of your assembly followed by a dot, and then the class name of your [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] Control. For example, if your assembly (dll) name is `MyCtiControl`, and the name of the class of your [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] project is `CtiControl`, type the following value in this field: `MyCtiControl.CtiControl`. |
 
 
 6. Select **Save** to create the hosted control.  
@@ -97,7 +96,7 @@ string UserDefinedCommand(string command, string request);
  [Considerations for creating a CTI adapter for Unified Service Desk](../unified-service-desk/consideration-creating-cti-adapter-unified-service-desk.md)   
  [Create a CTI Connector](../unified-service-desk/create-cti-connector.md)   
  [Create a CTI Desktop Manager](../unified-service-desk/create-cti-desktop-manager.md)   
- [UII Computer Telephony Integration (CTI) framework](../unified-service-desk/uii-computer-telephony-integration-cti-framework.md)
+ [UII Computer Telephony Integration (CTI) framework](../unified-service-desk/uii-computer-telephony-integration-cti-framework.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

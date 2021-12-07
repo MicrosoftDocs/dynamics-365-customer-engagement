@@ -2,9 +2,9 @@
 title: "Configure activity feeds (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The following sections contain information about how to configure your system for activity feeds."
 ms.custom: 
-ms.date: 10/31/2017
+ms.date: 11/01/2021
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -53,7 +53,7 @@ The following sections contain information about how to configure your system fo
  For a list of entities that you can enable for activity feeds, see [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application. [!INCLUDE[cc_CRM_Settings](../includes/cc-crm-settings.md)] click **Post Configurations**. The **Post Configurations** area contains a list of entities that are configurable for activity feeds. You don’t need system administrator privileges to access the grid for viewing, but you do need administrator permissions to make modifications to items in the list, such as activating or deactivating post configurations for an entity or refreshing the list. Once you make changes, users will have to open a new tab or window to see these changes reflected.
   
 > [!NOTE]
->  After you create a custom entity, you must press the **Refresh** button in the command bar of the **Post Configurations** area to include the new entity so that it can be configured.  
+> After you create a custom entity, you must press the **Refresh** button in the command bar of the **Post Configurations** area to include the new entity so that it can be configured. If configuration entries for one or more entities are missing from the configuration page, press the **Refresh** button in the command bar of the **Post Configurations** area to recreate the missing configuration(s).
   
 <a name="AutoPostRules"></a>   
 ## Auto post rules  

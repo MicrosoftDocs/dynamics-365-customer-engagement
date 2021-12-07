@@ -1,12 +1,11 @@
 ---
 title: Unified Service Desk data compliance under GDPR | MicrosoftDocs
-description: Learn about data in Unified Service Desk that comes under General Data Protection Regulation (GDPR)
+description: "Understand how the audit log files, diagnostic log files, and telemetry data in Unified Service Desk comply with the GDPR."
+ms.date: 04/24/2018
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 04/24/2018
-ms.topic: article
-ms.service: dynamics-365-customerservice
 search.audienceType: 
   - admin
 search.app: 
@@ -45,15 +44,15 @@ To delete audit logging that you configure using standard auditing by adding an 
 
 1. Sign in to the Dynamics 365 instance.
 2. From a productivity area, select **Advanced Find**.</br>
-   ![Click Advanced Find](../../unified-service-desk/media/advance-find-usd-gdpr-crm-server.PNG "Click Advanced Find")
+   ![Click Advanced Find.](../../unified-service-desk/media/advance-find-usd-gdpr-crm-server.PNG "Click Advanced Find")
 3. In the **Look for** list, select **UII Audit**.</br>
-   ![Click UII Audit option](../../unified-service-desk/media/look-usd-gdpr-crm-server.PNG "Click UII Audit option")
+   ![Click UII Audit option.](../../unified-service-desk/media/look-usd-gdpr-crm-server.PNG "Click UII Audit option")
 4. To see all audit logging details, select **Results**.</br>
-   ![Click on Results option](../../unified-service-desk/media/results-usd-gdpr-crm-server.PNG "Click on Results option")
+   ![Click on Results option.](../../unified-service-desk/media/results-usd-gdpr-crm-server.PNG "Click on Results option")
 5. Select the records that you want to delete.</br>
-   ![Select records to delete](../../unified-service-desk/media/select-records-usd-gdpr-crm-server.PNG "Select records to delete")
+   ![Select records to delete.](../../unified-service-desk/media/select-records-usd-gdpr-crm-server.PNG "Select records to delete")
 6. To delete the records, select **Delete UII Audit**.</br>
-   ![Click Delete UII Audit option](../../unified-service-desk/media/delete-records-uii-audit-usd-gdpr-crm-server.PNG "Click Delete UII Audit option")
+   ![Click Delete UII Audit option.](../../unified-service-desk/media/delete-records-uii-audit-usd-gdpr-crm-server.PNG "Click Delete UII Audit option")
 
 ## Diagnostic log files
 

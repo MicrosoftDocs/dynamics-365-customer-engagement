@@ -4,7 +4,7 @@ description: "The sample demonstrates how to upload, retrieve, and download an a
 ms.custom: 
 ms.date: 11/24/2017
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: samples

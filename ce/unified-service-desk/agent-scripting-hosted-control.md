@@ -1,20 +1,19 @@
 ---
 title: "Agent Scripting (Hosted Control) | MicrosoftDocs"
-description: "Learn about using Agent Scripting type of hosted control to define a call script that provides instructions to the call center agent to guide them during a customer interaction for a given session."
+description: "Learn how to create the Agent Scripting hosted control in Unified Service Desk. Also, learn about all the predefined UII actions supported by it."
+ms.date: 12/31/2019
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 12/31/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Agent Scripting (Hosted Control)
 

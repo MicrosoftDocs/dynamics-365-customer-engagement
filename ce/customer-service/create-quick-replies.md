@@ -1,19 +1,17 @@
 ---
 title: "Create quick replies | MicrosoftDocs"
-description: "Instructions to set up quick replies in Omnichannel for Customer Service."
+description: "This topic provides the steps you can perform to set up quick replies in Omnichannel for Customer Service."
+ms.date: 11/17/2021
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 04/09/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Create quick replies
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Quick replies are predefined messages that can be created for agents to quickly respond to common questions from customers. For information about the agent's quick reply experience, see [Send predefined messages in chats](oc-conversation-control.md#send-predefined-messages-in-chats).  
+Quick replies are predefined messages that can be created for agents to quickly respond to common questions from customers. For information about the agent's quick reply experience, see [Send quick replies](oc-conversation-control.md#send-quick-replies).  
 
 1. In the site map of Omnichannel admin center, select **Agent experience** under **Advanced settings**, and then select **Manage** for **Quick replies**. If you're using the Omnichannel Administration app, go to **Quick replies** under **Agent Experience**.
 2. To create a quick reply, select **New**, or to edit an existing quick reply, select the name of the quick reply.
@@ -28,7 +26,7 @@ Quick replies are predefined messages that can be created for agents to quickly 
     - **Message:** Enter the text of the message.
 
       > [!div class=mx-imgBorder]
-      > ![Create a quick reply](media/oc-create-a-quick-reply.png "Create a quick reply")
+      > ![Create a quick reply.](media/oc-create-a-quick-reply.png "Create a quick reply")
 
      The **Message** field supports the following slugs.  
 
@@ -40,8 +38,7 @@ Quick replies are predefined messages that can be created for agents to quickly 
     | {FirstName{Agent}}| The first name of the agent.|
     | {LastName{Agent}}| The last name of the agent.|
     | {Nickname{Agent}}| The nickname for the agent.|
-
-      For more information, see [Slugs](../app-profile-manager/automation-dictionary-keys.md#slugs).
+    |||
 
 5. Select **Save**.
 
@@ -54,14 +51,14 @@ Quick replies can be classified and tagged into categories. The categorization c
 2. Select two or more quick replies for which you want to create a tag, and then select **Edit Tags**.
 
 > [!div class=mx-imgBorder]
-> ![Active quick replies](media/oc-active-quick-replies.png "Active quick replies")
+> ![Active quick replies.](media/oc-active-quick-replies.png "Active quick replies")
 
   The **Edit Tags** dialog box appears.
 
 3. In the **Add new tag** field, start typing the tag you want to create. If it already exists, it will appear in a list below the field. If it doesn’t appear, select the plus **+** sign to add it.
 
 > [!div class=mx-imgBorder]
-> ![Add a tag](media/oc-quick-reply-add-tag.png "Add a tag")
+> ![Add a tag.](media/oc-quick-reply-add-tag.png "Add a tag")
 
 4. After you're done, select **Close**.
 
@@ -100,7 +97,7 @@ For example, when you set up a live chat widget or Facebook page, the quick repl
 [Create and manage operating hours](create-operating-hours.md)  
 [Create chat authentication settings](create-chat-auth-settings.md)  
 [Embed chat widget in Power Apps portals](embed-chat-widget-portal.md)  
-[Language settings for agents](https://docs.microsoft.com/powerapps/user/set-personal-options)
+[Language settings for agents](/powerapps/user/set-personal-options)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

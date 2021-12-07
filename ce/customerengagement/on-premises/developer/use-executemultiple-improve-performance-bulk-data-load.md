@@ -4,7 +4,7 @@ description: "The ExecuteMultiple message supports higher throughput bulk messag
 ms.custom: on-premise
 ms.date: 09/05/2019
 ms.reviewer: pehecke
-ms.prod: dynamicscrm-2016 
+ms.prod: d365ce-op
 ms.topic: article
 ms.assetid: 8029be0f-0dd6-44d2-b458-94fb40095ec3
 author: JimDaly

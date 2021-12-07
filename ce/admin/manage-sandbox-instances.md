@@ -1,5 +1,6 @@
 ---
-title: "Manage Sandbox instances | MicrosoftDocs"
+title: "Manage Dynamics 365 Sandbox instances"
+description: "Sandbox management is now done in the Power Platform admin center. See this page for more information."
 ms.custom: 
 ms.date: 01/17/2020
 ms.reviewer: 

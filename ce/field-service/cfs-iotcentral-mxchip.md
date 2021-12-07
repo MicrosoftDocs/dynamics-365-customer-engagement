@@ -1,11 +1,10 @@
 ---
 title: "Set up and test IoT alerts from a real device (MXChip) | MicrosoftDocs"
 description: Learn how to set up and test IoT alerts from a real device for Connected Field Service
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 5/15/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: connected-field-service
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
@@ -165,7 +164,7 @@ Select **Telemetry**.
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the new rule on the MXChip device template, showing ](./media/cfs-mxchip-13.png)
+> ![Screenshot of the new rule on the MXChip device template, showing .](./media/cfs-mxchip-13.png)
 
 Enter the following information: 
 
@@ -258,7 +257,7 @@ Under the plus sign icon dropdown menu, elect **Real** and then **New Device**.
 Create a unique **Device ID** and a **Device Name**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Create New Device window with the Device ID and Device Name fields filled out. ](./media/cfs-mxchip-23.png)
+> ![Screenshot of the Create New Device window with the Device ID and Device Name fields filled out.](./media/cfs-mxchip-23.png)
 
 Select **Create**, and then select **Connect**.
 

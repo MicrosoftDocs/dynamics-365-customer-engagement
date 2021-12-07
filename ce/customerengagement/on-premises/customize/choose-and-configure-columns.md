@@ -1,9 +1,9 @@
 ---
-title: "Choose and configure columns in views in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to select and configure views for your app"
+title: "Configure columns in a view in Dynamics 365 Customer Engagement (on-premises)"
+description: "The way you configure columns in a view is very important to its value. Follow these steps to add, remove, or move columns, change their width, and more."
 keywords: 
 ms.date: 11/08/2018
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.topic: article
 applies_to: 
@@ -22,7 +22,7 @@ search.audienceType:
 
 ---
 
-# Choose and configure columns in views
+# Choose and configure columns in a view
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Choose and configure columns in model-driven app views](/powerapps/maker/model-driven-apps/choose-and-configure-columns)
   

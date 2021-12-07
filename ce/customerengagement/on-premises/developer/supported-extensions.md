@@ -4,7 +4,7 @@ description: "You can customize  Dynamics 365 Customer Engagement (on-premises) 
 ms.custom: 
 ms.date: 01/25/2019
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

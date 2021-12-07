@@ -1,9 +1,10 @@
 ---
-title: "Recover from Exchange Server failure  | MicrosoftDocs"
+title: "Restore Exchange Server used by Dynamics 365 Customer Engagement (on-premises)"
+description: "This page provides information on restoring an Exchange Server used by Customer Engagement (on-premises) depending on how it's being used."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

@@ -1,12 +1,11 @@
 ---
-title: "Walkthrough 1  Build a simple agent application in Unified Service Desk for Unified Interface apps | MicrosoftDocs"
-description: "Demonstrates how to set up a basic agent application from scratch using Unified Service Desk."
+title: "Walkthrough 1: Build an agent application for Unified Interface apps | MicrosoftDocs"
+description: "Use this walkthrough to understand the prerequisites and procedures for setting up a basic agent application for Unified Interface apps. "
+ms.date: 12/31/2019
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 12/31/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
 search.audienceType: 
   - customizer
   - developer
@@ -110,7 +109,7 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
 
 7. Type `Contoso` in the search bar, and select the search icon. The three hosted controls that you created earlier are displayed in the search results. Select the records and then select **Add**. 
   
-   ![Add the hosted controls to the configuration](../unified-service-desk/media/crm-itpro-usd-wt01-04.PNG "Add the hosted controls to the configuration")  
+   ![Add the hosted controls to the configuration.](../unified-service-desk/media/crm-itpro-usd-wt01-04.PNG "Add the hosted controls to the configuration")  
   
     The hosted controls are added to the configuration. 
 
@@ -129,7 +128,7 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
   
 3. Select **Save**.  
   
-   ![User added to the configuration](../unified-service-desk/media/crm-itpro-usd-wt01-05.png "User added to the configuration") 
+   ![User added to the configuration.](../unified-service-desk/media/crm-itpro-usd-wt01-05.png "User added to the configuration") 
   
 <a name="Step4"></a>   
 ## Step 4: Test the application  
@@ -137,7 +136,7 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
   
  Your agent application will look like the following:  
   
- ![Basic agent application without any controls](../unified-service-desk/media/crm-itpro-usd-wt01-06.png "Basic agent application without any controls")  
+ ![Basic agent application without any controls.](../unified-service-desk/media/crm-itpro-usd-wt01-06.png "Basic agent application without any controls")  
   
  The desktop in the agent application is empty because no other controls were added to **Contoso Configuration** apart from the hosted controls required for setting up a basic agent application. In the rest of the walkthroughs, you’ll see controls appear in the agent application as you progressively configure and add controls to **Contoso Configuration**. 
   

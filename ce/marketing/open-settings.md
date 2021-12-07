@@ -25,18 +25,18 @@ Administrators use settings to fine-tune application behavior, set defaults, man
 
 1. If you haven't already done so, sign in to Dynamics 365 Marketing as a user with [administrator privileges](admin-users-licenses-roles.md). Then use the app-selector menu to open the **Marketing** app.
 
-    ![The app-selector menu](media/nav-apps-ill2.png "The app-selector menu")
+    ![The app-selector menu.](media/nav-apps-ill2.png "The app-selector menu")
 
 1. Expand the work-area area menu at the bottom of the side navigator and select **Settings**.
 
-    ![Open the Settings work area](media/open-settings-menu-ill.png "Open the Settings work area")
+    ![Open the Settings work area.](media/open-settings-menu-ill.png "Open the Settings work area")
 
 1. The side navigator is updated to show pages available in the **Settings** work area, with **Settings overview** selected.
 
 ## Work with the administration settings
 
 > [!div class="mx-imgBorder"]
-> ![The settings overview](media/admin-overview2.png)
+> ![The settings overview.](media/admin-overview2.png)
 
 - Use the left navigation pane to navigate between settings pages, which are organized into sections. Select an entry under a heading to open the related settings page.
 - When you first open the **Settings** page, the main part of the window provides the same sections as the left navigation pane, and provides icons for opening the same settings pages that are also available in the navigator.

@@ -1,14 +1,11 @@
 ---
 title: Understand Knowledge Management in Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: Understand Knowledge Management in Customer Service Hub for Customer Service Dynamics 365 Customer Service
-author: lalexms
-ms.author: laalexan
-manager: shujoshi
-ms.date: 04/05/2021
+ms.date: 12/03/2021
 ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
+author: Soumyasd27
+ms.author: sdas
+manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +13,16 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
+searchScope: 
+ - D365-App-customerservicehub 
+ - D365-Entity-knowledgearticle
+ - D365-Entity-msdyn_knowledgearticletemplate 
+ - D365-UI-*
+ - Dynamics 365 
+ - Customer Service 
+ - Customer Engagement
 ---
 
 # Create and manage knowledge articles
@@ -36,7 +43,7 @@ Knowledge articles can address any number of issues your customers encounter whi
 
  The following diagram describes the default process for creating and using knowledge articles in the Customer Service Hub. Create an article and mark it for review. The reviewer can approve or reject the article. If the article is rejected, it is sent back for edits or updates. If the article is approved, it is published on the portal. It is also available in search and can also be translated.
   
- ![Knowledge management process in Dynamics 365 Customer Service](../customer-service/media/v8-km-walkthrough.png "Knowledge management process in Dynamics 365 Customer Service")  
+ ![Knowledge management process in Dynamics 365 Customer Service.](../customer-service/media/v8-km-walkthrough.png "Knowledge management process in Dynamics 365 Customer Service")  
   
 
 ## Create a knowledge article
@@ -53,14 +60,15 @@ Turn your customer questions, issues, and feedback into knowledge articles, so o
   
 4. In the **Article Content** section, fill in the following details:  
   
-   - **Title**. Type a descriptive title that communicates the subject and purpose of the article in a concise manner.  
+   - **Title**: Type a descriptive title that communicates the subject and purpose of the article in a concise manner.  
   
-   - **Keywords**. Type keywords for the article. These keywords are used for searching the knowledge base for articles. Separate keywords with commas.  
+   - **Keywords**: Type or select keywords for the article. These keywords are used to search the knowledge base for articles. Separate keywords with commas. 
   
-   - **Description**. Type a short overview of the article. This appears in the search results and is used for search engine optimization.  
-  
-     ![Add content to the knowledge article](../customer-service/media/v9-add-content-article.png "Add content to the knowledge article")  
-  
+   - **Description**: Type or select a short description of the article. This appears in the search results and is used for search engine optimization.
+   
+       :::image type="content" source="media/v9-add-cont_article.png" alt-text="Add article content":::
+     
+       
 5. In the **Content** section, add the content for your knowledge article.  
   
    > [!NOTE]
@@ -76,17 +84,43 @@ Turn your customer questions, issues, and feedback into knowledge articles, so o
 9. In the **Article Subject** drop-down list, choose the subject of the article to help with article searches.  
   
 10. In the **Assign Primary Author** drop-down list, choose a person who is responsible for maintaining the article content. By default, the user who creates the article is the primary author.  
- 
-    You can  mark the article complete by selecting the checkbox at this stage.
+
+    Once a new article is created, the author value will be replicated to Primary author if it is a system user but not a team. The knowledge article author must be a single user (not a team) in order for it to be searchable and to load properly.
+    
+    You can mark the article complete by selecting the checkbox at this stage.
 
 > [!TIP]
-> Select the icon ![flyout icon](media/flyout.png) to pin the stage flyout vertically.
+> Select the icon ![flyout icon.](media/flyout.png) to pin the stage flyout vertically.
   
 Posts about knowledge article-related activities will begin appearing in the **Timeline** section.  
+
+## Use AI suggested article keywords and descriptions
+
+If your administrator has enabled keywords and description suggestions, you can select and enter your preferred keywords and descriptions when authoring or updating knowledge articles. More information: [Configure AI suggestions for article keywords and description](configure-ai-suggested-article-keywords-description.md#configure-ai-suggestions-for-article-keywords-and-description)
+
+However, either the **Title** or **Content** fields&mdash;or any other corresponding mapped fields set by the administrator&mdash;must contain some value for suggestions to be generated. If any of the fields that the model uses to generate suggestions are empty, you'll see messages such as "There was a problem finding suggested keywords" or "There was a problem finding a suggested description".
+
+1. In the article **Content** section, add the content for your knowledge article and then select **Save**. The **View suggested keywords and description** link appears.
+
+1. Select the **View suggested keywords and description** link.
+      :::image type="content" source="media/v9-view-suggested-keywords.png" alt-text="View suggested keywords and description link":::
+
+1. In the **Suggested keywords and description** dialog, do the following:
+
+   - Select the keywords that you want to add to your keywords list or select the **Insert all keywords** link to insert all the suggested keywords to the Keywords field. You can enter a keyword in the Keyword field to add to existing list.
+   - Select **Insert suggested description**, to add the description to the **Description** field.
+
+    :::image type="content" source="media/v9-suggested-keywords-description-dialog.png" alt-text="Screenshot showing a Keyword field containing keywords that were selected from the list of suggested keywords below it.":::
+
+1. Select **Apply Changes**.
+
+The selected keywords and description appear in the **Keywords** and **Description** fields of the knowledge article form.
 
 ## Personalize your language preferences for authoring knowledge articles
 
 If your administrator has enabled language personalization, you can select your preferred language when authoring knowledge articles.
+> [!NOTE]
+> Language settings apply only to knowledge articles that aren't created by converting a case. Converted knowledge articles are created in default language setting of your organization.
 
 1. In **Customer Service Hub**, go to **Service** > **Knowledge** > **Knowledge Personalization**.
 2. Select the **Authoring** tab.
@@ -94,18 +128,16 @@ If your administrator has enabled language personalization, you can select your 
    - Set **Use organization’s language value** to **Yes**.
    - Select your preferred language from the drop-down list.
    > [!NOTE]
-   > At any point, agents can only either set the org language or select a language from the list.
-   
+   > At any point, you can only either set the org language or select a language from the list.  
 4. Select **Save**.
    When you create a new knowledge article, the default language you selected is used.
 5. If you need to change the language for a specific article only, select the **Summary** tab, and then select your preferred language in the **Language** field.
 6. Select **Save**.
 
-The changes you've made will affect the agent experience. When agents go to create new articles, the settings they made will be reflected. 
 
 ## Create knowledge articles using templates
 
-Knowledge Authors can use the templates to create knowledge articles quickly and the fields for the knowledge article are pre-populated according to the selected template. To create knowledge articles using templates:
+Knowledge authors can use the templates to create knowledge articles quickly and the fields for the knowledge article are pre-populated according to the selected template. To create knowledge articles using templates:
  
 1. Make sure that you have Create and Read permissions on the Knowledge Article entity. By default, these permissions are added to the Knowledge Manager, Customer Service Manager, or Customer Service Representative role.  
   
@@ -118,14 +150,14 @@ Knowledge Authors can use the templates to create knowledge articles quickly and
 4.	On the **Select Knowledge Article Template** dialog box, select the template to use as a base on which you author the article and select **OK**. In this example, we are selecting the template as **Getting Started With Template**.
 
     > [!div class=mx-imgBorder]
-    > ![Select knowledge article template](media/ka-select-template.png "Select knowledge article template")
+    > ![Select knowledge article template.](media/ka-select-template.png "Select knowledge article template")
   
     You observe that some fields are pre-populated as defined in the template.
 
 5.	In the **New Knowledge Article** page, edit the fields as required. 
 
     > [!div class=mx-imgBorder]
-    > ![New knowledge article page](media/ka-new-article-page.png "New knowledge article page")
+    > ![New knowledge article page.](media/ka-new-article-page.png "New knowledge article page")
   
 6.	Select **Save**.
 
@@ -155,39 +187,39 @@ You can choose a specific format or style for the content you’re writing. The 
 
 |Icon | Name | Shortcut key | Description |
 |----------------------|-------------------------|-----------------------------|-----------------------------|
-|![Format Painter](../customer-service/media/format-painter.png "Format Painter")| Format Painter | Ctrl+Shift+C, Ctrl+Shift+V | Apply the look of a particular section to another section. **Note**: Copy formatting only works with inline styles, and won't copy or apply block-level styles. |
-|![Styles](../customer-service/media/format-styles.png "Style") | Formatting Styles | | Apply predefined sets of formatting features to make it easier to keep the presentation of the text consistent. To make the choice easier, the style names are displayed in a style that they represent, giving you a preview of what the text will look like. **Note**: This option is available in the expanded mode only.
-|![Paragraph Format](../customer-service/media/paragraph-format.png "Paragraph Format") | Paragraph Format | | Apply predefined block-level combinations of formatting options. A paragraph format can only be applied to a block-level element, like a `paragraph` or a `div` element. **Note:**  This option is available in the expanded mode only. |
-|![Font](../customer-service/media/format-font.png "Font") | Font | Ctrl+Shift+F | Select your desired font. The default font is Segoe UI.<br /><br /> **Note**: When you select any formatted content, the font name for that content displays. If your selection contains multiple fonts, the topmost font name of your selection is displayed. |
-|![Font Size](../customer-service/media/font-size.png "Font Size") | Font size | Ctrl+Shift+P | Change the size of your text. The default size is 12.<br /><br /> **Note**: When you select any formatted content, the font size for that content displays. If your selection contains multiple font sizes, the topmost font name of your selection is displayed.|
-|![Bold](../customer-service/media/format-bold.png "Bold")| Bold | Ctrl+B | Make your text bold. |
-|![Italic](../customer-service/media/format-italic.png "Italic")| Italic | Ctrl+I | Italicize your text. |
-|![Underline](../customer-service/media/format-underline.png "Underline")| Underline | Ctrl+U | Underline your text. |
-|![Text Highlight Color](../customer-service/media/text-highlight-color.png "Text Highlight Color")| Text Highlight Color |  | Make your text stand out by highlighting it in a bright color. |
-|![Font Color](../customer-service/media/font-color.png "Font Color")| Font Color |  | Change the color of your text. |
-|![Bullets](../customer-service/media/format-bullets.png "Bullets")| Bullets |  | Create a bulleted list. |
-|![Numbering](../customer-service/media/format-numbering.png "Numbering")| Numbering |  | Create a numbered list. |
-|![Decrease Indent](../customer-service/media/decrease-indent.png "Decrease Indent")| Decrease Indent |  | Move your paragraph closer to the margin. |
-|![Increase Indent](../customer-service/media/increase-indent.png "Increase Indent")| Increase Indent |  | Move your paragraph farther away from the margin. |
-|![Block Quote](../customer-service/media/block-quote.png "Block Quote")| Block Quote |  | Apply a block-level quotation format in your content. |
-|![Align Left](../customer-service/media/align-left.png "Align Left")| Align Left | Ctrl+L | Align your content with the left margin. (Commonly used for body text to make it easier to read.) |
-|![Align Center](../customer-service/media/align-center.png "Align Center")| Align Center | Ctrl+E | Center your content on the page. (Commonly used for a formal appearance.) |
-|![Align Right](../customer-service/media/align-right.png "Align Right")| Align Right | Ctrl+R | Center your content on the page. (Commonly used for a formal appearance.) |
-|![Link](../customer-service/media/format-link.png "Link")| Link |  | Create a link in your document for quick access to web pages and files.<br /><br />Pasted or typed URL text is converted into a link. For example, "http://myexample.com" will become "<a href="http://myexample.com">http://myexample.com</a>".<br /><br /> In the **Link** dialog box, choose the type of link you'd like to insert.<br /><br />The **Link Info** tab allows you to choose the link type as well as set the link protocol and URL.<br /><br />The **Target** tab is only available for the URL link type. It specifies the location where the link will open after you select it. |
-|![Remove Link](../customer-service/media/remove-link.png "Unlink")| Unlink |  | Delete a link in your email or document.<br /><br />When you place the cursor on a link, the **Unlink** button on the toolbar becomes active. Select the button to remove the link and make it plain text. |
-|![Superscript](../customer-service/media/format-superscript.png "Superscript")| Superscript |  | Type very small letters just above the line of text. |
-|![Subscript](../customer-service/media/format-subscript.png "Subscript")| Subscript |  | Type very small letters just below the line of text. |
-|![Strikethrough](../customer-service/media/format-strikethrough.png "Strikethrough")| Strikethrough |  | Cross out text by drawing a line through it. |
+|![Format Painter.](../customer-service/media/format-painter.png "Format Painter")| Format Painter | Ctrl+Shift+C, Ctrl+Shift+V | Apply the look of a particular section to another section. **Note**: Copy formatting only works with inline styles, and won't copy or apply block-level styles. |
+|![Styles.](../customer-service/media/format-styles.png "Style") | Formatting Styles | | Apply predefined sets of formatting features to make it easier to keep the presentation of the text consistent. To make the choice easier, the style names are displayed in a style that they represent, giving you a preview of what the text will look like. **Note**: This option is available in the expanded mode only.
+|![Paragraph Format.](../customer-service/media/paragraph-format.png "Paragraph Format") | Paragraph Format | | Apply predefined block-level combinations of formatting options. A paragraph format can only be applied to a block-level element, like a `paragraph` or a `div` element. **Note:**  This option is available in the expanded mode only. |
+|![Font.](../customer-service/media/format-font.png "Font") | Font | Ctrl+Shift+F | Select your desired font. The default font is Segoe UI.<br /><br /> **Note**: When you select any formatted content, the font name for that content displays. If your selection contains multiple fonts, the topmost font name of your selection is displayed. |
+|![Font Size.](../customer-service/media/font-size.png "Font Size") | Font size | Ctrl+Shift+P | Change the size of your text. The default size is 12.<br /><br /> **Note**: When you select any formatted content, the font size for that content displays. If your selection contains multiple font sizes, the topmost font name of your selection is displayed.|
+|![Bold.](../customer-service/media/format-bold.png "Bold")| Bold | Ctrl+B | Make your text bold. |
+|![Italic.](../customer-service/media/format-italic.png "Italic")| Italic | Ctrl+I | Italicize your text. |
+|![Underline.](../customer-service/media/format-underline.png "Underline")| Underline | Ctrl+U | Underline your text. |
+|![Text Highlight Color.](../customer-service/media/text-highlight-color.png "Text Highlight Color")| Text Highlight Color |  | Make your text stand out by highlighting it in a bright color. |
+|![Font Color.](../customer-service/media/font-color.png "Font Color")| Font Color |  | Change the color of your text. |
+|![Bullets.](../customer-service/media/format-bullets.png "Bullets")| Bullets |  | Create a bulleted list. |
+|![Numbering.](../customer-service/media/format-numbering.png "Numbering")| Numbering |  | Create a numbered list. |
+|![Decrease Indent.](../customer-service/media/decrease-indent.png "Decrease Indent")| Decrease Indent |  | Move your paragraph closer to the margin. |
+|![Increase Indent.](../customer-service/media/increase-indent.png "Increase Indent")| Increase Indent |  | Move your paragraph farther away from the margin. |
+|![Block Quote.](../customer-service/media/block-quote.png "Block Quote")| Block Quote |  | Apply a block-level quotation format in your content. |
+|![Align Left.](../customer-service/media/align-left.png "Align Left")| Align Left | Ctrl+L | Align your content with the left margin. (Commonly used for body text to make it easier to read.) |
+|![Align Center.](../customer-service/media/align-center.png "Align Center")| Align Center | Ctrl+E | Center your content on the page. (Commonly used for a formal appearance.) |
+|![Align Right.](../customer-service/media/align-right.png "Align Right")| Align Right | Ctrl+R | Center your content on the page. (Commonly used for a formal appearance.) |
+|![Link.](../customer-service/media/format-link.png "Link")| Link |  | Create a link in your document for quick access to webpages and files.<br /><br />URL text that you paste or enter is converted into a link.<br>For example, **ht&#8203;tp://myexample.com** will become <a href="http://myexample.com">http://myexample.com</a>.<br /><br /> In the **Link** dialog, choose the type of link you'd like to insert. <br /><br />Use the **Link Info** tab to choose the link type and set the link protocol and URL. <br /><br />The type of links that you can add are defined by your administrator. If you add links whose origin link doesn't match any of the links specified in the origins list, an error will be displayed when users open an article. The error message "Update your origins allow list if any iframe in the article doesn't work or displays error" will appear. More information: [Configure the origins allow list for knowledge articles](configure-knowledge-article-origin-allow-list.md) <br /><br />The **Target** tab is only available for the URL link type. It specifies the location where the link will open after you select it. |
+|![Remove Link.](../customer-service/media/remove-link.png "Unlink")| Unlink |  | Delete a link in your email or document.<br /><br />When you place the cursor on a link, the **Unlink** button on the toolbar becomes active. Select the button to remove the link and make it plain text. |
+|![Superscript.](../customer-service/media/format-superscript.png "Superscript")| Superscript |  | Type very small letters just above the line of text. |
+|![Subscript.](../customer-service/media/format-subscript.png "Subscript")| Subscript |  | Type very small letters just below the line of text. |
+|![Strikethrough.](../customer-service/media/format-strikethrough.png "Strikethrough")| Strikethrough |  | Cross out text by drawing a line through it. |
 |![Image](../customer-service/media/insert-picture.png "Image") | Image | | Insert an image.<br /><br /> You can insert an image by directly copying and pasting it inline in the editor, dragging and dropping it from your desktop or local folder directly into the editor, or by typing a URL. The following formats are supported: .PNG, .JPG., or .GIF. For details on using inline images, see [Use inline images](#use-inline-images).|
-|![Left to Right](../customer-service/media/left-to-right.png "Left to Right")| Left to Right |  | Change the text to left-to-right for content such as a paragraph, header, table, or list. Commonly used for bi-directional language content. This is the default setting.|
-|![Right to Left](../customer-service/media/right-to-left.png "Right to Left")| Right to Left |  | Change the text to right-to-left for content such as a paragraph, header, table, or list. Commonly used for bi-directional language content. The default setting is left-to-right. |
-|![Undo Typing](../customer-service/media/undo-typing.png "Undo Typing")| Undo Typing |  | Undo changes you made to the content. |
-|![Redo Typing](../customer-service/media/redo-typing.png "Redo Typing")| Redo Typing |  | Redo changes you made to the content. |
-|![Clear All Formatting](../customer-service/media/clear-formatting.png "Clear All Formatting")| Clear All Formatting |  | Remove all formatting from a selection of text, leaving only the normal, unformatted text. |
-|![Add a Table](../customer-service/media/add-table.png "Add a Table")| Add a Table |  | Add a table to your content. <br /><br />After adding a table, you can do any of the following:<br /><br /><ul><li>Resize table columns by clicking and dragging your mouse to resize to the columns to the desired width.</li><li>Select one or several cells within a table and apply specific formatting, add links to the selection, or cut, copy, or paste entire rows or columns.</li><li>Right-click to access the properties. This supports features such as cell type, width and height, word wrapping, alignment, merging and splitting cells horizontally and vertically, inserting or deleting rows and columns, row and column span, and cell and border color.</li></ul>|
-|![Create Collapsible Section](../customer-service/media/collapsible-section.png "Create Collapsible Section") | Create Collapsible Section | | Create a section that can be collapsed or expanded. This is useful in articles with a lot of information. Collapsed sections help agents find relative information more quickly by scanning the titles within an article. Collapsible sections include title and body fields to type text into, and you can nest collapsible sections to make it easier to scan longer articles to find the most relevant sections quickly. You can also select text you have already typed and then click the collapse icon to turn it into a collapsible section. <br /> <br /> If you create a collapsible section and then later want to delete it, place your cursor within the section, and then click **Delete** on your keyboard, or right-click within the collapsible section and select **Cut**. |
-|![Embed Media](../customer-service/media/embed-media.png "Embed Media")| Embed Media | | To embed videos into your content:<br /><br /> 1.  Place the cursor where you want to insert the video, and then on the toolbar, select the **Embed Media** button.<br />     The **Embed Video** dialog box opens.<br />2.  Enter the embed link of the video provided by the video hosting provider, and then select **OK**. |
-|![Create Div Container](../customer-service/media/div-container.png "Create Div Container") | Create Div Container | | Create a `div` container to apply formatting to a larger document fragment that extends beyond one block.<br /><br /> The **General** tab lets you manually add a stylesheet class that is applied to the div element.<br /><br /> The **Advanced** tab lets you configure additional div element options such as assigning it an ID, a language code, a text direction, an advisory title, or CSS style properties. **Note:**  This option is available in the expanded mode only. |
+|![Left to Right.](../customer-service/media/left-to-right.png "Left to Right")| Left to Right |  | Change the text to left-to-right for content such as a paragraph, header, table, or list. Commonly used for bi-directional language content. This is the default setting.|
+|![Right to Left.](../customer-service/media/right-to-left.png "Right to Left")| Right to Left |  | Change the text to right-to-left for content such as a paragraph, header, table, or list. Commonly used for bi-directional language content. The default setting is left-to-right. |
+|![Undo Typing.](../customer-service/media/undo-typing.png "Undo Typing")| Undo Typing |  | Undo changes you made to the content. |
+|![Redo Typing.](../customer-service/media/redo-typing.png "Redo Typing")| Redo Typing |  | Redo changes you made to the content. |
+|![Clear All Formatting.](../customer-service/media/clear-formatting.png "Clear All Formatting")| Clear All Formatting |  | Remove all formatting from a selection of text, leaving only the normal, unformatted text. |
+|![Add a Table.](../customer-service/media/add-table.png "Add a Table")| Add a Table |  | Add a table to your content. <br /><br />After adding a table, you can do any of the following:<br /><br /><ul><li>Resize table columns by clicking and dragging your mouse to resize to the columns to the desired width.</li><li>Select one or several cells within a table and apply specific formatting, add links to the selection, or cut, copy, or paste entire rows or columns.</li><li>Right-click to access the properties. This supports features such as cell type, width and height, word wrapping, alignment, merging and splitting cells horizontally and vertically, inserting or deleting rows and columns, row and column span, and cell and border color.</li></ul>|
+|![Create Collapsible Section.](../customer-service/media/collapsible-section.png "Create Collapsible Section") | Create Collapsible Section | | Create a section that can be collapsed or expanded. This is useful in articles with a lot of information. Collapsed sections help agents find relative information more quickly by scanning the titles within an article. Collapsible sections include title and body fields to type text into, and you can nest collapsible sections to make it easier to scan longer articles to find the most relevant sections quickly. You can also select text you have already typed and then click the collapse icon to turn it into a collapsible section. <br /> <br /> If you create a collapsible section and then later want to delete it, place your cursor within the section, and then click **Delete** on your keyboard, or right-click within the collapsible section and select **Cut**. |
+|![Embed Media.](../customer-service/media/embed-media.png "Embed Media")| Embed Media | | To embed videos into your content:<br /><br /> 1.  Place the cursor where you want to insert the video, and then on the toolbar, select the **Embed Media** button.<br />     The **Embed Video** dialog box opens.<br />2.  Enter the embed link of the video provided by the video hosting provider, and then select **OK**. |
+|![Create Div Container.](../customer-service/media/div-container.png "Create Div Container") | Create Div Container | | Create a `div` container to apply formatting to a larger document fragment that extends beyond one block.<br /><br /> The **General** tab lets you manually add a stylesheet class that is applied to the div element.<br /><br /> The **Advanced** tab lets you configure additional div element options such as assigning it an ID, a language code, a text direction, an advisory title, or CSS style properties. **Note:**  This option is available in the expanded mode only. |
 |![Create Anchor](../customer-service/media/create-anchor.png "Create Anchor") | Create Anchor | | You can add anchors in document text and then link to them for easier navigation.<br /><br />**Note**: The anchor feature only works when an article is open. It doesn't work if you are viewing an article from the **Preview** tab.<br /><br /> To add an anchor:<br /><br /> 1.  Place the cursor where you want to insert an anchor, and then on the toolbar, select the **Anchor** button.<br />     The **Anchor Properties** dialog box opens.<br />2.  Enter a name for the anchor, and then select **OK**.<br />     The **Anchor** button ![Anchor tool on the rich text editor toolbar](../customer-service/media/v8-rte-anchor--button.png "Anchor tool on the rich text editor toolbar") appears in the area where you created the anchor.<br /><br /> You can now use the **Link** button to link to your anchor. |   
   
 > [!IMPORTANT]
@@ -241,18 +273,73 @@ To insert an image by using a URL or navigating to the local image:
 
 You can author and edit the article in the HTML tab of the Content editor panel, using HTML tags.
 
-![HTML panel](media/html-panel.png "HTML pane in content editor for knowledge article")
+![HTML panel.](media/html-panel.png "HTML pane in content editor for knowledge article")
 
 
 ### Preview
 
 You can preview the content to view its compatibility on multiple devices, like Tablets, or Phones.
 
-![Preview panel](media/preview-panel.png "Preview pane in content editor for knowledge article")
+![Preview panel.](media/preview-panel.png "Preview pane in content editor for knowledge article")
+
+This is an indicative preview. Content rendered can be different in the actual device or screen.
 
 > [!NOTE]
-> This is an indicative preview. Content rendered can be different in the actual device or screen.
+> If you add anchor links to a knowledge article in the **Content** field, you can’t test them because they don’t work in the **Designer** or **Preview** mode. The anchor links work only when you open the article in knowledge search and on portals.
 
+## Add a file attachment to a knowledge article
+
+When you're creating a knowledge article, you can attach one or more files to it to help provide comprehensive information for your customers. Keep in mind the following when attaching files:
+
+- There is no limit to the number of articles that can be attached to a knowledge article, but the file size mustn't exceed 32 MB.
+- Your administrator may limit the file size for knowledge articles.
+- You must save your knowledge article before attaching files to it.
+
+To attach a file to a knowledge article:
+
+1. Open the knowledge article where you want to add a file attachment, and then on the **Content** tab, on the right-hand side of the screen, select **Attach Files From**.
+ 
+   ![Attach a file.](media/attach-file-knowledge-article.png "Attach files to a knowledge article")
+
+2. Choose from the following file locations:
+    - **My Device** lets you browse and select files from your local device.
+    - **Previous Uploads** opens a search pane where you can search and select from files that were previously uploaded to Customer Service Hub.
+
+### Work with file attachments
+
+The **Attached files** section displays all of your knowledge article attachments in a tile view horizontally above your message. The default setting for the maximum number of files that can be displayed is five attachments before the page forward functionality is displayed.
+
+For your attached files, use these commands to do the following:
+
+- **Select**: Allows you to select one or more attachments by clicking the box that appears on the attachments, and then you can either **Remove** or **Download** the selected files.
+- **Sort**: Allows you to sort records by a specific filter, such a file name or size.
+
+When you publish your knowledge article, if you've attached files to it, the attachments can be accessed by knowledge consumers through Knowledge Search.
+
+#### User permissions to view and download file attachments
+
+For users to be able to view and download file attachments, you'll need to grant the following permissions to the Knowledge Article table:
+
+|Task|Access needed |  
+|--------|-------------|  
+| Download and search attachments | Read |
+| Add attachments | Create, append, append-to |
+| Remove and add existing attachments | Append or append-to |
+
+### Update knowledge article attachments for portal
+
+With this new attachment capability, you'll need to stop using notes attachments for the portal. To use knowledge article attachments for the portal, you must enable the feature by doing the following:
+
+1. Go to **Customer Service Hub**, and then select **Service management** > **Knowledge Management** > **Settings**.
+2. Under **Sync knowledge article attachments to portal**, toggle **Sync attachments to portal** to **Yes**.
+3. Select **Save**.
+
+By using knowledge article attachments for the portal, keep in mind the following:
+
+- Dataverse search will be able to search through knowledge article attachments. More info: [Microsoft Dataverse search can search through file data type](/power-platform-release-plan/2021wave2/data-platform/dataverse-search-search-through-file-data-type)
+- We'll do a one-time migration from the notes attachments that have the prefix of your original KnowledgeManagement/Notesfilter setting to new attachments in knowledge articles. In other words, we'll only migrate the notes attachments that are used in the portal to new attachments before the middle of October 2022 for all users.  
+
+For more information, see [Display file attachments with knowledge articles](/powerapps/maker/portals/customer-engagement-apps/display-file-attachments-knowledge-article).
 
 ## Add a knowledge article rich text editor control to a form
 By default, the rich text editor functionality is available for use with knowledge articles and emails, but if you want to use it in another form, you can add it by doing the following:
@@ -264,30 +351,31 @@ By default, the rich text editor functionality is available for use with knowled
 3. Under **Control**, select **Rich Text Editor Control.
 
     > [!div class=mx-imgBorder]
-    > ![Select the Controls tab on the properties page](media/csh-rte-add-form.png "Select the Controls tab, and then select the rich text editor control")
+    > ![Select the Controls tab on the properties page.](media/csh-rte-add-form.png "Select the Controls tab, and then select the rich text editor control")
 
 3. Under **Rich Text Editor Control** properties, select the pencil icon next to **RichTextEditorControl_URL**. 
     
     > [!div class=mx-imgBorder]
-    > ![Select the Rich Text Editor control](media/csh-rte-edit-control.png "Select the Rich Text Editor Control and pencil icon to add text")
+    > ![Select the Rich Text Editor control.](media/csh-rte-edit-control.png "Select the Rich Text Editor Control and pencil icon to add text")
     
     The properties configuration page is displayed.
 
 4. In the **Bind to a static value** field, enter the following text: **webResources/msdyncrm_/RichTextEditorControl/KnowledgeArticleRTEconfig.js** 
 
     > [!div class=mx-imgBorder]
-    > ![Enter value in Bind to a static filed](media/csh-rte-enter-static-value.png "Enter the value in the Bind to a static value field")
+    > ![Enter value in Bind to a static filed.](media/csh-rte-enter-static-value.png "Enter the value in the Bind to a static value field")
 
 5. Select **OK** > **OK**, and then select **Save and Publish**.
 
 
-For more information about rich text control properties, see [Rich text editor control configuration options](https://docs.microsoft.com/powerapps/maker/model-driven-apps/rich-text-editor-control#rich-text-editor-control-configuration-options).
+For more information about rich text control properties, see [Rich text editor control configuration options](/powerapps/maker/model-driven-apps/rich-text-editor-control#rich-text-editor-control-configuration-options).
 
   
 ## Mark a knowledge article for review  
- To make sure the content you’ve created is accurate, have someone review it.  
+
+To make sure the content you’ve created is accurate, have someone review it.  
   
- You can mark an article for review or directly assign it to a specific person or queue. When you mark an article for review, it starts appearing in the knowledge manager’s dashboard. The knowledge manager can then assign the article to specific team members or a queue for review.  
+You can mark an article for review or directly assign it to a specific person or queue. When you mark an article for review, it starts appearing in the knowledge manager’s dashboard. The knowledge manager can then assign the article to specific team members or a queue for review.  
   
 1.  In the article you want to mark for review, in the **Status Reason** drop-down list, select **Needs Review**.  
   
@@ -295,7 +383,7 @@ For more information about rich text control properties, see [Rich text editor c
   
 3.  In the **Mark for Review** field, select **Mark Complete**.  
 
-    ![Knowledge article review](media/ka-review.png)
+    ![Knowledge article review.](media/ka-review.png)
   
 4.  To assign the knowledge article to another reviewer or team, on the command bar, select **Assign** and select the user or a team.  
   
@@ -303,7 +391,8 @@ For more information about rich text control properties, see [Rich text editor c
   
  
 ## Review and reject or approve a knowledge article  
- It’s important to review articles for accuracy before they’re published or made available to others.  
+
+It’s important to review articles for accuracy before they’re published or made available to others.  
   
 > [!IMPORTANT]
 >  To approve a knowledge article, you must have **Approve** permissions for the knowledge article record type. This permission is added by default to the Knowledge Manager, Customer Service Manager, Customer Service Representative, or System Administrator role or equivalent permissions.  
@@ -316,7 +405,8 @@ For more information about rich text control properties, see [Rich text editor c
   
  
 ## Update knowledge articles to capture feedback  
- Make sure that your articles are up to date and accurate at all times by updating them based on feedback you receive.  
+
+Make sure that your articles are up to date and accurate at all times by updating them based on feedback you receive.  
   
 1.  In the Customer Service Hub, go to **Service** > **Knowledge Articles**.  
   
@@ -331,7 +421,8 @@ For more information about rich text control properties, see [Rich text editor c
 5.  To assign the article back to the reviewer for approval or publishing, on the command bar, select **Assign**, and then select a user or a team  
   
 ## Update published knowledge articles  
- When a knowledge article is in the Published (or Scheduled) state, only the users who have the Publish privilege can update it.  
+
+When a knowledge article is in the Published (or Scheduled) state, only the users who have the Publish privilege can update it.  
   
 1.  In the Customer Service Hub, go to **Service** > **Knowledge Articles**.  
   
@@ -351,7 +442,8 @@ If the article has information that complements an existing knowledge article, a
   
  
 ## Create and manage article versions  
- Article versioning helps you manage updates to your knowledge articles without disrupting the live or published articles. By creating major and minor versions of a knowledge article, you can keep your articles up to date with the latest information while keeping track of changes throughout the lifecycle of your products and services.  
+
+Article versioning helps you manage updates to your knowledge articles without disrupting the live or published articles. By creating major and minor versions of a knowledge article, you can keep your articles up to date with the latest information while keeping track of changes throughout the lifecycle of your products and services.  
   
  This capability helps you to keep accurate records of the features your organization provides and go back to previous versions if you need to.  
   
@@ -371,10 +463,12 @@ If the article has information that complements an existing knowledge article, a
 4.  After you have reviewed the article, make any changes that you want to the new version. You can update the article title, content, keywords, and description to reflect any changes to your products, features, or services.  
   
 ### Review and publish your new version  
- When you are done making changes, you can push the new version of your article through your standard article workflow. When you are finished reviewing and are ready to publish, on the command bar, select **More** > **Publish**, and then choose how and when you want to publish your new version. You can publish your new version immediately, schedule it to publish at a future date, or leave it as a draft to manually publish later. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule or publish an article](#schedule-or-publish-an-article) 
+
+When you are done making changes, you can push the new version of your article through your standard article workflow. When you are finished reviewing and are ready to publish, on the command bar, select **More** > **Publish**, and then choose how and when you want to publish your new version. You can publish your new version immediately, schedule it to publish at a future date, or leave it as a draft to manually publish later. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule or publish an article](#schedule-or-publish-an-article) 
   
 ### Manage article versions  
- Managing your article versions means publishing and archiving different versions of each article to provide the most accurate information to your customers and internal employees. Keep in mind that only one version of an article can be published at a time; it’s important to keep track of the changes that are made to each version and publish them when it is appropriate.  
+
+Managing your article versions means publishing and archiving different versions of each article to provide the most accurate information to your customers and internal employees. Keep in mind that only one version of an article can be published at a time; it’s important to keep track of the changes that are made to each version and publish them when it is appropriate.  
   
 1.  In the knowledge article, select the **Summary** tab.  
   
@@ -388,16 +482,17 @@ If the article has information that complements an existing knowledge article, a
   
      Deleting an article version is permanent and can’t be undone. You won’t be able to go back to that version of the article, so make sure that you don’t need any of the information. It’s a good idea to create a local backup of any versions you delete.  
   
-## Translate a knowledge article in multiple languages  
- Your knowledge content needs to reach all of your customers, no matter what market or region they are from. The knowledge management capability in Dynamics 365 Customer Service helps you translate your articles so that you can provide the same self-help content in multiple languages without having to manage multiple copies of the same article. By using the translation feature, you can quickly and efficiently provide 24-hour service to all of your customers.  
+## Select a language for your knowledge article translation
+
+Your knowledge article must reach your customers irrespective of their market or region. The knowledge management capability in Dynamics 365 Customer Service helps you set the translation language for your articles, which enables you to provide the same self-help content in multiple languages, without having to manage multiple copies of the same article.  
   
-1. Open the article you want to translate, and on the command bar, select **Translate**.  
+1. Open the article you want to translate, and from the command bar, select **Translate**.  
   
-2. In the **Create new translation** dialog box, in the **Pick a language** drop-down list, choose the language you want.  
+2. On the **Create new translation** dialog, do the following:
+   * From the **Pick a language** dropdown, search and select the language you want.  
+   * In the **Create new version** field, select either **Major** or **Minor** version for your translation.  
   
-3. In the **Create new version** field, choose whether to create a new major or minor version for your translation.  
-  
-    You can translate articles into any language that’s supported by the Customer Service Hub.  
+     You can set languages that are supported by your Dynamics 365 instance.
   
 4. Select **Create**.  
   
@@ -411,10 +506,11 @@ If the article has information that complements an existing knowledge article, a
   
    -   Content  
   
-6. When you are finished reviewing and are ready to publish, select **More** > **Publish**. Choose how and when you want to publish your new version. You can publish your new version immediately, schedule it to publish at a future date, or leave it as a draft to manually publish later. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule or publish an article](#schedule-or-publish-an-article)
+6. When you are done reviewing and your article is ready for publish, select **More** > **Publish**. Select how and when you want to publish your new version. You can publish your new version immediately, schedule the publish for a future date, or leave it as a draft to publish it manually at a later point in time. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule or publish an article](#schedule-or-publish-an-article)
   
 ### Manage article translations  
- After you have published a translation for an article, you can manage it and any other translations by selecting the **Summary** tab of the knowledge article.  
+
+After you have published a translation for an article, you can manage it and any other translations by selecting the **Summary** tab of the knowledge article.  
   
 1.  In the **Related Information** section, select **Related Translations**.  
   
@@ -430,7 +526,8 @@ If the article has information that complements an existing knowledge article, a
   
 
 ## Schedule or publish an article  
- After the content in the article is complete and reviewed, you can publish the article to the portal to make it available to your customers. You can publish the article immediately or schedule it for a later time. 
+
+After the content in the article is complete and reviewed, you can publish the article to the portal to make it available to your customers. You can publish the article immediately or schedule it for a later time. 
   
 > [!IMPORTANT]
 >  If your organization is using a portal for publishing the knowledge articles, your customizer can write a plug-in that can pick the published articles and post on your portal, and also report the article views back.  
@@ -455,9 +552,9 @@ If the article has information that complements an existing knowledge article, a
   
 7.  If you want to schedule the article to publish on a later date, on the **Summary** tab, in the **Publish On** field, select a date and time to publish the article.  
   
-8.  On the command bar, select **More** > **Publish**.  
+8.  Select **Finish**. The Publish dialog is displayed.
   
-    -   In the **Publish** field, select whether you want to publish the knowledge article right away or in the future. To publish the article in the future, in the **Publishing Date Time** field, select a date and time.  
+    -   In the **Publish** field, select whether you want to publish the knowledge article right away or in the future. To publish the article in the future, in the **Publish On** field, select a date and time.  
   
     -   In the **Published Status** field, select what status the article should be in after it is published. By default, **Published** is selected.  
   
@@ -468,9 +565,10 @@ If the article has information that complements an existing knowledge article, a
     -   To publish all approved related translated articles with the article, in the **Publish Approved related translations with Article**, select **Yes**.  
   
     -   Select **Publish**. 
-
-        ![Knowledge article publish](media/ka-publish.png)
-
+    :::image type="content" source="media/ka-publish.png" alt-text="Schedule or publish an article":::
+    
+> [!NOTE]
+> In the knowledge article for interactive experience form, if there is an active customization layer over the **msdynce_KnowledgeManagementFeatures** layer, you won't be able to view the quick form publish dialog. You must delete the active customization layer to view the quick form publish dialog. More information: [Removed an unmanaged layer](/powerapps/maker/data-platform/solution-layers#remove-an-unmanaged-layer).
 
 ## Track basic details of an article  
 
@@ -483,7 +581,8 @@ Use the **Summary** tab to track some basic details of the article. In the **Sum
 
   
 ### Track knowledge article analytics  
- Tracking your content helps you and your authoring team assess its value to your organization and your customers. Knowing and understanding when, where, and how many times an article was viewed tells you how much your customers and team members rely on the information that it contains. This data is extremely useful when creating future content curation plans and can help you decide what content you will deliver in the future, as well as how you deliver it, where you deploy it, and what style or structure you use to write it.  
+
+Tracking your content helps you and your authoring team assess its value to your organization and your customers. Knowing and understanding when, where, and how many times an article was viewed tells you how much your customers and team members rely on the information that it contains. This data is extremely useful when creating future content curation plans and can help you decide what content you will deliver in the future, as well as how you deliver it, where you deploy it, and what style or structure you use to write it.  
   
  To view an article’s view counts and other statistics, open the article you want to track, and then select the **Analytics** tab.  
   
@@ -493,7 +592,7 @@ Use the **Summary** tab to track some basic details of the article. In the **Sum
 
    The **Rating** field calculates the average rating of the article based on the amount of feedback and number of ratings received.  
    > [!NOTE]
-   > Rating and view count numbers are rollup fields that are not updated instantly. For more details, see [Define rollup fields](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/define-rollup-fields).
+   > Rating and view count numbers are rollup fields that are not updated instantly. For more details, see [Define rollup fields](../customerengagement/on-premises/customize/define-rollup-fields.md).
 
 - **Cases**. Shows a list of the cases that have used this article. Double-click a case to view its details.  
   
@@ -502,7 +601,7 @@ Use the **Summary** tab to track some basic details of the article. In the **Sum
   
 #### Add feedback to an article  
   
-1. In the **Feedback** subgrid, select **Create Feedback**. You can also select ![Add a record button](../customer-service/media/add-recordbutton.gif "Add a record button") in the nav bar and then go to **Feedback** to create a feedback.  
+1. In the **Feedback** subgrid, select **Create Feedback**. You can also select ![Add a record button.](../customer-service/media/add-recordbutton.gif "Add a record button") in the nav bar and then go to **Feedback** to create a feedback.  
   
 2. In the **Create Feedback** flyout, fill in the information:  
   
@@ -525,22 +624,24 @@ Use the **Summary** tab to track some basic details of the article. In the **Sum
   
 3. Select **Save**.
 
-   ![Knowledge article feedback](media/ka-feedback.png)
+   ![Knowledge article feedback.](media/ka-feedback.png)
 
 > [!NOTE]
 > You can also update the owner of the feedback in the flyout.
 
  
 ## Monitor knowledge articles with dashboards  
- Knowledge managers and authors can now monitor the status of knowledge articles using the two  default dashboards available in the Customer Service Hub.  
+
+Knowledge managers and authors can now monitor the status of knowledge articles using the two  default dashboards available in the Customer Service Hub.  
   
 > [!NOTE]
->  If these dashboards don’t offer what you need, you can create new interactive dashboards. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure interactive experience dashboards](https://technet.microsoft.com/library/d1446a95-14bf-4b15-a905-72fce07f4c76.aspx)  
+>  If these dashboards don’t offer what you need, you can create new interactive dashboards. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure interactive experience dashboards](/previous-versions/dynamicscrm-2016/administering-dynamics-365/mt622067(v=crm.8))  
   
 ### My knowledge Dashboard  
- This dashboard is designed for authors to give them a visual snapshot of the number and status of knowledge articles they’re working on. It helps them quickly know things like article expiring in the month and articles in review.  
+
+This dashboard is designed for authors to give them a visual snapshot of the number and status of knowledge articles they’re working on. It helps them quickly know things like article expiring in the month and articles in review.  
   
- ![My Knowledge Dashboard for authors](../customer-service/media/v9-my-knowledge-dashboard.PNG "My Knowledge Dashboard for authors")  
+ ![My Knowledge Dashboard for authors.](../customer-service/media/v9-my-knowledge-dashboard.PNG "My Knowledge Dashboard for authors")  
   
 -   **Streams** show data from views or queues. In the My Knowledge Dashboard, the stream shows the active articles assigned to the author.  
   
@@ -549,17 +650,19 @@ Use the **Summary** tab to track some basic details of the article. In the **Sum
 -   **Tiles** give authors an aggregated view of data in the streams and help them monitor the volume of their knowledge articles.  
   
 ### Knowledge Manager  
- This dashboard is designed specifically for knowledge managers. As a knowledge manager, you can quickly know the most popular articles, articles that need review, highest-rated articles, or articles that are about to expire, and take necessary actions on the articles from here.  
+
+This dashboard is designed specifically for knowledge managers. As a knowledge manager, you can quickly know the most popular articles, articles that need review, highest-rated articles, or articles that are about to expire, and take necessary actions on the articles from here.  
   
- ![Dashboard for knowledge managers](../customer-service/media/v9-knowledge-manager-dashboard.PNG "Dashboard for knowledge managers")  
+ ![Dashboard for knowledge managers.](../customer-service/media/v9-knowledge-manager-dashboard.PNG "Dashboard for knowledge managers")  
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use interactive dashboards to effectively manage service cases](customer-service-hub-user-guide-dashboard.md)
 
 #### Manage versions in alternate keys for knowledge article entity
-If you are creating an alternate key for Knowledge article entity, include the major or minor version in the key to maintain uniqueness. Also, if you are using translations, include the language code along with the version in the key to ensure a seamless translation experience. To know more about alternate keys, see [Define alternate keys for an entity](../developer/define-alternate-keys-entity.md).
+If you are creating an alternate key for Knowledge article entity, include the major or minor version in the key to maintain uniqueness. Also, if you are using translations, include the language code along with the version in the key to ensure a seamless translation experience. To know more about alternate keys, see [Define alternate keys for an entity](../customerengagement/on-premises/developer/define-alternate-keys-entity.md).
 
 ## Prevent duplicate workflows with knowledge article operations   
-If you use [workflow processes](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/workflow-processes) to perform knowledge article operations, such as:
+
+If you use [workflow processes](../customerengagement/on-premises/customize/workflow-processes.md) to perform knowledge article operations, such as:
 - Create a knowledge article
 -	Update a knowledge article
 
@@ -596,12 +699,12 @@ Follow these steps:
 5. In the **General** tab, select the **Add Step** drop-down list, and then select **Check Condition**. A new step will be added.
 
     > [!div class=mx-imgBorder]
-    > ![Select Check Condition](media/workflows-check-condition.png "Select Check Condition from the Add Step drop-down list")
+    > ![Select Check Condition.](media/workflows-check-condition.png "Select Check Condition from the Add Step drop-down list")
   
-6. In the step, select **<condition> (click to configure)**. The **Specify condition** page opens in a new browser window.
+6. In the step, select **&lt;condition&gt; (click to configure)**. The **Specify condition** page opens in a new browser window.
 
     > [!div class=mx-imgBorder]
-    > ![Select the condition to configure](media/workflows-configure-condition.png "Select the condition to configure")
+    > ![Select the condition to configure.](media/workflows-configure-condition.png "Select the condition to configure")
   
 7. From the entity drop-down, select **Knowledge Article**.
 
@@ -614,7 +717,7 @@ Follow these steps:
     - **No** for the update operation.
 
     > [!div class=mx-imgBorder]
-    > ![Set workflow condition](media/workflows-set-condition.png "Select the applicable value for the workflow condition from the drop-down list")
+    > ![Set workflow condition.](media/workflows-set-condition.png "Select the applicable value for the workflow condition from the drop-down list")
 
 11.	Select **Save and Close** to save the condition and close the window.
 
@@ -624,13 +727,10 @@ Now, when you perform a create or update operation, the workflow process will tr
 
 ### See also
 
-[Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md)
-
-[Create knowledge article template](create-templates-knowledge-article.md)
-
-[Set up knowledge management using embedded knowledge search](set-up-knowledge-management-embedded-knowledge-search.md)
-
-[Use Workflow processes to automate processes that don't require user interaction](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/workflow-processes)
+[Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md)  
+[Create knowledge article template](create-templates-knowledge-article.md)  
+[Set up knowledge management using embedded knowledge search](set-up-knowledge-management-embedded-knowledge-search.md)  
+[Use Workflow processes to automate processes that don't require user interaction](../customerengagement/on-premises/customize/workflow-processes.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

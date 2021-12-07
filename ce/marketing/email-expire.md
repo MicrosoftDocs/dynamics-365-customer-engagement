@@ -31,7 +31,7 @@ Some of your customer journeys may include email messages with time-sensitive co
 
 3. Set the static expiration **Date and time** (for example, October 5, 2020 at 12:00 AM). Specified expiry times use the customer journey's time zone.
 
-    ![Journey email-tile expiration date and time](./media/email-expire-settings.png "Journey email-tile expiration date and time")
+    ![Journey email-tile expiration date and time.](./media/email-expire-settings.png "Journey email-tile expiration date and time")
 
 4. Once a journey is live, the expiration date is shown above the email tile:
 

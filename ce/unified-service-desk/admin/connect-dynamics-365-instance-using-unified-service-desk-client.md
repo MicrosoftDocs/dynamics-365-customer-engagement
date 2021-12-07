@@ -1,20 +1,19 @@
 ---
-title: "Connect to a model-driven app using the Unified Service Desk  client | MicrosoftDocs"
-description: "Learn how to connect to the Unified Service Desk solution using the Unified Service Desk client."
+title: "Connect to a model-driven app using Unified Service Desk client | MicrosoftDocs"
+description: "Learn how to sign in to Unified Service Desk using the Unified Service Desk client. Also, learn how to use SSO for Unified Service Desk."
+ms.date: 11/16/2020
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 11/16/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 tags: MigrationHO
 ---
 
@@ -33,7 +32,7 @@ If you want to configure the sign-in experience, such as by pre-populating value
 
 2. In the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sign-in dialog box, provide authentication details to connect to your Dataverse server.
 
-   ![Unified Service Desk client sign-in screen](../../unified-service-desk/media/usd-login.PNG "Unified Service Desk client sign-in screen")  
+   ![Unified Service Desk client sign-in screen.](../../unified-service-desk/media/usd-login.PNG "Unified Service Desk client sign-in screen")  
 
    - For Dataverse, select **Microsoft 365**.  
 
@@ -55,7 +54,7 @@ If you want to configure the sign-in experience, such as by pre-populating value
 
    If you want to change your connection information to sign in, select **Change Credentials** in the splash screen. You'll see the initial sign-in dialog box where you can enter different credentials.  
 
-   ![Unified Service Desk Change Credentials screen](../../unified-service-desk/media/usd-second-signin.png "Unified Service Desk Change Credentials screen")
+   ![Unified Service Desk Change Credentials screen.](../../unified-service-desk/media/usd-second-signin.png "Unified Service Desk Change Credentials screen")
 
 ::: moniker range=">=dynamics-usd-4.1"
 

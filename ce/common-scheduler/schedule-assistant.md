@@ -1,11 +1,10 @@
 ---
-title: "Overview of the Universal Resource Scheduling schedule assistant | MicrosoftDocs"
-description: Learn all about the schedule assistant and how it works in Universal Resource Scheduling
-ms.custom: 
-  - dyn365-fieldservice
+title: "Tour the Universal Resource Scheduling assistant in Dynamics 365"
+description: "The schedule assistant helps dispatchers match jobs with the right resources. Take a tour of the system for a high-level overview of how it works."
 ms.date: 06/18/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: common-scheduler
 ms.topic: overview
 applies_to: 
   - "Dynamics 365 (online)"
@@ -18,7 +17,7 @@ search.app:
   - D365FS
 ---
 
-# Overview of the Universal Resource Scheduling schedule assistant
+# Tour of the schedule assistant in Universal Resource Scheduling
 
 [!INCLUDE[schedule-assistant.md](../shared/urs/schedule-assistant.md)]
 

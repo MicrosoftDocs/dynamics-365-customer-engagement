@@ -4,7 +4,7 @@ description: "Set up OneNote Integration in Dynamics 365 Customer Engagement (on
 ms.custom: 
 ms.date: 02/07/2018
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

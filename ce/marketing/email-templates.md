@@ -33,7 +33,7 @@ The templates included with Dynamics 365 Marketing provide:
 
 The first thing you do each time you create a new message, page, or form is to choose a template.  You can easily work with the supplied content and styles using the designer, but the column layout is semi-permanently established by the template you choose (you can only change it using the HTML code editor).
 
-![Dialog for choosing an email template](media/email-template-dialog2.png "Dialog box for choosing an email template")
+![Dialog for choosing an email template.](media/email-template-dialog2.png "Dialog box for choosing an email template")
 
 When you create a new design, the selected template's content is copied into it. The design and template aren't linked, so when you edit the design, the template won't change; likewise, any future changes that you make to a template won't affect any existing designs that were created using it.
 
@@ -46,7 +46,7 @@ You can easily create custom templates to match your organization's communicatio
 
 All email and page templates included with Dynamics 365 Marketing provide style controls to help you quickly adapt them to the colors used by your organization or campaign. The style settings vary according to which template you choose. Designs based on a blank template don't provide styling controls unless you (or your system customizer) have programmed them to do so by using the right HTML markup.
 
-![Style settings for email templates](media/email-template-styles.png "Style settings for email templates")
+![Style settings for email templates.](media/email-template-styles.png "Style settings for email templates")
 
 Here are some common style settings provided by the out-of-the-box templates:
 
@@ -72,11 +72,11 @@ For template galleries and lists using the tile view, each label appears as a co
 
 In the following screenshot, you can see a tile view of marketing-page templates labelled with &quot;New&quot; (green), &quot;Old&quot; (red), and &quot;VIP&quot; (gold). Use the **Show as** drop-down list to switch views between **Grid** (list) and **Tiles**.
 
-![Template gallery with labels in tile view](media/template-label-example.png "Template gallery with labels in tile view")
+![Template gallery with labels in tile view.](media/template-label-example.png "Template gallery with labels in tile view")
 
 The following screenshot shows the same collection of marketing-page templates, but with **Show as** set to **Grid**. In this example, the labels are shown in the **Tag** column.
 
-![Template gallery with labels in grid view](media/template-label-list.png "Template gallery with labels in grid view")
+![Template gallery with labels in grid view.](media/template-label-list.png "Template gallery with labels in grid view")
 
 ### Set the label for each template
 

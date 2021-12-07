@@ -1,5 +1,7 @@
 ---
-title: "Properties dialog box | MicrosoftDocs"
+title: "Use the properties dialog box in Dynamics 365 Customer Engagement (on-premises)"
+description: "Use the Properties dialog box to view the date a record was created and last modified, and by whom, and the permissions you have on that record."
+ms.prod: d365ce-op
 ms.custom: 
 ms.date: 11/01/2016
 ms.reviewer: 
@@ -15,12 +17,12 @@ ms.assetid: 53829c2b-77ad-4bf1-a9ae-32d8a9660abc
 caps.latest.revision: 22
 author: matp
 ms.author: matp
-manager: brycho
+manager: kvivek
 search.audienceType: 
   - customizer
 
 ---
-# Properties dialog box
+# Use the Properties dialog box to view record information
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 

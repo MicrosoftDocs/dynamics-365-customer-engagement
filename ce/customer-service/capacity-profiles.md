@@ -1,15 +1,16 @@
 ---
 title: Create and manage capacity profiles | MicrosoftDocs
 description: "Know how to create and manage capacity profiles in Customer Service"
+ms.date: 04/09/2021
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/09/2021
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Create and manage capacity profiles
+
+## Introduction
 
 You can create capacity profiles to define the types and amount of work that agents can take. Capacity profiles improve efficiency in work distribution.
 
@@ -17,9 +18,7 @@ You can create capacity profiles to define the types and amount of work that age
 - The supervisor has the flexibility to use the agents for maximum customer services while the agents have the control to work on the maximum number of cases assigned to them daily. The capacity is not considered during consult or monitor.
 - The administrator has the capability to block certain period of agents' time while they are busy working with high priority cases.
 - The supervisor can override the agent's configured capacity and assign work to user manually.
-- The administrator can set the profile-based capacity in the work distribution settings, but the capacity profile can be overridden in work classification.
 - In the queue assignment rule, you can create a rule to find an agent whose capacity profile matches that of the work item.
-
 
 > [!IMPORTANT]
 > We recommend that you configure either capacity profiles or capacity units in your organization, but not both.
@@ -35,7 +34,7 @@ Perform the following steps to configure the capacity profile:
 1. In Omnichannel admin center, select **User attributes** under **Advanced settings** in the site map. In Customer Service Hub, select **User attributes** under **Unified routing** in the site map.
 
   > [!NOTE]
-  > Unified routing must be enabled in Service configuration settings in Customer Service Hub for the **User attributes** area to appear in the site map.
+  > In Customer Service Hub, the **User attributes** area will appear in the site map only if unified routing is enabled in service configuration settings.
 
 2. On the **User attributes** page, select the **Manage** option for **Capacity profile**.
 3. On the **Capacity profiles** page, select **Create new**.
@@ -52,7 +51,17 @@ Perform the following steps to configure the capacity profile:
 > [!NOTE]
 > In Omnichannel Administration, you can create a capacity profile in the **Capacity** area of the **User** page.
 
+## Use capacity profiles
+
+After you have created the capacity profiles, you can configure the following settings to assign work items to agents at runtime:
+
+- Set the capacity profile in the work distribution settings. The profile will be applied to all the work items that are routed through the workstream.
+- Set the capacity profile in a classification ruleset for the workstream as a rule output. This setting will override the capacity profile that you have defined at the work distribution level.
+
+You needn't define assignment rules specific to capacity profiles at queue level to find agents with matching capacity profiles. If capacity profile is attached to a work item, then the system will ensure that the assigned agent has the matching capacity profile.
+
 ### See also
 
 [Create workstreams](create-workstreams.md)  
+[Manage users in Omnichannel for Customer Service](users-user-profiles.md)  
 [Map role personas](role-persona-mapping.md)  

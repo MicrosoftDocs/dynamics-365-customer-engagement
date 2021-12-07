@@ -3,7 +3,7 @@ title: "Sample: Assign a chart to another user | MicrosoftDocs"
 description: ""
 keywords: 
 ms.date: 10/31/2017
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.topic: samples
 applies_to: 

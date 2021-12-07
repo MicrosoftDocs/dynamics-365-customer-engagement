@@ -1,10 +1,10 @@
 ---
-title: "iFrame and web resource support in Dynamics 365 Customer Engagement (on-premises) for tablets and phones | MicrosoftDocs"
-description: "Learn how iFrames or web resources can be used with Dynamics 365 for tablets and phones"
+title: "iFrame and web resource support for mobile in Dynamics 365 Customer Engagement (on-premises)"
+description: "You can add iFrames and web resources to forms and dashboards in a custom business app, and they'll appear in Dynamics 365 for phones and tablets as well."
 ms.custom: 
 ms.date: 12/04/2018
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

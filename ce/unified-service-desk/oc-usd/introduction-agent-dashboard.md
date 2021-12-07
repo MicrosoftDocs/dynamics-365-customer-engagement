@@ -1,12 +1,12 @@
 ---
 title: "Introduction to the agent dashboard | MicrosoftDocs"
 description: "Learn about the Omnichannel for Customer Service for agent dashboard that displays the work items status in three views - My work items, Open work items, and Closed work items."
+ms.date: 07/01/2019
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 07/01/2019
-ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.custom: intro-internal
 monikerRange: '>= dynamics-usd-4.1'
 ---
 # View agent dashboard and agent work items
@@ -26,7 +26,7 @@ The **Omnichannel Agent Dashboard** page consists of the following stream:
  - Closed work items
 
 > [!div class=mx-imgBorder]
-> ![Omnichannel for Customer Service agent interface](../media/oc-usd-agent-interface.png "Omnichannel for Customer Service agent interface")
+> ![Omnichannel for Customer Service agent interface.](../media/oc-usd-agent-interface.png "Omnichannel for Customer Service agent interface")
 
 ## My work items
 

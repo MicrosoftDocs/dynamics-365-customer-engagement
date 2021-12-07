@@ -1,11 +1,9 @@
 ---
 title: "Work order completion surveys with Dynamics 365 Customer Voice (Microsoft Forms Pro) | MicrosoftDocs"
 description: Send work order completion surveys in Dynamics 365 Field Service with Dynamics 365 Customer Voice.
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 10/01/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
@@ -40,7 +38,7 @@ If you're an existing Dynamics 365 Customer Voice user, use [https://forms.offic
 Use the drag-and-drop interface to create your survey.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Forms Pro showing a new survey](./media/work-order-survey-new-form-q1.png)
+> ![Screenshot of Forms Pro showing a new survey.](./media/work-order-survey-new-form-q1.png)
 
 ## Prepare the email template to send the survey
 
@@ -83,7 +81,7 @@ Make sure the primary contact field has a contact that has an email address.
 The primary contact is populated from the primary contact of the related service account.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a Field Service work order](./media/work-order-survey-work-order-before.png)
+> ![Screenshot of a Field Service work order.](./media/work-order-survey-work-order-before.png)
 
 ## Complete work order
 

@@ -4,8 +4,7 @@ description: "Learn about the supported formats to pass parameter values in the 
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/20/2020
-ms.service: dynamics-365-customerservice
+ms.date: 10/07/2021
 ms.topic: article
 ---
 
@@ -57,7 +56,7 @@ The automation dictionary uses the context data parameters that are available fr
 - [Context data from other macro actions](#context-data-from-other-macro-actions)
 
 > [!div class=mx-imgBorder] 
-> ![Automation dictionary](../customer-service/media/automation-dictionary.png "Automation dictionary")
+> ![Automation dictionary.](../customer-service/media/automation-dictionary.png "Automation dictionary")
 
 ### Context data from the channel provider
 
@@ -123,7 +122,7 @@ Macros and agent scripts support the following slugs:
 | `${entityRoutingRecordId}` | The unique ID of the entity record, if the notification is for an entity record. To learn more, see [Entity records routing](../customer-service/entity-channel.md). |
 | `${customerEntityName}` | The name of the entity (contact or account), if the customer is authenticated. |
 | `${customerRecordId}` | The unique ID of the entity (contact or account), if the customer is authenticated. |
-| `${<name of the pre-chat survey questions>}` | All the pre-chat survey questions that are configured for a work stream will have the slug name as the name of the question. |
+| `${<name of the pre-chat survey questions>}` | All the pre-chat survey questions that are configured for a workstream will have the slug name as the name of the question. |
 
 > [!NOTE]
 > Only the `${anchor.<attribute_name>}` slug is supported in the macros and scripts for Customer Service workspace.
@@ -142,7 +141,7 @@ The `${Slug}` parameter format that retrieves the context from the channel provi
 
 **Productivity automation context**
 
-When you want to execute a slug in the productivity automation context, which is used to perform operations related to model-driven apps in Dynamics 365, use the ${<slug>} format.
+When you want to execute a slug in the productivity automation context, which is used to perform operations related to model-driven apps in Dynamics 365, use the ${</slug/>} format.
 
    For example: `${customerName}`
 
@@ -203,7 +202,7 @@ A *slug* is a replacement parameter that the system populates at runtime based o
 | `{entityRoutingRecordId}` | The unique ID of the entity record, if the notification is for an entity record. To learn more, see [Entity records routing](../customer-service/entity-channel.md). |
 | `{customerEntityName}` | The name of the entity (contact or account), if the customer is authenticated. |
 | `{customerRecordId}` | The unique ID of the entity (contact or account), if the customer is authenticated. |
-| `{<name of the pre-chat survey questions>}` | All the pre-chat survey questions that are configured for a work stream will have the slug name as the name of the question. |
+| `{<name of the pre-chat survey questions>}` | All the pre-chat survey questions that are configured for a workstream will have the slug name as the name of the question. |
 
 #### Format for slugs for templates
 
@@ -256,7 +255,7 @@ Session title = `Chat conversation`
 [Manage session templates](session-templates.md)  
 [Manage application tab templates](application-tab-templates.md)  
 [Manage notification templates](notification-templates.md)  
-[Associate templates with work streams](associate-templates.md)  
+[Associate templates with workstreams](associate-templates.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

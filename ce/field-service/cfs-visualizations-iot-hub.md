@@ -1,11 +1,10 @@
 ---
 title: "Visualizing device readings with Connected Field Service| MicrosoftDocs"
 description: Learn how to better understand the state of a device and its repair history with visualized device readings in Connected Field Service.
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 01/19/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
+ms.subservice: connected-field-service
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
@@ -28,7 +27,7 @@ To enable the device readings chart, administrators need to deploy Azure Time Se
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of an IoT alert in Connected Field Service](./media/cfs-device-readings-hover-history.png)
+> ![Screenshot of an IoT alert in Connected Field Service.](./media/cfs-device-readings-hover-history.png)
 
 ## Prerequisites
 
@@ -54,7 +53,7 @@ To enable the device readings chart, administrators need to deploy Azure Time Se
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the deployment screen showing configuration of Azure resources](./media/connected-field-service-IoT-hub-device-measurements-deployment1-2.png)
+> ![Screenshot of the deployment screen showing configuration of Azure resources.](./media/connected-field-service-IoT-hub-device-measurements-deployment1-2.png)
 
 6. Follow the remaining steps in the IoT Deployment app to complete the Time Series Insights deployment.
 - Create the application (client) ID: Follow the steps in [Create an Azure Active Directory application](/azure/active-directory/develop/howto-create-service-principal-portal#create-an-azure-active-directory-application
@@ -63,7 +62,7 @@ To enable the device readings chart, administrators need to deploy Azure Time Se
 ). 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing fields on the Time Series Insights screen](./media/connected-field-service-IoT-hub-device-measurements-deployment2-2.png)
+> ![Screenshot showing fields on the Time Series Insights screen.](./media/connected-field-service-IoT-hub-device-measurements-deployment2-2.png)
 
 > [!Note]
 > - Storage account selection is only available when you're upgrading an existing deployment.
@@ -112,7 +111,7 @@ To view device readings, the following data must be in place:
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of device readings chart showing toolip for work orders](./media/connected-field-service-IoT-hub-device-measurements-workorder.png)
+> ![Screenshot of device readings chart showing toolip for work orders.](./media/connected-field-service-IoT-hub-device-measurements-workorder.png)
 
 > [!Note]
 > If there are no work orders in the selected time period, work order selection will not be displayed.

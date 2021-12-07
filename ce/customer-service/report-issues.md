@@ -1,12 +1,11 @@
 ---
 title: "Report issues in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how you can report issues in Omnichannel for Customer Service to when you raise a support ticket with Microsoft."
+ms.date: 06/03/2020
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/03/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Report issues in Omnichannel for Customer Service
@@ -33,7 +32,7 @@ You can copy the information while communicating with a customer by using one of
 
 4. Paste the diagnostic report in the notepad, and save.
 
-5. Share the diagnostic report when you contact [Microsoft support](https://docs.microsoft.com/power-platform/admin/get-help-support).
+5. Share the diagnostic report when you contact [Microsoft support](/power-platform/admin/get-help-support).
 
 ## Diagnostic report information
 

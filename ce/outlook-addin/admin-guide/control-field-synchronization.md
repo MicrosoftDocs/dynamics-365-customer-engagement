@@ -40,7 +40,7 @@ With field synchronization, admins can set the sync direction between Dynamics 3
   
 4. For the fields you want to change synchronization, choose the arrows in the Sync Direction column. Each choice will change the direction.  
   
-    ![Appointment fields for synchronization](../media/crm-itpro-appointmentfieldsync.png "Appointment fields for synchronization")  
+    ![Appointment fields for synchronization.](../media/crm-itpro-appointmentfieldsync.png "Appointment fields for synchronization")  
   
    > [!TIP]
    >  Hover over a field name to see the fields mapped to it.  

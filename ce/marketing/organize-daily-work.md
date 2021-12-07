@@ -36,7 +36,7 @@ Usually, an application dashboard is the first thing you see when you sign in to
 
 Several standard dashboards are provided, each of which focuses on a particular user role, such as event management, marketing, or sales. The name of the current dashboard is shown at the top of the window. To switch to another dashboard, select the dashboard name, and then select the dashboard you want to open from the drop-down list.
 
-![Choose an application dashboard](media/app-dashboard.png "Choose an application dashboard")
+![Choose an application dashboard.](media/app-dashboard.png "Choose an application dashboard")
 
 A wide variety of dashboards is available, each optimized for a different application and situation. The following dashboards are provided with Dynamics 365 Marketing, and are specifically tailored for marketing users:
 
@@ -47,7 +47,7 @@ A wide variety of dashboards is available, each optimized for a different applic
 
 Each dashboard is interactive, so to learn more about a data point in a graph, try selecting it. For graphs that support interactivity, this will update all the graphs on the page so that they focus on the data point you chose—typically by adding a filter. You can continue exploring your data like this. Each time you add a new filter, you'll see it listed at the top of page. To remove a filter, select its **X** icon here; or select **Clear All** to go back to the top-level view.
 
-![Dashboard filters](media/dashboard-filters.png "Dashboard filters")
+![Dashboard filters.](media/dashboard-filters.png "Dashboard filters")
 
 ### Set a dashboard as default
 
@@ -89,7 +89,7 @@ In each case, you'll arrive at a standard list view, which you can use to sort, 
 
 You can apply a standard filter (system view) to any of these views by selecting the view selector (the down arrow next to the view name at the top of the page) and choosing a relevant entry from the drop-down list (such as **My Phone Calls**). To set one of these views as the default, select the push-pin icon next to the relevant view.
 
-![View selector for lists](media/view-selector.png "View selector for lists")
+![View selector for lists.](media/view-selector.png "View selector for lists")
 
 Activities that you create from these list views stand alone, which means they won't be related to other relevant records in Dynamics 365. These are probably most useful for when you want to schedule something personal, like a doctor's appointment or sporting event. Otherwise, to keep a history of your interactions with a customer, campaign, or event, you should add new activities while working with the relevant record, so those activities become part of the history that other people on your team can view.
 
@@ -103,7 +103,7 @@ Many entities in Dynamics 365 provide lists of related activities. To see them, 
 
 After you call someone, complete a task, or go to an appointment, you can mark the activity for that action as completed by opening the relevant activity and then selecting **Mark Complete** in the command bar.
 
-![Mark an activity as complete](media/activity-complete-ill.png "Mark an activity as complete")
+![Mark an activity as complete.](media/activity-complete-ill.png "Mark an activity as complete")
 
 ## Quick create – Enter new records fast
 
@@ -111,7 +111,7 @@ The quick-create command makes it fast and easy to enter almost any type of info
 
 With quick create, you need to complete only a few fields. Later, when you have more time or more information, you can fill in more details.
 
-1. On the nav bar, select the plus sign ![The nav bar quick-create button ](media/quick-create-button.png "The nav bar quick-create button ") to open a menu of available entities, and then select the type of entity you want to create.
+1. On the nav bar, select the plus sign ![The nav bar quick-create button .](media/quick-create-button.png "The nav bar quick-create button ") to open a menu of available entities, and then select the type of entity you want to create.
 
 1. A quick-create form slides in from the side of the screen, presenting only the most important and required fields. Fill in the fields, and then select **Save**.
 

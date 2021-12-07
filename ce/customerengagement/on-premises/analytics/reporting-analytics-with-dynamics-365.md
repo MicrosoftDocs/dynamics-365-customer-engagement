@@ -1,10 +1,11 @@
 ---
-title: "Reporting and Analytics Guide (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Reporting and analytics guide for Dynamics 365 Customer Engagement (on-premises)"
+description: "Get familiar with the data and visualization features in Dynamics 365 Customer Engagement (on-premises), including reports, charts, and dashboards."
 ms.custom: 
   - NaosGA
 ms.date: 09/30/2017
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -21,7 +22,7 @@ search.audienceType:
   - customizer
 
 ---
-# Report writing guide for Dynamics 365 Customer Engagement (on-premises), version 9
+# Report writing guide for Dynamics 365 Customer Engagement (on-premises), version 9.x
 
 Microsoft Dynamics 365 Customer Engagement (on-premises) includes reports, charts, and dashboards that provide useful business information and visualizations to the user.  
 

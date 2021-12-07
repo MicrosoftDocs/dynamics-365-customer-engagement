@@ -49,7 +49,7 @@ As of December 3, 2018, Microsoft Dynamics 365 for Blackberry App is deprecated 
   
 4. On the **Let’s get set up!** screen, enter your company’s Dynamics 365 apps web address.  
   
-   ![Dynamics 365 for tablets Let's get started screen for iPad](../admin/media/mobile-start-screen-apple.png "Dynamics 365 for tablets Let's get started screen for iPad")  
+   ![Dynamics 365 for tablets Let's get started screen for iPad.](../admin/media/mobile-start-screen-apple.png "Dynamics 365 for tablets Let's get started screen for iPad")  
   
 5. Tap the **Arrow** button in the lower right corner to continue.  
   

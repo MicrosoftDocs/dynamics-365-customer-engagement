@@ -1,12 +1,11 @@
 ---
 title: "Suggested actions for a Power Virtual Agents bot | MicrosoftDocs"
-description: "Suggested actions are displayed vertically" 
-author: meghanalanka    
-ms.author: v-mlanka
-manager: shujoshi 
-ms.date: 03/04/2021 
+description: "Suggested actions are displayed vertically"
+ms.date: 03/04/2021
 ms.topic: article
-ms.service: dynamics-365-customerservice
+author: meghanalanka
+ms.author: v-mlanka
+manager: shujoshi
 ms.reviewer: nenellim
 ---
 

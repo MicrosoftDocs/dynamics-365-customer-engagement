@@ -1,9 +1,10 @@
 ---
-title: "Skype for Business and SKype integration with Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Use Skype or Skype for Business with Dynamics 365 Customer Engagement apps"
+description: "Integrate Skype or Skype for Business with Dynamics 365 Customer Engagement apps to use features like click-to-call or checking user availability."
 ms.custom: 
 ms.date: 08/07/2020
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -19,7 +20,7 @@ search.audienceType:
   - admin
 
 ---
-# Skype for Business and Skype integration
+# Integrate Skype or Skype for Business with Customer Engagement apps
 
 *This content also applies to the on-premises version.*
 

@@ -1,14 +1,14 @@
 ---
-title: "lcw onMinimize | MicrosoftDocs"
-description: lcw onMinimize (Omnichannel for Customer Service JavaScript API reference)
-author: platkat
-ms.author: ktaylor
-manager: shujoshi
+title: "lcw:onMinimize | MicrosoftDocs"
+description: lcw onMinimize event (Omnichannel for Customer Service JavaScript API reference)
 ms.topic: article
+ms.date: 11/10/2021
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 ms.reviewer: nenellim
-ms.service: dynamics-365-customerservice
 ---
-# lcw:onMinimize (Omnichannel for Customer Service JavaScript API reference)
+# lcw:onMinimize event (Omnichannel for Customer Service JavaScript API reference)
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
@@ -22,9 +22,17 @@ window.addEventListener("lcw:onMinimize", function handleWidgetMinimizeEvent(){ 
 
 ### See also
 
-[lcw:onMaximize](lcw-onmaximize.md)<br />
-[lcw:ready](lcw-ready.md)<br />
-[lcw:error](lcw-error.md)<br />
+[lcw:ready](lcw-ready.md)  
+[lcw:error](lcw-error.md)  
+[lcw:chatRetrieved](lcw-chatRetrieved.md)  
+[lcw:chatQueued](lcw-chatQueued.md)  
+[lcw:onClose](lcw-onClose.md)  
+[lcw:startChat](lcw-startChat.md)   
+[lcw:closeChat](lcw-closeChat.md)  
+[lcw:onMaximize](lcw-onMaximize.md)  
+[lcw:onMessageReceived](lcw-onMessageReceived.md)  
+[lcw:onMessageSent](lcw-onMessageSent.md)  
+[lcw:threadUpdate](lcw-threadUpdate.md)   
 [Live chat SDK JavaScript API reference](../../omnichannel-reference.md)
 
 

@@ -1,11 +1,9 @@
 ---
 title: "The five stages of scheduling adoption | MicrosoftDocs"
 description: Learn about the different stages of scheduling adoption for field service organizations.
-ms.custom: 
-  - dyn365-fieldservice
 ms.date: 02/01/2019
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.topic: conceptual
 applies_to: 
   - "Dynamics 365 (online)"
@@ -63,10 +61,10 @@ What organizations choose to measure and track depends on their business goals. 
 4.  How many jobs weren't scheduled
 
 > [!div class="mx-imgBorder"]
-![Screenshot of resource scheduling optimization results bar graph comparing working time to travel time of optimized requirements](media/scheduling-adoption-guide-rso-working-time-vs-travel-time.png)
+![Screenshot of resource scheduling optimization results bar graph comparing working time to travel time of optimized requirements.](media/scheduling-adoption-guide-rso-working-time-vs-travel-time.png)
 
 > [!div class="mx-imgBorder"]
-![Screenshot of resource scheduling optimization results stacked bar graph comparing priorities of optimized requirements](media/scheduling-adoption-guide-rso-bar-graph-priorities.png)
+![Screenshot of resource scheduling optimization results stacked bar graph comparing priorities of optimized requirements.](media/scheduling-adoption-guide-rso-bar-graph-priorities.png)
 
 After optimization, analysts can then review:
 

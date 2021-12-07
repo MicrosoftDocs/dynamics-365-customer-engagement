@@ -27,7 +27,7 @@ Use the following links to download a template for running the report on your ow
 
 |Download report template  |Download sample report  |
 |---------|---------|
-[![Download template](media/IconDownloadTemplate30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/PowerBI-Templates/MarketingAnalyzers%20-%20Form%20Submissions.pbit)|[![Download sample report](media/IconDownloadReport30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/pbx%20files/MarketingAnalyzers%20-%20Form%20Submissions.pbix)|
+[![Download template.](media/IconDownloadTemplate30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/PowerBI-Templates/MarketingAnalyzers%20-%20Form%20Submissions.pbit)|[![Download sample report](media/IconDownloadReport30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/pbx%20files/MarketingAnalyzers%20-%20Form%20Submissions.pbix)|
 
 > [!NOTE]
 > You can find the full list of marketing analytics downloads in the [marketing analytics reporting gallery](analytics-gallery-start.md#gallery).
@@ -49,7 +49,7 @@ In addition to the [common report pages](analytics-gallery-framework.md#common-r
 
 Each report includes a filter pane on the left that lets you quickly select the relevant marketing activities to focus on. You can also chose the relevant time frame for your exploration.
 
-![marketing-form submission report home page](media/MarketingForm/FormSubmissionHome.png "Marketing-form submission report home page")
+![marketing-form submission report home page.](media/MarketingForm/FormSubmissionHome.png "Marketing-form submission report home page")
 
 <a name="submission-timeline"></a>
 
@@ -57,7 +57,7 @@ Each report includes a filter pane on the left that lets you quickly select the 
 
 Use this report page to see a timeline of form-submission history across all your marketing forms.
 
-![marketing-form submission timeline](media/MarketingForm/SubmissionTimeline.png "Marketing-form submission timeline")
+![marketing-form submission timeline.](media/MarketingForm/SubmissionTimeline.png "Marketing-form submission timeline")
 
 <a name="submission-details"></a>
 
@@ -65,7 +65,7 @@ Use this report page to see a timeline of form-submission history across all you
 
 You can also find a more detailed view of all form submissions.
 
-![marketing-form submission details](media/MarketingForm/SubmissionDetails.png "Marketing-form submission details")
+![marketing-form submission details.](media/MarketingForm/SubmissionDetails.png "Marketing-form submission details")
 
 <a name="submission-values"></a>
 
@@ -73,7 +73,7 @@ You can also find a more detailed view of all form submissions.
 
 See what values have been submitted against which fields for all marketing forms.
 
-![Submitted values report](media/MarketingForm/SubmissionValues.png "Submitted values report")
+![Submitted values report.](media/MarketingForm/SubmissionValues.png "Submitted values report")
 
 <a name="leaderboard"></a>
 
@@ -85,7 +85,7 @@ This leaderboard displays various types of conversions from your marketing forms
 - Created the most new contacts or updated the most existing contacts.
 - Created the most new leads or updated the most existing leads.
 
-![Conversion leaderboard from marketing-form submissions](media/MarketingForm/SubmissionConversionLeaderboard.png "Conversion leaderboard from marketing-form submissions")
+![Conversion leaderboard from marketing-form submissions.](media/MarketingForm/SubmissionConversionLeaderboard.png "Conversion leaderboard from marketing-form submissions")
 
 ***Happy analytics reporting with Dynamics 365 Marketing!***
 

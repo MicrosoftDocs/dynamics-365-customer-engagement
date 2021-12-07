@@ -1,12 +1,11 @@
 ---
 title: "Visualize device readings | MicrosoftDocs"
 description: "Learn how to enable and use device readings in Connected Customer Service for Azure IoT Central."
+ms.date: 04/03/2020
+ms.topic: article
 author: lalexms
 ms.author: lalexms
 manager: shujoshi
-ms.date: 04/03/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Visualize device readings
@@ -33,16 +32,16 @@ To enable the device readings chart, administrators need to deploy Azure Time Se
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the deployment screen showing configuration of Azure resources](./media/cs-iot-device-measurements-deployment.png)
+> ![Screenshot of the deployment screen showing configuration of Azure resources.](./media/cs-iot-device-measurements-deployment.png)
 
 6. Follow the remaining steps in the IoT Deployment app to complete the Time Series Insights Preview deployment.
-- Create the application (client) ID: Follow the steps in [Create an Azure Active Directory application](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#create-an-azure-active-directory-application
+- Create the application (client) ID: Follow the steps in [Create an Azure Active Directory application](/azure/active-directory/develop/howto-create-service-principal-portal#create-an-azure-active-directory-application
 ).
-- Create the client secret: Follow the steps in [Create a new application secret](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#create-a-new-application-secret
+- Create the client secret: Follow the steps in [Create a new application secret](/azure/active-directory/develop/howto-create-service-principal-portal#create-a-new-application-secret
 ). 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing fields on the Time Series Insights Preview screen](./media/cs-iot-device-measurements-deployment-2.png)
+> ![Screenshot showing fields on the Time Series Insights Preview screen.](./media/cs-iot-device-measurements-deployment-2.png)
 
 > [!Note]
 > - Storage account selection is only available when you're upgrading an existing deployment.
@@ -66,7 +65,7 @@ To view device readings, the following data must be in place:
  1. Open the **Device Readings (Preview)** tab on IoT alert, work order, case, device, or asset form.
 
  > [!div class="mx-imgBorder"]
-> ![Screenshot of an example of the device readings chart](./media/cs-iot-device-readings.png)
+> ![Screenshot of an example of the device readings chart.](./media/cs-iot-device-readings.png)
 
 2. Choose the time period from the drop-down list. If the device sends device measurements to TSI, and the device measurement data exists for the selected time period, a chart is loaded.  
 
@@ -75,12 +74,12 @@ To view device readings, the following data must be in place:
 4. Hover over the chart to see tooltip with measurement details. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the device readings chart with tooltip showing](./media/cs-iot-hub-device-measurements-hoover.png)
+> ![Screenshot of the device readings chart with tooltip showing.](./media/cs-iot-hub-device-measurements-hoover.png)
 
 5. Select the icon to view service history details. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of device readings chart showing service history](./media/cs-iot-service-history.png)
+> ![Screenshot of device readings chart showing service history.](./media/cs-iot-service-history.png)
 
 6. Select the eye icon next to **Service history** to show or hide any case created and closed during the selected time period.
 

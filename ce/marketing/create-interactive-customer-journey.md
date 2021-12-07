@@ -29,11 +29,11 @@ In [Create a simple customer journey with email messaging](create-simple-custome
 
 1. This message will invite recipients to pick up a free download from your website. To get the free download, they'll need to visit the landing page, submit a form, and then wait for a follow-up email that contains the download link. (The message content would normally explain all of this, but for this exercise it's not necessary.) With your new email message still open, drag a **Marketing Page** design element from the **Toolbox** onto the design canvas.
   
-    ![Add a marketing-page element to a message](media/email-add-page-block3.png "Add a Marketing Page element to a message")
+    ![Add a marketing-page element to a message.](media/email-add-page-block3.png "Add a Marketing Page element to a message")
 
 1. When you drop the **Marketing Page** element in place, it is automatically selected and the **Properties** tab opens to show its settings.
  
-    ![Assign a page to the page element](media/email-page-block-properties3.png "Assign a page to the page element")
+    ![Assign a page to the page element.](media/email-page-block-properties3.png "Assign a page to the page element")
 
     Set the **Marketing Page** field to the name of the landing page you made in [Create a landing page with a form](create-landing-page.md) (or any valid landing page).  
 
@@ -41,7 +41,7 @@ In [Create a simple customer journey with email messaging](create-simple-custome
    - Edit and style the button text by working directly on the canvas and using the floating toolbar, just as you would with a **Text** element. You might enter text such as **Click here to register for your download**.
    - Working on the **Properties** tab, choose a background color, text color, height, and width for the button.
 
-     ![A page element with styles applied](media/email-page-block-styled2.png "A page element with styles applied")
+     ![A page element with styles applied.](media/email-page-block-styled2.png "A page element with styles applied")
 
 1. As before, **Save** your message, choose **Check for Errors**, fix any issues, and then **Go Live**.
 
@@ -55,19 +55,19 @@ In [Create a simple customer journey with email messaging](create-simple-custome
    - Configure an **Audience** tile in the first position by selecting the **Segment** you made in [Create a dynamic segment](create-segment.md) as the source of the audience.
    - Add an **Email** tile right after the **Audience** tile and configure it to reference the first email message you made for this exercise (with the landing page button).
 
-     ![A customer journey with a simple email campaign](media/journey-email-only2.png "A customer journey with a simple email campaign")  
+     ![A customer journey with a simple email campaign.](media/journey-email-only2.png "A customer journey with a simple email campaign")  
 
 1. Although your email message includes a link to a landing page, the journey is not aware of that link, or even of the landing page itself. This journey should react to landing page submissions, so you need to reference the marketing page inside the email tile properties. Go to the **Send an email** tile **Properties** and add the correct **Page** item inside the **Email elements** category.
   
-    ![Add a marketing page to an email tile](media/journey-add-page2.png "Add a marketing page to an email tile")
+    ![Add a marketing page to an email tile.](media/journey-add-page2.png "Add a marketing page to an email tile")
 
 1. Now add a condition ("If/then") tile. *If/then tiles* add interactivity to the journey by splitting the pipeline and establishing logical criteria for deciding which path each contact will take. Select an **If/then** tile from the in-place menu on the canvas and add it immediately to the right of the **Send an email** tile.  
 
-    ![Add a if/then tile](media/journey-add-ifthen-tile.png "Add a if/then tile")
+    ![Add a if/then tile.](media/journey-add-ifthen-tile.png "Add a if/then tile")
 
 1. The **Properties** for the **If/then** tile will automatically appear on the right side of the canvas.
   
-     ![Define the if/then rule](media/journey-ifthen-rule-define.png "Define the if/then rule")
+     ![Define the if/then rule.](media/journey-ifthen-rule-define.png "Define the if/then rule")
 
      Make the following settings for **Condition**:
     - **Source**: Choose the name of the **Marketing Page** tile you added to the **Send an email** tile properties. This references the name of the marketing page itself.
@@ -75,7 +75,7 @@ In [Create a simple customer journey with email messaging](create-simple-custome
 
 1. With the **If/then** tile still selected and the **Properties** tab still open, set **Wait up to** to establish how long contacts will wait on this tile before being sent down the false (bottom) path if they don't submit the registration form. Three days is a typical timeout value, but the best choice depends on your circumstances.
 
-    ![Set the if/then timeout](media/journey-ifthen-timeout.png "Set the if/then timeout")
+    ![Set the if/then timeout.](media/journey-ifthen-timeout.png "Set the if/then timeout")
 
     This expression evaluates to true as soon as a contact submits valid information by using the referenced landing page. Each contact will wait at this condition tile either until its logic evaluates to true or until the **Wait up to** period has elapsed, whichever comes first. As soon as a contact fulfills the requirements, it's sent down the true (top) path; if the Wait up to expires first, the contact is sent down the false (bottom) path instead.
 
@@ -84,7 +84,7 @@ In [Create a simple customer journey with email messaging](create-simple-custome
 
 1. Add two more **Send an email** tiles after the if/then tile, one on the top path and one on the bottom path.  
   
-     ![Add an email tile to each path](media/journey-ifthen-paths.png "Add an email tile to each path")  
+     ![Add an email tile to each path.](media/journey-ifthen-paths.png "Add an email tile to each path")  
 
     Configure the tiles as follows:
     - **Top tile**: This message is sent to contacts who submit the form (when the if/then condition evaluates to true). Configure it to send the download link message that you created earlier in this procedure.

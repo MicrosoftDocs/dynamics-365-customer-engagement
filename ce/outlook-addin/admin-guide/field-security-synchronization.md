@@ -37,7 +37,7 @@ Securing a field in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md
 ### Set field level security  
  John, the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] admin for Contoso, sets security on several fields.  
   
- ![Job Title field in Microsoft Dynamics 365 apps](../media/crm-itpro-jobtitlefield.png "Job Title field in Microsoft Dynamics 365 apps")  
+ ![Job Title field in Microsoft Dynamics 365 apps.](../media/crm-itpro-jobtitlefield.png "Job Title field in Microsoft Dynamics 365 apps")  
   
  He did the following steps:  
   
@@ -60,7 +60,7 @@ Securing a field in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md
 ### Create and configure a field security profile  
  John creates a field security profile and assigns sales team members to the profile.  
   
- ![Field Security Profile in Dynamics 365 apps](../media/crm-itpro-fieldsecurityprofile.png "Field Security Profile in Dynamics 365 apps")  
+ ![Field Security Profile in Dynamics 365 apps.](../media/crm-itpro-fieldsecurityprofile.png "Field Security Profile in Dynamics 365 apps")  
   
  He did the following to create the field security profile:  
   
@@ -79,7 +79,7 @@ Securing a field in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md
 ### Set field permissions  
  With a field security profile created and users added to the profile, John can now set permissions on the fields to match his organization’s requirements.  
   
- ![Edit Field Security form in Dynamics 365 apps](../media/crm-itpro-editfieldsecurity.png "Edit Field Security form in Dynamics 365 apps")  
+ ![Edit Field Security form in Dynamics 365 apps.](../media/crm-itpro-editfieldsecurity.png "Edit Field Security form in Dynamics 365 apps")  
   
 1. [!INCLUDE[proc_settings_security](../../includes/proc-settings-security.md)]  
   
@@ -92,17 +92,17 @@ Securing a field in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md
 ### What the user sees  
  Nancy, a salesperson at Contoso, uses [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] and creates a new contact and tracks it in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)].  
   
- ![Contact Rene Valdes form in Dynamics 365 apps](../media/crm-itpro-contactrenevaldes.png "Contact Rene Valdes form in Dynamics 365 apps")  
+ ![Contact Rene Valdes form in Dynamics 365 apps.](../media/crm-itpro-contactrenevaldes.png "Contact Rene Valdes form in Dynamics 365 apps")  
   
  When Nancy synchronizes with [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], she notices that the Job Title field is gone from the contact. This is because Nancy doesn’t have update rights for the Job Title field.  
   
- ![Rene contact with no Job Title in Dynamics 365 apps](../media/crm-itpro-contactnojobtitle.png "Rene contact with no Job Title in Dynamics 365 apps")  
+ ![Rene contact with no Job Title in Dynamics 365 apps.](../media/crm-itpro-contactnojobtitle.png "Rene contact with no Job Title in Dynamics 365 apps")  
   
  Nancy’s manager, with update rights to the Job Title field, fills in the field with the correct job title: Construction Manager.  
   
  Nancy synchronizes again with [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] and now the Job Title field is in the contact with the correct title.  
   
- ![Contact with Job Title form in Dynamics 365 apps](../media/crm-itpro-contactwithjobtitle.png "Contact with Job Title form in Dynamics 365 apps")  
+ ![Contact with Job Title form in Dynamics 365 apps.](../media/crm-itpro-contactwithjobtitle.png "Contact with Job Title form in Dynamics 365 apps")  
   
 ### See Also  
  [Field level security to control access](/power-platform/admin/field-level-security)

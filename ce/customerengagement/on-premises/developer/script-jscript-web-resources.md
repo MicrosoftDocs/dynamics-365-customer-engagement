@@ -4,7 +4,7 @@ description: "Learn about using JavaScript web resources to create a library of 
 ms.custom: 
 ms.date: 03/02/2018
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

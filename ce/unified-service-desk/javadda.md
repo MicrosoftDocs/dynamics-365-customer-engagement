@@ -1,20 +1,19 @@
 ---
 title: "JavaDDA in Unified Service Desk | MicrosoftDocs"
 description: "The Java data-driven adapter (JavaDDA) uses the Java Access Bridge to automate Java applications. User Interface Integration (UII) supports Java Access Bridge 2.0.2."
+ms.date: 08/23/2017
+ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/23/2017
-ms.topic: article
-ms.service: dynamics-365-customerservice
-ms.custom: 
-  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # JavaDDA in Unified Service Desk
 The [!INCLUDE[pn_Java](../includes/pn-java.md)] data-driven adapter (JavaDDA) uses the [Java Access Bridge](https://www.oracle.com/technetwork/java/javase/tech/index-jsp-136191.html) to automate [!INCLUDE[pn_Java](../includes/pn-java.md)] applications. [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] supports Java Access Bridge 2.0.2. You can use tools such as [Java Monkey](https://docs.oracle.com/javase/accessbridge/2.0.2/javamonkey.htm) and [Java Ferret](https://docs.oracle.com/javase/accessbridge/2.0.2/javaferret.htm) to understand the accessibility structure of the application. To use the DDA, you need to inspect the application using either of these tools, and build the bindings manually and feed them to the DDA using initstring.  
@@ -35,9 +34,9 @@ The [!INCLUDE[pn_Java](../includes/pn-java.md)] data-driven adapter (JavaDDA) us
   
 -   [Search Path Node Tag](../unified-service-desk/search-path-node-tag.md)  
   
--   [Next Tag](../unified-service-desk/next-tag-javadda.md) [](../unified-service-desk/next-tag-javadda.md "Next Tag")  
+-   [Next Tag](../unified-service-desk/next-tag-javadda.md)  
   
--   [NextRole Tag](../unified-service-desk/nextrole-tag.md) [](../unified-service-desk/nextrole-tag.md "NextRole Tag")  
+-   [NextRole Tag](../unified-service-desk/nextrole-tag.md) 
   
 -   [FindWindow search path tag](../unified-service-desk/find-window-search-path-tag.md)  
   

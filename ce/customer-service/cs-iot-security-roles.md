@@ -1,12 +1,11 @@
 ---
 title: "Security roles for Connected Customer Service | MicrosoftDocs"
 description: "Learn how security roles for Connected Customer Service allow administrators to give appropriate access to Internet of Things (IoT) entities."
+ms.date: 04/03/2020
+ms.topic: article
 author: lalexms
 ms.author: lalexms
 manager: shujoshi
-ms.date: 04/03/2020
-ms.topic: article
-ms.service: dynamics-365-customerservice
 ---
 
 # Security roles for Connected Customer Service
@@ -17,7 +16,7 @@ Security roles for Connected Customer Service allow administrators to give appro
 - CSR should be given the IoT Administrator and IoT Endpoint User security roles. General knowledge of Customer Service security roles. For more information, see the topic on setting up customer service users and security roles. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of device management](media/cs-iot-entities-navbar.png)
+> ![Screenshot of device management.](media/cs-iot-entities-navbar.png)
 
 In general, access to IoT entities should mimic access to the customer asset entity for field service administrators, dispatchers, and resources.
 
@@ -25,7 +24,7 @@ In general, access to IoT entities should mimic access to the customer asset ent
 - The CSR admin should be granted Dynamics 365 system administrator access. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of an admin security role](media/cs-iot-admin-security-role.png)
+> ![Screenshot of an admin security role.](media/cs-iot-admin-security-role.png)
 
 
 

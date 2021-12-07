@@ -1,10 +1,10 @@
 ---
-title: "Define status reason transitions | MicrosoftDocs"
-description: "Learn how to define status reason transitions"
+title: "Define status reason transitions in Dynamics 365 Customer Engagement (on-premises)"
+description: "Use status reason transitions as an additional level of filtering to define what the value can be changed to for each status reason."
 ms.custom: 
 ms.date: 11/28/2018
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -21,7 +21,7 @@ search.audienceType:
 
 ---
 
-# Define status reason transitions for the Case or custom entities
+# Define status reason transitions for a Case entity or custom entity
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Define status reason transitions for the Case or custom entities](/powerapps/maker/common-data-service/define-status-reason-transitions)
 
@@ -66,7 +66,7 @@ You can specify status reason transitions for the Incident (**Case**) entity or 
   > [!NOTE]
   >  This is not a good example for real work, but it demonstrates how stages of status can be enforced through status reason transitions.  
   
-  ![Example of status reason transitions for case](../customize/media/status-reason-transitions-example.PNG "Example of status reason transitions for case")  
+  ![Example of status reason transitions for case.](../customize/media/status-reason-transitions-example.PNG "Example of status reason transitions for case")  
   
 ### See Also  
  [Create and edit fields](../customize/create-edit-fields.md)   

@@ -56,7 +56,7 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
   
 2. In the upper-right corner of the [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] home page, click your account picture > **View account**.  
   
-    ![View Microsoft 365 account settings](../media/o365-settings-account.png "View Microsoft 365 account settings")  
+    ![View Microsoft 365 account settings.](../media/o365-settings-account.png "View Microsoft 365 account settings")  
   
 3. Click **Settings** > **Software** > **Tools & add-ins**.  
   
@@ -64,12 +64,12 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
   
 5. When prompted, restart [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)]. This will automatically start the Configuration Wizard and you’ll see the following dialog box:  
   
-    ![Add a Dynamics 365 apps Organization dialog box](../media/crm-outlook-add-organization.png "Add a Dynamics 365 apps Organization dialog box")  
+    ![Add a Dynamics 365 apps Organization dialog box.](../media/crm-outlook-add-organization.png "Add a Dynamics 365 apps Organization dialog box")  
   
    > [!NOTE]
    >  If the Configuration Wizard doesn’t start automatically, in the Start screen, search for **Configuration Wizard** and run it.  
   
-6. In the list, select **Dynamics 365 apps **, and then choose **Connect**.  
+6. In the list, select **Dynamics 365 apps**, and then choose **Connect**.  
   
 > [!TIP]
 >  If you encounter an issue installing, connecting, or enabling [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] with your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] organization, use the [Microsoft Support and Recovery Assistant](https://aka.ms/crmocpub) to diagnose and fix the issue. You’ll need to sign in to the diagnostics tool with your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] credentials.

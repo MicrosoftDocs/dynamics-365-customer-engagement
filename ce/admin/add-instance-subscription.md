@@ -1,5 +1,6 @@
 ---
-title: "Add an instance to your subscription  | MicrosoftDocs"
+title: "Add a Dynamics 365 instance to your subscription"
+description: "The creation and management of instances (now called environments) has transitioned to the Power Platform admin center. See this page for more information."
 ms.custom: 
   - dyn365-deflc
 ms.date: 08/12/2020
@@ -21,7 +22,7 @@ search.app:
 ---
 # Add an instance to your subscription
 
-Management of instances (now called environments) has transitioned to the [Power Platform Admin center](https://admin.powerplatform.microsoft.com). For more information, see [Create and manage environments](/power-platform/admin/create-environment).
+Management of instances (now called environments) has transitioned to the [Power Platform admin center](https://admin.powerplatform.microsoft.com). For more information, see [Create and manage environments](/power-platform/admin/create-environment).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

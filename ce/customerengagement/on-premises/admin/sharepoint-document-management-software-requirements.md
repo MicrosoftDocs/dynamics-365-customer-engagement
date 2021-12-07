@@ -1,9 +1,10 @@
 ---
-title: "SharePoint Document Management software requirements  | MicrosoftDocs"
+title: "SharePoint software requirements for Dynamics 365 Customer Engagement (on-premises)"
+description: "If you want to use SharePoint document management functionality with Customer Engagement (on-premises), you must meet the following requirements."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -19,7 +20,7 @@ search.audienceType:
   - admin
 
 ---
-# SharePoint Document Management software requirements
+# Software requirements for SharePoint document management
 
 If you want to use [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)] document management functionality with Dynamics 365 Customer Engagement (on-premises), you must meet the requirements listed here:  
 
