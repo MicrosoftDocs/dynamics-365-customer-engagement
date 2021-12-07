@@ -29,14 +29,18 @@ Natural language input enables you to use common words and phrases to describe a
 
 ## Use natural language input
 
-To use natural language input in real-time marketing, select the box and light bulb icon:
-
-> [!div class="mx-imgBorder"]
-> ![Use natural language input.](media/real-time-marketing-nl-condition-input.png "Use natural language input")
+1. To create a condition using natural language, go to **Real-time marketing** > **Customer engagement** > **Journeys** and open an existing journey or create a new one.
+1. Select the plus sign to add an element, then add an attribute branch to branch based on a specific value.
+1. A side pane titled **Attribute** will open. Enter the following information in the side pane:
+    - **Display name**: To identify your attribute branch, enter a name for it.
+    - The manual input will appear by default. To use natural language input, select the lightbulb icon.
+        > [!div class="mx-imgBorder"]
+        > ![Use natural language input.](media/real-time-marketing-nl-condition-input.png "Use natural language input")
+    - Type your clauses using natural language the text box.
 
 ## Sample conditions
 
-You can create a segment that will evaluate your Dynamics 365 organizational database for customers who meet a certain criterion. For example, customers with an annual income of $100,000.
+You can create a segment that will evaluate your Dynamics 365 organizational database for customers that meet a certain criterion. For example, customers with an annual income of $100,000.
 
 The following are examples of simple conditional phrases using natural language:
 
@@ -61,12 +65,13 @@ The following are examples of simple conditional phrases using natural language:
 
 The natural language model is constantly learning. If you try a query that doesn’t work, you are always welcome to provide feedback.
 
-To provide feedback:
+To provide feedback after you've entered a natural language clause:
 
-1. Select the thumb down icon.
+1. A thumbs up/thumbs down icon will appear below the text box.
 
     > [!div class="mx-imgBorder"]
     > ![Natural language feedback.](media/real-time-marketing-nl-condition-feedback.png "Natural language feedback")
 
+1. Select the **thumbs down** icon.
 1. Select **Send feedback**.
 1. Enter a short explanation of what happened. Add comments about what you would expect the phrase to look like.
