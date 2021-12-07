@@ -51,7 +51,7 @@ Here is just one example: Field Service processes calculate the _Estimated Arriv
 
 For more information, see these articles: 
 - [Optimize model-driven app form performance in Power Apps](/powerapps/maker/model-driven-apps/optimize-form-performance)
-- [Design forms for performance in model-driven apps](https://docs.microsoft.com/powerapps/maker/model-driven-apps/design-performant-forms)
+- [Design forms for performance in model-driven apps](/powerapps/maker/model-driven-apps/design-performant-forms)
 
 ## Do not edit option set (choice) values
 
