@@ -1,7 +1,7 @@
 ---
 title: Set up a search provider in Customer Service Hub (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Learn how to set up a search provider for knowledge management in Dynamics 365 Customer Service
-ms.date: 12/06/2021
+ms.date: 12/07/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
