@@ -1,7 +1,7 @@
 ---
 title: "Use AI-driven run-time channel optimization (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Use AI-driven run-time channel optimization for real-time marketing."
-ms.date: 08/02/2021
+ms.date: 12/06/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -43,6 +43,9 @@ The AI model operates autonomously and in real time to understand the journey go
     > [!NOTE]
     > The AI model will still evaluate the channels objectively if the audience distributed to the default channel successfully reaches the journey goal.
 1. Choose the content for your channels.
+
+    > [!div class="mx-imgBorder"]
+    > ![Channel optimization side panel.](media/real-time-marketing-channel-optimization-sidepane.png "Channel optimization side panel")
 
 ## Assess channel optimization analytics
 
