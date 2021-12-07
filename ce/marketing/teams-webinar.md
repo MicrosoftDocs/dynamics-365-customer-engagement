@@ -1,7 +1,7 @@
 ---
 title: "Run webinars and meetings with Microsoft Teams (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create and host live events in Dynamics 365 Marketing using Microsoft Teams as the webinar provider."
-ms.date: 12/06/2021
+ms.date: 12/08/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -128,7 +128,7 @@ The Teams meetings option allows you to create an interactive online meeting exp
 After selecting Teams meetings as the streaming provider for your event, you can view and edit the meeting options inside Dynamics 365 Marketing, just as you would with a webinar.
 
 > [!div class="mx-imgBorder"]
-> ![Teams meeting settings.](./media/teams-webinar-meeting2.png)
+> ![Teams meeting settings.](./media/teams-webinar-meeting3.png)
 
 After you save your event, your settings will be reflected in your Teams calendar item.
 
