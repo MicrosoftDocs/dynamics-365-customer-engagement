@@ -36,7 +36,8 @@ You can view and search for knowledge article attachments on the portal based on
   1. From the Active Web Templates dropdown, select your knowledge article web template.
   1. On the **Web Template** page, **General** tab, add the following snippet to the **Source** field.
   
-  ```                         {{#if relatedAttachments}}
+  ```Javascript                        
+                              {{#if relatedAttachments}}
 								{{#each relatedAttachments}}
 									<li class="note-item">
 									{{#if isImage}}
