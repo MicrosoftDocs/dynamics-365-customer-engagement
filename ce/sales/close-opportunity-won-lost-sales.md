@@ -1,5 +1,5 @@
 ---
-title: "Close opportunities as won or lost - Sales Enterprise | MicrosoftDocs"
+title: "Close opportunities as won or lost | MicrosoftDocs"
 description: "Close the opportunity to indicate whether it was won or lost. You can reopen it in future if the customer is interested in pursuing the opportunity."
 ms.date: 11/02/2021
 ms.topic: article
@@ -15,7 +15,7 @@ If your customer has accepted your proposal, congratulations! Whether your custo
 
 | &nbsp; | &nbsp; |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
