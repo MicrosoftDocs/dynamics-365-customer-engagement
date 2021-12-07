@@ -37,7 +37,7 @@ With the Dynamics 365 Marketing December 2021 update you can create conditional 
 
 | App              | GA release      |
 |------------------|-----------------|
-| Marketing        | 1.35.10078.2008 |
+| Marketing        | 1.35.10079.1022 |
 
 > [!Tip]
 > To check your current version number, go to **Settings** > **Overview** > **Versions**.
