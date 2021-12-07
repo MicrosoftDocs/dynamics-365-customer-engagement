@@ -75,4 +75,3 @@ As we continue to work on the real-time marketing preview and refine the experie
 
 - Currently limited to one phone number.
 - Only United States numbers are issued (even when using the app in the United Kingdom).
-- Dynamics 365 Customer Voice survey links are not supported in SMS messages.
