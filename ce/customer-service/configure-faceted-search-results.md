@@ -1,7 +1,7 @@
 ---
 title: Configure faceted search results web template off your portal| MicrosoftDocs
 description: Know how the faceted search results web template can be configured of your portal.
-ms.date: 12/03/2021
+ms.date: 12/07/2021
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -36,7 +36,7 @@ You can view and search for knowledge article attachments on the portal based on
   1. From the Active Web Templates dropdown, select your knowledge article web template.
   1. On the **Web Template** page, **General** tab, add the following snippet to the **Source** field.
   
-  ```Javascript                        
+  ```JavaScript                        
                               {{#if relatedAttachments}}
 								{{#each relatedAttachments}}
 									<li class="note-item">
