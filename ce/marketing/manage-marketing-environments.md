@@ -1,7 +1,7 @@
 ---
 title: "Manage marketing environments (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to copy a production Dynamics 365 Marketing environment to a sandbox environment for experiments and testing."
-ms.date: 07/28/2021
+ms.date: 12/06/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -214,12 +214,12 @@ For standard Dynamics 365 environments (without Marketing installed), you can us
 > [!NOTE]
 > Your Dynamics 365 Marketing license is automatically released when you delete or reset its environment, so you'll be free to install it on another environment.
 
-## Do not change the URL for an environment with Real-time or Outbound Marketing installed
+## Do not change the URL for an environment with real-time or outbound Marketing installed
 
 For standard Dynamics 365 environments (without any flavor of Marketing installed), you can use the Power Platform admin center to change the URL of an environment. However, _you can't currently do this if you have Real-time or Outbound Marketing installed_.
 
 > [!IMPORTANT]
-> Do not attempt to change the URL for a Real-time or Outbound Marketing environment. If you require a different URL, you must set up a new Dynamics 365 environment at the new URL and then reinstall Real-time or Outbound Marketing there.
+> Do not attempt to change the URL for a real-time or outbound Marketing environment. If you require a different URL, you must set up a new Dynamics 365 environment at the new URL and then reinstall real-time or outbound Marketing there.
 
 ### See also
 
