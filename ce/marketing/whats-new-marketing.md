@@ -47,7 +47,7 @@ With the Dynamics 365 Marketing December 2021 update you can create conditional 
 ##### Real-time marketing
 
 - **Customer journeys**
-    - Create more powerful conditional checks using relative dates (for example, "anniversary in the next three months") and partial dates (for example, "birthday is November").
+    - As announced in [2021 release wave 2](/dynamics365-release-plan/2021wave2/marketing/dynamics365-marketing/gain-more-control-over-journey-branching-conditions-through-increased-attribute-availability), create more powerful conditional checks using relative dates (for example, "anniversary in the next three months") and partial dates (for example, "birthday is November"). Learn more: [Attribute branch](real-time-marketing-tile-reference.md#attribute-branch).
 - **First run experience**
     - Real-time marketing is now pre-provisioned alongside outbound marketing, allowing you to get up and running with real-time marketing features more quickly after trial or new paid installs.
 - **Marketing insights**
