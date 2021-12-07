@@ -15,7 +15,8 @@ You can use Power BI template apps to visualize and analyze the sales data.
 > Microsoft doesn't support customizations made to the Power BI template app and doesn't provide updates after modifications are made
 
 ## License and role requirements
-|  | |
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
