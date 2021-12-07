@@ -20,7 +20,8 @@ topic-status: Drafting
 After you sign in to conversation intelligence app as an administrator, you can set up conversation intelligence&mdash; select storage, grant app permissions, and define organization-level tracked keywords and competitors to be used by conversation intelligence.  
 
 ## License and role requirements
-|  | |
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|

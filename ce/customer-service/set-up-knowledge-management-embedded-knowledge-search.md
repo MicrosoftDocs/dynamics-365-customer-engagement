@@ -1,7 +1,7 @@
 ---
 title: Configure knowledge management (Dynamics 365 Customer Service) | MicrosoftDocs
 description: See how to configure the settings for knowledge management in Dynamics 365 Customer Service
-ms.date: 11/15/2021
+ms.date: 12/03/2021
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -57,7 +57,7 @@ After you have configured knowledge management on your app, you must also set up
 
 - [Create and manage categories](create-manage-categories.md#create-and-manage-categories)
 - [Knowledge article templates](create-templates-knowledge-article.md#knowledge-article-templates)
-- [Set up AI suggestions for article keywords and description (preview)](#set-up-ai-suggestions-for-article-keywords-and-description-preview)
+- [Set up AI suggestions for article keywords and description](#set-up-ai-suggestions-for-article-keywords-and-description)
 - [Set up a search provider in Customer Service Hub](set-up-search-providers.md#set-up-a-search-provider-in-customer-service-hub)
 
 ## Set up knowledge management
@@ -130,12 +130,9 @@ After you have configured knowledge management on your app, you must also set up
     * Type: Select **URL**. 
     * URL: Enter  ```/main.aspx?pagetype=inlinedialog&name=KnowledgeSettings```
 
-## Set up AI suggestions for article keywords and description (preview)
+## Set up AI suggestions for article keywords and description
 
-> [!IMPORTANT]
-> This section is pre-release documentation and is subject to change.
-
-You can enable knowledge authors to get suggested keywords and description based on the article content stored in the built-in knowledge article entity. More information: [Configure AI suggestions for article keywords and description (preview)](configure-ai-suggested-article-keywords-description.md#configure-ai-suggestions-for-article-keywords-and-description-preview).
+You can enable knowledge authors to get suggested keywords and description based on the article content stored in the built-in knowledge article entity. More information: [Configure AI suggestions for article keywords and description](configure-ai-suggested-article-keywords-description.md#configure-ai-suggestions-for-article-keywords-and-description).
 
 ## Set up knowledge search logic
 

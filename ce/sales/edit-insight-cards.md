@@ -29,7 +29,8 @@ Editing the cards allows you to do the following tasks based on the card:
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
 ## License and role requirements
-|  | |
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|

@@ -1,7 +1,7 @@
 ---
 title: Understand Knowledge Management in Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: Understand Knowledge Management in Customer Service Hub for Customer Service Dynamics 365 Customer Service
-ms.date: 10/25/2021
+ms.date: 12/03/2021
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -60,12 +60,14 @@ Turn your customer questions, issues, and feedback into knowledge articles, so o
   
 4. In the **Article Content** section, fill in the following details:  
   
-   - **Title**. Type a descriptive title that communicates the subject and purpose of the article in a concise manner.  
+   - **Title**: Type a descriptive title that communicates the subject and purpose of the article in a concise manner.  
   
-   - **Keywords**. Type or select keywords for the article. These keywords are used to search the knowledge base for articles. Separate keywords with commas. 
+   - **Keywords**: Type or select keywords for the article. These keywords are used to search the knowledge base for articles. Separate keywords with commas. 
   
-   - **Description**. Type or select a short description of the article. This appears in the search results and is used for search engine optimization.
-    :::image type="content" source="media/v9-add-content-article.png" alt-text="Add content article.":::
+   - **Description**: Type or select a short description of the article. This appears in the search results and is used for search engine optimization.
+   
+       :::image type="content" source="media/v9-add-cont_article.png" alt-text="Add article content":::
+     
        
 5. In the **Content** section, add the content for your knowledge article.  
   
@@ -92,24 +94,21 @@ Turn your customer questions, issues, and feedback into knowledge articles, so o
   
 Posts about knowledge article-related activities will begin appearing in the **Timeline** section.  
 
-## Use AI suggested article keywords and descriptions (preview)
+## Use AI suggested article keywords and descriptions
 
-> [!IMPORTANT]
-> This section is pre-release documentation and is subject to change.
-
-If your administrator has enabled keywords and description suggestions, you can select and enter your preferred keywords and descriptions when authoring or updating knowledge articles. More information: [Configure AI suggestions for article keywords and description (preview)](configure-ai-suggested-article-keywords-description.md)
+If your administrator has enabled keywords and description suggestions, you can select and enter your preferred keywords and descriptions when authoring or updating knowledge articles. More information: [Configure AI suggestions for article keywords and description](configure-ai-suggested-article-keywords-description.md#configure-ai-suggestions-for-article-keywords-and-description)
 
 However, either the **Title** or **Content** fields&mdash;or any other corresponding mapped fields set by the administrator&mdash;must contain some value for suggestions to be generated. If any of the fields that the model uses to generate suggestions are empty, you'll see messages such as "There was a problem finding suggested keywords" or "There was a problem finding a suggested description".
 
-1. In the article **Content** section, add the content for your knowledge article and then select **Save**. The **View suggested keywords and description (preview)** link appears.
+1. In the article **Content** section, add the content for your knowledge article and then select **Save**. The **View suggested keywords and description** link appears.
 
-1. Select the **View suggested keywords and description (preview)** link.
-    :::image type="content" source="media/v9-add-content-article.PNG" alt-text="View suggested keywords and description link":::
+1. Select the **View suggested keywords and description** link.
+      :::image type="content" source="media/v9-view-suggested-keywords.png" alt-text="View suggested keywords and description link":::
 
-1. In the **Suggested keywords and description (preview)** dialog, do the following:
+1. In the **Suggested keywords and description** dialog, do the following:
 
-   - Select the keywords that you want to add to your keywords list. The keywords get added to the **Keywords** field.
-   - Select **Insert suggested description**. The description gets added to the **Description** field.
+   - Select the keywords that you want to add to your keywords list or select the **Insert all keywords** link to insert all the suggested keywords to the Keywords field. You can enter a keyword in the Keyword field to add to existing list.
+   - Select **Insert suggested description**, to add the description to the **Description** field.
 
     :::image type="content" source="media/v9-suggested-keywords-description-dialog.png" alt-text="Screenshot showing a Keyword field containing keywords that were selected from the list of suggested keywords below it.":::
 

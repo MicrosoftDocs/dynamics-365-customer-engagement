@@ -1,14 +1,14 @@
 ---
-title: Sales Professional and Enterprise Learning Catalog for sales
-description: Find all the training options for Dynamics 365 Sales Professional and Enterprise. 
+title: Learning Catalog for sales
+description: Find all the training options for Dynamics 365 Sales. 
 author: MargoC
 ms.topic: article
-ms.date: 01/08/2020
+ms.date: 11/23/2021
 ms.service: dynamics-365-sales
 ms.author: margoc
 ---
 
-# Sales Professional and Enterprise Learning Catalog for sales
+# Learning Catalog for sales
 Find the right online training, in person workshops, and events for your role in Dynamics 365 Sales.
 
 :::row:::
@@ -22,7 +22,7 @@ Find the right online training, in person workshops, and events for your role in
 
     [Get started](learning-bdm.md#get-started)
 
-    [Core Platform Knowlege](learning-bdm.md#core-platform)
+    [Core Platform Knowledge](learning-bdm.md#core-platform)
 
     [Exam](learning-bdm.md#exam)
    

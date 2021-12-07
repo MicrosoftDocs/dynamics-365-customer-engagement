@@ -20,7 +20,7 @@ Dynamics 365 (online) 9.1 and later.
 
 ## Omnichannel for Dynamics 365 Customer Service or Customer Service Workspace
 
-To have multisession capabilities, your organization must use a multisession app, such as Omnichannel for Customer Service or Customer Service Workspace.
+To have multisession capabilities, your organization must use a multisession app, such as Omnichannel for Customer Service or Customer Service workspace.
 
 ## Licensing
 
@@ -39,7 +39,7 @@ An active subscription to Microsoft Dynamics 365 Customer Service Enterprise in 
 
 The domain of the channel URL should use HTTPS protocol.
 
-## See also
+### See also
 
 [Get Dynamics 365 Channel Integration Framework 2.0](../v2/get-channel-integration-framework.md)  
 [Get Dynamics 365 Channel Integration Framework 1.0](../v2/get-channel-integration-framework.md)  

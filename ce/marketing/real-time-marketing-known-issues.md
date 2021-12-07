@@ -1,7 +1,7 @@
 ---
 title: "Known issues in real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about known issues in real-time marketing and how to work around them."
-ms.date: 10/26/2021
+ms.date: 12/06/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -52,6 +52,7 @@ As we continue to work on real-time marketing and refine the experience, we've b
 ## Event triggers
 
 - You cannot instrument C# apps in real-time marketing. If you choose to use an alternate language like Python, you will have to manage an infra to run Python.
+- Event triggers cannot be migrated when moving data between environments. Any events in the old environment need to be re-created in the new environment.
 
 ## Journey and orchestration
 
@@ -71,4 +72,3 @@ As we continue to work on real-time marketing and refine the experience, we've b
 
 - Currently limited to one phone number.
 - Only United States numbers are issued (even when using the app in the United Kingdom).
-- Dynamics 365 Customer Voice survey links are not supported in SMS messages.

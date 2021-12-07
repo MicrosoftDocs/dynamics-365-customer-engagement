@@ -51,6 +51,6 @@ AI suggestions for case and knowledge are available starting October 2020. We're
 
 For information on the service protection limits for AI suggestions, see [Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md). The total limits are pooled at the tenant level based on the number of Customer Service Enterprise user licenses that are available in the tenant.
 
-## Power platform capacity impact
+## Microsoft Power Platform capacity impact
 
 Enabling the insights feature will impact Dataverse entitlements. For more information, see [New Microsoft Dataverse storage capacity](/power-platform/admin/capacity-storage)
