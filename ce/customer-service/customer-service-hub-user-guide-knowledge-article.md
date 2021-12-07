@@ -73,15 +73,11 @@ Turn your customer questions, issues, and feedback into knowledge articles, so o
    > [!NOTE]
    > As soon as you select inside the editor space, the rich text editor command bar appears. Use the rich text editor command bar options to format and style your content. If you can't use the features, your editing space is too small. If this is the case, you'll need to resize to a larger space. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the rich text editor to create knowledge articles and emails](#use-the-rich-text-editor-to-create-knowledge-articles-and-emails)
   
-6. Select **Save**. 
+6. Select **Save**.
    
    As the article is saved, the Business Process flow bar appears for the article. The stages are **New Process**, **Author**, **Review**, and **Publish**. The Business Process flow bar guides you to drive the article toward completeness. You can customize the stages in the Business Process flow to suit your  requirements.
 
-
-<!-- editor note: Should it be "Business Process flow bar" in step 7, below? -->
-
-
-7. On the Business process bar, select **Author**.  
+7. On the Business Process flow bar, select **Author**.  
 
 8. In the **Set Keywords** text box, add keywords for your article.
   
@@ -198,17 +194,13 @@ You can choose a specific format or style for the content you’re writing. The 
    > [!Note]
    > You can access your browser's context menu by pressing **Ctrl+right-click**. This is useful if you need to use your browser's built-in spell checker. Otherwise, you can use the right-click to provide contextual formatting for any element you might be using.
 
-
-<!-- For the font size description (line 211), is "the topmost font name of your selection is displayed" correct, or should it be "the topmost font size"? -->
-
-
 |Icon | Name | Shortcut key | Description |
 |----------------------|-------------------------|-----------------------------|-----------------------------|
 |![Format Painter.](../customer-service/media/format-painter.png "Format Painter")| Format Painter | Ctrl+Shift+C, Ctrl+Shift+V | Apply the look of a particular section to another section.<br /><br /> **Note**: Copy formatting only works with inline styles, and won't copy or apply block-level styles. |
 |![Styles.](../customer-service/media/format-styles.png "Style") | Formatting Styles | | Apply predefined sets of formatting features to make it easier to keep the presentation of the text consistent. To make the choice easier, the style names are displayed in a style that they represent, giving you a preview of what the text will look like.<br /><br /> **Note**: This option is available in the expanded mode only.
 |![Paragraph Format.](../customer-service/media/paragraph-format.PNG "Paragraph Format") | Paragraph Format | | Apply predefined block-level combinations of formatting options. A paragraph format can only be applied to a block-level element, like a `paragraph` or a `div` element.<br /><br /> **Note**: This option is available in the expanded mode only. |
 |![Font.](../customer-service/media/format-font.png "Font") | Font | Ctrl+Shift+F | Select your desired font. The default font is Segoe UI.<br /><br /> **Note**: When you select any formatted content, the font name for that content displays. If your selection contains multiple fonts, the topmost font name of your selection is displayed. |
-|![Font Size.](../customer-service/media/font-size.png "Font Size") | Font size | Ctrl+Shift+P | Change the size of your text. The default size is 12.<br /><br /> **Note**: When you select any formatted content, the font size for that content displays. If your selection contains multiple font sizes, the topmost font name of your selection is displayed.|
+|![Font Size.](../customer-service/media/font-size.png "Font Size") | Font size | Ctrl+Shift+P | Change the size of your text. The default size is 12.<br /><br /> **Note**: When you select any formatted content, the font size for that content displays. If your selection contains multiple font sizes, the topmost font size of your selection is displayed.|
 |![Bold.](../customer-service/media/format-bold.png "Bold")| Bold | Ctrl+B | Make your text bold. |
 |![Italic.](../customer-service/media/format-italic.png "Italic")| Italic | Ctrl+I | Italicize your text. |
 |![Underline.](../customer-service/media/format-underline.png "Underline")| Underline | Ctrl+U | Underline your text. |
@@ -272,10 +264,6 @@ Before using inline images, keep in mind the following:
 1. Open the image file that you want to copy to the editor.
 
 2. Right-click the image, then select **Copy**.
-
-
-
-<!-- Below, do you need to right-click if you select Ctrl+V? If so, I suggest changing the wording to "then right-click and either select ...." -->
 
 
 3. Go to the desired location in the editor where you want to insert the image, and then either right-click and select **Paste**, or select **Ctrl+V**.
@@ -360,10 +348,10 @@ With this new attachment capability, you'll need to stop using notes attachments
 
 By using knowledge article attachments for the portal, keep in mind the following:
 
-- Dataverse search will be able to search through knowledge article attachments. More info: [Microsoft Dataverse search can search through file data type](https://docs.microsoft.com/power-platform-release-plan/2021wave2/data-platform/dataverse-search-search-through-file-data-type)
+- Dataverse search will be able to search through knowledge article attachments. More info: [Microsoft Dataverse search can search through file data type](/power-platform-release-plan/2021wave2/data-platform/dataverse-search-search-through-file-data-type)
 - We'll do a one-time migration from the notes attachments that have the prefix of your original KnowledgeManagement/Notesfilter setting to new attachments in knowledge articles. In other words, we'll only migrate the notes attachments that are used in the portal to new attachments before the middle of October 2022 for all users.  
 
-For more information, see [Display file attachments with knowledge articles](https://docs.microsoft.com/powerapps/maker/portals/customer-engagement-apps/display-file-attachments-knowledge-article).
+For more information, see [Display file attachments with knowledge articles](/powerapps/maker/portals/customer-engagement-apps/display-file-attachments-knowledge-article).
 
 ## Add a knowledge article rich text editor control to a form
 By default, the rich text editor functionality is available for use with knowledge articles and emails, but if you want to use it in another form, you can add it by doing the following:
@@ -391,7 +379,7 @@ By default, the rich text editor functionality is available for use with knowled
 
 5. Select **OK** > **OK**, and then select **Save and Publish**.
 
-For more information about rich text control properties, see [Rich text editor control configuration options](https://docs.microsoft.com/powerapps/maker/model-driven-apps/rich-text-editor-control#rich-text-editor-control-configuration-options).
+For more information about rich text control properties, see [Rich text editor control configuration options](/powerapps/maker/model-driven-apps/rich-text-editor-control#rich-text-editor-control-configuration-options).
   
 ## Mark a knowledge article for review  
 
@@ -514,10 +502,7 @@ Your knowledge article must reach your customers irrespective of their market or
    * In the **Create new version** field, select either **Major** or **Minor** version for your translation.  
 
 
-<!-- Should the following sentence say "set" or "select" languages? -->
-
-
-     You can set languages that are supported by your Dynamics 365 instance.
+    You can set languages that are supported by your Dynamics 365 instance.
   
 4. Select **Create**.  
   
@@ -588,7 +573,7 @@ After the content in the article is complete and reviewed, you can publish the a
     :::image type="content" source="media/ka-publish.png" alt-text="Schedule or publish an article":::
     
 > [!NOTE]
-> In the knowledge article for interactive experience form, if there is an active customization layer over the **msdynce_KnowledgeManagementFeatures** layer, you won't be able to view the quick form publish dialog. You must delete the active customization layer to view the quick form publish dialog. More information: [Removed an unmanaged layer](https://docs.microsoft.com/powerapps/maker/data-platform/solution-layers#remove-an-unmanaged-layer)
+> In the knowledge article for interactive experience form, if there is an active customization layer over the **msdynce_KnowledgeManagementFeatures** layer, you won't be able to view the quick form publish dialog. You must delete the active customization layer to view the quick form publish dialog. More information: [Removed an unmanaged layer](/powerapps/maker/data-platform/solution-layers#remove-an-unmanaged-layer)
 
 ## Track basic details of an article  
 
