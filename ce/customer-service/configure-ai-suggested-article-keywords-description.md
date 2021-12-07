@@ -21,11 +21,6 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 ## Introduction
 
-
-
-<!-- The term "knowledge author" seems awkward, and I can't find any guidance on it, so I changed it to "author." The other team editors agree with that change. -->
-
-
 Correct metadata helps to locate articles that users search for. When authors create or update knowledge articles, AI suggestions for article keywords and descriptions can help them select the right metadata, thereby improving their productivity.
 
 The key highlights of the AI suggestions feature are as follows:
@@ -65,16 +60,10 @@ The language used in AI-generated suggestions is based on the language that the 
 
 ## Prerequisites
 
-
-
-<!-- Not sure what AIB and SML stand for. Can you spell those out? -->
-
-
-Make sure to meet the following requirements:
+Ensure to meet the following requirements:
 
 - You have the system administrator role.
 - Authors have the AIB roles and the AIB SML roles.
-
 
 ## Enable AI suggestions for article keywords and description
 
@@ -91,10 +80,6 @@ Make sure to meet the following requirements:
    :::image type="content" source="media/configure_suggest-article-keywords-description.png" alt-text="Configure AI-suggested article keywords and description.":::
 
 ### Enable AI suggestions for article keywords and description in a custom form
-
-
-
-<!-- It would be helpful to the reader to add one or more screenshots to this section. -->
 
 1. In Dynamics 365, go to **Customizations** in **Advanced Settings**.
 
