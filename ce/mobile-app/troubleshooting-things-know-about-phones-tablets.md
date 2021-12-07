@@ -69,6 +69,8 @@ For **Vivo** device, do the following:
 
 For other device manufacturers, please email Dynamics 365 Mobile Support at dynmobisup@microsoft.com and include your device make and model, session ID ([learn how to find the session ID and logs](logs-session-id.md) and quote the error message above.
 
+## The list of apps is empty
+Please ensure that the user has been assigned a built-in role, see "Required privileges" in [Get started with Dynamics 365 for phones and Dynamics 365 for tablets](./set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md#requirements). 
 
 ## Error message: This record is unavailable
 If this message appears when a user starts the mobile app, and then selects the **Home** button, or **Dashboards** from the menu, the user likely doesn’t have access to the expected dashboards.  
