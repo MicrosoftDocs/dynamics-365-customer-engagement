@@ -62,8 +62,8 @@ The language used in AI-generated suggestions is based on the language that the 
 
 Ensure to meet the following requirements:
 
-- You have the system administrator role.
-- Authors have the AIB roles and the AIB SML roles.
+- You have the System Administrator role.
+- Authors have the "AIB Roles" and "AIB SML Roles".
 
 ## Enable AI suggestions for article keywords and description
 
