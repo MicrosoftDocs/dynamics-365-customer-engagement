@@ -104,6 +104,9 @@ The app automatically downloads offline data after you sign in, though you can a
 > [!div class="mx-imgBorder"]
 > ![Offline status panel in the Field Service Windows app.](./media/mobile-2020-windows-offline.jpg)
 
+>[!Note]
+> At this time Offline is supported on devices running Windows OS >20H2 (19042.1348). This limitation will be removed before the application reaches General Availability. 
+
 ## Configuration considerations
 
 The following capabilities *are not* available in this public preview. but are planned for future releases. These capabilities *are* available in the iOS and Android apps.
