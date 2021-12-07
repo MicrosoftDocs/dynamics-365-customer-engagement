@@ -81,7 +81,7 @@ You can use the following search options to search the knowledge base on the por
 > [!IMPORTANT]
 > This section is pre-release documentation and is subject to change.
 
-Let's you search across multiple tables sorted by relevance. More information: [What is Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro). 
+Let's you search across multiple tables sorted by relevance. More information: [What is Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro). To configure dataverse search on portals, see [Configure Dataverse search in portals (preview)](/powerapps/maker/portals/configure/dataverse-search)
 
 You can further refine your search through Progressive search, which let's you search without any mismatch between the results count and the number of records returned in the search results. More information: [Configure progressive search counts](/powerapps/maker/portals/configure/progressive-search).
 
