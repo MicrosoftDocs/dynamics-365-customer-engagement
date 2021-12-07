@@ -708,7 +708,7 @@
       href: sales-mobile/view-edit-add-note.md
     - name: App settings
       href: sales-mobile/app-settings.md
-    - name: Use the Sales Hub app on Dynamics 365 for phones and tablets app
+    - name: Use the Sales Hub app or Sales Professional app on Dynamics 365 for phones and tablets app
       href: use-sales-hub-on-dynamics-365-mobile.md
 - name: Developer guide
   items:

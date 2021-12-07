@@ -1,5 +1,5 @@
 ---
-title: "Define playbook categories - Sales Enterprise | MicrosoftDocs"
+title: "Define playbook categories | MicrosoftDocs"
 description: "Create playbook categories to classify playbooks based on the audience, objective, or any other criteria."
 ms.date: 10/25/2021
 ms.topic: article
@@ -25,7 +25,7 @@ You can create categories to classify playbooks. For example, categories could b
 
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator or Playbook Manager <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
