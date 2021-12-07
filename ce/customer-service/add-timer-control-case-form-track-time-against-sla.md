@@ -1,7 +1,7 @@
 ---
 title: "Timer control for SLA-enabled entities | Microsoft Docs"
 description: "Learn how to add timer control in the case form to track time against an SLA in Dynamics 365 Customer Service."
-ms.date: 04/05/2021
+ms.date: 10/05/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -56,6 +56,16 @@ Do the following steps to add the SLA timer control for the case entity.
 
 7. Save and publish the solution.
 
+### Enable elapsed time for SLA Timers in expired status
+
+You can configure the negative countdown property for the SLA timer so that the timer continues to display the elapsed time after the SLA expires instead of showing the status. The setting needs to be configured for each SLA Timer instance.
+
+1. After you add the SLA Timer control, set the **Turn on negative countdown** property as **Yes**.
+
+   :::image type="content" source="media/sla-negative-countdown.png" alt-text="Configure negative countdown in SLA timer.":::
+
+2. Save and publish the solution.
+
 ## Add an out-of-the-box timer control to the Case form
 
  On a case form, the timer control can show any of the following, depending on the actions of the customer service representative and what you specify when you set up the timer control:  
@@ -79,7 +89,7 @@ Do the following steps to add the SLA timer control for the case entity.
 > - The timer control is designed to visually show the current state or show the remaining or elapsed time relative to the date and time as specified in the **Failure Time** field of the SLA KPI Instance. It doesn’t calculate or keep track of the time for which the Pause condition is true.  
  
 > [!NOTE]
-> The screens showcase the timer control on a Unified interface based app. On a webclient app, the timer control is displayed as follows: <br><br> ![Timer control in webclient app.](media/timer-control-webclient.png)
+> The screens showcase the timer control on a Unified interface app. On a legacy web client app, the timer control is displayed as follows: <br><br> ![Timer control in webclient app.](media/timer-control-webclient.png)
 
 
 For more information, see: [Track SLA details with Timer Control](customer-service-hub-user-guide-case-sla.md#track-sla-details-with-timer-control)
@@ -129,13 +139,13 @@ For more information, see: [Track SLA details with Timer Control](customer-servi
   
    **Notes**  
   
-- The timer control refreshes on the **OnChange** form event, and also when the form is loaded.  
+   - The timer control refreshes on the **OnChange** form event, and also when the form is loaded.  
   
-- You can add a timer control to a form based on any record type (entity), including custom record types.  
+   - You can add a timer control to a form based on any record type (entity), including custom record types.  
   
-- You can add multiple timer controls for different key performance indicators (KPIs).  
+   - You can add multiple timer controls for different key performance indicators (KPIs).  
   
-- You can add a timer control to any Main or Main - Interactive experience form of other entities, but timer controls are not displayed in [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)].  
+   - You can add a timer control to any Main or Main - Interactive experience form of other entities, but timer controls are not displayed in [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)].  
   
 ### See also  
 

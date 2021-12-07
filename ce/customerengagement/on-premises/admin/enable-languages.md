@@ -1,6 +1,6 @@
 ---
-title: "Enable languages  | MicrosoftDocs"
-description: "Enable languages in your organization to display the user interface and Help in a language that’s different from the base language."
+title: "Enable languages in Dynamics 365 Customer Engagement (on-premises)"
+description: "Enable languages in your organization to display the user interface and Dynamics 365 Help in a language that’s different from the base language."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -18,13 +18,13 @@ ms.author: matp
 search.audienceType: 
   - admin
 ---
-# Regional and language options for your organization 
+# Set and enable languages
 
 ::: moniker range="op-9-1"
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
 ::: moniker-end
 
-Enable languages in your organization to display the user interface and Help in a language that’s different from the base language. 
+Enable languages in your organization to display the user interface and Dynamics 365 Help in a language that’s different from the base language. 
 
 > [!IMPORTANT]
 >  - If you’re running [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], you must download one or more [Language Packs](https://go.microsoft.com/fwlink/p/?LinkID=513276) before you can enable additional languages.   

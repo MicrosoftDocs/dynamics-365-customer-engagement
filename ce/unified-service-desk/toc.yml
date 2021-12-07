@@ -130,7 +130,7 @@
       href: admin/download-migration-assistant.md      
     - name: Migration steps
       href: admin/migration-steps-web-client-unified-interface-configuration.md
-    - name: Post-requisites steps
+    - name: Post-migration steps
       href: admin/test-migration.md
   - name: Migrate Unified Service Desk configuration to another Customer Engagement instance 
     items:    
@@ -531,9 +531,9 @@
     href: use-debugger-control-unified-service-desk.md
   - name: Debug your custom code for Unified Service Desk
     href: debug-custom-code-unified-service-desk.md
-- name: Hosted control types and action/event reference
+- name: Hosted control types, action, and event reference
   items:
-  - name: Overview of hosted control types, actions, and events reference
+  - name: Overview of hosted control types, action, and event reference
     href: hosted-control-types-action-event-reference.md
   - name: Connection Manager (Hosted Control)
     href: connection-manager-hosted-control.md

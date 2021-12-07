@@ -1,6 +1,6 @@
 ---
-title: "Work with fiscal year settings  | MicrosoftDocs"
-description: "Set the fiscal year period, and how it’s displayed, for your organization."
+title: "Fiscal year settings in Dynamics 365 Customer Engagement (on-premises)"
+description: "Set the fiscal year settings for your organization. Select the start date of the fiscal year, how it's divided, and how you want it to be displayed." 
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -18,7 +18,7 @@ ms.author: jimholtz
 search.audienceType: 
   - admin
 ---
-# Work with fiscal year settings
+# Set fiscal year settings
 
 ::: moniker range="op-9-1"
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]

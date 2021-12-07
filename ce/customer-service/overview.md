@@ -1,7 +1,7 @@
 ---
 title: "Customer Service Overview (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Overview of Dynamics 365 Customer Service"
-ms.date: 08/20/2020
+ms.date: 08/10/2021
 ms.topic: get-started-article
 author: lalexms
 ms.author: laalexan
@@ -45,8 +45,8 @@ The following capabilities are available in the different app experiences, depen
 | Case Management  | ✔ |  ✔  |  ✔  |  ✔  |  ✔  |
 | Knowledge  |  ✔  |  ✔  |✔| Read only | ✔ |
 | Insights  | ✔ | ✔| ✔ | ✖ | ✖ |
-| Service Scheduling  | ✖ | Not applicable | ✔ | ✖ | ✔ |
-| Connected Service with IoT  |✖  | ✖ | ✔  | ✖ |✖  |
+| Service Scheduling  | ✔ | Not applicable | ✔ | ✖ | ✔ |
+| Connected Service with IoT  |✔  | ✖ | ✔  | ✖ |✖  |
 | Extensibility  | ✔ with Channel Integration Framework version 2.0, custom messaging channel | ✔ with Channel Integration Framework version 2.0, custom messaging channel, Mobile SDK | ✔ with Channel Integration Framework version 1.0 | ✖ | ✖ |
 | Unified Interface compliant  | ✔ | ✔ | ✔ | ✔ |✖  |
 | Basic Administration  |Customer Service Hub -> Service Management  | Omnichannel Administration application |Customer Service Hub -> Service Management  | ✖ | Settings -> Service Management |

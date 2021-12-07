@@ -1,6 +1,6 @@
 ---
-title: "Set up SharePoint integration | MicrosoftDocs"
-description: "Use the document management capabilities of SharePoint from within Customer Engagement (on-premises)."
+title: "SharePoint integration with Dynamics 365 Customer Engagement (on-premises)"
+description: "Enable server-based SharePoint integration to use the document management capabilities of SharePoint from within Customer Engagement (on-premises)."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -20,7 +20,7 @@ search.audienceType:
   - admin
 
 ---
-# Set up SharePoint integration
+# Set up SharePoint integration with Customer Engagement (on-premises)
 
 With Dynamics 365 Customer Engagement (on-premises), you can use the document management capabilities of [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)] from within Customer Engagement (on-premises). You can store and manage documents in the context of a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] record on a [!INCLUDE[pn_SharePoint_Server_short](../includes/pn-sharepoint-server-short.md)], and use the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] infrastructure to share, manage, and collaborate efficiently. Because the documents are stored on a [!INCLUDE[pn_SharePoint_Server_short](../includes/pn-sharepoint-server-short.md)], non-Customer Engagement (on-premises) users can directly access the documents on the [!INCLUDE[pn_SharePoint_Server_short](../includes/pn-sharepoint-server-short.md)], provided they have the appropriate permissions.  
   

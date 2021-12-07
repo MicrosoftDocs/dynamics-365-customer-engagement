@@ -1,6 +1,6 @@
 ---
-title: "Use segmented solutions (Dynamics 365 Customer Engagement on-premises) | MicrosoftDocs"
-description: "Learn how to use solution segmentation to update your solutions"
+title: "Use cloned solutions and patches in Dynamics 365 Customer Engagement (on-premises)"
+description: "Use segmentation to export solutions with selected entity assets. Learn how to create a segmented solution and a patch, as well as how to clone a solution."
 ms.custom: 
 ms.date: 04/29/2019
 ms.reviewer: 
@@ -20,7 +20,7 @@ search.audienceType:
   - customizer
 
 ---
-# Use segmented solutions and patches to export selected entity assets
+# Create segmented solutions and patches to export selected entity assets
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Use segmented solutions and patches](/powerapps/maker/common-data-service/use-segmented-solutions-patches-simplify-updates)
 
 To gain tighter control over what you distribute in solutions and solution patches, use solution segmentation. With solution segmentation, you can export solutions with selected entity assets, such as entity fields, forms, and views, rather than entire entities with all the assets. To create the segmented solutions and patches, you can use the solutions user interface, without writing code.  

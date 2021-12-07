@@ -1,6 +1,6 @@
 ---
-title: Configure server-based authentication with Customer Engagement (on-premises) and SharePoint Online
-description: "Configure server-based authentication between Dynamics 365 Customer Engagement (on-premises) and Microsoft SharePoint Online."
+title: "SharePoint Online integration with Dynamics 365 Customer Engagement (on-premises)"
+description: "Follow these steps to configure server-based integration between Dynamics 365 Customer Engagement (on-premises) and SharePoint Online."
 ms:assetid: 24245deb-48cb-4c13-adfe-efa2fe94b3cd
 ms.date: 04/16/2020
 ms.prod: d365ce-op
@@ -78,7 +78,7 @@ The following software features are required to run the Windows PowerShell cmdle
 
 2.  Prepare the certificate.
     
-    ```
+    ```powershell
     $CertificateScriptWithCommand = “.\CertificateReconfiguration.ps1 -certificateFile c:\Personalcertfile.pfx -password personal_certfile_password -updateCrm -certificateType S2STokenIssuer -serviceAccount contoso\CRMWebApplicationService -storeFindType FindBySubjectDistinguishedName”
         
      Invoke-Expression -command $CertificateScriptWithCommand
@@ -88,7 +88,7 @@ The following software features are required to run the Windows PowerShell cmdle
     
     The following cmdlets enable the computer to receive remote commands and add Office 365 modules to the PowerShell session. <!-- For more information about these cmdlets see [Windows PowerShell Core Cmdlets](/powershell/module/microsoft.powershell.core/). -->
     
-    ```
+    ```powershell
     Enable-PSRemoting -force
     New-PSSession
     Import-Module MSOnline -force
@@ -101,14 +101,14 @@ The following software features are required to run the Windows PowerShell cmdle
     
     For detailed information about each of the MSOnline module for Azure Active Directory PowerShell commands listed here, see [MSOnline](/powershell/module/msonline/?view=azureadps-1.0#msonline).
     
-    ```
+    ```powershell
     $msolcred = get-credential
     connect-msolservice -credential $msolcred
     ```
 
 5.  Set the certificate.
     
-    ```
+    ```powershell
     $Certificate = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2
     $Certificate.Import(“c:\Personalcertfile.cer”)
     $CERCertificateBin = $Certificate.GetRawCertData()
@@ -119,7 +119,7 @@ The following software features are required to run the Windows PowerShell cmdle
     
     Replace *\*.contoso.com* with the domain name where Microsoft Dynamics 365 Server is located.
     
-    ```
+    ```powershell
     $RootDomain = “*.contoso.com”
     $CRMAppId = "00000007-0000-0000-c000-000000000000" 
     New-MsolServicePrincipalCredential -AppPrincipalId $CRMAppId -Type asymmetric -Usage Verify -Value $CredentialValue
@@ -132,7 +132,7 @@ The following software features are required to run the Windows PowerShell cmdle
 
 7.  Configure the Microsoft Dynamics 365 Server for server-based authentication with SharePoint.
     
-    ```
+    ```powershell
     Add-PSSnapin Microsoft.Crm.PowerShell 
     $setting = New-Object "Microsoft.Xrm.Sdk.Deployment.ConfigurationEntity"
     $setting.LogicalName = "ServerSettings"
@@ -170,7 +170,7 @@ The following software features are required to run the Windows PowerShell cmdle
 
 1.  In the Azure Active Directory module for Windows PowerShell shell, run the following commands.
     
-    ```
+    ```powershell
     $CRMContextId = (Get-MsolCompanyInformation).ObjectID
     $CRMContextId
     ```

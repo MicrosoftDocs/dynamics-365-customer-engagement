@@ -1,6 +1,6 @@
 ---
-title: "Delete custom entities with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to delete a custom entity"
+title: "Delete a custom entity from Dynamics 365 Customer Engagement (on-premises)"
+description: "You can delete custom entities that aren’t part of a managed solution, so long as you remove any dependencies that exist in other solution components."
 ms.custom: 
 ms.date: 12/03/2018
 ms.reviewer: 
@@ -20,7 +20,7 @@ search.audienceType:
   - customizer
 
 ---
-# Delete custom entities
+# Delete a custom entity
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Delete an entity](/powerapps/maker/common-data-service/data-platform-delete-entity)
 

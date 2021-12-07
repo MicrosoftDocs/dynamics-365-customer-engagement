@@ -1,6 +1,6 @@
 ---
-title: "System Settings dialog box - Marketing tab  | MicrosoftDocs"
-description: "Configure marketing settings for Dynamics 365 Customer Engagement (on-premises)."
+title: "Marketing settings tab in Dynamics 365 Customer Engagement (on-premises)"
+description: "From the System Settings Marketing tab in Dynamics 365 Customer Engagement (on-premises), set options related to how users run marketing campaigns via email."
 keywords: 
 ms.date: 10/01/2019
 ms.prod: d365ce-op
@@ -22,7 +22,7 @@ search.audienceType:
   - admin
 ---
 
-# System Settings dialog box - Marketing tab
+# Configure system settings from the Marketing tab
 
 ::: moniker range="op-9-1"
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]

@@ -1,5 +1,6 @@
 ---
 title: "Administration best practices for on-premises deployments of Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
+description: Learn about the administration best practices for Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
 ms.date: "10/01/2018"
 ms.prod: d365ce-op

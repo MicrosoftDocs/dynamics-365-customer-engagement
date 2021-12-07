@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Intraday insights dashboard for supervisor | MicrosoftDocs"
 description: "Introduction to Intraday insights dashboard for supervisor"
-ms.date: 04/09/2021
+ms.date: 10/07/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -27,20 +27,15 @@ Omnichannel for Dynamics 365 Customer Service provides dashboards that help supe
 
 - Monitor unassigned workload
 
-- Manage agent and customer escalations 
+- Manage agent and customer escalations
 
 As a supervisor, you see the following tabs when you open the Omnichannel for Customer Service app:
 
 - **My dashboard**: This tab provides information about the conversations that you're directly connected and engaged with customers as an agent, such as your ongoing conversations, items that are available for you to pick, and closed conversations. To learn more, see [Introduction to the agent interface](oc-introduction-agent-interface.md). 
 
-- **Omnichannel intraday insights dashboard**: This tab provides an overview of information about the health and KPIs of agents in your organization. The information in this dashboard is displayed based on the last 24 hours conversations. To learn more, see [Omnichannel intraday insights dashboard](intraday-insights-dashboard.md).
+- **Omnichannel intraday insights dashboard**: This tab provides an overview of information about the health and KPIs of agents in your organization. The information in this dashboard is displayed based on the last 24 hours conversations. To learn more, see [Omnichannel intraday insights dashboard](intraday-insights-dashboard.md). If you're unable to view the dashboards, contact your system administrator. More information: [Configure to view intraday insights dashboard](configure-intraday-dashboard-supervisor.md). The intraday insights reports are available only in the English language, out of the box. You'll need to customize the reports to make them available in a language of your choice.
 
 - **Ongoing Conversations dashboard**: This tab provides information about the conversations that agents are handling and are in active, open, wrap up, and waiting status reason. To learn more, see [Ongoing Conversations dashboard](ongoing-conversations-dashboard.md).
-
-> [!NOTE]
->
-> - Contact your system administrator for configuration errors or if you are unable to view the dashboards. To learn more, see [Configure to view intraday insights dashboard](configure-intraday-dashboard-supervisor.md).
-> - The intraday insights dashboards are available only in the English language, out of the box. You'll need to customize the dashboards to make them available in a language of your choice.
 
 ## Prerequisites
 
@@ -51,6 +46,7 @@ Verify the following prerequisites before you use the supervisor dashboards:
 -  **Power BI Pro** or **Power BI Premium** license is assigned to you.
 
 ## Videos
+
 [Overview of supervisor experience in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2099487)
 
 To view more videos on Omnichannel for Customer Service, see [Videos](videos.md).

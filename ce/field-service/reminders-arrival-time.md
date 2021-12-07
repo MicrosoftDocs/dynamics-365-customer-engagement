@@ -306,7 +306,7 @@ With booking notification codes, Field Service admins can extend, expire, or blo
 > ![Screenshot of notification details in Field Service.](./media/09_FSSettings_BookingNotifications-details.jpg)
 
 
-## Field Service customer portal survey (preview)
+## Field Service customer portal survey
 
 You can now embed a Customer Voice survey directly within the Field Service customer experience portal. When the survey embed code is added into configuration, it will automatically render the survey on the portal when the work is complete.
 

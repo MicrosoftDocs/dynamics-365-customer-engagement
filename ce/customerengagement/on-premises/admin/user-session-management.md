@@ -1,6 +1,6 @@
 ---
-title: "Security enhancements: User session and access management | MicrosoftDocs"
-description: "Use security enhancements to secure Dynamics 365 Customer Engagement (on-premises)."
+title: "Manage user sessions in Dynamics 365 Customer Engagement (on-premises)"
+description: "Manage user access and sessions, such as when a session times out, by enabling security enhancements in Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
 ms.date: 01/07/2021
 ms.reviewer: 
@@ -18,13 +18,13 @@ manager: kvivek
 search.audienceType: 
   - admin
 ---
-# Security enhancements: User session and access management 
+# Manage user sessions and access with security enhancements
 
 You can use security enhancements to better secure Dynamics 365 Customer Engagement (on-premises). 
 
 ## User session timeout management
 
-The maximum user session timeout of 24 hours is removed.  This means that a user is not forced to login with their credentials to use the Customer Engagement (on-premises) and other Microsoft service apps like Outlook that were opened in the same browser session every 24 hours. 
+The maximum user session timeout of 24 hours is removed. This means that a user is not forced to log in with their credentials to use the Customer Engagement (on-premises) and other Microsoft service apps like Outlook that were opened in the same browser session every 24 hours. 
 
 ## Configure session timeout 
 

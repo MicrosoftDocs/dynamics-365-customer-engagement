@@ -1,6 +1,6 @@
 ---
-title: "Create and edit virtual entities with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to create virtual entities"
+title: "Create a virtual entity in Dynamics 365 Customer Engagement (on-premises)"
+description: "A virtual entity is a custom entity with fields containing data from an external source. Learn about their benefits and the steps for creating them."
 ms.custom: 
 ms.date: 11/09/2018
 ms.reviewer: 
@@ -19,7 +19,7 @@ search.audienceType:
   - customizer
 
 ---
-# Create and edit virtual entities that contain data from an external data source
+# Create or edit a virtual entity with data from an external source
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Create and edit virtual entities that contain data from an external data source](/powerapps/maker/common-data-service/create-edit-virtual-entities)
 

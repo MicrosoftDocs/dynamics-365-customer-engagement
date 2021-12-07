@@ -1,6 +1,8 @@
 ---
 title: "Provision Omnichannel for Customer Service | MicrosoftDocs"
 description: "Perform the steps in this topic to provision Omnichannel for Customer Service and add channels so that can you start using the product."
+ms.date: 11/01/2021
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
@@ -18,11 +20,14 @@ Looking for an upgrade? See [Upgrade Omnichannel for Customer Service](upgrade-o
 
 ## Prerequisites
 
-To provision the Omnichannel for Customer Service application, make sure the following prerequisites are met:
+To provision the Omnichannel for Customer Service application, first, complete the following prerequisites:
 
-- An active subscription of Chat for Dynamics 365 Customer Service or Dynamics 365 Digital Messaging. For more information on pricing, select [here](https://dynamics.microsoft.com/customer-service/overview/#pricing). You can also get a free 30-day trial if you have the required prerequisites, see [Try channels for Dynamics 365 Customer Service](try-channels.md) for more information.
-- Ensure that the prerequisites mentioned in the system requirements are set up. More information, see [Prerequisites](system-requirements-omnichannel.md#prerequisites).
-- The **Global Tenant Admin** and **Dynamics 365 System Admin** permissions for your organization.
+- Obtain an active subscription of Chat for Dynamics 365 Customer Service or Dynamics 365 Digital Messaging. More information: [Pricing](https://dynamics.microsoft.com/customer-service/pricing/), [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544), and [How to purchase through Volume Licensing](https://www.microsoft.com/en-us/licensing/how-to-buy/how-to-buy). You can also get a free 30-day trial if you have the required prerequisites. More information: [Try channels for Dynamics 365 Customer Service](try-channels.md).
+- Set up the prerequisites mentioned in the system requirements. More information: [Prerequisites](system-requirements-omnichannel.md#prerequisites).
+- Ensure that the provisioning user has the following permissions:
+    - Microsoft 365 Global Admin role. More information: [Assign Admin roles to user in Microsoft Office 365](/microsoft-365/admin/add-users/assign-admin-roles)
+    - Dynamics 365 System Administrator role on the root business unit for your organization. More information: [Assign security roles to a user in Power Platform](/power-platform/admin/assign-security-roles) and [Create or edit business units](/power-platform/admin/create-edit-business-units)
+    - Read-Write access in the Client Access License Information (CAL). More information: [Create a Read-Write user account in Power Platform](/power-platform/admin/create-users#create-a-read-write-user-account)
 
 ## Provide data access consent
 
@@ -36,7 +41,7 @@ Use the following steps to allow Omnichannel for Customer Service to read and wr
     > [!div class=mx-imgBorder]
     > ![Grant consent.](media/data-consent.png "Grant consent")
 
-> For more information about app permissions, see [Azure app Power BI API permissions](/power-bi/developer/embedded/power-bi-permissions).
+> For more information about app permissions, see [Azure app Power BI API permissions](/power-bi/developer/embedded/power-bi-permissions) and [Data access consent to provision Omnichannel for Customer Service](data-access-consent.md).
 
 ## Set up Omnichannel for Customer Service
 
@@ -61,40 +66,32 @@ Use the following steps to allow Omnichannel for Customer Service to read and wr
     > [!IMPORTANT]
     > As an admin, you can configure Omnichannel in multiple environments. You can view the status of all organization environments where the Omnichannel app has been configured in the **Manage environments** view.
 
-6. Select the environment in the drop-down list.
+6. Select the environment in the dropdown list, then perform the following steps.
 
     > [!div class=mx-imgBorder]
     > ![Select org.](media/select-org.png "Select org")
 
-7. Select the **Chat** tab and set the toggle to **Yes** to enable the Chat channel for your organization.
+   1. Select **Next**, and in the **Chat** section, set the **Add chat** toggle to **Yes** to enable the Chat channel.
 
-    > [!div class=mx-imgBorder]
-    > ![Enable chat.](media/enable-chat.png "Enable chat")
+   2. In the **Voice** section, set the **Add voice** toggle to **Yes** to enable the voice channel. Ensure that you select the **Voice and SMS Terms** checkbox.
 
-8. Select the **SMS** tab and set the toggle to **Yes** to enable SMS. Select the check box to confirm that you agree to the SMS terms.
+   3. In the **SMS** section, set the **Add SMS** toggle to **Yes** to enable SMS. Select the checkbox to confirm that you agree to the SMS terms.
 
-    > [!div class=mx-imgBorder]
-    > ![Enable SMS.](media/enable-sms-with-omnichannel.png "Enable SMS")
+        > [!IMPORTANT]
+        > You must select the checkbox for **SMS Terms** to enable SMS and proceed with the setup.
 
-    > [!IMPORTANT]
-    > You must select the check box for **SMS Terms** to enable SMS and proceed with the setup.
+   4. In the **Social channels** section, set the **Add social** toggle to **Yes** to enable social channels.
 
-9.  Select the **Social** tab and set the toggle to **Yes** to enable social channels.
 
-    > [!div class=mx-imgBorder]
-    > ![Enable social channels.](media/enable-social.png "Enable social channels")
+   5. In the **Microsoft Teams** section, set the **Add Microsoft Teams** toggle to **Yes** to enable Microsoft Teams.
 
-10. Select the **Microsoft Teams** tab and set the toggle to **Yes** to enable Microsoft Teams. 
 
-    > [!div class=mx-imgBorder]
-    > ![Enable Microsoft Teams.](media/enable-teams.png "Enable Microsoft Teams")
-
-11. On the **Confirmation** page, verify your selections, and then select **Finish** to provision Omnichannel for Customer Service in your organization.
+7. On the **Confirmation** page, verify your selections, and then select **Finish** to provision Omnichannel for Customer Service in your organization.
 
     > [!div class=mx-imgBorder]
     > ![Summary tab on Manage Omnichannel instances page.](media/manage-omnichannel-summary.png "Summary tab on Manage Omnichannel instances page")
 
-    The setup can take several minutes. You may close the window and check after some time, or refresh to check if it's complete. After the setup is complete, the selected channels are enabled in your environment.
+    The setup can take several minutes. You can close the window and check after some time, or refresh to check if it's complete. After the setup is complete, the selected channels are enabled in your environment.
 
     > [!div class=mx-imgBorder]
     > ![Set up complete.](media/install-complete.png "Set up complete")
@@ -117,7 +114,7 @@ After the Omnichannel for Customer Service application is successfully provision
     > [!div class=mx-imgBorder]
     > ![Select the Omnichannel for Customer Service environment.](media/select-oc-instance.PNG "Select the Omnichannel for Customer Service environment")
 
-5. Select the channel to be enabled. For example, in this procedure, we will enable the Social channels.
+5. Select the channel to be enabled. For example, in this procedure, we'll enable the Social channels.
 
 6. On the **Social** tab, set the toggle to **Yes** to enable social channels in your environment.
 
@@ -129,7 +126,7 @@ After the Omnichannel for Customer Service application is successfully provision
     > [!div class=mx-imgBorder]
     > ![Update status.](media/update-oc-complete.png "Update status")
 
-8. To disable a previously enabled channel, set the toggle to **No**. For example, in this procedure, we will disable the Social channel.
+8. To disable a previously enabled channel, set the toggle to **No**. For example, in this procedure, we'll disable the Social channel.
 
    - On the **Social** tab, set the toggle to **No** to disable social channels in your environment. A confirmation message is displayed to remove the channel. Select **Remove**.
 

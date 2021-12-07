@@ -1,5 +1,6 @@
 ---
 title: "Use Deployment Manager to manage the deployment | Microsoft Docs"
+description: This article gives an overview of the deployment manager tool in Dynamics 365 Customer Engagement (on-premises)
 ms.custom: 
 ms.date: 10/01/2018
 ms.prod: d365ce-op
@@ -17,8 +18,6 @@ manager: kvivek
 ---
 # Use Deployment Manager to manage the deployment
 
-
-
 [!INCLUDE[pn_Deployment_Manager_long](../includes/pn-deployment-manager-long.md)] is a [!INCLUDE[pn_Microsoft_Management_Console](../includes/pn-microsoft-management-console.md)] snap-in that system administrators and value-added resellers use to manage [!INCLUDE[pn_Deployment_Administrator](../includes/pn-deployment-administrator.md)] accounts, organizations, servers, and licenses for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] deployments.  
   
  Note the following:  
@@ -31,9 +30,9 @@ manager: kvivek
 -   To create and manage [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] user accounts, you must use the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web client or [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)].  
   
 -   The [!INCLUDE[pn_Deployment_Administrator](../includes/pn-deployment-administrator.md)] role is separate from the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] user security role. A [!INCLUDE[pn_Deployment_Administrator](../includes/pn-deployment-administrator.md)] may or may not have a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] user security role.  
-  
-  
-## See also  
+
+## See also
+
  [Deployment Administrators](deployment-administrators.md)   
  [Manage organizations](manage-organizations.md)   
  [Manage servers](manage-servers.md)

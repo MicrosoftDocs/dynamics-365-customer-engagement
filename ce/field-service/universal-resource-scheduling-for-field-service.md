@@ -107,6 +107,9 @@ Updating work order attributes will update requirement attributes. Manual edits 
 > [!NOTE]
 > Many work order attributes are added to the work order when work order incident types are created, including duration and characteristics. 
 
+> [!Note]
+> Field Service keeps the **Work Order** and the primary resource requirement in sync. All of the scheduling impacting fields are automatically synchronized. If a customer manually creates multiple requirements against a work order, those are not automatically synchronized. 
+
 ## Scheduling work orders with Universal Resource Scheduling
 
 After a work order and related requirement are ready to be scheduled, Universal Resource Scheduling scheduling tools can be used to **book** the requirement to the most appropriate resource.

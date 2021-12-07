@@ -1,6 +1,6 @@
 ---
-title: "setClickToAct (JavaScript API Reference) for DYnamics 365 Channel Integration Framework (CIF) version 1.0 | Microsoft Docs"
-description: ""
+title: "setClickToAct (JavaScript API Reference) for DYnamics 365 Channel Integration Framework 1.0 | MicrosoftDocs"
+description: "Includes description, syntax, and parameter information for the setClickToAct method in JavaScript API Reference for Channel Integration Framework 1.0. "
 ms.date: 12/31/2019
 ms.topic: reference
 author: mh-jaya
@@ -14,7 +14,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# setClickToAct (CIF JavaScript API Reference)
+# setClickToAct (JavaScript API Reference) for DYnamics 365 Channel Integration Framework 1.0
 
 [!INCLUDE[setClickToAct](includes/setClickToAct-description.md)]
 

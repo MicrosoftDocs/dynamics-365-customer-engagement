@@ -1,5 +1,6 @@
 ---
-title: "Update Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
+title: "Update your Dynamics 365 Customer Engagement (on-premises) deployment | Microsoft Docs"
+description: Learn how to update Dynamics 365 Customer Engagement (on-premises)
 ms.custom: 
 ms.date: 10/01/2018
 ms.prod: d365ce-op
@@ -15,7 +16,7 @@ author: Mattp123
 ms.author: matp
 manager: kvivek
 ---
-# Update Dynamics 365 Customer Engagement (on-premises)
+# Update your Dynamics 365 Customer Engagement (on-premises) deployment
 
 With Dynamics 365 Customer Engagement (on-premises), you have several options that help make your deployment run optimally, reliably, and securely. In most situations where Dynamics 365 Customer Engagement (on-premises) is running in a production environment, we recommend that you apply the latest update for all Dynamics 365 Customer Engagement (on-premises) applications shortly after the update becomes available.  
   

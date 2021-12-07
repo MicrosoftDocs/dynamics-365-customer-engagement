@@ -1,6 +1,6 @@
 ---
-title: "Make grids (lists) editable by using the editable grid custom control with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to use the editable grid custom control"
+title: "Use Editable Grid control in Dynamics 365 Customer Engagement (on-premises)"
+description: "Follow these steps to enable grid editing using the Editable Grid custom control. This allows users to do direct editing in grids and subgrids from any device."
 ms.custom: 
 ms.date: 04/10/2020
 ms.reviewer: 
@@ -20,7 +20,7 @@ search.audienceType:
   - customizer
 
 ---
-# Make grids (lists) editable using the editable grid custom control
+# Enable direct editing of grids using the Editable Grid custom control
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Make model-driven app grids (lists) editable using the Editable Grid custom control](/powerapps/maker/model-driven-apps/make-grids-lists-editable-custom-control)
 

@@ -1,6 +1,6 @@
 ---
-title: "Design considerations for main forms with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to design main forms"
+title: "Design considerations for main forms in Dynamics 365 Customer Engagement (on-premises)"
+description: "There are several important factors to consider when designing main forms, including optimization for certain groups and differences in presentation."
 ms.custom: 
 ms.date: 11/03/2018
 ms.reviewer: 
@@ -20,7 +20,7 @@ search.audienceType:
   - customizer
 
 ---
-# Design considerations for main forms
+# Factors to consider when designing main forms
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Design considerations for model-driven app main forms](/powerapps/maker/model-driven-apps/design-considerations-main-forms)
 

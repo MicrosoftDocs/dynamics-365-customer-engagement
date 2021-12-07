@@ -1,6 +1,6 @@
 ---
-title: "Best practices for server-side synchronization  | MicrosoftDocs"
-description: "Best practices for planning and deploying server-side synchronization."
+title: "Best practices for server-side sync in Dynamics 365 Customer Engagement (on-premises)"
+description: "Consider the following best practices when planning and deploying server-side synchronization in Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 

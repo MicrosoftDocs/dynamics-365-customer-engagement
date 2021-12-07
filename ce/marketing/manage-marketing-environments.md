@@ -1,7 +1,7 @@
 ---
 title: "Manage marketing environments (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to copy a production Dynamics 365 Marketing environment to a sandbox environment for experiments and testing."
-ms.date: 05/28/2021
+ms.date: 12/06/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -55,6 +55,8 @@ After copying or restoring an environment, as described later in this article, y
 - Because a new set of Marketing services is created on the target environment, interaction data from your source environment (such as email clicks or website visits) won't be available to the target environment. Most insights data will be initialized. You can freely generate new interaction data on the target environment without affecting your source environment.
 - Files uploaded to your source environment (such as images used in emails and landing pages) won't be available to the target environment. If you go live with an email or page that was previously published on the source environment, the published design will continue to use the previous image URLs from the source environment&mdash;these images will still appear in the republished designs provided they are still available on the source environment, but to avoid confusion, we strongly recommend that you upload all the images you need to the new environment and edit your emails and pages to use those images before going live with them again.
 - If the Marketing app on your source environment used a Power Apps portal, then you might choose to also set up a new portal on the target environment to host its marketing pages and event websites (requires an unconfigured Power Apps portals license to be available on your tenant). [Portals are optional](portal-optional.md), so you can choose not to use a portal with the copied environment if you prefer, even if the source environment was using one.
+- After a real-time marketing journey is migrated, restored, or copied, its state is changed from **Live** to **Stopped**. To restart a migrated, restored, or copied journey, you need to first duplicate the journey, and then execute it.
+- After backup, if you restore data in real-time marketing, all interaction data, analytics data, Customer Voice data, asset library connections, and Customer Insights connections will *not* be restored. All existing data will remain.
 
 <a name="copy-to-sandbox"></a>
 
@@ -82,7 +84,6 @@ Because Marketing is more complex than most Dynamics 365 apps and interacts with
 
 The _source environment_ is the Marketing environment you are copying _from_. To prepare your source environment for copying, [Open the Power Platform admin center](power-platform-admin-center.md) and make sure that the Dynamics 365 Marketing application and its related solutions are all up to date on your source environment, as described in [Keep Marketing up to date](apply-updates.md).
 
-
 ### Step 2: Prepare your target environment
 
 The _target environment_ is the environment you are copying _to_. As with the source environment, you must prepare the target environment before you copy _if Marketing is installed on the source environment, the target environment, or both_.
@@ -94,6 +95,9 @@ To prepare your target environment, do the following _before_ starting the copy:
 
 1. If the Marketing environment was [integrated with a Power Apps portal](portal-optional.md), reset the portal as described in [Reset a portal](/powerapps/maker/portals/admin/reset-portal). This is important because it will free your portal license to be used elsewhere.
 1. After the reset, the portal will still be shown as "configured" in the Power Platform admin center, but you will now be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored environment.
+1. **[Optional]** To free up your DNS zones, remove all DNS records that were created during [domain authentication](mkt-settings-authenticate-domains.md). If you do not remove DNS records during this step, there will be no way to determine which records were used after the environment is copied.
+> [!WARNING]
+> Do not remove DNS records for domains that are used in other orgs.
 
 ### Step 3: Copy the environment
 
@@ -137,7 +141,7 @@ You can create an on-demand backup at any time, but when Marketing is installed 
 
     ![Create an on-demand backup.](media/instances-backup.png "Create an on-demand backup")
 
-As with automatic backups, on-demand backups include the full organizational database, the interaction records or image files stored in the marketing services. For more information about how to backup marketing-services data to blob storage, see [Create custom analytics with Power BI](custom-analytics.md).
+As with automatic backups, on-demand backups include the full organizational database, but not the interaction records or image files stored in the marketing services. For more information about how to export marketing-services data to blob storage, see [Create custom analytics with Power BI](custom-analytics.md).
 
 ### Restore a backup onto another environment
 
@@ -206,18 +210,21 @@ To copy a production environment to a support environment:
 
 For standard Dynamics 365 environments (without Marketing installed), you can use the Power Platform admin center to delete or reset an environment. However, if you do have Marketing installed, you should also do the following:
 
-1. If the Marketing environment was [integrated with a Power Apps portal](portal-optional.md), reset the portal as described in [Reset a portal](/powerapps/maker/portals/admin/reset-portal). This is important because it will free your portal license to be used elsewhere. After the reset, the portal will still be shown as "Configured" in the Power Platform admin center, but you will now be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored environment.
-1. Delete or reset the environment as usual. More information: [Delete environment](/power-platform/admin/delete-environment)
+1. If the Marketing environment was [integrated with a Power Apps portal](portal-optional.md), reset the portal as described in [Reset a portal](/powerapps/maker/portals/admin/reset-portal). This is important because it will free your portal license to be used elsewhere. After the reset, the portal will still be shown as **Configured** in the Power Platform admin center, but you will now be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored environment.
+1. Delete or reset the environment as usual. More information: [Delete environment](/power-platform/admin/delete-environment).
 
 > [!NOTE]
 > Your Dynamics 365 Marketing license is automatically released when you delete or reset its environment, so you'll be free to install it on another environment.
 
-## Do not change the URL for an environment with Marketing installed
+> [!WARNING]
+> When you reset a Marketing environment, you *must* choose an app template that enables Dynamics apps. Dynamics apps require a special template that contains prerequisite solutions. If the app template you select does not enable Dynamics apps, you will need to delete the environment and provision the Marketing app into a different environment.
 
-For standard Dynamics 365 environments (without Marketing installed), you can use the Power Platform admin center to change the URL of an environment. However, _you can't currently do this if you have Marketing installed_.
+## Do not change the URL for an environment with real-time or outbound Marketing installed
+
+For standard Dynamics 365 environments (without any flavor of Marketing installed), you can use the Power Platform admin center to change the URL of an environment. However, _you can't currently do this if you have real-time or outbound Marketing installed_.
 
 > [!IMPORTANT]
-> Do not attempt to change the URL for a Marketing environment. If you require a different URL, you must set up a new Dynamics 365 environment at the new URL and then reinstall Marketing there.
+> Do not attempt to change the URL for a real-time or outbound Marketing environment. If you require a different URL, you must set up a new Dynamics 365 environment at the new URL and then reinstall real-time or outbound Marketing there.
 
 ### See also
 

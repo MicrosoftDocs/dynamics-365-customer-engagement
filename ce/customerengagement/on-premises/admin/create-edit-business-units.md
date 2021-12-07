@@ -1,6 +1,6 @@
 ---
-title: "Create or edit business units  | MicrosoftDocs"
-description: "In Dynamics 365 Customer Engagement (on-premises), a business unit is a logical grouping of related business activities."
+title: "Use business units in Dynamics 365 Customer Engagement (on-premises)"
+description: "Business units group related activities and control access so people can only see the data they need. Follow these steps to create or edit a business unit."
 ms.custom: 
 ms.date: 10/02/2019
 ms.reviewer: 
@@ -18,7 +18,7 @@ ms.author: jimholtz
 search.audienceType: 
   - admin
 ---
-# Create or edit business units to improve security and control
+# Create or edit business units to control access to data
 
 ::: moniker range="op-9-1"
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]

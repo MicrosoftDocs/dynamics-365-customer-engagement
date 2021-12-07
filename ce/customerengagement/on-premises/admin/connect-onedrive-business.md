@@ -1,6 +1,6 @@
 ---
-title: "Enable OneDrive for Business (on-premises) with Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
-description: "Create and manage private documents with OneDrive for Business."
+title: "Enable OneDrive for Business in Dynamics 365 Customer Engagement apps"
+description: "Create and manage private documents with OneDrive for Business. OneDrive needs to be enabled before documents can be accessed in Customer Engagement apps."
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 
@@ -18,7 +18,7 @@ ms.author: jimholtz
 search.audienceType: 
   - admin
 ---
-# Enable OneDrive for Business (on-premises)
+# Enable OneDrive for Business in Customer Engagement apps
 
 Users can create and manage private documents with [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)]. Those documents can be accessed within [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps after the system administrator has enabled [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)].  
   

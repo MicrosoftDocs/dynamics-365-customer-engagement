@@ -1,6 +1,6 @@
 ---
-title: "What fields can be synchronized between Customer Engagement (on-premises) and Outlook? | MicrosoftDocs"
-description: "Set whether a sync occurs and the sync direction for Customer Engagement (on-premises) and Outlook."
+title: "Settable syncs by field in Dynamics 365 Customer Engagement (on-premises)"
+description: "Admins can set whether a sync occurs and the direction between Outlook and Customer Engagement (on-premises). This page explains the settable syncs by field."
 ms.date: 10/01/2019
 ms.prod: d365ce-op
 ms.custom: 

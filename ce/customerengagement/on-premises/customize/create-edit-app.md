@@ -1,6 +1,6 @@
 ---
-title: "Create or edit a custom business app using the app designer in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to create or edit apps using the app designer"
+title: "Create an app with the app designer in Dynamics 365 Customer Engagement (on-premises)"
+description: "Follow these steps to create single- or multiple-entity apps by using the tile-based app designer. Create it once and run your app on large screen devices."
 keywords: 
 ms.date: 06/20/2019
 ms.prod: d365ce-op
@@ -22,7 +22,7 @@ search.audienceType:
 
 ---
 
-# Create or edit an app by using the app designer
+# Create or edit an app using the app designer
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Create a model-driven app by using the app designer](/powerapps/maker/model-driven-apps/create-edit-app)
 

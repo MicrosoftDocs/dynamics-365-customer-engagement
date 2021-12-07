@@ -1,7 +1,7 @@
 ---
 title: Insights dashboard overview | Microsoft Docs
 description: Learn about the various dashboards and reports for historical operational metrics and KPIs to manage contact centers.
-ms.date: 04/05/2021
+ms.date: 09/27/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -39,19 +39,19 @@ The following dashboard reports are available for Customer Service historical an
 
 ### Summary
 
-The Summary dashboard gives you a broad overview of the customer service experience in your organization. It uses artificial intelligence (AI) technology to show you topics that are generating the highest volume and emerging topics with the highest rate of change in volume.
+The Summary dashboard gives you a broad overview of the customer service experience in your organization. It uses AI technology to show you topics that are generating the highest volume and emerging topics with the highest rate of change in volume.
 
    > [!div class=mx-imgBorder]
-   > ![Analytics Summary dashboard.](media/customer-service-insights.png "Customer Service analytics Summary dashboard")
+   > ![Analytics Summary dashboard.](media/customer-service-summary-dashboard.png "Customer Service analytics Summary dashboard")
    
 For more information about the Summary dashboard, see [Summary dashboard](summary-dashboard-cs.md)
 
 ### Agent
 
-The Agent dashboard shows charts and KPIs for individual agents and overall agent performance.
+The Agent dashboard shows charts and KPIs for individual agents and overall agent performance. 
 
    > [!div class=mx-imgBorder]
-   > ![Analytics Agent dashboard.](media/agent-dashboard-analytics-cs.png "Customer Service analytics Agent dashboard")
+   > ![Analytics Agent dashboard.](media/customer-service-analytics-agent-dashboard.png "Customer Service Analytics Agent dashboard") 
    
 For more information about the Agent dashboard, see [Agent dashboard](agent-dashboard-cs.md)
 
@@ -60,7 +60,7 @@ For more information about the Agent dashboard, see [Agent dashboard](agent-dash
 The Case Topics dashboard shows a detailed breakdown of cases and their assigned topics.
 
    > [!div class=mx-imgBorder]
-   > ![Analytics Topics dashboard.](media/topics-dashboard-analytics-cs.png "Customer Service analytics Topics dashboard")
+   > ![Analytics Topics dashboard.](media/customer-service-analytics-topics-dashboard.png "Customer Service Analytics Topics dashboard")
    
 For more information about the Case Topics dashboard, see [Topics dashboard](case-topics-dashboard-cs.md)
 
@@ -70,7 +70,7 @@ For more information about the Case Topics dashboard, see [Topics dashboard](cas
 The knowledge search analytics dashboard is designed to provide your organization's customer service supervisors and knowledge workers with valuable insights into how your support agents are finding and using knowledge articles.
 
 > [!div class="mx-imgBorder"]
-> ![Knowledge search analytics report.](media/knowledge-search-analytics-dashboard.png "Knowledge search analytics")
+> ![Knowledge search analytics report.](media/customer-service-knowledge-search-analytics.png "Knowledge search analytics")
 
 For more information about the Knowledge Search Analytics report, see [Knowledge Search Analytics Report](knowledge-search-analytics-cs.md)
 
@@ -104,7 +104,7 @@ The Agent dashboard shows charts and KPIs that you can use to guide agents and u
 > [!div class="mx-imgBorder"]
 > ![Agent dashboard.](media/agent-report-cs.png "Agent report").
 
-For more details about the Agent report, see [Agent dashboard](agent-dashboard-cs.md)
+For more details about the Agent report, see [Agent dashboard](agent-dashboard.md#agent-dashboard)
 
 ### Bot
 

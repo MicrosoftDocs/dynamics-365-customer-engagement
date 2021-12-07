@@ -1,5 +1,6 @@
 ---
 title: "SQL Server installation and configuration | Microsoft Docs"
+description: Learn about how to plan your SQL Server deployment for use with Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
 ms.date: "10/01/2018"
 ms.prod: d365ce-op
@@ -16,8 +17,6 @@ author: Mattp123
 manager: kvivek
 ---
 # SQL Server installation and configuration
-
-
 
 To plan your use of [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] with [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)], you must understand how [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] uses [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)], and what [!INCLUDE[pn_Microsoft_Dynamics_CRM_Server_Setup](../includes/pn-microsoft-dynamics-crm-server-setup.md)] does and does not do:  
   

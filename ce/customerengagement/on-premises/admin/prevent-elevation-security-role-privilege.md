@@ -1,6 +1,6 @@
 ---
-title: "Create an administrative user and prevent elevation of security role privilege | MicrosoftDocs"
-description: "Create a new security role based on an existing set of privileges."
+title: "Prevent privilege changes in Dynamics 365 Customer Engagement (on-premises)"
+description: "To prevent privilege changes that can occur with product updates, create a new custom security role and assign it to an administrative user."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -18,7 +18,7 @@ search.audienceType:
   - admin
 
 ---
-# Create an administrative user and prevent elevation of security role privilege
+# Assign custom security role to an administrative user to prevent privilege elevation
 
 ::: moniker range="op-9-1"
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]

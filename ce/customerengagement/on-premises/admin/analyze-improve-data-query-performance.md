@@ -1,6 +1,6 @@
 ---
-title: "Data query performance  | MicrosoftDocs"
-description: "Index management is executed automatically using Azure SQL Database automatic tuning."
+title: "Query performance in Dynamics 365 Customer Engagement (on-premises)"
+description: "To improve query performance, index management is executed automatically using Azure SQL Database automatic tuning."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -20,7 +20,7 @@ search.audienceType:
   - admin
 
 ---
-# Data query performance
+# Data query performance and index management
 
 To improve query performance, index management is executed automatically using Azure SQL Database automatic tuning. Subsequently, there’s no need to manually configure recommendations to create or drop indexes in Dynamics 365 Customer Engagement (on-premises) or Azure SQL Database. More information: [Automatic tuning in Azure SQL Database](/azure/sql-database/sql-database-automatic-tuning) 
 

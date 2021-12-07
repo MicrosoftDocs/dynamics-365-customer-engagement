@@ -66,11 +66,11 @@ To integrate a WeChat channel with Omnichannel for Customer Service, get the fol
    5. Verify the settings on the **Summary** page, and select **Finish**. The WeChat channel instance is configured.
 5. Configure routing rules. More information: [Configure work classification](configure-work-classification.md).
 6. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
-7. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot).
+7. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream).
 8. In **Advanced settings**, configure the following options based on your business needs:
    - [Sessions](../app-profile-manager/session-templates.md)
    - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
-   - [Context variables](create-workstreams.md#configure-context-variables)
+   - [Context variables](context-variables-for-bot.md#add-context-variables)
    - [Smart assist bots](smart-assist-bot.md)
    - [Quick replies](create-quick-replies.md)
 
@@ -78,7 +78,7 @@ To integrate a WeChat channel with Omnichannel for Customer Service, get the fol
 
 If you're using the service account of WeChat, perform the following steps:
 
-1. Sign in to your WeChat Service Account, and then paste the IP whitelist and server address, which you copied from Omnichannel admin center in the preceding procedure, in their respective boxes. The IP address of the Omnichannel for Customer Service application is not blocked in the WeChat firewall. The server address helps establish the connection between WeChat and Omnichannel for Customer Service.
+1. Sign in to your WeChat Service Account, and then paste the IP allowlist and server address, which you copied from Omnichannel admin center in the preceding procedure, in their respective boxes. The IP address of the Omnichannel for Customer Service application is not blocked in the WeChat firewall. The server address helps establish the connection between WeChat and Omnichannel for Customer Service.
 
 2. In WeChat, make sure that you select **Security Mode** under **Message Encryption Method** for encryption of the chat messages.
 

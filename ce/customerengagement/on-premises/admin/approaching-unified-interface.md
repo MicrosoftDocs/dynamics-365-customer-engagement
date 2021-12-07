@@ -1,6 +1,6 @@
 ---
-title: "Approaching a user experience and Unified Interface transition (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
-description: "Learn how to plan and execute your transition from the legacy web client to Unified Interface in Dynamics 365 Customer Engagement."
+title: "Transition to Unified Interface for Dynamics 365 Sales and Service"
+description: "Download this white paper to learn how to plan and execute your transition from the legacy web client to Unified Interface for Dynamics 365 Sales and Service."
 ms.prod: d365ce-op
 ms.custom: ""
 ms.date: 07/24/2019
@@ -23,7 +23,7 @@ search.app:
   - PowerApps
   - D365CE
 ---
-# Approaching a user experience and Unified Interface transition
+# Guide to approaching a user experience and Unified Interface transition
 
 Unified Interface uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation.
 

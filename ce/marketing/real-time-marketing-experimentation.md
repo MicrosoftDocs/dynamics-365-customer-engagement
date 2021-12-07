@@ -1,7 +1,7 @@
 ---
 title: "Experiment and refine real-time marketing journeys (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Experiment and refine real-time marketing journeys in Dynamics 365 Marketing."
-ms.date: 04/30/2021
+ms.date: 12/06/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -20,12 +20,7 @@ search.app:
 
 # Experiment and refine real-time marketing journeys
 
-> [!IMPORTANT]
-> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
-> 
-> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
-
-Real-time marketing in Dynamics 365 Marketing uses powerful AI-driven A/B tests to examine your event-based customer journeys, allowing you to gain insights into how best to reach your customers.
+Real-time marketing in Dynamics 365 Marketing uses powerful A/B tests to examine your event-based customer journeys, allowing you to gain insights into how best to reach your customers.
 
 Using A/B tests, you can measure which channel or content messaging strategy leads to higher success. Each test compares a control group of users (version A) against a variant (version B). The control group receives a default experience. The variant group receives a different experience or message. By comparing the results of the groups, you can determine which is the most effective.
 
@@ -34,11 +29,15 @@ The journey usually will run the entire test automatically. The test starts by s
 ## Creating and adding an A/B test:
 
 1. Create your initial content [in the email editor](real-time-marketing-email.md), as usual. Perfect the content and be sure to check it for errors to make sure it can go live.
-1. When your content is ready, go to **Real-time marketing** > **Customer engagement** > **Journeys** and select an existing journey or create a new one. 
+1. When your content is ready, go to **Real-time marketing** > **Customer engagement** > **Journeys** and select an existing journey or create a new one.
 1. After you select a journey, select the plus sign (**+**) to add an element, and then do the following:
     - Select the **Test message or channels against each other** element in the dialog.
     - Choose which channel you want to test in version A and version B, and then select **Create test**.
 1. A side pane titled **A/B test** will open. Enter the following information in the side pane:
+
+    > [!div class="mx-imgBorder"]
+    > ![A/B test side panel.](media/real-time-marketing-abtest-sidepane.png "A/B test side panel")
+
     - **Display name**: To identify your test, enter a name for it. This name is displayed in the A/B test panel and in the customer journey analytics when you are looking at which tests are running. Once the journey is live, you cannot rename your test.  
     - **Versions**: Pick the content for the channel you prepared in step 1. You can do this through a dropdown list by either selecting the child tiles in the journey builder, or by making a selection on the side panel.
     - **Audience**: Choose the audience distribution you would like. The slider is automatically on 50-50, but you can set the slider to your desired distribution. The minimum a version can receive is 10 percent, and the maximum is 90 percent. Remember that, traditionally, version A is your control group and version B is your variant.
@@ -56,8 +55,8 @@ After you have published your journey, you can open it to track the lifecycle of
 
 - **Draft**: These tests haven't run yet, so you can still edit the settings.
 - **In progress**: These tests are currently being run. The settings are locked and you can’t make significant changes.  
-- **Stopped**: These tests are on pause and can be resumed by the marketer.
-- **Ended**: These tests were completed by finding a statistically significant winner or by timing out when scheduled to end at a set date and time. Ended tests cannot be reused.
+- **Stopped**: Theses tests are stopped and the marketer can choose which version to send.
+- **Ended**: These are tests were completed by finding a statistically significant winner or by timing out when scheduled to end at a set date and time. Ended tests cannot be reused.
 
 ## Understand your results
 

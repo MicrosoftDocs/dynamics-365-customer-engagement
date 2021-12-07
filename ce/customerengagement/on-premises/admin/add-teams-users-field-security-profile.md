@@ -1,6 +1,6 @@
 ---
-title: "Add teams or users to a field security profile  | MicrosoftDocs"
-description: "Role-based security controls access to specific entity types."
+title: "Add users or teams to field security profile in Dynamics 365 Customer Engagement (on-premises)"
+description: "Follow these steps to use a field security profile to manage the permission of users and teams to read, create, or write in secured fields."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -18,7 +18,7 @@ ms.author: jimholtz
 search.audienceType: 
   - admin
 ---
-# Add teams or users to a field security profile to control access
+# Add teams or users to a field security profile
 
 ::: moniker range="op-9-1"
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]

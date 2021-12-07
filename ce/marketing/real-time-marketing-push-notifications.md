@@ -1,7 +1,7 @@
 ---
 title: "Create push notifications (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create push notifications for real-time marketing journeys in Dynamics 365 Marketing."
-ms.date: 04/30/2021
+ms.date: 11/08/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -19,11 +19,6 @@ search.app:
 ---
 
 # Create push notifications
-
-> [!IMPORTANT]
-> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
-> 
-> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
 
 Push notifications are messages sent to customers who have installed your mobile app. Push messages allow you to quickly convey offers, messages, or other information directly to users of your app.
 
@@ -106,12 +101,27 @@ As with the email editor, you can personalize push notifications to insert dynam
 
 To personalize a push notification:
 
-1. Select **Personalization** ![The Personalization button.](media/real-time-marketing-personalization.png "The Personalization button") in the **Message** field.
+1. Select the **Personalization** ![The Personalization button.](media/real-time-marketing-personalization2.png "The Personalization button") button in the **Message** field.
 1. Select **Select a data field** to choose a data source. Your data source can be based on an **Audience**, an **Event trigger**, or **Compliance**.
 1. After choosing the data source, you can search for the specific attribute or event trigger you want.
 1. Add a **Label** to quickly identify your token in the message content.
 
 When you send the push notification from a journey, it will automatically populate the token according to the attribute you selected.
+
+## Add a Customer Voice survey to a push notification
+
+Adding a Customer Voice survey link to a push notification or [text message](real-time-marketing-outbound-text-messaging.md#add-a-customer-voice-survey-to-a-text-message) allows you to seek feedback from customers on the channels they use the most.
+
+To add a Customer Voice survey to a push notification:
+
+1. Select the **Customer Voice survey** button ![The Customer Voice survey button.](media/real-time-marketing-customer-voice.png "The Customer Voice survey button") in the **Message** field.
+1. Choose a Customer Voice survey in the lookup field.
+1. Select whether you want the survey to be anonymous and whether you want to track the survey link after customers click on it. If you select the **Survey is anonymous** option, no user data will be saved with the answers.
+    > [!div class="mx-imgBorder"]
+    > ![Customer Voice survey options screenshot.](media/real-time-marketing-survey-options.png "Customer Voice survey options screenshot")
+1. Select **Save**.
+
+When you send the push notification from a journey, it will automatically populate the token with the survey and options you selected.
 
 ## Send push notification messages in a journey
 

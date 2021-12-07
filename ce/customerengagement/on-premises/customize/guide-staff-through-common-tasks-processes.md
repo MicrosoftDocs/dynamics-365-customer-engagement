@@ -1,6 +1,6 @@
 ---
-title: "Create custom business logic through processes with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn about the different types of business logic you can use in your app"
+title: "Create business processes in Dynamics 365 for Customer Engagement (on-premises)"
+description: "Learn about the four types of processes—business process flows, mobile task flows, workflows, and actions—when to use them, and how to create them."
 ms.custom: 
 ms.date: 01/23/2019
 ms.reviewer: 
@@ -19,7 +19,7 @@ search.audienceType:
   - customizer
 
 ---
-# Create custom business logic through processes
+# Create consistent business processes for your organization
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Apply custom business logic with business rules and flows in model-driven apps](/powerapps/maker/model-driven-apps/guide-staff-through-common-tasks-processes)
 

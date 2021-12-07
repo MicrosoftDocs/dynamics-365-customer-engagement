@@ -1,6 +1,6 @@
 ---
-title: "Add resources to a site  | MicrosoftDocs"
-description: "Add resources such as users, equipment, or facilities to a site."
+title: "Add resources to a site in Dynamics 365 Customer Engagement (on-premises)"
+description: "After you create a site for a new location, you can add resources such as users, equipment, or facilities."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
@@ -24,7 +24,7 @@ search.audienceType:
 [!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
 ::: moniker-end
 
-After you create a site, you can add resources such as users, equipment, or facilities to it.  
+After you create a site, you can add resources such as users, equipment, or facilities.  
   
 1. [!INCLUDE[proc_settings_bus_management](../includes/proc-settings-bus-management.md)]  
   
