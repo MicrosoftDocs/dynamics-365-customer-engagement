@@ -142,7 +142,7 @@ Scheduled requirements with a short duration will display across the entire day 
 Switch to the weekly or monthly views to see scheduled jobs at a higher level. Select a resource's time slot and a requirement below to trigger the booking panel.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the weekly view on the new Customer Service schedule board.](media/schedule-board-new-weekly.png "Weekly view of new schedule board)
+> ![Screenshot of the weekly view on the new Customer Service schedule board.](media/schedule-board-new-weekly.png "Weekly view of new schedule board")
 
 The booking panel will help you schedule a service activity across multiple days and choose how the work should be divided each day.
 
