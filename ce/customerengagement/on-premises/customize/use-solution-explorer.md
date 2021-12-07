@@ -1,6 +1,6 @@
 ---
-title: "Use the solution explorer (Dynamics 365 Customer Engagement on-premises) | MicrosoftDocs"
-description: "Learn how to use solution explorer to create or customize apps"
+title: "Use the solution explorer in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how to use the solution explorer to create or customize apps. Get guidance on customizing the individual components found in the solution explorer."
 ms.custom: 
 ms.date: 01/11/2019
 ms.reviewer: 
@@ -20,7 +20,7 @@ search.audienceType:
   - customizer
 
 ---
-# Use the solution explorer
+# Use the solution explorer to customize components
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Use solutions in Power Apps](/powerapps/maker/common-data-service/use-solution-explorer)
 
 Within the solution explorer you can navigate through a hierarchy of nodes using the navigation pane on the left side as shown in the following screenshot:  

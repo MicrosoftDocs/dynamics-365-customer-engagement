@@ -1,6 +1,6 @@
 ---
-title: "Define alternate keys to reference records with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to define alternate keys that can be used to reference records"
+title: "Define alternate keys in Dynamics 365 Customer Engagement (on-premises)"
+description: "Ensure an efficient and accurate way of integrating data from external systems using alternate keys. Learn about the benefits and steps for creating them."
 ms.custom: 
 ms.date: 04/03/2020
 ms.reviewer: 

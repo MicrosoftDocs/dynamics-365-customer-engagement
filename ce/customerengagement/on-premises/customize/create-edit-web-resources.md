@@ -1,6 +1,6 @@
 ---
-title: "Create or edit web resources in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to create or edit a web resource"
+title: "Create web resources in Dynamics 365 Customer Engagement (on-premises)"
+description: "App makers use web resources to extend an app with virtual files. This page walks you through how to create a web resource or edit an existing one."
 ms.custom: 
 ms.date: 10/29/2019
 ms.reviewer: 

@@ -1,7 +1,7 @@
 ---
 title: "Continue the conversation with Microsoft Teams webinar participants (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to continue the conversation with Microsoft Teams webinar participants using Dynamics 365 Marketing."
-ms.date: 08/09/2021
+ms.date: 11/30/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -20,27 +20,31 @@ search.app:
 
 # How to sign up for a free 6-month Dynamics 365 Marketing trial
 
-The Dynamics 365 Marketing trial allows you to use the Marketing app to stay in touch with your webinar participants before and after hosting a webinar. You can send personalized registration materials, send surveys, and more to drive awareness and engagement.
+The Dynamics 365 Marketing trial allows you to use the Marketing app to stay in touch with your webinar participants after hosting a webinar. You can send personalized registration materials, send surveys, and more to drive awareness and engagement.
+
+> [!NOTE]
+> The Dynamics 365 Marketing 6-month trial does not connect to existing instances of other Dynamics 365 apps. It is standalone and separate from any paid instances of Sales, Customer Service, Field Service, or any other Dynamics 365 apps.
+> 
+> If you would like to create a Marketing trial in conjunction with an existing Dynamics 365 instance, contact your Microsoft sales representative or channel partner.
 
 To sign up for a 6-month Dynamics 365 Marketing trial:
 
 1. [Host a webinar in Teams](/microsoftteams/set-up-webinars) with at least one attendee.
 1. In Teams, select the **Attendance** tab to view the attendance report.
-1. In the top-right corner, select **Follow up with participants**.
+1. On the top bar, select **Follow up with participants**.
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of the Follow up with participants button](media/teams-follow-up.png "Screenshot of the Follow up with participants button")
+    > ![Screenshot of the Follow up with participants button](media/teams-follow-up2.png "Screenshot of the Follow up with participants button")
 
     > [!IMPORTANT]
-    > The **Follow up with participants** button only appears in the attendance tab *after* the webinar has ended. The button is not shown if you do not meet eligibility criteria or if your organization has disabled trials.
+    > The **Follow up with participants** button only appears in the attendance tab *after* the webinar has ended. The meeting type must be a webinar to use the **Follow up with participants** functionality. The button is not shown if the meeting type is not a webinar, if you do not meet eligibility criteria, or if your organization has disabled trials.
 
 1. Select **Get started**.
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of the Get started button](media/teams-follow-up-get-started.png "Screenshot of the Get started button")
+    > ![Screenshot of the Get started button](media/teams-follow-up-get-started2.png "Screenshot of the Get started button")
 
-1. You will be prompted to enter an email address. You'll need to use a work or school email address (the same one you use for Microsoft Teams).
-1. After sign-in, you will see some additional screens while the trial is being set up and configured. Once setup is complete, a browser tab will open with a Dynamics 365 Marketing customer journey page that contains your webinar data, allowing you to personalize emails to follow up with your webinar participants.
+1. You will see some additional screens while the trial is being set up and configured. Once setup is complete, a browser tab will open with a Dynamics 365 Marketing customer journey page that contains your webinar data, allowing you to personalize emails to follow up with your webinar participants.
 
 ## Here's what you can do by connecting Teams to Dynamics 365 Marketing
 
@@ -57,13 +61,14 @@ Marketing helps you automate and personalize the follow-up process and helps you
 
 The 6-month trial allows you to immediately connect Teams to Dynamics 365 Marketing. You don't even need a credit card to sign up. Dynamics 365 Marketing is web-based, so no installation on your computer is required. Your data is secure with Microsoft; your data will not be shared outside of your company.
 
+To learn more about the trial requirements and eligibility, visit the [Teams trial offer page](https://dynamics.microsoft.com/marketing/offer/).
+
 ## What happens when the trial expires?
 
 When your Dynamics 365 Marketing trial expires, your administrator will have to purchase a license for the app if you wish to continue using it.
 
 ## Next steps
 
-- [Create a Dynamics 365 Marketing webinar event and run it in Microsoft Teams](teams-journey.md)
 - [Follow up with Teams webinar participants](teams-webinar-follow-up.md)
 
 > [!NOTE]

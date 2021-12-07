@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot issues with Solution Health Hub for Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to troubleshoot Dynamics 365 Field Service issues with the Solution Health Hub
-ms.date: 10/22/2019
+ms.date: 12/06/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
 ms.topic: article
@@ -26,13 +26,14 @@ Here are a few common issues the Solution Health Hub detects:
 2. If processes that will cause an upgrade to fail are assigned to disabled users 
 3. Customized web resources that will later lead to runtime issues
 
+In addition to running Solution Health Hub, check out [best practices for customizing Dynamics 365 Field Service](field-service-customization-best-practices.md) and 
+[running Solution Checker to improve scripts, plugins, HTML, workflows, etc.](/powerapps/maker/data-platform/use-powerapps-checker)
+
 ## Prerequisites
 
 - Field Service v8.4.0.338+ (Unified Interface) or v7.5.7.87+ (Web)
 - The Solution Health Hub extends the [Power Apps checker](/powerapps/maker/common-data-service/use-powerapps-checker) to ensure continued healthy operation of an environment. 
-
-> [!Note]
-> Currently, the ruleset uses 15 rules to verify the environment is in a good state. 
+ 
 
 ## Run a health check
 
@@ -82,6 +83,12 @@ Verifies that all work orders that were supposed to be generated over the last s
 There are agreement recurrences that haven't been processed correctly, and work orders haven't been generated that should have been.
 
 ### How to fix
+
+Identify the reason the work order was not generated, along with the cause of failure, and address that. Then regenerate the record generation by changing the agreement status back to "estimate," then to "active" again.
+
+
+> [!div class="mx-imgBorder"]
+> ![Solution health agreement generation in Solution Health Hub.](./media/solution-health-agreement-generation.png)
 
 ## Check failing workflow related to agreement
 
@@ -570,8 +577,31 @@ If either latitude or longitude or both are not present on an account record.
 
 Check if the address on the account form is provided. If so, then geocode the account by selecting the geocode button on the command bar of the account form.
 
+
+## Verify mobile user security roles
+
+Severity: High
+
+### What it checks
+
+Checks whether frontline workers who have access to the Field Service (Dynamics 365) mobile app are assigned the Field Service resource role and the Field Service resource field security profile.
+
+### Why it fails
+
+When a frontline worker has access to the Field Service (Dynamics 365) mobile app without Field Service resource role and/or the Field Service resource field security profile
+
+>[!Note]
+> Business unit is shown in the message when more than one business unit is present in the organization. A user who is part of multiple business units who does not have the **Field Service Resource** role or security profile may be flagged for each business unit of which they are a member.
+
+### How to fix
+
+Add Field Service resource security role and field security profile to the user. For more information see, [see this article on setting up frontline workers](/dynamics365/field-service/frontline-worker-set-up).
+
+
 ### See also
 
+- [Run Solution Checker to improve scripts, plugins, HTML, workflows, etc.](/powerapps/maker/data-platform/use-powerapps-checker)
+- [Best practices for customizing Dynamics 365 Field Service](field-service-customization-best-practices.md)
 - [Frequently asked questions](./troubleshoot-faq.yml)
 
 

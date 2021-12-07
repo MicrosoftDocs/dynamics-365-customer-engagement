@@ -1,6 +1,6 @@
 ---
-title: "View or download developer resources | MicrosoftDocs"
-description: "Find developer resources and service endpoint URLs"
+title: "Find developer resources for Dynamics 365 Customer Engagement (on-premises)"
+description: "Find developer resources and service endpoint URLs for Dynamics 365 Customer Engagement (on-premises)."
 keywords: 
 ms.date: 01/11/2019
 ms.prod: d365ce-op
@@ -23,7 +23,7 @@ search.audienceType:
 
 ---
 
-# View or download developer resources
+# View or download developer resources for Customer Engagement (on-premises)
 
 
 

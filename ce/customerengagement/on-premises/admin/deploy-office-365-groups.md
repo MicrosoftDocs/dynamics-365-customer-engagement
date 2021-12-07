@@ -1,6 +1,6 @@
 ---
-title: "Deploy Office 365 Groups with Dynamics 365 for Customer Engagement| MicrosoftDocs"
-description: "Deploy Office 365 Groups  with Dynamics 365 for Customer Engagement apps, providing a new environment for collaboration."
+title: "Deploy Office 365 Groups for Dynamics 365 Customer Engagement apps"
+description: "Office 365 Groups allows you to collaborate with people who don't use your Customer Engagement apps. Follow these steps to enable Groups for any entity."
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 
@@ -20,7 +20,7 @@ search.audienceType:
   - admin
 
 ---
-# Deploy Office 365 Groups [!INCLUDE [pn-dynamics-crm-online](../includes/pn-dynamics-crm-online.md)]
+# Deploy Office 365 Groups to collaborate with people inside and outside your Customer Engagement apps
 
 [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)], available with [!INCLUDE [pn-dynamics-crm-online](../includes/pn-dynamics-crm-online.md)] apps, provides a new environment for collaboration with [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] users who don’t use [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. For example, use [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] when a sales team has a major opportunity requiring input from several people who don’t have access to [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] apps. [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] provides a single location to share documents, conversations, meetings, and notes. You can enable [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] for any entity.  
   

@@ -5,6 +5,7 @@ author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.custom: intro-internal
+ms.date: 10/07/2021
 ---
 
 
@@ -221,7 +222,7 @@ A high-level overview of the Chat for Dynamics 365 Customer Service demo data is
 - One web customer
 - One case
 - Four sessions
-- One Chat for Dynamics 365 Customer Service work stream
+- One Chat for Dynamics 365 Customer Service workstream
 - One Chat widget
 - One Omnichannel for Customer Service queue
 

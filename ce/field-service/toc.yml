@@ -6,6 +6,14 @@
   href: user-guide.md
 - name: Get started
   href: field-service-get-started.md
+- name: Videos
+  href: field-service-videos.md
+- name: Try Field Service
+  items:
+  - name: Sign up for free trial
+    href: trial-signup.md
+  - name: Trial FAQs
+    href: trial-faq.md
 - name: Installation + upgrade
   items: 
   - name: Field Service installation (web + mobile)
@@ -24,6 +32,8 @@
     href: view-user-accounts-security-roles.md
   - name: Location and map settings
     href: field-service-maps-address-locations.md
+  - name: Customization overview
+    href: field-service-customizations.md
   - name: Priorities
     href: set-priorities.md
   - name: Postal codes
@@ -32,6 +42,8 @@
     href: set-up-tax-codes.md
   - name: Territories
     href: set-up-territories.md
+  - name: Customization best practices
+    href: field-service-customization-best-practices.md
   - name: Field Service settings
     href: configure-default-settings.md
 - name: Quickstarts
@@ -60,6 +72,8 @@
     href: set-up-service-task-types.md
   - name: Knowledge articles
     href: field-service-knowledge-management.md
+  - name: Collaborate on work orders with Microsoft Teams
+    href: field-service-teams-collaboration.md
   - name: Work order summary reports
     href: reports.md
   - name: Inspections
@@ -134,6 +148,8 @@
       href: field-service-work-hours-calendar-api.md
     - name: Analytics dashboard
       href: scheduling-analytics-reports.md
+    - name: Scheduling parameters (Settings)
+      href: scheduling-parameters-settings.md
   - name: Scheduling
     items: 
     - name: Schedule assistant overview
@@ -160,6 +176,8 @@
       href: schedule-assistant-advanced-filters.md
     - name: Self-scheduling for customers
       href: scheduling-self-customers.md
+    - name: Search resource availability API
+      href: search-resource-availability-api.md
   - name: Schedule board
     items: 
     - name: Configure the schedule board
@@ -192,8 +210,12 @@
     href: mobile-power-app-use.md
   - name: Booking maps
     href: mobile-powerapp-booking-maps.md
-  - name: Customize the app
+  - name: Customize the home screen (Site Map)
     href: mobile-power-app-configure.md
+  - name: Customize calendar columns
+    href: mobile-powerapp-customize-booking-calendar.md
+  - name: Edit the Booking and Work Order form (Form Component Control)
+    href: mobile-powerapp-booking-work-order-form.md
   - name: Offline data and sync filters
     href: mobile-power-app-system-offline.md
   - name: Barcode scanning and global search
@@ -214,6 +236,8 @@
     href: mobile-powerapp-deeplink.md
   - name: Add a custom app module to the mobile app
     href: mobile-powerapp-copy-app-module.md
+  - name: Mobile app for Windows 10+ (Preview)
+    href: mobile-powerapp-windows.md
   - name: Use Microsoft Power Platform
     href: mobile-power-utilize-platform.md
   - name: FAQs
@@ -290,6 +314,14 @@
     href: process-return.md
   - name: Manual inventory journals
     href: manual-inventory-journals.md
+- name: Field Service for end customers
+  items: 
+  - name: Customer experience homepages
+    href: field-service-portal-homepage.md
+  - name: Self-scheduling for customers
+    href: scheduling-self-customers.md
+  - name: Send technician arrival time and current map location
+    href: reminders-arrival-time.md
 - name: Resource Scheduling Optimization Add-in
   items: 
   - name: Overview
@@ -428,7 +460,12 @@
     href: appsource-addins.md
   - name: Dynamics 365 US Government cloud (GCC) availability
     href: field-service-dynamics365-government.md
+  - name: Deprecations
+    href: deprecations-field-service.md 
 - name: Troubleshoot with Solution Health Hub
   href: troubleshoot-field-service-solution-health.md
 - name: General FAQs
   href: troubleshoot-faq.yml
+- name: Get help
+  href: field-service-get-help.md
+  

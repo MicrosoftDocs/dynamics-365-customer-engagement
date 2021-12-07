@@ -1,6 +1,6 @@
 ---
-title: "Managed properties for views for Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to set managed properties for a view"
+title: "Set managed property for a view in Dynamics 365 Customer Engagement (on-premises)"
+description: "By default, most views have the Customizable managed property set to true. However, you can follow these steps within System Views if you need to turn it off."
 ms.custom: 
 ms.date: 12/04/2018
 ms.reviewer: 
@@ -20,7 +20,7 @@ search.audienceType:
   - customizer
 
 ---
-# Managed properties for views
+# Set the customizable managed property for a view
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Managed properties in the Power Platform](/power-platform/alm/managed-properties-alm)
 
@@ -30,7 +30,7 @@ search.audienceType:
   
  By default, most views have their **Customizable** managed property set to true so that people can customize them. Unless you have a very good reason to change this, we recommend you allow people to customize views in your app.  
   
-### Set managed properties for a view  
+### Set managed property for a view  
   
 1.  Navigate to **System Views** as described in [Access view definitions](../customize/accessing-view-definitions.md).  
   

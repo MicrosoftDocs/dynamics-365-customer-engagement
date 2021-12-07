@@ -88,20 +88,20 @@ To make the app module available to the Field Service mobile app:
 
     1.  The first is to allow tagging the app module for the Field Service Mobile application.
 
-        1.  ***uniquename** is ```ChannelAvailability```. The name of your new app module, which follows the format of ```\[publisher prefix\]\_\[app module unique name\]\_\[app settings unique name\]```. Or ```new\_CustomAppModule\_ChannelAvailability``` in our example.
+        1.  ***uniquename** is ```ChannelAvailability```. The name of your new app module, which follows the format of ```[publisher prefix]_[app module unique name]_[app settings unique name]```. Or ```new_CustomAppModule_ChannelAvailability``` in our example.
 
         2.  **value** is set to ```FieldServiceMobile```.
 
 
     2.  The second makes the app eligible to run in **Offline First**.
 
-        1.  **uniquename** is the name of your new app module, which follows the format of ```\[publisher prefix\]\_\[app module unique name\]\_\[app settings unique name\]```. Or ```new\_CustomAppModule\_ServerMode``` in our example.
+        1.  **uniquename** is the name of your new app module, which follows the format of ```[publisher prefix]_[app module unique name]_[app settings unique name]```. Or ```new_CustomAppModule_ServerMode``` in our example.
 
         2.  **value** is the application ```ServerMode```.
 
 ```
                 <appsettings>
-                <appsetting uniquename="new\_CustomAppModule\_ChannelAvailability">
+                <appsetting uniquename="new_CustomAppModule_ChannelAvailability">
                 <value>FieldServiceMobile</value>
                 <iscustomizable>1</iscustomizable>
                 <settingdefinitionid>
@@ -109,7 +109,7 @@ To make the app module available to the Field Service mobile app:
                 </settingdefinitionid>
                 </appsetting>
                 
-                <appsetting uniquename="new\_CustomAppModule\_ServerMode">
+                <appsetting uniquename="new_CustomAppModule_ServerMode">
                 <value>false</value>
                 <iscustomizable>1</iscustomizable>
                 <settingdefinitionid>

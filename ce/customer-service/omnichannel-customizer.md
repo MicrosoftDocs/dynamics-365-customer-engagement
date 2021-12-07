@@ -1,6 +1,6 @@
 ---
 title: "Omnichannel engagement hub for system customizers | MicrosoftDocs"
-description: 
+description: "Overview topic containing links to procedures for customizing session, quick view, and Customer summary forms in Omnichannel for Customer Service."
 ms.date: 07/01/2019
 ms.topic: article
 author: neeranelli

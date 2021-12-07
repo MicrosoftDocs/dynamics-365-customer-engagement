@@ -1,6 +1,6 @@
 ---
-title: "Display custom icons alongside values in list views with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to display custom icon graphics in a view"
+title: "Add custom icons to a list view in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how administrators and customizers can add graphics to customize a list view with icons that display alongside text or numerical values."
 ms.custom: 
 ms.date: 11/20/2019
 ms.reviewer: 
@@ -20,7 +20,7 @@ search.audienceType:
   - customizer
 
 ---
-# Display custom icons in list views
+# Add custom icons to a list view
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Display custom icons alongside values in list views](/powerapps/maker/common-data-service/display-custom-icons-instead)
 
@@ -101,7 +101,9 @@ Custom icons in list views can display in Unified Interface, classic web client,
   
  The following sample code displays icons and tooltips based on one of three values (1: Hot, 2: Warm, 3: Cold) in the opportunityratingcode (Rating) attribute. The sample code also shows how to display localized tooltip text. For this sample to work, you must create three image web resources with 16x16 images with the following names: new_Hot, new_Warm, and new_Cold.  
   
-```  
+```js
+"use strict";
+
 function displayIconTooltip(rowData, userLCID) {      
     var str = JSON.parse(rowData);  
     var coldata = str.opportunityratingcode_Value;  

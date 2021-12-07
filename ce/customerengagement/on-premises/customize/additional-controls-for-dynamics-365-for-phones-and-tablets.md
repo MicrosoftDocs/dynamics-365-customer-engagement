@@ -1,6 +1,6 @@
 ---
-title: "Additional controls for Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "A list of controls available for use with Dynamics 365 for phones and tablets"
+title: "Use form controls for Dynamics 365 for phone and tablets"
+description: "For a more touch-friendly experience on Dynamics 365 for phones and tablets, use controls including sliders, switches, media players, calendars, and more." 
 ms.custom: 
 ms.date: 11/08/2018
 ms.reviewer: 
@@ -19,7 +19,7 @@ search.audienceType:
   - customizer
 
 ---
-# Additional controls for Dynamics 365 for phones and tablets 
+# Additional form controls for Dynamics 365 for phones and tablets
 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Custom controls available](/powerapps/maker/model-driven-apps/additional-controls-for-dynamics-365-for-phones-and-tablets)
 
@@ -27,7 +27,7 @@ search.audienceType:
 
  
 > [!NOTE]
->  You can use these additional controls only with the mobile apps. They aren’t supported in the web app.  
+>  You can use these additional controls only with the mobile apps and Unified Interface apps. They aren’t supported in the classic web app.  
   
  To use these controls in the form editor:  
   

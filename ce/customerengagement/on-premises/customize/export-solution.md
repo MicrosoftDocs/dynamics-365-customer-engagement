@@ -1,6 +1,6 @@
 ---
-title: "Export solutions (Dynamics 365 Customer Engagement on-premises) | MicrosoftDocs"
-description: "Learn how to export a solution"
+title: "Export a solution from Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn about how and why to export an unmanaged solution from Customer Engagement (on-premises), as well as the options available when you export a solution."
 ms.custom: 
 ms.date: 07/11/2019
 ms.reviewer: 
@@ -20,7 +20,7 @@ search.audienceType:
   - customizer
 
 ---
-# Export a solution 
+# Export an unmanaged solution
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Import, update, and export solutions](/powerapps/maker/common-data-service/import-update-export-solutions)
 
 Exporting a solution will allow you to transport your configuration changes from one environment to another or to store your configuration into your source control system.  Exporting a solution will export the published unmanaged changes for each component associated to the solution.  You can only export an unmanaged solution.  
