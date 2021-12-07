@@ -88,15 +88,15 @@
       - name: "Client-side events"
         href: reference/client-side-events.md
         items:
-        - name: "onClickToAct"
+        - name: "onclicktoact"
           href: reference/events/onclicktoact.md
-        - name: "onModeChanged"
+        - name: "onmodechanged"
           href: reference/events/onmodechanged.md
-        - name: "onPageNavigate"
+        - name: "onpagenavigate"
           href: reference/events/onpagenavigate.md
-        - name: "onSendKBArticle"
+        - name: "onsendkbarticle"
           href: reference/events/onsendkbarticle.md
-        - name: "onSizeChanged"
+        - name: "onsizechanged"
           href: reference/events/onsizechanged.md
         - name: "CIFInitDone"
           href: reference/events/cifinitdone.md
@@ -256,15 +256,15 @@
       - name: "Client-side events"
         href: reference/client-side-events.md
         items:
-        - name: "onClickToAct"
+        - name: "onclicktoact"
           href: v2/reference/events/onclicktoact.md
-        - name: "onModeChanged"
+        - name: "onmodechanged"
           href: v2/reference/events/onmodechanged.md
-        - name: "onPageNavigate"
+        - name: "onpagenavigate"
           href: v2/reference/events/onpagenavigate.md
-        - name: "onSendKBArticle"
+        - name: "onsendkbarticle"
           href: v2/reference/events/onsendkbarticle.md
-        - name: "onSizeChanged"
+        - name: "onsizechanged"
           href: v2/reference/events/onsizechanged.md
         - name: "onSessionSwitched"
           href: v2/reference/events/onSessionSwitched.md

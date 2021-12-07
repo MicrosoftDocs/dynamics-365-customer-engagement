@@ -19,7 +19,8 @@ Assignment rules enable new leads and opportunities to be automatically assigned
 As an administrator or sequence manager, you can create rules that match lead or opportunity attributes (such as location and language) with seller or team attributes (such as location and language). For example, when a lead is created and satisfies the conditions of a specific rule, the lead is automatically assigned to a seller.
 
 ## License and role requirements
-|  | |
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator, Sequence Manager, or Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
