@@ -1,7 +1,7 @@
 ---
 title: "Use natural language in real-time marketing journeys (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to use natural language in real-time marketing journeys in Dynamics 365 Marketing."
-ms.date: 08/02/2021
+ms.date: 12/06/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -22,10 +22,17 @@ search.app:
 
 > [!IMPORTANT]
 > A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
-> 
+>
 > Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
 
 Natural language input enables you to use common words and phrases to describe a condition you want to include in your customer journey. The data model is built on top of Common Data Model (CDM).
+
+## Use natural language input
+
+To use natural language input in real-time marketing, select the box and light bulb icon:
+
+> [!div class="mx-imgBorder"]
+> ![Use natural language input.](media/real-time-marketing-nl-condition-input.png "Use natural language input")
 
 ## Sample conditions
 
@@ -57,5 +64,9 @@ The natural language model is constantly learning. If you try a query that doesn
 To provide feedback:
 
 1. Select the thumb down icon.
+
+    > [!div class="mx-imgBorder"]
+    > ![Natural language feedback.](media/real-time-marketing-nl-condition-feedback.png "Natural language feedback")
+
 1. Select **Send feedback**.
 1. Enter a short explanation of what happened. Add comments about what you would expect the phrase to look like.

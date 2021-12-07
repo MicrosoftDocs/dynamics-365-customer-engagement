@@ -29,11 +29,15 @@ The journey usually will run the entire test automatically. The test starts by s
 ## Creating and adding an A/B test:
 
 1. Create your initial content [in the email editor](real-time-marketing-email.md), as usual. Perfect the content and be sure to check it for errors to make sure it can go live.
-1. When your content is ready, go to **Real-time marketing** > **Customer engagement** > **Journeys** and select an existing journey or create a new one. 
+1. When your content is ready, go to **Real-time marketing** > **Customer engagement** > **Journeys** and select an existing journey or create a new one.
 1. After you select a journey, select the plus sign (**+**) to add an element, and then do the following:
     - Select the **Test message or channels against each other** element in the dialog.
     - Choose which channel you want to test in version A and version B, and then select **Create test**.
 1. A side pane titled **A/B test** will open. Enter the following information in the side pane:
+
+    > [!div class="mx-imgBorder"]
+    > ![A/B test side panel.](media/real-time-marketing-abtest-sidepane.png "A/B test side panel")
+
     - **Display name**: To identify your test, enter a name for it. This name is displayed in the A/B test panel and in the customer journey analytics when you are looking at which tests are running. Once the journey is live, you cannot rename your test.  
     - **Versions**: Pick the content for the channel you prepared in step 1. You can do this through a dropdown list by either selecting the child tiles in the journey builder, or by making a selection on the side panel.
     - **Audience**: Choose the audience distribution you would like. The slider is automatically on 50-50, but you can set the slider to your desired distribution. The minimum a version can receive is 10 percent, and the maximum is 90 percent. Remember that, traditionally, version A is your control group and version B is your variant.
