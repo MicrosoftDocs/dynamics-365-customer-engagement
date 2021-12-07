@@ -43,7 +43,7 @@ You can update existing music files and replace them with your own music files.
 
 ## Add custom hold and wait music
 
-You can also add new music files to use them in calls as hold and wait music.
+You can also add new audio files to use them in calls as hold and wait music.
 
 **To add new music files**
 
