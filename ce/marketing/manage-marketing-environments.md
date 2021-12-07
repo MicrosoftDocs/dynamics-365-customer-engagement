@@ -216,7 +216,7 @@ For standard Dynamics 365 environments (without Marketing installed), you can us
 
 ## Do not change the URL for an environment with real-time or outbound Marketing installed
 
-For standard Dynamics 365 environments (without any flavor of Marketing installed), you can use the Power Platform admin center to change the URL of an environment. However, _you can't currently do this if you have Real-time or Outbound Marketing installed_.
+For standard Dynamics 365 environments (without any flavor of Marketing installed), you can use the Power Platform admin center to change the URL of an environment. However, _you can't currently do this if you have real-time or outbound Marketing installed_.
 
 > [!IMPORTANT]
 > Do not attempt to change the URL for a real-time or outbound Marketing environment. If you require a different URL, you must set up a new Dynamics 365 environment at the new URL and then reinstall real-time or outbound Marketing there.
