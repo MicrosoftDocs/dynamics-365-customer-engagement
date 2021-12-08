@@ -232,7 +232,7 @@
         items:
         - name: Personalize content
           href: real-time-marketing-personalization.md
-      - name: analytics
+      - name: Analytics
         items:
         - name: Access and interpret analytics
           href: real-time-marketing-analytics.md
