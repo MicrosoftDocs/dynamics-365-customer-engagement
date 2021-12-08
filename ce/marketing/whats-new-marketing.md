@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 11/23/2021
+ms.date: 12/08/2021
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-marketing
@@ -28,6 +28,55 @@ Marketing updates are [pushed to customers automatically](https://cloudblogs.mic
 > To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20Marketing).
 
 ## 2021 updates
+
+### December 2021 update
+
+With the Dynamics 365 Marketing December 2021 update you can create journey branches based on any attribute, use real-time marketing features more quickly after install, track unsubscribed users in real-time marketing insights, and manage Microsoft Teams meeting options from the Dynamics 365 Marketing app. The update also includes general performance upgrades and bug fixes.
+
+#### Version number
+
+| App              | GA release      |
+|------------------|-----------------|
+| Marketing        | 1.35.10079.1022 |
+
+> [!Tip]
+> To check your current version number, go to **Settings** > **Overview** > **Versions**.
+
+#### Monthly enhancements
+
+##### Real-time marketing
+
+- **Customer journeys**
+    - As announced in [2021 release wave 2](/dynamics365-release-plan/2021wave2/marketing/dynamics365-marketing/gain-more-control-over-journey-branching-conditions-through-increased-attribute-availability), you can now create journey branches based on any attribute associated with the customer or event trigger that started the journey. In addition, for attributes based on date and time, you can create branches based on relative or partial dates. Learn more: [Attribute branch](real-time-marketing-tile-reference.md#attribute-branch).
+- **First run experience**
+    - Real-time marketing is now pre-provisioned alongside outbound marketing, allowing you to get up and running with real-time marketing features more quickly after trial or new paid installs.
+- **Marketing insights**
+    - Track the number of users that remove themselves from a mailing list with the newly supported **Unsubscribe** interaction type. Learn more: [Insights glossary](insights-glossary.md#unsubscribes).
+
+##### Outbound marketing
+
+- **Event management**
+    - Expanded Dynamics 365 Marketing interface allows you to set Microsoft Teams meetings options in the Marketing app just as you would in the Teams UI. Learn more: [Teams meetings](teams-webinar.md#teams-meetings).
+
+#### Bug fixes
+
+- **Customer journeys**
+    - Resolved an error that prevented drag and drop functionality from working correctly in the customer journey designer.
+- **Event management**
+    - Fixed an issue that caused event management upgrade packages to fail.
+    - Fixed an error that caused Microsoft Teams webinar settings to be preserved when switching from a Teams webinar to a Teams meeting.
+- **Marketing emails**
+    - Resolved an issue that caused some email buttons to be underlined.
+    - Fixed an error that caused cloned elements (such as buttons) to move with the original element when moving between columns.
+    - Resolved an issue that caused duplicated content blocks after loading HTML into the email editor, which caused some content to disappear.
+- **Marketing pages**
+    - Resolved an error that sometimes caused an event registration form added to a published event not to reflect in the portal. Instead, a default event form was displayed.
+    - Fixed an error that caused form submission data rendering to sometimes fail when the form included multi-select option sets.
+- **Segmentation**
+    - Improved German translations in dynamic segments.
+    - Resolved an error that occassionally caused a static segement grid custom control to show editing buttons when a user did not have editing privileges.
+- **Shared UX**
+    - Fixed an error that caused the start date in a LATAM time zone marketing task template to subtract one day when adding tasks to a customer journey.
 
 ### November 2021 update
 
