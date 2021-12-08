@@ -31,7 +31,7 @@ Marketing updates are [pushed to customers automatically](https://cloudblogs.mic
 
 ### December 2021 update
 
-With the Dynamics 365 Marketing December 2021 update you can create conditional checks for real-time marketing journeys using relative and partial dates, use real-time marketing features more quickly after install, track unsubscribed users in real-time marketing insights, and manage Microsoft Teams meeting options from the Dynamics 365 Marketing app. The update also includes general performance upgrades and bug fixes.
+With the Dynamics 365 Marketing December 2021 update you can create journey branches based on any attribute, use real-time marketing features more quickly after install, track unsubscribed users in real-time marketing insights, and manage Microsoft Teams meeting options from the Dynamics 365 Marketing app. The update also includes general performance upgrades and bug fixes.
 
 #### Version number
 
@@ -47,11 +47,11 @@ With the Dynamics 365 Marketing December 2021 update you can create conditional 
 ##### Real-time marketing
 
 - **Customer journeys**
-    - As announced in [2021 release wave 2](/dynamics365-release-plan/2021wave2/marketing/dynamics365-marketing/gain-more-control-over-journey-branching-conditions-through-increased-attribute-availability), create more powerful conditional checks using relative dates (for example, "anniversary in the next three months") and partial dates (for example, "birthday is November"). Learn more: [Attribute branch](real-time-marketing-tile-reference.md#attribute-branch).
+    - As announced in [2021 release wave 2](/dynamics365-release-plan/2021wave2/marketing/dynamics365-marketing/gain-more-control-over-journey-branching-conditions-through-increased-attribute-availability), you can now create journey branches based on any attribute associated with the customer or event trigger that started the journey. In addition, for attributes based on date and time, you can create branches based on relative or partial dates. Learn more: [Attribute branch](real-time-marketing-tile-reference.md#attribute-branch).
 - **First run experience**
     - Real-time marketing is now pre-provisioned alongside outbound marketing, allowing you to get up and running with real-time marketing features more quickly after trial or new paid installs.
 - **Marketing insights**
-    - Added an **Unsubscribe** interaction type to real-time marketing to track the number of users that remove themselves from a mailing list. Learn more: [Insights glossary](insights-glossary.md#unsubscribes).
+    - Track the number of users that remove themselves from a mailing list with the newly supported **Unsubscribe** interaction type. Learn more: [Insights glossary](insights-glossary.md#unsubscribes).
 
 ##### Outbound marketing
 
@@ -61,15 +61,22 @@ With the Dynamics 365 Marketing December 2021 update you can create conditional 
 #### Bug fixes
 
 - **Customer journeys**
-    - 
+    - Resolved an error that prevented drag and drop functionality from working correctly in the customer journey designer.
 - **Event management**
-    - 
+    - Fixed an issue that caused event management upgrade packages to fail.
+    - Fixed an error that caused Microsoft Teams webinar settings to be preserved when switching from a Teams webinar to a Teams meeting.
 - **Marketing emails**
-    - 
+    - Resolved an issue that caused some email buttons to be underlined.
+    - Fixed an error that caused cloned elements (such as buttons) to move with the original element when moving between columns.
+    - Resolved an issue that caused duplicated content blocks after loading HTML into the email editor, which caused some content to disappear.
 - **Marketing pages**
-    - 
-- **Social posting**
-    - 
+    - Resolved an error that sometimes caused an event registration form added to a published event not to reflect in the portal. Instead, a default event form was displayed.
+    - Fixed an error that caused form submission data rendering to sometimes fail when the form included multi-select option sets.
+- **Segmentation**
+    - Improved German translations in dynamic segments.
+    - Resolved an error that occassionally caused a static segement grid custom control to show editing buttons when a user did not have editing privileges.
+- **Shared UX**
+    - Fixed an error that caused the start date in a LATAM time zone marketing task template to subtract one day when adding tasks to a customer journey.
 
 ### November 2021 update
 
