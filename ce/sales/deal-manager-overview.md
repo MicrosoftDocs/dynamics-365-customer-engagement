@@ -1,5 +1,5 @@
 ---
-title: "Deal manager workspace (Preview) | MicrosoftDocs"
+title: "Deal manager workspace (Preview) (Video) | MicrosoftDocs"
 description: "Deal manager is a dedicated workspace to manage opportunities better. You can personalize and customize the workspace for your needs."
 ms.date: 10/26/2021
 ms.topic: article

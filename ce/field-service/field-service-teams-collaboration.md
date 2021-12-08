@@ -1,5 +1,5 @@
 ---
-title: "Collaborate on work orders with Microsoft Teams (Dynamics 365 Field Service) | MicrosoftDocs"
+title: "Collaborate on work orders with Microsoft Teams (Dynamics 365 Field Service) (Video) | MicrosoftDocs"
 description: Collaborate in the context of work orders by integrating with Microsoft Teams
 ms.date: 10/18/2021
 ms.reviewer: krbjoran

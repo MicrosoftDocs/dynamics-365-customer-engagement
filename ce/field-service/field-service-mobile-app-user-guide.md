@@ -1,5 +1,5 @@
 ---
-title: "Field Service Mobile setup (Dynamics 365 Field Service) | MicrosoftDocs"
+title: "Field Service Mobile setup (Dynamics 365 Field Service) (Video) | MicrosoftDocs"
 description: Learn how to install and set up Field Service Mobile.
 ms.date: 11/11/2020
 ms.reviewer: krbjoran

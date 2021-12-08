@@ -1,5 +1,5 @@
 ---
-title: "Using deal manager | MicrosoftDocs"
+title: "Using deal manager (Video) | MicrosoftDocs"
 description: "Deal manager is a dedicated workspace for sellers to efficiently manage their sales pipeline. Sellers can personalize the workspace for their needs."
 ms.date: 10/26/2021
 ms.topic: article
