@@ -10,7 +10,7 @@ ms.custom:
   - dyn365-sales
 ---
 
-# Preview: Call using Microsoft Teams
+# Call using Microsoft Teams (Preview)
 
 > [!IMPORTANT]
 > - While in preview, Teams calls does not support emergency calling.

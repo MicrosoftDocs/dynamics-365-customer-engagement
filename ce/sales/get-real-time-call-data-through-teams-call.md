@@ -10,7 +10,7 @@ ms.custom:
   - dyn365-sales
 ---
 
-# Preview: Get real-time call data through Teams call   
+# Get real-time call data through Teams call (Preview)  
 
 > [!IMPORTANT]
 > - While in preview, Teams calls does not support emergency calling.
