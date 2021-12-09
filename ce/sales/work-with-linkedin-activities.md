@@ -9,6 +9,18 @@ manager: shujoshi
 ---
 # Work with LinkedIn activities 
 
+Work on LinkedIn-related activities defined for sequences in sales accelerator to display steps in work list and Up next widget.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |  
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
+## What are LinkedIn activities?
+
 As a seller, you can use the LinkedIn network, which contains millions of users and offers a unique depth and quality of information you can use to research and connect with your customers. This functionality allows you to use LinkedIn Sales Navigator in your sequence to recommend the next best action.
 
 When a sequence contains steps that are related to LinkedIn activities, you can do the following actions on the steps to interact with customers:

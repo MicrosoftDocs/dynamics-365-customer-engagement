@@ -11,6 +11,18 @@ caps.latest.revision: 25
 ---
 # Use email engagement to view message interactions 
 
+Use email engagement to view the message interactions such as, alerts, clicked a link, opened an attachment, or sent a reply on your emails.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |  
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
+## Introduction 
+
 Email engagement helps you to:  
   
 -   See when recipients opened your message, clicked a link, opened an attachment, or sent a reply.      
