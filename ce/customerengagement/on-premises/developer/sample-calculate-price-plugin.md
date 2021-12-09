@@ -5,7 +5,7 @@ keywords:
 ms.date: 10/31/2017
 ms.prod: d365ce-op
 ms.custom: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 683204f7-570a-43ab-bf7e-a12d26cec214
@@ -19,7 +19,6 @@ caps.latest.revision: 12
 topic-status: Drafting
 search.audienceType: 
   - developer
-
 ---
 
 # Sample: Calculate Price plug-in

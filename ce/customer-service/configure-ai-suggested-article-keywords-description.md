@@ -21,11 +21,11 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 ## Introduction
 
-Correct metadata helps in surfacing the articles that users search for. When knowledge authors create or update knowledge articles, AI-suggestions for article keywords and descriptions can help them select the right metadata, thereby improving their productivity.
+Correct metadata helps to locate articles that users search for. When authors create or update knowledge articles, AI suggestions for article keywords and descriptions can help them select the right metadata, thereby improving their productivity.
 
-The key highlights of the feature are as follows:
+The key highlights of the AI suggestions feature are as follows:
 
-- Enable knowledge authors by suggesting keywords and description based on the article content stored in the built-in knowledge article entity.
+- Enable authors by suggesting keywords and description based on the article content stored in the built-in knowledge article entity.
 - Enable admins to select the source data (text only) fields that the AI model will use; the default fields are **Title** and **Content**.
 
 > [!NOTE]
@@ -34,9 +34,9 @@ The key highlights of the feature are as follows:
 
 ## How AI suggestions for article keywords and descriptions work
 
-The **View suggested keywords and description** link appears in the default knowledge article form for knowledge authors when the article content field is updated and the knowledge article is saved. When authors select the link, a dialog with suggested keywords and a description is displayed.
+The **View suggested keywords and description** link appears in the default knowledge article form for authors when the article content field is updated and the knowledge article is saved. When authors select the link, it displays a dialog with suggested keywords and a description.
 
-If you have a custom form, you can add the **View suggested keywords and description** link only to the knowledge article entity. More information: [Enable AI suggestions for article keywords and description in a custom form](#enable-ai-suggestions-for-article-keywords-and-description-in-a-custom-form).
+If you have a custom form, you can add the **View suggested keywords and description** link only to the knowledge article entity. More information: [Enable AI suggestions for article keywords and description in a custom form](#enable-ai-suggestions-for-article-keywords-and-description-in-a-custom-form)
 
 The AI model works as follows:
 
@@ -56,14 +56,14 @@ AI suggestions for article keywords and description are supported in the followi
 - Japanese
 - Spanish
 
-The language used in AI-generated suggestions is based on the language that the knowledge author has selected in the article record. A knowledge author can specify the language for an article on the **Summary** tab of the knowledge article form.
+The language used in AI-generated suggestions is based on the language that the author has selected in the article record. An author can specify the language for an article on the **Summary** tab of the knowledge article form.
 
 ## Prerequisites
 
-Make sure that the following requirements are met:
+Ensure to meet the following requirements:
 
 - You have the System Administrator role.
-- Knowledge authors have the AIB Roles and the AIB SML Roles.
+- Authors have the "AIB Roles" and "AIB SML Roles".
 
 ## Enable AI suggestions for article keywords and description
 
@@ -77,21 +77,31 @@ Make sure that the following requirements are met:
 
 5. Select **Save**.
 
-   :::image type="content" source="media/configure_suggest-article-keywords-description.png" alt-text="Configure AI suggested article keywords and description":::
+   :::image type="content" source="media/configure_suggest-article-keywords-description.png" alt-text="Configure AI-suggested article keywords and description.":::
 
 ### Enable AI suggestions for article keywords and description in a custom form
 
 1. In Dynamics 365, go to **Customizations** in **Advanced Settings**.
+
 1. Select **Customize the System** to open the default solution.
+
 1. From the **Solution: Default Solution** navigation pane, select **Components** > **Entities** > **Knowledge Article** > **Forms**.
+
 1. Select the form that you want to customize.
+
 1. From **Field Explorer**, select **Keywords and Description Suggestion control** and add it to the form.
+
 1. Select **Keywords and Description Suggestion control** in the form and then select **Change Properties** on the ribbon.
+
 1. On the **Field Properties** dialog, go to the **Controls** tab, and select **Add Control**.
+
 1. On the **Add Control** dialog, select **Knowledge Suggestion Section Control** > **Add**.
+
 1. On the **Field Properties** dialog, **Controls** tab, select **Web**, **Phone**, and **Tablet** for **Knowledge Suggestion Section Control**.
+
 1. Select **OK**.
-1. Click **Save** and **Publish**.
+
+1. Select **Save** and **Publish**.
 
 ### See also
 
@@ -99,7 +109,7 @@ Make sure that the following requirements are met:
 [Work with knowledge articles](work-knowledge-articles.md)  
 [View AI-suggested similar cases and knowledge articles for active cases](csw-view-ai-suggested-cases-knowledge-articles.md)  
 [View smart assist suggestions for knowledge articles and similar cases using AI for ongoing conversations](./oc-view-ai-suggested-cases-articles.md)  
-[FAQs on AI-suggested cases and knowledge articles](csw-faqs-ai-suggestions.md)  
+[FAQs on AI suggestions for cases and knowledge articles](csw-faqs-ai-suggestions.md)  
 [Create a new similarity rule to view similar cases](suggest-similar-cases-for-a-case.md#create-a-new-similarity-rule-to-view-similar-cases)  
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Enable the deal manager workspace preview - Sales Enterprise | MicrosoftDocs"
+title: "Enable the deal manager workspace preview | MicrosoftDocs"
 description: "As an administrator, enable the preview so that your sales teams can access the deal manager workspace and manage their pipelines efficiently."
 ms.date: 11/29/2021
 ms.topic: article

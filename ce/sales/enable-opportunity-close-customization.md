@@ -1,5 +1,5 @@
 ---
-title: "Enable customization of Opportunity Close form - Sales Enterprise | MicrosoftDocs"
+title: "Enable customization of Opportunity Close form | MicrosoftDocs"
 description: "Enable system customizers to customize the opportunity close experience so that sales reps can capture details about why an opportunity was closed."
 ms.date: 10/26/2021
 ms.topic: article

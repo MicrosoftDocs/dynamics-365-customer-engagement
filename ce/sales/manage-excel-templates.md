@@ -31,7 +31,7 @@ You can use Excel templates for:
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator, Sales Manager, or Sales Professional Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **Security roles** | System Administrator, Sales Manager, Sales Professional Manager, and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
 

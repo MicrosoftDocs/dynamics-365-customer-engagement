@@ -7,7 +7,7 @@ ms.reviewer: pehecke
 ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: daf6923c-1bfb-4c14-8b81-baec2a1d0699
@@ -17,7 +17,6 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-
 ---
 # Sample: Persistent queue listener
 
