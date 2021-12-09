@@ -10,10 +10,11 @@ ms.custom:
   - dyn365-sales
 ---
 
-# Call using Microsoft Teams
+# Preview: Call using Microsoft Teams
 
 > [!IMPORTANT]
-> - Microsoft Teams dialer is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+> - While in preview, Teams calls does not support emergency calling.
+> - Preview features are not complete, but are made available to you before general availability so you can evaluate them and provide feedback to Microsoft. Preview features are not intended for production use and may have limited or restricted functionality, as further explained in our [Product Terms](https://go.microsoft.com/fwlink/?linkid=2173816). 
 > - [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
 > - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 

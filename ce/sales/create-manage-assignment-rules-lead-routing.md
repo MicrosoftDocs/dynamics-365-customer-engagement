@@ -8,7 +8,11 @@ ms.author: udag
 manager: shujoshi
 ---
 
-# Manage assignment rules for lead routing
+# Preview: Manage assignment rules for lead routing
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+Create, activate, edit, delete assignment rules, manage sales teams, and seller attributes for lead routing.
 
 ## Requirements
 |  | |
@@ -17,10 +21,7 @@ manager: shujoshi
 | **Security Role** | System Administrator or Sequence Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-> [!IMPORTANT]
-> - The enhanced experience for assignment rules for lead routing in sales accelerator is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-> - [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
-> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)] 
+## What is assignment rules
 
 Assignment rules enable new leads to be automatically assigned to sellers or sales teams. This helps reduce the amount of time and effort required to manually assign leads, prevent the loss of unassigned leads, and balance lead assignments among sellers.
 
