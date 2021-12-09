@@ -30,7 +30,7 @@
         topicHref: /dynamics365/customerengagement/on-premises/deploy/deploy-and-operate-dynamics-365-on-premises
     - name: Sales
       tocHref: /dynamics365/sales/
-      topicHref: /dynamics365/sales/help-hub
+      topicHref: /dynamics365/sales/index
     - name: Customer Service
       tocHref: /dynamics365/customer-service/
       topicHref: /dynamics365/customer-service/overview
