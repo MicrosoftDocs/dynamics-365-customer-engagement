@@ -18,9 +18,7 @@ searchScope:
 ---
 # Create or edit sales orders 
 
-Congratulations! Your hard work nurturing your customer has paid off and they're ready to place an order for your products or services. In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], an order can originate from a customer's acceptance of a quote, or you can place an order without an accepted quote, depending on the situation.  
-  
- One way that can help you increase your sales is to add all products that your customer might need to your order. [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] may also offer product bundles or product families to make it easier for you to choose products for upsell and cross-sell. If you've already prepared a quote for your customer, you can create an order from that quote.  
+Use orders to track details of the products or services that your customers want to place an order for.
 
 ## License and role requirements
 
@@ -29,6 +27,12 @@ Congratulations! Your hard work nurturing your customer has paid off and they're
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br> More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
+
+## How to Create or edit sales orders
+
+Congratulations! Your hard work nurturing your customer has paid off and they're ready to place an order for your products or services. In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], an order can originate from a customer's acceptance of a quote, or you can place an order without an accepted quote, depending on the situation.  
+  
+ One way that can help you increase your sales is to add all products that your customer might need to your order. [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] may also offer product bundles or product families to make it easier for you to choose products for upsell and cross-sell. If you've already prepared a quote for your customer, you can create an order from that quote.  
 
 
 <a name="bkmk1"></a>   
