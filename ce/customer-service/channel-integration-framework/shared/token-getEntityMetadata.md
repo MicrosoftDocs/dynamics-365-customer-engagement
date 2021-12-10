@@ -7,7 +7,7 @@
 | Name | Type | Required | Description |
 |------|------|----------|-------------|
 |entityName|String|Yes|The logical name of the entity.|
-|attributes|array of Strings|No|The attributes to get metadata for.|
+|attributes|Array of strings|No|The attributes to get metadata for.|
 
 ## Returns
 

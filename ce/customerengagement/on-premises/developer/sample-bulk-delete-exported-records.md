@@ -5,7 +5,7 @@ keywords:
 ms.date: 10/31/2017
 ms.prod: d365ce-op
 ms.custom: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: d5483d27-ee03-428f-ad70-2765765ae262
@@ -22,7 +22,6 @@ helpviewer_keywords:
 topic-status: Drafting
 search.audienceType: 
   - developer
-
 ---
 
 # Sample: Bulk delete exported records

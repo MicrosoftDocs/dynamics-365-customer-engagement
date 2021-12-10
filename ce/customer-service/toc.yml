@@ -686,6 +686,8 @@
       items: 
       - name: Set up SMS channels
         items: 
+        - name: Configure an SMS channel using Azure Communication Services
+          href: configure-sms-channel-acs.md
         - name: Configure an SMS channel for TeleSign
           href: configure-sms-channel.md
         - name: Configure an SMS channel for Twilio
@@ -940,7 +942,7 @@
       items: 
       - name: Overview of Service scheduling
         href: basics-service-service-scheduling.md
-      - name: Install Service Scheduling From Power Platform
+      - name: Install Service Scheduling from Power Platform admin center
         href: install-service-scheduling-from-power-platform.md
       - name: Manage security roles
         href: manage-security-roles.md

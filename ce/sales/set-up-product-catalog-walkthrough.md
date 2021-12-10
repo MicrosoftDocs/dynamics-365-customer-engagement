@@ -21,11 +21,14 @@ searchScope:
 
 Set up the product catalog with the collection of products that you sell and their pricing information.
 
+> [!NOTE]
+> Product families are only supported for Sales Enterprise and Sales Premium.
+
 ## License and role requirements
 
-|  | |
+| &nbsp; | &nbsp; |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
@@ -33,8 +36,12 @@ Set up the product catalog with the collection of products that you sell and the
 
  The product catalog is a collection of products and their pricing information. To set up pricing, you need to define the units in which your products are sold, the amount to charge for each unit, and the discounts you want to offer based on volume purchased.  
 
- Other than setting up the pricing for products, product catalog also supports product taxonomy that lets you create a rich classification of products. This helps ensure that your customers receive the most appropriate and complete solution.   
+Watch this video to understand the components of a product catalog and how to set them up:
 
+> [!VIDEO https://www.youtube.com/embed/AljnXxF6qwg]
+
+ Other than setting up the pricing for products, product catalog also supports product taxonomy that lets you create a rich classification of products. This helps ensure that your customers receive the most appropriate and complete solution.  
+ 
  Because of how units, discounts, and prices are tied together, it's important that you create each of these components in a product catalog in the following sequence:  
 
 
@@ -51,7 +58,7 @@ Set up the product catalog with the collection of products that you sell and the
 
 ### See Also
  [Create a product family](create-product-family.md)  
- [Overview of Sales](user-guide.md)
+ [Learn the basics of [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]](user-guide-learn-basics.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

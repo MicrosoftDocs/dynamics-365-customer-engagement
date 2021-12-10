@@ -15,13 +15,20 @@ Set up the enhanced email experience so sales reps can compose and send email wi
 > The enhanced email experience is available only for email activities created from the **Timeline** section of any model-driven app. 
 
 ## License and role requirements
-|  | |
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-## Enable enhanced email through App Settings
+## Enable the enhanced email
+
+Depending on the Dynamics 365 Sales license you have, select one of the following tabs for specific information: 
+
+# [Sales Premium and Sales Enterprise](#tab/SE)
+
+If you have the Sales Hub app, follow the instructions in this tab. Otherwise, follow the instructions in the **Sales Professional** tab to configure the option in Power Platform.
 
 1. At the bottom of the site map, select **Change area** ![Change area.](media/change-area-icon.png "Change area") and then select **App Settings**.
 
@@ -39,7 +46,9 @@ Set up the enhanced email experience so sales reps can compose and send email wi
 
 5. Select **Save**.
 
-## Enable enhanced email through legacy web client settings
+# [Sales Professional](#tab/SP)
+
+If you're using a custom app or Sales Professional app, you can enable or disable the enhanced experience from **System Settings** in Power Platform.
 
 1. In your app, select the **Settings** icon, and then select **Advanced Settings**.
 
@@ -58,6 +67,7 @@ Set up the enhanced email experience so sales reps can compose and send email wi
     > ![Enable enhanced email.](media/email-tab.png "Enable enhanced email")
 
 5. Select **Ok**.
+---
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 

@@ -22,7 +22,8 @@ View KPI data for contact, lead, and opportunity using system views, and export 
 > This topic is applicable only for the [Relationship Analytics](relationship-analytics.md) feature.
 
 ## License and role requirements
-|  | |
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator or Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|

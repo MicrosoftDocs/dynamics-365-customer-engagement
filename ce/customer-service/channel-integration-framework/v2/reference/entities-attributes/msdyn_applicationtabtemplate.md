@@ -10,7 +10,7 @@ applies_to:
   - "Dynamics 365 (online)"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 ---
-# msdyn_applicationtabtemplate Entity Reference
+# msdyn_applicationtabtemplate Entity Reference for Dynamics 365 Channel Integration Framework 2.0
 
 **Added by**: App profile manager Solution
 

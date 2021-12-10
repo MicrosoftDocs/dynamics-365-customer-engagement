@@ -22,11 +22,11 @@ In Omnichannel for Customer Service, you can block spam phone numbers that your 
 
 **To review phone numbers marked as spam**
 
-1. In the site map of Omnichannel admin center, under **Advanced settings**, select **Customer settings**.
+1. In the site map of Omnichannel admin center, go to **Advanced settings** > **Customer settings**.
    
-2. In the **Customer experience** area, select **Blocked numbers (preview)**, and then select **Manage**.
+2. In the **Customer experience** area, select **Blocked numbers**, and then select **Manage**.
 
-3. On the **Blocked numbers (preview) page**, you can do the following:
+3. On the **Blocked numbers**, you can do the following:
     
     - **Pending review** tab - Shows the list of numbers that have been flagged as spam by your agents and supervisors. You can view the report for each phone number, and then block the specific number as spam. Select any number from the **Pending review** list, and then you can do the following:
       - **Block** - Select to block the number; the agent will no longer receive any calls from the blocked number.
@@ -37,9 +37,9 @@ In Omnichannel for Customer Service, you can block spam phone numbers that your 
 
 ## Manually block a phone number
 
-1. In the site map of Omnichannel admin center, under **Advanced settings**, select **Customer settings**.
+1. In the site map of Omnichannel admin center, go to **Advanced settings** > **Customer settings**.
   
-2. In the **Customer experience** area, select **Blocked numbers (preview)**, and then select **Manage**.
+2. In the **Customer experience** area, select **Blocked numbers**, and then select **Manage**.
 
 3. Select **Block a number**.
 
@@ -50,5 +50,6 @@ You can set conditions so that some numbers are automatically added to the block
 ### See also
 
 [Overview of the voice channel](voice-channel.md)  
+[Manage phone numbers](voice-channel-manage-phone-numbers.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

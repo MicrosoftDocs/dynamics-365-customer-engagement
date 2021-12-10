@@ -5,7 +5,7 @@ keywords:
 ms.date: 1/14/2018
 ms.prod: d365ce-op
 ms.custom: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 68a5e1da-7432-4520-a9df-72372ddb8a20
@@ -19,7 +19,6 @@ caps.latest.revision: 21
 topic-status: Drafting
 search.audienceType: 
   - developer
-
 ---
 
 # Sample: Set the state of a workflow
