@@ -8,7 +8,9 @@ ms.author: udag
 manager: shujoshi
 ---
 
-# View and understand sales acceleration reporting
+# Preview: View and understand sales acceleration reporting
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 View and understand the report for sales acceleration to get a broad overview of the sequences related to leads and opportunities in your organization.
 

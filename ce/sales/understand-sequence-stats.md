@@ -8,7 +8,9 @@ ms.author: udag
 manager: shujoshi
 ---
 
-# Understand the sequence stats page
+# Preview: Understand the sequence stats page
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 The stats about sequences provide insights on the performance of a sequence, such as, success rate and the state of records that are connected. The data helps you view the sequences that are doing better and emerging with high successful conversions rate. 
 
