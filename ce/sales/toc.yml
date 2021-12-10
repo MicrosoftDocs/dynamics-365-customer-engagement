@@ -323,6 +323,10 @@
         href: connect-a-sequence-to-records.md
       - name: View details of a sequence and its connected records
         href: view-sequence-details-connected-records.md
+      - name: Understand sales acceleration reporting
+        href: understand-sales-acceleration-reporting.md
+      - name: Understand the sequence stats page
+        href: understand-sequence-stats.md  
       - name: View sequence in a grid
         href: view-disconnected-sequences.md  
       - name: Clone a sequence

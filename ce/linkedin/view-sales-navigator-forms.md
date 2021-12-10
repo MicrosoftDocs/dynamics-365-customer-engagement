@@ -29,9 +29,15 @@ To use the Sales Navigator controls, an admin needs to [enable the Sales Navigat
 
 2. If your organization has added [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] controls to any of their forms, you'll find the controls embedded on the form. A system administrator or customizer can [add the controls to forms](add-sales-navigator-controls-forms.md).
 
-3. If you haven't signed in to [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator, select the **Sign in** button in the control and give the requested permissions to the app. 
+3. If you haven't signed in to [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator, select the **Sign in** in the control.
 
-  ![Sign in to LinkedIn Sales Navigator dialog box.](media/sign-in-sales-navigator.png "Sign in to LinkedIn Sales Navigator dialog box")
+    ![Sign in to LinkedIn Sales Navigator dialog box.](media/sign-in-sales-navigator.png "Sign in to LinkedIn Sales Navigator dialog box")
+    
+    A message is displayed to provide consent to give the requested permissions to the app.  
+
+    ![Provide consent to sign in to LinkedIn Sales Navigator.](media/sign-in-sales-navigator-provide-consent.png "Provide consent to sign in to LinkedIn Sales Navigator")
+
+4. Select **Allow**.
 
 ## Work with the Sales Navigator controls
 
