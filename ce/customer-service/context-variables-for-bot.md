@@ -53,7 +53,7 @@ The following table contains the list of context variables availablein Omnichann
 | Voice-only variables | CustomerPhoneNumber  | Use this context variable for the customer's phone number that's provided in the Telephony activity.  | Select the Omnichannel for Customer Service extension solution variable. |
 |  | OrganizationPhoneNumber | Use this context variable for the organization's phone number that's provided in the Telephony activity.  | Select the Omnichannel for Customer Service extension solution variable. |
 | Extension method name  |      va_SurveyConsent |   Use this dialog to determine if a customer has agreed to participate in surveys during the conversation. |  Use this method to escalate conversation details to Omnichannel for Customer Service.    |
-| |  va_CustomerLocale |  Use this dialog to transfer the user talking to the bot to another bot that might speak in a different language.  | Set the code by selecting the input variable and using the correct locale code. For an example on how to set up this scenario, see [Configure the routing rule in Dynamics 365 for Customer Service](routing-rules.md) </br>.  |
+| |  va_CustomerLocale |  Use this dialog to transfer the user currently talking to the bot to another bot that can speak in a different language.  | Set the code by selecting the input variable and using the correct locale code. For an example on how to set up this scenario, see [Configure the routing rule in Dynamics 365 for Customer Service](routing-rules.md) </br>.  |
 |     |    |    |
 
 ## Context variables for Azure bots
