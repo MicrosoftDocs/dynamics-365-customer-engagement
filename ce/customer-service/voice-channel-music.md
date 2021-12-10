@@ -20,7 +20,7 @@ You can also configure hold and wait music for each language in each of the work
 > [!Note]
 >
 > - Music files can be up to 20 MB. For best experience, upload MP3 files.
-> - The music files must have the ID3 tags so that they play successfully when the call is put on hold.
+> - Music files must have the ID3 tags so that they play successfully when the call is put on hold.
 
 ## Edit music files
 
