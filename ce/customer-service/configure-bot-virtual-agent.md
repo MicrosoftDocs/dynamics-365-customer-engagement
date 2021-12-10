@@ -48,7 +48,7 @@ To do so, perform the following steps:
 
 ## Connect your Power Virtual Agents bot to omnichannel instance
 
-Follow the procedure in the section [Connect omnichannel to your Power Virtual Agents bot](../power-virtual-agents/configuration-hand-off-omnichannel.md#connect-omnichannel-to-your-power-virtual-agents-bot) to connect your Power Virtual Agents bot to the omnichannel instance.
+Follow the procedure in the section [Connect omnichannel to your Power Virtual Agents bot](/power-virtual-agents/configuration-hand-off-omnichannel.md#connect-omnichannel-to-your-power-virtual-agents-bot) to connect your Power Virtual Agents bot to the omnichannel instance.
 
 ## Configure your Power Virtual Agents bot in Omnichannel admin center app
 
