@@ -1,5 +1,5 @@
 ---
-title: "Define product pricing - Sales Enterprise | MicrosoftDocs"
+title: "Define product pricing | MicrosoftDocs"
 description: "Use price lists and price list items for defining price for a product. Create multiple price lists and set default price list for a territory."
 ms.date: 10/26/2021
 ms.topic: get-started-article
@@ -27,7 +27,7 @@ Use price lists and price list items for defining price for a product. Create mu
 | &nbsp; | &nbsp; | 
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator, Sales Manager, or Sales Professional Manager <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **Security roles** | System Administrator, Sales Manager, Sales Professional Manager, and above <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
 ## What is a price list?

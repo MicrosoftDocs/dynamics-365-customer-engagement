@@ -1,5 +1,5 @@
 ---
-title: "Personalize deal manager - Sales Enterprise | MicrosoftDocs"
+title: "Personalize deal manager | MicrosoftDocs"
 description: "As a seller, personalize the grid and apply filters to suit your needs."
 ms.date: 10/26/2021
 ms.topic: article
@@ -18,7 +18,7 @@ As a seller, personalize the grid and apply filters to suit your needs.
 
 | &nbsp; | &nbsp; |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
