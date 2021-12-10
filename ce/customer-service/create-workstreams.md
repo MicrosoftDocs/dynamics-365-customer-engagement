@@ -1,6 +1,6 @@
 ---
 title: "Create workstreams in Customer Service | MicrosoftDocs"
-description: "Perform the steps mentioned in the topic to understand and create workstreams for unified routing in Customer Service and Omnichannel for Customer Service."
+description: "Use this topic to understand how to create workstreams for unified routing in Customer Service and Omnichannel for Customer Service apps."
 ms.date: 11/18/2021
 author: neeranelli
 ms.author: nenellim
@@ -22,7 +22,6 @@ The workstream can be one of the following types:
 - **Messaging**: To route conversations from live chat, SMS, social, and Teams channels.
 - **Record**: To route records, such as case, email, and activity.
 - **Voice**: To route calls made to the support numbers listed on the customer portal.
-
 
 > [!IMPORTANT]
 >
@@ -71,6 +70,7 @@ Perform the following steps:
    - [Configure a Twitter channel](configure-twitter-channel.md)
    - [Configure a WhatsApp channel](configure-whatsapp-channel.md)
    - [Configure a Microsoft Teams channel](configure-microsoft-teams.md)
+   - [Configure an SMS channel using Azure Communication Services](configure-sms-channel-acs.md)
    - [Configure an SMS channel for TeleSign](configure-sms-channel.md)
    - [Configure an SMS channel for Twilio](configure-sms-channel-twilio.md)
    - [Configure a custom messaging channel](configure-custom-channel.md)
@@ -114,8 +114,8 @@ For a selected workstream, expand **Advanced settings** to configure the followi
 
 To add a bot to a workstream, the bot must be configured and available for selection.
 
-For Power Virtual Agents bots, see [Connect omnichannel to your Power Virtual Agents bot](https://docs.microsoft.com/en-us/power-virtual-agents/configuration-hand-off-omnichannel#connect-omnichannel-to-your-power-virtual-agents-bot).
-For Azure bots, see [Integrate a bot with Omnichannel for Customer Service](https://docs.microsoft.com/en-us/dynamics365/customer-service/configure-bot#integrate-a-bot-with-omnichannel-for-customer-service).
+For Power Virtual Agents bots, see [Connect omnichannel to your Power Virtual Agents bot](/power-virtual-agents/configuration-hand-off-omnichannel.md#connect-omnichannel-to-your-power-virtual-agents-bot).
+For Azure bots, see [Integrate a bot with Omnichannel for Customer Service](configure-bot.md#integrate-a-bot-with-omnichannel-for-customer-service).
 
 **To add the bot to the workstream**
 
