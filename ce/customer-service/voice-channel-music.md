@@ -32,12 +32,12 @@ You can update existing music files and replace them with your own music files.
 2. In the **Customer experience** area, select **Phone music**, and then select **Manage**.
    You'll see a list of out-of-the-box music files.
 
-3. Select any music file from the list and select **Edit**.
+3. Select any music file from the list and then select **Edit**.
 
 4. In the **Edit phone music** dialog, you can do the following:
    - **Name**: Edit the name of the music file.
-   - **Replace**: Select **Replace** to update the music file to any other music file from your computer.
-   - You can play the music file to test it, if you'd like.
+   - **Replace**: Select **Replace** to update the music file with any other music file from your computer.
+   - You can play the music file to test it.
 
 5. Select **Save and close**.
 
