@@ -7,7 +7,7 @@ author: udaykirang
 ms.author: udag
 manager: shujoshi
 ---
-# Manage assignment rules for routing 
+# Preview: Manage assignment rules for routing 
 
 > [!IMPORTANT]
 > - The enhanced experience for assignment rules for lead routing in sales accelerator is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
@@ -15,8 +15,6 @@ manager: shujoshi
 > - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)] 
 
 Assignment rules enable new leads and opportunities to be automatically assigned to sellers or sales teams. This helps reduce the amount of time and effort required to manually assign records, prevent the loss of unassigned records, and balance the assignments among sellers.
-
-As an administrator or sequence manager, you can create rules that match lead or opportunity attributes (such as location and language) with seller or team attributes (such as location and language). For example, when a lead is created and satisfies the conditions of a specific rule, the lead is automatically assigned to a seller.
 
 ## License and role requirements
 
@@ -28,8 +26,8 @@ As an administrator or sequence manager, you can create rules that match lead or
 
 ## Use assignment rules designer
 
-You can use the assignment rules designer to do the following tasks:
-
+As an administrator or sequence manager, you can create rules that match lead or opportunity attributes (such as location and language) with seller or team attributes (such as location and language). For example, when a lead is created and satisfies the conditions of a specific rule, the lead is automatically assigned to a seller.     
+You can use the assignment rules designer to do the following tasks:     
 - [Create and activate an assignment rule](create-and-activate-assignment-rule.md).
 - [Edit an assignment rule](edit-assignment-rule.md).
 - [Delete or deactivate an assignment rule](delete-deactivate-assignment-rule.md). 

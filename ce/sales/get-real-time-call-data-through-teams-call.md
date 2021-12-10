@@ -10,12 +10,11 @@ ms.custom:
   - dyn365-sales
 ---
 
-# Get real-time call data through Teams call   
+# Get real-time call data through Teams call (Preview)  
 
 > [!IMPORTANT]
-> - Microsoft Teams dialer is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-> - [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
-> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+> - While in preview, Teams calls does not support emergency calling.
+> - Preview features are not complete, but are made available to you before general availability so you can evaluate them and provide feedback to Microsoft. Preview features are not intended for production use and may have limited or restricted functionality, as further explained in our [Product Terms](https://go.microsoft.com/fwlink/?linkid=2173816). 
 
 Conversation intelligence with the Teams call gets you a real-time analysis of call data including  overview, summary, transcription, insights, and action items.    
 An administrator must configure Microsoft Teams in your organization to get real-time analysis of call data. More information: [First-run setup experience for conversation intelligence in sales app](fre-setup-ci-sales-app.md) 

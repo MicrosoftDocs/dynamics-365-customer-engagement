@@ -9,7 +9,9 @@ manager: shujoshi
 products: 
     - Sales premium
 ---
-# Manage sales teams in assignment rules 
+# Preview: Manage sales teams in assignment rules 
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Using sales team management in assignment rules, you can assign attributes to sellers and configure the maximum number of leads and opportunities that a seller can handle at once. When the rule is applied to a record, the attributes and capacity you've defined here will determine how the record is assigned.
 
