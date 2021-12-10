@@ -84,7 +84,7 @@ To enable a table for mobile offline synchronization, follow the steps below.
    >![Select settings.](media/select_settings.png "Select setting")
  
   
-5. On the **Edit table** pane, expand **More settings** > **Offline** and then make sure **Can be taken offline** check box is selected and then select **Done**.
+5. On the **Edit table** pane, expand **Advanced options**. Under **rows in this table** make sure **Can be taken offline** check box is selected and then select **Save**.
 
    > [!div class="mx-imgBorder"]
    >![Select enable mobile offline check box.](media/enable_mobileoffline_checkbox.png "Select enable mobile offline check box")
