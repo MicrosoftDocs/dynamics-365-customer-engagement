@@ -21,7 +21,7 @@ Create, activate, edit, delete assignment rules, manage sales teams, and seller 
 | **Security Role** | System Administrator or Sequence Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-## What is assignment rules
+## What are assignment rules
 
 Assignment rules enable new leads to be automatically assigned to sellers or sales teams. This helps reduce the amount of time and effort required to manually assign leads, prevent the loss of unassigned leads, and balance lead assignments among sellers.
 
