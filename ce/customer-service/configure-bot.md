@@ -20,7 +20,7 @@ A bot is a program that provides automated responses in a conversational manner 
 
 A bot eases the load on your customer service agents by handling basic queries. This saves your agents' time so they can work on more complex issues. You can configure your bots to escalate a query to a human agent as required, or when requested by the customer.
 
-In Omnichannel for Customer Service, you can integrate a bot to start the conversation with a customer, provide automated responses, and then shift the conversation to a human agent, if required.
+In Omnichannel for Customer Service, you can integrate a bot to start a conversation with the customer, provide automated responses, and then shift the conversation to a human agent, if required.
 
 When you integrate an Azure bot with Omnichannel for Customer Service, you get the following capabilities for bot conversations:
 
