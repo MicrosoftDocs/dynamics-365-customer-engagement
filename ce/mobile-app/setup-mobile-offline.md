@@ -69,13 +69,13 @@ To enable a table for mobile offline synchronization, follow the steps below.
 2. On the left nav select **Data** to expand it and then select **Tables**.  
 
    > [!div class="mx-imgBorder"]
-   >![Go to tables.](media/maker-data-tables.png "Go to tables")
+   > ![Go to tables.](media/maker-data-tables.png "Go to tables")
    
   
 3. Select a table to enable for mobile offline such as **Account**.  
 
    > [!div class="mx-imgBorder"]
-   >![Select Account.](media/select_account_table.png "Select Account")
+   > ![Select Account.](media/select_account_table.png "Select Account")
  
 
 4. On the command bar, select **Settings**. 
