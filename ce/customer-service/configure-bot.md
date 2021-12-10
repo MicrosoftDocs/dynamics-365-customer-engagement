@@ -150,7 +150,7 @@ If the bot escalates a customer query, it's routed to the appropriate queue as p
 
 #### Create a context variable
 
-You must create a context variable for the bot to handle the customer queries appropriately. The context variable is used in routing the incoming customer queries to the appropriate bots and agents. For information on creating context variables, see [Understand and create workstreams](create-workstreams.md).
+You must create a context variable for the bot to handle the customer queries appropriately. The context variable is used in routing the incoming customer queries to the appropriate bots and agents. For information on creating context variables, see [Configure context variables for a bot](context-variables-for-bot.md).
 
 #### Create routing rules
 
