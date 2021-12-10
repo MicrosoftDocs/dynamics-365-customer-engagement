@@ -18,7 +18,8 @@ Omnichannel for Customer Services comes with out-of-the-box music files that you
 You can also configure hold and wait music for each language in each of the workstreams.
 
 > [!Note]
-> - Music files can be up to 20 MB. For best experience, upload MP3 files. 
+>
+> - Music files can be up to 20 MB. For best experience, upload MP3 files.
 > - The music files must have the ID3 tags so that they play successfully when the call is put on hold.
 
 ## Edit music files
