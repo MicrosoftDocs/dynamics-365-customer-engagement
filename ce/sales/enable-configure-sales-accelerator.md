@@ -122,7 +122,7 @@ For the best experience of the sales accelerator, enable and configure [predicti
     - Under **Call settings**, select the **Create records automatically on click** option to automatically create a phone call activity when sellers initiate a call from a sequence step or from the work list.   
         >[!div class="mx-imgBorder"]
         >![Advanced call settings](media/sa-advance-call-settings.png "Advanced call settings")       
-10. <a name="enable-sales-accelerator-reports">Enable the **Sales accelerator reports** option to help your sales manager view and understand their team's historical operational metrics and key performance indicators (KPIs), and sequence stats page.</a>   
+10. <a name="enable-sales-accelerator-reports"></a>Enable the **Sales accelerator reports** option to help your sales manager view and understand their team's historical operational metrics and key performance indicators (KPIs), and sequence stats page.   
     [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
     
     >[!div class="mx-imgBorder"]
