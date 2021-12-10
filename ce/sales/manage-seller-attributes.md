@@ -7,7 +7,9 @@ author: udaykirang
 ms.author: udag
 manager: shujoshi
 ---
-# Manage seller attributes in assignment rules 
+# Preview: Manage seller attributes in assignment rules 
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Seller attributes help you define skills of sellers such as languages, location, country, and skills. After you define attributes, you can use these attributes while configuring the rules to automatically assign leads to sellers.
 
