@@ -4,7 +4,7 @@ description: "Use this topic to understand how you can configure hold and wait m
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 11/02/2021
+ms.date: 11/10/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -19,7 +19,7 @@ You can also configure hold and wait music for each language in each workstream.
 
 > [!Note]
 > - Audio files can be up to 20 MB. For best experience, upload MP3 files. 
-> - The audio files must have the ID3 tags so that they can be played successfully as part of hold music.
+> - The audio files must have the ID3 tags so that they play successfully when the call is put on hold.
 
 ## Edit music files
 
