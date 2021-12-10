@@ -7,11 +7,14 @@ manager: shujoshi
 ms.date: 11/10/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
+ms.custom: intro-internal
 ---
 
 # Manage phone music
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+## Introduction
 
 Omnichannel for Customer Service comes with out-of-the-box music files that you can use to set hold tunes and wait tunes. You can replace them with your own music files, or even upload new ones to be used for hold or wait music in your customer calls. The hold or wait music will automatically be played on loop.
 
