@@ -1,7 +1,7 @@
 ---
 title: "Integrate a Power Virtual Agents bot | MicrosoftDocs"
 description: "Use this topic to get instructions on how to integrate a Power Virtual Agents bot in Omnichannel for Customer Service."
-ms.date: 11/15/2021
+ms.date: 12/10/2021
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -42,20 +42,20 @@ Before you integrate Power Virtual Agents bots in Omnichannel for Customer Servi
 Power Virtual Agents lets you seamlessly hand off voice and text-based conversations to human agents using the Chat Add-in for Dynamics 365 Customer Service. For your bot to hand off conversations to the omnichannel interface, you must install the Power Virtual Agents extension solutions for Dynamics 365 Customer Service.
 
 To do so, perform the following steps:
-1. [Ensure the prerequisites are met](https://docs.microsoft.com/en-us/power-virtual-agents/configuration-hand-off-omnichannel#prerequisites).
-2. [Install the extension solutions](https://docs.microsoft.com/en-us/power-virtual-agents/configuration-hand-off-omnichannel#install-extension-solutions).
+1. [Ensure the prerequisites are met](../power-virtual-agents/configuration-hand-off-omnichannel.md#prerequisites).
+2. [Install the extension solutions](../power-virtual-agents/configuration-hand-off-omnichannel.md#install-extension-solutions).
 3. Verify if the extension solutions are successfully installed by checking whether the extension solution variables are available in Power Virtual Agents.
 
 ## Connect your Power Virtual Agents bot to omnichannel instance
 
-Follow the procedure in the section [Connect omnichannel to your Power Virtual Agents bot](https://docs.microsoft.com/en-us/power-virtual-agents/configuration-hand-off-omnichannel#connect-omnichannel-to-your-power-virtual-agents-bot) to connect your Power Virtual Agents bot to the omnichannel instance.
+Follow the procedure in the section [Connect omnichannel to your Power Virtual Agents bot](../power-virtual-agents/configuration-hand-off-omnichannel.md#connect-omnichannel-to-your-power-virtual-agents-bot) to connect your Power Virtual Agents bot to the omnichannel instance.
 
 ## Configure your Power Virtual Agents bot in Omnichannel admin center app
 
 In Omnichannel admin center, select the Power Virtual Agents bot from the list of bots in the **Workstreams** area, so the bot can be used to hand off conversations to human agents. For more information, see [Add a bot to a workstream](create-workstreams.md#add-a-bot-to-a-workstream).
 
 > [!NOTE]
-> Bots can escalate conversations to agents only if they're a part of push-based workstream.
+> Bots can escalate conversations to agents only if they're a part of push-based workstreams.
 
 ## Configure your Power Virtual Agents bot in Omnichannel Administration app
 
@@ -63,9 +63,6 @@ In Omnichannel Administration, after the Power Virtual Agents bot is created and
 
 1. Connect the bot to Omnichannel for Customer Service and go to the Omnichannel Administration app. More information: [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/dynamics365/ai/customer-service-virtual-agent/configuration-hand-off-omnichannel)
 
-<!--
-    ![Power Virtual Agents bot settings.](media/virtual-agent-bot-settings.png "Power Virtual Agents bot settings")
--->
 
 2. Assign the bot to an existing queue.
 
@@ -202,11 +199,11 @@ The global variables that are created in Power Virtual Agents can be passed to O
 
 When bots receive a conversation that is subsequently not escalated to a human agent, the conversation is closed if the customer abandons it. The conversation will also be closed automatically after 30 minutes of inactivity.
 
-This conversation will then appear in the **Closed** state in the Customer Service for Omnichannel dashboard and in **Resolved/abandoned** state in the Power Virtual Agents dashboard. For more information on the state of conversations, see [Session outcomes over time chart](/power-virtual-agents/analytics-summary#session-outcomes-over-time-chart).
+This conversation will then appear in the **Closed** state in the Omnichannel for Customer Service dashboard and in **Resolved/abandoned** state in the Power Virtual Agents dashboard. For more information on the state of conversations, see [Session outcomes over time chart](/power-virtual-agents/analytics-summary#session-outcomes-over-time-chart).
 
 ## Enable a Power Virtual Agents bot to end conversations
 
-You can configure the Power Virtual Agents bot to end conversations if the customer query has been solved or the when the customer has been inactive for a period of time. The bot conversations will automatically close after 30 minutes of inactivity.
+You can configure the Power Virtual Agents bot to end conversations when the customer issue has been resolved or if the customer has been inactive for a period of time. The bot conversations will automatically close after 30 minutes of inactivity.
 
 ## Privacy notice
 
