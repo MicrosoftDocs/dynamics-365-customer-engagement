@@ -1,6 +1,6 @@
 ---
 title: "FAQs about the voice channel | MicrosoftDocs"
-description: ""Learn about the frequently asked questions (FAQs) for the voice channel in Omnichannel for Customer Service."
+description: "Learn about the frequently asked questions (FAQs) for the voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -38,9 +38,9 @@ Azure Communication Services is available worldwide, even if it isn't acting as 
 
 Yes, you have the following two options to bring your existing numbers to Dynamics 365:
 
-    - Port the number to Azure Communication Services. This will change ownership of the phone number from the existing carrier to Microsoft. More information: [Quickstart: Port a phone number into Azure Communication Services](/azure/communication-services/quickstarts/telephony/port-phone-number)
+- Port the number to Azure Communication Services. This will change ownership of the phone number from the existing carrier to Microsoft. More information: [Quickstart: Port a phone number into Azure Communication Services](/azure/communication-services/quickstarts/telephony/port-phone-number)
 
-    - Configure Azure direct routing. This will require you to configure a Session Border Controller (SBC) that is connected to your local carrier with Azure Communication Services, and register the phone number in Dynamics 365. More information: [Azure direct routing infrastructure requirements](/azure/communication-services/concepts/telephony/direct-routing-infrastructure)
+- Configure Azure direct routing. This will require you to configure a Session Border Controller (SBC) that is connected to your local carrier with Azure Communication Services, and register the phone number in Dynamics 365. More information: [Azure direct routing infrastructure requirements](/azure/communication-services/concepts/telephony/direct-routing-infrastructure)
 
 ### Can I keep my existing contract with my carrier?
 
