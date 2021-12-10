@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 12/08/2021
+ms.date: 12/10/2021
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-marketing
@@ -31,7 +31,7 @@ Marketing updates are [pushed to customers automatically](https://cloudblogs.mic
 
 ### December 2021 update
 
-With the Dynamics 365 Marketing December 2021 update you can create journey branches based on any attribute, use real-time marketing features more quickly after install, track unsubscribed users in real-time marketing insights, and manage Microsoft Teams meeting options from the Dynamics 365 Marketing app. The update also includes general performance upgrades and bug fixes.
+With the Dynamics 365 Marketing December 2021 update you can create journey branches based on any attribute, track unsubscribed users in real-time marketing insights, and manage Microsoft Teams meeting options from the Dynamics 365 Marketing app. The update also includes general performance upgrades and bug fixes.
 
 #### Version number
 
@@ -48,8 +48,6 @@ With the Dynamics 365 Marketing December 2021 update you can create journey bran
 
 - **Customer journeys**
     - As announced in [2021 release wave 2](/dynamics365-release-plan/2021wave2/marketing/dynamics365-marketing/gain-more-control-over-journey-branching-conditions-through-increased-attribute-availability), you can now create journey branches based on any attribute associated with the customer or event trigger that started the journey. In addition, for attributes based on date and time, you can create branches based on relative or partial dates. Learn more: [Attribute branch](real-time-marketing-tile-reference.md#attribute-branch).
-- **First run experience**
-    - Real-time marketing is now pre-provisioned alongside outbound marketing, allowing you to get up and running with real-time marketing features more quickly after trial or new paid installs.
 - **Marketing insights**
     - Track the number of users that remove themselves from a mailing list with the newly supported **Unsubscribe** interaction type. Learn more: [Insights glossary](insights-glossary.md#unsubscribes).
 

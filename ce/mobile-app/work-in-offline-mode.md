@@ -2,7 +2,7 @@
 title: "Work offline on your mobile device (Dynamics 365 apps)| MicrosoftDocs"
 description: How to work on your mobile device in offline mode with the Dynamics 365 for phones and tablets app and Power Apps Mobile
 ms.custom: 
-ms.date: 01/14/2021
+ms.date: 12/10/2021
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
@@ -63,7 +63,7 @@ After you've installed the mobile app and your admin has [enabled mobile offline
    > [!div class="mx-imgBorder"] 
    > ![Download updates on your mobile device for mobile offline.](media/DownloadUpdates.png "Download updates on your mobile device for mobile offline")  
 
-Offline data starts downloading in the background. Don't close the app or disconnect from the internet until the download is complete.
+Offline data starts downloading as you continue to use the app. On iOS, data is only downloaded while the app is active, so keep your phone unlocked with the app visible until the initial download is complete.
 
 ## Download offline data later
 
