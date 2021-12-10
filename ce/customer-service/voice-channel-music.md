@@ -15,7 +15,7 @@ ms.service: dynamics-365-customerservice
 
 Omnichannel for Customer Services comes with out-of-the-box music files that you can use to set hold tunes and wait tunes. You can replace them with your own music files, or even upload new ones to be used for hold or wait music for your customer calls. The hold or wait music will automatically be played on loop.
 
-You can also configure hold and wait music for each language in each workstream.
+You can also configure hold and wait music for each language in each of the workstreams.
 
 > [!Note]
 > - Music files can be up to 20 MB. For best experience, upload MP3 files. 
