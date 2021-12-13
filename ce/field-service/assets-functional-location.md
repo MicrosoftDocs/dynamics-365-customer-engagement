@@ -1,7 +1,7 @@
 ---
 title: "Functional location in Dynamics 365 Field Service| MicrosoftDocs"
 description: Learn how to use functional location for assets in Dynamics 365 Field Service.
-ms.date: 08/12/2021
+ms.date: 12/13/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
 ms.topic: article
@@ -175,6 +175,14 @@ To use functional locations on an agreement, select an agreement. Go to **Agreem
 
 - Multiple accounts can be associated to a functional location tree.
 - Field Service technicians can see functional locations from their Field Service mobile apps, but cannot see or manage the larger location and asset hierarchies.
+
+### Functional Location is not automatically associated to Account in custom apps
+
+1. Open any custom app designer where this issue is seen.
+2. Add functional location entity to the app from Add -> Entities
+3. Click on Form components of functional location entity, uncheck “All” and select only quick create form for functional location
+4. Publish the app and verify that functional location form will open quick create form in tree view control
+5. Newly created functional locations should appear in tree view control
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
