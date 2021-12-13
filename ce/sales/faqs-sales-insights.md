@@ -257,7 +257,7 @@ An administrator can influence the relationship health score by changing the wei
 
 ### How are similar won deals identified? <a name="similar-won-deals-fields"></a>  
 AI models are used to identify the factors that impact the identification of similar won deals. The factors may differ from organization to organization based on the custom and out-of-the-box fields.   
-To view the fields that determine the similar won deals at that point in time, select the information icon corresponding to any section heading and a side pane opens on the right with information about relationship analytics and fields.
+To view the fields that determine the similar won deals at that point in time, select the information icon corresponding to any section heading and a side pane opens with the field information.
 
 > [!div class="mx-imgBorder"]
 > ![About relationship analytics side pane with fields](media/faq-sa-about-relationship-analytics-side-pane-fields.png "About relationship analytics side pane with fields")   

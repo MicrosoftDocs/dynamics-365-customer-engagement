@@ -33,10 +33,10 @@ To use the Sales Navigator controls, an admin needs to [enable the Sales Navigat
 
     ![Sign in to LinkedIn Sales Navigator dialog box.](media/sign-in-sales-navigator.png "Sign in to LinkedIn Sales Navigator dialog box")
     
-    A message is displayed to provide consent to give the requested permissions to the app.  
+    A pop-up dialog is displayed to provide consent for the permissions that the app requires.  
 
     >[!NOTE]
-    >To display the consent message, allow pop-ups on your browser for your organization's URL.  
+    >To display the consent popup dialog on your browser, allow pop-ups from your organization's URL  
 
     ![Provide consent to sign in to LinkedIn Sales Navigator.](media/sign-in-sales-navigator-provide-consent.png "Provide consent to sign in to LinkedIn Sales Navigator")
 
