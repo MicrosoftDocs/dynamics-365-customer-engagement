@@ -35,6 +35,9 @@ To use the Sales Navigator controls, an admin needs to [enable the Sales Navigat
     
     A message is displayed to provide consent to give the requested permissions to the app.  
 
+    >[!NOTE]
+    >To display the consent message, allow pop-ups on your browser for your organization's URL.  
+
     ![Provide consent to sign in to LinkedIn Sales Navigator.](media/sign-in-sales-navigator-provide-consent.png "Provide consent to sign in to LinkedIn Sales Navigator")
 
 4. Select **Allow**.
@@ -45,7 +48,7 @@ Both Lead and Account controls work by matching certain input parameters receive
 
 - [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Lead control: last name (primary), first name, email, job title, company name, and [more fields from LinkedIn](https://www.linkedin.com/help/sales-navigator/answer/79552) 
 
- [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Account control: company name (primary), company website, and [more fields from LinkedIn](https://www.linkedin.com/help/sales-navigator/answer/79552) 
+- [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Account control: company name (primary), company website, and [more fields from LinkedIn](https://www.linkedin.com/help/sales-navigator/answer/79552) 
 
 Once a match is found, the control will show related information about the member or company profile and will persist when you load the form again. Optionally, you can save recommended leads as new leads in Sales Navigator.
 
