@@ -1,5 +1,5 @@
 ---
-title: "Relationship analytics abd health"
+title: "Relationship analytics and health"
 description: "Use relationship analytics to view customer activity history of contact, opportunity, lead, or account in a graphical display through KPIs and activity histories."
 ms.date: 10/26/2021
 ms.custom: 
@@ -114,8 +114,10 @@ The following screenshot shows an example of enhanced relationship analytics:
 
 10. **Customer's email send/receive ratio**: Shows the ratio of the number of emails sent by the customer and received by you in this opportunity, to the average sent and received ratio by customers on all similar won deals.    
 
-11. **Similar won deals**: Shows the list of similar opportunities that have been closed as won. The columns display activities count, time spent, response time, and the response ratio for each opportunity. You can select and open an opportunity to view what has worked better in a deal that was closed as won, and implement these observations in the current deal to help close it as well. The list is refreshed every seven days.
-12. **Relationship activities**: Provides a detailed look at activities over 90 days, broken down by date and activity type, such as emails sent, emails received, meetings sent, meetings received, phone calls made, and phone calls received.       
+11. **Similar won deals**: Shows the list of similar opportunities that have been closed as won. The columns display activities count, time spent, response time, and the response ratio for each opportunity. You can select and open an opportunity to view what has worked better in a deal that was closed as won, and implement these observations in the current deal to help close it as well. The list is refreshed every seven days.   
+    To know how the similar won deals are identified, see [How are similar won deals identified?](faqs-sales-insights.md#similar-won-deals-fields)
+ 
+1. **Relationship activities**: Provides a detailed look at activities over 90 days, broken down by date and activity type, such as emails sent, emails received, meetings sent, meetings received, phone calls made, and phone calls received.       
 
 <a name="Calculations"></a>   
 ## How relationship analytics values are calculated    
