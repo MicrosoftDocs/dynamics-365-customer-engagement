@@ -5,7 +5,7 @@ keywords:
 ms.date: 10/28/2019
 ms.prod: d365ce-op
 ms.custom: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 3bde1482-60d4-489b-8379-49d3bc2f4abc
@@ -22,7 +22,6 @@ helpviewer_keywords:
 topic-status: Drafting
 search.audienceType: 
   - developer
-
 ---
 
 # Sample: Authenticate users with Dynamics 365 Customer Engagement web services

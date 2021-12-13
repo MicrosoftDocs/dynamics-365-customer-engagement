@@ -9,9 +9,11 @@ manager: shujoshi
 ms.custom: 
   - dyn365-sales
 ---
-# Configure Microsoft Teams dialer 
+# Configure Microsoft Teams dialer (Preview)
 
-
+> [!IMPORTANT]
+> - While in preview, Teams calls does not support emergency calling.
+> - Preview features are not complete, but are made available to you before general availability so you can evaluate them and provide feedback to Microsoft. Preview features are not intended for production use and may have limited or restricted functionality, as further explained in our [Product Terms](https://go.microsoft.com/fwlink/?linkid=2173816). 
 
 Microsoft Teams dialer helps sellers to be more productive and get work done more effectively by calling customers directly from within Dynamics 365 Sales app.  
 
@@ -19,16 +21,11 @@ Microsoft Teams dialer helps sellers to be more productive and get work done mor
 
 | &nbsp; | &nbsp; |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-
-> [!IMPORTANT]
-> - Microsoft Teams dialer is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-> - [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
-> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-
+## How to configure the dialer
 
 As an administrator, you must configure Microsoft Teams dialer for sellers to use. Perform the following steps:
 
