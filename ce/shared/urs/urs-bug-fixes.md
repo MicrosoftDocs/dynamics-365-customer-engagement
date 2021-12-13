@@ -2,8 +2,8 @@
 
 (Includes Resource Scheduling controls version 1.2.8.213282)
 
-- Fixed the bug: changing status of booking should not update Start Time and Estimated Arrival Time.
-- Enabled fulfillment preference support for single requirement when user uses ‘Find Availability’ to schedule requirement 
+- Fixed bug: changing status of booking should not update **Start Time** and **Estimated Arrival Time**.
+- Enabled fulfillment preference support for single requirement when user uses **Find Availability** to schedule requirement.
 
 (Includes Resource Scheduling controls version 1.2.7.213012)
 
