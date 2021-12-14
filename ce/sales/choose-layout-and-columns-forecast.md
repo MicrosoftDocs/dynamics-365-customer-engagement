@@ -33,7 +33,7 @@ Configure columns and layouts you want sellers to see in the forecast grid. Add 
 In the **Layout** step of the forecast configuration, you can configure columns to define the forecast grid that appears for users. You can configure rollup columns from option sets that are defined for opportunities in your organization.
 
 > [!NOTE]
-> To add a column that has field-level security, provide read access to the user "# Dynamics 365 Sales Forecasting" in the field security profile. For more information on configuring security profiles, see [Field-level security to control access](/power-platform/admin/field-level-security#example-for-restricting-the-mobile-phone-field-for-the-contact-entity)  
+> To add a column that has field-level security, provide read access to the user "# Dynamics 365 Sales Forecasting" in the field security profile. For more information on configuring security profiles, see [Field-level security to control access](/power-platform/admin/field-level-security#example-for-restricting-the-mobile-phone-field-for-the-contact-entity).  
 
 Perform the following steps to add columns and configure the forecast grid:
 
