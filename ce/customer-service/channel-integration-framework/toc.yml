@@ -123,7 +123,7 @@
       href: v2/architecture-overview-channel-integration-framework-v2.md
     - name: Download
       items:
-      - name: "Get Channel Integration Framework"
+      - name: "Get Dynamics 365 Channel Integration Framework"
         href: v2/get-channel-integration-framework.md
       - name: "Sample softphone integration"
         href: v2/sample-softphone-integration-v2.md
