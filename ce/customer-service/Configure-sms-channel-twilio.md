@@ -170,6 +170,8 @@ Perform the following steps to create a work stream for the SMS channel for Twil
 
 [Channels in Omnichannel for Customer Service](channels.md)  
 [Delete a configured channel](delete-channel.md)  
+[Configure SMS channel using Azure Communication Services](configure-sms-channel-acs.md)	
+[Configure SMS channel using TeleSign](configure-sms-channel.md)	
 [SMS FAQ](faqs.md#sms)  
 
 

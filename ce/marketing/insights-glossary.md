@@ -1,7 +1,7 @@
 ---
 title: "Glossary of common insights terms (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Definitions of terms commonly used to describe marketing results, insights, and KPIs in Dynamics 365 Marketing."
-ms.date: 06/29/2021
+ms.date: 12/01/2021
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-marketing
@@ -86,8 +86,9 @@ Email messages are sometimes suppressed internally when you are trying to send t
 ### Total generated leads
 The number of leads generated as a result of an email message. A new lead is counted when a recipient clicks a landing-page link in the message and then submits the landing page, which generates a new lead for that contact as a result. Landing page submissions that don't generate a new lead aren't counted (for example, because a matching lead already exists or because the landing page isn't set up to generate leads).
 
-### Unsubscribed
-A recipient clicked on the subscription center link in an email and then unsubscribed from one or more mailing lists. This value counts, at most, one unsubscribe per message per recipient.
+### Unsubscribes
+A recipient clicked on the subscription center link in an email and then unsubscribed from one or more mailing lists. This value counts, at most, one unsubscribe per message per recipient. Unchecking the **Do not e-mail** field is not considered an unsubscribe, as it is a change of a contact preference which is different than unsubscribing from a particular mailing or subscription list.<br>
+``Unsubscribes = (total unsubscribed / emails that were delivered)*100``
 
 ### Web beacon
 Web beacons are what makes it possible for Dynamics 365 Marketing to detect when a marketing email message has been opened by a recipient. The beacon is a transparent, 1x1 pixel, remote image that Dynamics 365 Marketing embeds in each marketing email it sends. The image link is unique for each message, and includes not only the URL of the image to load, but also an ID that Dynamics 365 Marketing uses to identify the message and the contact it was sent to. The actual web-beacon image is stored on the Dynamics 365 Marketing server, so each time a contact opens a message and loads its images, Dynamics 365 Marketing logs which message was opened and by whom and then returns the image.

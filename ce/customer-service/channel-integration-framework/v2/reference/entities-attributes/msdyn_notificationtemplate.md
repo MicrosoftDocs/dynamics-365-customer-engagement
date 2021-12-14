@@ -1,6 +1,6 @@
 ---
 title: "msdyn_notificationtemplate Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_notificationtemplate entity."
+description: "Includes schema information and supported messages for the msdyn_notificationtemplate entity in Dynamics 365 Channel Integration Framework 2.0."
 ms.date: 11/03/2020
 ms.topic: "reference"
 author: "mh-jaya"
@@ -10,7 +10,7 @@ applies_to:
   - "Dynamics 365 (online)"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 ---
-# msdyn_notificationtemplate Entity Reference
+# msdyn_notificationtemplate Entity Reference for Dynamics 365 Channel Integration Framework 2.0
 
 Template for a notification
 

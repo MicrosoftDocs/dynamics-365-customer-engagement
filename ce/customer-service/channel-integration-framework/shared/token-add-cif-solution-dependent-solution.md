@@ -30,4 +30,4 @@ Third-party channel providers can add a Dynamics 365 Channel Integration Framewo
 
 5. In the window that opens, select the **Channel Integration Framework** solution.
 
-6. Select **Delete** and then select the **Delete** button in the dialog box that opens to confirm that you want to remove Dynamics 365 Channel Integration Framework as a dependent solution.
+6. Select **Delete** and then select the **Delete** button in the dialog that opens to confirm that you want to remove Dynamics 365 Channel Integration Framework as a dependent solution.

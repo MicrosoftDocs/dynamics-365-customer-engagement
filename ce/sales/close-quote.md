@@ -1,5 +1,5 @@
 ---
-title: "Close a quote - Sales Enterprise | MicrosoftDocs"
+title: "Close a quote | MicrosoftDocs"
 description: "A quote can be closed when it's lost, canceled, or revised."
 ms.date: 10/25/2021
 ms.topic: topic
@@ -22,16 +22,16 @@ When you [create an order from a quote](create-edit-order-sales.md#create-an-ord
 
 ## License and role requirements
 
-|  | |
+| &nbsp; | &nbsp; |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
 
 ## Close a quote
 
-1. In the Sales Hub sitemap, select **Quotes** to view all the quotes. Alternatively, you can open an opportunity and select the **Quotes** tab to view the quotes associated with the opportunity.
+1. In the sitemap, select **Quotes** to view all the quotes. Alternatively, you can open an opportunity and select the **Quotes** tab to view the quotes associated with the opportunity.
     > [!NOTE]
     > You can close a quote only when it's in the **Active** state. If you have quotes in **Draft** state, you can either delete them or activate and then close them.
 
