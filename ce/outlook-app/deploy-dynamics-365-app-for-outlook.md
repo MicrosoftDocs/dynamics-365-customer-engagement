@@ -2,7 +2,7 @@
 title: "How to deploy Dynamics 365 App for Outlook | MicrosoftDocs"
 ms.custom: 
 description: How to deploy and install Dynamics 365 App for Outlook
-ms.date: 12/02/2021
+ms.date: 12/14/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -28,7 +28,10 @@ search.app:
 
 This topic covers how to set up and deploy Dynamics 365 App for Outlook.
 
-The latest release of Dynamics 365 App for Outlook works with customer engagement apps (such as [Dynamics 365 Sales](./../sales-professional/help-hub.md), [Dynamics 365 Customer Service](./../customer-service/help-hub.md), [Dynamics 365 Marketing](./../marketing/help-hub.md). [Dynamics 365 Field Service](../field-service/overview.md), and [Dynamics 365 Project Service Automation](/dynamics-365-project-operations/articles/psa/overview.md), [Dynamics 365 Customer Engagement (on-premises), version 9](../customerengagement/on-premises/overview.md), and [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
+The latest release of Dynamics 365 App for Outlook works with customer engagement apps (such as [Dynamics 365 Sales](./../sales-professional/help-hub.md), [Dynamics 365 Customer Service](./../customer-service/help-hub.md), [Dynamics 365 Marketing](./../marketing/help-hub.md). [Dynamics 365 Field Service](../field-service/overview.md), and [Dynamics 365 Project Service Automation](/dynamics-365-project-operations/articles/psa/overview.md), [Dynamics 365 Customer Engagement (on-premises), version 9](../customerengagement/on-premises/overview.md), and model-driven Power Apps that run on [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
+
+> [!NOTE]
+> Multiplexing setup doesn't reduce the number of licenses required to access Dynamics 365 apps. For more information, see [Multiplexing Licensing Brief](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdownload.microsoft.com%2Fdownload%2F3%2FD%2F4%2F3D42BDC2-6725-4B29-B75A-A5B04179958B%2FLicensing_Brief_PLT_Multiplexing.pdf&data=04%7C01%7Cmkaur%40exchange.microsoft.com%7C249a77ca758a40152faf08d9bf2d45b0%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637751023441383981%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=AamdWzOl%2Fu0YIOgARTY%2FRa3l6AbM9xocJwOZSr7QT5Y%3D&reserved=0).
 
 ## Prerequisites
 
