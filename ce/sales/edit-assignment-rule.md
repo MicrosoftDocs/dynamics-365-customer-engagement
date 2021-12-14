@@ -7,7 +7,9 @@ author: udaykirang
 ms.author: udag
 manager: shujoshi
 ---
-# Edit an assignment rule 
+# Preview: Edit an assignment rule 
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 To modify your process for automatically assigning leads or opportunities to sellers, you can update the conditions that you've defined in the rule.  
 

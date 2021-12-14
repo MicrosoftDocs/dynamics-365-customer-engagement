@@ -10,12 +10,11 @@ ms.custom:
   - dyn365-sales
 ---
 
-# Call using Microsoft Teams
+# Call using Microsoft Teams (Preview)
 
 > [!IMPORTANT]
-> - Microsoft Teams dialer is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-> - [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
-> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+> - While in preview, Teams calls does not support emergency calling.
+> - Preview features are not complete, but are made available to you before general availability so you can evaluate them and provide feedback to Microsoft. Preview features are not intended for production use and may have limited or restricted functionality, as further explained in our [Product Terms](https://go.microsoft.com/fwlink/?linkid=2173816). 
 
 Microsoft Teams dialer helps you to be more productive and get work done effectively by calling customers directly from within Dynamics 365 Sales Hub app. 
 
@@ -27,11 +26,11 @@ Microsoft Teams dialer helps you to be more productive and get work done effecti
 | **Security roles** | Salesperson and above <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
+## Open Teams calls dialer
+
 >[!NOTE]
 >- An administrator must configure the Microsoft Teams dialer in your organization to use. More information: [Configure Microsoft Teams dialer](configure-microsoft-teams-dialer.md). 
 >- You can't make emergency calls using Teams dialer in Dynamics 365 Sales.
-
-## Open Teams calls dialer
 
 When you sign in to your organization, you can view the **Calls (preview)** dialer pane on the right of the page.   
 Select the phone icon (![Phone icon.](media/phone-icon.png "Phone icon")) on the top-right corner of the page to open the **Calls (preview)** and view the dial pad. 
