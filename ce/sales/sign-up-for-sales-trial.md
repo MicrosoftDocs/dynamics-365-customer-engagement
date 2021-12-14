@@ -1,6 +1,6 @@
 ---  
 title: "Sign up for a free trial - Dynamics 365 Sales | Microsoft Docs"
-description: "Learn how to quickly sign up for and start a free Dynamics 365 Sales Enterprise trial. Explore the app with tours and videos, and find more learning resources."
+description: "Learn how to quickly sign up for and start a free Dynamics 365 Sales trial. Explore the app with tours and videos, and find more learning resources."
 author: lavanyakr01
 ms.author: lavanyakr
 ms.date: 08/31/2021
@@ -11,14 +11,16 @@ ms.reviewer: shujoshi
 ---
 # Sign up for a free Dynamics 365 Sales trial 
 
-Dynamics 365 Sales offers a 30-day free trial. The trial includes licenses for core and premium functionalities. After a quick sign-up, you'll have access to many of the app's key features. The trial allows you to test the app with sample data and even try out your own customer data. [Learn more about Dynamics 365 Sales features](overview.md).
-s
+Dynamics 365 Sales offers a 30-day free trial with the Sales Premium license. After a quick sign-up, you'll have access to many of the app's key features. The trial allows you to test the app with sample data and even try out your own customer data. [Learn more about Dynamics 365 Sales features](overview.md).
+
 **To sign up for the trial**:
 
 1. Go to the [Sales overview page](https://dynamics.microsoft.com/sales/overview/) and select **Try for free**.
 1. Follow the onscreen guidance to enter the [email associated with your Microsoft account](https://support.microsoft.com/windows/what-is-a-microsoft-account-4a7c48e9-ff5a-e9c6-5a5c-1a57d66c3bfa) and contact information.
 
-The trial takes a few moments to load, then you can start using the app.  
+The trial takes a few moments to load, then you can start using the app. When the trial app opens, you'll see the **Dashboards** page with helpful sales insights based on sample data and a product tour assistant as shown in the following image:
+
+:::image type="content" source="media/trial-dashboard-page.png" alt-text="Screenshot of the Dashboards page in Trial app":::
 
 ## What to try
 
