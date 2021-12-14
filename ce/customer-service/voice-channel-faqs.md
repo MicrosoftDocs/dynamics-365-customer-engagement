@@ -4,7 +4,7 @@ description: "Learn about the frequently asked questions (FAQs) for the voice ch
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 12/10/2021
+ms.date: 12/15/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -48,11 +48,11 @@ Yes, you can.
 
 ### Can I configure my own voice provider in Omnichannel?
 
-Yes, you can use Dynamics 365 Channel Integration Framework 2.0 connector to integrate third-party contact centers, such as Genesys Engage, Solgari, NICE, inContact.
+Yes, you can use Dynamics 365 Channel Integration Framework 2.0 connector to integrate third-party contact centers, such as Genesys Engage, Solgari, and NICE inContact.
 
 ### Does the voice channel tie in with Azure Communications Services or is it entirely a different technology?
 
-The voice capabilities for Dynamics 365 Customer Service are built on the Azure Communications Services. 
+The voice capabilities for Dynamics 365 Customer Service are built on the Azure Communications Services.
 
 ### Will Azure communications be an add-on service? I already have a competitor phone system and have Microsoft Teams?
 
@@ -66,3 +66,4 @@ The voice channel is supported only in the Customer Service workspace and Omnich
 
 [Introduction to the voice channel](voice-channel.md)  
 [System requirements](system-requirements-omnichannel.md)  
+[Voice channel regional availability](voice-channel-region-availability.md)  
