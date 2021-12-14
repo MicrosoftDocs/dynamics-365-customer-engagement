@@ -20,8 +20,8 @@ The following table lists the upcoming availability of the voice channel in Omni
 |Geographic location | Availability | Availability in Customer Service trial|
 |----------|---------|-----|
 |North America <br> **Note** <br> Supports both Microsoft as a carrier for the US numbers (Customers with billing locations in United Kingdom, Ireland, and Puerto Rico are the only ones in capacity to buy the US numbers) and [Bring your own carrier or number](voice-channel-bring-your-own-number.md) via [Azure direct routing](/azure/communication-services/concepts/telephony/telephony-concept#azure-direct-routing) |November 2021  | November 2021|
-|Europe |December 2021 |January 2022|
-|Asia Pacific |December 2021 |January 2022|
+|Europe <br> *See the note that follows. |December 2021 |January 2022|
+|Asia Pacific <br> *See the note that follows. |December 2021 |January 2022|
 |Australia |December 2021 |January 2022|
 |South America|To be announced | To be announced|
 |Country clouds: Canada, France, Germany, India, Japan, Switzerland, United Arab Emirates (UAE), United Kingdom	|To be announced |To be announced|
