@@ -1,7 +1,7 @@
 ---
 title: "createSession (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Includes information about createSession method, its syntax, and parameters in Dynamics 365 Channel Integration Framework 2.0 JavaScript API Reference."
-ms.date: 07/13/2021
+ms.date: 11/10/2021
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -11,7 +11,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# createSession
+# createSession (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
 
 [!include[applies-to-v2](../../includes/applies-to-v2.md)]
 
@@ -37,7 +37,6 @@ The structure of the `input` parameter JSON is as follows:
 ```json
 { 
    "templateName":"<unique name of session template>",
-   "templateTag":"<template tag>",
    "templateParameters":{ 
       "globalparam":"number value OR boolean value OR json string value OR parameterized string value",
       "app template 1":{ 
@@ -49,7 +48,7 @@ The structure of the `input` parameter JSON is as follows:
 }
 ```
 
-## Return Value
+## Return value
 
 Promise with a value as String.
 
@@ -57,8 +56,9 @@ Promise with a value as String.
 
 ```javascript
 var input = {
+   // unique name of the configured template   
     templateName: "msdyn_chat_session",
-    // unique name of the configured template
+ 
     templateParameters: {
         customer: "Contoso",
     }

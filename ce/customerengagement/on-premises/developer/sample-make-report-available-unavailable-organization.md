@@ -7,7 +7,7 @@ ms.reviewer: pehecke
 ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 69763a0a-af67-48b8-adf2-470c1cdf6196
@@ -17,7 +17,6 @@ ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
   - developer
-
 ---
 
 # Make a report available or unavailable to organization

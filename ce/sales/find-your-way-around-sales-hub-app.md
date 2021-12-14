@@ -1,5 +1,5 @@
 ---
-title: "Find your way around the Sales Hub app - Sales Enterprise | MicrosoftDocs"
+title: "Find your way around the Sales Hub app | MicrosoftDocs"
 description: "Learn how to get started with and navigate through the Sales Hub app. Get familiar with the nav bar and menu options in the app."
 ms.date: 10/01/2019
 ms.topic: get-started-article
@@ -12,10 +12,10 @@ ms.custom:
 
 # Find your way around the Sales Hub app
 
-## Requirements
+## License and role requirements
 |  | |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 

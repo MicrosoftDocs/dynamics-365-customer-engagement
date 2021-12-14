@@ -1,7 +1,7 @@
 ---
 title: "Known issues in real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about known issues in real-time marketing and how to work around them."
-ms.date: 10/26/2021
+ms.date: 12/06/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -52,10 +52,10 @@ As we continue to work on real-time marketing and refine the experience, we've b
 ## Event triggers
 
 - You cannot instrument C# apps in real-time marketing. If you choose to use an alternate language like Python, you will have to manage an infra to run Python.
+- Event triggers cannot be migrated when moving data between environments. Any events in the old environment need to be re-created in the new environment.
 
 ## Journey and orchestration
 
-- Segment-based journeys will only work with segments that are less than 100,000 members. If you try to use a segment with more than 100,000 members, only the first 100,000 will enter the journey.
 - The journey goal only counts unique profiles. Unique profiles are the number of unduplicated (counted only once) people that enter the journey. This means that in cases where the journey is a repeating journey, the total inflow will not match the number of unique profiles with which the goal attainment is calculated.
 - The journey goal met in analytics currently counts the number of unique profiles that met the goal divided by the total inflow. This will be fixed soon to count unique profiles that met the goal divided by total unique profiles.
 - After a real-time marketing journey is migrated, restored, or copied, its state is changed from **Live** to **Stopped**. To restart a migrated, restored, or copied journey, you need to first duplicate the journey, and then execute it.
@@ -72,4 +72,3 @@ As we continue to work on real-time marketing and refine the experience, we've b
 
 - Currently limited to one phone number.
 - Only United States numbers are issued (even when using the app in the United Kingdom).
-- Dynamics 365 Customer Voice survey links are not supported in SMS messages.

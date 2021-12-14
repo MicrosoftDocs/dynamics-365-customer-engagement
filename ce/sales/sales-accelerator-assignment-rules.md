@@ -15,9 +15,9 @@ Configure sales accelerator for assignment rules to automatically assign leads a
 
 ## License and role requirements
 
-|  | |
+| &nbsp; | &nbsp; |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
@@ -27,14 +27,15 @@ Use assignment rules in sales accelerator to automatically assign new leads and 
 
 As an administrator, you can create rules that match lead or opportunity attributes (such as, location and language) with the corresponding seller or team attributes (such as, location and language). For example, when a lead is created and satisfies the conditions of a specific rule, the lead is automatically assigned to a seller.
 
->[!IMPORTANT]
->Use this procedure to configure assignment rules in sales accelerator with the Sales Enterprise license. If you have the Sales Premium license, use [Configure the sales accelerator for Sales Premium](enable-configure-sales-accelerator.md). 
+> [!IMPORTANT]
+> Use this procedure to configure assignment rules in sales accelerator with the Sales Enterprise license. If you have the Sales Premium license, use [Configure the sales accelerator for Sales Premium](enable-configure-sales-accelerator.md). 
 
 ## Configure sales accelerator
 
 1.	In the Sales Hub app, select the Change area icon in the lower-left corner of the page and then select **Sales Insights settings**.   
 
 2.	On the site map, under **Sales accelerator**, select **Setup**.    
+	
     The sales accelerator configuration page opens.   
 
     > [!div class="mx-imgBorder"]
@@ -48,12 +49,12 @@ As an administrator, you can create rules that match lead or opportunity attribu
     | Specific security roles | Select this option to specify security roles to give access to assignment rules in the Sales Hub app to just a few users. Use the lookup box to add the security roles. |
 
     > [!div class="mx-imgBorder"]
-    > ![Configuration security roles to access sales accelerator feature.](media/sales-accelerator-configuration-define-team-access.png "Configuration security roles to access sales accelerator feature")
+    > ![Configure security roles to access sales accelerator feature.](media/sales-accelerator-configuration-define-team-access.png "Configure security roles to access sales accelerator feature")
 
 4.	In the **Seller availability** section, select the **Seller availability** toggle to enable the option that allows sellers to configure the working hours and vacation days so that leads and opportunities are assigned based on their availability.
 
     > [!div class="mx-imgBorder"]
-    > ![Configuration seller availability.](media/sales-accelerator-configuration-seller-availability.png "Configuration seller availability")
+    > ![Configure seller availability.](media/sales-accelerator-configuration-seller-availability.png "Configure seller availability")
  
     More information: [Configure your work availability through personal settings](personalize-sales-accelerator.md#through-personal-settings).
 

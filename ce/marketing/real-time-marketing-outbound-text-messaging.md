@@ -1,7 +1,7 @@
 ---
 title: "Create outbound text messages (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create outbound text messages for real-time marketing journeys in Dynamics 365 Marketing."
-ms.date: 10/13/2021
+ms.date: 12/08/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -51,6 +51,9 @@ Toll-free numbers are a good option for transactional A2P messaging, which means
 ## Add a sender number from a Twilio or TeleSign account
 
 You can purchase new or reuse existing SMS accounts with Twilio or TeleSign to send text messages in real-time marketing. The integration works for all countries for which a phone number can be purchased through TeleSign or Twilio.
+
+> [!IMPORTANT]
+> To ensure that third party SMS providers handle STOP commands properly, you must configure your consent settings with the provider directly.
 
 ### Sign up for and configure a Twilio account
 
@@ -111,12 +114,27 @@ Personalizing text messages allows you to insert dynamic data that is unique to 
 
 To personalize a text message:
 
-1. Select **Personalization** ![The Personalization button.](media/real-time-marketing-personalization.png "The Personalization button") in the **Message** field.
+1. Select the **Personalization** ![The Personalization button.](media/real-time-marketing-personalization2.png "The Personalization button") button in the **Message** field.
 1. Select **Select a data field** to choose a data source. Your data source can be based on an **Audience**, an **Event trigger**, or **Compliance**.
 1. After choosing the data source, you can search for the specific attribute or event trigger you want.
 1. Add a **Label** to quickly identify your token in the message content.
 
 When you send the text message from a journey, it will automatically populate the token according to the attribute you selected.
+
+## Add a Customer Voice survey to a text message
+
+Adding a Customer Voice survey link to a text message or [push notification](real-time-marketing-push-notifications.md#add-a-customer-voice-survey-to-a-push-notification) allows you to seek feedback from customers on the channels they use the most.
+
+To add a Customer Voice survey to a text message:
+
+1. Select the **Customer Voice survey** button ![The Customer Voice survey button.](media/real-time-marketing-customer-voice.png "The Customer Voice survey button") in the **Message** field.
+1. Choose a Customer Voice survey in the lookup field.
+1. Select whether you want the survey to be anonymous and whether you want to track the survey link after customers click on it. If you select the **Survey is anonymous** option, no user data will be saved with the answers.
+    > [!div class="mx-imgBorder"]
+    > ![Customer Voice survey options screenshot.](media/real-time-marketing-survey-options.png "Customer Voice survey options screenshot")
+1. Select **Save**.
+
+When you send the text message from a journey, it will automatically populate the token with the survey and options you selected.
 
 ## Track your text message metrics from channel insights
 

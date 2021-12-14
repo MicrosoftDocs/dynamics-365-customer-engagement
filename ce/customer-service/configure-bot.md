@@ -1,7 +1,7 @@
 ---
 title: "Integrate an Azure bot | MicrosoftDocs"
 description: "Use this topic to understand how to integrate an Azure bot with Omnichannel for Customer Service."
-ms.date: 11/01/2021
+ms.date: 12/10/2021
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -20,7 +20,7 @@ A bot is a program that provides automated responses in a conversational manner 
 
 A bot eases the load on your customer service agents by handling basic queries. This saves your agents' time so they can work on more complex issues. You can configure your bots to escalate a query to a human agent as required, or when requested by the customer.
 
-In Omnichannel for Customer Service, you can integrate a bot to start the conversation with a customer, provide automated responses, and then shift the conversation to a human agent, if required.
+In Omnichannel for Customer Service, you can integrate a bot to start a conversation with the customer, provide automated responses, and then shift the conversation to a human agent, if required.
 
 When you integrate an Azure bot with Omnichannel for Customer Service, you get the following capabilities for bot conversations:
 
@@ -38,16 +38,16 @@ When you integrate an Azure bot with Omnichannel for Customer Service, you get t
 
 You must ensure the following requirements are met before you integrate your bot with Omnichannel for Customer Service.
 
-- Have a bot that's built using [Microsoft Bot Framework](https://dev.botframework.com) and registered with [Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0).  
+- Have a bot that's built using [Microsoft Bot Framework](https://dev.botframework.com) and registered with [Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0&preserve-view=true).  
 
-    To create an Azure bot resource, see [Create Azure bot resource](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0#create-the-resource) section in the Bot Framework SDK documentation. Be sure to note the values of the Microsoft App ID and the bot handle.
+    To create an Azure bot resource, see [Create Azure bot resource](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0#create-the-resource&preserve-view=true) section in the Bot Framework SDK documentation. Be sure to note the values of the Microsoft App ID and the bot handle.
 
 - To add the Azure bot service to conversational IVR, you must create a bot resource that's enabled for cognitive services and also supports the Direct Line speech channel. To do so, perform the following steps:
     1. [Create a Cognitive Services resource using the Azure portal](/azure/cognitive-services/cognitive-services-apis-create-account?tabs=multiservice%2Cwindows) to enable cognitive services such as text-to-speech or speech-to-text capabilities. Note the location/region and key values.
 
-    2. Then, [add the Cognitive Services speech resource you created in the earlier step to the Direct Line Speech channel](/azure/bot-service/bot-service-channel-connect-directlinespeech?view=azure-bot-service-4.0).
+    2. Then, [add the Cognitive Services speech resource you created in the earlier step to the Direct Line Speech channel](/azure/bot-service/bot-service-channel-connect-directlinespeech?view=azure-bot-service-4.0&preserve-view=true).
 
-- The bot must be configured to have [Omnichannel channel](/azure/bot-service/bot-service-channel-omnichannel?view=azure-bot-service-4.0) and [Microsoft Teams](/azure/bot-service/channel-connect-teams?view=azure-bot-service-4.0) as supported channels.
+- The bot must be configured to have [Omnichannel channel](/azure/bot-service/bot-service-channel-omnichannel?view=azure-bot-service-4.0&preserve-view=true) and [Microsoft Teams](/azure/bot-service/channel-connect-teams?view=azure-bot-service-4.0&preserve-view=true) as supported channels.
 
 > [!NOTE]
 > Bots can escalate conversations to agents only if they're part of push-based workstreams.
@@ -126,7 +126,7 @@ You can set escalation rules to allow a bot to send customer queries to a custom
 
 ### Add bot user to a voice or phone call workstream
 
-To enable the bot to answer incoming calls, you must add the bot to a corresponding workstream for accepting voice calls. More information: [Add a bot](create-workstreams.md#add-a-bot)
+To enable the bot to answer incoming calls, you must add the bot to a corresponding workstream for accepting voice calls. More information: [Add a bot](create-workstreams.md#add-a-bot-to-a-workstream)
 
 ### Enable a bot to escalate and end conversations
 
@@ -150,7 +150,7 @@ If the bot escalates a customer query, it's routed to the appropriate queue as p
 
 #### Create a context variable
 
-You must create a context variable for the bot to handle the customer queries appropriately. The context variable is used in routing the incoming customer queries to the appropriate bots and agents. For information on creating context variables, see [Understand and create workstreams](create-workstreams.md).
+You must create a context variable for the bot to handle the customer queries appropriately. The context variable is used in routing the incoming customer queries to the appropriate bots and agents. For information on creating context variables, see [Configure context variables for a bot](context-variables-for-bot.md).
 
 #### Create routing rules
 
@@ -186,7 +186,7 @@ The following sample provides the exact steps and configuration values to integr
         > [!div class=mx-imgBorder]
         > ![Create a rule to send customer query from bot to an agent.](media/home-loan-rule.png "Create a rule to send a customer query from a bot to an agent")
 
-When a chat is started by a customer, the query is routed to the bot through the **BotRule** routing rule. If the bot escalates the query, it is sent to the appropriate agent as per the configured routing rules. The bot needs to send the correct context variable and its value in the escalation request to route the query appropriately. For more information on setting up of context variable and escalation request, see [Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md).
+When a chat is started by a customer, the query is routed to the bot through the **BotRule** routing rule. If the bot escalates the query, it is sent to the appropriate agent as per the configured routing rules. The bot needs to send the correct context variable and its value in the escalation request to route the query appropriately. For more information on setting up of context variable and escalation request, see [Enable a bot to escalate and end conversations](bot-escalate-end-conversation.md).
 
 ## Bot sessions usage
 
@@ -221,7 +221,7 @@ You can purchase additional bot conversations from Microsoft 365 admin center.
 
 > [!Note]
 >
-> Authentication cards are not supported in bots that are integrated with Omnichapcnnel for Customer Service.
+> Authentication cards are not supported in bots that are integrated with Omnichannel for Customer Service.
 
 ## Privacy notice
 

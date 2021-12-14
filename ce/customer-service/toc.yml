@@ -318,6 +318,8 @@
       items: 
       - name: Define parent and child cases
         href: define-settings-parent-child-cases.md
+      - name: Configure AI suggestions for contacts in Microsoft Teams
+        href: configure-teams-collaboration.md
       - name: View similar case suggestions
         href: suggest-similar-cases-for-a-case.md
       - name: Create and manage subjects
@@ -334,6 +336,8 @@
         href: view-block-deactivate-social-profile.md
       - name: Convert a case to a knowledge article
         href: customer-service-hub-user-guide-convert-case-to-knowledge-article.md
+      - name: Collaborate with AI-suggested contacts in Microsoft Teams
+        href: use-ai-suggested-contacts-teams.md
       - name: View AI suggested similar cases and knowledge articles
         href: csw-view-ai-suggested-cases-knowledge-articles.md
       - name: Manage cases using interactive dashboards
@@ -419,57 +423,69 @@
   - name: Knowledge management
     items: 
     - name: Administrator experience
-      items: 
-      - name: Set up knowledge search providers
-        href: set-up-search-providers.md
+      items:
+      - name: Configure knowledge management 
+        href: set-up-knowledge-management-embedded-knowledge-search.md 
       - name: Work with knowledge articles
         href: work-knowledge-articles.md
-      - name: Create and manage knowledge articles 
-        href: customer-service-hub-user-guide-knowledge-article.md
-      - name: Configure the knowledge article authoring language
-        href: set-knowledge-article-authoring-language.md
-      - name: Configure the origin allow list for knowledge articles
-        href: configure-knowledge-article-origin-allow-list.md
-      - name: Create a knowledge article using a template
-        href: create-knowledge-article-using-template.md
-      - name: Create knowledge article templates in Customer Service
-        href: create-templates-knowledge-article.md
-      - name: Configure knowledge management
-        href: set-up-knowledge-management-embedded-knowledge-search.md
+      - name: Set up knowledge search providers
+        href: set-up-search-providers.md
       - name: Configure knowledge article search filters
         href: enable-knowledge-article-search-filters.md
-      - name: Integrate knowledge management with Power Virtual Agents
-        href: integrate-KM-with-PVA.md
       - name: Create and manage knowledge categories
         href: create-manage-categories.md
-      - name: Extend transformer logic on templates
-        href: extend-transformer-logic-template.md
-      - name: Share knowledge articles in Omnichannel for Customer Service
-        href: knowledge-management-oc.md
-      - name: Search for and share knowledge articles
-        href: oc-search-knowledge-articles.md
+      - name: Create knowledge article templates in Power Apps
+        href: /power-platform/admin/create-templates-articles
+      - name: Integrate knowledge management with Power Virtual Agents
+        href: integrate-KM-with-PVA.md
+      - name: Configure the origin allow list for knowledge articles
+        href: configure-knowledge-article-origin-allow-list.md
+    - name: Knowledge author experience
+      items:
+      - name: Configure the knowledge article authoring language
+        href: set-knowledge-article-authoring-language.md
+      - name: Create and manage knowledge articles 
+        href: customer-service-hub-user-guide-knowledge-article.md
+      - name: Create knowledge article templates in Customer Service
+        href: create-templates-knowledge-article.md
     - name: Agent experience
-      items: 
+      items:
+      - name: Search for and share knowledge articles
+        href: oc-search-knowledge-articles.md 
       - name: Search for knowledge articles
         href: csw-search-knowledge-articles.md
       - name: Search for knowledge articles in Customer Service Hub
         href: search-knowledge-articles-csh.md
-      - name: Search for and share knowledge articles
-        href: oc-search-knowledge-articles.md
-      - name: Create knowledge article templates in Power Apps
-        href: /power-platform/admin/create-templates-articles
-    - name: Customize knowledge management
+      - name: Share knowledge articles in Omnichannel for Customer Service
+        href: knowledge-management-oc.md
+    - name: Customization experience
       items: 
       - name: Knowledge base search
         href: knowledge-base-search-methods.md
       - name: Add the knowledge base search control to forms
         href: add-knowledge-base-search-control-forms.md
+    - name: Developer experience
+      items:
+      - name: Create a knowledge article using a template
+        href: create-knowledge-article-using-template.md
+      - name: Extend transformer logic on templates
+        href: extend-transformer-logic-template.md
   - name: Microsoft Teams chat for enterprise collaboration
-    items: 
-    - name: Configure Teams chat
-      href: configure-teams-chat.md
-    - name: Use Teams chat
-      href: use-teams-chat.md
+    items:
+    - name: Administrator experience
+      items: 
+      - name: Configure Teams chat
+        href: configure-teams-chat.md
+      - name: Configure AI suggestions for contacts in Microsoft Teams
+        href: configure-teams-collaboration.md
+    - name: Agent experience
+      items:
+      - name: Use Teams chat
+        href: use-teams-chat.md
+      - name: Use suggested contacts to collaborate with coworkers
+        href: teams-use-suggested-contacts.md
+      - name: Collaborate with AI-suggested contacts in Microsoft Teams
+        href: use-ai-suggested-contacts-teams.md
   - name: Routing in Omnichannel Administration
     items:
     - name: Routing and assignment in Omnichannel Administration
@@ -670,6 +686,8 @@
       items: 
       - name: Set up SMS channels
         items: 
+        - name: Configure an SMS channel using Azure Communication Services
+          href: configure-sms-channel-acs.md
         - name: Configure an SMS channel for TeleSign
           href: configure-sms-channel.md
         - name: Configure an SMS channel for Twilio
@@ -924,7 +942,7 @@
       items: 
       - name: Overview of Service scheduling
         href: basics-service-service-scheduling.md
-      - name: Install Service Scheduling From Power Platform
+      - name: Install Service Scheduling from Power Platform admin center
         href: install-service-scheduling-from-power-platform.md
       - name: Manage security roles
         href: manage-security-roles.md
@@ -1386,6 +1404,10 @@
         href: developer/reference/events/lcw-error.md
       - name: "lcw:threadUpdate"
         href: developer/reference/events/lcw-threadUpdate.md
+      - name: "lcw:chatQueued"
+        href: developer/reference/events/lcw-chatQueued.md
+      - name: "lcw:chatRetrieved"
+        href: developer/reference/events/lcw-chatRetrieved.md
       - name: "lcw:closeChat"
         href: developer/reference/events/lcw-closeChat.md
       - name: "lcw:onMessageReceived"

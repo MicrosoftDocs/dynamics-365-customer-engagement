@@ -46,6 +46,9 @@ JavaScript web resources can be added to mobile forms and downloaded with Offlin
 
 JavaScript will run Online, Offline First with internet connection, and Offline First without internet connection (basically all the time).
 
+> [!Note]
+> Refer to [this doc](/dynamics365/mobile-app/mobile-offline-capabilities#limitations) for any potential limitations by platform for WebResources in offline mode.
+
 ## Offline JavaScript example
 
 In some cases, an organization may want to run validation on certain field values after a technician updates an entity. For example, let's say you want to make sure the duration of a work order booking is at least two hours once a technician saves a record in the Field Service (Dynamics 365) mobile app.

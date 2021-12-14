@@ -1,5 +1,5 @@
 ---
-title: "Define a goal metric - (Sales Enterprise) | MicrosoftDocs"
+title: "Define a goal metric | MicrosoftDocs"
 description: "Measure goals in terms of count or amount, depending on what you’re measuring. Use rollup fields to track progress on the goals."
 ms.date: 02/10/2021
 ms.topic: article
@@ -21,9 +21,10 @@ searchScope:
 Measure goals in terms of count or amount, depending on what you’re measuring. Use rollup fields to track progress on the goals.
 
 ## License and role requirements
-|  | |
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator or Sales Manager and above <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
