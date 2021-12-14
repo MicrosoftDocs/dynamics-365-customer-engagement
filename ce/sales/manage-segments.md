@@ -9,15 +9,13 @@ manager: shujoshi
 ---
 # Manage segments 
 
-A *segment* is a collection of records that are grouped together based on certain conditions, such as location, deal value, language, and product. By using segments, you can automatically connect records to sequences.
-
-> [!NOTE]
-> The segments feature is available only for lead and opportunity records. 
+A *segment* is a collection of records that are grouped together based on certain conditions, such as location, deal value, language, and product. By using segments, you can automatically connect records to sequences. You can create segments for all entities including custom entities.
 
 As a sequence manager or administrator, you can use the segment builder to:
 
 - [Create and activate a segment](create-and-activate-a-segment.md)  
 - [Connect a segment to a sequence](connect-a-segment-to-sequence.md)
+- [View details of a segment](view-details-segment.md)
 - [Edit a segment](edit-a-segment.md)
 - [Delete or deactivate a segment](delete-deactivate-a-segment.md)
 - [Connect a segment to an assignment rule](create-and-activate-assignment-rule.md#setSegment)

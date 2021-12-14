@@ -344,6 +344,8 @@
         href: create-and-activate-a-segment.md
       - name: Connect a segment to sequence
         href: connect-a-segment-to-sequence.md
+      - name: View details of a segment  
+        href: view-details-segment.md
       - name: Edit a segment
         href: edit-a-segment.md
       - name: Delete or deactivate a segment
