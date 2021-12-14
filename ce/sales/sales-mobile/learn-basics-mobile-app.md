@@ -1,7 +1,7 @@
 ---
 title: Learn the basics of the Dynamics 365 Sales mobile app
 description: Learn the basic functions of the Dynamics 365 Sales mobile app.
-ms.date: 10/25/2021
+ms.date: 12/14/2021
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -77,7 +77,7 @@ Tap the **Search** icon and enter text in the search box to find related informa
 
 ### Add option
 
-To add notes and add contacts, tap the plus sign icon (**+**). More information: [Manage notes](view-edit-add-note.md) and [Manage contacts](create-contact.md)
+To add notes, contacts, and records, tap ![Plus icon.](media/sm-plus-icon.png "Plus icon"). More information: [Manage records](open-record.md), [Manage notes](view-edit-add-note.md) and [Manage contacts](create-contact.md)
 
 ### Meetings
 

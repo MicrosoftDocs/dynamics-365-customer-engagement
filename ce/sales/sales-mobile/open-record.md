@@ -1,7 +1,7 @@
 ---
 title: Manage records in the Dynamics 365 Sales mobile app
 description: Learn to view and edit records in the Dynamics 365 Sales mobile app.
-ms.date: 12/01/2021
+ms.date: 12/14/2021
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -11,8 +11,8 @@ manager: shujoshi
 
 Records can be accessed from the home page or the Meetings page.
 
-- On the home page, go to the **Recent records** section.   
-- On the Meetings page, go to the **Regarding** section.   
+- On the home page, go to the **Recent records** section.
+- On the Meetings page, go to the **Regarding** section.
 
 You can [view details](#view-details), [create new records](#create-records-and-activities), and [edit records](#edit-records) on the home and Meetings pages. Additionally, you can [change a regarding record](view-agenda.md#change-regarding-record) and [add a regarding record](view-agenda.md#add-regarding-record) on the Meetings page.
 
@@ -35,11 +35,11 @@ You can view the details of records in the following ways:
 
 **On the home page**    
 
-The home page displays a list of records that you have recently accessed. These records include opportunities, leads, contacts, quotes, accounts, and notes. When you tap a record, the record details are displayed partially at the bottom half of the screen. Scroll up or tap ![Expand quick view icon.](media/expand-quick-view.png "Expand quick view icon") to display complete record details in a lightweight form. This form provides the basic details, including related [notes and reminders](#notes-and-reminders).
+The home page displays a list of records that you have recently accessed. These records include opportunities, leads, contacts, quotes, accounts, and notes. When you tap a record, the record details are displayed partially at the bottom half of the screen. Scroll up for a quick view or tap ![Expand quick view icon.](media/expand-quick-view.png "Expand quick view icon") to display complete record details in a lightweight form. This form provides the basic details, including related [notes and reminders](#notes-and-reminders).
 
 **On the Meeting page**     
 
-The Meeting details page displays the regarding record that is related to the meeting. Tap the record, and then scroll up or tap ![Expand quick view icon.](media/expand-quick-view.png "Expand quick view icon") to display complete record details in a lightweight form. The details include basic information about the record, related [notes, and reminders](#notes-and-reminders). 
+The Meeting details page displays the regarding record that is related to the meeting. Tap the record, and then scroll up for a quick view or tap ![Expand quick view icon.](media/expand-quick-view.png "Expand quick view icon") to display complete record details in a lightweight form. The details include basic information about the record, related [notes, and reminders](#notes-and-reminders). 
 
 > [!NOTE]
 > To learn more about notes, go to [Manage notes](view-edit-add-note.md).
@@ -48,17 +48,13 @@ The Meeting details page displays the regarding record that is related to the me
 
 Follow these steps to quickly create records and activities in the Dynamics 365 Sales mobile app.
 
-1.  Tap the plus sign ![Plus icon.](media/sm-plus-icon.png "Plus icon") on the navigation bar at the bottom of the screen.
+1.  On the navigation bar at the bottom of the screen, tap ![Plus icon.](media/sm-plus-icon.png "Plus icon") .
 
-2.  Tap **Create new**.
-
-    ![Create a new record.](media/sm-create-record.png "Create a new record")
-
-3.  Select a table type from the list.
+2.  Select a table type from the list.
 
     ![Select a table from the list.](media/select-table.png "Select a table from the list")
 
-4.	In the **Create new (table)** form, fill in the details, and then tap **Save**.
+3.	In the **Create new (table)** form, fill in the details, and then tap **Save**.
 
 > [!NOTE]
 > To understand which table types are supported for quick creation of records and activities, go to [Configure tables for quick creation](configure-quick-create.md).

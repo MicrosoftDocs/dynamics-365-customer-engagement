@@ -1,7 +1,7 @@
 ---
 title: View, edit, or add a note in the Dynamics 365 Sales mobile app
 description: Instructions to view, edit, or add a note in the Dynamics 365 Sales mobile app
-ms.date: 12/01/2021
+ms.date: 12/14/2021
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -51,7 +51,7 @@ You can perform the following actions in the **Notes** section.
 
         ![Add a note in the notes list.](media/sm-add-note-from-list.png "Add a note in the notes list")
 
-    -   On the navigation bar at the bottom of the screen, tap ![Plus icon.](media/sm-plus-icon.png "Plus icon"), and then tap **Take a note**.
+    -   On the navigation bar at the bottom of the screen, tap ![Plus icon.](media/sm-plus-icon.png "Plus icon"), and then tap **Note**.
 
         ![Add a note.](media/sm-add-note-nav-bar.png "Add a note")
 
