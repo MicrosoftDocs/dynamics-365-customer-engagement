@@ -56,7 +56,7 @@ The supported versions of Unified Service Desk are 4.2, 4.1, and 4.0.
 
 > [!IMPORTANT]
 >
-> Unified Service Desk version 3.3 and earlier are not supported after June 21, 2021; after this date, organizations with these versions will not have access to the Unified Service Desk client. If you are using Unified Service Desk version 3.3 or earlier, we recommend that you upgrade to the latest versions of Unified Service Desk and Dynamics 365 for Customer Service by October 01, 2021.
+> Unified Service Desk version 3.3 and earlier are not supported after June 21, 2021; after this date, organizations with these versions will not have access to the Unified Service Desk client. If you're using Unified Service Desk version 3.3 or earlier, we recommend that you upgrade to the latest versions of Unified Service Desk and Dynamics 365 for Customer Service by October 01, 2021.
 
 <a name="packdeploy"></a>
 
