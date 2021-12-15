@@ -1,7 +1,7 @@
 ---
 title: "Enable and configure sales accelerator (Sales Premium)"
 description: "Enable and configure the sales accelerator to create sequences and connect records, and view daily work list items."
-ms.date: 11/08/2021
+ms.date: 12/10/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -122,7 +122,22 @@ For the best experience of the sales accelerator, enable and configure [predicti
     - Under **Call settings**, select the **Create records automatically on click** option to automatically create a phone call activity when sellers initiate a call from a sequence step or from the work list.   
         >[!div class="mx-imgBorder"]
         >![Advanced call settings](media/sa-advance-call-settings.png "Advanced call settings")       
-10. Save and publish the configuration.
+10. <a name="enable-sales-accelerator-reports"></a>Enable the **Sales accelerator reports** option to help your sales manager view and understand their team's historical operational metrics and key performance indicators (KPIs), and sequence stats page.   
+    [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+    
+    >[!div class="mx-imgBorder"]
+    >![Enable Sales acceleration reporting preview](media/sa-enable-sales-acceleration-reporting.png "Enable Sales acceleration reporting preview")        
+
+    By default, the users with sales manager and sequence manager roles can view the reports. To grant view access to other roles, provide read access at organizational level for the Sales acceleration reports table. More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges).   
+
+    >[!NOTE]
+    >After you enable the option, the application may take up to 24 hours to display the data in the reports. Subsequently, the reports refresh every 24 hours. You can view the last updated date on the top-right corner of the sales acceleration reporting page.
+
+    To know how sales managers use,   
+       -	Metrics and KPIs, see [Understand sales acceleration reporting](understand-sales-acceleration-reporting.md).
+       -	Sequence stats, see [Understand sequence stats](understand-sequence-stats.md).
+    
+11. Save and publish the configuration.
     A status message is displayed at the top of the page with details including the time and user who published the configurations.
     >[!div class="mx-imgBorder"]
     >![Sales accelerator setup status message](media/sa-setup-status-message.png "Sales accelerator setup status message")

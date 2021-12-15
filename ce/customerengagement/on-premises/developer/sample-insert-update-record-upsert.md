@@ -7,7 +7,7 @@ ms.reviewer: pehecke
 ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 5aac6430-5d98-4e50-94f9-c2f6ce5cee62
@@ -17,7 +17,6 @@ ms.author: nkrb
 manager: kvivek
 search.audienceType: 
   - developer
-
 ---
 
 # Sample: Insert or update a record using Upsert

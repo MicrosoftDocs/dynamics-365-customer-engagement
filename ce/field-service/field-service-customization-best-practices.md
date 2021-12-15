@@ -49,7 +49,9 @@ To avoid errors:
 
 Here is just one example: Field Service processes calculate the _Estimated Arrival Time_ field value on the Bookable Resource Booking record to indicate when a frontline worker is expected to arrive on site. If your organization does not need this field, hide it on the form rather than remove it.
 
-For more information, see this article: [Optimize model-driven app form performance in Power Apps](/powerapps/maker/model-driven-apps/optimize-form-performance)
+For more information, see these articles: 
+- [Optimize model-driven app form performance in Power Apps](/powerapps/maker/model-driven-apps/optimize-form-performance)
+- [Design forms for performance in model-driven apps](/powerapps/maker/model-driven-apps/design-performant-forms)
 
 ## Do not edit option set (choice) values
 

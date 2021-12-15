@@ -17,17 +17,26 @@ Quickly create a copy of an existing product in Dynamics 365 Sales including all
 
 | &nbsp; | &nbsp; |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator, Sales Manager, Sales Professional Manager, and above <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
 ## Clone a product
 
 When you're creating a new product, family or bundle, save time by cloning an existing one. Cloning creates a copy of the original record with all the details except for the name and ID. If the product, bundle, or family has any properties, they're also copied to the cloned record.  
-  
-1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
-  
-2. In the site map, select **Products**.   
+
+> [!NOTE]
+> Product families are only supported for Sales Enterprise and Sales Premium.  
+
+**To clone a product, family, or bundle:**
+
+1. Depending on the sales app that you're using, do one of the following:
+ 
+    -  If you're using the Sales Hub app, 
+        1. Select **Change area** ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area") at the lower-left corner of the site map, and then select **App Settings**. 
+        1. In the **Product Catalog** area, select **Families and Products**. 
+   - If you're using the Sales Professional app,
+       - Select **Products** from the site map.  
   
 3. Select a product family, product, or bundle record that you want to clone, and on the command bar, select **Clone**. 
 

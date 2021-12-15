@@ -7,7 +7,7 @@ ms.reviewer: pehecke
 ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 0f70898c-c451-47e5-afc8-224e25f32c69
@@ -17,7 +17,6 @@ ms.author: kvivek
 manager: amyla
 search.audienceType: 
   - developer
-
 ---
 # Sample: Create and publish products
 

@@ -2,7 +2,7 @@
 title: "View LinkedIn Sales Navigator controls on forms"
 description: "Sign in to the LinkedIn Navigator in Dynamics 365 to view controls on forms. Learn how to work with controls to ensure correct profile matching."
 keywords: sign in, authenticate, sales navigator, customized form
-ms.date: 04/30/2019
+ms.date: 12/10/2021
 ms.topic: article
 author: shubhadaj
 ms.author: shujoshi
@@ -29,9 +29,18 @@ To use the Sales Navigator controls, an admin needs to [enable the Sales Navigat
 
 2. If your organization has added [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] controls to any of their forms, you'll find the controls embedded on the form. A system administrator or customizer can [add the controls to forms](add-sales-navigator-controls-forms.md).
 
-3. If you haven't signed in to [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator, select the **Sign in** button in the control and give the requested permissions to the app. 
+3. If you haven't signed in to [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator, select the **Sign in** in the control.
 
-  ![Sign in to LinkedIn Sales Navigator dialog box.](media/sign-in-sales-navigator.png "Sign in to LinkedIn Sales Navigator dialog box")
+    ![Sign in to LinkedIn Sales Navigator dialog box.](media/sign-in-sales-navigator.png "Sign in to LinkedIn Sales Navigator dialog box")
+    
+    A pop-up dialog is displayed to provide consent for the permissions that the app requires.  
+
+    >[!NOTE]
+    >To display the consent popup dialog on your browser, allow pop-ups from your organization's URL  
+
+    ![Provide consent to sign in to LinkedIn Sales Navigator.](media/sign-in-sales-navigator-provide-consent.png "Provide consent to sign in to LinkedIn Sales Navigator")
+
+4. Select **Allow**.
 
 ## Work with the Sales Navigator controls
 
@@ -39,7 +48,7 @@ Both Lead and Account controls work by matching certain input parameters receive
 
 - [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Lead control: last name (primary), first name, email, job title, company name, and [more fields from LinkedIn](https://www.linkedin.com/help/sales-navigator/answer/79552) 
 
- [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Account control: company name (primary), company website, and [more fields from LinkedIn](https://www.linkedin.com/help/sales-navigator/answer/79552) 
+- [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Account control: company name (primary), company website, and [more fields from LinkedIn](https://www.linkedin.com/help/sales-navigator/answer/79552) 
 
 Once a match is found, the control will show related information about the member or company profile and will persist when you load the form again. Optionally, you can save recommended leads as new leads in Sales Navigator.
 
