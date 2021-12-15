@@ -32,7 +32,7 @@ Queues can be useful in:
   
 - Having a centralized list of pending work that needs attention  
   
-- Sorting tasks by type or by people assigned to complete them  
+- Sorting tasks by type, or by people assigned to complete them  
   
 Use queues to categorize and prioritize your activities and cases. You can categorize based on:  
   
@@ -140,7 +140,7 @@ In Customer Service, you can create two types of queues:
   
    - In the **Mailbox** field, a mailbox record for the queue is automatically created and selected as soon as you save the queue record. To update the mailbox details, select the mailbox name. More information: [Create forward mailboxes or edit mailboxes](/power-platform/admin/create-forward-mailboxes-edit-mailboxes)  
   
-   - In the **Record creation and update rules** section, add a **Record Creation and Update Rule** record. By using these rules, you can automatically create or update system or custom records from incoming activities, such as emails, social activities, or custom activities. More information: [Set up rules to automatically create or update records](../customer-service/set-up-rules-to-automatically-create-or-update-records.md)  
+   - In the **Record creation and update rules** section, add a **Record Creation and Update Rule** record. By using these rules, you can automatically create or update system or custom records with incoming activities such as emails, social activities, or other custom activities. More information: [Set up rules to automatically create or update records](../customer-service/set-up-rules-to-automatically-create-or-update-records.md)  
   
    > [!IMPORTANT]
    >  This is a central place to manage rules across all supported activities including out-of-the-box and custom activities associated with the queue.  
@@ -151,17 +151,13 @@ In Customer Service, you can create two types of queues:
 
 ## View queue items for a queue
 
-In the **Queue Items** section, all activities that are either routed to this queue automatically by the routing rules or the activities that are manually assigned to this queue are listed.  
+The **Queue Items** section lists all activities that are either routed automatically by the routing rules or manually assigned to the queue.
   
 ## Route items to basic queues  
 
-For all cases that are automatically created from incoming email and social posts, create routing rules to route the cases to queues. Then, assign the items in the queue to appropriate agents. 
+For all cases that are automatically created from incoming email and social posts, create routing rules to route the cases to queues. Then, assign the items in the queue to appropriate agents. More information: [Create rules to automatically route cases](create-rules-automatically-route-cases.md)
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create rules to automatically route cases](create-rules-automatically-route-cases.md)
-
-Alternatively, you can manually add cases and activities to queues.  
-
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a case to a queue](customer-service-hub-user-guide-case-queues-and-routing.md#add-a-case-to-a-queue)
+Alternatively, you can manually add cases and activities to queues. More information: [Add a case to a queue](customer-service-hub-user-guide-case-queues-and-routing.md#add-a-case-to-a-queue)
   
 ## Assign items to agents
 
@@ -173,7 +169,7 @@ To assign items in the queue to agents, select **Assign** after selecting one or
 >
 > - When two agents simultaneously add cases to the queue, the system creates two queue items instead of a single queue item.
 > - If you've created workflows or used custom API to assign cases to agents and if the same case is assigned to two agents at the same time, then the system creates two queue items instead of a single queue item.
-> - When an agent picks a case created by another agent and releases it from a queue, then the case gets assigned to the queue owner and not to the agent that created the case.
+> - When an agent picks a case created by another agent and releases it from the queue, the case gets assigned to the queue owner and not to the agent that created the case.
 
 ### See also  
 
