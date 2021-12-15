@@ -76,9 +76,8 @@ You can create a sample assignment rule with the following conditions.
 | ------------------ | --------------------------- | ------------- | ----------------------------------------- |
 | User skills        | Exact match                 |               | All skills                                |
 | Presence status    | Equals                      | Dynamic match | Conversation.Workstream.Allowed Presences |
-| Capacity           | Is greater than or equal to | Dynamic match | Conversation.Workstream.Capacity          |
-| Available capacity | Is greater than             | Static value  | 50                                        |
-|                    |                             |               |
+| Available capacity | Is greater than             | Dynamic match | Conversation.Workstream.Capacity                                   |
+|                    |                             |               |              |
 
 ![Sample assignment rule.](media/ur-sample-assign-rule.png "Sample assignment rule")
 
