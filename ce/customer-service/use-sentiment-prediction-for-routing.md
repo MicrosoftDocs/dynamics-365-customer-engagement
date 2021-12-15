@@ -1,7 +1,7 @@
 ---
 title: "Use sentiment prediction in unified routing | MicrosoftDocs"
 description: "Learn how to enable and use sentiment prediction in unified routing in Customer Service."
-ms.date: 10/07/2021
+ms.date: 12/15/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim

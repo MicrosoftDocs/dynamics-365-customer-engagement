@@ -1,7 +1,7 @@
 ---
 title: "International availability of Omnichannel for Customer Service | MicrosoftDocs"
 description: "This topic contains information on the availability of Omnichannel for Customer Service in different geographical locations and languages."
-ms.date: 06/15/2021
+ms.date: 12/15/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -23,7 +23,7 @@ Your Microsoft 365 tenant must be co-located in one of the following geographic 
 
 ### April 2021 update
 
-Omnichannel for Customer Service April 2021 update is available in the following regions:
+Omnichannel for Customer Service April 2021 update is available in the following regions.
 
 |   Geographic location                     |   Date             |
 |-------------------------------------------|--------------------|
@@ -45,11 +45,11 @@ Omnichannel for Customer Service April 2021 update is available in the following
 
 > [!Note]
 >
-> If your tenant is located in Brazil or Norway, Omnichannel for Customer Service is currently not available.
+> Omnichannel for Customer Service is currently not available in a tenant that's located in Brazil, Norway, or Singapore.
 
 ### October 2020 update
 
-Omnichannel for Customer Service October 2020 update is available in the following regions:
+Omnichannel for Customer Service October 2020 update is available in the following regions.
 
 |   Geographic location                     |            Date      |
 |-------------------------------------------|----------------------|
@@ -68,7 +68,7 @@ Omnichannel for Customer Service October 2020 update is available in the followi
 
 ### April 2020 update
 
-Omnichannel for Customer Service April 2020 update is available in the following regions:
+Omnichannel for Customer Service April 2020 update is available in the following regions.
 
 |   Geographic location                     |            Date      |
 |-------------------------------------------|----------------------|
@@ -88,7 +88,7 @@ Omnichannel for Customer Service April 2020 update is available in the following
 
 The product user interface (UI) is available in the following languages.
 
-|                         |                   |                     |
+| Language                | Language          | Language            |
 |-------------------------|-------------------|---------------------|
 | Arabic                  | Greek             | Romanian            |
 | Basque                  | German            | Russian             |
@@ -98,7 +98,7 @@ The product user interface (UI) is available in the following languages.
 | Chinese (Hong Kong SAR) | Indonesian        | Slovenian           |
 | Chinese (Simplified)    | Italian           | Spanish             |
 | Croatian                | Japanese          | Swedish             |
-| Czech                   |Kazakh Thai        | Thai                |
+| Czech                   | Kazakh Thai       | Thai                |
 | Danish                  | Korean            | Turkish             |
 | Dutch                   | Latvian           | Ukrainian           |
 | English                 | Lithuanian        | Vietnamese          |
