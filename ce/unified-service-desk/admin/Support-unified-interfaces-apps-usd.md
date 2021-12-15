@@ -18,11 +18,11 @@ manager: shujoshi
 
 With the release of latest release, we have introduced a new user experience - Unified Interface - which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation.
 
-Unified Interface brings all the rich experiences to any client that you are using. Whether you are on a browser, tablet, or phone, you will be able to consume similar experiences. More Information: [About Unified Interface](/dynamics365/customer-engagement/admin/about-unified-interface)
+Unified Interface brings all the rich experiences to any client that you are using. Whether you are on a browser, tablet, or phone, you will be able to consume similar experiences. More information: [About Unified Interface](/dynamics365/customer-engagement/admin/about-unified-interface)
 
 ## What is Unified Interface supportability in Unified Service Desk?
 
-[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] supports the apps built using the Unified Interface framework. That is, you can host a Unified Interface Page to load a URL or page from the model-driven app, which is built based on the Unified Interface framework.
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] supports the apps built using the Unified Interface framework. That is, you can host a Unified Interface page to load a URL or page from the model-driven app, which is built based on the Unified Interface framework.
 
 The experience of the supportability is that the Unified Interface Page hosted control type exposes number of predefined UII actions and events that are unique to handling of model-driven app windows built using Unified Interface framework including list manipulation actions, and a find action for displaying a quick search or advanced search page.
 
@@ -35,12 +35,13 @@ The experience of the supportability is that the Unified Interface Page hosted c
 To deploy the Unified Interface sample application package, refer [Deploy a sample Unified Service Desk package using Package Deployer](../admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)
 
 ::: moniker range="dynamics-usd-3"
+
 ## Configure application selection window in Unified Service Desk
 
 > [!IMPORTANT]
 > This section is only applicable to Unified Service Desk 3.3.
 
-A application selection is introduced to ensure that you can select Web or Unified Interface app as per your business requirement.
+An application selection is introduced to ensure that you can select Web or Unified Interface app as per your business requirement.
 
 The application selection window appears when you login to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. To enable the application selection window, you must update a **SelectAppModule** key under the **\<appSettings>** section of the **UnifiedServiceDesk.exe.config** (application configuration) file and set it to **true**.
 
@@ -61,13 +62,14 @@ The application selection window appears when you login to [!INCLUDE[pn_unified_
 > [!IMPORTANT]
 > This section is only applicable to Unified Service Desk 3.3.
 
-After you update the **SelectAppModule** key in the **UnifiedServiceDesk.exe.config** file, you need to login to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to select an web or Unified Interface app.
+After you update the **SelectAppModule** key in the **UnifiedServiceDesk.exe.config** file, you need to login to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to select a web or Unified Interface app.
 
 ![Select App Module.](../media/select-app-module-new.PNG "Select App Module")
 
 ::: moniker-end
 
-## See also
+### See also
+
  [Unified Interface Page (Hosted Control)](../../unified-service-desk/unified-interface-page-hosted-control.md)
  [Unified Service Desk and Unified Interface Configuration Walkthroughs](../../unified-service-desk/unified-service-desk-unified-interface-configuration-walkthroughs.md)
  [Walkthrough 1: Build a simple agent application for Unified Interface Apps](../../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md) 
@@ -76,7 +78,7 @@ After you update the **SelectAppModule** key in the **UnifiedServiceDesk.exe.con
  [Walkthrough 4: Display a record in a session in your agent application](../../unified-service-desk/walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md)   
  [Walkthrough 5: Display enhanced session information by displaying session name and overview data](../../unified-service-desk/walkthrough5-unified-interface-display-enhanced-session-information-displaying-session-name-overview-data.md)   
  [Walkthrough 6: Configure the Debugger hosted control in your agent application](../../unified-service-desk/walkthrough6-unified-interface-configure-debugger-hosted-control-agent-application.md)
- [Walkthrough 7: Configure agent scripting in your agent application](../../unified-service-desk/walkthrough7-unified-interface-configure-agent-scripting-agent-application.md)
+ [Walkthrough 7: Configure agent scripting in your agent application](../../unified-service-desk/walkthrough7-unified-interface-configure-agent-scripting-agent-application.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
