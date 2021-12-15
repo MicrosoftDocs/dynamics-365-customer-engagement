@@ -86,7 +86,7 @@
   items: 
   - name: Overview
     href: admin/administer-manage-unified-service-desk.md
-  - name: Support for Unified Interface Apps
+  - name: Support for Unified Interface apps
     href: admin/Support-unified-interfaces-apps-usd.md
   - name: Unified Service Desk Administrator app
     href: admin/unified-service-desk-administrator-app.md

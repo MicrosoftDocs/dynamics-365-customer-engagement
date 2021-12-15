@@ -8,7 +8,7 @@ ms.author: v-jmh
 manager: shujoshi
 ---
 
-# Support for Unified Interface Apps in Unified Service Desk
+# Support for Unified Interface apps in Unified Service Desk
 
 [!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
