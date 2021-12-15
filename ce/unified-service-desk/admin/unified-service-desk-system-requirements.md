@@ -47,6 +47,7 @@ To install the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-serv
 | Screen resolution |  1920 x 1080 (Pixels)  |  |
 | Magnifier |  100 %  |
 |||
+
 ## Support for Unified Service Desk
 
 The latest three versions of Unified Service Desk are supported. On the release of the latest version of Unified Service Desk, the oldest supported version will be deprecated.
@@ -79,7 +80,7 @@ The supported versions of Unified Service Desk are 4.2, 4.1, and 4.0.
 
 You have deployed Unified Service Desk in a sandbox environment and when you reset the sandbox environment, you will have only the Unified Interface experience. To enable the web client experience, see [How to enable/disable Unified Interface Only mode](/dynamics365/customer-engagement/admin/enable-unified-interface-only#how-to-enable-unified-interface-only-mode).
 
-After you enable the web client experience, go to the Window Navigation Rules and update the navigation URLs for the all the rules.
+After you enable the web client experience, go to the Window Navigation Rules and update the navigation URLs for all the rules.
 
 <a name="appvirtual"></a>
 
@@ -91,8 +92,8 @@ After you enable the web client experience, go to the Window Navigation Rules an
 
 ### See also
 
- [Install Unified Service Desk Client](../../unified-service-desk/admin/install-upgrade-unified-service-desk-client.md)  
+ [Install Unified Service Desk client](../../unified-service-des/admin/install-upgrade-unified-service-desk-client.md)  
  [Deploy Unified Service Desk packages to Dataverse using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)  
- [Install and Deploy Unified Service Desk](../../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)  
+ [Install and deploy Unified Service Desk](../../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
