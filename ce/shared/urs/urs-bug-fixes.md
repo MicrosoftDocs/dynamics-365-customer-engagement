@@ -1,10 +1,14 @@
 ## 3.12.67.1
 
+(Includes Resource Scheduling controls version 1.2.8.213282)
+
+- Fixed bug: changing status of booking should not update **Start Time** and **Estimated Arrival Time**.
+- Enabled fulfillment preference support for single requirement when user uses **Find Availability** to schedule requirement.
+
 (Includes Resource Scheduling controls version 1.2.7.213012)
 
 - Fixed bug: Travel time is included in booking duration when book facility requirement.
 - Performance improvement on new schedule board when user uses **Find Availability** to book requirement. 
-
 
 
 ## 3.12.66.3

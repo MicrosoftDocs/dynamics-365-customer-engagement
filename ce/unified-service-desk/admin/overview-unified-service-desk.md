@@ -2,7 +2,7 @@
 title: "Overview of Unified Service Desk  | MicrosoftDocs"
 description: "Use this topic to know about Unified Service Desk and User Interface Integration. Also, included is a video that gives you an overview of Unified Service Desk."
 ms.date: 08/23/2017
-ms.topic: hero-article
+ms.topic: overview
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi

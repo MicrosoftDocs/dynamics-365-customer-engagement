@@ -7,7 +7,7 @@ ms.reviewer: pehecke
 ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 ms.assetid: 58197c02-43e2-4856-bf81-a37b32953b90
 caps.latest.revision: 9
 author: KumarVivek
@@ -15,7 +15,6 @@ ms.author: kvivek
 manager: amyla
 search.audienceType: 
   - developer
-
 ---
 # Sample: Add products to a bundle
 
