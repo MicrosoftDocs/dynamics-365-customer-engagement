@@ -1,7 +1,7 @@
 ---
 title: Create and manage basic queues | MicrosoftDocs
-description: Learn how to set up queues to manage activities and cases in Dynamics 365 Customer Service.
-ms.date: 09/30/2021
+description: "Learn how to set up queues to manage activities and cases in Dynamics 365 Customer Service."
+ms.date: 12/16/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -60,7 +60,7 @@ In Customer Service, in case settings, you can create two types of queues:
 
 ## Create a basic queue in Customer Service Hub
 
-To create or edit a queue:
+**To create or edit a queue**
   
 1. Make sure that you have the Sales or Marketing Manager, Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions.  
   
@@ -73,8 +73,6 @@ To create or edit a queue:
 2. In the Customer Service Hub sitemap, go to **Service Management** and select **Case Settings** > **Queues**.
   
 3. To create a new queue, select **New**.  
-  
-    -OR-  
   
     To edit a queue, select the queue in the list of queues, and then on the command bar, select **Edit**.  
   
@@ -105,9 +103,6 @@ To create or edit a queue:
 
       - The **QUEUE ITEMS** and **RECORD CREATION AND UPDATE RULES** sections appear.
 
-
-
-
 ## Create a queue in Customer Service app
 
 Follow the steps given below to create or edit a queue: 
@@ -126,8 +121,6 @@ Follow the steps given below to create or edit a queue:
   
 4. To create a new queue, select **New**.  
   
-    -OR-  
-  
     To edit a queue, in the list of queues, select the queue, and then on the command bar, select **Edit**.  
   
 5. Type or change information in the text boxes.  
@@ -139,19 +132,19 @@ Follow the steps given below to create or edit a queue:
    - In the **Name** field, type the name of the queue.  
   
    - In the **Type** field, choose if the queue is a private or public queue. You can use a private queue to allow only a specific set of people to work on activities in this queue.  
-       
+
      > [!NOTE]
      >  The email address you enter in the **Incoming Email** field receives all messages sent to the queue.  
   
    - In the **Email Settings** section, in the **Convert to email activities** dropdown list, select a value depending on the type of messages that you want to track as activities.  
   
-   - In the **Mailbox** field, a mailbox record for the queue is automatically created and selected as soon as you save the queue record. To update the mailbox details, select the mailbox name. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create forward mailboxes or edit mailboxes](/power-platform/admin/create-forward-mailboxes-edit-mailboxes)  
+   - In the **Mailbox** field, a mailbox record for the queue is automatically created and selected as soon as you save the queue record. To update the mailbox details, select the mailbox name. More information: [Create forward mailboxes or edit mailboxes](/power-platform/admin/create-forward-mailboxes-edit-mailboxes)  
   
-   - In the **Record creation and update rules** section, add a **Record Creation and Update Rule** record. By using these rules, you can automatically create or update system or custom records from incoming activities, such as emails, social activities, or custom activities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up rules to automatically create or update records](../customer-service/set-up-rules-to-automatically-create-or-update-records.md)  
+   - In the **Record creation and update rules** section, add a **Record Creation and Update Rule** record. By using these rules, you can automatically create or update system or custom records from incoming activities, such as emails, social activities, or custom activities. More information: [Set up rules to automatically create or update records](../customer-service/set-up-rules-to-automatically-create-or-update-records.md)  
   
    > [!IMPORTANT]
    >  This is a central place to manage rules across all supported activities including out-of-the-box and custom activities associated with the queue.  
-   >  The **Record creation and update rules** section displays rules using the **Email Activity Conversation Setting**  or **Social Activity Conversation Setting** and that have the same queue ID as the queue.   
+   >  The **Record creation and update rules** section displays rules using the **Email Activity Conversation Setting**  or **Social Activity Conversation Setting** and that have the same queue ID as the queue.
    >  Multiple rules with the same source type and same queue can exist. Therefore, when you select **Email Activity Conversion Settings** or **Social Activity Conversion Settings**, the rule with the latest **Last Modified On** date is applied.  
   
 6. [!INCLUDE[proc_click_or_tap_save](../includes/proc-click-or-tap-save.md)]
@@ -177,13 +170,15 @@ Queues share cases or activities as a group until these are taken out of the que
 To assign items in the queue to agents, select **Assign** after selecting one or multiple items in the queues grid. In the **Assign Queue** box, you can choose to assign to other users or teams.
 
 > [!Note]
-> - When two agents simultaneously add cases to the queue, then the system creates two queue items instead of a single queue item.
-> - If you've created workflows or used custom API to assign cases to agents and if a same case is assigned to two agents at the same time, then the system creates two queue items instead of a single queue item.
-> - From a queue, when an agent picks a case created by another agent and releases it, then the case gets assigned to the queue owner and not the agent who created the case.
+>
+> - When two agents simultaneously add cases to the queue, the system creates two queue items instead of a single queue item.
+> - If you've created workflows or used custom API to assign cases to agents and if the same case is assigned to two agents at the same time, then the system creates two queue items instead of a single queue item.
+> - When an agent picks a case created by another agent and releases it from a queue, then the case gets assigned to the queue owner and not to the agent that created the case.
 
 ### See also  
+
 [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)  
-[Work with Queues in the Customer Service Hub](customer-service-hub-user-guide-basics.md#work-with-queues)
+[Work with queues in Customer Service Hub](customer-service-hub-user-guide-basics.md#work-with-queues)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
