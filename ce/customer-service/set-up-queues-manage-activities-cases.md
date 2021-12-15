@@ -32,26 +32,26 @@ Queues can be useful in:
   
 - Having a centralized list of pending work that needs attention  
   
-- Sorting tasks by type or by the people assigned to complete them  
+- Sorting tasks by type or by people assigned to complete them  
   
 Use queues to categorize and prioritize your activities and cases. You can categorize based on:  
   
-- Different products or services  
+- products or services  
   
-- Different subscription levels (regular, premium customers)  
+- subscription levels (regular, premium customers)  
   
-- Various activity categories  
+- activity categories  
   
-- Different geography  
+- geography  
 
 By default, a queue is created for each user and team in Dynamics 365 Customer Service. You can use this default queue to track all your work items, or you can set up queues to reflect your organization's structure, business processes, or both.
 
 For example, you can create separate queues for first tier and second tier product support teams that reflect their differing levels of expertise, or Gold and Silver queues to reflect differing priorities based on service contracts that customers have with your organization.  
   
-In Customer Service, in case settings, you can create two types of queues:
+In Customer Service, you can create two types of queues:
 
 - **Private queues:** Create with limited set of members to help those members easily view the queue items in that queue. Private queues streamline queue items for the members of that queue only and help to remove clutter from other user’s views.
-- **Public queues:** Create to let everyone in the organization view the queue and all the items it contains.
+- **Public queues:** Create to let everyone in the organization view the queue and all of its items.
 
 > [!IMPORTANT]
 >
@@ -105,7 +105,7 @@ In Customer Service, in case settings, you can create two types of queues:
 
 ## Create a queue in Customer Service app
 
-Follow the steps given below to create or edit a queue: 
+**To create or edit a queue**
   
 1. Make sure that you have the Sales or Marketing Manager, Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions.  
   
