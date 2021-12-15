@@ -23,15 +23,15 @@ This topic provides information about the system requirements for installing the
 
 The following table lists the minimum and recommended hardware requirements to run the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client.  
 
-| Component    | Minimum      | Requirement  |
+| Component    | Minimum requirements     | Recommended requirements  |
 |-----------|-----------------|--------------|
 | Processor | x86- or x64-bit 1.9 gigahertz (GHz) dual core with SSE2 instruction set or faster processor |   x86- or x64-bit 1.9 gigahertz (GHz) dual core with SSE2 instruction set or faster processor     |
 |  Memory   |   ^4 GB RAM or more            |  8 GB RAM more    |
 | Hard disk |  \*1.5 GB of available hard disk space             | 12 GB of available hard disk space: 2 GB of available hard disk space for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application files and 10 GB additional available hard disk space for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client log files<br /><br /> 7200 RPM or more |
 
- ^The minimum memory is for running basic scenarios. The actual memory required for Unified Service Desk increases with the complex configurations and custom development (UI experience).
- 
- *Requires disabling [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client logging. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure client diagnostic logging in Unified Service Desk](../../unified-service-desk/admin/configure-client-diagnostic-logging-unified-service-desk.md)  
+^The minimum memory is for running basic scenarios. The actual memory required for Unified Service Desk increases with complex configurations and custom development (UI experience).
+
+*Requires disabling [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client logging. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure client diagnostic logging in Unified Service Desk](../../unified-service-desk/admin/configure-client-diagnostic-logging-unified-service-desk.md)  
 
 <a name="client"></a>
 
@@ -42,8 +42,8 @@ To install the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-serv
 | Requirement | Recommended version | Supported version|
 |---------------------------|---------------------------|-------------------------------------|
 | Operating system | [!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)]  |<ul><li> Windows 11 </li> <li> [!INCLUDE[pn_windows_10](../../includes/pn-windows-10.md)] </li><li> [!INCLUDE[pn_windows_8_1](../../includes/pn-windows-8-1.md)]</li><li> [!INCLUDE[pn_windows8](../../includes/pn-windows8.md)]</li><li> [!INCLUDE[pn_Windows_7](../../includes/pn-windows-7.md)] Service Pack 1 (SP1)</li></ul>  |
-| Microsoft .NET Framework |[!INCLUDE[pn_NET_Framework_462_long](../../includes/pn-net-framework-462-long.md)] (installed during [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Setup if missing) |  |
-| Windows Identity Foundation  | Windows Identity Foundation 3.5 (installed during Unified Service Desk Setup if missing) |  |
+| Microsoft .NET Framework |[!INCLUDE[pn_NET_Framework_462_long](../../includes/pn-net-framework-462-long.md)] (installed during [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] setup if missing) |  |
+| Windows Identity Foundation  | Windows Identity Foundation 3.5 (installed during Unified Service Desk setup if missing) |  |
 | Screen resolution |  1920 x 1080 (Pixels)  |  |
 | Magnifier |  100 %  |
 |||
@@ -67,7 +67,7 @@ The supported versions of Unified Service Desk are 4.2, 4.1, and 4.0.
 
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] offers you different browser controls for hosting your webpages.
 
-| Supported Hosting Types | Recommended Hosting Types |
+| Supported hosting types | Recommended hosting types |
 |-----------------------------|--------------------------------------|
 | <ul><li> Edge WebView2 Process </li><li> Chrome Process </li><li> IE Process (discontinued) </li><li>Edge Process (discontinued) </li> <li> Internal WPF (deprecated) </li></ul> | Edge WebView2 Process  |
 ||
@@ -88,7 +88,7 @@ After you enable the web client experience, go to the Window Navigation Rules an
 
  You can install and run the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client as a published app on Citrix XenApp 7.6. This allows agents to access the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client from a central location.  
 
- You can also configure a Windows application as a virtual application on Citrix XenApp 7.6 that run as a hosted application in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Integrate with Citrix applications](../integrate-citrix-applications.md)  
+ You can also configure a Windows application as a virtual application on Citrix XenApp 7.6 that runs as a hosted application in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Integrate with Citrix applications](../integrate-citrix-applications.md)  
 
 ### See also
 
