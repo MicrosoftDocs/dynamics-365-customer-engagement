@@ -23,7 +23,7 @@ Your Microsoft 365 tenant must be co-located in one of the following geographic 
 
 ### April 2021 update
 
-Omnichannel for Customer Service April 2021 update is available in the following regions:
+Omnichannel for Customer Service April 2021 update is available in the following regions.
 
 |   Geographic location                     |   Date             |
 |-------------------------------------------|--------------------|
@@ -49,7 +49,7 @@ Omnichannel for Customer Service April 2021 update is available in the following
 
 ### October 2020 update
 
-Omnichannel for Customer Service October 2020 update is available in the following regions:
+Omnichannel for Customer Service October 2020 update is available in the following regions.
 
 |   Geographic location                     |            Date      |
 |-------------------------------------------|----------------------|
@@ -68,7 +68,7 @@ Omnichannel for Customer Service October 2020 update is available in the followi
 
 ### April 2020 update
 
-Omnichannel for Customer Service April 2020 update is available in the following regions:
+Omnichannel for Customer Service April 2020 update is available in the following regions.
 
 |   Geographic location                     |            Date      |
 |-------------------------------------------|----------------------|
@@ -88,7 +88,7 @@ Omnichannel for Customer Service April 2020 update is available in the following
 
 The product user interface (UI) is available in the following languages.
 
-|                         |                   |                     |
+| Language                | Language          | Language            |
 |-------------------------|-------------------|---------------------|
 | Arabic                  | Greek             | Romanian            |
 | Basque                  | German            | Russian             |
@@ -98,7 +98,7 @@ The product user interface (UI) is available in the following languages.
 | Chinese (Hong Kong SAR) | Indonesian        | Slovenian           |
 | Chinese (Simplified)    | Italian           | Spanish             |
 | Croatian                | Japanese          | Swedish             |
-| Czech                   |Kazakh Thai        | Thai                |
+| Czech                   | Kazakh Thai       | Thai                |
 | Danish                  | Korean            | Turkish             |
 | Dutch                   | Latvian           | Ukrainian           |
 | English                 | Lithuanian        | Vietnamese          |
