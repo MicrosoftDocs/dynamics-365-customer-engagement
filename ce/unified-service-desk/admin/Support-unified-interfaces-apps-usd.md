@@ -32,7 +32,7 @@ The experience of the supportability is that the Unified Interface Page hosted c
   
  The Unified Interface sample application is bundled as a package that you need to deploy on the Microsoft Dataverse instance before you can start working. The deployment of the Unified Interface sample application package is performed using [!INCLUDE[pn_package_deployer_long](../../includes/pn-package-deployer-long.md)]. After the deployment, the entities and custom code specific to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] become available in the instance.
 
-To deploy the Unified Interface sample application package, refer [Deploy a sample Unified Service Desk package using Package Deployer](../admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)
+To deploy the Unified Interface sample application package, see [Deploy a sample Unified Service Desk package using Package Deployer](../admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md).
 
 ::: moniker range="dynamics-usd-3"
 
@@ -41,7 +41,7 @@ To deploy the Unified Interface sample application package, refer [Deploy a samp
 > [!IMPORTANT]
 > This section is only applicable to Unified Service Desk 3.3.
 
-An application selection is introduced to ensure that you can select Web or Unified Interface app as per your business requirement.
+An application selection is introduced to ensure that you can select web or Unified Interface app as per your business requirement.
 
 The application selection window appears when you login to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. To enable the application selection window, you must update a **SelectAppModule** key under the **\<appSettings>** section of the **UnifiedServiceDesk.exe.config** (application configuration) file and set it to **true**.
 
@@ -71,8 +71,8 @@ After you update the **SelectAppModule** key in the **UnifiedServiceDesk.exe.con
 ### See also
 
  [Unified Interface Page (Hosted Control)](../../unified-service-desk/unified-interface-page-hosted-control.md)
- [Unified Service Desk and Unified Interface Configuration Walkthroughs](../../unified-service-desk/unified-service-desk-unified-interface-configuration-walkthroughs.md)
- [Walkthrough 1: Build a simple agent application for Unified Interface Apps](../../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md) 
+ [Unified Service Desk and Unified Interface Configuration walkthroughs](../../unified-service-desk/unified-service-desk-unified-interface-configuration-walkthroughs.md)
+ [Walkthrough 1: Build a simple agent application for Unified Interface apps](../../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md)  
  [Walkthrough 2: Display an external webpage in your agent application](../../unified-service-desk/walkthrough2-unified-interface-display-an-external-webpage-in-your-agent-application.md)   
  [Walkthrough 3: Display records in your agent application](../../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md)   
  [Walkthrough 4: Display a record in a session in your agent application](../../unified-service-desk/walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md)   
