@@ -57,7 +57,7 @@ The application selection window appears when you login to [!INCLUDE[pn_unified_
   ![Update SelectAppModule key in the UnifiedServiceDesk.exe.config file.](../media/selectappmodule-app-config-file.PNG "Update SelectAppModule key in the UnifiedServiceDesk.exe.config file")
 4. Save the file.
 
-### Login to Unified Service Desk client application
+### Sign in to Unified Service Desk client application
 
 > [!IMPORTANT]
 > This section is only applicable to Unified Service Desk 3.3.
