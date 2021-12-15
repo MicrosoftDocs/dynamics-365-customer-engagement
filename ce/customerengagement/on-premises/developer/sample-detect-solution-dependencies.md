@@ -5,7 +5,7 @@ keywords:
 ms.date: 04/02/2020
 ms.prod: d365ce-op
 ms.custom: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: d347f96b-a137-42e1-a9bf-fac6d6133330
@@ -22,7 +22,6 @@ helpviewer_keywords:
 topic-status: Drafting
 search.audienceType: 
   - developer
-
 ---
 
 # Sample: Detect solution dependencies

@@ -1,5 +1,5 @@
 ---
-title: "Custom actions for forecasting - Sales Enterprise | MicrosoftDocs"
+title: "Custom actions for forecasting | MicrosoftDocs"
 description: "As a developer, use this reference documentation for defining custom actions for manual forecasting."
 ms.date: 06/22/2020
 ms.topic: reference
@@ -19,9 +19,9 @@ As a developer, use this reference documentation to define custom actions for ma
 
 ## License and role requirements
 
-|  | |
+| &nbsp; | &nbsp; |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System customizer <br>  See [Predefined security roles for Sales](../../../sales/security-roles-for-sales.md)|
 |||
 

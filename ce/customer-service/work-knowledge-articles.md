@@ -7,6 +7,13 @@ ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - developer
+searchScope: 
+ - D365-App-customerservicehub 
+ - D365-Entity-knowledgearticle
+ - D365-UI-*
+ - Dynamics 365 
+ - Customer Service 
+ - Customer Engagement
 ---
 
 # Work with knowledge articles

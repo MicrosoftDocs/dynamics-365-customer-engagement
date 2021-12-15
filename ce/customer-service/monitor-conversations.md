@@ -1,7 +1,7 @@
 ---
 title: "Monitor, assign, and transfer conversations as a supervisor | MicrosoftDocs"
 description: "Learn how to monitor, assign, and transfer conversations being handled by your agents using the Omnichannel Ongoing Conversations dashboard."
-ms.date: 05/15/2021
+ms.date: 11/18/2021
 ms.topic: article
 author: "mh-jaya"
 ms.author: v-jmh
@@ -23,7 +23,7 @@ When you monitor conversations, you can understand how they're being handled by 
 
 ## Monitor and join conversations
 
-As a supervisor, you can monitor or assign conversations that are configured for all channels except records. You can monitor all conversations that are in the **Active** or **Wrap-up** states. By joining the conversation, you provide necessary details to both the agent and customer based on the selected message mode (public or internal) in the communication panel.  
+As a supervisor, you can monitor or assign conversations that are configured for all channels except records. You can monitor all conversations that are in the **Active** or **Wrap-up** states. By joining the conversation, you provide necessary details to both the agent and customer in the communication panel.  
 
 > [!NOTE]
 > You can't monitor conversations that are assigned to you.
@@ -38,7 +38,7 @@ As a supervisor, you can monitor or assign conversations that are configured for
 
 4. Optionally, to join a conversation, select **Join chat** in the communication panel.
 
-    When you join the conversation, both the agent and the customer receive notifications that you've joined. Depending on your requirements, you can consult with the agent and customer via public or internal modes. For more information, go to [View communication panel](oc-conversation-control.md).
+    When you join the conversation, both the agent and the customer receive notifications that you've joined. Depending on your requirements, you can consult with the agent and customer. For more information, go to [View communication panel](oc-conversation-control.md).
 
 ## Assign conversations
 

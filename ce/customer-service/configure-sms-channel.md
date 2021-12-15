@@ -78,11 +78,11 @@ To sign up for TeleSign
    5. Verify the settings on the **Summary** page, and select **Finish**. The SMS for TeleSign channel is configured.
 5. Configure routing rules. More information: [Configure work classification](configure-work-classification.md).
 6. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
-7. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot).
+7. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream).
 8. In **Advanced settings**, configure the following options based on your business needs:
    - [Sessions](../app-profile-manager/session-templates.md)
    - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
-   - [Context variables](create-workstreams.md#configure-context-variables)
+   - [Context variables](context-variables-for-bot.md#add-context-variables))
    - [Smart assist bots](smart-assist-bot.md)
    - [Quick replies](create-quick-replies.md)
 
@@ -160,7 +160,9 @@ When you validate the API key while setting up the SMS channel, a call is made t
 ### See also
 
 [Overview of channels](channels.md) <br />
-[Understand and create work streams](create-workstreams.md)  <br />
+[Understand and create workstreams](create-workstreams.md)  <br />
+[Configure SMS channel using Azure Communication Services](configure-sms-channel-acs.md)	
+[Configure SMS channel using Twilio](configure-sms-channel-twilio.md)	
 [Create and manage routing rules](routing-rules.md) <br />
 [Configure automated messages](configure-automated-message.md) <br />
 [Delete a configured channel](delete-channel.md)<br />

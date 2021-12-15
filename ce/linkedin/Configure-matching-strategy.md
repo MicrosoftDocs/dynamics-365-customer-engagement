@@ -1,6 +1,6 @@
 ---
-title: "Matching strategy for LinkedIn Lead Gen Forms | Microsoft Docs"
-description: "Learn how to specify which leads in Dynamics 365 apps get updated by configuring the matching strategy for newly synced LinkedIn leads."
+title: "Create matching strategy to update existing LinkedIn leads"
+description: "Learn how to update existing LinkedIn leads with new form submission answers by creating, activating, editing, or deleting a lead matching strategy."
 keywords: lead matching, field mapping, linkedin leads, lead record
 ms.date: 04/02/2018
 ms.topic: article
@@ -21,7 +21,7 @@ ms.assetid: 7ceb9c1e-c044-4d4c-8710-9fe0b79aeb68
 topic-status: Drafting
 ---
 
-# Configure a matching strategy to update leads from [!include[LinkedIn](../includes/pn-linkedin.md)] ads
+# Create a matching strategy to update existing LinkedIn leads with new form submissions
 
 When a new lead is synced from [!include[LinkedIn](../includes/pn-linkedin.md)], the system can either update an existing lead record if the person is already known, or create a new lead if it’s the first contact with this person. New [!include[LinkedIn](../includes/pn-linkedin.md)] leads appear as **[!include[LinkedIn](../includes/pn-linkedin.md)] Form Submissions** in Dynamics 365 apps. The information in [!include[LinkedIn](../includes/pn-linkedin.md)] form submissions consists of the answers given by [!include[LinkedIn](../includes/pn-linkedin.md)] members when they submitted the forms. To match existing leads in Dynamics 365 Sales with new [!include[LinkedIn](../includes/pn-linkedin.md)] form submission answers, users who have at least the [!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen Forms Connector Administrator security role can define a [!include[LinkedIn](../includes/pn-linkedin.md)] lead matching strategy in the Dynamics 365 Sales settings. A matching strategy maps the fields of a [!include[LinkedIn](../includes/pn-linkedin.md)] form submission to the record fields for a lead. By default, a matching strategy based on a lead’s email address is activated.
 

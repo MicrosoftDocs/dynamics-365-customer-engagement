@@ -133,36 +133,44 @@ To add the code snippet, you need to follow the steps below:
       // sample validation - check if 
       document.getElementById('txt-company-name-message').style.visibility = 'hidden';
       var companyName = document.getElementById('txt-company-name').value;
-      if (companyName !== 'Fabricam' && companyName != 'Contoso') {
-      document.getElementById('txt-company-name-message').style.visibility = 'visible';
-      event.preventDefault();
+      if (companyName !== 'Fabricam' && companyName != 'Contoso') 
+      {
+        document.getElementById('txt-company-name-message').style.visibility = 'visible';
+        event.preventDefault();
+      }
     });
    ```
 
 2. Filling the incoming query string parameters to hidden fields.
 
     ```JS
-     MsCrmMkt.MsCrmFormLoader.on('afterFormLoad', function(event) {
-     var self = window.location.toString();
-     var queryString = self.split("?");
-     var hiddenFields = document.querySelectorAll("input[type=hidden]");
-     if (queryString.length > 1) {
-       var pairs = queryString[1].split("&");
-       for (var pairIndex in pairs) {
-       var pair = pairs[pairIndex].split("=");
-       if (pair.length !== 2) {
+    MsCrmMkt.MsCrmFormLoader.on('afterFormLoad', function(event) {
+      var self = window.location.toString();
+      var queryString = self.split("?");
+      var hiddenFields = document.querySelectorAll("input[type=hidden]");
+      if (queryString.length > 1) 
+      {
+        var pairs = queryString[1].split("&");
+        for (var pairIndex in pairs) 
+        {
+          var pair = pairs[pairIndex].split("=");
+          if (pair.length !== 2) 
+          {
             continue;
+          }
+          var key = pair[0];
+          var value = pair[1];
+          if (key && value) 
+          {
+            for (var i = 0; i < hiddenFields.length; i++) 
+            {
+              if (hiddenFields[i].id === key) 
+              {
+                hiddenFields[i].value = value;
+              }
+            }
+          }
         }
-       var key = pair[0];
-       var value = pair[1];
-       if (key && value) {
-         for (var i = 0; i < hiddenFields.length; i++) {
-         if (hiddenFields[i].id === key) {
-         hiddenFields[i].value = value;
-           }
-         }
-       }
-     }
       }
     });
     ```
@@ -171,14 +179,19 @@ To add the code snippet, you need to follow the steps below:
 
     ```JS
     <script>
-    function translatePicklists(lcid) {
+    function translatePicklists(lcid) 
+    {
         var picklists = document.querySelectorAll("select");
-        for(var i = 0; i < picklists.length; i++) {
+        for(var i = 0; i < picklists.length; i++) 
+        {
             var picklist = picklists[i];
             var relatedDatalist = document.getElementById("localize-" + picklist.name + "-" + lcid.toString());
-            if (relatedDatalist) {
-                for(var j = 0; j < picklist.options.length; j++) {
-                    if (j >= relatedDatalist.options.length) {
+            if (relatedDatalist) 
+            {
+                for(var j = 0; j < picklist.options.length; j++) 
+                {
+                    if (j >= relatedDatalist.options.length) 
+                    {
                         break;
                     }
                     picklist.options[j].text = relatedDatalist.options[j].text;
@@ -194,18 +207,18 @@ To add the code snippet, you need to follow the steps below:
 
     ```HTML
     <div data-editorblocktype="Field-dropdown">
-	  <div class="marketing-field">
-	      <div class="lp-form-field" data-required-field="false">
-	        <label for="f7ae1a98-0d83-4592-afe0-272c85ce607d" class="lp-ellipsis" title="">Marital status</label>
-	        <select id="f7ae1a98-0d83-4592-afe0-272c85ce607d" name="f7ae1a98-0d83-4592-afe0-272c85ce607d" class="lp-form-fieldInput" title="" style="width: 100%; box-sizing: border-box;">
-                <option value=""></option>
-                <option value="1">Single</option>
-                <option value="2">Married</option>
-                <option value="3">Divorced</option>
-                <option value="4">Widowed</option>
-            </select>
+        <div class="marketing-field">
+            <div class="lp-form-field" data-required-field="false">
+                <label for="f7ae1a98-0d83-4592-afe0-272c85ce607d" class="lp-ellipsis" title="">Marital status</label>
+                <select id="f7ae1a98-0d83-4592-afe0-272c85ce607d" name="f7ae1a98-0d83-4592-afe0-272c85ce607d" class="lp-form-fieldInput" title="" style="width: 100%; box-sizing: border-box;">
+                  <option value=""></option>
+                  <option value="1">Single</option>
+                  <option value="2">Married</option>
+                  <option value="3">Divorced</option>
+                  <option value="4">Widowed</option>
+                </select>
+            </div>
         </div>
-	    </div>
     </div>
     <!-- format is localize-fieldid-lcid -->
     <datalist id="localize-f7ae1a98-0d83-4592-afe0-272c85ce607d-1029">

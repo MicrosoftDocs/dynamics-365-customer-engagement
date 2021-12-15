@@ -14,7 +14,7 @@ As an administrator, you can create a saved query to view latest sequences that 
 
 ## License and role requirements
 
-|  | |
+| &nbsp; | &nbsp; |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
@@ -25,7 +25,7 @@ As an administrator, you can create a saved query to view latest sequences that 
 1.	Make sure that you have the System Administrator security role or an equivalent role. Check your security role:
     1.	Follow the steps in [View your user profile](/powerapps/user/view-your-user-profile?context=/dynamics365/context/sales-context).   
     2.	Don't have the correct permissions? Contact your system administrator.   
-2.	2.	Create a new view for each entity that you want to include in the sequence view. The entity must be enabled for Sales Accelerator in the **Setup** page. For more information, see step 7 in [Set up the sales accelerator](enable-configure-sales-accelerator.md#set-up-the-sales-accelerator).  
+2.	(Optional) Create a new view for each entity that you want to include in the sequence view. The entity must be enabled for Sales Accelerator in the **Setup** page. For more information, see step 7 in [Set up the sales accelerator](enable-configure-sales-accelerator.md#set-up-the-sales-accelerator).  
 3.	In the web app, go to **Settings** (![Settings.](media/gear-icon.png "Settings")) > **Advanced Settings**, go to **Settings** > **Customizations** > **Solutions**.   
 4.	Create a solution with name as **SequenceViewSolution**. For more information, see [Create a solution](/powerapps/maker/canvas-apps/add-app-solution?context=/dynamics365/context/sales-context)  .   
 5.	Choose **Entities** > **Add Existing** > **Entity**, find and add the entities for which you created views (as described in step 2).   

@@ -16,7 +16,8 @@ topic-status: Drafting
 Enabling and configuring the [!INCLUDE[pn-dynamics-sales-insights](../includes/pn-dynamics-sales-insights.md)] features helps sellers to build stronger relationships with their customers, save time, and stay on top of their deals with real-time AI-based insights. In Sales Insights, some features are available for free along with Dynamics 365 Sales and some require an additional Sales Insights license to use in your organization. More information: [Overview](overview.md) 
 
 ## License and role requirements
-|  | |
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise for standard features and Dynamics 365 Sales Premium for premium features <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
@@ -26,10 +27,8 @@ Enabling and configuring the [!INCLUDE[pn-dynamics-sales-insights](../includes/p
 
 As an administrator, you can enable and configure the Sales Insights features as required in your organization:
 
--	[Enable and configure standard Sales Insights features](#enable-and-configure-standard-sales-insights-features)
-
--	[Install and configure premium Sales Insights features](#install-and-configure-premium-sales-insights-features)
-
+-	[Enable and configure standard Sales Insights features](#enable-and-configure-standard-sales-insights-features)   
+-	[Install and configure premium Sales Insights features](#install-and-configure-premium-sales-insights-features)   
 -	[Administer conversation intelligence](#administer-conversation-intelligence)
 
 ## Enable and configure standard Sales Insights features
@@ -42,10 +41,8 @@ The standard Sales Insights features&mdash;assistant (standard), Auto capture (s
 > [!div class="mx-imgBorder"]
 > ![Steps to configure Sales Insights standard features](media/si-free-features-config-steps.png "Steps to configure Sales Insights standard features")
 
-1.	[Review requirements and prerequisites](#requirements-and-prerequisites).
-
-2.	[Enable standard Sales Insights features](#enable-standard-sales-insights-features). 
-
+1.	[Review requirements and prerequisites](#requirements-and-prerequisites).  
+2.	[Enable standard Sales Insights features](#enable-standard-sales-insights-features).    
 3.	[Configure standard features as required](#configure-standard-sales-insights-features).
 
 ### Requirements and prerequisites
@@ -96,11 +93,10 @@ Before you can configure these features, you must accept the privacy notice. To 
 
 After you enable the standard Sales Insights features, you can configure the features for your organization.
 
--	To configure the standard assistant, see [Configure and manage insight cards for the standard assistant](configure-assistant.md#configure-and-manage-insight-cards-for-the-standard-assistant).
-
--	To configure standard auto capture, see [Configure and enable auto capture](configure-auto-capture.md).
-
--	To configure standard email engagement, see [Configure and enable email engagement](configure-email-engagement.md).
+-	To configure the standard assistant, see [Configure and manage insight cards for the standard assistant](configure-assistant.md#configure-and-manage-insight-cards-for-the-standard-assistant).   
+-	To configure standard auto capture, see [Configure and enable auto capture](configure-auto-capture.md).    
+-	To configure standard email engagement, see [Configure and enable email engagement](configure-email-engagement.md).   
+-	To Configure sales accelerator for assignment rules, see [Configure assignment rules in Sales Enterprise](sales-accelerator-assignment-rules.md)
 
 ## Install and configure premium Sales Insights features
 
@@ -111,12 +107,9 @@ The following diagram illustrates the steps to configure these features:
 > [!div class="mx-imgBorder"]
 > ![Steps to configure Sales Insights premium features](media/si-advanced-features-config-steps.png "Steps to configure Sales Insights premium features")
 
-1.	[Review GDPR](#review-gdpr).
-
-2.	[Review the prerequisites](#review-the-prerequisites).
-
-3.	[Install premium Sales Insights](#install-premium-sales-insights).
-
+1.	[Review GDPR](#review-gdpr).   
+2.	[Review the prerequisites](#review-the-prerequisites).   
+3.	[Install premium Sales Insights](#install-premium-sales-insights).   
 4.	[Configure premium Sales Insights features](#configure-premium-sales-insights-features).
 
 
@@ -129,13 +122,11 @@ To learn about [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sal
 Review the following requirements before you install and configure the premium Sales Insights features:
 
 - You must be a Dynamics 365 Sales administrator.  
-
 - You must have a Sales Premium or a Sales Insights license.    
     >[!NOTE]
     >You can also start a free trial to use the sales premium features. More information: [Sign up for a free Dynamics 365 Sales trial](/dynamics365/sales-enterprise/sign-up-for-sales-trial)
 
-- Assign licenses to each individual user to utilize the features. This is executed within the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home?#/homepage). More information: [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide&preserve-view=true).    
-
+- Assign licenses to each individual user to utilize the features. This is executed within the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home?#/homepage). More information: [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide&preserve-view=true).     
 - Exchange email server is configured, and a mailbox is enabled using **Email Configurations** in **Settings**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Email tab](/dynamics365/customer-engagement/admin/system-settings-dialog-box-email-tab).
 
 ### Install premium Sales Insights
@@ -163,46 +154,32 @@ The premium Sales Insights features aren't available by default. You must instal
 
 After installing the premium Sales Insights features, you can configure the premium features as required:
 
--	To configure the premium assistant, see [Configure and manage insight cards for the premium assistant](configure-assistant.md#configure-and-manage-insight-cards-for-the-premium-assistant).
-
--	To configure premium auto capture, see [Configure auto capture](configure-auto-capture.md).
-
--	To configure notes analysis, see [Configure notes analysis](configure-notes-analysis.md).
-
--	To configure relationship analytics, see [Configure Relationship analytics](configure-relationship-analytics.md).
-
--	To configure talking points, see [Configure talking points](configure-talking-points.md).
-
--	To configure who knows whom, see [Configure who knows whom](configure-who-knows-whom.md).
-
--	To configure predictive lead scoring, see [Configure predictive lead scoring](configure-predictive-lead-scoring.md).
-
--	To configure predictive opportunity scoring, see [Configure predictive opportunity scoring](configure-predictive-opportunity-scoring.md).
-
--   To configure premium forecasting, see [About premium forecasting](configure-premium-forecasting.md).
-
+-	To configure the premium assistant, see [Configure and manage insight cards for the premium assistant](configure-assistant.md#configure-and-manage-insight-cards-for-the-premium-assistant).   
+-	To configure premium auto capture, see [Configure auto capture](configure-auto-capture.md).   
+-	To configure notes analysis, see [Configure notes analysis](configure-notes-analysis.md).   
+-	To configure relationship analytics, see [Configure Relationship analytics](configure-relationship-analytics.md).   
+-	To configure talking points, see [Configure talking points](configure-talking-points.md).   
+-	To configure who knows whom, see [Configure who knows whom](configure-who-knows-whom.md).   
+-	To configure predictive lead scoring, see [Configure predictive lead scoring](configure-predictive-lead-scoring.md).   
+-	To configure predictive opportunity scoring, see [Configure predictive opportunity scoring](configure-predictive-opportunity-scoring.md).    
+-   To configure premium forecasting, see [About premium forecasting](configure-premium-forecasting.md).    
 -   To configure sales accelerator and sequence (preview), see [Enable and configure sales accelerator](enable-configure-sales-accelerator.md).
 
 ## Administer conversation intelligence
 
 Conversation intelligence assists the sales managers and sellers in your organization to get an overview of the conversation with customers. Conversation Intelligence helps:
 
--	Sales managers drill down to get call statistics for individual sellers, such as customer sentiment, keywords used, and competitors mentioned in the conversation. Sales managers can use this data to give smarter coaching to sellers and improve the business.
-
--	Sellers analyze their conversation data and identify improvements in the conversation style to enhance sales and generate revenue.
+-	Sales managers drill down to get call statistics for individual sellers, such as customer sentiment, keywords used, and competitors mentioned in the conversation. Sales managers can use this data to give smarter coaching to sellers and improve the business.  
+-	Sellers analyze their conversation data and identify improvements in the conversation style to enhance sales and generate revenue. 
 
 As an administrator, when you sign in to the application for the first time, you can set up the application. After you complete the setup, sales managers and sellers in your organization can sign in and use the application seamlessly. More information: [First-run setup experience of Sales Insight application](fre-setup-sales-insight-app.md)
 
 You can also update each setting later as required. The following configurations are available:
 
--	Connect your Sales environment to gather data and display on KPIs. More information: [Connect to Dynamics 365 Sales environment](connect-dynamics365-sales-environment.md)
-
--	Connect to call data repository. More information: [Configure conversation intelligence to connect call data](configure-conversation-intelligence-call-data.md)
-
--	Define keywords and competitors that will be tracked in conversations. More information: [Configure keywords and competitors to track](configure-keywords-competitors.md)
-
--	Define how long you want to retain the data in the application, and remove seller-specific data. More information: [Data retention and deletion through Privacy](data-retention-deletion-policy.md)
-
+-	Connect your Sales environment to gather data and display on KPIs. More information: [Connect to Dynamics 365 Sales environment](connect-dynamics365-sales-environment.md)    
+-	Connect to call data repository. More information: [Configure conversation intelligence to connect call data](configure-conversation-intelligence-call-data.md)   
+-	Define keywords and competitors that will be tracked in conversations. More information: [Configure keywords and competitors to track](configure-keywords-competitors.md)   
+-	Define how long you want to retain the data in the application, and remove seller-specific data. More information: [Data retention and deletion through Privacy](data-retention-deletion-policy.md)   
 -	Enable preview features. More information: [Enable preview features](enable-preview-features-sales-insights-app.md)
 
 ## For effective use of Sales Insights
@@ -211,10 +188,8 @@ You can also update each setting later as required. The following configurations
 
 - Ensure that the **Change Tracking** option for the following entities are enabled: Account, Contact, Lead, Opportunity, System User, Team, Queue, Organization, Email, Phone Call, Task, Appointment, Activity Party, Connection, Business Unit, Metric, Opportunity Product, Product, Opportunity Sales Process, Process Stage, Connection Role, Workflow, Goal, Role, System User Roles, Note, Auto Capture Settings, Auto Capture Rule, and Lead To Opportunity Sales Process.
 
-    1. Go to **Settings** > **Customizations** > **Customize the System**. 
-
-    2. On the **Default Solution** page, expand **Entity**, and then select an entity.
-
+    1. Go to **Settings** > **Customizations** > **Customize the System**.    
+    2. On the **Default Solution** page, expand **Entity**, and then select an entity.   
     3. On the **General** tab, under **Data Services**, verify that the **Change Tracking** option is enabled.
 
 - Ensure that you do not delete the **Sales Insights MDL Config** solution from the solutions. If this solution is deleted, the Sales Insights features give inaccurate results and might be disabled. 

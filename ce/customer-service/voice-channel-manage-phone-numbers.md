@@ -148,6 +148,7 @@ If you no longer need a phone number, you can release it from your organization'
 [Connect to Azure Communication Services](voice-channel-acs-resource.md)  
 [Set up outbound calling](voice-channel-outbound-calling.md)  
 [Set up inbound calling](voice-channel-route-queues.md)  
+[Block spam numbers](voice-channel-block-number.md)  
 [Bring your own phone numbers](voice-channel-bring-your-own-number.md)  
 [Integrate third-party IVR systems with voice channel](voice-channel-contextual-transfer-external-ivr.md)  
 

@@ -1,7 +1,7 @@
 ---
 title: "Real-time marketing asset library (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to use the real-time marketing asset library in Dynamics 365 Marketing."
-ms.date: 11/08/2021
+ms.date: 12/09/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -20,10 +20,13 @@ search.app:
 
 # Real-time marketing asset library
 
-The centralized real-time marketing asset library lets you upload files that are automatically tagged by the app using AI. When authoring your email content, you can use the asset library's AI-driven suggestions to find the images that best complement your email content.
+The centralized real-time marketing asset library lets you upload images, videos, and documents. Images are automatically tagged using AI. When authoring email content, you can use the asset library's AI-driven suggestions to find the images that best complement your email content.
 
 > [!NOTE]
-> The asset library supports JPEG, GIF, and PNG images.
+> The asset library supports images (such as JPEG, GIF, and PNG files), videos (such as mp4 files), and documents (such as Word documents, PowerPoint files, and Adobe PDFs).
+
+> [!TIP]
+> Use of the asset library is provided with your Dynamics 365 Marketing license at no extra charge. Asset library files do not count against your Dataverse storage.
 
 ## Asset library features
 
@@ -32,7 +35,7 @@ The centralized real-time marketing asset library lets you upload files that are
 
 ### Quickly upload assets
 
-You can upload a single media file, bulk upload a few media files, or even upload an entire folder.
+You can upload a single file, bulk upload a few files, or even upload an entire folder.
 
 ### Export assets from outbound marketing to the asset library
 
@@ -44,7 +47,7 @@ You can transfer assets from outbound marketing to the real-time marketing asset
     > ![Select asset.](media/real-time-marketing-asset-library-select.png "Select asset")
 1. To copy the assets to the real-time marketing asset library, select the **Copy to Real-time marketing** button in the top ribbon.
     > [!div class="mx-imgBorder"]
-    > ![Copy selected assets.](media/real-time-marketing-asset-library-copy-image.png "Copy selected assets")
+    > ![Copy selected assets.](media/real-time-marketing-asset-library-copy-image2.png "Copy selected assets")
 1. A modal window will appear and ask if you'd like to copy the selected assets to real-time marketing. Select **Copy files**. A status bar at the top of the window will show the copying progress.
 1. Alternatively, if you'd like to copy *all* assets from outbound marketing to the asset library, do not select any individual assets. The button in the top ribbon will say **Copy all files to Real-time marketing**. To copy all assets, select the button and choose **Copy files** on the modal window.
 
@@ -55,9 +58,11 @@ Use tags to organize your assets as needed. All images uploaded into the library
 > [!div class="mx-imgBorder"]
 > ![Thumbnail asset library screenshot.](media/real-time-marketing-asset-library-full.png "Thumbnail asset library screenshot")
 
+For videos and documents, you will have to add tags manually.
+
 ### View assets in different ways
 
-Depending on your preferences, you can view your assets as a single photo, a thumbnail view, or a list view.
+Depending on your preferences, you can view your assets as a single file, a thumbnail view, or a list view.
 
 ### Update your assets when needed
 
