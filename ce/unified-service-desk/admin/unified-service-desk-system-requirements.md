@@ -60,7 +60,8 @@ The supported versions of Unified Service Desk are 4.2, 4.1, and 4.0.
 
 <a name="packdeploy"></a>
 
-## Software requirements for the Package Deployer tool  
+## Software requirements for the Package Deployer tool
+
  The [!INCLUDE[pn_package_deployer_tool](../../includes/pn-package-deployer-tool.md)] is used for deploying [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sample applications. For more information on the requirements, see [Deploy packages using Dynamics CRM Package Deployer and Windows PowerShell](/dynamics365/customer-engagement/admin/deploy-packages-using-package-deployer-windows-powershell).
 
 ## Hosting types
