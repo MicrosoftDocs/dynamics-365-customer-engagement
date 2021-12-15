@@ -99,7 +99,7 @@ Create route-to-queue rules to route the work items based on the sentiment predi
 
 2. Create a rule to define conditions. The **Sentiment Category** output attribute contains the sentiment prediction for the work item, and should be used in the rule builder to define the rule.
    
-   > [NOTE]
+   > [!NOTE]
    > For a record, make sure that you use the **Add row** option independent of the **Routed record** group, if you've defined a condition on the routed record.
    > :::image type="content" source="media/choose-add-row-sentiment-category.png" alt-text="Choose add row option for sentiment category.":::
 
