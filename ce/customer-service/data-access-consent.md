@@ -20,21 +20,21 @@ This topic provides information about the consent that is required to access the
 
 Omnichannel for Customer Service app requires the following permissions to read and write data on behalf of users:
 
-- **Allow the application to read flows**: The app can view the flows if they have been used in macros.
+- **Allow the application to read flows**: The app can access the flows if they have been used in macros.
 
-- **Allow the application to manage flows**: The app can manage flows flows if they have been used in macros and to which you have access.
+- **Allow the application to manage flows**: The app can manage flows if they have been used in macros and to which you have access.
 
 - **Access Microsoft Flow as signed in user**: Allows you to access Microsoft Flow as a signed-in user if flows have been used in macros.
 
 - **Create content**: The app can automatically create content and datasets for you.
 
-- **Read and write all dashboards**: The app can view and edit all your dashboards and any dashboards that you have access to.
+- **Read and write all dashboards**: The app can access and edit all your dashboards and any dashboards that you have access to.
 
-- **Read and write all reports**: The app can view and edit all your reports and any reports that you have access to.
+- **Read and write all reports**: The app can access and edit all your reports and any reports that you have access to.
 
-- **Read and write user settings and state**: The app can view and edit your user settings and the user-specific state associated with content you have access to.
+- **Read and write user settings and state**: The app can access and edit your user settings and the user-specific state associated with content you have access to.
 
-- **Read and write all workspaces**: The app can view and edit all workspaces that you have access to.
+- **Read and write all workspaces**: The app can access and edit all workspaces that you have access to.
 
 - **Sign you in and read your profile**: Allows you to sign in to the app with your work account and let the app read your profile. It also allows the app to read basic company information.
 
