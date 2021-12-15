@@ -1,7 +1,7 @@
 ---
 title: "International availability of Omnichannel for Customer Service | MicrosoftDocs"
 description: "This topic contains information on the availability of Omnichannel for Customer Service in different geographical locations and languages."
-ms.date: 06/15/2021
+ms.date: 12/15/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -45,7 +45,7 @@ Omnichannel for Customer Service April 2021 update is available in the following
 
 > [!Note]
 >
-> If your tenant is located in Brazil or Norway, Omnichannel for Customer Service is currently not available.
+> Omnichannel for Customer Service is currently not available in a tenant that's located in Brazil, Norway, or Singapore.
 
 ### October 2020 update
 

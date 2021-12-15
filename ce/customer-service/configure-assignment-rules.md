@@ -1,7 +1,7 @@
 ---
 title: "Configure assignment methods for queues | MicrosoftDocs"
 description: "Contains steps on how to configure the different assignment methods for queues in Customer Service and Omnichannel for Customer Service"
-ms.date: 10/07/2021
+ms.date: 12/15/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
