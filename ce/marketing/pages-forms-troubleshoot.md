@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot pages and forms (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Troubleshooting and frequently asked questions for pages and forms in Dynamics 365 Marketing."
-ms.date: 09/30/2021
+ms.date: 12/15/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -48,7 +48,7 @@ https://5fe34c1f8d1dd6db05ad78a249c09712.svc.dynamics.com/t/c/IvgkEwv4GIs1ScAxmz
   - If the allowed domains and hosting domain do not match, there is a domain allow listing issue.
 - Next, submit the form and check that the inputs are valid.
 - Check the DevTools console.
-  - If you see: `Skipping sending form to CRM`, "preventDefault" is set on the form submit event and data-ignore-prevent-default="true" is not present in configuration element. More details here: [Form capturing behavior customization](/dynamics365/marketing/developer/marketing-form-client-side-extensibility.md#form-capturing-behavior-customization).
+  - If you see: `Skipping sending form to CRM`, "preventDefault" is set on the form submit event and data-ignore-prevent-default="true" is not present in configuration element. More details here: [Form capturing behavior customization](./developer/marketing-form-client-side-extensibility.md#form-capturing-behavior-customization).
     - If all submissions need to be captured, set `data-ignore-prevent-default="true"`.
     - If there is some custom validation logic and not all submissions should be sent to Dynamics 365, a JavaScript API should be used. Add `data-no-submit="true"` and add call to `sendFormCaptureToCrm` to the event handler.
 
