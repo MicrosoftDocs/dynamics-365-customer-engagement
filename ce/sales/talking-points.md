@@ -21,7 +21,7 @@ Use talking points to automatically identify conversation starters of your custo
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-## What is talking points?
+## What are talking points?
 
 As a sales representative, you interact with many customers and it can be difficult to remember details about each, such as:
 -  Latest entertainment event they attended.
