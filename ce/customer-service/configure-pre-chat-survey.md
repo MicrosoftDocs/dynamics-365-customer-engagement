@@ -4,6 +4,7 @@ description: "Perform the following steps to configure a pre-conversation survey
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
+ms.date: 12/14/2021
 ---
 
 # Configure a pre-conversation survey
@@ -14,9 +15,10 @@ manager: shujoshi
 
 For the chat channel, you can configure a survey that users can respond to when they access the widget to start a conversation.
 
-1. In Omnichannel admin center, select the workstream for the chat channel in which you want to configure the pre-conversation survey, and then select **Edit**.
-2. On the **Behaviors** tab, set the toggle for **Pre-conversation survey** to **On**.
-3. In the **Survey questions** area, select **Add**, and then enter the following details on the **Survey question** page:
+1. In Omnichannel admin center, select the workstream for the chat channel in which you want to configure the pre-conversation survey.
+2. On the page that appears, select the channel instance from the dropdown list, and then select **Edit**.
+3. On the **Chat channel settings** dialog, go tn the **Behaviors** tab, and set the toggle for **Pre-conversation survey** to **On**.
+4. In the **Survey questions** area, select **Add**, and then enter the following details on the **Survey question** page:
    - **Survey question name**: Specify a name that will be used internally.
    - **Question text**: Enter the question text. This will be displayed as a question to the user at runtime.
    - **Answer type**: Select one of the following values from the list:
@@ -29,13 +31,13 @@ For the chat channel, you can configure a survey that users can respond to when 
     > [!NOTE]
     > Validations in pre-conversation surveys are supported only for mandatory fields.
 
-4. Select **Confirm**. The survey question with its details is listed in the **Survey questions** area.
-5. Repeat steps 3 and 4 to create additional questions. You can add up to five questions only.
+5. Select **Confirm**. The survey question with its details is listed in the **Survey questions** area.
+6. Repeat steps 3 and 4 to create additional questions. You can add up to five questions only.
 
     > [!div class=mx-imgBorder]
     > ![Pre-conversation survey questions.](media/ocac-pre-conversation-questions.png "Pre-conversation survey questions")
 
-6. Optionally, you can change the order in which the questions are listed.
+7. Optionally, you can change the order in which the questions are listed.
 
 
 ## Configure a pre-conversation survey in Omnichannel Administration
