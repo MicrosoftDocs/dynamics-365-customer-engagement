@@ -16,7 +16,7 @@ manager: shujoshi
 
 ## What is Unified Interface?
 
-With the release of latest release, we have introduced a new user experience - Unified Interface - which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation.
+With the release of latest release, we have introduced a new user experience&mdash;Unified Interface&mdash;which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation.
 
 Unified Interface brings all the rich experiences to any client that you are using. Whether you are on a browser, tablet, or phone, you will be able to consume similar experiences. More information: [About Unified Interface](/dynamics365/customer-engagement/admin/about-unified-interface)
 
