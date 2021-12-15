@@ -93,7 +93,7 @@ After you enable the web client experience, go to the Window Navigation Rules an
 
 ### See also
 
- [Install Unified Service Desk client](../../unified-service-des/admin/install-upgrade-unified-service-desk-client.md)  
+ [Install Unified Service Desk client](../../unified-service-desk/admin/install-upgrade-unified-service-desk-client.md)  
  [Deploy Unified Service Desk packages to Dataverse using Package Deployer](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)  
  [Install and deploy Unified Service Desk](../../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)  
 
