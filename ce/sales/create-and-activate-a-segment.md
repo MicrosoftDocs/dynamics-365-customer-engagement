@@ -39,7 +39,7 @@ As a sequence manager, you create segments&mdash;groups of records&mdash;by defi
     |-----------|-------------|
     | Segment name | The name of the segment. |
     | Description | A description of the segment (optional). |
-    | Record type | The type of record to be grouped in this segment. By default, the lead and opportunity record type is available. For other record types, you must configure the record types in the **Choose content and layout** section while configuring the sales accelerator. More information: [Choose content and layout](enable-configure-sales-accelerator.md#choose-content-and-layout). |
+    | Record type | The type of record to be grouped in this segment. By default, the lead and opportunity record type are available. For other record types, you must configure the record types in the **Choose content and layout** section while configuring the sales accelerator. More information: [Choose content and layout](enable-configure-sales-accelerator.md#choose-content-and-layout). |
 	
 6.	Select **Next**.   
 
@@ -89,12 +89,13 @@ As a sequence manager, you create segments&mdash;groups of records&mdash;by defi
 
     A list of records that satisfy the conditions you've defined for the segment in the application are displayed.    
     >[!NOTE]
-    >The records displayed here are only simulated results; they might not be records that the segment can actually be applied to.   
+    >- The records displayed here are only simulated results; they might not be records that the segment can actually be applied to.   
+    >- To activate the segment, select **Activate**.
 
     >[!div class="mx-imgBorder"]
-    >![Simulated results page for the created condition](media/sa-segment-condition-builder-simulated-results.png "Simulated results page for the created condition")       
- 
-9.	Select **Save** select **Activate**.   
+    >![Simulated results page for the created condition](media/sa-segment-condition-builder-simulated-results.png "Simulated results page for the created condition")
+
+9.	Select **Save** and then select **Activate**.   
 
     >[!div class="mx-imgBorder"]
     >![Select save and then activate the segment](media/sa-segment-condition-builder-select-save-activate.png "Select save and then activate the segment")           
