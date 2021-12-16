@@ -11,14 +11,14 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-The purpose of this document is to provide information about availability of Live Chat and Digital Messaging channels with respect to the following:
+The purpose of this document is to provide information about availability of live chat and digital messaging channels with respect to the following:
 
 - [Geographic location availability](#geographic-location-availability)
 
 - [Language availability](#language-availability)
 
 > [!NOTE]
-> For more information about availability of the voice channel, see [Regional availability and supported languages for the voice channel](voice-channel-region-availability.md#regional-availability-and-supported-languages-for-the-voice-channel).
+> For more information about availability of the voice channel, see [Regional availability and supported languages for the voice channel](voice-channel-region-availability.md).
 
 
 ## Geographic location availability

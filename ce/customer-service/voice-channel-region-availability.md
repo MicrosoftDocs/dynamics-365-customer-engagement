@@ -13,14 +13,14 @@ ms.service: dynamics-365-customerservice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-The purpose of this document is to provide information about availability of the Voice channel with respect to the following:
+The purpose of this document is to provide information about availability of the voice channel with respect to the following:
 
 - [Supported regions](#supported-regions)
 
 - [Supported languages and locale codes](#supported-languages-and-locale-codes)
 
 > [!NOTE]
-> For more information about international availability of Omnichannel for Customer Service, see [International availability of Omnichannel for Customer Service](international-availability.md#international-availability-of-omnichannel-for-customer-service).
+> For more information about live chat and digital messaging channels, see [International availability of Omnichannel for Customer Service](international-availability.md#international-availability-of-omnichannel-for-customer-service).
 
 ## Supported regions
 
