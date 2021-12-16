@@ -85,7 +85,7 @@ There are four steps for creating an Excel template.
 Open the newly created template in your local instance of Excel to customize the data.
 
 > [!IMPORTANT]
-> Do not use Excel online for customizing the template as changes to the template cannot be saved. Any updates to the template made in Excel online will be lost after you close the tab.
+> Do not use Excel online for customizing the template data as the changes cannot be saved. Any updates to the template data made in Excel online will be lost after you close the tab.
 
 ![Excel template with data.](media/excel-template-with-data.png "Excel template with data")
 
