@@ -4,7 +4,7 @@ description: "Learn about the region availability and supported languages for th
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 11/30/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -12,6 +12,15 @@ ms.service: dynamics-365-customerservice
 # Regional availability and supported languages for the voice channel
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+The purpose of this document is to provide information about availability of Live Chat and Digital Messaging channels with respect to the following:
+
+- [Supported regions](#supported-regions)
+
+- [Supported languages and locale codes](#supported-languages-and-locale-codes)
+
+> [!NOTE]
+> For more information about international availability of Omnichannel for Customer Service, see [International availability of Omnichannel for Customer Service](international-availability.md#international-availability-of-omnichannel-for-customer-service).
 
 ## Supported regions
 
