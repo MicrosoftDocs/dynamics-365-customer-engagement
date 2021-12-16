@@ -1,7 +1,7 @@
 ---
 title: "Configure assignment methods for queues | MicrosoftDocs"
 description: "Contains steps on how to configure the different assignment methods for queues in Customer Service and Omnichannel for Customer Service"
-ms.date: 10/07/2021
+ms.date: 12/15/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -76,9 +76,8 @@ You can create a sample assignment rule with the following conditions.
 | ------------------ | --------------------------- | ------------- | ----------------------------------------- |
 | User skills        | Exact match                 |               | All skills                                |
 | Presence status    | Equals                      | Dynamic match | Conversation.Workstream.Allowed Presences |
-| Capacity           | Is greater than or equal to | Dynamic match | Conversation.Workstream.Capacity          |
-| Available capacity | Is greater than             | Static value  | 50                                        |
-|                    |                             |               |
+| Available capacity | Is greater than             | Dynamic match | Conversation.Workstream.Capacity                                   |
+|                    |                             |               |              |
 
 ![Sample assignment rule.](media/ur-sample-assign-rule.png "Sample assignment rule")
 

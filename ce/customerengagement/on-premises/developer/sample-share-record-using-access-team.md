@@ -5,7 +5,7 @@ keywords:
 ms.date: 01/08/2020
 ms.prod: d365ce-op
 ms.custom: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 9b841889-c396-4f6e-8588-e702e94c7073
@@ -19,7 +19,6 @@ caps.latest.revision: 9
 topic-status: Drafting
 search.audienceType: 
   - developer
-
 ---
 
 # Sample: Share a record using an access team

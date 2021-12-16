@@ -1,5 +1,5 @@
 ---
-title: "Enable or disable PDF generation from records-Sales Enterprise | MicrosoftDocs"
+title: "Enable or disable PDF generation from records | MicrosoftDocs"
 description: "Enable your users to create and share professional-looking PDF files for entity records with customers."
 ms.date: 11/16/2021
 ms.topic: article

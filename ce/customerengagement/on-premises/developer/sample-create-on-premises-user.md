@@ -7,7 +7,7 @@ ms.reviewer: pehecke
 ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: d3ea30ab-e55e-4aa7-8406-3441c71903a2
@@ -17,7 +17,6 @@ ms.author: kvivek
 manager: KumarVivek
 search.audienceType: 
   - developer
-
 ---
 # Sample: Create an on-premises user
 

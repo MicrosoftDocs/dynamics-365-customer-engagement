@@ -17,13 +17,7 @@ searchScope:
 ---
 # Create or edit quotes
 
-One way that can help you increase your sales is to add all products that your customer might need to your quote. [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] may also offer product bundles or product families to make it easier for you to choose products for upsell and cross-sell.  
-  
- Most sales begin with a price quote, which eventually becomes an order.  
-  
- You'll probably edit a quote multiple times as a sale progresses. Initially, you create a draft, and then you need to activate it when it's ready to go to a customer.  
-  
- When the customer accepts the quote, you create an order. Otherwise, you close the quote as revised, canceled, or lost.  
+Quotes include the pricing details of products your potential customer is interested in. A quote becomes an order once the customer accepts it.
 
 ## License and role requirements
 
@@ -32,7 +26,15 @@ One way that can help you increase your sales is to add all products that your c
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
+
+## How to create or edit quotes 
+
+One way that can help you increase your sales is to add all products that your customer might need to your quote. [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] may also offer product bundles or product families to make it easier for you to choose products for upsell and cross-sell.  
   
+Most sales begin with a price quote, which eventually becomes an order.       
+You'll probably edit a quote multiple times as a sale progresses. Initially, you create a draft, and then you need to activate it when it's ready to go to a customer.      
+When the customer accepts the quote, you create an order. Otherwise, you close the quote as revised, canceled, or lost.  
+
 ## Create a quote from an opportunity
 
 1. Select the site map  ![Site Map icon.](media/site-map-icon.png "site map icon"), and then select **Opportunities**.

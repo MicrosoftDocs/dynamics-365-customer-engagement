@@ -8,7 +8,9 @@ ms.author: udag
 manager: shujoshi
 ---
 
-# Understand lead distributions in assignment rules
+# Preview: Understand lead distributions in assignment rules
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 In Dynamics 365 Sales, assignment rules define how leads are automatically distributed to sellers. When a lead is created and meets certain conditions that are defined in assignment rules, the lead is automatically assigned to the right seller. The automated process saves time and optimizes the workload across your sales team.
 
@@ -19,7 +21,7 @@ The following factors help to determine how leads are assigned:
 ## License and role requirements
 |  | |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator or Sequence Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
