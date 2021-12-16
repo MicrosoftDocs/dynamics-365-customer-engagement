@@ -13,7 +13,7 @@ ms.service: dynamics-365-customerservice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-The purpose of this document is to provide information about availability of Live Chat and Digital Messaging channels with respect to the following:
+The purpose of this document is to provide information about availability of the Voice channel with respect to the following:
 
 - [Supported regions](#supported-regions)
 
