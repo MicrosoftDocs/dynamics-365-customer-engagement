@@ -1,7 +1,7 @@
 ---
 title: "Configure predictive opportunity scoring"
 description: "Configure predictive opportunity scoring to help sellers prioritize opportunities based on scores and achieve higher opportunity qualification rates."
-ms.date: 10/26/2021
+ms.date: 12/16/2021
 ms.custom: 
 ms.topic: article
 ms.assetid: a1d02708-0e40-4967-ae1a-40e9c67186c8
