@@ -11,16 +11,28 @@ caps.latest.revision: 25
 ---
 # Use email engagement to view message interactions 
 
+Use email engagement to view the message interactions such as, alerts, clicked a link, opened an attachment, or sent a reply on your emails.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |  
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
+## How does email engagement helps you sell better  
+
 Email engagement helps you to:  
   
 -   See when recipients opened your message, clicked a link, opened an attachment, or sent a reply.      
--   Receive an alert right away, the first time a recipient opens your message.      
--   Schedule the most effective delivery time, and receive advice for the best time based on the recipient's time zone.      
+-   Receive an immediate alert when the recipient opens your message for the first time.      
+-   Schedule the most effective delivery time, and receive advice for the best time based on the recipient's time zone.    
 -   Choose the most effective message template, with recommendations based on your organization's previous email interaction history.      
 -   Set an alert to remind you when it's time to follow up on an email message.       
 -   Review the full interaction history of a single message, or review  KPIs.  
   
-The administrator must enable email engagement before you can try it out. Email engagement uses the relationship assistant to deliver alerts and other messages, so we strongly recommend that you also enable the assistant if you are using email engagement. For complete details about prerequisites, how to enable the feature, see [Enable email engagement](configure-email-engagement.md).
+Your administrator must enable email engagement before you can try it out. Email engagement uses the relationship assistant to deliver alerts and other messages, so we strongly recommend that you also enable the assistant if you are using email engagement. For complete details about prerequisites, how to enable the feature, see [Enable email engagement](configure-email-engagement.md).
 
 ## Considerations for email tracking
 
