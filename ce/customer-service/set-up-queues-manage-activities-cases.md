@@ -71,33 +71,24 @@ In Customer Service, you can create two types of queues:
   
 2. In the site map of Customer Service Hub, go to **Service Management**, and then select **Case Settings** > **Queues**.
   
-3. To create a new queue, select **New**.  
+3. To create a new queue, select **New**. To edit a queue, select the queue in the list of queues, and then on the command bar, select **Edit**.  
   
-    To edit a queue, select the queue in the list of queues, and then on the command bar, select **Edit**.  
+4. Enter the following information in the **Summary** tab.
+   - In the **SUMMARY** section, do the following:  
+      - **Name**: Enter the name of the queue.  
+      - **Type**: Select whether the queue is a private or public queue. You can use a private queue to allow only a specific set of people to work on activities in this queue. If you’re creating a private queue, you’ll need to add members to this queue manually. In the **Members** section, select **Add** to add members to the queue. Only these members will be able to work on the items in this queue.  
+      - **Incoming Email**: Enter the email address that'll receive all messages sent to the queue.  
+      - **Description**: Enter a description.
   
-4. Type or change information in the text boxes.  
+   - In the **EMAIL SETTINGS** section, in the **Convert Incoming Email To Activities** dropdown list, select a value depending on the type of messages that you want to track as activities.
   
-    Hover tips provide hints about what to enter.  
-  
-   - In the **Summary** section, complete the required fields.  
-  
-      - In the **Name** field, type the name of the queue.  
-  
-      - In the **Type** field, choose if the queue is a private or public queue. You can use a private queue to allow only a specific set of people to work on activities in this queue.  
-  
-        If you’re creating a private queue, you’ll need to add members to this queue manually. In the **Members** section, select the **Add** button **+** to add members to the queue. Only these members will be able to work on the items in this queue.  
-  
-        > [!NOTE]
-        >  The email address that you enter in the **Incoming Email** field receives all messages sent to the queue.  
-      - Enter a description in the **Description** field.
-  
-   - In the **EMAIL SETTINGS** section, in the **Convert to email activities** dropdown list, select a value depending on the type of messages that you want to track as activities.
-  
+5. In the Omnichannel section of the **Conflicts Tab**, you can set **Automatic work distribution** to 
+
 6. Save the changes. The following changes will happen:
 
       - In the **Mailbox** field, a mailbox record for the queue is automatically created and selected as soon as you save the queue record. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create forward mailboxes or edit mailboxes](/power-platform/admin/create-forward-mailboxes-edit-mailboxes)
 
-      - If you have selected the queue type as private, the **MEMBERS** section appears.
+      - If you selected the queue type as private, the **MEMBERS** section appears.
           - Select **Add Existing User**. Only those users that you add can work on the items in this queue. If you add a team as a member, only the existing team members can access the queue. New members of the team need to be added manually to the queue to be able to access it.
 
       - The **QUEUE ITEMS** and **RECORD CREATION AND UPDATE RULES** sections appear.
@@ -107,8 +98,7 @@ In Customer Service, you can create two types of queues:
 **To create or edit a queue**
   
 1. Make sure that you have the Sales or Marketing Manager, Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions.  
-  
-   #### Check your security role  
+   #### Check your security role
   
    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
@@ -118,26 +108,21 @@ In Customer Service, you can create two types of queues:
   
 3. [!INCLUDE[proc_click_or_tap_queues](../includes/proc-click-or-tap-queues.md)]  
   
-4. To create a new queue, select **New**.  
+4. To create a new queue, select **New**. To edit a queue, select the queue from the list of queues, and then select **Edit** on the command bar.
   
-    To edit a queue, in the list of queues, select the queue, and then on the command bar, select **Edit**.  
+5. Enter the following information in the **Summary** tab.
   
-5. Type or change information in the text boxes.  
+   - In the **SUMMARY** section:
   
-    Hover tips provide hints about what to enter.  
+       - **Name**: Enter the name of the queue.  
   
-   - In the **Summary** section, complete the required fields.  
+       - **Type**: Select whether the queue is a private or public queue. You can use a private queue to allow only a specific set of people to work on activities in this queue.
+       - **Incoming Email**: Enter the email address that'll receive all messages sent to the queue.  
   
-   - In the **Name** field, type the name of the queue.  
+   - In the **EMAIL SETTINGS** section:
+       - **Convert Incoming Email To Activities**: From the dropdown list, select a value depending on the type of messages that you want to track as activities.  
   
-   - In the **Type** field, choose if the queue is a private or public queue. You can use a private queue to allow only a specific set of people to work on activities in this queue.  
-
-     > [!NOTE]
-     >  The email address you enter in the **Incoming Email** field receives all messages sent to the queue.  
-  
-   - In the **Email Settings** section, in the **Convert to email activities** dropdown list, select a value depending on the type of messages that you want to track as activities.  
-  
-   - In the **Mailbox** field, a mailbox record for the queue is automatically created and selected as soon as you save the queue record. To update the mailbox details, select the mailbox name. More information: [Create forward mailboxes or edit mailboxes](/power-platform/admin/create-forward-mailboxes-edit-mailboxes)  
+       - **Mailbox**: A mailbox record for the queue is automatically created and selected as soon as you save the queue record. To update the mailbox details, select the mailbox name. More information: [Create forward mailboxes or edit mailboxes](/power-platform/admin/create-forward-mailboxes-edit-mailboxes)  
   
    - In the **Record creation and update rules** section, add a **Record Creation and Update Rule** record. By using these rules, you can automatically create or update system or custom records with incoming activities such as emails, social activities, or other custom activities. More information: [Set up rules to automatically create or update records](../customer-service/set-up-rules-to-automatically-create-or-update-records.md)  
   
