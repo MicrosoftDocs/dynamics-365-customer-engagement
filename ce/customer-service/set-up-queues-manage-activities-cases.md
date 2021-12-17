@@ -1,7 +1,7 @@
 ---
 title: Create and manage basic queues | MicrosoftDocs
 description: "Learn how to set up queues to manage activities and cases in Dynamics 365 Customer Service."
-ms.date: 12/16/2021
+ms.date: 12/21/2021
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -62,15 +62,14 @@ In Customer Service, you can create two types of queues:
 
 **To create or edit a queue**
   
-1. Make sure that you have the Sales or Marketing Manager, Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions.  
-  
+1. Make sure that you have the Sales or Marketing Manager, Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions.
    #### Check your security role
   
    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
-2. In the Customer Service Hub sitemap, go to **Service Management** and select **Case Settings** > **Queues**.
+2. In the site map of Customer Service Hub, go to **Service Management**, and then select **Case Settings** > **Queues**.
   
 3. To create a new queue, select **New**.  
   
@@ -143,9 +142,10 @@ In Customer Service, you can create two types of queues:
    - In the **Record creation and update rules** section, add a **Record Creation and Update Rule** record. By using these rules, you can automatically create or update system or custom records with incoming activities such as emails, social activities, or other custom activities. More information: [Set up rules to automatically create or update records](../customer-service/set-up-rules-to-automatically-create-or-update-records.md)  
   
    > [!IMPORTANT]
-   >  This is a central place to manage rules across all supported activities including out-of-the-box and custom activities associated with the queue.  
-   >  The **Record creation and update rules** section displays rules using the **Email Activity Conversation Setting**  or **Social Activity Conversation Setting** and that have the same queue ID as the queue.
-   >  Multiple rules with the same source type and same queue can exist. Therefore, when you select **Email Activity Conversion Settings** or **Social Activity Conversion Settings**, the rule with the latest **Last Modified On** date is applied.  
+   >
+   >  - This is a central place to manage rules across all supported activities including out-of-the-box and custom activities associated with the queue.  
+   >  - The **Record creation and update rules** section displays rules using the **Email Activity Conversation Setting**  or **Social Activity Conversation Setting** and that have the same queue ID as the queue.
+   >  - Multiple rules with the same source type and same queue can exist. So when you select **Email Activity Conversion Settings** or **Social Activity Conversion Settings**, the rule with the latest **Last Modified On** date is applied.  
   
 6. [!INCLUDE[proc_click_or_tap_save](../includes/proc-click-or-tap-save.md)]
 
