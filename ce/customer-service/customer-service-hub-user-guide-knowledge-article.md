@@ -349,7 +349,7 @@ With this new attachment capability, you'll need to stop using notes attachments
 On syncing knowledge article attachments to the portal:
 
 - Dataverse search will be able to search through knowledge article attachments. More info: [Microsoft Dataverse search can search through file data type](/power-platform-release-plan/2021wave2/data-platform/dataverse-search-search-through-file-data-type). Additionally, you must configure the faceted search results web template off your portal to be able to search through knowledge article attachments. More information: [Configure faceted search results web template off your portal](configure-faceted-search-results.md)  
-- There will be an one-time migration from the notes attachments that have the prefix of your original KnowledgeManagement/Notesfilter setting to new attachments in knowledge articles. In other words, only the notes attachments used in the portal will be migrated to new attachments.
+- There will be a one-time migration from the notes attachments that have the prefix of your original KnowledgeManagement/Notesfilter setting to new attachments in knowledge articles. In other words, only the notes attachments used in the portal will be migrated to new attachments.
 
 For more information, see [Display file attachments with knowledge articles](/powerapps/maker/portals/customer-engagement-apps/display-file-attachments-knowledge-article).
 
