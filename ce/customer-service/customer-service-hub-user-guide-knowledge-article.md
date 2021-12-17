@@ -1,7 +1,7 @@
 ---
 title: Understand Knowledge Management in Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: Understand Knowledge Management in Customer Service Hub for Customer Service Dynamics 365 Customer Service
-ms.date: 12/03/2021
+ms.date: 12/17/2021
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -557,18 +557,21 @@ After the content in the article is complete and reviewed, you can publish the a
 7.  If you want to schedule the article to publish on a later date, on the **Summary** tab, in the **Publish On** field, select a date and time to publish the article.  
 
 8.  Select **Finish**. The Publish dialog is displayed.
+
+  > [!NOTE]
+  > The Publish dialog opens only for the default business process flows where the final stage is **Publish**. To configure the Publish dialog for other customized stages, [see addOnPreProcessStatusChange (Client API reference)](/powerapps/developer/model-driven-apps/clientapi/reference/formcontext-data-process/eventhandlers/addonpreprocessstatuschange).
+
+-   In the **Publish** field, select whether you want to publish the knowledge article right away or in the future. To publish the article in the future, in the **Publish On** field, select a date and time.  
   
-    -   In the **Publish** field, select whether you want to publish the knowledge article right away or in the future. To publish the article in the future, in the **Publish On** field, select a date and time.  
+-   In the **Published Status** field, select what status the article should be in after it is published. By default, **Published** is selected.  
   
-    -   In the **Published Status** field, select what status the article should be in after it is published. By default, **Published** is selected.  
+-   In the **Expiration Date** field, select a date and time when you want the published article to expire. Expired articles are no longer available in searches.  
   
-    -   In the **Expiration Date** field, select a date and time when you want the published article to expire. Expired articles are no longer available in searches.  
+-   If you’ve set an expiration date, in the **Expiration Status** field, select the status the knowledge article should be set to after it expires.  
   
-    -   If you’ve set an expiration date, in the **Expiration Status** field, select the status the knowledge article should be set to after it expires.  
+-   To publish all approved related translated articles with the article, in the **Publish Approved related translations with Article** field, select **Yes**.  
   
-    -   To publish all approved related translated articles with the article, in the **Publish Approved related translations with Article** field, select **Yes**.  
-  
-    -   Select **Publish**. 
+-   Select **Publish**. 
        
     :::image type="content" source="media/ka-publish.png" alt-text="Schedule or publish an article":::
     
