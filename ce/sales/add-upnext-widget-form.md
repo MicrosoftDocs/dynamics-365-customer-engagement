@@ -19,7 +19,7 @@ Display the Up next widget on your customized forms through sales accelerator co
 | **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-## Add th Up next widget
+## Add the Up next widget
 
 By default, the **Up next** widget is available only in the out-of-the-box Sales Insights, lead, and opportunity forms. If you're using customized forms, you can display the Up next widget on your custom forms by following these steps.
 >[!NOTE]
