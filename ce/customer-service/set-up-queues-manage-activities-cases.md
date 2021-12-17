@@ -174,7 +174,6 @@ To assign items in the queue to agents, select **Assign** after selecting one or
 ### See also  
 
 [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)  
-[Work with queues in Customer Service Hub](customer-service-hub-user-guide-basics.md#work-with-queues)  
-
+[Add a case to a queue](customer-service-hub-user-guide-case-queues-and-routing.md)    
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
