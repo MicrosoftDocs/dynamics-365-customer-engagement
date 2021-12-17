@@ -9,7 +9,7 @@ manager: shujoshi
 ---
 # Manage segments 
 
-A *segment* is a collection of records that are grouped together based on certain conditions, such as location, deal value, language, and product. By using segments, you can automatically connect records to sequences. You can create segments for all entities including custom entities.
+A *segment* is a collection of records that are grouped together based on certain conditions, such as location, deal value, language, and product. By using segments, you can automatically connect records to sequences. You can create segments for all entities, including custom entities.
 
 As a sequence manager or administrator, you can use the segment builder to:
 
