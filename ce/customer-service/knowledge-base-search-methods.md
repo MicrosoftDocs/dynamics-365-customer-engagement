@@ -81,16 +81,16 @@ You can use the following search options to search the knowledge base on the por
 > [!IMPORTANT]
 > This section is pre-release documentation and is subject to change.
 
-Let's you search across multiple tables sorted by relevance. More information: [What is Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro) To configure dataverse search on portals, see [Configure Dataverse search in portals (preview)](/powerapps/maker/portals/configure/dataverse-search).
+Lets you search across multiple tables sorted by relevance. More information: [What is Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro) To configure dataverse search on portals, see [Configure Dataverse search in portals (preview)](/powerapps/maker/portals/configure/dataverse-search).
 
-You can further refine your search through Progressive search, which let's you search without any mismatch between the results count and the number of records returned in the search results. More information: [Configure progressive search counts](/powerapps/maker/portals/configure/progressive-search).
+You can further refine your search through Progressive search, which lets you search without any mismatch between the results count and the number of records returned in the search results. More information: [Configure progressive search counts](/powerapps/maker/portals/configure/progressive-search).
 
 ### Enable content access levels for knowledge articles from a portal
 
 You can set the content access levels for users to control access to knowledge articles on a portal. More information: [Manage knowledge articles by using content access levels](/powerapps/maker/portals/customer-engagement-apps/manage-knowledge-articles-content-levels). For content access level to work with relevance search, you must perform the following steps on the Dynamics 365 Portals app:
   1. On the Portal Management sitemap, **Website** area, select **Site Settings**.
   1. Select **New**.
-  1. Enter Name as **Knowledge Management/ContentAccessLevel/Enabled**.
+  1. Enter **Name** as **Knowledge Management/ContentAccessLevel/Enabled**.
   1. Select your website record.
   1. Set the Value to **true**. By default, the value of the site setting is set to **false**.
   6. Select **Save**.
