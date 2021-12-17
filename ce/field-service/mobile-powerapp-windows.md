@@ -1,5 +1,5 @@
 ---
-title: "Field Service (Dynamics 365) app for Windows 10+ devices (preview) (Video) | MicrosoftDocs"
+title: "Field Service (Dynamics 365) app for Windows 10+ devices (preview) (contains video) | MicrosoftDocs"
 description: Learn about the Field Service (Dynamics 365) app for Windows 10+ devices.
 ms.date: 10/01/2021
 ms.reviewer: krbjoran

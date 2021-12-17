@@ -1,5 +1,5 @@
 ---
-title: "Use Microsoft Power Automate flows with Field Service Mobile (Video) | MicrosoftDocs"
+title: "Use Microsoft Power Automate flows with Field Service Mobile (contains video) | MicrosoftDocs"
 description: Learn how to use Power Automate flows instead of Dynamics 365 workflows for Dynamics 365 Field Service Mobile processes.
 ms.date: 10/01/2020
 ms.reviewer: krbjoran

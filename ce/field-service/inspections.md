@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365 Field Service inspections (Video) | MicrosoftDocs"
+title: "Dynamics 365 Field Service inspections (contains video) | MicrosoftDocs"
 description: Learn about how to use inspections in Dynamics 365 Field Service.
 ms.date: 02/01/2021
 ms.reviewer: krbjoran

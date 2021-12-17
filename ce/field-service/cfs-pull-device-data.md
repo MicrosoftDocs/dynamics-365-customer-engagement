@@ -1,5 +1,5 @@
 ---
-title: "Pull device data in Dynamics 365 Field Service - Connected Field Service (Video) | MicrosoftDocs"
+title: "Pull device data in Dynamics 365 Field Service - Connected Field Service (contains video) | MicrosoftDocs"
 description: Learn how to pull in device data in Connected Field Service for Dynamics 365 Field Service
 ms.date: 11/19/2020
 ms.reviewer: krbjoran

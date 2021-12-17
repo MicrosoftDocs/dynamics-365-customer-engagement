@@ -1,5 +1,5 @@
 ---
-title: "Edit the bookings calendar columns on the Dynamics 365 Field Service mobile app (Video) | MicrosoftDocs"
+title: "Edit the bookings calendar columns on the Dynamics 365 Field Service mobile app (contains video) | MicrosoftDocs"
 description: description
 ms.date: 12/01/2021
 ms.reviewer: krbjoran

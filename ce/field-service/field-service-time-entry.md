@@ -1,5 +1,5 @@
 ---
-title: "Time entries for Dynamics 365 Field Service (Video) | MicrosoftDocs"
+title: "Time entries for Dynamics 365 Field Service (contains video) | MicrosoftDocs"
 description: Learn about time entry in Dynamics 365 Field Service.
 ms.date: 11/19/2020
 ms.reviewer: krbjoran

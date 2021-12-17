@@ -1,5 +1,5 @@
 ---
-title: "Quickstart for resource scheduling optimization (Video) | MicrosoftDocs"
+title: "Quickstart for resource scheduling optimization (contains video) | MicrosoftDocs"
 description: Learn how to get up and running quickly with resource scheduling optimization
 ms.date: 08/22/2019
 ms.reviewer: krbjoran
