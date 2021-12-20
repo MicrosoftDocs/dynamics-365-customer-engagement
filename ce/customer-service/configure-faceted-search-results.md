@@ -17,6 +17,9 @@ ms.custom:
   - dyn365-customerservice
 ---
 
+<!-- Note from editor: I can't access the review page to see if the "See also" link works for "Display file attachments with knowledge articles". Can you check? If it doesn't, change it to this: https://docs.microsoft.com/en-us/powerapps/maker/portals/customer-engagement-apps/display-file-attachments-knowledge-article -->
+
+
 # Configure the faceted search results web template off your portal (preview)
 
 
