@@ -47,6 +47,8 @@ To use digital selling capabilities, you must have Sales Hub app installed. If y
 
     After you've set up the features, the **Quick setup** button changes to **Edit settings**. Select **Edit settings** to update the settings as required.
 
+    `image of enable settings in get started page`
+
 ## Sales accelerator
 
 Sales accelerator in Dynamics 365 provides a tailored experience for sellers by minimizing the time they spend on their search for the best next customer to reach out to. It gathers information from multiple sources and lets sellers focus on how to best approach their customers. It helps sellers to sell smartly, by building a strong and prioritized pipeline, offering context, and surfacing automated recommendations throughout a sales sequence that helps to speed the sales process. More information: [What is the Sales accelerator?](sales-accelerator-intro.md)
