@@ -1,7 +1,7 @@
 ---
 title: Understand Knowledge Management in Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: Understand Knowledge Management in Customer Service Hub for Customer Service Dynamics 365 Customer Service
-ms.date: 12/20/2021
+ms.date: 12/21/2021
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -559,7 +559,7 @@ After the content in the article is complete and reviewed, you can publish the a
 8.  Select **Finish**. The Publish dialog is displayed.
 
   > [!NOTE]
-  > The Publish dialog opens only for the default business process flows where the final stage is **Publish**. To configure the Publish dialog for other customized stages, [see addOnPreProcessStatusChange (Client API reference)](/powerapps/developer/model-driven-apps/clientapi/reference/formcontext-data-process/eventhandlers/addonpreprocessstatuschange).
+  > The Publish dialog appears only for the default business process flows where the final stage is **Publish**. To configure the Publish dialog for other customized stages, see [Process events and event handler methods](/powerapps/developer/model-driven-apps/clientapi/reference/formcontext-data-process#process-events-and-event-handler-methods).
 
 -   In the **Publish** field, select whether you want to publish the knowledge article right away or in the future. To publish the article in the future, in the **Publish On** field, select a date and time.  
   
@@ -576,7 +576,7 @@ After the content in the article is complete and reviewed, you can publish the a
     :::image type="content" source="media/ka-publish.png" alt-text="Schedule or publish an article":::
     
 > [!NOTE]
-> In the knowledge article for interactive experience form, if there is an active customization layer over the **msdynce_KnowledgeManagementFeatures** layer, you won't be able to view the quick form publish dialog. You must delete the active customization layer to view the quick form publish dialog. More information: [Removed an unmanaged layer](/powerapps/maker/data-platform/solution-layers#remove-an-unmanaged-layer)
+> In the knowledge article for interactive experience form, if there is an active customization layer over the **msdynce_KnowledgeManagementFeatures** layer, you won't be able to view the quick form publish dialog. You must delete the active customization layer to view the quick form publish dialog. More information: [Removed an unmanaged layer](/powerapps/maker/data-platform/solution-layers#remove-an-unmanaged-layer).
 
 ## Track basic details of an article  
 
