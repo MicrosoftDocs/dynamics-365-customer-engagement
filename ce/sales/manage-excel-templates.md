@@ -1,7 +1,7 @@
 ---
 title: "Create and manage Microsoft Excel templates in Dynamics 365 Sales | MicrosoftDocs"
 description: "Analyze and present your sales data in a standard format with Excel templates in Dynamics 365 Sales."
-ms.date: 10/01/2019
+ms.date: 12/16/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -82,7 +82,10 @@ There are four steps for creating an Excel template.
 
 ### Step 2: Customize the data in Excel
 
-Open the newly created template in Excel to customize the data.
+Open the newly created template in your local instance of Excel to customize the data.
+
+> [!IMPORTANT]
+> Do not use Excel online for customizing the template data as the changes cannot be saved. Any updates to the template data made in Excel online will be lost after you close the tab.
 
 ![Excel template with data.](media/excel-template-with-data.png "Excel template with data")
 
