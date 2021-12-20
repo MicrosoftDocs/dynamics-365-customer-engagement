@@ -1,5 +1,5 @@
 ---
-title: "Teams integration with Dynamics 365 customer engagement apps"
+title: "Teams integration with Dynamics 365 customer engagement apps (contains video)"
 ms.custom: 
 description: "Dynamics 365 for Microsoft Teams integration enables users to easily work with customer engagement apps and share files directly from Microsoft Teams."
 ms.date: 08/26/2020

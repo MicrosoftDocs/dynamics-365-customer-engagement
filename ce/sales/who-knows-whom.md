@@ -16,9 +16,21 @@ topic-status: Drafting
 ---
 # How to get introduced to a lead  
 
-As a sales representative, you will interact with leads whom you have never met or talked to and it can be difficult to turn these interactions into positive outcomes. To help in these situations, [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] provides a feature known as **Who Knows Whom**. This feature provides you with details such as names and email addresses of your colleagues who know the lead. With these details, you can contact your colleagues for help in getting introduced to a lead and increase the chances of a positive outcome during the interaction.
+Use who knows whom to quickly identify colleagues within your organization who can introduce you to a lead or contact.
 
-Who knows Whom relationships are calculated from the communication and collaboration patterns of users in your Microsoft Exchange environment. This data helps connect you to others users within your Microsoft Exchange environment that can help facilitate a connection. Contacts or leads that are external to your Microsoft Exchange organization can be queried for and, in some cases, users internal to your Microsoft Exchange organization can also be queried for. For example, this is possible if a user within your Microsoft Exchange organization has added the an internal user’s email address to their Microsoft Exchange address book.
+## License and role requirements
+
+| &nbsp; | &nbsp; |  
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
+## What is who knows whom?
+
+As a sales representative, you will interact with leads who you have never met or talked. So, it can be difficult to turn these interactions into positive outcomes. To help in these situations, Dynamics 365 Sales provides a feature known as **Who Knows Whom**. This feature provides you with details such as names and email addresses of your colleagues who know the lead. With these details, you can contact your colleagues for help with getting introduced to a lead. Such introduction can increase the chances of a positive outcome during the interaction.
+
+Who knows Whom relationships are calculated from the communication and collaboration patterns of users in your Microsoft Exchange environment. This data helps connect you to others users within your Microsoft Exchange environment that can help facilitate a connection. Contacts or leads that are external to your Microsoft Exchange organization can be queried for and, in some cases, users internal to your Microsoft Exchange organization can also be queried for. For example, this is possible if a user within your Microsoft Exchange organization has added an internal user’s email address to their Microsoft Exchange address book.
 
 Who Knows Whom is available in **Contact** and **Lead** forms. When you open a lead or contact and select the **Sales Insights** view, the **Who Knows Whom** tile is displayed.  
 

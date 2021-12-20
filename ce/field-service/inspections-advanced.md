@@ -1,5 +1,5 @@
 ---
-title: "Advanced options for inspections in Dynamics 365 Field Service | MicrosoftDocs"
+title: "Advanced options for inspections in Dynamics 365 Field Service (contains video) | MicrosoftDocs"
 description: Learn how to configure more advanced scenarios for inspections in Dynamics 365 Field Service.
 ms.date: 03/17/2021
 ms.reviewer: krbjoran
