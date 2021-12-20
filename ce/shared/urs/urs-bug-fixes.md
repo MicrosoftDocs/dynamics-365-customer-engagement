@@ -2,13 +2,13 @@
 
 (Includes Resource Scheduling controls version 1.2.9.213482)
 
-- Enabled ‘Time Group Detail Start’ and ‘Time Group Detail End’ column and sorting on list view when returning results with ‘Find Availability’. 
-- Fixed the bug: Resource available hours is not showing correctly on new schedule board when configured calendar with working hours and a time off. 
-- Fixed the bug: Changing Status of Booking should NOT update Start Time and Estimated Arrival Time on new schedule board
-- Fixed the bug: Cannot create or update a resource preferrence to a crew type resource.
-- Fixed the bug: Timezone conversion issue when select time from time picker on Search Start and Search End fields when using ‘Find Availability’ on new Schedule Board.
-- Fixed the bug: Progress indicator div blocking click events on the booking when define an new booking template. 
-- [IcM] New schedule board does not filter by date if the date format is not US or ISO and region is non-US.
+- Enabled **Time Group Detail Start** and **Time Group Detail End** column and sorting on list view when returning results with **Find Availability** functionality. 
+- Fixed bug: Resource available hours is not showing correctly on new schedule board when configured calendar with working hours and a time off. 
+- Fixed bug: Changing status of booking should not update start time and estimated arrival time on new schedule board.
+- Fixed bug: Cannot create or update a resource preferrence to a crew type resource.
+- Fixed bug: Time zone conversion issue when select time from time picker on **Search Start** and **Search End** fields when using **Find Availability** on new schedule board.
+- Fixed bug: Progress indicator div blocking click events on the booking when define an new booking template. 
+- Fixed issue: New schedule board does not filter by date if the date format is not US or ISO and region is non-US.
 
 
 ## 3.12.67.1
