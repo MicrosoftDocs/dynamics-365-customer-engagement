@@ -25,7 +25,7 @@ Use selected Dynamics 365 Sales Premium features (Sales accelerator, conversatio
 
 Dynamics 365 digital selling capabilities spearhead the digital transformation of sales organizations and constitute the data and productivity first revolution. You can enhance your digital selling programs with Sales Premium features such as Sales accelerator, conversation intelligence, and predictive scoring that are available with the Dynamics 365 Sales Enterprise license. The premium features are available with a limited capacity. If you would like to avail all the benefits of premium features, you can purchase a license for Dynamics 365 Sales Premium.
 
-To use digital selling capabilities, you must have Sales Hub app installed. If you don't have the Sales Hub app, you can install it by following the steps mentioned at: [Install the Sales solution](https://docs.microsoft.com/dynamics365/sales/set-up-dynamics-365-sales#install-the-sales-solution). Once the Sales Hub app is installed, digital selling capabilities can be set up from the **Get started with digital sales** page under **App Settings**.
+To use digital selling capabilities, you must have Sales Hub app installed. If you don't have the Sales Hub app, you can install it by following the steps mentioned at: [Install the Sales solution](set-up-dynamics-365-sales.md#install-the-sales-solution). Once the Sales Hub app is installed, digital selling capabilities can be set up from the **Get started with digital sales** page under **App Settings**.
 
 > [!NOTE]
 > If you have a Dynamics 365 Sales Premium license, you can still use this page to quickly set up the features. The only difference would be that there will be no monthly capacity limit.
