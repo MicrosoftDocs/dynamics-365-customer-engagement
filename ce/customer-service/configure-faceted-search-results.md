@@ -1,6 +1,6 @@
 ---
 title: Configure faceted search results web template off your portal| MicrosoftDocs
-description: Know how the faceted search results web template can be configured of your portal.
+description: Know how the faceted search results web template can be configured off your portal.
 ms.date: 12/20/2021
 ms.topic: article
 author: Soumyasd27
@@ -30,10 +30,10 @@ ms.custom:
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 >
 
-You can view and search for knowledge article attachments on the portal, based on Dataverse search. To do so, you must configure the faceted search results web template off your portal.
+You can view and search for knowledge article attachments on the portal, based on a Microsoft Dataverse search. To do so, you must configure the faceted search results web template off your portal.
 
-  1. On the Portal Management sitemap **Content** area, select **Web Templates**.
-  1. From the **Active Web Templates** dropdown, select your knowledge article web template.
+  1. In the Portal Management sitemap **Content** area, select **Web Templates**.
+  1. From the **Active Web Templates** dropdown list, select your knowledge article web template.
   1. On the **Web Template** page > **General** tab, add the following snippet to the **Source** field:
   
   ```JavaScript                        
