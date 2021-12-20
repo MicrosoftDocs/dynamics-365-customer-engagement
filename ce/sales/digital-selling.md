@@ -160,6 +160,8 @@ It provides a scoring model to generate scores for leads that are available for 
 
 Predictive opportunity scoring allows you to prioritize your opportunities based on scores and achieve higher opportunity qualification rates. It provides a scoring model to generate scores for opportunities in your pipeline. More information: [Prioritize leads through scores](work-predictive-lead-scoring.md)
 
+When you setup lead and opportunity scoring with the Dynamics 365 Sales Enterprise license, you get only 1500 scored records per month. If you require more capacity, you must purchase a license for Dynamics 365 Sales Premium.
+
 ### Quickly set up lead and opportunity scoring
 
 1. On the **Get started with digital sales** page, under **Lead and opportunity scoring**, select **Quick setup**.
