@@ -174,7 +174,7 @@
         href: cookies.md
     - name: Terms and fair use
       items:
-      - name: Fair use policy
+      - name: Service limits and fair use policy
         href: fair-use-policy.md
     - name: Administration and setup FAQ
       href: setup-troubleshooting.yml
@@ -202,31 +202,41 @@
         href: real-time-marketing-channel-optimization.md
     - name: Customer engagement
       items: 
-      - name: Create an event-based journey
-        href: real-time-marketing-event-based-journey.md
-      - name: Work with segments in real-time marketing
-        href: real-time-marketing-segments.md
-      - name: Create a segment-based journey
-        href: real-time-marketing-segment-based-journey.md
-      - name: Create a new version of a customer journey
-        href: real-time-marketing-new-journey-version.md
-      - name: Real-time marketing event triggers
-        href: real-time-marketing-event-triggers.md
-      - name: Custom event triggers in real-time marketing
-        href: real-time-marketing-custom-events.md
-      - name: Real-time marketing journey tile reference
-        href: real-time-marketing-tile-reference.md
-      - name: Personalize content
-        href: real-time-marketing-personalization.md
-      - name: Set a business goal and measure progress through a journey
-        href: real-time-marketing-business-goals.md
-      - name: Use natural language in real-time marketing journeys
-        href: real-time-marketing-natural-language.md
-      - name: Experiment and refine real-time marketing journeys
-        href: real-time-marketing-experimentation.md
-      - name: Access and interpret analytics
-        href: real-time-marketing-analytics.md
-    - name: Assets
+      - name: Event-based journeys
+        items:
+        - name: Create an event-based journey
+          href: real-time-marketing-event-based-journey.md
+        - name: Real-time marketing event triggers
+          href: real-time-marketing-event-triggers.md
+        - name: Custom event triggers in real-time marketing
+          href: real-time-marketing-custom-events.md
+      - name: Segment-based journeys
+        items:
+        - name: Work with segments in real-time marketing
+          href: real-time-marketing-segments.md
+        - name: Create a segment-based journey
+          href: real-time-marketing-segment-based-journey.md
+      - name: Enhance your customer journey
+        items: 
+        - name: Real-time marketing journey tile reference
+          href: real-time-marketing-tile-reference.md
+        - name: Create a new version of a customer journey
+          href: real-time-marketing-new-journey-version.md
+        - name: Set a business goal and measure progress through a journey
+          href: real-time-marketing-business-goals.md
+        - name: Use natural language in real-time marketing journeys
+          href: real-time-marketing-natural-language.md
+        - name: Experiment and refine real-time marketing journeys
+          href: real-time-marketing-experimentation.md
+      - name: Personalization
+        items:
+        - name: Personalize content
+          href: real-time-marketing-personalization.md
+      - name: Analytics
+        items:
+        - name: Access and interpret analytics
+          href: real-time-marketing-analytics.md
+    - name: Manage assets
       items: 
       - name: Real-time marketing asset library
         href: real-time-marketing-asset-library.md

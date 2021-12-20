@@ -1,7 +1,7 @@
 ---
 title: "Run webinars and meetings with Microsoft Teams (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create and host live events in Dynamics 365 Marketing using Microsoft Teams as the webinar provider."
-ms.date: 11/22/2021
+ms.date: 12/08/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -18,7 +18,7 @@ search.app:
   - D365Mktg
 ---
 
-# Set up a Microsoft Teams webinar
+# Set up a Microsoft Teams webinar in Dynamics 365 Marketing
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/RE4J4cV" frameborder="0" allowfullscreen=""></iframe></div>
 
@@ -35,11 +35,11 @@ To create a Teams event, select **Events** in the left navigation pane of the Ma
 > ![Screenshot of Azure resource groups.](./media/teams-webinar-stream2.png)
 
 > [!NOTE]
-> The field **Event Format** is hidden from the event form and is automatically set. Set the **Do you want to stream this event** toggle to **Yes**, and it will show the streaming options. If you are using a custom form, ensure that you hide this field and set the value to **Hybrid event**. 
+> The field **Event Format** is hidden from the event form and is automatically set. Set the **Do you want to stream this event** toggle to **Yes**, and it will show the streaming options. If you are using a custom form, ensure that you hide this field and set the value to **Hybrid event**.
 
 ## Event streaming options
 
-After you flip the **Do you want to stream this event** toggle to **Yes**, you will have three options for selecting the streaming provider.
+After you flip the **Do you want to stream this event** toggle to **Yes**, you will have three options for selecting the streaming provider: Teams webinars, Teams meetings, or Teams live events.
 
 ### Teams webinars
 
@@ -123,7 +123,17 @@ The discrepancies in appearance are styling issues that won't limit the function
 
 ### Teams meetings
 
-The Teams meetings option allows you to create an interactive online meeting experience where all attendees can share audio, video, or content. More information about Teams meetings: [Meetings in Microsoft Teams](/microsoftteams/tutorial-meetings-in-teams)
+The Teams meetings option allows you to create an interactive online meeting experience where all attendees can share audio, video, or content. More information about Teams meetings: [Meetings in Microsoft Teams](/microsoftteams/tutorial-meetings-in-teams).
+
+After selecting Teams meetings as the streaming provider for your event, you can view and edit the meeting options inside Dynamics 365 Marketing, just as you would with a webinar.
+
+> [!div class="mx-imgBorder"]
+> ![Teams meeting settings.](./media/teams-webinar-meeting3.png)
+
+After you save your event, your settings will be reflected in your Teams calendar item.
+
+> [!NOTE]
+> Synchronization between Teams and Dynamics 365 Marketing is one-directional: from Dynamics 365 Marketing to Teams. The Teams calendar item for your event is read-only. Any changes you make in Teams may be overwritten by Dynamics 365 Marketing. Make sure to manage and edit your meeting only from the Marketing app.
 
 ### Teams live events
 
@@ -186,7 +196,7 @@ More information on details and settings for Teams live events: [Schedule a Team
 | Event owner                  | The user who owns the event record in Dynamics 365 Marketing. | Set the event owner by using the **Assign** button on the event ribbon |
 | Teams meeting owner          | The user who originally created the live event in Marketing. The Teams meeting owner is designated as the owner of the event in Teams. Changing the owner of the event record in Marketing does not change the owner of the live event in Teams. Any change to the event record in Dynamics will only reflect in Teams when done by this user or when they select **Sync to Teams**. | Sign in as this user in Dynamics 365 Marketing and create a new event with a live event or meeting stream. |
 | Presenter                    | In a Teams live event, a presenter is a person who presents audio, video, or a screen to the live event, or moderates Q&A. Presenters can only share audio, video, or a screen (desktop or window) in live events produced in Teams.| If you want to invite another person to present to the live event, add them as a speaker to the event or the session. To add the person as a speaker, create a speaker engagement at the event (or session) level. The speaker is added as the “presenter” for the live event. Ensure that the speaker email ID is filled in.
-| Producer                     | A producer is a host that makes sure attendees have a great viewing experience by controlling the live event stream. If you want another user to have the ability to produce the live event, you can add the producer user as an **Event Team Member**. This will only work when the Event Team Member is a Dynamics 365 Marketing and Microsoft Teams user. On an event, navigate to the **Additional Information** tab and add the team members. Team members can have any role in Dynamics 365 Marketing, but they will always be producers in the Teams live event. |
+| Producer                     | A producer is a host that makes sure attendees have a great viewing experience by controlling the live event stream. If you want another user to have the ability to produce the live event, you can add the producer user as an **Event Team Member**. This will only work when the Event Team Member is a Dynamics 365 Marketing and Microsoft Teams user. On an event, navigate to the **Additional information** tab and add the team members. Team members can have any role in Dynamics 365 Marketing, but they will always be producers in the Teams live event. |
 
 > [!Important]
 >
@@ -216,10 +226,13 @@ The Teams attendee URL is created when you save a Marketing event that is being 
 
 ## Calendar integration
 
-Once a live event or meeting is created or updated, and the producers and presenters are added (by adding Team members and Speakers) - the meeting will show up in their Outlook calendar as well in their Teams calendar. This would be a **read-only** version of the event, and changes made to this event (from the Teams meeting owner's calendar) would not reflect back in Dynamics 365 Marketing. The speakers and team members can join the live event from their calendar.
+Once a live event or meeting is created or updated and the producers and presenters are added (by adding Team members and speakers), the meeting will show up in their Outlook calendar and in their Teams calendar. The calendar item is a **read-only** version of the event. Changes made to the event from the Teams meeting owner's calendar will not update the event in Dynamics 365 Marketing. The speakers and team members can join the live event from their calendars.
 
 > [!NOTE]
 > Guest users as presenters will not see the event on their calendar. Send guest users the attendee link from the event in Dynamics 365 Marketing.
+
+> [!IMPORTANT]
+> The calendar integration feature for producers and presenters is not affected by the **Calendar content** field in the **Additional information** tab in the event planning work area. The **Calendar content** field only affects .ics files sent through the email designer. Learn more: [Generate iCalendar files for events and sessions](add-to-calendar.md).
 
 ## Inviting registrants to attend the live event through email
 

@@ -3,9 +3,9 @@
   items:
   - name: "Choose between version 1.0 and version 2.0"
     href: choose-between-versions.md    
-  - name: "Channel Integration Framework version 1.0"
+  - name: "Dynamics 365 Channel Integration Framework version 1.0"
     href: overview-channel-integration-framework.md
-  - name: "Channel Integration Framework version 2.0"
+  - name: "Dynamics 365 Channel Integration Framework version 2.0"
     href: v2/overview-channel-integration-framework.md
   - name: "What's new"
     href: whats-new-channel-integration-framework.md
@@ -17,7 +17,7 @@
       href: architecture-overview-channel-integration-framework.md
     - name: Download
       items:
-      - name: "Get Channel Integration Framework"
+      - name: "Get Dynamics 365 Channel Integration Framework"
         href: get-channel-integration-framework.md
       - name: "Sample softphone integration" 
         href: sample-softphone-integration.md
@@ -88,15 +88,15 @@
       - name: "Client-side events"
         href: reference/client-side-events.md
         items:
-        - name: "onClickToAct"
+        - name: "onclicktoact"
           href: reference/events/onclicktoact.md
-        - name: "onModeChanged"
+        - name: "onmodechanged"
           href: reference/events/onmodechanged.md
-        - name: "onPageNavigate"
+        - name: "onpagenavigate"
           href: reference/events/onpagenavigate.md
-        - name: "onSendKBArticle"
+        - name: "onsendkbarticle"
           href: reference/events/onsendkbarticle.md
-        - name: "onSizeChanged"
+        - name: "onsizechanged"
           href: reference/events/onsizechanged.md
         - name: "CIFInitDone"
           href: reference/events/cifinitdone.md
@@ -123,7 +123,7 @@
       href: v2/architecture-overview-channel-integration-framework-v2.md
     - name: Download
       items:
-      - name: "Get Channel Integration Framework"
+      - name: "Get Dynamics 365 Channel Integration Framework"
         href: v2/get-channel-integration-framework.md
       - name: "Sample softphone integration"
         href: v2/sample-softphone-integration-v2.md
@@ -145,6 +145,8 @@
         href: v2/support-multiple-providers.md
       - name: "Modes for communication widget"
         href: v2/modes-communication-widget.md
+      - name: "Migrate third-party channel configuration data"
+        href: v2/migrate-config-data.md        
       - name: Templates
         items:
         - name: "Overview of templates"
@@ -256,15 +258,15 @@
       - name: "Client-side events"
         href: reference/client-side-events.md
         items:
-        - name: "onClickToAct"
+        - name: "onclicktoact"
           href: v2/reference/events/onclicktoact.md
-        - name: "onModeChanged"
+        - name: "onmodechanged"
           href: v2/reference/events/onmodechanged.md
-        - name: "onPageNavigate"
+        - name: "onpagenavigate"
           href: v2/reference/events/onpagenavigate.md
-        - name: "onSendKBArticle"
+        - name: "onsendkbarticle"
           href: v2/reference/events/onsendkbarticle.md
-        - name: "onSizeChanged"
+        - name: "onsizechanged"
           href: v2/reference/events/onsizechanged.md
         - name: "onSessionSwitched"
           href: v2/reference/events/onSessionSwitched.md

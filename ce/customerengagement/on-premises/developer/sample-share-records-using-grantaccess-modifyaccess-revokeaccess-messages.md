@@ -5,7 +5,7 @@ keywords:
 ms.date: 01/08/2020
 ms.prod: d365ce-op
 ms.custom: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 791aa59d-b217-4e8d-93d3-edd4ecfc8403
@@ -20,7 +20,6 @@ helpviewer_keywords:
 topic-status: Drafting
 search.audienceType: 
   - developer
-
 ---
 
 # Sample: Share records using GrantAccess, ModifyAccess and RevokeAccess messages

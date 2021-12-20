@@ -12,9 +12,10 @@ manager: annbe
 Define global sales settings for products, pricing, and discounts.
 
 ## License and role requirements
-|  | |
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator or System Customizer <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
@@ -65,7 +66,7 @@ Learn about the system-level settings for Dynamics 365 Sales.
  [Set up a discount list](set-up-discount-list.md)   
  [Create product bundles to sell multiple items together](create-product-bundles-sell-multiple-items-together.md)   
  [Use properties to describe a product](use-properties-describe-product.md)  
- [Administrator and Sales Manager Guide](admin-guide.md)  
+ [Administrator and Sales Manager Guide](admin-guide.yml)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

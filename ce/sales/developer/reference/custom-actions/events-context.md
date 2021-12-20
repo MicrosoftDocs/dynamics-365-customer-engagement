@@ -14,9 +14,10 @@ ms.custom:
 As a developer, use this reference documentation to learn about the forecasting events and context object.
 
 ## License and role requirements
-|  | |
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System customizer <br>  See [Predefined security roles for Sales](../../../security-roles-for-sales.md)|
 |||
 
@@ -24,7 +25,7 @@ As a developer, use this reference documentation to learn about the forecasting 
 [!INCLUDE[cc-data-platform-banner](../../../../includes/cc-data-platform-banner.md)]
 
 >[!NOTE]
->The *forecasting context object* that's referred to in this topic is different from the execution context of Common Data Service. The forecasting context object is specific to forecasting and supports the advanced configurations of the underlying records grid.
+>The *forecasting context object* that's referred to in this topic is different from the execution context of Microsoft Dataverse. The forecasting context object is specific to forecasting and supports the advanced configurations of the underlying records grid.
 
 ## Events for the underlying records grid
 

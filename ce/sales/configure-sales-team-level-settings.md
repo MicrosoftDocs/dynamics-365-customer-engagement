@@ -18,10 +18,11 @@ As a sales manager, you can configure conversation intelligence to match your te
 More information: [Configure and view your team page](configure-view-your-team-page.md)
 
 ## License and role requirements
-|  | |
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator or Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **Security Role** | Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
 ## To configure sales team&ndash;level settings 
@@ -72,7 +73,7 @@ Conversation intelligence is now configured and ready for use in your sales orga
 ### See also
 
 [Introduction to administering conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)  
-[First-run setup experience](fre-setup-sales-insight-app.md#microsoft-teams-for-conversation-intelligence)
+[First-run set up in sales app](fre-setup-ci-sales-app.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]    

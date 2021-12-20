@@ -464,6 +464,8 @@
         href: knowledge-base-search-methods.md
       - name: Add the knowledge base search control to forms
         href: add-knowledge-base-search-control-forms.md
+      - name: Configure faceted search results web template off your portal (preview) 
+        href: configure-faceted-search-results.md
     - name: Developer experience
       items:
       - name: Create a knowledge article using a template
@@ -686,6 +688,8 @@
       items: 
       - name: Set up SMS channels
         items: 
+        - name: Configure an SMS channel using Azure Communication Services
+          href: configure-sms-channel-acs.md
         - name: Configure an SMS channel for TeleSign
           href: configure-sms-channel.md
         - name: Configure an SMS channel for Twilio
