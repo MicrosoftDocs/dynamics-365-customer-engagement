@@ -1,7 +1,7 @@
 ---
 title: Understand Knowledge Management in Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: Understand Knowledge Management in Customer Service Hub for Customer Service Dynamics 365 Customer Service
-ms.date: 12/17/2021
+ms.date: 12/20/2021
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -29,7 +29,7 @@ searchScope:
 
 Reduce call handling times with knowledge articles in the Customer Service Hub application.
   
-With the knowledge management module, you can create and manage knowledge articles that your users may be looking for. 
+With the knowledge management module, you can create and manage knowledge articles that your users may be looking for.
 
 Knowledge articles can address any number of issues your customers encounter while using your organization's product or services. Types of knowledge articles can include solutions to common issues, product or feature documentation, answers to frequently asked questions (FAQs), product briefs, and more. Use the rich text editor to create knowledge articles, format your content, or embed videos and images.  
   
@@ -346,10 +346,10 @@ With this new attachment capability, you'll need to stop using notes attachments
 2. Under **Sync knowledge article attachments to portal**, toggle **Sync attachments to portal** to **Yes**.
 3. Select **Save**.
 
-By using knowledge article attachments for the portal, keep in mind the following:
+On syncing knowledge article attachments to the portal:
 
-- Dataverse search will be able to search through knowledge article attachments. More info: [Microsoft Dataverse search can search through file data type](/power-platform-release-plan/2021wave2/data-platform/dataverse-search-search-through-file-data-type)
-- We'll do a one-time migration from the notes attachments that have the prefix of your original KnowledgeManagement/Notesfilter setting to new attachments in knowledge articles. In other words, we'll only migrate the notes attachments that are used in the portal to new attachments before the middle of October 2022 for all users.  
+- Dataverse search will be able to search through knowledge article attachments. More info: [Microsoft Dataverse search can search through file data type](/power-platform-release-plan/2021wave2/data-platform/dataverse-search-search-through-file-data-type). Additionally, you must configure the faceted search results web template off your portal to be able to search through knowledge article attachments. More information: [Configure faceted search results web template off your portal](configure-faceted-search-results.md)  
+- There will be a one-time migration from the notes attachments that have the prefix of your original KnowledgeManagement/Notesfilter setting to new attachments in knowledge articles. In other words, only the notes attachments used in the portal will be migrated to new attachments.
 
 For more information, see [Display file attachments with knowledge articles](/powerapps/maker/portals/customer-engagement-apps/display-file-attachments-knowledge-article).
 
