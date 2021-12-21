@@ -2,7 +2,7 @@
 title: "Frequently asked questions for Sales Insights"
 description: "Find a list of frequently asked questions that are related to different features in Sales Insights add-in for Dynamics 365 Sales."
 keywords: ""
-ms.date: 11/10/2021
+ms.date: 01/07/2022
 ms.custom: 
 ms.topic: article
 author: udaykirang
@@ -125,6 +125,24 @@ Depending on the region where your organization is hosted, data is stored in the
 | Switzerland (CHE) | Switzerland North | Switzerland West |
 
 More information: [Azure Regional Pairs](/azure/best-practices-availability-paired-regions#azure-regional-pairs)
+
+## Digital selling
+
+### What is digital selling?
+
+Digital selling allows you to set up and and experience Sales Premium features such as Sales accelerator, conversation intelligence, and predictive scoring with a limited monthly capacity with your Dynamics 365 Sales Enterprise license. More information: [Digital selling capabilities in Sales Enterprise](digital-selling.md)
+
+### What's the capacity limit in using Sales Premium features?
+
+When you set up Sales Premium features using your Dynamics 365 Sales Enterprise license, the features are available with a capacity limit as follows:
+
+- Sales accelerator provides access to the workspace and up to 1500 records connected to any defined sequence per environment per month.
+- Users who access and utilize conversation intelligence will be able to do so with 3 hours per user per month.
+- View up to 1500 leads or opportunity records scored per environment per month with predictive scoring.
+
+### How to get full capacity of Sales Premium features?
+
+If you want to get full capacity of Sales Premium features, you must purchase a license for Dynamics 365 Sales Premium.
 
 ## Assistant
 

@@ -3,7 +3,7 @@ title: "Sign up for a free trial - Dynamics 365 Sales | Microsoft Docs"
 description: "Learn how to quickly sign up for and start a free Dynamics 365 Sales trial. Explore the app with tours and videos, and find more learning resources."
 author: lavanyakr01
 ms.author: lavanyakr
-ms.date: 08/31/2021
+ms.date: 01/07/2022
 ms.topic: get-started
 ms.service: dynamics-365-sales
 ms.custom: template-trial-setup
@@ -35,6 +35,7 @@ Your trial environment includes many of the same features as the paid version. T
 - [Project your revenue](project-accurate-revenue-sales-forecasting.md)
     - [Configure forecasting](configure-forecast.md)
     - [View a forecast](view-forecasts.md)
+- [Digital selling](digital-selling.md)
 
 ## Additional resources
 
