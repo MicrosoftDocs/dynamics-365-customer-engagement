@@ -348,7 +348,7 @@ With this new attachment capability, you'll need to stop using notes attachments
 
 On syncing knowledge article attachments to the portal:
 
-- Dataverse search will be able to search through knowledge article attachments. More info: [Microsoft Dataverse search can search through file data type](/power-platform-release-plan/2021wave2/data-platform/dataverse-search-search-through-file-data-type) Additionally, you must configure the faceted search results web template off your portal to be able to search through knowledge article attachments. More information: [Configure faceted search results web template off your portal](configure-faceted-search-results.md) 
+- Dataverse search will be able to search through knowledge article attachments. More information: [Microsoft Dataverse search can search through file data type](/power-platform-release-plan/2021wave2/data-platform/dataverse-search-search-through-file-data-type) Additionally, you must configure the faceted search results web template off your portal to be able to search through knowledge article attachments. More information: [Configure faceted search results web template off your portal](configure-faceted-search-results.md) 
   
 - There will be a one-time migration from the notes attachments that have the prefix of your original KnowledgeManagement/Notesfilter setting to new attachments in knowledge articles. Only the notes attachments used in the portal will be migrated to new attachments.
 
@@ -364,12 +364,12 @@ By default, the rich text editor functionality is available for use with knowled
 3. Under **Controls**, select **Rich Text Editor Control**.
 
     > [!div class=mx-imgBorder]
-    > ![Select the Controls tab on the properties page.](media/csh-rte-add-form.png "Select the Controls tab, and then select the rich text editor control")
+    > ![Select the Controls tab on the properties page.](media/csh-rte-add-form.png "Select the Controls tab, and then select Rich Text Editor Control")
 
 3. Under **Rich Text Editor Control** properties, select the pencil icon next to **RichTextEditorControl_URL**. 
     
     > [!div class=mx-imgBorder]
-    > ![Select the Rich Text Editor control.](media/csh-rte-edit-control.png "Select the Rich Text Editor Control and pencil icon to add text")
+    > ![Select Rich Text Editor Control and the pencil icon.](media/csh-rte-edit-control.png "Select Rich Text Editor Control and the pencil icon to add text")
     
     The properties configuration page is displayed.
 
