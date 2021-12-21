@@ -7,7 +7,7 @@ ms.reviewer: pehecke
 ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 7105761b-9710-4ad1-a3ee-b7dd58287c81
@@ -17,7 +17,6 @@ ms.author: jdaly
 manager: kvivek
 search.audienceType: 
   - developer
-
 ---
 # Sample: Create a workflow in code
 

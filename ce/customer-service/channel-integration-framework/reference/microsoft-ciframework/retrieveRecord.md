@@ -1,6 +1,6 @@
 ---
-title: "retrieveRecord (JavaScript API Reference) for Dynamics 365 Channel Integration Framework (CIF) version 1.0 | MicrosoftDocs"
-description: ""
+title: "retrieveRecord (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0 | MicrosoftDocs"
+description: "Includes description, syntax, and parameter information for the retrieveRecord method in JavaScript API Reference for Channel Integration Framework 1.0. "
 ms.date: 12/31/2019
 ms.topic: reference
 author: mh-jaya
@@ -13,7 +13,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# retrieveRecord (CIF JavaScript API Reference)
+# retrieveRecord (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0
 
 [!INCLUDE[retrieveRecord](includes/retrieveRecord-description.md)] 
 

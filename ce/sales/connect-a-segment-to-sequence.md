@@ -11,11 +11,9 @@ manager: shujoshi
 
 After you create and activate a segment, you connect the segment to a sequence depending on the entity that you've created the sequence for. You can add segments to existing sequences. Open the sequences to view their details, and then add segments to them. More information: [View details of a sequence and its connected records](view-sequence-details-connected-records.md).  
 
-> [!NOTE]
-> You can connect segments only to leads and opportunities. 
-
 ## License and role requirements
-|  | |
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator or Sequence Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
@@ -62,7 +60,8 @@ After you create and activate a segment, you connect the segment to a sequence d
 
 ### See also
 
-[Create and activate a segment](create-and-activate-a-segment.md)   
+[Create and activate a segment](create-and-activate-a-segment.md)     
+[View details of a segment](view-details-segment.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

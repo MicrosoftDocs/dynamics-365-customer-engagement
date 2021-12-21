@@ -21,15 +21,19 @@ searchScope:
 Configure columns and layouts you want sellers to see in the forecast grid. Add from option set, change column type, show columns in chart, and more.
 
 ## License and role requirements
-|  | |
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator or Forecast Manager<br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
 ## Add and configure columns
 
 In the **Layout** step of the forecast configuration, you can configure columns to define the forecast grid that appears for users. You can configure rollup columns from option sets that are defined for opportunities in your organization.
+
+> [!NOTE]
+> To add a column that has field-level security, provide read access to the user "# Dynamics 365 Sales Forecasting" in the field security profile. For more information on configuring security profiles, see [Field-level security to control access](/power-platform/admin/field-level-security#example-for-restricting-the-mobile-phone-field-for-the-contact-entity).  
 
 Perform the following steps to add columns and configure the forecast grid:
 
@@ -104,7 +108,7 @@ You can configure each column individually&mdash;such as changing the column typ
 
 The **Rollup** column type aggregates the values of all fields based on the selected **Selector** and **Amount field** values, by using the **Date field** value as the filter criteria.
 
-While configuring these columns, some attributes that are necessary for the forecast estimated revenue and estimated close date. Typically, these attributes are available in the selected rollup entity. For complex data models, such as opportunity splits and opportunity product, these attributes are distributed between rollup and related entities. To address this complexity, the forecasting supports the selection of related attributes for estimated revenue and estimated close date.
+While configuring these columns, some attributes are necessary for calculating the forecast estimated revenue and estimated close date. Typically, these attributes are available in the selected rollup entity. For complex data models, such as opportunity splits and opportunity product, these attributes are distributed between rollup and related entities. To address this complexity, the forecasting supports the selection of related attributes for estimated revenue and estimated close date.
 
 Select the column **Type** as **Rollup**. The following options are available to configure.
 

@@ -1,5 +1,5 @@
 ---
-title: "Time entries for Dynamics 365 Field Service | MicrosoftDocs"
+title: "Time entries for Dynamics 365 Field Service (contains video) | MicrosoftDocs"
 description: Learn about time entry in Dynamics 365 Field Service.
 ms.date: 11/19/2020
 ms.reviewer: krbjoran
@@ -27,7 +27,7 @@ Time entries are useful for:
 - billing and invoicing for service 
 
 > [!Note]
-> Field Service time entry utilizes the same entity that Project Service Automation has always used. This creates a consistent time capture process, regardless of whether your organization uses Field Service, Project Service Automation, or both. However, the custom calendar control introduced by Project Service is tailored to work specifically for Project Service type Time Entry records.
+> Field Service time entry utilizes the same entity that Project Service Automation has always used. This creates a consistent time capture process, regardless of whether your organization uses Field Service, Project Service Automation, or both. However, the custom calendar control introduced by Project Service is tailored to work specifically for Project Service type Time Entry records. Field Service time entry is **not** compatible with the Project Operations control for time entries.
 
 There are three ways time entries are created in Dynamics 365 Field Service: 
 

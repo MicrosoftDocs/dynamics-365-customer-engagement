@@ -1,5 +1,5 @@
 ---
-title: "Customize deal manager - Sales Enterprise | MicrosoftDocs"
+title: "Customize deal manager | MicrosoftDocs"
 description: "Customize the grid, side panel, and charts displayed in deal manager according to your sales team's requirement."
 ms.date: 10/26/2021
 ms.topic: article
@@ -16,9 +16,9 @@ Customize the grid, side panel, and charts displayed in deal manager according t
 
 ## License and role requirements
 
-|  | |
+| &nbsp; | &nbsp; |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
@@ -98,7 +98,7 @@ Customize the editable grid by adding a JavaScript library. These customizations
 
     > [!NOTE]
     > -	The function names in the JavaScript file must match the event names and must accept the context object parameter. 
-    > -	The deal manager context object that's referred to in the example is different from the execution context of Common Data Service. Currently, the  deal manager context object is the same as the forecasting context object and supports advanced configurations of the underlying records grid in deal manager. More information: [Events and context object](../sales-enterprise/developer/reference/custom-actions/events-context.md)  
+    > -	The deal manager context object that's referred to in the example is different from the execution context of Microsoft Dataverse. Currently, the  deal manager context object is the same as the forecasting context object and supports advanced configurations of the underlying records grid in deal manager. More information: [Events and context object](../sales-enterprise/developer/reference/custom-actions/events-context.md)  
 
 1.	Add your JavaScript code in a script web resource:  
 

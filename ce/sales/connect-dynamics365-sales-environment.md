@@ -19,7 +19,8 @@ At a time, you can have only one active Dynamics 365 Sales environment that is c
 As an administrator, you must configure the Dynamics 365 Sales environment to connect to conversation intelligence.
 
 ## License and role requirements
-|  | |
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|

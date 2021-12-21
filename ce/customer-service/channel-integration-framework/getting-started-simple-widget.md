@@ -26,7 +26,7 @@ In this tutorial, we demonstrate how to build a simple *Hello World!* communicat
 
 2. Select the **ASP.NET Web Application (.NET Framework)** template for your project, and add any name to it.<br />
 
-  ![Select ASP.NET Web Application(.NET Framework).](media/cif-helloworld-new-project.PNG "Select ASP.NET Web Application(.NET Framework)")<br />
+  ![Select ASP.NET Web Application (.NET Framework).](media/cif-helloworld-new-project.PNG "Select ASP.NET Web Application (.NET Framework)")<br />
 
 3. Select the **MVC** template for your application, and make sure that authentication is set to **No Authentication**.<br />
 
@@ -36,7 +36,7 @@ In this tutorial, we demonstrate how to build a simple *Hello World!* communicat
 
 4. Now view the files in Solution Explorer. Expand **Views** > **Home**, and open the **Index.cshtml** file.<br />
 
-    ![Open Index.cshtml file from solution explorer.](media/cif-helloworld-solution-explorer.PNG "Open Index.cshtml file from solution explorer")<br />
+    ![Open Index.cshtml file from Solution Explorer.](media/cif-helloworld-solution-explorer.PNG "Open Index.cshtml file from Solution Explorer")<br />
 
 5. Replace the HTML code in the **Index.cshtml** file with the following code:
 
@@ -66,9 +66,9 @@ In this tutorial, we demonstrate how to build a simple *Hello World!* communicat
 
     When you select the site URL, it opens the same web app that we saw earlier while debugging our web app in Visual Studio.
 
-2. To configure the widget in your Dynamics 365 instance, follow the steps mentioned here: [Configure sample app in Dynamics 365](sample-softphone-integration.md#bkmk_Configure).
+2. To configure the widget in your Dynamics 365 instance, follow the steps described here: [Configure sample app in Dynamics 365](sample-softphone-integration.md#bkmk_Configure).
 
-  Once the preceding steps are completed, open one of the Unified Interface apps that you selected while configuring the widget in Dynamics 365 Channel Integration Framework, and you will see the communication widget in the right-side panel. To open one of your selected Unified Interface apps, go to `https://[Organization URI]/apps`.
+  After the preceding steps are completed, open one of the Unified Interface apps that you selected while configuring the widget in Dynamics 365 Channel Integration Framework, and you will see the communication widget in the right-side panel. To open one of your selected Unified Interface apps, go to `https://[Organization URI]/apps`.
 
   The published widget should look like this.<br />
 
