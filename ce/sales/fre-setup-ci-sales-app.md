@@ -1,7 +1,7 @@
 ---
 title: "First-run setup experience for conversation intelligence in sales app"
 description: "First-run configuration of conversation intelligence for Microsoft Teams for your Dynamics 365 Sales environment."
-ms.date: 11/26/2021
+ms.date: 01/07/2022
 ms.custom: 
 ms.topic: article
 ms.assetid: 3e099e3a-f6cb-42cf-b84e-9f8b0c6ee9db
@@ -26,10 +26,13 @@ You can configure conversation intelligence with Microsoft Teams. After you sign
 
 After configuring conversation intelligence, a sales manager or a seller can view the data and settings that are relevant to them. More information: [Configure sales team level settings](configure-sales-team-level-settings.md)
 
+> [!NOTE]
+> You can also enable call recording through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get only 3 hours of conversation intelligence per month. More information: [Microsoft Teams calls with conversation intelligence](digital-selling.md#microsoft-teams-calls-with-conversation-intelligence)
+
 ## License and role requirements
 |  | |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
@@ -47,7 +50,7 @@ Review the following requirements before you configure Teams call recording for 
 ### Enable calling with Teams 
 
 Before you can proceed to configuring Teams with conversation intelligence, you must enable the Teams dialer for your organization. More information: [Configure Microsoft Teams dialer](/dynamics365/sales-enterprise/configure-microsoft-teams-dialer)
- 
+
 ### Run the PowerShell script to record calls
 
 Before you configure the Teams dialer, run the PowerShell script to enable recording of your Teams calls. These call recordings are used for processing and analysis. The PowerShell script creates:

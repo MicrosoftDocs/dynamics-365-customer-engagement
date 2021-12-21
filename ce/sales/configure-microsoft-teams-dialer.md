@@ -1,7 +1,7 @@
 ---
 title: "Configure Microsoft Teams dialer in Dynamics 365 Sales | MicrosoftDocs"
 description: "How to configure Microsoft Teams dialer in Dynamics 365 Sales."
-ms.date: 01/29/2021
+ms.date: 01/07/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -15,7 +15,10 @@ ms.custom:
 > - While in preview, Teams calls does not support emergency calling.
 > - Preview features are not complete, but are made available to you before general availability so you can evaluate them and provide feedback to Microsoft. Preview features are not intended for production use and may have limited or restricted functionality, as further explained in our [Product Terms](https://go.microsoft.com/fwlink/?linkid=2173816). 
 
-Microsoft Teams dialer helps sellers to be more productive and get work done more effectively by calling customers directly from within Dynamics 365 Sales app.  
+Microsoft Teams dialer helps sellers to be more productive and get work done more effectively by calling customers directly from within Dynamics 365 Sales app.
+
+> [!NOTE]
+> You can also enable Teams dialer through quick setup (with the Dynamics 365 Sales Enterprise license). More information: [Microsoft Teams calls with conversation intelligence](digital-selling.md#microsoft-teams-calls-with-conversation-intelligence)
 
 ## License and role requirements
 

@@ -2,7 +2,7 @@
 title: "Introduction on how to administer Sales Insights | MicrosoftDocs"
 description: "Index page showing administration, system, user, and application configurations for Sales Insights Add-in for Dynamics 365 Sales."
 keywords: ""
-ms.date: 08/10/2021
+ms.date: 01/07/2022
 ms.custom: intro-internal
 ms.topic: article
 author: udaykirang
@@ -27,7 +27,8 @@ Enabling and configuring the [!INCLUDE[pn-dynamics-sales-insights](../includes/p
 
 As an administrator, you can enable and configure the Sales Insights features as required in your organization:
 
--	[Enable and configure standard Sales Insights features](#enable-and-configure-standard-sales-insights-features)   
+-	[Enable and configure standard Sales Insights features](#enable-and-configure-standard-sales-insights-features)
+-   [Get started with premium Sales Insights features](#get-started-with-premium-sales-insights-features)
 -	[Install and configure premium Sales Insights features](#install-and-configure-premium-sales-insights-features)   
 -	[Administer conversation intelligence](#administer-conversation-intelligence)
 
@@ -97,6 +98,10 @@ After you enable the standard Sales Insights features, you can configure the fea
 -	To configure standard auto capture, see [Configure and enable auto capture](configure-auto-capture.md).    
 -	To configure standard email engagement, see [Configure and enable email engagement](configure-email-engagement.md).   
 -	To Configure sales accelerator for assignment rules, see [Configure assignment rules in Sales Enterprise](sales-accelerator-assignment-rules.md)
+
+## Get started with premium Sales Insights features
+
+With your Dynamics 365 Sales Enterprise license, you can set up and experience Sales Premium features such as Sales accelerator, conversation intelligence, and predictive scoring with a limited monthly capacity. More information: [Digital selling capabilities in Sales Enterprise](digital-selling.md)
 
 ## Install and configure premium Sales Insights features
 

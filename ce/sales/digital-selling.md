@@ -23,31 +23,34 @@ Use selected Dynamics 365 Sales Premium features (Sales accelerator, conversatio
 
 ## Overview
 
-Dynamics 365 digital selling capabilities spearhead the digital transformation of sales organizations and constitute the data and productivity first revolution. You can enhance your digital selling programs with Sales Premium features such as Sales accelerator, conversation intelligence, and predictive scoring that are available with the Dynamics 365 Sales Enterprise license. The premium features are available with a limited capacity. If you would like to avail all the benefits of premium features, you can purchase a license for Dynamics 365 Sales Premium.
+Dynamics 365 digital selling capabilities spearhead the digital transformation of sales organizations and constitute the data and productivity first revolution. You can enhance your digital selling programs with Sales Premium features such as Sales accelerator, conversation intelligence, and predictive scoring that are available with the Dynamics 365 Sales Enterprise license. The premium features are available with a limited monthly capacity. If you would like to avail all the benefits of premium features, you can purchase a license for Dynamics 365 Sales Premium.
 
 To use digital selling capabilities, you must have Sales Hub app installed. If you don't have the Sales Hub app, you can install it by following the steps mentioned at: [Install the Sales solution](set-up-dynamics-365-sales.md#install-the-sales-solution). Once the Sales Hub app is installed, digital selling capabilities can be set up from the **Get started with digital sales** page under **App Settings**.
 
 > [!NOTE]
 > If you have a Dynamics 365 Sales Premium license, you can still use this page to quickly set up the features. The only difference would be that there will be no monthly capacity limit.
 
-## Quickly set up digital sales
+## Set up digital sales
 
 1. In lower-left corner of the screen, select **Change area** ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area") and then select **App Settings**.
 
     The **Get started with digital sales** page is displayed.
 
-    `image of get started page`
+    :::image type="content" source="media/ds-get-started.png" alt-text="Get started page for setting up digital sales":::
 
 2. Use the **Quick setup** button to quickly set up the features as described in the following sections:
 
-    - Sales accelerator
-    - Microsoft Teams collaboration
-    - Microsoft Teams calls with conversation intelligence
-    - Lead and opportunity scoring
+    - [Sales accelerator](#sales-accelerator)
+    - [Microsoft Teams collaboration](#microsoft-teams-collaboration)
+    - [Microsoft Teams calls with conversation intelligence](#microsoft-teams-calls-with-conversation-intelligence)
+    - [Lead and opportunity scoring](#lead-and-opportunity-scoring)
 
     After you've set up the features, the **Quick setup** button changes to **Edit settings**. Select **Edit settings** to update the settings as required.
 
-    `image of enable settings in get started page`
+    :::image type="content" source="media/ds-all-setup.png" alt-text="All features enabled in digital sales":::
+
+    > [!NOTE]
+    > If advanced configurations are required, you can to go to the advanced settings page for each of the Sales Premium features. The settings you update at one place, are synced in both quick setup and advanced settings.
 
 ## Sales accelerator
 
@@ -55,13 +58,13 @@ Sales accelerator in Dynamics 365 provides a tailored experience for sellers by 
 
 When you setup sales accelerator with the Dynamics 365 Sales Enterprise license, you get only 1500 sequence-connected records per month. If you require more capacity, you must purchase a license for Dynamics 365 Sales Premium.
 
-### Quickly set up sales accelerator
+### Set up sales accelerator
 
 1. On the **Get started with digital sales** page, under **Sales accelerator**, select **Quick setup**.
 
     The **Sales accelerator quick setup** panel is displayed.
 
-    `image`
+    :::image type="content" source="media/ds-sa-setup.png" alt-text="Sales accelerator quick setup panel":::
 
 2. In the **Enable for** section, choose one of the following options to grant permissions to use sales accelerator features.
 
@@ -83,19 +86,25 @@ Once the settings are published, you can open the seller's interface for sales a
 
 ### Turn off sales accelerator
 
-`do we need this step?`
+If you want to turn off sales accelerator, you do it from the advanced settings.
+
+1. Select **Go to advanced sales accelerator settings** at the top of the quick setup panel.
+
+2. On the **Sales accelerator setup** page, select **Unpublish**.
+
+3. In the confirmation dialog box, select **Unpublish**.
 
 ## Microsoft Teams collaboration
 
 Connect Dynamics 365 and Microsoft Teams so your sales teams can collaborate seamlessly on deals from wherever they work. Dynamics 365 and Microsoft Teams integration allows you to speed up the flow of work, enabling anyone in an organization to view and collaborate on Dynamics 365 records, from within the flow of work with Teams—at no additional cost. More information: [Overview of Microsoft Teams integration](../teams-integration/teams-integration.md)
 
-### Quickly set up Teams collaboration
+### Set up Teams collaboration
 
 1. On the **Get started with digital sales** page, under **Microsoft Teams collaboration**, select **Quick setup**.
 
     The **Teams collaboration quick setup** panel is displayed.
 
-    `image`
+    :::image type="content" source="media/ds-teams-collab-setup.png" alt-text="Teams collaboration quick setup panel":::
 
 2. Turn on the **Chat and collaborate from Dynamics 365 (preview)** toggle to enable the [embedded Teams chat](../teams-integration/using-teams-chat-in-dynamics.md) capability.
 
@@ -110,7 +119,11 @@ Once the settings are enabled, your sellers can use Teams in Dynamics 365 and li
 
 ### Turn off Teams collaboration
 
-`do we need this step?`
+1. Select **Go to advanced Teams collaboration settings** at the top of the quick setup panel.
+
+2. Turn off **Chat and collaborate from Dynamics 365 (preview)** and **Connect records to channels in Microsoft Teams** toggles.
+
+3. Select **Apply**.
 
 ## Microsoft Teams calls with conversation intelligence
 
@@ -120,13 +133,13 @@ Conversation intelligence uses analytics and data science to gather data from se
 
 When you setup Microsoft Teams calls with conversation intelligence with the Dynamics 365 Sales Enterprise license, you get only 3 hours of conversation intelligence per month. If you require more capacity, you must purchase a license for Dynamics 365 Sales Premium. There's no capacity limit on Teams calls.
 
-### Quickly set up Microsoft Teams calls with conversation intelligence
+### Set up Microsoft Teams calls with conversation intelligence
 
 1. On the **Get started with digital sales** page, under **Microsoft Teams calls with conversation intelligence**, select **Quick setup**.
 
     The **Teams calls + conversation intelligence quick setup** panel is displayed.
 
-    `image`
+    :::image type="content" source="media/ds-ci-setup.png" alt-text="Teams calls + conversation intelligence quick setup panel":::
 
 2. Turn on the **Teams calls (preview)** toggle to enable Teams dialer and allow sellers to make calls directly from within Dynamics 365 Sales Hub app.
 
@@ -153,7 +166,12 @@ Once settings are enabled, sellers can make calls to their customer from within 
 
 ### Turn off Teams calls + conversation intelligence
 
-`do we need this step?`
+1. Select **Go to advanced conversation intelligence settings** at the top of the quick setup panel.
+
+2. Turn off **Teams calls (preview)** and **Recording with real-time transcription and insights (preview)** toggles.
+
+3. Select **Update**.
+
 
 ## Lead and opportunity scoring
 
@@ -164,13 +182,13 @@ Predictive opportunity scoring allows you to prioritize your opportunities based
 
 When you setup lead and opportunity scoring with the Dynamics 365 Sales Enterprise license, you get only 1500 scored records per month. If you require more capacity, you must purchase a license for Dynamics 365 Sales Premium.
 
-### Quickly set up lead and opportunity scoring
+### Set up lead and opportunity scoring
 
 1. On the **Get started with digital sales** page, under **Lead and opportunity scoring**, select **Quick setup**.
 
     The **Lead and opportunity scoring quick setup** panel is displayed.
 
-    `image`
+    :::image type="content" source="media/ds-scoring-setup.png" alt-text="Lead and opportunity scoring quick setup panel":::
 
 2. To enable predictive lead scoring, select **Create and publish** in the **Predictive lead scores** section.
 
@@ -193,4 +211,32 @@ Once the models are trained and published, the **Lead score** and **Opportunity 
 
 ### Turn off lead and opportunity scoring
 
-`do we need this step?`
+If you want to turn off lead and opportunity scoring, you do it from their respective advanced settings.
+
+**To turn off lead scoring**:
+
+1. Select **Go to advanced lead score settings**.
+
+2. On the **Predictive lead scoring** page, select **Delete model**.
+
+3. In the confirmation dialog box, select **Delete**.
+
+**To turn off opportunity scoring**:
+
+1. Select **Go to advanced opportunity score settings**.
+
+2. On the **Predictive opportunity scoring** page, select **Delete model**.
+
+3. In the confirmation dialog box, select **Delete**.
+
+### Add lead and opportunity scoring widgets to a custom form
+
+By default, the lead and opportunity scoring widgets are available only in the out-of-the-box **Sales Insights** form. If you're using customized forms for leads and opportunities, you can add the scoring widgets to your custom forms. For information about adding scoring widgets to a custom form, see [Add the lead scoring widget to a form](configure-predictive-lead-scoring.md#add-the-lead-scoring-widget-to-a-form) and [Add the opportunity scoring widget to a form](configure-predictive-opportunity-scoring.md#add-the-opportunity-scoring-widget-to-a-form).
+
+### See also
+
+[Configure the sales accelerator for Sales Premium](enable-configure-sales-accelerator.md)   
+[Install and set up Microsoft Teams integration](../teams-integration/teams-install-app.md)  
+[First-run setup experience of Microsoft Teams for conversation intelligence](fre-setup-ci-sales-app.md)   
+[Configure predictive lead scoring](configure-predictive-lead-scoring.md)   
+[Configure predictive opportunity scoring](configure-predictive-opportunity-scoring.md)
