@@ -17,9 +17,7 @@ searchScope:
 ---
 # Create or manage invoices
 
-When a customer places an order, you can create an invoice to bill them for the upcoming sale.  
-  
-Typically, you convert an order into an invoice; however, you can also create an invoice that does not originate from an order.  
+When a customer places an order, you can create an invoice to bill them for the upcoming sale. Typically, you convert an order into an invoice; however, you can also create an invoice that does not originate from an order.  
 
 ## License and role requirements
 

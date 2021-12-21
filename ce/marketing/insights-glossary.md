@@ -1,7 +1,7 @@
 ---
 title: "Glossary of common insights terms (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Definitions of terms commonly used to describe marketing results, insights, and KPIs in Dynamics 365 Marketing."
-ms.date: 12/01/2021
+ms.date: 12/15/2021
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-marketing
@@ -87,7 +87,8 @@ Email messages are sometimes suppressed internally when you are trying to send t
 The number of leads generated as a result of an email message. A new lead is counted when a recipient clicks a landing-page link in the message and then submits the landing page, which generates a new lead for that contact as a result. Landing page submissions that don't generate a new lead aren't counted (for example, because a matching lead already exists or because the landing page isn't set up to generate leads).
 
 ### Unsubscribes
-A recipient clicked on the subscription center link in an email and then unsubscribed from one or more mailing lists. This value counts, at most, one unsubscribe per message per recipient. Unchecking the **Do not e-mail** field is not considered an unsubscribe, as it is a change of a contact preference which is different than unsubscribing from a particular mailing or subscription list.<br>
+- **Outbound marketing**: A recipient selected the subscription center link in an email and then unsubscribed from one or more *mailing lists*. This value counts, at most, one unsubscribe per message per recipient. Unchecking the "Do not e-mail" field is not considered an unsubscribe, as it is a change of a contact preference which is different than unsubscribing from a particular mailing or subscription list.
+- **Real-time marketing**: A recipient selected the preference center link in an email sent from real-time marketing and then unsubscribed one or more *email addresses* associated with the recipient profile used in the journey (contact, lead, or Customer Insights profile).<br>
 ``Unsubscribes = (total unsubscribed / emails that were delivered)*100``
 
 ### Web beacon

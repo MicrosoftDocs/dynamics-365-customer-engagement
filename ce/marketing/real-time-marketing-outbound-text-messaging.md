@@ -1,7 +1,7 @@
 ---
 title: "Create outbound text messages (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create outbound text messages for real-time marketing journeys in Dynamics 365 Marketing."
-ms.date: 11/08/2021
+ms.date: 12/08/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -51,6 +51,9 @@ Toll-free numbers are a good option for transactional A2P messaging, which means
 ## Add a sender number from a Twilio or TeleSign account
 
 You can purchase new or reuse existing SMS accounts with Twilio or TeleSign to send text messages in real-time marketing. The integration works for all countries for which a phone number can be purchased through TeleSign or Twilio.
+
+> [!IMPORTANT]
+> To ensure that third party SMS providers handle STOP commands properly, you must configure your consent settings with the provider directly.
 
 ### Sign up for and configure a Twilio account
 

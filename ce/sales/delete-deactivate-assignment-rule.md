@@ -7,7 +7,9 @@ author: udaykirang
 ms.author: udag
 manager: shujoshi
 ---
-# Delete or deactivate an assignment rule 
+# Preview: Delete or deactivate an assignment rule 
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 You can deactivate or delete an assignment rule that's no longer required in your organization. Deactivation keeps the rule, but it won't be used to assign leads to any sellers in the future. Deleting the rule removes it from the application, but leads that were already assigned to sellers through the rule won't be affected. 
 
