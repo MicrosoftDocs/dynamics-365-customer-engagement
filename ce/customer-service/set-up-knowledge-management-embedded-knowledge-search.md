@@ -63,6 +63,8 @@ After you have configured knowledge management on your app, you must also set up
 ## Set up knowledge management
   
 [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)] You must also be the tenant administrator of [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)].
+
+You can set up knowledge management either on the Customer Service Hub or on Customer Service admin center (preview) app. Depending on your app, perform the following steps:
   
 1. Go to the **Settings** page.
 
@@ -71,12 +73,33 @@ After you have configured knowledge management on your app, you must also set up
 > [!IMPORTANT]
 > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-  * On the Customer Service admin center (preview) site map, select **Knowledge** in **Agent experience**.
-  * On the **Knowledge** page, in the **General Settings** section, select **Manage**.
+  1. On the Customer Service admin center (preview) site map, select **Knowledge** in **Agent experience**.
+  
+  2. On the **Knowledge** page, do the following:
+     * In the **Record types** section, select **Manage**.
+      * On the **Record Types** page, add or edit the record types for which you want to turn on knowledge management.
+     * In the **General Settings** section, select **Manage**.
+      * On the **General Settings** page, in **Search results display count**, select the display count from the dropdown.
+      * In the **Feedback** section, set the **Enable feedback** toggle to Yes. To learn more about how users use this option, see [Submit ratings and feedback for knowledge articles](search-knowledge-articles-csh.md#submit-ratings-and-feedback-for-knowledge-articles).
+      * In the Filters section, set the **Enable search filters** toggle to Yes. If you want to allow agents to personalize the search filters, then set the **Allow agent to personalize the knowledge articles search filters** toggle to Yes.
+      * In the **Authoring language** section, set the **Enable default knowledge authoring language** for your users to Yes.
+        * If you want to select a default knowledge authoring language for your organization, then select the **Organization’s UI language** radio button. 
+        *	If you want to use the organizations’ s UI language as the default knowledge authoring language, select the **Other language** radio button, and then select a language from the **Language** dropdown.
+        *	If you also want to allow users to set their default knowledge authoring language, then set the **Allow users to set default knowledge authoring language** toggle to Yes. More information: Set a default knowledge article authoring language for your organization.
+      *	In the **Origins allow list** section, add your origins links to the **Add origin links** field. More information: [Configure origins allow list for knowledge articles](configure-knowledge-article-origin-allow-list.md#configure-origins-allow-list-for-knowledge-articles)
+      *	In the **Knowledge search logic** section, set the **Set search mode as all** toggle to Yes. More information: [Set up knowledge search logic](#set-up-knowledge-search-logic)
+	    * Select **Save**.
+    * In the **Filters** section, select **Manage**.
+    * In the **Portals** section, select **Manage**.
+        * On the **Portals** page, 
+            * In the **Support portal connection** section, do the following to share knowledge article as URLs:
+                *	Set the **Use an external portal** toggle to Yes, to integrate an external portal to publish knowledge articles.
+                * **URL Format**: Type the portal URL that will be used to create external (public-facing) portal links for knowledge articles, which the service agents can share with the customers. The external URL is created in the following format: https://<support portal URL>/kb/{kbnum}. The placeholder "{kbnum}" is replaced by an actual knowledge article number.
+        *	In the **Sync knowledge article attachments to portal** section, set the **Sync attachments to the portal** toggle to Yes. More information: [Update knowledge article attachments for portal](customer-service-hub-user-guide-knowledge-article.md#update-knowledge-article-attachments-for-portal)
 
 ### [Customer Service Hub](#tab/customerservicehub)
 
-1. On the Customer Service Hub site map, go to **Service Management** and select **Settings** in **Knowledge Base Management**.
+1. On the Customer Service Hub site map, go to **Service Management** and select **Settings** in **Knowledge Base Management**. The **Settings** page appears.
 
 2. On the **Settings** page, in **Record Types**, select the record types you want to turn on knowledge management for. The list will include all entities that are available for an N:N relationship. Knowledge management is enabled for case entity by default.  
 
@@ -108,7 +131,6 @@ After you have configured knowledge management on your app, you must also set up
 10. Select **Save**.
 
 ---
-   
 
 ## Set up knowledge management settings page manually for a model-driven app
 
@@ -158,12 +180,11 @@ You can set up the knowledge search logic either on the Customer Service Hub or 
 > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
   * On the Customer Service admin center (preview) site map, select **Knowledge** in **Agent experience**.
-  * On the **Knowledge** page, in the **General Settings** section, select **Manage**.
+  * On the **Knowledge** page, in the **General Settings** section, select **Manage**. The General settings page appears.
 
 ### [Customer Service Hub](#tab/customerservicehub)
 
-  * On the Customer Service Hub site map, go to **Service Management**.
-  * In **Knowledge Base Management**, select **Settings**.
+  * On the Customer Service Hub site map, go to **Service Management** and select **Settings** in **Knowledge Base Management**. The **Settings** page appears.
 
 ---
 
