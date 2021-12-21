@@ -1,7 +1,7 @@
 ---
 title: Understand Knowledge Management in Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: Understand Knowledge Management in Customer Service Hub for Customer Service Dynamics 365 Customer Service
-ms.date: 12/20/2021
+ms.date: 12/21/2021
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -557,23 +557,26 @@ After the content in the article is complete and reviewed, you can publish the a
 7.  If you want to schedule the article to publish on a later date, on the **Summary** tab, in the **Publish On** field, select a date and time to publish the article.  
 
 8.  Select **Finish**. The Publish dialog is displayed.
+
+  > [!NOTE]
+  > The Publish dialog appears only for the default business process flows where the final stage is **Publish**. To configure the Publish dialog for other customized stages, see [Process events and event handler methods](/powerapps/developer/model-driven-apps/clientapi/reference/formcontext-data-process#process-events-and-event-handler-methods).
+
+-   In the **Publish** field, select whether you want to publish the knowledge article right away or in the future. To publish the article in the future, in the **Publish On** field, select a date and time.  
   
-    -   In the **Publish** field, select whether you want to publish the knowledge article right away or in the future. To publish the article in the future, in the **Publish On** field, select a date and time.  
+-   In the **Published Status** field, select what status the article should be in after it is published. By default, **Published** is selected.  
   
-    -   In the **Published Status** field, select what status the article should be in after it is published. By default, **Published** is selected.  
+-   In the **Expiration Date** field, select a date and time when you want the published article to expire. Expired articles are no longer available in searches.  
   
-    -   In the **Expiration Date** field, select a date and time when you want the published article to expire. Expired articles are no longer available in searches.  
+-   If you’ve set an expiration date, in the **Expiration Status** field, select the status the knowledge article should be set to after it expires.  
   
-    -   If you’ve set an expiration date, in the **Expiration Status** field, select the status the knowledge article should be set to after it expires.  
+-   To publish all approved related translated articles with the article, in the **Publish Approved related translations with Article** field, select **Yes**.  
   
-    -   To publish all approved related translated articles with the article, in the **Publish Approved related translations with Article** field, select **Yes**.  
-  
-    -   Select **Publish**. 
+-   Select **Publish**. 
        
     :::image type="content" source="media/ka-publish.png" alt-text="Schedule or publish an article":::
     
 > [!NOTE]
-> In the knowledge article for interactive experience form, if there is an active customization layer over the **msdynce_KnowledgeManagementFeatures** layer, you won't be able to view the quick form publish dialog. You must delete the active customization layer to view the quick form publish dialog. More information: [Removed an unmanaged layer](/powerapps/maker/data-platform/solution-layers#remove-an-unmanaged-layer)
+> In the knowledge article for interactive experience form, if there is an active customization layer over the **msdynce_KnowledgeManagementFeatures** layer, you won't be able to view the quick form publish dialog. You must delete the active customization layer to view the quick form publish dialog. More information: [Removed an unmanaged layer](/powerapps/maker/data-platform/solution-layers#remove-an-unmanaged-layer).
 
 ## Track basic details of an article  
 
