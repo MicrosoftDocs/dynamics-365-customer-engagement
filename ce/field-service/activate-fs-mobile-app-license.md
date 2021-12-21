@@ -29,27 +29,23 @@ Field Service Mobile (Xamarin app) will reach end of life on June 30, 2022. Exis
 
 ### What will happen to the app after June 30, 2022
 
-After June 30, 2022, mobile app licenses will be removed. Woodford will no longer be able to publish and end users will not be able to access the mobile app.
+After June 30, 2022, mobile app licenses will be removed. The Mobile Configurator used with Field Service Mobile-Xamarin will no longer be able to publish and end users will not be able to access the mobile app.
 
-### Will I have access to my Woodford project after June 30, 2022?
+### Will I have access to my Mobile Configurator after June 30, 2022?
 
-The Woodford project will still be available in your org, but you will no longer be able to publish updates without a valid license.
+The Mobile Configurator used with Field Service Mobile - Xamarin will still be available in your org, but you will no longer be able to publish updates without a valid license.
 
 ### Can I use Resco MobileCRM application with Field Service Mobile licenses?
 
-No. Resco MobileCRM is a third-party ISV application, which is not eligible for use with licenses acquired through the Field Service Mobile (Xamarin app) licensing form. 
+No. Resco MobileCRM is a third-party ISV application with it's own licensing. The Resco MobileCRM application is not eligible for use with licenses acquired through the Field Service Mobile (Xamarin app) licensing form. 
 
 ### Why can I no longer request individual licenses for Field Service Mobile (Xamarin app)?
 
-With the latest versions of Field Service Mobile (Xamarin app), you only need a project license; individual user licenses are granted by enabling the users as "mobile enabled bookable resources" in Dynamics 365. 
+With the latest versions of Field Service Mobile - Xamarin, you only need a project license; individual user licenses are granted by enabling the users as "mobile enabled bookable resources" in Dynamics 365. 
 
-### How do I find my organization ID?
+### I have more questions about Migration - where can I go for help?
 
- 1. Go to **Settings** > **Customizations** > **Developer Resources**.
- 1. In the **Instance Reference Information** section, find the ID.
-        
-  > ![Org ID in settings.](media/admin-orgid.png)  
-  
+Please reach out to D365 Field Service Mobile Adoption <d365fsmadoption@microsoft.com> for futher questions.
 
 
        
