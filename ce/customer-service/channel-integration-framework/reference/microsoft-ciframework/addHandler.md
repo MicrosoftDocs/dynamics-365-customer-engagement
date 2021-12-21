@@ -15,7 +15,7 @@ ms.custom:
 
 # addHandler (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0
 
-[!INCLUDE[addHandler-description](includes/addHandler-description.md)] 
+[!INCLUDE[addHandler-description](includes/addHandler-description.md)]
 
 ## Syntax
 
@@ -25,8 +25,8 @@ ms.custom:
 
 | Name | Type | Required | Description |
 |------|------|----------|-------------|
-| eventName | String | Yes | Name of the event for which the handler is set. <br>The supported events are as follows:<br><ul><li><b>onClickToAct:</b> The event is invoked when the outbound communication (ClickToAct) enabled field is clicked.</li> <li><b>onModeChanged:</b> The event is invoked when the panel mode is manually toggled between Minimized (0) and Docked (1). </li><li><b>onSizeChanged:</b> The event is invoked when the panel size is manually changed by dragging. </li><li><b>onPageNavigate:</b> The event is triggered before a navigation event occurs on the main page </li><li><b>onSendKBArticle: </b> The event is invoked when the user selects the **Send** button on the KB control.</li></ul>  |
-| handlerFunction | Function | Yes | The handler function is invoked when the any of the supported events trigger. |
+| eventName | String | Yes | Name of the event for which the handler is set. <br>The supported events are as follows:<br><ul><li><b>onClickToAct:</b> The event is invoked when the outbound communication (Click-to-Act) field is enabled.</li> <li><b>onModeChanged:</b> The event is invoked when the panel mode is manually toggled between Minimized (0) and Docked (1). </li><li><b>onSizeChanged:</b> The event is invoked when the panel size is manually changed by dragging. </li><li><b>onPageNavigate:</b> The event is triggered before a navigation event occurs on the main page </li><li><b>onSendKBArticle: </b> The event is invoked when the user selects the **Send** button on the KB control.</li></ul>  |
+| handlerFunction | Function | Yes | The handler function is invoked when the any of the supported events are triggered. |
 
 ## Example
 
@@ -43,15 +43,10 @@ Microsoft.CIFramework.addHandler("onmodechanged", handlerFunction);
 
 ### See also
 
-[onClickToAct](../events/onclicktoact.md)
-
-[onModeChanged](../events/onmodechanged.md)
-
-[onPageNavigate](../events/onpagenavigate.md)
-
-[onSendKBArticle](../events/onsendkbarticle.md)
-
-[onSizeChanged](../events/onsizechanged.md)
-
+[onClickToAct](../events/onclicktoact.md)  
+[onModeChanged](../events/onmodechanged.md)  
+[onSizeChanged](../events/onsizechanged.md)  
+[onPageNavigate](../events/onpagenavigate.md)  
+[onSendKBArticle](../events/onsendkbarticle.md)  
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
