@@ -66,24 +66,20 @@ After you have configured knowledge management on your app, you must also set up
   
 1. Go to the **Settings** page.
 
-### [Customer Service Admin Center (preview)](#tab/customerserviceadmincenter)
+### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
 > [!IMPORTANT]
-> This section is pre-release documentation and is subject to change.
+> The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-  * On the Customer Service Admin Center (preview) site map, select **Experiences > Knowledge**.
-  * On the **Knowledge** page, in the **Other Settings** section, select **Manage**.
+  * On the Customer Service admin center (preview) site map, select **Knowledge** in **Agent experience**.
+  * On the **Knowledge** page, in the **General Settings** section, select **Manage**.
 
 ### [Customer Service Hub](#tab/customerservicehub)
 
-  * On the Customer Service Hub site map, go to **Service Management**.
-  * In **Knowledge Base Management**, select **Settings**.
+1. On the Customer Service Hub site map, go to **Service Management** and select **Settings** in **Knowledge Base Management**.
 
----
-  
 2. On the **Settings** page, in **Record Types**, select the record types you want to turn on knowledge management for. The list will include all entities that are available for an N:N relationship. Knowledge management is enabled for case entity by default.  
 
-  
 3. In the **Support Portal Connection** section, enter the following:  
   
    - **Use an external portal**. You can integrate an external portal to publish knowledge articles. If your organization uses one, select this check box.  
@@ -109,7 +105,10 @@ After you have configured knowledge management on your app, you must also set up
 
 9.  In the **Knowledge search logic** section, set the **Set search mode as all** toggle to **Yes**. More information: [Set up knowledge search logic](#set-up-knowledge-search-logic).
 
-10. Select **Save**.  
+10. Select **Save**.
+
+---
+   
 
 ## Set up knowledge management settings page manually for a model-driven app
 
@@ -149,17 +148,17 @@ You can enable the knowledge search to work by the `searchmode=all` logic, which
 - Article 1: Contoso coffee order price
 - Article 2: Coffee machine order for Contoso
 
-To set up the knowledge search logic:
+You can set up the knowledge search logic either on the Customer Service Hub or on Customer Service admin center (preview) app. Depending on your app, perform the following steps:
 
 1. Go to the **Settings** page.
 
-### [Customer Service Admin Center (preview)](#tab/customerserviceadmincenter)
+### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
 > [!IMPORTANT]
-> This section is pre-release documentation and is subject to change.
+> The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-  * On the Customer Service Admin Center (preview) site map, select **Experiences > Knowledge**.
-  * On the **Knowledge** page, in the **Other Settings** section, select **Manage**.
+  * On the Customer Service admin center (preview) site map, select **Knowledge** in **Agent experience**.
+  * On the **Knowledge** page, in the **General Settings** section, select **Manage**.
 
 ### [Customer Service Hub](#tab/customerservicehub)
 
@@ -168,7 +167,7 @@ To set up the knowledge search logic:
 
 ---
 
-2. In the **Knowledge search logic** section, set **Set search mode as all** toggle to **Yes**.
+2. In the **Knowledge search logic** section, set the **Set search mode as all** toggle to **Yes**.
 
 3. Select **Save**.
 
