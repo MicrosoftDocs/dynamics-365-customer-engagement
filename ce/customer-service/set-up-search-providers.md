@@ -50,11 +50,25 @@ From an authentication perspective, your agents must have access to external con
 >
 > Before you set up a search provider, ensure that your firewall doesn't block the https://www.d365ccafpi.com/ domain. Otherwise, users will encounter errors.
 
-To set up a search provider:
+You can set up a search provider either on the Customer Service Hub or on Customer Service admin center (preview) app. Depending on your app, perform the following steps:
+
+1. Go to **Search providers**.
+  
+### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+
+> [!IMPORTANT]
+> The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+  * On the Customer Service admin center (preview) site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+  * In the **Search providers** section, select **Manage**.
+
+### [Customer Service Hub](#tab/customerservicehub)
 
 1.	In the Customer Service Hub site map, go to **Service Management**, and select **Search providers** in **Knowledge Base Management**.
 
-2.	In the **Knowledge Base Management Search providers** wizard, select **New**.
+---
+
+2.	Select **New**.
 
 3.	On the **New Search provider** page, **General** section, enter the name and owner of the search provider. Optionally, you can  enter a description.
      
