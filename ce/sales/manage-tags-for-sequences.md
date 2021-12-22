@@ -32,6 +32,13 @@ You can do the following activities on tags:
 -	[Filter sequences based on tags](#filter-sequences-based-on-tags)
 -	[Remove tags from a sequence](#remove-tags-from-a-sequence)
 
+## Who can manage tags?
+
+By default, the users with sales manager and sequence manager roles can use the tag manager and assign tags to sequences. For other roles to use the feature, you need access to sequence page and contact your administrator to get the following privileges:   
+- Read, append, and append to access at user-level for the **Sales tag** (**msdyn_salestag**) table to assign tag to a sequence.   
+- Create, read, write, and delete access at user-level for the **Sales tag** (**msdyn_salestag**) table to use tag manager.    
+More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges).
+
 ## Create tags
 
 Create tags to categorize sequences into a logical order. For example, you want to categorize leads based on the city of origin. You create tags with city names such as, Seattle and Hyderabad, and apply them to leads according to their city of origin.   
