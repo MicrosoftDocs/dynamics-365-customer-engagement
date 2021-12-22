@@ -92,6 +92,8 @@ If you want to turn off sales accelerator, you do it from the advanced settings.
 
 2. On the **Sales accelerator setup** page, select **Unpublish**.
 
+    :::image type="content" source="media/ds-sa-turn-off.png" alt-text="Turn off Sales accelerator":::
+
 3. In the confirmation dialog box, select **Unpublish**.
 
 ### Add the Up next widget to a custom form
