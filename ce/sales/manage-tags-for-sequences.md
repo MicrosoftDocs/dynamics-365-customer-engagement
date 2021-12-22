@@ -127,7 +127,7 @@ In this example, we're editing the tag **Mexico city** (which is under **North A
 
 ## Delete a tag
 
-You can remove the tags that are no longer required in your organization to associate with a sequence. If a sequence is associated with the deleted tag, the tag is automatically removed from the sequence. More information: [Filter sequence based on tags](#filter-sequence-based-on-tags).
+You can remove the tags that are no longer required in your organization to associate with a sequence. If a sequence is associated with the deleted tag, the tag is automatically removed from the sequence. More information: [Filter sequence based on tags](#filter-sequences-based-on-tags).
 
 1.	Open the tag manager.
 2.	Hover the mouse over a tag and select the **Delete** icon.     
