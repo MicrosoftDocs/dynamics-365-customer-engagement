@@ -326,7 +326,9 @@
       - name: Understand sales acceleration reporting
         href: understand-sales-acceleration-reporting.md
       - name: Understand the sequence stats page
-        href: understand-sequence-stats.md  
+        href: understand-sequence-stats.md
+      - name: Manage tags for sequences
+        href: manage-tags-for-sequences.md    
       - name: View sequence in a grid
         href: view-disconnected-sequences.md  
       - name: Clone a sequence
