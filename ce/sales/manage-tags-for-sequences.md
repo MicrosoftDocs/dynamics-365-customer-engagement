@@ -12,7 +12,7 @@ manager: shujoshi
 
 Tags help you quickly filter and identify sequences from a list by categories that you define.
 
-## Role and license requirements
+## License and role requirements
 
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
@@ -57,7 +57,7 @@ Create tags to categorize sequences into a logical order. For example, you want 
 
     | Field | Description |
     |-------|-------------|
-    | Tag name | Enter the name of the tag.<br>**Note**: You can't have forward slash (/) in name. |
+    | Tag name | Enter the name of the tag.<br>**Note**: Forward slash (/) is not supported in tag names. |
     | Nest tag under | Select a tag name under which you want to create the tag. When **None** is selected, the tag is created at level 1 and you can add tags under it. To add multiple tags, press **Enter** after adding each tag.<br>You can also create nested tags. More information: [Create nested tag](#create-nested-tag). |
 
 7.	Select **Save**.    
@@ -65,7 +65,7 @@ Create tags to categorize sequences into a logical order. For example, you want 
 
 ### Create nested tag
 
-The nested tags allow you to group the tags together so that it’s easy to identify tags while applying to a sequence. For example, you want to create tags based on regions and go down levels to cities including countries and states. You create North America (at level 1), create United states of America (level 2), create Washington state (level 3), then create Seattle (level 4).
+Nested tags allow you to group the tags together so that it’s easy to identify tags while applying to a sequence. For example, you want to create tags based on regions and go down levels to cities including countries and states. You create North America (at level 1), create United states of America (level 2), create Washington state (level 3), then create Seattle (level 4).
 
 >[!IMPORTANT]
 >- You can create nested tags for up to 4 levels.
@@ -131,7 +131,7 @@ You can remove the tags that are no longer required in your organization to asso
 
 1.	Open the tag manager.
 2.	Hover the mouse over a tag and select the **Delete** icon.     
-    A conformation message is displayed.
+    A confirmation message is displayed.
 
     >[!div class="mx-imgBorder"]
     >![Delete tag confirmation message](media/sa-sequence-tags-delete-confirmation-message.png "Delete tag confirmation message")    
@@ -139,7 +139,7 @@ You can remove the tags that are no longer required in your organization to asso
 3.	Select **Delete permanently**.     
     The tag is deleted. 
 
-If a tag is deleted that has child tags, then the child tags will move up a level in hierarchy and are nested under the parent of the deleted tag.
+If the tag being deleted has child tags, then the child tags will move up a level in hierarchy and are nested under the parent of the deleted tag.
 
 For example, there are three levels of tags in the hierarchy, and you deleted a tag at parent (level 2). The child tags (level 3) move up a level (level 2) and nested under the parent (level 1). When you delete **Mexico** (parent) which is at level 2, the cities under it move a level up to **North America** and become level 2 in the hierarchy.
 
