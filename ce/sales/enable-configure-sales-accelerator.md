@@ -25,7 +25,7 @@ The sales accelerator feature helps sellers in your organization increase their 
 
 > [!NOTE]
 > - To configure sales accelerator for assignment rule with your enterprise license, see [Configure sales accelerator for assignment rules](sales-accelerator-assignment-rules.md).
-> - You can also enable sales accelerator through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get only 1500 sequence-connected records per month. More information: [Lead and opportunity scoring](digital-selling.md#sales-accelerator)
+> - You can also set up sales accelerator through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get only 1500 sequence-connected records per month. More information: [Set up sales accelerator](digital-selling.md##set-up-sales-accelerator)
 
 As an administrator, you must enable and configure the sales accelerator in your organization to make it available for sales managers and sellers to use. Follow these steps:
 

@@ -94,6 +94,10 @@ If you want to turn off sales accelerator, you do it from the advanced settings.
 
 3. In the confirmation dialog box, select **Unpublish**.
 
+### Add the Up next widget to a custom form
+
+By default, the **Up next** widget is available only in the out-of-the-box Sales Insights, lead, and opportunity forms. If you're using customized forms, you can display the Up next widget on your custom forms. For information about adding the **Up next** widget to a custom form, see [Add the Up next widget to a custom form](add-upnext-widget-form.md)
+
 ## Microsoft Teams collaboration
 
 Connect Dynamics 365 and Microsoft Teams so your sales teams can collaborate seamlessly on deals from wherever they work. Dynamics 365 and Microsoft Teams integration allows you to speed up the flow of work, enabling anyone in an organization to view and collaborate on Dynamics 365 records, from within the flow of work with Teams—at no additional cost. More information: [Overview of Microsoft Teams integration](../teams-integration/teams-integration.md)
