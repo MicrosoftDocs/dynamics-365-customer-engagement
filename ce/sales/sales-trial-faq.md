@@ -61,6 +61,7 @@ The following licenses and capabilities pre-installed in the trial app:
 
 - Manage sales pipeline using leads and opportunities
 - Forecast sales
+- Sales Premium features (Sales accelerator, conversation intelligence, and predictive scoring) with limited monthly capacity. More information: [Digital selling capabilities in Sales Enterprise](digital-selling.md)
 
 To get started with the Sales Enterprise functionalities, see [Learn the basics of [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]](user-guide-learn-basics.md)
 

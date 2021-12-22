@@ -1,7 +1,7 @@
 ---
 title: "Manage sequences in sales accelerator"
 description: "Manage sequences in sales accelerator by creating, activating, connecting, viewing details, cloning, editing, and deleting."
-ms.date: 10/26/2021
+ms.date: 01/07/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -15,7 +15,7 @@ Sequences help sales managers enforce best practices by introducing a set of con
 
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator, Sequence manager, or Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
