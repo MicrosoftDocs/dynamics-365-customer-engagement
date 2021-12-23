@@ -60,7 +60,7 @@
     href: field-service-customize-forms.md 
   - name: Write flows and workflows
     href: field-service-customize-workflows.md
-  - name: Write compelx business logic (plugins, scripts, JavaScript, etc)
+  - name: Write complex business logic (plugins, scripts, JavaScript, etc)
     href: field-service-customize-scripts.md
   - name: Integrate Field Service with other apps
     href: field-service-customize-integrations.md        
