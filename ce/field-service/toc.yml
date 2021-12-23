@@ -62,7 +62,7 @@
     href: field-service-customize-workflows.md
   - name: Write compelx business logic (plugins, scripts, JavaScript, etc)
     href: field-service-customize-scripts.md
-  - name: Integrations 
+  - name: Integrate Field Service with other apps
     href: field-service-customize-integrations.md        
   - name: Customization best practices
     href: field-service-customization-best-practices.md 
