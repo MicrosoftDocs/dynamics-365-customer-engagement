@@ -46,12 +46,24 @@
     href: configure-default-settings.md
 - name: Customize Field Service
   items: 
-  - name: Overview
+  - name: What to know before customizing Field Service
     href: file.md
-  - name: Overview
+  - name: Copy the app module
     href: file.md
-  - name: Overview
+  - name: Edit security roles
+    href: file.md
+  - name: Create and edit columns (fields)
+    href: file.md
+  - name: Customize views
+    href: file.md
+  - name: Customize forms
     href: file.md 
+  - name: Write flows and workflows
+    href: file.md
+  - name: Write compelx business logic (plugins, scripts, JavaScript, etc)
+    href: file.md
+  - name: Integrations 
+    href: file.md        
   - name: Customization best practices
     href: field-service-customization-best-practices.md 
 - name: Quickstarts
