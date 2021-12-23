@@ -18,3 +18,11 @@ search.app:
 - D365CE
 - D365FS
 ---
+
+## Introduction
+
+## Pros and cons
+
+## Copy the app module
+
+## Recommended best practices

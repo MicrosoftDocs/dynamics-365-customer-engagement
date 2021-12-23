@@ -44,7 +44,7 @@ search.app:
 		a. Performance bench mark
 		b. Best practice violations 
 
-## Best practices
+## Recommended best practices
 
 	- Hide unwanted fields, do not remove them, and move them away from the first tab
 	- Use Form component control

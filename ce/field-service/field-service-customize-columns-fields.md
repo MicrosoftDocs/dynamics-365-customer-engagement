@@ -18,3 +18,13 @@ search.app:
 - D365CE
 - D365FS
 ---
+
+## Introduction
+
+## Create new fields
+
+## Edit existing fields
+
+## Delete fields
+
+## Recommended best practices

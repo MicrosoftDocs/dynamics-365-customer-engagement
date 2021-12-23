@@ -47,6 +47,9 @@ search.app:
 - Object checker
 - EasyRepro
 
+
+## Recommended best practices
+
 ### See also
 
 https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/testing-tools-client

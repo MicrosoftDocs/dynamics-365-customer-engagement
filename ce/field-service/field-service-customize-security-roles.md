@@ -18,3 +18,8 @@ search.app:
 - D365CE
 - D365FS
 ---
+
+## Copy secuirty roles
+
+
+## Recommended best practices

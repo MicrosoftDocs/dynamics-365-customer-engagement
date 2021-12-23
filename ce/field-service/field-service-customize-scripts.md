@@ -20,6 +20,9 @@ search.app:
 ---
 
 
+
+## Recommended best practices
+
 ### See also
 
 - https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/best-practices/business-logic/

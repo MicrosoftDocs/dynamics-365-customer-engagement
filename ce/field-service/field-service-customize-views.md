@@ -18,3 +18,6 @@ search.app:
 - D365CE
 - D365FS
 ---
+
+
+## Recommended best practices

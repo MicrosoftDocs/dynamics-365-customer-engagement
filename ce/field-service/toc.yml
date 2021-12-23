@@ -65,7 +65,9 @@
   - name: Integrate Field Service with other apps
     href: field-service-customize-integrations.md        
   - name: Customization best practices
-    href: field-service-customization-best-practices.md 
+    href: field-service-customization-best-practices.md
+  - name: Validate your customizations
+    href: field-service-customization-validate.md  
 - name: Quickstarts
   items: 
   - name: Set up users to create, schedule, and view work orders
