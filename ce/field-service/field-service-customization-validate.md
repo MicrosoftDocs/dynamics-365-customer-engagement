@@ -45,5 +45,10 @@ search.app:
 - solution health hub
 - solution chekcer
 - Object checker
+- EasyRepro
+
+### See also
+
+https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/testing-tools-client
 
 
