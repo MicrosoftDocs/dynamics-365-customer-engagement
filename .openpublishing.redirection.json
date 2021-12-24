@@ -23533,6 +23533,11 @@
       "source_path": "ce/sales-professional/sample-softphone-integration-sp.md",
       "redirect_url": "/dynamics365/sales/sample-softphone-integration",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/index.yml",
+      "redirect_url": "/dynamics365/sales/help-hub",
+      "redirect_document_id": "false"
     }
   ]
 }

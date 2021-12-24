@@ -4,7 +4,7 @@ description: "Learn about the region availability and supported languages for th
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 12/15/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -12,6 +12,15 @@ ms.service: dynamics-365-customerservice
 # Regional availability and supported languages for the voice channel
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+The purpose of this document is to provide information about availability of the voice channel with respect to the following:
+
+- [Supported regions](#supported-regions)
+
+- [Supported languages and locale codes](#supported-languages-and-locale-codes)
+
+> [!NOTE]
+> For more information about availability of live chat and digital messaging channels, see [International availability of Omnichannel for Customer Service](international-availability.md#international-availability-of-omnichannel-for-customer-service).
 
 ## Supported regions
 
@@ -90,7 +99,7 @@ The following table lists the upcoming availability of the voice channel in Omni
 
 ### What languages are supported in the voice channel at general availability (GA)
 
-For our GA release of voice channel, language support is feature-specific. 
+For our GA release of voice channel, language support is feature-specific.
 
 We use Azure Cognitive Service Speech’s Speech-to-Text for transcription, so we plan on supporting all of the languages that Speech-To-Text supports today. Power Virtual Agents is available only for a subset of languages, so for Power Virtual Agents-based IVR, we will support the languages that Power Virtual Agents supports. We also support a bring-your-own-bot through Azure Bot Service for IVR that will be constrained by the languages that speech-to-text supports. For AI suggestions, we have added more languages as of April 2021.  
 
