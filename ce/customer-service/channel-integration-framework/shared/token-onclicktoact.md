@@ -1,6 +1,6 @@
-The `onClickToAct` event invoked when user selects the outbound communication (click-to-act) field in a form.
+The `onClickToAct` event invoked when user selects the outbound communication (ClickToAct) field in a form.
 
-You can also write custom controls to raise the Channel Integration Framework click-to-act window event and pass any event data as the business requirement.
+You can also write custom controls to raise the Channel Integration Framework ClickToAct window event and pass any event data as the business requirement.
 
 ## eventData
 
