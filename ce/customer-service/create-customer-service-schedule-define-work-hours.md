@@ -61,7 +61,7 @@ You can create the service schedule and define work hours in Dynamics 365 Custom
   
       - **24 x 7 support**: The customer support is available 24 hours a day and all days of the week.  
   
-   2. For **Work Days**, select the check box for each day that the customer support resources will be available and working.  
+   2. For **Work Days**, select the checkbox for each day that the customer support resources will be available and working.  
   
    3. For **Holiday Schedule**, select **Observe** to specify when your service organization will be closed.  
   
