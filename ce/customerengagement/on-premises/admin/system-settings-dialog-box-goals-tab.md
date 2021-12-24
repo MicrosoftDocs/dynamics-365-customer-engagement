@@ -46,7 +46,7 @@ Set the duration and frequency of the automatic rollup of goals. These settings 
 |                  Roll-up recurrence frequency                  |                                                     Set the number of hours between each goal rollup.<br>**Default**: 24 <br>**Limits**: Must be greater than or equal to 24 hours                                                      |
   
 ### See also  
- [Administrator and Sales Manager Guide](../../../sales/admin-guide.md)  
+ [Administrator and Sales Manager Guide](../../../sales/admin-guide.yml)  
  [Progress Against Goals report](../basics/sales-insights-reports.md#BKMK_ProgressGoals)
 
 

@@ -5,7 +5,7 @@ keywords:
 ms.date: 10/31/2017
 ms.prod: d365ce-op
 ms.custom: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: ab035539-7158-4efb-ad4c-86cb87eb2e0f
@@ -19,7 +19,6 @@ caps.latest.revision: 20
 topic-status: Drafting
 search.audienceType: 
   - developer
-
 ---
 
 # Sample: Install or remove sample data

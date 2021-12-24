@@ -1,6 +1,6 @@
 ---  
-title: "Trial FAQ - Dynamics 365 Sales Enterprise | Microsoft Docs"
-description: "Solutions to common questions related to Dynamics 365 Sales Enterprise trial sign up and management. Learn how to resolve platform and app-specific issues."
+title: "Trial FAQ | Microsoft Docs"
+description: "Solutions to common questions related to Dynamics 365 Sales Premium trial sign up and management. Learn how to resolve platform and app-specific issues."
 author: lavanyakr01
 ms.author: lavanyakr
 ms.date: 08/31/2021
@@ -9,9 +9,9 @@ ms.service: dynamics-365-sales
 ms.custom: template-trial-faq
 ms.reviewer: shujoshi
 ---
-# Dynamics 365 Sales Enterprise trial FAQ 
+# Dynamics 365 Sales trial FAQ 
 
-The Sales Enterprise trial offers a straightforward experience for sign-up, login, and usage. However, if you're stuck or have questions about the trial, check out this page for answers.
+The Sales trial offers a straightforward experience for sign-up, login, and usage. However, if you're stuck or have questions about the trial, check out this page for answers.
 
 [!INCLUDE[trial-faq-platform](../shared/trials/trial-faq-platform.md)]
 
@@ -31,7 +31,7 @@ The following limitations apply for the trial:
 - The trial will expire if there’s no activity on the app for 14 consecutive days. Expired trials cannot be reactivated. However, you can start a new trial.  
 - You can have only one active trial per app at a time. You can sign up again after your current trial for the app ends.
 
-## Dynamics 365 Sales Enterprise-specific questions
+## Dynamics 365 Sales Premium-specific questions
 
 ### How do I start using the trial?
 
@@ -39,25 +39,28 @@ When the trial is ready, you can get started with the following resources:
 
 **Explore product tours and videos for key capabilities**
 
-The trial comes with product tours and videos, highlighting the important scenarios that you could try in the app and get the maximum value in minimal time. Select the **Get started** page and open the tour for the scenario that you are interested in. Once you understand how different entities are connected to offer value, try the scenarios with sample data or with your own data. 
+The trial comes with product walkthroughs and videos, highlighting the important scenarios that you could try in the app and get the maximum value in minimal time. Select **Take a tour** at the lower-right corner to follow a guided  tour that gets you started quickly on the salient features.  
+
+Once you understand how different entities are connected to offer value, try the scenarios with sample data or with your own data. 
 
 **Play around with the mobile app**
 
-Install the Sales mobile app and explore the functionalities that you can access on the move. Open the **Get started** page and scroll down to the **Take it to go** section to download the app. For more information on using the app, see [Use the Dynamics 365 Sales mobile app](sales-mobile/use-sales-mobile-app.md). If you run into issues, see [What should I do if I don't see any apps in the mobile app](#what-should-i-do-if-i-dont-see-any-apps-in-the-mobile-app). 
+Install the Sales mobile app and explore the functionalities that you can access on the move. Open the **Resources** page and scroll down to the **Explore the mobile app** section to download the app. For more information on using the app, see [Use the Dynamics 365 Sales mobile app](sales-mobile/use-sales-mobile-app.md). If you run into issues, see [What should I do if I don't see any apps in the mobile app](#what-should-i-do-if-i-dont-see-any-apps-in-the-mobile-app). 
 
 **Deep dive into more scenarios**
 
-If you want to test scenarios beyond the ones covered in the product tour, go ahead and take a plunge. Browse through other capabilities from the sitemap (left pane). Visit the [Help hub](help-hub.md) for assistance.
+If you want to test scenarios beyond the ones covered in the product tour, go ahead and take a plunge. To browse through other capabilities, select the **Sales trial** link at the top of your trial app and select **Sales Hub** from the list of apps. Visit the [Help Hub](help-hub.yml) for more information on all the capabilities.
 
 ### What features are available in the trial?
 
-Your trial includes a simplified Sales Enterprise Trial app with a few important capabilities to get you started quickly. However, you can access the fully functional, Dynamics 365 Sales Premium environment with the following licenses and capabilities pre-installed:
+Your trial includes a simplified Trial app with a few important capabilities to get you started quickly. However, you can access the fully functional, Dynamics 365 Sales Premium environment. Select the **Sales trial** link at the top of your trial app and select **Sales Hub** from the list of apps.
+
+The following licenses and capabilities pre-installed in the trial app:
 
 **Dynamics 365 Sales Enterprise**
-- Manage sales pipeline from lead to cash
-- Manage sales forecasting
-- Manage products, goals, playbooks
-- Enable seamless collaboration by integrating Dynamics 365 with Microsoft Teams
+
+- Manage sales pipeline using leads and opportunities
+- Forecast sales
 
 To get started with the Sales Enterprise functionalities, see [Learn the basics of [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]](user-guide-learn-basics.md)
 
@@ -65,7 +68,7 @@ To get started with the Sales Enterprise functionalities, see [Learn the basics 
 
 - Sell smartly using Sales accelerator that builds a strong and prioritized pipeline, offers context, and surfaces automated recommendations
 - Improve seller coaching and sales potential with conversation intelligence
-- Get the AI-powered assistant to stay on top of your activities
+- Get the AI-powered assistant to stay on top of your activities 
 - Prioritize leads and opportunities using predictive scoring
 - Analyze revenue outcome by using predictive forecasting
 
@@ -76,6 +79,10 @@ To get started with the Sales Insights functionalities, see [Sales Insights Add-
 
 **Dynamics 365 Power Platform**
 - Administer and customize your Dynamics 365 Sales environment to fit your needs  
+
+### Why can't I find the features and options mentioned in the documentation?
+
+The trial is designed to give you the optimum experience. Though the Trial includes a premium license, the Sales trial app includes only a few important features. If you would like to explore other features, select the **Sales trial** link at the top of your trial app and select **Sales Hub** from the list of apps. Also, the Trial app sitemap is organized differently than the production apps. Hence, the navigation mentioned in the documentation will not match for the Trial app.  
 
 ### What should I do if I don't see any apps in the mobile app
 
@@ -108,21 +115,24 @@ Sample data resembles real life data and helps you learn how the product works i
 
 **To remove sample data:**
 
-1. In the Sales sitemap, select the **Get Started** page.  
-1. Scroll down to the **Manage sample data** section and select **Remove sample data**.
+1. In the Sales sitemap, select the **Resources** page.
+  
+1. Scroll down to the **More resources** section and select **Add or remove sample data**.
+1. Select **Remove sample data**.
      After you confirm, it takes a few seconds to remove the sample data.
     > [!NOTE]
     > This action doesn't delete the data that you have added in the trial app.
 
-### How do I restore sample data?
+### How do I add or restore sample data?
 
-If you have modified the sample data and want to restore it back to the original, you can do so.
+If you have modified the sample data and want to restore it back to original, then remove the existing sample data and add the fresh dataset.
 
-**To restore sample data:**
+**To restore the sample data:**
 
-1. In the Sales sitemap, select the **Get Started** page.  
-1. Scroll down to the **Manage sample data** section and select **Remove sample data**.  
-1. After the existing sample data is completely removed, you'll see **Add sample data**.  
+1. To remove the existing sample data, see [How do I remove sample data from the trial?](#how-do-i-remove-sample-data-from-the-trial)  
+  
+    After the sample data is removed completely, you'll see the **Add sample data** button.
+  
 1. Select **Add sample data** to add the fresh sample data.
 
 ### Is the Sales trial available in all geographical regions?

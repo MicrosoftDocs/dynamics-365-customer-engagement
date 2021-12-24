@@ -1,5 +1,5 @@
 ---
-title: "Create or edit sales orders - Sales Enterprise | MicrosoftDocs"
+title: "Create or edit sales orders in Dynamics 365 Sales"
 description: "Use orders to track details of the products or services that your customers want to place an order for."
 ms.date: 10/25/2021
 ms.topic: get-started-article
@@ -18,16 +18,21 @@ searchScope:
 ---
 # Create or edit sales orders 
 
-Congratulations! Your hard work nurturing your customer has paid off and they're ready to place an order for your products or services. In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], an order can originate from a customer's acceptance of a quote, or you can place an order without an accepted quote, depending on the situation.  
-  
- One way that can help you increase your sales is to add all products that your customer might need to your order. [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] may also offer product bundles or product families to make it easier for you to choose products for upsell and cross-sell. If you've already prepared a quote for your customer, you can create an order from that quote.  
+Use orders to track details of the products or services that your customers want to place an order for.
 
 ## License and role requirements
-|  | |
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br> More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Salesperson and above <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
+
+## When to create an order
+
+Create an order when the customer is ready to buy your products or services. In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], an order can originate from a customer's acceptance of a quote, or you can place an order without an accepted quote, depending on the situation.  
+  
+ One way that can help you increase your sales is to add all products that your customer might need to your order. [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] may also offer product bundles or product families to make it easier for you to choose products for upsell and cross-sell. If you've already prepared a quote for your customer, you can create an order from that quote.  
 
 
 <a name="bkmk1"></a>   
@@ -36,13 +41,15 @@ Congratulations! Your hard work nurturing your customer has paid off and they're
 
  Typically, you convert a quote that you have won into an order. Start with an active quote. Note that after a quote is accepted, you won't be able to revise it.  
   
-1. In the Sales Hub app, select the Site map icon ![Site Map icon.](media/site-map-icon.png "Site map icon"), and then select **Quotes**. 
+1. Select the Site map icon ![Site Map icon.](media/site-map-icon.png "Site map icon"), and then select **Quotes**. 
   
 2. Select the quote you want to create an order from.  
 
 3. On the command bar, select **Activate Quote**.
   
-4. Select **Create Order** at the top of the **Quote** form.  
+4. At the top of the **Quote** form, select **Create Order**.  
+    > [!NOTE]
+    > In the Sales Professional app, the **Create Order** option is available only if your administrator has [enabled creation of orders from quotes](enable-creation-of-orders-from-quotes.md)
   
 5. In the **Create Order** dialog box, the **Date Won** field is set to the current date. Select a different date if required.
 
@@ -53,7 +60,6 @@ Congratulations! Your hard work nurturing your customer has paid off and they're
 8. Select **Save** in the lower-right corner of the screen.  
 
 > [!NOTE]
-> 
 > Your base record and all its line items must use the same currency. For example, if your order has the currency set to U.S Dollars, you must use the same currency for the price list items that you add to the order. You can't change the currency of the base record (in this case, an order), unless you remove all the line items associated with the record.
 > Similarly, if the order is created from a quote that is generated from an opportunity, it must use the same currency as the opportunity.
 
@@ -66,7 +72,7 @@ Congratulations! Your hard work nurturing your customer has paid off and they're
 ## Create an order  
  You can create an order that is based on your communication with a customer instead of an accepted quote.  
   
-1. In the Sales Hub app, select the Site map icon![Site Map icon.](media/site-map-icon.png "Site map icon"), and then select **Orders**. 
+1. Select the Site map icon![Site Map icon.](media/site-map-icon.png "Site map icon"), and then select **Orders**. 
   
 2. Select **New**.  
   
@@ -102,9 +108,8 @@ meaningful and unique. By default, these records are sorted by Name in the recor
 9. Select **Save** in the lower-right corner of the screen.  
   
 > [!NOTE]
->  You close an order by either fulfilling the order or canceling the order. Products or services that are shipped are fulfilled. You should cancel orders for any products or services that are not shipped.  
->   
->  You can't update or change an order after it has been closed, or if it has been partially or completely fulfilled.  
+>  - You close an order by either fulfilling the order or canceling the order. Products or services that are shipped are fulfilled. You should cancel orders for any products or services that are not shipped.  
+>  - You can't update or change an order after it has been closed, or if it has been partially or completely fulfilled.  
   
   
 <a name="bkmk3"></a>   

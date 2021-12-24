@@ -12,13 +12,14 @@ manager: shujoshi
 Display the Up next widget on your customized forms through sales accelerator configuration in Dynamics 365 Sales.
 
 ## License and role requirements
-|  | |
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-## Add th Up next widget
+## Add the Up next widget
 
 By default, the **Up next** widget is available only in the out-of-the-box Sales Insights, lead, and opportunity forms. If you're using customized forms, you can display the Up next widget on your custom forms by following these steps.
 >[!NOTE]
@@ -27,7 +28,7 @@ By default, the **Up next** widget is available only in the out-of-the-box Sales
 
 1. Sign in to the **Sales Hub** app.   
 2. Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.   
-3. Under **Acceleration**, select **Sales accelerator (preview)**.   
+3. Under **Sales accelerator**, select **Set up**.   
 4. In the **Choose content and layout** section, select the custom form for which you want to add the Up next widget.  
     >[!div class="mx-imgBorder"]
     >![Choose custom entity form](media/sa-choose-custom-entity-form.png "Choose custom entity form")   

@@ -1,7 +1,7 @@
 ---
 title: "View details of sequence and its connected records"
 description: "Use the sequence page to view the details of a sequence and its connected records in sales accelerator in Dynamics 365 Sales."
-ms.date: 10/26/2021
+ms.date: 12/10/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -12,7 +12,8 @@ manager: shujoshi
 You can view the details of a sequence and the records connected with it. This view can also be used to remove records connected with the sequence.
 
 ## License and role requirements
-|  | |
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator or Sequence Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
@@ -37,7 +38,17 @@ You can view the details of a sequence and the records connected with it. This v
 
     > [!div class="mx-imgBorder"]
     > ![Manage sequence tab of a sequence](media/sequence-manage-sequence-tab.png "Manage sequence tab of a sequence")     
-6. To view list of connected records, select the **Connected Lead** tab.    
+6. To view the list of connected records, select the **Connected *record*** tab. In this example, we're selecting a sequence with record type lead.    
+    - The **Connected segments** section lists the segments that are associated with the sequence.   
+    - The **Connected *records*** section displays the list of records that are connected to the sequence with the following information in columns:   
+        - **Progress**: Shows the number of steps that are completed in the record.  
+        - **Current step**: Shows the step that is to be completed.    
+        - **Days elapsed**: Shows the number of days since the record moved into the current step. 
+
+    > [!div class="mx-imgBorder"]
+    > ![Connected records tab of a sequence](media/sequence-connected-records-tab.png "Connected records tab of a sequence")         
+
+ 
   
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
