@@ -6,7 +6,7 @@
 
 | Name            | Type     | Required | Description                                       |
 |-----------------|----------|----------|---------------------------------------------------|
-| Value           | Boolean  | Yes      | Sets the value to enable or disable ClickToAct.   |
+| value           | Boolean  | Yes      | Sets the value to enable or disable click-to-act.   |
 | successCallback | Function | No       | A function to call when the request is successful |
 | errorCallback   | Function | No       | A function to call when the request fails         |
 
