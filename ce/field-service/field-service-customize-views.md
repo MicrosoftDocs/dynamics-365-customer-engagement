@@ -19,5 +19,12 @@ search.app:
 - D365FS
 ---
 
+## Customize Field Service views
+
+## Create a new view
+
+## Edit existing views 
+
+## Delete a view
 
 ## Recommended best practices

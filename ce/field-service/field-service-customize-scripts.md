@@ -19,7 +19,11 @@ search.app:
 - D365FS
 ---
 
+# Write scripts to implement compelx business logic in FIeld Service
 
+## How to write scripts
+
+## WHy write scripts
 
 ## Recommended best practices
 

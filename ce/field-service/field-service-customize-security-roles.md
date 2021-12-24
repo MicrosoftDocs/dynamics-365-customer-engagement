@@ -19,7 +19,10 @@ search.app:
 - D365FS
 ---
 
-## Copy secuirty roles
+# Customize Field Service Security roles
 
+## Add privileges
+
+## Remove privileges
 
 ## Recommended best practices

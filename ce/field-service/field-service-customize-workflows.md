@@ -19,5 +19,10 @@ search.app:
 - D365FS
 ---
 
+# Write flows and workflows to implement business logic in Field Service
+
+## When to write flows and workflows
+
+## Choosing flows or workflows
 
 ## Recommended best practices

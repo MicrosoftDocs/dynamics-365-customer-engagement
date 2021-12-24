@@ -19,5 +19,8 @@ search.app:
 - D365FS
 ---
 
+# Integrate Field Service with other apps
+
+[Integrations overview](field-service-integration-overview.md)
 
 ## Recommended best practices

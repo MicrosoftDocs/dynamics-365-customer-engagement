@@ -1,5 +1,5 @@
 ---
-title: "How to copy the Field Service app module | MicrosoftDocs"
+title: "Copy the Field Service app module | MicrosoftDocs"
 description: description
 ms.custom:
 - dyn365-fieldservice
@@ -19,10 +19,8 @@ search.app:
 - D365FS
 ---
 
-## Introduction
+# Copy the Field Service app module
 
 ## Pros and cons
-
-## Copy the app module
 
 ## Recommended best practices
