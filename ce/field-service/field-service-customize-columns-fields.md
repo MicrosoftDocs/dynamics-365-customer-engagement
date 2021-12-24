@@ -18,13 +18,13 @@ search.app:
 - D365CE
 - D365FS
 ---
+# How to create and edit Field Service columns (fields)
 
-## Introduction
 
-## Create new fields
+## Create new columns (fields)
 
-## Edit existing fields
+## Edit existing columns (fields)
 
-## Delete fields
+## Delete columns (fields)
 
 ## Recommended best practices

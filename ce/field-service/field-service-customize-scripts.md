@@ -19,7 +19,7 @@ search.app:
 - D365FS
 ---
 
-# Write scripts to implement compelx business logic in FIeld Service
+# Write scripts to implement complex business logic in FIeld Service
 
 ## How to write scripts
 

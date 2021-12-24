@@ -19,7 +19,7 @@ search.app:
 - D365FS
 ---
 
-## Customize Field Service views
+# How to customize Field Service views
 
 ## Create a new view
 
