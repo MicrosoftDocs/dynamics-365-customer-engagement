@@ -48,7 +48,7 @@ You can create the service schedule and define work hours in Dynamics 365 Custom
   
     To edit an existing schedule, select the schedule in the list of records, and then select **Edit** on the command bar.  
   
-4. In the **Create Customer Service Schedule** dialog box, in the **Name** box, type a meaningful name for the schedule, like “APAC Customer Schedule”, and then select **Create**.  
+4. In the **Name** field of the **Create Customer Service Schedule** dialog, , enter a meaningful name for the schedule such as “APAC Customer Schedule”, and then select **Create**.  
   
 5. In the **Weekly Schedule** dialog, follow these steps:  
    1. For work hours, select one of these options:  
