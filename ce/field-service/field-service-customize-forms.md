@@ -21,30 +21,83 @@ search.app:
 
 # How to customize Field Service forms
 
-## 1. Understand the work order form
+While setting up Field Service for your organization, you may have to customize the forms that frontline workers, dispatchers, service managers and other roles use to view important information and document their work. IT administrators may customize Field Service forms so users can capture information unique to your business or industry and to ensure the form layout matches your business processes.
 
-## 2. Create new fields
+Customizing forms properly is very important for maximizing performance, like the time it takes for forms to load and save changes; and for improving usability, like how easy it is for users to view and update information. 
 
-		a. Do not remove existing fields
+In this article we will walk through how to edit or "customize" the Work Order form for back office workers (there is a separate mobile work order form for frontline workers), but the steps below should be used to edit or customize any Field Service form. 
+
+## Prerequisites
+
+System administrator security role
+Field Service - Adminsitrator security role
+
+## 1. Understand the default work order form
+
+Before customizing the work order form, it is very important to understand the default work order form that is included with Field Servive. This means understanding the fields and the recommended process flow. This will help you determine if you need to make minor changes to the default form or create something completely new. Using the default fields and process is recommended for performance, usability, and upgradability reasons.
+
+Go to the Field Service app > Work Orders > select an existing record or create a new one.
+
+View and understand the default fields and determine which ones can be used for your business.
+
+The following fields are critical to the Field Service work order process and are highly recommended. If your organziation does not plan to use these fields then you may want to consider creating an entirely new entity table.
+
+Work Order Number
+System Status
+Service Account
+Price List
+Work Order type
+Work Location
+Address and Latitude and Longitude
+
+The following subgrids are also critical to the Field Service work order process and are highly recommended.
+
+Bookings
+
+[Read more about the work order fields and functions]()
+
+The work order form is optimized for the following generic process.
+
+
+[Read more about the Field Service work order process]()
+
+## 2. Do not delete existing fields 
+
 		b. Do not edit existing fields
-## 3. Use the existing work order form or create a new one
+## 3. Follow guidlines to edit existing fields
 
-## 4. Use the existing work order form (recommended)
+## 4. Create new fields as needed
+
+	a. Do not remove existing fields
+
+## 5. Decide to use the default form or create a copy
+
+#### Use the existing work order form (recommended)
 
 		a. Add your custom fields to a new tab
 		b. https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/create-and-edit-forms
 		c. Hide unwanted fields and move them away from the first tab
 		d. Follow best practices
 
-## 5. Create a new work order form
+#### Create a new work order form
 		a. https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/create-and-edit-forms
 		b. Follow best practices 
 
-## 6. Test your forms
+## Hide unwanted form tabs
+
+## 6. Add your new fields to the form
+
+3. Use the existing work order form or create a new one
+
+## 7. Move and hide unwanted fields
+
+
+
+## 8. Test your forms
 		a. Performance bench mark
 		b. Best practice violations 
 
-## Recommended best practices
+## Summary of recommended best practices
 
 	- Hide unwanted fields, do not remove them, and move them away from the first tab
 	- Use Form component control
@@ -57,3 +110,11 @@ search.app:
 
 ## Other considerations
 	- Create forms for different roles
+    - required vs business recommended fields
+
+
+## Need to update the mobile work order form for frontline workers?
+
+View this article.
+
+## See also
