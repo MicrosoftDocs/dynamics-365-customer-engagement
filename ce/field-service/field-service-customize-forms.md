@@ -76,10 +76,11 @@ Do not add them to the form yet.
 
 ## 2. Do not delete existing fields 
 
+Do not delete work order fields that you do not need. We will hide them from the form later on.
 
 ## 3. Follow guidlines to edit existing fields
 
-
+In general, it is highly recommended not to edit existing fields. As an example you should not change the type of a field from _Date Only_ to _Date and Time_, or change a Whole Number field 
 
 ## 5. Decide to use the default form or create a copy
 
