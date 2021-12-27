@@ -50,6 +50,8 @@ Work Order type
 Work Location
 Address and Latitude and Longitude
 
+Make a note of fields you will want to utilize and those that are unneeded. 
+
 The following subgrids are also critical to the Field Service work order process and are highly recommended.
 
 Bookings
@@ -61,14 +63,23 @@ The work order form is optimized for the following generic process.
 
 [Read more about the Field Service work order process]()
 
-## 2. Do not delete existing fields 
-
-		b. Do not edit existing fields
-## 3. Follow guidlines to edit existing fields
-
 ## 4. Create new fields as needed
 
-	a. Do not remove existing fields
+After understanding the existing fields and processes on the work order form, you may need to create additional fields based on your unique business processes.
+
+Go to https://make.powerapps.com 
+
+Create new fields also called "columns" as needed.
+
+Do not add them to the form yet.
+
+
+## 2. Do not delete existing fields 
+
+
+## 3. Follow guidlines to edit existing fields
+
+
 
 ## 5. Decide to use the default form or create a copy
 
