@@ -63,7 +63,7 @@ The work order form is optimized for the following generic process.
 
 [Read more about the Field Service work order process]()
 
-## 4. Create new fields as needed
+## 2. Create new fields as needed
 
 After understanding the existing fields and processes on the work order form, you may need to create additional fields based on your unique business processes.
 
@@ -74,11 +74,11 @@ Create new fields also called "columns" as needed.
 Do not add them to the form yet.
 
 
-## 2. Do not delete existing fields 
+## 3. Do not delete existing fields 
 
 Do not delete work order fields that you do not need. We will hide them from the form later on.
 
-## 3. Follow guidlines to edit existing fields
+## 4. Follow guidlines to edit existing fields
 
 In general, it is highly recommended to not edit existing fields. 
 
@@ -95,11 +95,11 @@ You should also never edit the _numeric values_ for Choice type fields (also cal
 
 However, simply changing field name labels and choice option lebels is allowed.
 
- 
-
 
 
 ## 5. Decide to use the default form or create a copy
+
+We are now ready to create a form with a combination of your custom fields and existing work roder fields. 
 
 #### Use the existing work order form (recommended)
 
