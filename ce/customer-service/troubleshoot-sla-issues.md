@@ -17,7 +17,7 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Troubleshoot issues in service-Level agreements in Customer Service
+# Troubleshoot issues in service-level agreements in Customer Service
 
 ## Warn and fail duration times are incorrect for the SLA
 
@@ -29,7 +29,7 @@ If your SLA was created in the web client that is now deprecated, the business s
 
 ### Resolution
 
-To use the daylight saving time functionality and many other new features, migrate your SLAs created in the web client to Unified Interface. More information: [Migrate automatic record creation rules and service-level agreements](migrate-automatic-record-creation-and-sla-agreements.md).
+To use the daylight saving time functionality and many other new features, migrate your SLAs created in the web client to Unified Interface. More information: [Migrate automatic record creation rules and service-level agreements](migrate-automatic-record-creation-and-sla-agreements.md)
 
 ## SLA timer does not pause when its state is changed from InProgress to OnHold on a holiday
 
@@ -65,20 +65,20 @@ When you update the target record such that “Applicable when” condition is n
 
 ### Reason
 
-When you define the "Applicable When" and "Success Conditions" on the same attribute, such as "case status", one of the criteria might not be met, and the SLA KPI instance status will be canceled.
+When you define the "Applicable when" and "Success condition" on the same attribute, such as "case status", one of the criteria might not be met, and the SLA KPI instance status will be canceled.
 
 > [!NOTE]
 > When you define the conditions on the same attribute, a recommendation message is displayed that suggests you to not use the same attribute.
 
 ### Workaround
 
-In such scenarios, we recommend that you don't define the "Applicable When" and "Success Conditions" on the same attribute.
+In such scenarios, we recommend that you don't define the "Applicable when" and "Success condition" on the same attribute.
 
 ## Success, warning, and failure actions are being run multiple times in web client
 
-When updates are made to the target record, the attributes present in the "Applicable When" conditions of the SLA item are modified in the applied SLA.
+When updates are made to the target record, the attributes present in the "Applicable when" condition of the SLA item are modified in the applied SLA.
 
-Consider a scenario in which you've created an SLA in the web client with an SLA item that has the following "Applicable When" and "Success Conditions", and is set as the default.
+Consider a scenario in which you've created an SLA in the web client with an SLA item that has the following "Applicable when" and "Success condition", and is set as the default.
 > ![Scenario for troubleshooting SLAs.](media/troubleshoot-sla.png "Scenario for troubleshooting SLAs")
 
 1. Create a case with case type set as question. The SLA timer starts.
@@ -90,15 +90,15 @@ Consider a scenario in which you've created an SLA in the web client with an SLA
 
 3. Update the case type to request.
 
-  - The SLA KPI instance that is in the succeeded status is reevaluated because the "applicable when" attribute is changed.
+  - The SLA KPI instance that is in the succeeded status is re-evaluated because the "Applicable when" attribute is changed.
   - The SLA KPI instance moves from succeeded to "in progress".
-  - Because the case title contains resolved and the success condition is true, the SLA KPI instance status changes from "in progress" to "succeeded", again, and runs the success action again.
+  - Because the case title contains "resolved" and the success condition is true, the SLA KPI instance status changes from "in progress" to "succeeded", again, and runs the success action again.
 
 Based on the SLA KPI instance status, if any actions are configured, those actions will be run multiple times.
 
 ### Reason
 
-When the "Applicable when" attribute is  updated, the SLA is reevaluated that results in multiple iterations of the actions.
+When the "Applicable when" attribute is updated, the SLA is reevaluated that results in multiple iterations of the actions.
 
 ### Resolution
 
