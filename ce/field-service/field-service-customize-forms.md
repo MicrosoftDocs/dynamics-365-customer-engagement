@@ -80,7 +80,24 @@ Do not delete work order fields that you do not need. We will hide them from the
 
 ## 3. Follow guidlines to edit existing fields
 
-In general, it is highly recommended not to edit existing fields. As an example you should not change the type of a field from _Date Only_ to _Date and Time_, or change a Whole Number field 
+In general, it is highly recommended to not edit existing fields. 
+
+As an example, editing fields in the following ways is unsupported and can cause errors and upgradeissues.
+
+- Changing field types
+- Removing choice otions
+- Adding Choice options
+
+
+As an example you should not change the type of a field from _Date Only_ to _Date and Time_, or change a _Whole Number_ field to a _Decimal_.  
+
+You should also never edit the _numeric values_ for Choice type fields (also called "option sets"), though you can edit the Choice _labels_. As an example, the Work Order System Status field is a Choice type field with options of Unscheduled, Scheduled, In Progress, Completed, etc. It is acceptable to change the labels like "Unscheduled" but never the associated numeric value. You can also not add or remove options to existing Choice type fields.
+
+However, simply changing field name labels and choice option lebels is allowed.
+
+ 
+
+
 
 ## 5. Decide to use the default form or create a copy
 
