@@ -78,7 +78,7 @@ Do not add them to the form yet.
 
 Do not delete work order fields that you do not need. We will hide them from the form later on.
 
-## 4. Follow guidlines to edit existing fields
+## 4. Follow guidelines to edit existing fields
 
 In general, it is highly recommended to not edit existing fields. 
 
@@ -105,6 +105,8 @@ As another example, you can change the System status choice label from In Progre
 
 We are now ready to create a form with a combination of your custom fields and existing work order fields. 
 
+You will have to choose to either edit the default Work Order Main form or create an entirely new one. 
+
 #### Use the existing work order form (recommended)
 
 		a. Add your custom fields to a new tab
@@ -124,6 +126,7 @@ We are now ready to create a form with a combination of your custom fields and e
 
 ## 7. Move and hide unwanted fields
 
+## Add subgrids
 
 
 ## 8. Test your forms
