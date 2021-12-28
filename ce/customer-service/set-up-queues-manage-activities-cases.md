@@ -55,10 +55,10 @@ In Customer Service, you can create two types of queues:
 
 > [!IMPORTANT]
 >
-> - Private queues are a great way to organize cases, but they don't restrict access to the records they contain. If your organization handles sensitive data and needs to restrict access to queue items or fields, explore the different options given in [Dynamics 365 security model](../customerengagement/on-premises/developer/security-dev/security-model.md).
+> - Private queues are a great way to organize cases, but they don't restrict access to the records they contain. If your organization handles sensitive data and needs to restrict access to queue items or fields, explore the different options available in [Dynamics 365 security model](../customerengagement/on-premises/developer/security-dev/security-model.md).
 > - If unified routing is enabled, make sure that the **Queue** form, which is the default form, exists and hasn't been removed through customization. Otherwise, you'll not be able to create a basic queue in Customer Service Hub.
 
-## Create a basic queue in Customer Service Hub
+## Create a queue in Customer Service Hub
 
 **To create or edit a queue**
   
@@ -82,7 +82,13 @@ In Customer Service, you can create two types of queues:
   
    - In the **EMAIL SETTINGS** section, in the **Convert Incoming Email To Activities** dropdown list, select a value depending on the type of messages that you want to track as activities.
   
-5. In the Omnichannel section of the **Conflicts Tab**, you can set **Automatic work distribution** to 
+5. In the Omnichannel section of the **Conflicts Tab**, you can do the following:
+    - Set **Automatic work distribution** to **No** (default option), and then select **Save** to create a basic queue.
+    - Set **Automatic work distribution** to **Yes** to enable unified routing, and then select **Save** to create an advanced queue.
+
+    > [!IMPORTANT]
+    >
+    >  You cannot change an advanced queue back to a basic queue by setting the **Automatic work distribution** from **Yes** to **No**. You must create a new queue that's enabled for unified routing by setting the **Automatic work distribution** to **Yes**.
 
 6. Save the changes. The following changes will happen:
 
@@ -146,9 +152,9 @@ Alternatively, you can manually add cases and activities to queues. More informa
   
 ## Assign items to agents
 
-Queues share cases or activities as a group until these are taken out of the queue or accepted by a customer service agent who assumes responsibility for handling them. Agents can pick the items for themselves, or a customer service manager can manually route these cases to the agents or to other queues, users, or teams.  
+Queues share cases or activities as a group until these are taken out of the queue or accepted by a customer service agent who assumes responsibility for handling them. Agents can pick the items for themselves, or a customer service manager can manually route these cases to the agents, or to other queues, users, and teams.  
 
-To assign items in the queue to agents, select **Assign** after selecting one or multiple items in the queues grid. In the **Assign Queue** box, you can choose to assign to other users or teams.
+To assign items in the queue to agents, select **Assign** after selecting one or more items in the queues grid. In the **Assign Queue** box, you can choose to assign to other users or teams.
 
 > [!Note]
 >
