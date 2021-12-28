@@ -55,6 +55,9 @@ Make a note of fields you will want to utilize and those that are unneeded.
 The following subgrids are also critical to the Field Service work order process and are highly recommended.
 
 Bookings
+Service Tasks
+Products
+Services
 
 [Read more about the work order fields and functions]()
 
@@ -101,24 +104,39 @@ As another example, you can change the System status choice label from In Progre
 
 
 
-## 5. Decide to use the default form or create a copy
+## 5. Decide to use the default form or create a new one
 
-We are now ready to create a form that includes a combination of your custom fields and existing work order fields. 
+We are now ready to create a form that includes a combination of existing work order fields and your custom fields. 
 
-You will have to choose to either use and customize the default Work Order Main form or create a new one. 
+You will first have to choose to either use and customize the default Work Order Main form or create a new one. 
 
 If you want to use many of the default work order fields and your business process is close to the standard work order process (or you're willing to adopt the standard work order process) then it is highly recommended to use the default Work Order Main form and make changes within that form. This will ensure your work order form will be upgraded and you can benefit from improvements. 
 
-If you have a very unique business process and a lot of custom fields (greater than 100), then it is recommended to create a copy of the default form and make your changes in the copy.
+If you have a very unique business process and a lot of custom fields (greater than 100), then it is recommended to create  of the default form and make your changes in the copy.
 
-#### Use the existing work order form (recommended)
+#### Option 1: Use and customize the existing work order form (recommended)
+
+a. Go to the Work Order Main form
+
+b. Add your custom fields to the appropriate form tabs
+    Do not add custom fields to the first form tab unless absolutely necessary 
+
+c. Hide unwanted tabs
+
+d. Hide unwanted subgrids
+
+e. Hide unwanted fields
+
+c. Hide unwanted fields
+
+d. Hide unwanted tabs
 
 		a. Add your custom fields to a new tab
 		b. https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/create-and-edit-forms
 		c. Hide unwanted fields and move them away from the first tab
 		d. Follow best practices
 
-#### Create a new work order form
+#### OPtion 2: Create an entirely custom work order form
 		a. https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/create-and-edit-forms
 		b. Follow best practices 
 
