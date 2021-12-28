@@ -84,7 +84,7 @@ You can create both basic and advanced queues (queues that are enabled for unifi
   
    - In the **EMAIL SETTINGS** section, in the **Convert Incoming Email To Activities** dropdown list, select a value depending on the type of messages that you want to track as activities.
   
-5. In the Omnichannel section of the **Conflicts Tab**, you can do the following:
+5. In the **Omnichannel** section of the **Conflicts Tab**, you can do the following:
     - Set **Automatic work distribution** to **No** (default option), and then select **Save** to create a basic queue.
     - Set **Automatic work distribution** to **Yes** to enable unified routing, and then select **Save** to create an advanced queue.
 
