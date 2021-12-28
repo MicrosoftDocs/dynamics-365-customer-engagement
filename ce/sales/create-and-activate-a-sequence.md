@@ -207,7 +207,8 @@ Review the following requirements before you enable the **Exit the sequence** op
 ### See also
 
 [Create and manage sequences](create-manage-sequences.md)     
-[Adaptive sequences](adaptive-sequence.md)
+[Adaptive sequences](adaptive-sequence.md)    
+[Manage tags for sequences](manage-tags-for-sequences.md) 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
