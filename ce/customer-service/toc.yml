@@ -268,7 +268,7 @@
         href: use-effort-estimation-for-routing.md
       - name: Configure basic routing
         items:
-        - name: Create and manage basic queues for cases
+        - name: Create and manage queues for cases
           href: set-up-queues-manage-activities-cases.md
         - name: Route cases using basic rulesets
           href: create-rules-automatically-route-cases.md
