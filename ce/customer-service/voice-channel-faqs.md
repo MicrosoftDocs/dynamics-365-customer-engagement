@@ -4,7 +4,7 @@ description: "Learn about the frequently asked questions (FAQs) for the voice ch
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 12/15/2021
+ms.date: 12/27/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -28,7 +28,6 @@ The voice channel implements Payment Card Industry Data Security Standard (PCI D
 Getting registered as a carrier is a legally-complex and country-specific process. Azure Communication Services has a multi-year road map to become a carrier in different countries around the world. As of November 2021, Azure Communication Services provides “Direct Offers” of toll-free and local numbers in United States only. Azure Communication Services plans to expand to Canada, Puerto Rico, United Kingdom, and Ireland in 2022.
 
 An alternative to direct offers is Azure direct routing that allows customers to bring their own numbers via local carriers. More information: [Azure direct routing](/azure/communication-services/concepts/telephony/telephony-concept)
-
 
 ### What about countries where Azure Communication Services doesn't provide native PSTN services?
 
