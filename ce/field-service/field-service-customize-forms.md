@@ -103,9 +103,13 @@ As another example, you can change the System status choice label from In Progre
 
 ## 5. Decide to use the default form or create a copy
 
-We are now ready to create a form with a combination of your custom fields and existing work order fields. 
+We are now ready to create a form that includes a combination of your custom fields and existing work order fields. 
 
-You will have to choose to either edit the default Work Order Main form or create an entirely new one. 
+You will have to choose to either use and customize the default Work Order Main form or create a new one. 
+
+If you want to use many of the default work order fields and your business process is close to the standard work order process (or you're willing to adopt the standard work order process) then it is highly recommended to use the default Work Order Main form and make changes within that form. This will ensure your work order form will be upgraded and you can benefit from improvements. 
+
+If you have a very unique business process and a lot of custom fields (greater than 100), then it is recommended to create a copy of the default form and make your changes in the copy.
 
 #### Use the existing work order form (recommended)
 
