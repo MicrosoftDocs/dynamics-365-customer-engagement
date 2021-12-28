@@ -88,7 +88,7 @@ In Customer Service, you can create two types of queues:
 
     > [!IMPORTANT]
     >
-    >  You cannot change an advanced queue back to a basic queue by setting the **Automatic work distribution** from **Yes** to **No**. You must create a new queue that's enabled for unified routing by setting the **Automatic work distribution** to **Yes**.
+    >  You cannot change an advanced queue back to a basic queue by setting the **Automatic work distribution** from **Yes** to **No**. You must create a new basic queue by setting the **Automatic work distribution** to **No**.
 
 6. Save the changes. The following changes will happen:
 
