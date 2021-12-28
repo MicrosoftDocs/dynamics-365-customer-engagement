@@ -61,7 +61,7 @@ Services
 
 [Read more about the work order fields and functions]()
 
-The work order form is optimized for the following generic process.
+The work order form is optimized for the following standard work order process.
 
 
 [Read more about the Field Service work order process]()
@@ -112,7 +112,7 @@ You will first have to choose to either use and customize the default Work Order
 
 If you want to use many of the default work order fields and your business process is close to the standard work order process (or you're willing to adopt the standard work order process) then it is highly recommended to use the default Work Order Main form and make changes within that form. This will ensure your work order form will be upgraded and you can benefit from improvements. 
 
-If you have a very unique business process and a lot of custom fields (greater than 100), then it is recommended to create  of the default form and make your changes in the copy.
+If you have a very unique business process and a lot of custom fields (greater than 100), then it is recommended to create a new custom form.
 
 #### Option 1: Use and customize the existing work order form (recommended)
 
@@ -135,10 +135,22 @@ d. Hide unwanted tabs
 		b. https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/create-and-edit-forms
 		c. Hide unwanted fields and move them away from the first tab
 		d. Follow best practices
+    
+e. Follow form design best practices
 
-#### OPtion 2: Create an entirely custom work order form
+> [!Note]
+> You can make a copy of the form
+
+#### Option 2: Create an entirely custom work order form
+
+a. Create a new form
+
+b. Add critical fields
+
+c. Follow form design best practices
+
 		a. https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/create-and-edit-forms
-		b. Follow best practices 
+	
 
 ## Hide unwanted form tabs
 
