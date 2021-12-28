@@ -114,12 +114,9 @@ If you want to use many of the default work order fields and your business proce
 
 If you have a very unique business process and a lot of custom fields (greater than 100), then it is recommended to create a new custom form.
 
-#### Option 1: Use and customize the existing work order form (recommended)
+### Option 1: Use and customize the existing work order form (recommended)
 
 a. Go to the Work Order Main form
-
-b. Add your custom fields to the appropriate form tabs
-    Do not add custom fields to the first form tab unless absolutely necessary 
 
 c. Hide unwanted tabs
 
@@ -127,41 +124,31 @@ d. Hide unwanted subgrids
 
 e. Hide unwanted fields
 
-c. Hide unwanted fields
+f. Move unwanted fields away from the first from tab
 
-d. Hide unwanted tabs
 
-		a. Add your custom fields to a new tab
-		b. https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/create-and-edit-forms
-		c. Hide unwanted fields and move them away from the first tab
-		d. Follow best practices
+b. Add your custom fields to the appropriate form tabs
+    Do not add custom fields to the first form tab unless absolutely necessary 
     
 e. Follow form design best practices
+
+https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/create-and-edit-forms
 
 > [!Note]
 > You can make a copy of the form
 
-#### Option 2: Create an entirely custom work order form
+### Option 2: Create an entirely custom work order form
 
 a. Create a new form
 
 b. Add critical fields
 
+c. Add cirtical subgrids
+
 c. Follow form design best practices
 
 		a. https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/create-and-edit-forms
 	
-
-## Hide unwanted form tabs
-
-## 6. Add your new fields to the form
-
-3. Use the existing work order form or create a new one
-
-## 7. Move and hide unwanted fields
-
-## Add subgrids
-
 
 ## 8. Test your forms
 		a. Performance bench mark
