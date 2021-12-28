@@ -60,6 +60,8 @@ In Customer Service, you can create two types of queues:
 
 ## Create a queue in Customer Service Hub
 
+You can create both basic and advanced queues (queues that are enabled for unified routing) in Customer Service Hub
+
 **To create or edit a queue**
   
 1. Make sure that you have the Sales or Marketing Manager, Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions.
@@ -87,8 +89,8 @@ In Customer Service, you can create two types of queues:
     - Set **Automatic work distribution** to **Yes** to enable unified routing, and then select **Save** to create an advanced queue.
 
     > [!IMPORTANT]
-    >
-    >  You cannot change an advanced queue back to a basic queue by setting the **Automatic work distribution** from **Yes** to **No**. You must create a new basic queue by setting the **Automatic work distribution** to **No**.
+    > You can update a basic queue to an advanced queue and enable unified routing by setting **Automatic work distribution** to **Yes**.
+    > You, however, cannot change an advanced queue back to a basic queue by setting the **Automatic work distribution** from **Yes** to **No**. You must create a new basic queue by setting the **Automatic work distribution** to **No**.
 
 6. Save the changes. The following changes will happen:
 
