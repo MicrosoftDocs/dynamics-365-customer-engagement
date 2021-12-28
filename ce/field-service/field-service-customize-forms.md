@@ -93,13 +93,17 @@ As an example you should not change the type of a field from _Date Only_ to _Dat
 
 You should also never edit the _numeric values_ for Choice type fields (also called "option sets"), though you can edit the Choice _labels_. As an example, the Work Order System Status field is a Choice type field with options of Unscheduled, Scheduled, In Progress, Completed, etc. It is acceptable to change the labels like "Unscheduled" but never the associated numeric value. You can also not add or remove options to existing Choice type fields.
 
-However, simply changing field name labels and choice option lebels is allowed.
+However, simply changing field display names labels or the choice option labels is allowed. 
+
+As an example, you can change the display name of Service Account to Customer.
+
+As another example, you can change the System status choice label from In Progress to Work Started. 
 
 
 
 ## 5. Decide to use the default form or create a copy
 
-We are now ready to create a form with a combination of your custom fields and existing work roder fields. 
+We are now ready to create a form with a combination of your custom fields and existing work order fields. 
 
 #### Use the existing work order form (recommended)
 
