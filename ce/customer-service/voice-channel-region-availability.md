@@ -4,12 +4,14 @@ description: "Learn about the region availability and supported languages for th
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 12/27/2021
+ms.date: 12/28/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
 
 # Regional availability and supported languages for the voice channel
+
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Introduction
 
@@ -92,15 +94,9 @@ See the information in the following table to know about the supported languages
 | Vietnamese - Vietnam	| vi-VN |
 |||
 
-## Language limitations by feature
+### Language limitations by feature
 
-### What languages are supported in the voice channel at general availability
-
-For our GA release of voice channel, language support is feature-specific.
-
-We use Azure Cognitive Service Speech’s speech-to-text for transcription, so we plan on supporting all of the languages that speech-to-text supports today. Power Virtual Agents is available only for a subset of languages, so for Power Virtual Agents-based IVR, we will support the languages that Power Virtual Agents supports. We also support a bring-your-own bot through Azure Bot Service for IVR that will be constrained by the languages that speech-to-text supports. For AI suggestions, we have added more languages as of April 2021.
-
-### Are there any real-time limitations
+We use Azure Cognitive Service Speech’s speech-to-text for transcription, so we'll support all the languages that speech-to-text supports today. We also support a bring-your-own bot through Azure Bot Service for IVR that'll be constrained by the languages that speech-to-text supports. Power Virtual Agents is available only for a subset of languages, so for Power Virtual Agents-based IVR, we will support the languages that Power Virtual Agents supports.
 
 Use the information in the following table to know about the feature-wise support for languages.
  
@@ -113,10 +109,8 @@ Use the information in the following table to know about the feature-wise suppor
 | Sentiment Analysis | [Multi-language sentiment](enable-sentiment-analysis.md#multi-language-sentiment) |
 | Other Omnichannel features | [Language availability in Omnichannel for Customer Service](international-availability.md#language-availability)
 
-
 ### See also
 
 [Overview of the voice channel](voice-channel.md)  
+[FAQs about the voice channel in Omnichannel for Customer Service](voice-channel-faqs.md)  
 
-
-[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
