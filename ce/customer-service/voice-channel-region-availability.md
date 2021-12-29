@@ -11,6 +11,8 @@ ms.service: dynamics-365-customerservice
 
 # Regional availability and supported languages for the voice channel
 
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
 ## Introduction
 
 This article provides information about the availability of the voice channel in the different geographical regions and the supported languages and locale codes.
@@ -110,6 +112,5 @@ Use the information in the following table to know about the feature-wise suppor
 ### See also
 
 [Overview of the voice channel](voice-channel.md)  
+[FAQs about the voice channel in Omnichannel for Customer Service](voice-channel-faqs.md)  
 
-
-[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
