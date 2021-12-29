@@ -90,7 +90,7 @@ You can create both basic and advanced queues (queues that are enabled for unifi
 
     > [!IMPORTANT]
     > You can update a basic queue to an advanced queue and enable unified routing by setting **Automatic work distribution** to **Yes**.
-    > You, however, cannot change an advanced queue back to a basic queue by setting the **Automatic work distribution** from **Yes** to **No**. You must create a new basic queue by setting the **Automatic work distribution** to **No**.
+    > You cannot change an advanced queue back to a basic queue by setting the **Automatic work distribution** from **Yes** to **No**. You must create a new basic queue by setting the **Automatic work distribution** to **No**.
 
 6. Save the changes. The following changes will happen:
 
