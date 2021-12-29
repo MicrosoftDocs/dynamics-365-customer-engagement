@@ -547,7 +547,7 @@
       - name: Supported regions and languages
         href: voice-channel-region-availability.md
       - name: FAQs about the voice channel
-        href: voice=channel-faqs.md  
+        href: voice-channel-faqs.md  
     - name: Agent experience
       items:
       - name: Make and receive your first phone call
