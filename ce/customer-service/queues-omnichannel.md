@@ -26,7 +26,7 @@ In Omnichannel for Customer Service, queues are used to collect and distribute w
 
 ## How work items are routed to queues
 
-Queues in Omnichannel for Customer Service are proxies for skills or domains. You can create separate queues for each line of business such as billing, investment, and products. When a customer query is raised for any of the areas, it is routed to the corresponding designated queue based on how you define route to queues in the classification. You also can set up a customer support availability matrix by using a combination of queues, operating hour schedules, and routing rules.
+Queues in Omnichannel for Customer Service are proxies for skills or domains. You can create separate queues for each line of business such as billing, investment, and products. When a customer query is raised for any of the areas, it is routed to the corresponding designated queue based on how you define route to queues in the classification. You can also set up a customer support availability matrix by using a combination of queues, operating hour schedules, and routing rules.
 
 In an enterprise scenario, you can have various supervisors handling different issues, and therefore, different types of queues are required to handle the various scenarios. Accordingly, routing rules are set up based on the complexity of issues that need to be handled.
 
