@@ -97,7 +97,7 @@ You can create both basic and advanced queues (queues that are enabled for unifi
       - In the **Mailbox** field, a mailbox record for the queue is automatically created and selected as soon as you save the queue record. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create forward mailboxes or edit mailboxes](/power-platform/admin/create-forward-mailboxes-edit-mailboxes)
 
       - If you selected the queue type as private, the **MEMBERS** section appears.
-          - Select **Add Existing User**. Only those users that you add can work on the items in this queue. If you add a team as a member, only the existing team members can access the queue. New members of the team need to be added manually to the queue to be able to access it.
+          - Select **Add Existing User**. Only those users that you add can work on the items in this queue. If you add a team as a member, only the existing team members can access the queue. New team members must be added manually to the queue to be able to access it.
 
       - The **QUEUE ITEMS** and **RECORD CREATION AND UPDATE RULES** sections appear.
 
