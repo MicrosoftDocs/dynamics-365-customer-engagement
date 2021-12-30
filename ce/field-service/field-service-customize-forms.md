@@ -114,7 +114,7 @@ If you want to use many of the default work order fields and your business proce
 
 If you have a very unique business process and a lot of custom fields (greater than 100), then it is recommended to create a new custom form.
 
-### Option 1: Use and customize the existing work order form (recommended)
+## Option 1: Customize the default work order form (recommended)
 
 a. Go to the Work Order Main form
 
@@ -124,7 +124,7 @@ d. Hide unwanted subgrids
 
 e. Hide unwanted fields
 
-f. Move unwanted fields away from the first from tab
+f. Move unwanted fields away from the first form tab
 
 
 b. Add your custom fields to the appropriate form tabs
@@ -137,13 +137,13 @@ https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/create-and-ed
 > [!Note]
 > You can make a copy of the form
 
-### Option 2: Create an entirely custom work order form
+## Option 2: Create a new custom work order form
 
 a. Create a new form
 
-b. Add critical fields
+b. Add required fields
 
-c. Add cirtical subgrids
+b. Add required subgrids
 
 c. Follow form design best practices
 
@@ -151,8 +151,14 @@ c. Follow form design best practices
 	
 
 ## 8. Test your forms
-		a. Performance bench mark
-		b. Best practice violations 
+
+Test load performance against a benchmark (monitoring tool)
+
+Run Solution Health to test for best practice violations
+
+Run solution checker to test scripts if applicable
+	
+  
 
 ## Summary of recommended best practices
 
