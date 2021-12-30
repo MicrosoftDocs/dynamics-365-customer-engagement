@@ -69,9 +69,10 @@ The work order form is optimized for the following standard work order process.
 1. A work order is created manually, from a converted case, via an IoT alert, from an agreement schedule, or via an integration with a system status equal to _Unscheduled_ by default. 
 2. Work order details are entered like the account, work order type, location, products, services, service tasks, and any other information that is important
 3. The work order is scheduled to one or more resources ("frontline workers") and the system status automically becomes _Scheduled_.
-4. The frontline worker views the scheduled work order on his or her mobile app and travels to the customer location to perform the required work and records progress. The system status becomes _In Progress_. The fronltine worker updates information like when he or she arrived on site, 
+4. The frontline worker views the scheduled work order on his or her mobile app and travels to the customer location to perform the required work and records progress. The system status becomes _In Progress_. The fronltine worker updates information like when he or she arrived on site, service tasks completed, services and products billed. 
 5. The frontline worker completes the work order and the system status becomes _Completed_.
 6. The back office manager or dispatcher views the completed work order and verifies the work is completed and the necessary data is captured. If everything is finished the status is changed to _Closed-Posted_.
+
 [Read more about the Field Service work order process](work-order-status-booking-status.md)
 
 ## 2. Create new fields as needed
