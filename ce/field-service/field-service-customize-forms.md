@@ -62,11 +62,11 @@ The following subgrids are also critical to the Field Service work order process
 - Products
 - Services
 
-[Read more about the work order fields and functions](field-service-architecture.md)
+Read more about the work order fields and functions by reviewing the topics on [Field Service architecture](field-service-architecture.md) and [creating a work order](create-work-order).
 
 The work order form is optimized for the following standard work order process.
 
-
+1. A work order is created
 [Read more about the Field Service work order process](work-order-status-booking-status.md)
 
 ## 2. Create new fields as needed
