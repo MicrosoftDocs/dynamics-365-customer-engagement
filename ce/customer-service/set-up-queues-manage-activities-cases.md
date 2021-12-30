@@ -1,7 +1,7 @@
 ---
 title: Create and manage queues for cases | MicrosoftDocs
 description: "Learn how to set up queues to manage activities and cases in Dynamics 365 Customer Service."
-ms.date: 12/21/2021
+ms.date: 01/05/2022
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
