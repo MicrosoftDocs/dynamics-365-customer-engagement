@@ -42,29 +42,32 @@ View and understand the default fields and determine which ones can be used for 
 
 The following fields are critical to the Field Service work order process and are highly recommended. If your organziation does not plan to use these fields then you may want to consider creating an entirely new entity table.
 
-Work Order Number
-System Status
-Service Account
-Price List
-Work Order type
-Work Location
-Address and Latitude and Longitude
+- Work Order Number
+- System Status
+- Service Account
+- Billing Account
+- Price List
+- Work Order Type
+- Work Location
+- Address
+- Latitude
+- Longitude
 
 Make a note of fields you will want to utilize and those that are unneeded. 
 
 The following subgrids are also critical to the Field Service work order process and are highly recommended.
 
-Bookings
-Service Tasks
-Products
-Services
+- Bookable Resource Booking ("Bookings")
+- Service Tasks
+- Products
+- Services
 
-[Read more about the work order fields and functions]()
+[Read more about the work order fields and functions](field-service-architecture.md)
 
 The work order form is optimized for the following standard work order process.
 
 
-[Read more about the Field Service work order process]()
+[Read more about the Field Service work order process](work-order-status-booking-status.md)
 
 ## 2. Create new fields as needed
 
@@ -167,7 +170,7 @@ Run solution checker to test scripts if applicable
 	- Minimize lookup controls to no more than 10 on a from tab
 	- Minimize subgrid controls to no more than 3 on a form tab
 	- Do not add additional subgrids or lookups to first form tab
-    - Use Form component control to display information from the other tables inside the form
+    - Use the PCF _Form component control_ to display information from the other tables inside the form. This prevents form users from having to click away from the form. 
 
 
 ## Other considerations
