@@ -21,11 +21,14 @@ search.app:
 
 # How to customize Field Service forms
 
-While setting up Field Service for your organization, you may have to customize the forms that frontline workers, dispatchers, service managers and other roles use to view important information and document their work. IT administrators may customize Field Service forms so users can capture information unique to your business or industry and to ensure the form layout matches your business processes.
+While setting up Field Service for your organization, you may have to customize the forms that back office workers like dispacthers, service managers, and other roles use to view important information and document their work. IT administrators may customize Field Service forms so users can capture information unique to your business or industry and to ensure the form layout matches your business processes.
 
 Customizing forms properly is very important for maximizing performance, like the time it takes for forms to load and save changes; and for improving usability, like how easy it is for users to view and update information. 
 
-In this article we will walk through how to edit or "customize" the Work Order form for back office workers (there is a separate mobile work order form for frontline workers), but the steps below should be used to edit or customize any Field Service form. 
+In this article we will walk through how to edit or "customize" the Work Order form for back office workers, but the steps below should be used to edit or customize any Field Service web form. 
+
+> [!Note]
+> There is a separate and unique process to customize the mobile work order form for frontline workers. See the section at the end of this article. 
 
 ## Prerequisites
 
@@ -52,7 +55,6 @@ The following fields are critical to the Field Service work order process and ar
 - Address
 - Latitude
 - Longitude
-
 
 
 The following subgrids are also critical to the Field Service work order process and are highly recommended.
