@@ -27,4 +27,4 @@ search.app:
 
 ## Delete columns (fields)
 
-## Recommended best practices
+## Summary of recommended best practices

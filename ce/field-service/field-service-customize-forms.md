@@ -147,7 +147,7 @@ b. Add required subgrids
 
 c. Follow form design best practices
 
-		a. https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/create-and-edit-forms
+	 https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/create-and-edit-forms
 	
 
 ## 8. Test your forms
@@ -163,21 +163,25 @@ Run solution checker to test scripts if applicable
 ## Summary of recommended best practices
 
 	- Hide unwanted fields, do not remove them, and move them away from the first tab
-	- Use Form component control
-	- Move lesser used fields away from 
-	- Minimize lookup controls
-	- Minimize subgrids 
-	- Do not add additional subgrids or lookups to main form tab
-	- Design productive forms - https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/design-productive-forms
-	- Design performant forms - https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/design-performant-forms
+    - Move unwanted fields and lesser used fields away from the first form tab
+	- Minimize lookup controls to no more than 10 on a from tab
+	- Minimize subgrid controls to no more than 3 on a form tab
+	- Do not add additional subgrids or lookups to first form tab
+    - Use Form component control to display information from the other tables inside the form
+
 
 ## Other considerations
 	- Create forms for different roles
     - required vs business recommended fields
 
 
-## Need to update the mobile work order form for frontline workers?
+## Customizing the mobile work order form
 
-View this article.
+While the instructions in this article are useful for customizing any web form for back office workers, there is a specific form optimized for the mobile experience for frontline workers. See the topic on [Edit the booking and work order form](mobile-powerapp-booking-work-order-form.md) to elarnhow to customize the mobile work order form.
+
 
 ## See also
+
+	- Design productive forms - https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/design-productive-forms
+	- Design performant forms - https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/design-performant-forms
+    https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/create-and-edit-forms
