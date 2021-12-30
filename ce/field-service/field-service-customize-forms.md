@@ -43,7 +43,7 @@ Go to the Field Service app > Work Orders > select an existing record or create 
 
 View and understand the default fields and determine which ones can be used for your business.
 
-The following fields are critical to the Field Service work order process and are highly recommended. If your organziation does not plan to use these fields then you may want to consider creating an entirely new entity table.
+The following fields are critical to the Field Service work order process and are required. If your organziation does not plan to use these fields then you may want to consider creating an entirely new entity table.
 
 - Work Order Number
 - System Status
@@ -79,7 +79,7 @@ The work order form is optimized for the following standard work order process.
 
 ## 2. Make a list of needed and unneeded fields
 
-Make a list of default work order fields that are relevant to your business process and another list of unneeded fields.
+Make a list of default work order fields that are relevant to your business process and another list of unneeded fields. You must use the ciritical required fields mentioned above. 
 
 ## 3. Create new fields as needed
 
@@ -100,22 +100,19 @@ Do not delete work order fields that you do not need. We will hide them from the
 
 In general, it is highly recommended to not edit existing fields. 
 
-As an example, editing fields in the following ways is unsupported and can cause errors and upgradeissues.
+As an example, editing fields in the following ways is unsupported and can cause errors and issues when upgrading.
 
-- Changing field types
-- Removing choice otions
-- Adding Choice options
+- Changing field types - As an example you should not change the type of a field from _Date Only_ to _Date and Time_, or change a _Whole Number_ field to a _Decimal_.  
+- Removing choice options
+- Adding choice options
 
 
-As an example you should not change the type of a field from _Date Only_ to _Date and Time_, or change a _Whole Number_ field to a _Decimal_.  
 
-You should also never edit the _numeric values_ for Choice type fields (also called "option sets"), though you can edit the Choice _labels_. As an example, the Work Order System Status field is a Choice type field with options of Unscheduled, Scheduled, In Progress, Completed, etc. It is acceptable to change the labels like "Unscheduled" but never the associated numeric value. You can also not add or remove options to existing Choice type fields.
+However, simply changing field display names or the choice option labels is allowed. 
 
-However, simply changing field display names labels or the choice option labels is allowed. 
+As an example, you can change the field display name of Service Account to Customer.
 
-As an example, you can change the display name of Service Account to Customer.
-
-As another example, you can change the System status choice label from In Progress to Work Started. 
+As another example, for the System Status field, you can change the labels of the choice options like changingthe _In Progress_ label to _Work Started_. 
 
 
 
