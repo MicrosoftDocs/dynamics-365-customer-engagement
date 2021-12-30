@@ -53,7 +53,7 @@ The following fields are critical to the Field Service work order process and ar
 - Latitude
 - Longitude
 
-Make a note of fields you will want to utilize and those that are unneeded. 
+
 
 The following subgrids are also critical to the Field Service work order process and are highly recommended.
 
@@ -75,7 +75,11 @@ The work order form is optimized for the following standard work order process.
 
 [Read more about the Field Service work order process](work-order-status-booking-status.md)
 
-## 2. Create new fields as needed
+## 2. Make a list of needed and unneeded fields
+
+Make a list of default work order fields that are relevant to your business process and another list of unneeded fields.
+
+## 3. Create new fields as needed
 
 After understanding the existing fields and processes on the work order form, you may need to create additional fields based on your unique business processes.
 
@@ -86,11 +90,11 @@ Create new fields also called "columns" as needed.
 Do not add them to the form yet.
 
 
-## 3. Do not delete existing fields 
+## 4. Do not delete existing fields 
 
 Do not delete work order fields that you do not need. We will hide them from the form later on.
 
-## 4. Follow guidelines to edit existing fields
+## 5. Follow guidelines to edit existing fields
 
 In general, it is highly recommended to not edit existing fields. 
 
@@ -113,7 +117,7 @@ As another example, you can change the System status choice label from In Progre
 
 
 
-## 5. Decide to use the default form or create a new one
+## 6. Decide to use the default form or create a new one
 
 We are now ready to create a form that includes a combination of existing work order fields and your custom fields. 
 
@@ -159,7 +163,7 @@ c. Follow form design best practices
 	 https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/create-and-edit-forms
 	
 
-## 8. Test your forms
+## 7. Test your forms
 
 Test load performance against a benchmark (monitoring tool)
 
