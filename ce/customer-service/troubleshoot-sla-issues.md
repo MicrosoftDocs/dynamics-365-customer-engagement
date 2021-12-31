@@ -90,7 +90,7 @@ Consider a scenario in which you've created an SLA in the web client with an SLA
 
 3. Update the case type to request.
 
-  - The SLA KPI instance that is in the succeeded status is re-evaluated because the "Applicable when" attribute is changed.
+  - The SLA KPI instance that is in the succeeded status is reevaluated because the "Applicable when" attribute is changed.
   - The SLA KPI instance moves from succeeded to "in progress".
   - Because the case title contains "resolved" and the success condition is true, the SLA KPI instance status changes from "in progress" to "succeeded", again, and runs the success action again.
 
