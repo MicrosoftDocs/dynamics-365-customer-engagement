@@ -4,7 +4,7 @@ description: "Learn about the region availability and supported languages for th
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 12/30/2021
+ms.date: 12/31/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -30,9 +30,9 @@ Use the information in the following table to know about the availability of the
 |Geographic location | Availability | Availability in Customer Service trial|
 |----------|---------|-----|
 |North America <sup> **1** </sup> |November 2021  | November 2021|
-|Europe <sup>**2**</sup> |December 2021 |January 2022|
-|Asia Pacific <sup>**2**</sup> |December 2021 |January 2022|
-|Australia <sup>**2**</sup> |December 2021 |January 2022|
+|Europe <sup>**2**</sup> |December 2021 |To be announced|
+|Asia Pacific <sup>**2**</sup> |December 2021 |To be announced|
+|Australia <sup>**2**</sup> |December 2021 |To be announced|
 |South America|To be announced | To be announced|
 |Country clouds: Canada, France, Germany, India, Japan, Switzerland, United Arab Emirates (UAE), United Kingdom	|To be announced |To be announced|
 |Government Community Cloud (GCC) |To be announced |To be announced|
