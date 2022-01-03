@@ -36,60 +36,19 @@ System administrator security role
 Field Service - Adminsitrator security role
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/customization-form-work-order.png)
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/customization-form-process.png)
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/customization-form-create-fields.png)
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/customization-form-create-fields2.png)
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/customization-form-field-display-name.png)
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/customization-form-field-choice-option-set.png)
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/customization-form-go-to-main.png)
 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/customization-form-hide-tab.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/customization-form-hide-field.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/customization-form-move-from-first-tab1.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/customization-form-move-from-first-tab2.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/customization-form-create-custom.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/customization-form-copy.png)
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/customization-form-add-custom-fields.png)
 
 ## 1. Understand the default work order form
 
@@ -98,6 +57,12 @@ Before customizing the work order form, it is very important to understand the d
 Go to the Field Service app > Work Orders > select an existing record or create a new one.
 
 View and understand the default fields and determine which ones can be used for your business.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customization-form-work-order.png)
+
+
+
 
 The following fields are critical to the Field Service work order process and are required. If your organziation does not plan to use these fields then you may want to consider creating an entirely new entity table.
 
@@ -124,12 +89,17 @@ Read more about the work order fields and functions by reviewing the topics on [
 
 The work order form is optimized for the following standard work order process.
 
+
+
 1. A work order is created manually, from a converted case, via an IoT alert, from an agreement schedule, or via an integration with a system status equal to _Unscheduled_ by default. 
 2. Work order details are entered like the account, work order type, location, products, services, service tasks, and any other information that is important
 3. The work order is scheduled to one or more resources ("frontline workers") and the system status automically becomes _Scheduled_.
 4. The frontline worker views the scheduled work order on his or her mobile app and travels to the customer location to perform the required work and records progress. The system status becomes _In Progress_. The fronltine worker updates information like when he or she arrived on site, service tasks completed, services and products billed. 
 5. The frontline worker completes the work order and the system status becomes _Completed_.
 6. The back office manager or dispatcher views the completed work order and verifies the work is completed and the necessary data is captured. If everything is finished the status is changed to _Closed-Posted_.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customization-form-process.png)
 
 [Read more about the Field Service work order process](work-order-status-booking-status.md)
 
@@ -147,10 +117,12 @@ Create new fields also called "columns" as needed.
 
 Do not add them to the form yet.
 
-customization-form-create-fields1
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customization-form-create-fields.png)
 
 
-customization-form-create-fields2
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customization-form-create-fields2.png)
 
 
 ## 4. Do not delete existing fields 
@@ -173,8 +145,16 @@ However, simply changing field display names or the choice option labels is allo
 
 As an example, you can change the field display name of Service Account to Customer.
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customization-form-field-display-name.png)
+
+
+
+
 As another example, for the System Status field, you can change the labels of the choice options like changingthe _In Progress_ label to _Work Started_. 
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customization-form-field-choice-option-set.png)
 
 
 ## 6. Decide to use the default form or create a new one
@@ -191,24 +171,36 @@ If you have a very unique business process and a lot of custom fields (greater t
 
 a. Go to the Work Order Main form
 
-customization-form-go-to-main
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customization-form-go-to-main.png)
+
 
 b. Hide unwanted tabs
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customization-form-hide-tab.png)
+
 c. Hide unwanted fields
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customization-form-hide-field.png)
 
 d. Move unwanted subgrids and fields away from the first form tab
 
-customization-form-move-from-first-tab1
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customization-form-move-from-first-tab1.png)
 
-customization-form-move-from-first-tab2
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customization-form-move-from-first-tab2.png)
 
 
 e. Add your custom fields to the appropriate form tabs
     Do not add custom fields to the first form tab unless absolutely necessary 
 
-    customization-form-add-custom-fields
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customization-form-add-custom-fields.png)
     
 f. Follow form design best practices
 
@@ -216,12 +208,16 @@ https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/create-and-ed
 
 > [!Note]
 > You can make a copy of the form
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customization-form-copy.png)
 
 ## Option 2: Create a new custom work order form
 
 a. Create a new form
 
-customization-form-create-custom
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customization-form-create-custom.png)
+
 
 b. remove unwanted fields and subgrids
     except the following
