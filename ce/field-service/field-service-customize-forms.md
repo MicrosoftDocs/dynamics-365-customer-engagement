@@ -165,7 +165,7 @@ You will first have to choose to either use and customize the default Work Order
 
 If you want to use many of the default work order fields and your business process is close to the standard work order process (or you're willing to adopt the standard work order process) then it is highly recommended to use the default Work Order Main form and make changes within that form. This will ensure your work order form will be upgraded and you can benefit from improvements. 
 
-If you have a very unique business process and a lot of custom fields (greater than 100), then it is recommended to create a new custom form.
+If you have a very unique business process and a lot of custom fields (greater than 100), then it is recommended to create a new custom form. Furthermore, if you want to create multiple different forms for different user personas (roles) then it is recommended to create new custom forms. 
 
 ## 7a. option 1: Customize the default work order form (recommended)
 
@@ -235,7 +235,7 @@ e. Follow form design best practices
 
 ## 8. Test your forms
 
-Test load performance against a benchmark (monitoring tool)
+Test load performance against a benchmark (/Performance insights / monitoring tool)
 
 Run Solution Health to test for best practice violations
 
@@ -252,6 +252,8 @@ Run solution checker to test scripts if applicable
 	- Minimize subgrid controls to no more than 3 on a form tab
 	- Do not add additional subgrids or lookups to first form tab
     - Use the PCF _Form component control_ to display information from the other tables inside the form. This prevents form users from having to click away from the form. 
+    - Do not edit or remove libraries
+    - use more tabs
 
 
 ## More considerations
@@ -268,6 +270,7 @@ While the instructions in this article are useful for customizing any web form f
 
 ## See also
 
-	- Design productive forms - https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/design-productive-forms
-	- Design performant forms - https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/design-performant-forms
-    https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/create-and-edit-forms
+- [Create and edit forms](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-and-edit-forms)
+- [Design productive forms](https://docs.microsoft.com/powerapps/maker/model-driven-apps/design-productive-forms)
+- [Design performant forms](https://docs.microsoft.com/powerapps/maker/model-driven-apps/design-performant-forms)
+   
