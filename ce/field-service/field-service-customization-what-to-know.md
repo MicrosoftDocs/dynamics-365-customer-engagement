@@ -3,7 +3,7 @@ title: "What to know before customizing Dynamics 365 Field Service | MicrosoftDo
 description: description
 ms.custom:
 - dyn365-fieldservice
-ms.date: 01/05/2021
+ms.date: 01/05/2022
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: article
