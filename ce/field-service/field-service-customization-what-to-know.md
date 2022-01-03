@@ -20,13 +20,14 @@ search.app:
 ---
 
 # What to know before customizing Dynamics 365 Field Service
-## Prerequisites
-> [!Note]
->
 
->[!TIP] 
-> 
+## Plan your deployment
 
+## Strategies
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/.png)
+## Best practices
+
+## Tools
+
+## Certifications
+
