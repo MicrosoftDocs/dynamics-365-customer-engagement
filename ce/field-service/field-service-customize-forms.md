@@ -252,7 +252,7 @@ Run solution checker to test scripts if applicable
     - Use the PCF _Form component control_ to display information from the other tables inside the form. This prevents form users from having to click away from the form. 
 
 
-## Other considerations
+## More considerations
 	- Create forms for different roles
     - required vs business recommended fields
     - turn off price calculations
