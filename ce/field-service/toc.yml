@@ -47,7 +47,7 @@
 - name: Customize Field Service
   items: 
   - name: What to know before customizing Field Service
-    href: file.md
+    href: field-service-customization-what-to-know.md
   - name: Copy the app module
     href: field-service-customize-copy-app-module.md
   - name: Edit security roles
