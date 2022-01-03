@@ -22,7 +22,7 @@ searchScope:
 
 ## Introduction
 
-In Omnichannel for Customer Service, queues are used to collect and distribute workload among agents. Workload includes records such as cases, and conversations such as chat or SMS. Agents are added as members to the queues and the workload is distributed among those agents based on assignment methods.
+In Omnichannel for Customer Service, queues are used to collect and distribute workload among agents. Workload includes records such as cases, and conversations such as chat or SMS. Agents are added as members to the queues and the workload is distributed among the agents based on assignment methods.
 
 ## How work items are routed to queues
 
@@ -36,7 +36,7 @@ To simplify the routing experience for administrators and supervisors, queues ar
 - **Records**: To route work items pertaining to records, such as cases and emails.
 - **Voice**: To route calls made to the support numbers listed on the customer portal.
 
-The queue types help ensure the issues are routed correctly and avoid any cross-queue assignments. When you configure workstreams and routing rule items, the queues that'll be available for selection will be based on the channel type for the workstream. For example, for routing rules for a live chat workstream, only messaging type queues will be shown for selection. Similarly, in a conversation transfer scenario, you can transfer a chat conversation only to a messaging queue, and a case only to an entity queue.
+The queue types help ensure that the issues are routed correctly, avoiding any cross-queue assignments. When you configure workstreams and routing rule items, the queues that'll be available for selection will be based on the channel type for the workstream. For example, for routing rules for a live chat workstream, only messaging type queues will be shown for selection. Similarly, in a conversation transfer scenario, you can transfer a chat conversation only to a messaging queue, and a case only to an entity queue.
 
 Assign a group number that helps you organize your queues in the list view. The group number won't affect the priority of the queue or incoming conversations.
 

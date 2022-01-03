@@ -83,7 +83,7 @@ You can edit or delete the operating hours schedule in an existing record.
 3. On the menu that appears, select **Edit**, and select one of the options:
    - **This event**
    - **This and all following events**
-   - **All events in the series **
+   - **All events in the series**
 4. If you want to delete an event, select **Delete**.
 
     > ![Edit an event.](media/oc-operating-hour-modify.png "Create a working hour schedule")
