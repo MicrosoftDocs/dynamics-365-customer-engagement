@@ -167,11 +167,14 @@ a. Create a new form
 
 customization-form-create-custom
 
-b. Add required fields
+b. remove unwanted fields and subgrids
+    except the following
 
-b. Add required subgrids
+c. add your fields, subgrids, controls
+ Guidance
 
-c. Follow form design best practices
+
+e. Follow form design best practices
 
 	 https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/create-and-edit-forms
 	
