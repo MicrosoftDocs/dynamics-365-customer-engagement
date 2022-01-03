@@ -139,7 +139,7 @@ As an example, editing fields in the following ways is unsupported and can cause
 - Removing choice options
 - Adding choice options
 
-
+Leave required fields as required.
 
 However, simply changing field display names or the choice option labels is allowed. 
 
@@ -179,6 +179,8 @@ b. Hide unwanted tabs
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customization-form-hide-tab.png)
+
+c. Hide unwanted sections
 
 c. Hide unwanted fields
 
@@ -253,9 +255,10 @@ Run solution checker to test scripts if applicable
 
 
 ## More considerations
-	- Create forms for different roles
+	- Create forms for different roles - use a custom form
     - required vs business recommended fields
     - turn off price calculations
+    - all fields add up
 
 
 ## Customizing the mobile work order form
