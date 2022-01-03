@@ -56,7 +56,7 @@ You can set conditions so that some numbers are automatically added to the block
 
 3. In the **Auto-block** section, select **Set up**.
 
-4. In the Auto-block dialog that appears, do the following:
+4. In the **Auto-block** dialog that appears, do the following:
    - Enable the **Turn on auto block** toggle.
    - Enter a value for the number of reports in the **Block reported phone numbers if they receive** field. For example, if you entered **2**, then the phone number would automatically get blocked as spam after two reports are received.
 
