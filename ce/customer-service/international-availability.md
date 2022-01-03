@@ -18,7 +18,7 @@ The purpose of this document is to provide information about availability of liv
 - [Language availability](#language-availability)
 
 > [!NOTE]
-> For more information about availability of the voice channel, see [Regional availability and supported languages for the voice channel](voice-channel-region-availability.md).
+> For information about availability of the voice channel, see [Regional availability and supported languages for the voice channel](voice-channel-region-availability.md).
 
 
 ## Geographic location availability
@@ -138,6 +138,7 @@ To know the languages that are supported in analytics, see [Multi-language senti
 ### See also
 
 [Prerequisites and system requirements of Omnichannel for Customer Service](system-requirements-omnichannel.md)
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
