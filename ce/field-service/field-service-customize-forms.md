@@ -165,6 +165,8 @@ https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/create-and-ed
 
 a. Create a new form
 
+customization-form-create-custom
+
 b. Add required fields
 
 b. Add required subgrids
@@ -198,6 +200,7 @@ Run solution checker to test scripts if applicable
 ## Other considerations
 	- Create forms for different roles
     - required vs business recommended fields
+    - turn off price calculations
 
 
 ## Customizing the mobile work order form
