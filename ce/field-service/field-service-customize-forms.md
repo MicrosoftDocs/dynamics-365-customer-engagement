@@ -130,19 +130,19 @@ If you have a very unique business process and a lot of custom fields (greater t
 
 a. Go to the Work Order Main form
 
-c. Hide unwanted tabs
+customization-form-go-to-main
 
-d. Hide unwanted subgrids
+b. Hide unwanted tabs
 
-e. Hide unwanted fields
+c. Hide unwanted fields
 
-f. Move unwanted fields away from the first form tab
+d. Move unwanted fields away from the first form tab
 
 
-b. Add your custom fields to the appropriate form tabs
+e. Add your custom fields to the appropriate form tabs
     Do not add custom fields to the first form tab unless absolutely necessary 
     
-e. Follow form design best practices
+f. Follow form design best practices
 
 https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/create-and-edit-forms
 
