@@ -35,6 +35,62 @@ In this article we will walk through how to edit or "customize" the Work Order f
 System administrator security role
 Field Service - Adminsitrator security role
 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customization-form-work-order.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customization-form-process.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customization-form-create-fields.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customization-form-create-fields2.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customization-form-field-display-name.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customization-form-field-choice-option-set.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customization-form-go-to-main.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customization-form-hide-tab.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customization-form-hide-field.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customization-form-move-from-first-tab1.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customization-form-move-from-first-tab2.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customization-form-create-custom.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customization-form-copy.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customization-form-add-custom-fields.png)
+
 ## 1. Understand the default work order form
 
 Before customizing the work order form, it is very important to understand the default work order form that is included with Field Servive. This means understanding the fields and the recommended process flow. This will help you determine if you need to make minor changes to the default form or create something completely new. Using the default fields and process is recommended for performance, usability, and upgradability reasons.
