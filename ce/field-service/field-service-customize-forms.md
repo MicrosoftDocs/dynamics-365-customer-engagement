@@ -91,6 +91,11 @@ Create new fields also called "columns" as needed.
 
 Do not add them to the form yet.
 
+customization-form-create-fields1
+
+
+customization-form-create-fields2
+
 
 ## 4. Do not delete existing fields 
 
@@ -136,11 +141,18 @@ b. Hide unwanted tabs
 
 c. Hide unwanted fields
 
-d. Move unwanted fields away from the first form tab
+d. Move unwanted subgrids and fields away from the first form tab
+
+customization-form-move-from-first-tab1
+
+customization-form-move-from-first-tab2
+
 
 
 e. Add your custom fields to the appropriate form tabs
     Do not add custom fields to the first form tab unless absolutely necessary 
+
+    customization-form-add-custom-fields
     
 f. Follow form design best practices
 
