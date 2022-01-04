@@ -16,7 +16,7 @@ manager: shujoshi
 
 In today's business scenario, business groups often collaborate across departments while working on a marketing campaign, pursuing a sales opportunity, or solving a customer issue. Dynamics 365 and Microsoft Teams integration allows you to speed up the flow of work, enabling anyone in an organization to view and collaborate on Dynamics 365 records, from within the flow of work with Teams—at no additional cost. 
 
-Using Teams integration, you can invite anyone in the organization to view and collaborate on customer records right within a Teams chat or channel. You can also call your customers from within Dynamics 365 and get the work done more effectively. As a seller, you can share details on the sales opportunity, customer history, and more. As a customer service representative, you can share the customer case record, troubleshooting steps, and track the follow-up tasks.
+Using Teams integration, you can invite anyone in the organization to view and collaborate on customer records right within a Teams chat or channel. You can also make and receive calls from within Dynamics 365 and get the work done more effectively. As a seller, you can share details on the sales opportunity, customer history, and more. As a customer service representative, you can share the customer case record, troubleshooting steps, and track the follow-up tasks.
 
 Teams can be integrated with Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation.
 
@@ -44,7 +44,7 @@ Dynamics 365 and Teams integration is built around the following pillars:
 
 ## Features of Teams integration
 
-Connect and collaborate in the flow of work with anyone, anywhere with Dynamics 365 and Microsoft Teams.
+Microsoft Teams is integrated into Dynamics 365 and additional capabilities are added to bring Dynamics 365 data into Teams. This helps you in connecting and collaborating in the flow of work with anyone, anywhere with Dynamics 365 and Microsoft Teams.
 
 - **In Dynamics 365**
 
@@ -52,7 +52,7 @@ Connect and collaborate in the flow of work with anyone, anywhere with Dynamics 
 
   - **Collaboration hub**: You can easily connect a Dynamics 365 record to an existing Teams channel or create a new team or channel. More information: [Enhanced Collaboration Experience with the Dynamics 365 app for Microsoft Teams](teams-collaboration-enhanced-experience.md)
 
-  - **Configure Teams dialer**: Microsoft Teams dialer helps sellers to be more productive and get work done more effectively by calling customers directly from within the Dynamics 365 Sales app. More information: [Configure Microsoft Teams dialer](../sales/configure-microsoft-teams-dialer.md)
+  - **Embedded Teams calling**: Boost seller's productivity by making and receiving Teams calls directly in Dynamics 365. Avoid the need to switch apps, get calls automatically recorded in the relevant record's timeline and save your call notes directly where you need them.  More information: [Call customers through Microsoft Teams dialer in Dynamics 365 Sales](../sales/call-using-microsoft-teams.md)
 
 
 - **In Microsoft Teams**
