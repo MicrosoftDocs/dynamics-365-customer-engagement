@@ -46,8 +46,8 @@
     href: configure-default-settings.md
 - name: Customize Field Service
   items: 
-  - name: What to know before customizing Field Service
-    href: field-service-customization-what-to-know.md
+  - name: What to know before customizing Field Service + best practices
+    href: field-service-customization-best-practices.md
   - name: Edit the app and SiteMap
     href: field-service-customize-copy-app-module.md
   - name: Edit security roles
@@ -64,9 +64,8 @@
     href: field-service-customize-scripts.md
   - name: Integrate Field Service with other apps
     href: field-service-customize-integrations.md        
-  - name: Customization best practices
-    href: field-service-customization-best-practices.md
-  - name: Validate your customizations
+  
+  - name: Tools to validate your customizations
     href: field-service-customization-validate.md  
 - name: Quickstarts
   items: 
