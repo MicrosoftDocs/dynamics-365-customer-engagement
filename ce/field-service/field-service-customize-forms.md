@@ -90,6 +90,7 @@ Read more about the work order fields and functions by reviewing the topics on [
 The work order form is optimized for the following standard work order process.
 
 
+[START WITH THIS SECTION]
 
 1. A work order is created manually, from a converted case, via an IoT alert, from an agreement schedule, or via an integration with a system status equal to _Unscheduled_ by default. 
 2. Work order details are entered like the account, work order type, location, products, services, service tasks, and any other information that is important
@@ -102,6 +103,8 @@ The work order form is optimized for the following standard work order process.
 > ![Screenshot of ](./media/customization-form-process.png)
 
 [Read more about the Field Service work order process](work-order-status-booking-status.md)
+
+[CONSIDER BOOKABLE RESOURCE BOOKING]
 
 ## 2. Make a list of needed and unneeded fields
 
@@ -130,6 +133,9 @@ Do not add them to the form yet.
 Do not delete work order fields that you do not need. We will hide them from the form later on.
 
 ## 5. Follow guidelines to edit existing fields
+
+[EDIT FORM LABELS]
+*do NOT EDIT FIELD PROPERTIES
 
 In general, it is highly recommended to not edit existing fields. 
 
