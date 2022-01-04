@@ -33,11 +33,11 @@ Dynamics 365 Channel Integration Framework works only with Unified Interface app
 
 ### Is Dynamics 365 Channel Integration Framework a softphone?
 
-No, Dynamics 365 Channel Integration Framework provides an extensible framework to integrate third-party channel providers (softphones, chat, and SMS) with Dynamics 365 Unified Interface apps.
+No, Dynamics 365 Channel Integration Framework provides an extensible framework to integrate a softphone with Dynamics 365.
 
 ### Does Dynamics 365 Channel Integration Framework make calls or send messages?
 
-No, Dynamics 365 Channel Integration Framework provides an extensible framework to configure the channel provider to make inbound or outbound calls or messages.
+No, Dynamics 365 Channel Integration Framework provides an extensible framework to configure the channel provider to make and receive calls, or send and receive messages.
 
 ### Is Dynamics 365 Channel Integration Framework a server-side API?
 
@@ -47,7 +47,7 @@ No, Dynamics 365 Channel Integration Framework provides a JavaScript library tha
 - Search among records of a particular entity type.
 - Get and set the panel width, and so on.
 
-More information: [Microsoft.CIFramework methods (CIF JavaScript API reference)](reference/microsoft-ciframework.md)
+More information: [Microsoft.CIFramework methods (Dynamics 365 Channel Integration Framework JavaScript API reference)](reference/microsoft-ciframework.md)
 
 ### Does Dynamics 365 Channel Integration Framework manage call or chat sessions?
 
@@ -55,7 +55,7 @@ No, Dynamics 365 Channel Integration Framework does not manage call or chat sess
 
 ### Is Dynamics 365 Channel Integration Framework dependent on operating systems and browsers?
 
-No, Dynamics 365 Channel Integration Framework is agnostic to operating systems and web browsers; you can integrate cloud-based channels of your choice that are best for your organization's requirements.
+No, Dynamics 365 Channel Integration Framework is agnostic to operating systems and web browsers; you can integrate cloud-based channels of your choice that are best suited for your organization's requirements.
 
 ### Which web browsers does Dynamics 365 Channel Integration Framework support?
 
