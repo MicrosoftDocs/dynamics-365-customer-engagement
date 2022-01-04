@@ -7,7 +7,7 @@ ms.reviewer: pehecke
 ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 78a964e8-0f5a-4075-8d22-32b984e3c0c3
@@ -17,7 +17,6 @@ ms.author: jdaly
 manager: kvivek
 search.audienceType: 
   - developer
-
 ---
 # Sample: Create a real-time workflow in code
 

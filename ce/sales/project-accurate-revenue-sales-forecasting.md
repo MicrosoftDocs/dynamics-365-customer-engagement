@@ -22,7 +22,19 @@ searchScope:
 ---
 # Project accurate revenue with sales forecasting 
 
-A forecast helps your organization predict how much revenue your sales team will generate in a given timeframe. When done correctly, it can play a significant role in your company's success. By using a forecast:
+A forecast helps your organization predict how much revenue your sales team will generate in a given timeframe. When done correctly, it can play a significant role in your company's success. 
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Salesperson and above <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
+## How does a forecast help sales team
+
+By using a forecast:
 
 - Sellers can track their performance against targets and identify pipeline risks that might jeopardize their ability to hit the targets.
 

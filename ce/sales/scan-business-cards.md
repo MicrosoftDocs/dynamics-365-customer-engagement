@@ -25,18 +25,24 @@ The integrated business card scanner in Dynamics 365 Sales helps salespeople to 
 > - To know about the business card scan limits with your user license, see the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
 
 ## License and role requirements
-|  | |
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
 
 ## Scan a business card
 
-1. Make sure you have the Common Data Service User role assigned.
+1. Make sure you have the Microsoft Dataverse User role and AI Builder add-on license assigned.
 
-2.  On the Quick Create form of a **Contact** or **Lead** form, select **Scan business card**.
+1. On the nav bar, select the **New** button and then select **Contact** or **Lead**.  
+
+    :::image type="content" source="media/nav-bar.png" alt-text="Navigation bar highlighting the Quick Create button":::
+
+
+2.  On the Quick Create form, select **Scan Business Card**.
 
     > [!div class="mx-imgBorder"]
     > ![Option to scan business card in the Contact Quick Create form.](media/scan-business-card-option-in-contact-quick-create-form.png "Option to scan business card in the Contact Quick Create form")

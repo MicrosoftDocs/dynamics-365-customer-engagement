@@ -1,5 +1,5 @@
 ---
-title: "Configure offline data for the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
+title: "Configure offline data for the Field Service (Dynamics 365) mobile app (contains video) | MicrosoftDocs"
 description: Learn how to configure offline data for the Field Service (Dynamics 365) mobile app.
 ms.date: 06/02/2021
 ms.reviewer: krbjoran
@@ -200,11 +200,15 @@ It is recommended to use the mobile offline profile included with Field Service 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Power Platform admin center showing the copy option for the Field Service Mobile - Offline profile.](./media/mobile-2020-offline-profile-copy.png)
 
+### Are WebResources supported in offline mode?
+
+Due to some current [limitations](/dynamics365/mobile-app/mobile-offline-capabilities#limitations) of offline WebResources, we recommend using the [Power Apps component framework (PCF)](/powerapps/developer/component-framework/overview) to implement custom capabilities that work in both the Field Service (Dynamics 365) mobile app and in the browser.
+
 ### Known limitations
 
 - Offline sync filters: If a record is created from the device while in offline mode, and that record does not meet filter conditions, then the record does not get resynchronized from the service until conditions are met.
 - Offline sync filters: If commands or capabilities are set up to work with internet connectivity but not in offline mode, those capabilities should be reviewed to confirm they are calling correct APIs: `Xrm.WebApi.online`.
-- [More platform supported capabilities and limitations for offline](../mobile-app/mobile-offline-capabilities.md)
+- [Details on additional platform supported capabilities and limitations for offline](../mobile-app/mobile-offline-capabilities.md)
 
 ### See also
 

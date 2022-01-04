@@ -30,7 +30,7 @@ As a seller, you don't want to move between apps to take notes and identify acti
 
 Before you start using the Dynamics 365 Sales app, be sure you've met the following prerequisites:
 
-- Conversation intelligence is enabled in your organization. More information: [Microsoft Teams for conversation intelligence](fre-setup-sales-insight-app.md#microsoft-teams-for-conversation-intelligence)
+- Conversation intelligence is enabled in your organization. More information: [First-run setup experience of Microsoft Teams for conversation intelligence](fre-setup-ci-sales-app.md)
 
 **To add the conversation intelligence tab**
 

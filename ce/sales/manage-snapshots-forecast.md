@@ -19,7 +19,8 @@ Snapshots are taken automatically each day and while configuring the forecasts y
 >- You can enable or disable snapshots any time while a forecast active. When disabled, the previously taken snapshots are still available.  
 
 ## License and role requirements
-|  | |
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator or Forecast Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|

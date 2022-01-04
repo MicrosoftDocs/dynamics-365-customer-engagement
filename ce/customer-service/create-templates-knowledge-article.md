@@ -4,10 +4,18 @@ description: Learn how to create templates that simplify the process of creating
 ms.date: 12/03/2020
 ms.topic: article
 author: lalexms
-ms.author: lalexms
+ms.author: laalexan
 manager: shujoshi
 search.audienceType: 
   - admin
+searchScope: 
+ - D365-App-customerservicehub 
+ - D365-Entity-knowledgearticle
+ - D365-Entity-msdyn_knowledgearticletemplate 
+ - D365-UI-*
+ - Dynamics 365
+ - Customer Service 
+ - Customer Engagement
 ---
 
 # Knowledge article templates

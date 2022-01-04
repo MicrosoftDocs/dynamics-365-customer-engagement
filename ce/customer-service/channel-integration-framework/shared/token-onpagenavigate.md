@@ -1,8 +1,8 @@
-The `onpagenavigate` event is invoked when the main Unified Interface page navigation occurs. The eventData URL is the navigated Unified Interface page URl.
+The `onpagenavigate` event is invoked when the main Unified Interface page navigation occurs. The eventData URL is the navigated Unified Interface page URL.
 
 ## eventData
 
-The `onpagenavigate` event takes following eventData:
+The `onpagenavigate` event takes the following eventData:
 
 | eventData | Example |
 |-----------|---------|

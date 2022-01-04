@@ -1,5 +1,5 @@
 ---
-title: "Developer Guide - Sales Enterprise | MicrosoftDocs"
+title: "Developer Guide | MicrosoftDocs"
 description: "This guide contains entity reference and action reference information that developers need to know while developing for Dynamics 365 Sales"
 ms.date: 10/08/2021
 ms.topic: get-started-article
@@ -61,8 +61,8 @@ Welcome to the Dynamics 365 Sales Developer Guide.
 ### Related resources
 
 [Overview of Sales and Sales Hub](../overview.md)<br />
-[User Guide for Dynamics 365 Sales](../user-guide.md)<br />
-[Administrator and Sales Manager Guide](../admin-guide.md)<br />
+[Help resources for seller in Dynamics 365 Sales](../user-guide.yml)
+[Administrator and Sales Manager Guide](../admin-guide.yml)<br />
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

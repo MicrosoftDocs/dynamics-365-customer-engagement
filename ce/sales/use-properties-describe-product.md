@@ -15,10 +15,10 @@ Simplify product management and classification by adding product properties in D
 
 ## License and role requirements
 
-|  | |
+| &nbsp; | &nbsp; |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator, Sales Manager, Sales Professional Manager, and above <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
 ## What are product properties?
@@ -28,13 +28,18 @@ A property of a product could be its size, color, component, and so on. You can 
 Adding well-defined properties to products cuts down on the time spent by your agents trying to find products with the right specifications or properties for your customers when they're building orders.  
 
 > [!IMPORTANT]
-> You can't set different prices for the different properties you define for a product unless you're using a custom pricing engine.  
+> - You can't set different prices for the different properties you define for a product unless you're using a custom pricing engine.  
+> - Product families are only supported for Sales Enterprise and Sales Premium.  
 
 ## Add properties to a product, bundle, or family
 
-1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]
-
-2. Select the site map ![Site Map icon.](media/site-map-icon.png "Site map icon"), then select **App Settings**, and then select **Families and Products**.
+1. Depending on the sales app that you're using, do one of the following:
+ 
+    -  If you're using the Sales Hub app, 
+        1. Select **Change area** ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area") at the lower-left corner of the site map, and then select **App Settings**. 
+        1. In the **Product Catalog** area, select **Families and Products**. 
+   - If you're using the Sales Professional app,
+       - Select **Products** from the site map.  
 
 3. Open the product, bundle, or family you want to add the properties for.
 

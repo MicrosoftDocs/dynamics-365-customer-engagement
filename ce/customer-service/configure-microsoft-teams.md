@@ -1,7 +1,7 @@
 ---
 title: "Configure Microsoft Teams channel in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the Microsoft Teams channel and how to configure the channel in Omnichannel for Customer Service."
-ms.date: 10/26/2021
+ms.date: 12/10/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -34,24 +34,24 @@ Make sure that the following prerequisites are met:
    2. On the **Account details** page, in **Account name**, enter the Microsoft Teams name that you use.
    3. On the **Callback information** page, copy the value in the **Bot ID** box. You'll use it in the Teams app to update the value for the bot ID.
    4. Select **Done**. The account is added to the list.
-3. To configure routing and work distribution, you can create a [workstream](create-workstreams.md) or select an existing one.
-4. Select the workstream that you've created for the WhatsApp channel and on the workstream page, select **Set up Microsoft Teams** to configure the following options:
+3. To configure routing and work distribution, go to the **Workstreams** page and create a [workstream](create-workstreams.md).
+4. Select the workstream that you've created for the Microsoft Teams channel and on the workstream page, select **Set up Microsoft Teams** to configure the following options:
     1. On the **Microsoft Teams setup** page, in the **Available Microsoft Teams accounts** list, select the number that you created.
     2. On the **Language** page, select the language.
     3. On the **Behaviors** page, configure the following options:
       - [Custom automated messages](configure-automated-message.md)
       - [Post-conversation survey](configure-post-conversation-survey.md)
-   4. On the **User features** page, set the toggle for **File attachments** to **On** and select the following checkboxes if you want to allow agents and customers to send and receive file attachments. More information: [Enable file attachments](enable-file-attachments.md).
+    4. On the **User features** page, set the toggle for **File attachments** to **On** and select the following checkboxes if you want to allow agents and customers to send and receive file attachments. More information: [Enable file attachments](enable-file-attachments.md).
       - Customers can send file attachments
       - Agents can send file attachments
    5. Verify the settings on the **Summary** page, and select **Finish**. The WhatsApp channel instance is configured.
 5. Configure routing rules. More information: [Configure work classification](configure-work-classification.md).
 6. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
-7. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot).
+7. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream).
 8. In **Advanced settings**, configure the following options based on your business needs:
    - [Sessions](../app-profile-manager/session-templates.md)
    - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
-   - [Context variables](create-workstreams.md#configure-context-variables)
+   - [Context variables](context-variables-for-bot.md#add-context-variables)
    - [Smart assist bots](smart-assist-bot.md)
    - [Quick replies](create-quick-replies.md)
 

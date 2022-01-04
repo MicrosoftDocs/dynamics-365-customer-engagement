@@ -1,7 +1,7 @@
 ---
 title: "Customize your Teams webinar participant follow-up (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to customize your follow-up with Microsoft Teams webinar participants using Dynamics 365 Marketing."
-ms.date: 10/04/2021
+ms.date: 11/29/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -22,7 +22,10 @@ search.app:
 
 In just a few steps, you can use contacts, segments, and a customer journey to follow up with Teams webinar participants, [even if you are not an existing Dynamics 365 Marketing user](teams-journey.md). The tools within Dynamics 365 Marketing allow you to create groups of participants and send tailored messages, create and send surveys, improve outcomes with email analytics, save participant details for future use, attract participants with personalized invitations, and increase attendance with automated confirmations and reminders.
 
-Before you continue and customize the conversation with webinar participants, it's helpful to familiarize yourself with some Dynamics 365 Marketing terminology.
+> [!NOTE]
+> To follow up with Teams webinar participants, you need to enable Teams engagement reports by going to **Meetings** > **Meeting policies**, and setting the policy to **Enabled**. Learn more: [Engagement report](/microsoftteams/meeting-policies-in-teams-general#engagement-report).
+>
+> If you are an existing Dynamics 365 Marketing user, make sure to also set the [required permissions](teams-webinar-follow-up.md#required-permissions-to-follow-up-with-participants) in the Marketing app.
 
 ## Using the automatically created customer journey with your webinar data
 
