@@ -323,6 +323,12 @@
         href: connect-a-sequence-to-records.md
       - name: View details of a sequence and its connected records
         href: view-sequence-details-connected-records.md
+      - name: Understand sales acceleration reporting
+        href: understand-sales-acceleration-reporting.md
+      - name: Understand the sequence stats page
+        href: understand-sequence-stats.md
+      - name: Manage tags for sequences
+        href: manage-tags-for-sequences.md    
       - name: View sequence in a grid
         href: view-disconnected-sequences.md  
       - name: Clone a sequence
@@ -340,6 +346,8 @@
         href: create-and-activate-a-segment.md
       - name: Connect a segment to sequence
         href: connect-a-segment-to-sequence.md
+      - name: View details of a segment  
+        href: view-details-segment.md
       - name: Edit a segment
         href: edit-a-segment.md
       - name: Delete or deactivate a segment
@@ -463,7 +471,7 @@
   items:
   - name: Help resources for sellers
     href: user-guide.yml
-  - name: Dashboards
+  - name: Dashboards and reports
     items:
     - name: Track your progress with dashboards and charts
       href: /powerapps/user/track-your-progress-with-dashboard-and-charts?context=/dynamics365/context/sales-context
@@ -471,6 +479,8 @@
       href: dashboards.md
     - name: Understand the sales pipeline chart and its phases
       href: sales-pipeline-chart.md
+    - name: Visualize data quickly from Power Apps and Dynamics 365 apps
+      href: /power-bi/create-reports/dynamics-quick-create-report?context=/dynamics365/context/sales-context
   - name: Account and contact management
     items:
     - name: Work with accounts and contacts
@@ -708,7 +718,7 @@
       href: sales-mobile/view-edit-add-note.md
     - name: App settings
       href: sales-mobile/app-settings.md
-    - name: Use the Sales Hub app on Dynamics 365 for phones and tablets app
+    - name: Use the Sales Hub app or Sales Professional app on Dynamics 365 for phones and tablets app
       href: use-sales-hub-on-dynamics-365-mobile.md
 - name: Developer guide
   items:

@@ -11,9 +11,6 @@ manager: shujoshi
 
 As a sequence manager, you create segments&mdash;groups of records&mdash;by defining different conditions for each segment. After a segment is activated and a record satisfies the conditions that are defined in the segment, the record becomes a member of the segment. A sequence that's connected to the segment is then automatically connected to records in the segment. You don't have to manually connect the sequence to a new record when it's created in Dynamics 365 Sales.
 
-> [!NOTE]
-> You can create segments only for leads and opportunities. 
-
 ## License and role requirements
 
 | &nbsp; | &nbsp; |
@@ -42,7 +39,7 @@ As a sequence manager, you create segments&mdash;groups of records&mdash;by defi
     |-----------|-------------|
     | Segment name | The name of the segment. |
     | Description | A description of the segment (optional). |
-    | Record type | The type of record to be grouped in this segment. By default, the **Lead** record type is selected. Currently, only leads and opportunities are supported. |
+    | Record type | The type of record to be grouped in this segment. By default, the lead and opportunity record type are available. For other record types, you must configure the record types in the **Choose content and layout** section while configuring the sales accelerator. More information: [Choose content and layout](enable-configure-sales-accelerator.md#choose-content-and-layout). |
 	
 6.	Select **Next**.   
 
@@ -50,7 +47,7 @@ As a sequence manager, you create segments&mdash;groups of records&mdash;by defi
     >[!div class="mx-imgBorder"]
     >![Segment condition builder page](media/sa-segment-condition-builder-home-page.png "Segment condition builder page")
 
-7.	On the **Builder** tab, under **AND**, select **+ Add**. Use the following options to define the criteria for the conditions to use for evaluating records:     
+7.	On the **Builder** tab, under **And**, select **+ Add**. Use the following options to define the criteria for the conditions to use for evaluating records:     
 
     -	**Add row**: Add conditions for when the segment should be applied. For example, you can add rows to specify that this segment be applied to leads created by the user John Thomas.    
         1.	Select an attribute from the dropdown list in the first column.    
@@ -85,17 +82,28 @@ As a sequence manager, you create segments&mdash;groups of records&mdash;by defi
 
         Define the condition as required.   
 
-8.	To verify that conditions for the segment work as defined, select **Simulate results**.    
+8.	After defining the conditions, select **Simulate results** to verify that the conditions for the segment work as defined.    
+
+    >[!div class="mx-imgBorder"]
+    >![Select simulate results](media/sa-segment-condition-builder-select-simulate-results.png "Select simulate results")           
 
     A list of records that satisfy the conditions you've defined for the segment in the application are displayed.    
     >[!NOTE]
-    >The records displayed here are only simulated results; they might not be records that the segment can actually be applied to.   
+    >- The records displayed here are only simulated results; they might not be records that the segment can actually be applied to.   
+    >- To activate the segment, select **Activate**.
 
     >[!div class="mx-imgBorder"]
-    >![Simulated results page for the created condition](media/sa-segment-condition-builder-simulated-results.png "Simulated results page for the created condition")       
- 
-9.	Select **Activate**.    
+    >![Simulated results page for the created condition](media/sa-segment-condition-builder-simulated-results.png "Simulated results page for the created condition")
 
+9.	Select **Save** and then select **Activate**.   
+
+    >[!div class="mx-imgBorder"]
+    >![Select save and then activate the segment](media/sa-segment-condition-builder-select-save-activate.png "Select save and then activate the segment")           
+
+    A confirmation message to activate segment is displayed.    
+
+10. Select **Activate**. 
+    
 The segment is activated. Now you can connect the segment to a sequence or a record. 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
@@ -110,7 +118,8 @@ The segment is activated. Now you can connect the segment to a sequence or a rec
 
 ### See also
 
-[Manage segments](manage-segments.md)
+[Manage segments](manage-segments.md)   
+[View details of a segment](view-details-segment.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

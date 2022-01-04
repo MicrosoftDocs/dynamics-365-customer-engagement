@@ -1,5 +1,5 @@
 ---
-title: "Entity reference for playbooks - Sales Enterprise | MicrosoftDocs"
+title: "Entity reference for playbooks | MicrosoftDocs"
 description: "As developer, use this reference documentation to understand the operations that can be performed on playbooks."
 ms.date: 04/08/2019
 ms.topic: reference
@@ -21,7 +21,7 @@ As developer, use this reference documentation to understand the operations that
 
 | &nbsp; | &nbsp; |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System customizer <br>  See [Predefined security roles for Sales](../../../sales/security-roles-for-sales.md)|
 |||
 

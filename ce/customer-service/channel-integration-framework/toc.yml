@@ -3,9 +3,9 @@
   items:
   - name: "Choose between version 1.0 and version 2.0"
     href: choose-between-versions.md    
-  - name: "Channel Integration Framework version 1.0"
+  - name: "Dynamics 365 Channel Integration Framework version 1.0"
     href: overview-channel-integration-framework.md
-  - name: "Channel Integration Framework version 2.0"
+  - name: "Dynamics 365 Channel Integration Framework version 2.0"
     href: v2/overview-channel-integration-framework.md
   - name: "What's new"
     href: whats-new-channel-integration-framework.md
@@ -17,7 +17,7 @@
       href: architecture-overview-channel-integration-framework.md
     - name: Download
       items:
-      - name: "Get Channel Integration Framework"
+      - name: "Get Dynamics 365 Channel Integration Framework"
         href: get-channel-integration-framework.md
       - name: "Sample softphone integration" 
         href: sample-softphone-integration.md
@@ -29,7 +29,7 @@
         href: enable-outbound-communication-clicktoact.md
       - name: "Add Channel Integration Framework solution as a dependent solution"
         href: add-cif-solution-dependent-solution.md   
-      - name: "Authenticate channel users to the channel (widget)"
+      - name: "Authenticate channel users to the channel"
         href: authenticate-channel-users.md
       - name: "Pass Dynamics 365 URL to widget library"
         href: pass-url-widget-library.md
@@ -123,7 +123,7 @@
       href: v2/architecture-overview-channel-integration-framework-v2.md
     - name: Download
       items:
-      - name: "Get Channel Integration Framework"
+      - name: "Get Dynamics 365 Channel Integration Framework"
         href: v2/get-channel-integration-framework.md
       - name: "Sample softphone integration"
         href: v2/sample-softphone-integration-v2.md
@@ -135,7 +135,7 @@
         href: v2/enable-outbound-communication-clicktoact.md
       - name: "Add Channel Integration Framework solution as a dependent solution"
         href: v2/add-cif-solution-dependent-solution.md   
-      - name: "Authenticate channel users to the channel (widget)"
+      - name: "Authenticate channel users to the channel"
         href: v2/authenticate-channel-users.md
       - name: "Pass Dynamics 365 URL to widget library"
         href: v2/pass-url-widget-library.md
@@ -145,6 +145,8 @@
         href: v2/support-multiple-providers.md
       - name: "Modes for communication widget"
         href: v2/modes-communication-widget.md
+      - name: "Migrate third-party channel configuration data"
+        href: v2/migrate-config-data.md        
       - name: Templates
         items:
         - name: "Overview of templates"

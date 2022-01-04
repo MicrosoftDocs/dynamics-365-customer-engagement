@@ -20,6 +20,16 @@ searchScope:
 
 With Dynamics 365, you can define, measure, and track goals for your organization and team. For example, your sales organization can define goals based on sales revenue for a specific territory, number of leads created, number of units sold, and so on. Similarly, your customer service organization can define goals based on the number of cases closed.
 
+## License and role requirements
+
+| &nbsp; | &nbsp; |  
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator, Sales Manager, or above   <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
+## Goal setting process
+
 You can create parent goals based on criteria like market research, budget planning, and historical performance. You'll typically assign parent goals to managers, and then assign child goals to individuals, teams, organizations, territories, and product lines. These child goals roll up into the overall goals for a specified metric.  
 
 For example, a parent goal might be to generate a certain number of sales leads during a quarter. Child goals assigned to territories, teams, or individuals would be for their portion of the parent goal. You can track child goals separately, with each child goal contributing to the parent goal. The actual and in-progress results of the child goals roll up to parent goals during a scheduled rollup or through a manual trigger.

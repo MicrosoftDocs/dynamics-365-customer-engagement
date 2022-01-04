@@ -1,5 +1,5 @@
 ---
-title: "Using deal manager - Sales Enterprise | MicrosoftDocs"
+title: "Using deal manager (contains video) | MicrosoftDocs"
 description: "Deal manager is a dedicated workspace for sellers to efficiently manage their sales pipeline. Sellers can personalize the workspace for their needs."
 ms.date: 10/26/2021
 ms.topic: article
@@ -18,7 +18,7 @@ Deal manager is a dedicated workspace for sellers to efficiently manage their sa
 
 | &nbsp; | &nbsp; |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 

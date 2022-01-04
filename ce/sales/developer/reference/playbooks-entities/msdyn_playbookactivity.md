@@ -1,5 +1,5 @@
 ---
-title: "msdyn_playbookactivity EntityType - Sales Enterprise | MicrosoftDocs"
+title: "msdyn_playbookactivity EntityType | MicrosoftDocs"
 description: "As developer, use this reference information to understand the msdyn_playbookactivity EntityType and its properties"
 ms.date: 04/08/2019
 ms.topic: article
@@ -15,7 +15,7 @@ As developer, use this reference information to understand the msdyn_playbookact
 
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System customizer <br>  See [Predefined security roles for Sales](../../../security-roles-for-sales.md)|
 |||
 

@@ -1,5 +1,5 @@
 ---
-title: "Create a work order in Dynamics 365 Field Service | Microsoft Docs"
+title: "Create a work order in Dynamics 365 Field Service (contains video) | Microsoft Docs"
 description: Learn how to create a work order in Dynamics 365 Field Service
 ms.date: 11/15/2021
 ms.reviewer: krbjoran
@@ -187,6 +187,9 @@ Set **Show Simplified Work Order Commands** to **No** to show the full list of r
 > [!Note]
 > The **Show Chart** ribbon command is *not* impacted by the **Show Simplified Work Order Commands** setting.
 
+## Additional notes
+
+The getting started work order create form does not support switching forms. If added as a form to other parts of the app, switching to this form will leave you unable to switch back.
 
 ### See also  
     

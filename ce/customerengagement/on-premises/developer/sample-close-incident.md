@@ -7,7 +7,7 @@ ms.reviewer: pehecke
 ms.service:
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
@@ -19,7 +19,6 @@ ms.author: kvivek
 manager: annbe
 search.audienceType: 
   - developer
-
 ---
 # Sample: Close an incident
 

@@ -143,7 +143,9 @@ The Quick Create command makes it fast and easy to enter almost any type of info
 
 With Quick Create, you need to complete only a few fields. Later, when you have more time or more information, you can fill in more details.
 
-1. On the nav bar, select the **New** button ![Icon for Quick Create.](media/quick-create-icon.png "Icon for Quick Create"), and then select the item you want.  
+1. On the nav bar, select the **New** button and then select the record you want to create.  
+
+    :::image type="content" source="media/nav-bar.png" alt-text="Navigation bar highlighting the Quick Create button":::
 
    > [!TIP]
    > On a mobile device, from the nav bar, tap ![Ellipsis icon.](media/ellipsis.png "Ellipsis icon") and then tap **Quick Create Menu**.
