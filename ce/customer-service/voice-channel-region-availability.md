@@ -4,13 +4,10 @@ description: "Learn about the region availability and supported languages for th
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 12/31/2021
+ms.date: 01/04/2022
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
-
-
-<!-- What is IVR? It's not spelled out at first use. -->
 
 
 
@@ -104,7 +101,7 @@ See the information in the following table to know about the supported languages
 
 ### Language limitations by feature
 
-We use the Azure Cognitive Services Speech service Speech-to-Text for transcription, so we'll support all the languages that Speech-to-Text supports today. We also support a bring-your-own bot through Azure Bot Service for IVR that will be constrained by the languages that Speech-to-Text supports. Power Virtual Agents is available only for a subset of languages, so for Power Virtual Agents-based IVR, we will support the languages that Power Virtual Agents supports.
+We use the Azure Cognitive Services Speech service Speech-to-Text for transcription, so we'll support all the languages that Speech-to-Text supports today. We also support a bring-your-own bot through Azure Bot Service for Interactive Voice Response (IVR) that will be constrained by the languages that Speech-to-Text supports. Power Virtual Agents is available only for a subset of languages, so for Power Virtual Agents-based IVR, we will support the languages that Power Virtual Agents supports.
 
 Use the information in the following table to know about the feature-wise support for languages.
  
