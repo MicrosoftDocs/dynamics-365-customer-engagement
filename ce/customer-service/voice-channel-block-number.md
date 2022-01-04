@@ -4,7 +4,7 @@ description: "Use this topic to understand how to review, mark, and block spam n
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 01/05/2022
+ms.date: 01/04/2022
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
