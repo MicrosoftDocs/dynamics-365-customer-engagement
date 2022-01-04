@@ -1,7 +1,7 @@
 ---
 title: Automatically create or update records in Customer Service Hub (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to automatically create or update records by setting up rules in Dynamics 365 Customer Service
-ms.date: 05/13/2021
+ms.date: 01/04/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -128,7 +128,7 @@ On the **Advanced** tab of the **Record creation and update rule** page for a ru
 
    - **Wait for a specific amount of time after the connected case has been resolved:** If you select **Yes**, select a time value in the **Select the amount of time** box that appears.
 
-    If set to no, a case will be created even if a related case exists. When set to yes, no new case will be created till the specified period of time lapses after a related case is resolved. For example, if you have set the value to yes and specify one hour, and a case exists for a printer issue, when a mail comes for the same printer issue, another case will not be created till one hour lapses after the existing printer issue case is resolved.
+    If set to no, a case will be created even if a related case exists only if an email isn't already associated with a resolved case. When set to yes, no new case will be created till the specified period of time lapses after a related case is resolved. For example, if you have set the value to yes and specify one hour, and a case exists for a printer issue, when a mail comes for the same printer issue, another case will not be created till one hour lapses after the existing printer issue case is resolved.
 
     > [!Note]
     > If you want a case to be created without any time lapse, then set **Wait for a specific amount of time after the connected case has been resolved** to **Yes** and don't select any time duration in the **Select the amount of time** box.
