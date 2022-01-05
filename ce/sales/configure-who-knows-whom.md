@@ -87,34 +87,8 @@ To configure the Sales Insights connection graph, follow these steps:
 
 5. Select **Save**.
 
-## Opt out of the connection graph
-
-As a user, you can always choose to opt out of the connection graph if you don't want Sales Insights to analyze your communication and collaboration data. 
-
 >[!NOTE]
->You can only opt out of the connection graph if your Office 365 organization is in the EMEA or Asia Pacific global geography. More information: [Datacenter locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide&preserve-view=true)
-
-1. Sign in to your [Office 365 account](https://myprofile.microsoft.com/).
-
-    > [!div class="mx-imgBorder"]
-    > ![Sign in to your Office 365 account](media/sales-insights-addon-o365-account-settings.png "Sign in to your Office 365 account")
-
-2. Select **Settings & Privacy**, and then select the **Privacy** tab. 
-
-    > [!div class="mx-imgBorder"]
-    > ![Open privacy settings](media/sales-insights-addon-o365-privacy-settings-tab.png "Open privacy settings")
-
-3. In the **Services** section, select the arrow next to **Dynamics 365 Sales Insights - Connection Graph**.  
-
-    > [!div class="mx-imgBorder"]
-    > ![Expand the connection graph option](media/sales-insights-addon-o365-expand-connection-graph-settings.png "Expand the connection graph option")
-
-4. Turn off the **Include my data** toggle.
-
-    > [!div class="mx-imgBorder"]
-    > ![Select toggle to opt out of the connection graph](media/sales-insights-addon-o365-opt-out-toggle.png "Select toggle to opt out of the connection graph")
-
-After you opt out of the connection graph, Sales Insights won't analyze your data.
+> To opt out the of the connection graph, see [Opt out of the connection graph](who-knows-whom.md#opt-out-of-the-connection-graph)
 
 ## Add the who knows whom widget to a form
 
