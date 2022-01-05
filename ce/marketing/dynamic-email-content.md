@@ -372,16 +372,15 @@ In this example, the Dynamics 365 Marketing system has been customized to includ
 > Only first 1,000 related items are added to the relationship for email rendering purposes. Using relationships with more than 1,000 items is not supported in email templates and might lead to unexpected results.
 >
 > Also note that second level relationships are not supported. Therefore, the following syntax is not allowed:
-
-```Handlebars
-{{#each Entity.RelationshipOnEntity}} 
-    ... 
-    {{#each this.RelationshipOnRelatedEntity}}
-        ...
-    {{/each}}
-    ... 
-{{/each}}
-```
+> ```Handlebars
+> {{#each Entity.RelationshipOnEntity}} 
+>     ... 
+>     {{#each this.RelationshipOnRelatedEntity}}
+>         ...
+>     {{/each}}
+>     ... 
+> {{/each}}
+> ```
 
 <a name="enter-code"></a>
 
