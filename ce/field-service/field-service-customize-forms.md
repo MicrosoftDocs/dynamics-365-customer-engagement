@@ -37,31 +37,31 @@ Field Service - Adminsitrator security role
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## 1. Understand the default work order form
 
 Before customizing the work order form, it is very important to understand the default work order form that is included with Field Servive. This means understanding the fields and the recommended process flow. This will help you determine if you need to make minor changes to the default form or create something completely new. Using the default fields and process is recommended for performance, usability, and upgradability reasons.
 
 Go to the Field Service app > Work Orders > select an existing record or create a new one.
 
+The work order form is optimized for the following standard work order process.
+
+1. A work order is created manually, from a converted case, via an IoT alert, from an agreement schedule, or via an integration with a system status equal to _Unscheduled_ by default. 
+2. Work order details are entered like the account, work order type, location, products, services, service tasks, and any other information that is important
+3. The work order is scheduled to one or more resources ("frontline workers") and the system status automically becomes _Scheduled_.
+4. The frontline worker views the scheduled work order on his or her mobile app and travels to the customer location to perform the required work and records progress. The system status becomes _In Progress_. The fronltine worker updates information like when he or she arrived on site, service tasks completed, services and products billed. 
+5. The frontline worker completes the work order and the system status becomes _Completed_.
+6. The back office manager or dispatcher views the completed work order and verifies the work is completed and the necessary data is captured. If everything is finished the status is changed to _Closed-Posted_.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customization-form-process.png)
+
+[Read more about the Field Service work order process](work-order-status-booking-status.md)
+
+
 View and understand the default fields and determine which ones can be used for your business.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customization-form-work-order.png)
-
-
 
 
 The following fields are critical to the Field Service work order process and are required. If your organziation does not plan to use these fields then you may want to consider creating an entirely new entity table.
@@ -87,24 +87,6 @@ The following subgrids are also critical to the Field Service work order process
 
 Read more about the work order fields and functions by reviewing the topics on [Field Service architecture](field-service-architecture.md) and [creating a work order](create-work-order).
 
-The work order form is optimized for the following standard work order process.
-
-
-[START WITH THIS SECTION]
-
-1. A work order is created manually, from a converted case, via an IoT alert, from an agreement schedule, or via an integration with a system status equal to _Unscheduled_ by default. 
-2. Work order details are entered like the account, work order type, location, products, services, service tasks, and any other information that is important
-3. The work order is scheduled to one or more resources ("frontline workers") and the system status automically becomes _Scheduled_.
-4. The frontline worker views the scheduled work order on his or her mobile app and travels to the customer location to perform the required work and records progress. The system status becomes _In Progress_. The fronltine worker updates information like when he or she arrived on site, service tasks completed, services and products billed. 
-5. The frontline worker completes the work order and the system status becomes _Completed_.
-6. The back office manager or dispatcher views the completed work order and verifies the work is completed and the necessary data is captured. If everything is finished the status is changed to _Closed-Posted_.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/customization-form-process.png)
-
-[Read more about the Field Service work order process](work-order-status-booking-status.md)
-
-[CONSIDER BOOKABLE RESOURCE BOOKING]
 
 ## 2. Make a list of needed and unneeded fields
 
