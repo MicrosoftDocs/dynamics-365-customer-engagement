@@ -83,7 +83,7 @@ var html: String = """
     chatWebView.loadDataWithBaseURL(baseUrl,html, "text/html", null, baseUrl)
 ```
 
-You can optimize the rendering of the chat widget for mobile web experience by using data tags such as `data-hide-chat-button` and `data-render-mobile`, along with a few APIs and events provided by the [live chat widget client SDK](developer/omnichannel-reference.md). More information: [Customize a chat widget using data tags](customize-chat-widget.md)
+You can optimize the rendering of the chat widget for mobile web experience by using data tags such as `data-hide-chat-button` and `data-render-mobile`, along with a few APIs and events provided by the live chat widget client SDK. More information: [Customize a chat widget using data tags](customize-chat-widget.md)
 
 The usage of the `data-hide-chat-button` data tag in the preceding sample code hides the default open chat button available in the live chat widget. So instead of using the default chat button, you can add a button that aligns with the mobile app. To open a chat session, you can call the [startChat](developer/reference/methods/startchat.md) method when the new chat button is selected.
 
