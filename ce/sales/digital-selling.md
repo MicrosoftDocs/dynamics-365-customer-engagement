@@ -23,12 +23,16 @@ Use selected Dynamics 365 Sales Premium features (Sales accelerator, conversatio
 
 ## Overview
 
-Dynamics 365 digital selling capabilities spearhead the digital transformation of sales organizations and constitute the data and productivity first revolution. You can enhance your digital selling programs with Sales Premium features such as Sales accelerator, conversation intelligence, and predictive scoring that are available with the Dynamics 365 Sales Enterprise license. The premium features are available with a limited monthly capacity. If you would like to avail all the benefits of premium features, you can purchase a license for Dynamics 365 Sales Premium.
+Dynamics 365 digital selling capabilities spearhead the digital transformation of sales organizations and constitute the data and productivity first revolution. You can enhance your digital selling programs with Sales Premium features such as the sales accelerator, conversation intelligence, and predictive scoring that are available with the Dynamics 365 Sales Enterprise license. The premium features are available with a limited monthly capacity. If you would like access to all the [premium features](overview.md#dynamics-365-sales-premium), upgrade to Dynamics 365 Sales Premium.
 
 To use digital selling capabilities, you must have Sales Hub app installed. If you don't have the Sales Hub app, you can install it by following the steps mentioned at: [Install the Sales solution](set-up-dynamics-365-sales.md#install-the-sales-solution). Once the Sales Hub app is installed, digital selling capabilities can be set up from the **Get started with digital sales** page under **App Settings**.
 
 > [!NOTE]
 > If you have a Dynamics 365 Sales Premium license, you can still use this page to quickly set up the features. The only difference would be that there will be no monthly capacity limit.
+
+<br>
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWQCj0]
 
 ## Set up digital sales
 
@@ -50,13 +54,17 @@ To use digital selling capabilities, you must have Sales Hub app installed. If y
     :::image type="content" source="media/ds-all-setup.png" alt-text="All features enabled in digital sales":::
 
     > [!NOTE]
-    > If advanced configurations are required, you can go to the advanced settings page for each of the Sales Premium features. The settings you update at one place, are synced in both quick setup and advanced settings.
+    > If advanced configurations are required, you can go to the advanced settings page for each of the Sales Premium features. The settings you update at one place, will reflect in both quick setup and advanced settings.
 
 ## Sales accelerator
 
 Sales accelerator in Dynamics 365 provides a tailored experience for sellers by minimizing the time they spend on their search for the best next customer to reach out to. It gathers information from multiple sources and lets sellers focus on how to best approach their customers. It helps sellers to sell smartly, by building a strong and prioritized pipeline, offering context, and surfacing automated recommendations throughout a sales sequence that helps to speed the sales process. More information: [What is the Sales accelerator?](sales-accelerator-intro.md)
 
-When you setup sales accelerator with the Dynamics 365 Sales Enterprise license, you get only 1500 sequence-connected records per month. If you require more capacity, you must purchase a license for Dynamics 365 Sales Premium.
+### Licensing options
+
+When you set up sales accelerator with the Dynamics 365 Sales Enterprise license, you get 1500 sequence-connected records per month. If you need more than 1500 sequence-connected records per month, upgrade to Dynamics 365 Sales Premium.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWQCjf]
 
 ### Set up sales accelerator
 
@@ -68,8 +76,8 @@ When you setup sales accelerator with the Dynamics 365 Sales Enterprise license,
 
 2. In the **Enable for** section, choose one of the following options to grant permissions to use sales accelerator features.
 
-    - **All security roles**: Select this option to give access to view the Sales Hub app to all the security roles in your organization.
-    - **Specific security roles**: Select this option to specify security roles to give access to view the Sales Hub app to just a few users. Use the lookup box to add the security roles.
+    - **All security roles**: Select this option to give access to view Sales accelerator in the Sales Hub app to all the security roles in your organization.
+    - **Specific security roles**: Select this option to specify security roles to give access to view Sales accelerator in the Sales Hub app to just a few users. Use the lookup box to add the security roles.
 
 3. To add sample data for exploring the feature, select **Add sample data**. Installing the sample data is relevant only for your sandbox or trial environments. Adding the sample data might take a few minutes. However, you can choose to ignore the sample data installation and add it later when required.
 
@@ -104,6 +112,8 @@ By default, the **Up next** widget is available only in the out-of-the-box Sales
 
 Connect Dynamics 365 and Microsoft Teams so your sales teams can collaborate seamlessly on deals from wherever they work. Dynamics 365 and Microsoft Teams integration allows you to speed up the flow of work, enabling anyone in an organization to view and collaborate on Dynamics 365 records, from within the flow of work with Teams—at no additional cost. More information: [Overview of Microsoft Teams integration](../teams-integration/teams-integration.md)
 
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWQEPI]
+
 ### Set up Teams collaboration
 
 1. On the **Get started with digital sales** page, under **Microsoft Teams collaboration**, select **Quick setup**.
@@ -137,7 +147,11 @@ Microsoft Teams dialer helps sellers to be more productive and get work done mor
 
 Conversation intelligence uses analytics and data science to gather data from sellers' call recordings and Dynamics 365 Sales. Conversation intelligence analyzes the data to provide you with the information and insights to intelligently manage your sales team and proactively coach sellers. More information: [Overview of Conversation Intelligence](dynamics365-sales-insights-app.md)
 
-When you setup Microsoft Teams calls with conversation intelligence with the Dynamics 365 Sales Enterprise license, you get only 3 hours of conversation intelligence per month. If you require more capacity, you must purchase a license for Dynamics 365 Sales Premium. There's no capacity limit on Teams calls.
+### Licensing options
+
+When you setup Microsoft Teams calls with conversation intelligence with the Dynamics 365 Sales Enterprise license, you get 3 hours of conversation intelligence per month. If you need more than 3 hours of conversation intelligence per month, upgrade to Dynamics 365 Sales Premium. There's no capacity limit on Teams calls.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWQzQl]
 
 ### Set up Microsoft Teams calls with conversation intelligence
 
@@ -184,9 +198,13 @@ Once settings are enabled, sellers can make calls to their customer from within 
 Predictive lead scoring allows you to prioritize your leads based on scores and achieve higher lead qualification rates.
 It provides a scoring model to generate scores for leads that are available for you in your pipeline. More information: [Prioritize leads through scores](work-predictive-lead-scoring.md)
 
-Predictive opportunity scoring allows you to prioritize your opportunities based on scores and achieve higher opportunity qualification rates. It provides a scoring model to generate scores for opportunities in your pipeline. More information: [Prioritize leads through scores](work-predictive-lead-scoring.md)
+Predictive opportunity scoring allows you to prioritize your opportunities based on scores and achieve higher opportunity win, close, or convert rates. It provides a scoring model to generate scores for opportunities in your pipeline. More information: [Prioritize opportunities through scores](work-predictive-opportunity-scoring.md)
 
-When you setup lead and opportunity scoring with the Dynamics 365 Sales Enterprise license, you get only 1500 scored records per month. If you require more capacity, you must purchase a license for Dynamics 365 Sales Premium.
+### Licensing options
+
+When you set up lead and opportunity scoring with the Dynamics 365 Sales Enterprise license, you get 1500 scored records per month. If you need to score more than 1500 records per month, upgrade to Dynamics 365 Sales Premium.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWQjwl]
 
 ### Set up lead and opportunity scoring
 

@@ -1,7 +1,7 @@
 ---
 title: "Data retention and deletion policy for conversation intelligence in sales app "
 description: "Provide read-only access to your call data and determine how long you want to keep the analyzed call recording data in conversation intelligence."
-ms.date: 11/26/2021
+ms.date: 01/07/2022
 ms.custom: 
 ms.topic: article
 ms.assetid: c85b26ab-0150-454f-8767-6aed448529bc
@@ -21,7 +21,7 @@ When you configure conversation intelligence, sales call recordings of sellers a
 ## License and role requirements
 |  | |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 

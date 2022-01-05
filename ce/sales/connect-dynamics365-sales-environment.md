@@ -1,7 +1,7 @@
 ---
 title: "Connect or disconnect to your Dynamics 365 Sales environment"
 description: "Use data source to connect or disconnect multiple Dynamics 365 Sales environment with your conversation intelligence."
-ms.date: 10/26/2021
+ms.date: 01/07/2022
 ms.custom: 
 ms.topic: article
 author: udaykirang
@@ -22,7 +22,7 @@ As an administrator, you must configure the Dynamics 365 Sales environment to co
 
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
