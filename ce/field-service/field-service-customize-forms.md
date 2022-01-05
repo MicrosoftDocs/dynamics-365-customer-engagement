@@ -109,10 +109,9 @@ Do not add them to the form yet.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customization-form-create-fields2.png)
 
+> [!Note]
+> **Do not delete existing fields!** Deleting fields can cause important processes to fail causing errors. We will hide unwanted fields from the form later on.
 
-## 4. Do not delete existing fields 
-
-Do not delete work order fields that you do not need. We will hide them from the form later on.
 
 ## 5. Follow guidelines to edit existing fields
 
@@ -135,8 +134,6 @@ As an example, you can change the field display name of Service Account to Custo
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customization-form-field-display-name.png)
-
-
 
 
 As another example, for the System Status field, you can change the labels of the choice options like changingthe _In Progress_ label to _Work Started_. 
