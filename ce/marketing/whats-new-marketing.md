@@ -55,7 +55,7 @@ With the Dynamics 365 Marketing December 2021 update you can create journey bran
 - **Customer journeys**
     - As announced in [2021 release wave 2](/dynamics365-release-plan/2021wave2/marketing/dynamics365-marketing/gain-more-control-over-journey-branching-conditions-through-increased-attribute-availability), you can now create journey branches based on any attribute associated with the customer or event trigger that started the journey. In addition, for attributes based on date and time, you can create branches based on relative or partial dates. Learn more: [Attribute branch](real-time-marketing-tile-reference.md#attribute-branch).
 - **Marketing insights**
-    - Track the number of users that remove themselves from a mailing list with the newly supported **Unsubscribe** interaction type. Learn more: [Insights glossary](insights-glossary.md#unsubscribes).
+    - Track the number of email recipients who have selected the preference center link from a real-time marketing email and unsubscribed one or more email addresses from being used in future real-time marketing journeys with the newly supported **Unsubscribe** interaction type. Learn more: [Insights glossary](insights-glossary.md#unsubscribes).
 
 ##### Outbound marketing
 
