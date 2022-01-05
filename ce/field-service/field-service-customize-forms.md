@@ -270,4 +270,5 @@ e. Follow form design best practices
 - [Create and edit forms](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-and-edit-forms)
 - [Design productive forms](https://docs.microsoft.com/powerapps/maker/model-driven-apps/design-productive-forms)
 - [Design performant forms](https://docs.microsoft.com/powerapps/maker/model-driven-apps/design-performant-forms)
+- https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/customize/optimize-form-performance?view=op-9-1
    
