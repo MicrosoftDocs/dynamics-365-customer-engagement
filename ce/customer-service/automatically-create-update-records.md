@@ -82,6 +82,7 @@ You can configure a rule that when active will be run for incoming emails. Using
    a. In **Condition** > **Condition name**, enter an intuitive name.
 
    b. In **Condition that must pass to continue (pass if blank)**, select **Add**.
+   
    c. Use the following options To define the criteria for the rule to be evaluated:
 
       i. Add row
