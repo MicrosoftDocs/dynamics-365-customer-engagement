@@ -1,7 +1,7 @@
 ---
 title: Automatically create or update records in Customer Service Hub (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to automatically create or update records by setting up rules in Dynamics 365 Customer Service
-ms.date: 01/04/2022
+ms.date: 01/05/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -83,7 +83,7 @@ You can configure a rule that when active will be run for incoming emails. Using
 
    b. In **Condition that must pass to continue (pass if blank)**, select **Add**.
    
-   c. Use the following options To define the criteria for the rule to be evaluated:
+   c. Use the following options to define the criteria for the rule to be evaluated:
 
       i. Add row
 
@@ -169,6 +169,7 @@ Perform the following steps to use the activity monitor for the rules:
 1. On the **Record creation and update rules** page, select **View activity monitor** on the command bar. The **Activity monitor for record creation and update rules** page displays the list of rules with their statuses.
 
 2. Use the **Advanced filters** option to narrow down the view to list rules, such as list only those rules that match a specified condition.
+
 3. Double-click a rule or activity to view the activity monitoring summary that is displayed on the **Activity monitor** *<rule_name>* page.
   
     > [!NOTE]
