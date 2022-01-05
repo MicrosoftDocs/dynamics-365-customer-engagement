@@ -163,24 +163,20 @@ As another example, for the System Status field, you can change the labels of th
 > ![Screenshot of ](./media/customization-form-field-choice-option-set.png)
 
 
-## 6. Decide to use the default form or create a new one
+
+## 6. Customize the default work order form (recommended)
 
 We are now ready to create a form that includes a combination of existing work order fields and your custom fields. 
 
-You will first have to choose to either use and customize the default Work Order Main form or create a new one. 
 
 If you want to use many of the default work order fields and your business process is close to the standard work order process (or you're willing to adopt the standard work order process) then it is highly recommended to use the default Work Order Main form and make changes within that form. This will ensure your work order form will be upgraded and you can benefit from improvements. 
-
-If you have a very unique business process and a lot of custom fields (greater than 100), then it is recommended to create a new custom form. Furthermore, if you want to create multiple different forms for different user personas (roles) then it is recommended to create new custom forms. 
-
-## 7a. option 1: Customize the default work order form (recommended)
 
 a. Go to the Work Order Main form
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customization-form-go-to-main.png)
 
-
+## 7. Hide unwanted tabs, sections, and fields
 b. Hide unwanted tabs
 
 > [!div class="mx-imgBorder"]
@@ -193,6 +189,8 @@ c. Hide unwanted fields
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customization-form-hide-field.png)
 
+## 8. Move unwanted items away from the first form tab
+
 d. Move unwanted subgrids and fields away from the first form tab
 
 > [!div class="mx-imgBorder"]
@@ -202,41 +200,24 @@ d. Move unwanted subgrids and fields away from the first form tab
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customization-form-move-from-first-tab2.png)
 
+## 9. Add your custom fields to the appropriate form tabs
 
-e. Add your custom fields to the appropriate form tabs
-    Do not add custom fields to the first form tab unless absolutely necessary 
+    
 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customization-form-add-custom-fields.png)
-    
-f. Follow form design best practices
 
-https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/create-and-edit-forms
+Do not add custom fields to the first form tab unless absolutely necessary 
+    
+[Follow form design best practices](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-and-edit-forms)
 
 > [!Note]
 > You can make a copy of the form
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customization-form-copy.png)
 
-## 7b. option 2: Create a new custom work order form
 
-a. Create a new form
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/customization-form-create-custom.png)
-
-
-b. remove unwanted fields and subgrids
-    except the following
-
-c. add your fields, subgrids, controls
- Guidance
-
-
-e. Follow form design best practices
-
-	 https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/create-and-edit-forms
 	
 
 ## 8. Test your forms
@@ -273,6 +254,26 @@ Run solution checker to test scripts if applicable
 
 While the instructions in this article are useful for customizing any web form for back office workers, there is a specific form optimized for the mobile experience for frontline workers. See the topic on [Edit the booking and work order form](mobile-powerapp-booking-work-order-form.md) to elarnhow to customize the mobile work order form.
 
+## Create an entirely custom work order form (not recommended)
+
+If you have a very unique business process and a lot of custom fields (greater than 100), then it is recommended to create a new custom form. Furthermore, if you want to create multiple different forms for different user personas (roles) then it is recommended to create new custom forms. 
+
+a. Create a new form
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customization-form-create-custom.png)
+
+
+b. remove unwanted fields and subgrids
+    except the following
+
+c. add your fields, subgrids, controls
+ Guidance
+
+
+e. Follow form design best practices
+
+	 https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/create-and-edit-forms
 
 ## See also
 
