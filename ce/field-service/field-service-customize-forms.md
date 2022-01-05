@@ -113,12 +113,23 @@ Do not add them to the form yet.
 > **Do not delete existing fields!** Deleting fields can cause important processes to fail causing errors. We will hide unwanted fields from the form later on.
 
 
-## 5. Follow guidelines to edit existing fields
+## 5. Edit field display names and labels as needed
 
-[EDIT FORM LABELS]
-*do NOT EDIT FIELD PROPERTIES
+Edit the display names of fields or the labels of choices as needed. 
 
-In general, it is highly recommended to not edit existing fields. 
+As an example, you can change the field display name of Service Account to Customer.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customization-form-field-display-name.png)
+
+
+As another example, for the _System Status_ field, you can change the labels of the choice options like changing the _In Progress_ label to _Work Started_. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customization-form-field-choice-option-set.png)
+
+> [!Note]
+> **Do not edit field properties!** It is highly recommended to not edit the properties of existing fields. 
 
 As an example, editing fields in the following ways is unsupported and can cause errors and issues when upgrading.
 
@@ -127,20 +138,6 @@ As an example, editing fields in the following ways is unsupported and can cause
 - Adding choice options
 
 Leave required fields as required.
-
-However, simply changing field display names or the choice option labels is allowed. 
-
-As an example, you can change the field display name of Service Account to Customer.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/customization-form-field-display-name.png)
-
-
-As another example, for the System Status field, you can change the labels of the choice options like changingthe _In Progress_ label to _Work Started_. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/customization-form-field-choice-option-set.png)
-
 
 
 ## 6. Customize the default work order form (recommended)
