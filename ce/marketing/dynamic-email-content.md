@@ -369,7 +369,7 @@ For example, your database could include a list of products that a contact has o
 In this example, the Dynamics 365 Marketing system has been customized to include a [custom entity](/powerapps/maker/common-data-service/data-platform-create-entity) called _product_, which is set up with a 1:N [relationship](/powerapps/maker/common-data-service/create-edit-entity-relationships) between the _contact_ and _product_ entities on the _productid_ field. For the product entity to be available to your email messages, it must also be [synced](mkt-settings-sync.md) with the marketing-insights service (as usual).
 
 > [!IMPORTANT]
-> Only first 1,000 related items are added to the relationship for email rendering purposes. Using relationships with more than 1,000 items is not supported in email templates and might lead to unexpected results.
+> Only the first 1,000 related items are added to the relationship for email rendering purposes. Using relationships with more than 1,000 items is not supported in email templates and might lead to unexpected results.
 >
 > Also note that second level relationships are not supported. Therefore, the following syntax is not allowed:
 > ```Handlebars
