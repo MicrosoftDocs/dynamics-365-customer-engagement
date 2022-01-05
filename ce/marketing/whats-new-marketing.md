@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 12/10/2021
+ms.date: 01/04/2022
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-marketing
@@ -26,6 +26,12 @@ Marketing updates are [pushed to customers automatically](https://cloudblogs.mic
 
 > [!Note]
 > To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20Marketing).
+
+## 2022 updates
+
+### January 2022 update
+
+There is no Dynamics 365 Marketing release for January. We will be back in February with new feature improvements, updates, and bug fixes.
 
 ## 2021 updates
 
