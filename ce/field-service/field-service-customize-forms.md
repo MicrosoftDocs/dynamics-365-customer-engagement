@@ -142,7 +142,7 @@ Leave required fields as required.
 
 ## 6. Customize the default work order form (recommended)
 
-We are now ready to create a form that includes a combination of existing work order fields and your custom fields. 
+We are now ready to customize the Work Order form with a combination of existing work order fields and your custom fields. 
 
 
 If you want to use many of the default work order fields and your business process is close to the standard work order process (or you're willing to adopt the standard work order process) then it is highly recommended to use the default Work Order Main form and make changes within that form. This will ensure your work order form will be upgraded and you can benefit from improvements. 
@@ -153,12 +153,17 @@ a. Go to the Work Order Main form
 > ![Screenshot of ](./media/customization-form-go-to-main.png)
 
 ## 7. Hide unwanted tabs, sections, and fields
-b. Hide unwanted tabs
+
+a. Hide unwanted tabs
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customization-form-hide-tab.png)
 
-c. Hide unwanted sections
+b. Hide unwanted sections
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customization-form-hide-section.png)
 
 c. Hide unwanted fields
 
@@ -188,10 +193,7 @@ Do not add custom fields to the first form tab unless absolutely necessary
     
 [Follow form design best practices](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-and-edit-forms)
 
-> [!Note]
-> You can make a copy of the form
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/customization-form-copy.png)
+
 
 
 	
@@ -233,6 +235,11 @@ While the instructions in this article are useful for customizing any web form f
 ## Create an entirely custom work order form (not recommended)
 
 If you have a very unique business process and a lot of custom fields (greater than 100), then it is recommended to create a new custom form. Furthermore, if you want to create multiple different forms for different user personas (roles) then it is recommended to create new custom forms. 
+
+> [!Note]
+> You can make a copy of the form
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customization-form-copy.png)
 
 a. Create a new form
 
