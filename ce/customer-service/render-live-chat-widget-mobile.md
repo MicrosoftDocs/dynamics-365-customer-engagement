@@ -28,7 +28,7 @@ This topic explains how you can use the Omnichannel Chat SDK to customize the li
 
 ## Download Omnichannel Chat SDK
 
-We recommend that you download the latest version of the Omnichannel Chat SDK package to implement the latest features. For download instructions and information, go to [Omnichannel Chat SDK Installation page on GitHub](https://github.com/microsoft/omnichannel-chat-sdk#installation).
+We recommend that you download the latest version of the Omnichannel Chat SDK package to implement the latest features. For download instructions and information, go to the [Omnichannel Chat SDK Installation page on GitHub](https://github.com/microsoft/omnichannel-chat-sdk#installation).
 
 > [!Note]
 > To implement the Azure Bot Service channel, you'll need Omnichannel Chat SDK 1.0.0.
@@ -54,7 +54,7 @@ If the SDK does not meet your requirements, you can embed a live chat widget cod
 
 Use the `WebView` component of your mobile operation system language to enable rendering of the web version of the chat widget on mobile devices. A `WebView` is an embedded browser that enables a native application to display web content. The WebView capability is offered on both Android and iOS.
 
-The sample code for rendering the chat widget in a mobile application is as follows.
+The following sample code renders the chat widget in a mobile application.
 
 ```kotlin
 var html: String = """
@@ -83,7 +83,7 @@ var html: String = """
     chatWebView.loadDataWithBaseURL(baseUrl,html, "text/html", null, baseUrl)
 ```
 
-You can optimize the rendering of the chat widget for mobile web experience by using data tags such as `data-hide-chat-button` and `data-render-mobile`, along with a few APIs and events provided by the live chat widget client SDK. More information: [Customize a chat widget using data tags](customize-chat-widget.md)
+You can optimize the rendering of the chat widget for mobile web experience by using data tags such as `data-hide-chat-button` and `data-render-mobile`, along with a few APIs and events provided by the [live chat widget client SDK](developer/omnichannel-reference.md). More information: [Customize a chat widget using data tags](customize-chat-widget.md)
 
 The usage of the `data-hide-chat-button` data tag in the preceding sample code hides the default open chat button available in the live chat widget. So instead of using the default chat button, you can add a button that aligns with the mobile app. To open a chat session, you can call the [startChat](developer/reference/methods/startchat.md) method when the new chat button is selected.
 
