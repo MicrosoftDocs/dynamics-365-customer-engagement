@@ -28,7 +28,7 @@ This topic explains how you can use the Omnichannel Chat SDK to customize the li
 
 ## Download Omnichannel Chat SDK
 
-We recommend that you download the latest version of the Omnichannel Chat SDK package to implement the latest features. For download instructions and information, go to [Omnichannel Chat SDK Installation page on GitHub](https://github.com/microsoft/omnichannel-chat-sdk#installation).
+We recommend that you download the latest version of the Omnichannel Chat SDK package to implement the latest features. For download instructions and information, go to the [Omnichannel Chat SDK Installation page on GitHub](https://github.com/microsoft/omnichannel-chat-sdk#installation).
 
 > [!Note]
 > To implement the Azure Bot Service channel, you'll need Omnichannel Chat SDK 1.0.0.
@@ -54,7 +54,7 @@ If the SDK does not meet your requirements, you can embed a live chat widget cod
 
 Use the `WebView` component of your mobile operation system language to enable rendering of the web version of the chat widget on mobile devices. A `WebView` is an embedded browser that enables a native application to display web content. The WebView capability is offered on both Android and iOS.
 
-The sample code for rendering the chat widget in a mobile application is as follows.
+The following sample code renders the chat widget in a mobile application.
 
 ```kotlin
 var html: String = """
