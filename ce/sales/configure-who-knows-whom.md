@@ -88,7 +88,7 @@ To configure the Sales Insights connection graph, follow these steps:
 5. Select **Save**.
 
 >[!NOTE]
-> To opt out the of the connection graph, see [Opt out of the connection graph](who-knows-whom.md#opt-out-of-the-connection-graph)
+> To opt out of the connection graph, see [Opt out of the connection graph](who-knows-whom.md#opt-out-of-the-connection-graph)
 
 ## Add the who knows whom widget to a form
 
