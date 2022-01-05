@@ -1,7 +1,7 @@
 ---
 title: "Add dynamic content to email messages (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to add field values, set up content settings information, conditional statements, and while loops to your email designs in Dynamics 365 Marketing."
-ms.date: 06/02/2021
+ms.date: 01/05/2022
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -369,7 +369,19 @@ For example, your database could include a list of products that a contact has o
 In this example, the Dynamics 365 Marketing system has been customized to include a [custom entity](/powerapps/maker/common-data-service/data-platform-create-entity) called _product_, which is set up with a 1:N [relationship](/powerapps/maker/common-data-service/create-edit-entity-relationships) between the _contact_ and _product_ entities on the _productid_ field. For the product entity to be available to your email messages, it must also be [synced](mkt-settings-sync.md) with the marketing-insights service (as usual).
 
 > [!IMPORTANT]
-> Field values from lookups and related tables aren't shown in the **Preview** tab of the designer, or in test sends. Likewise, [for-each loops](#for-each) aren't rendered in previews or test sends. To test your related-field expressions and/or loop functionality, set up a simple customer journey to deliver the message to yourself.
+> Only first 1,000 related items are added to the relationship for email rendering purposes. Using relationships with more than 1,000 items is not supported in email templates and might lead to unexpected results.
+>
+> Also note that second level relationships are not supported. Therefore, the following syntax is not allowed:
+
+```Handlebars
+{{#each Entity.RelationshipOnEntity}} 
+    ... 
+    {{#each this.RelationshipOnRelatedEntity}}
+        ...
+    {{/each}}
+    ... 
+{{/each}}
+```
 
 <a name="enter-code"></a>
 
