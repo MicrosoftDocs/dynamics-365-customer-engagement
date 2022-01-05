@@ -232,26 +232,45 @@ While the instructions in this article are useful for customizing any web form f
 
 In some scenarios you may need to create a completely custom work order form. The top reasons you may need to create a custom work order form include:
 
-1. You have a very unique work order process and are unable to use the standard work order process included with Dynamics 365 Field Service. 
-2. You have decided it is impossible for all roles to use the same work order form even while using security roles and field security profiles and you need to create different forms for different user personas.
+1. You have a very unique work order process and are unable to use the standard work order process included with Dynamics 365 Field Service or you need to add a lot of custom fields (greater than 100).
+2. You have decided it is not feasbile for all roles to use the same work order form even while using security roles and field security profiles to limit information; and you need to create different forms for different user personas.
 
-If you have a very unique business process and a lot of custom fields (greater than 100), then it is recommended to create a new custom form. Furthermore, if you want to create multiple different forms for different user personas (roles) then it is recommended to create new custom forms. 
+
+#### a. Create a new form
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customization-form-create-custom.png)
 
 > [!Note]
 > You can make a copy of the form
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customization-form-copy.png)
 
-a. Create a new form
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/customization-form-create-custom.png)
-
-
-b. remove unwanted fields and subgrids
+#### b. Remove unwanted fields and subgrids
     except the following
 
-c. add your fields, subgrids, controls
+The following fields are critical to the Field Service work order process and are required. If your organziation does not plan to use these fields then you may want to consider creating an entirely new entity table.
+
+- Work Order Number
+- System Status
+- Service Account
+- Billing Account
+- Price List
+- Work Order Type
+- Work Location
+- Address
+- Latitude
+- Longitude
+
+
+The following subgrids are also critical to the Field Service work order process and are highly recommended.
+
+- Bookable Resource Booking ("Bookings")
+- Service Tasks
+- Products
+
+#### c. Add your fields, subgrids, controls
  Guidance
 
 
@@ -270,5 +289,5 @@ e. Follow form design best practices
 - [Create and edit forms](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-and-edit-forms)
 - [Design productive forms](https://docs.microsoft.com/powerapps/maker/model-driven-apps/design-productive-forms)
 - [Design performant forms](https://docs.microsoft.com/powerapps/maker/model-driven-apps/design-performant-forms)
-- https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/customize/optimize-form-performance?view=op-9-1
+- [Optimize form load time with design and script best practices](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/optimize-form-performance?view=op-9-1) 
    
