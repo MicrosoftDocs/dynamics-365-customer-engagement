@@ -210,29 +210,30 @@ Run solution checker to test scripts if applicable
 
 ## Summary of recommended best practices
 
-    - Always use default fields and processes when possible
-	- Hide unwanted fields, do not remove them, and move them away from the first tab
-    - Move unwanted fields and lesser used fields away from the first form tab
-	- Minimize lookup controls to no more than 10 on a from tab
-	- Minimize subgrid controls to no more than 3 on a form tab
-	- Do not add additional subgrids or lookups to first form tab
-    - Use the PCF _Form component control_ to display information from the other tables inside the form. This prevents form users from having to click away from the form. 
-    - Do not edit or remove libraries
-    - use more tabs
+- Always use default fields and processes when possible
+- Hide unwanted fields, do not remove them, and move them away from the first tab
+- Move unwanted fields and lesser used fields away from the first form tab
+- Minimize lookup controls to no more than 10 on a from tab
+- Minimize subgrid controls to no more than 3 on a form tab
+- Do not add additional subgrids or lookups to first form tab
+- Use the PCF _Form component control_ to display information from the other tables inside the form. This prevents form users from having to click away from the form. 
+- Do not edit or remove libraries
+- use more tabs
 
 
-## More considerations
-	- Create forms for different roles - use a custom form
-    - required vs business recommended fields
-    - turn off price calculations
-    - all fields add up
+
 
 
 ## Customizing the mobile work order form
 
-While the instructions in this article are useful for customizing any web form for back office workers, there is a specific form optimized for the mobile experience for frontline workers. See the topic on [Edit the booking and work order form](mobile-powerapp-booking-work-order-form.md) to elarnhow to customize the mobile work order form.
+While the instructions in this article are useful for customizing any web form for back office workers, there is a specific work order form optimized for the mobile experience for frontline workers. See the topic on [Editing the booking and work order form](mobile-powerapp-booking-work-order-form.md) to learn how to customize the mobile work order form.
 
 ## Create an entirely custom work order form (not recommended)
+
+In some scenarios you may need to create a completely custom work order form. The top reasons you may need to create a custom work order form include:
+
+1. You have a very unique work order process and are unable to use the standard work order process included with Dynamics 365 Field Service. 
+2. You have decided it is impossible for all roles to use the same work order form even while using security roles and field security profiles and you need to create different forms for different user personas.
 
 If you have a very unique business process and a lot of custom fields (greater than 100), then it is recommended to create a new custom form. Furthermore, if you want to create multiple different forms for different user personas (roles) then it is recommended to create new custom forms. 
 
@@ -257,6 +258,12 @@ c. add your fields, subgrids, controls
 e. Follow form design best practices
 
 	 https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/create-and-edit-forms
+
+## More considerations
+	- Create forms for different roles - use a custom form
+    - required vs business recommended fields
+    - turn off price calculations
+    - all fields add up
 
 ## See also
 
