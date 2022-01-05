@@ -11,11 +11,12 @@ manager: shubhadaj
 
 ## Licenses
 
-### What's the difference between Sales Premium and Sales Insights?  
+### What's the difference between Sales Premium and sales insights?  
 
-Sales Premium refers to the license and Sales Insights refers to the capabilities. The Sales Premium license includes both Sales Enterprise and Sales Insights capabilities. The basic Sales Insights capabilities are also available with the Sales Enterprise license. For a detailed comparison of the capabilities in each license, go to the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales/pricing/) page.     
+Sales Premium refers to the license and sales insights refers to the capabilities. The Sales Premium license includes both Sales Enterprise and premium sales insights capabilities. The basic sales insights capabilities are also available with the Sales Enterprise license. For a detailed comparison of the capabilities in each license, go to the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales/pricing/) page.  
 
-### Where can I find the comparison chart for Dynamics 365 Sales licenses? 
+
+### Where can I find the comparison chart for Dynamics 365 Sales licenses?  
 
 The following license options are available for Dynamics 365 Sales:
 - Sales Premium
@@ -23,6 +24,10 @@ The following license options are available for Dynamics 365 Sales:
 - Sales Professional
 
 For a detailed comparison of capabilities available with each license, go to the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales/pricing/) page.
+
+### Where can I find the Sales Professional and sales insights documentation?
+
+To provide a unified experience across all the Sales offerings, we have merged the documentation for Sales Enterprise, Sales Professional, and sales insights into this unified Sales documentation. The license and role requirements section at the top of pages indicate whether the feature and content are applicable to the license that you have. If you have bookmarked any of the old URLs, they would be automatically redirected to the corresponding pages in the unified documentation.  
 
 ## Entity: Activity
 
