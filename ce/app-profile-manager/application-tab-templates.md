@@ -151,10 +151,10 @@ This application type is used to display web resources that represent files, whi
 ### Custom (Preview)
 
 > [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](/includes/cc-preview-feature.md)]
-> [!INCLUDE[cc-preview-features-definition](/includes/cc-preview-features-definition.md)]
-> [!INCLUDE[cc-preview-features-expect-changes](/includes/cc-preview-features-expect-changes.md)]
-> [!INCLUDE[cc-preview-features-no-ms-support](/includes/cc-preview-features-no-ms-support.md)]
+> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
+> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
 This application type is used to display custom pages on the application tab. You can use this tab template type to host custom pages that are available in the corresponding app module. For more information about custom pages, see [Overview of custom pages for model-driven apps](/powerapps/maker/model-driven-apps/model-app-page-overview).
 
