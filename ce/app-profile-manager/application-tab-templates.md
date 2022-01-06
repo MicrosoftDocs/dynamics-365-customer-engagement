@@ -36,7 +36,7 @@ As an administrator, you can create multiple application tab templates.
     | Tab | Name | Description | Example |
     |-----------|-------------------|-----------------------------------|-------------------------------------|
     | General | Name | Specify the name of the application tab. This name won't be visible for the agents at the runtime. | Knowledge article search |
-    | General | Unique Name | Provide a unique identifier in the <*prefix*>_<*name*> format. <br>**IMPORTANT**<br> The following are required for the unique name: <ul><li>The prefix can only be alphanumeric and its length must be between 3 and 8 characters.</li><li> An underscore must be between the prefix and name.</li></ul><br> You can select the light bulb icon, and then select **Apply** to verify whether the name you've entered meets the requirements. | contoso_application_tab |
+    | General | Unique name | Provide a unique identifier in the <*prefix*>_<*name*> format. <br>**IMPORTANT**<br> The following are required for the unique name: <ul><li>The prefix can only be alphanumeric and its length must be between 3 and 8 characters.</li><li> An underscore must be between the prefix and name.</li></ul><br> You can select the light bulb icon, and then select **Apply** to verify whether the name you've entered meets the requirements. | contoso_application_tab |
     | General | Title | Provide a title for the application that you want the agents to see at the runtime. | Knowledge article search |
     | General | Page type | Select an application type from the list. |  Web resource |
     | General | Description | Provide a description for your reference. | The application type is used to display a knowledge base search page. |
@@ -68,7 +68,7 @@ This application type is used to display the dashboard as an application. The fo
 
 |Parameter | Description | Required  | Supported values | Example |
 |---------|--------------|------------------|--------- | --------|
-| dashboardId | GUID of the dashboard | Yes  | String    | `d201a642-6283-4f1d-81b7-da4b1685e698` |
+| `dashboardId` | GUID of the dashboard | Yes  | String    | `d201a642-6283-4f1d-81b7-da4b1685e698` |
 
 > [!NOTE]
 > If the target dashboard is not included in the app module definition, the default dashboard is displayed instead.
@@ -79,8 +79,8 @@ This application type is used to display an entity view that defines how a list 
 
 |Parameter | Description | Required | Supported values | Example |
 |---------|--------------|------------------|--------- |---------|
-| entityName | Logical name of the entity | Yes | String <br> Slugs |  account <br>`{anchor._customerid_value@Microsoft.Dynamics.CRM.lookuplogicalname}` |
-| viewId | GUID of the view | No | String | `00000000-0000-0000-00aa-000010001031` |
+| `entityName`| Logical name of the entity | Yes | String <br> Slugs | account <br>`{anchor._customerid_value@Microsoft.Dynamics.CRM.lookuplogicalname}` |
+| `viewId` | GUID of the view | No | String | `00000000-0000-0000-00aa-000010001031` |
 
 > [!NOTE]
 > If the target view does not exist or is not included in the app module definition, the default entity view is displayed instead.
@@ -93,17 +93,17 @@ The following parameters are available for the entity record application type wh
 
 |Parameter | Description | Required | Supported values | Example |
 |----------|-------------|------------------|----------|---------|
-| entityName | Logical name of the entity | Yes | String <br> Slugs <br>  | account <br> `{anchor._customerid_value@Microsoft.Dynamics.CRM.lookuplogicalname}` |
-| entityId  | GUID of the entity record | No | String <br> Slugs <br>  |  `d49e62a8-90df-e311-9565-a45d36fc5fe8` <br> `{anchor._customerid_value}` <br> 
-| formId | GUID of the form instance | No | String   | `915f6055-2e07-4276-ae08-2b96c8d02c57` |
+| `entityName` | Logical name of the entity | Yes | String <br> Slugs <br>  | account <br> `{anchor._customerid_value@Microsoft.Dynamics.CRM.lookuplogicalname}` |
+| `entityId`  | GUID of the entity record | No | String <br> Slugs <br>  |  `d49e62a8-90df-e311-9565-a45d36fc5fe8` <br> `{anchor._customerid_value}` <br> 
+| `formId` | GUID of the form instance | No | String   | `915f6055-2e07-4276-ae08-2b96c8d02c57` |
 
 The following parameters are available for the entity record application type when an entity form is opened to create a new record:
 
 |Parameter | Description | Required | Supported values |  Example |
 |---------|--------------|------------------|--------- |---------|
-| entityName | Logical name of the entity | Yes | String <br> Slugs <br> <br>  | contact <br> `{anchor._customerid_value@Microsoft.Dynamics.CRM.lookuplogicalname}` <br> |
-| data | Data to be pre-populated in the form | No  | JSON |  `{"firstname":"Paul", "lastname":"Cannon", "jobtitle":"Sales Manager"}` |
-| formId | GUID of the form instance | No  | String | `915f6055-2e07-4276-ae08-2b96c8d02c57` |
+| `entityName` | Logical name of the entity | Yes | String <br> Slugs <br> <br>  | contact <br> `{anchor._customerid_value@Microsoft.Dynamics.CRM.lookuplogicalname}` <br> |
+| `data` | Data to be pre-populated in the form | No  | JSON |  `{"firstname":"Paul", "lastname":"Cannon", "jobtitle":"Sales Manager"}` |
+| `formId`| GUID of the form instance | No  | String | `915f6055-2e07-4276-ae08-2b96c8d02c57` |
 
 ### Search
 
@@ -111,8 +111,8 @@ The following parameters are available for the entity search application type.
 
 |Parameter | Description | Required | Supported values | Example |
 |---------|--------------|------------------|--------- |---------|
-| searchType | Define to use Relevance search or Categorized search. The possible values are: <ul><li> **0** for Relevance search </li> <li> **1** for Categorized search </li></ul> | No | Number |   0 |
-| searchText | Define the string you want to search. | Yes | String <br>  Slugs <br> <br> OData <br> |  contoso <br>  `{anchor.title}` <br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
+| `searchType` | Define to use Relevance search or Categorized search. The possible values are: <ul><li> **0** for Relevance search </li> <li> **1** for Categorized search </li></ul> | No | Number |   0 |
+| `searchText` | Define the string you want to search. | Yes | String <br>  Slugs <br> <br> OData <br> |  contoso <br>  `{anchor.title}` <br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
 
 ### Third-party website
 
@@ -120,8 +120,8 @@ This application type is used to display third-party websites as an application.
 
 |Parameter | Description | Required  | Supported values | Example |
 |---------|--------------|------------------|---------|-----------|
-| url | The website URL to be displayed in the app tab <br> | Yes | String <br> | `https://www.bing.com/search?q=`  |
-| data | Additional data parameter to be parsed with the `url` parameter <br>  | No | String <br> Slugs <br><br> OData <br> | contoso <br> `{anchor.title}` <br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
+| `url` | The website URL to be displayed in the app tab <br> | Yes | String <br> | `https://www.bing.com/search?q=`  |
+| `data` | Additional data parameter to be parsed with the `url` parameter <br>  | No | String <br> Slugs <br><br> OData <br> | contoso <br> `{anchor.title}` <br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
 #### How parsing works
 
 These examples are based on a scenario where the case was opened as the Anchor Tab in a new session with ticket number: `CAS-01003-P3B7G1`.
@@ -145,8 +145,8 @@ This application type is used to display web resources that represent files, whi
 
 |Parameter | Description | Required | Supported values | Example |
 |---------|--------------|----------|--------|---------|
-| webResourceName | Name of the web resource to open | Yes | String | `msdyn_kbsearchpagehost.html`|
-| data | Provide string or key value pair, according to the requirement of the web resource. | No | String <br>  Slugs <br> <br> OData <br> | contoso <br> `{anchor.title}` <br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
+| `webResourceName` | Name of the web resource to open | Yes | String | `msdyn_kbsearchpagehost.html`|
+| `data` | Provide string or key value pair, according to the requirement of the web resource. | No | String <br>  Slugs <br> <br> OData <br> | contoso <br> `{anchor.title}` <br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
 
 ### Custom (Preview)
 
@@ -162,9 +162,9 @@ The following parameters are available for custom pages.
 
 |Parameter | Description | Required | Supported values | Example |
 |---------|--------------|----      |--------------|---------|
-| entityName | Logical name of the entity | Yes | String <br> Slugs <br> <br> | `https://www.bing.com/search?q=customerEntityName`  |
-| name | Unique name of the custom page  | No | String <br>  | `new_mycustompage` <br> |
-| recordId | GUID of the entity record | No | String <br> Slugs <br> OData <br>| `d49e62a8-90df-e311-9565-a45d36fc5fe8` <br> `{caseId} {anchor.incidentid}` <br>  `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br>  |
+| `entityName` | Logical name of the entity | Yes | String <br> Slugs <br> <br> | `https://www.bing.com/search?q=customerEntityName`  |
+| `name` | Unique name of the custom page  | No | String <br>  | `new_mycustompage` <br> |
+| `recordId` | GUID of the entity record | No | String <br> Slugs <br> OData <br>| `d49e62a8-90df-e311-9565-a45d36fc5fe8` <br> `{caseId} {anchor.incidentid}` <br>  `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br>  |
 
 ### Out-of-the-box application tab templates
 
