@@ -77,12 +77,12 @@ You can use Microsoft Teams to call a customer directly through the dial pad, a 
 
 ## Receive calls using Teams
 
-Through Teams, you can receive calls in Dynamics 365 Sales Hub app. To receive a call, open any record such as lead, contact, or work list item. A notification is displayed at the bottom-right corner of the page as shown in the following image:
+Through Teams, you can receive calls in Dynamics 365 Sales Hub app. When a call is received, a notification is displayed at the bottom-right corner of the page as shown in the following image:
 
 > [!div class="mx-imgBorder"]
 > ![Call receiving notification in Teams.](media/teams-dialer-receive-call-notification.png "Call receiving notification in Teams")    
 
-When a call is received, the caller name is automatically displayed when the phone number is associated with a record. For example, Kenny Smith is lead and has the mobile number +1 123 456 7890 associated with his lead record. When you receive a call from +1 123 456 7890, the name Kenny Smith is automatically displayed and select the name to open the record. 
+The caller name is automatically displayed when the phone number is associated with a record. For example, Kenny Smith is lead and has the mobile number +1 123 456 7890 associated with his lead record. When you receive a call from +1 123 456 7890, the name Kenny Smith is automatically displayed and select the name to open the record. 
 
 To receive the call, select **Answer**. The Teams telephony panel opens and the call is connected. A phone call activity is created and appears on the timeline of the record. If the received call is not associated with any record, only a phone call activity is created.    
 
