@@ -38,7 +38,7 @@ Select the phone icon (![Phone icon.](media/phone-icon.png "Phone icon")) on the
 > [!div class="mx-imgBorder"]
 > ![Open Microsoft Teams dialer.](media/teams-dialer-open-dialer.png "Open Microsoft Teams dialer")     
 
-## Make calls use Teams  
+## Make calls using Teams  
 
 You can use Microsoft Teams to call a customer directly through the dial pad, a record, or a work item to make a call. 
 
