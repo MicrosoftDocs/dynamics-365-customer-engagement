@@ -4,7 +4,7 @@ description: "Learn how to create application tab templates in Customer Service.
 author: "mh-jaya"
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 10/26/2021
+ms.date: 01/07/2022
 ms.topic: article
 ---
 
@@ -23,7 +23,7 @@ For example, you can create the **Customer Summary** application type and associ
 As an administrator, you can create multiple application tab templates.
 
   > [!Note]
-  > You can't customize the out-of-the-box templates; instead, you'll need to create your own custom templates.
+  > You can't customize the out-of-the-box templates, but can create your own custom templates.
 
 ## Create application tab templates
 
@@ -45,7 +45,7 @@ As an administrator, you can create multiple application tab templates.
 
     Whenever you edit the application tab template, save the changes so you see the corresponding fields in the **Parameters** section.
 
-6. Select the **Value** field of a parameter to edit and provide the value. For more information on parameters, go to [Application types in the application templates](#application-types).
+6. Select the **Value** field of a parameter to edit and provide the value. For more information on parameters, see [Application types in the application templates](#application-types).
 
 7. Select **Save**.
 
@@ -60,10 +60,11 @@ The following types of applications are available:
 - Third-party website
 - Web resource
 - Control (for internal use only)
+- Custom (preview)
 
 ### Dashboard
 
-This application type is used to display the dashboard as an application. The following parameter is available for the dashboard application type:
+This application type is used to display the dashboard as an application. The following parameter is available for the dashboard application type.
 
 |Parameter | Description | Supported values | Example |
 |---------|--------------|------------------|---------|
@@ -74,7 +75,7 @@ This application type is used to display the dashboard as an application. The fo
 
 ### Entity list
 
-This application type is used to display an entity view that defines how a list of records for a specific entity is displayed. The following parameters are available for the entity view application type:
+This application type is used to display an entity view that defines how a list of records for a specific entity is displayed. The following parameters are available for the entity view application type.
 
 |Parameter | Description | Supported values | Example |
 |---------|--------------|------------------|---------|
@@ -88,7 +89,7 @@ This application type is used to display an entity view that defines how a list 
 
 This application type is used to display an existing record or open a form to create a new record.
 
-The following parameters are available for the entity record application type when an existing record is opened:
+The following parameters are available for the entity record application type when an existing record is opened.
 
 |Parameter | Description | Supported values | Example |
 |----------------------------|-----------------------------------------------------------------------|-------------------------------|----------------------------------------------|
@@ -101,12 +102,12 @@ The following parameters are available for the entity record application type wh
 |Parameter | Description | Supported values | Example |
 |---------|--------------|------------------|---------|
 | entityName | Logical name of the entity | String <br> Slugs <br> <br> | contact <br> `{anchor._customerid_value@Microsoft.Dynamics.CRM.lookuplogicalname}` <br> |
-| data | Data to be pre-populated in the form| json | `{"firstname":"Paul", "lastname":"Cannon", "jobtitle":"Sales Manager"}` |
+| data | Data to be pre-populated in the form| JSON | `{"firstname":"Paul", "lastname":"Cannon", "jobtitle":"Sales Manager"}` |
 | formId | GUID of the form instance | String | `915f6055-2e07-4276-ae08-2b96c8d02c57` |
 
 ### Search
 
-The following parameters are available for the entity search application type:
+The following parameters are available for the entity search application type.
 
 |Parameter | Description | Supported values | Example |
 |---------|--------------|------------------|---------|
@@ -115,7 +116,7 @@ The following parameters are available for the entity search application type:
 
 ### Third-party website
 
-This application type is used to display third-party websites as an application. You can use this type to host only the websites that are compatible with iframe hosting. The application tab template parses the URL and data parameters to format the URL address to be displayed.
+This application type is used to display third-party websites as an application. You can use this type to host only those websites that are compatible with iframe hosting. The application tab template parses the URL and data parameters to format the URL address to be displayed.
 
 |Parameter | Description | Supported values | Example |
 |---------|--------------|------------------|---------|
@@ -140,16 +141,35 @@ For more information, go to [Third-party application tab refreshes when focus is
 
 ### Web resource
 
-This application type is used to display web resources that represent files, which are used to extend the web application such as html files, JavaScript, CSS, and several image formats. The following parameters are available for the web resources application type:
+This application type is used to display web resources that represent files, which are used to extend the web application such as HTML files, JavaScript, CSS, and several image formats. The following parameters are available for the web resources application type.
 
 |Parameter | Description | Supported values | Example |
 |---------|--------------|------------------|---------|
 | webresourceName | Name of the web resource to open | String | `msdyn_kbsearchpagehost.html`|
 | data | Provide string or key value pair, according to the requirement of the web resource. | String <br>  Slugs <br> <br> odata <br> | contoso <br> `{anchor.title}` <br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
 
+### Custom (Preview)
+
+> [!IMPORTANT] 
+> 
+> [!INCLUDEcc-preview-feature] 
+> [!INCLUDEcc-preview-features-definition] 
+> [!INCLUDEcc-preview-features-expect-changes] 
+> [!INCLUDEcc-preview-features-no-ms-support]
+
+This application type is used to display a custom pages on the an application tab. You can use this tab template type to host custom pages that are available in the corresponding app module. For more information about Custom Pages, see [](/powerapps/maker/model-driven-apps/model-app-page-overview).
+
+The following parameters are available for custom pages.
+
+|Parameter | Description | Supported values | Example |
+|---------|--------------|------------------|---------|
+| entityName | Logical name of the entity | String <br> Slugs <br> <br> | `https://www.bing.com/search?q=customerEntityName`  |
+| name | Unique name of the custom page  | String <br>  | new_mycustompage <br> |
+| recordId | GUID of the entity record | String <br> Slugs <br> oData <br>| `d49e62a8-90df-e311-9565-a45d36fc5fe8 {caseId} {anchor.incidentid} {$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}`  |
+
 ### Out-of-the-box application tab templates
 
-The out-of-the-box application tab templates are as follows:
+The following out-of-the-box application tab templates are available.
 
 - Customer Summary
 - Entity Record
