@@ -288,8 +288,8 @@ Many organizations run code scripts on load, on change, and on save of the form 
 ## More considerations
 
 #### Turn off price calculations
-    
-    - turn off price calculations
+
+In a scenario where your organization does not need price list or price calculations (e.g. Total Amount) on the work order or work order products and services, you can easily remove all price related fields bygoing to Field Service Settings and turning **Calculate Price** to _No_. 
    
 
 ## See also
