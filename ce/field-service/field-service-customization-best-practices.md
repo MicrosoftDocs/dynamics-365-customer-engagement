@@ -150,5 +150,5 @@ Regularly [run the Field Service Solution Health Hub](troubleshoot-field-service
 
 ## See also
 
-[Dynamics 365 Implementation guide](https://www.d365implementationguide.com/books/asvr/#p=243)
-[Microsoft Dynamics 365 FastTrack TechTalks](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks?c=Field%20Service)
+- [Dynamics 365 Implementation guide](https://www.d365implementationguide.com/books/asvr/#p=243)
+- [Microsoft Dynamics 365 FastTrack TechTalks](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks?c=Field%20Service)
