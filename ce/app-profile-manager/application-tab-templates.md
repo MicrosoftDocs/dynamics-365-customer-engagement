@@ -112,7 +112,7 @@ The following parameters are available for the entity search application type.
 |Parameter | Description | Supported values | Example |
 |---------|--------------|------------------|---------|
 | searchType | Define to use Relevance search or Categorized search. The possible values are: <ul><li> **0** for Relevance search </li> <li> **1** for Categorized search </li></ul> | Number | 0 |
-| searchText | Define the string you want to search. <br> **This field is required.**| String <br>  Slugs <br> <br> oData <br> |  contoso <br>  `{anchor.title}` <br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
+| searchText | Define the string you want to search. <br> **This field is required.**| String <br>  Slugs <br> <br> OData <br> |  contoso <br>  `{anchor.title}` <br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
 
 ### Third-party website
 
@@ -121,7 +121,7 @@ This application type is used to display third-party websites as an application.
 |Parameter | Description | Supported values | Example |
 |---------|--------------|------------------|---------|
 | url | The website URL to be displayed in the app tab <br> **This field is required.** <br> | String <br> | `https://www.bing.com/search?q=`  |
-| data | Additional data parameter to be parsed with the url parameter <br> **This field is optional.** | String <br> Slugs <br><br> odata <br> | contoso <br> `{anchor.title}` <br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
+| data | Additional data parameter to be parsed with the `url` parameter <br> **This field is optional.** | String <br> Slugs <br><br> OData <br> | contoso <br> `{anchor.title}` <br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
 #### How parsing works
 
 These examples are based on a scenario where the case was opened as the Anchor Tab in a new session with ticket number: `CAS-01003-P3B7G1`.
@@ -131,7 +131,7 @@ These examples are based on a scenario where the case was opened as the Anchor T
 Expected URL: `https://www.bing.com/search?q=CAS-01003-P3B7G1` <br>
 
 `url` parameter: `https://www.bing.com/search?q=` <br>
-`data` parameter using odata: `{$odata.incident.ticketnumber.?$filter=incidentid eq'{anchor.incidentid}'&$select=ticketnumber}` <br>
+`data` parameter using OData: `{$odata.incident.ticketnumber.?$filter=incidentid eq'{anchor.incidentid}'&$select=ticketnumber}` <br>
 Expected URL: `https://www.bing.com/search?q=CAS-01003-P3B7G1` <br>
 
 > [!NOTE]
@@ -145,8 +145,8 @@ This application type is used to display web resources that represent files, whi
 
 |Parameter | Description | Supported values | Example |
 |---------|--------------|------------------|---------|
-| webresourceName | Name of the web resource to open | String | `msdyn_kbsearchpagehost.html`|
-| data | Provide string or key value pair, according to the requirement of the web resource. | String <br>  Slugs <br> <br> oData <br> | contoso <br> `{anchor.title}` <br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
+| webResourceName | Name of the web resource to open | String | `msdyn_kbsearchpagehost.html`|
+| data | Provide string or key value pair, according to the requirement of the web resource. | String <br>  Slugs <br> <br> OData <br> | contoso <br> `{anchor.title}` <br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
 
 ### Custom (Preview)
 
@@ -163,8 +163,8 @@ The following parameters are available for custom pages.
 |Parameter | Description | Supported values | Example |
 |---------|--------------|------------------|---------|
 | entityName | Logical name of the entity | String <br> Slugs <br> <br> | `https://www.bing.com/search?q=customerEntityName`  |
-| name | Unique name of the custom page  | String <br>  | new_mycustompage <br> |
-| recordId | GUID of the entity record | String <br> Slugs <br> oData <br>| `d49e62a8-90df-e311-9565-a45d36fc5fe8` <br> `{caseId} {anchor.incidentid}` <br>  `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br>  |
+| name | Unique name of the custom page  | String <br>  | `new_mycustompage` <br> |
+| recordId | GUID of the entity record | String <br> Slugs <br> OData <br>| `d49e62a8-90df-e311-9565-a45d36fc5fe8` <br> `{caseId} {anchor.incidentid}` <br>  `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br>  |
 
 ### Out-of-the-box application tab templates
 
