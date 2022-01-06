@@ -206,7 +206,7 @@ Do not add custom fields to the first form tab unless absolutely necessary
 
 Run Solution Health to test for best practice violations
 
-Run solution checker to test scripts if applicable
+
 	
   
 
@@ -283,7 +283,7 @@ e. Follow form design best practices
 
 ## Form scripts
 
-Many organizations run code scripts on load, on change, and on save of the form to perform validations and run prcesses. Form scripts can greatly impact form performance like load time. Review the topic on [Write scripts to implement complex business logic in FIeld Service](field-service-customize-scripts.md) for best practices.
+Many organizations run code scripts on load, on change, and on save of the form to perform validations and run prcesses. Form scripts can greatly impact form performance like load time. Review the topic on [Write scripts to implement complex business logic in FIeld Service](field-service-customize-scripts.md) for best practices including [runing solution checker to test scripts for issues](). 
 
 ## More considerations
 
