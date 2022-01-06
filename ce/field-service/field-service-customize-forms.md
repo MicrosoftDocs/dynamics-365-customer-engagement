@@ -183,6 +183,10 @@ d. Move unwanted subgrids and fields away from the first form tab
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customization-form-move-from-first-tab2.png)
 
+## Choose to remove price related fields if applicable
+
+In a scenario where your organization does not need price list or price calculations (e.g. Total Amount) on the work order or work order products and services, you can easily remove all price related fields by going to Field Service Settings and turning **Calculate Price** to _No_. [More details](https://docs.microsoft.com/dynamics365/field-service/configure-default-settings#work-order-and-bookings-settings). 
+
 ## 9. Add your custom fields to the appropriate form tabs
 
     
@@ -273,6 +277,10 @@ The following subgrids are also critical to the Field Service work order process
 - Service Tasks
 - Products
 
+#### Turn off price calculations
+
+In a scenario where your organization does not need price list or price calculations (e.g. Total Amount) on the work order or work order products and services, you can easily remove all price related fields by going to Field Service Settings and turning **Calculate Price** to _No_. 
+
 #### c. Add your fields, subgrids, controls
  Guidance
 
@@ -285,11 +293,9 @@ e. Follow form design best practices
 
 Many organizations run code scripts on load, on change, and on save of the form to perform validations and run prcesses. Form scripts can greatly impact form performance like load time. Review the topic on [Write scripts to implement complex business logic in FIeld Service](field-service-customize-scripts.md) for best practices including [runing solution checker to test scripts for issues](). 
 
-## More considerations
 
-#### Turn off price calculations
 
-In a scenario where your organization does not need price list or price calculations (e.g. Total Amount) on the work order or work order products and services, you can easily remove all price related fields bygoing to Field Service Settings and turning **Calculate Price** to _No_. 
+
    
 
 ## See also
