@@ -2,7 +2,7 @@
 title: "Configure mobile offline synchronization | MicrosoftDocs"
 ms.custom: Configure mobile offline synchronization
 description: Set up mobile offline for Dynamics 365 phones and tablets app and Power Apps mobile
-ms.date: 06/06/2022
+ms.date: 01/06/2022
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
