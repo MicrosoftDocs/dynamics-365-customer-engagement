@@ -60,11 +60,11 @@ To use digital selling capabilities, you must have Sales Hub app installed. If y
 
 Sales accelerator in Dynamics 365 provides a tailored experience for sellers by minimizing the time they spend on their search for the best next customer to reach out to. It gathers information from multiple sources and lets sellers focus on how to best approach their customers. It helps sellers to sell smartly, by building a strong and prioritized pipeline, offering context, and surfacing automated recommendations throughout a sales sequence that helps to speed the sales process. More information: [What is the Sales accelerator?](sales-accelerator-intro.md)
 
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWQCjf]
+
 ### Licensing options
 
 When you set up sales accelerator with the Dynamics 365 Sales Enterprise license, you get 1500 sequence-connected records per month. If you need more than 1500 sequence-connected records per month, upgrade to Dynamics 365 Sales Premium.
-
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWQCjf]
 
 ### Set up sales accelerator
 
@@ -147,11 +147,11 @@ Microsoft Teams dialer helps sellers to be more productive and get work done mor
 
 Conversation intelligence uses analytics and data science to gather data from sellers' call recordings and Dynamics 365 Sales. Conversation intelligence analyzes the data to provide you with the information and insights to intelligently manage your sales team and proactively coach sellers. More information: [Overview of Conversation Intelligence](dynamics365-sales-insights-app.md)
 
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWQzQl]
+
 ### Licensing options
 
 When you setup Microsoft Teams calls with conversation intelligence with the Dynamics 365 Sales Enterprise license, you get 3 hours of conversation intelligence per month. If you need more than 3 hours of conversation intelligence per month, upgrade to Dynamics 365 Sales Premium. There's no capacity limit on Teams calls.
-
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWQzQl]
 
 ### Set up Microsoft Teams calls with conversation intelligence
 
@@ -200,11 +200,11 @@ It provides a scoring model to generate scores for leads that are available for 
 
 Predictive opportunity scoring allows you to prioritize your opportunities based on scores and achieve higher opportunity win, close, or convert rates. It provides a scoring model to generate scores for opportunities in your pipeline. More information: [Prioritize opportunities through scores](work-predictive-opportunity-scoring.md)
 
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWQjwl]
+
 ### Licensing options
 
 When you set up lead and opportunity scoring with the Dynamics 365 Sales Enterprise license, you get 1500 scored records per month. If you need to score more than 1500 records per month, upgrade to Dynamics 365 Sales Premium.
-
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWQjwl]
 
 ### Set up lead and opportunity scoring
 
