@@ -139,6 +139,8 @@ As an example, editing fields in the following ways is unsupported and can cause
 
 Leave required fields as required.
 
+- required vs business recommended fields
+
 
 ## 6. Customize the default work order form (recommended)
 
@@ -200,7 +202,7 @@ Do not add custom fields to the first form tab unless absolutely necessary
 
 ## 8. Test your forms
 
-Test load performance against a benchmark (/Performance insights / monitoring tool)
+[Run Performance Insights](https://docs.microsoft.com/en-us/powerapps/maker/common/performance-insights-overview) to see how app performance is affected by things like browsers, network performance, data queries, and more.
 
 Run Solution Health to test for best practice violations
 
@@ -219,6 +221,7 @@ Run solution checker to test scripts if applicable
 - Use the PCF _Form component control_ to display information from the other tables inside the form. This prevents form users from having to click away from the form. 
 - Do not edit or remove libraries
 - use more tabs
+ - all fields add up
 
 
 
@@ -278,11 +281,16 @@ e. Follow form design best practices
 
 	 https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/create-and-edit-forms
 
+## Form scripts
+
+Many organizations run code scripts on load, on change, and on save of the form to perform validations and run prcesses. Form scripts can greatly impact form performance like load time. Review the topic on [Write scripts to implement complex business logic in FIeld Service](field-service-customize-scripts.md) for best practices.
+
 ## More considerations
-	- Create forms for different roles - use a custom form
-    - required vs business recommended fields
+
+#### Turn off price calculations
+    
     - turn off price calculations
-    - all fields add up
+   
 
 ## See also
 
