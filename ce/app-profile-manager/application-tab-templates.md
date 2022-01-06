@@ -126,13 +126,13 @@ This application type is used to display third-party websites as an application.
 
 These examples are based on a scenario where the case was opened as the Anchor Tab in a new session with ticket number: `CAS-01003-P3B7G1`.
 
-**url parameter**: `https://www.bing.com/search?q=` <br>
-**data parameter using slugs**: `{anchor.ticketnumber}` <br>
-**Expected URL**: `https://www.bing.com/search?q=CAS-01003-P3B7G1` <br>
+`url` parameter: `https://www.bing.com/search?q=` <br>
+`data` parameter using slugs: `{anchor.ticketnumber}` <br>
+Expected URL: `https://www.bing.com/search?q=CAS-01003-P3B7G1` <br>
 
-**url parameter**: `https://www.bing.com/search?q=` <br>
-**data parameter using odata**: `{$odata.incident.ticketnumber.?$filter=incidentid eq'{anchor.incidentid}'&$select=ticketnumber}` <br>
-**Expected URL**: `https://www.bing.com/search?q=CAS-01003-P3B7G1` <br>
+`url` parameter: `https://www.bing.com/search?q=` <br>
+`data` parameter using odata: `{$odata.incident.ticketnumber.?$filter=incidentid eq'{anchor.incidentid}'&$select=ticketnumber}` <br>
+Expected URL: `https://www.bing.com/search?q=CAS-01003-P3B7G1` <br>
 
 > [!NOTE]
 > The url parameter requires the correct URL format using 'https://'.
