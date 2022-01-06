@@ -112,7 +112,7 @@ The following parameters are available for the entity search application type.
 |Parameter | Description | Supported values | Example |
 |---------|--------------|------------------|---------|
 | searchType | Define to use Relevance search or Categorized search. The possible values are: <ul><li> **0** for Relevance search </li> <li> **1** for Categorized search </li></ul> | Number | 0 |
-| searchText | Define the string you want to search. <br> **This field is required.**| String <br>  Slugs <br> <br> odata <br> |  contoso <br>  `{anchor.title}` <br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
+| searchText | Define the string you want to search. <br> **This field is required.**| String <br>  Slugs <br> <br> oData <br> |  contoso <br>  `{anchor.title}` <br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
 
 ### Third-party website
 
@@ -146,7 +146,7 @@ This application type is used to display web resources that represent files, whi
 |Parameter | Description | Supported values | Example |
 |---------|--------------|------------------|---------|
 | webresourceName | Name of the web resource to open | String | `msdyn_kbsearchpagehost.html`|
-| data | Provide string or key value pair, according to the requirement of the web resource. | String <br>  Slugs <br> <br> odata <br> | contoso <br> `{anchor.title}` <br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
+| data | Provide string or key value pair, according to the requirement of the web resource. | String <br>  Slugs <br> <br> oData <br> | contoso <br> `{anchor.title}` <br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
 
 ### Custom (Preview)
 
