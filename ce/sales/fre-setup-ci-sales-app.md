@@ -27,7 +27,7 @@ You can configure conversation intelligence with Microsoft Teams. After you sign
 After configuring conversation intelligence, a sales manager or a seller can view the data and settings that are relevant to them. More information: [Configure sales team level settings](configure-sales-team-level-settings.md)
 
 > [!NOTE]
-> You can also enable call recording through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get only 3 hours of conversation intelligence per month. More information: [Microsoft Teams calls with conversation intelligence](digital-selling.md#microsoft-teams-calls-with-conversation-intelligence)
+> You can also enable call recording through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get 3 hours of conversation intelligence per month. More information: [Microsoft Teams calls with conversation intelligence](digital-selling.md#microsoft-teams-calls-with-conversation-intelligence)
 
 ## License and role requirements
 |  | |

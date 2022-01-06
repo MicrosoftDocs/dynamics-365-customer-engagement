@@ -61,6 +61,8 @@ Verify that you meet the following requirement before adding predictive lead sco
     >[!NOTE]
     >These numbers represent the minimum requirement. The more leads you can include to train the model, the better the prediction results will be.
 
+- Verify that advanced Sales Insights features are enabled. More information: [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)
+
 ## Understand the configuration page
 
 Before we configure the predictive lead scoring, let's understand the configuration summary page. When a model is generated and published, the configuration summary page is displayed as shown in the following image.
@@ -140,11 +142,10 @@ However, if your organization has enough leads that match the application defaul
 
 If you're using custom attributes for lead generation, you can generate the model by configuring the parameters with your custom attributes.
 
-> [!NOTE]
-> - Before you configure the model, review the [prerequisites](#prerequisites).
-> - You can also enable predictive lead scoring through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get only 1500 scored records per month. More information: [Lead and opportunity scoring](digital-selling.md#lead-and-opportunity-scoring)
-
-1. Verify that advanced Sales Insights features are enabled. More information: [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)
+1. Before you configure the model, review the [prerequisites](#prerequisites).
+ 
+    > [!NOTE]
+    > You can also enable predictive lead scoring through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get 1500 scored records per month. To enable predictive lead scoring through quick setup, you must go to the **Get started with digital sales page** under **App Settings**. More information: [Lead and opportunity scoring](digital-selling.md#lead-and-opportunity-scoring)
 
 2. Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
 

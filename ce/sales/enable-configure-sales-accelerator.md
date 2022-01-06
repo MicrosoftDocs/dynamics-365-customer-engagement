@@ -25,7 +25,7 @@ The sales accelerator feature helps sellers in your organization increase their 
 
 > [!NOTE]
 > - To configure sales accelerator for assignment rule with your enterprise license, see [Configure sales accelerator for assignment rules](sales-accelerator-assignment-rules.md).
-> - You can also set up sales accelerator through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get only 1500 sequence-connected records per month. More information: [Set up sales accelerator](digital-selling.md##set-up-sales-accelerator)
+> - You can also set up sales accelerator through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get 1500 sequence-connected records per month. More information: [Set up sales accelerator](digital-selling.md##set-up-sales-accelerator)
 
 As an administrator, you must enable and configure the sales accelerator in your organization to make it available for sales managers and sellers to use. Follow these steps:
 
@@ -101,8 +101,9 @@ For the best experience of the sales accelerator, enable and configure [predicti
         >[!div class="mx-imgBorder"]
         >![Selected record types](media/sa-selected-record-types.png "Selected record types")         
         
-        >[!NOTE]
-        >You can remove the records types that are no longer required to have automated activities associated with them. Select the **X** icon corresponding to the record type to remove it from the list. However, if the records in the deleted record type are associated with a sequence, these records will continue to be associated with the sequence.   
+        > [!NOTE]
+        > - You can remove the records types that are no longer required to have automated activities associated with them. Select the **X** icon corresponding to the record type to remove it from the list. However, if the records in the deleted record type are associated with a sequence, these records will continue to be associated with the sequence.   
+        > - To know how records are populated in the work list, see [View my records by using the work list](prioritize-sales-pipeline-through-work-list.md#view-my-records-through-work-list).
      
     3. Select **Next**
 
