@@ -135,7 +135,7 @@ Expected URL: `https://www.bing.com/search?q=CAS-01003-P3B7G1` <br>
 Expected URL: `https://www.bing.com/search?q=CAS-01003-P3B7G1` <br>
 
 > [!NOTE]
-> The url parameter requires the correct URL format using 'https://'.
+> The `url` parameter requires the correct URL format using 'https://'.
 
 For more information, go to [Third-party application tab refreshes when focus is changed](https://go.microsoft.com/fwlink/p/?linkid=2165393).
 
