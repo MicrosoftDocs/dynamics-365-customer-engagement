@@ -156,7 +156,7 @@ This application type is used to display web resources that represent files, whi
 > [!INCLUDE[cc-preview-features-expect-changes](../../includes/cc-preview-features-expect-changes.md)]
 > [!INCLUDE[cc-preview-features-no-ms-support](../../includes/cc-preview-features-no-ms-support.md)]
 
-This application type is used to display a custom pages on the an application tab. You can use this tab template type to host custom pages that are available in the corresponding app module. For more information about Custom Pages, see [Overview of custom pages for model-driven apps](/powerapps/maker/model-driven-apps/model-app-page-overview).
+This application type is used to display custom pages on the application tab. You can use this tab template type to host custom pages that are available in the corresponding app module. For more information about custom pages, see [Overview of custom pages for model-driven apps](/powerapps/maker/model-driven-apps/model-app-page-overview).
 
 The following parameters are available for custom pages.
 
@@ -164,7 +164,7 @@ The following parameters are available for custom pages.
 |---------|--------------|------------------|---------|
 | entityName | Logical name of the entity | String <br> Slugs <br> <br> | `https://www.bing.com/search?q=customerEntityName`  |
 | name | Unique name of the custom page  | String <br>  | new_mycustompage <br> |
-| recordId | GUID of the entity record | String <br> Slugs <br> oData <br>| `d49e62a8-90df-e311-9565-a45d36fc5fe8 {caseId} {anchor.incidentid} {$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}`  |
+| recordId | GUID of the entity record | String <br> Slugs <br> oData <br>| `d49e62a8-90df-e311-9565-a45d36fc5fe8` <br> `{caseId} {anchor.incidentid}` <br>  `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br>  |
 
 ### Out-of-the-box application tab templates
 
