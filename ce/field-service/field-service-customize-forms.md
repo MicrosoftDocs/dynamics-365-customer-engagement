@@ -172,6 +172,12 @@ c. Hide unwanted fields
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customization-form-hide-field.png)
 
+## Choose to remove price related fields if applicable
+
+There is an easy and supported way to remove all price related fields (e.g. Price List, Total Amount, etc) from the Work Order, Work Order Product, and Work Order Service 
+
+In a scenario where your organization does not need price list or price calculations (e.g. Total Amount) on the work order or work order products and services, there is an easy and supported wayyou can easily remove all price related fields by going to Field Service Settings and turning **Calculate Price** to _No_. [More details](https://docs.microsoft.com/dynamics365/field-service/configure-default-settings#work-order-and-bookings-settings). 
+
 ## 8. Move unwanted items away from the first form tab
 
 d. Move unwanted subgrids and fields away from the first form tab
@@ -183,9 +189,7 @@ d. Move unwanted subgrids and fields away from the first form tab
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customization-form-move-from-first-tab2.png)
 
-## Choose to remove price related fields if applicable
 
-In a scenario where your organization does not need price list or price calculations (e.g. Total Amount) on the work order or work order products and services, you can easily remove all price related fields by going to Field Service Settings and turning **Calculate Price** to _No_. [More details](https://docs.microsoft.com/dynamics365/field-service/configure-default-settings#work-order-and-bookings-settings). 
 
 ## 9. Add your custom fields to the appropriate form tabs
 
