@@ -144,7 +144,7 @@ For more information, go to [Third-party application tab refreshes when focus is
 This application type is used to display web resources that represent files, which are used to extend the web application such as HTML files, JavaScript, CSS, and several image formats. The following parameters are available for the web resources application type.
 
 |Parameter | Description | Required | Supported values | Example |
-|---------|--------------|----------|--------|---------|
+|---------|--------------|----------|--------          |---------|
 | `webResourceName` | Name of the web resource to open | Yes | String | `msdyn_kbsearchpagehost.html`|
 | `data` | Provide string or key value pair, according to the requirement of the web resource. | No | String <br>  Slugs <br> <br> OData <br> | contoso <br> `{anchor.title}` <br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
 
@@ -161,7 +161,7 @@ This application type is used to display custom pages on the application tab. Yo
 The following parameters are available for custom pages.
 
 |Parameter | Description | Required | Supported values | Example |
-|---------|--------------|----      |--------------|---------|
+|---------|--------------|----      |--------------    |---------|
 | `entityName` | Logical name of the entity | Yes | String <br> Slugs <br> <br> | `https://www.bing.com/search?q=customerEntityName`  |
 | `name` | Unique name of the custom page  | No | String <br>  | `new_mycustompage` <br> |
 | `recordId` | GUID of the entity record | No | String <br> Slugs <br> OData <br>| `d49e62a8-90df-e311-9565-a45d36fc5fe8` <br> `{caseId} {anchor.incidentid}` <br>  `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br>  |
