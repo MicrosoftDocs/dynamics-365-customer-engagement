@@ -216,7 +216,7 @@ In some scenarios you may need to create a completely custom work order form. Th
 2. You have decided it is not feasbile for all roles to use the same work order form even while using security roles and field security profiles to limit information; and you need to create different forms for different user personas.
 
 
-#### a. Create a new form
+#### Create a new form
 
 Go to https://make.powerapps.com > Tables > Work Order > Forms
 
@@ -231,11 +231,11 @@ You can also start from a copy of the default form if you have already made chan
 > ![Screenshot of ](./media/customization-form-copy.png)
 
 
-#### b. Remove unwanted fields and subgrids
+#### Remove unwanted fields and subgrids
 
 With a custom form you can remove fields, controls, tabs, and other items whereas before we hid them.
 
-However there are some limitations.
+However there are some limitations to what can be removed listed below.
 
 The following fields are critical to the Field Service work order process and are required. If your organziation does not plan to use these fields then you may want to consider creating an entirely new entity table.
 
@@ -262,7 +262,7 @@ There is an easy and supported way to remove all price related fields (e.g. Pric
 
 In a scenario where your organization does not need price list or price calculations (e.g. Total Amount) on the work order or work order products and services, there is an easy and supported wayyou can easily remove all price related fields by going to Field Service Settings and turning **Calculate Price** to _No_. [More details](https://docs.microsoft.com/dynamics365/field-service/configure-default-settings#work-order-and-bookings-settings). 
 
-#### c. Add your fields, subgrids, controls
+#### Add your fields, subgrids, controls
  Guidance
 
 
