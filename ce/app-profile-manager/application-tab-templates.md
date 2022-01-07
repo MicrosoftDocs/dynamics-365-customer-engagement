@@ -4,7 +4,7 @@ description: "Learn how to create application tab templates in Customer Service.
 author: "mh-jaya"
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 01/07/2022
+ms.date: 01/10/2022
 ms.topic: article
 ---
 
@@ -79,7 +79,7 @@ This application type is used to display an entity view that defines how a list 
 
 |Parameter | Description | Required | Supported values | Example |
 |---------|--------------|------------------|--------- |---------|
-| `entityName`| Logical name of the entity | Yes | String <br> Slugs | account <br>`{anchor._customerid_value@Microsoft.Dynamics.CRM.lookuplogicalname}` |
+| `entityName`| Logical name of the entity | Yes | String <br><br> Slugs<br> | account <br> <br>`{anchor._customerid_value@Microsoft.Dynamics.CRM.lookuplogicalname}` |
 | `viewId` | GUID of the view | No | String | `00000000-0000-0000-00aa-000010001031` |
 
 > [!NOTE]
