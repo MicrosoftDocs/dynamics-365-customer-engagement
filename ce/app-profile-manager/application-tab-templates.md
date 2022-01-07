@@ -12,13 +12,11 @@ ms.topic: article
 
 An application tab template in Customer Service lets you specify the type of applications that you want to open when a session is started. Each application type has a predefined set of parameters associated with it.
 
-The vertical bar in the left panel shows the list of sessions. The panel will always show at least one session, called the **Home session**, that can't be closed or customized.
+The vertical bar on the left panel shows the list of sessions. The panel will always show at least one session, called the **Home session**, that can't be closed or customized.
 
-The horizontal bar below the model-driven app navigation bar is called the application tab panel. Every session has at least one application tab, called the **Anchor Tab**, that can't be closed or customized. When a session is started, by default the system opens an application in the application tab panel. There may also be additional applications that the system opens based on the configuration.
+The horizontal bar below the model-driven app navigation bar is called the application tab panel. Every session has at least one application tab, called the **Anchor Tab**, that can't be closed or customized. When a session is started, the system opens an application in the application tab panel. There may also be additional applications that the system opens based on the configuration.
 
-With the application tab template, you can define applications that are available for a session, and then associate those applications with the session.
-
-For example, you can create the **Customer Summary** application type and associate it with a chat or SMS session. Now, when an agent accepts the notification from the chat or SMS channels, a session starts and the **Customer Summary** page loads by default.
+With the application tab template, you can define applications that are available for a session, and then associate those applications with the session. For example, you can create the **Customer Summary** application type and associate it with a chat or SMS session. Now, when an agent accepts a notification from the chat or SMS channels, a session starts and the **Customer Summary** page opens.
 
 As an administrator, you can create multiple application tab templates.
 
