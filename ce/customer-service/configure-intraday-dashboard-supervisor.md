@@ -1,7 +1,7 @@
 ---
 title: "Configure intraday insights for supervisors | MicrosoftDocs"
 description: "How to configure intraday insights for Unified Service Desk and Omnichannel for Dynamics 365 Customer Service."
-ms.date: 04/09/2021
+ms.date: 01/07/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -70,14 +70,17 @@ Review the following prerequisites before configuring the supervisor insights:
 
 - As a system administrator, you must create and add a security group for Power BI service. Follow these steps to create and add a security group:
 
-   1. Create a security group in Azure Active Directory (Azure AD) and add **Omnichannel for Customer Service** as a member to that security group. To learn more, see [Create a basic group and add members using Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal). 
+   1. Create a security group in Azure Active Directory (Azure AD), and add **Omnichannel for Customer Service** as a member to that security group. To learn more, see [Create a basic group and add members using Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal).
+   
+      > [!NOTE]
+      > For GCC, add **Omnichannel Engagement Hub - GCC** as a member to the security group in Azure AD.
 
-   2. As a Power BI admin, you need to enable service principal in the **Developer settings** in the Power BI admin portal and the security group that you created in Azure AD.
+   2. As a Power BI admin, you need to enable service principal in the **Developer settings** in the Power BI admin portal and the security group that you created in Azure AD.
    
       a. Sign in to [Power BI service](https://app.powerbi.com) and go to **Settings** > **Admin portal**.
            
         > [!div class=mx-imgBorder]
-        > ![Select Admin portal.](media/supervisor-admin-powerbi-select-admin-portal.png "Select Admin portal") 
+        > ![Select Admin portal.](media/supervisor-admin-powerbi-select-admin-portal.png "Select Admin portal")
 
       b. In the Admin portal, go to **Tenant settings** > **Developer settings** > **Allow service principals to use Power BI APIs**.
 
