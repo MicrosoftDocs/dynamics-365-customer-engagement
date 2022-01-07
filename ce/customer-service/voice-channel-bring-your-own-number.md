@@ -4,12 +4,12 @@ description: "Use this topic to understand how you can bring your own phone numb
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 11/02/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
 
-# Bring your own phone numbers
+# Bring your own phone numbers and carriers
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
