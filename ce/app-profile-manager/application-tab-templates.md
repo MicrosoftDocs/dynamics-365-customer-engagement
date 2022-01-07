@@ -35,17 +35,17 @@ As an administrator, you can create multiple application tab templates.
 
     | Tab | Name | Description | Example |
     |-----------|-------------------|-----------------------------------|-------------------------------------|
-    | General | Name | Specify the name of the application tab. This name won't be visible for the agents at the runtime. | Knowledge article search |
-    | General | Unique name | Provide a unique identifier in the <*prefix*>_<*name*> format. <br>**IMPORTANT**<br> The following are required for the unique name: <ul><li>The prefix can only be alphanumeric and its length must be between 3 and 8 characters.</li><li> An underscore must be between the prefix and name.</li></ul><br> You can select the light bulb icon, and then select **Apply** to verify whether the name you've entered meets the requirements. | contoso_application_tab |
-    | General | Title | Provide a title for the application that you want the agents to see at the runtime. | Knowledge article search |
+    | General | Name | Specify the name of the application tab. This name won't be visible for the agents at runtime. | Knowledge article search |
+    | General | Unique name | Provide a unique identifier in the <*prefix*>_<*name*> format. <br>**IMPORTANT**<br> The following are required for the unique name: <ul><li>The prefix can only be alphanumeric and its length must be between 3 and 8 characters.</li><li> An underscore must be added between the prefix and name.</li></ul><br> You can select the light bulb icon, and then select **Apply** to verify whether the name you've entered meets the requirements. | contoso_application_tab |
+    | General | Title | Provide a title for the application that you want the agents to see at runtime. | Knowledge article search |
     | General | Page type | Select an application type from the list. |  Web resource |
     | General | Description | Provide a description for your reference. | The application type is used to display a knowledge base search page. |
 
-5. Select **Save**. The parameters for the application type that you selected appear in the **Parameters** section.
+5. Select **Save**. The parameters for the application type that you selected display in the **Parameters** section.
 
     Whenever you edit the application tab template, save the changes so you see the corresponding fields in the **Parameters** section.
 
-6. Select the **Value** field of a parameter to edit and provide the value. For more information on parameters, see [Application types in the application templates](#application-types).
+6. Select the **Value** field of a parameter that you want to edit and provide the value. For more information on parameters, see [Application types in the application templates](#application-types).
 
 7. Select **Save**.
 
