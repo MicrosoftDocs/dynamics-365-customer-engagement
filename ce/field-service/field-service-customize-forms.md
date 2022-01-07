@@ -186,15 +186,18 @@ In the example below, we created a custom field called "Source" that is a choice
 
 ## 9. Test your forms with tools
 
-[Run Performance Insights](https://docs.microsoft.com/en-us/powerapps/maker/common/performance-insights-overview) to see how app performance is affected by things like browsers, network performance, data queries, and more.
+[Run Performance Insights](https://docs.microsoft.com/en-us/powerapps/maker/common/performance-insights-overview) to see how app and form performance is affected by things like browsers, network performance, data queries, and more.
 
 Use the monitoring tool to understand the root cause of why forms may be loading slowly. See [this blog post](https://powerapps.microsoft.com/en-us/blog/monitor-now-supports-model-driven-apps/) and [this doc](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/monitor-form-checker) for more details.
 
 ## Summary of recommended best practices
 
 - Always use default fields and processes when possible
-- Hide unwanted fields, do not remove them, and move them away from the first tab
-- Move unwanted fields and lesser used fields away from the first form tab
+- Hide unwanted tabs, sections, and fields; do not remove them
+- Move lesser used fields away from the first form tab
+- Avoid adding fields and controls to the first form tab, especially subgrids and lookups
+- Avoid adding more than 3 subgrids to any single form tab
+- Avoid adding more than 10 lookups to any single form tab
 - Minimize lookup controls to no more than 10 on a from tab
 - Minimize subgrid controls to no more than 3 on a form tab
 - Do not add additional subgrids or lookups to first form tab
