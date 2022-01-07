@@ -3,7 +3,7 @@ title: "How to create and edit Field Service columns (fields) | MicrosoftDocs"
 description: description
 ms.custom:
 - dyn365-fieldservice
-ms.date: 01/05/2021
+ms.date: 01/07/2022
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -20,8 +20,19 @@ search.app:
 ---
 # How to create and edit Field Service columns (fields)
 
+When deploying Field Service you will have to add new columns (also called fields) to the various tables (also called entities) that you use like work orders, bookable resource bookings ("bookings"), customer assets, and more.
 
-## 3. Create new fields as needed
+Follow best practices when creating, editing, and deleting columns.
+
+In this article we will discuss how to create, edit and delete fields for the work order table, but the following guidance applies to all Field Service tables.
+
+## Understand existing fields
+
+It is very important to understand existing fields that come with the table before creating, editing, or deleting fields. This is because it is beneficial from a process, performance, and upgrade perspective to use existing fields where possible.
+
+In the example of this article, review existing work order fields, understand their function and the process they represent, and decide if you can use the existing fields.
+
+## Create new fields
 
 After understanding the existing fields and processes on the work order form, you may need to create additional fields based on your unique business processes.
 
@@ -29,7 +40,7 @@ Go to https://make.powerapps.com
 
 Create new fields also called "columns" as needed.
 
-Do not add them to the form yet.
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customization-form-create-fields.png)
@@ -38,11 +49,15 @@ Do not add them to the form yet.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customization-form-create-fields2.png)
 
-> [!Note]
-> **Do not delete existing fields!** Deleting fields can cause important processes to fail causing errors. We will hide unwanted fields from the form later on.
+Do not add new fields to the form yet, review the topic on [customizing Field Service forms](field-service-customize-forms.md) before doing so.
 
 
-## 5. Edit field display names and labels as needed
+
+
+## Edit fields
+
+Administrators can edit the display names and labels of fields but cannot edit field properties. Below are a few examples.
+
 
 Edit the display names of fields or the labels of choices as needed. 
 
@@ -57,6 +72,8 @@ As another example, for the _System Status_ field, you can change the labels of 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customization-form-field-choice-option-set.png)
 
+Optional fields can be made required, but required fields cannot be made optional.
+
 > [!Note]
 > **Do not edit field properties!** It is highly recommended to not edit the properties of existing fields. 
 
@@ -68,10 +85,13 @@ As an example, editing fields in the following ways is unsupported and can cause
 - Changing field requirement from _Required_ to _Optional_ (it is okay to change from Optional to Required)
 
 
-## Create new columns (fields)
-
-## Edit existing columns (fields)
-
 ## Delete columns (fields)
 
+**Do not delete existing fields** Deleting fields can cause important processes to fail causing errors. You can simply hide or remove fields from the forms so that users cannot see them.
+
 ## Summary of recommended best practices
+
+- Understand existing fields and try to use them before creating new ones
+- Field display names and labels can be edited
+- Field properties cannot be edited
+- Optional fields can be made required, but required fields cannot be made optional.

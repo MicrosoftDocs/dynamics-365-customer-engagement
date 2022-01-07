@@ -3,7 +3,7 @@ title: "How to customize Field Service forms and best practices | MicrosoftDocs"
 description: description
 ms.custom:
 - dyn365-fieldservice
-ms.date: 01/05/2021
+ms.date: 01/07/2022
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -202,6 +202,8 @@ Use the monitoring tool to understand the root cause of why forms may be loading
 - Use the PCF _Form component control_ to display information from the other tables inside the form. This prevents form users from having to click away from the form. 
 - Do not edit or remove form libraries
 - Minimize fields and controls overall. Every field and control added to a form has a performance cost, so be mindful and only create fields and controls that are critical to your business.
+- Review best practices to [design efficient forms](https://docs.microsoft.com/powerapps/maker/model-driven-apps/design-productive-forms)
+- Review best practices to [design performant forms](https://docs.microsoft.com/powerapps/maker/model-driven-apps/design-performant-forms) forms.
 
 
 ## Customizing the mobile work order form
@@ -230,8 +232,14 @@ You can also start from a copy of the default form if you have already made chan
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customization-form-copy.png)
 
+#### Choose to remove price related fields if applicable
 
-#### Remove unwanted fields and subgrids
+There is an easy and supported way to remove all price related fields (e.g. Price List, Total Amount, etc) from the Work Order, Work Order Product, and Work Order Service 
+
+In a scenario where your organization does not need price list or price calculations (e.g. Total Amount) on the work order or work order products and services, there is an easy and supported wayyou can easily remove all price related fields by going to Field Service Settings and turning **Calculate Price** to _No_. [More details](https://docs.microsoft.com/dynamics365/field-service/configure-default-settings#work-order-and-bookings-settings). 
+
+
+#### Remove other unwanted fields and subgrids
 
 With a custom form you can remove fields, controls, tabs, and other items whereas before we hid them.
 
@@ -256,23 +264,17 @@ The following subgrid is also critical to the Field Service work order process a
 - Bookable Resource Booking ("Bookings")
 
 
-#### Choose to remove price related fields if applicable
-
-There is an easy and supported way to remove all price related fields (e.g. Price List, Total Amount, etc) from the Work Order, Work Order Product, and Work Order Service 
-
-In a scenario where your organization does not need price list or price calculations (e.g. Total Amount) on the work order or work order products and services, there is an easy and supported wayyou can easily remove all price related fields by going to Field Service Settings and turning **Calculate Price** to _No_. [More details](https://docs.microsoft.com/dynamics365/field-service/configure-default-settings#work-order-and-bookings-settings). 
-
 #### Add your fields, subgrids, controls
- Guidance
+After removing fields, subgrids, and controls you do not need, you can add your custom fields.
+
+Follow best practices when adding fields to the form mentioned above in the _Summary of recommended best practices_.
 
 
-e. Follow form design best practices
 
-	 https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/create-and-edit-forms
 
 ## Form scripts
 
-Many organizations run code scripts on load, on change, and on save of the form to perform validations and run prcesses. Form scripts can greatly impact form performance like load time. Review the topic on [Write scripts to implement complex business logic in FIeld Service](field-service-customize-scripts.md) for best practices including [runing solution checker to test scripts for issues](https://docs.microsoft.com/powerapps/maker/data-platform/use-powerapps-checker). 
+Many organizations run code scripts on load, on change, and on save of the form to perform validations and run prcesses. Form scripts can greatly impact form performance like load time. Review the topic on [Write scripts to implement complex business logic in FIeld Service](field-service-customize-scripts.md) for best practices including [running solution checker to test scripts for issues](https://docs.microsoft.com/powerapps/maker/data-platform/use-powerapps-checker). 
 
 
 ## See also
