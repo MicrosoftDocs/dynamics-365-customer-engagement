@@ -198,11 +198,8 @@ Use the monitoring tool to understand the root cause of why forms may be loading
 - Avoid adding fields and controls to the first form tab, especially subgrids and lookups
 - Avoid adding more than 3 subgrids to any single form tab
 - Avoid adding more than 10 lookups to any single form tab
-- Minimize lookup controls to no more than 10 on a from tab
-- Minimize subgrid controls to no more than 3 on a form tab
-- Do not add additional subgrids or lookups to first form tab
 - Use the PCF _Form component control_ to display information from the other tables inside the form. This prevents form users from having to click away from the form. 
-- Do not edit or remove libraries
+- Do not edit or remove form libraries
 - use more tabs
 - all fields add up
 

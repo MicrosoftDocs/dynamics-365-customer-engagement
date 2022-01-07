@@ -27,6 +27,11 @@ search.app:
 
 ## Recommended best practices
 
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customization-form-libraries.png)
+
 ### See also
 
 - https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/best-practices/business-logic/
