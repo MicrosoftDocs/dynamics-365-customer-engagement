@@ -160,7 +160,7 @@ As an example, imagine the _Primary Incident Type_ field is not important to you
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customization-form-move-from-first-tab1.png)
 
-Move it to another tab. If you still wish to use, then leave it there; hide it if you do not need it. 
+Move it to another tab. If you still wish to use it, then leave it there; hide it if you do not need it. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customization-form-move-from-first-tab2.png)
@@ -168,12 +168,17 @@ Move it to another tab. If you still wish to use, then leave it there; hide it i
 Do the same for subgrids and any other control.
 
 ## 8. Add your custom fields to the appropriate form tabs
-Avoid adding any custom fields to the first form tab unless absolutely necessary. Adding subgrids and lookup fields to first form tab can significantly slow load times and is highly discouraged.
+
+Add the custom fields you created earlier for your unique business processes to the form.
+
+Avoid adding any custom fields to the first form tab unless absolutely necessary. In particular, avoid adding subgrids and lookup fields to first form tab because they can significantly slow load times.
+
+In the example below, we created a custom field called "Source" that is a choice type field to select how the work order was originated (phone, email, IoT, agreement, etc). We are adding the custom field to the second form tab named "Settings".
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customization-form-add-custom-fields.png)
 
-Do not add custom fields to the first form tab unless absolutely necessary 
+
     
 [Follow form design best practices](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-and-edit-forms)
 
