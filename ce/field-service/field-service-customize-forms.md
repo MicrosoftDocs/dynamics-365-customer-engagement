@@ -148,21 +148,27 @@ There is an easy and supported way to remove all price related fields (e.g. Pric
 
 In a scenario where your organization does not need price list or price calculations (e.g. Total Amount) on the work order or work order products and services, there is an easy and supported wayyou can easily remove all price related fields by going to Field Service Settings and turning **Calculate Price** to _No_. [More details](https://docs.microsoft.com/dynamics365/field-service/configure-default-settings#work-order-and-bookings-settings). 
 
-## 7. Move unwanted items away from the first form tab
+## 7. Move less important items away from the first form tab
 
-The first form tab 
+The first form tab is very consequential for form load times. 
 
+Review default fields, subgrids, etc on the first form tab and move unwanted items to another tab.
+
+
+
+As an example, imagine the _Primary Incident Type_ field is not important to your organization. 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customization-form-move-from-first-tab1.png)
 
+Move it to another tab. If you still wish to use, then leave it there; hide it if you do not need it. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customization-form-move-from-first-tab2.png)
 
-
+Do the same for subgrids and any other control.
 
 ## 8. Add your custom fields to the appropriate form tabs
-
+Avoid adding any custom fields to the first form tab unless absolutely necessary. Adding subgrids and lookup fields to first form tab can significantly slow load times and is highly discouraged.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customization-form-add-custom-fields.png)
