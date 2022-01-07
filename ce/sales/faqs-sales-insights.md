@@ -142,7 +142,7 @@ When you set up Sales Premium features using your Dynamics 365 Sales Enterprise 
 
 ### How to get full capacity of Sales Premium showcase features?
 
-If you need more capacity, upgrade to Dynamics 365 Sales Premium. More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+If you need more capacity, upgrade to Dynamics 365 Sales Premium. More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/)
 
 ## Assistant
 

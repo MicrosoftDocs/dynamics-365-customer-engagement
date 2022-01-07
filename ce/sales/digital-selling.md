@@ -58,7 +58,7 @@ To use digital selling capabilities, you must have Sales Hub app installed. If y
 
 ## Sales accelerator
 
-Sales accelerator in Dynamics 365 provides a tailored experience for sellers by minimizing the time they spend on their search for the best next customer to reach out to. It gathers information from multiple sources and lets sellers focus on how to best approach their customers. It helps sellers to sell smartly, by building a strong and prioritized pipeline, offering context, and surfacing automated recommendations throughout a sales sequence that helps to speed the sales process. More information: [What is the Sales accelerator?](sales-accelerator-intro.md)
+Sales accelerator is an engagement platform that helps you understand your customers' needs and respond in meaningful ways. It allows your sellers to engage with your customers using multiple channels within one workspace. Sales accelerator in Dynamics 365 provides a tailored experience for sellers by minimizing the time they spend on their search for the best next customer to reach out to. It gathers information from multiple sources and lets sellers focus on how to best approach their customers. It helps sellers to sell smartly, by building a strong and prioritized pipeline, offering context, and surfacing automated recommendations throughout a sales sequence that helps to speed the sales process. More information: [What is the Sales accelerator?](sales-accelerator-intro.md)
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWQCjf]
 
@@ -79,15 +79,25 @@ When you set up sales accelerator with the Dynamics 365 Sales Enterprise license
     - **All security roles**: Select this option to give access to view Sales accelerator in the Sales Hub app to all the security roles in your organization.
     - **Specific security roles**: Select this option to specify security roles to give access to view Sales accelerator in the Sales Hub app to just a few users. Use the lookup box to add the security roles.
 
-3. To add sample data for exploring the feature, select **Add sample data**. Installing the sample data is relevant only for your sandbox or trial environments. Adding the sample data might take a few minutes. However, you can choose to ignore the sample data installation and add it later when required.
+3. To add sample data for exploring the feature, select **Add sample data**. Installing the sample data is relevant only for your sandbox or trial environments. When you add sample data, you'll also see predictive lead and opportunity scoring on the Sales insights form. Adding the sample data might take a few minutes. However, you can choose to ignore the sample data installation and add it later when required.
 
-4. In the **Content and layout** section, select the record types and their corresponding related forms that are used in your organization, as required.
-    1. To add more records, select **Add record type**, and then select a record from the drop down list.
+4. In the **Content and layout** section, select the record types and their corresponding related forms that are used in your organization, as required. 
+    1. To add more record types, select **Add record type**, and then select a record from the drop down list. The selected record type will display the **Sequence (up next)** widget. You can select record types such as **Accounts**, **Contacts**, **Leads**, **Opportunities**, and custom.
+       
+    > [!NOTE]
+    > - Ensure that record types are the ones that activities are usually connected to. Sales managers use the record types to configure the sequence that will be assigned to records to be displayed in the app.
+    > - To view the custom records types in the list, enable the options **Activities**, **Connections**, and **Sending email (If an email field does not exist, one will be created)** under **Communication & Collaboration** in **Settings > Customizations** > **Customize the System** > **Components** > **Entities**.
+    > - To add the **Up next** widget to your custom entity form, see [Add the Up next widget to an entity form](add-upnext-widget-form.md). 
+
     2. Select a form for the selected record.
+    
+    > [!NOTE]
+    > - You can remove the records types that are no longer required to have automated activities associated with them. Select the **X** icon corresponding to the record type to remove it from the list. However, if the records in the deleted record type are associated with a sequence, these records will continue to be associated with the sequence.   
+    > - To know how records are populated in the work list, see [View my records by using the work list](prioritize-sales-pipeline-through-work-list.md#view-my-records-through-work-list).
 
 5. To publish the changes, select **Publish**.
 
-Once the settings are published, you can open the seller's interface for sales accelerator by selecting **Go to seller experience** under **Sales accelerator** on the **Get started with digital sales** page.
+Once the settings are published, you can open the seller's interface for sales accelerator by selecting **Go to seller experience** under **Sales accelerator** on the **Get started with digital sales** page. Sellers can immediately use sales accelerator for manually created activities. However, you can also guide your sellers by creating sequences. For information on creating sequences, see [Manage sequences](create-manage-sequences.md).
 
 > [!NOTE]
 > If you want to make advanced configurations for sales accelerator, select **Go to advanced sales accelerator settings** at the top of the quick setup panel. For information on advanced configurations, see [Configure the sales accelerator for Sales Premium](enable-configure-sales-accelerator.md)
@@ -104,7 +114,7 @@ If you want to turn off sales accelerator, you do it from the advanced settings.
 
 3. In the confirmation dialog box, select **Unpublish**.
 
-### Add the Up next widget to a custom form
+### Add the Sequence (up next) widget to a custom form
 
 By default, the **Up next** widget is available only in the out-of-the-box Sales Insights, lead, and opportunity forms. If you're using customized forms, you can display the Up next widget on your custom forms. For information about adding the **Up next** widget to a custom form, see [Add the Up next widget to a custom form](add-upnext-widget-form.md)
 
@@ -184,11 +194,14 @@ Once settings are enabled, sellers can make calls to their customer from within 
 > [!NOTE]
 > If you want to make advanced configurations for Teams calls + conversation intelligence settings, select **Go to advanced conversation intelligence settings** at the top of the quick setup panel. For information on advanced configurations, see [First-run setup experience of Microsoft Teams for conversation intelligence](fre-setup-ci-sales-app.md)
 
-### Turn off Teams calls + conversation intelligence
+### Turn off Teams calls and conversation intelligence
 
 1. Select **Go to advanced conversation intelligence settings** at the top of the quick setup panel.
 
 2. Turn off **Teams calls (preview)** and **Recording with real-time transcription and insights (preview)** toggles.
+
+    > [!NOTE]
+    > If you turn off **Teams calls (preview)**, **Recording with real-time transcription and insights (preview)** will also be turned off. However, you can turn off only conversation intelligence (call recording) and leave the Teams calling option on.
 
 3. Select **Update**.
 
