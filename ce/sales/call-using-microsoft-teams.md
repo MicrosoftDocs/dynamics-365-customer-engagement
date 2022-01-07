@@ -1,7 +1,7 @@
 ---
 title: "Call customers through Microsoft Teams dialer in Dynamics 365 Sales"
 description: "Call customers through Microsoft Teams dialer through records and up next widget in Dynamics 365 Sales."
-ms.date: 12/06/2021
+ms.date: 01/07/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -40,7 +40,7 @@ Select the phone icon (![Phone icon.](media/phone-icon.png "Phone icon")) on the
 
 ## Make calls using Teams  
 
-You can use Microsoft Teams to call a customer directly through the dial pad, a record, or a work item to make a call. 
+You can use Microsoft Teams to call a customer directly from the dialer, a record, or a work item to make a call. 
 
 >[!NOTE]
 >Verify that a valid phone number is associated with the Dynamics 365 records or work item.  
@@ -58,7 +58,7 @@ You can use Microsoft Teams to call a customer directly through the dial pad, a 
     > [!div class="mx-imgBorder"]
     > ![Select phone icon to make call.](media/teams-dialer-make-call.png "Select phone icon to make call")     
 
-**To dial a customer work list item**
+**To dial a customer from a work list item**
 
 1.	Go to **My Work** > **Sales accelerator**.    
     Your work list opens. You can see the phone call activities that are pending for the day. In this example, the phone call activity for **Nancy Anderson** is pending for the day.
@@ -85,9 +85,9 @@ You can use Microsoft Teams to call a customer directly through the dial pad, a 
 
 3.  Select **Call**.
 
-## Receive calls using Teams
+## Receive calls through Teams
 
-Through Teams, you can receive calls in Dynamics 365 Sales Hub app. When a call is received, a notification is displayed at the bottom-right corner of the page as shown in the following image:
+You can receive calls in Dynamics 365 Sales Hub app. When a call is received, a notification is displayed at the bottom-right corner of the page as shown in the following image:
 
 > [!div class="mx-imgBorder"]
 > ![Call receiving notification in Teams.](media/teams-dialer-receive-call-notification.png "Call receiving notification in Teams")    
