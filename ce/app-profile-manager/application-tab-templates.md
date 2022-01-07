@@ -12,7 +12,7 @@ ms.topic: article
 
 An application tab template in Customer Service lets you specify the type of applications you want to open when a session is started. Each application type has a predefined set of parameters associated with it.
 
-The vertical bar in the left panel shows the list of sessions. The panel will always show at least one session that can't be closed or customized; it's called the **Home session**.
+The vertical bar in the left panel shows the list of sessions. The panel will always show at least one session, called the **Home session**, that can't be closed or customized.
 
 The horizontal bar below the model-driven app navigation bar is called the application tab panel. Every session has at least one application tab, called the **Anchor Tab**, that can't be closed or customized. When a session is started, by default the system opens an application in the application tab panel. There may also be additional applications that the system opens based on the configuration.
 
