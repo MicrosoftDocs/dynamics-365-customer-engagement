@@ -126,13 +126,13 @@ Depending on the region where your organization is hosted, data is stored in the
 
 More information: [Azure Regional Pairs](/azure/best-practices-availability-paired-regions#azure-regional-pairs)
 
-## Dynamics 365 Sales Premium showcase
+## Digital sales
 
-### What is Dynamics 365 Sales Premium showcase?
+### What is digital sales?
 
 If you are a customer using a Dynamics 365 Sales Enterprise, Microsoft Relationship Sales, or Customer Engagement plan, you can now get started with three new Dynamics 365 Sales Premium features to help enhance your digital selling programs. We are adding conversation intelligence, sales accelerator with sequences, and predictive scoring at a limited capacity to get you started. More information: [Digital selling capabilities in Sales Enterprise](digital-selling.md)
 
-### What's the capacity limit in using Sales Premium showcase features?
+### What's the capacity limit in using digital sales?
 
 When you set up Sales Premium features using your Dynamics 365 Sales Enterprise license, the features are available with the following capacity limits:
 
@@ -140,7 +140,7 @@ When you set up Sales Premium features using your Dynamics 365 Sales Enterprise 
 - Users who access and utilize conversation intelligence will be able to do so with 3 hours per user per month.
 - View up to 1500 leads or opportunity records scored per environment per month with predictive scoring.
 
-### How to get full capacity of Sales Premium showcase features?
+### How to get full capacity of digital sales?
 
 If you need more capacity, upgrade to Dynamics 365 Sales Premium. More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/)
 
