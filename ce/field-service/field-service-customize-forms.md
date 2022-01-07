@@ -45,7 +45,7 @@ Go to the Field Service app > Work Orders > select an existing record or create 
 
 The work order form is optimized for the following standard work order process.
 
-1. A work order is created manually, from a converted case, via an IoT alert, from an agreement schedule, or via an integration with a system status equal to _Unscheduled_ by default. 
+1. A work order is created manually, from a converted case, via an IoT alert, from an agreement schedule, or via an integration. Newly created work orders have a system status equal to _Unscheduled_ by default. 
 2. Work order details are entered like the account, work order type, location, products, services, service tasks, and any other information that is important
 3. The work order is scheduled to one or more resources ("frontline workers") and the system status automically becomes _Scheduled_.
 4. The frontline worker views the scheduled work order on his or her mobile app and travels to the customer location to perform the required work and records progress. The system status becomes _In Progress_. The fronltine worker updates information like when he or she arrived on site, service tasks completed, services and products billed. 
