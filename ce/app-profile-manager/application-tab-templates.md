@@ -10,7 +10,7 @@ ms.topic: article
 
 # Manage application tab templates
 
-An application tab template in Customer Service lets you specify the type of applications you want to open when a session is started. Each application type has a predefined set of parameters associated with it.
+An application tab template in Customer Service lets you specify the type of applications that you want to open when a session is started. Each application type has a predefined set of parameters associated with it.
 
 The vertical bar in the left panel shows the list of sessions. The panel will always show at least one session, called the **Home session**, that can't be closed or customized.
 
