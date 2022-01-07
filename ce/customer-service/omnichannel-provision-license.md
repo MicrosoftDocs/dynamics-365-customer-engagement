@@ -35,7 +35,7 @@ Use the following steps to allow Omnichannel for Customer Service to read and wr
 
 1. Go to [Data access consent URL](https://go.microsoft.com/fwlink/p/?linkid=2070932). For Government Community Cloud (GCC), use the [GCC data access consent URL](https://go.microsoft.com/fwlink/p/?linkid=2128838).
 2. Sign in using **Global Tenant Admin** credentials.
-3. Select the **Consent on behalf of your organization** check box.
+3. Select the **Consent on behalf of your organization** checkbox.
 4. Select **Accept** to grant data access consent.
 
     > [!div class=mx-imgBorder]
