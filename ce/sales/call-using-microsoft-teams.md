@@ -87,7 +87,7 @@ You can use Microsoft Teams to call a customer directly from the dialer, a recor
 
 ## Receive calls through Teams
 
-You can receive calls in Dynamics 365 Sales Hub app. When a call is received, a notification is displayed at the bottom-right corner of the page as shown in the following image:
+You can receive calls in Dynamics 365 Sales. When a call is received, a notification is displayed at the bottom-right corner of the page as shown in the following image:
 
 > [!div class="mx-imgBorder"]
 > ![Call receiving notification in Teams.](media/teams-dialer-receive-call-notification.png "Call receiving notification in Teams")    
