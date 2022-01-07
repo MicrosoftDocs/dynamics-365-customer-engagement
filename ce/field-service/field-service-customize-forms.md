@@ -218,17 +218,24 @@ In some scenarios you may need to create a completely custom work order form. Th
 
 #### a. Create a new form
 
+Go to https://make.powerapps.com > Tables > Work Order > Forms
+
+Select **Add form** at the top and select Main form.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customization-form-create-custom.png)
 
-> [!Note]
-> You can make a copy of the form
+You can also start from a copy of the default form if you have already made changes there.
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customization-form-copy.png)
 
 
 #### b. Remove unwanted fields and subgrids
-    except the following
+
+With a custom form you can remove fields, controls, tabs, and other items whereas before we hid them.
+
+However there are some limitations.
 
 The following fields are critical to the Field Service work order process and are required. If your organziation does not plan to use these fields then you may want to consider creating an entirely new entity table.
 
@@ -244,11 +251,10 @@ The following fields are critical to the Field Service work order process and ar
 - Longitude
 
 
-The following subgrids are also critical to the Field Service work order process and are highly recommended.
+The following subgrid is also critical to the Field Service work order process and should not be removed.
 
 - Bookable Resource Booking ("Bookings")
-- Service Tasks
-- Products
+
 
 #### Choose to remove price related fields if applicable
 
