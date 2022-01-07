@@ -1,7 +1,7 @@
 ---
 title: "Continue the conversation with Microsoft Teams webinar participants (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to continue the conversation with Microsoft Teams webinar participants using Dynamics 365 Marketing."
-ms.date: 11/30/2021
+ms.date: 01/06/2022
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -24,8 +24,6 @@ The Dynamics 365 Marketing trial allows you to use the Marketing app to stay in 
 
 > [!NOTE]
 > The Dynamics 365 Marketing 6-month trial does not connect to existing instances of other Dynamics 365 apps. It is standalone and separate from any paid instances of Sales, Customer Service, Field Service, or any other Dynamics 365 apps.
-> 
-> If you would like to create a Marketing trial in conjunction with an existing Dynamics 365 instance, contact your Microsoft sales representative or channel partner.
 
 To sign up for a 6-month Dynamics 365 Marketing trial:
 
