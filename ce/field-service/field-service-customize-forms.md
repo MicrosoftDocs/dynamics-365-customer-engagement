@@ -37,7 +37,7 @@ Field Service - Adminsitrator security role
 
 
 
-## 1. Understand the default work order form
+## 1. Understand the default work order form 
 
 Before customizing the work order form, it is very important to understand the default work order form that is included with Field Servive. This means understanding the fields and the recommended process flow. This will help you determine if you need to make minor changes to the default form or create something completely new. Using the default fields and process is recommended for performance, usability, and upgradability reasons.
 
@@ -90,25 +90,31 @@ Read more about the work order fields and functions by reviewing the topics on [
 
 ## 2. Make a list of needed and unneeded fields
 
-Make a list of default work order fields that are relevant to your business process and another list of unneeded fields. You must use the ciritical required fields mentioned above. 
+Make a list of default work order fields that are relevant to your business process and another list of unneeded fields. Make sure to add the critical fields mentioned above to the list of needed fields as they are required.  
 
 
+## 3. Create new fields as needed
+
+Create new fields if the default work order form is missing fields that you need.
+
+See the topic on [How to create and edit Field Service columns (fields)](field-service-customize-columns-fields.md) for best practices when created, editing, and deleting fields. **Hint:** You should be very careful when editing default fields and you should never delete default fields. 
 
 
+## 4. Customize the default work order form (recommended)
 
-## 6. Customize the default work order form (recommended)
-
-We are now ready to customize the Work Order form with a combination of existing work order fields and your custom fields. 
+We are now ready to customize the Work Order form with a combination of existing work order fields and your new custom fields. 
 
 
 If you want to use many of the default work order fields and your business process is close to the standard work order process (or you're willing to adopt the standard work order process) then it is highly recommended to use the default Work Order Main form and make changes within that form. This will ensure your work order form will be upgraded and you can benefit from improvements. 
 
-a. Go to the Work Order Main form
+Go to https://make.powerapps.com > Tables > Work Order > Forms
+
+Select the Main "Work Order" form.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customization-form-go-to-main.png)
 
-## 7. Hide unwanted tabs, sections, and fields
+## 5. Hide unwanted tabs, sections, and fields
 
 a. Hide unwanted tabs
 
@@ -126,13 +132,13 @@ c. Hide unwanted fields
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customization-form-hide-field.png)
 
-## Choose to remove price related fields if applicable
+## 6. Choose to remove price related fields if applicable
 
 There is an easy and supported way to remove all price related fields (e.g. Price List, Total Amount, etc) from the Work Order, Work Order Product, and Work Order Service 
 
 In a scenario where your organization does not need price list or price calculations (e.g. Total Amount) on the work order or work order products and services, there is an easy and supported wayyou can easily remove all price related fields by going to Field Service Settings and turning **Calculate Price** to _No_. [More details](https://docs.microsoft.com/dynamics365/field-service/configure-default-settings#work-order-and-bookings-settings). 
 
-## 8. Move unwanted items away from the first form tab
+## 7. Move unwanted items away from the first form tab
 
 d. Move unwanted subgrids and fields away from the first form tab
 
@@ -145,7 +151,7 @@ d. Move unwanted subgrids and fields away from the first form tab
 
 
 
-## 9. Add your custom fields to the appropriate form tabs
+## 8. Add your custom fields to the appropriate form tabs
 
     
 
@@ -157,20 +163,13 @@ Do not add custom fields to the first form tab unless absolutely necessary
     
 [Follow form design best practices](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-and-edit-forms)
 
-
-
-
 	
 
-## 8. Test your forms
+## 9. Test your forms
 
 [Run Performance Insights](https://docs.microsoft.com/en-us/powerapps/maker/common/performance-insights-overview) to see how app performance is affected by things like browsers, network performance, data queries, and more.
 
-Run Solution Health to test for best practice violations
-
-
-	
-  
+Use the monitoring tool to understand the root cause of why forms may be loading slowly. See [this blog post](https://powerapps.microsoft.com/en-us/blog/monitor-now-supports-model-driven-apps/) and [this doc](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/monitor-form-checker) for more details.
 
 ## Summary of recommended best practices
 
