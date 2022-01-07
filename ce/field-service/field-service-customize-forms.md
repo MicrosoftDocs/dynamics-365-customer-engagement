@@ -153,8 +153,6 @@ d. Move unwanted subgrids and fields away from the first form tab
 
 ## 8. Add your custom fields to the appropriate form tabs
 
-    
-
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customization-form-add-custom-fields.png)
@@ -165,7 +163,7 @@ Do not add custom fields to the first form tab unless absolutely necessary
 
 	
 
-## 9. Test your forms
+## 9. Test your forms with tools
 
 [Run Performance Insights](https://docs.microsoft.com/en-us/powerapps/maker/common/performance-insights-overview) to see how app performance is affected by things like browsers, network performance, data queries, and more.
 
@@ -182,10 +180,7 @@ Use the monitoring tool to understand the root cause of why forms may be loading
 - Use the PCF _Form component control_ to display information from the other tables inside the form. This prevents form users from having to click away from the form. 
 - Do not edit or remove libraries
 - use more tabs
- - all fields add up
-
-
-
+- all fields add up
 
 
 ## Customizing the mobile work order form
