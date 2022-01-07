@@ -93,15 +93,15 @@ The following parameters are available for the entity record application type wh
 
 |Parameter | Description | Required | Supported values | Example |
 |----------|-------------|------------------|----------|---------|
-| `entityName` | Logical name of the entity | Yes | String <br> Slugs <br>  | account <br> `{anchor._customerid_value@Microsoft.Dynamics.CRM.lookuplogicalname}` |
-| `entityId`  | GUID of the entity record | No | String <br> Slugs <br>  |  `d49e62a8-90df-e311-9565-a45d36fc5fe8` <br> `{anchor._customerid_value}` <br> 
+| `entityName` | Logical name of the entity | Yes | String <br><br> Slugs <br> <br> | account <br><br> `{anchor._customerid_value@Microsoft.Dynamics.CRM.lookuplogicalname}`<br><br> |
+| `entityId`  | GUID of the entity record | No | String <br><br> Slugs <br> <br> |  `d49e62a8-90df-e311-9565-a45d36fc5fe8` <br><br> `{anchor._customerid_value}` <br><br> 
 | `formId` | GUID of the form instance | No | String   | `915f6055-2e07-4276-ae08-2b96c8d02c57` |
 
 The following parameters are available for the entity record application type when an entity form is opened to create a new record:
 
 |Parameter | Description | Required | Supported values |  Example |
 |---------|--------------|------------------|--------- |---------|
-| `entityName` | Logical name of the entity | Yes | String <br> Slugs <br> <br>  | contact <br> `{anchor._customerid_value@Microsoft.Dynamics.CRM.lookuplogicalname}` <br> |
+| `entityName` | Logical name of the entity | Yes | String <br><br> Slugs <br> <br>  | contact <br><br> `{anchor._customerid_value@Microsoft.Dynamics.CRM.lookuplogicalname}` <br><br> |
 | `data` | Data to be pre-populated in the form | No  | JSON |  `{"firstname":"Paul", "lastname":"Cannon", "jobtitle":"Sales Manager"}` |
 | `formId`| GUID of the form instance | No  | String | `915f6055-2e07-4276-ae08-2b96c8d02c57` |
 
@@ -112,7 +112,7 @@ The following parameters are available for the entity search application type.
 |Parameter | Description | Required | Supported values | Example |
 |---------|--------------|------------------|--------- |---------|
 | `searchType` | Define to use Relevance search or Categorized search. The possible values are: <ul><li> **0** for Relevance search </li> <li> **1** for Categorized search </li></ul> | No | Number |   0 |
-| `searchText` | Define the string you want to search. | Yes | String <br>  Slugs <br> <br> OData <br> |  contoso <br>  `{anchor.title}` <br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
+| `searchText` | Define the string you want to search. | Yes | String <br><br>  Slugs <br> <br> OData <br><br><br> |  contoso <br><br>  `{anchor.title}` <br><br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
 
 ### Third-party website
 
@@ -121,7 +121,7 @@ This application type is used to display third-party websites as an application.
 |Parameter | Description | Required  | Supported values | Example |
 |---------|--------------|------------------|---------|-----------|
 | `url` | The website URL to be displayed in the app tab <br> | Yes | String <br> | `https://www.bing.com/search?q=`  |
-| `data` | Additional data parameter to be parsed with the `url` parameter <br>  | No | String <br> Slugs <br><br> OData <br> | contoso <br> `{anchor.title}` <br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
+| `data` | Additional data parameter to be parsed with the `url` parameter <br>  | No | String <br><br> Slugs <br><br> OData <br><br><br> | contoso <br><br> `{anchor.title}` <br><br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
 #### How parsing works
 
 These examples are based on a scenario where the case was opened as the Anchor Tab in a new session with ticket number: `CAS-01003-P3B7G1`.
@@ -146,7 +146,7 @@ This application type is used to display web resources that represent files, whi
 |Parameter | Description | Required | Supported values | Example |
 |---------|--------------|----------|--------          |---------|
 | `webResourceName` | Name of the web resource to open | Yes | String | `msdyn_kbsearchpagehost.html`|
-| `data` | Provide string or key value pair, according to the requirement of the web resource. | No | String <br>  Slugs <br> <br> OData <br> | contoso <br> `{anchor.title}` <br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
+| `data` | Provide string or key value pair, according to the requirement of the web resource. | No | String <br><br> Slugs <br> <br> OData <br><br><br> | contoso <br><br> `{anchor.title}` <br><br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
 
 ### Custom (Preview)
 
@@ -162,9 +162,9 @@ The following parameters are available for custom pages.
 
 |Parameter | Description | Required | Supported values | Example |
 |---------|--------------|----      |--------------    |---------|
-| `entityName` | Logical name of the entity | Yes | String <br> Slugs <br> <br> | `https://www.bing.com/search?q=customerEntityName`  |
-| `name` | Unique name of the custom page  | No | String <br>  | `new_mycustompage` <br> |
-| `recordId` | GUID of the entity record | No | String <br> Slugs <br> OData <br>| `d49e62a8-90df-e311-9565-a45d36fc5fe8` <br> `{caseId} {anchor.incidentid}` <br>  `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br>  |
+| `entityName` | Logical name of the entity | No | String <br><br> Slugs <br>  | incident <br> <br> `{anchor.entityName}`  |
+| `name` | Unique name of the custom page  | Yes | String <br>  | `new_mycustompage` <br> |
+| `recordId` | GUID of the entity record | No | String <br> <br>Slugs <br><br><br> OData <br><br>| `d49e62a8-90df-e311-9565-a45d36fc5fe8`<br> <br> `{caseId}` <br> `{anchor.incidentid}` <br> <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br>  |
 
 ### Out-of-the-box application tab templates
 
