@@ -35,7 +35,7 @@ Dynamics 365 Customer Service includes a subject organizational structure that l
   
     - **Title**: Type a name for the subject.
   
-    - **Parent Subject**: Search for and select a parent subject for the new subject. Leave it blank if you want the new subject to be a parent subject.
+    - **Parent Subject**: Search for and select a parent subject. Leave it blank if you want the new subject to be a parent subject.
   
     - **Description**: Type a descriptive statement about the subject.
     
