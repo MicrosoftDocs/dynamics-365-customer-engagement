@@ -104,30 +104,40 @@ See the topic on [How to create and edit Field Service columns (fields)](field-s
 
 We are now ready to customize the Work Order form with a combination of existing work order fields and your new custom fields. 
 
-
-If you want to use many of the default work order fields and your business process is close to the standard work order process (or you're willing to adopt the standard work order process) then it is highly recommended to use the default Work Order Main form and make changes within that form. This will ensure your work order form will be upgraded and you can benefit from improvements. 
-
 Go to https://make.powerapps.com > Tables > Work Order > Forms
 
 Select the Main "Work Order" form.
 
+It is highly recommended to use the default Work Order Main form and make changes within that form. This will ensure your work order form will be upgraded and you can benefit from improvements like new features and performance improvements. If you have a very unique work order process, then creating a new custom form is an option. See more details at the end of this article. 
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customization-form-go-to-main.png)
 
+For basic information on editing forms see the Power Platform documentation on [creating and editing forms](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-and-edit-forms). 
+
 ## 5. Hide unwanted tabs, sections, and fields
 
-a. Hide unwanted tabs
+The next step is to hide unwanted tabs, sections, and fields. It is recommended to _hide_ rather than **remove** items because it reduces the chances of errors and makes it easier to add them back later on if needed.
+
+#### Hide unwanted tabs
+
+Tabs run horizontal across the top of the form. Hide tabs that you do not need. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customization-form-hide-tab.png)
 
-b. Hide unwanted sections
+You cannot hide the summary tab.
 
+#### Hide unwanted sections
+
+Sections are areas within tabs. Hide sections you do not need. If there is only one field in a section you need, simply move the needed field to another section and then hide the unneeded section.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customization-form-hide-section.png)
 
-c. Hide unwanted fields
+#### Hide unwanted fields
+
+Hide fields that are unneeded. Do not hide required fields. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customization-form-hide-field.png)
@@ -140,7 +150,7 @@ In a scenario where your organization does not need price list or price calculat
 
 ## 7. Move unwanted items away from the first form tab
 
-d. Move unwanted subgrids and fields away from the first form tab
+The first form tab 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customization-form-move-from-first-tab1.png)
