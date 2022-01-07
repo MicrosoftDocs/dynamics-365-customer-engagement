@@ -73,7 +73,17 @@ You can use Microsoft Teams to call a customer directly through the dial pad, a 
     >You can also use the **Call** option in the **Up next** widget to make the call.
 
     > [!div class="mx-imgBorder"]
-    > ![Select phone icon to make call through work item.](media/teams-dialer-work-item-make-call.png "Select phone icon to make call through work item")    
+    > ![Select phone icon to make call through work item.](media/teams-dialer-work-item-make-call.png "Select phone icon to make call through work item")  
+
+**To dial a customer manually**
+
+1. Open the Teams dialer.
+2. Enter the phone number of the customer or search the customer through dialer search box.   
+ 
+    > [!div class="mx-imgBorder"]
+    > ![Search or call a phone number manually.](media/teams-dialer-call-number-manually.png "Search or call a phone number manually") 
+
+3.  Select **Call**.
 
 ## Receive calls using Teams
 
@@ -82,7 +92,7 @@ Through Teams, you can receive calls in Dynamics 365 Sales Hub app. When a call 
 > [!div class="mx-imgBorder"]
 > ![Call receiving notification in Teams.](media/teams-dialer-receive-call-notification.png "Call receiving notification in Teams")    
 
-The caller name is automatically displayed when the phone number is associated with a record. For example, Kenny Smith is lead and has the mobile number +1 123 456 7890 associated with his lead record. When you receive a call from +1 123 456 7890, the name Kenny Smith is automatically displayed and select the name to open the record. 
+The caller name is automatically displayed when the phone number is associated with a record. For example, Kenny Smith is a lead and has the mobile number +1 123 456 7890 associated with his record. When you receive a call from +1 123 456 7890, the name Kenny Smith is automatically displayed and select the name to open the record. 
 
 To receive the call, select **Answer**. The Teams telephony panel opens and the call is connected. A phone call activity is created and appears on the timeline of the record. If the received call is not associated with any record, only a phone call activity is created.    
 
