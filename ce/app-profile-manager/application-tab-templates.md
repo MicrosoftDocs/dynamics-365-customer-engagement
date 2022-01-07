@@ -158,8 +158,8 @@ This application type is used to display custom pages on the application tab. Yo
 
 The following parameters are available for custom pages.
 
-|Parameter | Description | Required | Supported values | Example |
-|---------|--------------|--------- |--------------    |---------|
+|Parameter | Description | Required | Supported values | Example                                      |
+|---------|--------------|--------- |--------------    |--------------------------------------------------------|
 | `entityName` | Logical name of the entity | No | String <br><br> Slugs <br>  | incident <br> <br> `{anchor.entityName}`  |
 | `name` | Unique name of the custom page  | Yes | String <br>  | `new_mycustompage` <br> |
 | `recordId` | GUID of the entity record | No | String <br><br>Slugs <br><br><br><br>OData<br><br><br><br>| `d49e62a8-90df-e311-9565-a45d36fc5fe8`<br><br> `{caseId}` <br><br> `{anchor.incidentid}`<br><br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}`<br><br><br> |
