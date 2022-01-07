@@ -57,41 +57,41 @@ You can enable search filters for your knowledge articles either on the Customer
 
   * On the Customer Service admin center (preview) site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
   * In the **General settings** section, select **Manage**.
-  * On the General settings page, go to the **Filters** section.
+  * On the **General settings** page, go to the **Filters** section.
 
 ### [Customer Service Hub](#tab/customerservicehub)
 
    * On the Customer Service Hub site map, go to **Service Management**, and select **Settings** in **Knowledge Base Management**.
-   * On the Settings page, go to **Knowledge articles search filters** section.
+   * On the Settings page, go to the **Knowledge articles search filters** section.
 
 ---
 
-3. Set **Enable search filters** to **Yes**, and then select **Save**.
-1. To enable agents to personalize knowledge article search filters in Customer Service Hub, Customer Service workspace, and Omnichannel for Customer Service, set the **Allow agents to personalize the knowledge articles search filters** option to **Yes**.
-5. Go to the **Filters** page.
+2. Set **Enable search filters** to **Yes**, and then select **Save**.
+3. To enable agents to personalize knowledge article search filters in Customer Service Hub, Customer Service workspace, and Omnichannel for Customer Service, set the **Allow agents to personalize the knowledge articles search filters** option to **Yes**.
+4. Go to the **Filters** page.
 ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
-  * From the Knowledge page, go to **Filters** and select **Manage**.
+  * From the **Knowledge** page, go to **Filters** and select **Manage**.
 
 ### [Customer Service Hub](#tab/customerservicehub)
 
    * From **Knowledge Base Management** select **Filters**.
 
 ---
-1. On the **Filters** page, select the filters you want to make available for knowledge search. 
-1. To set predetermined values that will appear for agents by default, select the ellipsis in the top-right corner of a filter area, and then select **Preselects**.
+5. On the **Filters** page, select the filters you want to make available for knowledge search. 
+6. To set predetermined values that will appear for agents by default, select the ellipsis in the top-right corner of a filter area, and then select **Preselects**.
     > [!div class=mx-imgBorder]
     > ![Select filter preselects.](media/select-filter-preselects.png "Select filter preselects.")
-1. To make a filter value available by default, turn on  the **Set as preselected filter** toggle, so that  **Preselected** appears next to the filter name, and then select **Done**.
+7. To make a filter value available by default, turn on  the **Set as preselected filter** toggle, so that  **Preselected** appears next to the filter name, and then select **Done**.
    Values that are set as preselected automatically participate in the filtering without requiring the agent to manually select them. Only values made visible can be preselected.
     > [!div class=mx-imgBorder]
     > ![Toggle filter to show as Preselected.](media/set-filter-preselects.png "Toggle filter to show as Preselected.")
    
 
-10. If you want to set the filters that must be shown to the agent, select the ellipsis in the top-right corner of a filter area, and then select **Visibility**.
+8. If you want to set the filters that must be shown to the agent, select the ellipsis in the top-right corner of a filter area, and then select **Visibility**.
    
-11. Select the values that you want to show the agent, and then select **Done**.
-12.	When you're finished with configuring the values you want, select **Save**.
+9. Select the values that you want to show the agent, and then select **Done**.
+10. When you're finished with configuring the values you want, select **Save**.
 
 ## Enable custom fields as search filters
 
@@ -127,7 +127,7 @@ You can add a default filter either on the Customer Service Hub or on Customer S
 > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
   * On the Customer Service admin center (preview) site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
-  * In the **Filters** section, select **Manage**.
+  * In the **Filters** section, select **Manage**. The **Filters** page appears.
 
 ### [Customer Service Hub](#tab/customerservicehub)
 
@@ -157,7 +157,7 @@ You can configure a lookup type filter either on the Customer Service Hub or on 
 > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
   * On the Customer Service admin center (preview) site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
-  * In the **Filters** section, select **Manage**.
+  * In the **Filters** section, select **Manage**. The **Filters** page appears.
 
 ### [Customer Service Hub](#tab/customerservicehub)
 
@@ -203,7 +203,7 @@ You can deactivate or reactivate a filter configuration either on the Customer S
 > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
   * On the Customer Service admin center (preview) site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
-  * In the **Filters** section, select **Manage**.
+  * In the **Filters** section, select **Manage**. The **Filters** page appears.
 
 ### [Customer Service Hub](#tab/customerservicehub)
 

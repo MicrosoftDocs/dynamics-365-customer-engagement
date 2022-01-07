@@ -1,7 +1,7 @@
 ---
 title: Configure origins allow list | MicrosoftDocs
 description: Learn how to configure safe links while authoring knowledge articles in Dynamics 365 Customer Service
-ms.date: 10/01/2021
+ms.date: 01/07/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -37,14 +37,25 @@ For published articles, agents and portal users will see an error message in the
 
 ## Configure origins allow list
 
-1. Sign in to Customer Service Hub.
+You can configure origins allow list either on the Customer Service Hub or on Customer Service admin center (preview) app. Depending on your app, perform the following steps:
 
-2. Select **Change area** > **Service Management**.
+1. Go to the **Settings** page.
 
-3. Under **Knowledge Base Management**, select **Settings**. The **Settings** page is displayed.
-:::image type="content" source="media/enable-origin-allow-list.png" alt-text="Configure origins allow list":::
+### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
-4.	Go to **Origins allow list**, and add your links to the **Add origin links** field. 
+> [!IMPORTANT]
+> The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+  * On the Customer Service admin center (preview) site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+  * In the **General settings** section, select **Manage**. The **General settings** page appears.
+
+### [Customer Service Hub](#tab/customerservicehub)
+
+   * On the Customer Service Hub site map, go to **Service Management** and select **Settings** in **Knowledge Base Management**. The **Settings** page appears.
+
+---
+
+4.	Go to **Origins allow list**, and add your links to the **Add origin links** field.
 
 5.	Select **Add**![Add](media/add-icon.png) or **Enter** to add the link to your list.
 

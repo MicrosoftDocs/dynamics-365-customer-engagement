@@ -1,7 +1,7 @@
 ---
 title: Create and manage categories (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to create and manage categories for Customer Service.
-ms.date: 10/01/2018
+ms.date: 01/07/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -35,7 +35,7 @@ Categories are useful for reporting, sorting, segmenting, and categorization of 
 
 ## Create a category
 
-Follow the procedure given below to create a category:
+You can create a category either on the Customer Service Hub or on Customer Service admin center (preview) app. Depending on your app, perform the following steps:
 
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
 
@@ -45,20 +45,32 @@ Follow the procedure given below to create a category:
   
    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
-2. In the Customer Service Hub sitemap, go to **Service Management** and select **Knowledge Base Management** > **Categories**.
+2. Go to **Categories**.
+
+### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+
+> [!IMPORTANT]
+> The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+  * On the Customer Service admin center (preview) site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+  * In the **Categories** section, select **Manage**.
+
+### [Customer Service Hub](#tab/customerservicehub)
+
+   On the Customer Service Hub site map, go to **Service Management**, and select **Categories** in **Knowledge Base Management**.
+
+---
 
     > [!NOTE]
     > In the Customer Service app, [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)] and select **Categories**.
 
-3. To create a new category, select **New**.  
+3. Select **New**.  
   
     > [!NOTE]
     > To edit a category, double-click the category in the category list that you want to edit. You can also select the category in the list and select **Edit** in the command bar.
 
 4. Type or change information in the text boxes.  
   
-   Hover tips provide hints about what to enter.  
-
    In the **General** section, fill in the required details:
   
    - **Title**: Provide a title for the category
