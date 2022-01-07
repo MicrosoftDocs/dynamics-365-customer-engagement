@@ -229,9 +229,11 @@ The following subgrids are also critical to the Field Service work order process
 - Service Tasks
 - Products
 
-#### Turn off price calculations
+#### Choose to remove price related fields if applicable
 
-In a scenario where your organization does not need price list or price calculations (e.g. Total Amount) on the work order or work order products and services, you can easily remove all price related fields by going to Field Service Settings and turning **Calculate Price** to _No_. 
+There is an easy and supported way to remove all price related fields (e.g. Price List, Total Amount, etc) from the Work Order, Work Order Product, and Work Order Service 
+
+In a scenario where your organization does not need price list or price calculations (e.g. Total Amount) on the work order or work order products and services, there is an easy and supported wayyou can easily remove all price related fields by going to Field Service Settings and turning **Calculate Price** to _No_. [More details](https://docs.microsoft.com/dynamics365/field-service/configure-default-settings#work-order-and-bookings-settings). 
 
 #### c. Add your fields, subgrids, controls
  Guidance
@@ -246,9 +248,6 @@ e. Follow form design best practices
 Many organizations run code scripts on load, on change, and on save of the form to perform validations and run prcesses. Form scripts can greatly impact form performance like load time. Review the topic on [Write scripts to implement complex business logic in FIeld Service](field-service-customize-scripts.md) for best practices including [runing solution checker to test scripts for issues](). 
 
 
-
-
-   
 
 ## See also
 
