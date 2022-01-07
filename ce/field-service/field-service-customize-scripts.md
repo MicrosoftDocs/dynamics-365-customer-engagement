@@ -23,7 +23,7 @@ search.app:
 
 ## How to write scripts
 
-## WHy write scripts
+## Why write scripts
 
 ## Recommended best practices
 

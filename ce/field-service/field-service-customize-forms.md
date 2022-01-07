@@ -194,14 +194,14 @@ Use the monitoring tool to understand the root cause of why forms may be loading
 
 - Always use default fields and processes when possible
 - Hide unwanted tabs, sections, and fields; do not remove them
+- Create more form tabs rather than adding too many fields to any single form tab
 - Move lesser used fields away from the first form tab
 - Avoid adding fields and controls to the first form tab, especially subgrids and lookups
 - Avoid adding more than 3 subgrids to any single form tab
 - Avoid adding more than 10 lookups to any single form tab
 - Use the PCF _Form component control_ to display information from the other tables inside the form. This prevents form users from having to click away from the form. 
 - Do not edit or remove form libraries
-- use more tabs
-- all fields add up
+- Minimize fields and controls overall. Every field and control added to a form has a performance cost, so be mindful and only create fields and controls that are critical to your business.
 
 
 ## Customizing the mobile work order form
@@ -266,8 +266,7 @@ e. Follow form design best practices
 
 ## Form scripts
 
-Many organizations run code scripts on load, on change, and on save of the form to perform validations and run prcesses. Form scripts can greatly impact form performance like load time. Review the topic on [Write scripts to implement complex business logic in FIeld Service](field-service-customize-scripts.md) for best practices including [runing solution checker to test scripts for issues](). 
-
+Many organizations run code scripts on load, on change, and on save of the form to perform validations and run prcesses. Form scripts can greatly impact form performance like load time. Review the topic on [Write scripts to implement complex business logic in FIeld Service](field-service-customize-scripts.md) for best practices including [runing solution checker to test scripts for issues](https://docs.microsoft.com/powerapps/maker/data-platform/use-powerapps-checker). 
 
 
 ## See also
