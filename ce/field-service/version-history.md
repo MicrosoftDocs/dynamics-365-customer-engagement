@@ -62,13 +62,13 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 (Includes Universal Resource Scheduling version [3.12.68.8](/dynamics365/field-service/field-service-version-history-resource-scheduling#312688)).
 
-- Fixed a bug in Field Service (Dynamics 365) mobile where under some circumstances navigating back from a Booking to the Booking Calendar will display previous month instead of current month. 
+- Fixed a bug in Field Service (Dynamics 365) mobile where under some circumstances, navigating back from a booking to the booking calendar would display previous month instead of current month. 
 
 ## 8.8.56.23
 
 (Includes Universal Resource Scheduling version [3.12.67.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#312671) ( Includes Resource Scheduling controls version 1.2.8.213282 )).
 
-- Field Service Mobile: Input fields on the Bookable Resource Booking – Service form component will now be positioned below the field label, improving readability by allowing    the field to fill the horizontal width of the form. 
+- Field Service mobile: Input fields on the **Bookable Resource Booking – Service** form component will now be positioned below the field label, improving readability by allowing the field to fill the horizontal width of the form. 
 
 
 ## 8.8.55.10
