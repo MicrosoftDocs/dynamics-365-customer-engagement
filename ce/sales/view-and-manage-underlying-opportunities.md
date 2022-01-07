@@ -80,7 +80,50 @@ With the enhanced grid, you can view and edit related entity records also. The f
     > [!div class="mx-imgBorder"]
     > ![Opportunity split group by example.](media/forecast-opportunity-split-groupby-example.png "Opportunity split group by example")
 
+### Filter underlying records of a forecast
 
+When you click on a forecast record, you see the underlying opportunities that contribute to the forecast record. You can group and filter these opportunities to efficiently manage them and take necessary actions to finalize deals that matter the most. 
+
+**To filter the underlying records**
+
+1.	Open a forecast and select a record. 
+    The underlying opportunities of the forecast record are displayed.
+
+2.	(Optional) In **Group by**, select the table/entity (such as, account) that you want to use for grouping opportunities.  
+    The opportunities are grouped by the selected entity. 
+1. Select the **View underlying rollup records** (the (+) icon) next to a group.
+    The opportunities associated with that account are displayed. 
+3. Select **Filter** and add the filter conditions. 
+    
+    - If **Group by** is set to **None**, you can directly apply the filters on the underlying opportunities.  
+    - If **Group by** is set to a table/entity (such as, account), the following conditions apply for filtering:
+        - The columns available for filtering depend on the selected table. For example, if you have chosen to group the opportunities by account, you’ll only see the columns related to the Account table in the filter. You can however, add a filter on a related entity, such as estimated revenue of the opportunities associated with the account to filter the accounts further.
+        - You can apply a different filter for the opportunities associated with the group. 
+        - The filters applied on the underlying opportunities persist irrespective of the grouped entity and group filter.  
+
+For more information on filters, see [Add conditions to a filter](/powerapps/maker/model-driven-apps/create-edit-view-filters#add-conditions-to-a-filter).
+
+#### Example: Grouping and filtering of underlying records 
+
+Let us understand grouping and filtering of underlying records with an example:
+
+Kenny Smith is a Vice President of Sales at Contoso Inc. He heads the Sales teams in NA and EU regions. He wants to personally follow up with the customers of the high-value opportunities in the NA region so that the deals can be closed in time for Q2.  Following are the steps that Kenny should perform:
+
+1. Open the Q2 forecast for his org.
+1. Select Account in the **Group by** field. 
+    All underlying opportunities of the forecast are grouped by their corresponding accounts.  
+1. Select **Filter** > **Add** > **Add row** and specify the following condition:
+    `Address: Country/Regions Equals North America`
+    All the accounts in North America are displayed.
+1. Select the **View underlying rollup records** (the (+) icon) next to an account.
+    The underlying opportunities associated with that account are displayed.
+1. Select **Filter** > **Add** > **Add row** and specify the following condition for the opportunities:
+    `Est.Revenue Is greater than or equal to 1000000`
+
+    The high-value opportunities of the selected account are displayed. The opportunities filter is persisted unless cleared manually. For example, when he opens the rollup records of another account in the NA region, the records are already filtered for high-value opportunities. Even if he changes the grouping to a User entity/table, the underlying opportunities filter persists and is automatically applied to the opportunities in the new group.  
+     
+
+ 
 ### View and edit in a kanban view
 
 1.	Open a forecast. In this example, we're opening **Kenny's Org FY 2020 Forecast** for current quarter **FY2020 Q1**.
