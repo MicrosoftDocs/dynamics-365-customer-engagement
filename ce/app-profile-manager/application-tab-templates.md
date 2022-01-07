@@ -16,7 +16,7 @@ The vertical bar on the left panel shows the list of sessions. The panel will al
 
 The horizontal bar below the model-driven app navigation bar is called the application tab panel. Every session has at least one application tab, called the **Anchor Tab**, that can't be closed or customized. When a session is started, the system opens an application in the application tab panel. There may also be additional applications that the system opens based on the configuration.
 
-With the application tab template, you can define applications that are available for a session, and then associate those applications with the session. For example, you can create the **Customer Summary** application type and associate it with a chat or SMS session. Now, when an agent accepts a notification from the chat or SMS channels, a session starts and the **Customer Summary** page opens.
+Using the application tab template, you can define applications that are available for a session, and then associate those applications with the session. For example, you can create the **Customer Summary** application type and associate it with a chat or SMS session. Now, when an agent accepts a notification from the chat or SMS channels, a session starts and the **Customer Summary** page opens.
 
 As an administrator, you can create multiple application tab templates.
 
@@ -159,10 +159,10 @@ This application type is used to display custom pages on the application tab. Yo
 The following parameters are available for custom pages.
 
 |Parameter | Description | Required | Supported values | Example |
-|---------|--------------|----      |--------------    |---------|
+|---------|--------------|--------- |--------------    |---------|
 | `entityName` | Logical name of the entity | No | String <br><br> Slugs <br>  | incident <br> <br> `{anchor.entityName}`  |
 | `name` | Unique name of the custom page  | Yes | String <br>  | `new_mycustompage` <br> |
-| `recordId` | GUID of the entity record | No | String <br> <br>Slugs <br><br><br> OData <br><br>| `d49e62a8-90df-e311-9565-a45d36fc5fe8`<br> <br> `{caseId}` <br> `{anchor.incidentid}` <br> <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br>  |
+| `recordId` | GUID of the entity record | No | String <br><br>Slugs <br><br><br><br>OData<br><br><br><br>| `d49e62a8-90df-e311-9565-a45d36fc5fe8`<br><br> `{caseId}` <br><br> `{anchor.incidentid}`<br><br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}`<br><br><br> |
 
 ### Out-of-the-box application tab templates
 
