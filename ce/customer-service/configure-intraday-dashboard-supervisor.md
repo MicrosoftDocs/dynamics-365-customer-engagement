@@ -70,19 +70,19 @@ Review the following prerequisites before configuring the supervisor insights:
 
 - As a system administrator, you must create and add a security group for Power BI service. Follow these steps to create and add a security group:
 
-   1. Create a security group in Azure Active Directory (Azure AD), and add **Omnichannel for Customer Service** as a member to that security group. To learn more, see [Create a basic group and add members using Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal).
-   
-      > [!NOTE]
-      > For GCC, add **Omnichannel Engagement Hub - GCC** as a member to the security group in Azure AD.
+   1. Create a security group in Azure Active Directory (Azure AD), and add **Omnichannel for Customer Service** as a member to that security group. For GCC, you must add only **Omnichannel Engagement Hub - GCC** as a member.
 
-   2. As a Power BI admin, you need to enable service principal in the **Developer settings** in the Power BI admin portal and the security group that you created in Azure AD.
+      For more information, see [Create a basic group and add members using Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal).
+   
+
+   1. As a Power BI admin, enable the service principal in the **Developer settings** in the Power BI admin portal and the security group that you created in Azure AD.
    
       a. Sign in to [Power BI service](https://app.powerbi.com) and go to **Settings** > **Admin portal**.
 
         > [!div class=mx-imgBorder]
         > ![Select Admin portal.](media/supervisor-admin-powerbi-select-admin-portal.png "Select Admin portal")
 
-      b. In the Admin portal, go to **Tenant settings** > **Developer settings** > **Allow service principals to use Power BI APIs**.
+      b. In the admin portal, go to **Tenant settings** > **Developer settings** > **Allow service principals to use Power BI APIs**.
 
       c. Enable **Allow service principals to use Power BI APIs** and specify the security group to which you want to give access.
 
@@ -94,7 +94,7 @@ Review the following prerequisites before configuring the supervisor insights:
 
 ### Configure intraday insights for Omnichannel for Customer Service
 
-Follow these steps to configure Intraday insights for the Omnichannel for Customer Service app on the web:
+Follow these steps to configure intraday insights for the Omnichannel for Customer Service app on the web:
 
 1. [Configure Power BI workspace](#configure-the-power-bi-workspace)
 
