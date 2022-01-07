@@ -95,9 +95,11 @@ When you click on a forecast record, you see the underlying opportunities that c
     The opportunities associated with that account are displayed. 
 3. Select **Filter** and add the filter conditions. 
     
-    - If **Group by** is set to **None**, you can directly apply the filters on the underlying opportunities.  
-    - If **Group by** is set to a table/entity (such as, account), the following conditions apply for filtering:
-        - The columns available for filtering depend on the selected table. For example, if you have chosen to group the opportunities by account, you’ll only see the columns related to the Account table in the filter. You can however, add a filter on a related entity, such as estimated revenue of the opportunities associated with the account to filter the accounts further.
+    - If **Group by** is set to **None**, you can directly apply the filters on the underlying opportunities. The opportunities filter will persist even if you decide to group the opportunities later.
+
+    - If **Group by** is set to a table/entity (such as, account),
+
+        - You can filter the group using the columns in the selected table. For example, if you have chosen to group the opportunities by account, you can filter the accounts using the columns in the Account table. You can also add a filter on a related entity, such as estimated revenue of the opportunities associated with the account.
         - You can apply a different filter for the opportunities associated with the group. 
         - The filters applied on the underlying opportunities persist irrespective of the grouped entity and group filter.  
 
