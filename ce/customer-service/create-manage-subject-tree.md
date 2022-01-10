@@ -41,7 +41,7 @@ Dynamics 365 Customer Service includes a subject organizational structure that l
     
     - Set the toggle for **Visibility** to **Yes** if you want the subject to be available for the agent.
 
-:::image type="content" source="media/create-subject.png" alt-text="Create a subject.":::
+    :::image type="content" source="media/create-subject.png" alt-text="Create a subject.":::
 
 4. Select **Save and close**.
 
@@ -62,7 +62,7 @@ The following options are available for subjects:
 - **Show hidden subjects in the subject tree below**: Set the toggle to **Show**. In the subject tree, the subjects that are marked as hidden are displayed with the hidden icon. This setting allows administrators to preview the runtime functionality of the visibility of subjects to agents.
 - **Search**: Use the search option to search for a subject by name and perform the different actions that are allowed for the subject. The subject that you search fo is highlighted and displayed in the subject tree. This setting allows you to easily locate the subject and child subjects instead of manually scrolling through the subject list.
 
-:::image type="content" source="media/using-subject-management.png" alt-text="Subject management at a glance.":::
+    :::image type="content" source="media/using-subject-management.png" alt-text="Subject management at a glance.":::
 
 You can select **Open old subject management page** to use the older experience. However, to revert to the new experience, you'll need to navigate to **Subjects** from the site map,
 
