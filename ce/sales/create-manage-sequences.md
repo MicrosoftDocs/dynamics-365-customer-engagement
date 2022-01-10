@@ -1,7 +1,7 @@
 ---
 title: "Manage sequences in sales accelerator"
 description: "Manage sequences in sales accelerator by creating, activating, connecting, viewing details, cloning, editing, and deleting."
-ms.date: 01/07/2022
+ms.date: 01/10/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag

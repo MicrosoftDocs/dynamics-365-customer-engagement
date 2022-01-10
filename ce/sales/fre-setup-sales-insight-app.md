@@ -1,7 +1,7 @@
 ---
 title: "First-run setup experience in conversation intelligence application"
 description: "First-run configuration of conversation intelligence in conversation intelligence application for your Dynamics 365 Sales environment."
-ms.date: 01/07/2022
+ms.date: 01/10/2022
 ms.custom: 
 ms.topic: article
 ms.assetid: 3e099e3a-f6cb-42cf-b84e-9f8b0c6ee9db

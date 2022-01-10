@@ -1,7 +1,7 @@
 ---
 title: "Configure predictive lead scoring"
 description: "Configure predictive lead scoring to help sellers prioritize leads based on scores and achieve higher lead qualification rates."
-ms.date: 01/07/2022
+ms.date: 01/10/2022
 ms.custom: 
 ms.topic: article
 ms.assetid: 8660ca75-c63c-495d-a1a6-d3a0cd36f7cb

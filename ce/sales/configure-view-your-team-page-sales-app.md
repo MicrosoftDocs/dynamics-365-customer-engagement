@@ -1,7 +1,7 @@
 ---
 title: "Configure and view your team page in Dynamics 365 Sales"
 description: "Configure and view your team page with information on levels of hierarchy, top performers, and delete sellers data in the Sales app."
-ms.date: 01/07/2022
+ms.date: 01/10/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag

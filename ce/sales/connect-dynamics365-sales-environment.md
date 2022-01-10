@@ -1,7 +1,7 @@
 ---
 title: "Connect or disconnect to your Dynamics 365 Sales environment"
 description: "Use data source to connect or disconnect multiple Dynamics 365 Sales environment with your conversation intelligence."
-ms.date: 01/07/2022
+ms.date: 01/10/2022
 ms.custom: 
 ms.topic: article
 author: udaykirang

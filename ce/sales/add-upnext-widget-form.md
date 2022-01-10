@@ -1,7 +1,7 @@
 ---
 title: "Add the up next widget to a custom form"
 description: "Display the up next widget on your customized forms through sales accelerator configuration in Sales Insights."
-ms.date: 01/07/2022
+ms.date: 01/10/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag

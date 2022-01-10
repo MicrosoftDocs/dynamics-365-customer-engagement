@@ -1,7 +1,7 @@
 ---
 title: "Configure keywords and competitors in conversation intelligence application"
 description: "Configure conversation content such as, keywords and competitors to track in conversation intelligence application."
-ms.date: 01/07/2022
+ms.date: 01/10/2022
 ms.custom: 
 ms.topic: article
 ms.assetid: 2d1fb7e4-f059-4e9b-b52e-f6023bc57ab2

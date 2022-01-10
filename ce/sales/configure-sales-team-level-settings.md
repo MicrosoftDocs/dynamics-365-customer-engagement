@@ -1,7 +1,7 @@
 ---
 title: "Configure settings for your sales team in conversation intelligence"
 description: "Configure sales team-level settings such as conversation trackers, languages, and top performers to match your team's specific requirements in Dynamics 365 Sales."
-ms.date: 01/07/2022
+ms.date: 01/10/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag

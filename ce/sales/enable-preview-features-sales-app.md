@@ -1,7 +1,7 @@
 ---
 title: "Enable coming soon features for conversation intelligence in Dynamics 365 Sales"
 description: "Enable preview features to experience the conversation intelligence features that change the look, feel, or functionality before the formal release in Dynamics 365 Sales."
-ms.date: 01/07/2022
+ms.date: 01/10/2022
 ms.custom: 
 ms.topic: article
 ms.assetid: 0b710872-5351-4b42-b87c-c35af5568e12

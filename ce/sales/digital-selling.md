@@ -1,7 +1,7 @@
 ---
 title: "Digital selling | MicrosoftDocs"
 description: "Enable digital selling capabilities with the Dynamics 365 Sales Enterprise license."
-ms.date: 01/07/2022
+ms.date: 01/10/2022
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
