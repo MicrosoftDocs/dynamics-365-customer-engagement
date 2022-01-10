@@ -1,7 +1,7 @@
 ---
 title: Create and manage subject tree (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to create and manage subject tree in Dynamics 365 Customer Service
-ms.date: 01/10/2022
+ms.date: 01/14/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -50,9 +50,9 @@ Dynamics 365 Customer Service includes a subject organizational structure that l
     > [!NOTE]
     > If you select a subject in the subject tree and select **Add**, clear the selection in the **Parent subject** box to make it a parent subject. Otherwise, the new subject will be added as a child of selected subject.
 
-## Remove a subject  
+## Delete a subject  
 
-To remove a subject from the subject tree, select the subject and select **Remove Subject**.
+To delete a subject from the subject tree, select the subject and select **Delete**.
 
 ## Manage the subject tree
 
