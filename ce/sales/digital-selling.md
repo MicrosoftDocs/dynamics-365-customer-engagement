@@ -79,10 +79,13 @@ When you set up sales accelerator with the Dynamics 365 Sales Enterprise license
     - **All security roles**: Select this option to give access to view Sales accelerator in the Sales Hub app to all the security roles in your organization.
     - **Specific security roles**: Select this option to specify security roles to give access to view Sales accelerator in the Sales Hub app to just a few users. Use the lookup box to add the security roles.
 
-3. To add sample data for exploring the feature, select **Add sample data**. Installing the sample data is relevant only for your sandbox or trial environments. When you add sample data, you'll also see predictive lead and opportunity scoring on the Sales insights form. Adding the sample data might take a few minutes. However, you can choose to ignore the sample data installation and add it later when required.
+3. To add sample data for exploring the feature, select **Add sample data**. 
+
+    > [!NOTE]
+    > The capability to install sample data is available only in your sandbox or trial environments. When you add sample data, you'll also see predictive lead and opportunity scoring on the Sales insights form. Adding the sample data might take a few minutes. However, you can choose to ignore the sample data installation and add it later when required.
 
 4. In the **Content and layout** section, select the record types and their corresponding related forms that are used in your organization, as required. 
-    1. To add more record types, select **Add record type**, and then select a record from the drop down list. The selected record type will display the **Sequence (up next)** widget. You can select record types such as **Accounts**, **Contacts**, **Leads**, **Opportunities**, and custom.
+    1. To add more record types, select **Add record type**, and then select a record from the drop down list. The selected record type will display the **Sequence (up next)** widget. You can select out-of-the-box tables such as **Accounts**, **Contacts**, **Leads**, **Opportunities**, and custom tables.
        
     > [!NOTE]
     > - Ensure that record types are the ones that activities are usually connected to. Sales managers use the record types to configure the sequence that will be assigned to records to be displayed in the app.
@@ -100,7 +103,8 @@ When you set up sales accelerator with the Dynamics 365 Sales Enterprise license
 Once the settings are published, you can open the seller's interface for sales accelerator by selecting **Go to seller experience** under **Sales accelerator** on the **Get started with digital sales** page. Sellers can immediately use sales accelerator for manually created activities. However, you can also guide your sellers by creating sequences. For information on creating sequences, see [Manage sequences](create-manage-sequences.md).
 
 > [!NOTE]
-> If you want to make advanced configurations for sales accelerator, select **Go to advanced sales accelerator settings** at the top of the quick setup panel. For information on advanced configurations, see [Configure the sales accelerator for Sales Premium](enable-configure-sales-accelerator.md)
+> - If you want to make advanced configurations for sales accelerator, select **Go to advanced sales accelerator settings** at the top of the quick setup panel. For information on advanced configurations, see [Configure the sales accelerator for Sales Premium](enable-configure-sales-accelerator.md)
+> - You can add the Sales accelerator to a custom app from the app designer. More information: [How to add work list site map to your custom app](faqs-sales-insights.md#how-to-add-work-list-site-map-to-your-custom-app)
 
 ### Turn off sales accelerator
 
@@ -116,7 +120,7 @@ If you want to turn off sales accelerator, you do it from the advanced settings.
 
 ### Add the Sequence (up next) widget to a custom form
 
-By default, the **Up next** widget is available only in the out-of-the-box Sales Insights, lead, and opportunity forms. If you're using customized forms, you can display the Up next widget on your custom forms. For information about adding the **Up next** widget to a custom form, see [Add the Up next widget to a custom form](add-upnext-widget-form.md)
+By default, the **Up next** widget is available only in the out-of-the-box Sales Insights, lead, and opportunity forms. If you're using customized forms, you can display the Up next widget on your custom forms. For information about adding the **Up next** widget to a custom form, see [Add the Up next widget to a custom form](add-upnext-widget-form.md) For information on using the **Up next** widget, see [Connect with customers through a record or the Up next widget](connect-with-customers.md).
 
 ## Microsoft Teams collaboration
 
@@ -161,15 +165,18 @@ Conversation intelligence uses analytics and data science to gather data from se
 
 ### Licensing options
 
-When you setup Microsoft Teams calls with conversation intelligence with the Dynamics 365 Sales Enterprise license, you get 3 hours of conversation intelligence per month. If you need more than 3 hours of conversation intelligence per month, upgrade to Dynamics 365 Sales Premium. There's no capacity limit on Teams calls.
+When you setup Microsoft Teams calls with conversation intelligence with the Dynamics 365 Sales Enterprise license, there's no limit on the number of calls made through Microsoft Teams. However, you get 3 hours of conversation intelligence per month. If you need more than 3 hours of conversation intelligence per month, upgrade to Dynamics 365 Sales Premium. Note that 3 hours of conversation intelligence refers to recording and processing time.
 
 ### Set up Microsoft Teams calls with conversation intelligence
 
 1. On the **Get started with digital sales** page, under **Microsoft Teams calls with conversation intelligence**, select **Quick setup**.
-
+    
     The **Teams calls + conversation intelligence quick setup** panel is displayed.
 
     :::image type="content" source="media/ds-ci-setup.png" alt-text="Teams calls + conversation intelligence quick setup panel":::
+
+    > [!NOTE]
+    > Sellers will need valid licenses for Microsoft Teams, Phone System, and Calling Plan or Direct Routing, and assigned phone numbers to use Teams calls. [Learn more ](https://go.microsoft.com/fwlink/?linkid=2180901)
 
 2. Turn on the **Teams calls (preview)** toggle to enable Teams dialer and allow sellers to make calls directly from within Dynamics 365 Sales Hub app.
 
@@ -190,6 +197,8 @@ When you setup Microsoft Teams calls with conversation intelligence with the Dyn
 4. Select **Update**.
 
 Once settings are enabled, sellers can make calls to their customer from within Dynamics 365 Sales Hub app. They can also record the calls and apply conversation intelligence capabilities to get the most out of every call.
+
+You can also enable Teams calling for other apps from the **Advanced settings** option on the **Microsoft Teams calls** setup page. More information: [Configure Microsoft Teams dialer](configure-microsoft-teams-dialer.md)
 
 > [!NOTE]
 > If you want to make advanced configurations for Teams calls + conversation intelligence settings, select **Go to advanced conversation intelligence settings** at the top of the quick setup panel. For information on advanced configurations, see [First-run setup experience of Microsoft Teams for conversation intelligence](fre-setup-ci-sales-app.md)
@@ -242,7 +251,6 @@ When you set up lead and opportunity scoring with the Dynamics 365 Sales Enterpr
     The application starts generating a model, and a notification for training the model is displayed. Model is generated by automatically selecting the attributes that can define the probability of an opportunity being closed as won or lost. Once the model is generated, it is published automatically.
 
 Once the models are trained and published, the **Lead score** and **Opportunity score** widgets are added to the Lead and Opportunity forms respectively.
-
 > [!NOTE]
 > If you want to make advanced configurations for lead and opportunity scoring settings, select **Go to advanced lead score settings** and **Go to advanced opportunity score settings** in their respective sections. For information on advanced configurations, see [Configure predictive lead scoring](configure-predictive-lead-scoring.md) and [Configure predictive opportunity scoring](configure-predictive-opportunity-scoring.md)
 
