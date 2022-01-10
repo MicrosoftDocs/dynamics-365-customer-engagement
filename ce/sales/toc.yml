@@ -100,6 +100,8 @@
   items:
   - name: Administration overview
     href: admin-guide.yml
+  - name: Digital selling capabilities in Sales Enterprise
+    href: digital-selling.md
   - name: Account and contact management
     items:
     - name: Enable or disable saving of business card image

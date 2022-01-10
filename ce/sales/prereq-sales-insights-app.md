@@ -1,7 +1,7 @@
 ---
 title: "Prerequisites to administer conversation intelligence"
 description: "Verify the prerequisites that are necessary to administer conversation intelligence in your Dynamics 365 Sales organization."
-ms.date: 10/26/2021
+ms.date: 01/10/2022
 ms.custom: 
 ms.topic: article
 ms.assetid: 6ee1a5cf-bb4a-46d5-b835-c0ac6644dec5
@@ -34,11 +34,12 @@ Verify the prerequisites that are necessary to administer conversation intellige
 Verify the following requirements before setting up conversation intelligence for your organization:   
 -	You must have an administrator or similar role.   
 -	You must have a Dynamics 365 Sales organization.   
--	You must purchase a [Dynamics 365 Sales Insights](https://portal.office.com/Signup/MainSignUp.aspx?OfferId=5be85c9f-df71-4bcf-ac2f-b2a05b4a1f99) or Sales Premium license.         
-    >[!NOTE]
-    >The Sales Insights license provides you access to the conversation intelligence feature with 3 hours of call processing capacity for all licensed users from your organization.<br> 
-    >To extend the capacity of processing hours for your organization, you must purchase the conversation intelligence add-on for Sales Insights.<br>
-    >To learn more, see **Add-on Capacities** section in **Appendix F: Dynamics 365 Capacity Add-ons** from [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).         
+-	You must purchase a Dynamics 365 Sales Enterprise, [Dynamics 365 Sales Insights](https://portal.office.com/Signup/MainSignUp.aspx?OfferId=5be85c9f-df71-4bcf-ac2f-b2a05b4a1f99) or Dynamics 365 Sales Premium license.         
+    > [!NOTE]
+    > - The Dynamics 365 Sales Enterprise license provides you access to the conversation intelligence feature with 3 hours of call processing capacity for all licensed users from your organization.<br>
+    > - The Dynamics 365 Sales Insights or Dynamics 365 Sales Premium license provides you access to the conversation intelligence feature with 10 hours of call processing capacity for all licensed users from your organization.<br> 
+    > - To extend the capacity of processing hours for your organization, you must purchase the conversation intelligence add-on for Sales Insights.<br>
+    > - To learn more, see **Add-on Capacities** section in **Appendix F: Dynamics 365 Capacity Add-ons** from [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).         
 -	You must get access to conversation intelligence. If you don't have access, follow these steps:       
     1.	To access the app, go to [Conversation intelligence](https://sales.ai.dynamics.com/).       
     2.	Enter your work email address.       

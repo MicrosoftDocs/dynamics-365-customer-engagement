@@ -1,7 +1,7 @@
 ---
 title: "Use adaptive sequences to define conditions (Sales Premium)"
 description: "Use adaptive sequences in sales accelerator to define conditions steps that determines the path of a sequence."
-ms.date: 10/26/2021
+ms.date: 01/10/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -15,7 +15,7 @@ Use adaptive sequences in sales accelerator to define conditions steps that dete
 
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator or Sequence Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
