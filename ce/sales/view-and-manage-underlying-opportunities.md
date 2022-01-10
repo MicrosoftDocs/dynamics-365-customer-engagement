@@ -89,10 +89,13 @@ When you click on a forecast record, you see the underlying opportunities that c
 1.	Open a forecast and select a record. 
     The underlying opportunities of the forecast record are displayed.
 
-2.	(Optional) In **Group by**, select the table/entity (such as, account) that you want to use for grouping opportunities.  
+2.	(Optional) In the **Group by** field, select the table/entity (such as, account) that you want to use for grouping opportunities.
+  
     The opportunities are grouped by the selected entity. 
-1. Select the **View underlying rollup records** (the (+) icon) next to a group.
+
+    1. Select the **View underlying rollup records** (the (+) icon) next to a group.
     The opportunities associated with that account are displayed. 
+
 3. Select **Filter** and add the filter conditions. 
     
     - If **Group by** is set to **None**, you can directly apply the filters on the underlying opportunities. The opportunities filter will persist even if you decide to group the opportunities later.
@@ -100,8 +103,11 @@ When you click on a forecast record, you see the underlying opportunities that c
     - If **Group by** is set to a table/entity (such as, account),
 
         - You can filter the group using the columns in the selected table. For example, if you have chosen to group the opportunities by account, you can filter the accounts using the columns in the Account table. You can also add a filter on a related entity, such as estimated revenue of the opportunities associated with the account.
-        - You can apply a different filter for the opportunities associated with the group. 
-        - The filters applied on the underlying opportunities persist irrespective of the grouped entity and group filter.  
+        
+        - You can apply a different filter for the opportunities associated with the group. The filters applied on the underlying opportunities persist irrespective of the grouped entity, group filter, and recurrence of the forecast.  
+        
+        - Each forecast configuration can have different filter conditions and grouping.
+
 
 For more information on filters, see [Add conditions to a filter](/powerapps/maker/model-driven-apps/create-edit-view-filters#add-conditions-to-a-filter).
 
