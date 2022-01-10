@@ -1,6 +1,6 @@
 ---
-title: "Call customers through Microsoft Teams dialer in Dynamics 365 Sales"
-description: "Call customers through Microsoft Teams dialer through records and up next widget in Dynamics 365 Sales."
+title: "Make and receive calls through Microsoft Teams dialer"
+description: "Make and receive calls through Microsoft Teams through the dialer, a record, or a work item in Dynamics 365 Sales."
 ms.date: 01/07/2022
 ms.topic: article
 author: udaykirang
@@ -10,7 +10,7 @@ ms.custom:
   - dyn365-sales
 ---
 
-# Call using Microsoft Teams (Preview)
+# Make and receive calls through Microsoft Teams (Preview)
 
 > [!IMPORTANT]
 > - While in preview, Teams calls does not support emergency calling.
