@@ -10,11 +10,11 @@ ms.topic: article
 
 # Manage application tab templates
 
-An application tab template in Customer Service lets you specify the type of applications that you want to open when a session is started. Each application type has a predefined set of parameters associated with it.
+An application tab template in Customer Service lets you specify the type of applications that can be opened when agents start a session in the Customer Service workspace or Omnichannel for Customer Service app.
 
-The vertical bar on the left panel shows the list of sessions. The panel will always show at least one session, called the **Home session**, that can't be closed or customized.
+The vertical bar on the left panel shows the list of sessions. The panel will always show the **Home** session that can't be closed or customized.
 
-The horizontal bar below the model-driven app navigation bar is called the application tab panel. Every session has at least one application tab, called the **Anchor Tab**, that can't be closed or customized. When a session is started, the system opens an application in the application tab panel. There may also be additional applications that the system opens based on the configuration.
+Every session has at least one application tab, called the "Anchor tab", that can't be closed or customized. When you start a session, the corresponding application page and any other additional pages are opened based on your configuration settings.
 
 Using the application tab template, you can define applications that are available for a session, and then associate those applications with the session. For example, you can create the **Customer Summary** application type and associate it with a chat or SMS session. Now, when an agent accepts a notification from the chat or SMS channels, a session starts and the **Customer Summary** page opens.
 
@@ -39,7 +39,7 @@ As an administrator, you can create multiple application tab templates.
     | General | Page type | Select an application type from the list. |  Web resource |
     | General | Description | Provide a description for your reference. | The application type is used to display a knowledge base search page. |
 
-5. Select **Save**. The parameters for the application type that you selected display in the **Parameters** section.
+5. Select **Save**. The parameters for the application type that you selected displays in the **Parameters** section.
 
     Whenever you edit the application tab template, save the changes so you see the corresponding fields in the **Parameters** section.
 
@@ -122,7 +122,7 @@ This application type is used to display third-party websites as an application.
 | `data` | Additional data parameter to be parsed with the `url` parameter <br>  | No | String <br><br> Slugs <br><br> OData <br><br><br> | contoso <br><br> `{anchor.title}` <br><br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
 #### How parsing works
 
-These examples are based on a scenario where the case was opened as the Anchor Tab in a new session with ticket number: `CAS-01003-P3B7G1`.
+These examples are based on a scenario where the case was opened as the Anchor tab in a new session with ticket number: `CAS-01003-P3B7G1`.
 
 `url` parameter: `https://www.bing.com/search?q=` <br>
 `data` parameter using slugs: `{anchor.ticketnumber}` <br>
