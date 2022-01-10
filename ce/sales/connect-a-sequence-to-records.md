@@ -139,7 +139,7 @@ You can create a flow based on a sequence. The flow connects the records automat
     > ![Search for your solution](media/si-admin-view-flows-search-solution.png "Search for your solution")
 4. Configure a trigger to the flow.    
 5. Select **+ New step**.   
-6. In the **Search connectors and actions** box, select **Microsoft Dataverses**, and then search for and add the action **Perform an unbound action**.     
+6. In the **Search connectors and actions** box, select **Microsoft Dataverse**, and then search for and add the action **Perform an unbound action**.     
     > [!div class="mx-imgBorder"]
     > ![Search and add Perform an unbound action](media/sequence-add-an-unbound-action.png "Search and add Perform an unbound action")     
 7.	In the **Perform an unbound action** step, select the **Action Name** as **msdyn_ConnectSequence**.     
