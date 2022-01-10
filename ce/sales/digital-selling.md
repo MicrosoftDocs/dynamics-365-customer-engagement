@@ -198,10 +198,9 @@ When you setup Microsoft Teams calls with conversation intelligence with the Dyn
 
 Once settings are enabled, sellers can make calls to their customer from within Dynamics 365 Sales Hub app. They can also record the calls and apply conversation intelligence capabilities to get the most out of every call.
 
-You can also enable Teams calling for other apps from the **Advanced settings** option on the **Microsoft Teams calls** setup page. More information: [Configure Microsoft Teams dialer](configure-microsoft-teams-dialer.md)
-
 > [!NOTE]
-> If you want to make advanced configurations for Teams calls + conversation intelligence settings, select **Go to advanced conversation intelligence settings** at the top of the quick setup panel. For information on advanced configurations, see [First-run setup experience of Microsoft Teams for conversation intelligence](fre-setup-ci-sales-app.md)
+> - If you want to make advanced configurations for Teams calls + conversation intelligence settings, select **Go to advanced conversation intelligence settings** at the top of the quick setup panel. For information on advanced configurations, see [First-run setup experience of Microsoft Teams for conversation intelligence](fre-setup-ci-sales-app.md)
+> - You can also enable Teams calling for other apps from the **Advanced settings** option on the **Microsoft Teams calls** setup page. More information: [Configure Microsoft Teams dialer](configure-microsoft-teams-dialer.md)
 
 ### Turn off Teams calls and conversation intelligence
 
