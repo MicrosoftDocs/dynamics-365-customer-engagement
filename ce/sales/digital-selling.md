@@ -13,6 +13,9 @@ manager: shujoshi
 
 Use selected Dynamics 365 Sales Premium features (Sales accelerator, conversation intelligence, and predictive scoring) with the Dynamics 365 Sales Enterprise license.
 
+> [!NOTE]
+> This feature is being rolled out in phases and will be available in all geographical regions by January 31, 2022.
+
 ## License and role requirements
 
 | &nbsp; | &nbsp; |
