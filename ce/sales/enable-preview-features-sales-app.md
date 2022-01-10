@@ -24,7 +24,8 @@ As an administrator, activating **Coming soon** mode gives users in your organiz
 > If you’ve already enabled **Coming soon** mode during your first-run setup, you’re not required to enable it again; however, you can disable **Coming soon** mode in your organization if you don’t wish to experience the new features that are yet to be released.
 
 ## License and role requirements
-|  | |
+
+| &nbsp; | &nbsp; |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
