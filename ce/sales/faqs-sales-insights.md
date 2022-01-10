@@ -355,7 +355,7 @@ Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insi
 It takes about one to three days for results to populate the graph the first time. Later, updates take three to six days, depending on the new activities included in the graph.​
 
 ### ​Who will be included in the graph?
-Everyone in the tenant is included in the graph. Administrators or users have the option to opt out users or groups such as C-suite, M&A, finance, and so on. To opt out of the connection graph, see [Opt out of connection graph](configure-who-knows-whom.md#opt-out-of-the-connection-graph).​
+Everyone in the tenant is included in the graph. Administrators or users have the option to opt out users or groups such as C-suite, M&A, finance, and so on. To opt out of the connection graph, see [Opt out of connection graph](who-knows-whom.md#opt-out-of-the-connection-graph).​
 
 ### ​How are the connections weighted?
 The connection strength is weighted by a combination of how well the signed-in user knows the intermediary, and how well the intermediary knows the target contact or lead. This means that a salesperson might not see the same results as another salesperson does, because they know different people in the organization.
@@ -372,7 +372,7 @@ The insights are generated within the Exchange Online system, so we follow the s
 The service is fully GDPR-compliant. Dynamics 365 won't cache any data on its side, and the data is queried every time a page is loaded with who knows whom.
 
 ### How do I opt out?
-You can choose to opt out of the connection graph. More information: [Opt out of the connection graph](configure-who-knows-whom.md#opt-out-of-the-connection-graph).
+You can choose to opt out of the connection graph. More information: [Opt out of the connection graph](who-knows-whom.md#opt-out-of-the-connection-graph).
 
 ### How does an Exchange administrator exclude users?
 The Exchange administrator can provide the Azure AD group that contains all the users that they want to exclude (for example, CEOs or vice presidents). 

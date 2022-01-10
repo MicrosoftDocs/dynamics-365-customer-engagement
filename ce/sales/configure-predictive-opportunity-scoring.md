@@ -55,7 +55,7 @@ You can add custom fields to generate an accurate model for predictive opportuni
 
 Verify that you meet the following requirement before adding predictive opportunity scoring models for your organization:
 
-- A minimum of 40 qualified and 40 disqualified opportunities within the past 18 months.
+- A minimum of 40 won and 40 lost opportunities within the past 18 months.
 
     >[!NOTE]
     >These numbers represent the minimum requirement. The more opportunities you can include to train the model, the better the prediction results will be.

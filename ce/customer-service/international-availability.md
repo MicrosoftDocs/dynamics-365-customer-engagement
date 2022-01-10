@@ -1,7 +1,7 @@
 ---
 title: "International availability of Omnichannel for Customer Service | MicrosoftDocs"
 description: "This topic contains information on the availability of Omnichannel for Customer Service in different geographical locations and languages."
-ms.date: 12/15/2021
+ms.date: 12/16/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -11,11 +11,15 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-The purpose of this document is to provide information about availability of Omnichannel for Customer Service with respect to the following:
+The purpose of this document is to provide information about availability of live chat and digital messaging channels with respect to the following:
 
 - [Geographic location availability](#geographic-location-availability)
 
 - [Language availability](#language-availability)
+
+> [!NOTE]
+> For information about availability of the voice channel, see [Regional availability and supported languages for the voice channel](voice-channel-region-availability.md).
+
 
 ## Geographic location availability
 
@@ -113,6 +117,7 @@ To know the languages that are supported in analytics, see [Multi-language senti
 ### See also
 
 [Prerequisites and system requirements of Omnichannel for Customer Service](system-requirements-omnichannel.md)
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
