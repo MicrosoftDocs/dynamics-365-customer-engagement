@@ -137,9 +137,7 @@
         "customer-service/**/*.md": "dynamics-365-customerservice",
         "legal/**/*.md": "dynamics-365-customerservice",
         "linkedin/**/*.md": "dynamics-365-linkedinconnector",
-        "sales-enterprise/**/*.md": "dynamics-365-sales",
         "sales/**/*.md": "dynamics-365-sales",
-        "sales-professional/**/*.md": "dynamics-365-sales",
         "unified-service-desk/**/*.md": "dynamics-365-customerservice"
       },
       "ms.prod": {
@@ -166,10 +164,7 @@
         "marketing/**/*.md": [
           "dynamics-marketing"
         ],
-        "sales-enterprise/**/*.md": [
-          "dynamics-sales"
-        ],
-        "sales-professional/**/*.md": [
+        "sales/**/*.md": [
           "dynamics-sales"
         ]
       },
@@ -235,12 +230,9 @@
           "Dynamics 365",          
           "Project Service"
         ],
-        "sales-enterprise/**.*": [
-          "Dynamics 365",          
-          "Sales"
-        ],
-        "sales-professional/**.*": [
-          "Dynamics 365",          
+        "sales/**.*": [
+          "Dynamics 365",
+	  "Power Apps",
           "Sales"
         ],
         "social-engagement/**.*": [
@@ -275,13 +267,11 @@
       },
       "search.app":{
         "omnichannel/**.*": ["D365CE", "D365CS"],
-        "sales-enterprise/**.*": ["D365CE", "D365Sales"],
-        "sales-professional/**.*": ["D365CE", "D365Sales"]
+        "sales/**.*": ["D365CE", "D365Sales"],
       },
       "search.audienceType":{
         "omnichannel/**.*": ["admin", "customizer", "enduser"],
-        "sales-enterprise/**.*": ["admin", "customizer", "enduser"],
-        "sales-professional/**.*": ["admin", "customizer", "enduser"]
+        "sales/**.*": ["admin", "customizer", "enduser"]
       }
     },
     "template": [],
