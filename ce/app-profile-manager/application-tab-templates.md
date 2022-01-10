@@ -143,7 +143,7 @@ This application type is used to display web resources that represent files, whi
 
 |Parameter | Description | Required | Supported values | Example |
 |---------|--------------|----------|--------          |---------|
-| `webResourceName` | Name of the web resource to open | Yes | String | `msdyn_kbsearchpagehost.html`|
+| `webresourceName` | Name of the web resource to open | Yes | String | `msdyn_kbsearchpagehost.html`|
 | `data` | Provide string or key value pair, according to the requirement of the web resource. | No | String <br><br> Slugs <br> <br> OData <br><br><br> | contoso <br><br> `{anchor.title}` <br><br> `{anchor._customerid_value@OData.Community.Display.V1.FormattedValue}` <br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}` <br> |
 
 ### Custom (Preview)
