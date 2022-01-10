@@ -39,7 +39,7 @@ As an administrator, you can create multiple application tab templates.
     | General | Page type | Select an application type from the list. |  Web resource |
     | General | Description | Provide a description for your reference. | The application type is used to display a knowledge base search page. |
 
-5. Select **Save**. The parameters for the application type that you selected displays in the **Parameters** section.
+5. Select **Save**. The parameters for the application type that you selected display in the **Parameters** section.
 
     Whenever you edit the application tab template, save the changes so you see the corresponding fields in the **Parameters** section.
 
