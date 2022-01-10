@@ -1,7 +1,7 @@
 ---
 title: Search knowledge articles in the Customer Service workspace in Dynamics 365 Customer Service | Microsoft Docs
 description: See how you can effectively search knowledge articles in the Customer Service workspace.
-ms.date: 10/07/2021
+ms.date: 01/10/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -25,10 +25,49 @@ In Customer Service workspace, knowledge base search lets you search for relevan
 
 - The productivity pane and knowledge search must be enabled in app profile manager.
 - The anchor tab should be a case or conversation for the knowledge search pane to be displayed.
+- Relevance search must be enabled for search.
+ 
+## How knowledge base search powered by relevance search works
+
+The knowledge base search is enabled to use the relevance search mechanism in the knowledge base search control area.
+
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How relevance search works](/power-platform/admin/configure-relevance-search-organization)
+
+The relevance search mechanism uses Azure search service to index and search records. Relevance search provides improved search functionality, such as better relevance, highlighted search keyword text, and search within attachments and notes. With relevance search, you can also configure search fields in the knowledge article entity.
+
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure searchable fields for Relevance Search](/power-platform/admin/configure-relevance-search-organization)
+
+> [!NOTE]
+> To enable relevance search for knowledge article entity, see [Enable relevance search](/power-platform/admin/configure-relevance-search-organization) and [Select entities for Relevance Search](/power-platform/admin/configure-relevance-search-organization).</br>
+If relevance search is not enabled for the entity, standard full-text search is used.
+
+For more information, see [Understand knowledge base search mechanisms](knowledge-base-search-methods.md).
+
+### Before you begin using relevance search
+
+Relevance search uses the scoring concepts as defined by Azure search. To be able to search the knowledge base using relevance search, certain view columns should be mandatorily configured in the Quick Find view columns list. If any of these columns are deleted or missing, the search query will display an error.
+
+> [!NOTE]
+> An admin can configure the knowledge article quick find view columns list by navigating to **Settings > Customizations > Entities > Knowledge Article > Views > Quick Find View > View Columns**.
+
+The required view columns are as follows:
+
+- Article Public Number
+- Title
+- Created On
+- Keywords
+- Knowledge Article Views
+- Language
+- Major Version Number
+- Minor Version Number
+- Rating
+- Status
+- Modified On
+- Content
 
 ## Use the knowledge search pane to search articles
 
-In Customer Service workspace, for a case, when you select the Knowledge Search tab, knowledge articles that match the case title are displayed on the **Knowledge Search** pane. These articles are displayed based on relevance and full-text search mechanisms.
+In Customer Service workspace, for a case, when you select the Knowledge Search tab, knowledge articles that match the case title are displayed on the **Knowledge Search** pane. These articles are displayed based on relevance and full-text search mechanisms. 
 
 The knowledge articles are applicable for all knowledge-enabled entities. By default, the full text search displays 10 results and relevance search displays 50 results. You can also use the search box to enter keywords and search for articles if those displayed by default are not relevant.
 
@@ -37,11 +76,14 @@ The knowledge articles are applicable for all knowledge-enabled entities. By def
   |Label|Description|
   |-----|-----------|
   |1.| The Knowledge tab.|
-  |2.| The number of times the article has been viewed.|
-  |3.| Lets you link or unlink the article to the entity, such as the case.|
-  |4.| Text that appears when the article is linked to the entity.|
-  |5.| Status and visibility tags for the article.|
-  |||
+  |2.| Tag when the article is linked to the entity.|
+  |3.| Article number|
+  |4.| The number of times the article has been viewed. |
+  |5.| Search results across the custom fields that you have added for search.|
+  |6.| Lets you link or unlink the article to the entity, such as the case.|
+  |7.| Status and visibility tags for the article.|
+  |8.| Search results across attachments.|
+  
 
 ## Use the knowledge search pane to work on your articles
 
@@ -51,7 +93,7 @@ You can also perform the following actions on your knowledge article from the **
 
 Select an article title to view the article on an application tab. You can view up to 10 articles on the application tab.
 
-:::image type="content" source="media/csw-article-app-tab.png" alt-text="View article on application tab":::
+:::image type="content" source="media/csw-article-app-tab.png" alt-text="Knowledge article search pane":::
 
 You can perform the following actions for the knowledge article:
 
@@ -111,43 +153,6 @@ You can also share the knowledge article link or knowledge article content throu
 Add other information as needed, and then on the command bar, select **Send**. Also, you can perform these actions for only published or expired articles.
 
 
-## How knowledge base search powered by relevance search works
-
-The knowledge base search is enabled to use the relevance search mechanism in the knowledge base search control area.
-
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How relevance search works](/power-platform/admin/configure-relevance-search-organization)
-
-The relevance search mechanism uses Azure search service to index and search records. Relevance search provides improved search functionality, such as better relevance, highlighted search keyword text, and search within attachments and notes. With relevance search, you can also configure search fields in the knowledge article entity.
-
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure searchable fields for Relevance Search](/power-platform/admin/configure-relevance-search-organization)
-
-> [!NOTE]
-> To enable relevance search for knowledge article entity, see [Enable relevance search](/power-platform/admin/configure-relevance-search-organization) and [Select entities for Relevance Search](/power-platform/admin/configure-relevance-search-organization).</br>
-If relevance search is not enabled for the entity, standard full-text search is used.
-
-For more information, see [Understand knowledge base search mechanisms](knowledge-base-search-methods.md).
-
-### Before you begin using relevance search
-
-Relevance search uses the scoring concepts as defined by Azure search. To be able to search the knowledge base using relevance search, certain view columns should be mandatorily configured in the Quick Find view columns list. If any of these columns are deleted or missing, the search query will display an error.
-
-> [!NOTE]
-> An admin can configure the knowledge article quick find view columns list by navigating to **Settings > Customizations > Entities > Knowledge Article > Views > Quick Find View > View Columns**.
-
-The required view columns are as follows:
-
-- Article Public Number
-- Title
-- Created On
-- Keywords
-- Knowledge Article Views
-- Language
-- Major Version Number
-- Minor Version Number
-- Rating
-- Status
-- Modified On
-- Content
 
 ### See also
 
