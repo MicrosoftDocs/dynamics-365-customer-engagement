@@ -21,11 +21,23 @@ search.app:
 
 # Write scripts to implement complex business logic in FIeld Service
 
+## Summary of recommended best practices
+
+- Avoid writing scripts when possible
+- Try using workflows and flows before writing scripts
+- Run solution checker on scripts
+
+[Use solution checker to validate your model-driven apps in Power Apps](https://docs.microsoft.com/powerapps/maker/data-platform/use-powerapps-checker)
+
+References
+- [Best practices and guidance of client side scripting for model-driven apps](https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/best-practices/business-logic/)
+- [Make intelligent customizations when you use JavaScript on forms](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/design-performant-forms#javascript-customization)
+
 ## How to write scripts
 
 ## Why write scripts
 
-## Recommended best practices
+
 
 
 
@@ -34,4 +46,4 @@ search.app:
 
 ### See also
 
-- https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/best-practices/business-logic/
+[Create or edit model-driven app web resources to extend an app](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/create-edit-web-resources)
