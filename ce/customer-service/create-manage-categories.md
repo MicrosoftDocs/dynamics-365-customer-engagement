@@ -1,7 +1,7 @@
 ---
 title: Create and manage categories (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to create and manage categories for Customer Service.
-ms.date: 10/01/2018
+ms.date: 01/11/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -79,7 +79,8 @@ Follow the procedure given below to create a category:
 - Select **Assign** on the command bar to assign the category to a particular owner.
 - To delete a category, select the category from the list and select **Delete** on the command bar.
 
-
+> [!NOTE]
+> The Lookup View is not customizable for the Category entity.
 ### See also
 
 [Use the Category entity to categorize records](../customerengagement/on-premises/developer/use-category-entity-categorize-dynamics-365-records.md)
