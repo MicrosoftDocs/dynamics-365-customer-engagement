@@ -31,7 +31,11 @@ searchScope:
 You can configure how you want the knowledge search control to appear on the productivity pane for a multisession. You can set what your agents will experience while they interact with customers during a multisession for an entity making it easy for agents to quickly search and use an article related to an entity.
 
 ## Enable record types for which you want to turn on knowledge management
-You can enable record types from the Customer Service admin center (preview) app. The Customer Service Admin Center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+You can enable record types from the Customer Service admin center (preview) app.
+
+> [!IMPORTANT]
+> The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
 
 To add an entity record:
 
