@@ -36,7 +36,7 @@ If you want to configure the sign-in experience, such as by pre-populating value
 
    - For Dataverse, select **Microsoft 365**.  
 
-   - For Dynamics 365 Customer Engagement (on-premises) deployments, select **On-premises**, and then select from the following **Authentication Sources**:
+   - For Dynamics 365 Customer Engagement (on-premises) deployments, select **On-premises**, and then select from the following **Authentication Sources**.
 
      - **Active Directory**. Select this authentication source if you're connecting to Customer Engagement (on-premises) internally through your network and don't connect to Dataverse through the internet.  
 
@@ -122,7 +122,7 @@ To enable the SSO feature, you must the configure the **SingleSignOnEnabledBrows
 <a name="ConfigureSignIn"></a>   
 ## Configure sign-in information
 
-If needed, administrators can configure the sign-in experience for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] by pre-populating values (except username and password) in the sign-in dialog so users can connect to the specified Dataverse instance, or they can configure it to automatically sign in users to an on-premises Dataverse instance based on the user's [!INCLUDE[pn_Active_Directory](../../includes/pn-active-directory.md)] credentials without even displaying the sign-in dialog.
+If needed, administrators can configure the sign-in experience for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] by prepopulating values (except username and password) in the sign-in dialog so users can connect to the specified Dataverse instance, or they can configure it to automatically sign in users to an on-premises Dataverse instance based on the user's [!INCLUDE[pn_Active_Directory](../../includes/pn-active-directory.md)] credentials without even displaying the sign-in dialog.
 
 > [!NOTE]
 >  You can't add or remove the fields in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sign-in dialog. You can only specify the values that will appear in the fields when a user tries to sign in. However, users can change the pre-populated values in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sign-in dialog before signing in.
