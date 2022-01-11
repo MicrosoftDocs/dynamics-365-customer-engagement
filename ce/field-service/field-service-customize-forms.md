@@ -32,8 +32,8 @@ In this article we will walk through how to edit or "customize" the Work Order f
 
 ## Prerequisites
 
-System administrator security role
-Field Service - Adminsitrator security role
+- System administrator security role
+- Field Service - Administrator security role
 
 
 
