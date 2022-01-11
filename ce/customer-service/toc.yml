@@ -440,6 +440,8 @@
         href: integrate-KM-with-PVA.md
       - name: Configure the origin allow list for knowledge articles
         href: configure-knowledge-article-origin-allow-list.md
+      - name: Configure knowledge search control on the productivity pane
+        href: configure-knowledge-search-control-productivity-pane.md
     - name: Knowledge author experience
       items:
       - name: Configure the knowledge article authoring language
