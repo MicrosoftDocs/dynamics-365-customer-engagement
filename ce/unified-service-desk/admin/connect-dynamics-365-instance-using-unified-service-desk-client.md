@@ -26,7 +26,7 @@ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md
 <a name="Signin"></a>
 ## Sign in to Unified Service Desk
 
-If you want to configure the sign-in experience, such as by pre-populating values in the sign-in dialog or automatically signing in users without displaying the sign-in dialog, go to [Configure sign-in information](../../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md#ConfigureSignIn).  
+If you want to configure the sign-in experience, such as by prepopulating values in the sign-in dialog or automatically signing in users without displaying the sign-in dialog, go to [Configure sign-in information](../../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md#ConfigureSignIn).  
 
 1. Start the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client by double-clicking the application shortcut on your desktop.  
 
@@ -125,7 +125,7 @@ To enable the SSO feature, you must the configure the **SingleSignOnEnabledBrows
 If needed, administrators can configure the sign-in experience for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] by prepopulating values (except username and password) in the sign-in dialog so users can connect to the specified Dataverse instance, or they can configure it to automatically sign in users to an on-premises Dataverse instance based on the user's [!INCLUDE[pn_Active_Directory](../../includes/pn-active-directory.md)] credentials without even displaying the sign-in dialog.
 
 > [!NOTE]
->  You can't add or remove the fields in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sign-in dialog. You can only specify the values that will appear in the fields when a user tries to sign in. However, users can change the pre-populated values in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sign-in dialog before signing in.
+>  You can't add or remove the fields in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sign-in dialog. You can only specify the values that will appear in the fields when a user tries to sign in. However, users can change the prepopulated values in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sign-in dialog before signing in.
 
 To configure sign-in information, use the UnifiedServiceDesk.exe.config file that's available in the client installation directory (typically C:\Program Files\Microsoft Dynamics CRM USD\USD).  
 
