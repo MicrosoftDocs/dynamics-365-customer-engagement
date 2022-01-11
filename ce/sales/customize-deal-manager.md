@@ -1,7 +1,7 @@
 ---
 title: "Customize deal manager | MicrosoftDocs"
 description: "Customize the grid, side panel, and charts displayed in deal manager according to your sales team's requirement."
-ms.date: 10/26/2021
+ms.date: 01/10/2022
 ms.topic: article
 ms.service: dynamics-365-sales
 author: lavanyakr01
@@ -137,21 +137,25 @@ The following table lists the supported and unsupported customizations for side 
 **To customize the side panel**
 
 1. Sign in to [Power Apps](https://make.powerapps.com/).
-1. Select the environment, and then select **Data** > **Tables**.
+1. Select the environment, and then select **Dataverse** > **Tables**.
 1. In the upper-right corner, select the dropdown list and then select **All**.
 1. Search for **Opportunity** to view all the opportunity-related entities.
 1. Select the **Opportunity** table, and then select **Forms**.
-1. Search for the **In Context View** form, and edit the form to manage the fields that appear in the side panel.
-     > [!NOTE]
-    > - By default, all the fields in the form are editable. If you want to set a field to read-only, select the field and enable the **Read-only** property.
-    > - If you've added field-level customization for the editable grid using a web resource, they also become applicable for the same fields in the side panel.  
+1. Search for the **In Context View** form, and edit the form to manage the fields that appear in the side panel. Consider the following aspects when customizing the form:
+    
+    - By default, all the fields in the form are editable. If you want to set a field as read-only, select the field and enable the **Read-only** property.
 
-    :::image type="content" source="media/incontexview.PNG" alt-text="Screenshot of the In context view form in Power Apps.":::
+    - If you've added field-level customization for the editable grid using a web resource, they also become applicable for the same fields in the side panel.
+    - Required/mandatory fields cannot be deleted from the form; drag them to the **Ignore** tab to remove them from the side panel.  
+
+        :::image type="content" source="media/incontexview.PNG" alt-text="Screenshot of the Ignore option in the In context view form in Power Apps.":::
+1. Save and publish the changes.
+1. Verify whether the changes are reflecting in the deal manager workspace. See [Access the deal manager workspace](access-deal-manager.md)
    
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
   
 ### See also
 
-- [Access the deal manager workspace](access-deal-manager.md)  
 - [Using the deal manager workspace](deal-manager-seller-overview.md)  
 - [Issue: In Context Form may appear in the form selector](ts-oqoi.md#issue-in-context-form-may-appear-in-the-form-selector)
+- [Add, configure, move, or delete columns on a form](/powerapps/maker/model-driven-apps/add-move-or-delete-fields-on-form)
