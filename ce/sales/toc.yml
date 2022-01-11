@@ -100,6 +100,8 @@
   items:
   - name: Administration overview
     href: admin-guide.yml
+  - name: Digital selling capabilities in Sales Enterprise
+    href: digital-selling.md
   - name: Account and contact management
     items:
     - name: Enable or disable saving of business card image
@@ -520,7 +522,7 @@
       href: notes-analysis.md   
     - name: Manage sales literature
       href: create-sales-literature.md
-    - name: Call using Microsoft Teams
+    - name: Make and receive calls through Microsoft Teams
       href: call-using-microsoft-teams.md          
     - name: Collaborate using Microsoft Teams
       href: /dynamics365/teams-integration/teams-collaboration?context=/dynamics365/context/sales-context
