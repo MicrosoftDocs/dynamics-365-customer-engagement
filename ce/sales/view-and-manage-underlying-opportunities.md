@@ -82,12 +82,12 @@ With the enhanced grid, you can view and edit related entity records also. The f
 
 ### Filter underlying records of a forecast
 
-When you click on a forecast record, you see the underlying opportunities that contribute to the forecast record. You can group and filter these opportunities to efficiently manage them and take necessary actions to finalize deals that matter the most. 
+When you click on a row in the forecast grid, you see the underlying opportunities that contribute to that row in the forecast. You can group and filter these opportunities to efficiently manage them and take necessary actions to finalize deals that matter the most.  
 
 **To filter the underlying records**
 
-1.	Open a forecast and select a record. 
-    The underlying opportunities of the forecast record are displayed.
+1.	Open a forecast and select a row. 
+    The underlying opportunities that contribute to the selected row are displayed.
 
 2.	(Optional) In the **Group by** field, select the table/entity (such as, account) that you want to use for grouping opportunities.
   
@@ -98,18 +98,23 @@ When you click on a forecast record, you see the underlying opportunities that c
 
 3. Select **Filter** and add the filter conditions. 
     
-    - If **Group by** is set to **None**, you can directly apply the filters on the underlying opportunities. The opportunities filter will persist even if you decide to group the opportunities later.
+    - If **Group by** is set to **None**, you can directly apply the filters on the underlying opportunities. The opportunities filter will persist across the recurrences in the same forecast until you clear the filter manually. 
 
     - If **Group by** is set to a table/entity (such as, account),
 
-        - You can filter the group using the columns in the selected table. For example, if you have chosen to group the opportunities by account, you can filter the accounts using the columns in the Account table. You can also add a filter on a related entity, such as estimated revenue of the opportunities associated with the account.
+        - You can filter the group using the columns/attributes in the selected table. For example, if you have chosen to group the opportunities by account, you can filter the accounts from a specific region. You can also add a filter on a related entity, such as estimated revenue of the opportunities associated with the account.
         
         - You can apply a different filter for the opportunities associated with the group. The filters applied on the underlying opportunities persist irrespective of the grouped entity, group filter, and recurrence of the forecast.  
         
-        - Each forecast configuration can have different filter conditions and grouping.
+        - Each forecast can have different filter conditions and grouping.  
+
+:::image type="content" source="media/filter-forecast-records.gif" alt-text="Animated video of how the filter and group by work together":::
 
 
 For more information on filters, see [Add conditions to a filter](/powerapps/maker/model-driven-apps/create-edit-view-filters#add-conditions-to-a-filter).
+
+
+
 
 #### Example: Grouping and filtering of underlying records 
 
