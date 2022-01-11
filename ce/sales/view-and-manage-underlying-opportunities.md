@@ -94,11 +94,14 @@ When you click on a row in the forecast grid, you see the underlying opportuniti
     The opportunities are grouped by the selected entity. 
 
     1. Select the **View underlying rollup records** (the (+) icon) next to a group.
-    The opportunities associated with that account are displayed. 
+    
+        The opportunities associated with that account are displayed. 
 
 3. Select **Filter** and add the filter conditions. 
     
-    - If **Group by** is set to **None**, you can directly apply the filters on the underlying opportunities. The opportunities filter will persist across the recurrences in the same forecast until you clear the filter manually. 
+    - If **Group by** is set to **None**, you can directly apply the filters on the underlying opportunities. The opportunities filter will persist across the recurrences in the same forecast until you clear the filter manually.  
+    
+        :::image type="content" source="media/forecast-filter-opportunity.png" alt-text="Screenshot of filter set on opportunity columns":::
 
     - If **Group by** is set to a table/entity (such as, account),
 
@@ -107,8 +110,6 @@ When you click on a row in the forecast grid, you see the underlying opportuniti
         - You can apply a different filter for the opportunities associated with the group. The filters applied on the underlying opportunities persist irrespective of the grouped entity, group filter, and recurrence of the forecast.  
         
         - Each forecast can have different filter conditions and grouping.  
-
-:::image type="content" source="media/filter-forecast-records.gif" alt-text="Animated video of how the filter and group by work together":::
 
 
 For more information on filters, see [Add conditions to a filter](/powerapps/maker/model-driven-apps/create-edit-view-filters#add-conditions-to-a-filter).
@@ -125,15 +126,21 @@ Kenny Smith is a Vice President of Sales at Contoso Inc. He heads the Sales team
 1. Open the Q2 forecast for his org.
 1. Select Account in the **Group by** field. 
     All underlying opportunities of the forecast are grouped by their corresponding accounts.  
-1. Select **Filter** > **Add** > **Add row** and specify the following condition:
-    `Address: Country/Regions Equals North America`
+1. Select **Filter** > **Add** > **Add row** and specify the condition as shown in the following screenshot:  
+    
+    :::image type="content" source="media/forecast-grouping-by-account.png" alt-text="Screenshot of forecast records grouped by account":::
+
     All the accounts in North America are displayed.
+
 1. Select the **View underlying rollup records** (the (+) icon) next to an account.
     The underlying opportunities associated with that account are displayed.
 1. Select **Filter** > **Add** > **Add row** and specify the following condition for the opportunities:
     `Est.Revenue Is greater than or equal to 1000000`
+       
+    The high-value opportunities of the selected account are displayed. 
 
-    The high-value opportunities of the selected account are displayed. The opportunities filter is persisted unless cleared manually. For example, when he opens the rollup records of another account in the NA region, the records are already filtered for high-value opportunities. Even if he changes the grouping to a User entity/table, the underlying opportunities filter persists and is automatically applied to the opportunities in the new group.  
+    > [!NOTE]
+    > The opportunities filter is persisted unless cleared manually. For example, when he opens the rollup records of another account in the NA region, the records are already filtered for high-value opportunities. Even if he changes the grouping to a User entity/table, the underlying opportunities filter persists and is automatically applied to the opportunities in the new group.  
      
 
  
