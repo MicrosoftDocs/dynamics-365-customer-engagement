@@ -41,7 +41,7 @@ You can also create your own assignment method to suit the business needs.
   - **Assignment rulesets**: Represent a set of conditions that are used to select agents and use an order by option to sort the matching agents.
   
   > [!IMPORTANT]
-  > You must configure presence and skill-matching algorithm because the default work distribution settings of the workstream won't be used in custom assignment method.
+  > You must configure skill-matching rules in the custom assignment method because the **Default skill matching algorithm** settings of the workstream won't be used in custom assignment method.
 
 ### Assignment cycle
 
