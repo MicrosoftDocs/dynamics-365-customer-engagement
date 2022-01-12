@@ -5,7 +5,7 @@ ms.custom:
 ms.date: 04/20/2020
 ms.reviewer: pehecke
 ms.prod: d365ce-op
-ms.topic: article
+ms.topic: overview
 ms.assetid: e926cfed-f581-4f1f-83bd-75a06292212b
 author: KumarVivek
 ms.author: kvivek
