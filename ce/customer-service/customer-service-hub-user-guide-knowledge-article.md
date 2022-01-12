@@ -1,7 +1,7 @@
 ---
 title: Understand Knowledge Management in Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: Understand Knowledge Management in Customer Service Hub for Customer Service Dynamics 365 Customer Service
-ms.date: 01/12/2022
+ms.date: 01/21/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -349,18 +349,18 @@ With this new attachment capability, you'll need to stop using notes attachments
 > [!IMPORTANT]
 > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-  * On the Customer Service admin center (preview) site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
-  * In the **Portals** section, select **Manage**. The **Portal** page appears.
-  * On the **Portals** page, go to the **Sync knowledge article attachments to portal** section.
+  1. Select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+  2. In the **Portals** section, select **Manage**. The **Portal** page appears.
+  3. On the **Portals** page, go to the **Sync knowledge article attachments to portal** section.
 
 ### [Customer Service Hub](#tab/customerservicehub)
 
-   * On the Customer Service Hub site map, go to **Service Management** and select **Settings** in **Knowledge Base Management**. The **Settings** page appears.
-   * On the **Settings** page, go to the **Sync knowledge article attachments to portal** section.
+   1. Go to **Service Management** and select **Settings** in **Knowledge Base Management**. The **Settings** page appears.
+   2. On the **Settings** page, go to the **Sync knowledge article attachments to portal** section.
 
 ---
 
-1. Set the **Sync attachments to portal** toggle to **Yes**.
+2. Set the **Sync attachments to portal** toggle to **Yes**.
 3. Select **Save**.
 
 On syncing knowledge article attachments to the portal:

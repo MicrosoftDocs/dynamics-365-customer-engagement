@@ -1,7 +1,7 @@
 ---
 title: Set up a search provider in Customer Service Hub (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Learn how to set up a search provider for knowledge management in Dynamics 365 Customer Service
-ms.date: 01/07/2022
+ms.date: 01/22/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -59,12 +59,12 @@ You can set up a search provider either on the Customer Service Hub or on Custom
 > [!IMPORTANT]
 > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-  * On the Customer Service admin center (preview) site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
-  * In the **Search providers** section, select **Manage**.
+  1. Select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+  2. In the **Search providers** section, select **Manage**.
 
 ### [Customer Service Hub](#tab/customerservicehub)
 
-On the Customer Service Hub site map, go to **Service Management**, and select **Search providers** in **Knowledge Base Management**.
+* On the Customer Service Hub site map, go to **Service Management**, and select **Search providers** in **Knowledge Base Management**.
 
 ---
 

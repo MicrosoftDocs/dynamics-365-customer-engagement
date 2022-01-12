@@ -43,43 +43,43 @@ The ability to override follows the hierarchy order at the individual articles, 
 
 You can set a default knowledge article authoring language for your organization either on the Customer Service Hub or on Customer Service admin center (preview) app. Depending on your app, perform the following steps:
 
-1. Go to the **Settings** page.
+1. Go to the **Authoring language** section.
 
 ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
 > [!IMPORTANT]
 > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-  * On the Customer Service admin center (preview) site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
-  * In the **General settings** section, select **Manage**. The **General settings** page appears.
-  * On the **General settings** page, go to the **Authoring language** section.
+  1. Select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+  1. In the **General settings** section, select **Manage**. The **General settings** page appears.
+  1. On the **General settings** page, go to the **Authoring language** section.
 
 ### [Customer Service Hub](#tab/customerservicehub)
 
-   * On the Customer Service Hub site map, go to **Service Management** and select **Settings** in **Knowledge Base Management**. The **Settings** page appears.
-   * On the **Settings** page, go to the **Knowledge articles authoring language** section.
+   1. On the Customer Service Hub site map, go to **Service Management** and select **Settings** in **Knowledge Base Management**. The **Settings** page appears.
+   1. On the **Settings** page, go to the **Knowledge articles authoring language** section.
 
 ---
 
-3.	Set the default knowledge article authoring language for the users.
+2.	Set the default knowledge article authoring language for the users.
 ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
-  * In the **Authoring language** section, set the **Enable default authoring language** toggle to **Yes**.
+  * Set the **Enable default authoring language** toggle to **Yes**.
 
 ### [Customer Service Hub](#tab/customerservicehub)
 
-   * In the **Knowledge articles authoring language** section,, set the **Set default knowledge authoring language for your users** toggle to **Yes**.
+   * Set the **Set default knowledge authoring language for your users** toggle to **Yes**.
 
 ---
-4.	If you want to set a default knowledge authoring language for your organization: 
+3.	If you want to set a default knowledge authoring language for your organization: 
 
 ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
-  * In the **Authoring language** section, select **Other language** and select a language from the **Language** dropdown.
+  * Select **Other language** and select a language from the **Language** dropdown.
 
 ### [Customer Service Hub](#tab/customerservicehub)
 
-   * In the **Knowledge articles authoring language** section, set **Use organization’s UI language** toggle to **No**, and then select the language you want to use by searching for a language in the **Select a language** field.
+   * Set the **Use organization’s UI language** toggle to **No**, and then select the language you want to use by searching for a language in the **Select a language** field.
 
 ---
 5.	Set the **Allow users to set default knowledge authoring language** toggle to **Yes** if you want to allow your users to set their own default authoring language.

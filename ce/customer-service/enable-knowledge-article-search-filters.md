@@ -1,7 +1,7 @@
 ---
 title: Enable knowledge article search filters | MicrosoftDocs
 description: "Learn how to enable knowledge article search filters in Dynamics 365 Customer Service."
-ms.date: 01/07/2022
+ms.date: 01/21/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -55,14 +55,14 @@ You can enable search filters for your knowledge articles either on the Customer
 > [!IMPORTANT]
 > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-  1. On the Customer Service admin center (preview) site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+  1. Select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
   1. In the **General settings** section, select **Manage**.
   1. On the **General settings** page, go to the **Filters** section.
 
 ### [Customer Service Hub](#tab/customerservicehub)
 
-   1. On the Customer Service Hub site map, go to **Service Management**, and select **Settings** in **Knowledge Base Management**.
-   1. On the Settings page, go to the **Knowledge articles search filters** section.
+  1. Go to **Service Management**, and select **Settings** in **Knowledge Base Management**.
+  1. On the Settings page, go to the **Knowledge articles search filters** section.
 
 ---
 
@@ -127,12 +127,12 @@ You can add a default filter either on the Customer Service Hub or on Customer S
 > [!IMPORTANT]
 > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-  * On the Customer Service admin center (preview) site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
-  * In the **Filters** section, select **Manage**. The **Filters** page appears.
+  1. Select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+  2. In the **Filters** section, select **Manage**. The **Filters** page appears.
 
 ### [Customer Service Hub](#tab/customerservicehub)
 
-   On the Customer Service Hub site map, go to **Service Management**, and select **Filters** in **Knowledge Base Management**.
+  * Go to **Service Management**, and select **Filters** in **Knowledge Base Management**.
 
 ---
 
@@ -157,12 +157,12 @@ You can configure a lookup type filter either on the Customer Service Hub or on 
 > [!IMPORTANT]
 > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-  * On the Customer Service admin center (preview) site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
-  * In the **Filters** section, select **Manage**. The **Filters** page appears.
+  1. Select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+  1. In the **Filters** section, select **Manage**. The **Filters** page appears.
 
 ### [Customer Service Hub](#tab/customerservicehub)
 
-   On the Customer Service Hub site map, go to **Service Management**, and select **Filters** in **Knowledge Base Management**.
+  * Go to **Service Management**, and select **Filters** in **Knowledge Base Management**.
 
 ---
 2. Scroll to the bottom of the page, choose the filter type you want from the dropdown menu, and then select **Add**. 
@@ -203,12 +203,12 @@ You can deactivate or reactivate a filter configuration either on the Customer S
 > [!IMPORTANT]
 > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-  * On the Customer Service admin center (preview) site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
-  * In the **Filters** section, select **Manage**. The **Filters** page appears.
+  1. Select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+  1. In the **Filters** section, select **Manage**. The **Filters** page appears.
 
 ### [Customer Service Hub](#tab/customerservicehub)
 
-   On the Customer Service Hub site map, go to **Service Management**, and select **Filters** in **Knowledge Base Management**.
+  * On the Customer Service Hub site map, go to **Service Management**, and select **Filters** in **Knowledge Base Management**. The **Filters** page appears.
 
 ---
 
@@ -230,12 +230,12 @@ You can allow agents to personalize their knowledge article search filters eithe
 > [!IMPORTANT]
 > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-  * On the Customer Service admin center (preview) site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
-  * In the **General settings** section, select **Manage**. The **General settings** page appears.
+  1. Select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+  1. In the **General settings** section, select **Manage**. The **General settings** page appears.
 
 ### [Customer Service Hub](#tab/customerservicehub)
 
-   * On the Customer Service Hub site map, go to **Service Management** and select **Settings** in **Knowledge Base Management**. The **Settings** page appears.
+   * Go to **Service Management** and select **Settings** in **Knowledge Base Management**. The **Settings** page appears.
 
 ---
 3. Customize the filter according to your needs by selecting or deselecting the values displayed and then turn on the **Set as a preselected filter** toggle if you want the filter to be shown to the agent by default. 
