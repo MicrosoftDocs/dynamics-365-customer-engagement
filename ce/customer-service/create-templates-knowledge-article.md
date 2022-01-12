@@ -44,12 +44,12 @@ You can create a knowledge article template either on the Customer Service Hub o
 > [!IMPORTANT]
 > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-    1. Select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
-    1. On the **Knowledge** page, go to the **Article Templates** section and select **Manage**.
+ 1. Select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+ 1. On the **Knowledge** page, go to the **Article Templates** section and select **Manage**.
 
 ### [Customer Service Hub](#tab/customerservicehub)
 
-    1. Go to **Service Management** and select **Article Templates** in **Knowledge Base Management**.
+ 1. Go to **Service Management** and select **Article Templates** in **Knowledge Base Management**.
 
 ---
 

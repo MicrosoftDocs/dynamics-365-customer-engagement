@@ -199,14 +199,14 @@ You can configure a knowledge base article URL either on the Customer Service Hu
 > [!IMPORTANT]
 > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-    1. Select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
-    1. On the **Knowledge** page, go to the **Portals** section and select **Manage**. The **Portal** page appears.
-    1. On the **Portals** page, go to the **Support portal connection** section.
+  1. Select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+  1. On the **Knowledge** page, go to the **Portals** section and select **Manage**. The **Portal** page appears.
+  1. On the **Portals** page, go to the **Support portal connection** section.
 
 ### [Customer Service Hub](#tab/customerservicehub)
 
-    1. Go to **Service Management** and select **Settings** in **Knowledge Base Management**.
-    1. On the **Settings** page, go to the **Support portal connection** section.
+  1. Go to **Service Management** and select **Settings** in **Knowledge Base Management**.
+  1. On the **Settings** page, go to the **Support portal connection** section.
 
 ---
 

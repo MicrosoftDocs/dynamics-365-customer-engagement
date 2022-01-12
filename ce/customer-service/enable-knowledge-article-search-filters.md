@@ -62,7 +62,7 @@ You can enable search filters for your knowledge articles either on the Customer
 ### [Customer Service Hub](#tab/customerservicehub)
 
   1. Go to **Service Management**, and select **Settings** in **Knowledge Base Management**.
-  1. On the Settings page, go to the **Knowledge articles search filters** section.
+  1. On the **Settings** page, go to the **Knowledge articles search filters** section.
 
 ---
 
