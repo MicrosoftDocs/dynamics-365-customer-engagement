@@ -41,18 +41,18 @@ Some scenarios where you would write a plugin are −
 
 
 
-## Understand the risks
+## Step 1: Understand the risks
 
 - performance issues
 - errors
 - supportability
 - time and cost
 
-## Check if Field Service or Dynamics 365 can accomplish the requirement 
+## Step 2: Check if Field Service or Dynamics 365 can accomplish the requirement 
 
 
 
-## Try using platform
+## Step 3: Try using platform options
 
 Make sure you have leveraged the built-in platform options first
 
@@ -60,7 +60,7 @@ In many cases, a simple workflow, business logic could have been used to solve t
 
 [When to use plugins, advantages and disadvantages comapred to workflows](https://docs.microsoft.com/en-us/powerapps/developer/data-platform/plug-ins#when-to-use-plug-ins)
 
-## Review best practices before writings plugins or scripts
+## Step 4: Review best practices before writings plugins or scripts
 
 References
 - [Best practices and guidance regarding plug-in and workflow development for the Microsoft Dataverse](https://docs.microsoft.com/powerapps/developer/data-platform/best-practices/business-logic/)
@@ -68,7 +68,7 @@ References
 - [Make intelligent customizations when you use JavaScript on forms](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/design-performant-forms#javascript-customization)
 - [Scalable Customization Design in Microsoft Dataverse](https://docs.microsoft.com/en-us/powerapps/developer/data-platform/scalable-customization-design/overview)
 
-## Use tools to test your scripts
+## Step 5: Use tools to test your scripts
 
 [Use solution checker to validate your model-driven apps in Power Apps](https://docs.microsoft.com/powerapps/maker/data-platform/use-powerapps-checker)
 
