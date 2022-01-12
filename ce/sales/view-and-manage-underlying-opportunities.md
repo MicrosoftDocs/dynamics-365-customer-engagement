@@ -80,32 +80,35 @@ With the enhanced grid, you can view and edit related entity records also. The f
     > [!div class="mx-imgBorder"]
     > ![Opportunity split group by example.](media/forecast-opportunity-split-groupby-example.png "Opportunity split group by example")
 
-### Filter underlying records of a forecast
+### Preview: Filter underlying records of a forecast
+
+[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 
 When you click on a row in the forecast grid, you see the underlying opportunities that contribute to that row in the forecast. You can group and filter these opportunities to efficiently manage them and take necessary actions to finalize deals that matter the most.  
 
 **To filter the underlying records**
 
 1.	Open a forecast and select a row. 
+    
     The underlying opportunities that contribute to the selected row are displayed.
 
-2.	(Optional) In the **Group by** field, select the table/entity (such as, account) that you want to use for grouping opportunities.
+2.	(Optional) In the **Group by** field, select the entity (such as, account) that you want to use for grouping opportunities.
   
     The opportunities are grouped by the selected entity. 
 
     1. Select the **View underlying rollup records** (the (+) icon) next to a group.
     
-        The opportunities associated with that account are displayed. 
+        The opportunities associated with that account are displayed. For more information on how filters work when the underlying records are grouped, see [Example: Grouping and filtering of underlying records](#example-grouping-and-filtering-of-underlying-records).
 
-3. Select **Filter** and add the filter conditions. 
+3. Select **Filters** and add the filter conditions. 
     
-    - If **Group by** is set to **None**, you can directly apply the filters on the underlying opportunities. The opportunities filter will persist across the recurrences in the same forecast until you clear the filter manually.  
+    - If **Group by** is set to **None**, you can directly apply the filters on the underlying opportunities as shown in the screenshot below. The opportunities filter will persist across the recurrences in the same forecast until you clear the filter manually.  
     
         :::image type="content" source="media/forecast-filter-opportunity.png" alt-text="Screenshot of filter set on opportunity columns":::
 
-    - If **Group by** is set to a table/entity (such as, account),
+    - If **Group by** is set to an entity (such as, account),
 
-        - You can filter the group using the columns/attributes in the selected table. For example, if you have chosen to group the opportunities by account, you can filter the accounts from a specific region. You can also add a filter on a related entity, such as estimated revenue of the opportunities associated with the account.
+        - You can filter the group using the attributes in the selected table. For example, if you have chosen to group the opportunities by account, you can filter the accounts from a specific region. You can also add a filter on a related entity, such as estimated revenue of the opportunities associated with the account.
         
         - You can apply a different filter for the opportunities associated with the group. The filters applied on the underlying opportunities persist irrespective of the grouped entity, group filter, and recurrence of the forecast.  
         
@@ -121,12 +124,12 @@ For more information on filters, see [Add conditions to a filter](/powerapps/mak
 
 Let us understand grouping and filtering of underlying records with an example:
 
-Kenny Smith is a Vice President of Sales at Contoso Inc. He heads the Sales teams in NA and EU regions. He wants to personally follow up with the customers of the high-value opportunities in the NA region so that the deals can be closed in time for Q2.  Following are the steps that Kenny should perform:
+Kenny Smith is a Vice President of the sales organization at Contoso Inc. He heads the Sales teams in North America (NA) and Europe regions. He wants to personally follow up with the customers of the high-value opportunities in the NA region so that the deals can be closed in time for Q2.  Following are the steps that Kenny should perform:
 
 1. Open the Q2 forecast for his org.
-1. Select Account in the **Group by** field. 
+1. Select **Account** in the **Group by** field. 
     All underlying opportunities of the forecast are grouped by their corresponding accounts.  
-1. Select **Filter** > **Add** > **Add row** and specify the condition as shown in the following screenshot:  
+1. Select **Filters** > **Add** > **Add row** and specify the condition as shown in the following screenshot:  
     
     :::image type="content" source="media/forecast-grouping-by-account.png" alt-text="Screenshot of forecast records grouped by account":::
 
@@ -134,13 +137,14 @@ Kenny Smith is a Vice President of Sales at Contoso Inc. He heads the Sales team
 
 1. Select the **View underlying rollup records** (the (+) icon) next to an account.
     The underlying opportunities associated with that account are displayed.
-1. Select **Filter** > **Add** > **Add row** and specify the following condition for the opportunities:
-    `Est.Revenue Is greater than or equal to 1000000`
+1. Select **Filters** > **Add** > **Add row** and specify the following condition for the opportunities:
+ 
+   `Est.Revenue Is greater than or equal to 1000000`
        
     The high-value opportunities of the selected account are displayed. 
 
     > [!NOTE]
-    > The opportunities filter is persisted unless cleared manually. For example, when he opens the rollup records of another account in the NA region, the records are already filtered for high-value opportunities. Even if he changes the grouping to a User entity/table, the underlying opportunities filter persists and is automatically applied to the opportunities in the new group.  
+    > The opportunities filter is persisted unless cleared manually. For example, when he opens the rollup records of another account in the NA region, the records are already filtered for high-value opportunities. Even if he changes the grouping to a User entity, the underlying opportunities filter persists and is automatically applied to the opportunities in the new group.  
      
 
  
