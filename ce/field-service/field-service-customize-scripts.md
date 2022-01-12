@@ -48,16 +48,14 @@ Some scenarios where you could write a plugin are:
 
 
 ## Step 2: Check if Field Service or Dynamics 365 can accomplish the requirement 
-Before writing a plugin or JavaScript web resource it is important to check if the Field Service app or another Dynamics 365 can accomplish the same or similar function. Unfortuantely many people write scripts to accomplish functions that already exist. Not only is this a waste of time and money, but duplicate processes can cause errors and performance issues.
+Before writing a plugin or JavaScript web resource it is important to check if the Field Service app or another Dynamics 365 app can accomplish the same or similar function. Unfortuantely many people write scripts to accomplish functions that already exist. Not only is this a waste of time and money, but duplicate processes can cause errors and performance issues.
 
 
 ## Step 3: Try using platform options
 
-Make sure you have leveraged the built-in platform options first
+Before writing a custom script, try to accomplish your requirement with platform options like Power Automate, workflows and business rules. Can't fulfill your requirement with platform options? Decide if a workflow can get close enough to help your business. Using platform options is better for performance, more scalable, more supportable, and is less likely to break with upgrades.
 
-In many cases, a simple workflow, business logic could have been used to solve the use case.
-
-[When to use plugins, advantages and disadvantages comapred to workflows](https://docs.microsoft.com/en-us/powerapps/developer/data-platform/plug-ins#when-to-use-plug-ins)
+View the following topic to understand [when to use plugins, advantages and disadvantages comapred to workflows](https://docs.microsoft.com/en-us/powerapps/developer/data-platform/plug-ins#when-to-use-plug-ins).
 
 ## Step 4: Review best practices before writings plugins or scripts
 
