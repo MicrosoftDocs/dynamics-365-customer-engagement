@@ -220,6 +220,8 @@
         items: 
         - name: Real-time marketing journey tile reference
           href: real-time-marketing-tile-reference.md
+        - name: When to use attribute versus if/then branches
+          href: real-time-marketing-branches.md
         - name: Create a new version of a customer journey
           href: real-time-marketing-new-journey-version.md
         - name: Set a business goal and measure progress through a journey
