@@ -41,7 +41,9 @@ Some scenarios where you would write a plugin are −
 
 
 
-## Step 1: Understand the risks
+## Step 1: Understand the risks of writing custom scripts
+
+Adding plugins and JavaScript to your Field Service app requires a lot of caution. In fact, too many scripts or poorly written scripts is the top reason 
 
 - performance issues
 - errors
