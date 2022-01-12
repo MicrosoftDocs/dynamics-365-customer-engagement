@@ -101,6 +101,9 @@ When you click on a row in the forecast grid, you see the underlying opportuniti
         The opportunities associated with that account are displayed. For more information on how filters work when the underlying records are grouped, see [Example: Grouping and filtering of underlying records](#example-grouping-and-filtering-of-underlying-records).
 
 3. Select **Filters** and add the filter conditions. 
+
+    > [!NOTE]
+    > If you don't see the **Filters** option, talk to your Dynamics 365 administrator to opt in for the preview as described on the [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates) page.
     
     - If **Group by** is set to **None**, you can directly apply the filters on the underlying opportunities as shown in the screenshot below. The opportunities filter will persist across the recurrences in the same forecast until you clear the filter manually.  
     
