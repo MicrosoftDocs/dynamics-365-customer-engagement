@@ -1,7 +1,7 @@
 ---
 title: "International availability of Omnichannel for Customer Service | MicrosoftDocs"
 description: "This topic contains information on the availability of Omnichannel for Customer Service in different geographical locations and languages."
-ms.date: 06/15/2021
+ms.date: 12/16/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -11,11 +11,15 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-The purpose of this document is to provide information about availability of Omnichannel for Customer Service with respect to the following:
+The purpose of this document is to provide information about availability of live chat and digital messaging channels with respect to the following:
 
 - [Geographic location availability](#geographic-location-availability)
 
 - [Language availability](#language-availability)
+
+> [!NOTE]
+> For information about availability of the voice channel, see [Regional availability and supported languages for the voice channel](voice-channel-region-availability.md).
+
 
 ## Geographic location availability
 
@@ -23,7 +27,7 @@ Your Microsoft 365 tenant must be co-located in one of the following geographic 
 
 ### April 2021 update
 
-Omnichannel for Customer Service April 2021 update is available in the following regions:
+Omnichannel for Customer Service April 2021 update is available in the following regions.
 
 |   Geographic location                     |   Date             |
 |-------------------------------------------|--------------------|
@@ -45,11 +49,11 @@ Omnichannel for Customer Service April 2021 update is available in the following
 
 > [!Note]
 >
-> If your tenant is located in Brazil or Norway, Omnichannel for Customer Service is currently not available.
+> Omnichannel for Customer Service is currently not available in a tenant that's located in Brazil, Norway, or Singapore.
 
 ### October 2020 update
 
-Omnichannel for Customer Service October 2020 update is available in the following regions:
+Omnichannel for Customer Service October 2020 update is available in the following regions.
 
 |   Geographic location                     |            Date      |
 |-------------------------------------------|----------------------|
@@ -68,7 +72,7 @@ Omnichannel for Customer Service October 2020 update is available in the followi
 
 ### April 2020 update
 
-Omnichannel for Customer Service April 2020 update is available in the following regions:
+Omnichannel for Customer Service April 2020 update is available in the following regions.
 
 |   Geographic location                     |            Date      |
 |-------------------------------------------|----------------------|
@@ -88,7 +92,7 @@ Omnichannel for Customer Service April 2020 update is available in the following
 
 The product user interface (UI) is available in the following languages.
 
-|                         |                   |                     |
+| Language                | Language          | Language            |
 |-------------------------|-------------------|---------------------|
 | Arabic                  | Greek             | Romanian            |
 | Basque                  | German            | Russian             |
@@ -98,7 +102,7 @@ The product user interface (UI) is available in the following languages.
 | Chinese (Hong Kong SAR) | Indonesian        | Slovenian           |
 | Chinese (Simplified)    | Italian           | Spanish             |
 | Croatian                | Japanese          | Swedish             |
-| Czech                   |Kazakh Thai        | Thai                |
+| Czech                   | Kazakh Thai       | Thai                |
 | Danish                  | Korean            | Turkish             |
 | Dutch                   | Latvian           | Ukrainian           |
 | English                 | Lithuanian        | Vietnamese          |
@@ -113,6 +117,7 @@ To know the languages that are supported in analytics, see [Multi-language senti
 ### See also
 
 [Prerequisites and system requirements of Omnichannel for Customer Service](system-requirements-omnichannel.md)
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

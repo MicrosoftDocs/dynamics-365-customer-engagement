@@ -1,5 +1,5 @@
 ---
-title: "Enable the deal manager workspace preview - Sales Enterprise | MicrosoftDocs"
+title: "Enable the deal manager workspace preview | MicrosoftDocs"
 description: "As an administrator, enable the preview so that your sales teams can access the deal manager workspace and manage their pipelines efficiently."
 ms.date: 11/29/2021
 ms.topic: article
@@ -19,7 +19,7 @@ The new deal manger workspace helps sellers be more productive and efficient. As
 
 ## License and role requirements
 
-|  | |
+| &nbsp; | &nbsp; |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|

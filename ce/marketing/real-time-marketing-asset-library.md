@@ -1,7 +1,7 @@
 ---
 title: "Real-time marketing asset library (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to use the real-time marketing asset library in Dynamics 365 Marketing."
-ms.date: 11/10/2021
+ms.date: 12/16/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -20,10 +20,13 @@ search.app:
 
 # Real-time marketing asset library
 
-The centralized real-time marketing asset library lets you upload files that are automatically tagged by the app using AI. When authoring your email content, you can use the asset library's AI-driven suggestions to find the images that best complement your email content.
+The centralized real-time marketing asset library lets you upload images, videos, and documents. Images are automatically tagged using AI. When authoring email content, you can use the asset library's AI-driven suggestions to find the images that best complement your email content.
 
 > [!NOTE]
-> The asset library supports JPEG, GIF, and PNG images.
+> The asset library supports images (such as JPEG, GIF, and PNG files), videos (such as MP4, AVI, and MPEG files), and documents (such as Word documents, PowerPoint files, and Adobe PDFs). Learn more about supported file types: [Upload files other than images and videos](/dynamics365/commerce/dam-upload-files).
+
+> [!TIP]
+> Use of the asset library is provided with your Dynamics 365 Marketing license at no extra charge. Asset library files do not count against your Dataverse storage.
 
 ## Asset library features
 
@@ -32,7 +35,7 @@ The centralized real-time marketing asset library lets you upload files that are
 
 ### Quickly upload assets
 
-You can upload a single media file, bulk upload a few media files, or even upload an entire folder.
+You can upload a single file, bulk upload a few files, or even upload an entire folder.
 
 ### Export assets from outbound marketing to the asset library
 
@@ -55,9 +58,11 @@ Use tags to organize your assets as needed. All images uploaded into the library
 > [!div class="mx-imgBorder"]
 > ![Thumbnail asset library screenshot.](media/real-time-marketing-asset-library-full.png "Thumbnail asset library screenshot")
 
+For videos and documents, you will have to add tags manually.
+
 ### View assets in different ways
 
-Depending on your preferences, you can view your assets as a single photo, a thumbnail view, or a list view.
+Depending on your preferences, you can view your assets as a single file, a thumbnail view, or a list view.
 
 ### Update your assets when needed
 

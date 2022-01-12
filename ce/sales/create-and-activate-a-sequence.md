@@ -12,9 +12,10 @@ manager: shujoshi
 Every organization has its own selling processes for sellers to follow. A sequence helps sellers overcome any inconsistencies in training or lack of documentation as they progress through the sales journey. When you create a sequence, you define the activities you want your sellers to perform&mdash;and the order to perform them in&mdash;as they handle records. This lets sellers concentrate on selling and gives them a better understanding of what to do next.
 
 ## License and role requirements
-|  | |
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator or Sequence Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
@@ -206,7 +207,8 @@ Review the following requirements before you enable the **Exit the sequence** op
 ### See also
 
 [Create and manage sequences](create-manage-sequences.md)     
-[Adaptive sequences](adaptive-sequence.md)
+[Adaptive sequences](adaptive-sequence.md)    
+[Manage tags for sequences](manage-tags-for-sequences.md) 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

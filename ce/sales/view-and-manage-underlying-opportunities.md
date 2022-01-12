@@ -23,9 +23,9 @@ Getting visibility into the underlying opportunities that are contributing to th
 
 ## License and role requirements
 
-|  | |
+| &nbsp; | &nbsp; |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
@@ -97,7 +97,7 @@ With the enhanced grid, you can view and edit related entity records also. The f
 
     You can identify whether the selected opportunities belong to a team, an individual, a single cell value, or a full row by looking at the table heading. The format of the heading is described in the following table:
 
-    | Heading format | Description |
+    | **Heading format** | **Description** |
     |----------------|-------------|
     | Username (Group) – All opportunities | All the opportunities across different forecast categories that the selected user and that user's team own. |
     | Username - All opportunities | All the opportunities across different forecast categories that the selected user owns. |

@@ -1,7 +1,7 @@
 ---
 title: "Use sentiment prediction in unified routing | MicrosoftDocs"
 description: "Learn how to enable and use sentiment prediction in unified routing in Customer Service."
-ms.date: 10/07/2021
+ms.date: 12/27/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -97,7 +97,13 @@ Create route-to-queue rules to route the work items based on the sentiment predi
 
 1. For the workstream in which you created the rule based on sentiment prediction, in **Routing rules**, select **Create ruleset** or **See more** for **Route to queues** to create a rule. More information: [Configure route-to-queues rulesets and rules](configure-work-classification.md#configure-route-to-queues-rulesets-and-rules)
 
-2. Create a rule to define conditions. The **Sentiment Category** output attribute contains the sentiment prediction for the work item, and should be used in the rule builder to define the rule.Then and select the queue to which the work items need to be assigned when the conditions are met.
+2. Create a rule to define conditions. The **Sentiment Category** output attribute contains the sentiment prediction for the work item, and should be used in the rule builder to define the rule.
+   
+   > [!NOTE]
+   > If you've defined a condition on a routed record, make sure that you use the **Add row** option that's independent of the **Routed record** group.
+   > :::image type="content" source="media/choose-add-row-sentiment-category.png" alt-text="Choose add row option for sentiment category.":::
+
+3. Select the queue to which the work items need to be assigned when the conditions are met.
 
     :::image type="content" source="media/route-to-queue-sentiment.png" alt-text="Rules to categorize on sentiment and route to queue.":::
 

@@ -1,7 +1,7 @@
 ---
 title: "Run webinars and meetings with Microsoft Teams (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create and host live events in Dynamics 365 Marketing using Microsoft Teams as the webinar provider."
-ms.date: 11/29/2021
+ms.date: 01/04/2022
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -18,11 +18,13 @@ search.app:
   - D365Mktg
 ---
 
-# Set up a Microsoft Teams webinar
+# Set up a Microsoft Teams webinar in Dynamics 365 Marketing
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/RE4J4cV" frameborder="0" allowfullscreen=""></iframe></div>
 
 This article explains how to use Microsoft Teams as an online meetings provider for Dynamics 365 Marketing events. Teams event functionality is now incorporated directly into Marketing, allowing you to use Teams webinars for one/some to many online events, and Teams meetings for interactive online meetings.
+
+For general information about setting up Microsoft Teams, refer to the [Microsoft Teams deployment overview](/microsoftteams/deploy-overview).
 
 > [!NOTE]
 > To use Microsoft Teams as a webinar provider, you must have a [Microsoft 365 license](/office365/servicedescriptions/teams-service-description) that allows you access to the Teams service. If you do not have the correct license, you will not see the Teams Meeting, Teams Webinar, or Teams Live Event options as a part of the **Streaming providers** list.
@@ -35,11 +37,11 @@ To create a Teams event, select **Events** in the left navigation pane of the Ma
 > ![Screenshot of Azure resource groups.](./media/teams-webinar-stream2.png)
 
 > [!NOTE]
-> The field **Event Format** is hidden from the event form and is automatically set. Set the **Do you want to stream this event** toggle to **Yes**, and it will show the streaming options. If you are using a custom form, ensure that you hide this field and set the value to **Hybrid event**. 
+> The field **Event Format** is hidden from the event form and is automatically set. Set the **Do you want to stream this event** toggle to **Yes**, and it will show the streaming options. If you are using a custom form, ensure that you hide this field and set the value to **Hybrid event**.
 
 ## Event streaming options
 
-After you flip the **Do you want to stream this event** toggle to **Yes**, you will have three options for selecting the streaming provider.
+After you flip the **Do you want to stream this event** toggle to **Yes**, you will have three options for selecting the streaming provider: Teams webinars, Teams meetings, or Teams live events.
 
 ### Teams webinars
 
@@ -79,7 +81,7 @@ Read more: [Set up for webinars in Microsoft Teams](/microsoftteams/set-up-webin
 The default webinar settings are configured to provide the best attendee and presenter experience. However, you can easily tweak these settings from your Dynamics 365 Marketing event. To change the default settings, set the **Change meeting options** switch to **Yes**. This reveals the settings for the webinars, which can be tweaked on a per-event basis.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Webinar settings.](./media/teams-webinar-settings.png)
+> ![Screenshot of Webinar settings.](./media/teams-webinar-webinar-settings.png)
 
 Read more: [Manage meeting settings in Microsoft Teams](/microsoftteams/meeting-settings-in-teams)
 
@@ -123,7 +125,17 @@ The discrepancies in appearance are styling issues that won't limit the function
 
 ### Teams meetings
 
-The Teams meetings option allows you to create an interactive online meeting experience where all attendees can share audio, video, or content. More information about Teams meetings: [Meetings in Microsoft Teams](/microsoftteams/tutorial-meetings-in-teams)
+The Teams meetings option allows you to create an interactive online meeting experience where all attendees can share audio, video, or content. More information about Teams meetings: [Meetings in Microsoft Teams](/microsoftteams/tutorial-meetings-in-teams).
+
+After selecting Teams meetings as the streaming provider for your event, you can view and edit the meeting options inside Dynamics 365 Marketing, just as you would with a webinar.
+
+> [!div class="mx-imgBorder"]
+> ![Teams meeting settings.](./media/teams-webinar-meetings-settings.png)
+
+After you save your event, your settings will be reflected in your Teams calendar item.
+
+> [!NOTE]
+> Synchronization between Teams and Dynamics 365 Marketing is one-directional: from Dynamics 365 Marketing to Teams. The Teams calendar item for your event is read-only. Any changes you make in Teams may be overwritten by Dynamics 365 Marketing. Make sure to manage and edit your meeting only from the Marketing app.
 
 ### Teams live events
 

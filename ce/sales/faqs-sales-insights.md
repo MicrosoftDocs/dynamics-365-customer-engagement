@@ -2,7 +2,7 @@
 title: "Frequently asked questions for Sales Insights"
 description: "Find a list of frequently asked questions that are related to different features in Sales Insights add-in for Dynamics 365 Sales."
 keywords: ""
-ms.date: 11/10/2021
+ms.date: 01/10/2022
 ms.custom: 
 ms.topic: article
 author: udaykirang
@@ -126,6 +126,24 @@ Depending on the region where your organization is hosted, data is stored in the
 
 More information: [Azure Regional Pairs](/azure/best-practices-availability-paired-regions#azure-regional-pairs)
 
+## Digital sales
+
+### What is digital sales?
+
+If you are a customer using a Dynamics 365 Sales Enterprise, Microsoft Relationship Sales, or Customer Engagement plan, you can now get started with three new Dynamics 365 Sales Premium features to help enhance your digital selling programs. We are adding conversation intelligence, sales accelerator with sequences, and predictive scoring at a limited capacity to get you started. More information: [Digital selling capabilities in Sales Enterprise](digital-selling.md)
+
+### What's the capacity limit in using digital sales?
+
+When you set up Sales Premium features using your Dynamics 365 Sales Enterprise license, the features are available with the following capacity limits:
+
+- Sales accelerator provides access to the workspace and up to 1500 records connected to any defined sequence per environment per month. Manual activities not connected to a sequence will also be displayed without a capacity limit.
+- Users who access and utilize conversation intelligence will be able to do so with 3 hours per user per month.
+- View up to 1500 leads or opportunity records scored per environment per month with predictive scoring.
+
+### How to get full capacity of digital sales?
+
+If you need more capacity, upgrade to Dynamics 365 Sales Premium. More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/)
+
 ## Assistant
 
 ### Why am I getting insufficient permissions alert while using an Insight card?
@@ -246,16 +264,22 @@ Relationship analytics uses data from Dynamics 365 for Sales. Optionally, it inc
 
 ### How do I enable Relationship analytics?​
 Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] and enable the Relationship analytics feature from  **Settings** > **AI setup**.​    
-
 ### What is the frequency of KPI updates?
 KPIs are updated every 24 hours, potentially fewer.​  
 
 ### What are the signals in relationship health?​
 Relationship health looks at activity, recency, engagement, and sentiment of activities between sellers and customers.​   
 
-### Can I configure relationship health?​
-
+### Can I configure relationship health?​   
 An administrator can influence the relationship health score by changing the weight of activity types and the expected level of communications with customers.
+
+### How are similar won deals identified? <a name="similar-won-deals-fields"></a>  
+AI models are used to identify the factors that impact the identification of similar won deals. The factors may differ from organization to organization based on the custom and out-of-the-box fields.   
+To view the fields that determine the similar won deals at that point in time, select the information icon corresponding to any section heading and a side pane opens with the field information.
+
+> [!div class="mx-imgBorder"]
+> ![About relationship analytics side pane with fields](media/faq-sa-about-relationship-analytics-side-pane-fields.png "About relationship analytics side pane with fields")   
+
 
 ## Predictive lead/opportunity scoring   
 
@@ -284,12 +308,10 @@ The grade is just grouping scores in four buckets that the admin can configure.
 ### What do I need in order to use Notes analysis?​
 Notes analysis requires Microsoft 365.​
 
-### How do I enable Notes analysis?​
-
+### How do I enable Notes analysis?​  
 Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] and enable the Notes analysis feature from **Settings** > **AI setup**.​
 
-### What does Notes analysis look at for the intent?​
-
+### What does Notes analysis look at for the intent?​   
 Notes analysis looks at notes and posts on the timeline for the intent that may indicate a record should be created. Notes analysis looks for meeting requests, meetings, tasks, and contacts.
 
 ## Talking points
@@ -301,8 +323,7 @@ Talking points require Microsoft 365 Exchange and a configured server-side sync 
 ### How do I enable Talking points?​
 Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] and enable the Talking points feature from **Settings** > **AI setup**.​
 
-### What do Talking points look at for the conversation starters?​
-
+### What do Talking points look at for the conversation starters?​   
 Talking points look at the inbox of the signed-in user for emails from the contact list that includes conversational topics relating to sports, entertainment, and health.​
 
 ### How is my privacy protected?
@@ -334,7 +355,7 @@ Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insi
 It takes about one to three days for results to populate the graph the first time. Later, updates take three to six days, depending on the new activities included in the graph.​
 
 ### ​Who will be included in the graph?
-Everyone in the tenant is included in the graph. Administrators or users have the option to opt out users or groups such as C-suite, M&A, finance, and so on. To opt out of the connection graph, see [Opt out of connection graph](configure-who-knows-whom.md#opt-out-of-the-connection-graph).​
+Everyone in the tenant is included in the graph. Administrators or users have the option to opt out users or groups such as C-suite, M&A, finance, and so on. To opt out of the connection graph, see [Opt out of connection graph](who-knows-whom.md#opt-out-of-the-connection-graph).​
 
 ### ​How are the connections weighted?
 The connection strength is weighted by a combination of how well the signed-in user knows the intermediary, and how well the intermediary knows the target contact or lead. This means that a salesperson might not see the same results as another salesperson does, because they know different people in the organization.
@@ -351,7 +372,7 @@ The insights are generated within the Exchange Online system, so we follow the s
 The service is fully GDPR-compliant. Dynamics 365 won't cache any data on its side, and the data is queried every time a page is loaded with who knows whom.
 
 ### How do I opt out?
-You can choose to opt out of the connection graph. More information: [Opt out of the connection graph](configure-who-knows-whom.md#opt-out-of-the-connection-graph).
+You can choose to opt out of the connection graph. More information: [Opt out of the connection graph](who-knows-whom.md#opt-out-of-the-connection-graph).
 
 ### How does an Exchange administrator exclude users?
 The Exchange administrator can provide the Azure AD group that contains all the users that they want to exclude (for example, CEOs or vice presidents). 

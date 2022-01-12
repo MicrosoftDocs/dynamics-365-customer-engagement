@@ -1,7 +1,7 @@
 ---
 title: "Configure predictive lead scoring"
 description: "Configure predictive lead scoring to help sellers prioritize leads based on scores and achieve higher lead qualification rates."
-ms.date: 09/27/2020
+ms.date: 01/10/2022
 ms.custom: 
 ms.topic: article
 ms.assetid: 8660ca75-c63c-495d-a1a6-d3a0cd36f7cb
@@ -19,9 +19,10 @@ topic-status: Drafting
 Configure predictive lead scoring to help sellers prioritize leads based on scores and achieve higher lead qualification rates.
 
 ## License and role requirements
-|  | |
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
@@ -59,6 +60,8 @@ Verify that you meet the following requirement before adding predictive lead sco
 
     >[!NOTE]
     >These numbers represent the minimum requirement. The more leads you can include to train the model, the better the prediction results will be.
+
+- Verify that advanced Sales Insights features are enabled. More information: [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)
 
 ## Understand the configuration page
 
@@ -139,10 +142,10 @@ However, if your organization has enough leads that match the application defaul
 
 If you're using custom attributes for lead generation, you can generate the model by configuring the parameters with your custom attributes.
 
->[!NOTE]
->Before you configure the model, review the [prerequisites](#prerequisites).
-
-1. Verify that advanced Sales Insights features are enabled. More information: [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)
+1. Before you configure the model, review the [prerequisites](#prerequisites).
+ 
+    > [!NOTE]
+    > You can also enable predictive lead scoring through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get 1500 scored records per month. To enable predictive lead scoring through quick setup, you must go to the **Get started with digital sales page** under **App Settings**. More information: [Lead and opportunity scoring](digital-selling.md#lead-and-opportunity-scoring)
 
 2. Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
 
