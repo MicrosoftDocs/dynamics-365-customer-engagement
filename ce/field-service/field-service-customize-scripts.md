@@ -43,12 +43,8 @@ Some scenarios where you would write a plugin are −
 
 ## Step 1: Understand the risks of writing custom scripts
 
-Adding plugins and JavaScript to your Field Service app requires a lot of caution. In fact, too many scripts or poorly written scripts is the top reason 
+Adding plugins and JavaScript to your Field Service app requires a lot of caution. In fact, too many scripts or poorly written scripts is the top reason for poor performance, errors, and troubled Field Service implementations. It is recommended to only write scripts if the customization is absolutely critical to run your Field Service operation.
 
-- performance issues
-- errors
-- supportability
-- time and cost
 
 ## Step 2: Check if Field Service or Dynamics 365 can accomplish the requirement 
 
