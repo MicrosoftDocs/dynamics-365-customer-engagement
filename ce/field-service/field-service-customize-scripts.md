@@ -30,7 +30,7 @@ Implementing complex business logic typically involves writing [plugins](https:/
 
 A plug-in is a custom business logic that integrates with Microsoft Dynamics 365 to modify or extend the standard behavior of the platform. Plug-ins act as event handlers and are registered to execute on a particular event in CRM. Plugins are written in either C# or VB and can run either in synchronous or asynchronous mode.
 
-Some scenarios where you would write a plugin are −
+Some scenarios where you could write a plugin are: 
 
 - You want to execute some business logic such as updating certain fields of a record or updating related records, etc. when you create or update a Dynamics 365 record.
 - You want to call an external web service on certain events such as saving or updating a record.
@@ -43,11 +43,12 @@ Some scenarios where you would write a plugin are −
 
 ## Step 1: Understand the risks of writing custom scripts
 
-Adding plugins and JavaScript to your Field Service app requires a lot of caution. In fact, too many scripts or poorly written scripts is the top reason for poor performance, errors, and troubled Field Service implementations. It is recommended to only write scripts if the customization is absolutely critical to run your Field Service operation.
+> [!Note]
+> Adding plugins and JavaScript to your Field Service app requires a lot of caution. In fact, too many scripts or poorly written scripts is the top reason for poor performance, errors, and troubled Field Service implementations. It is recommended to only write scripts if the customization is absolutely critical to run your Field Service operation. Read this article and related content thoroughly before, during and after writing scripts.
 
 
 ## Step 2: Check if Field Service or Dynamics 365 can accomplish the requirement 
-
+Before writing a plugin or JavaScript web resource it is important to check if the Field Service app or another Dynamics 365 can accomplish the same or similar function. Unfortuantely many people write scripts to accomplish functions that already exist. Not only is this a waste of time and money, but duplicate processes can cause errors and performance issues.
 
 
 ## Step 3: Try using platform options
