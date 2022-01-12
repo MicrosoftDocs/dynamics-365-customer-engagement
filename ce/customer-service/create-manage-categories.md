@@ -49,8 +49,6 @@ You can create a category either on the Customer Service Hub or on Customer Serv
 
 ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
----
-
 > [!IMPORTANT]
 > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
