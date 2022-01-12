@@ -1,7 +1,7 @@
 ---
 title: "International availability of Omnichannel for Customer Service | MicrosoftDocs"
 description: "This topic contains information on the availability of Omnichannel for Customer Service in different geographical locations and languages."
-ms.date: 12/30/2021
+ms.date: 01/12/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -35,8 +35,9 @@ Omnichannel for Customer Service October 2021 update is available in the followi
 | Australia                                 |   October 08, 2021   |
 | Canada                                    |   October 01, 2021   |  
 | Europe                                    |   October 15, 2021   |
+| France                                    |   October 01, 2021
 | Germany                                   |   October 01, 2021   |
-| Government Community Cloud (GCC)          |   November 27, 2021   |
+| Government Community Cloud (GCC)          |   January 09, 2022   |
 | India                                     |  October 01, 2021    |
 | Japan                                     |   October 08, 2021   |
 | North America                             |   October 22, 2021   |
@@ -71,43 +72,6 @@ Omnichannel for Customer Service April 2021 update is available in the following
 > [!Note]
 >
 > Omnichannel for Customer Service is currently not available in a tenant that's located in Brazil, Norway, or Singapore.
-
-### October 2020 update
-
-Omnichannel for Customer Service October 2020 update is available in the following regions.
-
-|   Geographic location                     |            Date      |
-|-------------------------------------------|----------------------|
-| Asia Pacific                              |   October 12, 2020   |
-| Australia                                 |   October 12, 2020   |
-| Canada                                    |   October 12, 2020   |  
-| Europe                                    |   October 12, 2020   |
-| Germany                                   |   November 06, 2020  |
-| GCC                                       |   October 12, 2020   |  
-| Japan                                     |   October 12, 2020   |
-| North America                             |   October 12, 2020   |
-| South America                             |   October 12, 2020   |
-| UAE                                       |   October 12, 2020   |
-| United Kingdom                            |   October 12, 2020   |
-|||
-
-### April 2020 update
-
-Omnichannel for Customer Service April 2020 update is available in the following regions.
-
-|   Geographic location                     |            Date      |
-|-------------------------------------------|----------------------|
-| Canada                                    |   April 06, 2020     |  
-| South America                             |   April 06, 2020     |  
-| Asia Pacific                              |   April 14, 2020     |
-| Australia                                 |   April 14, 2020     |
-| Japan                                     |   April 14, 2020     |
-| Europe                                    |   April 16, 2020     |
-| United Kingdom                            |   April 16, 2020     |
-| North America                             |   April 19, 2020     |
-| GCC                                       |   June 24, 2020      |
-| UAE                                       |   June 26, 2020      |
-|||
 
 ## Language availability
 
