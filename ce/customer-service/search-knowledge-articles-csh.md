@@ -366,7 +366,7 @@ When you are working on a case and refer to an article from the **Knowledge Base
 
     ![Provide comments.](media/ka-rating-feedback-provide-comments.png "Provide comments")
 
-To set up the feedback control, see [Set up knowledge management (Customer Service Hub)](set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-management-customer-service-hub).
+To set up the feedback control, see [Set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-management).
 
 ### See also
 

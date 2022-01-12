@@ -55,14 +55,14 @@ You can enable search filters for your knowledge articles either on the Customer
 > [!IMPORTANT]
 > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-      1. Select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
-      1. In the **General settings** section, select **Manage**.
-      1. On the **General settings** page, go to the **Filters** section.
+  1. Select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+  1. In the **General settings** section, select **Manage**.
+  1. On the **General settings** page, go to the **Filters** section.
 
 ### [Customer Service Hub](#tab/customerservicehub)
 
-      1. Go to **Service Management**, and select **Settings** in **Knowledge Base Management**.
-      1. On the Settings page, go to the **Knowledge articles search filters** section.
+  1. Go to **Service Management**, and select **Settings** in **Knowledge Base Management**.
+  1. On the Settings page, go to the **Knowledge articles search filters** section.
 
 ---
 
