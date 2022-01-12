@@ -55,20 +55,21 @@ You can enable search filters for your knowledge articles either on the Customer
 > [!IMPORTANT]
 > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-  * On the Customer Service admin center (preview) site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
-  * In the **General settings** section, select **Manage**.
-  * On the **General settings** page, go to the **Filters** section.
+  1. On the Customer Service admin center (preview) site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+  1. In the **General settings** section, select **Manage**.
+  1. On the **General settings** page, go to the **Filters** section.
 
 ### [Customer Service Hub](#tab/customerservicehub)
 
-   * On the Customer Service Hub site map, go to **Service Management**, and select **Settings** in **Knowledge Base Management**.
-   * On the Settings page, go to the **Knowledge articles search filters** section.
+   1. On the Customer Service Hub site map, go to **Service Management**, and select **Settings** in **Knowledge Base Management**.
+   1. On the Settings page, go to the **Knowledge articles search filters** section.
 
 ---
 
 2. Set **Enable search filters** to **Yes**, and then select **Save**.
-3. To enable agents to personalize knowledge article search filters in Customer Service Hub, Customer Service workspace, and Omnichannel for Customer Service, set the **Allow agents to personalize the knowledge articles search filters** option to **Yes**.
-4. Go to the **Filters** page.
+
+1. To enable agents to personalize knowledge article search filters in Customer Service Hub, Customer Service workspace, and Omnichannel for Customer Service, set the **Allow agents to personalize the knowledge articles search filters** option to **Yes**.
+1. Go to the **Filters** page.
 ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
   * From the **Knowledge** page, go to **Filters** and select **Manage**.

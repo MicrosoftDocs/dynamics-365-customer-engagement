@@ -1,7 +1,7 @@
 ---
 title: Understand Knowledge Management in Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: Understand Knowledge Management in Customer Service Hub for Customer Service Dynamics 365 Customer Service
-ms.date: 12/21/2021
+ms.date: 01/12/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -48,9 +48,9 @@ The following diagram describes the default process for creating and using knowl
 
 ## Create a knowledge article
 
-Turn your customer questions, issues, and feedback into knowledge articles, so other service reps can benefit from them. Add images and videos to your articles to explain things better and make the articles engaging.  You can author, edit, search, publish, and translate the knowledge articles in the Customer Service Hub. 
+Turn your customer questions, issues, and feedback into knowledge articles, so other service reps can benefit from them. Add images and videos to your articles to explain things better and make the articles engaging.  You can author, edit, search, publish, and translate the knowledge articles in the Customer Service Hub.
   
-1. Make sure you have Create and Read permissions on the Knowledge Article entity. By default, these permissions are added to the roles of knowledge manager, customer service manager, or customer service representative.  
+Make sure you have Create and Read permissions on the Knowledge Article entity. By default, these permissions are added to the roles of knowledge manager, customer service manager, or customer service representative.  
   
 2. In the Customer Service Hub sitemap, go to **Service** > **Knowledge Articles**.
  
@@ -340,10 +340,27 @@ For users to be able to view and download file attachments, you'll need to grant
 
 ### Update knowledge article attachments for portal
 
-With this new attachment capability, you'll need to stop using notes attachments for the portal. To use knowledge article attachments for the portal, you must enable the feature by doing the following:
+With this new attachment capability, you'll need to stop using notes attachments for the portal. To use knowledge article attachments for the portal, you must enable the feature either on the Customer Service Hub or on Customer Service admin center (preview) app. Depending on your app, perform the following steps:
 
-1. Go to **Customer Service Hub**, and then select **Service management** > **Knowledge Management** > **Settings**.
-2. Under **Sync knowledge article attachments to portal**, toggle **Sync attachments to portal** to **Yes**.
+1. Go to the **Sync knowledge article attachments to portal** section.
+
+### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+
+> [!IMPORTANT]
+> The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+  * On the Customer Service admin center (preview) site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+  * In the **Portals** section, select **Manage**. The **Portal** page appears.
+  * On the **Portals** page, go to the **Sync knowledge article attachments to portal** section.
+
+### [Customer Service Hub](#tab/customerservicehub)
+
+   * On the Customer Service Hub site map, go to **Service Management** and select **Settings** in **Knowledge Base Management**. The **Settings** page appears.
+   * On the **Settings** page, go to the **Sync knowledge article attachments to portal** section.
+
+---
+
+1. Set the **Sync attachments to portal** toggle to **Yes**.
 3. Select **Save**.
 
 On syncing knowledge article attachments to the portal:

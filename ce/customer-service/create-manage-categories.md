@@ -1,7 +1,7 @@
 ---
 title: Create and manage categories (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to create and manage categories for Customer Service.
-ms.date: 01/11/2022
+ms.date: 01/12/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -48,6 +48,8 @@ You can create a category either on the Customer Service Hub or on Customer Serv
 2. Go to **Categories**.
 
 ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+
+---
 
 > [!IMPORTANT]
 > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
