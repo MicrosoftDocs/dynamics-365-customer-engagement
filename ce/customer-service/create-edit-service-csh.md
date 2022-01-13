@@ -41,7 +41,7 @@ Make sure that you have the required security role or equivalent permissions.
 > [!IMPORTANT]
 > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-  1. On the Customer Service admin center (preview) site map, select **Operations > Sevice scheduling**.
+  1. On the Customer Service admin center (preview) site map, select **Operations > Service scheduling**.
   1. On the **Service scheduling > Service** section, select **Manage**. 
    The Active Services view is displayed. You can switch between various system views using the drop-down menu.
  
