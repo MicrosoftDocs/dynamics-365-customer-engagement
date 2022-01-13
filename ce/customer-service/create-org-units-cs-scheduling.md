@@ -1,7 +1,7 @@
 ---
 title: Create organizational units in Service Scheduling (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to create organizational units in service scheduling in Dynamics 365 Customer Service
-ms.date: 11/20/2018
+ms.date: 01/13/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -27,6 +27,8 @@ Make sure that you have the required security role or equivalent permissions.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage security roles in service scheduling](manage-security-roles.md)
 
+1. Navigate to either on the Customer Service Hub or on Customer Service admin center (preview) app. Depending on your app, perform the following steps:
+
 ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
 > [!IMPORTANT]
@@ -44,17 +46,17 @@ Make sure that you have the required security role or equivalent permissions.
 
 ---
 
-3. On the command bar, select **New** to create a new organizational unit.
+2. On the command bar, select **New** to create a new organizational unit.
 
-4. In the **General** section:
+3. In the **General** section:
 
    - Type a **Name** for the organizational unit.
 
-5. In the **Scheduling** section:
+4. In the **Scheduling** section:
 
    - Provide **Latitude** and **Longitude** for the organizational unit.
 
-7. Select **Save** to save the new organizational unit. The new record is saved and activated by default.
+5. Select **Save** to save the new organizational unit. The new record is saved and activated by default.
 
    Active organizational units can be edited, assigned, shared, or viewed from the **Active Organizational Units** system view.
 
