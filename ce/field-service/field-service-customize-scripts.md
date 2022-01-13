@@ -37,7 +37,7 @@ Some scenarios where you could write a plugin are:
 - You want to dynamically calculate the field values when any record is opened.
 - You want to automate processes such as sending e-mails to your customers on certain events in CRM.
 
-**JavaScript** is one of the ways to apply custom business process logic for displaying data on a form in Dynamics 365. In the context of Field Service, developers may add JavaScript to the work order and booking forms to enforce business logic. They may also add JavaScript to the Schedule Board to create [booking rules](set-up-booking-rules) that perform validations when a booking
+**JavaScript** is one of the ways to apply custom business process logic for displaying data on a form in Dynamics 365. In the context of Field Service, developers may add JavaScript to the work order and booking forms to enforce business logic. They may also add JavaScript to the Schedule Board to create booking rules that perform validations when a booking is created on the schedule board (see note at the end of this article).
 
 
 
@@ -85,12 +85,22 @@ Next, use [Plug-in Profiler](https://docs.microsoft.com/en-us/powerapps/develope
 - create a custom model driven app or canvas app (powerapp)
 - do not edit or delete existing form libraries 
 
+
+
+## Form libraries
+
+Many Field Service entities, like work orders (as shown in the image below), have JavaScript form libraries that are included by default with Field Service. These libraries perform important processes.
+
+> [!Note]
+> Do not edit or delete form libraries.
+
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customization-form-libraries.png)
 
-## JavaScript on the Schedule board 
+## JavaScript on the Schedule board (Booking rules)
 
-It is recommended to not create more than 1 booking rule. Instead think about using booking alerts. 
+Booking rules are a way of using JavaScript to perform validations on the schedule board. However just like using JavaScript on other forms like work orders, you must use caution. It is recommended to not create more than 1 booking rule. Consider using [booking alerts](booking-alert) to alert dispatchers of issues instead. 
 
 ### See also
 
