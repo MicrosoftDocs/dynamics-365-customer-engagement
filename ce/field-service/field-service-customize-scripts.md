@@ -55,7 +55,7 @@ Before writing a plugin or JavaScript web resource it is important to check if t
 
 Before writing a custom script, try to accomplish your requirement with platform options like Power Automate, workflows and business rules. Can't fulfill your requirement with platform options? Decide if a workflow can get close enough to help your business. Using platform options is more scalable, supportable, is less likely to break with upgrades, and is better for performance.
 
-View the following topic to understand [when to use plugins, advantages and disadvantages compared to workflows](https://docs.microsoft.com/en-us/powerapps/developer/data-platform/plug-ins#when-to-use-plug-ins).
+View the following topic to understand [when to use plugins or workflows](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/best-practices-sdk?view=op-9-1#when-to-use-plug-ins-vs-workflow).
 
 ## Step 4: Review best practices before writings plugins or scripts
 
@@ -63,12 +63,15 @@ Many best practices have been established from experience with developers across
 
 - [Best practices and guidance regarding plug-in and workflow development for the Microsoft Dataverse](https://docs.microsoft.com/powerapps/developer/data-platform/best-practices/business-logic/)
 - [Best practices and guidance of client side scripting for model-driven apps](https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/best-practices/business-logic/)
+- [Best practices for developing with Dynamics 365 Customer Engagement](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/best-practices-sdk?view=op-9-1)
 - [Make intelligent customizations when you use JavaScript on forms](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/design-performant-forms#javascript-customization)
 - [Scalable Customization Design in Microsoft Dataverse](https://docs.microsoft.com/en-us/powerapps/developer/data-platform/scalable-customization-design/overview)
 
 ## Step 5: Use tools to test your scripts
 
-[Use solution checker to validate your model-driven apps in Power Apps](https://docs.microsoft.com/powerapps/maker/data-platform/use-powerapps-checker)
+After writing scripts it is required to test them.
+
+First [use Solution Checker to validate your model-driven apps in Power Apps](https://docs.microsoft.com/powerapps/maker/data-platform/use-powerapps-checker). This will identify if the scripts voilate best practices like running [synchronously instead of asynchronously](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/best-practices-sdk?view=op-9-1#when-to-use-plug-ins-vs-workflow). 
 
 Use the built-in CRM Plugin Trace Functionality and plugin profiler - For Online Dynamics 365, we can use the Plugin Registration Tool. Install Plugin Profiler in PRT using Install Profiler to get started. 
 
