@@ -41,6 +41,7 @@ Make sure that you have the required security role or equivalent permissions.
 
      1. On the Customer Service Hub site map, go to **Scheduling**.
      2. From the list of entity records, select **Settings > Organizational Units**.
+     
        - The **Active Organizational Units** view is displayed. You can switch between various system views using the drop-down.
        - Select any existing organizational unit to see additional options in the command bar
 
