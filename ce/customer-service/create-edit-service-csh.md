@@ -1,7 +1,7 @@
 ---
 title: Create or change a service in Service Scheduling (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to create or change a service in service scheduling in Dynamics 365 Customer Service
-ms.date: 11/20/2018
+ms.date: 01/13/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -34,21 +34,37 @@ Make sure that you have the required security role or equivalent permissions.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage security roles in service scheduling](manage-security-roles.md)
 
-1. In the Customer Service Hub sitemap, go to **Scheduling**.
-2. From the list of entity records, select **Scheduling > Service**.
-   - The **Active Services** view is displayed. You can switch between various system views using the drop-down menu.
-   - Select any existing service to see additional options in the command bar
+1. Navigate to either on the Customer Service Hub or on Customer Service admin center (preview) app. Depending on your app, perform the following steps:
+ 
+ ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
-3. On the command bar, select **New** to create a new service. To edit a service, open a service from the list.  
+> [!IMPORTANT]
+> The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+  1. On the Customer Service admin center (preview) site map, select **Operations > Sevice scheduling**.
+  1. On the **Service scheduling > Service** section, select **Manage**. 
+   The Active Services view is displayed. You can switch between various system views using the drop-down menu.
+ 
+
+### [Customer Service Hub](#tab/customerservicehub)
+
+   1. On the Customer Service Hub site map, go to **Scheduling**.
+   1. From the list of entity records, select **Scheduling > Service**.
+      - The **Active Services** view is displayed. You can switch between various system views using the drop-down menu.
+      - Select any existing resource category to see additional options in the command bar
+
+---
+
+2. On the command bar, select **New** to create a new service. To edit a service, open a service from the list.  
   
-4. In the **General** section, enter a **Name** and **Description** to reflect the specifics of the service and describe what the service is. </br>
+3. In the **General** section, enter a **Name** and **Description** to reflect the specifics of the service and describe what the service is. </br>
 
    Also, specify the initial status of the service activity when it is created. If your organization prefers to approve all service activities before committing them to the schedule, you can select **Requested** or **Tentative**.
 
    > [!NOTE]
    > The status reason also reflects in the schedule board when you create a booking for the service.
 
-5. Select **Save** to save the service.
+4. Select **Save** to save the service.
 
    ![Create a service.](media/create-service-csh.png)
 
@@ -58,14 +74,14 @@ Make sure that you have the required security role or equivalent permissions.
 
       ![Resource requirement.](media/resource-requirement-csh.png)
 
-      - Select **All** or **Any**. All selects resources for all the underlying requirements and Any selects resources for any one of underlying requirement.
+      -Select **All** or **Any**. All selects resources for all the underlying requirements and Any selects resources for any one of underlying requirement.
 
-      - Select **Duration**, and enter the duration in minutes to define the duration for which resources are allocated for the service. 
+      -Select **Duration**, and enter the duration in minutes to define the duration for which resources are allocated for the service. 
 
         > [!NOTE]
         > The maximum duration of a service activity is 10 days.
 
-      - Lookup or quick create a **Fulfillment Preference** to define the start time and end time of the service availability in a day and intervals in which it is provided. You can also choose from a list of fulfillment preferences displayed. 
+      -Lookup or quick create a **Fulfillment Preference** to define the start time and end time of the service availability in a day and intervals in which it is provided. You can also choose from a list of fulfillment preferences displayed. 
         > [!NOTE]
         > When you select create, a **Quick Create** form is displayed where you can quickly create a new fulfillment preference.
 
