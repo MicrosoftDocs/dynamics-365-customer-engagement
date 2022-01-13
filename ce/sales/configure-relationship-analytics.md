@@ -41,17 +41,13 @@ Relationship analytics provides graphical representation of KPIs and activity hi
     > [!div class="mx-imgBorder"]
     > ![Enable the relationship assistant for your organization](media/si-admin-relationship-analytics-enable-in-organization.png "Enable the relationship assistant for organization")  
     
-    > [!NOTE]
-    > **Data sources** and **Relationship analytics with modern design and similar opportunities** are enabled by default.  
-    
     The application takes few seconds to enable relationship analytics for your organization. After relationship analytics is enabled, you can configure the parameters as required.    
 
-    <a name="configure-similar-opportunities-preview"></a>By default, the view similar opportunities option is enabled and you can view the **Relationship analytics with modern design and similar opportunities** section for more information. The enhanced experience is available by default for contacts, opportunities, leads, and accounts.   
+    <a name="configure-similar-opportunities-preview"></a>By default, the data sources and view similar opportunities options are enabled. You can view the **Relationship analytics with modern design and similar opportunities** section for more information.    
+    The enhanced experience is available by default for contacts, opportunities, leads, and accounts. Users in your organization can see an improved relationship analytics tab for opportunities. The tab displays customer interaction KPIs along with suggestions calculated from similar won opportunities through AI-driven models.  
 
     > [!div class="mx-imgBorder"]
     > ![Enable to view similar opportunities](media/relationship-analytics-enable-preview-similar-opportunities.png "Enable to view similar opportunities") 
-    
-    Users in your organization can see an improved relationship analytics tab for opportunities. The tab displays customer interaction KPIs along with suggestions calculated from similar won opportunities through AI-driven models.   
     
     > [!NOTE]
     > - You must have at least 30 won and 30 lost opportunities to compare with existing opportunities.
