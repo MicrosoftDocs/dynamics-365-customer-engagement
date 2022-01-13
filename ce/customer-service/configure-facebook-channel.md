@@ -31,7 +31,7 @@ The following prerequisites must be met before you configure the Facebook channe
 
 The following Facebook roles and permissions are required for integrating your Facebook app with Omnichannel for Customer Service.
 
-- If the version of the Facebook app that you’re using is currently under development, then only those users who have roles within the app can send messages to the Facebook page, and the messages can be received by Omnichannel for Customer Service. If a Facebook user doesn’t have any roles in the app, then messages can’t be forwarded to Omnichannel for Customer Service. More information: https://developers.facebook.com/docs/development/build-and-test/app-roles/ 
+- If the version of the Facebook app that you’re using is currently under development, then only those users who have roles within the app can send messages to the Facebook page, and the messages can be received by Omnichannel for Customer Service. If a Facebook user doesn’t have any roles in the app, then messages can’t be forwarded to Omnichannel for Customer Service. More information: [App roles](https://developers.facebook.com/docs/development/build-and-test/app-roles/)
 
 - Users who don’t have a role in the Facebook app must have pages_messaging permission in order to send messages to a Facebook page from Omnichannel for Customer Service. When this permission requirement is met, the messages can be forwarded to Omnichannel for Customer Service. More information: [pages_messaging](https://developers.facebook.com/docs/permissions/reference/pages_messaging/)
 
@@ -39,7 +39,7 @@ The following Facebook roles and permissions are required for integrating your F
 
 ## Configure a Facebook channel in Omnichannel admin center
 
-To add the Facebook channel instance, you must configure the channel account by performing the following steps:
+**To configure the Facebook channel account in Omnichannel admin center**
 
 1. In the site map, select **Channels** under **General settings**, and on the **Accounts and channels** page, select **Add account**.
 2. Enter the following details:
@@ -80,10 +80,10 @@ To add the Facebook channel instance, you must configure the channel account by 
 
 After completing the prerequisites, you can add the Facebook channel for your organization by following these steps:
 
-1. Create a Facebook workstream  
-2. Create a Facebook channel
-3. Create routing rules
-4. Modify settings for a specific Facebook page
+1. [Create a Facebook workstream](#create-a-facebook-workstream)  
+2. [Create a Facebook channel](#create-a-facebook-channel)
+3. [Create routing rules](#create-routing-rules)
+4. [Modify settings for a specific Facebook page](#modify-settings-for-a-specific-facebook-page)
 
 ### Create a Facebook workstream
 
