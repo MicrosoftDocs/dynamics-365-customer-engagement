@@ -71,12 +71,9 @@ Many best practices have been established from experience with developers across
 
 After writing scripts it is required to test them.
 
-First [use Solution Checker to validate your model-driven apps in Power Apps](https://docs.microsoft.com/powerapps/maker/data-platform/use-powerapps-checker). This will identify if the scripts voilate best practices like running [synchronously instead of asynchronously](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/best-practices-sdk?view=op-9-1#when-to-use-plug-ins-vs-workflow). 
+First [use Solution Checker to validate your model-driven apps in Power Apps](https://docs.microsoft.com/powerapps/maker/data-platform/use-powerapps-checker). This will identify if the scripts violate best practices like running [synchronously instead of asynchronously](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/best-practices-sdk?view=op-9-1#when-to-use-plug-ins-vs-workflow). 
 
-Use the built-in CRM Plugin Trace Functionality and plugin profiler - For Online Dynamics 365, we can use the Plugin Registration Tool. Install Plugin Profiler in PRT using Install Profiler to get started. 
-
-[Analyze plug-in performance](https://docs.microsoft.com/en-us/powerapps/developer/data-platform/analyze-performance)
-
+Next, use [Plug-in Profiler](https://docs.microsoft.com/en-us/powerapps/developer/data-platform/tutorial-debug-plug-in?tabs=prt) to debug issues.
 
 
 ## Summary of recommended best practices
@@ -102,3 +99,4 @@ It is recommended to not create more than 1 booking rule. Instead think about us
 - [Script (JScript) web resources](https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/script-jscript-web-resources)
 - [Use plug-ins to extend business processes](https://docs.microsoft.com/en-us/powerapps/developer/data-platform/plug-ins)
 - [Access external web services](https://docs.microsoft.com/en-us/powerapps/developer/data-platform/access-web-services)
+- [Analyze plug-in performance](https://docs.microsoft.com/en-us/powerapps/developer/data-platform/analyze-performance)
