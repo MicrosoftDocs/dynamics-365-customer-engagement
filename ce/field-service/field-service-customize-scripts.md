@@ -59,9 +59,8 @@ View the following topic to understand [when to use plugins, advantages and disa
 
 ## Step 4: Review best practices before writings plugins or scripts
 
-Many best practices have been established from experience with thousands of developers and Dynamics 365 implementations. Review best practices before, during, and after writings plugins or scripts. 
+Many best practices have been established from experience with developers across thousands of Dynamics 365 implementations. Review best practices listed below before and during writing plugins or scripts. 
 
-References
 - [Best practices and guidance regarding plug-in and workflow development for the Microsoft Dataverse](https://docs.microsoft.com/powerapps/developer/data-platform/best-practices/business-logic/)
 - [Best practices and guidance of client side scripting for model-driven apps](https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/best-practices/business-logic/)
 - [Make intelligent customizations when you use JavaScript on forms](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/design-performant-forms#javascript-customization)
