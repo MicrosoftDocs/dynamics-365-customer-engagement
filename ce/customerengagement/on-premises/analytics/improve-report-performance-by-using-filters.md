@@ -92,18 +92,49 @@ There are two ways that you can enable data pre-filtering on Microsoft Dynamics 
 
 Automatic data pre-filtering is suited for simple queries. To enable automatic data pre-filtering on a report, you can use aliases for entity tables in queries. You do this by using an alias name that starts with CRMAF_.
 
-For example, the following table shows a simple query modified to enable pre-filtering on the Account entity.
+For example, the following examples show two simple queries, with one modified to enable pre-filtering on the Account entity.
 
-|Query without pre-filtering  |Modified query with automatic pre-filtering enabled  |
-|---------|---------|
-|SELECT &lt;column1&gt;, &lt;column2&gt;, &lt;columnN&gt; </br> FROM FilteredAccount;    | SELECT &lt;column1&gt;, &lt;column2&gt;, &lt;columnN&gt;  </br> FROM FilteredAccount AS CRMAF_FilteredAccount;     |
+# [Query without pre-filtering](#tab/without-prefiltering)
 
-When you enable automatic data pre-filtering functionality by using the CRMAF_ prefix, Microsoft Dynamics 365 modifies the query to include a parameter (for example, P1) when it is uploaded to Microsoft Dynamics 365, as shown in the following table.
+Query without pre-filtering.
 
+```sql
+   SELECT <column1>, <column2>, <columnN>
+   FROM FilteredAccount; 
+```
 
-|Query with automatic pre-filtering  |Modified by Dynamics 365  |
-|---------|---------|
-|SELECT &lt;column1&gt;, &lt;column2&gt;, &lt;columnN&gt; </br> FROM FilteredAccount AS CRMAF_FilteredAccount;    |  SELECT &lt;column1&gt;, &lt;column2&gt;, &lt;columnN&gt; </br> FROM (@P1) AS CRMAF_FilteredAccount;      |
+# [Automatic pre-filtering](#tab/auto-prefiltering)
+
+Modified query with automatic pre-filtering enabled
+
+```sql
+   SELECT <column1>, <column2>, <columnN>
+   FROM FilteredAccount AS CRMAF_FilteredAccount;
+```
+
+---
+
+When you enable automatic data pre-filtering functionality by using the `CRMAF_` prefix, Microsoft Dynamics 365 modifies the query to include a parameter (for example, P1) when it is uploaded to Dynamics 365, as shown in the following examples.
+
+# [Automatic pre-filtering](#tab/automatic-prefiltering)
+
+Query with automatic pre-filtering.
+
+```sql
+   SELECT &lt;column1&gt;, &lt;column2&gt;, &lt;columnN&gt;
+   FROM FilteredAccount AS CRMAF_FilteredAccount;
+```
+
+# [Dynamics 365](#tab/dynamics365-modified)
+
+Query modified by Dynamics 365.
+
+```sql
+   SELECT &lt;column1&gt;, &lt;column2&gt;, &lt;columnN&gt;
+   FROM (@P1) AS CRMAF_FilteredAccount; 
+```
+
+---
 
 Dynamics 365 will pass a query to the P1 parameter depending on how the report is being filtered. In other words, automatic data pre-filtering acts as a sub-query within the existing query.
 
@@ -218,7 +249,7 @@ Query with automatic pre-filtering.
 Query modified to use explicit pre-filtering
 
 ```sql
-DECLARE @SQL nvarchar(4000)
+   DECLARE @SQL nvarchar(4000)
    DECLARE @CRM_FilteredAccount nvarchar(2000)
    Set @CRM_FilteredAccount = 'Select FilteredAccount.* FROM FilteredAccount where AnnualRevenue > 1000000'
    SET @SQL = 'SELECT <column1>, <column2>, <columnN>
