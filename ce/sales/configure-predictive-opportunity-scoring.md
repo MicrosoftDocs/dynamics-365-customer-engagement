@@ -1,7 +1,7 @@
 ---
 title: "Configure predictive opportunity scoring"
 description: "Configure predictive opportunity scoring to help sellers prioritize opportunities based on scores and achieve higher opportunity qualification rates."
-ms.date: 10/26/2021
+ms.date: 01/10/2022
 ms.custom: 
 ms.topic: article
 ms.assetid: a1d02708-0e40-4967-ae1a-40e9c67186c8
@@ -22,7 +22,7 @@ Configure predictive opportunity scoring to help sellers prioritize opportunitie
 
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
@@ -55,10 +55,12 @@ You can add custom fields to generate an accurate model for predictive opportuni
 
 Verify that you meet the following requirement before adding predictive opportunity scoring models for your organization:
 
-- A minimum of 40 qualified and 40 disqualified opportunities within the past 18 months.
+- A minimum of 40 won and 40 lost opportunities within the past 18 months.
 
     >[!NOTE]
     >These numbers represent the minimum requirement. The more opportunities you can include to train the model, the better the prediction results will be.
+
+- Verify that advanced Sales Insights features are enabled. More information: [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features). 
 
 ## Understand the configuration page
 
@@ -139,10 +141,10 @@ However, if your organization has enough opportunities that match the applicatio
 
 If you're using your custom attributes for opportunity generation, you can generate the model by configuring the parameters with your custom attributes.
 
->[!NOTE]
->Before you configure the model, review the [prerequisites](#prerequisites).
+1. Before you configure the model, review the [prerequisites](#prerequisites). 
 
-1. Verify that advanced Sales Insights features are enabled. More information: [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features). 
+    > [!NOTE]
+    > You can also enable predictive opportunity scoring through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get 1500 scored records per month. To enable predictive opportunity scoring through quick setup, you must go to the **Get started with digital sales page** under **App Settings**. More information: [Lead and opportunity scoring](digital-selling.md#lead-and-opportunity-scoring)
 
 2. Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
 

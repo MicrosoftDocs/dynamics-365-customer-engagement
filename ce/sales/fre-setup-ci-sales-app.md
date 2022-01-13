@@ -1,7 +1,7 @@
 ---
 title: "First-run setup experience for conversation intelligence in sales app"
 description: "First-run configuration of conversation intelligence for Microsoft Teams for your Dynamics 365 Sales environment."
-ms.date: 11/26/2021
+ms.date: 01/10/2022
 ms.custom: 
 ms.topic: article
 ms.assetid: 3e099e3a-f6cb-42cf-b84e-9f8b0c6ee9db
@@ -26,10 +26,14 @@ You can configure conversation intelligence with Microsoft Teams. After you sign
 
 After configuring conversation intelligence, a sales manager or a seller can view the data and settings that are relevant to them. More information: [Configure sales team level settings](configure-sales-team-level-settings.md)
 
+> [!NOTE]
+> You can also enable call recording through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get 3 hours of conversation intelligence per month. More information: [Microsoft Teams calls with conversation intelligence](digital-selling.md#microsoft-teams-calls-with-conversation-intelligence)
+
 ## License and role requirements
-|  | |
+
+| &nbsp; | &nbsp; |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
@@ -47,73 +51,11 @@ Review the following requirements before you configure Teams call recording for 
 ### Enable calling with Teams 
 
 Before you can proceed to configuring Teams with conversation intelligence, you must enable the Teams dialer for your organization. More information: [Configure Microsoft Teams dialer](/dynamics365/sales-enterprise/configure-microsoft-teams-dialer)
- 
-### Run the PowerShell script to record calls
 
-Before you configure the Teams dialer, run the PowerShell script to enable recording of your Teams calls. These call recordings are used for processing and analysis. The PowerShell script creates:
+<a name="teams-tenant-admin-contact"></a>
+> [!NOTE]
+> To set up the phone system and Teams for your organization, contact your Teams administrator. 
 
-- An Azure Active Directory (Azure AD) security group for which the recording will be enabled.
-- Teams call recording–related artifacts, such as service principal and recording policy.
-
-Follow these steps:
-
-1. [Download the PowerShell script](#download-the-powershell-script)   
-2. [Configure the PowerShell script](#configure-the-powershell-script)   
-
-#### Download the PowerShell script
-
-1.	Sign in to the Dynamics 365 Sales Hub app as a Dynamics 365 system administrator.    
-
-2.	Select the **change area** ![change area.](media/change-area-icon.png) in the lower-left corner of the page, and then select **Sales Insights settings**.  
-    > [!div class="mx-imgBorder"]
-    > ![Select Sales Insights settings.](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings")   
-
-3.	On the site map, under **Productivity**, select **Conversation intelligence**.   
-    The conversation intelligence home page opens.   
-
-    > [!div class="mx-imgBorder"]
-    > ![Conversation intelligence home page.](media/ci-admin-getting-started-page.png "Conversation intelligence home page")   
-
-4.	On the home page, select **Get started**.
-    The conversation intelligence configuration page opens.
-
-5.	In the **Microsoft Teams Call Recording** section, verify that the application has validated the successful configuration of the Teams dialer.    
-    > [!div class="mx-imgBorder"]
-    > ![Download the PowerShell script.](media/ci-admin-download-powershell-script.png "Download the PowerShell script")    
-
-6.	Next to **Run PowerShell script**, select **Download**.   
-
-#### Configure the PowerShell script
-
->[!IMPORTANT]
->You must have tenant administrator privileges to run the PowerShell script. 
-  
-1.	Open a PowerShell command window as administrator and verify that you have the latest PowerShell version. Run the following commands, and close the PowerShell window:
-    -	`Install-PackageProvider -Name NuGet -Force`
-    -	`Install-Module -Name PowerShellGet -Force -AllowClobber`
-  
-2. Open a new PowerShell command window and install the dependencies by running the following commands:    
-    -	`Install-Module -Name MicrosoftTeams -RequiredVersion 1.1.6 -Force -AllowClobber`
-    -	`Install-Module AzureAD`
-    -	`Install-Module MSAL.PS`     
-
-3.	Go to the downloaded script location and run the following command:     
-    ```.\MediaRecordingTenantProvisioning.ps1```     
-    The package installation begins, and a sign-in dialog opens.     
-
-4.	Enter your tenant administrator credentials to sign in to your organization.
-
-    >[!NOTE]
-    >You'll be asked to provide credentials thrice.
-
-5.	After the script is installed, go back to the Sales Hub app and select **Check status** to validate that the script has been installed successfully.
-
-You can proceed to configure Teams with conversation intelligence.
-
->[!NOTE]
-><a name="teams-tenant-admin-contact"></a>If any of the validations fail, you can't proceed with the configuration.  
->- To set up the phone system and Teams for your organization, contact your Teams administrator. 
->- To run the PowerShell script, contact your tenant administrator. More information: [Configure the PowerShell script](#configure-the-powershell-script) 
 
 ### Configure Microsoft Teams call recording
 

@@ -15,7 +15,7 @@ To modify your process for choosing the records you want as members of a segment
 
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator or Sequence Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
@@ -30,7 +30,7 @@ To modify your process for choosing the records you want as members of a segment
     >[!div class="mx-imgBorder"]
     >![Segments page with a list of segments](media/sa-segment-edit-list-lead-segments.png "Segments page with a list of segments")  
 
-4.	Select and open the segment that you want to edit. In this example, **Leads from contact us** is selected.
+4.	Select and open the segment that you want to edit. In this example, **Accounts from USA** is selected.
 
     >[!div class="mx-imgBorder"]
     >![Select a lead to edit](media/sa-segment-edit-select-lead.png "Select a lead to edit")  
