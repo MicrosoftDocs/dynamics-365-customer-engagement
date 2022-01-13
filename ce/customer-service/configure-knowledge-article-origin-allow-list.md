@@ -1,7 +1,7 @@
 ---
 title: Configure origins allow list | MicrosoftDocs
 description: Learn how to configure safe links while authoring knowledge articles in Dynamics 365 Customer Service
-ms.date: 01/21/2022
+ms.date: 02/11/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
