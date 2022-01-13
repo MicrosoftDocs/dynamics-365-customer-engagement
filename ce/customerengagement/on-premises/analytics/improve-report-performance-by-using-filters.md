@@ -94,7 +94,7 @@ Automatic data pre-filtering is suited for simple queries. To enable automatic d
 
 For example, the following examples show two simple queries, with one modified to enable pre-filtering on the Account entity.
 
-# [Query without pre-filtering](#tab/without-prefiltering)
+# [No pre-filtering](#tab/without-prefiltering)
 
 Query without pre-filtering.
 
@@ -136,7 +136,7 @@ Query modified by Dynamics 365.
 
 ---
 
-Dynamics 365 will pass a query to the P1 parameter depending on how the report is being filtered. In other words, automatic data pre-filtering acts as a sub-query within the existing query.
+Dynamics 365 will pass a query to the P1 parameter depending on how the report is being filtered. In other words, automatic data pre-filtering acts as a subquery within the existing query.
 
 The following examples illustrate how Dynamics 365 passes queries to the parameter (P1) as per different filtering requirements. In these examples, it is assumed that you are running the report from the **Reports** area in Dynamics 365, and are using the data filtering option.
 
@@ -172,11 +172,11 @@ AS CRMAF_FilteredAccount
 
 When any entity table names are aliased, the Advanced Find user interface is automatically included in the deployed report when it is run from Dynamics 365.
 
-To alias an entity table name in Query Builder, right-click each table in your report, select Properties, and then enter the alias value in the form CRMAF_FilteredEntity, for example, CRMAF_FilteredAccount.
+To alias an entity table name in Query Builder, right-click each table in your report, select **Properties**, and then enter the alias value in the form **CRMAF_FilteredEntity**, for example, *CRMAF_FilteredAccount*.
 
 #### Limitation of automatic pre-filtering
 
-When you use the CRMAF_ prefix to enable automatic pre-filtering, Dynamics 365 adds a parameter in the query. With a more complex query, such as a query that uses UNION statements, this can lead to unexpected results because Dynamics 365 might only add the parameter to the first query.
+When you use the `CRMAF_` prefix to enable automatic pre-filtering, Dynamics 365 adds a parameter in the query. With a more complex query, such as a query that uses UNION statements, this can lead to unexpected results because Dynamics 365 might only add the parameter to the first query.
 
 For example, consider the following query containing UNION statements:
 
@@ -193,7 +193,6 @@ WHERE address1_stateorprovince = 'CA'
 
 When you upload the report, Dynamics 365 may filter only the first query using the parameter. This leads to the filtering not being applied to the second query:
 
-
 ```sql
 SELECT <column1>, <column2>, <columnN>
 FROM  (@P1) AS CRMAF_FilteredAccount WHERE address1_stateorprovince = 'FL'
@@ -204,7 +203,6 @@ WHERE address1_stateorprovince = 'CA'
 ```
 
 In the preceding example, while running the report from the **Reports** area in Dynamics 365 and choosing the filter as annual revenue greater than 1,000,000, Dynamics 365 will pass a query to the P1 parameter as follows:
-
 
 ```sql
 SELECT <column1>, <column2>, <columnN>
@@ -287,7 +285,7 @@ Query modified to use explicit pre-filtering.
 ### See also
 
  [Reporting and Analytics Guide](../analytics/reporting-analytics-with-dynamics-365.md)   
- [Dynamics 365 for Customer Engagement (online) Reporting Considerations](../analytics/reporting-considerations.md)
+ [Dynamics 365 for Customer Engagement (on-premises) Reporting Considerations](../analytics/reporting-considerations.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
