@@ -8,7 +8,7 @@
 |--------|--------|----------|-------------|
 | value           | Number   | Yes      | The width of the panel in pixels. |
 | successCallback | Function | No       | A function to call when the panel width is set successfully. |
-| errorCallback   | Function | No       | A function to call when the panel width is setting operation fails. |
+| errorCallback   | Function | No       | A function to call when the panel width setting operation fails. |
 
 > [!NOTE]
 > - If the `value` parameter passed for setWidth is greater than half of screen width, the side panel will collapse. 
