@@ -116,7 +116,7 @@ Modified query with automatic pre-filtering enabled
 
 When you enable automatic data pre-filtering functionality by using the `CRMAF_` prefix, Microsoft Dynamics 365 modifies the query to include a parameter (for example, P1) when it is uploaded to Dynamics 365, as shown in the following examples.
 
-# [Automatic pre-filtering](#tab/automatic-prefiltering)
+# [Automatic pre-filtering](#tab/auto2-prefiltering)
 
 Query with automatic pre-filtering.
 
@@ -230,7 +230,7 @@ When you use dynamic SQL, filtering through Advanced Find is enabled by creating
 
 Taking the same example as discussed earlier to highlight the limitation of automatic pre-filtering, the following table shows a query with automatic pre-filtering modified to use explicit pre-filtering by using dynamic SQL. It is also assumed that while running the report from the **Reports** area in Dynamics 365, the filter has been applied as annual revenue greater than 1,000,000.
 
-# [Automatic pre-filtering](#tab/auto-prefiltering)
+# [Automatic pre-filtering](#tab/auto3-prefiltering)
 
 Query with automatic pre-filtering.
 
