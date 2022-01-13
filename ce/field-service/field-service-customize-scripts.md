@@ -78,13 +78,13 @@ Next, use [Plug-in Profiler](https://docs.microsoft.com/en-us/powerapps/develope
 
 ## Summary of recommended best practices
 
-- Avoid writing scripts when possible
-- Try using workflows and flows before writing scripts
+- Research existing Field Service processes and capabilities before writing any scripts
+- Avoid writing scripts when possible and try using platform options like Power Automate and workflow first.
+- Review best practices 
+- Run scripts asynchronously instead of synchronously
+- Avoid loading scripts onload of a form and isntead only load them when needed
 - Run solution checker on scripts
-- Run scripts asynchrnously instead of synchronously
-- create a custom model driven app or canvas app (powerapp)
-- do not edit or delete existing form libraries 
-
+- Do not edit or delete existing form libraries 
 
 
 ## Form libraries
