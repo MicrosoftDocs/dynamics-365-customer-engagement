@@ -105,7 +105,7 @@ Query without pre-filtering.
 
 # [Automatic pre-filtering](#tab/auto-prefiltering)
 
-Modified query with automatic pre-filtering enabled
+Modified query with automatic pre-filtering enabled.
 
 ```sql
    SELECT <column1>, <column2>, <columnN>
@@ -121,7 +121,7 @@ When you enable automatic data pre-filtering functionality by using the `CRMAF_`
 Query with automatic pre-filtering.
 
 ```sql
-   SELECT &lt;column1&gt;, &lt;column2&gt;, &lt;columnN&gt;
+   SELECT <column1>, <column2>, <columnN>
    FROM FilteredAccount AS CRMAF_FilteredAccount;
 ```
 
@@ -130,7 +130,7 @@ Query with automatic pre-filtering.
 Query modified by Dynamics 365.
 
 ```sql
-   SELECT &lt;column1&gt;, &lt;column2&gt;, &lt;columnN&gt;
+   SELECT <column1>, <column2>, <columnN>
    FROM (@P1) AS CRMAF_FilteredAccount; 
 ```
 
@@ -246,7 +246,7 @@ Query with automatic pre-filtering.
 
 # [Explicit pre-filtering](#tab/explicit-prefiltering)
 
-Query modified to use explicit pre-filtering
+Query modified to use explicit pre-filtering.
 
 ```sql
    DECLARE @SQL nvarchar(4000)
