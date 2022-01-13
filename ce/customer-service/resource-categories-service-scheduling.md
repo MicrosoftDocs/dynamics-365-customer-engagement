@@ -29,19 +29,35 @@ Make sure that you have the required security role or equivalent permissions.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage security roles in service scheduling](manage-security-roles.md)
 
-1. In the Customer Service Hub sitemap, go to **Scheduling**.
-2. From the list of entity records, select **Scheduling > Resource Category**.
-   - The **Active Resource Categories** view is displayed. You can switch between various system views using the drop-down menu.
-   - Select any existing resource category to see additional options in the command bar
+1. Navigate to either on the Customer Service Hub or on Customer Service admin center (preview) app. Depending on your app, perform the following steps:
+ 
+ ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
-3. On the command bar, select **New** to create a new bookable resource category. 
-4. In the **General** section:
+> [!IMPORTANT]
+> The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+  1. On the Customer Service admin center (preview) site map, select **Operations > Sevice scheduling**.
+  1. On the **Service scheduling > Resource categories** section, select **Manage**. 
+   The Active Resource Categories view is displayed. You can switch between various system views using the drop-down menu.
+ 
+
+### [Customer Service Hub](#tab/customerservicehub)
+
+   1. On the Customer Service Hub site map, go to **Scheduling**.
+   1. From the list of entity records, select **Scheduling > Resource Category**.
+      - The **Active Resource Categories** view is displayed. You can switch between various system views using the drop-down menu.
+      - Select any existing resource category to see additional options in the command bar
+
+---
+
+2. On the command bar, select **New** to create a new bookable resource category. 
+3. In the **General** section:
  
    - Enter a **Name** and a **Description** for the resource category
 
-5. Select **Save**. A new resource category is created and is activated by default. 
+4. Select **Save**. A new resource category is created and is activated by default. 
 
-6. In the **Related** section, you can view and manage various resource category associations.
+5. In the **Related** section, you can view and manage various resource category associations.
 
    ![resource categories.](media/resource-categories.png)
 
