@@ -1,7 +1,7 @@
 ---
 title: "Integrate knowledge management with Power Virtual Agents bot| MicrosoftDocs"
 description: "Learn about the integration of knowledge management with Power Virtual Agents bot."
-ms.date: 05/11/2021
+ms.date: 01/13/2022
 ms.topic: article
 author: meghanalanka
 ms.author: v-mlanka
@@ -10,20 +10,25 @@ manager: shujoshi
 
 # Integrate knowledge management with a Power Virtual Agents bot
 
-Integrate a Power Virtual Agents bot to assist in knowledge management by performing the following steps:
+## Introduction
+
+
+
+
+## Manually integrate a Power Virtual Agents bot to assist in knowledge management
 
 1. Create and publish knowledge articles to a portal created in Power Apps.
 2. Create a topic for the Power Virtual Agents bot, and add an action.
 3. Use a Power Automate template to add the solution to the bot.
 4. Test the flow to publish and share the bot.
 
-## Create and publish knowledge articles
+### Create and publish knowledge articles
 
 Set up your portal with the Power Apps portals feature before integrating knowledge management with the Power Virtual Agents bot. More information: [Use settings to set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md). For more information on setting up your Power Apps portal, see : [Power Apps portal documentation](/powerapps/maker/portals/).
 
 You can create and manage knowledge articles by setting the **Internal** field to **No**. More information: [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
 
-## Create a topic for the Power Virtual Agents bot, and add an action
+### Create a topic for the Power Virtual Agents bot, and add an action
 
 The system fallback topic can help agents present answers to customers when the knowledge search doesn't provide relevant knowledge articles. You can create the fallback topic and add an action. The action allows the fallback topic to be displayed as a message to agents.
 
@@ -51,7 +56,7 @@ The system fallback topic can help agents present answers to customers when the 
 
 The Power Automate application opens on a new tab, where you'll configure the template settings.
 
-## Use the Power Automate template to add the solution to the flow
+### Use the Power Automate template to add the solution to the flow
 
 Use the Power Automate template that you created to connect to the knowledge base by performing the following steps:
 
@@ -85,7 +90,7 @@ Use the Power Automate template that you created to connect to the knowledge bas
 
 12. In the **Outside solutions** list, select your flow, and then select **Add** to finish the process. If there are several flows, look at the **Modified** column to find the most recent version.
 
-### Add the solution's flow to the Power Virtual Agents bot
+#### Add the solution's flow to the Power Virtual Agents bot
 
 1. Open the browser with the authoring canvas.
 
@@ -169,7 +174,7 @@ Use the Power Automate template that you created to connect to the knowledge bas
 }
 ```
 
-## Test and publish the Power Virtual Agents bot
+### Test and publish the Power Virtual Agents bot
 
 After you've saved the fallback topic, you can test your bot by typing some queries. If an existing topic can't answer the question, the topic that you created is displayed as a message. After publishing the Power Virtual Agents bot, you can also share your bot.
 
@@ -185,6 +190,29 @@ You can share the demo by configuring it as a channel:
 2. From the list of channels, select **Demo website**.
 
 3. Copy the link, and then select **Save**.
+ 
+## Integrate the Power Virtual Agents solution with knowledge management
+
+1. Create and publish knowledge articles to a portal created in Power Apps.  
+2. Create a topic for the Power Virtual Agents bot, and add an action.
+3. Configure connection references.
+4. Use the Search Knowledge Articles dialog as an action within a custom topic.
+
+### Create and publish knowledge articles to a portal created in Power Apps
+
+More information: [Create and publish knowledge articles](#create-and-publish-knowledge-articles)
+
+### Create a topic for the Power Virtual Agents bot, and add an action
+
+More information: [Create a topic for the Power Virtual Agents bot, and add an action](#create-a-topic-for-the-power-virtual-agents-bot-and-add-an-action)
+
+### Configure connection references
+
+After the solution is imported in the environment, we need to configure the connection references first. Look for the notification at the top.
+
+### Use the Search Knowledge Articles dialog as an action within a custom topic
+ 
+
 
 ### See also
 
