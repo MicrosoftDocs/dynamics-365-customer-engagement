@@ -53,13 +53,13 @@ Before writing a plugin or JavaScript web resource it is important to check if t
 
 ## Step 3: Try using platform options first
 
-Before writing a custom script, try to accomplish your requirement with platform options like Power Automate, workflows and business rules. Can't fulfill your requirement with platform options? Decide if a workflow can get close enough to help your business. Using platform options is better for performance, more scalable, more supportable, and is less likely to break with upgrades.
+Before writing a custom script, try to accomplish your requirement with platform options like Power Automate, workflows and business rules. Can't fulfill your requirement with platform options? Decide if a workflow can get close enough to help your business. Using platform options is more scalable, supportable, is less likely to break with upgrades, and is better for performance.
 
-View the following topic to understand [when to use plugins, advantages and disadvantages comapred to workflows](https://docs.microsoft.com/en-us/powerapps/developer/data-platform/plug-ins#when-to-use-plug-ins).
+View the following topic to understand [when to use plugins, advantages and disadvantages compared to workflows](https://docs.microsoft.com/en-us/powerapps/developer/data-platform/plug-ins#when-to-use-plug-ins).
 
 ## Step 4: Review best practices before writings plugins or scripts
 
-Many developers have written many plugins and JavaScript web resources and 
+Many best practices have been established from experience with thousands of developers and Dynamics 365 implementations. Review best practices before, during, and after writings plugins or scripts. 
 
 References
 - [Best practices and guidance regarding plug-in and workflow development for the Microsoft Dataverse](https://docs.microsoft.com/powerapps/developer/data-platform/best-practices/business-logic/)
