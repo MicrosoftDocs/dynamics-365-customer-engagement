@@ -14,9 +14,7 @@ manager: shujoshi
 
 ## Introduction
 
-Many customers use social messaging channels like Facebook Messenger for their personal communication needs and to engage with businesses. The asynchronous nature of these channels gives customers the convenience of getting their issues resolved when they find time.
-
-The Facebook channel gives you an incredible opportunity to capitalize on the social media trend and engage with your customers to provide a seamless and personalized experience.
+Many customers use social messaging channels like Facebook Messenger for their personal communication needs and to engage with businesses. The asynchronous nature of these channels gives customers the convenience of getting their issues resolved when they find time. The Facebook channel lets you use social media and engage with your customers to provide a seamless and personalized experience.
 
 ## Prerequisites
 
