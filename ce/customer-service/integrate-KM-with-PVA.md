@@ -1,7 +1,7 @@
 ---
 title: "Integrate knowledge management with Power Virtual Agents bot| MicrosoftDocs"
 description: "Learn about the integration of knowledge management with Power Virtual Agents bot."
-ms.date: 01/13/2022
+ms.date: 01/14/2022
 ms.topic: article
 author: meghanalanka
 ms.author: v-mlanka
@@ -12,8 +12,14 @@ manager: shujoshi
 
 ## Introduction
 
+Power Virtual Agents let you create powerful chatbots, configured with various topics and trigger phrases, that help automatically resolve questions posed by your customers on your portal page. More information: [Power Virtual Agents overview](/power-virtual-agents/fundamentals-what-is-power-virtual-agents).
 
+Integrating Power Virtual Agents with knowledge management makes it easier to use customized conversations in your chatbot that helps answer questions, perform actions, and solve issues. This frees up your agent’s time to deal with more complex issues.
 
+There are two ways to integrate knowledge management with a Power Virtual Agents bot.
+
+- Manually integrate a Power Virtual Agents bot to assist in knowledge management
+- Integrate the Power Virtual Agents solution with knowledge management
 
 ## Manually integrate a Power Virtual Agents bot to assist in knowledge management
 
@@ -208,10 +214,47 @@ More information: [Create a topic for the Power Virtual Agents bot, and add an a
 
 ### Configure connection references
 
-After the solution is imported in the environment, we need to configure the connection references first. Look for the notification at the top.
+After the solution is imported in the environment, the connection references must be configured. To configure the connection references:
+
+1. Select the notification. A form to configure connection references appears.
+
+:::image type="content" source="media/con-ref-notification.png" alt-text="Connection reference notification":::
+
+2. Configure the connection references.
+
+:::image type="content" source="media/con-ref.png" alt-text="Connection References page"::: 
+
+3. Go to the knowledge article solution and turn on the **Search knowledge article flow**.
+
+:::image type="content" source="media/ka_art_on.png" alt-text="Turn search knowledge article flow to on"::: 
 
 ### Use the Search Knowledge Articles dialog as an action within a custom topic
+
+1. Within the topic, create a question node to ask user to search for input text.
+
+:::image type="content" source="media/question_node.png" alt-text="Create a question node":::
+
+2. Go to your chatbot and create a new topic. You can also set optional filter text in a variable.
+
+3. Select **Add node** and select **Call an action**. Select **Search Knowledge Articles Flow**.
  
+4. Provide the input to the flow.
+
+:::image type="content" source="media/search_ka_flow.png" alt-text="Search knowledge article flow"::: 
+
+5. Add a message node to show the results returned by the flow.
+
+:::image type="content" source="media/mesg_node.png" alt-text="Message node"::: 
+
+6. Select **Save**. An error might appear if filter is not provided to the flow.
+
+7. Use the trigger phase and run the topic.
+
+8. After the topic is configured, replace the **Search Knowledge Articles Flow** with the **Search Knowledge Articles Dialog**.
+
+:::image type="content" source="media/final_search_ka_dialog.png" alt-text="Replace with search knowledge articles dialog"::: 
+
+9. Update the message node with the output from the extended topic and select **Save**.
 
 
 ### See also
