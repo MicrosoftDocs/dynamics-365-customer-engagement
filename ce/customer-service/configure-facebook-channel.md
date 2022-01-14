@@ -1,7 +1,7 @@
 ---
 title: "Configure a Facebook channel | MicrosoftDocs"
 description: "This topic provides steps to configure a Facebook channel and corresponding Facebook pages in Omnichannel for Customer Service."
-ms.date: 10/12/2021
+ms.date: 01/14/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -14,22 +14,30 @@ manager: shujoshi
 
 ## Introduction
 
-Many customers use social messaging channels like Facebook Messenger for their personal communication needs. Many also prefer using these messaging channels to engage with businesses. The asynchronous nature of these channels gives customers the convenience of getting their issues resolved when they find time, unlike real-time channels like Chat for Dynamics 365 where the session ends when the chat window is closed.
-
-The Facebook channel gives you an incredible opportunity to capitalize on the social media trend and engage with your customers in a seamless and personalized experience.
+You can integrate social messaging channels like Facebook Messenger with Omnichannel for Customer Service to engage with your customers. The asynchronous nature of the channel gives your customers the flexibility to reach out to your businesses when they find time to get their issues resolved.
 
 ## Prerequisites
 
-Ensure the following prerequisites to configure the Facebook channel in Omnichannel for Customer Service:
+The following prerequisites must be met before you configure the Facebook channel in Omnichannel for Customer Service.
 
 - Create a Facebook page and enable Messenger. More information: [Create and Manage a Page and Messaging](https://www.facebook.com/help/994476827272050/?helpref=hc_fnav)
 - Create a Facebook application. More information: [App Development](https://developers.facebook.com/docs/apps/)
 - Add Messenger and Webhooks to the Facebook application. More information: [Setting Up Your Facebook App](https://developers.facebook.com/docs/messenger-platform/getting-started/app-setup/)
-- If you'll use a test environment, set up test accounts in Facebook so that agents can receive and send messages in Omnichannel for Customer Service.
+- If you'll use a test environment, set up test accounts in Facebook so that agents can send and receive messages in Omnichannel for Customer Service.
+
+## Roles and permissions
+
+The following Facebook roles and permissions are required for integrating your Facebook app with Omnichannel for Customer Service.
+
+- Facebook users who don’t have a role in the Facebook app must have the `pages_messaging` permission to send messages to a Facebook page from Omnichannel for Customer Service. The app owner must provide the `pages_messaging` permission for users to be able to send messages. More information: [pages_messaging](https://developers.facebook.com/docs/permissions/reference/pages_messaging/)
+
+- If the Facebook app that you’re using is currently in development mode, then only those Facebook users who have roles within the app can send messages to the Facebook page; the messages can be received by or forwarded to Omnichannel for Customer Service. More information: [App roles](https://developers.facebook.com/docs/development/build-and-test/app-roles/)
+
+- For Omnichannel for Customer Service to be able to retrieve the customer’s username from Facebook, the customer must request for Business Asset User Profile Access in their Facebook app. More information: [Business Asset User Profile Access](https://developers.facebook.com/docs/features-reference/business-asset-user-profile-access)
 
 ## Configure a Facebook channel in Omnichannel admin center
 
-To add the Facebook channel instance, you must configure the channel account by doing the following steps:
+**To configure the Facebook channel account in Omnichannel admin center**
 
 1. In the site map, select **Channels** under **General settings**, and on the **Accounts and channels** page, select **Add account**.
 2. Enter the following details:
@@ -41,11 +49,11 @@ To add the Facebook channel instance, you must configure the channel account by 
       - **Page ID:** ID of the Facebook page. To get the page ID, go to your Facebook page, select About, and copy the value in the Page ID field.
       - **Page access token:** Specify the Page access token of the Facebook application. To get the page access token, go to your Facebook application and then go to **Messenger** > **Settings**. In the **Access Tokens** section, select the page, and copy the value in the **Page Access Token** field.
    5. On the **Callback information** page, the **Callback URL** and **Verify token** fields are populated automatically when you save the settings. Use the information to configure webhooks in the Facebook application. The values for the fields will not be generated if the Facebook page is reused across multiple instances of the channel.
-3. To configure routing and work distribution, you can create a [workstream](create-workstreams.md) or select an existing one.
+3. To configure routing and work distribution, you can [create a workstream](create-workstreams.md) or select an existing one.
 4. Select the workstream that you've created for the Facebook channel and on the workstream page, select **Set up Facebook**, and do the following steps:
    1. In the **Available Facebook Pages** area, select a page from the list.
    2. On the **Language** page, select the language to use.
-   3. On the Behaviors page, configure the following options:
+   3. On the **Behaviors** page, configure the following options:
       - Custom automated messages
       - [Post-conversation survey](configure-post-conversation-survey.md)
    4. On the **User features** page, configure the following options:
@@ -66,30 +74,29 @@ To add the Facebook channel instance, you must configure the channel account by 
    - [Smart assist bots](smart-assist-bot.md)
    - [Quick replies](create-quick-replies.md)
 
-
 ## Configure a Facebook channel in Omnichannel Administration
 
 After completing the prerequisites, you can add the Facebook channel for your organization by following these steps:
 
-1. Create a Facebook work stream  
-2. Create a Facebook channel
-3. Create routing rules
-4. Modify settings for a specific Facebook page
+1. [Create a Facebook workstream](#create-a-facebook-workstream)  
+2. [Create a Facebook channel](#create-a-facebook-channel)
+3. [Create routing rules](#create-routing-rules)
+4. [Modify settings for a specific Facebook page](#modify-settings-for-a-specific-facebook-page)
 
-### Create a Facebook work stream
+### Create a Facebook workstream
 
 1. Sign in to Omnichannel Administration.
 
 2. Go to **Work Distribution Management** > **Work Streams**.
 
-3. Select **New** to create a Facebook work stream.
+3. Select **New** to create a Facebook workstream.
 
 4. On the **Work Distribution** tab, in the **Channel** field, select **Facebook**.
 
     > [!div class=mx-imgBorder]
-    > ![Create a Facebook work stream.](media/fb-workstream.png "Create a Facebook work stream")
+    > ![Create a Facebook workstream.](media/fb-workstream.png "Create a Facebook workstream")
 
-5. Specify other details as required. To learn more, see [Understand and create work streams](work-streams-introduction.md).
+5. Specify other details as required. To learn more, see [Understand and create workstreams](work-streams-introduction.md).
 
 6. Select **Save**.
 
@@ -106,7 +113,6 @@ After completing the prerequisites, you can add the Facebook channel for your or
     - **Application Id**: ID of the Facebook application. To get the application ID, go to your Facebook application, select **Settings** > **Basic**, and copy the value in the **App ID** field.
 
     - **Application Secret**: Application secret of the Facebook application. To get the application secret, go to your Facebook application, select **Settings** > **Basic**, and copy the value in the **App Secret** field.
-
 
     > [!div class=mx-imgBorder]
     > ![Register a Facebook application.](media/fb-new-app.png "Register a Facebook application")
@@ -128,7 +134,7 @@ After completing the prerequisites, you can add the Facebook channel for your or
 
     - **Facebook Application**: The Facebook application record is auto filled from which you added a Facebook page.
     
-    - **Work Stream**: Browse and select the work stream you created for the Facebook channel.
+    - **Work Stream**: Browse and select the workstream you created for the Facebook channel.
 
 7. Select **Save** to create the record.
 
@@ -144,7 +150,7 @@ After you add a Facebook page, values for **Callback Uri** and **Verify Token** 
 
 1.	Go to **Work Distribution Management** > **Work Streams**.
 
-2.	Open the work stream you created in Step 1.
+2.	Open the workstream you created in Step 1.
 
 3.	On the **Routing rules items** tab, create a routing rule to transfer the message to an appropriate agent. Select the entity as **Facebook Engagement Context**.
 
@@ -168,11 +174,11 @@ When you create conditions for routing rules, the **Facebook Engagement Context 
     
     - **Language**: Select the preferred language for your Facebook page.
     
-    - **Work stream**: Select an existing work stream or create a new one.
+    - **Work stream**: Select an existing workstream or create a new one.
 
-    - **Enable file attachments for customers**: Set to **Yes** to allow customers to send file attachments to agents. Otherwise, set to **No**. 
+    - **Enable file attachments for customers**: Set to **Yes** to allow customers to send file attachments to agents. Otherwise, set to **No**.
 
-    - **Enable file attachments for agents**: Set to **Yes** to allow agents to send file attachments to customers. Otherwise, set to **No**. 
+    - **Enable file attachments for agents**: Set to **Yes** to allow agents to send file attachments to customers. Otherwise, set to **No**.
     
     > [!NOTE]
     >
@@ -219,7 +225,7 @@ Customers are solely responsible for using Dynamics 365, this feature, and any a
 
 ### See also
 
-[Understand and create work streams](create-workstreams.md)<br>
+[Understand and create workstreams](create-workstreams.md)<br>
 [Create and manage routing rules](routing-rules.md)<br>
 [Configure automated messages](configure-automated-message.md)<br> 
 [Configure a pre-chat survey](configure-pre-chat-survey.md)<br>
