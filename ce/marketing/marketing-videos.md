@@ -6,7 +6,7 @@ ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
-ms.topic: article
+ms.topic: overview
 author: alfergus
 ms.author: alfergus
 manager: shellyha
