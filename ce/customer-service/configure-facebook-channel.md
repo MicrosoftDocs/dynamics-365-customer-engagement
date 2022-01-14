@@ -14,7 +14,7 @@ manager: shujoshi
 
 ## Introduction
 
-Many customers use social messaging channels like Facebook Messenger for their personal communication needs and to engage with businesses. The asynchronous nature of these channels gives customers the convenience of getting their issues resolved when they find time. The Facebook channel lets you use social media and engage with your customers to provide a seamless and personalized experience.
+You can integrate social messaging channels like Facebook Messenger with Omnichannel for Customer Service to engage with your customers. The asynchronous nature of the channel gives your customers the flexibility to reach out to your businesses when they find time to get their issues resolved.
 
 ## Prerequisites
 
@@ -29,9 +29,9 @@ The following prerequisites must be met before you configure the Facebook channe
 
 The following Facebook roles and permissions are required for integrating your Facebook app with Omnichannel for Customer Service.
 
-- If the version of the Facebook app that you’re using is currently under development, then only those users who have roles within the app can send messages to the Facebook page, and those messages will be received by Omnichannel for Customer Service. If a Facebook user doesn’t have any roles in the app, then messages can’t be forwarded to Omnichannel for Customer Service. More information: [App roles](https://developers.facebook.com/docs/development/build-and-test/app-roles/)
+- Users who don’t have a role in the Facebook app must have the `pages_messaging` permission to send messages to a Facebook page from Omnichannel for Customer Service. More information: [pages_messaging](https://developers.facebook.com/docs/permissions/reference/pages_messaging/)
 
-- Users who don’t have a role in the Facebook app must have the `pages_messaging` permission to send messages to a Facebook page from Omnichannel for Customer Service. If this permission requirement is met, the messages can be forwarded to Omnichannel for Customer Service. More information: [pages_messaging](https://developers.facebook.com/docs/permissions/reference/pages_messaging/)
+- If the Facebook app that you’re using is currently in development, then only those users who have roles within the app can send messages to the Facebook page; those messages can be received by or forwarded to Omnichannel for Customer Service. More information: [App roles](https://developers.facebook.com/docs/development/build-and-test/app-roles/)
 
 - For Omnichannel for Customer Service to be able to retrieve the customer’s username from Facebook, the customer must request for Business Asset User Profile Access in their Facebook app. More information: [Business Asset User Profile Access](https://developers.facebook.com/docs/features-reference/business-asset-user-profile-access)
 
