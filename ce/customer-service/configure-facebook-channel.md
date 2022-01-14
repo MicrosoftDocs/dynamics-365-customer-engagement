@@ -23,13 +23,13 @@ The following prerequisites must be met before you configure the Facebook channe
 - Create a Facebook page and enable Messenger. More information: [Create and Manage a Page and Messaging](https://www.facebook.com/help/994476827272050/?helpref=hc_fnav)
 - Create a Facebook application. More information: [App Development](https://developers.facebook.com/docs/apps/)
 - Add Messenger and Webhooks to the Facebook application. More information: [Setting Up Your Facebook App](https://developers.facebook.com/docs/messenger-platform/getting-started/app-setup/)
-- If you'll use a test environment, set up test accounts in Facebook so that agents can receive and send messages in Omnichannel for Customer Service.
+- If you'll use a test environment, set up test accounts in Facebook so that agents can send and receive messages in Omnichannel for Customer Service.
 
 ## Roles and permissions
 
 The following Facebook roles and permissions are required for integrating your Facebook app with Omnichannel for Customer Service.
 
-- Facebook users who don’t have a role in the Facebook app must have the `pages_messaging` permission to send messages to a Facebook page from Omnichannel for Customer Service. The app owner must request for the `pages_messaging` permission for users to be able to send messages. More information: [pages_messaging](https://developers.facebook.com/docs/permissions/reference/pages_messaging/)
+- Facebook users who don’t have a role in the Facebook app must have the `pages_messaging` permission to send messages to a Facebook page from Omnichannel for Customer Service. The app owner must provide the `pages_messaging` permission for users to be able to send messages. More information: [pages_messaging](https://developers.facebook.com/docs/permissions/reference/pages_messaging/)
 
 - If the Facebook app that you’re using is currently in development mode, then only those Facebook users who have roles within the app can send messages to the Facebook page; the messages can be received by or forwarded to Omnichannel for Customer Service. More information: [App roles](https://developers.facebook.com/docs/development/build-and-test/app-roles/)
 
