@@ -200,16 +200,17 @@ It is recommended to use the mobile offline profile included with Field Service 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Power Platform admin center showing the copy option for the Field Service Mobile - Offline profile.](./media/mobile-2020-offline-profile-copy.png)
 
-### What is the best practive whe moving the Mobile Offline Profile between environments?
+### What is the best practice when moving the mobile offline profile between environments?
 
-To control changes and keep your offline profiles in sync your organization may require making changes to your mobile offline profile in one environment and the moving that profile into other enviornments. Best practice is to perform the following steps:
-1. Creat a copy of the default "Field Service Mobile - Offline Profile".
+To control changes and keep your offline profiles in sync, your organization may require making changes to your mobile offline profile in one environment and the moving that profile into other environments. Best practice is to perform the following steps:
+
+1. Create a copy of the default **Field Service Mobile - Offline Profile**.
 2. Modify your copied profile as needed.
-3. Create a Managed Solution which includes the Mobile Offline Profile.  
-- In CRM go to Settings > Solutions > Create a new solution. 
-- Within the new solution, Add Existing > Mobile Offline Profile.
-5. Export the Managed Solution containing the Mobile Offline Profile from the original environment.
-6. Import the Managed Solution into the new environment. 
+3. Create a managed solution that includes the mobile offline profile.  
+   - In Dynamics 365, go to **Settings** > **Solutions** > **Create a new solution**. 
+   - Within the new solution, **Add Existing** > **Mobile Offline Profile**.
+4. Export the managed solution containing the mobile offline profile from the original environment.
+5. Import the managed solution into the new environment. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the adding Mobile Offline Profile to a solution.](./media/Solution_AddMOP.png)
