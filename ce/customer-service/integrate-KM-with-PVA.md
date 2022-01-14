@@ -3,8 +3,8 @@ title: "Integrate knowledge management with Power Virtual Agents bot| MicrosoftD
 description: "Learn about the integration of knowledge management with Power Virtual Agents bot."
 ms.date: 01/14/2022
 ms.topic: article
-author: meghanalanka
-ms.author: v-mlanka
+author: Soumyasd27
+ms.author: sdas
 manager: shujoshi
 ---
 
@@ -214,7 +214,7 @@ More information: [Create a topic for the Power Virtual Agents bot, and add an a
 
 ### Configure connection references
 
-After the solution is imported in the environment, the connection references must be configured. To configure the connection references:
+After the solution is imported to the environment, you must configure the connection references. To configure the connection references:
 
 1. Select the notification. A form to configure connection references appears.
 
