@@ -156,12 +156,12 @@ sections:
        answer: |
           Yes. You can find the Field Service (Dynamics 365) mobile app to download in China market app stores. To connect to a China-specific data center, select **Region settings** from initial app sign-in screen.
       
-                > [!div class="mx-imgBorder"]
+          > [!div class="mx-imgBorder"]
           > ![Screenshot of Region Selector Option.](./media/Mobile-PowerApps-RegionSelector.png)
           
           The region settings dialog allows the user to select the desired end point, including China.
 
-                    > [!div class="mx-imgBorder"]
+          > [!div class="mx-imgBorder"]
           > ![Screenshot of selecting Regions](./media/Mobile-PowerApps-RegionSelector-EndPoints.png)
 
      - question: Can I connect the Field Service (Dynamics 365) mobile app to GCC, GCC-High, and DoD cloud environments?
