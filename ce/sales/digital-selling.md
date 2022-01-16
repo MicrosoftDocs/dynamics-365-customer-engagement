@@ -69,7 +69,7 @@ The sales accelerator is an engagement platform that helps you understand your c
 
 When you set up the sales accelerator with the Dynamics 365 Sales Enterprise license, you get 1,500 sequence-connected records per month. If you need more than 1,500 sequence-connected records per month, upgrade to Dynamics 365 Sales Premium.
 
-### Set up the sales accelerator
+### Set up the sales accelerator<a name="set-up-sales-accelerator"></a>
 
 1. On the **Get started with digital sales** page under **Sales accelerator**, select **Quick setup**.
 
