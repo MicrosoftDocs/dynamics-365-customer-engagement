@@ -1,7 +1,7 @@
 ---
 title: "Manage presence status in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Use this topic to learn how to view and update your presence status in Omnichannel for Customer Service."
-ms.date: 12/05/2021
+ms.date: 01/17/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -62,16 +62,65 @@ Presence status is updated in two ways:
 
 
 ## Understand presence status scenarios
-The following table describes how your presence is defined in the following scenarios.
 
-| Scenarios   | Presence Status |
-|-------------------|-------------------|
-|Login scenarios:  <li> You logged in for the first time. <li> You got signed out but were able to sign in within the stipulated time. <li> You lost connection, but were able to  reconnect within the stipulated time.    |Your presence is set to the default presence if no work items have been assigned to you. If work items are assigned, your presence is automatically computed. However, if configured by the admin, your default presence shows as Away or Offline. **Note:** Live chats assigned to the agent are reassigned to other agents in case the agent is unable to reconnect within the stipulated time. After the stipulated time, live chats are only retained with the agent if agent affinity is turned on. For cases and other async channels, work items are always retained with the agent.|
-Reconnection scenarios: <li> You lost connection, but were able to  reconnect within the stipulated time. <li> Your browser closed but opened within the stipulated time. <li> You got signed out but were able to sign in within the stipulated time.     |The system picks up your last known presence.     |
-|Acceptance scenarios:   <li> You accepted the work item notification <li>Your work item was automatically accepted. <li> You opened and accepted a work item from the dashboard.    |If your presence is set to Away or Offline, or if you have manually changed your presence to DND, the system doesn’t change your presence. Otherwise, the system computes your presence based on your work capacity.
-|Closure scenarios:   <li> You closed a session. <li> You resolved a case. <li> You cancelled a case.<li> You rerouted a case.    |If your presence is set to Away or Offline, or if you have manually changed your presence to DND, the system doesn’t change your presence. Otherwise, the system computes your presence based on your work capacity.     |
-|Reset agent presence scenarios:  <li>  You reset your presence based on the missed notification banner. <li> You reset your presence based on the agent reject notification banner.  <li> You reached the maximum limit of 10 sessions for Live Chat.   |The system computes your presence based on your work capacity.
- |
+Your agent presence status follows the three following scenarios:
+
+- If the agent's presence is **Away** or **Offline**, system doesn't update the presence. However, you can manually change it.
+- If the presence is manually changed to **Busy DND**,  system doesn't update the presence. However, you can manually change it.
+- System updates the presence based on the capacity utilized or released (**Available -> Busy, Busy-> Busy DND, Busy DND -> Busy, Busy -> Available**).
+
+Here are the details of the various scenarios that might occur during your work:
+
+### Login scenarios and changes in presence status:
+Here are the login scenarios that you might face during your work.
+- You logged in for the first time.
+- You got signed out but were able to sign in within the stipulated time.
+- You lost connection, but were able to reconnect within the stipulated time.
+
+Here's how your presence status changes:
+
+Your presence is set to the default presence if no work items have been assigned to you. If work items are assigned, your presence is automatically computed. However, if configured by the admin, your default presence shows as Away or Offline. Note: Live chats assigned to the agent are reassigned to other agents in case the agent is unable to reconnect within the stipulated time. After the stipulated time, live chats are only retained with the agent if agent affinity is turned on. For cases and other async channels, work items are always retained with the agent.
+
+### Reconnection scenarios and changes in presence status:
+Here are the reconnection scenarios that you might face during your work.
+- You lost connection, but were able to reconnect within the stipulated time.
+- Your browser closed but opened within the stipulated time.
+- You got signed out but were able to sign in within the stipulated time.
+
+Here's how your presence status changes: 
+
+The system picks up your last known presence.
+
+### Acceptance scenarios and changes in presence status:
+Here are the acceptance scenarios that you might face during your work.
+- You accepted the work item notification
+- Your work item was automatically accepted.
+- You opened and accepted a work item from the dashboard.
+
+Here's how your presence status changes:
+
+If your presence is set to Away or Offline, or if you have manually changed your presence to DND, the system doesn’t change your presence. Otherwise, the system computes your presence based on your work capacity.
+
+### Closure scenarios and changes in presence status:
+Here are the closure scenarios that you might face during your work.
+- You closed a session.
+- You resolved a case.
+- You cancelled a case.
+- You rerouted a case.
+
+Here's how your presence status changes:
+
+If your presence is set to Away or Offline, or if you have manually changed your presence to DND, the system doesn’t change your presence. Otherwise, the system computes your presence based on your work capacity.
+
+### Reset agent presence scenarios and changes in presence status:
+Here are the reset agent presence scenarios that you might face during your work.
+- You reset your presence based on the missed notification banner.
+- You reset your presence based on the agent reject notification banner.
+- You reached the maximum limit of 10 sessions for Live Chat.
+
+Here's how your presence status changes:
+
+The system computes your presence based on your work capacity.
 
 ### Troubleshoot display of presence
 
