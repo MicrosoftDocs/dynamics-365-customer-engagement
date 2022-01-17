@@ -13,7 +13,7 @@ manager: shujoshi
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Introduction
-You can enable the agent presence to be updated to **Do not disturb** when agents reject an incoming notification for a work assignment. Also, a message indicating that the agent presence was changed is displayed at the top of the agent dashboard. Agents can reset their status by using the reset presence option that's displayed with the notification or by manually changing their status.
+You can enable the agent presence to be updated to **Do not disturb** when agents reject an incoming notification for a work assignment. Also, a message indicating that the agent presence was changed is displayed at the top of the agent dashboard. Agents can reset their status by using the reset presence option that's displayed with the notification or by manually changing their status. 
 
 > [!IMPORTANT]
 >
