@@ -1,7 +1,7 @@
 ---
 title: "Enable automatic status update on rejection of work assignment| MicrosoftDocs"
 description: "Learn about managing agent reject notifications in Customer Service"
-ms.date: 09/23/2021
+ms.date: 01/17/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -17,7 +17,7 @@ You can enable the agent presence to be updated to **Do not disturb** when agent
 
 > [!IMPORTANT]
 >
-> - The status will not change for agents when the the work is routed through a workstream that has **Do not disturb** as an allowed presence. More information: [Create workstreams for unified routing](create-workstreams.md)
+> - Work items will continue to be routed to the agent if **Do not disturb** is an allowed presence in the workstream. More information: [Create workstreams for unified routing](create-workstreams.md)
 > - Automatic change of agent status when agent rejects a notification is not supported in Omnichannel for Customer Service on Unified Service Desk.
 
 ## Enable automatic update of agent presence
