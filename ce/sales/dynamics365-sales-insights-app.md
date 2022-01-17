@@ -2,8 +2,8 @@
 title: "Improve seller coaching and sales potential"
 description: "Improve seller coaching and sales potential with AI-driven insights readily available for conversation intelligence."
 ms.date: 11/08/2021
-ms.custom: intro-internal
-ms.topic: article
+
+ms.topic: overview
 ms.assetid: 17cac16d-2a37-4a19-9cfe-2d4355a6f044
 author: udaykirang
 ms.author: udag

@@ -2,8 +2,8 @@
 title: Overview of the Dynamics 365 Sales mobile app
 description: Learn about the Dynamics 365 Sales mobile app
 ms.date: 10/25/2021
-ms.topic: article
-ms.custom: intro-internal
+ms.topic: overview
+
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
