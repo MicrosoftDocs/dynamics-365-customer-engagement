@@ -7,7 +7,7 @@ ms.reviewer:
 ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: overview
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 4469877e-bb95-481a-bc52-c9746f937ce5

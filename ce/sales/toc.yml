@@ -100,6 +100,8 @@
   items:
   - name: Administration overview
     href: admin-guide.yml
+  - name: Digital selling capabilities in Sales Enterprise
+    href: digital-selling.md
   - name: Account and contact management
     items:
     - name: Enable or disable saving of business card image
@@ -326,7 +328,9 @@
       - name: Understand sales acceleration reporting
         href: understand-sales-acceleration-reporting.md
       - name: Understand the sequence stats page
-        href: understand-sequence-stats.md  
+        href: understand-sequence-stats.md
+      - name: Manage tags for sequences
+        href: manage-tags-for-sequences.md    
       - name: View sequence in a grid
         href: view-disconnected-sequences.md  
       - name: Clone a sequence
@@ -469,7 +473,7 @@
   items:
   - name: Help resources for sellers
     href: user-guide.yml
-  - name: Dashboards
+  - name: Dashboards and reports
     items:
     - name: Track your progress with dashboards and charts
       href: /powerapps/user/track-your-progress-with-dashboard-and-charts?context=/dynamics365/context/sales-context
@@ -477,6 +481,8 @@
       href: dashboards.md
     - name: Understand the sales pipeline chart and its phases
       href: sales-pipeline-chart.md
+    - name: Visualize data quickly from Power Apps and Dynamics 365 apps
+      href: /power-bi/create-reports/dynamics-quick-create-report?context=/dynamics365/context/sales-context
   - name: Account and contact management
     items:
     - name: Work with accounts and contacts
@@ -516,7 +522,7 @@
       href: notes-analysis.md   
     - name: Manage sales literature
       href: create-sales-literature.md
-    - name: Call using Microsoft Teams
+    - name: Make and receive calls through Microsoft Teams
       href: call-using-microsoft-teams.md          
     - name: Collaborate using Microsoft Teams
       href: /dynamics365/teams-integration/teams-collaboration?context=/dynamics365/context/sales-context

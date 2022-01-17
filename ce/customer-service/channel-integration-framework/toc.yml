@@ -29,7 +29,7 @@
         href: enable-outbound-communication-clicktoact.md
       - name: "Add Channel Integration Framework solution as a dependent solution"
         href: add-cif-solution-dependent-solution.md   
-      - name: "Authenticate channel users to the channel (widget)"
+      - name: "Authenticate channel users to the channel"
         href: authenticate-channel-users.md
       - name: "Pass Dynamics 365 URL to widget library"
         href: pass-url-widget-library.md
@@ -135,7 +135,7 @@
         href: v2/enable-outbound-communication-clicktoact.md
       - name: "Add Channel Integration Framework solution as a dependent solution"
         href: v2/add-cif-solution-dependent-solution.md   
-      - name: "Authenticate channel users to the channel (widget)"
+      - name: "Authenticate channel users to the channel"
         href: v2/authenticate-channel-users.md
       - name: "Pass Dynamics 365 URL to widget library"
         href: v2/pass-url-widget-library.md

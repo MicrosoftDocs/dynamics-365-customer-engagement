@@ -1,7 +1,7 @@
 ---
 title: Automatically create or update records in Customer Service Hub (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to automatically create or update records by setting up rules in Dynamics 365 Customer Service
-ms.date: 05/13/2021
+ms.date: 01/05/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -82,7 +82,8 @@ You can configure a rule that when active will be run for incoming emails. Using
    a. In **Condition** > **Condition name**, enter an intuitive name.
 
    b. In **Condition that must pass to continue (pass if blank)**, select **Add**.
-   c. Use the following options To define the criteria for the rule to be evaluated:
+   
+   c. Use the following options to define the criteria for the rule to be evaluated:
 
       i. Add row
 
@@ -126,12 +127,12 @@ On the **Advanced** tab of the **Record creation and update rule** page for a ru
 
         If the sender of the email is a contact with a parent account, a record is created if the contact’s parent account has a valid entitlement, and the contact is listed in the **Contacts** section of the entitlement or if the **Contacts** section is empty (which means the entitlement is applicable to all contacts for the customer).
 
-   - **Wait for a specific amount of time after the connected case has been resolved:** If you select **Yes**, select a time value in the **Select the amount of time** box that appears.
+   - **Wait for a specific amount of time after the connected case has been resolved:** Select **Yes**, and then select a time value in the **Select the amount of time** box that appears. No new case will be created till the specified period of time lapses after a related case is resolved. For example, if you have set the value to yes and specify one hour, and a case exists for a printer issue, when a mail comes for the same printer issue, another case will not be created till one hour lapses after the existing printer issue case is resolved.
 
-    If set to no, a case will be created even if a related case exists. When set to yes, no new case will be created till the specified period of time lapses after a related case is resolved. For example, if you have set the value to yes and specify one hour, and a case exists for a printer issue, when a mail comes for the same printer issue, another case will not be created till one hour lapses after the existing printer issue case is resolved.
+      If set to **No**, a case will be created even if a related case exists and only if the email isn't already associated with a resolved case.
 
-    > [!Note]
-    > If you want a case to be created without any time lapse, then set **Wait for a specific amount of time after the connected case has been resolved** to **Yes** and don't select any time duration in the **Select the amount of time** box.
+      > [!NOTE]
+      > If you want a case to be created without any time lapse, then set **Wait for a specific amount of time after the connected case has been resolved** to **Yes** and don't select any time duration in the **Select the amount of time** box.
 
 3. In **Advanced settings**, by default the user who is creating the rule is listed in the **Owner whose permissions the rule uses to run** box. You can add more users or change the default value.
 4. Select **Save** or **Save & Close**.
@@ -168,6 +169,7 @@ Perform the following steps to use the activity monitor for the rules:
 1. On the **Record creation and update rules** page, select **View activity monitor** on the command bar. The **Activity monitor for record creation and update rules** page displays the list of rules with their statuses.
 
 2. Use the **Advanced filters** option to narrow down the view to list rules, such as list only those rules that match a specified condition.
+
 3. Double-click a rule or activity to view the activity monitoring summary that is displayed on the **Activity monitor** *<rule_name>* page.
   
     > [!NOTE]
