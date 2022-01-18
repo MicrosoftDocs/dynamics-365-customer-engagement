@@ -47,7 +47,7 @@ Who knows whom helps users to quickly identify colleagues within their organizat
     > ![Who knows whom configuration page](media/si-admin-who-know-whom-configuration-page.png "Who knows whom configuration page")
 
     >[!NOTE]
-    >If you don’t see the, verify that the Sales Insights add-in is installed in your organization. More information: [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features) 
+    >If you don’t see the option, verify that the Sales Insights add-in is installed in your organization. More information: [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features) 
 
 4. On the **Who knows whom** section, select **Turn on Who Knows Whom for your organization**.
 
