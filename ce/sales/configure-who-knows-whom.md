@@ -19,7 +19,7 @@ topic-status: Drafting
 Who knows whom helps users to quickly identify colleagues within their organization who can introduce them to leads or contacts.
 
 >[!NOTE]
->- To know in which region the Who knows whom feature is available, see [In which region are the features available?](faqs-sales-insights.md#in-which-region-are-the-features-available).
+>- To know whether the Who knows whom feature is available in your region, see [In which region are the features available?](faqs-sales-insights.md#in-which-region-are-the-features-available).
 >- For Office 365 data, you organization's data location must be in one of the following locations and not in your region-specific datacenter location:
 >    - Global Geography 1 – EMEA (Austria, Finland, France, Ireland, Netherlands)
 >    - Global Geography 2 – Asia Pacific (Hong Kong, Japan, Malaysia, Singapore, South Korea).
