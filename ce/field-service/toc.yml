@@ -68,7 +68,6 @@
     href: field-service-customize-scripts.md
   - name: Integrate Field Service with other apps
     href: field-service-customize-integrations.md        
-  
   - name: Tools to validate your customizations
     href: field-service-customization-validate.md  
 - name: Quickstarts
