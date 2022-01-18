@@ -1,7 +1,7 @@
 ---
 title: "Configure assignment methods for queues | MicrosoftDocs"
 description: "Contains steps on how to configure the different assignment methods for queues in Customer Service and Omnichannel for Customer Service"
-ms.date: 12/15/2021
+ms.date: 01/18/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -41,7 +41,7 @@ Perform the following steps to create a custom assignment method:
    
    c. Select the attribute on which you want to define the order-by to route the work item to agents.
    
-   d. Create as many rules as are needed.
+   d. Create as many rules as needed.
 
 6. To create an assignment ruleset, on the **Assignment method** page, select **Create ruleset**.
 
@@ -64,7 +64,9 @@ Perform the following steps to create a custom assignment method:
    e. Repeat the steps a through d to configure multiple rules.
 
    > [!NOTE]
-   > We recommend that you reduce the granularity of the conditions for the assignment roles in a descending order.
+   >
+   > - We recommend that you reduce the granularity of the conditions for the assignment roles in a descending order.
+   > - If you define a condition on **Available capacity** or **Capacity** attribute, you must use the "is greater than" operator only.
 
 10. You can sort the order in which the rules should be evaluated during work assignment. For other tasks that you can perform, such as copy, edit, delete, see [Options available for rulesets](configure-work-classification.md#options-available-for-rulesets).
 
@@ -83,7 +85,7 @@ You can create a sample assignment rule with the following conditions.
 
 ### Configure selection criteria
 
-When you configure more than one assignment ruleset in the custom assignment method, you must define selection criteria. The selection criteria lets you define a set of conditions to determine the ruleset to be run when the condition is met. After the ruleset is picked up by the work assignment engine, if no rule matches in the selection criteria or if no selection criteria is met, the default ruleset will be run by the system.
+Define the selection criteria, when you configure more than one assignment ruleset in the custom assignment method. The selection criteria lets you define a set of conditions to determine the ruleset to be run when the condition is met. After the ruleset is picked up by the work assignment engine, if no rule matches in the selection criteria or if no selection criteria is met, the default ruleset will be run by the system.
 
 Follow these steps to configure the selection criteria for the assignment rulesets:
 
