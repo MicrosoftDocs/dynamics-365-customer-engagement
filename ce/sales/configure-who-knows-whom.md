@@ -60,7 +60,7 @@ Who knows whom helps users to quickly identify colleagues within their organizat
 
 The who knows whom feature is configured and ready to use in your organization.
 
-After you've enabled the who knows whom feature, enable **Dynamics 365 Sales Insights – Connection Graph** from the Microsoft 365 admin center as the Microsoft 365 admin. This allows Dynamics 365 Sales to collect the communication and collaboration details of users from Exchange server.
+After you've enabled the who knows whom feature, as a Microsoft 365 administrator, enable **Dynamics 365 Sales Insights – Connection Graph** from the Microsoft 365 admin center. This allows Dynamics 365 Sales to collect the communication and collaboration details of users from Exchange server.
 
 ## Enable the connection graph
 
