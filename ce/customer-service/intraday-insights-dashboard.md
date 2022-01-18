@@ -124,6 +124,7 @@ More information:
 ## View reports in different time zones
 
 Use the **Timezone** option available in the reports to view the date and time information in your reports according to the specified time zone. By default, this option is set to the time  zone that’s specified in the **Settings > Personalized Settings > Set Personal Options > Time Zone** option.
+
 You can save your preferred time zone settings for reports as bookmarks. The bookmarks allow you to switch between reports in various time zones, without having to set the time zone.
 
 
