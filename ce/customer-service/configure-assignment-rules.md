@@ -64,15 +64,14 @@ Perform the following steps to create a custom assignment method:
    e. Repeat the steps a through d to configure multiple rules.
 
    > [!NOTE]
-   >
-   > - We recommend that you reduce the granularity of the conditions for the assignment roles in a descending order.
-   > - If you define a condition on **Available capacity** or **Capacity** attribute, you must use the "is greater than" operator only.
+   > We recommend that you reduce the granularity of the conditions for the assignment roles in a descending order.
+  
 
 10. You can sort the order in which the rules should be evaluated during work assignment. For other tasks that you can perform, such as copy, edit, delete, see [Options available for rulesets](configure-work-classification.md#options-available-for-rulesets).
 
 11. If you create more than one assignment ruleset, a warning message is displayed that alerts you to define the selection criteria to run the rulesets.
 
-You can create a sample assignment rule with the following conditions.
+Create a sample assignment rule with the following conditions.
 
 | Attribute          | Operator                    | Match type    | Attribute value                           |
 | ------------------ | --------------------------- | ------------- | ----------------------------------------- |
@@ -80,6 +79,9 @@ You can create a sample assignment rule with the following conditions.
 | Presence status    | Equals                      | Dynamic match | Conversation.Workstream.Allowed Presences |
 | Available capacity | Is greater than             | Dynamic match | Conversation.Workstream.Capacity                                   |
 |                    |                             |               |              |
+
+> [!NOTE]
+> If you want to define a condition on user capacity, then use the **Available capacity** attribute only as suggested in the example. Use the "is greater than" operator to ensure that available capacity is more than the required capacity.
 
 ![Sample assignment rule.](media/ur-sample-assign-rule.png "Sample assignment rule")
 
