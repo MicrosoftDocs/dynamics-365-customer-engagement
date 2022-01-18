@@ -196,7 +196,7 @@ In the example below, we created a custom field called "Source" that is a choice
 
 	
 
-## 9. Test your forms with tools
+## 8. Test your forms with tools
 
 [Run Performance Insights](https://docs.microsoft.com/en-us/powerapps/maker/common/performance-insights-overview) to see how app and form performance is affected by things like browsers, network performance, data queries, and more.
 
