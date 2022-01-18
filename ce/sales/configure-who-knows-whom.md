@@ -19,7 +19,7 @@ topic-status: Drafting
 Who knows whom helps users to quickly identify colleagues within their organization who can introduce them to leads or contacts.
 
 >[!NOTE]
->- To know whether the Who knows whom feature is available in your region, see [In which region are the features available?](faqs-sales-insights.md#in-which-region-are-the-features-available).
+>- To know in which region the Who knows whom feature is available, see [In which region are the features available?](faqs-sales-insights.md#in-which-region-are-the-features-available).
 >- For Office 365 data, you organization's data location must be in one of the following locations and not in your region-specific datacenter location:
 >    - Global Geography 1 – EMEA (Austria, Finland, France, Ireland, Netherlands)
 >    - Global Geography 2 – Asia Pacific (Hong Kong, Japan, Malaysia, Singapore, South Korea).
@@ -47,7 +47,7 @@ Who knows whom helps users to quickly identify colleagues within their organizat
     > ![Who knows whom configuration page](media/si-admin-who-know-whom-configuration-page.png "Who knows whom configuration page")
 
     >[!NOTE]
-    >If you don’t see the, verify that the Sales Insights add-in is installed in your organization. More information: [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features) 
+    >If you don’t see the option, verify that the Sales Insights add-in is installed in your organization. More information: [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features) 
 
 4. On the **Who knows whom** section, select **Turn on Who Knows Whom for your organization**.
 
@@ -60,7 +60,7 @@ Who knows whom helps users to quickly identify colleagues within their organizat
 
 The who knows whom feature is configured and ready to use in your organization.
 
-After you've enabled the who knows whom feature, enable **Dynamics 365 Sales Insights – Connection Graph** from the Microsoft 365 admin center as the Microsoft 365 admin. This allows Dynamics 365 Sales to collect the communication and collaboration details of users from Exchange server.
+After you've enabled the who knows whom feature, as a Microsoft 365 administrator, enable **Dynamics 365 Sales Insights – Connection Graph** from the Microsoft 365 admin center. This allows Dynamics 365 Sales to collect the communication and collaboration details of users from Exchange server.
 
 ## Enable the connection graph
 
