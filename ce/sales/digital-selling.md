@@ -1,7 +1,7 @@
 ---
 title: "Digital selling | MicrosoftDocs"
 description: "Enable digital selling capabilities with the Dynamics 365 Sales Enterprise license."
-ms.date: 01/10/2022
+ms.date: 01/18/2022
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -14,7 +14,7 @@ manager: shujoshi
 Use selected Dynamics 365 Sales Premium features (sales accelerator, conversation intelligence, and predictive scoring) with the Dynamics 365 Sales Enterprise license.
 
 > [!NOTE]
-> These capabilities are<!--note from editor: Edit okay? Or should it be "These features are..."?--> being rolled out in phases and will be available in all geographical regions by January 31, 2022.
+> These capabilities are being rolled out in phases and will be available in all geographical regions by January 31, 2022.
 
 ## License and role requirements
 
@@ -71,7 +71,7 @@ When you set up the sales accelerator with the Dynamics 365 Sales Enterprise lic
 
 ### Set up the sales accelerator<a name="set-up-sales-accelerator"></a>
 
-1. On the **Get started with digital sales** page under **Sales accelerator**, select **Quick setup**.
+1. On the **Get started with digital sales** page, under **Sales accelerator**, select **Quick setup**.
 
     The **Sales accelerator quick setup** panel is displayed.
 
@@ -85,15 +85,15 @@ When you set up the sales accelerator with the Dynamics 365 Sales Enterprise lic
 3. To add sample data for exploring the feature, select **Add sample data**.
 
     > [!NOTE]
-    > The capability to install sample data is available only in your sandbox or trial environments. When you add sample data, you'll also see predictive lead and opportunity scoring on the Sales Insights form. Adding the sample data might take a few minutes. If you choose to ignore sample data installation at this point, you can add it later when you need it.<!--note from editor: Edit suggested. "However" didn't seem like the right word here.-->
+    > The capability to install sample data is available only in your sandbox or trial environments. When you add sample data, you'll also see predictive lead and opportunity scoring on the Sales Insights form. Adding the sample data might take a few minutes. If you choose to ignore sample data installation at this point, you can add it later when you need it.
 
 4. In the **Content and layout** section, select the record types and their corresponding related forms that are required in your organization.
 
-    1. To add more record types, select **Add record type**, and then select a record from the dropdown<!--note from editor: "Dropdown" as one word is a new style guideline.--> list. The selected record type will display the **Sequence (up next)** widget. You can select out-of-the-box tables—such as **Accounts**, **Contacts**, **Leads**, and **Opportunities**—or custom tables.<!--note from editor: Edit okay? I assume that custom tables aren't available out of the box.-->
+    1. To add more record types, select **Add record type**, and then select a record from the dropdown list. The selected record type will display the **Sequence (up next)** widget. You can select out-of-the-box tables—such as **Accounts**, **Contacts**, **Leads**, and **Opportunities**—or custom tables.
 
        > [!NOTE]
        > - Ensure that the record types you select are the ones that activities are usually connected to. Sales managers use the record types to configure the sequence that will be assigned to records to be displayed in the app.
-       > - To view the custom record types in the list, go to **Settings** > **Customizations** > **Customize the System** > **Components** > **Entities**. Under **Communication & Collaboration**, enable the options **Activities**, **Connections**, and **Sending email (If an email field does not exist, one will be created)**.<!--note from editor: Edit okay?-->
+       > - To view the custom record types in the list, go to **Settings** > **Customizations** > **Customize the System** > **Components** > **Entities**. Under **Communication & Collaboration**, enable the options **Activities**, **Connections**, and **Sending email (If an email field does not exist, one will be created)**.
        > - To add the **Up next** widget to your custom entity form, go to [Add the Up next widget to an entity form](add-upnext-widget-form.md). 
 
     2. Select a form for the selected record.
@@ -112,7 +112,7 @@ After the settings are published, you can open the seller's interface for the sa
 
 ### Turn off the sales accelerator
 
-If you want to turn off the sales accelerator, you do it from the advanced settings.
+If you want to turn off the sales accelerator, you can do it from the advanced settings.
 
 1. Select **Go to advanced sales accelerator settings** at the top of the quick setup panel.
 
@@ -120,7 +120,7 @@ If you want to turn off the sales accelerator, you do it from the advanced setti
 
     :::image type="content" source="media/ds-sa-turn-off.png" alt-text="Turn off sales accelerator.":::
 
-3. In the confirmation dialog<!--note from editor: Just using plain "dialog" is a new style guideline.-->, select **Unpublish**.
+3. In the confirmation dialog, select **Unpublish**.
 
 ### Add the sequence (Up next) widget to a custom form
 
@@ -169,7 +169,7 @@ Conversation intelligence uses analytics and data science to gather data from se
 
 ### Licensing options
 
-When you set up Microsoft Teams calls with conversation intelligence with the Dynamics 365 Sales Enterprise license, there's no limit on the number of calls made through Microsoft Teams. However, you get three<!--note from editor: Via Writing Style Guide, only use numerals for units of time greater than 10.--> hours of conversation intelligence per month. If you need more than three hours of conversation intelligence per month, upgrade to Dynamics 365 Sales Premium. Note that three hours of conversation intelligence refers to recording and processing time.
+When you set up Microsoft Teams calls with conversation intelligence with the Dynamics 365 Sales Enterprise license, there's no limit on the number of calls made through Microsoft Teams. However, you get three hours of conversation intelligence per month. If you need more than three hours of conversation intelligence per month, upgrade to Dynamics 365 Sales Premium. Note that three hours of conversation intelligence refers to recording and processing time.
 
 ### Set up Microsoft Teams calls with conversation intelligence
 
@@ -242,7 +242,7 @@ When you set up lead and opportunity scoring with the Dynamics 365 Sales Enterpr
 2. To enable predictive lead scoring, select **Create and publish** in the **Predictive lead scores** section.
 
     > [!NOTE]
-    > This feature requires a minimum of 40 qualified leads and 40 disqualified leads, all of which have been created in the past two years.<!--note from editor: Suggested.-->
+    > This feature requires a minimum of 40 qualified leads and 40 disqualified leads, all of which have been created in the past two years.
 
     The application starts generating a model, and a notification for training the model is displayed. The model is generated by automatically selecting the attributes that can define the probability of a lead qualification or disqualification. After the model is generated, it's published automatically.
 
@@ -260,7 +260,7 @@ After the models are trained and published, the **Lead score** and **Opportunity
 
 ### Turn off lead and opportunity scoring
 
-If you want to turn off lead and opportunity scoring, you do it from their respective advanced settings.
+If you want to turn off lead and opportunity scoring, you can do it from their respective advanced settings.
 
 **To turn off lead scoring**
 
