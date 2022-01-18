@@ -121,6 +121,12 @@ More information:
 - [Create bookmarks in Power BI Desktop to share insights and build stories](/power-bi/create-reports/desktop-bookmarks)
 - [Create personal bookmarks](/power-bi/consumer/end-user-bookmarks)
 
+## View reports in different time zones
+
+Use the **Timezone** option available in the reports to view the date and time information in your reports according to the specified time zone. By default, this option is set to the time  zone that’s specified in the **Settings > Personalized Settings > Set Personal Options > Time Zone** option.
+You can save your preferred time zone settings for reports as bookmarks. The bookmarks allow you to switch between reports in various time zones, without having to set the time zone.
+
+
 ## Slice metrics by time
 
 The **Duration** option that is available in all reports lets you filter the report details. The filter helps you look at the metrics for the shift the supervisor is handling out of the entire 24 hours duration. The filter lets you report the data within the last four, eight, or twelve hours duration or apply a custom value as well. The metrics within the reports are calculated based on the conversations created in the selected time duration.
