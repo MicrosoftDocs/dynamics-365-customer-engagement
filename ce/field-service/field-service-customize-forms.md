@@ -100,7 +100,7 @@ Create new fields if the default work order form is missing fields that you need
 See the topic on [How to create and edit Field Service columns (fields)](field-service-customize-columns-fields.md) for best practices when created, editing, and deleting fields. **Hint:** You should be very careful when editing default fields and you should never delete default fields. 
 
 
-## 4. Customize the default work order form (recommended)
+## 4. Customize the default work order form (recommended) or create a new form
 
 We are now ready to customize the Work Order form with a combination of existing work order fields and your new custom fields. 
 
@@ -115,7 +115,9 @@ It is highly recommended to use the default Work Order Main form and make change
 
 For basic information on editing forms see the Power Platform documentation on [creating and editing forms](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-and-edit-forms). 
 
-## 5. Hide unwanted tabs, sections, and fields
+## 5. Hide and remove form tabs, sections, and fields
+
+### Hide unwanted tabs, sections, and fields
 
 The next step is to hide unwanted tabs, sections, and fields. It is recommended to _hide_ rather than **remove** items because it reduces the chances of errors and makes it easier to add them back later on if needed.
 
@@ -142,13 +144,20 @@ Hide fields that are unneeded. Do not hide required fields.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customization-form-hide-field.png)
 
-## 6. Choose to remove price related fields if applicable
+### Choose to remove price related fields if applicable
 
 There is an easy and supported way to remove all price related fields (e.g. Price List, Total Amount, etc) from the Work Order, Work Order Product, and Work Order Service 
 
 In a scenario where your organization does not need price list or price calculations (e.g. Total Amount) on the work order or work order products and services, there is an easy and supported wayyou can easily remove all price related fields by going to Field Service Settings and turning **Calculate Price** to _No_. [More details](https://docs.microsoft.com/dynamics365/field-service/configure-default-settings#work-order-and-bookings-settings). 
 
-## 7. Move less important items away from the first form tab
+### 7. Choose to remove tax related fields if applicable
+
+There is an easy and supported way to remove all tax related fields (e.g. Price List, Total Amount, etc) from the Work Order, Work Order Product, and Work Order Service 
+
+
+## 6. Rearrange form tabs, sections, and fields
+
+### Move less important items away from the first form tab
 
 The first form tab is very consequential for form load times. 
 
@@ -167,7 +176,10 @@ Move it to another tab. If you still wish to use it, then leave it there; hide i
 
 Do the same for subgrids and any other control.
 
-## 8. Add your custom fields to the appropriate form tabs
+## 7. Add your custom fields to the form
+
+
+### Add your custom fields to the appropriate form tabs
 
 Add the custom fields you created earlier for your unique business processes to the form.
 
