@@ -21,16 +21,13 @@ Add additional filters to refine the opportunities and hierarchies that particip
 
 ## Filter opportunities in the forecast 
 
-Using additional filters, you can filter the opportunities that participate in calculating the forecast values. To filter the opportunities, you create filters based on conditions by using the attributes that belong to the Opportunity entity, including related entity attributes.
+Using the rollup filters, you can filter opportunities that participate in calculating the forecast values. To filter the opportunities, create the filter conditions based on the opportunity and its related entity attributes.
 
-For example, you know that opportunities related to **Adatum Corporation** and revenue more than or equal to **$10,000** can't be closed for the current quarter. To filter such opportunities in the forecast, follow these steps to create a query for this condition.
+For example, you know that opportunities related to **Adatum Corporation** and the revenue of more than or equal to **$10,000** can't be closed for the current quarter. To filter such opportunities in the forecast, follow these steps:
 
-1.	In the **Additional filters** section, select **+ Add filters**.
+1.	In the **Filter Data** step of the forecast configuration, go to the **Add rollup filters** section.
  
 2.	Select **+ Add** > **Add row**. 
-
-    > [!div class="mx-imgBorder"]
-    > ![Select add row.](media/forecast-add-filter-add-row.png "Select Add row")
  
 3.	In the selection boxes, select the attribute as **Potential Customer**, the condition as **Does Not Equals**, and the company to be considered as **Adatum Corporation**.
  
@@ -58,11 +55,12 @@ The following screenshot illustrates a sample forecast hierarchy:
 
 **To filter hierarchy records in a forecast**
 
-1.  Select the **Filter Hierarchy** step of the forecast.
+1.  Select the **Filter Data** step of the forecast and go to the **Add hierarchy filters** section.
+
     > [!NOTE]
     > To apply the filter on an existing forecast, clone the forecast configuration, apply the filter, and activate it. You can then deactivate the old forecast.
     
-2.  Select the conditions to filter the hierarchy that you want to include in the forecast. In our example, select **Territory** is equal to APAC. This will include forecast records of sellers from APAC.
+2.  Select the conditions to filter the hierarchy that you want to include in the forecast. For our example, let's select **Territory** is equal to APAC. This will include forecast records of sellers from APAC.
 
      :::image type="content" source="media/hierarchy-filters.png" alt-text="Screenshot of the Filter Hierarchy step":::
 
@@ -73,9 +71,9 @@ The following screenshot illustrates a sample forecast hierarchy:
 
     :::image type="content" source="media/hierarchy-filters-preview.png" alt-text="Screenshot of the forecast hierarchy preview":::
 
-    If a parent record is suffixed with **(group)** in the preview, it means that the parent record is filtered out of the hierarchy but its child records are included in the hierarchy.  
+    If a parent record is suffixed with **(group)** in the preview, it means that the parent record is filtered out of the hierarchy but its child records are included in the hierarchy. As an example, see Nancy's record in the above screenshot.  
 
-4.  Ensure that the forecast hierarchy looks correct before you activate the forecast. Once the forecast is activated, you can't edit the filter.
+4.  Ensure that the forecast hierarchy looks correct before you activate the forecast. After the forecast is activated, you can't edit the filter.
 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
