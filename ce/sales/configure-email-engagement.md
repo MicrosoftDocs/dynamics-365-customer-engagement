@@ -16,7 +16,7 @@ topic-status: Drafting
 ---
 # Configure email engagement 
 
-Configure email engagement to show sellers and sales managers the insights on customers engagement with emails to help build customer relationships. Only the emails that are sent from Dynamics 365 are considered to for email engagement analysis.
+Configure email engagement to show sellers and sales managers the insights on customers' engagement with emails to help build customer relationships. Only the emails that are sent from Dynamics 365 are considered for email engagement analysis.
 
 ## License and role requirements
 
