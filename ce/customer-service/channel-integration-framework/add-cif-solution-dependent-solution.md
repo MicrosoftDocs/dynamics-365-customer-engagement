@@ -11,7 +11,7 @@ ms.custom:
 
 # Add a Dynamics 365 Channel Integration Framework 1.0 solution as a dependent solution
 
-Third-party channel providers can add a Dynamics 365 Channel Integration Framework 1.0 solution as a dependent solution to use its capabilities in the solutions that they develop for Dynamics 365. This topic describes how users can install, update, and delete a Dynamics 365 Channel Integration Framework 1.0 solution as a dependent solution.
+Third-party channel providers can add a Dynamics 365 Channel Integration Framework 1.0 solution as a dependent solution to use its capabilities in the solutions that they develop for Dynamics 365. This topic describes how you can install, update, and delete a Dynamics 365 Channel Integration Framework 1.0 solution as a dependent solution.
 
 [!INCLUDE[token-add-cif-solution-dependent-solution](shared/token-add-cif-solution-dependent-solution.md)]
 
