@@ -30,9 +30,6 @@ Using the **Categories** entity, you can create hierarchical categorical data to
 
 Categories are useful for reporting, sorting, segmenting, and categorization of records. 
 
-> [!NOTE]
-> With the latest release of Dynamics 365 Customer Service app, categories in service management are available in the Customer Service Hub. We recommend that you create and manage categories using the new experience.
-
 ## Create a category
 
 To create a category:
@@ -47,14 +44,8 @@ To create a category:
   
 2. In the Customer Service Hub sitemap, go to **Service Management** and select **Categories** in **Knowledge Base Management**.
 
-    > [!NOTE]
-    > In the Customer Service app, [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)] and select **Categories**.
-
 3. Select **New**.  
-  
-    > [!NOTE]
-    > To edit a category, double-click the category in the category list that you want to edit. You can also select the category in the list and select **Edit** in the command bar.
-
+ 
 4. Type or change the information in the text boxes.
 
    - In the **General** section, fill in the required details:
@@ -70,15 +61,15 @@ To create a category:
      - View all the **Child Categories** for a particular category.
      - Create a new category by selecting **Add New Category**.
 
-
-## Additional actions
+## Manage categories
 
 - To see the hierarchy of a particular record and its parent and child category associations, select a category from the list and select **View Hierarchy**.
 - To assign the category to a particular owner, select **Assign** on the command bar.
 - To delete a category, select the category from the list and select **Delete** on the command bar.
+- To edit a category, select the category in the **Title**column. You can also select the category in the list and select **Edit** in the command bar.
 
 > [!NOTE]
-> The **Lookup View** is not customizable for the Category entity.
+> The **Categories lookup view** in the advanced settings of Dynamics 365 isn't customizable.
 
 ### See also
 
