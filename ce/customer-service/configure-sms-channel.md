@@ -1,7 +1,7 @@
 ---
 title: "Configure an SMS channel for TeleSign | MicrosoftDocs"
 description: "Get instructions for configuring an SMS channel for TeleSign in Omnichannel for Customer Service."
-ms.date: 04/15/2021
+ms.date: 01/18/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -27,6 +27,7 @@ The tasks to add SMS support for TeleSign are as follows:
 > [!NOTE]
 >
 > - The maximum number of characters supported for sent and received messages is 1600.
+> - To ensure that third-party SMS providers handle opt-out commands properly, you must configure your consent settings with the provider directly.
 > - SMS is an asynchronous mode of communication. Agents can close the conversation and then work on them later. Ending the conversation will mark it as resolved. More information: [Understand conversation states](oc-conversation-state.md)
 
 ## Enable SMS channel in your Dynamics 365 organization
