@@ -1,7 +1,7 @@
 ---
 title: "Configure assignment methods for queues | MicrosoftDocs"
 description: "Contains steps on how to configure the different assignment methods for queues in Customer Service and Omnichannel for Customer Service"
-ms.date: 01/18/2022
+ms.date: 01/19/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -81,7 +81,7 @@ Create a sample assignment rule with the following conditions.
 |                    |                             |               |              |
 
 > [!NOTE]
-> If you want to define a condition on user capacity, then use the **Available capacity** attribute only as suggested in the example. Use the "is greater than" operator to ensure that available capacity is more than the required capacity.
+> If you want to define a condition on available capacity of users, then use the **Available capacity** attribute only as suggested in the example. Use the "is greater than" operator to ensure that available capacity is more than the required capacity.
 
 ![Sample assignment rule.](media/ur-sample-assign-rule.png "Sample assignment rule")
 
