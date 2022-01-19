@@ -62,7 +62,7 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 (Includes Universal Resource Scheduling version [3.12.69.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#312691)).
 
-- Fixed a bug in the Field Service (Dynamics 365) mobile app to prevent the Booking calendar control from jumping or jittering when scrolling through bookings. 
+- Fixed a bug in the Field Service (Dynamics 365) mobile app to prevent the booking calendar control from jumping or jittering when scrolling through bookings. 
 
 ## 8.8.57.19
 
