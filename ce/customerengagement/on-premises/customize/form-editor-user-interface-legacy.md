@@ -8,6 +8,7 @@ applies_to:
   - Dynamics 365 for Customer Engagement (online)
   - powerapps
 ms.prod: d365ce-op
+ms.topic: overview
 ms.author: matp
 manager: kvivek
 ms.assetid: 146f8035-4fcd-4572-8e71-4270cd150495
