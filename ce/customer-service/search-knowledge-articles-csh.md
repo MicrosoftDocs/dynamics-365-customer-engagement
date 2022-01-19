@@ -1,7 +1,7 @@
 ---
 title: Search knowledge articles in the Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: See how you can effectively search knowledge articles in the Customer Service Hub.
-ms.date: 01/14/2022
+ms.date: 01/19/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -113,9 +113,18 @@ In the knowledge base search control, you can do the following:
 
 ### Search for knowledge articles
 
-Type a keyword in the search box to search for knowledge articles.
+Type a keyword in the search field to search for knowledge articles.
 
  :::image type="content" source="media/search-kb-article.png" alt-text="Search for knowledge article":::
+
+  |Label|Description|
+  |-----|-----------|
+  |1.| The Knowledge search field.|
+  |2.| Status and visibility tags for the article.|
+  |3.| The number of times the article has been viewed. |
+  |4.| Article number|
+  |5.| Info card that displays search term matches from keywords, description, attachments, and any other custom fields. |
+  |6.| Search results across attachments. If the search term matches content only in the attachment, then only the attachment title is displayed.|
 
 - If Relevance Search is not enabled, the keywords that you enter will initiate a search (using the Full-text search mechanism) in the following fields of a knowledge article: **Title**, **Content**, **Keywords**, **Description**, and **Article Public Number**.
 

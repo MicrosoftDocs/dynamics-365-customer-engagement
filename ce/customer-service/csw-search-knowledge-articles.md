@@ -1,7 +1,7 @@
 ---
 title: Search knowledge articles in the Customer Service workspace in Dynamics 365 Customer Service | Microsoft Docs
 description: See how you can effectively search knowledge articles in the Customer Service workspace.
-ms.date: 01/14/2022
+ms.date: 01/19/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -67,7 +67,7 @@ The required view columns are as follows:
 
 ## Use the knowledge search pane to search articles
 
-In Customer Service workspace, for a case, when you select the Knowledge Search tab, knowledge articles that match the case title are displayed on the **Knowledge Search** pane. These articles are displayed based on relevance and full-text search mechanisms. 
+In Customer Service workspace, for a case, when you select the Knowledge Search tab, knowledge articles that match the case title are displayed on the **Knowledge Search** pane. These articles are displayed based on relevance and full-text search mechanisms.
 
 The knowledge articles are applicable for all knowledge-enabled entities. By default, the full text search displays 10 results and relevance search displays 50 results. You can also use the search box to enter keywords and search for articles if those displayed by default are not relevant.
 
@@ -79,10 +79,10 @@ The knowledge articles are applicable for all knowledge-enabled entities. By def
   |2.| Tag when the article is linked to the entity.|
   |3.| Article number|
   |4.| The number of times the article has been viewed. |
-  |5.| Search results across the custom fields that you have added for search.|
+  |5.| Info card that displays search term matches from keywords, description, attachments, and any other custom fields. |
   |6.| Lets you link or unlink the article to the entity, such as the case.|
   |7.| Status and visibility tags for the article.|
-  |8.| Search results across attachments.|
+  |8.| Search results across attachments. If the search term matches content only in the attachment, then only the attachment title is displayed.|
   
 
 ## Use the knowledge search pane to work on your articles
