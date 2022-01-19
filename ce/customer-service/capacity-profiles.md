@@ -12,7 +12,7 @@ manager: shujoshi
 
 ## Introduction
 
-You can create capacity profiles to define the types and amount of work that agents can take. Capacity profiles contain details on amount of work, concurrent or daily capacity, and whether other channels are affected.
+You can create capacity profiles and assign them to agents to define the types and amount of work they can take. Capacity profiles contain information, such as the amount of work, concurrent or daily capacity, and whether other channels are affected.
 
 - Capacity management helps administrators create various capacity profiles and associate users with the matching profiles.
 - The administrator has the capability to block certain period of agents' time while they are busy working with high priority cases.
