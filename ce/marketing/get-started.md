@@ -20,7 +20,7 @@ search.app:
 
 # Get started with outbound and real-time marketing
 
-This article provides checklists to get your Dynamics 365 Marketing implementation up and running quickly. The first checklist offers basic steps and articles to follow during the initial setup process. The second checklist ventures into more advanced topics, including subscription lists and subscription center setup.
+This article provides checklists to get your Dynamics 365 Marketing implementation up and running quickly. The first checklist offers basic steps and articles to follow during the initial setup process. The second checklist ventures into more advanced tasks, including subscription lists and subscription center setup.
 
 ## Dynamics 365 Marketing basic setup
 
@@ -43,10 +43,10 @@ This article provides checklists to get your Dynamics 365 Marketing implementati
 | Task | Related information |
 |---|---|
 | Define and create subscription lists | Lists that a client can subscribe to such as a newsletter. Learn more: [Create a subscription list](set-up-subscription-center.md#create-a-subscription-list). |
-| Upload your company logo as a digital asset | Resize before uploading to use in emails, forms, etc. Learn more: [Upload and use images and files in online content](upload-image-files.md). |
+| Upload your company logo as a digital asset | Resize before uploading to use in emails, forms, etc. Learn more: [Upload and use images and files in online content](upload-images-files.md). |
 | Design your subscription form for each subscription list | It is recommended to use a separate form instead of only using the subscription center. Learn more: [Add a subscription list to a subscription form](set-up-subscription-center.md#add-a-subscription-list-to-a-subscription-form). |
 | Design your subscription center | Learn more: [Create a subscription center marketing page](set-up-subscription-center.md#create-a-subscription-center-marketing-page), [Create a landing page with a form](create-landing-page.md). |
-| Design a master email template for your company | Learn more: [Work with email, page, and form templates](email-templates.md). |
+| Design the main email template for your company | Learn more: [Work with email, page, and form templates](email-templates.md). |
 | Design a double opt-in confirmation email and landing page | Learn more: [Create an increase content confirmation request message](double-opt-in.md#create-an-increase-consent-confirmation-request-message), [Create a thank you page for each type of confirmation](double-opt-in.md#create-a-thank-you-page-for-each-type-of-confirmation). |
 | Configure double opt-in settings | Learn more: [Set up global double opt-in for new subscriptions and consent changes](double-opt-in.md). |
 | Prepare data migration of existing email subscription lists | From Mailchimp, for example. Learn more: [Import and email all contacts from a spreadsheet](email-excel.md), [Create a subscription list](set-up-subscription-center.md#create-a-subscription-list). |
