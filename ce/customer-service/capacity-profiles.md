@@ -23,8 +23,8 @@ Configure profile-based capacity if any of the following scenarios are applicabl
 
 - Your agents are varied on experience and skill sets.
 - Agents need upper limit on the amount of work assigned to them.
-- Agents work items are of different complexity, originate on different channels.
-- Assignment on one channel impacts the assignment of another channel. For example, agents on phone calls shouldn't be assigned another work.
+- Agents work items are of different complexity and assigned from different channels.
+- Assignment on one channel impacts the assignments of another channel. For example, agents on phone calls shouldn't be assigned another work.
 
 > [!IMPORTANT]
 >
@@ -35,14 +35,11 @@ Configure profile-based capacity if any of the following scenarios are applicabl
 
 Create a capacity profile, and use it in a workstream that is used for routing work items.
 
-For a capacity profile, you can edit any setting except reset frequency, and add or remove users. If you no longer require the profile, you can delete it.
+For a capacity profile, you can add or remove users and edit any setting except reset frequency. If you no longer require the profile, you can delete it.
 
-Perform the following steps to configure the capacity profile:
+**To configure the capacity profile**
 
 1. In Omnichannel admin center, select **User attributes** in **Advanced settings** in the site map. In Customer Service Hub, select **User attributes** in **Unified routing** in the site map.
-
-  > [!NOTE]
-  > In Customer Service Hub, the **User attributes** area will appear in the site map only if unified routing is enabled in service configuration settings.
 
 2. On the **User attributes** page, select the **Manage** option for **Capacity profile**.
 
@@ -63,8 +60,6 @@ Perform the following steps to configure the capacity profile:
 
 6. Select **Add user**. The capacity profile is assigned to the user.
 
-> [!NOTE]
-> In Omnichannel Administration, you can create a capacity profile in the **Capacity** area of the **User** page.
 
 ## Use capacity profiles
 
@@ -83,28 +78,28 @@ The escalation profile is a default profile that's used when a chat conversation
 
 Let us take a scenario where you want to route cases such that agents can work on maximum two high priority cases per day.
 
-- Agents can work on max 4 normal capacity profile per day
+- Agents can work on maximum 4 cases based on the normal capacity profile that's assigned.
 - But the agent should never be assigned more than 5 cases per day.
 
 **To achieve the scenario**
 
 1. create the following profiles:
 
-   -	**High priority profile**: 2 cases per day, reset at the end of day
-   -	**Normal priority profile**: 4 cases per day, reset at the end of day
-   -	**Total capacity profile**:  5 cases per day, reset at the end of day
+   - **High-priority profile**: 2 cases per day, reset at the end of day
+   - **Normal-priority profile**: 4 cases per day, reset at the end of day
+   - **Total-capacity profile**:  5 cases per day, reset at the end of day
 
-1.	In the workstream, set the "Total capacity profile" as the default profile.
+1. In the workstream, set the "Total-capacity profile" as the default profile.
 
-1	Use the classification rule to set the capacity profiles as "High priority profile" or "Normal priority profile" according to the priority of the case.
+1. Use the classification rules to set the capacity profiles for the work items as "High-priority profile" or "Normal-priority profile" according to the priority of the case.
 
-1. Ensure that the agents have all the three profiles
+1. Ensure that the agents have all the three profiles.
 
-**Run time behavior**
+**Runtime behavior of multiple capacity profiles in a single workstream**
 
-1. When the high priority case comes, the case will be stamped with the "Total capacity profile" and "High priority profile".
-2. An agent who has capacity in both these profiles will be selected. When the case is assigned, capacity will be consumed from both the profiles.
-3. Similarly, for normal priority cases, the capacity will be consumed from both the total capacity profile and normal priority profile.
+1. When the high priority work item comes, it'll be stamped with "Total-capacity profile" and "High-priority profile".
+2. An agent who has capacity in both these profiles will be selected. When the work item is assigned, capacity will be consumed from both the profiles.
+3. Similarly, for normal priority cases, the capacity will be consumed from both "Total-capacity profile" and "Normal-priority profile".
 
 
 ### See also
