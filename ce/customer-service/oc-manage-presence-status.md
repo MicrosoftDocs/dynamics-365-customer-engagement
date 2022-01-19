@@ -73,18 +73,18 @@ Following are examples of the various scenarios that might affect your presence 
 ### Login scenarios:
 Here are the login scenarios:
 - You logged in for the first time.
-- You got signed out but were able to sign in within the stipulated time.
-- You lost connection, but were able to reconnect within the stipulated time.
+- You got signed out but were able to sign in within the turnaround time.
+- You lost connection, but were able to reconnect within the turnaround time.
 
 Here's how your presence status changes:
 
-Your presence is set to the default presence if no work items have been assigned to you. If work items are assigned, your presence is automatically computed. However, if configured by the admin, your default presence shows as Away or Offline. Note: Live chats assigned to the agent are reassigned to other agents in case the agent is unable to reconnect within the stipulated time. After the stipulated time, live chats are only retained with the agent if agent affinity is turned on. For cases and other async channels, work items are always retained with the agent.
+Your presence is set to the default presence if no work items have been assigned to you. If work items are assigned, your presence is automatically computed. However, if configured by the admin, your default presence shows as Away or Offline. Note: Live chats assigned to the agent are reassigned to other agents in case the agent is unable to reconnect within the turnaround time. After the turnaround time, live chats are only retained with the agent if agent affinity is turned on. For cases and other async channels, work items are always retained with the agent.
 
 ### Reconnection scenarios:
 Here are the reconnection scenarios:
-- You lost connection, but were able to reconnect within the stipulated time.
-- Your browser closed but opened within the stipulated time.
-- You got signed out but were able to sign in within the stipulated time.
+- You lost connection, but were able to reconnect within the turnaround time.
+- Your browser closed but opened within the turnaround time.
+- You got signed out but were able to sign in within the turnaround time.
 
 Here's how your presence status changes:
 
