@@ -14,7 +14,7 @@ manager: shujoshi
 
 Power Virtual Agents let you create powerful bots, configured with various topics and trigger phrases, that help automatically resolve questions posed by your customers on your portal page. More information: [Power Virtual Agents overview](/power-virtual-agents/fundamentals-what-is-power-virtual-agents).
 
-Integrating Power Virtual Agents with knowledge management makes it easier to use customized conversations in your bot that helps answer questions, perform actions, and solve issues. This frees up your agent’s time to deal with more complex issues.
+Integrating Power Virtual Agents bot with knowledge management makes it easier to use customized conversations in your bot. This frees up your agent’s time to deal with complex issues that need human intervention, as the bot helps answer questions, perform actions, and solve issues that are simple in nature.
 
 Integration of knowledge management with a Power Virtual Agents bot can happen in the following ways:
 
