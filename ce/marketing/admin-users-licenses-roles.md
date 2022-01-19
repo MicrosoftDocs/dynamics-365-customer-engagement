@@ -1,7 +1,7 @@
 ---
 title: "Manage user accounts, user licenses, and security roles (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to manage user accounts, add licenses to users, and assign security roles in Dynamics 365 Marketing."
-ms.date: 08/04/2021
+ms.date: 01/19/2022
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -201,7 +201,7 @@ The system uses this account when performing important internal tasks, and Marke
 
 After deploying real-time marketing features, several service users are created. As with outbound marketing, deleting these users will break your deployment.
 
-| Real time marketing service user | Marketing area |
+| Real-time marketing service user | Marketing area |
 | ---- | ------- |
 | Customer Experience Platform PROD | All other areas not listed below |
 | Dynamics Marketing Dataverse Datasource  | Personalization of messages |
