@@ -18,7 +18,7 @@ search.app:
 
 # Improve Field Service (Dynamics 365) mobile app performance
 
-**PUT IN BETWEEN FAQs AND USE MICROSOFT PLATFORM**
+In this article, we list a few ways you can improve the performance of Field Service (Dynamics 365) mobile.
 
 ## Remove Console.log from production code 
 
