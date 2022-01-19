@@ -201,7 +201,7 @@ The system uses this account when performing important internal tasks, and Marke
 
 After deploying real-time marketing features, several service users are created. As with outbound marketing, deleting these users will break your deployment.
 
-| Realtime marketing service user | Marketing area |
+| Real time marketing service user | Marketing area |
 | ---- | ------- |
 | Customer Experience Platform PROD | All other areas not listed below |
 | Dynamics Marketing Dataverse Datasource  | Personalization of messages |
@@ -209,7 +209,6 @@ After deploying real-time marketing features, several service users are created.
 | Dynamics Marketing Lifecycle Management | Lifecycle and provisioning scenarios |
 | Dynamics Marketing Native Segmentation | Segmentation |
 | Dynamics Marketing Workflow | Customer journey execution |
- 
 
 One service user, **# Dynamics Marketing Dataverse Datasource**, is used to impersonate a service that resolves dynamic content. Dynamic content can be defined through placeholders for personalized messages or through data-bound parameter in customer journeys.
 
