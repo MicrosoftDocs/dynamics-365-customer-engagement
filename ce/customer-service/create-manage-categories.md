@@ -66,7 +66,7 @@ To create a category:
 - To see the hierarchy of a particular record and its parent and child category associations, select a category from the list and select **View Hierarchy**.
 - To assign the category to a particular owner, select **Assign** on the command bar.
 - To delete a category, select the category from the list and select **Delete** on the command bar.
-- To edit a category, select the category in the **Title** column. You can also select the category in the list and select **Edit** in the command bar.
+- To edit a category, select the category in the **Title** column. You can also select the category in the list and select **Edit** on the command bar.
 
 > [!NOTE]
 > The **Categories lookup view** in the advanced settings of Dynamics 365 isn't customizable.
