@@ -5,7 +5,7 @@ ms.custom: on-premises
 ms.date: 09/12/2020
 ms.reviewer: "kvivek"
 ms.prod: d365ce-op
-ms.topic: "article"
+ms.topic: overview
 author: "kvivek"
 ms.author: "kvivek"
 manager: "kvivek"

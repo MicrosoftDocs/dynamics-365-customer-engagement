@@ -7,6 +7,7 @@ manager: shujoshi
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
+  - "intro-internal"
 ---
 # Walkthrough: Get started with building a simple communication widget
 
