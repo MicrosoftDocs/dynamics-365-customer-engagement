@@ -28,7 +28,7 @@ searchScope:
 
 Using the **Categories** entity, you can create hierarchical categorical data to help group records. Categorizing entity records in Dynamics 365 Customer Service helps you tag the records so that you can easily search them. Use the entity to create and manage a logical structure of categories in Dynamics 365 Customer Service, and then associate entity records to one or more categories.
 
-Categories are useful for reporting, sorting, segmenting, and categorization of records. 
+Categories are useful for reporting, sorting, segmenting, and categorization of records.
 
 ## Create a category
 
@@ -42,7 +42,7 @@ To create a category:
   
    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
-2. In the Customer Service Hub sitemap, go to **Service Management** and select **Categories** in **Knowledge Base Management**.
+2. In the Customer Service Hub site map, go to **Service Management** and select **Categories** in **Knowledge Base Management**.
 
 3. Select **New**.  
  
@@ -66,7 +66,7 @@ To create a category:
 - To see the hierarchy of a particular record and its parent and child category associations, select a category from the list and select **View Hierarchy**.
 - To assign the category to a particular owner, select **Assign** on the command bar.
 - To delete a category, select the category from the list and select **Delete** on the command bar.
-- To edit a category, select the category in the **Title**column. You can also select the category in the list and select **Edit** in the command bar.
+- To edit a category, select the category in the **Title** column. You can also select the category in the list and select **Edit** in the command bar.
 
 > [!NOTE]
 > The **Categories lookup view** in the advanced settings of Dynamics 365 isn't customizable.
