@@ -1,7 +1,7 @@
 ---
 title: "Configure an SMS channel for Twilio | MicrosoftDocs"
 description: "Use this topic to understand how to configure an SMS channel for Twilio in Omnichannel for Customer Service."
-ms.date: 04/09/2021
+ms.date: 01/18/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -36,7 +36,9 @@ An SMS channel is enabled within Omnichannel for Customer Service by integrating
 2. Purchase support phone numbers through your Twilio account.
 
 > [!NOTE]
-> Only US phone numbers are supported.
+>
+> - Only US phone numbers are supported.
+> - To ensure that third-party SMS providers handle opt-out commands properly, you must configure your consent settings with the provider directly.  
 
 ## Set up the SMS channel for Twilio in Omnichannel admin center
 
