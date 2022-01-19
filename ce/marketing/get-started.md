@@ -24,6 +24,8 @@ This article provides checklists to get your Dynamics 365 Marketing implementati
 
 ## Dynamics 365 Marketing basic setup
 
+Follow these steps to expedite the Dynamics 365 Marketing setup process.
+
 | Task | Related information |
 |---|---|
 | Gather and document use cases and marketing requirements | Bulk mailings, automations, surveys, event management, etc. |
@@ -39,6 +41,8 @@ This article provides checklists to get your Dynamics 365 Marketing implementati
 | Configure default marketing settings. If there are multiple subsidiaries or legal entities with different brands, create multiple settings. | Learn more: [Settings overview](marketing-settings.md), [Set up global double opt-in for new subscriptions and consent changes](double-opt-in.md), [Set up subscription lists and subscription centers](set-up-subscription-center.md). |
 
 ## Set up bulk mailings, manage subscriptions and the double opt-in process
+
+Follow these steps to set up subscription lists, configure your subscription center, and create a journey to email marketing mailings to your subscribers.
 
 | Task | Related information |
 |---|---|
