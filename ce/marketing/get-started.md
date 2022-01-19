@@ -28,16 +28,16 @@ Follow these steps to expedite the Dynamics 365 Marketing setup process.
 
 | Task | Related information |
 |---|---|
-| Gather and document use cases and marketing requirements | Bulk mailings, automations, surveys, event management, etc. |
+| Gather and document use cases and marketing requirements | Determine your business requirements for bulk mailings, automation, surveys, event management, etc. |
 | Determine licensing requirements | Licensing is done on a tenant level. Learn more: [Dynamics 365 Marketing licensing options](purchase-setup.md#dynamics-365-marketing-licensing-options). |
-| Determine company geographical address | Visible on all emails (regulatory requirement). |
+| Determine company geographical address | Visible on all emails (regulatory requirement). You will enter your organization's postal address when configuring your content settings, as detailed below. |
 | Determine if Power Apps portals are needed | Learn more: [Integrate Marketing with a CMS system, Dynamics 365 Portals, or Power Apps portals](portal-optional.md). |
 | Install Dynamics 365 Marketing app on all Dynamics 365 organizations (dev and production) | Update Dynamics 365 tenants first. Learn more: [Purchase and set up Dynamics 365 Marketing](purchase-setup.md). |
 | Grant access to superusers for Dynamics 365 Marketing training | Later, give access to all users. Learn more: [Manage user accounts, user licenses, and security roles](admin-users-licenses-roles.md). |
 | Customize your Dynamics 365 Sales app if needed (merge new tabs, attributes) | Example: [View and edit which lists each contact subscribes to](set-up-subscription-center.md#view-and-edit-which-lists-each-contact-subscribes-to). |
 | Authenticate your company domains on the production environment | Learn more: [Authenticate your domains](mkt-settings-authenticate-domains.md). |
 | Configure insights sync settings | Learn more: [Sync entities and track insights using Dataset configuration](mkt-settings-sync.md). |
-| Configure content settings. If there are multiple subsidiaries or legal entities with different brands, create multiple settings. | Learn more: [Configure your social media accounts](mkt-settings-social-media.md), [Configure landing pages](mkt-settings-landing-pages.md). |
+| Configure content settings. If there are multiple subsidiaries or legal entities with different brands, create multiple settings. | Learn more: [Use content settings to set up repositories of standard and required values for email messages](dynamic-email-content.md#use-content-settings-to-set-up-repositories-of-standard-and-required-values-for-email-messages), [Configure your social media accounts](mkt-settings-social-media.md), [Configure landing pages](mkt-settings-landing-pages.md). |
 | Configure default marketing settings. If there are multiple subsidiaries or legal entities with different brands, create multiple settings. | Learn more: [Settings overview](marketing-settings.md), [Set up global double opt-in for new subscriptions and consent changes](double-opt-in.md), [Set up subscription lists and subscription centers](set-up-subscription-center.md). |
 
 ## Set up bulk mailings, manage subscriptions and the double opt-in process
