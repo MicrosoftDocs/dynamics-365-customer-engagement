@@ -672,10 +672,10 @@
     items: 
     - name: View customer activity history
       href: relationship-analytics.md
+    - name: Get introduced to leads and contacts
+      href: who-knows-whom.md
     - name: Know conversation starters for your customers
       href: talking-points.md
-    - name: Get introduced to lead
-      href: who-knows-whom.md
   - name: Conversation Intelligence
     items:
     - name: Overview of Conversation Intelligence

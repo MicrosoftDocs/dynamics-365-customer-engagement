@@ -201,9 +201,9 @@ The system uses this account when performing important internal tasks, and Marke
 
 After deploying real-time marketing features, several service users are created. As with outbound marketing, deleting these users will break your deployment.
 
-One service user, **# DvDSUser**, is used to impersonate a service that resolves dynamic content. Dynamic content can be defined through placeholders for personalized messages or through data-bound parameter in customer journeys.
+One service user, **# Dynamics Marketing Dataverse Datasource**, is used to impersonate a service that resolves dynamic content. Dynamic content can be defined through placeholders for personalized messages or through data-bound parameter in customer journeys.
 
-**# DvDSUser** has a **Service Reader** role assigned, which allows it privileged access to any Dataverse data within a given environment.
+**# Dynamics Marketing Dataverse Datasource** has a **Service Reader** role assigned, which allows it privileged access to any Dataverse data within a given environment.
 
 ### See also
 
