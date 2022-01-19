@@ -1,7 +1,7 @@
 ---
 title: "Add dynamic content to email messages (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to add field values, set up content settings information, conditional statements, and while loops to your email designs in Dynamics 365 Marketing."
-ms.date: 01/18/2022
+ms.date: 01/19/2022
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -46,7 +46,8 @@ To view, edit, or create a content-settings record:
 
 1. The **Content Settings** form opens. If you are editing a record that is already live, you must choose **Edit** in the command bar before you can edit it. If you are creating a new one, you can just start filling in the fields.  
 
-    ![The content-settings form.](media/content-settings-form.png "The content-settings form")
+    > [!div class="mx-imgBorder"]
+    > ![The content-settings form.](media/content-settings-form2.png "The content-settings form")
 
 1. Make the following settings, as needed:
 
