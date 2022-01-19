@@ -241,7 +241,7 @@
   - name: Use Microsoft Power Platform
     href: mobile-power-utilize-platform.md
   - name: Improve mobile app performance 
-    href: improve-mobile-app-performance.md
+    href: improve-mobile-performance.md
   - name: FAQs
     href: mobile-power-app-faq.yml
   - name: Field Service Mobile (Xamarin app)

@@ -1,4 +1,3 @@
-
 ---
 title: "Improve Field Service (Dynamics 365) mobile app performance - Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn about you can improve the Field Service mobile app performance.
