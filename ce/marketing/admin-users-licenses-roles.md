@@ -186,9 +186,9 @@ The surveys package adds the following security role:
 
 - Project Owner
 
-## Don't modify or remove Marketing service users
+## Don't modify or remove marketing service users
 
-Dynamics 365 Marketing includes a preconfigured user called **MarketingServices ApplicationUser**, which must have the following security roles:
+Dynamics 365 Marketing includes a preconfigured user called **D365 Marketing**, which must have the following security roles:
 
 - EventManagement S2SInbound
 - LinkedIn LeadGen S2SInbound
@@ -200,6 +200,16 @@ The system uses this account when performing important internal tasks, and Marke
 ### Real-time marketing service users
 
 After deploying real-time marketing features, several service users are created. As with outbound marketing, deleting these users will break your deployment.
+
+| Realtime marketing service user | Marketing area |
+| ---- | ------- |
+| Customer Experience Platform PROD | All other areas not listed below |
+| Dynamics Marketing Dataverse Datasource  | Personalization of messages |
+| Dynamics Marketing Interactive Scenarios  | Handling flows triggered by organic users |
+| Dynamics Marketing Lifecycle Management | Lifecycle and provisioning scenarios |
+| Dynamics Marketing Native Segmentation | Segmentation |
+| Dynamics Marketing Workflow | Customer journey execution |
+ 
 
 One service user, **# Dynamics Marketing Dataverse Datasource**, is used to impersonate a service that resolves dynamic content. Dynamic content can be defined through placeholders for personalized messages or through data-bound parameter in customer journeys.
 
