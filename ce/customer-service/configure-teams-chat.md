@@ -167,6 +167,72 @@ For any view that's selected, keep in mind the following details:
  
 - For other out-of-box standard record types, including account, contacts, knowledge article, and email, the default view is the **Quick find** view.
 
+## Assign Unlink chats rights to specific user roles
+
+Agents can create Teams chats directly from Dynamics 365 apps and then link them to records. They can also link existing chats to Dynamics 365 records from the Teams embedded chat experience.
+
+As an admin, you can control which user or role can unlink chats that are linked. These user rights give you the flexibility to adapt the Teams embedded chat experience with to match your business processes.
+
+You can choose from the following options for assigning rights to agents:
+
+- Assign Unlink chats rights to specific users
+- Assign Unlink chats rights to security roles
+- 
+
+### Assign Unlink chats permissions to specific users
+
+You can assign the ability to unlink chats to record owners or users who linked a chat to a record.
+   - **Record owner**: When enabled, record owners can unlink any chats that are linked to a record. As an admin, you can assign this permission at a record-type level (for example, a case, contact, and so forth).
+   - **Chat creator**: When enabled, users who linked a chat to the Dynamics 365 record can unlink that linked chat. This permission can also be assigned at the record level.
+
+**To enable or disable user-specific Unlink chats permissions:**
+
+1. Go to **Collaboration settings** in Customer Service Hub.
+2. Select the record type (for exampe, **Case**), and then from the linked chat settings pane, toggle on or off **Record owner can unlink** and/or **Chat creator can unlink**, depending on your preferences.
+3. Select **Save**.
+
+### Assign Unlink chats permissions to security roles
+
+When you assign **Unlink chats** permissions to a security role, all users who have that role can unlink chats that are linked to any record type. Certain roles types have Unlink chats permissions by default.
+
+The following table details the apps and security roles where the Unlink chats feature is configured:
+
+|App   |Security role |
+|---------|-----------|
+|Admin    |System admin  |
+|Customer Service apps | CS manager<br>CSR |
+|Omnichannel for Customer Service | OC admin<br>OC supervisor<br>OC agent |
+|||
+
+**To edit Unlink chats permissions for security roles:**
+
+1. In **Power Apps**, go to **Advanced Settings** > **System** > **Security** > **Security roles**.
+2. Select the specific security role, and then select the **Business management** tab.
+3. Under **Miscellaneous Privileges**, select **Unlink Teams chat from Dynamics 365 record**, and then select **Save and Close**.
+
+Alternatively, you can navigate to the security role editor page from **Collaboration settings**.
+
+1. In the **Customer Service Hub** app, go to **Collaboration settings** > **Other settings** > **Assign Unlink Chat rights**.
+2. Select the link to redirect to the security role editor page.
+3. Edit the out-of-box settings for the security roles described in the table above, or configure the settings for custom roles.
+
+## How user rights work together with Unlink chats
+
+The following table summarizes whether a user can unlink a linked chat based on the rights assigned to them. You can use the table as a guide for how to use the Unlink chats rights to help you configure a secure and effective collaboration experience for your business and users.
+
+|Scenario |Scenario |Scenario |Scenario |Scenario | Result |
+|----|----|----|----|----|----|
+|Record is user/team-owned and current user is owner |Current user was most recent to link chat | "Record owner can unlink" toggle is on | "Chat creator can unlink" toggle is on | Global Unlink Chat rights are assigned to user | User can unlink |
+|Y |Y/N |N |N |N |N |
+|Y |Y/N |Y |Y/N |Y/N |Y |
+|Y/N |Y |N |N |N |N |
+|Y/N |Y |Y/N |Y |Y/N |Y |
+|Y/N |Y/N |Y/N |Y/N |Y |Y |
+|N |N |Y |N |N |N |
+|N |Y |N |N |N |N |
+|N |N |N |N |N |N |
+||||||||
+
 ### See also
 
 [Use Teams chat](use-teams-chat.md)  
