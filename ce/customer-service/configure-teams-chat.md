@@ -167,35 +167,38 @@ For any view that's selected, keep in mind the following details:
  
 - For other out-of-box standard record types, including account, contacts, knowledge article, and email, the default view is the **Quick find** view.
 
-## Assign rights to unlink chats for specific user and user roles
+## Assign permissions to unlink chats for specific user and user roles
 
 Agents can create Teams chats directly from Dynamics 365 apps and then link them to records. They can also link existing chats to Dynamics 365 records from the Teams embedded chat experience.
 
-As an admin, you can control which user or role can unlink chats that are linked. These user rights give you the flexibility to adapt the Teams embedded chat experience with to match your business processes.
+As an admin, you can control which user or role can unlink chats that are linked. These user permissions help give you the flexibility to adapt the Teams embedded chat experience to match your business processes.
 
-You can choose from the following options for assigning rights to agents:
+You can choose from the following options for assigning permissions to agents:
 
-- Assign rights to unlink chats for specific users
-- Assign rights to unlink chats rights for security roles
-- 
+- [Assign permission to unlink chats for specific users](#assign-permissions-to-unlink-chats-for-specific-users)
+- [Assign permission to unlink chats rights for security roles](#assign-permissions-to-unlink-chats-for-security-roles)
 
-### Assign rights to unlink chats for specific users
+### Assign permission to unlink chats for specific users
 
 You can assign the ability to unlink chats to record owners or users who linked a chat to a record.
    - **Record owner**: When enabled, record owners can unlink any chats that are linked to a record. As an admin, you can assign this permission at a record-type level (for example, a case, contact, and so forth).
    - **Chat creator**: When enabled, users who linked a chat to the Dynamics 365 record can unlink that linked chat. This permission can also be assigned at the record level.
 
-**To enable or disable user-specific rights to unlink chats:**
+**To enable or disable user-specific permissions to unlink chats:**
 
 1. Go to **Collaboration settings** in Customer Service Hub.
 2. Select the record type (for exampe, **Case**), and then from the linked chat settings pane, toggle on or off **Record owner can unlink** and/or **Chat creator can unlink**, depending on your preferences.
+
+    > [!div class="mx-imgBorder"] 
+    > ![Toggles for unlinking chats in Collaboration settings.](media/unlink-chats-toggles.png "Toggles for unlinking chats on the Collaboration settings page")
+    
 3. Select **Save**.
 
-### Assign rights to unlink chats for security roles
+### Assign permission to unlink chats for security roles
 
-When you assign **Unlink chats** permissions to a security role, all users who have that role can unlink chats that are linked to any record type. Certain roles types have Unlink chats permissions by default.
+When you assign **Unlink chats** permissions to a security role, all users who have that role can unlink chats that are linked to any record type. Certain roles types have unlink chats permissions by default.
 
-The following table details the apps and security roles where the Unlink chats feature is configured:
+The following table details the apps and security roles where the unlink chats feature is configured:
 
 |App   |Security role |
 |---------|-----------|
@@ -204,25 +207,34 @@ The following table details the apps and security roles where the Unlink chats f
 |Omnichannel for Customer Service | OC admin<br>OC supervisor<br>OC agent |
 |||
 
-**To edit rights to unlink chats for security roles:**
+**To edit security role permissions for unlinking chats:**
 
 1. In **Power Apps**, go to **Advanced Settings** > **System** > **Security** > **Security roles**.
 2. Select the specific security role, and then select the **Business management** tab.
-3. Under **Miscellaneous Privileges**, select **Unlink Teams chat from Dynamics 365 record**, and then select **Save and Close**.
+3. Under **Miscellaneous Privileges**, select **Unlink Teams chat from Dynamics 365 record**.
+
+    > [!div class="mx-imgBorder"] 
+    > ![Unlink Teams chat from Dynamics 365 record.](media/unlink-teams-chat-record.png "Security role setting for unlinking Teams chats")
+
+4. Select **Save and Close**.
 
 Alternatively, you can navigate to the security role editor page from **Collaboration settings**.
 
 1. In the **Customer Service Hub** app, go to **Collaboration settings** > **Other settings** > **Assign Unlink Chat rights**.
 2. Select **Edit in security roles settings** link. This takes you to the security roles editor page.
-3. Edit the out-of-box settings for the security roles that are described in the table above, or configure the settings for custom roles.
+
+    > [!div class="mx-imgBorder"] 
+    > ![Collaboration settings with link to edit security roles settings.](media/linked-teams-chat-settings.png "Collaboration settings page with link to edits unlink chat permissions in security roles settings")
+
+4. Edit the out-of-box settings for the security roles that are described in the table above, or configure the settings for custom roles.
 
 ## How user rights work together for unlinking chats
 
-The following table summarizes whether a user can unlink a linked chat based on the rights assigned to them. You can use the table as a guide for how to use the Unlink chats rights to help you configure a secure and effective collaboration experience for your business and users.
+The following table summarizes whether a user can unlink a linked chat based on the permissions assigned to them. You can use the table as a guide for how to use the Unlink chats permissions to help you configure a secure and effective collaboration experience for your business and users.
 
 |Scenario |Scenario |Scenario |Scenario |Scenario | Result |
 |----|----|----|----|----|----|
-|Record is user/team-owned and current user is owner |Current user was most recent to link chat | "Record owner can unlink" toggle is on | "Chat creator can unlink" toggle is on | Global Unlink Chat rights are assigned to user | User can unlink? |
+|Record is user/team-owned and current user is owner |Current user was most recent to link chat | "Record owner can unlink" toggle is on | "Chat creator can unlink" toggle is on | Global Unlink Chat permissions are assigned to user | User can unlink? |
 |Y |Y/N |N |N |N |N |
 |Y |Y/N |Y |Y/N |Y/N |Y |
 |Y/N |Y |N |N |N |N |
