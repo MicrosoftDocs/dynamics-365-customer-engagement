@@ -1,5 +1,5 @@
 ---
-title: Configure knowledge search control to app side pane (Dynamics 365 Customer Service) | MicrosoftDocs
+title: Configure knowledge search control on the app side pane (Dynamics 365 Customer Service) | MicrosoftDocs
 description: See how to configure the settings for knowledge search control in Dynamics 365 Customer Service
 ms.date: 01/20/2021
 ms.topic: article
@@ -35,7 +35,6 @@ You can enable record types from the Customer Service admin center (preview) app
 
 > [!IMPORTANT]
 > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-
 
 To add an entity record:
 
