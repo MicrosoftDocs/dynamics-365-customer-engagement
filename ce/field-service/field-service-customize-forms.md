@@ -102,7 +102,7 @@ See the topic on [How to create and edit Field Service columns (fields)](field-s
 
 ## 4. Decide to customize the existing work order form or create a new form
 
-We are now ready to customize the Work Order form with a combination of existing work order fields and your new custom fields. 
+
 
 Go to https://make.powerapps.com > Tables > Work Order > Forms
 
@@ -140,6 +140,8 @@ It is highly recommended to use the default Work Order Main form and make change
 > ![Screenshot of ](./media/customization-form-go-to-main.png)
 
 For basic information on editing forms see the Power Platform documentation on [creating and editing forms](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-and-edit-forms). 
+
+We are now ready to customize the Work Order form with a combination of existing work order fields and your new custom fields. 
 
 ## 5. Hide and remove form tabs, sections, and fields
 
