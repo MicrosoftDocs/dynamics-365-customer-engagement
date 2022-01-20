@@ -1,7 +1,7 @@
 ---
 title: "View and manage the opportunities pipeline through sales forecasting (Dynamics 365 Sales) | MicrosoftDocs"
 description: "View and manage the opportunities pipeline through sales forecasting in Dynamics 365 Sales."
-ms.date: 01/18/2022
+ms.date: 01/20/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -64,17 +64,17 @@ With the enhanced grid, you can view and edit related entity records also. The f
 
 2. **View selector**: You can change the view of these records. By default, the view that was selected when the forecast was configured is displayed.
 
-3. **Group by**: You can group the underlying opportunity records by using a related entity such as, account. For more information on how to use the **Group by** option, see [Preview: Group and filter underlying records of a forecast](#preview-group-and-filter-underlying-records-of-a-forecast).
+3. **Group by**: You can group the underlying opportunity records by using a related entity such as, account. For more information on how to use the **Group by** option with or without a filter, see [Preview: Filter the underlying opportunities of a forecast](#preview-filter-the-underlying-opportunities-of-a-forecast).
 
-4. **Filter**: You can filter the underlying opportunities to view specific set of opportunities that you want to analyze or work on. For more information on how to filters, see [Preview: Group and filter underlying records of a forecast](#preview-group-and-filter-underlying-records-of-a-forecast). 
+4. **Filter**: You can filter the underlying opportunities to view specific set of opportunities that you want to analyze or work on. For more information on how to use filters, see [Preview: Filter the underlying opportunities of a forecast](#preview-filter-the-underlying-opportunities-of-a-forecast). 
 
-### Preview: Group and filter underlying records of a forecast
+### Preview: Filter the underlying opportunities of a forecast
 
 [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 
 When you select a row in the forecast grid, you see the underlying opportunities that contribute to that row in the forecast. You can group and filter these opportunities to efficiently manage them and take necessary actions to finalize deals that matter the most.  
 
-**To filter the underlying records**
+**To filter the underlying opportunities**
 
 1.	Open a forecast, and select a row. 
     
@@ -86,7 +86,7 @@ When you select a row in the forecast grid, you see the underlying opportunities
 
     1. Select the **View underlying rollup records** (the plus sign (+)) next to a group.
     
-        The opportunities associated with that account are displayed. For more information on how filters work when the underlying records are grouped, go to [Example: Grouping and filtering of underlying records](#example-grouping-and-filtering-of-underlying-records).
+        The opportunities associated with that account are displayed. For more information on how filters work when the underlying records are grouped, go to [Example: Grouping and filtering the underlying opportunities](#example-grouping-and-filtering-the-underlying-opportunities).
 
 3. Select **Filters**, and add the filter conditions.  
 
@@ -111,7 +111,7 @@ For more information about filters, go to [Add conditions to a filter](/powerapp
 
 
 
-#### Example: Grouping and filtering of underlying records 
+#### Example: Grouping and filtering the underlying opportunities 
 
 Let's understand grouping and filtering of underlying records with an example.
 
