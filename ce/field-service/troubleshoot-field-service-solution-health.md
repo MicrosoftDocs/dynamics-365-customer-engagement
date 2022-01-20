@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot issues with Solution Health Hub for Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to troubleshoot Dynamics 365 Field Service issues with the Solution Health Hub
-ms.date: 10/22/2021
+ms.date: 1/20/2022
 ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
 ms.topic: article
@@ -600,7 +600,7 @@ Severity: High
 
 ### What it checks
 
-For all work order forms, this rule checks if the number of subgrid controls or lookup controls exceed the limit (3 subgrids or 15 lookups), which may impact performance. This rule triggers a notification to system administrators stating which forms have too many subgrid controls or lookup controls.
+For all work order forms, this rule checks if the number of subgrid controls or lookup controls exceed the limit (4 subgrids or 20 lookups), which may impact performance. This rule triggers a notification to system administrators stating which forms have too many subgrid controls or lookup controls.
 
 A [subgrid control](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/reference/grids) is a table in the form that lists records of another table. An example of a subgrid control is the Work Order Product subgrid control on the Work Order form that is included out-of-the-box with Field Service.
 
@@ -609,12 +609,12 @@ A lookup control is a field on the form that searches the records of another tab
 
 ### Why it fails
 
-This rule fails if the default tab (the first tab on the form) of any work order form has more than either **4 subgrids controls** or **20 lookup controls**. Form load performance is impacted by number of controls on the default tab of the form, hence it is strongly suggested to minimize the number of controls there. 
+This rule fails if the default tab (the first tab on the form) of any work order form has more than either **4 subgrids controls** or **20 lookup controls**. Form load performance is impacted by the number of controls on the default tab of the form, hence it is strongly suggested to minimize the number of controls there. 
 
 
 ### How to fix
 
-Reduce the number of lookup fields and subgrid controls on the default tab by moving them to other tabs on the form (or removing them from the form if not needed). 
+Reduce the number of lookup fields and subgrid controls on the default tab (the first tab on the form) by moving them to other tabs on the form (or hiding them from the form if not needed). 
 
 Check out more ways to [Improve form load time](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/optimize-form-performance?view=op-9-1).
 
