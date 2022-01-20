@@ -104,7 +104,7 @@ See the topic on [How to create and edit Field Service columns (fields)](field-s
 
 Go to https://make.powerapps.com > Tables > Work Order > Forms
 
-Next decide if its best for your organization to use the existing work order form or to create a new one. Use the information in the tabs below to understand the scenarios, pros, and cons of either customizing the existing work order form or creating an entirely new one. It is recommended to use the existing work order form.
+Decide if its best for your organization to use the existing work order form or to create a new one. Use the information in the tabs below to understand the scenarios, pros, and cons of either customizing the existing work order form or creating an entirely new one. It is recommended to use the existing work order form.
 
 ## [Existing form (recommended)](#tab/existing-form)
 Better for scenarios where your organization does not want to make a lot of changes to the layout or fields; and organizations that generally want to use the default work order process. 
@@ -119,11 +119,12 @@ Better for scenarios where your organization does not want to make a lot of chan
 ## [New custom form](#tab/new-form)
 Better for scenarios where your organization has to make many changes to the form and you have a very unique work order process. This option is also best for organizations that need multiple different work order form for different secuirty roles. 
 **Pros**
-- Form will not be changed by updates
-- more leeway to make changes
-Cons
-- Do not benefit from work order updates
-- maintenance costs to manually add new features
+- **Shielded from updates** - a new custom form will not receive updates. This can be beneficial if you have very specific processes and form layouts. 
+- **More edits** - You are free to make more changes to the form to fit your unique work order process.
+**Cons**
+- **No updates** - Your custom work order form will not receive updates from Microsoft. It will be static.
+- **Updatemaintenance costs to manually add new features
+- **Risk of slow performance and errors**
 
 --- 
 * * *
