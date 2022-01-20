@@ -1,7 +1,7 @@
 ---
 title: "View and manage the opportunities pipeline through sales forecasting (Dynamics 365 Sales) | MicrosoftDocs"
 description: "View and manage the opportunities pipeline through sales forecasting in Dynamics 365 Sales."
-ms.date: 01/18/2022
+ms.date: 01/20/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -64,11 +64,11 @@ With the enhanced grid, you can view and edit related entity records also. The f
 
 2. **View selector**: You can change the view of these records. By default, the view that was selected when the forecast was configured is displayed.
 
-3. **Group by**: You can group the underlying opportunity records by using a related entity such as, account. For more information on how to use the **Group by** option, see [Preview: Group and filter underlying records of a forecast](#preview-group-and-filter-underlying-records-of-a-forecast).
+3. **Group by**: You can group the underlying opportunity records by using a related entity such as, account. For more information on how to use the **Group by** option, see [Preview: Filter underlying records of a forecast](#preview-group-and-filter-underlying-records-of-a-forecast).
 
-4. **Filter**: You can filter the underlying opportunities to view specific set of opportunities that you want to analyze or work on. For more information on how to filters, see [Preview: Group and filter underlying records of a forecast](#preview-group-and-filter-underlying-records-of-a-forecast). 
+4. **Filter**: You can filter the underlying opportunities to view specific set of opportunities that you want to analyze or work on. For more information on how to use filters, see [Preview: Filter underlying records of a forecast](#preview-group-and-filter-underlying-records-of-a-forecast). 
 
-### Preview: Group and filter underlying records of a forecast
+### Preview: Filter underlying records of a forecast
 
 [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 
