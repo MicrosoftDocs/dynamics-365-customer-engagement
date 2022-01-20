@@ -107,12 +107,12 @@ Here's an example of the tab experience:
 ## [Existing form (recommended)](#tab/linux)
 Scenario this is best for: make minimal changes
 Pros
-- Recommended
-- Performance updates
-- New feature updates
-- easier to support
+Recommended
+Performance updates
+New feature updates
+easier to support
 Cons
-- less customizable 
+less customizable 
 
 ## [New custom form](#tab/windows)
 Scenario this is best for: makes a lot of changes, need form for different roles
