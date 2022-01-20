@@ -3,7 +3,7 @@ title: "Add Dynamics 365 Channel Integration Framework 2.0 solution | MicrosoftD
 description: "Read about how you can add a Dynamics 365 Channel Integration Framework 2.0 solution as a dependent solution and use its capabilities in your own solution."
 author: mh-jaya
 ms.author: v-jmh
-ms.date: 01/19/2022
+ms.date: 01/20/2022
 manager: shujoshi
 ms.custom: 
   - "dyn365-a11y"
