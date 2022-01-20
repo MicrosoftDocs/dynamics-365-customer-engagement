@@ -178,8 +178,8 @@ As an admin, you can control which user or role can unlink chats that are linked
 
 You can choose from the following options for assigning permissions to agents:
 
-- [Assign permission to unlink chats for specific users](#assign-permissions-to-unlink-chats-for-specific-users)
-- [Assign permission to unlink chats rights for security roles](#assign-permissions-to-unlink-chats-for-security-roles)
+- [Assign permission to unlink chats for specific users](#assign-permission-to-unlink-chats-for-specific-users)
+- [Assign permission to unlink chats rights for security roles](#assign-permission-to-unlink-chats-for-security-roles)
 
 ### Assign permission to unlink chats for specific users
 
@@ -190,7 +190,7 @@ You can assign the ability to unlink chats to record owners or users who linked 
 **To enable or disable user-specific permissions to unlink chats:**
 
 1. Go to **Collaboration settings** in Customer Service Hub.
-2. Select the record type (for exampe, **Case**), and then from the linked chat settings pane, toggle on or off **Record owner can unlink** and/or **Chat creator can unlink**, depending on your preferences.
+2. Select the record type (for example, **Case**), and then from the linked chat settings pane, toggle on or off **Record owner can unlink** and/or **Chat creator can unlink**, depending on your preferences.
 
     > [!div class="mx-imgBorder"] 
     > ![Toggles for unlinking chats in Collaboration settings.](media/unlink-chats-toggles.png "Toggles for unlinking chats on the Collaboration settings page")
