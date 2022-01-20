@@ -1,7 +1,7 @@
 ---
 title: "Integrate knowledge management with Power Virtual Agents bot| MicrosoftDocs"
 description: "Learn about the integration of knowledge management with Power Virtual Agents bot."
-ms.date: 01/19/2022
+ms.date: 01/20/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -18,27 +18,23 @@ Integrating Power Virtual Agents bot with knowledge management makes it easier t
 
 Integration of knowledge management with a Power Virtual Agents bot can happen in the following ways:
 
-- Out of the box integration of Power Virtual Agents bot to assist in knowledge management
-- Manual integration of Power Virtual Agents bot to assist in knowledge management
+- Integrate (default) Power Virtual Agents bot to assist in knowledge management
+- Integrate Power Virtual Agents bot manually to assist in knowledge management
 
-## Out of the box integration of Power Virtual Agents bot to assist in knowledge management
+## Integrate (default) Power Virtual Agents bot to assist in knowledge management
 
-1. Create and publish knowledge articles to a portal created in Power Apps.  
-2. Create a topic for the Power Virtual Agents bot and add an action.
-3. Configure connection references.
-4. Use the Search Knowledge Articles dialog as an action within a custom topic.
+1. Create and publish knowledge articles to a portal created in Power Apps.
+1. Configure connection references.  
+1. Create a topic for the Power Virtual Agents bot and add an action.
+1. Use the Search Knowledge Articles dialog as an action within a custom topic.
 
 ### Create and publish knowledge articles to a portal created in Power Apps
 
-More information: [Create and publish knowledge articles](#create-and-publish-knowledge-articles)
-
-### Create a topic for the Power Virtual Agents bot and add an action
-
-More information: [Create a topic for the Power Virtual Agents bot and add an action](#create-a-topic-for-the-power-virtual-agents-bot-and-add-an-action)
+More information: [Create and publish knowledge articles](#create-and-publish-knowledge-articles).
 
 ### Configure connection references
 
-After the solution is imported to the environment, you must configure the connection references. To configure the connection references:
+To configure the connection references:
 
 1. Select the notification. A form to configure connection references appears.
 
@@ -51,6 +47,10 @@ After the solution is imported to the environment, you must configure the connec
 3. Go to the knowledge article solution and turn on the **Search knowledge article flow**.
 
 :::image type="content" source="media/ka_art_on.png" alt-text="Turn search knowledge article flow to on"::: 
+
+### Create a topic for the Power Virtual Agents bot and add an action
+
+More information: [Create a topic for the Power Virtual Agents bot and add an action](#create-a-topic-for-the-power-virtual-agents-bot-and-add-an-action).
 
 ### Use the Search Knowledge Articles dialog as an action within a custom topic
 
@@ -80,7 +80,75 @@ After the solution is imported to the environment, you must configure the connec
 
 9. Update the message node with the output from the extended topic and select **Save**.
 
-## Manual integration of Power Virtual Agents bot to assist in knowledge management
+10. To return the knowledge article search results to the bot, follow one of these steps:
+
+- Use thumbnail cards to show the article. More information: Respond with cards
+
+- Use the following sample code to render search results in adaptive cards.
+
+#kbcardjson()
+```
+- 
+{
+  "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "height": "35px",
+                            "url": "https://th.bing.com/th/id/R4fbade037f8209666b06aa22641708fc?rik=ya%2bpnPJ41EFFMg&riu=http%3a%2f%2fmolnar-institute.com%2ffileadmin%2f_processed_%2fcsm_KnowledgeManagement_icon_forWebsite_bcda89676b.png&ehk=J%2bz2G15xtbJgd7ssSXo7X2q7LDLaMGl7EuGUSQU6P2s%3d&risl=&pid=ImgRaw",
+                            "size": "Small"
+                        }
+                    ],
+                    "width": "auto"
+                },
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "weight": "Bolder",
+                            "text": "${dialog.currentarticle.title}",
+                            "wrap": true,
+                            "size": "Large"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "spacing": "None",
+                            "text": "Last modified on ${dialog.currentarticle.modifiedon}",
+                            "isSubtle": true,
+                            "wrap": true
+                        }
+                    ],
+                    "width": "stretch"
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "${json(virtualagent.jsonResult).articles[0].description}",
+            "wrap": true,
+            "size": "medium"
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.OpenUrl",
+            "title": "View article in Dynamics App",
+            "url": "${dialog.currentarticle.articleurl}"
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.0"
+}
+```
+
+## Integrate Power Virtual Agents bot manually to assist in knowledge management
 
 1. Create and publish knowledge articles to a portal created in Power Apps.
 2. Create a topic for the Power Virtual Agents bot and add an action.
@@ -174,7 +242,7 @@ Use the Power Automate template that you created to connect to the knowledge bas
 
     - Use thumbnail cards to show the article. More information: [Respond with cards](/composer/how-to-send-cards#thumbnailcard)
 
-    - Use the following sample code to render search results in adaptive cards.
+    - Use the following sample code to render search results in adaptive cards. See [#kbcardjson()](#)
 
     
 #kbcardjson()
