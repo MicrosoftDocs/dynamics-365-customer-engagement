@@ -106,7 +106,9 @@ Here's an example of the tab experience:
 
 # [Existing form (recommended)](#tab/linux)
 
-Content for Linux...
+- Recommended
+- Performance updates
+- New feature updates
 
 # [New custom form](#tab/windows)
 
@@ -115,6 +117,8 @@ Content for Windows...
 ---
 
 We are now ready to customize the Work Order form with a combination of existing work order fields and your new custom fields. 
+
+
 
 Go to https://make.powerapps.com > Tables > Work Order > Forms
 
