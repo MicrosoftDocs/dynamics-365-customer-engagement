@@ -31,15 +31,15 @@ Field Service Mobile (Xamarin app) will reach end of life on June 30, 2022. Exis
 
 ### What will happen to the app after June 30, 2022
 
-After June 30, 2022, mobile app licenses will be removed. The mobile configurator used with Field Service Mobile (Xamarin app) will no longer be able to publish, and end users will not be able to access the mobile app.
-
-### Are there additional licenses required to use the Field Service (D365) mobile app?
-
-No, use of the Field Service (D365) mobile application is included with a Field Service Enterprise license. 
+After June 30, 2022, the mobile configurator used with Field Service Mobile (Xamarin app) will no longer be able to publish, and end users will not be able to access the mobile app.
 
 ### Will I have access to my mobile configurator after June 30, 2022?
 
 The mobile configurator used with Field Service Mobile (Xamarin app) will still be available in your org, but you will no longer be able to publish updates.
+
+### Are there additional licenses required to use the new Field Service (D365) mobile app?
+
+No, use of the Field Service (D365) mobile application is included with a Field Service Enterprise license. 
 
 ### Can I use Resco MobileCRM application with Field Service Mobile licenses?
 
