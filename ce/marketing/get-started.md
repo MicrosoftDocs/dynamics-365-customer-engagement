@@ -1,7 +1,7 @@
 ---
 title: "Get started with outbound and real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to get up and running quickly with outbound and real-time marketing features in Dynamics 365 Marketing."
-ms.date: 01/18/2022
+ms.date: 01/19/2022
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -30,7 +30,7 @@ Follow these steps to expedite the Dynamics 365 Marketing setup process.
 |---|---|
 | Gather and document use cases and marketing requirements | Determine your business requirements for bulk mailings, automation, surveys, event management, etc. |
 | Determine licensing requirements | Licensing is done on a tenant level. Learn more: [Dynamics 365 Marketing licensing options](purchase-setup.md#dynamics-365-marketing-licensing-options). |
-| Determine company geographical address | Visible on all emails (regulatory requirement). You will enter your organization's postal address when configuring your content settings, as detailed below. |
+| Determine company geographical address | Visible on all emails (regulatory requirement). Learn more about entering your organization's postal address: [Use content settings to set up repositories of standard and required values for email messages](dynamic-email-content.md#use-content-settings-to-set-up-repositories-of-standard-and-required-values-for-email-messages). |
 | Determine if Power Apps portals are needed | Learn more: [Integrate Marketing with a CMS system, Dynamics 365 Portals, or Power Apps portals](portal-optional.md). |
 | Install Dynamics 365 Marketing app on all Dynamics 365 organizations (dev and production) | Update Dynamics 365 tenants first. Learn more: [Purchase and set up Dynamics 365 Marketing](purchase-setup.md). |
 | Grant access to superusers for Dynamics 365 Marketing training | Later, give access to all users. Learn more: [Manage user accounts, user licenses, and security roles](admin-users-licenses-roles.md). |
