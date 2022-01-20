@@ -150,4 +150,4 @@ Regularly [run the Field Service Solution Health Hub](troubleshoot-field-service
 
 ## Mobile app performance considerations
 
-Customizing the mobile app can also affect performance. See the topic on [performance considerations when customizing the mobile app](improve-mobile-performance.md) for more details.
+Customizing the mobile app can also affect performance. For more information, see this article: [Performance considerations when customizing the mobile app](improve-mobile-performance.md)
