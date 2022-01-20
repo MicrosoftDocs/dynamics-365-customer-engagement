@@ -52,7 +52,7 @@ To add an entity record:
 7.	In **Email recipient**, from the **Select default email recipient** dropdown, select the email recipient.
 8.	Click **Save and Close**.
 
-:::image type="content" source="media/add-ent-record.png" alt-text="Add an entity record for which you want to turn on knowledge management":::
+    :::image type="content" source="media/add-ent-record.png" alt-text="Add an entity record for which you want to turn on knowledge management":::
 
 To edit an entity record:
 
@@ -70,7 +70,7 @@ To edit an entity record:
 7.	In **Email recipient**, from the **Select default email recipient** dropdown, select the email recipient.
 8.	Click **Save and Close**.
   
-:::image type="content" source="media/edit-ent-record.png" alt-text="edit an existing entity record":::
+    :::image type="content" source="media/edit-ent-record.png" alt-text="edit an existing entity record":::
 
 You can also add a knowledge base search control to Dynamics 365 for Customer Engagement forms to make it easy for users in your organization to find knowledge articles so they can answer common customer questions and resolve their issues right from the records, without having to switch to a different application. More information, see [Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-forms).
 
