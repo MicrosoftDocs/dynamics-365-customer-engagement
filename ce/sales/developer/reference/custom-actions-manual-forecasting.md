@@ -1,7 +1,7 @@
 ---
-title: "Custom actions for forecasting - Sales Enterprise | MicrosoftDocs"
+title: "APIs for sales forecasting | MicrosoftDocs"
 description: "As a developer, use this reference documentation for defining custom actions for manual forecasting."
-ms.date: 01/13/2021
+ms.date: 01/20/2022
 ms.topic: reference
 author: lavanyakr01
 ms.author: lavanyakr
@@ -13,7 +13,7 @@ search.app:
 ms.custom: 
   - dyn365-sales
 ---
-# Custom actions for forecasting 
+# Sales forecasting APIs 
 
 ## Requirements
 |  | |
@@ -26,7 +26,6 @@ ms.custom:
 The following custom actions are used for forecasting:
 
 - **msdyn_ForecastInstanceActions**: Retrieve forecast and snapshot data. **For internal use only.**<br />
-- **msdyn_ForecastConfigurations**: Returns the list of all for forecast configurations having the name provided as part of request payload. **For internal use only.**<br />
 - **msdyn_ForecastApi**: Enables you to perform various actions to retrieve and update forecasting data. More information: [msdyn_ForecastApi action](custom-actions\msdyn_ForecastApi.md)
 
 ### See also

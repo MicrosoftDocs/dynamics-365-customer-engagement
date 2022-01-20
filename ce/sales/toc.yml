@@ -758,11 +758,13 @@
       href: ../customerengagement/on-premises/developer/sales-literature-entities.md
     - name: Forecasting
       items:
-      - name: Custom actions for forecasting 
-        href: developer/reference/custom-actions-manual-forecasting.md
-      - name: msdyn_ForecastApi
-        href: developer/reference/custom-actions/msdyn_ForecastApi.md
-      - name: Events and context objects for underlying records grid
+      - name: Sales forecasting APIs
+        items:
+        - name: Overview
+          href: developer/reference/custom-actions-manual-forecasting.md
+        - name: msdyn_ForecastApi
+          href: developer/reference/custom-actions/msdyn_ForecastApi.md
+      - name: Override save, update, load events for editable fields on underlying records grid
         href: developer/reference/custom-actions/events-context.md
     - name: In-app marketing
       items:
@@ -772,8 +774,6 @@
       items:
       - name: DeleteOQOILineWithSkipPricingCalculation
         href: developer/reference/custom-actions/deleteoqoilinewithskippricingcalculation.md
-      - name: exportPdf action
-        href: developer/exportpdf-api.md
     - name: Entity reference
       items:
       - name: Account
