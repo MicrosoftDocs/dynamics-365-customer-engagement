@@ -1,14 +1,10 @@
 ---
-title: "Walkthrough 3  Display records in your agent application | MicrosoftDocs"
-description: "Demonstrates how to display records in Unified Service Desk."
-ms.custom: 
-  - dyn365-USD
+title: "Walkthrough 3: Display account and contact records in agent applications | MicrosoftDocs"
+description: "Use this walkthrough to understand the prerequisites and procedures for displaying account and contact records in your agent applications. "
 ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - customizer
@@ -16,8 +12,13 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Walkthrough 3: Display records in your agent application
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 This walkthrough demonstrates how to display records in your agent application. In this walkthrough, you’ll display all the account and contact records in the model-driven app. You’ll also create a search button with drop-down menu items for displaying accounts and contacts in the agent application.  
 
 ## Prerequisites  
@@ -54,7 +55,7 @@ This walkthrough demonstrates how to display records in your agent application. 
 ## Step 1: Create CRM Page type of hosted controls to display account and contact records  
  In this step, you’ll create two hosted controls of CRM Page type to display the account and contact records respectively.  
 
-1. Sign in to the Common Data Service platform.  
+1. Sign in to the Dynamics 365 instance.  
 
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
 
@@ -74,7 +75,7 @@ This walkthrough demonstrates how to display records in your agent application. 
    |Application is Global|Checked|  
    |Display Group|MainPanel|  
 
-   ![Create a hosted control for displaying accounts](../unified-service-desk/media/crm-itpro-usd-wt03-01.png "Create a hosted control for displaying accounts")  
+   ![Create a hosted control for displaying accounts.](../unified-service-desk/media/crm-itpro-usd-wt03-01.png "Create a hosted control for displaying accounts")  
 
 6. Click **Save**.  
 
@@ -92,7 +93,7 @@ This walkthrough demonstrates how to display records in your agent application. 
    |Application is Global|Checked|  
    |Display Group|MainPanel|  
 
-   ![Create hosted control for displaying contacts](../unified-service-desk/media/crm-itpro-usd-wt03-02.png "Create hosted control for displaying contacts")  
+   ![Create hosted control for displaying contacts.](../unified-service-desk/media/crm-itpro-usd-wt03-02.png "Create hosted control for displaying contacts")  
 
 9. Click **Save**.  
 
@@ -100,7 +101,7 @@ This walkthrough demonstrates how to display records in your agent application. 
 ## Step 2: Create a toolbar container type of hosted control  
  Toolbar Container type of hosted controls are used to hold and display the toolbars in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. In this section, you’ll create a **Toolbar Container** hosted control that will appear at the top of the client application.  
 
-1. Sign in to the Common Data Service platform.  
+1. Sign in to the Dynamics 365 instance.  
 
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
 
@@ -116,7 +117,7 @@ This walkthrough demonstrates how to display records in your agent application. 
    |USD Component Type|Toolbar Container|  
    |Display Group|ToolbarPanel|  
 
-   ![Toolbar Container hosted control](../unified-service-desk/media/crm-itpro-usd-wt03-03.png "Toolbar Container hosted control")  
+   ![Toolbar Container hosted control.](../unified-service-desk/media/crm-itpro-usd-wt03-03.png "Toolbar Container hosted control")  
 
 6. Click **Save**.  
 
@@ -124,7 +125,7 @@ This walkthrough demonstrates how to display records in your agent application. 
 ## Step 3: Add a toolbar and attach it to the toolbar container  
  In this step, you’ll create a toolbar, and attach the toolbar to the toolbar container hosted control created in step 2. This is done to display the toolbar in your agent application.  
 
-1. Sign in to the Common Data Service platform.  
+1. Sign in to the Dynamics 365 instance.  
 
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
 
@@ -159,7 +160,7 @@ This walkthrough demonstrates how to display records in your agent application. 
    |   Tooltip   | Search accounts and contacts |
    |    Order    |                                            1                                             |
 
-   ![Create the Search toolbar button](../unified-service-desk/media/crm-itpro-usd-wt03-04.png "Create the Search toolbar button")  
+   ![Create the Search toolbar button.](../unified-service-desk/media/crm-itpro-usd-wt03-04.png "Create the Search toolbar button")  
 
 3. Click **Save**.  
 
@@ -178,7 +179,7 @@ This walkthrough demonstrates how to display records in your agent application. 
    |Button Text|Account|  
    |Order|1<br /><br /> The **Order** field defines the position of buttons in the toolbar. Buttons are arranged from left to right or top to bottom in an ascending order.|  
 
-   ![Create a tooolbar button for Account submenu](../unified-service-desk/media/crm-itpro-usd-wt03-05.png "Create a tooolbar button for Account submenu")  
+   ![Create a toolbar button for Search Account submenu.](../unified-service-desk/media/crm-itpro-usd-wt03-05.png "Create a toolbar button for Search Account submenu")  
 
 7. Click **Save**.  
 
@@ -190,7 +191,7 @@ This walkthrough demonstrates how to display records in your agent application. 
 
 10. In the search results box, click **New** in the lower right corner to create an action call for this toolbar button.  
 
-    ![Choose New to create an action call](../unified-service-desk/media/crm-itpro-usd-wt03-06.png "Choose New to create an action call")  
+    ![Choose New to create an action call.](../unified-service-desk/media/crm-itpro-usd-wt03-06.png "Choose New to create an action call")  
 
 11. On the **New Action Call** page, specify the following values:  
 
@@ -202,7 +203,7 @@ This walkthrough demonstrates how to display records in your agent application. 
     |Action|Find|  
     |Data|account|  
 
-    ![Create an action call in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-wt03-07.png "Create an action call in Unified Service Desk")  
+    ![New Action Call in Unified Service Desk.](../unified-service-desk/media/crm-itpro-usd-wt03-07.png "New Action Call in Unified Service Desk")  
 
 12. Click **Save**. The new action call gets added to the **Contoso Search Account Button** button.  
 
@@ -220,7 +221,7 @@ This walkthrough demonstrates how to display records in your agent application. 
     |Action|ShowTab|  
     |Data|Contoso Accounts Search|  
 
-    ![Create an action call in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-wt03-08.png "Create an action call in Unified Service Desk")  
+    ![Create a new action call for Display Account Search toolbar button.](../unified-service-desk/media/crm-itpro-usd-wt03-08.png "Create a new action call for Display Account Search toolbar button")  
 
 16. Click **Save**. The new action call gets added to the **Contoso Search Account Button** button.  
 
@@ -236,7 +237,7 @@ This walkthrough demonstrates how to display records in your agent application. 
     |Button Text|Contact|  
     |Order|2<br /><br /> The **Order** field defines the position of buttons in the toolbar. Buttons are arranged from left to right or top to bottom in an ascending order.|  
 
-    ![Create a toolbar button for contacts search](../unified-service-desk/media/crm-itpro-usd-wt03-09.png "Create a toolbar button for contacts search")  
+    ![Create a toolbar button for contacts search.](../unified-service-desk/media/crm-itpro-usd-wt03-09.png "Create a toolbar button for contacts search")  
 
 20. Click **Save**.  
 
@@ -258,7 +259,7 @@ This walkthrough demonstrates how to display records in your agent application. 
     |Action|Find|  
     |Data|contact|  
 
-    ![Create an action call in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-wt03-10.png "Create an action call in Unified Service Desk")  
+    ![Create a new action call for Search Contact Search toolbar button.](../unified-service-desk/media/crm-itpro-usd-wt03-10.png "Create a new action call for Search Contact Search toolbar button")  
 
 25. Click **Save**. The new action call gets added to the **Contoso Search Contact Button** toolbar button.  
 
@@ -276,7 +277,7 @@ This walkthrough demonstrates how to display records in your agent application. 
     |Action|ShowTab|  
     |Data|Contoso Contacts Search|  
 
-    ![Create an action call in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-wt03-11.png "Create an action call in Unified Service Desk")  
+    ![Create a new action call for Display Contact Search toolbar button.](../unified-service-desk/media/crm-itpro-usd-wt03-11.png "Create a new action call for Display Contact Search toolbar button")  
 
 29. Click **Save**. The new action call gets added to the **Contoso Search Contact Button** toolbar button.  
 
@@ -299,7 +300,7 @@ This walkthrough demonstrates how to display records in your agent application. 
 
  To add a control to the configuration:  
 
-1. Sign in to the Common Data Service platform.  
+1. Sign in to the Dynamics 365 instance.  
 
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
 
@@ -319,15 +320,15 @@ This walkthrough demonstrates how to display records in your agent application. 
 
 <a name="Step6"></a>   
 ## Step 6: Test the application  
- Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the Common Data Service platform instance where you configured [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] using the same user credentials that you assigned to the **Contoso Configuration** in [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md). For information about connecting to the Common Data Service platform instance using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, see [Connect to a model-driven app instance using the Unified Service Desk client](../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md).  
+ Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the Dynamics 365 instance where you configured [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] using the same user credentials that you assigned to the **Contoso Configuration** in [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md). For information about connecting to Dataverse instance using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, see [Connect to a model-driven app instance using the Unified Service Desk client](../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md).  
 
  Your agent application will now have a **SEARCH** button in the toolbar area with two child buttons (**Account** and **Contact**) that are displayed on clicking the down arrow.  
 
- ![Display account and contact records](../unified-service-desk/media/crm-itpro-usd-wt03-12.png "Display account and contact records")  
+ ![Display account and contact records.](../unified-service-desk/media/crm-itpro-usd-wt03-12.png "Display account and contact records")  
 
- Click **Account** or **Contact** under the **SEARCH** button to display the respective records from your Common Data Service platform instance in separate tabs in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application.
+ Click **Account** or **Contact** under the **SEARCH** button to display the respective records from your Dataverse instance in separate tabs in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application.
 
- ![Contact records displayed](../unified-service-desk/media/crm-itpro-usd-wt03-13.png "Contact records displayed")  
+ ![Contact records displayed.](../unified-service-desk/media/crm-itpro-usd-wt03-13.png "Contact records displayed")  
 
 <a name="Conclusion"></a>   
 ## Conclusion  
@@ -341,3 +342,6 @@ This walkthrough demonstrates how to display records in your agent application. 
  [Walkthrough 6: Configure the Debugger hosted control in your agent application](../unified-service-desk/walkthrough-configure-debugger-hosted-control-agent-application.md)   
  [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md)   
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

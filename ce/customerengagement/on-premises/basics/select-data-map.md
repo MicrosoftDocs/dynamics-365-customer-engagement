@@ -1,7 +1,9 @@
 ---
-title: "Select a data map (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Select data map in Dynamics 365 Customer Engagement (on-premises)"
+description: "When importing data, select a map to help you organize your data. Select the default data map or use this page to help you decide which map to use."
 ms.custom: 
-ms.date: 09/15/2017
+ms.prod: d365ce-op
+ms.date: 05/05/2020
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -15,14 +17,13 @@ ms.author: mkaur
 manager: kvivek
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
+
 ---
 # Select a data map
 
 1. Select a data map to tell the Import Data wizard how to organize your imported data into the right columns and fields in Dynamics 365 Customer Engagement (on-premises).  
   
-    Select the default data map to let the wizard automatically map your data, or select a data map to match the type of information you’re importing.  
+    Select the default data map to let the wizard automatically map your data, or select a data map to match the type of information you're importing.  
   
     The following tables help you decide which data map to use.  
   
@@ -31,7 +32,7 @@ search.app:
 |                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |--------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |         **System Data Maps**         |                                                                                                                                                                                                                                                                          **When to Use**                                                                                                                                                                                                                                                                          |
-|     Default (Automatic Mapping)      | Recommended. Use when you want the wizard to map the imported data to the columns and fields in Dynamics 365 Customer Engagement (on-premises) automatically.<br /><br /> If the wizard can’t determine how to map your data, you’ll have an opportunity to map it manually later. **Important:**  Import files can only contain one type of data, such as contacts, leads, accounts, or cases. Also, the column headings in the source file must match exactly with the field names in Dynamics 365 Customer Engagement (on-premises). |
+|     Default (Automatic Mapping)      | Recommended. Use when you want the wizard to map the imported data to the columns and fields in Dynamics 365 Customer Engagement (on-premises) automatically.<br /><br /> If the wizard can't determine how to map your data, you'll have an opportunity to map it manually later. **Important:**  Import files can only contain one type of data, such as contacts, leads, accounts, or cases. Also, the column headings in the source file must match exactly with the field names in Dynamics 365 Customer Engagement (on-premises). |
 | For Generic Contact and Account Data |                                                                                                                                                                                                                                                      Use when the import file contains contacts or accounts.                                                                                                                                                                                                                                                      |
   
 |                                                                           |                                                                                                                                     |
@@ -55,3 +56,6 @@ search.app:
 ### See also  
  [Import contacts](../basics/import-contacts.md)   
  [Import accounts, leads, or other data](../basics/import-accounts-leads-other-data.md)   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

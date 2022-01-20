@@ -1,9 +1,10 @@
 ---
-title: "Work with an international features | MicrosoftDocs"
+title: "Languages and translation in Dynamics 365 Customer Engagement (on-premises)"
+description: "Use this section to learn about the different customization features that are available for languages and translation."
 ms.custom: 
 ms.date: 04/29/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -16,11 +17,10 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 
-# Work with international features
+# Customization features for languages and translation
 
 
 
@@ -32,3 +32,6 @@ This section describes the customization features available to you for language 
 [Enable additional languages](enable-additional-languages.md) <br />
 [Translate customized entity and field text into other languages](export-customized-entity-field-text-translation.md) <br />
 [Import translated entity and field text back into an app](import-translated-entity-field-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
-title: Section properties for Main forms | MicrosoftDocs
-description: Understand the section properties for a main form
+title: "Manage form section properties in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how to manage the properties of sections on forms, including display and formatting. You can also add a reference panel to insert additional controls."
 Keywords: Main form; Section properties; Dynamics 365 for Customer Engagement
 author: Mattp123
 applies_to: 
@@ -9,17 +9,15 @@ applies_to:
 ms.author: matp
 manager: kvivek
 ms.date: 01/08/2019
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.topic: article
 ms.assetid: 2d3af6e9-e8a4-4129-b708-383b2740c015
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
 ---
-# Section properties
+# Access and manage the section properties of a form
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Add, configure, move, or delete sections on a form](/powerapps/maker/model-driven-apps/add-move-or-delete-sections-on-form)
 
  A section in a form occupies the space available in a tab column. Sections have a label that can be displayed and a line may be shown below the label.  
   
@@ -29,7 +27,7 @@ search.app:
 
 You can access **Section properties** in solution explorer. Under **Components**, expand **Entities**, expand the entity you want, and then select **Forms**. In the list of forms, open the form of type **Main**. Then double-click inside one of the sections to see the **Section Properties** page. 
 
-![section-properties](media/section-properties.png)
+![Section properties dialog box.](media/section-properties.png)
   
 
 |                                       Tab                                        |                    Property                    |                                                                                                                                                      Description                                                                                                                                                       |
@@ -56,3 +54,6 @@ When you insert a reference panel, by default it’s added as a last section in 
 ## See also
 
 [Use the Main form and its components](../customize/use-main-form-and-components.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

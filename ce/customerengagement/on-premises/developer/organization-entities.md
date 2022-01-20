@@ -3,8 +3,8 @@ title: "Organization entities (Developer Guide for Dynamics 365 Customer Engagem
 description: "An organization entity is internal to the customer relationship management process. The organization is the top level of the Dynamics 365 Customer Engagement business hierarchy. The organization can be a specific business, a holding company, a corporation, and so on."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -24,8 +24,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Organization entities
@@ -49,3 +48,6 @@ An *organization* entity is internal to the customer relationship management pro
  [Administration and Security Entities](administration-security-entities.md)   
  [Organization Entity](entities/organization.md)   
  [BusinessUnitNewsArticle Entity](entities/businessunitnewsarticle.md)   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

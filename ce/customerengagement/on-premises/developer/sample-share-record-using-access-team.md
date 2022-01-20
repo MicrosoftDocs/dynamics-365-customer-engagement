@@ -3,24 +3,22 @@ title: "Sample: Share a record using an access team (Developer Guide for Dynamic
 description: "The sample shows how to allow access to a record using an access team. All members of the team receive the same access to the record as is granted to the team."
 keywords: 
 ms.date: 01/08/2020
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 9b841889-c396-4f6e-8588-e702e94c7073
 author: JimDaly
 ms.author: nabuthuk
 manager: kvivek
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 9
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 
 # Sample: Share a record using an access team
@@ -71,3 +69,6 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 
 Display an option to delete the sample data that is created in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

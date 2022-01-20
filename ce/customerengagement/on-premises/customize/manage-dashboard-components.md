@@ -1,9 +1,10 @@
 ---
-title: "Manage dashboard components (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Edit dashboard components in Dynamics 365 Customer Engagement (on-premises)"
+description: "Create and design a dashboard layout by editing its components. You can rearrange the components, change their width and height, or remove a component."
 ms.custom: 
 ms.date: 04/30/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -16,12 +17,9 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
-# Manage dashboard components
-
-
+# Design a dashboard layout by editing the dashboard components
 
 You can create and design dashboards to show the information that you want exactly how you want to see it. While designing the dashboard, you can rearrange or remove the components that you have already added and change the height and width of a component.  
   
@@ -41,7 +39,7 @@ You can create and design dashboards to show the information that you want exact
   
 5.  To rearrange the components, click the component header and drag it to an empty area on the dashboard or to the area of an existing component. When you drag a component over other components, a red line appears on top of the components to show that if you drop the component here, the existing component will move down.  
   
-6.  To change the width of a component, select the component, click the **More Commands** icon ![More Commands button in Appointment Activity](../customize/media/morecommands.gif "More Commands button in Appointment Activity") and click **Increase Width** or **Decrease Width**. The width increases or decreases by one column.  
+6.  To change the width of a component, select the component, click the **More Commands** icon ![More Commands button in Appointment Activity.](../customize/media/morecommands.gif "More Commands button in Appointment Activity") and click **Increase Width** or **Decrease Width**. The width increases or decreases by one column.  
   
 7.  To change the height of a component, click **Increase Height** or **Decrease Height**. The height increases or decreases by three rows.  
   
@@ -49,3 +47,6 @@ You can create and design dashboards to show the information that you want exact
   
 ### See also  
 [create or customize dashboards](create-edit-dashboards.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

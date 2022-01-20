@@ -2,29 +2,25 @@
 title: "Client scripting in Customer Engagement using JavaScript | MicrosoftDocs"
 description: "Learn how to use Client API in Dynamics 365 Customer Engagement (on-premises) to apply custom business process logic for displaying data on a form."
 ms.date: 06/27/2019
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises)
-ms.assetid: 16271bd8-cfa8-4a7f-802a-60fbff7c3722
 author: KumarVivek
 ms.author: kvivek
 manager: annbe
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Client scripting in Customer Engagement using JavaScript
 
-Client-side scripting using JavaScript is one of the ways to apply custom business process logic for displaying data on a form in Dynamics 365 Customer Engagement (on-premises). Forms in Customer Engagement (on-premises) help display data to the user. A form in a Customer Engagement app can contain items such as fields, a quick form, or a grid.
+Client-side scripting using JavaScript is one of the ways to apply custom business process logic for displaying data on a form in Dynamics 365 Customer Engagement (on-premises). Forms in Customer Engagement (on-premises) help display data to the user. A form in a Customer Engagement (on-premises) org can contain items such as fields, a quick form, or a grid.
 
 You can also use business rules, which provides a way for someone, who does not know JavaScript and is not a developer, to apply business process logic in a form. More information: [Create business rules and recommendations to apply logic in a form](../../customize/create-business-rules-recommendations-apply-logic-form.md)
 
 Dynamics 365 Customer Engagement (on-premises) provide you a rich set of **client APIs** to interact with form objects and events to control what and when to display on a form.
 
 > [!IMPORTANT]
-> Dynamics 365 Customer Engagement (on-premises) are [model-driven apps](/powerapps/maker/model-driven-apps/model-driven-app-overview) that you create using Power Apps. All the client API documentation for Customer Engagement (on-premises) is now available in the model-driven apps section of the Power Apps documentation here: [Apply business logic using client scripting in model-driven apps using JavaScript](/powerapps/developer/model-driven-apps/client-scripting)
+> The client-side scripting concepts in Dynamics 365 Customer Engagement (on-premises) are similar to what is applicable in the [model-driven apps](/powerapps/maker/model-driven-apps/model-driven-app-overview) in Power Apps. Refer to to the client API docs in the model-driven apps section of the Power Apps documentation here: [Apply business logic using client scripting in model-driven apps using JavaScript](/powerapps/developer/model-driven-apps/client-scripting)
   
 Some client APIs are deprecated in the current release of Dynamics 365 Customer Engagement (on-premises). Ensure that you are aware of these APIs as you write your client-side code for Customer Engagement. More information: [Deprecated client APIs](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#some-client-apis-are-deprecated)
 
@@ -38,7 +34,7 @@ Some client APIs are deprecated in the current release of Dynamics 365 Customer 
 
 ## Reference
 
-[Client API reference](/powerapps/developer/model-driven-apps/clientapi/reference)
+[Client API reference](reference.md)
 
 
 ## Related topics
@@ -46,3 +42,6 @@ Some client APIs are deprecated in the current release of Dynamics 365 Customer 
 [Web resources for Customer Engagement](../web-resources.md)
 
 [Customize commands and the ribbon](../customize-dev/customize-commands-ribbon.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

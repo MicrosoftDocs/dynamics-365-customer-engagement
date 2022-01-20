@@ -3,8 +3,8 @@ title: "Web API Basic Operations Sample (Client-side JavaScript) (Developer Guid
 description: "This sample demonstrates how to perform basic CRUD (create, retrieve, update, and delete) and association and dissociation operations on entity instances using client-side JavaScript and the Dynamics 365 Customer Engagement Web API"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: susikka
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Web API Basic Operations Sample (Client-side JavaScript)
 
@@ -874,3 +873,6 @@ Sdk.deleteSampleData = function () {
  [Web API Query Data Sample (Client-side JavaScript)](web-api-query-data-sample-client-side-javascript.md)   
  [Web API Conditional Operations Sample (Client-side JavaScript)](web-api-conditional-operations-sample-client-side-javascript.md)   
  [Web API Functions and Actions Sample (Client-side JavaScript)](web-api-functions-actions-sample-client-side-javascript.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 > [!IMPORTANT]
-> The HTML content of Email messages has a maximum size limit of 128 KB, which includes all HTML text, styles, comments, and embedded graphics (but not anchored external graphics). If the HTML content exceeds this limit, then you'll still be able to go live with the email, but you won't be able to go live with any customer journey that includes that email; instead, the journey will always return a validation error on the relevant email tile saying: “Internal error: the email is still syncing. Please try again later.”
+> You should limit the HTML content of email messages to a maximum size of 100KB. This size limit includes all HTML text, styles, comments, and embedded graphics (but not anchored external graphics). If the HTML content exceeds 128KB, you'll receive a size warning, but you can still go live with the email and any customer journey that includes the email.
 > 
-> When you go live with a message, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] processes the HTML content to create inline styles, compress spaces, and more, so it can be hard to know the exact final size of the message. If you have a messages that you suspect violates the HTML size limit, then do the following:
+> When you go live with a message, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] processes the HTML content to create inline styles, compress spaces, and more, so it can be hard to know the exact final size of the message. If you have a message that you suspect violates the HTML size limit, do the following:
 > 
 > 1. Open a web browser and enter a URL of the form:   `https://<your_domain>/api/data/v9.0/msdyncrm_marketingemails(<email_id>)`  
 > Where:

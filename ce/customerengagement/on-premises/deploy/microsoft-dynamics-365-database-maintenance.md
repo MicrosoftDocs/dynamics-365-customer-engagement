@@ -1,8 +1,9 @@
 ---
 title: "Dynamics 365 Customer Engagement (on-premises) database maintenance | Microsoft Docs"
+description: Learn about database maintenance with Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: "crm-2016"
+ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -34,3 +35,6 @@ A [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] deployment consist
 ## See Also  
  [Back up the Microsoft Dynamics 365 Customer Engagement (on-premises) System](back-up-the-microsoft-dynamics-365-system.md) </br>
  [Update Microsoft Dynamics 365 Customer Engagement (on-premises)](update-microsoft-dynamics-crm.md) 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

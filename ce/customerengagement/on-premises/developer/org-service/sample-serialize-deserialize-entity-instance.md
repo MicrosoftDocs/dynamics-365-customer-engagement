@@ -3,8 +3,8 @@ title: "Sample: Serialize and deserialize an entity Instance (Developer Guide fo
 description: "This sample shows how to serialize early-bound and late-bound entity instances into an XML format, and how to de-serialize from an XML format to an early-bound entity instance"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: "pehecke"
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: samples
@@ -22,8 +22,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Sample: Serialize and deserialize an entity Instance
 
@@ -60,3 +59,6 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 Display an option to delete the records created in the [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
 
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

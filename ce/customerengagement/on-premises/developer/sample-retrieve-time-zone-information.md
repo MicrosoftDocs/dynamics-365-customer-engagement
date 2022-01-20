@@ -3,11 +3,11 @@ title: "Sample: Retrieve time zone information (Developer Guide for Dynamics 365
 description: "The sample demonstrates how to retrieve time zone information."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
@@ -20,8 +20,6 @@ ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 # Sample: Retrieve time zone information
 
@@ -58,3 +56,6 @@ Checks for the current version of the org.
 ### Clean up
 
 Display an option to delete the sample data that is created in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,41 +1,34 @@
 ---
-title: "Create a work order (Dynamics 365 Field Service) | MicrosoftDocs"
-ms.custom: 
-  - dyn365-fieldservice
-ms.date: 05/16/2019
+title: "Create a work order in Dynamics 365 Field Service (contains video) | Microsoft Docs"
+description: Learn how to create a work order in Dynamics 365 Field Service
+ms.date: 11/15/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.technology: 
-  - field-service
-ms.tgt_pltfrm: 
+ms.service: dynamics-365-field-service
 ms.topic: article
 author: FieldServiceDave
-ms.assetid: 9279d5ba-505c-4cf3-9e3f-1436ab7f52a4
-caps.latest.revision: 24
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
 search.app: 
   - D365CE
   - D365FS
 ---
-# Create a work order to coordinate and schedule resources and activities (Field Service)
+# Create a work order to coordinate and schedule resources and activities
 
 A work order in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] has information on what work needs to be done. It is used to coordinate and schedule resources and activities. It can be used for different types of work, such as installations, repairs, or preventive maintenance.  
   
- A work order is usually created from a case or opportunity. It is then scheduled either manually or using the schedule assistant and then dispatched. Once the work is complete, it is reviewed and approved by a manager.  
+ A work order is often created from a case or opportunity. It is then scheduled either manually or using the schedule assistant and then dispatched. Once the work is complete, it is reviewed and approved by a manager.  
+ 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ynSf]
+
+> [!Note]
+> For additional Field Service videos, see [this full video playlist](https://aka.ms/fs-videos).
   
 > [!Note]
 >  Products, service tasks, and characteristics are added automatically when you create a work order from an incident. Otherwise you can add them manually when you create a work order.   
   
-> [!Note]
-> Along with this article, see [this video on work orders](https://youtu.be/lblmqd7qFwg).
 
 <a name="BKMK_workorderlifecycle"></a>   
+
 ## Work order lifecycle  
   
 - **Work order creation:** A work order is created, usually from a case or opportunity  
@@ -50,63 +43,154 @@ A work order in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field
   
 - **Invoice and inventory adjustment**: Inventory adjustments are made and an invoice is generated for the corresponding account.  
   
-  ![Work order lifecycle in Dynamics 365 field service](../field-service/media/field-service-work-order-lifecycle.png "Work order lifecycle in Dynamics 365 field service")  
+  ![Work order lifecycle in Dynamics 365 field service.](../field-service/media/field-service-work-order-lifecycle.png "Work order lifecycle in Dynamics 365 field service")  
   
-||||||||  
+|  | Create | Schedule | Dispatch | Service | Review | Invoice |  
 |-|-|-|-|-|-|-|  
-|**What happens**|New work order is created.<br /><br /> Assigned incident, product, services, skills, territory, etc.|Work order schedule is created.<br /><br /> Resources assigned to the work order.<br /><br /> Date and time specified.|Field agent notified of work order.<br /><br /> Field agent may review and accept/decline the work order.|Work order is carried out.<br /><br /> Information about what is performed in the field is entered through the mobile app.|Supervisor verifies that all work was done properly, and that all information regarding the work order is correct.|Invoice is created based on products and services used.<br /><br /> Inventory adjustments are made.<br /><br /> Products converted into equipment (if applicable)|  
-|**Who performs the task**|Agreement is automatically generated on a recurring basis.<br /><br /> Case: By customer support.<br /><br /> Sales order: By sales/scheduling.<br /><br /> Ad-hoc: By field agent or centralized scheduling.|Dispatcher<br /><br /> Field Agent<br /><br /> Dispatcher with help of scheduling assistant<br /><br /> Routing engine|Notification sent by system automatically to field agent, customer, and other parties. **Note:**  Notifications need to set up in the system.|Field agent|Field supervisor/manager,<br /><br /> back-office accounting|Automatically sent by system|  
+|**What happens**|New work order is created.<br /><br /> Assigned incident, product, services, skills, territory, etc.|Work order schedule is created.<br /><br /> Resources assigned to the work order.<br /><br /> Date and time specified.|Field agent notified of work order.<br /><br /> Field agent may review and accept/decline the work order.|Work order is carried out.<br /><br /> Information about what is performed in the field is entered through the mobile app.|Supervisor verifies that all the work was done properly, and that all information regarding the work order is correct.|Invoice is created based on products and services used.<br /><br /> Inventory adjustments are made.<br /><br /> Products converted into equipment (if applicable)|  
+|**Who performs the task**|Agreement is automatically generated on a recurring basis.<br /><br /> Case: By customer support.<br /><br /> Sales order: By sales/scheduling.<br /><br /> Unplanned: By field agent or centralized scheduling.|Dispatcher<br /><br /> Field Agent<br /><br /> Dispatcher with help of scheduling assistant<br /><br /> Routing engine|Notification sent by system automatically to field agent, customer, and other parties. **Note:**  Notifications need to set up in the system.|Field agent|Field supervisor/manager,<br /><br /> back-office accounting|Automatically sent by system|  
 |**Work order status**|Open - unscheduled|Open - scheduled|Open - scheduled|Open - unscheduled, then open-completed|Open - completed then closed-posted|Closed-posted|  
 |**Work order schedule status**|N/A|Scheduled|Scheduled|Scheduled<br /><br /> Accepted/Declined<br /><br /> Custom Status|Completed|Completed|  
   
-<a name="BKMK_newworkorder"></a>   
+ 
 ## Create a work order  
-  
-1. From the main menu, click **Field Service** > **Work orders**.  
-  
-2. Click **+New** in the upper-left corner.  
-  
-3. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
-  
-    - **Summary**  
-  
-        - **General**: Fill in the basic information regarding the work order, such as the work order number and the service account it is associated with, a brief summary, and status, which can show whether the work order is unscheduled, scheduled, in progress, or finished.  
-  
-        - **Primary Incident**: Enter more information regarding the nature of the work to be performed.  
-  
-        - **Total**: Enter pricing information for the work order. This will show total pricing information for tasks, including products and services.  
-  
-    - **Settings**  
-  
-        - **General**: Specify the category the work order may fall into. Also, fill in important information regarding the location of the work order, price list, service territory, and more.  
-  
-        - **Sales tax**: Sales tax can be added to the total amount of the work order based on work order details like service account, billing account, and work order type. The **Taxable** field will be set to yes if work order type is **Taxable** and the billing account is **Not Tax Exempt**. If the work order is taxable, a **Sales Tax Code** lookup field will display and inherit a value from the service account. It can also be updated manually.
 
-        - **Preferences**: Enter the resource and time information for the work order.  
+### From the get started page
+
+1. As a Field Service administrator or system administrator in the **Field Service** app, go to the **Get Started** page.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the getting started page in Field Service.](./media/get-started.png)
+
+2. Select **Create** in the **Create your work orders** section.
+
+3. Fill in the basic information about the work order.
+
+4. In the form, add as many tasks, products, and services as needed.
+
+5. If you want to immediately schedule the work order, select **Save & Book**. Select **Save & Close** to only save the work order.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the new work order form triggered from the get started page in Field Service.](./media/get-started-wo.png)
+
+### From the work order form and record list
+
+Go to **Field Service** > **Service** > **Work Orders** > **+New**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the active work orders list in Field Service.](./media/quickstart-work-order-new.png)
+
+At a minimum, enter information in the following required fields.
+
+- For **Service Account**, select an account from the list or create a new one.
+- For **Work Order Type**, select a work order type from the list or create a new one. 
+- For **System Status**, select **Open-Unscheduled**.
+- For **Price List**, select a price list from list or create new one. 
+- Set **Taxable** to **No**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a work order in Field Service.](./media/quickstart-work-order-new2.png)
+
   
-        - **Follow up**: Shows instructions of how to proceed if desired, or whether the work order calls for a follow-up.  
+- For **Summary**:  
+
+  - **General**: Fill in the basic information regarding the work order, such as the work order number and the service account it is associated with, a brief summary, and status, which can show whether the work order is unscheduled, scheduled, in progress, or finished.  
+  - **Primary Incident**: Enter more information regarding the nature of the work to be performed.  
+  - **Total**: Enter pricing information for the work order. This will show total pricing information for tasks, including products and services.  
   
-        - **Related to**: Specify if the work order is related to an originating work order or agreement.  
+- For **Settings**:
+  - **General**: Specify the category the work order may fall into. Also, fill in important information regarding the location of the work order, price list, service territory, and more.  
+  - **Sales tax**: Sales tax can be added to the total amount of the work order based on work order details like service account, billing account, and work order type. The **Taxable** field will be set to yes if work order type is **Taxable** and the billing account is **Not Tax Exempt**. If the work order is taxable, a **Sales Tax Code** lookup field will display and inherit a value from the service account. It can also be updated manually.
+  - **Preferences**: Enter the resource and time information for the work order.  
+  - **Follow up**: Shows instructions of how to proceed if desired, or whether the work order calls for a follow-up.  
+  - **Related to**: Specify if the work order is related to an originating work order or agreement.  
+  - **Preferences**: Specify any preferred time windows.  
+  - **Source**: Specify source information regarding the work order.  
+- **Address**: The address where the work will be performed. The address should be inherited from the service account.  
+- **Location**: Shows the address location on the map.  
   
-        - **Preferences**: Specify any preferred time windows.  
-  
-        - **Source**: Specify source information regarding the work order.  
-  
-    - **Address**: The address where the work will be performed. The address should be inherited from the service account.  
-  
-    - **Location**: Shows the address location on the map.  
-  
-<a name="BKMK_Addtasks"></a>   
+Then choose **Save and close**.
+
 ## Add service tasks, products, or services to the work order  
  When the work order has been created and saved, you can then add any related tasks, products, or services to the work order.  
   
-- Go to the **Service Tasks** section and click **+Add Work Order Service Task record**. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)] [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up service task types  ](../field-service/set-up-service-task-types.md)  
+- Go to the **Service Tasks** section and select **+Add Work Order Service Task record**. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)] [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up service task types  ](../field-service/set-up-service-task-types.md)  
   
-- Go to the **Products** or **Services** section and click the **+**  button. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)][!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a product or service ](../field-service/create-product-or-service.md)  
+- Go to the **Products** or **Services** section and select the **+**  button. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)][!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a product or service ](../field-service/create-product-or-service.md)  
   
   > [!NOTE]
   >  When you add a product, remember that if you want to reserve a product for the work order, set **Allocated** to **Yes**.  
-  
+
+Consider using incident types to add more details and instructions to your work orders. For more information, see the article on [configuring incident types](configure-incident-types.md).
+
+## Work order user interface settings
+
+### Open work order subgrids as popup dialog boxes
+
+Configure work order subentities to pop out as dialog boxes and edit them without having to leave the work order form. This configuration helps dispatchers maintain context through navigation.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a popout work order product creation form.](./media/work-order-mfd-wop.png)
+
+From the Field Service app, go to **Settings** > **Field Service Settings** > **Other section** and set the **Work Order Subgrid Records Open as Popups** field to **Yes**.
+
+Popup navigation will now be enabled when the following entities are selected from a work order.
+
+- Work order product
+- Work order service
+- Work order service task
+- Work order incident
+- Bookable resource booking
+- Time entry
+
+> [!Note]
+> This feature is available in the Unified Interface only.
+
+### Show simplified work order commands
+
+> [!Note]
+> The simplified work order commands are available as an early access feature in the 2021 wave 2.
+
+
+In the Field Service 2021 wave 2 update (8.8.47+), the work order ribbon is simplified upon upgrade because a new Field Service setting called **Show Simplified Work Order Commands** is set to **Yes** by default. 
+
+> [!div class="mx-imgBorder"]
+> ![Field Service settings, showing the "Show Simplified Work Order Commands" option.](./media/work-order-ribbon-setting.png)
+
+For a guided walkthrough, check out the following video on Simplified Work Order commands, ability to turn price calculations on and off, and more Wave 2 2021 updates to the Work Order.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWP4vU]
+
+
+
+When **Show Simplified Work Order Commands** is set to *Yes*, the work order form ribbon command is simplified and certain commands are reduced, as seen in the following screenshot.
+
+> [!div class="mx-imgBorder"]
+> ![Work order form, showing the simplified work order ribbon.](./media/work-order-ribbon-form-enabled.png)
+
+The setting also applies to the ribbon commands displayed in the list of active work orders.
+
+> [!div class="mx-imgBorder"]
+> ![List of active work orders in Field Service ](./media/work-order-ribbon-enabled-homepage.png)
+
+This setting also applies when a record is selected from the work order list.
+
+> [!div class="mx-imgBorder"]
+> ![Work order list, with a work order selected.](./media/work-order-ribbon-enabled-homepage-selected.png)
+
+Set **Show Simplified Work Order Commands** to **No** to show the full list of ribbon commands on the work order form, work order list, and when a record is selected on the work order list.
+
+> [!div class="mx-imgBorder"]
+> ![Work order commands with the "Show Simplified Work Order Commands" set to "No."](./media/work-order-ribbon-disabled.png)
+
+
+> [!Note]
+> The **Show Chart** ribbon command is *not* impacted by the **Show Simplified Work Order Commands** setting.
+
+## Additional notes
+
+The getting started work order create form does not support switching forms. If added as a form to other parts of the app, switching to this form will leave you unable to switch back.
+
 ### See also  
     
  [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
@@ -114,3 +198,6 @@ A work order in [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field
  [Schedule a work order](../field-service/schedule-work-order.md)   
  [Configure the schedule board](../field-service/configure-schedule-board.md)<br>
  [User's Guide](../field-service/user-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

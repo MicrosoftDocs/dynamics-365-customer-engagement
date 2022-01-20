@@ -1,270 +1,199 @@
 ---
-title: "Quickstart: Schedule a work order and view it on the mobile app - Dynamics 365 Field Service | MicrosoftDocs"
-ms.custom: 
-  - dyn365-fieldservice
-ms.date: 11/21/2018
+title: "Quickstart: Set up users to create, schedule, and view work orders - Dynamics 365 Field Service | MicrosoftDocs"
+description: This quickstart walks through how to set up users to create, schedule, and view work orders in Dynamics 365 Field Service.
+ms.date: 04/01/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.technology: 
-  - field-service
-ms.tgt_pltfrm: 
+ms.service: dynamics-365-field-service
 ms.topic: article
 author: FieldServiceDave
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
 search.app: 
   - D365CE
   - D365FS
 ---
 
-# Quickstart: Schedule a work order and view it on the mobile application
+# Quickstart: Set up users to create, schedule, and view work orders
 
-This quickstart shows how a dispatcher creates and schedules a work order that a field technician then views on the mobile app.
+In this quickstart, we'll walk through the core Field Service scenario of creating and scheduling a work order to resolve a customer's issue.
 
-Steps:
+This quickstart walks through four steps:
 
-1.  Assign the dispatcher role to a user
-
-2.  Create a work order or use one from sample data
-
-3.  Assign the resource role (for field technicians) to a user
-
-4.  Create a bookable resource
-
-5.  Add the bookable resource to the schedule board
-
-6.  Schedule the work order to the bookable resource
-
-7.  View the scheduled work order on mobile
+- **Step 1:** Install Dynamics 365 Field Service
+- **Step 2:** Assign Field Service licenses to users
+- **Step 3:** Get started with creating frontline workers, customers, and scheduling work orders
+- **Step 4:** View the scheduled work order on the Field Service (Dynamics 365) mobile app
 
 
-## Prerequisites
+## Step 1: Install Dynamics 365 Field Service
 
-You need a Dynamics 365 organization with the Field Service application and the mobile solution installed. Using sample data 
-imported from the Package Deployer is recommended. You also need a phone or tablet for viewing a scheduled work order.
+You need a Dynamics 365 organization with the Field Service application installed. For more information, see the article on [installing Field Service](install-field-service.md). 
 
-### Make sure the Field Service application is installed
 
-Sign in as a system administrator and verify that the Field Service application is listed in the main menu. See the following screenshot for reference. If you don't see Field Service, go to the [Field Service installation walkthrough](install-field-service.md) for steps to install it. 
+### Verify the Field Service application is installed
+
+Sign in as a system administrator and verify that the Field Service application is listed in the main menu. See the following screenshot for reference. If you don't see Field Service, ensure you are signed in as a system administrator. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing where to find Field Service in the main menu](media/qs-1-img1.png) 
+> ![Screenshot of Dynamics 365 showing Field Service in the list of apps.](./media/quickstart-apps.png)
 
-### Make sure the mobile solution is installed
 
-Sign in as a system administrator and verify that the Woodford solution listed in **Settings** > **Solutions**. See the following screenshot for reference. If you don't see the Woodford solution go to [mobile solution activation walkthrough](activate-fs-mobile-app-license.md) for steps to install it.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing where to find the Woodford solution in Settings](media/qs-1-img2.png) 
+## Step 2: Assign Field Service licenses to users
 
-### Make sure sample data is installed
+Once you have a Dynamics 365 environment with Field Service, you need to create users or select existing users and assign them a license that includes Dynamics 365 Field Service. For more information, see the article on [setting up Field Service users](view-user-accounts-security-roles.md).
 
-When sample data is installed, you see multiple records in **Field Service** > **Work Orders**. If you don't see any sample records, check out these [instructions for importing sample data](install-sample-data-8-x.md) for more information.
+Many different roles interact with Field Service like system administrators, technicians, dispatchers, service managers, inventory managers, customer service representatives and more.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing where to verify that sample data is installed](media/qs-1-img4.png) 
+For this quickstart, we'll create two users:
 
- ## 1. Assign the dispatcher role to a user 
+1. Back-office administrator and dispatcher
+2. Frontline worker
 
-- Navigate to **Settings** > **Security** > **Users**.
-
-- Select a user, and then choose **Manage Roles**.
-
-- Assign the user the **Field Service – Administrator** role to give the user scheduling, dispatching, and configuration capabilities. If this user is only acting as a dispatcher, then assign the **Field Service—Dispatcher** role.
+Sign into [https://admin.microsoft.com/](https://admin.microsoft.com/) as a system administrator.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing field service roles on the Manage Roles dialog](media/qs-1-img6.png)
+> ![Screenshot of the Microsoft 365 apps menu.](./media/quickstart-o365-admin.png)
 
-## 2. Create a work order or use one from sample data
+Go to **Users** and create at least two users. One to represent a back-office administrator and dispatcher, and another to represent a frontline worker.
 
-If you're using sample data, you can skip this step. Otherwise, you need to create a work order.
+Assign each user a license or trial license that includes Dynamics 365 Field Service.
 
-1. Navigate to **Field Service** > **Work Orders**.
-
-2. Choose **New**.
-
-3. On the **Summary** tab: 
-    - For **Service Account**, select an account from the list or create a new one.
-    - For **Work Order Type**, select a work order type from the list or create a new one. 
-    - For **System Status**, select **Open-Unscheduled**.
-    
 > [!div class="mx-imgBorder"]
-> ![Screenshot the Summary tab fields for a work order](media/qs-1-img7.png)  
+> ![Screenshot of active users in the Microsoft 365 admin center.](./media/quickstart-o365-admin-users.png)
+
+> [!Note]
+> You may also need to assign your users to your environment in the Power Platform admin center. For more information, see the article on [adding users to an environment](/power-platform/admin/add-users-to-environment).
+
+
+## Step 3: Create and schedule a work order 
+
+Go to the **Getting Started** page, found in the left navigation pane.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the getting started page in Field Service.](./media/gettingstarted1920.png)
+
+After completing all the tasks on this getting started page, you will have successfully scheduled a work order to a frontline worker to resolve a customer's issue. 
+
+### Set up your frontline workers
+
+Start by creating a frontline worker who represents someone in your company who completes work orders. Select the **Set Up** button.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the setup your frontline workers section on the getting started page.](./media/getstarted-flw1.png)
+
+In the form, enter required information. Recommended values are prepopulated; don't change these unless necessary. 
+
+Start by choosing the frontline worker user in the **Users** field.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the quick setup frontline workers form in Field Service.](./media/getstarted-flw2.png)
+
+You can also send an email to the frontline worker with a link to download the mobile app. For information, see this article [on getting emails set up](frontline-worker-set-up-email-approval.md).
+
+> [!Note]
+> **Note 1:** Repeat the frontline worker set up for your back-office users; choose **Field Service-Dispatcher** for the security roles and field security profiles.
+
+> [!Note]
+> **Note 2:** If you can't see your users in the dropdown list during the frontline worker setup, see the additional notes section at the end of this article. 
+
+### Create your accounts
+
+Next, create an account that represents one of your customers. Select **Create**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the getting started page in Field Service, showing the create your accounts section.](./media/getstarted-account1.png)
+
+In the form, fill out relevant details.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the quick create account form in Field Service.](./media/getstarted-account2.png)
+
+### Create your work orders
+
+Create a work order that outlines work that needs to be done, typically at the customer's location or at the location of an asset or equipment. Select **Create**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the create your work orders section on the Field Service getting started page.](./media/getstarted-wo1.png)
+
+In the form, fill out relevant details. 
  
-4. On the **Settings** tab: 
-    - For **Price List**, select a price list from list or create new one. 
-    - Set **Taxable** to **No**.
-    
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Settings tab fields for a work order](media/qs-1-img8.png) 
+> ![Screenshot of the new work order form in Field Service.](./media/getstarted-wo2.png)
 
-5. On the **Address** tab, enter a valid address. Then choose **Save and close**.
+- The **Service Account** represents the customer who the work order relates to. 
+- **Tasks** are a checklist of things that need to be done.
+- **Products** are parts that may be needed to complete the work order.
+- **Services** represents labor that may be needed to complete the work order.
+
+### Schedule your work orders
+
+Finally, you can schedule the work order to a frontline worker who will complete the work. Select **Schedule** to go to the schedule board.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing the Address tab fields for a work order](media/qs-1-img9.png)  
+> ![Screenshot of the schedule work orders option on the Field Service getting started page.](./media/getstarted-schedule1.png)
 
-## 3. Assign the field technician role to a resource 
+Find your work order in the lower pane, then select-and-drag it to your frontline worker.
 
-1. Navigate to **Settings** > **Security** > **Users**.
-
-2. Select a user other than the dispatcher/administrator, and then assign **only** the **Field Service – Resource** security role. If you don't have a user to assign this role, create a new one in the [Admin center](https://login.microsoftonline.com). 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the schedule board, showing a work order getting dragged onto a frontline worker.](./media/getstarted-schedule2.png)
 
 > [!NOTE]
-> The user needs a Dynamics 365 Field Service license. After you create the user, verify that you can sign in with the new user record. You may be prompted to set a temporary password.
+> Make sure you don't schedule the work order in the past. There is a blue vertical line that represents the current time. You may need to adjust the time zone of the schedule board by selecting the gear icon in the top-right of the schedule board.
+
+
+## Step 4: View the scheduled work order on the Field Service (Dynamics 365) mobile app
+
+Frontline workers should download the Field Service (Dynamics 365) mobile app from the iOS or Android app stores onto their phone or tablet. 
+
+- [iOS - Field Service (Dynamics 365) mobile app](https://aka.ms/fsmobile-apple)
+- [Android - Field Service (Dynamics 365) mobile app](https://aka.ms/fsmobile-google)
+
+
+Sign in with the username and password of the frontline worker user.
+
+- For the **Username**, enter the frontline worker's username. For example, username@org.onmicrosoft.com
+- For the **Password**, enter the password you set for the frontline worker.
+
+Select your app in the list.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing the Field Service - Resource role on the Manage Roles dialog](media/qs-1-img10.png)
+> ![Device renders showing the Field Service mobile app.](./media/quickstart-mobile-signin.png)
 
-3. Open the field technician’s user record.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing the field technician user record](media/qs-1-img11.png)
-
-4. Select **Field Security Profiles**.
+If you don't see your app, but instead see "Contact your administrator for access to your organization's mobile apps," then select the menu icon and toggle the **Show non-production apps** to _Yes_.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing where to find Field Security Profiles on the menu](media/qs-1-img12.png)
+> ![Device renders showing "Show non-production apps" setting in the Field Service mobile app.](./media/mobile-2020-error-contact-administrator-show-nonproduction-apps.png)
 
-5. Assign the **Field Service – Resource** field security profile to the field technician user. Note that field technicians can't edit fields on mobile work orders unless they have this profile assigned. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing the field technician profile view](media/qs-1-img14.png)
-
-### Set up geo-coding for the field technician user
-Next you need to set up geo-coding for the field technician user. Field technician location is used for scheduling and routing.
-
-1. Navigate to **Settings** > **Users**, and then open the user record to verify there is an address. Addresses are based on the address for the user's record set in Office 365. 
+In the **Booking** tab, see the work order you scheduled to your frontline worker. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot shohowing a user address](media/qs-1-img18.png)  
+> ![Device renders showing the booking on the Field Service mobile app.](./media/quickstart-mobile-work-order.png)
 
-2. If there isn't an address for the user, navigate to the Admin center. Find the user record.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing the user record in Office 365](media/qs-1-img19.png)  
+For more information, see the article on [getting started with the Field Service (Dynamics 365) mobile app](mobile-power-app-get-started.md).
 
-1. Enter an address, and then choose **Save**. To see the updated address in the Dynamics 365 organization, go back to the field technician user record and refresh the page.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing the address fields for the user in Office 365](media/qs-1-img20.png)  
 
-### Set up geo-coding for the organization
+## Additional notes
 
-Setting up geocoding for an organization enables the system to attach latitudes and longitudes to addresses.
+If you can't see your users in the frontline worker setup, make sure the users are added to your environment: 
 
-1. Navigate to **Resource Scheduling** > **Administration** > **Scheduling Parameters**.
+Go to the [Power Apps admin center](https://admin.powerplatform.microsoft.com/).
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing settings for scheduling parameters](media/qs-1-img22.png)  
+> ![Screenshot of the list of admin centers in the Microsoft 365 admin center.](./media/quickstart-o365-admin-powerapp.png)
 
-2. Set **Connect to Maps** to **Yes**. The API key fills in automatically to use the Bing Maps API, which enables the system to assign a latitude and longitude to the user record's address.
+Select your environment that has Field Service installed. Select **Settings** > **Users + permissions** > **Users**.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing the Bing maps API field](media/qs-1-img23.png)  
-
-3. Navigate to the user record, and then select **Geocode**. 
+Add the two users you created if they are not already added.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing geocoding on the user record](media/qs-1-img24.png)  
+> ![Screenshot of the Power Platform admin center, showing the new users.](./media/quickstart-ppac-users-add.png)
 
-4. Confirm the address, and then choose **Close**.
+## See also
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing the Found Places dialog](media/qs-1-img25.png)  
+- [Perform initial configurations](perform-initial-configurations-setup.md)
 
-5. Choose **Change** to populate the **Scheduling** section of the user record with the latitude and longitude.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Schedule a work order and view it on the mobile application image26](media/qs-1-img26.png)   
-
-> [!NOTE]
-> Alternatively, you can type the latitude and longitude into the address fields on the user record.
-
-## 4. Create a bookable resource
-
-Next, create a bookable resource record for the field technician user. Creating a bookable resource lets you schedule work orders for the field technician, which the field tecnician sees in the mobile app.
-
-1. Navigate to **Field Service** > **Administration** > **Resources**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing where to find the Active Bookable Resources grid](media/qs-1-img28.png)
-
-2. Choose **New**.
-
-- Create a new field technician resource  with the following settings: 
-
-    - Resource Type = **User**
-    - User = **\[User record you assigned Resource role to\]**
-    - Warehouse = **\[assign a warehouse or create a new one. Ex: Truck 1\]**
-    - Hourly Rate = **$60**
-    - Start Location = **Resource Address**
-    - End Location = **Resource Address**
-    - Display on Schedule Board = **Yes**
-    - Enable for Availability Search = **Yes**
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing where to find the fields on the Bookable Resource form](media/qs-1-img29.png)
-
-## 5. Add the bookable resource to the schedule board
-
-Next, you add the field technician to the schedule board.
-
-1. Navigate to **Field Service** > **Schedule Board**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing where to find the Schedule Board in the menu](media/qs-1-img32.png)
-
-2. In the **Filter and Map View** panel, select **Options** > **Select Resources**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing the Filter and Map view panel](media/qs-1-img33.png)
-
-3. Find the new field technician with the **Resource Type** set to **User**, and then move the user to selected resources. Choose **Apply**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing the Apply command for a selected resource](media/qs-1-img35.png)
-
-## 6. Schedule the work order to the bookable resource
-
-In the lower pane, find the work order to schedule. This work order is listed in the **Open Requirements** view, and the **Unscheduled Work Orders** view. To schedule the work order, drag it to the field technician.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing how to schedule the work order for the bookable resource](media/qs-1-img36.png)
-
-## 7. View the scheduled work order on mobile
-
-If necessary, download the **Field Service Mobile (2017)** mobile app from the app store for your phone or tablet.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Schedule a work order and view it on the mobile application image37](media/qs-1-img37.png)
-
-1. Navigate to the **Field Service Mobile (2017)** mobile app, and then choose **Setup**. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing where to find the Setup option on the field service mobile app](media/qs-1-img38.png)
-
-1. Select the Dynamics 365 account.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing list of accounts on the field service mobile app](media/qs-1-img39.png)
-
-3. Sign in with the username and password for the field technician:
-
-- For the **URL**, enter the URL of your Dynamics 365 organization. For example, https://org.crm.dynamics.com.
-- For the **Username**, enter the username of the field technician. For example, username@org.onmicrosoft.com
-- For the **Password**, enter the password you set for the field technician.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing sign-in credentials for a field service user](media/qs-1-img40.png)
-
-1. In the **Booking** tab, verify that the work order (or booking) is scheduled for the field technician.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing a work order in the field service mobile app](media/qs-1-img41.png)
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

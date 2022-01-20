@@ -3,8 +3,8 @@ title: "Discover the URL for your organization using the Discovery Service (Deve
 description: "For a multi-tenant environment like Dynamics 365 Customer Engagement, you can use Discovery Service to determine the organizations that a user is member of"
 ms.custom: on-premise
 ms.date: 11/14/2017
-ms.reviewer: "pehecke"
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Discover the URL for your organization using the Discovery Service 
@@ -49,3 +48,6 @@ Alternatively, you can add the service references for the URLs described previou
  [Download endpoints using Developer resources page](../developer-resources-page.md)<br />
  [Access the Web Services in Dynamics 365 Customer Engagement](../authenticate-users.md)<br />
  [Quick Start: A Simple Program](../simple-program-web-services.md)<br />
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

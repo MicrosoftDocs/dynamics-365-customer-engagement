@@ -3,7 +3,7 @@ title: "Sample: Retrieve all charts attached to an entity (Developer Guide for D
 description: "The sample shows how to retrieve all the organization-owned visualizations attached to an entity by using the IOrganizationService.QueryBase) method. "
 keywords: 
 ms.date: 10/31/2017
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.topic: samples
 applies_to: 
@@ -12,15 +12,14 @@ ms.assetid: 4ee28c9c-4d78-47b1-911b-782527bcda45
 author: JimDaly
 ms.author: nabuthuk
 manager: kvivek
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 28
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Sample: Retrieve all charts attached to an entity
@@ -55,3 +54,6 @@ The `newSavedQuery` method creates a query for retrieving all organization-owned
 ### Clean up
 
 This sample creates no records. No cleanup is required.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

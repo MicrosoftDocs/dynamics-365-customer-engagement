@@ -1,9 +1,10 @@
 ---
-title: "Run bulk system jobs to detect duplicate records in Dynamics 365 for Customer Engagement apps | MicrosoftDocs"
+title: "Bulk duplicate detection in Dynamics 365 Customer Engagement (on-premises)"
+description: "Run bulk jobs to clean up duplicate records such as contacts, accounts, and leads. You can even schedule the job to run daily and alert you when it's done."
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -14,18 +15,16 @@ ms.assetid: 61aff241-9194-4a2c-8d83-1bfdc8b7449d
 caps.latest.revision: 40
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
 ---
 # Run bulk system jobs to detect duplicate records
 
-*This content also applies to the on-premises version.*
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
-To maintain the integrity of system data, you should check for duplicates regularly to make sure that users don’t inadvertently create duplicate contacts, accounts, leads, or other types of records.  
+To maintain the integrity of system data, you should regularly check for duplicates to make sure that users don’t inadvertently create duplicate contacts, accounts, leads, or other types of records.  
   
  The Check for Duplicates wizard helps you set up a bulk “job” that finds and cleans up duplicate records. You can schedule the job to run daily, and you can receive an email confirmation when the job finishes.  
   
@@ -51,7 +50,7 @@ To maintain the integrity of system data, you should check for duplicates regula
   
 7. To further limit the records searched, click **Select** and then enter the criteria you want.  
   
-   ![Screenshot of duplicate detection wizard, page 1](../admin/media/duplicate-detection-wizard.png "Screenshot of duplicate detection wizard, page 1")  
+   ![Screenshot of duplicate detection wizard, page 1.](../admin/media/duplicate-detection-wizard.png "Screenshot of duplicate detection wizard, page 1")  
   
 8. Click **Next**.  
   
@@ -68,3 +67,6 @@ To maintain the integrity of system data, you should check for duplicates regula
  [Turn duplicate detection rules on or off for the whole organization](../admin/turn-duplicate-detection-rules-off-whole-organization.md)   
  [View and take action on bulk deletion jobs](../admin/view-take-action-bulk-deletion-jobs.md)   
  [Detect duplicate data](detect-duplicate-data.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -3,8 +3,8 @@ title: "Service calendar appearance configuration | MicrosoftDocs"
 description: "Learn about the configuration of the service calendar appearance configuration."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -20,8 +20,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Service calendar appearance configuration
 
@@ -146,3 +145,6 @@ div.ganttBlockserviceappointmentStatus8
  [Support for Editing the Customization File](when-edit-customization-file.md)   
  [Publish Customizations](publish-customizations.md)   
  [ISV Configuration File Schema](isv-configuration-file-schema.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

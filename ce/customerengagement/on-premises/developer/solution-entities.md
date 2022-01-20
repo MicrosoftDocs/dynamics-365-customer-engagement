@@ -2,9 +2,9 @@
 title: "Solution entities (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "Solutions let you create and package customizations as a single unit of software. This doc talks about solution entities"
 ms.custom: 
-ms.date: 10/31/2017
-ms.reviewer: "pehecke"
-ms.service: crm-online
+ms.date: 04/02/2020
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -24,16 +24,17 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Solution entities
+
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Solution Entity Reference](/powerapps/developer/common-data-service/reference/entities/solution).
 
 Solutions let you create and package customizations as a single unit of software.  
   
  The following diagram describes selected attributes of the solution entities.  
   
- ![Solution entities object model](media/solution-object-model.png "Solution entities object model")  
+ ![Solution entities object model.](media/solution-object-model.png "Solution entities object model")  
   
 ## In This Section  
  [Publisher Entity](entities/publisher.md)  
@@ -58,3 +59,6 @@ Solutions let you create and package customizations as a single unit of software
  [Sample: Work With Solutions](sample-work-solutions.md)  
   
  [Sample: Detect Solution Dependencies](sample-detect-solution-dependencies.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

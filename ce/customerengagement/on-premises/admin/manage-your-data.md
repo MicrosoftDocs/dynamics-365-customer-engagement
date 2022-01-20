@@ -1,9 +1,10 @@
 ---
-title: "Manage your data | MicrosoftDocs"
+title: "Manage data in Dynamics 365 Customer Engagement (on-premises)"
+description: "Import data into Customer Engagement (on-premises), cleaning up duplicate records, deleting data in bulk, and securing sensitive data through data encryption."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,11 +18,12 @@ ms.author: jimholtz
 manager: kvivek
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # Manage your data
 
 Managing data in Dynamics 365 Customer Engagement (on-premises) includes importing data into Customer Engagement (on-premises), cleaning up duplicate records, deleting data in bulk, and securing sensitive data through data encryption.  
   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

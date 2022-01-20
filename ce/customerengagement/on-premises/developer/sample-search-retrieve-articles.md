@@ -7,7 +7,7 @@ ms.reviewer:
 ms.service:
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 50692599-5afe-45b4-b2b6-f9ec6784272e
@@ -16,8 +16,6 @@ ms.author: kvivek
 manager: annbe
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 # Sample: Search and retrieve articles
 
@@ -43,3 +41,6 @@ This sample code is for Dynamics 365 Customer Engagement (on-premises). Download
  <xref:Microsoft.Crm.Sdk.Messages.SearchByTitleKbArticleRequest>   
  <xref:Microsoft.Crm.Sdk.Messages.RetrieveByTopIncidentSubjectKbArticleRequest>   
  <xref:Microsoft.Crm.Sdk.Messages.RetrieveByTopIncidentProductKbArticleRequest>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

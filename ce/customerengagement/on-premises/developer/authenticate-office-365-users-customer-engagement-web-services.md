@@ -4,7 +4,7 @@ description: "This topic applies to customers who access Dynamics 365 Customer E
 ms.custom: 
 ms.date: 02/03/2020
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Authenticate Office 365 users with Customer Engagement web services
 
@@ -114,3 +113,6 @@ proxy constructor. The generic `GetProxy` method shown previously can be used to
  [Helper Code: ServerConnection Class](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/samples-from-msdn/QuickStart/SDK%20Helper%20Code/CrmServiceHelpers.cs)   
  [Active Directory and Claims-Based Authentication](active-directory-claims-based-authentication.md)   
  [Use connection strings in XRM tooling to connect to Dynamics 365 Customer Engagement (on-premises)](xrm-tooling/use-connection-strings-xrm-tooling-connect.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

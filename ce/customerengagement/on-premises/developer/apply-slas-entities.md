@@ -3,7 +3,7 @@ title: "Apply SLAs to entities (Developer Guide for Dynamics 365 Customer Engage
 description: "Learn about applying SLAs to custom entities by enabling entities for applying SLAs. Also, you can create SLA KPIs."
 ms.custom: 
 ms.date: 10/01/2019
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service:
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -15,8 +15,7 @@ author: KumarVivek
 ms.author: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Apply SLAs to entities
 
@@ -76,3 +75,6 @@ Service level agreements (SLAs) in Dynamics 365 Customer Engagement (on-premises
 ### See also  
  [Service entities in Customer Engagement (on-premises)](service-entities.md)   
  [Enhanced service level agreements (SLAs)](../admin/enhanced-service-level-agreements.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

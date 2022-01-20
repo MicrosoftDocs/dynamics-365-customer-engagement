@@ -1,9 +1,10 @@
 ---
-title: "Forward mailbox vs. individual mailboxes  | MicrosoftDocs"
+title: "Monitor forward vs individual mailboxes in Dynamics 365 Customer Engagement (on-premises)"
+description: "You can monitor individual mailboxes, but many organizations will want to choose to monitor a forward mailbox to reduce administrative effort."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,11 +18,9 @@ ms.author: jimholtz
 manager: brycho
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
-# Forward mailbox vs. individual mailboxes 
+# Monitoring for forward mailbox vs. individual mailboxes
 
 You can use mailbox monitoring to poll one or more mailboxes for incoming email messages, and then determine what actions Dynamics 365 Customer Engagement (on-premises) will take based on the email message, such as create or update records in the system. You can configure server-side synchronization or the Email Router to monitor either of the following:  
   
@@ -49,3 +48,6 @@ By using a forward mailbox, you shift the administrative effort to the task of d
 3. Customer Engagement (on-premises) (by using server-side synchronization or Email Router) retrieves the message from the forward mailbox and creates the appropriate records.  
   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

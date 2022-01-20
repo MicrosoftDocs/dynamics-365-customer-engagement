@@ -3,8 +3,8 @@ title: "Ignore blank values and inactive records in duplicate detection (Develop
 description: "Improve result quality by creating duplicate detection rules that ignore blank values and inactive records."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -16,8 +16,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Ignore blank values and inactive records in duplicate detection
 
@@ -69,3 +68,6 @@ You can improve data results by creating duplicate detection rules that ignore b
 ### See also  
  [Detect Duplicate Data in Dynamics 365 Customer Engagement (on-premises)](detect-duplicate-data-for-developers.md)   
  [Enable and Disable duplicate detection](enable-disable-duplicate-detection.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

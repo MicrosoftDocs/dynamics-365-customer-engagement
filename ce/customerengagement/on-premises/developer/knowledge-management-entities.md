@@ -2,9 +2,9 @@
 title: "Knowledge management entities (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: ""
 ms.custom: 
-ms.date: 10/01/2019
-ms.reviewer: 
-ms.service: crm-online
+ms.date: 03/09/2021
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -24,8 +24,7 @@ ms.author: kvivek
 manager: annbe
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Knowledge management entities
 
@@ -33,16 +32,16 @@ Knowledge management system lets you create rich knowledge articles with support
      
 You can set up knowledge management for your Customer Engagement (on-premises) instance using the web client only; it can’t be done through the SDK. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up knowledge management in Dynamics 365 Customer Engagement (on-premises)](../../../customer-service/set-up-knowledge-management-embedded-knowledge-search.md)
   
- After you enable knowledge management for an entity using the web client, you can insert and configure a knowledge base search control in the entity form to display relevant knowledge articles from Customer Engagement (on-premises). The knowledge base search control provides programmability support to automate or enhance the user’s experience when using this control. To learn more, see Common Data Service topic [Knowledge base search control (client-side reference)](/powerapps/developer/model-driven-apps/clientapi/reference/controls#kbsearch-knowledge-base-search-control-type).
+ After you enable knowledge management for an entity using the web client, you can insert and configure a knowledge base search control in the entity form to display relevant knowledge articles from Customer Engagement (on-premises). The knowledge base search control provides programmability support to automate or enhance the user’s experience when using this control. To learn more, see Dataverse topic [Knowledge base search control (client-side reference)](/powerapps/developer/model-driven-apps/clientapi/reference/controls#kbsearch-knowledge-base-search-control-type).
   
  Use the `KnowledgeArticle` and `KnowledgeArticleViews` entities to work with the knowledge articles in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
   
-> [!IMPORTANT]
->  With [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] and [!INCLUDE[pn_crm_8_1_0_op](../includes/pn-crm-8-1-0-op.md)] (on-premises) release, the following entities used for knowledge management are deprecated: `KbArticle`, `KbArticleComment`, and `KbArticleTemplate`. These entities won't be supported in a future major release of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. You must use the newer `KnowledgeArticle` entity in your code for knowledge management in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Important changes coming in future releases of Dynamics 365 Customer Engagement (on-premises)](/get-started/whats-new/customer-engagement/important-changes-coming)
+> [!IMPORTANT] 
+>  With [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] and [!INCLUDE[pn_crm_8_1_0_op](../includes/pn-crm-8-1-0-op.md)] (on-premises) release, the following entities used for knowledge management are deprecated: `KbArticle`, `KbArticleComment`, and `KbArticleTemplate`. These entities won't be supported in a future major release of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. You must use the newer `KnowledgeArticle` entity in your code for knowledge management in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Deprecations in Customer Service](../../../customer-service/deprecations-customer-service.md)
   
   
 ## Reference  
- [Blog: New Knowledge Management in the Microsoft Dynamics CRM 2016 release](https://blogs.msdn.com/b/crm/archive/2015/10/15/new-knowledge-management-in-microsoft-dynamics-crm-2016-release.aspx)  
+ [Blog: New Knowledge Management in the Microsoft Dynamics CRM 2016 release](https://cloudblogs.microsoft.com/dynamics365/no-audience/2015/10/15/new-knowledge-management-in-microsoft-dynamics-crm-2016-release/)  
   
 ## Related Sections  
  [Knowledge base search control (client-side reference)](/powerapps/developer/model-driven-apps/clientapi/reference/controls#kbsearch-knowledge-base-search-control-type)  
@@ -52,3 +51,6 @@ You can set up knowledge management for your Customer Engagement (on-premises) i
  [Incident (case) entities](incident-case-entities.md)  
   
  [Service Entities (Contract, Incident, Knowledge Base)](service-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

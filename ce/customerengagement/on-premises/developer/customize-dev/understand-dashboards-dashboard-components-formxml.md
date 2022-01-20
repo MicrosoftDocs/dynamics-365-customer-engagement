@@ -3,8 +3,8 @@ title: "Understand dashboards: Dashboard components and FormXML (Developer Guide
 description: "Dashboards are one of the different types of forms in Dynamics 365 Customer Engagement. You can use the SystemForm.Type or UserForm.Type attribute to determine whether the form is a dashboard."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Understand dashboards: Dashboard components and FormXML
 
@@ -52,7 +51,7 @@ Dashboards are one of the different types of forms in [!INCLUDE[pn_dynamics_crm]
 ## Dashboard components and FormXML elements  
  The dashboard components are displayed in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] based on the values specified in the FormXML. The following image shows an example of a dashboard. Each dashboard can include multiple tabs. Tabs are a vertical stack separating the body of the dashboard, and can be expanded or collapsed. A tab can contain multiple sections. Sections enable for grouping and layout of dashboard components. 
 
- ![Dashboard components layout](../media/crm-v5s-dashboards-components.png "Dashboard components layout")  
+ ![Dashboard components layout.](../media/crm-v5s-dashboards-components.png "Dashboard components layout")  
 
 <a name="SupportedFormXMLElements"></a>   
 ## FormXML elements supported for dashboards  
@@ -112,3 +111,6 @@ Dashboards are one of the different types of forms in [!INCLUDE[pn_dynamics_crm]
  [Dashboards for Microsoft Dynamics 365 Customer Engagement](analyze-data-with-dashboards.md)   
  [Actions on Dashboards](actions-dashboards.md)   
  [Create a Dashboard](create-dashboard.md)   
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

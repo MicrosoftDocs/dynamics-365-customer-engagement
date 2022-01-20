@@ -3,8 +3,8 @@ title: "Customize entity forms | MicrosoftDocs"
 description: "Forms provide the user interface (UI) that people use to create, view, or edit entity records. Use the form designer in the customization tools to create and edit entity forms. This topic will provide information necessary to create or edit forms programmatically. "
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Customize entity forms
 
@@ -79,3 +78,6 @@ Forms provide the user interface (UI) that people use to create, view, or edit e
  [SystemForm Entity](../entities/systemform.md)   
  [Create or edit how business rules are initiated](create-edit-how-business-rules-initiated.md)   
  [Form XML Schema](form-xml-schema.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

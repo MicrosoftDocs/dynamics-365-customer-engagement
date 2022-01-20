@@ -1,14 +1,10 @@
 ---
 title: "Composite DDA | MicrosoftDocs"
-description: "The composite data-driven adapter is an extension of the DDA architecture introduced with UII. It was built to address the issue where you can assign only one DDA type to an application. In some cases, an application might need different technologies provided by different DDAs to access the required functionality."
-ms.custom: 
-  - dyn365-USD
+description: "Learn about the composite data-driven adapter. Also, included is a sample code that shows a binding collection of data-driven adapters."
 ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - customizer
@@ -16,12 +12,14 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Composite DDA
-The composite data-driven adapter is an extension of the DDA architecture introduced with [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)]. It was built to address the issue where you can assign only one DDA type to an application. In some cases, an application might need different technologies provided by different DDAs to access the required functionality. An example for this could be a Java applet in a web application. You can use the composite DDA in these scenarios.  
+The composite data-driven adapter is an extension of the DDA architecture introduced with [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)]. It was built to address the issue where you can assign only one DDA type to an application. In some cases, an application might need different technologies provided by different data-driven adapters to access the required functionality. An example for this could be a Java applet in a web application. You can use the composite DDA in these scenarios.  
   
 ## Composite DDA bindings  
- The composite DDA bindings are similar to the other DDAs. The bindings are simply added to a `<DataDrivenAdapterBindingsCollection>` collection, which supports adding bindings of different types. The following sample shows a binding collection of three DDAs. However, you can add only one collection per application.  
+ The composite DDA bindings are similar to the other data-driven adapters. The bindings are simply added to a `<DataDrivenAdapterBindingsCollection>` collection, which supports adding bindings of different types. The following sample shows a binding collection of three data-driven adapters. However, you can add only one collection per application.  
   
 ```xml  
 <DataDrivenAdapterBindingsCollection>  
@@ -57,3 +55,6 @@ The composite data-driven adapter is an extension of the DDA architecture introd
   
 ### See also  
  [Use Data Driven Adapters](../unified-service-desk/use-data-driven-adapters-ddas.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

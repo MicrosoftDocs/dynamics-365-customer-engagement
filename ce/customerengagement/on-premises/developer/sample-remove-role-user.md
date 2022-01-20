@@ -3,11 +3,11 @@ title: "Sample: Remove a role for a user (Developer Guide for Dynamics 365 Custo
 description: "The sample shows how to disassociate a role from a user by using the IOrganizationService.EntityReferenceCollection) method."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 6f25132e-30d2-4a20-9395-3e42aafdd959
@@ -17,8 +17,6 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 # Sample: Remove a role for a user
 
@@ -49,3 +47,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
 <xref:Microsoft.Xrm.Sdk.IOrganizationService>   
     
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

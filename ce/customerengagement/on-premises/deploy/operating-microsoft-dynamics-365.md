@@ -1,8 +1,9 @@
 ---
 title: "Operating Dynamics 365 Customer Engagement (on-premises) (on-premises), version 9.x | Microsoft Docs"
+description: Learn how to operate Dynamics 365 Customer Engagement (on-premises)
 ms.custom: 
 ms.date: 10/01/2018
-ms.prod: crm-2016
+ms.prod: d365ce-op
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -16,8 +17,6 @@ ms.author: matp
 manager: kvivek
 ---
 # Operating Dynamics 365 Customer Engagement (on-premises) (on-premises)
-
-
 
 As you administer [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you’ll want to guarantee availability for your users by monitoring server status and performance, troubleshooting issues, and planning for disaster recovery.  
   
@@ -37,3 +36,6 @@ As you administer [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], y
 [Administer the deployment using Windows PowerShell](administer-the-deployment-using-windows-powershell.md) <br/>
 [Use Deployment Manager to manage the deployment](use-deployment-manager-to-manage-the-deployment.md) <br/> 
 [Microsoft Dynamics 365 Customer Engagement (on-premises) database maintenance](microsoft-dynamics-365-database-maintenance.md) -->
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

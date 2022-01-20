@@ -3,11 +3,11 @@ title: "Sample: Clean up history for a queue (early bound)| MicrosoftDocs"
 decription: The sample code demonstrates how to clean up the history for the queue using RemoveFromQueueRequest with inactive items.
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
@@ -22,12 +22,10 @@ ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 # Sample: Clean up history for a queue (early bound)
 
-This sample shows how to clean up the history for the queue by using [RemoveFromQueueRequest](https://docs.microsoft.com/dotnet/api/microsoft.crm.sdk.messages.removefromqueuerequest?view=dynamics-general-ce-9) with inactive items. It finds completed phone calls in the queue and removes the associated queue items. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/CleanHistoryQueue).
+This sample shows how to clean up the history for the queue by using [RemoveFromQueueRequest](/dotnet/api/microsoft.crm.sdk.messages.removefromqueuerequest?view=dynamics-general-ce-9) with inactive items. It finds completed phone calls in the queue and removes the associated queue items. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/CleanHistoryQueue).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 
@@ -52,8 +50,11 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 
 ### Demonstrate
 
-Retrieves the queueitem with inactive phone calls from a queue using the [RemoveFromQueueRequest](https://docs.microsoft.com/dotnet/api/microsoft.crm.sdk.messages.removefromqueuerequest?view=dynamics-general-ce-9) message.
+Retrieves the queueitem with inactive phone calls from a queue using the [RemoveFromQueueRequest](/dotnet/api/microsoft.crm.sdk.messages.removefromqueuerequest?view=dynamics-general-ce-9) message.
 
 ### Clean up
 
 Display an option to delete the records created in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

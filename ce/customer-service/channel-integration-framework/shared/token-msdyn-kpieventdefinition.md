@@ -7,19 +7,19 @@ Primary entity for defining a KPI event
 
 |Message|Web API Operation|SDK Assembly|
 |-|-|-|
-|Assign|PATCH [*org URI*]/api/data/v9.1/msdyn_kpieventdefinitions(*msdyn_kpieventdefinitionid*)|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|POST [*org URI*]/api/data/v9.1/msdyn_kpieventdefinitions|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.1/msdyn_kpieventdefinitions(*msdyn_kpieventdefinitionid*)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Assign|PATCH [*org URI*]/api/data/v9.0/msdyn_kpieventdefinitions(*msdyn_kpieventdefinitionid*)|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST [*org URI*]/api/data/v9.0/msdyn_kpieventdefinitions|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_kpieventdefinitions(*msdyn_kpieventdefinitionid*)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
 |GrantAccess|<xref href="Microsoft.Dynamics.CRM.GrantAccess?text=GrantAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
 |IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
 |ModifyAccess|<xref href="Microsoft.Dynamics.CRM.ModifyAccess?text=ModifyAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.1/msdyn_kpieventdefinitions(*msdyn_kpieventdefinitionid*)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.1/msdyn_kpieventdefinitions|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_kpieventdefinitions(*msdyn_kpieventdefinitionid*)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_kpieventdefinitions|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 |RetrievePrincipalAccess|<xref href="Microsoft.Dynamics.CRM.RetrievePrincipalAccess?text=RetrievePrincipalAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
 |RetrieveSharedPrincipalsAndAccess|<xref href="Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?text=RetrieveSharedPrincipalsAndAccess Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
 |RevokeAccess|<xref href="Microsoft.Dynamics.CRM.RevokeAccess?text=RevokeAccess Action" />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.1/msdyn_kpieventdefinitions(*msdyn_kpieventdefinitionid*)|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.1/msdyn_kpieventdefinitions(*msdyn_kpieventdefinitionid*)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_kpieventdefinitions(*msdyn_kpieventdefinitionid*)|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_kpieventdefinitions(*msdyn_kpieventdefinitionid*)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
 
 ## Entity Properties
 
@@ -44,7 +44,6 @@ Primary entity for defining a KPI event
 These attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
-- [msdyn_Active](#BKMK_msdyn_Active)
 - [msdyn_EventDescription](#BKMK_msdyn_EventDescription)
 - [msdyn_EventDisplayName](#BKMK_msdyn_EventDisplayName)
 - [msdyn_EventType](#BKMK_msdyn_EventType)
@@ -74,29 +73,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |MinValue|-2147483648|
 |RequiredLevel|None|
 |Type|Integer|
-
-
-### <a name="BKMK_msdyn_Active"></a> msdyn_Active
-
-|Property|Value|
-|--------|-----|
-|Description|Field to indicate if the KPI Event is active|
-|DisplayName|Active|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_active|
-|RequiredLevel|ApplicationRequired|
-|Type|Boolean|
-
-#### msdyn_Active Options
-
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
-
-**DefaultValue**: True
-
 
 
 ### <a name="BKMK_msdyn_EventDescription"></a> msdyn_EventDescription

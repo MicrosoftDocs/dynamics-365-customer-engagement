@@ -2,7 +2,7 @@
 title: "AppModule Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the AppModule entity."
 ms.date: 04/02/2019
-ms.service: "crm-online"
+ms.prod: d365ce-op
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
@@ -10,9 +10,7 @@ ms.author: "kvivek"
 manager: "annbe"
 search.audienceType: 
   - developer
-search.app: 
-  - PowerApps
-  - D365CE
+
 ---
 # AppModule Entity Reference
 
@@ -74,7 +72,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [PublishedOn](#BKMK_PublishedOn)
 - [PublisherId](#BKMK_PublisherId)
-- [UniqueName](#BKMK_UniqueName)
 - [URL](#BKMK_URL)
 - [WebResourceId](#BKMK_WebResourceId)
 - [WelcomePageId](#BKMK_WelcomePageId)
@@ -379,23 +376,6 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |RequiredLevel|ApplicationRequired|
 |Targets|publisher|
 |Type|Lookup|
-
-
-### <a name="BKMK_UniqueName"></a> UniqueName
-
-|Property|Value|
-|--------|-----|
-|Description|Unique Name of App Module|
-|DisplayName|Unique Name|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|uniquename|
-|MaxLength|100|
-|RequiredLevel|SystemRequired|
-|Type|String|
-
 
 ### <a name="BKMK_URL"></a> URL
 
@@ -925,3 +905,6 @@ IntersectEntityName: appmoduleroles<br />
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.appmodule?text=appmodule EntityType" />
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

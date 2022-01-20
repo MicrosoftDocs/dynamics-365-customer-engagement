@@ -3,8 +3,8 @@ title: "Edit the customizations XML file with schema validation | MicrosoftDocs"
 description: "The customizations.xml file is included within the compressed .zip file exported as a solution. Certain portions of the customizations.xml file can be edited manually. Information about the schema helps you confirm that any modifications you make are valid."
 ms.custom: 
 ms.date: 12/22/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -19,8 +19,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Edit the customizations XML file with schema validation
 
@@ -86,3 +85,6 @@ The customizations.xml file is included within the compressed .zip file exported
  [Form XML schema](form-xml-schema.md)     
  [ISV Configuration File Schema](isv-configuration-file-schema.md)   
  [Build Queries with FetchXML](../org-service/build-queries-fetchxml.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

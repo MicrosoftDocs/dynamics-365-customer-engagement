@@ -1,9 +1,10 @@
 ---
-title: "Best practices for server-side synchronization  | MicrosoftDocs"
+title: "Best practices for server-side sync in Dynamics 365 Customer Engagement (on-premises)"
+description: "Consider the following best practices when planning and deploying server-side synchronization in Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,9 +18,7 @@ ms.author: jimholtz
 manager: brycho
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # Best practices for server-side synchronization 
 
@@ -66,3 +65,6 @@ Consider the following when planning and deploying server-side synchronization.
 ### See also  
 [Server-side synchronization](../admin/server-side-synchronization.md) 
 [Troubleshooting server-side synchronization](../admin/troubleshooting-monitoring-server-side-synchronization.md)   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

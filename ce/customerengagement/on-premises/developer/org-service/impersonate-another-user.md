@@ -3,8 +3,8 @@ title: "Impersonate another user (Developer Guide for Dynamics 365 Customer Enga
 description: "Learn how to impersonate another user using Web API. You can do that by adding a request header named MSCRMCallerID with a GUID value equal to the impersonated user’s systemuserid before sending the request to the web service"
 ms.custom: 
 ms.date: 04/29/2019
-ms.reviewer: "pehecke"
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,14 +17,13 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Impersonate another user
 
 Impersonation is used to execute business logic (code) on behalf of another [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] user to provide a desired feature or service using the appropriate role and object-based security of that impersonated user. This is necessary because the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Web services can be called by various clients and services on behalf of a [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] user, for example, in a workflow or custom ISV solution. Impersonation involves two different user accounts: one user account (A) is used when executing code to perform some task on behalf of another user (B).
 
-More information can be found in the Common Data Service topic [Impersonate another user](/powerapps/developer/common-data-service/impersonate-another-user).
+More information can be found in the Dataverse topic [Impersonate another user](/powerapps/developer/common-data-service/impersonate-another-user).
 
 ## Required privileges  
  User account (A) needs the privilege `prvActOnBehalfOfAnotherUser`, which is included in the **Delegate** security role.  
@@ -47,3 +46,6 @@ More information can be found in the Common Data Service topic [Impersonate anot
  [Implement Single Sign-on from an ASPX Webpage or IFRAME](../implement-single-sign-aspx-webpage-iframe.md)     
  [How Role-Based Security Can Be Used to Control Access to Entities In Dynamics 365 Customer Engagement (on-premises)](../security-dev/how-role-based-security-control-access-entities.md)   
  [Sample: Impersonation using the ActOnBehalfOf privilege](sample-impersonate-actonbehalfof-privilege.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

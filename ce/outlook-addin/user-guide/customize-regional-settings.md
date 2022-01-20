@@ -59,3 +59,6 @@ You can change how [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)
      \-  OR -  
   
      To apply the changes you have made to the default formats and close the dialog box, click or tap **OK**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,9 +1,10 @@
 ---
-title: "Create and edit fields | MicrosoftDocs"
+title: "Create or edit a field in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how to create or edit a field in Dynamics 365. Use tools in the solution explorer to edit system fields, or to create, edit, or delete custom fields."
 ms.custom: 
 ms.date: 11/09/2018
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -16,14 +17,13 @@ manager: kvivek
 author: Mattp123
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
-# Create and edit fields (attributes)
+# Create or edit a field (attribute)
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [How to create and edit fields](/powerapps/maker/common-data-service/create-edit-fields)
 
-
-With Dynamics 365 Customer Engagement (on-premises), fields define the individual data items that can be used to store data in an entity. Fields are sometimes called attributes by developers. You can use the customization tools in the solution explorer to edit system fields that allow customization, or to create, edit, or delete custom entities.  
+With Dynamics 365 Customer Engagement (on-premises), fields define the individual data items that can be used to store data in an entity. Fields are sometimes called attributes by developers. You can use the customization tools in the solution explorer to edit system fields that allow customization, or to create, edit, or delete custom fields.  
   
 <a name="BKMK_CreatingAndEditngFields"></a>   
 ## Create and edit fields  
@@ -49,7 +49,7 @@ With Dynamics 365 Customer Engagement (on-premises), fields define the individua
 |    **Searchable**     |                                                                                                                                                                                                                                                                                                                                                                                                 When a field is searchable it appears in Advanced Find and is available when customizing views. Use this when there are fields for the entity that you don’t use. Setting this to **No** will reduce the number of options shown to people using advanced find.                                                                                                                                                                                                                                                                                                                                                                                                 |
 |  **Field Security**   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   For custom fields, enable this to allow this field to participate in field-level security.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |     **Auditing**      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          Disable this so that data in this field won’t be included with auditing data.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-|    **Description**    |                                                                                                                                                                                                                                                                                                                                                                                        Enter text that will appear as a tooltip when the field is displayed in a form. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Video: Dynamics CRM Customizable Tool Tips](https://www.youtube.com/watch?v=7oqtyF6FA8E&list=PLC3591A8FE4ADBE07&index=5)                                                                                                                                                                                                                                                                                                                                                                                         |
+|    **Description**    |                                                                                                                                                                                                                                                                                                                                                                                        Enter text that will appear as a tooltip when the field is displayed in a form. <!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Video: Dynamics CRM Customizable Tool Tips](https://www.youtube.com/watch?v=7oqtyF6FA8E&list=PLC3591A8FE4ADBE07&index=5) -->                                                                                                                                                                                                                                                                                                                                                                                |
 |       **Type**        |                                                                                                                                                                                                                                                                                                                                                                                                                     Select the type of record. Depending on the type you select, you’ll have different options. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Types of fields](../customize/types-of-fields.md)                                                                                                                                                                                                                                                                                                                                                                                                                      |
   
  Any of the fields that provide direct text input have an **IME Mode**. The input method editor (IME) is used for East Asian languages like Japanese. IMEs allow the user to enter the thousands of different characters used in East Asian written languages using a standard 101-key keyboard.  
@@ -126,3 +126,6 @@ With Dynamics 365 Customer Engagement (on-premises), fields define the individua
  [Define calculated fields](../customize/define-calculated-fields.md)   
 
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

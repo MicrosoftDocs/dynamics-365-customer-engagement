@@ -1,10 +1,10 @@
 ---
-title: "Display custom icons alongside values in list views | MicrosoftDocs"
-description: "Learn how to display custom icon graphics in a view"
+title: "Add custom icons to a list view in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how administrators and customizers can add graphics to customize a list view with icons that display alongside text or numerical values."
 ms.custom: 
 ms.date: 11/20/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -18,19 +18,18 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
-# Display custom icons in list views
+# Add custom icons to a list view
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Display custom icons alongside values in list views](/powerapps/maker/common-data-service/display-custom-icons-instead)
 
 <a name="GridIcons"></a>   
 
  Administrators and customizers can add graphics to a view and establish the logic used to select a graphic based on the column value using JavaScript. The capability lets you customize list views that display icons alongside text or numerical values, such as in this **Rating** column in the **All Opportunities** view. 
 
 > [!div class="mx-imgBorder"] 
-> ![](media/icon-in-opportunity-view.png "All Opportunities view with Rating column displaying icons and text value")
+> ![All Opportunities view with Rating column displaying icons and text value.](media/icon-in-opportunity-view.png "All Opportunities view with Rating column displaying icons and text value")
 
 Custom icons in list views can display in Unified Interface, classic web client, mobile app, and App for Outlook.
   
@@ -93,14 +92,18 @@ Custom icons in list views can display in Unified Interface, classic web client,
 <a name="SampleJavascript"></a>   
 
 ### Sample JavaScript function  
- The JavaScript function for displaying custom icons and tooltips expects the following two arguments: the entire row object specified in layoutxml and the calling user’s Locale ID (LCID). The LCID parameter enables you to specify tooltip text in multiple languages. For more information about the languages supported by the environment, see [Enable languages](../admin/enable-languages.md) and [Install or upgrade language packs for Dynamics 365 for Customer Engagement](https://technet.microsoft.com/library/hh699674.aspx). For a list of locale ID (LCID) values that you can use in your code, see [Locale IDs assigned by Microsoft](https://go.microsoft.com/fwlink/?linkid=829588).
+ The JavaScript function for displaying custom icons and tooltips expects the following two arguments: the entire row object specified in layoutxml and the calling user’s Locale ID (LCID). The LCID parameter enables you to specify tooltip text in multiple languages. For more information about the languages supported by the environment, see [Enable languages](../admin/enable-languages.md) and [Install or upgrade language packs for Dynamics 365 for Customer Engagement](/previous-versions/dynamicscrm-2016/deployment-administrators-guide/hh699674(v=crm.8)). For a list of locale ID (LCID) values that you can use in your code, see [Locale IDs assigned by Microsoft](/openspecs/windows_protocols/ms-lcid/a9eac961-e77d-41a6-90a5-ce1a8b0cdb9c).
 
   
  Assuming you will be adding custom icons for an option-set type of attribute, which has a limited set of predefined options, make sure you use the integer value of the options instead of label to avoid localization issues.  
+ 
+ **Note**: If it is necessary to retrieve data to determine the icon, Unified Interface supports returning a JavaScript Promise object which resolves to a boolean (similar to ribbon rules).  Do not use a synchronous XMLHttpRequest (XHR) in your custom function.
   
  The following sample code displays icons and tooltips based on one of three values (1: Hot, 2: Warm, 3: Cold) in the opportunityratingcode (Rating) attribute. The sample code also shows how to display localized tooltip text. For this sample to work, you must create three image web resources with 16x16 images with the following names: new_Hot, new_Warm, and new_Cold.  
   
-```  
+```js
+"use strict";
+
 function displayIconTooltip(rowData, userLCID) {      
     var str = JSON.parse(rowData);  
     var coldata = str.opportunityratingcode_Value;  
@@ -152,7 +155,10 @@ function displayIconTooltip(rowData, userLCID) {
   
  <!-- This results in displaying icons with tooltips in the **Rating** column that depend on the value in each row. The result could look like this:  
   
- ![Custom column graphics example](../customize/media/custom-column-graphics-example.png "Custom column graphics example")  -->
+ ![Custom column graphics example.](../customize/media/custom-column-graphics-example.png "Custom column graphics example")  -->
  
  ### See also
  [Create or edit views](create-edit-views.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

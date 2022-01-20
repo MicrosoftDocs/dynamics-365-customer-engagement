@@ -1,8 +1,9 @@
 ---
 title: "Configure the AD FS server for IFD | Microsoft Docs"
+description: Learn how to configure the AD FS server for an internet-facing deployment with Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: "crm-2016"
+ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -88,7 +89,7 @@ After you have enabled IFD on the [!INCLUDE[pn_microsoftcrm_server](../includes/
   
 17. Select **Finish**.  
   
-18. In the **Rules Editor**, select **Add Rule**,  
+18. In the **Rules Editor**, select **Add Rule**.  
   
 19. In the **Claim rule template** list, select the **Transform an Incoming Claim** template, and then select **Next**.  
   
@@ -117,8 +118,11 @@ Grant-AdfsApplicationPermission -ClientRoleIdentifier "<ClientRoleIdentifier>" -
   
 2.  ServerroleIdentified :  the Identifier of your relying party. For example: https://adventureworkscycle3.crm.crmifd.com/  
   
- For more information, see [Grant-AdfsApplicationPermission](https://technet.microsoft.com/itpro/powershell/windows/adfs/grant-adfsapplicationpermission).  
+ For more information, see [Grant-AdfsApplicationPermission](/powershell/module/adfs/grant-adfsapplicationpermission).  
   
 ## See Also  
  [Implement claims-based authentication: external access](implement-claims-based-authentication-external-access.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

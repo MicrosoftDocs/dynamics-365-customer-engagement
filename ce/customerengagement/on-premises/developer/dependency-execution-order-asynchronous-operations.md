@@ -3,8 +3,8 @@ title: "Dependency and execution order in asynchronous operations (Developer Gui
 description: "An asynchronous operation can be made dependent with another asynchronous operation. A dependent asynchronous operation does not execute until the operation that it is dependent with has finished executing."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Dependency and execution order in asynchronous operations
 
@@ -35,3 +34,6 @@ An asynchronous operation can be made dependent with another asynchronous operat
 ### See also  
  [Asynchronous Service in Dynamics 365 Customer Engagement (on-premises)](asynchronous-service.md)   
  [Recurrence pattern in asynchronous job execution](recurrence-pattern-asynchronous-job-execution.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

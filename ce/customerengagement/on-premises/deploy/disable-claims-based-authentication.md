@@ -1,8 +1,9 @@
 ---
 title: "Disable claims-based authentication | Microsoft Docs"
+description: Learn how to disable claims-based authentication in Dynamics 365 Customer Engagement (on-premises)
 ms.custom: 
 ms.date: 10/01/2018
-ms.prod: crm-2016
+ms.prod: d365ce-op
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -38,3 +39,6 @@ Use the following procedure to disable claims-based authentication.
  [Configure claims-based authentication](configure-claims-based-authentication.md)   
  [Configure an Internet-facing deployment](configure-an-internet-facing-deployment.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,12 +1,13 @@
 ---
-title: "Actions overview | MicrosoftDocs"
+title: "Use actions in Dynamics 365 Customer Engagement (on-premises)"
+description: "Actions provide the ability to define a verb that matches an operation you need to run your business. Learn more about what actions do and why to use them."
 ms.custom: 
 ms.date: 11/08/2018
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: overview
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 1475985f-d3c4-429d-beac-cb455965e792
@@ -16,12 +17,11 @@ manager: kvivek
 author: Mattp123
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
----
-# Actions overview
 
- 
+---
+# Overview of working with actions
+
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Use actions](/powerapps/maker/common-data-service/actions)
 
 Actions are a type of process. You can invoke actions, including custom actions, directly from a workflow or dialog without writing code! [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Invoke custom action from a workflow or dialog](../customize/invoke-custom-actions-workflow-dialog.md)  
   
@@ -61,3 +61,6 @@ Developers can learn more in this topic: [Create your own actions](../developer/
  [Invoke custom actions from a workflow or dialog](../customize/invoke-custom-actions-workflow-dialog.md) <br />
  [Workflow processes overview](../customize/workflow-processes.md)   
  [Business process flows overview](../customize/business-process-flows-overview.md)   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

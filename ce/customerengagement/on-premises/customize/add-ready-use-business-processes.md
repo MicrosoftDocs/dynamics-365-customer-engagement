@@ -1,9 +1,10 @@
 ---
-title: "Add ready-to-use business processes (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Ready-to-use business processes in Dynamics 365 Customer Engagement (on-premises)"
+description: "There are several ready-to-use business processes designed for common scenarios. Learn more about what these can help you do and how to add them."
 ms.custom: 
 ms.date: 04/30/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -16,8 +17,7 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Add ready-to-use business processes for common scenarios
 
@@ -68,3 +68,6 @@ Dynamics 365 Customer Engagement (on-premises) includes several ready-to-use bus
 ### See also    
  [Create custom business logic with processes](../customize/guide-staff-through-common-tasks-processes.md)   
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

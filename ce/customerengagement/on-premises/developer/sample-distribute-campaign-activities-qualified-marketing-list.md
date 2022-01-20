@@ -3,11 +3,11 @@ title: "Sample: Distribute campaign activities to qualified marketing list (Deve
 description: "The sample code demonstrates how to distribute campaign activities to the qualified members of a marketing list."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
@@ -20,8 +20,6 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 # Sample: Distribute campaign activities to qualified marketing list
 
@@ -63,3 +61,6 @@ Display an option to delete the records created in the [Setup](#setup). The dele
  <xref:Microsoft.Crm.Sdk.Messages.AddItemCampaignActivityRequest>   
  <xref:Microsoft.Crm.Sdk.Messages.QualifyMemberListRequest>   
  <xref:Microsoft.Crm.Sdk.Messages.DistributeCampaignActivityRequest>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

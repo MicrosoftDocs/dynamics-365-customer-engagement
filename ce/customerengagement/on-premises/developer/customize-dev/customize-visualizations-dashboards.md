@@ -3,8 +3,8 @@ title: "Customize visualizations and dashboards (Developer Guide for Dynamics 36
 description: "Learn about configuring dashboards in such a way that enables you to view data from multiple areas of Dynamics 365 Customer Engagement such as sales, marketing, and service. You can even adjust the data displayed in visualizations and dashboards per your business requirements by applying filters. "
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -21,8 +21,7 @@ ms.author: kvivek
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Customize visualizations and dashboards
 
@@ -50,7 +49,7 @@ Data visualization and analytics in [!INCLUDE[pn_dynamics_crm_online](../../incl
   
  [Customize global option sets](../org-service/customize-global-option-sets.md)  
   
- [Change application navigation using the SiteMap](/developer/customize-dev/change-application-navigation-using-sitemap.md)  
+ [Change application navigation using the SiteMap](change-application-navigation-using-sitemap.md)  
   
  [Customize commands and the ribbon](customize-commands-ribbon.md)  
   
@@ -62,8 +61,11 @@ Data visualization and analytics in [!INCLUDE[pn_dynamics_crm_online](../../incl
   
  [Customize Entity Views in Dynamics 365 Customer Engagement](customize-entity-views.md)  
   
- [Change Application Navigation using the SiteMap](/developer/customize-dev/change-application-navigation-using-sitemap.md)  
+ [Change Application Navigation using the SiteMap](change-application-navigation-using-sitemap.md)  
   
  [Extend Microsoft Dynamics 365 Customer Engagement](../extend-client.md)  
   
  [Web Resources for Microsoft Dynamics 365 Customer Engagement](../web-resources.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

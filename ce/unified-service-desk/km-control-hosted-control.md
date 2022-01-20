@@ -1,14 +1,10 @@
 ---
 title: "KM Control (hosted control) in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to use the KM Control type of hosted control to display knowledge base articles in your agent application."
-ms.custom: 
-  - dyn365-USD
 ms.date: 12/31/2019
-ms.service: 
-  - dynamics-365-customerservice
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - customizer
@@ -16,15 +12,20 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # KM Control (hosted control)
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 Use the **KM Control** type of hosted control to display knowledge base articles in your agent application. Using the new hosted control, your service agents can search for articles, associate or disassociate an article with a case, copy a link to an article, and send it through email or in chat without having to switch applications. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use knowledge for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md) and [Configure Unified Service Desk to use model-driven apps](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)
 
 <a name="Create"></a>   
 ## Create a KM Control hosted control  
  While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **KM Control** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
 
- ![KM Control hosted control](../unified-service-desk/media/usd-kmcontrolhostedcontrol.png "KM Control hosted control")  
+ ![KM Control hosted control.](../unified-service-desk/media/usd-kmcontrolhostedcontrol.png "KM Control hosted control")  
 
  In the **New Hosted Control** screen:  
 
@@ -47,7 +48,7 @@ These are the predefined actions for this hosted control type.
 
 <a name="Associate"></a>   
 ### Associate  
- Associates a knowledge base record in the Common Data Service platform with the parent entity record in **KM Control**.  
+ Associates a knowledge base record in Microsoft Dataverse with the parent entity record in **KM Control**.  
 
 
 |     Parameter     |                                                                                                                                                                                                                                                                Description                                                                                                                                                                                                                                                                 |
@@ -56,7 +57,7 @@ These are the predefined actions for this hosted control type.
 |     recordid      |                                                                                                                                                                                                                               The ID of the parent entity record to associate the knowledge base record to.                                                                                                                                                                                                                                |
 |  articleuniqueid  |                                                                                                                                                                                                              The unique ID of the article in that you want to associate. For example: `articleuniqueid=7924/8112/Article/41`                                                                                                                                                                                                               |
 |   articletitle    |                                                                                                                                                                                                A string value representing article's title that you want to associate. For example: `articletitle=Diffused Sunlight and Weather Conditions`                                                                                                                                                                                                |
-| articlepublicurl  | The public URL of the article that you want to associate. If you are using native the Common Data Service platform knowledge base, the articles should have already been published to an external portal (select **Use an external portal** in the **Knowledge Base management Settings** dialog box in the Common Data Service platform) so that you can use the article URL in this parameter.<br /><br /> For example: `articlepublicurl=https://support.microsoft.com/kb/{kbnum}` |
+| articlepublicurl  | The public URL of the article that you want to associate. If you are using native Dataverse knowledge base, the articles should have already been published to an external portal (select **Use an external portal** in the **Knowledge Base management Settings** dialog box in Dataverse) so that you can use the article URL in this parameter.<br /><br /> For example: `articlepublicurl=https://support.microsoft.com/kb/{kbnum}` |
 
 <a name="Close"></a>   
 ### Close  
@@ -185,3 +186,6 @@ These are the predefined actions for this hosted control type.
  [Configure Unified Service Desk to use model-driven apps](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)   
  [Walkthrough 8: Use knowledge base within your agent application](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md)   
  [Hosted control types, action, and event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

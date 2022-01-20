@@ -3,7 +3,7 @@ title: "Sample: Enable document management for entities | MicrosoftDocs"
 description: ""
 keywords: 
 ms.date: 10/31/2017
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.topic: samples
 applies_to: 
@@ -12,15 +12,14 @@ ms.assetid: 3272e732-908d-461f-be4d-81a94bfc9afb
 author: KumarVivek
 ms.author: kvivek
 manager: jdaly
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 28
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Sample: Enable document management for entities
@@ -44,3 +43,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
  [Enable SharePoint Integration](enable-document-management-entities.md)   
  [Sample: Create, Retrieve, Update, and Delete a SharePoint Location Record](sample-create-retrieve-update-delete-sharepoint-location-record.md)   
  [Sample: Create, Retrieve, Update, and Delete (CRUD) a SharePoint Location Record](sample-create-retrieve-update-delete-sharepoint-location-record.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

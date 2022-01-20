@@ -3,8 +3,8 @@ title: "Entity attribute metadata messages (Developer Guide for Dynamics 365 Cus
 description: "An entity attribute is a container for a piece of data in an entity. In the developer guide (SDK) documentation the term “attribute” and “property” (class property) are often used interchangeably with the term “entity attribute.”"
 ms.custom: 
 ms.date: 05/20/2019
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Entity attribute metadata messages
 
@@ -45,5 +44,8 @@ An entity attribute is a container for a piece of data in an entity. In this dev
 ### See also  
  [Customize Entity Attribute Metadata](customize-entity-attribute-metadata.md)   
  [Create auto-number attribute](create-auto-number-attributes.md)   
- [Work with Attributes](org-service/work-attribute-metadata.md)   
+ [Work with Attributes](/powerapps/developer/data-platform/org-service/metadata-attributemetadata)   
  [Sample: Work with Attributes](org-service/sample-work-attribute-metadata.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

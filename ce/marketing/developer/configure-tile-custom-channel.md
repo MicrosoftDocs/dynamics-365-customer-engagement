@@ -1,34 +1,32 @@
 ---
-title: "Step 2: Configure the tile for custom channel (Dynamics 365 Marketing Developer Guide) | MicrosoftDocs"
+title: "Step 2: Configure the tile for custom channel (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Learn about how to configure a Tile for a custom channel in Dynamics 365 Marketing."
+ms.date: 08/18/2018
+ms.service: dynamics-365-marketing
 ms.custom: 
-ms.date: 04/01/2018
-ms.service: crm-online
-ms.technology: 
-  - marketing
-ms.topic: conceptual
-ms.assetid: db4ef53d-8a48-4b27-899f-8f4c788bc43c
-author: KumarVivek
-ms.author: kvivek
-manager: amyla
+  - dyn365-marketing
+ms.topic: how-to
+author: alfergus
+ms.author: alfergus
+manager: shellyha
 search.audienceType: 
   - developer
 search.app: 
   - D365CE
   - D365Mktg
 ---
+
 # Step 2: Configure the tile for custom channel
 
-
-Custom channel is exposed as a “tile” in the customer journey designer. You define the tile using 2 files: an XML file and a CSS file.
+Custom channel is exposed as a “tile” in the customer journey designer. You define the tile using two files: an XML file and a CSS file.
 
 ## Define the Tile XML file
 
 Define tile properties of the custom Tile in an XML file. The XML file name should be in the following format: **\<SolutionPublisherPrefix>_\<FileNamePrefix>CustomerJourneyDesignerTileConfig.xml**.
 
-For example, if you want to use **SpecialTile** as the name for your XML file then the file name will be the following assuming the [solution publisher prefix](/powerapps/maker/common-data-service/change-solution-publisher-prefix) in your Dynamics 365 Marketing instance is "sample": **sample_SpecialTileCustomerJourneyDesignerTileConfig.xml** 
+For example, if you want to use **SpecialTile** as the name for your XML file then the file name will be the following assuming the [solution publisher prefix](/powerapps/maker/common-data-service/change-solution-publisher-prefix) in your Dynamics 365 Marketing instance is "sample": **sample_SpecialTileCustomerJourneyDesignerTileConfig.xml**
 
-### Sample Tile XML file 
+### Sample Tile XML file
 
 The following is a sample Tile XML file. Description of the elements in the XML file is available later in this topic:
 
@@ -49,11 +47,9 @@ The following is a sample Tile XML file. Description of the elements in the XML 
     <EntitySetName>sample_specialmessages</EntitySetName>
     <TitleFieldName>sample_name</TitleFieldName>
     <ComplianceField>donotphone</ComplianceField>
-    <!-- optional -->
+    <!-- mandatory -->
     <!-- Lookup view id for your entity-->
     <LookupViewId>4112769C-F12D-4F63-B8C3-9068FECBB4E9</LookupViewId>
-    <!--Insights form id for your entity -->
-    <InsightsMainFormId>6370c410-6dd5-43f5-b1d1-7b757992d2de</InsightsMainFormId>
     <!--Quick view form id for your entity -->
     <QuickViewFormId>404BA31B-2C12-4233-8711-804B78DE1267</QuickViewFormId>
   </ChannelProperties>
@@ -147,30 +143,26 @@ The XML file has the following elements:
     </tr>
     <tr>
     <td>ComplianceField</td>
-    <td>Contains a boolean attribute of the <a href="../../developer/entities/contact.md" data-raw-source="[Contact](/powerapps/developer/common-data-service/reference/entities/contact)">Contact</a> entity whose value determines whether an instance of the Custom Channel Activity (<b>msdyncrm_customerjourneycustomchannelactivity</b>) entity is created when the Contact record goes through a customer journey.<br/><br/>
+    <td>Contains a boolean attribute of the <a href="/dynamics365/customerengagement/on-premises/developer/entities/contact" data-raw-source="[Contact](/powerapps/developer/common-data-service/reference/entities/contact)">Contact</a> entity whose value determines whether an instance of the Custom Channel Activity (<b>msdyncrm_customerjourneycustomchannelactivity</b>) entity is created when the Contact record goes through a customer journey.<br/><br/>
     
-    For example, if you set the value of this element to <a href="https://docs.microsoft.com/powerapps/developer/common-data-service/reference/entities/contact#BKMK_DoNotPhone" data-raw-source="[donotphone](https://docs.microsoft.com/powerapps/developer/common-data-service/reference/entities/contact#BKMK_DoNotPhone)">donotphone</a>:<br/><br/>
+    For example, if you set the value of this element to <a href="/powerapps/developer/common-data-service/reference/entities/contact#BKMK_DoNotPhone" data-raw-source="[donotphone](/powerapps/developer/common-data-service/reference/entities/contact#BKMK_DoNotPhone)">donotphone</a>:<br/><br/>
 
     <code>&lt;ComplianceField&gt;donotphone&lt;/ComplianceField&gt;</code>
  
-    <br/><br/>The value of this attribute will be checked for a Contact record while going through a customer journey and an instance of the Custom Channel Activity entity will be created only if the value of the <a href="https://docs.microsoft.com/powerapps/developer/common-data-service/reference/entities/contact#BKMK_DoNotPhone" data-raw-source="[donotphone](https://docs.microsoft.com/powerapps/developer/common-data-service/reference/entities/contact#BKMK_DoNotPhone)">donotphone</a> attribute for the contact record is <b>false</b>.
+    <br/><br/>The value of this attribute will be checked for a Contact record while going through a customer journey and an instance of the Custom Channel Activity entity will be created only if the value of the <a href="/powerapps/developer/common-data-service/reference/entities/contact#BKMK_DoNotPhone" data-raw-source="[donotphone](/powerapps/developer/common-data-service/reference/entities/contact#BKMK_DoNotPhone)">donotphone</a> attribute for the contact record is <b>false</b>.
     </td>
     </tr>
     <tr>
     <td>LookupViewId</td>
-    <td>Lookup view ID for the custom entity. Optional.</td>
-    </tr>
-    <tr>
-    <td>InsightsMainFormId</td>
-    <td>The marketing-insights service form ID for the custom entity. Optional.</td>
+    <td>Lookup view ID for the custom entity.</td>
     </tr>
     <tr>
     <td>QuickViewFormId</td>
-    <td>Quick view form ID for the custom entity. Optional.</td>
+    <td>Quick view form ID for the custom entity.</td>
     </tr>
     </table>
 
-- **ResponseTypes**: Add information about the expected reponse types. The **id** property defines the name or the Id of a response type. The **Labels** element lets you specify localized labels for the response type. Use the **locId** property in the **Label** element to specify localized label names. For example:
+- **ResponseTypes**: Add information about the expected response types. The **id** property defines the name or the ID of a response type. The **Labels** element lets you specify localized labels for the response type. Use the **locId** property in the **Label** element to specify localized label names. For example:
 
     ```xml
     <ResponseTypes>
@@ -252,3 +244,6 @@ sample_SpecialTileCustomerJourneyDesignerTileConfig.xml so the example uses 'sam
 > [Step 3: Create a workflow or plug-in to implement your custom logic](create-workflow-plugin-custom-channel.md)
 
   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

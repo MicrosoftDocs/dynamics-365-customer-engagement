@@ -3,11 +3,11 @@ title: "Sample: Get report history limit | MicrosoftDocs"
 description: "This sample shows how to get report history limit"
 ms.custom: 
 ms.date: 01/28/2020
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 69763a0a-af67-48b8-adf2-470c1cdf6196
@@ -17,13 +17,11 @@ ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 
 # Get report history limit
 
-This sample shows how to get report history limits using the [GetReportHistoryLimitRequest](https://docs.microsoft.com/dotnet/api/microsoft.crm.sdk.messages.getreporthistorylimitrequest?view=dynamics-general-ce-9) message. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/GetReportHistoryLimit).
+This sample shows how to get report history limits using the [GetReportHistoryLimitRequest](/dotnet/api/microsoft.crm.sdk.messages.getreporthistorylimitrequest?view=dynamics-general-ce-9) message. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/GetReportHistoryLimit).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 
@@ -51,3 +49,5 @@ Checks for the current version of the org.
 ### Clean up
 
 No clean up is required for this sample.
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

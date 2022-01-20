@@ -23,7 +23,7 @@ search.app:
   - D365Outlook
 ---
 # Deploy Microsoft Dynamics 365 for Outlook by using Group Policy
-Group Policy provides an infrastructure for centralized configuration management of the operating system and applications, such as [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-full.md)], that run on the operating system. The Group Policy settings you create are contained in a Group Policy Object (GPO). To create and edit a GPO, use the Group Policy Management Console (GPMC). By using the GPMC to link a GPO to selected [!INCLUDE[pn_Active_Directory](../../includes/pn-active-directory.md)] sites, domains, and organizational units (OUs), you apply the policy settings in the GPO to the users and computers in those [!INCLUDE[pn_Active_Directory](../../includes/pn-active-directory.md)] objects. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Group Policy Overview](https://technet.microsoft.com/library/hh831791.aspx)  
+Group Policy provides an infrastructure for centralized configuration management of the operating system and applications, such as [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-full.md)], that run on the operating system. The Group Policy settings you create are contained in a Group Policy Object (GPO). To create and edit a GPO, use the Group Policy Management Console (GPMC). By using the GPMC to link a GPO to selected [!INCLUDE[pn_Active_Directory](../../includes/pn-active-directory.md)] sites, domains, and organizational units (OUs), you apply the policy settings in the GPO to the users and computers in those [!INCLUDE[pn_Active_Directory](../../includes/pn-active-directory.md)] objects. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Group Policy Overview](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831791(v=ws.11))  
   
  Using Group Policy, you can deploy [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. This topic shows you how to perform a Group Policy-based software deployment that publishes [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] making it available for users to install from [!INCLUDE[pn_Control_Panel](../../includes/pn-control-panel.md)]. When you publish software for users, you give them the opportunity to decide if and when they want to install it.  
   
@@ -56,7 +56,7 @@ Group Policy provides an infrastructure for centralized configuration management
   
       ```  
   
-   3. Consider using Microsoft Distributed File System (DFS) to help improve the security and availability of your distribution points. For more information about DFS, see [DFS Namespaces and DFS Replication Overview](https://technet.microsoft.com/library/jj127250.aspx). We recommend that you understand the DFS features before you configure your distribution point servers.  
+   3. Consider using Microsoft Distributed File System (DFS) to help improve the security and availability of your distribution points. For more information about DFS, see [DFS Namespaces and DFS Replication Overview](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11)). We recommend that you understand the DFS features before you configure your distribution point servers.  
   
 3. Create the Group Policy Object (GPO) and target the application to Dynamics 365 users. To do this, follow these steps:  
   
@@ -97,4 +97,7 @@ Group Policy provides an infrastructure for centralized configuration management
   
 ### See Also  
  [Install Microsoft Dynamics CRM 2015 for Outlook with roaming user profiles using Windows Server Remote Desktop Services](install-desktop-virtualization.md)   
- [Install or upgrade Language Packs for Microsoft Dynamics 365 apps](https://technet.microsoft.com/library/hh699674.aspx)
+ [Install or upgrade Language Packs for Microsoft Dynamics 365 apps](/previous-versions/dynamicscrm-2016/deployment-administrators-guide/hh699674(v=crm.8))
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

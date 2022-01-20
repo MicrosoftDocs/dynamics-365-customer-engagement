@@ -1,10 +1,9 @@
 ---
-title: "Get started with custom business app making in Power Apps | MicrosoftDocs"
-description: "Learn how you can get started building and customizing custom business apps"
-ms.custom: 
+title: "Begin customization of Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how to get started building and customizing business apps to more closely fit your organization’s industry, nomenclature, and unique business processes."
 ms.date: 12/04/2018
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -14,16 +13,16 @@ applies_to:
 author: Mattp123
 ms.assetid: d6bd269e-0000-44e9-b686-a6240a101ec7
 caps.latest.revision: 14
+ms.custom: intro-internal
 ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Get started with app making and customization
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [What are model-driven apps in Power Apps?](/powerapps/maker/model-driven-apps/model-driven-app-overview)
 
 You can tailor an app to more closely fit your organization’s industry, nomenclature, and unique business processes. You can implement many customizations without writing any code.  
   
@@ -76,3 +75,6 @@ You can tailor an app to more closely fit your organization’s industry, nomenc
  [Customization concepts](../customize/overview.md)  
  [Using solutions](../customize/use-solutions-for-your-customizations.md)  
  [Create a custom theme or brand](../customize/change-color-scheme-add-logo-match-organizations-brand.md)  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

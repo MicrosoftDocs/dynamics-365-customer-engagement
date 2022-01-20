@@ -2,9 +2,9 @@
 title: "Calculated and rollup attributes (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about common elements and characterstics, calculated attributes, rollup attributes, retrieve a calculated rollup field value immediately, and SourceTypeMasks enumeration."
 ms.custom: 
-ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.date: 11/12/2021
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Calculated and rollup attributes
@@ -64,13 +63,13 @@ search.app:
   
 |      Property       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Definition                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `FormulaDefinition` |                                                                                                                                                                                                                                                                                                                                                                                                                                                                   Contains the XAML definition of the formula used to perform the calculation or rollup. The only supported way to change this value is through the application formula editor.<br /><br /> For information about configuring the formulas for these attributes see the following topics in the customization guide: [Define rollup fields](https://technet.microsoft.com/library/dn832162.aspx) and [Define calculated fields](https://technet.microsoft.com/library/dn832103.aspx).                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| `FormulaDefinition` |                                                                                                                                                                                                                                                                                                                                                                                                                                                                   Contains the XAML definition of the formula used to perform the calculation or rollup. The only supported way to change this value is through the application formula editor.<br /><br /> For information about configuring the formulas for these attributes see the following topics in the customization guide: [Define rollup fields](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn832162(v=crm.8)) and [Define calculated fields](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn832103(v=crm.8)).                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |  `SourceTypeMask`   | The bitmask value of this read-only property describes the types of sources used in the formula of the calculated attribute or if the formula of a calculated or rollup attribute is not valid.<br /><br /> -   0: **Undefined**. The default value for simple and rollup attributes.<br />-   1: **Simple**. The calculated attribute refers to an attribute in the same record.<br />-   2: **Related**. The calculated attribute refers to an attribute in a related record.<br />-   4: `Logical`. The calculated attribute refers to an attribute in the same record which is actually stored in a different database table. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Logical attributes](introduction-to-entity-attributes.md#BKMK_LogicalAttributes)<br />-   8: `Calculated`. The calculated attribute refers to another calculated attribute.<br />-   16: `Rollup`. The calculated attribute refers a rollup attribute.<br />-   32: `Invalid`. The calculated or rollup field is invalid.<br />     Typically this would be where a field refers to an attribute that no longer exists. **Note:**  One or more of these conditions may be true for any calculated or rollup field. Because this is a bitmask value, you may find it useful to use the [SourceTypeMasks enumeration](calculated-rollup-attributes.md#BKMK_SourceTypeMasks) when performing bitwise operations. |
   
 <a name="BKMK_Calculated"></a>   
 
 ## Calculated attributes  
- Calculated attributes are calculated in real-time when they are retrieved. Calculated attributes can be composed using different data types. For example, an Integer calculated attribute may reference values from Decimal or Currency attributes. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define calculated fields](https://technet.microsoft.com/library/dn832103.aspx).  
+ Calculated attributes are calculated in real-time when they are retrieved. Calculated attributes can be composed using different data types. For example, an Integer calculated attribute may reference values from Decimal or Currency attributes. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define calculated fields](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn832103(v=crm.8)).  
   
  Calculated attribute values are available in the retrieve plug-in pipeline. Post image of entity record update or create contains the calculated attribute value in stage 40. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Event execution pipeline](/powerapps/developer/common-data-service/event-framework#event-execution-pipeline)  
   
@@ -86,11 +85,13 @@ search.app:
  Calculated attributes don’t have values when a user with [!INCLUDE[pn_crm_for_outlook_full](../includes/pn-crm-for-outlook-full.md)] is offline.  
   
  `MaxValue` and `MinValue` metadata properties can’t be set on calculated attributes  
+
+More information: [Additional limitations](#additional-limitations)
   
 <a name="BKMK_Rollup"></a>   
 
 ## Rollup attributes  
- Because rollup attributes persist in the database, they can be used for filtering or sorting just like regular attributes. Any kind of process or plug-in will use the most recently calculated value of the attribute. Rollup attribute values are calculated asynchronously by scheduled system jobs. Administrators set when a job is run or pause the job. By default, each attribute is updated hourly. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define rollup fields](https://docs.microsoft.com/dynamics365/customer-engagement/customize/define-rollup-fields).  
+ Because rollup attributes persist in the database, they can be used for filtering or sorting just like regular attributes. Any kind of process or plug-in will use the most recently calculated value of the attribute. Rollup attribute values are calculated asynchronously by scheduled system jobs. Administrators set when a job is run or pause the job. By default, each attribute is updated hourly. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define rollup fields](/dynamics365/customer-engagement/customize/define-rollup-fields).  
   
  When a rollup attribute is created or updated a **Mass Calculated Rollup Fields** job is scheduled to run in 12 hours. The 12-hour delay is intended to perform this resource intensive operation during a time that will affect users the least. After the job completes, the next time it is scheduled to run will be 10 years in the future. If there is a problem with the calculation, this will be reported with the system job. Locate the system job in **Settings** > **System Jobs** to find any errors with rollup fields.  
   
@@ -144,7 +145,9 @@ search.app:
   
  A rollup attribute formula can’t include records in many-to-many (N:N) relationships. It can only include records in one-to-many (1:N) relationships.  
   
- Rollup attribute formulas can’t use one-to-many (1:N) relationships with the `ActivityPointer` or `ActivityParty` entity.  
+Rollup attribute formulas can’t use one-to-many (1:N) relationships with the `ActivityPointer` or `ActivityParty` entity.
+
+More information: [Additional limitations](#additional-limitations)
   
 <a name="BKMK_SourceTypeMasks"></a>   
 ## SourceTypeMasks enumeration  
@@ -183,10 +186,27 @@ search.app:
     /// </summary>  
     Invalid = 32  
 }  
-```  
+```
+
+## Additional limitations
+
+These additional limitations apply to both rollup and calculated attributes.
+
+An active layer, within a solution, on a calculated field or rollup field cannot be removed using **Remove active customizations**. However active layer changes can be removed by following the below steps.
+
+1. Open **Solution Layers** of a field.
+
+1. Open the **Active Layer** and choose **Remove active customizations**. This will not remove the active layer but removes all changes in it.
+
+1. Open the field and navigate to the **Formula Designer** page using the **Edit**/**Modify** button next to the **Field Type** drop down.
+
+1. Make some change in the formula and save it. Update the formula back to the original one and save it. The system will regenerate the field with the latest definition and the field will work as expected.
   
 ### See also  
  [Video: Rollup and Calculated Fields in Dynamics 365 Customer Engagement (on-premises)](https://youtu.be/RoahCH1p3T8)   
  [Introduction to entity attributes](introduction-to-entity-attributes.md)   
- [Define calculated fields](https://technet.microsoft.com/library/dn832103.aspx)   
- [Define rollup fields](https://docs.microsoft.com/dynamics365/customer-engagement/customize/define-rollup-fields)
+ [Define calculated fields](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn832103(v=crm.8))   
+ [Define rollup fields](/dynamics365/customer-engagement/customize/define-rollup-fields)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,12 +1,13 @@
 ---
-title: "Create and edit entity relationships | MicrosoftDocs"
+title: "Types of entity relationships in Dynamics 365 Customer Engagement (on-premises)"
+description: "Entity relationships define how records can be related to each other in the database. Learn about the difference between the two main types of relationships."
 ms.custom: 
 ms.date: 11/09/2018
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: overview
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: c765b6d9-4d87-4c2d-aae2-5b1c3b664a71
@@ -16,12 +17,11 @@ manager: kvivek
 author: Mattp123
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
----
-# Create and edit relationships between entities 
 
- 
+---
+# Overview of entity relationships and types
+
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Entity relationships](/powerapps/maker/common-data-service/create-edit-entity-relationships) 
 
 Entity relationships define how records can be related to each other in the database. At the simplest level, adding a lookup field to an entity creates a new 1:N (one-to-many) relationship between the two entities and lets you put that lookup field in a form. With the lookup field, users can associate multiple “child” records of that entity to a single “parent” entity record.  
   
@@ -60,3 +60,6 @@ Entity relationships define how records can be related to each other in the data
  [Create and edit fields](../customize/create-edit-fields.md)   <br/>
  [Create and edit global option sets](../customize/create-edit-global-option-sets.md)   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

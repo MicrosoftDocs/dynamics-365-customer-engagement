@@ -1,19 +1,15 @@
 ---
-title: "Accessibility features and keyboard shortcuts (Dynamics 365 Marketing) | Microsoft Docs "
-description: "Provides an overview of accessibility features and keyboard shortcuts in Dynamics 365 Marketing"
-keywords: accessibility; keyboard shortcuts
+title: "Accessibility features and keyboard shortcuts (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Provides an overview of accessibility features and keyboard shortcuts in Dynamics 365 Marketing."
 ms.date: 08/16/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-a11y
   - dyn365-marketing
 ms.topic: article
-ms.assetid: f0dec7ab-009f-432a-8618-53708615aa6a
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -29,8 +25,8 @@ search.app:
 
 Dynamics 365 Marketing supports most (but not all) of the same keyboard shortcuts and accessibility features provided for other model-driven apps in Dynamics 365. For details, see the following help topics:
 
-- [Accessibility for people with disabilities](../basics/accessibility-people-with-disabilities.md)
-- [Keyboard shortcuts in Dynamics 365 applications](../basics/keyboard-shortcuts.md)
+- [Accessibility for people with disabilities](../customerengagement/on-premises/basics/accessibility-people-with-disabilities.md)
+- [Keyboard shortcuts in Dynamics 365 applications](../customerengagement/on-premises/basics/keyboard-shortcuts.md)
 
 > [!IMPORTANT]
 > If you're working on an iOS device and using an attached keyboard, then use option+tab to move between user-interface elements (such as links, buttons, and tabs). The standard keyboard navigation technique for this is to use tab alone, but because Dynamics 365 Marketing sometimes uses specialized HTML constructs to create its feature (especially for the content and pipeline designers), some buttons and links will be skipped if you use tab alone. But if you use option+tab, you'll be able to navigate to everything.
@@ -39,7 +35,7 @@ Dynamics 365 Marketing supports most (but not all) of the same keyboard shortcut
 
 Dynamics 365 Marketing provides advanced digital-content designers for creating, styling, and previewing the various types of digital content that you can produce and manage with the system. This section lists keyboard shortcuts and accessibility features that are available for working with the designers for marketing email messages, marketing pages, and marketing forms.
 
-![The designer toolbar and content area](media/designer-tools-ill.png "The designer toolbar and content area")
+![The designer toolbar and content area.](media/designer-tools-ill.png "The designer toolbar and content area")
 
 More information: [Design your digital content](design-digital-content.md)
 
@@ -86,7 +82,7 @@ More information: [Design your digital content](design-digital-content.md)
 
 When a text element is selected, you are able to enter and style text within that element. The keyboard shortcuts listed in the following subsections are active while you are working with a text element.
 
-![The text-element toolbar](media/text-block-toolbar.png "The text-element toolbar")
+![The text-element toolbar.](media/text-block-toolbar.png "The text-element toolbar")
 
 #### Navigating within a text element
 
@@ -154,7 +150,7 @@ When a text element is selected, you are able to enter and style text within tha
 
 Most of the standard navigation and selection keyboard commands also work when you are designing a customer journey or lead scoring model. In addition, some special assistance is provided to let you work with the tiles and arrange them on the canvas.
 
-![An example of a customer journey](media/customer-journey.png "An example of a customer journey")
+![An example of a customer journey.](media/customer-journey-full.png "An example of a customer journey")
 
 <a name="canvas-tabs"></a>
 
@@ -175,9 +171,8 @@ To navigate the side panel:
 1. Press space to open the **Add** menu.
 1. Use the arrow keys to select a tile type from the **Add** menu.
 1. Press space to choose the tile type currently selected in the **Add** menu.  
-    ![Add a tile from the toolbar](media/cj-add-menu-ill.png "Choose the type of tile you want to add")
+    ![Add a tile from the toolbar.](media/customer-journey-add-menu.png "Choose the type of tile you want to add")
 1. Use the arrow keys to select where you want to insert the new tile in the pipeline. Select a new-tile position to place the tile in a new position, or select an existing tile to place the tile as a child of that tile.  
-    ![Choose where to add the new tile](media/cj-add-location-ill.png "Choose where to add the new tile")
 1. Press space to place the tile in the selected position.
 
 ### Delete a tile
@@ -237,3 +232,6 @@ Most of the standard navigation and selection keyboard commands function as usua
 [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  
 [Customer journey tiles reference](customer-journey-tiles-reference.md)  
 [Design lead-scoring models](score-manage-leads.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

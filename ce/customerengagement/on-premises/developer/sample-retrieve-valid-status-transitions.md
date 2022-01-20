@@ -3,11 +3,11 @@ title: "Sample: Retrieve valid status transitions (Developer Guide for Dynamics 
 description: "The sample demonstrates how to retrieve valid state transitions regardless of whether custom state transitions have been defined for the entity."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: d367aa6d-36dc-4084-8625-50f515602504
@@ -17,8 +17,6 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 # Sample: Retrieve valid status transitions
 
@@ -55,7 +53,7 @@ In order to simulate the scenario described in [What this sample does](#what-thi
   
    When status reason transitions for the incident entity are configured in the following way:  
   
-   ![Example of status reason transitions for case](media/status-reason-transitions-example.PNG "Example of status reason transitions for case")  
+   ![Example of status reason transitions for case.](media/status-reason-transitions-example.PNG "Example of status reason transitions for case")  
   
    The valid state transitions are filtered and you will see the following representing all the valid transitions for each status option.  
   
@@ -169,3 +167,6 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 0  Active    3    Waiting for Details  
 ```  
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

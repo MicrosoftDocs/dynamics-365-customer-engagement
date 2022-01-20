@@ -3,8 +3,8 @@ title: "Walkthrough: Update a service endpoint imported from a solution (Develop
 description: "The walkthrough demonstrates updating a service endpoint imported from a solution."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -16,8 +16,7 @@ author: JimDaly
 ms.author: jdaly
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Walkthrough: Update a service endpoint imported from a solution
 
@@ -35,7 +34,7 @@ An extra step is required after importing into an organization a solution contai
   
 4. Select **Update**. You should see the following form with the fields already filled in.  
   
-   ![Update service endpoint SAS key value](media/sas-key.PNG "Update service endpoint SAS key value")  
+   ![Update service endpoint SAS key value.](media/sas-key.PNG "Update service endpoint SAS key value")  
   
 5. The **SAS Key** field is displayed with a value of "*******".  Replace that value with the correct SAS key value. You can obtain the SAS Key for your [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] messaging entity (queue, topic, etc.) from the [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)][classic portal](https://manage.windowsazure.com).  
   
@@ -43,4 +42,7 @@ An extra step is required after importing into an organization a solution contai
   
 ### See also  
  [Azure extensions for Dynamics 365 Customer Engagement (on-premises)](azure-extensions.md)   
- [Service Bus authentication and authorization](https://azure.microsoft.com/documentation/articles/service-bus-authentication-and-authorization/)
+ [Service Bus authentication and authorization](/azure/service-bus-messaging/service-bus-authentication-and-authorization)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

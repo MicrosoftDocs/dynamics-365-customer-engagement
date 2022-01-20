@@ -3,8 +3,8 @@ title: "Ribbon types schema (Developer Guide for Dynamics 365 Customer Engagemen
 description: "The following is the schema definition for the ribbon types portion of an import/export customization file. It is included from the Ribbon Core Schema."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Ribbon types schema
 
@@ -867,3 +866,6 @@ For more information, see [Package and Distribute Extensions with Microsoft Dyna
  [Ribbon WSS Schema](ribbon-wss-schema.md)   
  [Schemas Used in Microsoft Dynamics 365 Customer Engagement](../schemas-used-dynamics-365.md)   
  [Customization XML Reference](../customization-xml-reference.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

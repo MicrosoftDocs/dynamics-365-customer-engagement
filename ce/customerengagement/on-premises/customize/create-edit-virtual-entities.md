@@ -1,10 +1,10 @@
 ---
-title: "Create and edit virtual entities with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to create virtual entities"
+title: "Create a virtual entity in Dynamics 365 Customer Engagement (on-premises)"
+description: "A virtual entity is a custom entity with fields containing data from an external source. Learn about their benefits and the steps for creating them."
 ms.custom: 
 ms.date: 11/09/2018
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,12 +17,11 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
-# Create and edit virtual entities that contain data from an external data source
+# Create or edit a virtual entity with data from an external source
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Create and edit virtual entities that contain data from an external data source](/powerapps/maker/common-data-service/create-edit-virtual-entities)
 
 A virtual entity is a custom entity in Dynamics 365 Customer Engagement (on-premises) that has fields containing data from an external data source. Virtual entities appear in your app to users as regular entity records, but contain data that is sourced from an external database, such as an [!INCLUDE[pn_Azure_SQL_Database_long](../includes/pn-azure-sql-database-long.md)]. Records based on virtual entities are available in all clients including custom clients developed using the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)].  
   
@@ -34,7 +33,7 @@ Dynamics 365 Customer Engagement (on-premises) includes an OData Data Provider t
   
 Alternatively, developers can build their own data providers. Data providers are installed in an environment as a solution. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get started with virtual entities](../developer/virtual-entities/get-started-ve.md)
   
- ![Virtual entity diagram](../customize/media/virtual-entity-diagram.png "Virtual entity diagram")  
+ ![Virtual entity diagram.](../customize/media/virtual-entity-diagram.png "Virtual entity diagram")  
   
 <a name="benefits"></a>   
 ## Virtual entity benefits  
@@ -55,7 +54,7 @@ Alternatively, developers can build their own data providers. Data providers are
   
 3. On the Select  Data Provider dialog box, select from the following data sources, and then select **OK**.  
     
-   - *Custom data provider*. If you've imported a data  provider plug-in, the data provider will appear here. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get started with virtual entities](https://docs.microsoft.com/dynamics365/#pivot=developer&panel=developer_sales)  
+   - *Custom data provider*. If you've imported a data  provider plug-in, the data provider will appear here. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get started with virtual entities](/dynamics365/?panel=developer_sales#pivot=developer)  
     
    - **OData v4 Data Provider**. Dynamics 365 Customer Engagement (on-premises) includes an OData Data Provider that can be used with OData v4 web services. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [OData v4 Data Provider configuration, requirements, and best practices](virtual-entity-odata-provider-requirements.md)
   
@@ -65,7 +64,7 @@ You create fields for a Data Source in the same way as any other entity. For dat
 > [!NOTE]
 > The Data Source Secret attribute is only available with fields added to a Data Source form.
 
-![Data source secret attribute](../customize/media/datasourcesecret.png)
+![Data source secret attribute.](../customize/media/datasourcesecret.png)
   
 <a name="createVirtualEntity"></a>   
 ## Create a virtual entity  
@@ -80,7 +79,7 @@ You create fields for a Data Source in the same way as any other entity. For dat
   
 3. On the **General** tab of the **Entity Definition**, select **Virtual Entity**, and then in the **Data Source** drop down list, select the data source that you want.  
   
-   ![Virtual Entity option on entity definition](../customize/media/virtual-entity-click-option.png "Virtual Entity option on entity definition")  
+   ![Virtual Entity option on entity definition.](../customize/media/virtual-entity-click-option.png "Virtual Entity option on entity definition")  
   
 4. On the Entity Definition, complete the following required fields.  
   
@@ -90,7 +89,7 @@ You create fields for a Data Source in the same way as any other entity. For dat
   
      Here's an example of a virtual entity named *Movie* that uses a Azure Cosmos DB data provider to access document files.  
   
-   ![Virtual entity definition using the Azure Cosmos DB data provider](../customize/media/virtual-entity-definition.PNG "Virtual entity definition using the Azure Cosmos DB data provider")  
+   ![Virtual entity definition using the Azure Cosmos DB data provider.](../customize/media/virtual-entity-definition.PNG "Virtual entity definition using the Azure Cosmos DB data provider")  
   
    > [!IMPORTANT]
    > Several options, such as Access Teams, Queues, and Quick Create,  aren't available with virtual entities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Considerations when you use virtual entities](#considerations)  
@@ -139,7 +138,7 @@ You create fields for a Data Source in the same way as any other entity. For dat
   
 - Virtual entities are organization owned and don't support the row-level Commond Data Service for Apps security concepts. We recommend that you implement your own security model for the external data source.  
   
-- We recommend that you target a single data source when you use virtual entities in Advanced Finds. For example, creating an  Advanced Find that ultimately creates a join between the Common Data Service native data and the virtual entity external data isn't supported.  
+- We recommend that you target a single data source when you use virtual entities in Advanced Finds. For example, creating an  Advanced Find that ultimately creates a join between the Dataverse native data and the virtual entity external data isn't supported.  
    
 - Field metadata properties that validate on update don’t apply to virtual entities. For example, a Whole Number field on a virtual entity field may be set to have a minimum value of zero. However, since the value is coming from an external data source, a query will return values less than zero when retrieved from a virtual entity.  The minimum value property is not implied in the query.  You would still need to filter the values to be greater than 0 if that’s what is desired.
 
@@ -150,3 +149,6 @@ You create fields for a Data Source in the same way as any other entity. For dat
 [OData v4 Data Provider requirements and best practices](virtual-entity-odata-provider-requirements.md)</br> 
 [Create and edit entities](../customize/create-edit-entities.md)</br>
 [Create and edit fields](../customize/create-edit-fields.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

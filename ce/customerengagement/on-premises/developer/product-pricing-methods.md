@@ -3,8 +3,8 @@ title: "Product pricing methods (Developer Guide for Dynamics 365 Customer Engag
 description: "Use the ProductPriceLevel.PricingMethodCode attribute to determine product prices."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -26,8 +26,7 @@ ms.author: kvivek
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Product pricing methods
 
@@ -56,3 +55,6 @@ Dynamics 365 Customer Engagement (on-premises) uses the `ProductPriceLevel.Prici
  [ProductPriceLevel Entity](entities/productpricelevel.md)   
  [Product Entity](entities/product.md)   
  [Product Catalog Entities](product-catalog-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

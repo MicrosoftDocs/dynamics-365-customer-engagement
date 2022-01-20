@@ -1,18 +1,14 @@
 ---
-title: "User Guide (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Contains topics that describe how to do common marketing tasks in Dynamics 365 Marketing"
-keywords: user guide
+title: "User guide (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Contains topics that describe how to do common marketing tasks in Dynamics 365 Marketing."
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
-ms.topic: get-started-article
-ms.assetid: 693371ae-c2a0-496c-900e-c1f96416298b
+ms.topic: hub-page
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -22,7 +18,7 @@ search.app:
   - D365Mktg
 ---
 
-# User Guide (Marketing)
+# Marketing user guide
 
 <table>
 
@@ -46,7 +42,7 @@ search.app:
 <li><a href="create-marketing-email.md" data-raw-source="[Create a marketing email and go live](create-marketing-email.md)">Create a marketing email and go live</a></li>
 <li><a href="create-simple-customer-journey.md" data-raw-source="[Create a simple customer journey with email messaging](create-simple-customer-journey.md)">Create a simple customer journey with email messaging</a></li>
 <li><a href="create-landing-page.md" data-raw-source="[Create a landing page with a form](create-landing-page.md)">Create a landing page with a form</a></li>
-<li><a href="create-interactive-customer-journey.md" data-raw-source="[Create an interactive customer journey with triggers and signup](create-interactive-customer-journey.md)">Create an interactive customer journey with triggers and signup</a></li>
+<li><a href="create-interactive-customer-journey.md" data-raw-source="[Create an interactive customer journey with conditions and signup](create-interactive-customer-journey.md)">Create an interactive customer journey with conditions and signup</a></li>
 <li><a href="set-up-lead-scoring.md" data-raw-source="[Set up automatic lead generation and scoring](set-up-lead-scoring.md)">Set up automatic lead generation and scoring</a></li>
 <li><a href="set-up-subscription-center.md" data-raw-source="[Set up subscription lists and subscription centers](set-up-subscription-center.md)">Set up subscription lists and subscription centers</a></li>
 <li><a href="generate-activities-from-customer-journey.md" data-raw-source="[Generate activities from a customer journey](generate-activities-from-customer-journey.md)">Generate activities from a customer journey</a></li>
@@ -60,7 +56,7 @@ search.app:
 <li><a href="design-digital-content.md" data-raw-source="[Design your digital content](design-digital-content.md)">Design your digital content</a></li>
 <li><a href="content-blocks-reference.md" data-raw-source="[Design elements reference](content-blocks-reference.md)">Design elements reference</a></li>
 <li><a href="upload-images-files.md" data-raw-source="[Upload and use images and files](upload-images-files.md)">Upload and use images and files</a></li>
-<li><a href="prepare-marketing-emails.md" data-raw-source="[email-preview.md](prepare-marketing-emails.md)">email-preview.md</a></li>
+<li><a href="prepare-marketing-emails.md" data-raw-source="[Email marketing overview](prepare-marketing-emails.md)">Email marketing overview</a></li>
 <li><a href="dynamic-email-content.md" data-raw-source="[Add dynamic content to email messages](dynamic-email-content.md)">Add dynamic content to email messages</a></li>
 <li><a href="create-deploy-marketing-pages.md" data-raw-source="[Create and deploy marketing pages](create-deploy-marketing-pages.md)">Create and deploy marketing pages</a></li>
 <li><a href="embed-forms.md" data-raw-source="[Integrate with landing pages on external websites](embed-forms.md)">Integrate with landing pages on external websites</a></li><li><a href="email-templates.md" data-raw-source="[Work with email, page, and form templates](email-templates.md)">Work with email, page, and form templates</a></li>
@@ -109,3 +105,6 @@ search.app:
 
 </td></tr>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

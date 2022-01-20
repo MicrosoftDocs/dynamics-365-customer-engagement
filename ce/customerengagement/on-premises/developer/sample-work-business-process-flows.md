@@ -3,8 +3,8 @@ title: "Sample: Work with business process flows (Developer Guide for Dynamics 3
 description: "The sample demonstrates how to programmatically work with business process flows such as retrieving the business process flow instances for an entity record, retrieving active path for a business process flow instance and its process stages, and changing the active stage."
 ms.custom: 
 ms.date: 04/05/2018
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -16,8 +16,7 @@ author: KumarVivek
 ms.author: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Sample: Work with business process flows
@@ -58,7 +57,7 @@ This sample is available to download from [Sample: Work with business process fl
 
      Here is the output of the sample:  
 
-    ![Sample output](media/work-with-bpf-sample-output.png "Sample output")  
+    ![Sample output.](media/work-with-bpf-sample-output.png "Sample output")  
 
 <a name="BKMK_runSample"></a>   
 ## Run the sample  
@@ -67,7 +66,7 @@ This sample is available to download from [Sample: Work with business process fl
 
 2. Locate the `WorkWithBPF.sln` file in your extracted folder, and open it in Visual Studio.  
 
-3. The sample project uses NuGet packages that must be restored before running the sample. Ensure that automatic restore of NuGet packages is enabled in Visual Studio. More information: [Enabling and disabling NuGet package restore](https://go.microsoft.com/fwlink/?linkid=846106)  
+3. The sample project uses NuGet packages that must be restored before running the sample. Ensure that automatic restore of NuGet packages is enabled in Visual Studio. More information: [Enabling and disabling NuGet package restore](/nuget/consume-packages/package-restore)  
 
     Alternatively, select **Project** > **Manage NuGet Packages**, and select **Restore** to manually restore the packages used in the sample.  
 
@@ -91,3 +90,6 @@ This sample is available to download from [Sample: Work with business process fl
 
 ### See also  
  [Model business process flows](model-business-process-flows.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

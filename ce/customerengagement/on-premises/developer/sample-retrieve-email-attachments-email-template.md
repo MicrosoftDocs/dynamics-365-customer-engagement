@@ -3,11 +3,11 @@ title: "Sample: Retrieve email attachments for an email template (Developer Guid
 description: "This sample shows how to retrieve email attachments associated with an email template by using the IOrganizationService.QueryBase) method"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
@@ -20,12 +20,10 @@ ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 # Sample: Retrieve email attachments for an email template
 
-This sample shows how to retrieve email attachments associated with an email template by using the [IOrganizationService.RetrieveMultiple](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.iorganizationservice.retrievemultiple?view=dynamics-general-ce-9) method. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/RetrieveEmailAttach).
+This sample shows how to retrieve email attachments associated with an email template by using the [IOrganizationService.RetrieveMultiple](/dotnet/api/microsoft.xrm.sdk.iorganizationservice.retrievemultiple?view=dynamics-general-ce-9) method. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/RetrieveEmailAttach).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 
@@ -50,3 +48,6 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 ### Demonstrate
 
 The `QueryExpression` retrieves all the attachments.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -3,8 +3,8 @@ title: "ISV configuration file schema | MicrosoftDocs"
 description: "The topic shows you the schema definition for the ISV Configuration section of an import/export customization file."
 ms.custom: 
 ms.date: 12/22/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # ISV configuration file schema
 
@@ -650,3 +649,6 @@ A Tool Bar that contains buttons
  [Schemas Used in Microsoft Dynamics 365 Customer Engagement](../schemas-used-dynamics-365.md)   
  [Schema Support for the Customization File](edit-customizations-xml-file-schema-validation.md)   
  <xref:Microsoft.Crm.Sdk.Messages.ExportSolutionRequest.ExportIsvConfig>
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,9 +1,10 @@
 ---
-title: "When would I want to use this check box? | MicrosoftDocs"
+title: "Change synchronizing organization in Dynamics 365 Customer Engagement (on-premises)"
+description: "To change the synchronizing organization, check the box, Sync items with Exchange from this org only, even if Exchange was set to sync with a different org."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -14,14 +15,14 @@ ms.assetid: e6794669-552e-4614-80f9-13add84f2fae
 caps.latest.revision: 20
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
 ---
-# When would I want to use this check box?
+# Use a different synchronizing organization
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
  A user can be a member of more than one Dynamics 365 Customer Engagement (on-premises) organization, but an [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] mailbox (email address) can only synchronize emails, appointments, contacts, and tasks with one organization, and a user that belongs to that organization can only synchronize emails, appointments, contacts, and tasks with one Exchange mailbox. Customer Engagement (on-premises) stores the organization ID (`OrgID`) for the synchronizing organization and the last time the user synced in Exchange.  
   
@@ -49,3 +50,6 @@ search.app:
   
 ### See also  
  [Set up server-side synchronization of email, appointments, contacts, and tasks](set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -3,8 +3,8 @@ title: "Create web resources and IFrame content for use with the Dynamics 365 Cu
 description: "Learn about creating web resources and IFrames to use with the Dynamics 365 Customer Engagement (on-premises) for mobile clients: iOS, Android, and Windows 10."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -16,8 +16,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Create web resources and IFrame content for use with the Dynamics 365 Customer Engagement (on-premises) for mobile clients
 
@@ -38,7 +37,7 @@ To use this feature, you can enable **Webpage (HTML)** and image types of web re
 
 Additionally, for these types of web resources, you can select the **Available Offline** check box to make a web resource available to users of mobile clients while working in the offline mode. The `WebResource.IsAvailableForMobileOffline` attribute stores this data.  
 
-![Enable a web resource for mobile clients](media/web-resource-enable-for-mobile.png)  
+![Enable a web resource for mobile clients.](media/web-resource-enable-for-mobile.png)  
 
 > [!NOTE]
 > If your **Webpage (HTML)** web resources reference on any other type of web resource which is not enabled for offline use, you must set those web resources as dependences for the HTML web resource so that they will be enabled for use offline. More information: [Web resource dependencies](web-resource-dependencies.md)
@@ -50,7 +49,7 @@ Additionally, for these types of web resources, you can select the **Available O
 When you add an IFrame or a web resource to a form or dashboard, you must select the **Enable for mobile** check box in the **Add Web Resource** dialog box. 
  This sets the `<ShowOnMobileClient>` parameter value for the control.  
   
- ![Select Enable for mobile check box](media/enable-mobile-web-resource-control.PNG)  
+ ![Select Enable for mobile check box.](media/enable-mobile-web-resource-control.PNG)  
   
 <a name="BKMK_KnownIssues"></a>
 
@@ -82,3 +81,6 @@ When you add an IFrame or a web resource to a form or dashboard, you must select
 [Sample: Import files as web resources](sample-import-files-web-resources.md)<br />
 [Sample: Web resource utility](sample-web-resource-utility.md)<br /> 
 [iFrame and web resource support in Dynamics 365 for tablets](../customize/iframe-web-resource-support-dynamics-365-phones-tablets.md)<br />
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

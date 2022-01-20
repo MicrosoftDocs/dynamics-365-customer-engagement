@@ -1,9 +1,10 @@
 ---
-title: "Create or edit a security role | MicrosoftDocs"
+title: "Create security role in Dynamics 365 Customer Engagement (on-premises)"
+description: "Follow these steps to create a new security role within Dynamics 365 Customer Engagement (on-premises). You can also edit the privileges of an existing role."
 ms.custom: 
 ms.date: 10/11/2018
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -14,14 +15,15 @@ ms.assetid: 6c72559d-28a6-49ae-bb88-7a3eea6db611
 caps.latest.revision: 33
 author: Mattp123
 ms.author: matp
-manager: brycho
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # Create or edit a security role to manage access
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 You can create new security roles to accommodate changes in your business requirements or you can edit the privileges associated with an existing security role.
   
@@ -118,7 +120,7 @@ You can create new security roles to accommodate changes in your business requir
  
  We've created a solution you can import that provides a security role with the required minimum privileges.
 
-Start by downloading the solution from the Download Center: [Common Data Service minimum privilege security role](https://download.microsoft.com/download/6/5/5/6552A30E-05F4-45F0-AEE3-9BB01E13118A/MinprivilegeSecRole_1_0_0_0.zip).
+Start by downloading the solution from the Download Center: [Dataverse minimum privilege security role](https://download.microsoft.com/download/6/5/5/6552A30E-05F4-45F0-AEE3-9BB01E13118A/MinprivilegeSecRole_1_0_0_0.zip).
 
 Then, follow the directions to import the solution: [Import, update, and export solutions](../customize/import-update-upgrade-solution.md).
 
@@ -159,3 +161,6 @@ When you import the solution, it creates the **min prv apps use** role which you
  [Security concepts for Dynamics 365 for Customer Engagement](../admin/security-concepts.md)   
  [Manage security, users and teams](../admin/manage-security-users-and-teams.md)   
  [Copy a security role](../admin/copy-security-role.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

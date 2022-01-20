@@ -1,9 +1,10 @@
 ---
-title: "Monitor and manage system jobs  | MicrosoftDocs"
+title: "Manage system jobs in Dynamics 365 Customer Engagement (on-premises)"
+description: "Use system jobs to perform tasks automatically. Monitor them to ensure they run and finish successfully. Pause, postpone, or cancel if there's a problem."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,9 +18,7 @@ ms.author: jimholtz
 manager: kvivek
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # Monitor and manage system jobs
 
@@ -52,3 +51,6 @@ Several Dynamics 365 Customer Engagement (on-premises) features use system jobs 
   
 > [!NOTE]
 >  You cannot make changes to the status of a system job that has been completed or canceled.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

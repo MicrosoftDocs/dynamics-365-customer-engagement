@@ -1,22 +1,14 @@
 ---
-title: "Quickstart: Build your own Connected Customer Service (IoT) solution | MicrosoftDocs"
+title: "Quickstart  Build your own Connected Customer Service (IoT) solution | MicrosoftDocs"
 description: "Learn how to build your own Connected Customer Service solution that integrates IoT data with Dynamics 365 Customer Service."
+ms.date: 04/03/2020
+ms.topic: article
 author: lalexms
 ms.author: lalexms
 manager: shujoshi
-ms.date: 02/03/2020
-ms.topic: article
-ms.service: 
-  - "dynamics-365-customerservice"
-ms.custom: 
-  - ""
-applies_to: 
-  - ""
 ---
 
 # Quickstart: Build your own Connected Customer Service (IoT) solution
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 This article shows you how to get up and running quickly to build your own Connected Customer Service solution that integrates IoT data with Dynamics 365 Customer Service.
 
@@ -40,17 +32,18 @@ Here are the 3 things you need to get started building your own IoT solution:
       
     New to IoT and need an Azure subscription? We've got you covered. [Sign up for an Azure free trial.](https://azure.microsoft.com/free/)
 
-- **Dynamics 365 Connected Field Service add-on**  
+- **Dynamics 365 Connected Customer Service add-on**  
 
     The free Connected Customer Service add-on automatically provisions a number of Azure IoT services with predefined demo data seamlessly on top of Dynamics 365 Customer Service. The add-on comes with demo data that enables you to see the capabilities IoT data brings to Customer Service, including command modeling, customer asset to device mapping, IoT alert – to – case workflow, and more.  
- 
-    Wondering where to get it? [Go to AppSource to install the Connected Field Service add-on.](https://appsource.microsoft.com/product/dynamics-365/mscrm.58666c7d-65ee-452d-8708-70b4d471d4c0?tab=Overview)
    
 ## Documentation resources
 
 [Learn about Azure IoT extensibility, analytics, and more](https://azure.microsoft.com/product-categories/iot/)  
  
-[See a component architecture diagram and learn which Azure IoT resources are included in a standard installation](https://msdn.microsoft.com/library/mt744253.aspx)  
+[See a component architecture diagram and learn which Azure IoT resources are included in a standard installation](/previous-versions/dynamicscrm-2016/developers-guide/mt744253(v=crm.8))  
  
-[Check out more Azure documentation resources](https://docs.microsoft.com/azure/iot-hub/)  
+[Check out more Azure documentation resources](/azure/iot-hub/)  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

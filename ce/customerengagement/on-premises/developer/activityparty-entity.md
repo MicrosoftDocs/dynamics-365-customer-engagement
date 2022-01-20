@@ -3,8 +3,8 @@ title: "ActivityParty entity (Developer Guide for Dynamics 365 Customer Engageme
 description: "An activity party represents a person or group associated with an activity. An activity can have multiple activity parties"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -24,8 +24,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # ActivityParty entity
 
@@ -79,3 +78,6 @@ An activity party represents a person or group associated with an activity. An a
  [Sample: Roll Up Goal Data for a Fiscal Period Against the Stretch Target Count](sample-rollup-goal-data-fiscal-period-stretch-target-count.md)   
  [Sample: Send an E-mail Using a Template](sample-send-email-template.md)   
  [Sample: Validate an Appointment](sample-validate-appointment.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

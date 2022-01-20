@@ -1,14 +1,10 @@
 ---
-title: "Use UII automation adapter to interact with external and web applications in Unified Service Desk | MicrosoftDocs"
+title: "Use UII automation adapter to interact with external applications | MicrosoftDocs"
 description: "Learn how to use UII automation adapter to interact with external and web applications in Unified Service Desk."
-ms.custom: 
-  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - customizer
@@ -16,6 +12,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Use UII automation adapter to interact with external and web applications in Unified Service Desk
 The [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-hosted-application-toolkit-hat.md)] facilitates the task of automating the user interface (UI) of a hosted application. It consists of the data driven adapters (DDAs), descriptive bindings and Windows workflows to automate the applications.  
@@ -26,3 +24,6 @@ The [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-hosted-applicati
  [Using the HAT Software Factory](../unified-service-desk/work-with-hat-software-factory.md)  
   
  [Using Data Driven Adapters](../unified-service-desk/use-data-driven-adapters-ddas.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

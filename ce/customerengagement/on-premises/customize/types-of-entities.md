@@ -1,10 +1,10 @@
 ---
-title: "Types of entities | MicrosoftDocs"
-description: "Understand the different types of entities"
+title: "Types of entities in Dynamics 365 Customer Engagement (on-premises)"
+description: "Before creating or editing entities, get to know the different types. Entities are divided based on ownership and whether they're activity entities."
 ms.custom: 
 ms.date: 01/10/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -18,12 +18,11 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Types of entities
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Types of tables](/powerapps/maker/data-platform/types-of-entities)
 
 <a name="BKMK_TypesOfEntities"></a>   
 
@@ -77,3 +76,6 @@ search.app:
 
 ### See also
 [Create or edit entities](create-edit-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

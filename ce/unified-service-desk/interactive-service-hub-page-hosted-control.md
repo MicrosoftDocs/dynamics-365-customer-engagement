@@ -1,14 +1,10 @@
 ---
 title: "Interactive Service Hub Page (Hosted Control) in Unified Service Desk | MicrosoftDocs"
-description: "The topic explains using the Interactive Service Hub Page hosted control type to host interactive service hub forms within Unified Service Desk to integrate the capabilities of both the applications. Interactive Service Hub provides an intuitive interface and displays all the vital information related to customers in one place that lets customer support agents focus on things that require attention."
-ms.custom: 
-  - dyn365-USD
+description: "Learn to create the Interactive Service Hub Page hosted control in Unified Service Desk. Also, find information about the predefined UII actions supported by it."
 ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - customizer
@@ -16,8 +12,13 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Interactive Service Hub Page (Hosted Control)
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 Use the **Interactive Service Hub Page** hosted control type to host  interactive service hub forms within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to integrate the capabilities of both the applications. Interactive Service Hub provides an intuitive interface and displays all the vital information related to customers in one place that lets customer support agents focus on things that require attention.  
 
  When an interactive service hub form  is loaded within the **Interactive Service Hub Page** hosted control, it will automatically scan the page for data, and automatically populate the replacement parameters in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. The **Interactive Service Hub Page** hosted control type exposes a number of predefined UII actions and events that are unique to handling of interactive service hub pages including list manipulation actions, and a find action for displaying a quick search or advanced search page.  
@@ -25,14 +26,14 @@ Use the **Interactive Service Hub Page** hosted control type to host  interactiv
  Unified Service Desk provides you with a sample package, **Interactive Service Hub**, which demonstrates how easily you can integrate the interactive service hub pages within Unified Service Desk. More information: [Unified Service sample applications](admin/sample-unified-service-desk-applications.md)  
 
 > [!NOTE]
->  You can convert your existing **CRM Page** type of hosted controls to the **Interactive Service Hub Page** type to display [interactive experience](https://go.microsoft.com/fwlink/?linkid=857057) forms used by the Interactive Service Hub application instead of the model-driven apps forms. However, there are some considerations in doing so. For more information, see [Blog: Support for Interaction Centric Forms within Unified Service Desk](https://blogs.msdn.microsoft.com/usd/2016/05/24/support-for-interaction-centric-forms-within-unified-service-desk/)  
+>  You can convert your existing **CRM Page** type of hosted controls to the **Interactive Service Hub Page** type to display [interactive experience](/previous-versions/dynamicscrm-2016/administering-dynamics-365/mt622060(v=crm.8)) forms used by the Interactive Service Hub application instead of the model-driven apps forms. However, there are some considerations in doing so. For more information, see [Blog: Support for Interaction Centric Forms within Unified Service Desk](/archive/blogs/usd/support-for-interaction-centric-forms-within-unified-service-desk)  
 
 <a name="Create"></a>   
 ## Create an Interactive Service Hub Page hosted control
   
  While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **Interactive Service Hub Page** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
 
- ![Interactive Service Hub Page hosted control](../unified-service-desk/media/interactive-service-hub-page-hosted-control.png "Interactive Service Hub Page hosted control")  
+ ![Interactive Service Hub Page hosted control.](../unified-service-desk/media/interactive-service-hub-page-hosted-control.png "Interactive Service Hub Page hosted control")  
 
  In the **New Hosted Control** screen:  
 
@@ -179,7 +180,7 @@ title=Sample Case
  This action takes the currently displayed URL, and sends it through the window navigation rules from the current hosted control as a popup.  
 
 ### RunScript  
- This action injects JavaScript into the main frame of the application. You should avoid using the Common Data Service platform client SDK calls with this action; instead, use the **RunXrmCommand** action.  
+ This action injects JavaScript into the main frame of the application. You should avoid using Microsoft Dataverse client SDK calls with this action; instead, use the **RunXrmCommand** action.  
 
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -187,7 +188,7 @@ title=Sample Case
 
 <a name="RunXrmCommand"></a>   
 ### RunXrmCommand  
- This action is used to inject the Common Data Service platform SDK JavaScript into the interactive service hub form.  
+ This action is used to inject Dataverse SDK JavaScript into the interactive service hub form.  
 
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -254,3 +255,6 @@ title=Sample Case
 ### See also  
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)   
  [CRM page (Hosted Control)](../unified-service-desk/crm-page-hosted-control.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

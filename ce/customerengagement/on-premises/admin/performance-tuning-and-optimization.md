@@ -1,12 +1,13 @@
 ---
-title: "Performance tuning and optimization | MicrosoftDocs"
+title: "Optimize performance in Dynamics 365 Customer Engagement (on-premises)"
+description: "In this overview, find information to help you plan and optimize application performance with Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
-ms.date: 10/01/2019
+ms.date: 09/12/2020
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: overview
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
   - Dynamics 365 for Customer Engagement  Version 9.x
@@ -17,11 +18,9 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
-# Performance tuning and optimization
+# Performance optimization and tuning
 
 Use this information to help you plan and optimize application performance with Dynamics 365 Customer Engagement (on-premises).  
 
@@ -30,7 +29,7 @@ We recommend that you not run operations that require intensive database transac
 Operations that require intensive database transactions examples:
 - Enabling one or more language packs
 - Solution import, upgrade, delete, or export
-- Install or upgrade apps from [!INCLUDE [pn-microsoft-appsource](../includes/pn-microsoft-appsource.md)] or the [!INCLUDE [pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] 
+- Install or upgrade apps from [!INCLUDE [pn-microsoft-appsource](../includes/pn-microsoft-appsource.md)]
 - Publishing customizations
 - Large bulk record operations, such as a business unit change when the business unit has a very large number of records associated
 
@@ -38,3 +37,6 @@ Operations that require intensive database transactions examples:
 [Verify network capacity and throughput for clients](verify-network-capacity-throughput-clients.md) <br />
 [Key preparation and configuration tasks](key-preparation-and-configuration-tasks.md) <br />
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

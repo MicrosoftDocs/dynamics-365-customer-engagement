@@ -3,11 +3,11 @@ title: "Sample: Associate a security role to a team | MicrosoftDocs"
 description: "The sample shows how to assign a security role to a team by using the AssignRequest message."
 ms.custom: 
 ms.date: 01/08/2020
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
@@ -21,12 +21,10 @@ ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 # Sample: Associate a security role to a team
 
-This sample shows how to assign a security role to a team by using the [AssignRequest](https://docs.microsoft.com/dotnet/api/microsoft.crm.sdk.messages.assignrequest?view=dynamics-general-ce-9) message. Note that this example does not take into consideration that a team or user can only be assigned a role from its business unit. The role to be assigned is the first from the collection that is returned by the RetrieveMultiple method. If that record is from a business unit that is different from the requesting team, the assignment fails.
+This sample shows how to assign a security role to a team by using the [AssignRequest](/dotnet/api/microsoft.crm.sdk.messages.assignrequest?view=dynamics-general-ce-9) message. Note that this example does not take into consideration that a team or user can only be assigned a role from its business unit. The role to be assigned is the first from the collection that is returned by the RetrieveMultiple method. If that record is from a business unit that is different from the requesting team, the assignment fails.
 
 You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/AssociateSecurityRoleToTeam).
 
@@ -38,7 +36,7 @@ You can download the sample from [here](https://github.com/microsoft/PowerApps-S
 
 ## What this sample does
 
-The [AssignRequest](https://docs.microsoft.com/dotnet/api/microsoft.crm.sdk.messages.assignrequest?view=dynamics-general-ce-9) message is intended to be used in a scenario where it contains data that is needed to assign the specified record to a new owner (user or team) by changing the OwnerId attribute of the record.
+The [AssignRequest](/dotnet/api/microsoft.crm.sdk.messages.assignrequest?view=dynamics-general-ce-9) message is intended to be used in a scenario where it contains data that is needed to assign the specified record to a new owner (user or team) by changing the OwnerId attribute of the record.
 
 ## How this sample works
 
@@ -51,9 +49,12 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 
 ### Demonstrate
 
-1. The `query` method retrieves a role from Common Data Service.
+1. The `query` method retrieves a role from Dataverse.
 2. The `Associate` message assigns the role to a team.
 
 ### Clean up
 
 Display an option to delete the sample data in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -3,13 +3,12 @@
   items:
   - name: "Choose between version 1.0 and version 2.0"
     href: choose-between-versions.md    
-  - name: "Channel Integration Framework version 1.0"
+  - name: "Dynamics 365 Channel Integration Framework version 1.0"
     href: overview-channel-integration-framework.md
-  - name: "Channel Integration Framework version 2.0"
+  - name: "Dynamics 365 Channel Integration Framework version 2.0"
     href: v2/overview-channel-integration-framework.md
   - name: "What's new"
     href: whats-new-channel-integration-framework.md
-    
   - name: Version 1.0
     items:
     - name: "System requirements"
@@ -18,7 +17,7 @@
       href: architecture-overview-channel-integration-framework.md
     - name: Download
       items:
-      - name: "Get Channel Integration Framework"
+      - name: "Get Dynamics 365 Channel Integration Framework"
         href: get-channel-integration-framework.md
       - name: "Sample softphone integration" 
         href: sample-softphone-integration.md
@@ -30,7 +29,7 @@
         href: enable-outbound-communication-clicktoact.md
       - name: "Add Channel Integration Framework solution as a dependent solution"
         href: add-cif-solution-dependent-solution.md   
-      - name: "Authenticate channel users to the channel (widget)"
+      - name: "Authenticate channel users to the channel"
         href: authenticate-channel-users.md
       - name: "Pass Dynamics 365 URL to widget library"
         href: pass-url-widget-library.md
@@ -89,16 +88,18 @@
       - name: "Client-side events"
         href: reference/client-side-events.md
         items:
-        - name: "onClickToAct"
+        - name: "onclicktoact"
           href: reference/events/onclicktoact.md
-        - name: "onModeChanged"
+        - name: "onmodechanged"
           href: reference/events/onmodechanged.md
-        - name: "onPageNavigate"
+        - name: "onpagenavigate"
           href: reference/events/onpagenavigate.md
-        - name: "onSendKBArticle"
+        - name: "onsendkbarticle"
           href: reference/events/onsendkbarticle.md
-        - name: "onSizeChanged"
+        - name: "onsizechanged"
           href: reference/events/onsizechanged.md
+        - name: "CIFInitDone"
+          href: reference/events/cifinitdone.md
       - name: Entity reference
         items:
         - name: "msdyn_ciprovider"
@@ -122,19 +123,19 @@
       href: v2/architecture-overview-channel-integration-framework-v2.md
     - name: Download
       items:
-      - name: "Get Channel Integration Framework"
+      - name: "Get Dynamics 365 Channel Integration Framework"
         href: v2/get-channel-integration-framework.md
       - name: "Sample softphone integration"
         href: v2/sample-softphone-integration-v2.md
     - name: How-to
       items:
       - name: "Configure channel provider for your Dynamics 365 organization"
-        href: v2/configure-channel-provider-channel-integration-framework.md
+        href: v2/configure-channel-provider-app-profile-manager.md
       - name: "Enable outbound communication (ClickToAct)"
         href: v2/enable-outbound-communication-clicktoact.md
       - name: "Add Channel Integration Framework solution as a dependent solution"
         href: v2/add-cif-solution-dependent-solution.md   
-      - name: "Authenticate channel users to the channel (widget)"
+      - name: "Authenticate channel users to the channel"
         href: v2/authenticate-channel-users.md
       - name: "Pass Dynamics 365 URL to widget library"
         href: v2/pass-url-widget-library.md
@@ -144,6 +145,8 @@
         href: v2/support-multiple-providers.md
       - name: "Modes for communication widget"
         href: v2/modes-communication-widget.md
+      - name: "Migrate third-party channel configuration data"
+        href: v2/migrate-config-data.md        
       - name: Templates
         items:
         - name: "Overview of templates"
@@ -240,6 +243,12 @@
             href: v2/reference/microsoft-ciframework/refreshtab.md
           - name: "setTabTitle"
             href: v2/reference/microsoft-ciframework/settabtitle.md
+        - name: "Session indicator APIs"
+          items:
+          - name: "notifyKPIBreach"
+            href: v2/reference/microsoft-ciframework/notifyKPIBreach.md
+          - name: "notifyNewActivity"
+            href: v2/reference/microsoft-ciframework/notifyNewActivity.md
         - name: "Analytics APIs"
           items:
           - name: "updateConversation"
@@ -249,24 +258,28 @@
       - name: "Client-side events"
         href: reference/client-side-events.md
         items:
-        - name: "onClickToAct"
+        - name: "onclicktoact"
           href: v2/reference/events/onclicktoact.md
-        - name: "onModeChanged"
+        - name: "onmodechanged"
           href: v2/reference/events/onmodechanged.md
-        - name: "onPageNavigate"
+        - name: "onpagenavigate"
           href: v2/reference/events/onpagenavigate.md
-        - name: "onSendKBArticle"
+        - name: "onsendkbarticle"
           href: v2/reference/events/onsendkbarticle.md
-        - name: "onSizeChanged"
+        - name: "onsizechanged"
           href: v2/reference/events/onsizechanged.md
         - name: "onSessionSwitched"
           href: v2/reference/events/onSessionSwitched.md
         - name: "onSessionClosed"
           href: v2/reference/events/onSessionClosed.md
+        - name: "CIFInitDone"
+          href: v2/reference/events/cifinitdone.md
       - name: Entity reference
         items:
-        - name: "msdyn_ciprovider"
-          href: v2/reference/entities-attributes/msdyn-ciprovider.md
+        - name: "msdyn_appconfiguration"
+          href: v2/reference/entities-attributes/msdyn_appconfiguration.md
+        - name: "msdyn_channelprovider"
+          href: v2/reference/entities-attributes/msdyn_channelprovider.md
         - name: "msdyn_conversationdata"
           href: v2/reference/entities-attributes/msdyn_conversationdata.md
         - name: "msdyn_kpieventdata"
@@ -274,18 +287,28 @@
         - name: "msdyn_kpieventdefinition"
           href: v2/reference/entities-attributes/msdyn_kpieventdefinition.md
         - name: "msdyn_sessiondata"
-          href: reference/entities-attributes/msdyn_sessiondata.md
+          href: v2/reference/entities-attributes/msdyn_sessiondata.md
+        - name: "msdyn_notificationfield"
+          href: v2/reference/entities-attributes/msdyn_notificationfield.md
+        - name: "msdyn_notificationtemplate"
+          href: v2/reference/entities-attributes/msdyn_notificationtemplate.md
+        - name: "msdyn_sessiontemplate"
+          href: v2/reference/entities-attributes/msdyn_sessiontemplate.md
+        - name: "msdyn_applicationtabtemplate"
+          href: v2/reference/entities-attributes/msdyn_applicationtabtemplate.md
+        - name: "msdyn_templateparameter"
+          href: v2/reference/entities-attributes/msdyn_templateparameter.md
         - name: "msdyn_sessionparticipantdata"
           href: v2/reference/entities-attributes/msdyn_sessionparticipantdata.md
 
-  - name: "Known issues"
-    href: known-issues.md
+  - name: Known issues in Dynamics 365 Channel Integration Framework
+    href: https://go.microsoft.com/fwlink/p/?linkid=2171869
   - name: "FAQs"
     href: faq-channel-integration-framework.md
 
 - name: Dynamics 365 Customer Service
-  href: https://docs.microsoft.com/dynamics365/customer-service/help-hub
+  href: ../help-hub.md
 - name: Omnichannel for Customer Service Guide
-  href: https://docs.microsoft.com/dynamics365/omnichannel/omnichannel-customer-service-guide
+  href: ../introduction-omnichannel.md
 - name: Unified Service Desk Guide
-  href: https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk
+  href: ../../unified-service-desk/unified-service-desk.md

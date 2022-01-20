@@ -3,29 +3,27 @@ title: "Sample: Calculate Price plug-in (Developer Guide for Dynamics 365 Custom
 description: "Sample demonstrates how to write a plug-in that calculates the pricing of the opportunities, quotes, orders, and invoices based on your custom code."
 keywords: 
 ms.date: 10/31/2017
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 683204f7-570a-43ab-bf7e-a12d26cec214
 author: KumarVivek
 ms.author: kvivek
 manager: jdaly
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 12
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 
 # Sample: Calculate Price plug-in
 
-This sample code is for Dynamics 365 Customer Engagement(on-premises). Download the sample: [Work with custom price plug-in](https://msdn.microsoft.com/library/dn817877.aspx).
+This sample code is for Dynamics 365 Customer Engagement(on-premises). Download the sample: [Work with custom price plug-in](/previous-versions/dynamicscrm-2016/developers-guide/dn817877(v=crm.8)).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
@@ -53,3 +51,6 @@ This sample code is for Dynamics 365 Customer Engagement(on-premises). Download 
  [Use custom pricing for products](use-custom-pricing-products.md)   
  [Create and manage product families, products and bundles](create-manage-product-families-products-bundles-product-properties.md)   
  [Product catalog entities](product-catalog-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,8 +1,9 @@
 ---
 title: "Uninstall or repair a Dynamics 365 Language Pack | Microsoft Docs"
+description: Learn how to uninstall, change, or repair a language pack with Dynamics 365 Customer Engagement (on-premises) 
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: "crm-2016"
+ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -44,3 +45,6 @@ To perform [!INCLUDE[pn_Language_Pack_short](../includes/pn-language-pack-short.
  [Microsoft Dynamics 365 Uninstall, Repair, and Change Instructions](uninstall-repair-and-change-microsoft-dynamics-365.md)   </br>
  [Use the Command Prompt to Install Microsoft Dynamics 365](use-command-prompt-install-dynamics-365-server.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

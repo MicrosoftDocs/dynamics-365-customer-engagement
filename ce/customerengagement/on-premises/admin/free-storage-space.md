@@ -1,9 +1,10 @@
 ---
-title: "Free storage space  |  MicrosoftDocs"
+title: "Free up storage space in Dynamics 365 Customer Engagement (on-premises)"
+description: "Reduce the amount of storage space used by removing or deleting information. This page outlines 10 different methods for freeing up storage space."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -14,14 +15,14 @@ ms.assetid: 46c0d35c-5edd-4087-980d-035ec76ab211
 caps.latest.revision: 32
 author: jimholtz
 ms.author: jimholtz
-manager: kvivek
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
 ---
-# Free storage space
+# Free up storage space
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 These are ways to reduce the amount of storage space used by removing or deleting different types of information from Dynamics 365 Customer Engagement (on-premises). Use one or more of these methods to control your total data storage usage with Customer Engagement (on-premises). You can delete certain categories of data as the need arises, or you can set up bulk deletion jobs to reoccur at set intervals.  
   
@@ -171,7 +172,7 @@ These are ways to reduce the amount of storage space used by removing or deletin
   
 > [!WARNING]
 > - If you delete this data, notes and their associated attachments will no longer be available in Customer Engagement (on-premises).  
-> - If you are using Customer Engagement (on-premises) portals, all the resource files (CSS, JavaScript, image, etc.) are stored as attachments in the webfile entity. Deleting those can negatively impact your portal; therefore, do not remove webfile entity attachments. See [portals documentation](https://docs.microsoft.com/powerapps/maker/portals/faq#large-number-of-web-file-records) for data size maintenance information. 
+> - If you are using Customer Engagement (on-premises) portals, all the resource files (CSS, JavaScript, image, etc.) are stored as attachments in the webfile entity. Deleting those can negatively impact your portal; therefore, do not remove webfile entity attachments. See [portals documentation](/powerapps/maker/portals/faq#large-number-of-web-file-records) for data size maintenance information. 
   
 1. Choose **Advanced Find**.  
   
@@ -193,7 +194,7 @@ These are ways to reduce the amount of storage space used by removing or deletin
   
 > [!WARNING]
 > - If you delete this data, notes and their associated attachments will no longer be available in Customer Engagement (on-premises).  
-> - If you are using Customer Engagement (on-premises) portals, all the resource files (CSS, JavaScript, image, etc.) are stored as attachments in the webfile entity. Deleting those can negatively impact your portal; therefore, do not remove webfile entity attachments. See [portals documentation](https://docs.microsoft.com/powerapps/maker/portals/faq#large-number-of-web-file-records) for data size maintenance information.
+> - If you are using Customer Engagement (on-premises) portals, all the resource files (CSS, JavaScript, image, etc.) are stored as attachments in the webfile entity. Deleting those can negatively impact your portal; therefore, do not remove webfile entity attachments. See [portals documentation](/powerapps/maker/portals/faq#large-number-of-web-file-records) for data size maintenance information.
   
 1. [!INCLUDE[proc_settings_datamanagement](../includes/proc-settings-datamanagement.md)]  
   
@@ -346,3 +347,6 @@ These are ways to reduce the amount of storage space used by removing or deletin
  [Manage your data](../admin/manage-your-data.md)   
  [Data Encryption](../admin/data-encryption.md)   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

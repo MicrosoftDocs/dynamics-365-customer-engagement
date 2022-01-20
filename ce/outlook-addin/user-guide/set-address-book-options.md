@@ -54,7 +54,7 @@ With [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsof
   
    - **Match all items in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]**. Select this option if you want to sync all record types, including record types you don’t own.  
   
-5. If your address book is slow or if there are record types you want to exclude from your address book, under **Change the record types being synchronized to your Address Book**, choose the **Select or change the values for this field** button ![Ellipsis button](../media/ellipsis-button.gif "Ellipsis button").  
+5. If your address book is slow or if there are record types you want to exclude from your address book, under **Change the record types being synchronized to your Address Book**, choose the **Select or change the values for this field** button ![Ellipsis button.](../media/ellipsis-button.gif "Ellipsis button").  
   
 6. Add or remove record types, and then choose **OK**.  
   
@@ -64,3 +64,6 @@ With [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsof
  [Choose the records to synchronize between Dynamics 365 apps and Outlook or Exchange](choose-records-synchronize-exchange.md)   
  [Track Outlook contacts in Dynamics 365 for Outlook](track-outlook-contacts.md)   
  [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 apps and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

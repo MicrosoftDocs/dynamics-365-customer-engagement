@@ -3,8 +3,8 @@ title: "Use record-based security to control access to records (Developer Guide 
 description: "Provides record-based security to manage access rights to individual Customer Engagement records."
 ms.custom: 
 ms.date: 08/18/2018
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Use record-based security to control access to records
@@ -116,3 +115,6 @@ Record-based security in Dynamics 365 Customer Engagement (on-premises) applies 
  [Entity Relationship Behavior](../entity-relationship-behavior.md)   
  <xref:Microsoft.Crm.Sdk.Messages.AccessRights>   
  <xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

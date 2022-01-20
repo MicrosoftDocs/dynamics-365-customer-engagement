@@ -1,25 +1,25 @@
 ---
-title: "Configure close confirmation window to prevent accidental closure of Unified Service Desk | MicrosoftDocs"
-description: "Learn to configure the close confirmation window to prevent the accidental closure of Unified Service Desk."
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+title: "Configure close confirmation window in Unified Service Desk | MicrosoftDocs"
+description: "Learn how to configure the close confirmation window to prevent the accidental closure of Unified Service Desk."
 ms.date: 08/17/2018
-ms.service: 
-  - dynamics-365-customerservice
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 monikerRange: ">=dynamics-usd-4"
 ---
 
 # How to configure close confirmation window to prevent accidental closure of Unified Service Desk
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 ## Accidental closure of Unified Service Desk 
 
@@ -29,14 +29,14 @@ A key measure at contact centers is customer satisfaction (CSAT). Here, agents s
 
 To avoid the accidental closure of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], the close confirmation window displays a message asking you to confirm the closure before continuing.  
   
-  ![Close confirmation window in Unified Service Desk](../../unified-service-desk/media/usd-close-confirm-window.PNG "Close confirmation window in Unified Service Desk")
+  ![Close confirmation window in Unified Service Desk.](../../unified-service-desk/media/usd-close-confirm-window.PNG "Close confirmation window in Unified Service Desk")
 
 > [!NOTE]
 > By default, the close confirmation window is enabled. To disable the close confirmation window, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] administrator must configure the **HideConfirmationDialog** option on the **Options** page and set it to **true**.
 
 ## Enable/disable close confirmation window
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the down arrow next to Dynamics 365.
 
@@ -54,7 +54,7 @@ To avoid the accidental closure of [!INCLUDE[pn_unified_service_desk](../../incl
 
 9. Select **Save**.
 
-   ![Enable/disable HideConfirmationDialog option](../../unified-service-desk/unified-interface/media/crm-usd-hideconfirmationdialog-option.PNG "Enable/disable HideConfirmationDialog option")
+   ![Enable/disable HideConfirmationDialog option.](../../unified-service-desk/unified-interface/media/crm-usd-hideconfirmationdialog-option.PNG "Enable/disable HideConfirmationDialog option")
 
 ## Test the configuration of close confirmation window
 
@@ -65,8 +65,11 @@ To avoid the accidental closure of [!INCLUDE[pn_unified_service_desk](../../incl
 
 3. Choose **Yes** to close [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] or **No** to stay, save the changes, and continue working.
 
-![Close Confirmation window](../../unified-service-desk/media/usd-test-close-window.PNG "Close Confirmation window")
+![Close Confirmation window.](../../unified-service-desk/media/usd-test-close-window.PNG "Close Confirmation window")
 
 ## See also
 
 [Manage Options for Unified Service Desk](../../unified-service-desk/admin/manage-options-unified-service-desk.md) 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

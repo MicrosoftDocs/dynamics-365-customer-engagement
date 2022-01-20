@@ -5,9 +5,10 @@ ms.custom:
 ms.date: 01/02/2020
 ms.reviewer: 
 ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 0f70898c-c451-47e5-afc8-224e25f32c69
@@ -16,8 +17,6 @@ ms.author: kvivek
 manager: annbe
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 # Sample: Create and publish products
 
@@ -480,3 +479,6 @@ namespace Microsoft.Crm.Sdk.Samples
  [Create and manage product families, products and bundles](create-manage-product-families-products-bundles-product-properties.md)   
  [Publish, revise, revert, retire, and activate products (product lifecycle)](publish-revise-revert-retire-activate-products.md)   
  [Product catalog entities](product-catalog-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -3,8 +3,8 @@ title: "Define custom actions to modify the ribbon (Developer Guide for Dynamics
 description: "Learn about defining custom actions to modify the ribbon."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -21,8 +21,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Define custom actions to modify the ribbon
 
@@ -64,3 +63,6 @@ The default, an application command bar or ribbon is defined by [!INCLUDE[pn_dyn
  [Customize commands and the ribbon](customize-commands-ribbon.md)   
  [Pass Microsoft Dynamics 365 Customer Engagement data from a page as a parameter to Ribbon Actions](pass-dynamics-365-data-page-parameter-ribbon-actions.md)   
  [Define Scaling for Ribbon Elements](define-scaling-ribbon-elements.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -2,8 +2,8 @@
 title: "Web API Query Data Sample (Client-side JavaScript) | MicrosoftDocs"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: susikka
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -16,8 +16,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Web API Query Data Sample (Client-side JavaScript)
 
@@ -765,3 +764,6 @@ distinct=\"false\" page=\"3\" count=\"4\"> \
  [Web API Basic Operations Sample (Client-side JavaScript)](web-api-basic-operations-sample-client-side-javascript.md)   
  [Web API Conditional Operations Sample (Client-side JavaScript)](web-api-conditional-operations-sample-client-side-javascript.md)   
  [Web API Functions and Actions Sample (Client-side JavaScript)](web-api-functions-actions-sample-client-side-javascript.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

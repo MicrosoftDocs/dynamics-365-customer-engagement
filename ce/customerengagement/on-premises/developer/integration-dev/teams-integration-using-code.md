@@ -3,7 +3,7 @@ title: "Enable or disable Microsoft Teams Integration using code (Dynamics 365 C
 description: "Know how to programmatically enable or disable Microsoft Teams Integration for system and custom entities in Dynamics 365 Customer Engagement."
 ms.custom: 
 ms.date: 06/21/2019
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.topic: conceptual
 ms.assetid: f0a710ca-fc62-4190-b75f-d61d2db76ca2
 author: KumarVivek
@@ -11,8 +11,7 @@ ms.author: kvivek
 manager: annbe
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
  
 ---
 # Enable or disable Microsoft Teams Integration using code
@@ -87,7 +86,7 @@ The **msdyn_SetTeamsDocumentStatus** action returns the following value:
 **Request**
 
 ```http
-POST [Organization URI]/api/data/v9.0/msdyn_SetTeamsDocumentStatus
+POST [Organization URI]/api/data/v9.1/msdyn_SetTeamsDocumentStatus
 HTTP/1.1
 Accept: application/json
 Content-Type: application/json; charset=utf-8
@@ -107,7 +106,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; odata.metadata=minimal  
 OData-Version: 4.0
 {
-    "@odata.context": [Organization URI]/api/data/v9.0/$metadata#Microsoft.Dynamics.CRM.msdyn_SetTeamsDocumentStatusResponse",
+    "@odata.context": [Organization URI]/api/data/v9.1/$metadata#Microsoft.Dynamics.CRM.msdyn_SetTeamsDocumentStatusResponse",
     "PassedLogicalEntityNames": "[account,contact]",
     "FailedLogicalEntityNames": "[]",
     "OperationResult": true
@@ -119,3 +118,6 @@ OData-Version: 4.0
 
 [Integrate Dynamics 365 Customer Engagement (on-premises) with Microsoft Teams](/dynamics365/customer-engagement/basics/teams-integration)<br/>
 [Admins: Enable Microsoft Teams integration Preview features](/dynamics365/customer-engagement/basics/teams-install-app#for-dynamics-365-for-customer-engagement-admins-enable-microsoft-teams-integration-preview-features)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

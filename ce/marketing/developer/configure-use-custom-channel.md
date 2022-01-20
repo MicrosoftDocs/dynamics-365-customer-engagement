@@ -1,24 +1,21 @@
 ---
-title: "Configure and use custom channel (Dynamics 365 Marketing Developer Guide) | MicrosoftDocs"
+title: "Configure and use custom channel (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Provides information on how to install custom channel from AppSource to your Dynamics 365 Marketing instance."
-ms.custom: 
-  - dyn365-developer
-  - dyn365-marketing
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
-ms.technology: 
-  - marketing
-ms.topic: conceptual
-ms.assetid: 9dacec8b-7b41-4cc2-be2d-d30929627bfc
-author: KumarVivek
-ms.author: kvivek
-manager: kvivek
+ms.custom: 
+  - dyn365-marketing
+ms.topic: article
+author: alfergus
+ms.author: alfergus
+manager: shellyha
 search.audienceType: 
   - developer
 search.app: 
   - D365CE
   - D365Mktg
 ---
+
 # Configure and use custom channel
 
 This step is typically performed by administrators of your Dynamics 365 Marketing instance.
@@ -32,12 +29,15 @@ To configure a custom channel in your instance of Dynamics 365 Marketing, admini
 
 Installing a custom channel installs a [managed solution](/powerapps/developer/common-data-service/introduction-solutions#managed-and-unmanaged-solutions) for the custom channel in your instance. After the custom channel is installed in your instance, users will see the new custom channel tile in their customer journey designer when they create a customer journey.
 
-![Custom Content tiles](../media/marketing-custom-channel-tile.png)
+![Custom Content tiles.](../media/marketing-custom-channel-tile.png)
 
 For information about creating a customer journey, see the following topics in the Marketing User Guide:
 - [Create a simple customer journey with email messaging](../../marketing/create-simple-customer-journey.md)
-- [Create an interactive customer journey with triggers and signup](../../marketing/create-interactive-customer-journey.md)
+- [Create an interactive customer journey with conditions and signup](../../marketing/create-interactive-customer-journey.md)
 
 ### See also
 
 [Remove custom channel](remove-custom-channel.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

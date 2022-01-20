@@ -1,9 +1,9 @@
 ---
-title: "Export, import, or remove a custom business app | MicrosoftDocs"
-description: "Learn you can export, import, or remove a custom business app"
+title: "Export or import an app with Dynamics 365 for Customer Engagement (on-premises)"
+description: "After an app is created, it can be exported by the maker and imported by other organizations. Apps that are obsolete to a business can also be deleted."
 keywords: 
 ms.date: 02/20/2019
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.topic: article
 applies_to: 
@@ -20,12 +20,12 @@ caps.latest.revision: 9
 topic-status: Drafting
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 
 # Export, import, or remove an app
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Export solutions](/powerapps/maker/common-data-service/export-solutions)
 
 App created in Dynamics 365 Customer Engagement (on-premises) are distributed as solution components. After you have created an app, you can make it available for other organizations to use by packaging the app into a solution and then exporting it into a zip file. After the solution (.zip file) is successfully imported by the organization, the packaged app is available for use.
 
@@ -56,7 +56,7 @@ Remove apps that are obsolete in your organization.
 3. Select the app that you want to delete, and then select **Delete** on the command bar.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/app-module-solution-window.png "Delete an app")
+   > ![Delete an app.](media/app-module-solution-window.png "Delete an app")
 
 
 4. In the confirmation message that appears, select **Delete**.
@@ -70,3 +70,6 @@ If the component has dependencies (such as relationships), you must remove the d
 
 ### See also  
  [Design custom business apps by using the app designer](design-custom-business-apps-using-app-designer.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

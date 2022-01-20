@@ -1,14 +1,10 @@
 ---
 title: "CTI Desktop Manager (Hosted Control) | MicrosoftDocs"
-description: "Learn about using the CTI Desktop Manager hosted control type to plug in a computer telephony integration (CTI) adapter into Unified Service Desk to handle screen popping, call routing, softphone control, and other CTI functionalities."
-ms.custom: 
-  - dyn365-USD
+description: "Learn about the CTI Desktop Manager hosted control type, and its predefined UII actions and events. "
 ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - customizer
@@ -16,8 +12,13 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # CTI Desktop Manager (Hosted Control)
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 Use the **CTI Desktop Manager** hosted control type to plug in a computer telephony integration (CTI) adapter into [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to handle screen popping, call routing, softphone control, and other CTI functionalities.  
 
 <a name="Create"></a>   
@@ -138,7 +139,7 @@ Use the **CTI Desktop Manager** hosted control type to plug in a computer teleph
  This action takes the currently displayed URL, and sends it through the window navigation rules from the current hosted control as a popup.  
 
 ### RunScript  
- This action injects JavaScript into the main frame of the application. You should avoid using the Common Data Service platform client SDK calls with this action; instead, use the **RunXrmCommand** action.  
+ This action injects JavaScript into the main frame of the application. You should avoid using Microsoft Dataverse client SDK calls with this action; instead, use the **RunXrmCommand** action.  
 
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -146,7 +147,7 @@ Use the **CTI Desktop Manager** hosted control type to plug in a computer teleph
 
 <a name="RunXrmCommand"></a>   
 ### RunXrmCommand  
- This action is used to inject the Common Data Service platform SDK JavaScript into the model-driven apps form.  
+ This action is used to inject Dataverse SDK JavaScript into the model-driven apps form.  
 
 |Parameter|Description|  
 |---------------|-----------------|  
@@ -215,3 +216,6 @@ Use the **CTI Desktop Manager** hosted control type to plug in a computer teleph
 
 ### See also  
  [Integrate with CTI systems using CTI adapters](../unified-service-desk/integrate-cti-systems-cti-adapters.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

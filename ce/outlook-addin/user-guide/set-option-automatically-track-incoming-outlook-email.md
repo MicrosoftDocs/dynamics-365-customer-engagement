@@ -1,7 +1,7 @@
 ---
 title: "Set an option to automatically track incoming Outlook email in Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: 
-ms.date: 01/11/2016
+ms.date: 08/06/2020
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -54,14 +54,17 @@ When you use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-
    > [!NOTE]
    >  Keep in mind that the more you use the same email address for tracking purposes, the less useful it becomes since it will be mapped to many records.  
   
-4. If you want to automatically create contract or lead records for tracked email messages, in the **Automatically create records in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]** section, choose the **Create** check box, and then choose **Contacts** or **Leads** from the list. When this check box is selected, [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] will try to match the email address of recipients to an email address in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. If it can’t find a matching record, it will automatically create a contact or lead record.  
+4. If you want to automatically create contact or lead records for tracked email messages, in the **Automatically create records in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]** section, choose the **Create** check box, and then choose **Contacts** or **Leads** from the list. When this check box is selected, [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] will try to match the email address of recipients to an email address in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. If it can’t find a matching record, it will automatically create a contact or lead record.  
   
    > [!NOTE]
-   >  Contact and lead records won’t be created if you don’t have the appropriate security permissions. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [TechNet: How security affects synchronization between Dynamics 365 apps and Outlook](https://technet.microsoft.com/library/dn832097.aspx)  
+   >  Contact and lead records won’t be created if you don’t have the appropriate security permissions. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [TechNet: How security affects synchronization between Dynamics 365 apps and Outlook](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn832097(v=crm.8))  
   
 > [!NOTE]
->  More than one custom record type can contain the same email address. When this happens, [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] links the email messages **received** from this email address to the custom record type created first. For example, let’s say a Patient record type created in January lists the email address someone@example.com. A Doctor record type created in February lists the same email address. [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] links the email messages received from someone@example.com to the Patient record type only. **Sending** an email message to someone@example.com links the email message to the Patient record type and the Doctor record type, however.  
+> More than one custom record type can contain the same email address. When this happens, Dynamics 365 for Customer Engagement links the email messages received from this email address to one of the custom record types. For example, if there are two record types (Patient and Doctor) with the same email address someone@example.com, Dynamics 365 for Customer Engagement links the email messages received from someone@example.com to **either** Patient or Doctor record type. However, sending an email message to someone@example.com links the email message to **both** the Patient record type and the Doctor record type.
   
 ### See also  
  [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
  [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 apps and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

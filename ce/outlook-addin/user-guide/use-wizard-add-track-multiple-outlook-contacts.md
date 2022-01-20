@@ -95,3 +95,6 @@ You can track your [!INCLUDE[pn_MS_Outlook_Full](../../includes/pn-ms-outlook-fu
 ### See also  
  [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
  [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 apps and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

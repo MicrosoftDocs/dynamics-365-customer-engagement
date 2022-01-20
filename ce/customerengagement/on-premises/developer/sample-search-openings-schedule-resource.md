@@ -3,11 +3,11 @@ title: "Sample: Search for openings to schedule a resource (Developer Guide for 
 description: "Sample demonstrates how to find openings to schedule a resource by using the SearchRequest message."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
@@ -21,8 +21,6 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 # Sample: Search for openings to schedule a resource
 
@@ -47,3 +45,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
     
 <xref:Microsoft.Xrm.Sdk.IOrganizationService>   
  <xref:Microsoft.Crm.Sdk.Messages.SearchRequest>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

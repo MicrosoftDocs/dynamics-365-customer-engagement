@@ -3,8 +3,8 @@ title: "UserQuery (saved view) entity (Developer Guide for Dynamics 365 Customer
 description: "Learn about saved queries which are business entities that define the parameters and criteria of a database search."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -25,8 +25,7 @@ ms.author: kvivek
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # UserQuery (saved view) entity
 
@@ -41,5 +40,8 @@ Saved queries are business entities that define the parameters and criteria of a
 ### See also  
  [Model Your Business Data With Dynamics 365 Customer Engagement (on-premises)](model-business-data.md)   
  [UserQuery Entity](entities/userquery.md)
- [Building Queries with QueryExpression](org-service/build-queries-with-queryexpression.md)   
- [Fetch XML Schema](org-service/fetchxml-schema.md)
+ [Building Queries with QueryExpression](/powerapps/developer/data-platform/org-service/build-queries-with-queryexpression)   
+ [Fetch XML Schema](/powerapps/developer/data-platform/fetchxml-schema)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

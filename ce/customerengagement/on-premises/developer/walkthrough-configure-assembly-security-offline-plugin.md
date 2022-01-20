@@ -3,8 +3,8 @@ title: "Walkthrough: Configure assembly security for an offline plug-in  (Develo
 description: "The topic provides a walkthrough on configuring assembly security for an offline plug-in."
 ms.custom: on-premise
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Walkthrough: Configure assembly security for an offline plug-in
 
@@ -50,3 +49,6 @@ The Dynamics 365 Customer Engagement (on-premises) platform applies an additiona
  [Plug-in Development](plugin-development.md)   
  [Sample: Create a basic plug-in](/powerapps/developer/common-data-service/org-service/samples/basic-followup-plugin)   
  [Register and Deploy Plug-ins](register-deploy-plugins.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

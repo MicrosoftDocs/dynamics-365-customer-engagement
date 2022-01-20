@@ -1,29 +1,21 @@
 ---
 title: "Develop customized IoT solutions in Connected Customer Service | MicrosoftDocs"
 description: "Learn how to create customized IoT solutions in Connected Customer Service for Azure IoT Central."
+ms.date: 04/03/2020
+ms.topic: article
 author: lalexms
 ms.author: lalexms
 manager: shujoshi
-ms.date: 02/03/2020
-ms.topic: article
-ms.service: 
-  - "dynamics-365-customerservice"
-ms.custom: 
-  - ""
-applies_to: 
-  - ""
 ---
 
-# Installation and setup - Connected Field Service for IoT Hub
+# Installation and setup - Connected Customer Service for IoT Hub
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-This guide provides all the steps required for getting up and running with Connected Customer Service (CCS) for IoT Hub. If you're looking for information about CCS for IoT Central, be sure to visit our tutorial on getting set up.
+This guide provides the steps required for getting up and running with Connected Customer Service (CCS) for IoT Hub. If you're looking for information about CCS for IoT Central, be sure to visit our tutorial on getting set up.
 
 ## Prerequisites  
  Before you install Connected Customer Service, make sure you have the following:  
   
-- Dynamics 365 system administrator credentials. For users with Office 365 global administrator access, they must be assigned the **System Administrator** security role within the Dynamics 365 organization.
+- Dynamics 365 system administrator credentials. For users with Microsoft 365 global administrator access, they must be assigned the **System Administrator** security role within the Dynamics 365 organization.
    
 - An IoT – Administrator role in the IoT solution (to access IoT entities and IoT functionality), plus another role, like Customer Service – Dispatcher (to access Dynamics 365).  
   
@@ -42,18 +34,18 @@ Connected Customer Service is included with Dynamics 365 Customer Service. Creat
  
  
 > [!div class="mx-imgBorder"]
-> ![Screenshot of IoT alerts in the asset menu in the sidebar](media/cs-iot-navigation.png)
+> ![Screenshot of IoT alerts in the asset menu in the sidebar.](media/cs-iot-navigation.png)
 
 Verify you have the Connected Customer Service entities in your environment.
 
 Next, deploy and connect Azure IoTHub to your Customer Service environment by going to [https://iotdeployment.dynamics.com/](https://iotdeployment.dynamics.com/) and following the instructions.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the IoT deployment app](./media/cs-iot-deployment-app-screen.png)
+> ![Screenshot of the IoT deployment app.](./media/cs-iot-deployment-app-screen.png)
 
   
 ### Set up the sample simulator (optional)  
- To find the simulator URL , sign in to your Azure subscription, and then select the App Service resource type under the newly created resource group. You’ll see the URL is in the top right corner. Copy the URL and complete the following steps:  
+ To find the simulator URL, sign in to your Azure subscription, and then select the App Service resource type under the newly created resource group. You’ll see the URL is in the top-right corner. Copy the URL and complete the following steps:  
   
 1. Paste the URL into your browser’s address bar to load the page.  
   
@@ -62,12 +54,12 @@ Next, deploy and connect Azure IoTHub to your Customer Service environment by go
 3. Enter the IoT hub host name and key. The host is simply the name of the IoT Hub resource in Azure portal. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the IoT deployment app](./media/cs-iot-deployment-app.png)
+> ![Screenshot of the IoT deployment app.](./media/cs-iot-deployment-app.png)
 
  The key can be accessed by clicking on the IoT Hub resource and going to the shared access policies, then copying the primary key for **iothubowner** as seen in the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the IoT deployment app](./media/cs-iot-resource-azure-portal.png)
+> ![Screenshot of the IoT deployment app.](./media/cs-iot-resource-azure-portal.png)
   
 4. Select the IoT hub in the **Resource Group**.  
   
@@ -109,7 +101,7 @@ Next, deploy and connect Azure IoTHub to your Customer Service environment by go
 6. Copy the IP address when you see this message.  
   
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the IoT deployment app](./media/cs-iot-ip-address.png)  
+> ![Screenshot of the IoT deployment app.](./media/cs-iot-ip-address.png)  
   
 7. Go to the Azure portal, open the SQL server, and add your IP address to the firewall.  
   
@@ -127,7 +119,7 @@ Next, deploy and connect Azure IoTHub to your Customer Service environment by go
   
 6.  Save the dashboard, and then share it with any users who have permissions to see the dashboard and tiles.  
   
-    -   In the top right corner of the dashboard, click **Share**, enter the users email address, and click the **Share** button .  
+    -   In the top-right corner of the dashboard, click **Share**, enter the users email address, and click the **Share** button.  
   
 #### Pin the tile in Dynamics 365  
   
@@ -244,14 +236,14 @@ Next, deploy and connect Azure IoTHub to your Customer Service environment by go
 
 <a name="bkmk_bussinessFlow"></a>
 ## Create business process flows to automatically handle incoming IoT alerts
- When you receive an alert from a device, your service team can manually monitor the alerts and troubleshoot the issue remotely. If the issue is not resolved by sending a remote command, the service rep can create a case or work order and dispatch a field tech. The provided business process flow guides you through the process of manually responding to IoT alerts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a business process flow](../customize/create-business-process-flow.md)
+ When you receive an alert from a device, your service team can manually monitor the alerts and troubleshoot the issue remotely. If the issue is not resolved by sending a remote command, the service rep can create a case or work order and dispatch a field tech. The provided business process flow guides you through the process of manually responding to IoT alerts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a business process flow](../customerengagement/on-premises/customize/create-business-process-flow.md)
 
  
 <a name="bkmk_IOTDashboard"></a>
 ## View the IoT dashboard
- The default IoT dashboard provides data on registered devices and alerts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or customize dashboards](../customize/create-edit-dashboards.md)
+ The default IoT dashboard provides data on registered devices and alerts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or customize dashboards](../customerengagement/on-premises/customize/create-edit-dashboards.md)
 
-1.  From the main menu, click **Field Service** or **Internet of Things**.
+1.  From the main menu, click **Customer Service** or **Internet of Things**.
 
 2.  Click **Dashboard**.
 
@@ -269,13 +261,13 @@ Azure components and services that are involved with Connected Customer Service 
 
 Note: For more information about additional Azure service offerings, see the [Microsoft Azure Trust Center](https://azure.microsoft.com/support/trust-center/). 
 
-[Service bus queue](https://azure.microsoft.com/documentation/articles/service-bus-dotnet-get-started-with-queues/) 
+[Service bus queue](/azure/service-bus-messaging/service-bus-dotnet-get-started-with-queues) 
 
 This provides a queue for both inbound and outbound messages (commands) flowing between Dynamics 365 for Customer Engagement and Azure. When an IoT alert is sent to Dynamics 365 for Customer Engagement, or a command is sent from Dynamics 365 for Customer Engagement to the IoT hub, it will be queued here. 
 
 [Logic Apps](https://azure.microsoft.com/services/logic-apps/) 
 
-This provides an orchestration service that uses a Dynamics 365 for Customer Engagement connector and a Queue connector. Dynamics 365 for Customer Engagement connectors are used to construct entities that are specific to Dynamics 365 for Customer Engagementand Queue connectors are used for polling the queue. 
+This provides an orchestration service that uses a Dynamics 365 for Customer Engagement connector and a Queue connector. Dynamics 365 for Customer Engagement connectors are used to construct entities that are specific to Dynamics 365 for Customer Engagement and Queue connectors are used for polling the queue. 
 
 [Stream analytics](https://azure.microsoft.com/services/stream-analytics/) 
 
@@ -297,4 +289,7 @@ Connected Customer Service uses SQL Azure to store device heartbeat messages for
 
 Queries that Stream Analytics will use are stored to Azure Blob storage. 
 
-[Azure Time Series Insight (Preview)](https://docs.microsoft.com/azure/time-series-insights/) 
+[Azure Time Series Insight (Preview)](/azure/time-series-insights/) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -3,8 +3,8 @@ title: "Email activity entities (Developer Guide for Dynamics 365 Customer Engag
 description: "The email activity in Dynamics 365 Customer Engagement lets you track and manage email communications with customers."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -43,8 +43,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Email activity entities
 
@@ -140,3 +139,6 @@ ObjectId = new EntityReference(Template.EntityLogicalName, _templateId), ObjectT
  [Sample code for activity entities](sample-code-activity-entities.md)   
  [Email Entity](entities/email.md)   
  [ActivityMimeAttachment Entity](entities/activitymimeattachment.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

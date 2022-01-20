@@ -1,8 +1,9 @@
 ---
 title: "Test internal claims-based authentication | Microsoft Docs"
+description: Learn how to test internal claims-based authentication with Dynamics 365 Customer Engagement (on-premises) 
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: "crm-2016"
+ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -35,3 +36,6 @@ You should now be able to access [!INCLUDE[pn_microsoftcrm_server](../includes/p
 ## See Also  
  [Implement claims-based authentication: internal access](implement-claims-based-authentication-internal-access.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

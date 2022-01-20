@@ -1,9 +1,10 @@
 ---
-title: "Data encryption  | MicrosoftDocs"
+title: "Data encryption in Dynamics 365 Customer Engagement (on-premises)"
+description: "All new and upgraded organizations use data encryption by default. System administrators can change the encryption key at any time."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -14,18 +15,18 @@ ms.assetid: f88f7c87-2ee2-42f3-8101-7271f6731cf9
 caps.latest.revision: 28
 author: Mattp123
 ms.author: matp
-manager: brycho
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
 ---
-# Enhance security by encrypting your data
+# Enhance security with data encryption
 
-Dynamics 365 Customer Engagement (on-premises) uses standard [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] cell level encryption for a set of default entity attributes that contain sensitive information, such as user names and email passwords. This feature can help organizations meet FIPS 140-2 compliance.  
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
+
+Dynamics 365 Customer Engagement (on-premises) uses standard [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] cell-level encryption for a set of default entity attributes that contain sensitive information, such as user names and email passwords. This feature can help organizations meet FIPS 140-2 compliance.  
   
- For Customer Engagement (on-premises),  all new and upgraded organizations use data encryption by default. Data encryption can’t be turned off.  
+ For Customer Engagement (on-premises), all new and upgraded organizations use data encryption by default. Data encryption can’t be turned off.  
   
  Customer Engagement (on-premises) users who have the system administrator security role can change the encryption key at any time. 
 
@@ -62,7 +63,10 @@ Dynamics 365 Customer Engagement (on-premises) uses standard [!INCLUDE[pn_MS_SQL
 6. As a best practice, save the text file that contains the encryption key on a computer in a secure location on an encrypted hard drive.  
   
 ### See also  
- [SQL Server Encryption](https://technet.microsoft.com/library/bb510663.aspx)   
- [FIPS 140 Evaluation](https://technet.microsoft.com/library/cc750357.aspx)   
+ [SQL Server Encryption](/sql/relational-databases/security/encryption/sql-server-encryption)   
+ [FIPS 140 Evaluation](/windows/security/threat-protection/fips-140-validation)   
  [Manage Your Data](../admin/manage-your-data.md)   
  [Manage configuration data](manage-configuration-data.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

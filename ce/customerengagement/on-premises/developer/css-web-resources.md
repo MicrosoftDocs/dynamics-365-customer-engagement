@@ -3,8 +3,8 @@ title: "CSS web resources (Developer Guide for Dynamics 365 Customer Engagement 
 description: "Learn about using cascading style sheet (CSS) web resources to create style sheets for use in webpage web resources. "
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -19,8 +19,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # CSS web resources
 
@@ -53,3 +52,6 @@ Use cascading style sheet (CSS) web resources to create style sheets for use in 
  [Using Silverlight (XAP) Web Resources](silverlight-xap-web-resources.md)   
  [Using Stylesheet (XSL) Web Resources](stylesheet-xsl-web-resources.md)   
  [WebResource Entity](entities/webresource.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

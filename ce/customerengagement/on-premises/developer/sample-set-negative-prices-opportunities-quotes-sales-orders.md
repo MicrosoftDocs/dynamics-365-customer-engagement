@@ -5,9 +5,10 @@ ms.custom:
 ms.date: 01/02/2020
 ms.reviewer: 
 ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
@@ -20,8 +21,6 @@ ms.author: kvivek
 manager: annbe
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 # Sample: Set negative prices in opportunities, quotes, and sales orders
 
@@ -45,3 +44,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [PriceLevel Entity](entities/pricelevel.md)   
  [Opportunity Entity](entities/opportunity.md)   
  [Sample: Set Negative Prices in Opportunities, Quotes and Sales Orders](sample-set-negative-prices-opportunities-quotes-sales-orders.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

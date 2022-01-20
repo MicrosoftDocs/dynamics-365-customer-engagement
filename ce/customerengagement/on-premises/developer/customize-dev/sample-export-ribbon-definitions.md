@@ -3,8 +3,8 @@ title: "Sample: Export ribbon definitions (Developer Guide for Dynamics 365 Cust
 description: "The sample shows how to export Ribbon definitions. It uses the RetrieveApplicationRibbonRequest and RetrieveEntityRibbonRequest messages. "
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: samples
@@ -17,8 +17,7 @@ ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Sample: Export ribbon definitions
@@ -51,3 +50,6 @@ Checks for the current version of the org.
 ### Clean up
 
 No clean up is required for this sample
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

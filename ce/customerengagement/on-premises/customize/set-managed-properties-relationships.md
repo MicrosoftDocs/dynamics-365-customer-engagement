@@ -1,10 +1,10 @@
 ---
-title: "Set managed properties for relationships in Power Apps | MicrosoftDocs"
-description: "Learn how to set managed properties for an entity relationship"
+title: "Set managed properties for relationships in Dynamics 365 Customer Engagement (on-premises)"
+description: "You can set the Can Be Customized managed property for an entity relationship to control all changes that can be made to the relationship."
 ms.custom: 
 ms.date: 04/29/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -18,9 +18,9 @@ ms.author: matp
 manager: kvivek
 tags: 
 ---
-# Set managed properties for relationships
+# Set the managed property for entity relationships
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [View and edit relationship managed properties](/power-platform/alm/managed-properties-alm#view-and-edit-relationship-managed-properties)
 
 <a name="BKMK_ManagedProperties"></a>   
 
@@ -31,3 +31,5 @@ tags:
 ### See also
 
 [Create and edit relationships between entities](create-edit-entity-relationships.md)
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

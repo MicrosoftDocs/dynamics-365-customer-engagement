@@ -1,16 +1,15 @@
 ---
-title: "msdyn_KPIEventData Entity Reference for Microsoft Dynamics 365 Channel Integration Framework version 2.0 | MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_KPIEventData entity in Microsoft Dynamics 365 Channel Integration Framework version 2.0."
-ms.date: 12/31/2019
-ms.service: "crm-online"
+title: "msdyn_KPIEventData Entity Reference for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
+description: "Includes schema information and supported messages for the msdyn_KPIEventData entity in Dynamics 365 Channel Integration Framework version 2.0."
+ms.date: 11/03/2020
 ms.topic: "reference"
-ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "susikka"
-ms.author: "susikka"
+author: "mh-jaya"
+ms.author: v-jmh
 manager: "shujoshi"
+ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 ---
 
-# msdyn_KPIEventData Entity Reference
+# msdyn_KPIEventData Entity Reference for Dynamics 365 Channel Integration Framework 2.0
 
 [!INCLUDE[token-msdyn-kpieventdata](../../../shared/token-msdyn-kpieventdata.md)]
 
@@ -19,3 +18,6 @@ manager: "shujoshi"
 [Microsoft.CIFramework APIs](../microsoft-ciframework-v2.md)
 
 [Client-side events](../client-side-events.md)
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

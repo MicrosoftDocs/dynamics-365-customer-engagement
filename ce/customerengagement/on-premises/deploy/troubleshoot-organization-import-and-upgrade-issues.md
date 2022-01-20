@@ -1,8 +1,9 @@
 ---
 title: "Troubleshoot organization import and upgrade issues | Microsoft Docs"
+description: Learn how to troubleshoot organization import and upgrade issues with Dynamics 365 Customer Engagement (on-premises)
 ms.custom: 
 ms.date: 10/01/2018
-ms.prod: crm-2016
+ms.prod: d365ce-op
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -30,3 +31,6 @@ If you encounter any issues during organization import and upgrade, here are som
  [Import an organization](import-an-organization.md)   
  [Upgrade an organization](upgrade-an-organization.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

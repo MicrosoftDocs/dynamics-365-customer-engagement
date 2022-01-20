@@ -1,14 +1,10 @@
 ---
-title: "Behavior differences in the Chrome Process and IE Process hosting types  | MicrosoftDocs"
-description: "Learn about the behavior differences in the Chrome Process and IE Process hosting types."
-ms.custom: 
-  - dyn365-USD
+title: "Behavior differences between the Chrome Process and IE Process | MicrosoftDocs"
+description: "Learn about the behavior differences in the Chrome and IE Process hosting types when you download and view file attachments."
 ms.date: 07/15/2019
-ms.service: 
-  - dynamics-365-customerservice
 ms.topic: "article"
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - customizer
@@ -16,6 +12,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 monikerRange: '>= dynamics-usd-4.1'
 ---
 
@@ -37,3 +35,6 @@ This topic demonstrates the differences between the Chrome Process and IE Proces
 
 [Use IE Process to host web applications](ie-process.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

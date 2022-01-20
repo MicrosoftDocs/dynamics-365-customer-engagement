@@ -1,10 +1,10 @@
 ---
-title: "Create or edit main forms in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to create or edit a main form"
+title: "Create a main form in Dynamics 365 Customer Engagement (on-premises)"
+description: "When you create a new form for an entity, its form type is Main. Learn how to customize the form by adding or editing fields, sections, properties, and more."
 ms.custom: 
 ms.date: 11/09/2018
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,12 +17,11 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Create or edit a main form for an entity 
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Create or edit a model-driven app main form for an entity](/powerapps/maker/model-driven-apps/create-edit-main-forms)
 
 When you create a new form for an entity, its form type is Main. When the new form opens, it is identical to the form named Information. You can add or edit fields, sections, tabs, navigation, and properties associated with the form, and then save the form.
 
@@ -74,3 +73,6 @@ Make sure that you have the System Administrator or System Customizer security r
 ### See also  
 [Create and design forms](../customize/create-design-forms.md)</br>
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

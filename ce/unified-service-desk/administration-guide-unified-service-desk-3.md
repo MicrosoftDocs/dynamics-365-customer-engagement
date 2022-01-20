@@ -1,14 +1,10 @@
 ---
 title: "Administration Guide for Unified Service Desk 3.0 | MicrosoftDocs"
-description: 
-ms.custom: 
-  - dyn365-USD
+description: "Use this topic to get a high-level overview of the Unified Service Desk Administration Guide and its content."
 ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - customizer
@@ -16,12 +12,17 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 tags: 
   - MigrationHO
   - LinksOnlyTopic
 ---
 # Administration Guide for Unified Service Desk 3.0
-This guide provides information about how to install, administer, and manage [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] for the Common Data Service platform and Customer Engagement (on-premises). You can use [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to configure and manage call center agent applications that provide your customer service agents with immediate and unified access to business-critical information about your customers that helps them effectively handle their customer interactions.  
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
+This guide provides information about how to install, administer, and manage [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] for Microsoft Dataverse and Customer Engagement (on-premises). You can use [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to configure and manage call center agent applications that provide your customer service agents with immediate and unified access to business-critical information about your customers that helps them effectively handle their customer interactions.  
   
   
 ## In this section  
@@ -38,3 +39,6 @@ This guide provides information about how to install, administer, and manage [!I
  [Administer and manage overview](../unified-service-desk/admin/administer-manage-unified-service-desk.md)  
   
  [Troubleshoot Unified Service Desk](../unified-service-desk/admin/troubleshoot-unified-service-desk.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

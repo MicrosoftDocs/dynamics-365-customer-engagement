@@ -3,7 +3,7 @@ title: "Service entities in Dynamics 365 Customer Engagement (on-premises)(Devel
 description: "Learn about service entites that are targeted at the customer service department of an organization."
 ms.custom: 
 ms.date: 10/01/2019
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.service:
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -19,8 +19,7 @@ ms.author: kvivek
 manager: annbe
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Service entities for Customer Service
 
@@ -38,7 +37,7 @@ The entities described in this section are targeted at the customer service depa
 > 
 >   While these entities appear to support common messages and methods, they also have a dependency on the web application so that certain messages will not work as expected when called directly from the web services. You should not use these entities in your code.  
 > 
->   However, with the Dynamics 365 Customer Engagement (on-premises) platform, you can use the <xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> message on the `ConvertRule`, `RoutingRule`, and `SLA` entities to programmatically activate or deactivate these entity records. For information about changing the state of an entity record using the `Update` message, see [Perform specialized operations using Update](org-service/perform-specialized-operations-using-update.md)  
+>   However, with the Dynamics 365 Customer Engagement (on-premises) platform, you can use the <xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> message on the `ConvertRule`, `RoutingRule`, and `SLA` entities to programmatically activate or deactivate these entity records. For information about changing the state of an entity record using the `Update` message, see [Perform specialized operations using Update](/powerapps/developer/data-platform/special-update-operation-behavior)  
   
 ## In This Section  
  [Contract Entities](contract-entities.md)  
@@ -65,3 +64,6 @@ The entities described in this section are targeted at the customer service depa
  [Product Catalog Entities](product-catalog-entities.md)  
   
  [Sales Literature Entities](sales-literature-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

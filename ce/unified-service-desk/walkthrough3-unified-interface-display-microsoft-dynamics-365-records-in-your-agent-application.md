@@ -1,12 +1,10 @@
 ---
-title: "Walkthrough 3  Display records in your agent application | MicrosoftDocs"
-description: "Demonstrates how to display Unified Interface apps records in Unified Service Desk."
-ms.date: 12/31/2019
-ms.service: 
-  - "dynamics-365-customerservice"
+title: "Walkthrough 3: Display model-driven app records for Unified Interface apps | MicrosoftDocs"
+description: "Use this walkthrough to understand the prerequisites and procedures for displaying model-driven app records for Unified Interface apps. "
+ms.date: 06/25/2020
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - customizer
@@ -17,6 +15,9 @@ search.app:
 ---
 
 # Walkthrough 3: Display model-driven apps (Unified Interface apps) records in your agent application
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 This walkthrough demonstrates how to display model-driven app records in your agent application. In this walkthrough, you’ll display all the account and contact records in the model-driven apps. You’ll also create a search button with drop-down menu items for displaying accounts and contacts in the agent application.  
 
 ## Prerequisites  
@@ -294,7 +295,7 @@ This walkthrough demonstrates how to display model-driven app records in your ag
 
 5. Select the ellipsis (...) in the **Action Calls** section, and then select **Add Existing Action Call**. The **Lookup Records** pane is displayed.
 
-6. Type he name of the action call mentioned in the above table in the search box. The action calls are displayed in the search results. Select the record from the list, and then select **Add**.  
+6. Type the name of the action call mentioned in the above table in the search box. The action calls are displayed in the search results. Select the record from the list, and then select **Add**.  
 
 7. Select the ellipsis (...) in the **Hosted Controls** section, and then select **Add Existing Hosted Control**. The **Lookup Records** pane is displayed.  
 
@@ -310,21 +311,22 @@ This walkthrough demonstrates how to display model-driven app records in your ag
 
 <a name="Step6"></a>   
 ## Step 6: Test the application  
- Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the Common Data Service platform instance where you configured [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] using the same user credentials that you assigned to the **Contoso Configuration** in [Walkthrough 1: Build a simple agent application for Unified Interface Apps](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md). For information about connecting to the Common Data Service platform instance using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, see [Connect to a model-driven instance using the Unified Service Desk client](../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md).  
+ Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the Dynamics 365 instance where you configured [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] using the same user credentials that you assigned to the **Contoso Configuration** in [Walkthrough 1: Build a simple agent application for Unified Interface Apps](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md). For information about connecting to Dataverse instance using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, see [Connect to a model-driven instance using the Unified Service Desk client](../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md).  
 
  Your agent application will now have a **SEARCH** button in the toolbar area with two child buttons (**Account** and **Contact**) that are displayed on selecting the down arrow.  
 
- ![Display account and contact records](../unified-service-desk/media/crm-itpro-usd-wt03-12.png "Display account and contact records")  
+ ![Display account and contact records.](../unified-service-desk/media/crm-itpro-usd-wt03-12.png "Display account and contact records")  
 
  Select **Account** or **Contact** under the **SEARCH** button to display the respective records from your instance in separate tabs in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application.  
 
- ![Contact records displayed](../unified-service-desk/media/crm-itpro-usd-wt03-13-unified-interface.png "Contact records displayed")  
+ ![Contact records displayed.](../unified-service-desk/media/crm-itpro-usd-wt03-13-unified-interface.png "Contact records displayed")  
 
 <a name="Conclusion"></a>   
 ## Conclusion  
  In this walkthrough, you learned how to display model-driven app records in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application. You also learned how to filter access to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] controls using configuration.
 
 ### See also
+
  [Support for Unified Interface Apps in Unified Service Desk](../unified-service-desk/admin/Support-unified-interfaces-apps-usd.md)
 
  [Unified Interface Page (Hosted Control)](../unified-service-desk/unified-interface-page-hosted-control.md)
@@ -342,3 +344,6 @@ This walkthrough demonstrates how to display model-driven app records in your ag
  [Walkthrough 6: Configure the Debugger hosted control in your agent application](../unified-service-desk/walkthrough6-unified-interface-configure-debugger-hosted-control-agent-application.md)
 
  [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough7-unified-interface-configure-agent-scripting-agent-application.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

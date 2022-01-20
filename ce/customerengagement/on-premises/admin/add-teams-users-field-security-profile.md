@@ -1,9 +1,10 @@
 ---
-title: "Add teams or users to a field security profile  | MicrosoftDocs"
+title: "Add users or teams to field security profile in Dynamics 365 Customer Engagement (on-premises)"
+description: "Follow these steps to use a field security profile to manage the permission of users and teams to read, create, or write in secured fields."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -14,14 +15,14 @@ author: jimholtz
 ms.assetid: ff71ac7e-1088-45fb-b998-6a85c155f93b
 caps.latest.revision: 14
 ms.author: jimholtz
-manager: kvivek
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
 ---
-# Add teams or users to a field security profile to control access
+# Add teams or users to a field security profile
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 Role-based security controls access to a specific entity type, record-based security controls access to individual records, and field-level security controls access to specific fields. You can use a field security profile to manage the permission of users and teams to read, create, or write in secured fields. For example, the System Administrator field security profile gives full access to all secured fields in Dynamics 365 Customer Engagement (on-premises).  
   
@@ -46,3 +47,6 @@ Role-based security controls access to a specific entity type, record-based secu
  [Security concepts](../admin/security-concepts.md)   
  [Manage security, users and teams](../admin/manage-security-users-and-teams.md)   
  [Synchronize user information between Dynamics 365 Customer Engagement (on-premises) and Active Directory](../admin/synchronize-user-information-active-directory.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

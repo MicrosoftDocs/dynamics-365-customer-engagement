@@ -3,11 +3,11 @@ title: "Sample: Query connections by reciprocal roles (early bound) | MicrosoftD
 description: "The sample demonstrates how to create matching roles and find a matching for a particular role."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
@@ -20,8 +20,6 @@ ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 # Sample: Query connections by reciprocal roles (early bound)
 
@@ -56,3 +54,5 @@ The `QueryExpression` retrieves all connection roles that have this role listed 
 ### Clean up
 
 Display an option to delete the records in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

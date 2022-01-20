@@ -3,8 +3,8 @@ title: "Set up a Postman environment (Developer Guide for Dynamics 365 Customer 
 description: "Learn how to set up and configure a Postman environment that connects with Dynamics 365 Customer Engagement online and on-premises environments."
 ms.custom: 
 ms.date: 04/15/2019
-ms.reviewer: susikka
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -12,13 +12,12 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 955BA444-A53D-4843-9429-833B1636E2B4
 caps.latest.revision: 7
-author: susikka
-ms.author: susikka
+author: phecke
+ms.author: pehecke
 manager: shujoshi
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Set up a Postman environment
@@ -46,7 +45,7 @@ Select the connection option that works for your environment:
 
 ## Connect with an online environment
 
-To connect with an online environment, see the information provided in this Power Apps Common Data Service topic: [Connect with an online environment](/powerapps/developer/common-data-service/webapi/setup-postman-environment#connect-with-your-common-data-service-environment).
+To connect with an online environment, see the information provided in this Power Apps Dataverse topic: [Connect with an online environment](/powerapps/developer/common-data-service/webapi/setup-postman-environment#connect-with-your-common-data-service-environment).
 
 <a name="bkmk_connectonpremise"></a>
 
@@ -60,10 +59,10 @@ To connect with an online environment, see the information provided in this Powe
   | Variable Name | Value |
   |----|---|
   |`url`|`https://yourservername/yourorgname`|
-  |`version`|`9.0`|
+  |`version`|`9.1`|
   |`webapiurl`|`{{url}}/api/data/v{{version}}/`|
 
-  ![Create a new Postman environment to connect with On-premise instance](../media/postman-add-onprem-env.png "Create a new Postman   environment to connect with On-premise instance")
+  ![Create a new Postman environment to connect with On-premise instance.](../media/postman-add-onprem-env.png "Create a new Postman   environment to connect with On-premise instance")
 
 5. Replace the instance URL placeholder value with your Dynamics 365 Customer Engagement (on-premises) instance URL, and select **Add** to save the environment.
 6. Close the **Manage environments** dialog box.
@@ -78,7 +77,7 @@ To connect with an online environment, see the information provided in this Powe
 
 Your authentication might look like this if you are logging in as an administrator.<br>
 
-![Click on Authorization tab, and select NTLM Authentication](../media/postman-ntlm-auth.png "Click on Authorization tab, and select NTLM Authentication")
+![Click on Authorization tab, and select NTLM Authentication.](../media/postman-ntlm-auth.png "Click on Authorization tab, and select NTLM Authentication")
 
 
 
@@ -86,7 +85,7 @@ Your authentication might look like this if you are logging in as an administrat
 
 Create a new Web API request to test the connection with your Dynamics 365 Customer Engagement (on-premises) instance. Use the <xref href="Microsoft.Dynamics.CRM.WhoAmI?text=WhoAmI function" />:
 1. Select `GET` as the HTTP method and add `{{webapiurl}}WhoAmI` in the editing space.
-  ![WhoAmI function request](../media/postman-whoami-request.png "WhoAmI function request")
+  ![WhoAmI function request.](../media/postman-whoami-request.png "WhoAmI function request")
 2. Select **Send** to send this request.
 3. If your request is successful, you see the data from the <xref href="Microsoft.Dynamics.CRM.WhoAmIResponse?text=WhoAmIResponse ComplexType" /> that is returned by the <xref href="Microsoft.Dynamics.CRM.WhoAmI?text=WhoAmI Function" />.
 
@@ -94,3 +93,6 @@ Create a new Web API request to test the connection with your Dynamics 365 Custo
 
 [Use the Dynamics 365 Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)<br>
 [Walkthrough: Register a Dynamics 365 Customer Engagement app with Active Directory](../walkthrough-register-app-active-directory.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

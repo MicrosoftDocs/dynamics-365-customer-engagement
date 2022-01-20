@@ -1,12 +1,13 @@
 ---
-title: "Integrate (synchronize) your email system  | MicrosoftDocs"
+title: "Email integration with Dynamics 365 Customer Engagement (on-premises)"
+description: "To store email and other messaging records in Customer Engagement (on-premises), integrate your email system with server-side synchronization."
 ms.custom: 
-ms.date: 10/01/2019
+ms.date: 12/11/2020
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: overview
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
   - Dynamics 365 for Customer Engagement  Version 9.x
@@ -17,9 +18,7 @@ ms.author: jimholtz
 manager: brycho
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # Integrate (synchronize) your email system
 
@@ -31,7 +30,11 @@ One of the main reasons people use Dynamics 365 Customer Engagement (on-premises
 > [!IMPORTANT]
 > - In previous versions of Dynamics CRM, you could also use the Email Router to synchronize records. The Email Router has been deprecated as of the [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)].  We strongly recommend that you migrate all email routing functionality to use  server-side synchronization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Migrate settings from the Email Router to server-side synchronization](../admin/migrate-settings-email-router-server-side-synchronization.md)  
 > - Internet Message Access Protocol (IMAP) email servers are not currently supported by server-side synchronization or the Email Router.  
-> - As of 1/29/2018, based on overwhelming customer feedback and our desire to continue supporting our customers, we have **decided not to deprecate [!INCLUDE[pn-crm-2016-outlook-shortest](../includes/pn-crm-2016-outlook-shortest.md)]** ([!INCLUDE[pn-outlook](../includes/pn-outlook.md)] add-in). Please read [this blog post](https://blogs.msdn.microsoft.com/crm/2018/01/29/continued-support-for-outlook-add-in-dynamics-365-for-outlook/) for more details.
+>
+> Effective October 1 2020, the legacy Dynamics 365 for Outlook (also referred to as Outlook COM add-in) is retired. Customers must transition to the modern [Dynamics 365 App for Outlook](../../../outlook-app/overview.md) at the earliest. Microsoft will not provide support or any further updates (including security and critical updates) to the Outlook COM Add-in.
+> 
+> Starting December 4, 2020 the legacy Dynamics 365 for Outlook (also referred to as Outlook COM add-in) will be removed and users will no longer be able to use Outlook COM add-in. This removal will happen by geographic location and follows the weekly release schedule.
+> For further information and steps to make a smooth transition, download [Dynamics 365 for Outlook (COM add-in) Playbook](https://aka.ms/OutlookCOMPlaybook).
   
 <a name="ServerSideSync"></a>  
  
@@ -81,3 +84,6 @@ One of the main reasons people use Dynamics 365 Customer Engagement (on-premises
  
  
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

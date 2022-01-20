@@ -1,9 +1,9 @@
 ---
-title: "Manage access to Power Apps apps by using security roles | MicrosoftDocs"
-description: "Learn how to control access to your Power Apps apps"
+title: "Manage app access with security roles in Dynamics 365 for Customer Engagement (on-premises)"
+description: "Learn how to choose what users see and access from the My Apps page or the Customer Engagement home page by giving app access to specific security roles."
 keywords: 
 ms.date: 12/04/2018
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
   - dyn365-deflc
 ms.topic: article
@@ -21,13 +21,11 @@ caps.latest.revision: 11
 topic-status: Drafting
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
 ---
 
-# Manage access to apps by using security roles
+# Manage access to apps using security roles
 
- 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Share a model-driven app using Power Apps](/powerapps/maker/model-driven-apps/share-model-driven-app) 
 
 You can choose what users see and access from the **My Apps** page or the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] home page by giving app access to specific security roles. Users will have access to apps based on the security roles they're assigned to.  
   
@@ -43,7 +41,7 @@ You can choose what users see and access from the **My Apps** page or the [!INCL
     
    b. **Roles**: Choose whether you want to give app access to all security roles or selected roles. If you choose **Give access only to these roles**, select the specific security roles.  
 
-     ![Manage security roles for the app](../customize/media/app-manage-roles.png "Manage security roles for the app")
+     ![Manage security roles for the app.](../customize/media/app-manage-roles.png "Manage security roles for the app")
 
    c. Select **Save**.  
   
@@ -55,3 +53,6 @@ For more information about security roles, see [Security roles and privileges](.
   
 ### See also  
  [Design custom business apps by using the app designer](design-custom-business-apps-using-app-designer.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

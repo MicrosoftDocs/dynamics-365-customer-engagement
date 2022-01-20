@@ -3,8 +3,8 @@ title: "Site entity (Developer Guide for Dynamics 365 Customer Engagement) | Mic
 decription: The site entity serves the purpose of sites providing for the grouping of resources, such as users and facility/equipment, services, and appointments, according to a location with an associated time zone and locale.
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -27,8 +27,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Site entity
@@ -40,3 +39,6 @@ The *site* entity represents a location or branch office where an organization d
 ### See also  
  [Site Entity](entities/site.md)   
  [Business Management Entities](business-management-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

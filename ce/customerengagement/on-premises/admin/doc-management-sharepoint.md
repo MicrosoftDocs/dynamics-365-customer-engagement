@@ -1,8 +1,9 @@
 ---
-title: "Document management with SharePoint | Microsoft Docs"
+title: "Manage documents with SharePoint in Dynamics 365 Customer Engagement apps"
+description: "Configure SharePoint with Customer Engagement apps to create folders and manage common document types such as Word, Excel, OneNote, and PowerPoint."
 ms.custom: ""
 ms.date: "05/29/2019"
-ms.prod: "crm-2016"
+ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -16,14 +17,14 @@ author: Mattp123
 manager: kvivek
 ---
 
-# Document management with SharePoint
+# Manage documents in Customer Engagement apps with SharePoint
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc_applies_to_on-prem-9_0_0](../includes/cc_applies_to_on-prem-9_0_0.md)]
 
 Dynamics 365 for Customer Engagement apps document management with SharePoint lets users manage common document types, such as Word, Excel, PowerPoint, OneNote, and create folders to save and manage those documents in Dynamics 365 for Customer Engagement apps that are seamlessly stored in [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. 
 
 > [!div class="mx-imgBorder"] 
-> ![](../admin/media/sp-ce-doc-management.png "Document management in customer engagement and SharePoint")
+> ![Document management in customer engagement and SharePoint.](../admin/media/sp-ce-doc-management.png "Document management in customer engagement and SharePoint")
 
 Depending on your environment, there are several Dynamics 365 for Customer Engagement apps and SharePoint configurations possible. 
 
@@ -37,3 +38,6 @@ Depending on your environment, there are several Dynamics 365 for Customer Engag
 
 Administrators set up document management, specify permissions for managing tasks, and ensure that the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site URLs are correct.  
   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

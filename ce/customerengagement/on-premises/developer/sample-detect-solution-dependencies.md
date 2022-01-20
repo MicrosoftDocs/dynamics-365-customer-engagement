@@ -2,17 +2,17 @@
 title: "Sample: Detect solution dependencies | MicrosoftDocs"
 description: ""
 keywords: 
-ms.date: 10/31/2017
-ms.service: crm-online
+ms.date: 04/02/2020
+ms.prod: d365ce-op
 ms.custom: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: d347f96b-a137-42e1-a9bf-fac6d6133330
 author: JimDaly
 ms.author: nabuthuk
 manager: kvivek
-ms.reviewer: "pehecke"
+ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
 helpviewer_keywords: 
@@ -22,11 +22,11 @@ helpviewer_keywords:
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 
 # Sample: Detect solution dependencies
+
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Sample: Detect solution dependencies](/powerapps/developer/common-data-service/org-service/samples/detect-solution-dependencies).
 
 This sample shows how to detect dependencies before you delete a solution component. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/SolutionDependencies).
 
@@ -62,3 +62,6 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 ### Clean up
 
 Display an option to delete the solutions created in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

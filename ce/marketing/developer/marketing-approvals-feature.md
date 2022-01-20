@@ -1,18 +1,14 @@
 ---
-title: "Build an approvals feature (Dynamics 365 Marketing Developer Guide) | MicrosoftDocs"
-description: "Build an approvals feature which utilizes Dynamics 365 Marketing extensibility endpoints"
-ms.custom: 
-  - dyn365-developer
-  - dyn365-marketing
+title: "Build an approvals feature (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
+description: "Build an approvals feature that utilizes Dynamics 365 Marketing extensibility endpoints."
 ms.date: 08/01/2019
 ms.service: dynamics-365-marketing
-ms.technology: 
-  - marketing
-ms.topic: conceptual
-ms.assetid: 488e6a2f-81c8-41da-ad4d-bf349abcc468
-ms.author: nabuthuk
-author: Nkrb
-manager: kvivek
+ms.custom: 
+  - dyn365-marketing
+ms.topic: article
+author: alfergus
+ms.author: alfergus
+manager: shellyha
 search.audienceType: 
   - developer
 search.app: 
@@ -24,7 +20,7 @@ search.app:
 
 Dynamics 365 Marketing provides an infrastructure with extensibility features that offer new possibilities for developers, and one way to take advantage of this new extensibility is to create an approvals feature, possibly including integration with Power Automate.
 
-This topic outlines one way that you could develop an approvals feature for Marketing. The feature described here would enable organizations to implement an approval workflow in which most users can't make some types of important entities (such as emails, customer journeys, or segments) **Go live** right away. Instead, an approver must inspect each record and decide whether to allow it to **Go live**, or whether more work is needed. The approver is typically an administrator or manager who is specifically identified as an approver in the system.
+This topic outlines one way that you could develop an approvals feature for Marketing. The feature described here would enable organizations to implement an approval workflow in which most users can't make some types of important entities (such as emails, customer journeys, or segments) **Go live** right away. Instead, an approver must inspect each record and decide whether to allow it to **Go live**, or whether more work is needed. The approver is typically an administrator or manager who is identified as an approver in the system.
 
 > [!IMPORTANT]
 > The approval feature described here is intended to support a collaborative workflow among colleagues and helps prevent accidentally going live with an entity that is not yet ready. We recommend that you also develop plug-ins that prevent users from going live from any state that isn't approved and also prevent users from editing fields on the records that are in the approval-required, approved, or live state.
@@ -32,7 +28,7 @@ This topic outlines one way that you could develop an approvals feature for Mark
 <!--## Prerequisites-->
 
 <!--1. Download the [code]() for sample web resources and ribbon customizations.
-2. Sign up for or install the [Dynamics 365 Marketing](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/trial-signup) app. Make sure you are installing the latest version of the app.
+2. Sign up for or install the [Dynamics 365 Marketing](/dynamics365/customer-engagement/marketing/trial-signup) app. Make sure you are installing the latest version of the app.
 3. Obtain a license for [Power Automate](https://flow.microsoft.com/) to create a sample approvals feature.-->
 
 ## The approval process
@@ -86,7 +82,7 @@ The only limitations that remain to customize the Marketing solution are:
 
  5. Select **Edit Status Reason Transitions**, select the **ellipsis** (...) next to the options available, add the status reasons as shown below, and then select **OK**.
 
-    ![Status Reason Transitions](../media/marketing-status-reason-transition.png "Status Reason Transitions")
+    ![Status Reason Transitions.](../media/marketing-status-reason-transition.png "Status Reason Transitions")
 
 6. Create a new field **msdyncrm_restorestatuscode** of data type **Whole number**, which stores the previous state information.
 7. Inside the solution, create a new entity that can be named, for example, approvals. We use this entity to decide whether the user logged in the system is an approver or a marketer. 
@@ -95,13 +91,13 @@ The only limitations that remain to customize the Marketing solution are:
 
 ### Step 2: Create ribbon buttons
 
-To make our solution to work, we need to create three custom ribbon buttons, as explained below. To create custom ribbon buttons, see [Customize commands and the ribbon](https://docs.microsoft.com/dynamics365/customer-engagement/developer/customize-dev/customize-commands-ribbon) or use any of the tools available in the Microsoft community. 
+To make our solution to work, we need to create three custom ribbon buttons, as explained below. To create custom ribbon buttons, see [Customize commands and the ribbon](/dynamics365/customer-engagement/developer/customize-dev/customize-commands-ribbon) or use any of the tools available in the Microsoft community. 
 
 |Ribbon|Enable rules|Action|
 |-----|-------|------|
 |Approve|- Be an Approver <br/> - Be in Approval-required state| Move the entity to the **Approved** state.|
 |Reject| - Be an Approver <br/> - Be in Approval-required state| Move the entity back to the previous state (use the `msdyncrm_rstorestatuscode` field to retrieve).|
-|Ask approval| - Be a Marketer <br/> - Be in draft, error or stopped state| Store the actual state of the entity in the `msdyncrm_restorestatuscode` field, run a validation check on the entity, and if the entity is valid move the entity to the **Approval requested** state.|
+|Ask approval| - Be a Marketer <br/> - Be in draft, error, or stopped state| Store the actual state of the entity in the `msdyncrm_restorestatuscode` field, run a validation check on the entity, and if the entity is valid move the entity to the **Approval requested** state.|
 
 We must remove the possibility for the marketer to enter the **live editable** state. This is important because when a request for approval comes from a draft, error, or stopped state, and the approver decides to reject the changes, the changes are kept and it's up to the marketer to make new ones. This logic can't be applied to the live-editable state because if the approver rejects a live-editable record, it will revert back to live. If we were to keep the changes, the user could be confused because what they see in the form will be different from what is saved in our services. 
 
@@ -118,7 +114,9 @@ For our example, we will need to use two of the extensibility points mentioned a
 
 ### Step 4: Create two system views
 
-To easily identify the entities that are in the **Approval required** and **Approve** states, we suggest creating two system views in the customer journey entity to display all the entities that need approval, and all the entities that are already approved and waiting to **Go live**.  More information: [Create or edit a view](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-and-edit-views)
+To easily identify the entities that are in the **Approval required** and **Approve** states, we suggest creating two system views in the customer journey entity to display all the entities that need approval, and all the entities that are already approved and waiting to **Go live**.  More information: [Create or edit a view](/dynamics365/customer-engagement/customize/create-and-edit-views)
 
 ## See also
 [Build approvals feature using Power Automate](build-approval-feature-using-flow.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

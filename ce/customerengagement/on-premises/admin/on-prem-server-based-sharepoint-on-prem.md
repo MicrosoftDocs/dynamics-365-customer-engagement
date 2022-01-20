@@ -1,8 +1,9 @@
-﻿---
-title: Configure server-based authentication with Customer Engagement (on-premises) and SharePoint on-premises
+---
+title: Configure server-based authentication with Customer Engagement (on-premises) and SharePoint
+description: "Configure server-based authentication with Customer Engagement (on-premises) and SharePoint on-premises."
 ms:assetid: 26cad581-33b0-4025-9964-d289363c4245
-ms.date: 10/01/2019
-ms.prod: "crm-2016"
+ms.date: 12/16/2021
+ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -11,10 +12,13 @@ applies_to:
   - "Dynamics 365 (on-premises)"
 ms.author: matp
 author: Mattp123
-manager: kvivek
 ---
 
 # Configure server-based authentication with Customer Engagement (on-premises) and SharePoint on-premises
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 This topic describes how to configure server-based integration between Dynamics 365 Customer Engagement (on-premises) and Microsoft SharePoint On-Premises.
 
@@ -23,13 +27,9 @@ This topic describes how to configure server-based integration between Dynamics 
 Follow the steps, in the order provided, to set up Customer Engagement (on-premises) with Microsoft SharePoint Server On-Premises.
 
 > [!IMPORTANT]
-> <UL>
-> <LI>
-> <P>If a task isn’t completed, for example, if a PowerShell command returns an error message, the issue must be resolved before you continue to the next command, task, or step.</P>
-> <LI>
-> <P>Once you enable server-based SharePoint integration, you won't be able to revert to the previous client-based authentication method. Therefore, you can’t use the Microsoft Dynamics CRM List Component after you have configured your Customer Engagement (on-premises) organization for server-based SharePoint integration.</P>
-> <P></P></LI></UL>
-
+> - PowerShell commands should be run in administrator mode. See: [How do I launch PowerShell?](/powershell/scripting/learn/ps101/01-getting-started?view=powershell-7.2#how-do-i-launch-powershell)
+> - If a task isn’t completed, for example, if a PowerShell command returns an error message, the issue must be resolved before you continue to the next command, task, or step.
+> - Once you enable server-based SharePoint integration, you won't be able to revert to the previous client-based authentication method. Therefore, you can’t use the Microsoft Dynamics CRM List Component after you have configured your Customer Engagement (on-premises) organization for server-based SharePoint integration.
 
 
 ## Verify prerequisites
@@ -51,20 +51,22 @@ Before you configure Customer Engagement (on-premises) and SharePoint On-Premise
 ## SharePoint prerequisites
 
   - One of the following SharePoint versions:
+
+      - SharePoint 2019 On-Premises.
+
+        Server-based integration between Dynamics 365 Customer Engagement (on-premises) and Microsoft SharePoint 2019 On-Premises requires [Microsoft Dynamics 365 Server, v9.0 (on-premises) Update 0.13](https://www.microsoft.com/download/details.aspx?id=100875), or later version.
     
       - SharePoint 2016 On-Premises.
 
       - Microsoft SharePoint 2013 On-Premises with Service Pack 1 (SP1) or later version with the following updates.
-        
-          - [Hotfix KB2883081 for SharePoint Foundation 2013 August 12, 2014 (Sts-x-none.msp)](https://support2.microsoft.com/kb/2883081)
-        
-          - The following updates are prerequisites to KB2883081 and may also be required.
+
+          - Install the April 2019 Cumulative Update (CU) for the SharePoint 2013 product family. This April 2019 CU includes all SharePoint 2013 fixes (including all SharePoint 2013 security fixes) released since SP1. The April 2019 CU does not include SP1. You need to install SP1 before installing the April 2019 CU.
             
-              - <https://support2.microsoft.com/kb/2768000>
-            
-              - <https://support.microsoft.com/kb/2767999>
-            
-              - <https://support.microsoft.com/kb/2880963>
+              - [KB4464512](https://support.microsoft.com/help/4464512/april-9-2019-cumulative-update-for-sharepoint-foundation-2013-kb446451) – SharePoint Foundation 2013 April 2019 CU
+
+              - [KB4464514](https://support.microsoft.com/help/4464514/april-9-2019-cumulative-update-for-sharepoint-enterprise-server-2013-k) – SharePoint Server 2013 April 2019 CU
+
+              - [KB4464513](https://support.microsoft.com/help/4464513/april-9-2019-cumulative-update-for-project-server-2013-kb4464513) – Project Server 2013 April 2019 CU
 
   - SharePoint configuration
     
@@ -119,7 +121,9 @@ The CertificateReconfiguration.ps1 is a Windows PowerShell script that installs 
     
       - **serviceAccount** ‘*DomainName\\UserName*’ or ‘Network Service’.
             
-            serviceAccount 'contoso\\CRMWebAppServer' or ‘Network Service’. Required parameter that specifies the identity for the Web Application Server role. The identity is either a domain user account, such as *contoso\\CRMWebAppServer*, or Network Service. The identity will be granted permission to the certificate.
+      ```   
+      serviceAccount 'contoso\\CRMWebAppServer' or ‘Network Service’. Required parameter that specifies the identity for the Web Application Server role. The identity is either a domain user account, such as *contoso\\CRMWebAppServer*, or Network Service. The identity will be granted permission to the certificate.
+      ``` 
         
       - **updateCrm**. Adds the certificate information to the Microsoft Customer Engagement (on-premises) configuration database.
         
@@ -163,7 +167,9 @@ On the SharePoint on-premises server, in the SharePoint Management Shell, run th
 
 1.  If you are using a PowerShell management shell that is not the SharePoint Management Shell, you must register the SharePoint module using the following command.
     
-        Add-PSSnapin Microsoft.SharePoint.PowerShell
+    ``` 
+    Add-PSSnapin Microsoft.SharePoint.PowerShell
+    ``` 
     
     Enable the PowerShell session to make changes to the security token service for the SharePoint farm.
     
@@ -199,19 +205,13 @@ On the SharePoint on-premises server, in the SharePoint Management Shell, run th
     
 
     > [!IMPORTANT]
-    > <P>To complete these commands, the SharePoint App Management Service Application Proxy must exist and be running. For more information about how to start and configure the service, see the Configure the Subscription Settings and App Management service applications topic in [Configure an environment for apps for SharePoint](/SharePoint/administration/configure-an-environment-for-apps-for-sharepoint) .</P>
+    > To complete these commands, the SharePoint App Management Service Application Proxy must exist and be running. For more information about how to start and configure the service, see the Configure the Subscription Settings and App Management service applications topic in [Configure an environment for apps for SharePoint](/SharePoint/administration/configure-an-environment-for-apps-for-sharepoint).
 
     ```
-        $CrmRealmId = "CRMRealmId"
-    ```
-    ```
-        $Identifier  = "00000007-0000-0000-c000-000000000000@" + $CrmRealmId
-    ```
-    ```
-        $site = Get-SPSite "https://sharepoint.contoso.com/sites/crm/"
-    ```
-    ```
-        Register-SPAppPrincipal -site $site.RootWeb -NameIdentifier $Identifier -DisplayName "crm"
+    $CrmRealmId = "CRMRealmId"
+    $Identifier  = "00000007-0000-0000-c000-000000000000@" + $CrmRealmId
+    $site = Get-SPSite "https://sharepoint.contoso.com/sites/crm/"
+    Register-SPAppPrincipal -site $site.RootWeb -NameIdentifier $Identifier -DisplayName "crm"
     ```
 
 4.  Grant Customer Engagement (on-premises) access to the SharePoint site.
@@ -227,11 +227,12 @@ On the SharePoint on-premises server, in the SharePoint Management Shell, run th
     > <LI>
     > <P><EM>sitesubscription</EM>. Grants Customer Engagement (on-premises) permission to all websites in the SharePoint farm, including all site collections, websites, and subsites.</P></LI></UL>
 
-    
-        $app = Get-SPAppPrincipal -NameIdentifier $Identifier -Site $site.Rootweb
-        Set-SPAppPrincipalPermission -AppPrincipal $app -Site $site.Rootweb -Scope "sitecollection" -Right "FullControl" -EnableAppOnlyPolicy
-        #"Set up claims-based authentication mapping"
-        New-SPClaimTypeMapping -IncomingClaimType "https://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress" -IncomingClaimTypeDisplayName "EmailAddress" -SameAsIncoming
+    ``` 
+    $app = Get-SPAppPrincipal -NameIdentifier $Identifier -Site $site.Rootweb
+    Set-SPAppPrincipalPermission -AppPrincipal $app -Site $site.Rootweb -Scope "sitecollection" -Right "FullControl" -EnableAppOnlyPolicy
+    #"Set up claims-based authentication mapping"
+    New-SPClaimTypeMapping -IncomingClaimType "https://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress" -IncomingClaimTypeDisplayName "EmailAddress" -SameAsIncoming
+    ``` 
 
 ## Run the Enable Server-Based SharePoint Integration wizard
 
@@ -265,17 +266,19 @@ After you complete Customer Engagement (on-premises) and SharePoint On-Premises 
 
 On the Windows Server where SharePoint Server On-Premises is running, open the SharePoint Management Shell and run the following commands.
 
-    Add-Pssnapin *
-    # Access WellKnown App principal
-    [Microsoft.SharePoint.Administration.SPWebService]::ContentService.WellKnownAppPrincipals
+``` 
+Add-Pssnapin *
+# Access WellKnown App principal
+[Microsoft.SharePoint.Administration.SPWebService]::ContentService.WellKnownAppPrincipals
     
-    # Create WellKnown App principal
-    $ClientId = "00000007-0000-0000-c000-000000000000"
-    $PermissionXml = "<AppPermissionRequests AllowAppOnlyPolicy=""true""><AppPermissionRequest Scope=""https://sharepoint/content/tenant"" Right=""FullControl"" /><AppPermissionRequest Scope=""https://sharepoint/social/tenant"" Right=""Read"" /><AppPermissionRequest Scope=""https://sharepoint/search"" Right=""QueryAsUserIgnoreAppPrincipal"" /></AppPermissionRequests>"
+# Create WellKnown App principal
+$ClientId = "00000007-0000-0000-c000-000000000000"
+$PermissionXml = "<AppPermissionRequests AllowAppOnlyPolicy=""true""><AppPermissionRequest Scope=""https://sharepoint/content/tenant"" Right=""FullControl"" /><AppPermissionRequest Scope=""https://sharepoint/social/tenant"" Right=""Read"" /><AppPermissionRequest Scope=""https://sharepoint/search"" Right=""QueryAsUserIgnoreAppPrincipal"" /></AppPermissionRequests>"
     
-    $wellKnownApp= New-Object -TypeName "Microsoft.SharePoint.Administration.SPWellKnownAppPrincipal" -ArgumentList ($ClientId, $PermissionXml)
-    
-    $wellKnownApp.Update()
+$wellKnownApp= New-Object -TypeName "Microsoft.SharePoint.Administration.SPWellKnownAppPrincipal" -ArgumentList ($ClientId, $PermissionXml)
+     
+$wellKnownApp.Update()
+``` 
 
 ## Troubleshooting Customer Engagement (on-premises) to SharePoint Server On-Premises server-based integration
 
@@ -296,12 +299,12 @@ By default, server-based authentication between Customer Engagement (on-premises
 2. On the toolbar, select **…**, and then select **Form Editor**.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/open-form-editor.png "Open editor for user form")
+   > ![Open editor for user form.](media/open-form-editor.png "Open editor for user form")
 
 3. Find the **SharePoint Email Address** field in the **Field Explorer** pane and drag and drop it on the **User Information** section of the user form.  
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/add-sharepoint-email-user-form.png "Add SharePoint email address field on user form")
+   > ![Add SharePoint email address field on user form.](media/add-sharepoint-email-user-form.png "Add SharePoint email address field on user form")
 
 4. On the form editor toolbar select **Save**, and then select **Publish**. 
 5. Close the form editor and refresh the web browser tab to display the newly added field on the user record. 
@@ -338,7 +341,9 @@ The following procedure creates a personal information exchange file (.pfx).
 
 Run the following PowerShell command in the SharePoint Management Shell, where *https://sharepoint.contoso.com/sites/crm/* is the URL for the SharePoint site collection.
 
-    Get-SPAuthenticationRealm -ServiceContext https://sharepoint.contoso.com/sites/crm/
+``` 
+Get-SPAuthenticationRealm -ServiceContext https://sharepoint.contoso.com/sites/crm/
+``` 
 
 Alternatively, you can find the SharePoint realm ID in the site app permissions setting of the SharePoint site collection.
 
@@ -349,3 +354,4 @@ Alternatively, you can find the SharePoint realm ID in the site app permissions 
 3.  The realm ID is displayed under **App Identifier** to the right of the @ sign. Copy it to the clipboard. In the Enable Server-Based SharePoint Integration wizard, paste in only the GUID. Do not paste in any part of the identifier to the left of @.
 
 
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

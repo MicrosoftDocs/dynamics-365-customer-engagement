@@ -3,8 +3,8 @@ title: "Configure Azure integration with Dynamics 365 Customer Engagement (on-pr
 description: "The topic describes configuring Azure integration with Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
 ms.date: 05/16/2018
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,15 +17,14 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Configure Azure integration with Dynamics 365 Customer Engagement (on-premises)
 
 You can post the message request data for the current core operation to cloud hosted applications listening on the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)]. To enable this capability in Dynamics 365 Customer Engagement (on-premises), perform the tasks detailed in this topic.  
 
 > [!NOTE]
-> These instructions apply to Online deployments only. For on-premises deployments, see documentation for the most recent on-premises release at [Dynamics CRM 2016 SDK: Configure Azure integration with Microsoft Dynamics 365 Customer Engagement apps](https://msdn.microsoft.com/library/gg309340.aspx)
+> These instructions apply to Online deployments only. For on-premises deployments, see documentation for the most recent on-premises release at [Dynamics CRM 2016 SDK: Configure Azure integration with Microsoft Dynamics 365 Customer Engagement apps](/previous-versions/dynamicscrm-2016/developers-guide/gg309340(v=crm.8))
   
 
 <a name="bkmk_configureappfabric"></a>
@@ -40,7 +39,7 @@ For instructions on configuring authorization see [Walkthrough: Configure Micros
 
 After configuring [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] integration, you will need to perform these additional tasks.  
   
-1. Write and register a listener application with a [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] solution endpoint. For more information, see the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] [documentation](https://azure.microsoft.com/documentation/articles/service-bus-fundamentals-hybrid-solutions/).  
+1. Write and register a listener application with a [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] solution endpoint. For more information, see the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] [documentation](/azure/service-bus-messaging/service-bus-messaging-overview).  
   
 2. Register a [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] aware plug-in or a [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] aware custom workflow activity with Dynamics 365 Customer Engagement (on-premises). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Walkthrough: Register an Azure-aware Plug-in with Plug-in Registration Tool](walkthrough-register-azure-aware-plug-in-using-plug-in-registration-tool.md)  
   
@@ -81,3 +80,6 @@ For [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] on-premises and 
 [Using the Provided Azure Plug-in](work-data-azure-solution.md)<br />
 [Writing a Listener for a Azure Solution](write-listener-application-azure-solution.md)<br />
 [Azure Platform – Getting Started](https://www.microsoft.com/windowsazure/learn/get-started/)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

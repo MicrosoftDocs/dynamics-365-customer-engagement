@@ -1,17 +1,14 @@
 ---
-title: "Check your message for errors and prepare it for delivery (Dynamics 365 Marketing) | Microsoft Docs "
-description: "Learn how to finalize your email message, check it for errors, go live, and schedule it for delivery using a customer journey in Dynamics 365 Marketing"
-ms.date: 08/21/2019
+title: "Check your message for errors and prepare it for delivery (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Learn how to finalize your email message, check it for errors, go live, and schedule it for delivery using a customer journey in Dynamics 365 Marketing."
+ms.date: 04/07/2020
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 8ced29cc-48df-4e8b-a4a9-1a850105b2b7
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -76,3 +73,5 @@ Once you start delivering an email message using a customer journey, Dynamics 36
 [Add dynamic content to email messages](dynamic-email-content.md)  
 [Set the sender, receiver, language, and legal designation](email-properties.md) 
 [Check your work using previews and test sends](email-preview.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: "ImportEntityMapping Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the ImportEntityMapping entity."
 ms.date: 04/02/2019
-ms.service: "crm-online"
+ms.prod: d365ce-op
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
@@ -10,9 +10,7 @@ ms.author: "kvivek"
 manager: "annbe"
 search.audienceType: 
   - developer
-search.app: 
-  - PowerApps
-  - D365CE
+
 ---
 # ImportEntityMapping Entity Reference
 
@@ -617,3 +615,5 @@ See systemuser Entity [lk_importentitymapping_modifiedby](systemuser.md#BKMK_lk_
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.importentitymapping?text=importentitymapping EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -3,8 +3,8 @@ title: "Create and manage custom business apps using code for Dynamics 365 Custo
 description: "Learn about how to create, manage, and publish business apps in Customer Engagement using code. Dynamics 365 Customer Engagement business apps are purpose built that provide a limited set of functionality that is relevant for a particular area of work."
 ms.custom: 
 ms.date: 03/04/2019
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -15,8 +15,7 @@ author: KumarVivek
 ms.author: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Create and manage custom business apps in Customer Engagement using code
 
@@ -266,10 +265,13 @@ Use the DELETE request to delete a business app. For example:
 
 You can use the following client APIs to work with business apps:
 
-- [getCurrentAppName](clientapi/reference/xrm-utility/getglobalcontext/getcurrentappname.md)
-- [getCurrentAppProperties](clientapi/reference/xrm-utility/getglobalcontext/getCurrentAppProperties.md)
-- [getCurrentAppUrl](clientapi/reference/xrm-utility/getglobalcontext/getCurrentAppUrl.md) 
+- [getCurrentAppName](/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Utility/getGlobalContext/getCurrentAppName)
+- [getCurrentAppProperties](/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Utility/getGlobalContext/getCurrentAppProperties)
+- [getCurrentAppUrl](/powerapps/developer/model-driven-apps/clientapi/reference/Xrm-Utility/getGlobalContext/getCurrentAppUrl) 
   
 ### See also  
 [Design custom business apps by using the app designer](../customize/design-custom-business-apps-using-app-designer.md)
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

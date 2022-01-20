@@ -1,14 +1,10 @@
 ---
 title: "FindIEFrame in Unified Service Desk | MicrosoftDocs"
 description: "The topic describes the attributes of <FindIEFrame> that searches for an application by its caption and selects a DOM of the window or a specific frame within a window."
-ms.custom: 
-  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - customizer
@@ -16,6 +12,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # FindIEFrame in Unified Service Desk
 `<FindIEFrame>` tag searches for an application by its caption and selects a `DOM` of the window or a specific frame within a window. An example is a pop-up window. This tag can explore the pop-up window regardless of how it stands in relation to the hosted web application. This topic describes the attributes of `<FindIEFrame>`  
@@ -52,3 +50,6 @@ text to match against window caption
 ### See also  
  [WebDDA](../unified-service-desk/web-dda.md)   
  [Use Data Driven Adapters (DDAs)](../unified-service-desk/use-data-driven-adapters-ddas.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

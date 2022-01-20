@@ -1,6 +1,6 @@
 ## Syntax
 
-`Microsoft.CIFramework.getMode(value).then(successCallback, errorCallback);`
+`Microsoft.CIFramework.getMode().then(successCallback, errorCallback);`
 
 ## Parameters
 

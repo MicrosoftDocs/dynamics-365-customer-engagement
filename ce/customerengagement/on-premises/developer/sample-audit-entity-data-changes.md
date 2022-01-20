@@ -3,9 +3,9 @@ title: "Sample: Audit entity data changes | MicrosoftDocs"
 description: "Sample demonstrating how to audit entity data changes."
 keywords: 
 ms.date: 03/29/2019
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: audit
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: d30356c5-da29-4466-8356-ec3d1acad578
@@ -24,8 +24,6 @@ helpviewer_keywords:
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 
 # Sample: Audit entity data changes
@@ -61,3 +59,6 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 
 Display an option to delete the sample data that is created in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

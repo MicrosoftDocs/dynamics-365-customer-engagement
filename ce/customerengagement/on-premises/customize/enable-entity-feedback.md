@@ -1,10 +1,10 @@
 ---
-title: "Enable an entity for feedback | MicrosoftDocs"
-description: "Learn how to enable feedback for an entity"
+title: "Enable entity feedback in Dynamics 365 Customer Engagement (on-premises)"
+description: "Follow these steps to enable user feedback on an entity record. You can also allow entity ratings and show the ratings in a rollup field on a form."
 ms.custom: 
 ms.date: 04/29/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -18,12 +18,11 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
-# Enable an entity for feedback/ratings
+# Enable an entity for feedback and ratings
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Configure an entity for feedback/ratings](/powerapps/maker/common-data-service/configure-entity-feedback)
 
 Let customers write feedback for any entity record, or rate entity records within a defined rating range by enabling entities for feedback.  
   
@@ -90,3 +89,6 @@ Let customers write feedback for any entity record, or rate entity records withi
   
 ### See also  
  [Submit feedback or ratings for Dynamics 365 for Customer Engagement records](../basics/submit-feedback-ratings.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

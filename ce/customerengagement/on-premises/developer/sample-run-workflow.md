@@ -4,10 +4,10 @@ description: "This sample demonstrates how to programmatically execute a workflo
 ms.custom: 
 ms.date: 1/14/2020
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: c32a634c-3e01-42cd-b3ed-d1a89586b1cc
@@ -17,8 +17,6 @@ ms.author: jdaly
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 # Sample: Run a workflow
 
@@ -47,3 +45,6 @@ Consult the sample's [README](https://github.com/microsoft/PowerApps-Samples/blo
  [Processes in Dynamics 365 Customer Engagement (on-premises)(formerly Workflows)](automate-business-processes-customer-engagement.md)   
  <xref:Microsoft.Crm.Sdk.Messages.ExecuteWorkflowRequest>   
 <xref:Microsoft.Xrm.Sdk.IOrganizationService>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

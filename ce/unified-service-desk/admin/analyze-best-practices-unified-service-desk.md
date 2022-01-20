@@ -1,12 +1,10 @@
 ---
-title: "Analyze best practices in Unified Service Desk | MicrosoftDocs"
-description: "Learn about the best practices analyzer, which performs analysis on the Internet Explorer settings, Unified Service Desk configurations in the Common Data Service platform, and system configurations on which you install Unified Service Desk, and displays a report to review and mitigate the issues."
+title: "Best Practices Analyzer in Unified Service Desk | MicrosoftDocs"
+description: "Learn about the Best Practices Analyzer that analyzes browser settings and configurations in Unified Service Desk."
 ms.date: 04/24/2018
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - admin
@@ -16,9 +14,11 @@ search.app:
 ---
 # Analyze best practices in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]
 
-Best practices are the guidelines about System Configurations, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], Internet Explorer settings, and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations in the Common Data Service platform. Consider these guidelines as our recommended way to use [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and serve your customers.
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
-Although deviating from best practices may not necessarily lead to a breakdown, they indicate crucial parameters that can result in poor performance, poor reliability, unexpected conflicts, increased security risks, or other potential problems. 
+This topic describes the best practices or guidelines for system configurations or browser settings that we recommend when you use [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
+
+Although deviating from best practices may not necessarily lead to a breakdown, they indicate crucial parameters that can result in poor performance, poor reliability, unexpected conflicts, increased security risks, or other potential issues. 
 
 ## What is [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]
 
@@ -29,7 +29,7 @@ The following table lists the categories against which [!INCLUDE[pn-best-practic
 
 |                                         Category name                                         |                                                                                                                                        Description                                                                                                                                        |
 |-----------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Configurations | [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Configurations are the configurations (hosted controls, actions, events, and so on) that you configure for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] in the Common Data Service platform. |
+| [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Configurations | [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Configurations are the configurations (hosted controls, actions, events, and so on) that you configure for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] in Dataverse. |
 |                                     System configurations                                     |                                          System configurations are the information about local computer hardware (RAM, operating system, and so on), and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] version.                                          |
 |                                  Internet Explorer settings                                   |                                                                              Internet Explorer settings are the settings (General, Security, Advanced, and so on) that you configure for Internet Explorer.                                                                               |
 
@@ -57,3 +57,6 @@ The following table lists the results of Severity level analysis.
 [Internet Explorer settings](../admin/internet-explorer-settings-bpa.md)
 
 [Unified Service Desk configurations](../admin/unified-service-desk-configurations-bpa.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

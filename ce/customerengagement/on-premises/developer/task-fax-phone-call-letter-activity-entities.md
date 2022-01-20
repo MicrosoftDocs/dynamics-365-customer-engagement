@@ -3,8 +3,8 @@ title: "Task, fax, phone call, and letter activity entities (Developer Guide for
 description: "Learn about entities that enable you to manage core activities that are performed in a relationship management solution"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -21,8 +21,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Task, fax, phone call, and letter activity entities
 
@@ -39,3 +38,6 @@ This section contains information about the entities that enable you to manage c
   
 ### See also  
  [Activity Entities](activity-entities.md) 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

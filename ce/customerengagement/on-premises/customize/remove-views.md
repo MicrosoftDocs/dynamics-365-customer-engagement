@@ -1,10 +1,10 @@
 ---
-title: "Delete or deactivate a view | MicrosoftDocs"
-description: "Learn how to delete or deactivate a view"
+title: "Delete a view from Dynamics 365 Customer Engagement (on-premises)"
+description: "You may have a view that you don’t want people to see. Depending on the type of view, you can either delete it or deactivate it."
 ms.custom: 
 ms.date: 01/08/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -18,19 +18,18 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Delete or deactivate a view 
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Delete or deactivate a model-driven app view](/powerapps/maker/model-driven-apps/remove-views)
   
 <a name="BKMK_RemoveViews"></a>   
 
  You may have a view that you don’t want people to see. Depending on the type of view, you can either delete it or deactivate it.  
   
 ### Delete a view  
- You can delete any custom public view. Use the steps in [Access view definitions](../customize/accessing-view-definitions.md) to find the view you want to delete and use the ![Delete button](../customize/media/delete.gif "Delete button")**Delete** command. Once you verify that you really want to delete it, the view will be permanently deleted.  
+ You can delete any custom public view. Use the steps in [Access view definitions](../customize/accessing-view-definitions.md) to find the view you want to delete and use the ![Delete button.](../customize/media/delete.gif "Delete button")**Delete** command. Once you verify that you really want to delete it, the view will be permanently deleted.  
   
  If you don’t want to delete the view permanently, you can deactivate it instead.  
   
@@ -49,3 +48,6 @@ search.app:
 
 ### See also
 [Create or edit a view](create-edit-views.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

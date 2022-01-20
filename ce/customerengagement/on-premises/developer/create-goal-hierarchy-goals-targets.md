@@ -3,8 +3,8 @@ title: "Create goal hierarchy, goals, and targets (Developer Guide for Dynamics 
 description: "This article discusses how to create a goal hierarchy, set and monitor the targets, specify the time period and who manages and owns a goal"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -35,8 +35,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Create goal hierarchy, goals, and targets
 
@@ -46,7 +45,7 @@ In preparation for goal management, you should specify a metric for a goal (amou
 ## Create Goal Hierarchy  
  Typically, the manager’s goal is an aggregate of the goals assigned to the team members. A manager decides on the overall goal for the organization and then divides the goal into individual goals for each person. In a large organization, a goal for the company could be a combination of regional goals. In a simple goal hierarchy that is shown here, the manager’s goal is composed of two salesperson goals.  
   
- ![Goals hierarchy](media/crm-v5s-em-goalshierarchy.png "Goals hierarchy")  
+ ![Goals hierarchy.](media/crm-v5s-em-goalshierarchy.png "Goals hierarchy")  
   
  The manager’s goal can be referred to as a parent goal, and the salesperson goals as child goals. A goal can have multiple child goals (one-to-many relationship) and be a child goal of another goal. The relationship between a parent goal record and a child goal record can also be described as a referential relationship, in which a child goal references the parent goal. If you delete a parent goal, the child goal is not deleted, only a reference to the parent goal is removed. For more information, see [Entity Relationship Behavior](entity-relationship-behavior.md).  
   
@@ -109,3 +108,6 @@ In preparation for goal management, you should specify a metric for a goal (amou
 ### See also  
  [Goal Management Entities](goal-management-entities.md)   
  [Define Goal Metric and Rollup Fields](define-goal-metric-rollup-fields.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

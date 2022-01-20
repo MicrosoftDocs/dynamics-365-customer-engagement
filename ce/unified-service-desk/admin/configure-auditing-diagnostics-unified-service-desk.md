@@ -1,24 +1,25 @@
 ---
-title: "Configure auditing and diagnostics in Unified Service Desk | MicrosoftDocs"
+title: "Configure audit and diagnostics in Unified Service Desk | MicrosoftDocs"
 description: "Learn how to set auditing and diagnostics."
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
 ms.date: 02/06/2018
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
+ms.topic: overview
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 tags: MigrationHO
 ---
-# Auditing and diagnostics overview
+# Audit and diagnostics overview
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 The **Audit & Diagnostics Settings** area provides centralized management for agent auditing and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] application diagnostic logging.
 
  Agent auditing helps organizations analyze agent productivity, identify gaps in process, and provide coaching and training that can all be used to further improve the customer service experience. Audit data in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is channeled to a listener that gives you control over where you channel audit logging, such as to a text file, windows event log, or data store.  
@@ -27,7 +28,7 @@ The **Audit & Diagnostics Settings** area provides centralized management for ag
 
  When you configure auditing and diagnostics in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], keep in mind the following functionality:  
 
-- How [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] auditing and diagnostics are configured and recorded is completely separate from the audit feature in the Common Data Service platform.  
+- How [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] auditing and diagnostics are configured and recorded is completely separate from the audit feature in Microsoft Dataverse.  
 
 - [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] auditing requires a Listener Hosted Control to record and save audit activity. Similarly, you can channel diagnostic logging using a Listener Hosted Control, but it’s not required, and by default, diagnostic logging is recorded on the local computer.  
 
@@ -61,7 +62,7 @@ The **Audit & Diagnostics Settings** area provides centralized management for ag
 > [!Note]
 > The procedure guides you to configure both auditing and diagnostics in a single record. Although you can configure individual records for auditing and diagnostics in the Audit & Diagnostics Settings record.
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the down arrow next to Dynamics 365.
 
@@ -103,15 +104,15 @@ The **Audit & Diagnostics Settings** area provides centralized management for ag
    >  You must provide a Trace Source Setting record that contains a valid Listener Hosted Control that will be used to record the audit activity, or the audit activity will not be saved. For information about how to create a Listener Hosted Control, see [Create custom listeners for auditing, diagnostics and traces](../../unified-service-desk/create-custom-listeners-auditing-diagnostics-traces.md).  
 
   1. Select **Add Existing Trace Setting** in the Trace Source Settings section. The **Lookup Records** pane appears.
-    ![Select Add Existing Trace Source Setting](../../unified-service-desk/unified-interface/media/usd-add-existing-trace-source-settings.PNG "Select Add Existing Trace Source Setting")
+    ![Select Add Existing Trace Source Setting.](../../unified-service-desk/unified-interface/media/usd-add-existing-trace-source-settings.PNG "Select Add Existing Trace Source Setting")
 
   2. Type the name to search for the Trace Source Settings record. If the record is not available, you must select **+ New** to create a new trace source setting page. When you select **+ New**, a confirmation dialog appears. Ensure that you've saved the record before leave the page. Now, when you select **OK**, the **New Trace Source Setting** page appears.
 
-  ![Confirmation dialog to leave the page](../../unified-service-desk/unified-interface/media/usd-leave-page-confirmation-dialog.PNG "Confirmation dialog")
+  ![Confirmation dialog to leave the page.](../../unified-service-desk/unified-interface/media/usd-leave-page-confirmation-dialog.PNG "Confirmation dialog")
 
   3. Type the source name such as *Agent Auditing Trace Source for Azure Data Store*.
 
-   ![Create a new Trace Source Settings record](../../unified-service-desk/unified-interface/media/usd-create-trace-source-settings.PNG "Create a new Trace Source Settings record")  
+   ![Create a new Trace Source Settings record.](../../unified-service-desk/unified-interface/media/usd-create-trace-source-settings.PNG "Create a new Trace Source Settings record")  
 
   4. Select **Save**. After you save the trace source setting record, the **Listener Hosted Controls** section appears.
 
@@ -128,13 +129,13 @@ The **Audit & Diagnostics Settings** area provides centralized management for ag
 
 14. Select **Diagnostics Settings** tab and select **Add Existing Trace Setting** in the Trace Source Settings section. The **Lookup Records** pane appears. Type the name of trace source setting record you created in the search box, and select **Add**.
 
-     ![Add the new Trace Source Settings record](../../unified-service-desk/unified-interface/media/usd-select-existing-trace-source-settings.PNG "Add the new Trace Source Settings record")
+     ![Add the new Trace Source Settings record.](../../unified-service-desk/unified-interface/media/usd-select-existing-trace-source-settings.PNG "Add the new Trace Source Settings record")
 
 15. Select the **User Schema Settings** tab.
 
 16. Select the user entities and select the **>** to add.
 
-     ![Add the new User Schema Settings](../../unified-service-desk/unified-interface/media/usd-add-user-schema-settings.PNG "Add the new User Schema Settings")
+     ![Add the new User Schema Settings.](../../unified-service-desk/unified-interface/media/usd-add-user-schema-settings.PNG "Add the new User Schema Settings")
 
 17. Select **Save** to save the Audit & Diagnostics record.
 
@@ -144,7 +145,7 @@ The **Audit & Diagnostics Settings** area provides centralized management for ag
 
 ### Standard auditing by adding an audit flag  
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the down arrow next to Dynamics 365.
 
@@ -156,7 +157,7 @@ The **Audit & Diagnostics Settings** area provides centralized management for ag
 
 6. Type an audit flag name in the **Name** field and an appropriate value in the **Value** field.  
 
-   ![Add an audit flag in Unified Service Desk](../../unified-service-desk/unified-interface/media/usd-add-audit-flag.PNG "Add an audit flag in Unified Service Desk")  
+   ![Add an audit flag in Unified Service Desk.](../../unified-service-desk/unified-interface/media/usd-add-audit-flag.PNG "Add an audit flag in Unified Service Desk")  
 
    You can use the audit flags listed in this table.
 
@@ -173,7 +174,7 @@ The **Audit & Diagnostics Settings** area provides centralized management for ag
 
 7. Select **Save**.  
 
-8. To view audit logging, sign in to the Common Data Service platform, and then from a productivity area select **Advanced Find**. In the **Look for** list, select `UII Audit`, and then select **Results** to see all audit logging details.
+8. To view audit logging, sign in to the Dynamics 365 instance, and then from a productivity area select **Advanced Find**. In the **Look for** list, select `UII Audit`, and then select **Results** to see all audit logging details.
   
 
 <a name="Deactivate"></a>   
@@ -181,7 +182,7 @@ The **Audit & Diagnostics Settings** area provides centralized management for ag
 
 ### Deactivate a record
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the down arrow next to Dynamics 365.
 
@@ -199,7 +200,7 @@ The audit and diagnostics record is deactivated.
 
 ### Activate a record
 
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the down arrow next to Dynamics 365.
 
@@ -222,3 +223,6 @@ The audit and diagnostics record is activated.
  [Global Manager (Hosted Control)](../../unified-service-desk/global-manager-hosted-control.md)   
  [Administer and manage overview](../../unified-service-desk/admin/administer-manage-unified-service-desk.md)
  [Performance data collection using keyboard shortcut](../../unified-service-desk/admin/performance-data-collection-using-keyboard-shortcut.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

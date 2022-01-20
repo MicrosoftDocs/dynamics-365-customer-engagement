@@ -1,33 +1,24 @@
 ---
-title: "Share a schedule board tab in Universal Resource Scheduling | MicrosoftDocs"
-ms.custom: 
-  - dyn365-fieldservice
+title: "Share a schedule board tab in Universal Resource Scheduling"
+description: "Beyond using the default public schedule board tab, you can follow these steps to create a new schedule board tab and share it only with specific users."
 ms.date: 03/29/2019
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.service: dynamics-365-field-service
+ms.subservice: common-scheduler
+ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: LXHeinze
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
 search.app: 
   - D365CE
   - D365FS
 ---
 
 
-# Share a schedule board tab
+# Create and share a schedule board tab in Universal Resource Scheduling
 
 [!INCLUDE[topic-urs-share-schedule-board-tab.md](../shared/urs/share-schedule-board-tab.md)]
 
@@ -35,3 +26,6 @@ search.app:
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

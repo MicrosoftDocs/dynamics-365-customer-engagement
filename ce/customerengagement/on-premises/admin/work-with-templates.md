@@ -1,9 +1,10 @@
 ---
-title: "Work with templates (Dynamics 365 Customer Engagement (on-premises))  | MicrosoftDocs"
+title: "Use templates in Dynamics 365 Customer Engagement (on-premises)"
+description: "Use templates to speed up your work and improve consistency. There are templates for articles, emails, campaigns, Excel sheets, Word documents, and more."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -14,11 +15,9 @@ ms.author: jimholtz
 manager: brycho
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
-# Work with templates 
+# Use templates to improve consistency and speed
 
 You can use templates in Dynamics 365 Customer Engagement (on-premises) in a variety of ways to speed your work and improve consistency.
 
@@ -32,11 +31,11 @@ More information: [Create templates for articles](/power-platform/admin/create-t
 
 Knowledge article templates help knowledge authors by simplifying the process of creating knowledge articles. Templates also help knowledge managers and authors in maintaining consistency in branding, language, and structure.
 
-More information: [Create knowledge article template](/dynamics365/customer-service/create-templates-knowledge-article) in Dynamics 365 Customer Service documentation
+More information: [Create knowledge article template](../../../customer-service/create-templates-knowledge-article.md) in Dynamics 365 Customer Service documentation
 
 ## Email templates
 
-Save time when creating multiple email messages by making email templates. Email templates contain pre-filled data that you specify, so you don’t have to re-enter the same information for each article.
+Save time when creating multiple email messages by making email templates. Email templates contain pre-filled data that you specify, so you don't have to re-enter the same information for each article.
 
 More information: [Create templates for email](/power-platform/admin/create-templates-email) in the Power Platform admin documentation.
 
@@ -48,7 +47,7 @@ More information: [Work with mail merge templates](/power-platform/admin/work-ma
 
 ## Campaign templates
 
-Save time when creating multiple campaigns by creating a campaign template. Campaign templates contain pre-filled data that you specify, so you don’t have to reenter the same information for each campaign. You can either create a new campaign template or copy an existing campaign to use as a template.  
+Save time when creating multiple campaigns by creating a campaign template. Campaign templates contain pre-filled data that you specify, so you don't have to reenter the same information for each campaign. You can either create a new campaign template or copy an existing campaign to use as a template.  
   
 ### Create a campaign template  
   
@@ -83,11 +82,14 @@ More information: [Use entitlement templates to set up entitlements quickly](../
 
 Excel provides powerful ways to analyze and present your Dynamics 365 for Customer Engagement data. With Excel templates, you can easily create and share your customized analysis with others in your organization.
 
-More information: [Analyze and share your data with Excel templates][/power-platform/admin/analyze-your-data-with-excel-templates] in the Power Platform admin documentation
+More information: [Analyze and share your data with Excel templates](/power-platform/admin/analyze-your-data-with-excel-templates) in the Power Platform admin documentation
 
 ## Word templates
 
 After you create and import Office Word templates into Customer Engagement, with one click users can generate standardized documents automatically populated with Customer Engagement data.
 
-More information: [Use Word templates to create standardized documents](/power-platform/admin/using-word-templates) in the Power Platform admin documentation.
+More information: [Use Word templates to create standardized documents](/power-platform/admin/using-word-templates-dynamics-365) in the Power Platform admin documentation.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

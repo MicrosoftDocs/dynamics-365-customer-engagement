@@ -49,3 +49,6 @@ When you use [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outloo
 ### See also  
  [Do your Dynamics 365 apps work in Outlook using Dynamics 365 for Outlook](dynamics-365-work-outlook.md)   
  [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

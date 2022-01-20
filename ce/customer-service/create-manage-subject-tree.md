@@ -1,15 +1,11 @@
 ---
 title: Create and manage subject tree (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to create and manage subject tree in Dynamics 365 Customer Service
+ms.date: 01/14/2022
+ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/01/2018
-ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -17,54 +13,67 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Create and manage subjects in a subject tree
 
-Dynamics 365 Customer Service includes a subject organizational structure that lets you mark and categorize service cases, knowledge base articles, and products. By using the subject hierarchy, you can classify service cases to quickly provide service to your customer.
+Dynamics 365 Customer Service includes a subject organizational structure that lets you group service cases and knowledge base articles. By using the subject hierarchy, you can classify service cases to quickly provide service to your customer.
+
+  
+## Create or edit a subject
+
+[!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
+  
+
+1. In the Customer Service Hub site map, go to **Service Management** > **Subjects**. The **Subject tree** page appears.
+  
+2. In the **Subject tree management** area, select **Add**.  
+  
+3. In the **Create a subject** dialog, enter the following information:  
+  
+    - **Title**: Type a name for the subject.
+  
+    - **Parent Subject**: Search for and select a parent subject. Leave it blank if you want the new subject to be a parent subject.
+  
+    - **Description**: Type a descriptive statement about the subject.
+    
+    - Set the toggle for **Visibility** to **Yes** if you want the subject to be available for the agent.
+
+    :::image type="content" source="media/create-subject.png" alt-text="Create a subject.":::
+
+4. Select **Save and close**.
+
+5. To edit a subject, select a subject, and then select **Edit**. You can also select **More commands** to display the actions, such as **Edit** or **Add**, that you can take for the selected subject.
+
+    > [!NOTE]
+    > If you select a subject in the subject tree and select **Add**, clear the selection in the **Parent subject** box to make it a parent subject. Otherwise, the new subject will be added as a child of selected subject.
+
+## Delete a subject  
+
+To delete a subject from the subject tree, select the subject and select **Delete**.
+
+## Manage the subject tree
+
+The following options are available for subjects:
+
+- **Users can only select subjects without children in the subject tree**: Set the toggle to **On**. At runtime, users will be able to select only those subjects that don't have child subjects. This setting allows administrators to make sure that agents select only specific subjects.
+- **Show hidden subjects in the subject tree below**: Set the toggle to **Show**. In the subject tree, the subjects that are marked as hidden are displayed with the hidden icon. This setting allows administrators to preview the runtime functionality of the visibility of subjects to agents.
+- **Search**: Use the search option to search for a subject by name and perform the different actions that are allowed for the subject. The subject that you search fo is highlighted and displayed in the subject tree. This setting allows you to easily locate the subject and child subjects instead of manually scrolling through the subject list.
+
+    :::image type="content" source="media/using-subject-management.png" alt-text="Subject management at a glance.":::
+
+You can select **Open old subject management page** to use the older experience. However, to revert to the new experience, you'll need to navigate to **Subjects** from the site map,
 
 > [!NOTE]
-> With the latest release of Dynamics 365 Customer Service app, subjects in service management is available in the Customer Service Hub. You are recommended to create and manage subjects using the new experience.
-  
-## Create or edit a subject  
-
-1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
-  
-    #### Check your security role  
-  
-   - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
-  
-   - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)] 
-  
-1. In the Customer Service Hub sitemap, go to **Service Management** > **Subjects**.  
-  
-2.  To add a subject, select **Add Subject**.  
-  
-     -OR-  
-  
-     To edit a subject, in the subject tree, select a subject, and then  select **Edit Subject**.  
-  
-3.  In the **Subject** dialog box, enter the required information:  
-  
-    - **Title**: Type a name for the subject. This is a required field.  
-  
-    - **Parent Subject**: To search for and select a parent subject for the new subject, select the **Lookup** button.  
-  
-         -OR-  
-  
-         To make the new subject a parent subject, select the **Parent Subject** box.  
-  
-    - **Description**: Type a descriptive statement about the subject.  
-  
-4.  Select **Save**.  
-
-> [!NOTE]
-> If you select a subject in the subject tree and select **Add Subject**, select the **Parent Subject** box to make it a parent subject. If you do not select the box, the new subject will be added as a child of that subject.
-  
-## Remove a subject  
-
-To remove a subject from the subject tree, select the subject and select **Remove Subject**.
+> We recommend that you create not more than 1,000 subjects including child subjects to avoid performance issues.
 
 ### See also
 
-[Service Manager Guide (Customer Service Hub and Customer Service app)](service-manager-guide.md)
+[Configure Customer Service](configure-cs.md)  
+[Overview of case management](overview-cases.md)  
+[Enable search control for the subject entity](search-control-for-subjects.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

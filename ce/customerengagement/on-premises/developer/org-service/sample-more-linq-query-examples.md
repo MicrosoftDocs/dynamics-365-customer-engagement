@@ -3,8 +3,8 @@ title: "Sample: More LINQ query examples (Developer Guide for Dynamics 365 Custo
 description: "This sample shows how to create .NET Language-Integrated Query (LINQ) queries"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: "pehecke"
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: samples
@@ -17,8 +17,7 @@ ms.author: kvivek
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Sample: More LINQ query examples
 
@@ -48,3 +47,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
  [Build Queries with LINQ (.NET Language-Integrated Query)](build-queries-with-linq-net-language-integrated-query.md)   
  [Sample: Use LINQ with Late Binding](sample-create-linq-query-late-binding.md)   
  <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext>
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

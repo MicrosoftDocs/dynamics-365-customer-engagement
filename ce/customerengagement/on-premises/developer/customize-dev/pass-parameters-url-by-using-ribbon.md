@@ -3,8 +3,8 @@ title: "Pass parameters to a URL by using the ribbon (Developer Guide for Dynami
 description: "Learn about passing parameters to a URL by using the ribbon"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -19,8 +19,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Pass parameters to a URL by using the ribbon
 
@@ -80,3 +79,6 @@ https://myserver/mypage.aspx?orgname=AdventureWorksCycle&userlcid=1033&orglcid=1
  [Open Forms And Views with a URL](../open-forms-views-dialogs-reports-url.md)    
  [Define Ribbon Tab Display Rules](define-ribbon-tab-display-rules.md)   
  [Sample: Export Ribbon Definitions](sample-export-ribbon-definitions.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,9 +1,10 @@
 ---
-title: "Open the form editor (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Open form editor in Dynamics 365 Customer Engagement (on-premises)"
+description: "This page walks you through three ways to open the form editor: through the command bar, through the default solution, or through an unmanaged solution."
 ms.custom: 
 ms.date: 04/29/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -16,14 +17,11 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Open the form editor
 
- 
-
- You can access the form editor in Dynamics 365 Customer Engagement (on-premises) through the command bar or the ribbon, depending on the entity. Both of these methods open the form in the context of the default solution. If you create any new solution components in the process of editing the form, for example web resources, the names of the components will use the solution publisher customization prefix for the default solution and these components will only be included in the default solution. If you want any new solution components to be included in a specific unmanaged solution, you should open the form editor through that unmanaged solution.  
+You can access the form editor in Dynamics 365 Customer Engagement (on-premises) through the command bar or the ribbon, depending on the entity. Both of these methods open the form in the context of the default solution. If you create any new solution components in the process of editing the form, for example web resources, the names of the components will use the solution publisher customization prefix for the default solution and these components will only be included in the default solution. If you want any new solution components to be included in a specific unmanaged solution, you should open the form editor through that unmanaged solution.  
   
 ## Access the form editor through the command bar  
 > [!NOTE]
@@ -67,3 +65,6 @@ search.app:
  
 ### See also
  [Work with the form editor](work-with-form-editor.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

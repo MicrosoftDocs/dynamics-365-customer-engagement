@@ -1,18 +1,14 @@
 ---
 title: "Use designer feature protection (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to limit access to the content designer's HTML tab and Litmus previews in Dynamics 365 Marketing"
-keywords: content block;design element
-ms.date: 03/08/2019
+description: "How to limit access to the content designer's HTML tab and Litmus previews in Dynamics 365 Marketing."
+ms.date: 02/25/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 1893c4c9-8bfa-4156-a823-1b836199ea00
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -31,8 +27,7 @@ Designer feature protection lets you control which users have access to which fe
 
 To control access to these designer features:
 
-1. Go to **Settings** > **Designer feature protection**. This opens a list of currently defined protection rules, each of which shows which user or group is being denied access to which features. Each row sets a rule for exactly one user or group.    
-    ![Navigate to Designer feature protection](media/designer-protection-nav.png "Navigate to Designer feature protection")
+1. Go to **Settings** > **Email marketing** > **Designer feature protection**. This opens a list of currently defined protection rules, each of which shows which user or group is being denied access to which features. Each row sets a rule for exactly one user or group.
 
 1. Do one of the following:
     - To edit an existing rule, select it from the list and then choose **Edit** from the command bar (or double-click on it).
@@ -43,3 +38,6 @@ To control access to these designer features:
     - **User**: To apply protection to a specific user, choose a user name from this lookup field. Each rule can apply only to one team _or_ one user.
     - **Blocked features**: Use this lookup field to choose which features you want to hide from the specified user or team: HTML, Litmus, or both.
 1. Save your settings.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

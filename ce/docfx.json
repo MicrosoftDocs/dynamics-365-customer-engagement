@@ -2,6 +2,20 @@
   "build": {
     "content": [
       {
+        "group": "op-all",
+        "files": [
+          "customerengagement/on-premises/**/*.md",
+          "customerengagement/on-premises/**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "**/shared/**",
+          "**/_themes/**",
+          "**/_themes.pdf/**"
+        ]
+      },
+      {
         "group": "usd-all",
         "files": [
           "unified-service-desk/**/*.md",
@@ -24,6 +38,7 @@
           "**/obj/**",
           "**/includes/**",
           "**/shared/**",
+          "customerengagement/on-premises/**",
           "unified-service-desk/**",
           "**/_themes/**",
           "**/_themes.pdf/**",
@@ -35,6 +50,24 @@
       }
     ],
     "resource": [
+      {
+        "group": "op-all",
+        "files": [
+          "customerengagement/on-premises/**/*.png",
+          "customerengagement/on-premises/**/*.jpg",
+          "customerengagement/on-premises/**/*.gif",
+          "customerengagement/on-premises/**/*.html",
+          "customerengagement/on-premises/**/*.htm",
+          "customerengagement/on-premises/**/*.txt"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "**/shared/**",
+          "**/_themes/**",
+          "**/_themes.pdf/**"
+        ]
+      },
       {
         "group": "usd-all",
         "files": [
@@ -60,13 +93,15 @@
           "**/*.gif",
           "**/*.html",
           "**/*.htm",
-          "**/*.txt"
+          "**/*.txt",
+          "**/*.ico"
         ],
         "exclude": [
           "**/obj/**",
           "**/includes/**",
           "**/shared/**",
           "unified-service-desk/**",
+          "customerengagement/on-premises/**",
           "**/_themes/**",
           "**/_themes.pdf/**"
         ]
@@ -88,13 +123,33 @@
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/dynamics-365-customer-engagement",
       "feedback_product_url": "https://ideas.dynamics.com",
-      "search.appverid": "met150"
+      "search.appverid": "met150",
+      "recommendations": true
     },
     "fileMetadata": {
       "featureFlags": {
         "**/*.md": [
           "show_learn_banner"
         ]
+      },
+      "ms.service": {
+        "app-profile-manager/**/*.md": "dynamics-365-customerservice",
+        "customer-service/**/*.md": "dynamics-365-customerservice",
+        "legal/**/*.md": "dynamics-365-customerservice",
+        "linkedin/**/*.md": "dynamics-365-linkedinconnector",
+        "sales/**/*.md": "dynamics-365-sales",
+        "unified-service-desk/**/*.md": "dynamics-365-customerservice"
+      },
+      "ms.prod": {
+	"customerengagement/**/*.md": "d365ce-op"
+	    },
+      "ms.subservice": {
+        "customer-service/channel-integration-framework/**/*.md": "channel-integration-framework",
+        "unified-service-desk/**/*.md": "unified-service-desk"
+      },
+      "ms.topic": {
+        "legal/**/*.md": "article",
+	"customerengagement/**/*.md": "article"
       },
       "learn_banner_products": {
         "**/*.md": [
@@ -109,10 +164,7 @@
         "marketing/**/*.md": [
           "dynamics-marketing"
         ],
-        "sales-enterprise/**/*.md": [
-          "dynamics-sales"
-        ],
-        "sales-professional/**/*.md": [
+        "sales/**/*.md": [
           "dynamics-sales"
         ]
       },
@@ -126,31 +178,27 @@
         "**.*": "cebc/toc.yml",
         "unified-service-desk/**.*": "unified-service-desk/bc/toc.yml"
       },
+      "extendBreadcrumb": {
+        "**.*": true,
+        "unified-service-desk/**.*": true
+      },
       "searchScope": {
         "**.*": [
-          "Power Apps",
           "Dynamics 365"
         ],
         "customer-service/**.*": [
-          "Dynamics 365",
-          "Power Apps",
+          "Dynamics 365",          
           "Omnichannel",
           "Channel Integration Framework",
-          "Unified Service Desk",
+          "Unified Service Desk",          
           "Customer Service"
         ],
         "customerengagement/**.*": [
           "Dynamics 365",
-          "Customer Engagement"
-        ],
-        "customerengagement/on-premises/developer/**.*": [
-          "Dynamics 365",
-          "Customer Engagement",
-          "Developer"
-        ],
+          "Customer Engagement (on-premises)"
+        ],        
         "field-service/**.*": [
-          "Dynamics 365",
-          "Power Apps",
+          "Dynamics 365",          
           "Field Service"
         ],
         "gamification/**.*": [
@@ -159,11 +207,11 @@
         ],
         "linkedin/**.*": [
           "Dynamics 365",
-          "Customer Engagement"
+          "LinkedIn Sales Navigator",
+          "Sales"
         ],
         "marketing/**.*": [
-          "Dynamics 365",
-          "Power Apps",
+          "Dynamics 365",          
           "Marketing"
         ],
         "mobile-app/**.*": [
@@ -179,18 +227,12 @@
           "Dynamics 365"
         ],
         "project-service/**.*": [
-          "Dynamics 365",
-          "Power Apps",
+          "Dynamics 365",          
           "Project Service"
         ],
-        "sales-enterprise/**.*": [
+        "sales/**.*": [
           "Dynamics 365",
-          "Power Apps",
-          "Sales"
-        ],
-        "sales-professional/**.*": [
-          "Dynamics 365",
-          "Power Apps",
+	  "Power Apps",
           "Sales"
         ],
         "social-engagement/**.*": [
@@ -222,6 +264,14 @@
           "Unified Service Desk",
           "Omnichannel"
         ]
+      },
+      "search.app":{
+        "omnichannel/**.*": ["D365CE", "D365CS"],
+        "sales/**.*": ["D365CE", "D365Sales"],
+      },
+      "search.audienceType":{
+        "omnichannel/**.*": ["admin", "customizer", "enduser"],
+        "sales/**.*": ["admin", "customizer", "enduser"]
       }
     },
     "template": [],
@@ -230,6 +280,10 @@
       "usd-all": {
         "dest": "usd-all",
         "moniker_range": ">= dynamics-usd-3"
+      },
+      "op-all":{
+        "dest": "op-all",
+        "moniker_range":">= op-9-0"
       }
     },
     "markdownEngineName": "markdig"

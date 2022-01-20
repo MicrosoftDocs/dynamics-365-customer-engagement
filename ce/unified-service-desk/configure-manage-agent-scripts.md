@@ -1,14 +1,10 @@
 ---
 title: "Configure and manage agent scripts | MicrosoftDocs"
-description: "Learn about configuring and managing agent scripts."
-ms.custom: 
-  - dyn365-USD
+description: "Learn how to create an agent script task, how to add answers to an agent script task, and also how to add action calls to an answer."
 ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - customizer
@@ -16,6 +12,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Configure and manage agent scripts
 Each step in an agent script is represented as an agent script task. An agent script task can have one or more answers (choices) for the next steps; the answers are represented as a stack of buttons in the agent script area in your application. An action can be performed on selecting one of the answers or when you go to the next task. This topic provides information on how you can create an agent script task, and then configure it by adding answers, actions, and triggers.  
@@ -46,7 +44,7 @@ Each step in an agent script is represented as an agent script task. An agent sc
 
    The following image shows a typical agent script task definition.  
 
-   ![Sample agent script task](../unified-service-desk/media/usd-sample-agent-script-task.png "Sample agent script task")  
+   ![Sample agent script task.](../unified-service-desk/media/usd-sample-agent-script-task.png "Sample agent script task")  
 
 <a name="Answers"></a>   
 ## Add answers to an agent script task  
@@ -77,7 +75,7 @@ Each step in an agent script is represented as an agent script task. An agent sc
 
    The following image shows a typical answer definition.  
 
-   ![Sample agent script answer](../unified-service-desk/media/usd-sample-agent-script-answer.png "Sample agent script answer")  
+   ![Sample agent script answer.](../unified-service-desk/media/usd-sample-agent-script-answer.png "Sample agent script answer")  
 
 <a name="ActionCallsAnswers"></a>   
 ## Add action calls to an answer  
@@ -156,3 +154,6 @@ Each step in an agent script is represented as an agent script task. An agent sc
  [Agent Scripting (Hosted Control)](../unified-service-desk/agent-scripting-hosted-control.md)   
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)   
  [Overview of configuring agent application](../unified-service-desk/configure-agent-application-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

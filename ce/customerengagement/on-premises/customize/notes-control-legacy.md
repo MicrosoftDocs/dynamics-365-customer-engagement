@@ -1,9 +1,10 @@
 ---
-title: "Set up the Notes control to access information about posts (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Enable posts for a custom entity in Dynamics 365 Customer Engagement (on-premises)"
+description: "For custom entities where you've enabled notes and activities, you'll only see Notes and Activities. To include Posts, you must enable them for the entity."
 ms.custom: 
 ms.date: 04/29/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -16,10 +17,9 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
-# Set up the Notes control to access information about posts
+# Set up the Notes control to access information about posts for a custom entity
 
 
 
@@ -51,3 +51,6 @@ search.app:
 ||**Number of Rows**|Control the height of the notes control by selecting the number of rows the control occupies.|  
 ||**Automatically expand to use available space**|Instead of setting the height by a number of rows, you can allow the notes control height to expand to available space.|  
   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

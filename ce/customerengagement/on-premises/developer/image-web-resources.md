@@ -3,8 +3,8 @@ title: "Image web resources (Developer Guide for Dynamics 365 Customer Engagemen
 description: "Learn about using image web resources to make images available for use in Dynamics 365 Customer Engagement (on-premises). "
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -19,8 +19,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Image web resources
 
@@ -117,3 +116,6 @@ Use Vector Format (SVG) web resources for any icon presented in the application.
  [Using Data (XML) Web Resources](data-xml-web-resources.md)   
  [Using Silverlight (XAP) Web Resources](silverlight-xap-web-resources.md)   
  [Using Stylesheet (XSL) Web Resources](stylesheet-xsl-web-resources.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

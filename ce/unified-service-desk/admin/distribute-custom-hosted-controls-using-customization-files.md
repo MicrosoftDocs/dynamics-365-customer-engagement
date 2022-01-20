@@ -1,25 +1,26 @@
 ---
-title: "Distribute custom hosted controls using Customization Files with Unified Service Desk  | MicrosoftDocs"
-description: "Learn how to deploy customization files."
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+title: "Distribute custom hosted controls using customization files  | MicrosoftDocs"
+description: "Learn to create and update customization files to distribute custom hosted controls and functionality to agent computers."
 ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
+ms.topic: overview
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 tags: MigrationHO
 ---
 # Customization Files and how to distribute custom hosted controls overview
-Use the customization files feature to distribute custom hosted controls and functionality to agent computers. To control the distribution, create or update a customization file record and associate it with a configuration. When agents who are associated with the configuration sign in to the Common Data Service platform using the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client, the custom controls and functionality are downloaded to the agent’s computer and available for use.  
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
+Use the customization files feature to distribute custom hosted controls and functionality to agent computers. To control the distribution, create or update a customization file record and associate it with a configuration. When agents associated with the configuration sign in to the Dynamics 365 instance using the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client, the custom controls and functionality are downloaded to the agent’s computer and available for use.  
   
  To distribute custom controls and functionality:
   
@@ -39,7 +40,7 @@ Use the customization files feature to distribute custom hosted controls and fun
   
 ## Create or update a customization file record for custom functionality distribution  
   
-1. Sign in to the Common Data Service platform.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select the down arrow next to Dynamics 365.
 
@@ -62,7 +63,7 @@ Use the customization files feature to distribute custom hosted controls and fun
   
     To update an existing customization file record with a new customization compressed (.zip) folder, remove the existing zipped folder by selecting **X** next to the file. Then, select **Choose File**, and browse to the location of the compressed folder that contains the updated custom control and functionality files, and then select **Upload**.
 
-    ![Create or update customization file](../../unified-service-desk/unified-interface/media/usd-create-update-customization-file.PNG "Create or update customization file")
+    ![Create or update customization file.](../../unified-service-desk/unified-interface/media/usd-create-update-customization-file.PNG "Create or update customization file")
   
 9. Select **Save**.  
   
@@ -71,3 +72,6 @@ Use the customization files feature to distribute custom hosted controls and fun
 ## See also  
  [Administer and manage overview](../../unified-service-desk/admin/administer-manage-unified-service-desk.md)   
  [Migrate your Unified Service Desk configuration to another server](../../unified-service-desk/admin/migrate-unified-service-desk-configuration-dynamics-365-server.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

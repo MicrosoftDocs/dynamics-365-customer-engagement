@@ -2,8 +2,8 @@
 title: "Types of calendars (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -16,8 +16,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Types of calendars
 
@@ -47,3 +46,6 @@ The calendar entity was modified to support additional types of calendars in [!I
  [Calendar Entities](calendar-entities.md)   
  [Calendar Entity](entities/calendar.md)   
  <xref:Microsoft.Dynamics.CRM.calendarrule>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

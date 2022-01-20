@@ -1,27 +1,28 @@
 ---
 title: "Administer and manage Unified Service Desk | MicrosoftDocs"
-description: "Unified Service Desk administrators can start here to learn how to manage the application."
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+description: "As an administrator, use this topic to get started with effectively administering and managing your Unified Service Desk implementation."
 ms.date: 01/25/2017
-ms.service: 
-  - dynamics-365-customerservice
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 tags: 
   - NoHandoff
   - LinksOnlyTopic
 ---
-# Administer and manage overview
-This section provides information about [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] that helps you effectively administer and manage your implementation.  
+# Administer and manage Unified Service Desk
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
+This section provides information about [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to effectively administer and manage your implementation.  
   
 ## In this section  
  [Manage Options for Unified Service Desk](../../unified-service-desk/admin/manage-options-unified-service-desk.md)  
@@ -30,7 +31,7 @@ This section provides information about [!INCLUDE[pn_unified_service_desk](../..
   
  [Distribute custom host controls using Customization Files](../../unified-service-desk/admin/distribute-custom-hosted-controls-using-customization-files.md)  
   
- [Migrate your Unified Service Desk configuration to another Common Data Service platform server](../../unified-service-desk/admin/migrate-unified-service-desk-configuration-dynamics-365-server.md)
+ [Migrate your Unified Service Desk configuration to another Microsoft Dataverse server](../../unified-service-desk/admin/migrate-unified-service-desk-configuration-dynamics-365-server.md)
 
  [Performance enhancement for CRM entity page loads](../../unified-service-desk/admin/performance-enhancement-CRM-entity-page-loads.md)
 
@@ -43,3 +44,6 @@ This section provides information about [!INCLUDE[pn_unified_service_desk](../..
 [Overview of configuring agent application](../../unified-service-desk/configure-agent-application-unified-service-desk.md)  
   
 [Extend Unified Service Desk](../../unified-service-desk/extend-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

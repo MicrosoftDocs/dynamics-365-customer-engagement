@@ -1,9 +1,10 @@
 ---
-title: "Troubleshooting: User needs read-write access  | MicrosoftDocs"
+title: "Troubleshoot read-write access in Dynamics 365 Customer Engagement (on-premises)"
+description: "If a user doesn't have sufficient permissions, a system administrator must follow these steps to ensure that Read permission is set for User Entity UI Settings."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -14,16 +15,16 @@ ms.assetid: 516100e9-cc32-4e3a-bdff-1820f260ea41
 caps.latest.revision: 8
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
 ---
-# Troubleshooting: User needs read-write access
+# Troubleshoot read-write access for a user
 
-You don’t have sufficient permissions to access Dynamics 365 Customer Engagement (on-premises). A system administrator will need to do the following in the Customer Engagement (on-premises):  
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
+
+If you don’t have sufficient permissions to access Dynamics 365 Customer Engagement (on-premises), a system administrator will need to do the following:  
   
 1. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
   
@@ -31,7 +32,7 @@ You don’t have sufficient permissions to access Dynamics 365 Customer Engageme
   
 3. Open the user record.  
   
-4. Choose **More Commands** (![More commands button](../admin/media/not-available.gif "More commands button")) > **Manage Roles**.  
+4. Choose **More Commands** (![More commands button.](../admin/media/not-available.gif "More commands button")) > **Manage Roles**.  
   
 5. Make note of the role assigned to the user. If appropriate, select a different security role. Close the Manage User Roles dialog box.  
   
@@ -45,10 +46,13 @@ You don’t have sufficient permissions to access Dynamics 365 Customer Engageme
   
      If the security role is missing this permission, the system administrator will need to change this setting by clicking or tapping on it.  
   
-   ![User Entity UI settings](../admin/media/user-entity.png "User Entity UI settings")  
+   ![User Entity UI settings.](../admin/media/user-entity.png "User Entity UI settings")  
   
 > [!NOTE]
 >  If you have multiple security roles assigned, confirm that at least one assigned role has the User Entity UI Settings privilege set to the User level.  
   
 ### See also  
  [Manage security, users and teams](../admin/manage-security-users-and-teams.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

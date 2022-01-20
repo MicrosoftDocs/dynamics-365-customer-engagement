@@ -3,8 +3,8 @@ title: "Create an opportunity (Developer Guide for Dynamics 365 Customer Engagem
 description: "Learn about creating a new opportunity or an opportunity from a qualified lead. An opportunity contains sales information like quotes, sales orders, and invoices."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -34,8 +34,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Create an opportunity
 
@@ -124,3 +123,6 @@ You can create an opportunity from a qualified lead or you can create a new oppo
  [Sales Entities](sales-entities-lead-opportunity-competitor-quote-order-invoice.md)   
  [Customer Entities](customer-entities-account-contact.md)   
  [Create Early-Bound Entity Classes with the Code Generation Tool (CrmSvcUtil.exe)](org-service/create-early-bound-entity-classes-code-generation-tool.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

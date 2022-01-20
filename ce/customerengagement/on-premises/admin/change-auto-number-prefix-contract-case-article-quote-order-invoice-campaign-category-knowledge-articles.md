@@ -1,9 +1,10 @@
 ---
-title: "Change auto-numbering prefixes  | MicrosoftDocs"
+title: "Edit auto-numbering prefix in Dynamics 365 Customer Engagement (on-premises)"
+description: "If your organization has standard numbering formats, you can change the default three-character prefixes and number format to match your organization."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -14,14 +15,14 @@ ms.assetid: 13aa0eb0-537f-432e-ac26-706ebd511dbd
 caps.latest.revision: 39
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
 ---
-# Change auto-numbering prefixes for contracts, cases, articles, quotes, orders, invoices, campaigns, categories, and knowledge articles
+# Change auto-numbering prefixes
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 Contracts, cases, articles, quotes, orders, invoices, marketing campaigns, categories, and knowledge articles are automatically numbered by Dynamics 365 Customer Engagement (on-premises). If your organization has standard numbering formats, you can change the default three-character prefixes and number format to match your organization.  
   
@@ -47,3 +48,6 @@ Contracts, cases, articles, quotes, orders, invoices, marketing campaigns, categ
   
 ### See also  
  [Use solutions for your customizations](../customize/use-solutions-for-your-customizations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,9 +1,9 @@
 ---
-title: "Types of fields and field data types | MicrosoftDocs"
-description: "Understand the different field and data types available for your app"
+title: "Types of fields and field data in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn about the difference between simple, calculated, and rollup fields. Field data can include lines of text, currency, dates and times, images and more."
 keywords: 
 ms.date: 04/29/2019
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.topic: article
 applies_to: 
@@ -20,17 +20,16 @@ caps.latest.revision: 25
 topic-status: Drafting
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
 ---
+# Types of fields and field data
 
-# Types of fields and field data types
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Types of columns](/powerapps/maker/data-platform/types-of-fields)
 
+<a name="BKMK_TypesOfFields"></a>
 
+## Types of fields
 
-<a name="BKMK_TypesOfFields"></a>   
-## Types of fields  
- The following table contains information about the field types available.  
+The following table contains information about the field types available.  
 
 |Field type|Description|Available field data type|  
 |----------------|-----------------|-------------------------------|  
@@ -55,7 +54,7 @@ search.app:
 |     **Decimal Number**     |                                                                                                                                  Up to 10 decimal points of precision can be used for values between -100,000,000,000 and 100,000,000,000 can be in this field. You can specify the level of precision and the maximum and minimum values. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Using the right type of number](../customize/types-of-fields.md#BKMK_UsingTheRightTypeOfNumber)                                                                                                                                  |
 |        **Currency**        |                                                                                                                         Monetary values between -922,337,203,685,477 and 922,337,203,685,477 can be in this field. You can set a level of precision or choose to base the precision on a specific currency or a single standard precision used by the organization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Using Currency Fields](../customize/types-of-fields.md#BKMK_UsingCurrencyFields)                                                                                                                         |
 |     **Date and Time**      |                                                                                                                                                                                                                                                                                     This field has format options to display **Date Only** or **Date and Time**.                                                                                                                                                                                                                                                                                      |
-|         **Image**          |                                                                                                        Each entity that supports images can have one image field. When an entity has an image field, it can be configured to display the image for the record in the application. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Image fields](../customize/types-of-fields.md#BKMK_ImageFields), [Video: Dynamics CRM Image Data Type](https://www.youtube.com/watch?v=4J6eCAICcDQ&list=PLC3591A8FE4ADBE07&index=7)                                                                                                         |
+|         **Image**          |                                                                                                        Each entity that supports images can have one image field. When an entity has an image field, it can be configured to display the image for the record in the application. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Image fields](../customize/types-of-fields.md#BKMK_ImageFields) <!-- [Video: Dynamics CRM Image Data Type](https://www.youtube.com/watch?v=4J6eCAICcDQ&list=PLC3591A8FE4ADBE07&index=7) -->                                                                                                       |
 |         **Lookup**         |                                                                                                                                                                       A field that allows setting a reference to a single record of a specific type of entity. Some system lookup fields behave differently. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Different types of lookups](../customize/types-of-fields.md#BKMK_DifferentTypesOfLookups)                                                                                                                                                                       |
 |         **Owner**          |                                                                                                                                                                                                                                                                      A system lookup field that references the user or team that is assigned a user or team owned entity record.                                                                                                                                                                                                                                                                      |
 |   **Unique Identifier**    |                                                                                                                                                                                                                                                                                   A system field stores a globally unique identifier (GUID) value for each record.                                                                                                                                                                                                                                                                                    |
@@ -66,9 +65,9 @@ You can customize forms (main, quick create, and quick view) and email templates
 
 For example, if an organization operates in multiple areas or countries, you can include multiple locations or countries in an ‘Area of operation’ field. A user can then select one or more locations from the list of available values.
 
-Multi-select option set is only available in read-only grids, editable grids, and forms. Multi-select option set is not supported in: 
-- Workflows, Actions, Dialogs, Roll Ups, charts, and Calc fields.
-- Reports, SLA, and Routing Rule.
+Multi-select option sets can be used with read-only grids, editable grids, and most forms. Multi-select option sets can't be used with:
+- Workflows, business process flows, actions, dialogs, business rules, charts, rollup fields, or calculated fields.
+- Reports, SLA, or routing rules.
 
 Multi-select fields are supported in the following types of forms:
 
@@ -87,7 +86,7 @@ You can use global option sets that are defined in your organization to configur
 
 - Select New to create a global option set.
 
-    ![MultiSelect Option Set](../customize/media/MultiSelect_GlobalOptionSet.png "MultiSelect option Set") 
+    ![MultiSelect Option Set.](../customize/media/MultiSelect_GlobalOptionSet.png "MultiSelect option Set") 
 
 More information: [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Creating and editing global option sets](../customize/create-edit-global-option-sets.md)
 
@@ -109,7 +108,7 @@ More information: [!INCLUDE[proc_more_information](../includes/proc-more-informa
 |   **Text Area**   |                                                                                                                                                                                                                                                                                                                        This format option can be used to display multiple lines of text. But with a limit of 4000 characters, the Multiple Lines of Text field is a better choice if large amounts of text are expected.                                                                                                                                                                                                                                                                                                                         |
 |      **URL**      |                                                                                                                                                                                                                                                                                                 The text provides a hyperlink to open the page specified. Any text that does not begin with a valid protocol will have “https://” prepended to it.<br /><br /> Only HTTP, HTTPS, FTP , FTPS, ONENOTE and TEL protocols are allowed in this field.                                                                                                                                                                                                                                                                                                 |
 | **Ticker Symbol** |                                                                                                                                                                                                                                                    For most languages, the text will be enabled as a link to open the [MSN Money](https://money.msn.com/) website to show details about the stock price represented by the ticker symbol.<br /><br /> For certain East Asian languages the window will open [!INCLUDE[pn_bing](../includes/pn-bing.md)] search results for the ticker symbol.                                                                                                                                                                                                                                                     |
-|     **Phone**     | In the web application, fields will be click-enabled to initiate calls using either [!INCLUDE[pn_skype](../includes/pn-skype.md)] or [!INCLUDE[pn_Lync_Short](../includes/pn-lync-short.md)] if a client for either is installed on your computer. The telephony provider choice is at the bottom of the **General** tab of **System Settings**.<br /><br /> For [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)], [!INCLUDE[pn_skype](../includes/pn-skype.md)] is the only available telephony provider.<br /><br /> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Video: Dynamics CRM - Phone Number Format](https://www.youtube.com/watch?v=Ti2ZbXDkiIE&list=PLC3591A8FE4ADBE07&index=6) **Important:** [!INCLUDE[cc_lync_rebranded_skype_for_business](../includes/cc-lync-rebranded-skype-for-business.md)] |
+|     **Phone**     | In the web application, fields will be click-enabled to initiate calls using either [!INCLUDE[pn_skype](../includes/pn-skype.md)] or [!INCLUDE[pn_Lync_Short](../includes/pn-lync-short.md)] if a client for either is installed on your computer. The telephony provider choice is at the bottom of the **General** tab of **System Settings**.<br /><br /> For [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)], [!INCLUDE[pn_skype](../includes/pn-skype.md)] is the only available telephony provider.<br /><br /> <!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Video: Dynamics CRM - Phone Number Format](https://www.youtube.com/watch?v=Ti2ZbXDkiIE&list=PLC3591A8FE4ADBE07&index=6) -->**Important:** [!INCLUDE[cc_lync_rebranded_skype_for_business](../includes/cc-lync-rebranded-skype-for-business.md)] |
 
 <a name="BKMK_WholeNummberFormatOptions"></a>   
 ### Whole number format options  
@@ -120,7 +119,7 @@ More information: [!INCLUDE[proc_more_information](../includes/proc-more-informa
 |---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |   **None**    |                                                                                                                                                                                                                                                                                                                                                                 This option simply displays a number.                                                                                                                                                                                                                                                                                                                                                                 |
 | **Duration**  | This format option can be used to display a list of duration options. But the data stored in the database is always a number of minutes. The field looks like a drop-down list and provides suggested options like **1 minute**, **15 minutes**, **30 minutes** all the way up to **3 days**. People can choose these options. However, people can also just type in a number of minutes and it resolves to that period of time. For example, type in 60 and it resolves to 1 hour. Or they can enter “1 hour” or “2 days” and it will resolve to display that time.<br /><br /> The duration must be entered in the following format: “x minutes”, “x hours” or “x days”. Hours and days can also be entered using decimals, for example, “x.x hours” or “x.x days”.<br /><br />**NOTE:** Values must be expressible in minutes, sub-minute values will be rounded to the nearest minute.|
-| **Time Zone** |                                                                                                                                                   This option displays a select list of time zones such as **(GMT-12:00) International Date Line West** and **(GMT-08:00) Pacific Time (US & Canada)**. Each of these zones is stored as a number. For example, for the time zone **(GMT-08:00) Pacific Time (US & Canada)**, the TimeZoneCode is 4. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [TimeZoneCode Class (Sdk Assembly)](https://msdn.microsoft.com/library/bb959779.aspx)                                                                                                                                                    |
+| **Time Zone** |                                                                                                                                                   This option displays a select list of time zones such as **(GMT-12:00) International Date Line West** and **(GMT-08:00) Pacific Time (US & Canada)**. Each of these zones is stored as a number. For example, for the time zone **(GMT-08:00) Pacific Time (US & Canada)**, the TimeZoneCode is 4. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [TimeZoneCode Class (Sdk Assembly)](/previous-versions/dynamics-crm4/developers-guide/bb959779(v=msdn.10))                                                                                                                                                    |
 | **Language**  |                                                                                                                                                                                                                                                      This option displays a list of the languages provisioned for your organization. The values are displayed as a drop-down list of language names, but the data is stored as a number using LCID codes. [!INCLUDE[languagecode](../includes/languagecode.md)]                                                                                                                                                                                                                                                       |
 
 <a name="BKMK_UsingTheRightTypeOfNumber"></a>   
@@ -143,9 +142,11 @@ More information: [!INCLUDE[proc_more_information](../includes/proc-more-informa
 
 - A decimal field called **Exchange Rate** that provides the exchange rate for a selected currency associated with the entity with respect to the base currency. If this field is added to the form, people can see the value, but they can’t edit it. The exchange rate is stored with the currency.  
 
-  For each currency field you add, another currency field is added with the prefix “_Base” on the name. This field stores the calculation of the value of the currency field you added and the base currency. Again, if this field is added to the form, it can’t be edited.  
+  For each currency field you add, another currency field is added with the suffix “_Base” on the name. This field stores the calculation of the value of the currency field you added and the base currency. Again, if this field is added to the form, it can’t be edited.  
 
-  When you configure a currency field you can choose the precision value. There are essentially three options as shown in the following table.  
+  When you configure a currency field you can choose the precision value. There are essentially three options as shown in the following table.
+  > [!NOTE]
+> In the Unified Interface the currency format for a negative value is set by the user settings and does not use the system setting.
 
 |Option|Description|  
 |------------|-----------------|  
@@ -186,7 +187,7 @@ More information: [!INCLUDE[proc_more_information](../includes/proc-more-informa
 
  When image display is enabled for an entity, any records that don’t have an image will display a placeholder image. For example, the Lead entity:  
 
- ![Placeholder image for Lead entity form in Dynamics 365 for Customer Engagement](../customize/media/lead-entity-form.PNG "Placeholder image for Lead entity form in Dynamics 365 Customer Engagement (on-premises)")  
+ ![Placeholder image for Lead entity form in Dynamics 365 for Customer Engagement.](../customize/media/lead-entity-form.PNG "Placeholder image for Lead entity form in Dynamics 365 Customer Engagement (on-premises)")  
 
  People can choose the default image to upload a picture from their computer. Images must be less than 5120 KB and must one of the following formats:  
 
@@ -201,3 +202,6 @@ More information: [!INCLUDE[proc_more_information](../includes/proc-more-informa
   When the image is uploaded, it will be converted to a .jpg format and all downloaded images will also use this format. If an animated .gif is uploaded, only the first frame is saved.  
 
   When an image is uploaded, it will be resized to a maximum size of 144 pixels by 144 pixels. People should resize or crop the images before they upload them so that they will display well using this size. All images are cropped to be square. If both sides of an image are smaller than 144 pixels, the image will be cropped to be a square with the dimensions of the smaller side.  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

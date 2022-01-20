@@ -3,8 +3,8 @@ title: "Template entities (Developer Guide for Dynamics 365 Customer Engagement 
 description: "Learn about template entities that help you create layout and content in email messages, articles, contracts, mail merge documents, and Microsoft Office documents."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -20,8 +20,7 @@ ms.author: kvivek
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Template entities
 
@@ -48,3 +47,6 @@ In [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], th
  [Annotation (Note) Entity](annotation-note-entity.md)  
   
  [UserQuery (Saved View) Entity](userquery-saved-view-entity.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

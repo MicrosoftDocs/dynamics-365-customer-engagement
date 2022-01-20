@@ -1,8 +1,9 @@
 ---
 title: "Dynamics 365 Customer Engagement (on-premises) language support | Microsoft Docs"
+description: Learn about language support in Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: "crm-2016"
+ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -59,5 +60,8 @@ This section describes the supported configurations for different language versi
   
 ## See also     
  [Microsoft Dynamics 365 Customer Engagement (on-premises) system requirements and required technologies](system-requirements-required-technologies.md)   </br>
- [User Guide (Dynamics 365 for phones and tablets)](../../../mobile-app/dynamics-365-phones-tablets-users-guide.md)
+ [User Guide (Dynamics 365 for phones and tablets)](../basics/dynamics-365-phones-tablets-users-guide-onprem.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

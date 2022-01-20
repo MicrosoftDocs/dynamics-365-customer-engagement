@@ -1,9 +1,10 @@
 ---
-title: "Change navigation within a form (Dynamics 365 for Customer Engagement) | MicrosoftDocs"
+title: "Create custom apps in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn about creating custom apps in Customer Engagement (on-premises) and the components you can include such as forms, views, charts, and dashboards."
 ms.custom: 
 ms.date: 04/29/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -16,11 +17,10 @@ manager: kvivek
 author: Mattp123
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 
-# Customize or create apps
+# Create and customize apps
 
 
 
@@ -30,3 +30,6 @@ This section describes how to create apps and the components that you include in
 
 ### See also
 [Design custom business apps by using the app designer](design-custom-business-apps-using-app-designer.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

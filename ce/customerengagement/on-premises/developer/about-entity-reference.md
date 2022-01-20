@@ -3,8 +3,8 @@ title: "About Entity Reference (Developer Guide for Dynamics 365 Customer Engage
 description: "Use this reference to understand the available operations that can be performed for specific entities, the default attributes of each entity and the relationships between entities.(SDK). "
 ms.custom: 
 ms.date: 04/02/2019
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.topic: article
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
@@ -14,8 +14,7 @@ ms.author: kvivek
 manager: annbe
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # About the Entity Reference
 
@@ -76,3 +75,6 @@ In order to represent that there are no actual *Many-to-One* relationships with 
 
 ### Many-to-Many relationships
 Each Many-to-Many relationship includes <xref:Microsoft.Xrm.Sdk.Metadata.ManyToManyRelationshipMetadata.Entity1LogicalName> and <xref:Microsoft.Xrm.Sdk.Metadata.ManyToManyRelationshipMetadata.Entity2LogicalName>. For this documentation relationship details are only included in the topic for *Entity1*. Each Many-to-Many relationship where the entity is *Entity2* includes only a link to the details found in the topic for *Entity1*.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

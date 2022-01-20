@@ -3,8 +3,8 @@ title: "Enable document management for entities (Developer Guide for Dynamics 36
 description: "Document management can be enabled for customizable entities in Dynamics 365 Customer Engagement. To enable document management for an entity, set the EntityMetadata.IsDocumentManagementEnabled attribute value to true"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,8 +17,7 @@ ms.author: kvivek
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Enable document management for entities
 
@@ -47,3 +46,6 @@ Document management can be enabled for those entities in [!INCLUDE[pn_dynamics_c
  [SharePoint Extensions for Dynamics 365 Customer Engagement (on-premises)](integrate-sharepoint.md)   
  [Actions on SharePoint Location Records](actions-on-sharepoint-location-records.md)   
  [Sample: Enable SharePoint Integration](sample-enable-document-management-entities.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

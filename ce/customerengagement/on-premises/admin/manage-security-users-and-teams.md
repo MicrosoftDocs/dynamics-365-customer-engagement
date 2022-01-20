@@ -1,9 +1,10 @@
 ---
-title: "Manage security, users, and teams | MicrosoftDocs"
+title: "Manage security and users in Dynamics 365 Customer Engagement (on-premises)"
+description: "This page guides you to Information about managing security, users, and teams in Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,9 +18,7 @@ ms.author: matp
 manager: brycho
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # Manage security, users, and teams
 
@@ -27,3 +26,6 @@ The following section contains information about users, teams, and security in D
   
 ### See also  
 [User Settings Utility](https://www.xrmtoolbox.com/plugins/MsCrmTools.UserSettingsUtility/)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

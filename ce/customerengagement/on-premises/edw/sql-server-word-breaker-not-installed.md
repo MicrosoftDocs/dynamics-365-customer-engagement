@@ -26,3 +26,6 @@ ms.author: matp
   
 -   If full-text indexing is installed, but the word breaker for the selected language is not installed or is not available, the word breaker for the default instance of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)], which is English, will be used. Some third-party word breakers are supported with [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)]. Contact your vendor for more information. For more information about full-text search word breakers, see the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] documentation.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,9 +1,10 @@
 ---
-title: "Troubleshoot problems | MicrosoftDocs"
+title: "Troubleshoot issues in Dynamics 365 Customer Engagement (on-premises)"
+description: "Use the following list of troubleshooting topics to find information on solving issues regarding email integration, billing and licensing, security, and more."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,9 +18,7 @@ ms.author: jimholtz
 manager: brycho
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # Troubleshoot problems
 
@@ -27,7 +26,7 @@ We're sorry you're having a problem with Dynamics 365 Customer Engagement (on-pr
   
 ## Outlook and email integration  
   
--   [Frequently asked questions about synchronizing records between Customer Engagement (on-premises) and Outlook](frequently-asked-questions-synchronizing-records-dynamics-365-and-outlook.md)  
+-   [Frequently asked questions about synchronizing records between Customer Engagement (on-premises) and Outlook](frequently-asked-questions-synchronizing-records-dynamics-365-and-outlook.yml)  
   
 -   [Troubleshooting and monitoring server-side synchronization](troubleshooting-monitoring-server-side-synchronization.md)  
   
@@ -59,3 +58,6 @@ We're sorry you're having a problem with Dynamics 365 Customer Engagement (on-pr
 ## Other  
   
 -   [Troubleshoot problems with data not displaying in a report](../basics/troubleshoot-reports.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

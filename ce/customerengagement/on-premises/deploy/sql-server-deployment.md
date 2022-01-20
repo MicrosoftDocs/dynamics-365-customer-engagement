@@ -1,8 +1,9 @@
 ---
 title: "SQL Server deployment | Microsoft Docs"
+description: This article provides information about how SQL Server should be deployed to ensure the for the best experience with Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: "crm-2016"
+ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -17,16 +18,13 @@ manager: kvivek
 ---
 # SQL Server deployment
 
-
-
 If your organization uses [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] for applications other than [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], performance may degrade as resources are consumed by other applications. If you use a computer that is running [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] that is used for other applications, you must carefully analyze the effect that [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] will have on the existing installation of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)]. For information about monitoring [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)], see [Performance Monitoring and Tuning Tools](/sql/relational-databases/performance/performance-monitoring-and-tuning-tools?view=sql-server-2017).  
   
- For best results, we recommend that you maintain the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] databases on a computer that is running [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] and that will support only [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and no other databases or database applications.  
- 
-  
-<a name="BKMK_SQLServerDep"></a>   
-## SQL Server deployment considerations  
- [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] is a database-intensive application. Before you deploy [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to an instance of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)], you should consider the following requirements and database configurations:  
+For best results, we recommend that you maintain the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] databases on a computer that is running [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] and that will support only [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and no other databases or database applications.  
+
+## SQL Server deployment considerations
+
+[!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] is a database-intensive application. Before you deploy [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to an instance of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)], you should consider the following requirements and database configurations:  
   
 -   **Modification of system tables.** The [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] system tables should not be modified before you install [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)]. Some database applications may modify the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] system tables. If this occurs, problems with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and data may result.  
   
@@ -36,9 +34,9 @@ If your organization uses [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-serv
   
 -   **Autogrowth**. By default, [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization database files are created to have an autogrowth setting of 1 MB. If you perform intensive database transactions, such as large data imports, consider increasing the autogrowth value to improve performance. For information about how to change the autogrowth setting for a database, see the [!INCLUDE[pn_SQL_Server_Management_Studio](../includes/pn-sql-server-management-studio.md)] Help.  
   
--   **Max server memory.** We recommend that, if you run [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] on a computer that is also running other applications, that the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] max server memory be set to no more than one half of the installed RAM. By default, max server memory is set to 2147483647 megabytes in recent versions of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)], which has demonstrated resource issues with [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] during intensive use of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][MSDN: Server Memory Options](https://msdn.microsoft.com/library/ms178067.aspx)  
+-   **Max server memory.** We recommend that, if you run [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] on a computer that is also running other applications, that the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] max server memory be set to no more than one half of the installed RAM. By default, max server memory is set to 2147483647 megabytes in recent versions of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)], which has demonstrated resource issues with [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] during intensive use of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][MSDN: Server Memory Options](/sql/database-engine/configure-windows/server-memory-server-configuration-options)  
   
--   **Max degree of parallelism.** We recommend if you experience poor [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] performance, which can occur due to complex index statements, that the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] max degree of parallelism be set to 1 to help improve overall application performance on multiprocessor systems. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][MSDN: Configure max degree of parallelism Option](https://msdn.microsoft.com/library/ms189094.aspx)  
+-   **Max degree of parallelism.** We recommend if you experience poor [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] performance, which can occur due to complex index statements, that the [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] max degree of parallelism be set to 1 to help improve overall application performance on multiprocessor systems. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][MSDN: Configure max degree of parallelism Option](/sql/database-engine/configure-windows/configure-the-max-degree-of-parallelism-server-configuration-option)  
   
 -   **RCSI.** Running [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] that uses a [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] configured for read committed snapshot isolation (RCSI) is supported for use with this version of [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)].  
   
@@ -137,10 +135,13 @@ If your organization uses [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-serv
   
 <a name="OLTP"></a>   
 ## SQL Server In-Memory OLTP  
- Currently, [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] database tables do not support [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] in-memory online transaction processing (OLTP). For more information about OLTP, see [In-Memory OLTP (In-Memory Optimization)](https://technet.microsoft.com/library/dn133186.aspx).  
+ Currently, [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] database tables do not support [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] in-memory online transaction processing (OLTP). For more information about OLTP, see [In-Memory OLTP (In-Memory Optimization)](/sql/relational-databases/in-memory-oltp/in-memory-oltp-in-memory-optimization).  
   
 ## See Also  
  [SQL Server installation and configuration](sql-server-installation-and-configuration.md) </br>
  [SQL Server requirements and recommendations for Microsoft Dynamics 365](sql-server-requirements-recommendations.md)   
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

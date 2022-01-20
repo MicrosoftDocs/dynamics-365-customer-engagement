@@ -5,17 +5,16 @@ ms.custom:
 ms.date: 01/02/2020
 ms.reviewer: 
 ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 ms.assetid: 58197c02-43e2-4856-bf81-a37b32953b90
 author: KumarVivek
 ms.author: kvivek
 manager: annbe
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 # Sample: Add products to a bundle
 
@@ -56,3 +55,6 @@ Displays an option to delete all the data created in the sample. The deletion is
 ### See also  
  [Create and manage product families, products and bundles](create-manage-product-families-products-bundles-product-properties.md)</br/>   
  [Product catalog entities](product-catalog-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

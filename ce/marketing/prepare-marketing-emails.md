@@ -1,17 +1,14 @@
 ---
-title: "Overview of email marketing (Dynamics 365 Marketing) | Microsoft Docs "
-description: "Get an overview for how to create and send marketing email messages in Dynamics 365 Marketing"
+title: "Overview of email marketing (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Get an overview for how to create and send marketing email messages in Dynamics 365 Marketing."
 ms.date: 08/21/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
-ms.topic: article
-ms.assetid: 021f45f6-ed70-4979-a227-0631540b2516
+ms.topic: overview
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -83,3 +80,6 @@ Below is an overview of the general process for creating and sending a marketing
 [Set the sender, receiver, language, and legal designation](email-properties.md)
 [Check your work using previews and test sends](email-preview.md)  
 [Check for errors, go live, and deliver](email-check-golive.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

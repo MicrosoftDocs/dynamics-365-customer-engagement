@@ -3,8 +3,8 @@ title: "Define ribbon enable rules (Developer Guide for Dynamics 365 Customer En
 description: "Learn about defining specific rules to control when the ribbon elements are enabled during configuration of ribbon elements. "
 ms.custom: 
 ms.date: 02/08/2019
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -14,13 +14,12 @@ helpviewer_keywords:
   - ribbon, enable controls
 ms.assetid: f17819f8-e963-43e1-8895-36bf0cc32b0f
 caps.latest.revision: 27
-author: JesseParsons
-ms.author: jeparson
+author: hazhouMSFT
+ms.author: hazhou
 manager: annbe
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Define ribbon enable rules
 
@@ -73,9 +72,10 @@ Uses the  `<CrmClientTypeRule>` element to allow definition of rules depending o
  Uses the `<CustomRule>` element. Use this kind of rule to call a function in a JavaScript library that returns a Promise (Unified Interface) or boolean (Unified Interface and web client).
 
 ```JavaScript
-function EnableRule()
+function EnableRule(executionContext)
 {
-    const value = Xrm.Page.getAttribute("field1").getValue();
+    var formContext = executionContext.getFormContext();
+    const value = formContext.getAttribute("column1").getValue();
     return value === "Active";
 }
 ```
@@ -177,3 +177,6 @@ Uses the `<ValueRule>` element. Use this rule to check the value of a specific f
  [Customize commands and the ribbon](customize-commands-ribbon.md)   
  [Define Ribbon Commands](define-ribbon-commands.md)   
  [Define Ribbon Display Rules](define-ribbon-display-rules.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

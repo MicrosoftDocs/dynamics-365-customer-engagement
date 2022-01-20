@@ -3,11 +3,11 @@ title: "Sample: Retrieve an opportunity (early bound) (Developer Guide for Dynam
 description: "The sample demonstrates how to retrieve an opportunity and products related to the opportunity."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
@@ -20,8 +20,6 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 # Sample: Retrieve an opportunity (early bound)
 
@@ -43,3 +41,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
     
  [Opportunity Entities](opportunity-entities.md)   
  [Sample: Convert an Opportunity to a Quote (Early Bound)](sample-convert-opportunity-quote-early-bound.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

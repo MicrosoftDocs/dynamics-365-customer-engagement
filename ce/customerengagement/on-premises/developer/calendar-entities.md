@@ -2,8 +2,8 @@
 title: "Calendar entities (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 ms.custom: 
 ms.date: 10/10/2018
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -16,8 +16,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Calendar entities
 
@@ -53,3 +52,6 @@ The calendar entity stores data for customer service calendars and holiday sched
  [Service Entity](service-entity.md)  
   
  [Sample Code for Schedule and Appointment Entities](sample-code-schedule-appointment-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

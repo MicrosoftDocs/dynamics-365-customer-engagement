@@ -31,7 +31,7 @@ namespace Microsoft.Crm.Sdk.Samples
             
             if (context.ParentContext != null
                 && context.ParentContext.ParentContext != null
-                && context.ParentContext.ParentContext != null
+                && context.ParentContext.ParentContext.ParentContext != null
                 && context.ParentContext.ParentContext.ParentContext.SharedVariables.ContainsKey("CustomPrice")
                 && (bool)context.ParentContext.ParentContext.ParentContext.SharedVariables["CustomPrice"])
                 return;

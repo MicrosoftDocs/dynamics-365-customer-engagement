@@ -1,8 +1,9 @@
 ---
 title: "Configure OAuth settings to change the client session timeout | Microsoft Docs"
+description: Learn how to configure OAuth settings to change the session timeout in Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
 ms.date: "11/25/2019"
-ms.prod: "crm-2016"
+ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -56,3 +57,6 @@ if($RemoveSnapInWhenDone)
 > [!IMPORTANT]
 > - After you run the script run IISRESET on the Dynamics 365 Server running the Web Application server role. Additionally, clients must sign out and then sign in for the new setting to take effect. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

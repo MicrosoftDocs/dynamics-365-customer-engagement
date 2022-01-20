@@ -3,8 +3,8 @@ title: "Privilege and role entities (Developer Guide for Dynamics 365 Customer E
 description: "A privilege is a permission to perform an action on a specific entity type in Dynamics 365 Customer Engagement (on-premises). The platform checks for the privilege and fails if the user does not hold the privilege. A privilege has an associated access level that determines the depth within the organization to which the privilege applies."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -21,8 +21,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Privilege and role entities
 
@@ -34,7 +33,7 @@ A *privilege* is a permission to perform an action on a specific entity type in 
   
  The following illustration shows the entity relationships for this area. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Key to Entity Diagrams](key-entity-diagrams.md)  
   
- ![Privilege and role entity relationship diagram](media/role.png "Privilege and role entity relationship diagram")  
+ ![Privilege and role entity relationship diagram.](media/role.png "Privilege and role entity relationship diagram")  
   
 ### See also  
  [Role Entity](entities/role.md)   
@@ -45,3 +44,6 @@ A *privilege* is a permission to perform an action on a specific entity type in 
  [Sample: Remove a Role for a User](sample-remove-role-user.md)   
  [Sample: Retrieve the Roles for an Organization](sample-retrieve-roles-organization.md)   
  [Administration and Security Entities](administration-security-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

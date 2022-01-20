@@ -3,8 +3,8 @@ title: "Queue entities (Developer Guide for Dynamics 365 Customer Engagement)| M
 description: "Queues help in organizing, prioritizing, and monitoring the progress of your work while you are using Dynamics 365 Customer Engagement. Customizable entites can be enabled for queues, and queues are categorized into public or private queues."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -29,8 +29,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Queue entities
 
@@ -184,3 +183,6 @@ search.app:
  [Sample Code for Queue Entities](sample-code-queue-entities.md)   
  <xref:Microsoft.Crm.Sdk.Messages.AddToQueueRequest>   
  [Business Management Entities](business-management-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

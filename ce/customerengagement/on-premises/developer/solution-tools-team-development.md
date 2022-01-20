@@ -4,7 +4,7 @@ description: "This topic gives details about tools that can be used for team dev
 ms.custom: 
 ms.date: 03/29/2019
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,10 +17,11 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Solution tools for team development
+
+*This topic applies to Dynamics 365 Customer Engagement (on-premises). For the Power Apps version of this topic, see: [SolutionPackager tool](/power-platform/alm/solution-packager-tool)*
 
 A Dynamics 365 Customer Engagement (on-premises) solution is a compressed (.zip) file that contains multiple customized components that have been exported from a Dynamics 365 Server so that they may be transported and imported into another server. However, a solution file is a single binary file that does not lend itself to source code control or team development. There is no way for multiple developers to work on the custom components in the solution.  
   
@@ -31,11 +32,12 @@ A Dynamics 365 Customer Engagement (on-premises) solution is a compressed (.zip)
 ## In This Section  
  [Use the SolutionPackager Tool to Compress and Extract a Solution File](compress-extract-solution-file-solutionpackager.md)  
   
- [Use Source Control with Solution Files](use-source-control-solution-files.md)  
-  
- [Solution Component File Reference (SolutionPackager)](solution-component-file-reference-solutionpackager.md)  
+ [Use Source Control with Solution Files](use-source-control-solution-files.md)   
   
 ## Related Sections  
  [Developer Tools](developer-tools.md)  
   
  [Package and Distribute Extensions with Dynamics 365 Customer Engagement Solutions](package-distribute-extensions-use-solutions.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

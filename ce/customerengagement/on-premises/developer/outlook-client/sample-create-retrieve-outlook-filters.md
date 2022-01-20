@@ -2,8 +2,8 @@
 title: "Sample: Create and retrieve Outlook filters (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 ms.custom: 
 ms.date: 01/28/2020
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: samples
@@ -16,8 +16,7 @@ ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Sample: Create and retrieve Outlook filters
 
@@ -53,3 +52,6 @@ Display an option to delete the sample data that is created in [Setup](#setup). 
  [Offline and Outlook Filters and Templates](offline-outlook-filters-templates.md)   
  [SavedQuery Entity](../entities/savedquery.md)   
 <xref:Microsoft.Xrm.Sdk.IOrganizationService>
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

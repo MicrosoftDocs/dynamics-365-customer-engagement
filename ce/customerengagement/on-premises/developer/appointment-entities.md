@@ -3,8 +3,8 @@ title: "Appointment entities (Developer Guide for Dynamics 365 Customer Engageme
 description: "Overview of the appointment entity, which represents a commitment over a time interval with start and end times and a duration."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -16,8 +16,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Appointment entities
 
@@ -42,3 +41,6 @@ appointment instance, for other appointments at the same interval.
  [Appointment Entity](entities/appointment.md)  
   
  [ServiceAppointment Entity](entities/serviceappointment.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

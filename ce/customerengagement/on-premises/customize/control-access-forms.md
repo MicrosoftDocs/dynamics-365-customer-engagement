@@ -1,10 +1,10 @@
 ---
-title: "Control access to forms in Dynamics 365 for Customer Engagement | MicrosoftDocs"
-description: "Learn how to control acces to main forms"
+title: "Control access to forms in Dynamics 365 Customer Engagement (on-premises)"
+description: "There are two ways to control access to main forms. Learn how to make a form inactive or assign security roles to make it available only to certain groups."
 ms.custom: 
 ms.date: 06/18/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -18,12 +18,11 @@ manager: kvivek
 tags: 
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
-# Control access to forms
+# Control access to main forms
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Set security roles for a form](/powerapps/maker/model-driven-apps/control-access-forms#set-security-roles-for-a-form)
 
  There are two ways you can control access to main forms:  
   
@@ -78,3 +77,6 @@ The Client API form context (formContext) provides a reference to the form or to
 
 ### See also  
 [Assign security roles to forms](../admin/assign-security-roles-form.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

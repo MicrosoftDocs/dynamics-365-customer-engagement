@@ -38,12 +38,12 @@ To set up intervals, you need to:
 1. Navigate to **Universal Resource Scheduling > Fulfillment preferences > +New**. Enter a **name** and save.
 
 > [!div class="mx-imgBorder"]
->![Screenshot of navigation bar](../../common-scheduler/media/scheduling-fulfillment-navbar.png)
+>![Screenshot of navigation bar.](../../common-scheduler/media/scheduling-fulfillment-navbar.png)
 
 2. Navigate to the **Interval** tab.
 
 > [!div class="mx-imgBorder"]
->![Screenshot of fulfillment preferences from left navigation pane](../../common-scheduler/media/scheduling-fulfillment-30min-interval.png)
+>![Screenshot of fulfillment preferences from left navigation pane.](../../common-scheduler/media/scheduling-fulfillment-30min-interval.png)
 
 3. Enter a duration for **Interval**. This is the duration between available time slots. Typical examples include 30 minutes, 45 minutes, 1 hour, and 2 hours.
 
@@ -60,19 +60,19 @@ To set up intervals, you need to:
 Navigate to the requirement you want to schedule and specify the fulfillment preference.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of fulfillment preference lookup on requirement](../../common-scheduler/media/scheduling-fulfillment-requirement-form.png)
+> ![Screenshot of fulfillment preference lookup on requirement.](../../common-scheduler/media/scheduling-fulfillment-requirement-form.png)
 
 You can also associate the fulfillment preference from the requirement group entity, as seen in the following screenshot:
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of fulfillment preference lookup from requirement group control](../../common-scheduler/media/scheduling-fulfillment-requirement-group.png)
+> ![Screenshot of fulfillment preference lookup from requirement group control.](../../common-scheduler/media/scheduling-fulfillment-requirement-group.png)
 
 ### Book the requirement with the schedule assistant
 
 Select **Book** from the requirement ribbon. Note that the start times in the scheduling assistant appear in 30-minute intervals.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of fulfillment preference intervals and related schedule assistant start times](../../common-scheduler/media/scheduling-fulfillment-30min-schedule-assistant.png)
+> ![Screenshot of fulfillment preference intervals and related schedule assistant start times.](../../common-scheduler/media/scheduling-fulfillment-30min-schedule-assistant.png)
 
 For field service examples where resources perform multiple appointments each day, a shorter 15-minute interval is recommended. This makes for the most efficient use of resources with simplified start times.
 
@@ -90,12 +90,12 @@ To set up time groups, you need to:
 1. Navigate to **Universal Resource Scheduling > Fulfillment preferences > +New**. Enter a **name** and save.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of fulfillment preference in left navigation pane](../../common-scheduler/media/scheduling-fulfillment-navbar.png)
+> ![Screenshot of fulfillment preference in left navigation pane.](../../common-scheduler/media/scheduling-fulfillment-navbar.png)
 
 2. Navigate to the **Details** tab on the fulfillment preference record.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of adding time group details to a fulfillment preference](../../common-scheduler/media/scheduling-fulfillment-preferences-time-group-detail.png)
+> ![Screenshot of adding time group details to a fulfillment preference.](../../common-scheduler/media/scheduling-fulfillment-preferences-time-group-detail.png)
 
 3. Select **+Add New Time Group**.
 
@@ -105,19 +105,19 @@ To set up time groups, you need to:
     - **End Time** - 12:00 PM
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of time group detail record](../../common-scheduler/media/scheduling-fulfillment-preferences-time-group-detail-morning.png)
+> ![Screenshot of time group detail record.](../../common-scheduler/media/scheduling-fulfillment-preferences-time-group-detail-morning.png)
 
    Another time group might be "afternoon," between 1:00 PM and 5:00 PM (this leaves 12:00 PM to 1:00 PM unavailable, allowing for lunch).
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of second time group detail, one for morning and one for afternoon](../../common-scheduler/media/scheduling-fulfillment-preferences-time-group-detail-afternoon.png)
+> ![Screenshot of second time group detail, one for morning and one for afternoon.](../../common-scheduler/media/scheduling-fulfillment-preferences-time-group-detail-afternoon.png)
 
 ### Specify fulfillment preference on the resource requirement
 
 Navigate to the resource requirement you want to schedule, and specify the fulfillment preference.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of fulfillment preference lookup on requirement](../../common-scheduler/media/scheduling-fulfillment-preferences-time-group-requirement-form.png)
+> ![Screenshot of fulfillment preference lookup on requirement.](../../common-scheduler/media/scheduling-fulfillment-preferences-time-group-requirement-form.png)
 
 
 ### Book the requirement with the schedule assistant
@@ -127,15 +127,15 @@ Navigate to a resource requirement. Select **Book** from the ribbon menu to init
 The schedule assistant results show a column detailing the start and end times of the associated time group. These results can be sorted.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of time groups noted in schedule assistant results](../../common-scheduler/media/scheduling-fulfillment-preferences-time-group-detail-schedule-unsorted.png)
+> ![Screenshot of time groups noted in schedule assistant results.](../../common-scheduler/media/scheduling-fulfillment-preferences-time-group-detail-schedule-unsorted.png)
 
 Right-clicking on the column header allows schedulers to group by time group details (by selecting "Group"). This comes in handy when focusing on a specific time block that a customer prefers. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of grouping schedule assistant results by time groups](../../common-scheduler/media/scheduling-fulfillment-preferences-time-group-detail-group1.png)
+> ![Screenshot of grouping schedule assistant results by time groups.](../../common-scheduler/media/scheduling-fulfillment-preferences-time-group-detail-group1.png)
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of grouping time group details](../../common-scheduler/media/scheduling-fulfillment-preferences-time-group-detail-group2.png)
+> ![Screenshot of grouping time group details.](../../common-scheduler/media/scheduling-fulfillment-preferences-time-group-detail-group2.png)
 
 > [!Note]
 > Time group details ensure the start time of the booking falls within the start and end time of the time group; however, the end time can fall beyond that range. In the preceding screenshot, a resource available at 11:59 AM appears in the "morning" time group, and the duration of the booking will spill over into the lunch/afternoon time group. 
@@ -145,7 +145,7 @@ Right-clicking on the column header allows schedulers to group by time group det
 You can add both an interval and a time group to a single fulfillment preference, but this requires a few important considerations.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of using both intervals and time group details to alter schedule assistant results](../../common-scheduler/media/scheduling-fulfillment-preferences-interval-and-time-group.png)
+> ![Screenshot of using both intervals and time group details to alter schedule assistant results.](../../common-scheduler/media/scheduling-fulfillment-preferences-interval-and-time-group.png)
 
 - Using both an interval and time group means that you cannot add a value for **Interval Begins**. The interval will begin at the time of the earliest time group.
 
@@ -174,7 +174,7 @@ You can add both an interval and a time group to a single fulfillment preference
 
 - There is an attribute on the booking entity called Time Group Detail Selected (**msdyn_timegroupdetailselected**), which points to the time group detail entity. This value is automatically populated when a booking is created through the schedule assistant. For example, if a requirement is scheduled and the results fall into the time group “9 to 12,” the booking created through the schedule assistant will have the value “9 to 12” in the **time group detail selected** field.
 
-- The **Intervals Begin** time is dependent on the time zone of the requirement calendar when triggered from the requirement; however, when triggered from the schedule board, it depends on the user's time zone.
+- The **Intervals Begin** time is dependent on the time zone of the requirement calendar when triggered from the requirement; however, when triggered from the schedule board, it depends on the timezone of the schedule board tab from which the request originated. 
 
 - Quick Scheduling does not support fulfillment preferences with time groups.
 

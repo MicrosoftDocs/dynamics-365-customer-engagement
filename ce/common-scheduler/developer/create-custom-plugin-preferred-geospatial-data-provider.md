@@ -1,28 +1,16 @@
 ---
-title: "Create custom plug-in to use your preferred geospatial data provider | MicrosoftDocs"
-description: "Provides information on how to create a custom plug-in to use geospatial data provider other than the default Bing Maps in Dynamics 365 Field Service and Dynamics 365 Project Service Automation."
-ms.custom: 
-  - dyn365-developer
-  - dyn365-customerservice
+title: "Create plug-in to use preferred geospatial data provider in Universal Resource Scheduling"
+description: "Learn how to create a custom plug-in for Universal Resource Scheduling in order to use the geospatial data provider of your choice instead of Bing Maps."
 ms.date: 01/29/2018
 searchScope: 
   - Field Service
   - Project Service
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.technology: 
-  - field-service
-  - project-service
-ms.tgt_pltfrm: 
+ms.service: dynamics-365-field-service
+ms.subservice: common-scheduler
 ms.topic: conceptual
-ms.assetid: 2be7f42d-745c-4454-b132-f2a3d47194ae
 author: FieldServiceDave
 ms.author: daclar
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
 search.app: 
   - D365CE
   - D365PS
@@ -30,7 +18,7 @@ search.app:
 ---
 # Create custom plug-in to use your preferred geospatial data provider
 
-This topic provides information about the two geospatial actions in Universal Resource Scheduling, how to create a custom plug-in for the two geospatial actions, and provides examples from a sample custom plug-in on using Google Maps API for geospatial data.
+This article provides information about the two geospatial actions in Universal Resource Scheduling, how to create a custom plug-in for the two geospatial actions, and provides examples from a sample custom plug-in on using Google Maps API for geospatial data.
 
 ## Input and output parameters for geospatial actions
 
@@ -39,17 +27,16 @@ While writing your custom plug-in, you will have to consider the input and outpu
 There are two ways in which you can view the input and output parameters for the two geospatial actions:
 
 - **Web API action reference content**: View reference information about the geospatial actions in Universal Resource Scheduling.
-    - <xref:Microsoft.Dynamics.CRM.msdyn_GeocodeAddress>
     - <xref:Microsoft.Dynamics.CRM.msdyn_RetrieveDistanceMatrix>
-- **Action definition**: You can view the action definition in Dynamics 365 for information about the input/output prameters, including information whether a parametr is required or optional.
+- **Action definition**: You can view the action definition in Dynamics 365 for information about the input/output parameters, including information whether a parameter is required or optional.
  
     To view an action definition, select **Settings** > **Processes**. Next, search for the action name: **Resource Scheduling - Geocode Address** or **Resource Scheduling - Retrieve Distance Matrix**, and then select the action in the grid to display its definition. For example, here is the definition of the **Resource Scheduling - Geocode Address** (**msdyn_GeocodeAddress**) action where the highlighted area provides information about the input and output parameters:
 
-    ![Action definition](../media/FS-ActionDefinition.png)
+    ![Action definition.](../media/FS-ActionDefinition.png)
 
 ## Write your custom plug-in
 
-Plug-ins are custom classes that implement the <xref:Microsoft.Xrm.Sdk.IPlugin> interface. For detailed information about creating a plug-in, see [Plug-in development](../../developer/plugin-development.md)
+Plug-ins are custom classes that implement the <xref:Microsoft.Xrm.Sdk.IPlugin> interface. For detailed information about creating a plug-in, see [Plug-in development](../../customerengagement/on-premises/developer/plugin-development.md)
 
 A custom plug-in sample is provided for your reference that demonstrates how to use the Google Maps API to provide geospatial data for field operations instead of the default Bing Maps API. More information: [Sample: Custom plug-in to use Google Maps API as geospatial data provider](sample-custom-plugin-google-geospatial-data-provider.md).
 
@@ -219,3 +206,6 @@ After you have written your custom plug-in code, build the project to generate a
 > [!div class="nextstepaction"]
 > [Register and deploy custom plug-in to use your preferred geospatial data provider](register-deploy-custom-plugin-preferred-geospatial-data-provider.md)
     
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

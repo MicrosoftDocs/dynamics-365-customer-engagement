@@ -3,8 +3,8 @@ title: "Duplicate detection messages (Developer Guide for Dynamics 365 Customer 
 description: "Use the BulkDetectDuplicatesRequest or RetrieveDuplicatesRequest messages to detect duplicates."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -19,8 +19,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Duplicate detection messages
 
@@ -36,3 +35,6 @@ Use the messages listed in the following table to detect duplicates in [!INCLUDE
  [Enable and disable duplicate detection](enable-disable-duplicate-detection.md)  
  [Running Duplicate Detection](run-duplicate-detection.md)   
  [Duplicate Rule entities](duplicaterule-entities.md)<br />
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

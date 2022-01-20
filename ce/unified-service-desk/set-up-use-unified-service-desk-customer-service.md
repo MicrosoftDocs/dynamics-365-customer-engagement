@@ -1,14 +1,10 @@
 ---
 title: "Set up and use Unified Service Desk for customer service | MicrosoftDocs"
-description: "Learn about using Unified Service Desk-related entities to configure an agent application."
-ms.custom: 
-  - dyn365-USD
+description: "Learn about components such as action calls, events, and hosted controls, that you need to set up and use Unified Service Desk for customer service."
 ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - customizer
@@ -16,10 +12,15 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 tags: MigrationHO
 ---
 # Set up and use Unified Service Desk for customer service
-Give your customer service reps immediate access to business critical information so they can quickly engage with customers and address questions and issues using [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] gives you a configurable framework to quickly build applications for call centers so agents get a unified view of the customer data stored in the Common Data Service platform . You can aggregate customer information from different areas in the Common Data Service platform into one integrated desktop that provides a 360° view of customer interactions. For more information, see [Overview of Unified Service Desk](../unified-service-desk/admin/overview-unified-service-desk.md).  
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
+Give your customer service reps immediate access to business critical information so they can quickly engage with customers and address questions and issues using [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] gives you a configurable framework to quickly build applications for call centers so agents get a unified view of the customer data stored in Microsoft Dataverse. You can aggregate customer information from different areas in Dataverse into one integrated desktop that provides a 360° view of customer interactions. For more information, see [Overview of Unified Service Desk](../unified-service-desk/admin/overview-unified-service-desk.md).  
   
 ## Hosted controls  
   
@@ -87,3 +88,6 @@ Give your customer service reps immediate access to business critical informatio
   
 -   [Configure auditing in Unified Service Desk](../unified-service-desk/admin/configure-auditing-diagnostics-unified-service-desk.md)  
   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

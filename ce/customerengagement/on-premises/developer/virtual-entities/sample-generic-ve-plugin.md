@@ -3,8 +3,8 @@ title: "Sample: Generic virtual entity data provider plug-in (Developer Guide fo
 description: "Sample demonstrates how to implement a generic custom Dynamics 365 Customer Engagement virtual entity plug-in."
 ms.custom: 
 ms.date: 05/01/2018
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: samples
@@ -16,8 +16,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Sample: Generic virtual entity data provider plug-in
@@ -118,3 +117,6 @@ public class DropboxRetrieveMultiplePlugin : IPlugin
 
 [Get started with virtual entities](get-started-ve.md)<br />
 [Custom virtual entity data providers](custom-ve-data-providers.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

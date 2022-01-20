@@ -3,16 +3,16 @@ title: "Sample: Export and import a data map| MicrosoftDocs"
 description: "Sample demonstrates how to create an import map, export it as XML-formatted data, import modified mappings, and create a new import map based on the imported mappings."
 keywords: 
 ms.date: 10/31/2017
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 66255050-1a19-4bd2-a839-3cc45e7947d8
 author: JimDaly
 ms.author: nabuthuk
 manager: kvivek
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
 helpviewer_keywords: 
@@ -22,13 +22,11 @@ helpviewer_keywords:
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 
 # Sample: Export and import a data map
 
-This sample shows how to create an import map (data map) in Common Data Service, export it as an XML formatted data, import modified mappings, and create a new import map Common Data Service based on the imported mappings. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/ExportImportDataMap).
+This sample shows how to create an import map (data map) in Dataverse, export it as an XML formatted data, import modified mappings, and create a new import map Dataverse based on the imported mappings. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/ExportImportDataMap).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 
@@ -55,3 +53,6 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 
 Display an option to delete the sample data that is created in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

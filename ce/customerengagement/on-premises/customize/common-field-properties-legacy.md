@@ -1,6 +1,6 @@
 ---
-title: Common field properties in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs
-description: Understand the Common field properties for Main form in Dynamics 365 Customer Engagement (on-premises)
+title: "Set form field properties in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how to manage the common field properties of forms, including formatting, details, events, business rules, controls, and more."
 Keywords: Main form; Common field properties; Dynamics 365 for Customer Engagement
 author: Mattp123
 applies_to: 
@@ -8,23 +8,22 @@ applies_to:
 ms.author: matp
 manager: kvivek
 ms.date: 04/02/2018
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.topic: article
 ms.assetid: 2b91ee28-7f09-435e-9fae-5225aa698e22
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
-# Common field properties
+# Access and manage the common field properties of a form
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Model-driven app common field properties](/powerapps/maker/model-driven-apps/common-field-properties-legacy)
 
  Fields in a form display controls people use to view or edit data in an entity record. Fields can be formatted to occupy up to four columns within a section.  
 
 You can access **Common field properties** in solution explorer. Under **Components**, expand **Entities**, expand the entity you want, and then select **Forms**. In the list of forms, open the form of type **Main**. Then double-click one of the fields to view Common field properties.
 
-![common-field-properties](media/common-field-properties.png)
+![Common field properties.](media/common-field-properties.png)
 
 The following table describes properties that all fields have. Certain types of fields have special properties. These are described in [Special field properties](../customize/special-field-properties-legacy.md).  
 
@@ -47,3 +46,6 @@ The following table describes properties that all fields have. Certain types of 
 ## See also
 
 [Use the Main form and its components](../customize/use-main-form-and-components.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

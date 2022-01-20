@@ -3,11 +3,11 @@ title: "Sample code for connection entities (Developer Guide for Dynamics 365 Cu
 decription: Sample code for connection entities contain the code examples that show how to use the connection entities
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
@@ -20,8 +20,6 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 # Sample code for connection entities
 
@@ -46,3 +44,6 @@ This section contains the code examples that show how to use the connection enti
  [Connection Entities](connection-entities.md)  
   
  [Customer Relationship Entities](customer-relationship-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

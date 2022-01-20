@@ -3,8 +3,8 @@ title: "Opportunity entities (Developer Guide for Dynamics 365 Customer Engageme
 description: "Learn about opportunity entites that help you to create a new opportunity to monitor or convert an lead to an opportunity. The entities that can be associated with an opportunity to provide information about the sales engagement are activities, notes and attachments, competitors, quotes, orders, and sales literature. "
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -28,8 +28,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Opportunity entities
 
@@ -57,3 +56,6 @@ The *opportunity* entity represents a potential sale to new or established custo
  [Sales Entities](sales-entities-lead-opportunity-competitor-quote-order-invoice.md)   
  [Quote, order, and invoice entities](quote-order-invoice-entities.md)   
  [Set default price level for opportunity, quote, order, invoice](set-default-price-level-for-opportunity-quote-order-invoice.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

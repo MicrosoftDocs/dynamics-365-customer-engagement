@@ -1,25 +1,24 @@
 ---
-title: "Retrieve interactions for a contact using code (Dynamics 365 Marketing Developer Guide) | MicrosoftDocs"
-description: "Know how to programmatically retrieve interactions for a contact using an action; GDPR compliance."
+title: "Retrieve interactions for a contact using code (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
+description: "Learn how to programmatically retrieve interactions for a contact using an action."
+ms.date: 10/04/2021
+ms.service: dynamics-365-marketing
 ms.custom: 
-ms.date: 08/07/2018
-ms.service: crm-online
-ms.technology: 
-  - marketing
-ms.topic: conceptual
-ms.assetid: f0a910ca-fd62-4190-b75f-d61d2db76ca2
-author: KumarVivek
-ms.author: kvivek
-manager: annbe
+  - dyn365-marketing
+ms.topic: article
+author: alfergus
+ms.author: alfergus
+manager: shellyha
 search.audienceType: 
   - developer
 search.app: 
   - D365CE
   - D365Mktg
 ---
+
 # Retrieve interactions for a contact using code
 
-Use the **msdyncrm_LoadInteractionsPublic** action to programmatically retrieve interactions for a contact. This action is useful for responding to [get-my-data requests](../gdpr.md#respond-to-get-my-data-requests) in order to fulfill the General Data Protection Regulation (GDPR) compliance.
+Use the **msdyncrm_LoadInteractionsPublic** action to programmatically retrieve interactions for a contact. This action is useful for responding to [get-my-data requests](../gdpr-use-features.md#respond-to-get-my-data-requests) in order to fulfill the General Data Protection Regulation (GDPR) compliance.
 
 > [!TIP]
 > You can also generate request and response classes for this action to include in your application code. More information: [Generate early-bound types for an action](/powerapps/developer/common-data-service/custom-actions#generate-early-bound-types-for-an-action)
@@ -65,7 +64,7 @@ The **msdyncrm_LoadInteractionsPublic** action expects the following input param
 <li>EmailBlockBounced</li>
 <li>EmailBlocked</li>
 <li>EmailClicked</li>
-<li>EmailContainsBlacklistedLinks</li>
+<li>EmailContainsBlockListedLinks</li>
 <li>EmailDelivered</li>
 <li>EmailFeedbackLoop</li>
 <li>EmailForwarded</li>
@@ -179,4 +178,7 @@ OData-Version: 4.0
 
 ### See also
 
-[Data protection and the GDPR](../gdpr.md)
+[Data protection and the GDPR](../gdpr.md)   
+[Preview: Prepare for analytic reporting with Power BI](../custom-analytics.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

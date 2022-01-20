@@ -3,8 +3,8 @@ title: "Dynamics 365 Customer Engagement Process architecture (Developer Guide f
 description: "The topic illustrates the high-level system architecture for Dynamics 365 Customer Engagement (on-premises), and highlights parts of the system that are specific to processes."
 ms.custom: 
 ms.date: 12/16/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Process architecture
 
@@ -30,7 +29,7 @@ The process management system in Dynamics 365 Customer Engagement (on-premises) 
 
 The following diagram illustrates the high-level system architecture for Dynamics 365 Customer Engagement (on-premises), and highlights parts of the system that are specific to processes.  
   
-![Process Architecture](media/process-architecture.png "Process Architecture")  
+![Process Architecture.](media/process-architecture.png "Process Architecture")  
   
 This diagram shows the process architecture of Dynamics 365 Customer Engagement (on-premises) including the internal components, the external components, the infrastructure, and the data.  
   
@@ -117,9 +116,12 @@ To improve performance, scalability, and reliability of Dynamics 365 Customer En
   
 The asynchronous service, as the host of the [!INCLUDE[pn_Windows_Workflow_Foundation](../includes/pn-windows-workflow-foundation.md)] runtime engine, cannot always cache and keep active all objects that accumulate during continued workflow activity. When certain conditions, such as restart or shutdown occur when a workflow is running, the workflow runtime engine uses a persistence service to save the state of the workflow instance onto the disk. The persistence service is also invoked when other conditions occur, such as when a workflow becomes idle and is waiting for some external event to occur. Persisting these idle workflow instances saves memory and greatly increases scalability. If a server that is running the asynchronous service is shut down or if the workflow crashes during execution, the workflow can be restarted from its last persisted point after the server restarts. When the workflow is no longer idle, the state of the workflow instance is restored in memory to the state at the last persisted point.  
   
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Workflow Persistence](https://msdn.microsoft.com/library/dd489420.aspx).  
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Workflow Persistence](/dotnet/framework/windows-workflow-foundation/workflow-persistence).  
   
 ### See also  
 [Asynchronous Service](asynchronous-service.md)<br />
 [Event Framework](/powerapps/developer/common-data-service/event-framework)<br />
 [Processes in Dynamics 365 Customer Engagement (on-premises)](automate-business-processes-customer-engagement.md)<br />
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

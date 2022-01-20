@@ -3,8 +3,8 @@ title: "Query and edit an organization theme | MicrosoftDocs"
 description: "Learn about defining and applying visual themes for an organization. This provides a supported way to apply an organization’s logo and color choices to the application. "
 ms.custom: 
 ms.date: 12/15/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Query and edit an organization theme
 
@@ -39,7 +38,7 @@ You can define and apply visual themes for an organization. This provides a supp
  **Request:** 
 
 ```http
-GET [Organization URI]/api/data/v9.0/themes?$filter=isdefaulttheme eq true&$select=defaultentitycolor,defaultcustomentitycolor,controlborder,controlshade,selectedlinkeffect,globallinkcolor,processcontrolcolor,headercolor,logotooltip,hoverlinkeffect,navbarshelfcolor,navbarbackgroundcolor
+GET [Organization URI]/api/data/v9.1/themes?$filter=isdefaulttheme eq true&$select=defaultentitycolor,defaultcustomentitycolor,controlborder,controlshade,selectedlinkeffect,globallinkcolor,processcontrolcolor,headercolor,logotooltip,hoverlinkeffect,navbarshelfcolor,navbarbackgroundcolor
 ```
 
  **Response:**
@@ -50,7 +49,7 @@ Content-Type: application/json; odata.metadata=minimal
 OData-Version: 4.0
 
 {  
-    "@odata.context": "[Organization URI]/api/data/v9.0/$metadata#themes(defaultentitycolor,defaultcustomentitycolor,controlborder,controlshade,selectedlinkeffect,globallinkcolor,processcontrolcolor,headercolor,logotooltip,hoverlinkeffect,navbarshelfcolor,navbarbackgroundcolor)",  
+    "@odata.context": "[Organization URI]/api/data/v9.1/$metadata#themes(defaultentitycolor,defaultcustomentitycolor,controlborder,controlshade,selectedlinkeffect,globallinkcolor,processcontrolcolor,headercolor,logotooltip,hoverlinkeffect,navbarshelfcolor,navbarbackgroundcolor)",  
     "value": [  
         {  
             "defaultentitycolor": "#001CA5",  
@@ -122,3 +121,6 @@ OData-Version: 4.0
  [Theme Entity](../entities/theme.md)   
  [Create a theme](../../customize/change-color-scheme-add-logo-match-organizations-brand.md)  
  [Developers guide to customization for Microsoft Dynamics 365 Customer Engagement](customize-applications.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

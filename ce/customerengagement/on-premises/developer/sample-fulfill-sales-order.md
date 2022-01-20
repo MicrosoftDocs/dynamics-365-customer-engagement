@@ -3,11 +3,11 @@ title: "Sample: Fulfill a sales order (Developer Guide for Dynamics 365 Customer
 description: "The sample demonstrates how to create a sales order and then close it by fulfilling it."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
@@ -20,8 +20,6 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 # Sample: Fulfill a sales order
 
@@ -43,3 +41,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [Sales Entities (Lead, Opportunity, Competitor, Quote, Order, Invoice)](sales-entities-lead-opportunity-competitor-quote-order-invoice.md)   
  [Quote, order, and invoice entities](quote-order-invoice-entities.md)   
  <xref:Microsoft.Crm.Sdk.Messages.FulfillSalesOrderRequest>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

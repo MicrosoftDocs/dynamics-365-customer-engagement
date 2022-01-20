@@ -1,9 +1,10 @@
 ---
-title: "Key preparation and configuration tasks | MicrosoftDocs"
+title: "Configuration settings in Dynamics 365 Customer Engagement (on-premises)"
+description: "This page describes key configuration settings and tasks that can help you keep your organization optimized so that you can focus on what’s important."
 ms.custom: 
-ms.date: 10/01/2019
+ms.date: 01/07/2021
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,13 +18,14 @@ ms.author: matp
 manager: brycho
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
-# Key preparation and configuration tasks
+# Key configuration settings and tasks for optimization
 
 This topic, which is intended for administrators and business users of Dynamics 365 Customer Engagement (on-premises), describes common configuration settings and tasks that can help you keep your organization optimized so that you can focus on what’s important. It’s designed to improve your overall experience with Customer Engagement (on-premises), even before your business begins to use it.  
+
+> [!NOTE]
+> Microsoft Internet Explorer 11 support is deprecated. We recommend that you use Microsoft Edge. More information: [Deprecation announcement](/power-platform/important-changes-coming#internet-explorer-11-support-for-dynamics-365-and-microsoft-power-platform-is-deprecated)
   
 <a name="bkmk_commonconfig"></a>   
 
@@ -64,7 +66,7 @@ If your Customer Engagement (on-premises) performance is slower in Internet Expl
   
 3. Expand **Internet Explorer** > **JavaScript Timer Frequency**, for **On battery** and **Plugged in**, choose **Maximum Performance**.  
   
-   ![Internet Explorer power options](../admin/media/crm-itpro-iepoweroptions.png "Internet Explorer power options")  
+   ![Internet Explorer power options.](../admin/media/crm-itpro-iepoweroptions.png "Internet Explorer power options")  
   
 **Increase data storage limits for websites**  
   
@@ -183,12 +185,14 @@ Every time you visit a website, [!INCLUDE[pn_Internet_Explorer](../includes/pn-i
   
   When possible, provide log files (if you know how to find them). This applies to applications such as [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] or [!INCLUDE[pn_CRM_E-Mail_Router](../includes/pn-crm-e-mail-router.md)]. The following table lists the location of the log or trace files for these applications.  
   
-|                                                                                     |                                                                      |
-|-------------------------------------------------------------------------------------|----------------------------------------------------------------------|
-|                                 **Logs or Traces**                                  |                        **Log File Location**                         |
+|   Logs or Traces                |   Log File Location                            |
+|-----------------------------|-------------|
 |    Customer Engagement (on-premises) for Outlook logs     |  %Userprofile%\Local Settings\Application Data\Microsoft\MSCRM\Logs  |
 | Customer Engagement (on-premises) for Outlook Trace files | %Userprofile%\Local Settings\Application Data\Microsoft\MSCRM\Traces |
 |   Customer Engagement (on-premises) E-mail Router logs    |          %Userprofile%\AppData\Roaming\Microsoft\MSCRM\Logs          |
   
 ### See also  
  [Set up an organization](../admin/set-up-a-dynamics-365-organization.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

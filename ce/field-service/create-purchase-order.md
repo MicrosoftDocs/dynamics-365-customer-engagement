@@ -1,24 +1,13 @@
 ---
 title: "Create a purchase order (Dynamics 365 Field Service) | MicrosoftDocs"
-ms.custom: 
-  - dyn365-fieldservice
+description: Learn about creating purchase orders in Dynamics 365 Field Service
 ms.date: 01/09/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.technology: 
-  - field-service
-ms.tgt_pltfrm: 
+ms.service: dynamics-365-field-service
 ms.topic: article
 author: FieldServiceDave
-ms.assetid: d0dd3b42-498f-492d-89c7-f5c3d2e11a2d
-caps.latest.revision: 20
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
 search.app: 
   - D365CE
   - D365FS
@@ -46,7 +35,7 @@ In Dynamics 365 Field Service, a purchase order (PO) is created to add inventory
   >  In the **Details** section, you can specify a lookup to a work order. Also, from a work order you can go to **Related** > **Purchase Orders**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a purchase order](./media/inventory-purchase-order.png)
+> ![Screenshot of a purchase order.](./media/inventory-purchase-order.png)
 
 ### Ship via
 
@@ -63,7 +52,7 @@ When you create a purchase order, you can track how the order is shipped. This h
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of purchase order products](./media/inventory-purchase-order-products.png)
+> ![Screenshot of purchase order products.](./media/inventory-purchase-order-products.png)
 
 Back on the purchase order, change the **System Status** to **Submitted**.
 
@@ -86,7 +75,7 @@ When the order arrives, you can create a receipt.
 3.  Select **Save**.  
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a purchase order receipt](./media/inventory-purchase-order-receipt.png)
+> ![Screenshot of a purchase order receipt.](./media/inventory-purchase-order-receipt.png)
 
     
 ## Step 5: Add purchase order receipt products  
@@ -115,3 +104,6 @@ A purchase order receipt doesn't need to contain all products requested or all q
  [Configure and set up customer assets](../field-service/configure-set-up-customer-assets.md)     
  [Process a return](../field-service/process-return.md)<br>
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

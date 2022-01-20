@@ -1,14 +1,10 @@
 ---
 title: "Create custom listeners for auditing, diagnostics and traces | MicrosoftDocs"
-description: "Learn about creating custom listeners that lets you target the log output to files, the event log, or other sources. Until the previous version of Unified Service Desk, you could only use the standard listeners to write auditing, diagnostics, and trace logs in Unified Service Desk."
-ms.custom: 
-  - dyn365-USD
+description: "Learn to create custom listeners to write audit, diagnostics, and trace logs in Unified Service Desk."
 ms.date: 12/31/2019
-ms.service: 
-  - dynamics-365-customerservice
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - customizer
@@ -16,8 +12,13 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Create custom listeners for auditing, diagnostics and traces
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 A listener lets you target the log output to files, the event log, or other sources. Until the previous version of [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], you could only use the standard listeners to write auditing, diagnostics, and trace logs in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
   
  With [!INCLUDE[pn_unified_service_desk_20](../includes/pn-unified-service-desk-20.md)], you can configure custom listeners to log auditing, diagnostics, and tracing data. Specify a custom listener by using the new type of hosted control called **Listener Hosted Control** that contains a reference to the assembly (.dll file) containing your custom listener code.  
@@ -39,11 +40,11 @@ A listener lets you target the log output to files, the event log, or other sour
 ## Define your custom listener for Unified Service Desk  
  You can combine the code for your custom listener for auditing, diagnostics, and trace logging into a single assembly or different assemblies. The class containing your listener code must be derived from:  
   
--   [IAuditService](https://docs.microsoft.com/dotnet/api/microsoft.uii.aifservices.iauditservice) for auditing logs  
+-   [IAuditService](/dotnet/api/microsoft.uii.aifservices.iauditservice) for auditing logs  
   
--   [ILogging](https://docs.microsoft.com/dotnet/api/microsoft.uii.common.logging.ilogging) for diagnostic logs  
+-   [ILogging](/dotnet/api/microsoft.uii.common.logging.ilogging) for diagnostic logs  
   
--   [TraceListener](https://msdn.microsoft.com/library/hy72797k.aspx) for trace logs  
+-   [TraceListener](/dotnet/api/system.diagnostics.tracelistener) for trace logs  
   
 > [!NOTE]
 >  Make a note of the namespace and class names in your listener code. You will need these to create instances of Listener Hosted Control to refer to your custom code.  
@@ -226,7 +227,11 @@ namespace SampleCustomUSDListener
   
 - Create **Auditing & Diagnostic Settings** records, and attach the appropriate listener hosted control record to it. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure auditing and diagnostics in Unified Service Desk](admin/configure-auditing-diagnostics-unified-service-desk.md)  
   
-- Use the .zip file to create a **Customization Files** record and then attach it to the appropriate **Configuration** record so that the assembly can be distributed to the client computers when they sign in to the Common Data Service platform using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Distribute custom hosted controls using Customization Files](admin/distribute-custom-hosted-controls-using-customization-files.md)  
+- Use the .zip file to create a **Customization Files** record and then attach it to the appropriate **Configuration** record so that the assembly can be distributed to the client computers when they sign in to  Dynamics 365 using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Distribute custom hosted controls using Customization Files](admin/distribute-custom-hosted-controls-using-customization-files.md)  
   
-### See also  
+### See also
+
  [Extend Unified Service Desk](../unified-service-desk/extend-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

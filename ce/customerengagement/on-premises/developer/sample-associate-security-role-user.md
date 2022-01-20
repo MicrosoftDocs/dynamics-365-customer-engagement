@@ -3,24 +3,22 @@ title: "Sample: Associate a Security Role to a User (Developer Guide for Dynamic
 description: "The sample shows how to associate a role with a user by using the IOrganizationService.EntityReferenceCollection) method."
 keywords: 
 ms.date: 10/31/2017
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: c962101c-65f0-4e49-8c23-99c2a9e7dcbf
 author: JimDaly
 ms.author: nabuthuk
 manager: kvivek
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 17
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 
 # Sample: Associate a Security Role to a User
@@ -51,3 +49,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [User and Team Entities](user-team-entities.md)   
 <xref:Microsoft.Xrm.Sdk.IOrganizationService>   
    
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

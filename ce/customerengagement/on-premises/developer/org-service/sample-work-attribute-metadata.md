@@ -3,8 +3,8 @@ title: "Sample: Work with attribute metadata (Developer Guide for Dynamics 365 C
 description: "The sample shows how to perform various actions on attributes."
 keywords: 
 ms.date: 10/31/2017
-ms.reviewer: "pehecke"
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.custom: 
 ms.topic: samples
 applies_to: 
@@ -15,8 +15,7 @@ ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Sample: Work with attribute metadata
@@ -31,7 +30,7 @@ This sample shows how to perform various actions on attributes. You can download
 
 ## What this sample does
 
-This sample shows how to create different types of attributes in Common Data Service.
+This sample shows how to create different types of attributes in Dataverse.
 
 ## How this sample works
 
@@ -54,3 +53,5 @@ Checks for the current version of the org.
 ### Clean up
 
 Displays an option to delete all the data created in the sample. The deletion is optional in case you want to examine the data created by the sample. You can manually delete the data to achieve same results.
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

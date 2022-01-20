@@ -3,7 +3,7 @@ title: "Debug a plug-In (Developer Guide for Dynamics 365 Customer Engagement (o
 description: "Learn about debugging a plug-in executing on a D365 Server."
 keywords: 
 ms.date: 01/28/2019
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: on-premise
 ms.topic: article
 applies_to: 
@@ -19,16 +19,15 @@ caps.latest.revision: 60
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Debug an on-premise registered plug-In
 
-General information about plug-in debugging can be found in the Common Data Service topic [Debug a plug-in](/powerapps/developer/common-data-service/debug-plug-in). The following steps describe how to debug a plug-in executing on Dynamics 365 Customer Engagement (on-premises).
+General information about plug-in debugging can be found in the Dataverse topic [Debug a plug-in](/powerapps/developer/common-data-service/debug-plug-in). The following steps describe how to debug a plug-in executing on Dynamics 365 Customer Engagement (on-premises).
 
 > [!NOTE]
-> An alternate method to debug a plug-in that executes in the sandbox on any deployment type is to use the tracing service. For more information about tracing see [Logging and tracing](/powerapps/developer/common-data-service/logging-tracing). For more information about debugging, including a tutorial, see the Common Data Service topic [Debug a plug-in](/powerapps/developer/common-data-service/debug-plug-in).
+> An alternate method to debug a plug-in that executes in the sandbox on any deployment type is to use the tracing service. For more information about tracing see [Logging and tracing](/powerapps/developer/common-data-service/logging-tracing). For more information about debugging, including a tutorial, see the Dataverse topic [Debug a plug-in](/powerapps/developer/common-data-service/debug-plug-in).
   
 [!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)]
 
@@ -98,3 +97,6 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSCRM\SandboxDebugPlugins
  [Debug a plug-in](/powerapps/developer/common-data-service/tutorial-debug-plug-in)   
  [Register and Deploy Plug-ins](register-deploy-plugins.md)   
  [Write a plug-in](/powerapps/developer/common-data-service/write-plug-in) 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

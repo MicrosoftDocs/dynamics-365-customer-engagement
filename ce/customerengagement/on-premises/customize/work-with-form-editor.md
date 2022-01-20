@@ -1,9 +1,10 @@
 ---
-title: "Work with the form editor | MicrosoftDocs"
+title: "How to use form editor in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how to use the form editor in Customer Engagement (on-premises), allowing for the customization of main, quick create, quick view, and card forms."
 ms.custom: 
 ms.date: 04/29/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -16,13 +17,9 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
-
 # Work with the form editor
-
- 
 
 This section describes how to use the form editor. The form editor is your interface for customizing all form types, such as main, quick create, and card forms.
 
@@ -30,3 +27,6 @@ This section describes how to use the form editor. The form editor is your inter
 [Open the form editor](open-form-editor.md)
 [Overview of the form editor user interface](form-editor-user-interface-legacy.md)
 [Type of forms](create-design-forms.md#type-of-forms)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

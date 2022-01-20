@@ -3,8 +3,8 @@ title: "Modify the messages for an entity (Developer Guide for Dynamics 365 Cust
 description: "Learn about editing the entity messages by exporting, editing, and importing translations."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -29,8 +29,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Modify the messages for an entity
 
@@ -62,7 +61,10 @@ When you customize system entity or system attribute display names, some message
  <!--Bug 700890 created to expose this in web api 
  [DisplayString Entity](entities/displaystring.md)   
  -->
- [Sample: Create and update entity metadata](org-service/sample-create-update-entity-metadata.md)   
+ [Sample: Create and update entity metadata](/powerapps/developer/data-platform/org-service/create-custom-entity)   
  [Customize Labels to Support Multiple Languages](customize-labels-support-multiple-languages.md)   
  <xref:Microsoft.Crm.Sdk.Messages.ExportTranslationRequest>   
  <xref:Microsoft.Crm.Sdk.Messages.ImportTranslationRequest>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

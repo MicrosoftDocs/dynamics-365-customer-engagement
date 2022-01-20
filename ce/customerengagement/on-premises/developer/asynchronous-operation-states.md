@@ -3,8 +3,8 @@ title: "Asynchronous operation states (Developer Guide for Dynamics 365 Customer
 description: "Learn about the asynchronous operation states, which can be waiting to run, it can be running, or it can be completed."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Asynchronous operation states
 
@@ -45,7 +44,7 @@ After asynchronous operations are added to the asynchronous queue, they exist in
   
  The following diagram shows the asynchronous operation state transitions that are supported.  
   
- ![AsyncOperation state diagram](media/crm-v5s-as-statediagram.png "AsyncOperation state diagram")  
+ ![AsyncOperation state diagram.](media/crm-v5s-as-statediagram.png "AsyncOperation state diagram")  
   
  Notice that an asynchronous operation can only transition from one state to another along specific paths as shown in the diagram. Some paths are initiated by the user interacting with the Dynamics 365 Customer Engagement (on-premises) web application while other paths are initiated by the Dynamics 365 Customer Engagement (on-premises) platform as part of regular asynchronous queue processing or because of a Web service call. For example, an asynchronous operation cannot transition directly from a Suspended state to a Locked state.  
   
@@ -91,3 +90,6 @@ After asynchronous operations are added to the asynchronous queue, they exist in
  [Asynchronous Service](asynchronous-service.md)   
  [Asynchronous Operation (system job) Entity](asyncoperation-system-job-entity.md)   
  [Dependency and execution order in asynchronous operations](dependency-execution-order-asynchronous-operations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

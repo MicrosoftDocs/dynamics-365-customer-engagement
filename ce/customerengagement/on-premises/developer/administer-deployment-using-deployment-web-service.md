@@ -3,8 +3,8 @@ title: "Administer the deployment using the deployment web service (Developer Gu
 description: "For an on-premises deployment, you can use the deployment web service (deployment service) as a programmatic alternative to using the Deployment Manager. Note that the caller must be a Deployment Administrator to use this web service. This allows you to manage organizations, servers, and licenses for deployments of Microsoft Dynamics 365 Customer Engagement."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -16,11 +16,13 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Administer the deployment using the deployment web service
 
 [!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)]
 
-For information regarding the use of the deployment web service, see the version of this topic for the previous release which supports on-premises deployments: [Administer the deployment using the deployment web service](https://msdn.microsoft.com/library/gg327886.aspx).
+For information regarding the use of the deployment web service, see the version of this topic for the previous release which supports on-premises deployments: [Administer the deployment using the deployment web service](/previous-versions/dynamicscrm-2016/developers-guide/gg327886(v=crm.8)).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

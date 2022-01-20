@@ -1,8 +1,9 @@
 ---
 title: "Prerequisites and considerations for planning your deployment of Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
+description: Learn about the planning considerations with Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: "crm-2016"
+ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -27,3 +28,6 @@ This section contains lists of what you must have before you install [!INCLUDE[p
  [Planning Your Deployment of Microsoft Dynamics 365](planning-your-deployment-of-microsoft-dynamics-365.md)   
  [Security considerations for Microsoft Dynamics 365](security-considerations-for-microsoft-dynamics-365.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

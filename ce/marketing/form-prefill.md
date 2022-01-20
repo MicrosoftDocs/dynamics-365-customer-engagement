@@ -1,18 +1,14 @@
 ---
 title: "Enable prefilling for marketing forms (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to set up your marketing forms to support prefilling of form fields for returning contacts in Dynamics 365 Marketing"
-keywords: marketing form, prefill
+description: "How to set up your marketing forms to support prefilling of form fields for returning contacts in Dynamics 365 Marketing."
 ms.date: 03/08/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: bb712806-d9a2-4eb6-8082-27d13668d1f5
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -92,4 +88,6 @@ More information: [Set up subscription lists and subscription centers](set-up-su
 
 ## Enable prefill for an embedded form
 
-If you have embedded a marketing form on an external website (such as your own organization's website), rather than publishing it on a marketing page published on a Dynamics 365 Portal, you must authenticate the domain where you have embedded the form and also configure the form to enable prefill. For instructions, see [Integrate with forms published on an external website](embed-forms.md).
+If you have embedded a marketing form on an external website (such as your own organization's website), rather than publishing it on a marketing page published on a Power Apps portal, you must authenticate the domain where you have embedded the form and also configure the form to enable prefill. For instructions, see [Integrate with forms published on an external website](embed-forms.md).
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

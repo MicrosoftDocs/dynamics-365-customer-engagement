@@ -3,8 +3,8 @@ title: "Transaction Currency (currency) entity (Developer Guide for Dynamics 365
 description: "Learn about transaction curreny, which is a multicurrency feature enabling users to perform financial transactions in multiple currencies. Multiple records in different transaction currencies can be aggregated, compared, or analyzed with regard to a single currency using the base currency."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -31,8 +31,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Transaction Currency (currency) entity
 
@@ -134,3 +133,6 @@ creditlimit_base = creditlimit / exchangerate
  [TransactionCurrency Entity](entities/transactioncurrency.md)   
  [Sample: Retrieve Currency Exchange Rate](sample-retrieve-currency-exchange-rate.md)   
  [Business Management Entities](business-management-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

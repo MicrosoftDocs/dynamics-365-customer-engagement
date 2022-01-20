@@ -1,14 +1,10 @@
 ---
 title: "Session Tabs (Hosted Control) in Unified Service Desk | MicrosoftDocs"
-description: "Learn about the session tabs type of hosted control in Unified Service Desk."
-ms.custom: 
-  - dyn365-USD
+description: "Learn to create the Session Tabs hosted control. Also find information about the predefined UII actions supported by it."
 ms.date: 11/12/2019
-ms.service: 
-  - dynamics-365-customerservice
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - customizer
@@ -16,6 +12,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 
 # Session Tabs (Hosted Control)
@@ -166,3 +164,6 @@ In the XML, you can define the start time and end time with the hexadecimal colo
  [Session Lines (Hosted Control)](../unified-service-desk/session-lines-hosted-control.md)   
  [Walkthrough 5: Display enhanced session information by displaying session name and overview data](../unified-service-desk/walkthrough-5-display-enhanced-session-information-displaying-session-name-overview-data.md)   
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

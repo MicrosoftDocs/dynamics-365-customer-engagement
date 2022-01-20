@@ -1,33 +1,34 @@
 ---
-title: "Unified Service Desk  - Interactive service hub package | MicrosoftDocs"
-description: "Overview of the Interactive service hub sample application."
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+title: "Unified Service Desk&mdash;Interactive service hub package | MicrosoftDocs"
+description: "Learn about the Interactive Service Hub sample application that's part of Unified Service Desk and how you can use it."
 ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 ---
 # Interactive service hub sample application package
-[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is a desktop application that helps your customer service agents provide phone, email, and chat support to your customers. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides a configurable framework to quickly build an Agent Desktop application that’s integrated with the Common Data Service platform. With [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] you can quickly make a customized Agent Desktop application by leveraging the User Interface Integration (UII) framework. 
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is a desktop application that helps your customer service agents provide phone, email, and chat support to your customers. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides a configurable framework to quickly build an Agent Desktop application that’s integrated with Microsoft Dataverse. With [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] you can quickly make a customized Agent Desktop application by leveraging the User Interface Integration (UII) framework. 
 
 > [!Note]
 > The Interactive service hub sample application is deprecated.
   
  This package is best used in the following situations:  
   
-- the Common Data Service platform environments that want to evaluate  interactive service hub integration with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [User's guide for the new interactive service hub](https://go.microsoft.com/fwlink/?linkid=857154)  
+- Dataverse environments that want to evaluate  interactive service hub integration with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [User's guide for the new interactive service hub](../../customer-service/customer-service-hub-user-guide-basics.md)  
   
-- the Common Data Service platform environments that are already using the interactive service hub.  
+- Dataverse environments that are already using the interactive service hub.  
   
   With the Unified Service Desk interactive service hub sample application package, the following components are installed:  
   
@@ -37,7 +38,7 @@ search.app:
   
 - Configuration for integrating interactive service hub with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]  
   
-- Data required for the Common Data Service platform and customizations  
+- Data required for Dataverse and customizations  
   
 - The following sample hosted controls  
   
@@ -77,7 +78,10 @@ search.app:
   
   - **Tier 2 Dashboard**.  Displays lists or visualizations for several service key performance indicators associated with the agent, such as active cases, cases by priority, cases by product, case mix by incident type, and agent totals for active cases, resolved cases, activities, and phone calls.  
   
-  ![Unified ServiceDesk interactive service hub package](../../unified-service-desk/media/unifiedservicedeskishpackage.PNG "Unified ServiceDesk interactive service hub package")  
+  ![Unified ServiceDesk interactive service hub package.](../../unified-service-desk/media/unifiedservicedeskishpackage.PNG "Unified ServiceDesk interactive service hub package")  
 
   ## See also  
   [Unified Service Desk Overview](../../unified-service-desk/admin/overview-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

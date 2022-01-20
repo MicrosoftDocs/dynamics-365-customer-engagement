@@ -1,14 +1,10 @@
 ---
-title: "Get started with configuring your agent application in Unified Service Desk | MicrosoftDocs"
+title: "Get started with configuring your agent application | MicrosoftDocs"
 description: "The section provides information on how to perform various tasks in Unified Service Desk to configure your agent application."
-ms.custom: 
-  - dyn365-USD
 ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - customizer
@@ -16,11 +12,17 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - intro-internal
 ---
 # Get started with configuring your agent application
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 This section provides information on how to perform various tasks in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to configure your agent application.  
   
- [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] uses the Common Data Service platform security model to govern access to the entities and configuration data. You can also create configurations in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to group entities, and assign them to users to ensure that they can access only the entities within the assigned configuration. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security in Unified Service Desk](admin/security-unified-service-desk.md)  
+ [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] uses Microsoft Dataverse security model to govern access to the entities and configuration data. You can also create configurations in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to group entities, and assign them to users to ensure that they can access only the entities within the assigned configuration. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Security in Unified Service Desk](admin/security-unified-service-desk.md)  
   
 ## Reference  
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)  
@@ -34,3 +36,6 @@ This section provides information on how to perform various tasks in [!INCLUDE[p
  [Learn to use Unified Service Desk](../unified-service-desk/learn-to-use-unified-service-desk.md)  
   
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

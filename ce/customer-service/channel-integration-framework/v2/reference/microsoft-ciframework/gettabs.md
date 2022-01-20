@@ -1,46 +1,43 @@
 ---
-title: "getTabs (JavaScript API Reference) for Dynamics 365 Channel Integration Framework (CIF) version 2.0 | MicrosoftDocs"
-description: ""
-author: susikka
-ms.author: susikka
-manager: shujoshi
-ms.date: 12/31/2019
+title: "getTabs (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
+description: "Includes description, syntax, and parameter information for the getTabs method in JavaScript API Reference for Channel Integration Framework 2.0."
+ms.date: 11/02/2020
 ms.topic: reference
-ms.service: 
-  - dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
 ---
 
-# getTabs
+# getTabs (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
 
- 
 
 Returns an array of tab Ids associated with template name or template tags for tabs in the session in focus, if the session belongs to the channel provider.
 
 ## Syntax
 
-`Microsoft.CIFramework.getTabs(name, tags, correlationId).then(successCallback, errorCallback);`
+`Microsoft.CIFramework.getTabs(tabtemplatename, tags, correlationId).then(successCallback, errorCallback);`
 
 ## Parameters
 
 | **Name**        | **Type** | **Required** | **Description**                                                       |
 |-----------------|----------|--------------|-----------------------------------------------------------------------|
-| Name            | String   | Yes          | Name of the application tab template                                  |
+| Unique Name     | String   | No           | Unique Name of the application tab template                           |
 | tags            | String   | No           | Tags associated with the application tab                              |
 | correlationId   | GUID     | No           | Used to group all related API calls together for diagnostic telemetry |
 | successCallback | Function | No           | A function to call when the request is successful                     |
 | errorCallback   | Function | No           | A function to call when the request fails                             |
 
-## Return Value
+## Return value
 
 Promise with the value as Array of strings
 
 ## Example
 
 ```javascript
-Microsoft.CIFramework.getTabs("tabtemplatename”, correlationId).then(
+Microsoft.CIFramework.getTabs("tabtemplatename", correlationId).then(
 function(result) {
 return Promise.resolve(result);
 },
@@ -48,3 +45,6 @@ function(error) {
 return Promise.reject(error)
 });
 ```
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

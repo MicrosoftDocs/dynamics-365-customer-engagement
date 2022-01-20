@@ -1,14 +1,10 @@
 ---
 title: "Create HAT automation | MicrosoftDocs"
-description: "Learn about using the Hosted Application Toolkit (HAT) automation activities to create automations for your hosted application project. You can use User Interface Integration (UII) inspector to make the controls of an application available for use in automation."
-ms.custom: 
-  - dyn365-USD
+description: "Learn about using the Hosted Application Toolkit (HAT) automation activities to create automations for your hosted application project."
 ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - customizer
@@ -16,8 +12,13 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Create HAT automation in Unified Service Desk
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 You can use the [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-hosted-application-toolkit-hat.md)] automation activities to create automations for your hosted application project. You can use [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] inspector to make the controls of an application available for use in automation. Although an automation is started by an action defined on an application, it can access defined controls in all applications that run in the session. Automations can also interact with non-automation enabled applications through activities such as `DoAction` or `Apppplication Integration Framework (AIF)` context activities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Types of HAT automation activities](../unified-service-desk/types-of-hat-automation-activities.md)
 
  Before you add automation to your application, ensure that you have inspected all the required controls in your application. To do so, see [Use UII inspector to create bindings for the hosted application](../unified-service-desk/use-uii-inspector-create-bindings-hosted-application.md).
@@ -31,11 +32,11 @@ You can use the [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-host
 
 3. In the **Add New Item** dialog box, select **Visual C#** > **Workflow** in the left pane, select **Activity** as the project type, specify an appropriate name, and then click **Add**.
 
-   ![Add a workflow to your HAT application](../unified-service-desk/media/usd-add-automation-1.png "Add a workflow to your HAT application")
+   ![Add a workflow to your HAT application.](../unified-service-desk/media/usd-add-automation-1.png "Add a workflow to your HAT application")
 
 4. This adds the activity workflow (XAML) in your project, and opens up the XAML in the workflow activity designer area where you can drop the [!INCLUDE[pn_hat](../includes/pn-hat.md)] automation activities as well as other activities to design your automation.
 
-   ![Drop HAT automation activities](../unified-service-desk/media/usd-add-automation-2.png "Drop HAT automation activities")
+   ![Drop HAT automation activities.](../unified-service-desk/media/usd-add-automation-2.png "Drop HAT automation activities")
 
 5. Create your automation using the [!INCLUDE[pn_hat](../includes/pn-hat.md)] activities, save your project, and then build it.
 
@@ -53,26 +54,26 @@ You can use the [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-host
 
 4. Under **Automation**, from the **Mode** list, select **Use Workflow Assembly** or **Use Workflow XAML** to associate an automation with the action.
 
-   ![Select the automation mode](../unified-service-desk/media/usd-add-automation-3.png "Select the automation mode")
+   ![Select the automation mode.](../unified-service-desk/media/usd-add-automation-3.png "Select the automation mode")
 
 5. Click **Select Workflow** to specify the automation.
 
 6. In the **Workflow Selector** dialog box, expand your project name, and then select the workflow (.xaml) to be associated with the action, and then click **OK**.
 
-   ![Select the workflow](../unified-service-desk/media/usd-add-automation-4.png "Select the workflow")
+   ![Select the workflow.](../unified-service-desk/media/usd-add-automation-4.png "Select the workflow")
 
 7. If you selected:
 
    1. **Use Workflow Assembly** in step 4, the type information is populated in the **Type** field for the selected automation (workflow).
 
-   ![Type information for the selected workflow](../unified-service-desk/media/usd-add-automation-5.png "Type information for the selected workflow")
+   ![Type information for the selected workflow.](../unified-service-desk/media/usd-add-automation-5.png "Type information for the selected workflow")
 
-       > [!NOTE]
-       >  As the absolute path to the workflow assembly is not mentioned in the **Type** field, you must copy the workflow assembly file in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client installation directory to test and use the hosted application and the automation.  
+   > [!NOTE]
+   > As the absolute path to the workflow assembly is not mentioned in the **Type** field, you must copy the workflow assembly file in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client installation directory to test and use the hosted application and the automation.  
   
    2. **Use Workflow XAML** in step 4, the workflow XAML is populated in the XAML field for the selected automation (workflow).  
   
-   ![XAML for the selected workflow](../unified-service-desk/media/usd-add-automation-6.png "XAML for the selected workflow")  
+   ![XAML for the selected workflow.](../unified-service-desk/media/usd-add-automation-6.png "XAML for the selected workflow")  
   
 8. If you want the run automation in an asynchronous mode, select the **Async** check box. Automation can be executed *synchronously* or *asynchronously*.  
   
@@ -87,7 +88,7 @@ You can use the [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-host
 <a name="verify"></a>   
 ## Verify the HAT hosted control with automation  
   
-1. Deploy the [!INCLUDE[pn_hat](../includes/pn-hat.md)] application to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] on the Common Data Service platform server. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Deploy the hosted application to Unified Service Desk](../unified-service-desk/deploy-hosted-application-unified-service-desk.md)  
+1. Deploy the [!INCLUDE[pn_hat](../includes/pn-hat.md)] application to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] on Microsoft Dataverse server. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Deploy the hosted application to Unified Service Desk](../unified-service-desk/deploy-hosted-application-unified-service-desk.md)  
   
 2. Copy the required files (workflow and [!INCLUDE[pn_hat](../includes/pn-hat.md)] application assemblies) to the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application directory (typically C:\Program Files\Microsoft Dynamics CRM USD\USD).  
   
@@ -99,9 +100,9 @@ You can use the [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-host
   
    2.  Click the run icon to test it.  
   
-   ![Use Debugger to test your action with automation](../unified-service-desk/media/usd-add-automation-7.png "Use Debugger to test your action with automation")  
+   ![Use Debugger to test your action with automation.](../unified-service-desk/media/usd-add-automation-7.png "Use Debugger to test your action with automation")  
   
-    For more information about using the Debugger hosted control, see [Debug issues in Unified Service Desk](https://go.microsoft.com/fwlink/p/?LinkId=518149) in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] Administration Guide.  
+    For more information about using the Debugger hosted control, see [Debug issues in Unified Service Desk](/previous-versions/dn646903(v=usd.6)) in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] Administration Guide.  
   
 > [!TIP]
 >  To debug the automation, start [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] as administrator, open your [!INCLUDE[pn_hat](../includes/pn-hat.md)] application project, and set the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client executable file (UnifiedServiceDesk.exe) as the external startup program in the properties of the project. Also, set the build output path of the project to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client installation directory. Every time you debug the project, the assemblies will be copied over to the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client installation directory, and the client will start.
@@ -121,3 +122,6 @@ You can use the [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-host
  [Use HAT automation activities](../unified-service-desk/use-hat-automation-activities.md)
  [Types of HAT automation activities](../unified-service-desk/types-of-hat-automation-activities.md)
  [Configure an action for the hosted application](../unified-service-desk/configure-action-hosted-application.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,9 +1,10 @@
 ---
-title: "Change the publisher prefix (Dynamics 365 Customer Engagement on-premises) | MicrosoftDocs"
+title: "Change publisher prefix in Dynamics 365 Customer Engagement (on-premises)"
+description: "Every solution has a publisher. Before you start customizing the system, follow these steps to change the prefix value for the default publisher."
 ms.custom: 
 ms.date: 11/08/2018
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -16,11 +17,10 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 
-# Change the solution publisher prefix for the default publisher  
+# Change the prefix for the default publisher
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Change the solution publisher prefix](/powerapps/maker/common-data-service/change-solution-publisher-prefix)
 
 
@@ -41,3 +41,6 @@ search.app:
 4. At the bottom of the form, update the **Prefix** field to change the default value of “new” to something that identifies your organization.  
   
 5. When you change the value, make sure to tab to the next field. The **Option Value Prefix** will automatically generate a number based on the customization prefix. This number is used when you add options to option sets and provides an indicator of which solution was used to add the option.  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

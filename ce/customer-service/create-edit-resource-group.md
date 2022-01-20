@@ -1,15 +1,11 @@
 ---
 title: Create or change a resource group (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Create or change a resource group in Dynamics 365 Customer Service
+ms.date: 09/15/2017
+ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 09/15/2017
-ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
-ms.custom: 
-  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -17,6 +13,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 # Create or change a resource group (Customer Service app)
@@ -40,7 +38,7 @@ Use resource groups to group users, facilities, and equipment as part of the sel
   
     - **Business Unit**  
   
-         To locate and select a business unit, select the **Lookup** button ![Lookup button](../customer-service/media/crm-ua-lookup-v4.gif "Lookup button").  
+         To locate and select a business unit, select the **Lookup** button ![Lookup button.](../customer-service/media/crm-ua-lookup-v4.gif "Lookup button").  
   
     - **Description**  
   
@@ -60,7 +58,7 @@ Use resource groups to group users, facilities, and equipment as part of the sel
   
 9. Select **Save** or **Save and Close**.  
 
-   ![resource-group](media/r-rg.png)
+   ![resource-group.](media/r-rg.png)
   
 ## Edit a resource group  
   
@@ -80,3 +78,6 @@ Use resource groups to group users, facilities, and equipment as part of the sel
 >  To remove a resource, select the resource you want to remove from the resource group. On the Actions toolbar, select **More Actions**, and then select **Remove Resources**.  
 >   
 > [!INCLUDE[cc_solution_recommendation](../includes/cc-solution-recommendation.md)]
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

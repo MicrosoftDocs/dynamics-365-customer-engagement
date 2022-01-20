@@ -1,9 +1,10 @@
 ---
-title: "Set incoming and outgoing email synchronization  | MicrosoftDocs"
+title: "Set email sync options in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how to synchronize email with Customer Engagement (on-premises). This page explains the configuration options for both incoming and outgoing messages."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -14,14 +15,14 @@ ms.assetid: 17128669-8d3d-45fb-9a54-4b1dbf56ed4b
 caps.latest.revision: 14
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
 ---
 # Set incoming and outgoing email synchronization 
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 You have several options for synchronizing email messages with Dynamics 365 Customer Engagement (on-premises). Use the following information to deploy the best option for your company.  
   
@@ -62,3 +63,6 @@ For information on picking a synchronization method, see [Integrate your email s
   
 ### See also  
  [Forward mailbox vs. individual mailboxes](../admin/forward-mailbox-vs-individual-mailboxes.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

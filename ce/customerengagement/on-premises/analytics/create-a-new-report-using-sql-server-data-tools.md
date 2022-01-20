@@ -1,9 +1,10 @@
 ---
-title: "Create a new report using SQL Server Data Tools (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Create a new report with SQL Server Data Tools in Dynamics 365 Customer Engagement (on-premises)"
+description: "SQL Server Data Tools let you create or edit reports in Visual Studio. This page walks you through the steps to create a custom Fetch-based report."
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 06/28/2021
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -18,14 +19,13 @@ tags:
   - MigrationHO
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Create a new report using SQL Server Data Tools
 
 [!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)] is a report authoring environment that lets you create or edit [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] reports in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)]. The end result is a report definition .rdl file that contains the report definition that you can publish to view reports.  
   
- You can also author reports by using a common text editor. To reduce the effort to create a custom report, modify an existing .rdl file that provides most of the desired functionality. For more information about the format of the XML elements in an .rdl file, see [Report Definition Language Reference](https://go.microsoft.com/fwlink/p/?LinkId=194988). The modified report XML can be verified by using the specified XML schema. [!INCLUDE[pn_reporting_services_short](../includes/pn-reporting-services-short.md)] will also verify the report definition and reject a report if the definition is invalid when you try to upload the report.  
+ You can also author reports by using a common text editor. To reduce the effort to create a custom report, modify an existing .rdl file that provides most of the desired functionality. For more information about the format of the XML elements in an .rdl file, see [Report Definition Language Reference](/sql/reporting-services/reports/report-definition-language-ssrs). The modified report XML can be verified by using the specified XML schema. [!INCLUDE[pn_reporting_services_short](../includes/pn-reporting-services-short.md)] will also verify the report definition and reject a report if the definition is invalid when you try to upload the report.  
   
 > [!NOTE]
 >  If the .rdl file contains a FetchXML query, the query in the RDL is validated by [!INCLUDE[pn_crm_fetch_extension](../includes/pn-crm-fetch-extension.md)], which internally validates it against the FetchXML schema. <!-- For more information, see [Fetch XML Schema](../developer/fetchxml-schema.md).  -->
@@ -93,3 +93,6 @@ search.app:
 ### See also  
  [Report Writing Environment](../analytics/report-writing-environment-using-sql-server-data-tools.md)   <br />
  [Blog: Getting Started With Custom Reports In The Cloud](https://community.dynamics.com/product/crm/crmtechnical/b/crmteamblog/archive/2010/10/19/getting-started-with-custom-reports-in-the-cloud.aspx)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

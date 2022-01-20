@@ -1,7 +1,7 @@
 ---
 title: "Create a virtual entity data provider (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.date: 10/31/2017
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.topic: article
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
@@ -11,8 +11,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Create a virtual entity data provider
@@ -52,3 +51,6 @@ Unlike an ordinary plugin, you will only use the Plugin Registration Tool (PRT) 
 When the metadata for your virtual entity is configured, your plugins are registered using the PRT and the correct configuration data is set in the **EntityDataProvider** and **EntityDataSource** entities, your virtual entity will start to respond to requests.
 
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

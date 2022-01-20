@@ -1,10 +1,10 @@
 ---
-title: "Map entity fields | MicrosoftDocs"
-description: "Learn how to map entity fields"
+title: "Create entity field mapping in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how to create field mapping between entities. This lets you set default values for a record that's created in the context of another record."
 ms.custom: 
 ms.date: 12/04/2018
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -19,12 +19,10 @@ manager: kvivek
 tags: 
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
 ---
-# Map entity fields
+# Create or edit mapping between entity fields
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Map table columns](/powerapps/maker/data-platform/map-entity-fields)
 
 <a name="BKMK_mappingEntityFields"></a>   
  
@@ -62,7 +60,7 @@ search.app:
 > [!NOTE]
 >  If you need to map option set fields, we recommend you configure both fields to use the same global option set. Otherwise, it can be difficult to keep two separate sets of options synchronized manually. If the integer values for each option aren’t mapped correctly you can introduce problems in your data. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and edit global option sets](../customize/create-edit-global-option-sets.md)  
   
-#### Create or edit mapping between fields  
+#### Create or edit field mapping
   
 1. Open solution explorer. 
   
@@ -94,3 +92,6 @@ search.app:
 
 [Create 1:N (one-to-many) or N:1 (many-to-one) relationships](create-and-edit-1n-relationships.md)<br />
 [Create N:N (many-to-many) relationships](create-and-edit-nn-many-to-many-relationships.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,20 +1,31 @@
 ---
-title: Marketing learning catalog
-description: Find all the training options for marketing.
-author: loreleishannonmsft
-ms.topic: article
+title: "Marketing learning catalog (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Find all the training options for Dynamics 365 Marketing."
 ms.date: 01/08/2020
-ms.author: v-lshann
+ms.service: dynamics-365-marketing
+ms.custom: 
+  - dyn365-marketing
+ms.topic: hub-page
+author: alfergus
+ms.author: alfergus
+manager: margoc
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365Mktg
 ---
 
-# Marketing Learning Catalog
+# Learning catalog (Marketing)
 <p> Find the right online training, in person workshops, and events for your role in Customer Service for Dynamics 365.</p>
 
-<!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  
+<!-- ![Universal Windows Platform (UWP).](images/platform-uwp.png)  -->  
 
 :::row:::
     :::column:::
-<!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  
+<!-- ![Universal Windows Platform (UWP).](images/platform-uwp.png)  -->  
 
     ### Materials for functional consultants
     
@@ -34,6 +45,7 @@ ms.author: v-lshann
     Are you in charge of making sure your company’s implementation goes smoothly?
 
     [Project Managers Learning Catalog](learning-project-manager.md)
+    
     [Marketing](learning-project-manager.md#marketing)
 
     [Exams](learning-project-manager.md#exam)
@@ -87,6 +99,11 @@ ms.author: v-lshann
     [Build](learning-developer.md#build)
 
     [Extend](learning-developer.md#extend)
+    
+    [Exams](learning-developer.md#exam)
 
      :::column-end:::
 :::row-end:::
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

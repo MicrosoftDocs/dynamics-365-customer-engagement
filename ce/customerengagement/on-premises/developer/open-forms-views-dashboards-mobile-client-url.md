@@ -3,8 +3,8 @@ title: "Open forms, views, and dashboards in Dynamics 365 Customer Engagement (o
 description: "Use the new application handler for Dynamics 365 Customer Engagement (on-premises) mobile clients to directly link to Dynamics 365 Customer Engagement forms, views, and dashboards from external applications so that when you click on the link in an external application, the target element opens in Dynamics 365 for phones or Dynamics 365 for tablets."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,8 +17,7 @@ ms.author: kvivek
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Open forms, views, and dashboards in Customer Engagement mobile client with a URL
 
@@ -63,3 +62,6 @@ ms-dynamicsxrm://?pagetype=<VALUE>&etn=<VALUE>&id=<VALUE>
  [Open Forms, Views, Dialogs and Reports with a URL](open-forms-views-dialogs-reports-url.md)  
     
  [Extend Dynamics 365 Customer Engagement (on-premises) on the client](extend-client.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

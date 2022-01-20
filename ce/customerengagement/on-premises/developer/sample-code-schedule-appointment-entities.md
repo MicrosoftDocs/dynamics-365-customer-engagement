@@ -3,11 +3,11 @@ title: "Sample code for schedule and appointment Entities (Developer Guide for D
 description: "Section contains the code examples that show how to use the schedule and appointment entities."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
@@ -20,8 +20,6 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 # Sample code for schedule and appointment Entities
 
@@ -47,3 +45,6 @@ This section contains the code examples that show how to use the schedule and ap
  [Sample: Convert an Appointment to a Recurring Appointment](sample-convert-appointment-recurring-appointment.md)  
   
  [Sample: Link Custom Attributes between Series and Instances](sample-link-custom-attributes-between-series-instances.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

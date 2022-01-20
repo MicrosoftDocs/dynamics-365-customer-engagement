@@ -1,9 +1,10 @@
 ---
-title: "Connect to IMAP servers or SMTP servers | MicrosoftDocs"
+title: "Connect IMAP/SMTP servers to Dynamics 365 Customer Engagement (on-premises)"
+description: "Creating an IMAP/SMTP email server profile is not available for Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
-ms.date: 10/01/2019
+ms.date: 05/18/2020
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -16,18 +17,21 @@ ms.author: jimholtz
 manager: kvivek
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
----
-# Connect Customer Engagement (on-premises) to IMAP servers or SMTP servers
 
-Follow these steps to connect Dynamics 365 Customer Engagement (on-premises) with IMAP email servers such as used for Gmail and Yahoo! Mail.  
+---
+# Connect Customer Engagement (on-premises) to IMAP/SMTP servers
+
+> [!IMPORTANT]
+> Creating an IMAP/SMTP email server profile is not available for Customer Engagement (on-premises).
+
+<!-- 
+Follow these steps to connect Dynamics 365 Customer Engagement (on-premises) with IMAP email servers, such as used for Gmail and Yahoo! Mail.  
 
 > [!NOTE]
 > - Only emails in the Inbox folder are synchronized.
 > - Existing POP3 email profiles will not be automatically converted to IMAP. There is no support for migrating from POP3 to IMAP.
 > - For IMAP/SMTP systems supported by Microsoft, check out the following topic: [Supported email service configurations for server-side synchronization](supported-email-service-configurations-server-side-synchronization.md).  
+
 
 <a name="BKMK_CreateProfile"></a>   
 
@@ -86,7 +90,7 @@ Set server-side synchronization to be the default configuration method.
 
      If you leave the **Email processing form unapproved user and queues** at the default values (checked), you will need to approve emails and queues for user mailboxes as directed below in **Approve Email**.  
 
-     ![System Settings for server-side synchronization](../admin/media/imap-profile.png "System Settings for server-side synchronization")  
+     ![System Settings for server-side synchronization.](../admin/media/imap-profile.png "System Settings for server-side synchronization")  
 
 3.  Click **OK**.  
 
@@ -107,7 +111,7 @@ Set server-side synchronization to be the default configuration method.
 
 3. Select all the mailboxes that you want to associate with the IMAP profile you created, click **Apply Default Email Settings**, verify the settings, and then click **OK**.  
 
-   ![Apply default email settings](../admin/media/apply-default-email-settings.png "Apply default email settings")  
+   ![Apply default email settings.](../admin/media/apply-default-email-settings.png "Apply default email settings")  
 
     By default, the mailbox configuration is tested and the mailboxes are enabled when you click **OK**.  
 
@@ -179,3 +183,6 @@ Set server-side synchronization to be the default configuration method.
  [Test mail flow with the Remote Connectivity Analyzer](https://technet.microsoft.com/library/dn305950\(v=exchg.150\).aspx)   
  [Set up server-side synchronization](set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)   
 
+-->
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,9 +1,9 @@
 ---
-title: "Publish a Dynamics 365 for Customer Engagement app using the app designer | MicrosoftDocs"
-description: ""
+title: "Publish an app with the app designer in Dynamics 365 for Customer Engagement (on-premises)"
+description: "After you've added your components, validated the app, and saved it, follow these steps to publish your app in order to make it available to users."
 keywords: 
 ms.date: 04/30/2019
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.topic: article
 applies_to: 
@@ -20,13 +20,10 @@ caps.latest.revision: 7
 topic-status: Drafting
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 
 # Publish an app using the app designer
-
-
 
 Publish an app to make it available to users.  
   
@@ -40,3 +37,6 @@ Publish an app to make it available to users.
   
 ### See also  
  [Validate an app](../customize/validate-app.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

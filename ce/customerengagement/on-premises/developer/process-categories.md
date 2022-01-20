@@ -3,8 +3,8 @@ title: "Dynamics 365 Customer Engagement Process categories (Developer Guide for
 description: "Processes enable you to model real-life business processes, for example best practices or standard practices, in Dynamics 365 Customer Engagement (on-premises). When modeling your business practices, you can choose from four categories of processes: Workflow, Action, Business Process Flow, and Dialog."
 ms.custom: 
 ms.date: 12/16/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -16,8 +16,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Process categories
 
@@ -32,9 +31,9 @@ Processes enable you to model real-life business processes, for example best pra
 - **Dialog**. Use this process to create an  interactive step-by-step data entry form that requires user input to start and run to completion. When you start the dialog process, a wizard-like interface is presented so you can make appropriate selections or enter data as you progress through each page of the wizard. 
 
     > [IMPORTANT]
-    > [Dialog is deprecated](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#dialogs-are-deprecated), and should be replaced by business process flows or canvas apps in Power Apps. More information: [Replace dialogs with business process flows or canvas apps](https://docs.microsoft.com/flow/replace-dialogs).
+    > [Dialog is deprecated](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#dialogs-are-deprecated), and should be replaced by business process flows or canvas apps in Power Apps. More information: [Replace dialogs with business process flows or canvas apps](/flow/replace-dialogs).
 
-The processes’ capability is implemented using [Windows Workflow Foundation](https://msdn.microsoft.com/vstudio/jj684582.aspx). The latest version of [!INCLUDE[pn_Windows_Workflow_Foundation](../includes/pn-windows-workflow-foundation.md)] has improved to facilitate easier creation, running, and maintenance of workflows to implement custom functionalities in your application. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [What's New in Windows Workflow Foundation](https://msdn.microsoft.com/library/dd489410.aspx)  
+The processes’ capability is implemented using [Windows Workflow Foundation](https://msdn.microsoft.com/vstudio/jj684582.aspx). The latest version of [!INCLUDE[pn_Windows_Workflow_Foundation](../includes/pn-windows-workflow-foundation.md)] has improved to facilitate easier creation, running, and maintenance of workflows to implement custom functionalities in your application. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [What's New in Windows Workflow Foundation](/dotnet/framework/windows-workflow-foundation/whats-new)  
 
 There are three ways to create business processes: interactively through the web application forms and the workflow designer, by writing code that uses workflow related classes, and by importing a pre-made workflow in a solution. Because the SDK is developer-focused, we are covering the coding aspect of creating workflow processes.  
 
@@ -86,3 +85,6 @@ You can include workflows and custom workflow activities in a solution that is i
 ### See also
 
 [Automate your business processes in Customer Engagement](automate-business-processes-customer-engagement.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

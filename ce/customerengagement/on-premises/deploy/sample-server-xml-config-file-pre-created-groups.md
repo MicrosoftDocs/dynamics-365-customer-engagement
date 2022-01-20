@@ -1,8 +1,9 @@
 ---
 title: "Sample server XML configuration file for installing with pre-created groups | Microsoft Docs"
+description: Use the sample Setup XML configuration file for pre-created groups with Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: "crm-2016"
+ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -17,7 +18,12 @@ manager: kvivek
 ---
 # Sample server XML configuration file for installing with pre-created groups
 
+::: moniker range="op-9-1"
+[!INCLUDE [applies-not-to-9-1](../includes/applies-not-to-9-1.md)]
 
+::: moniker-end
+
+::: moniker range="op-9-0"
 
 By default, Setup creates four [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] security groups that are used by [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. You can create these groups in advance and then provide the information for the groups in the Setup configuration file.  
   
@@ -46,3 +52,6 @@ By default, Setup creates four [!INCLUDE[pn_Active_Directory](../includes/pn-act
  [Microsoft Dynamics 365 Server XML configuration file](microsoft-dynamics-365-server-xml-configuration-file.md)   </br>
  [Install Microsoft Dynamics 365 Server roles using the command prompt](install-using-command-prompt.md)
 
+::: moniker-end
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,19 +1,17 @@
 ---
-title: "getSession (JavaScript API Reference) for Dynamics 365 Channel Integration Framework (CIF) version 2.0 | MicrosoftDocs"
-description: ""
-author: susikka
-ms.author: susikka
-manager: shujoshi
+title: "getSession (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
+description: "Includes description, syntax, and parameter information for the getSession method in JavaScript API Reference for Channel Integration Framework 2.0."
 ms.date: 01/23/2020
 ms.topic: reference
-ms.service: 
-  - dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
 ---
 
-# getSession
+# getSession (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
 
 [!include[applies-to-v2](../../includes/applies-to-v2.md)]
 
@@ -33,7 +31,7 @@ Returns an object containing the unique identifier of the session, unique identi
 | successCallback | Function | No           | Call when the request for the current width value is successful |
 | errorCallback   | Function | No           | Call when the request for the current width value fails         |
 
-## Return Value
+## Return value
 
 Object containing session Id, conversation Id, context and isFocused parameter
 
@@ -51,3 +49,6 @@ Microsoft.CIFramework.getSession("session-id-1").then(
     }
 );
 ```
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

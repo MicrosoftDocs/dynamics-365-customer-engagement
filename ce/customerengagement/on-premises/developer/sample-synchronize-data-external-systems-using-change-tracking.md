@@ -3,11 +3,11 @@ title: "Sample: Synchronize data with external systems using change tracking (De
 description: "This sample code shows how to retrieve changes from an entity and synchronize data with external systems by using the RetrieveEntityChangesRequest message"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 14464805-0405-4e19-9d95-6c031de8ae3f
@@ -17,16 +17,14 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 # Sample: Synchronize data with external systems using change tracking
 
-This sample code shows how to retrieve changes from an entity and synchronize data with external systems by using the `RetrieveEntityChanges` message with the [RetrieveEntityChangesRequest](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.messages.retrieveentitychangesrequest) and [RetrieveEntityChangesResponse](https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.messages.retrieveentitychangesresponse) classes. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/Changetracking).
+This sample code shows how to retrieve changes from an entity and synchronize data with external systems by using the `RetrieveEntityChanges` message with the [RetrieveEntityChangesRequest](/dotnet/api/microsoft.xrm.sdk.messages.retrieveentitychangesrequest) and [RetrieveEntityChangesResponse](/dotnet/api/microsoft.xrm.sdk.messages.retrieveentitychangesresponse) classes. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/Changetracking).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 
-For more information about the feature that this sample demonstrates, see [Use change tracking to synchronize data with external systems](https://docs.microsoft.com/powerapps/developer/common-data-service/use-change-tracking-synchronize-data-external-systems).
+For more information about the feature that this sample demonstrates, see [Use change tracking to synchronize data with external systems](/powerapps/developer/common-data-service/use-change-tracking-synchronize-data-external-systems).
 
 
 ## How to run this sample
@@ -58,3 +56,6 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 ### Clean up
 
 Display an option to delete the managed solution imported in [Setup](#setup), which removes the `sample_book` entity and all the data created in the sample. The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the `ChangeTrackingSample` to achieve the same result.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

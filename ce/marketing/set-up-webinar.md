@@ -1,18 +1,14 @@
 ---
-title: "Set up an online event or simulcast (Dynamics 365 Marketing) | Microsoft Docs "
-description: "How to set up a webinar to create an online-only event or to simulcast a live event in Dynamics 365 Marketing"
-keywords: events; event management; webinar
+title: "Set up an online event or simulcast (Dynamics 365 Marketing) | Microsoft Docs"
+description: "How to set up a webinar to create an online-only event or to simulcast a live event in Dynamics 365 Marketing."
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 2fe1cc7a-ba3a-43bb-b947-3a672834e650
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -63,4 +59,7 @@ If you want to send out the links yourself then one way to do so is to set up a 
 
 ### See also
 
-[Event management settings](events-settings.md)
+[Event management settings](events-settings.md)  
+[Early access: Set up a Microsoft Teams webinar](teams-webinar.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

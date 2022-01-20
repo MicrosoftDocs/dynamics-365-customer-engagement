@@ -3,9 +3,9 @@ title: "Sample: Authenticate users with Dynamics 365 Customer Engagement web ser
 description: "This sample shows how to authenticate a user with any Microsoft Dynamics 365 Customer Engagement deployment and obtain a reference to the web services."
 keywords: 
 ms.date: 10/28/2019
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 3bde1482-60d4-489b-8379-49d3bc2f4abc
@@ -22,8 +22,6 @@ helpviewer_keywords:
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 
 # Sample: Authenticate users with Dynamics 365 Customer Engagement web services
@@ -45,3 +43,6 @@ This sample shows how to authenticate a user with Dynamics 365 Customer Engageme
  [Authenticate Users with Dynamics 365 Customer Engagement Web Services](authenticate-users.md)   
  [Authenticate Office 365 Users with Dynamics 365 Customer Engagement Web Services](authenticate-office-365-users-customer-engagement-web-services.md)   
  [Connect with Microsoft Office 365 and Dynamics 365 Customer Engagement](connect-microsoft-office-365.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

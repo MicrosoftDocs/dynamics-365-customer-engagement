@@ -1,26 +1,95 @@
 ---
-title: "What's new in Unified Service Desk  for administrators | MicrosoftDocs"
-description: "Learn about new Unified Service Desk features"
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
-ms.date: 04/10/2019
-ms.service: 
-  - dynamics-365-customerservice
+title: "What's new in Unified Service Desk for administrators | MicrosoftDocs"
+description: "Learn about new features available for system administrators in the latest version of Unified Service Desk."
+ms.date: 06/21/2021
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
+monikerRange: '>= dynamics-usd-4'
 ---
 
 # What's new in Unified Service Desk for administrators
 
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
+::: moniker range="dynamics-usd-4.2"
+
+## What's new in Unified Service Desk 4.2
+
+This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version.
+
+### Use Edge WebView2 Process to host web applications in Unified Service Desk
+
+The Edge WebView2 Process browser control hosts your controls in individual Edge WebView2 process instances and displays them in tabs in the Unified Service Desk client application. It facilitates predictable and secure page rendering by making sure that if your web application works in Microsoft Edge, it'll work in Unified Service Desk.
+
+The advantages of using the Edge WebView2 Process hosting method are:
+
+- Available on supported versions of the Windows operating system.
+- Highly reliable.
+- Easy to configure to host applications in Unified Service Desk.
+- Switch seamlessly from one browser to another for your entire organization.
+- Enhanced performance and memory optimization.
+
+Also, administrators will be able to perform the following:
+
+- Select Edge WebView2 Process as the hosting type for the organization.
+- Select Edge WebView2 Process as the hosting type for select web applications, alongside Chrome process.
+
+More information: [Use EdgeWebView2 Process to host web applications in Unified Service Desk](../edge-webview2-process.md)
+
+### Recover an Edge WebView2 process instance
+
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] can help agents to recover the terminated (crashed) webpages hosted in Edge WebView2 Process in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
+
+By default, Edge WebView2 Process instance recovery is enabled.
+
+More information: [Recover an Edge WebView2 process instance](recover-edge-webview2-process-instance.md)
+
+### Pool process instances for Edge WebView2 Process
+
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] always maintains a pool of Edge WebView2 process instances for hosted controls to use. Opening a hosted control using a pooled Edge WebView2 process instance enhances the performance of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
+
+By default, the Edge WebView2 process instance pooling is enabled.
+
+With the Edge WebView2 process instance pooling, every entity page navigation happens inline after the first entity page navigation.
+
+::: moniker-end
+
 ::: moniker range="dynamics-usd-4.1"
+
+## What's new in Unified Service Desk 4.1.1.1433
+
+This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version.
+
+This release supports the Dynamics 365 model-driven apps deployed in Switzerland region.
+
+## What's new in Unified Service Desk 4.1.1.1429
+
+This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version.
+
+- Enhancements to the Chrome process hosting type include the following:
+
+  * Unified Service Desk support for Chrome process upgraded to Chromium version 84. More information: [Use Chrome Process to host web application](../chrome-process.md)
+  * Support for editing PDFs (if the PDF has editable fields) with Chrome Process webpages. More information: [Edit PDF in chrome process](../chrome-process.md#edit-a-pdf-in-chrome-process)
+  * Accessibility support for the Chrome process web pages enhanced. More information: [Accessibility support with Chrome Process](../chrome-process.md#accessibility-support-with-chrome-process).
+  * Confirmation messages displayed on close and save sessions. More information: [Enable the close confirmation dialog box with Chrome Process](../chrome-process.md#enable-the-close-confirmation-dialog-box-with-chrome-process) and [Enable the confirmation dialog box with Chrome Process](../chrome-process.md#enable-the-confirmation-dialog-box-with-chrome-process)
+  * Open source parameters supported to enhance the performance of Chrome process&ndash;based webpages. More information: [Add parameters using Chrome Process](../chrome-process.md#add-parameters-using-chrome-process).
+  * Default folder enabled to download attachments. More information: [Download attachments in Chrome Process](../chrome-process.md#download-attachments-in-chrome-process).
+
+- Multiple headers supported during the Navigate action of a Unified Service Desk POST event. More information: [Unified interface page hosted control](../unified-interface-page-hosted-control.md#navigate), [Standard Web Application hosted control](../standard-web-application-hosted-control.md#navigate), and [CRM Page hosted control](../crm-page-hosted-control.md#navigate).
+
+- Single sign-on feature enabled by default. More information: [Single sign on for Unified Service Desk](connect-dynamics-365-instance-using-unified-service-desk-client.md#single-sign-on-for-unified-service-desk).
+
+- Special characters supported in Unified Service Desk. More information: [Enable the encoding and escaping of special characters](../create-channel-integration-framework-hosted-control.md#enable-the-encoding-and-escaping-of-special-characters).
 
 ## What's new in Unified Service Desk 4.1
 
@@ -86,7 +155,7 @@ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md
 
 The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator app brings rich experience to administer and manage your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application.
 
-The Administrator app, built based on the Unified Interface framework has the same configurational capabilities as the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] administrator in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Web Client. 
+The Administrator app, built based on the Unified Interface framework has the same configurational capabilities as the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] administrator in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Web Client.
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Unified Service Desk Administrator App](../admin/unified-service-desk-administrator-app.md)
 
@@ -99,7 +168,7 @@ Unified Interface Settings is a new configuration element introduced under the *
 ### Show feedback window to agents
 A feedback window is introduced in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to help an agent to provide feedback while closing the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. Agents can provide feedback comments with the score and submit it to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)]. The comments are assessed and considered for improving the products and services.
 
-[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Mange options for Unified Service Desk](../admin/manage-options-unified-service-desk.md)
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage options for Unified Service Desk](../admin/manage-options-unified-service-desk.md)
 
 ::: moniker-end
 
@@ -107,7 +176,7 @@ A feedback window is introduced in [!INCLUDE[pn_unified_service_desk](../../incl
 
 ## What's new in [!INCLUDE[pn-unified-service-desk-4-0](../../includes/pn-unified-service-desk-4-0.md)]
 
-This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version. 
+This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version.
 
 ### Web Client - Unified Interface Migration Assistant
 The Web Client - Unified Interface Migration Assistant for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] helps you migrate your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations from [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Web Client to a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Unified Interface App.
@@ -132,8 +201,6 @@ Your service agents can use the **Unified Interface KM Control** hosted control 
 
 The Unified Blue theme is the predefined theme for Unified Service Desk when you are using a Unified Interface App.
 
-## Preview features
-
 ### Unified Service Desk Administrator App
 
 With [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] 4.0, you can use the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator App built on the Unified Interface framework to administer and manage the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application.
@@ -155,7 +222,7 @@ Unified Interface Settings is a new configuration element introduced under the *
 ### Show feedback window to agents
 A feedback window is introduced in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to help an agent to provide feedback while closing the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. Agents can provide feedback comments with the score and submit it to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)]. The comments are assessed and considered for improving the products and services.
 
-[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Mange options for Unified Service Desk](../admin/manage-options-unified-service-desk.md)
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage options for Unified Service Desk](../admin/manage-options-unified-service-desk.md)
 
 ::: moniker-end
 
@@ -182,7 +249,6 @@ The categories against which [!INCLUDE[pn-best-practices-analyzer](../../include
 - Internet Explorer settings
 
 [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] is available for the following [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] versions.
-
 
 |                                                                                                                                          [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] version                                                                                                                                          |                                                                                                                                                      Availability                                                                                                                                                      |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -225,12 +291,11 @@ As per the data definitions and stages are outlined in the GDPR, the data contai
 
 In this case, you hold the responsibility to delete the Diagnostic log files. 
 
-- **Telemetry data.** [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application collects telemetry data that is maintained in the Common Data Service platform. In these cases, the natural or legal person, public authority, agency, or other body which, alone or jointly with others, becomes the controller, and the processor is [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)], which processes the data on behalf of the controller.
+- **Telemetry data.** [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application collects telemetry data that is maintained in Microsoft Dataverse. In these cases, the natural or legal person, public authority, agency, or other body which, alone or jointly with others, becomes the controller, and the processor is [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)], which processes the data on behalf of the controller.
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Comply with General Data Protection Regulation (GDPR)](../admin/comply-gdpr.md) and [Unified Service Desk data compliance under GDPR](../admin/comply-unified-service-desk-data-gdpr.md)
 
 ## What's new in [!INCLUDE[pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)]
-
 
 ### Performance enhancement for CRM page loads
 
@@ -294,7 +359,7 @@ However, certain features in [!INCLUDE [pn-crm-9-0-0-online](../../includes/pn-c
 
 ### Security enhancements: User session and access management
 
-When agents host one or more [!INCLUDE [pn-dynamics-365](../../includes/pn-dynamics-365.md)] pages inside the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client using a hosted control of hosting type [IE Process](../ie-process.md), an inactivity or session timeout warning may appear. These warnings are based on the configured inactivity and session timeouts, and agents are signed out after the expiry period. This behavior is similar with that of the web client and after the expiry period agents must sign in to the application again to resume working. System administrators can change the default warning and session timeout values from the System Settings page in the Common Data Service platform. More information: [Security enhancements: User session and access management](/dynamics365/customer-engagement/admin/user-session-management)
+When agents host one or more [!INCLUDE [pn-dynamics-365](../../includes/pn-dynamics-365.md)] pages inside the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client using a hosted control of hosting type [IE Process](../ie-process.md), an inactivity or session timeout warning may appear. These warnings are based on the configured inactivity and session timeouts, and agents are signed out after the expiry period. This behavior is similar with that of the web client and after the expiry period agents must sign in to the application again to resume working. System administrators can change the default warning and session timeout values from the System Settings page in Dataverse. More information: [Security enhancements: User session and access management](/dynamics365/customer-engagement/admin/user-session-management)
 
 The inactivity timeout setting does not apply to hosted controls of hosting type [Internal WPF](../internal-wpf.md) and the agent will not be signed out due to inactivity. However, the session timeout is still applicable and there will be no warning displayed before automatic sign out occurs due to session expiry. We recommend that you use hosted controls of type IE Process if session timeout is desired. 
 
@@ -303,10 +368,10 @@ The inactivity timeout setting does not apply to hosted controls of hosting type
 
 ### Security enhancements: TLS requirements
 
-Unified Service Desk clients connecting to the [!INCLUDE [pn-crm-9-0-0-online](../../includes/pn-crm-9-0-0-online.md)] instances will require Transport Layer Security (TLS) 1.2. More information: [Updates coming to the Common Data Service connection security](https://blogs.msdn.microsoft.com/crm/2017/09/28/updates-coming-to-dynamics-365-customer-engagement-connection-security/)
+Unified Service Desk clients connecting to the [!INCLUDE [pn-crm-9-0-0-online](../../includes/pn-crm-9-0-0-online.md)] instances will require Transport Layer Security (TLS) 1.2. More information: [Updates coming to the Dataverse connection security](https://blogs.msdn.microsoft.com/crm/2017/09/28/updates-coming-to-dynamics-365-customer-engagement-connection-security/)
 
 <a name="limitations"></a>
-### Unified Service Desk limitations with the Common Data Service platform
+### Unified Service Desk limitations with Dataverse
 
 These are the limitations:
 - **Unified Interface**: Apps built using Unified Interface are not supported with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. More information: [Unified Interface framework for new apps](/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update#unified-interface-framework-for-new-apps)
@@ -323,11 +388,15 @@ These are the limitations:
  Previous versions maintained the error diagnostics reporting settings in the Options area of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] solution. With this release, to simplify configuration the error diagnostics reporting settings have been moved to the Audit & Diagnostics Settings area. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Diagnostics](../../unified-service-desk/admin/configure-auditing-diagnostics-unified-service-desk.md#create-an-audit--diagnostics-record-to-use-for-auditing)  
 
 ### Support for JAWS screen reader  
- You can now use the JAWS (Job Access With Speech) version 18 for Windows screen reader application for speech output with the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Accessibility in Unified Service Desk](https://go.microsoft.com/fwlink/?linkid=826563)  
+ You can now use the JAWS (Job Access With Speech) version 18 for Windows screen reader application for speech output with the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Accessibility in Unified Service Desk](/previous-versions/dynamicscrm-2016/admins-customizers-dynamics-365/mt826622(v=crm.8))  
 
 ::: moniker-end
 
-## See also  
- [What’s New in Unified Service Desk for developers](../../unified-service-desk/what-s-new-in-unified-service-desk.md)
- [Overview of Unified Service Desk](../../unified-service-desk/admin/overview-unified-service-desk.md)   
- [Install and Deploy Unified Service Desk](../../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)
+### See also
+ [What’s New in Unified Service Desk for developers](../../unified-service-desk/what-s-new-in-unified-service-desk.md)  
+
+ [Overview of Unified Service Desk](../../unified-service-desk/admin/overview-unified-service-desk.md)  
+
+ [Install and Deploy Unified Service Desk](../../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)  
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

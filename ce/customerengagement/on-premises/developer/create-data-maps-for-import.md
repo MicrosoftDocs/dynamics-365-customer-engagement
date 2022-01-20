@@ -3,8 +3,8 @@ title: "Create data maps for import (Developer Guide for Dynamics 365 Customer E
 description: "Data maps are required to import data, and contain mappings between the data contained in the source file and the respective entity attributes."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -16,8 +16,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Create data maps for import
 
@@ -84,3 +83,6 @@ To import data into [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)],
  [Import Data in Dynamics 365 Customer Engagement (on-premises)](import-data.md)   
  [Add Transformation Mapping](add-transformation-mappings-import.md)   
  [Add Transformation Mappings for Import](add-transformation-mappings-import.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,11 +1,11 @@
 ---
-title: "Understand views | MicrosoftDocs"
-description: ""
+title: "Types of views in Dynamics 365 Customer Engagement (on-premises)"
+description: "Views help you define how a list of records is displayed in the app. This page provides an overview of the types of views and how to create and customize them."
 keywords: 
 ms.date: 11/09/2018
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
-ms.topic: article
+ms.topic: overview
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 826fb059-a552-4db5-bf40-6a80cfa0fc0e
@@ -19,13 +19,12 @@ caps.latest.revision: 25
 topic-status: Drafting
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 
-# Understand views (lists) 
+# Overview of types of views and how to create them
 
- 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Understand model-driven app views](/powerapps/maker/model-driven-apps/create-edit-views) 
 
 With Dynamics 365 Customer Engagement (on-premises), use views to define how a list of records for a specific entity is displayed in the application. A view defines:  
 -  The columns to display    
@@ -88,3 +87,6 @@ As a system administrator and system customizer, you can customize the views thr
 ### See also  
 [Get started with customization](../customize/getting-started-customization.md)     
 [Create and design forms](../customize/create-design-forms.md)   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

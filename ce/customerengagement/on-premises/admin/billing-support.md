@@ -1,12 +1,13 @@
 ---
-title: "Support and billing | MicrosoftDocs"
+title: "Support and billing for Dynamics 365 Customer Engagement (on-premises)"
+description: "Get an overview of Dynamics 365 Support, including information on plans, services, languages, billing, submitting requests, and more."
 ms.custom: 
-ms.date: 10/01/2019
+ms.date: 09/12/2020
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: overview
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
   - Dynamics 365 for Customer Engagement  Version 9.x
@@ -14,14 +15,11 @@ ms.assetid: 93c342d6-8d16-4eca-add1-688e04546d42
 caps.latest.revision: 4
 author: jimholtz
 ms.author: jimholtz
-manager: kvivek
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
-# Support overview
+# Support and billing overview
 
 ## About Dynamics 365 Support
 
@@ -49,7 +47,7 @@ Microsoft provides support in English globally and provides additional languages
 
 ### What hours are considered local business hours for support? 
 
-For most countries, business hours are from 9 AM to 5 PM weekdays (weekends and holidays excluded). For North America, business hours are defined as 6 AM to 6 PM Pacific Time, Monday through Friday, excluding holidays. In Japan, business hours are from 9 AM to 5:30 PM weekdays. 
+For most countries or regions, business hours are from 9 AM to 5 PM weekdays (weekends and holidays excluded). For North America, business hours are defined as 6 AM to 6 PM Pacific Time, Monday through Friday, excluding holidays. In Japan, business hours are from 9 AM to 5:30 PM weekdays. 
 
 ### Do I need a support plan if I need assistance with a technical issue experienced with Dynamics 365? 
 
@@ -114,7 +112,7 @@ ProDirect, however, is more limited than Premier Advisory Support. ProDirect adv
 
 Microsoft may provide access to Dynamics 365 preview, beta, or other prerelease features, services, software, or regions, to obtain feedback and for evaluation purposes. There are many different kinds of preview services and features for Dynamics 365, with service availability and program access being the biggest differentiators:
 
-- **Public Preview**: Made available to Dynamics 365 subscribers through the Dynamics 365 admin center, these services are intended to give subscribers an early look into what is coming and a chance to test upcoming services and features.
+- **Public Preview**: Made available to Dynamics 365 subscribers through the Power Platform admin center, these services are intended to give subscribers an early look into what is coming and a chance to test upcoming services and features.
 - **Private Preview**: Provided only to a small subset of customers, in direct contact with the Dynamics 365 engineering teams, focused on direct and constant feedback during the development phase of a service.
 - **Limited Preview**: A fixed and limited number of customers can have access to this preview program, and once a maximum threshold is met, no more users are allowed into the program.
 
@@ -146,7 +144,7 @@ Submitting support requests online allows us to deliver fast and deep technical 
 
 ### Is there a phone number I can call to contact Dynamics 365 Support? 
 
-Contacting Dynamics 365 Support over the phone will not speed up the processing of your request, and you will get a much better and faster experience by contacting support via the correct support portals listed earlier in this topic. If you cannot submit a request online, you can find a local support number from our list of regional [Global Customer Service Centers](https://go.microsoft.com/fwlink/p/?LinkID=616794).
+Contacting Dynamics 365 Support over the phone will not speed up the processing of your request, and you will get a much better and faster experience by contacting support via the correct support portals listed earlier in this topic. If you cannot submit a request online, you can find a local support number from our list of regional [Global Customer Service Centers](/microsoft-365/admin/contact-support-for-business-products).
 
 ### How do I submit a support request? 
 
@@ -159,7 +157,7 @@ Contacting Dynamics 365 Support over the phone will not speed up the processing 
 
 ### How do I submit a support request if I cannot sign in to the Dynamics 365 support portal for my product or service? 
  
-If you cannot submit a support request online, you can find a local support phone number from our list of regional [Global Customer Service Centers](https://go.microsoft.com/fwlink/p/?LinkID=616794).
+If you cannot submit a support request online, you can find a local support phone number from our list of regional [Global Customer Service Centers](/microsoft-365/admin/contact-support-for-business-products).
 
 ### How do I get support if I don’t have a Dynamics 365 subscription yet, and I get an error message while creating one? 
 
@@ -171,14 +169,14 @@ Any users with the tenant admin roles on the tenant containing the Dynamics 365 
 
 ### How do I authorize another person to submit support requests for a particular Dynamics 365 subscription? 
 
-To grant permission, you must have a tenant administrator role on the tenant that contains the Dynamics 365 subscription. Assign the Service Administrator role to all users who want to create and manage support requests for that given tenant but do not require other permissions. [Learn more](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles?view=o365-worldwide) about role assignments in the portal.
+To grant permission, you must have a tenant administrator role on the tenant that contains the Dynamics 365 subscription. Assign the Service Administrator role to all users who want to create and manage support requests for that given tenant but do not require other permissions. [Learn more](/office365/admin/add-users/about-admin-roles) about role assignments in the portal.
 
 ### I am developing applications on behalf of my client or assisting my client who is running Dynamics 365. How do I get support? 
 
 You can get support from Dynamics 365 in two ways:
 
 - Being an administrator of your customer’s tenant, you can use or purchase a Dynamics 365 Support plan for that account, as any subscription you own under the same account is covered by the same support plan. You can also use your Partner benefits (for example, Advanced Support for Partners or Microsoft Partner Network Support) to submit a support request.
-- Get support using your customer’s account. To do so, the Partner (you) must have administrator or owner privileges to the customer’s subscription, most often through being a [Delegated Administrator](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/partners#provide-delegated-administration) on the tenant. The Partner can then use the customer’s subscription, or the Partner can use their Dynamics 365 Support Benefits (for example, Advanced Support for Partners or Microsoft Partner Network Support) to submit a support request.
+- Get support using your customer’s account. To do so, the Partner (you) must have administrator or owner privileges to the customer’s subscription, most often through being a [Delegated Administrator](/office365/servicedescriptions/office-365-platform-service-description/partners#provide-delegated-administration) on the tenant. The Partner can then use the customer’s subscription, or the Partner can use their Dynamics 365 Support Benefits (for example, Advanced Support for Partners or Microsoft Partner Network Support) to submit a support request.
 
 ### What is Initial Response Time, and how quickly can I expect to hear back from someone after submitting my support request? 
 
@@ -231,7 +229,7 @@ At the end of your term, your plan will automatically renew to the same Dynamics
 Manage your support plan subscriptions through the [Microsoft 365 Admin Portal](https://portal.office.com/).
 
 - To change your support plan, first cancel your existing support plan, and then purchase a new support plan.
-- To cancel your support plan, select the support plan subscription that you want to cancel, and then select **Cancel subscription**.   [Learn more](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/cancel-your-subscription?view=o365-worldwide) by reviewing this article.
+- To cancel your support plan, select the support plan subscription that you want to cancel, and then select **Cancel subscription**.   [Learn more](/office365/admin/subscriptions-and-billing/cancel-your-subscription) by reviewing this article.
 
 If you still have questions, open a new support request with the Billing team in the [Microsoft 365 Admin Portal](https://portal.office.com/). 
 
@@ -291,3 +289,6 @@ Yes, if you are eligible for these benefits and have activated your support acce
 
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

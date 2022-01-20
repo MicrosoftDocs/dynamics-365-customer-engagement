@@ -1,14 +1,10 @@
 ---
 title: "CRM Dialog (Hosted Control) | MicrosoftDocs"
-description: "Learn about using the CRM Dialog hosted control type to work with dialog. You can call the StartDialog action on your CRM Dialog hosted control to start a dialog within Unified Service Desk."
-ms.custom: 
-  - dyn365-USD
+description: "Learn to use the CRM Dialog hosted control type to work with dialog boxes. Also, learn about the predefined UII actions supported by the control."
 ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - customizer
@@ -16,15 +12,20 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # CRM Dialog (Hosted Control)
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 Use the **CRM Dialog** hosted control type to work with dialog. You can call the **StartDialog** action on your CRM Dialog hosted control to start a dialog within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
 
 <a name="Create"></a>
 ## Create a CRM Dialog hosted control
  While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **CRM Dialog** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).
 
- ![Dialog hosted control](../unified-service-desk/media/crm-itpro-usd-crmdialoghostedcontrol.PNG "dialog hosted control")  
+ ![Dialog hosted control.](../unified-service-desk/media/crm-itpro-usd-crmdialoghostedcontrol.PNG "dialog hosted control")  
 
  In the **New Hosted Control** screen:
 
@@ -107,7 +108,7 @@ Use the **CRM Dialog** hosted control type to work with dialog. You can call the
 
 | Parameter |                                                                                      Description                                                                                       |
 |-----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   Name    |                        The name of the dialog as seen in the **Settings** > **Process** section of the Common Data Service platform.                        |
+|   Name    |                        The name of the dialog as seen in the **Settings** > **Process** section of Microsoft Dataverse.                        |
 | DialogId  |                 You can also specify the dialog by its ID. If you specify the **DialogId** parameter, it will be used by the action instead of the **Name** parameter.                 |
 |  Entity   |    This is the type of entity that the dialog is to be run against. This is required if you use the **DialogId** parameter. It is not required, if the **Name** parameter is used.     |
 |    Id     | This is the ID of the entity to which the Dialog session applies. If this parameter is not specified, the dialog is run against the first entry of the appropriate type in the system. |
@@ -138,4 +139,7 @@ Use the **CRM Dialog** hosted control type to work with dialog. You can call the
  [Events](../unified-service-desk/events.md)   
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)   
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)   
- [Administration Guide for Unified Service Desk](https://go.microsoft.com/fwlink/p/?LinkID=394402)
+ [Administration Guide for Unified Service Desk](/previous-versions/dynamicsusd-2/administrators-guide/dn499779(v=usd.2))
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

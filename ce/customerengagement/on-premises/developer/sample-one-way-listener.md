@@ -3,11 +3,11 @@ title: "Sample: One-way listener (Developer Guide for Dynamics 365 Customer Enga
 description: "The sample shows how to write a Azure Service Bus listener for a one-way endpoint contract. "
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
@@ -19,8 +19,6 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 # Sample: One-way listener
 
@@ -44,3 +42,6 @@ Download the sample: [Work with Microsoft Dynamics 365 Customer Engagement and A
  [Sample: Two-way Listener](sample-two-way-listener.md)   
  [Write a One-way, Two-way, or REST Listener](write-listener-application-azure-solution.md#bkmk_writeoneway)   
  <xref:Microsoft.Xrm.Sdk.IServiceEndpointPlugin>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

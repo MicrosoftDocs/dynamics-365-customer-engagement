@@ -3,8 +3,8 @@ title: "Use the Dynamics 365 Customer Engagement Web API Helper Library (C#) (De
 description: "Dynamics 365 Customer Engagement Web API Helper Library assists in performing common tasks, such as application configuration, authentication against a Dynamics 365 Customer Engagement service, and HTTP response error handling"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: susikka
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -16,8 +16,7 @@ author: JimDaly
 ms.author: jdaly
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Use the Dynamics 365 Customer Engagement Web API Helper Library (C#)
 
@@ -40,3 +39,6 @@ Most of the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Web A
  [Get Started with the Web API (C#)](get-started-dynamics-365-web-api-csharp.md)   
  [Start a Web API project in Visual Studio (C#)](start-web-api-project-visual-studio-csharp.md)   
  [Perform operations using the Web API](perform-operations-web-api.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

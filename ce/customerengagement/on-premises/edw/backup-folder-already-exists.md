@@ -1,5 +1,7 @@
 ---
 title: "Backup folder already exists | Microsoft Docs"
+description: Environment diagnostics warning that the backup folder already exists
+ms.prod: d365ce-op
 ms.custom: 
 ms.date: 10/01/2018
 ms.reviewer: 
@@ -28,3 +30,6 @@ ms.author: matp
   
 3.  Run Setup again.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

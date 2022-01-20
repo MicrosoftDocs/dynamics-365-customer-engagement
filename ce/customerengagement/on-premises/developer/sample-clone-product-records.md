@@ -5,9 +5,10 @@ ms.custom:
 ms.date: 01/02/2020
 ms.reviewer: 
 ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: e2ee047c-8295-47a5-b889-2af439c540c3
@@ -16,8 +17,6 @@ ms.author: kvivek
 manager: annbe
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 # Sample: Clone product records
 
@@ -38,3 +37,6 @@ This sample code is for Dynamics 365 Customer Engagement(on-premises). [Download
 ### See also  
  [Create and manage product families, products and bundles](create-manage-product-families-products-bundles-product-properties.md)   
  [Product catalog entities](product-catalog-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

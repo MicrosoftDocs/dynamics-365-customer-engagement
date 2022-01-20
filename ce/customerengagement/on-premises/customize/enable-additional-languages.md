@@ -1,9 +1,10 @@
 ---
-title: "Enable additional languages (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Enable additional languages in Dynamics 365 Customer Engagement (on-premises)"
+description: "If your organization needs to add a language beyond your base language, first install the language pack and then follow these steps to enable the language(s)."
 ms.custom: 
 ms.date: 04/29/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -16,18 +17,14 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 
-<a name="BKMK_Localization"></a>   
 # Enable additional languages 
 
-
- 
- If your organization has people who use a language other than the base language you chose when you deployed Dynamics 365 Customer Engagement (on-premises), you can add more languages.  
+If your organization has people who use a language other than the base language you chose when you deployed Dynamics 365 Customer Engagement (on-premises), you can add more languages.  
   
- Before you can enable a language, you must first install the language pack. More information: [Install or upgrade Language Packs](../deploy/install-or-upgrade-language-packs.md) 
+Before you can enable a language, you must first install the language pack. More information: [Install or upgrade Language Packs](../deploy/install-or-upgrade-language-packs.md) 
   
 > [!NOTE]
 >  Enabling a language can take several minutes. During this time, people might not be able to use Dynamics 365 Customer Engagement (on-premises).  
@@ -49,3 +46,6 @@ search.app:
 
 [Export customized entity and field text for translation](../customize/export-customized-entity-field-text-translation.md)
 [Import translated entity and field text](../customize/import-translated-entity-field-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

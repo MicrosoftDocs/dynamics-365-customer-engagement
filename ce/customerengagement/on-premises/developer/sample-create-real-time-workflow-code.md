@@ -4,10 +4,10 @@ description: "The sample shows you how to create a real-time workflow in code in
 ms.custom: 
 ms.date: 1/14/2020
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 78a964e8-0f5a-4075-8d22-32b984e3c0c3
@@ -17,8 +17,6 @@ ms.author: jdaly
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 # Sample: Create a real-time workflow in code
 
@@ -46,3 +44,6 @@ Consult the sample's [README](https://github.com/microsoft/PowerApps-Samples/blo
  [Sample: Set the State of a Workflow](sample-set-state-workflow.md)   
  [Workflow and Process Entities](workflow-process-entities.md)   
  [Processes in Dynamics 365 Customer Engagement (on-premises)(formerly Workflows)](automate-business-processes-customer-engagement.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

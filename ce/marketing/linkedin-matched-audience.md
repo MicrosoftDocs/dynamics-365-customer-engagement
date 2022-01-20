@@ -1,18 +1,14 @@
 ---
 title: "Create a LinkedIn Matched Audience based on a Dynamics 365 segment (Dynamics 365 Marketing) | Microsoft Docs "
-description: "How to use an existing Dynamics 365 segment to find matching LinkedIn users and create a LinkedIn Matched Audience"
-keywords: LinkedIn; Lead Gen Forms; lead; connector
+description: "How to use an existing Dynamics 365 segment to find matching LinkedIn users and create a LinkedIn Matched Audience."
 ms.date: 10/16/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 5737a6c8-24dc-4925-bf97-2c915f3041da
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -47,13 +43,13 @@ To create a LinkedIn Matched Audience from a Dynamics 365 Marketing segment:
 
 1. Open the **LinkedIn Matched Audience** tab.  
 
-    ![The LinkedIn Matched Audience tab in Dynamics 365](media/linkedin-segment.png "The LinkedIn Matched Audience tab in Dynamics 365")
+    ![The LinkedIn Matched Audience tab in Dynamics 365.](media/linkedin-segment.png "The LinkedIn Matched Audience tab in Dynamics 365")
 
 1. Select **Next** to initiate the matched-audience wizard, which will walk you through all the steps needed to sign in to your LinkedIn account and authorize the integration.
 
 1. Follow the instructions on your screen to complete the integration. When you're done, you'll be in the LinkedIn campaign manager, where you can see your new audience and all the other audiences  you have uploaded so far.  
 
-    ![Matched Audiences on LinkedIn](media/linkedin-matched-audiences.png "Matched Audiences on LinkedIn")
+    ![Matched Audiences on LinkedIn.](media/linkedin-matched-audiences.png "Matched Audiences on LinkedIn")
 
 1. You can now use your new audience to target a LinkedIn campaign. Please see the [LinkedIn documentation](https://www.linkedin.com/help/lms) for details.
 
@@ -63,3 +59,6 @@ To create a LinkedIn Matched Audience from a Dynamics 365 Marketing segment:
 ### See also
 [LinkedIn Lead Gen Forms integration](linkedin-lead-gen-integration.md)  
 [Configure LinkedIn Lead Gen](linkedin-configuration.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

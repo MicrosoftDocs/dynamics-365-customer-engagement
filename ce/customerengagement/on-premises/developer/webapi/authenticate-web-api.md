@@ -3,8 +3,8 @@ title: "Authenticate to Dynamics 365 Customer Engagement with the Web API (Devel
 description: "Learn about the different ways to manage authentication when using the Web API"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: susikka
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,21 +17,20 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Authenticate to Dynamics 365 Customer Engagement with the Web API
 
 > [!NOTE]
 > [!INCLUDE[](../includes/cc-cdsnote-2-topic.md)]
 > 
-> The authentication documentation that is applicable to Dynamics 365 Customer Engagement app (online) users is now available in the Power Apps documentation at: [Authenticate to Common Data Service with the Web API](/powerapps/developer/common-data-service/webapi/authenticate-web-api).
+> The authentication documentation that is applicable to Dynamics 365 Customer Engagement app (online) users is now available in the Power Apps documentation at: [Authenticate to Dataverse with the Web API](/powerapps/developer/common-data-service/webapi/authenticate-web-api).
 
 The code you write to manage authentication when using the Web API depends on the type of deployment and where your code is.  
 
 ## Authenticate with JavaScript in web resources
 
-For information on how to authenticate with JavaScript in web resources, see this Power Apps Common Data Service topic: [Authenticate to Common Data Service with the Web API](/powerapps/developer/common-data-service/webapi/authenticate-web-api).
+For information on how to authenticate with JavaScript in web resources, see this Power Apps Dataverse topic: [Authenticate to Dataverse with the Web API](/powerapps/developer/common-data-service/webapi/authenticate-web-api).
   
 ## Web API authentication with On-premise deployments
   
@@ -48,10 +47,12 @@ private HttpClient getNewHttpClient(string userName,string password,string domai
 ```  
   
 ### With [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] or Internet-facing deployments  
- When you use the Web API for [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)]  or an on-premises Internet-facing deployment (IFD) you must use OAuth as described in [Use OAuth with Common Data Service](/powerapps/developer/common-data-service/authenticate-oauth).  
+ When you use the Web API for [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)]  or an on-premises Internet-facing deployment (IFD) you must use OAuth as described in [Use OAuth with Dataverse](/powerapps/developer/common-data-service/authenticate-oauth).  
   
  If you’re creating a single page application (SPA) using [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] you can use the adal.js library as described in [Use OAuth with Cross-Origin Resource Sharing  to connect a Single Page Application](/powerapps/developer/common-data-service/oauth-cross-origin-resource-sharing-connect-single-page-application).  
   
 ### See also  
 
 [Use Dynamics 365 Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

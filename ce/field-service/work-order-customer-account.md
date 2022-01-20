@@ -1,55 +1,43 @@
 ---
-title: "Add a customer, location, and related account details to a work order | MicrosoftDocs"
-ms.custom: 
-  - dyn365-fieldservice
-ms.date: 04/19/2019
+title: "Add an account with customer, location, and related details to a work order in Dynamics 365 Field Service | MicrosoftDocs"
+description: Learn how to add a customer, location, and related account details to a work order in Dynamics 365 Field Service
+ms.date: 09/14/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.service: dynamics-365-field-service
+ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
 search.app: 
   - D365CE
   - D365FS
 ---
 
-# Add a customer, location, and related account details to a work order
+# Add an account with customer, location, and related details to a work order
 
-Locations are very important in field service scenarios where field technicians may need to travel to multiple customer locations each day.
-
-Dynamics 365 Field Service uses accounts and contacts throughout the work order process. Accounts represent who is receiving the site service (driven by work orders), and which customer account should be billed for invoices generated from the work order.
+Dynamics 365 Field Service uses accounts and contacts throughout the work order process. Accounts represent who is receiving the site service (driven by work orders), and which customer account should be billed for invoices generated from the work order. Locations are important in field service scenarios where field technicians may need to travel to multiple customer locations each day.
 
 **Service accounts** represent **who** is the receiving account of the on-site service (work order), and **where** the field technician will be dispatched.
 
 **Billing accounts** represent which account should receive invoices, and identifies the parent account in cases where many service accounts belong to a central organization (for example: multiple wine vineyards are owned by a wine corporation). 
 
-Selecting accounts will also auto-populate other fields on a work order.
+Selecting accounts will also autopopulate other fields on a work order.
 
 This proves useful in several scenarios, including: 
 
 - passing account (customer) price lists to all related work orders.
 - passing the account territory to all related work orders, which ensures that resources devoted to the territory are scheduled to perform the on-site work.
  
-In this topic, we'll explore creating and using accounts on work orders. 
+In this article, we'll explore creating and using accounts on work orders. 
 
 ## Prerequisites
 
 - Any version of Dynamics 365 Field Service
-- Connect to Bing maps and enable map visualizations. For more information, [check out this topic.](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) 
-- Enable and test geocoding. For more information, [check out this topic.](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-2-field-service-settings)
+- Connect to Bing maps and enable map visualizations. For more information, [check out this article.](/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) 
+- Enable and test geocoding. For more information, [check out this article.](/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-2-field-service-settings)
  
 
 ## Create a service account
@@ -63,13 +51,13 @@ Enter an **Account name** and an **address** along with any other important deta
 Next, select **Geo Code** at the top of the form. If you have set **Auto Geo Code** to **Yes** in Field Service Settings (as noted in the prerequisites), then you can skip this step. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/work-order-service-account-create.png)
+> ![Screenshot of .](./media/work-order-service-account-create.png)
 
 Confirm geocoding is successful by the location visualized on the map and values populated in the latitude and longitude fields in the scheduling section. 
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of geocoded account](./media/service-account-scheduling-section.png)
+> ![Screenshot of geocoded account.](./media/service-account-scheduling-section.png)
 
 Next, go to the **Field Service** section of the account form and fill in details based on your business needs. Values entered here are passed down to work orders where this account is listed as the service account, but the values can be edited on each work order if needed.
 
@@ -92,27 +80,29 @@ In this field, you choose the geographical region in which this account is locat
 
 ### Travel Charge Type
 
-This decides if and how travel by a field technician to this service account should be priced and billed on work orders. See configuration considerations in this article for more details.
+This decides if and how travel by a field technician to this service account should be priced and billed on work orders. For more information, see configuration considerations in this article.
 
 ### Work Order Instructions
 
 This value serves as a text note and populates the **Instructions** field on all related work orders. This is a good way to ensure field technicians follow processes specific to this account. See an example in the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service related values for a specific account](./media/service-account-field-service-section.png)
+> ![Screenshot of Field Service related values for a specific account.](./media/service-account-field-service-section.png)
 
 > [!Note]
 > Updating these values will not update previous work orders, only future work orders.
 
+### Currency
+
+Work order products and work order services will inherit the currency value noted on the work order service accounts and billing accounts. 
 
 ## Create a work order for the service account
 
-Next, go to **Field Service > Work Orders > +New**.
+Next, go to **Field Service** > **Work Orders** > **+New**.
 
-Add the account you just created as the service account. 
+Add the account you created as the service account. 
 
-
-Notice the following values are automatically populated:
+The following values are automatically populated:
 
 - **Billing Account**: populated as the billing account specified on the service account record.
 
@@ -124,23 +114,23 @@ Notice the following values are automatically populated:
 - **Primary Contact**: the primary contact of the service account shown on the work order.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of new work order with the account just created listed as a service account](./media/work-order-service-account.png)
+> ![Screenshot of new work order with the account just created listed as a service account.](./media/work-order-service-account.png)
 
 
 - **Service Territory and Instructions**: represented in the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of service territory and instructions](./media/work-order-account-territory-instructions.png)
+> ![Screenshot of service territory and instructions.](./media/work-order-account-territory-instructions.png)
 
 - **Address**: represented in the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of address of service account passed down to work order address](./media/work-order-account-address.png)
+> ![Screenshot of address of service account passed down to work order address.](./media/work-order-account-address.png)
 
 - **Location**: this work order location is passed down to the work order requirement and is reflected on the schedule board map. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of work order map location](./media/work-order-account-map.png)
+> ![Screenshot of work order map location.](./media/work-order-account-map.png)
 
 **Bonus tip:** You can select and drag the map pin to edit the work order location (latitude and longitude) as needed. This is helpful for scenarios where the address points to an arbitrary location--at a university campus, for example--but the work order must take place at a specific building or location on-site.
 
@@ -154,7 +144,7 @@ When the work order is finished and the system status is changed to **Closed-Pos
 Go to **Field Service > Sales > Invoices** to view the newly generated invoice for the closed work order. Notice the account on the invoice is the billing account on the work order, and the name references the work order number. See the following screenshot for reference.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of invoice for billing account](./media/work-order-invoice.png)
+> ![Screenshot of invoice for billing account.](./media/work-order-invoice.png)
 
 ## Configuration considerations
 
@@ -165,12 +155,12 @@ If the work order's service account (*not* billing account) has a travel charge 
 First, go to **Field Service > Settings > Field Service Settings** and specify a product in the **Travel Charge Item** field. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of travel charge item in field service settings](./media/field-service-settings-travel-charge.png)
+> ![Screenshot of travel charge item in field service settings.](./media/field-service-settings-travel-charge.png)
 
 This is the product that will later show as a work order product.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of travel charge added as a work order product](./media/work-order-service-account-travel-charge-product.png)
+> ![Screenshot of travel charge added as a work order product.](./media/work-order-service-account-travel-charge-product.png)
 
 > [!Note]
 > The travel charge work order product is subject to the same pricing rules as all work order products and services. The unit amount pricing of travel charge work order products is dictated first by the **price list**; if the travel charge product is not part of the price list as a price list item, then the **list price** on the travel charge product will be used. If no list price is entered, the unit amount price will be the value entered in the service account **travel charge**.
@@ -186,4 +176,144 @@ Though the unit amount price of the travel charge is dictated by the price list,
 > [!Note]
 > In cases of multiple bookings for a single work order, multiple travel charges will be added as work order products.
 
+## Additional notes
+
+### Known issues
+
+#### Latitude and longitude values don't update as expected
+
+Sometimes, an issue occurs where latitude and longitude values aren't updated, or address suggestions don't show up on account or contact form.
+
+One reason this issue occurs is because Field Service libraries are missing from the form. To add the relevant Field Service libraries and event handlers to the form, follow these steps.
+
+1. Select **Account** form from **Customization** and open the **Form Properties**.
+
+2. Add the form library `msdyn_/Account/Account.Library.js`.
+
+![Form properties in Power Apps.](media/fr-image1.png)
+
+1. In the **Event Handlers** section, select **Add**, and specify the function as seen in the following screenshot.
+
+![Handler properties in Power Apps.](media/fr-image2.png)
+
+4. Save and publish the customization.
+
+#### Bing Maps can't be added to the work order form
+
+If the Bing Maps control is manually removed from the out-of-the-box work order form, it can't be added back.
+
+To enable Bing Maps button in form designer, at least one of the attributes of type address should have the mask *ValidForMap* added in the form. 
+
+Below is the XML for the account form where we see *ValidForMap* added to its address attribute.
+
+```
+<DisplayMask>ValidForAdvancedFind\|ValidForForm\|ValidForGrid\|ValidForMap</DisplayMask>
+```
+
+1. Create a solution on customer's sandbox environment that includes the form to which the Bing Maps control needs to be added. Export it as managed solution.
+
+2. In the solution's `customizations.xml` file, go the `formxml` part of it.
+
+3. Add the following maps control to the `<controlDescriptions>`.
+
+```
+        <controlDescription forControl="{8b67ae03-1701-54d2-09be-35295876ca8a}">
+
+        <customControl id="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}">
+
+        <parameters>
+
+        <datafieldname>msdyn\_mapcontrol</datafieldname>
+
+        </parameters>
+
+        </customControl>
+
+        <customControl formFactor="0" name="MscrmControls.Map.MapControl">
+
+        <parameters>
+
+        <value>msdyn\_mapcontrol</value>
+
+        <mapSourceSwitch isGroup="true" static="true">CoordinatesGroup</mapSourceSwitch>
+
+        <latitude>msdyn\_latitude</latitude>
+
+        <longitude>msdyn\_longitude</longitude>
+
+        <addressEditableSwitch isGroup="true" static="true">isAddressEditableYesGroup</addressEditableSwitch>
+
+        <outputLatitude>msdyn\_latitude</outputLatitude>
+
+        <outputLongitude>msdyn\_longitude</outputLongitude>
+
+        </parameters>
+
+        </customControl>
+
+        <customControl formFactor="1" name="MscrmControls.Map.MapControl">
+
+        <parameters>
+
+        <value>msdyn\_mapcontrol</value>
+
+        <mapSourceSwitch isGroup="true" static="true">CoordinatesGroup</mapSourceSwitch>
+
+        <latitude>msdyn\_latitude</latitude>
+
+        <longitude>msdyn\_longitude</longitude>
+
+        <addressEditableSwitch isGroup="true" static="true">isAddressEditableYesGroup</addressEditableSwitch>
+
+        <outputLatitude>msdyn\_latitude</outputLatitude>
+
+        <outputLongitude>msdyn\_longitude</outputLongitude>
+
+        </parameters>
+
+        </customControl>
+
+        <customControl formFactor="2" name="MscrmControls.Map.MapControl">
+
+        <parameters>
+
+        <value>msdyn\_mapcontrol</value>
+
+        <mapSourceSwitch isGroup="true" static="true">CoordinatesGroup</mapSourceSwitch>
+
+        <latitude>msdyn\_latitude</latitude>
+
+        <longitude>msdyn\_longitude</longitude>
+
+        <addressEditableSwitch isGroup="true" static="true">isAddressEditableYesGroup</addressEditableSwitch>
+
+        <outputLatitude>msdyn\_latitude</outputLatitude>
+
+        <outputLongitude>msdyn\_longitude</outputLongitude>
+
+        </parameters>
+
+        </customControl>
+
+        </controlDescription>
+
+```
+
+4. Search for "Bing Maps" in the same file.
+
+5. Add the control with the following code to the row and cell wherever it needs to be added.
+
+```  
+    <control disabled="false" id="msdyn\_mapcontrol" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" uniqueid="{8b67ae03-1701-54d2-09be-35295876ca8a}" datafieldname="msdyn\_mapcontrol"/>
+```
+
+6. Save the file and create a new managed solution zip file out of it.
+
+7. Import the solution to the affected environment.
+
+> [!Note]
+> If the map control is still not visible on the form after following these steps, try removing the active form customizations.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
 

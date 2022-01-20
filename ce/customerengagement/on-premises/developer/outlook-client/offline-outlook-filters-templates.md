@@ -3,8 +3,8 @@ title: "Offline and Outlook filters and templates (Developer Guide for Dynamics 
 description: "Data that should be synchronized between the Dynamics 365 Server and Dynamics 365 for Outlook is determined by Data Filters for Office Outlook"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Offline and Outlook filters and templates
 
@@ -63,3 +62,6 @@ Data filters for [!INCLUDE[pn_MS_Outlook_Full](../../includes/pn-ms-outlook-full
  [Sample: Retrieve Outlook Filters](sample-create-retrieve-outlook-filters.md)    
  <xref:Microsoft.Crm.Sdk.Messages.InstantiateFiltersRequest>   
  <xref:Microsoft.Crm.Sdk.Messages.ResetUserFiltersRequest>
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

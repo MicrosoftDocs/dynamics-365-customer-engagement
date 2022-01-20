@@ -4,7 +4,7 @@ description: "Support for the ability to audit user access, including user ident
 ms.custom: audit
 ms.date: 03/29/2019
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Audit user access
 
@@ -49,3 +48,6 @@ search.app:
  [Configure Entities and Attributes for Auditing](configure-entities-attributes-auditing.md)     
  [Sample: Audit Entity Data Changes](sample-audit-entity-data-changes.md)   
  [Sample: Audit User Access](sample-audit-user-access.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

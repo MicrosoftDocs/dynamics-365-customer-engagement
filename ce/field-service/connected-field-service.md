@@ -1,24 +1,15 @@
 ---
 title: "Connected Field Service - Overview | MicrosoftDocs"
-ms.custom: 
-  - dyn365-fieldservice
-ms.date: 09/30/2017
+description: Learn all about Connected Field Service for Dynamics 365 Field Service
+ms.date: 09/30/2019
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.technology: 
-  - field-service
-ms.tgt_pltfrm: 
-ms.topic: article
+ms.service: dynamics-365-field-service
+ms.subservice: connected-field-service
+
+ms.topic: overview
 author: FieldServiceDave
-ms.assetid: 2142d996-008b-4ada-bf2e-e9dc316715c4
-caps.latest.revision: 14
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
 search.app: 
   - D365CE
   - D365FS
@@ -27,15 +18,19 @@ search.app:
 
 Connected Field Service enables organizations to transform the way they provide service from a costly break-fix model to a proactive and predictive service model through the combination of IoT diagnostics, scheduling, asset maintenance, and inventory on the same platform. 
 
+>[!Note]
+> To see a video overview of Connected Field Service, [you can watch one here](https://www.youtube.com/watch?v=iMZpr5wVD_Q).
+
 Key benefits of Connected Field Service:
 
 - Reduce downtime by connecting to IoT devices to diagnose problems before customers are aware of an issue
 - Address issues faster by remotely monitoring devices and keeping customers in the loop
-- Device telemetry and service maintenance data helps to make intelligent decisions around dispatching technicians with the right expertise, availability, and proximity to the job 
+- Device data and service maintenance data help to make intelligent decisions around dispatching technicians with the right expertise, availability, and proximity to the job 
 
-There are two offerings you can use to connect IoT-enabled devices into the Field Service solution:
+There are three ways you can use to connect IoT-enabled devices into the Field Service solution:
 - Connected Field Service for [**Azure IoT Central**](https://azure.microsoft.com/services/iot-central/)
 - Connected Field Service for [**Azure IoT Hub**](https://azure.microsoft.com/services/iot-hub/)
+- Connected Field Service for non-Azure IoT providers using the extensible IoT provider framework
 
 See below for the differences between the two offerings.
 
@@ -46,7 +41,7 @@ Connected Field Service for IoT Central provides a direct integration of Dynamic
 Microsoft Azure IoT Central enables builders to configure rules and actions. Based on those actions, IoT alerts will be created in Connected Field Service. Also, based on service activities in Connected Field Service, information can be sent back to IoT Central. This is accomplished by using Power Automate, a SaaS offering for automating workflows across applications and services. 
 
 > [!div class="mx-imgBorder"]
-> ![Diagram showing the relationships between Azure IoT Central, Power Automate, and Field Service](media/cfs-overview.png)
+> ![Diagram showing the relationships between Azure IoT Central, Power Automate, and Field Service.](media/cfs-overview.png)
  
 The below end-to-end integration processes can be easily implemented based on a pure configuration experience:
 
@@ -69,7 +64,7 @@ All Azure IoT services run in your own Azure cloud subscription. Additionally, w
 ## Privacy details for Connected Field Service
 [!INCLUDE[cc-privacy-crm-connected-field-service](../includes/cc-privacy-crm-connected-field-service.md)]
 
-- [Connected Field Service Device Readings (Preview)](cfs-visualizations-iot-hub.md) uses [Azure Time Series Insight (Preview)](https://docs.microsoft.com/azure/time-series-insights/) to store, process, and query IoT devices measurements from IoT Hub.
+- [Connected Field Service Device Readings (Preview)](cfs-visualizations-iot-hub.md) uses [Azure Time Series Insight (Preview)](/azure/time-series-insights/) to store, process, and query IoT devices measurements from IoT Hub.
 
 ### See also  
  [Overview of Dynamics 365 Field Service](../field-service/overview.md)    
@@ -79,3 +74,6 @@ All Azure IoT services run in your own Azure cloud subscription. Additionally, w
  [Field Service User Guide](../field-service/user-guide.md) 
   
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

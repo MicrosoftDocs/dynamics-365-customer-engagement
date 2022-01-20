@@ -3,11 +3,11 @@ title: "Sample: Convert a fax to a task| MicrosoftDocs"
 description: "This sample shows how to create a task for a fax by using the IOrganizationService.Entity method"
 ms.custom: 
 ms.date: 01/07/2020
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: f82fe3eb-1867-4edb-869d-58081f38d653
@@ -17,8 +17,6 @@ ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 
 # Sample: Convert a fax to a task
@@ -55,3 +53,6 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 ### Clean up
 
 Displays an option to delete all the data created in the sample. The deletion is optional in case you want to examine the data created by the sample. You can manually delete the data to achieve same results.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

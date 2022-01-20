@@ -38,3 +38,6 @@ ms.author: matp
   
 -   If you enter a valid, absolute path, have sufficient permissions to the installation folder, and if this problem continues, remove all the files that are in the installation folder.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

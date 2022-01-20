@@ -1,9 +1,10 @@
 ---
-title: "Product reports (Dynamics 365 Customer Engagement (on-premises)  | MicrosoftDocs"
+title: "Product reports in Dynamics 365 Customer Engagement (on-premises)"
+description: "Use product reports to gain insights into your catalog. Learn about reports that show which products are associated with accounts and individual contacts."
 ms.custom: 
-ms.date: 09/15/2017
+ms.date: 05/05/2020
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -16,8 +17,7 @@ ms.author: mkaur
 manager: brycho
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
+
 ---
 # Product reports
 
@@ -37,3 +37,6 @@ Use this report to see which products are used by a contact. For each contact, t
 
 ### See also  
  [Run a report](../basics/run-report.md)   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

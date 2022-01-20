@@ -1,9 +1,10 @@
 ---
-title: "Detect duplicate data  | MicrosoftDocs"
+title: "Detect duplicate data in Dynamics 365 Customer Engagement (on-premises)"
+description: "Dynamics 365 uses duplicate detection rules that automatically check new records against old ones. It's also recommended to schedule duplicate detection jobs."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -14,9 +15,7 @@ ms.author: jimholtz
 manager: kvivek
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # Detect duplicate data 
 
@@ -52,3 +51,6 @@ To check for duplicates in the web application, you can use **Detect Duplicates*
   
 A duplicate detection job runs in the background while you do other things in Dynamics 365 apps. You can request email notification from Dynamics 365 apps upon the completion of a duplicate detection job. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

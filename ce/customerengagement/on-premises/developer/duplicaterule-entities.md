@@ -3,8 +3,8 @@ title: "Duplicate rule entities (Developer Guide for Dynamics 365 Customer Engag
 description: "These entities contain data that define duplicate detection rules."
 ms.custom: 
 ms.date: 11/15/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -16,8 +16,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Duplicate Rule entities
 
@@ -89,7 +88,7 @@ Some system entities will have more than one active or inactive state.The follow
 >
 > To retrieve the `StateCode` options for an entity you can use the following Web API query  by substituting the `LogicalName` of the entity with `appointment` used below:
 > ```HTTP
-> GET [organization URI]/api/data/v9.0/EntityDefinitions(LogicalName='appointment')/Attributes(LogicalName='statecode')/Microsoft.Dynamics.CRM.StateAttributeMetadata/OptionSet?$select=Options
+> GET [organization URI]/api/data/v9.1/EntityDefinitions(LogicalName='appointment')/Attributes(LogicalName='statecode')/Microsoft.Dynamics.CRM.StateAttributeMetadata/OptionSet?$select=Options
 > ```
 
 ## DuplicateRule Special messages
@@ -134,9 +133,12 @@ The following special messages can also be used:
 <a href="enable-disable-duplicate-detection.md" data-raw-source="[Enable and disable duplicate detection](enable-disable-duplicate-detection.md)">Enable and disable duplicate detection</a><br />
 <a href="run-duplicate-detection.md" data-raw-source="[Run duplicate detection](run-duplicate-detection.md)">Run duplicate detection</a><br />
 <a href="duplicate-detection-messages.md" data-raw-source="[Duplicate detection messages](duplicate-detection-messages.md)">Duplicate detection messages</a><br />
-<a href="org-service/sample-enable-duplicate-detection-and-retrieve-duplicates.md" data-raw-source="[Sample: Enable duplicate detection and retrieve duplicates](org-service/sample-enable-duplicate-detection-and-retrieve-duplicates.md)">Sample: Enable duplicate detection and retrieve duplicates</a><br />
-<a href="org-service/sample-use-duplicate-detection-when-creating-and-updating-records.md" data-raw-source="[Sample: Use duplicate detection when creating and updating records](org-service/sample-use-duplicate-detection-when-creating-and-updating-records.md)">Sample: Use duplicate detection when creating and updating records</a><br />
-<a href="org-service/sample-detect-multiple-duplicate-records.md" data-raw-source="[Sample: Detect multiple duplicate records](org-service/sample-detect-multiple-duplicate-records.md)">Sample: Detect multiple duplicate records</a><br />
+<a href="/powerapps/developer/data-platform/enable-disable-duplicate-detection" data-raw-source="[Sample: Enable duplicate detection and retrieve duplicates](/powerapps/developer/data-platform/enable-disable-duplicate-detection)">Sample: Enable duplicate detection and retrieve duplicates</a><br />
+<a href="/powerapps/developer/data-platform/run-duplicate-detection" data-raw-source="[Sample: Use duplicate detection when creating and updating records](/powerapps/developer/data-platform/run-duplicate-detection)">Sample: Use duplicate detection when creating and updating records</a><br />
+<a href="/powerapps/developer/data-platform/duplicate-detection-messages" data-raw-source="[Sample: Detect multiple duplicate records](/powerapps/developer/data-platform/duplicate-detection-messages)">Sample: Detect multiple duplicate records</a><br />
 
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

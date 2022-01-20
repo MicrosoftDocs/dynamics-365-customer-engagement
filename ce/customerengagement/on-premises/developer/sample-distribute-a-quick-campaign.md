@@ -3,11 +3,11 @@ title: "Sample: Distribute a quick campaign (Developer Guide for Dynamics 365 Cu
 description: "The sample code demonstrates how to create and distribute a quick campaign."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
@@ -20,8 +20,6 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 
 # Sample: Distribute a quick campaign
@@ -67,3 +65,6 @@ Display an option to delete the records created in the [Setup](#setup). The dele
  <xref:Microsoft.Crm.Sdk.Messages.AddMemberListRequest>   
  <xref:Microsoft.Crm.Sdk.Messages.PropagateByExpressionRequest>   
  <xref:Microsoft.Crm.Sdk.Messages.CreateActivitiesListRequest>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

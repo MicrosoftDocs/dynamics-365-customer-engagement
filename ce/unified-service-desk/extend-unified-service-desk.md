@@ -1,14 +1,10 @@
 ---
 title: "Extend Unified Service Desk | MicrosoftDocs"
-description: "The section provides information on how you can use the User Interface Integration (UII) components to extend Unified Service Desk to integrate with external applications, web applications, and computer telephony integration (CTI) systems."
-ms.custom: 
-  - dyn365-USD
+description: "Use this topic to understand how you can use UII components to extend Unified Service Desk to integrate with external applications and CTI systems."
 ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - customizer
@@ -16,6 +12,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Extend Unified Service Desk
 
@@ -57,3 +55,6 @@ This section provides information on how you can use the [!INCLUDE[pn_user_intef
  [Core concepts for extending Unified Service Desk](../unified-service-desk/unified-service-desk-uii-framework.md)
 
  [Components of Unified Service Desk](../unified-service-desk/core-concepts-for-configuring-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

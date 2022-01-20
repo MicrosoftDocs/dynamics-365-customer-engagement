@@ -1,9 +1,10 @@
 ---
-title: "Enable or disable security for a field  | MicrosoftDocs"
+title: "Enable or disable field security in Dynamics 365 Customer Engagement (on-premises)"
+description: "Field-level security lets you set which fields your users can see or edit. Follow these steps to enable or disable security for a field."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -14,14 +15,15 @@ ms.assetid: 5ab086f2-2ed8-4f89-a5ad-e9e119707a62
 caps.latest.revision: 26
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
-# Enable or disable security for a field to control access
+# Enable or disable security for a field
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 Field-level security lets you set which fields users can see or edit. For example, if want to prevent users from accidentally changing an account name, you can restrict them from editing that field. In [!INCLUDE[pn_crmv6](../includes/pn-crmv6.md)], you could only set field-level security for custom fields, but in [!INCLUDE[pn_crm_2015](../includes/pn-crm-2015.md)] or later, you can also set field-level security for some default fields. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Field-level security](field-level-security.md)  
   
@@ -51,3 +53,6 @@ Field-level security lets you set which fields users can see or edit. For exampl
 ### See also  
  [Field level security](field-level-security.md)   
  [Set up security permissions for a field](../admin/set-up-security-permissions-field.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

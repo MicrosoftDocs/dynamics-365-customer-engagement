@@ -3,8 +3,8 @@ title: "AsyncOperation (system job) entity (Developer Guide for Dynamics 365 Cus
 description: "Learn about the system job, also known as an asynchronous operation, is used to define and track the execution of an asynchronous operation, for example an asynchronous registered plug-in, workflow, or other background system operation."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -16,8 +16,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # AsyncOperation (system job) entity
 
@@ -32,3 +31,6 @@ develop custom tools to manage or report on asynchronous operations in Dynamics 
 ### See also  
  [Asynchronous Service in Dynamics 365 Customer Engagement (on-premises)](asynchronous-service.md)   
  [AsyncOperation Entity](entities/asyncoperation.md) 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

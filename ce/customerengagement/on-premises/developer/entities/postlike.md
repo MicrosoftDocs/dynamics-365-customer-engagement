@@ -2,7 +2,7 @@
 title: "PostLike Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the PostLike entity."
 ms.date: 04/02/2019
-ms.service: "crm-online"
+ms.prod: d365ce-op
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
@@ -10,9 +10,7 @@ ms.author: "kvivek"
 manager: "annbe"
 search.audienceType: 
   - developer
-search.app: 
-  - PowerApps
-  - D365CE
+
 ---
 # PostLike Entity Reference
 
@@ -303,3 +301,5 @@ See organization Entity [organization_postlike](organization.md#BKMK_organizatio
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.postlike?text=postlike EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

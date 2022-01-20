@@ -1,13 +1,13 @@
 ---
-title: "Entities and metadata overview in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn about entities and metadata"
+title: "Overview of entity metadata in Dynamics 365 Customer Engagement (on-premises)"
+description: "Entity metadata controls the records you can create and which actions can be performed. You can edit metadata to create entities, relationships, and fields."
 ms.custom: 
 ms.date: 11/09/2018
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: overview
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 author: Mattp123
@@ -17,13 +17,12 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 
-# Entities, metadata, and the metadata browser
+# Overview of entity metadata and the metadata browser
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Entities and metadata in Dataverse](/powerapps/maker/common-data-service/create-edit-metadata)
 
 This topic looks at metadata and how you can use it to create Dynamics 365 Customer Engagement (on-premises) or customize an existing [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] app.  
 
@@ -134,9 +133,14 @@ You can perform the following actions:
  Most people do not create enough custom fields to reach the limit, but if you find yourself planning to add hundreds of custom fields to an entity, you should consider if this is the best design. Do all the fields you plan to add describe properties for a record for that entity? Do you really expect that people using your organization will be able to manage a form that includes such a high number of fields? The number of fields you add to a form increase the amount of data that has to be transferred each time a record is edited and will affect the performance of the system. Take these factors into consideration when you are adding custom fields to an entity.  
 
  Option set fields provide a set of options that will be displayed in a drop-down control on a form or in picklist control when using advanced find. Your environment can support thousands of options within an Option set, but you shouldn’t consider this as the upper limit. Usability studies have shown that people have trouble using a system where a drop-down control provides large numbers of options. Use option set field to define categories for data. Don’t use option set fields to select categories that actually represent separate items of data. For example, rather than maintain an option set field that stores each of hundreds of possible manufacturers of a type of equipment, consider creating an entity that stores references to each manufacturer and use a lookup field instead of an option set.  
+ 
+ Views are limited to 1000 attributes per view. If a view is created on an entity that exceeds this limit, then a subset of available attributes must be used in the view. Adding an attribute over the 1000 limit will result in an error message indicating the maximum number of attributes has been exceeded. 
 
 ### See also  
  [Create and edit entities](../customize/create-edit-entities.md)   
  [Create and edit entity relationships](../customize/create-edit-entity-relationships.md)   
  [Create and edit fields](../customize/create-edit-fields.md) <br/>      
  [Create and design forms](../customize/create-design-forms.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

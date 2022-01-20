@@ -3,8 +3,8 @@ title: "SiteMap schema (Developer Guide for Dynamics 365 Customer Engagement) | 
 description: "Dynamics 365 Customer Engagement displays commands in different ways depending on the entity and the client. In most places in the web application you will see a command bar instead of a ribbon."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # SiteMap schema
 
@@ -648,3 +647,6 @@ Download the [Schemas](https://download.microsoft.com/download/B/9/7/B97655A4-4E
  [Change Application Navigation using the SiteMap](../../developer/customize-dev/change-application-navigation-using-sitemap.md)   
  [Customization Solutions File Schema](customization-solutions-file-schema.md)   
  [Customization XML Reference](../customization-xml-reference.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

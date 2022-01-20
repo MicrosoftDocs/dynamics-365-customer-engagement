@@ -1,9 +1,10 @@
 ---
-title: "Help and additional resources  | MicrosoftDocs"
+title: "Help resources for Dynamics 365 Customer Engagement (on-premises)"
+description: "Search the Support Blog, CRM Forum, or Microsoft Knowledge Base to find resources for help when using Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,13 +18,11 @@ ms.author: jimholtz
 manager: brycho
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # Help and additional resources
 
-There are several resources available to you covering planning, operating, and using Dynamics 365 Customer Engagement (on-premises).  
+There are several resources available to you that cover planning, operating, and using Dynamics 365 Customer Engagement (on-premises).  
 
   
 ## Self-service help resources  
@@ -32,3 +31,6 @@ There are several resources available to you covering planning, operating, and u
   
 -   Search the [Microsoft Knowledge Base](https://go.microsoft.com/fwlink/p/?LinkId=203050)  
   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

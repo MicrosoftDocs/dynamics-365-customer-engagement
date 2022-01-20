@@ -3,11 +3,11 @@ title: "Sample: Add a security principal (user or team) to a queue (early bound)
 description: The sample code demonstrates how to give a user or team access to a queue. The AddPrincipalToQueueRequest adds the specified principal to the list of queue members.
 ms.custom: 
 ms.date: 01/08/2020
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
@@ -22,13 +22,11 @@ ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 
 # Sample: Add a security principal (user or team) to a queue (early bound)
 
-This sample showcases how to give a user or a team access to a queue. The [AddPrincipalToQueueRequest](https://docs.microsoft.com/dotnet/api/microsoft.crm.sdk.messages.addprincipaltoqueuerequest?view=dynamics-general-ce-9) adds the specified principal to the list of queue members. If the passed-in security principal is a team each member of the team is added to the queue. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/AddSecurityPrincipalToQueue).
+This sample showcases how to give a user or a team access to a queue. The [AddPrincipalToQueueRequest](/dotnet/api/microsoft.crm.sdk.messages.addprincipaltoqueuerequest?view=dynamics-general-ce-9) adds the specified principal to the list of queue members. If the passed-in security principal is a team each member of the team is added to the queue. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/AddSecurityPrincipalToQueue).
 
 ## How to run this sample
 
@@ -59,3 +57,6 @@ The `AddPrincipalToQueueRequest` method adds the team to the queue.
 
 Display an option to delete the sample data in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -3,8 +3,8 @@ title: "Work with Dynamics 365 Customer Engagement event data in your Azure Even
 description: "The topic describes working with event data in your Azure Event Hub solution."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -16,8 +16,7 @@ author: JimDaly
 ms.author: jdaly
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Work with Customer Engagement event data in your Azure Event Hub solution
 
@@ -51,3 +50,6 @@ search.app:
 ### See also  
  [Azure integration with Dynamics 365 Customer Engagement (on-premises)](azure-integration.md)   
  [Azure extensions for Dynamics 365 Customer Engagement (on-premises)](azure-extensions.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

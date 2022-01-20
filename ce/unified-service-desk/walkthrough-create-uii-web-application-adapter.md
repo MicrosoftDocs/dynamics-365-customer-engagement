@@ -1,14 +1,10 @@
 ---
-title: "Walkthrough  Create a UII Web Application Adapter in Unified Service Desk  | MicrosoftDocs"
-description: "Demonstrates how to host and interact with an external web application in Unified Service Desk."
-ms.custom: 
-  - dyn365-USD
+title: "Walkthrough: Create a UII Web Application Adapter in Unified Service Desk | MicrosoftDocs"
+description: "Use this walkthrough to understand the prerequisites and procedures for hosting and interacting with web applications in Unified Service Desk."
 ms.date: 01/25/2019
-ms.service: 
-  - dynamics-365-customerservice
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - customizer
@@ -16,9 +12,14 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Walkthrough: Create a UII Web Application Adapter
-You can create a web application adapter if you want to enhance and modify web applications for which you don’t have access to the source code or don’t have permissions to change by using managed code. The Common Data Service platform provides a [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] template for creating a web application adapter. The template provides basic code as comments to help you get started with creating the web application adapter.  
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
+You can create a web application adapter if you want to enhance and modify web applications for which you don’t have access to the source code or don’t have permissions to change by using managed code. Microsoft Dataverse provides a [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] template for creating a web application adapter. The template provides basic code as comments to help you get started with creating the web application adapter.  
 
  In this walkthrough, you’ll build an external web application called `QsWebApplication` and host it in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. You’ll then create and configure a web application adapter called `MyWebApplicationAdapter` for the external web application to interact with [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. The web application has four labels, one each for the customer’s first name, last name, address, and ID and four corresponding text boxes to display the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] values.
 
@@ -46,12 +47,12 @@ You can create a web application adapter if you want to enhance and modify web a
 
 4. Press F5 or choose **Debug** > **Start Debugging** to host the sample web application locally on your computer. The application will be hosted at https://localhost:2627/.
 
-   ![Web app in Visual Studio](../unified-service-desk/media/usd-web-app-local-host.png "Web app in Visual Studio")
+   ![Web app in Visual Studio.](../unified-service-desk/media/usd-web-app-local-host.png "Web app in Visual Studio")
 
 <a name="ConfigureExApp"></a>   
 ## Step 2: Configure a web application
 
-1. Sign in to the Common Data Service platform.  
+1. Sign in to the Dynamics 365 instance.  
 
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]
 
@@ -74,7 +75,7 @@ You can create a web application adapter if you want to enhance and modify web a
    |  **Application Hosting**   |                                             Use SetParent                                             |
    |          **URL**           | Specify the location where your web application is hosted. In this case, it is https://localhost:2627/ |
 
-   ![Screenshot of Web App Config](../unified-service-desk/media/usd-web-app-crm-config.png "Screenshot of Web App Config")  
+   ![Screenshot of Web App Config.](../unified-service-desk/media/usd-web-app-crm-config.png "Screenshot of Web App Config")  
 
 6. Choose **Save**.
 
@@ -83,13 +84,13 @@ You can create a web application adapter if you want to enhance and modify web a
 
 1. Make sure that the sample web application that you built in step 1 is still running.
 
-2. Run the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client to connect to your Common Data Service platform server.  
+2. Run the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client to connect to your Dataverse server.  
 
 3. On successful sign in, you’ll see the **Sample External Web Application** on your desktop.
 
 4. Click the **Sample External Web Application** tab to see your web application hosted within **Unified Service Desk**.
 
-   ![Hosting web app in Unified Service Desk](../unified-service-desk/media/usd-web-app-hosting.PNG "Hosting web app in Unified Service Desk")
+   ![Hosting web app in Unified Service Desk.](../unified-service-desk/media/usd-web-app-hosting.PNG "Hosting web app in Unified Service Desk")
 
 > [!NOTE]
 >  At this point the fields are empty because you’re only hosting the external web application in **Unified Service Desk**. To populate them with values from **Unified Service Desk**, we have to create a web application adapter as illustrated in the next step.  
@@ -105,9 +106,9 @@ You can create a web application adapter if you want to enhance and modify web a
 
    2. Specify the name and location of the project, and click **OK** to create a new project.  
 
-   ![Screenshot of Web Adapter in Visual Studio](../unified-service-desk/media/usd-web-app-adapter-vs.PNG "Screenshot of Web Adapter in Visual Studio")  
+   ![Screenshot of Web Adapter in Visual Studio.](../unified-service-desk/media/usd-web-app-adapter-vs.PNG "Screenshot of Web Adapter in Visual Studio")  
 
-   3. Choose WebAppAdapter.cs and update the definition of **NotifyContextChange** with the following code to populate the text fields from the context information. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Context)](https://docs.microsoft.com/dotnet/api/microsoft.uii.csr.hostedapplicationadapter.notifycontextchange\(microsoft.uii.csr.context\))  
+   3. Choose WebAppAdapter.cs and update the definition of **NotifyContextChange** with the following code to populate the text fields from the context information. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Context)](/dotnet/api/microsoft.uii.csr.hostedapplicationadapter.notifycontextchange(microsoft.uii.csr.context))  
 
       ```csharp  
       public override bool NotifyContextChange(Context context)  
@@ -184,7 +185,7 @@ You can create a web application adapter if you want to enhance and modify web a
 <a name="ConfigureWebAdapter"></a>   
 ## Step 5: Configure a web application adapter  
 
-1. Sign in to the Common Data Service platform.  
+1. Sign in to the Dynamics 365 instance.  
 
 2. On the nav bar, choose **Dynamics 365**.  
 
@@ -192,7 +193,7 @@ You can create a web application adapter if you want to enhance and modify web a
 
 4. From the list of hosted controls, select **QsWebApplication** hosted control.  
 
-   ![Hosted controls list](../unified-service-desk/media/usd-web-app-hosted-controls-list.PNG "Hosted controls list")  
+   ![Hosted controls list.](../unified-service-desk/media/usd-web-app-hosted-controls-list.PNG "Hosted controls list")  
 
 5. In the **Adapter Configuration** section, specify the following values.  
 
@@ -202,7 +203,7 @@ You can create a web application adapter if you want to enhance and modify web a
    |**URI**|MyWebApplicationAdapter|  
    |Type|MyWebApplicationAdapter.WebAppAdapter|  
 
-   ![Web adapter configuration](../unified-service-desk/media/usd-web-app-adapter-config.PNG "Web adapter configuration")  
+   ![Web adapter configuration.](../unified-service-desk/media/usd-web-app-adapter-config.PNG "Web adapter configuration")  
 
    > [!NOTE]
    > **URI** is the name of your assembly and the **Type** is the name of your assembly (dll) followed by a dot (.) and then the class name in your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project. In this example, the name of the assembly is MyWebApplicationAdapter and name of the class is WebAdapter, which is the default class name when you create a web application adapter.
@@ -220,14 +221,17 @@ You can create a web application adapter if you want to enhance and modify web a
 
 4. Choose **Search** and then choose **Contacts** and select a contact. In this case, select **Patrick Sands**.
 
-   ![Screenshot of contact list](../unified-service-desk/media/usd-web-app-adapter-contacts-list.PNG "Screenshot of contact list")
+   ![Screenshot of contact list.](../unified-service-desk/media/usd-web-app-adapter-contacts-list.PNG "Screenshot of contact list")
 
 5. Click **Sample External Web Application** and you’ll see the customer’s first name, last name, address, and ID populated.
 
-   ![Testing WebApp Adapter screenshot](../unified-service-desk/media/usd-web-app-adapter-test.PNG "Testing WebApp Adapter screenshot")
+   ![Testing WebApp Adapter screenshot.](../unified-service-desk/media/usd-web-app-adapter-test.PNG "Testing WebApp Adapter screenshot")
 
 > [!NOTE]
 >  This walkthrough showed you how to read or display data from [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] in the external web application. To update the data in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] from the external web application, and vice versa, see [Walkthrough: Create a UII Windows Forms Hosted Control](../unified-service-desk/walkthrough-create-uii-windows-forms-hosted-control.md)
 
 ### See also
  [Use UII adapters to interact with external and web applications](../unified-service-desk/use-uii-adapters-interact-external-web-applications.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

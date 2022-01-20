@@ -1,10 +1,10 @@
 ---
-title: "Access a view definition | MicrosoftDocs"
-description: Learn how to access entity views
+title: "Access view definitions in Dynamics 365 Customer Engagement (on-premises)"
+description: "The page provides the steps for accessing view definitions in several different ways inside Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
 ms.date: 08/08/2018
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,16 +17,15 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
-# Access a view definition in Dynamics 365 Customer Engagement (on-premises)
+# Access a view definition
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Access a model-driven app view definition in Power Apps](/powerapps/maker/model-driven-apps/accessing-view-definitions)
 
 <a name="BKMK_AccessingViewDefinitions"></a>   
 
- There are several ways you can access view definitions in Dynamics 365 Customer Engagement (on-premises). On any list view for an entity, in the command bar you will find the following commands after you click or tap the ellipsis (![More Commands button in Appointment Activity](../customize/media/more-commands.gif "More Commands button in Appointment Activity")) button:  
+ There are several ways you can access view definitions in Dynamics 365 Customer Engagement (on-premises). On any list view for an entity, in the command bar you will find the following commands after you click or tap the ellipsis (![More Commands button in Appointment Activity.](../customize/media/more-commands.gif "More Commands button in Appointment Activity")) button:  
   
 - **View**: Opens the definition of the current view in the default solution.  
   
@@ -40,7 +39,7 @@ search.app:
   
 ## Open a view  
   
-1. Open solution explorer.  
+1. Open solution explorer. In the Dynamics 365 Customer Engagement (on-premises) app, select **Settings** > **Settings** > **Customizations** > **Customize the system**.
   
 2. Under **Components**, expand **Entities**, and then expand the entity you want.  
   
@@ -62,3 +61,6 @@ search.app:
  
 ### See also
 [Create or edit views](create-edit-views.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

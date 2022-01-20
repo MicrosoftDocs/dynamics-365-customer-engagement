@@ -1,9 +1,10 @@
 ---
-title: "About team templates  | MicrosoftDocs"
+title: "Use team templates in Dynamics 365 Customer Engagement (on-premises)"
+description: "Using teams is an easy way to collaborate with others. To create a system-managed access team, you must provide a template for the system to use."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -21,11 +22,9 @@ ms.author: jimholtz
 manager: brycho
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
-# About collaborating with team templates
+# Collaborate using team templates
 
 Using teams in Dynamics 365 Customer Engagement (on-premises) is optional, however, teams give you an easy way to share information and collaborate with users across business units. A team is a group of users. As a group, you will be able to track information about the records and perform assigned tasks in much more efficient and coordinated way. While a team belongs to only one business unit, it can include users from other business units. A user can be associated with more than one team.
   
@@ -47,3 +46,6 @@ For information about how to create a team template, enable an entity for system
  [Create a team template and add to an entity form](create-team-template-add-entity-form.md)   
  [Manage teams](manage-teams.md)    
  [Access teams in Microsoft Dynamics CRM](https://download.microsoft.com/download/E/9/0/E9009308-CA01-4B37-B03C-435B8ACB49B4/Access%20Teams%20with%20Microsoft%20Dynamics%20CRM%202013.pdf)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

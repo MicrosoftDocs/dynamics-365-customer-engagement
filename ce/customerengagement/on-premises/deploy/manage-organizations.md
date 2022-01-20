@@ -1,8 +1,9 @@
 ---
 title: "Manage organizations | Microsoft Docs"
+description: Learn how to manage organizations in Dynamics 365 Customer Engagement (on-premises)
 ms.custom: 
 ms.date: 10/01/2018
-ms.prod: crm-2016
+ms.prod: d365ce-op
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -37,3 +38,6 @@ Use the **Organizations** page to view, change, add, enable, disable, and import
  [Import an organization](import-an-organization.md)   
  [Delete an organization](delete-an-organization.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

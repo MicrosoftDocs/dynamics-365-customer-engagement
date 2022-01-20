@@ -1,17 +1,14 @@
 ---
 title: "View and create time-based items with the marketing calendar (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to see and create time-based items like journeys, events, sessions, and appointments, using marketing calendars in Dynamics 365 Marketing"
-keywords: marketing execution;email;landing page;marketing page;customer journey
+description: "How to see and create time-based items like journeys, events, sessions, and appointments, using marketing calendars in Dynamics 365 Marketing."
 ms.date: 12/06/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 580a2b1c-1ac7-4bce-9ccf-3b95e723a8e6
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
 search.audienceType: 
   - admin
   - customizer
@@ -58,7 +55,7 @@ System customizers can add custom calendars to nearly any entity or form, so you
 
 The following illustration highlights the major display and navigation features of the marketing calendar. It shows an entity-level calendar that displays many types of entities. Form-level calendars are nearly the same, and the legend for the figure points out the differences.
 
-![Features of the marketing calendar](media/calendar-callouts.png "Features of the marketing calendar")
+![Features of the marketing calendar.](media/calendar-callouts.png "Features of the marketing calendar")
 
 Legend:
 
@@ -70,7 +67,7 @@ Legend:
 1. **Displayed date range**: Names the current displayed date range. Select this value to open calendar controls that let you jump quickly to another date, week, or year.
 1. **Overrun display** (month view only): For days where there are more items scheduled than can be shown in the current view, this value indicates how many unseen items are scheduled (such as **+1** ). To view all items scheduled for days with an overrun display, either double-click on the white space between the date number and the _+n_ display, or use the arrow keys of your keyboard to select a day and then press Enter. Choose any item in the pop-up window to view details about it or edit it, or choose **New item** to add a new calendar item to this date.  
 
-    ![View additional items or create a new item](media/calendar-month-popup.png "View additional items or create a new item")
+    ![View additional items or create a new item.](media/calendar-month-popup.png "View additional items or create a new item")
 
 1. **Scheduled item:** Scheduled items appear as labeled colored bars, where the color indicates the type of item it is. By default, events are green, sessions are blue, and appointments are red. Select any scheduled item to view a read-only summary of it in a pop-up dialog, which also includes an **Edit** button that lets you open the full record for editing. Some item types might go straight to the editing page (depending on how your calendar is set up).
 
@@ -81,7 +78,7 @@ To create a new calendar item while working in month view:
 1. Select a day in the calendar using your mouse or cursor arrows.
 1. Either click again on the selected date or range or press Enter on your keyboard. A pop-up window shows you all items scheduled for the selected day (if any) and includes items hidden in the standard view due to space constraints.  
 
-    ![View additional items or create a new item](media/calendar-month-popup.png "View additional items or create a new item")
+    ![View additional items or create a new item.](media/calendar-month-popup.png "View additional items or create a new item")
 
 1. Choose **New item** from the pop-up window and then choose which type of item (such as event, session, or appointment) you'd like to create. The types of items presented may vary according to the calendar's configuration.
 1. A quick-create form opens from the side of the window. Use it to specify a few of the most important settings for the new item. (To make more detailed settings, you might need to open the record's full editing form later.)
@@ -94,7 +91,7 @@ To create a new calendar item while working in day or week view:
 1. Select a day and time range. If you are using a mouse, click and drag to select the range. If you are using a keyboard, first select the start time and press Enter, then use the arrow keys and Shift+Enter to select the end time.
 1. Either click again on the selected date range or press Enter on your keyboard. A pop-up menu opens; use it to choose the type of item to create.  
 
-    ![Create an item in week view](media/calendar-week-create.png "Create an item in week view")
+    ![Create an item in week view.](media/calendar-week-create.png "Create an item in week view")
 
 1. A quick-create form opens from the side of the window. Use it to specify a few of the most important settings for the new item. (To make more detailed settings, you might need to open the record's full editing form later.)
 1. Select **Save** at the bottom of the quick-create form to save the new item.
@@ -102,3 +99,6 @@ To create a new calendar item while working in day or week view:
 ### See also
 
 [Create and customize marketing calendars](customize-marketing-calendars.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

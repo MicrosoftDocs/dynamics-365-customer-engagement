@@ -1,19 +1,15 @@
 ---
 title: "Manage user accounts, user licenses, and security roles (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to manage user accounts, add licenses to users, and assign security roles in Dynamics 365 Marketing"
-keywords: 
-ms.date: 01/24/2020
+description: "How to manage user accounts, add licenses to users, and assign security roles in Dynamics 365 Marketing."
+ms.date: 01/19/2022
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 8443c485-10a1-4d3e-a23d-047b75b707db
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -23,13 +19,13 @@ search.app:
   - D365Mktg
 ---
 
-# Manage user accounts, licenses, and roles
+# Manage user accounts, user licenses, and security roles
 
 Read this topic to learn how to work with user accounts, user licenses, and security roles in Dynamics 365 Marketing.
 
 ## Create user accounts and assign licenses
 
-Like most model-driven apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation), Dynamics 365 Marketing integrates with the user management and licensing features of the Microsoft 365 admin center. To get started, each user who requires access to Marketing must have a user account on your Microsoft 365 tenant. More information: [Add users individually or in bulk to Office 365](https://docs.microsoft.com/office365/admin/add-users/add-users)
+Like most model-driven apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation), Dynamics 365 Marketing integrates with the user management and licensing features of the Microsoft 365 admin center. To get started, each user who requires access to Marketing must have a user account on your Microsoft 365 tenant. More information: [Add users individually or in bulk to Microsoft 365](/office365/admin/add-users/add-users)
 
 Unlike most Dynamics 365 apps, Dynamics 365 Marketing is licensed per instance (also based on certain quotas, such as the number of marketing contacts and monthly email messages) but it isn't licensed per seat, which means that you can add as many users to each Marketing instance as you like for no extra charge because Marketing user licenses are free.
 
@@ -46,28 +42,28 @@ To purchase and assign a free Marketing user license:
 1. Sign in to your [Microsoft 365 admin center](https://admin.microsoft.com) using an admin account that has permissions to purchase services and assign licenses.
 
 1. In the Microsoft 365 admin center, go to **Billing** > **Purchase services**.
-1. On the **Purchase services** page, type "Marketing" into the serch field near the top of the page and then press Enter on your keyboard.
+1. On the **Purchase services** page, type "Marketing" into the search field near the top of the page and then press Enter on your keyboard.
 
 1. Select the **Dynamics 365 Marketing User License** tile, which shows a price of **Free**.
 
-    ![Purchase a free user license for Marketing](media/admin-m365-usl.png "Purchase a free user license for Marketing")
+    ![Purchase a free user license for Marketing.](media/admin-m365-usl.png "Purchase a free user license for Marketing")
 
 1. Follow the instructions on your screen to complete the transaction.
 
 1. Return to the Microsoft 365 admin center and go to **Users** > **Active users** and select the user you want to assign a license to. The settings for that user open in a fly-out.
 
-    ![Edit settings for a user account](media/admin-m365-edit-user.png "Edit settings for a user account")
+    ![Edit settings for a user account.](media/admin-m365-edit-user.png "Edit settings for a user account")
 
 1. Select the **Licenses and Apps** tab in the flyout and then select the **Dynamics 365 Marketing User License** check box to assign the license to this user.
 
-    ![Add a license](media/admin-m365-assign-license.png "Add a license")
+    ![Add a license.](media/admin-m365-assign-license.png "Add a license")
 
 1. Select **Save changes** and then close the fly-out. The user now has a free Marketing license and should be visible in the user-admin interface in a few minutes.
 
 1. Assign the appropriate security roles to grant the new user access to the required Marketing features, as described in the next section. The app doesn't allow access to any user who does not have at least one relevant security role.
 
 More information: 
-[Assign licenses to users in Office 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users)
+[Assign licenses to users in Microsoft 365 for business](/office365/admin/subscriptions-and-billing/assign-licenses-to-users)
 
 <a name="assign-role"></a>
 
@@ -84,11 +80,11 @@ Administrators can also create teams, apply security roles to those teams, and a
 
 To apply security roles to users, and to customize each role, do the following:
 
-1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**.
+1. Open the **Settings** menu ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced Settings**.
 
-1. The advanced-settings area opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator. Navigate to **Settings** > **System** > **Security**.
+1. The Advanced Settings area opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator. Navigate to **Settings** > **System** > **Security**.
 
-1. Work with the **Users** settings here to assign security roles to users. For details, see [Create users and assign security roles](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles) and [Security roles and privileges](https://docs.microsoft.com/power-platform/admin/security-roles-privileges).
+1. Work with the **Users** settings here to assign security roles to users. For details, see [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles) and [Security roles and privileges](/power-platform/admin/security-roles-privileges).
 
 <a name="inspect-roles"></a>
 
@@ -101,7 +97,7 @@ All model-driven apps in Dynamics 365 come with a collection of preconfigured se
 
 To find out which permissions apply to any existing security role (and/or edit a role):
 
-1. Open the **Settings** menu ![The Settings menu icon](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**.
+1. Open the **Settings** menu ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**.
 
 1. The advanced-settings area opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator. Navigate to **Settings** > **System** > **Security**.
 
@@ -109,7 +105,7 @@ To find out which permissions apply to any existing security role (and/or edit a
 
 1. You now see a list of security roles. Select a role to open the **Security role** window, which shows individual access levels for each available entity. Most entities are named intuitively to map to various features and areas of the app.
 
-    ![The 'Security role' window](media/security-role-setup.png "The 'Security role' window")
+    ![The 'Security role' window.](media/security-role-setup.png "The 'Security role' window")
 
 Here are a few notes for working with the **Security role** settings:
 
@@ -117,19 +113,19 @@ Here are a few notes for working with the **Security role** settings:
 - There is a tab called **Marketing**, but it doesn't contain entities related to Dynamics 365 Marketing. Its settings apply to the *enterprise marketing* feature included with several model-driven apps in Dynamics 365 (though Dynamics 365 Marketing does make use of the marketing lists feature that is provided here).
 - Some of the security roles provided with Dynamics 365 Marketing include permissions from all available tabs. This is to provide access to  common features also required by users in marketing roles.
 
-Security roles are a concept shared by all model-driven apps in Dynamics 365. For more information about how to work with them, see [Create users and assign security roles](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles) and [Security roles and privileges](https://docs.microsoft.com/power-platform/admin/security-roles-privileges).
+Security roles are a concept shared by all model-driven apps in Dynamics 365. For more information about how to work with them, see [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles) and [Security roles and privileges](/power-platform/admin/security-roles-privileges).
 
 ## Special permissions for marketing pages and assist edit
 
 Two features of Dynamics 365 Marketing require that users have security roles with unexpected privileges for some entities. These are:
 
 - **To go live with marketing pages, elevated privileges are required for the *website* entity**  
-    The error checker for marketing pages requires full organization-level access to the **Website** entity, which enables the feature to confirm that the page is configured correctly to be published on your Dynamics 365 Portal. Therefore, all users that need to check and/or go-live with a marketing page published on a portal must have a security role with the privileges shown in the table and illustration following this list. This doesn't affect captured forms or forms embedded on an external site or CMS system.
+    The error checker for marketing pages requires full organization-level access to the **Website** entity, which enables the feature to confirm that the page is configured correctly to be published on your Power Apps portal. Therefore, all users that need to check and/or go-live with a marketing page published on a portal must have a security role with the privileges shown in the table and illustration following this list. This doesn't affect captured forms or forms embedded on an external site or CMS system.
 
 - **To access assist edit, elevated privileges are required the for the *marketing email dynamic-content metadata* entity**    
     The [assist-edit feature](dynamic-email-content.md#assist-edit) enables users to generate dynamic expressions for use in email messages and content settings. The feature requires that the user has elevated access to application metadata, which enables assist edit to present details about database entities and records. Therefore, all users that need to use assist edit must have a security role with elevated access to the **Marketing email dynamic-content metadata** entity, as shown in the table and illustration following this list.
 
-|  | Minimum "Website" entity privileges | Minimum "Marketing email dynamic-content metadata" entity privileges|
+| Access level | Minimum "Website" entity privileges | Minimum "Marketing email dynamic-content metadata" entity privileges|
 |-----------|--------------|------------------------------------------|
 | Create | Organization | Business unit |
 | Read | Organization | Organization |
@@ -140,7 +136,7 @@ Two features of Dynamics 365 Marketing require that users have security roles wi
 | Assign | Organization | Business unit |
 | Share | Organization | Organization |
 
-![Privileges required for the Website and Marketing email dynamic-content metadata entities](media/bu-roles-website.png "Privileges required for the Website and Marketing email dynamic-content metadata entities")
+![Privileges required for the Website and Marketing email dynamic-content metadata entities.](media/bu-roles-website.png "Privileges required for the Website and Marketing email dynamic-content metadata entities")
 
 ## Form and field level security
 
@@ -151,7 +147,7 @@ In addition to the entity-level security set directly on each security role, you
 
 You don't see form or field settings when you edit the security role, so you must manage these separately.
 
-Form and field level security are concepts shared by all model-driven apps in Dynamics 365. For more information about how to work with them, see [Field-level security](https://docs.microsoft.com/power-platform/admin/field-level-security) and [Assign security roles to a form](https://docs.microsoft.com/power-platform/admin/assign-security-roles-form).
+Form and field level security are concepts shared by all model-driven apps in Dynamics 365. For more information about how to work with them, see [Field-level security](/power-platform/admin/field-level-security) and [Assign security roles to a form](/power-platform/admin/assign-security-roles-form).
 
 ## Security roles added by Dynamics 365 Marketing
 
@@ -186,18 +182,13 @@ The tables in this section summarize the purpose of each role added by Dynamics 
 
 ### Surveys security roles
 
-The surveys package adds the following security roles:
+The surveys package adds the following security role:
 
-- Survey Administrator
-- Survey Designer
-- Survey Feedback Publisher
-- Survey Service
-- Survey User
-- Voice of the Customer app access role
+- Project Owner
 
-## Don't modify or remove the Marketing service user
+## Don't modify or remove marketing service users
 
-Dynamics 365 Marketing includes a preconfigured user called **MarketingServices ApplicationUser**, which must have the following security roles:
+Dynamics 365 Marketing includes a preconfigured user called **D365 Marketing**, which must have the following security roles:
 
 - EventManagement S2SInbound
 - LinkedIn LeadGen S2SInbound
@@ -206,10 +197,30 @@ Dynamics 365 Marketing includes a preconfigured user called **MarketingServices 
 
 The system uses this account when performing important internal tasks, and Marketing will stop working correctly if you remove the user or any of these required roles. Be sure not to remove or modify this user.
 
+### Real-time marketing service users
+
+After deploying real-time marketing features, several service users are created. As with outbound marketing, deleting these users will break your deployment.
+
+| Real-time marketing service user | Marketing area |
+| ---- | ------- |
+| Customer Experience Platform PROD | All other areas not listed below |
+| Dynamics Marketing Dataverse Datasource  | Personalization of messages |
+| Dynamics Marketing Interactive Scenarios  | Handling flows triggered by organic users |
+| Dynamics Marketing Lifecycle Management | Lifecycle and provisioning scenarios |
+| Dynamics Marketing Native Segmentation | Segmentation |
+| Dynamics Marketing Workflow | Customer journey execution |
+
+One service user, **# Dynamics Marketing Dataverse Datasource**, is used to impersonate a service that resolves dynamic content. Dynamic content can be defined through placeholders for personalized messages or through data-bound parameter in customer journeys.
+
+**# Dynamics Marketing Dataverse Datasource** has a **Service Reader** role assigned, which allows it privileged access to any Dataverse data within a given environment.
+
 ### See also
 
-[Create users and assign security roles](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles)  
-[Security roles and privileges](https://docs.microsoft.com/power-platform/admin/security-roles-privileges)  
+[Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles)  
+[Security roles and privileges](/power-platform/admin/security-roles-privileges)  
 [Manage teams](manage-teams.md)  
-[Add users individually or in bulk to Office 365](https://docs.microsoft.com/office365/admin/add-users/add-users)  
-[Assign licenses to users in Office 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users)
+[Add users individually or in bulk to Microsoft 365](/office365/admin/add-users/add-users)  
+[Assign licenses to users in Microsoft 365 for business](/office365/admin/subscriptions-and-billing/assign-licenses-to-users)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

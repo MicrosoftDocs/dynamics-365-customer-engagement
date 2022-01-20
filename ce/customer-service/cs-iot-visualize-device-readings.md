@@ -1,28 +1,20 @@
 ---
 title: "Visualize device readings | MicrosoftDocs"
 description: "Learn how to enable and use device readings in Connected Customer Service for Azure IoT Central."
+ms.date: 04/03/2020
+ms.topic: article
 author: lalexms
 ms.author: lalexms
 manager: shujoshi
-ms.date: 02/03/2020
-ms.topic: article
-ms.service: 
-  - "dynamics-365-customerservice"
-ms.custom: 
-  - ""
-applies_to: 
-  - ""
 ---
 
-# Preview: Visualizing device readings
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# Visualize device readings
 
 To help you understand the current state of a device, its repair history, and the effect of performed work orders, the Connected Customer Service add-in displays near realtime device readings and historical sensor measurements in a chart alongside work order details.
 
 The device readings chart is available on the IoT alert, work order, case, device, and asset forms.
 
-To enable the device readings chart, administrators need to deploy Azure Time Series (Preview) into the Azure subscription when deploying or upgrading Connected Field Service with Azure IoT Hub for their organization. Administrators do the deployment through the [IoT Deployment app (aka.ms/deploycfs).](https://aka.ms/deploycfs)  
+To enable the device readings chart, administrators need to deploy Azure Time Series (Preview) into the Azure subscription when deploying or upgrading Connected Customer Service with Azure IoT Hub for their organization. Administrators do the deployment through the IoT Deployment app.  
 
 
 ## Prerequisites
@@ -32,7 +24,7 @@ To enable the device readings chart, administrators need to deploy Azure Time Se
 
 ## Enable the device readings chart
 
-1. Open the Connected Customer Service [IoT Deployment app (aka.ms/deploycfs).](https://aka.ms/deploycfs) 
+1. Open the Connected Customer Service [IoT Deployment app](https://iotdeployment.dynamics.com/). 
 2. Select the Dynamics 365 organization where the IoT solution will be deployed. 
 3. Select the Azure subscription and the Azure Resource Group. (Note: Select **Upgrade deployment** if  you're updating an existing Connected Customer Service for IoT Hub deployment.)
 4. Select the **Deploy Time Series Insight Preview** checkbox.
@@ -40,16 +32,16 @@ To enable the device readings chart, administrators need to deploy Azure Time Se
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the deployment screen showing configuration of Azure resources](./media/cs-iot-device-measurements-deployment.png)
+> ![Screenshot of the deployment screen showing configuration of Azure resources.](./media/cs-iot-device-measurements-deployment.png)
 
 6. Follow the remaining steps in the IoT Deployment app to complete the Time Series Insights Preview deployment.
-- Create the application (client) ID: Follow the steps in [Create an Azure Active Directory application](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#create-an-azure-active-directory-application
+- Create the application (client) ID: Follow the steps in [Create an Azure Active Directory application](/azure/active-directory/develop/howto-create-service-principal-portal#create-an-azure-active-directory-application
 ).
-- Create the client secret: Follow the steps in [Create a new application secret](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#create-a-new-application-secret
+- Create the client secret: Follow the steps in [Create a new application secret](/azure/active-directory/develop/howto-create-service-principal-portal#create-a-new-application-secret
 ). 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot showing fields on the Time Series Insights Preview screen](./media/cs-iot-device-measurements-deployment-2.png)
+> ![Screenshot showing fields on the Time Series Insights Preview screen.](./media/cs-iot-device-measurements-deployment-2.png)
 
 > [!Note]
 > - Storage account selection is only available when you're upgrading an existing deployment.
@@ -73,7 +65,7 @@ To view device readings, the following data must be in place:
  1. Open the **Device Readings (Preview)** tab on IoT alert, work order, case, device, or asset form.
 
  > [!div class="mx-imgBorder"]
-> ![Screenshot of an example of the device readings chart](./media/cs-iot-device-readings.png)
+> ![Screenshot of an example of the device readings chart.](./media/cs-iot-device-readings.png)
 
 2. Choose the time period from the drop-down list. If the device sends device measurements to TSI, and the device measurement data exists for the selected time period, a chart is loaded.  
 
@@ -82,12 +74,12 @@ To view device readings, the following data must be in place:
 4. Hover over the chart to see tooltip with measurement details. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the device readings chart with tooltip showing](./media/cs-iot-hub-device-measurements-hoover.png)
+> ![Screenshot of the device readings chart with tooltip showing.](./media/cs-iot-hub-device-measurements-hoover.png)
 
 5. Select the icon to view service history details. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of device readings chart showing service history](./media/cs-iot-service-history.png)
+> ![Screenshot of device readings chart showing service history.](./media/cs-iot-service-history.png)
 
 6. Select the eye icon next to **Service history** to show or hide any case created and closed during the selected time period.
 
@@ -120,3 +112,6 @@ Use the following table to troubleshoot error codes related to device readings.
   - In custom time settings, the time zone is always set as UTC even when another time zone is selected. The time period displayed after applying the setting is always local time. 
   - When deploying immediately after creating a new application (client) ID with the IoT Deployment app, you may see an **unable to deploy TSI with credential** error. Try again after one minute.
 - Azure Time Series Insights (Preview) uses a pay-as-you-go (PAYG) pricing model. The pricing and cost estimate calculator is available at https://azure.microsoft.com/pricing/details/time-series-insights. Select the region where you are planning to deploy TSI to understand the storage and query cost. (Note that TSI uses Azure blob to store the data.) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

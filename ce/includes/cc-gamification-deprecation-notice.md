@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> Effective April 1, 2021, Dynamics 365 – Gamification is deprecated. Until September 30, 2021, Microsoft will continue to provide support for the product but won’t release any additional functionality beyond what’s already present. From October 1, 2021, the Dynamics 365 – Gamification solution won’t be functional. To learn more about removing the solution, see **[Uninstall Dynamics 365 - Gamification](/dynamics365/gamification/manage-gamification-in-dynamics-365-online#uninstall-the-gamification-solution)**.

@@ -1,18 +1,14 @@
 ---
 title: "Use custom attributes to enable designer features in templates (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to mark up the HTML in your email and page templates to enable drag-and-drop features and style controls for the Design view in Dynamics 365 Marketing"
-keywords: custom attributes;templates;email;marketing pages;HTML
+description: "How to mark up the HTML in your email and page templates to enable drag-and-drop features and style controls for the Design view in Dynamics 365 Marketing."
 ms.date: 02/01/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 346a437c-f9c7-47ea-94c6-c9deeadfa116
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -54,10 +50,10 @@ You can paste HTML developed in any third-party tool directly into the **HTML** 
 
 The following image shows the same design in full-page-edit mode (left) and drag-and-drop mode (right). The only difference is the design on the right includes the meta tag, so drag-and-drop is enabled, and the side panel is shown.
 
-![Full-page editor vs. drag-and-drop editor](media/designer-full-page-editor.png "Full-page editor vs. drag-and-drop editor")
+![Full-page editor vs. drag-and-drop editor.](media/designer-full-page-editor.png "Full-page editor vs. drag-and-drop editor")
 
 > [!NOTE]
-> When using the full-page editor, you can still select, edit, and style text using the text-formatting toolbar (shown), and can also double-click on images, links, and other elements to set their properties using  a pop-up dialog. The toolbar also includes the **[Assist edit](dynamic-email-content.md#assist-edit)** button ![The assist-edit button](media/button-assist-edit.png "The assist-edit button") for adding dynamic content, such as field values drawn from each recipient's contact record.
+> When using the full-page editor, you can still select, edit, and style text using the text-formatting toolbar (shown), and can also double-click on images, links, and other elements to set their properties using  a pop-up dialog. The toolbar also includes the **[Assist edit](dynamic-email-content.md#assist-edit)** button ![The assist-edit button.](media/button-assist-edit.png "The assist-edit button") for adding dynamic content, such as field values drawn from each recipient's contact record.
 
 <a name="containers"></a>
 
@@ -226,7 +222,7 @@ For more information about how design elements appear in code, see [Identify des
 
 Text-elements provide a pop-up formatting toolbar in the designer, which includes a menu for applying a font to selected text.
 
-![The font selector for text elements](media/designer-font-menu.png "The font selector for text elements")
+![The font selector for text elements.](media/designer-font-menu.png "The font selector for text elements")
 
 To add new fonts to this font selector, add a `<meta>` tag that uses the following form to the `<head>` of the document:
 
@@ -241,7 +237,7 @@ Where _&lt;font-list&gt;_ is a semicolon-separated list of font names.
 
 One handy feature of the out-of-box templates is that they provide global style settings on the **Styles** tab, which let users quickly adjust the font family, color palette, and other global settings enabled for the template. Each template includes only those style settings that make sense for that specific design, and you can likewise design templates that provide just the right style settings for you and your users.
 
-![The Designer > Styles tab](media/designer-style-tab.png "The Designer > Styles tab")
+![The Designer > Styles tab.](media/designer-style-tab.png "The Designer > Styles tab")
 
 To add a setting to the **Styles** tab, you must do the following:
 
@@ -350,3 +346,6 @@ So, in this example, the `<img>` tag would resolve to something like:
 [Email marketing overview](prepare-marketing-emails.md)  
 [Create a new email and design its content](email-design.md)  
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

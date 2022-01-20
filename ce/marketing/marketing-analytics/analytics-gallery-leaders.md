@@ -1,5 +1,5 @@
 ---
-title: "Leaderboard report for customer journeys and email marketing for Dynamics 365 Marketing | Microsoft Docs"
+title: "Leaderboard report for customer journeys and email marketing for Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Use the leaderboard report for customer journey automation and email marketing to identify your most effective marketing activities."
 ms.date: 11/22/2019
 ms.service: dynamics-365-marketing
@@ -8,9 +8,8 @@ ms.custom:
 ms.topic: article
 author: cabeln
 ms.author: cabeln
-manager: 
+manager: shellyha
 ms.reviewer: alfergus
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -26,7 +25,7 @@ The leaderboard report for customer journeys and email marketing identifies your
 
 |Download report template  |Download sample report  |
 |---------|---------|
-[![Download template](media/IconDownloadTemplate30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/PowerBI-Templates/MarketingAnalyzers%20-%20Journey%26Email%20Leaderboard.pbit)|[![Download sample report](media/IconDownloadReport30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/pbx%20files/MarketingAnalyzers%20-%20Journey%26Email%20Leaderboard.pbix)|
+[![Download template.](media/IconDownloadTemplate30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/PowerBI-Templates/MarketingAnalyzers%20-%20Journey%26Email%20Leaderboard.pbit)|[![Download sample report](media/IconDownloadReport30.png)](https://github.com/microsoft/Dynamics-365-for-Marketing---Power-BI-Reporting/raw/master/pbx%20files/MarketingAnalyzers%20-%20Journey%26Email%20Leaderboard.pbix)|
 
 > [!NOTE]
 > You can find the full list of marketing analytics downloads in the [marketing analytics reporting gallery](analytics-gallery-start.md#gallery).
@@ -54,7 +53,7 @@ Use the data range, message status, and journey status columns to filter the mes
 
 Users can configure the leaderboard chart control, rearrange columns, and sort the list by any selected KPI as needed.
 
-![Email marketing leaderboard](media/Leaderboards/LeaderBoards-EmailLeaderBoardReport.png "Email marketing leaderboard")
+![Email marketing leaderboard.](media/Leaderboards/LeaderBoards-EmailLeaderBoardReport.png "Email marketing leaderboard")
 
 <a name="journey-leaderboard"></a>
 
@@ -73,7 +72,7 @@ Use the data range and status slicers to filter the journeys. The interactions c
 
 Users can configure the leaderboard chart control, rearrange columns, and sort the list by any selected KPI as needed.
 
-![Customer journey automation leaderboard](media/Leaderboards/LeaderBoards-JourneyLeaderBoardReport.png "Customer journey automation leaderboard")
+![Customer journey automation leaderboard.](media/Leaderboards/LeaderBoards-JourneyLeaderBoardReport.png "Customer journey automation leaderboard")
 
 <a name="leaderboard-kpis"></a>
 
@@ -81,6 +80,9 @@ Users can configure the leaderboard chart control, rearrange columns, and sort t
 
 This report lists all the KPIs, marketing messages, and journeys selected by the sliders. In addition, you can look at the individual interaction timelines that lie behind the KPIs. Try filtering the various journeys and messages, or slicing and dicing to compare your marketing activities by various criteria.
 
-![KPI breakdown and timeline](media/Leaderboards/LeaderBoards-ActivityBreakdown.png "KPI breakdown and timeline")
+![KPI breakdown and timeline.](media/Leaderboards/LeaderBoards-ActivityBreakdown.png "KPI breakdown and timeline")
 
 ***Happy analytics reporting with Dynamics 365 Marketing!***
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

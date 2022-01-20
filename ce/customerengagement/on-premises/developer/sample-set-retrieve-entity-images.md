@@ -3,11 +3,11 @@ title: "Sample: Set and retrieve entity images (Developer Guide for Dynamics 365
 descriptions: The sample demonstrates how to set and retrieve data for entity images.
 ms.custom: 
 ms.date: 01/08/2020
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: fa9352f2-ef46-401f-b376-d0192c9f45a7
@@ -17,8 +17,6 @@ ms.author: nkrb
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 # Sample: Set and retrieve entity images
 
@@ -32,7 +30,7 @@ This sample shows how to set and retrieve data for entity images. You can downlo
 
 ## What this sample does
 
-This sample shows how to create a connection role that can be used for accounts and contacts.
+This sample shows how to set and retrieve data for entity images.
 
 ## How this sample works
 
@@ -58,3 +56,5 @@ Checks the current version of the org.
 ### Clean up
 
 Display an option to delete the records in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

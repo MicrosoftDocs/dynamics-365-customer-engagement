@@ -3,8 +3,8 @@ title: "Export ribbon definitions (Developer Guide for Dynamics 365 Customer Eng
 description: "Learn about exporting the ribbon definitions."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -19,8 +19,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Export ribbon definitions
 
@@ -77,3 +76,6 @@ To effectively define changes to the default RibbonXml, you must be able to refe
  [Customize the Ribbon for Microsoft Dynamics 365 Customer Engagement](customize-commands-ribbon.md)   
  [Command bar or ribbon presentation](command-bar-ribbon-presentation.md)   
  [Export, Prepare to Edit, and Import the Ribbon](export-prepare-edit-import-ribbon.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -3,8 +3,8 @@ title: "Define custom state model transitions (Developer Guide for Dynamics 365 
 descriptions: Learn about defining custom state model transistions for the Incident (Case) entity or custom entities.
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Define custom state model transitions
 
@@ -54,7 +53,7 @@ You can specify custom state transitions for the `Incident` (**Case**) entity or
   
 <a name="BKMK_DetectValidStatusTransitions"></a>   
 ## Detect valid status transitions  
- You can modify the `statuscode` attribute to define which other status options represent valid transitions from the current status. For instructions, see the Customization Guide topic: [Define status reason transitions](https://go.microsoft.com/fwlink/p/?LinkId=393657)  
+ You can modify the `statuscode` attribute to define which other status options represent valid transitions from the current status. For instructions, see the Customization Guide topic: [Define status reason transitions](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn660979(v=crm.8))  
   
  When custom state transitions are applied to an entity, the <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.EnforceStateTransitions> property will be `true`. Also, each <xref:Microsoft.Xrm.Sdk.Metadata.StatusOptionMetadata> within the <xref:Microsoft.Xrm.Sdk.Metadata.StatusAttributeMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.OptionSetMetadata.Options> collection will have a new <xref:Microsoft.Xrm.Sdk.Metadata.StatusOptionMetadata.TransitionData> property. This property will contain a String value that represents an XML document. This document contains the definition of the allowed transitions. For example, the default `Incident` (**Case**) `StatusCode` attribute option may have the following `TransitionData` value.  
   
@@ -85,4 +84,7 @@ You can specify custom state transitions for the `Incident` (**Case**) entity or
  [Sample: Retrieve Valid Status Transitions](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/RetrieveValidTransitions)   
  [Record state and status](introduction-entities.md#bkmk_RecordStateandStatus)   
  [Retrieve and Detect Changes to Metadata](retrieve-detect-changes-metadata.md)   
- <!--[Define status reason transitions](https://go.microsoft.com/fwlink/p/?LinkId=393657)-->
+ <!--[Define status reason transitions](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn660979(v=crm.8))-->
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

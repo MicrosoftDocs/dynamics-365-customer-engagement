@@ -1,10 +1,10 @@
 ---
-title: "Set properties for a chart or list included in a dashboard | MicrosoftDocs"
-description: "Learn how to set properties for  chart or list included in a dashboard"
+title: "Set properties for a dashboard chart or list in Dynamics 365 Customer Engagement (on-premises)"
+description: "To edit a chart or list from the dashboard, double-click it to open the dialog box. You can edit properties such as name, entity, default view, and more."
 ms.custom: 
 ms.date: 04/30/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,9 +17,9 @@ caps.latest.revision: 26
 ms.author: "matp"
 manager: "kvivek"
 ---
-# Set properties for a chart or list included in a dashboard
+# Set the properties for a chart or list included in a dashboard
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Set properties for a model-driven app chart or list included in a dashboard](/powerapps/maker/model-driven-apps/set-properties-chart-list-included-dashboard)
 
 To edit a chart from the dashboard layout screen, double-click the chart or list. This opens the **Set Properties** dialog box.  
   
@@ -67,3 +67,6 @@ You can set the following list properties from the **Set Properties** dialog box
   
 ### See also  
  [Create or customize dashboards](../customize/create-edit-dashboards.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

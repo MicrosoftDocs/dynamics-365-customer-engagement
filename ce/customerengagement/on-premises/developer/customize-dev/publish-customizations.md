@@ -3,8 +3,8 @@ title: "Publish customizations | MicrosoftDocs"
 description: "Publishing customizations makes the Web application aware of changes to the data that affects the user interface."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -19,8 +19,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Publish customizations
 
@@ -84,8 +83,11 @@ Publishing customizations makes the Web application aware of changes to the data
  [Customize Entity Forms in Microsoft Dynamics 365 Customer Engagement](customize-entity-forms.md)   
  [Customize Entity Views in Microsoft Dynamics 365 Customer Engagement](customize-entity-views.md)   
  [Customize Global Option Sets in Microsoft Dynamics 365 Customer Engagement](../org-service/customize-global-option-sets.md)   
- [Change Application Navigation using the SiteMap](/developer/customize-dev/change-application-navigation-using-sitemap.md)   
+ [Change Application Navigation using the SiteMap](change-application-navigation-using-sitemap.md)   
  [Customize the Ribbon for Microsoft Dynamics 365 Customer Engagement](customize-commands-ribbon.md)   
  [Open Forms, Views, and Dialogs with a URL](../open-forms-views-dialogs-reports-url.md)   
  [Client scripting in Customer Engagement using JavaScript](../clientapi/client-scripting.md)   
  [Web Resources for Microsoft Dynamics 365 Customer Engagement](../web-resources.md)   
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

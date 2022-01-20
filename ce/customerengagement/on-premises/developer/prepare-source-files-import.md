@@ -3,8 +3,8 @@ title: "Prepare source files for import (Developer Guide for Dynamics 365 Custom
 description: "Data import supports source files formatted as comma-separated values (.csv), XML Spreadsheet 2003 (.xml), or text files."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -25,8 +25,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Prepare source files for import
 
@@ -49,3 +48,6 @@ You can download an example of a data map with multiple entity types from [Micro
  [Import Data in Dynamics 365 Customer Engagement (on-premises)](import-data.md)   
  [Create Data Maps](create-data-maps-for-import.md)   
  [Blog Post: How to Import attachments programmatically](https://blogs.msdn.com/b/crm/archive/2012/08/06/how-to-import-attachments-programmatically.aspx)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

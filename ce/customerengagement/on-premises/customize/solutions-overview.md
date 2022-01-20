@@ -1,14 +1,14 @@
 ---
-title: "Work with solutions (Dynamics 365 Customer Engagement on-premises)| MicrosoftDocs"
-description: "Learn how solutions are distributed"
+title: "Use solutions in Dynamics 365 Customer Engagement (on-premises)"
+description: "Solutions are used to transport apps from one org to another, or to apply customizations. Learn about the difference between solutions and how they're applied."
 ms.custom: 
   - dyn365-deflc
 ms.date: 12/04/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: overview
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
   - powerapps
@@ -19,7 +19,7 @@ ms.author: "matp"
 manager: "kvivek"
 ---
 
-# Solutions overview  
+# Overview of working with solutions 
 [!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Solutions overview](/powerapps/maker/common-data-service/solutions-overview)
  
 In Dynamics 365 Customer Engagement (on-premises), solutions are leveraged to transport apps and components from one organization to another or to apply a set of customizations to existing apps. A solution can contain one or more apps as well as other components such as site maps, entities, processes, web resources, option sets, and more. You can get solutions from [AppSource](https://appsource.microsoft.com/) or from an independent software vendor (ISV). A solution is a file that you can import in to an environment as an app or to apply a set of customizations to an existing app.  
@@ -112,7 +112,7 @@ If you’re an ISV creating an app that you will distribute, you’ll need to us
 ### How solutions are applied  
  All solutions are evaluated as layers to determine what your app will actually do. The following diagram shows how managed and unmanaged solutions are evaluated and how changes in them will appear in your organization.  
   
- ![Solution layering](../customize/media/solution-layering.png "Solution layering")  
+ ![Solution layering.](../customize/media/solution-layering.png "Solution layering")  
   
  Starting from the bottom and working up to top:  
   
@@ -142,3 +142,6 @@ If you’re an ISV creating an app that you will distribute, you’ll need to us
  [Getting started with customization](../customize/getting-started-customization.md)   
  [Privileges you need for customization](../customize/privileges-required-customization.md)   
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

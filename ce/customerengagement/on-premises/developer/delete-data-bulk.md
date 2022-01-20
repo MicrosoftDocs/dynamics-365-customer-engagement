@@ -4,7 +4,7 @@ description: "Helps maintain data quality and manage the consumption of system s
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: nabuthuk
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
@@ -27,8 +27,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Delete data in bulk
 
@@ -60,7 +59,7 @@ The *bulk deletion* feature helps you to maintain data quality and manage the co
   
 ## Run bulk delete
 
-To delete data in bulk, you have to submit a bulk delete job by using the BulkDeleteRequest message. The bulk delete job runs asynchronously in the background without blocking other activities. The query expressions that describe the records on which to run the bulk delete job are specified in the QuerySet property of this request. To learn more, see [Running Bulk Delete](/powerapps/developer/common-data-service/delete-data-bulk#run-bulk-delete) in the Common Data Service documentation.
+To delete data in bulk, you have to submit a bulk delete job by using the BulkDeleteRequest message. The bulk delete job runs asynchronously in the background without blocking other activities. The query expressions that describe the records on which to run the bulk delete job are specified in the QuerySet property of this request. To learn more, see [Running Bulk Delete](/powerapps/developer/common-data-service/delete-data-bulk#run-bulk-delete) in the Dataverse documentation.
   
  <!--[BulkDeleteOperation Entity](entities/bulkdeleteoperation.md)  
   
@@ -71,3 +70,6 @@ To delete data in bulk, you have to submit a bulk delete job by using the BulkDe
  [Data Management](manage-data.md)  
   
  [Import data](import-data.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

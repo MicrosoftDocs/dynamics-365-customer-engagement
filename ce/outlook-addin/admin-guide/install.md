@@ -1,7 +1,8 @@
 ---
 title: "Install Dynamics 365 for Outlook | MicrosoftDocs"
+description: How to install Dynamics 365 for Outlook
 ms.custom:
-ms.date: 06/07/2019
+ms.date: 10/01/2020
 ms.reviewer:
 ms.service: crm-online
 ms.suite:
@@ -49,10 +50,10 @@ To set up [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-f
 
    - To install from the web (version 8.x), go to [Microsoft Dynamics CRM 2016 for Microsoft Office Outlook (Outlook Client)](https://go.microsoft.com/fwlink/p/?LinkId=690396), and then download and run the executable file that matches the installed [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] architecture.
 
-   - To install from the web (version 9.0), go to [Dynamics 365 apps  for Outlook, version 9.0 (Outlook client)](https://support.microsoft.com/help/4491851/dynamics-365-for-outlook-version-9-0-outlook-client-update-1-0), and then download and run the executable file that matches the installed [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] architecture. 
+   - To install from the web (version 9.0), go to [Dynamics 365 apps  for Outlook, version 9.0 (Outlook client)](https://www.microsoft.com/en-us/download/details.aspx?id=56972), and then download and run the executable file that matches the installed [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] architecture. 
 
      > [!NOTE]
-     >  If you have updated your Dynamics 365 apps  organziation to version 9.0 and the Dynamics 365 for Outlook client does not connect then you may need to install TLS 1.2. For more information, [Install TLS](https://support.microsoft.com/help/4054414/dynamics-365-for-outlook-update-for-version-9-0).
+     >  If you have updated your Dynamics 365 apps  organzation to version 9.0 and the Dynamics 365 for Outlook client does not connect then you may need to install TLS 1.2. For more information, [Install TLS](https://support.microsoft.com/help/4054414/dynamics-365-for-outlook-update-for-version-9-0).
 
 
 ~~~
@@ -64,7 +65,7 @@ To set up [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-f
 
 -   To install from the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] web application:
 
-    1.  Click the **Settings** button ![Settings button](../media/mp-ua-r16-settings.png "Settings button"), and then click **Apps for Dynamics 365 apps**.  
+    1.  Click the **Settings** button ![Settings button.](../media/mp-ua-r16-settings.png "Settings button"), and then click **Apps for Dynamics 365 apps**.  
 
     2.  On the **Apps for Dynamics 365 apps** page, click **Download from [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)] Download Center**.  
 
@@ -106,7 +107,7 @@ To set up [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-f
 
 1. To add an organization, choose one of the following:
 
-   - To connect to a [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] organization, choose **Dynamics 365 apps ** from the drop-down list.  
+   - To connect to a [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] organization, choose **Dynamics 365 apps** from the drop-down list.  
 
 2. Click **Connect**.
 
@@ -142,9 +143,12 @@ To set up [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-f
 
    You might need to enable the following  AD FS endpoint: **/adfs/service/trust/13/windowstransport**
 
-   For information on enabling an endpoint, see [Sign in to Office 365, Azure, or Intune fails after you change the federation service endpoint](https://support.microsoft.com/help/2712957/sign-in-to-office-365,-azure,-or-intune-fails-after-you-change-the-federation-service-endpoint).
+   For information on enabling an endpoint, see [Sign in to Microsoft 365, Azure, or Intune fails after you change the federation service endpoint](https://support.microsoft.com/help/2712957/sign-in-to-office-365,-azure,-or-intune-fails-after-you-change-the-federation-service-endpoint).
 
 ### See Also
  [Dynamics 365 for Outlook support](support.md)
  [Blog: Microsoft Dynamics CRM for Outlook Configuration Diagnostic](https://go.microsoft.com/fwlink/p/?LinkID=717230)
  [Deploy Microsoft Dynamics 365 for Outlook by using Group Policy](deploy-using-group-policy.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -3,24 +3,22 @@ title: "Sample: Detect multiple duplicate records | MicrosoftDocs"
 description: "Sample demonstrates how to detect and log multiple duplicate records for a specified entity type."
 keywords: 
 ms.date: 10/31/2017
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 5c83c1c2-25ef-480b-9195-6eabe9f6c4c7
 author: JimDaly
 ms.author: nabuthuk
 manager: kvivek
-ms.reviewer: 
+ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 13
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 
 # Sample: Detect multiple duplicate records
@@ -57,3 +55,6 @@ The `BulkDetectDuplicatesRequest` method creates the BulkDetectDuplicatesRequest
 ### Clean up
 
 Display an option to delete the records created in the [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

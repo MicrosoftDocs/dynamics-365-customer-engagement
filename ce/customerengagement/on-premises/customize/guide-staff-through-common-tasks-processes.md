@@ -1,10 +1,10 @@
 ---
-title: "Create custom business logic through processes with Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn about the different types of business logic you can use in your app"
+title: "Create business processes in Dynamics 365 for Customer Engagement (on-premises)"
+description: "Learn about the four types of processes—business process flows, mobile task flows, workflows, and actions—when to use them, and how to create them."
 ms.custom: 
 ms.date: 01/23/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
@@ -17,17 +17,14 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
-# Create custom business logic through processes
+# Create consistent business processes for your organization
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Apply custom business logic with business rules and flows in model-driven apps](/powerapps/maker/model-driven-apps/guide-staff-through-common-tasks-processes)
 
 Defining and enforcing consistent business processes is one of the main reasons people use Dynamics 365 Customer Engagement (on-premises). Consistent processes help make sure people using the system can focus on their work and not on remembering to perform a set of manual steps. Processes can be simple or complex and can change over time.  
 
-
-  
 Dynamics 365 Customer Engagement (on-premises) includes four types of processes, each designed for a different purpose:  
   
 - Business process flows  
@@ -45,7 +42,8 @@ Dynamics 365 Customer Engagement (on-premises) includes four types of processes,
 
 
 <a name="BKMK_BP"></a>   
-## When to use business process flows  
+## When to use business process flows
+
  Use a business process flow when you want staff to move through the same stages and follow the same steps to interact with a customer. For example, use a business process flow if you want everyone to handle customer service requests the same way, or to require staff to gain approval for an invoice before submitting an order.  
   
  Your environment includes several ready-to-use business process flows for common sales, service, and marketing tasks that you can use with little or no changes required. Or, you can create your own. See the following topics for more information on business process flows:  
@@ -56,7 +54,8 @@ Dynamics 365 Customer Engagement (on-premises) includes four types of processes,
 -   [Add ready-to-use business processes](../customize/add-ready-use-business-processes.md)    
   
 <a name="BKMK_TF"></a>   
-## When to use mobile task flows  
+## When to use mobile task flows
+
  You can also design a type of business process flow called a task flow in [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] or [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] based on common tasks your users perform. For example, if they need to regularly perform a series of follow-up steps after client meetings, create a task flow. When users tap the new task in their mobile app, it will lead them through from start to finish so they don't forget an important step. For more information on task flows, see the following topics:  
   
 -   [Create a mobile task flow](../customize/create-mobile-task-flow.md)   
@@ -71,7 +70,7 @@ Dynamics 365 Customer Engagement (on-premises) includes four types of processes,
   
 <a name="useMSFlow"></a>   
 ## When to use Power Automate  
- Use Power Automate when you need to create automated workflows that perform actions between your environment and favorite app or service, such as [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], Dropbox, Google services, [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)], and [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. You can trigger a flow based on a specific action, or invoke from within your app. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Power Automate to automate processes across services](/powerapps/user/use-flows)  
+ Use Power Automate when you need to create automated workflows that perform actions between your environment and favorite app or service, such as [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], Dropbox, Google services, Microsoft 365, and [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. You can trigger a flow based on a specific action, or invoke from within your app. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Power Automate to automate processes across services](/powerapps/user/use-flows)  
   
 <a name="BKMK_Where"></a>   
 ## Where do I go to create processes?  
@@ -89,9 +88,8 @@ Dynamics 365 Customer Engagement (on-premises) includes four types of processes,
   
  The following table shows the access level of processes based on default security roles.  
   
-|||  
-|-|-|  
 |**Security role**|**Access level**|  
+|-|-|  
 |CEO-Business Manager|Organization|  
 |System Administrator|Organization|  
 |System Customizer|Organization|  
@@ -139,3 +137,6 @@ For more information for developers, see the Developer Guide topic [Automate you
  [Create a mobile task flow](../customize/create-mobile-task-flow.md)   
  [Workflow processes](../customize/workflow-processes.md)   
  [Actions](../customize/actions.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

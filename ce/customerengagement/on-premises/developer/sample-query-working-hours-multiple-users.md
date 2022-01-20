@@ -3,11 +3,11 @@ title: "Sample: Query the working hours of multiple users| MicrosoftDocs"
 description: "Sample demonstrates how to retrieve the working hours of multiple users by using the QueryMultipleSchedulesRequest message."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
@@ -21,12 +21,10 @@ ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 # Sample: Query the working hours of multiple users
 
-This sample shows how to retrieve the working hours of multiple users by using the [QueryMultipleSchedulesRequest](https://docs.microsoft.com/dotnet/api/microsoft.crm.sdk.messages.querymultipleschedulesrequest?view=dynamics-general-ce-9) message. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23).
+This sample shows how to retrieve the working hours of multiple users by using the [QueryMultipleSchedulesRequest](/dotnet/api/microsoft.crm.sdk.messages.querymultipleschedulesrequest?view=dynamics-general-ce-9) message. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23).
 
 This sample requires additional users that are not present in your system. Create the required user manually **as is** shown below in **Office 365** before you run the sample. Replace `yourorg` with the `OrgName` of your organization.
 
@@ -62,3 +60,6 @@ The `QueryMultipleScheduleRequest` message retrieves the working hours of the cu
 
 Display an option to delete the records created in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

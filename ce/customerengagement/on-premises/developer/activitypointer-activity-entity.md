@@ -3,8 +3,8 @@ title: "ActivityPointer (activity) entity (Developer Guide for Dynamics 365 Cust
 description: "The activity pointer (activity) entity represents any activity or task that is performed, or to be performed by a user. An activity is any action for which an entry can be made on a calendar"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -23,8 +23,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # ActivityPointer (activity) entity
 
@@ -47,3 +46,6 @@ The activity pointer (activity) entity represents any activity or task that is p
 ### See also  
  [Activity Entities](activity-entities.md)   
  [ActivityPointer Entity](entities/activitypointer.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

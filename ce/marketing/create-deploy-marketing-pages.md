@@ -1,18 +1,14 @@
 ---
 title: "Design, check, and publish marketing pages (Dynamics 365 Marketing) | Microsoft Docs"
-description: "How to design and deploy landing, forwarding, and subscription pages in Dynamics 365 Marketing"
-keywords: landing page; subscription center; forward to a friend; form; field; matching
-ms.date: 10/04/2019
+description: "How to design and deploy landing, forwarding, and subscription pages in Dynamics 365 Marketing."
+ms.date: 12/16/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: a05ddbad-a57a-403a-aee9-2e91e2f5161f
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -29,7 +25,7 @@ A marketing page is a webpage that includes a form where people can register for
 Marketing pages integrate with&mdash;and provide expanded functionality for&mdash;many other Dynamics 365 Marketing features, including email marketing, customer journeys, behavior analysis, lead scoring, and result analytics.
 
 > [!IMPORTANT]
-> The marketing-page feature described in this topic requires that you have a Dynamics 365 Portal associated with your Dynamics 365 Marketing instance. If your admin chose to install Marketing without a portal, then the features described in this topic won't be available to you. If you attempt to go live with a marketing page without having a portal available, you'll be alerted to the issue and offered a chance to install a portal if you like (admin privileges required). For details about how to create landing pages without using a portal (or in addition to the portal), see [Integrate with landing pages on external websites](embed-forms.md).
+> The marketing-page feature described in this topic requires that you have a Power Apps portal associated with your Dynamics 365 Marketing instance. If your admin chose to install Marketing without a portal, then the features described in this topic won't be available to you. If you attempt to go live with a marketing page without having a portal available, you'll be alerted to the issue and offered a chance to install a portal if you like (admin privileges required).
 > 
 > Note, however, that a simple default subscription center *is* available even if you don't have a portal. This page is hosted by your Dynamics 365 Marketing server and can be customized using the features described in this topic. More information: [The default subscription center](set-up-subscription-center.md#default-center).
 
@@ -45,7 +41,7 @@ The overall process of creating a new marketing page and making it available on 
 
 4. When you are satisfied with the design, check it for required content and technical errors by selecting **Check for Errors** in the command bar. If a problem is found, read the description, address the issue, and try again until the page passes the error check.
 
-5. Select **Save** in the command bar. Your page is now verified and saved in your system, but is still not available on the web. Select **Go Live** to publish it to your Dynamics 365 Portal, where it will be made available at a public URL. You are now ready to start promoting it by including links to it in your marketing email messages, banners, social-media posts, and other marketing initiatives.
+5. Select **Save** in the command bar. Your page is now verified and saved in your system, but is still not available on the web. Select **Go Live** to publish it to your Power Apps portal, where it will be made available at a public URL. You are now ready to start promoting it by including links to it in your marketing email messages, banners, social-media posts, and other marketing initiatives.
 
 More information: [Design your digital content](design-digital-content.md)
 
@@ -64,7 +60,7 @@ There are three basic types of marketing pages:
 - **Forward to a friend**  
     If you'd like to enable recipients of your marketing email messages to forward those messages to friends who might also be interested in your offers, create a forward-to-a-friend marketing page and include links to it in your marketing email messages. Dynamics 365 Marketing tracks when messages are forwarded by contacts who use the forward-to-a-friend form, but not when contacts simply forward a message by using their standard email client. Messages forwarded using an email client will still contain the web beacon and personalized links of the original recipient, so your email results will show all interactions with these forwarded messages as being done by the original recipient too&mdash;but when a contact uses the forward-to-a-friend form, Dynamics 365 Marketing generates a new web beacon and personalized redirect links for each forwarded message. Forward-to-a-friend recipients also won't see any personalized information that was intended for the original recipient. For reasons of data privacy, all data entered into a forward-to-a-friend form is deleted after 30 days, so no new contact or lead records are created unless a recipient of the forward chooses to register with your organization using a landing page.
 
-Dynamics 365 Marketing also includes both Voice of the Customer (for running online surveys) and Event Management (which includes a full-featured event website that provides event information and registration). Like marketing pages, these provide interactive webpages that run as Dynamics 365 Portals, and work similarly to marketing pages under the hood, but they are more specialized so you'll work with them differently. More information: [Set up the event website](set-up-event-portal.md), and [Create and run online surveys](surveys.md)
+Dynamics 365 Marketing also includes both Customer Voice (for running online surveys) and Event Management (which includes a full-featured event website that provides event information and registration). Like marketing pages, these provide interactive webpages that run as Power Apps portals, and work similarly to marketing pages under the hood, but they are more specialized so you'll work with them differently. More information: [Set up the event website](set-up-event-portal.md), and [Create and run online surveys](surveys.md)
 
 ## Create, view, and manage marketing pages
 
@@ -82,11 +78,11 @@ Every time you create a new marketing page, you must fill out the required field
 
 - **Name**: Enter a name for the page that you can easily recognize later. This name is internal-only.
 - **Type**: Choose the [type of page](#page-types) you are making. Each type has different requirements and options.
-- **Partial URL**: When you publish the page, this value becomes part of its URL. The page will be published on your Dynamics 365 Portal, so the final URL for the page will have the form: **https://*&lt;YourOrg&gt;*.microsoftcrmportals.com/*&lt;PartialURL&gt;***. Enter a suitable partial URL (note that contacts might notice this text when they load your page).
+- **Partial URL**: When you publish the page, this value becomes part of its URL. The page will be published on your Power Apps portal, so the final URL for the page will have the form: **https://*&lt;YourOrg&gt;*.microsoftcrmportals.com/*&lt;PartialURL&gt;***. Enter a suitable partial URL (note that contacts might notice this text when they load your page).
 
 (These settings are also available on the **Summary** tab.)
 
-![Required fields for a new page](media/page-required-fields.png "Required fields for a new page")
+![Required fields for a new page.](media/page-required-fields.png "Required fields for a new page")
 
 Select **Save** on the command bar after you've finished making these settings.
 
@@ -98,12 +94,14 @@ After choosing a template, you'll be in the page content designer, which resembl
 
 - When you select a design element on the canvas, you'll usually see a pop-up toolbar just above the element. The tools it offers vary depending on which type of design element you've selected. The toolbar typically provides commands to move, copy, or delete the selected element. For text elements, the toolbar offers commands for applying basic text formatting as you would in Microsoft Word.
 
-- To style the overall page with basic fonts, colors, and background, open the **Content** > **Designer** > **Styles** tab.
+- To style the overall page with basic fonts, colors, and background, select anywhere in the background of your marketing page in the designer. After you select the background, the **Properties** tab will display **General layout** options.
+
+    ![General layout options.](media/marketing-pages-general-layout2.png "General layout options")
 
 - Use the **Designer** > **HTML** tab to edit the raw HTML directly. You might use this to paste in an existing HTML design, or to fine-tune the code in ways the graphical editor doesn't support (such as custom attributes or logic).
 
 > [!IMPORTANT]
-> The HTML code for marketing pages published to the portal must be less than 64 KB in size (not including placed images or imported scripts). You'll get an error if you try to publish designs that are larger than this.
+> HTML code for marketing pages published to the portal must be less than the maximum size of the **adx_copy** attribute of the **adx_webpage** portal entity, not including images or imported scripts. If you attempt to publish designs larger than the maximum size of the **adx_copy** attribute, you will receive an error message.
 
 More information: [Design your digital content](design-digital-content.md)
 
@@ -163,3 +161,6 @@ Administrators can choose settings that control several aspects of the way all m
 [Upload and use images and files](upload-images-files.md)  
 [How Dynamics 365 Marketing uses cookies](cookies.md)  
 [Go live with publishable entities and track their status](go-live.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

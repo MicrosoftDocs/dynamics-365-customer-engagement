@@ -3,11 +3,11 @@ title: "Sample: Add a record to a queue (early bound) | MicrosoftDocs"
 description: The sample code demonstrates how to add a record to a queue, and creates source and destination queues.
 ms.custom: 
 ms.date: 01/08/2020
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
@@ -20,8 +20,6 @@ ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 # Sample: Add a record to a queue (early bound)
 
@@ -64,3 +62,6 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 ### Clean up
 
 Display an option to delete the sample data that is created in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

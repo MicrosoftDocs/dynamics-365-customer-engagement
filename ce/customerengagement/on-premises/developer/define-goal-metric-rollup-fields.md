@@ -3,8 +3,8 @@ title: "Define goal metric and rollup fields (Developer Guide for Dynamics 365 C
 description: "To specify the goal metric type, participating entities, and whether you track actuals, custom or in-progress data, use the goal metric entity (Metric) and the rollup field (RollupField) entity"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -29,8 +29,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Define goal metric and rollup fields
 
@@ -49,7 +48,7 @@ To specify the goal metric type, participating entities, and whether you track a
   
  Each goal can track actual, in-progress, and custom data as shown in the following diagram.  
   
- ![Goal types](media/goal-types.png "Goal types")  
+ ![Goal types.](media/goal-types.png "Goal types")  
   
  To track actual, in-progress, and custom data, you use the goal entity attributes, referred to as rollup fields. For example, if an opportunity is closed as “Won”, an amount of revenue generated from this opportunity can be rolled into the actual money amount rollup field. Or, if an opportunity is “Open”, the opportunity’s estimated revenue can be added to the in-progress money amount rollup field. The following table lists the relationship between the goal metric type and the rollup fields available for each type.  
   
@@ -80,3 +79,6 @@ To specify the goal metric type, participating entities, and whether you track a
 ### See also  
  [Goal Management Entities](goal-management-entities.md)   
  [Add Complex Goal Criteria](add-complex-goal-criteria.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

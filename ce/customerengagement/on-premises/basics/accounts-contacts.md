@@ -1,7 +1,8 @@
 ---
-title: "Work with accounts and contacts (Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
-ms.date: 08/11/2018
-ms.service: crm-online
+title: "Create and edit accounts and contacts in Dynamics 365 Customer Engagement (on-premises)"
+description: "Account and contact records store information that you and your team collect from your customers. Learn how to create, view, and edit contacts and accounts."
+ms.date: 05/05/2020
+ms.prod: d365ce-op
 ms.topic: get-started-article
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
@@ -10,8 +11,7 @@ author: mduelae
 ms.author: shujoshi
 search.audienceType: 
   - enduser
-search.app: 
-  - D365CE
+
 searchScope:
   - D365-App-*
   - D365-Entity-account
@@ -23,7 +23,7 @@ searchScope:
 Account and contact records store much of the information that you and your team collect from your customers.
 You store data about companies you do business with in accounts. Similar to Microsoft Office Outlook or other email programs, you store data about the people you know and work with in contacts.
 
-Usually, an account has more than one contact associated with it, especially when you’re working with a larger company with many departments or locations and you deal with several people to manage the account.
+Usually, an account has more than one contact associated with it, especially when you're working with a larger company with many departments or locations and you deal with several people to manage the account.
  
 ## Create an account  
   
@@ -47,9 +47,9 @@ Usually, an account has more than one contact associated with it, especially whe
   
 1. [!INCLUDE[proc_contacts](../includes/proc-contacts.md)]  
   
-2. You’ll see a list of your active contacts. [!INCLUDE[proc_need_to_scroll](../includes/proc-need-to-scroll.md)]  
+2. You'll see a list of your active contacts. [!INCLUDE[proc_need_to_scroll](../includes/proc-need-to-scroll.md)]  
   
-3. Select a person’s name to see the details for the contact.  
+3. Select a person's name to see the details for the contact.  
   
 ## Create a contact  
   
@@ -74,3 +74,6 @@ Usually, an account has more than one contact associated with it, especially whe
  [Import contacts](../basics/import-contacts.md)    
  [Deactivate or activate an account or contact](../basics/deactivate-activate-account-contact.md)   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

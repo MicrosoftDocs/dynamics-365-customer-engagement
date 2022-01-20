@@ -1,19 +1,15 @@
 ---
 title: "Business management settings (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to import data and control how duplicate records are identified in Dynamics 365 Marketing"
-keywords: administration; import; export; duplicate detection
-ms.date: 04/01/2018
+description: "Learn how to import, export, and clean data in Dynamics 365 Marketing."
+ms.date: 03/25/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 9c480d38-9c4a-4875-a115-d064a9b327f4
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -25,7 +21,7 @@ search.app:
 
 # Business management settings
 
-This topic describes what you can do when working in the **Advanced Settings** > **Business Management** section of the **Settings** work area.
+This topic describes what you can do when working in the **Advanced Settings** > **Business Management** section of the **Settings** menu ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") at the top of the page.
 
 <a name="import"></a>
 
@@ -38,7 +34,7 @@ Dynamics 365 Marketing processes imports in the background. After an import is c
 Data can be imported from:
 
 - Most list views
-- The **Settings** > **Advanced settings** > **Business management** > **Import data** settings page
+- The **Settings** ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") > **Advanced settings** > **Business management** > **Import data** settings page
 
 When you import data while working in the **Settings** work area, you must select the entity you want to import to (such as a lead or contact).
 
@@ -55,7 +51,7 @@ When you export a template, a ready-made workbook with column headings matching 
 Data and templates can be exported from:
 
 - Most list views
-- The **Settings** > **Advanced settings** > **Business management** > **Export data** page
+- The **Settings** ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") > **Advanced settings** > **Business management** > **Export data** page
 
 When you export data or templates while working in the **Settings** work area, you must select the entity you want to export (such as a lead or contact). You can also choose the view that will be used for exporting. If you don't choose a view, the default view is selected, and the data or template for all the columns in that view are exported.
 
@@ -81,7 +77,7 @@ If any of these rules are deleted, duplicate detection won't work as expected.
 
 If duplicate detection is disabled, duplicates won't be detected. To enable duplicate detection:
 
-1. Go to **Settings** > **Advanced Settings** > **Business Management** > **Duplicate Detection**.
+1. Go to **Settings** ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") > **Advanced Settings** > **Business Management** > **Duplicate Detection**.
 1. Select **Enable**.
 
 ### When does duplicate detection happen?
@@ -109,3 +105,6 @@ All the duplicate detection rules will be unpublished in the back end.
 [Manage Excel templates](manage-excel-templates.md)  
 [Manage Word templates](manage-word-templates.md)  
 [Export data](export-data-Word-Excel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

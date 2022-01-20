@@ -3,11 +3,11 @@ title: "Sample: Distribute campaign activities to dynamic and static lists (Deve
 description: "The sample code demonstrates how to create a dynamic marketing list, copy it to the static marketing list, and distribute campaign activities to the members of the marketing lists."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
@@ -20,8 +20,6 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 # Sample: Distribute campaign activities to dynamic and static lists
 
@@ -67,3 +65,6 @@ Display an option to delete the records created in the [Setup](#setup). The dele
  <xref:Microsoft.Crm.Sdk.Messages.AddItemCampaignActivityRequest>   
  <xref:Microsoft.Crm.Sdk.Messages.CopyDynamicListToStaticRequest>   
  <xref:Microsoft.Crm.Sdk.Messages.DistributeCampaignActivityRequest>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,10 +1,10 @@
 ---
-title: "Design considerations for main forms | MicrosoftDocs"
-description: "Learn how to design main forms"
+title: "Design considerations for main forms in Dynamics 365 Customer Engagement (on-premises)"
+description: "There are several important factors to consider when designing main forms, including optimization for certain groups and differences in presentation."
 ms.custom: 
 ms.date: 11/03/2018
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -18,12 +18,11 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
-# Design considerations for main forms
+# Factors to consider when designing main forms
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Design considerations for model-driven app main forms](/powerapps/maker/model-driven-apps/design-considerations-main-forms)
 
 Main forms are the primary user interface where people view and interact with their data. Main forms provide the widest range of options and are available for custom business apps, the exception being [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobile-express-long.md)].  
   
@@ -65,3 +64,6 @@ Main forms are the primary user interface where people view and interact with th
  [Main form presentations](../customize/main-form-presentations.md)   
  [Optimize form performance](../customize/optimize-form-performance.md)   
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

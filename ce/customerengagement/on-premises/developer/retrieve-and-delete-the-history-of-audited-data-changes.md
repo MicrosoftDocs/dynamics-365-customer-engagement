@@ -4,7 +4,7 @@ description: "Programmatically retrieve the audit change history or delete audit
 ms.custom: audit
 ms.date: 03/29/2019
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -26,8 +26,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Retrieve and delete the history of audited data changes
 
@@ -61,3 +60,6 @@ Refer to the sample link at the end of this topic for sample code that demonstra
  [Sample: Audit Entity Data Changes](sample-audit-entity-data-changes.md)<br />
 <!-- Bug 696490 should make the Audit entity public again: [Audit Entity](entities/audit.md)<br /> -->
  [Auditing Entity Data Changes in Dynamics 365 Customer Engagement (on-premises)](audit-entity-data-changes.md)<br />
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

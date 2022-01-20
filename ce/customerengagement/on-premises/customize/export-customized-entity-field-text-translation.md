@@ -1,10 +1,10 @@
 ---
-title: "Export customized entity and field text for translation | MicrosoftDocs"
-description: "Learn how to export entity and field text for translation"
+title: "Translate entity and field text in Dynamics 365 Customer Engagement (on-premises)"
+description: "After creating customized entity and field text, you may want to translate it into other languages. Follow these steps to export the text and translate it."
 ms.custom: 
 ms.date: 11/04/2018
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -18,12 +18,11 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Translate customized entity and field text into other languages
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Translate customized entity, form, and field text into other languages](/powerapps/maker/common-data-service/export-customized-entity-field-text-translation)
 
 After you create customized entity and field text, you may want to translate it into other languages.  
   
@@ -47,3 +46,6 @@ After you create customized entity and field text, you may want to translate it 
 
 ### See also  
  [Import translated entity and field text](../customize/import-translated-entity-field-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

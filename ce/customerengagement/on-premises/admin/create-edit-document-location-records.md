@@ -1,9 +1,10 @@
 ---
-title: "Create or edit document location records  | MicrosoftDocs"
+title: "Create SharePoint document locations in Dynamics 365 Customer Engagement (on-premises)"
+description: "Follow these steps to create document location records in Customer Engagement (on-premises) to point to document libraries and folders in SharePoint."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,11 +18,9 @@ ms.author: matp
 manager: brycho
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
-# Create or edit document location records
+# Create or edit SharePoint document location records
 
 [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] document locations are records in Dynamics 365 Customer Engagement (on-premises) that point to a [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] document library or folder.  
   
@@ -49,7 +48,7 @@ search.app:
   
      - Select **Relative URL**. In **Relative URL**, to create a relative document location to the existing site or document location record, select the existing [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] site or document location record. In the second box, enter the name of the [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] folder.  
   
-   - **Regarding**. Choose the **Lookup** button ![Lookup button](../admin/media/lookup-button-4.gif "Lookup button"). In the **Look Up Record** dialog box, in the **Look for** list, select the type of records you want to find. search and select the record for which you want to create the location record in Customer Engagement (on-premises), and choose **OK**.  
+   - **Regarding**. Choose the **Lookup** button ![Lookup button.](../admin/media/lookup-button-4.gif "Lookup button"). In the **Look Up Record** dialog box, in the **Look for** list, select the type of records you want to find. search and select the record for which you want to create the location record in Customer Engagement (on-premises), and choose **OK**.  
   
 5. Choose **Save and Close**.  
   
@@ -57,3 +56,6 @@ search.app:
 >  To activate or deactivate a document location, on the **Document Locations** page, select the document location record, and choose **Activate** or **Deactivate**.  
   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

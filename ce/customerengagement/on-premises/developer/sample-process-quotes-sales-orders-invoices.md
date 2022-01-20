@@ -5,9 +5,10 @@ ms.custom:
 ms.date: 01/02/2020
 ms.reviewer: 
 ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
@@ -21,8 +22,6 @@ ms.author: kvivek
 manager: annbe
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 # Sample: Process quotes, sales orders and invoices
 
@@ -48,3 +47,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  <xref:Microsoft.Crm.Sdk.Messages.ConvertQuoteToSalesOrderRequest>   
  <xref:Microsoft.Crm.Sdk.Messages.UnlockSalesOrderPricingRequest>   
  <xref:Microsoft.Crm.Sdk.Messages.LockSalesOrderPricingRequest>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

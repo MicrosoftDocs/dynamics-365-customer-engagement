@@ -1,9 +1,10 @@
 ---
-title: "Move data across instances and organizations | MicrosoftDocs"
+title: "Configuration Migration tool in Dynamics 365 Customer Engagement (on-premises)"
+description: "The Configuration Migration tool lets you move configuration data across instances and organizations. Follow the tips for using and troubleshooting the tool."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,9 +18,7 @@ ms.author: jimholtz
 manager: kvivek
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # Move configuration data across instances and organizations with the Configuration Migration tool
 
@@ -53,3 +52,6 @@ The Configuration Migration tool enables you to move configuration data across D
 The first step is to download the Configuration Migration tool: [Download tools from NuGet](../developer/download-tools-nuget.md).
 
 Detailed documentation about using the tool is available in the Power Platform Admin Guide as the same tool can be used by Customer Engagement (on-premises) users: [Move configuration data](/power-platform/admin/manage-configuration-data)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

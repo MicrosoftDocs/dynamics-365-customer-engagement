@@ -1,9 +1,10 @@
 ---
-title: "Publish reports (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Publish a report in Dynamics 365 Customer Engagement (on-premises)"
+description: "Make reports available to users by publishing reports using the web application. Determine where the report will appear and define default filters."
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 06/28/2021
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -18,10 +19,9 @@ tags:
   - MigrationHO
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
-# Publish reports
+# Publish reports using the web application
 
 To make reports available to users, publish the reports.  
   
@@ -75,3 +75,6 @@ To make reports available to users, publish the reports.
 ### See also  
  [Reporting and Analytics Guide](reporting-analytics-with-dynamics-365.md)   <br />
 [Best practices for reports](best-practices-reports.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

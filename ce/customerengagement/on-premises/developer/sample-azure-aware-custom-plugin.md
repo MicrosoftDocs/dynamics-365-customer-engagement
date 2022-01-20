@@ -3,11 +3,11 @@ title: "Sample: Azure aware custom plug-in | MicrosoftDocs"
 description: "The plug-in demonstrates how to obtain the execution context and the tracing service from the service provider parameter of the Execute method. The plug-in then posts the context to the Azure Service Bus endpoint and writes information to the trace log to facilitate debugging."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
@@ -19,8 +19,6 @@ ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 
 # Sample: Azure aware custom plug-in
@@ -35,3 +33,5 @@ The plug-in demonstrates how to obtain the execution context and the tracing ser
 
 >[!NOTE]
 > This sample requires a service endpoint to be created first, and its ID passed to the plug-in constructor through the unsecure configuration parameter when the plug-in step is registered.
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

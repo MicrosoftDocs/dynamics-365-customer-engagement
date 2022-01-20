@@ -1,24 +1,13 @@
 ---
-title: "Submit and approve time-off requests | MicrosoftDocs"
-ms.custom: 
-  - dyn365-fieldservice
+title: "Submit and approve time-off requests in Dynamics 365 Field Service | MicrosoftDocs"
+description: Learn how to submit and approve time-off requests in Dynamics 365 Field Service
 ms.date: 01/16/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.technology: 
-  - field-service
-ms.tgt_pltfrm: 
+ms.service: dynamics-365-field-service
 ms.topic: article
 author: FieldServiceDave
-ms.assetid: 7fac64e1-2816-415a-b45f-b1a1aa9fc68f
-caps.latest.revision: 18
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
 search.app: 
   - D365CE
   - D365FS
@@ -43,7 +32,7 @@ Go to **Resource Scheduling** > **Resources** then edit a bookable resource.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a bookable resource with the "Time Off Approval Required" field set to yes](./media/time-off-resource.png)
 
-Set **Time Off Approval Required** to *Yes* if the time-off needs to be approved in order to take effect, or *No* if it should take effect immediately once the time-off is submitted. This value is *No* by default.
+Set **Time-Off Approval Required** to *Yes* if the time-off needs to be approved in order to take effect, or *No* if it should take effect immediately once the time-off is submitted. This value is *No* by default.
 
 ## Submit a time-off request  
 
@@ -54,7 +43,7 @@ On the **Active Time Off Request** screen, select **New**.
 Use the tooltips to help fill in your information, and then select **Save**.  
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a time-off request](./media/time-off-request.png)
+> ![Screenshot of a time-off request.](./media/time-off-request.png)
 
 
 ## Approve a time-off request  
@@ -65,14 +54,14 @@ Log into Field Service as a user with the correct security role to approve time 
 
 From the main menu, go to **Field Service** > **Time Off Requests**.
 
-From the list of views, select the arrow, then select **Active Time Off Requests**. This shows a list of unapproved time-off requests.
+From the list of views, select the arrow, then select **Active Time Off Requests**, which shows a list of unapproved time-off requests.
 
 To approve a request, select it, and in the command bar at the top, select **Approve**.
 
 When the approval is completed, select **OK**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of active time-off requests, with attention to the approve option](./media/time-off-approve.png)
+> ![Screenshot of active time-off requests, with attention to the approve option.](./media/time-off-approve.png)
 
 Approved time-off requests will change to a status of *Inactive*. Inactive records can be found in the **Inactive Time Off Requests** view. Additionally, time off requests will show in the resource's calendar along with their normal working hours.
 
@@ -82,9 +71,9 @@ Approved time-off requests will change to a status of *Inactive*. Inactive recor
 Once the time-off request is created or approved, depending on whether the resource requires approval or not, the resource's time-off time range will show as unavailable on the schedule board.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board showing time-off greyed out](./media/time-off-schedule-board.png)
+> ![Screenshot of the schedule board showing time-off greyed out.](./media/time-off-schedule-board.png)
 
-This is displayed and treated the same as non-working hours.
+These time-off hours are displayed and treated the same as non-working hours.
 
 ## Edit and delete a time-off request
 
@@ -97,7 +86,7 @@ To **edit**, double-click the time-off that was created when the time-off reques
 To **delete**, select and highlight the time-off and select the delete icon.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the monthly view of a resource's work hours, pointing to the delete option](./media/time-off-delete.png)
+> ![Screenshot of the monthly view of a resource's work hours, pointing to the delete option.](./media/time-off-delete.png)
 
 > [!Note]
 > Deleting a time-off request record will not delete the time-off from the schedule board or resource's calendar.
@@ -110,3 +99,6 @@ To **delete**, select and highlight the time-off and select the delete icon.
     
 - [Set up bookable resources](../field-service/set-up-bookable-resources.md)   
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

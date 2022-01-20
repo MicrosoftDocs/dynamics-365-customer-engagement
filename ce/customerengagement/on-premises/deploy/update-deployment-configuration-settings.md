@@ -1,8 +1,9 @@
 ---
 title: "Update deployment configuration settings | Microsoft Docs"
+description: Learn how to change the deployment configuration settings in Dynamics 365 Customer Engagement (on-premises) 
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: "crm-2016"
+ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -16,8 +17,6 @@ author: Mattp123
 manager: kvivek
 ---
 # Update deployment configuration settings
-
-
 
 You can use the `Microsoft.Crm.PowerShell.Get-CrmSetting` and `Microsoft.Crm.PowerShell.Set-CrmSetting` cmdlets to retrieve and update many different settings properties for your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] deployment. The `Get-CrmSetting` cmdlet retrieves a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] deployment setting object, such as `IfdSettings`. The `Set-CrmSetting` cmdlet updates the deployment setting.  
   
@@ -262,3 +261,6 @@ You can use the `Microsoft.Crm.PowerShell.Get-CrmSetting` and `Microsoft.Crm.Pow
  [Administer the deployment using Windows PowerShell](administer-the-deployment-using-windows-powershell.md) </br>
  [Microsoft Dynamics 365 (on-premises) PowerShell Reference](/powershell/module/microsoft.crm.powershell/?view=dynamics365ce-ps)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

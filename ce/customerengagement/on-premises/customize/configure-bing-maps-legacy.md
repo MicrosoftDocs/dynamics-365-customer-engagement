@@ -1,9 +1,10 @@
 ---
-title: "Configure Bing maps in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+title: "Show Bing Maps on forms in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how to enable Bing Maps to be displayed on a form, and configure properties such as labels and formatting."
 ms.custom: 
 ms.date: 01/31/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -16,12 +17,11 @@ author: Mattp123
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
-# Configure Bing maps
+# Configure Bing Maps to be displayed on forms
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Configure a map on a form](/powerapps/maker/model-driven-apps/configure-bing-maps-legacy)
 
  Bing Maps can be displayed on a form for the account, contact, lead, quote, order, invoice, competitor, and system user entities. You can remove the Bing Maps area in the form editor or add it back by using the **Bing Maps** button on the **Insert** tab of the form editor.  
 
@@ -41,3 +41,6 @@ search.app:
 ## See also
 
 [Use the Main form and its components](../customize/use-main-form-and-components.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -30,3 +30,6 @@ ms.author: matp
   
 4.  On the **General** tab, in the **Startup type** list, select **Automatic**, and then select **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

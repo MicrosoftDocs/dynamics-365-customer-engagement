@@ -3,7 +3,7 @@ title: "Sample: Create and update records with related records (early bound) (De
 description: "This sample shows how to create and update a record and related records in one call by using the IOrganizationService.Entity) and IOrganizationService. Entity) methods"
 keywords: 
 ms.date: 01/08/2020
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.topic: samples
 applies_to: 
@@ -12,7 +12,7 @@ ms.assetid: 72eeafd8-8dd5-40af-9e3d-575534d60f61
 author: JimDaly
 ms.author: jdaly
 manager: jdaly
-ms.reviewer: "pehecke"
+ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 
 helpviewer_keywords: 
@@ -24,8 +24,7 @@ caps.latest.revision: 21
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Sample: Create and update records with related records (early bound)
@@ -63,3 +62,5 @@ Checks for the current version of the org.
 ### Clean up
 
 Display an option to delete the records created in the [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

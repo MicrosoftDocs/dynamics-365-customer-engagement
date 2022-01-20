@@ -1,8 +1,9 @@
 ---
 title: "Using Windows PowerShell to perform Deployment Manager tasks | Microsoft Docs"
+description: Learn how to get started to use the PowerShell commands for Dynamics 365 Customer Engagement (on-premises)
 ms.custom: 
 ms.date: 10/01/2018
-ms.prod: crm-2016
+ms.prod: d365ce-op
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -16,8 +17,6 @@ ms.author: matp
 manager: kvivek
 ---
 # Using Windows PowerShell to perform Deployment Manager tasks
-
-
 
 You can use [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlets to perform many of the tasks that can be performed by using the [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)] user interface.  
   
@@ -35,21 +34,25 @@ You can use [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] cmdlets to p
 PS > Add-PSSnapin Microsoft.Crm.PowerShell   
 ```  
   
- This command adds the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] snap-in to the current session. The snap-in is registered during installation and setup of the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server.  
+This command adds the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] snap-in to the current session. The snap-in is registered during installation and setup of the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server.  
   
  Here’s how to get a list of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] cmdlets.  
   
 ```  
 Get-Help *Crm*  
 ```  
+
+For detailed help for a specific a cmdlet, use Get-Help *CRMCmdlet* –full, such as the `Import-CRMOrganization` cmdlet.  
   
- For detailed help for a specific a cmdlet, use Get-Help *CRMCmdlet* –full, such as the `Import-CRMOrganization` cmdlet.  
-  
+```
+Get-Help Import-CRMOrganization
 ```  
-Get-Help Import-CRMOrganization  
-```  
-  
-## See also  
+
+### See also
+
  [Use Deployment Manager to manage the deployment](use-deployment-manager-to-manage-the-deployment.md)   
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

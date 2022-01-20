@@ -3,11 +3,11 @@ title: "Sample code for Dynamics 365 Customer Engagement (on-premises) processes
 description: "This section contains code examples that show how to use the workflow (process) entity"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
@@ -19,8 +19,6 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 # Sample code for Dynamics 365 Customer Engagement (on-premises) processes
 
@@ -41,3 +39,6 @@ This section contains code examples that show how to use the workflow (process) 
   
 ## Related Sections  
  [Write Workflows to Automate Business Processes](automate-business-processes-customer-engagement.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

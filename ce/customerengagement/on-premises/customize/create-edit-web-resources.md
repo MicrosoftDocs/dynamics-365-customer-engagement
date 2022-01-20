@@ -1,10 +1,10 @@
 ---
-title: "Create or edit web resources in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to create or edit a web resource"
+title: "Create web resources in Dynamics 365 Customer Engagement (on-premises)"
+description: "App makers use web resources to extend an app with virtual files. This page walks you through how to create a web resource or edit an existing one."
 ms.custom: 
 ms.date: 10/29/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,10 +17,11 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Create or edit web resources to extend an app
+
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Create or edit model-driven app web resources to extend an app](/powerapps/maker/model-driven-apps/create-edit-web-resources)
 
 Web resources are typically used by developers to extend an app using files that are used in web development. App users may need to manage web resources provided by a developer or designer.  
 
@@ -156,3 +157,6 @@ Web resources are virtual files in multiple formats, such as html files, [!INCLU
 [Create and design forms](create-design-forms.md) <br />
 [Get started with customization](../customize/getting-started-customization.md) <br /> 
 [Web resources for Customer Engagement](../developer/web-resources.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

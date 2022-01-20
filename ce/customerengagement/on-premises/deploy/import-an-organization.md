@@ -1,8 +1,9 @@
 ---
 title: "Import an organization | Microsoft Docs"
+description: Learn how to import an organization in Dynamics 365 Customer Engagement (on-premises)
 ms.custom: 
 ms.date: 10/01/2018
-ms.prod: crm-2016
+ms.prod: d365ce-op
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -96,3 +97,6 @@ You can import an existing [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcr
  [Manage organizations](manage-organizations.md)   </br>
  [Troubleshoot organization import and upgrade issues](troubleshoot-organization-import-and-upgrade-issues.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

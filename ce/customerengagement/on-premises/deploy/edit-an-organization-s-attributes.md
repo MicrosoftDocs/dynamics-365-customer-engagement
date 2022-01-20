@@ -1,8 +1,9 @@
 ---
 title: "Edit an organization's attributes | Microsoft Docs"
+description: Learn how to edit organization attributes in Dynamics 365 Customer Engagement (on-premises)
 ms.custom: 
 ms.date: 10/01/2018
-ms.prod: crm-2016
+ms.prod: d365ce-op
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -59,3 +60,6 @@ Before you can edit an organization, you must disable it. After you make the cha
  [Disable or enable a server](disable-or-enable-a-server.md)   
  [Manage servers](manage-servers.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

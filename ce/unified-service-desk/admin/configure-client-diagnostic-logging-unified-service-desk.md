@@ -1,28 +1,29 @@
 ---
-title: "Configure client diagnostic logging in Unified Service Desk  | MicrosoftDocs"
-description: "Learn how to set client diagnostic logging."
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+title: "Configure client diagnostic logging in Unified Service Desk | MicrosoftDocs"
+description: "Learn to configure client diagnostic logging, and also understand the logging sources and levels that you can use in Unified Service Desk. "
 ms.date: 12/31/2019
-ms.service: 
-  - dynamics-365-customerservice
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 tags: MigrationHO
 ---
 
-# Client diagnostic logging overview
+# How you can configure client diagnostic logging
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 There are two ways you can configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client diagnostic logging:  
 
-- By using an Audit & Diagnostics Settings record that is created and managed in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] area of the Common Data Service platform.  
+- By using an Audit & Diagnostics Settings record that is created and managed in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] area of Microsoft Dataverse.  
 
 - By manually making changes to the UnifiedServiceDesk.exe.config file. This file must then be distributed to every desktop where you want [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client diagnostic logging.  
 
@@ -124,8 +125,8 @@ There are two ways you can configure [!INCLUDE[pn_unified_service_desk](../../in
 |                         EventTopicSwitch                          |                                                                          Detailed [!INCLUDE[pn_user_inteface_integration_uii](../../includes/pn-user-interface-integration-uii.md)] logging source for monitoring messaging traffic inside UII.                                                                           |
 |                   Microsoft.Uii.Common.Logging                    |                                                                                                                                   General UII Log source for messages reported by UII.                                                                                                                                    |
 |              Microsoft.Xrm.Tooling.CrmConnectControl              |                                                          Log source for the sign-in process. This source will report general or detailed diagnostics information about the sign-in procedure.                                                           |
-|         Microsoft.Xrm.Tooling.Connector.CrmServiceClient          |                                     Log source for all the Common Data Service platform data-level interactions. This source will report all interactions with the Common Data Service platform, exceptions and timings.                                      |
-|             Microsoft.Xrm.Tooling.WebResourceUtility              |                                                                                           Log source for requests for Web Resource data via the Common Data Service platform interface link.                                                                                            |
+|         Microsoft.Xrm.Tooling.Connector.CrmServiceClient          |                                     Log source for all Dataverse data-level interactions. This source will report all interactions with Dataverse, exceptions and timings.                                      |
+|             Microsoft.Xrm.Tooling.WebResourceUtility              |                                                                                           Log source for requests for Web Resource data via Dataverse interface link.                                                                                            |
 |                 Microsoft.Crm.UnifiedServiceDesk                  |                            Log source for core [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] functionality.  This log source will report actions and events that are core to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].                             |
 |             Microsoft.Crm.UnifiedServiceDesk.Dynamics             |     Log source for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] boot strap and loading processor. This source will report actions and events that are part of initializing and starting the UII and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].     |
 | Microsoft.Crm.UnifiedServiceDesk.CommonUtility.UserProfileManager | Log source for actions that interact with the UserProfile system; this is part of the caching system. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure client caching for your agent application](../../unified-service-desk/admin/configure-client-caching-unified-service-desk.md) |
@@ -150,13 +151,13 @@ There are two ways you can configure [!INCLUDE[pn_unified_service_desk](../../in
 ## Diagnostic log listeners  
  Diagnostics log listeners are used to target the diagnostic log output to files, the event log, or other sources. By default, all diagnostic sources are wired to both the default (Debugger) and file (text) listeners. You can configure additional log listeners for diagnostic logging for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. For more information about the .NET default listeners, see:  
 
-- [MSDN:DefaultTraceListener](https://msdn.microsoft.com/library/8fdtceh6.aspx)  
+- [MSDN:DefaultTraceListener](/dotnet/api/system.diagnostics.defaulttracelistener)  
 
-- [MSDN:EventLogTraceListener](https://msdn.microsoft.com/library/2s3yhxyf.aspx)  
+- [MSDN:EventLogTraceListener](/dotnet/api/system.diagnostics.eventlogtracelistener)  
 
-- [MSDN:TextWriterTraceListener](https://msdn.microsoft.com/library/d1ckdta4.aspx)  
+- [MSDN:TextWriterTraceListener](/dotnet/api/system.diagnostics.textwritertracelistener)  
 
-  You can also create custom listeners to send diagnostic logs to a location you pick. Custom listeners are created by deriving a class from the [MSDN:TraceListener](https://msdn.microsoft.com/library/hy72797k.aspx) abstract class. You can find a walkthrough of the process on [CodeGuru.com](https://www.codeguru.com/csharp/.net/article.php/c19405/Tracing-in-NET-and-Implementing-Your-Own-Trace-Listeners.htm).  
+  You can also create custom listeners to send diagnostic logs to a location you pick. Custom listeners are created by deriving a class from the [MSDN:TraceListener](/dotnet/api/system.diagnostics.tracelistener) abstract class. You can find a walkthrough of the process on [CodeGuru.com](https://www.codeguru.com/csharp/.net/article.php/c19405/Tracing-in-NET-and-Implementing-Your-Own-Trace-Listeners.htm).  
 
 <a name="View_diagnostic_log"></a>   
 ## Viewing the diagnostic log file  
@@ -221,3 +222,6 @@ StackTrace:   at DemoControl.USDControl.throwExceptionMethod()
  [Debugging support in Unified Service Desk to troubleshoot issues](../../unified-service-desk/admin/troubleshoot-unified-service-desk.md)   
  
  [Debug issues in Unified Service Desk](../../unified-service-desk/debug-issues-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

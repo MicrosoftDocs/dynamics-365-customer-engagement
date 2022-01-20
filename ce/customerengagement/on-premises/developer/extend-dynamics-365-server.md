@@ -3,8 +3,8 @@ title: "Extend Dynamics 365 Customer Engagement (on-premises) on the server (Dev
 description: "The section describes capabilities to extend Dynamics 365 Customer Engagement (on-premises) on the server. Compared to extensions you can apply on the client, extensions performed on the server are applied consistently regardless of the client application used to interact with the platform."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -28,8 +28,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Extend Dynamics 365 Customer Engagement (on-premises) on the server
 
@@ -63,3 +62,6 @@ This section describes capabilities to extend Dynamics 365 Customer Engagement (
   
  [Integrate Dynamics 365 Customer Engagement (on-premises) with OneNote](integration-dev/integrate-onenote.md)    
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,13 +1,9 @@
 ---
-title: "Dynamics 365 Channel Integration Framework guide | Microsoft Docs"
-description: "Dynamics 365 Channel Integration Framework is a cloud-to-cloud extensible framework to integrate third-party Computer Telephony Integration (CTI) systems with Dynamics 365 Unified Interface apps using a browser-based JavaScript API library."
-author: susikka
-ms.author: susikka
+title: "Dynamics 365 Channel Integration Framework guide | MicrosoftDocs"
+description: "Use this topic for getting started with Dynamics 365 Channel Integration Framework. Includes download links and Javascript reference."
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
-ms.date: 02/03/2020
-ms.topic: article
-ms.service: 
-  - dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -106,7 +102,7 @@ ms.custom:
 
 <h3> How to </h3>
 
-<li><a href="v2/configure-channel-provider-channel-integration-framework.md" data-raw-source="[Configure a channel provider for your organization](v2/configure-channel-provide-channel-integration-framework.md)">Configure a channel provider for your organization</a></li>
+<li><a href="v2/configure-channel-provider-app-profile-manager.md" data-raw-source="[Configure channel provider using app profile manager](v2/configure-channel-provider-app-profile-manager.md)">Configure channel provider using app profile manager</a></li>
 <li><a href="v2/enable-outbound-communication-clicktoact.md" data-raw-source="[Enable outbound communication (ClickTOAct)](v2/enable-outbound-communication-clicktoact.md)">Enable outbound communication (ClickTOAct)</a></li>
 <li><a href="v2/add-cif-solution-dependent-solution.md" data-raw-source="[Add a Dynamics 365 Channel Integration Framework solution as a dependent solution](v2/add-cif-solution-dependent-solution.md)">Add a Dynamics 365 Channel Integration Framework solution as a dependent solution</a></li>
 <li><a href="v2/authenticate-channel-users.md" data-raw-source="[Authenticate channel users to the channel (widget)](v2/authenticate-channel-users.md)">Authenticate channel users to the channel (widget)</a></li>
@@ -125,7 +121,7 @@ ms.custom:
 <li><a href="v2/reference/microsoft-ciframework-v2.md" data-raw-source="[Microsoft.CIFramework
  methods](v2/reference/microsoft-ciframework-v2.md)">Microsoft.CIFramework</a></li>
 <li><a href="v2/reference/client-side-events.md" data-raw-source="[Client-side events](v2/reference/client-side-events.md)">Client-side events</a>
-<li><a href="v2/reference/entities-attributes/msdyn-ciprovider.md" data-raw-source="[Entity reference](v2/reference/entities-attributes/msdyn-ciprovider.md)">Entity reference</a></li>
+<li><a href="/dynamics365/customer-service/channel-integration-framework/msdyn_channelprovider" data-raw-source="[Entity reference](/dynamics365/customer-service/channel-integration-framework/msdyn_channelprovider)">Entity reference</a></li>
 </td>
 </tr>
 
@@ -133,8 +129,11 @@ ms.custom:
 
 <h2>Related apps & framework</h2>
 
-<a href="https://docs.microsoft.com/dynamics365/customer-service/help-hub" data-raw-source="[Customer Service Hub Help](https://docs.microsoft.com/dynamics365/customer-service/help-hub)">Customer Service Hub Help</a>
+<a href="/dynamics365/customer-service/help-hub" data-raw-source="[Customer Service Hub Help](../help-hub.md)">Customer Service Hub Help</a>
 
-<a href="https://docs.microsoft.com/dynamics365/omnichannel/omnichannel-customer-service-guide" data-raw-source="[Omnichannel for Customer Service Guide](https://docs.microsoft.com/dynamics365/omnichannel/omnichannel-customer-service-guide)">Omnichannel for Customer Service Guide</a>
+<a href="/dynamics365/omnichannel/omnichannel-customer-service-guide" data-raw-source="[Omnichannel for Customer Service Guide](../introduction-omnichannel.md)">Omnichannel for Customer Service Guide</a>
 
-<a href="https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk" data-raw-source="[Unified Service Desk Guide](https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk)">Unified Service Desk Guide</a>
+<a href="/dynamics365/unified-service-desk/unified-service-desk" data-raw-source="[Unified Service Desk Guide](../../unified-service-desk/unified-service-desk.md)">Unified Service Desk Guide</a>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

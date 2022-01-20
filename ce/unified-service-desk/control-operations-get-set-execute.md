@@ -1,14 +1,10 @@
 ---
 title: "Control Operations (Get, Set, Execute) | MicrosoftDocs"
-description: "The operations on a control are executed based on the patterns the automation element exhibits. This topic describes the operations that can be performed on the controls and the default behavior of these operations for the various controls."
-ms.custom: 
-  - dyn365-USD
+description: "Understand the Get, Set, and Execute type of operations that can be performed on controls such as buttons, checkboxes, and menu items."
 ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - customizer
@@ -16,6 +12,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Control Operations (Get, Set, Execute)
 The operations on a control are executed based on the patterns the automation element exhibits. This topic describes the operations that can be performed on the controls and the default behavior of these operations for the various controls.  
@@ -74,3 +72,6 @@ The operations on a control are executed based on the patterns the automation el
 ### See also  
  [UIADDA](../unified-service-desk/uiadda.md)   
  [Use Data Driven Adapters (DDAs)](../unified-service-desk/use-data-driven-adapters-ddas.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,10 +1,10 @@
 ---
-title: "Edit an entity | MicrosoftDocs"
-description: "Learn the different ways that an entity can be edited"
+title: "Edit an entity in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn about ways you can edit entities within Dynamics 365. The degree to which you can edit is determined by the managed properties set of each entity."
 ms.custom: 
 ms.date: 11/03/2018
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -18,12 +18,11 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Edit an entity
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Edit an entity in Power Apps](/powerapps/maker/common-data-service/edit-entities)
 
 <a name="BKMK_EditingEntities"></a>   
 
@@ -98,3 +97,6 @@ You can edit any custom entity that you create. System entities or managed custo
 
 ### See also
 [Create or edit an entity (overview)](create-edit-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

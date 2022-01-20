@@ -1,9 +1,10 @@
 ---
-title: "Add a field to a form in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
+title: "Add field to a form in Dynamics 365 Customer Engagement (on-premises)"
+description: "If a form in Customer Engagement (on-premises) doesn’t meet your business requirements, customize the form by changing existing fields or adding new ones."
 ms.custom: 
 ms.date: 11/08/2018
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -16,12 +17,11 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
-# Add a field to a form 
+# Add a field to a form or edit an existing field
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Add a field to a model-driven app form](/powerapps/maker/model-driven-apps/add-field-form)
 
 If a Dynamics 365 Customer Engagement (on-premises) form doesn’t meet your organization’s business requirements, you can customize the form by changing existing fields or by adding new fields. While it might be simpler to edit the existing fields on a form, sometimes it’s better to add a field to address a specific business scenario.  
   
@@ -53,3 +53,6 @@ If a Dynamics 365 Customer Engagement (on-premises) form doesn’t meet your org
 ### See Also  
  
  [Create and design forms](../customize/create-design-forms.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

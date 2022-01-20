@@ -1,26 +1,17 @@
 ---
-title: "Resource utilization on the schedule board - Universal Resource Scheduling | MicrosoftDocs"
-ms.custom: 
-  - dyn365-fieldservice
+title: "Resource utilization percentage in Universal Resource Scheduling"
+description: "Utilization is the amount of time a resource is scheduled to work. Learn about how it's calculated and displayed on the schedule board."
 ms.date: 08/02/2019
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.service: dynamics-365-field-service
+ms.subservice: common-scheduler
+ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
-ms.author: dabur
+ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
 search.app: 
   - D365CE
   - D365FS
@@ -29,3 +20,6 @@ search.app:
 # Resource utilization on the schedule board in Universal Resource Scheduling
 
 [!INCLUDE[topic-urs-schedule-board-utilization.md](../shared/urs/schedule-board-utilization.md)]
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

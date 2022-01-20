@@ -28,3 +28,6 @@ ms.author: matp
   
  This is a warning and Setup can continue. [!INCLUDE [pn-crm-reporting-extensions-server-side](../includes/pn-crm-reporting-extensions-server-side.md)] Setup will install the [!INCLUDE [pn-crm-reporting-extensions-server-side](../includes/pn-crm-reporting-extensions-server-side.md)] but will not publish the reports for the organizations. Notice that the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] out-of-box reports will not work until they are published.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

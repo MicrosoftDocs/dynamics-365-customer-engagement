@@ -3,8 +3,8 @@ title: "Customization solutions file schema | MicrosoftDocs"
 description: "The following is the schema definition for an import/export customization file from Dynamics 365 Customer Engagement."
 ms.custom: 
 ms.date: 12/24/2018
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -19,8 +19,7 @@ ms.author: jdaly
 manager: annbe
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Customization solutions file schema
 
@@ -2498,3 +2497,6 @@ Download the [Schemas](https://download.microsoft.com/download/B/9/7/B97655A4-4E
  [Create, Install, and Update a Managed Solution](../create-install-update-managed-solution.md)   
  [Create, Export, or Import an Unmanaged Solution](../create-export-import-unmanaged-solution.md)   
  [Customization XML Reference](../customization-xml-reference.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

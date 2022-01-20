@@ -3,8 +3,8 @@ title: "Write a custom Azure-aware plug-in (Developer Guide for Dynamics 365 Cus
 description: "The sample shows how plug-in code can be added to obtain the Azure service provider and initiate posting the execution context to the service bus by calling IExecutionContext)."
 ms.custom: 
 ms.date: 06/16/2018
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Write a custom Azure-aware plug-in
 
@@ -42,7 +41,7 @@ In the following sample plug-in code has been added to obtain the [!INCLUDE[pn_W
 > [!NOTE]
 > The `serviceEndpointId` passed into the constructor in this code is the one you get from creating a service endpoint as described in [Walkthrough: Configure Azure (SAS) for integration with Customer Engagement](walkthrough-configure-azure-sas-integration.md)
 >
-> You can query available service endpoints for your environment using a `GET` request to Web API using your browser with a query like this: *`[organization Uri]`*`/api/data/v9.0/serviceendpoints?$select=name,description,serviceendpointid`
+> You can query available service endpoints for your environment using a `GET` request to Web API using your browser with a query like this: *`[organization Uri]`*`/api/data/v9.1/serviceendpoints?$select=name,description,serviceendpointid`
   
 [!code-csharp[WindowsAzure#SandboxPlugin](../snippets/csharp/CRMV8/windowsazure/cs/sandboxplugin.cs#sandboxplugin)]  
   
@@ -74,3 +73,6 @@ For a plug-in registered to execute asynchronously, the <xref:Microsoft.Xrm.Sdk.
 [Write a plug-in](/powerapps/developer/common-data-service/write-plug-in)<br />
 [Event execution pipeline](/powerapps/developer/common-data-service/event-framework#event-execution-pipeline)<br />
 [Register and Deploy Plug-Ins](register-deploy-plugins.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

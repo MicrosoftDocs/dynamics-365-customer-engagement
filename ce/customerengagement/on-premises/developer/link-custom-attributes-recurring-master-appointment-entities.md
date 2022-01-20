@@ -3,8 +3,8 @@ title: "Link custom attributes of the recurring appointment master and appointme
 description: "Link the custom attributes of the RecurringAppointmentMaster entity with custom attributes of the Appointment entity to automatically copy data."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -23,8 +23,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Link custom attributes of the recurring appointment master and appointment entities
 
@@ -51,3 +50,6 @@ You can link the custom attributes created for the `RecurringAppointmentMaster` 
  [RecurringAppointmentMaster Entity](entities/recurringappointmentmaster.md)   
  [Sample: Link Custom Attributes between Series and Instances](sample-link-custom-attributes-between-series-instances.md)   
  [Customize Entity Attribute Metadata](customize-entity-attribute-metadata.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

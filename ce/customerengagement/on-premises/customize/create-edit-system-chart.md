@@ -1,10 +1,10 @@
 ---
-title: "Create or edit a system chart in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to create or edit a chart"
+title: "Create a system chart in Dynamics 365 Customer Engagement (on-premises)"
+description: "System charts are organization-owned and can’t be assigned or shared. Follow these steps to create a system chart and specify how the data is displayed."
 ms.custom: 
 ms.date: 11/09/2018
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,12 +17,11 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Create or edit a system chart
 
- 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Create a model-driven app system chart](/powerapps/maker/model-driven-apps/create-edit-system-chart) 
 
 System charts are organization-owned charts and can’t be assigned or shared.  
   
@@ -50,3 +49,6 @@ System charts are organization-owned charts and can’t be assigned or shared.
 
 ### See also  
 [Create or edit dashboards](create-edit-dashboards.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,14 +1,10 @@
 ---
-title: "Walkthrough 1  Build a simple agent application in Unified Service Desk  | MicrosoftDocs"
-description: "Demonstrates how to set up a basic agent application from scratch using Unified Service Desk that can connect to the Common Data Service platform."
-ms.custom: 
-  - dyn365-USD
+title: "Walkthrough 1: Build a simple agent application in Unified Service Desk  | MicrosoftDocs"
+description: "Use this walkthrough to understand the prerequisites and procedures for setting up a basic agent application in Unified Service Desk. "
 ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - customizer
@@ -16,15 +12,20 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Walkthrough 1: Build a simple agent application
-This walkthrough demonstrates how to set up a basic agent application from scratch using [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] that can connect to the Common Data Service platform. This agent application provides you with an empty desktop without any functionality, and you can use it when you go through the rest of the walkthroughs in this section. In this walkthrough, you’ll use the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] configuration to filter out existing controls in the "New Environment" sample application package from appearing in your agent application.  
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
+This walkthrough demonstrates how to set up a basic agent application from scratch using [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] that can connect to Microsoft Dataverse. This agent application provides you with an empty desktop without any functionality, and you can use it when you go through the rest of the walkthroughs in this section. In this walkthrough, you’ll use the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] configuration to filter out existing controls in the "New Environment" sample application package from appearing in your agent application.  
   
 ## Prerequisites  
   
-- A [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] package must be deployed on your Common Data Service platform instance, and the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application must already be installed to test the application at the end of the walkthrough. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install, upgrade, and deploy Unified Service Desk](../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)  
+- A [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] package must be deployed on your Dataverse instance, and the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application must already be installed to test the application at the end of the walkthrough. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install, upgrade, and deploy Unified Service Desk](../unified-service-desk/admin/install-upgrade-deploy-unified-service-desk.md)  
   
-- You must have required the Common Data Service platform permissions to configure [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] and access the required the Common Data Service platform entities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Access management in Unified Service Desk](../unified-service-desk/admin/security-unified-service-desk.md)  
+- You must have required Dataverse permissions to configure [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] and access the required Dataverse entities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Access management in Unified Service Desk](../unified-service-desk/admin/security-unified-service-desk.md)  
   
 - You must be familiar with the following concepts in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]:  
   
@@ -50,7 +51,7 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
 ## Step 1: Create the basic hosted controls  
  Create the following three types of hosted control so that the application can connect to an instance of a model-driven app: Connection Manager, Global Manager, and Panel Type.  
   
-1. Sign in to the Common Data Service platform.  
+1. Sign in to the Dynamics 365 instance.  
   
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
   
@@ -66,7 +67,7 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
    |Sort Order|1|  
    |USD Component Type|Connection Manager|  
   
-   ![Connection Manager hosted control](../unified-service-desk/media/crm-itpro-usd-wt01-01.png "Connection Manager hosted control")  
+   ![Connection Manager hosted control.](../unified-service-desk/media/crm-itpro-usd-wt01-01.png "Connection Manager hosted control")  
   
 6. Click **Save**.  
   
@@ -80,7 +81,7 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
    |Sort Order|2|  
    |USD Component Type|Global Manager|  
   
-   ![Global Manager hosted control](../unified-service-desk/media/crm-itpro-usd-wt01-02.png "Global Manager hosted control")  
+   ![Global Manager hosted control.](../unified-service-desk/media/crm-itpro-usd-wt01-02.png "Global Manager hosted control")  
   
 9. Click **Save**.  
   
@@ -96,7 +97,7 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
     |Application is Dynamic|No|  
     |User Can Close|Unchecked|  
   
-    ![Panel Layout hosted control](../unified-service-desk/media/crm-itpro-usd-wt01-03.png "Panel Layout hosted control")  
+    ![Panel Layout hosted control.](../unified-service-desk/media/crm-itpro-usd-wt01-03.png "Panel Layout hosted control")  
   
 12. Click **Save**.  
   
@@ -107,7 +108,7 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
 ## Step 2: Add the hosted controls to a configuration  
  A configuration in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] helps you filter access to components that are displayed in the agent application to a user. In this step, create a configuration, and then add the hosted controls created earlier to the configuration.  
   
-1. Sign in to the Common Data Service platform.  
+1. Sign in to the Dynamics 365 instance.  
   
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
   
@@ -125,7 +126,7 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
   
 9. Select the three hosted controls, click **Select**, and then click **Add**.  
   
-   ![Add the hosted controls to the configuration](../unified-service-desk/media/crm-itpro-usd-wt01-04.PNG "Add the hosted controls to the configuration")  
+   ![Add the hosted controls to the configuration.](../unified-service-desk/media/crm-itpro-usd-wt01-04.PNG "Add the hosted controls to the configuration")  
   
 10. The hosted controls are added to the configuration. Click **Save**.  
   
@@ -139,22 +140,22 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
   
 3. From the search result, click the user name that you want to be assigned to the configuration. The user is added to the configuration. In this case, assign **Randy Blythe** to the configuration. Click **Save**.  
   
-   ![User added to the configuration](../unified-service-desk/media/crm-itpro-usd-wt01-05.png "User added to the configuration")  
+   ![User added to the configuration.](../unified-service-desk/media/crm-itpro-usd-wt01-05.png "User added to the configuration")  
   
 <a name="Step4"></a>   
 ## Step 4: Test the application
  
- Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the Common Data Service platform instance where you configured [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] using the same user credentials that you assigned to the **Contoso Configuration** in the previous step. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connect to a model-driven app instance using the Unified Service Desk client](../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md).  
+ Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the Dynamics 365 instance  where you configured [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] using the same user credentials that you assigned to the **Contoso Configuration** in the previous step. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connect to a model-driven app instance using the Unified Service Desk client](../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md).  
   
  Your agent application will look like the following.  
   
- ![Basic agent application without any controls](../unified-service-desk/media/crm-itpro-usd-wt01-06.png "Basic agent application without any controls")  
+ ![Basic agent application without any controls.](../unified-service-desk/media/crm-itpro-usd-wt01-06.png "Basic agent application without any controls")  
   
  The desktop in the agent application is empty because no other controls were added to **Contoso Configuration** apart from the hosted controls required for setting up a basic agent application. In the rest of the walkthroughs, you’ll see controls appear in the agent application as you progressively configure and add controls to **Contoso Configuration**.  
   
 <a name="Conclusion"></a>   
 ## Conclusion  
- In this walkthrough, you saw how to quickly build a basic agent application that can connect to an instance of the Common Data Service platform. You also learned how to filter access to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] controls using configuration.  
+ In this walkthrough, you saw how to quickly build a basic agent application that can connect to an instance of Dataverse. You also learned how to filter access to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] controls using configuration.  
   
 ### See also  
  [Walkthrough 2: Display an external webpage in your agent application](../unified-service-desk/walkthrough-2-display-an-external-webpage-in-your-agent-application.md)   
@@ -165,3 +166,6 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
  [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md)   
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

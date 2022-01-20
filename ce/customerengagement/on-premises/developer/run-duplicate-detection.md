@@ -3,8 +3,8 @@ title: "Run duplicate detection (Developer Guide for Dynamics 365 Customer Engag
 description: "Execute duplicate detection for a specific record, entity type, or during create or update operations."
 ms.custom: 
 ms.date: 12/15/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -12,13 +12,12 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 08699dd9-623a-4fee-8b2e-fba850cc2a58
 caps.latest.revision: 39
-author: susikka
-ms.author: susikka
+author: phecke
+ms.author: pehecke
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Run duplicate detection
 
@@ -46,7 +45,7 @@ The following example shows how to detect duplicates of a specified record using
 
 **Request**
 ```http
-GET [Organization URI]/api/data/v9.0/RetrieveDuplicates(BusinessEntity=@p1,MatchingEntityName=@p2,PagingInfo=@p3)?@p1={'@odata.type':'Microsoft.Dynamics.CRM.account','accountid':'0d1156d2-1598-e711-80e8-00155db64062'}&@p2='account'&@p3={'PageNumber':1,'Count':50} HTTP/1.1
+GET [Organization URI]/api/data/v9.1/RetrieveDuplicates(BusinessEntity=@p1,MatchingEntityName=@p2,PagingInfo=@p3)?@p1={'@odata.type':'Microsoft.Dynamics.CRM.account','accountid':'0d1156d2-1598-e711-80e8-00155db64062'}&@p2='account'&@p3={'PageNumber':1,'Count':50} HTTP/1.1
 If-None-Match: null
 OData-Version: 4.0
 OData-MaxVersion: 4.0
@@ -60,7 +59,7 @@ Content-Type: application/json; odata.metadata=minimal
 OData-Version: 4.0
 
 {
-    "@odata.context": "[Organization URI]/api/data/v9.0/$metadata#accounts",
+    "@odata.context": "[Organization URI]/api/data/v9.1/$metadata#accounts",
     "value": [
         <Omitted for brevity: JSON data for any matching accounts including all properties>
     ]
@@ -86,7 +85,7 @@ The following example shows how to detect duplicates for an entity type by creat
 
 **Request**
 ```http
-POST [Organization URI]/api/data/v9.0/BulkDetectDuplicates HTTP/1.1
+POST [Organization URI]/api/data/v9.1/BulkDetectDuplicates HTTP/1.1
 If-None-Match: null
 OData-Version: 4.0
 Content-Type: application/json
@@ -114,7 +113,7 @@ Content-Type: application/json; odata.metadata=minimal
 OData-Version: 4.0
 
 {
-    "@odata.context": "[Organization URI]/api/data/v9.0/$metadata#Microsoft.Dynamics.CRM.BulkDetectDuplicatesResponse",
+    "@odata.context": "[Organization URI]/api/data/v9.1/$metadata#Microsoft.Dynamics.CRM.BulkDetectDuplicatesResponse",
     "JobId": "efaff068-7598-e711-80e8-00155db64062"
 }
 ```
@@ -122,7 +121,7 @@ The above request creates an asynchronous duplicate detection job whose JobID is
 
 **Request**
 ```http
-GET [Organization URI]/api/data/v9.0/asyncoperations(efaff068-7598-e711-80e8-00155db64062)/AsyncOperation_DuplicateBaseRecord
+GET [Organization URI]/api/data/v9.1/asyncoperations(efaff068-7598-e711-80e8-00155db64062)/AsyncOperation_DuplicateBaseRecord
 If-None-Match: null
 OData-Version: 4.0
 OData-MaxVersion: 4.0
@@ -155,7 +154,7 @@ Content-Type: application/json; odata.metadata=minimal
 OData-Version: 4.0
 
 {  
-   "@odata.context":"[Organization URI]/api/data/v9.0/$metadata#duplicaterecords",
+   "@odata.context":"[Organization URI]/api/data/v9.1/$metadata#duplicaterecords",
    "value":[  
       {  
          "owninguser":"b3ac4144-6d9a-e711-811c-000d3a75ce72",
@@ -205,5 +204,8 @@ See more on how to detect duplicates during Create and Update operation in [Mana
 ### See also  
  [Duplicate Detection](detect-duplicate-data-for-developers.md)   
  [Enable and disable duplicate detection](enable-disable-duplicate-detection.md)   
- [Use Messages (Request and Response Classes) with the Execute Method](org-service/use-messages-request-response-classes-execute-method.md)   
+ [Use Messages (Request and Response Classes) with the Execute Method](/powerapps/developer/data-platform/org-service/use-messages)   
  [Duplicate Detection Messages](duplicate-detection-messages.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

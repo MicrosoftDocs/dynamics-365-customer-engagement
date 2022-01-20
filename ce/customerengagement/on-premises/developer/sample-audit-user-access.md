@@ -3,9 +3,9 @@ title: "Sample: Audit user access | MicrosoftDocs"
 description: "Sample demonstrating the auditing of user access to records."
 keywords: 
 ms.date: 03/29/2019
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: audit
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: db508858-7386-44f3-9f91-29493e6fe2c4
@@ -22,8 +22,6 @@ helpviewer_keywords:
 topic-status: Drafting
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 
 # Sample: Audit user access
@@ -60,3 +58,6 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 
 Display an option to delete the records created during [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

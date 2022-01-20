@@ -1,12 +1,10 @@
 ---
-title: "Walkthrough 7  Configure agent scripting in your agent application | MicrosoftDocs"
-description: 
-ms.date: 12/31/2019
-ms.service: 
-  - "dynamics-365-customerservice"
+title: "Walkthrough 7: Configure agent scripting for Unified Interface apps | MicrosoftDocs"
+description: "Use this walkthrough to understand the prerequisites and procedures for configuring agent scripting in Unified Interface apps."
+ms.date: 06/25/2020
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - customizer
@@ -16,7 +14,10 @@ search.app:
   - D365USD
 ---
 
-# Walkthrough 7: Configure agent scripting in your agent application
+# Walkthrough 7: Configure agent scripting in agent applications
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] helps to guide your agents during customer interaction. This walkthrough demonstrates how to create a simple agent script that helps the agents quickly create a new case for an account or browse existing cases from the agent application. The agent script created in this walkthrough is invoked when the agent pulls up an account record to view, which is displayed in a session in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client. The script provides the following three options:  
 
 -   Create a case for the current account  
@@ -346,7 +347,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
 
 4. Select the **Related** tab, and then select **Events**.  
 
-   ![Configure events for a hosted control](../unified-service-desk/media/usd-configure-events-hosted-control.png "Configure events for a hosted control")  
+   ![Configure events for a hosted control.](../unified-service-desk/media/usd-configure-events-hosted-control.png "Configure events for a hosted control")  
 
 5. On the events page, select **PageReady**.  
 
@@ -387,7 +388,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
 
 5. Select the ellipsis (...) in the **Action Calls** section, and then select **Add Existing Action Call**. The **Lookup Records** pane is displayed.
 
-6. Type he name of the action call mentioned in the above table in the search box. The action calls are displayed in the search results. Select the record from the list, and then select **Add**.
+6. Type the name of the action call mentioned in the above table in the search box. The action calls are displayed in the search results. Select the record from the list, and then select **Add**.
 
 7. Select the ellipsis (...) in the **Hosted Controls** section, and then select **Add Existing Hosted Control**. The **Lookup Records** pane is displayed.  
 
@@ -403,34 +404,34 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
 
 13. Select the ellipsis (...) in the **Agent Scripts** section, and then select **Add Existing Agent Script**. The **Lookup Records** pane is displayed.
 
-14. Type he name of the agent scrit mentioned in the above table in the search box. The agent scripts are displayed in the search results. Select the record from the list, and then select **Add**.  
+14. Type the name of the agent script mentioned in the above table in the search box. The agent scripts are displayed in the search results. Select the record from the list, and then select **Add**.  
   
 15. Select **Save**.
 
 <a name="Step10"></a>   
 ## Step 10: Test the application  
 
-1. Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the Common Data Service platform instance where you configured [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] by using the same user credentials that is assigned to Contoso Configuration in [Walkthrough 1: Build a simple agent application for Unified Interface Apps](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md). For information about connecting to the Common Data Service platform instance using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, see [Connect to CRM instance using the Unified Service Desk client](../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md)  
+1. Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the Dynamics 365 instance where you configured [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] by using the same user credentials that is assigned to Contoso Configuration in [Walkthrough 1: Build a simple agent application for Unified Interface Apps](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md). For information about connecting to Dataverse instance using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, see [Connect to CRM instance using the Unified Service Desk client](../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md)  
 
 2. Select the down arrow next to the **SEARCH** button in the toolbar, and then select **Account** to display the account records from your model-driven app.  
 
 3. Select the expander to display the left pane.  
 
-   ![Choose the expander in Unified Service Desk](../unified-service-desk/media/usd-choose-expander.png "Choose the expander in Unified Service Desk")  
+   ![Choose the expander in Unified Service Desk.](../unified-service-desk/media/usd-choose-expander.png "Choose the expander in Unified Service Desk")  
 
 4. Select on any of the account records to display the respective account information in a session. In the left pane, the **Contoso: Welcome to Account Session** agent script appears.  
 
-   ![Agent script in Unified Service Desk](../unified-service-desk/media/usd-agent-script.png "Agent script in Unified Service Desk")  
+   ![Agent script in Unified Service Desk.](../unified-service-desk/media/usd-agent-script.png "Agent script in Unified Service Desk")  
 
 5. In the agent script:  
 
    1.  Select **New case** to open a new case form with pre-populated values (in the red box) from the current account record.  
 
-   ![New case form using the agent script](../unified-service-desk/media/usd-new-case-form-agent-script.png "New case form using the agent script")  
+   ![New case form using the agent script.](../unified-service-desk/media/usd-new-case-form-agent-script.png "New case form using the agent script")  
 
    2.  Select **Display existing cases** to display the associated cases for the current account record.  
 
-   ![Display existing cases for an account](../unified-service-desk/media/usd-show-cases-account.png "Display existing cases for an account")  
+   ![Display existing cases for an account.](../unified-service-desk/media/usd-show-cases-account.png "Display existing cases for an account")  
 
    3.  Select **Close session** to close the current session.  
 
@@ -457,3 +458,6 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
  [Walkthrough 5: Display enhanced session information by displaying session name and overview data](../unified-service-desk/walkthrough5-unified-interface-display-enhanced-session-information-displaying-session-name-overview-data.md)
 
  [Walkthrough 6: Configure the Debugger hosted control in your agent application](../unified-service-desk/walkthrough6-unified-interface-configure-debugger-hosted-control-agent-application.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

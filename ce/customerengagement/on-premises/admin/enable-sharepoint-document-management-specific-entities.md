@@ -1,9 +1,10 @@
 ---
-title: "Enable SharePoint document management for specific entities | MicrosoftDocs"
+title: "Document management for entities in Dynamics 365 Customer Engagement (on-premises)"
+description: "Store entity record documents in SharePoint and access them from Customer Engagement (on-premises) by enabling document management on the specific entities."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,9 +18,7 @@ ms.author: matp
 manager: brycho
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # Enable SharePoint document management for specific entities
 
@@ -78,3 +77,6 @@ Store the documents related to Dynamics 365 Customer Engagement (on-premises) en
 ### See also  
  [Edit existing SharePoint site records](../admin/edit-existing-sharepoint-site-records.md)   
  [Set up SharePoint integration](set-up-sharepoint-integration.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

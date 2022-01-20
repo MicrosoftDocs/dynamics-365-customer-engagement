@@ -1,9 +1,10 @@
 ---
-title: "Work with reports (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "How to work with reports in Dynamics 365 Customer Engagement (on-premises)"
+description: "Get information on the different features that are available to determine how reports display in Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 06/28/2021
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,8 +18,7 @@ tags:
   - MigrationHO
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Work with reports
 
@@ -34,3 +34,6 @@ This section describes the different features that are available to determine ho
 ### See also  
  [Reporting and Analytics Guide](../analytics/reporting-analytics-with-dynamics-365.md)   
  [Publish reports](../analytics/publish-reports.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

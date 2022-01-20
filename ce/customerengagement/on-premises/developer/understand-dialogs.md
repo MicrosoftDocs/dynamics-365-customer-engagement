@@ -3,8 +3,8 @@ title: "Understand dialogs (Developer Guide for Dynamics 365 Customer Engagement
 description: "Dialogs contain pages, and each page can contain multiple sets of prompts and responses. You can also specify a dialog as a child dialog, and then invoke that dialog from within a parent dialog"
 ms.custom: 
 ms.date: 05/24/2019
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,21 +17,20 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Understand dialogs
 
 Dialogs contain pages, and each page can contain multiple sets of prompts and responses. You can also specify a dialog as a *child dialog*, and then invoke that dialog from within a parent dialog. 
 
 > [!IMPORTANT]
-> [Dialogs are deprecated](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#dialogs-are-deprecated), and should be replaced by business process flows or canvas apps in Power Apps. More information: [Replace dialogs with business process flows or canvas apps](https://docs.microsoft.com/flow/replace-dialogs).
+> [Dialogs are deprecated](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#dialogs-are-deprecated), and should be replaced by business process flows or canvas apps in Power Apps. More information: [Replace dialogs with business process flows or canvas apps](/flow/replace-dialogs).
   
 <a name="DialogComponents"></a>   
 ## Dialog components  
  The following diagram illustrates a sample dialog page and its components.  
   
- ![Components of a dialog](media/sample-dialog.png "Components of a dialog")  
+ ![Components of a dialog.](media/sample-dialog.png "Components of a dialog")  
   
  Let us look at each component in detail.  
   
@@ -111,3 +110,6 @@ Dialogs contain pages, and each page can contain multiple sets of prompts and re
 ### See also  
  [Work with Dialogs](use-dialogs-guided-processes.md)   
  [Actions on Dialogs and Dialog Sessions](actions-dialogs.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,14 +1,10 @@
 ---
 title: "Global Manager (Hosted Control) in Unified Service Desk | MicrosoftDocs"
 description: "The Global Manager hosted control type is the core of Unified Service Desk, and an instance of this hosted control is required by Unified Service Desk."
-ms.custom: 
-  - dyn365-USD
 ms.date: 02/17/2020
-ms.service: 
-  - dynamics-365-customerservice
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - customizer
@@ -16,9 +12,14 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Global Manager (Hosted Control)
-The **Global Manager** hosted control type is the core of [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], and an instance of this hosted control is required by [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. This hosted control loads and reads all the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] configuration data from the Common Data Service platform at application startup, interprets the window navigation rules, provides data to the toolbar components and agent scripts, and manages the data for the session. Only a single instance of the **Global Manager** hosted control type can be loaded.  
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
+The **Global Manager** hosted control type is the core of [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], and an instance of this hosted control is required by [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. This hosted control loads and reads all the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] configuration data from Microsoft Dataverse at application startup, interprets the window navigation rules, provides data to the toolbar components and agent scripts, and manages the data for the session. Only a single instance of the **Global Manager** hosted control type can be loaded.  
 
 > [!IMPORTANT]
 >  The three sample application packages for [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], `New Environment`, `CRM Web Client`, and `Interactive Service Hub`, come preconfigured with an instance each of the **Global Manager** hosted control type. For information about the sample applications, see [Deploy sample Unified Service Desk applications to CRM server using Package Deployer](admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md).
@@ -29,15 +30,15 @@ The **Global Manager** hosted control type is the core of [!INCLUDE[pn_unified_s
 ## Create a Global Manager hosted control
  While creating a new hosted control, the fields in the **New Hosted Control** screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the **Global Manager** hosted control type. For detailed information about creating a hosted control, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).
 
- ![Global Manager hosted control](../unified-service-desk/media/crm-itpro-usd-globalmanagerhostedcontrol.PNG "Global Manager hosted control")
+ ![Global Manager hosted control.](../unified-service-desk/media/crm-itpro-usd-globalmanagerhostedcontrol.PNG "Global Manager hosted control")
 
- In the **New Hosted Control** screen, under the **Unified Service Desk** area, select **Global Manager** from the **Unified Service Desk Component Type** drop-down list. Also, ensure that you set the **Sort Order** value of this hosted control to **2** to ensure it is loaded by your agent application immediately *after* the connection has been established to the Common Data Service platform using the Connection Manager hosted control. For information about other **General** fields, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
+ In the **New Hosted Control** screen, under the **Unified Service Desk** area, select **Global Manager** from the **Unified Service Desk Component Type** drop-down list. Also, ensure that you set the **Sort Order** value of this hosted control to **2** to ensure it is loaded by your agent application immediately *after* the connection has been established to Dataverse using the Connection Manager hosted control. For information about other **General** fields, see [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).  
 
  Next, select the **Language Services** tab to add resources for adding localized strings for your agent application’s UI. For information about how to add language resources, see [Add multilanguage support for your agent applications](../unified-service-desk/add-multilanguage-support-agent-applications.md).
 
 <a name="predefined"></a>   
 ## Predefined UII actions  
- Global Manager provides a series of predefined actions that allow you to manipulate the Common Data Service platform record data through the web services. The predefined actions can be used during configuration to perform advanced functions in the Common Data Service platform.  
+ Global Manager provides a series of predefined actions that allow you to manipulate Dataverse record data through the web services. The predefined actions can be used during configuration to perform advanced functions in Dataverse.  
 
  The following predefined UII actions are available for the **Global Manager** hosted control type:
 
@@ -47,7 +48,7 @@ The **Global Manager** hosted control type is the core of [!INCLUDE[pn_unified_s
 
 |Parameter|Description|
 |---------------|-----------------|
-|Name|The audit entry name. You must add an option under the **Options** area (**Settings** > **Unified Service Desk** > Options ([How do I get there?](https://go.microsoft.com/fwlink/p/?LinkId=525636))) with the value set to **1**.|
+|Name|The audit entry name. You must add an option under the **Options** area (**Settings** > **Unified Service Desk** > Options ([How do I get there?](../customerengagement/on-premises/basics/basics-guide.md))) with the value set to **1**.|
 |Action|String representing the action that is being audited.|
 |TargetApplication|String representing the target application for the audit.|
 |CustomerId|String representing the customer ID.|
@@ -215,7 +216,7 @@ Param=value
 
 <a name="DoSearch"></a>   
 ### DoSearch  
- Calls the Common Data Service platform web services using the FetchXML defined as an entity search in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] For more information about defining an entity search, see [Search data using entity searches in Unified Service Desk](../unified-service-desk/search-data-entity-searches.md).  
+ Calls Dataverse web services using the FetchXML defined as an entity search in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] For more information about defining an entity search, see [Search data using entity searches in Unified Service Desk](../unified-service-desk/search-data-entity-searches.md).  
 
 |Parameter|Description|
 |---------------|-----------------|
@@ -236,7 +237,7 @@ Param=value
 | Parameter |                                                                             Description                                                                             |
 |-----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |   text    |      Text displayed in the message box. If this parameter is not specified, any remaining text (remainder parameter) or empty string will be used.      |
-|  caption  | Caption displayed in the message box. If no caption is specified, **the Common Data Service platform Message** will be used. |
+|  caption  | Caption displayed in the message box. If no caption is specified, **Dataverse Message** will be used. |
 
 ### ExecuteOnDataAvailable
  Delays the execution of the sub-actions until a specified set of replacement parameters becomes available. A time-out value may be specified to limit the amount of time to wait for the replacement parameters to become available. If no time-out is specified, it will wait indefinitely or until the session ends. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Blog: How to use the special actions, ExecuteOnTimeout, ExecuteOnDataAvailable, ExecuteOnExpressionTrue](https://blogs.msdn.com/b/usd/archive/2015/09/25/how-to-use-the-special-actions-executeontimeout-executeondataavailable-executeonexpressiontrue.aspx)
@@ -359,7 +360,7 @@ Param=value
 
 <a name="Pause"></a>
 ### Pause
- Pauses execution of the action without blocking message processing. This action is different from suspending the current thread for the specified amount of time ([Thread.Sleep](https://msdn.microsoft.com/library/d00bd51t.aspx)) because the action allows the processing to continue. This action is useful when you are waiting for web operations to complete.
+ Pauses execution of the action without blocking message processing. This action is different from suspending the current thread for the specified amount of time ([Thread.Sleep](/dotnet/api/system.threading.thread.sleep)) because the action allows the processing to continue. This action is useful when you are waiting for web operations to complete.
 
 |Parameter|Description|
 |---------------|-----------------|
@@ -471,7 +472,7 @@ Param=value
 
 <a name="ShowAbout"></a>   
 ### ShowAbout  
- Displays the about dialog box for [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] that contains information such as the name of the current user, the Common Data Service platform server and organization that the user is connected to, version number of the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and the support site URL.  
+ Displays the about dialog box for [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] that contains information such as the name of the current user, Dataverse server and organization that the user is connected to, version number of the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and the support site URL.  
 
 <a name="ShowTab"></a>
 ### ShowTab
@@ -489,6 +490,12 @@ Param=value
 |---------------|-----------------|
 |name|Name of the event timer to stop.|
 
+### TriggerEdgeWebView2PoolCleanUp
+Cleans up the Edge WebView2 pool.
+
+### TriggerChromePoolCleanUp
+Cleans up the Chrome pool.
+
 <a name="Translate"></a>
 ### Translate
  Enables you to perform language translation using [Microsoft Translator](https://datamarket.azure.com/dataset/bing/microsofttranslator).
@@ -497,8 +504,8 @@ Param=value
 |  Parameter   |                                                                                                                                                                                                                                               Description                                                                                                                                                                                                                                               |
 |--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |    value     | This is the text to translate. This value may be escaped for multi-line support.<br /><br /> Some valid examples:<br /><br /> `value=$Escaped("my string<br>new line\\\"my text\\\"")`<br /><br /> `value=[[myapp.myparam]^]`<br /><br /> `value=$Escaped([[myapp.myparam]$])`<br /><br /> For more information about these replacement keys, see [Use replacement parameters to configure Unified Service Desk](../unified-service-desk/use-replacement-parameters-configure-unified-service-desk.md). |
-| fromlanguage |                                                                                                      Name of the language to translate from. If this is blank, the system will attempt to detect the language of the specified value to be translated before translating. For a list of valid language values, see [Translator Language Codes](https://msdn.microsoft.com/library/hh456380.aspx).                                                                                                       |
-|  tolanguage  |                                                                                                                                                                      Name of the language to translate to. For a list of valid language values, see [Translator Language Codes](https://msdn.microsoft.com/library/hh456380.aspx).                                                                                                                                                                      |
+| fromlanguage |                                                                                                      Name of the language to translate from. If this is blank, the system will attempt to detect the language of the specified value to be translated before translating. For a list of valid language values, see [Translator Language Codes](/azure/cognitive-services/Translator/).                                                                                                       |
+|  tolanguage  |                                                                                                                                                                      Name of the language to translate to. For a list of valid language values, see [Translator Language Codes](/azure/cognitive-services/Translator/).                                                                                                                                                                      |
 |   clientId   |                                                                                                       A client ID obtained from [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] for translation services. For information about registering with [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)], see [https://datamarket.azure.com](https://datamarket.azure.com).                                                                                                       |
 | clientsecret |                                                                                                     A client secret obtained from [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] for translation services. For information about registering with [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)], see [https://datamarket.azure.com](https://datamarket.azure.com).                                                                                                     |
 
@@ -561,7 +568,7 @@ Param=value
  Here are the predefined events that are associated with this hosted control.
 
 ### DesktopReady  
- Occurs on startup when all the desktop initialization has completed and the connections to the Common Data Service platform have been established. This event will be fired only once, and it is common to use this event to set themes and do other startup actions.  
+ Occurs on startup when all the desktop initialization has completed and the connections to Dataverse have been established. This event will be fired only once, and it is common to use this event to set themes and do other startup actions.  
 
 ### SessionActivated
  Occurs whenever a session is activated.
@@ -606,3 +613,6 @@ Param=value
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,12 +1,10 @@
 ---
-title: "Walkthrough 4  Display a record in a session in your agent application | MicrosoftDocs"
-description: "Demonstrates how to display records in a session in your agent application using window navigation rules and session controls in Unified Service Desk."
+title: "Walkthrough 4: Display session records in Unified Interface apps | MicrosoftDocs"
+description: "Use this walkthrough to understand the prerequisites and procedures for displaying session records in Unified Interface apps."
 ms.date: 12/31/2019
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - customizer
@@ -17,6 +15,8 @@ search.app:
 ---
 
 # Walkthrough 4: Display a Unified Interface apps record in a session in your agent application
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
 This walkthrough demonstrates how to display records in a session in your agent application using window navigation rules and session controls in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. It also demonstrates the use of replacement parameters to dynamically display the name of the hosted control based on the currently displayed account record. This walkthrough is built on top of the previous walkthrough, [Walkthrough 3: Display Unified Interface apps records in your agent application](../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md), to display an account record in a session when you select one of the accounts in the **Account** search result window.  
   
@@ -204,17 +204,17 @@ This walkthrough demonstrates how to display records in a session in your agent 
 <a name="Step6"></a>   
 ## Step 6: Test the application  
   
-1. Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the Common Data Service platform instance where you configured Unified Service Desk by using the same user credentials that is assigned to Contoso Configuration in [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md). For information about connecting to the Common Data Service platform instance using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, see [Connect to CRM instance using the Unified Service Desk client](../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md).  
+1. Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the Dynamics 365 instance where you configured Unified Service Desk by using the same user credentials that is assigned to Contoso Configuration in [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md). For information about connecting to Dataverse instance using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, see [Connect to CRM instance using the Unified Service Desk client](../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md).  
   
 2. To display the account records from your model-driven app, select the down arrow next to the **Search** button in the toolbar, and then select **Account**.  
   
 3. Select any of the account records to display the respective account information in a session; the information is displayed under a session tab. Note that the name of the hosted control tab that contains the account record automatically displays the account name because earlier you used replacement parameters to dynamically display the current account name instead of a static value.  
   
-   ![Account record displayed in a session](../unified-service-desk/media/usd-account-record-session-unified-interface.png "Account record displayed in a session")  
+   ![Account record displayed in a session.](../unified-service-desk/media/usd-account-record-session-unified-interface.png "Account record displayed in a session")  
   
 4. If you open another account record, it will be displayed in another session in your client application. To open another account, select the down arrow next to the **Search** button, select **Account**, and then select an account name to display the account information in another session.  
   
-   ![Multiple sessions in Unified Service Desk](../unified-service-desk/media/usd-multiple-sessions-unified-interface.png "Multiple sessions in Unified Service Desk")  
+   ![Multiple sessions in Unified Service Desk.](../unified-service-desk/media/usd-multiple-sessions-unified-interface.png "Multiple sessions in Unified Service Desk")  
   
 <a name="Conclusion"></a>   
 ## Conclusion  
@@ -241,3 +241,6 @@ This walkthrough demonstrates how to display records in a session in your agent 
  [Walkthrough 6: Configure the Debugger hosted control in your agent application](../unified-service-desk/walkthrough6-unified-interface-configure-debugger-hosted-control-agent-application.md)
  
  [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough7-unified-interface-configure-agent-scripting-agent-application.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

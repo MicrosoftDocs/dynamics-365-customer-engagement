@@ -1,8 +1,9 @@
 ---
 title: "Exporting and importing customizations and solutions | Microsoft Docs"
+description: Learn how to export and import solutions in Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: "crm-2016"
+ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -27,3 +28,6 @@ The Solutions feature can be used to export all unmanaged solution customization
  [Dynamics 365 Customer Engagement (on-premises) data protection and recovery](microsoft-dynamics-365-data-protection-and-recovery.md) </br>  
  [Dynamics 365 Customer Engagement (on-premises) failure recovery](microsoft-dynamics-365-failure-recovery.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

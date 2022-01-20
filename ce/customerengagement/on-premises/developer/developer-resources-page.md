@@ -4,7 +4,7 @@ description: "Read how you can find your organization unique name, Discovery ser
 ms.custom: 
 ms.date: 03/29/2019
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Developer resources page 
 
@@ -146,3 +145,6 @@ For more information, see [Discover the URL for your organization using the Orga
 
  [Write Code for Dynamics 365 Customer Engagement Web Services](extend-dynamics-365-server.md)   
  [Use the IOrganizationService web service to read and write data or metadata](org-service/use-organization-service-read-write-data-metadata.md)   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

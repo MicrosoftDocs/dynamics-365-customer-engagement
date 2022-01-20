@@ -1,8 +1,9 @@
 ---
 title: "Microsoft Dynamics 365 Server hardware requirements | Microsoft Docs"
+description: Learn about the hardware requirements for Dynamics 365 Server with Dynamics 365 Customer Engagement (on-premises)
 ms.custom: 
 ms.date: 10/01/2018
-ms.prod: crm-2016
+ms.prod: d365ce-op
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -41,3 +42,6 @@ The following table lists the minimum and recommended hardware requirements for 
  [Dynamics 365 Customer Engagement (on-premises) system requirements and required technologies](system-requirements-required-technologies.md)   
  [Microsoft SQL Server hardware requirements for Dynamics 365 Server](sql-server-hardware-requirements-dynamics-365-server.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

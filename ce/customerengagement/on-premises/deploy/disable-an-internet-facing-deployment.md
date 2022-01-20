@@ -1,8 +1,9 @@
 ---
 title: "Disable an Internet-facing deployment | Microsoft Docs"
+description: Learn how to disable an internet-facing deployment in Dynamics 365 Customer Engagement (on-premises)
 ms.custom: 
 ms.date: 10/01/2018
-ms.prod: crm-2016
+ms.prod: d365ce-op
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -30,3 +31,6 @@ Disable an  [!INCLUDE[pn_Internet_facing_deployment](../includes/pn-internet-fac
  [Configure an Internet-facing deployment](configure-an-internet-facing-deployment.md)   
  [Configure claims-based authentication](configure-claims-based-authentication.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

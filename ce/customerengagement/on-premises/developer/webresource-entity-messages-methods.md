@@ -3,8 +3,8 @@ title: "WebResource entity messages and methods (Developer Guide for Dynamics 36
 description: "Learn about web resource that stores the data equivalent to files used in web development. Web resources are client-side components that provide custom user interface elements. The schema name for this entity is WebResource."
 ms.custom: 
 ms.date: 12/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # WebResource entity messages and methods
 
@@ -40,3 +39,6 @@ A *web resource* stores the data equivalent to files used in web development. We
 
  [Web Resources for Dynamics 365 Customer Engagement (on-premises)](web-resources.md)<br />
  [Sample: Pass Multiple Values to a  Web Resource Through the Data Parameter](sample-pass-multiple-values-web-resource-through-data-parameter.md)<br />
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

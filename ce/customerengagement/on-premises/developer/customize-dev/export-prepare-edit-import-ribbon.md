@@ -3,8 +3,8 @@ title: "Export, prepare to edit, and import the ribbon (Developer Guide for Dyna
 description: "Learn about exporting the ribbon by including it in a solution and then exporting the solution. You can export all the customizations, but that can represent a large amount of data. We recommend that you use an existing unmanaged solution or create a new solution. "
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -21,8 +21,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Export, prepare to edit, and import the ribbon
 
@@ -163,3 +162,6 @@ To edit the ribbon, you must perform the following steps:
  [Customize the Ribbon for Microsoft Dynamics 365 Customer Engagement](customize-commands-ribbon.md)   
  [Export Ribbon Definitions](export-ribbon-definitions.md)   
  [Use Localized Labels with Ribbons](use-localized-labels-ribbons.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

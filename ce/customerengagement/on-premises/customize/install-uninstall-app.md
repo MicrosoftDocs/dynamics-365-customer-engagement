@@ -1,10 +1,10 @@
 ---
-title: "Install or uninstall a custom business app | MicrosoftDocs"
-description: "Learn how to install or uninstall a custom business app"
+title: "Import or delete an app with Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how to package one or more apps in a solution and import them into other environments. You can also delete an app that you no longer need."
 ms.custom: 
 ms.date: 12/04/2018
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -18,10 +18,9 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
-# Install or uninstall an app
+# Import or delete an app
 
 
 
@@ -57,3 +56,6 @@ An app can be made available as a solution. This allows you to package one or mo
   
 ### See also  
  [Design custom business apps by using the app designer](design-custom-business-apps-using-app-designer.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

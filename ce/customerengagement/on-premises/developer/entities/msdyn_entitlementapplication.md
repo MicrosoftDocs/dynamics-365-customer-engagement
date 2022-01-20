@@ -2,7 +2,7 @@
 title: "msdyn_entitlementapplication Entity Reference (Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_entitlementapplication entity."
 ms.date: 04/02/2019
-ms.service: "crm-online"
+ms.prod: d365ce-op
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "KumarVivek"
@@ -10,9 +10,7 @@ ms.author: "kvivek"
 manager: "annbe"
 search.audienceType: 
   - developer
-search.app: 
-  - PowerApps
-  - D365CE
+
 ---
 # msdyn_entitlementapplication Entity Reference
 
@@ -1027,3 +1025,5 @@ See msdyn_incidenttype Entity [msdyn_msdyn_incidenttype_msdyn_entitlementapplica
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.msdyn_entitlementapplication?text=msdyn_entitlementapplication EntityType" />
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

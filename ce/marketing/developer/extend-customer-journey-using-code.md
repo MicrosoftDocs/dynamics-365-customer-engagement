@@ -1,18 +1,19 @@
 ---
-title: "Basic Operations on customer journey using C#| Microsoft Docs" # Intent and product brand in a unique string of 43-59 chars including spaces
-description: This sample shows how to perform basic operations on customer journey using c#."" # 115-145 characters including spaces. This abstract displays in the search result.
-ms.custom: ""
-ms.date: 04/03/2019
-ms.service: "D365CE"
-ms.topic: "article"
-ms.author: nabuthuk
-author: Nkrb
-manager: kvivek
+title: "Basic Operations on customer journey using C# (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
+description: "This sample shows how to perform basic operations on customer journey using C#."
+ms.date: 10/19/2020
+ms.service: dynamics-365-marketing
+ms.custom: 
+  - dyn365-marketing
+ms.topic: article
+author: alfergus
+ms.author: alfergus
+manager: shellyha
 search.audienceType: 
   - developer
 search.app: 
-  - PowerApps
   - D365CE
+  - D365Mktg
 ---
 
 # CRUD operations on customer journey using code
@@ -35,7 +36,7 @@ When you extract the .zip file, you find three projects in it:
    - Creating [custom channel activity interaction](create-custom-channel-activity-interaction.md) from customer journey custom channel activity record.
 
 > [!NOTE]
-> You need to have access to Microsoft Dynamics 365 Marketing instance. More information: [Install Dynamics 365 Marketing](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/trial-signup).
+> You need to have access to Microsoft Dynamics 365 Marketing instance. More information: [Install Dynamics 365 Marketing](/dynamics365/customer-engagement/marketing/trial-signup).
 
 ## How to run the sample
 
@@ -144,3 +145,6 @@ public class Snippet
 ### See also
 
 [Extend customer journey using API](basic-operations-on-customer-journey.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,10 +1,10 @@
 ---
-title: "Create N:N (many-to-many) relationships in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to create many-to-may relationships"
+title: "Create N:N relationships in Dynamics 365 Customer Engagement (on-premises)"
+description: "An N:N relationship is one in which many records of one entity can be related to many of another. Follow these steps to create or edit these relationships."
 ms.custom: 
 ms.date: 11/09/2018
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -18,14 +18,13 @@ manager: kvivek
 tags: 
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
-# Create N:N (many-to-many) relationships
-
-
+# Create N:N (many-to-many) relationships between entities
 
 <a name="BKMK_CreateEditNNRelationships"></a>   
+
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Create Many-to-many entity relationships in Dataverse using Power Apps portal](/powerapps/maker/common-data-service/create-edit-nn-relationships-portal)
 
  1:N entity relationships establish a hierarchy between records. With N:N (many-to-many) relationships there is no explicit hierarchy. There are no lookup fields or behaviors to configure. Records created using N:N relationships can be considered peers and the relationship is reciprocal.  
   
@@ -91,3 +90,6 @@ search.app:
 ### See also
 
 [Create 1:N (one-to-many) relationships](../customize/create-and-edit-1n-relationships.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

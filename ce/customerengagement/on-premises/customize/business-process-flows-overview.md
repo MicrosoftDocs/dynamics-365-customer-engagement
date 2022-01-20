@@ -1,12 +1,13 @@
 ---
-title: "Business process flows overview | MicrosoftDocs"
+title: "Use business process flows in Dynamics 365 Customer Engagement (on-premises)"
+description: "Make sure people follow the same steps and enter data consistently by creating business process flows. Learn more about what they do and how you can use them."
 ms.custom: 
 ms.date: 02/21/2020
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: overview
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 4469877e-bb95-481a-bc52-c9746f937ce5
@@ -16,12 +17,11 @@ manager: kvivek
 author: Mattp123
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
-# Business process flows overview
+# Overview of working with business process flows
 
-
+*This topic applies to Dynamics 365 Customer Engagement (on-premises). If you are an online user, see [Business process flows overview](/power-automate/business-process-flows-overview) in the Power Automate docs.*
 
 You can help ensure that people enter data consistently and follow the same steps every time they work with a customer by creating a business process flow. For example, you might want to create a business process flow to have everyone handle customer service requests the same way, or to require that people get approval for an invoice before submitting an order. Business process flows use the same underlying technology as other processes, but the capabilities that they provide are very different from other features that use processes. To learn how to create or edit a business process flow, see [Create a business process flow](../customize/create-business-process-flow.md).  
   
@@ -40,7 +40,7 @@ A business process flow definition is represented as a custom entity and an inst
   
  With business process flows, you define a set of *stages* and *steps* that are then displayed in a control at the top of the form.  
   
- ![Business process with stages](../customize/media/business-process-stages.png "Business process with stages")  
+ ![Business process with stages.](../customize/media/business-process-stages.png "Business process with stages")  
   
  Each stage contains a group of steps. Each step represents a field where data can be entered. People advance to the next stage by using the **Next Stage** button. You can make a step required so that people must enter data for the corresponding field before they can proceed to the next stage. This is commonly called ”stage-gating”.  
   
@@ -50,7 +50,7 @@ A business process flow definition is represented as a custom entity and an inst
   
 <a name="BKMK_BPFwithOtherCustomizations"></a>   
 ### Business process flows integrated with other customizations  
- When you or your user enters data using business process flows, the data changes are also applied to form fields so that any automation provided by business rules or form scripts can be applied immediately. Steps can be added that set values for fields that are not present in the form and these fields will be added to the [Client API object model](../developer/clientapi/understand-clientapi-object-model.md) used for form scripts. Any workflows that are initiated by changes to fields included in a business process flow will be applied when the data in the form is saved. If the automation is applied by a real-time workflow, the changes will be immediately visible to the user when the data in the form is refreshed after the record is saved.  
+ When you or your user enters data using business process flows, the data changes are also applied to form fields so that any automation provided by business rules or form scripts can be applied immediately. Steps can be added that set values for fields that are not present in the form and these fields will be added to the [Client API object model](/powerapps/developer/model-driven-apps/clientapi/understand-clientapi-object-model) used for form scripts. Any workflows that are initiated by changes to fields included in a business process flow will be applied when the data in the form is saved. If the automation is applied by a real-time workflow, the changes will be immediately visible to the user when the data in the form is refreshed after the record is saved.  
   
  Although the business process flow control in the form does not provide any direct client-side programmability, changes applied by business rules or form scripts are automatically applied to business process flow controls. If you hide a field in a form, that field will also be hidden in the business process flow control. If you set a value by using business rules or form scripts, that value will be set within the business process flow.  
   
@@ -90,7 +90,7 @@ A business process flow definition is represented as a custom entity and an inst
 
 Each business process flow definition that is represented as a custom entity comes with its own set of privileges that can be edited within a security role just like any other system or custom entity. You can specify the privileges in the **Business Process Flows** tab for a security role.
 
-![Set privileges for business process flow](media/bpf-privileges-customizer.png) 
+![Set privileges for business process flow.](media/bpf-privileges-customizer.png) 
 
 You can assign the following privileges on a business process flow:
 - **Create**: Allows creating an instance of the business process flow, which is done at the same time as creating a new record. 
@@ -176,13 +176,13 @@ With business processes flows available as an entity, you can now use advanced f
 
 Business process flows, such as **Lead To Opportunity Sales Process**, appear as a customizable entity in Solution Explorer.
 
-![Solution Explorer with lead-to-opportunity process entity](media/bpf-lead-solution-explorer.png)
+![Solution Explorer with lead-to-opportunity process entity.](media/bpf-lead-solution-explorer.png)
 
 To access a default business process flow view, open solution explorer, expand **Entities** > expand the process that you want, such as **Lead To Opportunity Sales Process**, select **Views**, and then select the view that you want.
 
 Several default views are available that you can view as a chart, such as the **Active Opportunity Sales Process** view. 
 
-![Active Opportunity Sales Process view](media/bpf-default-view.png)
+![Active Opportunity Sales Process view.](media/bpf-default-view.png)
 
 ### Limitations of using business process flow entities
 
@@ -197,3 +197,6 @@ Currently, you can’t create custom forms for entities based on a business proc
  [Create custom business logic through processes](../customize/guide-staff-through-common-tasks-processes.md)</br>
  [Workflow Processes](../customize/workflow-processes.md)   
  [Actions - Overview](../customize/actions.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

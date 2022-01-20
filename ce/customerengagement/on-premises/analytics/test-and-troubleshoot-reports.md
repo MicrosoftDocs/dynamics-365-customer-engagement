@@ -1,9 +1,10 @@
 ---
-title: "Test and troubleshoot reports (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Test reports in Dynamics 365 Customer Engagement (on-premises)"
+description: "After creating a report, test it to see if it produces the results you want. This page explains how to test a report and offers suggestions on what to test."
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -18,8 +19,7 @@ tags:
   - MigrationHO
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Test and troubleshoot reports
 
@@ -71,3 +71,6 @@ After you have created a report, test it to see if it produces the results that 
  [Publish Reports](../analytics/publish-reports.md)   
  [Use Parameters in Reports](../analytics/use-parameters-in-reports.md)   
  [Create Custom Reports Using SQL Server Data Tools](../analytics/create-a-new-report-using-sql-server-data-tools.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

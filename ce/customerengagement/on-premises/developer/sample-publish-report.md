@@ -3,11 +3,11 @@ title: "Sample: Publish reports | MicrosoftDocs"
 description: "This sample shows how to publish a report"
 ms.custom: 
 ms.date: 01/28/2020
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 69763a0a-af67-48b8-adf2-470c1cdf6196
@@ -17,8 +17,6 @@ ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 
 # Publish reports
@@ -49,3 +47,5 @@ Checks for the current version of the org.
 ### Clean up
 
 No clean up is required for this sample.
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

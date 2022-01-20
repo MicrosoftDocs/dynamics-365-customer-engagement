@@ -1,9 +1,10 @@
 ---
 title: "Manage Dynamics 365 for Customer Engagement apps teams | MicrosoftDocs"
+description: "Share business objects and collaborate with other people across business units."
 ms.custom: 
-ms.date: 01/10/2020
+ms.date: 10/14/2021
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -14,20 +15,20 @@ author: jimholtz
 ms.assetid: 5355ef54-ce27-4383-bf21-1419c71f4cc4
 caps.latest.revision: 29
 ms.author: jimholtz
-manager: kvivek
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
 ---
 # Manage teams
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 Using teams in Dynamics 365 Customer Engagement (on-premises) is optional. However, teams provide an easy way to share business objects and let you collaborate with other people across business units. While a team belongs to one business unit, it can include users from other business units. You can associate a user with more than one team.  
   
  You can use three types of teams:  
   
-- An *owner* team owns records and has security roles assigned to the team. The team’s privileges are defined by these security roles. In addition to privileges provided by the team, team members have the privileges defined by their individual security roles and team [member’s privilege inheritance](security-roles-privileges.md#team-members-privilege-inheritance) roles, and by the roles from other teams in which they are members. A team has full access rights on the records that the team owns. Team members are added manually to the owner team.
+- An *owner* team owns records and has security roles assigned to the team. The team’s privileges are defined by these security roles. In addition to privileges provided by the team, team members have the privileges defined by their individual security roles and by the roles from other teams in which they are members. A team has full access rights on the records that the team owns. Team members are added manually to the owner team.
   
 - An *access* team doesn’t own records and doesn’t have security roles assigned to the team. The team members have privileges defined by their individual security roles and by roles from the teams in which they are members. The records are shared with an access team, and the team is granted access rights on the records, such as Read, Write, or Append.  
   
@@ -54,13 +55,13 @@ The type of team you choose depends on the goals, nature of the project, and eve
 Anyone who has Create, Read, Update (Write), Delete (CRUD) privileges on the Team entity, can create any of the team types.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/create-teams-security-roles.png "Privileges for creating teams")
+> ![Privileges for creating teams.](media/create-teams-security-roles.png "Privileges for creating teams")
 
 ### Add a Team administrator
 When you create a team, you need to add a Team administrator with a security role that has Read privilege to the Team entity. Go to **Settings** > **Security** > **Teams** and select a team to enter the Team administrator.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/add-team-administrator.png "Adding Team administrator")
+> ![Adding Team administrator.](media/add-team-administrator.png "Adding Team administrator")
 
 ### What inherited privilege do Team administrators have?
 Team administrators have access to Team owned records. Team administrators do not need to be added to a team and do not show up as a member of the team.
@@ -68,7 +69,7 @@ Team administrators have access to Team owned records. Team administrators do no
 ## About owner teams 
 An owner team can own one or more records. To make a team an owner of the record, you must assign a record to the team.
 
-While teams provide access to a group of users, you must still associate individual users with security roles that grant the privileges they need to create, update, or delete user-owned records. These privileges can't be applied by assigning security roles to a team and then adding the user to that team. If you need to provide your team members the team privileges directly without their own security role, you can assign the team a security role that has [member’s privilege inheritance](security-roles-privileges.md#team-members-privilege-inheritance).
+While teams provide access to a group of users, you must still associate individual users with security roles that grant the privileges they need to create, update, or delete user-owned records. These privileges can't be applied by assigning security roles to a team and then adding the user to that team. 
 
 If an owner team doesn’t own records and doesn’t have security roles assigned to the team, it can be converted to an access team. It is a one-way conversion. You can’t convert the access team back to the owner team. During conversion, all queues and mailboxes associated with the team are deleted. When you create a team in the web application, you have to choose the team type **Owner**.
 
@@ -151,3 +152,6 @@ For example, you can create a team template for the Account entity with the Read
  [Download: Access Teams in Microsoft Dynamics CRM](https://download.microsoft.com/download/E/9/0/E9009308-CA01-4B37-B03C-435B8ACB49B4/Access%20Teams%20with%20Microsoft%20Dynamics%20CRM%202013.pdf)   
  [Download: Scalable security modeling with Microsoft Dynamics CRM](https://go.microsoft.com/fwlink/p/?LinkID=328757)   
  [Entity relationship behavior](../developer/entity-relationship-behavior.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

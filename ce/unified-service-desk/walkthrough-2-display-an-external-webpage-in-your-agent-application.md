@@ -1,14 +1,10 @@
 ---
-title: "Walkthrough 2  Display an external webpage in your agent application | MicrosoftDocs"
-description: "Demonstrates how to display an external web page in Unified Service Desk."
-ms.custom: 
-  - dyn365-USD
+title: "Walkthrough 2: Display webpages and external URLs in your agent application | MicrosoftDocs"
+description: "Use this walkthrough to understand the prerequisites and procedures for displaying web pages and external URLs in your agent application. "
 ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - customizer
@@ -16,8 +12,13 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
-# Walkthrough 2: Display an external webpage in your agent application
+# Walkthrough 2: Display webpages and external URLs in your agent application
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 This walkthrough demonstrates how to display a webpage or external URL in your agent application. In this walkthrough, you’ll learn how to display the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] Guide, which is available online at https://go.microsoft.com/fwlink/?LinkID=856273, in the client application.  
 
 ## Prerequisites  
@@ -54,7 +55,7 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
 ## Step 1: Create a hosted control to display the webpage  
  In this step, you’ll create a hosted control of Standard Web Application type to display the webpage.  
 
-1. Sign in to the Common Data Service platform.  
+1. Sign in to the Dynamics 365 instance.  
 
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
 
@@ -74,7 +75,7 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
    |Application is Global|Checked|  
    |Display Group|MainPanel|  
 
-   ![Standard Web Application hosted control](../unified-service-desk/media/crm-itpro-usd-wt02-01.png "Standard Web Application hosted control")  
+   ![Standard Web Application hosted control.](../unified-service-desk/media/crm-itpro-usd-wt02-01.png "Standard Web Application hosted control")  
 
 6. Click **Save**.  
 
@@ -82,7 +83,7 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
 ## Step 2: Create a toolbar container type of hosted control  
  Toolbar Container hosted controls are used to hold and display the toolbars in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. In this section, you’ll create a **Toolbar Container** type of hosted control that appears in the toolbar region of the client application.  
 
-1. Sign in to the Common Data Service platform.  
+1. Sign in to the Dynamics 365 instance.  
 
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
 
@@ -98,7 +99,7 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
    |USD Component Type|Toolbar Container|  
    |Display Group|AboutPanel|  
 
-   ![Toolbar Container hosted control](../unified-service-desk/media/crm-itpro-usd-wt02-02.png "Toolbar Container hosted control")  
+   ![Toolbar Container hosted control.](../unified-service-desk/media/crm-itpro-usd-wt02-02.png "Toolbar Container hosted control")  
 
 6. Click **Save**.  
 
@@ -106,7 +107,7 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
 ## Step 3: Add a toolbar and attach it to the toolbar container  
  In this step, you’ll create a toolbar, and attach the toolbar to the toolbar container hosted control created in step 2. This is done to display the toolbar in your agent application.  
 
-1. Sign in to the Common Data Service platform.  
+1. Sign in to the Dynamics 365 instance.  
 
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
 
@@ -137,7 +138,7 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
    |Name|Contoso Show Help|  
    |Button Text|Show Help|  
 
-   ![Create a new toolbar button](../unified-service-desk/media/crm-itpro-usd-wt02-03.png "Create a new toolbar button")  
+   ![Create a new toolbar button.](../unified-service-desk/media/crm-itpro-usd-wt02-03.png "Create a new toolbar button")  
 
 3. Click **Save** to save the record, and enable the **Actions** area.  
 
@@ -149,7 +150,7 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
 
 6. In the search results box, click **New** in the lower right corner to create an action call for this toolbar button.  
 
-   ![Choose New to create an action call](../unified-service-desk/media/crm-itpro-usd-wt02-04.png "Choose New to create an action call")  
+   ![Choose New to create an action call.](../unified-service-desk/media/crm-itpro-usd-wt02-04.png "Choose New to create an action call")  
 
 7. On the **New Action Call** page, specify the following values:  
 
@@ -162,7 +163,7 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
    |     Action     |                      Navigate                       |
    |      Data      | url=<https://go.microsoft.com/fwlink/?LinkID=856273> |
 
-   ![Create an action call in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-wt02-05.png "Create an action call in Unified Service Desk")  
+   ![Create an action call in Unified Service Desk.](../unified-service-desk/media/crm-itpro-usd-wt02-05.png "Create an action call in Unified Service Desk")  
 
 8. Click **Save**. The new action call is added to the **Contoso Show Help** button.  
 
@@ -180,11 +181,11 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
     |Action|ShowTab|  
     |Data|Contoso Help|  
 
-    ![Create an action call in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-wt02-06.png "Create an action call in Unified Service Desk")  
+    ![New Action Call page in Unified Service Desk.](../unified-service-desk/media/crm-itpro-usd-wt02-06.png "New Action Call page in Unified Service Desk")  
 
 12. Click **Save**. The new action call gets added to the **Contoso Show Help** button. You can see both action calls added to the toolbar button.  
 
-    ![Action calls added to the toolbar button](../unified-service-desk/media/crm-itpro-usd-wt02-07.png "Action calls added to the toolbar button")  
+    ![Action calls added to the toolbar button.](../unified-service-desk/media/crm-itpro-usd-wt02-07.png "Action calls added to the toolbar button")  
 
 <a name="Step5"></a>   
 ## Step 5: Add the controls to the configuration  
@@ -202,7 +203,7 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
 
  To add a control to the configuration:  
 
-1. Sign in to the Common Data Service platform.  
+1. Sign in to the Dynamics 365 instance.  
 
 2. On the nav bar, click **Dynamics 365**, and then select **Settings**.  
 
@@ -225,15 +226,15 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
 <a name="Step6"></a>   
 ## Step 6: Test the application
   
- Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the Common Data Service platform instance where you configured [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] using the same user credentials that you assigned to the **Contoso Configuration** in [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md). For information about connecting to the Common Data Service platform instance using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, see [Connect to a model-driven app instance using the Unified Service Desk client](../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md)  
+ Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the Dynamics 365 instance where you configured [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] using the same user credentials that you assigned to the **Contoso Configuration** in [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md). For information about connecting to Dataverse instance using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, see [Connect to a model-driven app instance using the Unified Service Desk client](../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md)  
 
  Your agent application will now have a **Show Help** button at the top-right corner:  
 
- ![Show Help button in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-wt02-08.png "Show Help button in Unified Service Desk")  
+ ![Show Help button in Unified Service Desk.](../unified-service-desk/media/crm-itpro-usd-wt02-08.png "Show Help button in Unified Service Desk")  
 
  Clicking **Show Help** displays the specified web URL within the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] application.  
 
- ![Help displayed in the client application](../unified-service-desk/media/crm-itpro-usd-wt02-09.png "Help displayed in the client application")  
+ ![Help displayed in the client application.](../unified-service-desk/media/crm-itpro-usd-wt02-09.png "Help displayed in the client application")  
 
 <a name="Conclusion"></a>   
 ## Conclusion  
@@ -248,3 +249,6 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
  [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md)   
  [Walkthrough 8: Use Parature knowledge within your agent application](../unified-service-desk/walkthrough-8-use-dynamics-365-knowledge-base-within-agent-application.md)   
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

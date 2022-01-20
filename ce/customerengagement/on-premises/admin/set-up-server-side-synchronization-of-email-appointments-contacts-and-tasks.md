@@ -1,12 +1,13 @@
 ---
-title: "Set up server-side synchronization of email, appointments, contacts, and tasks | MicrosoftDocs"
+title: "Set up server-side synchronization in Dynamics 365 Customer Engagement (on-premises)"
+description: "Synchronize your email at the server level. If you sync Outlook as well as Exchange Online or Exchange Server, you can sync appointments, contacts, and tasks."
 ms.custom: 
-ms.date: 10/01/2019
+ms.date: 04/16/2020
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: overview
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
   - Dynamics 365 for Customer Engagement  Version 9.x
@@ -17,9 +18,7 @@ ms.author: jimholtz
 manager: brycho
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # Set up server-side synchronization of email, appointments, contacts, and tasks
 
@@ -36,12 +35,15 @@ You can use [!INCLUDE[cc_server_side_synch](../includes/cc-server-side-synch.md)
   
  Choose one of the following scenarios to configure [!INCLUDE[cc_server_side_synch](../includes/cc-server-side-synch.md)] for your organization:  
   
--   [Connect Customer Engagement (on-premises) to Exchange Online](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/administering-dynamics-365/mt622062%28v%3dcrm.8%29)  
+-   [Connect Dynamics 365 Customer Engagement (on-premises) to Exchange Online](connect-dynamics-365-on-premises-exchange-online.md)
   
--   [Connect Customer Engagement (on-premises) to Exchange Server on-premises](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/administering-dynamics-365/mt703269%28v%3dcrm.8%29)  
+-   [Connect Customer Engagement (on-premises) to Exchange Server on-premises](/previous-versions/dynamicscrm-2016/administering-dynamics-365/mt622062%28v%3dcrm.8%29)    
   
 -   [Connect to a POP3 or SMTP server](../admin/connect-to-pop3-or-smtp-servers.md)
 
 ### See also  
 [Server-side synchronization](../admin/server-side-synchronization.md) 
 [Troubleshooting server-side synchronization](../admin/troubleshooting-monitoring-server-side-synchronization.md)   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

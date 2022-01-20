@@ -1,38 +1,26 @@
 ---
-title: "Extend Universal Resource Scheduling actions to use your preferred geospatial data provider | MicrosoftDocs"
-description: "Provides information on how to use geospatial data providers of your choice instead of the default Bing Maps in Dynamics 365 Field Service and Dynamics 365 Project Service Automation."
-ms.custom: 
-  - dyn365-developer
-  - dyn365-customerservice
+title: "Use preferred geospatial data provider in Universal Resource Scheduling"
+description: "Learn how to use the geospatial data provider of your choice instead of the default Bing Maps by creating a custom plug-in."
 ms.date: 01/29/2018
 searchScope: 
   - Field Service
   - Project Service
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.technology: 
-  - field-service
-  - project-service
-ms.tgt_pltfrm: 
+ms.service: dynamics-365-field-service
+ms.subservice: common-scheduler
 ms.topic: conceptual
-ms.assetid: bbae6f0d-1d53-4d6e-b76f-00dae07443e0
 author: FieldServiceDave
 ms.author: daclar
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
 search.app: 
   - D365CE
   - D365PS
   - D365FS
 ---
-# Extend Universal Resource Scheduling actions to use your preferred geospatial data provider (Field Service, Project Service Automation)
+# Extend Universal Resource Scheduling actions to use your preferred geospatial data provider
 
 You can create a *custom* plug-in and register on the Universal Resource Scheduling actions that provide geospatial functionality to use data from a data provider of your choice instead of the default Bing Maps API.
 
-The following Universal Resource Scheduling [actions](../../customize/actions.md) provide geospatial functionality in [!INCLUDE[pn_dyn_365_field_service](../../includes/pn-dyn-365-field-service.md)] and [!INCLUDE[pn_dyn_365_project_service_auto](../../includes/pn-dyn-365-project-service-auto.md)]:
+The following Universal Resource Scheduling [actions](../../customerengagement/on-premises/customize/actions.md) provide geospatial functionality in [!INCLUDE[pn_dyn_365_field_service](../../includes/pn-dyn-365-field-service.md)] and [!INCLUDE[pn_dyn_365_project_service_auto](../../includes/pn-dyn-365-project-service-auto.md)]:
 - **msdyn_GeocodeAddress** for geocoding addresses
 - **msdyn_RetrieveDistanceMatrix** for calculating travel times and distances between two locations. 
 
@@ -49,3 +37,6 @@ The [!INCLUDE[pn_field_service](../../includes/pn-field-service.md)] and Project
 
 [Universal Resource Scheduling](../schedule-anything-with-universal-resource-scheduling.md)  
     
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

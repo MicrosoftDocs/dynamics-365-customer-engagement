@@ -1,19 +1,19 @@
 ---
-title: "Segment Query definition| Microsoft Docs" # Intent and product brand in a unique string of 43-59 chars including spaces
-description: The Segmentation API enables programmatic interaction with certain segmentation features of Dynamics 365 Marketing app."" # 115-145 characters including spaces. This abstract displays in the search result.
-ms.custom: ""
+title: "Segment Query definition (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
+description: "The Segmentation API enables programmatic interaction with certain segmentation features of Dynamics 365 Marketing app."
 ms.date: 08/12/2019
-ms.reviewer: ""
-ms.service: D365CE
-ms.topic: "article"
-author: "nkrb" # GitHub ID
-ms.author: "nabuthuk" # MSFT alias of Microsoft employees only
-manager: "kvivek" # MSFT alias of manager or PM counterpart
+ms.service: dynamics-365-marketing
+ms.custom: 
+  - dyn365-marketing
+ms.topic: article
+author: alfergus
+ms.author: alfergus
+manager: shellyha
 search.audienceType: 
   - developer
 search.app: 
-  - PowerApps
   - D365CE
+  - D365Mktg
 ---
 
 # Segment Query definition
@@ -84,35 +84,35 @@ An Expression that can be called on a node or edge collection to get a distinct 
 
 ## COUNT
 
-An expression that can be called on the result of [TRAVERSE](#traverse) or inside [HAVING](#having) expression, for grouping conditional expression. 
+An expression that can be called inside [HAVING](#having) expression, for grouping conditional expression. 
 
 **Syntax**
 `COUNT()`
 
 ## AVG
 
-An expression that can be called on the result of [TRAVERSE](#traverse) or inside [HAVING](#having) expression, for grouping conditional expression.
+An expression that can be called inside [HAVING](#having) expression, for grouping conditional expression.
 
 **Syntax**
 `AVG(propertyName)`
 
 ## MIN
 
-An expression that can be called on the result of [TRAVERSE](#traverse) or inside [HAVING](#having) expression, for grouping conditional expression. 
+An expression that can be called inside [HAVING](#having) expression, for grouping conditional expression. 
 
 **Syntax**
 `MIN(propertyName)`
 
 ## MAX
 
-An expression that can be called on the result of [TRAVERSE](#traverse) or inside [HAVING](#having) expression, for grouping conditional expression. 
+An expression that can be called inside [HAVING](#having) expression, for grouping conditional expression. 
 
 **Syntax**
 `MAX(propertyName)`
 
 ## SUM
 
-An expression that can be called on the result of [TRAVERSE](#traverse) or inside [HAVING](#having) expression, for grouping conditional expression.  
+An expression that can be called inside [HAVING](#having) expression, for grouping conditional expression.  
 
 **Syntax**
 `SUM(propertyName)` 
@@ -398,3 +398,6 @@ Grammar definition describes how you can use the query language.
 ## See also 
 
 [Basic operations on segments using code](extend-segments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

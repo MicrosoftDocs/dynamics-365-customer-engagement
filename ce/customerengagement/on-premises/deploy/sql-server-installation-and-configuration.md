@@ -1,8 +1,9 @@
 ---
 title: "SQL Server installation and configuration | Microsoft Docs"
+description: Learn about how to plan your SQL Server deployment for use with Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: "crm-2016"
+ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -16,8 +17,6 @@ author: Mattp123
 manager: kvivek
 ---
 # SQL Server installation and configuration
-
-
 
 To plan your use of [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] with [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)], you must understand how [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] uses [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)], and what [!INCLUDE[pn_Microsoft_Dynamics_CRM_Server_Setup](../includes/pn-microsoft-dynamics-crm-server-setup.md)] does and does not do:  
   
@@ -33,7 +32,7 @@ To plan your use of [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)
   
 -   Similarly, we recommend that you install [!INCLUDE[pn_CRM_Reporting_Extensions_server_side](../includes/pn-crm-reporting-extensions-server-side.md)] on a separate [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] that is running [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)]. However, if needed you can install [!INCLUDE[pn_CRM_Reporting_Extensions_server_side](../includes/pn-crm-reporting-extensions-server-side.md)] on a [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] that is running [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)] but also stores the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] databases.  
   
--   Although, in a multiple organization deployment of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you can specify different [!INCLUDE[pn_reporting_services_short](../includes/pn-reporting-services-short.md)] servers or server instances when you create or edit an organization, only one instance of [!INCLUDE[pn_reporting_services_short](../includes/pn-reporting-services-short.md)] is supported for all organizations in the deployment. For better load balancing of reports, we recommend configuring [!INCLUDE[pn_Report_Server](../includes/pn-report-server.md)] in a Network Load Balancing (NLB) cluster.  <!-- For more information, see [Configure a Report Server on a Network Load Balancing Cluster](https://technet.microsoft.com/library/cc281307.aspx).  -->
+-   Although, in a multiple organization deployment of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you can specify different [!INCLUDE[pn_reporting_services_short](../includes/pn-reporting-services-short.md)] servers or server instances when you create or edit an organization, only one instance of [!INCLUDE[pn_reporting_services_short](../includes/pn-reporting-services-short.md)] is supported for all organizations in the deployment. For better load balancing of reports, we recommend configuring [!INCLUDE[pn_Report_Server](../includes/pn-report-server.md)] in a Network Load Balancing (NLB) cluster.  <!-- For more information, see [Configure a Report Server on a Network Load Balancing Cluster](/sql/reporting-services/report-server/configure-a-report-server-on-a-network-load-balancing-cluster).  -->
   
 -   Multiple [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] front-end servers that run in a network load balancing cluster can use the same computer that is running [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)].  
   
@@ -43,3 +42,6 @@ To plan your use of [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)
  <!--  
  [Planning requirements for Microsoft SQL Server Reporting Services](planning-requirements-for-sql-server-reporting-services.md) -->
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

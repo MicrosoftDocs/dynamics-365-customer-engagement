@@ -1,9 +1,10 @@
 ---
-title: "Set up an organization | MicrosoftDocs"
+title: "Set up organization in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how to set up a Dynamics 365 Customer Engagement (on-premises) organization, manage business units and sites, add resources, and select languages."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,13 +18,14 @@ ms.author: jimholtz
 manager: kvivek
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
 # Set up an organization
 
-This section describes how to set up your Dynamics 365 Customer Engagement (on-premises) organization. You will learn about managing business units and sites, adding resources and selecting language options.  
+This section describes how to set up your Dynamics 365 Customer Engagement (on-premises) organization. You'll learn about managing business units and sites, adding resources, and selecting language options.  
 
 ### See also
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

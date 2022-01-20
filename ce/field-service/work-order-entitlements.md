@@ -1,32 +1,22 @@
 ---
 title: "Entitlements for work orders - Dynamics 365 Field Service | MicrosoftDocs"
-ms.custom: 
-  - dyn365-fieldservice
-ms.date: 04/12/2019
+description: Learn about how to use entitlements for work orders in Dynamics 365 Field Service
+ms.date: 03/17/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.service: dynamics-365-field-service
+ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
 search.app: 
   - D365CE
   - D365FS
 ---
 
-# Entitlements for work orders
+# Entitlements for work orders in Dynamics 365 Field Service
 
 Entitlements for work orders allow field service organizations to dynamically apply price lists and discounts to work order products and services based on work order attributes and date range factors. This parallels how organizations might offer case entitlements in Dynamics 365 Customer Service.
 
@@ -39,7 +29,7 @@ Entitlements can be applied to work orders based on:
 - Customer asset categories
 - Incident types
 
-In this topic, we will explore entitlements for work orders with two scenarios: 
+In this article, we will explore entitlements for work orders with two scenarios: 
 
 > **Scenario 1:** An organization wants to offer a customer a 10% discount for 2 years on all work order products and services based on a preset price list. 
 
@@ -51,12 +41,12 @@ In this topic, we will explore entitlements for work orders with two scenarios:
 
 - Dynamics 365 Customer Service  
 
-- Recommended: Knowledge of Dynamics 365 [price lists](https://docs.microsoft.com/dynamics365/customer-engagement/sales-enterprise/create-price-lists-price-list-items-define-pricing-products)
+- Recommended: Knowledge of Dynamics 365 [price lists](/dynamics365/customer-engagement/sales-enterprise/create-price-lists-price-list-items-define-pricing-products)
 
 
 ## Scenario 1: Entitlement for price list and discount
 
-In our first scenario, an organization wants to offer a customer a 10% discount for 2 years on all work order products and services based on a preset price list. 
+In our first scenario, an organization wants to offer a customer a 10% discount for two years on all work order products and services based on a preset price list. 
 
 ### Step 1: Create a price list and add a product 
 
@@ -67,25 +57,25 @@ Go to **Field Service > Settings > Price Lists** and create a new price list.
 Then add the products and services as price list items with the related prices.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of list of price lists](./media/entitlement-pricelist.png)
+> ![Screenshot of list of price lists.](./media/entitlement-pricelist.png)
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of price lsit items](./media/entitlement-pricelist-item.png)
+> ![Screenshot of price lsit items.](./media/entitlement-pricelist-item.png)
 
 **Bonus tip #1:** Products and services are both added in the product entity. Use the **Field Service Product Type** to distinguish them, and use **Inventory** and **Non-inventory** options for products, and the **Service** option for services. 
 
 **Bonus tip #2:** Enter a list price for the product record if the product doesn't belong to a price list or if it doesn't belong to the price entered on the work order.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of product details](./media/entitlement-product.png)
+> ![Screenshot of product details.](./media/entitlement-product.png)
 
 ### Step 2: Create an entitlement
 
 Go to **Field Service > Settings > Entitlement** and create a new entitlement.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of list of entitlements](./media/entitlement-navigation.png)
+> ![Screenshot of list of entitlements.](./media/entitlement-navigation.png)
 
 You'll see the following fields:
 
@@ -109,7 +99,7 @@ You'll see the following fields:
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of entitlement](./media/entitlement-scenario1.png)
+> ![Screenshot of entitlement.](./media/entitlement-scenario1.png)
 
 ### Step 3: Create a work order and add work order products and services
 
@@ -118,18 +108,18 @@ Next, create a work order your entitlement will apply to.
 In the following screenshot, you'll see a work order with a billing account that is the same as the primary customer of the entitlement. This triggers the entitlement to apply to this work order.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of new work order where the billing account matches the entitlement primary customer](./media/entitlement-work-order1.png)
+> ![Screenshot of new work order where the billing account matches the entitlement primary customer.](./media/entitlement-work-order1.png)
 
 
 Select the products tab to view work order products. Products are typically added to work orders either manually or automatically from work order incidents. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of work order product list](./media/entitlement-work-order-product-list.png)
+> ![Screenshot of work order product list.](./media/entitlement-work-order-product-list.png)
 
 In the **Other** tab of the work order product, the entitlement is automatically chosen. This means the price list chosen on the entitlement is added to the work order product as well, even if this differs from the price list on the work order. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of entitlement applied to work order product](./media/entitlement-work-order-product1.png)
+> ![Screenshot of entitlement applied to work order product.](./media/entitlement-work-order-product1.png)
 
 > [!Note]
 > The work order price list applies to work order products and services by default but an entitlement will override this and apply directly to the work order products and services. 
@@ -137,12 +127,12 @@ In the **Other** tab of the work order product, the entitlement is automatically
 The discount percentage is also applied because of the entitlement, and this edits the estimate total amount. If the work order line status is changed from **Estimated** to **Used**, this is the price that will be billed to the customer.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of discount applied to work order product from the entitlement](./media/entitlement-work-order-product-discount.png)
+> ![Screenshot of discount applied to work order product from the entitlement.](./media/entitlement-work-order-product-discount.png)
 
 
 ## Scenario 2: Entitlement for free products and services for an asset category
 
-In our second scenario, an organization wants to offer a customer free work order products and services for 2 years for work orders that relate to customer assets with a specified category.
+In our second scenario, an organization wants to offer a customer free work order products and services for two years for work orders that relate to customer assets with a specified category.
 
 ### Step 1: Create an entitlement
 
@@ -152,7 +142,7 @@ This entitlement is similar to the previous one; however, **% Discount** is now 
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of entitlement applications](./media/entitlement-scenario2.png)
+> ![Screenshot of entitlement applications.](./media/entitlement-scenario2.png)
 
 From the entitlement, create a new entitlement application to add more details to when the entitlement should be applied.
 
@@ -165,7 +155,7 @@ In the following example, if a work order product or service is related to a cus
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of an entitlement application calling for an asset category](./media/entitlement-scenario2-entitlement-application.png)
+> ![Screenshot of an entitlement application calling for an asset category.](./media/entitlement-scenario2-entitlement-application.png)
 
 Other applications are:
 
@@ -184,32 +174,32 @@ Other applications are:
 Next, create a customer asset. In the following screenshot, you'll find a customer asset that has a category equal to "Wine Press" that we noted on the entitlement application. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a customer asset with an asset category](./media/entitlement-customer-asset.png)
+> ![Screenshot of a customer asset with an asset category.](./media/entitlement-customer-asset.png)
 
 ### Step 3: Create a work order to service the customer asset
 
 Now we will create a work order that matches the entitlement for the second scenario. In the following example, the billing account matches the primary customer. The primary incident customer asset lists an asset that belongs to the "Wine Press" category. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a work order for the billing account and a customer asset the same as the entitlement](./media/entitlement-work-order2.png)
+> ![Screenshot of a work order for the billing account and a customer asset the same as the entitlement.](./media/entitlement-work-order2.png)
 
 The correct entitlement is applied to the work order products.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of entitlement applied to the work order product](./media/entitlement-work-order-product2.png)
+> ![Screenshot of entitlement applied to the work order product.](./media/entitlement-work-order-product2.png)
 
 Products and services added from the **Standard Inspection** incident type are related to the **Press Filter** customer asset.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of customer asset related to the work order product](./media/entitlement-work-order-product2-customer-asset.png)
+> ![Screenshot of customer asset related to the work order product.](./media/entitlement-work-order-product2-customer-asset.png)
 
 Finally, the 100% discount is applied, rendering the work order products as free.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of discount making the work order product free](./media/entitlement-work-order-product2-discount.png)
+> ![Screenshot of discount making the work order product free.](./media/entitlement-work-order-product2-discount.png)
 
 The same entitlement effects apply to work order services as well.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of entitlement applied to the work order service](./media/entitlement-work-order-service2.png)
+> ![Screenshot of entitlement applied to the work order service.](./media/entitlement-work-order-service2.png)
 
 
 ## Entitlement conflicts 
@@ -219,9 +209,9 @@ You can apply multiple entitlements to a single work order product or service. T
 In such cases, all applicable entitlements will show as options in the entitlement lookup field.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of 2 entitlements to choose from for a single work order product](./media/entitlement-conflict-2-options.png)
+> ![Screenshot of 2 entitlements to choose from for a single work order product.](./media/entitlement-conflict-2-options.png)
 
-However, 1 entitlement will be selected by default, first by the **Entitlement Prioritization** value and second by the specificity.
+However, one entitlement will be selected by default, first by the **Entitlement Prioritization** value, and second by the specificity.
 
 The system will look at the entitlement prioritization values of all applicable entitlements and select the one with the highest priority (1 being the highest priority). Any priority value is greater than a blank priority value.
 
@@ -241,12 +231,17 @@ Even if multiple entitlements apply and 1 is chosen by default, the user can man
 - **Applying entitlements to specific products or services**: Adding products and services to the products subgrid in an entitlement will apply the entitlement when the product or service matches the work order product or service.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of product subgrid for an entitlement](./media/entitlement-add-product.png)
+> ![Screenshot of product subgrid for an entitlement.](./media/entitlement-add-product.png)
 
 ## Additional notes
 - Entitlements can't change the cost of a product or service, only the price. 
 
 - For simpler scenarios, administrators should consider using the relationship between work order types, incident types, and price lists. Selecting an incident type can populate a work order type, and populating a work order type can populate a price list on the work order. This is configured during the incident type and work order type setup. Additionally, adding a price list to a work order will populate the price lists on work order products and services by default, but can be manually edited as needed. 
 
-- Entitlements for work orders currently doesn't support quantity-based and limit-based entitlements (for example: a customer is entitled to 10 work orders or the first hour of a service is free).
+- Entitlements for work orders currently don't support quantity-based and limit-based entitlements (for example: a customer is entitled to 10 work orders or the first hour of a service is free).
 
+- Entitlement application and price adjustment only happen online. If a work order product or work order service is created or edited when offline, the entitlement logic will only apply once that record syncs to the server.
+
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

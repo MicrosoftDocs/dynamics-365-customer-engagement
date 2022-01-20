@@ -34,3 +34,6 @@ ms.author: matp
   
  For information about how to set this attribute, see [How to configure IIS to support both the Kerberos protocol and the NTLM protocol for network authentication](https://go.microsoft.com/fwlink/p/?LinkID=24925).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

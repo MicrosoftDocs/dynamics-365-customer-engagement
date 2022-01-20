@@ -1,17 +1,14 @@
 ---
-title: "Set and use event templates (Dynamics 365 Marketing) | Microsoft Docs "
-description: "Describes how to create an event template and how to use templates when creating a new event in Dynamics 365 Marketing"
-keywords: events; template
+title: "Set and use event templates (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Describes how to create an event template and how to use templates when creating a new event in Dynamics 365 Marketing."
 ms.date: 02/01/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: d557e6c9-4fc2-4546-b90a-dd9b0945fdbb
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
 search.audienceType: 
   - admin
   - customizer
@@ -59,7 +56,7 @@ To view the event templates available on your system:
 
 2. Open the view selector (located just above the list) and choose **Event templates**.  
 
-    ![The view selector menu](media/events-template-view-selector.png "The view selector menu")
+    ![The view selector menu.](media/events-template-view-selector.png "The view selector menu")
 
 3. The list now shows only event templates. You can open and work with these templates just as you can with standard events. Changes you make to a template won't affect events that were created based on that template.
 
@@ -67,3 +64,6 @@ To view the event templates available on your system:
 
 [Event planning and management](event-management.md)  
 [Set up an event](set-up-event.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

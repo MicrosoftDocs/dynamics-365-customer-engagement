@@ -1,12 +1,13 @@
 ---
-title: "Server-side synchronization  | MicrosoftDocs"
+title: "Server-side synchronization in Dynamics 365 Customer Engagement (on-premises)"
+description: "Synchronize data for each user that can be controlled by using filters that are available from the Synchronization tab in the user options dialog."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: overview
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
   - Dynamics 365 for Customer Engagement  Version 9.x
@@ -14,18 +15,15 @@ ms.assetid: 96ab5216-fe94-419a-b8a4-03ef2519ca90
 caps.latest.revision: 20
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
+
 ---
-# Server-side synchronization
+# Server-side synchronization overview
 
 <a name="BKMK_serversidesync"></a> 
 
-Server-side synchronization is the preferred option for organizations with users who run Dynamics 365 Customer Engagement (on-premises) in a web browser or on a mobile device, such as a tablet or smartphone. server-side synchronization provides direct Customer Engagement (on-premises)-to-email server synchronization. When you use [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)], this includes bi-directional synchronization of email, contacts, tasks, and appointments. The data synchronized for each user can be controlled by using synchronization filters that are available from the **Synchronization** tab in the Customer Engagement (on-premises) user options dialog.  
+Server-side synchronization is the preferred option for organizations with users who run Dynamics 365 Customer Engagement (on-premises) in a web browser or on a mobile device, such as a tablet or smartphone. Server-side synchronization provides direct Customer Engagement (on-premises)-to-email server synchronization. When you use [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)], this includes bi-directional synchronization of email, contacts, tasks, and appointments. The data synchronized for each user can be controlled by using synchronization filters that are available from the **Synchronization** tab in the Customer Engagement (on-premises) user options dialog.  
   
  If you use a POP3 email server, the data that is synchronized includes email only.  
   
@@ -33,7 +31,7 @@ Server-side synchronization is the preferred option for organizations with users
   
  For more information about server-side synchronization, see [Server-side synchronization of email, appointments, contacts, and tasks](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md).  
   
- ![Server-side synchronization in Dynamics 365 for Customer Engagement](../admin/media/server-side-sync-diagram.png "Server-side synchronization in Dynamics 365 for Customer Engagement")  
+ ![Server-side synchronization in Dynamics 365 for Customer Engagement.](../admin/media/server-side-sync-diagram.png "Server-side synchronization in Dynamics 365 for Customer Engagement")  
   
 > [!NOTE]
 >  A Customer Engagement (on-premises) user can only map to a single [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] or POP3 mailbox. Similarly, an [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] or POP3 mailbox can only be mapped to a single Customer Engagement (on-premises) user. When Customer Engagement (on-premises) detects that an [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] or POP3 mailbox has already been mapped to a Customer Engagement (on-premises) user, a dialog box is displayed to present a choice to the user whether to map the Customer Engagement (on-premises) user to the [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] mailbox. When the user selects yes, it breaks the previous Customer Engagement (on-premises) user to [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] mailbox mapping and subsequently the synchronization that would occur between the Customer Engagement (on-premises) user and the [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] mailbox.  
@@ -59,4 +57,7 @@ Server-side synchronization is the preferred option for organizations with users
   
 ### See also  
  [Set up server-side synchronization of email, appointments, contacts, and tasks](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)   
- [Synchronizing data with Outlook or Exchange FAQ](frequently-asked-questions-synchronizing-records-dynamics-365-and-outlook.md)
+ [Synchronizing data with Outlook or Exchange FAQ](frequently-asked-questions-synchronizing-records-dynamics-365-and-outlook.yml)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

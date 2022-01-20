@@ -1,18 +1,14 @@
 ---
-title: "View and record financial information for events in Dynamics 365 Marketing | Microsoft Docs "
-description: "Learn how to record values for event budgets, expenses, and revenue in Dynamics 365 Marketing"
-keywords: events;financials;budget;costs;revenue
+title: "View and record financial information for events in Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Learn how to record values for event budgets, expenses, and revenue in Dynamics 365 Marketing."
 ms.date: 12/17/2018
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
-ms.assetid: 81db7e88-22fb-498c-b4aa-909c844886c3
 author: alfergus
 ms.author: alfergus
 manager: shellyha
-ms.reviewer:
-topic-status: Drafting
 search.audienceType: 
   - admin
   - customizer
@@ -126,3 +122,6 @@ Each event record provides an **Additional information** tab that includes a **F
 - **Total cost of external members**. Records the total cost of external members. This field is not calculated, so you can enter any value you want.
 - **Total cost of event activities**. Records the total cost of event activities. This field is not calculated, so you can enter any value you want.
 - **Revenue from sponsorship**. Initially tracks and adds together the revenue specified for each sponsorship associated with this event. You can edit this value if needed, but once edited it will stop automatically tracking revenues from associated sponsorship records. Delete the value to reset.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

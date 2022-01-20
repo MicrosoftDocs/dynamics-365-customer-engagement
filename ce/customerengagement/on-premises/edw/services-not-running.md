@@ -57,3 +57,6 @@ ms.author: matp
 4.  Close the Services application.  
   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

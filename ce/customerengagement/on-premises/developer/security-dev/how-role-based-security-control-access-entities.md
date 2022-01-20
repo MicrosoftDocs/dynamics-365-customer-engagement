@@ -3,8 +3,8 @@ title: "How role-based security can be used to control access to entities (Devel
 description: "A role contains privileges that define a set of actions that can be performed within the organization. All users must be assigned to one or more predefined or custom roles"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # How role-based security can be used to control access to entities
 
@@ -60,11 +59,11 @@ In Dynamics 365 Customer Engagement (on-premises) the fundamental concept in rol
 
 |||  
 |-|-|  
-|![Access level global](../media/access-level-global.gif "Access level global")|**Global**. This access level gives a user access to all records within the organization, regardless of the business unit hierarchical level to which the instance or the user belongs. Users who have Global access automatically have Deep, Local, and Basic access, also.<br /><br /> Because this access level gives access to information throughout the organization, it should be restricted to match the organization's data security plan. This level of access is usually reserved for managers with authority over the organization.<br /><br /> The application refers to this access level as **Organization**.|  
-|![Access level deep](../media/access-deep.png "Access level deep")|**Deep**. This access level gives a user access to records in the user's business unit and all business units subordinate to the user's business unit.<br /><br /> Users who have Deep access automatically have Local and Basic access, also.<br /><br /> Because this access level gives access to information throughout the business unit and subordinate business units, it should be restricted to match the organization's data security plan. This level of access is usually reserved for managers with authority over the business units.<br /><br /> The application refers to this access level as **Parent: Child Business Units**.|  
-|![Access level local](../media/access-local.gif "Access level local")|**Local**. This access level gives a user access to records in the user's business unit.<br /><br /> Users who have Local access automatically have Basic access, also.<br /><br /> Because this access level gives access to information throughout the business unit, it should be restricted to match the organization's data security plan. This level of access is usually reserved for managers with authority over the business unit.<br /><br /> The application refers to this access level as **Business Unit**.|  
-|![Access level basic](../media/access-level-basic.gif "Access level basic")|**Basic**.<br /><br /> This access level gives a user access to records he or she owns, objects that are shared with the user, and objects that are shared with a team of which the user is a member.<br /><br /> This is the typical level of access for sales and service representatives.<br /><br /> The application refers to this access level as **User**.|  
-|![Access level none](../media/access-level-none.gif "Access level none")|**None**. No access is allowed.|  
+|![Access level global.](../media/access-level-global.gif "Access level global")|**Global**. This access level gives a user access to all records within the organization, regardless of the business unit hierarchical level to which the instance or the user belongs. Users who have Global access automatically have Deep, Local, and Basic access, also.<br /><br /> Because this access level gives access to information throughout the organization, it should be restricted to match the organization's data security plan. This level of access is usually reserved for managers with authority over the organization.<br /><br /> The application refers to this access level as **Organization**.|  
+|![Access level deep.](../media/access-deep.png "Access level deep")|**Deep**. This access level gives a user access to records in the user's business unit and all business units subordinate to the user's business unit.<br /><br /> Users who have Deep access automatically have Local and Basic access, also.<br /><br /> Because this access level gives access to information throughout the business unit and subordinate business units, it should be restricted to match the organization's data security plan. This level of access is usually reserved for managers with authority over the business units.<br /><br /> The application refers to this access level as **Parent: Child Business Units**.|  
+|![Access level local.](../media/access-local.gif "Access level local")|**Local**. This access level gives a user access to records in the user's business unit.<br /><br /> Users who have Local access automatically have Basic access, also.<br /><br /> Because this access level gives access to information throughout the business unit, it should be restricted to match the organization's data security plan. This level of access is usually reserved for managers with authority over the business unit.<br /><br /> The application refers to this access level as **Business Unit**.|  
+|![Access level basic.](../media/access-level-basic.gif "Access level basic")|**Basic**.<br /><br /> This access level gives a user access to records he or she owns, objects that are shared with the user, and objects that are shared with a team of which the user is a member.<br /><br /> This is the typical level of access for sales and service representatives.<br /><br /> The application refers to this access level as **User**.|  
+|![Access level none.](../media/access-level-none.gif "Access level none")|**None**. No access is allowed.|  
 
 <a name="bkmk_all"></a>   
 ## Putting it all together  
@@ -112,3 +111,6 @@ In Dynamics 365 Customer Engagement (on-premises) the fundamental concept in rol
  [Privilege and Role Entities](../privilege-role-entities.md)     
  [Use record-based security to control access to records](../security-dev/use-record-based-security-control-access-records.md)   
  [How Field Security Can Be Used to Control Access to Field Values In Microsoft Dynamics 365 Customer Engagement (on-premises)](../security-dev/use-field-security-control-access-field-values.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

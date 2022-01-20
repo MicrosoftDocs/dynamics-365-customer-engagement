@@ -1,9 +1,9 @@
 ---
-title: "Specify properties for Unified Interface apps | MicrosoftDocs"
-description: "Learn how to configure the grid control for your app"
+title: "Set grid properties for Unified Interface apps in Dynamics 365 Customer Engagement (on-premises)"
+description: "As an app maker working with a Unified Interface app, you can configure the Read Only Grid control and its properties for custom grids and lists."
 keywords: 
 ms.date: 01/09/2019
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.custom: 
 ms.topic: article
 applies_to: 
@@ -20,14 +20,9 @@ caps.latest.revision: 0
 topic-status: Drafting
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
-
-
-# Specify properties for Unified Interface apps
-
-
+# Configure the properties for custom grids and lists in Unified Interface apps
 
 The Unified Interface framework uses responsive design principles to provide an optimal viewing and interaction experience for any screen size or orientation. With custom business apps that use the Unified Interface framework, the grid (view) control is responsive. As the size of the container decreases—for example, on phones and smaller viewports—the grid is transformed into a list. 
 
@@ -44,17 +39,17 @@ Adding the Read Only Grid control to your controls list allows you to  configure
 1. Open solution explorer.
 2. In navigation pane expand **Entities**, select the appropriate entity (such as **Account** or **Contact**), and then on the **Controls** tab, select **Add Control**.
 
-    ![Open add control](media/UnifiedInterface_ReadOnlyGrid_AddControl.png "Open Add Control")
+    ![Open add control.](media/UnifiedInterface_ReadOnlyGrid_AddControl.png "Open Add Control")
 
 3. Select **Read Only Grid** from the list of controls, and then choose **Add**.
 
     The control is added to the list of available controls.
 
-    ![Select a control](media/UnifiedInterface_ReadOnlyGrid_SelectControl.png "Select a Control")
+    ![Select a control.](media/UnifiedInterface_ReadOnlyGrid_SelectControl.png "Select a Control")
 
 4. Select the devices (**Web**, **Phone**, or **Tablet**) for which you want to make the grid read-only.
 
-    ![Select the device type](media/UnifiedInterface_ReadOnlyGrid_SelectDevice.png "Select devices")
+    ![Select the device type.](media/UnifiedInterface_ReadOnlyGrid_SelectDevice.png "Select devices")
 
 5. Configure the **Card Form** property.
 
@@ -62,18 +57,18 @@ Adding the Read Only Grid control to your controls list allows you to  configure
 
     a. Choose the pencil icon next to **Card Form**.
 
-    ![Edit card form](media/UnifiedInterface_ReadOnlyGrid_CardForm.png "Edit card form")
+    ![Edit card form.](media/UnifiedInterface_ReadOnlyGrid_CardForm.png "Edit card form")
 
     b.  Select the **Entity** and **Card Form** types.
 
-    ![Card form properties](media/UnifiedInterface_ReadOnlyGrid_CardFormProperties.png "Card form properties")
+    ![Card form properties.](media/UnifiedInterface_ReadOnlyGrid_CardFormProperties.png "Card form properties")
 
     c. Choose **OK**.
 6. Configure the **Reflow behavior** property. 
 
     a. Choose the pencil icon next to **Reflow behavior**.
 
-    ![Edit Reflow behaviour](media/UnifiedInterface_ReadOnlyGrid_EditReflow.png "Edit Reflow behaviour")
+    ![Edit Reflow behaviour.](media/UnifiedInterface_ReadOnlyGrid_EditReflow.png "Edit Reflow behaviour")
 
     b. Select the grid flow type from **Bind to static options** drop down.
 
@@ -83,7 +78,7 @@ Adding the Read Only Grid control to your controls list allows you to  configure
     |**Grid Only**|Restricts the grid to reflow into list even when there is no enough display space.|
     |**List Only**|Displays only as a list even when there is enough space to display as grid.|
 
-     ![Reflow behaviour properties](media/UnifiedInterface_ReadOnlyGrid_ReflowProperties.png "Reflow behaviour properties")
+     ![Reflow behaviour properties.](media/UnifiedInterface_ReadOnlyGrid_ReflowProperties.png "Reflow behaviour properties")
 
     c. Choose **OK**.
 
@@ -96,3 +91,6 @@ You can display a custom icon instead of a value in a list and establish the log
 
 ### See also
 [Create or edit a view](create-edit-views.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

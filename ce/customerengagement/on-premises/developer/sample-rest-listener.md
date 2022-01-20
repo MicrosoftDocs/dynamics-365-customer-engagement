@@ -3,11 +3,11 @@ title: "Sample: REST listener (Developer Guide for Dynamics 365 Customer Engagem
 description: "The sample shows how to write a Azure Service Bus Listener for a REST endpoint contract. "
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
@@ -19,8 +19,6 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 # Sample: REST listener
 
@@ -42,3 +40,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
  [Sample Code for Dynamics 365 Customer Engagement and Microsoft Azure Integration](sample-code-azure-integration.md)   
  [Sample: Persistent Queue Listener](sample-persistent-queue-listener.md)   
  <xref:Microsoft.Xrm.Sdk.IWebHttpServiceEndpointPlugin>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

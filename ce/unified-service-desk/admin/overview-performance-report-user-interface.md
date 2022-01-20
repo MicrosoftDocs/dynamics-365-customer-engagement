@@ -1,21 +1,20 @@
 ---
 title: "Overview of Unified Service Desk Performance Report user interface | MicrosoftDocs"
 description: "Learn about what is Unified Service Desk Performance Analyzer and the performance report user interface."
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
 ms.date: 10/31/2018
-ms.service: 
-  - dynamics-365-customerservice
-ms.topic: article
-author: kabala123
-ms.author: kabala
+ms.topic: overview
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
+  - intro-internal
 monikerRange: '>= dynamics-usd-3'
 ---
 
@@ -41,7 +40,7 @@ The landing page of the performance report displays the following:
 
 - **Individual reports:** See the details of the operations, percentiles, action, and time taken for the different methods in the form a timeline graph and table.
 
-![Performance report user interface](../media/performance-report-interface.PNG "Performance report user interface")
+![Performance report user interface.](../media/performance-report-interface.PNG "Performance report user interface")
 
 > [!div class="nextstepaction"]
 > [Terminologies in the performance report](terminologies-performance-report.md)
@@ -58,3 +57,6 @@ The landing page of the performance report displays the following:
 [View, read, and compare performance report](view-read-compare-performance-report.md)
 
 [Categories and operations](operations-categories.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

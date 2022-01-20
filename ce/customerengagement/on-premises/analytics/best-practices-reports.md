@@ -1,9 +1,10 @@
 ---
-title: "Best practices for reports  | MicrosoftDocs"
+title: "Report best practices for Dynamics 365 Customer Engagement (on-premises)"
+description: "The following best practices can help you produce reports that are easier to write, comply with established standards, and execute with improved efficiency."
 ms.custom: 
-ms.date: 09/30/2017
+ms.date: 06/28/2021
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -18,8 +19,7 @@ tags:
   - MigrationHO
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Best practices for reports
 
@@ -65,3 +65,6 @@ The following best practices can help you produce reports that are easier to wri
 ### See also  
  [Reporting and Analytics Guide](../analytics/reporting-analytics-with-dynamics-365.md)   
  [Improve performance of reports](../analytics/improve-performance-reports.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

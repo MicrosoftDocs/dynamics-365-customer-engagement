@@ -3,8 +3,8 @@ title: "Dynamics 365 Customer Engagement Web API Versions (Developer Guide for D
 description: "Read how versioning of Dynamics 365 Customer Engagement Web API works. Dynamics 365 Customer Engagement Web API versions support version specific differences in the same environment which is different from the behavior in the v8.x releases in which new capabilities were additive"
 ms.custom: 
 ms.date: 04/15/2019
-ms.reviewer: susikka
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -16,12 +16,11 @@ author: JimDaly
 ms.author: jdaly
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Dynamics 365 Customer Engagement Web API Versions
 
-Beginning with the [!INCLUDE[pn_crm_9_0_0_online](../../includes/pn-crm-9-0-0-online.md)] (v9.0) release, the [!INCLUDE[pn_ms_dyn_365](../../includes/pn-ms-dyn-365.md)] for Customer Engagement (on-premises) Web API supports version specific differences in the same environment.  
+Beginning with the [!INCLUDE[pn_crm_9_0_0_online](../../includes/pn-crm-9-0-0-online.md)] (v9.x) release, the [!INCLUDE[pn_ms_dyn_365](../../includes/pn-ms-dyn-365.md)] for Customer Engagement (on-premises) Web API supports version specific differences in the same environment.  
   
  This is different from the behavior for in the v8.*x* releases. In the previous releases new capabilities were available to any version of the service depending on the update applied to the environment.  After an upgrade to v8.2, the v8.0, and v8.1 services were all identical. This was possible because all the changes were additive. Nothing was removed or introduced breaking changes. As a result, the specific version referenced in the service URL for the v8.*x* wasn't actually important.  
   
@@ -49,3 +48,5 @@ Beginning with the [!INCLUDE[pn_crm_9_0_0_online](../../includes/pn-crm-9-0-0-on
  [Use the Dynamics 365 Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)   
  [Authenticate to Dynamics 365 Customer Engagement (on-premises) with the Web API](authenticate-web-api.md)   
  
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

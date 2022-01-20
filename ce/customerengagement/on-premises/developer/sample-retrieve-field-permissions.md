@@ -3,11 +3,11 @@ title: "Sample: Retrieve field permissions (Developer Guide for Dynamics 365 Cus
 description: "The sample shows how to retrieve secured fields for a user according to the steps outlined in Field security entities."
 ms.custom: 
 ms.date: 01/08/2020
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
@@ -20,12 +20,10 @@ ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 # Sample: Retrieve field permissions
 
-This sample shows how to retrieve secured fields for a user according to the steps outlined in [Field security entities](https://docs.microsoft.com/dynamics365/customer-engagement/developer/field-security-entities). You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/RetrieveFieldPermission).
+This sample shows how to retrieve secured fields for a user according to the steps outlined in [Field security entities](/dynamics365/customer-engagement/developer/field-security-entities). You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/RetrieveFieldPermission).
 
 This sample requires additional users that are not in your system. Create the required users manually in **Office 365** in order to run the sample without any errors. For this sample create a user profile **as is** shown below. Replace `yourorg` with the organization name.
 
@@ -68,3 +66,6 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 
 Display an option to delete the records created in the [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

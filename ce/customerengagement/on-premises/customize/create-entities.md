@@ -1,10 +1,10 @@
 ---
-title: "Create an entity with Dynamics 365 for Customer Engagement | MicrosoftDocs"
-description: "Learn how to create an entity"
+title: "Create an entity in Dynamics 365 Customer Engagement (on-premises)"
+description: "Learn how to create a new entity in Dynamics 365. As an app maker or customizer, follow these steps to create an entity using solution explorer."
 ms.custom: 
 ms.date: 02/13/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,18 +17,17 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
-# Create an entity
-
-
+# Create a custom entity
 
 <a name="BKMK_CreatingEntities"></a>   
 
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Create a custom entity](/powerapps/maker/common-data-service/data-platform-create-entity)
+
  Before you create a custom entity, evaluate whether using an existing entity will meet your requirements. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create new metadata or use existing metadata](../customize/create-edit-metadata.md#BKMK_CreateNewOrUseExistingMetadata)  
 
- Part of the name of any custom entity you create is the customization prefix. This is set based on the solution publisher for the solution you’re working in. If you care about the customization prefix, make sure that you are working in an unmanaged solution or the default solution where the customization prefix is the one you want for this entity. For information about how to change the customization prefix, see [Solution Publisher](../customize/change-solution-publisher-prefix.md#BKMK_SolutionPublisher).  
+ Part of the name of any custom entity you create is the customization prefix. This is set based on the solution publisher for the solution you’re working in. If you care about the customization prefix, make sure that you are working in an unmanaged solution or the default solution where the customization prefix is the one you want for this entity. For information about how to change the customization prefix, see [Change the solution publisher prefix](../customize/change-solution-publisher-prefix.md).  
 
 ## Overview for creating an entity
  The minimum required fields to create a custom entity are:  
@@ -43,7 +42,7 @@ search.app:
 
 > [!NOTE]
 >  - If you are using [!INCLUDE[tn_Safari](../includes/tn-safari.md)] as your browser, you may receive a timeout error when trying to save or publish a new custom entity. If this occurs we recommend you use a different browser to create entities.  
->  - In order for the entity name to work with [Dynamics 365 for Customer Service embedded knowledge search](https://docs.microsoft.com/dynamics365/customer-engagement/customer-service/set-up-knowledge-management-embedded-knowledge-search), the maximum entity name length including the publisher prefix can’t exceed 24 characters.
+>  - In order for the entity name to work with [Dynamics 365 for Customer Service embedded knowledge search](/dynamics365/customer-engagement/customer-service/set-up-knowledge-management-embedded-knowledge-search), the maximum entity name length including the publisher prefix can’t exceed 24 characters.
  
 To create an activity entity, select **Define as an activity entity** before you save the entity. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Activity entities](../customize/types-of-entities.md#BKMK_ActivityEntities)  
 
@@ -72,3 +71,6 @@ As an app maker or customizer, you can create and edit entities by using solutio
 [Create and edit fields (attributes)](create-edit-fields.md) <br />
 [Create or edit a main form for an entity](create-edit-main-forms.md) <br />
 [Understand views (lists)](create-edit-views.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

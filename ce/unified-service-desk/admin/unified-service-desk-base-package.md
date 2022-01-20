@@ -1,24 +1,25 @@
 ---
-title: "Unified Service Desk  Base package | MicrosoftDocs"
-description: "Overview of the base sample application."
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+title: "Unified Service Desk Base package | MicrosoftDocs"
+description: "Learn about the Base sample application that's part of Unified Service Desk, its components, and how you can use it."
 ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - admin
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
+  - dyn365-admin
 ---
 # Base sample application package
-[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is a desktop application that helps your customer service agents provide phone, email, and chat support to your customers. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides a configurable framework to quickly build an Agent Desktop application that’s integrated with the Common Data Service platform. With [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] you can quickly make a customized Agent Desktop application by leveraging the User Interface Integration (UII) framework.  
+
+[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is a desktop application that helps your customer service agents provide phone, email, and chat support to your customers. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides a configurable framework to quickly build an Agent Desktop application that’s integrated with Microsoft Dataverse. With [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] you can quickly make a customized Agent Desktop application by leveraging the User Interface Integration (UII) framework.  
   
  With the Unified Service Desk Base sample application package, the following components are installed:  
   
@@ -26,7 +27,7 @@ search.app:
   
 - Unified Service Desk Solution  
   
-- Data required for the Common Data Service platform and customizations  
+- Data required for Dataverse and customizations  
   
 > [!IMPORTANT]
 >  The sample applications are not supported for production use.  
@@ -50,7 +51,7 @@ search.app:
   
 8. **Notes**: This is the area to take notes in regarding the case.  
   
-   ![Unified Service Desk Base package components](../../unified-service-desk/media/unifiedservicedeskbasepackage.png "Unified Service Desk Base package components")  
+   ![Unified Service Desk Base package components.](../../unified-service-desk/media/unifiedservicedeskbasepackage.png "Unified Service Desk Base package components")  
   
 ## View active cases  
  From the toolbar, click **My Work** to see all of your active cases, and then select a case to work on. When you open a case, a new session opens.  
@@ -86,3 +87,6 @@ search.app:
   
 ## See also  
  [Unified Service Desk Overview](../../unified-service-desk/admin/overview-unified-service-desk.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

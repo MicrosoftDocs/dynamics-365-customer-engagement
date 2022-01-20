@@ -1,8 +1,9 @@
 ---
 title: "Get started with virtual entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.date: 06/21/2019
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.topic: get-started-article
+ms.custom: intro-internal
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 14c5fbbc-98db-4e49-b245-2c84c1cd11cd
@@ -11,8 +12,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Get started with virtual entities
@@ -57,3 +57,6 @@ In this release, there are some limitations to virtual entities that you need to
 - Once created, a virtual entity cannot be changed to be a standard (non-virtual) entity.  The reverse is also true: a standard entity cannot be converted into a virtual entity.
 
 For more information about how these limitations are reflected in the [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] for Customer Engagement (on-premises) API, see [API considerations of virtual entities](api-considerations-ve.md). 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

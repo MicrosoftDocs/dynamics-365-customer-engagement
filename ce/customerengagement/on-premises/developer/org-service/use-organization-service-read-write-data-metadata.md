@@ -3,8 +3,8 @@ title: "Use the Organization Service to read and write data or metadata (Develop
 description: "IOrganizationService is the primary web service that accesses data and metadata for your organization. This web service contains the methods that you use to write code that uses all the data and metadata in Dynamics 365 Customer Engagement"
 ms.custom: on-premise
 ms.date: 04/01/2019
-ms.reviewer: "pehecke"
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -16,8 +16,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Use the Organization Service to read and write data or metadata
@@ -31,6 +30,9 @@ In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)],
  
 ## Related Sections  
 
- [Use the Common Data Service Organization Service](/powerapps/developer/common-data-service/org-service/overview)  
+ [Use the Dataverse Organization Service](/powerapps/developer/common-data-service/org-service/overview)  
  [Use connection strings in XRM tooling to connect to Dynamics 365 Customer Engagement (on-premises)](../xrm-tooling/use-connection-strings-xrm-tooling-connect.md)  
  [Quick Start: Organization service sample (C#)](/powerapps/developer/common-data-service/org-service/quick-start-org-service-console-app)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

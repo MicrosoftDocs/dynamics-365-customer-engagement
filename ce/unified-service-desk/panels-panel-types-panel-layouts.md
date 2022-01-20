@@ -1,14 +1,10 @@
 ---
 title: "Panels, panel types, and panel layouts in Unified Service Desk | MicrosoftDocs"
-description: "Learn about using panels to display hosted controls of various types. Various predefined panel types are available in Unified Service Desk to support a variety of layout options such as tabbed layout, deck layout, and stacked layout."
-ms.custom: 
-  - dyn365-USD
+description: "Learn about predefined panels, panel types, and panel layouts available in Unified Service Desk to display hosted controls of various types."
 ms.date: 08/23/2017
-ms.service: 
-  - dynamics-365-customerservice
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - customizer
@@ -16,6 +12,8 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Panels, panel types, and panel layouts in Unified Service Desk
 [!INCLUDE[pn_unified_service_desk_for_crm](../includes/pn-unified-service-desk-for-crm.md)] uses panels to display hosted controls of various types. Various predefined panel types are available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to support a variety of layout options such as tabbed layout, deck layout, and stacked layout. You define the arrangement of these panels on the main screen of [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] using a **Panel Layout** hosted control. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Panel Layout (Hosted Control)](../unified-service-desk/panel-layout-hosted-control.md)
@@ -71,7 +69,7 @@ search.app:
 
  The following layout depicts the **Standard Main Panel** type of panel layout (also called standard panel layout) in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].
 
- ![Air theme in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-themeair.png "Air theme in Unified Service Desk")
+ ![Air theme in Unified Service Desk.](../unified-service-desk/media/crm-itpro-usd-themeair.png "Air theme in Unified Service Desk")
 
 > [!NOTE]
 >  If you do not create any panel layout in your [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] configuration, the standard panel layout is used automatically to display panels and controls in the client application.
@@ -380,3 +378,6 @@ search.app:
 ### See also
  [Use custom panel types and panel layouts](../unified-service-desk/use-custom-panel-types-panel-layouts-unified-service-desk.md)
  [Keyboard shortcuts for panels](../unified-service-desk/keyboard-shortcuts-panels.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

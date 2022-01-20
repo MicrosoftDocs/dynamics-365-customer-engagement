@@ -59,7 +59,7 @@ There may be occasions when you have to install [!INCLUDE[pn_crm_for_outlook_sho
 
    After you are finished the  *CRMforOutlookwithoutInternet* folder looks similar to this.
 
-   ![Folders for setting up Dynamics 365 for Outlook with no internet](../media/itpro-crm-for-outlook-no-internet-setup.png "Folders for setting up Dynamics 365 for Outlook with no internet")
+   ![Folders for setting up Dynamics 365 for Outlook with no internet.](../media/itpro-crm-for-outlook-no-internet-setup.png "Folders for setting up Dynamics 365 for Outlook with no internet")
 
 <a name="BKMK_3download"></a>
 ## Step 3: Download the prerequisite files
@@ -148,3 +148,6 @@ There may be occasions when you have to install [!INCLUDE[pn_crm_for_outlook_sho
 ## Step 4: Run [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] Setup
  Now that you have all the [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] installation files and prerequisites downloaded and saved in the correct folders, you can run [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] Setup (SetupClient.exe) without an Internet connection.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

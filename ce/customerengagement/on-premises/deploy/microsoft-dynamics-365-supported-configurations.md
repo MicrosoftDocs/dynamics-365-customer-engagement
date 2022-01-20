@@ -1,8 +1,9 @@
 ---
 title: "Dynamics 365 Customer Engagement (on-premises) supported configurations | Microsoft Docs"
+description: Learn about the supported configurations for Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: "crm-2016"
+ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -60,3 +61,6 @@ The deployment architecture you will use depends on your business needs. Example
  [Planning Your Deployment of Microsoft Dynamics CRM 2015](planning-your-deployment-of-microsoft-dynamics-365.md)   
  [Multiple-server deployment](microsoft-dynamics-365-multiple-server-deployment.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

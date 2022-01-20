@@ -3,8 +3,8 @@ title: "Lead entity (Developer Guide for Dynamics 365 Customer Engagement (on-pr
 description: "Learn about lead entity that represents an individual who is interested in receiving specific information about products or services offered by the company."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -23,8 +23,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Lead entity
 
@@ -53,3 +52,6 @@ A *lead* entity represents an individual that is identified as someone who is in
  [Sample: Qualify a Lead](sample-qualify-lead.md)   
  [Sales Entities](sales-entities-lead-opportunity-competitor-quote-order-invoice.md)   
  [Opportunity Entities](opportunity-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

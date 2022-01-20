@@ -3,11 +3,11 @@ title: "Sample: Convert an opportunity to a quote (early bound) (Developer Guide
 description: "The sample demonstrates how to convert an opportunity that contains products from the product catalog and a write-in product to a quote."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
@@ -22,8 +22,6 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 # Sample: Convert an opportunity to a quote (early bound)
 
@@ -45,3 +43,6 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
     
  [Opportunity Entities](opportunity-entities.md)   
  <xref:Microsoft.Crm.Sdk.Messages.GenerateQuoteFromOpportunityRequest>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
-title: iFrame properties for Main forms | MicrosoftDocs
-description: Understand the iFrame properties for Main forms
+title: "Set iFrame properties in Dynamics 365 Customer Engagement (on-premises)"
+description: "You can add iFrames to a form to integrate content from another website within the form. Learn how to manage properties such as name, formatting, and more."
 Keywords: Main form; iFrame properties; Dynamics 365 for Customer Engagement
 author: Mattp123
 applies_to: 
@@ -9,24 +9,22 @@ applies_to:
 ms.author: matp
 manager: kvivek
 ms.date: 11/04/2018
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.topic: article
 ms.assetid: 1b7e6a0c-18a9-47e2-aa7d-0cffb8c93b19
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
-# iFrame properties
+# Access and set the iFrame properties of a form
 
-
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [iFrame properties for model-driven app main forms](/powerapps/maker/model-driven-apps/iframe-properties-legacy)
 
 You can add iFrames to a form to integrate content from another website within a form. 
 
 You can access **Form properties** in solution explorer. Under **Components**, expand **Entities**, expand the entity you want, and then select **Forms**. In the list of forms, open the form of type **Main**. Then on the **Insert** tab, select IFRAME to view IFRAME properties.
 
-![iframe-properties](media/iframe-properties.png)
-
+![Add an iframe properties page.](media/iframe-properties.png)
 
 > [!NOTE]
 > Forms are not designed to be displayed within an iFrame.  
@@ -63,3 +61,6 @@ You can access **Form properties** in solution explorer. Under **Components**, e
 ## See also
 
 [Use the Main form and its components](../customize/use-main-form-and-components.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

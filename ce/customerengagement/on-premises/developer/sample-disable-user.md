@@ -3,11 +3,11 @@ title: "Sample: Disable a user (Developer Guide for Dynamics 365 Customer Engage
 description: "The sample shows how to create a user in an Active Directory environment using the SetStateRequest message."
 ms.custom: 
 ms.date: 1/24/2020
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 082fc88f-a951-41c2-85ae-4b5e69e9917c
@@ -17,8 +17,6 @@ ms.author: kvivek
 manager: KumarVivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 # Sample: Disable a user
 
@@ -52,3 +50,6 @@ To view the summary of the specified system user in Customer Engagement, navigat
 
 [User and Team Entities](user-team-entities.md)  
 <xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

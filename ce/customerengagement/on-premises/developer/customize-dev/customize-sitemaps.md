@@ -3,8 +3,8 @@ title: "Customize SiteMaps (Developer Guide for Dynamics 365 Customer Engagement
 description: "The SiteMap provides the structure for navigation in Dynamics 365 Customer Engagement. The SiteMap entity stores information about the site map, and the SiteMap.SiteMapXml attribute stores the XML that defines the site map."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -16,8 +16,7 @@ author: KumarVivek
 ms.author: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Customize SiteMaps
 
@@ -47,3 +46,6 @@ The SiteMap provides the structure for navigation in [!INCLUDE[pn_dynamics_crm](
 ### See also  
  [Customize Microsoft Dynamics 365 Customer Engagement applications](customize-applications.md)   
  <!--[Define access permission for modular business apps in Dynamics 365 Customer Engagement](../create-manage-business-apps.md) -->
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

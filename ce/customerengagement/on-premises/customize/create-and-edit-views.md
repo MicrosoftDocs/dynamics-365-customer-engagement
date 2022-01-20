@@ -1,10 +1,10 @@
 ---
-title: "Create or edit a view in Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
-description: "Learn how to create or edit a view"
+title: "Create a view in Dynamics 365 Customer Engagement (on-premises)"
+description: "Follow these steps to create or edit custom public views. You can also create a new view by editing an existing one and saving it with a different name."
 ms.custom: 
 ms.date: 11/09/2018
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,14 +17,13 @@ ms.author: matp
 manager: kvivek
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
 # Create or edit a view
 
-
-
 <a name="BKMK_CreatingAndEditingViews"></a>   
+
+[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Create and edit public or system model-driven app views](/powerapps/maker/model-driven-apps/create-edit-views-app-designer)
 
  You can create custom public views by editing existing views and saving them with a different name or by creating a new view.  
   
@@ -48,9 +47,9 @@ search.app:
   
 ### Edit a view  
   
-1. Open solution explorer.
+1. Open solution explorer. In the Dynamics 365 Customer Engagement (on-premises) app, select **Settings** > **Settings** > **Customizations** > **Customize the system**.
   
-2.  Under **Components**, expand **Entities**, and then expand the entity you want.  
+2. Under **Components**, expand **Entities**, and then expand the entity you want.  
   
 3.  Select **Views**.  
   
@@ -75,3 +74,6 @@ search.app:
  
 ### See also
 [Create or edit views (overview)](create-edit-views.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

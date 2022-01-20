@@ -3,11 +3,11 @@ title: "Sample: Create an on-premises user (Developer Guide for Dynamics 365 Cus
 ms.custom: 
 description: "The sample shows how to create a new system user in Active Directory and Customer Engagement."
 ms.date: 1/23/2020
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: d3ea30ab-e55e-4aa7-8406-3441c71903a2
@@ -17,8 +17,6 @@ ms.author: kvivek
 manager: KumarVivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 # Sample: Create an on-premises user
 
@@ -108,7 +106,7 @@ namespace PowerApps.Samples
                 }
                 else
                 {
-                    const string UNABLE_TO_LOGIN_ERROR = "Unable to Login to Common Data Service";
+                    const string UNABLE_TO_LOGIN_ERROR = "Unable to Login to Dataverse";
                     if (service.LastCrmError.Equals(UNABLE_TO_LOGIN_ERROR))
                     {
                         Console.WriteLine("Check the connection string values in cds/App.config.");
@@ -346,3 +344,6 @@ namespace PowerApps.Samples
 ### See also  
  [User and Team Entities](user-team-entities.md)   
  [Sample: Disable a User](sample-disable-user.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

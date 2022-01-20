@@ -1,38 +1,26 @@
 ---
-title: "Sample: Custom plug-in to use Google Maps API as geospatial data provider | MicrosoftDocs"
-description: "A sample that demonstrates how to use a custom plug-in use Google Maps API for geospatial operations in Dynamics 365 Field Service."
-ms.custom: 
-  - dyn365-developer
-  - dyn365-customerservice
-ms.date: 01/29/2018
+title: "Create plug-in to use geospatial data from Google Maps in Universal Resource Scheduling"
+description: "Reference this sample to create a custom plug-in for Universal Resource Scheduling actions to use geospatial data from Google Maps instead of Bing."
+ms.date: 04/01/2020
 searchScope: 
   - Field Service
   - Project Service
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.technology: 
-  - field-service
-  - project-service
-ms.tgt_pltfrm: 
-ms.topic: sample
-ms.assetid: 1773e012-dbad-4320-95fe-40877adfdabb
+ms.service: dynamics-365-field-service
+ms.subservice: common-scheduler
+ms.topic: article
 author: FieldServiceDave
 ms.author: daclar
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
 search.app: 
   - D365CE
   - D365PS
   - D365FS
 ---
-# Sample: Custom plug-in to use Google Maps API as geospatial data provider
+# Sample: Create custom plug-in to use Google Maps API as your geospatial data provider
 
 You can use a custom plug-in to use geospatial data from a data provider of your choice instead of using the default Bing Maps API in Field Service and Project Service.
 
-Download the sample: [Custom plug-in to use Google Maps API as geospatial data provider (Dynamics 365)](https://code.msdn.microsoft.com/Custom-plug-in-to-use-d244f452)
+Sample is available here: [Custom plug-in to use Google Maps API as geospatial data provider (Dynamics 365)](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/field-service/CustomPlugin-FS-Geospatial)
 
 ## Prerequisites
 
@@ -53,13 +41,13 @@ This sample shows how to create a custom plug-in for the **msdyn_GeocodeAddress*
 
 This sample generates a plug-in assembly file: **CustomPlugin-FS-Geospatial.dll**.
 
-1. [Download](https://code.msdn.microsoft.com/Custom-plug-in-to-use-d244f452) the sample, and extract the .zip file.
-2. Navigate to the extracted folder, and double-click the **CustomPlugin-FS-Geospatial.sln** file to open the solution in Visual Studio.
-3. In Visual Studio, select **Build** > **Build Solution**. The NuGet packages used in the solution will download automatically if the option to restore NuGet packages automatically on building a project is enabled in Visual Studio. More information: [Enabling and disabling package restore](https://docs.microsoft.com/nuget/consume-packages/package-restore#enabling-and-disabling-package-restore) 
+1. Download or clone the [samples repo](https://github.com/microsoft/Dynamics365-Apps-Samples).
+2. Navigate to the location where you downloaded or cloned the repo on your computer, go to the **field-service/CustomPlugin-FS-Geospatial** folder, and double-click the **CustomPlugin-FS-Geospatial.sln** file to open the solution in Visual Studio.
+3. In Visual Studio, select **Build** > **Build Solution**. The NuGet packages used in the solution will download automatically if the option to restore NuGet packages automatically on building a project is enabled in Visual Studio. More information: [Enabling and disabling package restore](/nuget/consume-packages/package-restore#enabling-and-disabling-package-restore) 
 
 ## After running the sample
 
-After you have succesfully run (build) the sample, a custom plug-in assembly file, **CustomPlugin-FS-Geospatial.dll**, will become available in the `<Project>\bin\debug` folder. You must register the sample custom plug-in assembly on your [!INCLUDE[pn_dynamics_365](../../includes/pn-dynamics-365.md)] (online) instance to be able to use the plug-in to use the Google Maps API instead of the default Bing Maps API. More information: [Register and deploy your custom plug-in](register-deploy-custom-plugin-preferred-geospatial-data-provider.md#register-and-deploy-your-custom-plug-in) 
+After you have successfully run (build) the sample, a custom plug-in assembly file, **CustomPlugin-FS-Geospatial.dll**, will become available in the `<Project>\bin\debug` folder. Register the sample custom plug-in assembly on your [!INCLUDE[pn_dynamics_365](../../includes/pn-dynamics-365.md)] (online) instance to be able to use the plug-in to use the Google Maps API instead of the default Bing Maps API. More information: [Register and deploy your custom plug-in](register-deploy-custom-plugin-preferred-geospatial-data-provider.md#register-and-deploy-your-custom-plug-in) 
 
 ## Plug-in sample code for msdyn_GeocodeAddress action
 
@@ -402,10 +390,13 @@ namespace Microsoft.Crm.Sdk.Samples
 
 ## Privacy notice disclaimer
 
-You may use sample code to interact with third party services whose privacy and security practices may differ from those of Microsoft Dynamics 365. IF YOU SUBMIT DATA TO THIRD PARTY SERVICES, SUCH DATA IS GOVERNED BY THEIR RESPECTIVE PRIVACY STATEMENTS. For the avoidance of doubt, data shared outside of Microsoft Dynamics 365 is not covered by your Microsoft Dynamics 365 agreement(s) or the Microsoft Dynamics 365 Trust Center. We encourage you to review these other privacy statements.
+You may use sample code to interact with third-party services whose privacy and security practices may differ from those of Microsoft Dynamics 365. IF YOU SUBMIT DATA TO THIRD PARTY SERVICES, SUCH DATA IS GOVERNED BY THEIR RESPECTIVE PRIVACY STATEMENTS. For the avoidance of doubt, data shared outside of Microsoft Dynamics 365 is not covered by your Microsoft Dynamics 365 agreement(s) or the Microsoft Dynamics 365 Trust Center. We encourage you to review these other privacy statements.
 
 ### See also
 
 [Create custom plug-in to use your preferred geospatial data provider](create-custom-plugin-preferred-geospatial-data-provider.md)
 
 [Register and deploy custom plug-in to use your preferred geospatial data provider](register-deploy-custom-plugin-preferred-geospatial-data-provider.md)    
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

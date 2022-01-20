@@ -1,14 +1,10 @@
 ---
 title: "Hosted control types, actions, and events in Unified Service Desk | MicrosoftDocs"
-description: 
-ms.custom: 
-  - dyn365-USD
+description: "Learn about the various types of hosted controls, and the predefined UII actions and events available for each hosted control type."
 ms.date: 04/24/2018
-ms.service: 
-  - dynamics-365-customerservice
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - customizer
@@ -16,9 +12,14 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365USD
+ms.custom: 
+  - dyn365-USD
 ---
 # Hosted control types, actions, and events in Unified Service Desk
-There are various types of predefined hosted controls available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to let you build different controls and user experiences in your agent application. For example, to manage all the connections from your agent application to the Common Data Service platform, you create a hosted control of the **Connection Manager** type. To display data from a model-driven apps page, you create a hosted control of the **CRM Page** type.  
+
+[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
+There are various types of predefined hosted controls available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to let you build different controls and user experiences in your agent application. For example, to manage all the connections from your agent application to Microsoft Dataverse, you create a hosted control of the **Connection Manager** type. To display data from a model-driven apps page, you create a hosted control of the **CRM Page** type.  
   
 > [!NOTE]
 >  The **Ribbon Hosted Control** type is for internal use only. You must not use this hosted control type in your agent applications.  
@@ -45,3 +46,6 @@ There are various types of predefined hosted controls available in [!INCLUDE[pn_
  [Get started with configuring your agent application](../unified-service-desk/get-started-configuring-agent-application.md)   
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)   
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

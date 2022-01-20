@@ -3,8 +3,8 @@ title: "BusinessUnit entity (Developer Guide for Dynamics 365 Customer Engagemen
 description: "A business unit is a unit of the top-level organization. Business units can be parents of other business units (child business units). The first business unit created for an organization is called the root business unit."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -21,8 +21,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # BusinessUnit entity
 
@@ -40,3 +39,6 @@ An organization in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], 
  [Administration and Security Entities](administration-security-entities.md)   
  [BusinessUnit Entity](entities/businessunit.md)   
  [User and team entities](user-team-entities.md)   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

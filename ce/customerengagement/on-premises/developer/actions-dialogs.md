@@ -3,8 +3,8 @@ title: "Actions on dialogs (Developer Guide for Dynamics 365 Customer Engagement
 description: "This topic describes the actions you can perform on dialogs using the Dynamics 365 Customer Engagement web services (SDK). "
 ms.custom: 
 ms.date: 05/24/2019
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -19,15 +19,14 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Actions on dialogs
 
 This topic describes the actions you can perform on dialogs.
 
 > [!IMPORTANT]
-> [Dialogs are deprecated](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#dialogs-are-deprecated), and should be replaced by business process flows or canvas apps in Power Apps. More information: [Replace dialogs with business process flows or canvas apps](https://docs.microsoft.com/flow/replace-dialogs).
+> [Dialogs are deprecated](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#dialogs-are-deprecated), and should be replaced by business process flows or canvas apps in Power Apps. More information: [Replace dialogs with business process flows or canvas apps](/flow/replace-dialogs).
 
 <a name="DialogRelated"></a>   
 
@@ -106,3 +105,6 @@ https://CRMServer_Name/Org_Name/cs/dialog/rundialog.aspx?DialogId=DialogID&Entit
  [Work with Dialogs](use-dialogs-guided-processes.md)  
  [Understanding Dialogs](understand-dialogs.md)  
  [Sample: Create, Retrieve, Update, and Delete (CRUD) a Dialog](sample-create-retrieve-update-delete-dialog.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

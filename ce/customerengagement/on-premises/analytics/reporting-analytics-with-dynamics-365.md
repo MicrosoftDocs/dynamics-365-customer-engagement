@@ -1,10 +1,11 @@
 ---
-title: "Reporting and Analytics Guide (Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
+title: "Reporting and analytics guide for Dynamics 365 Customer Engagement (on-premises)"
+description: "Get familiar with the data and visualization features in Dynamics 365 Customer Engagement (on-premises), including reports, charts, and dashboards."
 ms.custom: 
   - NaosGA
 ms.date: 09/30/2017
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -19,15 +20,14 @@ tags:
   - MigrationHO
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
-# Report writing guide for Dynamics 365 Customer Engagement (on-premises), version 9
+# Report writing guide for Dynamics 365 Customer Engagement (on-premises), version 9.x
 
 Microsoft Dynamics 365 Customer Engagement (on-premises) includes reports, charts, and dashboards that provide useful business information and visualizations to the user.  
 
 > [!NOTE]
-> This guide is also applicable for Common Data Service. You can follow the information in this guide to create and edit fetch-based reports that can run in Common Data Service. The following reporting topics are available in the Common Data Service documentation:
+> This guide is also applicable for Dataverse. You can follow the information in this guide to create and edit fetch-based reports that can run in Dataverse. The following reporting topics are available in the Dataverse documentation:
 > - [Add reporting to your model-driven app](/powerapps/maker/model-driven-apps/add-reporting-to-app) 
 > - [Create a report using the Report Wizard](/powerapps/user/create-report-with-wizard)
 > - [Work with reports](/powerapps/user/work-with-reports)
@@ -60,3 +60,6 @@ Customer Engagement (on-premises) includes a Report Wizard that can be used to e
 - Use [!INCLUDE[pn_power_bi_for_office_365_short](../includes/pn-power-bi-for-office-365-short.md)] and [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] together.  
   
 -->
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

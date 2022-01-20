@@ -4,7 +4,7 @@ description: "Explains configuration requirements to enable and disable auditing
 ms.custom: audit
 ms.date: 03/29/2019
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -30,8 +30,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Configure entities and attributes for auditing
 
@@ -96,3 +95,6 @@ There are three levels where auditing can be configured: organization, entity, a
  [Retrieve and delete the history of audited data changes](retrieve-and-delete-the-history-of-audited-data-changes.md)   
  [Sample: Audit Entity Data Changes](sample-audit-entity-data-changes.md)   
  [Auditing Data Changes in Dynamics 365 Customer Engagement (on-premises)](audit-entity-data-changes.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

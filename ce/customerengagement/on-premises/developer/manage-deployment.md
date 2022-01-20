@@ -3,8 +3,8 @@ title: "Manage your deployment (Developer Guide for Dynamics 365 Customer Engage
 description: "Write application code to handle disaster recovery, administer your deployment, and import sample data."
 ms.custom: 
 ms.date: 03/07/2019
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Manage your deployment of Customer Engagement
 
@@ -30,3 +29,6 @@ Write application code to administer your deployment and import sample data into
   
 ## Related Sections  
  [Add and Remove Sample Data](../admin/add-remove-sample-data.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

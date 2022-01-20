@@ -1,12 +1,12 @@
 ---
-title: Use the main form and its components | Microsoft Docs
-description: Know how to use the main form and its components in the unified Interface based apps
+title: "Edit the main form in Dynamics 365 Customer Engagement (on-premises)"
+description: "To edit a main form and add or change components in Dynamics 365 Customer Engagement (on-premises), follow these steps to access the form editor."
 keywords: Main forms; Customer service; Customer Service Hub; Dynamics 365 Customer Engagement (on-premises)
 author: Mattp123
 ms.author: matp
 manager: kvivek
 ms.date: 02/09/2019
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
@@ -14,10 +14,9 @@ applies_to:
 ms.assetid: 43bfface-4dc2-411d-99a1-83e934646989
 search.audienceType: 
   - customizer
-search.app: 
-  - D365CE
+
 ---
-# Use the main form and its components
+# Edit the main form and add or change components
 
 
  
@@ -39,10 +38,10 @@ Follow the procedures given below to access the form editor:
 
 1. Go to **Settings > My Apps**.
 2. Select **...** on an app and select **Open in App designer**.
-3. Select the down arrow ![Down arrow for app designer](media/down-arrow-app-designer.png)  to expand the tile and see a list of forms. 
-4. Select the site map designer button ![sitemap designer](media/site-map-designer.png)corresponding to the form to edit the form in the Form designer.
+3. Select the down arrow ![Down arrow for app designer.](media/down-arrow-app-designer.png)  to expand the tile and see a list of forms. 
+4. Select the site map designer button ![sitemap designer.](media/site-map-designer.png)corresponding to the form to edit the form in the Form designer.
 
-   ![Form editor in app designer](media/app-designer-forms.png)
+   ![Form editor in app designer.](media/app-designer-forms.png)
  
 5. Select **Save** to save the changes and select **Publish** to publish them for use in the app. 
 
@@ -162,3 +161,6 @@ To know more about configuring event handlers, see [Configure event handlers](..
  [Create and design forms](../customize/create-design-forms.md)   
  [Create and edit quick create forms](../customize/create-edit-quick-view-forms.md)   
  [Create and edit quick view forms](../customize/create-edit-quick-view-forms.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

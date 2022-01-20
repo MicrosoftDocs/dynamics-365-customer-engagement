@@ -1,9 +1,10 @@
 ---
-title: "Monitor email processing errors  | MicrosoftDocs"
+title: "Email processing errors in Dynamics 365 Customer Engagement (on-premises)"
+description: "This page helps you distinguish between the different types of email processing errors, and explains how to view and take action on alerts."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -14,14 +15,14 @@ ms.assetid: e82b4e40-ecec-46eb-b3d9-355acdbbe24e
 caps.latest.revision: 18
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
 ---
-# Monitor email processing errors
+# Distinguish between email processing errors and take action on alerts
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 Dynamics 365 Customer Engagement (on-premises) generates alerts if errors occur while email is being processed. An error can be classified based on the nature of the error and on whether the error is for an email, a mailbox, or an email server profile.  
 
@@ -55,3 +56,6 @@ Dynamics 365 Customer Engagement (on-premises) generates alerts if errors occur 
 >  If you don’t wish to get alerts, you can disable them from the [System Settings dialog box – Email tab](system-settings-dialog-box-email-tab.md) by clearing the check boxes for alerts.  
 
 ### See also  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

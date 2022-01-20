@@ -1,29 +1,25 @@
 ---
-title: "Microsoft.CIFramework (JavaScript API Reference) for Channel Integration Framework (CIF) version 2.0 | Microsoft Docs"
-description: ""
-author: susikka
-ms.author: susikka
-manager: shujoshi
-ms.date: 12/10/2018
+title: "Microsoft.CIFramework (JavaScript API Reference) for Channel Integration Framework 2.0 | MicrosoftDocs"
+description: "Includes information about the Microsoft.CIFramework JavaScript API Reference for Dynamics 365 Channel Integration Framework 2.0."
+ms.date: 02/28/2020
 ms.topic: reference
-ms.service: 
-  - dynamics-365-customerservice
+author: mh-jaya
+ms.author: v-jmh
+manager: shujoshi
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
-applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
 ---
 
-# Microsoft.CIFramework methods (CIF JavaScript API reference)
+# Microsoft.CIFramework methods (JavaScript API reference)
 
 Provides methods to use JavaScript API to manage the communication panel (widget), notification, application tab, sessions, records, and forms in the Dynamics 365 model-driven app.
 
-## Communication Panel Management APIs
+## Communication panel management APIs
 
-The Communication Panel is where you, as an agent, interact with the customer. Partner widgets built using Channel Integration Framework version 2.0 are loaded in this panel. The communication widget in this version is displayed to the left of the session panel and supports Docked, Minimized and Hidden modes.
+The communication panel is where you as an agent interact with the customer. Partner widgets built using Channel Integration Framework 2.0 are loaded in this panel. The widget in this version is displayed to the left of the session panel and supports Docked, Minimized, and Hidden modes.
 
-You can use the APIs mentioned below to manage the state of the communication panel(widget).
+You can use the following APIs to manage the state of the communication panel (widget).
 
 | Methods | Description |
 |---------|-------------|
@@ -32,7 +28,7 @@ You can use the APIs mentioned below to manage the state of the communication pa
 | [setMode](microsoft-ciframework/setMode.md) | [!INCLUDE[setMode-description](microsoft-ciframework/includes/setMode-description.md)] |
 | [getMode](microsoft-ciframework/getMode.md) | [!INCLUDE[getMode-description](microsoft-ciframework/includes/setMode-description.md)] |
 
-## CRUD Operations APIs
+## CRUD operations APIs
 
 These APIs enable you to perform CRUD operations on entity records.
 
@@ -43,13 +39,13 @@ These APIs enable you to perform CRUD operations on entity records.
 | [updateRecord](microsoft-ciframework/updateRecord.md) | [!INCLUDE[updateRecord-description](microsoft-ciframework/includes/updateRecord-description.md)] |
 | [deleteRecord](microsoft-ciframework/deleteRecord.md) | [!INCLUDE[deleteRecord-description](microsoft-ciframework/includes/deleteRecord-description.md)] |
 
-## Notification Management APIs
+## Notification management APIs
 
 | Methods | Description |
 |---------|-------------|
 | [notifyEvent](microsoft-ciframework/notifyEvent.md)| Displays a notification that can be used to inform agent about an incoming conversation. |
 
-## Application Tab Management APIs
+## Application tab management APIs
 
 These APIs enable you to create and manage the state of an application tab.
 
@@ -62,9 +58,9 @@ These APIs enable you to create and manage the state of an application tab.
 | [refreshTab](microsoft-ciframework/refreshtab.md) | Refreshes the tab. |
 | [setTabTitle](microsoft-ciframework/settabtitle.md) | Sets the title of the tab, if the focused session belongs to the channel provider and if the tab belongs to the session in focus.|
 
-## Session Management APIs
+## Session management APIs
 
-These APIs allow you to manage sessions in a multi-session provider environment.
+These APIs allow you to manage sessions in a multisession provider environment.
 
 | Methods | Description |
 |---------|-------------|
@@ -76,16 +72,25 @@ These APIs allow you to manage sessions in a multi-session provider environment.
 | [setSessionTitle](microsoft-ciframework/setsessiontitle.md) | Sets the session title, if the session belongs to the channel provider. |
 | [requestFocusSession](microsoft-ciframework/requestFocusSession.md) | Sets the focus on the session whose Session Id is passed as a parameter, if the session belongs to the channel provider. |
 
-## Channel Analytics APIs
+## Channel analytics APIs
 
 Channel Analytics APIs enable you to track event analytics.
 
 | Methods | Description |
 |---------|-------------|
-| [initLogAnalytics](microsoft-ciframework/initLogAnalytics.md) | Invoke this method on an incoming conversation to log analytics.|
+| [initLogAnalytics](/dynamics365/customer-service/channel-integration-framework/v2/reference/updateConversation) | Invoke this method on an incoming conversation to log analytics.|
 | [logAnalyticsEvent](microsoft-ciframework/logAnalyticsEvent.md) | Invoke this method to log analytics for custom events.|
 
-## Miscellaneous Methods
+## Session indicator APIs
+
+Session indicator APIs indicate a KPI breach and can be used to update the number of new activities in a particular session.
+
+| Methods | Description |
+|---------|-------------|
+| [notifyKpiBreach](microsoft-ciframework/notifyKPIBreach.md) | This method is used to indicate a KPI breach. When this KPI is used, a red circle appears on the display image of the contact when a KPI breach has occurred.|
+| [notifyNewActivity](microsoft-ciframework/notifyNewActivity.md) | This method is used to update the number of new activities in a particular session.|
+
+## Miscellaneous methods
 
 | Methods | Description |
 |---------|-------------|
@@ -98,10 +103,13 @@ Channel Analytics APIs enable you to track event analytics.
 | [renderSearchPage](microsoft-ciframework/renderSearchPage.md)| [!INCLUDE[openForm-description](microsoft-ciframework/includes/renderSearchPage-description.md)] |
 | [addHandler](microsoft-ciframework/addHandler.md) | [!INCLUDE[addHandler-description](microsoft-ciframework/includes/addHandler-description.md)] |
 | [removeHandler](microsoft-ciframework/removeHandler.md) | [!INCLUDE[removeHandler-description](microsoft-ciframework/includes/removeHandler-description.md)] |
-| [updateContext](microsoft-ciframework/updateContext.md) | This method allows you to set automation dictionary. |
+| [updateContext](microsoft-ciframework/updateContext.md) | This method allows you to set the automation dictionary. |
 
-## See also
+### See also
 
-[What's new in Channel Integration Framework](../../whats-new-channel-integration-framework.md)
+[What's new in Dynamics 365 Channel Integration Framework](../../whats-new-channel-integration-framework.md)
 
-[System requirements for Channel Integration Framework](../../system-requirements-channel-integration-framework.md)
+[System requirements of Dynamics 365 Channel Integration Framework](../../system-requirements-channel-integration-framework.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

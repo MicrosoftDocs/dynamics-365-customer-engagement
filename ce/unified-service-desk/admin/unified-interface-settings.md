@@ -1,12 +1,10 @@
 ---
 title: "Unified Interface Settings | MicrosoftDocs"
-description: "Learn about the Unified Interface Settings page in the Unified Service Desk Administrator app."
+description: "Learn how to configure Unified Interface settings in Unified Service Desk, create the Unified Interface Settings record, and add it to a configuration."
 ms.date: 06/01/2019
-ms.service: 
-  - "dynamics-365-customerservice"
 ms.topic: article
-author: kabala123
-ms.author: kabala
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - admin
@@ -20,12 +18,12 @@ monikerRange: ">=dynamics-usd-4"
 
 Unified Interface Settings is a new configuration element introduced under **Advanced Settings** in the Unified Service Desk Administrator app. Unified Interface Settings enables you as an administrator to configure the default Unified Interface App for your agents and transform the Unified Service Desk sign-in experience.  
 
-![Unified Interface Settings](../unified-interface/media/usd-crm-unified-interface-settings.PNG "Unified Interface Settings") 
+![Unified Interface Settings.](../unified-interface/media/usd-crm-unified-interface-settings.PNG "Unified Interface Settings") 
 
 In addition, you can now configure the settings like theme, Unified Interface app, and assign users (agents) to the Unified Interface Settings record. After creating a Unified Interface Settings record, you can assign this record to a configuration, so that when the users (agents) sign in to Unified Service Desk client, the system authenticates the users (agents) straight away without showing the application selection window.
 
 > [!NOTE]
-> The Unified Interface Settings configuration option is supported only on Unified Interface apps and not supported on Web Client.
+> The Unified Interface Settings configuration option is supported only on Unified Interface apps and not supported on the legacy web client.
 
 
 ## Create Unified Interface Settings record
@@ -34,7 +32,7 @@ In addition, you can now configure the settings like theme, Unified Interface ap
  
 2. Select **Unified Interface Settings** under **Advanced Settings**.
 
-3. Select **+ New** to create a new record in the **Active Unified Interface Settings** page.
+3. Select **New** to create a new record in the **Active Unified Interface Settings** page.
 
 4. Specify the following in the **New Unified Interface Settings** page.
 
@@ -42,33 +40,33 @@ In addition, you can now configure the settings like theme, Unified Interface ap
     |:----------|:----------|
     | Name         | Specify a name of the record.</br> For example, **Sample Setting**. |
     | Theme        | Select a theme for the App.<br>There are two themes.<br>- Air</br>- Unified Blue |
-    | Unified Interface App | Select a Unified Interface App for the record. </br> For example, **Customer Service Hub**.|
+    | Unified Interface App | Select a Unified Interface app for the record. </br> For example, **Customer Service Hub**.|
     | Owner | Add the user profile for the record by choosing the search icon. |
     
-    ![New Unified Interface Settings record](../unified-interface/media/usd-crm-unified-new-record-interface-settings.PNG "New Unified Interface Settings record")
+    ![New Unified Interface Settings record.](../unified-interface/media/usd-crm-unified-new-record-interface-settings.PNG "New Unified Interface Settings record")
 
 7. Select **Save & Close**.
 
-## Add the Unified Interface Settings record to a Configuration
+## Add the Unified Interface Settings record to a configuration
 
-you can add the Unified Interface Settings record to a configuration in two ways:
+You can add the Unified Interface Settings record to a configuration in two ways:
 
 - Assign a configuration the Unified Interface Settings page.
-- Assign a Unified Interface Setting record to a configuration.
+- Assign a Unified Interface Settings record to a configuration.
 
 ### Assign a configuration from the Unified Interface Settings page
 
-1. Go to the Unified Interface Setting record for which you want to attach the configuration.
+1. Go to the Unified Interface Settings record for which you want to attach the configuration.
 
 2. Choose **Related** > **Configuration**.<br>
-   ![Add configuration to the unified interface setting record](../unified-interface/media/usd-crm-unified-interface-add-configuration.PNG "Add configuration to the unified interface setting records")
+   ![Add configuration to the Unified Interface Settings record in the Related tab.](../unified-interface/media/usd-crm-unified-interface-add-configuration.PNG "Add configuration to the Unified Interface Settings records in the Related tab")
 
-3. In the **Configuration** tab, select **Add Existing Configuration**.<br>
+3. On the **Configuration** tab, select **Add Existing Configuration**.<br>
   > [!Note]
   > You can select **Add New Configuration** to create and then add the configuration to the Unified Interface Settings record. In this walkthrough, we are attaching an already created configuration,**Test Configuration**, to the Unified Interface Settings record.
   
 4. In the **Lookup Records** pane, specify the name of the configuration, and choose search icon.<br> The configuration appears, choose the configuration and then choose **Add**.<br>
-   ![Add configuration to the unified interface setting record](../unified-interface/media/usd-crm-add-configuration-unified-interface-record.PNG "Add configuration to the unified interface setting records")
+   ![Add configuration to the Unified Interface Settings record.](../unified-interface/media/usd-crm-add-configuration-unified-interface-record.PNG "Add configuration to the Unified Interface Setting record")
 
 The configuration is added successfully and appears in the **Configuration** tab.
 
@@ -83,36 +81,37 @@ The configuration is added successfully and appears in the **Configuration** tab
 4. In the **New Configuration** page, specify the required details for the fields. 
 
 5. In the **Unified Interface Settings** field, type the name of the existing Unified Interface record you want to assign, and choose the search icon.<br> Select the record when it appears..<br>
-   ![Add unified interface setting record to the configuration](../unified-interface/media/usd-crm-add-unified-interface-record-configuration.PNG "Add unified interface setting record to the configuration")<br>
+   ![Add Unified Interface Settings record to the configuration.](../unified-interface/media/usd-crm-add-unified-interface-record-configuration.PNG "Add Unified Interface Settings record to the configuration")<br>
     >[!Note]
-    > In the above step, we added an existing Unified Interface Settings record to the configuration. To create a new Unified Interface Settings record, see [How to create Unified Interface Setting record](#create-unified-interface-settings-record).
+    > In the above step, we added an existing Unified Interface Settings record to the configuration. To create a new Unified Interface Settings record, see [How to create Unified Interface Settings record](#create-unified-interface-settings-record).
 
 6. Select **Save & Close**.
 
-## Login experience to Unified Service Desk
+## Sign in experience for Unified Service Desk
 
-Here are the scenarios you need to consider for signing in to Unified Service Desk.
+Here are the scenarios you need to consider to sign in to Unified Service Desk.
 
-### Scenario 1: Users (agents) assigned to Configuration with a Unified Interface Settings record
+### Scenario 1: Users (agents) assigned to configuration with a Unified Interface Settings record
 
-Add users (agents) to a **Configuration** and add a record to the **Unified Interface Settings** field in the **Configuration**. When the user (agent) added to the configuration signs in to Unified Service Desk, the system authenticates the user (agent) and displays the landing page of the Unified Interface App. 
+Add users (agents) to a **Configuration** and add a record to the **Unified Interface Settings** field in the **Configuration**. When the user (agent) added to the configuration signs in to Unified Service Desk, the system authenticates the user (agent) and displays the landing page of the Unified Interface app.
 
-### Scenario 2: Users (agents) assigned to Configuration without a Unified Interface Settings record
+### Scenario 2: Users (agents) assigned to configuration without a Unified Interface Settings record
 
 Add users (agents) to a **Configuration**, and the **Unified Interface Settings** field is empty in the **Configuration**. In this scenario consider three cases:
 
- - If there is a default **Configuration** with a **Unified Interface Settings** record assigned, then the system authenticates the user (agent) and displays the landing page of Unified Interface App.
+ - If there's a default **Configuration** with a **Unified Interface Settings** record assigned, then the system authenticates the user (agent) and displays the landing page of Unified Interface app.
 
- - If there is a default **Configuration** with no **Unified Interface Settings** record, then during login, the system displays the application selection window for the user (agent) to select Unified Interface App.
+ - If there's a default **Configuration** with no **Unified Interface Settings** record, then during login, the system displays the application selection window for the user (agent) to select Unified Interface app.
 
- - If there is no default **Configuration**, then during login, the system displays the application selection window for the user (agent) to select Unified Interface App.
+ - If there's no default **Configuration**, then during login, the system displays the application selection window for the user (agent) to select Unified Interface App.
 
-### Scenario 3: Users (agents) assigned to Configuration, and Unified Interface Settings record is not created
+### Scenario 3: Users (agents) assigned to configuration, and Unified Interface Settings record is not created
 
 Add users (agents) to a **Configuration**, and no Unified Interface Settings records are created. As a result, there are no records to select for the **Unified Interface Settings** field in the **Configuration**. In this scenario, when the user (agent) assigned to a particular configuration signs in to Unified Service Desk, the application selection window is displayed and the user (agent) has to select the Unified Interface App.
 
 
-## See also
+### See also
+
  [Unified Interface Page (Hosted Control)](../../unified-service-desk/unified-interface-page-hosted-control.md)
 
  [Unified Service Desk and Unified Interface Configuration Walkthroughs](../../unified-service-desk/unified-service-desk-unified-interface-configuration-walkthroughs.md)
@@ -130,3 +129,6 @@ Add users (agents) to a **Configuration**, and no Unified Interface Settings rec
  [Walkthrough 6: Configure the Debugger hosted control in your agent application](../../unified-service-desk/walkthrough6-unified-interface-configure-debugger-hosted-control-agent-application.md)
  
  [Walkthrough 7: Configure agent scripting in your agent application](../../unified-service-desk/walkthrough7-unified-interface-configure-agent-scripting-agent-application.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

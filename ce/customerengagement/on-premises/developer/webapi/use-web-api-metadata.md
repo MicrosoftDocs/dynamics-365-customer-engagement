@@ -3,16 +3,15 @@ title: "Use the Web API with metadata (Developer Guide for Dynamics 365 Customer
 description: "The section provides guidance about how to use the Web API with the entity types included in Web API Metadata EntityType Reference."
 ms.custom: 
 ms.date: 04/22/2019
-ms.reviewer: susikka
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.topic: article
 author: brandonsimons # GitHub ID
-ms.author: susikka
+ms.author: pehecke
 manager: shujoshi
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Use the Web API with metadata
 
@@ -27,3 +26,6 @@ You can perform any of the metadata operations with the Web API that you can per
 [Use the Organization service with Dynamics 365 Customer Engagement (on-premises) metadata](../org-service/use-organization-service-metadata.md)<br />
 [What is Power Apps?](/powerapps/powerapps-overview)
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

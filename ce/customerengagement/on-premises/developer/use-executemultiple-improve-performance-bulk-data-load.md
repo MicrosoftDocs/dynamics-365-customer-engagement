@@ -3,21 +3,15 @@ title: "Use ExecuteMultiple to improve performance for bulk data load (Developer
 description: "The ExecuteMultiple message supports higher throughput bulk message passing scenarios in Dynamics 365 Customer Engagement (on-premises), particularly in the case of Customer Engagement (on-premises) where Internet latency can be the largest limiting factor."
 ms.custom: on-premise
 ms.date: 09/05/2019
-ms.reviewer: "pehecke"
-ms.service: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.topic: article
-applies_to: 
-  - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 8029be0f-0dd6-44d2-b458-94fb40095ec3
 author: JimDaly
 ms.author: jdaly
-manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Use ExecuteMultiple to improve performance for bulk data load
 
@@ -27,7 +21,7 @@ In general, <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest> behaves the
 
 Custom code in the form of plug-ins and custom workflow activities can even execute <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest>. However, there are a few key points to keep in mind. An exception thrown by a synchronous registered plug-in is returned in the response collection item <xref:Microsoft.Xrm.Sdk.ExecuteMultipleResponseItem.Fault> parameter. If a plug-in executes within a database transaction, the plug-in executes <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest>, and a transaction rollback is initiated, the rollback includes any data changes resulting from requests executed by <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest>.
 
-For more detailed information about ExecuteMultiple, see the Common Data Service topic [Execute multiple requests using the Organization service](/powerapps/developer/common-data-service/org-service/execute-multiple-requests).
+For more detailed information about ExecuteMultiple, see the Dataverse topic [Execute multiple requests using the Organization service](/powerapps/developer/common-data-service/org-service/execute-multiple-requests).
   
 <a name="limitations"></a>
 
@@ -52,3 +46,6 @@ There are several constraints related to the use of the <xref:Microsoft.Xrm.Sdk.
  <xref:Microsoft.Xrm.Sdk.OrganizationResponse>   
  <xref:Microsoft.Crm.Sdk.Messages>   
  [Import data](import-data.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,35 +1,22 @@
 ---
-title: "Resource scheduling and optimization analytics dashboard | MicrosoftDocs"
-ms.custom: 
-  - dyn365-fieldservice
-ms.date: 02/14/2020
+title: "Resource scheduling and optimization analytics dashboard in Dynamics 365 Field Service | MicrosoftDocs"
+description: Learn about resource scheduling and optimization analytics dashboard in Dynamics 365 Field Service
+ms.date: 03/20/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.technology: 
-  - "field-service"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.service: dynamics-365-field-service
+ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
-ms.assetid: f7e513fc-047f-4a88-ab83-76fae5e583e2
-caps.latest.revision: 42
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
 search.app: 
   - D365CE
   - D365FS
 ---
 
 # Resource scheduling and optimization analytics dashboard
-
-> [!Note]
-> This functionality is available in early access as of February 3, 2020. For more information, visit [this article on opting into early access features](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates).
 
 Resource and operations managers need to be able to monitor key operational metrics so that they can gauge resource and scheduling performance. Metric reports can help explore important business-related questions, like: 
 
@@ -39,18 +26,16 @@ Resource and operations managers need to be able to monitor key operational metr
 
 By finding answers to these questions, scheduling managers can plan an effective resource scheduling strategy and provide better guidance to resources. Ultimately, a better strategy saves time and money, and allows for continuous improvement on customer experience. 
 
-Field Service and resource scheduling optimization (RSO) provide three reports focused on different scenarios and user personas:
+Field Service and resource scheduling optimization provide three reports focused on different scenarios and user personas:
 
 1. Resource and utilization, included with Field Service
-2. RSO admin, included with RSO
-3. Optimization summary, included with RSO
+2. Resource scheduling optimization admin, included with resource scheduling optimization
+3. Optimization summary, included with resource scheduling optimization
   
 
-In this topic, we'll take a look at these three reports in greater detail. 
+In this article, we'll take a look at these three reports in greater detail. 
 
 ## Prerequisites
-
-- Since this feature is in early access, you must be opted-in to get this functionality. To opt in, visit [this article for instructions](https://docs.microsoft.com/power-platform/admin/opt-in-early-access-updates). 
 
 - To get the resource and utilization report: 
 
@@ -61,7 +46,7 @@ In this topic, we'll take a look at these three reports in greater detail.
 
   1. Install or upgrade Field Service
   2. Install or upgrade the **Resource Scheduling Optimization** add-in
-  3. Both the RSO admin and the optimization summary reports will appear in the resource scheduling optimization app for users with **System Administrator** or **Field Service-Administrator** security roles. 
+  3. Both the resource scheduling optimization admin and the optimization summary reports will appear in the resource scheduling optimization app for users with **System Administrator** or **Field Service-Administrator** security roles. 
 
 
 ## Resource and utilization reports
@@ -75,6 +60,8 @@ Resource managers can use the resource and utilization report to perform the fol
   - What's the estimated travel time versus the actual travel time?  
 - Understand how an individual resource is using their time to react and resolve, and whether an individual resource is under- or over-utilized compared to others.  
 
+Go to **Field Service** > **Resources** and find **Reports** under the **Analytics** section. 
+
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a resource and utilization report.](./media/scheduling-analytics1.png)
 
@@ -85,17 +72,17 @@ Let's take a look at what each of these metrics are reporting.
 | Avg. work time per day (hrs.)  |	Average length of time per day that a technician(s) works at the customer site. Total length of work time per count of days in the given time range. |
 | Avg. travel time per day (hrs.) |	Average length of time per day that a technician(s) spends on travel. Total length of travel time per count of days in the given time range. 
 | Total miles traveled |	Total miles on truck rolls in the given time range.  |
-| Avg. miles traveled per day |	Average miles on truck rolls per day. Total miles per count of days in the given time range. |
-| Utilization rate | The percentage of time a resource spends on work and travel in the given time period. Work duration combined with travel duration per available time on the calendar rule  |
+| Avg. miles traveled per day |	Average miles on truck rolls per day. |
+| Utilization rate |The percentage of time a resource spends on work and travel in the given period from slicer. (Work duration plus travel duration) per available time on the calendar rule. Note: if the user does not set up the available time on the calendar then the default available time is 24 hours |
 | Late arrival rate |	For all in-progress or completed bookings, the percentage of bookings where technician arrives later than the “Time to Promise” or “Estimated arrival time,” if “Time to Promise” is not enabled in the implementation.  |
 |Booking cancellation rate |	For all in-progress or completed bookings, the percentage of bookings that have been canceled in the given time range. |
-| Resource utilization breakdown  |	The graph shows the percentage of time on work, travel, break, and idle time over a period. You can also drill in to the information to see specific information for in-progress jobs or completed jobs. |
+| Resource utilization breakdown  |	The visual shows the percentage of time on work, travel, break, and idle time over a period. It can break via booking status slicer, such as in progress job or completed job. Each bar in the chart shows the relative percentage of duration types in stacked columns, where the total of stacked columns always equals 100 percent. It doesn't show overtime values of any duration types. |
 | Duration breakdown |	The graph shows the trend of total work time, travel time, break time, and idle time. You can also drill in to the information to see specific information for in-progress jobs or completed jobs. |
 
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of additional sections on the resource and utilization report](./media/scheduling-analytics2.png)
+> ![Screenshot of additional sections on the resource and utilization report.](./media/scheduling-analytics2.png)
 
 | Visuals |	Description | 
 | --- | --- |
@@ -106,11 +93,13 @@ Let's take a look at what each of these metrics are reporting.
 | Resource work time quartile analysis  |	Compares each resource's travel time to work time and ranks them into relative quartiles.  |
 | Resource metrics |	Shows the breakdown of KPIs for each resource, including number of bookings, utilization percentage, year over year percentage change in utilization, work time, travel time, break time, and idle time. Sort the resources by number of bookings, or by year, month, week, or day. | 
 
-## RSO admin reports
+## Resource scheduling optimization admin reports
 
-The RSO admin report analyzes when and how RSO runs, but not the actual booking results.
+The resource scheduling optimization admin report analyzes when and how resource scheduling optimization runs, but not the actual booking results.
 
-To run the report, the RSO administrator needs to select one optimization schedule - for example, WA Schedule 1 - and select one or more optimization requests.  
+Go to the **Resource Scheduling Optimization** app and find **Reports** under the **Analytics** section. 
+
+To run the report, the resource scheduling optimization administrator needs to select one optimization schedule - for example, WA Schedule 1 - and select one or more optimization requests.  
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the resource scheduling optimization admin report.](./media/scheduling-analytics-rso-admin.png)
@@ -143,6 +132,39 @@ The optimization summary analyzes the automatically scheduled bookings and the e
 |Territory summary |	Displays optimized territories on a map, with the ability to drill down. |
 | Booking metrics by territory | 	Shows scheduled bookings, work time allocated, and total travel time allocated for each territory. |
 
+## Share reports
+
+By default, the tenant administrator will be able to view all the reports. With the following steps, the reports can be shared with other users.
+
+1.	Select **Share** in the top-right corner of the report.
+ 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the share option in the report.](./media/scheduling-analytics-share1.png)
+
+2.	Select the reports.
+ 
+ > [!div class="mx-imgBorder"]
+> ![Screenshot of the report selection list.](./media/scheduling-analytics-share2.png)
+ 
+3.	Select **Share**.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the share option in the menu.](./media/scheduling-analytics-share3.png)
+
+4.	Select **Add User/Team** and select the user you want to give access to.
+ 
+ > [!div class="mx-imgBorder"]
+> ![Screenshot of the share data analytics report window with attention to the add user/team option.](./media/scheduling-analytics-share4.png)
+
+5.	Make sure the **Read** access is selected and select **Share**.
+  
+  > [!div class="mx-imgBorder"]
+> ![Screenshot of the share data analytics report window with the read box checked.](./media/scheduling-analytics-share5.png)
+
+The user will now be able to access the report.
+
+In order to share the resource and utilization reports, follow steps 1 through 5 in Field Service. Note that you need to select resource and utilization reports in Field Service.
+
 
 ## Configuration considerations
 
@@ -152,10 +174,15 @@ The optimization summary analyzes the automatically scheduled bookings and the e
 ## Additional notes
 
 - The reports explored in this article are all built on Microsoft Power BI.
-- The report dataset will be refreshed every 24 hours. You may see a warning icon next to the label **Last refresh (UTC)**, which is in top right of each report. This icon typically indicates if there is a delay or issue with the data set refresh. If the data has not been refreshed in last 24 hours, you will see a tooltip message when you hover over the icon.
+- **Travel Calculation**: All travel calculation is based on the miles. 
+- **SLA**: Data is refreshed every 24 hours. Reports will continue to be available during the refresh. If the reports are not refreshed within 24 hours, you can contact Microsoft Support. Note that currently, we do not support the custom refresh schedule.
+- **Data Refresh for Inactive environments**: If an organization has no active usage of the reports for continuous two weeks, the data refresh will be paused. When the user opens the reports, the data will get refreshed in the next refresh cycle.
 - Data is retained for 24 months. 
-- All travel calculation is based on the miles.
-- The following list of entities is used to generate the reports. If there is no data for any of the following entities, then the report may be blank. If you have customized these entities, or if you're not using the out-of-box entities, then the reports will also be blank. 
+- We do not support environment minimal copy operations that are available for a Sandbox environment. If you perform any of these operations, you may encounter unexpected results. 
+- Storage file size automatically increases with the analytics feature. If this increase causes issues or concerns, contact Microsoft Support.
+
+**Data Availability for Entities**: We are consuming the following list of entities to generate these reports. If there is no data for any of the below entities, then the report may show blank. If you have customized these entities or not using the out of box entities, then the reports will show blank too. 
+
   Field Service entities:  
   - Bookableresource 
   - bookableresourcebooking 
@@ -187,7 +214,7 @@ The optimization summary analyzes the automatically scheduled bookings and the e
 
 | Error Message | Action |   
 | --- | --- |
-| Oops! No reports were found in CRM. You may not have access to these reports. Please contact your system administrator. | Contact your organization's system administrator to access the reports | 
+| Oops! No reports were found in CRM. You may not have access to these reports. Contact your system administrator. | Contact your organization's system administrator to access the reports | 
 | Oops! Internal service error, please contact your system administrator with Error Code: {numeric value}. | Contact Microsoft Support and create a support ticket |
 |Oops! There was a problem rendering the report. | Refresh the report. If it still doesn’t work, contact Microsoft Support and create a support ticket |
 |Oops! There was a problem rendering the report, please try again. | Refresh the report. If it still doesn’t work, contact Microsoft Support and create a support ticket |
@@ -206,4 +233,19 @@ The optimization summary analyzes the automatically scheduled bookings and the e
 | India | IND |
 | Great Britain |GBR |
 
+### Disabling custom actions 
 
+**msdyn_AnalyticsSaveDataInConfigStore custom action**
+
+Do not disable this custom action because insights and analytics features in Dynamics 365 will not function properly; the **msdyn_AnalyticsSaveDataInConfigStore custom action** is for internal use only. Contact Microsoft support if you have any questions.
+
+#### Parameters
+
+| Name | Type | Required | Description |
+|----------|----------|----------|---------|
+| Key | String  |Yes | For internal use only. |
+| Value | String | Yes | For internal use only. |
+| ConfigName | String | No | For internal use only. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

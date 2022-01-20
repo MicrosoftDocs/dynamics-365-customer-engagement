@@ -3,8 +3,8 @@ title: "Offline use of the Dynamics 365 Customer Engagement services (Developer 
 description: "Learn about how various Dynamics 365 Customer Engagement services can be used offline. There are several messages that are supported offline. You can also determine whether a IOrganizationService message works offline by checking the SdkMessage.Availability attribute for the desired message"
 ms.custom: on-premise
 ms.date: 12/15/2017
-ms.reviewer: "pehecke"
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -16,8 +16,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Offline use of the Dynamics 365 Customer Engagement services
 
@@ -36,3 +35,6 @@ search.app:
  [Organization Service Methods](organization-service-methods.md)   
  <xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>   
  <xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

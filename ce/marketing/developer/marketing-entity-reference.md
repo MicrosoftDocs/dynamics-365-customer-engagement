@@ -1,25 +1,24 @@
 ---
-title: "Dynamics 365 Marketing entity reference (Dynamics 365 Marketing Developer Guide) | MicrosoftDocs"
-description: "Know about the installed solutions, entities, and custom actions in your marketing organization."
-ms.custom: 
+title: "Dynamics 365 Marketing entity reference (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
+description: "Learn about the installed solutions, entities, and custom actions in Dynamics 365 Marketing."
 ms.date: 01/25/2019
-ms.service: crm-online
-ms.technology: 
-  - marketing
-ms.topic: conceptual
-ms.assetid: 1550af17-6bb8-47dd-a096-1060213faf1c
-author: KumarVivek
-ms.author: kvivek
-manager: annbe
+ms.service: dynamics-365-marketing
+ms.custom: 
+  - dyn365-marketing
+ms.topic: reference
+author: alfergus
+ms.author: alfergus
+manager: shellyha
 search.audienceType: 
   - developer
 search.app: 
   - D365CE
   - D365Mktg
 ---
+
 # Dynamics 365 Marketing entity reference
 
-All the entities that are installed as part of the Dynamics 365 Marketing solutions support the [standard extensibility/programming model](../../developer/programming-models.md) in Dynamics 365 to perform operations on entities using the **Web API** or **Organization Service**. For example, developers can programmatically create, retrieve, update, and delete (CRUD) entity records provided they have the required privileges to do so.
+All the entities that are installed as part of the Dynamics 365 Marketing solutions support the [standard extensibility/programming model](../../customerengagement/on-premises/developer/programming-models.md) in Dynamics 365 to perform operations on entities using the **Web API** or **Organization Service**. For example, developers can programmatically create, retrieve, update, and delete (CRUD) entity records provided they have the required privileges to do so.
 
 > [!IMPORTANT]
 > While all the entities in Dynamics 365 Marketing support the standard extensibility/programming model, you should be careful while programmatically creating, updating, or deleting these entity records. This is because some entities have a dependency on each other and the web application to provide the requisite user experiences and functionalities in the Marketing app. Manipulating these entities programmatically will prevent you from using the functionalities in the intended and supported way. Some examples of the complex functionality that cannot be achieved by programmatically working with the entities are:
@@ -31,25 +30,25 @@ To view information about all the entities and their properties, attributes, and
 ## Install Entity Metadata Browser
 
 1. [Download](https://download.microsoft.com/download/8/E/3/8E3279FE-7915-48FE-A68B-ACAFB86DA69C/MetadataBrowser_3_0_0_5_managed.zip) Entity Metadata Browser solution (.zip) to your computer.
-2. Sign in to your Dynamics 365 Marketing instance, and import the Entity Metadata Browser solution file to install it. For information about how to install a managed solution, see [Import, update, and export solutions](../../customize/import-update-upgrade-solution.md) 
+2. Sign in to your Dynamics 365 Marketing instance, and import the Entity Metadata Browser solution file to install it. For information about how to install a managed solution, see [Import, update, and export solutions](../../customerengagement/on-premises/customize/import-update-upgrade-solution.md) 
 
 ## Use Entity Metadata Browser
 
 In your Dynamics 365 Marketing instance, select **Dynamics 365** >  **Metadata Tools** to open the app.
 
-![](../media/dev-metadata-browser-app.png)
+![Metadata Tools menu selection.](../media/dev-metadata-browser-app.png "Metadata Tools menu selection")
 
 The app provides entity reference data under two views:
 
-- **Entities** is the default view when you open the app. More information: [Entities view in Entity Metadata Browser](#entities-view-in-entity-metadata-browser) 
+- **Entities** is the default view when you open the app. More information: [Entities view in the Entity Metadata Browser](#entities-view-in-the-entity-metadata-browser) 
 
-    ![](../media/dev-metadata-browser-tool.png)
+    ![Screenshot of the entities view.](../media/dev-metadata-browser-tool.png "Screenshot of the entities view")
 
 - Select **Tools** > **Entity Metadata** for the **Entity Metadata** view to inspect individual entities. More information: [Entity Metadata view in Entity Metadata Browser](#entity-metadata-view-in-entity-metadata-browser)
 
-    ![](../media/dev-metadata-browser-tool-EM.png)
+    ![Screenshot of entity metadata.](../media/dev-metadata-browser-tool-EM.png "Screenshot of entity metadata")
 
-## Entities view in Entity Metadata Browser
+## Entities view in the Entity Metadata Browser
 You can perform the following actions:
 
 - **View Entity Details**: Select an entity to view using the **Entity Metadata** view.
@@ -96,3 +95,6 @@ You can perform the following actions:
 
 > [!NOTE]
 > The community tools are not a product of Microsoft. Microsoft does not extend support to the community tools. If you have questions related to the tools, please contact the publisher. More information: [XrmToolBox](https://www.xrmtoolbox.com)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

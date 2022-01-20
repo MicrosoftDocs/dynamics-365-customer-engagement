@@ -1,7 +1,7 @@
 ---
 title: "API considerations of virtual entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.date: 10/31/2017
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.topic: article
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
@@ -11,8 +11,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # API considerations of virtual entities
@@ -221,3 +220,6 @@ The following table explains how the behavior of standard [AttributeMetadata pro
 |SourceType|_invalid_|Always 0, calculated or rollup values not supported.|
 ||||
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

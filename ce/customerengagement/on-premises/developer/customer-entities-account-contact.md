@@ -3,8 +3,8 @@ title: "Customer entities (account, contact) (Developer Guide for Dynamics 365 C
 description: "The account and contact entities in Dynamics 365 Customer Engagement (on-premises) are essential for identifying and managing customers, selling products and services, and providing superior service to the customers. A customer address entity is used to store address and shipping information for a customer."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Customer entities (account, contact)
 
@@ -63,3 +62,6 @@ The *account* and *contact* entities in [!INCLUDE[pn_microsoftcrm](../includes/p
  [Model Your Business Data With Dynamics 365 Customer Engagement (on-premises)](model-business-data.md)  
   
  [Business Management Entities](business-management-entities.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

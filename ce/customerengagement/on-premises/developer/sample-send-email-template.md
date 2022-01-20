@@ -3,11 +3,11 @@ title: "Sample: Send an email using a template (Developer Guide for Dynamics 365
 description: "This sample shows how to send an email message by using a template using the SendEmailFromTemplateRequest message"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
@@ -20,12 +20,10 @@ ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
 ---
 # Sample: Send an email using a template
 
-This sample shows how to send an email message by using a template using the [SendEmailFromTemplateRequest](https://docs.microsoft.com/dotnet/api/microsoft.crm.sdk.messages.sendemailfromtemplaterequest?view=dynamics-general-ce-9) message. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/SendEmailUsingTemp).
+This sample shows how to send an email message by using a template using the [SendEmailFromTemplateRequest](/dotnet/api/microsoft.crm.sdk.messages.sendemailfromtemplaterequest?view=dynamics-general-ce-9) message. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/cds/orgsvc/C%23/SendEmailUsingTemp).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 
@@ -57,3 +55,6 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 
 Display an option to delete the sample data that is created in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

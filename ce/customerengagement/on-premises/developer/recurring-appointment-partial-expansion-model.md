@@ -3,8 +3,8 @@ title: "Recurring appointment partial expansion model (Developer Guide for Dynam
 description: "The partial expansion model is an asynchronous job that runs at pre-specified intervals, defined at the organization level, and used to create recurring appointment instances."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Recurring appointment partial expansion model
 
@@ -56,3 +55,6 @@ search.app:
  [Create a Recurring Appointment Series, Instance or Exception](create-recurring-appointment-series-instance-exception.md)   
  [Delete or End a Recurring Appointment Series or Instance](delete-or-end-a-recurring-appointment-series-or-instance.md)   
  [Update a Recurring Appointment](update-recurring-appointment.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

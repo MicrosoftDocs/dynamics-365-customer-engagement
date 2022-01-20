@@ -1,8 +1,9 @@
 ---
 title: "Manage servers | Microsoft Docs"
+description: Learn how to manage servers in Dynamics 365 Customer Engagement (on-premises)
 ms.custom: 
 ms.date: 10/01/2018
-ms.prod: crm-2016
+ms.prod: d365ce-op
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -33,3 +34,6 @@ You can do the following actions in the **Servers** area of [!INCLUDE[pn_deploym
  [Disable or enable a server](disable-or-enable-a-server.md)   
  [Delete (remove) a Microsoft Dynamics 365 Server](delete-remove-a-microsoft-dynamics-365-server.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

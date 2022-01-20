@@ -3,8 +3,8 @@ title: "Service entity (Developer Guide for Dynamics 365 Customer Engagement) | 
 description: "The Service entity represents a service made available to a customer, with attributes that include the standard duration of the service, when the service is offered, and its required resources."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -27,8 +27,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Service entity
 
@@ -44,3 +43,6 @@ A service is work that is performed for a customer. The definition typically inc
   
 ## In This Section  
  [Service Entity](entities/service.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

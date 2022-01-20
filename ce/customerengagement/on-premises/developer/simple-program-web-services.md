@@ -4,7 +4,7 @@ description: "Learn to run a simple program using Dynamics 365 Customer Engageme
 ms.custom: 
 ms.date: 03/29/2019
 ms.reviewer: pehecke
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article
@@ -17,8 +17,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Run a simple program using Customer Engagement web services
 
@@ -26,7 +25,7 @@ This topic shows you how to compile and run a  program that creates an account r
 
 ## Prerequisites
 
-- Download the [Sample: Quick start for Microsoft Dynamics 365 Customer Engagement (on-premises)](https://code.msdn.microsoft.com/Sample-Quick-start-for-650dbcaa)
+- Download the [Sample: Quick start for Microsoft Dynamics 365 Customer Engagement](sample-quick-start.md)
 - You must be able to sign in to [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)].  
 - [!INCLUDE [pn-visual-studio-short](../includes/pn-visual-studio-short.md)] 
 - [!INCLUDE [pn-net-framework462-long](../includes/pn-net-framework462-long.md)]
@@ -35,7 +34,7 @@ This topic shows you how to compile and run a  program that creates an account r
 
 1. Extract the downloaded file and open the \C#\QuickStart.csproj
 2. Open the \C#\QuickStart.csproj file in [!INCLUDE[pn-visual-studio-short](../includes/pn-visual-studio-short.md)].  
-3. Right click the **QuickStart** project in the solution explorer and select **Manage NuGet Packages...*
+3. Right click the **QuickStart** project in the solution explorer and select **Manage NuGet Packages...**
 4. Select the **Microsoft.CrmSdk.CoreAssemblies** package and update to the latest stable version.
 5. Press **F5** to compile and run the program.  
 6. Enter the following information at the prompts:
@@ -73,7 +72,10 @@ After running the QuickStart program or most other SDK console-based samples, th
 ### See also  
  [Tutorials for Learning Dynamics 365 Customer Engagement (on-premises)](tutorials-resources-sdk.md)   
  [Sample: Quick Start for Dynamics 365 Customer Engagement](sample-quick-start.md)   
- [Sample: Simplified Connection Quick Start using Dynamics 365 Customer Engagement (on-premises)](xrm-tooling/sample-simplified-connection-quick-start.md)   
+ [Sample: Simplified Connection Quick Start using Dynamics 365 Customer Engagement (on-premises)](/powerapps/developer/data-platform/xrm-tooling/sample-simplified-connection-quick-start)   
  [Write Code for Dynamics 365 Customer Engagement (on-premises)](extend-dynamics-365-server.md)   
  [Sample Code Directory for Dynamics 365 Customer Engagement (on-premises)](sample-code-directory.md)   
  [Build a .NET Business Application in 60 Minutes with xRM and SharePoint](https://www.microsoftpdc.com/2009/PR33)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -3,8 +3,8 @@ title: "Custom activities (Developer Guide for Dynamics 365 Customer Engagement)
 description: "Custom activities support the communication needs of a business such as instant messaging (IM) and Short Message Service (SMS) in Dynamics 365 Customer Engagement"
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -23,8 +23,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Custom activities
 
@@ -62,4 +61,7 @@ In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you can create c
  [Activity Entities](activity-entities.md)   
  [ActivityPointer (activity) entity](activitypointer-activity-entity.md)   
  [Sample: Create a Custom Activity](sample-create-custom-activity.md)   
- [Sample: Create and Update Entity Metadata](org-service/sample-create-update-entity-metadata.md)
+ [Sample: Create and Update Entity Metadata](/powerapps/developer/data-platform/org-service/create-custom-entity)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

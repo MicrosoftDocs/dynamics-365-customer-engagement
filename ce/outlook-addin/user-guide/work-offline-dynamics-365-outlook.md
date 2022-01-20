@@ -36,7 +36,7 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
 
 The following operating systems are supported for offline mode.
 
- ![Offline Support](../media/OfflineSupport.PNG "Offline Support") 
+ ![Offline Support.](../media/OfflineSupport.PNG "Offline Support") 
   
 <a name="BeforeYouGoOffline"></a>   
 ## Before you go offline  
@@ -150,3 +150,6 @@ The following operating systems are supported for offline mode.
   
 ### See also  
  [Set up Dynamics 365 for Outlook](set-up.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

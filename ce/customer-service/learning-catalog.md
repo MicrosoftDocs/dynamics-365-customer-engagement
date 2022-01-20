@@ -1,21 +1,23 @@
 ---
 title: Customer Service learning catalog
 description: Find all the training options for Dynamics 365 Customer Service.
-author: loreleishannonmsft
-ms.topic: article
 ms.date: 01/08/2020
-ms.author: v-lshann
-
+ms.topic: article
+author: MargoC
+ms.author: margoc
 ---
 # Customer Service Learning Catalog
+
+*<a href="https://dynamics.microsoft.com/customer-service/overview/" target="_blank">Try Dynamics 365 Customer Service for free</a>*
+
 Find the right online training, in-person workshops, and events for your role in Dynamics 365 Customer Service. 
 
 
-<!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  
+<!-- ![Universal Windows Platform (UWP).](images/platform-uwp.png)  -->  
 
 :::row:::
     :::column:::
-<!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  
+<!-- ![Universal Windows Platform (UWP).](images/platform-uwp.png)  -->  
 
     ### Business and technical decision makers
 
@@ -100,7 +102,11 @@ Find the right online training, in-person workshops, and events for your role in
     Are you responsible for helping your customers buy the right solution?
 
     [Partner Sales and Marketing Learning Catalog](learning-sales.md)
+    
     [Exam](learning-sales.md#exam)
 
      :::column-end:::
 :::row-end:::
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

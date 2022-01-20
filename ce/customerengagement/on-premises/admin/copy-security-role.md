@@ -1,9 +1,10 @@
 ---
-title: "Copy a security role  | MicrosoftDocs"
+title: "Copy security role in Dynamics 365 Customer Engagement (on-premises)"
+description: "If you want to create a security role that's similar to another, copy the existing one, save it with a new name, and modify privileges and access levels."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -14,16 +15,17 @@ ms.assetid: b363c499-2b87-4227-93a8-6282c5bfc855
 caps.latest.revision: 25
 author: jimholtz
 ms.author: jimholtz
-manager: brycho
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
----
-# Save time creating a security role by copying one
 
-If you want to create a security role that is similar to another security role, you can copy an existing security role and save it with a new name. You can then modify the privileges and access levels to accommodate the new security role.  
+---
+# Copy a security role to save time
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
+
+If you want to create a security role that's similar to another, you can copy an existing security role and save it with a new name. You can then modify the privileges and access levels to accommodate the new role.  
   
 > [!NOTE]
 > - You can’t copy a security role to a different business unit.  
@@ -54,3 +56,6 @@ If you want to create a security role that is similar to another security role, 
  [Security roles](../admin/security-roles-privileges.md)   
  [Field level security](../admin/field-level-security.md)
  [Prevent elevation of security role privilege](prevent-elevation-security-role-privilege.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

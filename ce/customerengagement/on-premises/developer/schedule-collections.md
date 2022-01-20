@@ -3,8 +3,8 @@ title: "Schedule collections (Developer Guide for Dynamics 365 Customer Engageme
 description: "Schedule is a logical collection of appointments that contains the availability and assignments of a given resource."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -25,8 +25,7 @@ ms.author: jdaly
 manager: amyla
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Schedule collections
 
@@ -52,3 +51,6 @@ A *schedule* is a logical collection of appointments that contains the availabil
  [Appointment Entity](entities/appointment.md)   
  [Sample: Query the Schedule of a User](sample-query-working-hours-user.md)   
  [Sample: Query the Schedules of Multiple Users](sample-query-working-hours-multiple-users.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

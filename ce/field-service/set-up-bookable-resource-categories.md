@@ -1,37 +1,26 @@
 ---
 title: "Set up bookable resource categories (Dynamics 365 Field Service) | MicrosoftDocs"
-ms.custom: 
-  - dyn365-fieldservice
+description: Learn how to set up bookable resource categories in Dynamics 365 Field Service
 ms.date: 09/30/2017
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
-ms.suite: 
-ms.technology: 
-  - field-service
-ms.tgt_pltfrm: 
+ms.service: dynamics-365-field-service
 ms.topic: article
 author: FieldServiceDave
-ms.assetid: 4dd88e0c-ee95-463a-9d0d-5a1a4f056e4e
-caps.latest.revision: 13
 ms.author: daclar
 manager: shellyha
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
 search.app: 
   - D365CE
   - D365FS
 ---
-# Set up bookable resource categories (Field Service)
+# Set up bookable resource categories in Dynamics 365 Field Service
 
 Bookable resource categories let you group your bookable resources by type. For example, you can create categories like technician, supervisor, subcontractor, vehicle, or equipment.  
   
-1.  From the main menu, click **Field Service** > **Administration**, and then choose **Bookable Resource Categories**.  
+1.  From the main menu, go to **Field Service** > **Administration**, and then choose **Bookable Resource Categories**.  
   
-2.  On the **Active Resource Categories** screen, click **+New** in the upper left corner.  
+2.  On the **Active Resource Categories** screen, select **+New** in the upper left corner.  
   
-3.  Use the tooltips to help fill in your information, and then click **Save**.  
+3.  Use the tooltips to help fill in your information, and then **Save**.  
   
 ### See also 
  [Overview of Dynamics 365 Field Service](../field-service/overview.md)   
@@ -39,3 +28,6 @@ Bookable resource categories let you group your bookable resources by type. For 
  [Set up resource pay types](../field-service/set-up-resource-pay-types.md)   
  [Set up characteristics](../field-service/set-up-characteristics.md)<br>
  [User's Guide](../field-service/user-guide.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

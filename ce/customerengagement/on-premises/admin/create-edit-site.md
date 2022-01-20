@@ -1,9 +1,10 @@
 ---
-title: "Create or edit a site  | MicrosoftDocs"
+title: "Create a new site in Dynamics 365 Customer Engagement (on-premises)"
+description: "Create a new site to add an office or other location where operations take place. You can also edit existing sites for details like address and phone number."
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.service: crm-online
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -14,14 +15,14 @@ author: jimholtz
 ms.assetid: 292d8a45-c318-408a-a545-14589d5210d2
 caps.latest.revision: 20
 ms.author: jimholtz
-manager: kvivek
 search.audienceType: 
   - admin
-search.app: 
-  - D365CE
-  - Powerplatform
 ---
-# Create or edit a site to specify location
+# Create a site to add a new location or edit an existing site
+
+::: moniker range="op-9-1"
+[!INCLUDE [cc-use-advanced-settings](../includes/cc-use-advanced-settings.md)]
+::: moniker-end
 
 You can create a new site to add an office location or other facility where service operations take place. You can also edit the details, such as the street address or phone number, for an existing site.  
   
@@ -48,3 +49,6 @@ You can create a new site to add an office location or other facility where serv
 ### See also  
  [Create or edit business units](../admin/create-edit-business-units.md)   
  [Add resources to a site](../admin/add-resources-site.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

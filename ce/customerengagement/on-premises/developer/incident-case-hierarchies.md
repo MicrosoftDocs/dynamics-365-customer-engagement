@@ -3,8 +3,8 @@ title: "Incident (case) hierarchies (Developer Guide for Dynamics 365 Customer E
 description: "Learn about incident (case) hierarchies that allow you to create parent and child case settings and rules for deactivating cases."
 ms.custom: 
 ms.date: 10/01/2019
-ms.reviewer: 
-ms.service:
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -16,8 +16,7 @@ ms.author: kvivek
 manager: annbe
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 # Incident (case) hierarchies
 
@@ -25,7 +24,7 @@ Incident entities can be related hierarchically. An administrator can use the **
   
  Within the application, people can create a new child incident or associate an existing incident to a parent incident. This association uses the `incident_parent_incident` relationship. When you create a new incident to be associated using this relationship, use the <xref:Microsoft.Crm.Sdk.Messages.InitializeFromRequest> message to initialize the new incident with the default values defined in the attribute mapping for this relationship.  
   
- The **Parent and Child case settings** allow easy access to specify the attribute mappings to this relationship, but they may also be set by editing the relationship in the application or programmatically. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and edit entity relationships](https://technet.microsoft.com/library/dn531171.aspx) and [Customize Entity and Attribute Mappings](customize-entity-attribute-mappings.md).  
+ The **Parent and Child case settings** allow easy access to specify the attribute mappings to this relationship, but they may also be set by editing the relationship in the application or programmatically. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and edit entity relationships](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn531171(v=crm.8)) and [Customize Entity and Attribute Mappings](customize-entity-attribute-mappings.md).  
   
  The following behaviors are enforced for incident hierarchies:  
   
@@ -64,3 +63,6 @@ Incident entities can be related hierarchically. An administrator can use the **
  [Incident Entity](entities/incident.md)   
  [IncidentResolution Entity](entities/incidentresolution.md)   
  [Sample: Close an Incident](sample-close-incident.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -3,8 +3,8 @@ title: "Enable and disable duplicate detection (Developer Guide for Dynamics 365
 description: "This topic covers information on how to enable duplicate detection for all entities in an organization, for a specific entity and for specific operations and how to disable duplicate detection globally or for an entity type by unpublishing the duplicate detection rules or by deleting the published rules."
 ms.custom: 
 ms.date: 10/31/2017
-ms.reviewer: 
-ms.service: crm-online
+ms.reviewer: pehecke
+ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -17,13 +17,12 @@ helpviewer_keywords:
   - enabling duplicate detection, rules must be published before running
 ms.assetid: B8CD2072-F254-4BA8-9087-79EC79DFE48C
 caps.latest.revision: 14
-author: susikka
-ms.author: susikka
+author: phecke
+ms.author: pehecke
 manager: shujoshi
 search.audienceType: 
   - developer
-search.app: 
-  - D365CE
+
 ---
 
 # Enable and Disable duplicate detection
@@ -94,3 +93,6 @@ Delete all published rules in the system to disable duplicate detection globally
 [Duplicate Detection](detect-duplicate-data-for-developers.md)  
 [Running Duplicate Detection](run-duplicate-detection.md)   
 [Duplicate Rule entities](duplicaterule-entities.md) 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
