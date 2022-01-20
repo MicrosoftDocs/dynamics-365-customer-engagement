@@ -68,13 +68,13 @@ With the enhanced grid, you can view and edit related entity records also. The f
 
 4. **Filter**: You can filter the underlying opportunities to view specific set of opportunities that you want to analyze or work on. For more information on how to use filters, see [Preview: Filter underlying records of a forecast](#preview-group-and-filter-underlying-records-of-a-forecast). 
 
-### Preview: Filter underlying records of a forecast
+### Preview: Filter the underlying opportunities of a forecast
 
 [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 
 When you select a row in the forecast grid, you see the underlying opportunities that contribute to that row in the forecast. You can group and filter these opportunities to efficiently manage them and take necessary actions to finalize deals that matter the most.  
 
-**To filter the underlying records**
+**To filter the underlying opportunities**
 
 1.	Open a forecast, and select a row. 
     
@@ -111,7 +111,7 @@ For more information about filters, go to [Add conditions to a filter](/powerapp
 
 
 
-#### Example: Grouping and filtering of underlying records 
+#### Example: Grouping and filtering the underlying opportunities 
 
 Let's understand grouping and filtering of underlying records with an example.
 
