@@ -108,20 +108,28 @@ Decide if its best for your organization to use the existing work order form or 
 
 ## [Existing form (recommended)](#tab/existing-form)
 Better for scenarios where your organization does not want to make a lot of changes to the layout or fields; and organizations that generally want to use the default work order process. 
+
 **Pros**
+
 - **Recommended** - the existing work order form is recommended by Microsoft.
 - **Receives updates** - the existing work order form receives updates for performance and new features.
 - **Better supportability** - when you use the work order form that is included with Field Service, it is easier for support teams to diagnose and resolve issues.
+
 **Cons**
+
 - **Less customizable** - By agreeing to use the existing work order form, you agree to make minimal changes to the form.
 - **Need to test upgrades** - The existing work order form will receive updates as much as twice per year. You will have to test new updates in a sandbox environment and ensure they will not disrupt your users.
 
 ## [New custom form](#tab/new-form)
 Better for scenarios where your organization has to make many changes to the form and you have a very unique work order process. This option is also best for organizations that need multiple different work order form for different secuirty roles. 
+
 **Pros**
+
 - **Shielded from updates** - a new custom form will not receive updates. This can be beneficial if you have very specific processes and form layouts. 
 - **More edits** - You are free to make more changes to the form to fit your unique work order process.
+
 **Cons**
+
 - **No updates** - Your custom work order form will not receive updates from Microsoft. It will be static.
 - **Maintenance costs** - If Microsoft releases work order features that your organization wants to adopt, you will need to manually customize your forms to include those features. This costs time and money.
 - **Risk of slow performance and errors** - evidence shows that custom forms tend to have slower performance and more errors because of the risk of violating form design best practices. Review the risks and best practices at the end of this article.
