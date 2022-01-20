@@ -1,5 +1,5 @@
 ---
-title: "How to customize Field Service forms and best practices | MicrosoftDocs"
+title: "How to customize the Field Service work order form and best practices | MicrosoftDocs"
 description: description
 ms.custom:
 - dyn365-fieldservice
@@ -19,7 +19,7 @@ search.app:
 - D365FS
 ---
 
-# How to customize Field Service forms
+# How to customize the Field Service work order form
 
 While setting up Field Service for your organization, you may have to customize the forms that back office workers like dispacthers, service managers, and other roles use to view important information and document their work. IT administrators may customize Field Service forms so users can capture information unique to your business or industry and to ensure the form layout matches your business processes.
 
@@ -102,10 +102,14 @@ See the topic on [How to create and edit Field Service columns (fields)](field-s
 
 ## 4. Decide to customize the existing work order form or create a new form
 
-Here's an example of the tab experience:
+We are now ready to customize the Work Order form with a combination of existing work order fields and your new custom fields. 
+
+Go to https://make.powerapps.com > Tables > Work Order > Forms
+
+Next decide if its best for your organization to use the existing work order form or to create a new one. Use the information in the tabs below to understand the scenarios, pros, and cons of either customizing the existing work order form or creating an entirely new one. It is recommended to use the existing work order form.
 
 ## [Existing form (recommended)](#tab/existing-form)
-    Scenario this is best for: make minimal changes
+    Scenarios: It is best to use the existing work order form this is best for: make minimal changes
     Pros
     Recommended
     Performance updates
@@ -127,11 +131,6 @@ Here's an example of the tab experience:
 
 
 
-We are now ready to customize the Work Order form with a combination of existing work order fields and your new custom fields. 
-
-
-
-Go to https://make.powerapps.com > Tables > Work Order > Forms
 
 Select the Main "Work Order" form.
 
