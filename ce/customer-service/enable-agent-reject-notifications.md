@@ -16,7 +16,6 @@ manager: shujoshi
 You can enable agent presence to be updated to **Do not disturb** when agents reject an incoming notification for a work assignment. No new tasks are assigned when agents reject notifications for incoming chat requests. Also, a message indicating that the agent presence was changed is displayed at the top of the agent dashboard. Agents can reset their status by using the reset presence option that's displayed with the notification, or by manually changing their status.
 
 > [!IMPORTANT]
->
 > - Work items will continue to be routed to the agent if **Do not disturb** is an allowed presence in the workstream. More information: [Create workstreams for unified routing](create-workstreams.md)
 > - Automatic change of agent status when agent rejects a notification is not supported in Omnichannel for Customer Service on Unified Service Desk.
 
