@@ -136,7 +136,6 @@ In some scenarios you may need to create a completely custom work order form. Th
 - **No updates** - Your custom work order form will not receive updates from Microsoft. It will be static.
 - **Maintenance costs** - If Microsoft releases work order features that your organization wants to adopt, you will need to manually customize your forms to include those features. This costs time and money.
 - **Risk of slow performance and errors** - evidence shows that custom forms tend to have slower performance and more errors because of the risk of violating form design best practices. Review the risks and best practices at the end of this article.
-
 --- 
 * * *
 
@@ -156,9 +155,19 @@ For basic information on editing forms see the Power Platform documentation on [
 
 Go to https://make.powerapps.com > Tables > Work Order > Forms
 
+Select **Add form** at the top and select Main form.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customization-form-create-custom.png)
+
+You can also start from a copy of the default form if you have already made changes there.
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/customization-form-copy.png)
 
 
 We are now ready to customize the Work Order form with a combination of existing work order fields and your new custom fields. 
+
 
 ## 5. Hide and remove form tabs, sections, and fields
 
@@ -267,24 +276,12 @@ Use the monitoring tool to understand the root cause of why forms may be loading
 
 While the instructions in this article are useful for customizing any web form for back office workers, there is a specific work order form optimized for the mobile experience for frontline workers. See the topic on [Editing the booking and work order form](mobile-powerapp-booking-work-order-form.md) to learn how to customize the mobile work order form.
 
-## Create an entirely custom work order form (not recommended)
 
 
 
 
-#### Create a new form
 
-Go to https://make.powerapps.com > Tables > Work Order > Forms
 
-Select **Add form** at the top and select Main form.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/customization-form-create-custom.png)
-
-You can also start from a copy of the default form if you have already made changes there.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/customization-form-copy.png)
 
 #### Choose to remove price related fields if applicable
 
