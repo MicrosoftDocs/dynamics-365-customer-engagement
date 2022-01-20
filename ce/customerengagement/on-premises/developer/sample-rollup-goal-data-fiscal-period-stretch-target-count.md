@@ -4,7 +4,6 @@ description: "This sample shows how to roll up goal data for a fiscal period aga
 ms.custom: 
 ms.date: 01/02/2020
 ms.reviewer: 
-ms.service: crm-online
 ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 

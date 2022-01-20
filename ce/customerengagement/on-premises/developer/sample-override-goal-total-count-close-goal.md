@@ -4,7 +4,6 @@ description: "This sample demonstrates how to override the goal total count and 
 ms.custom: 
 ms.date: 01/02/2020
 ms.reviewer: 
-ms.service: crm-online
 ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
