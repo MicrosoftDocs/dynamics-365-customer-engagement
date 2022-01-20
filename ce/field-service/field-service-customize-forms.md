@@ -106,14 +106,25 @@ Here's an example of the tab experience:
 
 # [Existing form (recommended)](#tab/linux)
 
+Scenario this is best for: make minimal changes
+Pros
 - Recommended
 - Performance updates
 - New feature updates
+- easier to support
+Cons
+- less customizable 
 
 # [New custom form](#tab/windows)
 
-Content for Windows...
+Scenario this is best for: makes a lot of changes, need form for different roles
 
+Pros
+- Form will not be changed by updates
+- more leeway to make changes
+Cons
+- DO not benefit from work order updates
+- maintenance costs to manually add new features
 ---
 
 We are now ready to customize the Work Order form with a combination of existing work order fields and your new custom fields. 
