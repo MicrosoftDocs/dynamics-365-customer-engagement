@@ -264,20 +264,22 @@
     href: mobile-powerapp-windows.md
   - name: Use Microsoft Power Platform
     href: mobile-power-utilize-platform.md
+  - name: Improve mobile app performance 
+    href: improve-mobile-performance.md
   - name: FAQs
     href: mobile-power-app-faq.yml
   - name: Field Service Mobile (Xamarin app)
     items: 
     - name: Overview
       href: field-service-mobile-overview.md
+    - name: Xamarin app end of life
+      href: activate-fs-mobile-app-license.md
     - name: Install and Setup
       href: field-service-mobile-app-user-guide.md
     - name: Use the app
       href: field-service-mobile-use.md
     - name: Customizations and configurations
       href: mobile-app-configuration-customization.md
-    - name: Activate mobile configurator
-      href: activate-fs-mobile-app-license.md
     - name: Map API key
       href: mobile-enable-maps.md
     - name: Upgrade the mobile project template

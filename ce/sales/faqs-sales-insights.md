@@ -2,7 +2,7 @@
 title: "Frequently asked questions for Sales Insights"
 description: "Find a list of frequently asked questions that are related to different features in Sales Insights add-in for Dynamics 365 Sales."
 keywords: ""
-ms.date: 12/16/2021
+ms.date: 01/10/2022
 ms.custom: 
 ms.topic: article
 author: udaykirang
@@ -125,6 +125,24 @@ Depending on the region where your organization is hosted, data is stored in the
 | Switzerland (CHE) | Switzerland North | Switzerland West |
 
 More information: [Azure Regional Pairs](/azure/best-practices-availability-paired-regions#azure-regional-pairs)
+
+## Digital sales
+
+### What is digital sales?
+
+If you are a customer using a Dynamics 365 Sales Enterprise, Microsoft Relationship Sales, or Customer Engagement plan, you can now get started with three new Dynamics 365 Sales Premium features to help enhance your digital selling programs. We are adding conversation intelligence, sales accelerator with sequences, and predictive scoring at a limited capacity to get you started. More information: [Digital selling capabilities in Sales Enterprise](digital-selling.md)
+
+### What's the capacity limit in using digital sales?
+
+When you set up Sales Premium features using your Dynamics 365 Sales Enterprise license, the features are available with the following capacity limits:
+
+- Sales accelerator provides access to the workspace and up to 1500 records connected to any defined sequence per environment per month. Manual activities not connected to a sequence will also be displayed without a capacity limit.
+- Users who access and utilize conversation intelligence will be able to do so with 3 hours per user per month.
+- View up to 1500 leads or opportunity records scored per environment per month with predictive scoring.
+
+### How to get full capacity of digital sales?
+
+If you need more capacity, upgrade to Dynamics 365 Sales Premium. More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/)
 
 ## Assistant
 
@@ -337,7 +355,7 @@ Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insi
 It takes about one to three days for results to populate the graph the first time. Later, updates take three to six days, depending on the new activities included in the graph.​
 
 ### ​Who will be included in the graph?
-Everyone in the tenant is included in the graph. Administrators or users have the option to opt out users or groups such as C-suite, M&A, finance, and so on. To opt out of the connection graph, see [Opt out of connection graph](configure-who-knows-whom.md#opt-out-of-the-connection-graph).​
+Everyone in the tenant is included in the graph. Administrators or users have the option to opt out users or groups such as C-suite, M&A, finance, and so on. To opt out of the connection graph, see [Opt out of connection graph](who-knows-whom.md#opt-out-of-the-connection-graph).​
 
 ### ​How are the connections weighted?
 The connection strength is weighted by a combination of how well the signed-in user knows the intermediary, and how well the intermediary knows the target contact or lead. This means that a salesperson might not see the same results as another salesperson does, because they know different people in the organization.
@@ -354,7 +372,7 @@ The insights are generated within the Exchange Online system, so we follow the s
 The service is fully GDPR-compliant. Dynamics 365 won't cache any data on its side, and the data is queried every time a page is loaded with who knows whom.
 
 ### How do I opt out?
-You can choose to opt out of the connection graph. More information: [Opt out of the connection graph](configure-who-knows-whom.md#opt-out-of-the-connection-graph).
+You can choose to opt out of the connection graph. More information: [Opt out of the connection graph](who-knows-whom.md#opt-out-of-the-connection-graph).
 
 ### How does an Exchange administrator exclude users?
 The Exchange administrator can provide the Azure AD group that contains all the users that they want to exclude (for example, CEOs or vice presidents). 

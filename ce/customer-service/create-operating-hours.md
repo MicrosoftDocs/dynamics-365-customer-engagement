@@ -24,7 +24,7 @@ The operating hours schedules cater to the following scenarios:
 - Define schedules to transition customer queues from bots to agents.
 - Customize the display and other settings of the chat widget during non-business hours.
 
-After you define the business hours for your organization and set up [Automated messages](configure-automated-message.md) to be displayed to customers, when customers interact through a channel during non-business hours, they will see the messages that you have set. For example, customers can be shown an offline message on the chat widget as "Our agents are not available. Our business hours are between 8:00 am to 5:00 pm." Similarly, for social channels, you can configure the operating hours at the queue level. When customers contact your agents through any of the social channels outside the business hours, they will receive responses that you have set.
+After you define the business hours for your organization and set up [automated messages](configure-automated-message.md) to be displayed to customers, when customers interact through a channel during non-business hours, they will see the messages that you have set. For example, customers can be shown an offline message on the chat widget as "Our agents are not available. Our business hours are between 8:00 am to 5:00 pm." Similarly, for social channels, you can configure the operating hours at the queue level. When customers contact your agents through any of the social channels outside the business hours, they will receive responses that you have set.
 
 After you create an operating hour record, in Omnichannel admin center, you can do the following steps, depending on your requirement:
 
@@ -81,9 +81,9 @@ You can edit or delete the operating hours schedule in an existing record.
 1. Go to the record in which you want to modify the schedule.
 2. Select an event on the calendar.
 3. On the menu that appears, select **Edit**, and select one of the options:
-   - This event
-   - This and all following events
-   - All events in the series 
+   - **This event**
+   - **This and all following events**
+   - **All events in the series**
 4. If you want to delete an event, select **Delete**.
 
     > ![Edit an event.](media/oc-operating-hour-modify.png "Create a working hour schedule")

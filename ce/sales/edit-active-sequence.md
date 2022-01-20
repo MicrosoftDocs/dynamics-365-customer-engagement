@@ -18,7 +18,7 @@ When you've changed the process of an active sequence, you can create a new vers
 
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator or Sequence Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
@@ -26,7 +26,7 @@ When you've changed the process of an active sequence, you can create a new vers
 
 1.	Sign in to your Dynamics 365 Sales Hub app.   
 2.	Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.   
-3.	Under **Sales accelerator**, select **Sequence**.   
+3.	Under **Sales accelerator**, select **Sequences**.   
 4.	On the **Sequences** page, go to the **Active** tab, and open the sequence for which you want to create a new version.   
 
     > [!div class="mx-imgBorder"]

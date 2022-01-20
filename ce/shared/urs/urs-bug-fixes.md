@@ -1,3 +1,12 @@
+## 3.12.69.1
+
+(Includes Resource Scheduling controls version 1.2.10.213612)
+
+- Fixed bug: On the new schedule board, resource calendar doesn’t consider time-off hours if configured as time off. 
+- Fixed bug: Geocode fails with the error message "ResourceID GeoCode_AddressBadRequest was not found" due to missing label in the localization file. 
+- Fixed bug: New schedule board does not filter by date if the date format is not US or ISO and region is non-US. 
+- Fixed bug: New schedule board does not filter by custom fields on related entity for requirement view. 
+
 ## 3.12.68.8
 
 (Includes Resource Scheduling controls version 1.2.9.213482)

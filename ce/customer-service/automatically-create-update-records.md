@@ -1,7 +1,7 @@
 ---
 title: Automatically create or update records in Customer Service Hub (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to automatically create or update records by setting up rules in Dynamics 365 Customer Service
-ms.date: 05/13/2021
+ms.date: 01/17/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -82,7 +82,8 @@ You can configure a rule that when active will be run for incoming emails. Using
    a. In **Condition** > **Condition name**, enter an intuitive name.
 
    b. In **Condition that must pass to continue (pass if blank)**, select **Add**.
-   c. Use the following options To define the criteria for the rule to be evaluated:
+   
+   c. Use the following options to define the criteria for the rule to be evaluated:
 
       i. Add row
 
@@ -126,12 +127,12 @@ On the **Advanced** tab of the **Record creation and update rule** page for a ru
 
         If the sender of the email is a contact with a parent account, a record is created if the contact’s parent account has a valid entitlement, and the contact is listed in the **Contacts** section of the entitlement or if the **Contacts** section is empty (which means the entitlement is applicable to all contacts for the customer).
 
-   - **Wait for a specific amount of time after the connected case has been resolved:** If you select **Yes**, select a time value in the **Select the amount of time** box that appears.
+   - **Wait for a specific amount of time after the connected case has been resolved:** Select **Yes**, and then select a time value in the **Select the amount of time** box that appears. No new case will be created till the specified period of time lapses after a related case is resolved. For example, if you have set the value to yes and specify one hour, and a case exists for a printer issue, when a mail comes for the same printer issue, another case will not be created till one hour lapses after the existing printer issue case is resolved.
 
-    If set to no, a case will be created even if a related case exists. When set to yes, no new case will be created till the specified period of time lapses after a related case is resolved. For example, if you have set the value to yes and specify one hour, and a case exists for a printer issue, when a mail comes for the same printer issue, another case will not be created till one hour lapses after the existing printer issue case is resolved.
+      If set to **No**, a case will be created even if a related case exists and only if the email isn't already associated with a resolved case.
 
-    > [!Note]
-    > If you want a case to be created without any time lapse, then set **Wait for a specific amount of time after the connected case has been resolved** to **Yes** and don't select any time duration in the **Select the amount of time** box.
+      > [!NOTE]
+      > If you want a case to be created without any time lapse, then set **Wait for a specific amount of time after the connected case has been resolved** to **Yes** and don't select any time duration in the **Select the amount of time** box.
 
 3. In **Advanced settings**, by default the user who is creating the rule is listed in the **Owner whose permissions the rule uses to run** box. You can add more users or change the default value.
 4. Select **Save** or **Save & Close**.
@@ -168,6 +169,7 @@ Perform the following steps to use the activity monitor for the rules:
 1. On the **Record creation and update rules** page, select **View activity monitor** on the command bar. The **Activity monitor for record creation and update rules** page displays the list of rules with their statuses.
 
 2. Use the **Advanced filters** option to narrow down the view to list rules, such as list only those rules that match a specified condition.
+
 3. Double-click a rule or activity to view the activity monitoring summary that is displayed on the **Activity monitor** *<rule_name>* page.
   
     > [!NOTE]
@@ -177,7 +179,7 @@ Perform the following steps to use the activity monitor for the rules:
     > - The legacy rules will also be monitored and listed on the activity monitor view.
 
 4. Perform the following steps to turn on or off monitoring for the states:
-   1. Select **Monitor options** on the command bar. The **Monitor options** dialog box appears.
+   1. Select **Monitor options** on the command bar. The **Monitor options** dialog appears.
    2. Select any or all the following states:
       - Ready for Power Automate / workflow
       - Failed
@@ -198,19 +200,23 @@ Perform the following steps to use the activity monitor for the rules:
 
 ## Manually map a contact in Power Automate<a name="configure-in-power-automate"></a>
 
-Perform the following steps in Power Automate to manually map a contact:
+Perform the following steps to manually map a contact in Power Automate:
 
-1. Edit the rule in which you want to configure the manual mapping.
-2. On the **Condition builder** tab, select **Save and open Power Automate**. The Power Automate workflow opens on a new tab.
-3. In the **Create a record (don't rename this step)** step of the workflow, specify the required value in the **Customer (Contacts)** box.
-4. Make sure that you remove the default mappings from **Contact (Contacts)** and **Customer (Accounts)**.
-   > [!div class=mx-imgBorder]
-   > ![Configure manual mapping for creating contact.](media/arc-manual-power-automate.png " Configure manual mapping for creating contact")
+1. In the app in Customer Service, go to the automatic record creation and update rule feature, and then select the rule that you want to edit.
+2. In the **Step two: conditions to evaluate and actions to take** area, select the rule item for which you want to manually map the contact in Power Automate.
+3. On the page that appears, on the **Condition builder** tab, select **Save and open Power Automate**. The Power Automate workflow opens on a new tab.
+   1. Accept the default connnection settings, and select **Continue**.
+   2. On the page that's displayed, in the **Is this email sender a contact or an account** step, for the **If no** option, select the ellipses for **Terminate when no valid customer found**, and select **Delete**.
+   3. Select **OK** on the confirmation dialog.
+   4. In the **Create a record (don't rename this step)** step of the workflow, specify the required value in the **Customer (Contacts)** box.
+   5. Make sure that you remove the default mappings from **Contact (Contacts)** and **Customer (Accounts)**.
+      > [!div class=mx-imgBorder]
+      > ![Configure manual mapping for creating contact.](media/arc-manual-power-automate.png " Configure manual mapping for creating contact")
 
-   > [!IMPORTANT]
-   > If you want to map an account, make sure that you remove the default mappings from the **Contact (Contacts)** and **Customer (Contacts)** boxes and specify only an account in the **Customer (Accounts)** box for the workflow to run without errors.
+      > [!IMPORTANT]
+      > If you want to map an account, make sure that you remove the default mappings from the **Contact (Contacts)** and **Customer (Contacts)** boxes and specify only an account in the **Customer (Accounts)** box for the workflow to run without errors.
 
-5. Save and close.
+   6. Save and close.
 
 ### Troubleshoot cases
 
