@@ -2,11 +2,11 @@
 title: "Productivity pane | MicrosoftDocs"
 description: "Use the productivity pane settings in Power Apps to display agent scripts and smart-assist cards for your agents."
 ms.date: 10/09/2020
-ms.topic: article
+ms.topic: overview
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.custom: intro-internal
+
 ---
 
 # Productivity pane overview

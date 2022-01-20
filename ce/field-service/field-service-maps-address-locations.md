@@ -1,7 +1,7 @@
 ---
 title: "Enable location and map settings in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn all about location and map settings and how to enable them in Dynamics 365 Field Service.
-ms.date: 03/24/2021
+ms.date: 01/19/2022
 ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
 ms.topic: article
@@ -108,6 +108,14 @@ Booking maps is a feature that allows frontline workers to see their scheduled j
 > ![Screenshot of bookings on a map in the Field Service mobile app.](./media/mobile-2020-booking-maps.png)
 
 For more information, see this article: [Enable geospatial features in your environment](/powerapps/maker/canvas-apps/geospatial-overview#enable-the-geospatial-features-for-the-environment) 
+
+## Location tracking
+
+Frontline workers often travel to various locations throughout their work day, and it's helpful for schedulers to know where frontline workers are at any given time. Frontline workers using the Field Service (Dynamics 365) mobile app can enable location sharing from the app, allowing schedulers to visualize their location on the schedule board, and also audit a list showing a frontline worker's location history. See the topic on [location tracking](mobile-powerapp-location-auditing.md) for more details.
+
+## Geofencing
+
+A geofence is a virtual perimeter around a specific location. Geofencing allows users to draw zones around places of work, customer sites, and secure areas. You can configure the system to trigger various actions when geofences are crossed by a person or an equipped vehicle. See the topic on [geofencing](mobile-powerapp-geofence.md) for more details.
 
 ## Test geocoding
 
