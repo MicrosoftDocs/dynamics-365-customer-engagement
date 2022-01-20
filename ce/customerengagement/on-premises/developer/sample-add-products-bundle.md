@@ -28,7 +28,7 @@ This sample shows how to add products to a bundle. You can download the sample f
 [!include[cc-how-to-run-samples](includes/cc-how-to-run-samples.md)]
 ## What this sample does
 
-This sample shows how to add products to a bundle..
+This sample shows how to add products to a bundle.
 
 ## How this sample works
 
