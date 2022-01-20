@@ -16,7 +16,7 @@ Third-party channel providers can add a Dynamics 365 Channel Integration Framewo
 
 > [!IMPORTANT]
 >
-> If you're exporting solution files from one org and importing to another, then before you import the solution, you must manually update the channel provider information in the XML file.
+> When you're exporting solution files from one org and importing them into another org, to avoid the channel provider information from getting overwritten, you must manually update it in the XML file before you import the solution.
 
 [!INCLUDE[token-add-cif-solution-dependent-solution](../shared/token-add-cif-solution-dependent-solution.md)]
 
