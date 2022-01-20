@@ -104,11 +104,11 @@ See the topic on [How to create and edit Field Service columns (fields)](field-s
 
 Here's an example of the tab experience:
 
-# [Linux](#tab/linux)
+# [Existing work order form](#tab/linux)
 
 Content for Linux...
 
-# [Windows](#tab/windows)
+# [Custom work order form](#tab/windows)
 
 Content for Windows...
 
