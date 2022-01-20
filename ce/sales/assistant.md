@@ -1,7 +1,7 @@
 ---
 title: "Assistant for Dynamics 365 Sales | MicrosoftDocs"
 description: "Use the sales assistant to stay on top of your day through insight cards that provide tailored and actionable insights."
-ms.date: 04/09/2020
+ms.date: 10/26/2021
 ms.custom: 
 ms.topic: article
 ms.assetid: cf444ca7-3ec1-4939-8710-655190701484
@@ -15,14 +15,6 @@ caps.latest.revision: 22
 ---
 # Use the assistant to guide customer communications 
 
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
-
 The assistant (formerly known as Relationship Assistant) is part of Dynamics 365 Sales Insights. The assistant keeps an eye on your daily actions and communications, and helps you stay on top of your day with insight cards that are displayed prominently throughout the application to provide tailored and actionable insights. 
 
 Some ways the assistant reminds you of upcoming activities are:
@@ -33,8 +25,17 @@ Some ways the assistant reminds you of upcoming activities are:
 
 - Alerting you when an opportunity is nearing its close date.
   
->[!NOTE]
->The administrator must enable assistant before you can try it out. For complete details about prerequisites, how to enable the feature, and how to set it up, see [Configure the assistant](configure-assistant.md).
+> [!NOTE]
+> The administrator must enable assistant before you can try it out. For complete details about prerequisites, how to enable the feature, and how to set it up, see [Configure the assistant](configure-assistant.md).
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
 
 ## How and where the assistant can help you  
 
@@ -123,8 +124,8 @@ When you open the assistant, it displays the name and basic description of each 
 
 You can configure the assistant by choosing which types of insight cards you'd like to see or hide. 
 
->[!NOTE]
->You can override the administrator configuration for certain cards, such as **No activity with a record**, where you can display the card when there is activity for the set number of days on the record. This configuration will be applicable only for you.
+> [!NOTE]
+> You can override the administrator configuration for certain cards, such as **No activity with a record**, where you can display the card when there is activity for the set number of days on the record. This configuration will be applicable only for you.
 
 1. Sign in to the **Dynamics 365 Sales Hub** app.
 
@@ -158,9 +159,10 @@ You can configure the assistant by choosing which types of insight cards you'd l
    > [!div class="mx-imgBorder"]
    > ![Turn off insight card](media/assistant-personal-settings-card-turn-off.png "Turn off insight card")
 
-   >[!NOTE]
-   >You can select multiple cards that are turned on, and then turn them off simultaneously. 
+   > [!NOTE]
+   > You can select multiple cards that are turned on, and then turn them off simultaneously. 
 
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also  
 

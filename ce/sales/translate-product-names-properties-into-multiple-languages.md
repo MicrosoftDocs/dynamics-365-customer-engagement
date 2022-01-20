@@ -1,7 +1,7 @@
 ---
 title: "Translate product names and properties into multiple languages (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Make all the relevant information like cross-sell or upsell suggestions, or properties, available to sales users in their preferred language by translating product names and properties in Dynamics 365 Sales."
-ms.date: 09/30/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -11,17 +11,18 @@ ms.custom:
 ---
 # Translate product names and properties into multiple languages (Sales Hub) 
 
-## Requirements
-|  | |
+Translate all the relevant information like cross-sell or upsell suggestions, or properties, and make it available to sellers in their preferred language.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-
-When you sell your products in different regions, it is important that you translate significant product details into multiple languages. Help sales agents find things they need easily by making all the relevant details like cross-sell or upsell suggestions, or properties, available to them in their preferred language.   
-  
 <a name="bkmk_Export"></a>   
+
 ## Step 1: Export data for translation  
   
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
@@ -91,6 +92,8 @@ When you sell your products in different regions, it is important that you trans
 -   When you run duplicate detection in the base language, only the base language is used in conditional clauses.  
   
 -   When you run duplicate detection job in the preferred language, label in the preferred language is used first. When preferred language is not available, it uses the base language.  
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
   
 ### See also  
  [Set up a product catalog: Walkthrough](set-up-product-catalog-walkthrough.md)   

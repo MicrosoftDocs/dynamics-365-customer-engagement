@@ -1,29 +1,36 @@
 ---
-title: "Create and activate assignment rules for routing | MicrosoftDocs"
+title: "Create and activate assignment rules for routing"
 description: "Create and activate assignment rules for leads and opportunities by defining conditions to automatically assign records to sellers when the defined conditions are met in Dynamics 365 Sales."
-ms.date: 09/10/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
 ---
-# Create and activate an assignment rule 
+# Preview: Create and activate an assignment rule 
 
-## Requirements
-|  | |
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+Create and activate assignment rules for leads and opportunities by defining conditions to automatically assign records to sellers when the defined conditions are met in Dynamics 365 Sales.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator or Sequence Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
+
+## Introduction
 
 As a sequence manager, you create an assignment rule for lead and opportunity records by defining different conditions such as segment, sellers, and lead or opportunity distribution. After a rule is activated and a record satisfies the conditions that are defined in the rule, the record is automatically assigned to a seller. When records are created in Dynamics 365 Sales, you don't have to manually assign them to sellers.
 
 When a lead or opportunity record is created in an organization, assignment rules are applied from the top of the order in which they're listed. When the record satisfies the conditions defined for a rule, that rule is applied to the record. By default, rules are listed in the order in which they were created, with the most recent at the bottom. You can select and drag the rules into any order you want.
 
 >[!NOTE]
->For the example in this procedure, we create a lead assignment rule. Similarly, you can use this procedure to create an opportunity assignment rule.  
+>For the example in this procedure, we create a lead assignment rule. Similarly, you can use this procedure to create an opportunity assignment rule. 
 
-**To create and activate an assignment rule**
+## To create and activate an assignment rule
 
 1. Sign in to your Dynamics 365 Sales Hub app.
 
@@ -95,7 +102,7 @@ When a lead or opportunity record is created in an organization, assignment rule
     | Specific sellers | Assign leads to specific sellers. Select the sellers from the **Choose sellers** lookup.<br>**Note**: The security roles for sellers displayed in the list were added when the sales accelerator was configured. More information: step 4 in [Configure the sales accelerator](enable-configure-sales-accelerator.md)<br>![Select specific sellers.](media/sa-ar-select-specific-sellers.png "Select specific sellers") |
     | Specific teams | Assign leads to a specific team. The lead will be available for all members of the team you select. The teams must be defined in your organization. More information: [Manage teams](/power-platform/admin/manage-teams#ownergroup-team-or-access-team) |
 
-8. Under **Distribute leads by**, choose one of the following options. This setting is available only when you select a seller option in the **Assign these leads to** section.
+8. Under **Distribute leads by**, choose one of the following options. This setting is available only when you select a seller option in the **Assign these leads to** section. More information: [Understand lead distributions in assignment rules](understand-lead-distributions-assignment-rules.md)
 
    >[!NOTE]
    >The **Distribute leads by** setting isn't available for teams.
@@ -118,9 +125,11 @@ When a lead or opportunity record is created in an organization, assignment rule
 
 The rule is created and activated. It will be listed in the **Rules** section, which is organized in ascending order by date; the most recently created rule is always listed at the bottom of the list unless you move it.
 
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 
-[Manage assignment rules](create-manage-assignment-rules.md)
+[Manage assignment rules](create-manage-assignment-rules.md)     
+[Understand lead distributions in assignment rules](understand-lead-distributions-assignment-rules.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

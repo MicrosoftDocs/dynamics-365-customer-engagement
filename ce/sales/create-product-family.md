@@ -1,7 +1,7 @@
 ---
-title: "Set up product families - Sales Enterprise | MicrosoftDocs"
+title: "Set up product families | MicrosoftDocs"
 description: "Make it easier for sales agents to find products and services in a product catalog by creating a product family and classifying similar products"
-ms.date: 02/10/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -18,17 +18,24 @@ searchScope:
 ---
 # Set up product families 
 
-## Requirements
-|  | |
+Make it easier for sales agents to find products and services in a product catalog by creating a product family and classifying similar products.
+
+> [!NOTE]
+> Product families are only supported for Sales Enterprise and Sales Premium.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
+## What is a product family?
 
-Make it easier for sales agents to find products and services in a product catalog by creating a product family and classifying similar products in it. A product family lets you group and categorize products, making it easier for you to manage them.  
+A product family lets you group and categorize products, making it easier for you to manage them.  
   
- With product families, you can:  
+With product families, you can:  
   
 - Categorize your products in whichever way is most meaningful to your organization.  
   
@@ -74,7 +81,9 @@ Make it easier for sales agents to find products and services in a product catal
  ![Right arrow button](media/walkthrough-orange-right-arrow.png "Right arrow button") [Create a product](create-product-sales.md)  
   
  ![Home button](media/walkthrough-home.png "Home button") [Classify products and bundles into product families](create-product-bundles-sell-multiple-items-together.md)  
-  
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
+
 ### See also  
  [Set up a product catalog](set-up-product-catalog-walkthrough.md)   
  [Clone a product](clone-product.md)<br>

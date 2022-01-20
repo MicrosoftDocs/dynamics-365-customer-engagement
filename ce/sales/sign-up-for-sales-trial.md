@@ -1,24 +1,26 @@
 ---  
-title: "Sign up for a free trial - Dynamics 365 Sales Enterprise | Microsoft Docs"
-description: "Learn how to quickly sign up for and start a free Dynamics 365 Sales Enterprise trial. Explore the app with tours and videos, and find more learning resources."
+title: "Sign up for a free trial - Dynamics 365 Sales | Microsoft Docs"
+description: "Learn how to quickly sign up for and start a free Dynamics 365 Sales trial. Explore the app with tours and videos, and find more learning resources."
 author: lavanyakr01
 ms.author: lavanyakr
-ms.date: 08/31/2021
+ms.date: 01/10/2022
 ms.topic: get-started
 ms.service: dynamics-365-sales
 ms.custom: template-trial-setup
 ms.reviewer: shujoshi
 ---
-# Sign up for a free Dynamics 365 Sales Enterprise trial 
+# Sign up for a free Dynamics 365 Sales trial 
 
-Sales Enterprise offers a 30-day free trial. After a quick sign-up, you'll have access to many of the app's key features. The trial allows you to test the app with sample data and even try out your own customer data. [Learn more about Dynamics 365 Sales Enterprise features](overview.md).
+Dynamics 365 Sales offers a 30-day free trial with the Sales Premium license. After a quick sign-up, you'll have access to many of the app's key features. The trial allows you to test the app with sample data and even try out your own customer data. [Learn more about Dynamics 365 Sales features](overview.md).
 
 **To sign up for the trial**:
 
-1. Go to the [Sales Enterprise overview page](https://dynamics.microsoft.com/sales/overview/) and select **Try for free**.
+1. Go to the [Sales overview page](https://dynamics.microsoft.com/sales/overview/) and select **Try for free**.
 1. Follow the onscreen guidance to enter the [email associated with your Microsoft account](https://support.microsoft.com/windows/what-is-a-microsoft-account-4a7c48e9-ff5a-e9c6-5a5c-1a57d66c3bfa) and contact information.
 
-The trial takes a few moments to load, then you can start using the app.  
+The trial takes a few moments to load, then you can start using the app. When the trial app opens, you'll see the **Dashboards** page with helpful sales insights based on sample data and a product tour assistant as shown in the following image:
+
+:::image type="content" source="media/trial-dashboard-page.png" alt-text="Screenshot of the Dashboards page in Trial app":::
 
 ## What to try
 
@@ -33,6 +35,7 @@ Your trial environment includes many of the same features as the paid version. T
 - [Project your revenue](project-accurate-revenue-sales-forecasting.md)
     - [Configure forecasting](configure-forecast.md)
     - [View a forecast](view-forecasts.md)
+- [Digital selling](digital-selling.md)
 
 ## Additional resources
 

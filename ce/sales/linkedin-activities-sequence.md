@@ -9,12 +9,17 @@ manager: shujoshi
 ---
 # Add LinkedIn activities to sequence 
 
-## Requirements
-|  | |
+Use LinkedIn features to define activities for sequences in sales accelerator to display steps in work list and Up next widget.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium and [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator or Sequence Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
+
+## How LinkedIn activities help?
 
 In sequences, activities that are based on LinkedIn Sales Navigator allow sellers to diversify their day-to-day activities by including the social selling functions that are available in LinkedIn. You can use LinkedIn's vast network with recommended actions that your sellers can take to build deeper connections.
 
@@ -30,7 +35,7 @@ Ensure that you meet the following requirements before configuring the LinkedIn 
 -	Verify that LinkedIn Sales Navigator is configured in your organization. More information: [Install and enable LinkedIn Sales Navigator](/dynamics365/linkedin/install-sales-navigator).
 -	Verify that the latest solution with version **3.0.1.1060** for **msdyn_LinkedInSalesNavigatorAnchor** is installed. 
     - Go to **Advanced settings** > **Solutions** and search for **msdyn_LinkedInSalesNavigatorAnchor**. The version number should be 3.0.1.1060 or later. 
--	You have proper license to use LinkedIn Sales Navigator. More information: [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/).
+-	You have proper license to use LinkedIn Sales Navigator.
 
 ## Research activity
 
@@ -123,6 +128,8 @@ When this activity is displayed to the seller, the Send InMail step is displayed
  
     >[!div class="mx-imgBorder"]
     >![Send InMail activity added to sequence](media/sa-linkedin-activity-send-inmail-activity-added.png "Send InMail activity added to sequence")        
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

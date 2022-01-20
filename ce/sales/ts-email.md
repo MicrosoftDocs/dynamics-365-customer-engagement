@@ -1,22 +1,13 @@
 ---
 title: "Troubleshooting issues with email (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how to troubleshoot issues with email in Dynamics 365 Sales."
-ms.date: 09/30/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ---
 # Troubleshooting issues with email 
-
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
-
 
 This article helps you troubleshoot and resolve issues related to emails in Dynamics 365 Sales.
 
@@ -40,7 +31,7 @@ To resolve this issue, you must add the `onload` and `onchange` events to the cu
 
 4. Add the following code in the form's XML:
 
-    ```
+    ```XML
     <events>  <event name="onload" application="true" active="true"> 
     <InternalHandlers> <Handler functionName="Activities.Email.formOnload" libraryName="Activities/SystemLibraries/Email_main_system_library.js" handlerUniqueId="ecdfe4d8-d6d3-4d21-ab68-8ea75bb30a79" enabled="true" parameters="" passExecutionContext="true" /> 
     <Handler functionName="Activities.Email.NotifyPanelSubjectChange" libraryName="Activities/SystemLibraries/Email_main_system_library.js" handlerUniqueId="{706607A8-4424-4C9A-847A-602FC8035B48}" enabled="true" parameters="" passExecutionContext="true" solutionaction="Added"/> 

@@ -1,10 +1,10 @@
 ---
 title: "Manage session templates | MicrosoftDocs"
-description: "Learn about managing session templates in Customer Service workspace and Omnichannel Administration app"
+description: "Learn about managing session templates in Customer Service workspace and Omnichannel admin center"
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/07/2021
+ms.date: 11/01/2021
 ms.topic: article
 ---
 
@@ -22,7 +22,7 @@ Session templates are used to define the aforementioned session experience, such
 - what are the additional application tabs that must be opened when a session is started;
 - what must be the default mode of the communication panel when a session is started.
 
-You can create session templates in the Omnichannel Administration app or use the out-of-the-box templates. In your environment, as an administrator, you can create multiple session templates.
+You can create session templates in Omnichannel admin center or use the out-of-the-box templates. In your environment, as an administrator, you can create multiple session templates.
 
   > [!Note]
   > You can't customize the out-of-the-box session templates; instead, you'll need to create your own custom templates.
@@ -33,6 +33,7 @@ The following out-of-the-box session templates are of the generic type and are f
 
 - Case entity session - default template
 - Chat session - default
+- Voice call session - default
 - Custom messaging session - default
 - Entity records session - default
 - Facebook session - default

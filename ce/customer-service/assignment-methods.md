@@ -1,7 +1,7 @@
 ---
 title: "Assignment methods for queues | MicrosoftDocs"
 description: "Learn about the different assignment methods for queues in Customer Service and Omnichannel for Customer Service and how they can be used in unified routing."
-ms.date: 10/19/2021
+ms.date: 12/27/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -15,7 +15,7 @@ searchScope:
 - Customer Service
 ---
 
-# Assignment methods for queues
+# Assignment methods in unified routing
 
 Assignment methods determine how a work item is assigned. You can use the out-of-the-box assignment methods or build custom assignment rules by configuring the prioritization rules and assignment rulesets. You can set up assignment methods only through the Customer Service Hub or Omnichannel admin center app.
 
@@ -39,6 +39,9 @@ You can also create your own assignment method to suit the business needs.
 
   - **Prioritization rulesets**: Let you define the order in which the work items will be assigned to agents when they are available to take more work.
   - **Assignment rulesets**: Represent a set of conditions that are used to select agents and use an order by option to sort the matching agents.
+  
+  > [!IMPORTANT]
+  > You must configure skill-matching rules in the custom assignment method because the **Default skill matching algorithm** settings of the workstream won't be used in custom assignment method.
 
 ### Assignment cycle
 

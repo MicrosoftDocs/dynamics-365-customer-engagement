@@ -1,22 +1,13 @@
 ---
 title: "Troubleshooting the Lead entity (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how to troubleshoot issues with the Lead entity in Dynamics 365 Sales."
-ms.date: 05/26/2020
+ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: annbe
 ---
 # Troubleshooting the Lead entity  
-
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
-
 
 This article helps you troubleshoot and resolve issues related to the Lead entity.
 
@@ -218,12 +209,12 @@ For more information about identifying plug-ins registered on creation of an ent
 
 **Reason:**  
 
-The out-of-the-box **Qualify lead** command is visible on the Lead form only if Account, Contact, Lead, and Opportunity entities are set as editable in the Unified Interface, and the Account, Contact, and Opportunity entities are available in Mobile offline. 
+The out-of-the-box **Qualify lead** command is visible on the Lead form only if Account, Contact, Lead, and Opportunity entities are set as editable in Unified Interface, and the Account, Contact, and Opportunity entities are available in Mobile offline. 
 
 **Resolution:**
 
 If the **Qualify lead** command isn't available, check the following:
-- Account, Contact, Lead or Opportunity entities are set to read-only for mobile. If they are, clear the **Read-only in mobile** check box in entity customization so that the entity becomes editable for Unified Interface. More information: [Troubleshooting issues with the Unified Interface](ts-unified-interface.md)
+- Account, Contact, Lead or Opportunity entities are set to read-only for mobile. If they are, clear the **Read-only in mobile** check box in entity customization so that the entity becomes editable for Unified Interface. More information: [Troubleshooting issues with Unified Interface](ts-unified-interface.md)
 - Check if the Account, Contact, and Opportunity entities are part of the mobile offline profile. If they aren't, add these entities to the profile and publish the changes. More information: [Enable entities for mobile offline synchronization](../mobile-app/setup-mobile-offline-for-admin.md#step-1-enable-entities-for-mobile-offline-synchronization)
 
 

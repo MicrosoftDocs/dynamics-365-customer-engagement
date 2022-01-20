@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions - Dynamics 365 Sales | MicrosoftDocs"
 description: "Find a list of frequently asked questions that are related to different features in Dynamics 365 Sales Enterprise."
-ms.date: 09/29/2020
+ms.date: 11/10/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -11,44 +11,49 @@ manager: shubhadaj
 
 ## Licenses
 
-**Question**:<br>What's the difference between Sales Premium and Sales Insights?  
+### What's the difference between Sales Premium and sales insights?  
 
-**Answer**:<br>Sales Premium refers to the license and Sales Insights refers to the capabilities. The Sales Premium license includes both Sales Enterprise and Sales Insights capabilities. The basic Sales Insights capabilities are also available with the Sales Enterprise license. For a detailed comparison of the capabilities in each license, go to the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales/pricing/) page.     
+Sales Premium refers to the license and sales insights refers to the capabilities. The Sales Premium license includes both Sales Enterprise and premium sales insights capabilities. The basic sales insights capabilities are also available with the Sales Enterprise license. For a detailed comparison of the capabilities in each license, go to the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales/pricing/) page.  
 
-**Question**:<br>Where can I find the comparison chart for Dynamics 365 Sales licenses? 
 
-**Answer**:<br>The following license options are available for Dynamics 365 Sales:
+### Where can I find the comparison chart for Dynamics 365 Sales licenses?  
+
+The following license options are available for Dynamics 365 Sales:
 - Sales Premium
 - Sales Enterprise
 - Sales Professional
 
 For a detailed comparison of capabilities available with each license, go to the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales/pricing/) page.
 
+### Where can I find the Sales Professional and sales insights documentation?
+
+To provide a unified experience across all the Sales offerings, we have merged the documentation for Sales Enterprise, Sales Professional, and sales insights into this unified Sales documentation. The license and role requirements section at the top of pages indicate whether the feature and content are applicable to the license that you have. If you have bookmarked any of the old URLs, they would be automatically redirected to the corresponding pages in the unified documentation.  
+
 ## Entity: Activity
 
-**Question**:<br>Why are the **Follow** and **Unfollow** buttons displayed together on the command bar?
+### Why are the **Follow** and **Unfollow** buttons displayed together on the command bar?
 
-**Answer**:<br>This is by design. If you go to an entity in Unified Interface and select a record, the **Follow** and **Unfollow** buttons are displayed together on the command bar no matter which state the selected record is in, followed or not followed.
+This is by design. If you go to an entity in Unified Interface and select a record, the **Follow** and **Unfollow** buttons are displayed together on the command bar no matter which state the selected record is in, followed or not followed.
 
-**Question**:<br>If the SchedulingEngine feature is enabled for appointments, why am I redirected to the default tab in an appointment when I save it from a non-default tab?
+### If the SchedulingEngine feature is enabled for appointments, why am I redirected to the default tab in an appointment when I save it from a non-default tab?
 
-**Answer**:<br>This is by design. When you save an appointment from a non-default tab, you are redirected to the default environment when the appointment is saved.
+This is by design. When you save an appointment from a non-default tab, you are redirected to the default environment when the appointment is saved.
 
-**Question**:<br>If the SchedulingEngine feature is enabled for appointments, why are appointments saved automatically even if the system administrator has added a custom script to stop auto-save?
+### If the SchedulingEngine feature is enabled for appointments, why are appointments saved automatically even if the system administrator has added a custom script to stop auto-save?
 
-**Answer**:<br>If your system administrator has added a custom script to prevent the default save option for appointments, the system will still override the custom script and save the appointments automatically.
+If your system administrator has added a custom script to prevent the default save option for appointments, the system will still override the custom script and save the appointments automatically.
 
-**Question**:<br>If the SchedulingEngine feature is enabled for appointments, why does the **Open Record Set** button disappear when an appointment is saved?
+### If the SchedulingEngine feature is enabled for appointments, why does the **Open Record Set** button disappear when an appointment is saved?
 
-**Answer**:<br>When you select **Save** to save an appointment, the **Open Record Set** button disappears. When you refresh the page, the button reappears. More information: [Open Record Set](/powerapps/user/navigation#record-set-navigation)
+When you select **Save** to save an appointment, the **Open Record Set** button disappears. When you refresh the page, the button reappears. More information: [Open Record Set](/powerapps/user/navigation#record-set-navigation)
 
-**Question**:<br>Why are the synchronized appointments from Outlook shown as unsaved in Dynamics 365?
+### Why are the synchronized appointments from Outlook shown as unsaved in Dynamics 365?
 
-**Answer**:<br>When you create an appointment or edit any existing appointment in Outlook and synchronize it with Dynamics 365, the appointment is created in Dynamics 365 but is shown as unsaved. You can disable the auto-save option in Dynamics 365 to see the synchronized appointments from Outlook saved into Dynamics 365.
+When you create an appointment or edit any existing appointment in Outlook and synchronize it with Dynamics 365, the appointment is created in Dynamics 365 but is shown as unsaved. You can disable the auto-save option in Dynamics 365 to see the synchronized appointments from Outlook saved into Dynamics 365.
 
-**Question**:<br>Why can't I see the What's new functionality in Unified Interface?
+### Why can't I see the What's new functionality in Unified Interface?
 
-**Answer**:<br>This is by design. The What's new functionality is only available in the legacy web client. The equivalent in Unified Interface is to insert the Timeline control (with posts enabled) on the dashboard:
+This is by design. The What's new functionality is only available in the legacy web client. The equivalent in Unified Interface is to insert the Timeline control (with posts enabled) on the dashboard:
 
 1. In your app, select **Settings** ![Settings.](media/settings-icon.png), and then select **Advanced Settings**.
 
@@ -70,9 +75,9 @@ For a detailed comparison of capabilities available with each license, go to the
 
 ## Entity: Opportunity
 
-**Question**:<br>When can I edit the **Est.Revenue** value in the **Opportunity** form?
+### When can I edit the **Est.Revenue** value in the **Opportunity** form?
 
-**Answer**:<br>To edit the value of estimated **Revenue** in the **Opportunity** form, the **Revenue** must be configured as **User Provided** and the opportunity must be in an **Open** state. 
+To edit the value of estimated **Revenue** in the **Opportunity** form, the **Revenue** must be configured as **User Provided** and the opportunity must be in an **Open** state. 
 
    > [!div class="mx-imgBorder"]
    > ![Edit estimated revenue.](media/faqs-est-revenue.png "Edit estimated revenue")
@@ -83,9 +88,9 @@ For a detailed comparison of capabilities available with each license, go to the
 > [!NOTE]
 > In this section, we use the entity **Opportunity** to frame the questions. However, these questions are also true for these other entities: **Quote**, **Invoice**, and **Order**.
 
-**Question**:<br>Why does a view other than **Opportunity Product Inline Edit View** lose the inline editing functionality and why can't I see grid actions such as move up, move down, and lock icons in the legacy web client if a view other than **Opportunity Product Inline Edit View** is selected for the **Opportunity Product** subgrid in the **Opportunity** form?
+### Why does a view other than **Opportunity Product Inline Edit View** lose the inline editing functionality and why can't I see grid actions such as move up, move down, and lock icons in the legacy web client if a view other than **Opportunity Product Inline Edit View** is selected for the **Opportunity Product** subgrid in the **Opportunity** form?
 
-**Answer**:<br>This is a by-design behavior in the legacy web client. However, this behavior is changed in Unified Interface. We recommend that you use Unified Interface to experience the inline edit view. To verify whether a grid is editable, go to **Grid control properties**.
+This is a by-design behavior in the legacy web client. However, this behavior is changed in Unified Interface. We recommend that you use Unified Interface to experience the inline edit view. To verify whether a grid is editable, go to **Grid control properties**.
 
    > [!div class="mx-imgBorder"]
    > ![Properties settings for grid control.](media/faqs-grid-control-properties.png "Properties settings for grid control")
@@ -95,9 +100,10 @@ For a detailed comparison of capabilities available with each license, go to the
    > - An editable grid doesn’t guarantee that all columns are editable; it depends on the **Pricing**.
 
 <a name="amt-not-calculated"> </a>
-**Question**:<br> Why is the amount not calculated automatically in the **Amount** fields of opportunity, quote, order, or invoice records?
 
-**Answer**: <br> The value in the **Est. Revenue** and **Total Amount** fields of an opportunity is updated only the following conditions are met:
+###  Why is the amount not calculated automatically in the **Amount** fields of opportunity, quote, order, or invoice records?
+
+The value in the **Est. Revenue** and **Total Amount** fields of an opportunity is updated only the following conditions are met:
 
 - Your organization is configured to use system pricing calculation. To verify whether system pricing calculation is enabled, make sure that the **Use system pricing calculation** setting in **System Settings** is set to **Yes**. More information: [System Settings dialog box - Sales tab](system-settings-sales-tab.md) 
 
@@ -106,10 +112,9 @@ For a detailed comparison of capabilities available with each license, go to the
 The value in the **Est. Revenue** or **Total Amount** field isn't updated without the opportunity being refreshed or recalculated.
 
 <a name="fields-locked"> </a>
-**Question:**<br>
-Why are some fields editable while some are locked in the Product subgrid in the Opportunity, Quote, Order, and Invoice records?
 
-**Answer:**<br>
+### Why are some fields editable while some are locked in the Product subgrid in the Opportunity, Quote, Order, and Invoice records?
+
 There are certain restrictions on inline editing based on the type of products in the subgrid:
 
 -   If the product in the subgrid is an individual product and an existing product from the product catalog, all fields except the Quantity and Discount are locked for editing.
@@ -126,9 +131,9 @@ There are certain restrictions on inline editing based on the type of products i
 > [!NOTE]
 > In this section, we use the entity **Opportunity Product** to frame the questions. However, these questions are also true for these other entities: **Quote Product**, **Order Product**, and **Invoice Product**.
 
-**Question**:<br>How can I configure the value of the default **Pricing** to **Override Price** on the **Opportunity Product** form?
+### How can I configure the value of the default **Pricing** to **Override Price** on the **Opportunity Product** form?
 
-**Answer**:<br>To configure the value of the default **Pricing** as **Override Price** in the **Opportunity Product** form: 
+To configure the value of the default **Pricing** as **Override Price** in the **Opportunity Product** form: 
 1. Go to **Settings** > **Customizations** > **Customize the System**.
 2. Select **Entities** > **Opportunity Product** > **Fields**.
 3. Select the **ispriceoverridden** field and configure the **Default Value** to **Override Price**.
@@ -142,17 +147,17 @@ There are certain restrictions on inline editing based on the type of products i
 > [!NOTE]
 > In this section, we use the entity **Order** to frame the questions. However, these questions are also true for the entity **Invoice**.
 
-**Question**:<br>How can I change the default value for the **Prices Locked** field in the **Order** form?
+### How can I change the default value for the **Prices Locked** field in the **Order** form?
 
-**Answer**:<br>You can change the default value for the **Prices Locked** field in the **Order** form through customizations or the inline editable grid:
+You can change the default value for the **Prices Locked** field in the **Order** form through customizations or the inline editable grid:
   1. Go to **Settings** > **Customizations** > **Customize the System**.
   2. Select **Entities** > **Order** > **Fields**.
   3. Select the **ispricelocked** field, and then set **Default Value** to **No**.
   4. Save and publish the customizations.
 
-**Question**:<br>For a particular **Order** form, how can I change the state of **Prices Locked** field?
+### For a particular **Order** form, how can I change the state of **Prices Locked** field?
 
-**Answer**:<br> You can change the state for the **Prices Locked** field through the inline editable grid. Select the **Lock** icon on the editable grid, and the state of the **Prices Locked** field changes accordingly. 
+You can change the state for the **Prices Locked** field through the inline editable grid. Select the **Lock** icon on the editable grid, and the state of the **Prices Locked** field changes accordingly. 
 
 In the legacy web client: 
   > [!div class="mx-imgBorder"]
@@ -162,9 +167,9 @@ In Unified Interface:
   > [!div class="mx-imgBorder"]
   > ![Edit pricing for a product in Unified Interface.](media/faqs-edit-pricing-for-product-uci.png "Edit pricing for a product in Unified Interface")
 
-**Question**:<br>When can I change the values in the **Pricing Per Unit** column in the **Products** grid?
+### When can I change the values in the **Pricing Per Unit** column in the **Products** grid?
 
-**Answer**:<br>The **Prices Locked** (ispricelocked) field controls the prices specified on the **Order** form and locks them from any further updates.
+The **Prices Locked** (ispricelocked) field controls the prices specified on the **Order** form and locks them from any further updates.
 
 These tables define the behavior of **PricePerUnit** in the **Products** subgrid and **Order** product form: 
 
@@ -183,9 +188,9 @@ These tables define the behavior of **PricePerUnit** in the **Products** subgrid
 |**Prices Locked** is Yes|Non-editable|Non-editable|Non-editable|
 |**Prices Locked** is No|Editable|Non-editable|Editable|
    
-**Question**:<br>What is the result of changing the product price in **Pricelist** on the **PricePerUnit** of the **Order** product form?
+### What is the result of changing the product price in **Pricelist** on the **PricePerUnit** of the **Order** product form?
 
-**Answer**:<br>The following table defines the effect of changing the product price in **Pricelist** on the **PricePerUnit** of the **Order** product form:
+The following table defines the effect of changing the product price in **Pricelist** on the **PricePerUnit** of the **Order** product form:
 
 |Entity state|IsPriceLocked|Pricing|Is the value of **PricePerUnit** on the **Order** product form changed?|
 |------------|-------------|-------|----------------------------------------------------------------------|
@@ -196,8 +201,8 @@ These tables define the behavior of **PricePerUnit** in the **Products** subgrid
 
 ## Forecasting
 
-**Question**:<br>What are the configurations that I can edit once a forecast is published?     
-**Answer**:<br>You can edit the following configurations for a forecast once it's published:     
+### What are the configurations that I can edit once a forecast is published?     
+You can edit the following configurations for a forecast once it's published:     
 -	On the [General](define-general-properties-scheduling-forecast.md) page, you can edit forecast title and default underlying records view. 
 -	On the [Permissions](provide-permissions-forecast.md) page, you can add security roles and provide them with permission to view or edit forecast. 
 -	On the [Layout](choose-layout-and-columns-forecast.md) page, you can edit column titles, descriptions, and whether or not they show up on the grid. 
@@ -206,6 +211,8 @@ These tables define the behavior of **PricePerUnit** in the **Products** subgrid
 -	On the [Advanced](forecast-configure-advanced-settings.md) page, you can enable or disable auto-hide parent row, multi-currency selection, and customize access to edit fields in the underlying records grid.    
 When you save and publish the configuration, the changes will be applied immediately to the forecast. If you update data (simple columns and adjust fields), these changes may take up to two hours to reflect in the forecast. 
 
-
+### Can I manually set the forecast category of an opportunity as **Won** or **Lost**?   
+  
+Technically, you can. The opportunity form and editable grids, other than the grid in the forecast, allow the selection of **Won** or **Lost** as forecast categories. However, this will interfere with your forecast and rollup values, and is not an ideal practice. For example, if you manually set the value of an opportunity to **Won** without closing the opportunity, the opportunity might not even show up in the forecast. By default, forecasts are configured to show an opportunity as **Won** only when the actual revenue and actual close date are available. The best practice is to close the opportunity as **Won** or **Lost** and have the forecast category automatically updated. More information: [Close opportunities as won or lost](close-opportunity-won-lost-sales.md).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

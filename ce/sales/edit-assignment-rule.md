@@ -1,22 +1,27 @@
 ---
-title: "Edit an assignment rule in Sales Insights"
+title: "Edit an assignment rule in sales accelerator"
 description: "Update the conditions that you've defined in the rule to modify your process for automatically assigning leads to sellers."
-ms.date: 09/10/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
 ---
-# Edit an assignment rule 
+# Preview: Edit an assignment rule 
 
-## Requirements
-|  | |
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+To modify your process for automatically assigning leads or opportunities to sellers, you can update the conditions that you've defined in the rule.  
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator or Sequence Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-To modify your process for automatically assigning leads or opportunities to sellers, you can update the conditions that you've defined in the rule.  
+## To edit an assignment rule 
 
 >[!NOTE]
 >In this procedure, we are using lead as an example to edit an assignment rule. Similarly, you can use this procedure to edit opportunity assignment rule. 
@@ -40,6 +45,8 @@ To modify your process for automatically assigning leads or opportunities to sel
 5.	Edit the information according to your needs, and then select **Update rule**.
 
 The changes will be applied to new leads that are created in the future in the application. The leads that were already assigned through the rule won't change.
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
 ### See also
 

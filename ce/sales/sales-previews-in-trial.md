@@ -1,5 +1,5 @@
 ---
-title: "Preview features in trial - Sales Enterprise | MicrosoftDocs"
+title: "Preview features in trial | MicrosoftDocs"
 description: "Learn about the preview features in your Sales trial app and how to disable them if needed."
 ms.date: 10/01/2021
 ms.topic: article
@@ -8,13 +8,6 @@ ms.author: lavanyakr
 manager: shujoshi
 ---
 # Preview features in trial 
-
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | All <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
 
 This page lists the upcoming preview features that will be enabled by default in your trial app. Review the information in this page to understand what's coming up.
 

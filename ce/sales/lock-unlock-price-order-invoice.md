@@ -1,11 +1,11 @@
 ---
 title: "Lock or unlock the price for an order or invoice in Dynamics 365 Sales | MicrosoftDocs"
 description: "Define whether the prices on orders and invoices in Dynamics 365 Sales will be locked."
-ms.date: 06/22/2020
+ms.date: 10/25/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-salesorder
@@ -17,20 +17,17 @@ searchScope:
 ---
 # Lock or unlock the price for an order or invoice (Sales Hub) 
 
-## Requirements
-|  | |
+To determine whether your order or invoice is using Prices Locked, see the **Prices Locked** field on Order or Invoice form. If the **Prices Locked** field is set to **No**, **Use Current Pricing** is enabled. This field is read-only. 
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-
-
-To determine whether your order or invoice is using Prices Locked, see the Prices Locked field on Order or Invoice form. If the Prices Locked field is set to **No**, **Use Current Pricing**
-is enabled.
-This field is read-only. 
-
-To lock prices or to use current pricing:
+## Lock prices or use current pricing
 
 1. In the site map, select **Orders** or **Invoices**.
 
@@ -41,6 +38,8 @@ To lock prices or to use current pricing:
      -OR-
     
     To enable current pricing, on the command bar, select the More Commands icon ![More Commands icon.](media/more-commands-icon.png "More Commands icon"), and then select **Use Current Pricing**.
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

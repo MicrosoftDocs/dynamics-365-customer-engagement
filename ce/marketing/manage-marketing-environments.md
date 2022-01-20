@@ -1,7 +1,7 @@
 ---
 title: "Manage marketing environments (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to copy a production Dynamics 365 Marketing environment to a sandbox environment for experiments and testing."
-ms.date: 10/08/2021
+ms.date: 12/06/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -95,6 +95,9 @@ To prepare your target environment, do the following _before_ starting the copy:
 
 1. If the Marketing environment was [integrated with a Power Apps portal](portal-optional.md), reset the portal as described in [Reset a portal](/powerapps/maker/portals/admin/reset-portal). This is important because it will free your portal license to be used elsewhere.
 1. After the reset, the portal will still be shown as "configured" in the Power Platform admin center, but you will now be able to select it when you run the Marketing setup wizard to set up a new, copied, or restored environment.
+1. **[Optional]** To free up your DNS zones, remove all DNS records that were created during [domain authentication](mkt-settings-authenticate-domains.md). If you do not remove DNS records during this step, there will be no way to determine which records were used after the environment is copied.
+> [!WARNING]
+> Do not remove DNS records for domains that are used in other orgs.
 
 ### Step 3: Copy the environment
 
@@ -216,12 +219,12 @@ For standard Dynamics 365 environments (without Marketing installed), you can us
 > [!WARNING]
 > When you reset a Marketing environment, you *must* choose an app template that enables Dynamics apps. Dynamics apps require a special template that contains prerequisite solutions. If the app template you select does not enable Dynamics apps, you will need to delete the environment and provision the Marketing app into a different environment.
 
-## Do not change the URL for an environment with Marketing installed
+## Do not change the URL for an environment with real-time or outbound Marketing installed
 
-For standard Dynamics 365 environments (without Marketing installed), you can use the Power Platform admin center to change the URL of an environment. However, _you can't currently do this if you have Marketing installed_.
+For standard Dynamics 365 environments (without any flavor of Marketing installed), you can use the Power Platform admin center to change the URL of an environment. However, _you can't currently do this if you have real-time or outbound Marketing installed_.
 
 > [!IMPORTANT]
-> Do not attempt to change the URL for a Marketing environment. If you require a different URL, you must set up a new Dynamics 365 environment at the new URL and then reinstall Marketing there.
+> Do not attempt to change the URL for a real-time or outbound Marketing environment. If you require a different URL, you must set up a new Dynamics 365 environment at the new URL and then reinstall real-time or outbound Marketing there.
 
 ### See also
 

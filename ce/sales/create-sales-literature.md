@@ -1,7 +1,7 @@
 ---
-title: "Manage sales literature - Sales Enterprise | MicrosoftDocs"
+title: "Manage sales literature in Dynamics 365 Sales"
 description: "Sales literature is a repository to store sales-related information such as brochures or product specifications, which can be shared with others."
-ms.date: 10/01/2019
+ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -15,20 +15,19 @@ searchScope:
   - Sales
   - Customer Engagement
 ---
-# Manage sales literature (Sales Hub) 
-
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
-
+# Manage sales literature
 
 Sales literature in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] stores sales-related information such as brochures or detailed specifications of products. Think of sales literature as a central repository for your organization’s sales information (in the form of sales attachments) that lets you share information with other users.
 
 You can associate a sales literature to a competitor or a product.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
 
 ## Create a sales literature record
 
@@ -60,10 +59,11 @@ There are two ways to send the sales literature to other users:
 
 - Select the **Add Sales Literature** option in [!INCLUDE[pn-dyn-365-app-outlook](../includes/pn-dyn-365-app-outlook.md)]. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add sales literature or a knowledge base article to a email](../outlook-app/user/add-literature-or-kb.md)
 
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
+
 ### See also  
 [Create or edit a competitor record](create-edit-competitor-record-sales.md)  
 [Set up a product](create-product-sales.md)  
-[User Guide](user-guide.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

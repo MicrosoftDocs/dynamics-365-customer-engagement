@@ -1,7 +1,7 @@
 ---
 title: "Work on LinkedIn-related activities defined in sequences"
 description: "Work on LinkedIn-related activities defined for sequences in sales accelerator to display steps in work list and Up next widget."
-ms.date: 10/08/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -9,13 +9,17 @@ manager: shujoshi
 ---
 # Work with LinkedIn activities 
 
-## Requirements
-|  | |
+Work on LinkedIn-related activities defined for sequences in sales accelerator to display steps in work list and Up next widget.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
+## What are LinkedIn activities?
 
 As a seller, you can use the LinkedIn network, which contains millions of users and offers a unique depth and quality of information you can use to research and connect with your customers. This functionality allows you to use LinkedIn Sales Navigator in your sequence to recommend the next best action.
 
@@ -32,7 +36,7 @@ The **Research** activity allows you to view LinkedIn profiles, including custom
 
 You can do the actions as described in the following table:
 
-|              | Up next widget | Work list item |
+|   &nbsp;     | Up next widget | Work list item |
 |--------------|----------------|----------------|
 | Sample image | ![Research activity step in Up next widget](media/sa-linkedin-activity-research-step.png "Research activity step in Up next widget") | ![Research activity step in work list](media/sa-linkedin-activity-research-step-work-list.png "Research activity step in work list")|
 | Action | Select **Show profile**. | Hover over the item and then select the LinkedIn icon. |
@@ -53,7 +57,7 @@ The **Get introduced** activity allows you to ask for an introduction to a custo
 
 You can do the actions as described in the following table:
 
-|              | Up next widget | Work list item |
+|     &nbsp;   | Up next widget | Work list item |
 |--------------|----------------|----------------|
 | Sample image | ![Get introduced activity step in Up next widget](media/sa-linkedin-activity-get-introduced-step.png "Get introduced activity step in Up next widget") | ![Get introduced activity step in work list](media/sa-linkedin-activity-get-introduced-step-work-list.png "Get introduced activity step in work list")|
 | Action | Select **Get introduced**. | Hover over the item and then select the LinkedIn icon. |
@@ -74,7 +78,7 @@ The **Connect** activity allows you to send connection invites along with person
 
 You can do the actions as described in the following table:
 
-|              | Up next widget | Work list item |
+|   &nbsp;     | Up next widget | Work list item |
 |--------------|----------------|----------------|
 | Sample image | ![Connect activity step in Up next widget](media/sa-linkedin-activity-connect-step.png "Connect activity step in Up next widget") | ![Connect activity step in work list](media/sa-linkedin-activity-connect-step-work-list.png "Connect activity step in work list")|
 | Action | Select **Connect**. | Hover over the item and then select the LinkedIn icon. |
@@ -95,7 +99,7 @@ The **Send InMail** activity allows you to directly message customers you’re n
 
 You can do actions as described in the following table:
 
-|              | Up next widget | Work list item |
+|   &nbsp;     | Up next widget | Work list item |
 |--------------|----------------|----------------|
 | Sample image | ![Send InMail activity step in Up next widget](media/sa-linkedin-activity-send-inmail-step.png "Send InMail activity step in Up next widget") | ![Send InMail activity step in work list](media/sa-linkedin-activity-send-inmail-step-work-list.png "Send InMail activity step in work list")|
 | Action | Select **InMail**. | Hover over the item and then select the LinkedIn icon. |
@@ -112,7 +116,6 @@ The following image is an example of the InMail side pane:
 >![LinkedIn send InMail side pane](media/sa-linkedin-send-inmail-side-pane.png "LinkedIn send InMail side pane") 
  
 For more information on sending InMail, see [Send an InMail Message](https://www.linkedin.com/help/linkedin/answer/437).
-
 
 ### See also
 

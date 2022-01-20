@@ -7,7 +7,7 @@ ms.reviewer:
 ms.service: crm-online
 ms.suite:
 ms.tgt_pltfrm:
-ms.topic: get-started-article
+ms.topic: overview
 applies_to: Dynamics 365 apps
 ms.assetid: 7a28ff46-558b-47c5-9c99-073fd6f66844
 caps.latest.revision: 141
@@ -85,6 +85,9 @@ In addition, particularly if you have created a custom security role, validate t
    -   User Settings
 
 5. Select **Save and Close** to save the changes to the security role.
+
+> [!NOTE]
+> To access the list of apps, a user must have a [default security role](/power-platform/admin/security-roles-privileges) assigned to them such as **Basic**. This is in addition to any custom security role assigned to the user.
 
 ### Required services
 This list identifies all services to which Dynamics 365 for Phones and Tablets talks and their usages. Your network must **not** block these services.

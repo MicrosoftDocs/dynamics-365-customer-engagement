@@ -62,6 +62,10 @@ sections:
       - question: While running the Field Service (Dynamics 365) mobile app in offline mode with internet connectivity, can I perform a search for content on the server?
         answer: |
           Search from the offline application will always search the local device database for data, which is defined within the mobile offline profile.
+      - question: Do WebResources work in offline mode?
+        answer: |
+          There are currently limitations in support of WebReources while using the mobile app in offline and online modes. These limitations vary by device operating system. For more information, see the table in [Platform Documentation](/dynamics365/mobile-app/mobile-offline-capabilities#limitations)
+          For this reason, we recommend you develop using the [Power Apps component framework](/powerapps/developer/component-framework/overview), which will have broad cross-platform support on mobile and browser.
   - name: Sign in
     questions:     
         - question: What do the "Reconfigure" and "Sign out" options do?
@@ -148,15 +152,35 @@ sections:
 
   - name: Other
     questions:       
-      - question: Can I connect the Field Service (Dynamics 365) mobile app to GCC, GCC-High, and DoD cloud environments?
-        answer: |
+     - question: Can I connect the Field Service (Dynamics 365) mobile app to China (21Vianet) environment?
+       answer: |
+          Yes. You can find the Field Service (Dynamics 365) mobile app to download in the following China market app stores: Xiamoi, Lenovo, Baidu, Meizu.
+          To connect to the China-specific data center, select **Region settings** from initial app sign-in screen.
+      
+          > [!div class="mx-imgBorder"]
+          > ![Screenshot of Region Selector Option.](./media/Mobile-PowerApps-RegionSelector.png)
+          
+          The region settings dialog allows the user to select the desired end point, including China.
+
+          > [!div class="mx-imgBorder"]
+          > ![Screenshot of selecting Regions](./media/Mobile-PowerApps-RegionSelector-EndPoints.png)
+
+     - question: Can I connect the Field Service (Dynamics 365) mobile app to GCC, GCC-High, and DoD cloud environments?
+       answer: |
           Not at this time. Support for non-public clouds will be added to the Field Service (Dynamics 365) mobile app in the near future.
           
-      - question: How do I change the time zone for the app?
-        answer: |
+     - question: How do I change the time zone for the app?
+       answer: |
           While signed into the app, select the three vertical lines or swipe from the left to access the sitemap. Select the settings icon to find **Time Zone**. Change to desired time zone. Fully close and reopen the application for time zone changes to take effect. 
       
-      - question: Can Azure AD guest users access the Field Service (Dynamics 365) mobile app?
-        answer: |
-          Currently, guest user access is not supported within the mobile app.  
+     - question: Where can I find the app version and session ID for debugging purposes?
+       answer: |
+        When opening a case with Microsoft Support, you will often be asked for details about your app, including the app version and session detail. To find the session and app version details:
+        1. After signing into the app, swipe from the left to see the main app menu.
+        2. Scroll to the bottom of the menu see **General** settings, and then **Session details**.
+        3. Open session details where you will see the app version, along with the current session identifier.
+        > [!div class="mx-imgBorder"]
+        > ![Screenshot of selecting Regions](./media/Mobile-PowerApps-SessionDetails.png)
+        
+        
 

@@ -1,7 +1,7 @@
 ---
 title: "Configure Knowledge search insights for Dynamics 365 in Customer Service Hub and Customer Service workspace | MicrosoftDocs"
 description: "Learn how to configure Knowledge search insights in Customer Service Hub and Customer Service workspace"
-ms.date: 09/27/2021
+ms.date: 10/27/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -37,9 +37,13 @@ To enable the Knowledge search analytics dashboard:
 
 ### View Customer Service knowledge search analytics reports
 
-The service managers must have the system Administrator, Knowledge Manager, or CSR Manager role to view the reports. 
+The service managers must have the System Administrator, Knowledge Manager, or CSR Manager role to view the reports.
 
-You can see the following reports by navigating to the **Service** > **Insights** > **Knowledge search analytics** page. Search term insights are displayed.
+You can see the reports by navigating to the **Service** > **Insights** > **Knowledge search analytics** page. Search term insights are displayed.
+
+### Provide report access to additional security roles
+
+If your organization needs to enable users with different privileges to access reports in addition to the default ones, see [Assign a security role to a user](/power-platform/admin/assign-security-roles).
 
 > [!NOTE]
 > The knowledge base analytics dashboard supports only English content and is available only in organizations that have the base language set as English.

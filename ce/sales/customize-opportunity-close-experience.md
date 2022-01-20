@@ -1,7 +1,7 @@
 ---
-title: "Customize the Opportunity Close form (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Enable system customizers to tailor the opportunity close experience so that sellers can capture details about why an opportunity was closed."
-ms.date: 07/31/2020
+title: "Customize the Opportunity Close form in Dynamics 365 Sales"
+description: "Customize the opportunity close form so that sellers can capture details about why an opportunity was closed."
+ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -9,13 +9,17 @@ manager: annbe
 ---
 # Customize the Opportunity Close form 
 
-## Requirements
-|  | |
+Customize the opportunity close form so that sellers can capture details about why an opportunity was closed.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
+## How does the customization help?
 
 Enable sales managers to draw key insights based on the information the sales representatives fill in while closing an opportunity.
 
@@ -46,8 +50,6 @@ To capture any additional custom information during opportunity close, custom at
 
 > [!NOTE]
 > You may see data consistency issues if the attribute value in Opportunity Close isn't synchronized with the main entity when an Opportunity is closed or if the attribute is updated in the main entity after the Opportunity was closed.
-
-
 
 ## Create custom fields for the Opportunity Close entity
 
@@ -126,6 +128,7 @@ To enable the capability of customizing the opportunity close experience on a cu
 
 After completing the steps in this section, follow the steps in the sections [Create custom fields for the Opportunity Close](#create-custom-fields-for-the-opportunity-close-entity) and [Add newly created custom fields to the Opportunity Close form](#add-newly-created-custom-fields-to-the-opportunity-close-form). 
 
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 [Close opportunity as won or lost](close-opportunity-won-lost-sales.md)  

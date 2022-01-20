@@ -2,7 +2,7 @@
 title: "Configure mobile offline synchronization | MicrosoftDocs"
 ms.custom: Configure mobile offline synchronization
 description: Set up mobile offline for Dynamics 365 phones and tablets app and Power Apps mobile
-ms.date: 10/14/2021
+ms.date: 01/06/2022
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -69,13 +69,13 @@ To enable a table for mobile offline synchronization, follow the steps below.
 2. On the left nav select **Data** to expand it and then select **Tables**.  
 
    > [!div class="mx-imgBorder"]
-   >![Go to tables.](media/maker-data-tables.png "Go to tables")
+   > ![Go to tables.](media/maker-data-tables.png "Go to tables")
    
   
 3. Select a table to enable for mobile offline such as **Account**.  
 
    > [!div class="mx-imgBorder"]
-   >![Select Account.](media/select_account_table.png "Select Account")
+   > ![Select Account.](media/select_account_table.png "Select Account")
  
 
 4. On the command bar, select **Settings**. 
@@ -84,7 +84,7 @@ To enable a table for mobile offline synchronization, follow the steps below.
    >![Select settings.](media/select_settings.png "Select setting")
  
   
-5. On the **Edit table** pane, expand **More settings** > **Offline** and then make sure **Can be taken offline** check box is selected and then select **Done**.
+5. On the **Edit table** pane, expand **Advanced options**. Under **Rows in this table** make sure **Can be taken offline** check box is selected and then select **Save**.
 
    > [!div class="mx-imgBorder"]
    >![Select enable mobile offline check box.](media/enable_mobileoffline_checkbox.png "Select enable mobile offline check box")
@@ -194,7 +194,6 @@ A user or team can only be added to one offline profile at a time. If a user or 
 > [!NOTE]
 > A user must have a security role that has Read permissions on the mobile offline profile table to be able to use their mobile device in offline mode. 
 
-  
 1.  If it’s not already open, select the profile name to open the mobile offline profile you want to add users to.
 
     > [!div class="mx-imgBorder"]
@@ -210,9 +209,10 @@ A user or team can only be added to one offline profile at a time. If a user or 
 4.  When you’re done adding people, select **Save**.
   
   > [!NOTE]
-  > If you made any changes to a team, you must remove and add the team back to the mobile offline profile for the changes to take effect. We’re also working on improving the user management experience for offline profiles.
+  > If you made any changes to an Azure Active Directory (Azure AD) group team, you must remove and add the team back to the mobile offline profile for the changes to take effect.
 
 
+  
 ### Step 2.2: Publish a mobile offline profile
 
 The profile that was set up in the previous step is still in draft mode, until you publish it. In order to deploy your changes to a user's device, the draft profile needs to be published.

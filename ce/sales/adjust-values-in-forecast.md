@@ -1,5 +1,5 @@
 ---
-title: "Adjust forecast values in sales forecasting - Sales Enterprise | MicrosoftDocs"
+title: "Adjust forecast values in sales forecasting | MicrosoftDocs"
 description: "Adjust values in a forecast to estimate the final amount that you expect the forecast's opportunities to bring in at the close of the forecast period."
 ms.date: 02/03/2020
 ms.topic: article
@@ -22,16 +22,21 @@ searchScope:
 ---
 # Adjust values in a forecast 
 
-## Requirements
-|  | |
+Adjust values in a forecast to estimate the final amount that you expect the forecast's opportunities to bring in at the close of the forecast period.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-
+## Why should you adjust values?
 
 An adjustment provides sales managers or sellers the ability to estimate the final amount that they expect for a forecast's opportunities to bring in at the close of the forecast period. Sales managers have the ability to adjust their own or a direct report's forecast. For example, if the sales manager thinks that one of their direct report's best-case opportunities might have more value than the proposed value, they can increase the value in the forecast. On saving the adjustment, the changes will be rolled up to the parent record and up the hierarchy. 
+
+## Adjust a value in a forecast
 
 To make adjustments, a forecast column must be set as editable. While configuring a forecast, the forecast owner must identify and set the editable columns through the **Allow adjustments** option. To learn more, see [configure columns](choose-layout-and-columns-forecast.md#configure-columns). 
 
@@ -86,7 +91,9 @@ You can also view the history of the adjustments that are made on a forecast, an
 
     > [!div class="mx-imgBorder"]
     > ![Adjusted value history.](media/forecast-adjust-value-history.png "Adjusted value history")
- 
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
+
 ### See also
 
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)<br>

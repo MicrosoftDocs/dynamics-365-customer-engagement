@@ -1,23 +1,27 @@
 ---
 title: "Integrate sample softphone with Dynamics 365 Sales"
 description: "Use the sample to learn how to integrate a softphone dialer in Dynamics 365 Sales."
-ms.date: 10/22/2019
+ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 ms.custom: 
   - "dyn365-sales"
 ---
 # Integrate a sample softphone 
 
-## Requirements
-|  | |
+Use the sample to learn how to integrate a softphone dialer in Dynamics 365 Sales.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
+## Overview
 
 A softphone dialer provides a simple and integrated way to call customers from within Microsoft Dynamics 365 Sales. The communications that take place are captured as phone call activity in Dynamics 365 Sales.  
 
@@ -62,6 +66,8 @@ All details regarding the call such as duration, phone number, and notes are aut
 
 > [!div class="mx-imgBorder"]
 > ![Call summary added to phone call activity.](media/phone-call-activity-details.png "Call summary added to phone call activity")
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

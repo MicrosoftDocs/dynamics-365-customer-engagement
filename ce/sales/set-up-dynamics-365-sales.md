@@ -7,28 +7,16 @@ author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
 ---
-# Set up Dynamics 365 Sales 
+# Set up Dynamics 365 Sales  
 
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
-## Steps to set up sales environment
 To set up Dynamics 365 Sales, you must complete these general steps.
 
 1. Buy a subscription, or sign up for a free 30-day trial subscription.
 
-    1. To try Dynamics 365 Sales, go to the [Sales Enterprise overview](https://dynamics.microsoft.com/sales/overview/) page and select **Try for free**. For more information, see [Sign up for a free Dynamics 365 Sales Enterprise trial](sign-up-for-sales-trial.md)
+    1. To try Dynamics 365 Sales, go to the [Sales overview](https://dynamics.microsoft.com/sales/overview/) page and select **Try for free**. For more information, see [Sign up for a free Dynamics 365 Sales Enterprise trial](sign-up-for-sales-trial.md)
 
         >[!NOTE]
-        > You can also connect with a Dynamics 365 sales representative to get demo of the product, trial, and many more. On the [Sales Enterprise overview](https://dynamics.microsoft.com/sales/overview/) page, select **Contact us**. In the **Request a call** form, fill in the required information and select **Send request**. Soon, one of the Dynamics 365 sales representative will contact you to assist with the necessary information.
-
-To set up Dynamics 365 Sales, you must complete these general steps.
-
-1. Buy a subscription, or sign up for a free 30-day trial subscription.
+        > You can also connect with a Dynamics 365 sales representative to get demo of the product, trial, and many more. On the [Sales overview](https://dynamics.microsoft.com/sales/overview/) page, select **Contact us**. In the **Request a call** form, fill in the required information and select **Send request**. Soon, one of the Dynamics 365 sales representative will contact you to assist with the necessary information.
 
 2. [Install the solution](#install).
 
@@ -86,7 +74,7 @@ Go to the **My Apps** page by going to https://&lt;orgurl&gt;/apps/. In the **Pu
 
 ## Grant access<a name="grant-access"></a>
 
-Every user in the organization must have the **Sales, Enterprise app access** role to be able to access the Sales Hub app. To assign a security role to a user, see [Assign security roles to users in an environment that has a Common Data Service database](/power-platform/admin/database-security#assign-security-roles-to-users-in-an-environment-that-has-a-common-data-service-database).
+Every user in the organization must have the **Sales, Enterprise app access** role to be able to access the Sales Hub app. To assign a security role to a user, see [Assign security roles to users in an environment that has a Microsoft Dataverse database](/power-platform/admin/database-security#assign-security-roles-to-users-in-an-environment-that-has-a-common-data-service-database).
 
 
 ### See also

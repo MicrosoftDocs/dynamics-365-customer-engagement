@@ -1,7 +1,7 @@
 ---
 title: "How to use ZoomInfo app data in Dynamics 365 Sales | MicrosoftDocs"
 description: "Understand how you can use ZoomInfo app data in Dynamics 365 Sales. Learn how to find and import B2B account, contact, and lead info, or update existing data."
-ms.date: 07/05/2021
+ms.date: 10/25/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -9,27 +9,28 @@ manager: shujoshi
 ---
 # Use ZoomInfo app data 
 
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
-
-
 The ZoomInfo app for Dynamics 365 helps sales teams accelerate business growth with accurate contact and account information in their preferred Dynamics 365 Sales workflows. 
 
 As a seller or sales manager, you can do the following tasks using ZoomInfo data in Dynamics 365 Sales:    
 -	Find and import B2B account, contact, and lead information   
 -	Update data on existing leads, contacts, and accounts
 
+## License and role requirements
+
+| &nbsp; | &nbsp; |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
 ## Prerequisites   
+
 Before you start, be sure you've met the following prerequisites:   
 -	The ZoomInfo app is installed on your Dynamics 365 Sales organization. More information: [Install ZoomInfo app](install-zoominfo-app.md)
 -	You have a license to use the ZoomInfo app.
 
 ## Access and understand the ZoomInfo data   
+
 You can access the ZoomInfo app in the following ways:   
 -	**Through the Dynamics 365 app center**: The ZoomInfo app is available as part of Dynamics 365 published apps. The app for Dynamics includes custom forms with the ZoomInfo iframe built into account, contact, and lead forms. Also included in the left navigation are links to the ZoomInfo app and Knowledge Center.
 -	**Customized experience**: The customized experience is available when an administrator customizes the existing environment by adding the same elements available in the ZoomInfo app experience to the Dynamics 365 Sales app and to standard or custom account, contact, and lead objects. More information: [Customize the ZoomInfo app](customize-zoominfo-app.md).  
@@ -61,6 +62,8 @@ To access and understand the ZoomInfo data, follow these steps:
 
  
 To understand more about each component of the ZoomInfo home page, see [Dynamics Native Application](https://university.zoominfo.com/learn/article/implementation-guide-dynamics-native-application).
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

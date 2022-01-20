@@ -1,7 +1,7 @@
 ---
 title: Search knowledge articles in the Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: See how you can effectively search knowledge articles in the Customer Service Hub.
-ms.date: 09/28/2021
+ms.date: 11/15/2021
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -356,7 +356,7 @@ When you are working on a case and refer to an article from the **Knowledge Base
 
     ![Provide comments.](media/ka-rating-feedback-provide-comments.png "Provide comments")
 
-To set up the feedback control, see [Enable feedback control](set-up-knowledge-management-embedded-knowledge-search.md#enable-feedback-control).
+To set up the feedback control, see [Set up knowledge management (Customer Service Hub)](set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-management-customer-service-hub).
 
 ### See also
 

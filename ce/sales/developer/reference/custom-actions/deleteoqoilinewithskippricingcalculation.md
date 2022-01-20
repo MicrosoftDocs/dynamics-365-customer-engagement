@@ -1,7 +1,7 @@
 ---
 title: "DeleteOQOILineWithSkipPricingCalculation custom action (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use this topic to understand the parameters, and web API calls for deleting a line item without triggering price calculation."
-ms.date: 07/09/2020
+ms.date: 10/26/2021
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -12,15 +12,15 @@ ms.reviewer: susikka
 ---
 # DeleteOQOILineWithSkipPricingCalculation custom action 
 
-## Requirements
-|  | |
+As a developer, use this reference documentation to understand the parameters, and web API calls for deleting an opportunity, quote, order, and invoice without triggering price calculation.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System customizer <br>  See [Predefined security roles for Sales](../../../../sales/security-roles-for-sales.md)|
 |||
-
-
-Enables you to delete opportunity, quote, order, and invoice line item without triggering price calculation.
 
 ## Parameters
 

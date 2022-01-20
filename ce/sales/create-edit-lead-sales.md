@@ -1,7 +1,7 @@
 ---
-title: "Create or edit leads - Dynamics 365 Sales | MicrosoftDocs"
+title: "Create or edit leads in Dynamics 365 Sales"
 description: "Use leads to keep track of business prospects. A lead can be an existing client or someone you've never done business with before."
-ms.date: 02/10/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -16,15 +16,17 @@ searchScope:
 
 # Create or edit leads
 
-## Requirements
+Use leads to keep track of business prospects. A lead can be an existing client or someone you've never done business with before.
 
-| | |
+## License and role requirements
+
+| &nbsp; | &nbsp; | 
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)|
 |||
 
-## To create or edit a lead
+## How to create or edit a lead
 
 In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], you use leads to keep track of business prospects that you haven't yet qualified through your sales process. A lead can be an existing client or someone you've never done business with before. You might get leads from different sources, such as advertising, networking, or email campaigns.  
   
@@ -79,8 +81,12 @@ In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], you use leads 
  ![Right arrow button](media/orange-right-arrow-button.png "Right arrow button") [Qualify a lead and convert it to an opportunity](qualify-lead-convert-opportunity-sales.md)  
   
  ![Home button](media/home-button.png "Home button") [Learn about the sales process, nurturing sales from lead to order](nurture-sales-from-lead-order-sales.md)  
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
+
   
 ### See also  
+
 [Print quote, invoice, or other records](print-records.md)
 
 

@@ -1,7 +1,7 @@
 ---
-title: "Configure Relationship analytics and health (Sales Insights) | MicrosoftDocs"
+title: "Configure Relationship analytics and health"
 description: "Configure relationship analytics and health to provide graphical representation of KPIs and activity histories to the sellers."
-ms.date: 10/28/2020
+ms.date: 10/26/2021
 ms.custom: 
 ms.topic: article
 ms.assetid: 03bfdad0-2575-4c4b-a845-d7ac1ff0b0c3
@@ -11,8 +11,11 @@ manager: shujoshi
 ---
 # Configure relationship analytics and health 
 
-## Requirements
-|  | |
+Relationship analytics provides graphical representation of KPIs and activity histories for any contact, opportunity, lead, or account to the users. 
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
@@ -21,9 +24,8 @@ manager: shujoshi
 >[!IMPORTANT]
 >This feature is intended to help sellers or sales managers enhance their team’s performance. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with sales persons may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their sales persons that their communications with end users may be monitored, recorded, or stored.
 
-Relationship analytics provides graphical representation of KPIs and activity histories for any contact, opportunity, lead, or account to the users. 
+## To configure relationship analytics and health 
 
-To configure relationship analytics, follow these steps:   
 1. Verify that advanced Sales Insights features are enabled. To learn more, see [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features).    
 2. Go to **Change area** in the lower-left corner of the page and select **Sales Insights settings**. 
 
@@ -39,21 +41,13 @@ To configure relationship analytics, follow these steps:
     > [!div class="mx-imgBorder"]
     > ![Enable the relationship assistant for your organization](media/si-admin-relationship-analytics-enable-in-organization.png "Enable the relationship assistant for organization")  
     
-    > [!NOTE]
-    > **Data sources** and **Relationship analytics with modern design and similar opportunities** are enabled by default.  
-    
     The application takes few seconds to enable relationship analytics for your organization. After relationship analytics is enabled, you can configure the parameters as required.    
 
-5. <a name="configure-similar-opportunities-preview"></a>To view similar opportunities, under the **Relationship analytics with modern design and similar opportunities** section, turn on the **Enabled** toggle. By default, this option is enabled when you enable relationship analytics for your organization.   
+    <a name="configure-similar-opportunities-preview"></a>By default, the data sources and view similar opportunities options are enabled. You can view the **Relationship analytics with modern design and similar opportunities** section for more information.    
+    The enhanced experience is available by default for contacts, opportunities, leads, and accounts. Users in your organization can see an improved relationship analytics tab for opportunities. The tab displays customer interaction KPIs along with suggestions calculated from similar won opportunities through AI-driven models.  
 
     > [!div class="mx-imgBorder"]
     > ![Enable to view similar opportunities](media/relationship-analytics-enable-preview-similar-opportunities.png "Enable to view similar opportunities") 
-    
-    By enabling this option, users in your organization can see an improved relationship analytics tab for opportunities. The tab displays customer interaction KPIs along with suggestions calculated from similar won opportunities through AI-driven models.   
-    
-    If you don't want to view the similar opportunities in your organization, you can select the toggle and disable. The older version of relationship analytics is available for users. 
-    
-    For newly configured organizations, the enhanced relationship analytics is available by default for contacts, opportunities, leads, and accounts. 
     
     > [!NOTE]
     > - You must have at least 30 won and 30 lost opportunities to compare with existing opportunities.
@@ -156,6 +150,8 @@ By default, the health score widget is available only in the out-of-the-box **Sa
     >[!NOTE]
     >To hide the **New section** label, go to the **Properties** tab of the **New Section** settings pane that is displayed on the right side of the page, and then select **Hide label**.     
 9. Save and publish the form.   
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

@@ -1,7 +1,7 @@
 ---
 title: "View a forecast (Dynamics 365 Sales) | MicrosoftDocs"
 description: "See a forecast in Dynamics 365 Sales to know the health of your pipeline or to track how your sales team is doing against their quota or target."
-ms.date: 10/26/2020
+ms.date: 11/02/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -21,14 +21,17 @@ searchScope:
 ---
 # View a forecast 
 
-## Requirements
-|  | |
+Forecasts help you to see the health of your pipeline or to see how your sales team is doing against their quota or target.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-
+## Open and view a forecast
 
 Bottoms-up forecasting is the projection of what a salesperson, team, or organization will sell in a given predefined period (month or quarter). Sellers can also use forecasts to track their performance by using assigned sales targets or quotas.
 
@@ -44,20 +47,15 @@ Bottoms-up forecasting is the projection of what a salesperson, team, or organiz
     > ![Icon to change area in the site map.](media/site-map-area.png "Icon to change an area of the site map")
 
 3. Under **Performance**, select **Forecasts**. 
-
-    > [!div class="mx-imgBorder"]
-    > ![Forecasts view page.](media/forecast-view-page.png "Forecasts view page")
     
 4.	On the grid page, do the following:
-
     -	Select a forecast from the drop-down list. Any forecasts for which you have permissions will appear here.
 
     -	Choose the forecast period you want to see. Options in the drop-down list reflect the number of forecast periods defined in the forecast configuration. The default is the current period.
-
- 
+    
     > [!div class="mx-imgBorder"]
-    > ![Drop-down list to select forecast.](media/forecast-view-drop-down.png "Drop-down list to select a forecast")
-
+    > ![Forecasts view page.](media/forecast-view-page.png "Forecasts view page")
+ 
 5. The forecast grid displays all relevant columns as defined in the forecast configuration. The totals are aggregated by user or by territory, at each level of the hierarchy and for each period according to the forecast column attributes.
 
     For example, if you're using the out-of-the-box **Forecast category** on an org chart forecast, the grid will display the following information:
@@ -117,6 +115,7 @@ Using the forecast grid, you can do the following tasks:
 
 - [Maintain up-to-date forecast data](keep-forecast-data-up-to-date.md)
 
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
  
 ### See also
 

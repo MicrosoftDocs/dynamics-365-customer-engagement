@@ -1,12 +1,12 @@
 ---
 title: "Overview for Omnichannel for Customer Service entity reference documentation | MicrosoftDocs"
 description: "Information on entities introduced as part of Omnichannel for Customer Service"
-ms.date: 10/20/2021
-ms.topic: "reference"
+ms.date: 11/01/2021
+ms.topic: overview
 author: "mh-jaya"
 ms.author: v-jmh
 manager: "shujoshi"
-ms.custom: intro-internal
+
 ---
 # Overview
 
@@ -79,6 +79,7 @@ Installing Omnichannel for Customer Service solution adds the following entities
 |[msdyn_ocoutboundmessage](msdyn_ocoutboundmessage.md)|
 |[msdyn_ocphonenumber](msdyn_ocphonenumber.md)|
 |[msdyn_ocprovisioningstate](msdyn_ocprovisioningstate.md)|
+|[msdyn_ocrecording](msdyn_ocrecording.md)|
 |[msdyn_ocrequest](msdyn_ocrequest.md)|
 |[msdyn_ocruleitem](msdyn_ocruleitem.md)|
 |[msdyn_ocsentimentdailytopic](msdyn_ocsentimentdailytopic.md)|
@@ -104,6 +105,7 @@ Installing Omnichannel for Customer Service solution adds the following entities
 |[msdyn_omnichannelqueue](msdyn_omnichannelqueue.md)|
 |[msdyn_omnichannelsyncconfig](msdyn_omnichannelsyncconfig.md)|
 |[msdyn_operatinghour](msdyn_operatinghour.md)|
+|[msdyn_overflowactionconfig](msdyn_overflowactionconfig.md)|
 |[msdyn_paneconfiguration](msdyn_paneconfiguration.md)|
 |[msdyn_panetabconfiguration](msdyn_panetabconfiguration.md)|
 |[msdyn_panetoolconfiguration](msdyn_panetoolconfiguration.md)|

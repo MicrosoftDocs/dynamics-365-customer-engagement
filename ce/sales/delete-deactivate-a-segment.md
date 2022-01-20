@@ -1,7 +1,7 @@
 ---
-title: "Delete or deactivate a segment (Sales Insights) | MicrosoftDocs"
+title: "Delete or deactivate a segment"
 description: "Permanently delete a segment that is no longer required in your organization, or deactivate to retain the segment in the application in inactive mode."
-ms.date: 04/09/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -9,14 +9,17 @@ manager: shujoshi
 ---
 # Delete or deactivate a segment 
 
-## Requirements
-|  | |
+You can deactivate or delete a segment that's no longer required in your organization. Deactivation retains the segment in the application, but records won't be connected to it in the future. When a segment is deleted, segment records that are already connected to a sequence won't be affected.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator or Sequence Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-You can deactivate or delete a segment that's no longer required in your organization. Deactivation retains the segment in the application, but records won't be connected to it in the future. When a segment is deleted, segment records that are already connected to a sequence won't be affected.
+## To delete or deactivate a segment 
 
 1.	Sign in to your Dynamics 365 Sales Hub app.
 2.	Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
@@ -48,6 +51,8 @@ You can deactivate or delete a segment that's no longer required in your organiz
         >![Delete segment](media/sa-segment-delete-segment.png "Delete segment")
 
         The segment is removed permanently from the application.
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
 ### See also
 

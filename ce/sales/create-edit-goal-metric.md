@@ -1,5 +1,5 @@
 ---
-title: "Define a goal metric - (Sales Enterprise) | MicrosoftDocs"
+title: "Define a goal metric | MicrosoftDocs"
 description: "Measure goals in terms of count or amount, depending on what you’re measuring. Use rollup fields to track progress on the goals."
 ms.date: 02/10/2021
 ms.topic: article
@@ -16,17 +16,23 @@ searchScope:
   - Sales
   - Customer Engagement
 ---
-# Define a goal metric (Sales Hub) 
+# Define a goal metric
 
-## Requirements
-|  | |
+Measure goals in terms of count or amount, depending on what you’re measuring. Use rollup fields to track progress on the goals.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator or Sales Manager and above <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
+## What are goal metrics?
 
-Goal metrics let you clearly define how a goal will be measured. For example, a sales team's performance can be measured based on the number of leads they get or the revenue amount. There are two goal metric types: Amount and Count. The Amount metric type can be a money value, an integer, or a decimal number. The Count metric type is an integer. For example, you can use the Amount (money) goal metric to track the revenues from all active opportunities or sales orders. An integer type can be used to track sales calls made by a salesperson. A decimal number can represent a product sold by weight, such as grain or sugar.   
+Goal metrics let you clearly define how a goal will be measured. For example, a sales team's performance can be measured based on the number of leads they get or the revenue amount. There are two goal metric types: Amount and Count. The Amount metric type can be a money value, an integer, or a decimal number. The Count metric type is an integer. For example, you can use the Amount (money) goal metric to track the revenues from all active opportunities or sales orders. An integer type can be used to track sales calls made by a salesperson. A decimal number can represent a product sold by weight, such as grain or sugar.  
+
+## Create a goal metric 
 
 1.	Make sure that you have the Manager, Vice President, CEO-Business Manager, System Administrator, or System Customizer security role or equivalent permissions.
 
@@ -104,6 +110,7 @@ Goal metrics let you clearly define how a goal will be measured. For example, a 
 
 9.	Select **Save**.
 
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
   
 ### See also  
 

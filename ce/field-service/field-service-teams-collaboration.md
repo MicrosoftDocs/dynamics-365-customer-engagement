@@ -1,5 +1,5 @@
 ---
-title: "Collaborate on work orders with Microsoft Teams (Dynamics 365 Field Service) | MicrosoftDocs"
+title: "Collaborate on work orders with Microsoft Teams (Dynamics 365 Field Service) (contains video) | MicrosoftDocs"
 description: Collaborate in the context of work orders by integrating with Microsoft Teams
 ms.date: 10/18/2021
 ms.reviewer: krbjoran
@@ -19,6 +19,10 @@ Integrate with Microsoft Teams to chat with team members in the context of work 
 
 > [!div class="mx-imgBorder"]
 > ![Field Service work order, with a Teams chat panel showing related chats.](./media/work-order-teams-messages.png)
+
+For a guided walkthrough, check out the following video.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWOc1n]
 
 ## Prerequisites
 

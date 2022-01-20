@@ -1,7 +1,7 @@
 ---
 title: "Configure an SMS channel for Twilio | MicrosoftDocs"
 description: "Use this topic to understand how to configure an SMS channel for Twilio in Omnichannel for Customer Service."
-ms.date: 04/09/2021
+ms.date: 01/18/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -36,7 +36,9 @@ An SMS channel is enabled within Omnichannel for Customer Service by integrating
 2. Purchase support phone numbers through your Twilio account.
 
 > [!NOTE]
-> Only US phone numbers are supported.
+>
+> - Only US phone numbers are supported.
+> - To ensure that third-party SMS providers handle opt-out commands properly, you must configure your consent settings with the provider directly.  
 
 ## Set up the SMS channel for Twilio in Omnichannel admin center
 
@@ -74,11 +76,11 @@ To configure the workstream, make sure you perform the steps to create a workstr
    5. Verify the settings on the **Summary** page, and then select **Finish**. The SMS for Twilio channel is configured.
 3. Configure routing rules. More information: [Configure work classification](configure-work-classification.md).
 4. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
-5. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot).
+5. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream).
 6. In **Advanced settings**, configure the following options based on your business needs:
    - [Sessions](../app-profile-manager/session-templates.md)
    - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
-   - [Context variables](create-workstreams.md#configure-context-variables)
+   - [Context variables](context-variables-for-bot.md#add-context-variables)
    - [Smart assist bots](smart-assist-bot.md)
    - [Quick replies](create-quick-replies.md)
 
@@ -170,6 +172,8 @@ Perform the following steps to create a work stream for the SMS channel for Twil
 
 [Channels in Omnichannel for Customer Service](channels.md)  
 [Delete a configured channel](delete-channel.md)  
+[Configure SMS channel using Azure Communication Services](configure-sms-channel-acs.md)	
+[Configure SMS channel using TeleSign](configure-sms-channel.md)	
 [SMS FAQ](faqs.md#sms)  
 
 

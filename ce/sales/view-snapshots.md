@@ -10,21 +10,21 @@ manager: shujoshi
 ---
 # View snapshots 
 
-## Requirements
-|  | |
+View a snapshot to see and understand the forecast data at the moment in time when the snapshot was taken, including underlying opportunities. Also, you can compare the data between your current forecast and the snapshot to understand how the forecast is doing.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-
-You can view a snapshot to see and understand the data of the forecast at the moment in time when the snapshot was taken, including underlying opportunities. Also, you can compare the data between your current forecast and the snapshot to understand how the forecast is doing.
+## Open and view snapshots
 
 >[!NOTE]
 >-	To view snapshot history, you must have at least one snapshot created for the forecast.
 >-	The data displayed in the snapshot is view-only and can't be modified.
-
-## Open and view snapshots
 
 1.	Sign in to the **Sales Hub** app, and go to **Performance** > **Forecasts**.
 
@@ -70,6 +70,7 @@ For a snapshot, you can view the underlying opportunities of a column or the use
 
     The opportunity is opened in a new tab. The latest information will be displayed in the opportunity, not the information as of the date of the snapshot.
 
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

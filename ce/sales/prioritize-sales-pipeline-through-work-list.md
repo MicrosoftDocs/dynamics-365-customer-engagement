@@ -9,17 +9,20 @@ manager: shujoshi
 products:
 - Sales premium 
 - Sales enterprise
-
 ---
 # Prioritize your sales pipeline by using the work list  
 
-## Requirements
-|  | |
+Use work list in sales accelerator to prioritize your sales pipeline to ensure important records are not left behind.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
+## How to prioritize your pipeline
 
 During their workday, sellers need to juggle multiple tasks as they work on multiple records. As a result, it can be hard for them to plan and prioritize their customer-facing activities. The work list in the Sales accelerator for Dynamics 365 Sales Insights helps sellers prioritize their time and effort to ensure that important records aren't left behind.    
 The Sales accelerator work list gives sellers the following capabilities:  
@@ -31,7 +34,8 @@ The Sales accelerator work list gives sellers the following capabilities:
 > [!NOTE]
 > The work list is configured by a sales manager who defines the sequence of activities for records by using the sequence designer. More information: [Create and manage sequences](create-manage-sequences.md)   
 
-## Prerequisites    
+## Prerequisites  
+  
 Review the following prerequisites before you start using work lists:   
 - The Sales accelerator feature is installed in your organization and your role is assigned to access work lists. More information: [Configure the Sales accelerator](enable-configure-sales-accelerator.md)    
 - A softphone and an email server are configured for your security role.    

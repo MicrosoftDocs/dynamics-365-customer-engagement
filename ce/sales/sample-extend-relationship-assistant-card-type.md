@@ -14,8 +14,11 @@ ms.tgt_pltfrm:
 ---
 # Sample: Extend assistant card type (custom card) 
 
-## Requirements
-|  | |
+Learn how to download and what resources are present to create a custom actions or learn about extending the assistant action card.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Customizer <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
@@ -337,6 +340,7 @@ You can verify the custom cards are created in your organization as end user and
 
 To learn more on how to enable cards, see [Turn on or off insights cards](edit-insight-cards.md#turn-cards-on-or-off).
 
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

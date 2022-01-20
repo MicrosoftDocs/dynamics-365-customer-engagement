@@ -5,7 +5,7 @@ keywords:
 ms.date: 10/31/2017
 ms.prod: d365ce-op
 ms.custom: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 66255050-1a19-4bd2-a839-3cc45e7947d8
@@ -22,7 +22,6 @@ helpviewer_keywords:
 topic-status: Drafting
 search.audienceType: 
   - developer
-
 ---
 
 # Sample: Export and import a data map

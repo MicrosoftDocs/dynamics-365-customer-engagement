@@ -1,11 +1,11 @@
 ---
 title: "Scan business cards (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use the business card scanner in Dynamics 365 Sales to quickly scan business cards of the prospective customers you've met with."
-ms.date: 10/01/2019
+ms.date: 10/25/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-contact
@@ -14,16 +14,7 @@ searchScope:
   - Sales
   - Customer Engagement
 ---
-# Scan business cards 
-
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
-
+# Scan business cards in Dynamics 365 Sales
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
@@ -33,12 +24,25 @@ The integrated business card scanner in Dynamics 365 Sales helps salespeople to 
 > - To learn about the availability of the business card feature in a region, see [Feature availability by region](/ai-builder/availability-region#availability-and-release-status-of-features-by-region).
 > - To know about the business card scan limits with your user license, see the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
 
+## License and role requirements
 
-To scan a business card:
+| &nbsp; | &nbsp; |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
 
-1. Make sure you have the Common Data Service User role assigned.
 
-2.  On the Quick Create form of a **Contact** or **Lead** form, select **Scan business card**.
+## Scan a business card
+
+1. Make sure you have the Microsoft Dataverse User role and AI Builder add-on license assigned.
+
+1. On the nav bar, select the **New** button and then select **Contact** or **Lead**.  
+
+    :::image type="content" source="media/nav-bar.png" alt-text="Navigation bar highlighting the Quick Create button":::
+
+
+2.  On the Quick Create form, select **Scan Business Card**.
 
     > [!div class="mx-imgBorder"]
     > ![Option to scan business card in the Contact Quick Create form.](media/scan-business-card-option-in-contact-quick-create-form.png "Option to scan business card in the Contact Quick Create form")
@@ -63,6 +67,8 @@ To scan a business card:
 
     > [!div class="mx-imgBorder"]
     > ![Saved business card on the Business card tab of a Contact form.](media/saved-business-card-on-business-card-tab.jpg "Saved business card on the Business card tab of a Contact form")
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

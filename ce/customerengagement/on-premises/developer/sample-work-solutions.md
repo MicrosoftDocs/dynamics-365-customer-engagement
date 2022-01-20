@@ -5,7 +5,7 @@ keywords:
 ms.date: 04/02/2020
 ms.prod: d365ce-op
 ms.custom: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: a3008ed8-a934-4790-9979-43be7b5e7aaf
@@ -32,7 +32,6 @@ helpviewer_keywords:
 topic-status: Drafting
 search.audienceType: 
   - developer
-
 ---
 
 # Sample: Work with solutions

@@ -1,7 +1,7 @@
 ---
-title: "Functional location in Dynamics 365 Field Service| MicrosoftDocs"
+title: "Functional location in Dynamics 365 Field Service (contains video) | MicrosoftDocs"
 description: Learn how to use functional location for assets in Dynamics 365 Field Service.
-ms.date: 08/12/2021
+ms.date: 12/13/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
 ms.topic: article
@@ -96,10 +96,15 @@ Use the search bar to search for functional locations and associated assets. Whe
 
 The number of search matches are shown beneath the search bar.
 
-For larger or more complex trees, you can also expand or collapse all the results by using the **Plus** and **Minus** icons at the top of the tree, as seen in the following screenshot.
-
 > [!div class="mx-imgBorder"]
 > ![Functional location tree in Field Service, showing the search bar and the collapse and expand all options.](./media/assets-functional-location-search.png)
+
+For larger or more complex trees, you can also expand or collapse all the results by using the **Plus** and **Minus** icons at the top of the tree, as seen in the previous screenshot.
+
+For a guided walkthrough, check out the following video.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWOjSM]
+
 
 ## Use functional location for work orders
 
@@ -170,6 +175,14 @@ To use functional locations on an agreement, select an agreement. Go to **Agreem
 
 - Multiple accounts can be associated to a functional location tree.
 - Field Service technicians can see functional locations from their Field Service mobile apps, but cannot see or manage the larger location and asset hierarchies.
+
+### Functional location is not automatically associated to account in custom apps
+
+1. Open any custom app designer where this issue is seen.
+2. Add functional location entity to the app from **Add** > **Entities**.
+3. Select form components of functional location entity, uncheck *All* and select only quick create form for functional location.
+4. Publish the app and verify that functional location form will open quick create form in the tree view control.
+5. Newly created functional locations should appear in tree view control.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

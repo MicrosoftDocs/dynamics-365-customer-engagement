@@ -1,11 +1,11 @@
 ---
 title: "Nurture sales from lead to order (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use the out-of-the-box sales process to close more deals and improve customer satisfaction."
-ms.date: 10/02/2021
+ms.date: 10/25/2021
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 ms.custom: 
   - dyn365-sales
 searchScope: 
@@ -19,16 +19,11 @@ searchScope:
 ---
 # Understand the sales process 
 
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+A sales process includes a set of repeatable steps that sellers follow to engage with a prospective customer from the early stage of awareness to closing a sale. You can achieve more consistent sales interactions by following the sales process as it takes you through each stage, from creating a lead to closing the opportunity and recording the sale. You also end up with a more complete history that you can refer to later, if you plan to work with your customer again in the future or if your customer needs support.
 
-A sales process includes a set of repeatable steps that sellers follow to engage with a prospective customer from the early stage of awareness to close a sale. A sales process vary from organization to organization. Typically, the process breaks down into stages that target specific steps, such as qualifying a customer or presenting the solution to the customer.
+Your sales process begins with a lead—someone who is interested in the products or services you provide. Your leads might be automatically generated or they might come from other sources, such as website opt-in pages, email queries, or business cards that you gather at trade shows.
 
-Also, the specific process stages and terminology used by organizations vary based on factors such as, industry, sales strategies, product offerings, or the types of customers they target. Though the actual processes are different, a typical sales process resembles as shown in the following flow:
+Also, the specific process stages and terminology used by organizations vary based on factors such as, industry, sales strategies, product offerings, or the types of customers they target. Though the actual processes are different, a typical sales process resembles a flow shown in the following diagram:
 
 > [!div class="mx-imgBorder"]
 > ![A typical process of sales](media/sales-process.png "A typical process of sales")
@@ -37,8 +32,7 @@ Each stage typically maps to a specific sales record type. For example, during t
 
 Let's look at an example on how this sales processes is used to implement a sales lifecycle solution in an organization. The following image shows what a sales lifecycle might look like from start to end: 
 
-> [!div class="mx-imgBorder"]
-> ![A typical process of sales from start to end](media/sales-process-start-end.png "A typical process of sales from start to end")
+:::image type="content" source="media/sales-process-start-end.png" alt-text="A typical process of sales from start to end" lightbox="media/sales-process-start-end.png":::
 
 Your sales process begins with a lead—someone who is interested in the products or services you provide. Your leads might be automatically generated, or they might come from other sources, such as website opt-in pages, email queries, or business cards you gather at trade shows.
 

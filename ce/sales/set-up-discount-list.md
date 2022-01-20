@@ -1,7 +1,7 @@
 ---
 title: "Set up discount lists (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Set up discounts on products in Dynamics 365 Sales to offer products to your customers on marked down rates."
-ms.date: 02/10/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -18,13 +18,17 @@ searchScope:
 ---
 # Set up discount lists (Sales Hub) 
 
-## Requirements
-|  | |
+Set up discounts on products in Dynamics 365 Sales to offer products to your customers on marked down rates.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
+## Create a discount list
 
 Motivate customers to buy more by offering them discounts on bulk purchases. To offer discounts, you need to set up a discount list.  
 
@@ -81,7 +85,9 @@ Motivate customers to buy more by offering them discounts on bulk purchases. To 
  ![Right arrow button](media/walkthrough-orange-right-arrow.png "Right arrow button") [Create a unit group and add units to that group](create-unit-group-add-units-that-group.md)  
   
  ![Home button](media/walkthrough-home.png "Home button") [Set up a product catalog: Walkthrough](set-up-product-catalog-walkthrough.md)  
-  
+ 
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
+ 
 ### See also  
  [System Settings dialog box - Sales tab](/power-platform/admin/system-settings-dialog-box-sales-tab)
 

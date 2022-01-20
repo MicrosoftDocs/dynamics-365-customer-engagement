@@ -1,7 +1,7 @@
 ---
-title: "Analyze revenue outcome using predictive forecasting (Sales Insights) | MicrosoftDocs"
+title: "Analyze revenue outcome using predictive forecasting"
 description: "Use predictive forecasting to analyze the revenue outcome by providing forecast projections based on your data."
-ms.date: 02/03/2020
+ms.date: 10/26/2021
 ms.custom: 
 ms.topic: article
 author: udaykirang
@@ -9,31 +9,32 @@ ms.author: udag
 manager: shujoshi
 ---
 
-
 # Analyze revenue outcome by using predictive forecasting
 
-## Requirements
-|  | |
+Use predictive forecasting to analyze the revenue outcome by providing forecast projections based on your data.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
+## Understand the prediction column and details in a forecast
 
 Predictive forecasting helps sellers and managers improve their forecast accuracy by providing forecast projections based on data. To achieve this, predictive forecasting uses AI-driven models that look at historical data and the open sales pipeline to predict future revenue outcome.
-
-## Prerequisites
-
-Review the following prerequisite before you start using predictive forecasting:
-
-  -	Ensure that the predictive forecasting feature is enabled and a forecast is configured accordingly. To learn more, see [About premium forecasting](configure-premium-forecasting.md).
-
-## Understand the prediction column and details in a forecast
 
 The **Prediction** column shows the predicted revenue for each seller and manager. Predictions are based on the **Status** field of an opportunity. To optimize the accuracy of the predictions, ensure the **Forecast Category** values are kept in sync with the **Status** field. For the out-of-the-box forecast category, a workflow ensures that when an opportunity is closed as **Won** or **Lost**, the forecast category is updated with the proper value. 
 
 > [!NOTE]
 > If there's not enough data for predictive forecasting to work, it displays an error with an empty value in the column. 
+
+### Prerequisites
+
+Review the following prerequisite before you start using predictive forecasting:
+
+  -	Ensure that the predictive forecasting feature is enabled and a forecast is configured accordingly. To learn more, see [About premium forecasting](configure-premium-forecasting.md).
 
 ### Prediction column
 
@@ -79,6 +80,8 @@ The following image shows an example of a **Top factors that influence predictio
 | ![Green icon](media/predictive-forecasting-factor-green-icon.png) |The top positive influencing factor is that $247.22K will flow from new deals in the remaining 59 days of the period, and $124.91K (51%) of it will flow in the last 17 days.|
 | ![Red icon](media/predictive-forecasting-factor-red-icon.png) | The negative influencing factor is that 22% of opportunities are predicted to slip to the next period. |
 |  ![Gray icon](media/predictive-forecasting-factor-gray-icon.png) | The neutral influencing factor is that 3,614 opportunities in the pipeline are expected to close within this forecast period. |
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

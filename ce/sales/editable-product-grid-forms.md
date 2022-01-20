@@ -1,7 +1,7 @@
 ---
 title: "Add editable Products grid to forms (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Editable Products grid helps sales users to make changes to the product details inline in Dynamics 365 Sales."
-ms.date: 10/01/2019
+ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -11,15 +11,18 @@ ms.custom:
 ---
 # Add editable Products grid to Opportunity, Quote, Order, and Invoice forms 
 
-## Requirements
-|  | |
+Editable products grid on the Opportunity, Quote, Order, or Invoice forms lets sellers to edit product details inline, without having to open individual product records to update. 
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
 
-Products grid on the Opportunity, Quote, Order, or Invoice forms is now editable, so you don’t have to open individual product records to make changes to the product. 
+## Enable editable Products grid
 
 Currently, the preconfigured Products grid is available only on apps built on the Unified Interface framework and is optimized to work on the web.
 
@@ -29,7 +32,14 @@ If you’re upgrading to the latest version and you’ve made customizations to 
 
 To enable the editable products grid on the Opportunity, Quote, Order, or Invoice form:
 
-1. Go to **Settings** > **Customization**. 
+1. In your app, select the **Settings** icon, and then select **Advanced Settings**. 
+
+    > [!div class="mx-imgBorder"]  
+    > ![Advanced Settings link in the site map.](media/advanced-settings-option.png "Advanced Settings link in the site map")
+
+    The **Business Management settings** page opens in a new browser tab.
+
+2. On the navigation bar, select **Settings** and then under **Customization**, select **Customizations**.
 
 2. Select **Customize the System** to open the default solution. 
 
@@ -55,6 +65,7 @@ To enable the editable products grid on the Opportunity, Quote, Order, or Invoic
  
 7.	Select **OK**.
 
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also  
 

@@ -1,27 +1,38 @@
 ---
-title: "Deal manager workspace (Preview) - Sales Enterprise | MicrosoftDocs"
+title: "Deal manager workspace (Preview) (contains video) | MicrosoftDocs"
 description: "Deal manager is a dedicated workspace to manage opportunities better. You can personalize and customize the workspace for your needs."
-ms.date: 09/17/2021
-ms.topic: article
+ms.date: 10/26/2021
+ms.topic: overview
+ms.service: dynamics-365-sales
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
 ---
 # Preview: Deal manager 
 
-## Requirements
-|  | |
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+Deal manager is a dedicated workspace to manage opportunities better. You can personalize and customize the workspace for your needs.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+## What is a deal manager?
 
 [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 
-The deal manager workspace is the new way to manage opportunities in Dynamics 365 Sales. It can be personalized and customized depending on what sellers want to see in their workspace. Sellers can,
+The deal manager workspace is the new way to manage opportunities in Dynamics 365 Sales. 
+
+The following video provides a quick overview of the feature:
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWONpe]
+
+Deal manager can be personalized and customized depending on what sellers want to see in their workspace. Sellers can,
 
 - Organize opportunities in a way that works for them
 - Personalize their views
@@ -36,6 +47,8 @@ As an administrator, you can customize the experience for sellers to further imp
 :::image type="content" source="media/deal-manager-overview-v1.png" alt-text="Screenshot showing the four main areas of the deal manager workspace - metrics, charts, an editable grid, and a customizable side panel." lightbox="media/deal-manager-overview-v1.png":::
 
 More information: [Using the deal manager workspace (Preview)](deal-manager-seller-overview.md)
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 
