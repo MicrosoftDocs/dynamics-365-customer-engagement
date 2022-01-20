@@ -102,8 +102,6 @@ See the topic on [How to create and edit Field Service columns (fields)](field-s
 
 ## 4. Decide to customize the existing work order form or create a new form
 
-
-
 Go to https://make.powerapps.com > Tables > Work Order > Forms
 
 Next decide if its best for your organization to use the existing work order form or to create a new one. Use the information in the tabs below to understand the scenarios, pros, and cons of either customizing the existing work order form or creating an entirely new one. It is recommended to use the existing work order form.
