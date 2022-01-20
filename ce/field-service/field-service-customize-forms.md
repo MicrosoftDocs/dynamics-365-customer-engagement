@@ -104,7 +104,7 @@ See the topic on [How to create and edit Field Service columns (fields)](field-s
 
 Here's an example of the tab experience:
 
-## [Existing form (recommended)](#tab/linux)
+## [Existing form (recommended)](#tab/existing-form)
     Scenario this is best for: make minimal changes
     Pros
     Recommended
@@ -114,7 +114,7 @@ Here's an example of the tab experience:
     Cons
     less customizable 
 
-## [New custom form](#tab/windows)
+## [New custom form](#tab/new-form)
     Scenario this is best for: makes a lot of changes, need form for different roles
     Pros
     - Form will not be changed by updates
