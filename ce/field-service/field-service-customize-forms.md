@@ -121,7 +121,10 @@ Better for scenarios where your organization does not want to make a lot of chan
 - **Need to test upgrades** - The existing work order form will receive updates as much as twice per year. You will have to test new updates in a sandbox environment and ensure they will not disrupt your users.
 
 ## [New custom form](#tab/new-form)
-Better for scenarios where your organization has to make many changes to the form and you have a very unique work order process. This option is also best for organizations that need multiple different work order form for different secuirty roles. 
+In some scenarios you may need to create a completely custom work order form. The top reasons you may need to create a custom work order form include:
+
+1. You have a very unique work order process and are unable to use the standard work order process included with Dynamics 365 Field Service or you need to add a lot of custom fields (greater than 100).
+2. You have decided it is not feasbile for all roles to use the same work order form even while using security roles and field security profiles to limit information; and you need to create different forms for different user personas.
 
 **Pros**
 
@@ -137,16 +140,23 @@ Better for scenarios where your organization has to make many changes to the for
 --- 
 * * *
 
+#### To use the existing work order form...
 
+Go to https://make.powerapps.com > Tables > Work Order > Forms
 
 Select the Main "Work Order" form.
 
-It is highly recommended to use the default Work Order Main form and make changes within that form. This will ensure your work order form will be upgraded and you can benefit from improvements like new features and performance improvements. If you have a very unique work order process, then creating a new custom form is an option. See more details at the end of this article. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customization-form-go-to-main.png)
 
 For basic information on editing forms see the Power Platform documentation on [creating and editing forms](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-and-edit-forms). 
+
+#### To create a completely custom work order form...
+
+Go to https://make.powerapps.com > Tables > Work Order > Forms
+
+
 
 We are now ready to customize the Work Order form with a combination of existing work order fields and your new custom fields. 
 
@@ -259,10 +269,7 @@ While the instructions in this article are useful for customizing any web form f
 
 ## Create an entirely custom work order form (not recommended)
 
-In some scenarios you may need to create a completely custom work order form. The top reasons you may need to create a custom work order form include:
 
-1. You have a very unique work order process and are unable to use the standard work order process included with Dynamics 365 Field Service or you need to add a lot of custom fields (greater than 100).
-2. You have decided it is not feasbile for all roles to use the same work order form even while using security roles and field security profiles to limit information; and you need to create different forms for different user personas.
 
 
 #### Create a new form
