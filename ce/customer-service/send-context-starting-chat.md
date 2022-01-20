@@ -15,7 +15,7 @@ The custom context is a collection of key or value pairs. Only primitive values 
 
 > [!IMPORTANT]
 >
-> - The [setContextProvider](developer/reference/methods/setContextProvider.md) is supported only for unauthenticated chat. For authenticated chat, we recommend that you use the JSON Web Token (JWT). More information: [Send authentication tokens](send-auth-token-starting-chat.md)
+> - The [setContextProvider](developer/reference/methods/setContextProvider.md) is supported only for unauthenticated chat. For authenticated chat, you must use the JSON Web Token (JWT). More information: [Send authentication tokens](send-auth-token-starting-chat.md)
 > - You can pass only 100 custom context variables during each chat session.
 
 When a customer starts a chat from the portal, you can pass custom context to Omnichannel for Customer Service. This custom context can be used to [display information on the user interface](display-custom-context.md) and to create routing rules that eventually determine the queue to which you must route the chats.
