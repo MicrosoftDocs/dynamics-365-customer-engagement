@@ -109,23 +109,23 @@ Go to https://make.powerapps.com > Tables > Work Order > Forms
 Next decide if its best for your organization to use the existing work order form or to create a new one. Use the information in the tabs below to understand the scenarios, pros, and cons of either customizing the existing work order form or creating an entirely new one. It is recommended to use the existing work order form.
 
 ## [Existing form (recommended)](#tab/existing-form)
-    Scenarios: It is best to use the existing work order form this is best for: make minimal changes
-    Pros
-    Recommended
-    Performance updates
-    New feature updates
-    easier to support
-    Cons
-    less customizable 
+Scenarios: It is best to use the existing work order form this is best for: make minimal changes
+Pros
+- Recommended
+- Performance updates
+- New feature updates
+- easier to support
+Cons
+- less customizable 
 
 ## [New custom form](#tab/new-form)
-    Scenario this is best for: makes a lot of changes, need form for different roles
-    Pros
-    - Form will not be changed by updates
-    - more leeway to make changes
-    Cons
-    - DO not benefit from work order updates
-    - maintenance costs to manually add new features
+Scenario this is best for: makes a lot of changes, need form for different roles
+Pros
+- Form will not be changed by updates
+- more leeway to make changes
+Cons
+- Do not benefit from work order updates
+- maintenance costs to manually add new features
 
 
 
