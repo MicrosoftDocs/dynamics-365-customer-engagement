@@ -102,6 +102,18 @@ See the topic on [How to create and edit Field Service columns (fields)](field-s
 
 ## 4. Customize the default work order form (recommended) or create a new form
 
+Here's an example of the tab experience:
+
+# [Linux](#tab/linux)
+
+Content for Linux...
+
+# [Windows](#tab/windows)
+
+Content for Windows...
+
+---
+
 We are now ready to customize the Work Order form with a combination of existing work order fields and your new custom fields. 
 
 Go to https://make.powerapps.com > Tables > Work Order > Forms
@@ -150,7 +162,7 @@ There is an easy and supported way to remove all price related fields (e.g. Pric
 
 In a scenario where your organization does not need price list or price calculations (e.g. Total Amount) on the work order or work order products and services, there is an easy and supported wayyou can easily remove all price related fields by going to Field Service Settings and turning **Calculate Price** to _No_. [More details](https://docs.microsoft.com/dynamics365/field-service/configure-default-settings#work-order-and-bookings-settings). 
 
-### 7. Choose to remove tax related fields if applicable
+### Choose to remove tax related fields if applicable
 
 There is an easy and supported way to remove all tax related fields (e.g. Price List, Total Amount, etc) from the Work Order, Work Order Product, and Work Order Service 
 
