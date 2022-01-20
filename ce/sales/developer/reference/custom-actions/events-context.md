@@ -1,7 +1,7 @@
 ---
-title: "Events and context object for forecasting (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Events and context object for forecasting | MicrosoftDocs"
 description: Events and context object for forecasting in Dynamics 365 Sales
-ms.date: 10/12/2020
+ms.date: 01/20/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -9,7 +9,7 @@ manager: shujoshi
 ms.custom: 
   - dyn365-sales
 ---
-# Events and context object 
+# Override save, update, load events for editable fields on underlying records grid
 
 As a developer, use this reference documentation to learn about the forecasting events and context object.
 
