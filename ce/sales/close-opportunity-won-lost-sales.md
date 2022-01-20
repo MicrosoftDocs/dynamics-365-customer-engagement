@@ -1,28 +1,30 @@
 ---
-title: "Close opportunities as won or lost - Sales Enterprise | MicrosoftDocs"
+title: "Close opportunities as won or lost | MicrosoftDocs"
 description: "Close the opportunity to indicate whether it was won or lost. You can reopen it in future if the customer is interested in pursuing the opportunity."
-ms.date: 09/02/2021
+ms.date: 11/02/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 ---
-# Close opportunities as won or lost (Sales Hub) 
+# Close opportunities as won or lost 
 
-## Requirements
-|  | |
+If your customer has accepted your proposal, congratulations! Whether your customer had accepted or declined your proposal, it's now time to close that opportunity.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
 
+## Close an opportunity  
 
-If your customer has accepted your proposal, congratulations! However, whether your customer accepted or declined your proposal, it's now time to close that opportunity.  
-
-1. If you're using the Sales Hub app, in the site map, select **Opportunities**. 
+1. Select **Opportunities** in the Sales Hub sitemap. 
     
-2. Open the opportunity you want to edit.  
+2. Open the opportunity you want to close.  
 1. Select the **Quotes** tab and ensure that all the quotes are in **Closed** state. For instructions on how to close a quote, see [Close a quote](close-quote.md).
   
 3. At the top of the **Opportunity** form, do one of the following:  
@@ -57,13 +59,16 @@ If your customer has accepted your proposal, congratulations! However, whether y
 
 When you close an opportunity record, all the information that you enter is available in the associated Opportunity Close record. To see the associated Opportunity Close records, on the **Related** tab, select **Activities**. Then, on the **Activities** tab, open the **Closed Activity Associated View**. 
 
+> [!NOTE]
+> After you close an opportunity record, the forecast category of the opportunity is automatically updated to **Won** or **Lost** depending on your selection for the opportunity closure.
+
 For information on how to resolve the common errors that you may see while closing an opportunity, see the [troubleshooting guide](troubleshooting.md).
 
 ## Reopen a closed opportunity
 
 If you've closed an opportunity as lost, but would like to start discussions about a potential sale, you may want to reopen a closed opportunity.
 
-1. If you're using the Sales Hub app, in the site map, select **Opportunities**. 
+1. Select **Opportunities** in the Sales Hub sitemap. 
    
 2. To see all the closed opportunities, in the view selector, select the **Closed Opportunities** view.  
 
@@ -71,7 +76,9 @@ If you've closed an opportunity as lost, but would like to start discussions abo
     > ![Closed Opportunities view in the view selector.](media/select-closed-opportunities-view.png "Closed Opportunities view in the view selector")
 
 3. Select the opportunity that you want to reopen, and on the command bar, select **Reopen Opportunity**. The reopened opportunities start appearing in the open opportunities list.
-  
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
+
 ### See also  
  [Nurture sales from lead to order](nurture-sales-from-lead-order-sales.md)    
  [Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  

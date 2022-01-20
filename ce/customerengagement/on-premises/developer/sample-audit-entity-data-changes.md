@@ -5,7 +5,7 @@ keywords:
 ms.date: 03/29/2019
 ms.prod: d365ce-op
 ms.custom: audit
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: d30356c5-da29-4466-8356-ec3d1acad578
@@ -24,7 +24,6 @@ helpviewer_keywords:
 topic-status: Drafting
 search.audienceType: 
   - developer
-
 ---
 
 # Sample: Audit entity data changes

@@ -11,26 +11,35 @@ ms.custom:
 ---
 # Use properties to describe a product (Sales Hub) 
 
-## Requirements
-|  | |
+Simplify product management and classification by adding product properties in Dynamics 365 Sales.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator, Sales Manager, Sales Professional Manager, and above <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-
-Simplify product management and classification by adding properties that help distinguish products from one another. Adding well-defined properties to products cuts down on the time spent by your agents trying to find products with the right specifications or properties for your customers when they're building orders.  
+## What are product properties?
 
 A property of a product could be its size, color, component, and so on. You can add properties to a family, bundle, or product when they're in **Draft** or **Under Revision** states. The child products, bundles, and families inherit the properties from their parent.  
 
+Adding well-defined properties to products cuts down on the time spent by your agents trying to find products with the right specifications or properties for your customers when they're building orders.  
+
 > [!IMPORTANT]
-> You can't set different prices for the different properties you define for a product unless you're using a custom pricing engine.  
+> - You can't set different prices for the different properties you define for a product unless you're using a custom pricing engine.  
+> - Product families are only supported for Sales Enterprise and Sales Premium.  
 
 ## Add properties to a product, bundle, or family
 
-1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]
-
-2. Select the site map ![Site Map icon.](media/site-map-icon.png "Site map icon"), then select **App Settings**, and then select **Families and Products**.
+1. Depending on the sales app that you're using, do one of the following:
+ 
+    -  If you're using the Sales Hub app, 
+        1. Select **Change area** ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area") at the lower-left corner of the site map, and then select **App Settings**. 
+        1. In the **Product Catalog** area, select **Families and Products**. 
+   - If you're using the Sales Professional app,
+       - Select **Products** from the site map.  
 
 3. Open the product, bundle, or family you want to add the properties for.
 
@@ -91,6 +100,8 @@ In the following cases, you'll see the **Overwrite** option instead of the **Ove
 At times, opportunities run for extended periods. During these periods, the associated product may change or retire. In such cases, the opportunity must still be taken through to completion.  
 
 When you revise a product and change the properties, [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] automatically creates a new version of the product and copies the product details from the existing product to the newer version. The new product version has all the details including price lists, product relationships, and properties. The already-created opportunities with the older version of product can continue to refer to the older version of the product. The opportunities that are created after the product is revised or retired will refer to the current (newer) version.  
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also  
  [Set up a product catalog](set-up-product-catalog-walkthrough.md)   

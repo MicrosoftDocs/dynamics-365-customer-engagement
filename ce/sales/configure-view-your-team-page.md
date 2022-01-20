@@ -1,7 +1,7 @@
 ---
-title: "Configure and view your team page (Sales Insights) | MicrosoftDocs"
+title: "Configure and view your team page in conversation intelligence app"
 description: "Configure and view your team page with information on levels of hierarchy, top performers, and delete sellers data."
-ms.date: 11/17/2020
+ms.date: 01/10/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -9,24 +9,29 @@ manager: shujoshi
 caps.latest.revision: 1
 topic-status: Drafting
 ---
+
 # Configure and view team page 
 
-## Requirements
-|  | |
+Configure and view your team page with information on levels of hierarchy, top performers, and delete sellers data.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator or Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-As an administrator, you can:
+## What can I configure
 
--	Configure the levels of hierarchy that you can view. 
--	Select the top performers in your hierarchy.  
+As an administrator, you can:   
+-	Configure the levels of hierarchy that you can view.  
+-	Configure a user to impersonate another to view information.   
+-	Select the top performers in your hierarchy.   
 -	Delete seller data.
 
-As a sales manger, you can: 
-
--	View the list of employees who are part of your hierarchy.
+As a sales manger, you can:   
+-	View the list of employees who are part of your hierarchy.  
 -	Select the top performers in your hierarchy.
 
 ## Open your team settings page
@@ -34,7 +39,6 @@ As a sales manger, you can:
 > [!NOTE]
 > Review the prerequisites. To learn more, see [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md).
 
-**In conversation intelligence app**   
 1.	Open the **Conversation intelligence** application.  
 2.	Select the **Settings** icon on the top-right of the page and then select **Settings**.  
     > [!div class="mx-imgBorder"]
@@ -42,19 +46,7 @@ As a sales manger, you can:
 3.	On the **Settings** page, select **Your team**.  
     Your team page opens and you can perform the following tasks:  
         - [Configure hierarchy levels](#configure-hierarchy-levels)  
-        - [Choose top performers](#choose-top-performers)  
-        - [Delete seller data](#delete-seller-data)  
-
-**In Sales Hub app**  
-1.	Go to **Change area** in the lower-left corner of the page and select **Sales Insights settings**.  
-    > [!div class="mx-imgBorder"]
-    > ![Select Sales Insights settings](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings")  
-2.	In the configuration page, under **Productivity**, select **Conversation intelligence**.  
-    > [!div class="mx-imgBorder"]
-    > ![Conversation intelligence configuration page](media/ci-admin-config-page.png "Conversation intelligence configuration page")
-3.	Select **Your team**.  
-    Your team page opens and you can perform the following tasks:  
-        - [Configure hierarchy levels](#configure-hierarchy-levels)  
+        - [Configure users to view as another user](#configure-users-to-view-as-another-user)
         - [Choose top performers](#choose-top-performers)  
         - [Delete seller data](#delete-seller-data)  
 
@@ -77,10 +69,51 @@ The matrix explains which data you’ll view as a sales manager, for different h
 |-------------------|---------------------|
 | Level 1 | Choose this option to get insights on your direct team members. |
 | Level 2 | Choose this option to get insights on both your direct team members and their direct team members. |
-| Level 3 | Choose this option to get insights on level 1, level 2, and level 2’s team members. |
+| Level 3 | Choose this option to get insights on level 1, level 2, and level 3’s team members. |
 
 > [!NOTE]
 > Conversation intelligence supports up to three levels of hierarchy. To learn more about hierarchy, see [Set up Manager and Position hierarchies](/power-platform/admin/hierarchy-security#set-up-manager-and-position-hierarchies).
+
+## Configure users to view as another user
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]    
+
+The **view as different user** feature allows managers or sellers to view conversation intelligence as a different user.   
+As an administrator, you can configure sales managers or sellers to impersonate another user in the organization for information such as,    
+- Provide a view of the sales team for sales managers from level 4 and above. 
+- Provide access to non-managerial executives to dashboards for conversation intelligence enablement or compliance workflows. 
+- Provide visibility to non-direct managers into the sales teams dashboards.
+
+For example, Robert Klien is a sales enablement manager that needs access to Jacob Hancock's sales team dashboards. Since, Robert doesn't have access to conversation intelligence dashboard of Jacob's team. By adding Robert to view as Jacob, Robert can access the required information in conversation intelligence application by impersonating as Jacob.
+
+1. In the **View as different user (preview)** section, select **+ Add user**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Select add user.](media/si-app-admin-configure-your-page-view-as-select-add-user.png "Select add user")    
+
+2. Enter the user name who wants to view the information. In this example, we're selecting the name as **Robert Klien**.      
+3. Corresponding to the selected user name (**Robert Klien**), enter the other user name for who the information is to be viewed. In this example, we're selecting the name as **Jacob Hancock**.    
+4. Select the time limit for which **Robert Klien** can view the information of **Jacob Hancock**'s sales team.  
+
+    > [!div class="mx-imgBorder"]
+    > ![Select users and add time limit to view the information.](media/si-app-admin-configure-your-page-view-as-select-users-time-limit.png "Select users and add time limit to view the information")   
+
+5. Select **Add**.    
+    A row is added to the list.
+
+    > [!div class="mx-imgBorder"]
+    > ![Users are added to the list.](media/si-app-admin-configure-your-page-view-as-users-added-to-list.png "Users are added to the list")   
+
+6. Repeat steps 1 to 5 for other users and add rows to the table.  
+7. After adding the users, select **Save**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Select save to add users and view information as other user.](media/si-app-admin-configure-your-page-view-as-select-save.png "Select save to add users and view information as other user")   
+
+    The users can impersonate the corresponding selected users and view information in conversation intelligence. 
+
+    > [!NOTE]
+    > The users return to their regular view when the time limit expires or you can manually remove them from the list.
 
 ## Choose top performers    
 The top performers who are selected here are compared against other sellers in your team to project how the other sellers are performing based on best practices conversational style KPIs. Those are displayed with relevant data on the home page in [What characterizes top sellers?](../sales/dynamics365-sales-insights-app-home-page.md#what-characterizes-top-sellers).  
@@ -109,6 +142,8 @@ As a sales manager, when you open the **Your team** page in settings, you can vi
 The list is updated every 24 hours to display the current active sellers in the manager's hierarchy. Also, you can select **Refresh now** to refresh the list right away and view any changes.    
 > [!NOTE]
 > To view this page, sales managers must have a manager hierarchy defined under them, with sellers or individuals added to the hierarchy. Currently, only administrators can change levels of hierarchy. For sales managers to change it, they should contact an administrator to change the hierarchy on their behalf. More information: [Configure hierarchy levels](#configure-hierarchy-levels).
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

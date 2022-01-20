@@ -2,25 +2,23 @@
 title: "Sample: Create a connection (early bound)| MicrosoftDocs"
 description: "The sample demonstrates how to create a connection between an account and a contact that have matching connection roles."
 ms.custom: 
-ms.date: 10/31/2017
-ms.reviewer: pehecke
+ms.date: 01/02/2020
+ms.reviewer: 
 ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 helpviewer_keywords: 
   - sample for creating connections, between accounts and contacts that have matching connection roles
   - creating connections between accounts and contacts that have matching connection roles, sample
 ms.assetid: b638e13f-c1bc-400e-8122-217cc31d6850
-caps.latest.revision: 15
 author: JimDaly
 ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
   - developer
-
 ---
 # Sample: Create a connection (early bound)
 

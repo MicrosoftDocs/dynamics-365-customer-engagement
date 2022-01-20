@@ -1,7 +1,7 @@
 ---
-title: "Enable and configure auto capture (Sales Insights) | MicrosoftDocs"
+title: "Enable and configure auto capture"
 description: "Configure auto capture to helps your sellers to get suggestions on relevant customer activities by capturing emails and meetings from Outlook."
-ms.date: 10/01/2019
+ms.date: 10/26/2021
 ms.custom: 
 ms.topic: article
 ms.assetid: d4d130c5-3494-4677-9093-0a0e0124d953
@@ -19,12 +19,17 @@ applies_to:
 ---
 # Enable and configure auto capture 
 
-## Requirements
-|  | |
+Configure auto capture to helps your sellers to get suggestions on relevant customer activities by capturing emails and meetings from Outlook.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
+
+## Configure the basic and premium auto capture
 
 When you enable auto capture, you help salespeople in your organization by suggesting relevant customer activities in Microsoft Dynamics 365 Sales by capturing emails and meetings from Outlook.
 
@@ -99,7 +104,7 @@ To enable and configure premium auto capture, follow these steps:
 
 Before you enable premium auto capture, perform the following tasks:
 
--	Enable Sales Insights. To learn more, see [Enable and configure standard Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-standard-sales-insights-features).
+-	Enable Sales Premium. To learn more, see [Enable and configure standard Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-standard-sales-insights-features).
 
 -	Use Exchange as the server and Outlook as the mail client.
 
@@ -136,6 +141,8 @@ Premium auto capture is now enabled for your organization.
 
 > [!NOTE]
 > For more information about auto capture and how it can help your users, see [Capture customer-related activities with auto capture](auto-capture.md).
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

@@ -1,28 +1,16 @@
 ---
 title: "Azure Bot service in the voice channel | MicrosoftDocs"
-description: "Use this topic to learn how to add Azure Bot services for conversational IVR in Omnichannel for Customer Service."
+description: "Use this topic to learn how to add Azure Bot services for conversational IVR system in Omnichannel for Customer Service."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/13/2021
+ms.date: 11/02/2021
 ms.topic: article
 ms.service: dynamics-365-customerservice
-ROBOTS: NOINDEX,NOFOLLOW
 ---
-# Preview: Add Azure Bot Services for conversational IVR
+# Add Azure Bot Services for conversational IVR
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-> [!IMPORTANT]
->
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-
 
 ## Introduction
 
@@ -130,7 +118,7 @@ Now, if there's a valid phone number associated with that workstream, the bot wi
 
 ### Enable a bot to escalate and end conversations
 
-In Omnichannel for Customer Service, you can program a bot to route a conversation to a human agent, or end the conversation if the customer is not responding. For more information about how you can program bots to escalate or end conversations, see [Engage a bot](bot-escalate-end-conversation.md#engage-a-bot).
+In Omnichannel for Customer Service, you can program a bot to route a conversation to a human agent, or end the conversation if the customer is not responding. For more information about how you can program bots to escalate or end conversations, see [Engage an Azure bot](bot-escalate-end-conversation.md#engage-an-azure-bot).
 
 #### Set escalation rules
 
@@ -214,6 +202,7 @@ You can purchase additional bot conversations from Microsoft 365 admin center.
 You understand that your data may be transmitted and shared with external systems and that your data may flow outside of your organization's compliance boundary (even if your organization is in a Government Cloud environment). For example, your messages will be shared with the bot which could be interacting with a third-party system based on the integration done by you. For more information on how we process your data, please refer to the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
 
 ### See also
+
 [Overview of the voice channel](voice-channel.md)  
 [Understand and create workstreams](create-workstreams.md)  
 [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)  

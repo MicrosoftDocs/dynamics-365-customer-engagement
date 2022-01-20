@@ -1,7 +1,7 @@
 ---
 title: "Configure an SMS channel for TeleSign | MicrosoftDocs"
 description: "Get instructions for configuring an SMS channel for TeleSign in Omnichannel for Customer Service."
-ms.date: 04/15/2021
+ms.date: 01/18/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -27,6 +27,7 @@ The tasks to add SMS support for TeleSign are as follows:
 > [!NOTE]
 >
 > - The maximum number of characters supported for sent and received messages is 1600.
+> - To ensure that third-party SMS providers handle opt-out commands properly, you must configure your consent settings with the provider directly.
 > - SMS is an asynchronous mode of communication. Agents can close the conversation and then work on them later. Ending the conversation will mark it as resolved. More information: [Understand conversation states](oc-conversation-state.md)
 
 ## Enable SMS channel in your Dynamics 365 organization
@@ -78,11 +79,11 @@ To sign up for TeleSign
    5. Verify the settings on the **Summary** page, and select **Finish**. The SMS for TeleSign channel is configured.
 5. Configure routing rules. More information: [Configure work classification](configure-work-classification.md).
 6. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
-7. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot).
+7. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream).
 8. In **Advanced settings**, configure the following options based on your business needs:
    - [Sessions](../app-profile-manager/session-templates.md)
    - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
-   - [Context variables](create-workstreams.md#configure-context-variables)
+   - [Context variables](context-variables-for-bot.md#add-context-variables))
    - [Smart assist bots](smart-assist-bot.md)
    - [Quick replies](create-quick-replies.md)
 
@@ -160,7 +161,9 @@ When you validate the API key while setting up the SMS channel, a call is made t
 ### See also
 
 [Overview of channels](channels.md) <br />
-[Understand and create work streams](create-workstreams.md)  <br />
+[Understand and create workstreams](create-workstreams.md)  <br />
+[Configure SMS channel using Azure Communication Services](configure-sms-channel-acs.md)	
+[Configure SMS channel using Twilio](configure-sms-channel-twilio.md)	
 [Create and manage routing rules](routing-rules.md) <br />
 [Configure automated messages](configure-automated-message.md) <br />
 [Delete a configured channel](delete-channel.md)<br />

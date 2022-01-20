@@ -1,21 +1,13 @@
 ---
-title: "View and understand call summary page (Sales Insights) | MicrosoftDocs"
+title: "View and understand call summary page"
 description: "Use call summary a get a high-level view of how a conversation with customer went, and includes action items and relevant keywords, timeline, transcript."
-ms.date: 11/18/2020
+ms.date: 11/26/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
 ---
 # View and understand call summary page 
-
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
 
 Sellers and their managers need an easy way to review the conversations they've had with their customers and quickly find relevant talking points, keywords, and insights.  
 The call summary page provides a high-level view of how the conversation with a customer went, and includes action items and relevant keywords, a timeline, a transcript of the call, and more.  
@@ -25,7 +17,13 @@ The information on the call summary page helps both sellers and managers:
 - Sellers can quickly ramp up on past conversations with customers, and highlight important topics and commitments.
 - Managers can get a high-level view of how their team is managing their relationships with customers.  
 
-Call summaries are available from the conversation intelligence capabilities of the Sales Insights Add-in for Dynamics 365 Sales and in the Sales Hub app.
+## License and role requirements
+
+|  | |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
 
 ## Prerequisites
 
@@ -36,21 +34,7 @@ Call summaries are available from the conversation intelligence capabilities of 
 
 ## View the call summary page
 
-**To view the call summary page in conversation intelligence in Sales Insights**  
-- From the **Call history** section, open a conversation.   
-The call summary page is displayed.
-
-**To view the call summary page on the Call Insights tab in Sales Hub app**   
-The **Call Insights** tab is available under activities for leads and opportunities. When a customer call about a lead or opportunity is processed in conversation intelligence, the **Call Insights** tab displays the information on the summary of the call.  
-1.	Sign in to Dynamics 365, and select **Change area** > **Sales**.  
-2.	On the site map, select **Activities**.
-3.	Select a phone call activity for which you want to view the call summary.  
-4.	Select the **Call summary** tab.   
-The call summary for the selected phone call activity is displayed.   
-> [!NOTE]
-> Select the **Related opportunity** tab to see a list of opportunities that have been associated with the call. To add a related opportunity to the call, search for and select the opportunity.     
-> [!div class="mx-imgBorder"]
-> ![Call insights tab in a phone call activity](media/si-app-activities-call-insights-tab.png "Call insights tab in a phone call activity")  
+To view the call summary page in conversation intelligence application, go to the **Call history** section and open a conversation.   
 
 ## Understand the call summary page   
 A call summary page includes the following sections:     
@@ -154,6 +138,8 @@ The following image shows an example call playback timeline.
 Using the call playback feature, you can listen to the entire recorded call or choose a point on the timeline&mdash;by dragging the progress bar or selecting the specific point&mdash;at which you want to start listening. The call transcript will automatically scroll to that moment in the call. You can also pause, rewind, and move forward through the call, and adjust volume as you like. The playback timeline also displays the sentiments detected in the conversation (positive, neutral, or negative).    
 When you go to the **Highlights** tab and select a keyword or other highlight, a diamond icon appears on the playback timeline to indicate the time that the selected highlight was mentioned. Also, hovering over a keyword displays gray diamond icons on the timeline.   
 On the timeline, you can see how the conversation was segmented. The topics (if any) that were discussed in a segment are identified. To better drill down into the conversation, you can choose a specific segment and see the insights that are relevant to it. Some examples of segments are introduction, solution, price quote, and call close. The transcript is adjusted to display the start of the segment, and the playback timeline is highlighted for the selected segment. If the selected segment contains any action items or keywords, they're displayed on their respective tabs.
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

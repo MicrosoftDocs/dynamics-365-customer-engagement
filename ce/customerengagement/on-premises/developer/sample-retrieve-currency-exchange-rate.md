@@ -7,7 +7,7 @@ ms.reviewer: pehecke
 ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: d071fe46-4d71-4fd1-95b8-069bd4a96f8d
@@ -17,7 +17,6 @@ ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
   - developer
-
 ---
 # Sample: Retrieve currency exchange rate
 

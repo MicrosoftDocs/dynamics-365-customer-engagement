@@ -1,7 +1,7 @@
 ---
-title: "Enable or disable the enhanced add products experience - Sales Enterprise | MicrosoftDocs"
-description: "Enable your salespeople to quickly find and add multiple products to opportunities by enabling the enhanced add product experience."
-ms.date: 04/02/2021
+title: "Enable or disable the enhanced add products experience | MicrosoftDocs"
+description: "Enable your salespeople to quickly find and add multiple products to an opportunity, quote, order, or invoice by enabling the enhanced add product experience."
+ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -18,16 +18,21 @@ searchScope:
 ---
 # Preview: Enable or disable the enhanced experience for adding products
 
-## Requirements
-|  | |
+Enable your salespeople to quickly find and add multiple products to an opportunity, quote, order, or invoice by enabling the enhanced add product experience.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The enhanced experience helps your salespeople to quickly find products that they need for an opportunity, quote, order, or invoice. By using the enhanced experience, salespeople can do the following:
+## What's in the enhanced experience?
+
+ By using the enhanced experience, salespeople can do the following:
 
 - Quickly search for products and filter by product families.
 - View product details inline.
@@ -42,13 +47,15 @@ The enhanced experience helps your salespeople to quickly find products that the
 > - [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
 > - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
-You can enable or disable the enhanced experience through the **App Settings** page or through **System Settings**.
+## Enable or disable the enhanced experience
 
-**To enable or disable the enhanced experience from the App settings page in Sales Hub**
+Depending on the Dynamics 365 Sales license you have, select one of the following tabs for specific information: 
 
-1. In the Sales Hub app, select the **Change area** icon
-    ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area")
-    in the lower-left corner and then select **App Settings**.
+# [Sales Premium and Sales Enterprise](#tab/SE)
+
+If you have the Sales Hub app, follow the instructions in this tab. Otherwise, follow the instructions in the **Sales Professional** tab to configure the option in Power Platform.
+
+1. In lower-left corner of the screen, select **Change area** ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area"), and then select **App Settings**.
 
 2. Under **Product Catalog**, select **Product Catalog Settings**.
 
@@ -61,9 +68,9 @@ You can enable or disable the enhanced experience through the **App Settings** p
     
     If you disable the preview, the **Add products** option in the opportunity, quote, order, and invoice will switch back to **Quick create** form.
 
-**To enable or disable the enhanced experience from System Settings**
+# [Sales Professional](#tab/SP)
 
-If you're using a custom app, you can enable or disable the enhanced experience from **System Settings** in the legacy web client.
+If you're using a custom app or Sales Professional app, you can enable or disable the enhanced experience from **System Settings** in Power Platform.
 
 1. In your app, select **Settings** ![Settings.](media/settings-icon.png "Settings"), and then select **Advanced Settings**.
 
@@ -78,6 +85,10 @@ If you're using a custom app, you can enable or disable the enhanced experience 
 4. In the **System Settings** dialog box, go to the **Sales** tab and set **Enhanced add product experience** to **Yes** to enable the enhanced experience. Set it to **No** to disable. 
 
 5. Select **OK**.
+
+---
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

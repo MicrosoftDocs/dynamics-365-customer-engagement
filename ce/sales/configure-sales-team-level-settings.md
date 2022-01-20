@@ -1,20 +1,13 @@
 ---
-title: "Configure settings for your sales team in conversation intelligence | MicrosoftDocs"
+title: "Configure settings for your sales team in conversation intelligence"
 description: "Configure sales team-level settings such as conversation trackers, languages, and top performers to match your team's specific requirements in Dynamics 365 Sales."
-ms.date: 04/14/2021
+ms.date: 01/10/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
 ---
 # Configure sales team&ndash;level settings 
-
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator or Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
 
 As a sales manager, you can configure conversation intelligence to match your team's specific requirements. The following settings are available:
 
@@ -24,7 +17,15 @@ As a sales manager, you can configure conversation intelligence to match your te
 
 More information: [Configure and view your team page](configure-view-your-team-page.md)
 
-Follow these steps:
+## License and role requirements
+
+| &nbsp; | &nbsp; |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
+## To configure sales team&ndash;level settings 
 
 1. Sign in to the Dynamics 365 Sales Hub app with the sales manager security role.
 
@@ -67,10 +68,12 @@ Follow these steps:
 
 Conversation intelligence is now configured and ready for use in your sales organization for your sales team.
 
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
+
 ### See also
 
 [Introduction to administering conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)  
-[First-run setup experience](fre-setup-sales-insight-app.md#microsoft-teams-for-conversation-intelligence)
+[First-run set up in sales app](fre-setup-ci-sales-app.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]    

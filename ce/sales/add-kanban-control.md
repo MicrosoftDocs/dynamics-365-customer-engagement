@@ -1,7 +1,7 @@
 ---
-title: "Add Kanban control to entities - Sales Enterprise | MicrosoftDocs"
+title: "Add Kanban control to entities to opportunities or activities"
 description: "Add the Kanban control to create Kanban views that help sellers to manage their opportunities or activities effectively."
-ms.date: 10/14/2020
+ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -15,13 +15,17 @@ searchScope:
 ---
 # Add the Kanban control to Opportunity or Activity entities 
 
-## Requirements
-|  | |
+Add the Kanban control to create Kanban views that help sellers to manage their opportunities or activities effectively.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
+## Add the Kanban controls
 
 Kanban views help salespeople to manage their opportunities and activities effectively. Add the Kanban control to the Opportunity and Activity entity so salespeople can use the Kanban views. Similar to other custom controls, Kanban control is supported on all views.
 
@@ -78,6 +82,8 @@ There are a few customization restrictions that you should be aware of:
     - The Status-based Opportunity Kanban view is only available for the Status field. You can't configure this Kanban view for an option set field other than 'Status'.
     - In the Opportunity Kanban view, aggregation is supported only for the Estimated Revenue field of the Opportunity entity. You can't configure the Kanban view to have aggregation done on other fields.
     
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
+
 ### See also
 
 [Work with opportunities in the Kanban view](opportunity-kanban-view.md)  

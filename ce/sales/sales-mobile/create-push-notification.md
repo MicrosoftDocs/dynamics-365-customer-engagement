@@ -1,7 +1,7 @@
 ---
 title: Create custom push notifications for the Dynamics 365 Sales mobile app
 description: Learn to create custom push notifications for the Dynamics 365 Sales mobile app.
-ms.date: 10/20/2021
+ms.date: 10/25/2021
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -9,15 +9,19 @@ manager: shujoshi
 ---
 # Create custom push notifications 
 
-## Requirements
-|  | |
+Push notifications help to engage app users and help them prioritize key tasks. 
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Professional, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or Microsoft Relationship Sales <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Professional, or Microsoft Relationship Sales <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System administrator <br>  See [Predefined security roles for Sales](../security-roles-for-sales.md)|
 |||
 
+## About push notifications
 
-Push notifications help to engage app users and help them prioritize key tasks. The Dynamics 365 Sales mobile app supports push notifications that can be created by using the **Send push notification V2** action with the following details:
+The Dynamics 365 Sales mobile app supports push notifications that can be created by using the **Send push notification V2** action with the following details:
 
 - **Mobile app**: Select **Sales**.
 - **Your app**: Select the app that you want to set up the notification for.

@@ -1,25 +1,31 @@
 ---
-title: "Enable and configure sales accelerator (Sales Premium)"
+title: "Enable and configure sales accelerator"
 description: "Enable and configure the sales accelerator to create sequences and connect records, and view daily work list items."
-ms.date: 01/11/2021
+ms.date: 01/07/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
 ---
-# Configure the sales accelerator for Sales Premium
+# Configure the sales accelerator
 
-## Requirements
-|  | |
+Enable and configure the sales accelerator to create sequences and connect records, and view daily work list items.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
+## Configuration steps
+
 The sales accelerator feature helps sellers in your organization increase their sales productivity and prioritize activities for the day through the work list available in your sales app. An administrator or a sales manager uses the sequence designer to create a sequence of activities&mdash;separated by time intervals&mdash;including emails, phone calls, and tasks. Sequences are connected to relevant records, so sellers can follow the best practices that have been defined in the sequence for the record types that are assigned to them. The sequence is then applied to record types and assigned to a seller automatically, according to your organization's sales strategies.  
 
->[!NOTE]
-> To configure sales accelerator for assignment rule with your enterprise license, see [Configure sales accelerator for assignment rules](sales-accelerator-assignment-rules.md).
+> [!NOTE]
+> - To configure sales accelerator for assignment rule with your enterprise license, see [Configure sales accelerator for assignment rules](sales-accelerator-assignment-rules.md).
+> - You can also set up sales accelerator through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get 1500 sequence-connected records per month. More information: [Set up sales accelerator](digital-selling.md#set-up-sales-accelerator)
 
 As an administrator, you must enable and configure the sales accelerator in your organization to make it available for sales managers and sellers to use. Follow these steps:
 
@@ -69,7 +75,11 @@ For the best experience of the sales accelerator, enable and configure [predicti
     >[!div class="mx-imgBorder"]
     >![Select security roles to access the sales accelerator and assignment rules features](media/sa-select-security-role.png "Select security roles to access the sales accelerator and assignment rules features")   
 
-5. In the **Seller availability** section, select the **Seller availability** toggle to enable the option that allows sellers to configure the working hours and vacation days so that leads and opportunities are assigned based on their availability.
+5. In the **Seller availability** section, configure the following options: 
+    - Turn on **Seller availability settings** to enable sellers to configure work hours.
+    - From the Select a calendar option, choose one of the following calendar types that sellers can use to configure work hours and vacation days. Once configured, leads and opportunities are assigned based on seller availability. 
+        - **CRM calendar**: : Allows sellers to configure work hours and vacation days using the Dynamics 365 calendar in personal settings. By default, this option is selected. More information [Configure your work availability](personalize-sales-accelerator.md#configure-your-work-availability). 
+        - **Outlook**: Allows sellers to configure work hours and vacation days through the Outlook calendar. Sellers should have an Exchange license to use this option.
 
     >[!div class="mx-imgBorder"]
     >![Enable the option to allow sellers to set working hours and vacation days](media/sa-enable-seller-availability.png "Enable the option to allow sellers to set working hours and vacation days")   
@@ -91,8 +101,9 @@ For the best experience of the sales accelerator, enable and configure [predicti
         >[!div class="mx-imgBorder"]
         >![Selected record types](media/sa-selected-record-types.png "Selected record types")         
         
-        >[!NOTE]
-        >You can remove the records types that are no longer required to have automated activities associated with them. Select the **X** icon corresponding to the record type to remove it from the list. However, if the records in the deleted record type are associated with a sequence, these records will continue to be associated with the sequence.   
+        > [!NOTE]
+        > - You can remove the records types that are no longer required to have automated activities associated with them. Select the **X** icon corresponding to the record type to remove it from the list. However, if the records in the deleted record type are associated with a sequence, these records will continue to be associated with the sequence.   
+        > - To know how records are populated in the work list, see [View my records by using the work list](prioritize-sales-pipeline-through-work-list.md#view-my-records-through-work-list).
      
     3. Select **Next**
 
@@ -113,7 +124,22 @@ For the best experience of the sales accelerator, enable and configure [predicti
     - Under **Call settings**, select the **Create records automatically on click** option to automatically create a phone call activity when sellers initiate a call from a sequence step or from the work list.   
         >[!div class="mx-imgBorder"]
         >![Advanced call settings](media/sa-advance-call-settings.png "Advanced call settings")       
-10. Save and publish the configuration.
+10. <a name="enable-sales-accelerator-reports"></a>Enable the **Sales accelerator reports** option to help your sales manager view and understand their team's historical operational metrics and key performance indicators (KPIs), and sequence stats page.   
+    [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+    
+    >[!div class="mx-imgBorder"]
+    >![Enable Sales acceleration reporting preview](media/sa-enable-sales-acceleration-reporting.png "Enable Sales acceleration reporting preview")        
+
+    By default, the users with sales manager and sequence manager roles can view the reports. To grant view access to other roles, provide read access at organizational level for the Sales acceleration reports table. More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges).   
+
+    >[!NOTE]
+    >After you enable the option, the application may take up to 24 hours to display the data in the reports. Subsequently, the reports refresh every 24 hours. You can view the last updated date on the top-right corner of the sales acceleration reporting page.
+
+    To know how sales managers use,   
+       -	Metrics and KPIs, see [Understand sales acceleration reporting](understand-sales-acceleration-reporting.md).
+       -	Sequence stats, see [Understand sequence stats](understand-sequence-stats.md).
+    
+11. Save and publish the configuration.
     A status message is displayed at the top of the page with details including the time and user who published the configurations.
     >[!div class="mx-imgBorder"]
     >![Sales accelerator setup status message](media/sa-setup-status-message.png "Sales accelerator setup status message")
@@ -123,6 +149,11 @@ The sales accelerator is ready to use in your organization for the selected secu
 ## Customizations
 
 By default, the **Up next** widget is displayed on the **Default Main** and **Sales Insight** forms. To add the **Up next** widget to other forms, follow the process specified in [How do I add the Up next widget to an entity form?](faqs-sales-insights.md#sales-accelerator)
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
+
+>[!NOTE]
+>To know how to add work list site map to your custom app, see [How to add work list site map to your custom app](faqs-sales-insights.md#how-to-add-work-list-site-map-to-your-custom-app).
 
 ### See also
 

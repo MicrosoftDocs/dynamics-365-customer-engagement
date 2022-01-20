@@ -1,7 +1,7 @@
 ---
 title: "Work with opportunities in the Kanban view (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use the opportunity Kanban view to effectively monitor the pipeline and see the opportunities in their different statuses or stages of business process flow."
-ms.date: 10/14/2020
+ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -16,29 +16,33 @@ searchScope:
 ---
 # Work with opportunities in the Kanban view 
 
-## Requirements
-|  | |
+Use the opportunity Kanban view to effectively monitor the pipeline and see the opportunities in their different statuses or stages of business process flow.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
+## What is a Kanban view? 
 
-
-Use the Kanban view to effectively keep tabs on the sales pipeline. 
-
-The Kanban view shows opportunities as cards. The lanes in the Kanban view represent the default statuses or business process flow stages of opportunities. The opportunity cards within the swim lanes show where in the process the opportunities are. 
+The Kanban view shows opportunities as cards. The lanes in the Kanban view represent the default statuses or business process flow stages of opportunities. The opportunity cards within the swim lanes show where in the process the opportunities are.  
 
 You can drag the opportunities to different lanes to move them from one status or stage to another.
 
+> [!div class="mx-imgBorder"]  
+> ![Status-based opportunity Kanban view.](media/status-based-opportunity-kanban-view.png "Status-based opportunity Kanban view")
+
 > [!NOTE]
-> The Kanban view is not supported in the **Dynamics 365 for Phones** mobile app.
+> The Kanban view is not supported in the mobile app.
 
 ## Open a Kanban view
 
 A Kanban view is available when the Kanban control is added to the Opportunity entity. If you don't see the Kanban view, talk to your system customizer.
 
-To open the Kanban view:
+**To open the Kanban view:**
 
 1. In the site map, select **Opportunities**.
 2. On the command bar, select the **More commands** icon ![More commands icon.](media/more-commands-icon.png "More commands icon") and then select **Show As** > **Kanban**.
@@ -133,7 +137,7 @@ Here are some important things to know about your Kanban view:
     
     - For all closed opportunities a lock icon is shown. The lock icon means that you can't change the information on the card inline, but you can still move the cards from one lane to another.
 
-
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

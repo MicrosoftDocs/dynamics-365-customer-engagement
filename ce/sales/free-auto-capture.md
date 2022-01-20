@@ -1,8 +1,8 @@
 ---
-title: "Basic auto capture for Sales Insights | MicrosoftDocs"
+title: "Basic auto capture in Dynamics 365 Sales"
 description: "Use the basic auto capture to capture activities related to your emails and contacts, and display on timeline."
 keywords: 
-ms.date: 01/31/2020
+ms.date: 10/26/2021
 ms.custom: 
 ms.topic: article
 author: udaykirang
@@ -12,13 +12,17 @@ caps.latest.revision: 1
 ---
 # Basic auto capture 
 
-## Requirements
-|  | |
+Use the basic auto capture to capture activities related to your emails and contacts, and display on timeline.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
+## What is basic auto capture? 
 
 The activities captured by the auto capture feature are shown on the timeline in Dynamics 365 Sales. The feature finds activities by applying a set of rules that are specific to the record type. For example, when you look at an opportunity in Microsoft Dynamics 365 Sales, the timeline shows all the activities you've logged, and in addition it shows suggestions for up to 50 recent emails and meetings from your Outlook account that were sent to or from the primary contact for the opportunity or its stakeholders.
 

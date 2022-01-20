@@ -1,22 +1,27 @@
 ---
 title: "Manage seller attributes in assignment rules for lead and opportunity routing"
 description: "Manage seller attributes in assignment rules for lead and opportunity routing by creating, editing, and deleting in sales accelerator (Dynamics 365 Sales)."
-ms.date: 09/10/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
 ---
-# Manage seller attributes in assignment rules 
+# Preview: Manage seller attributes in assignment rules 
 
-## Requirements
-|  | |
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+Seller attributes help you define skills of sellers such as languages, location, country, and skills. After you define attributes, you can use these attributes while configuring the rules to automatically assign leads to sellers.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator, Sequence manager, or Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-Seller attributes help you define skills of sellers such as languages, location, country, and skills. After you define attributes, you can use these attributes while configuring the rules to automatically assign leads to sellers.
+## Manage seller attributes
 
 As an administrator or a sequence manager, you can create attributes and add values. For example, you want to group sellers according to the languages they know. Create an attribute with the name **Languages**, and add values for the attribute such as English, French, and Spanish. Assign the language attribute to sellers, and then an assignment rule can be configured to assign leads automatically to sellers who know the required language.
 
@@ -97,6 +102,8 @@ The attribute is updated.
     >![Delete attribute confirmation message](media/sa-ar-delete-attribute-confirmation.png "Delete attribute confirmation message")  
 
 The attribute is deleted from the application.
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
 ### See also
 

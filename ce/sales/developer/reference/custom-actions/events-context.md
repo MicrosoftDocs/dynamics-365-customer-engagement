@@ -1,7 +1,7 @@
 ---
-title: "Events and context object for forecasting (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Events and context object for forecasting | MicrosoftDocs"
 description: Events and context object for forecasting in Dynamics 365 Sales
-ms.date: 10/12/2020
+ms.date: 01/20/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -9,12 +9,15 @@ manager: shujoshi
 ms.custom: 
   - dyn365-sales
 ---
-# Events and context object 
+# Override save, update, load events for editable fields on underlying records grid
 
-## Requirements
-|  | |
+As a developer, use this reference documentation to learn about the forecasting events and context object.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System customizer <br>  See [Predefined security roles for Sales](../../../security-roles-for-sales.md)|
 |||
 
@@ -22,11 +25,11 @@ ms.custom:
 [!INCLUDE[cc-data-platform-banner](../../../../includes/cc-data-platform-banner.md)]
 
 >[!NOTE]
->The *forecasting context object* that's referred to in this topic is different from the execution context of Common Data Service. The forecasting context object is specific to forecasting and supports the advanced configurations of the underlying records grid.
+>The *forecasting context object* that's referred to in this topic is different from the execution context of Microsoft Dataverse. The forecasting context object is specific to forecasting and supports the advanced configurations of the underlying records grid.
 
 ## Events for the underlying records grid
 
-Events occur in forecasting for the underlying records grid whenever a grid is loaded, data is changed, or data is saved. The application executes JavaScript code by associating it with a handler when the event occurs. The following events are supported in forecasting:
+The following events are supported in forecasting:
 - [OnRowLoad](#onrowload-event)
 - [OnSave](#onsave-event)
 - [OnChange](#onchange-event)

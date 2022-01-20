@@ -2,7 +2,7 @@
 title: "How to deploy Dynamics 365 App for Outlook | MicrosoftDocs"
 ms.custom: 
 description: How to deploy and install Dynamics 365 App for Outlook
-ms.date: 05/20/2021
+ms.date: 12/14/2021
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -28,7 +28,11 @@ search.app:
 
 This topic covers how to set up and deploy Dynamics 365 App for Outlook.
 
-The latest release of Dynamics 365 App for Outlook works with customer engagement apps (such as [Dynamics 365 Sales](./../sales-professional/help-hub.md), [Dynamics 365 Customer Service](./../customer-service/help-hub.md), [Dynamics 365 Marketing](./../marketing/help-hub.md). [Dynamics 365 Field Service](../field-service/overview.md), and [Dynamics 365 Project Service Automation](/dynamics-365-project-operations/articles/psa/overview.md), [Dynamics 365 Customer Engagement (on-premises), version 9](../customerengagement/on-premises/overview.md), and [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
+Dynamics 365 App for Outlook works with customer engagement apps (such as [Dynamics 365 Sales](./../sales-professional/help-hub.md), [Dynamics 365 Customer Service](./../customer-service/help-hub.md), [Dynamics 365 Marketing](./../marketing/help-hub.md), [Dynamics 365 Field Service](../field-service/overview.md), [Dynamics 365 Project Service Automation](/dynamics365/project-operations/psa/overview), and [Dynamics 365 Customer Engagement (on-premises), version 9](../customerengagement/on-premises/overview.md)), and model-driven Power Apps that run on [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
+
+> [!NOTE]
+> Multiplexing setup doesn't reduce the number of licenses required to access Dynamics 365 apps. For more information, see [Multiplexing Licensing Brief](https://download.microsoft.com/download/3/D/4/3D42BDC2-6725-4B29-B75A-A5B04179958B/Licensing_Brief_PLT_Multiplexing.pdf).
+
 
 ## Prerequisites
 
@@ -143,7 +147,7 @@ App for Outlook also requires server-side synchronization to be properly configu
 | prvReadQuery                            | View               | Customization                                       |
 | prvReadIncident                         | Case               | Service                                             |
 | prvSearchAvailability                   |                    | Service Management &gt; Miscellaneous Privileges    |
-| prvOverrideCreatedOnCreatedBy           |                    | Service Management &gt; Miscellaneous Privileges    |
+| prvOverrideCreatedOnCreatedBy           |                    | Business Management &gt; Miscellaneous Privileges    |
 
 
 > [!NOTE]

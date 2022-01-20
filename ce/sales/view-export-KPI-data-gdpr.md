@@ -2,7 +2,7 @@
 title: "View and export KPI data (GDPR) | Microsoft Docs"
 description: "View KPI data for contact, lead, and opportunity using system views, and export the data to an Excel file in Sales Insights."
 keywords: "GDPR; data protection; privacy; embedded intelligence"
-ms.date: 10/31/2018
+ms.date: 10/26/2021
 ms.topic: article
 ms.assetid: ada3bf5d-f083-4e2b-947e-b402e4068392
 author: KumarVivek
@@ -12,13 +12,6 @@ topic-status: Drafting
 ---
 # View and export KPI data (GDPR) 
 
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator or Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
 View KPI data for contact, lead, and opportunity using system views, and export the data to an Excel file. The KPI data is stored in the following entities:
 
 - **Contact KPI Items**
@@ -27,6 +20,16 @@ View KPI data for contact, lead, and opportunity using system views, and export 
 
 > [!NOTE]
 > This topic is applicable only for the [Relationship Analytics](relationship-analytics.md) feature.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | System Administrator or Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
+## View KPI data
 
 You can use the system views for these entities or create your own views to view the data.
 
@@ -44,6 +47,8 @@ After viewing the results, you can export data to Microsoft Excel, if required. 
 ![Export data to Microsoft Excel](media/export-excel-gdpr.png "Export data to Microsoft Excel")
 
 For more information about exporting data from Dynamics 365 Sales to excel, see [Export data to Excel](/dynamics365/customer-engagement/basics/export-data-excel)
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ## See also
 

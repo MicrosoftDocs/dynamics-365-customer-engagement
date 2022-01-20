@@ -1,7 +1,7 @@
 ---
 title: "Connect and share feedback (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Connect with partners and other users of Dynamics 365 Sales, submit ideas, and share any feedback that you have for the Sales Hub app."
-ms.date: 10/01/2019
+ms.date: 10/25/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -11,15 +11,15 @@ ms.custom:
 ---
 # Connect and share feedback for the Sales Hub app 
 
-## Requirements
-|  | |
+The **Connect and share** capability in the Sales Hub app lets experts and peers connect with each other, submit ideas, and share any feedback that they have about the Sales Hub app.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | All <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
-
-
-The **Connect and share** capability in the Sales Hub app lets experts and peers connect with each other, submit ideas, and share any feedback that they have about the Sales Hub app.
 
 ## Connect through community and forum
 

@@ -60,7 +60,7 @@ You can create a case in Customer Service workspace or Customer Service Hub.
 
 4. Go to **Summary** and in the **Case Title** field, type a descriptive title to identify the case.  
 
-5. In the **Subject** field, select a subject. Associating cases with subjects helps you search for cases with similar issues and find related articles. If you don't see the subject you want in the list, ask your system administrator to add it.
+5. In the **Subject** field, select a subject. When you associate cases with subjects, you can search for cases with similar issues and find related articles. If you don't see the subject that you want in the list, ask your administrator to add it.
 
 6. Find the customer:  
 

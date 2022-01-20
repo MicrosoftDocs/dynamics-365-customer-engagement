@@ -1,7 +1,7 @@
 ---
 title: "Change the parent of a product (reparenting) (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Create a product hierarchy by associating products and product families in a parent-child relationship in Dynamics 365 Sales."
-ms.date: 01/12/2020
+ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -18,13 +18,17 @@ searchScope:
 ---
 # Change the parent of a product (reparenting) 
 
-## Requirements
-|  | |
+Create a product hierarchy by associating products and product families in a parent-child relationship in Dynamics 365 Sales.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
+## Change or remove the parent of a product
 
 To organize your company's product catalog better, you may want to change the parent of an existing product record so the child products inherit the appropriate product properties. You can change the parent of an existing product, bundle, or family to a new parent or delete an existing parent.
 
@@ -42,6 +46,8 @@ Things to consider when changing reparenting:
 When you reparent an existing record, all the existing inherited properties of the record and its child records are removed, and the new properties of the new parent (if any) are added. 
 
 For example, think of a TV that was previously classified as "Plasma." The organization decides it’s better to organize TVs as Smart vs Non-Smart TVs. They decide to move it from the "Plasma" family to the "Smart TV" family. A new set of properties relating to Smart TV are added and Plasma properties are removed from the parent. 
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

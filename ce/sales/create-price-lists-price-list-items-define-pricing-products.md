@@ -1,7 +1,7 @@
 ---
-title: "Define product pricing - Sales Enterprise | MicrosoftDocs"
+title: "Define product pricing | MicrosoftDocs"
 description: "Use price lists and price list items for defining price for a product. Create multiple price lists and set default price list for a territory."
-ms.date: 02/10/2021
+ms.date: 10/26/2021
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -15,36 +15,40 @@ searchScope:
   - Dynamics 365
   - Sales
 ---
-# Define product pricing with price lists and price list items (Sales Hub) 
+# Define product pricing with price lists and price list items 
 
-## Requirements
-|  | |
+Use price lists and price list items for defining price for a product. Create multiple price lists and set a default price list for each territory.
+
+> [!NOTE]
+> Territories are only supported for Sales Enterprise and Sales Premium.
+
+## License and role requirements 
+
+| &nbsp; | &nbsp; | 
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator, Sales Manager, Sales Professional Manager, and above <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
+## What is a price list?
 
-Price lists tell your sales agents what to charge for your products or services. You can create multiple price lists so that you can maintain separate price structures for different regions you sell your products in or for different sales channels.  
+Price lists tell your sales agents what to charge for your products or services. You can create multiple price lists so that you can maintain separate price structures for different regions,  sales channels, or sales territories.  
   
 Price lists tie the unit, product, and pricing details together, so before you create a price list, make sure the units and products are in place.  
  
+> [!NOTE]
+>  You must create at least one price list for each of the currencies that your organization does business in.  
 
-## Create a price list and price list items and add default price list for a territory (Sales Hub)
+## Create a price list and price list items
 
-1. [!INCLUDE[proc_permissions_mgr_vp_ceo_busmgr_sysadmin_syscust](../includes/proc-permissions-mgr-vp-ceo-busmgr-sysadmin-syscust.md)]  
-  
-2. At the bottom of the site map, select **Change area** ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area") and then select **App Settings**. 
-  
-3. In the **Product Catalog** area, select **Price Lists**. 
-
-    ![Price list in site map.](media/site-map-product-catalog.png "Price list in site map")
-  
-4. To create a new price list, select **New**.  
-  
-    -OR-  
-  
-    To edit a price list, open a price list from the list.  
+1. Depending on the sales app that you're using, do one of the following:
+ 
+    -  If you're using the Sales Hub app, 
+        1. Select **Change area** ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area") at the lower-left corner of the site map, and then select **App Settings**. 
+        1. In the **Product Catalog** area, select **Price Lists**. 
+   - If you're using the Sales Professional app,
+       - Select **Price List** from the site map.
+4. To create a new price list, select **New**.   
   
 5. In the price list form, fill in your information, and then select **Save**. 
 
@@ -59,7 +63,7 @@ Price lists tie the unit, product, and pricing details together, so before you c
   
 6.	To add price per unit for a product, create and add price list items.
 
-    a.	In the **Price List** form, select the **Price List Items** tab, and then select **Add New Price List Item**.
+    a.	In the **Price List** form, select the **Price List Items** tab, and then select **New Price List Item**.
 
     > [!div class="mx-imgBorder"]
     > ![Add New Price List Item button on the Price List Items tab.](media/price-list-form-price-list-items-tab.png "Add New Price List Item button on the Price List Items tab")
@@ -116,7 +120,7 @@ Price lists tie the unit, product, and pricing details together, so before you c
             > ![Pricing information tab on the price list form.](media/pricing-information-tab-price-list-item-form.png "Pricing information tab on the price list form")
 
  
-7.  You can also associate default price lists for territories so that the sales reps working with accounts on contacts in certain territories have the price list selected by default. 
+7.  (Applicable for Sales Premium and Sales Enterprise) You can also associate default price lists for territories so that the sales reps working with accounts and contacts in certain territories have the price list selected by default.  
 
     a.  In the price list record, select the **Territory Relationship** tab.
 
@@ -132,16 +136,16 @@ Price lists tie the unit, product, and pricing details together, so before you c
          > ![Add territory as connection.](media/add-territory-as-connection.png "Add territory as connection")
  
     d.	In the price list record, select **Save & Close**.
-  
-      > [!NOTE]
-      >  You must create at least one price list for each of the currencies that your organization does business in.  
+   
 
 
 ## Typical next steps  
  ![Right arrow button](media/walkthrough-orange-right-arrow.png "Right arrow button") [Publish a product or bundle to make it available for selling](publish-product-bundle-make-available-selling.md)  
   
  ![Home button](media/walkthrough-home.png "Home button") [Set up a product catalog: Walkthrough](set-up-product-catalog-walkthrough.md)  
-  
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
+
 ### See also  
  [System Settings dialog box - Sales tab](/power-platform/admin/system-settings-dialog-box-sales-tab)   
  [Classify products and bundles into product families](create-product-bundles-sell-multiple-items-together.md)  

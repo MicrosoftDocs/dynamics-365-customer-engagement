@@ -1,11 +1,11 @@
 ---
 title: "Mark a playbook as completed (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Close the playbook as completed to define if the playbook was successful or not."
-ms.date: 02/20/2019
+ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 ms.custom: 
   - "dyn365-sales"
 searchScope: 
@@ -20,16 +20,17 @@ searchScope:
 ---
 # Mark a playbook as completed 
 
-## Requirements
-|  | |
+When you complete all the activities created for a playbook, you must mark the playbook as completed. This helps you to know if the playbook was successful or not.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson, Playbook User, and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-
-
-When you complete all the activities created for a playbook, you must mark the playbook as completed. This helps you to know if the playbook was successful or not.
+## Complete a playbook
 
 1.  To mark a playbook as completed, go to the record you launched the playbook from (calling record).
 
@@ -53,7 +54,10 @@ When you complete all the activities created for a playbook, you must mark the p
     > [!div class="mx-imgBorder"]
     > ![complete as button on playbook record.](media/complete-playbook-as.png "Complete as button on playbook record")
 
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
+
 ### See also
+
 [Launch a playbook to carry out activities consistently](launch-playbook.md)  
 [Track playbook activities](track-playbook-activities.md)
 

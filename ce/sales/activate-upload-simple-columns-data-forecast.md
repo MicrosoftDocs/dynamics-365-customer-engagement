@@ -1,7 +1,7 @@
 ---
-title: "Activate and upload data for a forecast - Sales Enterprise | MicrosoftDocs"
+title: "Activate and upload data for a forecast | MicrosoftDocs"
 description: "Activate a forecast, and download the spreadsheet template to populate quotas and simple columns data. Then, upload the spreadsheet to the forecast."
-ms.date: 10/26/2020
+ms.date: 01/18/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -16,18 +16,21 @@ searchScope:
 ---
 # Activate and upload simple columns data 
 
-## Requirements
-|  | |
+Activate a forecast, and download the spreadsheet template to populate quotas and simple columns data. Then, upload the spreadsheet to the forecast.
+
+## License and role requirements
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator or Forecast Manager <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
+## Activate a forecast and upload simple data
 
 Now that you've completed the required configurations for the forecast, use the **Activate & add quotas** step to activate it and make it available for users. After the forecast is active, you can download a template (Excel workbook) and upload it with data, such as quotas and simple column types, for all users who are defined in the forecast hierarchy.
 
 > [!IMPORTANT]
-> - You can have only six active forecasts at a time in your organization.
+> - You can have a maximum of 50 forecasts at any given time in your organization, out of which only six forecasts can be active.
 > - Use only the forecast configuration page to activate forecasts. Don't use any other options, such as **Advanced find**. 
 
 <a name=select-primary-data-type></a>
@@ -93,13 +96,11 @@ You're directed to the **Forecast configuration** home page, where your organiza
 >[!NOTE]
 >You can also upload data to simple columns using the **msdyn_ForecastApi** action. More information: [msdyn_ForecastApi](../sales-enterprise/developer/reference/custom-actions/msdyn_ForecastApi.md)
 
-<table>
-<tr><td>
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
+---
 > [!div class="nextstepaction"] 
 > [Previous step: Configure advanced settings](forecast-configure-advanced-settings.md)
-</td></tr>
-</table>
 
 ### See also
 

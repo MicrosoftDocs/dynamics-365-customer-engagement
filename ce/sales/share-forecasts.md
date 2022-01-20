@@ -1,5 +1,5 @@
 ---
-title: "Share forecasts - Dynamics 365 Sales | MicrosoftDocs"
+title: "Share a forecast - Dynamics 365 Sales | MicrosoftDocs"
 description: "Share forecasts with other users in the hierarchy or outside the hierarchy with a specific access permission."
 ms.date: 10/21/2021
 ms.topic: article
@@ -11,7 +11,17 @@ manager: shujoshi
 
 # Share a forecast
 
-You can share a forecast with anyone in your hierarchy or outside of your hierarchy and specify the access level (such as read or read and adjust rollup) that you want to give the user. For example, Henry, the Sales Manager wants one of his direct reports, Serena Davis, to manage the forecasts while he's on vacation. He can share his forecast hierarchy with Serena and assign the appropriate permissions.
+Share forecasts with anyone in your hierarchy or outside of your hierarchy and specify the access level (such as read or read and adjust rollup) that you want to give the user. For example, Henry, the Sales Manager wants one of his direct reports, Serena Davis, to manage the forecasts while he's on vacation. He can share his forecast hierarchy with Serena and assign the appropriate permissions.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |  
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
+## Share a forecast or forecast hierarchy
 
 1.  Go to **Performance &gt; Forecasts** in the Sales Hub sitemap.
 
@@ -32,6 +42,8 @@ You can share a forecast with anyone in your hierarchy or outside of your hierar
 To stop sharing a forecast with a user, select the **Share** icon :::image type="icon" source="media/share-icon.png" border="false"::: next to the forecast record. In the **Sharing** dialog, find the user you want to stop sharing with, and then select the **Delete** icon next to the username. 
 
 To stop sharing the entire forecast hierarchy from all the users, your administrator needs to disable the sharing option for the forecast. For more information, see [Enable or disable forecast sharing](provide-permissions-forecast.md#enable-or-disable-forecast-sharing).
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 [Enable or disable forecast sharing](provide-permissions-forecast.md#enable-or-disable-forecast-sharing)

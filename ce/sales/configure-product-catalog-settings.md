@@ -1,7 +1,7 @@
 ---
 title: "Configure product catalog settings (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Configure the settings to change the seller experience while selecting products from the catalog."
-ms.date: 04/02/2021
+ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -9,14 +9,19 @@ manager: shujoshi
 ---
 # Configure product catalog settings
 
-## Requirements
-|  | |
+Configure the settings to change the seller experience while selecting products from the catalog
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-A product catalog includes the list of products and services that your company sells. Sellers choose products from the catalog when they're creating an opportunity, quote, invoice, or order. You can configure the product catalog settings to change the experience sellers have when they select products from the catalog. For example, you can choose whether they must select a price list when creating an opportunity, quote, invoice, or order.
+## Configure the settings
+
+You can configure the product catalog settings to change the experience sellers have when they select products from the catalog. For example, you can choose whether they must select a price list when creating an opportunity, quote, invoice, or order.
 
 **To configure the product catalog settings**
 
@@ -45,6 +50,8 @@ The following table shows the difference between discounts calculated for a line
 |---------------------|-------------|--------------------|--------------|--------------|------------|  
 |Line item|Product 1|100|11|10|(100 &times; 11) &minus; 10 = 1,090|  
 |Per unit|Product 2|100|11|10|(100 &minus; 10) &times; 11 = 990| 
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

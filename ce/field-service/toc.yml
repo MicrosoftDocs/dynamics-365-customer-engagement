@@ -8,6 +8,12 @@
   href: field-service-get-started.md
 - name: Videos
   href: field-service-videos.md
+- name: Try Field Service
+  items:
+  - name: Sign up for free trial
+    href: trial-signup.md
+  - name: Trial FAQs
+    href: trial-faq.md
 - name: Installation + upgrade
   items: 
   - name: Field Service installation (web + mobile)
@@ -36,6 +42,8 @@
     href: set-up-tax-codes.md
   - name: Territories
     href: set-up-territories.md
+  - name: Customization best practices
+    href: field-service-customization-best-practices.md
   - name: Field Service settings
     href: configure-default-settings.md
 - name: Quickstarts
@@ -202,8 +210,12 @@
     href: mobile-power-app-use.md
   - name: Booking maps
     href: mobile-powerapp-booking-maps.md
-  - name: Customize the app
+  - name: Customize the home screen (Site Map)
     href: mobile-power-app-configure.md
+  - name: Customize calendar columns
+    href: mobile-powerapp-customize-booking-calendar.md
+  - name: Edit the Booking and Work Order form (Form Component Control)
+    href: mobile-powerapp-booking-work-order-form.md
   - name: Offline data and sync filters
     href: mobile-power-app-system-offline.md
   - name: Barcode scanning and global search
@@ -228,20 +240,22 @@
     href: mobile-powerapp-windows.md
   - name: Use Microsoft Power Platform
     href: mobile-power-utilize-platform.md
+  - name: Improve mobile app performance 
+    href: improve-mobile-performance.md
   - name: FAQs
     href: mobile-power-app-faq.yml
   - name: Field Service Mobile (Xamarin app)
     items: 
     - name: Overview
       href: field-service-mobile-overview.md
+    - name: Xamarin app end of life
+      href: activate-fs-mobile-app-license.md
     - name: Install and Setup
       href: field-service-mobile-app-user-guide.md
     - name: Use the app
       href: field-service-mobile-use.md
     - name: Customizations and configurations
       href: mobile-app-configuration-customization.md
-    - name: Activate mobile configurator
-      href: activate-fs-mobile-app-license.md
     - name: Map API key
       href: mobile-enable-maps.md
     - name: Upgrade the mobile project template
@@ -454,3 +468,6 @@
   href: troubleshoot-field-service-solution-health.md
 - name: General FAQs
   href: troubleshoot-faq.yml
+- name: Get help
+  href: field-service-get-help.md
+  

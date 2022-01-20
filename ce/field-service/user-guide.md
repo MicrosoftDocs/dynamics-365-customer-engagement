@@ -1,5 +1,5 @@
 ---
-title: "User guide for Dynamics 365 Field Service | Microsoft Docs"
+title: "User guide for Dynamics 365 Field Service (contains video) | Microsoft Docs"
 description: Use this guide to get a high-level view of Dynamics 365 Field Service and see a collection of resources to learn more.
 ms.date: 02/11/2021
 ms.reviewer: krbjoran
@@ -33,7 +33,7 @@ Before we begin, here are the top places for information about Field Service:
 <li> <a href="https://community.dynamics.com/365/fieldservice" data-raw-source="[[Forum](https://community.dynamics.com/365/fieldservice)]">Forum</a>
 <li> <a href="https://cloudblogs.microsoft.com/dynamics365/it/" data-raw-source="[[Blog](https://cloudblogs.microsoft.com/dynamics365/it/)]">Blog</a>
 <li> <a href="https://aka.ms/fspartner-join" data-raw-source="[[Join the partner community](https://aka.ms/fspartner-join)]">Join the partner community</a>
-<li> <a href="https://dynamics.microsoft.com/contact-us/" data-raw-source="[[Get help](https://dynamics.microsoft.com/contact-us/)]">Get help</a>
+<li> <a href="field-service-get-help.md" data-raw-source="[[Get help](field-service-get-help.md)]">Get help</a>
   </ul>
   </td>
 

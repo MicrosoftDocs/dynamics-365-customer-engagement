@@ -1,23 +1,28 @@
 ---
-title: "Customize deal manager - Sales Enterprise | MicrosoftDocs"
+title: "Customize deal manager | MicrosoftDocs"
 description: "Customize the grid, side panel, and charts displayed in deal manager according to your sales team's requirement."
-ms.date: 08/10/2021
+ms.date: 01/10/2022
 ms.topic: article
+ms.service: dynamics-365-sales
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
 ---
-# Preview: Customize the deal manager workspace 
+# Preview: Customize the deal manager workspace
 
-## Requirements
-|  | |
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+Customize the grid, side panel, and charts displayed in deal manager according to your sales team's requirement.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+## What can you customize
 
 [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 
@@ -93,7 +98,7 @@ Customize the editable grid by adding a JavaScript library. These customizations
 
     > [!NOTE]
     > -	The function names in the JavaScript file must match the event names and must accept the context object parameter. 
-    > -	The deal manager context object that's referred to in the example is different from the execution context of Common Data Service. Currently, the  deal manager context object is the same as the forecasting context object and supports advanced configurations of the underlying records grid in deal manager. More information: [Events and context object](../sales-enterprise/developer/reference/custom-actions/events-context.md)  
+    > -	The deal manager context object that's referred to in the example is different from the execution context of Microsoft Dataverse. Currently, the  deal manager context object is the same as the forecasting context object and supports advanced configurations of the underlying records grid in deal manager. More information: [Events and context object](../sales-enterprise/developer/reference/custom-actions/events-context.md)  
 
 1.	Add your JavaScript code in a script web resource:  
 
@@ -132,21 +137,25 @@ The following table lists the supported and unsupported customizations for side 
 **To customize the side panel**
 
 1. Sign in to [Power Apps](https://make.powerapps.com/).
-1. Select the environment, and then select **Data** > **Tables**.
+1. Select the environment, and then select **Dataverse** > **Tables**.
 1. In the upper-right corner, select the dropdown list and then select **All**.
 1. Search for **Opportunity** to view all the opportunity-related entities.
 1. Select the **Opportunity** table, and then select **Forms**.
-1. Search for the **In Context View** form, and edit the form to manage the fields that appear in the side panel.
-     > [!NOTE]
-    > - By default, all the fields in the form are editable. If you want to set a field to read-only, select the field and enable the **Read-only** property.
-    > - If you've added field-level customization for the editable grid using a web resource, they also become applicable for the same fields in the side panel.  
+1. Search for the **In Context View** form, and edit the form to manage the fields that appear in the side panel. Consider the following aspects when customizing the form:
+    
+    - By default, all the fields in the form are editable. If you want to set a field as read-only, select the field and enable the **Read-only** property.
 
-    :::image type="content" source="media/incontexview.PNG" alt-text="Screenshot of the In context view form in Power Apps.":::
+    - If you've added field-level customization for the editable grid using a web resource, they also become applicable for the same fields in the side panel.
+    - Required/mandatory fields cannot be deleted from the form; drag them to the **Ignore** tab to remove them from the side panel.  
+
+        :::image type="content" source="media/incontexview.PNG" alt-text="Screenshot of the Ignore option in the In context view form in Power Apps.":::
+1. Save and publish the changes.
+1. Verify whether the changes are reflecting in the deal manager workspace. See [Access the deal manager workspace](access-deal-manager.md)
    
-
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
   
 ### See also
 
-- [Access the deal manager workspace](access-deal-manager.md)  
 - [Using the deal manager workspace](deal-manager-seller-overview.md)  
 - [Issue: In Context Form may appear in the form selector](ts-oqoi.md#issue-in-context-form-may-appear-in-the-form-selector)
+- [Add, configure, move, or delete columns on a form](/powerapps/maker/model-driven-apps/add-move-or-delete-fields-on-form)

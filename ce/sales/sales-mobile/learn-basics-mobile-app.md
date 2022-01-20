@@ -1,23 +1,26 @@
 ---
 title: Learn the basics of the Dynamics 365 Sales mobile app
 description: Learn the basic functions of the Dynamics 365 Sales mobile app.
-ms.date: 10/20/2021
+ms.date: 10/25/2021
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ---
-# Learn the basics 
+# Learn the basics
 
-## Requirements
-|  | |
+Know the basic functions and the information displayed on the home screen of the Dynamics 365 Sales mobile app.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Professional, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or Microsoft Relationship Sales <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** |  Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Professional, or Microsoft Relationship Sales <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](../security-roles-for-sales.md)|
 |||
 
-
+## Overview
 
 When you open the Dynamics 365 Sales mobile app on your mobile device, you’ll see the home page. This home page provides high-level information on the meetings and insight cards that are specific to you. Typically, the home page displays the following kinds of information:
 

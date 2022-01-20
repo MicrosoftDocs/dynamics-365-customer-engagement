@@ -1,11 +1,11 @@
 ---
 title: "Maintain an external org chart (Dynamics 365 Sales) | Microsoft Docs"
 description: "Manage live org charts by organizing contacts in Dynamics 365 Sales."
-ms.date: 10/01/2019
+ms.date: 10/25/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-account
@@ -17,19 +17,19 @@ searchScope:
 ---
 # Organize contacts in live org charts for accounts 
 
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
-
-
 The live org chart lets salespeople maintain external organization charts for their accounts. [!INCLUDE [pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] users can build a hierarchy for existing accounts or use it as a starting point for adding contacts to a new account. The org chart also provides easy access to an embedded [!INCLUDE [pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator widget, helping to ensure that contacts are kept up to date.
 
 > [!IMPORTANT]
 > When using the org chart, the hierarchy settings will be auto-enabled if they weren't enabled before. A relationship with schema name `contact_parent_contact` will be created with the parent attribute schema name `parent_contactid`. If you wish to use a different relationship for the org chart, please contact your admin to create a new [hierarchical relationship](/archive/blogs/lystavlen/how-to-enable-hierarchy-to-contacts-in-dynamics-crm-2015).
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |  
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Salesperson and above <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
 
 ## Accessing the Org Chart
 
@@ -92,10 +92,11 @@ When a contact is removed, the direct reports (if available) of that contact wil
  
 ![Control to remove a contact from an org chart.](media/org-chart-remove-contact.png)
 
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
+
 ### See also
-[Work with accounts and contacts in model-driven apps](../customerengagement/on-premises/basics/accounts-contacts.md)    
-[User Guide (Sales and Sales Hub)](user-guide.md)    
-[Administrator and Sales Manager Guide](admin-guide.md)    
+[Work with accounts and contacts](accounts-contacts.md)    
+[Learn the basics of [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]](user-guide-learn-basics.md)    
 [How to enable hierarchy for contacts](/archive/blogs/lystavlen/how-to-enable-hierarchy-to-contacts-in-dynamics-crm-2015)
 
 

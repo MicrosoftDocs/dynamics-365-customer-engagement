@@ -26,13 +26,14 @@ Here are a few common issues the Solution Health Hub detects:
 2. If processes that will cause an upgrade to fail are assigned to disabled users 
 3. Customized web resources that will later lead to runtime issues
 
+In addition to running Solution Health Hub, check out [best practices for customizing Dynamics 365 Field Service](field-service-customization-best-practices.md) and 
+[running Solution Checker to improve scripts, plugins, HTML, workflows, etc.](/powerapps/maker/data-platform/use-powerapps-checker)
+
 ## Prerequisites
 
 - Field Service v8.4.0.338+ (Unified Interface) or v7.5.7.87+ (Web)
 - The Solution Health Hub extends the [Power Apps checker](/powerapps/maker/common-data-service/use-powerapps-checker) to ensure continued healthy operation of an environment. 
-
-> [!Note]
-> Currently, the ruleset uses 15 rules to verify the environment is in a good state. 
+ 
 
 ## Run a health check
 
@@ -82,6 +83,12 @@ Verifies that all work orders that were supposed to be generated over the last s
 There are agreement recurrences that haven't been processed correctly, and work orders haven't been generated that should have been.
 
 ### How to fix
+
+Identify the reason the work order was not generated, along with the cause of failure, and address that. Then regenerate the record generation by changing the agreement status back to "estimate," then to "active" again.
+
+
+> [!div class="mx-imgBorder"]
+> ![Solution health agreement generation in Solution Health Hub.](./media/solution-health-agreement-generation.png)
 
 ## Check failing workflow related to agreement
 
@@ -620,6 +627,8 @@ Check out more ways to [Improve form load time](https://docs.microsoft.com/dynam
 
 ### See also
 
+- [Run Solution Checker to improve scripts, plugins, HTML, workflows, etc.](/powerapps/maker/data-platform/use-powerapps-checker)
+- [Best practices for customizing Dynamics 365 Field Service](field-service-customization-best-practices.md)
 - [Frequently asked questions](./troubleshoot-faq.yml)
 
 

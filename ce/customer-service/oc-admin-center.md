@@ -4,6 +4,7 @@ description: "Get started with Omnichannel admin center"
 ms.date: 04/09/2021
 ms.topic: get-started-article
 author: neeranelli
+ms.custom: intro-internal
 ms.author: nenellim
 manager: shujoshi
 ---

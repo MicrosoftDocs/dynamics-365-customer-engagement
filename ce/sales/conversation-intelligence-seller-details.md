@@ -1,5 +1,5 @@
 ---
-title: "Work with call intelligence feature (Sales Insights) | MicrosoftDocs"
+title: "Work with call intelligence feature"
 description: "View insights and analyze the performers of sellers during calls with customer to improve sales and generate revenue."
 ms.date: 04/09/2020
 ms.custom: 
@@ -10,19 +10,19 @@ manager: shujoshi
 caps.latest.revision: 1
 topic-status: Drafting
 ---
-# View a seller’s performance to identify best practices and coaching opportunities  
+# View a seller’s performance to identify best practices and coaching opportunities 
 
-## Requirements
-|  | |
+View insights and analysis of each seller’s performance during calls with customers and leads. 
+
+The information you see on the **Seller details** page varies according to your role (sales manager or seller). To view the **Seller details** page, sign in to **Conversation intelligence**, and select **Seller details**. 
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
-
-
-View insights and analysis of each seller’s performance during calls with customers and leads. 
-
-The information you see on the **Seller details** page varies according to your role (sales manager or seller). To view the **Seller details** page, sign in to **Conversation intelligence**, and select **Seller details**.
 
 ## Seller details page for sales managers
 
@@ -87,6 +87,8 @@ Let's look at the KPIs and insights in detail:
 |**3. Insights**|Displays the latest trends specific to you, such as customer sentiment and talk-to-listen ration.|
 |**4. Statistics** |•	**Average customer sentiment level:** Displays the customer sentiments (positive, negative, and neutral) for each call that you have handled.<br>•	**Average talk to listen ratio:** Displays your average talk-to-listen ratio during calls with a customer.<br>•  **Sentiment over time:** Shows the three customer sentiments (positive, negative, and neutral) across the specified timeframe.|
 |**5. Call history**|Displays a list of your calls. Open a specific call to listen to the call, see the transcript, and view the call signals (e.g. keywords mentioned during the call). To learn more, see [View and understand call summary](../sales/view-and-understand-call-summary.md)|
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

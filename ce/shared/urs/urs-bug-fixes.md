@@ -1,3 +1,62 @@
+## 3.12.69.1
+
+(Includes Resource Scheduling controls version 1.2.10.213612)
+
+- Fixed bug: On the new schedule board, resource calendar doesn’t consider time-off hours if configured as time off. 
+- Fixed bug: Geocode fails with the error message "ResourceID GeoCode_AddressBadRequest was not found" due to missing label in the localization file. 
+- Fixed bug: New schedule board does not filter by date if the date format is not US or ISO and region is non-US. 
+- Fixed bug: New schedule board does not filter by custom fields on related entity for requirement view. 
+
+## 3.12.68.8
+
+(Includes Resource Scheduling controls version 1.2.9.213482)
+
+- Enabled **Time Group Detail Start** and **Time Group Detail End** column and sorting on list view when returning results with **Find Availability** functionality. 
+- Fixed bug: Resource available hours is not showing correctly on new schedule board when configured calendar with working hours and a time off. 
+- Fixed bug: Changing status of booking should not update start time and estimated arrival time on new schedule board.
+- Fixed bug: Cannot create or update a resource preference to a crew type resource.
+- Fixed bug: Time zone conversion issue when select time from time picker on **Search Start** and **Search End** fields when using **Find Availability** on new schedule board.
+- Fixed bug: Progress indicator div blocking click events on the booking when define an new booking template. 
+- Fixed issue: New schedule board does not filter by date if the date format is not US or ISO and region is non-US.
+
+
+## 3.12.67.1
+
+(Includes Resource Scheduling controls version 1.2.8.213282)
+
+- Fixed bug: changing status of booking should not update **Start Time** and **Estimated Arrival Time**.
+- Enabled fulfillment preference support for single requirement when user uses **Find Availability** to schedule requirement.
+
+(Includes Resource Scheduling controls version 1.2.7.213012)
+
+- Fixed bug: Travel time is included in booking duration when book facility requirement.
+- Performance improvement on new schedule board when user uses **Find Availability** to book requirement. 
+
+
+## 3.12.66.3
+
+(Includes Resource Scheduling controls version 1.2.6.212992)
+
+- Allow users to schedule entities without an associated requirement record with scheduling assistant on the new schedule board. 
+- Enabled sorting functionality for new schedule board list view when user uses **Find Availability** to book requirement on hourly view. Users can sort rows using each of the       columns.
+- Improved the performance when user uses **Find Availability** to book requirement on new schedule board.
+- Fixed bug: Travel time is included in booking duration when booking facility type of requirement on new schedule board. 
+- Fixed bug: New schedule board sometimes crashes when scheduling a multiday requirement using **Book and Exit** button with **Find Availability** on the new schedule board. 
+
+## 3.12.65.6
+
+(Includes Resource Scheduling controls version 1.2.5.212813)
+
+- Enabled **Group By** capability on new schedule board list view. 
+- On new schedule board, started showing dotted line when user drags-and-drops requirement to the board. 
+- Fixed: when update contact record with integration job: Update (Pre-operation) for contact plug in throws Error: **System.ServiceModel.QuotaExceededException: 'The size necessary to buffer the XML content exceeded the buffer quota.'** 		
+- Added retry mechanism and logged more information for troubleshooting when Geocode API fails with HTTP 403.
+
+## 3.12.64.78
+This release is a hotfix on Universal Resource Scheduling version [3.12.64.46](/dynamics365/common-scheduler/bug-fixes#3126478)
+
+- Added retry mechanism and logged more information for troubleshooting when Geocode API fails with HTTP 403
+
 ## 3.12.64.46 - 2021 wave 2 early access general availability 
 
 (Includes Resource Scheduling controls version 1.2.2.212724)

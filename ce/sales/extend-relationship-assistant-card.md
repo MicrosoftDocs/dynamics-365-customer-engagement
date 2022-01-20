@@ -14,12 +14,17 @@ ms.tgt_pltfrm:
 ---
 # Create custom cards in Assistant  
 
-## Requirements
-|  | |
+Use the assistant to create custom action cards that help in displaying insight cards that are specific to your organization.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator or System Customizer <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
+
+## What are action or insight cards?
 
 Action cards provides you up to date information on email, meeting, and much more in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. These cards reminds you of upcoming activities; it evaluates your communications, and suggests when it might be time to reach out to a contact that’s been inactive for a while; it identifies email messages that may be waiting for a reply from you; it alerts you when an opportunity is nearing its close date; and much more. These cards are displayed on forms, dashboards, and throughout the application to provide relevant information for the context you are working in at the moment.
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Action cards reference](action-cards-reference.md) 
@@ -35,6 +40,8 @@ The action cards contain the following basic elements:
 2. **Actions area:** Provides convenient links that will help you complete whatever type of action the card is recommending. The number (up to two) and types of links provided here vary by card type.
 3. **Main content area:** Shows the title of the record the card refers to, its summary, the card type, and other basic information. Click anywhere in this area (except for on the two buttons) to open the related item, which might be a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] record or an email message.
 
+## Create a custom card
+
 You can generate these custom cards in two ways:
 
 - As a sales manager or administrator, you can generate custom insight cards (known as action cards) by using the **Assistant** which is based on Microsoft Flow. This provides you a graphical user interface to generate custom cards. To learn more, see [Preview: Manage insight cards](manage-custom-cards-flow.md)
@@ -45,6 +52,8 @@ You can generate these custom cards in two ways:
 
     >[!NOTE]
     >To use this feature, you must purchase a **Dynamics 365 Sales Insights** license, or start a trial to use Sales Insights features.
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

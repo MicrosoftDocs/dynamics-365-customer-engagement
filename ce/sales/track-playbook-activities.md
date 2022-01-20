@@ -1,11 +1,11 @@
 ---
 title: "Track playbook activities (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Carry out the playbook activities to ensure every event or scenario is dealt with consistently."
-ms.date: 10/01/2019
+ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 ms.custom: 
   - "dyn365-sales"
 searchScope: 
@@ -20,21 +20,21 @@ searchScope:
 ---
 # Track playbook activities 
 
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson, Playbook User, and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
-
-
 When a playbook is launched, its related activities are created and associated with the record the playbook is launched from (also called the calling record). You must complete these activities to ensure every event is dealt with consistently.
 
 If the playbook template used for the playbook has its **Track progress** field set to **Yes**, the activities are created under a playbook record that is under the calling record. If the **Track progress** field is set to **No**, the activities are created directly under the calling record.
 
-
 To see the activities created by the playbook when the **Track progress** field in the playbook template is set to **Yes**:
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |  
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Salesperson, Playbook User, and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
+## Track activities in a playbook
 
 1.  Go to the record you launched the playbook from. For example, if you launched the playbook from an opportunity record, go to the opportunity record.
 
@@ -83,11 +83,12 @@ The **Documents** list appears.
 ![Documents list showing documents associated with the activity.](media/doc-available-for-playbook-activity-documents-grid.png "Documents list showing documents associated with the activity")
 
 To download a document: 
-* In the **Documents** list, select a row, and then select **Download**.
+- In the **Documents** list, select a row, and then select **Download**.
 
 To view a document:
-* In the **Documents** list, select the document name.
+- In the **Documents** list, select the document name.
 
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 [Launch a playbook to carry out activities consistently](launch-playbook.md)  

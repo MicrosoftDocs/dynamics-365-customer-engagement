@@ -18,18 +18,23 @@ searchScope:
 ---
 # Maintain up-to-date forecast data 
 
-## Requirements
-|  | |
+Forecast data is automatically recalculated at scheduled intervals to keep the data current. You can also trigger a manual calculation if you want a change to be immediately reflected in the forecast.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-
-
-Forecast data is kept up to date by being automatically recalculated at regular intervals. If you're actively interacting with the forecast, a recalculation is triggered when the data is found to be more than 10 minutes old. After the recalculation, you'll be prompted to refresh the forecast grid to show the latest data.
+## When is the forecast data updated?
+ 
+Forecast data is automatically recalculated at regular intervals. If you're actively interacting with the forecast, a recalculation is triggered when the data is found to be more than 10 minutes old. After the recalculation, you'll be prompted to refresh the forecast grid to show the latest data.
 
 If you're not actively interacting with the forecast, the data is recalculated every hour. The **Last recalculated** label on the command bar shows the time when the forecast was last recalculated successfully.
+
+## Trigger manual recalculation
 
 If you know that the underlying data has changed, you can select **Recalculate** to manually recalculate, and then refresh to view the updated values. When you recalculate: 
 
@@ -42,7 +47,7 @@ If you know that the underlying data has changed, you can select **Recalculate**
 -	Only the current forecast period is recalculated.
 
 > [!NOTE]
-> The **Recalculate** command doesn't change any value that was manually adjusted.
+> The **Recalculate** command doesn't change any forecast value that was manually adjusted.
 
 **To recalculate and refresh forecast data manually**
 
@@ -66,6 +71,8 @@ If you know that the underlying data has changed, you can select **Recalculate**
     > You can cancel the notification and refresh the data later. Select **Refresh** on the command bar.
 
 After recalculation, the data in the forecast reflects the latest opportunity and hierarchical changes.
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

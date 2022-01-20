@@ -1,5 +1,5 @@
 ---
-title: "Find and add multiple products to opportunity-Sales Enterprise | MicrosoftDocs"
+title: "Find and add multiple products to opportunity | MicrosoftDocs"
 description: "Use the enhanced experience to quickly identify and add multiple products from catalog to opportunities."
 ms.date: 04/02/2021
 ms.topic: article
@@ -15,18 +15,24 @@ searchScope:
   - Dynamics 365
   - Sales
 ---
-# Preview: Add products to an opportunity by using the enhanced experience 
+# Preview: Find and add multiple products to an opportunity
 
-## Requirements
-|  | |
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+Use the enhanced experience to quickly identify and add multiple products from the catalog to opportunities.
+
+> [!NOTE]
+> Product families are only supported for Sales Enterprise and Sales Premium.  
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+## What's in the enhanced experience?
 
 As a salesperson, you want to be able to easily identify and add products from the catalog that best fit the opportunity at hand. With the enhanced experience of adding products, you can:
 
@@ -34,7 +40,7 @@ As a salesperson, you want to be able to easily identify and add products from t
 
 - See matching products as you enter text in the search field.
 
-- Pick products from the categorized list of product families.
+- (Applicable for Sales Premium and Sales Enterprise) Pick products from the categorized list of product families.
 
 - See the most recently used list of products while you add multiple products.
 
@@ -57,7 +63,7 @@ As a salesperson, you want to be able to easily identify and add products from t
 
 1. Open the opportunity to which you want to add products.
 
-2. Go to the **Products** tab.
+2. Go to the **Product Line Items** tab.
 
 3. Select a **Price list**. 
    The price list determines the cost of the product and the products you can select.
@@ -77,20 +83,18 @@ As a salesperson, you want to be able to easily identify and add products from t
    ![Screenshot showing the enhanced Add products dialog box.](media/enhancedAddProductsDialog.png)
 
    > [!NOTE]
-
    > The enhanced experience for adding products is only available if your system administrator has enabled the preview. If you see the form interface instead of a dialog box, contact your system administrator to enable the preview.
-   >
-   > The preceding image shows the default columns in the dialog box. The information displayed in the **Product** column is customizable, as are the columns that appear in the grid. If you need additional columns to populate data or you need more information so you can better identify the product, contact your system administrator.
+   
+   The preceding image shows the default columns in the dialog box. The information displayed in the **Product** column is customizable, as are the columns that appear in the grid. If you need additional columns to populate data or you need more information so you can better identify the product, contact your system administrator.
 
 6. Use one of the following options to identify and add products:
 
    - If you know the product names, simply search for them and add.
-   - If you want to choose products from a specific product family, use the left pane or the drop-down menu before the search box to filter products by family.
+   - (Applicable for Sales Premium and Sales Enterprise) If you want to choose products from a specific product family, use the left pane or the drop-down menu before the search box to filter products by family.
 
      > [!NOTE]
-     > The products and product families displayed depend on the price list that you've chosen, so if you don't see a product, ensure that the product is associated with the selected price list.
-
-    > The left pane disappears once you start typing in the search box. If you want to filter the search results by product family, use the drop-down menu. Also, the count of products in the left pane is available only when the number of products and families are less than 50,000 and 5,000 respectively.
+     > - The products and product families displayed depend on the price list that you've chosen, so if you don't see a product, ensure that the product is associated with the selected price list.
+     > - The left pane disappears once you start typing in the search box. If you want to filter the search results by product family, use the drop-down menu. Also, the count of products in the left pane is available only when the number of products and families are less than 50,000 and 5,000 respectively.
 
    - If you want to add products that you have recently chosen for another opportunity, open the **Recently used** tab.
 
@@ -132,6 +136,8 @@ no longer relevant for the opportunity. You can remove products in two circumsta
 
 2. Select the products that you want to remove, and then select **Delete opportunity product**.
     The selected products will be removed from the opportunity after you confirm the deletion.
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

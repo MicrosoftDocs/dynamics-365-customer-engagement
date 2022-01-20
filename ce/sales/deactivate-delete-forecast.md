@@ -1,7 +1,7 @@
 ---
-title: "Deactivate and delete a forecast (Dynamics 365 Sales) | MicrosoftDocs"
+title: "Deactivate and delete a forecast in Dynamics 365 Sales"
 description: "Deactivate and delete a forecast in Dynamics 365 Sales."
-ms.date: 10/13/2020
+ms.date: 10/26/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -9,15 +9,15 @@ manager: shujoshi
 ---
 # Deactivate and delete forecasts 
 
-## Requirements
-|  | |
+You can deactivate or delete forecasts that are no longer required in your organization.  
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator or Forecast Manager <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
-
-
-You can deactivate or delete forecasts that are no longer required in your organization.  
 
 ## Deactivate a forecast 
 
@@ -76,17 +76,12 @@ You can permanently delete a forecast that is in the active, inactive, or draft 
 
     The forecast is deleted permanently from your organization.
 
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
+
 ### See also
 
-[Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md)
-
+[Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md)   
 [Configure forecasts in your organization](configure-forecast.md)
-
-
-
-
-
-
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

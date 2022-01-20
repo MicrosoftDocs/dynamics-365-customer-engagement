@@ -7,7 +7,7 @@ ms.reviewer: pehecke
 ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: c32a634c-3e01-42cd-b3ed-d1a89586b1cc
@@ -17,7 +17,6 @@ ms.author: jdaly
 manager: kvivek
 search.audienceType: 
   - developer
-
 ---
 # Sample: Run a workflow
 

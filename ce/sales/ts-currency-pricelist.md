@@ -9,15 +9,6 @@ manager: shujoshi
 ---
 # Troubleshooting currency and price lists 
 
-## Requirements
-|  | |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
-
-
 This article helps you troubleshoot and resolve issues related to currency and price lists.
 
 <a name="update_currency_existing-oqoi"> </a>
@@ -41,25 +32,23 @@ To resolve this issue, you must remove the product records or quote records, cha
 
 You can change the currency and price list for the entities in the following states only.
 
-
-<table>
-<tr><th>Entity</th><th>Status</th><th>Change currency value?</th><th>Change price list value?</th></tr>
-<tr><td valign="top" rowspan="3"><b>Opportunity</b></td><td>Open</td><td>Yes, but only if there are no associated Opportunity Product, Order, Quote, or Invoice records.</td><td>Yes, but this can cause an error with the Opportunity record if the associated Opportunity Product records aren't part of the selected price list.</td></tr>
-<tr><td>Won</td><td>No</td><td>No</td></tr>
-<tr><td>Lost</td><td>No</td><td>No</td></tr>
-<tr><td valign="top" rowspan="4"><b>Quote</b></td><td>Draft</td><td>Yes, but only if there are no associated Quote Product records. </td><td>Yes, but this can cause an error with the Quote record if the associated Quote Product records aren't part of the selected price list.</td></tr>
-<tr><td>Active</td><td>No</td><td>No</td></tr>
-<tr><td>Won</td><td>No</td><td>No</td></tr>
-<tr><td>Close</td><td>No</td><td>No</td></tr>
-<tr><td valign="top" rowspan="5"><b>Order</b></td><td>Active</td><td>No </td><td>Yes, but this can cause an error with the Order record if the associated Order Product records<!--Edit okay?--> aren't part of the selected price list. </td></tr>
-<tr><td>Submitted</td><td>No</td><td>No</td></tr>
-<tr><td>Canceled</td><td>No</td><td>No</td></tr>
-<tr><td>Fulfilled</td><td>No</td><td>No</td></tr>
-<tr><td>Invoiced</td><td>No</td><td>No</td></tr>
-<tr><td valign="top" rowspan="3"><b>Invoice</b></td><td>Active</td><td>Yes, but only if there are no associated Quote Product records. </td><td>Yes, but this can cause an error with the Invoice record if the associated Order Product records aren't part of the selected price list.</td></tr>
-<tr><td>Paid</td><td>No</td><td>No</td></tr>
-<tr><td>Canceled</td><td>No</td><td>No</td></tr>
-</table>
+| Entity | Status | Change currency value? | Change price list value? |
+|--------|--------|------------------------|--------------------------|
+| **Opportunity** | Open | Yes, but only if there are no associated Opportunity Product, Order, Quote, or Invoice records. | Yes, but this can cause an error with the Opportunity record if the associated Opportunity Product records aren't part of the selected price list. |
+|| Won | No | No |
+|| Lost | No | No |
+| **Quote** | Draft | Yes, but only if there are no associated Quote Product records. | Yes, but this can cause an error with the Quote record if the associated Quote Product records aren't part of the selected price list. |
+|| Active | No | No |
+|| Won | No | No |
+|| Close | No | No |
+| **Order** | Active | No | Yes, but this can cause an error with the Order record if the associated Order Product records aren't part of the selected price list. |
+|| Submitted | No | No |
+|| Canceled | No | No |
+|| Fulfilled | No | No |
+|| Invoiced | No | No |
+| **Invoice** | Active | Yes, but only if there are no associated Quote Product records. | Yes, but this can cause an error with the Invoice record if the associated Order Product records aren't part of the selected price list. |
+|| Paid | No | No |
+|| Canceled | No | No |
 
 **To update the currency or price list**
 

@@ -1,7 +1,7 @@
 ---
 title: "Create and deploy Excel templates (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Create Excel templates that you can use to export, format, and share data from multiple records in Dynamics 365 Marketing."
-ms.date: 04/01/2018
+ms.date: 10/25/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-admin
@@ -43,23 +43,24 @@ Templates display information from the view defined for a record type (entity). 
 
 1. Sign in to Dynamics 365 as a user with the System Administrator role.
 
-2. Go to **Settings** > **Advanced Settings** > **Organization** > **Excel & Word Templates** and choose **+ New Template**.
+1. Open the **Settings** menu ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**.
 
-3. Select **Excel Template**, and then select **Next**.
+1. The advanced settings area opens in a new browser tab. Note that this area uses a horizontal navigator at the top of the page instead of a side navigator. Navigate to **Settings** > **Business** > **Templates**.
 
-    ![Choose which type of template to create.](media/create-template-type.png "Choose which type of template to create")
+1. On the next screen, select **Document Templates**, then choose **+ New** in the top ribbon.
 
-4. Select an entity to which the template applies. The template will use data from this entity. The views you can select in the next field depend on the entity you select.
+1. Select **Excel Template**, and then select an entity to which the template applies. The template will use data from this entity. The views you can select in the next field depend on the entity you select.
 
-5. The view defines the query used to display records and the columns or fields that are shown. Select a view, and then select **Next**.
+    > [!div class="mx-imgBorder"]
+    > ![Choose which type of template to create.](media/create-template-type2.png "Choose which type of template to create")
 
-    ![Choose an entity and view for the template.](media/create-template-excel-entity.png "Choose an entity and view for the template")
+1. The view defines the query used to display records and the columns or fields that are shown.
 
-6. On the **Download Template** page, select **Download**.
+1. Select **Download File**.
 
-7. To upload the template later, select the **Upload the template later** check box, and then select **Next**.
+1. You can customize (as detailed in the steps below) and upload the template by selecting **Upload**. To upload the template later, select the **X** icon in the upper right of the modal window.
 
-8. To upload the template after you customize the data, go to the list of templates, and then select **Upload Template**. More information: [Step 3: Upload the template and share with others](#step-3-upload-the-template-and-share-with-others)
+1. To upload the template after you customize the data, go to the list of templates, and then select **Upload Template**. More information: [Step 3: Upload the template and share with others](#step-3-upload-the-template-and-share-with-others)
 
 ## Step 2: Customize the data in Excel
 
@@ -98,17 +99,20 @@ When you have your Excel template customized the way you want, you can upload it
 
 To upload the Excel template into Dynamics 365:
 
-1. In Dynamics 365 Marketing, go to **Settings** > **Advanced Settings** > **Organization** > **Excel & Word Templates** and choose **Upload Template**.
+1. Open the **Settings** menu ![The Settings menu icon.](media/settings-icon.png "The Settings menu icon") at the top of the page and select **Advanced settings**.
 
-2. Find and upload the file.
+1. Navigate to **Settings** > **Business** > **Templates**.
 
-    ![Upload Template dialog.](media/excel-upload-template.png "Upload Template dialog box")
+1. On the next screen, select **Document Templates**, then choose **Upload Template** in the top ribbon.
 
-3. Select **Upload**.
+1. Find and upload the file.
 
-4. You'll see the summary of the file you're uploading.
+    > [!div class="mx-imgBorder"]
+    > ![Upload Template dialog.](media/excel-upload-template2.png "Upload Template dialog")
 
-5. Select **Finish**.
+1. Select **Upload**. You'll see the summary of the file you're uploading.
+
+1. Select the **X** icon in the upper right of the top ribbon to close the information screen.
 
 <a name="best-practices-and-considerations-for-using-excel-templates"></a>
 

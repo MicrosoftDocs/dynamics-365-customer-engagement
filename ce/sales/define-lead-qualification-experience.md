@@ -1,7 +1,7 @@
 ---
-title: "Define lead qualification experience - Sales Enterprise | MicrosoftDocs"
+title: "Define lead qualification experience in Dynamics 365 Sales"
 description: "Give your salespeople the flexibility to choose which records to create—account, contact, or opportunity—when a lead is qualified."
-ms.date: 02/03/2020
+ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -16,17 +16,17 @@ searchScope:
 ---
 # Define the lead qualification experience  
 
-## Requirements
-|  | |
+Give your salespeople the flexibility to choose which records to create—account, contact, or opportunity—when a lead is qualified. 
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-
-Give your salespeople the flexibility to choose which records to create—account, contact, or opportunity—when a lead is qualified. 
-
-To define the experience: 
+## Define the experience  
 
 1.  In your app, select the **Settings** icon, and then select **Advanced Settings**.
 
@@ -54,6 +54,8 @@ To go to this setting:
 1. At the bottom of the site map, select **Change area** ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area") and then select **App Settings**. 
 
 2. In the site map, select **Overview**, and on the **Overview** page, select **Manage** for **Auto-create records for newly qualified leads**.
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
 ### See also
 [Qualify or convert leads](qualify-lead-convert-opportunity-sales.md)  

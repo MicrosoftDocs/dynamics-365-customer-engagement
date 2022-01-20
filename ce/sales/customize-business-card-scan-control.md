@@ -1,23 +1,28 @@
 ---
 title: "Customize the business card scan control (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Customize how the data from the scanned business cards maps to the fields in the Contact and Lead forms."
-ms.date: 06/18/2020
+ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: annbe
 ---
-# Customize the business card scanner control 
+# Customize the business card scanner control
+ 
+Customize how the data from the scanned business cards maps to the fields in the **Contact** and **Lead** forms.
 
-## Requirements
-|  | |
+## License and role requirements
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
 
 [!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
+## Customize the mapping
 
 Dynamics 365 Sales comes with an out-of-the-box business card control that defines the mapping of what information from the business card goes in which fields of the **Contact** or **Lead** forms. If you have custom fields on your **Contact** or **Lead** form and you want the data from the business card to be populated in these fields, edit the default mappings of the business card control.
 
@@ -27,7 +32,7 @@ Dynamics 365 Sales comes with an out-of-the-box business card control that defin
 > - To know about the business card scan limits with your user license, see the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
 
 
-To edit the mappings:
+To customize the mappings:
 
 1.  In your app, select the **Settings** icon, and then select **Advanced Settings**.
 
@@ -64,8 +69,9 @@ To edit the mappings:
 
 
 > [!NOTE]
-> Salespeople must have the Common Data Service User role assigned to them to use the business card scan control.
+> Salespeople must have the Microsoft Dataverse User role assigned to them to use the business card scan control.
 
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 

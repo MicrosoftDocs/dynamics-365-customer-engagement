@@ -15,14 +15,17 @@ searchScope:
 ---
 # View and understand data through drill-down entities 
 
-## Requirements
-|  | |
+The drill-down feature lets you break down the seller's forecast projections as a function of the contributing factors that you care about, such as Account and Product.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-
+## How does forecast drill-down helps?
 
 Through a forecast, you'll have visibility into the pipeline amounts that your sellers are projecting for the period. Now you might want to know which accounts contribute to a specific seller's Committed value or maybe you want to know which products are contributing to a different seller's Won value. You can use the drill-down feature to break down your seller's forecast projections as a function of the contributing factors that you care about, such as Account and Product. The drill-down feature looks at the underlying records that are contributing to the value of the rollup column and groups them according to the selected drill-down option.
 
@@ -82,6 +85,8 @@ To view the opportunities that are affecting the forecast values of an account, 
 > If you edit the underlying opportunities in drill-down view, the updated values won't show in the drill-down selection. To view the updated values, close the drill-down selection and open it again. 
 
 More information: [View and manage underlying opportunities](view-and-manage-underlying-opportunities.md)
+
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ## See also
 
