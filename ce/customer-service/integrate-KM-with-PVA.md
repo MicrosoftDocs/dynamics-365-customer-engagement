@@ -34,7 +34,7 @@ More information: [Create and publish knowledge articles](#create-and-publish-kn
 
 ### Configure connection references
 
-To configure the connection references:
+To configure connection references:
 
 1. Select the notification. A form to configure connection references appears.
 
@@ -74,15 +74,15 @@ More information: [Create a topic for the Power Virtual Agents bot and add an ac
 
 7. Use the trigger phase and run the topic.
 
-8. After the topic is configured, replace the **Search Knowledge Articles Flow** with the **Search Knowledge Articles Dialog**.
+8. After the topic is configured, replace the **Search Knowledge Articles Flow** with the **Search knowledge articles** dialog.
 
 :::image type="content" source="media/final_search_ka_dialog.png" alt-text="Replace with search knowledge articles dialog"::: 
 
 9. Update the message node with the output from the extended topic and select **Save**.
 
-10. To return the knowledge article search results to the bot, follow one of these steps:
+10. To return the knowledge article search results to the bot, follow either of these steps:
 
-- Use thumbnail cards to show the article. More information: Respond with cards
+- Use thumbnail cards to show the article. More information: [Respond with cards](/composer/how-to-send-cards#thumbnailcard)
 
 - Use the following sample code to render search results in adaptive cards.
 
@@ -242,87 +242,8 @@ Use the Power Automate template that you created to connect to the knowledge bas
 
     - Use thumbnail cards to show the article. More information: [Respond with cards](/composer/how-to-send-cards#thumbnailcard)
 
-    - Use the following sample code to render search results in adaptive cards. See [#kbcardjson()](#)
+    - Use the following sample code to render search results in adaptive cards. See step 10 in [Use the Search Knowledge Articles dialog as an action within a custom topic](#use-the-search-knowledge-articles-dialog-as-an-action-within-a-custom-topic)
 
-    
-#kbcardjson()
-```
-- 
-{
-  "type": "AdaptiveCard",
-    "body": [
-        {
-            "type": "ColumnSet",
-            "columns": [
-                {
-                    "type": "Column",
-                    "items": [
-                        {
-                            "type": "Image",
-                            "height": "35px",
-                            "url": "https://th.bing.com/th/id/R4fbade037f8209666b06aa22641708fc?rik=ya%2bpnPJ41EFFMg&riu=http%3a%2f%2fmolnar-institute.com%2ffileadmin%2f_processed_%2fcsm_KnowledgeManagement_icon_forWebsite_bcda89676b.png&ehk=J%2bz2G15xtbJgd7ssSXo7X2q7LDLaMGl7EuGUSQU6P2s%3d&risl=&pid=ImgRaw",
-                            "size": "Small"
-                        }
-                    ],
-                    "width": "auto"
-                },
-                {
-                    "type": "Column",
-                    "items": [
-                        {
-                            "type": "TextBlock",
-                            "weight": "Bolder",
-                            "text": "${dialog.currentarticle.title}",
-                            "wrap": true,
-                            "size": "Large"
-                        },
-                        {
-                            "type": "TextBlock",
-                            "spacing": "None",
-                            "text": "Last modified on ${dialog.currentarticle.modifiedon}",
-                            "isSubtle": true,
-                            "wrap": true
-                        }
-                    ],
-                    "width": "stretch"
-                }
-            ]
-        },
-        {
-            "type": "TextBlock",
-            "text": "${json(virtualagent.jsonResult).articles[0].description}",
-            "wrap": true,
-            "size": "medium"
-        }
-    ],
-    "actions": [
-        {
-            "type": "Action.OpenUrl",
-            "title": "View article in Dynamics App",
-            "url": "${dialog.currentarticle.articleurl}"
-        }
-    ],
-    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-    "version": "1.0"
-}
-```
-
-### Test and publish the Power Virtual Agents bot
-
-After you've saved the fallback topic, you can test your bot by typing some queries. If an existing topic can't answer the question, the topic that you created is displayed as a message. After publishing the Power Virtual Agents bot, you can also share your bot.
-
-  > [!div class="mx-imgBorder"]
-  > ![Test flow.](media/test-flow-KM-PVA.png "Test flow")
-
-To publish the Power Virtual agent bot, select **Publish** and look for the demo link that you'll find on the same page.
-
-You can share the demo by configuring it as a channel: 
-
-1. Select **Manage** > **Channel**.
-
-2. From the list of channels, select **Demo website**.
-
-3. Copy the link, and then select **Save**.
 
 ### See also
 
