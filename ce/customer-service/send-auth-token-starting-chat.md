@@ -21,7 +21,7 @@ To authenticate a customer when they start a chat, pass an authentication token 
 
 The SDKs related to authentication token provider are applicable only if authentication is enabled for the widget. To enable authentication for your widget, see [Create chat authentication settings](create-chat-auth-settings.md).
 
-Follow these steps to an send authentication token when you start a chat:
+Follow these steps to send an authentication token when you start a chat:
 
 1. Generate a valid JWT from the JSON payload. More information: [setAuthTokenProvider](developer/reference/methods/setAuthTokenProvider.md)
 
