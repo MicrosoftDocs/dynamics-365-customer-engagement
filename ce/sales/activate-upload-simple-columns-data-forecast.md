@@ -1,7 +1,7 @@
 ---
 title: "Activate and upload data for a forecast | MicrosoftDocs"
 description: "Activate a forecast, and download the spreadsheet template to populate quotas and simple columns data. Then, upload the spreadsheet to the forecast."
-ms.date: 10/26/2021
+ms.date: 01/18/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -30,7 +30,7 @@ Activate a forecast, and download the spreadsheet template to populate quotas an
 Now that you've completed the required configurations for the forecast, use the **Activate & add quotas** step to activate it and make it available for users. After the forecast is active, you can download a template (Excel workbook) and upload it with data, such as quotas and simple column types, for all users who are defined in the forecast hierarchy.
 
 > [!IMPORTANT]
-> - You can have only six active forecasts at a time in your organization.
+> - You can have a maximum of 50 forecasts at any given time in your organization, out of which only six forecasts can be active.
 > - Use only the forecast configuration page to activate forecasts. Don't use any other options, such as **Advanced find**. 
 
 <a name=select-primary-data-type></a>
