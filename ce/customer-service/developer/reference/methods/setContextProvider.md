@@ -15,7 +15,7 @@ manager: shujoshi
 
 > [!IMPORTANT]
 >
-> - The setContextProvider method is supported only for unauthenticated chat. For authenticated chat, we recommend that you use the JSON Web Token (JWT). More information: [Send authentication tokens](../../../send-auth-token-starting-chat.md)
+> - The setContextProvider method is supported only for unauthenticated chat. For authenticated chat, you must use the JSON Web Token (JWT). More information: [Send authentication tokens](../../../send-auth-token-starting-chat.md)
 > - You can pass only 100 custom context variables during each chat session.
 > - The live chat SDK methods should be invoked after the [lcw:ready event](../events/lcw-ready.md) is raised. You can listen for this event by adding your own event listener on the window object.
 
