@@ -64,9 +64,9 @@ With the enhanced grid, you can view and edit related entity records also. The f
 
 2. **View selector**: You can change the view of these records. By default, the view that was selected when the forecast was configured is displayed.
 
-3. **Group by**: You can group the underlying opportunity records by using a related entity such as, account. For more information on how to use the **Group by** option, see [Preview: Filter underlying records of a forecast](#preview-group-and-filter-underlying-records-of-a-forecast).
+3. **Group by**: You can group the underlying opportunity records by using a related entity such as, account. For more information on how to use the **Group by** option, see [Preview: Filter the underlying opportunities of a forecast](#preview-filter-the-underlying-opportunities-of-a-forecast).
 
-4. **Filter**: You can filter the underlying opportunities to view specific set of opportunities that you want to analyze or work on. For more information on how to use filters, see [Preview: Filter underlying records of a forecast](#preview-group-and-filter-underlying-records-of-a-forecast). 
+4. **Filter**: You can filter the underlying opportunities to view specific set of opportunities that you want to analyze or work on. For more information on how to use filters, see [Preview: Filter the underlying opportunities of a forecast](#preview-filter-the-underlying-opportunities-of-a-forecast). 
 
 ### Preview: Filter the underlying opportunities of a forecast
 
@@ -86,7 +86,7 @@ When you select a row in the forecast grid, you see the underlying opportunities
 
     1. Select the **View underlying rollup records** (the plus sign (+)) next to a group.
     
-        The opportunities associated with that account are displayed. For more information on how filters work when the underlying records are grouped, go to [Example: Grouping and filtering of underlying records](#example-grouping-and-filtering-of-underlying-records).
+        The opportunities associated with that account are displayed. For more information on how filters work when the underlying records are grouped, go to [Example: Grouping and filtering the underlying opportunities](#example-grouping-and-filtering-the-underlying-opportunities).
 
 3. Select **Filters**, and add the filter conditions.  
 
