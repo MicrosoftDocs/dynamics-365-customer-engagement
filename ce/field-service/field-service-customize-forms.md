@@ -100,15 +100,15 @@ Create new fields if the default work order form is missing fields that you need
 See the topic on [How to create and edit Field Service columns (fields)](field-service-customize-columns-fields.md) for best practices when created, editing, and deleting fields. **Hint:** You should be very careful when editing default fields and you should never delete default fields. 
 
 
-## 4. Customize the default work order form (recommended) or create a new form
+## 4. Decide to customize the existing work order form or create a new form
 
 Here's an example of the tab experience:
 
-# [Existing work order form](#tab/linux)
+# [Existing form (recommended)](#tab/linux)
 
 Content for Linux...
 
-# [Custom work order form](#tab/windows)
+# [New custom form](#tab/windows)
 
 Content for Windows...
 
