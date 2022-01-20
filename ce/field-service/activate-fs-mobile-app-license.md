@@ -22,9 +22,8 @@ search.app:
 > [!div class="mx-imgBorder"]
 > ![Field Service Mobile Xamarin app in the Windows app store.](media/mobile-field-service-mobile-windows-app-store.png)
 
-Eligible organizations may request to activate mobile configurator licenses by completing the [request form for the mobile configurator (Woodford)](https://aka.ms/fsmlicense). You need the Dynamics 365 organization ID to complete the request form.
 
-## FAQs
+## Field Service Mobile - End of Life FAQs
 
 ### How long is Field Service Mobile (Xamarin app) supported?
 
@@ -34,17 +33,25 @@ Field Service Mobile (Xamarin app) will reach end of life on June 30, 2022. Exis
 
 After June 30, 2022, mobile app licenses will be removed. The mobile configurator used with Field Service Mobile (Xamarin app) will no longer be able to publish, and end users will not be able to access the mobile app.
 
+### Are there additional licenses required to use the Field Service (D365) mobile app?
+
+No, use of the Field Service (D365) mobile application is included with a Field Service Enterprise license. 
+
 ### Will I have access to my mobile configurator after June 30, 2022?
 
-The mobile configurator used with Field Service Mobile (Xamarin app) will still be available in your org, but you will no longer be able to publish updates without a valid license.
+The mobile configurator used with Field Service Mobile (Xamarin app) will still be available in your org, but you will no longer be able to publish updates.
 
 ### Can I use Resco MobileCRM application with Field Service Mobile licenses?
 
-No. Resco MobileCRM is a third-party ISV application with its own licensing. The Resco MobileCRM application is not eligible for use with licenses acquired through the Field Service Mobile (Xamarin app) licensing form. 
+No. Resco MobileCRM is a third-party ISV application with its own licensing. The Resco MobileCRM application is not eligible for use with licenses acquired through the Field Service Mobile (Xamarin app). 
 
-### Why can I no longer request individual licenses for Field Service Mobile (Xamarin app)?
+### Are there other resources available to learn more about the new Field Service Mobile application and migration?
 
-With the latest versions of Field Service Mobile (Xamarin app), you only need a project license; individual user licenses are granted by enabling the users as "mobile enabled bookable resources" in Dynamics 365. 
+Please see:
+[Field Service (D365) mobile adoption plabook](http://aka.ms/fsmobile-adoption)
+[Field Service (D365) documentation](https://docs.microsoft.com/dynamics365/field-service/mobile-2020-power-platform)
+[Implementation Best Practices Blog](https://cloudblogs.microsoft.com/dynamics365/it/2021/04/21/5-tips-for-implementing-the-field-service-dynamics-365-mobile-app/)
+
 
 ### I have more questions about migration - where can I go for help?
 
