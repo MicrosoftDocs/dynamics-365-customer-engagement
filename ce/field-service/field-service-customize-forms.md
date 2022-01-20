@@ -123,8 +123,8 @@ Better for scenarios where your organization has to make many changes to the for
 - **More edits** - You are free to make more changes to the form to fit your unique work order process.
 **Cons**
 - **No updates** - Your custom work order form will not receive updates from Microsoft. It will be static.
-- **Updatemaintenance costs to manually add new features
-- **Risk of slow performance and errors**
+- **Maintenance costs** - If Microsoft releases work order features that your organization wants to adopt, you will need to manually customize your forms to include those features. This costs time and money.
+- **Risk of slow performance and errors** - evidence shows that custom forms tend to have slower performance and more errors because of the risk of violating form design best practices. Review the risks and best practices at the end of this article.
 
 --- 
 * * *
