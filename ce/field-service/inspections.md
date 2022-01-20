@@ -312,6 +312,8 @@ If an inspection question is required, the technician will not be able to mark *
 
 - Inspections cannot be exported and imported to other environments.
 
+- Inspections cannot be embedded into Dynamics Power Portals.
+
 ### Known issues
 
 - Marking a work order service task as complete from the grid view does not work unless the work order service task is opened at least once.
