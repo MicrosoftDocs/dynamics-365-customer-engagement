@@ -171,6 +171,9 @@ For any view that's selected, keep in mind the following details:
 
 Agents can create Teams chats directly from Dynamics 365 apps and then link them to records. They can also link existing chats to Dynamics 365 records from the Teams embedded chat experience.
 
+> [!NOTE]
+> The retroactive link chat experience works only in Dynamics 365 apps.
+
 As an admin, you can control which user or role can unlink chats that are linked. These user permissions help give you the flexibility to adapt the Teams embedded chat experience to match your business processes.
 
 You can choose from the following options for assigning permissions to agents:
@@ -228,7 +231,7 @@ Alternatively, you can navigate to the security role editor page from **Collabor
 
 4. Edit the out-of-box settings for the security roles that are described in the table above, or configure the settings for custom roles.
 
-## How user rights work together for unlinking chats
+### How user rights work together for unlinking chats
 
 The following table summarizes whether a user can unlink a linked chat based on the permissions assigned to them. You can use the table as a guide for how to use the Unlink chats permissions to help you configure a secure and effective collaboration experience for your business and users.
 
