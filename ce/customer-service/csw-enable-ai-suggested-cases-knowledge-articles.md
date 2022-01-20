@@ -41,7 +41,7 @@ The AI suggestions are displayed in smart assist, which is an intelligent assist
 The AI suggestions are powered by a set of pre-trained natural language understanding models that help agents find relevant knowledge articles or similar cases quickly, based on the context of active cases or ongoing conversations. The AI models work as follows:
 
 - Knowledge articles and similar cases can be suggested based on the semantic meaning in case context and knowledge article content.
-- The model pre-processes published knowledge articles and resolved cases every day to prepare suggestion candidates. For the first time pre-processing, up to 1,500 published articles and 10,000 recently resolved cases will be processed. Subsequently, newly published articles and resolved cases will be processed. Up to 1 million of the latest resolved cases will be processed to serve suggestions.
+- The model pre-processes published knowledge articles and resolved cases every day to prepare suggestion candidates. For the first time pre-processing, up to 1,500 published articles and 15,000 recently resolved cases will be processed. Subsequently, newly published articles and resolved cases will be processed up to the daily limit. Over time, accumulatively, up to 1 million of the latest resolved cases will be processed to serve suggestions.
 - After a case is created or updated, or during an ongoing conversation, the model finds out matching knowledge articles and similar cases from suggestion candidates.
 - A brief summary is auto-generated for each pre-processed knowledge article, based on its content. When a knowledge article is suggested, both article title and the auto-generated summary are surfaced to agents, which helps them to get a better idea about the article before they click through it.
 - In addition to the suggestions, agents can also tell why an article or similar case is suggested through a list of key phrases that are auto-extracted from knowledge articles and cases. These key phrases highlight the relevance between a suggestion and an active case or an ongoing conversation, in addition to the confidence score (which is a percentage number that indicates the degree to which an article or similar case matches with the active case).
@@ -99,7 +99,9 @@ Perform the following steps to enable the AI suggestions for similar cases:
    Sign in to Omnichannel admin center. Select **Insights** and then select **Settings**.
 
 2. In the **Suggestions for agents** section, select **Manage**. The **Suggestions** page appears.
+
 3. In the **Settings** > **Summary** area, set the **Enable similar case suggestions** toggle to **Yes**.
+
 4. In the **Data mapping** > **Case entity data fields** area, select values for the **Case summary** and **Case details** boxes respectively, if you don't want to use **Case Title** and **Description** that are set by default. The AI model uses the data corresponding to the selected boxes to understand the case context to provide similar case suggestions. By default, Case Title and Description fields are selected.
 
    > [!NOTE]
@@ -120,7 +122,9 @@ Perform the following steps to enable the AI suggestions for related knowledge a
    Sign in to Omnichannel admin center. Select **Insights** and then select **Settings**.
 
 2. In the **Suggestions for agents** section, select **Manage**. The **Suggestions** page appears.
+
 3. In the **Settings** > **Summary** area, set the **Enable knowledge article suggestions** toggle to **Yes**.
+
 4. In the **Data mapping** > **Knowledge article data fields** area, ensure that **Title** and **Content** are selected in the **Article title** and **Article content** boxes, respectively. The selected options are used by the AI model to understand and find a good match for a case or conversation. Article content is used by the AI model to generate a brief article summary that's displayed to the agent at runtime.
 
 5. Select **Save**.

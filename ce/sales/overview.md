@@ -1,9 +1,9 @@
 ---
 title: "Overview of Dynamics 365 Sales"
 description: "Get an overview of the sales offerings from Dynamics 365 Sales."
-ms.date: 10/02/2021
+ms.date: 01/10/2022
 ms.service: dynamics-365-sales
-ms.topic: get-started-article
+ms.topic: overview
 author: udaykirang
 ms.author: udag
 manager: shujoshi
@@ -36,6 +36,8 @@ With Sales Enterprise, your sales organization can automate the sales process fr
 - **Forecast sales**: Predict how much revenue your sales team will generate in a given timeframe. Track individual sales performance against quotas, to proactively identify pipeline risks and provide coaching. More information: [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md).
 - **Enforce best practices with playbooks**: Automate repeatable processes and define your organization's best response to events that impact sales. For example, the best response when a decision maker leaves an organization while the team is working on a deal with that decision maker. More information:[Enforce best practices with playbooks](enforce-best-practices-playbooks.md)
 - **Run and track marketing campaigns**: Promote your business and improve sales with targeted marketing campaigns. Track customer response and costs for each campaign. More information: [Get started with in-app marketing (Sales)](get-started-app-marketing-sales.md).
+
+With your Dynamics 365 Sales Enterprise license, you can set up and experience Sales Premium features such as Sales accelerator, conversation intelligence, and predictive scoring with a limited monthly capacity. More information: [Digital selling capabilities in Sales Enterprise](digital-selling.md)
 
 ### Dynamics 365 Sales Premium
 

@@ -3,6 +3,7 @@ title: "Add Dynamics 365 Channel Integration Framework 2.0 solution | MicrosoftD
 description: "Read about how you can add a Dynamics 365 Channel Integration Framework 2.0 solution as a dependent solution and use its capabilities in your own solution."
 author: mh-jaya
 ms.author: v-jmh
+ms.date: 01/20/2022
 manager: shujoshi
 ms.custom: 
   - "dyn365-a11y"
@@ -10,6 +11,12 @@ ms.custom:
 ---
 
 # Add a Dynamics 365 Channel Integration Framework 2.0 solution as a dependent solution
+
+Third-party channel providers can add a Dynamics 365 Channel Integration Framework 2.0 solution as a dependent solution to use its capabilities in the solutions that they develop for Dynamics 365. This topic describes how you can install, update, and delete a Dynamics 365 Channel Integration Framework 2.0 solution as a dependent solution.
+
+> [!IMPORTANT]
+>
+> When you're exporting solution files from one org and importing them into another org, to avoid the channel provider information from getting overwritten, you must manually update it in the XML file before you import the solution.
 
 [!INCLUDE[token-add-cif-solution-dependent-solution](../shared/token-add-cif-solution-dependent-solution.md)]
 

@@ -15,6 +15,7 @@ search.app:
   - D365CS
 ms.custom: 
   - dyn365-customerservice
+  - intro-internal
 ---
 
 # Preview: Get started with Community
