@@ -1,7 +1,7 @@
 ---
-title: Configure knowledge search control to productivity pane (Dynamics 365 Customer Service) | MicrosoftDocs
+title: Configure knowledge search control to app side pane (Dynamics 365 Customer Service) | MicrosoftDocs
 description: See how to configure the settings for knowledge search control in Dynamics 365 Customer Service
-ms.date: 01/11/2021
+ms.date: 01/20/2021
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -24,11 +24,11 @@ searchScope:
  - Customer Engagement 
 ---
 
-# Configure knowledge search control on the productivity pane
+# Configure knowledge search control on the app side pane
 
 ## Introduction
 
-You can configure how you want the knowledge search control to appear on the productivity pane for a multisession. You can set what your agents will experience while they interact with customers during a multisession for an entity making it easy for agents to quickly search and use an article related to an entity.
+You can configure how you want the knowledge search control to appear on the app side pane for a multisession. You can set what your agents will experience while they interact with customers during a multisession for an entity making it easy for agents to quickly search and use an article related to an entity.
 
 ## Enable record types for which you want to turn on knowledge management
 You can enable record types from the Customer Service admin center (preview) app.
@@ -47,7 +47,6 @@ To add an entity record:
 1. In **Actions**, set the toggle as per your requirements for the following:
     * **Link/unlink article**
     * **Copy URL**
-    * **Open in new tab**
     * **Link article and email URL**
     * **Link article and send article content**
 7.	In **Email recipient**, from the **Select default email recipient** dropdown, select the email recipient.
@@ -66,7 +65,6 @@ To edit an entity record:
 1. In **Actions**, set the toggle as per your requirements for the following:
     * **Link/unlink article**
     * **Copy URL**
-    * **Open in new tab**
     * **Link article and email URL**
     * **Link article and send article content**
 7.	In **Email recipient**, from the **Select default email recipient** dropdown, select the email recipient.
