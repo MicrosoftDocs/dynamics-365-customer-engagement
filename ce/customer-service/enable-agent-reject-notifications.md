@@ -1,7 +1,7 @@
 ---
 title: "Enable automatic status update on rejection of work assignment| MicrosoftDocs"
 description: "Learn about managing agent reject notifications in Customer Service"
-ms.date: 01/19/2022
+ms.date: 01/20/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
