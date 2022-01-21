@@ -124,7 +124,7 @@ Type a keyword in the search field to search for knowledge articles.
   |3.| The number of times the article has been viewed. |
   |4.| Article number|
   |5.| Info card that displays search term matches from keywords, description, attachments, and any other custom fields. |
-  |6.| Search results across attachments. If the search term matches content only in the attachment, then only the attachment title is displayed.|
+  |6.| Search results across attachments. The attachment title is displayed only when the search term matches content in the attachment.|
 
 - If Relevance Search is not enabled, the keywords that you enter will initiate a search (using the Full-text search mechanism) in the following fields of a knowledge article: **Title**, **Content**, **Keywords**, **Description**, and **Article Public Number**.
 

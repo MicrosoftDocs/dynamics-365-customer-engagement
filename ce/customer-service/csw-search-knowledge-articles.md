@@ -82,7 +82,7 @@ The knowledge articles are applicable for all knowledge-enabled entities. By def
   |5.| Info card that displays search term matches from keywords, description, attachments, and any other custom fields. |
   |6.| Lets you link or unlink the article to the entity, such as the case.|
   |7.| Status and visibility tags for the article.|
-  |8.| Search results across attachments. If the search term matches content only in the attachment, then only the attachment title is displayed.|
+  |8.| Search results across attachments. The attachment title is displayed only when the search term matches content in the attachment.|
   
 
 ## Use the knowledge search pane to work on your articles
