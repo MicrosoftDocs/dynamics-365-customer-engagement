@@ -11,7 +11,10 @@ manager: shujoshi
 
 # Share a forecast
 
-Share forecasts with anyone in your hierarchy or outside of your hierarchy and specify the access level (such as read or read and adjust rollup) that you want to give the user. For example, Henry, the Sales Manager wants one of his direct reports, Serena Davis, to manage the forecasts while he's on vacation. He can share his forecast hierarchy with Serena and assign the appropriate permissions.
+Share the forecasts that you own, with anyone in your hierarchy or outside of your hierarchy. You can specify the access level (such as read or read and adjust rollup) that you want to give the user. For example, Henry, the Sales Manager wants one of his direct reports, Serena Davis, to manage the forecasts while he's on vacation. He can share his forecast hierarchy with Serena and assign the appropriate permissions.
+
+> [!NOTE]
+> Only the forecast owner can share their forecast. 
 
 ## License and role requirements
 
@@ -25,7 +28,10 @@ Share forecasts with anyone in your hierarchy or outside of your hierarchy and s
 
 1.  Go to **Performance &gt; Forecasts** in the Sales Hub sitemap.
 
-    You'll see the **Share** icon :::image type="icon" source="media/share-icon.png" border="false"::: next to the forecasts that are enabled for sharing. If you don't see the **Share** icon, contact your administrator to enable forecast sharing.
+    You'll see the **Share** icon :::image type="icon" source="media/share-icon.png" border="false"::: next to the forecasts that are enabled for sharing. 
+
+    > [!NOTE]
+    > If you don't see the Share icon, it means that either you’re not the owner of the forecast or forecast sharing is not enabled in your organization. Contact your administrator to identify the root cause.
 
 2.  Select the **Share** icon :::image type="icon" source="media/share-icon.png" border="false"::: next to a specific forecast record or hierarchy. 
 

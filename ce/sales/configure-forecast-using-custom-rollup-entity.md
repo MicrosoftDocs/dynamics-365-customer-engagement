@@ -1,7 +1,7 @@
 ---
 title: "Configure a forecast using custom rollup entity (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Configure a forecast using custom rollup entity in Dynamics 365 Sales."
-ms.date: 10/26/2021
+ms.date: 01/21/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -69,6 +69,10 @@ Let's configure this forecast.
     > ![Select a template.](media/forecast-ce-template-selection.png "Select a template")
 
 2.	In the **General** section, select the rollup entity as **Opportunity Product** and the hierarchy entity as **Product**.
+
+    > [!NOTE]
+    > - Only the entities that have Change Track enabled are listed as rollup entity.To learn more, see [Enable change tracking to control data synchronization](/power-platform/admin/enable-change-tracking-control-data-synchronization).
+    > - The entities that contains related attributes must be hierarchical type only. For example, if Opportunity Product is rollup entity and User is hierarchy entity, the relationship between them can't be established through the Opportunity entity(Opportunity Product > Opportunity(Opportunity) > Owner(User) > User), because Opportunity entity is not a hierarchical type entity.
 
     A direct relationship exists between the rollup and hierarchy entities, so you select the relationship as **Opportunity Product > Existing Product (Product) > Product**. Here, **Existing Product** is an attribute in the **Opportunity Product** rollup entity that has a relationship to the **Product** hierarchy entity.
 
