@@ -80,8 +80,8 @@ The escalation profile is used when a chat conversation is escalated to a voice 
 Let us take a scenario where you want to route cases as follows:
 
 - Agents can work on maximum two high priority cases per day.
-- Agents can work on maximum four cases based on the normal priority that's assigned.
-- But the agent should never be assigned more than five cases per day.
+- Agents can work on maximum four cases of normal priority.
+- But the agent should never be assigned more than five cases per day of high priority and normal priority.
 
 **To achieve the scenario**
 
