@@ -69,7 +69,7 @@ By default, the SSO feature is disabled for the Chrome Process. To enable the SS
 >
 > - SSO isn't supported for Dynamics 365 Customer Engagement (on-premises).
 >
-> - SSO is disabled by default in Unified Service Desk 4.1.1.1433 and later versions. To enable SSO, see [Enable or disable single sign-on](#enable-or-disable-single-sign-on).
+> - SSO is disabled by default in Unified Service Desk 4.1.1.1433 and later versions. So, for example, if you're using the EdgeWebView2 process in Unified Service Desk 4.2, then you must manually enable SSO. To enable SSO, see [Enable or disable single sign-on](#enable-or-disable-single-sign-on).
 > 
 > - SSO is enabled in versions preceding Unified Service Desk 4.1.1.1433. If you're using the Chrome process in any of these earlier versions, and if your organization has enforced the inactivity session timeout for agents, then the agent won't be automatically signed out when the inactivity session timeout expires. So, in versions earlier than Unified Service Desk 4.1.1.1433, if you want to enforce an inactivity session timeout for agents, be sure to disable the SSO feature. More information: [Enable or disable single sign-on](#enable-or-disable-single-sign-on)
 
