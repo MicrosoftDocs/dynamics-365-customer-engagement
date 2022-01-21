@@ -13,4 +13,4 @@ The **Send Feedback** capability in the following Customer Service apps enables 
 
 1. To submit feedback about anything in the following apps, select **Send Feedback** on the navigation bar.
 
-[!INCLUDE [share feedback](../shared/feedback/share-feedback.md)]
+[!INCLUDE [share feedback](dynamics-365-customer-engagement-pr/ce/shared/feedback/share-feedback.md)]
