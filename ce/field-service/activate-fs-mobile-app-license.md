@@ -39,7 +39,7 @@ The mobile configurator used with Field Service Mobile (Xamarin app) will still 
 
 ### Are there additional licenses required to use the new Field Service (D365) mobile app?
 
-No, use of the Field Service (D365) mobile application is included with a Field Service Enterprise license. 
+No, use of the Field Service (Dynamics 365) mobile app is included with a Field Service Enterprise license. 
 
 ### Can I use Resco MobileCRM application with Field Service Mobile licenses?
 
@@ -47,10 +47,11 @@ No. Resco MobileCRM is a third-party ISV application with its own licensing. The
 
 ### Are there other resources available to learn more about the new Field Service Mobile application and migration?
 
-Please see:
-[Field Service (D365) mobile adoption plabook](http://aka.ms/fsmobile-adoption)
-[Field Service (D365) documentation](https://docs.microsoft.com/dynamics365/field-service/mobile-2020-power-platform)
-[Implementation Best Practices Blog](https://cloudblogs.microsoft.com/dynamics365/it/2021/04/21/5-tips-for-implementing-the-field-service-dynamics-365-mobile-app/)
+Yes! See the following resources: 
+
+- [Field Service (D365) mobile adoption plabook](http://aka.ms/fsmobile-adoption)
+- [Field Service (D365) documentation](https://docs.microsoft.com/dynamics365/field-service/mobile-2020-power-platform)
+- [Implementation Best Practices Blog](https://cloudblogs.microsoft.com/dynamics365/it/2021/04/21/5-tips-for-implementing-the-field-service-dynamics-365-mobile-app/)
 
 
 ### I have more questions about migration - where can I go for help?
