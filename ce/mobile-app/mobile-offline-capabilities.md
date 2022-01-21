@@ -2,7 +2,7 @@
 title: "Mobile offline capabilities and limitations (Dynamics 365 apps)| MicrosoftDocs"
 description: Mobile offline capabilities and limitations for Dynamics 365 phones and tablets app and Power Apps mobile
 ms.custom: 
-ms.date: 1/10/2022
+ms.date: 1/19/2022
 ms.reviewer: kvivek
 ms.service: crm-online
 ms.suite: 
@@ -121,10 +121,12 @@ For more information, see [Run business process flows offline](/power-automate/b
 |Web resource used on form handlers, form scripts and ribbon commands|Supported (File names should be in lower case)|Supported (file names need should be in lower case)|
 |JavaScript files referenced within an HTML web resource|Supported| Partially supported: The web resource needs to be opened at least once while online so that it's cached by the browser which will handle its lifetime and or availability.|
 |HTML, JS, CSS, XML web resources embedded on a model-driven app form|Supported| Partially supported: The web resource needs to be opened at least once while online so that it's cached by the browser which will handle its lifetime and or availability.|
-|Other web resources embedded on a model-driven app form (like images, resx, etc.)|Not supported|Not supported|
+|Other web resources embedded on a model-driven app form (like images, resx, etc.)|Not supported**|Not supported**|
 |Webpage (HTML web resource) via a model-driven app’s sitemap|Not supported|Not supported|
 
-- **Calculated and rollup fields**: Calculated and rollup fields that are part of rows synced to the client will not be re-evaluated by the client. The re-evaluation will happen on the server when the updated row is synced.
+** Accessing RESX web resources as a dependency through Client API from within a JS file is supported.
+
+**Calculated and rollup fields**: Calculated and rollup fields that are part of rows synced to the client will not be re-evaluated by the client. The re-evaluation will happen on the server when the updated row is synced.
 
 ## Tips
 
