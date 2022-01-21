@@ -169,7 +169,25 @@ You can also start from a copy of the default form if you have already made chan
 We are now ready to customize the Work Order form with a combination of existing work order fields and your new custom fields. 
 
 
-## 5. Hide and remove form tabs, sections, and fields
+## 5. Hide form tabs, sections, and fields
+
+The following fields are critical to the Field Service work order process and are required. If your organziation does not plan to use these fields then you may want to consider creating an entirely new entity table.
+
+- Work Order Number
+- System Status
+- Service Account
+- Billing Account
+- Price List
+- Work Order Type
+- Work Location
+- Address
+- Latitude
+- Longitude
+
+
+The following subgrid is also critical to the Field Service work order process and should not be removed.
+
+- Bookable Resource Booking ("Bookings")
 
 ### Hide unwanted tabs, sections, and fields
 
@@ -232,13 +250,9 @@ Do the same for subgrids and any other control.
 
 ## 7. Add your custom fields to the form
 
-
-
-### Add your custom fields to the appropriate form tabs
-
 Add the custom fields you created earlier for your unique business processes to the form.
 
-Avoid adding any custom fields to the first form tab unless absolutely necessary. In particular, avoid adding subgrids and lookup fields to first form tab because they can significantly slow load times.
+Avoid adding any custom fields to the first form tab unless absolutely necessary. In particular, avoid adding subgrids and lookup fields to the first form tab because they can significantly slow load times.
 
 In the example below, we created a custom field called "Source" that is a choice type field to select how the work order was originated (phone, email, IoT, agreement, etc). We are adding the custom field to the second form tab named "Settings".
 
@@ -278,54 +292,11 @@ While the instructions in this article are useful for customizing any web form f
 
 
 
-
-
-
-
-
-#### Choose to remove price related fields if applicable
-
-There is an easy and supported way to remove all price related fields (e.g. Price List, Total Amount, etc) from the Work Order, Work Order Product, and Work Order Service 
-
-In a scenario where your organization does not need price list or price calculations (e.g. Total Amount) on the work order or work order products and services, there is an easy and supported wayyou can easily remove all price related fields by going to Field Service Settings and turning **Calculate Price** to _No_. [More details](https://docs.microsoft.com/dynamics365/field-service/configure-default-settings#work-order-and-bookings-settings). 
-
-
-#### Remove other unwanted fields and subgrids
-
-With a custom form you can remove fields, controls, tabs, and other items whereas before we hid them.
-
-However there are some limitations to what can be removed listed below.
-
-The following fields are critical to the Field Service work order process and are required. If your organziation does not plan to use these fields then you may want to consider creating an entirely new entity table.
-
-- Work Order Number
-- System Status
-- Service Account
-- Billing Account
-- Price List
-- Work Order Type
-- Work Location
-- Address
-- Latitude
-- Longitude
-
-
-The following subgrid is also critical to the Field Service work order process and should not be removed.
-
-- Bookable Resource Booking ("Bookings")
-
-
-#### Add your fields, subgrids, controls
-After removing fields, subgrids, and controls you do not need, you can add your custom fields.
-
-Follow best practices when adding fields to the form mentioned above in the _Summary of recommended best practices_.
-
-
-
-
 ## Form scripts
 
-Many organizations run code scripts on load, on change, and on save of the form to perform validations and run prcesses. Form scripts can greatly impact form performance like load time. Review the topic on [Write scripts to implement complex business logic in FIeld Service](field-service-customize-scripts.md) for best practices including [running solution checker to test scripts for issues](https://docs.microsoft.com/powerapps/maker/data-platform/use-powerapps-checker). 
+The work order form includes form script libraries. Do not edit or remove any out of the box form libraries. 
+
+Many organizations run code scripts on load, on change, and on save of the form to perform validations and run prcesses. Form scripts can greatly impact form performance like load time. Review the topic on [Write scripts to implement complex business logic in Field Service](field-service-customize-scripts.md) for best practices including [running solution checker to test scripts for issues](https://docs.microsoft.com/powerapps/maker/data-platform/use-powerapps-checker). 
 
 
 ## See also
