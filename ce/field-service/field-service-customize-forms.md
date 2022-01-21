@@ -149,7 +149,7 @@ Select the Main "Work Order" form.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customization-form-go-to-main.png)
 
-For basic information on editing forms see the Power Platform documentation on [creating and editing forms](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-and-edit-forms). 
+
 
 #### To create a completely custom work order form...
 
@@ -233,6 +233,7 @@ Do the same for subgrids and any other control.
 ## 7. Add your custom fields to the form
 
 
+
 ### Add your custom fields to the appropriate form tabs
 
 Add the custom fields you created earlier for your unique business processes to the form.
@@ -245,8 +246,7 @@ In the example below, we created a custom field called "Source" that is a choice
 > ![Screenshot of ](./media/customization-form-add-custom-fields.png)
 
 
-    
-[Follow form design best practices](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-and-edit-forms)
+For basic information on editing forms see the Power Platform documentation on [creating and editing forms](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-and-edit-forms) and [follow form design best practices](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-and-edit-forms).
 
 	
 
