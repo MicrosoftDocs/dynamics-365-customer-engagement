@@ -115,9 +115,9 @@ manager: kvivek
 -   Microsoft SQL Server 2017 Enterprise<sup>1</sup>  
 -   Microsoft SQL Server 2017 Standard<sup>1</sup>   
 -   Microsoft SQL Server 2017 Developer (for non-production use only)<sup>1</sup>
--   Microsoft SQL Server 2016 Enterprise, with Service Pack 2  
--   Microsoft SQL Server 2016 Standard, with Service Pack 2   
--   Microsoft SQL Server 2016 Developer, with Service Pack 2 (for non-production use only) 
+-   Microsoft SQL Server 2016 Enterprise, with Service Pack 2 or Service Pack 3
+-   Microsoft SQL Server 2016 Standard, with Service Pack 2 or Service Pack 3
+-   Microsoft SQL Server 2016 Developer, with Service Pack 2 or Service Pack 3 (for non-production use only) 
 
 > [!IMPORTANT]
 > - <sup>1</sup>Requires [Microsoft Dynamics 365 Server, v9.0 (on-premises) Update 0.3](https://www.microsoft.com/download/details.aspx?id=58153).
