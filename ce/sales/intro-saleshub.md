@@ -69,7 +69,7 @@ The security roles that already have the access are highlighted in blue color as
 
 2.  To grant or revoke access to all the users of a security role, select the security role in the **Manage Roles – Sales Hub** pane.
 
-3.  To grant access to specific users, assign the **Sales, Enterprise app access** role to the users. To revoke access, remove the role for the user. For more information on adding or removing users from a security role, see [Assign security roles to users](https://docs.microsoft.com/en-us/dynamics365/sales/security-roles-for-sales#assign-security-roles-to-users).
+3.  To grant access to specific users, assign the **Sales, Enterprise app access** role to the users. To revoke access, remove the role for the user. For more information on adding or removing users from a security role, see [Assign security roles to users](security-roles-for-sales#assign-security-roles-to-users).
 
 If you've granted access, the users will see the **Sales Hub** app in their published apps page. If you've revoked access, the app will be removed from published apps page of the users.
 
@@ -81,4 +81,4 @@ Access your Dynamics 365 Sales environment and select **Sales Hub** from **Publi
 
 **Note:** If you don't see the app, contact your administrator to grant you access. More information: [Grant access to the Sales Hub app](#grant-or-revoke-access-to-the-sales-hub-app)
 
-For instructions on using the Sales Hub app on mobile devices, see [Using the Dynamics 365 Sales mobile app.](https://docs.microsoft.com/en-us/dynamics365/sales/sales-mobile/use-sales-mobile-app#sign-in-and-sign-out-from-the-app)
+For instructions on using the Sales Hub app on mobile devices, see [Using the Dynamics 365 Sales mobile app.](sales-mobile/use-sales-mobile-app#sign-in-and-sign-out-from-the-app)
