@@ -312,7 +312,7 @@ If an inspection question is required, the technician will not be able to mark *
 
 - Inspections cannot be exported and imported to other environments.
 
-- Inspections cannot be embedded into Dynamics Power Portals.
+- Inspections cannot be embedded into Power Apps portals.
 
 ### Known issues
 
