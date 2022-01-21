@@ -4,7 +4,7 @@ description: "Use this topic for getting started with Dynamics 365 Channel Integ
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 11/02/2020
+ms.date: 01/21/2022
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 

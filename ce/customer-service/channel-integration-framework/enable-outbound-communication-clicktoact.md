@@ -1,7 +1,7 @@
 ---
 title: "Enable communication in Dynamics 365 Channel Integration Framework 1.0 | MicrosoftDocs"
 description: "Learn to enable outbound communication in Dynamics 365 Channel Integration Framework 1.0."
-ms.date: 07/16/2020
+ms.date: 01/21/2022
 ms.topic: article
 ms.service: dynamics-365-customerservice
 author: mh-jaya

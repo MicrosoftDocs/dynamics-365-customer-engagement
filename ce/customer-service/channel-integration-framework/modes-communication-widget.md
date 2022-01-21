@@ -4,7 +4,7 @@ description: "Learn about the modes&mdash;docked, minimized, and hidden&mdash;us
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 12/31/2019
+ms.date: 01/21/2022
 ms.topic: reference
 ms.service: dynamics-365-customerservice
 ms.custom: 

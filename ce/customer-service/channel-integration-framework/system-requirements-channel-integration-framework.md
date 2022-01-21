@@ -4,7 +4,7 @@ description: "Learn about the system requirements for Dynamics 365 Dynamics 365 
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 01/13/2019
+ms.date: 01/21/2022
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 

@@ -4,7 +4,7 @@ description: "Use this topic to get the download link and prerequisites for Dyna
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 12/31/2019
+ms.date: 01/21/2022
 ms.topic: get-started-article
 ms.service: dynamics-365-customerservice
 ms.custom: 

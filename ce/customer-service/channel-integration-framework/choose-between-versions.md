@@ -4,7 +4,7 @@ description: "Know the feature differences between Dynamics 365 Channel Integrat
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 11/02/2020
+ms.date: 01/21/2022
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 

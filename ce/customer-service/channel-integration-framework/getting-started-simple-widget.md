@@ -4,7 +4,7 @@ description: "Demonstrates how to build a simple communication widget using Dyna
 author: "mh-jaya"
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 02/24/2021
+ms.date: 01/21/2022
 ms.topic: reference
 ms.service: dynamics-365-customerservice
 ms.custom: 

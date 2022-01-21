@@ -4,7 +4,7 @@ description: "Learn how to authenticate channel users in the Dynamics 365 Channe
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 12/31/2019
+ms.date: 01/21/2022
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 

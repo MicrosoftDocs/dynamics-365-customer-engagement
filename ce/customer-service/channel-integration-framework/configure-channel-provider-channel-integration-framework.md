@@ -4,7 +4,7 @@ description: "Use this topic to understand how to configure channel providers in
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 04/03/2020
+ms.date: 01/21/2022
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.custom: 
