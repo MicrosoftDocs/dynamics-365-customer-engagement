@@ -33,6 +33,10 @@ Forecasting supports custom and other out-of-the-box rollup entities (now known 
 
 To configure a forecast that's specific to your organization, you can select any entity as a rollup entity, select any related entity as a hierarchical entity (defined in your organization), and establish a relationship between them.
 
+ > [!NOTE]
+    > - Only the entities that have Change Track enabled are listed as rollup entity.To learn more, see [Enable change tracking to control data synchronization](/power-platform/admin/enable-change-tracking-control-data-synchronization).
+    > - The entities that contains related attributes must be hierarchical type only. For example, if Opportunity Product is rollup entity and User is hierarchy entity, the relationship between them can't be established through the Opportunity entity(Opportunity Product > Opportunity(Opportunity) > Owner(User) > User), because Opportunity entity is not a hierarchical type entity.
+
 Forecasting supports up to two levels of relationships between the rollup and hierarchical entities. For example, *Opportunity > Owner (User) > Territory (Territory) > Territory*. Here, **Owner** is the attribute in the **Opportunity** entity of type **User** and **Territory** is the attribute in **User** entity of type **Territory**. This helps the forecast to be more specific to your complex organizational requirements.
 
 While configuring the forecast columns, some attributes that are necessary for a forecast are forecast category, estimated revenue, and estimated close date. Typically, these attributes are available in the selected rollup entity. For complex data models, such as opportunity splits and opportunity products, these attributes are distributed between rollup and related entities. To address this complexity, the enhanced forecasting supports the selection of related attributes for forecast category and estimated close date.
@@ -69,10 +73,6 @@ Let's configure this forecast.
     > ![Select a template.](media/forecast-ce-template-selection.png "Select a template")
 
 2.	In the **General** section, select the rollup entity as **Opportunity Product** and the hierarchy entity as **Product**.
-
-    > [!NOTE]
-    > - Only the entities that have Change Track enabled are listed as rollup entity.To learn more, see [Enable change tracking to control data synchronization](/power-platform/admin/enable-change-tracking-control-data-synchronization).
-    > - The entities that contains related attributes must be hierarchical type only. For example, if Opportunity Product is rollup entity and User is hierarchy entity, the relationship between them can't be established through the Opportunity entity(Opportunity Product > Opportunity(Opportunity) > Owner(User) > User), because Opportunity entity is not a hierarchical type entity.
 
     A direct relationship exists between the rollup and hierarchy entities, so you select the relationship as **Opportunity Product > Existing Product (Product) > Product**. Here, **Existing Product** is an attribute in the **Opportunity Product** rollup entity that has a relationship to the **Product** hierarchy entity.
 
