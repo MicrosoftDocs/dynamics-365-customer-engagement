@@ -33,11 +33,13 @@ A forecast helps your organization predict how much revenue your sales team will
 - Managers can track individual sales performance against quotas to proactively provide coaching.    
 - Directors can use forecast trends to anticipate departmental sales and reallocate resources if necessary.   
 - Organization leaders can use the projected estimates to change the product strategy or convey updated projections to investors.   
+- Developers can use the msdyn_ForecastApi custom action to retrieve and update forecasting data. For more information, see [msdyn_ForecastApi action](developer/reference/custom-actions/msdyn_ForecastApi.md)
 
 >[!IMPORTANT]
 >Forecasting is not available on Government Community Cloud (GCC).  
 
 ## Enable forecasting    
+
 You can configure forecasts in your organization that are based on revenue or quantity. You can define the type of forecast, its hierarchy, permissions for accessing it, and the details you want to appear on the forecast grid. After a forecast is activated, your sales team can view the revenue or quantity, and pipeline projections.   
 By default, forecasting is available in your organization and the following page is displayed when you select **Forecast configuration**:   
 
@@ -66,7 +68,8 @@ Also, you can observe the following changes in the **Sales Hub** app:
 
     Currently, the **Forecast category** field in the **Opportunity** form can't be hidden through the **Visible by default** option in the form customization. If you don't want to use the **Forecast category** field in opportunity form, remove the field through form customization. To learn more, see [Unable to hide forecast category field in Opportunity forms](ts-forecasts.md#hide_forecast_category_field).    
 
-## Configure a forecast     
+## Configure a forecast  
+   
 To configure a forecast in your organization, follow these steps:    
 1.	[Select a template](select-template-forecast.md)     
 2.	[Define general properties and scheduling](define-general-properties-scheduling-forecast.md)   
@@ -95,6 +98,7 @@ To configure a forecast in your organization, follow these steps:
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)   
 [View forecasts](view-forecasts.md)   
 [About premium forecasting](/dynamics365/ai/sales/configure-premium-forecasting)
+[msdyn_ForecastApi action](developer/reference/custom-actions/msdyn_ForecastApi.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
