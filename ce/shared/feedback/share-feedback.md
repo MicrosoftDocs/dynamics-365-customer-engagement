@@ -1,6 +1,6 @@
 ---
 
-On the **Feedback*  page, choose what kind of feedback you have.
+On the **Feedback**  page, choose what kind of feedback you have.
 
   ![Feedback page.](media/feedback-page.png "Feedback page")
 
