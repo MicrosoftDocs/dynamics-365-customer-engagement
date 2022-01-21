@@ -14,7 +14,7 @@ ms.tgt_pltfrm:
 caps.latest.revision: 
 topic-status: Drafting
 ---
-# How to get introduced to a lead  
+# How to get introduced to leads or contacts  
 
 Use who knows whom to quickly identify colleagues within your organization who can introduce you to a lead or contact.
 

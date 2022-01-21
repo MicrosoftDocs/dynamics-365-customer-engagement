@@ -152,9 +152,10 @@ sections:
 
   - name: Other
     questions:       
-     - question: Can I connect the Field Service (Dynamics 365) mobile app to China (Mooncake) environment?
+     - question: Can I connect the Field Service (Dynamics 365) mobile app to China (21Vianet) environment?
        answer: |
-          Yes. You can find the Field Service (Dynamics 365) mobile app to download in China market app stores. To connect to a China-specific data center, select **Region settings** from initial app sign-in screen.
+          Yes. You can find the Field Service (Dynamics 365) mobile app to download in the following China market app stores: Xiamoi, Lenovo, Baidu, Meizu.
+          To connect to the China-specific data center, select **Region settings** from initial app sign-in screen.
       
           > [!div class="mx-imgBorder"]
           > ![Screenshot of Region Selector Option.](./media/Mobile-PowerApps-RegionSelector.png)
