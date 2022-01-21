@@ -22,6 +22,8 @@
     items:
     - name: Set up Dynamics 365 Sales
       href: set-up-dynamics-365-sales.md
+    - name: Use the Sales Hub app 
+      href: intro-saleshub.md
     - name: Set up Dynamics 365 Sales premium features
       href: intro-admin-guide-sales-insights.md
     - name: Provision your Dynamics 365 Sales Professional environment
