@@ -49,9 +49,9 @@ No. Resco MobileCRM is a third-party ISV application with its own licensing. The
 
 Yes! See the following resources: 
 
-- [Field Service (D365) mobile adoption plabook](https://aka.ms/fsmobile-adoption)
-- [Field Service (D365) documentation](/dynamics365/field-service/mobile-2020-power-platform)
-- [Implementation Best Practices Blog](https://cloudblogs.microsoft.com/dynamics365/it/2021/04/21/5-tips-for-implementing-the-field-service-dynamics-365-mobile-app/)
+- [Field Service (Dynamics 365) mobile adoption playbook](https://aka.ms/fsmobile-adoption)
+- [Field Service (Dynamics 365) documentation](/dynamics365/field-service/mobile-2020-power-platform)
+- [Implementation pest practices blog post](https://cloudblogs.microsoft.com/dynamics365/it/2021/04/21/5-tips-for-implementing-the-field-service-dynamics-365-mobile-app/)
 
 
 ### I have more questions about migration - where can I go for help?
