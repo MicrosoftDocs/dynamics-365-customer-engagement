@@ -47,19 +47,18 @@ For a capacity profile, you can add or remove users and edit any setting except 
 
 4. On the **Details** tab of the **Create capacity profile** dialog box, enter the following details:
    - **Profile name**: Name for the capacity profile.
-   -  **Work item limit**: Number of units of the work type that the agent can be assigned.
-   -  **Reset frequency**: Period after which capacity consumption can be reset for agents. If you select **Immediate**, capacity will be reset immediately. If you select **End of day**, capacity will be reset after the agent's shift ends. Once configured, you'll have to recreate the capacity profile if you want to change the reset frequency.
-   -  **Assignment blocking**: Set the toggle to **Yes**. When the agent reaches the work item limit of the capacity profile, any new work items won't be automatically assigned to the agent.
+   - **Work item limit**: Number of units of the work type that the agent can be assigned.
+   - **Reset frequency**: Period after which capacity consumption can be reset for agents. If you select **Immediate**, capacity will be reset immediately. If you select **End of day**, capacity will be reset after the agent's shift ends. Once configured, you'll have to recreate the capacity profile if you want to change the reset frequency.
+   - **Assignment blocking**: Set the toggle to **Yes**. When the agent reaches the work item limit of the capacity profile, any new work items won't be automatically assigned to the agent.
 
    :::image type="content" source="media/create-capacity-profile.png" alt-text="Create a capacity profile.":::
 
 5. On the **Users** tab, select **Add user**, and in the **Users** list, select the users. Alternatively, use the **Search** option to search for and add the user.
-   
+
    > [!IMPORTANT]
    > Users must be configured as a bookable resource to be assigned the capacity profile. More information: [Manage users](users-user-profiles.md).
 
 6. Select **Add user**. The capacity profile is assigned to the user.
-
 
 ## Use capacity profiles
 
