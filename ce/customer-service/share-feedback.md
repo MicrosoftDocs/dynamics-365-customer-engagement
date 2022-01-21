@@ -12,5 +12,4 @@ manager: shujoshi
 The **Send Feedback** capability in the following Customer Service apps enables you to share any feedback in-app.
 
 1. To submit feedback about anything in the following apps, select **Send Feedback** on the navigation bar.
-
 [!INCLUDE [share feedback](../shared/feedback/share-feedback.md)]
