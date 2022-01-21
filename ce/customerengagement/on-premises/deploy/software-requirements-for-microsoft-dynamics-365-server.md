@@ -86,9 +86,9 @@ This topic lists the software and application requirements for this version of [
 - Microsoft SQL Server 2017 Enterprise
 - Microsoft SQL Server 2017 Standard
 - Microsoft SQL Server 2017 Developer (for non-production use only)
-- Microsoft SQL Server 2016 Enterprise, with Service Pack 2    
-- Microsoft SQL Server 2016 Standard, with Service Pack 2  
-- Microsoft SQL Server 2016 Developer, with Service Pack 2 (for non-production use only)   
+- Microsoft SQL Server 2016 Enterprise, with Service Pack 2 or Service Pack 3
+- Microsoft SQL Server 2016 Standard, with Service Pack 2 or Service Pack 3
+- Microsoft SQL Server 2016 Developer, with Service Pack 2 or Service Pack 3 (for non-production use only)
   
 > [!IMPORTANT] 
 > -  [!INCLUDE[pn_ms_SQL_Server_Express_long](../includes/pn-ms-sql-server-express-long.md)] editions are not supported for use with this version of [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)].  
