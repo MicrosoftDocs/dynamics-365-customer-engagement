@@ -23,7 +23,7 @@ search.app:
 > ![Field Service Mobile Xamarin app in the Windows app store.](media/mobile-field-service-mobile-windows-app-store.png)
 
 
-## Field Service Mobile - End of Life FAQs
+## Field Service Mobile - End of life FAQs
 
 ### How long is Field Service Mobile (Xamarin app) supported?
 
