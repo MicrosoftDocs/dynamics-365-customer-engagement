@@ -30,11 +30,6 @@ In this article we will walk through how to edit or "customize" the Work Order f
 > [!Note]
 > There is a separate and unique process to customize the mobile work order form for frontline workers. See the section at the end of this article. 
 
-## Prerequisites
-
-- System administrator security role
-- Field Service - Administrator security role
-
 
 
 ## 1. Understand the default work order form 
@@ -252,7 +247,7 @@ Do the same for subgrids and any other control.
 
 Add the custom fields you created earlier for your unique business processes to the form.
 
-Avoid adding any custom fields to the first form tab unless absolutely necessary. In particular, avoid adding subgrids and lookup fields to the first form tab because they can significantly slow load times.
+Avoid adding any custom fields to the first form tab unless absolutely necessary. In particular, avoid adding subgrids and lookup fields to the +first form tab because they can significantly slow load times.
 
 In the example below, we created a custom field called "Source" that is a choice type field to select how the work order was originated (phone, email, IoT, agreement, etc). We are adding the custom field to the second form tab named "Settings".
 
