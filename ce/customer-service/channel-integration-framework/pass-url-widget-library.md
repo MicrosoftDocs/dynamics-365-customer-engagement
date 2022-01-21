@@ -6,7 +6,6 @@ ms.author: v-jmh
 manager: shujoshi
 ms.date: 01/21/2022
 ms.topic: get-started-article
-ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-a11y
   - dyn365-developer
