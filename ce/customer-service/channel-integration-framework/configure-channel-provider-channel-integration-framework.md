@@ -4,6 +4,9 @@ description: "Use this topic to understand how to configure channel providers in
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
+ms.date: 04/03/2020
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -58,7 +61,7 @@ To configure channel providers:
 **The communication widget in the expanded mode**<br><br>
 ![Communication widget in the expanded mode.](media/widget-expanded-mode.PNG "Communication widget in the expanded mode")
 
-## See also
+### See also
 
 [Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)<br />
 [Microsoft.CIFramework.getEnvironment](reference/microsoft-ciframework/getEnvironment.md)<br />

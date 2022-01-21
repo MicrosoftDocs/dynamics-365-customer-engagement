@@ -34,7 +34,7 @@ Organizations expect their call centers to do more with fewer resources, and the
 
 ## Advantages and value propositions of the Dynamics 365 Channel Integration Framework
 
-Here are the capabilities offered by Dynamics 365 Channel Integration Framework version 1.0:
+Here are the capabilities offered by Dynamics 365 Channel Integration Framework 1.0:
 
 - **Two-way communication**
 
@@ -74,7 +74,7 @@ Here are the capabilities offered by Dynamics 365 Channel Integration Framework 
 
   Seamless upgrade to new versions of third-party channel providers or channel aggregators as the Dynamics 365 Channel Integration Framework provides the infrastructure framework to integrate the channels but does not control the channel versions.
 
-## See also
+### See also
 
 [Architecture overview of Channel Integration Framework](architecture-overview-channel-integration-framework.md)
 

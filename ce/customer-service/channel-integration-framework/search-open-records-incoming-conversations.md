@@ -203,7 +203,7 @@ Follow the steps mentioned in [Publish and configure the widget](getting-started
 
   ![Published sample widget in Unified Interface apps.](media/cif-search-records-publish-app.PNG "Published sample widget in Unified Interface apps")<br />
 
-## See also
+### See also
 
 [Get started with building a simple communication widget](getting-started-simple-widget.md)
 

@@ -4,6 +4,9 @@ description: "Use this topic to get the download link and prerequisites for Dyna
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
+ms.date: 12/31/2019
+ms.topic: get-started-article
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -29,7 +32,7 @@ You can get the solution from within Dynamics 365 or directly from Microsoft App
 
 ### See also
 
-[Softphone integration sample code for Dynamics 365 Channel Integration Framework version 1.0](sample-softphone-integration.md)
+[Softphone integration sample code for Dynamics 365 Channel Integration Framework 1.0](sample-softphone-integration.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
