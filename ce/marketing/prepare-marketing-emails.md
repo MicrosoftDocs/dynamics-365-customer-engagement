@@ -5,7 +5,7 @@ ms.date: 08/21/2019
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
-ms.topic: article
+ms.topic: overview
 author: alfergus
 ms.author: alfergus
 manager: shellyha

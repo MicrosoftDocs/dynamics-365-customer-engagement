@@ -2,11 +2,11 @@
 title: "Skill-based routing in Omnichannel for Customer Service | MicrosoftDocs"
 description: "This topic provides information about the skill-based routing in Omnichannel for Customer Service app to ensure that work items are assigned to the best suited agent."
 ms.date: 09/25/2021
-ms.topic: article
+ms.topic: overview
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.custom: intro-internal
+
 ---
 # Overview of skill-based routing
 

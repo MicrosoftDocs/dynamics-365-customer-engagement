@@ -1,7 +1,7 @@
 ---
 title: "Add dynamic content to email messages (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to add field values, set up content settings information, conditional statements, and while loops to your email designs in Dynamics 365 Marketing."
-ms.date: 01/05/2022
+ms.date: 01/19/2022
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -46,7 +46,8 @@ To view, edit, or create a content-settings record:
 
 1. The **Content Settings** form opens. If you are editing a record that is already live, you must choose **Edit** in the command bar before you can edit it. If you are creating a new one, you can just start filling in the fields.  
 
-    ![The content-settings form.](media/content-settings-form.png "The content-settings form")
+    > [!div class="mx-imgBorder"]
+    > ![The content-settings form.](media/content-settings-form2.png "The content-settings form")
 
 1. Make the following settings, as needed:
 
@@ -56,7 +57,7 @@ To view, edit, or create a content-settings record:
     - **Address line 2**: Enter supplemental postal address information (if needed). Select the  ![The assist-edit button.](media/button-assist-edit.png "The assist-edit button")  button to use [assist edit](#assist-edit) to enter an expression that references a field from an existing record (such as an address field from a specific account record).
     - **Default**: Set to **Yes** to make the current content-settings record the default for all new customer journeys. There must always be exactly one default; if you change the default, the existing default will automatically be changed to **No**.
     - **Default for owning business unit**: This setting is only available when [business unit scoping](business-units.md#enable-or-disable-business-unit-scopes) is enabled. Set this to **Yes** to make the current content-settings record the default for all new customer journeys within the business unit. There must always be exactly one default content setting for the business unit scope; if you change the default, the existing default will automatically be changed to **No**.
-    - **LinkedIn URL**,  **Twitter URL**,  **Facebook URL**, and  **YouTube URL**: For each of these social-media services, enter the URL for the landing page for your organization.  
+    - **LinkedIn URL**,  **Twitter URL**,  **Facebook URL**, **Instagram URL**, **YouTube URL**, and **Google Plus URL**: For each of these social-media services, enter the URL for the landing page for your organization.  
     - **Subscription center**: Specify an existing marketing page that is set up as a subscription center. All marketing email messages must include a valid subscription-center link taken from a content-settings record. Select the  ![The assist-edit button.](media/button-assist-edit.png "The assist-edit button")  button to use [assist edit](#assist-edit) to enter an expression that references the **Full page URL** field for the specific page you want to use. The resulting expression will look something like this (where the GUID will vary based on the record you choose using assist edit):<br>
     `{{msdyncrm_marketingpage(3343053c-8daf-e911-a85e-000d3a3155d5).msdyncrm_full_page_url}}`
     - **Forward to a friend**: Specify an existing marketing page that is record up as a forward-to-a-friend page. Select the  ![The assist-edit button.](media/button-assist-edit.png "The assist-edit button")  button to choose from a list of available pages. Select the  ![The assist-edit button](media/button-assist-edit.png "The assist-edit button")  button to use [assist edit](#assist-edit) to enter an expression that references the **Full page URL** field for the specific page you want to use. The resulting expression will look something like this (where the GUID will vary based on the record you choose using assist edit):<br>
