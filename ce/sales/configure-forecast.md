@@ -97,7 +97,7 @@ To configure a forecast in your organization, follow these steps:
 [Blog: Tips for setting up sales forecasting in Dynamics 365 Sales](https://cloudblogs.microsoft.com/dynamics365/it/2020/11/23/tips-for-setting-up-sales-forecasting-in-dynamics-365-sales/)   
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)   
 [View forecasts](view-forecasts.md)   
-[About premium forecasting](/dynamics365/ai/sales/configure-premium-forecasting)
+[About premium forecasting](/dynamics365/ai/sales/configure-premium-forecasting)  
 [msdyn_ForecastApi action](developer/reference/custom-actions/msdyn_ForecastApi.md)
 
 
