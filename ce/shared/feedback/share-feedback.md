@@ -1,5 +1,5 @@
 
-2. On the **Feedback**  page, choose what kind of feedback you have.
+2. On the **Feedback**  page, choose one of the feedback options.
    
     ![Feedback page.](../customer-service/media/feedback-page.png "Feedback page")
 
