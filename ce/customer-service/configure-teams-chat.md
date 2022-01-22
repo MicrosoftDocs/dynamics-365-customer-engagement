@@ -169,10 +169,10 @@ For any view that's selected, keep in mind the following details:
 
 ## Configure the ability for users to join chats
 
-As an admin, you can enable users to view and easily join chats that are linked to records they have write access to, even if they weren't orginally part of those chats. You can configure the ability for users to join linked chats at a record-type level. This functionality can help you tailor the experience for your business processes.
+As an admin, you can enable users to view and easily join chats that are linked to records they have write access to, even if they weren't orginally part of those chats. You can configure the ability for users to join linked chats at a record-type level. This functionality can help you tailor the user experience for your business processes.
 
 > [!NOTE]
-> The join chat feature only works for linked chats, and is on by default for the Case record type.
+> The join chat feature only works for linked chats, and is on by default for the case record type.
 
 The ability for users to join existing chats related to cases is especially useful for the following scenarios:
 
