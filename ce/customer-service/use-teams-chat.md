@@ -164,8 +164,9 @@ As an agent, you can view and easily join chats that are linked to a record you 
  
   > [!NOTE]
   > When a user is added using Join chat, any users who are chatting directly from Dynamics 365 apps will see a system message that says an unknown user added the new user to the chat and shared all of the chat history. This is a known issue that is specific to the embedded chat experience, and we are working to resolve it.<br>
-  > > [!div class="mx-imgBorder"] 
-    > ![Text that says unknown user was added to a chat.](media/unknown-user-error.png "Display of text that says to an unknown user was added to a chat")
+  
+   > [!div class="mx-imgBorder"] 
+   > ![Text that says unknown user was added to a chat.](media/unknown-user-error.png "Display of text that says to an unknown user was added to a chat")
 
 If you are using the Microsoft Teams app, when joining a chat, the following message is displayed: Dynamics 365 collaboration with Microsoft Teams added &lt;user name&gt; to the chat and shared all chat history.
 
