@@ -1,7 +1,7 @@
 ---
 title: "Use Teams chat in Customer Service | Microsoft Docs"
 description: "Learn how to use the Teams chat functionality in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
-ms.date: 11/08/2021
+ms.date: 01/21/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -133,6 +133,44 @@ You can link relevant Teams channels to a record so that all the members can eas
    The **Collaborate with Microsoft Teams** dialog opens.
 4. To start a new linked channel, select **Create a new connection**.
 5. To link an existing channel, select the channel from the list, and then select **Start collaboration**.
+
+## Join a chat
+
+As an agent, you can view and easily join chats that are linked to a record you have write access to, even if you weren’t originally a participant in the chat. Some scenarios where this can be useful include:
+
+- **Case transfers**: If you’ve onboarded to a case that was previously handled by another agent, you can join the chat to better understand the context of the case, and then continue to collaborate with your relevant colleagues.
+- **Case escalations**: If a case needs attention from someone with specific knowledge, the subject-matter expert who reviews it can participate in the relevant conversations.
+
+ > [!NOTE]
+ > You can only join linked chats, and to do so, you must have write access to the record and your admin has turned on the Join Chat capability for the record type in which you want to join any existing linked chat.
+
+**To join a linked chat**:
+
+1. Open the record for which you want to join the chat.
+2. In the **Teams chats (Preview)** page, go to any of the linked chats you want to join. A lock icon is displayed with text that says "Hover over to join this chat". When you hover over the lock icon, if have write access to the associated record, a **Join** button will be displayed.
+
+    > [!div class="mx-imgBorder"] 
+    > ![Text that says to hover over it to join the chat.](media/hover-join-chat.png "Display of text that says to hover over it to join a chat")
+
+  > [!NOTE]
+  > If you don't see the text that allows you to hover and join a chat, there are three possible causes for this:<br> 1) Your administrator hasn’t enabled Join chat capability for the entity.<br> 2) You have read-only access to the record.<br> 3) Both scenarios in 1 and 2 apply.<br> In any of these scenarios, you can ask a member of the chat to manually add you, or you can ask your administrator to turn on the Join chat capabilities for that record type. 
+
+3. Select **Join**.<br>
+
+    > [!div class="mx-imgBorder"] 
+    > ![Join button for joining a chat.](media/teams-join-chat.png "Join button for joining a chat")
+
+   The Teams popup chat will show that you’ve been added to the chat, and you'll have access to the entire chat history. Other chat members will also receive the system message that you've been added to the chat.
+ 
+  > [!NOTE]
+  > When a user is added using Join chat, any users who are chatting directly from Dynamics 365 apps will see a system message that says an unknown user added the new user to the chat and shared all of the chat history. This is a known issue that is specific to the embedded chat experience, and we are working to resolve it.<br>
+  > > [!div class="mx-imgBorder"] 
+    > ![Text that says unknown user was added to a chat.](media/unknown-user-error.png "Display of text that says to an unknown user was added to a chat")
+
+If you are using the Microsoft Teams app, when joining a chat, the following message is displayed: Dynamics 365 collaboration with Microsoft Teams added &lt;user name&gt; to the chat and shared all chat history.
+
+    > [!div class="mx-imgBorder"] 
+    > ![Text that says a user was added to a chat.](media/teams-chat-user-added.png "Text that says Dynamics 365 collaboration with Microsoft Teams added a user to a chat")
 
 
 ### See also
