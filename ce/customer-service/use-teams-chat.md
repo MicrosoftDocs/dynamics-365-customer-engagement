@@ -169,8 +169,9 @@ As an agent, you can view and easily join chats that are linked to a record you 
 
 If you are using the Microsoft Teams app, when joining a chat, the following message is displayed: Dynamics 365 collaboration with Microsoft Teams added &lt;user name&gt; to the chat and shared all chat history.
 
-    > [!div class="mx-imgBorder"] 
-    > ![Text that says a user was added to a chat.](media/teams-chat-user-added.png "Text that says Dynamics 365 collaboration with Microsoft Teams added a user to a chat")
+   > [!div class="mx-imgBorder"] 
+   > ![Text that says a user was added to a chat.](media/teams-chat-user-added.png "Text that says Dynamics 365 collaboration with Microsoft Teams added a user to a chat")
+    
 
 
 ### See also
