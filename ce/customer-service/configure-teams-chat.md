@@ -1,7 +1,7 @@
 ---
 title: "Configure Microsoft Teams chats in Customer Service | Microsoft Docs"
 description: "Learn how to configure Microsoft Teams chat functionality in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
-ms.date: 11/01/2021
+ms.date: 01/21/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -179,7 +179,7 @@ The ability for users to join existing chats related to cases is especially usef
 - **Case transfers**: If an agent has onboarded to a case that wwas previously handled by another agent, they can join existing linked chats to better understand the context of the case and what steps the previous agent had taken, and then continue to collaborate with their relevant colleagues.
 - **Case escalations**: If a case needs attention from someone with specific knowledge, the subject-matter expert who reviews it can participate in the relevant conversations.
 
-**To turn on or off the join chat capability for a record type:
+**To turn on or off the join chat capability for a record type**:
 
 1. In the Customer Service Hub app, select **Change area** in the lower-left corner, and then select **Service Management**.
 2. Under **Microsoft Teams Integration**, select **Collaboration**.
