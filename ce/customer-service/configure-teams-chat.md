@@ -167,6 +167,29 @@ For any view that's selected, keep in mind the following details:
  
 - For other out-of-box standard record types, including account, contacts, knowledge article, and email, the default view is the **Quick find** view.
 
+## Configure the ability for users to join chats
+
+As an admin, you can enable users to view and easily join chats that are linked to records they have write access to, even if they weren't orginally part of those chats. You can configure the ability for users to join linked chats at a record-type level. This functionality can help you tailor the experience for your business processes.
+
+> [!NOTE]
+> The join chat feature only works for linked chats, and is on by default for the Case record type.
+
+The ability for users to join existing chats related to cases is especially useful for the following scenarios:
+
+- **Case transfers**: If an agent has onboarded to a case that wwas previously handled by another agent, they can join existing linked chats to better understand the context of the case and what steps the previous agent had taken, and then continue to collaborate with their relevant colleagues.
+- **Case escalations**: If a case needs attention from someone with specific knowledge, the subject-matter expert who reviews it can participate in the relevant conversations.
+
+**To turn on or off the join chat capability for a record type:
+
+1. In the Customer Service Hub app, select **Change area** in the lower-left corner, and then select **Service Management**.
+2. Under **Microsoft Teams Integration**, select **Collaboration**.
+3. Select the specific record type (for example, Case), and then in the settings pane, toggle on or off **Join chat**.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Settings page to turn on or off the join chat feature.](media/teams-configure-join-chat.png "Settings page for turning on or off the join chat feature")
+
+4. Select **Save**.
+
 ### See also
 
 [Use Teams chat](use-teams-chat.md)  
