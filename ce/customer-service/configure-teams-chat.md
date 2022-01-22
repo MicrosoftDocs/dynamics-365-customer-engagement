@@ -183,10 +183,10 @@ The ability for users to join existing chats related to cases is especially usef
 
 1. In the Customer Service Hub app, select **Change area** in the lower-left corner, and then select **Service Management**.
 2. Under **Microsoft Teams Integration**, select **Collaboration**.
-3. Select the specific record type (for example, Case), and then in the settings pane, toggle on or off **Join chat**.
+3. Select the specific record type (for example, Case), and then in the settings pane, toggle **Join chat** on or off.
 
    > [!div class="mx-imgBorder"] 
-   > ![Settings page to turn on or off the join chat feature.](media/teams-configure-join-chat.png "Settings page for turning on or off the join chat feature")
+   > ![Settings page to turn on or off the join chat feature.](media/teams-configure-join-chat.png "Settings page for turning the join chat feature on or off")
 
 4. Select **Save**.
 
