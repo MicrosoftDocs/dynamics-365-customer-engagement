@@ -16,14 +16,14 @@ Power Virtual Agents let you create powerful bots, configured with various topic
 
 Integrating Power Virtual Agents bot with knowledge management makes it easier to use customized conversations in your bot. This frees up your agent’s time to deal with complex issues that need human intervention, as the bot helps answer questions, perform actions, and solve issues that are simple in nature.
 
-You can integrate Power Virtual Agents bot with knowledge management in the following ways:
+You can integrate Power Virtual Agents bot with knowledge management by using either of the following ways:
 
-- Use Search Knowledge Articles dialog
-- Use the Power Automate flow template
+- Search Knowledge Articles dialog
+- Power Automate flow template
 
-## Pre-requisites
+## Prerequisites
 
-- Dataverse search must be enabled for the integration. More information: [Configure Dataverse search for your environment](power-platform/admin/configure-relevance-search-organization)
+- Dataverse search must be enabled for the integration. More information:[Configure Dataverse search for your environment](/power-platform/admin/configure-relevance-search-organization)
 
 - You must perform the following two steps for the integration to begin:
 
@@ -33,35 +33,51 @@ You can integrate Power Virtual Agents bot with knowledge management in the foll
 
     You can create and manage knowledge articles by setting the **Internal** field to **No**. More information: [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
 
-- Create a  Power Virtual Agents bot and a topic in it.
-   - For more information on creating a bot, see: [Create and delete Power Virtual Agents bots](/power-virtual-agents/authoring-first-bot)
-   - For more information on creating a topic, see: [Create and edit topics in your Power Virtual Agents bot](/power-virtual-agents/authoring-create-edit-topics)
+  - Create a  Power Virtual Agents bot and a topic in it.
+
+    - For more information on creating a bot, see: [Create and delete Power Virtual Agents bots](/power-virtual-agents/authoring-first-bot)
+    - For more information on creating a topic, see: [Create and edit topics in your Power Virtual Agents bot](/power-virtual-agents/authoring-create-edit-topics)
    
-## Use Search Knowledge Articles dialog
+## Use the Search Knowledge Articles dialog
+
+> [!IMPORTANT]
+> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
+>
+> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+>
+> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+>
+> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+>
+
+
+You must perform the following steps to integrate a Power Virtual Agents bot to assist in knowledge management using the Search Knowledge Articles dialog:
+ 
    1. Set connection references
-   1. Call the flow as one-time mandatory step.
-   1. Add the dialog in the PVA topic.
+   1. Call the flow as one-time mandatory step
+   1. Add the dialog to the PVA topic
 
 ### Set connection references
 
-Knowledge PVA solution makes use of the flow which makes use of couple of connections. These connections are Content Conversion and Dataverse. You must configure these connection references before turning the Search knowledge article flow on. To set connection references:
+Knowledge PVA solution makes use of the flow which uses connections, such as Content Conversion and Dataverse. You must configure these connection references before turning the **Search knowledge article flow** on. To set connection references:
    
 1. Select the notification. A form to configure connection references appears.
 
      :::image type="content" source="media/con-ref-notification.png" alt-text="Connection reference notification":::
+
 2. Configure the connection references.
 
      :::image type="content" source="media/con-ref.png" alt-text="Connection References page"::: 
 
 3. Go to the knowledge article solution and turn on the **Search knowledge article flow**.
 
-     :::image type="content" source="media/ka_art_on.png" alt-text="Turn search knowledge article flow to on":::     
+     :::image type="content" source="media/ka_art_on.png" alt-text="Turn search knowledge article flow to on":::
 
 ### Call the flow as one-time mandatory step
     
 You must create a topic with two question nodes for search text and filter. For filter, the Power Virtual Agents author can provide a dummy filter value like **statecode eq 3**. This step ensures that flow is properly configured and can now be replaced with **Search knowledge article extended** topic.  
   
-1. Within the topic, create a question node to ask user to search for input text.
+1. Within the topic, create a question node to ask the user to search for the input text.
 
     :::image type="content" source="media/question_node.png" alt-text="Create a question node":::
     
@@ -73,7 +89,7 @@ You must create a topic with two question nodes for search text and filter. For 
     
     :::image type="content" source="media/search_ka_flow.png" alt-text="Search knowledge article flow"::: 
     
-5. Add a message node to show the results returned by the flow. More information: [Options to render the results](#options-to-render-the-results) 
+5. Add a message node to show the results returned by the flow. More information: [Render results](#render-results) 
     
     :::image type="content" source="media/mesg_node.png" alt-text="Message node"::: 
     
@@ -82,7 +98,7 @@ You must create a topic with two question nodes for search text and filter. For 
 7. Use the trigger phase and run the topic.
       
   
-### Add the dialog in the PVA topic
+### Add the dialog to the PVA topic
    
 1. After the topic is configured, replace the **Search Knowledge Articles Flow** with the **Search knowledge articles** dialog.
 
@@ -91,14 +107,17 @@ You must create a topic with two question nodes for search text and filter. For 
 2. Update the message node with the output from the extended topic and select **Save**.
   
 ## Use the Power Automate flow template
+
+You must perform the following steps to integrate a Power Virtual Agents bot to assist in knowledge management using the Power Automate flow template:
+
 1. Create a flow using the template
 1. Add the solution's flow to the Power Virtual Agents topic
    
 ### Create a flow using the template
 
-1. You must go to flow.microsoft.com and perform the following steps:
+1. Go to [flow.microsoft.com](/powerautomate.microsoft.com).
 
-1. On the templates page, search for the **Generate answers from Dataverse knowledge articles to Power Virtual Agent** template.
+2. On the templates page, search for the **Generate answers from Dataverse knowledge articles to Power Virtual Agent** template.
 
     > [!div class="mx-imgBorder"]
     > ![Create a flow.](media/template-KM-PVA.png "Create a flow")
@@ -109,7 +128,7 @@ You must create a topic with two question nodes for search text and filter. For 
     
 5. Select **New solution**.
 
-1. Enter a display name. The list of solutions includes every solution in your organization. Choose a naming convention that helps you filter to just your solutions. For example, you might prefix your email to your solution name: *johndoe-power-virtual-agent-knowledgesearch-fallback*.
+6. Enter a display name. The list of solutions includes every solution in your organization. Choose a naming convention that helps you filter to just your solutions. For example, you might prefix your email to your solution name: *johndoe-power-virtual-agent-knowledgesearch-fallback*.
     
 7. Select your publisher from the list of choices.
     
@@ -117,8 +136,8 @@ You must create a topic with two question nodes for search text and filter. For 
     
 9. Select **Create** to finish the process.
      
-         > [!div class="mx-imgBorder"]
-         > ![Add a solution.](media/add-solution-KM-PVA.png "Add a solution")
+    > [!div class="mx-imgBorder"]
+    > ![Add a solution.](media/add-solution-KM-PVA.png "Add a solution")
     
 10. In the list of solutions, select the solution you just created. It should appear at the top of the list. If it doesn't, search by the convention you used in step 6 to name the solution.
     
@@ -136,12 +155,12 @@ You must create a topic with two question nodes for search text and filter. For 
     
 4. To correctly set the input variable to the action, select **Select a variable**, and then select **bot.UnrecognizedTriggerPhrase**.
     
-         > [!div class="mx-imgBorder"]
-         > ![Add flow to Power Virtual Agents.](media/bot-KM-PVA.png "Add flow to Power Virtual Agents")
+   > [!div class="mx-imgBorder"]
+   > ![Add flow to Power Virtual Agents.](media/bot-KM-PVA.png "Add flow to Power Virtual Agents")
     
-5. To return the knowledge article search results to the bot, see [Options to render the results](#options-to-render-the-results).
+5. To return the knowledge article search results to the bot, see [Render results](#render-results).
 
-## Options to render the results
+## Render results
  
 To return the knowledge article search results to the bot, follow either of these steps:
 
