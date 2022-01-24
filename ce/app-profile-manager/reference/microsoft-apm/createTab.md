@@ -4,7 +4,7 @@ description: "Learn about the createTab API of app profile manager in Customer S
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 24/01/2022
+ms.date: 01/25/2022
 ms.topic: reference
 ---
 
