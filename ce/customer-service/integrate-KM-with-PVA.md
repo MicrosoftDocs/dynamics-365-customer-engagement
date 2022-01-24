@@ -18,8 +18,8 @@ Integrating Power Virtual Agents bot with knowledge management makes it easier t
 
 You can integrate Power Virtual Agents bot with knowledge management in the following ways:
 
-- Use Search Knowledge Articles dialog
-- Use Power Automate flow template
+- Use Search Knowledge Articles dialog and the Power Automate flow template
+- Integrate Power Virtual Agents bot manually to assist in knowledge management
 
 ## Pre-requisites
 
@@ -62,6 +62,8 @@ To integrate with knowledge management, you must do the following:
      :::image type="content" source="media/ka_art_on.png" alt-text="Turn search knowledge article flow to on":::     
 
 2. Call the flow as one-time mandatory step.
+    
+     You must create a topic with two question nodes for search text and filter. For filter, the Power Virtual Agents author can provide a dummy filter value like **statecode eq 3**. This step ensures that flow is properly configured and can now be replaced with **Search knowledge article extended** topic.  
   
      1. Within the topic, create a question node to ask user to search for input text.
 
@@ -143,8 +145,10 @@ To integrate with knowledge management, you must do the following:
 
 ## Integrate Power Virtual Agents bot manually to assist in knowledge management
 
-1. Use a Power Automate template to add the solution to the bot.
-2. Test the flow to publish and share the bot.
+1. Create and publish knowledge articles to a portal created in Power Apps.
+2. Create a topic for the Power Virtual Agents bot, and add an action.
+3. Use a Power Automate template to add the solution to the bot.
+4. Test the flow to publish and share the bot.
 
 ### Create a topic for the Power Virtual Agents bot and add an action
 
