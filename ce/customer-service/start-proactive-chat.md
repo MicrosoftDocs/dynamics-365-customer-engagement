@@ -1,7 +1,7 @@
 ---
 title: "Start a chat proactively | MicrosoftDocs"
 description: "Read how you can start a chat proactively to see if customers need help and thereby improve customer experience."
-ms.date: 25/01/2022
+ms.date: 01/25/2022
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -14,6 +14,10 @@ manager: shujoshi
 You can help improve customer satisfaction by anticipating areas where customers need help, and then engaging them through chat when they've been browsing your website for some time.
 
 Consider the following scenarios for proactively starting a chat.
+
+>[!Note]
+>
+> The code samples used in the following scenarios use the [setContextProvider API](developer/reference/methods/setContextProvider.md) that can be used for unauthenticated chat only. For authenticated chat, you must use the JSON Web Token (JWT). More information: [Send authentication tokens](send-auth-token-starting-chat.md)
 
 ## Scenario 1: Customer wait time
 

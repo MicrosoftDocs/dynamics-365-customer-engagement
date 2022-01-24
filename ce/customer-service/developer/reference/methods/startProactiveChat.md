@@ -1,6 +1,6 @@
 ---
 title: "startProactiveChat (JavaScript API reference) for Omnichannel for Customer Service in Dynamics 365 | MicrosoftDocs"
-description: 
+description: Includes information about startProactiveChat method, syntax, and parameters in Omnichannel for Customer Service Session API reference."
 ms.date: 08/12/2020
 ms.topic: article
 author: mh-jaya
@@ -28,7 +28,7 @@ manager: shujoshi
 > [!IMPORTANT]
 > If no message is provided in `notificationUIConfig` object, then the default message, that is, `Hi! Have any questions? I'm here to help` gets displayed.
 
-## Return Value
+## Return value
 
 None
 
@@ -45,7 +45,7 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
             );
 });
 ```
-## See also
+### See also
 
 [JavaScript API reference for live chat SDK](../../omnichannel-reference.md)
 

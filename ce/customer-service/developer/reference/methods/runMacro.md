@@ -1,6 +1,7 @@
 ---
 title: "runMacro (Omnichannel for Customer Service JavaScript API reference)| MicrosoftDocs"
-description: 
+description: "Includes syntax and parameter information for the runMacro method in Omnichannel for Customer Service JavaScript API reference. Also included is a sample code for using the method."
+ms.date: 01/21/2022
 ms.date: 10/17/2019
 ms.topic: article
 author: mh-jaya
@@ -38,7 +39,7 @@ Microsoft.ProductivityMacros.runMacro(macroName).then(function(success){
 });
 ```
 
-## See also
+### See also
 
 [Overview of Productivity Tools](../../../../app-profile-manager/productivity-tools.md)<br />
 [Automate tasks with macros](../../../../app-profile-manager/macros.md)
