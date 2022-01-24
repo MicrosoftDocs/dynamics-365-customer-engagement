@@ -15,7 +15,7 @@ ms.reviewer: nenellim
 
 After you have used Omnichannel for Customer Service in a test environment, you can export your app configuration data to a live production environment. Follow the process outlined in this topic to export and then import the app data into your new target environment. That way, you can keep all of the queues, routing rules, workstreams, and other custom settings that you set up earlier.
 
-While you can use the configuration migration tool to export and import entity data, omnichannel-related configurations contain different entities that have internal dependencies. Therefore, you must bring together the required data by following a very specific process. For example, if you have already imported the context variables and then try to import preconversation configuration that also creates context variables, the import might not work. Similarly, you need to import all the internal entities, such as ruleset configurations that contain decision rulesets and contracts, for the import of workstreams and record queues to be successful.
+While you can use the configuration migration tool to export and import entity data, omnichannel-related configurations contain different entities that have internal dependencies. Therefore, you must bring together the required data by following a very specific process. For example, if you have already imported the context variables and then try to import pre-conversation configuration that also creates context variables, the import might not work. Similarly, you need to import all the internal entities, such as ruleset configurations that contain decision rulesets and contracts, for the import of workstreams and record queues to be successful.
 
 > [!IMPORTANT]
 >
