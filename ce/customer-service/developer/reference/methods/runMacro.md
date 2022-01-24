@@ -1,7 +1,6 @@
 ---
 title: "runMacro (Omnichannel for Customer Service JavaScript API reference)| MicrosoftDocs"
 description: "Includes syntax and parameter information for the runMacro method in Omnichannel for Customer Service JavaScript API reference. Also included is a sample code for using the method."
-ms.date: 01/21/2022
 ms.date: 10/17/2019
 ms.topic: article
 author: mh-jaya

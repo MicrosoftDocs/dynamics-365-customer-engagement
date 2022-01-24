@@ -401,6 +401,8 @@ The following sample code shows how you can proactively offer chat invites to cu
 Suppose your organization wants prior consent authorization to start a chat or wants to ask about the topics related to your enquiry so it can route the session to the appropriate agent, among other possible scenarios.
 ### Sample code
 
+The following sample code shows how you can proactively offer chat with pre-survey for your customers.
+
 ```javascript
 window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
  Microsoft.Omnichannel.LiveChatWidget.SDK.startProactiveChat( 

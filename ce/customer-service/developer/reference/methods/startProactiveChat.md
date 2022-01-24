@@ -1,7 +1,7 @@
 ---
 title: "startProactiveChat (JavaScript API reference) for Omnichannel for Customer Service in Dynamics 365 | MicrosoftDocs"
 description: Includes information about startProactiveChat method, syntax, and parameters in Omnichannel for Customer Service Session API reference."
-ms.date: 08/12/2020
+ms.date: 01/25/2022
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -37,7 +37,7 @@ None
 ```JavaScript
 window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
                Microsoft.Omnichannel.LiveChatWidget.SDK.startProactiveChat(    
-                    notificationUIConfig: {message: "Hi! How are you doing today? Do you wish to start a chat?"},
+                 {message: "Hi! How are you doing today? Do you wish to start a chat?"},
                     true,
                     {
                             inNewWindow: true
@@ -45,9 +45,11 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
             );
 });
 ```
+
 ### See also
 
-[JavaScript API reference for live chat SDK](../../omnichannel-reference.md)
-
+[Live chat JavaScript API reference](../../omnichannel-reference.md)  
+[Start a chat](initiate-chat-wait-time.md)  
+[Start a chat proactively](start-proactive-chat.md)  
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
