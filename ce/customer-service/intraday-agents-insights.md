@@ -123,7 +123,7 @@ This section displays the following details.
 | Status reason | The current conversation status. |
 | Customer sentiment | The current sentiment. |
 | Created on | The conversation creation time. |
-| Capacity and status timeline | Every change in capacity or status is plotted on the timeline. Negative capacity is displayed if a supervisor assigns a conversation to an agent that's beyond the agent's available capacity. |
+| Capacity and status timeline | Every change in capacity or status is plotted on the timeline. Negative capacity is displayed if a supervisor assigns a conversation to an agent that's beyond the agent's available capacity. The **Timezone** option doesn't affect the timeline diaplyed on this report.  |
 |||
 
 ### Change agent status
