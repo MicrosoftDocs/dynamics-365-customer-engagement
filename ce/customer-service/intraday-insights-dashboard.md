@@ -123,7 +123,7 @@ More information:
 
 ## View reports in different time zones
 
-Use the **Timezone** option available in the reports to view the date and time information in your reports according to the specified time zone. If you set the time zone in a custom report, it's automatically saved after a minute.
+Use the **Timezone** option available in the reports to view the date and time information in your reports according to the specified time zone. If you set the time zone in a customized intraday insights report, it's automatically saved after a minute.
 
 > [!NOTE]
 > The **Timezone** option doesn't affect the timeline displayed on the **Agent Insights > Agent Details > Capacity and status timeline** report.
