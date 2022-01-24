@@ -1,7 +1,7 @@
 ---
 title: "What's new in Dynamics 365 Channel Integration Framework | MicrosoftDocs"
 description: "Read about the new features available in the latest version of Dynamics 365 Channel Integration Framework."
-ms.date: 10/16/2019
+ms.date: 01/21/2022
 ms.topic: get-started-article
 author: mh-jaya
 ms.author: v-jmh

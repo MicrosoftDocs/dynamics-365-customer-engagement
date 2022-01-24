@@ -19,7 +19,7 @@ Sequences help sales managers enforce best practices by introducing a set of con
 | **Security Role** | System Administrator, Sequence manager, or Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-## Use sequence designer designer
+## Use sequence designer
 
 As a sequence manager, you can use the sequence designer to do the following tasks:  
 - [Create and activate a sequence](create-and-activate-a-sequence.md).

@@ -40,19 +40,19 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 | | <i>Germany</i> |  [8.8.58.9](/dynamics365/field-service/version-history#88589) | TBD | 02/04/2022
 | | <i>Switzerland</i> |  [8.8.58.9](/dynamics365/field-service/version-history#88589) | TBD | 02/04/2022
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> |  [8.8.57.19](/dynamics365/field-service/version-history#885719) | [8.8.58.9](/dynamics365/field-service/version-history#88589) | 01/21/2022
-| | <i>Asia Pacific</i> |   [8.8.57.19](/dynamics365/field-service/version-history#885719) | [8.8.58.9](/dynamics365/field-service/version-history#88589) | 01/21/2022
-| | <i>Great Britain</i> |  [8.8.57.19](/dynamics365/field-service/version-history#885719) | [8.8.58.9](/dynamics365/field-service/version-history#88589) | 01/21/2022
-| | <i>Oceania</i> |   [8.8.57.19](/dynamics365/field-service/version-history#885719) | [8.8.58.9](/dynamics365/field-service/version-history#88589) | 01/21/2022
-| | <i>United Arab Emirates</i> |  [8.8.57.19](/dynamics365/field-service/version-history#885719) | [8.8.58.9](/dynamics365/field-service/version-history#88589) | 01/21/2022
+| | <i>Japan</i> |  [8.8.58.9](/dynamics365/field-service/version-history#88589) | TBD | 02/11/2022
+| | <i>Asia Pacific</i> |   [8.8.58.9](/dynamics365/field-service/version-history#88589) | TBD | 02/11/2022
+| | <i>Great Britain</i> |  [8.8.58.9](/dynamics365/field-service/version-history#88589) | TBD | 02/11/2022
+| | <i>Oceania</i> |   [8.8.58.9](/dynamics365/field-service/version-history#88589) | TBD | 02/11/2022
+| | <i>United Arab Emirates</i> | [8.8.58.9](/dynamics365/field-service/version-history#88589) | TBD | 02/11/2022
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> | [8.8.56.23](/dynamics365/field-service/version-history#885623) | [8.8.57.19](/dynamics365/field-service/version-history#885719) | 01/21/2022
+| | <i>Europe</i> |  [8.8.57.19](/dynamics365/field-service/version-history#885719) | [8.8.58.9](/dynamics365/field-service/version-history#88589) | 01/28/2022
 |<strong>Station 5</strong> | |  |  | |
 | | <i>North America</i> |  [8.8.56.23](/dynamics365/field-service/version-history#885623) | [8.8.57.19](/dynamics365/field-service/version-history#885719) | 01/28/2022
 |<strong>Station 6</strong> | |  |  | |
 | | <i>Government Community Cloud</i> |  [8.8.56.23](/dynamics365/field-service/version-history#885623) | [8.8.57.19](/dynamics365/field-service/version-history#885719) | 01/28/2022
-| | <i>China</i> |   [8.8.55.10](/dynamics365/field-service/version-history#885510) | [8.8.56.23](/dynamics365/field-service/version-history#885623)  | 01/21/2022
-| | <i>Dedicated Scale Groups</i> |     [8.8.55.10](/dynamics365/field-service/version-history#885510) | [8.8.56.23](/dynamics365/field-service/version-history#885623)  | 01/21/2022
+| | <i>China</i> |  [8.8.56.23](/dynamics365/field-service/version-history#885623) | [8.8.57.19](/dynamics365/field-service/version-history#885719) | 01/28/2022
+| | <i>Dedicated Scale Groups</i> |    [8.8.56.23](/dynamics365/field-service/version-history#885623) | [8.8.57.19](/dynamics365/field-service/version-history#885719) | 02/04/2022
 
 >[!Note]
 > - Dates in all regions except Government Community Cloud (GCC) and China indicate the timing of the next automatic update. Dates in GCC and China indicate version availability; at this time, there is no automatic update for the GCC and China regions.
