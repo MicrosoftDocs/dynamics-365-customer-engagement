@@ -1,7 +1,7 @@
 ---
 title: "Integrate knowledge management with Power Virtual Agents bot| MicrosoftDocs"
 description: "Learn about the integration of knowledge management with Power Virtual Agents bot."
-ms.date: 01/20/2022
+ms.date: 01/24/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -21,32 +21,124 @@ You can integrate Power Virtual Agents bot with knowledge management in the foll
 - Integrate (default) Power Virtual Agents bot to assist in knowledge management
 - Integrate Power Virtual Agents bot manually to assist in knowledge management
 
-## Integrate (default) Power Virtual Agents bot to assist in knowledge management
+## Pre-requisites
 
 1. Create and publish knowledge articles to a portal created in Power Apps.
-1. Configure connection references.  
-1. Create a topic for the Power Virtual Agents bot and add an action.
-1. Use the Search Knowledge Articles dialog as an action within a custom topic.
+   Set up your portal with the Power Apps portals feature before integrating knowledge management with the Power Virtual Agents bot. More information: [Use settings to set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md). For more information on setting up your Power Apps portal, see : [Power Apps portal documentation](/powerapps/maker/portals/).
+
+   You can create and manage knowledge articles by setting the **Internal** field to **No**. More information: [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
+
+2. Create a  Power Virtual Agents bot and a topic in it.
+   - To create a bot. More information: [Create and delete Power Virtual Agents bots](/power-virtual-agents/authoring-first-bot)
+   - To create a topic. More information: [Create and edit topics in your Power Virtual Agents bot] (/power-virtual-agents/authoring-create-edit-topics)
+
+## Integrate with knowledge management
+
+### Use the Search Knowledge Articles dialog.
+1. Set connection references
+   
+   1. Select the notification. A form to configure connection references appears.
+
+     :::image type="content" source="media/con-ref-notification.png" alt-text="Connection reference notification":::
+
+   2. Configure the connection references.
+
+     :::image type="content" source="media/con-ref.png" alt-text="Connection References page"::: 
+
+   3. Go to the knowledge article solution and turn on the **Search knowledge article flow**.
+
+     :::image type="content" source="media/ka_art_on.png" alt-text="Turn search knowledge article flow to on":::     
+
+2. Call the flow as one-time mandatory step
+  
+     1. Within the topic, create a question node to ask user to search for input text.
+
+    :::image type="content" source="media/question_node.png" alt-text="Create a question node":::
+    
+    2. Go to your chatbot and create a new topic. You can also set optional filter text in a variable.
+    
+    3. Select **Add node** and select **Call an action**. Select **Search Knowledge Articles Flow**.
+     
+    4. Provide the input to the flow.
+    
+    :::image type="content" source="media/search_ka_flow.png" alt-text="Search knowledge article flow"::: 
+    
+    5. Add a message node to show the results returned by the flow. More information: 
+    
+    :::image type="content" source="media/mesg_node.png" alt-text="Message node"::: 
+    
+    6. Select **Save**. An error might appear if filter is not provided to the flow.
+    
+    7. Use the trigger phase and run the topic.
+      
+  
+3. Add the dialog in the PVA topic  
+   
+   1. After the topic is configured, replace the **Search Knowledge Articles Flow** with the **Search knowledge articles** dialog.
+
+    :::image type="content" source="media/final_search_ka_dialog.png" alt-text="Replace with search knowledge articles dialog"::: 
+
+    2. Update the message node with the output from the extended topic and select **Save**.
+  
+## Use Power Automate flow template
+   
+### Create a flow using the template
+
+You must go to flow.microsoft.com and perform the following steps:
+
+1. On the templates page, search for the **Generate answers from Dataverse knowledge articles to Power Virtual Agent** template.
+
+    > [!div class="mx-imgBorder"]
+    > ![Create a flow.](media/template-KM-PVA.png "Create a flow")
+
+3. Select **Continue**. You'll be redirected to the Power Automate flow template.
+
+4. Save the template, and then select **Solutions**. You might be prompted with a message on which you can select **OK**.
+
+5. Select **New solution**.
+
+6. Enter a display name. The list of solutions includes every solution in your organization. Choose a naming convention that helps you filter to just your solutions. For example, you might prefix your email to your solution name: *johndoe-power-virtual-agent-knowledgesearch-fallback*.
+
+7. Select your publisher from the list of choices.
+
+8. Accept the default values for name and version.
+
+9. Select **Create** to finish the process.
+ 
+     > [!div class="mx-imgBorder"]
+     > ![Add a solution.](media/add-solution-KM-PVA.png "Add a solution")
+
+10. In the list of solutions, select the solution you just created. It should appear at the top of the list. If it doesn't, search by the convention you used in step 6 to name the solution.
+
+11. In the solution, select **Add existing**, and then select **Cloud Flow** from the list.
+
+12. In the **Outside solutions** list, select your flow, and then select **Add** to finish the process. If there are several flows, look at the **Modified** column to find the most recent version.
+
+#### Add the solution's flow to the Power Virtual Agents topic
+
+1. Open the browser with the authoring canvas.
+
+2. Above the **Message** action box, select the connector, and then select **Call an action**.
+
+3. From the flow pop-up window, select the new flow named **Generate answer from Dataverse knowledge articles for Power Virtual Agent**. The new action appears in the flow.
+
+4. To correctly set the input variable to the action, select **Select a variable**, and then select **bot.UnrecognizedTriggerPhrase**.
+
+     > [!div class="mx-imgBorder"]
+     > ![Add flow to Power Virtual Agents.](media/bot-KM-PVA.png "Add flow to Power Virtual Agents")
+
+5. To return the knowledge article search results to the bot. MOre information: 
+
+
+
 
 ### Create and publish knowledge articles to a portal created in Power Apps
 
-More information: [Create and publish knowledge articles](#create-and-publish-knowledge-articles).
+
 
 ### Configure connection references
 
-To configure connection references:
 
-1. Select the notification. A form to configure connection references appears.
-
-:::image type="content" source="media/con-ref-notification.png" alt-text="Connection reference notification":::
-
-2. Configure the connection references.
-
-:::image type="content" source="media/con-ref.png" alt-text="Connection References page"::: 
-
-3. Go to the knowledge article solution and turn on the **Search knowledge article flow**.
-
-:::image type="content" source="media/ka_art_on.png" alt-text="Turn search knowledge article flow to on"::: 
 
 ### Create a topic for the Power Virtual Agents bot and add an action
 
