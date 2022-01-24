@@ -214,7 +214,7 @@ A forecast owner is the user who owns a specific level in the forecast hierarchy
 
     :::image type="content" source="media/user-security-field.png" alt-text="Screenshot of User security field in the Permissions tab":::
 
-    For example, in an org chart forecast, if you select **User** as the owner, each user in the hierarchy will be the owner of the hierarchy under them. 
+    For example, in an org chart forecast, if you select **User** as the owner, each user in the hierarchy will be the owner of the hierarchy under them. In a territory-based forecast, a user could own more than one hierarchy if they own multiple territories.  
  
     In the following illustration, the managers own all the forecasts in their hierarchy and individual sellers own their specific forecasts.
 
