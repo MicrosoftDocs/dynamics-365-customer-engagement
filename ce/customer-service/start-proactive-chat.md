@@ -17,7 +17,7 @@ Consider the following scenarios for proactively starting a chat.
 
 >[!Note]
 >
-> The code samples used in the following scenarios use the [setContextProvider API](developer/reference/methods/setContextProvider.md) that can be used for unauthenticated chat only. For authenticated chat, you must use the JSON Web Token (JWT). More information: [Send authentication tokens](send-auth-token-starting-chat.md)
+> The code samples listed in the following scenarios use the [setContextProvider API](developer/reference/methods/setContextProvider.md) that can be used for unauthenticated chat only. For authenticated chat, you must use the JSON Web Token (JWT). More information: [Send authentication tokens](send-auth-token-starting-chat.md)
 
 ## Scenario 1: Customer wait time
 
@@ -398,7 +398,7 @@ The following sample code shows how you can proactively offer chat invites to cu
 
 ## Scenario 8: Proactively offer chat with pre-survey to customers
 
-Suppose your organization wants prior consent authorization to start a chat or wants to ask about the topics related to your enquiry so it can route the session to the appropriate agent, among other possible scenarios.
+Suppose your organization wants prior consent authorization to start a chat with a customer or wants to ask about the topics related to the customer's enquiry before routing the session to the appropriate agent.
 ### Sample code
 
 The following sample code shows how you can proactively offer chat with pre-survey for your customers.
