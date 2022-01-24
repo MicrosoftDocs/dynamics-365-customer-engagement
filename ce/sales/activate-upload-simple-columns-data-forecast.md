@@ -18,6 +18,7 @@ searchScope:
 
 Activate a forecast, and download the spreadsheet template to populate quotas and simple columns data. Then, upload the spreadsheet to the forecast.
 
+
 ## License and role requirements
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
@@ -95,6 +96,12 @@ You're directed to the **Forecast configuration** home page, where your organiza
 
 >[!NOTE]
 >You can also upload data to simple columns using the **msdyn_ForecastApi** action. More information: [msdyn_ForecastApi](../sales-enterprise/developer/reference/custom-actions/msdyn_ForecastApi.md)
+
+
+## Update forecast data using Forecast APIs
+
+Developers can use the msdyn_ForecastApi custom action to retrieve and update forecasting data. For more information, see [msdyn_ForecastApi action](developer/reference/custom-actions/msdyn_ForecastApi.md)
+
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 

@@ -1,7 +1,7 @@
 ---
 title: "Configure forecasts in your organization"
 description: "Forecasts can be based on revenue or quantity. Configure forecast type, hierarchy, permissions, and details to appear on the forecast grid."
-ms.date: 01/21/2022
+ms.date: 01/24/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -33,7 +33,7 @@ A forecast helps your organization predict how much revenue your sales team will
 - Managers can track individual sales performance against quotas to proactively provide coaching.    
 - Directors can use forecast trends to anticipate departmental sales and reallocate resources if necessary.   
 - Organization leaders can use the projected estimates to change the product strategy or convey updated projections to investors.   
-- Developers can use the msdyn_ForecastApi custom action to retrieve and update forecasting data. For more information, see [msdyn_ForecastApi action](developer/reference/custom-actions/msdyn_ForecastApi.md)
+
 
 >[!IMPORTANT]
 >Forecasting is not available on Government Community Cloud (GCC).  
@@ -67,6 +67,11 @@ Also, you can observe the following changes in the **Sales Hub** app:
     >  To learn more, see [Use Workflow processes to automate processes that don't require user interaction](../customerengagement/on-premises/customize/workflow-processes.md).
 
     Currently, the **Forecast category** field in the **Opportunity** form can't be hidden through the **Visible by default** option in the form customization. If you don't want to use the **Forecast category** field in opportunity form, remove the field through form customization. To learn more, see [Unable to hide forecast category field in Opportunity forms](ts-forecasts.md#hide_forecast_category_field).    
+
+## Use Forecast API
+
+Developers can use the msdyn_ForecastApi custom action to retrieve and update forecasting data. For more information, see [msdyn_ForecastApi action](developer/reference/custom-actions/msdyn_ForecastApi.md)
+
 
 ## Configure a forecast  
    
