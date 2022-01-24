@@ -1,7 +1,7 @@
 ---
 title: "Start a chat proactively | MicrosoftDocs"
 description: "Read how you can start a chat proactively to see if customers need help and thereby improve customer experience."
-ms.date: 04/06/2020
+ms.date: 25/01/2022
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -390,6 +390,19 @@ The following sample code shows how you can proactively offer chat invites to cu
 		}
     });
 </script>
+```
+
+## Scenario 8: Proactively offer chat with pre-survey to customers
+
+Suppose your organization wants prior consent authorization to start a chat or wants to ask about the topics related to your enquiry so it can route the session to the appropriate agent, among other possible scenarios.
+### Sample code
+
+```javascript
+window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
+ Microsoft.Omnichannel.LiveChatWidget.SDK.startProactiveChat( 
+ "Hi! How are you doing today? Do you wish to start a chat?",
+ true);
+ });
 ```
 
 ### See also
