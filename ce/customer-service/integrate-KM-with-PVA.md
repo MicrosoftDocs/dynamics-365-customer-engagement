@@ -16,22 +16,22 @@ Power Virtual Agents let you create powerful bots, configured with various topic
 
 Integrating Power Virtual Agents bot with knowledge management makes it easier to use customized conversations in your bot. This frees up your agent’s time to deal with complex issues that need human intervention, as the bot helps answer questions, perform actions, and solve issues that are simple in nature.
 
-You can integrate Power Virtual Agents bot with knowledge management by using either of the following ways:
+You can integrate knowledge management with a Power Virtual Agents bot by using either of the following ways:
 
 - Search Knowledge Articles dialog
 - Power Automate flow template
 
 ## Prerequisites
 
-- Dataverse search must be enabled for the integration. More information:[Configure Dataverse search for your environment](/power-platform/admin/configure-relevance-search-organization)
+- Dataverse search must be enabled for the integration. More information: [Configure Dataverse search for your environment](/power-platform/admin/configure-relevance-search-organization)
 
-- You must perform the following two steps for the integration to begin:
+- You must perform the following two steps before you begin the integration:
 
   - Create and publish knowledge articles to a portal created in Power Apps.
   
-    Set up your portal with the Power Apps portals feature before integrating knowledge management with the Power Virtual Agents bot. More information: [Use settings to set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md). For more information on setting up your Power Apps portal, see : [Power Apps portal documentation](/powerapps/maker/portals/).
+    Set up your portal with the Power Apps portals feature before integrating knowledge management with the Power Virtual Agents bot. More information: [Use settings to set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md). For more information on setting up your Power Apps portal, see: [Power Apps portal documentation](/powerapps/maker/portals/).
 
-    You can create and manage knowledge articles by setting the **Internal** field to **No**. More information: [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
+    You can create and manage knowledge articles by setting the **Internal** field to **No**. More information: [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md).
 
   - Create a  Power Virtual Agents bot and a topic in it.
 
@@ -51,7 +51,7 @@ You can integrate Power Virtual Agents bot with knowledge management by using ei
 >
 
 
-You must perform the following steps to integrate a Power Virtual Agents bot to assist in knowledge management using the Search Knowledge Articles dialog:
+You must perform the following steps to integrate knowledge management with a Power Virtual Agents bot using the Search Knowledge Articles dialog:
  
    1. Set connection references
    1. Call the flow as one-time mandatory step
@@ -108,7 +108,7 @@ You must create a topic with two question nodes for search text and filter. For 
   
 ## Use the Power Automate flow template
 
-You must perform the following steps to integrate a Power Virtual Agents bot to assist in knowledge management using the Power Automate flow template:
+You must perform the following steps to integrate knowledge management with a Power Virtual Agents bot using the Power Automate flow template:
 
 1. Create a flow using the template
 1. Add the solution's flow to the Power Virtual Agents topic
