@@ -123,7 +123,7 @@ More information:
 
 ## View reports in different time zones
 
-Use the **Timezone** option available in the reports to view the date and time information according to the time zone that you specify. If you set the time zone in a customized intraday insights report, the app saves the time zone after a minute. When you access the report afterward, the report displays the date and time information according to the time zone you set.
+Use the Timezone option available in the reports to view the date and time information according to the time zone that you specify. You must save the changes to view the report in the selected time zone the next time you access it. For a customized intraday insights report, the app automatically saves the selected time zone after a minute.
 
 You can save your preferred time zone settings for reports as bookmarks. The bookmarks allow you to switch between reports in various time zones, without having to set the time zone. 
 
