@@ -68,10 +68,6 @@ Also, you can observe the following changes in the **Sales Hub** app:
 
     Currently, the **Forecast category** field in the **Opportunity** form can't be hidden through the **Visible by default** option in the form customization. If you don't want to use the **Forecast category** field in opportunity form, remove the field through form customization. To learn more, see [Unable to hide forecast category field in Opportunity forms](ts-forecasts.md#hide_forecast_category_field).    
 
-## Use Forecast API
-
-Developers can use the msdyn_ForecastApi custom action to retrieve and update forecasting data. For more information, see [msdyn_ForecastApi action](developer/reference/custom-actions/msdyn_ForecastApi.md)
-
 
 ## Configure a forecast  
    
@@ -87,6 +83,10 @@ To configure a forecast in your organization, follow these steps:
 
 >[!IMPORTANT]
 >This feature is intended to help sales managers or supervisors enhance their team’s performance. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with sales persons may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their sales persons that their communications with end users may be monitored, recorded, or stored.
+
+## Use Forecast APIs
+
+Developers can use the msdyn_ForecastApi custom action to retrieve and update forecasting data. For more information, see [msdyn_ForecastApi action](developer/reference/custom-actions/msdyn_ForecastApi.md)
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
