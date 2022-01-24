@@ -394,11 +394,11 @@ Fails if autonumbering is not opted-in for the org.
 
 ### How to fix
 
-Opt into autonumbering in Field Service app > Settings > Field Service settings > # Opt-In to AUto-Numbering (in the top command ribbon)
+Opt into autonumbering in Field Service by going to **Settings** > **Field Service settings** > **# Opt-In to Auto-Numbering** (in the top command ribbon).
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/administration-settings--optin-autonumbering.png)
+> ![Screenshot of the opt in option for autonumbering.](./media/administration-settings--optin-autonumbering.png)
 
 ## Verify Field Service and Project Service Automation solutions are compatible
 
