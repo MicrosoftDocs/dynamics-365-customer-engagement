@@ -4,7 +4,7 @@ description: "Learn about the createTab API of app profile manager in Customer S
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 10/01/2021
+ms.date: 24/01/2022
 ms.topic: reference
 ---
 
@@ -61,15 +61,19 @@ Creates a new tab in the focused session passing the entity name and app tab tem
 
 ```JavaScript
 var formParams = {};
- formParams["lastname"] = "Cannon";
- formParams["firstname"] = "Paul";
+formParams["subject"] = "Collaboration task";
+formParams["actualdurationminutes"] = 60;
+formParams["prioritycode"] = 2;
+formParams["scheduledend"] = "12/12/2030 10:00"
+formParams["regardingobjectid"] = "a333a119-d573-ec11-8942-000d3a840a75";
+formParams["regardingobjectidname"] = "How do I measure my tamp pressure?";
+formParams["regardingobjectidtype"] = "incident";
 
-var tabInput = { 
-templateName: "msdyn_entityrecord", 
-appContext: new Map().set("entityName", "contact") .set("formId", "e06af4d1-2812-45c7-a9c2-9fb73fee7bec") .set("data", JSON.stringify(formParams)), 
-isFocused: true 
+var tabInput = {
+templateName: "msdyn_entityrecord",
+appContext: new Map().set("entityName", "task").set("formId", "d5b4a1b2-de4f-4f86-8768-b0730001e7d1").set("data", JSON.stringify(formParams)),
+isFocused: true
 };
-
 Microsoft.Apm.createTab(tabInput);
 ```
 
