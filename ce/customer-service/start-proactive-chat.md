@@ -413,11 +413,11 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 
 ### See also
 
-[startProactiveChat API](developer/reference/methods/startProactiveChat.md)<br />
-[Manage custom context](send-context-starting-chat.md)<br />
-[Start a chat](initiate-chat-wait-time.md)<br />
-[Display custom context](display-custom-context.md)<br />
-[Live chat JavaScript API reference](developer/omnichannel-reference.md) 
+[startProactiveChat API](developer/reference/methods/startProactiveChat.md)  
+[Manage custom context](send-context-starting-chat.md)  
+[Start a chat](initiate-chat-wait-time.md)  
+[Display custom context](display-custom-context.md)  
+[Live chat JavaScript API reference](developer/omnichannel-reference.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
