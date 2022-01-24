@@ -201,7 +201,28 @@ The following table defines the effect of changing the product price in **Pricel
 
 ## Forecasting
 
-### What are the configurations that I can edit once a forecast is published?     
+### Who is the forecast owner?
+
+A forecast owner is the user who owns a specific level in the forecast hierarchy. When creating the forecast configuration, the forecast manager or administrator selects a field that should be used for assigning the owner to each level of forecast hierarchy.
+
+**To view the forecast owner:**
+
+1. In the Sales Hub app, select **App Settings**.
+1. Under **Performance management**, select **Forecast configuration**.
+1. Select the forecast, and then select the **Permissions** step.
+1. Verify the **User lookup field**:  
+
+    :::image type="content" source="media/user-security-field.png" alt-text="Screenshot of User security field in the Permissions tab":::
+
+    For example, in an org chart forecast, if you select **User** as the owner, each user in the hierarchy will be the owner of the hierarchy under them. 
+ 
+    In the following illustration, the managers own all the forecasts in their hierarchy and individual sellers own their specific forecasts.
+
+    :::image type="content" source="media/forecast-hierarchy -owner.png" alt-text="Screenshot illustrating the forecast owner at different levels in the forecast hierarchy":::
+
+
+### What are the configurations that I can edit once a forecast is published?  
+
 You can edit the following configurations for a forecast once it's published:     
 -	On the [General](define-general-properties-scheduling-forecast.md) page, you can edit forecast title and default underlying records view. 
 -	On the [Permissions](provide-permissions-forecast.md) page, you can add security roles and provide them with permission to view or edit forecast. 

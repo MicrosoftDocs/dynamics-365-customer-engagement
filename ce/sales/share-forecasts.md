@@ -11,10 +11,10 @@ manager: shujoshi
 
 # Share a forecast
 
-Share the forecasts that you own, with anyone in your hierarchy or outside of your hierarchy. You can specify the access level (such as read or read and adjust rollup) that you want to give the user. For example, Henry, the Sales Manager wants one of his direct reports, Serena Davis, to manage the forecasts while he's on vacation. He can share his forecast hierarchy with Serena and assign the appropriate permissions.
+Share the forecasts that you own, with anyone in your hierarchy or outside of your hierarchy. You can specify the access level (such as read or read and adjust rollup) that you want to give the user. For example, Henry, the Sales Manager wants one of his direct reports, Serena Davis, to manage the forecasts while he's on vacation. He can share his forecast hierarchy with Serena and assign the appropriate permissions. Depending on the permissions granted, Serena can view or adjust the forecast. However, she cannot share Henry's forecast with any other user as she's not the owner of the forecast.  
 
 > [!NOTE]
-> Only the forecast owner can share their forecast. 
+> Only a forecast owner can share their forecast. To know who owns the forecast, see [Who is the forecast owner?](faqs-sales.md#who-is-the-forecast-owner).
 
 ## License and role requirements
 
@@ -28,10 +28,10 @@ Share the forecasts that you own, with anyone in your hierarchy or outside of yo
 
 1.  Go to **Performance &gt; Forecasts** in the Sales Hub sitemap.
 
-    You'll see the **Share** icon :::image type="icon" source="media/share-icon.png" border="false"::: next to the forecasts that are enabled for sharing. 
+    You'll see the **Share** icon :::image type="icon" source="media/share-icon.png" border="false"::: next to the forecasts that are enabled for sharing.  
 
     > [!NOTE]
-    > If you don't see the Share icon, it means that either you’re not the owner of the forecast or forecast sharing is not enabled in your organization. Contact your administrator to identify the root cause.
+    > If you don't see the Share icon, it means that either you’re not the owner of the forecast or forecast sharing is not enabled in your organization. Contact your administrator to identify the root cause and take appropriate action.
 
 2.  Select the **Share** icon :::image type="icon" source="media/share-icon.png" border="false"::: next to a specific forecast record or hierarchy. 
 
