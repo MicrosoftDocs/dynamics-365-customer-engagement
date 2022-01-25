@@ -18,7 +18,7 @@ Integrating Power Virtual Agents bot with knowledge management makes it easier t
 
 You can integrate knowledge management with a Power Virtual Agents bot by using either of the following ways:
 
-- Search Knowledge Articles dialog
+- Search knowledge articles dialog
 - Power Automate flow template
 
 ## Prerequisites
@@ -38,9 +38,9 @@ You can integrate knowledge management with a Power Virtual Agents bot by using 
     - For more information on creating a bot, see: [Create and delete Power Virtual Agents bots](/power-virtual-agents/authoring-first-bot)
     - For more information on creating a topic, see: [Create and edit topics in your Power Virtual Agents bot](/power-virtual-agents/authoring-create-edit-topics)
    
-## Use the Search Knowledge Articles dialog
+## Use the Search knowledge articles dialog
 
-You must perform the following steps to integrate knowledge management with a Power Virtual Agents bot using the Search Knowledge Articles dialog:
+You must perform the following steps to integrate knowledge management with a Power Virtual Agents bot using the Search knowledge articles dialog:
  
    1. Set connection references
    1. Call the flow as one-time mandatory step
@@ -72,7 +72,7 @@ You must create a topic with two question nodes for search text and filter. For 
     
 2. Go to your chatbot and create a new topic. You can also set optional filter text in a variable.
     
-3. Select **Add node** and select **Call an action**. Select **Search Knowledge Articles Flow**.
+3. Select **Add node** and select **Call an action**. Select **Search knowledge article flow**.
      
 4. Provide the input to the flow.
     
@@ -89,7 +89,7 @@ You must create a topic with two question nodes for search text and filter. For 
   
 ### Add the dialog to the Power Virtual Agents topic
    
-1. After the topic is configured, replace the **Search Knowledge Articles Flow** with the **Search knowledge articles** dialog.
+1. After the topic is configured, replace the **Search knowledge article flow** with the **Search knowledge articles** dialog.
 
     :::image type="content" source="media/final_search_ka_dialog.png" alt-text="Replace with search knowledge articles dialog"::: 
 
