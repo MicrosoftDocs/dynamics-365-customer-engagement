@@ -41,4 +41,10 @@ Associate a device in Connected Customer Service with a customer account so that
 This device will now be associated with a customer account, and can receive IoT alerts from Azure IoT Central.
 
 
+### See also
+
+[Prerequisites for setting up Connected Customer Service for Azure IoT Central](cs-iot-prerequisites.md)
+[Receive IoT alerts in Connected Customer Service from Azure IoT Central](cs-iot-receive-alerts.md)
+
+
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
