@@ -1,7 +1,7 @@
 ---
 title: "Export Dynamics 365 Customer Voice survey responses to Microsoft Excel (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Learn how to map names and emails to surveys with a custom Power Automate flow."
-ms.date: 03/18/2021
+ms.date: 01/24/2022
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -26,7 +26,7 @@ To export survey response data to Excel:
 
 1. Enter the following URL into your browser, replacing the value for {surveyidentifier} with the ID of your chosen survey:
 
-    ```https://forms.office.com/FormsPro/Pages/DesignPage.aspx?experienceType=Pro#Analysis=true&FormId={suveyidentifier}```
+    ```https://forms.office.com/FormsPro/Pages/DesignPage.aspx?experienceType=Pro#Analysis=true&FormId={surveyidentifier}```
 
     > [!NOTE]
     > Do not confuse the survey identifier with the GUID. To find the survey identifier in the Dynamics 365 Customer Voice survey entity, look in the **Source survey identifier** field.
