@@ -1,7 +1,7 @@
 ---
 title: "Best practices for customizing Dynamics 365 Field Service  | MicrosoftDocs"
 description: Learn about how to get the most out of your Dynamics 365 Field Service customizations.
-ms.date: 12/1/2021
+ms.date: 1/20/2022
 ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
 ms.topic: article
@@ -147,3 +147,7 @@ To avoid issues, make sure all Field Service and Resource Scheduling processes a
 Solution Health Hub allows you to get a better picture of the state of your environment and detect issues with your Dynamics 365 environment. The Solution Health Hub runs rules within an instance to validate the environment's configuration, which might change over time through natural system operations. Some of the rules are specific to Dynamics 365 Field Service and you can run the rules on demand when you encounter an issue. Some rules automatically trigger when Field Service is installed or updated. 
 
 Regularly [run the Field Service Solution Health Hub](troubleshoot-field-service-solution-health.md) ruleset to monitor the health of your environment.
+
+## Mobile app performance considerations
+
+Customizing the mobile app can also affect performance. For more information, see this article: [Performance considerations when customizing the mobile app](improve-mobile-performance.md)

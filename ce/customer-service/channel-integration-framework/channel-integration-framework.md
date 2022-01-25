@@ -4,6 +4,8 @@ description: "Use this topic for getting started with Dynamics 365 Channel Integ
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
+ms.date: 01/21/2022
+ms.topic: article
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"

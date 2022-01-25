@@ -1,7 +1,7 @@
 ---
 title: Automatically create or update records in Customer Service Hub (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to automatically create or update records by setting up rules in Dynamics 365 Customer Service
-ms.date: 01/05/2022
+ms.date: 01/17/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -77,6 +77,12 @@ You can configure a rule that when active will be run for incoming emails. Using
    > ![Automatically create record rule.](media/arc-csh-rule.png " Automatically create record rule")
 
 5. In **Step two: conditions to evaluate and actions to take**, select **New**. The **Condition builder** page is displayed.
+   
+   > [!NOTE]
+   > You must add a minimum of one condition for the rule to run successfully.
+
+6. Perform the following steps to define the conditions:
+
 6. Perform the following steps:
 
    a. In **Condition** > **Condition name**, enter an intuitive name.
@@ -95,7 +101,7 @@ You can configure a rule that when active will be run for incoming emails. Using
 
 8. In **Configure in Microsoft Power Automate**, select **Save and open in Power Automate**. The Power Automate application opens in a new tab where you can configure criteria that must be evaluated for the email activity. To learn more about using Power Automate, see the [documentation for Power Automate](/power-automate/getting-started).
 
-9. Select **Save & Close**. The condition builder is closed.
+9.  Select **Save & Close**. The condition builder is closed.
 
 10. In **Step three: additional actions to take after matching with a condition**, select an option based on your requirement for **Automatically reply to email**.
 
@@ -179,7 +185,7 @@ Perform the following steps to use the activity monitor for the rules:
     > - The legacy rules will also be monitored and listed on the activity monitor view.
 
 4. Perform the following steps to turn on or off monitoring for the states:
-   1. Select **Monitor options** on the command bar. The **Monitor options** dialog box appears.
+   1. Select **Monitor options** on the command bar. The **Monitor options** dialog appears.
    2. Select any or all the following states:
       - Ready for Power Automate / workflow
       - Failed
@@ -200,19 +206,23 @@ Perform the following steps to use the activity monitor for the rules:
 
 ## Manually map a contact in Power Automate<a name="configure-in-power-automate"></a>
 
-Perform the following steps in Power Automate to manually map a contact:
+Perform the following steps to manually map a contact in Power Automate:
 
-1. Edit the rule in which you want to configure the manual mapping.
-2. On the **Condition builder** tab, select **Save and open Power Automate**. The Power Automate workflow opens on a new tab.
-3. In the **Create a record (don't rename this step)** step of the workflow, specify the required value in the **Customer (Contacts)** box.
-4. Make sure that you remove the default mappings from **Contact (Contacts)** and **Customer (Accounts)**.
-   > [!div class=mx-imgBorder]
-   > ![Configure manual mapping for creating contact.](media/arc-manual-power-automate.png " Configure manual mapping for creating contact")
+1. In the app in Customer Service, go to the automatic record creation and update rule feature, and then select the rule that you want to edit.
+2. In the **Step two: conditions to evaluate and actions to take** area, select the rule item for which you want to manually map the contact in Power Automate.
+3. On the page that appears, on the **Condition builder** tab, select **Save and open Power Automate**. The Power Automate workflow opens on a new tab.
+   1. Accept the default connnection settings, and select **Continue**.
+   2. On the page that's displayed, in the **Is this email sender a contact or an account** step, for the **If no** option, select the ellipses for **Terminate when no valid customer found**, and select **Delete**.
+   3. Select **OK** on the confirmation dialog.
+   4. In the **Create a record (don't rename this step)** step of the workflow, specify the required value in the **Customer (Contacts)** box.
+   5. Make sure that you remove the default mappings from **Contact (Contacts)** and **Customer (Accounts)**.
+      > [!div class=mx-imgBorder]
+      > ![Configure manual mapping for creating contact.](media/arc-manual-power-automate.png " Configure manual mapping for creating contact")
 
-   > [!IMPORTANT]
-   > If you want to map an account, make sure that you remove the default mappings from the **Contact (Contacts)** and **Customer (Contacts)** boxes and specify only an account in the **Customer (Accounts)** box for the workflow to run without errors.
+      > [!IMPORTANT]
+      > If you want to map an account, make sure that you remove the default mappings from the **Contact (Contacts)** and **Customer (Contacts)** boxes and specify only an account in the **Customer (Accounts)** box for the workflow to run without errors.
 
-5. Save and close.
+   6. Save and close.
 
 ### Troubleshoot cases
 
