@@ -204,6 +204,12 @@ The following table defines the effect of changing the product price in **Pricel
 ### Who owns the forecast?
 
 A forecast owner is the user who owns a specific level in the forecast hierarchy. When creating the forecast configuration, the forecast manager or administrator selects a field that should be used for assigning the owner to each level in the forecast hierarchy.
+By default, the following user field is selected based on the forecast template:        
+
+- For **Org chart forecast**, the **User** field is selected.      
+- For **Territory forecast**, the **Manager** field is selected.    
+  
+If you select a field other than the default, a column is created in the forecast grid. For example, if you select **Manager** as the user lookup field for an org chart forecast, the **Manager** field will be added to the forecast grid.
 
 **To view the forecast owner:**
 
