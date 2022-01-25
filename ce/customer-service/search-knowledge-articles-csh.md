@@ -1,7 +1,7 @@
 ---
 title: Search knowledge articles in the Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: See how you can effectively search knowledge articles in the Customer Service Hub.
-ms.date: 01/19/2022
+ms.date: 01/25/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -111,7 +111,9 @@ In the knowledge base search control, you can do the following:
   > [!div class=mx-imgBorder]
   > ![Pop out.](media/knowledge-base-search-popout.png "Pop out the article in a new window")
 
-### Search for knowledge articles
+### Search for knowledge articles (Preview)
+
+> [!INCLUDE[cc-early-access](../includes/cc-early-access.md)]
 
 Type a keyword in the search field to search for knowledge articles.
 

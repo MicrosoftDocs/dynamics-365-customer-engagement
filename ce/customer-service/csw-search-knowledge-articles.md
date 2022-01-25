@@ -1,7 +1,7 @@
 ---
 title: Search knowledge articles in the Customer Service workspace in Dynamics 365 Customer Service | Microsoft Docs
 description: See how you can effectively search knowledge articles in the Customer Service workspace.
-ms.date: 01/19/2022
+ms.date: 01/25/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -65,7 +65,9 @@ The required view columns are as follows:
 - Modified On
 - Content
 
-## Use the knowledge search pane to search articles
+## Use the knowledge search pane to search articles (Preview)
+
+> [!INCLUDE[cc-early-access](../includes/cc-early-access.md)]
 
 In Customer Service workspace, for a case, when you select the Knowledge Search tab, knowledge articles that match the case title are displayed on the **Knowledge Search** pane. These articles are displayed based on relevance and full-text search mechanisms.
 
