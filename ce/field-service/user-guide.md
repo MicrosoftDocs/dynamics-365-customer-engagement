@@ -38,7 +38,7 @@ Before we begin, here are the top places for information about Field Service:
   </td>
 
 
- <td><h2>Understand Field Service concepts</h2>
+ <td><h2>Field Service concepts</h2>
 
  The purpose of this section is to understand what Dynamics 365 Field Service is, and why it's valuable to customers.
    <ul>
@@ -75,7 +75,7 @@ Before we begin, here are the top places for information about Field Service:
   </td>
 
 
-<td><h2>Install and setup</h2>
+<td><h2>Install and set up</h2>
 
 The purpose of this section is to help you set up a Field Service environment.
 
