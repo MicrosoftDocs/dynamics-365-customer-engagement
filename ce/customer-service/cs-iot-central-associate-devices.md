@@ -24,7 +24,7 @@ Associate a device in Connected Customer Service with a customer account so that
     > [!div class="mx-imgBorder"]
     > ![Screenshot of "Devices" in the menu](media/cs-iot-device-page.png)
 
-2. On the **Active Devices** page, select one of the devices without an account already associated.
+2. On the **Active Devices** page, select one of the devices that doesn't have an account already associated with it.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of a list of IoT devices in Connected Customer Service.](media/cs-iot-central-associate-devices.png)
