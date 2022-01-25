@@ -1,7 +1,7 @@
 ---
 title: "Integrate knowledge management with Power Virtual Agents bot| MicrosoftDocs"
 description: "Learn about the integration of knowledge management with Power Virtual Agents bot."
-ms.date: 01/24/2022
+ms.date: 01/25/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -170,64 +170,120 @@ To return the knowledge article search results to the bot, follow either of thes
 
 #kbcardjson()
 ```
-- 
-{
-  "type": "AdaptiveCard",
-    "body": [
-        {
-            "type": "ColumnSet",
-            "columns": [
-                {
-                    "type": "Column",
-                    "items": [
-                        {
-                            "type": "Image",
-                            "height": "35px",
-                            "url": "https://th.bing.com/th/id/R4fbade037f8209666b06aa22641708fc?rik=ya%2bpnPJ41EFFMg&riu=http%3a%2f%2fmolnar-institute.com%2ffileadmin%2f_processed_%2fcsm_KnowledgeManagement_icon_forWebsite_bcda89676b.png&ehk=J%2bz2G15xtbJgd7ssSXo7X2q7LDLaMGl7EuGUSQU6P2s%3d&risl=&pid=ImgRaw",
-                            "size": "Small"
-                        }
-                    ],
-                    "width": "auto"
-                },
-                {
-                    "type": "Column",
-                    "items": [
-                        {
-                            "type": "TextBlock",
-                            "weight": "Bolder",
-                            "text": "${dialog.currentarticle.title}",
-                            "wrap": true,
-                            "size": "Large"
-                        },
-                        {
-                            "type": "TextBlock",
-                            "spacing": "None",
-                            "text": "Last modified on ${dialog.currentarticle.modifiedon}",
-                            "isSubtle": true,
-                            "wrap": true
-                        }
-                    ],
-                    "width": "stretch"
-                }
-            ]
-        },
-        {
-            "type": "TextBlock",
-            "text": "${json(virtualagent.jsonResult).articles[0].description}",
-            "wrap": true,
-            "size": "medium"
-        }
-    ],
-    "actions": [
-        {
-            "type": "Action.OpenUrl",
-            "title": "View article in Dynamics App",
-            "url": "${dialog.currentarticle.articleurl}"
-        }
-    ],
-    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-    "version": "1.0"
-}
+-  
+{ 
+
+  "type": "AdaptiveCard", 
+
+    "body": [ 
+
+        { 
+
+            "type": "ColumnSet", 
+
+            "columns": [ 
+
+                { 
+
+                    "type": "Column", 
+
+                    "items": [ 
+
+                        { 
+
+                            "type": "Image", 
+
+                            "height": "35px", 
+
+                            "url": "https://th.bing.com/th/id/R4fbade037f8209666b06aa22641708fc?rik=ya%2bpnPJ41EFFMg&riu=http%3a%2f%2fmolnar-institute.com%2ffileadmin%2f_processed_%2fcsm_KnowledgeManagement_icon_forWebsite_bcda89676b.png&ehk=J%2bz2G15xtbJgd7ssSXo7X2q7LDLaMGl7EuGUSQU6P2s%3d&risl=&pid=ImgRaw", 
+
+                            "size": "Small" 
+
+                        } 
+
+                    ], 
+
+                    "width": "auto" 
+
+                }, 
+
+                { 
+
+                    "type": "Column", 
+
+                    "items": [ 
+
+                        { 
+
+                            "type": "TextBlock", 
+
+                            "weight": "Bolder", 
+
+                            "text": "${json(virtualagent.jsonResult).articles[0].title}", 
+
+                            "wrap": true, 
+
+                            "size": "Large" 
+
+                        }, 
+
+                        { 
+
+                            "type": "TextBlock", 
+
+                            "spacing": "None", 
+
+                            "text": "Last modified on ${json(virtualagent.jsonResult).articles[0].modifiedon}", 
+
+                            "isSubtle": true, 
+
+                            "wrap": true 
+
+                        } 
+
+                    ], 
+
+                    "width": "stretch" 
+
+                } 
+
+            ] 
+
+        }, 
+
+        { 
+
+            "type": "TextBlock", 
+
+            "text": "${json(virtualagent.jsonResult).articles[0].description}", 
+
+            "wrap": true, 
+
+            "size": "medium" 
+
+        } 
+
+    ], 
+
+    "actions": [ 
+
+        { 
+
+            "type": "Action.OpenUrl", 
+
+            "title": "View article in Dynamics App", 
+
+            "url": "${json(virtualagent.jsonResult).articles[0].crmAppUrl}" 
+
+        } 
+
+    ], 
+
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json", 
+
+    "version": "1.0" 
+
+} 
 ```
 
 ### See also
