@@ -2,14 +2,14 @@
 title: "Work with Predictive opportunity scoring"
 description: "Use the predictive opportunity scoring feature to prioritize your opportunities based on scores and achieve higher opportunity qualification rates."
 keywords: ""
-ms.date: 10/26/2021
+ms.date: 01/25/2022
 ms.custom: 
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
 caps.latest.revision: 1
-topic-status: Drafting
+
 ---
 # Prioritize opportunities through scores 
 
@@ -101,6 +101,20 @@ For more information about the opportunity score, select the **About** tab. The 
 
 > [!div class="mx-imgBorder"]
 > ![Predictive opportunity score About tab](media/predictive-opportunity-scoring-widget-top-reasons-about-tab.png "Predictive opportunity score About tab")
+
+### Time spent by opportunities in Business Process Flow Stage
+
+It's important that you move opportunities from one business process flow stage to another in a timely fashion to successfully close a deal. If an opportunity gets stuck at a specific stage for a longer period compared to the time the other won opportunities have spent in the same stage, it could be a cause for concern.  
+
+By analyzing the time spent by the closed opportunities in each stage, the predictive model provides insights about the open opportunities. This insight helps sellers take action on stalled opportunities and move them forward.
+
+> [!NOTE]
+> This insight is available by default if you've enabled predictive scoring. 
+
+The following screenshot illustrates the reason and tooltip for the time spent in stage insight.
+
+:::image type="content" source="media/time-spent-in-stage.png" alt-text="Screenshot of predictive score widget with time spent in stage insight and tooltip":::
+
 
 ### See also
 
