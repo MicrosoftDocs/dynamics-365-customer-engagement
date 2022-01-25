@@ -29,7 +29,7 @@ Hi! Just checking in to see if I can help answer any questions you may have.
 
 Amy can accept the chat offer and start the conversation to sort out her issue. 
 
-### Sample code
+**Sample code**
 
 ```html
 <!-- Code to show proactive chat invite after visitor has spend given time on the webpage -->
@@ -63,7 +63,7 @@ Realizing this scenario, the organization offers a chat request to the customer 
 ```
 Hi! Do you have a question on Surface device ? I am here to help.
 ```
-### Sample code
+**Sample code**
 
 ```html
 <!-- Code to show proactive chat invite(after given time) after visitor visits the webpage given number of time -->
@@ -173,7 +173,7 @@ Jacob is browsing through the support page for Microsoft Surface devices to find
 Hi! How are you doing today? The status of the case:<caseid> is in progress. Would you like to get more details?
 ```
 
-### Sample code
+**Sample code**
 
 ```html
 <!--Code to show proactive chat invite after visitor has spend given time on the webpage, with relevant details about user.-->
@@ -206,7 +206,7 @@ Amy has been browsing a webpage for 15 seconds and is not satisfied with the ava
 Hi! Just checking in to see if I can help answer any questions you may have.
 ```
 
-### Sample code
+**Sample code**
 
 ```javascript
 //Code to show proactive chat invite when visitor tries to leave page after spending given time (15 seconds in this case) on the webpage. This invite is offered once and only for the first time. All subsequent tries to leave page are ignored and proactive chat is not offered in them. 
@@ -250,7 +250,7 @@ Amy has browsed the FAQ's document of the product and is currently on the Knowle
 Hi! Just checking in to see if I can help answer any questions you may have.
 ```
 
-### Sample code
+**Sample code**
 
 ```javascript
 //Code to show proactive chat invite when visitor spends given time on current page, after coming from given last visited page
@@ -288,7 +288,7 @@ Klarissa logs in to your website from Ruritania where your company is running a 
 Hi! Just checking in to see if I can help answer any questions you may have.
 ```
 
-### Sample code
+**Sample code**
 
 This sample code shows how you can use Bing's Geolocation APIs to know the geographic region of the customer and offer chat request based on that. More information about Bing's location APIs: [Bing Maps Locations API](/bingmaps/rest-services/locations/).
 
@@ -360,7 +360,7 @@ This sample code shows how you can use Bing's Geolocation APIs to know the geogr
 
 Suppose your organization is running a festive season sale between certain dates, and you want to proactively offer chat requests to customers to see if they have any questions.
 
-### Sample code
+**Sample code**
 
 The following sample code shows how you can proactively offer chat invites to customers when they visit your website in a time period.
 
@@ -398,11 +398,11 @@ The following sample code shows how you can proactively offer chat invites to cu
 
 ## Scenario 8: Proactively offer chat with pre-survey to customers
 
-Suppose your organization wants prior consent authorization to start a chat with a customer or wants to ask about the topics related to the customer's enquiry before routing the session to the appropriate agent.
+Suppose your organization wants consent authorization to start a chat with a customer or wants to ask about the topics related to the customer's enquiry before routing the session to the appropriate agent.
 
-### Sample code
+**Sample code**
 
-The following sample code shows how you can proactively offer chat with pre-survey, to your customers.
+The following sample code shows how you can proactively offer chat with a pre-survey question to your customers.
 
 ```javascript
 window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
