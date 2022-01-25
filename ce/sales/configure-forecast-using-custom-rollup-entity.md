@@ -31,11 +31,11 @@ Forecasting supports custom and other out-of-the-box rollup entities (now known 
 
 ## How it works
 
-To configure a forecast that's specific to your organization, you can select any entity as a rollup entity, select any related entity as a hierarchical entity (defined in your organization), and establish a relationship between them.
+To configure a forecast that's specific to your organization, you can select an entity as a rollup entity, select a related entity as a hierarchical entity, and establish a relationship between them. 
 
 > [!NOTE]
-> - Only the entities that have Change Track enabled are listed as rollup entity.To learn more, see [Enable change tracking to control data synchronization](/power-platform/admin/enable-change-tracking-control-data-synchronization).
-> - The entities that contains related attributes must be hierarchical type only. For example, if Opportunity Product is rollup entity and User is hierarchy entity, the relationship between them can't be established through the Opportunity entity(Opportunity Product > Opportunity(Opportunity) > Owner(User) > User), because Opportunity entity is not a hierarchical type entity.
+> - Only the entities that have **Change Track** enabled can be used as a rollup entity. To learn more, see [Enable change tracking to control data synchronization](/power-platform/admin/enable-change-tracking-control-data-synchronization).  
+> - Only the hierarchy-enabled entities can be used as a hierarchy entity. 
 
 Forecasting supports up to two levels of relationships between the rollup and hierarchical entities. For example, *Opportunity > Owner (User) > Territory (Territory) > Territory*. Here, **Owner** is the attribute in the **Opportunity** entity of type **User** and **Territory** is the attribute in **User** entity of type **Territory**. This helps the forecast to be more specific to your complex organizational requirements.
 
