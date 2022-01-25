@@ -12,13 +12,13 @@ manager: shujoshi
 
 ## Introduction
 
-Power Virtual Agents let you create powerful bots, configured with various topics and trigger phrases, that help automatically resolve questions posed by your customers on your portal page. More information: [Power Virtual Agents overview](/power-virtual-agents/fundamentals-what-is-power-virtual-agents). 
+Power Virtual Agents let you create powerful bots, configured with various topics and trigger phrases, that help automatically resolve questions posed by your customers on your portal page. More information: [Power Virtual Agents overview](/power-virtual-agents/fundamentals-what-is-power-virtual-agents).
 
 Integrating Power Virtual Agents bot with knowledge management makes it easier to use customized conversations in your bot. This frees up your agent’s time to deal with complex issues that need human intervention, as the bot helps answer questions, perform actions, and solve issues that are simple in nature.
 
 You can integrate knowledge management with a Power Virtual Agents bot by using either of the following ways:
 
-- Search Knowledge Articles dialog  
+- Search Knowledge Articles dialog
 - Power Automate flow template
 
 ## Prerequisites
@@ -31,7 +31,7 @@ You can integrate knowledge management with a Power Virtual Agents bot by using 
   
     Set up your portal with the Power Apps portals feature before integrating knowledge management with the Power Virtual Agents bot. More information: [Use settings to set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md). For more information on setting up your Power Apps portal, see: [Power Apps portal documentation](/powerapps/maker/portals/).
 
-    You can create and manage knowledge articles by setting the **Internal** field to **No**. More information: [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md).
+    You can create and manage knowledge articles by setting the **Internal** field to **No**. More information: [knowledgearticle EntityType](/customer-engagement/web-api/knowledgearticle?view=dynamics-ce-odata-9#properties).
 
   - Create a  Power Virtual Agents bot and a topic in it.
 
@@ -40,26 +40,15 @@ You can integrate knowledge management with a Power Virtual Agents bot by using 
    
 ## Use the Search Knowledge Articles dialog
 
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
->
-
-
 You must perform the following steps to integrate knowledge management with a Power Virtual Agents bot using the Search Knowledge Articles dialog:
  
    1. Set connection references
    1. Call the flow as one-time mandatory step
-   1. Add the dialog to the PVA topic
+   1. Add the dialog to the Power Virtual Agents topic
 
 ### Set connection references
 
-Knowledge PVA solution makes use of the flow which uses connections, such as **Content Conversion** and **Microsoft Dataverse**. You must configure these connection references before turning the **Search knowledge article flow** on. To set connection references:
+Knowledge Power Virtual Agents solution makes use of the flow which uses connections, such as **Content Conversion** and **Microsoft Dataverse**. You must configure these connection references before turning the **Search knowledge article flow** on. To set connection references:
    
 1. Select the notification. A form to configure connection references appears.
 
@@ -98,7 +87,7 @@ You must create a topic with two question nodes for search text and filter. For 
 7. Use the trigger phase and run the topic.
       
   
-### Add the dialog to the PVA topic
+### Add the dialog to the Power Virtual Agents topic
    
 1. After the topic is configured, replace the **Search Knowledge Articles Flow** with the **Search knowledge articles** dialog.
 
