@@ -1,7 +1,7 @@
 ---
 title: "Share a forecast - Dynamics 365 Sales | MicrosoftDocs"
 description: "Share forecasts with other users in the hierarchy or outside the hierarchy with a specific access permission."
-ms.date: 10/21/2021
+ms.date: 01/25/2022
 ms.topic: article
 ms.service: dynamics-365-sales
 author: lavanyakr01
