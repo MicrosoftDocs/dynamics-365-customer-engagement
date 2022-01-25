@@ -224,7 +224,7 @@ If you select a field other than the default, a column is created in the forecas
  
     In the following illustration, the managers own all the forecasts in their hierarchy and individual sellers own their specific forecasts.
 
-    :::image type="content" source="media/forecast-hierarchy -owner.png" alt-text="Screenshot illustrating the forecast owner at different levels in the forecast hierarchy":::
+    :::image type="content" source="media/forecast-hierarchy-owner.png" alt-text="Screenshot illustrating the forecast owner at different levels in the forecast hierarchy":::
 
 
 ### What are the configurations that I can edit once a forecast is published?  
