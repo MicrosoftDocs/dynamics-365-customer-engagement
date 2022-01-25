@@ -59,7 +59,7 @@ You must perform the following steps to integrate knowledge management with a Po
 
 ### Set connection references
 
-Knowledge PVA solution makes use of the flow which uses connections, such as Content Conversion and Dataverse. You must configure these connection references before turning the **Search knowledge article flow** on. To set connection references:
+Knowledge PVA solution makes use of the flow which uses connections, such as **Content Conversion** and **Microsoft Dataverse**. You must configure these connection references before turning the **Search knowledge article flow** on. To set connection references:
    
 1. Select the notification. A form to configure connection references appears.
 
