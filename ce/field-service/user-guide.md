@@ -90,13 +90,13 @@ The purpose of this section is to help you set up a Field Service environment.
 
 
 <tr>
- <td><h2>Create and manage Work Orders</h2>
+ <td><h2>Create and manage work orders</h2>
 
 The purpose of this section is to help you configure work order management, which is a core capability of Field Service.
    <ul>
   <li><a href="quickstart-schedule-work-order.md" data-raw-source="[Quickstart - Create and schedule a work order](quickstart-schedule-work-order.md)">Quickstart - Create and schedule a work order</a></li>
    <li><a href="universal-resource-scheduling-for-field-service.md" data-raw-source="[Universal Resource Scheduling for Field Service](universal-resource-scheduling-for-field-service.md)">Universal Resource Scheduling for Field Service</a></li>
- <li><a href="create-work-order.md" data-raw-source="[[Create a Work Order](create-work-order.md)]">Create a Work Order</a></li>
+ <li><a href="create-work-order.md" data-raw-source="[[Create a work order](create-work-order.md)]">Create a Work Order</a></li>
 <li><a href="configure-incident-types.md" data-raw-source="[[Create work order templates with incident types](configure-incident-types.md)]">Create work order templates with incident types</a></li>
   <li><a href="work-order-customer-account.md" data-raw-source="[Add a customer, location, and related account details to a work order](work-order-customer-account.md)">Add a customer, location, and related account details to a work order</a></li>
   </ul><br/>  
