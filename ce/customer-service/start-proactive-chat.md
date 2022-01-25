@@ -399,6 +399,7 @@ The following sample code shows how you can proactively offer chat invites to cu
 ## Scenario 8: Proactively offer chat with pre-survey to customers
 
 Suppose your organization wants prior consent authorization to start a chat with a customer or wants to ask about the topics related to the customer's enquiry before routing the session to the appropriate agent.
+
 ### Sample code
 
 The following sample code shows how you can proactively offer chat with pre-survey, to your customers.
