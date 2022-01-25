@@ -31,9 +31,9 @@ Share the forecasts that you own, with anyone in your hierarchy or outside of yo
     You'll see the **Share** icon :::image type="icon" source="media/share-icon.png" border="false"::: next to the forecasts that are enabled for sharing.  
 
     > [!NOTE]
-    > If you don't see the Share icon, it means that either you’re not the owner of the forecast or forecast sharing is not enabled in your organization. Contact your administrator to identify the root cause and take appropriate action.
+    > If you don't see the Share icon, it means that either you’re not the owner of the forecast or forecast sharing is not enabled. To know who owns the forecast, see [this FAQ](faqs-sales.md#who-owns-the-forecast). Contact your administrator to identify the root cause and take appropriate action. 
 
-2.  Select the **Share** icon :::image type="icon" source="media/share-icon.png" border="false"::: next to a specific forecast record or hierarchy. 
+2.  Select the **Share** icon :::image type="icon" source="media/share-icon.png" border="false"::: next to the forecast record or hierarchy that you want to share. 
 
 3.  In the **Sharing** dialog, specify the users with whom you want to share the forecast and select the pencil icon to specify the access level.
 
