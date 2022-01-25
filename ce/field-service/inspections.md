@@ -22,7 +22,7 @@ search.app:
 
 Field Service inspections are digital forms that technicians use to quickly and easily answer a list of questions as part of a work order. The list of questions can include safety protocols, pass-and-fail tests for a customer asset, an interview with a customer, or other audits and assessments performed before, during, or after a work order.
 
-With a drag-and-drop interface, inspections are easy to create, and are easier for technicians to fill out compared to paper forms. Inspection answers are [stored in Microsoft Dataverse](./inspections-advanced.md#understand-view-and-report-inspection-responses), making it easy to report on results and fit inspections into your automated business processes.
+With a drag-and-drop interface, inspections are easy to create, and are easier for technicians to fill out compared to paper forms. Inspection answers are [stored in Microsoft Dataverse](./inspections-reporting.md#understand-view-and-report-inspection-responses), making it easy to report on results and fit inspections into your automated business processes.
 
 Inspections in Field Service also provide: 
 
@@ -311,6 +311,8 @@ If an inspection question is required, the technician will not be able to mark *
 - New inspections cannot be created or designed from small form factors like mobile devices.
 
 - Inspections cannot be exported and imported to other environments.
+
+- Inspections cannot be embedded into Power Apps portals.
 
 ### Known issues
 
