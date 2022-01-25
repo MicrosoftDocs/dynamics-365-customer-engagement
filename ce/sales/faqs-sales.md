@@ -201,19 +201,19 @@ The following table defines the effect of changing the product price in **Pricel
 
 ## Forecasting
 
-### Who is the forecast owner?
+### Who owns the forecast?
 
-A forecast owner is the user who owns a specific level in the forecast hierarchy. When creating the forecast configuration, the forecast manager or administrator selects a field that should be used for assigning the owner to each level of forecast hierarchy.
+A forecast owner is the user who owns a specific level in the forecast hierarchy. When creating the forecast configuration, the forecast manager or administrator selects a field that should be used for assigning the owner to each level in the forecast hierarchy.
 
 **To view the forecast owner:**
 
 1. In the Sales Hub app, select **App Settings**.
 1. Under **Performance management**, select **Forecast configuration**.
-1. Select the forecast, and then select the **Permissions** step.
-1. Verify the **User lookup field**:  
+1. Select a forecast configuration, and then select the **Permissions** step.
+1. Verify the **User lookup field** to determine who owns the forecasts in the selected forecast configuration:  
 
-    :::image type="content" source="media/user-security-field.png" alt-text="Screenshot of User security field in the Permissions tab":::
-
+    :::image type="content" source="media/user-security-field.png" alt-text="Screenshot of User lookup field in the Permissions tab":::
+    
     For example, in an org chart forecast, if you select **User** as the owner, each user in the hierarchy will be the owner of the hierarchy under them. In a territory-based forecast, a user could own more than one hierarchy if they own multiple territories.  
  
     In the following illustration, the managers own all the forecasts in their hierarchy and individual sellers own their specific forecasts.

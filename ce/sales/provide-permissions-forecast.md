@@ -63,7 +63,7 @@ In the **Permissions** step of the forecast configuration, you can:
 Forecast sharing is disabled by default. As an administrator, enable the forecast sharing option for the forecasts that needs to be shared. Users can only share forecasts that they own.  
 
 > [!NOTE]
-> Only a forecast owner can share their forecast. To know who owns the forecast, see [Who is the forecast owner?](faqs-sales.md#who-is-the-forecast-owner).
+> Only a forecast owner can share their forecast. To know more, see [Who owns the forecast?](faqs-sales.md#who-owns-the-forecast).
 
 **To enable or disable forecast sharing**
 

@@ -11,10 +11,10 @@ manager: shujoshi
 
 # Share a forecast
 
-Share the forecasts that you own, with anyone in your hierarchy or outside of your hierarchy. You can specify the access level (such as read or read and adjust rollup) that you want to give the user. For example, Henry, the Sales Manager wants one of his direct reports, Serena Davis, to manage the forecasts while he's on vacation. He can share his forecast hierarchy with Serena and assign the appropriate permissions. Depending on the permissions granted, Serena can view or adjust the forecast. However, she cannot share Henry's forecast with any other user as she's not the owner of the forecast.  
+Share the forecasts that you own, with anyone in your hierarchy or outside of your hierarchy. You can specify the access level (such as read, or read and adjust rollup) that you want to give the user. For example, Henry, the Sales Manager wants one of his direct reports, Serena Davis, to manage the forecasts while he's on vacation. He can share his forecast hierarchy with Serena and assign the appropriate permissions. Depending on the permissions granted, Serena can view or adjust the forecast. However, she cannot share Henry's forecast with any other user as she's not the owner of the forecast.  
 
 > [!NOTE]
-> Only a forecast owner can share their forecast. To know who owns the forecast, see [Who is the forecast owner?](faqs-sales.md#who-is-the-forecast-owner).
+> Only a forecast owner can share their forecast. To know more, see [Who owns the forecast?](faqs-sales.md#who-owns-the-forecast).
 
 ## License and role requirements
 

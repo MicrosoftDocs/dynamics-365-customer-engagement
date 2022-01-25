@@ -1,7 +1,7 @@
 ---
 title: "Configure a forecast using custom rollup entity (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Configure a forecast using custom rollup entity in Dynamics 365 Sales."
-ms.date: 01/21/2022
+ms.date: 01/25/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -34,7 +34,7 @@ Forecasting supports custom and other out-of-the-box rollup entities (now known 
 To configure a forecast that's specific to your organization, you can select an entity as a rollup entity, select a related entity as a hierarchical entity, and establish a relationship between them. 
 
 > [!NOTE]
-> - Only the entities that have **Change Track** enabled can be used as a rollup entity. To learn more, see [Enable change tracking to control data synchronization](/power-platform/admin/enable-change-tracking-control-data-synchronization).  
+> - Only the entities that have **Change Tracking** enabled can be used as a rollup entity. To learn more, see [Enable change tracking to control data synchronization](/power-platform/admin/enable-change-tracking-control-data-synchronization).  
 > - Only the hierarchy-enabled entities can be used as a hierarchy entity. 
 
 Forecasting supports up to two levels of relationships between the rollup and hierarchical entities. For example, *Opportunity > Owner (User) > Territory (Territory) > Territory*. Here, **Owner** is the attribute in the **Opportunity** entity of type **User** and **Territory** is the attribute in **User** entity of type **Territory**. This helps the forecast to be more specific to your complex organizational requirements.
