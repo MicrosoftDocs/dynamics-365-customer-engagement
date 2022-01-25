@@ -4,7 +4,7 @@ description: "Learn about how to associate devices with customer accounts in Con
 ms.date: 01/25/2022
 ms.topic: article
 author: lalexms
-ms.author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ---
 
