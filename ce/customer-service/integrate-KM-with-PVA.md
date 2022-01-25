@@ -18,7 +18,7 @@ Integrating Power Virtual Agents bot with knowledge management makes it easier t
 
 You can integrate knowledge management with a Power Virtual Agents bot by using either of the following ways:
 
-- Search Knowledge Articles dialog
+- Search Knowledge Articles dialog  
 - Power Automate flow template
 
 ## Prerequisites
