@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot issues with Solution Health Hub for Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to troubleshoot Dynamics 365 Field Service issues with the Solution Health Hub
-ms.date: 1/20/2022
+ms.date: 1/25/2022
 ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
 ms.topic: article
@@ -601,7 +601,7 @@ When a frontline worker has access to the Field Service (Dynamics 365) mobile ap
 
 Add Field Service resource security role and field security profile to the user. For more information see, [see this article on setting up frontline workers](/dynamics365/field-service/frontline-worker-set-up).
 
-## Check if forms have too many custom controls
+## Check if forms have unhealthy customizations
 
 Severity: High
 
