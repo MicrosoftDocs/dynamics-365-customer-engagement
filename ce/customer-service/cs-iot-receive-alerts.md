@@ -20,7 +20,7 @@ Connect Azure IoT Central to Connected Customer Service by configuring the "Crea
 
 ## Steps
 
-1. Sign in to your Azure IoT Central application, and navigate to **Devices**.
+1. Sign in to your Azure IoT Central application and navigate to **Devices**.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of devices navigation in IoT Central.](media/cs-iot-devices.png "Navigation to the Devices page of the Azure IoT Central application")
@@ -37,12 +37,12 @@ Connect Azure IoT Central to Connected Customer Service by configuring the "Crea
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the rules tab in IoT Central.](media/cs-iot-rules.png "Rules tab in IoT Central")
 
-4. Under **Conditions**, select plus sign (+) to set up the alert trigger threshold. 
+4. Select the plus sign (+) next to **Conditions** to set up the alert trigger threshold. 
     
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the conditions option in IoT Central.](media/cs-iot-conditions.png "Set up the alert trigger threshold")
 
-5. Under **Actions**, select the plus sign (+), and then select **Microsoft Flow**. This is where you'll set up your integrations.
+5. Select the plus sign (+) next to **Actions**, and then select **Microsoft Flow**. This is where you'll set up your integrations.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the Actions option in IoT Central.](media/cs-iot-actions.png "Actions option in IoT Central")
@@ -67,7 +67,7 @@ Connect Azure IoT Central to Connected Customer Service by configuring the "Crea
     
    Now you'll see the actual flow.
 
-8. Because this is a template, the only actions you must take are:
+8. Because this is a template, you only need to take the following actions:
 
     a. Select your Azure IoT Central application name.
 
@@ -106,6 +106,11 @@ From here, the workflow will trigger based on the alert type.
 
    > [!div class="mx-imgBorder"]
    > ![Screenshot of an IoT alert detail, showing the URL back to IoT Central where the alert originated.](media/cs-iot-central-alerts-5.png)
+
+### See also
+
+[Prerequisites for setting up Connected Customer Service for Azure IoT Central](cs-iot-prerequisites.md)<br>
+[Associate devices with customer accounts in Connected Customer Service](cs-iot-central-associate-devices.md)<br>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
