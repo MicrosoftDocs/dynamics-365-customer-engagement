@@ -71,15 +71,15 @@ Connect Azure IoT Central to Connected Customer Service by configuring the "Crea
 
     a. Select your Azure IoT Central application name.
 
-    b. Set IoT rule as the one you created earlier. In our suggested example, it would be: "Temperature level."
+    b. Set **IoT rule** as the one you created earlier. In our suggested example, it would be: "Temperature level".
 
     c. Select your Dynamics 365 organization name.
 
-    d. Set Entity Name to **IoT Alerts.**
+    d. Set **Entity Name** to **IoT Alerts.**
 
     e. Select **Show advanced options** to reveal several hidden customers.
 
-    f. Set **"Alert Type Value** to **Anomaly**.
+    f. Set **Alert Type Value** to **Anomaly**.
 
     g. Save the flow.
 
