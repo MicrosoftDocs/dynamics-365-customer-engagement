@@ -132,9 +132,11 @@ The Field Service Settings page allows system administrators to set default sett
 
 
 
-## Resource scheduling and Schedule Board settings
+## Resource scheduling and schedule board settings
 
-For scheduling-related settings, see the articles on [Scheduling paramters in resource scheduling (Settings)](scheduling-parameters-settings.md) and [configure the schedule board](../field-service/configure-schedule-board.md).    |
+For scheduling-related settings, see these articles: 
+- [Scheduling paramters in resource scheduling (settings)](scheduling-parameters-settings.md)  
+- [Configure the schedule board](../field-service/configure-schedule-board.md).
   
 ### See also  
  [Overview](../field-service/overview.md)   
