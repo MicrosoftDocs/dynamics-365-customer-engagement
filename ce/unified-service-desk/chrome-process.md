@@ -19,7 +19,7 @@ monikerRange: '>= dynamics-usd-4.1'
 
 # Use Chrome Process to host web applications
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 The Chrome Process browser control hosts your controls in isolated Chrome Process instances and displays them in tabs in the Unified Service Desk client application. Chrome Process is based on **CefSharp**, an open source framework that uses the Chromium core that powers many modern browsers. More information: [CefSharp](https://cefsharp.github.io/)
 

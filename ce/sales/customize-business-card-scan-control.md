@@ -20,7 +20,7 @@ Customize how the data from the scanned business cards maps to the fields in the
 |||
 
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 ## Customize the mapping
 

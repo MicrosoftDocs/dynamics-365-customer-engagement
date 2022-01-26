@@ -22,7 +22,7 @@ As a developer, use this reference documentation to learn about the forecasting 
 |||
 
 
-[!INCLUDE[cc-data-platform-banner](../../../../includes/cc-data-platform-banner.md)]
+
 
 >[!NOTE]
 >The *forecasting context object* that's referred to in this topic is different from the execution context of Microsoft Dataverse. The forecasting context object is specific to forecasting and supports the advanced configurations of the underlying records grid.

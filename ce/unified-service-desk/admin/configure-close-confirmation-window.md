@@ -19,7 +19,7 @@ monikerRange: ">=dynamics-usd-4"
 
 # How to configure close confirmation window to prevent accidental closure of Unified Service Desk
 
-[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 ## Accidental closure of Unified Service Desk 
 

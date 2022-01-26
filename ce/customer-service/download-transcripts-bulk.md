@@ -9,7 +9,7 @@ manager: shujoshi
 ---
 # Download Omnichannel for Customer Service transcripts in bulk
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
