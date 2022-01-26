@@ -43,8 +43,8 @@ This device will now be associated with a customer account, and can receive IoT 
 
 ### See also
 
-[Prerequisites for setting up Connected Customer Service for Azure IoT Central](cs-iot-prerequisites.md)
-[Receive IoT alerts in Connected Customer Service from Azure IoT Central](cs-iot-receive-alerts.md)
+[Prerequisites for setting up Connected Customer Service for Azure IoT Central](cs-iot-prerequisites.md)<br>
+[Receive IoT alerts in Connected Customer Service from Azure IoT Central](cs-iot-receive-alerts.md)<br>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
