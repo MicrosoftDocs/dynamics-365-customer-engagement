@@ -1,7 +1,7 @@
 ---
 title: "Configure default settings (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn how to set defaults for work orders, bookings, the schedule board, and agreements in Dynamics 365 Field Service.
-ms.date: 10/27/2021
+ms.date: 1/26/2022
 ms.service: dynamics-365-field-service
 ms.topic: article
 author: FieldServiceDave
@@ -30,10 +30,7 @@ The Field Service Settings page allows system administrators to set default sett
 | ------------- | -------------- |
 |   General  |   Select default booking and work order options. |
 |  Work order prefix  |  Select a default prefix for all your work orders. The prefix will  be added to the beginning of the work order number. This helps you easily identify  work orders  from other types of service requests in the system. |
-|  Default scheduled booking status  |  Determines the default booking status value for a new resource booking record. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up booking statuses](../field-service/set-up-booking-statuses.md)   |
-|  Default canceled booking status  |  Select a default booking status for canceled bookings. For example, **Canceled**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up booking statuses](../field-service/set-up-booking-statuses.md)   |
 |  Default work order completed status  |   Select whether the default  status for a completed work order is **Completed** or **Posted**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up booking statuses](../field-service/set-up-booking-statuses.md)   |
-|  Default booking duration   |  Select a default  booking duration. For example, when a new booking is created the default booking duration  is 30 minutes. |
 |  Word order starting number |  Select a starting number for your work order. For example, if you choose "100" then your first work order number will be 100, and second one will be 101, and so on.   |
 |  Work order invoice creation  |   Select whether the system should automatically generate a billing invoice for work orders when the status is set to **Closed-Posted**. |
 |  Travel charge item      | Select what product is used in the system for travel charges for a work order. For example, when you have a booking with a journal type set to traveling, the system automatically creates a work order service with the duration of the journal for travel time. The pricing will be determined by the standard pricing rules. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a product or service](../field-service/create-product-or-service.md) |
@@ -53,51 +50,24 @@ The Field Service Settings page allows system administrators to set default sett
 |  Crew Management    |                                                                                    |
 |  Default Crew Strategy  |   Select the strategy that will be applied, by default, to any crews created in the system. Upon install, this field is set to "Crew Leader Management." While this setting does apply a default value, this value can be managed independently for each crew.  |
 |  Schedule assistant  |  Choose default options for the schedule assistant.   |
-|  Auto filter service territory  |  Select whether the schedule assistant should automatically filter search results based on the work order territory. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up territories](../field-service/set-up-territories.md)    |
 
 
-  
-## Schedule board settings  
-  
-|   Options   |  Description   |
-|-------------|----------------|
-|  **Board**   |  Select default options for the schedule board. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure the schedule board](../field-service/configure-schedule-board.md)    |
-|  Scheduler [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] details view |   Select the default view for the **Details** pane ion the schedule board for work orders.  |
-| Scheduler [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] tool tip view    |  Select the default view for the tool tip displayed when you hover over a booking linked to a work order on the schedule board.  |
-| Scheduler [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] slot text template |  Enter HTML code to define the text and format that is displayed in the [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] bookings on the schedule board.    |
-|  Scheduler core slot text template  |  Enter HTML code to define the text that is displayed in bookings that are not linked to work orders on the schedule board.  |
-|  Notifications time out (in sec) |   Enter the default frequency, in seconds, at which the schedule board should auto-refresh.   |
-|  Booking alert template   |   This is for the booking alert entity, you can have booking alerts that display information within the alert. You can modify the data shown here. |
-|  Scheduler core details view  |  This applies to bookings that are not linked to a work order. Select the default **Details** view on the schedule board for bookings that are not linked to work orders.  |
-|  Scheduler core tool tips view |  This applies to bookings that are not linked to a work order. Select the default tool tips view for bookings that are not linked to work orders.  |
-| Cancel current slots when moving | Select whether, when moving slots to another time, to leave the old slots and change their status to **Cancel**. Note that this behavior is only supported on the bookings that are moved through **Move bookings** functionality on the schedule board.    |
-|   Map view |     Select default options for the schedule board map view. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure the schedule board](../field-service/configure-schedule-board.md)  |
-|  Scheduler resource tool tip view   | Select the default view to display information when you hover over the resource pin on the schedule board map view.  |
-|  Scheduler business unit tool tip view   |   Select the default view to display information when you hover over the business unit pin on the schedule board map view.   |
-|  Unscheduled WO tool tips view ID  |   Select the default view to display information when you hover over an unscheduled work order pin on the schedule board map view.  |
-|  Scheduler Resource details view   |   Select the default view to display information in the details pane on the schedule board when you select a resource map pin. |
-|  Scheduler business unit details view  | Select the default view to display information in the details pane on the schedule board when you select a business unit map pin.  |
-|  Resources Synchronization timeout (in sec) | When using the Real-Time mode in the schedule assistant, the system searches the Mobile Audit table for the resource’s current location, based on data from their mobile device. This setting determines how old the last known resource location, in the mobile audit table, can be, and still be used in the schedule assistant query. |
-  
 ### RMA  
   
 |  Options  | Description |
 |-----------|-------------|
-| RMA prefix  | Select a default prefix for a return merchandise authorization (RMA). The prefix will  be added to the beginning of the RMA number. This  helps you easily identify  an RMA from other types of service requests in the system. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Process a return](../field-service/process-return.md) |
 | RMA starting number | elect a starting number for RMAs. For example, if you choose 1000 then your first RMA will be 1000, and the second one will be 1001, and so on. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Process a return](../field-service/process-return.md)    |
   
 ### RTV  
   
 |  Options  | Description   |
 |-----------|---------------|
-| RTV prefix | Select a default prefix for a return to vendor (RTV). The prefix will  be added to the beginning of the RTV number. This  helps you easily identify  an RTV from other types of service requests in the system. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Process a return](../field-service/process-return.md). |
 | RTV starting number |  Select a starting number for RTVs. For example, if you choose 2000, then your first RTV will be 2000, and second one will be 2001, and so on. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Process a return](../field-service/process-return.md).    |
   
 ## Agreement  
   
 |  Options   |    Description    |
 |------------|-------------------|
-|  Agreement prefix   |  Select a default prefix for agreements. The prefix will  be added to the beginning of the agreement number. This  helps you easily identify  agreements from other data in the system. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up customer agreements](../field-service/set-up-customer-agreements.md) |
 | Auto generate work order for agreement booking  |  Select whether the system should automatically generate work order bookings based on agreements. If set to **No**, then you will need to manually create the work order records by clicking the ribbon button on the **Schedule Date** record. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up customer agreements](../field-service/set-up-customer-agreements.md)     |
 | Generate booking dates X months in advance    | [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] agreements generate booking dates based on the agreement booking setup recurrence schedule. These are the dates that the system will generate a work order record, if the auto generate work order is set to **Yes**. This setting determines how many months in advance the system will generate booking date records. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up customer agreements](../field-service/set-up-customer-agreements.md) |
 |   Generate invoices dates X months in advance   |   [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] agreements generate invoice dates based on the agreement invoice setup recurrence schedule. These are the dates that the system will generate an invoice record, if the auto generate invoice is set to **Yes**. This setting determines how many months in advance the system will generate invoice date records. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up customer agreements](../field-service/set-up-customer-agreements.md)    |
@@ -111,7 +81,6 @@ The Field Service Settings page allows system administrators to set default sett
   
 |  Options  |  Description  |
 |-----------|---------------|
-| Purchase order prefix  |  Select a default prefix for purchase orders. The prefix will  be added to the beginning of the purchase order number. This  helps you easily identify  purchase orders from other data in the system.  |
 | Purchase order approval required |  Select if a purchase order needs an approval before the status can be changed to **Submitted** based on the **Purchase Order Approval Required** field on the purchase order. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a purchase order](../field-service/create-purchase-order.md)   |
 | Purchase order starting number  |   Select a starting number for purchase orders. For example, if you choose 4000, then your first purchase order will be 4000, and second one will be 4001, and so on.   |
 |   Use of product out of stock   | Select how the system reacts when a work order product is used for a product that is not currently in stock. **Confirm** will prompt the user to decide whether to continue or not, and **Restrict** will keep the work order product from being used. |
@@ -121,7 +90,6 @@ The Field Service Settings page allows system administrators to set default sett
 | Options | Description |  
 |-------------|-----------------|  
 | Inventory transfer   |  Select a default prefix for inventory transfer numbers. The prefix will  be added to the beginning of the inventory transfer number. This  helps you easily identify an inventory transfer from other data in the system.|  
-| Inventory adjustment prefix | Select a default prefix for inventory adjustment numbers. The prefix will  be added to the beginning of the inventory adjustment number. This  helps you easily identify  an inventory adjustment from other data in the system.|  
 | Inventory transfer starting number | Select a starting number for inventory transfer numbers. For example, if you choose 5000, then your first inventory transfer number will be 5000, and second one will be 5001, and so on.|  
 | Inventory adjustment starting number |Select a starting number for inventory adjustment numbers. For example, if you choose 6000, then your first inventory adjustment number will be 6000, and second one will be 6001, and so on.|  
   
@@ -164,9 +132,9 @@ The Field Service Settings page allows system administrators to set default sett
 
 
 
-## Resource scheduling settings
+## Resource scheduling and Schedule Board settings
 
-For settings related to resource scheduling, see the article on [Scheduling paramters in resource scheduling (Settings)](scheduling-parameters-settings.md).
+For scheduling-related settings, see the articles on [Scheduling paramters in resource scheduling (Settings)](scheduling-parameters-settings.md) and [configure the schedule board](../field-service/configure-schedule-board.md).    |
   
 ### See also  
  [Overview](../field-service/overview.md)   
