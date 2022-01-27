@@ -32,7 +32,7 @@ This installation allows you to do the following tasks:
    -	Manage content, including content moderation and merge of duplicate ideas.
    -	Update the status and respond to community feedback.
    -	Manage users and assign security roles on a forum level.
-2. **“Modern Community” portal template**: This template offers delightful end user experiences that are available out of the box. End users can share new ideas with organizations and collaborate on a social scale. 
+2. **“Modern Community” portal template**: This template offers delightful end-user experiences that are available out of the box. End users can share new ideas with organizations and collaborate on a social scale. 
 This installation lets your end users do the following tasks:
    -	Browse, search, filter, and sort idea lists.
    -	Post new ideas. This flow includes autosuggestion of existing ideas to prevent duplicates.
