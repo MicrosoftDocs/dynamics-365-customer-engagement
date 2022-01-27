@@ -17,7 +17,7 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Preview: Overview of Community
+# Overview of Community
 
 > [!IMPORTANT]
 >
