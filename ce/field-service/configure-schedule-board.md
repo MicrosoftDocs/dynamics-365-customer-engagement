@@ -14,16 +14,16 @@ search.app:
 ---
 # Use and configure the schedule board in Dynamics 365 Field Service
 
-The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] schedule board provides an overview of resource availability and bookings you can make.  Before you use the schedule board, it is important to set up the views and filters to your preference.  
+The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] schedule board provides an overview of resource availability and bookings you can make. Before you use the schedule board, set up the views and filters to your preference.  
   
 > [!IMPORTANT]
 >  To use the schedule board booking functionality, geocoding, and location services, you need to turn on maps.  
 >   
-> 1. From the main menu, click **Resource Scheduling** > **Administration**.  
-> 2. Click **Scheduling parameters**.  
-> 3. Open the record and scroll down to the **Resource Scheduling Optimization** section.  
+> 1. From the main menu, go to **Resource Scheduling** > **Administration**.  
+> 2. Select **Scheduling parameters**.  
+> 3. Open the record and find the **Resource Scheduling Optimization** section.  
 > 4. On the **Connect to Maps** field, choose **Yes**.  
-> 5. Accept the terms and save the record. 
+> 5. Accept the terms and save the record.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ynSg]
 
@@ -32,12 +32,13 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
   
 ## View the schedule board  
   
--   To view the schedule, from the main menu, select **Resources Scheduling** > **Schedule Board**.  
+-  To view the schedule, from the main menu, select **Resources Scheduling** > **Schedule Board**.  
     
-## Overview of the schedule board  
+## Overview of the schedule board
+
  When you hover over a booking using your mouse, you'll see additional information about it. The line color indicates the type of booking, such as work order, case, or opportunity.  
   
- Bookings that are not linked to an entity don’t have a color associated with them.  
+ Bookings that aren’t linked to an entity don’t have a color associated with them.  
   
  When you’re looking at the schedule board for the current day, you’ll see a blue line that indicates the current time of day. You can also see a picture of all the resources listed on the schedule board. To quickly view contact information for a resource, hover over their name to view the contact card.  
   
@@ -55,9 +56,9 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
   
 2. **Filter & Map View**: select the **Filter** tab to filter information by **Characteristics - Rating** **Roles**, **Territories**, **Organizational Units**, **Resource Types**, **Teams**, and **Business Units** to narrow or expand the schedule board view.  
   
-   - **Characteristics – Rating**, filters by skills that resources possess, with a rating of familiar, good, or proficient. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up characteristics](../field-service/set-up-characteristics.md)  
+   - **Characteristics – Rating**, filters by skills that resources possess, with a rating of familiar, good, or proficient. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up characteristics](../field-service/set-up-characteristics.md)
   
-   - **Roles**, filters by resource role and associates skills and proficiencies to that role. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure resource roles (Project Service Automation)](/dynamics365/project-operations/psa/configure-resource-roles)  
+   - **Roles**, filters by resource role and associates skills and proficiencies to that role. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure resource roles (Project Service Automation)](/dynamics365/project-operations/psa/configure-resource-roles)
   
    - **Service Territory** filters will narrow down the schedule board to only those resources who belong to that territory.  
   
@@ -69,14 +70,16 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
   
    - **Business Units** filters by groups that have specific access to information to do their job. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a business unit to control access to records](/power-platform/admin/create-edit-business-units)  
   
-### Set default filters  
+### Set default filters
+
  ![Schedule Board Default Filters.](../field-service/media/field-service-schedule-board-default-filters.png "Schedule Board Default Filters")  
   
--   If you update a filter and want to save it as your new default filter, select **Options** > **Save Current Filters as Default**.  
+- If you update a filter and want to save it as your new default filter, select **Options** > **Save Current Filters as Default**.  
   
--   To go back to your default filter, select **Options** > **Load Default Filters**.  
+- To go back to your default filter, select **Options** > **Load Default Filters**.  
   
-### Set options to see a specific set of resources  
+### Set options to see a specific set of resources
+
  You can also create an option to see only a specific set of resources on the schedule board. For example, a dispatcher using Field Service can create an option to only see resources on the schedule board that are in the Washington territory. Once this is set, when you use the filter option it will only show your specified set of resources.  
   
 1.  Select **Options** > **Select Resources**.  
@@ -120,7 +123,7 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
   
     - **Sizes**: Lets you adjust the size of the columns and rows on the schedule board. You can slide the bars to set the ideal height and width that will show all necessary information on the scheduled booking, rather than having some of it cut off.  
   
-    - **Travel Duration Settings**: Lets you see travel time on the schedule board. To activate this setting,  select the **Show Travel Time** check box.  
+    - **Travel Duration Settings**: Lets you see travel time on the schedule board. To activate this setting, select the **Show Travel Time** check box.  
   
     - **View Settings**: Lets you hide canceled bookings, deactivated bookings, and hide the legend on the map.  
   
