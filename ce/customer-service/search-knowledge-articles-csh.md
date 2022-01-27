@@ -1,7 +1,7 @@
 ---
 title: Search knowledge articles in the Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: See how you can effectively search knowledge articles in the Customer Service Hub.
-ms.date: 01/25/2022
+ms.date: 01/27/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -25,27 +25,27 @@ The search results are automatically populated based on a field your administrat
 
 For more information, see [Knowledge Base Search control](#knowledge-base-search-control).
 
-## Knowledge base search control powered by Relevance search 
+## Knowledge base search control powered by Dataverse search
 
-Knowledge base search in the Customer Service Hub comes with improved search functionality. The knowledge base search is enabled to use Relevance Search in the knowledge base search control area, in addition to the global search area where Relevance Search is already enabled.
+Knowledge base search in the Customer Service Hub comes with improved search functionality. The knowledge base search is enabled to use Dataverse Search in the knowledge base search control area, in addition to the global search area where Dataverse Search is already enabled.
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How Relevance Search works](/power-platform/admin/configure-relevance-search-organization)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Dataverse search](/power-platform/admin/configure-relevance-search-organization)
 
-Relevance Search uses Azure search service to index and search records. Relevance Search provides improved search functionality, like better relevance, highlighted search keyword text, and the ability to search within attachments and notes. With Relevance Search, you can also configure searchable fields in the knowledge article entity. 
+Dataverse Search uses Azure search service to index and search records. Dataverse Search provides improved search functionality, like better relevance, highlighted search keyword text, and the ability to search within attachments and notes. With Dataverse Search, you can also configure searchable fields in the knowledge article entity. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure searchable fields for Relevance Search](/power-platform/admin/configure-relevance-search-organization)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure searchable fields for Dataverse Search](/power-platform/admin/configure-relevance-search-organization)
 
 
 > [!NOTE]
-> To enable Relevance Search for the knowledge article entity, see [Enable Relevance Search](/power-platform/admin/configure-relevance-search-organization) and [Select entities for Relevance Search](/power-platform/admin/configure-relevance-search-organization).</br>
-If Relevance search is not enabled for the entity, standard Full-text search is used. 
+> To enable Dataverse Search for the knowledge article entity, see [Enable Dataverse Search](/power-platform/admin/configure-relevance-search-organization) and [Select entities for Dataverse Search](/power-platform/admin/configure-relevance-search-organization).</br>
+If Dataverse search is not enabled for the entity, standard Full-text search is used. 
 
 For more information, see [Understand knowledge base search mechanisms](knowledge-base-search-methods.md).
 
 
-### Before you begin using Relevance Search
+### Before you begin using Dataverse Search
 
-Relevance Search uses the scoring concepts as defined by Azure search. To be able to search the knowledge base using Relevance Search, certain view columns must be configured in the Quick Find view columns list. If any of these columns are deleted or missing, the search query displays an error.
+Dataverse Search uses the scoring concepts as defined by Azure search. To be able to search the knowledge base using Dataverse Search, certain view columns must be configured in the Quick Find view columns list. If any of these columns are deleted or missing, the search query displays an error.
 
 > [!NOTE]
 > An admin can configure the knowledge article quick find view columns list by navigating to **Settings > Customizations > Entities > Knowledge Article > Views > Quick Find View > View Columns**.
@@ -111,9 +111,7 @@ In the knowledge base search control, you can do the following:
   > [!div class=mx-imgBorder]
   > ![Pop out.](media/knowledge-base-search-popout.png "Pop out the article in a new window")
 
-### Search for knowledge articles (Preview)
-
-> [!INCLUDE[cc-early-access](../includes/cc-early-access.md)]
+### Search for knowledge articles
 
 Type a keyword in the search field to search for knowledge articles.
 
@@ -124,16 +122,19 @@ Type a keyword in the search field to search for knowledge articles.
   |1.| The Knowledge search field.|
   |2.| Status and visibility tags for the article.|
   |3.| The number of times the article has been viewed. |
-  |4.| Article number|
-  |5.| Info card that displays search term matches from keywords, description, attachments, and any other custom fields. |
-  |6.| Search results across attachments. The attachment title is displayed only when the search term matches content in the attachment.|
+  |4.| Article number (Preview)|
+  |5.| Info card that displays search term matches from keywords, description, attachments, and any other custom fields. (Preview) |
+  |6.| Search results across attachments. The attachment title is displayed only when the search term matches content in the attachment. (Preview)|
 
-- If Relevance Search is not enabled, the keywords that you enter will initiate a search (using the Full-text search mechanism) in the following fields of a knowledge article: **Title**, **Content**, **Keywords**, **Description**, and **Article Public Number**.
+  > [!NOTE]
+  > The article number, info card displaying search term matches across custom fields, and the search results across attachments are in preview.
+
+- If Dataverse Search is not enabled, the keywords that you enter will initiate a search (using the Full-text search mechanism) in the following fields of a knowledge article: **Title**, **Content**, **Keywords**, **Description**, and **Article Public Number**.
 
   > [!NOTE]
   > If there's a style tag with CSS styles at the top of the article, the summary of the content in the knowledge search results list will contain style tags. Use inline CSS styling instead of putting styles in style tags.
 
-- If Relevance Search is enabled, you can configure the fields based that you want to be searched for. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure searchable fields for Relevance Search](/power-platform/admin/configure-relevance-search-organization) 
+- If Dataverse Search is enabled, you can configure the fields based that you want to be searched for. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure searchable fields for Dataverse Search](/power-platform/admin/configure-relevance-search-organization) 
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add the Knowledge Base Search control to Main forms](add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-main-forms)
 
