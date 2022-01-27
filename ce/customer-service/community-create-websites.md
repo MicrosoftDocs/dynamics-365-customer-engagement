@@ -17,7 +17,7 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Preview: Create new websites in Community
+# Create new websites in Community
 > [!IMPORTANT]
 >
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
