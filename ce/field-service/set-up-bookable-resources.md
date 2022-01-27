@@ -21,9 +21,9 @@ Each resource can have different attributes that distinguish it from others, inc
 
 - Characteristics (for example: Accounting)
 - Categories (for example: Manager)
-- Territories (for example: Washington State)
-- Organizational Unit (for example: Seattle Service Delivery)
-- Location (for example: Location Agnostic)
+- Territories (for example: Washington state)
+- Organizational Unit (for example: Seattle service delivery)
+- Location (for example: Location agnostic)
 - Resource Type (for example: User)
 
 In this article, we’ll walk through how to create a bookable resource and add details to distinguish it from other resources. We’ll also explore some common details for setting up field technician resources for Dynamics 365 Field Service organizations.
