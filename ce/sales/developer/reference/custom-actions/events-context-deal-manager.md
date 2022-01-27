@@ -288,8 +288,8 @@ function OnChange(executionContext) {
     }
 }
 ```
-
-**Example 6:**
+<a name=remove-option> </a>
+**Example 5:**
 
 Let's write a Javascript code to remove the second option in the **Rating** drop-down field:
 
