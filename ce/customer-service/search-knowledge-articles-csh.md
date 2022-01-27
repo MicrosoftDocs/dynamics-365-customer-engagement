@@ -127,7 +127,7 @@ Type a keyword in the search field to search for knowledge articles.
   |6.| Search results across attachments. The attachment title is displayed only when the search term matches the content in the attachment. (Preview)|
 
   > [!NOTE]
-  > The article number, info card displaying search term matches across custom fields, and search results across attachments are in preview.
+  > The article number, info card that displays search term matches across custom fields, and search results across attachments are in preview.
 
 - If Dataverse search is not enabled, the keywords that you enter will initiate a search (using the Full-text search mechanism) in the following fields of a knowledge article: **Title**, **Content**, **Keywords**, **Description**, and **Article Public Number**.
 

@@ -49,7 +49,7 @@ The knowledge articles are applicable for all knowledge-enabled entities. By def
   |8.| Search results across attachments. The attachment title is displayed only when the search term matches the content in the attachment. (Preview)|
   
 > [!NOTE]
-> The article number, info card displaying search term matches across custom fields, and search results across attachments are in preview.
+> The article number, info card that displays search term matches across custom fields, and search results across attachments are in preview.
 
 ## Use the knowledge search pane to work on your articles
 
