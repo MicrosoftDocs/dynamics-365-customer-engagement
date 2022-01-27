@@ -1,7 +1,7 @@
 ---
 title: "Use and configure the schedule board in Dynamics 365 Field Service (contains video) | MicrosoftDocs"
 description: Learn about how to configure the schedule board in Dynamics 365 Field Service
-ms.date: 01/12/2021
+ms.date: 01/27/2022
 ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
 ms.topic: article
@@ -117,7 +117,7 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
   
     - **Time Resolution**: Set the time by sliding the bar left or right; this lets you schedule resources in more precise time intervals.  
   
-    - **Resources per page**: Set up the number of resources to be displayed on the screen. The schedule board's appearance will change to show only the number of days selected.  
+    - **Resources per page**: Set up the number of resources to be displayed on the screen. The schedule board's appearance will change to show only the number of resources selected.  
   
     - **Number of Days**: Set up the number of days to be displayed on the screen. The schedule board's appearance will change to show only the number of days selected.  
   
