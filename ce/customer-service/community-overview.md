@@ -19,19 +19,7 @@ ms.custom:
 
 # Overview of Community
 
-> [!IMPORTANT]
->
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
->
-> [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]
-
-Welcome to Dynamics 365 Customer Service Community (preview), a new app that offers a suite of capabilities that are designed to help your organization invite customer suggestions and crowd source portfolios of outside-in ideas. Community can help fuel your business transformation, build customer trust with process transparency, and drive timely follow-up for suggestions. 
+Welcome to Dynamics 365 Customer Service Community, a new app that offers a suite of capabilities that are designed to help your organization invite customer suggestions and crowd source portfolios of outside-in ideas. Community can help fuel your business transformation, build customer trust with process transparency, and drive timely follow-up for suggestions. 
 
 In addition to providing feedback to organizations, end users use Community to collaborate on a social scale, and rally behind suggestions from others to help shape the future of the products they use.
 
