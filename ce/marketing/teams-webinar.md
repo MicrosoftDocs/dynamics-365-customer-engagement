@@ -103,7 +103,7 @@ Read more: [Manage meeting settings in Microsoft Teams](/microsoftteams/meeting-
 
 After you run a Teams webinar-based Dynamics 365 Marketing event, you can view the attendee engagement data (check-in and check-out times) in the Marketing app.
 
-To generate the engagement data, send an email invite to webinar registrants before the event that contains the webinar **Join in Teams** link. See [Inviting registrants to attend the live event through email](teams-webinar.md#inviting-registrants-to-attend-the-live-event-through-email) for details about creating an invite email in the Marketing email designer.
+To generate the engagement data, send an email invite to webinar registrants before the event that contains the webinar **Join in Teams** link. See [Inviting registrants to attend the Teams event through email](teams-webinar.md#inviting-registrants-to-attend-the-teams-event-through-email) for details about creating an invite email in the Marketing email designer.
 
 10 minutes after the webinar ends (based on the end date configured in the Marketing app), the Marketing app will automatically populate the engagement data for attendees.
 
@@ -202,7 +202,7 @@ More information on details and settings for Teams live events: [Schedule a Team
 
 > [!Important]
 >
-> **Join in Teams** buttons [generated in the Dynamics 365 Marketing email editor](teams-webinar.md#inviting-registrants-to-attend-the-live-event-through-email) *cannot* be used for sending live event links to presenters or producers. Buttons generated in the email editor only work for attendees. Presenters or producers can access the live event by following the custom link in their calendar or in the Marketing app by going to **Events** > **Streaming URL**.
+> **Join in Teams** buttons [generated in the Dynamics 365 Marketing email editor](teams-webinar.md#inviting-registrants-to-attend-the-teams-event-through-email) *cannot* be used for sending live event links to presenters or producers. Buttons generated in the email editor only work for attendees. Presenters or producers can access the live event by following the custom link in their calendar or in the Marketing app by going to **Events** > **Streaming URL**.
 
 **Notes**:
 
@@ -224,7 +224,7 @@ If your organization has already set up a webinar provider (using ON24), you can
 The Teams attendee URL is created when you save a Marketing event that is being streamed with Teams. You can navigate to the Teams live event or meeting using the attendee URL.
 
 > [!NOTE]
-> To invite a registrant to join the event, do not share the attendee URL directly. Instead, use the [email invitation method described below](teams-webinar.md#inviting-registrants-to-attend-the-live-event-through-email).
+> To invite a registrant to join the event, do not share the attendee URL directly. Instead, use the [email invitation method described below](teams-webinar.md#inviting-registrants-to-attend-the-teams-event-through-email).
 
 ## Calendar integration
 
