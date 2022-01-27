@@ -117,7 +117,7 @@ The [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)
   
     - **Time Resolution**: Set the time by sliding the bar left or right; this lets you schedule resources in more precise time intervals.  
   
-    - **Resources per page**: Set up the number of resources to be displayed on the screen. The schedule board's appearance will change to show only the number of resource selected.  
+    - **Resources per page**: Set up the number of resources to be displayed on the screen. The schedule board's appearance will change to show only the number of resources selected.  
   
     - **Number of Days**: Set up the number of days to be displayed on the screen. The schedule board's appearance will change to show only the number of days selected.  
   
