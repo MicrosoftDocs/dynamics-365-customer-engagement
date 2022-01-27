@@ -74,9 +74,9 @@ You can set up knowledge management either on the Customer Service Hub or on Cus
   1. Select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
   
   2. In the **Record types** section, select **Manage**.
-      1. On the **Record Types** page, add or edit the record types for which you want to turn on knowledge management.
+      1. On the **Record Types** page, add or edit the record types for which you want to turn on knowledge management. More information: [Configure knowledge search control on the app side pane](/customer-service/configure-knowledge-search-control-productivity-pane). By default, knowledge management is enabled for **Case** and **Conversation** record types.
   3. In the **General Settings** section, select **Manage**. The **General Settings** page appears.
-      1. In the **Search results display count** section, select the display count from the dropdown.
+      1. In the **Search results display count** section, select the display count from the dropdown. This option is only available for app side pane knowledge base search control, and standalone knowledge base search control in single session and multisession apps.
       1. In the **Feedback** section, set the **Enable feedback** toggle to Yes. To learn more about how users use this option, see [Submit ratings and feedback for knowledge articles](search-knowledge-articles-csh.md#submit-ratings-and-feedback-for-knowledge-articles).
       1. In the **Filters** section, set the **Enable search filters** toggle to Yes. If you want to allow agents to personalize the search filters, then set the **Allow agent to personalize** toggle to Yes.
       1. In the **Authoring language** section, set the **Enable default authoring language** for your users to Yes.
