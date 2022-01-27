@@ -1,7 +1,7 @@
 ---
 title: "Configure Microsoft Teams chats in Customer Service | Microsoft Docs"
 description: "Learn how to configure Microsoft Teams chat functionality in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
-ms.date: 01/24/2022
+ms.date: 01/27/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -124,6 +124,9 @@ To enable Teams chat settings for a custom multisession user, complete the follo
 
    > [!div class="mx-imgBorder"] 
    > ![Set Teams collaboration to On.](media/teams-chat-custom-profile.png "Turn on Teams collaboration")
+   
+   > [!NOTE]
+   > Make sure that you assign the **productivitytools** user role to any users who will use the productivity pane.
 
 7. Select the **General** tab to assign users. More information: [Assign profiles to users](/dynamics365/app-profile-manager/app-profile-manager#assign-profiles-to-users)
 
