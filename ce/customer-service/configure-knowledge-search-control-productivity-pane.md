@@ -1,7 +1,7 @@
 ---
 title: Configure knowledge search control on the app side pane (Dynamics 365 Customer Service) | MicrosoftDocs
 description: See how to configure the settings for knowledge search control in Dynamics 365 Customer Service
-ms.date: 01/20/2021
+ms.date: 01/27/2021
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -28,9 +28,14 @@ searchScope:
 
 ## Introduction
 
-You can configure how you want the knowledge search control to appear on the app side pane for a multisession. You can set what your agents will experience while they interact with customers during a multisession for an entity making it easy for agents to quickly search and use an article related to an entity.
+You can configure how you want the knowledge base search control to appear for your entities on the app side pane for a multisession. To do so, you will need to enable the record types for which you want to turn on knowledge management.
+
+Enabling a record type will specify what your agents will experience while they interact with customers during a multisession. By default, **Case** and **Conversation** record types are enabled. If you are an existing customer, you will also see all the entities previously enabled by you.
+
+You can also add a knowledge base search control to Dynamics 365 for Customer Engagement forms to make it easy for users in your organization to find knowledge articles, so they can answer common customer questions and resolve their issues right from the records, without having to switch to a different application. More information, see [Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-forms).
 
 ## Enable record types for which you want to turn on knowledge management
+
 You can enable record types from the Customer Service admin center (preview) app.
 
 > [!IMPORTANT]
@@ -70,8 +75,6 @@ To edit an entity record:
 8.	Click **Save and Close**.
   
     :::image type="content" source="media/edit-ent-record.png" alt-text="edit an existing entity record":::
-
-You can also add a knowledge base search control to Dynamics 365 for Customer Engagement forms to make it easy for users in your organization to find knowledge articles so they can answer common customer questions and resolve their issues right from the records, without having to switch to a different application. More information, see [Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-forms).
 
 ### See also  
 
