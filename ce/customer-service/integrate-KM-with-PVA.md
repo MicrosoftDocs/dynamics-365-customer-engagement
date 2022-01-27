@@ -97,7 +97,8 @@ You must create a topic with two question nodes for search text and filter. For 
 2. Remove the filter question node.
  - If you don’t want to use the filter value, then you must call the Search knowledge articles action and provide the search text to search for external published articles. 
  - If you want to use filter, then configure the filter using knowledge article entity attributes. More information: [knowledgearticle EntityType](/customer-engagement/web-api/knowledgearticle?view=dynamics-ce-odata-9). To write a Dataverse search query using filters, see [Search for tables and rows by using Dataverse search](/powerapps/user/relevance-search).
-1. Update the message node with the output from the extended topic and select **Save**.
+ 
+3. Update the message node with the output from the extended topic and select **Save**.
   
 ## Use the Power Automate flow template
 
