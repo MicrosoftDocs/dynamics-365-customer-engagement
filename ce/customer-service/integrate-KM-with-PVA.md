@@ -50,6 +50,7 @@ You must perform the following steps to integrate knowledge management with a Po
 
 Knowledge Power Virtual Agents solution makes use of the flow which uses connections, such as **Content Conversion** and **Microsoft Dataverse**. You must configure these connection references before turning the **Search knowledge article flow** on. To set connection references:
    
+1. Go to https://make.preview.powerapps.com.
 1. Select the notification. A form to configure connection references appears.
 
      :::image type="content" source="media/con-ref-notification.png" alt-text="Connection reference notification":::
@@ -64,13 +65,13 @@ Knowledge Power Virtual Agents solution makes use of the flow which uses connect
 
 ### Call the flow as one-time mandatory step
     
-You must create a topic with two question nodes for search text and filter. For filter, the Power Virtual Agents author can provide a dummy filter value like **statecode eq 3**. This step ensures that flow is properly configured and can now be replaced with **Search knowledge article extended** topic.  
+You must create a topic with two question nodes for search text and filter. For filter, the Power Virtual Agents author can provide a dummy filter value, for example, **statecode eq 3**. This step ensures that flow is properly configured and can now be replaced with **Search knowledge article extended** topic.  
   
 1. Within the topic, create a question node to ask the user to search for the input text.
 
     :::image type="content" source="media/question_node.png" alt-text="Create a question node":::
     
-2. Go to your chatbot and create a new topic. You can also set optional filter text in a variable.
+2. Create a question node for the filter and provide the dummy filter value after you trigger the topic.
     
 3. Select **Add node** and select **Call an action**. Select **Search knowledge article flow**.
      
@@ -93,7 +94,10 @@ You must create a topic with two question nodes for search text and filter. For 
 
     :::image type="content" source="media/final_search_ka_dialog.png" alt-text="Replace with search knowledge articles dialog"::: 
 
-2. Update the message node with the output from the extended topic and select **Save**.
+2. Remove the filter question node.
+ - If you don’t want to use the filter value, then you must call the Search knowledge articles action and provide the search text to search for external published articles. 
+ - If you want to use filter, then configure the filter using knowledge article entity attributes. More information: [knowledgearticle EntityType](/customer-engagement/web-api/knowledgearticle?view=dynamics-ce-odata-9). To write a Dataverse search query using filters, see [Search for tables and rows by using Dataverse search](/powerapps/user/relevance-search).
+1. Update the message node with the output from the extended topic and select **Save**.
   
 ## Use the Power Automate flow template
 
