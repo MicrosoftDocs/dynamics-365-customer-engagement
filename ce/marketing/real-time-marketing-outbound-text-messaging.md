@@ -31,7 +31,7 @@ Text messages (SMS) allow you to reach customers directly on their mobile device
 
 It's important to remember that real-time marketing sends *outbound* text messages, meaning the Dynamics 365 Marketing app doesn't track responses except for compliance-related keywords such as "STOP." Marketing also does not currently manage replies. As [discussed below](real-time-marketing-outbound-text-messaging.md#track-your-text-message-metrics-from-channel-insights), however, the app does track text messaging metrics for channel insights purposes.
 
-## Add a sender number using the Azure Communication Services preview
+## Add a sender number using the Azure Communication Services preview (US only)
 
 To generate an Azure Communication Services preview phone number to use in real-time marketing, go to **Settings** in the area switcher menu. Then go to **Customer engagement** > **Azure SMS preview** and select **+New text message sender** on the top ribbon.
 
@@ -48,9 +48,9 @@ Toll-free numbers are a good option for transactional A2P messaging, which means
 > [!TIP]
 > Carriers, just like email providers, have ways of filtering spam messages. This results in the phone number being blocked and becoming unusable. Due to carrier filtering, you should only use toll-free numbers for transactional messages (as opposed to promotional messages). We recommend you avoid sending promotional content or misleading information. Promotional content includes free products or discount offers.
 
-## Add a sender number from a Twilio or TeleSign account
+## Add a sender number from a Twilio or TeleSign account (Worldwide)
 
-You can purchase new or reuse existing SMS accounts with Twilio or TeleSign to send text messages in real-time marketing. The integration works for all countries for which a phone number can be purchased through TeleSign or Twilio.
+You can purchase new or reuse existing SMS accounts with Twilio or TeleSign to send text messages in real-time marketing. **The integration works for all countries** for which a phone number can be purchased through TeleSign or Twilio.
 
 > [!IMPORTANT]
 > To ensure that third party SMS providers handle STOP commands properly, you must configure your consent settings with the provider directly.

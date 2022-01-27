@@ -1,7 +1,7 @@
 ---
 title: "Configure Microsoft Teams chats in Customer Service | Microsoft Docs"
 description: "Learn how to configure Microsoft Teams chat functionality in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
-ms.date: 01/19/2022
+ms.date: 01/24/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -167,6 +167,7 @@ For any view that's selected, keep in mind the following details:
  
 - For other out-of-box standard record types, including account, contacts, knowledge article, and email, the default view is the **Quick find** view.
 
+
 ## Assign permissions to unlink chats for specific user and user roles
 
 Agents can create Teams chats directly from Dynamics 365 apps and then link them to records. They can also link existing chats to Dynamics 365 records from the Teams embedded chat experience.
@@ -247,6 +248,30 @@ The following table summarizes whether a user can unlink a linked chat based on 
 |N |Y |N |N |N |N |
 |N |N |N |N |N |N |
 ||||||||
+
+## Configure the ability for users to join chats
+
+As an admin, you can enable users to view and easily join chats that are linked to records they have write access to, even if they weren't orginally part of those chats. You can configure the ability for users to join linked chats at a record-type level. This functionality can help you tailor the user experience for your business processes.
+
+> [!NOTE]
+> The join chat feature only works for linked chats, and is on by default for the case record type.
+
+The ability for users to join existing chats related to cases is especially useful for the following scenarios:
+
+- **Case transfers**: If an agent has onboarded to a case that wwas previously handled by another agent, they can join existing linked chats to better understand the context of the case and what steps the previous agent had taken, and then continue to collaborate with their relevant colleagues.
+- **Case escalations**: If a case needs attention from someone with specific knowledge, the subject-matter expert who reviews it can participate in the relevant conversations.
+
+**To turn on or off the join chat capability for a record type**:
+
+1. In the Customer Service Hub app, select **Change area** in the lower-left corner, and then select **Service Management**.
+2. Under **Microsoft Teams Integration**, select **Collaboration**.
+3. Select the specific record type (for example, Case), and then in the settings pane, toggle **Join chat** on or off.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Settings page to turn on or off the join chat feature.](media/teams-configure-join-chat.png "Settings page for turning the join chat feature on or off")
+
+4. Select **Save**.
+
 
 ### See also
 

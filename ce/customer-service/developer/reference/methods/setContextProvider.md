@@ -1,28 +1,23 @@
 ---
 title: "setContextProvider (Omnichannel for Customer Service JavaScript API reference) | MicrosoftDocs"
 description: "Includes syntax and parameter information for the setContextProvider method in Omnichannel for Customer Service JavaScript API reference. Also included is a sample code for using the method."
-ms.date: 08/09/2021
+ms.date: 01/21/2022
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
 ---
-# setContextProvider method - Omnichannel for Customer Service JavaScript API reference
+# setContextProvider 
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
 [!INCLUDE[setContextProvider-description](../includes/setContextProvider-description.md)]
 
 > [!IMPORTANT]
-> 
-> - The setContextProvider method for authenticated chat has been deprecated and will not be supported after October 01, 2021. Microsoft recommends that you use the JWT token for authenticated chat. More information: [Send authentication tokens](../../../send-auth-token-starting-chat.md)
-> - From October 01, 2021, only 100 custom context variables can be passed for each chat and session.
-> - The custom context is a collection of key/value pairs. Only primitive values are allowed for any key.
-> - The keys of custom context must correspond to context variables that are created for the associated workstream in Omnichannel for Customer Service.
-> - The custom context provider would be invoked by live chat widget when starting a new chat.
-
-> [!NOTE]
-> Listen to the **lcw:ready** event raised by a live chat before calling the live chat SDK methods. The live chat methods should be invoked after the **lcw:ready** event is raised. You can listen for this event by adding your own event listener on the window object.
+>
+> - The setContextProvider method is supported only for unauthenticated chat. For authenticated chat, you must use the JSON Web Token (JWT). More information: [Send authentication tokens](../../../send-auth-token-starting-chat.md)
+> - You can pass only 100 custom context variables during each chat session.
+> - The live chat SDK methods should be invoked after the [lcw:ready event](../events/lcw-ready.md) is raised. You can listen for this event by adding your own event listener on the window object.
 
 ## Syntax
 
@@ -59,6 +54,7 @@ In the preceding sample code, the `value` attribute contains the value of the co
 The `isDisplayable` attribute, if set to `true`, will display the passed items in the third tab on the Conversation Summary Control for a conversation.
 
 > [!NOTE]
+>
 > If no context variables have been created under live workstream with a matching logical name, then the variables are created at runtime with the type String. More information: [Context variables](../../../context-variables-for-bot.md#add-context-variables)
 
 ![Display context keys.](../../../media/context-variable-display.png "Display context keys")
