@@ -27,25 +27,25 @@ For more information, see [Knowledge Base Search control](#knowledge-base-search
 
 ## Knowledge base search control powered by Dataverse search
 
-Knowledge base search in the Customer Service Hub comes with improved search functionality. The knowledge base search is enabled to use Dataverse Search in the knowledge base search control area, in addition to the global search area where Dataverse Search is already enabled.
+Knowledge base search in the Customer Service Hub comes with improved search functionality. The knowledge base search is enabled to use Dataverse search in the knowledge base search control area, in addition to the global search area where Dataverse search is already enabled.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Dataverse search](/power-platform/admin/configure-relevance-search-organization)
 
-Dataverse Search uses Azure search service to index and search records. Dataverse Search provides improved search functionality, like better relevance, highlighted search keyword text, and the ability to search within attachments and notes. With Dataverse Search, you can also configure searchable fields in the knowledge article entity. 
+Dataverse search uses Azure search service to index and search records. Dataverse search provides improved search functionality, like better relevance, highlighted search keyword text, and the ability to search within attachments and notes. With Dataverse search, you can also configure searchable fields in the knowledge article entity. 
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure searchable fields for Dataverse Search](/power-platform/admin/configure-relevance-search-organization)
 
 
 > [!NOTE]
-> To enable Dataverse Search for the knowledge article entity, see [Enable Dataverse Search](/power-platform/admin/configure-relevance-search-organization) and [Select entities for Dataverse Search](/power-platform/admin/configure-relevance-search-organization).</br>
-If Dataverse search is not enabled for the entity, standard Full-text search is used. 
+> To enable Dataverse search for the knowledge article entity, see [Enable Dataverse Search](/power-platform/admin/configure-relevance-search-organization) and [Select entities for Dataverse Search](/power-platform/admin/configure-relevance-search-organization).</br>
+If Dataverse search is not enabled for the entity, standard full-text search is used. 
 
 For more information, see [Understand knowledge base search mechanisms](knowledge-base-search-methods.md).
 
 
-### Before you begin using Dataverse Search
+### Before you begin using Dataverse search
 
-Dataverse Search uses the scoring concepts as defined by Azure search. To be able to search the knowledge base using Dataverse Search, certain view columns must be configured in the Quick Find view columns list. If any of these columns are deleted or missing, the search query displays an error.
+Dataverse search uses the scoring concepts as defined by Azure search. To be able to search the knowledge base using Dataverse search, certain view columns must be configured in the Quick Find view columns list. If any of these columns are deleted or missing, the search query displays an error.
 
 > [!NOTE]
 > An admin can configure the knowledge article quick find view columns list by navigating to **Settings > Customizations > Entities > Knowledge Article > Views > Quick Find View > View Columns**.
@@ -124,17 +124,17 @@ Type a keyword in the search field to search for knowledge articles.
   |3.| The number of times the article has been viewed. |
   |4.| Article number (Preview)|
   |5.| Info card that displays search term matches from keywords, description, attachments, and any other custom fields. (Preview) |
-  |6.| Search results across attachments. The attachment title is displayed only when the search term matches content in the attachment. (Preview)|
+  |6.| Search results across attachments. The attachment title is displayed only when the search term matches the content in the attachment. (Preview)|
 
   > [!NOTE]
-  > The article number, info card displaying search term matches across custom fields, and the search results across attachments are in preview.
+  > The article number, info card displaying search term matches across custom fields, and search results across attachments are in preview.
 
-- If Dataverse Search is not enabled, the keywords that you enter will initiate a search (using the Full-text search mechanism) in the following fields of a knowledge article: **Title**, **Content**, **Keywords**, **Description**, and **Article Public Number**.
+- If Dataverse search is not enabled, the keywords that you enter will initiate a search (using the Full-text search mechanism) in the following fields of a knowledge article: **Title**, **Content**, **Keywords**, **Description**, and **Article Public Number**.
 
   > [!NOTE]
   > If there's a style tag with CSS styles at the top of the article, the summary of the content in the knowledge search results list will contain style tags. Use inline CSS styling instead of putting styles in style tags.
 
-- If Dataverse Search is enabled, you can configure the fields based that you want to be searched for. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure searchable fields for Dataverse Search](/power-platform/admin/configure-relevance-search-organization) 
+- If Dataverse search is enabled, you can configure the fields based that you want to be searched for. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure searchable fields for Dataverse Search](/power-platform/admin/configure-relevance-search-organization) 
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add the Knowledge Base Search control to Main forms](add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-main-forms)
 

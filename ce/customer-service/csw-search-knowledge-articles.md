@@ -25,15 +25,15 @@ In Customer Service workspace, knowledge base search lets you search for relevan
 
 - The productivity pane and knowledge search must be enabled in the app profile manager.
 - The anchor tab should be a case or conversation for the knowledge search pane to be displayed.
-- Dataverse search must be enabled for search.
+- Dataverse search must be enabled.
 
 The knowledge base search uses the dataverse search mechanism in the knowledge base search control area. More information: [How Dataverse search works](/power-platform/admin/configure-relevance-search-organization). Before you begin using dataverse search, your administrator must configure certain view columns in the Quick Find view columns list. More information: [Before you begin using Dataverse Search](search-knowledge-articles-csh.md#before-you-begin-using-dataverse-search).
 
 ## Use the knowledge search pane to search articles
 
-In Customer Service workspace, for a case, when you select the Knowledge Search tab, knowledge articles that match the case title are displayed on the **Knowledge Search** pane. These articles are displayed based on relevance and full-text search mechanisms.
+In Customer Service workspace, for a case, when you select the Knowledge Search tab, knowledge articles that match the case title are displayed on the **Knowledge search** pane. These articles are displayed based on relevance and full-text search mechanisms.
 
-The knowledge articles are applicable for all knowledge-enabled entities. By default, the full text search displays 10 results and dataverse search displays 50 results. You can also use the search box to enter keywords and search for articles if those displayed by default are not relevant.
+The knowledge articles are applicable for all knowledge-enabled entities. By default, the full-text search displays 10 results and Dataverse search displays 50 results. You can also use the search box to enter keywords and search for articles if those displayed by default are not relevant.
 
 :::image type="content" source="media/csw-knowledge-tab.png" alt-text="View features in knowledge base search":::
 
@@ -46,14 +46,14 @@ The knowledge articles are applicable for all knowledge-enabled entities. By def
   |5.| Info card that displays search term matches from keywords, description, attachments, and any other custom fields. (Preview) |
   |6.| Lets you link or unlink the article to the entity, such as the case.|
   |7.| Status and visibility tags for the article.|
-  |8.| Search results across attachments. The attachment title is displayed only when the search term matches content in the attachment. (Preview)|
+  |8.| Search results across attachments. The attachment title is displayed only when the search term matches the content in the attachment. (Preview)|
   
 > [!NOTE]
-> The article number, info card displaying search term matches across custom fields, and the search results across attachments are in preview.
+> The article number, info card displaying search term matches across custom fields, and search results across attachments are in preview.
 
 ## Use the knowledge search pane to work on your articles
 
-You can also perform the following actions on your knowledge article from the **Knowledge Search** pane.
+You can also perform the following actions on your knowledge article from the **Knowledge search** pane.
 
 ### View the knowledge article on the application tab
 
