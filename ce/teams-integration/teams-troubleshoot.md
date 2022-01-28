@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot Microsoft Teams integration with Dynamics 365 app"
 description: "Find information about error messages might you receive when integrating Microsoft Teams with customer engagement apps, as well as possible resolutions."
-ms.date: 08/24/2021
+ms.date: 01/28/2022
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -206,7 +206,7 @@ You can [embed a canvas app](/powerapps/maker/model-driven-apps/embed-canvas-app
 
 ### Authentication issue in Teams when you have embedded apps within Dynamics 365
 
-You may get an authentication failure when you open a pinned Dynamics 365 tab in Teams desktop client that has apps, such as Power BI, LinkedIn Navigation widget, or KnowledgeBase Control enabled. 
+You may get an authentication failure when you open a pinned Dynamics 365 tab in Teams desktop client that has apps, such as Power BI, Power Automate, LinkedIn Navigation widget, or KnowledgeBase Control enabled. 
 
 To work around this issue, open Teams on the web and close the desktop version. 
 
