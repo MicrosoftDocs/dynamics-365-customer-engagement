@@ -27,13 +27,10 @@ Frontline workers can view their scheduled work orders on a map from the Field S
 
 ## Prerequisites
 
-To use booking maps, your administrator must **enable Geospatial services**. Go to [https://admin.powerplatform.microsoft.com/](https://admin.powerplatform.microsoft.com/). Select your environment. Then go to **Settings** > 
-**Product** > **Features**. 
-
-Set _Geospatial Services_ to **On**.
+To use booking maps, your administrator must enable booking maps for mobile in Field Service Settings. Within the Field Service App module in CRM, navigate to Settings then Field Service SEttings > Work Order / Booking. At the bottom you will find a toggle "Enable Booking Map for Field Serive Mobile".  By enabling this toggle **ON** you will enable the Booking Maps feature for mobile users. 
 
 > [!div class="mx-imgBorder"]
-> ![The Power Platform admin center, showing the geospatial services option.](./media/booking-maps-settings.png)
+> ![The Power Platform admin center, showing the geospatial services option.](./media/EnableBookingMaps.png)
 
 
 ## Schedule work orders
