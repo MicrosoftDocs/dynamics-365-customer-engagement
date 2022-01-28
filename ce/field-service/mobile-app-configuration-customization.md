@@ -1,5 +1,5 @@
 ---
-title: "Customizations and configurations for the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
+title: "Customizations and configurations for Field Service Mobile | MicrosoftDocs"
 description: Learn about customizations and configurations for the Field Service (Dynamics 365) mobile app
 ms.date: 10/19/2018
 ms.reviewer: krbjoran
@@ -14,9 +14,12 @@ search.app:
   - D365FS
 ---
 
-# Customizations and configurations for the Field Service (Dynamics 365) mobile app
+# Customizations and configurations for the Field Service Mobile (Xamarin app)
 
-After setting up the [Field Service mobile application](/dynamics365/customer-engagement/field-service/install-field-service#download-the-field-service-mobile-app-on-a-phone-or-tablet), you can customize and configure the mobile user interface and data based on your business needs. 
+> [!IMPORTANT]
+> Field Service Mobile (Xamarin app) will be end of life on **June 30, 2022**. Mobile configurator licenses will no longer be granted to new tenants onboarding with Dynamics 365 Field Service as of **June 30, 2021**. New tenants coming online should start with the new [Field Service (Dynamics 365) mobile](mobile-2020-power-platform.md) app. For more information, visit [the documentation](mobile-power-app-get-started.md). 
+
+After setting up [Field Service Mobile app](/dynamics365/customer-engagement/field-service/install-field-service#download-the-field-service-mobile-app-on-a-phone-or-tablet), you can customize and configure the mobile user interface and data based on your business needs. 
 
 The [Woodford guide](https://www.resco.net/downloads/Woodford_Guide.pdf) provides guidance for customizing and configuring the mobile application via the Woodford solution. All mobile customizations and configurations including the examples below are performed via the Woodford solution by navigating to **Settings > Woodford > MobileCRM Woodford**.
 
