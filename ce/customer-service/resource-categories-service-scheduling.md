@@ -37,14 +37,14 @@ Make sure that you have the required security role or equivalent permissions.
    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
     1. On the Customer Service admin center (preview) site map, select **Operations > Service Scheduling**.
-    2.  In the **Facilities & equipment** section, select **Manage**.
-        The **Local Facilities/Equipment** view is displayed. You can switch between various system views using the drop-down list.  
+    2.  In the **Resource categories** section, select **Manage**.
+        The **Active Resource Categories** view is displayed. You can switch between various system views using the drop-down list.  
 
    ### [Customer Service Hub](#tab/customerservicehub)
 
     1. On the Customer Service Hub site map, go to **Scheduling**.
-    2. From the list of entity records, select **Scheduling > Facilities/Equipment**.
-       The **Local Facilities/Equipment** view is displayed. You can switch between various system views using the drop-down list.
+    2. From the list of entity records, select **Scheduling > Resource categories**.
+       The **Active Resource Categories** view is displayed. You can switch between various system views using the drop-down list.
 
 2. On the command bar, select **New** to create a new bookable resource category. 
 3. In the **General** section:
