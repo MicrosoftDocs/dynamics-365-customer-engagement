@@ -1,7 +1,7 @@
 ---
 title: "Import data into Dynamics 365 Sales | MicrosoftDocs"
 description: "Get your data in bulk into Dynamics 365 Sales by importing it."
-ms.date: 10/01/2019
+ms.date: 28/01/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
