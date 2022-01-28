@@ -27,9 +27,9 @@ Integration with Dynamics 365 Guides lets Field Service customers attach mixed r
 
 1. Create a guide using the Dynamics 365 Guides PC and HoloLens apps. For information on creating a guide, see:
   
-   - [Use the PC authoring app to create a guide](https://docs.microsoft.com/dynamics365/mixed-reality/guides/pc-authoring)
+   - [Use the PC authoring app to create a guide](/dynamics365/mixed-reality/guides/pc-authoring)
    
-   - [Use the HoloLens app to place your holograms](https://docs.microsoft.com/dynamics365/mixed-reality/guides/hololens-authoring)
+   - [Use the HoloLens app to place your holograms](/dynamics365/mixed-reality/guides/hololens-authoring)
    
 2. Create a Field Service work order and attach a service task to it. 
 
