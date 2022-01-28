@@ -1,13 +1,9 @@
 ---
 title: "Dynamics 365 Field Service version history | MicrosoftDocs"
 description: Version history for Dynamics 365 Field Service
-ms.date: 04/09/2021
+ms.date: 01/28/2022
 ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
-
-
-
-
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -68,17 +64,17 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 (Includes Universal Resource Scheduling version [3.12.69.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#312691)).
 
-- Bug fix for Estimated Duration in the Incident was incorrectly recalculated to zero even while it was originally set to 1 hour when work order service tasks with estimated       duration of zero are deleted.
-- Fixed a bug in the Field Service (Dynamics 365) mobile app to prevent the booking calendar control from jumping or jittering when scrolling through bookings. 
+- Fixed bug: Estimated duration in the incident was incorrectly recalculated to zero even if it was originally set to one hour when work order service tasks with estimated       duration of zero are deleted.
+- Fixed bug: In the Field Service (Dynamics 365) mobile app, introduced a fix to prevent the booking calendar control from jumping or jittering when scrolling through bookings. 
 
 ## 8.8.57.19
 
 (Includes Universal Resource Scheduling version [3.12.68.8](/dynamics365/field-service/field-service-version-history-resource-scheduling#312688)).
 
-- Bug fix when Date Window Start and Date Window End fields are not visible when field service settings are updated to show.
-- Bug fix when customer cannot set Auto Generate Work Order to No with the Agreement BPF.
-- Bug fix when Case Field "description" was not copied to Work order Instructions fields. 
-- Fixed a bug in Field Service (Dynamics 365) mobile where under some circumstances, navigating back from a booking to the booking calendar would display previous month instead of current month. 
+- Fixed bug: **Date Window Start** and **Date Window End** fields are not visible when field service settings are updated to show.
+- Fixed bug: Customer can't set **Auto Generate Work Order** to *No* with the agreement business process flow.
+- Fixed bug: Case field **Description** was not copied to work order instructions fields. 
+- Fixed bug: Field Service (Dynamics 365) mobile--under some circumstances, navigating back from a booking to the booking calendar would display previous month instead of current month. 
 
 ## 8.8.56.23
 
@@ -99,7 +95,7 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 (Includes Universal Resource Scheduling version [3.12.66.3](/dynamics365/field-service/field-service-version-history-resource-scheduling#312663)).
  
  - Fixed issue where updating work order product failed for users with limited privileges to the parent work order record.
- - Updated the Field Service dispatcher and resource security roles to have the read privileges of ```BookingSetupMetadata``` set to organization.
+ - Updated the Field Service dispatcher and resource security roles to have the read privileges of `BookingSetupMetadata` set to organization.
 
 
 ## 8.8.53.36
