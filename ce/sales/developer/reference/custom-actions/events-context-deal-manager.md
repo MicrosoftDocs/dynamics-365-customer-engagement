@@ -22,8 +22,6 @@ As a developer, use this reference documentation to learn about the  events and 
 |||
 
 
-[!INCLUDE[cc-data-platform-banner](../../../../includes/cc-data-platform-banner.md)]
-
 >[!NOTE]
 >The *context object* that's referred to in this topic is different from the execution context of Microsoft Dataverse. The context object is specific to deal manager and supports the advanced configurations of the editable grid.
 
@@ -120,6 +118,7 @@ This returns an attribute object and has the following methods:
 | `getValue()` | -- | Retrieves the data value for an attribute. |
 | `getIsDirty()` | Boolean | Returns a Boolean value indicating whether there are any unsaved changes to the attribute value. |
 | `controls` | List | Returns a list of controls for each attribute object. <br> **Note**: The `controls` object list length is always 1, and `get(0)` can be directly used. |
+|`removeOption(Integer)`| NULL | Removes the option at the specified number from a list. See [Example 5](#remove-option) for a sample Javascript code.
 
 <a name=context.getformcontext-data-entity-attributes-getbyname-controls-get></a>
 #### context.getFormContext().data.entity.attributes.getByName("Attribute Name").controls.get(0)
@@ -288,10 +287,10 @@ function OnChange(executionContext) {
     }
 }
 ```
-<a name=remove-option> </a>
+<a name="remove-option"></a>
 **Example 5:**
 
-Let's write a Javascript code to remove the second option in the **Rating** drop-down field:
+Let's write a Javascript code to remove the second option (Warm) in the **Rating** drop-down field:
 
 :::image type="content" source="../../../media/remove-option.png" alt-text="Screenshot of the Rating field with the second option highlighted":::
 
@@ -300,14 +299,14 @@ Let's write a Javascript code to remove the second option in the **Rating** drop
     function OnRowLoad(executionContext) {
         executionContext.getFormContext().data.entity.attributes.forEach(attribute => {
         if(attribute.getName() == 'opportunityratingcode'){
-            attribute.controls.get(0).removeOption(2);
+            attribute.controls.get(0).removeOption(2); // 1 - Hot ,  2- Warm, 3 - Cold
         }
     });
     }    
     ```
-    > [!NOTE]
-    > The removeOption API is only available for the deal manager editable grid and side panel.
   
+> [!NOTE]
+> The removeOption API is only available for the deal manager editable grid and side panel.
 
 <a name=api-context-getwebapicontext></a>
 ### context.getWebApiContext()
