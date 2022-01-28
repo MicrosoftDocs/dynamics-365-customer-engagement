@@ -110,7 +110,7 @@ After the settings are published, you can open the seller's interface for the sa
 
 If you want to make advanced configurations for sales accelerator, select **Go to advanced sales accelerator settings** at the top of the quick setup panel. For information about advanced configurations, go to [Configure the sales accelerator for Sales Premium](enable-configure-sales-accelerator.md).
 
-:::image type="content" source="media/ds-sa-advanced_setup.png" alt-text="Sales accelerator quick setup panel.":::
+:::image type="content" source="media/ds-sa-advanced_setup.png" alt-text="Advanced settings link in quick setup panel for sales accelerator.":::
 
 ### Add the sales accelerator to a custom app
 
@@ -158,7 +158,7 @@ After the settings are enabled, your sellers can use Teams in Dynamics 365 and l
 
 If you want to make advanced configurations for Teams collaboration, select **Go to advanced Teams collaboration settings** at the top of the quick setup panel. For information about advanced configurations, go to [Install and set up Microsoft Teams integration](../teams-integration/teams-install-app.md).
 
-:::image type="content" source="media/ds-teams-collab-advanced-setup.png" alt-text="Teams collaboration quick setup panel.":::
+:::image type="content" source="media/ds-teams-collab-advanced-setup.png" alt-text="Advanced settings link in quick setup panel for Teams collaboration.":::
 
 ### Turn off Teams collaboration
 
@@ -218,7 +218,7 @@ After settings are enabled, sellers can make calls to their customers from withi
 
 If you want to make advanced configurations for Teams calls and conversation intelligence settings, select **Go to advanced conversation intelligence settings** at the top of the quick setup panel. For information about advanced configurations, go to [First-run setup experience of Microsoft Teams for conversation intelligence](fre-setup-ci-sales-app.md).
 
-:::image type="content" source="media/ds-ci-advanced-setup.png" alt-text="Teams calls + conversation intelligence quick setup panel.":::
+:::image type="content" source="media/ds-ci-advanced-setup.png" alt-text="Advanced settings link in quick setup panel for Teams calls + conversation intelligence.":::
 
 ### Turn off Teams calls and conversation intelligence
 
@@ -276,7 +276,7 @@ After the models are trained and published, the **Lead score** and **Opportunity
 
 You may want to modify the lead and opportunity scoring configurations, for example, to ensure the model is trained on fields that are most relevant to your organization or to add a separate model for a different line of business. To do so, go to the advanced configurations for lead and opportunity scoring settings, by selecting **Go to advanced lead score settings** and **Go to advanced opportunity score settings** in their respective sections. For information about advanced configurations, go to [Configure predictive lead scoring](configure-predictive-lead-scoring.md) and [Configure predictive opportunity scoring](configure-predictive-opportunity-scoring.md).
 
-:::image type="content" source="media/ds-scoring-advanced-setup.png" alt-text="Lead and opportunity scoring quick setup panel.":::
+:::image type="content" source="media/ds-scoring-advanced-setup.png" alt-text="Advanced settings link in quick setup panel for Lead and opportunity scoring.":::
 
 ### Turn off lead and opportunity scoring
 
