@@ -1,7 +1,7 @@
 ---
 title: "Digital selling | MicrosoftDocs"
 description: "Enable digital selling capabilities with the Dynamics 365 Sales Enterprise license."
-ms.date: 01/18/2022
+ms.date: 01/28/2022
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -10,7 +10,7 @@ manager: shujoshi
 ---
 
 # Digital selling capabilities in Sales Enterprise
-<!--note from editor: I've asked the editors to verify the pattern that I've followed here, which is "sales accelerator" is lowercase, and we can use "the" if it's awkward not to. Also, I've added "the" when it's "the Sales Hub app," but otherwise it's just "Sales Hub."-->
+
 Use selected Dynamics 365 Sales Premium features (sales accelerator, conversation intelligence, and predictive scoring) with the Dynamics 365 Sales Enterprise license.
 
 > [!NOTE]
