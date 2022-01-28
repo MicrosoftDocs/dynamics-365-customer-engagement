@@ -20,7 +20,7 @@ search.app:
 
 # Create outbound text messages
 
-Text messages (SMS) allow you to reach customers directly on their mobile devices. You can send text messages from real-time marketing by generating a phone number to use within the app. This article explains how to add a phone number generated in the Azure Communication Services preview, Twilio, or in TeleSign, and how to create and send text messages in real-time marketing.
+Text messages (SMS) allow you to reach customers directly on their mobile devices. You can send text messages from real-time marketing by generating a phone number to use within the app. This article explains how to add a phone number generated in the Azure Communication Services preview, Twilio, or TeleSign, and how to create and send text messages in real-time marketing.
 
 > [!NOTE]
 > Text messaging using a toll free number generated in the Azure Communication Services preview is only supported in the countries listed below.
@@ -40,7 +40,7 @@ Once you agree to the *Voice and text message terms* and select your country or 
 > [!div class="mx-imgBorder"]
 > ![Generate phone number screenshot.](media/real-time-marketing-text-number.png "Generate phone number screenshot")
 
-Toll-free numbers are a good option for transactional A2P messaging, which means sending automated messages to large groups. They don’t require template registration, therefore, once you get a number you can immediately start sending messages.
+Toll-free numbers are a good option for transactional A2P messaging, which means sending automated messages to large groups. Toll-free numbers don’t require template registration, so once you get a number you can immediately start sending messages.
 
 > [!NOTE]
 > During the Azure Communication Services preview, the text message service is limited to a single toll-free phone number with a limited number of outbound messages per month. The phone number you receive will be your dedicated number for the duration of the preview.
@@ -50,14 +50,14 @@ Toll-free numbers are a good option for transactional A2P messaging, which means
 
 ## Add a sender number from a Twilio or TeleSign account (Worldwide)
 
-You can purchase or reuse existing Twilio or TeleSign SMS accounts to send text messages in real-time marketing. **The integration works for all countries** in which a phone number can be purchased through TeleSign or Twilio.
+You can purchase or reuse an existing Twilio or TeleSign SMS account to send text messages in real-time marketing. **The integration works for all countries** in which a phone number can be purchased through TeleSign or Twilio.
 
 > [!IMPORTANT]
 > To ensure that third party SMS providers handle STOP commands properly, you must configure your consent settings directly with the provider.
 
 ### Sign up for and configure a Twilio account
 
-The Twilio integration uses Twilio's public APIs to send and receive text messages. You must sign up for a Twilio account to enable the real-time marketing SMS integration. To create a Twilio account:  
+Twilio integration uses Twilio's public APIs to send and receive text messages. You need to sign up for a Twilio account to enable real-time marketing SMS integration. To create a Twilio account:  
   
 1. Go to [Twilio](https://www.twilio.com/try-twilio) and sign up for a trial account that can be upgraded to pay-as-you-go. If you expect to send high volumes of SMS traffic (more than 100,000 messages per month), contact Twilio to request an invoiced enterprise account.
 1. In your Twilio account [General Settings](https://console.twilio.com/us1/account/manage-account/general-settings), note the **ACCOUNT SID** and **AUTH TOKEN** values. These values are required to create the integration between Dynamics 365 Marketing and Twilio.
@@ -65,16 +65,16 @@ The Twilio integration uses Twilio's public APIs to send and receive text messag
 
 ### Sign up for and configure a TeleSign account
 
-Like Twilio, the TeleSign integration uses TeleSign's public APIs to send and receive text messages. You must sign up for a TeleSign account to enable TeleSign SMS integration. To create a TeleSign account:  
+Like Twilio, TeleSign integration uses TeleSign's public APIs to send and receive text messages. Also, like Twilio, you’ll need to sign up for a TeleSign account to enable TeleSign SMS integration. To create a TeleSign account:  
   
 1. Go to [TeleSign](https://portal.telesign.com/signup) and sign up for a trial account. If you expect to send high volumes of SMS traffic (more than 100,000 messages per month), contact TeleSign to request an invoiced enterprise account.
 1. In your TeleSign account [Dashboard](https://portal.telesign.com/portal/dashboard), note the **CUSTOMER ID** and **API KEY** values. These values are required to create the integration between Dynamics 365 Marketing and TeleSign.
 1. Purchase SMS phone numbers through your TeleSign account.
-1. In the [TeleSign SMS Settings](https://portal.telesign.com/portal/sms-settings) page, switch the **Status Callback** toggle to **Enabled.** This applies for **Standard accounts**. If you have an **Enterprise account**, you’ll need to contact TeleSign to enable the Status Callback setting for you.
+1. On the [TeleSign SMS Settings](https://portal.telesign.com/portal/sms-settings) page, switch the **Status Callback** toggle to **Enabled.** This applies to **Standard accounts**. If you have an **Enterprise account**, you’ll need to contact TeleSign to enable the status callback setting for you.
 
 ### Set up your Twilio or TeleSign sender numbers in the Marketing app
 
-To add a Twilio or TeleSign sender number to Marketing:
+To add a Twilio or TeleSign sender number to the Marketing app:
 
 1. Go to **Settings** in the area switcher menu. Then go to **Customer engagement** > **SMS providers** and select **+Text number setup** in the top ribbon.
 1. Add a name to associate with the number. This is for your identification purposes, so adding the provider name makes sense. Then, select the **Next** button.
@@ -138,7 +138,7 @@ When you send the text message from a journey, it will automatically populate th
 
 ## Track your text message metrics from channel insights
 
-You can see how customers reacted to your text messages by checking the text message analytics in the message itself and within journeys.
+You can see how customers react to your text messages by checking the text message analytics in the message itself and within journeys.
 
 > [!NOTE]
 > Delivery reports for text messages are received from different carriers in every country or region. This might result in false positives or negatives at times, depending on the carrier. Consider this when you check the delivery reports of your text messages.
