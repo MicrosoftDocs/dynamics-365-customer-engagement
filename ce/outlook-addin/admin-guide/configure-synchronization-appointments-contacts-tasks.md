@@ -1,7 +1,7 @@
 ---
 title: "Configure synchronization for appointments, contacts, and tasks | MicrosoftDocs"
 ms.custom:
-ms.date: 2/1/2021
+ms.date: 1/27/2022
 ms.reviewer:
 ms.service: crm-online
 ms.suite:
@@ -33,48 +33,6 @@ By default, some synchronization between Dynamics 365 and Outlook for Dynamics 3
  ![System Settings Synchronization tab.](../media/crm-itpro-systemsynctab.png "System Settings Synchronization tab")
  
 For information on synchronization works, see [Synchronization logic for appointments, contacts, and tasks](/power-platform/admin/sync-logic.md).
-
-  
-## Address synchronization for Contacts  
-  
-> [!NOTE]
->  This section applies to message synchronization done through [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] or server-side synchronization. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Integrate your email system](/power-platform/admin/integrate-synchronize-your-email-system)
-
- Admins have two options they can specify for how contact synchronization occurs.
-
- **Synchronize mailing address only in Outlook contact**
-
- By default, just one [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] mailing address field is synchronized between [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)]. This is sufficient for most organizations.
-
- **Synchronize all three addresses (Business, Home, Other) in Outlook contact**
-
- Choose this option to synchronize all three Outlook mailing address fields (Business, Home, and Other fields) between [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)].
-
-> [!WARNING]
->  Enabling this option can cause data loss if you have existing data. This is due to the remapping of the attributes for existing tracked contacts. We recommend you test this option prior to deployment to understand how the re-mapping affects your environment and your data. In most cases, you should have the full data in one side (normally in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]) and have them sync to the other side (normally [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)]).  
-> 
->  [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Which fields can be synchronized between Dynamics 365 apps and Outlook?](which-fields-synchronized.md)
-  
-## Enable synchronization for tasks that are assigned in Outlook  
-  
-> [!NOTE]
->  This section applies to message synchronization done through [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] only. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Integrate your email system](/power-platform/admin/integrate-synchronize-your-email-system)
-
- By default, task synchronization is disabled. User created tasks in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] are not synchronized with the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] web application. To enable:
-
-1. [!INCLUDE[proc_settings_administration](../../includes/proc-settings-administration.md)]
-
-2. Choose **System Settings**, then choose **Synchronization**.
-
-3. Choose **Synchronize tasks that are assigned in Outlook**
-
-   **Considerations**
-
--   Recurring task synchronization is not supported. When users synchronize recurring tasks, the tasks do not synch.
-
--   The person assigning the task and the person the task is assigned to must be in the same organization.
-
--   Tasks cannot be synchronized to multiple email addresses.
 
 
 
