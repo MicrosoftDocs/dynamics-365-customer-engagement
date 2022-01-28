@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot Microsoft Teams integration with Dynamics 365 app"
-description: "Find information about error messages might you receive when integrating Microsoft Teams with customer engagement apps, as well as possible resolutions."
-ms.date: 08/24/2021
+description: "Find information about error messages might you receive when integrating Microsoft Teams with customer engagement apps, and possible resolutions."
+ms.date: 01/28/2022
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -28,21 +28,21 @@ This topic provides information about the error messages you might face with pos
 
 ## Troubleshoot configuration issues with Microsoft Teams integration
 
-Microsoft Teams integration uses SharePoint integration at the backend, so if there is a failure with SharePoint integration or OneDrive configuration, it will also fail when you enable Microsoft Teams integration.
+Microsoft Teams integration uses SharePoint integration at the backend, so if there's a failure with SharePoint integration or OneDrive configuration, it will also fail when you enable Microsoft Teams integration.
 
-If you get an error while configuring Microsoft Teams Integration from Dynamics 365, it might be because of the following pre-requisites are not met.
+If you get an error while configuring Microsoft Teams Integration from Dynamics 365, it might be because of the following pre-requisites aren't met.
 
-- SharePoint Integration is not configured, and OneDrive Integration is enabled. To Fix the issue, disable OneDrive.
+- SharePoint Integration isn't configured, and OneDrive Integration is enabled. To Fix the issue, disable OneDrive.
 
-- SharePoint Integration is not configured, but there is an active SharePoint site in your organization. To fix the issue, deactivate the SharePoint site.
+- SharePoint Integration isn't configured, but there's an active SharePoint site in your organization. To fix the issue, deactivate the SharePoint site.
 
-- SharePoint Integration is not configured, but there is SharePoint document locations created with an absolute URL in your organization. To fix the issue, delete locations with an absolute URL.
+- SharePoint Integration isn't configured, but there's SharePoint document locations created with an absolute URL in your organization. To fix the issue, delete locations with an absolute URL.
 
 - If SharePoint Online admin has enabled control access from unmanaged devices (conditional access policy) to allow/block SharePoint sites from unmanaged devices, then the same restrictions will be applied for Microsoft Teams integration because Microsoft Teams uses SharePoint sites for document management. This might block a user when they try to access a connected team channel file library on an app page. For more information, see [Control access from unmanaged devices](/sharepoint/control-access-from-unmanaged-devices). 
 
-- If you get this error: **You cannot enable Microsoft Teams integration since the environment is integrated with SharePoint on-premises**, this means that you are currently configured to use SharePoint on-premises for document management. You need to set up document management for customer engagement apps to use SharePoint Online. For more information, see [Set up apps to use SharePoint Online](/power-platform/admin/set-up-dynamics-365-online-to-use-sharepoint-online).
+- If you get this error: **You cannot enable Microsoft Teams integration since the environment is integrated with SharePoint on-premises**, this means that you're currently configured to use SharePoint on-premises for document management. You need to set up document management for customer engagement apps to use SharePoint Online. For more information, see [Set up apps to use SharePoint Online](/power-platform/admin/set-up-dynamics-365-online-to-use-sharepoint-online).
 
-### Error when you pin a record or view of any app to a team channel if the enhanced experience is not configured correctly by your customer engagement apps admin.
+### Error when you pin a record or view of any app to a team channel if the enhanced experience isn't configured correctly by your customer engagement apps admin.
 
 Error: **The admin has not consented to use user sync feature, you can add them manually**.
 
@@ -67,7 +67,7 @@ To fix the issue, disable the Enhanced Microsoft Teams integration feature.
 
 Error: **User does not have permissions to create SharePoint Site or Document Location. This record is not connected to Dynamics 365**.
 
-This means the user that is getting this error does not have sufficient permissions such as Create, Read, Write, Append, AppendTo and Delete for the user role to pin an entity to a Microsoft Teams channel; however, changes made to the record in Microsoft Teams will update in customer engagement apps in Dynamics 365.
+This means the user that is getting this error doesn't have sufficient permissions such as Create, Read, Write, Append, AppendTo and Delete for the user role to pin an entity to a Microsoft Teams channel; however, changes made to the record in Microsoft Teams will update in customer engagement apps in Dynamics 365.
 
 When the user tries to pin an entity to a Microsoft Teams channel, this error will display in the notification bar:
 
@@ -98,7 +98,7 @@ Now, when the user tries to pin the entity to the required Microsoft Teams chann
 
 ### Error: I can't find the Dynamics 365 app in the Microsoft Teams app store.
 
-This happens when the external app for Microsoft Teams service is not enabled by your Microsoft 365 admin. To fix the issue, do the following:
+This happens when the external app for Microsoft Teams service isn't enabled by your Microsoft 365 admin. To fix the issue, do the following:
 
 1. Sign in to [https://portal.office.com](https://portal.office.com).
 2. From the list of apps, select **Admin**.
@@ -206,7 +206,7 @@ You can [embed a canvas app](/powerapps/maker/model-driven-apps/embed-canvas-app
 
 ### Authentication issue in Teams when you have embedded apps within Dynamics 365
 
-You may get an authentication failure when you open a pinned Dynamics 365 tab in Teams desktop client that has apps, such as Power BI, LinkedIn Navigation widget, or KnowledgeBase Control enabled. 
+You may get an authentication failure when you open a pinned Dynamics 365 tab in Teams desktop client that has apps, such as Power BI, Power Automate, LinkedIn Navigation widget, or KnowledgeBase Control enabled. 
 
 To work around this issue, open Teams on the web and close the desktop version. 
 
