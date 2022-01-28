@@ -22,7 +22,7 @@ Tags help you quickly filter and identify sequences from a list by categories th
 
 ## What are tags?
 
-A *tag* is a label that's used to identify a sequence. The tag works as metadata to help you filter and find sequences. By tagging sequences, you can distinguish one sequence from another and easily choose a specific sequence from a huge list.<!--note from editor: Suggested.-->
+A *tag* is a label that's used to identify a sequence. The tag works as metadata to help you filter and find sequences. By tagging sequences, you can distinguish one sequence from another and easily choose a specific sequence from a huge list.
 
 You can perform the following activities on tags:
 
@@ -94,7 +94,7 @@ Nested tags allow you to group tags together so that it's easy to identify tags 
 
         In the **Nest tag under** field, select the parent tag. Currently, only four levels of hierarchy are supported, and each level can have up to 100 tags. For example, level 1 > level 2 > level 3 > level 4. If you try to add another node below the level 4 node, an error message is displayed.    
 
-        In this example, we're adding **United States of America**, **Canada**, and **Mexico** under the parent node **North America**.<!--note from editor: The screenshots all should say "United States of America," capital S. -->
+        In this example, we're adding **United States of America**, **Canada**, and **Mexico** under the parent node **North America**.
         
         >[!div class="mx-imgBorder"]
         >![Add the tags United States of America, Canada, and Mexico under the parent node North America.](media/sa-sequence-tags-nest-add-usa-can-mex.png "Add the tags United States of America, Canada, and Mexico under the parent node North America")     
@@ -120,7 +120,7 @@ You can edit a tag if you want to change its name or hierarchy level. In this ex
 
 1.	Open the tag manager.
 
-2.	Hover over a tag, and select the **Edit** icon.<!--note from editor: In the next three screenshots, please change "Mexico city" to "Mexico City." -->  
+2.	Hover over a tag, and select the **Edit** icon.  
 
     >[!div class="mx-imgBorder"]
     >![Select Edit tag.](media/sa-sequence-tags-edit-tag-select-edit.png "Select Edit tag")    
