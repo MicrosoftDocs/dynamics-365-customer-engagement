@@ -24,7 +24,7 @@ View and understand the report for sales acceleration to get a broad overview of
 
 ## What is sales acceleration reporting?
 
-Sales acceleration reporting gives you a broad overview of the sequences related to leads and opportunities in your organization. The reports use AI to provide insights into which sequences are doing better and emerging with the highest conversion rates.<!--note from editor: Or it could be "...emerging with the most successful conversion rates."--> Also, you can analyze metrics and key performance indicators (KPIs) to identify areas for improvement that might have the greatest effect on sales growth.
+Sales acceleration reporting gives you a broad overview of the sequences related to leads and opportunities in your organization. The reports use AI to provide insights into which sequences are doing better and emerging with the most successful conversion rates. Also, you can analyze metrics and key performance indicators (KPIs) to identify areas for improvement that might have the greatest effect on sales growth.
 
 >[!NOTE]
 >After your administrator enables reporting, the application might take up to 24 hours to display the data in the reports. When the reports are being provisioned for the first time, the following message is displayed:   
@@ -71,7 +71,7 @@ The following table shows the KPIs that are displayed in the report.
 | KPI | Description |
 |-----|-------------|
 | Lead conversion rate | The percentage of leads in a sequence that are successfully converted into opportunities. |
-| Avg.time (in days) for lead conversion | The average number of days<!--note from editor: Edit okay?--> a lead takes to be converted to an opportunity when it's connected to a sequence. |
+| Avg.time (in days) for lead conversion | The average number of days a lead takes to be converted to an opportunity when it's connected to a sequence. |
 | Avg.time (in days) for sequence completion | The average number of days it takes for a sequence to be completed in an attached record. |
 | Opportunity-to-win ratio | The percentage of opportunities in a sequence that are successfully converted into win deals. |
 | Avg.time (in days) for opportunity conversion | The average number of days that it takes for an opportunity in a sequence to be converted into a win deal. |
@@ -90,7 +90,7 @@ The following metrics are displayed in the charts.
 | Metric chart | Description |
 |--------------|-------------|
 | Sequence success rate | A breakdown of sequences that are active in your organization, with the percentage of records that have been successfully converted. |
-| Associated leads/opportunities with sequence | A breakdown of sequences with the status of their associated lead or opportunity records:<!--note from editor: Note that "status" doesn't have a plural form.--><br>•	Completed<br>•	Connected<br>•	Disconnected  |
+| Associated leads/opportunities with sequence | A breakdown of sequences with the status of their associated lead or opportunity records:<br>•	Completed<br>•	Connected<br>•	Disconnected  |
 | Sequence status | A breakdown of sequences by their status:<br>•	Completed<br>•	Disconnected<br>•	Connected  |
 | Sequence steps | A breakdown of sequence steps that are added to active sequences in your organization. |
 | Sequence steps by status | A breakdown of sequence steps by their status in all the sequences that they are added to:<br>•	Completed<br>•	Canceled<br>•	Skipped<br>•	Open |
