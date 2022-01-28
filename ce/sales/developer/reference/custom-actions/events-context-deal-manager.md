@@ -118,7 +118,7 @@ This returns an attribute object and has the following methods:
 | `getValue()` | -- | Retrieves the data value for an attribute. |
 | `getIsDirty()` | Boolean | Returns a Boolean value indicating whether there are any unsaved changes to the attribute value. |
 | `controls` | List | Returns a list of controls for each attribute object. <br> **Note**: The `controls` object list length is always 1, and `get(0)` can be directly used. |
-|`removeOption(Integer)`| NULL | Removes the option at the specified number from a list. See [Example 5](#remove-option) for a sample Javascript code.
+
 
 <a name=context.getformcontext-data-entity-attributes-getbyname-controls-get></a>
 #### context.getFormContext().data.entity.attributes.getByName("Attribute Name").controls.get(0)
@@ -131,7 +131,7 @@ This returns a control object mapping to the attribute and has the following met
 | `setDisabled(bool)` | -- | Sets the disabled value (true or false) to the control. |
 | `setNotification(message: string, uniqueId?: string)` | Boolean | Displays an error message for the control to indicate that data isn’t valid. When this method is used, a red cross icon appears next to the control within the cell. Hovering over the error icon will display the provided message. Selecting the error icon will reload the row and undo any changes. The `uniqueId` is used to clear this message when using the `clearNotification` method. |
 | `clearNotification(uniqueId?: string)` | Boolean | Removes a message that's already displayed for a control. If no unique ID is provided, all notifications for that control are removed. |
-
+|`removeOption(Integer)`| NULL | Removes the option at the specified number from a list. See [Example 5](#remove-option) for a sample Javascript code.
 
 > [!NOTE]
 > We recommend that the function names in the JavaScript file must match the event names and must accept the context object parameter.
