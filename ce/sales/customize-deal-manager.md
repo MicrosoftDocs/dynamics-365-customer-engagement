@@ -66,7 +66,7 @@ The deal manager charts help sellers visualize their pipeline better. As an admi
 
 The editable grid in the deal manager workspace lets sellers quickly view a list of opportunities that they're interested in. You can customize the editable grid to apply any business rules, or to include fields that sellers want to view by default and update.
 
-Customize the editable grid by adding a JavaScript library. These customizations include disabling fields based on a certain logic, preventing fields from being automatically saved, and setting error notifications for fields. Before you upload it, the JavaScript library must be created in accordance with the schemas defined for forecasting [events and context object](../sales-enterprise/developer/reference/custom-actions/events-context.md).  
+Customize the editable grid by adding a JavaScript library. These customizations include disabling fields based on a certain logic, removing options from a drop-down field, preventing fields from being automatically saved, and setting error notifications for fields. Before you upload it, the JavaScript library must be created in accordance with the schemas defined in [Override save, update, and load events for editable grid](developer/reference/custom-actions/events-context-deal-manager.md).  
 
 **To create and upload a JavaScript library**
 
@@ -98,7 +98,24 @@ Customize the editable grid by adding a JavaScript library. These customizations
 
     > [!NOTE]
     > -	The function names in the JavaScript file must match the event names and must accept the context object parameter. 
-    > -	The deal manager context object that's referred to in the example is different from the execution context of Microsoft Dataverse. Currently, the  deal manager context object is the same as the forecasting context object and supports advanced configurations of the underlying records grid in deal manager. More information: [Events and context object](../sales-enterprise/developer/reference/custom-actions/events-context.md)  
+    > -	The deal manager context object that's referred to in the example is different from the execution context of Microsoft Dataverse. More information: [Override save, update, and load events for editable grid](developer/reference/custom-actions/events-context-deal-manager.md)  
+
+     You can also remove the options in a drop-down field by writing a  Javascript code. In the following example, we'll remove the  second option in the **Rating** field:
+
+      :::image type="content" source="media/remove-option.png" alt-text="Screenshot of the Rating field with the second option highlighted":::
+
+
+    ```javascript
+    function OnRowLoad(executionContext) {
+        executionContext.getFormContext().data.entity.attributes.forEach(attribute => {
+        if(attribute.getName() == 'opportunityratingcode'){
+            attribute.controls.get(0).removeOption(2);
+        }
+    });
+    }    
+    ```
+    > [!NOTE]
+    > The removeOption API is only available for the deal manager editable grid and side panel.  
 
 1.	Add your JavaScript code in a script web resource:  
 
