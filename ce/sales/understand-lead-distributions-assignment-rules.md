@@ -37,7 +37,7 @@ There are two types of basic algorithms for lead distribution:
 
 ### Round robin
 
-In a round-robin-based assignment, the system looks at all the matched sellers of the lead and assigns it to the one who was assigned a lead least recently. This includes lead assignments from other sources, such as manual assignment or via an add-in.<!--note from editor: See https://styleguides.azurewebsites.net/Styleguide/Read?id=2700&topicid=28828-->
+In a round-robin-based assignment, the system looks at all the matched sellers of the lead and assigns it to the one who was assigned a lead least recently. This includes lead assignments from other sources, such as manual assignment or via an add-in.
 
 Let's take an example to understand round-robin distribution criteria.
 
@@ -58,13 +58,13 @@ Now, taking this process through one more cycle, another lead comes into the sys
 | Seller 2 | 12 July 2021 13:30 |
 | Seller 3 | 12 July 2021 12:00 |
 
-The algorithm finds that Seller 3 was assigned a lead least recently; thus, it assigns the lead to Seller 3 and updates Seller 3's last assigned lead time to the time of routing.<!--note from editor: Edit okay? -->
+The algorithm finds that Seller 3 was assigned a lead least recently; thus, it assigns the lead to Seller 3 and updates Seller 3's last assigned lead time to the time of routing.
 
 ### Load balancing
 
 In a load-balancing-based assignment, the system looks at all the matched sellers of the lead and assigns it to the seller who has maximum available capacity. This method helps to ensure that all salespeople are equally busy and minimizes uneven workloads.
 
-Let's take an example to understand load-balancing distribution criteria.<!--note from editor: Suggested, to be parallel with the previous section.-->
+Let's take an example to understand load-balancing distribution criteria.
 
 A lead comes into the system, and an application identifies the following potential sellers who can work on the lead, based on the selection criteria defined in the assignment rules.
 
@@ -84,7 +84,7 @@ Because Seller 3 has the maximum available capacity of all eligible sellers, the
 
 Now, to understand this better, consider the following series of events and assume that Sellers 1, 2, and 3 are all possible owners for the incoming leads.
 
-- **Event 1**: Two new leads that match the rule come into the system.<!--note from editor: Edit okay? This was a bit of a misplaced modifier.-->
+- **Event 1**: Two new leads that match the rule come into the system.
 
     Both leads are assigned to Seller 3, and the table looks like the following. 
     
@@ -116,7 +116,7 @@ Now, to understand this better, consider the following series of events and assu
 
 ## Additional lead distribution criteria
 
-In addition to being assigned leads through round-robin and load-balancing distribution criteria, sellers are sorted according to their respective priorities. This helps us to select the top candidate for the lead.<!--note from editor: Edit okay? I wasn't sure what this was saying.-->
+In addition to being assigned leads through round-robin and load-balancing distribution criteria, sellers are sorted according to their respective priorities. This helps us to select the top candidate for the lead.
 
 Let's consider the following table as an example.
 
@@ -142,7 +142,7 @@ In a load-balancing distribution, the priority of sellers is as follows.
 | Seller 2 | 12 |
 | Seller 1 | 10 |
 
-To fine-tune the lead assignment, we need to introduce additional processing to better prioritize sellers according to our requirements. The following additional options are available:<!--note from editor: Suggested. I'm not sure "Currently" is important to say here, but of course I could be wrong.-->
+To fine-tune the lead assignment, we need to introduce additional processing to better prioritize sellers according to our requirements. The following additional options are available:
 
 - [Consider seller capacity](#consider-seller-capacity)
 - [Consider seller availability](#consider-seller-availability)
@@ -155,7 +155,7 @@ Let's take an example for round robin. A lead comes in, and the following matche
 
 | Seller | Last assigned a lead | Available capacity |
 |--------|----------------------|--------------------|
-| Seller 1 | 12 July 2021 11:00 | –2<!--note from editor: Note the use of an en dash for a minus sign, via Writing Style Guide.--> |
+| Seller 1 | 12 July 2021 11:00 | –2 |
 | Seller 2 | 12 July 2021 10:00 | 0 |
 | Seller 3 | 12 July 2021 12:00 | 4 |
 | Seller 4 | 12 July 2021 13:00 | 1 |
@@ -187,7 +187,7 @@ When this option is selected, the system considers the work schedule of sellers 
 The algorithm analyzes sellers' availability in the order of the lead assignment priority (load balancing or round robin) and assigns the lead to a seller who is currently available.
 If the matched sellers are currently unavailable, the leads are assigned to sellers who are available within the next 24 hours of the time of routing. If no sellers are available within the next 24 hours, the leads are assigned to sellers who are available within the next 48 hours, and so on up to 120 hours. If no seller is available within 120 hours, the leads are marked as unassigned.
 
-The sellers are divided into six buckets, based on their availability. The buckets are viewed in top to bottom order. At the first non-empty bucket, the lead is distributed among the sellers in the bucket based on round-robin criteria. (For load balancing, only the first bucket is evaluated.)<!--note from editor: Edit okay?-->
+The sellers are divided into six buckets, based on their availability. The buckets are viewed in top to bottom order. At the first non-empty bucket, the lead is distributed among the sellers in the bucket based on round-robin criteria. (For load balancing, only the first bucket is evaluated.)
 
 >[!div class="mx-imgBorder"]
 >![Six buckets that sellers are divided into, based on their availability.](media/sa-ar-lead-distribution-buckets.png "Six buckets that sellers are divided into, based on their availability")
@@ -196,7 +196,7 @@ To know more about how sellers update their personal work schedule in the sales 
 
 Let's take some examples to walk through this.
 
-We'll use the following notation for availability at the time of routing:<!--note from editor: There's a slight ambiguity in these ranges of hours, whether we use words or en dashes. Usually we'd say "from 24 through 48 hours," but that doesn't tell us what happens at exactly 48 hours. "Within 24 hours" implies that the window ends at 23:59. If this is the case, the next line should actually be "1D - Earliest available from 24 through 47:59 hours", "2D - Earliest available from 48 through 71:59 hours," etc. Do you think this is worth specifying?-->
+We'll use the following notation for availability at the time of routing:
 
 -	0D - Currently available
 -	1D - Earliest available within 24 hours
@@ -222,7 +222,7 @@ Because we have two sellers who are available currently, the lead will be distri
 | Seller 3 | 0D | 12 July 2021 12:00 |
 | Seller 5 | 0D | 12 July 2021 10:30 |
 
-When a lead comes in<!--note from editor: Suggested, to match the wording elsewhere in this article.-->, it will be assigned to Seller 5. Further incoming leads for this rule will be assigned to Seller 3 and Seller 5 in a round-robin distribution, until the availability of the matched sellers changes.
+When a lead comes in, it will be assigned to Seller 5. Further incoming leads for this rule will be assigned to Seller 3 and Seller 5 in a round-robin distribution, until the availability of the matched sellers changes.
 
 **Example 2**: We have matched Sellers 1 through 5, and the primary distribution criteria is load balancing.
 
@@ -264,7 +264,7 @@ The earliest availability bucket is 1D; therefore, Seller 1 and Seller 2 are con
 Because the sellers aren't currently available, round-robin distribution will be used for these sellers.
 
 >[!NOTE]
->Remember that the primary selection criteria in this example is load balancing.<!--note from editor: Edit okay? I'm not sure what this note is doing here. Also, we've used "criteria" up to now, and even though it's more properly used with a plural verb, I'm not going down that path.-->
+>Remember that the primary selection criteria in this example is load balancing.
 
 So, let's assume the following last-assigned times.
 
