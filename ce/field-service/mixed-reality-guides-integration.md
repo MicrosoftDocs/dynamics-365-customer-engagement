@@ -20,8 +20,6 @@ search.app:
 
 Integration with Dynamics 365 Guides lets Field Service customers attach mixed reality guides to Field Service tasks. When work orders are assigned to technicians, the technicians can use a dedicated **Field Service** tab in the Dynamics 365 Guides HoloLens app to launch the assigned guide and get their work done. 
 
-![Select guide.](media/select-guide.PNG "Select guide")   
-
 > [!IMPORTANT]
 > To attach guides to service tasks in Field Service, you'll need Dynamics 365 Field Service version 8.6.0.183 or later.
 
@@ -60,7 +58,7 @@ Integration with Dynamics 365 Guides lets Field Service customers attach mixed r
       
 4. Have your technician launch the Dynamics 365 Guides app on HoloLens. After signing in, the technician will see the **Field Service** tab. The tab shows the guide (and any other guides assigned to them) along with a brief description of the booking and when that order is scheduled.
 
-    ![Select guide.](media/select-guide-3.PNG "Select guide")   
+    ![Select guide.](media/field-service-guides-integration-over.png "Select guide")   
     
     
 > [!NOTE]
