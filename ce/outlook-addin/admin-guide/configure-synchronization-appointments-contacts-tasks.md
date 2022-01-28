@@ -1,7 +1,7 @@
 ---
 title: "Configure synchronization for appointments, contacts, and tasks | MicrosoftDocs"
 ms.custom:
-ms.date: 11/28/2016
+ms.date: 2/1/2021
 ms.reviewer:
 ms.service: crm-online
 ms.suite:
@@ -34,28 +34,6 @@ By default, some synchronization between Dynamics 365 and Outlook for Dynamics 3
  
 For information on synchronization works, see [Synchronization logic for appointments, contacts, and tasks](/power-platform/admin/sync-logic.md).
 
-## Enable appointment attachment synchronization with Outlook or Exchange
-
-> [!NOTE]
->  This section applies to message synchronization done through [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] or server-side synchronization. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Integrate your email system](/power-platform/admin/integrate-synchronize-your-email-system) 
-  
- Users can attach documents, pictures, recordings, etc. to the appointments they create in the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] web application or [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. By default, appointment attachment synchronization is disabled. To enable:  
-  
-1. [!INCLUDE[proc_settings_administration](../../includes/proc-settings-administration.md)]  
-  
-2. Choose **System Settings**, then choose **Synchronization**.  
-  
-3. Choose **Synchronize appointment attachments with Outlook or Exchange**  
-  
-   **Considerations**  
-  
--   When you disable attachment synchronization, the attachments will not appear in appointments in Dynamics 365 apps but will remain in Dynamics 365 for Outlook appointments.  
-  
--   Recurring appointment attachment synchronization is not supported. When users synchronize recurring appointments with attachments, the attachments do not synch.  
-  
--   Attachments could affect synchronization times so you may want to use attachments sparingly if attached to a low bandwidth network.  
-  
--   Service activity attachment synchronization is not supported.  
   
 ## Address synchronization for Contacts  
   
