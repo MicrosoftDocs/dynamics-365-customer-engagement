@@ -19,7 +19,7 @@ tags: MigrationHO
 ---
 # Use sample applications to get started
 
-[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 To quickly get you started with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], sample applications have been provided that you can deploy to your Microsoft Dataverse instance, and then use to understand how to develop an agent application using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].  
   

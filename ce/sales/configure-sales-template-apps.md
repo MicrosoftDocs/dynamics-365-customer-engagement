@@ -20,7 +20,7 @@ In this article, you'll learn how to configure Power BI template apps to work wi
 |||
 
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 ## Configure Power BI template apps for Sales
 

@@ -12,7 +12,7 @@ caps.latest.revision: 1
 ---
 # Create custom insight cards 
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 As a system administrator or sales manager, you can create your own suggested actions that are more relevant to your organization through the assistant management feature. By using events and conditions, you can customize the circumstances on when to create suggestions and push information into the seller’s workflow. This helps the sellers to close deals faster. The following diagram illustrates a high-level flow of insight card creation:
 

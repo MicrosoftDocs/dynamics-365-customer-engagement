@@ -11,7 +11,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Configure Customer Service Analytics dashboards in Power BI
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 You must perform the following steps to configure the historical Customer Service Analytics dashboards to display in the Customer Service Hub app:
 

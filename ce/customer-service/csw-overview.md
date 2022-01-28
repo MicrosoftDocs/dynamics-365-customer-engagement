@@ -20,7 +20,7 @@ ms.custom:
 
 # Get started with Customer Service workspace
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 Welcome to the Customer Service workspace app module, where we're increasing agent productivity for core customer service with the ability to work on multiple sessions at a time in a single workspace experience. If you choose to expand your customer service offering to provide chat and channels, the Customer Service workspace seamlessly adjusts to support managing conversations as well.
 

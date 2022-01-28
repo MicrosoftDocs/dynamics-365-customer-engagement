@@ -19,7 +19,7 @@ ms.custom:
 
 # Create and design forms for Customer Service Hub
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 Improve user's productivity with the new forms in the Customer Service Hub. The form type of the new forms is **Main**. 
 

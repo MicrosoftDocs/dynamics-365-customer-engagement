@@ -19,7 +19,7 @@ ms.custom:
 
 # View, block, or deactivate a social profile in social care sample application
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 Track the high influencers and the customers for your business, and save them as contacts in Dynamics 365 Customer Service with their social profile information. You may want to get in touch with these resources later for marketing or brand-building purposes.  
   

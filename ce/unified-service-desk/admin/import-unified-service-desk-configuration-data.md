@@ -18,7 +18,7 @@ tags: MigrationHO
 ---
 # About configuration data
 
-[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 You can import configuration data by:  
   

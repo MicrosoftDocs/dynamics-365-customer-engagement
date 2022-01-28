@@ -19,7 +19,7 @@ search.app:
 
 # Extensible IoT data sources for Connected Field Service
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 The IoT providers feature in Connected Field Service allows different IoT vendors to seamlessly integrate their device capabilities within the Dynamics 365 Field Service experience. For example, IoT alerts can appear in the same list, regardless of where the alerts originated. When you select the **Pull Device Data** button on an IoT device record, Connected Field Service looks up the provider of the device and routes the command appropriately to the corresponding IoT system. This action allows users to interact with IoT devices in a consistent way, regardless of the underlying provider.
 

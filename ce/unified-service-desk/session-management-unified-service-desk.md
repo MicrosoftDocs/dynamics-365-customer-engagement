@@ -17,7 +17,7 @@ ms.custom:
 ---
 # Session management in Unified Service Desk
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 Whenever you search for customer information in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], the system fetches the information from Microsoft Dataverse, and stores it in a session. The information about the session and the fetched customer record is stored in the session context. You can view information about the session and the session context in the **$Session** and **$Context** parameters in the **Debugger** hosted control.  
   
