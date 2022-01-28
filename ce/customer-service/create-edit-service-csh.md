@@ -35,25 +35,21 @@ Make sure that you have the required security role or equivalent permissions.
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage security roles in service scheduling](manage-security-roles.md)
 
 1. Navigate to either on the Customer Service Hub or on Customer Service admin center (preview) app. Depending on your app, perform the following steps:
- 
- ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
-> [!IMPORTANT]
-> The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
-  1. On the Customer Service admin center (preview) site map, select **Operations > Service scheduling**.
-  1. On the **Service scheduling > Service** section, select **Manage**. 
-   The Active Services view is displayed. You can switch between various system views using the drop-down menu.
- 
+   > [!IMPORTANT]
+   > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-### [Customer Service Hub](#tab/customerservicehub)
+    1. On the Customer Service admin center (preview) site map, select **Operations > Service Scheduling**.
+    2.  In the **Service** section, select **Manage**.
+        The **Active Services** view is displayed. You can switch between various system views using the drop-down list.  
 
-   1. On the Customer Service Hub site map, go to **Scheduling**.
-   1. From the list of entity records, select **Scheduling > Service**.
-      - The **Active Services** view is displayed. You can switch between various system views using the drop-down menu.
-      - Select any existing resource category to see additional options in the command bar
+   ### [Customer Service Hub](#tab/customerservicehub)
 
----
+    1. On the Customer Service Hub site map, go to **Scheduling**.
+    2. From the list of entity records, select **Scheduling > Services**.
+       The **Active Services** view is displayed. You can switch between various system views using the drop-down list.
 
 2. On the command bar, select **New** to create a new service. To edit a service, open a service from the list.  
   
@@ -84,8 +80,6 @@ Make sure that you have the required security role or equivalent permissions.
      - Lookup or quick create a **Fulfillment Preference** to define the start time and end time of the service availability in a day and intervals in which it is provided. You can also choose from a list of fulfillment preferences displayed. 
         > [!NOTE]
         > When you select create, a **Quick Create** form is displayed where you can quickly create a new fulfillment preference.
-
-    
 
      After configuring details in the root node: </br>
         
