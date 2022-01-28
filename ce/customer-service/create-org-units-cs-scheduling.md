@@ -42,8 +42,7 @@ Make sure that you have the required security role or equivalent permissions.
 
     1. On the Customer Service Hub site map, go to **Scheduling**.
     1. From the list of entity records, select **Scheduling > Organizational units**.
-       > - The **Active Organizational Units** view is displayed. You can switch between various system views using the drop-down list. 
-       > - Select an existing organizational unit to see additional options in the command bar.      
+       The **Active Organizational Units** view is displayed. You can switch between various system views using the drop-down list.  
      
  2. On the command bar, select **New** to create a new organizational unit.
  3. In the **General** section, type a **Name** for the organizational unit.
