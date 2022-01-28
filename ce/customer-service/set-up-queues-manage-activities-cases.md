@@ -1,7 +1,7 @@
 ---
 title: Create and manage queues for cases | MicrosoftDocs
 description: "Learn how to set up queues to manage activities and cases in Dynamics 365 Customer Service."
-ms.date: 01/14/2022
+ms.date: 01/28/2022
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -52,7 +52,7 @@ In Customer Service, you can create two types of queues:
 - **Public queues:** Create to let everyone in the organization view the queue and all of its items.
 
 > [!IMPORTANT]
->
+> - If you enable an entity for a queue in **Settings > Customizations > Entity > Case** page, you can't disable it.
 > - Private queues are a great way to organize cases, but they don't restrict access to the records they contain. If your organization handles sensitive data and needs to restrict access to queue items or fields, explore the different options available in [Dynamics 365 security model](../customerengagement/on-premises/developer/security-dev/security-model.md).
 > - If unified routing is enabled, make sure that the **Queue** form, which is the default form, exists and hasn't been removed through customization. Otherwise, you'll not be able to create a basic queue in Customer Service Hub.
 
