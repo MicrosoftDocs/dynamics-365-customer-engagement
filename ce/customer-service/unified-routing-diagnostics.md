@@ -1,7 +1,7 @@
 ---
 title: Diagnostics for unified routing (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Learn how to set up routing diagnostics and understand the different stages of routing work items.
-ms.date: 10/12/2021
+ms.date: 02/26/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -28,9 +28,8 @@ To see data related to work items and their status, you need to enable routing d
 
 2. Perform one of the following steps:
 
-   - In Customer Service Hub, go to **Service Management**, and in **Unified Routing** select **Diagnostics**.
-
-   - Sign in to Omnichannel admin center, and in **Advanced settings** in the site map, select **Diagnostics**  .
+  - Sign in to Omnichannel admin center, and in **Advanced settings** in the site map, select **Diagnostics**.
+  - In Customer Service Hub, go to **Service Management**, and in **Unified Routing** select **Diagnostics**.
 
 3. On the **Routing diagnostics** page, select **Turn on routing diagnostics**.
 
@@ -59,7 +58,7 @@ You can select any work item to see a **Summary** page that shows detailed infor
 
 Each work item needs to pass through a set of stages before its routing stage can be assigned as completed. You can create multiple workstreams and assign work items based on their severity and priority. The standard flow of a work item is mentioned here.
 
-Intake ➡ Classification ➡ Route to queue ➡ Prioritization ➡ Assignment selection ➡ Assignment
+Intake ➡ Classification ➡ Route to queue ➡ Assignment
 
 > [!NOTE]
 > If a work item skips a stage in the flow, the stage is disabled.
@@ -98,17 +97,30 @@ The queue name to which the work item is routed is displayed on the route to que
 
 If no queue matches the requirement, the work item is assigned to the default queue.
 
-### Prioritization
-
-The Prioritization rule set is a list of prioritization rules. Work items are routed according to their priority. For more information, see : [Configure assignment methods and rules for queues](configure-assignment-rules.md)
-
-### Assignment selection
-
-Assignment rule sets contain conditions that determine which work items are assigned to which agents. If more than one assignment rule set exists, selection criteria define the order in which the rule sets are to be evaluated. The assignment selection criteria determines which rule set has the closest match and also determine which rule out of the many rules should be run.
-
 ### Assignment
 
-Each work item is assigned to an agent or is sent to a queue based on the **Assignment** rule set. Assignment rule sets contain conditions for which work items need to be assigned to agents.
+Each work item is assigned to an agent or is sent to a queue based on the **Assignment** rule set. Assignment rule sets contain conditions for which work items need to be assigned to agents. In routing diagnostics, the assignment stage helps understand how the assignment of the work item was handled, such as how the prioritization was done and what assignment selection criteria was applied. You can select the stage 
+
+The following stages are available:
+
+- **Prioritization**: Lists the prioritization rule that was applied if any. Work items are routed according to their priority. For more information, see : [Configure assignment methods and rules for queues](configure-assignment-rules.md)
+- **Assignment selection**: Displays information about the conditions that determined in selecting an agent. If more than one assignment rule set exists, selection criteria defines the order in which the rule sets are to be evaluated. The assignment selection criteria determines the rule set that has the closest match and the rule that should be run out of the many rules.
+- **Assignment ruleset**: Displays information about the rulesets that were processed.
+- **Agent assignment trace**: Provides the following information that was used to select an agent:
+ 
+  - **Assignment criteria**:
+      - Assignment method
+      - Capacity
+      - Presence
+      - Skills
+  - **Assignment trace**:
+      - Current status
+      - Status reason
+      - Assigned to
+      - Total attempts
+      - Last attempt at
+
+    :::image type="content" source="media/agent-assignment-trace.png" alt-text="Information about assignment trace.":::
 
 ### See also
 
