@@ -27,13 +27,25 @@ Make sure that you have the required security role or equivalent permissions.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage security roles in service scheduling](manage-security-roles.md)
 
-1. In the Customer Service Hub sitemap, go to **Scheduling**.
-2. From the list of entity records, select **Scheduling > Resources**.
-   - The **Active Bookable Resources** view is displayed. You can switch between various system views using the drop-down menu.
-   - Select any existing bookable resource to see additional options in the command bar.
+1. Navigate to either on the Customer Service Hub or on Customer Service admin center (preview) app. Depending on your app, perform the following steps:
 
-3. On the command bar, select **New** to create a new bookable resource. 
-4. In the **General** section:
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+
+   > [!IMPORTANT]
+   > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+    1. On the Customer Service admin center (preview) site map, select **Operations > Service scheduling**.
+    2.  In the **Resources** section, select **Manage**.
+        The **Active Bookable Resources** view is displayed. You can switch between various system views using the drop-down list.  
+
+   ### [Customer Service Hub](#tab/customerservicehub)
+
+    1. On the Customer Service Hub site map, go to **Scheduling**.
+    2. From the list of entity records, select **Scheduling > Resources**.
+       The **Active Bookable Resources** view is displayed. You can switch between various system views using the drop-down list.
+     
+2. On the command bar, select **New** to create a new bookable resource. 
+3. In the **General** section:
    - Select a **Resource Type**. You can choose from the following options:
 
       - Generic
@@ -66,7 +78,7 @@ Make sure that you have the required security role or equivalent permissions.
      ![bookable resources.](media/bookable-resource-csh.png)
 
 
-5. In the **Scheduling** section:
+4. In the **Scheduling** section:
 
     - Select the **Start Location** and the **End Location** to specify which location the resource will be at, when starting and ending work.
     - Select an **Organizational Unit** for the resource. 
@@ -79,7 +91,7 @@ Make sure that you have the required security role or equivalent permissions.
 
     ![service-resources-scheduling.](media/service-resources-scheduling-section.png)
 
-7. Once you are ready, select **Save**.
+5. Once you are ready, select **Save**.
 
 ## Set work hours for the resources
 
