@@ -31,6 +31,8 @@ By default, some synchronization between Dynamics 365 and Outlook for Dynamics 3
  This topic covers the highlighted settings below.
 
  ![System Settings Synchronization tab.](../media/crm-itpro-systemsynctab.png "System Settings Synchronization tab")
+ 
+For information on synchronization works, see [Synchronization logic for appointments, contacts, and tasks](/power-platform/admin/sync-logic.md).
 
 ## Enable appointment attachment synchronization with Outlook or Exchange
 
