@@ -1,3 +1,17 @@
+## 3.12.70.3
+
+(Includes Resource Scheduling controls version 1.2.11.220252)
+
+- Fixed the bug: Default Radius value always take KM as calculation unit in the backend when checking Resource availability through Quick Book.
+- Fixed the bug: Using find availability on new schedule board, values in Start time, end time columns of search result page are NOT consistent with Timezone displayed  in Board   view settings when booking a requirement group.
+- Fixed the bug: On new schedule board, filter on Service Account does not list all the possible service account names.
+- Fixed the bug: On new schedule board, mapped custom fields are not being populated when booking created.  
+- Fixed the bug: FpsAction 210 filters out active bookings.
+- Fixed the bug: On new schedule board, booking tooltip show different booking record.
+- Fixed the bug: On new schedule board, pending booking stays on the board if booking creation fails.
+- Fixed the bug: creating a booking silently fails if associated requirement record does not have Remaining Duration attribute set.
+- Fixed the bug: Find availability does not show error message when booking requirement group if error occurs. 
+
 ## 3.12.69.1
 
 (Includes Resource Scheduling controls version 1.2.10.213612)
