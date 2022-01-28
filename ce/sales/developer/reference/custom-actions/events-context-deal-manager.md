@@ -131,7 +131,7 @@ This returns a control object mapping to the attribute and has the following met
 | `setDisabled(bool)` | -- | Sets the disabled value (true or false) to the control. |
 | `setNotification(message: string, uniqueId?: string)` | Boolean | Displays an error message for the control to indicate that data isn’t valid. When this method is used, a red cross icon appears next to the control within the cell. Hovering over the error icon will display the provided message. Selecting the error icon will reload the row and undo any changes. The `uniqueId` is used to clear this message when using the `clearNotification` method. |
 | `clearNotification(uniqueId?: string)` | Boolean | Removes a message that's already displayed for a control. If no unique ID is provided, all notifications for that control are removed. |
-|`removeOption(Integer)`| NULL | Removes the option at the specified number from a list. See [Example 5](#remove-option) for a sample Javascript code.
+|`removeOption(Integer)`| Void | Removes the option at the specified number from a list. See [Example 5](#remove-option) for a sample Javascript code.
 
 > [!NOTE]
 > We recommend that the function names in the JavaScript file must match the event names and must accept the context object parameter.
@@ -295,7 +295,7 @@ Let's write a Javascript code to remove the second option (Warm) in the **Rating
 :::image type="content" source="../../../media/remove-option.png" alt-text="Screenshot of the Rating field with the second option highlighted":::
 
 
-    ```javascript
+```javascript
     function OnRowLoad(executionContext) {
         executionContext.getFormContext().data.entity.attributes.forEach(attribute => {
         if(attribute.getName() == 'opportunityratingcode'){
@@ -303,7 +303,7 @@ Let's write a Javascript code to remove the second option (Warm) in the **Rating
         }
     });
     }    
-    ```
+```
   
 > [!NOTE]
 > The removeOption API is only available for the deal manager editable grid and side panel.
