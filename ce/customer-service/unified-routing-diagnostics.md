@@ -99,7 +99,7 @@ If no queue matches the requirement, the work item is assigned to the default qu
 
 ### Assignment
 
-Each work item is assigned to an agent or is sent to a queue based on the **Assignment** rule set. Assignment rule sets contain conditions for which work items need to be assigned to agents. In routing diagnostics, the assignment stage helps understand how the assignment of the work item was handled, such as how the prioritization was done and what assignment selection criteria was applied. You can select the stage 
+Each work item is assigned to an agent or is sent to a queue based on the **Assignment** rule set. Assignment rule sets contain conditions for which work items need to be assigned to agents. In routing diagnostics, the assignment stage helps understand how the assignment of the work item was handled, such as how the prioritization was done and what assignment selection criteria was applied.
 
 The following stages are available:
 
