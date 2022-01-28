@@ -48,17 +48,75 @@ The **Call Insights** tab is available under activities for leads and opportunit
 
 ## Understand the call summary page   
 A call summary page includes the following sections:     
-- [Summary, action items, and highlights](#summary-action-items-and-highlights)   
+- [Overview, summary, action items, and highlights](#overview-summary-action-items-and-highlights)   
 - [Call transcript and translation](#call-transcript-and-translation)  
 - [Call playback timeline and segmentation](#call-playback-timeline-and-segmentation)    
 
-### Summary, action items, and highlights   
-#### Summary tab   
-The **Summary** tab displays the names of the people who participated in a conversation, along with KPIs such as average talking speed, switch per conversations, average pause, and longest customer monologue. Also, you can see the tags that have been added to the conversation to improve searchability. The following image shows a **Summary** tab.    
+### Overview, summary, action items, and highlights   
+
+#### Overview tab
+
+The **Overview** tab displays the names of the people who participated in a conversation, along with KPIs such as average talking speed, switch per conversations, average pause, and longest customer monologue. Also, you can see the tags that have been added to the conversation to improve searchability. The following image shows a **Overview** tab.    
 > [!div class="mx-imgBorder"]
-> ![Sample Summary tab](media/ci-summary-call-summary.png "Sample Summary tab")
+> ![Sample overview tab](media/ci-summary-call-overview.png "Sample Overview tab")
+
+
+#### Summary tab   
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+The **Summary** tab in the call summary page helps you reduce the time to summarize the call  and add the provided intelligent suggestions to the summary including action items, commitments, call minutes, and next steps.      
+You can write  a quick and personalized summary without moving away from the context of the call in the **Summary** tab. Providing a summary of the call helps you to save time, focus on the customer’s call, quickly review the key points, and understand the next course of action.    
+Further, you can share the saved summary with the stakeholders through an email.     
+
+>[!NOTE]
+>If you don’t see the **Summary** tab, contact your administrator to enable the coming soon features in the conversation intelligence configuration page. More information: [Enable coming soon features for conversation intelligence](enable-preview-features-sales-app.md)
+
+##### To write a summary 
+
+1. Go to the **Summary** tab.
+    
+    > [!div class="mx-imgBorder"]
+    > ![Sample Summary tab](media/ci-summary-call-summary-sales-app.png "Sample Summary tab")
+
+2. Select **Edit**.    
+3.	Type your notes and select the bulb icon to add the automatically generated suggestions from the items on the right.    
+
+    >[!NOTE]
+    >-	To add notes from the call highlights and action items, select **+ Add** corresponding to the item. 
+    >-	To add all the suggested notes, select More options (…) corresponding to Suggested notes, and then select **Add all**.
+    >-	To understand and know more about the context of the note, select the timestamp corresponding to the notes and you are directed to the section in the transcript. 
+
+    > [!div class="mx-imgBorder"]
+    > ![Suggested notes in the summary tab](media/ci-summary-call-summary-suggested-notes-sales-app.png "Suggested notes in the summary tab")
+
+4. Select **Save**.    
+    The call summary is saved. You can use the summary to: 
+    -	Share with the stakeholders.  
+    -	Keep as a reference.
+
+    > [!div class="mx-imgBorder"]
+    > ![Sample saved call summary](media/ci-summary-call-summary-saved-sales-app.png "Sample saved call summary")
+
+##### Email call summary to participants and stakeholders
+
+1.	From the notes section, select **Copy to clipboard**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Select the copy to clipboard option to copy summary notes](media/ci-summary-call-summary-copy-summary-notes-sales-app.png "Select the copy to clipboard option to copy summary notes")
+
+2.	Open your email and past the copied summary. The summary is pasted in the following format:
+    -	**Subject**: Specifies the subject of the call. For example, Gym membership.
+    -	**Participants**: Lists the players who are connected during the call.  
+    -	**Call date and time**: Specifies the date and time of the call.   
+    -	**Related records**: Lists the records that are related to the call such as, contact, lead, and opportunity.    
+    -	**Summary**: Specifies the summary of the call that you’ve provided.
+
+    > [!div class="mx-imgBorder"]
+    > ![Email with copy and pasted summary notes](media/ci-summary-call-summary-copy-pasted-email-sales-app.png "Email with copy and pasted summary notes")
 
 #### Action items tab   
+
 Displays a list of items mentioned during the call that sellers will need to keep track of and take action on after the call ends&mdash;for example, "I'll send you an email" or "I'll follow up with Michelle tomorrow." When you select an action item, you can see where it was mentioned on the transcript. Actionable items include: **Set up a call**, **create a task**, **send an email**, and **set up a meeting**.
 
 ##### Set up a call   
@@ -142,9 +200,12 @@ The brands, tracked keywords, and competitors mentioned in the conversation are 
 If the transcript is in a language other than English (and is one of the languages supported by Microsoft), you can select the translate icon ![Translate icon](media/ci-transcript-translate-icon.png "Translate icon") to convert the transcript into English.
 
 ### Call playback timeline and segmentation   
-The following image shows an example call playback timeline.    
+
+The following image shows an example of call playback timeline.    
+
 > [!div class="mx-imgBorder"]
-> ![Playback timeline with segmentation](media/ci-summary-playback.png "Playback timeline with segmentation")   
+> ![Playback timeline with segmentation](media/ci-summary-playback-sales-app.png "Playback timeline with segmentation")   
+
 Using the call playback feature, you can listen to the entire recorded call or choose a point on the timeline&mdash;by dragging the progress bar or selecting the specific point&mdash;at which you want to start listening. The call transcript will automatically scroll to that moment in the call. You can also pause, rewind, and move forward through the call, and adjust volume as you like. The playback timeline also displays the sentiments detected in the conversation (positive, neutral, or negative).    
 When you go to the **Highlights** tab and select a keyword or other highlight, a diamond icon appears on the playback timeline to indicate the time that the selected highlight was mentioned. Also, hovering over a keyword displays gray diamond icons on the timeline.   
 On the timeline, you can see how the conversation was segmented. The topics (if any) that were discussed in a segment are identified. To better drill down into the conversation, you can choose a specific segment and see the insights that are relevant to it. Some examples of segments are introduction, solution, price quote, and call close. The transcript is adjusted to display the start of the segment, and the playback timeline is highlighted for the selected segment. If the selected segment contains any action items or keywords, they're displayed on their respective tabs.
