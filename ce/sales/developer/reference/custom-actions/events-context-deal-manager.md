@@ -1,5 +1,5 @@
 ---
-title: "Events and context object for deal manager | MicrosoftDocs"
+title: "Override save, update, and load events for deal manager editable grid | MicrosoftDocs"
 description: Events and context object for deal manager in Dynamics 365 Sales
 ms.date: 01/27/2022
 ms.topic: article
