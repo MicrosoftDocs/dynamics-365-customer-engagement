@@ -44,7 +44,7 @@ You can view the details of a segment, such as connected sequences, segment memb
     The following information about the segment is displayed:
 
     - **Record type**: The type of record that the segment supports.
-    - **Connected sequence**: The sequence that the segment is connected to. When you select the connected sequence, the sequence opens in the sequence editor. You can view details of the connected sequence and perform actions such as adding records and segments. For more information, go to [Manage sequences](create-manage-sequences.md).<!--note from editor: Note that the "More information:" format must occur at the end of a paragraph. That's why it's never followed by a period.-->
+    - **Connected sequence**: The sequence that the segment is connected to. When you select the connected sequence, the sequence opens in the sequence editor. You can view details of the connected sequence and perform actions such as adding records and segments. For more information, go to [Manage sequences](create-manage-sequences.md).
         When you select **Back** on the **Sequences** page, you're directed back to the segment details page. 
     - **Assignment rules**: The assignment rule that the segment is connected to. When you select the assignment rule, the rule opens in the editor. You can edit and update the rule as required. For more information, go to [Edit an assignment rule](edit-assignment-rule.md).
         When you save or cancel, you're directed back to the segment details page.   
