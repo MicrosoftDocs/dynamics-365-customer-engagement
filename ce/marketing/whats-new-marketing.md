@@ -29,6 +29,79 @@ Marketing updates are [pushed to customers automatically](https://cloudblogs.mic
 
 ## 2022 updates
 
+### February 2022 update
+
+The Dynamics 365 Marketing February 2021 update includes many new features and improvements. The update includes a preview of the Microsoft Teams chat and pre-defined dynamic text token features. It also includes multiple enhancements to customer journeys and the email editor, performance upgrades, and bug fixes.
+
+#### Version number
+
+| App              | GA release      |
+|------------------|-----------------|
+| Marketing        | 1.35.10079.1022 |
+
+> [!Tip]
+> To check your current version number, go to **Settings** > **Overview** > **Versions**.
+
+#### Preview features
+
+> [!IMPORTANT]
+> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
+> 
+> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
+
+- **Collaborate across your organization to create the best marketing campaigns possible using the built-in Microsoft Teams chat**
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/collaborate-across-organization-create-best-marketing-campaigns-possible-using-built-teams-chat)
+- **Quickly personalize emails using predefined dynamic text, without the need to know the underlying data structure**
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/quickly-personalize-emails-using-predefined-dynamic-text-without-need-know-underlying-data-structure)
+
+#### Monthly enhancements
+
+##### Real-time marketing
+
+- **Customer journeys**
+    - Include multiple suppression segments in a journey, fine-tuning where users exit the journey.
+    - Stop and edit custom events even if they are used in live journeys.
+    - Call Power Automate flows from within real-time marketing journey to trigger powerful automation.
+    - Correlated event triggers, allowing a contact, lead, or Customer Insights profile to exit one journey instance without affecting another that they are a part of.
+    - Define only the minimum entry criteria when making a new a journey, simplifying the journey creation process.
+
+##### Outbound marketing
+
+- **Event management**
+    - Contact matching now respects business unit scoping configurations.
+    - Teams online event calendar invites include a 15 minute reminder prior to the event for attendees and speakers.
+
+##### Global updates
+
+- **First run experience**
+    - New environments automatically include real-time marketing features and use real-time marketing as the default landing page.
+- **Marketing emails**
+    - Multiple email editor enhancements includes a new drag and drop experience, easy selection of elements and their parent elements, an in-context menu for adding new elements directly from the canvas, and performance improvements.
+    - Improved bot recognition mechanics prevent false interaction counts.
+    - Link buttons and images to events and marketing pages.
+    - Removed inline element styles from HTML; template styles are added in post-processing.
+    - Option to enable or disable equal height calculation for multi-column sections.
+    - Added deprecation warning to the old email editor.
+- **Shared UX**
+    - Options to hide the default home options in the left navigation pane and create your own home page.
+    - Categories in the left navigation pane are collapsable.
+
+#### Bug fixes
+
+- **Customer journeys**
+    - 
+- **Event management**
+    - 
+- **Marketing emails**
+    - Resolved an error that sometimes caused unsaved changes to appear even though no changes were made.
+    - Email pre-headers are automatically generated and blank characters are removed, preventing pre-header-related errors.
+- **Marketing pages**
+    - 
+- **Segmentation**
+    - 
+- **Shared UX**
+    - 
+
 ### January 2022 update
 
 There is no Dynamics 365 Marketing release for January. We will be back in February with new feature improvements, updates, and bug fixes.
