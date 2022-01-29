@@ -17,7 +17,7 @@ ms.custom:
 ---
 # CRM Page (hosted control)
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 Use the CRM Page hosted control type to load a URL or page from model-driven apps. When a model-driven app page is loaded within a hosted control of this type, it automatically scans the page for data from the entity and automatically populates the replacement parameters.  
 

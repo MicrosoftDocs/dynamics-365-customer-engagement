@@ -10,7 +10,7 @@ manager: annbe
 
 # Provision your Dynamics 365 Sales Professional environment
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 Congratulations on the purchase of the Sales Professional application. 
 

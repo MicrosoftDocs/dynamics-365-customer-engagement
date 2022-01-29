@@ -18,7 +18,7 @@ tags: MigrationHO
 ---
 # How you can help improve Unified Service Desk
 
-[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] uses the product usage, health and performance data from the Improvement program to analyze and improve the product and service experience.
 

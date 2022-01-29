@@ -11,7 +11,7 @@ manager: shujoshi
 
 # Learn the basics of the Customer Service Hub
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 ## Open the Customer Service Hub
 

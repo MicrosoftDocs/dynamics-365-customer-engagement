@@ -21,7 +21,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Customize interactive dashboards that are based on Unified Interface
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 ## Dashboards overview
 
