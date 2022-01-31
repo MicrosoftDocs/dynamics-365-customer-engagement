@@ -156,12 +156,13 @@ Kenny Smith is a Vice President of the sales organization at Contoso Inc. He hea
 
     You can identify whether the selected opportunities belong to a team, an individual, a single cell value, or a full row by looking at the table heading. The format of the heading is described in the following table:
 
-    | **Heading format** | **Description** |
+    | Heading format| Description |
     |----------------|-------------|
     | Username (Group) – All opportunities | All the opportunities across different forecast categories that the selected user and that user's team own. |
     | Username - All opportunities | All the opportunities across different forecast categories that the selected user owns. |
     | Username (Group) – Column name | The opportunities that the selected user and that user's team own for the selected forecast category. |
-    | Username – Column name | All the opportunities that the selected user owns for the selected forecast category. |.
+    | Username – Column name | All the opportunities that the selected user owns for the selected forecast category. |
+    |||
 
     You can change the view of these opportunities by using the view selector. By default, the view that was selected when the forecast was configured is displayed.
 
