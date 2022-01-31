@@ -8,6 +8,7 @@ ms.author: lavanyakr
 manager: shujoshi
 searchScope: 
   - D365-App-msdynce_saleshub
+  - D365-App-msdynce_salespro
   - D365-Entity-account
   - D365-Entity-contact
   - D365-UI-*

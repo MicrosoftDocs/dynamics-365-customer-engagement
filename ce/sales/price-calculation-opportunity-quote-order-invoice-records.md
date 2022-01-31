@@ -8,6 +8,7 @@ ms.author: lavanyakr
 manager: annbe
 searchScope: 
   - D365-App-msdynce_saleshub
+  - D365-App-msdynce_salespro
   - D365-Entity-invoicedetail
   - D365-Entity-quoteproduct
   - D365-Entity-quotedetail
@@ -15,6 +16,7 @@ searchScope:
   - D365-Entity-invoiceproduct
   - D365-Entity-invoicedetail
   - D365-Entity-opportunityproduct
+  - D365-Entity-discounttype
   - D365-UI-*
   - Dynamics 365
   - Sales
