@@ -59,7 +59,7 @@ The new schedule board provides the foundation for future releases that will pro
 Go to the schedule board and use the toggle button in the top right of the schedule board to switch between the current and new schedule boards. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the schedule board showing the preview toggle in the top right set to "On.".](../../field-service/media/schedule-board-new-enable-preview.png)
+> ![Screenshot of the schedule board showing the preview toggle in the top right set to "On.".](../../field-service/media/schedule-board-new-toggle.png)
 
 ## Enable new schedule board for your organization
 
@@ -156,6 +156,21 @@ From the schedule assistant, you'll see available resources and can plan accordi
 
 > [!div class="mx-imgBorder"]
 > ![The schedule assistant, triggered from the new schedule board.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-17-Schedule-assistant.png)
+
+## Find availability (schedule assistant) List view
+
+In the top select Gantt then List to change the schedule assistant view to show a list of available resources.
+
+Select column headers to **sort** results in ascending or descending order.
+
+schedule-board-sorting
+
+Select **Group** to group available resources by the column value. In the example below, we grouped time slots by resource type (e.g. Contact or User). This helps dispacthers make better sense of availability based on different attributes.
+
+schedule-board-group
+
+schedule-board-group2
+
 
 ## Move a Booking
 Alternatively, move a booking to the next day by selecting the booking, then select the **Ellipses [...] icon** next to the **Book** button, as seen in the following screenshot. Select **Move bookings**.

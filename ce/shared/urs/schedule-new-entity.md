@@ -45,6 +45,9 @@ To edit settings for how leads are booked, double-click **Leads** once it appear
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Lead booking setup metadata settings.](../../field-service/media/leadsetup.png)
+
+> [!TIP] 
+> Set **Disable Auto Requirement Creation for Booking** to _Yes_ for scenarios where you want to create bookings without requirements. Imagine you have an entity called "Lunch Break" that you want to make schedule-able, however you do not need a resource requirement to schedule this entity because you do not need to schedule it based on different parameters like characteristic, resource preference, etc.
   
 You have successfully enabled an entity for scheduling when:
 
