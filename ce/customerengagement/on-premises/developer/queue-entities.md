@@ -40,7 +40,7 @@ search.audienceType:
   
  The following information pertains to queues:  
   
--   All customizable entities can be enabled for queues.  
+-   All customizable entities can be enabled for queues. If you enable an entity for a queue, you can't disable it.  
   
 -   Queues may be public or private. Private queue items are only visible to the members of the queue.  
   
