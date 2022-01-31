@@ -14,7 +14,7 @@ search.app:
 ---
 # Analyze best practices in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]
 
-[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 This topic describes the best practices or guidelines for system configurations or browser settings that we recommend when you use [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
 

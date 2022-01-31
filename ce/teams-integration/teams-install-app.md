@@ -55,9 +55,9 @@ If you get an error while configuring Microsoft Teams integration from Dynamics 
 If you're using the Sales Hub app, use the App Settings page to enable the integration. If you're using a custom app, use Power Apps Settings.
 
 **To enable the integration in the Sales Hub app:**
-1. Select the **Change area** icon
+1. Select the **Change area** icon
     ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area")
-    in the lower-left corner and then select **App Settings**.
+    in the lower-left corner and then select **App Settings**.
    > [!div class="mx-imgBorder"]
    > ![Screenshot depicting the App settings option in change area](media/app-settings-menu.png)  
 2. Under **General Settings**, select **Chat and collaborate**.  
