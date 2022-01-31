@@ -17,18 +17,7 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Preview: Content moderation and management
-> [!IMPORTANT]
->
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
->
-> [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]
+# Content moderation and management
 
 ## Moderate content in Customer Service Community
 
@@ -40,7 +29,7 @@ Forum owners and moderators will use Customer Service Community to manage and mo
 - Manage idea votes
 - Manage idea flags
 
-Follow these steps to moderate community content:
+Follow these steps to moderate Community content:
 1. Navigate to the forum, and then select the **Forum** tab.
 2. Update the forum **Name** and **Description**.
 3. Select the **Ideas** tab, and then select the idea you want to edit.
@@ -65,7 +54,7 @@ Follow these steps to moderate community content:
 
 ## Create collections
 
-to combine duplicate or related ideas, forum owners and moderators can create a collection. Successfully created collections will show in the portal, and all the associated ideas (also called "children ideas") will be removed. Users who contributed to the children ideas can still view them (read only) in **My Content** page. 
+To combine duplicate or related ideas, forum owners and moderators can create a collection. Successfully created collections will show in the portal, and all the associated ideas (also called "children ideas") will be removed. Users who contributed to the children ideas can still view them (read only) on the **My Content** page. 
 
 Follow these steps to create a collection:
 1. On the left-side navigation pane, select **Collections**, and then select **+ New**.

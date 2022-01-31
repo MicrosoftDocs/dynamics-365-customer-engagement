@@ -18,7 +18,7 @@ ms.custom:
 
 # Download Migration Assistant to migrate Unified Service Desk configurations from the legacy web client to Unified Interface
 
-[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 This topic describes the prerequisites and tools you require to migrate the configurations from the legacy web client to Unified Interface.
 

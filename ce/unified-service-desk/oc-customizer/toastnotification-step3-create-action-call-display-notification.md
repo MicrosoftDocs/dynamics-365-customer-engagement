@@ -10,7 +10,7 @@ monikerRange: '>= dynamics-usd-4.1'
 ---
 # Step 3: Create an action call to display the notification 
 
-[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 

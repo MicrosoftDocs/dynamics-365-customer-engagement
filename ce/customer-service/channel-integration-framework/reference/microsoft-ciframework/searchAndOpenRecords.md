@@ -14,7 +14,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# searchAndOpenRecords (JavaScript API Reference) for DYnamics 365 Channel Integration Framework 1.0
+# searchAndOpenRecords (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0
 
 [!INCLUDE[searchAndOpenRecords](includes/searchAndOpenRecords-description.md)]
 

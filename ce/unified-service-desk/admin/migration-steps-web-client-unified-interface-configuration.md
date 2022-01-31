@@ -18,7 +18,7 @@ ms.custom:
 
 # How to migrate Unified Service Desk configurations from the legacy web client to Unified Interface
 
-[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 The migration of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations from the legacy web client to Unified Interface is a three-step process.
 

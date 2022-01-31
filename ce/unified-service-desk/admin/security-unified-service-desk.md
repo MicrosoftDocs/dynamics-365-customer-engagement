@@ -18,7 +18,7 @@ tags: MigrationHO
 ---
 # Access management in Unified Service Desk
 
-[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 ## Overview of access control
 

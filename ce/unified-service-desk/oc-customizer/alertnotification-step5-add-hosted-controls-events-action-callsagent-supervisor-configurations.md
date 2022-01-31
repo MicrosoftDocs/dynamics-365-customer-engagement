@@ -10,7 +10,7 @@ monikerRange: '>= dynamics-usd-4.1'
 ---
 # Step 5: Add the hosted control, events, forms and action calls to configurations
 
-[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
