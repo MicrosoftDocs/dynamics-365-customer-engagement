@@ -18,6 +18,8 @@ ms.custom:
 
 # Diagnostics for unified routing
 
+## Introduction
+
 Unified routing helps you assign a work item to the best suited agent or queue to handle it, based on the agent skills and the entities that are related to the work item. Routing diagnostics gives a granular view of each of the routed records to help you understand and self diagnose issues that occur in classification and assignment of work items.
 
 ## Enable routing diagnostics
