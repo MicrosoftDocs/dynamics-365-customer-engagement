@@ -167,12 +167,12 @@ Select column headers to **sort** results in ascending or descending order.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/schedule-board-sorting.png)
 
-Select **Group** to group available resources by the column value. In the example below, we grouped time slots by resource type (e.g. Contact or User). This helps dispacthers make better sense of availability based on different attributes.
-
+Select **Group** to group available resources by the column value. In the example below, we grouped time slots by resource type (e.g. Contact or User). 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/schedule-board-group.png)
 
+This helps dispacthers make better sense of availability based on different attributes.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/schedule-board-group2.png)
