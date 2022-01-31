@@ -106,7 +106,7 @@ For more information about the opportunity score, select the **About** tab. The 
 
 It's important that you move opportunities from one business process flow stage to another in a timely fashion to successfully close a deal. If an opportunity gets stuck at a specific stage for a longer period compared to the time the other won opportunities have spent in the same stage, it could be a cause for concern.  
 
-By analyzing the time spent by the closed opportunities in each stage, the predictive model provides insights about the open opportunities. This insight helps sellers take action on stalled opportunities and move them forward.
+By analyzing the time that the closed opportunities have spent in each stage, the predictive model provides insights about the open opportunities. This insight helps sellers take action on stalled opportunities and move them forward.
 
 > [!NOTE]
 > This insight is available by default if you've enabled predictive scoring; no additional configuration is required. 
