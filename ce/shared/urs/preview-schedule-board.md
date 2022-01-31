@@ -163,13 +163,19 @@ In the top select Gantt then List to change the schedule assistant view to show 
 
 Select column headers to **sort** results in ascending or descending order.
 
-schedule-board-sorting
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/schedule-board-sorting.png)
 
 Select **Group** to group available resources by the column value. In the example below, we grouped time slots by resource type (e.g. Contact or User). This helps dispacthers make better sense of availability based on different attributes.
 
-schedule-board-group
 
-schedule-board-group2
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/schedule-board-group.png)
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of ](./media/schedule-board-group2.png)
 
 
 ## Move a Booking
