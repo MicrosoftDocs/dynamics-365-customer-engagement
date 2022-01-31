@@ -39,7 +39,8 @@ The **Sales Hub** app has a modern and interactive interface, designed to simpli
 
 -   You need not create custom documentation as the Microsoft documentation is based on the **Sales Hub** app.
 
-**Note:** The **Sales Hub** app can coexist with the custom sales apps that you might have in your organization.
+> [!NOTE]
+> The **Sales Hub** app can coexist with the custom sales apps that you might have in your organization.
 
 ## Grant or revoke access to the Sales Hub app
 
@@ -83,6 +84,7 @@ Access your Dynamics 365 Sales environment and select **Sales Hub** from **Publi
 
 ![Screenshot of the Sales Hub app card in published apps](media/saleshubcard.png)
 
-**Note:** If you don't see the app, contact your administrator to grant you access. More information: [Grant access to the Sales Hub app](#grant-or-revoke-access-to-the-sales-hub-app)
+> [!NOTE]
+> If you don't see the app, contact your administrator to grant you access. More information: [Grant access to the Sales Hub app](#grant-or-revoke-access-to-the-sales-hub-app).
 
 For instructions on using the Sales Hub app on mobile devices, see [Sign in and sign out from the app](sales-mobile/use-sales-mobile-app.md#sign-in-and-sign-out-from-the-app)
