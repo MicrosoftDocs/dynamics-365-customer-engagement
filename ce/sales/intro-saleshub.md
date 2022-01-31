@@ -45,8 +45,6 @@ The **Sales Hub** app has a modern and interactive interface, designed to simpli
 
 As an administrator, you can decide which users or security roles should have access to the Sales Hub app. The app will honor the access permissions defined in the security role of the user. For example, if the security role allows access to only opportunities and quotes, the app will display only those entities for the user.
 
-[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
-
 If your organization has opted in for early access as described on the [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates) page, the **Sales Hub** app is enabled by default for the following roles:
 
 -   System Administrator
@@ -61,7 +59,9 @@ If your organization has opted in for early access as described on the [Opt in t
 
 -   Vice President of Sales
 
-As an administrator, you can either grant or revoke access to a security role or to specific users.
+[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+
+As an administrator, you can either grant or revoke access to a security role or to specific users. If you want to hide the app from all the users and roles, follow the instructions in the [Hide a model-driven app from users](/powerapps/maker/model-driven-apps/deactivate-app) page.   
 
 **To grant or revoke access:**
 
