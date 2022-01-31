@@ -57,7 +57,7 @@ The Dynamics 365 Marketing February 2021 update includes many new features and i
     - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/quickly-personalize-emails-using-predefined-dynamic-text-without-need-know-underlying-data-structure)
 - **Take action with your customers in more ways by raising triggers from a journey to run another journey or Power Automate flow**
     - Use custom event triggers to link between journeys and between journeys and custom processes. A new journey tile will raise an event trigger at any point in a customer journey. Any journey or Power Automate flows connected to the event trigger run immediately run when a customer reaches the tile. This includes event triggers used in exit criteria, goals, and if/then branches for journeys.
-    - - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/take-action-customers-more-ways-raising-triggers-journey-run-another-journey-or-power-automate)
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/take-action-customers-more-ways-raising-triggers-journey-run-another-journey-or-power-automate)
 
 #### Monthly enhancements
 
