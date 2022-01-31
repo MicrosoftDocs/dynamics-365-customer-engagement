@@ -14,7 +14,6 @@ ms.tgt_pltfrm:
 caps.latest.revision: 1
 searchScope: 
   - D365-App-msdynce_saleshub
-  - D365-App-msdynce_salespro
   - D365-Entity-msdyn_suggestedcontact
   - D365-UI-*
   - Dynamics 365
