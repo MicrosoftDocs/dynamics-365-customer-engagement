@@ -1,6 +1,6 @@
 ---
 title: "Queue entities (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Queues help in organizing, prioritizing, and monitoring the progress of your work while you are using Dynamics 365 Customer Engagement. Customizable entites can be enabled for queues, and queues are categorized into public or private queues."
+description: "Queues help in organizing, prioritizing, and monitoring the progress of your work while you’re using Dynamics 365 Customer Engagement. Customizable entities can be enabled for queues, and queues are categorized into public or private queues."
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
@@ -33,7 +33,7 @@ search.audienceType:
 ---
 # Queue entities
 
-*Queues* are instrumental in organizing, prioritizing, and monitoring the progress of your work while you are using [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. As a central location for work management, queues assist you in processing cases, responding to service calls, or sending out product information to prospective customers. Programmatically, a queue is a collection of queue items. A queue item serves as a container for an entity record, such as a task, an email, or a case that needs processing.  
+*Queues* are instrumental in organizing, prioritizing, and monitoring the progress of your work while you’re using [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. As a central location for work management, queues assist you in processing cases, responding to service calls, or sending out product information to prospective customers. Programmatically, a queue is a collection of queue items. A queue item serves as a container for an entity record, such as a task, an email, or a case that needs processing.  
   
 > [!NOTE]
 >  The capabilities of queues was enhanced in [!INCLUDE[pn_crm_2013_sp](../includes/pn-crm-2013-sp.md)] (on-premises) and [!INCLUDE[pn_v6_online_ur1_shortest](../includes/pn-v6-online-ur1-shortest.md)]. For details about what was added from earlier versions, see the [Dynamics CRM 2013 version of this topic](https://msdn.microsoft.com/library/gg328459\(v=crm.7\).aspx).  
@@ -81,7 +81,7 @@ search.audienceType:
   
 <a name="BKMK_deletingQueues"></a>   
 ## Restrictions on deleting queues  
- A queue cannot be deleted if the following are true:  
+ A queue can’t be deleted if the following are true:  
   
 -   When the queue has queue items.  
   
@@ -89,7 +89,7 @@ search.audienceType:
   
 <a name="BKMK_Enabling"></a>   
 ## Enable entities for queues  
- To enable a customizable entity, business or custom, for queues, use the <xref:Microsoft.Xrm.Sdk.Messages.UpdateEntityRequest> message to set the <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.IsValidForQueue> attribute to `true`. For a list of customizable entities, see [Which Entities are Customizable?](which-entities-are-customizable.md). The queue entity and the queue item entity are customizable entities, but they cannot be enabled for queues.  
+ To enable a customizable entity, business or custom, for queues, use the <xref:Microsoft.Xrm.Sdk.Messages.UpdateEntityRequest> message to set the <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.IsValidForQueue> attribute to `true`. For a list of customizable entities, see [Which Entities are Customizable?](which-entities-are-customizable.md). The queue entity and the queue item entity are customizable entities, but they can’t be enabled for queues.  
   
  The following list contains default queue-enabled entities in [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]:  
   
@@ -130,7 +130,7 @@ search.audienceType:
   
 - If you have `prvAppendToQueue` privilege, you also have create, update, and delete privileges on a queue item entity.  
   
-  Often, you must limit access to the queue when permitting access to the queue items. As a queue owner with full access to the queue, you might want to share a queue with a team that will have only limited access to the queue. For example, if the support team is given read and append to privileges on a queue, team members cannot make any changes to the queue, such as changing queue name or queue owner. However, they can create, retrieve, update, and delete queue items.  
+  Often, you must limit access to the queue when permitting access to the queue items. As a queue owner with full access to the queue, you might want to share a queue with a team that will have only limited access to the queue. For example, if the support team is given read and append to privileges on a queue, team members can’t make any changes to the queue, such as changing queue name or queue owner. However, they can create, retrieve, update, and delete queue items.  
   
 <a name="BKMK_Actions"></a>   
 ## Actions on queues and queue items  
@@ -167,14 +167,14 @@ search.audienceType:
   
 - Assign a queue item to a user using the <xref:Microsoft.Crm.Sdk.Messages.PickFromQueueRequest>.  
   
-- Move a queue item from a source queue to a destination queue by using the <xref:Microsoft.Crm.Sdk.Messages.AddToQueueRequest> message. A queue item can be moved from one queue to another until it is deactivated by using the <xref:Microsoft.Crm.Sdk.Messages.SetStateRequest> message.  
+- Move a queue item from a source queue to a destination queue by using the <xref:Microsoft.Crm.Sdk.Messages.AddToQueueRequest> message. A queue item can be moved from one queue to another until it’s deactivated by using the <xref:Microsoft.Crm.Sdk.Messages.SetStateRequest> message.  
   
   > [!NOTE]
   >  A queue item is automatically deactivated if the state of the record in the queue item changed from Active to Inactive. This applies to queue-enabled entities that have Active and Inactive states. To determine if an entity is queue-enabled and if an entity record can be in an Active or Inactive state, see entity metadata information. [!INCLUDE[metadata_browser](../includes/metadata-browser.md)]  
   
 - Release a queue item back to the queue using the <xref:Microsoft.Crm.Sdk.Messages.ReleaseToQueueRequest>.  
   
-- Delete a queue item from a queue by using the <xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> message. When you delete a queue item, a referenced entity record is not deleted. However, when you delete an entity record, all queue items that reference this entity record are deleted.  
+- Delete a queue item from a queue by using the <xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> message. When you delete a queue item, a referenced entity record isn’t deleted. However, when you delete an entity record, all queue items that reference this entity record are deleted.  
   
 ### See also  
  [Configure EMail for Incoming Messages](configure-email-incoming-messages.md)   
