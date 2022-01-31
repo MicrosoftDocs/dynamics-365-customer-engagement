@@ -8,6 +8,7 @@ ms.author: lavanyakr
 manager: annbe
 searchScope: 
   - D365-App-msdynce_saleshub
+  - D365-App-msdynce_salespro
   - D365-Entity-salesliterature
   - D365-Entity-competitor
   - D365-UI-*

@@ -8,6 +8,7 @@ ms.author: lavanyakr
 manager: shujoshi
 searchScope: 
   - D365-App-msdynce_saleshub
+  - D365-App-msdynce_salespro
   - D365-Entity-goal
   - D365-Entity-metric
   - D365-Entity-goalrollupquery

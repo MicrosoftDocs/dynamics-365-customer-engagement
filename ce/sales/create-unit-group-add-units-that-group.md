@@ -10,6 +10,7 @@ ms.custom:
   - "dyn365-sales"
 searchScope: 
   - D365-App-msdynce_saleshub
+  - D365-App-msdynce_salespro
   - D365-Entity-uom
   - D365-Entity-uomschedule
   - D365-Entity-discount

@@ -8,6 +8,7 @@ ms.author: udag
 manager: shujoshi
 searchScope: 
   - D365-App-msdynce_saleshub
+  - D365-App-msdynce_salespro
   - D365-Entity-forecast configuration
   - D365-Entity-forecast definition
   - D365-UI-*
