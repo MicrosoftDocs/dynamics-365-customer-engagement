@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 01/04/2022
+ms.date: 02/02/2022
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-marketing
@@ -31,13 +31,13 @@ Marketing updates are [pushed to customers automatically](https://cloudblogs.mic
 
 ### February 2022 update
 
-The Dynamics 365 Marketing February 2021 update includes many new features and improvements. The update includes a preview of the Microsoft Teams chat and pre-defined dynamic text token features. It also includes multiple enhancements to customer journeys and the email editor, performance upgrades, and bug fixes.
+The Dynamics 365 Marketing February 2021 update includes many new features and improvements. This release includes three features from the [2022 wave 1 release plans](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/get-started): Microsoft Teams chat integration, a new journey tile that raises and event trigger at any point in a customer journey, and pre-defined dynamic text tokens. The update also includes multiple enhancements to customer journeys and the email editor, performance upgrades, and bug fixes.
 
 #### Version number
 
 | App              | GA release      |
 |------------------|-----------------|
-| Marketing        | 1.35.10079.1022 |
+| Marketing        | 1.35.XXXXX.XXXX |
 
 > [!Tip]
 > To check your current version number, go to **Settings** > **Overview** > **Versions**.
@@ -50,57 +50,53 @@ The Dynamics 365 Marketing February 2021 update includes many new features and i
 > Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
 
 - **Collaborate across your organization to create the best marketing campaigns possible using the built-in Microsoft Teams chat**
+    - With Microsoft Teams chat, you can easily collaborate with your team without leaving the journey canvas or email editing experience.
     - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/collaborate-across-organization-create-best-marketing-campaigns-possible-using-built-teams-chat)
 - **Quickly personalize emails using predefined dynamic text, without the need to know the underlying data structure**
+    - With predefined dynamic text, marketers will have a quick list of the most commonly used tokens to select from. Marketers familiar with the data model can create and share additional tokens so that the rest of the team can focus on authoring content rather than learning database concepts.
     - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/quickly-personalize-emails-using-predefined-dynamic-text-without-need-know-underlying-data-structure)
+- **Take action with your customers in more ways by raising triggers from a journey to run another journey or Power Automate flow**
+    - Use custom event triggers to link between journeys and between journeys and custom processes. A new journey tile will raise an event trigger at any point in a customer journey. Any journey or Power Automate flows connected to the event trigger run immediately run when a customer reaches the tile. This includes event triggers used in exit criteria, goals, and if/then branches for journeys.
+    - - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/take-action-customers-more-ways-raising-triggers-journey-run-another-journey-or-power-automate)
 
 #### Monthly enhancements
 
 ##### Real-time marketing
 
 - **Customer journeys**
+    - Simplify the journey creation process by defining only the minimum entry criteria when making a new a journey.
     - Include multiple suppression segments in a journey, fine-tuning where users exit the journey.
     - Stop and edit custom events even if they are used in live journeys.
-    - Call Power Automate flows from within real-time marketing journey to trigger powerful automation.
-    - Correlated event triggers, allowing a contact, lead, or Customer Insights profile to exit one journey instance without affecting another that they are a part of.
-    - Define only the minimum entry criteria when making a new a journey, simplifying the journey creation process.
+    - Customers can now exit one journey without exiting all other journeys that share the same event trigger.
+- **Marketing emails**
+    - Improved email editor interface allows you to easily add feature-rich links to emails by directly linking to documents and videos stored in the asset library.
+    - Link buttons and images to existing events and marketing pages in the Marketing app database without looking up the specific URL.
 
 ##### Outbound marketing
 
 - **Event management**
-    - Contact matching now respects business unit scoping configurations.
     - Teams online event calendar invites include a 15 minute reminder prior to the event for attendees and speakers.
+    - Contact matching now respects business unit scoping configurations.
+- **Marketing emails**
+    - Added deprecation warning to the old email editor (only visible to users of pre-October 2021 versions of the Marketing app).
 
 ##### Global updates
 
-- **First run experience**
-    - New environments automatically include real-time marketing features and use real-time marketing as the default landing page.
 - **Marketing emails**
-    - Multiple email editor enhancements includes a new drag and drop experience, easy selection of elements and their parent elements, an in-context menu for adding new elements directly from the canvas, and performance improvements.
+    - Multiple email editor enhancements including easier element resizing and performance improvements.
+    - Easily set equal heights for multi-column sections.
+- **Tracking**
     - Improved bot recognition mechanics prevent false interaction counts.
-    - Link buttons and images to events and marketing pages.
-    - Removed inline element styles from HTML; template styles are added in post-processing.
-    - Option to enable or disable equal height calculation for multi-column sections.
-    - Added deprecation warning to the old email editor.
-- **Shared UX**
-    - Options to hide the default home options in the left navigation pane and create your own home page.
-    - Categories in the left navigation pane are collapsable.
 
 #### Bug fixes
-
-- **Customer journeys**
-    - 
-- **Event management**
-    - 
+ 
 - **Marketing emails**
     - Resolved an error that sometimes caused unsaved changes to appear even though no changes were made.
     - Email pre-headers are automatically generated and blank characters are removed, preventing pre-header-related errors.
-- **Marketing pages**
-    - 
-- **Segmentation**
-    - 
-- **Shared UX**
-    - 
+    - Removed inline element styles from HTML; template styles are added in post-processing.
+    - Resolved an error that caused local configs to fail when the remote configuration service is down.
+    - Fixed an error that caused previously deduplicated contacts to be removed from deduplication storage after a failure and rollback.
+    - Resolved an error related to custom envelope-from emails that caused "sync bounce" emails to resend as "remote bounce" emails, causing inaccurate email error reports.
 
 ### January 2022 update
 
