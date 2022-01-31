@@ -135,7 +135,7 @@ $CRMContextId
 
 2. Copy the GUID that is displayed to the clipboard.
 
-3. Update S2STenantId for the organization by running these commands, where OrganizationName is the unique name of the organization. 
+3. Update S2STenantId for the organization by running these commands, where OrganizationName is the unique name of the organization and ExchangeOnlineTenantId is the TenantId retrieved in the prior step. 
 
 ```powershell
 $organizationName = "OrganizationName"
