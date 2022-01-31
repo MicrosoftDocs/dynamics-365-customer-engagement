@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions - Dynamics 365 Sales | MicrosoftDocs"
 description: "Find a list of frequently asked questions that are related to different features in Dynamics 365 Sales Enterprise."
-ms.date: 11/10/2021
+ms.date: 01/25/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -201,7 +201,34 @@ The following table defines the effect of changing the product price in **Pricel
 
 ## Forecasting
 
-### What are the configurations that I can edit once a forecast is published?     
+### Who owns the forecast?
+
+A forecast owner is the user who owns a specific level in the forecast hierarchy. When creating the forecast configuration, the forecast manager or administrator selects a field that should be used for assigning the owner to each level in the forecast hierarchy.
+By default, the following user field is selected based on the forecast template:        
+
+- For **Org chart forecast**, the **User** field is selected.      
+- For **Territory forecast**, the **Manager** field is selected.    
+  
+If you select a field other than the default, a column is created in the forecast grid. For example, if you select **Manager** as the user lookup field for an org chart forecast, the **Manager** field will be added to the forecast grid.
+
+**To view the forecast owner:**
+
+1. In the Sales Hub app, select **App Settings**.
+1. Under **Performance management**, select **Forecast configuration**.
+1. Select a forecast configuration, and then select the **Permissions** step.
+1. Verify the **User lookup field** to determine who owns the forecasts in the selected forecast configuration:  
+
+    :::image type="content" source="media/user-security-field.png" alt-text="Screenshot of User lookup field in the Permissions tab":::
+    
+    For example, in an org chart forecast, if you select **User** as the owner, each user in the hierarchy will be the owner of the hierarchy under them. In a territory-based forecast, a user could own more than one hierarchy if they own multiple territories.  
+ 
+    In the following illustration, the managers own all the forecasts in their hierarchy and individual sellers own their specific forecasts.
+
+    :::image type="content" source="media/forecast-hierarchy-owner.png" alt-text="Screenshot illustrating the forecast owner at different levels in the forecast hierarchy":::
+
+
+### What are the configurations that I can edit once a forecast is published?  
+
 You can edit the following configurations for a forecast once it's published:     
 -	On the [General](define-general-properties-scheduling-forecast.md) page, you can edit forecast title and default underlying records view. 
 -	On the [Permissions](provide-permissions-forecast.md) page, you can add security roles and provide them with permission to view or edit forecast. 

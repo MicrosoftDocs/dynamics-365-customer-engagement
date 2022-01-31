@@ -838,6 +838,10 @@
           href: developer/reference/custom-actions/msdyn_ForecastApi.md
       - name: Override save, update, load events for editable fields on underlying records grid
         href: developer/reference/custom-actions/events-context.md
+  - name: Deal manager
+    items:
+      - name: Override save, update, load events for deal manager editable grid
+        href: developer/reference/custom-actions/events-context-deal-manager.md
   - name: In-app marketing
     items:
     - name: Customize quick campaign and campaign activity distribution forms

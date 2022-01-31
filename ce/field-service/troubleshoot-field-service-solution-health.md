@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot issues with Solution Health Hub for Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to troubleshoot Dynamics 365 Field Service issues with the Solution Health Hub
-ms.date: 12/06/2021
+ms.date: 1/25/2022
 ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
 ms.topic: article
@@ -394,7 +394,11 @@ Fails if autonumbering is not opted-in for the org.
 
 ### How to fix
 
-Opt into autonumbering.
+Opt into autonumbering in Field Service by going to **Settings** > **Field Service settings** > **# Opt-In to Auto-Numbering** (in the top command ribbon).
+
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the opt in option for autonumbering.](./media/administration-settings--optin-autonumbering.png)
 
 ## Verify Field Service and Project Service Automation solutions are compatible
 
@@ -443,7 +447,7 @@ If the required level of the system field (that is, Application Required field/ 
 Go to customization -> Entities -> Work Order /Agreement -> Fields -> Double-click on field for which required level need to reset -> Select field requirement -> Business Required.
 
 > [!Note] 
-> This rule is implemented for the OOB required field on the Work Order and Agreement only.
+> This rule is implemented for the out-of-the-box required field on the Work Order and Agreement only.
 
 ## Checks For Active Agreements Having Past End Dates
 
@@ -597,6 +601,27 @@ When a frontline worker has access to the Field Service (Dynamics 365) mobile ap
 
 Add Field Service resource security role and field security profile to the user. For more information see, [see this article on setting up frontline workers](/dynamics365/field-service/frontline-worker-set-up).
 
+## Check if forms have unhealthy customizations
+
+Severity: High
+
+### What it checks
+
+For all work order forms, this rule checks if the number of subgrid controls or lookup controls exceed the limit (4 subgrids or 20 lookups), which may impact performance. This rule triggers a notification to system administrators stating which forms have too many subgrid controls or lookup controls.
+
+A [subgrid control](/powerapps/developer/model-driven-apps/clientapi/reference/grids) is a table in the form that lists records of another table. An example of a subgrid control is the work order product subgrid control on the work order form that is included out-of-the-box with Field Service.
+
+A lookup control is a field on the form that searches the records of another table and allows you to select one or more records to populate the field.
+
+### Why it fails
+
+This rule fails if the default tab (the first tab on the form) of any work order form has more than either **4 subgrids controls** or **20 lookup controls**. Form load performance is impacted by the number of controls on the default tab of the form, so it is strongly suggested to minimize the number of controls there. 
+
+### How to fix
+
+Reduce the number of lookup fields and subgrid controls on the default tab (the first tab on the form) by moving them to other tabs on the form (or hiding them from the form if not needed). 
+
+Check out more ways to [Improve form load time](/dynamics365/customerengagement/on-premises/customize/optimize-form-performance?view=op-9-1).
 
 ### See also
 

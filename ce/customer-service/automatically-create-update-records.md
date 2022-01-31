@@ -26,7 +26,7 @@ searchScope:
 
 # Automatically create or update records in Customer Service Hub
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 In Dynamics 365 Customer Service Hub, you can automatically create or update system or custom records from incoming activities, such as emails, social activities, and custom activities. In this section, you'll learn about creating rules for automatically creating records for cases from incoming emails.
 
@@ -77,6 +77,12 @@ You can configure a rule that when active will be run for incoming emails. Using
    > ![Automatically create record rule.](media/arc-csh-rule.png " Automatically create record rule")
 
 5. In **Step two: conditions to evaluate and actions to take**, select **New**. The **Condition builder** page is displayed.
+   
+   > [!NOTE]
+   > You must add a minimum of one condition for the rule to run successfully.
+
+6. Perform the following steps to define the conditions:
+
 6. Perform the following steps:
 
    a. In **Condition** > **Condition name**, enter an intuitive name.
@@ -95,7 +101,7 @@ You can configure a rule that when active will be run for incoming emails. Using
 
 8. In **Configure in Microsoft Power Automate**, select **Save and open in Power Automate**. The Power Automate application opens in a new tab where you can configure criteria that must be evaluated for the email activity. To learn more about using Power Automate, see the [documentation for Power Automate](/power-automate/getting-started).
 
-9. Select **Save & Close**. The condition builder is closed.
+9.  Select **Save & Close**. The condition builder is closed.
 
 10. In **Step three: additional actions to take after matching with a condition**, select an option based on your requirement for **Automatically reply to email**.
 

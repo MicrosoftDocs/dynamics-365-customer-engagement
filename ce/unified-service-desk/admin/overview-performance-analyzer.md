@@ -20,7 +20,7 @@ monikerRange: '>= dynamics-usd-3'
 
 # Public Preview: Overview of Unified Service Desk Performance Analyzer
 
-[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 

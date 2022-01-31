@@ -4,6 +4,8 @@ description: "Read how you can add a Channel Integration Framework 1.0 solution 
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
+ms.date: 01/21/2022
+ms.topic: get-started-article
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
