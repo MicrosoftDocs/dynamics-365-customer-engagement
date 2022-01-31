@@ -15,7 +15,7 @@ search.app:
 ---
 # Dynamics 365 Field Service user guide
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 Not sure what you're looking for, where to begin, or how to improve your Field Service knowledge? Use this guide to see a birds-eye view of the Dynamics 365 Field Service resources.
 
@@ -38,7 +38,7 @@ Before we begin, here are the top places for information about Field Service:
   </td>
 
 
- <td><h2>Understand Field Service concepts</h2>
+ <td><h2>Field Service concepts</h2>
 
  The purpose of this section is to understand what Dynamics 365 Field Service is, and why it's valuable to customers.
    <ul>
@@ -75,7 +75,7 @@ Before we begin, here are the top places for information about Field Service:
   </td>
 
 
-<td><h2>Install and setup</h2>
+<td><h2>Install and set up</h2>
 
 The purpose of this section is to help you set up a Field Service environment.
 
@@ -90,13 +90,13 @@ The purpose of this section is to help you set up a Field Service environment.
 
 
 <tr>
- <td><h2>Create and manage Work Orders</h2>
+ <td><h2>Create and manage work orders</h2>
 
 The purpose of this section is to help you configure work order management, which is a core capability of Field Service.
    <ul>
   <li><a href="quickstart-schedule-work-order.md" data-raw-source="[Quickstart - Create and schedule a work order](quickstart-schedule-work-order.md)">Quickstart - Create and schedule a work order</a></li>
    <li><a href="universal-resource-scheduling-for-field-service.md" data-raw-source="[Universal Resource Scheduling for Field Service](universal-resource-scheduling-for-field-service.md)">Universal Resource Scheduling for Field Service</a></li>
- <li><a href="create-work-order.md" data-raw-source="[[Create a Work Order](create-work-order.md)]">Create a Work Order</a></li>
+ <li><a href="create-work-order.md" data-raw-source="[[Create a work order](create-work-order.md)]">Create a Work Order</a></li>
 <li><a href="configure-incident-types.md" data-raw-source="[[Create work order templates with incident types](configure-incident-types.md)]">Create work order templates with incident types</a></li>
   <li><a href="work-order-customer-account.md" data-raw-source="[Add a customer, location, and related account details to a work order](work-order-customer-account.md)">Add a customer, location, and related account details to a work order</a></li>
   </ul><br/>  

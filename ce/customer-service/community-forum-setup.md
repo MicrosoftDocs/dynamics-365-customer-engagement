@@ -17,22 +17,9 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Preview: Create a Community forum
+# Create a Community forum
 
-> [!IMPORTANT]
->
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
->
-> [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]
-
-
-In Customer Service Community, a forum is a container of ideas and the entity where security boundaries are applied. The user who creates a forum automatically becomes owner, and can assign community roles and membership in the forum, as well as other metadata, like categories and groups.
+In Customer Service Community, a forum is a container of ideas and the entity where security boundaries are applied. The user who creates a forum automatically becomes the owner, and can assign community roles and membership in the forum, as well as other metadata, like categories and groups.
 
 ## Create a forum
 

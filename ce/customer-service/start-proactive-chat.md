@@ -1,7 +1,7 @@
 ---
 title: "Start a chat proactively | MicrosoftDocs"
 description: "Read how you can start a chat proactively to see if customers need help and thereby improve customer experience."
-ms.date: 04/06/2020
+ms.date: 01/25/2022
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -15,6 +15,10 @@ You can help improve customer satisfaction by anticipating areas where customers
 
 Consider the following scenarios for proactively starting a chat.
 
+>[!Note]
+>
+> The code samples listed in the following scenarios use the [setContextProvider API](developer/reference/methods/setContextProvider.md) that can be used for unauthenticated chat only. For authenticated chat, you must use the JSON Web Token (JWT). More information: [Send authentication tokens](send-auth-token-starting-chat.md)
+
 ## Scenario 1: Customer wait time
 
 Amy has accidentally damaged her Surface Book and is on the product knowledge base trying to seek answers for about 20 seconds. A proactive chat request is triggered based on the product page that Amy was browsing and the time spent on the page.
@@ -25,7 +29,7 @@ Hi! Just checking in to see if I can help answer any questions you may have.
 
 Amy can accept the chat offer and start the conversation to sort out her issue. 
 
-### Sample code
+**Sample code**
 
 ```html
 <!-- Code to show proactive chat invite after visitor has spend given time on the webpage -->
@@ -59,7 +63,7 @@ Realizing this scenario, the organization offers a chat request to the customer 
 ```
 Hi! Do you have a question on Surface device ? I am here to help.
 ```
-### Sample code
+**Sample code**
 
 ```html
 <!-- Code to show proactive chat invite(after given time) after visitor visits the webpage given number of time -->
@@ -169,7 +173,7 @@ Jacob is browsing through the support page for Microsoft Surface devices to find
 Hi! How are you doing today? The status of the case:<caseid> is in progress. Would you like to get more details?
 ```
 
-### Sample code
+**Sample code**
 
 ```html
 <!--Code to show proactive chat invite after visitor has spend given time on the webpage, with relevant details about user.-->
@@ -202,7 +206,7 @@ Amy has been browsing a webpage for 15 seconds and is not satisfied with the ava
 Hi! Just checking in to see if I can help answer any questions you may have.
 ```
 
-### Sample code
+**Sample code**
 
 ```javascript
 //Code to show proactive chat invite when visitor tries to leave page after spending given time (15 seconds in this case) on the webpage. This invite is offered once and only for the first time. All subsequent tries to leave page are ignored and proactive chat is not offered in them. 
@@ -246,7 +250,7 @@ Amy has browsed the FAQ's document of the product and is currently on the Knowle
 Hi! Just checking in to see if I can help answer any questions you may have.
 ```
 
-### Sample code
+**Sample code**
 
 ```javascript
 //Code to show proactive chat invite when visitor spends given time on current page, after coming from given last visited page
@@ -284,7 +288,7 @@ Klarissa logs in to your website from Ruritania where your company is running a 
 Hi! Just checking in to see if I can help answer any questions you may have.
 ```
 
-### Sample code
+**Sample code**
 
 This sample code shows how you can use Bing's Geolocation APIs to know the geographic region of the customer and offer chat request based on that. More information about Bing's location APIs: [Bing Maps Locations API](/bingmaps/rest-services/locations/).
 
@@ -356,7 +360,7 @@ This sample code shows how you can use Bing's Geolocation APIs to know the geogr
 
 Suppose your organization is running a festive season sale between certain dates, and you want to proactively offer chat requests to customers to see if they have any questions.
 
-### Sample code
+**Sample code**
 
 The following sample code shows how you can proactively offer chat invites to customers when they visit your website in a time period.
 
@@ -392,13 +396,29 @@ The following sample code shows how you can proactively offer chat invites to cu
 </script>
 ```
 
+## Scenario 8: Proactively offer chat with pre-survey to customers
+
+Suppose your organization wants consent authorization to start a chat with a customer or wants to ask about the topics related to the customer's enquiry before routing the session to the appropriate agent.
+
+**Sample code**
+
+The following sample code shows how you can proactively offer chat with a pre-survey question to your customers.
+
+```javascript
+window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
+ Microsoft.Omnichannel.LiveChatWidget.SDK.startProactiveChat( 
+ "Hi! How are you doing today? Do you wish to start a chat?",
+ true);
+ });
+```
+
 ### See also
 
-[startProactiveChat API](developer/reference/methods/startProactiveChat.md)<br />
-[Manage custom context](send-context-starting-chat.md)<br />
-[Start a chat](initiate-chat-wait-time.md)<br />
-[Display custom context](display-custom-context.md)<br />
-[Live chat JavaScript API reference](developer/omnichannel-reference.md) 
+[startProactiveChat API](developer/reference/methods/startProactiveChat.md)  
+[Manage custom context](send-context-starting-chat.md)  
+[Start a chat](initiate-chat-wait-time.md)  
+[Display custom context](display-custom-context.md)  
+[Live chat JavaScript API reference](developer/omnichannel-reference.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: "Activate and upload data for a forecast | MicrosoftDocs"
 description: "Activate a forecast, and download the spreadsheet template to populate quotas and simple columns data. Then, upload the spreadsheet to the forecast."
-ms.date: 01/18/2022
+ms.date: 01/25/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -17,6 +17,7 @@ searchScope:
 # Activate and upload simple columns data 
 
 Activate a forecast, and download the spreadsheet template to populate quotas and simple columns data. Then, upload the spreadsheet to the forecast.
+
 
 ## License and role requirements
 | &nbsp; | &nbsp; |
@@ -93,8 +94,11 @@ Now that you've completed the required configurations for the forecast, use the 
 
 You're directed to the **Forecast configuration** home page, where your organization's forecasts are listed.
 
->[!NOTE]
->You can also upload data to simple columns using the **msdyn_ForecastApi** action. More information: [msdyn_ForecastApi](../sales-enterprise/developer/reference/custom-actions/msdyn_ForecastApi.md)
+
+## Use APIs to upload forecast data
+
+After a forecast is activated, you can use the msdyn_ForecastApi custom action to upload forecasting data to simple columns. For more information, see [msdyn_ForecastApi action](developer/reference/custom-actions/msdyn_ForecastApi.md).
+
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 

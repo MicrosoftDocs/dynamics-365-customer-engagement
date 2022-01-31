@@ -19,7 +19,7 @@ monikerRange: ">=dynamics-usd-4"
 
 # Administer and manage Unified Service Desk using the Administrator app
 
-[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 ## Overview
 
