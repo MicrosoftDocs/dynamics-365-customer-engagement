@@ -16,6 +16,7 @@ searchScope:
   - D365-Entity-discount
   - D365-Entity-pricelevel
   - D365-Entity-productpricelevel
+  - D365-Entity-discounttype
   - D365-UI-*
   - Dynamics 365
   - Sales

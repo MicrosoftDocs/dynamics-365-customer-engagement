@@ -11,6 +11,7 @@ searchScope:
   - D365-App-msdynce_salespro
   - D365-Entity-pricelevel
   - D365-Entity-productpricelevel
+  - D365-Entity-discounttype
   - D365-UI-*
   - Customer Engagement
   - Dynamics 365

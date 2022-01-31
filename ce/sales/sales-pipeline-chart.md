@@ -1,5 +1,5 @@
 ---
-title: "Understand the sales pipeline chart in and its phases | MicrosoftDocs"
+title: "Understand the sales pipeline chart and its phases | MicrosoftDocs"
 description: "Learn about the the sales pipeline chart in Dynamics 365 Sales and its phases."
 ms.date: 10/25/2021
 ms.topic: article
