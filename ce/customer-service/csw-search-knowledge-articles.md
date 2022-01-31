@@ -1,7 +1,7 @@
 ---
 title: Search knowledge articles in the Customer Service workspace in Dynamics 365 Customer Service | Microsoft Docs
 description: See how you can effectively search knowledge articles in the Customer Service workspace.
-ms.date: 01/27/2022
+ms.date: 01/31/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -27,7 +27,7 @@ In Customer Service workspace, knowledge base search lets you search for relevan
 - The anchor tab should be a case or conversation for the knowledge search pane to be displayed.
 - Dataverse search must be enabled.
 
-The knowledge base search uses the dataverse search mechanism in the knowledge base search control area. More information: [How Dataverse search works](/power-platform/admin/configure-relevance-search-organization). Before you begin using dataverse search, your administrator must configure certain view columns in the Quick Find view columns list. More information: [Before you begin using Dataverse Search](search-knowledge-articles-csh.md#before-you-begin-using-dataverse-search).
+The knowledge base search uses the dataverse search mechanism in the knowledge base search control area. More information: [Knowledge base search control powered by Dataverse search](search-knowledge-articles-csh.md#knowledge-base-search-control-powered-by-dataverse-search). Before you begin using dataverse search, your administrator must configure certain view columns in the Quick Find view columns list. More information: [Before you begin using Dataverse Search](search-knowledge-articles-csh.md#before-you-begin-using-dataverse-search).
 
 ## Use the knowledge search pane to search articles
 
