@@ -2,8 +2,8 @@
 title: "Sample: Override goal total count and close the goal| MicrosoftDocs"
 description: "This sample demonstrates how to override the goal total count and close the goal"
 ms.custom: 
-ms.date: 10/31/2017
-ms.reviewer: pehecke
+ms.date: 01/02/2020
+ms.reviewer: 
 ms.prod: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -14,10 +14,9 @@ helpviewer_keywords:
   - Sample for overriding total counts and closing goals
   - goal management entities samples, overriding total counts and closing goals
 ms.assetid: c454269e-9e58-47f4-abbc-7bbe9e8d636c
-caps.latest.revision: 17
-author: JimDaly
-ms.author: nabuthuk
-manager: kvivek
+author: KumarVivek
+ms.author: kvivek
+manager: annbe
 search.audienceType: 
   - developer
 ---
@@ -70,4 +69,6 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 
 Display an option to delete the sample data created in [Setup](#setup). The deletion is optional in case you want to examine the entities and data created by the sample. You can manually delete the records to achieve the same result.
 
+
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

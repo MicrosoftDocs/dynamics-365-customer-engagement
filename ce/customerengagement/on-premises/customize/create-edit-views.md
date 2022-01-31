@@ -5,7 +5,7 @@ keywords:
 ms.date: 11/09/2018
 ms.prod: d365ce-op
 ms.custom: 
-ms.topic: article
+ms.topic: overview
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 826fb059-a552-4db5-bf40-6a80cfa0fc0e

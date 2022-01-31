@@ -18,7 +18,7 @@ ms.custom:
 ---
 # Get started with configuring your agent application
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 This section provides information on how to perform various tasks in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to configure your agent application.  
   

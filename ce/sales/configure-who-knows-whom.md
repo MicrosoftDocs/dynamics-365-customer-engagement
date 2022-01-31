@@ -16,10 +16,10 @@ topic-status: Drafting
 ---
 # Configure who knows whom 
 
-The who knows whom feature helps users to quickly identify colleagues within their organization who can introduce them to leads or contacts.
+Who knows whom helps users to quickly identify colleagues within their organization who can introduce them to leads or contacts.
 
 >[!NOTE]
->- Who knows whom is currently available in Europe, Middle East, and Africa (EMEA) and North American (NAM) regions.
+>- To know whether the Who knows whom feature is available in your region, see [In which region are the features available?](faqs-sales-insights.md#in-which-region-are-the-features-available).
 >- For Office 365 data, you organization's data location must be in one of the following locations and not in your region-specific datacenter location:
 >    - Global Geography 1 – EMEA (Austria, Finland, France, Ireland, Netherlands)
 >    - Global Geography 2 – Asia Pacific (Hong Kong, Japan, Malaysia, Singapore, South Korea).
@@ -36,32 +36,33 @@ The who knows whom feature helps users to quickly identify colleagues within the
 
 ## To configure who knows whom
 
-1. Verify that advanced Sales Insights Add-in for Dynamics 365 features are enabled. More information: [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)
-
-2.	Go to **Change area** and select **Sales Insights settings**.
+1.	Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
 
     > [!div class="mx-imgBorder"]
-    > ![Select Sales Insights settings option](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings option")
+    > ![Select Sales Insights settings](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings")
 
-3.  On the site map, select **Who knows whom** under **Connection insights**.
+3.  On the site map, under **Relationship insights**, select **Who knows whom**.
 
     > [!div class="mx-imgBorder"]
     > ![Who knows whom configuration page](media/si-admin-who-know-whom-configuration-page.png "Who knows whom configuration page")
+
+    >[!NOTE]
+    >If you don’t see the option, verify that the Sales Insights add-in is installed in your organization. More information: [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features) 
 
 4. On the **Who knows whom** section, select **Turn on Who Knows Whom for your organization**.
 
     > [!div class="mx-imgBorder"]
     > ![Enable who knows whom](media/si-admin-who-knows-whom-enable.png "Enable who knows whom")
 
-5. Optionally, you can select an email template according to your organizational requirements. By default, an out-of-the-box email template will be selected.
+5. Optionally, you can select an email template according to your organizational requirements. By default, the who knows whom introduction emails template is selected.
 
 6. Select **Save**.
 
 The who knows whom feature is configured and ready to use in your organization.
 
-## Enable the connection graph
+After you've enabled the who knows whom feature, as a Microsoft 365 administrator, enable **Dynamics 365 Sales Insights – Connection Graph** from the Microsoft 365 admin center. This allows Dynamics 365 Sales to collect the communication and collaboration details of users from Exchange server.
 
-After you enable the who knows whom feature in your organization, verify that the connection graph is enabled in the admin center. This allows [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to collect the communication and collaboration details of users from Exchange server.
+## Enable the connection graph
 
 > [!NOTE]
 > Contact your Microsoft 365 administrator to enable the Sales Insights connection graph if you don't have sufficient privileges to enable it.

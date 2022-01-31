@@ -268,7 +268,7 @@
         href: use-effort-estimation-for-routing.md
       - name: Configure basic routing
         items:
-        - name: Create and manage basic queues for cases
+        - name: Create and manage queues for cases
           href: set-up-queues-manage-activities-cases.md
         - name: Route cases using basic rulesets
           href: create-rules-automatically-route-cases.md
@@ -1390,6 +1390,34 @@
           href: developer/reference/methods/startProactiveChat.md
         - name: closeChat
           href: developer/reference/methods/closeChat.md
+      - name: Events
+        items: 
+        - name: "lcw:ready"
+          href: developer/reference/events/lcw-ready.md
+        - name: "lcw:startChat"
+          href: developer/reference/events/lcw-startchat.md          
+        - name: "lcw:closeChat"
+          href: developer/reference/events/lcw-closeChat.md
+        - name: "lcw:onClose"
+          href: developer/reference/events/lcw-onClose.md          
+        - name: "lcw:threadUpdate"
+          href: developer/reference/events/lcw-threadUpdate.md        
+        - name: "lcw:chatQueued"
+          href: developer/reference/events/lcw-chatQueued.md
+        - name: "lcw:chatRetrieved"
+          href: developer/reference/events/lcw-chatRetrieved.md            
+        - name: "lcw:onMinimize"
+          href: developer/reference/events/lcw-onMinimize.md
+        - name: "lcw:onMaximize"
+          href: developer/reference/events/lcw-onMaximize.md
+        - name: "lcw:onMessageReceived"
+          href: developer/reference/events/lcw-onMessageReceived.md
+        - name: "lcw:onMessageSent"
+          href: developer/reference/events/lcw-onMessageSent.md
+        - name: "lcw:error"
+          href: developer/reference/events/lcw-error.md                    
+      - name: Error code reference
+        href: developer/reference/error-code-reference.md          
     - name: Real-time translation JavaScript API Reference
       items: 
       - name: translationprovider
@@ -1398,34 +1426,6 @@
         href: developer/reference/methods/initializeNewConversation.md
       - name: translateMessage
         href: developer/reference/methods/translateMessage.md
-    - name: Events
-      items: 
-      - name: "lcw:startChat"
-        href: developer/reference/events/lcw-startchat.md
-      - name: "lcw:ready"
-        href: developer/reference/events/lcw-ready.md
-      - name: "lcw:error"
-        href: developer/reference/events/lcw-error.md
-      - name: "lcw:threadUpdate"
-        href: developer/reference/events/lcw-threadUpdate.md
-      - name: "lcw:chatQueued"
-        href: developer/reference/events/lcw-chatQueued.md
-      - name: "lcw:chatRetrieved"
-        href: developer/reference/events/lcw-chatRetrieved.md
-      - name: "lcw:closeChat"
-        href: developer/reference/events/lcw-closeChat.md
-      - name: "lcw:onMessageReceived"
-        href: developer/reference/events/lcw-onmessagereceived.md
-      - name: "lcw:onMessageSent"
-        href: developer/reference/events/lcw-onmessagesent.md
-      - name: "lcw:onMinimize"
-        href: developer/reference/events/lcw-onminimize.md
-      - name: "lcw:onMaximize"
-        href: developer/reference/events/lcw-onmaximize.md
-      - name: "lcw:onClose"
-        href: developer/reference/events/lcw-onclose.md
-      - name: Error code reference
-        href: developer/reference/error-code-reference.md
     - name: Omnichannel JavaScript API Reference
       items: 
       - name: Overview

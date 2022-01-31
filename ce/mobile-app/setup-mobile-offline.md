@@ -2,7 +2,7 @@
 title: "Configure mobile offline synchronization | MicrosoftDocs"
 ms.custom: Configure mobile offline synchronization
 description: Set up mobile offline for Dynamics 365 phones and tablets app and Power Apps mobile
-ms.date: 12/10/2021
+ms.date: 01/06/2022
 ms.reviewer: 
 ms.service: crm-online
 ms.suite: 
@@ -209,10 +209,9 @@ A user or team can only be added to one offline profile at a time. If a user or 
 4.  When you’re done adding people, select **Save**.
   
   > [!NOTE]
-  > If you made any changes to a team, you must remove and add the team back to the mobile offline profile for the changes to take effect. We’re also working on improving the user management experience for offline profiles.
+  > If you made any changes to an Azure Active Directory (Azure AD) group team, you must remove and add the team back to the mobile offline profile for the changes to take effect.
 
-> [!NOTE]
-> If you made any changes to a team, you must remove and add the team back to the mobile office profile for the changes to take effect. We’re also working on improving the user management experience for offline profiles.
+
   
 ### Step 2.2: Publish a mobile offline profile
 

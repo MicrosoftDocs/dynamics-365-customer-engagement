@@ -1,7 +1,7 @@
 ---
 title: "Continue the conversation with Microsoft Teams webinar participants (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to continue the conversation with Microsoft Teams webinar participants using Dynamics 365 Marketing."
-ms.date: 11/30/2021
+ms.date: 01/19/2022
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -24,25 +24,25 @@ The Dynamics 365 Marketing trial allows you to use the Marketing app to stay in 
 
 > [!NOTE]
 > The Dynamics 365 Marketing 6-month trial does not connect to existing instances of other Dynamics 365 apps. It is standalone and separate from any paid instances of Sales, Customer Service, Field Service, or any other Dynamics 365 apps.
-> 
-> If you would like to create a Marketing trial in conjunction with an existing Dynamics 365 instance, contact your Microsoft sales representative or channel partner.
 
 To sign up for a 6-month Dynamics 365 Marketing trial:
 
 1. [Host a webinar in Teams](/microsoftteams/set-up-webinars) with at least one attendee.
 1. In Teams, select the **Attendance** tab to view the attendance report.
-1. On the top bar, select **Follow up with participants**.
+1. On the top bar, select **Turn attendance into results**.
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of the Follow up with participants button](media/teams-follow-up2.png "Screenshot of the Follow up with participants button")
+    > ![Screenshot of the Turn attendance into results button](media/teams-follow-up3.png "Screenshot of the Turn attendance into results button")
 
     > [!IMPORTANT]
-    > The **Follow up with participants** button only appears in the attendance tab *after* the webinar has ended. The meeting type must be a webinar to use the **Follow up with participants** functionality. The button is not shown if the meeting type is not a webinar, if you do not meet eligibility criteria, or if your organization has disabled trials.
+    > The **Turn attendance into results** button only appears in the attendance tab *after* the webinar has ended. The meeting type must be a webinar to use the **Turn attendance into results** functionality. The button is not shown if the meeting type is not a webinar, if you do not meet eligibility criteria, or if your organization has disabled trials.
+    > 
+    > Additionally, the **Turn attendance into results** button will not appear unless the **Engagement report** policy is enabled. Learn more: [Enable engagement reports](/microsoftteams/meeting-policies-in-teams-general.md#engagement-report).
 
 1. Select **Get started**.
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of the Get started button](media/teams-follow-up-get-started2.png "Screenshot of the Get started button")
+    > ![Screenshot of the Get started button](media/teams-follow-up-get-started3.png "Screenshot of the Get started button")
 
 1. You will see some additional screens while the trial is being set up and configured. Once setup is complete, a browser tab will open with a Dynamics 365 Marketing customer journey page that contains your webinar data, allowing you to personalize emails to follow up with your webinar participants.
 

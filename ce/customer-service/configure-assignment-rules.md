@@ -1,7 +1,7 @@
 ---
 title: "Configure assignment methods for queues | MicrosoftDocs"
 description: "Contains steps on how to configure the different assignment methods for queues in Customer Service and Omnichannel for Customer Service"
-ms.date: 12/15/2021
+ms.date: 01/19/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -41,7 +41,7 @@ Perform the following steps to create a custom assignment method:
    
    c. Select the attribute on which you want to define the order-by to route the work item to agents.
    
-   d. Create as many rules as are needed.
+   d. Create as many rules as needed.
 
 6. To create an assignment ruleset, on the **Assignment method** page, select **Create ruleset**.
 
@@ -65,12 +65,13 @@ Perform the following steps to create a custom assignment method:
 
    > [!NOTE]
    > We recommend that you reduce the granularity of the conditions for the assignment roles in a descending order.
+  
 
 10. You can sort the order in which the rules should be evaluated during work assignment. For other tasks that you can perform, such as copy, edit, delete, see [Options available for rulesets](configure-work-classification.md#options-available-for-rulesets).
 
 11. If you create more than one assignment ruleset, a warning message is displayed that alerts you to define the selection criteria to run the rulesets.
 
-You can create a sample assignment rule with the following conditions.
+Create a sample assignment rule with the following conditions.
 
 | Attribute          | Operator                    | Match type    | Attribute value                           |
 | ------------------ | --------------------------- | ------------- | ----------------------------------------- |
@@ -79,11 +80,14 @@ You can create a sample assignment rule with the following conditions.
 | Available capacity | Is greater than             | Dynamic match | Conversation.Workstream.Capacity                                   |
 |                    |                             |               |              |
 
+> [!NOTE]
+> If you want to define a condition on available capacity of users, then use the **Available capacity** attribute only as suggested in the example. Use the "is greater than" operator to ensure that available capacity is more than the required capacity.
+
 ![Sample assignment rule.](media/ur-sample-assign-rule.png "Sample assignment rule")
 
 ### Configure selection criteria
 
-When you configure more than one assignment ruleset in the custom assignment method, you must define selection criteria. The selection criteria lets you define a set of conditions to determine the ruleset to be run when the condition is met. After the ruleset is picked up by the work assignment engine, if no rule matches in the selection criteria or if no selection criteria is met, the default ruleset will be run by the system.
+Define the selection criteria, when you configure more than one assignment ruleset in the custom assignment method. The selection criteria lets you define a set of conditions to determine the ruleset to be run when the condition is met. After the ruleset is picked up by the work assignment engine, if no rule matches in the selection criteria or if no selection criteria is met, the default ruleset will be run by the system.
 
 Follow these steps to configure the selection criteria for the assignment rulesets:
 

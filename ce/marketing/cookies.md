@@ -1,7 +1,7 @@
 ---
 title: "Cookies set and read (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Describes how cookies are set and used in Dynamics 365 Marketing."
-ms.date: 05/19/2021
+ms.date: 01/19/2022
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -41,6 +41,17 @@ Marketing sets three different types of cookies:
 
 > [!NOTE]
 > The Marketing application also sets cookies to enable sign-in sessions and other technical features. These only affect direct users of Dynamics 365 Marketing (such as your internal marketing personnel), not the general public. Microsoft&#39;s standard privacy policy applies for these users.
+
+## List of Dynamics 365 Marketing cookies
+
+The table below lists the cookies used by Dynamics 365 Marketing as well as the purpose and properties.
+
+| Cookie name | Purpose | First or third party | Properties |
+|---|---|---|---|
+| 79f08280-5c63-4331-b04d-fb6f39afda51 | Behavior tracking | Third party | Persistent, secure, HttpOnly |
+| 319af4c0-e197-4de9-8a9b-fe98c8a2ca04 | Session tracking | Third party | Session, secure, HttpOnly |
+| msd365mkttr | Behavior tracking | First party | Persistent, client-side |
+| msd365mkttrs | Session tracking | First party | Session, client-side |
 
 ## How to disable non-essential Dynamics 365 Marketing cookies
 

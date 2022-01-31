@@ -2,11 +2,11 @@
 title: "Overview of unified routing | MicrosoftDocs"
 description: "Overview of unified routing in Customer Service"
 ms.date: 10/07/2021
-ms.topic: article
+ms.topic: overview
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.custom: intro-internal
+
 ---
 
 # Overview of unified routing

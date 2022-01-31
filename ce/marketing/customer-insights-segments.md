@@ -20,7 +20,7 @@ search.app:
 
 # Use segments from Dynamics 365 Customer Insights with Dynamics 365 Marketing
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 Dynamics 365 Customer Insights applies artificial intelligence to analyze rich pools of customer data collected from across other apps like Dynamics 365 Sales, Service, and Marketing. Its standard functionality generates powerful analytical displays for each contact, which makes the information easy to understand and use. The integrated solution can:
 
@@ -116,7 +116,7 @@ To configure your Dynamics 365 Marketing instance as an export destination in Cu
    - **Type**: Select **Dynamics 365 Marketing (Segments)**.
    - **Server address**: Enter the full domain name for your Dynamics 365 Marketing instance.
    - **Server admin account**: Select **Sign in** to open a pop-up window where you can sign into your Dynamics 365 Marketing instance. Sign in using an account with admin privileges on the Marketing instance.
-   - **Indicate which Customer Insights field matches the Dynamics 365 Contact ID**: Select the field in Customer Insights that stores contact IDs of contacts in Marketing. Unless you've customized this, you should usually select **CustomerId**.
+   - **Indicate which Customer Insights field matches the Dynamics 365 Contact ID**: Select the field in Customer Insights that stores contact IDs of contacts in Marketing. Unless you've customized this, you should usually select **ContactId**.
    - **Display name**: Enter a name for this destination as you'd like it to appear in the destinations list in Customer Insights.
 
     ![The Edit Destination dialog in Customer Insights.](media/ci-edit-destination.png "The Edit Destination dialog in Customer Insights")

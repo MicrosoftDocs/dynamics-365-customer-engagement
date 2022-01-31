@@ -15,7 +15,7 @@ You can view the details of a sequence and the records connected with it. This v
 
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator or Sequence Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
@@ -23,7 +23,7 @@ You can view the details of a sequence and the records connected with it. This v
    
 1. Sign in to your sales app.   
 2. At the bottom of the site map, select **Change area** > **Sales Insights settings**.   
-3. Under **Sales accelerator**, select **Sequence**.   
+3. Under **Sales accelerator**, select **Sequences**.   
 4. On the **Sequences** page, select the **Active** tab.    
     >[!NOTE]
     > You can assign records to sequences that are in active state only.

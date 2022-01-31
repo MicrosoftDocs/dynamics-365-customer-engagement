@@ -19,7 +19,7 @@ After you create and activate a sequence for the selling process, you connect th
 
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator or Sequence Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
@@ -33,6 +33,7 @@ You can connect a sequence to records in the following ways:
 - [Through Power Automate](#through-power-automate)
 
 <a name="ContactThroughASequence"></a>
+
 ## Through a sequence   
 
 >[!NOTE]
@@ -40,7 +41,7 @@ You can connect a sequence to records in the following ways:
 
 1. Sign in to your sales app.   
 2. Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.   
-3. Under **Sales accelerator**, select **Sequence**.   
+3. Under **Sales accelerator**, select **Sequences**.   
 4. On the **Sequences** page, select a sequence that is active state.    
     >[!NOTE]
     > You can assign records only to sequences that are in an **Active** state.
@@ -138,7 +139,7 @@ You can create a flow based on a sequence. The flow connects the records automat
     > ![Search for your solution](media/si-admin-view-flows-search-solution.png "Search for your solution")
 4. Configure a trigger to the flow.    
 5. Select **+ New step**.   
-6. In the **Search connectors and actions** box, select **Microsoft Dataverses**, and then search for and add the action **Perform an unbound action**.     
+6. In the **Search connectors and actions** box, select **Microsoft Dataverse**, and then search for and add the action **Perform an unbound action**.     
     > [!div class="mx-imgBorder"]
     > ![Search and add Perform an unbound action](media/sequence-add-an-unbound-action.png "Search and add Perform an unbound action")     
 7.	In the **Perform an unbound action** step, select the **Action Name** as **msdyn_ConnectSequence**.     

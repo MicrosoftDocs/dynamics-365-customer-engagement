@@ -11,7 +11,7 @@ monikerRange: '>= dynamics-usd-4.1'
 
 # Step 4:  Attach communication panel-related action calls to events 
 
-[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 

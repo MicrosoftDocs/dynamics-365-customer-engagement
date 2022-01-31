@@ -2,7 +2,7 @@
 title: "Deploy sample Unified Service Desk package using Package Deployer | MicrosoftDocs"
 description: "Learn about the Package Deployer and how to use it to import a sample application in Unified Service Desk."
 ms.date: 08/17/2018
-ms.topic: article
+ms.topic: overview
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -18,7 +18,7 @@ ms.custom:
 
 # Overview of Package Deployer and the sample applications
 
-[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 [!INCLUDE[pn_unified_service_desk_for_crm](../../includes/pn-unified-service-desk-for-crm.md)] comes with  sample applications that you can use as the base for starting with your configuration of your agent application.
 

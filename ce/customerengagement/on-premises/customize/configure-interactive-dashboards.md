@@ -4,7 +4,7 @@ description: "There are two types of interactive dashboards. This page explains 
 keywords: Interactive dashboards; Customer Service; Microsoft Dynamics 365 for Customer Engagement; Interactive service hub; Customer Service Hub
 ms.date: 09/30/2017
 ms.prod: d365ce-op
-ms.topic: article
+ms.topic: overview
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: d1446a95-14bf-4b15-a905-72fce07f4c76

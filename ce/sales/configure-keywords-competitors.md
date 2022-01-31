@@ -1,7 +1,7 @@
 ---
 title: "Configure keywords and competitors in conversation intelligence application"
 description: "Configure conversation content such as, keywords and competitors to track in conversation intelligence application."
-ms.date: 11/26/2021
+ms.date: 01/10/2022
 ms.custom: 
 ms.topic: article
 ms.assetid: 2d1fb7e4-f059-4e9b-b52e-f6023bc57ab2
@@ -23,7 +23,7 @@ Configure conversation content such as, keywords and competitors to track in con
 
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator or Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 

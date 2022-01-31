@@ -1,7 +1,7 @@
 ---
 title: "Configure call data for conversation intelligence"
 description: "Configure call data to assist sales managers to get an overview of the call center and drill down to get call statistics for individual sellers."
-ms.date: 10/26/2021
+ms.date: 01/10/2022
 ms.custom: 
 ms.topic: article
 ms.assetid: 5fbbe749-6b23-49a6-91a1-0499f9a4fb92
@@ -22,7 +22,7 @@ Configure call data to assist sales managers to get an overview of the call cent
 
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
