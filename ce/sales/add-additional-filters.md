@@ -1,5 +1,5 @@
 ---
-title: "Filter forecast data (Dynamics 365 Sales)"
+title: "Add additional filters to a forecast (Dynamics 365 Sales)"
 description: "Add filters to refine the opportunities and hierarchies that participate in calculating the forecast values."
 ms.date: 01/31/2022
 ms.topic: article
@@ -7,7 +7,7 @@ author: udaykirang
 ms.author: udag
 manager: shujoshi
 ---
-# Filter forecast data 
+# Apply additional filters 
 
 Add filters to refine the opportunities and hierarchies that participate in calculating the forecast values.
 
@@ -21,7 +21,7 @@ Add filters to refine the opportunities and hierarchies that participate in calc
 
 ## Filter hierarchy records in the forecast
 
-You can apply filters on your forecast to include only those hierarchies that meet the specified conditions. For example, Kenny Smith is the Sales head for APAC and EMEA. He wants to view the forecast data of his org in the APAC territory. As an administrator, you can create an org chart forecast and set the hierarchy filter to include only the APAC forecast data. 
+You can filter your forecast to include only those hierarchies that meet the specified conditions. For example, Kenny Smith is the Sales head for APAC and EMEA. He wants to view the forecast data of his org in the APAC territory. As an administrator, you can create an org chart forecast and set the hierarchy filter to include only the APAC forecast data. 
 
 The following screenshot illustrates a sample forecast hierarchy: 
 
@@ -50,7 +50,7 @@ The following screenshot illustrates a sample forecast hierarchy:
 4.  Ensure that the forecast hierarchy looks correct before you activate the forecast. After the forecast is activated, you can't edit the filter.
 
 
-## Filter opportunities in the forecast 
+## Add additional filters on opportunities to calculate forecast values
 
 Using the rollup filters, you can filter opportunities that participate in calculating the forecast values. To filter the opportunities, create the filter conditions based on the opportunity and its related entity attributes.
 
