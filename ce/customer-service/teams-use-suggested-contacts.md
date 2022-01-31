@@ -51,7 +51,7 @@ To use suggested contacts, your administrator must enable the feature. For the c
 ### See also
 
 [Configure Teams chat in Customer Service](configure-teams-chat.md)<br>
-[Use Teams chat in Customer Service](use-teams-chat)<br>
+[Use Teams chat in Customer Service](use-teams-chat.md)<br>
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]  
  
