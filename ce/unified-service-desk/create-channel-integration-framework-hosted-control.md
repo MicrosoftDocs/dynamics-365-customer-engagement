@@ -19,7 +19,7 @@ monikerRange: '>= dynamics-usd-4.1'
 
 # Create a Channel Integration Framework hosted control
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 This topic describes how to create a Channel Integration Framework type of hosted control to enable the encoding and escaping of special characters.
 

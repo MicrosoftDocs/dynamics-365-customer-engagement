@@ -19,7 +19,7 @@ tags: MigrationHO
 
 # How you can configure client diagnostic logging
 
-[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 There are two ways you can configure [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client diagnostic logging:  
 
