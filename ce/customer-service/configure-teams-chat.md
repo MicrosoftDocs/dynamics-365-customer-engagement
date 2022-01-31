@@ -18,7 +18,7 @@ ms.custom:
   - intro-internal
 ---
 
-# (Preview) Configure Microsoft Teams chat in Customer Service
+# Configure Microsoft Teams chat in Customer Service (Preview)
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
@@ -128,7 +128,7 @@ To enable Teams chat settings for a custom multisession user, complete the follo
    
 7. Select the **General** tab to assign users. More information: [Assign profiles to users](/dynamics365/app-profile-manager/app-profile-manager#assign-profiles-to-users)
    > [!NOTE]
-   > Make sure that you assign the **Productivity tools user** security role to any users who will use the productivity pane.
+   > Make sure that you assign the **Productivity tools user** security role to the users who will use the productivity pane.
 
 ## Configure the ability to link chats to Dynamics 365 records
 
