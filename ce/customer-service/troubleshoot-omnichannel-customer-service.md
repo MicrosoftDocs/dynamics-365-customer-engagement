@@ -9,7 +9,7 @@ manager: shujoshi
 ---
 # Troubleshoot issues in Omnichannel for Customer Service
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 

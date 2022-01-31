@@ -10,7 +10,7 @@ manager: shujoshi
 
 # Use automation dictionary to pass data parameter keys
 
-[!INCLUDE[cc-data-platform-banner](../../../includes/cc-data-platform-banner.md)]
+
 
 ## Overview
 

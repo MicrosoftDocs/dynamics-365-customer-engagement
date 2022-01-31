@@ -3,7 +3,7 @@ title: "Dynamics 365 Sales premium overview (Dynamics 365 Sales) | MicrosoftDocs
 description: "Get an overview of the sales premium offerings from Dynamics 365 Sales."
 ms.date: 04/05/2021
 ms.service: dynamics-365-sales
-ms.topic: get-started-article
+ms.topic: overview
 author: udaykirang
 ms.author: udag
 manager: shujoshi

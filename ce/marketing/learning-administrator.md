@@ -20,7 +20,7 @@ search.app:
 
 # Dynamics 365 Marketing administrators learning catalog
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 Do you need to keep systems and data flowing, provisioned, and secure round-the-clock?
 

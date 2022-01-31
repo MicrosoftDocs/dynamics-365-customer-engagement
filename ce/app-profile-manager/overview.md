@@ -5,8 +5,8 @@ author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.date: 10/12/2020
-ms.topic: article
-ms.custom: intro-internal
+ms.topic: overview
+
 
 ---
 

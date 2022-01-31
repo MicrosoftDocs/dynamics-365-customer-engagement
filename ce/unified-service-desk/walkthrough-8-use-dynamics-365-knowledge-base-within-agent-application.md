@@ -18,7 +18,7 @@ ms.custom:
 
 # Walkthrough 8: Use knowledge base within your agent application
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] using the **KM Control** hosted control that displays knowledge base records from your Microsoft Dataverse.  
 

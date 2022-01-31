@@ -4,9 +4,12 @@ description: "Demonstrates how to build a simple communication widget using Dyna
 author: "mh-jaya"
 ms.author: v-jmh
 manager: shujoshi
+ms.date: 01/21/2022
+ms.topic: reference
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
+  - "intro-internal"
 ---
 # Walkthrough: Get started with building a simple communication widget
 

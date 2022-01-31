@@ -4,6 +4,8 @@ description: "Learn about the modes&mdash;docked, minimized, and hidden&mdash;us
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
+ms.date: 01/21/2022
+ms.topic: reference
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"

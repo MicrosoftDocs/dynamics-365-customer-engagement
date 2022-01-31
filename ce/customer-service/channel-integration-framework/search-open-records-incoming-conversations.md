@@ -1,6 +1,7 @@
 ---
 title: "Walkthrough: Search and open records of incoming conversations | MicrosoftDocs"
 description: "Demonstrates how you can use the Dynamics 365 Channel Integration Framework 1.0 APIs to search and open records of incoming conversations."
+ms.date: 01/21/2022
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -203,7 +204,7 @@ Follow the steps mentioned in [Publish and configure the widget](getting-started
 
   ![Published sample widget in Unified Interface apps.](media/cif-search-records-publish-app.PNG "Published sample widget in Unified Interface apps")<br />
 
-## See also
+### See also
 
 [Get started with building a simple communication widget](getting-started-simple-widget.md)
 
