@@ -11,7 +11,7 @@ ms.reviewer: nenellim
 
 # Export and import app configuration data
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 After you have used Omnichannel for Customer Service in a test environment, you can export your app configuration data to a live production environment. Follow the process outlined in this topic to export and then import the app data into your new target environment. That way, you can keep all of the queues, routing rules, workstreams, and other custom settings that you set up earlier.
 

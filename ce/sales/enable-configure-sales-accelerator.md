@@ -25,7 +25,7 @@ The sales accelerator feature helps sellers in your organization increase their 
 
 > [!NOTE]
 > - To configure sales accelerator for assignment rule with your enterprise license, see [Configure sales accelerator for assignment rules](sales-accelerator-assignment-rules.md).
-> - You can also set up sales accelerator through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get 1500 sequence-connected records per month. More information: [Set up sales accelerator](digital-selling.md#set-up-sales-accelerator)
+> - You can also set up sales accelerator through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get 1,500 sequence-connected records per month. To set up sales accelerator through quick setup, you must go to the **Get started with digital sales** page under **App Settings**. More information: [Set up sales accelerator](digital-selling.md#set-up-sales-accelerator)
 
 As an administrator, you must enable and configure the sales accelerator in your organization to make it available for sales managers and sellers to use. Follow these steps:
 
@@ -124,20 +124,20 @@ For the best experience of the sales accelerator, enable and configure [predicti
     - Under **Call settings**, select the **Create records automatically on click** option to automatically create a phone call activity when sellers initiate a call from a sequence step or from the work list.   
         >[!div class="mx-imgBorder"]
         >![Advanced call settings](media/sa-advance-call-settings.png "Advanced call settings")       
-10. <a name="enable-sales-accelerator-reports"></a>Enable the **Sales accelerator reports** option to help your sales manager view and understand their team's historical operational metrics and key performance indicators (KPIs), and sequence stats page.   
+10. <a name="enable-sales-accelerator-reports"></a>Enable the **Sales accelerator reports** option to help your sales manager view and understand their team's historical operational metrics, key performance indicators (KPIs), and sequence stats page.   
     [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
     
     >[!div class="mx-imgBorder"]
     >![Enable Sales acceleration reporting preview](media/sa-enable-sales-acceleration-reporting.png "Enable Sales acceleration reporting preview")        
 
-    By default, the users with sales manager and sequence manager roles can view the reports. To grant view access to other roles, provide read access at organizational level for the Sales acceleration reports table. More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges).   
+    By default, the users with sales manager and sequence manager roles can view the reports. To grant view access to other roles, provide read access at the organizational level for the sales acceleration reports table. More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)
 
     >[!NOTE]
-    >After you enable the option, the application may take up to 24 hours to display the data in the reports. Subsequently, the reports refresh every 24 hours. You can view the last updated date on the top-right corner of the sales acceleration reporting page.
+    >After you enable the option, the application might take up to 24 hours to display the data in the reports. Subsequently, the reports are refreshed every 24 hours. You can view the last updated date in the upper-right corner of the sales acceleration reporting page.
 
     To know how sales managers use,   
-       -	Metrics and KPIs, see [Understand sales acceleration reporting](understand-sales-acceleration-reporting.md).
-       -	Sequence stats, see [Understand sequence stats](understand-sequence-stats.md).
+       -	Metrics and KPIs, go to [Understand sales acceleration reporting](understand-sales-acceleration-reporting.md).
+       -	Sequence stats, go to [Understand sequence stats](understand-sequence-stats.md).
     
 11. Save and publish the configuration.
     A status message is displayed at the top of the page with details including the time and user who published the configurations.

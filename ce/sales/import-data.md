@@ -1,7 +1,7 @@
 ---
 title: "Import data into Dynamics 365 Sales | MicrosoftDocs"
 description: "Get your data in bulk into Dynamics 365 Sales by importing it."
-ms.date: 10/01/2019
+ms.date: 1/28/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -276,39 +276,6 @@ You must wait for an import job to complete before you can repair failures.
 
     -   **Delete All**. This deletes the import file along with the records that were imported from the import file.
 
-## Import contacts from Exchange in Dynamics 365 Sales
-
-If you’ve been keeping track of all your contacts in Microsoft Exchange, you can quickly get all your contacts in Dynamics 365 Sales so you have
-all your data in one place.
-
-To be able to import from Exchange:
-
--   You must have a valid Exchange subscription and license.
-
--    Your mailbox must be tested and enabled. Talk to your administrator if you receive an error.
-
-**To import contacts from Exchange:**
-
-1.   If you’re a user with a Sales Manager or Sales Professional Manager role, go to the list of contacts. On the command bar, select **Import
-    from Excel** \> **Import from Exchange**.
-
-    ![Import from Exchange option.](media/import-from-exchange-option.png "Import from Exchange option")
-
-    > [!NOTE]
-    > If you are a System Administrator with the Sales Professional license, select **Sales Settings** in the site map. Under **Standard settings**, select **Import data**. 
-
-3. In the **Data type** drop-down list, select the type of records you want to import. In the **File type** drop-down list, select **Exchange**, and then select **Start Import**.
-
-    The **Track data from Exchange** dialog box opens.
-
-    ![Track data from Exchange dialog box.](media/track-data-from-exchange-dialog-box.png "Track data from Exchange dialog box")
-
-4. Select **Track**.
-
-    All the contacts from Exchange will start importing to Dynamics 365 Sales. Any changes that you make to contacts in your Exchange mailbox are automatically updated in the contact records in Dynamics 365 Sales.
-
->[!IMPORTANT]
->You won’t be able to remove or untrack a contact from Dynamics 365 Sales. Use the Dynamics 365 App for Outlook to do this.
 
 ---
 

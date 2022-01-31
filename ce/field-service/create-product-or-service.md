@@ -1,7 +1,7 @@
 ---
 title: "Create products or services for work orders in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to create products or services for work orders in Dynamics 365 Field Service
-ms.date: 06/05/2020
+ms.date: 01/24/2022
 ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
 ms.topic: article
@@ -172,7 +172,7 @@ Work order products and services are not required. Field technicians have the ab
 
 Within a work order product record, field technicians will set the **Line Status** to **Used**, and enter a **Quantity**, which represents how many units were consumed, and a **Quantity to Bill**, which can be different.
 
-When using an inventory item, you need to enter a warehouse it comes from. It will default to the warehouse value on the **Bookable Resource**.
+When using an inventory item, you need to enter a warehouse it comes from. It will default to the warehouse value on the **Bookable Resource** associated with the user who creates the order product record.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service Mobile highlighting warehouse on the product summary.](./media/work-order-product-add-mobile-non-inventory.png)
