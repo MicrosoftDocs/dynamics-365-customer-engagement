@@ -109,7 +109,7 @@ It's important that you move opportunities from one business process flow stage 
 By analyzing the time spent by the closed opportunities in each stage, the predictive model provides insights about the open opportunities. This insight helps sellers take action on stalled opportunities and move them forward.
 
 > [!NOTE]
-> This insight is available by default if you've enabled predictive scoring. 
+> This insight is available by default if you've enabled predictive scoring; no additional configuration is required. 
 
 The following screenshot illustrates the reason and tooltip for the time spent in stage insight.
 
