@@ -50,7 +50,7 @@ Before you configure Dynamics 365 (on-premises) and Exchange Online for server-b
 - Microsoft Dynamics 365 Hybrid Connector. The Microsoft Dynamics 365 Hybrid Connector is a free connector that lets you use server-based authentication with Microsoft Dynamics 365 (on-premises) and Exchange Online. More information: [Microsoft Dynamics 365 Hybrid Connector](https://admin.microsoft.com/Signup/Signup.aspx?OfferId=2d11d538-945d-48c6-b609-a5ce54ce7b18&pc=76ac7a4d-8346-4419-959c-d3896e89b3c9)
 - An x509 digital certificate issued by a trusted certificate authority that will be used to authenticate between Dynamics 365 (on-premises) and Exchange Online. The certificate should have a [KeySpec value](https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/technical-reference/ad-fs-and-keyspec-property) of 1. If you are evaluating server-based authentication, you can use a self-signed certificate.
 - Verify that all servers that run the Asynchronous Processing Service have the certificate that is used for Server-to-Server authentication.
-- Verify that the account that runs the Asynchronous Processing Service has read access for the certificate.
+- Verify that the account that runs the Asynchronous Processing Service has read access to private keys of the certificate.
 
 ### Configure server-based authentication
 1. On the Microsoft Dynamics 365 Server where the deployment tools server role is running, start the Azure Active Directory Module for Windows PowerShell.
@@ -59,7 +59,7 @@ Before you configure Dynamics 365 (on-premises) and Exchange Online for server-b
    Change the directory to the location of the CertificateReconfiguration.ps1 file (by default it is C:\Program Files\Microsoft Dynamics CRM\Tools).
 
 ```powershell
-$CertificateScriptWithCommand = ".\CertificateReconfiguration.ps1 -certificateFile c:\Personalcertfile.pfx -password personal_certfile_password -updateCrm -certificateType S2STokenIssuer -serviceAccount contoso\CRMAsyncService -storeFindType FindBySubjectDistinguishedName"
+.\CertificateReconfiguration.ps1 -certificateFile c:\Personalcertfile.pfx -password personal_certfile_password -updateCrm -certificateType S2STokenIssuer -serviceAccount contoso\CRMAsyncService -storeFindType FindBySubjectDistinguishedName
 Invoke-Expression -command $CertificateScriptWithCommand
 ```
 
@@ -138,8 +138,8 @@ $CRMContextId
 3. Update S2STenantId for the organization by running these commands, where OrganizationName is the unique name of the organization. 
 
 ```powershell
-$organizationName = “OrganizationName”
-$CRMContextId = “ExchangeOnlineTenantId”
+$organizationName = "OrganizationName"
+$CRMContextId = "ExchangeOnlineTenantId"
 $orgInfo = Get-CrmOrganization -Name $organizationName
 $ID = $orgInfo.id 
 
