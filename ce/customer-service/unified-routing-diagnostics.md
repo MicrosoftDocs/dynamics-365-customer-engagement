@@ -18,7 +18,7 @@ ms.custom:
 
 # Diagnostics for unified routing
 
-Unified routing helps you assign a work item to the agent or queue who's best suited to handle it, based on the agent's skills and the entities that are related to the work item. Routing diagnostics will provide visibility into work item classification and assignment events when using unified routing.
+Unified routing helps you assign a work item to the best suited agent or queue to handle it, based on the agent skills and the entities that are related to the work item. Routing diagnostics gives a granular view of each of the routed records to help you understand and self diagnose issues in classification and assignment of work items.
 
 ## Enable routing diagnostics
 
@@ -28,8 +28,8 @@ To see data related to work items and their status, you need to enable routing d
 
 2. Perform one of the following steps:
 
-  - Sign in to Omnichannel admin center, and in **Advanced settings** in the site map, select **Diagnostics**.
-  - In Customer Service Hub, go to **Service Management**, and in **Unified Routing** select **Diagnostics**.
+   - In Omnichannel admin center, in **Advanced settings** in the site map, select **Diagnostics**.
+   - In Customer Service Hub, go to **Service Management**, and in **Unified Routing** select **Diagnostics**.
 
 3. On the **Routing diagnostics** page, select **Turn on routing diagnostics**.
 
@@ -45,30 +45,34 @@ To see data related to work items and their status, you need to enable routing d
 
 The **Routing diagnostics** page displays a list of work items with details and the stage each work item is in. The following table displays the information to help you understand routing diagnostics.
 
-- **Work item**: The name of the work item.Work items can be searched and sorted by clicking the dropdown next to the work item column.
+- **Work item**: The name of the work item. Work items can be searched and sorted by clicking the dropdown next to the work item column.
 - **Routing status**: The stage the work item is in.
 - **Routing started on**: The time and date when the routing began
 - **Routing duration**: The amount of time the work item has been in its current stage.
 - **Work stream**: The name of the work stream that the work item was assigned to.
 - **Queue**: The name of the queue that the work item was routed to.
 
-You can select any work item to see a **Summary** page that shows detailed information about when the work item was created, its current stage, and the duration of each stage. You can also open the work item to see the related case.
-
 ## Routing diagnostics flow
 
-Each work item needs to pass through a set of stages before its routing stage can be assigned as completed. You can create multiple workstreams and assign work items based on their severity and priority. The standard flow of a work item is mentioned here.
+Each work item needs to pass through a set of stages before its routing stage can be assigned as completed. You can create multiple workstreams and assign work items based on their severity and priority. The diagnostics flow displays information based on the flow each work item goes through.
 
 Intake ➡ Classification ➡ Route to queue ➡ Assignment
 
 > [!NOTE]
 > If a work item skips a stage in the flow, the stage is disabled.
 
+### Summary
+
+You can select a work item on the **Routing diagnostics** page to view the detailed information, such as when the work item was created, its current stage, and the duration of each stage. You can also select and open the work item to see the associated case. If the work item is not assigned or no rule item meets the criteria of the work item, error messages are displayed. You can select the stage to see further details of the error.
+
+:::image type="content" source="media/routing-diagnostics-summary.png" alt-text="Summary view of a routed work item.":::
+
 ### Intake
 
 > [!NOTE]
-> Intake stage is applicable only for record routing.
+> The intake stage is applicable only for record routing.
 
-When a work item comes in, it goes to the first workstream in the **Intake** table and is checked for whether it meets the conditions of the rule set. The work item moves to the second workstream and checks for a match with that rule set, and so on. When a work item matches the rule set, the work item is run. You can create multiple workstreams based on priority of the work items. This is called the **Intake** stage of the workflow.
+When a work item comes in, it goes to the first workstream in the **Intake** table and is checked for whether it meets the conditions of the rule set. The work item moves to the second workstream and checks for a match with that rule set, and so on. When a work item matches the rule set, the work item is run. You can create multiple workstreams to handle work items based on their priority. This is called the **Intake** stage of the workflow.
 
 After a work item passes the **Intake** stage, it's then classified through several rule sets and rule items.
 
@@ -81,9 +85,9 @@ A work item passes through three stages.
 
 ### Classification
 
-If a work item doesn't run through a particular rule set in the **Classification rulesets** list, the **Run status** check mark is displayed in red. When the work item runs a particular ruleset, the **Run status** check mark is displayed in green. A work item runs all rule sets, but it doesn't run all rule items within the rule set.
+If a work item doesn't run through a particular rule set in the **Classification rulesets** list, the **Run status** check mark is displayed in red. When the work item runs a particular rule set, the **Run status** check mark is displayed in green. A work item runs all rule sets, but it doesn't run all rule items within the rule set.
 
-If machine learning-based skills identification, effort estimation (preview), or a sentiment prediction (preview) model is used, the details of the model that's used are displayed under the Classification section.
+If machine learning-based skills identification, effort estimation (preview), or a sentiment prediction (preview) model is used, the details of the model that's used are displayed in the **Classification** section.
 
 :::image type="content" source="media/routing-diagnostics-classification.png" alt-text="View of classification ruleset and machine learning model.":::
 
@@ -105,20 +109,20 @@ The following stages are available:
 
 - **Prioritization**: Lists the prioritization rule that was applied if any. Work items are routed according to their priority. For more information, see : [Configure assignment methods and rules for queues](configure-assignment-rules.md)
 - **Assignment selection**: Displays information about the conditions that determined in selecting an agent. If more than one assignment rule set exists, selection criteria defines the order in which the rule sets are to be evaluated. The assignment selection criteria determines the rule set that has the closest match and the rule that should be run out of the many rules.
-- **Assignment ruleset**: Displays information about the rulesets that were processed.
-- **Agent assignment trace**: Provides the following information that was used to select an agent:
+- **Assignment ruleset**: Displays information about the rule sets that were processed.
+- **Agent assignment trace**: Provides information that was used to determine and match the work item with the agent:
  
   - **Assignment criteria**:
-      - Assignment method
-      - Capacity
-      - Presence
-      - Skills
+      - **Assignment method**: Displays "Highest" or "Round robin".
+      - **Capacity**: Displays the capacity information.
+      - **Presence**: Displays the presence used.
+      - **Skills**: Displays the skills that were matched if any.
   - **Assignment trace**:
-      - Current status
-      - Status reason
-      - Assigned to
-      - Total attempts
-      - Last attempt at
+      - **Current status**: Displays the status of the work item, such as whether an agent has been identified.
+      - **Status reason**: Displays the associated reason of the status.
+      - **Assigned to**: Displays the agent to whom the work item is assigned if any.
+      - **Total attempts**: Displays the number of attempts that were required to assign the agent if any.
+      - **Last attempt at**: Displays the date and time of the last attempt for assigning the work item was made.
 
     :::image type="content" source="media/agent-assignment-trace.png" alt-text="Information about assignment trace.":::
 
