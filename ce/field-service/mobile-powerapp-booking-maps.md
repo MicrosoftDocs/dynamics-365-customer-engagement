@@ -1,6 +1,6 @@
 ---
 title: "Booking maps in Dynamics 365 Field Service | Microsoft Docs"
-description: Learn about how to setup booking maps for frontline workers in Dynamics 365 Field Service.
+description: Learn about how to set up booking maps for frontline workers in Dynamics 365 Field Service.
 ms.date: 05/12/2021
 ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
@@ -27,7 +27,7 @@ Frontline workers can view their scheduled work orders on a map from the Field S
 
 ## Prerequisites
 
-To use booking maps, your administrator must enable booking maps for mobile in Field Service settings. Within the Field Service app module in Dynamics 365, go to **Settings** > **Field Service Settings** > **Work Order / Booking**. Scroll to find the toggle **Enable Booking Map for Field Serive Mobile**. By switching this toggle **On**, you'll enable the booking maps feature for mobile users. 
+To use booking maps, your administrator must enable booking maps for mobile in Field Service settings. Within the Field Service app module in Dynamics 365, go to **Settings** > **Field Service Settings** > **Work Order / Booking**. Scroll to find the toggle **Enable Booking Map for Field Service Mobile**. By switching this toggle **On**, you'll enable the booking maps feature for mobile users. 
 
 > [!div class="mx-imgBorder"]
 > ![The Power Platform admin center, showing the geospatial services option.](./media/EnableBookingMaps.png)
