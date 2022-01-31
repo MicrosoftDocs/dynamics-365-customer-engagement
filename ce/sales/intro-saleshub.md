@@ -1,5 +1,5 @@
 ---
-title: " | MicrosoftDocs"
+title: "Use the Sales Hub app to access Dynamics 365 Sales features | MicrosoftDocs"
 description: "The Sales Hub app is pre-installed and pre-configured with several core sales and sales insights features to help you get started quickly"
 ms.date: 01/21/2022
 ms.topic: article
@@ -9,23 +9,25 @@ ms.author: lavanyakr
 manager: shujoshi
 ---
 
-# Use the Sales Hub app to access sales features
+# Use the Sales Hub app to access Dynamics 365 Sales features
 
-Can't wait to explore Dynamics 365 quickly? Use the free Sales Hub app, which is pre-installed and pre-configured with several core sales and sales insights features to help you get started quickly.
+Can't wait to explore Dynamics 365 quickly? Use the free **Sales Hub** app, which is pre-installed and pre-configured with several core sales and sales insights features to help you get started quickly.
 
-The Sales Hub app has a modern and interactive interface, designed to simplify your day-to-day sales activities. It shows you all the vital information in one place, and lets you focus on the key activities that require your attention.
+The **Sales Hub** app has a modern and interactive interface, designed to simplify your day-to-day sales activities. It shows you all the vital information in one place, and lets you focus on the key activities that require your attention.
 
-Sales Hub is based on the Unified Interface framework. Some of the key highlights are:
+**Sales Hub** is based on the Unified Interface framework. Some of the key highlights are:
 
 -   Modern, seamless, and intuitive user interface
 
 -   Adaptive UI that renders content according to the devices
 
+-   Access to mobile app that lets you complete tasks on-the-go
+
 -   Built with accessibility in mind
 
 ## Why should you use the Sales Hub app
 
-Sales Hub is a Microsoft first-party app that is designed and configured for ideal seller experiences. When you use the Sales Hub app,
+**Sales Hub** is a Microsoft first-party app that is designed and configured for ideal seller experiences. When you use the Sales Hub app,
 
 -   You get access to the preview features with minimal configuration.
 
@@ -35,15 +37,17 @@ Sales Hub is a Microsoft first-party app that is designed and configured for ide
 
 -   You can customize the app and configure the features as required.
 
--   You need not create custom documentation as the Microsoft documentation is based on the Sales Hub app.
+-   You need not create custom documentation as the Microsoft documentation is based on the **Sales Hub** app.
 
-**Note:** The Sales Hub app can coexist with the custom sales apps that you might have in your organization.
+**Note:** The **Sales Hub** app can coexist with the custom sales apps that you might have in your organization.
 
 ## Grant or revoke access to the Sales Hub app
 
 As an administrator, you can decide which users or security roles should have access to the Sales Hub app. The app will honor the access permissions defined in the security role of the user. For example, if the security role allows access to only opportunities and quotes, the app will display only those entities for the user.
 
-By default, the following roles are authorized to view and access the app:
+[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+
+If your organization has opted in for early access as described on the [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates) page, the **Sales Hub** app is enabled by default for the following roles:
 
 -   System Administrator
 
@@ -57,7 +61,7 @@ By default, the following roles are authorized to view and access the app:
 
 -   Vice President of Sales
 
-You can either grant or revoke Sales Hub access to a security role or to specific users.
+As an administrator, you can either grant or revoke access to a security role or to specific users.
 
 **To grant or revoke access:**
 
@@ -65,7 +69,7 @@ You can either grant or revoke Sales Hub access to a security role or to specifi
 
     ![Screenshot depicting the navigation to Manage Roles](media/saleshub-manageroles.png)
 
-The security roles that already have the access are highlighted in blue color as shown in the above screenshot.
+    The security roles that already have the access are highlighted in blue color as shown in the above screenshot.
 
 2.  To grant or revoke access to all the users of a security role, select the security role in the **Manage Roles – Sales Hub** pane.
 
