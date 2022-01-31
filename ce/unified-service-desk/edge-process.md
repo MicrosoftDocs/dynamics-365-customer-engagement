@@ -19,7 +19,7 @@ monikerRange: '>= dynamics-usd-4'
 
 # Use Edge Process to host web applications
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 > [!Note]
 >

@@ -19,7 +19,7 @@ monikerRange: '>= dynamics-usd-4'
 
 # What's new in Unified Service Desk for administrators
 
-[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 ::: moniker range="dynamics-usd-4.2"
 

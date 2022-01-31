@@ -2,7 +2,7 @@
 title: Overview of Community | MicrosoftDocs
 description: Learn about the Community feature in Community in Dynamics 365 Customer Service
 ms.date: 10/03/2021
-ms.topic: article
+ms.topic: overview
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
@@ -17,21 +17,9 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Preview: Overview of Community
+# Overview of Community
 
-> [!IMPORTANT]
->
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
->
-> [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]
-
-Welcome to Dynamics 365 Customer Service Community (preview), a new app that offers a suite of capabilities that are designed to help your organization invite customer suggestions and crowd source portfolios of outside-in ideas. Community can help fuel your business transformation, build customer trust with process transparency, and drive timely follow-up for suggestions. 
+Welcome to Dynamics 365 Customer Service Community, a new app that offers a suite of capabilities that are designed to help your organization invite customer suggestions and crowd source portfolios of outside-in ideas. Community can help fuel your business transformation, build customer trust with process transparency, and drive timely follow-up for suggestions. 
 
 In addition to providing feedback to organizations, end users use Community to collaborate on a social scale, and rally behind suggestions from others to help shape the future of the products they use.
 
@@ -44,7 +32,7 @@ This installation allows you to do the following tasks:
    -	Manage content, including content moderation and merge of duplicate ideas.
    -	Update the status and respond to community feedback.
    -	Manage users and assign security roles on a forum level.
-2. **“Modern Community” portal template**: This template offers delightful end user experiences that are available out of the box. End users can share new ideas with organizations and collaborate on a social scale. 
+2. **“Modern Community” portal template**: This template offers delightful end-user experiences that are available out of the box. End users can share new ideas with organizations and collaborate on a social scale. 
 This installation lets your end users do the following tasks:
    -	Browse, search, filter, and sort idea lists.
    -	Post new ideas. This flow includes autosuggestion of existing ideas to prevent duplicates.

@@ -17,7 +17,7 @@ ms.custom:
 ---
 # Knowledge Management sample application package 
 
-[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 [!INCLUDE[pn_unified_service_desk_for_crm](../../includes/pn-unified-service-desk-for-crm.md)] provides a configurable framework for quickly building applications for call centers so the customer service reps get a unified view of the customer data stored in Microsoft Dataverse or any other application.  
   

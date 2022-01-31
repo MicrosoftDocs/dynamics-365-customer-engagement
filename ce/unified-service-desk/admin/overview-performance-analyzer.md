@@ -2,7 +2,7 @@
 title: "Overview of Unified Service Desk Performance Analyzer | MicrosoftDocs"
 description: "Learn about the Unified Service Desk Performance Analyzer, its advantages, and how you can download it. "
 ms.date: 10/31/2018
-ms.topic: article
+ms.topic: overview
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -20,7 +20,7 @@ monikerRange: '>= dynamics-usd-3'
 
 # Public Preview: Overview of Unified Service Desk Performance Analyzer
 
-[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 

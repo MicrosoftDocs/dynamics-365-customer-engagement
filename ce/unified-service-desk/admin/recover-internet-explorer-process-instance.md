@@ -17,7 +17,7 @@ ms.custom:
 ---
 # Recover an Internet Explorer process instance
 
-[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 >[!Important]
 >

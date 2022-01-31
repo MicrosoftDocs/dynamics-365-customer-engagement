@@ -9,7 +9,7 @@ ms.date: 01/08/2020
 
 # Administrators Learning Catalog for sales
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 Do you need to keep systems and data flowing, provisioned, and secure round-the-clock?
 

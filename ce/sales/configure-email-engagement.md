@@ -16,7 +16,7 @@ topic-status: Drafting
 ---
 # Configure email engagement 
 
-Configure email engagement to show alerts and reminders for sellers and sales managers to help build customer relationships.
+Configure email engagement to show sellers and sales managers the insights on customers' engagement with emails to help build customer relationships. Only the emails that are sent from Dynamics 365 are considered for email engagement analysis.
 
 ## License and role requirements
 
@@ -37,7 +37,7 @@ To enable email engagement, do the following steps:
 > To benefit from the complete experience of email engagement, turn on the email engagement insight cards **[Email opened](action-cards-reference.md#EmailOpened)** and **[Email reminder](action-cards-reference.md#EmailReminder)**.
 
 > [!IMPORTANT]
-> By enabling this feature, you consent to share data about your customers' email activity with other Microsoft services. Data imported from external systems into Dynamics 365 Sales Insights is subject to our privacy statement.
+> By enabling this feature, you consent to share data about your customers' email activity with other Microsoft services. Data imported from external systems into Dynamics 365 is subject to our privacy statement.
 
 ## Prerequisites
 
