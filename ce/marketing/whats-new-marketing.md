@@ -76,7 +76,6 @@ The Dynamics 365 Marketing February 2021 update includes many new features and i
 
 - **Event management**
     - Teams online event calendar invites include a 15 minute reminder prior to the event for attendees and speakers.
-    - Contact matching now respects business unit scoping configurations.
 - **Marketing emails**
     - Added deprecation warning to the old email editor (only visible to users of pre-October 2021 versions of the Marketing app).
 
@@ -89,7 +88,9 @@ The Dynamics 365 Marketing February 2021 update includes many new features and i
     - Improved bot recognition mechanics prevent false interaction counts.
 
 #### Bug fixes
- 
+
+- **Event management**
+    - Contact matching now respects business unit scoping configurations.
 - **Marketing emails**
     - Resolved an error that sometimes caused unsaved changes to appear even though no changes were made.
     - Email pre-headers are automatically generated and blank characters are removed, preventing pre-header-related errors.
