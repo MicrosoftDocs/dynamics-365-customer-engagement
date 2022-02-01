@@ -31,7 +31,7 @@ Marketing updates are [pushed to customers automatically](https://cloudblogs.mic
 
 ### February 2022 update
 
-The Dynamics 365 Marketing February 2021 update includes many new features and improvements. This release includes three features from the [2022 wave 1 release plans](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/get-started): Microsoft Teams chat integration, a new journey tile that raises and event trigger at any point in a customer journey, and pre-defined dynamic text tokens. The update also includes multiple enhancements to customer journeys and the email editor, performance upgrades, and bug fixes.
+The Dynamics 365 Marketing February 2021 update includes many new features and improvements. This release includes three features from the [2022 wave 1 release plans](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/get-started): Microsoft Teams chat integration, a new journey tile that raises an event trigger at any point in a customer journey, and pre-defined dynamic text tokens. The update also includes multiple enhancements to customer journeys and the email editor, performance upgrades, and bug fixes.
 
 #### Version number
 
@@ -64,7 +64,7 @@ The Dynamics 365 Marketing February 2021 update includes many new features and i
 ##### Real-time marketing
 
 - **Customer journeys**
-    - Simplify the journey creation process by defining only the minimum entry criteria when making a new a journey.
+    - Create customer journeys more quickly by defining only the minimum entry criteria when making a new journey.
     - Include multiple suppression segments in a journey, fine-tuning where users exit the journey.
     - Stop and edit custom events even if they are used in live journeys.
     - Customers can now exit one journey without exiting all other journeys that share the same event trigger.
@@ -75,7 +75,7 @@ The Dynamics 365 Marketing February 2021 update includes many new features and i
 ##### Outbound marketing
 
 - **Event management**
-    - Teams online event calendar invites include a 15 minute reminder prior to the event for attendees and speakers.
+    - Teams online event calendar invites include a 15-minute reminder prior to the event for attendees and speakers.
 - **Marketing emails**
     - Added deprecation warning to the old email editor (only visible to users of pre-October 2021 versions of the Marketing app).
 
