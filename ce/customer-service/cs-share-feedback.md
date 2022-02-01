@@ -26,8 +26,8 @@ You can submit feedback either in the Customer Service Hub, Customer Service wor
  
  ### See also
 
-[Overview of Dynamics 365 Customer Service](overview.md)  
-[Get started with Customer Service workspace](csw-overview.md)  
-[Learn the basics of the Customer Service Hub](customer-service-hub-user-guide-basics.md)  
+[Overview of Dynamics 365 Customer Service](overview.md)                                                                                                    
+[Get started with Customer Service workspace](csw-overview.md)                                                                                                                
+[Learn the basics of the Customer Service Hub](customer-service-hub-user-guide-basics.md)                                                                                   
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
