@@ -49,7 +49,7 @@ The deal manager workspace lists important metrics related to the sales pipeline
 
     :::image type="content" source="media/deal-manager-editmetrics-small.png" alt-text="Screenshot illustrating the Edit metrics option in deal manager and the edit metrics side panel with the Create a metric option and the list of metrics." lightbox="media/deal-manager-editmetrics.png":::
 
-1. To create a metric, do the following:
+1. To create a metric, perform the following steps:
     1. Select **Create a Metric**.
     1. Select the field and the aggregate function that you want to use for calculating the metric.
        The **Field** list displays all the numerical fields in the opportunity entity. 
@@ -87,7 +87,7 @@ Personalize the grid to include columns that you want to see and update quickly.
         - **Basic column**    
           Lets you select a column from the opportunity or related entities such as account, contact, price list, and so on.
         - **Smart column**   
-          Lets you select a column that performs certain computations on the records to display smart and actionable information. For more information, see [What are smart columns?](#what-are-smart-columns) later in this topic. 
+          Lets you select a column that performs certain computations on the records to display smart and actionable information. For more information, see [What are smart columns?](#what-are-smart-columns) later in this article. 
 
           :::image type="content" source="media/deal-manager-editcolumns-small.png" alt-text="Screenshot illustrating the Edit columns option and the side panel." lightbox="media/deal-manager-editcolumns.png":::
 
@@ -100,7 +100,7 @@ Personalize the grid to include columns that you want to see and update quickly.
    
 ### What are smart columns?
 
-A *smart column* performs certain computations on existing columns to display smart and actionable information. For example, the **Revenue** column displays the actual revenue if the opportunity is closed; otherwise, it displays the estimated revenue. These columns save you the trouble of manual computation and makes it easy for you to look at opportunities that need your attention. 
+A *smart column* performs certain computations on existing columns to display smart and actionable information. For example, the **Revenue** column displays the actual revenue if the opportunity is closed; otherwise, it displays the estimated revenue. These columns save you the trouble of manual computation and make it easy for you to look at opportunities that need your attention. 
 
 The following table lists the smart columns that are available.
 
@@ -112,7 +112,7 @@ The following table lists the smart columns that are available.
 
 ## Apply filters
 
-As a seller, you want the workspace the display records that you're working on. As a manager, you want to view records that your team is working on. To view the records that you're interested in, you apply filters.
+As a seller, you want the workspace to display records that you're working on. As a manager, you want to view records that your team is working on. To view the records that you're interested in, you apply filters.
 
 **To apply filters to the workspace**
 
