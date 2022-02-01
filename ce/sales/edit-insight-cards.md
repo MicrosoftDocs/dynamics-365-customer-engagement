@@ -26,7 +26,7 @@ Editing the cards allows you to do the following tasks based on the card:
 - [Edit flow of a card](#edit-flow-of-a-card)
 - [View card usage metrics](#view-card-usage-metrics) 
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 ## License and role requirements
 

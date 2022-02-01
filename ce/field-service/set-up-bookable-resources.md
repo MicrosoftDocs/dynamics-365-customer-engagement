@@ -1,7 +1,7 @@
 ---
 title: "Set up bookable resources (Dynamics 365 Field Service) (contains video) | MicrosoftDocs"
 description: Learn about bookable resources in Dynamics 365 Field Service, and how to set them up.
-ms.date: 04/01/2021
+ms.date: 01/27/2022
 ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
 ms.topic: article
@@ -21,12 +21,12 @@ Each resource can have different attributes that distinguish it from others, inc
 
 - Characteristics (for example: Accounting)
 - Categories (for example: Manager)
-- Territories (for example: Washington State)
-- Organizational Unit (for example: Seattle Service Delivery)
-- Location (for example: Location Agnostic)
+- Territories (for example: Washington state)
+- Organizational Unit (for example: Seattle service delivery)
+- Location (for example: Location agnostic)
 - Resource Type (for example: User)
 
-In this article, we will walk through how to create a bookable resource and add details to distinguish it from other resources. We will also explore some common details for setting up field technician resources for Dynamics 365 Field Service organizations.
+In this article, we’ll walk through how to create a bookable resource and add details to distinguish it from other resources. We’ll also explore some common details for setting up field technician resources for Dynamics 365 Field Service organizations.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4yg5v]
 
@@ -37,13 +37,13 @@ In this article, we will walk through how to create a bookable resource and add 
 ## Prerequisites
 
 - Any version of Dynamics 365 Field Service.
-- You must be logged in as a user with **Field Service - Administrator** or **System Administrator** security roles.
+- You must be signed in as a user with **Field Service - Administrator** or **System Administrator** security roles.
 
 ## Quickly set up frontline workers to get started
 
 At its simplest, frontline workers are people in your organization who are primarily scheduled for onsite jobs, and who use the Dynamics 365 Field Service mobile app to view and update the details of their work orders. 
 
-To quickly create frontline workers refer to the topic on [setting up frontline workers](frontline-worker-set-up.md).
+To quickly create frontline workers refer to the article on [setting up frontline workers](frontline-worker-set-up.md).
 
 ## Create frontline workers and other bookable resources manually
   
@@ -64,24 +64,24 @@ To quickly create frontline workers refer to the topic on [setting up frontline 
   Resource type is a classification that describes who or what the resource is and how the resource relates to your organization. 
 
    - **User**: Choose this option if the resource is a person and a member of your organization. This resource type must be chosen if the resource is a frontline worker who needs access to the Field Service mobile app. Note: The related user must have **Security Roles** and **Field Security Roles** set to **Field Service - Resource**. For more information, learn more about [frontline worker setup](frontline-worker-set-up.md#view-and-update-the-details-of-individual-frontline-workers-on-the-bookable-resource-form).
-   - **Account** or **Contact**: Choose this option if the resource is not directly a part of your organization, but needs to be scheduled. A common example is subcontractors. This also allows the scheduling framework to more easily apply to an organization's existing Dynamics system that may be using accounts and contacts to manage workers, partners, and contractors before Field Service is purchased and implemented. 
+   - **Account** or **Contact**: Choose this option if the resource isn’t directly a part of your organization, but needs to be scheduled. A common example is subcontractors. This also allows the scheduling framework to more easily apply to an organization's existing Dynamics system that may be using accounts and contacts to manage workers, partners, and contractors before Field Service is purchased and implemented. 
   - **Equipment**: Choose this option if the resource is a piece of equipment, tool, or machine that must be scheduled.
   - **Crew**: Choose this option as the first step to create a crew to assemble a group of resources where scheduling the crew resource will schedule all crew members. A typical example has two or more people or a person and a vehicle. The general process is to create a crew header resource with the resource type of crew, and then add other resources of resource type user, account, or equipment as resource children to the crew header. For more information, see our article on [resource crews](resource-crews.md).
   - **Facility**: Choose this option if the resource is a physical space that needs to be scheduled, such as a building or room. For more information, see our article on [facility scheduling](facility-scheduling.md).
-  - **Pool**: Choose this option as the first step to create a pool to assemble a group of similar resources to manage capacity. Among other differences, a pool differs from a crew in that scheduling a pool does not schedule all pool members. For more information, see our article on [resource pools](resource-pools.md).   
+  - **Pool**: Choose this option as the first step to create a pool to assemble a group of similar resources to manage capacity. Among other differences, a pool differs from a crew in that scheduling a pool doesn’t schedule all pool members. For more information, see our article on [resource pools](resource-pools.md).   
   
      
   
-  After selecting a resource type, a lookup field will appear prompting you to choose a related record when applicable. For example, if **User** is selected, you will then need to select the related user record.
+  After selecting a resource type, a lookup field will appear prompting you to choose a related record when applicable. For example, if **User** is selected, you’ll then need to select the related user record.
 
 
 4.  **Name**: Enter a name. This can be different from the name of the related user, account, or contact record. The name entered here will appear on the schedule board.
 5.  **Time Zone**: Select the time zone in which the resource is located. This is considered in the schedule process.  
 
 6. **Start/End Location**: Decide where the resource starts and ends their working day for scheduling and routing purposes. The start and end location can be different as long as neither of them is location agnostic. So, the start location can be resource address and end location can be organizational unit, or vice versa.
-   - **Location agnostic** - select this option if the location of this resource is not required for the business need and does not need to be considered during the scheduling process. If the work location of a requirement is set to **On site**, location agnostic resources will not return in results. 
+   - **Location agnostic** - select this option if the location of this resource isn’t required for the business need and doesn’t need to be considered during the scheduling process. If the work location of a requirement is set to **On site**, location agnostic resources won’t return in results. 
    - **Resource Address** - select this option as the start and/or end location if the resource starts and/or ends their day at a unique location. The exact location is derived from the latitude and longitude values on the related user, account, or contact records depending on the resource type. See the configuration considerations section in this article for an example of how resource type and start/end location work together. Be sure that you [connect to maps and turn on geo coding](/dynamics365/customer-engagement/field-service/perform-initial-configurations-setup#step-1-resource-scheduling) in your environment. 
-   - **Organizational Unit** - select this option as the start and/or end location if the resource starts and/or ends the day at an organizational unit, typically representing a company location. The exact location is derived from the latitude and longitude values on the selected organizational unit for which there is a lookup field on the bookable resource form. If the resource is of type facility, the organizational unit acts as the location of the facility.
+   - **Organizational Unit** - select this option as the start and/or end location if the resource starts and/or ends the day at an organizational unit, typically representing a company location. The exact location is derived from the latitude and longitude values on the selected organizational unit for which there’s a lookup field on the bookable resource form. If the resource is of type facility, the organizational unit acts as the location of the facility.
 7. **Organizational Unit**: Select the organizational unit the resource belongs to. This can represent a team the resource belongs to, an office the resource reports to, or the location where the resource starts and ends their day. 
 8. **Display On Schedule Board**: This determines if the resource is eligible to be added to the schedule board. If set to **yes**, then the resource can be added to the schedule board or manually selected.
 9. **Enable for Availability Search**: This determines if the resource is eligible to be returned in schedule assistant results given the resource attributes meet the filter criteria of the requirement.
@@ -91,7 +91,7 @@ To quickly create frontline workers refer to the topic on [setting up frontline 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of scheduling tab on resource form.](media/resource-scheduling-tab.png)
 
-10. **Hourly Rate**: Enter the internal hourly cost of the resource. This is the hourly pay that the resource should be paid by the company. It is used by schedule journals to calculate pay for time worked.
+10. **Hourly Rate**: Enter the internal hourly cost of the resource. This is the hourly pay that the resource should be paid by the company. It’s used by schedule journals to calculate pay for time worked.
 11. **Warehouse**:  Select the default warehouse from which the resource will get their parts. 
 12. **Time Off Approval Required**: Choose this if time off needs to be approved or not. If set to **No**, then a time-off request record will block time on the schedule board and show as nonworking hours for that resource. If set to **yes**, the same result will occur once the time-off request is approved. 
 13. **Enable Drip Scheduling**: This controls how many bookings can appear on the Field Service Mobile app at one time. Set to **No** to allow all bookings for a resource to display  based on mobile settings (view and sync filters). Set to **Yes** to display a new field titled **Bookings to Drip**, where you can enter the total number of bookings displayed at one time. As a resource completes bookings (sets booking status to completed), more bookings will appear in the bookings tab of the Field Service Mobile app.
@@ -102,8 +102,8 @@ To quickly create frontline workers refer to the topic on [setting up frontline 
 
 After saving the bookable resource, it's time to set the working hours of the resource. Working hours are considered by:
 
-- The schedule board by displaying working and nonworking hours as different colors 
-- The schedule assistant by only displaying resources that are working in the results
+- The schedule board by displaying working and nonworking hours as different colors.
+- The schedule assistant by only displaying resources that are working in the results.
 - Resource Scheduling Optimization, which automatically books requirements to resources that are working. 
 
 Let's walk through how to set up working hours.
@@ -230,7 +230,7 @@ Once the territory record is created, you can add it to a resource. Learn more o
 
 If resource scheduling optimization is enabled in your organization, a new tab will appear on the bookable resource form. To allow resource scheduling optimization to automatically schedule requirements to the resource, go to the new tab and set **Optimize Schedule** to **Yes**.
 
-Setting to yes does not mean requirements will automatically be scheduled to this bookable resource; instead it means that after resource scheduling optimization is set up and with the appropriate scope to include this bookable resource, it would then be eligible for automatic schedules.
+Setting to yes doesn’t mean requirements will automatically be scheduled to this bookable resource; instead it means that after resource scheduling optimization is set up and with the appropriate scope to include this bookable resource, it would then be eligible for automatic schedules.
 
 
 > [!div class="mx-imgBorder"]
@@ -248,7 +248,7 @@ There are **two ways** to geocode your resources.
 
 ### Option one
 
-Set resource start/end location to **Resource address** and ensure the related resource record (user, account, contact) as defined by the resource type has latitude and longitude values.
+Set resource start and end location to **Resource address** and ensure the related resource record (user, account, contact) as defined by the resource type has latitude and longitude values.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a bookable resource address in Field Service.](media/scheduling-resource-address.png)
@@ -299,7 +299,7 @@ The process is similar for resources with resource type of Account or User. **Ed
 
 - Only one resource record can be associated to a user record; however, multiple resources can be associated to a single account or contact record. 
 - The start and end location of a resource is used as the resource's location during break hours if a break is configured when working hours are set up for that resource. 
-- The resource work hours are saved in the calendar entity, which is not supported by the configuration migration tool and also audit history cannot be enabled on the calendar entity. 
+- The resource work hours are saved in the calendar entity, which isn’t supported by the configuration migration tool and also audit history can’t be enabled on the calendar entity. 
 - The new work hours control is added to the bookable resource out-of-the-box form. But if you have a custom form defined on this entity, you must enable the work hours tab on the form by following these steps:
   1. Create a tab with name as "work hours." Create a section in it and add the "calendar" field to it.
   2. Double-click on the calendar field, and change the control to "Work Hour Control." Save and publish the form.

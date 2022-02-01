@@ -144,7 +144,7 @@ If you're using your custom attributes for opportunity generation, you can gener
 1. Before you configure the model, review the [prerequisites](#prerequisites). 
 
     > [!NOTE]
-    > You can also enable predictive opportunity scoring through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get 1500 scored records per month. To enable predictive opportunity scoring through quick setup, you must go to the **Get started with digital sales page** under **App Settings**. More information: [Lead and opportunity scoring](digital-selling.md#lead-and-opportunity-scoring)
+    > You can also enable predictive opportunity scoring through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get 1,500 scored records per month. To enable predictive opportunity scoring through quick setup, you must go to the **Get started with digital sales** page under **App Settings**. More information: [Lead and opportunity scoring](digital-selling.md#lead-and-opportunity-scoring)
 
 2. Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
 

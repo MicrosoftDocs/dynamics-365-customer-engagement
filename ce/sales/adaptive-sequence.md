@@ -104,51 +104,54 @@ Let's define a flow so that if a customer opens your email, the next step is to 
 
 ### Advanced email conditions<a name="advanced-email-conditions"></a>
 
-The **Advanced email conditions** step lets you define next course of action when a set of actions or any of the selected actions is performed by the customer on the email step. 
+The **Advanced email conditions** step lets you define next course of action when a set of actions—or any of the selected actions—is performed by the customer on the email step. 
 
 >[!IMPORTANT]
 >- You need to [configure the email engagement feature](configure-email-engagement.md) in your organization before you start using conditions for the email activity. The interactions that customers have with emails are displayed in the condition list.
 >- [Enable linking sequence steps and activities](customize-sales-accelerator-sellers.md#enable-linking-sequence-steps-and-activities) to create conditions for email activities.
 
-Let's define a flow where you want to trigger the next step when customer opens the email and downloads the attachment. 
+Let's define a flow where you want to trigger the next step when a customer opens the email and downloads the attachment. 
 
-1. After adding the **Email** activity, select **+** (**Add**) and go to the **Conditions** tab.      
-2. Select **Advanced email conditions**.   
+1. After adding the **Email** activity, select **+** (**Add**) and go to the **Conditions** tab.
+
+2. Select **Advanced email conditions**.
 
     >[!div class="mx-imgBorder"]
-    >![Select advanced email conditions option from the conditions tab.](media/sa-condition-email-select-advanced-email-conditions.png "Select advanced email conditions option from the conditions tab")    
+    >![Select Advanced email conditions on the Conditions tab.](media/sa-condition-email-select-advanced-email-conditions.png "Select Advanced email conditions on the Conditions tab")    
 
-3. On the **Advanced email conditions** box, choose the **All of them** option. In this example, we are defining the condition to go to **Yes** path when customer opens the email and downloads the attachment. 
+3. In the **Advanced email conditions** box, select the **All of them** option. In this example, we're defining the condition to go to **Yes** path when a customer opens the email and downloads the attachment. 
 
     > [!NOTE]
-    > Choose the **One of them** option, if you want to trigger the **Yes** path when only one of the selected options is performed.
+    > Select the **One of them** option if you want to trigger the **Yes** path when only one of the selected actions is performed.
 
     >[!div class="mx-imgBorder"]
-    >![Select all of them option from the Advanced email conditions box.](media/sa-condition-email-select-all-of-them-option.png "Select all of them option from the Advanced email conditions box")
+    >![Select the All of them option in the Advanced email conditions box.](media/sa-condition-email-select-all-of-them-option.png "Select the All of them option in the Advanced email conditions box")
 
-4. From the **Select results** dropdown list, select the **Email open** and **Attachment downloaded** options.    
-    When customer performs both the actions on the email, the **Yes** path is initiated. 
+4. From the **Select results** dropdown list, select the **Email open** and **Attachment downloaded** checkboxes.
+
+    When a customer performs both of these actions on the email, the **Yes** path is initiated. 
 
     > [!NOTE]
-    > If you have selected **One of them** option, the **Yes** path is initiated when the email is opened or attachment is downloaded.
+    > If you've selected the **One of them** option, the **Yes** path eill be initiated when the email is opened or the attachment is downloaded.
 
     >[!div class="mx-imgBorder"]
-    >![Select the Email open and Attachment downloaded options.](media/sa-condition-email-select-email-open-attachment-download-option.png "Select the Email open and Attachment downloaded options")
+    >![Select the Email open and Attachment downloaded checkboxes.](media/sa-condition-email-select-email-open-attachment-download-option.png "Select the Email open and Attachment downloaded checkboxes")
 
-5.  Select the duration in days and hours after which you want to initiate the **Yes** path when customer performs the selected actions. If not, the **No** path is initiated.   
-    If you don't want to wait and move to the next step in the **Yes** path after customer performs the selected actions, select the **If the action is completed within the time limit, the sequence will move to the Yes path.** checkbox.
+5.  Select the duration in days and hours after which you want to initiate the **Yes** path when a customer performs the selected actions. If the customer doesn't perform these actions within the time limit<!--note from editor: Is this what "if not" means here?-->, the **No** path is initiated.
+
+    If you don't want to wait and move to the next step in the **Yes** path after a customer performs the selected actions, select the **If the action is completed within the time limit, the sequence will move to the Yes path.** checkbox.
 
     >[!div class="mx-imgBorder"]
     >![Select the duration to initiate the yes or no path.](media/sa-condition-email-select-email-duration.png "Select the duration to initiate the yes or no path")
 
 6. Select **Save**.
 
-    The advanced email conditions step is created. 
+The **Advanced email conditions** step is created. 
 
-    >[!div class="mx-imgBorder"]
-    >![The advanced email conditions step is created.](media/sa-condition-email-adv-condition-step-created.png "The advanced email conditions step is created")
+>[!div class="mx-imgBorder"]
+>![The Advanced email conditions step is created.](media/sa-condition-email-adv-condition-step-created.png "The advanced email conditions step is created")
 
-    You can continue to create the steps in **Yes** and **No** paths according to your requirements.
+You can continue to create the steps in the **Yes** and **No** paths, according to your requirements.
     
 <a name="define-conditions-for-phone-call-activity"></a>
 ## Define conditions for a phone call activity
@@ -192,28 +195,31 @@ Let's define a flow so that when a seller makes a call to discuss product detail
 
 ### Advanced call conditions<a name="advanced-call-conditions"></a>
 
-The **Advanced call conditions** step lets you select multiple results, when only one result must occur to advance to the **Yes** path.     
-Let's define a flow where you want to initiate the **Yes** path when customer makes or receives a call. 
+The **Advanced call conditions** step lets you select multiple results, when only one result must occur to advance to the **Yes** path.
 
-1. After adding the **Phone call** activity, select **+** (**Add**) and go to the **Conditions** tab.       
-2. Select **Advanced call conditions**.   
+Let's define a flow where you want to initiate the **Yes** path when the customer makes or receives a call. 
 
-    >[!div class="mx-imgBorder"]
-    >![Select advanced call conditions option from the conditions tab.](media/sa-condition-phone-call-select-advanced-call-conditions.png "Select advanced call conditions option from the conditions tab")    
+1. After adding the **Phone call** activity, select **+** (**Add**) and go to the **Conditions** tab.
 
-3. On the **Advanced call conditions** box, from the **Select results** dropdown list, select the **Made** and **Received** options. 
-    When any of the selected activities is completed, the **Yes** path is initiated. 
+2. Select **Advanced call conditions**.
 
     >[!div class="mx-imgBorder"]
-    >![Select the Made and Received options.](media/sa-condition-phone-call-select-made-received-option.png "Select the made and received options")
+    >![Select Advanced call conditions on the Conditions tab.](media/sa-condition-phone-call-select-advanced-call-conditions.png "Select Advanced call conditions on the Conditions tab")
 
-4. Select **Save**.   
-    The advanced email conditions step is created.   
+3. In the **Advanced call conditions** box, from the **Select results** dropdown list, select the **Made** and **Received** options. 
+    When any of the selected activities is completed, the **Yes** path will be initiated. 
 
     >[!div class="mx-imgBorder"]
-    >![The advanced call conditions step is created.](media/sa-condition-call-adv-condition-step-created.png "The advanced call conditions step is created")
+    >![Select the Made and Received options.](media/sa-condition-phone-call-select-made-received-option.png "Select the Made and Received options")
 
-    You can continue to create the steps in **Yes** and **No** paths according to your requirements.
+4. Select **Save**.
+
+The **Advanced call conditions** step is created.
+
+>[!div class="mx-imgBorder"]
+>![The Advanced call conditions step is created.](media/sa-condition-call-adv-condition-step-created.png "The Advanced call conditions step is created")
+
+You can continue to create the steps in the **Yes** and **No** paths, according to your requirements.
     
 <a name="define-conditions-for-field-values"></a>
 ## Define conditions based on a field value

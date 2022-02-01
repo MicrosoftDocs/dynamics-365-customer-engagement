@@ -78,42 +78,47 @@ The matrix explains which data you’ll view as a sales manager, for different h
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]    
 
-The **view as different user** feature allows managers or sellers to view conversation intelligence as a different user.   
-As an administrator, you can configure sales managers or sellers to impersonate another user in the organization for information such as,    
-- Provide a view of the sales team for sales managers from level 4 and above. 
-- Provide access to non-managerial executives to dashboards for conversation intelligence enablement or compliance workflows. 
-- Provide visibility to non-direct managers into the sales teams dashboards.
+The **view as different user** feature allows managers or sellers to view conversation intelligence as a different user.
 
-For example, Robert Klien is a sales enablement manager that needs access to Jacob Hancock's sales team dashboards. Since, Robert doesn't have access to conversation intelligence dashboard of Jacob's team. By adding Robert to view as Jacob, Robert can access the required information in conversation intelligence application by impersonating as Jacob.
+As an administrator, you can configure sales managers or sellers to impersonate another user in the organization to view information they wouldn't normally have access to. For example, you can:
+
+- Provide a view of the sales team for sales managers from level 4 and above.
+- Provide access to non–managerial executives to dashboards for conversation intelligence enablement or compliance workflows. 
+- Provide visibility to non–direct managers into the sales team's dashboards.
+
+For example, Robert Kline is a sales enablement manager who doesn't have access to the conversation intelligence dashboard of Jacob Hancock's team. When Robert is given access to view the dashboard as Jacob, Robert can access the information he requires in the conversation intelligence application by impersonating Jacob.
 
 1. In the **View as different user (preview)** section, select **+ Add user**.
 
     > [!div class="mx-imgBorder"]
-    > ![Select add user.](media/si-app-admin-configure-your-page-view-as-select-add-user.png "Select add user")    
+    > ![Select Add user.](media/si-app-admin-configure-your-page-view-as-select-add-user.png "Select add user")
 
-2. Enter the user name who wants to view the information. In this example, we're selecting the name as **Robert Klien**.      
-3. Corresponding to the selected user name (**Robert Klien**), enter the other user name for who the information is to be viewed. In this example, we're selecting the name as **Jacob Hancock**.    
-4. Select the time limit for which **Robert Klien** can view the information of **Jacob Hancock**'s sales team.  
+2. Enter the name of the user who wants to view the information. In this example, we're selecting the name **Robert Kline**.
+
+3. Corresponding to the selected user name (**Robert Kline**), enter the other user name for whom the information is to be viewed. In this example, we're selecting the name **Jacob Hancock**.
+
+4. Select the time limit during which **Robert Kline** can view the information for **Jacob Hancock**'s sales team.  
 
     > [!div class="mx-imgBorder"]
     > ![Select users and add time limit to view the information.](media/si-app-admin-configure-your-page-view-as-select-users-time-limit.png "Select users and add time limit to view the information")   
 
-5. Select **Add**.    
+5. Select **Add**.
     A row is added to the list.
 
     > [!div class="mx-imgBorder"]
-    > ![Users are added to the list.](media/si-app-admin-configure-your-page-view-as-users-added-to-list.png "Users are added to the list")   
+    > ![Users are added to the list.](media/si-app-admin-configure-your-page-view-as-users-added-to-list.png "Users are added to the list")
 
-6. Repeat steps 1 to 5 for other users and add rows to the table.  
+6. Repeat steps 1 through 5 for any users you want to give the ability to view as other users.  
+
 7. After adding the users, select **Save**.
 
     > [!div class="mx-imgBorder"]
-    > ![Select save to add users and view information as other user.](media/si-app-admin-configure-your-page-view-as-select-save.png "Select save to add users and view information as other user")   
+    > ![Select Save to add users and view information as other user.](media/si-app-admin-configure-your-page-view-as-select-save.png "Select save to add users and view information as other user")   
 
-    The users can impersonate the corresponding selected users and view information in conversation intelligence. 
+The users can impersonate the corresponding selected users and view information in conversation intelligence. 
 
-    > [!NOTE]
-    > The users return to their regular view when the time limit expires or you can manually remove them from the list.
+> [!NOTE]
+> The users return to their regular views when the time limit expires or when you manually remove them from the list.
 
 ## Choose top performers    
 The top performers who are selected here are compared against other sellers in your team to project how the other sellers are performing based on best practices conversational style KPIs. Those are displayed with relevant data on the home page in [What characterizes top sellers?](../sales/dynamics365-sales-insights-app-home-page.md#what-characterizes-top-sellers).  
