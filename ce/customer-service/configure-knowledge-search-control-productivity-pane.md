@@ -74,6 +74,8 @@ You can add record types from either the Customer Service Hub or Customer Servic
 
     :::image type="content" source="media/add-ent-record.png" alt-text="Add an entity record for which you want to turn on knowledge management":::
 
+---
+
 ## Configure knowledge search control on the app side pane
 
 After you have added the record types for which you want to turn on knowledge management, you can configure the knowledge search control on the app side pane by editing the record type.
