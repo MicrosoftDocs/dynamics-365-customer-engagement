@@ -51,11 +51,13 @@ The deal manager workspace lists important metrics related to the sales pipeline
 
 1. To create a metric, perform the following steps:
     1. Select **Create a Metric**.
+
     1. Select the field and the aggregate function that you want to use for calculating the metric.
        The **Field** list displays all the numerical fields in the opportunity entity. 
     1. (Optional) Add filters to calculate metrics from specific records. For example, if you want to view the estimated revenue of all opportunities created this year and are in the **Develop** stage, create a metric with the following values:
 
     - **Field:** Est. Revenue
+
     - **Aggregate function:** Sum
     - **Filters**
         - **Created On**: This year  
@@ -119,14 +121,27 @@ As a seller, you want the workspace to display records that you're working on. A
 1. In the deal manager workspace, select **Filters**.
 
     The **Filters** panel displays the columns in your view. 
-1. Select **More filters**, and then do one of the following:
+
+1. Specify the conditions for filtering.
+
+1. Select **More filters** to do the following tasks:
     - Select fields that aren't currently displayed in your view.
+
     - View or delete the existing filters.
-1. To specify an OR condition, select **Add group** in the **Add** dropdown menu.
-    :::image type="content" source="media/filter-add-group.PNG" alt-text="Screenshot of the Add group option in the More filters panel.":::
-   > [!NOTE]
-    > Though the **Add** dropdown menu displays **Add related entity**, this option isn't supported in this release.   
-1. Select the **Or** operator in the dropdown menu next to the group filter checkbox.
+
+1. In the **More filter** panel, select **Add** > **Add row** to add a condition on a field that isn't displayed in your view.  
+
+    You can add multiple conditions by adding more rows. The conditions will be validated with the AND operation.  
+
+1. To specify a condition with the OR operator, perform the following steps: 
+    1. Select **Add group** in the **Add** dropdown menu.
+    
+        :::image type="content" source="media/filter-add-group.PNG" alt-text="Screenshot of the Add group option in the More filters panel.":::
+       
+       > [!NOTE]
+       > Though the **Add** dropdown menu displays **Add related entity**, this option isn't supported in this release.
+   
+    1. Select the **Or** operator in the dropdown menu next to the group filter checkbox.
 
 For more information on filters with grouped and nested conditions, see [Create or edit filters in model-driven app views](/powerapps/maker/model-driven-apps/create-edit-view-filters).
 
