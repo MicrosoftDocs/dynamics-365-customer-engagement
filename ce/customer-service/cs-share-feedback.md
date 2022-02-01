@@ -7,7 +7,6 @@ author: gandhamm
 ms.author: mgandham
 manager: shujoshi
 ---
-# Share feedback for Customer Service
 
 # Share feedback for Customer Service
 
