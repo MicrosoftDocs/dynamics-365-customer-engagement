@@ -1012,7 +1012,7 @@
 - name: Troubleshooting and FAQs
   items:
   - name: Dynamics 365 Sales Troubleshooting guide
-    href: troubleshooting.md
+    href: troubleshooting.yml
   - name: Troubleshooting leads
     href: ts-leads.md
   - name: Troubleshooting opportunities
