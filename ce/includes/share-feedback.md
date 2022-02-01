@@ -9,5 +9,5 @@
     - specify additional information in this box
     - enter the mail ID of your choice. Microsoft Support might use the mail ID to contact you for more information.
     - attach a screenshot that provides more information. 
-   ![Enter and submit feedback.](../customer-service/media/share-feedback.png "Enter and submit feedback") 
+ ![Enter and submit feedback.](../customer-service/media/share-feedback.png "Enter and submit feedback") 
 4. Select **Submit**.
