@@ -1,10 +1,9 @@
-
-1. In one of the apps, on the top-right corner of the navigation bar, select the smiley icon. The Feedback dialog displays the following options:
+1. In one of the apps, on the top-right corner of the navigation bar, select the **Send Feedback** icon. The Feedback dialog displays the following options:
    
-  - I like something
-  - I don't like something
-  - I have a suggestion
-  - File a bug 
+   - I like something
+   - I don't like something
+   - I have a suggestion
+   - File a bug 
 
 2. Select one of the options.
 3. The app displays the What did you like? box. Optionally, you can enter additional information in this box.
