@@ -44,7 +44,7 @@ You can reference this [sample mobile project template](https://1drv.ms/u/s!AhAj
 
 ## Prerequisites
 
-- Field Service Mobile must be set up for technicians to sign in and view work orders. Follow the instructions in [Field Service installation (web + mobile)](./install-field-service.md#step-2-download-the-field-service-mobile-app-on-a-phone-or-tablet).
+- Field Service Mobile must be set up for technicians to sign in and view work orders. Follow the instructions in [Field Service installation (web + mobile)](./install-field-service.md).
 
 - This article assumes you have a Power App to deep link to. The Parts Order Power App referenced in this article is a simple, custom-built Power App that connects to a SharePoint list. If you are building a Power App for the first time, the [Power App in a day](https://aka.ms/appinaday) guide and the article on [canvas apps](/powerapps/maker/canvas-apps/getting-started) is helpful.
 
@@ -76,9 +76,11 @@ Enter a **Label**, which is what the technician will see on their mobile app.
 
 Next we need to construct our deep link. 
 
-The final deep link will be: 
+The final deep link will be:
 
+```
     ms-apps:///providers/Microsoft.PowerApps/apps/c2fe056f-f576-4c41-9b69-c2435689e80c?deeplink=requestparts&WONumber=18 
+```
 
 This deep link is a concatenation of:
 
@@ -135,6 +137,7 @@ Here you will enter JavaScript that constructs the deep link and tells the work 
 
 Here is the code snippet that was used in our example:
 
+```
     // -------------------------Power apps deep linking
 
     MobileCRM.UI.EntityForm.onCommand("custom_SendWOToPowerApps", ToPowerApps, true, null);
@@ -145,6 +148,7 @@ Here is the code snippet that was used in our example:
             //MobileCRM.bridge.alert(url);
             MobileCRM.Platform.openUrl(url);
         }
+```
 
 As you can see, the "WONumber" variable takes the **Primary Name** field value of the work order entity, which equals the work order number, and this is added to the deep link URL.
 
@@ -167,8 +171,7 @@ Go to the **App** section in the left pane of the Power App and edit the **OnSta
 
 In our example, we entered the following logic that tells the Power App to go to the specific form if the deep link parameter is "requestparts":
 
-    If(Param("deeplink") = "requestparts", Navigate(RequestParts))
-
+`If(Param("deeplink") = "requestparts", Navigate(RequestParts))`
 
 ## 5. Pass work order parameter
 
@@ -179,7 +182,7 @@ In the Power Apps form, find the field you want the work order number value to p
 
 In the **Advanced** tab of the right panel, enter the following formula for the default value.
 
-    Param("WONumber")
+`Param("WONumber")`
 
 This adds the WONumber variable as the default value for the Power Apps form field.
 
@@ -204,7 +207,7 @@ This article explains how to deep link _from_ Field Service Mobile _to_ Power Ap
 
 Here is an example:
 
-    fsmobile://open?jsbridge;msdyn_workorder;9a98d429-fe1e-e911-a977-000d3a370909
+`fsmobile://open?jsbridge;msdyn_workorder;9a98d429-fe1e-e911-a977-000d3a370909`
 
 
 This is a combination of the **Field Service universal Link** (fsmobile://open?jsbridge;) + **entity_schema_name** (msdyn_workorder;) + **record GUID** (9a98d429-fe1e-e911-a977-000d3a370909).

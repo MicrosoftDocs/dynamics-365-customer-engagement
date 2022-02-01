@@ -25,7 +25,7 @@ In Field Service Mobile, push notifications allow you to send updates to field t
 
 Push notifications can be used to:
 
-- notify field technicians they have been assigned a booking
+- notify field technicians they’ve been assigned a booking
 - remind field technicians to enter important business data
 
 In this article, we'll show you how to create and customize push notifications to notify technicians on their mobile devices. 
@@ -38,21 +38,21 @@ To use Field Service Mobile push notifications, you'll need:
 - The [mobile configuration tool (Woodford solution)](https://aka.ms/fsmobile-configurator) must be downloaded and imported as a solution in your environment (minimum version 11.1).
 - Field Service Mobile v11.1+ for Windows, iOS, or Android devices. Visit the app's **About** section to check which version you have.
 - Consent for notifications in your device's settings for the **Field Service Mobile** app.
-- Review the [privacy notes for Field Service Mobile push notifications](mobile-push-notifications-privacy.md). **PLEASE NOTE:** Google Cloud Messaging, Apple Push Notification, and Windows Push Notification services are not provisioned in a dedicated data center for exclusive use by you and does not provide data segregation, such as for the Government Community Cloud. Your use of Google Cloud Messaging, Apple Push Notification, and Windows Push Notification services shall not be subject to any product-specific terms and conditions applicable to Dynamics 365 online for Government. If you do not wish to use the push notification, then you must ensure that your administrator keeps the feature turned off.
+- Review the [privacy notes for Field Service Mobile push notifications](mobile-push-notifications-privacy.md). **PLEASE NOTE:** Google Cloud Messaging, Apple Push Notification, and Windows Push Notification services aren’t provisioned in a dedicated data center for exclusive use by you and doesn’t provide data segregation, such as for the Government Community Cloud. Your use of Google Cloud Messaging, Apple Push Notification, and Windows Push Notification services shall not be subject to any product-specific terms and conditions applicable to Dynamics 365 online for Government. If you don’t wish to use the push notification, then you must ensure that your administrator keeps the feature turned off.
 
 ## Notify a user about a booking
 
-In our first example, let's say a field service organization wants to notify field technicians on their mobile devices when they have been booked for a work order.
+In our first example, let's say a field service organization wants to notify field technicians on their mobile devices when they’ve been booked for a work order.
 
 
 ### Verify push notifications are activated
 
-1. Go to **Settings > Solutions** and verify the **Field Service Mobile Push Notifications** solution is installed. The push notification capability is included with Field Service v8.3 or later. If it is not installed, you'll need to upgrade. 
+1. Go to **Settings > Solutions** and verify the **Field Service Mobile Push Notifications** solution is installed. The push notification capability is included with Field Service v8.3 or later. If it isn’t installed, you'll need to upgrade. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of field service mobile push notifications on the setting screen.](./media/mobile-push-notification-solution.png)
 
-1. **Activate** the **Notify user about booking** workflow. Its status will be set to **Draft** initially and no push notifications are enabled out-of-the-box. This indicates that the workflow push notification action will not be enabled and there will be no flow of data to the aforementioned external services. To verify, go to **Settings > Customizations > Customize the system > Processes** and activate it if it's deactivated. 
+1. **Activate** the **Notify user about booking** workflow. Its status will be set to **Draft** initially and no push notifications are enabled out-of-the-box. This indicates that the workflow push notification action won’t be enabled and there will be no flow of data to the aforementioned external services. To verify, go to **Settings > Customizations > Customize the system > Processes** and activate it if it's deactivated. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the notify user about booking workflow option selected.](./media/mobile-push-notification-solution-details.png)
@@ -129,19 +129,19 @@ To send these push notifications, the customer data detailed below must flow to 
 
 ## Configuration considerations
 
-- Sometimes after selecting a push notification and opening the Field Service Mobile app, you may be prompted with the **Entity not Found!** message seen in the screenshot at the end of this section. This means you're in offline mode and the particular record you're trying to open is not on the device.
+- Sometimes after selecting a push notification and opening the Field Service Mobile app, you may be prompted with the **Entity not Found!** message seen in the screenshot at the end of this section. This means you're in offline mode and the particular record you're trying to open isn’t on the device.
   - By selecting **Go Online**, you can connect directly to the server to view the push notification record.
-  - By selecting **Sync**, you can remain offline but pull new updates locally to the device. However, this does not guarantee the record of the push notification will become available; it could be outside the sync filters defined for that entity.
+  - By selecting **Sync**, you can remain offline but pull new updates locally to the device. However, this doesn’t guarantee the record of the push notification will become available; it could be outside the sync filters defined for that entity.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the entity not found error on Field Service Mobile.](./media/mobile-push-notification-entity-not-found.png)
 
 ## Additional notes
 
-- Field technicians do not need to be in the app or using their device to receive push notifications.
+- Field technicians don’t need to be in the app or using their device to receive push notifications.
 - The title of a push notification is the **Name** field of the entity. In our previous example, the title of the push notification was 0222, which corresponds to the **Name** field of the assigned bookable resource booking.
 - Any workflow that sends a push notification can be deactivated by going to **Settings > Processes** and selecting the workflow that you want to deactivate. The status of an active workflow will read **Activated**. Select a workflow and then select **Deactivate** from the command bar. This will deactivate the workflow and, in turn, the push notification action, meaning that there will be no flow of data to the aforementioned external services. 
-- Push notifications require an online environment and will not work with on-premises deployments.
+- Push notifications require an online environment and won’t work with on-premises deployments.
 
 ### See also
 

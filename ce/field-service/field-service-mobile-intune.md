@@ -128,7 +128,7 @@ In the Device Management portal:
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Device Management portal, showing the add configuration policy form, with added numbers to reference the previously outline steps.](./media/mobile-intune6.png)
+> ![Screenshot of the Device Management portal, showing numbers to reference the previous steps.](./media/mobile-intune6.png)
 
 The following screenshot shows an example of what to configure. To populate the username, use **{{UserPrincipalName}}**. To populate a URL, enter your organization's specific org URL.
 
@@ -147,7 +147,7 @@ In the Device Management portal:
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Device Management portal, with added numbers to reference the previously outlined steps.](./media/mobile-intune7.png)
+> ![Screenshot of the Device Management portal, with added numbers reference numbers.](./media/mobile-intune7.png)
 
 - Enter a **Name** ("4" in the following screenshot). 
 - Select **Managed apps** as **Device enrollment type** ("5" in the following screenshot). 
@@ -155,7 +155,7 @@ In the Device Management portal:
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the add configuration policy form in the Device Management portal, with added numbers to reference the previously outlined steps.](./media/mobile-intune8.png)
+> ![Add configuration policy form in the Device Management portal, with added numbers to reference the previously outlined steps.](./media/mobile-intune8.png)
 
 - For the **Associated app** field, either select the app from the list of featured apps or add a new one by using an app bundle or package ID.
 
@@ -165,7 +165,7 @@ In the Device Management portal:
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the add configuration policy form in the Device Management portal, with added numbers to reference the previously outlined steps.](./media/mobile-intune9.png)
+> ![The add configuration policy form in the Device Management portal, with reference numbers.](./media/mobile-intune9.png)
 
 Finally, go to **Assignments** and select a group that the policy should be assigned to.
 
@@ -182,7 +182,7 @@ In the Device Management portal:
 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Device Management portal, with added numbers referencing the previously outlined steps.](./media/mobile-intune10.png)
+> ![The Device Management portal, with added numbers referencing the previously outlined steps.](./media/mobile-intune10.png)
 
 On the new profile:
 

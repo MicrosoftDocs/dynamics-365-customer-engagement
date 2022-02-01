@@ -31,7 +31,7 @@ Periodically, Microsoft releases a new mobile project template when the Field Se
 If you have a new Field Service environment and want to set up the mobile app, follow these steps:
 
 1. [Download the latest Field Service Mobile project template](https://aka.ms/fsmobile-project). 
-2. Follow the instructions to [import and derive it in the mobile configuration tool (Woodford)](./install-field-service.md#import-the-mobile-project-template).
+2. Follow the instructions to [import and derive it in the mobile configuration tool (Woodford)](./install-field-service.md).
 
 ## Upgrading an existing mobile project
 
@@ -57,7 +57,7 @@ You have two options:
 
 The following are steps for option 2:
 
-1. Determine which Microsoft project template you customized. View the [version history](./version-history.md#mobile-project-file-library) to find and download if you do not have the template.
+1. Determine which Microsoft project template you customized. View the [version history](./version-history.md) to find and download if you do not have the template.
 2. Once you have the project determined, download your customized project on your desktop along with the original Microsoft project that you started customizing. Select and highlight your project and choose **Export**.
 
 
@@ -66,7 +66,7 @@ The following are steps for option 2:
 
 3. Download GitHub Desktop. 
 4. Open GitHub Desktop and initialize a repo in a folder of your choosing. 
-5. Rename the ```.woodford``` files of your customized project and Microsoft's template to ```.zip```. Extract it and drag the Microsoft project files from the extraction into the folder where you initialized the Git repo. 
+5. Rename the `.woodford` files of your customized project and Microsoft's template to `.zip`. Extract it and drag the Microsoft project files from the extraction into the folder where you initialized the Git repo. 
 
 
 > [!div class="mx-imgBorder"]
@@ -102,8 +102,8 @@ If you make changes to a mobile entity, it will show as **Overridden**.
 ### See also
 
 - [GitHub integration into Mobile Configurator Woodford](https://www.resco.net/github-integration-into-woodford/)
-- [Version history](./version-history.md#mobile-project-file-library)
-- [Set up Field Service Mobile](./install-field-service.md#download-the-field-service-mobile-app-on-a-phone-or-tablet)
+- [Version history](./version-history.md)
+- [Set up Field Service Mobile](./install-field-service.md)
 - [Common Field Service Mobile customizations](./mobile-app-configuration-customization.md)
 
 
