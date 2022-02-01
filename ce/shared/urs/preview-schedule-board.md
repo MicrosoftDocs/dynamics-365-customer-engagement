@@ -157,28 +157,27 @@ From the schedule assistant, you'll see available resources and can plan accordi
 > [!div class="mx-imgBorder"]
 > ![The schedule assistant, triggered from the new schedule board.](../../field-service/media/RS-2021-wave-2-ga-New-SB-Improvements-17-Schedule-assistant.png)
 
-## Find availability (schedule assistant) List view
+## Find availability (schedule assistant) list view
 
-In the top select Gantt then List to change the schedule assistant view to show a list of available resources.
+Select **Gantt** then **List** to change the schedule assistant view to show a list of available resources.
 
-Select column headers to **sort** results in ascending or descending order.
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/schedule-board-sorting.png)
-
-Select **Group** to group available resources by the column value. In the example below, we grouped time slots by resource type (e.g. Contact or User). 
+Select column headers to sort results in ascending or descending order.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/schedule-board-group.png)
+> ![Schedule board sorting options in Field Service.](./media/schedule-board-sorting.png)
 
-This helps dispacthers make better sense of availability based on different attributes.
+Select **Group** to group available resources by the column value. In the following example, we grouped time slots by resource type (in this case, by contact or user). 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/schedule-board-group2.png)
+> ![Group available resources on the schedule board.](./media/schedule-board-group.png)
+
+Grouping resources helps dispacthers make better sense of availability based on different attributes.
+
+> [!div class="mx-imgBorder"]
+> ![Grouped resources on the schedule board in Field Service.](./media/schedule-board-group2.png)
 
 
-## Move a Booking
+## Move a booking
 Alternatively, move a booking to the next day by selecting the booking, then select the **Ellipses [...] icon** next to the **Book** button, as seen in the following screenshot. Select **Move bookings**.
 
 > [!div class="mx-imgBorder"]
