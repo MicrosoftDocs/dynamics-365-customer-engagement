@@ -172,7 +172,7 @@ Work order products and services are not required. Field technicians have the ab
 
 Within a work order product record, field technicians will set the **Line Status** to **Used**, and enter a **Quantity**, which represents how many units were consumed, and a **Quantity to Bill**, which can be different.
 
-When using an inventory item, you need to enter a warehouse it comes from. It will default to the warehouse value on the **Bookable Resource** associated with the user who creates the order product record.
+When using an inventory item, you need to enter a warehouse it comes from. It will default to the warehouse value on the **Bookable Resource** associated with the user who creates the work order product record.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service Mobile highlighting warehouse on the product summary.](./media/work-order-product-add-mobile-non-inventory.png)
