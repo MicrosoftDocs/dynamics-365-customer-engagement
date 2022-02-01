@@ -1,10 +1,16 @@
 
-2. On the **Feedback**  page, choose one of the feedback options.
+1. In one of the apps, on the top-right corner of the navigation bar, select the smiley icon. The Feedback dialog displays the following options:
    
-    ![Feedback page.](../customer-service/media/feedback-page.png "Feedback page")
+  - I like something
+  - I don't like something
+  - I have a suggestion
+  - File a bug 
 
-3. After you select an option, use the text box to enter additional information about your feedback. You have an option to enter your email. Microsoft Support may use this email to contact you for more information. 
+2. Select one of the options.
+3. The app displays the What did you like? box. Optionally, you can enter additional information in this box.
+4. Optionally, enter the mail ID of your choice. Microsoft Support might use the mail ID to contact you for more information.
+5. Optionally, attach a screenshot that provides more information.
   
-    ![Enter and submit feedback.](../customer-service/media/submit-feedback.png "Enter and submit feedback")
+    ![Enter and submit feedback.](../customer-service/media/share-feedback.png "Enter and submit feedback")
 
-4. When done, select **Submit**.
+6. Select **Submit**.
