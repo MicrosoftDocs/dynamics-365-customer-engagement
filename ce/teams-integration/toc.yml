@@ -1,6 +1,6 @@
 - name: Microsoft Teams integration
   items: 
-  - name: Microsoft Teams integration
+  - name: Overview
     href: teams-integration.md
   - name: Install and set up
     href: teams-install-app.md

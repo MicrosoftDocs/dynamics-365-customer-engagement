@@ -152,21 +152,21 @@ sections:
 
   - name: Other
     questions:       
-     - question: Can I connect the Field Service (Dynamics 365) mobile app to China (Mooncake) environment?
+     - question: Can I connect the Field Service (Dynamics 365) mobile app tos GCC, GCC high, DoD, or China (21Vianet) environments?
        answer: |
-          Yes. You can find the Field Service (Dynamics 365) mobile app to download in China market app stores. To connect to a China-specific data center, select **Region settings** from initial app sign-in screen.
+          Yes.  To connect to the specific data center end points select **Region settings** from initial app sign-in screen.
       
           > [!div class="mx-imgBorder"]
           > ![Screenshot of Region Selector Option.](./media/Mobile-PowerApps-RegionSelector.png)
           
-          The region settings dialog allows the user to select the desired end point, including China.
+          The region settings dialog allows the user to select and connect to the desired end point.
 
           > [!div class="mx-imgBorder"]
           > ![Screenshot of selecting Regions](./media/Mobile-PowerApps-RegionSelector-EndPoints.png)
 
-     - question: Can I connect the Field Service (Dynamics 365) mobile app to GCC, GCC-High, and DoD cloud environments?
+     - question: Can I download the Field Service (Dynamics 365) app in China market app stores?
        answer: |
-          Not at this time. Support for non-public clouds will be added to the Field Service (Dynamics 365) mobile app in the near future.
+          Yes, the Field Service (Dynamics 365) app is available in the following China market app stores: Xiamoi, Lenovo, Baidu, Meizu.
           
      - question: How do I change the time zone for the app?
        answer: |

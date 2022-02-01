@@ -1,7 +1,7 @@
 ---
 title: "Send custom context | MicrosoftDocs"
 description: "Learn how you can send custom context to a chat session that can help decide the queue to which you must route the chat."
-ms.date: 10/20/2021
+ms.date: 01/20/2022
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -11,15 +11,20 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-When a customer starts a chat from the portal, you can pass custom context to Omnichannel for Customer Service. This custom context can be used to [display information on the user interface](display-custom-context.md) and to create routing rules that eventually determine the queue to which you must route the chats.
-
 The custom context is a collection of key or value pairs. Only primitive values are allowed for any key. The keys must correspond to context variables that are created for the associated workstream. If no context variables have been created under live workstream with a matching logical name, variables are created at runtime assuming the type as String. The custom context provider would be invoked by the live chat widget when a new chat is started. Because the values are case-sensitive, use exact match to pass them to the context variables. More information: [Context variables](context-variables-for-bot.md)
+
+> [!IMPORTANT]
+>
+> - The [setContextProvider](developer/reference/methods/setContextProvider.md) is supported only for unauthenticated chat. For authenticated chat, you must use the JSON Web Token (JWT). More information: [Send authentication tokens](send-auth-token-starting-chat.md)
+> - You can pass only 100 custom context variables during each chat session.
+
+When a customer starts a chat from the portal, you can pass custom context to Omnichannel for Customer Service. This custom context can be used to [display information on the user interface](display-custom-context.md) and to create routing rules that eventually determine the queue to which you must route the chats.
 
 Follow these steps to send custom context when you start a chat:
 
-1. Listen to the `lcw:ready` event raised by the live chat before calling the live chat SDK methods. The live chat methods should be invoked after the `lcw:ready` event is raised. You can listen for this event by adding your own event listener on the window object.
+1. The live chat SDK methods should be invoked after the [lcw:ready event](developer/reference/events/lcw-ready.md) event is raised. You can listen for this event by adding your own event listener on the window object.
 2. After the `lcw:ready` event is raised, register a custom context provider with live chat using the [setContextProvider](developer/reference/methods/setContextProvider.md) method.
-3. [Start the chat](initiate-chat-wait-time.md) using the [startChat](developer/reference/methods/startChat.md) SDK method.
+3. [Start the chat](initiate-chat-wait-time.md) using the [startChat](developer/reference/methods/startChat.md) method.
 
 ## Sample code
 
@@ -57,7 +62,7 @@ For information about how to display the context variables, see [Display custom 
 [setContextProvider](developer/reference/methods/setContextProvider.md)  
 [getContextProvider](developer/reference/methods/getContextProvider.md)  
 [removeContextProvider](developer/reference/methods/removeContextProvider.md)  
-[JavaScript API reference](developer/omnichannel-reference.md)  
+[Live chat SDK JavaScript API reference](developer/omnichannel-reference.md)  
 [Configure context variables for a bot](context-variables-for-bot.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
