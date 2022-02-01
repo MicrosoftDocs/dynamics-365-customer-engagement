@@ -37,7 +37,7 @@ The Dynamics 365 Marketing February 2021 update includes many new features and i
 
 | App              | GA release      |
 |------------------|-----------------|
-| Marketing        | 1.35.XXXXX.XXXX |
+| Marketing        | 1.35.10080.2005 |
 
 > [!Tip]
 > To check your current version number, go to **Settings** > **Overview** > **Versions**.
@@ -69,7 +69,7 @@ The Dynamics 365 Marketing February 2021 update includes many new features and i
     - Stop and edit custom events even if they are used in live journeys.
     - Customers can now exit one journey without exiting all other journeys that share the same event trigger.
 - **Marketing emails**
-    - Improved email editor interface allows you to easily add feature-rich links to emails by directly linking to documents and videos stored in the asset library.
+    - Improved email editor interface allows you to easily add feature-rich links to emails by directly linking to documents stored in the asset library.
     - Link buttons and images to existing events and marketing pages in the Marketing app database without looking up the specific URL.
 
 ##### Outbound marketing
@@ -84,8 +84,6 @@ The Dynamics 365 Marketing February 2021 update includes many new features and i
 - **Marketing emails**
     - Multiple email editor enhancements including easier element resizing and performance improvements.
     - Easily set equal heights for multi-column sections.
-- **Tracking**
-    - Improved bot recognition mechanics prevent false interaction counts.
 
 #### Bug fixes
 
