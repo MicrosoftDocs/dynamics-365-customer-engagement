@@ -29,6 +29,7 @@ As a seller, personalize the deal manager workspace and apply filters to suit yo
 As a seller, you can personalize the deal manager workspace to suit your needs. You can,
 
 - Personalize the grid by adding, removing, rearranging, sorting, and grouping columns.
+
 - Apply filters to view records that are important to you.
 - Change the layout of the workspace to either list (grid only) or combo (grid and chart).  
 - Change the metrics displayed at the top of the workspace.
@@ -60,7 +61,9 @@ The deal manager workspace lists important metrics related to the sales pipeline
 
     - **Aggregate function:** Sum
     - **Filters**
+
         - **Created On**: This year  
+
         - **Sales Stage**: Develop  
 
 1. To edit a metric, hover over the metric and select the **Edit** icon.
@@ -72,6 +75,7 @@ The deal manager workspace lists important metrics related to the sales pipeline
 Personalize the grid to include columns that you want to see and update quickly. You can:
 
 - Add or remove columns from the grid.
+
 - Show or hide columns.
 - Drag columns to rearrange them in the grid.
 - Resize, sort, and group records by columns.  
@@ -141,7 +145,7 @@ As a seller, you want the workspace to display records that you're working on. A
        > [!NOTE]
        > Though the **Add** dropdown menu displays **Add related entity**, this option isn't supported in this release.
    
-    1. Select the **Or** operator in the dropdown menu next to the group filter checkbox.
+    1. Select the **Or** operator in the dropdown menu next to the group filter checkbox, and specify the condition.
 
 For more information on filters with grouped and nested conditions, see [Create or edit filters in model-driven app views](/powerapps/maker/model-driven-apps/create-edit-view-filters).
 
