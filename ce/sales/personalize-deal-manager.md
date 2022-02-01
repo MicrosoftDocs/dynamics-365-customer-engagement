@@ -12,7 +12,7 @@ manager: shujoshi
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-As a seller, personalize the grid and apply filters to suit your needs.
+As a seller, personalize the deal manager workspace and apply filters to suit your needs.
 
 ## License and role requirements
 
