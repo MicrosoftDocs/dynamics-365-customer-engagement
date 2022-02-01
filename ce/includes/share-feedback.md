@@ -4,7 +4,7 @@
    - I don't like something
    - I have a suggestion
    - File a bug 
-2. Select one of the options. The app displays the `<Label>` box.
+2. Select one of the options. The app displays the <_Label_> box.
 
 3. Optionally, you can specify the following settings:
     - Additional information in this box
