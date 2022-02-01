@@ -164,17 +164,17 @@ Select **Gantt** then **List** to change the schedule assistant view to show a l
 Select column headers to sort results in ascending or descending order.
 
 > [!div class="mx-imgBorder"]
-> ![Schedule board sorting options in Field Service.](./media/schedule-board-sorting.png)
+> ![Schedule board sorting options in Field Service.](../../field-service/media/schedule-board-sorting.png)
 
 Select **Group** to group available resources by the column value. In the following example, we grouped time slots by resource type (in this case, by contact or user). 
 
 > [!div class="mx-imgBorder"]
-> ![Group available resources on the schedule board.](./media/schedule-board-group.png)
+> ![Group available resources on the schedule board.](../../field-service/media/schedule-board-group.png)
 
 Grouping resources helps dispacthers make better sense of availability based on different attributes.
 
 > [!div class="mx-imgBorder"]
-> ![Grouped resources on the schedule board in Field Service.](./media/schedule-board-group2.png)
+> ![Grouped resources on the schedule board in Field Service.](../../field-service/media/schedule-board-group2.png)
 
 
 ## Move a booking
