@@ -1,7 +1,7 @@
 ---
 title: Configure knowledge search control on the app side pane (Dynamics 365 Customer Service) | MicrosoftDocs
 description: See how to configure the settings for knowledge search control in Dynamics 365 Customer Service
-ms.date: 01/27/2021
+ms.date: 02/01/2021
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -30,9 +30,9 @@ searchScope:
 
 You can configure how you want the knowledge base search control to appear for your entities on the app side pane for a multisession. To do so, you will need to enable the record types for which you want to turn on knowledge management.
 
-Enabling a record type will specify what your agents will experience while they interact with customers during a multisession. By default, **Case** and **Conversation** record types are enabled. If you are an existing customer, you will also see all the entities previously enabled by you.
+Enabling a record type will specify the information that your agents will see while they interact with customers during a multisession. By default, **Case** and **Conversation** record types are enabled. The **Conversation** record type will be available by default, only if you have purchased add-on SKUs, such as Chat, Digital messaging, or Voice. If you are an existing user, you will also see all the entities previously enabled by you.
 
-You can also add a knowledge base search control to Dynamics 365 for Customer Engagement forms to make it easy for users in your organization to find knowledge articles, so they can answer common customer questions and resolve their issues right from the records, without having to switch to a different application. More information, see [Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-forms).
+You can also add a knowledge base search control to standard or custom forms to make it easy for users in your organization to find knowledge articles, so they can answer common customer questions and resolve their issues right from the records, without having to switch to a different application. More information, see [Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-forms).
 
 ## Enable record types for which you want to turn on knowledge management
 
