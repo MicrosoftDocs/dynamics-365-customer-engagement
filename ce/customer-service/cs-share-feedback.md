@@ -14,13 +14,13 @@ manager: shujoshi
 
 ## Introduction
 
-The **Send Feedback** capability in Dynamics 365 Customer Service enables you to share any feedback, in-app.
+You can share feedback about Customer Service, such as the features, UI, and issues, by using the feedback option.
 
-## Submit feedback in-app
+## Share feedback
 
-You can submit feedback either in the Customer Service Hub, Customer Service workspace, or Customer Service admin center app.
+You can share product feedback in Customer Service Hub and Customer Service workspace.
 
-1. To submit feedback in the app, select **Send Feedback** on the navigation bar.
+**To share feedback**
 
 [!INCLUDE [share feedback](../includes/share-feedback.md)]
  
