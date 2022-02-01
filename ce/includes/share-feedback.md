@@ -4,10 +4,10 @@
    - I don't like something
    - I have a suggestion
    - File a bug 
-2. Select one of the options. The app displays the <_Label_> box.
+2. Select one of the options. The app displays the <_label_> box.
 
 3. Optionally, you can specify the following settings:
-    - Additional information in this box
+    - Additional information in <_label_> box.
     - The mail ID of your choice. Microsoft Support might use the mail ID to contact you for more information.
     - A screenshot that provides more information.
 
