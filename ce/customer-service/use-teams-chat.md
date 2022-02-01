@@ -1,7 +1,7 @@
 ---
 title: "Use Teams chat in Customer Service | Microsoft Docs"
 description: "Learn how to use the Teams chat functionality in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
-ms.date: 01/24/2022
+ms.date: 01/31/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -17,7 +17,7 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# (Preview) Use Teams chat in Customer Service
+# Use Teams chat in Customer Service (preview)
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
@@ -177,6 +177,6 @@ If you are using the Microsoft Teams app, when joining a chat, the following mes
 
 ### See also
 
-[Configure Teams chat in Customer Service](/configure-teams-chat)<br>
+[Configure Teams chat in Customer Service](configure-teams-chat.md)<br>
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
