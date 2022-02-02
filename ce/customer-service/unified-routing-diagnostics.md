@@ -33,7 +33,7 @@ To see data related to work items and their status, you need to enable routing d
 
 2. Perform one of the following steps:
 
-   - In Customer Service Hub, go to **Service Management**, and in **Unified Routing** select **Diagnostics**.
+   - In Customer Service Hub, go to **Service Management**, and in **Unified Routing**, select **Diagnostics**.
 
    - Sign in to Omnichannel admin center, and in **Advanced settings** in the site map, select **Diagnostics**.
 
