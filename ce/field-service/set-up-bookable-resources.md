@@ -304,8 +304,7 @@ The process is similar for resources with resource type of Account or User. **Ed
   2. Double-click on the calendar field, and change the control to "Work Hour Control." Save and publish the form.
 
 
-### 
-also   
+### See also   
  
  [Set up bookable resource categories](../field-service/set-up-bookable-resource-categories.md)   
  [Set up characteristics](../field-service/set-up-characteristics.md)   
