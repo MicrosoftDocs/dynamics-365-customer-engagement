@@ -5,7 +5,7 @@ ms.date: 02/02/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 search.audienceType: 
   - admin
   - customizer
