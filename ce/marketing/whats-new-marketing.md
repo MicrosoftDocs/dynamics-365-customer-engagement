@@ -76,10 +76,10 @@ The Dynamics 365 Marketing February 2021 update includes many new features and i
 ##### Outbound marketing
 
 - **Event management**
-    - Teams online event calendar invites include a 15-minute reminder prior to the event for attendees and speakers.
+    - Teams online event calendar invites include a 15-minute reminder before the event for attendees and speakers.
 
 > [!NOTE]
-> The outbound email editor now includes a deprecation warning that is only visible to users of pre-October 2021 version of the Marketing app.
+> The outbound email editor now includes a deprecation warning that is only visible to users of pre-October 2021 versions of the Marketing app.
 
 ##### Global updates
 
