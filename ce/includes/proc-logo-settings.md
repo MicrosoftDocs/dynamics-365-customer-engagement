@@ -1,1 +1,1 @@
-On the nav bar, choose **Dynamics 365** > **Settings**.
+On the nav bar, choose **Microsoft Dynamics 365** > **Settings**.

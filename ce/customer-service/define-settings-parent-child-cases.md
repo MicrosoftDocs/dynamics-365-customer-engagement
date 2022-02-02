@@ -65,7 +65,7 @@ In Dynamics 365 Customer Service, you can track multiple issues for a customer, 
 > [!Note] 
 > Increasing the number of maximum child cases per parent case can affect performance.
 
-## Set parent and child case attributes (Customer Service workspace)
+## Set parent and child case attributes (Customer Service app)
 
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
   
@@ -73,7 +73,7 @@ In Dynamics 365 Customer Service, you can track multiple issues for a customer, 
   
 2. [!INCLUDE[proc_logo_settings](../includes/proc-logo-settings.md)]  
   
-3. Choose **Business** > **Service Management**.
+3. Choose **Settings** > **Service Management**.
 
 4. Select **Parent and Child case settings**.  
   
