@@ -212,6 +212,8 @@
           href: real-time-marketing-event-triggers.md
         - name: Custom event triggers in real-time marketing
           href: real-time-marketing-custom-events.md
+        - name: Custom event actions
+          href: real-time-marketing-custom-event-actions.md
       - name: Segment-based journeys
         items:
         - name: Work with segments in real-time marketing
