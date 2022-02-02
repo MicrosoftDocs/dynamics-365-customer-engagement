@@ -31,7 +31,7 @@ In this article, we’ll walk through how to create a bookable resource and add 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4yg5v]
 
 > [!Note]
-> For additional Dynamics 365 Field Service videos, see [this full playlist](https://aka.ms/fs-videos).
+> For additional Dynamics 365 Field Service videos, go to [this full playlist](https://aka.ms/fs-videos).
 
 
 ## Prerequisites
@@ -61,7 +61,7 @@ To quickly create frontline workers refer to the article on [setting up frontlin
     
 3.  Select a **Resource Type**. 
   
-  Resource type is a classification that describes who or what the resource is and how the resource relates to your organization. 
+Resource type is a classification that describes who or what the resource is and how the resource relates to your organization. 
 
    - **User**: Choose this option if the resource is a person and a member of your organization. This resource type must be chosen if the resource is a frontline worker who needs access to the Field Service mobile app. Note: The related user must have **Security Roles** and **Field Security Roles** set to **Field Service - Resource**. For more information, learn more about [frontline worker setup](frontline-worker-set-up.md#view-and-update-the-details-of-individual-frontline-workers-on-the-bookable-resource-form).
    - **Account** or **Contact**: Choose this option if the resource isn’t directly a part of your organization, but needs to be scheduled. A common example is subcontractors. This also allows the scheduling framework to more easily apply to an organization's existing Dynamics system that may be using accounts and contacts to manage workers, partners, and contractors before Field Service is purchased and implemented. 
@@ -72,7 +72,7 @@ To quickly create frontline workers refer to the article on [setting up frontlin
   
      
   
-  After selecting a resource type, a lookup field will appear prompting you to choose a related record when applicable. For example, if **User** is selected, you’ll then need to select the related user record.
+After selecting a resource type, a lookup field will appear prompting you to choose a related record when applicable. For example, if **User** is selected, you’ll then need to select the related user record.
 
 
 4.  **Name**: Enter a name. This can be different from the name of the related user, account, or contact record. The name entered here will appear on the schedule board.
@@ -169,8 +169,7 @@ In Field Service versions earlier than **8.8.14**, select the **Set-Up** drop-do
 > ![Screenshot of setting working hours and timezone.](media/resource-working-hours-timezone.png)
  
 
-
-In Field Service v8.2+, latitude and longitude fields exist on the bookable resource entity and are populated with the latest location coordinates from the Field Service Mobile app. Fields may need to be added to the bookable resource form. For more information, see the article on [enabling location tracking](/dynamics365/customer-engagement/field-service/geofencing#step-3-enable-location-auditing-for-the-field-service-mobile-app).
+In Field Service v8.2+, latitude and longitude fields exist on the bookable resource entity and are populated with the latest location coordinates from the Field Service Mobile app. Fields may need to be added to the bookable resource form. For more information, go to the article on [enabling location tracking](/dynamics365/customer-engagement/field-service/geofencing#step-3-enable-location-auditing-for-the-field-service-mobile-app).
 
 
 ## Add characteristics, territories, and categories 
@@ -305,7 +304,8 @@ The process is similar for resources with resource type of Account or User. **Ed
   2. Double-click on the calendar field, and change the control to "Work Hour Control." Save and publish the form.
 
 
-### See also   
+### 
+also   
  
  [Set up bookable resource categories](../field-service/set-up-bookable-resource-categories.md)   
  [Set up characteristics](../field-service/set-up-characteristics.md)   
