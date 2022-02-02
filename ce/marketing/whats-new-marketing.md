@@ -94,7 +94,7 @@ The Dynamics 365 Marketing February 2021 update includes many new features and i
 - **Marketing emails**
     - Resolved an error that sometimes caused unsaved changes to appear even though no changes were made.
     - Email pre-headers are automatically generated and blank characters are removed, preventing pre-header-related errors.
-    - Removed inline element styles from HTML; template styles are added in post-processing.
+    - Core CSS styles have been separated from customer CSS styles to improve rendering.
     - Resolved an error that caused local configs to fail when the remote configuration service is down.
     - Fixed an error that caused previously deduplicated contacts to be removed from deduplication storage after a failure and rollback.
     - Resolved an error related to custom envelope-from emails that caused "sync bounce" emails to resend as "remote bounce" emails, causing inaccurate email error reports.

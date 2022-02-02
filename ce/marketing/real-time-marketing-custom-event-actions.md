@@ -20,7 +20,9 @@ search.app:
 
 # Use custom events as actions in real-time marketing journeys
 
-Based on the unique needs of your business, you may need to trigger custom processes/Power Automate flows at relevant points in a customer journey. Or you might have multiple journeys that logically function together. These scenarios can now be accomplished easily with Dynamics 365 Marketing, by using custom event triggers as the glue between journeys as well as between journeys and your custom processes. Some examples include:
+Based on the unique needs of your business, you may want to trigger custom processes or Power Automate flows at certain points in a customer journey. Or, you might want to create multiple journeys that logically function together. Custom event triggers allow you to accomplish these actions, working as the glue between journeys or between journeys and custom processes.
+
+Here are some examples of custom event triggers in action:
 
 1. You’re engaging customers so that they can purchase a subscription, but if they don’t do so by the end of the customer journey, you need to add them to a nurture journey. You can route the customers by activating a custom event trigger from the subscription journey and using that as the entry event trigger from the nurture journey.
 1. A loan application journey has various steps that require a human agent’s approval. By creating a separate customer journey or Power Automate Flow for loan exception approval, you can trigger it from various points in the loan application journeys where exceptions can occur by simply activating the custom event trigger.
