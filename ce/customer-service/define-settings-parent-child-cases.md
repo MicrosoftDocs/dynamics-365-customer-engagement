@@ -93,7 +93,3 @@ In Dynamics 365 Customer Service, you can track multiple issues for a customer, 
 [Create and manage parent and child cases](customer-service-hub-user-guide-create-and-manage-parent-and-child-cases.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
-
-Category: Content-Improvement or New-Content or Bug/Issue
-Workitem: <workitem link>
-Description: Test description
