@@ -1,7 +1,7 @@
 ---
 title: Configure knowledge search control on the app side pane for an entity record (preview) (Dynamics 365 Customer Service) | MicrosoftDocs
 description: See how to configure the settings for knowledge search control in Dynamics 365 Customer Service
-ms.date: 02/02/2021
+ms.date: 02/02/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -76,6 +76,8 @@ You can add record types from either the Customer Service Hub or Customer Servic
     :::image type="content" source="media/add-ent-record.png" alt-text="Add an entity record for which you want to turn on knowledge management":::
 
 ---
+
+
 
 ## Configure knowledge search control on the app side pane
 
