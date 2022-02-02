@@ -4,7 +4,7 @@ description: "Learn about the region availability and supported languages for th
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 01/04/2022
+ms.date: 02/02/2022
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -24,7 +24,7 @@ This article provides information about the availability of the voice channel in
 
 ## Supported regions
 
-Use the information in the following table to know about the availability of the voice channel in Omnichannel for Customer Service. 
+Use the information in the following table to know about the availability of the voice channel in Omnichannel for Customer Service.
 
 > [!IMPORTANT]
 > Your Microsoft 365 tenant must be co-located in one of the following geographic locations where Omnichannel for Customer Service is available. These geographic locations refer to your Microsoft 365 tenant only and not the data center where your Dynamics 365 environment or org instance resides.
@@ -50,7 +50,7 @@ Use the information in the following table to know about the availability of the
 
 See the information in the following table to know about the supported languages and locale codes.
 
-| Language Name |Locale Code |
+| Language |Locale code |
 | ---- | ---- |
 | Arabic - Saudi Arabia	| ar-SA  |
 | Basque  | 	eu-ES  |
@@ -102,6 +102,50 @@ See the information in the following table to know about the supported languages
 ### Language limitations by feature
 
 We use the Azure Cognitive Services Speech service Speech-to-Text for transcription, so we'll support all the languages that Speech-to-Text supports today. We also support a bring-your-own bot through Azure Bot Service for Interactive Voice Response (IVR) that will be constrained by the languages that Speech-to-Text supports. Power Virtual Agents is available only for a subset of languages, so for Power Virtual Agents-based IVR, we will support the languages that Power Virtual Agents supports.
+
+In Text-to-Speech and Speech-to-Text, the following languages only are supported in the voice channel.
+
+| Language    | Locale code |
+|-------------|-------------|
+| Arabic - Egypt | ar-EG |
+| Arabic - Saudi Arabia | ar-SA |
+| Catalan - Spain | ca-ES |
+| Chinese - Mandarin, Simplified |zh-CN |
+| Chinese - Cantonese, Traditional | zh-HK |
+| Chinese - Taiwanese, Mandarin | zh-TW |
+| Danish - Denmark | da-DK |
+| Dutch - Netherlands | nl-NL |
+| English - Australia | en-AU |
+| English - Canada | en-CA |
+| English - India | en-IN |
+| English - New Zealand | en- NZ |
+| English - United Kingdom | en-GB |
+| English - United States | en-US  |
+| Finnish - Finland | fi-FI |
+| French - Canada | fr-CA |
+| French - France | fr-FR |
+| German - Germany | de-DE |
+| Gujarati - India | gu-IN |
+| Hindi - India | hi-IN |
+| Hungarian - Hungary | hu-HU |
+| Italian - Italy | it-IT |
+| Japanese - Japan | ja-JP|
+| Korean - Korea | ko-KR |
+| Marathi - India | mr-IN |
+| Norwegian - Norway | nb-NO |
+| Polish - Poland | pl-PL |
+| Portuguese - Brazil | pt-BR |
+| Portuguese - Portugal | pt-PT |
+| Russian - Russia | ru-RU |
+| Spanish - Spain | es-ES  |
+| Spanish - Mexico	| es-MX  |
+| Swedish - Sweden | sv-SE |
+| Tamil - India | ta-IN |
+| Telugu - India | te-IN |
+| Thai - Thailand | th-TH |
+| Turkish - Turkey | tr-TR |
+|||
+
 
 Use the information in the following table to know about the feature-wise support for languages.
  
