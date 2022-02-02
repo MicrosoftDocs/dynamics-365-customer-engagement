@@ -1,7 +1,7 @@
 ---
 title: Configure knowledge management (Dynamics 365 Customer Service) | MicrosoftDocs
 description: See how to configure the settings for knowledge management in Dynamics 365 Customer Service
-ms.date: 02/11/2022
+ms.date: 02/02/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -63,6 +63,8 @@ After you have configured knowledge management on your app, you must also set up
 ## Set up knowledge management
   
 [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)] You must also be the tenant administrator of [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)].
+
+The changes that you will make for knowledge management settings will reflect across Customer Service Hub, Service Management, Customer Service admin center (preview), and custom apps. However, configuration changes that you will make for knowledge search control in the Customer Service admin center (preview) app will be available in the app side pane only.
 
 You can set up knowledge management either on the Customer Service Hub or on Customer Service admin center (preview) app. Depending on your app, perform the following steps:
   
