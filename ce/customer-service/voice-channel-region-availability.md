@@ -36,7 +36,7 @@ Use the information in the following table to know about the availability of the
 |Asia Pacific <sup>**2**</sup> |December 2021 |To be announced|
 |Australia <sup>**2**</sup> |December 2021 |To be announced|
 |South America|To be announced | To be announced|
-|Country/Region clouds: Canada, France, Germany, India, Japan, Switzerland, United Arab Emirates (UAE), United Kingdom	|To be announced |To be announced|
+|Country/Region clouds: Canada, France, Germany, India, Japan, Switzerland, United Arab Emirates (UAE), United Kingdom |To be announced |To be announced|
 |Government Community Cloud (GCC) |To be announced |To be announced|
 ||||
 
@@ -53,7 +53,7 @@ See the information in the following table to know about the supported languages
 | Language |Locale code |
 | ---- | ---- |
 | Arabic - Saudi Arabia	| ar-SA  |
-| Basque  | 	eu-ES  |
+| Basque  | eu-ES  |
 | Bulgarian - Bulgaria | 	bg-BG  |
 | Catalan 	| ca-ES  |
 | Chinese - China	| zh-CN  |
