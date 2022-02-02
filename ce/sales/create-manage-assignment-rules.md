@@ -7,12 +7,7 @@ author: udaykirang
 ms.author: udag
 manager: shujoshi
 ---
-# Preview: Manage assignment rules for routing 
-
-> [!IMPORTANT]
-> - The enhanced experience for assignment rules for lead routing in sales accelerator is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-> - [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
-> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)] 
+# Manage assignment rules for routing 
 
 Assignment rules enable new leads and opportunities to be automatically assigned to sellers or sales teams. This helps reduce the amount of time and effort required to manually assign records, prevent the loss of unassigned records, and balance assignments among sellers.
 
@@ -38,16 +33,8 @@ You can use the assignment rules designer to do the following tasks:
 
 ## Review the prerequisites
 
-Before you start, be sure you've met the following prerequisites:
-
-- The sales accelerator has been configured in your organization. More information: [Configure the sales accelerator](enable-configure-sales-accelerator.md)
-- You've enabled the **Assignment rules (preview)** feature preview:
-
-    1.	Sign in to your Dynamics 365 Sales Hub app.  
-    2.	Go to the **Change area** ![change area](media/change-area-icon.png) in the lower-left corner of the page, and select **Sales Insights settings**.   
-    3.	Under **Sales accelerator**, select **Assignment rules (preview)**.   
-    4.	Read and accept the preview terms and conditions.   
-    5.	Select **Get started**.  
+Before you start, be sure the sales accelerator feature is configured in your organization. More information: [Configure the sales accelerator](enable-configure-sales-accelerator.md)
+  
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]    
 
