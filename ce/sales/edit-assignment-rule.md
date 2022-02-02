@@ -7,9 +7,7 @@ author: udaykirang
 ms.author: udag
 manager: shujoshi
 ---
-# Preview: Edit an assignment rule 
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# Edit an assignment rule 
 
 To modify your process for automatically assigning leads or opportunities to sellers, you can update the conditions that you've defined in the rule.  
 
@@ -30,7 +28,7 @@ To modify your process for automatically assigning leads or opportunities to sel
 
 2.	Go to the **Change area** ![change area](media/change-area-icon.png) in the lower-left corner of the page, and select **Sales Insights settings**.
 
-3.	Under **Sales accelerator**, select **Assignment rules (preview)**.
+3.	Under **Sales accelerator**, select **Assignment rules**.
 
 4.	On the **Assignment rules** page, select the rule and then select the pencil icon to edit.   
 
