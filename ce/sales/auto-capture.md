@@ -10,6 +10,15 @@ author: udaykirang
 ms.author: udag
 manager: shujoshi
 caps.latest.revision: 13
+searchScope: 
+  - D365-App-msdynce_saleshub
+  - D365-App-msdynce_salespro
+  - D365-Entity-msdyn_suggestedactivity
+  - D365-Entity-msdyn_suggestedcontact
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
+  - Customer Engagement
 ---
 # Capture customer-related activities with auto capture 
 

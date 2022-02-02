@@ -1,7 +1,7 @@
 ---
 title: "International availability of Omnichannel for Customer Service | MicrosoftDocs"
 description: "This topic contains information on the availability of Omnichannel for Customer Service in different geographical locations and languages."
-ms.date: 01/12/2021
+ms.date: 02/01/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -11,19 +11,22 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-The purpose of this document is to provide information about availability of live chat and digital messaging channels with respect to the following:
+## Introduction
 
-- [Geographic location availability](#geographic-location-availability)
+The purpose of this document is to provide information about the geographic location and language availability of live chat and digital messaging channels.
 
-- [Language availability](#language-availability)
 
 > [!NOTE]
-> For information about availability of the voice channel, see [Regional availability and supported languages for the voice channel](voice-channel-region-availability.md).
+> For information about the availability of the voice channel, see [Regional availability and supported languages for the voice channel](voice-channel-region-availability.md).
 
 
 ## Geographic location availability
 
 Your Microsoft 365 tenant must be co-located in one of the following geographic locations where Omnichannel for Customer Service is available. These geographic locations refer to your Microsoft 365 tenant only and not the data center where your Dynamics 365 environment or org instance resides.
+
+> [!Note]
+>
+> In the South America, Europe, and Asia Pacific regions, Omnichannel for Customer Service is currently not available in a tenant that's located in Brazil, Norway, and Singapore respectively.
 
 ### October 2021 update
 
@@ -35,7 +38,7 @@ Omnichannel for Customer Service October 2021 update is available in the followi
 | Australia                                 |   October 08, 2021   |
 | Canada                                    |   October 01, 2021   |  
 | Europe                                    |   October 15, 2021   |
-| France                                    |   October 01, 2021
+| France                                    |   October 01, 2021   |
 | Germany                                   |   October 01, 2021   |
 | Government Community Cloud (GCC)          |   January 09, 2022   |
 | India                                     |  October 01, 2021    |
@@ -69,9 +72,6 @@ Omnichannel for Customer Service April 2021 update is available in the following
 | United Kingdom                            |   April 12, 2021   |
 |||
 
-> [!Note]
->
-> Omnichannel for Customer Service is currently not available in a tenant that's located in Brazil, Norway, or Singapore.
 
 ## Language availability
 
