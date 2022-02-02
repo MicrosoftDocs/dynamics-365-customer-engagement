@@ -316,7 +316,7 @@ Notes analysis looks at notes and posts on the timeline for the intent that may 
 
 ## Auto capture
 
-### How long does the application takes to display captured suggestions?
+### How long does the application take to display captured suggestions?
 
 - For activities, the suggestions are displayed immediately.   
 - For contacts, the application may take up to four hours to display suggestions.
