@@ -4,7 +4,7 @@ description: "Use this topic to understand how to connect to Azure Communication
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 11/02/2021
+ms.date: 02/02/2022
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -13,29 +13,29 @@ ms.service: dynamics-365-customerservice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-To provision phone numbers for your business in Omnichannel Customer Service, you must first establish connection with Azure Communication Services. You can connect to a new Azure resource or use an existing one, and then deploy the resource through Dynamics 365.
+To provision phone numbers for your business in Omnichannel for Customer Service, you must first establish connection with Azure Communication Services. You can connect to a new Azure resource or use an existing one, and then deploy the resource through Dynamics 365.
 
 ## Quickstart: Connect to a new Azure resource
 
 ### Prerequisites
 
-Before you connect to an Azure resource, check whether you have the following:
-- An Azure subscription that's in the same tenant as your Dynamics 365 account. Ensure that your Azure subscription meets the [Azure Subscriptions eligibility](/azure/communication-services/concepts/telephony-sms/plan-solution#azure-subscriptions-eligibility) requirements.
-- At least contributor-level permissions to the Azure subscription. To check your role, open your subscription and view the **My role** column of your subscription on the Azure portal. You'll be able to deploy your Azure resource only if you have at least contributor-level permissions.
+Before you connect to an Azure resource, ensure you have the following details:
 
-After you've verified your Azure subscription and checked your permissions on the subscription, you can create a new Azure resource and connect to it.
+- An Azure subscription that's in the same tenant as your Dynamics 365 account. Ensure that your Azure subscription meets the [Azure Subscriptions eligibility](/azure/communication-services/concepts/telephony-sms/plan-solution#azure-subscriptions-eligibility) requirements.
+- At least contributor-level permissions to the Azure subscription. To check your role, open your subscription and view the **My role** column of your subscription on the Azure portal. You'll be able to deploy your Azure resource only if you have contributor-level permissions.
+
+
+### Connect to a new Azure resource
 
 **To create a new Azure resource**
 
-1. In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**, and then select **Get started**.
-
-    The **Connect to Azure Communication Services** dialog opens.
+1. In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**, and then select **Get started**. The **Connect to Azure Communication Services** dialog opens.
 
 2. Select **Create new resource** and enter the following details:
    - **Azure subscription**: Select a subscription from the dropdown list.
    - **Azure resource group**: Select an existing resource group or select **Create new**, and enter a name for a new resource group.
       > [!NOTE]
-      > The resource group name should be unique within a given subscription.
+      > The resource group name should be unique within a subscription.
    - **Resource name**: Enter a name for the resource.
 3. Select **Deploy** to create and deploy the resource.
     > [!div class="mx-imgBorder"]
@@ -46,16 +46,15 @@ You're now connected to Azure Communication Services.
 
 You can also use an existing Azure Communication Services resource to connect with voice or SMS channels. You can use a resource from any of your Azure subscriptions, available under any tenant. If you had previously unlinked a resource and want to use it now, you can do so using this option.
 
-Before you proceed with adding an existing resource to Azure Communication Services, you must have the following information available for use in Omnichannel admin center.
-- [Get the resource name and ID from the Azure portal](#get-resource-name-and-id).
-- [Get the connection string from the Azure portal](#get-connection-string).
-- [Get the application ID and tenant ID from the App registrations page on the Azure portal](#get-application-and-tenant-ids).
+Before you proceed with adding an existing resource to Azure Communication Services, you must have the following information:
+
+- The resource name and ID from the Azure portal.
+- The connection string from the Azure portal.
+- The application ID and tenant ID from the App registrations page on the Azure portal.
 
 **To connect to an existing Azure resource**
 
-1. In the site map of Omnichannel admin center and under **General settings**, select **Phone numbers**, and then select **Get started**.
-
-   The **Connect to Azure Communication Services** dialog opens.
+1. In the site map of Omnichannel admin center and in **General settings**, select **Phone numbers**, and then select **Get started**. The **Connect to Azure Communication Services** dialog opens.
 
 2. Select **Use existing resource**.
 
@@ -66,11 +65,11 @@ Before you proceed with adding an existing resource to Azure Communication Servi
    - **Event grip app ID**: [Enter the application ID](#get-application-and-tenant-ids).
    - **Event grip app tenant ID**: [Enter the tenant ID](#get-application-and-tenant-ids).
 
-4. Select **Connect**. 
+4. Select **Connect**.
     > [!div class="mx-imgBorder"]
     > ![Azure resource is connected to Azure Communication Services.](./media/voice-channel-acs-connection.png "Azure resource is connected to Azure Communication Services.")
 
-Your existing Azure resource is now connected to Azure Communication Services. You'll now be able to provision or acquire new phone numbers for your organization.
+   Your existing Azure resource is now connected to Azure Communication Services. You'll be able to provision or acquire new phone numbers for your organization. However, to acquire or purchase phone numbers, you'll need to contact or wait to be contacted by a Microsoft voice program manager to be added to the Azure Communication Services allow list.
 
 5. Select **Add number**. The **Add phone number** page is displayed.
 
@@ -82,17 +81,17 @@ Your existing Azure resource is now connected to Azure Communication Services. Y
 
 9. [Create event subscription endpoint for SMS](#create-event-subscription-endpoint-for-sms).
 
-You can now configure the voice workstream settings for the phone number, and also configure outbound and inbound calling to make and/or receive customer calls.
+You can now configure the voice workstream settings for the phone number, and also configure outbound and inbound calling to make and or receive customer calls.
 
 ## Additional information
 
-The following sections include short procedures that explain how you can get retrieve resource name, resource ID, connection string, application ID, tenant ID, and other details from the Azure portal.
+The following sections include short procedures that explain how you can get resource name, resource ID, connection string, application ID, tenant ID, and other details from the Azure portal.
 
 ### Get resource name and ID
 
 **To get the resource name and ID from the Azure portal**
 
-1. Open your existing resource on the Azure portal in a separate window or tab, and go to **Settings** > **Properties**. 
+1. Open your existing resource on the Azure portal in a separate window or tab, and go to **Settings** > **Properties**.
 2. Select the value of the **Name** field, select the **Copy to clipboard** button, and then paste the value in the **ACS Resource Name** field of the **Use existing resource** dialog.
    > [!div class="mx-imgBorder"]
    > ![Copy resource name.](./media/voice-channel-resource-name.png "Copy resource name.")
@@ -218,7 +217,7 @@ The following sections include short procedures that explain how you can get ret
 
       To get the subscriber endpoint:
 
-      a. In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**.
+      a. In the site map of Omnichannel admin center, in **General settings**, select **Phone numbers**.
          
       b. Select a phone number, and then select **Advanced**.
         
