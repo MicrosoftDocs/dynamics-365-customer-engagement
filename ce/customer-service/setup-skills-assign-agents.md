@@ -9,7 +9,7 @@ ms.date: 09/16/2021
 
 # Set up skills, create a rating model, and assign agents
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 

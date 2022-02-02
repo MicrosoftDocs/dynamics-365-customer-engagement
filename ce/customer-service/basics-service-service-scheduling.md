@@ -5,8 +5,8 @@ ms.date: 08/09/2021
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.topic: article
-ms.custom: intro-internal
+ms.topic: overview
+
 ---
 
 # Overview of Service Scheduling

@@ -1,7 +1,6 @@
 ---
 title:  "Get started with Dynamics 365 Customer Engagement (on-premises)"
 description: "Find the information you need to get your organization started with Dynamics 365 Customer Engagement (on-premises)."
-ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
 ms.prod: d365ce-op
@@ -14,6 +13,7 @@ applies_to:
 author: jimholtz
 ms.assetid: c13e8b53-f4b1-4349-9ba8-4cfef7189c75
 caps.latest.revision: 26
+ms.custom: intro-internal
 ms.author: jimholtz
 manager: brycho
 search.audienceType: 

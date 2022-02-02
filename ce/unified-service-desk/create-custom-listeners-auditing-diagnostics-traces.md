@@ -17,7 +17,7 @@ ms.custom:
 ---
 # Create custom listeners for auditing, diagnostics and traces
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 A listener lets you target the log output to files, the event log, or other sources. Until the previous version of [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], you could only use the standard listeners to write auditing, diagnostics, and trace logs in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  
   

@@ -1,11 +1,11 @@
 ---
 title: "Onboard organization to Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn the steps for starting with Dynamics 365 Customer Engagement (on-premises), from buying a subscription to onboarding your organization and users."
-ms.custom:
 ms.date: 10/01/2019
 ms.prod: d365ce-op
 ms.topic: article
 author: jimholtz
+ms.custom: intro-internal
 ms.author: jimholtz
 ms.reviewer: 
 

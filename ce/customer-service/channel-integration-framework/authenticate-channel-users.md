@@ -4,6 +4,8 @@ description: "Learn how to authenticate channel users in the Dynamics 365 Channe
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
+ms.date: 01/21/2022
+ms.topic: article
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -16,7 +18,7 @@ ms.custom:
 > [!div class="nextstepaction"]
 > [Pass Dynamics 365 URL to widget library](pass-url-widget-library.md)
 
-## See Also
+### See Also
 
 [Configure channel provider for your Dynamics 365 organization](configure-channel-provider-channel-integration-framework.md)
 

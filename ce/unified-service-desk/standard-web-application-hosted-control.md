@@ -17,7 +17,7 @@ ms.custom:
 ---
 # Standard Web Application (hosted control)
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 The Standard Web Application hosted control type is similar to the CRM Page type except that it's intended to host pages from apps that aren't model-driven, such as external webpages, and provides script injection for relevant features of external webpages. Like the CRM Page hosted control, these pages can be automated. The preferred method of automating is through [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] injection, including calling [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] functions that are already defined in the page or manipulating the Document Object Model (DOM). The **RunScript** action can also be used to obtain values from the page.  
 

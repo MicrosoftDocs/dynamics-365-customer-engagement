@@ -11,6 +11,7 @@ ms.custom:
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-discount
+  - D365-Entity-discounttype
   - D365-UI-*
   - Dynamics 365
   - Sales
