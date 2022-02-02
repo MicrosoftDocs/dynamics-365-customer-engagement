@@ -3,7 +3,7 @@ title: "How to customize the Field Service work order form and best practices | 
 description: description
 ms.custom:
 - dyn365-fieldservice
-ms.date: 01/07/2022
+ms.date: 02/02/2022
 ms.reviewer: krbjoran
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -45,7 +45,7 @@ The work order form is optimized for the following standard work order process.
 3. The work order is scheduled to one or more resources ("frontline workers") and the system status automically becomes _Scheduled_.
 4. The frontline worker views the scheduled work order on his or her mobile app and travels to the customer location to perform the required work and records progress. The system status becomes _In Progress_. The fronltine worker updates information like when he or she arrived on site, service tasks completed, services and products billed. 
 5. The frontline worker completes the work order and the system status becomes _Completed_.
-6. The back office manager or dispatcher views the completed work order and verifies the work is completed and the necessary data is captured. If everything is finished the status is changed to _Closed-Posted_.
+6. The back office manager or dispatcher views the completed work order and verifies the work is completed and the necessary data is captured. If everything is finished the status is changed to _Posted_.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of ](./media/customization-form-process.png)
@@ -92,7 +92,7 @@ Make a list of default work order fields that are relevant to your business proc
 
 Create new fields if the default work order form is missing fields that you need.
 
-See the topic on [How to create and edit Field Service columns (fields)](field-service-customize-columns-fields.md) for best practices when created, editing, and deleting fields. **Hint:** You should be very careful when editing default fields and you should never delete default fields. 
+See the topic on [How to create and edit Field Service columns (fields)](field-service-customize-columns-fields.md) for best practices when creating, editing, and deleting fields. **Hint:** You should be very careful when editing default fields and you should never delete default fields. 
 
 
 ## 4. Decide to customize the existing work order form or create a new form
@@ -123,7 +123,7 @@ In some scenarios you may need to create a completely custom work order form. Th
 
 **Pros**
 
-- **Shielded from updates** - a new custom form will not receive updates. This can be beneficial if you have very specific processes and form layouts. 
+- **Shielded from UI updates** - a new custom form will not receive updates to UI meaning the layout and fields displayed on the form. This can be beneficial if you have very specific processes and form layouts. 
 - **More edits** - You are free to make more changes to the form to fit your unique work order process.
 
 **Cons**
@@ -215,11 +215,11 @@ Hide fields that are unneeded. Do not hide required fields.
 
 There is an easy and supported way to remove all price related fields (e.g. Price List, Total Amount, etc) from the Work Order, Work Order Product, and Work Order Service 
 
-In a scenario where your organization does not need price list or price calculations (e.g. Total Amount) on the work order or work order products and services, there is an easy and supported wayyou can easily remove all price related fields by going to Field Service Settings and turning **Calculate Price** to _No_. [More details](https://docs.microsoft.com/dynamics365/field-service/configure-default-settings#work-order-and-bookings-settings). 
+In a scenario where your organization does not need price list or price calculations (e.g. Total Amount) on the work order or work order products and services, there is an easy and supported way to easily remove all price-related fields by going to Field Service Settings and turning **Calculate Price** to _No_. [More details](https://docs.microsoft.com/dynamics365/field-service/configure-default-settings#work-order-and-bookings-settings). 
 
 ### Choose to remove tax related fields if applicable
 
-There is an easy and supported way to remove all tax related fields (e.g. Price List, Total Amount, etc) from the Work Order, Work Order Product, and Work Order Service 
+There is an easy and supported way to remove all tax related fields (e.g. Taxable) from the Work Order, Work Order Product, and Work Order Service 
 
 
 ## 6. Rearrange form tabs, sections, and fields
