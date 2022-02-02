@@ -21,7 +21,7 @@ Can't wait to explore Dynamics 365 quickly? Use the free Sales Hub app, which is
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-## What's in the Sales Hub app 
+## What's in the Sales Hub app? 
 
 The Sales Hub app has a modern and interactive interface, designed to simplify your day-to-day sales activities. It shows you all the vital information in one place, and lets you focus on the key activities that require your attention.
 
