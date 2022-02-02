@@ -1466,6 +1466,8 @@
       href: troubleshoot-omnichannel-customer-service.md
     - name: Report issues in Omnichannel for Customer Service
       href: report-issues.md
+  - name: Share feedback in Customer Service
+    href: cs-share-feedback.md
   - name: FAQs on Customer Service
     items: 
     - name: FAQs on unified routing
