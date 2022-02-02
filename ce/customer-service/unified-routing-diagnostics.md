@@ -3,8 +3,8 @@ title: Diagnostics for unified routing (Dynamics 365 Customer Service) | Microso
 description: Learn how to set up routing diagnostics and understand the different stages of routing work items.
 ms.date: 02/04/2022
 ms.topic: article
-author: neeranelli
-ms.author: nenellim
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 search.audienceType: 
   - admin
@@ -20,10 +20,10 @@ ms.custom:
 
 Unified routing helps you assign a work item to the agent or queue who's best suited to handle it, based on the agent's skills and the records that are related to the work item. Routing diagnostics provides visibility into work item classification and assignment events when using unified routing.
 
-Your supervisors can access the routing diagnostics for records and conversations that are handled through unified routing. For your supervisors to be able to access the diagnostics for records, such as cases, you must grant them the CSR Manager role. For them to be able to access the diagnostics for conversations, you must ensure they have the Omnichannel supervisor role.
+Your supervisors can access the routing diagnostics for records and conversations that are handled through unified routing. For your supervisors to be able to access the diagnostics for records, such as cases, you must grant them the CSR Manager role. For them to be able to access the diagnostics for conversations, you must ensure that they have the Omnichannel supervisor role.
 
 > [!Important]
-> If you do not want your supervisors to access the diagnostics for unified routing, ensure you don't grant them the CSR Manager or Omnichannel supervisor role.
+> If you do not want your supervisors to access the diagnostics for unified routing, ensure that you don't grant them the CSR Manager or Omnichannel supervisor role.
 
 ## Enable routing diagnostics
 
@@ -53,7 +53,7 @@ The **Routing diagnostics** page displays a list of work items with details and 
 
 - **Work item**: The name of the work item.Work items can be searched and sorted by clicking the dropdown next to the work item column.
 - **Routing status**: The stage the work item is in.
-- **Routing started on**: The time and date when the routing began
+- **Routing started on**: The date and time when the routing began.
 - **Routing duration**: The amount of time the work item has been in its current stage.
 - **Work stream**: The name of the work stream that the work item was assigned to.
 - **Queue**: The name of the queue that the work item was routed to.
