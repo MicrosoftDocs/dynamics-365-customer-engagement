@@ -64,7 +64,7 @@ You can add record types from either the Customer Service Hub or Customer Servic
 1. On the **Record Types** page, select **Add**. The **Add record type** dialog appears.
 1. On the **Add record type** dialog, from the **Select record type** dropdown, select the record type.
 1. In **Automatic search**, set the **Turn on automatic search** toggle to yes, if you want automatic search to be enabled for your entity record.
-1. From the **Provide search results using** dropdown, select the fields by which search results will be provided for the entity.
+1. From the **Provide search results using** dropdown, select the field by which search results will be provided for the entity.
 1. In **Actions**, set the toggle as per your requirements for the following:
     * **Link/unlink article**
     * **Copy URL**
@@ -91,7 +91,7 @@ To edit an entity record:
 1. On the **Record Types** page, select the entity which you want to edit.
 1. Click **Edit**. The **Set up Knowledge settings on the app side pane** dialog appears.
 1. In **Automatic search**, set the **Turn on automatic search** toggle to yes, if you want automatic search to be enabled for your entity record.
-1. From the **Provide search results using** dropdown, select the fields by which search results will be provided for the entity.
+1. From the **Provide search results using** dropdown, select the field by which search results will be provided for the entity.
 1. In **Actions**, set the toggle as per your requirements for the following:
     * **Link/unlink article**
     * **Copy URL**
