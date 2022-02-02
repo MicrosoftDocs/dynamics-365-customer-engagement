@@ -1,7 +1,7 @@
 ---
 title: Diagnostics for unified routing (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Learn how to set up routing diagnostics and understand the different stages of routing work items.
-ms.date: 10/12/2021
+ms.date: 02/04/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -18,7 +18,12 @@ ms.custom:
 
 # Diagnostics for unified routing
 
-Unified routing helps you assign a work item to the agent or queue who's best suited to handle it, based on the agent's skills and the entities that are related to the work item. Routing diagnostics will provide visibility into work item classification and assignment events when using unified routing.
+Unified routing helps you assign a work item to the agent or queue who's best suited to handle it, based on the agent's skills and the records that are related to the work item. Routing diagnostics provides visibility into work item classification and assignment events when using unified routing.
+
+Your supervisors can access the routing diagnostics for records and conversations that are handled through unified routing. For your supervisors to be able to access the diagnostics for records, such as cases, you must grant them the CSR Manager role. For them to be able to access the diagnostics for conversations, you must ensure they have the Omnichannel supervisor role.
+
+> [!Important]
+> If you do not want your supervisors to access the diagnostics for unified routing, ensure you don't grant them the CSR Manager or Omnichannel supervisor role.
 
 ## Enable routing diagnostics
 
