@@ -13,6 +13,8 @@ ms.service: dynamics-365-customerservice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
+## Introduction
+
 To provision phone numbers for your business in Omnichannel for Customer Service, you must first establish connection with Azure Communication Services. You can connect to a new Azure resource or use an existing one, and then deploy the resource through Dynamics 365.
 
 ## Quickstart: Connect to a new Azure resource
