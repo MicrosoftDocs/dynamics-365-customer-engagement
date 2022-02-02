@@ -35,13 +35,13 @@ To see data related to work items and their status, you need to enable routing d
 
    - In Customer Service Hub, go to **Service Management**, and in **Unified Routing** select **Diagnostics**.
 
-   - Sign in to Omnichannel admin center, and in **Advanced settings** in the site map, select **Diagnostics**  .
+   - Sign in to Omnichannel admin center, and in **Advanced settings** in the site map, select **Diagnostics**.
 
 3. On the **Routing diagnostics** page, select **Turn on routing diagnostics**.
 
 4. In the confirmation message that appears, select **Yes**.
 
-   You'll see that a list of new work items start to appear. However, Work items may not appear on your screen immediately.
+   You'll see that a list of new work items start to appear. However, work items may not appear on your screen immediately.
 
 > [!NOTE]
 > After you enable diagnostics, the data will be stored in Microsoft Dataverse. This might impact your storage capacity. Select **Turn off diagnostics** to disable diagnostics.
@@ -105,7 +105,7 @@ If no queue matches the requirement, the work item is assigned to the default qu
 
 ### Prioritization
 
-The Prioritization rule set is a list of prioritization rules. Work items are routed according to their priority. For more information, see : [Configure assignment methods and rules for queues](configure-assignment-rules.md)
+The Prioritization rule set is a list of prioritization rules. Work items are routed according to their priority. For more information, see [Configure assignment methods and rules for queues](configure-assignment-rules.md).
 
 ### Assignment selection
 
