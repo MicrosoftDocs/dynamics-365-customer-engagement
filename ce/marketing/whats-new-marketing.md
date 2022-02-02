@@ -70,15 +70,16 @@ The Dynamics 365 Marketing February 2021 update includes many new features and i
     - Stop and edit custom events even if they are used in live journeys.
     - Customers can now exit one journey without exiting all other journeys that share the same event trigger.
 - **Marketing emails**
-    - Improved email editor interface allows you to easily add feature-rich links to emails by directly linking to documents stored in the asset library.
+    - Add feature-rich links to emails by directly linking to documents stored in the asset library.
     - Link buttons and images to existing events and marketing pages in the Marketing app database without looking up the specific URL.
 
 ##### Outbound marketing
 
 - **Event management**
     - Teams online event calendar invites include a 15-minute reminder prior to the event for attendees and speakers.
-- **Marketing emails**
-    - Added deprecation warning to the old email editor (only visible to users of pre-October 2021 versions of the Marketing app).
+
+> [!NOTE]
+> The outbound email editor now includes a deprecation warning that is only visible to users of pre-October 2021 version of the Marketing app.
 
 ##### Global updates
 
