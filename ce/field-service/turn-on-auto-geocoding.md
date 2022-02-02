@@ -42,7 +42,7 @@ With Dynamics 365 for [!INCLUDE[pn_field_service](../includes/pn-field-service.m
 <a name="BKMK_GeocodeWorkOrderAddress"></a>
 
 > [!Note]
-> When geocoding an address, the only street field used is street1. Additional information like appt. number in street2 and street3 will be ignored.
+> When geocoding an address, the only street field used is **street1**. Additional information like apartment number in **street2** and **street3** will be ignored.
 
 ## Geocode the address on a work order  
   
