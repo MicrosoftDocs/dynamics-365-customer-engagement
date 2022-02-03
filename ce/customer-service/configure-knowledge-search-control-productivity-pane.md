@@ -1,7 +1,7 @@
 ---
 title: Configure knowledge search control on app side pane for an entity record | Microsoft Docs
 description: See how to configure the settings for knowledge search control in Dynamics 365 Customer Service
-ms.date: 02/01/2021
+ms.date: 02/02/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -64,7 +64,7 @@ You can add record types from the Customer Service Hub or the Customer Service a
 1. On the **Record Types** page, select **Add**. The **Add record type** dialog appears.
 1. On the **Add record type** dialog, from the **Select record type** dropdown, select the record type.
 1. In **Automatic search**, set the **Turn on automatic search** toggle to yes, if you want automatic search to be enabled for your entity record.
-1. From the **Provide search results using** dropdown list, select the field by which search results will be provided for the entity.
+1. From the **Provide search results using** dropdown, select the field by which search results will be provided for the entity.
 1. In **Actions**, set the toggle as per your requirements for the following:
     * **Link/unlink article**
     * **Copy URL**
@@ -76,6 +76,8 @@ You can add record types from the Customer Service Hub or the Customer Service a
     :::image type="content" source="media/add-ent-record.png" alt-text="Add an entity record for which you want to turn on knowledge management":::
 
 ---
+
+
 
 ## Configure knowledge search control on the app side pane
 
@@ -91,7 +93,7 @@ To edit an entity record:
 1. On the **Record Types** page, select the entity you want to edit.
 1. Click **Edit**. The **Set up Knowledge settings on the app side pane** dialog appears.
 1. In **Automatic search**, set the **Turn on automatic search** toggle to yes, if you want automatic search to be enabled for your entity record.
-1. From the **Provide search results using** dropdown list, select the fields by which search results will be provided for the entity.
+1. From the **Provide search results using** dropdown, select the field by which search results will be provided for the entity.
 1. In **Actions**, set the toggle as per your requirements for the following:
     * **Link/unlink article**
     * **Copy URL**
