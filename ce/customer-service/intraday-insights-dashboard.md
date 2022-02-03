@@ -24,6 +24,14 @@ The **Omnichannel intraday insights** dashboards provide information about the h
 
 The information displayed in these reports is based on the conversations that were started or closed within the last 24 hours. The report fetches the latest data and is generated in real time when a supervisor accesses it. If the report in a customer configured workspace is kept open, it's automatically refreshed after 15 minutes. In a pre-configured Power BI workspace, the report auto refreshes after every 5 minutes.
 
+For example, the following conversations were started and closed on February 2:
+- Conversation 1: closed at 9:30 AM
+- Conversation 2: closed at 10:14 AM
+- Conversation 3: started on 7:00 PM
+- Conversation 3: closed at 7:15 PM
+
+If a supervisor accesses a report on February 3 10:00 AM, the report fetches the data corresponding to conversations 2 and 3. Conversation 1 is not displayed, because it was closed more than 24 hours from the time the report is accessed. When the report refreshes automatically at 10:15 AM, data corresponding to only conversation 3 is displayed on the report.
+
 > [!IMPORTANT]
 >
 > - The intraday insights reports are available only in the English language, out of the box. You'll need to customize the reports to make them available in a language of your choice.
