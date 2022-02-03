@@ -63,7 +63,7 @@ In Dynamics 365 Customer Service, you can track multiple issues for a customer, 
 4. Select **Save** to update the settings.
 
 > [!Note] 
-> Increasing the number of maximum child cases per parent case can affect performance.
+> Increasing the number of maximum child cases per parent case can affect performance when resolving and merging cases.
 
 ## Set parent and child case attributes (Customer Service app)
 
