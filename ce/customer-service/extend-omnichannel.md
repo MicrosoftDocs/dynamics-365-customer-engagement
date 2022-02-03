@@ -22,7 +22,7 @@ Dynamics 365 supports several scenarios to extend Omnichannel for Customer Servi
 
 **Additional digital channels**: Beyond the digital channels such as web chat and Facebook Messenger that are provided out of the box with the Digital Messaging Add-on, you might need other custom channels. These might include channels that your organization has created for use internally.
 
-**Custom experiences**: Some organizations might need highly customized experiences from a user perspective. For example, an organization that wants to create a highly customized app that embeds the Omnichannel for Customer Service messaging capabilities might need to go beyond the standard canvas approach.
+**Custom experiences**: Some organizations might need highly customized experiences from a user perspective. For example, an organization that wants to create a highly customized app that embeds the messaging capabilities of Omnichannel for Customer Service might need to go beyond the standard approach.
 
 The following table shows the SKUs that correspond with each experience.
 
