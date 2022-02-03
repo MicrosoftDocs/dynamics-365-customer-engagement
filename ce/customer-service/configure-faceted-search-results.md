@@ -30,7 +30,7 @@ ms.custom:
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 >
 
-You can view and search for knowledge article attachments on the portal, based on a Microsoft Dataverse search. To do so, you must configure the faceted search results web template off your portal.
+You can view and search for knowledge article attachments on the portal, based on a Microsoft Dataverse search. To do so, you must configure the faceted search results web template from your portal.
 
   1. In the Portal Management sitemap **Content** area, select **Web Templates**.
   1. From the **Active Web Templates** dropdown list, select your knowledge article web template.
