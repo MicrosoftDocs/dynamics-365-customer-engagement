@@ -69,9 +69,9 @@ By default, the SSO feature is disabled for the Chrome Process. To enable the SS
 >
 > - SSO isn't supported for Dynamics 365 Customer Engagement (on-premises).
 >
-> - SSO is disabled by default in Unified Service Desk 4.1.1.1433 and later versions. So, for example, if you're using the EdgeWebView2 process in Unified Service Desk 4.2, then you must manually enable SSO. To enable SSO, see [Enable or disable single sign-on](#enable-or-disable-single-sign-on).
+> - SSO is disabled by default in Unified Service Desk 4.1.1.1433 and later versions. So, for example, if you're using the EdgeWebView2 Process in Unified Service Desk 4.2, then you must manually enable SSO. To enable SSO, see [Enable or disable single sign-on](#enable-or-disable-single-sign-on).
 > 
-> - SSO is enabled in versions preceding Unified Service Desk 4.1.1.1433. If you're using the Chrome process in any of these earlier versions, and if your organization has enforced the inactivity session timeout for agents, then the agent won't be automatically signed out when the inactivity session timeout expires. So, in versions earlier than Unified Service Desk 4.1.1.1433, if you want to enforce an inactivity session timeout for agents, be sure to disable the SSO feature. More information: [Enable or disable single sign-on](#enable-or-disable-single-sign-on)
+> - SSO is enabled by default in versions preceding Unified Service Desk 4.1.1.1433. If you're using the Chrome Process in any of these earlier versions, and if your organization has enforced the inactivity session timeout for agents, then the agent won't be automatically signed out when the inactivity session timeout expires. So, in versions earlier than Unified Service Desk 4.1.1.1433, if you want to enforce an inactivity session timeout for agents, be sure to disable the SSO feature. More information: [Enable or disable single sign-on](#enable-or-disable-single-sign-on)
 
 **SingleSignOnThreshold** is a UII option that indicates the timeout period in milliseconds (ms) for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to wait before showing a dialog to enter credentials to sign in to the Dataverse server. By default, the **SingleSignOnThreshold** value is 5,000 ms. The **SingleSignOnThreshold** UII option works only when you configure the **SingleSignOnEnabledBrowsers** UII option and specify a valid value. To learn more, see [Manage options in Unified Service Desk](../admin/manage-options-unified-service-desk.md).
 
@@ -100,7 +100,7 @@ After you set up the UII options, the SSO feature is enabled. When you sign in t
 <a name="enable-or-disable-single-sign-on"></a>
 ### Enable or disable SSO
 
-To enable the SSO feature, you must the configure the **SingleSignOnEnabledBrowsers** UII option and set it to **True**. If you leave the value bank, SSO will still be enabled. To disable the SSO feature, set the value as **False**.
+To enable the SSO feature, you must the configure the **SingleSignOnEnabledBrowsers** UII option and set it to **True**. If you leave the value blank, SSO will still be enabled. To disable the SSO feature, set the value as **False**.
 
 **To enable or disable SSO**
 
