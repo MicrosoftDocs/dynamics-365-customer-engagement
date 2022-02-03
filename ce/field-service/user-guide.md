@@ -17,7 +17,7 @@ search.app:
 
 
 
-Not sure what you're looking for, where to begin, or how to improve your Field Service knowledge? Use this guide to see a birds-eye view of the Dynamics 365 Field Service resources.
+Not sure what you're looking for, where to begin, or how to improve your Field Service knowledge? Use this guide to see a bird's eye view of the Dynamics 365 Field Service resources.
 
 <table>
 <tr>
@@ -40,7 +40,7 @@ Before we begin, here are the top places for information about Field Service:
 
  <td><h2>Field Service concepts</h2>
 
- The purpose of this section is to understand what Dynamics 365 Field Service is, and why it's valuable to customers.
+ The purpose of this section is to understand what Dynamics 365 Field Service is and why it's valuable to customers.
    <ul>
 <li><a href="../field-service/overview.md" data-raw-source="[Overview of Dynamics 365 Field Service](../field-service/overview.md)">Overview of Dynamics 365 Field Service</a></li>
    <li><a href="https://go.microsoft.com/fwlink/p/?LinkID=786689" data-raw-source="[Watch a short video (3:51) on the benefits of Dynamics 365 Field Service](https://go.microsoft.com/fwlink/p/?LinkID=786689)">Watch a short video (3:51) on the benefits of Dynamics 365 Field Service</a></li>
@@ -158,6 +158,7 @@ The purpose of this section is to help you explore all the features of Field Ser
 
 <tr>
 <td><h2>Implementation</h2>
+  
 The purpose of this section is to provide implementation guidance and best practices, both technical and strategic. It also points toward extensibility and developer instructions.
    <ul>
   <li><a href="https://youtu.be/LQXpjMMrJIo" data-raw-source="[General Field Service implementation best practices](https://youtu.be/LQXpjMMrJIo)">General Field Service implementation best practices</a>
@@ -195,7 +196,7 @@ Looking for training outside of documentation? Here are some of our training res
 - [Implementing Microsoft Dynamics 365 for Field Service](/learn/paths/implementing-dyn365-field-service/) (Microsoft Learn): Field service companies often realize they need help as they discover that workflow inefficiencies are preventing growth and limiting revenue. Taking the right steps to configure Dynamics 365 for Field Service will save you time during your implementation. Takes 4 hours.
 - [Universal Resource Scheduling in Microsoft Dynamics 365 for Field Service](/learn/paths/universal-resource-scheduling/) (Microsoft Learn): Schedule anything to the right resource for any job or task with ease. Takes 5 hours.
 - [Working with Connected Field Service for Dynamics 365 and Azure IoT](/learn/paths/working-with-connected-field-service-iot/) (Microsoft Learn): This learning path introduces you to connected Field Service and Azure IoT. Included in this learning path is identifying exceptions, registering and managing devices, remotely monitoring and servicing equipment, and using IoT central with connected Field Service. Takes 6 hours.
-- [Dynamics 365 Fundamentals](/learn/paths/dynamics-365-fundamentals/) (Microsoft Learn): Check out this learning path if you&#39;re interested in how the Dynamics 365 products work together. Takes 11 hours. Also available as an instructor-led course. [Dynamics 365 Fundamentals, MB-901](/learn/certifications/courses/mb-901t00).
+- [Dynamics 365 Fundamentals](/learn/paths/dynamics-365-fundamentals/) (Microsoft Learn): Check out this learning path if you're interested in how the Dynamics 365 products work together. Takes 11 hours. Also available as an instructor-led course. [Dynamics 365 Fundamentals, MB-901](/learn/certifications/courses/mb-901t00).
 
 ### Functional Consultant
 
@@ -210,7 +211,7 @@ Looking for training outside of documentation? Here are some of our training res
 
 - [Microsoft Certified: Dynamics 365 Field Service Functional Consultant Associate](/learn/certifications/d365-functional-consultant-field-service): Get this certification to prove that you know how to configure the Field Service application, implement solutions that manage the field service lifecycle, and deploy the Connected Field Service solution. This certification requires passing two exams.
   
-- [Microsoft Certified: Dynamics 365 Fundamentals](/learn/certifications/d365-fundamentals): Get this certification to prove that you understand all of the Microsoft Dynamics 365 products, including; artificial intelligence (AI); mixed reality (MR); the Power Platform; cloud concepts; cloud security; Dynamics 365 security; Common Data Service; Dynamics 365 reporting; Dynamics 365 integrations; and cloud deployment.
+- [Microsoft Certified: Dynamics 365 Fundamentals](/learn/certifications/d365-fundamentals): Get this certification to prove that you understand all of the Microsoft Dynamics 365 products, including; artificial intelligence (AI); mixed reality (MR); Microsoft Power Platform; cloud concepts; cloud security; Dynamics 365 security; Microsoft Dataverse; Dynamics 365 reporting; Dynamics 365 integrations; and cloud deployment.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
