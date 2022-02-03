@@ -4,7 +4,7 @@ description: "Use this topic to understand how you can bring your own carrier to
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 02/02/2022
+ms.date: 02/03/2022
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -19,18 +19,22 @@ ms.service: dynamics-365-customerservice
 
 ## Prerequisites
 
-To bring in your own phone numbers from any carrier via Azure direct routing, you must first connect to an Azure Communication Services resource. You must then set up Azure direct routing for the connected Azure resource.
+The following prerequisites must be met:
 
-Before you get started, you must be familiar with the following features:
+- Provision the voice channel in Omnichannel for Customer Service. More information: [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)
 
-- [Understand Azure Communication Services](/azure/communication-services/overview)
-- [Understand Azure direct routing](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing)
+- Connect to an Azure Communication Services resource to bring in your carrier via Azure direct routing. You must then set up Azure direct routing for the connected Azure resource.
 
-Also, ensure that the following settings are in place to enable your carrier to work with Azure Communication Services:
+- Familiarity with the following features:
 
-- [Azure direct routing infrastructure](/azure/communication-services/concepts/telephony-sms/direct-routing-infrastructure)
-- [Get a certified Session Border Controller (SBC)](/azure/communication-services/concepts/telephony-sms/certified-session-border-controllers)
-- [Connect the SBC to Azure Communication Services](/azure/communication-services/concepts/telephony-sms/direct-routing-provisioning)
+  - [Understand Azure Communication Services](/azure/communication-services/overview)
+  - [Understand Azure direct routing](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing)
+
+- Also, ensure that the following settings are in place to enable your carrier to work with Azure Communication Services:
+
+  - [Azure direct routing infrastructure](/azure/communication-services/concepts/telephony-sms/direct-routing-infrastructure)
+  - [Get a certified Session Border Controller (SBC)](/azure/communication-services/concepts/telephony-sms/certified-session-border-controllers)
+  - [Connect the SBC to Azure Communication Services](/azure/communication-services/concepts/telephony-sms/direct-routing-provisioning)
 
 ## Bring your own phone number via Azure direct routing
 

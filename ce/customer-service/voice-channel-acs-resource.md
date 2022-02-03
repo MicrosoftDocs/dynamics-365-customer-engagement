@@ -248,7 +248,7 @@ The following sections include short procedures that explain how you can get res
 [Overview of the voice channel](voice-channel.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
 [Set up outbound calling](voice-channel-outbound-calling.md)  
-[Bring your own phone numbers](voice-channel-bring-your-own-number.md)  
+[Bring your own carrier](voice-channel-bring-your-own-number.md)  
 [Integrate third-party IVR systems with voice channel](voice-channel-contextual-transfer-external-ivr.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
