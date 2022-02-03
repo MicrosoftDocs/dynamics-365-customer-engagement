@@ -28,7 +28,7 @@ The following table shows the SKUs that correspond with each experience.
 
 | Experience | Customer Service Enterprise | Chat for Dynamics 365 Add-on  | Digital Messaging Add-on |
 |---------------------------------------------------------------------|------------|------------|------------|
-| Telephony (via third-party)          | Yes | Yes | Yes |
+| Telephony (via third-party providers)          | Yes | Yes | Yes |
 | Web chat  | - | Yes | Yes |
 | Social channels, including Facebook Messenger, WeChat, Teams, SMS, and WhatsApp  | - | - | Yes |
 | Custom chat and messaging channels via Direct Line  | - | - | Yes |
