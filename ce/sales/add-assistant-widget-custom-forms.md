@@ -68,6 +68,6 @@ By default, the assistant widget is available only in the out-of-the-box form. I
 
 ### See also
 
-[Configure the assistant](#configure-assistant.md)      
+[Configure the assistant](configure-assistant.md)      
 [Guide customer communications with assistant](assistant.md)
 
