@@ -132,15 +132,17 @@ You can save your preferred time zone settings for reports as bookmarks. The boo
 
 The **Duration** option that is available in all reports lets you filter the report details. The filter helps you look at the metrics for the shift the supervisor is handling out of the entire 24 hours duration. The filter lets you report the data within the last four, eight, or twelve hours duration or apply a custom value as well. The metrics within the reports are calculated based on the conversations created in the selected time duration.
 
-For example, the following conversations were started and closed on day 1:
+Let's look at an example to understanf the data refresh of the reports
+
+the following conversations were started and closed on day 1:
 - Conversation 1: closed at 9:30 AM
 - Conversation 2: closed at 10:14 AM
 - Conversation 3: started on 11:00 PM
 - Conversation 3: closed at 11:15 PM
 
-If the supervisor accesses a report on day 2 10:00 AM and the **Duration** filter isn't set, the report fetches the data corresponding to conversations 2 and 3. Conversation 1 is not displayed, because it was closed 24.5 hours prior to the time the report is accessed. When the report refreshes automatically at 10:15 AM, the data corresponding to only conversation 3 is displayed on the report.
+If the supervisor accesses the report on day 2 at 10:00 AM and doesn't use the **Duration** filter isn't set, the report fetches the data corresponding to conversations 2 and 3. Conversation 1 is not displayed, because it was closed 24.5 hours prior to the time the report is accessed. When the report refreshes automatically at 10:15 AM, the data corresponding to only conversation 3 is displayed on the report.
 
-For the example above, if the **Duration** is set to 12 hours, the report only displays the data corresponding to conversation 2.
+If you access the report on day 2 at 10:00 AM and set the **Duration** to 12 hours, the report only displays the data corresponding to conversation 3.
 
 ### See also
 
