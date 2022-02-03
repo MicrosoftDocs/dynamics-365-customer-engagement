@@ -65,9 +65,6 @@ With each of the previous search areas, the search results might vary based on t
 
 
 
-<!-- note from editor: This table is confusing. Do the four bottom rows align only to version 9.0? If yes, they should be in one row. -->
-
-
 |Version  |  Search areas| Search mechanism  |
 |---------|---------|---------|
 | December 2016 Update for Dynamics 365 Customer Service </br> & </br> December 2016 Service Pack for Customer Engagement (on-premises) platform  |     - KB search control <br>  - Quick find in Grids   |   Full-text search    |
@@ -80,19 +77,13 @@ With each of the previous search areas, the search results might vary based on t
 
 You can use the following search options to search the knowledge base on the portal.
 
-
-<!-- Should Lucene be in bold like Dataverse search? Also, is "Lucene. Net search: Lucene" what it's called?  -->
-
-- Lucene. Net search: Lucene. Net searches within multiple tables and fields at once. More information: [Search](/powerapps/maker/portals/configure/search)
+- Lucene.Net search: Lucene.Net searches within multiple tables and fields at once. More information: [Search](/powerapps/maker/portals/configure/search)
 - **Dataverse search** **(preview)**: 
 
+  > [!IMPORTANT]
+  > This section is prerelease documentation and is subject to change.
 
-<!-- In the Important note, it's unclear what section is prerelease. Is it Dataverse search? If yes, indent the note and make it clearer. -->
-
-> [!IMPORTANT]
-> This section is prerelease documentation and is subject to change.
-
-  Lets you search across multiple tables sorted by relevance. More information: [What is Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro) To configure dataverse search on portals, see [Configure Dataverse search in portals (preview)](/powerapps/maker/portals/configure/dataverse-search).
+Lets you search across multiple tables sorted by relevance. More information: [What is Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro) To configure dataverse search on portals, see [Configure Dataverse search in portals (preview)](/powerapps/maker/portals/configure/dataverse-search).
 
 You can further refine your search through Progressive search, which lets you search without any mismatch between the results count and the number of records returned in the search results. More information: [Configure progressive search counts](/powerapps/maker/portals/configure/progressive-search).
 
