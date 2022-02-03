@@ -77,7 +77,7 @@ With each of the previous search areas, the search results might vary based on t
 
 You can use the following search options to search the knowledge base on the portal.
 
-- Lucene.Net search: Lucene.Net searches within multiple tables and fields at once. More information: [Search](/powerapps/maker/portals/configure/search)
+- **Lucene.Net search**: Lucene.Net searches within multiple tables and fields at once. More information: [Search](/powerapps/maker/portals/configure/search)
 - **Dataverse search** **(preview)**: 
 
   > [!IMPORTANT]
