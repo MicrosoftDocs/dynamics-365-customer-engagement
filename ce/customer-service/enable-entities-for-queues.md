@@ -1,7 +1,7 @@
 ---
 title: Enable entities for queues | MicrosoftDocs
 description: Learn how you can enable entities for queues so that they can be routed through unified routing.
-ms.date: 08/11/2021
+ms.date: 02/03/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
