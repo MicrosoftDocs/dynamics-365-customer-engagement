@@ -26,7 +26,7 @@ Before we begin, here are the top places for information about Field Service:
   
   <ul>
 <li><a href="overview.md" data-raw-source="[Docs](overview.md)">Docs</a></li>
-  <li><a href="/learn/browse/?products=dynamics-field-service" data-raw-source="[Guided Learn courses](/learn/browse/?products=dynamics-field-service)">Guided Learn courses</a></li>
+  <li><a href="https://docs.microsoft.com/learn/browse/?products=dynamics-field-service&expanded=dynamics-365" data-raw-source="[Guided Learn courses](https://docs.microsoft.com/learn/browse/?products=dynamics-field-service&expanded=dynamics-365)">Guided Learn courses</a></li>
 <li> <a href="https://www.youtube.com/playlist?list=PLcakwueIHoT_AQBxkQQ7zePzd7fzZYP7X" data-raw-source="[[YouTube Channel](https://www.youtube.com/playlist?list=PLcakwueIHoT_AQBxkQQ7zePzd7fzZYP7X)]">YouTube Channel</a>
 <li> <a href="https://aka.ms/fs-videos" data-raw-source="[[Video tutorials](https://aka.ms/fs-videos)]">Video tutorials</a>
 <li> <a href="https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20for%20Field%20Service" data-raw-source="[[Ideas](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20for%20Field%20Service)]">Ideas</a>
@@ -57,19 +57,19 @@ Before we begin, here are the top places for information about Field Service:
 <td><h2>Video catalog</h2>
 
 <ul>
-<li><a href="https://youtu.be/h5X1z0pTtSA" data-raw-source="[Module 1: Using Field Service work orders, scheduling, mobile app, reporting, and more]https://youtu.be/h5X1z0pTtSA">Module 1: Using Field Service work orders, scheduling, mobile app, reporting, and more</a>
+<li><a href="https://youtu.be/h5X1z0pTtSA" data-raw-source="[Using Field Service work orders, scheduling, mobile app, reporting, and more]https://youtu.be/h5X1z0pTtSA">Using Field Service work orders, scheduling, mobile app, reporting, and more</a>
   </li>
-<li><a href="https://youtu.be/hvcqAbe4g4E" data-raw-source="[Module 2: Field Service installation and setup](https://youtu.be/hvcqAbe4g4E)">Module 2: Field Service installation and setup</a></li>
-<li><a href="https://youtu.be/g118F_LnxyE" data-raw-source="[Module 3: Set up bookable resources](https://youtu.be/g118F_LnxyE)">Module 3: Set up bookable resources</a></li>
-<li><a href="https://youtu.be/lblmqd7qFwg" data-raw-source="[Module 4: Work orders](https://youtu.be/lblmqd7qFwg)">Module 4: Work orders</a></li>
-<li><a href="https://youtu.be/-noHEU7wgiQ" data-raw-source="[Module 5: Schedule board](https://youtu.be/-noHEU7wgiQ)">Module 5: Schedule board</a></li>
-<li><a href="https://youtu.be/QOrePYZ9fds" data-raw-source="[Module 6: Schedule assistant](https://youtu.be/QOrePYZ9fds)">Module 6: Schedule assistant</a></li>
-<li><a href="https://youtu.be/tcDt_vJ5csI" data-raw-source="[Module 7: Dynamics 365 Field Service mobile app (Microsoft Power Platform)](https://youtu.be/tcDt_vJ5csI)">Module 7: Dynamics 365 Field Service mobile app (Microsoft Power Platform)</a></li>
+<li><a href="https://youtu.be/hvcqAbe4g4E" data-raw-source="[Field Service installation and setup](https://youtu.be/hvcqAbe4g4E)">Field Service installation and setup</a></li>
+<li><a href="https://youtu.be/g118F_LnxyE" data-raw-source="[Module 2: Set up bookable resources](https://youtu.be/g118F_LnxyE)">Module 2: Set up bookable resources</a></li>
+<li><a href="https://youtu.be/lblmqd7qFwg" data-raw-source="[Module 3: Work orders](https://youtu.be/lblmqd7qFwg)">Module 3: Work orders</a></li>
+<li><a href="https://youtu.be/-noHEU7wgiQ" data-raw-source="[Module 4: Schedule board](https://youtu.be/-noHEU7wgiQ)">Module 4: Schedule board</a></li>
+<li><a href="https://youtu.be/QOrePYZ9fds" data-raw-source="[Module 5: Schedule assistant](https://youtu.be/QOrePYZ9fds)">Module 5: Schedule assistant</a></li>
+<li><a href="https://youtu.be/tcDt_vJ5csI" data-raw-source="[Module 6: Dynamics 365 Field Service mobile app (Microsoft Power Platform)](https://youtu.be/tcDt_vJ5csI)">Module 6: Dynamics 365 Field Service mobile app (Microsoft Power Platform)</a></li>
 <li><a href="https://youtu.be/aDfwIP7rT-U" data-raw-source="[Module 8: Inspections](https://youtu.be/aDfwIP7rT-U)">Module 8: Inspections</a></li>
+<li><a href="https://youtu.be/oJ-3HTJWRMo" data-raw-source="[Module 8b: Set up automatic scheduling for work orders](https://youtu.be/oJ-3HTJWRMo)">Module 8b: Set up automatic scheduling for work orders</a></li>
 <li><a href="https://youtu.be/fcQwIXgmnqk" data-raw-source="[Module 9a: Automated scheduling scenarios with Field Service](https://youtu.be/fcQwIXgmnqk)">Module 9a: Automated scheduling scenarios with Field Service</a></li>
-<li><a href="https://youtu.be/oJ-3HTJWRMo" data-raw-source="[Module 9b: Set up automatic scheduling for work orders](https://youtu.be/oJ-3HTJWRMo)">Module 9b: Set up automatic scheduling for work orders</a></li>
-<li><a href="https://youtu.be/hvcqAbe4g4E" data-raw-source="[Module 10: Set up Connected Field Service with Azure IoTCentral](https://youtu.be/hvcqAbe4g4E)">Module 10: Set up Connected Field Service with Azure IoTCentral</a></li>
-<li><a href="https://youtu.be/ida7f0gtAYU" data-raw-source="[Module 11: Set up and use Dynamics 365 Remote Assist with Field Service](https://youtu.be/ida7f0gtAYU)">Module 11: Set up and use Dynamics 365 Remote Assist with Field Service</a></li>
+<li><a href="https://youtu.be/ida7f0gtAYU" data-raw-source="[Module 10: Set up and use Dynamics 365 Remote Assist with Field Service](https://youtu.be/ida7f0gtAYU)">Module 10: Set up and use Dynamics 365 Remote Assist with Field Service</a></li>
+<li><a href="https://youtu.be/hvcqAbe4g4E" data-raw-source="[Set up Connected Field Service with Azure IoTCentral](https://youtu.be/hvcqAbe4g4E)">Set up Connected Field Service with Azure IoTCentral</a></li>
   </li> 
   </ul>
   </td>
