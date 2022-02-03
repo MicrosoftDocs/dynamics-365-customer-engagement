@@ -114,6 +114,8 @@
         href: designer-feature-protection.md
     - name: Email administration
       items:
+      - name: Get started with email
+        href: email-get-started.md
       - name: Best practices for email marketing
         href: get-ready-email-marketing.md
       - name: Setup guides
