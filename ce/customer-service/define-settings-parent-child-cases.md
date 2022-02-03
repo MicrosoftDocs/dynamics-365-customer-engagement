@@ -58,7 +58,7 @@ In Dynamics 365 Customer Service, you can track multiple issues for a customer, 
 
 2. In the Customer Service Hub site map, go to **Service Management** and select **Case Settings** > **Parent Child Case Settings**.
 
-3. In the **Maximum number of child cases** box, define the desired limit of child cases per parent case.
+3. In the **Maximum number of child cases** field, specify the desired limit of child cases per parent case.
 
 4. Select **Save** to update the settings.
 
