@@ -63,11 +63,11 @@ You can search the knowledge base from the following areas in the Customer Servi
 
 With each of the previous search areas, the search results might vary based on the underlying search option used:
 
-Version: December 2016 Update for Dynamics 365 Customer Service and December 2016 Service Pack for Customer Engagement (on-premises) platform 
+**Version**: December 2016 Update for Dynamics 365 Customer Service and December 2016 Service Pack for Customer Engagement (on-premises) platform 
  - For KB search control and Quick find in Grids search areas, search mechanism used is Full-text search.
  - For Global search, search mechanism used is Categorized search.
 
-Version: Dynamics 365 Customer Service apps version 9.0
+**Version**: Dynamics 365 Customer Service apps version 9.0
   - For KB search control, search mechanism used is Relevance search or Full-text search (based on what you configure).
   - For Quick find in Grids, search mechanism used is Full-text search.
   - For Global search, search mechanism used is Relevance search or Categorized search (based on what you configure).
