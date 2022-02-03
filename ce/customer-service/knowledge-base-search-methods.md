@@ -92,7 +92,7 @@ You can further refine your search through Progressive search, which lets you se
 You can set the content access levels for users to control access to knowledge articles on a portal. More information: [Manage knowledge articles by using content access levels](/powerapps/maker/portals/customer-engagement-apps/manage-knowledge-articles-content-levels) 
 
 For content access level to work with Relevance search, you must perform the following steps on the Dynamics 365 Portals app:
-  1. On the Portal Management sitemap, in the **Website** area, select **Site Settings**.
+  1. In the Portal Management sitemap, in the **Website** area, select **Site Settings**.
   1. Select **New**.
   1. Enter **Name** as **Knowledge Management/ContentAccessLevel/Enabled**.
   1. Select your website record.
