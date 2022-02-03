@@ -1,7 +1,7 @@
 ---
 title: "Configure Relationship analytics and health"
 description: "Configure relationship analytics and health to provide graphical representation of KPIs and activity histories to the sellers."
-ms.date: 10/26/2021
+ms.date: 02/03/2022
 ms.custom: 
 ms.topic: article
 ms.assetid: 03bfdad0-2575-4c4b-a845-d7ac1ff0b0c3
@@ -27,16 +27,11 @@ Relationship analytics provides graphical representation of KPIs and activity hi
 ## To configure relationship analytics and health 
 
 1. Verify that advanced Sales Insights features are enabled. To learn more, see [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features).    
-2. Go to **Change area** in the lower-left corner of the page and select **Sales Insights settings**. 
-
-    > [!div class="mx-imgBorder"]
-    > ![Select Sales Insights settings option](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings option")    
+2. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**. 
     
-3. On the site map, under **Relationship insights**, select **Relationship analytics**. 
-
-    The configuration page opens.   
+3. Under **Relationship insights**, select **Analytics and health**.    
     
-4. Select the toggle to enable relationship analytics for your organization and then select **Save**.    
+4. Select the toggle to enable relationship analytics for your organization and then select **Save**.  
 
     > [!div class="mx-imgBorder"]
     > ![Enable the relationship assistant for your organization](media/si-admin-relationship-analytics-enable-in-organization.png "Enable the relationship assistant for organization")  
