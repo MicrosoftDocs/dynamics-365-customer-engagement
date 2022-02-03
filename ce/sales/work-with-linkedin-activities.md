@@ -40,7 +40,7 @@ You can perform the actions described in the following table.<!--note from edito
 |--------------|----------------|----------------|
 | **Sample image** | ![Research activity step in the Up next widget.](media/sa-linkedin-activity-research-step.png "Research activity step in the Up next widget") | ![Research activity step in a work list.](media/sa-linkedin-activity-research-step-work-list.png "Research activity step in a work list")|
 | **Action** | Select **Show profile**. | Hover over the item, and then select the LinkedIn icon. |
-| **Close the step** | Select **Mark as complete**<!--note from editor: Here and throughout, should this be **Mark complete**, to match the screenshot?--> to close the step and move to the next step. <br>or<br>Select **More options (...)**, and then choose an appropriate option:<ul><li>**Skip** to ignore the step.</li><li>**Snooze** to look into the step later.</li><li>**Assign** to transfer the step to a different seller.</li></ul> | Select **More options (&vellip;)**<!--note from editor: Edit okay?-->, and then choose an appropriate option:<ul><li>**Mark as complete**<!--note from editor: Edit assumes that this option appears on the More menu. Also, should this be **Mark complete**?--> to close the step and move to the next step.</li><li>**Skip** to ignore the step.</li><li>**Snooze** to look into the step later.</li><li>**Assign** to transfer the step to a different seller.</li></ul> |
+| **Close the step** | Select **Mark complete**, to close the step and move to the next step. <br>or<br>Select **More options (...)**, and then choose an appropriate option:<ul><li>**Skip** to ignore the step.</li><li>**Snooze** to look into the step later.</li><li>**Assign** to transfer the step to a different seller.</li></ul> | Select **More options (&vellip;)**, and then choose an appropriate option:<ul><li>**Mark complete** to close the step and move to the next step.</li><li>**Skip** to ignore the step.</li><li>**Snooze** to look into the step later.</li><li>**Assign** to transfer the step to a different seller.</li></ul> |
 
 When the action is selected, the **LinkedIn research** pane opens on the right side with information about the customer profile and account. 
 
@@ -65,7 +65,7 @@ You can perform the actions described in the following table.
 
 When the action is selected, the **Find intro person** pane opens on the right side. On the **Contact** tab, select the **Get introduced** tab. The list of contacts who might be able to introduce the customer is displayed.  
 
-The following image is an example of the **Get introduced** tab on the **Find intro person** side pane:<!--note from editor: Suggested, since the name of the pane seems to actually be "Find intro person."-->
+The following image is an example of the **Get introduced** tab on the **Find intro person** side pane:
 
 >[!div class="mx-imgBorder"]
 >![LinkedIn Get introduced tab on the Find intro person side pane.](media/sa-linkedin-get-introduced-side-pane.png "LinkedIn Get introduced tab on the Find intro person side pane") 
@@ -74,7 +74,7 @@ For more information on customer introductions, go to [Get Introduced](/linkedin
 
 ## Connect activity
 
-Use the **Connect** activity to send connection invites along with personal messages, to help solidify relationships with customers and add them to your network.<!--note from editor: Suggested.-->
+Use the **Connect** activity to send connection invites along with personal messages, to help solidify relationships with customers and add them to your network.
 
 You can perform the actions described in the following table.
 
@@ -82,7 +82,7 @@ You can perform the actions described in the following table.
 |--------------|----------------|----------------|
 | **Sample image** | ![Connect activity step in the Up next widget.](media/sa-linkedin-activity-connect-step.png "Connect activity step in the Up next widget") | ![Connect activity step in a work list.](media/sa-linkedin-activity-connect-step-work-list.png "Connect activity step in a work list")|
 | **Action** | Select **Connect**. | Hover over the item, and then select the LinkedIn icon. |
-| **Close the step** | Select **Mark as complete** to close the step and move to the next step.<br>or<br>Select **More options (...)**, and then choose an appropriate option:<ul><li>**Skip** to ignore the step.</li><li>**Snooze** to look into the step later.</li><li>**Assign** to transfer the step to a different seller.</li></ul> | Select **More options (&vellip;)**, and then choose an appropriate option:<ul><li>**Mark as complete** to close the step and move to the next step.</li><li>**Skip** to ignore the step.</li><li>**Snooze** to look into the step later.</li><li>**Assign** to transfer the step to a different seller.</li></ul> |
+| **Close the step** | Select **Mark complete** to close the step and move to the next step.<br>or<br>Select **More options (...)**, and then choose an appropriate option:<ul><li>**Skip** to ignore the step.</li><li>**Snooze** to look into the step later.</li><li>**Assign** to transfer the step to a different seller.</li></ul> | Select **More options (&vellip;)**, and then choose an appropriate option:<ul><li>**Mark complete** to close the step and move to the next step.</li><li>**Skip** to ignore the step.</li><li>**Snooze** to look into the step later.</li><li>**Assign** to transfer the step to a different seller.</li></ul> |
 
 When the action is selected, the **Connect via LinkedIn** pane opens in the lower-right corner. On the **Connect via LinkedIn** tab, you can see the default message used to connect with the customer.
 
@@ -103,7 +103,7 @@ You can perform the actions described in the following table.
 |--------------|----------------|----------------|
 | **Sample image** | ![Send InMail activity step in the Up next widget.](media/sa-linkedin-activity-send-inmail-step.png "Send InMail activity step in the Up next widget") | ![Send InMail activity step in a work list.](media/sa-linkedin-activity-send-inmail-step-work-list.png "Send InMail activity step in a work list")|
 | **Action** | Select **InMail**. | Hover over the item and then select the LinkedIn icon. |
-| **Close the step** | Select **Mark as complete** to close the step and move to the next step.<br>or<br>Select **More options (...)**, and then choose an appropriate option:<ul><li>**Skip** to ignore the step.</li><li>**Snooze** to look into the step later.</li><li>**Assign** to transfer the step to a different seller.</li></ul> | Select **More options (&vellip;)**, and then choose an appropriate option:<ul><li>**Mark as complete** to close the step and move to the next step.</li><li>**Skip** to ignore the step.</li><li>**Snooze** to look into the step later.</li><li>**Assign** to transfer the step to a different seller.</li></ul> |
+| **Close the step** | Select **Mark complete** to close the step and move to the next step.<br>or<br>Select **More options (...)**, and then choose an appropriate option:<ul><li>**Skip** to ignore the step.</li><li>**Snooze** to look into the step later.</li><li>**Assign** to transfer the step to a different seller.</li></ul> | Select **More options (&vellip;)**, and then choose an appropriate option:<ul><li>**Mark complete** to close the step and move to the next step.</li><li>**Skip** to ignore the step.</li><li>**Snooze** to look into the step later.</li><li>**Assign** to transfer the step to a different seller.</li></ul> |
 
 When the action is selected, the **Send InMail** pane opens in the lower-right corner. Go to the **Send InMail** tab, enter a subject and message, add any attachments if necessary, and then select **Send**. The InMail message is sent to the customer.
 
