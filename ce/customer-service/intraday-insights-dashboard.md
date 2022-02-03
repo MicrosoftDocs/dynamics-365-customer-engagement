@@ -138,7 +138,7 @@ For example, the following conversations were started and closed on day 1:
 - Conversation 3: started on 11:00 PM
 - Conversation 3: closed at 11:15 PM
 
-If a supervisor accesses a report on day 2 10:00 AM, the report fetches the data corresponding to conversations 2 and 3. Conversation 1 is not displayed, because it was closed 24.5 hours prior to the time the report is accessed. When the report refreshes automatically at 10:15 AM, the data corresponding to only conversation 3 is displayed on the report.
+If the supervisor accesses a report on day 2 10:00 AM and the **Duration** filter isn't set, the report fetches the data corresponding to conversations 2 and 3. Conversation 1 is not displayed, because it was closed 24.5 hours prior to the time the report is accessed. When the report refreshes automatically at 10:15 AM, the data corresponding to only conversation 3 is displayed on the report.
 
 If the **Duration** is set to 12 hours, then the report only displays the data corresponding to conversation 2.
 
