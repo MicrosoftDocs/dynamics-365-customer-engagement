@@ -28,7 +28,7 @@ As an administrator or sequence manager, you can add the following activities to
 -	[Get introduced](#get-introduced-activity) 
 -	[Connect](#connect-activity)
 -	[Send InMail](#send-inmail)
-<!--note from editor: I suggest putting this image where it will apply to all the following procedures, rather than repeat the same image four times (which is against our accessibility guidelines). An alternative would be to create four unique images with the respective activities selected, but I actually don't think you need any images at all for these procedures because all of these steps are very straightforward. Perhaps your SMEs think every procedure needs images?-->
+
 >[!div class="mx-imgBorder"]
 >![LinkedIn activity selection box.](media/sa-linkedin-activity-selection.png "LinkedIn activity selection box")
 
@@ -50,19 +50,15 @@ When the activity is displayed to the seller, the LinkedIn **Research** step is 
 
 1. In the activity selection box, select the **LinkedIn** tab, and then select **Research**.  
 
-<!--
-    >[!div class="mx-imgBorder"]
-    >![LinkedIn activity selection box.](media/sa-linkedin-activity-selection.png "LinkedIn activity selection box")-->
-
 2. In the **Research** box, enter a description for the activity, and then select **Save**.   
 
     >[!div class="mx-imgBorder"]
     >![Research activity selected.](media/sa-linkedin-activity-research-box.png "Research activity selected")        
-<!--note from editor: Note that the outcome of the procedure isn't indented at all, because it isn't a step.--> 
-The **Research** step is created and added to the sequence.
 
->[!div class="mx-imgBorder"]
->![Research activity added to a sequence.](media/sa-linkedin-activity-research-activity-added.png "Research activity added to a sequence")        
+ The **Research** step is created and added to the sequence.
+
+ >[!div class="mx-imgBorder"]
+ >![Research activity added to a sequence.](media/sa-linkedin-activity-research-activity-added.png "Research activity added to a sequence")        
  
 ## Get introduced activity   
 
@@ -73,9 +69,6 @@ When this activity is displayed to the seller, the **Find intro person** step is
 **To add the Get introduced activity**  
 
 1. In the activity selection box, select the **LinkedIn** tab, and then select **Get introduced**.
-
-<!--[!div class="mx-imgBorder"]
-    >![LinkedIn activity selection box.](media/sa-linkedin-activity-selection.png "LinkedIn activity selection box")-->
 
 2.	In the **Get introduced** box, enter a description for the activity, and then select **Save**.  
 
@@ -96,10 +89,7 @@ When this activity is displayed to the seller, the **Connect**<!--note from edit
 **To add the Connect activity**
 
 1.	In the activity selection box, select the **LinkedIn** tab, and then select **Connect**.
-<!--
-    >[!div class="mx-imgBorder"]
-    >![LinkedIn activity selection box.](media/sa-linkedin-activity-selection.png "LinkedIn activity selection box")-->  
- 
+
 2.	In the **Connect** box, enter a description for the activity, and then select **Save**.
 
     >[!div class="mx-imgBorder"]
@@ -119,17 +109,14 @@ When this activity is displayed to the seller, the Send InMail step is displayed
 **To add the Send InMail activity**
 
 1.	In the activity selection box, select the **LinkedIn** tab, and then select **Send InMail**.
-<!--
-    >[!div class="mx-imgBorder"]
-    >![LinkedIn activity selection box.](media/sa-linkedin-activity-selection.png "LinkedIn activity selection box")-->  
- 
+
 2.	In the **Send InMail** box, enter a description for the activity, and then select **Save**.
 
     >[!div class="mx-imgBorder"]
     >![Send InMail activity selected.](media/sa-linkedin-activity-send-inmail-box.png "Send InMail activity selected")
  
-The **Send InMail** step is created and added to the sequence.<!--note from editor: Is it okay that the screenshot says "Send in-Mail"? If so, should every reference be "Send in-Mail"?-->
- 
+The **Send InMail** step is created and added to the sequence.
+
 >[!div class="mx-imgBorder"]
 >![Send InMail activity added to a sequence.](media/sa-linkedin-activity-send-inmail-activity-added.png "Send InMail activity added to a sequence")
 
