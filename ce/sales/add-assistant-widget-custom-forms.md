@@ -10,7 +10,7 @@ manager: shujoshi
 
 # Add the assistant widget to custom forms
 
-By default, the assistant widget is available only in the out-of-the-box form. If you're using customized forms, you can display the assistant widget on your custom forms by following the steps described in [How to add the widget](#how-to-add-the-widget).
+By default, the assistant widget is available only in the out-of-the-box form. If you're using customized forms, you can display the assistant widget on custom forms by following the steps described in [How to add the widget](#how-to-add-the-widget).
 
 ## License and role requirements
 
