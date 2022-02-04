@@ -1,6 +1,6 @@
 ---
-title: "Integrate knowledge management with Power Virtual Agents bot| MicrosoftDocs"
-description: "Learn about the integration of knowledge management with Power Virtual Agents bot."
+title: Integrate knowledge management with Power Virtual Agents bot | MicrosoftDocs
+description: Learn about the integration of knowledge management with a Power Virtual Agents bot.
 ms.date: 01/27/2022
 ms.topic: article
 author: Soumyasd27
@@ -12,14 +12,14 @@ manager: shujoshi
 
 ## Introduction
 
-Power Virtual Agents let you create powerful bots, configured with various topics and trigger phrases, that help automatically resolve questions posed by your customers on your portal page. More information: [Power Virtual Agents overview](/power-virtual-agents/fundamentals-what-is-power-virtual-agents).
+Power Virtual Agents let you create powerful bots configured with various topics and trigger phrases that help automatically resolve questions posed by your customers on your portal page. More information: [Power Virtual Agents overview](/power-virtual-agents/fundamentals-what-is-power-virtual-agents).
 
-Integrating Power Virtual Agents bot with knowledge management makes it easier to use customized conversations in your bot. This frees up your agent’s time to deal with complex issues that need human intervention, as the bot helps answer questions, perform actions, and solve issues that are simple in nature.
+Integrating Power Virtual Agents bot with knowledge management makes it easier to use customized conversations in your bot. This frees up your agent's time to deal with complex issues that need human intervention, as the bot helps answer questions, perform actions, and solve simple problems.
 
 You can integrate knowledge management with a Power Virtual Agents bot by using either of the following ways:
 
-- Search knowledge articles dialog
-- Power Automate flow template
+- Search knowledge articles dialog.
+- Power Automate flow template.
 
 ## Prerequisites
 
@@ -42,9 +42,9 @@ You can integrate knowledge management with a Power Virtual Agents bot by using 
 
 You must perform the following steps to integrate knowledge management with a Power Virtual Agents bot using the Search knowledge articles dialog:
  
-   1. Set connection references
-   1. Call the flow as one-time mandatory step
-   1. Add the dialog to the Power Virtual Agents topic
+   1. Set connection references.
+   1. Call the flow as a one-time mandatory step.
+   1. Add the dialog to the Power Virtual Agents topic.
 
 ### Set connection references
 
@@ -63,7 +63,7 @@ Knowledge Power Virtual Agents solution makes use of the flow which uses connect
 
      :::image type="content" source="media/ka_art_on.png" alt-text="Turn search knowledge article flow to on":::
 
-### Call the flow as one-time mandatory step
+### Call the flow as a one-time mandatory step
     
 You must create a topic with two question nodes for search text and filter. For filter, the Power Virtual Agents author can provide a dummy filter value, for example, **statecode eq 3**. This step ensures that flow is properly configured and can now be replaced with **Search knowledge article extended** topic.  
   
@@ -95,8 +95,8 @@ You must create a topic with two question nodes for search text and filter. For 
     :::image type="content" source="media/final_search_ka_dialog.png" alt-text="Replace with search knowledge articles dialog"::: 
 
 2. Remove the filter question node.
- - If you don’t want to use the filter value, then you must call the Search knowledge articles action and provide the search text to search for external published articles. 
- - If you want to use filter, then configure the filter using knowledge article entity attributes. More information: [knowledgearticle EntityType](/customer-engagement/web-api/knowledgearticle?view=dynamics-ce-odata-9). To write a Dataverse search query using filters, see [Search for tables and rows by using Dataverse search](/powerapps/user/relevance-search).
+ - If you don’t want to use the filter value, you must call the Search knowledge articles action and provide the search text to search for externally published articles. 
+ - If you want to use a filter, configure the filter using knowledge article entity attributes. More information: [knowledgearticle EntityType](/customer-engagement/web-api/knowledgearticle?view=dynamics-ce-odata-9). To write a Dataverse search query using filters, see [Search for tables and rows by using Dataverse search](/powerapps/user/relevance-search).
  
 3. Update the message node with the output from the extended topic and select **Save**.
   
@@ -104,8 +104,8 @@ You must create a topic with two question nodes for search text and filter. For 
 
 You must perform the following steps to integrate knowledge management with a Power Virtual Agents bot using the Power Automate flow template:
 
-1. Create a flow using the template
-1. Add the solution's flow to the Power Virtual Agents topic
+1. Create a flow using the template.
+1. Add the solution's flow to the Power Virtual Agents topic.
    
 ### Create a flow using the template
 
@@ -143,9 +143,9 @@ You must perform the following steps to integrate knowledge management with a Po
 
 1. Open the browser with the authoring canvas.
     
-2. Above the **Message** action box, select the connector, and then select **Call an action**.
+2. Above the **Message** action box, select the connector, and select **Call an action**.
     
-3. From the flow pop-up window, select the new flow named **Generate answer from Dataverse knowledge articles for Power Virtual Agent**. The new action appears in the flow.
+3. From the pop-up flow window, select the new flow named **Generate answer from Dataverse knowledge articles for Power Virtual Agent**. The new action appears in the flow.
     
 4. To correctly set the input variable to the action, select **Select a variable**, and then select **bot.UnrecognizedTriggerPhrase**.
     
