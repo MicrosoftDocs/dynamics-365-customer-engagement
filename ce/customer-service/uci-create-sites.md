@@ -27,17 +27,28 @@ You can also create a site in Dynamics 365 Customer Engagement (on-premises) 9.1
 
 Before you begin, make sure you have the System Administrator or System Customizer security role or equivalent permissions.
 
-1. Navigate to **Customer Service Hub** > **Scheduling** tab.
+2. Navigate to either on the Customer Service Hub or on Customer Service admin center (preview) app. Depending on your app, perform the following steps:
 
-2. Select **Sites**
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
-   ![Select Sites.](media/uci-site-scheduling.png "Select Sites on the Scheduling tab")
+   > [!IMPORTANT]
+   > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-3. Select **New.**
+    1. On the Customer Service admin center (preview) site map, select **Operations > Service scheduling*.
+    1.  In the **Sites** section, select **Manage**.
+        The **All Sites** view is displayed. You can switch between various system views using the drop-down list.  
+
+   ### [Customer Service Hub](#tab/customerservicehub)
+
+    1. On the Customer Service Hub site map, go to **Scheduling**.
+    1. From the list of entity records, select **Settings > Sites**.
+       The **All Sites** view is displayed. You can switch between various system views using the drop-down list.
+
+3. Select **New**.
 
    ![New site.](media/uci-new-site.png "Enter a name and other details for the new site")
 
-4. Enter a name and any other details you want, and then click **Save**.
+4. Enter the details and click **Save**.
 
 ### See also  
 
