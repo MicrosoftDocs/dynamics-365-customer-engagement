@@ -210,9 +210,9 @@
           href: real-time-marketing-event-based-journey.md
         - name: Real-time marketing event triggers
           href: real-time-marketing-event-triggers.md
-        - name: "Preview: Custom event trigger actions"
+        - name: "Preview: Trigger custom event actions"
           href: real-time-marketing-custom-event-actions.md
-        - name: Customize event triggers
+        - name: Create custom event triggers
           href: real-time-marketing-custom-events.md
       - name: Segment-based journeys
         items:

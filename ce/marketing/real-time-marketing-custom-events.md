@@ -1,6 +1,6 @@
 ---
-title: "Customize event triggers in real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn about real-time marketing customizing event triggers in Dynamics 365 Marketing."
+title: "Create custom event triggers in real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Learn about creating real-time marketing custom event triggers in Dynamics 365 Marketing."
 ms.date: 10/04/2021
 ms.service: dynamics-365-marketing
 ms.custom: 
@@ -18,7 +18,7 @@ search.app:
   - D365Mktg
 ---
 
-# Customize event triggers in real-time marketing
+# Create custom event triggers in real-time marketing
 
 Custom events are a flexible way to capture important moments and interactions, allowing you to orchestrate uniquely engaging customer interactions.
 
