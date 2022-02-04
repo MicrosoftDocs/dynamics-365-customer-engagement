@@ -61,14 +61,14 @@ Sales Premium features are available in the following regions:
 
 | Feature | NAM | EMEA | GBR | APJ | CAN | IND | JPN | OCE | CHE | FRA |
 |---------|-----|------|-----|-----|-----|-----|-----|-----|-----|-----|
-| Assistant | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
-| Auto capture | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| Assistant | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Auto capture | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | Conversation intelligence | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
-| Notes analysis | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| Notes analysis | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | Premium forecasting | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes | No |
-| Predictive lead scoring | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
-| Predictive opportunity scoring | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
-| Relationship analytics | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| Predictive lead scoring | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Predictive opportunity scoring | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Relationship analytics | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | Sales accelerator | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
 | Talking points | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
 | Who knows whom | Yes | Yes | No | No | Yes | No | No | No | No | Yes |
@@ -100,10 +100,10 @@ Sales Premium supports the following languages:
 | Feature | Language supported |
 |---------|--------------------|
 | Assistant, Assistant studio, Auto capture, Email engagement, Predictive lead scoring, Predictive opportunity scoring, Premium forecasting, Relationship analytics, Sales accelerator, and Who knows whom | Arabic, Basque, Bulgarian, Catalan, Chinese Simplified (PRC), Chinese Traditional (Hong Kong SAR), Chinese Traditional (Taiwan), Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Kazakh, Korean, Latvian, Lithuanian, Malay, Norwegian, Polish, Portuguese (Brazil), Portuguese (Portugal), Romanian, Russian, Serbian (Cyrillic), Serbian (Latin), Slovakian, Slovenian, Spanish, Swedish, Thai, Turkish, Ukrainian, and Vietnamese. |
-| Notes analysis | Supports English, French, German, Italian, and Dutch for machine learning models. |
-| Talking points and Exchange insight cards in Assistant | Supports only English - United States (en-US) for machine learning models. |
+| Notes analysis | English, French, German, Italian, and Dutch for machine learning models. |
+| Talking points and Exchange insight cards in Assistant | Only English - United States (en-US) for machine learning models. |
 | Activity-content based Auto capture |- For contact suggestions, the body of emails and meetings are analyzed in English and French.<br>- For activity suggestions, the body of emails and meetings are analyzed in English, French, German, Italian, Dutch, and Norwegian. |
-| Conversation intelligence | Chinese Simplified (PRC), Dutch, English, French, German, Italian, Japanese, Portuguese, Portuguese (Brazil), Spanish, Hebrew, and Arabic. |
+| Conversation intelligence | Chinese Simplified (PRC), Dutch, English, French, German, Italian, Japanese, Portuguese, Portuguese (Brazil), Spanish, Hebrew, Danish, Swedish, Finnish, and Arabic. |
 
 To learn more, see [Infrastructure availability PDF](https://aka.ms/dynamics_365_international_availability_deck)
 
@@ -313,6 +313,13 @@ Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insi
 
 ### What does Notes analysis look at for the intent?​   
 Notes analysis looks at notes and posts on the timeline for the intent that may indicate a record should be created. Notes analysis looks for meeting requests, meetings, tasks, and contacts.
+
+## Auto capture
+
+### How long does the application take to display captured suggestions?
+
+- For activities, the suggestions are displayed immediately.   
+- For contacts, the application may take up to four hours to display suggestions.
 
 ## Talking points
 
