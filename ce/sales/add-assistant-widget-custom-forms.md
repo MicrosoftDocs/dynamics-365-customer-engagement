@@ -10,7 +10,7 @@ manager: shujoshi
 
 # Add the assistant widget to custom forms
 
-By default, the assistant widget is available only in the out-of-the-box form. If you're using customized forms, you can display the assistant widget on custom forms by following the steps described in [How to add the widget](#how-to-add-the-widget).
+By default, the assistant widget is available only in the out-of-the-box form. If you're using customized forms, you can display the assistant widget on custom forms.
 
 ## License and role requirements
 
@@ -20,12 +20,13 @@ By default, the assistant widget is available only in the out-of-the-box form. I
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-## How to add the widget?
+## Add the widget
 
 >[!NOTE]
->Adding the assistant widget is only supported in Unified Interface apps.
+>- Adding the assistant widget is only supported in Unified Interface apps.
+>- The assistant widget can't be added by using the new experience in Power Apps.
 
-1. Sign in to Dynamics 365 Sales Hub app and go to **Advanced settings**.
+1. In Dynamics 365 Sales Hub app and go to **Advanced settings**.
 
     > [!div class="mx-imgBorder"]
     > ![Advanced Settings option on the Settings menu.](media/advanced-settings-option.png "Advanced Settings option on the Settings menu")
