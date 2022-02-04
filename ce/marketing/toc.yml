@@ -210,10 +210,10 @@
           href: real-time-marketing-event-based-journey.md
         - name: Real-time marketing event triggers
           href: real-time-marketing-event-triggers.md
-        - name: Custom event triggers in real-time marketing
-          href: real-time-marketing-custom-events.md
-        - name: "Preview: Custom event actions"
+        - name: "Preview: Custom event trigger actions"
           href: real-time-marketing-custom-event-actions.md
+        - name: Customize event triggers
+          href: real-time-marketing-custom-events.md
       - name: Segment-based journeys
         items:
         - name: Work with segments in real-time marketing
@@ -238,6 +238,8 @@
         items:
         - name: Personalize content
           href: real-time-marketing-personalization.md
+        - name: "Preview: Personalize emails using pre-defined tokens"
+          href: real-time-marketing-predefined-tokens.md
       - name: Analytics
         items:
         - name: Access and interpret analytics
