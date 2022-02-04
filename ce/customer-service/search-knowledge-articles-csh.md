@@ -201,7 +201,7 @@ Knowledge articles can be configured with their portal URLs, and then agents can
 > [!NOTE]
 > Before you can configure knowledge articles with their own URLs, you must create a portal using your domain name. For information on how to create a portal, see [Create a portal in an environment containing customer engagement apps](/powerapps/maker/portals/create-dynamics-portal).
 
-You can configure a knowledge base article URL either on the Customer Service Hub or on Customer Service admin center (preview) app. Depending on your app, perform the following steps:
+You can configure a knowledge base article URL either on the Customer Service Hub or on the Customer Service admin center (preview) app. Depending on your app, perform the following steps:
 
 1. Go to the **Support portal connection** section.
 
