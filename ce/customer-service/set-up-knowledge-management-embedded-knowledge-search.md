@@ -44,7 +44,7 @@ After knowledge management is set up, users will be able to:
 - See the content of the knowledge base article inline, including images and videos.
 
 > [!NOTE]
-> With the latest release of Dynamics 365 Customer Service app, embedded knowledge search in service management is available in the Customer Service Hub. We recommend that you set up knowledge management using embedded knowledge search in the new experience.
+> With the latest release of the Dynamics 365 Customer Service app, embedded knowledge search in service management is available in the Customer Service Hub. We recommend that you set up knowledge management using embedded knowledge search in the new experience.
 
 ## Setup overview
 
@@ -66,7 +66,7 @@ After you have configured knowledge management on your app, you must also set up
 
 The changes that you will make for knowledge management settings will reflect across Customer Service Hub, Service Management, Customer Service admin center (preview), and custom apps. However, configuration changes that you will make for knowledge search control in the Customer Service admin center (preview) app will be available in the app side pane only.
 
-You can set up knowledge management either on the Customer Service Hub or on Customer Service admin center (preview) app. Depending on your app, perform the following steps:
+You can set up knowledge management either on the Customer Service Hub or on the Customer Service admin center (preview) app. Depending on your app, perform the following steps:
   
 ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
@@ -89,7 +89,7 @@ You can set up knowledge management either on the Customer Service Hub or on Cus
       *	In the **Knowledge search logic** section, set the **Set search mode as all** toggle to Yes. More information: [Set up knowledge search logic](#set-up-knowledge-search-logic)
 	    * Select **Save**.
   4. In the **Portals** section, select **Manage**. The **Portals** page appears.
-      1. In the **Support portal connection** section, do the following to share knowledge article as URLs:
+      1. In the **Support portal connection** section, do the following to share knowledge articles as URLs:
           *	Set the **Use an external portal** toggle to Yes, to integrate an external portal to publish knowledge articles.
           * **URL Format**: Type the portal URL that will be used to create external (public-facing) portal links for knowledge articles, which the service agents can share with the customers. The external URL is created in the following format: https://support portal URL/kb/{kbnum}. The placeholder "{kbnum}" is replaced by an actual knowledge article number.
       1.	In the **Sync knowledge article attachments to portal** section, set the **Sync attachments to the portal** toggle to Yes. More information: [Update knowledge article attachments for portal](customer-service-hub-user-guide-knowledge-article.md#update-knowledge-article-attachments-for-portal)
@@ -142,7 +142,7 @@ You can set up knowledge management either on the Customer Service Hub or on Cus
  
  3. Select **Site Map**.
   
- 4.	Select **Add > Subarea** to create a new sub area for your area.
+ 4.	Select **Add > Subarea** to create a new sub-area for your area.
  
  5. In the **Properties > SUB AREA** section, provide the following information:
     * Type: Select **URL**. 
@@ -150,11 +150,11 @@ You can set up knowledge management either on the Customer Service Hub or on Cus
 
 ## Set up AI suggestions for article keywords and description
 
-You can enable knowledge authors to get suggested keywords and description based on the article content stored in the built-in knowledge article entity. More information: [Configure AI suggestions for article keywords and description](configure-ai-suggested-article-keywords-description.md#configure-ai-suggestions-for-article-keywords-and-description).
+You can enable knowledge authors to get suggested keywords and descriptions based on the article content stored in the built-in knowledge article entity. More information: [Configure AI suggestions for article keywords and description](configure-ai-suggested-article-keywords-description.md#configure-ai-suggestions-for-article-keywords-and-description).
 
 ## Set up knowledge search logic
 
-If you have Relevance search enabled, you can apply knowledge search logic for your knowledge articles to help agents find only the articles they need. By default, knowledge search works by the `searchMode=any` logic, which brings up articles that match any of the keywords used in your search. If you search for Contoso Coffee, the search results will show articles that have either "Contoso" or "Coffee", as seen in the following example:
+If you have Relevance search enabled, you can apply knowledge search logic for your knowledge articles to help agents find only the articles they need. By default, knowledge search works by the `searchMode=any` logic, which brings up articles that match any of the keywords used in your search. If you search for Contoso Coffee, the search results will show articles that have either "Contoso" or "Coffee," as seen in the following example:
 
 - Article 1: Contoso machine repair
 - Article 2: Coffee powder quality
@@ -162,12 +162,12 @@ If you have Relevance search enabled, you can apply knowledge search logic for y
 - Article 4: Coffee machine order for Contoso
 - Article 5: Espresso coffee machine troubleshooting
 
-You can enable the knowledge search to work by the `searchmode=all` logic, which matches all the keywords that you used in the search. If you search for Contoso Coffee, the search results will show articles that match both "Contoso" and "Coffee" as seen in the following example:
+You can enable the knowledge search to work by the `searchmode=all` logic, which matches all the keywords that you used in the search. If you search for Contoso Coffee, the search results will show articles that match both "Contoso" and "Coffee," as seen in the following example:
 
 - Article 1: Contoso coffee order price
 - Article 2: Coffee machine order for Contoso
 
-You can set up the knowledge search logic either on the Customer Service Hub or on Customer Service admin center (preview) app. Depending on your app, perform the following steps:
+You can set up the knowledge search logic either on the Customer Service Hub or on the Customer Service admin center (preview) app. Depending on your app, perform the following steps:
 
 1. Go to the **Settings** page.
 
