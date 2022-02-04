@@ -32,7 +32,7 @@ Before you begin, make sure you have the **System Administrator** security role 
    > [!IMPORTANT]
    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-    1. On the Customer Service admin center (preview) site map, select **Operations > Service scheduling*.
+    1. On the Customer Service admin center (preview) site map, select **Operations > Service scheduling**.
     1.  In the **Facilities/Equipment** section, select **Manage**.
         The **Local Facilities/Equipment** view is displayed. You can switch between various system views using the drop-down list.  
 
@@ -42,7 +42,9 @@ Before you begin, make sure you have the **System Administrator** security role 
     1. From the list of entity records, select **Scheduling > Facilities/Equipment**.
        The **Local Facilities/Equipment** view is displayed. You can switch between various system views using the drop-down list.
 
-2. Fill in the information as required:
+2. Select **New**.
+
+3. Fill in the information as required:
   
   - **Name**: Enter the name of the facility or equipment you want to add for service scheduling.
   
