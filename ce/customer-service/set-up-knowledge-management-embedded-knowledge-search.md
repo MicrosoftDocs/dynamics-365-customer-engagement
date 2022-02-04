@@ -142,7 +142,7 @@ You can set up knowledge management either on the Customer Service Hub or on the
  
  3. Select **Site Map**.
   
- 4.	Select **Add > Subarea** to create a new sub-area for your area.
+ 4.	Select **Add > Subarea** to create a new sub area for your area.
  
  5. In the **Properties > SUB AREA** section, provide the following information:
     * Type: Select **URL**. 
@@ -150,7 +150,7 @@ You can set up knowledge management either on the Customer Service Hub or on the
 
 ## Set up AI suggestions for article keywords and description
 
-You can enable knowledge authors to get suggested keywords and descriptions based on the article content stored in the built-in knowledge article entity. More information: [Configure AI suggestions for article keywords and description](configure-ai-suggested-article-keywords-description.md#configure-ai-suggestions-for-article-keywords-and-description).
+You can enable knowledge authors to get suggested keywords and description based on the article content stored in the built-in knowledge article entity. More information: [Configure AI suggestions for article keywords and description](configure-ai-suggested-article-keywords-description.md#configure-ai-suggestions-for-article-keywords-and-description).
 
 ## Set up knowledge search logic
 
