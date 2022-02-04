@@ -30,7 +30,10 @@ Work with your data in offline mode even when you don't have internet access. Th
 If you're working on a record and lose network connection, any updates made to the record are saved in offline mode and will be synchronized to the app after you're back online. When the record is synchronized with the app, it follows the filter rule for availability in offline mode.
 
 > [!IMPORTANT]
-> This topic covers how to use the Dynamics 365 for phones and tablets app and [Power Apps Mobile](/powerapps/mobile/run-powerapps-on-mobile) in offline mode. The process is the same for both apps.
+> - This topic covers how to use the Dynamics 365 for phones and tablets app and [Power Apps Mobile](/powerapps/mobile/run-powerapps-on-mobile) in offline mode. The process is the same for both apps.
+> - There is a new experience to setup and use mobile offline for model-driven apps. For more information:
+>   - [Set up mobile offline](/powerapps-docs/mobile/setup-mobile-offline.md)
+>   - [Use mobile offline-first](/powerapps-docs/mobile/work-in-offline-mode.md)
 
 ## Install the mobile app
 
