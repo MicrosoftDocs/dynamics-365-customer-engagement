@@ -35,7 +35,7 @@ Before working with templates, make sure you have the required privileges to cre
 
  As a knowledge manager, you can create knowledge article templates by defining the necessary fields such as Language, Title, Keywords, and Subject. These fields will be pre-populated when the author creates the article using the template, reducing the efforts to fill in these fields.
 
-You can create a knowledge article template either on the Customer Service Hub or on Customer Service admin center (preview) app. Depending on your app, perform the following steps:
+You can create a knowledge article template either on the Customer Service Hub or on the Customer Service admin center (preview) app. Depending on your app, perform the following steps:
 
 1. Go to the **Article Templates** section.
 
