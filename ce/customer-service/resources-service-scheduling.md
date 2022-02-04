@@ -97,21 +97,35 @@ Make sure that you have the required security role or equivalent permissions.
 
 You can set work hours for the bookable resources where you can define when the resources will be available to be booked for services. 
 
-1. In the Customer Service Hub sitemap, go to **Scheduling**.
-2. From the list of entity records, select **Scheduling > Resources**. 
+1. Navigate to either on the Customer Service Hub or on Customer Service admin center (preview) app. Depending on your app, perform the following steps:
+
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+
+   > [!IMPORTANT]
+   > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+    1. On the Customer Service admin center (preview) site map, select **Operations > Service scheduling**.
+    2.  In the **Resources** section, select **Manage**.
+        The **Active Bookable Resources** view is displayed.  
+
+   ### [Customer Service Hub](#tab/customerservicehub)
+
+    1. On the Customer Service Hub site map, go to **Scheduling**.
+    2. From the list of entity records, select **Scheduling > Resources**.
+       The **Active Bookable Resources** view is displayed. 
   
-4.  Open the resource record you want to set work hours for.  
+2.  Open the resource record you want to set work hours for.  
   
-6.  Select **Show Work Hours**.  
+3.  Select **Show Work Hours**.  
   
-7.  From the **Set up** drop-down list, choose the schedule display as required.
+4.  From the **Set up** drop-down list, choose the schedule display as required.
   
     > [!NOTE]
     >  Monthly schedules are the default display; you can choose weekly and daily schedules.  
   
-8.  Double-click a date on the calendar that is the first day for which you want to set work hours.  
+5.  Double-click a date on the calendar that is the first day for which you want to set work hours.  
   
-9. In the **Edit Schedule** dialog box, select one of the following and then select **OK**.  
+6. In the **Edit Schedule** dialog box, select one of the following and then select **OK**.  
   
     - **This date only**  
   
@@ -129,7 +143,7 @@ You can set work hours for the bookable resources where you can define when the 
   
          Selecting this option might change past days, which could affect reports regarding hours worked in the past.  
   
-10. In the **Weekly Schedule** dialog box, in the **Set the recurring weekly schedule** section, select one of the following:  
+7. In the **Weekly Schedule** dialog box, in the **Set the recurring weekly schedule** section, select one of the following:  
   
     - **Are the same each day**  
   
@@ -153,11 +167,11 @@ You can set work hours for the bookable resources where you can define when the 
   
          You cannot change the date the schedule ends. To end a schedule, you must define a new schedule on that date.  
   
-11. Choose the work hours link for the schedule you want to modify.  
+8. Choose the work hours link for the schedule you want to modify.  
   
      If work hours have not been set previously, the link is displayed as "Set Work Hours."  
   
-12. In the **Set Work Hours and Service Restrictions** dialog box, complete the following fields, and then select **OK**:  
+9. In the **Set Work Hours and Service Restrictions** dialog box, complete the following fields, and then select **OK**:  
   
     - **Date**  
   
@@ -173,7 +187,7 @@ You can set work hours for the bookable resources where you can define when the 
   
          To add a break in the work hours, such as a lunch break, select **Add Break**, and then select the start and end time of the break. 
   
-14. To close the **Weekly Schedule** dialog box, select **Save and Close**.
+10. To close the **Weekly Schedule** dialog box, select **Save and Close**.
 
     ![set-work-hours.](media/set-work-hours-csh-1a.png) 
 
