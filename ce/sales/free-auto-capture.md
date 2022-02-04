@@ -9,6 +9,14 @@ author: udaykirang
 ms.author: udag
 manager: shujoshi
 caps.latest.revision: 1
+searchScope: 
+  - D365-App-msdynce_saleshub
+  - D365-Entity-msdyn_suggestedactivity
+  - D365-Entity-msdyn_suggestedcontact
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
+  - Customer Engagement
 ---
 # Basic auto capture 
 
