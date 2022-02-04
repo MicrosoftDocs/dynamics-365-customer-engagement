@@ -1,7 +1,7 @@
 ---
 title: "Configure Microsoft Teams chats in Customer Service | Microsoft Docs"
 description: "Learn how to configure Microsoft Teams chat functionality in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
-ms.date: 01/30/2022
+ms.date: 01/31/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -18,7 +18,7 @@ ms.custom:
   - intro-internal
 ---
 
-# Configure Microsoft Teams chat in Customer Service (Preview)
+# Configure Microsoft Teams chat in Customer Service (preview)
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
