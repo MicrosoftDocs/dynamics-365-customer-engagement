@@ -26,19 +26,31 @@ Make sure that you have the required security role or equivalent permissions.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage security roles in service scheduling](manage-security-roles.md)
 
-1. In the Customer Service Hub sitemap, go to **Scheduling**.
-2. From the list of entity records, select **Settings > Business Closures**.
-   - The **Business Closures** view is displayed. You can switch between various system views using the drop-down menu.
-   - Select any existing record to see additional options in the command bar
-3. On the command bar, select **New** to schedule a new business closure. </br>
+1. Navigate to either on the Customer Service Hub or on Customer Service admin center (preview) app. Depending on your app, perform the following steps:
+
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+
+   > [!IMPORTANT]
+   > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+    1. On the Customer Service admin center (preview) site map, select **Operations > Business closure**.
+    1.  In the **Business closure** section, select **Manage**.
+        The **Business Closures** view is displayed. You can switch between various system views using the drop-down list.  
+
+   ### [Customer Service Hub](#tab/customerservicehub)
+
+    1. On the Customer Service Hub site map, go to **Scheduling**.
+    1. From the list of entity records, select **Settings > Organizational units**.
+       The **Business Closures** view is displayed. You can switch between various system views using the drop-down list.
+       Select any existing record to see additional options in the command bar.
+
+2. On the command bar, select **New** to schedule a new business closure. </br>
  
    You can also select **New** from the business closure grid to create a new business closure record.
 
-   ![Schedule business closure.](media/create-business-closure.png)
-
    A quick create dialog box is displayed.
   
-5.  In the **Schedule a Business Closure** dialog box, type or modify information in the text boxes:  
+3.  In the **Schedule a Business Closure** dialog box, type or modify information in the text boxes:  
   
     - In the **Name** box, type a name that describes the purpose of the closure.
   
@@ -51,7 +63,7 @@ Make sure that you have the required security role or equivalent permissions.
   
       If you want to enter a specific time period, clear the **All Day Event** check box. You can then specify the hours during which your organization will be closed.  
   
-6.  To save this business closure, select **OK**.  
+4.  To save this business closure, select **OK**.  
   
 ### See also  
  [Set work hours for the resources](resources-service-scheduling.md#set-work-hours-for-the-resources) </br>
