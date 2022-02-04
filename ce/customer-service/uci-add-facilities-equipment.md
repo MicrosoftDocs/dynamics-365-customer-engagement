@@ -25,15 +25,24 @@ Facilities and equipment are resources you use to perform services for your cust
 
 Before you begin, make sure you have the **System Administrator** security role or equivalent permissions in Microsoft Dynamics 365. 
 
-1. Navigate to **Customer Service Hub** > **Scheduling** tab.
+1. Navigate to either on the Customer Service Hub or on Customer Service admin center (preview) app. Depending on your app, perform the following steps:
 
-2. Select **Facility/Equipment**.
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
-   ![Select Facility/Equipment.](media/uci-facility-equipment.png "Select Facility/Equipment")
+   > [!IMPORTANT]
+   > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-3. Select **New**.
+    1. On the Customer Service admin center (preview) site map, select **Operations > Service scheduling*.
+    1.  In the **Facilities/Equipment** section, select **Manage**.
+        The **Local Facilities/Equipment** view is displayed. You can switch between various system views using the drop-down list.  
 
-3. Fill in the information as required:
+   ### [Customer Service Hub](#tab/customerservicehub)
+
+    1. On the Customer Service Hub site map, go to **Scheduling**.
+    1. From the list of entity records, select **Scheduling > Facilities/Equipment**.
+       The **Local Facilities/Equipment** view is displayed. You can switch between various system views using the drop-down list.
+
+2. Fill in the information as required:
   
   - **Name**: Enter the name of the facility or equipment you want to add for service scheduling.
   
@@ -50,11 +59,11 @@ Before you begin, make sure you have the **System Administrator** security role 
 
   - **Description**: Add details about the facility or equipment, such as the numbers, size, make, or model.
   
-4. When you are finished entering details, select **Save** or **Save & Close**.
+3. When you are finished entering details, select **Save** or **Save & Close**.
 
    ![Save details.](media/uci-save-facility-equipment.png "Save the details you've entered")
 
-5. Set up the workhour calendar.
+4. Set up the workhour calendar.
 
    ![Calendar with working hours.](media/uci-workhour-calendar.png "Set up the workhour calendar")
    
