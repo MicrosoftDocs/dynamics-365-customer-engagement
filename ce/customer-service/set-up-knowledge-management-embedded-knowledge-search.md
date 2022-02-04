@@ -162,7 +162,7 @@ If you have Relevance search enabled, you can apply knowledge search logic for y
 - Article 4: Coffee machine order for Contoso
 - Article 5: Espresso coffee machine troubleshooting
 
-You can enable the knowledge search to work by the `searchmode=all` logic, which matches all the keywords that you used in the search. If you search for Contoso Coffee, the search results will show articles that match both "Contoso" and "Coffee," as seen in the following example:
+You can enable the knowledge search to work by the `searchmode=all` logic, which matches all the keywords that you used in the search. If you search for Contoso Coffee, the search results will show articles that match both "Contoso" and "Coffee", as seen in the following example:
 
 - Article 1: Contoso coffee order price
 - Article 2: Coffee machine order for Contoso
