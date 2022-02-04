@@ -30,7 +30,7 @@ searchScope:
 
 For the knowledge search results, you can configure standard and custom fields as filters to help your agents find the content and improve their productivity.
 
-You can set up the customization of knowledge article search filters by first enabling the feature, and then setting the filter configurations. The fields that are present on the knowledge article entity are the fields that are available as filters. Additionally, filters can be defined on fields that have the following data types:
+You can set up the customization of knowledge article search filters by first enabling the feature and then setting the filter configurations. The fields that are present on the knowledge article entity are the fields that are available as filters. Additionally, filters can be defined on fields that have the following data types:
 
 - Options set
 - Multiselect options set
@@ -39,14 +39,14 @@ You can set up the customization of knowledge article search filters by first en
 - Date and time
 
 
- Any filter configurations that you set will be available wherever the knowledge search experience is configured, such as, the form-based knowledge control, knowledge search page, productivity pane-based knowledge search control, embedded search control in Unified Service Desk, and the application tab search experience in Customer Service workspace.
+ Any filter configurations that you set will be available wherever the knowledge search experience is configured, such as the form-based knowledge control, knowledge search page, productivity pane-based knowledge search control, embedded search control in Unified Service Desk, and the application tab search experience in Customer Service workspace.
 
 If you enable the customization of the knowledge search filters, the web client and maker experience knowledge management filter experience are deactivated.
-In full text search, the archived and discarded status filters are not supported.
+In full-text search, the archived and discarded status filters are not supported.
 
 ## Enable search filters for knowledge articles
 
-You can enable search filters for your knowledge articles either on the Customer Service Hub or on Customer Service admin center (preview) app. Depending on your app, perform the following steps:
+You can enable search filters for your knowledge articles either on the Customer Service Hub or on the Customer Service admin center (preview) app. Depending on your app, perform the following steps:
 
 1. Go to the **Filters** section.
 
@@ -108,7 +108,7 @@ To configure custom fields as search filters for knowledge articles:
  * To view these articles in your Relevance Search results, you must delete the **Archived**, **Discarded**, **Expired**, and **Is Latest Version** filters in the **Quick Find Knowledge Article > Edit Filter Criteria** dialog.
 
 > [!NOTE]
-> These filters will work only if you have Relevance Search enabled.
+> These filters will only work if you have Relevance Search enabled.
 
 ## Add a default filter configuration
 
@@ -118,7 +118,7 @@ The following steps apply to these data types:
 - Two choices
 - Date and time
  
-You can add a default filter either on the Customer Service Hub or on Customer Service admin center (preview) app. Depending on your app, perform the following steps:
+You can add a default filter either on the Customer Service Hub or on the Customer Service admin center (preview) app. Depending on your app, perform the following steps:
 
 1. Go to the **Filters** page.
 
@@ -148,7 +148,7 @@ You can add a default filter either on the Customer Service Hub or on Customer S
 
 Some configurable filter values may include lookup types, where there are numerous value options that can be set. Some examples of these filters are Created by, Modified by, and Owner. For these types of values, when you add the filter, you can manually search for and select the records that you want to use.
 
-You can configure a lookup type filter either on the Customer Service Hub or on Customer Service admin center (preview) app. Depending on your app, perform the following steps:
+You can configure a lookup type filter either on the Customer Service Hub or on the Customer Service admin center (preview) app. Depending on your app, perform the following steps:
 
 1. Go to the **Filters** page.
 
@@ -184,7 +184,7 @@ There may be times when you want to temporarily suspend a filter configuration b
    > If you deactivate or delete all of the filters, then agents will see the following message on the personalization page: "No filters have been configured. Contact your administrator."
 
 Keep in mind the following:
-- If you delete a knowledge article field for which a filter has been created, your agents won't see the filter and they won't be notified about the change in the UI. You, as the administrator, will see the filter with a message indicating that it has been deleted.
+- If you delete a knowledge article field for which a filter has been created, your agents won't see the filter, and they won't be notified about the change in the UI. You, as the administrator, will see the filter with a message indicating that it has been deleted.
 
 - If you deactivate the filter, it will show as deactivated to you as the administrator, but your agents won't see the filter on the knowledge control. When the filter is activated again, the filter configuration will remain as it was previously configured.
 
@@ -194,7 +194,7 @@ Keep in mind the following:
 
 - If an agent sets default values, those values will persist and cannot be overwritten by changes made by an administrator.
  
-You can deactivate or reactivate a filter configuration either on the Customer Service Hub or on Customer Service admin center (preview) app. Depending on your app, perform the following steps:
+You can deactivate or reactivate a filter configuration either on the Customer Service Hub or on the Customer Service admin center (preview) app. Depending on your app, perform the following steps:
 
 1. Go to the **Filters** page.
 
@@ -221,7 +221,7 @@ You can deactivate or reactivate a filter configuration either on the Customer S
 
 You may have scenarios within your organization where agents are working on different areas and don’t all need the same filter settings. For example, an organization may have agents working on different product areas. One agent might need to see knowledge articles for Product A, while another agent might only want knowledge articles for Product B, and so forth. You can allow your agents to personalize the knowledge article search filters for their areas.
 
-You can allow agents to personalize their knowledge article search filters either on the Customer Service Hub or on Customer Service admin center (preview) app. Depending on your app, perform the following steps:
+You can allow agents to personalize their knowledge article search filters either on the Customer Service Hub or on the Customer Service admin center (preview) app. Depending on your app, perform the following steps:
 
 1. Go to the **Settings** page.
 
@@ -245,6 +245,6 @@ You can allow agents to personalize their knowledge article search filters eithe
 
 1. Select **Save**.
 
-Once you have the enabled the option to personalize the knowledge search filters for your agents, your agents will be able to view all the configurations that you have previously set for them.  
+Once you have enabled the option to personalize the knowledge search filters for your agents, your agents will be able to view all the configurations that you have previously set for them.  
 
 
