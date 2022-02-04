@@ -1,7 +1,7 @@
 ---
 title: Diagnostics for unified routing (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Learn how to set up routing diagnostics and understand the different stages of routing work items.
-ms.date: 02/04/2022
+ms.date: 02/07/2022
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
