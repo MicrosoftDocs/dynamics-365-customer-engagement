@@ -36,7 +36,7 @@ Make sure that you have the required security role or equivalent permissions.
 
     1. On the Customer Service admin center (preview) site map, select **Operations > Service Scheduling**.
     1.  In the **Organizational units** section, select **Manage**.
-        The **Active Organizational Unitst** view is displayed. You can switch between various system views using the drop-down list.  
+        The **Active Organizational Units** view is displayed. You can switch between various system views using the drop-down list.  
 
    ### [Customer Service Hub](#tab/customerservicehub)
 
