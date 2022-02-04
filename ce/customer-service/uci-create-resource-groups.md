@@ -23,17 +23,28 @@ Use resource groups to group users, facilities, and equipment as part of the sel
 
 ## Create a resource group
 
-Before you begin, make sure you have the Scheduler Manager role or equivalent permissions. 
+Before you begin, make sure you have the Scheduler Manager role or equivalent permissions.
 
-1. Navigate to **Customer Service Hub** > **Scheduling** tab.
+1. Navigate to either on the Customer Service Hub or on Customer Service admin center (preview) app. Depending on your app, perform the following steps:
 
-2. Select **Resource Group**.
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
-   ![Select Resource Group.](media/uci-resource-groups.png "Select Resource Group")
+   > [!IMPORTANT]
+   > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-3. Select **New**. 
+    1. On the Customer Service admin center (preview) site map, select **Operations > Service scheduling*.
+    1.  In the **Resource group** section, select **Manage**.
+        The **Local Resource Groups** view is displayed. You can switch between various system views using the drop-down list.  
 
-4. In the Resource Groups form, enter information in the following fields: 
+   ### [Customer Service Hub](#tab/customerservicehub)
+
+    1. On the Customer Service Hub site map, go to **Scheduling**.
+    1. From the list of entity records, select **Scheduling > Resource Groups**.
+       The **Local Resource Groups** view is displayed. You can switch between various system views using the drop-down list.
+
+2. Select **New**. 
+
+3. In the Resource Groups form, enter information in the following fields: 
 
     - **Name**: You must enter a name for the resource group. The application does not check that the name is unique.
 
@@ -43,26 +54,39 @@ Before you begin, make sure you have the Scheduler Manager role or equivalent pe
 
    ![New Resource Group.](media/uci-new-resource-group.png "Add details for a new resource group")
   
-5. Select **Save**.
+4. Select **Save**.
     After you save the record, **Resources** appears under **Common**. 
 
-6. Select **Resources**, and then on the **Actions** toolbar, select **Add Resources**. 
+5. Select **Resources**, and then on the **Actions** toolbar, select **Add Resources**. 
 
-7. In the **Look Up** dialog box, select the users, facilities/equipment, teams, or other resource groups to add to this resource group.
+6. In the **Look Up** dialog box, select the users, facilities/equipment, teams, or other resource groups to add to this resource group.
 
     Adding other resource groups to a resource group is a good way to manage large numbers of resources. For example, you could add the resource groups of "senior technicians" and "junior technicians" to a resource group of "technicians."
 
    ![Add Resources.](media/uci-add-resource.png "Add other resources to your Resource Group")
     
-8. Select **OK** to add the selected resources to the resource group.
+7. Select **OK** to add the selected resources to the resource group.
 
-9. Select **Save** or **Save and Close**.
+8. Select **Save** or **Save and Close**.
 
 ## Edit a resource group
 
-1. Navigate to **Customer Service Hub** > **Scheduling** tab.
+1. Navigate to either on the Customer Service Hub or on Customer Service admin center (preview) app. Depending on your app, perform the following steps:
 
-2. Select **Resource Group**.
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+
+   > [!IMPORTANT]
+   > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+    1. On the Customer Service admin center (preview) site map, select **Operations > Service scheduling*.
+    1.  In the **Resource group** section, select **Manage**.
+        The **Local Resource Groups** view is displayed. You can switch between various system views using the drop-down list.  
+
+   ### [Customer Service Hub](#tab/customerservicehub)
+
+    1. On the Customer Service Hub site map, go to **Scheduling**.
+    1. From the list of entity records, select **Scheduling > Resource Groups**.
+       The **Local Resource Groups** view is displayed. You can switch between various system views using the drop-down list.
 
 3. Open the resource group you want to change, and then in the **Resource Groups** form, change the information. 
 
