@@ -41,7 +41,7 @@ Admin settings for KA authoring language (Knowledge settings page)
 
 The ability to override follows the hierarchy order at the individual articles, agent or knowledge manager, and then administrator.
 
-You can set a default knowledge article authoring language for your organization either on the Customer Service Hub or on Customer Service admin center (preview) app. Depending on your app, perform the following steps:
+You can set a default knowledge article authoring language for your organization either on the Customer Service Hub or on the Customer Service admin center (preview) app. Depending on your app, perform the following steps:
 
 1. Go to the **Authoring language** section.
 
@@ -82,6 +82,6 @@ You can set a default knowledge article authoring language for your organization
    * Set the **Use organization’s UI language** toggle to **No**, and then select the language you want to use by searching for a language in the **Select a language** field.
 
 ---
-5.	Set the **Allow users to set default knowledge authoring language** toggle to **Yes** if you want to allow your users to set their own default authoring language.
+5.	Set the **Allow users to set default knowledge authoring language** toggle to **Yes** if you want to allow your users to set their default authoring language.
 
 6.	Select **Save**.
