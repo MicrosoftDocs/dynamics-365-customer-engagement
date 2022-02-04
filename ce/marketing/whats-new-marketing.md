@@ -37,7 +37,7 @@ The Dynamics 365 Marketing February 2021 update includes many new features and i
 
 | App              | GA release      |
 |------------------|-----------------|
-| Marketing        | 1.35.10080.2005 |
+| Marketing        | 1.35.10080.2009 |
 
 > [!Tip]
 > To check your current version number, go to **Settings** > **Overview** > **Versions**.
