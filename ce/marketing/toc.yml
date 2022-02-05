@@ -458,20 +458,14 @@
         href: linkedin-overview.md
       - name: LinkedIn Lead Gen integration
         href: LinkedIn-Lead-Gen-integration.md
-    - name: "Preview: Collaborate using built-in Microsoft Teams chat"
-      href: teams-chat.md
-    - name: Register link clicks and website visits
-      href: register-engagement.md
-    - name: Work with marketing calendars
-      href: marketing-calendar.md
-    - name: Go live with publishable entities and track their status
-      href: go-live.md
     - name: Performance analytics
       items: 
       - name: Analyze results to gain insights
         href: insights.md
       - name: Insights glossary
         href: insights-glossary.md
+      - name: Register link clicks and website visits
+        href: register-engagement.md
       - name: Prepare for analytic reporting with Power BI
         href: custom-analytics.md
       - name: Power BI report and template gallery
@@ -492,6 +486,12 @@
           href: marketing-analytics/analytics-gallery-reach.md
         - name: "Gallery: Marketing form submission report"
           href: marketing-analytics/analytics-gallery-forms.md
+    - name: "Preview: Collaborate using built-in Microsoft Teams chat"
+      href: teams-chat.md
+    - name: Work with marketing calendars
+      href: marketing-calendar.md
+    - name: Go live with publishable entities and track their status
+      href: go-live.md
   - name: Event planning and management
     items: 
     - name: Event management overview
