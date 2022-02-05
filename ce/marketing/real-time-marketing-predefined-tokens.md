@@ -1,6 +1,6 @@
 ---
 title: "Preview: Personalize emails using pre-defined tokens (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to personalize content in Dynamics 365 Marketing."
+description: "Learn how to personalize content using pre-defined tokens in Dynamics 365 Marketing."
 ms.date: 02/07/2022
 ms.service: dynamics-365-marketing
 ms.custom: 
