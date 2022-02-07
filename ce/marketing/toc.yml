@@ -212,7 +212,9 @@
           href: real-time-marketing-event-based-journey.md
         - name: Real-time marketing event triggers
           href: real-time-marketing-event-triggers.md
-        - name: Custom event triggers in real-time marketing
+        - name: "Preview: Trigger custom event actions"
+          href: real-time-marketing-custom-event-actions.md
+        - name: Create custom event triggers
           href: real-time-marketing-custom-events.md
       - name: Segment-based journeys
         items:
@@ -238,6 +240,8 @@
         items:
         - name: Personalize content
           href: real-time-marketing-personalization.md
+        - name: "Preview: Personalize content using pre-defined tokens"
+          href: real-time-marketing-predefined-tokens.md
       - name: Analytics
         items:
         - name: Access and interpret analytics
@@ -456,18 +460,14 @@
         href: linkedin-overview.md
       - name: LinkedIn Lead Gen integration
         href: LinkedIn-Lead-Gen-integration.md
-    - name: Register link clicks and website visits
-      href: register-engagement.md
-    - name: Work with marketing calendars
-      href: marketing-calendar.md
-    - name: Go live with publishable entities and track their status
-      href: go-live.md
     - name: Performance analytics
       items: 
       - name: Analyze results to gain insights
         href: insights.md
       - name: Insights glossary
         href: insights-glossary.md
+      - name: Register link clicks and website visits
+        href: register-engagement.md
       - name: Prepare for analytic reporting with Power BI
         href: custom-analytics.md
       - name: Power BI report and template gallery
@@ -488,6 +488,10 @@
           href: marketing-analytics/analytics-gallery-reach.md
         - name: "Gallery: Marketing form submission report"
           href: marketing-analytics/analytics-gallery-forms.md
+    - name: Work with marketing calendars
+      href: marketing-calendar.md
+    - name: Go live with publishable entities and track their status
+      href: go-live.md
   - name: Event planning and management
     items: 
     - name: Event management overview
