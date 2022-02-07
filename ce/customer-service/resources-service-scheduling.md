@@ -36,12 +36,14 @@ Make sure that you have the required security role or equivalent permissions.
 
     1. On the Customer Service admin center (preview) site map, select **Operations > Service scheduling**.
     2.  In the **Resources** section, select **Manage**.
+        
         The **Active Bookable Resources** view is displayed. You can switch between various system views using the drop-down list.  
 
    ### [Customer Service Hub](#tab/customerservicehub)
 
     1. On the Customer Service Hub site map, go to **Scheduling**.
     2. From the list of entity records, select **Scheduling > Resources**.
+       
        The **Active Bookable Resources** view is displayed. You can switch between various system views using the drop-down list.
      
 2. On the command bar, select **New** to create a new bookable resource. 
@@ -106,12 +108,14 @@ You can set work hours for the bookable resources where you can define when the 
 
     1. On the Customer Service admin center (preview) site map, select **Operations > Service scheduling**.
     2.  In the **Resources** section, select **Manage**.
-        The **Active Bookable Resources** view is displayed.  
+       
+       The **Active Bookable Resources** view is displayed.  
 
    ### [Customer Service Hub](#tab/customerservicehub)
 
     1. On the Customer Service Hub site map, go to **Scheduling**.
     2. From the list of entity records, select **Scheduling > Resources**.
+       
        The **Active Bookable Resources** view is displayed. 
   
 2.  Open the resource record you want to set work hours for.  
