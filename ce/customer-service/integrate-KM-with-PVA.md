@@ -1,7 +1,7 @@
 ---
 title: Integrate knowledge management with Power Virtual Agents bot | MicrosoftDocs
 description: Learn about the integration of knowledge management with a Power Virtual Agents bot.
-ms.date: 01/27/2022
+ms.date: 02/07/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -92,13 +92,19 @@ You must create a topic with two question nodes for search text and filter. For 
    
 1. After the topic is configured, replace the **Search knowledge article flow** with the **Search knowledge articles** dialog.
 
-    :::image type="content" source="media/final_search_ka_dialog.png" alt-text="Replace with search knowledge articles dialog"::: 
+    :::image type="content" source="media/final_search_ka_dialog.png" alt-text="Replace with search knowledge articles dialog":::
 
-2. Remove the filter question node.
- - If you don’t want to use the filter value, you must call the Search knowledge articles action and provide the search text to search for externally published articles. 
- - If you want to use a filter, configure the filter using knowledge article entity attributes. More information: [knowledgearticle EntityType](/customer-engagement/web-api/knowledgearticle?view=dynamics-ce-odata-9). To write a Dataverse search query using filters, see [Search for tables and rows by using Dataverse search](/powerapps/user/relevance-search).
- 
+2. Remove the filter question node. More information on filters, see [Working with filters](#working-with-filters).
+
 3. Update the message node with the output from the extended topic and select **Save**.
+
+#### Working with filters
+- By default, the search is performed on the external published articles (**statecode eq 3** and **isinternal eq false**). If you need to perform additional filtering, move the desired filter query to the Filter (text) input variable.
+- To check which filters you can use and the attributes of the knowledge article entity, see [knowledgearticle EntityType](/customer-engagement/web-api/knowledgearticle?view=dynamics-ce-odata-9).
+- To write a dataverse search query using filters, see [Working with operators](/powerapps/user/relevance-search#working-with-operators).
+- To see filter conditions that aren't supported by Dataverse search, see [Configure Dataverse search to improve search results and performance](/power-platform/admin/configure-relevance-search-organization) .
+- To filter on a string attribute like keywords, append the string value to the search text.
+
   
 ## Use the Power Automate flow template
 
