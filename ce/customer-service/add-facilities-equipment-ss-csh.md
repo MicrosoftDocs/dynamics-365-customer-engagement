@@ -65,8 +65,6 @@ Make sure that you have the required security role or equivalent permissions.
   
 4.  When you’re done, select **Save** or **Save and Close**.  
 
-    ![facility and equipment.](media/facility-equipment-csh-ss.png)
-
 
 ### See also
 
