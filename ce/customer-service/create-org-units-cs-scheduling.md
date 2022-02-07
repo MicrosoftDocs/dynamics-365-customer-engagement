@@ -35,13 +35,13 @@ Make sure that you have the required security role or equivalent permissions.
    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
     1. On the Customer Service admin center (preview) site map, select **Operations > Service Scheduling**.
-    1.  In the **Organizational units** section, select **Manage**.
+    1.  In the **Organizational units** section, select **Manage**.                                                                         
         The **Active Organizational Units** view is displayed. You can switch between various system views using the drop-down list.  
 
    ### [Customer Service Hub](#tab/customerservicehub)
 
     1. On the Customer Service Hub site map, go to **Scheduling**.
-    1. From the list of entity records, select **Settings > Organizational units**.
+    1. From the list of entity records, select **Settings > Organizational units**.                                                              
        The **Active Organizational Units** view is displayed. You can switch between various system views using the drop-down list.  
      
  2. On the command bar, select **New** to create a new organizational unit.
