@@ -12,6 +12,13 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 1
+searchScope: 
+  - D365-App-msdynce_saleshub
+  - D365-Entity-msdyn_suggestedcontact
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
+  - Customer Engagement
 ---
 # Preview: Premium auto capture   
 
