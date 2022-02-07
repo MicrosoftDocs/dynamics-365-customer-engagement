@@ -33,7 +33,7 @@ Auto-save helps people focus on their work without having to manage saving data 
   
  You can click this button to save the record and refresh data in the form immediately. When  auto-save is enabled the record will be saved whenever you navigate away from a record or close a separate window displaying a record. There is no need for the **Save & Close** button that appears in forms for entities that aren’t updated.
    > [!IMPORTANT]
-   >  In the Unified Interface, the auto-save interval for a page will increase if there is an error during auto-save. Also, if an attribute value is changed or there is a successful save, the interval will reset to 30 seconds.
+   >  In Unified Interface, the auto-save interval for a page will increase if there is an error during auto-save. Also, if an attribute value is changed or there is a successful save, the interval will reset to 30 seconds.
   
 <a name="BKMK_AutoSave"></a>   
 ## Should you disable auto-save?  
