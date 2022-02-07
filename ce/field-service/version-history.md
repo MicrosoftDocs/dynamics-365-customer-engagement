@@ -59,13 +59,13 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 This release is a hotfix on Field Service version [8.8.59.22](/dynamics365/field-service/version-history#885922).
 
-- Fixed a bug in Field Service (D365) mobile to correctly adjust times shown in the Booking Calendar Control for Daylight Savings time.
+- Fixed a bug in Field Service (Dynamics 365) mobile to correctly adjust times shown in the booking calendar control for daylight saving time.
 
 ## 8.8.59.22
 
 (Includes Universal Resource Scheduling version [3.12.70.3](/dynamics365/field-service/field-service-version-history-resource-scheduling#312703)).
 
-- Fixed a bug in Field Service (Dynamics 365) mobile where Quick Notes component will now respect maximum character length as defined in msdyn_text.
+- Fixed a bug in Field Service (Dynamics 365) mobile where quick notes component will now respect maximum character length as defined in `msdyn_text`.
 
 ## 8.8.58.9
 
