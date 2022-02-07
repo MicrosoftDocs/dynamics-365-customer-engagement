@@ -238,7 +238,7 @@
         items:
         - name: Personalize content
           href: real-time-marketing-personalization.md
-        - name: "Preview: Personalize emails using pre-defined tokens"
+        - name: "Preview: Personalize content using pre-defined tokens"
           href: real-time-marketing-predefined-tokens.md
       - name: Analytics
         items:

@@ -1,5 +1,5 @@
 ---
-title: "Preview: Personalize emails using pre-defined tokens (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Preview: Personalize content using pre-defined tokens (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to personalize content using pre-defined tokens in Dynamics 365 Marketing."
 ms.date: 02/07/2022
 ms.service: dynamics-365-marketing
@@ -18,7 +18,7 @@ search.app:
   - D365Mktg
 ---
 
-# Preview: Personalize emails using pre-defined tokens
+# Preview: Personalize content using pre-defined tokens
 
 > [!IMPORTANT]
 > A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
