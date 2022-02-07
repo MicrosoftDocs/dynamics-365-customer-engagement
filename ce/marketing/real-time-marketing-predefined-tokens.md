@@ -25,7 +25,7 @@ search.app:
 > 
 > Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
 
-Personalized messages help marketers drive engagement. A common way to personalize content is to use dynamic text (also known as placeholder text or tokens) that is automatically replaced with recipients' personal details when the message is sent. For example, rather than using a generic greeting like “Dear customer,” you can use dynamic text (“Dear ``{{FirstName}}``) that is replaced with the customer name (“Dear John”) upon sending the message.
+Personalized messages help marketers drive engagement. A common way to personalize content is to use dynamic text (also known as placeholder text or tokens) that is automatically replaced with recipients' personal details when the message is sent. For example, rather than using a generic greeting like “Dear customer,” you can use dynamic text (“Dear ``{{FirstName}}``”) that is replaced with the customer name (“Dear John”) upon sending the message.
 
 An instance of placeholder text such as ``{{Firstname}}`` is called a token. Before you can use tokens, you need to define three pieces of information:
 
