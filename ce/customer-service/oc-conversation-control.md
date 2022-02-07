@@ -80,7 +80,7 @@ You can consult with other agents or supervisors using the consult option. You c
 
 The following events occur when you select the **Consult** button:
 
-1. The agent can search for agents to consult with in the same queue or other queues, select and invite an agent, and then start a consultation.
+1. The agent can search for agents to consult within the same queue or other queues, select and invite an agent, and then start a consultation.
 
 1. The secondary agent will receive a notification for the consult request.
 
@@ -98,7 +98,7 @@ The following events occur when you select the **Consult** button:
 
 Additionally, the following considerations apply:
 
-- You can use the UI buttons to collapse and expand the consult pane. When the primary agent selects the option to take notes, the consult pane will be in collapse mode.
+- You can use the UI buttons to collapse and expand the consult pane. When the primary agent selects the option to take notes, the consult pane will be in collapsed mode.
 - The primary agent can end the consult or the secondary agent can leave, after which, the secondary agent won't be able to view the interaction between the primary agent and customer.
 
 You can also use a keyboard command to see the list of agents and or supervisors who are available for consultation. Type the forward slash (/) key and the letter c (**/c**). Type forward slash and the letters cq (**/cq**) to view the list of queues.
