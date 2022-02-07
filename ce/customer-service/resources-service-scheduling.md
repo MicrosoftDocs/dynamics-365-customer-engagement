@@ -77,9 +77,6 @@ Make sure that you have the required security role or equivalent permissions.
 
     - In the **Resource Categories** section, select the ellipses  (**...**) and then select **Add New Bookable Resource Category** to add a category.
 
-     ![bookable resources.](media/bookable-resource-csh.png)
-
-
 4. In the **Scheduling** section:
 
     - Select the **Start Location** and the **End Location** to specify which location the resource will be at, when starting and ending work.
@@ -90,8 +87,6 @@ Make sure that you have the required security role or equivalent permissions.
 
     - Select whether the resource should be displayed on the schedule board in the **Display On Schedule Board** box.
     - Select whether you want to enable the resource for availability search in the **Enable for Availability Search** box.
-
-    ![service-resources-scheduling.](media/service-resources-scheduling-section.png)
 
 5. Once you are ready, select **Save**.
 
