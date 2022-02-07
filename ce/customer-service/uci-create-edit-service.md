@@ -38,14 +38,16 @@ A service requires at least one selection rule and one or more resources, resour
    > [!IMPORTANT]
    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-    1. On the Customer Service admin center (preview) site map, select **Operations > Service scheduling*.
+    1. On the Customer Service admin center (preview) site map, select **Operations > Service scheduling**.
     1.  In the **Service** section, select **Manage**.
+        
         The **Active Services** view is displayed. You can switch between various system views using the drop-down list.  
 
    ### [Customer Service Hub](#tab/customerservicehub)
 
     1. On the Customer Service Hub site map, go to **Scheduling**.
     1. From the list of entity records, select **Scheduling > Services**.
+       
        The **Active Services** view is displayed. You can switch between various system views using the drop-down list.
     
 3. Do one of the following:
