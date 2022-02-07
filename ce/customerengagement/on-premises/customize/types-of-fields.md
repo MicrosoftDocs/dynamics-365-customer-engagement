@@ -146,7 +146,7 @@ More information: [!INCLUDE[proc_more_information](../includes/proc-more-informa
 
   When you configure a currency field you can choose the precision value. There are essentially three options as shown in the following table.
   > [!NOTE]
-> In the Unified Interface the currency format for a negative value is set by the user settings and does not use the system setting.
+> In Unified Interface, the currency format for a negative value is set by the user settings and does not use the system setting.
 
 |Option|Description|  
 |------------|-----------------|  
