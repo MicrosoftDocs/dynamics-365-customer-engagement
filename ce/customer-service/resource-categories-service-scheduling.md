@@ -38,12 +38,14 @@ Make sure that you have the required security role or equivalent permissions.
 
     1. On the Customer Service admin center (preview) site map, select **Operations > Service Scheduling**.
     2.  In the **Resource categories** section, select **Manage**.
+        
         The **Active Resource Categories** view is displayed. You can switch between various system views using the drop-down list.  
 
    ### [Customer Service Hub](#tab/customerservicehub)
 
     1. On the Customer Service Hub site map, go to **Scheduling**.
     2. From the list of entity records, select **Scheduling > Resource categories**.
+       
        The **Active Resource Categories** view is displayed. You can switch between various system views using the drop-down list.
 
 2. On the command bar, select **New** to create a new bookable resource category. 
@@ -54,8 +56,6 @@ Make sure that you have the required security role or equivalent permissions.
 4. Select **Save**. A new resource category is created and is activated by default. 
 
 5. In the **Related** section, you can view and manage various resource category associations.
-
-   ![resource categories.](media/resource-categories.png)
 
 Similarly, you can create a new requirement resource category for requirements.
 
