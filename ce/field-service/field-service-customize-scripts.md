@@ -57,7 +57,7 @@ Before writing a custom script, try to accomplish your requirement with platform
 
 View the following topic to understand [when to use plugins or workflows](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/best-practices-sdk?view=op-9-1#when-to-use-plug-ins-vs-workflow).
 
-## Step 4: Review best practices before writings plugins or scripts
+## Step 4: Review best practices before writing plugins or scripts
 
 Many best practices have been established from experience with developers across thousands of Dynamics 365 implementations. Review best practices listed below before and during writing plugins or scripts. 
 

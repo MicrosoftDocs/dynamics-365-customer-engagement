@@ -77,7 +77,7 @@ Optional fields can be made required, but required fields cannot be made optiona
 > [!Note]
 > **Do not edit field properties!** It is highly recommended to not edit the properties of existing fields. 
 
-As an example, editing fields in the following ways is unsupported and can cause errors and issues when upgrading.
+As an example, editing fields in the following ways is unsupported and can cause issues when upgrading.
 
 - Changing field types - As an example you should not change the type of a field from _Date Only_ to _Date and Time_, or change a _Whole Number_ field to a _Decimal_  
 - Removing choice options

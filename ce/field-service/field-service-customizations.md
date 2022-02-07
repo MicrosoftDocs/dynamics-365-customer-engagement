@@ -18,11 +18,11 @@ search.app:
 - D365FS
 ---
 
-# Customize Dynamics 365 Field Service for your unique business needs
+# Configure Dynamics 365 Field Service for your unique business needs
 
-Administrators can customize Field Service to accommodate their unique business needs. Common examples include adding and removing fields from the work order form, writing workflows and JavaScript to autopopulate data, changing how the schedule board looks, and editing the web and mobile table site maps. 
+Administrators can configure Field Service to accommodate their unique business needs.
 
-Find documentation to perform common customizations in the following table:
+Find documentation to perform common configurations in the following table:
 
 
 | Area | Documentation |
