@@ -36,7 +36,7 @@ Make sure that you have the required security role or equivalent permissions.
     1. On the Customer Service admin center (preview) site map, select **Operations > Business closure**.
     1.  In the **Business closure** section, select **Manage**.
        
-       The **Business Closures** view is displayed. You can switch between various system views using the drop-down list.  
+      The **Business Closures** view is displayed. You can switch between various system views using the drop-down list.  
 
    ### [Customer Service Hub](#tab/customerservicehub)
 
