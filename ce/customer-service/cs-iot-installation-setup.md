@@ -152,8 +152,25 @@ Next, deploy and connect Azure IoTHub to your Customer Service environment by go
  You can also manage devices by categorizing them. For example, you can categorize devices by the commands they support, the type of device, or by devices that break down more often.  
   
 ### Create a new IoT device category  
-  
-1.  From the main menu, click **Internet of Things** > **Device Categories**.  
+
+1. Navigate to either on the Customer Service Hub or on Customer Service admin center (preview) app. Depending on your app, perform the following steps:
+
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+
+   > [!IMPORTANT]
+   > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+    1. On the Customer Service admin center (preview) site map, select **Operations > Miscellaneous**.
+    1.  In the **Device Categories** section, select **Manage**.
+       
+       The **Active IoT Device Categories** view is displayed. You can switch between various system views using the drop-down list.  
+
+   ### [Customer Service Hub](#tab/customerservicehub)
+
+    1. On the Customer Service Hub site map, go to **Service Management**.
+    1. From the list of entity records, select **IoT > Device Categories**.
+       
+       The **Active IoT Device Categories** view is displayed. You can switch between various system views using the drop-down list.
   
 2.  On the command bar, click **New**.  
   
