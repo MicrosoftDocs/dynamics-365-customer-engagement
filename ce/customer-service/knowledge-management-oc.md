@@ -3,8 +3,8 @@ title: "Share knowledge articles in the Omnichannel for Customer Service | Micro
 description: "Perform the steps provided in the topic to learn how to share knowledge articles in Omnichannel for Customer Service."
 ms.date: 10/09/2020
 ms.topic: article
-author: platkat
-ms.author: ktaylor
+author: Soumyasd27
+ms.author: sdas
 manager: shujoshi
 ms.reviewer: nenellim
 ---
