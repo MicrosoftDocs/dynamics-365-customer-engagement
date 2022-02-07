@@ -117,7 +117,7 @@ https://myorg.crm.dynamics.com/main.aspx?etn=contact&pagetype=entitylist&viewid=
  To display a list of entity records within the application for a SubArea set the Entity attribute value. This displays the default view for that entity and provides the correct title and icon.  
 
 
- However, if you want to have a SubArea element that uses a specific initial default view, use the following Url pattern when working with the Unified Interface.
+ However, if you want to have a SubArea element that uses a specific initial default view, use the following URL pattern when working with Unified Interface.
 
 ```
 [Organization Url]/main.aspx?pagetype=entitylist&etn=<entity logical name >&viewid=%7b00000000-0000-0000-0000-000000000000%7d&viewType=1039
