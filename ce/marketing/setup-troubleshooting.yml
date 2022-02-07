@@ -267,11 +267,11 @@ sections:
       - question: |
           Why can't I see my Dynamics 365 Marketing results in other Dynamics 365 apps?
         answer: |
-          Dynamics 365 Marketing is built to run exclusively on the new Unified Interface for Dynamics 365 applications. Many Dynamics 365 applications support both the new Unified Interface and the older web-client interface, but nearly all are moving to the Unified Interface.
+          Dynamics 365 Marketing is built to run exclusively on the new Unified Interface for Dynamics 365 applications. Many Dynamics 365 applications support both the new Unified Interface and the older legacy web client interface, but nearly all are moving to Unified Interface.
           
-          Marketing typically shares data with other Dynamics 365 applications running on the same instance, and operates on many of the same database entities, including contacts, leads, accounts, and more. Some Marketing-specific features, such as displays of analytics and insights from marketing initiatives, require the Unified Interface and therefore won't show any data when you view those entities in web-client apps.
+          Marketing typically shares data with other Dynamics 365 applications running on the same instance, and operates on many of the same database entities, including contacts, leads, accounts, and more. Some Marketing-specific features, such as displays of analytics and insights from marketing initiatives, require Unified Interface and therefore won't show any data when you view those entities in legacy web client apps.
           
-          Also, some administration and customization features, and some integrated user features, may require you to switch to a web-client app from time to time, but soon all features are expected to be available on the Unified Interface.
+          Also, some administration and customization features, and some integrated user features, may require you to switch to a legacy web client app from time to time, but soon all features are expected to be available on Unified Interface.
           
           More information: [About Unified Interface for model-driven apps in Power Apps](/power-platform/admin/about-unified-interface) and [Find your way around Marketing](navigation.md)
           
