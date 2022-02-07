@@ -38,8 +38,9 @@ Relationship analytics provides graphical representation of KPIs and activity hi
     
     The application takes few seconds to enable relationship analytics for your organization. After relationship analytics is enabled, you can configure the parameters as required.    
 
-    <a name="configure-similar-opportunities-preview"></a>By default, the data sources and view similar opportunities options are enabled. You can view the **Relationship analytics with modern design and similar opportunities** section for more information.    
-    The enhanced experience is available by default for contacts, opportunities, leads, and accounts. Users in your organization can see an improved relationship analytics tab for opportunities. The tab displays customer interaction KPIs along with suggestions calculated from similar won opportunities through AI-driven models.  
+    By default, the data sources and view similar opportunities options are enabled. 
+
+    The modern design experience is available by default for contacts, opportunities, leads, and accounts. Users in your organization can see an improved relationship analytics tab for opportunities. The tab displays customer interaction KPIs along with suggestions calculated from similar won opportunities through AI-driven models.  
 
     > [!div class="mx-imgBorder"]
     > ![Enable to view similar opportunities](media/relationship-analytics-enable-preview-similar-opportunities.png "Enable to view similar opportunities") 

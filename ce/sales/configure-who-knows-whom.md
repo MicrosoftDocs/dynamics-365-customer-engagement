@@ -55,6 +55,8 @@ The Who knows whom feature helps users to quickly identify colleagues within the
     By default, the who knows whom introduction emails template is selected. The following screenshot shows an example introduction email:
 
     :::image type="content" source="media/wkw_mail_to_introduction.png" alt-text="Screenshot of an example introduction email":::
+    > [!NOTE]
+    > For instructions on creating a new email template, go to [Create email templates](/powerapps/user/email-template-create) 
 
 6. Select **Save**.
 
