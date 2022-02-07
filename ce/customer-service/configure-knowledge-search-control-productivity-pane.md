@@ -65,8 +65,7 @@ You can add record types from the Customer Service Hub or the Customer Service a
 
 You can also configure a record type from the **Add record type** dialog. Changes that you make to the default settings of a record type will  be available to you from the **Set up Knowledge settings on the app side pane** dialog when you configure the knowledge search control on the app side pane.
 
-
-    :::image type="content" source="media/add-ent-record.png" alt-text="Add an entity record for which you want to turn on knowledge management":::
+:::image type="content" source="media/add-ent-record.png" alt-text="Add an entity record for which you wnat to turn on knowledge management":::
 
 ---
 
