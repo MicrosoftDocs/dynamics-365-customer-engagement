@@ -65,7 +65,7 @@ Intake ➡ Classification ➡ Route to queue ➡ Assignment
 
 ### Summary
 
-You can select a work item on the **Routing diagnostics** page to view the detailed information, such as when the work item was created, its current stage, and the duration of each stage. You can also select and open the work item to see the associated case. If the work item is not assigned or no rule item meets the criteria of the work item, error messages are displayed. You can select the stage to see further details of the error.
+You can select a work item on the **Routing diagnostics** page to view the detailed information, such as when the work item was created, its current stage, and the duration of each stage. You can also select and open the work item to see the associated case. If the work item is not assigned or no rule item meets the criteria of the work item, error messages are displayed. You can select any of the stages to see further details and diagnose the issues.
 
 :::image type="content" source="media/routing-diagnostics-summary.png" alt-text="Summary view of a routed work item.":::
 
@@ -112,19 +112,22 @@ The following stages are available:
 - **Prioritization**: Lists the prioritization rule that was applied if any. Work items are routed according to their priority. For more information, see : [Configure assignment methods and rules for queues](configure-assignment-rules.md)
 - **Assignment selection**: Displays information about the conditions that determined in selecting an agent. If more than one assignment rule set exists, selection criteria defines the order in which the rule sets are to be evaluated. The assignment selection criteria determines the rule set that has the closest match and the rule that should be run out of the many rules.
 - **Assignment ruleset**: Displays information about the rule sets that were processed.
-- **Agent assignment trace**: Provides information that was used to determine and match the work item with the agent:
+- **Agent assignment trace**: Provides details about the assignment criteria and assignment trace:
  
   - **Assignment criteria**:
-      - **Assignment method**: Displays "Highest" or "Round robin".
+      - **Assignment method**: Displays "Highest", "Round robin", or "custom".
       - **Capacity**: Displays the capacity information.
       - **Presence**: Displays the presence used.
       - **Skills**: Displays the skills that were matched if any.
-  - **Assignment trace**:
+  - **Assignment trace**: 
       - **Current status**: Displays the status of the work item, such as whether an agent has been identified.
       - **Status reason**: Displays the associated reason of the status.
       - **Assigned to**: Displays the agent to whom the work item is assigned if any.
       - **Total attempts**: Displays the number of attempts that were required to assign the agent if any.
       - **Last attempt at**: Displays the date and time of the last attempt for assigning the work item was made.
+
+  > [!NOTE]
+  > Assignment trace provides details only if highest or round robin assignment methods have been used.
 
     :::image type="content" source="media/agent-assignment-trace.png" alt-text="Information about assignment trace.":::
 
