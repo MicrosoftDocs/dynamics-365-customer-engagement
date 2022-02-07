@@ -1,7 +1,7 @@
 ---
 title: Understand Knowledge Management in Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: Understand Knowledge Management in Customer Service Hub for Customer Service Dynamics 365 Customer Service
-ms.date: 02/02/2022
+ms.date: 02/07/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -533,13 +533,13 @@ After you have published a translation for an article, you can manage it and any
 ## Schedule or publish an article  
 
 After the content in the article is complete and reviewed, you can publish the article to the portal to make it available to your customers. You can publish the article immediately or schedule it for a later time. 
+
+Ensure that you have the Publish and Update permissions on the Knowledge Article record type. These permissions are added by default to the roles of knowledge manager, customer service manager, customer service representative, or system administrator.  
   
 > [!IMPORTANT]
 >  If your organization is using a portal to publish the knowledge articles, your customizer can write a plug-in that can pick the published articles and post on your portal, and also report the article views back.  
   
-Ensure that you have the Publish and Update permissions on the Knowledge Article record type. These permissions are added by default to the roles of knowledge manager, customer service manager, customer service representative, or system administrator.
-
-You will also need the Publish permission on the Knowledge Article record type, if you need to revert a published article to the draft state.
+You will also need the Publish permission on the Knowledge Article record type, if you want to change the state of a published article.
   
 1.  In the Customer Service Hub, go to **Service** > **Knowledge Articles**.  
   
