@@ -35,13 +35,15 @@ Make sure that you have the required security role or equivalent permissions.
 
     1. On the Customer Service admin center (preview) site map, select **Operations > Business closure**.
     1.  In the **Business closure** section, select **Manage**.
-        The **Business Closures** view is displayed. You can switch between various system views using the drop-down list.  
+       
+       The **Business Closures** view is displayed. You can switch between various system views using the drop-down list.  
 
    ### [Customer Service Hub](#tab/customerservicehub)
 
     1. On the Customer Service Hub site map, go to **Scheduling**.
     1. From the list of entity records, select **Settings > Organizational units**.
-       The **Business Closures** view is displayed. You can switch between various system views using the drop-down list.
+      
+      The **Business Closures** view is displayed. You can switch between various system views using the drop-down list.
        Select any existing record to see additional options in the command bar.
 
 2. On the command bar, select **New** to schedule a new business closure. </br>
