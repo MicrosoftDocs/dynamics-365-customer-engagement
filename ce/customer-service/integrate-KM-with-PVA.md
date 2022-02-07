@@ -99,7 +99,7 @@ You must create a topic with two question nodes for search text and filter. For 
 3. Update the message node with the output from the extended topic and select **Save**.
 
 #### Working with filters
-- By default, the search is performed on the external published articles (**statecode eq 3** and **isinternal eq false**). If you need to perform additional filtering, move the desired filter query to the Filter (text) input variable.
+- By default, the search is performed on the external published articles (**statecode eq 3** and **isinternal eq false**). If you need to perform additional filtering, you can set the desired filter query as the Filter (text) input variable.
 - To check which filters you can use and the attributes of the knowledge article entity, see [knowledgearticle EntityType](/customer-engagement/web-api/knowledgearticle?view=dynamics-ce-odata-9).
 - To write a dataverse search query using filters, see [Working with operators](/powerapps/user/relevance-search#working-with-operators).
 - To see filter conditions that aren't supported by Dataverse search, see [Configure Dataverse search to improve search results and performance](/power-platform/admin/configure-relevance-search-organization) .
