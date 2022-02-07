@@ -25,7 +25,7 @@ search.app:
 > 
 > Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
 
-Creating great marketing content and journeys is a team effort. With Microsoft Teams chat, you can easily collaborate with your team without leaving the journey canvas or email editing experience. For example, as you create an email you can tag someone to review your content. Or, while creating a journey, you can collaborate with a coworker on which data to use in a branch. This gives you the added benefit of seeing feedback over time and referring to comments people made.
+Creating great marketing content and journeys is a team effort. With Microsoft Teams chat, you can collaborate with your team without leaving the journey canvas or email editor. For example, after you create an email, you can tag someone to review your content. Or, while creating a journey, you can collaborate with a coworker on which data to use in a branch. This gives you the added benefit of seeing feedback over time and referring to comments people made.
 
 You can do the following Teams collaboration activities from Dynamics 365 Marketing:
 
@@ -157,4 +157,4 @@ Your administrator can extend the list of supported record types if needed. To d
 1. Scroll down to the “Link chats to Dynamics 365 records” section
 1. Select “+Add Record Types”
 1. Choose record type
-1. Save
+1. Select **Save**.

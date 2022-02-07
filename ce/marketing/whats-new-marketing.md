@@ -52,6 +52,7 @@ The Dynamics 365 Marketing February 2021 update includes many new features and i
 - **Collaborate across your organization to create the best marketing campaigns possible using the built-in Microsoft Teams chat**
     - With Microsoft Teams chat, you can easily collaborate with your team without leaving the journey canvas or email editing experience.
     - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/collaborate-across-organization-create-best-marketing-campaigns-possible-using-built-teams-chat)
+    - [Docs](teams-chat.md)
 - **Quickly personalize emails using predefined dynamic text, without the need to know the underlying data structure**
     - With predefined dynamic text, marketers will have a quick list of the most commonly used tokens to select from. Marketers familiar with the data model can create and share additional tokens so that the rest of the team can focus on authoring content rather than learning database concepts.
     - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/quickly-personalize-emails-using-predefined-dynamic-text-without-need-know-underlying-data-structure)
