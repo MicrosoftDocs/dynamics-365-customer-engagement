@@ -20,10 +20,8 @@ ms.custom:
 
 Unified routing helps you assign a work item to the agent or queue who's best suited to handle it, based on the agent's skills and the records that are related to the work item. Routing diagnostics provides visibility into work item classification and assignment events when using unified routing.
 
-Your supervisors can access the routing diagnostics for records and conversations that are handled through unified routing. For your supervisors to be able to access the diagnostics for records, such as cases, you must grant them the CSR Manager role. For them to be able to access the diagnostics for conversations, you must ensure that they have the Omnichannel supervisor role.
-
 > [!Important]
-> If you do not want your supervisors to access the diagnostics for unified routing, ensure that you don't grant them the CSR Manager or Omnichannel supervisor role.
+> We recommend that you grant your supervisors access to routing diagnostics based on your organization's needs and business requirements.
 
 ## Enable routing diagnostics
 
@@ -46,12 +44,11 @@ To see data related to work items and their status, you need to enable routing d
 > [!NOTE]
 > After you enable diagnostics, the data will be stored in Microsoft Dataverse. This might impact your storage capacity. Select **Turn off diagnostics** to disable diagnostics.
 
-
 ## Understand routing stages and diagnostics
 
 The **Routing diagnostics** page displays a list of work items with details and the stage each work item is in. The following table displays the information to help you understand routing diagnostics.
 
-- **Work item**: The name of the work item.Work items can be searched and sorted by selecting the dropdown next to the work item column.
+- **Work item**: The name of the work item. Work items can be searched and sorted by selecting the dropdown next to the work item column.
 - **Routing status**: The stage the work item is in.
 - **Routing started on**: The date and time when the routing began.
 - **Routing duration**: The amount of time the work item has been in its current stage.
