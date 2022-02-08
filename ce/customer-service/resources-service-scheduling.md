@@ -98,7 +98,7 @@ Make sure that you have the required security role or equivalent permissions.
 
 You can set work hours for the bookable resources where you can define when the resources will be available to be booked for services. 
 
-1. Navigate to either on the Customer Service Hub or on Customer Service admin center (preview) app. Depending on your app, perform the following steps:
+1. Navigate to either the Customer Service Hub or Customer Service admin center (preview) app. Depending on your app, perform the following steps:
 
    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
@@ -115,7 +115,7 @@ You can set work hours for the bookable resources where you can define when the 
     1. On the Customer Service Hub site map, go to **Scheduling**.
     2. From the list of entity records, select **Scheduling > Resources**.
        
-       The **Active Bookable Resources** view is displayed. 
+      The **Active Bookable Resources** view is displayed. 
   
 2.  Open the resource record you want to set work hours for.  
   
