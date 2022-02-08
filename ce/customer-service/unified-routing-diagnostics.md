@@ -127,7 +127,7 @@ The following stages are available:
       - **Last attempt at**: Displays the date and time of the last attempt for assigning the work item was made.
 
   > [!NOTE]
-  > Assignment trace provides details only if highest or round robin assignment methods have been used.
+  > Assignment trace provides details only if the highest capacity or round robin assignment method has been used.
 
     :::image type="content" source="media/agent-assignment-trace.png" alt-text="Information about assignment trace.":::
 
