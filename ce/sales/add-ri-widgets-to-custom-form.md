@@ -20,7 +20,7 @@ By default, the health score widget and who knows whom widget are available only
 | **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-## Add the widgets to a custom form
+## Add widgets to a custom form
 
 To add the health score widget or who knows whom widget to your custom form, follow these steps:
 

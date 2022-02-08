@@ -265,7 +265,7 @@ KPIs are updated every 24 hours, potentially fewer.​
 ### What are the signals in relationship health?​
 Relationship health looks at activity, recency, engagement, and sentiment of activities between sellers and customers.​   
 
-### Can I influence relationship health score?​   
+### Can I influence the relationship health score?​   
 An administrator can influence the relationship health score by changing the weight of activity types and the expected level of communications with customers.
 
 ### How are similar won deals identified? <a name="similar-won-deals-fields"></a>  
