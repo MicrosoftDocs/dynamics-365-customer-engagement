@@ -25,27 +25,30 @@ search.app:
 > 
 > Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
 
-Creating great marketing content and journeys is a team effort. With Microsoft Teams chat, you can collaborate with your team without leaving the journey canvas or email editor. For example, after you create an email, you can tag someone to review your content. Or, while creating a journey, you can collaborate with a coworker on which data to use in a branch. This gives you the added benefit of seeing feedback over time and referring to comments people made.
+Creating great marketing content and journeys is a team effort. With Microsoft Teams chat, you can collaborate with your team without leaving the journey canvas or the email editor. For example, after you create an email, you can tag someone to review your content. Or, while creating a journey, you can collaborate with a coworker to decide which data to use in a branch. This gives you the added benefit of seeing feedback over time and being able to refer to previous comments people made.
 
-You can do the following Teams collaboration activities from Dynamics 365 Marketing:
+Dynamics 365 Marketing supports the following Teams collaboration activities:
 
-- **Start a new linked chat conversation**: The chat gets automatically linked to the record. This functionality is available by default for the following content and customer journey records:
-    - Outbound marketing
+- **Start a new linked chat conversation**: The chat is automatically linked to the record. This functionality is available by default for the following content and customer journey records:
+
+    **Outbound marketing**
         - Customer journey
         - Email
         - Social post
         - Marketing page
-    - Real-time marketing
+    **Real-time marketing**
         - Customer journey
         - Email
         - SMS
         - Push notification
+
     > [!NOTE]
-    > Your administrator can extend this list in the Teams Chat settings page, [see how]().
+    > Your administrator can extend this list in the [Teams chat settings page](teams-chat.md#settings).
+
 -	**Add users to an existing linked chat**: The chat appears as a linked chat for all the users involved in the conversation.
 -	**Link an existing chat to a record**: The entire chat conversation will be visible to all the users who are part of the linked chat.
 -	**Access all your recent Dynamics 365 chats**: The list pages, such as the opportunities list page, display all of your recent chats that are linked to Dynamics 365 records.
--	**Access all your recent chats**: Your top 200 Teams chat conversations are listed on the list and record pages.
+-	**Access all your recent chats**: Your top 200 Teams chat conversations are shown on the list and record pages.
 -	**Link an existing channel to a record**: Although the channel is linked to the record, the channel conversations can only be accessed from within Teams.
 
 ## Open Teams chats and channels related to a record
