@@ -19,7 +19,6 @@ ms.custom:
 
 # Create resource groups
 
-## Introduction
 
 Use resource groups to group users, facilities, and equipment as part of the selection rules for a service.
 
@@ -27,7 +26,7 @@ Use resource groups to group users, facilities, and equipment as part of the sel
 
 Before you begin, make sure you have the Scheduler Manager role or equivalent permissions.
 
-1. Navigate to either on the Customer Service Hub or on Customer Service admin center (preview) app. Depending on your app, perform the following steps:
+1. Navigate to either the Customer Service Hub or Customer Service admin center (preview) app. Depending on your app, perform the following steps:
 
    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
