@@ -52,9 +52,8 @@ Make sure that you have the required security role or equivalent permissions.
  5. Select **Save** to save the new organizational unit. The new record is saved and activated by default.
   
   Active organizational units can be edited, assigned, shared, or viewed from the **Active Organizational Units** system view.
-
-       > [!div class="mx-imgBorder"]
-    > ![Screenshot of "Organizational unit" in the menu](media/org_units.png)
+  
+   ![create organizational unit.](media/org_units.png)
 
 ### See also
 
