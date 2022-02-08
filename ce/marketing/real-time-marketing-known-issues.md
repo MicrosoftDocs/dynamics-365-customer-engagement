@@ -64,6 +64,11 @@ As we continue to work on real-time marketing and refine the experience, we've b
     - If the journey is contact-bound, the natural language will also require the term "contact."
     - If the journey is customer profile-bound, the natural language will also require the term "customer."
 
+## Personalization
+
+- Changing the data binding of an existing token creates a new token.
+- Even if you delete all usage of a token from the current message, it is still shown and considered in use.
+
 ## SMS
 
 - Currently limited to one phone number.
