@@ -1,7 +1,7 @@
 ---
 title: Configure knowledge management (Dynamics 365 Customer Service) | MicrosoftDocs
 description: See how to configure the settings for knowledge management in Dynamics 365 Customer Service
-ms.date: 02/02/2022
+ms.date: 02/08/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -64,7 +64,7 @@ After you have configured knowledge management on your app, you must also set up
   
 [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)] You must also be the tenant administrator of [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)].
 
-The changes that you will make for knowledge management settings will reflect across Customer Service Hub, Service Management, Customer Service admin center (preview), and custom apps. However, configuration changes that you will make for knowledge search control in the Customer Service admin center (preview) app will be available in the app side pane only.
+The settings that you configure for knowledge management from **Service Management** in Customer Service Hub will be available in Customer Service admin center (preview) and vice-versa. The ability to set up knowledge search control for app side pane is available only in the Customer Service admin center (preview) app.
 
 You can set up knowledge management either on the Customer Service Hub or on the Customer Service admin center (preview) app. Depending on your app, perform the following steps:
   
@@ -76,7 +76,7 @@ You can set up knowledge management either on the Customer Service Hub or on the
   1. Select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
   
   2. In the **Record types** section, select **Manage**.
-      1. On the **Record Types** page, add or edit the record types for which you want to turn on knowledge management. More information: [Configure knowledge search control on the app side pane](/customer-service/configure-knowledge-search-control-productivity-pane). By default, knowledge management is enabled for **Case** and **Conversation** record types.
+      1. On the **Record Types** page, add and configure the record types for which you want to turn on knowledge management. More information: [Configure knowledge search control on the app side pane for an entity record (preview)](/customer-service/configure-knowledge-search-control-productivity-pane). By default, knowledge management is enabled for **Case** and **Conversation** record types.
   3. In the **General Settings** section, select **Manage**. The **General Settings** page appears.
       1. In the **Search results display count** section, select the display count from the dropdown. This option is only available for app side pane knowledge base search control, and standalone knowledge base search control in single session and multisession apps.
       1. In the **Feedback** section, set the **Enable feedback** toggle to Yes. To learn more about how users use this option, see [Submit ratings and feedback for knowledge articles](search-knowledge-articles-csh.md#submit-ratings-and-feedback-for-knowledge-articles).
