@@ -89,13 +89,18 @@ Within the mobile app you may need to go to **Profile** > **Reconfigure** to ena
 
 ## Step 3: Enable search 
 
-By default, Dynamics 365 Field Service is configured to search against account, contact, user, and activity. You can customize search to include additional record types, such as customer assets and products. Expanding search parameters can help technicians search, find by keyword, and scan to search by barcode, UPC, or QR code.
+Field Service (D365) Mobile will use [Dataverse search](/powerapps/mobile/relevance-search-mobile) and include a bar code scanner option within the search view.   Dataverse search requires an active internet connection. If the device has no connectivity, the search experience will fall back to [categorized search](/powerapps/user/quick-find) experience.
 
-1. Enable the record type your barcode is part of for relevance search. In our example, we use the customer asset record type). For more information, see [how to set up relevance search](/power-platform/admin/configure-relevance-search-organization). 
+> [!Note]
+> Currently Dataverse search does not function on Tablet devices. If your organization uses Tablets it is recommended you [opt out](/power-platform/admin/configure-relevance-search-organization#enable-dataverse-search) of Dataverse search and use categorized search. 
 
-2. Add the barcode-enabled field to the record type's quick find view, as seen in the following screenshot.
+By default, Dynamics 365 Field Service is configured to search against Activity, Contact, User, Customer Asset, Incident Type, Work Order, and iOT Alert/Device. You can customize search to include additional record types, such as products. Expanding search parameters can help technicians search, find by keyword, and scan to search by barcode, UPC, or QR code.
 
-3. Save and publish changes.
+To enable a new Bar Code field for search within a Table:
+
+1. If the desired Table is not enabled for search, [follow these steps](power-platform/admin/configure-relevance-search-organization#select-tables-for-dataverse-search) to enable the Table for search. 
+2. Add the barcode-enabled field to the [Tables Quick Find view](power-platform/admin/configure-relevance-search-organization#select-searchable-fields-and-filters-for-each-table).
+3. Save and Publish changes.
 
 
 > [!div class="mx-imgBorder"]
@@ -107,7 +112,7 @@ By default, Dynamics 365 Field Service is configured to search against account, 
 
 2. Select the search icon at the top of the mobile app. 
 
-3. Select **Categorized Search**, then select the barcode scanning icon.
+3. Select the Bar Code scan icon on the search screen.
 
 4. Scan the barcode, and the system will search for records with a matching barcode. 
 
@@ -115,7 +120,9 @@ By default, Dynamics 365 Field Service is configured to search against account, 
 > ![Four mobile devices in different stages of the barcode scan process.](./media/mobile-2020-global-search-use.png)
 
 > [!Note]
-> If you are using offline first the record will need to be included in your offline profile and downlaoded to the device to display in search results. 
+> If you are using offline first the record will need to be included in your offline profile and downloaded to the device to display in search results. 
+
+
 
 ### See also
 
