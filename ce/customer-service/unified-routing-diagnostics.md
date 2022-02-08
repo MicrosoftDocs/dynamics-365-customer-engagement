@@ -30,22 +30,22 @@ To see data related to work items and their status, you need to enable routing d
 
 2. Perform one of the following steps:
 
-   - In Omnichannel admin center, in **Advanced settings** in the site map, select **Diagnostics**.
+   - In the site map of Omnichannel admin center, in **Advanced settings**, select **Diagnostics**.
    - In Customer Service Hub, go to **Service Management**, and in **Unified Routing** select **Diagnostics**.
 
 3. On the **Routing diagnostics** page, select **Turn on routing diagnostics**.
 
 4. In the confirmation message that appears, select **Yes**.
 
-   You'll see that a list of new work items start to appear. However, Work items may not appear on your screen immediately.
+   You'll see that a list of new work items start to appear. However, work items might not appear on your screen immediately.
 
 > [!NOTE]
-> After you enable diagnostics, the data will be stored in Microsoft Dataverse. This might impact your storage capacity. Select **Turn off diagnostics** to disable diagnostics.
+> After you enable diagnostics, the data will be stored in Microsoft Dataverse. This might impact your storage capacity. You can select **Turn off diagnostics** to disable diagnostics.
 
 
 ## Understand routing stages and diagnostics
 
-The **Routing diagnostics** page displays a list of work items with details and the stage each work item is in. The following table displays the information to help you understand routing diagnostics.
+The **Routing diagnostics** page displays a list of work items with details and the stage each work item is in. A brief description of the attributes is as follows: 
 
 - **Work item**: The name of the work item. Work items can be searched and sorted by clicking the dropdown next to the work item column.
 - **Routing status**: The stage the work item is in.
@@ -61,7 +61,7 @@ Each work item needs to pass through a set of stages before its routing stage ca
 Intake ➡ Classification ➡ Route to queue ➡ Assignment
 
 > [!NOTE]
-> If a work item skips a stage in the flow, the stage is disabled.
+> If a work item skips a stage in the flow, the stage is depicted as disabled.
 
 ### Summary
 
