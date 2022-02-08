@@ -25,7 +25,7 @@ By default, the health score widget and who knows whom widget are available only
 To add the health score widget or who knows whom widget to your custom form, follow these steps:
 
 > [!IMPORTANT]
-> - You can add the widgets only to Unified Interface apps.
+> - Widgets are only supported in Unified Interface apps.
 > - You can't use the legacy form designer to add the widgets to a form.
 
 1. Sign in to the [Power Apps](https://make.powerapps.com/) portal.
