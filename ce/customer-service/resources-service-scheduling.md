@@ -19,8 +19,6 @@ ms.custom:
 
 # Create and set up bookable resources
 
-## Introduction
-
 A resource in Service Scheduling is anything that needs to be scheduled. You can set up Generic, Contact, User, Equipment, Account, Crew, Facility, or Pool as bookable resource.
 
 ## Create a new bookable resource
@@ -29,7 +27,7 @@ Make sure that you have the required security role or equivalent permissions.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage security roles in service scheduling](manage-security-roles.md)
 
-1. Navigate to either on the Customer Service Hub or on Customer Service admin center (preview) app. Depending on your app, perform the following steps:
+1. Navigate to either the Customer Service Hub or Customer Service admin center (preview) app. Depending on your app, perform the following steps:
 
    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
@@ -37,9 +35,9 @@ Make sure that you have the required security role or equivalent permissions.
    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
     1. On the Customer Service admin center (preview) site map, select **Operations > Service scheduling**.
-    2.  In the **Resources** section, select **Manage**.
-        
-       The **Active Bookable Resources** view is displayed. You can switch between various system views using the drop-down list.  
+    2.  In the **Resources** section, select **Manage**.                   
+    
+      The **Active Bookable Resources** view is displayed. You can switch between various system views using the drop-down list.
 
    ### [Customer Service Hub](#tab/customerservicehub)
 
@@ -79,7 +77,7 @@ Make sure that you have the required security role or equivalent permissions.
 
     - In the **Resource Categories** section, select the ellipses  (**...**) and then select **Add New Bookable Resource Category** to add a category.
     
-  ![bookable resources.](media/bookable_resource_1.png)
+    ![bookable resources.](media/bookable_resource_1.png)
 
 4. In the **Scheduling** section:
 
@@ -92,7 +90,7 @@ Make sure that you have the required security role or equivalent permissions.
     - Select whether the resource should be displayed on the schedule board in the **Display On Schedule Board** box.
     - Select whether you want to enable the resource for availability search in the **Enable for Availability Search** box.
 
-     ![bookable resources.](media/bookable_resource_2.png)
+       ![bookable resources.](media/bookable_resource_2.png)
 
 5. Once you are ready, select **Save**.
 
