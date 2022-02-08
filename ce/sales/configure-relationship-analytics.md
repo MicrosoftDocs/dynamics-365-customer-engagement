@@ -11,7 +11,7 @@ manager: shujoshi
 ---
 # Configure relationship analytics and health 
 
-Relationship analytics provides graphical representation of KPIs and activity histories for any contact, opportunity, lead, or account to the users. 
+Relationship analytics provides a graphical representation of KPIs and activity histories of any contact, opportunity, lead, or account. It uses data from Dynamics 365 and Exchange Online (if configured) to create more accurate and complete relationship information.
 
 ## License and role requirements
 
