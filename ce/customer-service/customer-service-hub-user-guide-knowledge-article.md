@@ -1,7 +1,7 @@
 ---
 title: Understand Knowledge Management in Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: Understand Knowledge Management in Customer Service Hub for Customer Service Dynamics 365 Customer Service
-ms.date: 12/21/2021
+ms.date: 02/07/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -50,15 +50,15 @@ The following diagram describes the default process for creating and using knowl
 
 Turn your customer questions, issues, and feedback into knowledge articles, so other service reps can benefit from them. Add images and videos to your articles to explain things better and make the articles engaging.  You can author, edit, search, publish, and translate the knowledge articles in the Customer Service Hub. 
   
-1. Make sure you have Create and Read permissions on the Knowledge Article entity. By default, these permissions are added to the roles of knowledge manager, customer service manager, or customer service representative.  
+Ensure that you have Create and Read permissions on the Knowledge Article entity. By default, these permissions are added to the roles of knowledge manager, customer service manager, or customer service representative.  
   
-2. In the Customer Service Hub sitemap, go to **Service** > **Knowledge Articles**.  
+1. In the Customer Service Hub sitemap, go to **Service** > **Knowledge Articles**.  
   
-3. On the command bar, select **New**.  
+2. On the command bar, select **New**.  
   
    You’ll be on the **Content** tab of the knowledge article.
   
-4. In the **Article Content** section, fill in the following details:  
+3. In the **Article Content** section, fill in the following details:  
   
    - **Title**: Type a descriptive title that communicates the subject and purpose of the article in a concise manner.  
   
@@ -68,22 +68,22 @@ Turn your customer questions, issues, and feedback into knowledge articles, so o
    
        :::image type="content" source="media/v9-add-cont_article.png" alt-text="Add article content":::
  
-5. In the **Content** section, add the content for your knowledge article.  
+4. In the **Content** section, add the content for your knowledge article.  
   
    > [!NOTE]
    > As soon as you select inside the editor space, the rich text editor command bar appears. Use the rich text editor command bar options to format and style your content. If you can't use the features, your editing space is too small. If this is the case, you'll need to resize to a larger space. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the rich text editor to create knowledge articles and emails](#use-the-rich-text-editor-to-create-knowledge-articles-and-emails)
   
-6. Select **Save**.
+5. Select **Save**.
    
    As the article is saved, the Business Process flow bar appears for the article. The stages are **New Process**, **Author**, **Review**, and **Publish**. The Business Process flow bar guides you to drive the article toward completeness. You can customize the stages in the Business Process flow to suit your  requirements.
 
-7. On the Business Process flow bar, select **Author**.  
+6. On the Business Process flow bar, select **Author**.  
 
-8. In the **Set Keywords** text box, add keywords for your article.
+7. In the **Set Keywords** text box, add keywords for your article.
   
-9. In the **Article Subject** dropdown list, choose the subject of the article to help with article searches.  
+8. In the **Article Subject** dropdown list, choose the subject of the article to help with article searches.  
   
-10. In the **Assign Primary Author** dropdown list, choose a person who is responsible for maintaining the article content. By default, the user who creates the article is the primary author.  
+9. In the **Assign Primary Author** dropdown list, choose a person who is responsible for maintaining the article content. By default, the user who creates the article is the primary author.  
 
     Once a new article is created, the author value will be replicated to Primary author if it is a system user but not a team. The knowledge article author must be a single user (not a team) in order for it to be searchable and to load properly.
     
@@ -148,27 +148,27 @@ If your administrator has enabled language personalization, you can select your 
 
 Authors can use the templates to create knowledge articles quickly because the fields for the knowledge article are prepopulated according to the selected template. To create knowledge articles using templates:
  
-1. Make sure you have Create and Read permissions on the Knowledge Article entity. By default, these permissions are added to the roles of knowledge manager, customer service manager, or customer service representative.    
+Ensure that you have Create and Read permissions on the Knowledge Article entity. By default, these permissions are added to the roles of knowledge manager, customer service manager, or customer service representative.
   
-2. In the Customer Service Hub sitemap, go to **Service** > **Knowledge Articles**.  
+1. In the Customer Service Hub sitemap, go to **Service** > **Knowledge Articles**.  
 
     A list of available articles is displayed. 
 
-3.	To create an article from a template, select **+ New From Template**.
+2.	To create an article from a template, select **+ New From Template**.
   
-4.	In the **Select Knowledge Article Template** dialog, select the template to use as a base on which you author the article and select **OK**. In this example, we are selecting the template as **Getting Started With Template**.
+3.	In the **Select Knowledge Article Template** dialog, select the template to use as a base on which you author the article and select **OK**. In this example, we are selecting the template as **Getting Started With Template**.
 
     > [!div class=mx-imgBorder]
     > ![Select knowledge article template.](media/ka-select-template.png "Select knowledge article template")
   
     You observe that some fields are prepopulated as defined in the template.
 
-5.	In the **New Knowledge Article** page, edit the fields as required. 
+4.	In the **New Knowledge Article** page, edit the fields as required. 
 
     > [!div class=mx-imgBorder]
     > ![New knowledge article page.](media/ka-new-article-page.png "New knowledge article page")
   
-6.	Select **Save**.
+5.	Select **Save**.
 
     The article is saved, and you can take it to the next stage to approve and publish the article to make it available for users.
 
@@ -348,8 +348,9 @@ With this new attachment capability, you'll need to stop using notes attachments
 
 On syncing knowledge article attachments to the portal:
 
-- Dataverse search will be able to search through knowledge article attachments. More info: [Microsoft Dataverse search can search through file data type](/power-platform-release-plan/2021wave2/data-platform/dataverse-search-search-through-file-data-type). Additionally, you must configure the faceted search results web template off your portal to be able to search through knowledge article attachments. More information: [Configure faceted search results web template off your portal](configure-faceted-search-results.md)  
-- There will be a one-time migration from the notes attachments that have the prefix of your original KnowledgeManagement/Notesfilter setting to new attachments in knowledge articles. In other words, only the notes attachments used in the portal will be migrated to new attachments.
+- Dataverse search will be able to search through knowledge article attachments. More information: [Microsoft Dataverse search can search through file data type](/power-platform-release-plan/2021wave2/data-platform/dataverse-search-search-through-file-data-type) Additionally, you must configure the faceted search results web template from your portal to be able to search through knowledge article attachments. More information: [Configure faceted search results web template off your portal](configure-faceted-search-results.md) 
+  
+- There will be a one-time migration from the notes attachments that have the prefix of your original KnowledgeManagement/Notesfilter setting to new attachments in knowledge articles. Only the notes attachments used in the portal will be migrated to new attachments.
 
 For more information, see [Display file attachments with knowledge articles](/powerapps/maker/portals/customer-engagement-apps/display-file-attachments-knowledge-article).
 
@@ -363,12 +364,12 @@ By default, the rich text editor functionality is available for use with knowled
 3. Under **Controls**, select **Rich Text Editor Control**.
 
     > [!div class=mx-imgBorder]
-    > ![Select the Controls tab on the properties page.](media/csh-rte-add-form.png "Select the Controls tab, and then select the rich text editor control")
+    > ![Select the Controls tab on the properties page.](media/csh-rte-add-form.png "Select the Controls tab, and then select Rich Text Editor Control")
 
 3. Under **Rich Text Editor Control** properties, select the pencil icon next to **RichTextEditorControl_URL**. 
     
     > [!div class=mx-imgBorder]
-    > ![Select the Rich Text Editor control.](media/csh-rte-edit-control.png "Select the Rich Text Editor Control and pencil icon to add text")
+    > ![Select Rich Text Editor Control and the pencil icon.](media/csh-rte-edit-control.png "Select Rich Text Editor Control and the pencil icon to add text")
     
     The properties configuration page is displayed.
 
@@ -383,7 +384,7 @@ For more information about rich text control properties, see [Rich text editor c
   
 ## Mark a knowledge article for review  
 
-To make sure the content you’ve created is accurate, have someone review it.  
+To ensure that the content you’ve created is accurate, have someone review it.  
   
 You can mark an article for review or directly assign it to a specific person or queue. When you mark an article for review, it starts appearing in the knowledge manager’s dashboard. The knowledge manager can then assign the article to specific team members or a queue for review.  
   
@@ -415,7 +416,7 @@ It’s important to review articles for accuracy before they’re published or m
  
 ## Update knowledge articles to capture feedback  
 
-Make sure that your articles are up to date and accurate at all times by updating them based on feedback you receive.  
+Ensure that your articles are up to date and accurate at all times by updating them based on feedback you receive.  
   
 1.  In the Customer Service Hub, go to **Service** > **Knowledge Articles**.  
   
@@ -489,7 +490,7 @@ Managing your article versions means publishing and archiving different versions
   
 5.  When prompted, select **OK**.  
   
-     Deleting an article version is permanent and can’t be undone. You won’t be able to go back to that version of the article, so make sure that you don’t need any of the information. It’s a good idea to create a local backup of any versions you delete.  
+     Deleting an article version is permanent and can’t be undone. You won’t be able to go back to that version of the article, so ensure that you don’t need any of the information. It’s a good idea to create a local backup of any versions you delete.  
   
 ## Select a language for your knowledge article translation
 
@@ -532,15 +533,17 @@ After you have published a translation for an article, you can manage it and any
 ## Schedule or publish an article  
 
 After the content in the article is complete and reviewed, you can publish the article to the portal to make it available to your customers. You can publish the article immediately or schedule it for a later time. 
+
+Ensure that you have the Publish and Update permissions on the Knowledge Article record type. These permissions are added by default to the roles of knowledge manager, customer service manager, customer service representative, or system administrator.  
   
 > [!IMPORTANT]
->  If your organization is using a portal for publishing the knowledge articles, your customizer can write a plug-in that can pick the published articles and post on your portal, and also report the article views back.  
+>  If your organization is using a portal to publish the knowledge articles, your customizer can write a plug-in that can pick the published articles and post on your portal, and also report the article views back.  
   
-1.  Make sure that you have the Publish and Update permission on the Knowledge Article record type. These permissions are added by default to the roles of knowledge manager, customer service manager, customer service representative, or system administrator.  
+You will also need the Publish permission on the Knowledge Article record type, if you want to change the state of a published article.
   
-2.  In the Customer Service Hub, go to **Service** > **Knowledge Articles**.  
+1.  In the Customer Service Hub, go to **Service** > **Knowledge Articles**.  
   
-3.  Open a knowledge article that’s in the Approved state.  
+2.  Open a knowledge article that’s in the Approved state.  
   
 4.  To make it easy to find knowledge articles related to specific products, associate the knowledge article with a product.  
   

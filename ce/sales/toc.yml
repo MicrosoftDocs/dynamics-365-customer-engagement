@@ -391,6 +391,8 @@
         href: edit-insight-cards.md
       - name: Optimize ranking of insight cards
         href: optimize-ranking-insight-cards.md
+      - name: Add the assistant widget to custom forms
+        href: add-assistant-widget-custom-forms.md  
     - name: Playbook management
       items:
       - name: Define playbook categories

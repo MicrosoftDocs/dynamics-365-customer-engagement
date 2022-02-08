@@ -1,7 +1,7 @@
 ---
 title: "Intraday insights dashboard for supervisors in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the intraday insights dashboard for supervisors"
-ms.date: 11/25/2021
+ms.date: 02/05/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -47,7 +47,7 @@ The KPIs for conversations in the IntradayMonitoring report are as follows.
 
 | Metric | Description |Availability|
 |-------|-------|----------|
-| Avg. wait time per conversation | For a conversation, wait time is defined as the cumulative wait time of its individual sessions. This KPI is calculated as an average that considers only closed conversations. Session wait time is defined as the elapsed time between the creation of a session until the time an agent accepts it.  If the agent rejects the chat or lets the notification time out, the amount of time it took for the agent to reject the chat or timeout is added and the time it takes for the subsequent session to be accepted by the agent is factored into the wait time. The average wait time is computed for only closed conversations and is also displayed on a per-queue basis. Only the conversations that are directly handled by an agent or escalated by a bot to an agent are considered; conversations handled and closed by the bot are excluded. | Live chat, Digital messaging, Voice|
+| Avg. wait time per conversation | For a conversation, wait time is defined as the cumulative wait time of its individual sessions. This KPI is calculated as an average that considers only closed conversations. Session wait time is defined as the elapsed time between the creation of a session until the time an agent accepts it.  If the agent rejects the chat or lets the notification time out, the amount of time it took for the agent to reject the chat or timeout is added and the time it takes for the subsequent session to be accepted by the agent is factored into the wait time. The average wait time is computed for only closed conversations and is also displayed on a per-queue basis. Only the conversations that are directly handled by an agent or escalated by a bot to an agent are considered. Conversations that are handled and closed by the bot are excluded. | Live chat, Digital messaging, Voice|
 | Exceeding 5 mins wait time | The number of conversations that are open and have exceeded the threshold wait time of five minutes. This metric is also displayed on a per-queue basis. | Live chat, Digital messaging, Voice|
 | Exceeding 5 mins wrap time | The number of conversations that are open and have exceeded the threshold wrap time of five minutes. |Live chat, Digital messaging, Voice|
 | Abandon rate | The percentage of conversations abandoned by customers before connecting to an agent. This metric is also displayed on a per-queue basis. |Live chat, Voice |
@@ -96,34 +96,53 @@ You can filter information by selecting the queues that have been defined for yo
 
 The average handle time is calculated as the average of all the handle times of the sessions handled by the agent. The session handle time is the total duration the agent spent on the session when it is in focus in the session panel until an agent closes the session. The handle time is paused when the agent switches to another session and is resumed when the agent returns to the session. This includes the time the agent takes to wrap up the conversation. When an agent concurrently handles multiple customers and switches sessions, the active time for the previous session is paused and the active time for the current session resumes.
 
-The conversations handled by bots and closed by bots are not considered in the calculation of the average handle time.
+The conversations handled by bots and closed by bots aren't considered in the calculation of the average handle time.
 
 If the agent spends time providing consultation, it's included in the agent's average handle time. Similarly, for supervisors, the monitor time is included in the supervisor's average handle time.
 
-When a conversation is transferred, the active time spent by all agents who are involved is summed up to calculate the handle time for the conversation.
+When a conversation is transferred, the app calculates the handle time for the conversation by summing up the active time spent by all agents who are involved.
 
-Average handle time will be accurately calculated if you ensure the following:
+Average handle time is accurately calculated if you ensure the following:
 
 - Agents close the sessions by selecting the **Close** button at the end of their shift. More information: [Conversation in waiting status](oc-conversation-state.md).
 - Agents don't change the computer time.
 - Agents don't use incognito mode in Google Chrome or private browsing in Microsoft Edge.
 
-When an agent steps away from the desk during an ongoing session and doesn't interact with the customer, the system counts this time as active and subsequently calculates a higher value for the handle time. For a more realistic report of the active time that agents spend in the session, you can configure the idle time threshold. If no agent activity is detected after the idle time threshold is reached, the handle time computation is paused. The computation resumes if any mouse, touch, or keyboard activity is detected. By default, the idle time threshold isn't enabled out of the box. More information: [Set the idle time threshold](set-idle-time-threshold.md).
+When an agent steps away from the desk during an ongoing session and doesn't interact with the customer, the system counts this time as active and calculates a higher value for the handle time. For a more realistic report of the active time that agents spend in the session, you can configure the idle time threshold. If no agent activity is detected after the idle time threshold is reached, the handle time computation is paused. The computation resumes if any mouse, touch, or keyboard activity is detected. By default, the idle time threshold isn't enabled out of the box. More information: [Set the idle time threshold](set-idle-time-threshold.md).
 
 ## Saved views for Intraday reports
 
 You can save the filters that you used for the reports as bookmarks. The bookmarks allow you to access the filters easily and repeatedly, without having to apply the filters every time. You can switch between the multiple bookmarks when you're managing different reports and teams. The saved views allow you to save the queues and agents pertaining to different teams and lets you switch between the filters to view the metrics for each team.
 
-You can create personal bookmarks that are visible only to you. Bookmarks that are created by PowerBI administrators can be shared with all users in a read-only mode.
+You can create personal bookmarks that are visible only to you. Bookmarks that are created by Power BI administrators can be shared with all users in a read-only mode.
 
 More information:
 
 - [Create bookmarks in Power BI Desktop to share insights and build stories](/power-bi/create-reports/desktop-bookmarks)
 - [Create personal bookmarks](/power-bi/consumer/end-user-bookmarks)
 
+## View reports in different time zones
+
+Use the Timezone option available in the reports to view the date and time information according to the time zone that you specify. You must save the changes to view the report in the selected time zone the next time you access it. For a customized intraday insights report, the app automatically saves the selected time zone after a minute.
+
+You can save your preferred time zone settings for reports as bookmarks. The bookmarks allow you to switch between reports in various time zones, without having to set the time zone. 
+
+
 ## Slice metrics by time
 
-The **Duration** option that is available in all reports lets you filter the report details. The filter helps you look at the metrics for the shift the supervisor is handling out of the entire 24 hours duration. The filter lets you report the data within the last four, eight, or twelve hours duration or apply a custom value as well. The metrics within the reports are calculated based on the conversations created in the selected time duration.
+The **Duration** option that is available in all reports lets you filter the report details. The filter helps you look at the metrics for the shift the supervisor is handling out of the entire 24 hours duration. The filter lets you report the data within the last four, eight, or 12 hours duration or apply a custom value as well. The metrics within the reports are calculated based on the conversations created in the selected time duration.
+
+Let's look at an example to understand the data refresh of the reports.
+
+The following conversations were started and closed on day 1:
+- Conversation 1: closed at 9:30 AM
+- Conversation 2: closed at 10:14 AM
+- Conversation 3: started on 11:00 PM
+- Conversation 3: closed at 11:15 PM
+
+If the supervisor accesses the report on day 2 at 10:00 AM and doesn't use the **Duration** filter, the report fetches the data corresponding to conversations 2 and 3. Conversation 1 isn't displayed, because it was closed 24.5 hours prior to the time the report is accessed. When the report refreshes automatically at 10:15 AM, the data corresponding to only conversation 3 is displayed on the report.
+
+If you access the report on day 2 at 10:00 AM and set the **Duration** to 12 hours, the report only displays the data corresponding to conversation 3.
 
 ### See also
 
