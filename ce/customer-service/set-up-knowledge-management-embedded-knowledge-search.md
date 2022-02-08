@@ -64,7 +64,7 @@ After you have configured knowledge management on your app, you must also set up
   
 [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)] You must also be the tenant administrator of [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)].
 
-The settings that you configure for knowledge management from **Service Management** in Customer Service Hub will be available in Customer Service admin center (preview) and vice-versa. The ability to set up knowledge search control for app side pane is available only in the Customer Service admin center (preview) app.
+The settings that you configure for knowledge management from **Service Management** in Customer Service Hub will be available in Customer Service admin center (preview) and vice versa. The ability to set up knowledge search control for app side pane is available only in the Customer Service admin center (preview) app.
 
 You can set up knowledge management either on the Customer Service Hub or on the Customer Service admin center (preview) app. Depending on your app, perform the following steps:
   
