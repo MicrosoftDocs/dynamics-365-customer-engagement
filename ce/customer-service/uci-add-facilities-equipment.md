@@ -27,7 +27,7 @@ Facilities and equipment are resources you use to perform services for your cust
 
 Before you begin, make sure you have the **System Administrator** security role or equivalent permissions in Microsoft Dynamics 365. 
 
-1. Navigate to either on the Customer Service Hub or on Customer Service admin center (preview) app. Depending on your app, perform the following steps:
+1. Navigate to either the Customer Service Hub or Customer Service admin center (preview) app. Depending on your app, perform the following steps:
 
    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
@@ -42,26 +42,27 @@ Before you begin, make sure you have the **System Administrator** security role 
 
     1. On the Customer Service Hub site map, go to **Scheduling**.
     1. From the list of entity records, select **Scheduling > Facilities/Equipment**.
+       
        The **Local Facilities/Equipment** view is displayed. You can switch between various system views using the drop-down list.
 
 2. Select **New**.
 
 3. Fill in the information as required:
   
-  - **Name**: Enter the name of the facility or equipment you want to add for service scheduling.
+    - **Name**: Enter the name of the facility or equipment you want to add for service scheduling.
   
-  - **Business Unit**: Dynamics 365 Customer Service enters the business unit automatically. To select a different business unit, select the **Lookup** button, and then select the business unit from the list.
+    - **Business Unit**: Dynamics 365 Customer Service enters the business unit automatically. To select a different business unit, select the **Lookup** button, and then select the business unit from the list.
 
-  - **Site**. Select the location where the facility or equipment is located.
+    - **Site**. Select the location where the facility or equipment is located.
   
-  > [!Note]
-  > Make sure the site and customer are in the same location. Resources for a given service activity should also be located at the same site. 
+     > [!Note]
+     > Make sure the site and customer are in the same location. Resources for a given service activity should also be located at the same site. 
 
-  - **Primary Email**: Enter the email address of the site manager or equipment manager. If there are any updates or cancellations related to the schedule, facilities, or equipment, notifications are sent to this email address. 
+    - **Primary Email**: Enter the email address of the site manager or equipment manager. If there are any updates or cancellations related to the schedule, facilities, or equipment, notifications are sent to this email address. 
 
-  - **Time Zone**: Select the appropriate time zone to determine availability for the facility or equipment. By default, this is set to the time zone you’ve selected in the **General** tab of the **Set Personal Options** page. More information: [Set personal options](../customerengagement/on-premises/basics/set-personal-options.md) 
+    - **Time Zone**: Select the appropriate time zone to determine availability for the facility or equipment. By default, this is set to the time zone you’ve selected in the **General** tab of the **Set Personal Options** page. More information: [Set personal options](../customerengagement/on-premises/basics/set-personal-options.md) 
 
-  - **Description**: Add details about the facility or equipment, such as the numbers, size, make, or model.
+    - **Description**: Add details about the facility or equipment, such as the numbers, size, make, or model.
   
 3. When you are finished entering details, select **Save** or **Save & Close**.
 
