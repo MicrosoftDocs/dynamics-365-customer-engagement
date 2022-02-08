@@ -1,7 +1,7 @@
 ---
 title: Manage presence status in Omnichannel for Customer Service | MicrosoftDocs
 description: Use this topic to learn how to view and update your presence status in Omnichannel for Customer Service.
-ms.date: 01/25/2022
+ms.date: 02/08/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -62,7 +62,7 @@ Presence status is updated in two ways:
 
 ## Understand presence status scenarios
 
-Your agent presence status pertains to the three following scenarios:
+Your agent presence status pertains to the three following conditions:
 
 - If the presence is **Away** or **Offline**, the system doesn't update the presence. However, you can manually change it. 
 
@@ -70,17 +70,17 @@ Your agent presence status pertains to the three following scenarios:
 
 - The system computes your presence based on your utilized or released capacity. The presence changes from **Available** to **Busy**, **Busy** to **Do not disturb**, **Do not disturb** to **Busy**, or **Busy** to **Available**.
 
-Following are a few important scenarios that describe how your presence status could be impacted.
+Following are few important scenarios that describe how your presence status could be impacted as you work with your customers.
 
-### Reconnect 
+### Reconnect
 
 When system connection is disrupted due to network issues or when you refresh the browser and connect back within the stipulated time, the system picks up your last known presence. 
 
-### Login 
+### Login
 
 When you log in, your presence is set to the default presence if no work items have been assigned to you. If work items are assigned, your presence is automatically computed. However, if your default presence is set as Away or Offline, the system doesn’t override the status.  
 
-### Accept work items 
+### Accept work items
 
 When you accept a work item manually or it is accepted automatically, the system computes your presence based on your work capacity. However, if your presence is set to Away or Offline, or if you have manually changed your presence to Do not disturb, the system doesn’t change your presence. 
 
