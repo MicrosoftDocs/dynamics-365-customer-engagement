@@ -40,7 +40,7 @@ Pre-defined tokens are tokens that have already been defined by someone else and
 > [!NOTE]
 > Pre-defined tokens are currently available only in English. They will be available in all languages at the time of general availability.
 
-## Enable pre-defined tokens
+## Enable the pre-defined tokens preview
 
 This content refers to a feature that is in preview and may not be enabled in your environment. If you don’t see this feature in your app, contact your admin who can enable it by going to **Settings** > **Feature switches** > **Personalization** and enabling the **Pre-defined list of tokens** feature switch.
 
