@@ -1,7 +1,7 @@
 ---
 title: Search knowledge articles in the Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: See how you can effectively search knowledge articles in the Customer Service Hub.
-ms.date: 01/31/2022
+ms.date: 02/04/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -80,8 +80,8 @@ When you select the **Knowledge Base Search** option in the **RELATED** section,
   4. Search knowledge articles
   5. Link this article to the current record (unlink will be displayed when the article is already linked to a record)
   6. Copy
-  7. Displays Popout and Email link this article to a record and send via Email 
-  8. Link this article to a record and send via Email
+  7. Displays Pop out and Email Content 
+  8. Link this article to a record and send via email
   9. Rating
   10. Unlink an article that is currently linked to a case
   11. Number of views the article has received
@@ -189,21 +189,21 @@ To configure the ability to copy and send article URLs, see [Configure knowledge
 
   1. In the sitemap, select **Knowledge Search**.
   2. In search box, type keywords of an article.  
-  3. Select copy URL icon to copy the article URL.
+  3. Select the copy URL icon to copy the article URL.
   4. To open an article in a new window, select the pop-out icon.
   5. To copy the article URL, select **Copy URL**.
   6. To open the article in a new window, select **Pop out**.  
 
 ### Configure knowledge base article URLs
 
-Knowledge articles can be configured with their portal URLs, and then agents can copy and share the URL links. 
+Knowledge articles can be configured with their portal URLs, and then agents can copy and share the URL links.
 
 > [!NOTE]
 > Before you can configure knowledge articles with their own URLs, you must create a portal using your domain name. For information on how to create a portal, see [Create a portal in an environment containing customer engagement apps](/powerapps/maker/portals/create-dynamics-portal).
 
 You can configure a knowledge base article URL either on the Customer Service Hub or on the Customer Service admin center (preview) app. Depending on your app, perform the following steps:
 
-1. Go to the **Support portal connection** section.
+1. In the sitemap, under **Knowledge Base Management**, select **Settings**.
 
 ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
@@ -267,11 +267,11 @@ If you deactivate a filter, it will appear as deactivated. If you reactivate the
 5. If you want to deactivate a filter, select the ellipsis in the top-right corner for the filter you want to stop using, and then select **Deactivate**.
 6. Select **Done** > **Save**.
 7. When you are ready to reactivate the filter, select the ellipsis again, and then select **Activate**.
-   All of the previous configurations will be reinstated. 
+   All of the previous configurations will be reinstated.
 
 ### Sort knowledge articles
 
-The knowledge base search control provides sort the knowledge articles interactions. Select the up-arrow icon to view the sorting options and select one of the options from the following: 
+The knowledge base search control provides the option to sort knowledge articles. Select the up-arrow icon to view the sorting options and select one of the options from the following:
 
 - Relevance
 - Number of views
@@ -327,9 +327,9 @@ An administrator or system customizer must configure this option for you. More i
 
 To view the auto-filtered results:
 
-1. Search knowledge articles from the case related section. More information:[Search for knowledge articles in the Customer Service Hub](#search-for-knowledge-articles-in-the-customer-service-hub)
+1. Search knowledge articles from the related section of the case. More information: [Search for knowledge articles in the Customer Service Hub](#search-for-knowledge-articles-in-the-customer-service-hub)
 
-2. The articles are automatically filtered and display based on case data.
+2. The articles are automatically filtered and displayed based on case data.
 
 3. If you want to disable the automatic filtering option and search the entire knowledge base for articles, deselect **Auto-filter results**.  
 
@@ -338,7 +338,7 @@ To view the auto-filtered results:
 
 Let’s understand this in detail with the help of an example.
 
-In the following illustration, the case subject is **Xbox**. If automatic filtering is configured on case subject, with the **Auto filter results** checkbox selected, only those knowledge articles whose subject is **Xbox** are displayed. Other articles are automatically filtered out, as shown in the following image.
+In the following illustration, the case subject is **Xbox**. If automatic filtering is configured on the case subject, with the **Auto filter results** checkbox selected, only those knowledge articles whose subject is **Xbox** are displayed. Other articles are automatically filtered out, as shown in the following image.
 
 ![Select Auto filter results.](media/ka-select-auto-filter-results.png "Select Auto filter results")   
   
