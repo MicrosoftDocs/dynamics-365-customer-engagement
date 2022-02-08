@@ -36,6 +36,7 @@ Before you begin, make sure you have the **System Administrator** security role 
 
     1. On the Customer Service admin center (preview) site map, select **Operations > Service scheduling**.
     1.  In the **Facilities/Equipment** section, select **Manage**.
+        
         The **Local Facilities/Equipment** view is displayed. You can switch between various system views using the drop-down list.  
 
    ### [Customer Service Hub](#tab/customerservicehub)
