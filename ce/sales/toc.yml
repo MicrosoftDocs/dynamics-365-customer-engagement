@@ -178,6 +178,8 @@
     items:
     - name: Define lead qualification experience
       href: define-lead-qualification-experience.md
+    - name: Enable duplicate lead detection 
+      href: enable-duplicate-lead-detection.md   
     - name: Integrate LinkedIn Sales Navigator solutions
       href: /dynamics365/linkedin/integrate-sales-navigator?context=/dynamics365/context/sales-context
     - name: Configure predictive lead scoring
@@ -542,6 +544,8 @@
     items:
     - name: Create or edit leads
       href: create-edit-lead-sales.md
+    - name: Manage duplicate leads
+      href: manage-duplicate-leads.md  
     - name: Prioritize leads using predictive scores
       href: work-predictive-lead-scoring.md
     - name: Qualify or convert leads
