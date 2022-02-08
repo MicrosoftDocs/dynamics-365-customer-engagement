@@ -42,7 +42,7 @@ Pre-defined tokens are tokens that have already been defined by someone else and
 
 ## Enable the pre-defined tokens preview
 
-This content refers to a feature that is in preview and may not be enabled in your environment. If you don’t see this feature in your app, contact your admin who can enable it by going to **Settings** > **Feature switches** > **Personalization** and enabling the **Pre-defined list of tokens** feature switch.
+This article refers to a feature that is in preview and may not be enabled in your environment. If you don’t see this feature in your app, contact your admin who can activate it by going to **Settings** > **Feature switches** > **Personalization** and enabling the **Pre-defined list of tokens** feature switch.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of enabling pre-defined tokens.](media/real-time-marketing-predefined-tokens-enable.png "Screenshot of enabling pre-defined tokens")
