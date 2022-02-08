@@ -1,12 +1,11 @@
 ---
 title: "Configure Relationship analytics and health"
 description: "Configure relationship analytics and health to provide graphical representation of KPIs and activity histories to the sellers."
-ms.date: 10/26/2021
+ms.date: 02/08/2022
 ms.custom: 
 ms.topic: article
-ms.assetid: 03bfdad0-2575-4c4b-a845-d7ac1ff0b0c3
-author: udaykirang
-ms.author: udag
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 ---
 # Configure relationship analytics and health 

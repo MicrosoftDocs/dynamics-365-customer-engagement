@@ -1,12 +1,11 @@
 ---
 title: "Configure who knows whom"
 description: "Configure who knows whom to help sellers quickly identify colleagues within their organization who can introduce them to leads or contacts."
-ms.date: 10/26/2021
+ms.date: 02/08/2022
 ms.custom: 
 ms.topic: article
-ms.assetid: c5e131e2-c4ba-4442-9580-dfc9badbc9ad
-author: udaykirang
-ms.author: udag
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 ms.reviewer: 
 ms.suite: 

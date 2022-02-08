@@ -4,8 +4,8 @@ description: "If you're using custom forms, add the health score and who knows w
 ms.date: 02/08/2022
 ms.custom: 
 ms.topic: article
-author: lavanyakr
-ms.author: lavanyakr01
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 ---
 # Add Relationship intelligence widgets to custom forms
