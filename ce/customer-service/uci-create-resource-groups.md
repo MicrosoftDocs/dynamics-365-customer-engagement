@@ -19,6 +19,8 @@ ms.custom:
 
 # Create resource groups
 
+## Introduction
+
 Use resource groups to group users, facilities, and equipment as part of the selection rules for a service.
 
 ## Create a resource group

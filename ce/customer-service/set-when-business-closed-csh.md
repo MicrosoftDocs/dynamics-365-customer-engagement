@@ -19,6 +19,8 @@ ms.custom:
 
 # Set when your business is closed
 
+##Introduction
+
 Prevent scheduling resources on holidays and other nonworking days by defining business closures in Dynamics 365 Customer Service. You can set both the days and times that your organization will be closed. 
 
 ## Schedule a new business closure

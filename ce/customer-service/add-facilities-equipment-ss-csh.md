@@ -19,9 +19,10 @@ ms.custom:
 
 # Add facilities and equipment to schedule service
 
+## Introduction
+
 Facilities and equipment are resources you use to perform services for your customers. Facilities could be physical spaces like service bays or conference rooms and equipment could be tools or other assets. Add these resources to Dynamics 365 Customer Service to ensure optimal services for your customers.  
 
-  
 ## Create a new facility or equipment record
 
 Make sure that you have the required security role or equivalent permissions. 
@@ -45,7 +46,7 @@ Make sure that you have the required security role or equivalent permissions.
     1. On the Customer Service Hub site map, go to **Scheduling**.
     2. From the list of entity records, select **Scheduling > Facilities/Equipment**.
        
-       The **Local Facilities/Equipmen** view is displayed. You can switch between various system views using the drop-down list.
+       The **Local Facilities/Equipment** view is displayed. You can switch between various system views using the drop-down list.
      
 2. On the command bar, select **New** to create a new record. 
   
@@ -65,7 +66,7 @@ Make sure that you have the required security role or equivalent permissions.
   
 4.  When you’re done, select **Save** or **Save and Close**.  
 
-
+    ![facility and equipment.](media/facilities_equipment_1.png)
 ### See also
 
 [Service Scheduling overview](basics-service-service-scheduling.md)

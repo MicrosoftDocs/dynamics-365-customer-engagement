@@ -19,6 +19,8 @@ ms.custom:
 
 # Create or edit a service in Service Scheduling
 
+## Introduction
+
 To make scheduling services quick and easy, it’s helpful to predefine the specifics of the services you provide to customers. By using the service records in Dynamics 365 Customer Service, you can define:  
   
 -   How long a service activity would last.
@@ -64,7 +66,7 @@ Make sure that you have the required security role or equivalent permissions.
 
 4. Select **Save** to save the service.
 
-   ![Create a service.](media/create-service-csh.png)
+   ![Create a service.](media/service_cs_activity.png)
 
 5. In the **Resource Requirements** section, define the selection criteria.
 

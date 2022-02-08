@@ -19,6 +19,8 @@ ms.custom:
 
 # Create and set up bookable resources
 
+## Introduction
+
 A resource in Service Scheduling is anything that needs to be scheduled. You can set up Generic, Contact, User, Equipment, Account, Crew, Facility, or Pool as bookable resource.
 
 ## Create a new bookable resource
@@ -76,6 +78,8 @@ Make sure that you have the required security role or equivalent permissions.
       - Assign the characteristic to a **Resource**
 
     - In the **Resource Categories** section, select the ellipses  (**...**) and then select **Add New Bookable Resource Category** to add a category.
+    
+  ![bookable resources.](media/bookable_resource_1.png)
 
 4. In the **Scheduling** section:
 
@@ -87,6 +91,8 @@ Make sure that you have the required security role or equivalent permissions.
 
     - Select whether the resource should be displayed on the schedule board in the **Display On Schedule Board** box.
     - Select whether you want to enable the resource for availability search in the **Enable for Availability Search** box.
+
+     ![bookable resources.](media/bookable_resource_2.png)
 
 5. Once you are ready, select **Save**.
 
