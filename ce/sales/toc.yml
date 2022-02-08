@@ -407,6 +407,8 @@
       href: configure-talking-points.md
     - name: Configure who knows whom
       href: configure-who-knows-whom.md
+    - name: Add relatioship intelligence widgets to custom forms
+      href: add-ri-widgets-to-custom-form.md
   - name: Conversation intelligence
     items:
     - name: Prerequisites to use Conversation Intelligence
