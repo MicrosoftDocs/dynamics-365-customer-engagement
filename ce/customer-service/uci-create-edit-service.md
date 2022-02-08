@@ -51,9 +51,8 @@ A service requires at least one selection rule and one or more resources, resour
        The **Active Services** view is displayed. You can switch between various system views using the drop-down list.
     
 3. Do one of the following:
-  - To create a new service, select **New**.
-  
-  - To edit a service, open a service from the list.
+   - To create a new service, select **New**.
+   - To edit a service, open a service from the list.
 
 4. Type or modify information in the text boxes. 
 
