@@ -39,7 +39,7 @@ Before you begin, make sure you have the System Administrator or System Customiz
     1. On the Customer Service admin center (preview) site map, select **Operations > Service scheduling**.
     1.  In the **Sites** section, select **Manage**.   
           
-      The **All Sites** view is displayed. You can switch between various system views using the drop-down list.
+     The **All Sites** view is displayed. You can switch between various system views using the drop-down list.
 
    ### [Customer Service Hub](#tab/customerservicehub)
 
