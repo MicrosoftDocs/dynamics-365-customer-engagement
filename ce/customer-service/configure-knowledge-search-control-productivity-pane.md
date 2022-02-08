@@ -63,9 +63,6 @@ You can add record types from the Customer Service Hub or the Customer Service a
 1. On the **Add record type** dialog, from the **Select record type** dropdown list, select the record type.
 1.	Click **Save and Close**.
 
-
-:::image type="content" source="media/add-ent-record.png" alt-text="Add an entity record for which you wnat to turn on knowledge management":::
-
 ---
 
 After you have enabled a record type, to set up knowledge base search control on a standard or custom form, see [Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-forms). Setting up knowledge base search control on a standard or custom form makes it easy for agents in your organization to find knowledge articles, so they can answer common customer questions and resolve their issues right from the records, without having to switch to a different application.
@@ -82,8 +79,6 @@ After you have added the record types for which you want to turn on knowledge ma
 
 To edit an entity record:
 
-1. On the Customer Service admin center (preview) app, select **Knowledge** in **Agent Experience**.
-1. On the **Knowledge** page, in Record Types, select **Manage**.
 1. On the **Record Types** page, select the entity you want to edit.
 1. Click **Edit**. The **Set up Knowledge settings on the app side pane** dialog appears.
 1. In **Automatic search**, set the **Turn on automatic search** toggle to yes, if you want automatic search to be enabled for your entity record.
