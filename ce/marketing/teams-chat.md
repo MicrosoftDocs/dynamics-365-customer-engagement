@@ -31,12 +31,12 @@ Dynamics 365 Marketing supports the following Teams collaboration activities:
 
 - **Start a new linked chat conversation**: The chat is automatically linked to the record. This functionality is available by default for the following content and customer journey records:
 
-    **Outbound marketing**
+    - **Outbound marketing**
         - Customer journey
         - Email
         - Social post
         - Marketing page
-    **Real-time marketing**
+    - **Real-time marketing**
         - Customer journey
         - Email
         - SMS
