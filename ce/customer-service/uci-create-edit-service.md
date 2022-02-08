@@ -19,8 +19,6 @@ ms.custom:
 
 # Create or edit a service
 
-## Introduction
-
 To make scheduling services quick and easy, it’s helpful to predefine the specifics of the services you’d provide to customers. By using the service records in Dynamics 365 Customer Service, you can define: 
 
 - How long a service activity lasts 
@@ -33,7 +31,7 @@ A service requires at least one selection rule and one or more resources, resour
 
 1. Make sure that you have the Manager, Vice President, CEO-Business Manager, System Administrator, or System Customizer security role or equivalent permissions. 
 
-2. Navigate to either on the Customer Service Hub or on Customer Service admin center (preview) app. Depending on your app, perform the following steps:
+2. Navigate to either the Customer Service Hub or Customer Service admin center (preview) app. Depending on your app, perform the following steps:
 
    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
@@ -71,7 +69,7 @@ A service requires at least one selection rule and one or more resources, resour
    
 5. On the **Required Resources** tab, define a selection rule.
   
-   ![Define selection rule.](media/uci-define-selection-rule.png "Define a selection rule on the Required Resources tab")
+    ![Define selection rule.](media/uci-define-selection-rule.png "Define a selection rule on the Required Resources tab")
    
     |Option  |Description|
     |---------|---------|
