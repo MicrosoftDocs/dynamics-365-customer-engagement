@@ -74,7 +74,7 @@ To access Teams chats, open any content or customer journey record in Dynamics 3
 The **Teams chats (Preview)** pane opens and displays the following sections in the **Chat** tab:
 
 -	**Chats linked to record** lists Teams chats that either you've linked to the selected record or someone else has linked with you as a participant.
--	**Suggested contacts** lists suggested contacts depending on the users who are working on the record. For more information, see [How contact suggestions work](teams-chat.md#how-content-suggestions-work) below.
+-	**Suggested contacts** lists suggested contacts depending on the users who are working on the record. For more information, see [How contact suggestions work](teams-chat.md#how-contact-suggestions-work) below.
 -	**Other chats** lists your top 200 chat conversations on Teams. You can select an existing conversation and link it to a record.
 
 The **Channel** tab lists the channels that you've linked to the selected record and any channels someone else has linked to where you're a participant. If you've linked a record to a channel using the basic or enhanced collaboration experience, that channel is also listed on this tab.
