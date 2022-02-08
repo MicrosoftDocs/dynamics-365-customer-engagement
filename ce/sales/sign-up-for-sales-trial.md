@@ -1,17 +1,17 @@
 ---  
-title: "Sign up for a free trial - Dynamics 365 Sales | Microsoft Docs"
+title: "Sign up for a free Sales Premium trial - Dynamics 365 Sales | Microsoft Docs"
 description: "Learn how to quickly sign up for and start a free Dynamics 365 Sales trial. Explore the app with tours and videos, and find more learning resources."
 author: lavanyakr01
 ms.author: lavanyakr
-ms.date: 01/10/2022
+ms.date: 02/08/2022
 ms.topic: get-started
 ms.service: dynamics-365-sales
 ms.custom: template-trial-setup
 ms.reviewer: shujoshi
 ---
-# Sign up for a free Dynamics 365 Sales trial 
+# Sign up for a free Dynamics 365 Sales Premium trial 
 
-Dynamics 365 Sales offers a 30-day free trial with the Sales Premium license. After a quick sign-up, you'll have access to many of the app's key features. The trial allows you to test the app with sample data and even try out your own customer data. [Learn more about Dynamics 365 Sales features](overview.md).
+Dynamics 365 Sales Premium offers a 30-day free trial with the Sales Premium license. After a quick sign-up, you'll have access to many of the app's key features. The trial allows you to test the app with sample data and even try out your own customer data. [Learn more about Dynamics 365 Sales features](overview.md).
 
 **To sign up for the trial**:
 
