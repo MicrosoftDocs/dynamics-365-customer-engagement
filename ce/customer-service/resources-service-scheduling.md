@@ -37,7 +37,7 @@ Make sure that you have the required security role or equivalent permissions.
     1. On the Customer Service admin center (preview) site map, select **Operations > Service scheduling**.
     2.  In the **Resources** section, select **Manage**.
         
-        The **Active Bookable Resources** view is displayed. You can switch between various system views using the drop-down list.  
+       The **Active Bookable Resources** view is displayed. You can switch between various system views using the drop-down list.  
 
    ### [Customer Service Hub](#tab/customerservicehub)
 
