@@ -33,7 +33,7 @@ Make sure that you have the required security role or equivalent permissions.
    > [!IMPORTANT]
    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-    1. On the Customer Service admin center (preview) site map, select **Operations > Business closure**.
+    1. On the Customer Service admin center (preview) site map, select **Operations > Service Scheduling**.
     1.  In the **Business closure** section, select **Manage**.
        
       The **Business Closures** view is displayed. You can switch between various system views using the drop-down list.  
@@ -41,7 +41,7 @@ Make sure that you have the required security role or equivalent permissions.
    ### [Customer Service Hub](#tab/customerservicehub)
 
     1. On the Customer Service Hub site map, go to **Scheduling**.
-    1. From the list of entity records, select **Settings > Organizational units**.
+    1. From the list of entity records, select **Settings > Business Closures**.
       
       The **Business Closures** view is displayed. You can switch between various system views using the drop-down list.
        Select any existing record to see additional options in the command bar.
