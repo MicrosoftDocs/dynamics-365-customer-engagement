@@ -993,8 +993,6 @@
   - name: GDPR for sales premium
     href: embedded-intelligence-gdpr.md
     items:
-    - name: Opt out of relationship analytics (GDPR)
-      href: optout-relationship-analytics-gdpr.md
     - name: View and export KPI data (GDPR)
       href: view-export-KPI-data-gdpr.md
     - name: Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action

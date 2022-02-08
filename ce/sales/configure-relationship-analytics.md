@@ -103,7 +103,7 @@ Follow these steps:
     > [!div class="mx-imgBorder"]
     > ![Select Sales Insights preview option](media/sales-insights-addon-admincenter-customer-insights-preview.png "Select Sales Insights preview option")    
     
-3. Read the description carefully, select the **Allow org data to be used by ‎Dynamics 365 Sales Insights - Analytics**‎ option, and then select **Save changes**.    
+3. Read the description carefully, select the **Allow org data to be used by Dynamics 365 Sales Insights - Analytics** option, and then select **Save changes**.    
     > [!div class="mx-imgBorder"]
     > ![Enable and save Sales Insights preview option](media/sales-insights-addon-admincenter-customer-insights-preview-settings.png "Enable and save Sales Insights preview option")    
     
@@ -114,8 +114,7 @@ Follow these steps:
 ### See also
 
 [Use relationship analytics to gather KPIs](../sales/relationship-analytics.md)  
-[Add Relationship intelligence widgets to custom forms](add-ri-widgets-to-custom-form.md)
-[Opt out of relationship analytics (GDPR)](optout-relationship-analytics-gdpr.md)  
+[Add Relationship intelligence widgets to custom forms](add-ri-widgets-to-custom-form.md) 
 [GDPR for Sales Insights](embedded-intelligence-gdpr.md)  
 [View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)  
 
