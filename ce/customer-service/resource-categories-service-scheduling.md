@@ -19,8 +19,6 @@ ms.custom:
 
 # Create and manage resource categories 
 
-## Introduction
-
 With bookable resource categories, you can group your bookable resources by type. For example, you can create categories like technician, supervisor, subcontractor, vehicle, or equipment.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]: [Multi-resource scheduling with requirement groups](/dynamics365/customer-engagement/common-scheduler/multi-resource-scheduling-requirement-groups)
@@ -59,7 +57,7 @@ Make sure that you have the required security role or equivalent permissions.
 
 5. In the **Related** section, you can view and manage various resource category associations.
 
- ![resource categories.](media/resource_category_csh.png)
+   ![resource categories.](media/resource_category_csh.png)
 
 Similarly, you can create a new requirement resource category for requirements.
 
