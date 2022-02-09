@@ -57,7 +57,7 @@ Sign in to Dynamics 365, and on the apps page, select Customer service admin cen
 
 ### Navigating the site map in Customer Service admin center
 
-The features are grouped in the site map as follows:
+Depending on the licenses purchased for the various features, out of the box, the features are grouped in the site map as follows. Every broad group contains an overview page with deep links to the features within the area.
 
 - Get started
   - Home
@@ -83,7 +83,7 @@ The features are grouped in the site map as follows:
   - Service scheduling
   - Miscellaneous
 
-
+  :::image type="content" source="media/customer-service-admin-center.png" alt-text="Overview page of Customer Service admin center":::
 
 ## FAQ
 

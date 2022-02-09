@@ -1,7 +1,7 @@
 ---
 title: "Create and manage users and user profiles | MicrosoftDocs"
 description: "This topic provides steps that you can perform to manage users in Omnichannel for Customer Service."
-ms.date: 09/20/2021
+ms.date: 02/11/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -21,24 +21,36 @@ For more information on how to create users and assign security roles, see [Assi
 
 Users should be configured as a bookable resource so that they can be assigned work items by using unified routing. Perform the steps in this section to manage users for unified routing.
 
-1. Do one of the following:
-   - In the site map of Omnichannel admin center, select **Users** under **General settings**.
-   - In Customer Service Hub, go to the **Service Management** site map, and under **Unified Routing**, select **Users**.
+1. Navigate to the Customer Service admin center (preview), Omnichannel admin center, or Customer Service Hub app, and perform the following steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   
+    1. In the site map, select **User management** in **Customer support**.
+   .
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
 
-2. Double-click a user in the list.
+    1. In the site map, select **Users** in **General settings**.
 
-3. Select the **Omnichannel** tab.
+   ### [Customer Service Hub](#tab/customerservicehub)
 
-4. Specify the following in the user page.
+    1. Go to the **Service Management** site map, and in **Unified Routing**, select **Users**.
+
+1. Double-click a user in the list.
+
+1. Select the **Omnichannel** tab.
+
+1. Specify the following in the user page.
 
     | Section | Field | Description | Example value |
     |---------------|---------------------|---------------------|-------------------------------------------------|
     | User Details | Capacity | If capacity units is configured, allocate a value that indicates the capacity of the agent. For information: [Capacity](#capacity). | 100 |
     | User Details | Default Presence | Assign a default presence status for agent. This is the status that the agent is logged in with, in the Omnichannel for Customer Service app. |
 
-5. Select **New Bookable Resource** under the **Skills Configuration** section. The **New Bookable Resource** page appears.
+1. Select **New Bookable Resource** under the **Skills Configuration** section. The **New Bookable Resource** page appears.
 
-6. Do the following:
+1. Do the following:
    1. Specify the name of agent in the **Name** field.
 
    2. Select **Save**. The **Work Hours** tab is enabled.
@@ -63,7 +75,7 @@ Users should be configured as a bookable resource so that they can be assigned w
 
 8. To use the user schedule for assignment, set up the bookable resource calendar. More information: [Apply a calendar to a resource](../field-service/calendar-resource.md)
 
-9. Add the user to the required queue that's configured for unified routing. More information: [Configure queues for unified routing](queues-omnichannel.md)
+9.  Add the user to the required queue that's configured for unified routing. More information: [Configure queues for unified routing](queues-omnichannel.md)
 
 ### Capacity
 
