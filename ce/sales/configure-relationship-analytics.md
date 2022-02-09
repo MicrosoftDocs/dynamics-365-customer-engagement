@@ -99,14 +99,34 @@ Follow these steps:
     > ![Admin center](media/sales-insights-addon-admincenter.png "Admin center")   
     
 2. Select **Settings** > **Org settings** > **Dynamics 365 Applications**.    
-    > [!div class="mx-imgBorder"]
-    > ![Select Sales Insights preview option](media/sales-insights-addon-admincenter-customer-insights-preview.png "Select Sales Insights preview option")    
+    The consent form is displayed in the right pane.
+    :::image type="content" source="media/office365-consent-form.png" alt-text="Consent form to use office 365 data":::
+
+    > [!IMPORTANT]
+    > If you've already provided consent in the **Dynamics 365 Sales Insights – Analytics** page, the consent will be valid until <month> 2022. After which, you must provide the consent in the new form as shown in the preceding screenshot. 
     
-3. Read the description carefully, select the **Allow org data to be used by Dynamics 365 Sales Insights - Analytics** option, and then select **Save changes**.    
-    > [!div class="mx-imgBorder"]
-    > ![Enable and save Sales Insights preview option](media/sales-insights-addon-admincenter-customer-insights-preview-settings.png "Enable and save Sales Insights preview option")    
+3. Read the description carefully and select the insights that you want to enable for your users. 
+
+    > [!NOTE]
+    > The consent provided is applicable for all the Dynamics 365 applications.  
     
-    Now you can connect to the Exchange server to collect data.
+4. Verify whether the **Exchange Online** option is selected in the relationship analytics settings page. 
+    :::image type="content" source="media/si-admin-relationship-analytics-enable-in-organization.png" alt-text="Screenshot of exchange online selection in relationship analytics page.":::
+    
+    Relationship insights can now connect to the Exchange server to fetch data.
+
+## Consent required for Relationship insights
+
+Depending on the consent provided by the Office 365 administrator, the following relationship insights are available to your users:
+
+
+|Consent  |Insights  |
+|---------|---------|
+|Insights for users     |         |
+|Insights for the org |         |
+|Insights for other users|         |
+ 
+
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
