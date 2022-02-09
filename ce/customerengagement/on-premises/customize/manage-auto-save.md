@@ -31,13 +31,13 @@ Auto-save helps people focus on their work without having to manage saving data 
   
  With auto-save enabled, the save button only appears for the initial save of the record. After the record is created, the save button in the command bar isn’t shown, but you can see a ![Auto save button.](../customize/media/auto-save-icon.png "Auto save button") button in the lower right corner that will show if there are any unsaved changes. This control is also displayed if auto-save is disabled.  
   
- You can click this button to save the record and refresh data in the form immediately. When auto-save is enabled, the record will be saved whenever you navigate away from a record or close a separate window displaying a record. There is no need for the **Save & Close** button that appears in forms for entities that aren’t updated.
+ You can click this button to save the record and refresh data in the form immediately. When auto-save is enabled, the record will be saved whenever you navigate away from a record or close a separate window displaying a record. There's no need for the **Save & Close** button that appears in forms for entities that aren’t updated.
    > [!IMPORTANT]
-   >  In Unified Interface, the auto-save interval for a page will increase if there is an error during auto-save. Also, if an attribute value is changed or there is a successful save, the interval will reset to 30 seconds.
+   >  In Unified Interface, the auto-save interval for a page will increase if there's an error during auto-save. Also, if an attribute value is changed or there's a successful save, the interval will reset to 30 seconds.
   
 <a name="BKMK_AutoSave"></a>   
 ## Should you disable auto-save?  
- If you have plug-ins, workflows, or form scripts that execute when a record is saved, they’ll run each time auto-save occurs. This might lead to undesirable behaviors if these extensions weren’t designed to work with auto-save. Whether auto-save is enabled or not, plug-ins, workflows, and form scripts should be designed to look for specific changes, and shouldn’t execute indiscriminately for each save event.  
+ If you have plug-ins, workflows, or form scripts that execute when a record is saved, they’ll run each time auto-save occurs. This might lead to undesirable behaviors if these extensions weren’t designed to work with auto-save. Whether you enable auto-save or not, plug-ins, workflows, and form scripts should be designed to look for specific changes, and shouldn’t execute indiscriminately for each save event.  
   
  If you have auditing configured for an entity, each save is treated like a separate update. If someone lingers on a form with unsaved changes for more than 30 seconds, you’ll see an additional entry only if they add more data after the auto-save is performed. If you have reports that depend on auditing data and treat each save as an individual “touch” of a record, you might see an increase in the frequency of touches. If you're using this approach, you should consider that individual user behaviors make it an unreliable metric with or without auto-save enabled.  
   
@@ -139,7 +139,7 @@ Auto-save helps people focus on their work without having to manage saving data 
   
 11. In the solution explorer, click **Publish All Customizations**.  
   
-    After you apply this script to the `OnSave` event, when people edit a record using this form, the message **unsaved changes** will appear in the lower right corner of the form just as it would if auto-save was not disabled. But this message won't go away until people click the ![Auto save button.](../customize/media/auto-save-icon.png "Auto save button") button next to it.  
+    After you apply this script to the `OnSave` event, when people edit a record using this form, the message **unsaved changes** will appear in the lower right corner of the form just as it would if auto-save wasn't disabled. But this message won't go away until people click the ![Auto save button.](../customize/media/auto-save-icon.png "Auto save button") button next to it.  
   
 ### See also  
  [Create and design forms](../customize/create-design-forms.md)      
