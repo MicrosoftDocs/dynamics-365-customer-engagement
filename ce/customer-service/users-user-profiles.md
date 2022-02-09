@@ -21,7 +21,7 @@ For more information on how to create users and assign security roles, see [Assi
 
 Users should be configured as a bookable resource so that they can be assigned work items by using unified routing. Perform the steps in this section to manage users for unified routing.
 
-1. Go to the Customer Service admin center (preview), Omnichannel admin center, or Customer Service Hub app, and perform the following steps.
+1. Go to one of the apps, and perform the following steps.
    
    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
      

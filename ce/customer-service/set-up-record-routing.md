@@ -36,9 +36,9 @@ The following prerequisites are applicable:
 
 ## Configure unified routing for records
 
-Perform the following steps to configure record routing:
+**To configure record routing**
 
-1. Go to the Customer Service admin center (preview), Omnichannel admin center, or Customer Service Hub app, and perform the following steps.
+1. Go to one of the apps, and perform the following steps.
    
    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
      
@@ -69,7 +69,7 @@ Perform the following steps to configure record routing:
 
 To configure a workstream for the record, do the following:
 
-1. Go to the Customer Service admin center (preview), Omnichannel admin center, or Customer Service Hub app, and perform the following steps.
+1. Go to one of the apps, and perform the following steps.
    
    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
@@ -83,7 +83,7 @@ To configure a workstream for the record, do the following:
 
    ### [Customer Service Hub](#tab/customerservicehub)
 
-    1. In the **Service Management** site map, select **Workstream** in **Unified Routing**, and then select **New workstream**.
+    - In the **Service Management** site map, select **Workstream** in **Unified Routing**, and then select **New workstream**.
    
 
 1. In the **Create a workstream** dialog, enter the following details:
