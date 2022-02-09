@@ -92,7 +92,7 @@ When you close a session, resolve, cancel, or reroute a case, the system determi
 
 ### Reset agent presence
 
-When you reset the agent presence based on the missed notification or the agent reject notification banner, the system determines your presence based on your work capacity.
+When you reset the agent presence based on the missed notification or the agent reject notification, the system determines your presence based on your work capacity.
 
 ### Troubleshoot display of presence
 
