@@ -34,22 +34,22 @@ Quickly create other entitlements prefilled with the basic information like the 
   
    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
 
-2. Navigate to the Customer Service admin center (preview) or Customer Service Hub app. Depending on your app, perform the following steps:
+2. Navigate to the Customer Service admin center (preview) or Customer Service Hub app, and perform the following steps:
 
    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
    > [!IMPORTANT]
    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-    1. On the Customer Service admin center (preview) site map, select **Operations > Service terms**.
+    1. In the site map, select **Service terms** in **Operations**. The **Service Terms** page appears.
     1.  In the **Entitlement Templates** section, select **Manage**.                                                                         
         
         The **All Entitlement Templates** view is displayed. You can switch between various system views using the drop-down list.  
 
    ### [Customer Service Hub](#tab/customerservicehub)
 
-    1. On the Customer Service Hub site map, go to **Service Management**.
-    1. From the list of entity records, select **Templates > Entitlement Templates**.                                                              
+    1. In the site map, go to **Service Management**.
+    1. From the list of entity records, select **Entitlement Templates** in **Templates**.                                                              
        
        The **All Entitlement Templates** view is displayed. You can switch between various system views using the drop-down list.
 
