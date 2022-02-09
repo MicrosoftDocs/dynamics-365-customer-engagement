@@ -970,12 +970,6 @@
           href: ../common-scheduler/fulfillment-preferences.md
       - name: Configure service activity using schedule board
         href: use-schedule-board-configure-service-activity.md
-      - name: Work with settings
-        items: 
-        - name: Create and manage organizational units
-          href: create-org-units-cs-scheduling.md
-        - name: Schedule business closure
-          href: set-when-business-closed-csh.md
     - name: Service Scheduling in Unified Interface
       items: 
       - name: Service Scheduling in Unified Interface
