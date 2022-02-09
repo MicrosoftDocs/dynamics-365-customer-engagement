@@ -2,7 +2,7 @@
 title: "Create 1:N relationships in Dynamics 365 Customer Engagement (on-premises)"
 description: "A 1:N relationship is one in which a primary entity is associated with many other records. Learn about creating this relationship and behaviors you can set."
 ms.custom: 
-ms.date: 11/09/2018
+ms.date: 02/09/2022
 ms.reviewer: 
 ms.prod: d365ce-op
 ms.suite: 
@@ -76,7 +76,7 @@ search.audienceType:
   
 10. In the **Relationship Behavior** section, in the **Type of Behavior** list, choose one of the following options:  
   
-    - **Parental**. In a parental relationship between two entities, any action taken on a record of the parent entity is also taken on any child entity records that are related to the primary (or parent) entity record.  
+    - **Parental**. In a parental relationship between two tables, any action taken on a record of the parent table is also taken on any child table records that are related to the primary (or parent) table record. For example, the owner of the parent record has inherited access to the child table records and when the parent record is deleted, all of the child records will also be deleted.  
   
     - **Referential**. In a referential relationship between two entities, you can navigate to any related records, but actions taken on one will not affect the other.  
   
