@@ -1472,6 +1472,8 @@
     href: cs-share-feedback.md
   - name: FAQs on Customer Service
     items: 
+    - name: FAQs on Customer Service admin center
+      href: faq-customer=service-admin-center.md
     - name: FAQs on unified routing
       href: unified-routing-faqs.md
     - name: FAQs on AI suggestions for cases and knowledge articles
