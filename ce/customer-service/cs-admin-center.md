@@ -99,4 +99,4 @@ You can manage the following features in **Operations**:
 [Help resources for Customer Service](help-hub.md)  
 [Sign up for a free Dynamics 365 Customer Service trial](try-customer-service.md)  
 [Overview of user management](overview-users.md)  
-[FAQs about Customer Service admin center]
+[FAQs about Customer Service admin center](faq-customer-service-admin-center.md)  
