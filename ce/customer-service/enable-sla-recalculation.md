@@ -28,9 +28,26 @@ By default, SLAs in the terminal status are not reevaluated on case reactivation
 
 Do the following to enable the recalculation of SLAs that reach the terminal status:
 
-1. In Customer Service Hub, go to **Service Management**, and under **Service Terms**, select **Service Configuration Settings**.
+1. Navigate to the Customer Service admin center (preview) or Customer Service Hub app, and perform the following steps:
 
-2. In **Re-evaluate SLA on terminal status**, set the toggle to yes, and select **Save**.
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+
+   > [!IMPORTANT]
+   > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+    1. Select **Operations > Service Terms**.
+    1. In the **Other SLA Settings** section, select **Manage**.                                                                         
+        
+        The **Service Configuration Settings** view is displayed. 
+
+   ### [Customer Service Hub](#tab/customerservicehub)
+
+    1. Go to **Service Management**.
+    1. From the list of entity records, select **Service Terms > Service Configuration Settings**.      
+
+        The **Service Configuration Settings** view is displayed.            
+
+2. In **Recalculate SLA on terminal status**, set the toggle to yes, and select **Save**.
 
     :::image type="content" source="media/sla-recalculate.png" alt-text="Enable recalculate SLA on reaching terminal status.":::
 

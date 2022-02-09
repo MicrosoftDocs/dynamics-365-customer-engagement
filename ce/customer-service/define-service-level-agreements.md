@@ -68,17 +68,32 @@ Review the following requirements before configuring SLAs for your organization:
 > [!NOTE]
 > In Unified Interface, the Elapsed Time and Paused On attributes of an SLA KPI Instance contain the values that are equivalent to the values in the Last Onhold Time and Onhold Time attributes of the target record, such as the case and account, in the web client.
 
-## Create SLA KPIs in Customer Service Hub<a name="create-sla-kpis"></a>
+## Create SLA KPIs <a name="create-sla-kpis"></a>
 
 SLA KPIs are performance indicators, such as First Response or Resolve by, that you'd like to track.
 
-1. Sign in to Customer Service, and open the **Customer Service Hub** app.
+ 1. Navigate to the Customer Service admin center (preview) app or Customer Service Hub app. Depending on your app, perform the following steps:
 
-2. Select **Change area** > **Service Management** > **SLA KPIs**.
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
-3. Select **New**. The **New SLA KPI** page appears.
+   > [!IMPORTANT]
+   > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-4. Enter the following details on the **General** tab:
+    1. On the Customer Service admin center (preview) site map, select **Operations  > Service Terms**.
+    1.  In the **SLA KPIs** section, select **Manage**.                                                                         
+        
+        The **Active SLAKPIs** view is displayed. Select the SLA for which you want to add an SLA item.   
+
+   ### [Customer Service Hub](#tab/customerservicehub)
+
+    1. On the Customer Service Hub site map, go to **Service Management**.
+    1. From the list of entity records, select **Service Terms > SLA KPIs**.                                                              
+       
+       The **Active SLAKPIs** view is displayed. Select the SLA for which you want to add an SLA item. 
+
+2. Select **New**. The **New SLA KPI** page appears.
+
+3. Enter the following details on the **General** tab:
 
    - **Name**: The name of the SLA KPI.
 
@@ -90,18 +105,18 @@ SLA KPIs are performance indicators, such as First Response or Resolve by, that 
 
    - **Applicable From**: Select a value based on which the warning and failure time will be measured. For example, if you select **Created On**, the warning and failure start time for an SLA will be calculated from the date and time when the entity was created.
 
-5. Select **Save**.
+4. Select **Save**.
 
-6. To define the pause criteria at the KPI level, in the **Pause Conditions** section that appears, do the following:
+5. To define the pause criteria at the KPI level, in the **Pause Conditions** section that appears, do the following:
    1. Set the toggle to **Yes** for **Override Criteria**. If any pause settings are applied at the entity level for your org, they will be overridden by the criteria define at the KPI level. For the other KPIs, the entity level pause settings will continue to function if no pause criteria is defined at the KPI level.
    2. Select **Add** to define the conditions in which the SLA KPI can be paused.
 
     > [!NOTE]
     > At runtime, when you pause an SLA KPI instance and resume it, the SLA KPI instance is canceled and a new SLA KPI instance is created.
 
-7. Select **Activate**. The SLA KPI is saved and activated.
+6. Select **Activate**. The SLA KPI is saved and activated.
 
-## Create SLAs in Customer Service Hub<a name="create-slas"></a>
+## Create SLAs<a name="create-slas"></a>
 
 Create SLAs to define conditions and actions that are applicable when an SLA is applied to an entity. The following steps are involved in creating the SLA:
 
@@ -110,9 +125,26 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 3. Configure actions for the SLA item.
 4. Activate the SLA.
 
-### Create an SLA
+### Create an SLA 
 
-1. In **Customer Service Hub** > **Service Management**, select **SLAs**.
+ 1. Navigate to the Customer Service admin center (preview) app or Customer Service Hub app. Depending on your app, perform the following steps:
+
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+
+   > [!IMPORTANT]
+   > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+    1. On the Customer Service admin center (preview) site map, select **Operations  > Service Terms**.
+    1.  In the **Service Level Agreements (SLAs)** section, select **Manage**.                                                                         
+        
+        The **All Service Level Agreements** view is displayed. You can switch between various system views using the drop-down list.  
+
+   ### [Customer Service Hub](#tab/customerservicehub)
+
+    1. On the Customer Service Hub site map, go to **Service Management**.
+    1. From the list of entity records, select **Service Terms > Service Level Agreements**.                                                              
+       
+       The **All Service Level Agreements** view is displayed. You can switch between various system views using the drop-down list.  
 
 2. Select **New**. The **New SLA** page appears.
 
@@ -126,7 +158,24 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
 ### Create an SLA item
 
-1. In **Customer Service Hub** > **Service Management**, select the SLA for which you want to add an SLA item.
+ 1. Navigate to the Customer Service admin center (preview) app or Customer Service Hub app. Depending on your app, perform the following steps:
+
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+
+   > [!IMPORTANT]
+   > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+    1. On the Customer Service admin center (preview) site map, select **Operations  > Service Terms**.
+    1.  In the **Service Level Agreements (SLAs)** section, select **Manage**.                                                                         
+        
+        The **All Service Level Agreements** view is displayed. Select the SLA for which you want to add an SLA item.   
+
+   ### [Customer Service Hub](#tab/customerservicehub)
+
+    1. On the Customer Service Hub site map, go to **Service Management**.
+    1. From the list of entity records, select **Service Terms > Service Level Agreements**.                                                              
+       
+       The **All Service Level Agreements** view is displayed. Select the SLA for which you want to add an SLA item. 
 
 2. On the page that appears, select **New SLA Item**. The **New SLA Item** dialog box appears.
 

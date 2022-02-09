@@ -38,9 +38,26 @@ You can create the service schedule and define work hours in Dynamics 365 Custom
    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
-  
-2. In the Customer Service Hub site map, go to **Service Management** and select **Service Terms** > **Customer Service Schedule**.
 
+2. Navigate to the Customer Service admin center (preview) or Customer Service Hub app, and perform the following steps:
+
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+
+   > [!IMPORTANT]
+   > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+    1. In the site map, select **Calendar** in **Operations**. The **Calendar** page appears.
+    1.  In the **Customer service calendar** section, select **Manage**.                                                                         
+        
+        The **All Customer Service Calendars** view is displayed. You can switch between various system views using the drop-down list.  
+
+   ### [Customer Service Hub](#tab/customerservicehub)
+
+    1. In the site map, go to **Service Management**.
+    1. From the list of entity records, select **Customer Service Schedule** in **Service Teams**.                                                              
+       
+       The **All Customer Service Calendars** view is displayed. You can switch between various system views using the drop-down list.
+  
     > [!NOTE]
     > In the Customer Service app, [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)] and select **Customer Service Schedule**.
   

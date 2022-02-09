@@ -35,9 +35,24 @@ After you create an operating hour record, in Omnichannel admin center, you can 
 In Omnichannel Administration, you can add the operating hour record on the **Design** tab of the appropriate chat widget to control the display of the widget. For SMS channels and queues, the operating hour will be available for selection on the **General** and **Summary** tabs respectively.
 
 ## Create a record to define operating hours
+1. Navigate to the Customer Service admin center (preview) or Customer Service Hub app, and perform the following steps:
 
-1. In Omnichannel admin center, in the site map, under **Advanced settings**, select **User attributes**.
-2. On the page that appears, select **Manage** for **Operation Hours**.
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+
+   > [!IMPORTANT]
+   > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+    1. In the site map, select **Calendars** in **Operations**. The **Calendar** page appears.
+    1.  In the **Operating Hours** section, select **Manage**.                                                                         
+        
+        The **Active Operating Hours** view is displayed. You can switch between various system views using the drop-down list.  
+
+   ### [Omnichannel admin Center](#tab/Omnichanneladmincenter)
+
+    1. In the site map, select **User attributes** in **Advanced settings**. The **User attributes** page appears.
+    1. In the **Operating Hours** section, select **Manage**.                                                              
+       
+       The **Active Operating Hours** view is displayed. You can switch between various system views using the drop-down list.
 
     > [!Note]
     > If you are using Omnichannel Administration, under **Settings**, select **Operating Hours**.
@@ -92,13 +107,11 @@ You can edit or delete the operating hours schedule in an existing record.
 
 Do the following to specify operating hours for a chat widget:
 
-1. Open the chat widget, and select the **Design** tab.
-2. In the **Operating hours** box, browse, and select the operating hour record. The chat widget is displayed during the hours specified in the selected operating hour record.
-3. Specify the offline settings in the **Offline** area.
-4. Save the changes.
-
-    > [!div class=mx-imgBorder]
-    > ![Add operating hours in a chat widget.](media/oc-chat-widget-design-tab.png "Add operating hours in a chat widget")
+1. Open the Chat channel settings widget, and select the **chat widget** tab.
+1. Toggle the **Show widget during operation hours** to **On**.
+1. In the **Operating hours name** field, browse, and select the operating hour record. The chat widget is displayed during the hours specified in the selected operating hour record.
+1. Select **Show widget outside of operation hours** to display the widget outside work hours.
+1. Save the changes.
 
 ## Add operating hours to a queue
 
@@ -106,9 +119,26 @@ You can add operating hours to a queue that can subsequently be configured for a
 
 Do the following to specify operating hours for a queue:
 
-1. Open the queue for which you want to specify the operating hours.
-2. On the **Summary** tab, in the **Operating Hours** box, search and select the operating hour record that you want to specify.
-3. Save the changes.
+1. Navigate to the Customer Service admin center (preview) or Customer Service Hub app, and perform the following steps:
+
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+
+   > [!IMPORTANT]
+   > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+    1. In the site map, select **Queues** in **Customer Support**. The **Queues** page appears.
+    1.  In the **Advanced Queues** section, select **Manage**.                                                                         
+        
+        The **Queues** view is displayed. 
+
+   ### [Omnichannel admin Center](#tab/Omnichanneladmincenter)
+
+    In the site map, select **Queues** in **General settings**. The **Queues** page appears.
+
+2. Open the queue for which you want to specify the operating hours.
+3. On the **Operation hours** tab, select **Set operation hours**.
+4. In the **Set operation hours** page, search and select the operating hour record that you want to specify.
+5. Save the changes.
 
 ## Limitation
 
