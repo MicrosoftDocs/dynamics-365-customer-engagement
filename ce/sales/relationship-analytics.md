@@ -214,8 +214,7 @@ In addition to the absolute health score, the system also reports the general tr
 ### See also   
 
 [Configure relationship analytics](configure-relationship-analytics.md)   
-[GDPR for Dynamics 365 Sales Insights](embedded-intelligence-gdpr.md)   
-[Opt out of relationship analytics (GDPR)](optout-relationship-analytics-gdpr.md)   
+[GDPR for Dynamics 365 Sales Insights](embedded-intelligence-gdpr.md)      
 [View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)   
 [Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action](../sales/retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)
 

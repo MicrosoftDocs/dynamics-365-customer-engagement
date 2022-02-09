@@ -23545,8 +23545,8 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/customer-service/knowledge-management-oc.md",
-      "redirect_url": "set-up-knowledge-management-embedded-knowledge-search#set-up-knowledge-management-customer-service-hub",
+      "source_path": "ce/sales/optout-relationship-analytics-gdpr.md",
+      "redirect_url": "dynamics-365-sales-gdpr",
       "redirect_document_id": "false"
     }
   ]
