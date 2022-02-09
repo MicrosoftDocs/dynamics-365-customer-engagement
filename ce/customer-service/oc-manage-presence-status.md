@@ -1,7 +1,7 @@
 ---
 title: Manage presence status in Omnichannel for Customer Service | MicrosoftDocs
 description: Use this topic to learn how to view and update your presence status in Omnichannel for Customer Service.
-ms.date: 02/08/2022
+ms.date: 02/09/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -12,14 +12,16 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Presence is the indication of your availability or status.
+## Introduction
+
+Presence is an indication of your availability or status in the application.
 
   > [!div class=mx-imgBorder]
   > ![Agent presence status.](media/oceh-presence-icon.png "Agent presence status")
 
 ## View your presence status
 
-As an agent, you can view your presence status that is shown in the navigation bar. Select the icon to launch the presence dialog. Each presence status is indicated by an icon:
+As an agent, you can view your presence status on the navigation bar. You can select the presence icon to launch the presence dialog and update your presence.
 
   - ![Offline presence status.](media/oceh-offline-icon.png "Offline presence status")  Offline
 
@@ -33,12 +35,12 @@ As an agent, you can view your presence status that is shown in the navigation b
   
   - ![Inactive presence status.](media/oceh-appear-away-icon.png "Appear away presence status")  Inactive
   
-If you can't see your presence status, make sure that cookies are not blocked in your browser in any mode.
+For the presence status or the icon to be displayed correctly, ensure that cookies are enabled in your browser for all modes.
  
 ## Update your presence status
 
 Presence status is updated in two ways:
-- **Manually** - Change the status manually according to your availability.<br> To view and set the presence, select the presence icon from the nav bar and then select the status from the list. The list shows five standard presence statuses:
+- **Manually** - Change the status manually according to your availability.<br> To view and set the presence, select the presence icon from the navigation bar and then select the status from the list. The list shows five standard presence statuses:
 
   - Offline
   - Appear away
@@ -62,35 +64,35 @@ Presence status is updated in two ways:
 
 ## Understand presence status scenarios
 
-Your agent presence status pertains to the three following conditions:
+Your presence status pertains to the following three conditions:
 
 - If the presence is **Away** or **Offline**, the system doesn't update the presence. However, you can manually change it. 
 
-- If the presence is manually changed to **Do not disturb**, the system doesn't update the presence. However, you can manually change it. 
+- If the presence is manually changed to **Do not disturb**, the system doesn't update the presence. However, you can again manually change it. 
 
-- The system computes your presence based on your utilized or released capacity. The presence changes from **Available** to **Busy**, **Busy** to **Do not disturb**, **Do not disturb** to **Busy**, or **Busy** to **Available**.
+- The system determines your presence based on your used or released capacity. The presence changes from **Available** to **Busy**, **Busy** to **Do not disturb**, **Do not disturb** to **Busy**, or **Busy** to **Available**.
 
-Following are few important scenarios that describe how your presence status could be impacted as you work with your customers.
+The following scenarios describe how your presence status can be affected while you work with your customers.
 
 ### Reconnect
 
-When system connection is disrupted due to network issues or when you refresh the browser and connect back within the stipulated time, the system picks up your last known presence. 
+When the system connection is disrupted because of network issues or when you refresh the browser and connect back, the system picks up your last known presence. 
 
-### Login
+### Sign in
 
-When you log in, your presence is set to the default presence if no work items have been assigned to you. If work items are assigned, your presence is automatically computed. However, if your default presence is set as Away or Offline, the system doesn’t override the status.  
+When you sign in, your presence is set to the default presence if no work items have been assigned to you. If work items are assigned, your presence is automatically determined. However, if your default presence is set as Away or Offline, the system doesn’t override the status.  
 
 ### Accept work items
 
-When you accept a work item manually or it is accepted automatically, the system computes your presence based on your work capacity. However, if your presence is set to Away or Offline, or if you have manually changed your presence to Do not disturb, the system doesn’t change your presence. 
+When you accept a work item manually or it is assigned automatically, the system determines your presence based on your work capacity. However, if your presence is set to Away or Offline, or if you have manually changed your presence to Do not disturb, the system doesn’t change your presence. 
 
 ### Close work items 
 
-When you close a session, resolve, cancel, or reroute a case, the system computes your presence based on your work capacity. However, if your presence is set to Away or Offline, or if you have manually changed your presence to Do not disturb, the system doesn’t change your presence.
+When you close a session, resolve, cancel, or reroute a case, the system determines your presence based on your work capacity. However, if your presence is set to Away or Offline, or if you have manually changed your presence to Do not disturb, the system doesn’t change your presence.
 
 ### Reset agent presence
 
-When you reset the agent presence based on the missed notification or the agent reject notification banner, the system computes your presence based on your work capacity.
+When you reset the agent presence based on the missed notification or the agent reject notification banner, the system determines your presence based on your work capacity.
 
 ### Troubleshoot display of presence
 
