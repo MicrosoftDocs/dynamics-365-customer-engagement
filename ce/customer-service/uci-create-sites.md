@@ -52,7 +52,7 @@ Before you begin, make sure you have the System Administrator or System Customiz
 
    ![New site.](media/uci-new-site.png "Enter a name and other details for the new site")
 
-4. Enter the details and click **Save**.
+4. Enter the details and select **Save**.
 
 ### See also  
 

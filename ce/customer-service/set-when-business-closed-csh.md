@@ -60,7 +60,7 @@ Make sure that you have the required security role or equivalent permissions.
   
          The first 12 characters of the name appear on each day of the closure on the calendar view of the affected resource's **Work Hours**.  
   
-    -  If the closure is an all-day event, select the **All Day Event** check box. The application automatically enters the duration of *1 day*.
+    -  If the closure is an all-day event, select the **All Day Event** check box. The application automatically enters the duration of *one day*.
     - In the **Start Time** and **End Time** boxes, enter the start and end date and time for the closure.
   
     - If you want to enter duration instead of an end time, select the length of the closure in the **Duration** box. The application automatically calculates the end time for you.

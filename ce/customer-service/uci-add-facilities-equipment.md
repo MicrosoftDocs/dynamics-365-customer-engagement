@@ -65,11 +65,11 @@ Before you begin, make sure you have the **System Administrator** security role 
 
     - **Description**: Add details about the facility or equipment, such as the numbers, size, make, or model.
   
-3. When you are finished entering details, select **Save** or **Save & Close**.
+3. When you're finished entering details, select **Save** or **Save & Close**.
 
    ![Save details.](media/uci-save-facility-equipment.png "Save the details you've entered")
 
-4. Set up the workhour calendar.
+4. Set up the work hour calendar.
 
    ![Calendar with working hours.](media/uci-workhour-calendar.png "Set up the workhour calendar")
    

@@ -92,7 +92,7 @@ Make sure that you have the required security role or equivalent permissions.
 
        ![bookable resources.](media/bookable_resource_2.png)
 
-5. Once you are ready, select **Save**.
+5. Once you're ready, select **Save**.
 
 ## Set work hours for the resources
 
@@ -158,21 +158,21 @@ You can set work hours for the bookable resources where you can define when the 
   
     - **None. User is not working**  
   
-         The new schedule includes time that the resource is not working.  
+         The new schedule includes time that the resource isn't working.  
   
      In the **Weekly Schedule** dialog box, you can also do any of the following:  
   
     -   If the schedule is for more than one day, select the days of the week this schedule is effective.  
   
-    -   If the resource does not work during business closures, select the **Observe** option.  
+    -   If the resource doesn't work during business closures, select the **Observe** option.  
   
     -   Under **Date Range**, in the **Starting on** box, you can change the date the schedule starts.  
   
-         You cannot change the date the schedule ends. To end a schedule, you must define a new schedule on that date.  
+         You can’t change the date the schedule ends. To end a schedule, you must define a new schedule on that date.  
   
 8. Choose the work hours link for the schedule you want to modify.  
   
-     If work hours have not been set previously, the link is displayed as "Set Work Hours."  
+     If work hours haven't been set previously, the link is displayed as "Set Work Hours."  
   
 9. In the **Set Work Hours and Service Restrictions** dialog box, complete the following fields, and then select **OK**:  
   
