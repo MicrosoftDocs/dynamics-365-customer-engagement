@@ -1,7 +1,7 @@
 ---
 title: Configure knowledge search control on app side pane for an entity record | Microsoft Docs
 description: See how to configure the settings for knowledge search control in Dynamics 365 Customer Service
-ms.date: 02/08/2022
+ms.date: 02/11/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -24,7 +24,7 @@ searchScope:
  - Customer Engagement 
 ---
 
-# Configure knowledge search control on the app side pane for an entity record (preview)
+# Configure knowledge search control on app side pane for an entity record (preview)
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
@@ -44,24 +44,24 @@ Configuring a record type will specify the information that your agents will see
 
 ## Add record types for which you want to turn on knowledge management
 
-You can add record types from the Customer Service Hub or the Customer Service admin center (preview) app. Depending on your app, perform the following steps:
-
-### [Customer Service Hub](#tab/customerservicehub)
-
-1. Go to **Service Management** and select **Settings** in **Knowledge Base Management**. The **Settings** page appears.
-
-2. On the **Settings** page, in **Record Types**, select the record types you want to turn on knowledge management for. The list will include all available entities for an N:N relationship. Knowledge management is enabled for the **Case** entity by default.
+Go to the Customer Service admin center (preview) or Customer Service Hub app, and perform the following steps:
 
 ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
 > [!IMPORTANT]
 > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-1. Select **Knowledge** in **Agent Experience**.
+1. In the sitemap, select **Knowledge** in **Agent Experience**.
 1. On the **Knowledge** page, in **Record Types**, select **Manage**.
 1. On the **Record Types** page, select **Add**. The **Add record type** dialog appears.
 1. On the **Add record type** dialog, from the **Select record type** dropdown list, select the record type.
 1.	Click **Save and Close**.
+
+### [Customer Service Hub](#tab/customerservicehub)
+
+1. Go to **Service Management** and select **Settings** in **Knowledge Base Management**. The **Settings** page appears.
+
+2. On the **Settings** page, in **Record Types**, select the record types you want to turn on knowledge management for. The list will include all available entities for an N:N relationship. Knowledge management is enabled for the **Case** entity by default.
 
 ---
 
@@ -70,7 +70,7 @@ After you have enabled a record type, to set up knowledge base search control on
 To set up knowledge search control on the app side pane, see [Configure knowledge search control on the app side pane](#configure-knowledge-search-control-on-the-app-side-pane).
 
 
-## Configure knowledge search control on the app side pane
+## Configure knowledge search control on app side pane
 
 After you have added the record types for which you want to turn on knowledge management, you can configure the knowledge search control on the app side pane by editing the record type.
 
