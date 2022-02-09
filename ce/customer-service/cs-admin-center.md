@@ -55,35 +55,46 @@ You will need one of the following security roles to access this app. The last t
 
 Sign in to Dynamics 365, and on the apps page, select Customer service admin center(preview). The app is automatically installed in all the Customer service organizations.
 
-### Navigating the site map in Customer Service admin center
+### Navigate the site map in Customer Service admin center
 
-Depending on the licenses purchased for the various features, out of the box, the features are grouped in the site map as follows. Every broad group contains an overview page with deep links to the features within the area.
+Features are grouped in the site map as follows. Every group contains an overview page with deep links to the features within the area.
 
-- Get started
-  - Home
-- Customer Support
-  - Overview
-  - User management: Manage users, their skills, capacity profiles, and role persona mapping
-  - Channels: Manage the channels, such as record, chat, and voice, and the messaging accounts and phone numbers.
-  - Queues: Manage basic and advanced queues.
-  - Routing: Manage routing-related settings, such as enable unified routing, configure record routing, routing diagnostics, and machine learning models for skill-based, effort-based, and sentiment-based routing.
-  - Workstreams: Manage workstreams for the different channels.
-  - Case settings: Manage subjects, automatic record creation rules, advanced similarity rules, parent-child case settings, and 
-  - Customer settings
-- Agent experience
-  - Overview
-  - Workspaces
-  - Productivity
-  - Knowledge
-- Operations
-  - Overview
-  - Insights
-  - Calendar
-  - Service terms
-  - Service scheduling
-  - Miscellaneous
+> [!NOTE]
+> Some of the options that appear on the site map are dependent on the licenses that you have.
 
-  :::image type="content" source="media/customer-service-admin-center.png" alt-text="Overview page of Customer Service admin center":::
+The overview page for every group lists a summary of the objects that are available for each feature. For example, the number of users who are available, and channels and queues that are configured in the organization.
+
+You can manage the following features in **Customer support**:
+
+- **User management**: Users, their skills, capacity profiles, and role persona mapping
+- **Channels**: Channels, such as record, chat, and voice, and the messaging accounts and phone numbers.
+- **Queues**: Manage basic and advanced queues.
+**- Routing**: Routing-related settings, such as enable unified routing, configure record routing, routing diagnostics, and machine learning models for skill-based, effort-based, and sentiment-based routing.
+- **Workstreams**: Workstreams for the different channels.
+**- Case settings**: Subjects, automatic record creation rules, advanced similarity rules, parent-child case settings, and 
+- **Customer settings**: Blocked numbers, authentication settings, geo location, phone music, outbound messaging and automate messages.
+
+  :::image type="content" source="media/customer-support-overview.png" alt-text="Overview page of Customer support in Customer Service admin center.":::
+
+
+You can manage the following features in **Agent experience**:
+  
+- **Workspaces**: App profiles, templates, and third-party voice channel provider.
+- **Productivity**: Transcripts, outbound profiles, templates for emails and messages, macros, and custom presence.
+- **Knowledge**: Record types for which knowledge management needs to be enabled, filters, external portal, article templates, and search providers.
+
+  :::image type="content" source="media/agent-experience-overview.png" alt-text="Overview page of Agent experience in Customer Service admin center.":::
+
+
+You can manage the following features in **Operations**:
+
+- **Insights**: Historical analytics for Customer Service and Omnichannel for Customer Service, Omnichannel intraday insights and AI feature settings for cases and conversations, real-time translation and machine-learning models for skills, and skill-based, effort-based, and sentiment-based routing setup.
+- **Calendar**: Operating hours, Customer Service calendar, and holiday calendar.
+- **Service terms**: Service-level agreements (SLAs), SLA KPIs, and entitlements
+- **Service scheduling**: Organizational units, facilities and equipment, resources, service scheduling, business closure, fulfillment preferences, resource categories.
+- **Miscellaneous**: Analysis jobs, migration tool, and IoT settings.
+
+  :::image type="content" source="media/operations-overview.png" alt-text="Overview page of operations in Customer Service admin center.":::
 
 ## FAQ
 
