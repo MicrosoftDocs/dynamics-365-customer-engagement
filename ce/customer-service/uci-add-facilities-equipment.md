@@ -27,22 +27,22 @@ Facilities and equipment are resources you use to perform services for your cust
 
 Before you begin, make sure you have the **System Administrator** security role or equivalent permissions in Microsoft Dynamics 365. 
 
-1. Navigate to either the Customer Service Hub or Customer Service admin center (preview) app. Depending on your app, perform the following steps:
+1. Navigate to the Customer Service admin center (preview) or Customer Service Hub app, and perform the following steps:
 
    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
    > [!IMPORTANT]
    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-    1. On the Customer Service admin center (preview) site map, select **Operations > Service scheduling**.
-    1.  In the **Facilities/Equipment** section, select **Manage**.
+    1. In the site map, select **Service Scheduling** in **Operations**. The **Service Scheduling** page appears.
+    1. In the **Facilities/Equipment** section, select **Manage**.
         
         The **Local Facilities/Equipment** view is displayed. You can switch between various system views using the drop-down list.  
 
    ### [Customer Service Hub](#tab/customerservicehub)
 
-    1. On the Customer Service Hub site map, go to **Scheduling**.
-    1. From the list of entity records, select **Scheduling > Facilities/Equipment**.
+    1. In the site map, go to **Scheduling**.
+    1. From the list of entity records, select **Facilities/Equipment** in **Scheduling**.
        
        The **Local Facilities/Equipment** view is displayed. You can switch between various system views using the drop-down list.
 
