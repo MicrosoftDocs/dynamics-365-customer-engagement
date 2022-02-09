@@ -81,15 +81,17 @@ Before you begin, make sure you have the Scheduler Manager role or equivalent pe
    > [!IMPORTANT]
    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-    1. On the Customer Service admin center (preview) site map, select **Operations > Service scheduling**.
+    1. In the site map, select **Service scheduling** in **Operations**.
     1.  In the **Resource group** section, select **Manage**.
+        
         The **Local Resource Groups** view is displayed. You can switch between various system views using the drop-down list.  
 
    ### [Customer Service Hub](#tab/customerservicehub)
 
-    1. On the Customer Service Hub site map, go to **Scheduling**.
-    1. From the list of entity records, select **Scheduling > Resource Groups**.
-       The **Local Resource Groups** view is displayed. You can switch between various system views using the drop-down list.
+    1. In the site map, go to **Scheduling**.
+    1. From the list of entity records, select **Resource Groups** in **Scheduling**.
+      
+      The **Local Resource Groups** view is displayed. You can switch between various system views using the drop-down list.
 
 3. Open the resource group you want to change, and then in the **Resource Groups** form, change the information. 
 
