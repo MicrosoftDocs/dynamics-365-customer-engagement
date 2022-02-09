@@ -24,6 +24,7 @@ Users should be configured as a bookable resource so that they can be assigned w
 1. Go to the Customer Service admin center (preview), Omnichannel admin center, or Customer Service Hub app, and perform the following steps.
    
    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
      > [!IMPORTANT]
      > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
    
