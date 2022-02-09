@@ -80,7 +80,7 @@ When the system connection is disrupted because of network issues or when you re
 
 ### Sign in
 
-When you sign in, your presence is set to the default presence if no work items have been assigned to you. If work items are assigned, your presence is automatically determined. However, if your default presence is set as Away or Offline, the system doesn’t override the status.  
+When you sign in, your presence is set to the default presence if no work items have been assigned to you. If work items are assigned, your presence is automatically determined. However, if your default presence is set as Away or Offline, the system doesn’t change your presence.  
 
 ### Accept work items
 
