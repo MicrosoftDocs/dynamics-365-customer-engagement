@@ -49,3 +49,18 @@ If custom triggers follow the *bindingid* pattern described above, they can be u
 
 > [!NOTE]
 > The binding only works across the same entity types.
+
+## How to add a *bindingid* to a custom trigger
+
+You can modify the *bindingid* attribute in the code snippet for a custom trigger.
+
+To access the code snippet for an existing custom trigger:
+
+1. Go to **Real-time marketing** > **Engagement** > **Event triggers**.
+1. Select the custom trigger you want to add a *bindingid* to.
+1. Select **Go to code snippet**.
+    > [!div class="mx-imgBorder"]
+    > ![Go to code snippet screenshot.](media/real-time-marketing-correlate-triggers-snippet.png "Go to code snippet screenshot")
+1. Copy the snippet and paste it into your code editor of choice. Modify the *bindingid* attribute following the formats mentioned above (a unique string if you are using it only with custom events or ``{table_name}/{unique row ID}`` when correlating across custom events and out-of-the-box events or custom business events).
+
+You can follow the same steps to add a *bindingid* when creating a new custom trigger.
