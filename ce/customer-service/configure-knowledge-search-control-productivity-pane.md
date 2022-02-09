@@ -67,7 +67,7 @@ Go to the Customer Service admin center (preview) or Customer Service Hub app, a
 
 After you have enabled a record type, to set up knowledge base search control on a standard or custom form, see [Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-forms). Setting up knowledge base search control on a standard or custom form makes it easy for agents in your organization to find knowledge articles, so they can answer common customer questions and resolve their issues right from the records, without having to switch to a different application.
 
-To set up knowledge search control on the app side pane, see [Configure knowledge search control on the app side pane](#configure-knowledge-search-control-on-the-app-side-pane).
+To set up knowledge search control on the app side pane, see [Configure knowledge search control on app side pane](#configure-knowledge-search-control-on-app-side-pane).
 
 
 ## Configure knowledge search control on app side pane
