@@ -407,7 +407,7 @@
       href: configure-talking-points.md
     - name: Configure who knows whom
       href: configure-who-knows-whom.md
-    - name: Add relatioship intelligence widgets to custom forms
+    - name: Add relationship intelligence widgets to custom forms
       href: add-ri-widgets-to-custom-form.md
   - name: Conversation intelligence
     items:
