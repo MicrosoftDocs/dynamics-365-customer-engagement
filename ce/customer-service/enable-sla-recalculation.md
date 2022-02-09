@@ -35,15 +35,15 @@ Do the following to enable the recalculation of SLAs that reach the terminal sta
    > [!IMPORTANT]
    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-    1. Select **Operations > Service Terms**.
+    1. In the site map, select **Service Terms** in **Operations**.
     1. In the **Other SLA Settings** section, select **Manage**.                                                                         
         
         The **Service Configuration Settings** view is displayed. 
 
    ### [Customer Service Hub](#tab/customerservicehub)
 
-    1. Go to **Service Management**.
-    1. From the list of entity records, select **Service Terms > Service Configuration Settings**.      
+    1. In the site map, Go to **Service Management**.
+    1. From the list of entity records, select **Service Configuration Settings** in **Service Terms**.      
 
         The **Service Configuration Settings** view is displayed.            
 
