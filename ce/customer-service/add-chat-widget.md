@@ -95,7 +95,7 @@ Perform the following steps to enable the customer notifications:
 
 You can also configure the customer notifications when you're configuring the chat channel.
 
-## Configure a chat widget in Omnichannel Administration
+### Configure a chat widget in Omnichannel Administration
 
 The information in this section is not applicable if you are using the Omnichannel admin center app in the latest version of Omnichannel for Customer Service.
 
