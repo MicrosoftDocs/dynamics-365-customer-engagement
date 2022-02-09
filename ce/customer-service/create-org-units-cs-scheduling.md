@@ -37,7 +37,7 @@ Make sure that you have the required security role or equivalent permissions.
    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
     1. In the site map, select **Service Scheduling** in **Operations**. The **Service Scheduling** page appears.
-    1.  In the **Organizational units** section, select **Manage**.                                                                         
+    1. In the **Organizational units** section, select **Manage**.                                                                         
         
         The **Active Organizational Units** view is displayed. You can switch between various system views using the drop-down list.  
 
