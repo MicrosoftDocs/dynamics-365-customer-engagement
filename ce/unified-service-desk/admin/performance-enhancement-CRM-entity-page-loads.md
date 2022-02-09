@@ -18,7 +18,7 @@ ms.custom:
 
 # Performance enhancement for loading model-driven app pages
 
-[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 
 ::: moniker range="=dynamics-usd-4.2"

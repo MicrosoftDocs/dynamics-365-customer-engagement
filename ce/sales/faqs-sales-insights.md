@@ -61,14 +61,14 @@ Sales Premium features are available in the following regions:
 
 | Feature | NAM | EMEA | GBR | APJ | CAN | IND | JPN | OCE | CHE | FRA |
 |---------|-----|------|-----|-----|-----|-----|-----|-----|-----|-----|
-| Assistant | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
-| Auto capture | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| Assistant | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Auto capture | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | Conversation intelligence | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
-| Notes analysis | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| Notes analysis | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | Premium forecasting | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes | No |
-| Predictive lead scoring | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
-| Predictive opportunity scoring | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
-| Relationship analytics | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| Predictive lead scoring | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Predictive opportunity scoring | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Relationship analytics | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | Sales accelerator | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
 | Talking points | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
 | Who knows whom | Yes | Yes | No | No | Yes | No | No | No | No | Yes |
@@ -100,10 +100,10 @@ Sales Premium supports the following languages:
 | Feature | Language supported |
 |---------|--------------------|
 | Assistant, Assistant studio, Auto capture, Email engagement, Predictive lead scoring, Predictive opportunity scoring, Premium forecasting, Relationship analytics, Sales accelerator, and Who knows whom | Arabic, Basque, Bulgarian, Catalan, Chinese Simplified (PRC), Chinese Traditional (Hong Kong SAR), Chinese Traditional (Taiwan), Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Kazakh, Korean, Latvian, Lithuanian, Malay, Norwegian, Polish, Portuguese (Brazil), Portuguese (Portugal), Romanian, Russian, Serbian (Cyrillic), Serbian (Latin), Slovakian, Slovenian, Spanish, Swedish, Thai, Turkish, Ukrainian, and Vietnamese. |
-| Notes analysis | Supports English, French, German, Italian, and Dutch for machine learning models. |
-| Talking points and Exchange insight cards in Assistant | Supports only English - United States (en-US) for machine learning models. |
+| Notes analysis | English, French, German, Italian, and Dutch for machine learning models. |
+| Talking points and Exchange insight cards in Assistant | Only English - United States (en-US) for machine learning models. |
 | Activity-content based Auto capture |- For contact suggestions, the body of emails and meetings are analyzed in English and French.<br>- For activity suggestions, the body of emails and meetings are analyzed in English, French, German, Italian, Dutch, and Norwegian. |
-| Conversation intelligence | Chinese Simplified (PRC), Dutch, English, French, German, Italian, Japanese, Portuguese, Portuguese (Brazil), Spanish, Hebrew, and Arabic. |
+| Conversation intelligence | Chinese Simplified (PRC), Dutch, English, French, German, Italian, Japanese, Portuguese, Portuguese (Brazil), Spanish, Hebrew, Danish, Swedish, Finnish, and Arabic. |
 
 To learn more, see [Infrastructure availability PDF](https://aka.ms/dynamics_365_international_availability_deck)
 
@@ -258,19 +258,14 @@ To add the work list site map to your custom app, follow these steps:
     The work list site map entry is added to your custom app.
 
 ## Relationship analytics and health   
-
-### What do I need in order to use Relationship analytics?​
-Relationship analytics uses data from Dynamics 365 for Sales. Optionally, it includes data from Exchange Online. For Exchange data, the graph is built only on user accounts situated in the United States.​    
-
-### How do I enable Relationship analytics?​
-Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] and enable the Relationship analytics feature from  **Settings** > **AI setup**.​    
+    
 ### What is the frequency of KPI updates?
 KPIs are updated every 24 hours, potentially fewer.​  
 
 ### What are the signals in relationship health?​
 Relationship health looks at activity, recency, engagement, and sentiment of activities between sellers and customers.​   
 
-### Can I configure relationship health?​   
+### Can I influence the relationship health score?​   
 An administrator can influence the relationship health score by changing the weight of activity types and the expected level of communications with customers.
 
 ### How are similar won deals identified? <a name="similar-won-deals-fields"></a>  
@@ -305,14 +300,15 @@ The grade is just grouping scores in four buckets that the admin can configure.
 
 ## Notes analysis
 
-### What do I need in order to use Notes analysis?​
-Notes analysis requires Microsoft 365.​
-
-### How do I enable Notes analysis?​  
-Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] and enable the Notes analysis feature from **Settings** > **AI setup**.​
-
 ### What does Notes analysis look at for the intent?​   
 Notes analysis looks at notes and posts on the timeline for the intent that may indicate a record should be created. Notes analysis looks for meeting requests, meetings, tasks, and contacts.
+
+## Auto capture
+
+### How long does the application take to display captured suggestions?
+
+- For activities, the suggestions are displayed immediately.   
+- For contacts, the application may take up to four hours to display suggestions.
 
 ## Talking points
 
@@ -320,8 +316,6 @@ Notes analysis looks at notes and posts on the timeline for the intent that may 
 
 Talking points require Microsoft 365 Exchange and a configured server-side sync (SSS) profile (mailbox need not be enabled for SSS).​
 
-### How do I enable Talking points?​
-Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] and enable the Talking points feature from **Settings** > **AI setup**.​
 
 ### What do Talking points look at for the conversation starters?​   
 Talking points look at the inbox of the signed-in user for emails from the contact list that includes conversational topics relating to sports, entertainment, and health.​
@@ -336,20 +330,6 @@ It takes a few seconds to display the results.​
 
 ### What do I need in order to use Who knows whom?
 Who knows whom requires Microsoft 365 Exchange. The graph is built only on user accounts situated in the United States. Geo availability will expand as Sales Insights becomes available in more regions. Server-side sync is required for email introduction requests. ​
-
-### What do I need to build a connection graph in who knows whom?
-To build a connection graph in who knows whom, Microsoft 365 Exchange is required. The graph is built only on user accounts that are in the following Office 365 geography locations:
-- Global Geography 1 – EMEA (Austria, Finland, France, Ireland, Netherlands).
-- Global Geography 2 – Asia Pacific	(Hong Kong, Japan, Malaysia, Singapore, South Korea).
-- Global Geography 3 – Americas (Brazil, Chile, United States).
-
-More information: [Data center locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations&preserve-view=true)
-
-Also, server-side sync is required for email introduction requests. ​
-
-### How do I enable who knows whom?
-Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)], opt in to Connection insights from the Microsoft 365 admin, and enable the Who knows whom feature from **Settings** > **AI setup**.​
-
 
 ### How long will it take for results to appear?
 It takes about one to three days for results to populate the graph the first time. Later, updates take three to six days, depending on the new activities included in the graph.​

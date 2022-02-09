@@ -23543,6 +23543,11 @@
       "source_path": "ce/sales/developer/exportpdf-api.md",
       "redirect_url": "../create-quote-pdf",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/optout-relationship-analytics-gdpr.md",
+      "redirect_url": "dynamics-365-sales-gdpr",
+      "redirect_document_id": "false"
     }
   ]
 }

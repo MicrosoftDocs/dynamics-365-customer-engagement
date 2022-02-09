@@ -22,6 +22,8 @@
     items:
     - name: Set up Dynamics 365 Sales
       href: set-up-dynamics-365-sales.md
+    - name: Use the Sales Hub app 
+      href: intro-saleshub.md
     - name: Set up Dynamics 365 Sales premium features
       href: intro-admin-guide-sales-insights.md
     - name: Provision your Dynamics 365 Sales Professional environment
@@ -389,6 +391,8 @@
         href: edit-insight-cards.md
       - name: Optimize ranking of insight cards
         href: optimize-ranking-insight-cards.md
+      - name: Add the assistant widget to custom forms
+        href: add-assistant-widget-custom-forms.md  
     - name: Playbook management
       items:
       - name: Define playbook categories
@@ -403,6 +407,8 @@
       href: configure-talking-points.md
     - name: Configure who knows whom
       href: configure-who-knows-whom.md
+    - name: Add relationship intelligence widgets to custom forms
+      href: add-ri-widgets-to-custom-form.md
   - name: Conversation intelligence
     items:
     - name: Prerequisites to use Conversation Intelligence
@@ -838,6 +844,10 @@
           href: developer/reference/custom-actions/msdyn_ForecastApi.md
       - name: Override save, update, load events for editable fields on underlying records grid
         href: developer/reference/custom-actions/events-context.md
+  - name: Deal manager
+    items:
+      - name: Override save, update, load events for deal manager editable grid
+        href: developer/reference/custom-actions/events-context-deal-manager.md
   - name: In-app marketing
     items:
     - name: Customize quick campaign and campaign activity distribution forms
@@ -983,8 +993,6 @@
   - name: GDPR for sales premium
     href: embedded-intelligence-gdpr.md
     items:
-    - name: Opt out of relationship analytics (GDPR)
-      href: optout-relationship-analytics-gdpr.md
     - name: View and export KPI data (GDPR)
       href: view-export-KPI-data-gdpr.md
     - name: Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action

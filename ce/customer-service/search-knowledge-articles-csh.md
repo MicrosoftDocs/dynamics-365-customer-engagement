@@ -1,7 +1,7 @@
 ---
 title: Search knowledge articles in the Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: See how you can effectively search knowledge articles in the Customer Service Hub.
-ms.date: 11/15/2021
+ms.date: 02/04/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -25,27 +25,27 @@ The search results are automatically populated based on a field your administrat
 
 For more information, see [Knowledge Base Search control](#knowledge-base-search-control).
 
-## Knowledge base search control powered by Relevance search 
+## Knowledge base search control powered by Dataverse search
 
-Knowledge base search in the Customer Service Hub comes with improved search functionality. The knowledge base search is enabled to use Relevance Search in the knowledge base search control area, in addition to the global search area where Relevance Search is already enabled.
+Knowledge base search in the Customer Service Hub comes with improved search functionality. The knowledge base search is enabled to use Dataverse search in the knowledge base search control area, in addition to the global search area where Dataverse search is already enabled.
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How Relevance Search works](/power-platform/admin/configure-relevance-search-organization)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Dataverse search](/power-platform/admin/configure-relevance-search-organization)
 
-Relevance Search uses Azure search service to index and search records. Relevance Search provides improved search functionality, like better relevance, highlighted search keyword text, and the ability to search within attachments and notes. With Relevance Search, you can also configure searchable fields in the knowledge article entity. 
+Dataverse search uses Azure search service to index and search records. Dataverse search provides improved search functionality, like better relevance, highlighted search keyword text, and the ability to search within attachments and notes. With Dataverse search, you can also configure searchable fields in the knowledge article entity. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure searchable fields for Relevance Search](/power-platform/admin/configure-relevance-search-organization)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure searchable fields for Dataverse Search](/power-platform/admin/configure-relevance-search-organization)
 
 
 > [!NOTE]
-> To enable Relevance Search for the knowledge article entity, see [Enable Relevance Search](/power-platform/admin/configure-relevance-search-organization) and [Select entities for Relevance Search](/power-platform/admin/configure-relevance-search-organization).</br>
-If Relevance search is not enabled for the entity, standard Full-text search is used. 
+> To enable Dataverse search for the knowledge article entity, see [Enable Dataverse Search](/power-platform/admin/configure-relevance-search-organization) and [Select entities for Dataverse Search](/power-platform/admin/configure-relevance-search-organization).</br>
+If Dataverse search is not enabled for the entity, standard full-text search is used. 
 
 For more information, see [Understand knowledge base search mechanisms](knowledge-base-search-methods.md).
 
 
-### Before you begin using Relevance Search
+### Before you begin using Dataverse search
 
-Relevance Search uses the scoring concepts as defined by Azure search. To be able to search the knowledge base using Relevance Search, certain view columns must be configured in the Quick Find view columns list. If any of these columns are deleted or missing, the search query displays an error.
+Dataverse search uses the scoring concepts as defined by Azure search. To be able to search the knowledge base using Dataverse search, certain view columns must be configured in the Quick Find view columns list. If any of these columns are deleted or missing, the search query displays an error.
 
 > [!NOTE]
 > An admin can configure the knowledge article quick find view columns list by navigating to **Settings > Customizations > Entities > Knowledge Article > Views > Quick Find View > View Columns**.
@@ -80,8 +80,8 @@ When you select the **Knowledge Base Search** option in the **RELATED** section,
   4. Search knowledge articles
   5. Link this article to the current record (unlink will be displayed when the article is already linked to a record)
   6. Copy
-  7. Displays Popout and Email link this article to a record and send via Email 
-  8. Link this article to a record and send via Email
+  7. Displays Pop out and Email Content 
+  8. Link this article to a record and send via email
   9. Rating
   10. Unlink an article that is currently linked to a case
   11. Number of views the article has received
@@ -113,17 +113,28 @@ In the knowledge base search control, you can do the following:
 
 ### Search for knowledge articles
 
-Type a keyword in the search box to search for knowledge articles.
+Type a keyword in the search field to search for knowledge articles.
 
-  > [!div class=mx-imgBorder]
-  > ![Search for knowledge articles.](media/search-kb-article.png "Search for knowledge articles using keywords")
+ :::image type="content" source="media/search-kb-article.png" alt-text="Search for knowledge article":::
 
-- If Relevance Search is not enabled, the keywords that you enter will initiate a search (using the Full-text search mechanism) in the following fields of a knowledge article: **Title**, **Content**, **Keywords**, **Description**, and **Article Public Number**.
+  |Label|Description|
+  |-----|-----------|
+  |1.| The Knowledge search field.|
+  |2.| Status and visibility tags for the article.|
+  |3.| The number of times the article has been viewed. |
+  |4.| Article number (Preview)|
+  |5.| Info card that displays search term matches from keywords, description, attachments, and any other custom fields. (Preview) |
+  |6.| Search results across attachments. The attachment title is displayed only when the search term matches the content in the attachment. (Preview)|
+
+  > [!NOTE]
+  > The article number, info card that displays search term matches across custom fields, and search results across attachments are in preview.
+
+- If Dataverse search is not enabled, the keywords that you enter will initiate a search (using the Full-text search mechanism) in the following fields of a knowledge article: **Title**, **Content**, **Keywords**, **Description**, and **Article Public Number**.
 
   > [!NOTE]
   > If there's a style tag with CSS styles at the top of the article, the summary of the content in the knowledge search results list will contain style tags. Use inline CSS styling instead of putting styles in style tags.
 
-- If Relevance Search is enabled, you can configure the fields based that you want to be searched for. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure searchable fields for Relevance Search](/power-platform/admin/configure-relevance-search-organization) 
+- If Dataverse search is enabled, you can configure the fields based that you want to be searched for. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure searchable fields for Dataverse Search](/power-platform/admin/configure-relevance-search-organization) 
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add the Knowledge Base Search control to Main forms](add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-main-forms)
 
@@ -178,7 +189,7 @@ To configure the ability to copy and send article URLs, see [Configure knowledge
 
   1. In the sitemap, select **Knowledge Search**.
   2. In search box, type keywords of an article.  
-  3. Select copy URL icon to copy the article URL.
+  3. Select the copy URL icon to copy the article URL.
   4. To open an article in a new window, select the pop-out icon.
   5. To copy the article URL, select **Copy URL**.
   6. To open the article in a new window, select **Pop out**.  
@@ -188,11 +199,11 @@ To configure the ability to copy and send article URLs, see [Configure knowledge
 Knowledge articles can be configured with their portal URLs, and then agents can copy and share the URL links. 
 
 > [!NOTE]
-> Before you can configure knowledge articles with their own URLs, you must create a portal using your domain name. For information on how create a portal, see [Create a portal in an environment containing customer engagement apps](/powerapps/maker/portals/create-dynamics-portal).
+> Before you can configure knowledge articles with their own URLs, you must create a portal using your domain name. For information on how to create a portal, see [Create a portal in an environment containing customer engagement apps](/powerapps/maker/portals/create-dynamics-portal).
 
 To configure a knowledge base article URL, do the following:
 
-1. In the sitemap, under **Knowledge Base Management** select **Settings**.
+1. In the sitemap, under **Knowledge Base Management**, select **Settings**.
 
    > [!div class=mx-imgBorder]
    > ![Select Knowledge Base Management settings.](media/kb-management-settings.png "Navigate to Knowledge Base Management settings in the sitemap")
@@ -246,11 +257,11 @@ If you deactivate a filter, it will appear as deactivated. If you reactivate the
 5. If you want to deactivate a filter, select the ellipsis in the top-right corner for the filter you want to stop using, and then select **Deactivate**.
 6. Select **Done** > **Save**.
 7. When you are ready to reactivate the filter, select the ellipsis again, and then select **Activate**.
-   All of the previous configurations will be reinstated. 
+   All of the previous configurations will be reinstated.
 
 ### Sort knowledge articles
 
-The knowledge base search control provides sort the knowledge articles interactions. Select the up-arrow icon to view the sorting options and select one of the options from the following: 
+The knowledge base search control provides the option to sort knowledge articles. Select the up-arrow icon to view the sorting options and select one of the options from the following:
 
 - Relevance
 - Number of views
@@ -306,9 +317,9 @@ An administrator or system customizer must configure this option for you. More i
 
 To view the auto-filtered results:
 
-1. Search knowledge articles from the case related section. More information:[Search for knowledge articles in the Customer Service Hub](#search-for-knowledge-articles-in-the-customer-service-hub)
+1. Search knowledge articles from the related section of the case. More information: [Search for knowledge articles in the Customer Service Hub](#search-for-knowledge-articles-in-the-customer-service-hub)
 
-2. The articles are automatically filtered and display based on case data.
+2. The articles are automatically filtered and displayed based on case data.
 
 3. If you want to disable the automatic filtering option and search the entire knowledge base for articles, deselect **Auto-filter results**.  
 
@@ -317,7 +328,7 @@ To view the auto-filtered results:
 
 Let’s understand this in detail with the help of an example.
 
-In the following illustration, the case subject is **Xbox**. If automatic filtering is configured on case subject, with the **Auto filter results** checkbox selected, only those knowledge articles whose subject is **Xbox** are displayed. Other articles are automatically filtered out, as shown in the following image.
+In the following illustration, the case subject is **Xbox**. If automatic filtering is configured on the case subject, with the **Auto filter results** checkbox selected, only those knowledge articles whose subject is **Xbox** are displayed. Other articles are automatically filtered out, as shown in the following image.
 
 ![Select Auto filter results.](media/ka-select-auto-filter-results.png "Select Auto filter results")   
   

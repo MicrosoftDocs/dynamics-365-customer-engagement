@@ -94,7 +94,7 @@
     href: work-order-resolutions.md
   - name: Work order completion surveys
     href: work-order-surveys.md
-- name: Frontline workers & bookable resources
+- name: Frontline workers + bookable resources
   items: 
   - name: Set up frontline workers
     href: frontline-worker-set-up.md
