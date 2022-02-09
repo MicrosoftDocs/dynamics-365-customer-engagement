@@ -10,9 +10,9 @@ manager: shujoshi
 
 # Preview: Enable duplicate lead detection 
 
-[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
-
 Enable duplicate detection of leads to help your sales team to maintain great relationships with customers and keep your leads clutter free.
+
+[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 
 ## License and role requirements
 
@@ -24,21 +24,21 @@ Enable duplicate detection of leads to help your sales team to maintain great re
 
 ## What is duplicate detection?
 
-The duplicate detection feature in Dynamics 365 Sales helps your sales team to maintain great relationships with customers and keep your leads clutter free. By enabling the feature, you give control to the sellers to identify when a duplicate lead is created based on the following rules: 
+The duplicate detection feature helps your sales team to identify whether a lead is already in the system or not. and maintain great relationships with customers and keep your leads clutter free. By enabling the feature, you give control to the sellers to identify when a duplicate lead is created based on the following rules: 
 -	Same email address 
 -	Same phone number
--	Similar name and company name 
--	Similar name and the same email domain   
+-	Similar lead name and company name 
+-	Similar lead name and the same email domain   
 
-Further, sellers can compare and remove the duplicate leads from your organization. More information: [Manage duplicate leads](manage-duplicate-leads.md).
+Further, sellers can compare and remove the duplicate leads in the organization. More information: [Manage duplicate leads](manage-duplicate-leads.md).
 
 ## Prerequisites
 
-Before you enable the duplicate detection feature, verify that the Dataverse search is enabled in your organization. The defined AI model to detect the duplicate leads uses the Dataverse search for better results. More information: [Configure Dataverse search for your environment](/power-platform/admin/configure-relevance-search-organization)
+Before you enable the duplicate detection feature, verify that the Dataverse search is enabled in your organization. The defined AI model to detect duplicate leads uses the Dataverse search for better results. More information: [Configure Dataverse search for your environment](/power-platform/admin/configure-relevance-search-organization)
 
 ## Enable the duplicate detection feature
 
-1.	At the bottom of the site map, select **Change area** Icon > **App Settings**.
+1.	At the lower-left corner of the Sales Hub app, select the **Change area** Icon > **App Settings**.
 2.	On the site map, select **Data improvement** > **Duplicate detection (preview)**.
 
     >[!div class="mx-imgBorder"]
