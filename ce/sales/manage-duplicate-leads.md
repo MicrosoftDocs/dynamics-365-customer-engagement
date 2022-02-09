@@ -71,26 +71,23 @@ Duplicate leads are identified based on the following rules:
 
 ## Delete duplicate leads
 
-If you identify a lead in the duplicate list as a duplicate and to maintain clutter free data, you can delete it.
+After you identify the duplicate leads, delete them to help ensure a clutter free and actionable leads list.
 
-1.	Select the lead that is duplicate and then select **Delete**. 
+1.	Select the duplicate lead and then select **Delete**. 
 
     >[!NOTE] 
-    >You can’t delete a lead if you are not an owner or don’t have permission to the lead.
+    >You can delete a lead only if you are the owner of the lead or have the delete permission for the lead.
 
     >[!div class="mx-imgBorder"]
     >![Select a duplicate lead to delete](media/lead-duplicate-detection-select-duplicate-lead.png "Select a duplicate lead to delete") 
  
 2.	On the confirmation message, select **Delete permanently**.
 
-    >[!div class="mx-imgBorder"]
-    >![duplicate lead delete confirmation message](media/lead-duplicate-detection-delete-confirmation-message.png "duplicate lead delete confirmation message") 
- 
     The duplicate lead is removed from your organization.
 
-## Remove leads 
+## Remove leads from duplicates list
 
-If you identify a lead in the duplicate list is not a duplicate and displayed in the list due to other reasons, you can detach it from the duplicate list.
+After you identify the leads that are not duplicates, you can remove them from the duplicate list.
 
 Select the lead and then select **Remove**. 
  
