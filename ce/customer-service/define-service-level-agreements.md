@@ -74,22 +74,22 @@ SLA KPIs are performance indicators, such as First Response or Resolve by, that 
 
 1. Navigate to the Customer Service admin center (preview) app or Customer Service Hub app, and perform the following steps:
 
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
-   > [!IMPORTANT]
-   > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+    > [!IMPORTANT]
+    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-   1. In the site map, select **Service Terms** in **Operations**. The **Service Terms** page appears.
-   1.  In the **SLA KPIs** section, select **Manage**.                                                                         
+    1. In the site map, select **Service Terms** in **Operations**. The **Service Terms** page appears.
+    1.  In the **SLA KPIs** section, select **Manage**.                                                                         
         
-   The **Active SLAKPIs** view is displayed. Select the SLA for which you want to add an SLA item.   
+      The **Active SLAKPIs** view is displayed. Select the SLA for which you want to add an SLA item.   
 
-   ### [Customer Service Hub](#tab/customerservicehub)
+    ### [Customer Service Hub](#tab/customerservicehub)
 
-   1. In the site map, go to **Service Management**.
-   1. From the list of entity records, select **SLA KPIs** in **Service Terms**.                                                              
+    1. In the site map, go to **Service Management**.
+    1. From the list of entity records, select **SLA KPIs** in **Service Terms**.                                                              
        
-   The **Active SLAKPIs** view is displayed. Select the SLA for which you want to add an SLA item. 
+       The **Active SLAKPIs** view is displayed. Select the SLA for which you want to add an SLA item. 
 
 2. Select **New**. The **New SLA KPI** page appears.
 
