@@ -30,23 +30,23 @@ You can enable Omnichannel historical analytics reports in the Customer Service 
 Make sure that you have the required administrator permissions for Dynamics 365.
 
 1. Go to one of the apps, and perform the following steps.
-
+   
    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
      
-   > [!IMPORTANT]
-   > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-   1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
-   1. In the **Omnichannel historical analytics** section, select **Manage**.
+     1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
+     1. In the **Omnichannel historical analytics** section, select **Manage**.
 
-     The **Omnichannel historical analytics** page is displayed. Toggle the **Status** to **Enabled**.    
+     The **Omnichannel historical analytics** page is displayed. Toggle the **Enable Omnichannel historical analytics report** to **On*       
 
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
     
-   1. In the site map, select **Agent experience** in **Advanced settings**. The **Agent experience** page appears.
-   2. In the **Real-time translation** section, select **Manage**.
+     1. In the site map, select **Settings** in **Insights**. The **Insights** page appears.
+     2. In the **Omnichannel historical analytics** section, select **Manage**.
 
-      The **Omnichannel Configuration** page is displayed. Toggle the **Enable Omnichannel historical analytics report** to **On**.
+      The **Omnichannel historical analytics** page is displayed. Toggle the **Status** to **Enabled**.    
 
 2. Select **Save** or **Save & Close**.
 
@@ -54,14 +54,32 @@ This configuration will also enable AI-discovered topics from conversations with
 
 ## Enable Historical analytics for unified routing in Omnichannel for Customer Service
 
-You can enable historical analytics for unified routing on the **Insights** page in Omnichannel admin center. The metrics are available in the report after 24 hours.
+You can enable historical analytics for unified routing in the Customer Service admin center (preview) or Omnichannel admin center app. The metrics are available in the report after 24 hours.
 
 > [!IMPORTANT]
 >
 > Omnichannel historical analytics must be enabled before you can enable historical analytics for unified routing.
 
-1. On the **Insights** page, select **Manage** for **Historical analytics for unified routing**.
-2. On the **Historical analytics for unified routing** page, set the **Status** toggle to enabled.
+1. Go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+     1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
+     1. In the **Omnichannel historical analytics** section, select **Manage**.
+
+     The **Omnichannel historical analytics** page is displayed. Select the **Add historical analytics for unified routing** check box.      
+
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+    
+     1. In the site map, select **Settings** in **Insights**. The **Insights** page appears.
+     2. In the **Historical analytics for unified routing** section, select **Manage**.
+
+      The **Historical analytics for unified routing** page is displayed. Toggle the **Status** to **Enabled**.    
+
+2. Select **Save** or **Save & Close**.
 3. Save and close.
 
 The Unified routing historical analytics report will be available as a tab in the Omnichannel historical analytics report.
