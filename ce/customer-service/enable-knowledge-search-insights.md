@@ -18,22 +18,36 @@ The knowledge search analytics dashboard is designed to provide your organizatio
 
 ## Configure the Knowledge search analytics dashboard
 
-To enable the Knowledge search analytics dashboard:
+You can enable the knowledge search analytics dashboard in the Customer Service admin center (preview) or Customer Service Hub app.
 
-1. Sign in to Dynamics 365 as an administrator, and go to Customer Service Hub.
+**Enable the Knowledge search analytics dashboard**
 
-2. In the **Change area**, select **Service Management**.
+1. Go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-3. Go to **Insights** and select **Settings**. The **Insights settings** page is displayed.
+     1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
+     1. In the **Knowledge search analytics** section, select **Manage**.
+
+     The **Knowledge search analytics** page is displayed.       
+
+   ### [Customer Service Hub](#tab/customerservicehub)
+    
+     1. In the site map, select **Service Management**.
+     2. Select **Settings** in **Insights**. The **Insights** page appears.
+     3. In the **Knowledge search analytics** section, select **Manage**.
+
+      The **Knowledge search analytics** page is displayed. 
 
     > [!div class=ms-imgBorder]
     > ![Enable knowledge search analytics.](media/cs-enable-analyticsinsights.png "Enable knowledge search analytics")
 
-4. Navigate to **Knowledge search** and select **Manage**.
+2. Set the **Enable knowledge search analytics report** toggle to **On**.
 
-5. On the **Knowledge search analytics** page, set the **Status** toggle to **Enabled**.
-
-6. Select **Save** or **Save & Close**.
+3. Select **Save** or **Save & Close**.
 
 ### View Customer Service knowledge search analytics reports
 
