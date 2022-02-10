@@ -69,13 +69,9 @@ Based on configured data input, the Relevance search mechanism filters the cases
   
       The **All Advanced Similarity Rules** page is displayed. 
 
-2. In the Customer Service Hub sitemap, go to **Service Management** > **Advanced Similarity Rules**.
+2. Select **New** on the command bar to create an advanced similarity rule.  
 
-   The **Advanced Similarity Rules** page is displayed.
-
-3. Select **New** on the command bar to create an advanced similarity rule.  
-
-4. In the **Details** tab:
+3. In the **Details** tab:
    - Fill in the fields in the new advanced similarity rule dialog box:
 
 
@@ -107,9 +103,9 @@ Based on configured data input, the Relevance search mechanism filters the cases
 
        ![Similar case rule.](media/similar-case-rule.PNG "Similar case rule")
 
-5. Select **Save** to save the rule.
+4. Select **Save** to save the rule.
 
-6. Select **Activate** from the command bar to activate the rule.
+5. Select **Activate** from the command bar to activate the rule.
 
 Similarly, add more mappings to view a comprehensive search of related records.
 
