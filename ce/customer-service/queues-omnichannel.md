@@ -1,11 +1,11 @@
 ---
 title: Create and manage queues for unified routing | MicrosoftDocs
-description: "This topic provides information and steps to help you learn  how you can create and manage queues in Omnichannel for Customer Service."
+description: "This topic provides information and steps to help you learn to create and manage queues in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.topic: article
-ms.date: 11/01/2021
+ms.date: 02/11/2022
 ms.custom: intro-internal
 searchScope:
 - D365-App-customerservice
@@ -16,7 +16,7 @@ searchScope:
 - Customer Service
 ---
 
-# Create and manage queues for unified routing
+# Manage queues for unified routing
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -46,9 +46,25 @@ You can create queues for unified routing in Omnichannel admin center, or in the
 
 **To create a queue and set operating hour record for the queue**
 
-1. Do one of the following:
-   - In the Omnichannel admin center site map, under **General settings**, select **Queues**.
-   - In Customer Service Hub, go to the **Service Management** site map, and under **Unified Routing**, select **Advanced queues**.
+1. Go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   
+    1. In the site map, select **Queues** in **Customer support**.
+    
+    1. On the **Queues** page, select **Manage** for **Advanced queues**.
+    
+   
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+
+    - In the site map, select **Queues** in **General settings**.
+    
+   ### [Customer Service Hub](#tab/customerservicehub)
+
+    - Go to the **Service Management** site map, and select **Advanced queues** in **Unified routing**.
 
 2. On the **Queues** page, do the following:
 

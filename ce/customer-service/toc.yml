@@ -234,7 +234,7 @@
       items:
       - name: Create and manage workstreams
         href: create-workstreams.md
-      - name: Create and manage queues
+      - name: Manage queues for unified routing
         href: queues-omnichannel.md
       - name: Configure work classification
         href: configure-work-classification.md
