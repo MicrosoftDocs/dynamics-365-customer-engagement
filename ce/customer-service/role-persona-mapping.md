@@ -66,11 +66,11 @@ Custom security roles can be created at an organizational or business unit level
 
 1. [Create a copy of an existing role](/power-platform/admin/create-edit-security-role#create-a-security-role-by-copy-role) as your starting point. Custom security roles must have correct minimum access levels for the appropriate records to ensure feature functionality. You can copy one of the following predefined security roles:
 
-  - Omnichannel Administrator
-  - Omnichannel supervisor
-  - Omnichannel agent
-  - CSR Manager
-  - Customer Service Representative
+   - Omnichannel Administrator
+   - Omnichannel supervisor
+   - Omnichannel agent
+   - CSR Manager
+   - Customer Service Representative
 
 1. Customize permissions and access levels for your new security role.
 
@@ -90,7 +90,7 @@ After it's enabled, persona mapping will automatically assign default roles depe
 |||||
 
 > [!NOTE]
-> Customized mappings won't be reset if one of these services is added later.
+> Customized mappings won't be reset if one of the services is added later.
 
 ### Manage personas
 
