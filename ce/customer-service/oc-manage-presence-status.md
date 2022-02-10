@@ -88,7 +88,7 @@ When you accept a work item manually or it is assigned automatically, the system
 
 ### Close work items 
 
-When you close a session, resolve, cancel, or reroute a case, the system determines your presence based on your work capacity. However, if your presence is set to Away or Offline, or if you have manually changed your presence to Do not disturb, the system doesn’t change your presence.
+When you close a session, or resolve, cancel, or reroute a case, the system determines your presence based on your work capacity. However, if your presence is set to Away or Offline, or if you have manually changed your presence to Do not disturb, the system doesn’t change your presence.
 
 ### Reset agent presence
 
