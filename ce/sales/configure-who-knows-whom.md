@@ -16,10 +16,10 @@ topic-status: Drafting
 ---
 # Configure who knows whom 
 
-The Who knows whom feature helps users to quickly identify colleagues within their organization who can introduce them to leads or contacts. To configure the feature, perform the following tasks:
+The Who knows whom feature helps users to quickly identify colleagues who can introduce them to leads or contacts, based on their email interactions. To configure the feature, perform the following tasks:
 - [Enable the who knows whom feature](#enable-the-who-knows-whom-feature)
 - [Enable the connection graph](#enable-the-connection-graph)
-- [Add the who knows whom widget to a form](#add-the-who-knows-whom-widget-to-a-form)
+
 
 >[!NOTE]
 >- To know whether the Who knows whom feature is available in your region, see [In which region are the features available?](faqs-sales-insights.md#in-which-region-are-the-features-available).
@@ -39,10 +39,11 @@ The Who knows whom feature helps users to quickly identify colleagues within the
 
 ## Enable the who knows whom feature
 
-1. Verify that advanced Sales Insights features are enabled. To learn more, see [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features).    
-
-2. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**. 
-
+1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**. 
+    
+    > [!NOTE]
+    > If you don't see the **Sales Insights settings**, verify whether the advanced Sales Insights features are enabled. To learn more, see [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features).
+     
 3.  Under **Relationship insights**, select **Who knows whom**.
 
 4. In the **Who knows whom** section, select **Turn on Who Knows Whom for your organization**.
@@ -50,7 +51,7 @@ The Who knows whom feature helps users to quickly identify colleagues within the
     > [!div class="mx-imgBorder"]
     > ![Enable who knows whom](media/si-admin-who-knows-whom-enable.png "Enable who knows whom")
 
-5. (Optional) Select an email template to use when a seller wants to contact a colleague to get introduced to a lead or contact. 
+5. (Optional) Change the email template to use when a seller wants to contact a colleague to get introduced to a lead or contact. 
     
     By default, the who knows whom introduction emails template is selected. The following screenshot shows an example introduction email:
 
@@ -60,7 +61,7 @@ The Who knows whom feature helps users to quickly identify colleagues within the
 
 6. Select **Save**.
 
-The who knows whom feature is configured. As a next step, work with your Microsoft 365 administrator to [Enable the connection graph](#enable-the-connection-graph).
+The who knows whom feature is configured. As a next step, work with your Microsoft 365 administrator to [Enable the connection graph](#enable-the-connection-graph). This step is mandatory and users will see the suggestions only after the connection graph is enabled.  
 
 ## Enable the connection graph
 
