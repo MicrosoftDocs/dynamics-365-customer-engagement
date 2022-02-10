@@ -1,17 +1,16 @@
 ---
 title: "Configure Relationship analytics and health"
 description: "Configure relationship analytics and health to provide graphical representation of KPIs and activity histories to the sellers."
-ms.date: 02/03/2022
+ms.date: 02/08/2022
 ms.custom: 
 ms.topic: article
-ms.assetid: 03bfdad0-2575-4c4b-a845-d7ac1ff0b0c3
-author: udaykirang
-ms.author: udag
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 ---
 # Configure relationship analytics and health 
 
-Relationship analytics provides graphical representation of KPIs and activity histories for any contact, opportunity, lead, or account to the users. 
+Relationship analytics provides a graphical representation of KPIs and activity histories of any contact, opportunity, lead, or account. It uses data from Dynamics 365 and Exchange Online (if configured) to create more accurate and complete relationship information.
 
 ## License and role requirements
 
@@ -99,60 +98,18 @@ Follow these steps:
     > [!div class="mx-imgBorder"]
     > ![Select Sales Insights preview option](media/sales-insights-addon-admincenter-customer-insights-preview.png "Select Sales Insights preview option")    
     
-3. Read the description carefully, select the **Allow org data to be used by ‎Dynamics 365 Sales Insights - Analytics**‎ option, and then select **Save changes**.    
+3. Read the description carefully, select the **Allow org data to be used by Dynamics 365 Sales Insights - Analytics** option, and then select **Save changes**.    
     > [!div class="mx-imgBorder"]
     > ![Enable and save Sales Insights preview option](media/sales-insights-addon-admincenter-customer-insights-preview-settings.png "Enable and save Sales Insights preview option")    
     
     Now you can connect to the Exchange server to collect data.
-
-## Add the health score widget to a form
-
-By default, the health score widget is available only in the out-of-the-box **Sales Insights** form. If you're using customized forms, you can display the health score widget on your custom forms by following these steps.
-
-> [!IMPORTANT]
-> - Adding health score widget is only supported in Unified Interface apps.
-> - You can't use the legacy form designer to add a health score widget to a form.
-
-1. Sign in to the [Power Apps](https://make.powerapps.com/) portal.    
-    > [!div class="mx-imgBorder"]  
-    > ![Power Apps home page](media/power-apps-home-page.png "Power Apps home page")    
-2. Search for and select your organization's environment.    
-    > [!div class="mx-imgBorder"]    
-    > ![Select your organization](media/power-apps-select-org.png "Select your organization")    
-3. Select **Data** > **Tables**.   
-    The **Tables** page opens with the list of tables.   
-    > [!div class="mx-imgBorder"]  
-    > ![tables page with list of entities](media/power-apps-entities-page.png "tables page with list of entities")   
-4. Open the table, select the **Forms** tab, and then select a main form to add the widget to. In this example, the table **Account** is selected and the main form **Account** is selected.   
-    >[!NOTE]
-    >If you're unable to view the table to which you want to add the widget, in the upper-right corner of the page, change the filters settings to **All**.     
-    
-    > [!div class="mx-imgBorder"]  
-    > ![Select the account main form on the Forms tab](media/power-apps-account-main-form.png "Select the account main form on the Forms tab")    
-5. In the form designer, select **Component**, and then from **Layout**, add a column to the form as a placeholder to add the widget.    
-    > [!div class="mx-imgBorder"]  
-    > ![Add a column to the form](media/power-apps-layout-add-column-form.png "Add a column to the form")   
-7. From the site map, select **Display** > **Relationship Health**.    
-    >[!NOTE]
-    >Ensure that the added placeholder column is selected. If it isn't, the widget will be added at a random place in the form.   
-
-    > [!div class="mx-imgBorder"]   
-    > ![Select the health score widget](media/power-select-health-score-widget.png "Select the health score widget")   
-8. In the **Edit relationship health** pop-up window, select **Done**.    
-    > [!div class="mx-imgBorder"]  
-    > ![Select Done to add the health score widget](media/power-app-health-score-widget-options.png "Select Done to add the health score widget")    
-
-    The health score widget is added to the form.     
-    >[!NOTE]
-    >To hide the **New section** label, go to the **Properties** tab of the **New Section** settings pane that is displayed on the right side of the page, and then select **Hide label**.     
-9. Save and publish the form.   
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 
 [Use relationship analytics to gather KPIs](../sales/relationship-analytics.md)  
-[Opt out of relationship analytics (GDPR)](optout-relationship-analytics-gdpr.md)  
+[Add Relationship intelligence widgets to custom forms](add-ri-widgets-to-custom-form.md) 
 [GDPR for Sales Insights](embedded-intelligence-gdpr.md)  
 [View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)  
 
