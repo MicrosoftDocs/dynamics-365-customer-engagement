@@ -34,7 +34,7 @@ Follow these steps to create a holiday schedule:
   
    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)] [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
 
- 2. Navigate to the Customer Service admin center (preview) or Customer Service Hub app. Depending on your app, perform the following steps:
+2. Navigate to the Customer Service admin center (preview) or Customer Service Hub app. Depending on your app, perform the following steps:
 
    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
