@@ -82,8 +82,6 @@ You can configure the rules in the Customer Service admin center (preview) or Cu
   
       The **Record Creation and Update Rules** page is displayed. 
 
-1. In Customer Service Hub site map, go to **Service Management**, and select **Automatic record creation and update rules**. The **Record creation and update rules** page appears.
-
 2. Select **New**. The **New Record Creation and Update Rule** page is displayed.
 
 3. On the **Basic** tab, in **Step one details**, enter the following details:
