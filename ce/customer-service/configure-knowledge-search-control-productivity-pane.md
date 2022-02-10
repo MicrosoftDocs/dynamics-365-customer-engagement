@@ -38,9 +38,9 @@ searchScope:
 
 ## Introduction
 
-You can configure how you want the knowledge base search control to appear for your entities on the app side pane for a multisession. To do so, you will need to first add the record types for which you want to turn on knowledge management and then configure the record type settings.
+You can configure how you want the knowledge base search control to appear for your entities on the app side pane. To do so, you will need to first add the record types for which you want to turn on knowledge management and then configure the record type settings.
 
-Configuring a record type will specify the information that your agents will see while they interact with customers during a multisession. **Case** and **Conversation** record types are enabled by default. The **Conversation** record type will be available by default if you have purchased add-on SKUs, such as Chat, Digital messaging, or Voice. If you are an existing user, you will also see all the entities previously enabled by you.
+Configuring a record type will specify the information that your agents will see while they interact with customers. **Case** and **Conversation** record types are enabled by default. The **Conversation** record type will be available by default if you have purchased add-on SKUs, such as Chat, Digital messaging, or Voice. If you are an existing user, you will also see all the entities previously enabled by you.
 
 ## Add record types for which you want to turn on knowledge management
 
@@ -89,7 +89,7 @@ To edit an entity record:
     * **Link article and email URL**
     * **Link article and send article content**
 7.	In **Email recipient**, from the **Select default email recipient** dropdown list, select the email recipient.
-    The **Email recipient** option is available only if the attribute is of type 'Customer’ or 'Lookup’ and the lookup entity must either be ‘Account’ or ‘Contact’.
+    The **Email recipient** option is available only to the Customer or Lookup attribute type, and to the Account or Contact lookup entity.
 8.	Click **Save and Close**.
   
     :::image type="content" source="media/edit-ent-record.png" alt-text="edit an existing entity record":::
