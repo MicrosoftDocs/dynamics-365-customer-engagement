@@ -15,7 +15,7 @@ topic-status: Drafting
 ---
 # Configure who knows whom 
 
-The Who knows whom feature helps users to quickly identify colleagues who can introduce them to leads or contacts, based on their email interactions. To configure the feature, perform the following tasks:
+The Who knows whom feature helps sellers to quickly identify colleagues who can introduce them to leads or contacts, based on their email interactions. To configure the feature, perform the following tasks:
 - [Enable the who knows whom feature](#enable-the-who-knows-whom-feature)
 - [Enable the connection graph](#enable-the-connection-graph)
 
@@ -50,9 +50,9 @@ The Who knows whom feature helps users to quickly identify colleagues who can in
     > [!div class="mx-imgBorder"]
     > ![Enable who knows whom](media/si-admin-who-knows-whom-enable.png "Enable who knows whom")
 
-5. (Optional) Change the email template to use when a seller wants to contact a colleague to get introduced to a lead or contact. 
+5. (Optional) Select the email template to use when a seller wants to contact a colleague, so as to get introduced to a lead or contact. By default, the who knows whom introduction emails template is selected.
     
-    By default, the who knows whom introduction emails template is selected. The following screenshot shows an example introduction email:
+    The following screenshot shows an example introduction email:
 
     :::image type="content" source="media/wkw_mail_to_introduction.png" alt-text="Screenshot of an example introduction email":::
     > [!NOTE]
@@ -60,7 +60,7 @@ The Who knows whom feature helps users to quickly identify colleagues who can in
 
 6. Select **Save**.
 
-The who knows whom feature is configured. As a next step, work with your Microsoft 365 administrator to [Enable the connection graph](#enable-the-connection-graph). This step is mandatory and users will see the suggestions only after the connection graph is enabled.  
+The who knows whom feature is configured. As a next step, work with your Microsoft 365 administrator to [Enable the connection graph](#enable-the-connection-graph). This step is mandatory; users will see the suggestions only after the connection graph is enabled.  
 
 ## Enable the connection graph
 
