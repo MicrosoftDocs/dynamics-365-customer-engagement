@@ -31,24 +31,24 @@ Make sure that you have the required administrator permissions for Dynamics 365.
 
 1. Go to one of the apps, and perform the following steps.
 
- ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
      
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   > [!IMPORTANT]
+   > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
    1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
    1. In the **Omnichannel historical analytics** section, select **Manage**.
 
-   The **Omnichannel historical analytics** page is displayed. Toggle the **Status** to **Enabled**.    
+     The **Omnichannel historical analytics** page is displayed. Toggle the **Status** to **Enabled**.    
 
- ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
     
    1. In the site map, select **Agent experience** in **Advanced settings**. The **Agent experience** page appears.
    2. In the **Real-time translation** section, select **Manage**.
 
       The **Omnichannel Configuration** page is displayed. Toggle the **Enable Omnichannel historical analytics report** to **On**.
 
-5. Select **Save** or **Save & Close**.
+2. Select **Save** or **Save & Close**.
 
 This configuration will also enable AI-discovered topics from conversations with default settings and historical analytics for unified routing.
 
