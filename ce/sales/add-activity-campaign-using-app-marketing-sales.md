@@ -68,7 +68,7 @@ Planning activities are those you want to perform before you launch the campaign
 When you add and distribute a campaign activity, an activity is created for each member in the marketing lists that are part of the campaign.
  
 > [!NOTE]
-> The average time for distribution of a campaign activity with 100,000 members is 24 hours. For larger campaigns, use Dynamics 365 Marketing. More information: [Use customer journeys to create automated campaigns](/marketing/customer-journeys-create-automated-campaigns.md)
+> The average time for distributing a campaign activity to 100,000 members is 24 hours. For larger campaigns and faster activity distribution, use Dynamics 365 Marketing. For more information, go to [Dynamics 365 Marketing documentation](/marketing/overview.md).
   
 1. In the site map, select **Marketing Lists**, and from the **Campaigns** area, open the campaign to which you want to add a campaign activity.
 
