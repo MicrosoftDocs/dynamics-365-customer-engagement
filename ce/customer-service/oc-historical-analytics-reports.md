@@ -39,7 +39,7 @@ Make sure that you have the required administrator permissions for Dynamics 365.
      1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
      1. In the **Omnichannel historical analytics** section, select **Manage**.
 
-     The **Omnichannel historical analytics** page is displayed. Toggle the **Enable Omnichannel historical analytics report** to **On*       
+     The **Omnichannel historical analytics** page is displayed. Toggle the **Enable Omnichannel historical analytics report** to **On**.       
 
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
     
@@ -80,7 +80,6 @@ You can enable historical analytics for unified routing in the Customer Service 
       The **Historical analytics for unified routing** page is displayed. Toggle the **Status** to **Enabled**.    
 
 2. Select **Save** or **Save & Close**.
-3. Save and close.
 
 The Unified routing historical analytics report will be available as a tab in the Omnichannel historical analytics report.
 
