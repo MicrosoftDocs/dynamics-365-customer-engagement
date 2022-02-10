@@ -28,8 +28,6 @@ Dynamics 365 Customer Service includes a subject organizational structure that l
 
 You can create or edit a subject in the Customer Service admin center (preview) or Customer Service Hub app.
 
-**Enable the Knowledge search analytics dashboard**
-
 1. Go to one of the apps, and perform the following steps.
    
    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
