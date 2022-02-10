@@ -1,7 +1,7 @@
 ---
 title: "Create templates for knowledge articles for Dynamics 365 Customer Service | MicrosoftDocs"
 description: Learn how to create templates that simplify the process of creating knowledge articles.
-ms.date: 02/11/2022
+ms.date: 02/10/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -35,7 +35,7 @@ Before working with templates, make sure you have the required privileges to cre
 
  As a knowledge manager, you can create knowledge article templates by defining the necessary fields such as Language, Title, Keywords, and Subject. These fields will be pre-populated when the author creates the article using the template, reducing the efforts to fill in these fields.
 
-You can create a knowledge article template either on the Customer Service Hub or on the Customer Service admin center (preview) app. Depending on your app, perform the following steps:
+You can create a knowledge article template in the Customer Service admin center (preview) or Customer Service Hub app by performing the following steps:
 
 1. Go to the **Article Templates** section.
 
@@ -44,12 +44,12 @@ You can create a knowledge article template either on the Customer Service Hub o
 > [!IMPORTANT]
 > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
- 1. Select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+ 1. In the site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
  1. On the **Knowledge** page, go to the **Article Templates** section and select **Manage**.
 
 ### [Customer Service Hub](#tab/customerservicehub)
 
- 1. Go to **Service Management** and select **Article Templates** in **Knowledge Base Management**.
+ 1. In the site map, go to **Service Management** and select **Article Templates** in **Knowledge Base Management**.
 
 ---
 

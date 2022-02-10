@@ -1,7 +1,7 @@
 ---
 title: Create and manage categories (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to create and manage categories for Customer Service.
-ms.date: 01/19/2022
+ms.date: 02/10/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -32,21 +32,35 @@ Categories are useful for reporting, sorting, segmenting, and categorization of 
 
 ## Create a category
 
-To create a category:
+ [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)] 
 
-1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
-
-    #### Check your security role  
+  #### Check your security role  
   
    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
-  
-2. In the Customer Service Hub site map, go to **Service Management** and select **Categories** in **Knowledge Base Management**.
 
-3. Select **New**.  
+You can create a category in the Customer Service admin center (preview) or Customer Service Hub app by performing the following steps:
+
+1. Go to the **Categories** page.
+
+### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+
+> [!IMPORTANT]
+> The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+  1. In the site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+  1. In the **Categories** section, select **Manage**. The **Categories** page appears.
+
+### [Customer Service Hub](#tab/customerservicehub)
+
+   * In the site map, go to **Service Management** and select **Categories** in **Knowledge Base Management**. The **Categories** page appears.
+
+---
+  
+2. Select **New**.  
  
-4. Type or change the information in the text boxes.
+3. Enter the required information.
 
    - In the **General** section, fill in the required details:
   

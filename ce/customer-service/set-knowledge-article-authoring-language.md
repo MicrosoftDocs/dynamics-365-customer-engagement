@@ -1,7 +1,7 @@
 ---
 title: Configure default knowledge article authoring language | MicrosoftDocs
 description: Learn how to configure a default language for authoring knowledge articles in Dynamics 365 Customer Service
-ms.date: 02/11/2022
+ms.date: 02/10/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -41,7 +41,7 @@ Admin settings for KA authoring language (Knowledge settings page)
 
 The ability to override follows the hierarchy order at the individual articles, agent or knowledge manager, and then administrator.
 
-You can set a default knowledge article authoring language for your organization either on the Customer Service Hub or on the Customer Service admin center (preview) app. Depending on your app, perform the following steps:
+You can set a default knowledge article authoring language for your organization in the Customer Service admin center (preview) or Customer Service Hub app by performing the following steps:
 
 1. Go to the **Authoring language** section.
 
@@ -50,13 +50,13 @@ You can set a default knowledge article authoring language for your organization
 > [!IMPORTANT]
 > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-  1. Select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+  1. In the site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
   1. In the **General settings** section, select **Manage**. The **General settings** page appears.
   1. On the **General settings** page, go to the **Authoring language** section.
 
 ### [Customer Service Hub](#tab/customerservicehub)
 
-   1. On the Customer Service Hub site map, go to **Service Management** and select **Settings** in **Knowledge Base Management**. The **Settings** page appears.
+   1. In the site map, go to **Service Management** and select **Settings** in **Knowledge Base Management**. The **Settings** page appears.
    1. On the **Settings** page, go to the **Knowledge articles authoring language** section.
 
 ---
