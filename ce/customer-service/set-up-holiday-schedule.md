@@ -36,22 +36,22 @@ Follow these steps to create a holiday schedule:
 
 2. Navigate to the Customer Service admin center (preview) or Customer Service Hub app. Depending on your app, perform the following steps:
 
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
-   > [!IMPORTANT]
-   > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-    1. In the site map, select **Calendar** in **Operations**. The **Calendar** page appears.
-    1. In the **Holiday calendar** section, select **Manage**.                                                                         
+      1. In the site map, select **Calendar** in **Operations**. The **Calendar** page appears.
+      1. In the **Holiday calendar** section, select **Manage**.                                                                         
         
-        The **All Holiday Schedules** view is displayed. You can switch between various system views using the drop-down list.  
+         The **All Holiday Schedules** view is displayed. You can switch between various system views using the drop-down list.  
 
-   ### [Customer Service Hub](#tab/customerservicehub)
+    ### [Customer Service Hub](#tab/customerservicehub)
 
-    1. In the site map, go to **Service Management**.
-    1. From the list of entity records, select **Holiday Schedule** in **Service Terms**.                                                              
+     1. In the site map, go to **Service Management**.
+     1. From the list of entity records, select **Holiday Schedule** in **Service Terms**.                                                              
        
-       The **All Holiday Schedules** view is displayed. You can switch between various system views using the drop-down list.  
+        The **All Holiday Schedules** view is displayed. You can switch between various system views using the drop-down list.  
   
 3. Select **New** and in the **Create Holiday Schedule** dialog box, enter a name and description for the holiday, and then select **Create**.  
   
