@@ -22,6 +22,8 @@ searchScope:
 # View a forecast 
 
 Forecasts help you to see the health of your pipeline or to see how your sales team is doing against their quota or target.
+> [!NOTE]
+> The forecasting feature is not supported on mobile devices.
 
 ## License and role requirements
 
