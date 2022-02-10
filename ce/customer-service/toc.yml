@@ -520,6 +520,8 @@
         href: voice-channel-route-queues.md      
       - name: Set up outbound calling
         href: voice-channel-outbound-calling.md
+      - name: Configure historical analytics for voice
+        href: cs-voice-historical-analytics.md
       - name: Add Power Virtual Agents bot for voice
         href: voice-channel-ivr-bots.md
       - name: Integrate Azure bots for voice

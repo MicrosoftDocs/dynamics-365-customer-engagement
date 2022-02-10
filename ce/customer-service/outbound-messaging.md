@@ -43,7 +43,7 @@ After meeting the prerequisites, you can send outbound messages from your organi
 
 Set up templates to send outbound messages. To create a template, consider the scenarios that require your organization to send outbound messages.
 
-1. Sign in to the Omnichannel admin center app.
+1. Sign in to the Customer Service admin center (preview) or Omnichannel admin center app.
 
 2. Create a template for your outbound message.
 
@@ -52,7 +52,28 @@ Set up templates to send outbound messages. To create a template, consider the s
 
 ## Set up outbound configuration
 
-1. In the site map of Omnichannel admin center, select **Customer settings** under **Advanced settings**, and then select **Manage** for **Outbound**. If you're using the Omnichannel Administration app, go to **Settings**, and select **Outbound**.
+You can set up the outbound configuration in the Customer Service admin center (preview) or Omnichannel admin center app.
+
+1. Go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+     1. In the site map, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
+     1. In the **Outbound** section, select **Manage**.
+
+     The **Active Outbound Configurations** page is displayed.      
+
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+    
+     1. In the site map, select **Customer Settings** in **Advanced settings**. The **Customer settings** page appears.
+     2. In the **Outbound** section, select **Manage**.
+
+      The **Active Outbound Configurations** page is displayed.
+
+ If you're using the Omnichannel Administration app, go to **Settings**, and select **Outbound**.
 
 2. Select **New**, and on New Outbound Configureation page,  enter the details for the settings mentioned in the following table.
 
@@ -81,7 +102,26 @@ Power Automate provides a low-code platform for workflow and process automation.
 
 **To set up a Power Automate flow**
 
-1. In the Omnichannel admin center, go to **Message template view**, select **Flow** in the Command menu, and then select **Create a flow**. If you're using the Omnichannel Administration app, select **Message template view** > **Flow** at the top of the screen, and then select **Create a flow**.
+1. Go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+     1. In the site map, select **Productivity** in **Agent experience**. The **Productivity** page appears.
+     1. In the **Message templates** section, select **Manage**.
+
+     The **Message template view** page is displayed.      
+
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+    
+     1. In the site map, select **Agent experience** in **Advanced settings**. The **Agent experience** page appears.
+     2. In **Message templates** section, select **Manage**.
+
+      The **Message template view** page is displayed.
+
+1. select **Flow** at the top of the screen, and then select **Create a flow**.
 
     or
 

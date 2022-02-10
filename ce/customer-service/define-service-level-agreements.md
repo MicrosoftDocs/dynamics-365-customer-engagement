@@ -259,7 +259,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
 6. Select **Activate**. The SLA is activated.
 
-## Create a standard SLA (Customer Service app)
+### Create a standard SLA (Customer Service app)
 
 > [!NOTE]
 >
@@ -365,7 +365,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
     > - If failure or warning times are set to less than one hour, processing of the failure or warning actions might be delayed.
     > - Make sure you author SLAs in a way that best suits your company's needs. For example, in the SLA **Applicable When** conditions, we recommend that you don't use case fields that are updated too frequently, because any change to the field value might lead to the SLA item being canceled.
 
-## Create an enhanced SLA (Customer Service app) 
+### Create an enhanced SLA (Customer Service app) 
 
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
 
@@ -484,7 +484,7 @@ To set an SLA as the default, select an active SLA from the list, and then selec
 > [!NOTE]
 > If you deactivate a default SLA, you must activate it again before resetting it as the default.  
 
-## Disable an SLA in Customer Service app
+### Disable an SLA in Customer Service app
 
 During maintenance activities or when you're importing records and you don't want the SLAs to be applied, you can disable SLAs for your organization. A system administrator can disable SLAs from the **System Settings** dialog box. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Service tab](/power-platform/admin/system-settings-dialog-box-service-tab)  
 
