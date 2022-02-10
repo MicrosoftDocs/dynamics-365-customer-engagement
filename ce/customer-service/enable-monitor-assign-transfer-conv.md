@@ -12,7 +12,11 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
+## Introduction
+
 As an administrator, you can enable your supervisors to take specific actions on various conversations being handled by their agents in Omnichannel for Customer Service. You can grant your supervisors permissions to monitor, assign, and transfer conversations by enabling the respective permissions in the Customer Service admin center (preview), Omnichannel admin center or Omnichannel Administration apps.
+
+## Configure Supervisor settings
 
 1. Go to one of the apps, and perform the following steps.
    
