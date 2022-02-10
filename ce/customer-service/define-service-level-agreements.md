@@ -72,7 +72,7 @@ Review the following requirements before configuring SLAs for your organization:
 
 SLA KPIs are performance indicators, such as First Response or Resolve by, that you'd like to track.
 
- 1. Navigate to the Customer Service admin center (preview) app or Customer Service Hub app, and perform the following steps:
+1. Navigate to the Customer Service admin center (preview) app or Customer Service Hub app, and perform the following steps:
 
    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
@@ -127,7 +127,8 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
 ### Create an SLA 
 
- 1. Navigate to the Customer Service admin center (preview) app or Customer Service Hub app. Depending on your app, perform the following steps:
+1. Navigate to the Customer Service admin center (preview) or Customer Service Hub app, and perform the following steps:
+
 
    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
@@ -158,7 +159,8 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
 ### Create an SLA item
 
- 1. Navigate to the Customer Service admin center (preview) app or Customer Service Hub app, and perform the following steps:
+1. Navigate to the Customer Service admin center (preview) app or Customer Service Hub app, and perform the following steps:
+
 
    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
@@ -339,7 +341,6 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
        ![Success criteria for an SLA is Case First Response Sent equals Yes.](media/crm-ua-sla-details-success-criteria.png "Success criteria for an SLA is 'Case First Response Sent equals Yes'")  
   
-
      > [!NOTE]
      >  Before you specify the failure and warning actions for the SLA, save the SLA item record.  </br> </br> If the conditions configured in the SLA fields conflict with each other, the SLA is canceled before it meets the success or failure criteria. For example, if the **Case Status** field is set as **Active** in the **Applicable When** section and is set as **not equal to Active** in the **Success Criteria** section, the SLA will be canceled when implemented.
 
