@@ -79,7 +79,7 @@ This is by design. The What's new functionality is only available in the legacy 
 
 The Power Platform duplicate detection uses rules based on matchcode that is created for each record. When a record is in the process of being created or updated, its matchcode is automatically compared against the matchcodes of existing records. If duplicates exist, the duplicate records are displayed before you save the record. More information: [Detect duplicate data so you can fix or remove it](/power-platform/admin/detect-duplicate-data)
 
-The Dynamics 365 Sales duplicate detection of leads is an AI model that uses rules based on fuzzy logic and matchcode. When enabled, fuzzy logic and matchcode is generated each lead and compared against other leads in the organization to identify duplicates.   
+The Dynamics 365 Sales duplicate detection of leads is an AI model that uses rules based on fuzzy logic and matchcode. When enabled, fuzzy logic and matchcode is generated for each lead and compared against other leads in the organization to identify duplicates.   
 
 | Rule type | Applied for|  
 |-----------|------------|
