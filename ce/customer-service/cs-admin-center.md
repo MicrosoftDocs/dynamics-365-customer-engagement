@@ -27,7 +27,7 @@ Use the Customer Service admin center app to set up everything related to custom
 
 Some of the improvements include:  
 
-- Consolidation of administration experiences across Customer Service Hub, Omnichannel for Customer Service and app profile manager.
+- Consolidated administration experiences across Customer Service Hub and Omnichannel admin center, and app profile manager.
 
 - Re-organized site map that's task oriented.
 
@@ -45,11 +45,11 @@ You will need one or more of the following security roles to access this app.
 
 - **System Customizer**: Can access and edit all the site map entries
 
-- **CSR Manager**: Can access the entities in service management
+- **CSR Manager**: Can access the entities consolidated from Customer Service Hub > Service Management
 
-- **App Profile Manager administrator**: Can access the app and edit app profile-related entities
+- **App Profile Manager administrator and Basic User**: Can access the app and edit app profile-related entities
 
-- **Omnichannel Administrator**: Can access the app and edit all the Omnichannel-related entities
+- **Omnichannel Administrator and Basic User**: Can access the app and edit all the Omnichannel-related entities
 
 ## Access the app
 
@@ -78,7 +78,7 @@ You can manage the following features in **Customer support**:
 
 You can manage the following features in **Agent experience**:
   
-- **Workspaces**: App profiles, templates, and third-party voice channel provider.
+- **Workspaces**: Agent experience profiles, templates, and third-party voice channel provider.
 - **Productivity**: Transcripts, outbound profiles, templates for emails and messages, macros, and custom presence.
 - **Knowledge**: Record types for which knowledge management needs to be enabled, filters, external portal, article templates, and search providers.
 
@@ -94,9 +94,13 @@ You can manage the following features in **Operations**:
 
   :::image type="content" source="media/operations-overview.png" alt-text="Overview page of operations in Customer Service admin center.":::
 
+### FAQs
+
+See the [FAQs about Customer Service admin center](faq-customer-service-admin-center.md) for any questions that you might have.
+
 ### See also
 
 [Help resources for Customer Service](help-hub.md)  
 [Sign up for a free Dynamics 365 Customer Service trial](try-customer-service.md)  
 [Overview of user management](overview-users.md)  
-[FAQs about Customer Service admin center](faq-customer-service-admin-center.md)  
+

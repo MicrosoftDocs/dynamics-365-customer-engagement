@@ -77,7 +77,7 @@ When creating routing rulesets, you can add multiple rule items and arrange them
 
 **To create the routing ruleset**
 
-1. Go to one of the apps, and perform the following steps.
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
    
    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
      

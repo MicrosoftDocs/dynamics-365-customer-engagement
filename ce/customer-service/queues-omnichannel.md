@@ -46,7 +46,7 @@ You can create queues for unified routing in Omnichannel admin center, or in the
 
 **To create a queue and set operating hour record for the queue**
 
-1. Go to one of the apps, and perform the following steps.
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
    
    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
      
