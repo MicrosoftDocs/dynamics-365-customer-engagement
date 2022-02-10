@@ -262,6 +262,8 @@
       items: 
       - name: Push notification setup for application developers
         href: real-time-marketing-developer-push.md
+      - name: Correlate across custom triggers
+        href: real-time-marketing-correlate-triggers.md
     - name: Real-time marketing troubleshoot + FAQ
       href: real-time-marketing-faq.md
   - name: Outbound marketing user guide
