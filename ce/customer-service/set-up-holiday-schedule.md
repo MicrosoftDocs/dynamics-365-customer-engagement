@@ -1,7 +1,7 @@
 ---
 title: "Set up a holiday schedule (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Learn how to set up a holiday schedule in Dynamics 365 Customer Service."
-ms.date: 08/06/2020
+ms.date: 02/10/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -66,7 +66,7 @@ To resolve any issues with the SLA during holidays, see [SLA timer does not paus
   
 7. In the **Add a Holiday** dialog box, specify the name and select the time of the holiday, and then select **OK**.  
   
-   The holiday is created and associated with your customer service calendar. After the customer service schedule is associated to an SLA,  then your SLA during business hours is not affected. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define service level agreements](../customer-service/define-service-level-agreements.md)  
+   The holiday is created and associated with your customer service calendar. After the customer service schedule is associated to an SLA,  then your SLA during business hours is not affected. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure service-level agreements](../customer-service/define-service-level-agreements.md)  
 
 ## Additional actions
 

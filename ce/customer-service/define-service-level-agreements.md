@@ -1,7 +1,7 @@
 ---
-title: "Define service-level agreements in Dynamics 365 Customer Service | MicrosoftDocs"
-description: "Learn how to define service-level agreements in Dynamics 365 Customer Service."
-ms.date: 10/21/2021
+title: "Configure service-level agreements in Dynamics 365 Customer Service | MicrosoftDocs"
+description: "Learn how to configure service-level agreements in Dynamics 365 Customer Service."
+ms.date: 02/10/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -18,29 +18,19 @@ ms.custom:
   - intro-internal
 ---
 
-# Define service-level agreements
+# Configure service-level agreements
 
 ## Introduction
 
-Service-level agreements (SLAs) enable businesses to track support policies and ensure customers are being supported per the support policy to which they are entitled. Businesses use SLAs to govern support products that customers either receive as part of their purchase or add on to their purchase. SLAs include policy details such as how quickly a customer is entitled to receive support, how many support requests a customer can make, and how long after purchases a customer can be supported as part of the agreement.  
-
-Define the level of service or support that your organization agrees to offer to a customer by using service-level agreements (SLAs) in Dynamics 365 Customer Service. You can include detailed items to define metrics or key performance indicators (KPIs) to attain that service level. KPIs help you get timely warnings about any issues your customer support team might be having.
-
-You can associate an SLA with an entitlement so that when an entitlement is added to a case, the associated SLA is also applied. You can only associate SLAs that are created for the Case entity with entitlements. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create an entitlement to define the support terms for a customer](create-entitlement-define-support-terms-customer.md)
-
-Alternatively, you can set up a default SLA for the organization.  
-
-## Configure SLAs in Customer Service Hub
-
-With the SLA feature in Customer Service Hub, you can:
+With service-level agreements (SLAs) configured in Customer Service Hub, you can:
 
 - Use out-of-the-box actions in Microsoft Power Automate.
 - Define work hours, and pause and resume SLAs at the SLA KPI level and SLA item level, which help track SLA items for different work hours based on priority and criteria. The pause settings at SLA KPI level or SLA item level gives you added flexibility to define pause conditions at a more granular level.
-- In a case lifecycle, multiple SLA KPIs can be triggered at different start points. The following illustration depicts how you can define an overall resolution time, and also specify SLA KPIs at different start points.
+- In a case lifecycle, trigger multiple SLA KPIs at different start points. The following illustration depicts how you can define an overall resolution time, and also specify SLA KPIs at different start points.
 
 ![SLA pause and resume.](media/SLA-pause-resume.png "SLA pause and resume")
 
-Perform the following steps to configure SLAs in Customer Service Hub:
+To configure SLAs in Customer Service Hub:
 
 1. [Review prerequisites](#prerequisites).
 2. [Create SLA KPIs](#create-sla-kpis).

@@ -361,10 +361,12 @@
     - name: Create records from emails in legacy app
       href: automatically-create-case-from-email.md
   - name: Service-level agreements
-    items: 
+    items:
+    - name: Overview of service-level agreements
+      href: overview-service-level-agreements.md 
     - name: Administrator experience
       items: 
-      - name: Define service-level agreements
+      - name: Configure service-level agreements
         href: define-service-level-agreements.md
       - name: Enable entities for service level agreements
         href: enable-entities-service-level-agreements.md
