@@ -1,7 +1,7 @@
 ---
 title: "Create a quick campaign using in-app marketing | MicrosoftDocs"
 description: "A quick campaign is a single campaign activity meant for a specific audience. For example, sending an e-mail blast to customers in a specific region."
-ms.date: 11/12/2021
+ms.date: 02/10/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -22,9 +22,7 @@ searchScope:
 
 # Create a quick campaign using in-app marketing
 
-Send an e-mail blast to customers who fit a specific demographic, a mail campaign to clients in a specific region, or perhaps a phone call campaign to previous buyers of a particular product by using a quick campaign in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]. A quick campaign is a single campaign activity geared toward a targeted audience. Track the success of your quick campaign through campaign responses, and convert the positive responses into new leads, quotes, orders, or opportunities.
-  
-If you need to perform more than one activity for your campaign, such as an email blast and a mailing, create a new campaign instead. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a campaign using in-app marketing](create-edit-campaign-using-app-marketing-sales.md)
+Send an e-mail blast to customers who fit a specific demographic, a mail campaign to clients in a specific region, or perhaps a phone call campaign to previous buyers of a particular product by using a quick campaign in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]. 
 
 ## License and role requirements
 
@@ -34,7 +32,19 @@ If you need to perform more than one activity for your campaign, such as an emai
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||  
 
+## When to use quick campaign
+
+A quick campaign is a single campaign activity geared towards a targeted audience. Track the success of your quick campaign through campaign responses, and convert the positive responses into new leads, quotes, orders, or opportunities.
+  
+If you need to perform more than one activity for your campaign, such as an email blast and a mailing, create a new campaign instead. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a campaign using in-app marketing](create-edit-campaign-using-app-marketing-sales.md)
+
+
 ## Create a quick campaign
+
+When you create a quick campaign activity, an activity is created for each member in the marketing lists, that are part of the campaign.
+ 
+> [!NOTE]
+> The average time for distribution of a quick campaign activity with 100,000 members is 24 hours. For larger campaigns, use Dynamics 365 Marketing. More information: [Use customer journeys to create automated campaigns](/marketing/customer-journeys-create-automated-campaigns.md)
 
 1. In the site map, select **Marketing Lists**.
   
