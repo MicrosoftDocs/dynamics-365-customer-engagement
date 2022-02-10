@@ -128,6 +128,8 @@ After you have configured knowledge management on your app, you must also set up
 The configured settings are also available to users of Omnichannel for Customer Service.
 ---
 
+The configured settings are also available to users of Omnichannel for Customer Service. 
+
 ## Set up knowledge management settings page manually for a model-driven app
 
 > [!NOTE]
