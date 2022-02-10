@@ -30,7 +30,7 @@ To let agents and supervisors see the customer's satisfaction levels instantly w
 
 ### Enable sentiment analysis
 
-You can create rating models in the Customer Service admin center (preview) or Omnichannel admin center app.
+You can enable the sentiment analysis feature in the Customer Service admin center (preview) or Omnichannel admin center app.
 
 1. Go to one of the apps, and perform the following steps.
    
