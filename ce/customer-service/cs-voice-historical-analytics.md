@@ -49,7 +49,7 @@ To view the rich analytics and insights for your organization, you must enable *
      1. In the site map, select **Settings** in **Insights**. The **Insights** page appears.
      2. In the **Omnichannel historical analytics for voice** section, select **Manage**.
 
-      The **HOmnichannel historical analytics for voice** page is displayed. Toggle the **Status** to **Enabled**.    
+      The **Omnichannel historical analytics for voice** page is displayed. Toggle the **Status** to **Enabled**.    
 
 2. Select **Save** or **Save & Close**.
 
