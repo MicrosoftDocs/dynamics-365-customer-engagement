@@ -39,7 +39,7 @@ A quick campaign is a single campaign activity geared towards a targeted audienc
 If you need to perform more than one activity for your campaign, such as an email blast and a mailing, create a new campaign instead. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a campaign using in-app marketing](create-edit-campaign-using-app-marketing-sales.md)
 
 
-## Create a quick campaign
+## Create a quick campaign and activity
 
 When you create a quick campaign activity, an activity is created for each member in the marketing list, that's part of the quick campaign.
  
@@ -56,11 +56,11 @@ When you create a quick campaign activity, an activity is created for each membe
   
 5. On the **Select the Activity Type and Owners** step, from the **Activity Type** list, select the type of activity you want to create. 
 
-  You can also select who you want [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to assign the activity to and whether [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] should perform the activity automatically for appropriate activities, such as sending email messages. For example, if you are creating a phone call activity for all the sales representatives, you can select the **Activity Type** as **Phone Call**, and then select **The owners of the records in the target marketing lists**. Each sales representative can then see the activity and take action on it. However, if you are creating a large number of email activities that [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] will perform automatically, you can assign the email activity to yourself instead of the record owners.
+      You can also select who you want [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to assign the activity to and whether [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] should perform the activity automatically for appropriate activities, such as sending email messages. For example, if you are creating a phone call activity for all the sales representatives, you can select the **Activity Type** as **Phone Call**, and then select **The owners of the records in the target marketing lists**. Each sales representative can then see the activity and take action on it. However, if you are creating a large number of email activities that [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] will perform automatically, you can assign the email activity to yourself instead of the record owners.
 
-  Select **Next**.
+6. Select **Next**.
 
-  ![Quick campaign wizard.](media/quick-campaign-wizard.png "Quick campaign wizard") 
+    ![Quick campaign wizard.](media/quick-campaign-wizard.png "Quick campaign wizard") 
   
 6. On the **Specify the Content of the Activity** step, specify the details of the activity to be created, and then select **Next**.  
 
