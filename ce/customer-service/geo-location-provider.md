@@ -21,11 +21,32 @@ To enable location detection, you must first get your Bing Maps API key and crea
 
 ## Create a geo location provider record
 
-1. In the site map of Omnichannel admin center, select **Customer settings** under **Advanced settings**, and then select **Manage** for **Geo location**. If you're using the Omnichannel Administration app, go to **Geo Location** under **Settings**. A list of existing records is displayed.
+You can create a geo location provider record in the Customer Service admin center (preview) or Omnichannel admin center app.
+
+1. Go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+     1. In the site map, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
+     1. In the **Geo location** section, select **Manage**.
+
+     The **Active Geo Location Providers** page is displayed.      
+
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+    
+     1. In the site map, select **Customer Settings** in **Advanced settings**. The **Customer settings** page appears.
+     2. In the **Geo location** section, select **Manage**.
+
+      The **Active Geo Location Providers** page is displayed. 
+
+ If you're using the Omnichannel Administration app, go to **Geo Location** under **Settings**. A list of existing records is displayed.
 
 2. Select **New** to add a geo location provider record.
 
-3. In the **Quick Create: Geo Location Provider** pane, provide the following information:
+3. In the **New Geo Location Provider** pane, provide the following information:
 
     - **Name**: Name of the geo location record.
 
@@ -38,7 +59,7 @@ To enable location detection, you must first get your Bing Maps API key and crea
 
 ## Enable visitor location detection
 
-If you're using Omnichannel admin center app, do the following:
+If you're using Customer Service admin center (preview) or Omnichannel admin center app, do the following:
 
 1. In Omnichannel admin center, go to the chat channel settings of the chat widget in which you want to enable geo location.
 
