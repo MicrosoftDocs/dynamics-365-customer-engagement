@@ -18,6 +18,9 @@ searchScope:
 
 Forecasts can be based on revenue or quantity. Configure forecast type, hierarchy, permissions, and details to appear on the forecast grid.
 
+> [!NOTE]
+> The forecasting feature is not supported on mobile devices.
+
 ## License and role requirements
 
 | &nbsp; | &nbsp; |
