@@ -26,10 +26,27 @@ Make sure your organization has a working knowledge of OAuth 2.0 and JSON Web To
 
 ## Create a chat authentication setting record
 
-1. In the site map of Omnichannel admin center app, select **Customer settings**, and then select **Manage** for **Authentication settings**. If you're using the Omnichannel Administration app, go to **Authentication Settings** under **Settings**.
+You can create a chat authentication setting record in the Customer Service admin center (preview) or Omnichannel admin center app.
 
-    A list of existing authentication settings is shown.
+1. Go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
+     1. In the site map, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
+     1. In the **Authentication settings** section, select **Manage**.
+
+     The **Active Authentication settings** page is displayed.      
+
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+    
+     1. In the site map, select **Customer Settings** in **Advanced settings**. The **Customer settings** page appears.
+     2. In the **Authentication settings** section, select **Manage**.
+
+      The **Active Authentication settings** page is displayed. 
+      
 3. Select **New** to add an authentication settings record.
 4. On the **New Chat Authentication Settings** page, provide the following information:
 
@@ -49,7 +66,7 @@ Make sure your organization has a working knowledge of OAuth 2.0 and JSON Web To
 ## Add authentication to chat widget
 
 1. Open the chat widget to which you want to add authentication and do one of the following steps:
-   - In Omnichannel admin center, go to the **Behaviors** tab. 
+   - In Customer Service admin center (preview) and Omnichannel admin center, go to the **Behaviors** tab. 
    - In Omnichannel Administration, go to the **Basic details** tab.
 2.	In the **Authentication settings** box, browse and select the chat authentication record.
 
