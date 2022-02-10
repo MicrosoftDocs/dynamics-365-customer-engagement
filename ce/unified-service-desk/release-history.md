@@ -15,7 +15,7 @@ search.app:
   - D365USD
 ms.custom: 
   - dyn365-USD
-monikerRange: '>= dynamics-usd-4'
+monikerRange: '>= dynamics-usd-3'
 ---
 
 
