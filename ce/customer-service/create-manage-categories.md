@@ -50,15 +50,15 @@ You can create a category in the Customer Service admin center (preview) or Cust
 > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
   1. In the site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
-  1. In the **Categories** section, select **Manage**. The **Categories** page appears.
+  1. In the **Categories** section, select **Manage**. The **All Categories** view is displayed. You can switch between various system views using the drop-down list.
 
 ### [Customer Service Hub](#tab/customerservicehub)
 
-   * In the site map, go to **Service Management** and select **Categories** in **Knowledge Base Management**. The **Categories** page appears.
+   * In the site map, go to **Service Management** and select **Categories** in **Knowledge Base Management**. The **All Categories** view is displayed. You can switch between various system views using the drop-down list.
 
 ---
   
-2. Select **New**.  
+2. On the command bar, select **New** to create a new category record.  
  
 3. Enter the required information.
 
