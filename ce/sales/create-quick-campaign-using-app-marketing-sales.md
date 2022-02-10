@@ -44,7 +44,7 @@ If you need to perform more than one activity for your campaign, such as an emai
 When you create a quick campaign activity, an activity is created for each member in the marketing list that's part of the quick campaign.
  
 > [!NOTE]
-> The average time for distributing a quick campaign activity to 100,000 members is 24 hours. For larger campaigns and faster activity distribution, use Dynamics 365 Marketing. For more information, go to [Dynamics 365 Marketing documentation](/marketing/overview.md).
+> The average time for distributing a quick campaign activity to 100,000 members is 24 hours. For larger campaigns and faster activity distribution, use Dynamics 365 Marketing. For more information, go to [Dynamics 365 Marketing documentation](../marketing/overview.md).
 
 1. In the site map, select **Marketing Lists**.
   
