@@ -24,18 +24,31 @@ The following historical reports are available:
 
 Make sure that you have administrator permissions for Dynamics 365.
 
-1. Sign in to Dynamics 365 as an administrator, and go to **Customer Service Hub**.
+You can enable the customer service historical analytics reports in the Customer Service admin center (preview) or Customer Service Hub app.
 
-2. In the **Change area**, select **Service Management**.
+**Enable the Knowledge search analytics dashboard**
 
-3. Under **Insights**, select **Settings**. The **Insights** page is displayed.
+1. Go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
+     1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
+     1. In the **Customer Service historical analytics** section, select **Manage**.
 
-4. On the right of **Customer Service historical analytics**, select **Manage**.
+     The **Customer Service historical analytics** page is displayed. Set the **Enable Customer Service historical analytics report** toggle to **Enabled**.  
 
-5. On the **Customer Service historical analytics** page, set the **Status** toggle to **Enabled**.
+   ### [Customer Service Hub](#tab/customerservicehub)
+    
+     1. In the site map, select **Service Management**.
+     2. Select **Settings** in **Insights**. The **Insights** page appears.
+     3. In the **Customer Service historical analytics** section, select **Manage**.
 
-6. Select **Save** or **Save & Close**.
+      The **Customer Service historical analytics** page is displayed. 
+
+2. Select **Save** or **Save & Close**.
 
     > [!div class=ms-imgBorder]
     > ![Customer Service analytics installation.](media/cs-enable-analyticsinsights.png "Enable Customer Service historical analytics")
