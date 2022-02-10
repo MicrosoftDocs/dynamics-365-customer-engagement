@@ -49,6 +49,25 @@ Based on configured data input, the Relevance search mechanism filters the cases
     - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
     - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+  
+1. Navigate to the Customer Service admin center (preview) or Customer Service Hub app, and perform the following:
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+     1. In the site map, select **Case Settings** in **Customer Support**. The **Case Settings** page appears.
+     1. In the **Advanced similarity rules** section, select **Manage**.
+
+     The **All Advanced Similarity Rules** page is displayed.
+
+   ### [Customer Service Hub](#tab/customerservicehub)
+    
+     1. In the site map, select **Service Management**.
+     2. Select **Advanced similarity rules** in **Similar Records Suggestion**. 
+  
+      The **All Advanced Similarity Rules** page is displayed. 
 
 2. In the Customer Service Hub sitemap, go to **Service Management** > **Advanced Similarity Rules**.
 
@@ -109,7 +128,7 @@ See the below table to understand how search results are impacted when Relevance
 
  Follow the below steps to enable a field for exact match of similar cases.
 
-1. In Customer Service Hub, go to **Settings** > **Advanced Settings**. 
+1. Go to **Settings** > **Advanced Settings**. 
   
 2. Select the **Settings** > **Customizations**.
 
