@@ -1,7 +1,7 @@
 ---
 title: "Manage duplicates leads"
-description: "Manage leads by detecting duplicates to maintain great relationships with customers and keep your leads clutter free."
-ms.date: 02/10/2022
+description: "Find and address duplicate leads by using duplicate detection in Dynamics 365 Sales."
+ms.date: 02/11/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -12,7 +12,7 @@ manager: shujoshi
 
 [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)] 
 
-Duplicate identification of leads helps you to maintain clean and accurate data for leads in your organization.
+Duplicate identification of leads helps you to maintain clean and accurate database of leads by removing the duplicates.
 
 ## License and role requirements
 
@@ -32,10 +32,10 @@ Duplicate leads are identified based on the following rules:
 
 | Rule | Description | Example |
 |------|-------------|---------|
-| Same email address | The leads are displayed as duplicate though the other values such as, name and mobile number are different and have the same email address. | The leads, Kevin Smith and John Doe have email address employee@contoso.com, the duplicate detection feature displays the leads Kevin Smith and John Doe as duplicate based on this rule. |
-| Same phone number | The leads are displayed as duplicate though the other values such as, name and email address are different and has the same phone number. | The leads, Kevin Smith and John Doe have the same phone member +1234567890, the duplicate detection feature displays the leads Kevin Smith and John Doe as duplicate based on this rule. |
-| Similar name and company name | If the leads have a similar name and company, then the leads are displayed as duplicate. The defined AI model can identify the duplicate leads with name and company that sound similar. | For example, Regina Murphy from Contoso and Regina Merphy from Contoso.inc. In this example, the spelling of the names is different but sounds the same and company name is similar (Contoso). |
-| Similar name and the same email domain | If the leads have a similar name and email domain, then the leads are displayed as duplicate. The defined AI model can identify the duplicate leads with names that sound similar. | For example, Regina Murphy, Regina@tallc.com and Regina Merphy, Manager@tallc.com. In this example, the spelling of the names is different but sounds same and email domain is same (tallc.com). |
+| Same email address | The leads are displayed as duplicate when the leads contain the same email address even though the other values such as, name and mobile number are different. | The leads, Kevin Smith and John Doe have email address employee@contoso.com, the duplicate detection feature displays the leads Kevin Smith and John Doe as duplicate based on this rule. |
+| Same phone number | The leads are displayed as duplicate when the leads contain the same phone number even though the other values such as, name and email address are different. | The leads, Kevin Smith and John Doe have the same phone member +1234567890, the duplicate detection feature displays the leads Kevin Smith and John Doe as duplicate based on this rule. |
+| Similar name and company name | If the leads have a similar name and company, then the leads are displayed as duplicate. The AI model can identify the duplicate leads even when the name and company sound similar. | For example, Regina Murphy from Contoso and Regina Merphy from Contoso.inc. In this example, the spelling of the names is different but the names sound similar. |
+| Similar name and the same email domain | If the leads have a similar name and same email domain, then the leads are displayed as duplicate. The AI model can identify the duplicate even when the name sound similar. | For example, Regina Murphy, Regina@tallc.com and Regina Merphy, Manager@tallc.com. In this example, the spelling of the names is different but the names sound similar and email domain is same (tallc.com). |
  
 ## View and identify duplicate leads
 
