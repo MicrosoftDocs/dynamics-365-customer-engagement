@@ -1,7 +1,7 @@
 ---
 title: "Configure Microsoft Teams chats in Customer Service | Microsoft Docs"
 description: "Learn how to configure Microsoft Teams chat functionality in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
-ms.date: 01/31/2022
+ms.date: 02/11/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -85,18 +85,33 @@ The following data security and privacy considerations apply for Teams chat func
 
 7. Save and publish the changes.
 
-### Access the Teams settings in Customer Service Hub
+### Access the Teams settings
 
-1. In the Customer Service Hub app, select **Change area** in the lower-left corner, and then select **Service Management**.
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+     
+     1. In the site map, select **Productivity** in **Agent experience**.
+     2. On the **Productivity** page, select **Manage** for **Microsoft Teams integration**.
 
-2. Under **Microsoft Teams Integration**, select **Collaboration**.
+   ### [Customer Service Hub](#tab/customerservicehub)
+    
+    1. Go to **Service Management**, and in the site map, select **Service Management**.
+    2. In **Microsoft Teams Integration**, select **Collaboration**.
 
-3. Toggle **Turn on Microsoft Teams chats inside Dynamics 365 (preview)** and **Use record title as the default chat name for linked chats** to **Yes**.
+2.  On the **Microsoft Teams collaboration and chat** page, turn on the toggle for the following settings:
+
+   - **Turn on Microsoft Teams chats inside Dynamics 365 (preview)** 
+   - **Use record title as the default chat name for linked chats**.
 
    > [!div class="mx-imgBorder"] 
    > ![Enable the Microsoft Teams chat experience in Dynamics 365 Customer Service.](media/teams-chat-enable-cs.png "Enable the Microsoft Teams chat experience")
     
-4. Save the changes.<br>
+3. Save the changes.
+   
    The preview is now enabled for the Dynamics 365 Customer Service Hub, Customer Service workspace, and your custom apps (and also Field Service and Sales customer engagement apps, if you're using them). You can open a record and verify if you’re able to view the chats and channels related to the record.
     
 

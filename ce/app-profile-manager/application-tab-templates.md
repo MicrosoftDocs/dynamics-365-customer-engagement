@@ -4,7 +4,7 @@ description: "Learn how to create application tab templates in Customer Service.
 author: "mh-jaya"
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 01/10/2022
+ms.date: 02/11/2022
 ms.topic: article
 ---
 
@@ -25,11 +25,24 @@ As an administrator, you can create multiple application tab templates.
 
 ## Create application tab templates
 
-1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083), and go to the app profile manager page.
-2. In the left pane, under **Templates**, select **Application tabs**. The Unified Interface page opens in a new tab.
-3. Select **New** on the **Active Application Tab Templates** page.
+1. Select one of the following tabs, and perform the steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-4. Specify the following on the **New Application Tab Template** page.
+    1. In the site map, select **Workspaces** in **Agent experience**.
+    1. On the **Workspaces** page, select **Manage** for **Application tab templates**.
+
+   ### [Power Apps](#tab/powerapps)
+
+    1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083), and go to the app profile manager page.
+    1. In the left pane, under **Templates**, select **Application tabs**. The Unified Interface page opens in a new tab.
+
+2. Select **New** on the **Active Application Tab Templates** page.
+
+3. Specify the following on the **New Application Tab Template** page.
 
     | Tab | Name | Description | Example |
     |-----------|-------------------|-----------------------------------|-------------------------------------|
@@ -39,13 +52,13 @@ As an administrator, you can create multiple application tab templates.
     | General | Page type | Select an application type from the list. |  Web resource |
     | General | Description | Provide a description for your reference. | The application type is used to display a knowledge base search page. |
 
-5. Select **Save**. The **Parameters** section displays the parameters for the application type that you selected.
+4. Select **Save**. The **Parameters** section displays the parameters for the application type that you selected.
 
     Whenever you edit the application tab template, save the changes so you see the corresponding fields in the **Parameters** section.
 
-6. Select the **Value** field of a parameter that you want to edit and provide the value. For more information on parameters, see [Application types in the application templates](#application-types).
+5. Select the **Value** field of a parameter that you want to edit and provide the value. For more information on parameters, see [Application types in the application templates](#application-types).
 
-7. Select **Save**.
+6. Select **Save**.
 
 ## Application types
 
@@ -177,6 +190,7 @@ The following out-of-the-box application tab templates are available.
 
 ### See also
 
+[Get started with Customer Service admin center](../customer-service/cs-admin-center.md)  
 [Manage session templates](session-templates.md)  
 [Manage notification templates](notification-templates.md)  
 [Associate templates with workstreams](associate-templates.md)  
