@@ -1,7 +1,7 @@
 ---
 title: "Enable duplicate detection of leads"
 description: "Enable duplicate detection of leads to help your sales team to maintain great relationships with customers and keep your leads clutter free."
-ms.date: 02/11/2022
+ms.date: 02/10/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
