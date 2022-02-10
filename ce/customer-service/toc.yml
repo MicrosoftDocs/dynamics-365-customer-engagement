@@ -450,9 +450,9 @@
         href: create-templates-knowledge-article.md
     - name: Agent experience
       items:
-      - name: Search for and share knowledge articles
+      - name: Search for and share knowledge articles in Omnichannel for Customer Service
         href: oc-search-knowledge-articles.md 
-      - name: Search for knowledge articles
+      - name: Search for knowledge articles in Customer Service workspace
         href: csw-search-knowledge-articles.md
       - name: Search for knowledge articles in Customer Service Hub
         href: search-knowledge-articles-csh.md
