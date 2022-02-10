@@ -77,7 +77,7 @@ You can create workstreams for unified routing in the Customer Service admin cen
     > ![Set up a channel.](media/set-up-chat.png "Set up a channel")
 
 1. Perform the steps outlined in one of the following sections depending on the channel that you've selected.
-   - [Configure a chat widget](add-chat-widget.md#configure-a-chat-widget-in-omnichannel-admin-center)
+   - [Configure a chat widget](add-chat-widget.md#configure-a-chat-widget)
    - [Configure a voice channel](voice-channel-route-queues.md#configure-a-voice-channel)
    - [Configure a Facebook channel](configure-facebook-channel.md)
    - [Configure a WeChat instance](configure-wechat-channel.md)
