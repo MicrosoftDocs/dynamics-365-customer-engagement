@@ -175,7 +175,7 @@ You can set up the knowledge search logic in the Customer Service admin center (
 > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
   1. In the site map, select **Knowledge** in **Agent experience**.
-  1. On the **Knowledge** page, in the **General Settings** section, select **Manage**. The General settings page appears.
+  1. On the **Knowledge** page, in the **General settings** section, select **Manage**. The **General settings** page appears.
 
 ### [Customer Service Hub](#tab/customerservicehub)
 
