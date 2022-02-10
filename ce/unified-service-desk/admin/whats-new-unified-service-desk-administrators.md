@@ -14,7 +14,7 @@ search.app:
 ms.custom: 
   - dyn365-USD
   - dyn365-admin
-monikerRange: '>= dynamics-usd-4'
+monikerRange: '>= dynamics-usd-3'
 ---
 
 # What's new in Unified Service Desk for administrators
