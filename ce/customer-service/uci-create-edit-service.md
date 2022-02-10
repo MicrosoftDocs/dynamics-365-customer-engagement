@@ -31,22 +31,22 @@ A service requires at least one selection rule and one or more resources, resour
 
 1. Make sure that you have the Manager, Vice President, CEO-Business Manager, System Administrator, or System Customizer security role or equivalent permissions. 
 
-2. Navigate to either the Customer Service Hub or Customer Service admin center (preview) app. Depending on your app, perform the following steps:
+2. Navigate to the Customer Service admin center (preview) or Customer Service Hub app, and perform the following steps:
 
    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
    > [!IMPORTANT]
    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-    1. On the Customer Service admin center (preview) site map, select **Operations > Service scheduling**.
-    1.  In the **Service** section, select **Manage**.
+    1. In the site map, select **Service Scheduling** in **Operations**. The **Service Scheduling** page appears.
+    1. In the **Service** section, select **Manage**.
         
         The **Active Services** view is displayed. You can switch between various system views using the drop-down list.  
 
    ### [Customer Service Hub](#tab/customerservicehub)
 
-    1. On the Customer Service Hub site map, go to **Scheduling**.
-    1. From the list of entity records, select **Scheduling > Services**.
+    1. In the site map, go to **Scheduling**.
+    1. From the list of entity records, select **Services** in **Scheduling**.
        
        The **Active Services** view is displayed. You can switch between various system views using the drop-down list.
     

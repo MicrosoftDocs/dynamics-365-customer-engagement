@@ -28,9 +28,30 @@ To let agents and supervisors see the customer's satisfaction levels instantly w
 > [!NOTE]
 > Sentiment analysis is enabled by default.
 
-1. In the site map of Omnichannel admin center, select **Agent experience** under **Advanced settings**, and then select **Manage** for **Sentiment analysis**. If you're using the Omnichannel Administration app, under **Settings**, select **Sentiment Analysis**, and then select **Real-Time Sentiment Analysis**.
+### Enable sentiment analysis
 
-3. In the **Sentiment analysis** section, set the **Monitor real-time customer sentiment** toggle to **Yes**, and then select **Save**.
+You can enable the sentiment analysis feature in the Customer Service admin center (preview) or Omnichannel admin center app.
+
+1. Go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+     1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
+     1. In the **Sentiment analysis** section, select **Manage**.
+
+     The **Sentiment analysis** page is displayed.       
+
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+    
+     1. In the site map, select **Agent experience** in **Advanced settings**. The **Agent experience** page appears.
+     2. In the **Sentiment analysis** section, select **Manage**.
+
+      The **Sentiment analysis** page is displayed. 
+
+2. In the **Sentiment analysis** section, set the **Monitor real-time customer sentiment** toggle to **Yes**, and then select **Save**.
 
     > [!div class=mx-imgBorder]
     > ![Enable sentiment analysis.](media/monitor-real-time.png "Enable sentiment analysis")
@@ -50,7 +71,7 @@ You can show alerts to the agents when a customer's sentiment decreases to or be
 
 For example, you set the threshold value as **Slightly negative**. When the customer's sentiment reaches **Slightly negative** or any other sentiment value below this, an alert is displayed to the agent.
 
-1. In the Omnichannel admin center or Omnichannel Administration app, go to the **Sentiment analysis** page.
+1. Navigate to the **Sentiment analysis** page.
 2. In the **Agent settings** section, select a value from the **Show alerts when a customer's sentiment decreases to or below** list. The options are:
 
     - Don't show alerts
@@ -78,8 +99,7 @@ You can set the sentiment threshold to any of the following values:
 
 For example, you set the threshold value as **Slightly negative**. When the customer's sentiment reaches **Slightly negative** or any other sentiment value below this, a notification is displayed to the supervisor.
 
-1. In the Omnichannel admin center or Omnichannel Administration app, go to the **Sentiment analysis** page.
-
+1. Navigate to the **Sentiment analysis** page.
 2. In the **Supervisor settings** section, select a value from the **Send notifications when a customer's sentiment decreases to or below** list. The options are:
 
     - Don't send notifications

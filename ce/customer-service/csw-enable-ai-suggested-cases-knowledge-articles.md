@@ -90,44 +90,83 @@ Make sure that the following requirements are met:
 
 ## Enable AI suggestions for similar cases
 
-Perform the following steps to enable the AI suggestions for similar cases:
+You can create enable AI suggestions for similar cases in the Customer Service admin center (preview), Omnichannel admin center, or Customer Service Hub app.
 
-1. Sign in to Customer Service Hub. In the Change area, select **Service Management**, and then under **Insights**, select **Settings**.
+1. Go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-   or
+     1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
+     1. In the **Suggestions for agents** section, select **Manage**.
 
-   Sign in to Omnichannel admin center. Select **Insights** and then select **Settings**.
+     The **Suggestions** page is displayed.       
 
-2. In the **Suggestions for agents** section, select **Manage**. The **Suggestions** page appears.
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+    
+     1. In the site map, select **Settings** in **Insights**. The **Insights** page appears.
+     2. In the **Suggestions for agents** section, select **Manage**.
 
-3. In the **Settings** > **Summary** area, set the **Enable similar case suggestions** toggle to **Yes**.
+      The **Suggestions** page is displayed.    
+    
+   ### [Customer Service Hub](#tab/customerservicehub)
 
-4. In the **Data mapping** > **Case entity data fields** area, select values for the **Case summary** and **Case details** boxes respectively, if you don't want to use **Case Title** and **Description** that are set by default. The AI model uses the data corresponding to the selected boxes to understand the case context to provide similar case suggestions. By default, Case Title and Description fields are selected.
+      1. In the site map, go to **Service Management**
+      1. Select **Settings** in **Insights**. The **Insights** page appears.
+      1. In the **Suggestions for agents** section, select **Manage**.
+
+      The **Suggestions** page is displayed.  
+
+2. In the **Settings** > **Summary** area, set the **Enable similar case suggestions** toggle to **Yes**.
+
+3. In the **Data mapping** > **Case entity data fields** area, select values for the **Case summary** and **Case details** boxes respectively, if you don't want to use **Case Title** and **Description** that are set by default. The AI model uses the data corresponding to the selected boxes to understand the case context to provide similar case suggestions. By default, Case Title and Description fields are selected.
 
    > [!NOTE]
    > We recommend that you use text fields with plain text because suggestions might not be generated for text fields that are enabled for rich text format.
 
-5. Select **Save**.
+4. Select **Save**.
 
    > ![Enable AI-suggested similar cases.](media/csw-enable-ai-suggested-cases.png "Enable AI-suggested similar cases")
 
 ## Enable AI suggestions for knowledge articles
 
-Perform the following steps to enable the AI suggestions for related knowledge articles:
+You can create enable AI suggestions for knowledge articles in the Customer Service admin center (preview), Omnichannel admin center, or Customer Service Hub app.
 
-1. Sign in to Customer Service Hub.  In the **Change area**, select **Service Management**, and then under **Insights**, select **Settings**.
+1. Go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-   or
+     1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
+     1. In the **Suggestions for agents** section, select **Manage**.
 
-   Sign in to Omnichannel admin center. Select **Insights** and then select **Settings**.
+     The **Suggestions** page is displayed.       
 
-2. In the **Suggestions for agents** section, select **Manage**. The **Suggestions** page appears.
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+    
+     1. In the site map, select **Settings** in **Insights**. The **Insights** page appears.
+     2. In the **Suggestions for agents** section, select **Manage**.
 
-3. In the **Settings** > **Summary** area, set the **Enable knowledge article suggestions** toggle to **Yes**.
+      The **Suggestions** page is displayed.    
+    
+   ### [Customer Service Hub](#tab/customerservicehub)
 
-4. In the **Data mapping** > **Knowledge article data fields** area, ensure that **Title** and **Content** are selected in the **Article title** and **Article content** boxes, respectively. The selected options are used by the AI model to understand and find a good match for a case or conversation. Article content is used by the AI model to generate a brief article summary that's displayed to the agent at runtime.
+      1. In the site map, go to **Service Management**
+      1. Select **Settings** in **Insights**. The **Insights** page appears.
+      1. In the **Suggestions for agents** section, select **Manage**.
 
-5. Select **Save**.
+      The **Suggestions** page is displayed.  
+
+
+2. In the **Summary** area, set the **Enable knowledge article suggestions** toggle to **Yes**.
+
+3. In the **Data mapping** > **Knowledge article data fields** area, ensure that **Title** and **Content** are selected in the **Article title** and **Article content** boxes, respectively. The selected options are used by the AI model to understand and find a good match for a case or conversation. Article content is used by the AI model to generate a brief article summary that's displayed to the agent at runtime.
+
+4. Select **Save**.
 
    >:::image type="content" source="media/csh-enable-ai-suggested-articles.png" alt-text="Enable knowledge article suggestions":::
 

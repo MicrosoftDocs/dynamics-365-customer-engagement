@@ -29,22 +29,22 @@ Make sure that you have the required security role or equivalent permissions.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage security roles in service scheduling](manage-security-roles.md)
 
-1. Navigate to the Customer Service admin center (preview) or Customer Service Hub app. Depending on your app, perform the following steps:
+1. Navigate to the Customer Service admin center (preview) or Customer Service Hub app, and perform the following steps:
 
    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
    > [!IMPORTANT]
    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-    1. On the Customer Service admin center (preview) site map, select **Operations > Service Scheduling**.
-    1.  In the **Organizational units** section, select **Manage**.                                                                         
+    1. In the site map, select **Service Scheduling** in **Operations**. The **Service Scheduling** page appears.
+    1. In the **Organizational units** section, select **Manage**.                                                                         
         
         The **Active Organizational Units** view is displayed. You can switch between various system views using the drop-down list.  
 
    ### [Customer Service Hub](#tab/customerservicehub)
 
-    1. On the Customer Service Hub site map, go to **Scheduling**.
-    1. From the list of entity records, select **Settings > Organizational units**.                                                              
+    1. In the site map, go to **Scheduling**.
+    1. From the list of entity records, select **Organizational units** in **Settings**.                                                              
        
        The **Active Organizational Units** view is displayed. You can switch between various system views using the drop-down list.  
      

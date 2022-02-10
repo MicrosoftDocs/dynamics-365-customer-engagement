@@ -121,11 +121,31 @@ Intelligent skill finder depends upon the custom AI Builder category classificat
  > [!IMPORTANT]
  > If you want to import skill finder models from one environment to another, make sure that you import and export between environments of the same type. A model trained in test environment will work only in another test environment and not in a production environment.
 
-### Create skill finder models
+ ## Create skill finder models
+   
+You can set up the intelligent skill finder model rating models in the Customer Service admin center (preview) or Omnichannel admin center app. You can create as many models as your business requires.
 
-Perform the steps in this section to set up the intelligent skill finder model. You can create as many models as your business requires.
+**To create the skill finder model**
 
-1. In Omnichannel admin center, select **User attributes** in the site map, and then select **Manage** beside **Intelligent skill finder**.
+1. Go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+     1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
+     1. In the **Intelligent skill finder** section, select **Manage**.
+
+     The **Intelligent skill finder models** page is displayed.       
+
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+    
+     1. In the site map, select **User attributes** in **Advanced settings**. The **User attributes** page appears.
+     2. In the **Intelligent skill finder** section, select **Manage**.
+
+      The **Intelligent skill finder models** page is displayed.    
+   
 2. Select **New**, and on the **Configuration** tab of **New skill finder model** page, enter a name.
 3. In **Data criteria**, enter the following to form the dataset records:
     - **Attributes (Required)**: Select attributes in the Attributes and related list to form the training dataset. The corresponding attribute values will be merged in the sequence they are added and will be used to form the input string for the model training data.
