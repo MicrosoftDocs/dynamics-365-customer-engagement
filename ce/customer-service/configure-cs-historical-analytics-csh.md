@@ -1,7 +1,7 @@
 ---
 title: "Configure Customer Service historical analytics | MicrosoftDocs"
 description: "Learn how to configure Customer Service analytic reports for Customer Service Hub and Customer Service workspace"
-ms.date: 10/07/2021
+ms.date: 02/11/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
