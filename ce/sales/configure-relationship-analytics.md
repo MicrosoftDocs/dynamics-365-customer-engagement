@@ -1,7 +1,7 @@
 ---
 title: "Configure Relationship analytics and health"
 description: "Configure relationship analytics and health to provide graphical representation of KPIs and activity histories to the sellers."
-ms.date: 02/08/2022
+ms.date: 02/11/2022
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
