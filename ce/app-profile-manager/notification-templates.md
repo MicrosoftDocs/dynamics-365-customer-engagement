@@ -131,9 +131,9 @@ The out-of-the-box templates are as follows.
      1. In the site map, select **Workspaces** in **Agent experience**.
      2. On the **Workspaces** page, select **Manage** for **Notification templates**.
 
-### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
 
-   - In the site map, select **Agent experience** in **Advanced settings**, and then select **Manage** for **Notification templates**.
+    - In the site map, select **Agent experience** in **Advanced settings**, and then select **Manage** for **Notification templates**.
 
 2. On the **Templates** tab, select **New Notification Template** in the **Active Notifications Templates** area.
 

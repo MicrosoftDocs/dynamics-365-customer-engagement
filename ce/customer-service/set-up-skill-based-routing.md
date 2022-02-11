@@ -134,35 +134,33 @@ You can set up the intelligent skill finder model rating models in the Customer 
      > [!IMPORTANT]
      > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-     1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
-     1. In the **Intelligent skill finder** section, select **Manage**.
-
-     The **Intelligent skill finder models** page is displayed.
-
+     - In the site map, select **Insights** in **Operations**. The **Insights** page appears.
+     
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
     
-     1. In the site map, select **User attributes** in **Advanced settings**. The **User attributes** page appears.
-     2. In the **Intelligent skill finder** section, select **Manage**.
+     - In the site map, select **User attributes** in **Advanced settings**. The **User attributes** page appears.
+     
 
-      The **Intelligent skill finder models** page is displayed.
-   
-2. Select **New**, and on the **Configuration** tab of **New skill finder model** page, enter a name.
-3. In **Data criteria**, enter the following to form the dataset records:
+1. In the **Intelligent skill finder** section, select **Manage**.
+
+1. On the **Intelligent skill finder models** page, select **New**, and on the **Configuration** tab of **New skill finder model** page, enter a name.
+
+1. In **Data criteria**, enter the following to form the dataset records:
     - **Attributes (Required)**: Select attributes in the Attributes and related list to form the training dataset. The corresponding attribute values will be merged in the sequence they are added and will be used to form the input string for the model training data.
     - **Filters**: Optionally, apply filters to conditionally select the relevant records.
     - **Date range**: Select a value to set the time period for which the records need to be loaded.
     
     ![Configure skill finder model.](media/ur-skill-model.png "Configure skill finder model")
 
-5. Select **Save**, and then select **Load training data**. The **Training data** tab appears and displays the data load status.
+1. Select **Save**, and then select **Load training data**. The **Training data** tab appears and displays the data load status.
 
-6. After the load is complete, review the data, and edit the records if you want to modify the tags.
+1. After the load is complete, review the data, and edit the records if you want to modify the tags.
 
-7. In the **Training data** section, select the checkbox for **Input data** to select all the records, and select **Approve**. You must approve a minimum of 50 records for the model to be trained.
+1. In the **Training data** section, select the checkbox for **Input data** to select all the records, and select **Approve**. You must approve a minimum of 50 records for the model to be trained.
 
-8. Select **Train model**, and select **Train model** again on the confirmation dialog.
+1. Select **Train model**, and select **Train model** again on the confirmation dialog.
 
-9. After the status changes to training completed, select the rows that you want to publish, and select **Publish model**. The skills model is ready for use.
+1. After the status changes to training completed, select the rows that you want to publish, and select **Publish model**. The skills model is ready for use.
 
 ### Retrain the model iteratively
 

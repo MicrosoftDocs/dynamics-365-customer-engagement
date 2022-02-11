@@ -61,9 +61,9 @@ The following prerequisites are applicable:
 
 1. In the **Add a record type** dialog box, select a record from the **Record type** list, and select **Add**. The record is added and listed on the **Record routing** page.
 
-1. Do the following tasks:
-   1. Configure workstreams.
-   1. Configure intake rules.
+1. Configure the following:
+   1. Workstreams.
+   1. Intake rules.
 
 ### Create workstreams for record routing
 

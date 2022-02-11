@@ -21,10 +21,24 @@ With the missed notifications feature, you can choose to automatically set agent
 
 ## Enable automatic update of agent presence when a notification is missed
 
-1. In the Customer Service admin center (preview) site map, select **Workspaces** in **Agent experience**, and then select **Notification templates**. In Omnichannel admin center, select **Notification templates** in **Agent Experience** in the site map.
-2. On the **Omnichannel Configuration** page, select the **Missed Notifications** tab.
-3. Set the **Change agent status to inactive after a missed notification** toggle to **Yes**. The **Status name** and **Status description** settings appear.
-4. Select **Save**.
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
+
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+     - In the site map, select **Workspaces** in **Agent experience**, and then select **Notification templates**.
+
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+
+     - In the site map, select **Notification templates** in **Agent Experience**.
+
+1. On the **Omnichannel Configuration** page, select the **Missed Notifications** tab.
+
+1. Set the **Change agent status to inactive after a missed notification** toggle to **Yes**. The **Status name** and **Status description** settings appear.
+
+1. Select **Save**.
 
 > [!div class=mx-imgBorder] 
 > ![Enable missed notifications.](media/enable-missed-notifications.png "Enable missed notifications")

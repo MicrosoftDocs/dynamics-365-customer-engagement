@@ -74,18 +74,18 @@ Go to your **Twilio Console Dashboard** > **Settings** > **General** to fetch th
 1. Enter the following details:
 
     1. On the **Channel details** page, enter a name and select **WhatsApp** in **Channels**.
-   
-    1. On the **Account details** page, enter the following details:
+
+    2. On the **Account details** page, enter the following details:
       - **Account SID:** Specify the value from your Twilio account.
       - **Authentication token:** Specify the value from your Twilio account.
-   
-    1. On the **WhatsApp numbers** page, select **Add**, and on the page that appears, enter the following information:
+ 
+    3. On the **WhatsApp numbers** page, select **Add**, and on the page that appears, enter the following information:
       - **Name:** Specify a name.
       - **Number:** Specify the WhatsApp phone number.
     
-    1. On the **Callback information** page, copy the value in the **Twilio inbound URL** box. You'll use the copied information for Twilio account.
+    4. On the **Callback information** page, copy the value in the **Twilio inbound URL** box. You'll use the copied information for Twilio account.
     
-    1. Select **Done**. The account is added to the list.
+    5. Select **Done**. The account is added to the list.
 
 1. To configure routing and work distribution, you can create a [workstream](create-workstreams.md) or select an existing one.
 
@@ -93,16 +93,16 @@ Go to your **Twilio Console Dashboard** > **Settings** > **General** to fetch th
    
     1. On the **WhatsApp number** page, in the **Available WhatsApp numbers** list, select the number that you created.
    
-    1. On the **Language** page, select the language.
+    2. On the **Language** page, select the language.
     
-    1. On the **Behaviors** page, configure the following options:
+    3. On the **Behaviors** page, configure the following options:
       - [Custom automated messages](configure-automated-message.md)
       - [WhatsApp message templates](#configure-whatsapp-message-templates)
       - [Post-conversation survey](configure-post-conversation-survey.md)
-    1. On the **User features** page, set the toggle for **File attachments** to **On** and select the following checkboxes if you want to allow agents and customers to send and receive file attachments. More information: [Enable file attachments](enable-file-attachments.md).
+    4. On the **User features** page, set the toggle for **File attachments** to **On** and select the following checkboxes if you want to allow agents and customers to send and receive file attachments. More information: [Enable file attachments](enable-file-attachments.md).
       - Customers can send file attachments
       - Agents can send file attachments
-    1. Verify the settings on the **Summary** page, and select **Finish**. The WhatsApp channel instance is configured.
+    5. Verify the settings on the **Summary** page, and select **Finish**. The WhatsApp channel instance is configured.
 
 1. Configure routing rules. More information: [Configure work classification](configure-work-classification.md).
 

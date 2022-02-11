@@ -36,12 +36,7 @@ While creating custom apps, you might not have routing rulesets available in you
 
 3. Select the pencil icon beside **Site Map**. The **Customer Service Hub** page appears.
 
-4. Select the area in which you want to add the routing ruleset entity, such as **Service Management**, select **Add**, and then select **Subarea**.
-
-    > [!div class="mx-imgBorder"]
-    > ![add routing rules to site map.](media/rr-add-to-sitemap.png "add routing rules to site map")
-
-  The **SUB AREA** section appears in the right pane.
+4. Select the area in which you want to add the routing ruleset entity, such as **Service Management**, select **Add**, and then select **Subarea**. The **SUB AREA** section appears in the right pane.
 
 5. On the **Properties** tab, in **General** section, do the following:
 

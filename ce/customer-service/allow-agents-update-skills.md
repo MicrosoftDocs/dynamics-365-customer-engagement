@@ -20,7 +20,7 @@ By default, skill-based routing is enabled. You can create skills to attach to a
 
 **To enable your agents to update skills for their work items**
 
-1. Go to one of the apps, and perform the following steps.
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
    
    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
      
@@ -36,7 +36,7 @@ By default, skill-based routing is enabled. You can create skills to attach to a
     
    ### [Customer Service Hub](#tab/customerservicehub) 
 
-    - Go to the **Service Management** change area, and select **User attributes** from the **Unified routing** menu in the site map.
+    - Go to the **Service Management** site map, and select **User attributes** in **Unified routing**.
 
 2. Select **Manage** for **Skill-based routing**.
 

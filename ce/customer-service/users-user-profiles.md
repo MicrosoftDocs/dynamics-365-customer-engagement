@@ -19,9 +19,9 @@ For more information on how to create users and assign security roles, see [Assi
 
 ## Manage a user in Omnichannel for Customer Service
 
-Users should be configured as a bookable resource so that they can be assigned work items by using unified routing. Perform the steps in this section to manage users for unified routing.
+Users should be configured as a bookable resource so that they can be assigned work items by using unified routing.
 
-1. Go to one of the apps, and perform the following steps.
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
    
    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
      
@@ -31,7 +31,7 @@ Users should be configured as a bookable resource so that they can be assigned w
     1. In the site map, select **User management** in **Customer support**.
     
     1. On the **User management** page, select **Manage** for **Users**.
-   .
+
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
 
     - In the site map, select **Users** in **General settings**.
@@ -78,7 +78,7 @@ Users should be configured as a bookable resource so that they can be assigned w
 
 8. To use the user schedule for assignment, set up the bookable resource calendar. More information: [Apply a calendar to a resource](../field-service/calendar-resource.md)
 
-9.  Add the user to the required queue that's configured for unified routing. More information: [Configure queues for unified routing](queues-omnichannel.md)
+9. Add the user to the required queue that's configured for unified routing. More information: [Configure queues for unified routing](queues-omnichannel.md)
 
 ### Capacity
 

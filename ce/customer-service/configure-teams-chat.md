@@ -32,7 +32,7 @@ ms.custom:
 
 ## Introduction
 
-You can configure the ability for agents to chat in Microsoft Teams from within Dynamics 365 Customer Service Hub, Dynamics 365 Customer Service workspace, and your custom apps. Teams chat is also available in other customer engagement apps such as Dynamics 365 Field Service and Dynamics 365 Sales.
+You can configure the ability for agents to chat in Microsoft Teams from within Customer Service admin center (preview), Customer Service Hub, Customer Service workspace, and your custom apps. Teams chat is also available in other customer engagement apps such as Dynamics 365 Field Service and Dynamics 365 Sales.
 
 > [!NOTE]
 > Teams settings apply across all supported customer engagement apps. Whether you enable the feature from Customer Service Hub or a custom app, it'll be enabled for all supported customer engagement apps.
@@ -102,13 +102,13 @@ The following data security and privacy considerations apply for Teams chat func
     1. Go to **Service Management**, and in the site map, select **Service Management**.
     2. In **Microsoft Teams Integration**, select **Collaboration**.
 
-2.  On the **Microsoft Teams collaboration and chat** page, turn on the toggle for the following settings:
+2. On the **Microsoft Teams collaboration and chat** page, turn on the toggle for the following settings:
 
    - **Turn on Microsoft Teams chats inside Dynamics 365 (preview)** 
    - **Use record title as the default chat name for linked chats**.
 
-   > [!div class="mx-imgBorder"] 
-   > ![Enable the Microsoft Teams chat experience in Dynamics 365 Customer Service.](media/teams-chat-enable-cs.png "Enable the Microsoft Teams chat experience")
+      > [!div class="mx-imgBorder"] 
+      > ![Enable the Microsoft Teams chat experience in Dynamics 365 Customer Service.](media/teams-chat-enable-cs.png "Enable the Microsoft Teams chat experience")
     
 3. Save the changes.
    

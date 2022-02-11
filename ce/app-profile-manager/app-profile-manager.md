@@ -35,11 +35,11 @@ By using profiles, you can create targeted app experiences for agents and superv
 
 **To create the agent experience profile**
 
-1. In the site map of Customer Service admin center, in **Agent experience**, select **Workspaces**.
+1. In the site map, select **Workspaces** in **Agent experience**.
 
 2. Select **Manage** for **Agent experience profiles**.
 
-3. Select New, and enter the following details on the **Create a new agent experience profile** dialog.
+3. Select **New**, and enter the following details on the **Create a new agent experience profile** dialog.
 
    - **Name:** The app profile name.
    - **Unique name:** A unique identifier in the <*prefix*>_<*name*> format.

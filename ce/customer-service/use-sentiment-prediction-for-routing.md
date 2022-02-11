@@ -61,7 +61,7 @@ The sentiment model is configured to look for and use the messages provided by t
    
     - Go to the **Service Management** site map, and select **User attributes** in **Unified Routing**.
 
-2. Select **Manage** for **Sentiment prediction for routing**
+2. Select **Manage** for **Sentiment prediction for routing**.
 
 3. On the **Sentiment Prediction for routing (preview)** page, set the **Enable sentiment prediction for routing** toggle to **Yes**.
 
@@ -92,7 +92,7 @@ After you enable sentiment prediction, you can create a classification rule base
 
 4. Select the input attribute in which the customer sentiment is most likely to be found. For example, for a case workstream, you can select the related entity **Routed record (Case)**, and the attribute as **Description** that might typically contain keywords indicating the sentiment.
 
-    i:::image type="content" source="media/input-attributes-sentiment.png" alt-text="Input attributes for sentiment model.":::
+    :::image type="content" source="media/input-attributes-sentiment.png" alt-text="Input attributes for sentiment model.":::
 
     For a messaging channel, you'll typically set the related entity as **Context item value (Conversation)**, and then select the attribute. The bot context variables should be set or pre-conversation survey must be set up to be able to use the input attribute. Frame the pre-conversation survey questions such that they elicit the customer sentiment. For example, you could use a question such as "How has been your experience with the product?" or "How can we help you?".
 
