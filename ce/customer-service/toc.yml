@@ -421,6 +421,8 @@
     - name: FAQs about Activities and the Timeline Wall
       href: /powerapps/user/faq-for-timeline-and-activity
   - name: Knowledge management
+    - name: Overview of knowledge management
+      href: overview-knowledge-management.md 
     items: 
     - name: Administrator experience
       items:
