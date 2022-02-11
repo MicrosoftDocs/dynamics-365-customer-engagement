@@ -59,7 +59,7 @@ You can create a chat authentication setting record in the Customer Service admi
         > [!div class=mx-imgBorder]
         > ![Create chat authentication setting record.](media/chat-auth-settings.png "Create chat authentication setting record")
 
-    For more information about how to find the public key URL and JavaScript client function, see the [Setup for Power Apps portals](#setup-for-power-apps-portals) section or the [Setup for custom portals that aren't created using Power Apps](#setup-for-custom-portals-that-are-not-created-using-power-apps) section later in this article.
+    For more information about how to find the public key URL and JavaScript client function, see the [Setup for Power Apps portals](#setup-for-power-apps-portals) section or the [Setup for custom portals that aren't created using Power Apps](#setup-for-custom-portals-that-arent-created-using-power-apps) section later in this article.
 
 5. Select **Save**.
 
