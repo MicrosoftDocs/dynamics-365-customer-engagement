@@ -144,7 +144,7 @@ Popup navigation will now be enabled when the following entities are selected fr
 - Time entry
 
 > [!Note]
-> This feature is available in the Unified Interface only.
+> This feature is available in Unified Interface only.
 
 ### Show simplified work order commands
 
