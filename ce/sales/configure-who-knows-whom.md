@@ -16,8 +16,8 @@ topic-status: Drafting
 # Configure who knows whom 
 
 The Who knows whom feature helps sellers to quickly identify colleagues who can introduce them to leads or contacts, based on their email interactions. To configure the feature, perform the following tasks:
-- [Enable the who knows whom feature](#enable-the-who-knows-whom-feature)
-- [Enable the connection graph](#enable-the-connection-graph)
+1. [Enable the who knows whom feature](#enable-the-who-knows-whom-feature)
+2. [Enable the connection graph](#enable-the-connection-graph)
 
 
 >[!NOTE]
