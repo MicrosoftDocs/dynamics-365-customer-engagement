@@ -161,7 +161,6 @@ You can enable AI suggestions for knowledge articles in the Customer Service adm
 
       The **Suggestions** page is displayed.  
 
-
 2. In the **Summary** area, set the **Enable knowledge article suggestions** toggle to **Yes**.
 
 3. In the **Data mapping** > **Knowledge article data fields** area, ensure that **Title** and **Content** are selected in the **Article title** and **Article content** boxes, respectively. The selected options are used by the AI model to understand and find a good match for a case or conversation. Article content is used by the AI model to generate a brief article summary that's displayed to the agent at runtime.
