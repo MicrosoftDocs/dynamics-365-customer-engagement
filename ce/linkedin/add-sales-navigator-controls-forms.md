@@ -63,7 +63,7 @@ This procedure shows an example of how to add a [!INCLUDE[pn-linkedin](../includ
 
 6. Select the **Last Name** field and then select **Change Properties** in the ribbon.
     > [!TIP]
-    > By default, controls on the Unified Interface show in two columns with the label and value side by side. To maximize the control so that it takes the full horizontal space available on the column, clear the **Display label** on the form check box on the **Display** tab.    
+    > By default, controls on Unified Interface show in two columns with the label and value side by side. To maximize the control so that it takes the full horizontal space available on the column, clear the **Display label** on the form check box on the **Display** tab.    
     > ![Cleared checkbox to hide label on the form.](media/display-label-form-cleared.png "Cleared checkbox to hide label on the form")
 
    ![Click path to Change Properties button.](media/change-form-properties.png "Click path to Change Properties button")
