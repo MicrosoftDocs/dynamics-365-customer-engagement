@@ -25,7 +25,7 @@ You can create and assign custom security roles in the Microsoft Dynamics 365 ad
 
 ### Admin
 
-Based on the predefined security role, the admin persona can set up end-to-end workflows to handle customer interactions using unified routing. The admin role is created by default in Customer Service and the admin user is responsible for managing all the settings in the organization to meet the business needs. The admin persona can perform the following tasks:
+The admin persona can set up end-to-end workflows to handle customer interactions using unified routing and can perform the following tasks:
 
 - Create and manage classification and assignment rules for work items based on business rules.
 - Create and maintain capacity profiles and schedules based on office hours.
