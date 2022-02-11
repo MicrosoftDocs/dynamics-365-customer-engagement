@@ -28,7 +28,9 @@ Make sure that you have the required security role or equivalent permissions.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage security roles in service scheduling](manage-security-roles.md)
 
-1. Navigate to either the Customer Service admin center (preview)  or Customer Service Hub app, and perform the following steps:
+You can schedule a business closure in the Customer Service admin center (preview)  or Customer Service Hub app.
+
+1. Go to one of the apps, and perform the following steps.
 
    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
