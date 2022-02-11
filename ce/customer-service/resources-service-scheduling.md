@@ -107,15 +107,15 @@ You can set work hours for the bookable resources where you can define when the 
    > [!IMPORTANT]
    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-    1. On the Customer Service admin center (preview) site map, select **Operations > Service scheduling**.
+    1. In the site map, select **Service scheduling** in **Operations**.
     2.  In the **Resources** section, select **Manage**.
     
       The **Active Bookable Resources** view is displayed. 
 
    ### [Customer Service Hub](#tab/customerservicehub)
 
-    1. On the Customer Service Hub site map, go to **Scheduling**.
-    2. From the list of entity records, select **Scheduling > Resources**.
+    1. In the Customer Service Hub site map, go to **Scheduling**.
+    2. From the list of entity records, select **Resources** in **Scheduling**.
        
       The **Active Bookable Resources** view is displayed. 
   
