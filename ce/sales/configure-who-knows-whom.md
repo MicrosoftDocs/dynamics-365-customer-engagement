@@ -39,11 +39,11 @@ The Who knows whom feature helps sellers to quickly identify colleagues who can 
 ## Enable the who knows whom feature
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**. 
-    
-    > [!NOTE]
-    > If you don't see the **Sales Insights settings**, verify whether the advanced Sales Insights features are enabled. To learn more, see [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features).
      
 3.  Under **Relationship insights**, select **Who knows whom**.
+
+    > [!NOTE]
+    > If you don't see the **Who knows whom** menu, verify whether the advanced Sales Insights features are enabled. To learn more, see [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features).
 
 4. In the **Who knows whom** section, select **Turn on Who Knows Whom for your organization**.
 
@@ -73,10 +73,7 @@ To configure the Sales Insights connection graph, follow these steps:
     > [!div class="mx-imgBorder"]
     > ![Admin center](media/sales-insights-addon-admincenter.png "Admin center")
 
-2. Select **Settings** > **Services & add-ins** > **Dynamics 365 Sales Insights – Connection Graph**.
-
-    > [!div class="mx-imgBorder"]
-    > ![Select the connection graph option](media/sales-insights-addon-admincenter-connection-graph-option.png "Select the connection graph option")
+2. Select **Settings** > **Org settings** > **Dynamics 365 Sales Insights – Connection Graph**.
 
 3.  Read the description carefully and then select the **Enable Dynamics 365 Sales Insights - Connection Graph for your entire organization** option.
 
@@ -95,7 +92,7 @@ To configure the Sales Insights connection graph, follow these steps:
 
 ### See also
 
-[Add Relationship intelligence widgets to custom forms](add-ri-widgets-to-custom-form.md)
+[Add Relationship intelligence widgets to custom forms](add-ri-widgets-to-custom-form.md)  
 [Get introduced to a lead](../sales/who-knows-whom.md)  
 [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)
 
