@@ -520,6 +520,8 @@
         href: voice-channel-route-queues.md      
       - name: Set up outbound calling
         href: voice-channel-outbound-calling.md
+      - name: Configure historical analytics for voice
+        href: cs-voice-historical-analytics.md
       - name: Add Power Virtual Agents bot for voice
         href: voice-channel-ivr-bots.md
       - name: Integrate Azure bots for voice
@@ -970,12 +972,6 @@
           href: ../common-scheduler/fulfillment-preferences.md
       - name: Configure service activity using schedule board
         href: use-schedule-board-configure-service-activity.md
-      - name: Work with settings
-        items: 
-        - name: Create and manage organizational units
-          href: create-org-units-cs-scheduling.md
-        - name: Schedule business closure
-          href: set-when-business-closed-csh.md
     - name: Service Scheduling in Unified Interface
       items: 
       - name: Service Scheduling in Unified Interface
