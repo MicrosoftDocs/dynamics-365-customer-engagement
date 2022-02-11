@@ -66,7 +66,7 @@ You can create a chat authentication setting record in the Customer Service admi
 ## Add authentication to chat widget
 
 1. Open the chat widget to which you want to add authentication and do one of the following steps:
-   - In Customer Service admin center (preview) and Omnichannel admin center, go to the **Behaviors** tab. 
+   - In Customer Service admin center (preview) or Omnichannel admin center, go to the **Behaviors** tab. 
    - In Omnichannel Administration, go to the **Basic details** tab.
 2.	In the **Authentication settings** box, browse and select the chat authentication record.
 
