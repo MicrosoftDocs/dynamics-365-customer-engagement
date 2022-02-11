@@ -4,7 +4,7 @@ description: "Learn about how to configure outbound messaging in Omnichannel for
 ms.date: 02/11/2022
 ms.topic: article
 author: Meghanalanka
-ms.author: v-mlanka
+ms.author: mgandham
 manager: shujoshi
 ms.reviewer: nenellim
 ---

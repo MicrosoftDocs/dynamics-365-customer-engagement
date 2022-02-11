@@ -4,7 +4,7 @@ description: "Understand how to create customized IoT solutions in Connected Cus
 ms.date: 02/11/2022
 ms.topic: article
 author: lalexms
-ms.author: lalexms
+ms.author: mgandham
 manager: shujoshi
 ---
 
