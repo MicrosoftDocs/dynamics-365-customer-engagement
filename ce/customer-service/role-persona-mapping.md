@@ -1,7 +1,7 @@
 ---
 title: "Roles and personas | MicrosoftDocs"
 description: "Get information about how custom security roles can be mapped to personas in Customer Service and Omnichannel for Customer Service."
-ms.date: 02/10/2022
+ms.date: 02/11/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -50,19 +50,18 @@ The supervisor persona can manage agents and their work items through routing ru
 
 The agent persona can manage the work items that're assigned to them through custom or default rules set up by the admin persona. The agent can perform the following tasks:
 
-- Manage work items assigned to them by
-  - Engaging with the customers.
-  - Reassigning work to other agents in the group.
-  - Declining interactions.
-- Manage skills that're specific to the agent
-- Access diagnostics for the work items specific to the agent.
-- Manage case queues and route queues assigned to them.
+- Manage their work items as follows:
+  - Engage with the customers.
+  - Reassign work to other agents in the group.
+  - Decline interactions.
+- Manage their skills.
+- Manage their case queues.
 
 ## Create custom security roles
 
 Custom security roles can be created at an organizational or business unit level, and you can edit access level for records and tasks. The addition of custom security roles is optional. To ensure persona mapping works, perform the following steps:
 
-1. Identify what tasks a user will need to perform.
+1. Identify the tasks that a user will perform.
 
 1. [Create a copy of an existing role](/power-platform/admin/create-edit-security-role#create-a-security-role-by-copy-role) as your starting point. Custom security roles must have correct minimum access levels for the appropriate records to ensure feature functionality. You can copy one of the following predefined security roles:
 
@@ -80,7 +79,7 @@ For example, if your organization is expecting a large seasonal increase in chat
 
 ## Map roles to personas
 
-After it's enabled, persona mapping will automatically assign default roles depending on the Dynamics 365 services enabled for your environment. For an environment with Customer Service Enterprise license, the default mapping includes Customer Service Representative and CSR manager roles. For an environment with Omnichannel for Customer Service, the three primary security roles are mapped to personas. If both services are enabled, both sets of default mappings are included. The following table contains the mapping information for the roles in Customer Service and Omnichannel for Customer Service.
+After persona mapping is enabled, it'll automatically assign default roles depending on the Dynamics 365 services that're enabled for your environment. For an environment with Customer Service Enterprise license, the default mapping includes Customer Service Representative and CSR manager roles. For an environment with Omnichannel for Customer Service, the three primary security roles are mapped to personas. If both services are enabled, both sets of default mappings are included. The following table contains the mapping information for the roles in Customer Service and Omnichannel for Customer Service.
 
 | Service | Admin persona default mapping | Supervisor persona default mapping | Agent persona default mapping |
 | ------------- | ---------------- | ------------------- | --------------- |
