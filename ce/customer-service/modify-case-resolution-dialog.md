@@ -1,7 +1,7 @@
 ---
 title: "Modify case resolution dialog in Customer Service Hub | MicrosoftDocs"
 description: "Learn to customize the case resolution dialog in Customer Service Hub to support varied business needs."
-ms.date: 07/19/2021
+ms.date: 02/11/2022
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -40,13 +40,24 @@ By default, the style of the **Resolve case** dialog is set to standard dialog. 
 
 **To enable the Customizable dialog option**
 
-1. In Customer Service Hub, go to **Service Management**.
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+    
+    1. In the site map, select **Case Settings** in **Customer Support**. The **Case Settings** page appears.
+     
+    1. Select **Manage** for **Other Settings**.
 
-2. In the site map under **Service Terms**, select **Service Configuration Settings**.
+   ### [Customer Service Hub](#tab/customerservicehub)
+   
+     - In the **Service Management** site map, select **Service Configuration Settings** in **Service Terms**.
 
-3. In the **Resolve case dialog** section, select **Customizable dialog** from the dropdown list.
+1. On the **Service Configuration Settings** page, scroll to the **Resolve case dialog** section, and then select **Customizable dialog** from the dropdown list.
 
-4. Select **Save**.
+1. Select **Save**.
 
 ## Add or remove fields from the case resolution dialog
 
@@ -79,7 +90,7 @@ To do so, you'll need to update the Case entity to add a new **Resolved** status
 
 **To update the case entity**
 
-1. In Customer Service Hub, go to **Advanced Settings**, select **Customizations**, and then select **Customize the System**.
+1. In Dynamics 365, go to **Advanced Settings**, select **Customizations**, and then select **Customize the System**.
    
    If using [Power Apps](https://make.powerapps.com/), go to **Settings**, and under **Power Apps**, select  **Advanced Settings**, then select **Customizations** and **Customize the System**.
 
@@ -116,19 +127,17 @@ Continuing with the same example, let's now see how to use the **Duplicate** cus
 
 **To automatically resolve duplicate cases**
 
-1. In the site map of Customer Service Hub, go to **Service**, and then select **Cases**.
+1. In Customer Service workspace, open a case that you recognize as similar or duplicate of a previously resolved case. The Summary page with the case details opens. If you're using Customer Service Hub, in the site map, go to **Service**, select **Cases**, and select a case.
 
-2. Double-click to open a case that you recognize as similar or duplicate of a previously resolved case. The Summary page with the case details opens.
+2. To resolve the case, select **Resolve Case** on the command bar.
 
-3. To resolve the case, select **Resolve Case** on the command bar.
-
-4. In the **New Case Resolution** dialog that opens, do the following:
+3. In the **New Case Resolution** dialog that opens, do the following:
    1. In the **Resolution Type** dropdown list, select **Duplicate**.
    2. In the **Resolution** field, add case resolution notes.
 
-5. Select **Save and Close**.
+4. Select **Save and Close**.
 
-The case is automatically marked as resolved and you'll see the resolved status for the case, just below the command bar.
+The case is automatically marked as resolved and you'll see the resolved status for the case displayed on top of the case title.
 
 ### See also
 

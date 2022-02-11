@@ -18,7 +18,7 @@ Perform the steps mentioned in this topic to provision unified routing in Custom
 
 To provision unified routing in Customer Service, do the following:
 
-1. Go to one of the apps, and perform the following steps.
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
    
    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
      
@@ -27,28 +27,29 @@ To provision unified routing in Customer Service, do the following:
 
    - In the site map, select **Routing**. The **Routing** page appears.
 
-
    ### [Customer Service Hub](#tab/customerservicehub)
 
    - Go to the **Service Management** site map, and select **Service Configuration Settings** in **Service Terms**. The **Service Configuration Settings** page appears.
 
 
-   If consent to access is not provided by the tenant administrator, in the **Unified routing** section, the following message with a link to the consent page is displayed:
+1. If consent is already provided by the tenant administrator, go to step 5.
+
+    If consent to access is not provided by the tenant administrator, in the **Unified routing** section, the following message with a link to the consent page is displayed:
 
       "Unified routing requires application permissions. A tenant administrator must provide consent before it can be turned on. Provide consent."
 
-   If consent is already provided by the tenant administrator, go to step 5.
-
-2. Select **Provide consent**. The following consent form is displayed on a new tab.
+1. Select **Provide consent**. The following consent form is displayed on a new tab.
 
     > [!div class=mx-imgBorder]
     > ![Consent to allow access to data.](media/data-consent.png "Consent to allow access to data")
 
     For information on consent, see [Consent to access data to provision Omnichannel for Customer Service](data-access-consent.md)
 
-3. Select **Consent on behalf of your organization**, and select **Accept**.
-4. After access is granted, you can close the page to return to the **Service Configuration Settings** page.
-5. Set the toggle to **Yes** for **Turn on unified routing**. A message that unified routing is being provisioned appears.
+1. Select **Consent on behalf of your organization**, and select **Accept**.
+
+1. After access is granted, you can close the page to return to the **Service Configuration Settings** page.
+
+1. Set the toggle to **Yes** for **Turn on unified routing**. A message that unified routing is being provisioned appears.
 
 After unified routing is provisioned, **Unified Routing** appears in the site map.
 

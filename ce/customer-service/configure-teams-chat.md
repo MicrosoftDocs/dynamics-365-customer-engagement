@@ -122,6 +122,7 @@ If you're using the default profile, once you complete the steps in [Add the Tea
 If you want Teams chat to work for specific users, you must enable the feature for your custom profile. For more information about creating custom profiles in App profile manager, see [Overview of App profile manager](/dynamics365/app-profile-manager/overview).
 
 To enable Teams chat settings for a custom multisession user, complete the following steps:
+
 1. Create the custom profile from the default profile in App profile manager. More info: [Create an app profile](/dynamics365/app-profile-manager/app-profile-manager#create-an-app-profile)
 
 2. Go to [Power Apps](https://make.powerapps.com/), and then under **Environments**, select your environment.
@@ -160,17 +161,18 @@ Once you’ve enabled Teams chats, you can link the chats to different record ty
 
 **To add a record type to link chats to in Dynamics 365 records**
 
-1.	In Customer Service Hub, open the **Microsoft Teams collaboration and chat settings** page.
+1.	In Customer Service admin center (preview) or Customer Service Hub, open the **Microsoft Teams collaboration and chat settings** page.
 	
-2.	Under **Link chats to Dynamics 365 records**, select **Add record types**.
+2.	In **Link chats to Dynamics 365 records**, select **Add record types**.
 	
 3.	In the **Link chat to record type** pane, in **Choose record type**, type the name of the record type you want to use.
 	
 4.	(Optional): If you want to display content for new linked chats, toggle **Introduction message** to **Yes**, and then use the existing views functionality to define the fields that will represent context card or [create a custom view in Power Apps](/powerapps/maker/model-driven-apps/create-edit-views). You can choose up to five fields you want to include as a context card. 
-            
+
 5.	Select **Save**.
 
 For any view that's selected, keep in mind the following details:
+
  - The first five fields of any view are used as the context card details (in addition to a link to the record).
  - If a field isn't supported, it's skipped and the display will include the first four fields that are supported. You'll be able to see from the configuration experience that the specific field isn't supported.
  

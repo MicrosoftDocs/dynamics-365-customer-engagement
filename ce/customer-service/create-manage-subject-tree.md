@@ -38,16 +38,12 @@ You can create or edit a subject in the Customer Service admin center (preview) 
      1. In the site map, select **Case Settings** in **Customer Support**. The **Case Settings** page appears.
      1. In the **Subjects** section, select **Manage**.
 
-     The **Subject Tree** page is displayed.
-
    ### [Customer Service Hub](#tab/customerservicehub)
     
      1. In the site map, select **Service Management**.
      2. Select **Subjects** in **Case Settings**. 
   
-      The **Subject Tree** page is displayed. 
-  
-2. In the **Subject tree management** area, select **Add**.  
+2. On the **Subject tree** page, in the **Subject tree management** area, select **Add**.  
   
 3. In the **Create a subject** dialog, enter the following information:  
   
