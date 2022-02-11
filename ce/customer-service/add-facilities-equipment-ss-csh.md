@@ -41,14 +41,14 @@ You can create a new facility or equipment record in the Customer Service admin 
     1. In the site map, select **Service Scheduling** in **Operations**. The **Service Scheduling** page appears.
     2. In the **Facilities & equipment** section, select **Manage**.
         
-        The **Local Facilities/Equipment** view is displayed. You can switch between various system views using the drop-down list.  
+        The **Local Facilities/Equipment** view is displayed. You can switch between various system views using the dropdown list.  
 
    ### [Customer Service Hub](#tab/customerservicehub)
 
     1. In the site map, go to **Scheduling**.
     2. From the list of entity records, select **Facilities/Equipment** in **Scheduling**.
        
-       The **Local Facilities/Equipment** view is displayed. You can switch between various system views using the drop-down list.
+       The **Local Facilities/Equipment** view is displayed. You can switch between various system views using the dropdown list.
      
 2. On the command bar, select **New** to create a new record. 
   
