@@ -1,7 +1,7 @@
 ---
 title: Set business closures (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Learn how to set business closures in Dynamics 365 Customer Service
-ms.date: 11/20/2018
+ms.date: 02/11/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
