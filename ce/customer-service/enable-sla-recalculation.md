@@ -1,7 +1,7 @@
 ---
 title: "Enable recalculation of SLAs in terminal status in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how to configure recalculation of SLAs that reach the terminal status in Dynamics 365 Customer Service."
-ms.date: 10/05/2021
+ms.date: 02/11/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
