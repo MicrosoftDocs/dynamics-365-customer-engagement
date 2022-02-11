@@ -75,7 +75,7 @@ You can set up the outbound configuration in the Customer Service admin center (
 
  If you're using the Omnichannel Administration app, go to **Settings**, and select **Outbound**.
 
-2. Select **New**, and on New Outbound Configureation page,  enter the details for the settings mentioned in the following table.
+2. Select **New**, and on New Outbound Configuration page,  enter the details for the settings mentioned in the following table.
 
     | Field               | Description| Sample value                       |
     |---------------------|------------|--------------------------|
@@ -151,11 +151,11 @@ Power Automate provides a low-code platform for workflow and process automation.
     
    | Field | Requirement | Description |
    | --------- | --------- | ------------------- |
-   | **tocontactid** | Required | The customer's phone number that the outbound service uses to send messages. For Twitter, it is the customer’s Twitter handle. |
+   | **tocontactid** | Required | The customer's phone number that the outbound service uses to send messages. For Twitter, it's the customer’s Twitter handle. |
    | **channelid** | Required | The customer's preferred social channel: SMS, WhatsApp, or Twitter. |
-   | **optin** | Required | The customer's preference to be contacted by phone.    This field can be set to **true** or **false**. |
-   | **locale** | Chosen by default | To enable dynamic message languages, the default variable must be replaced by a locale column reference, such as the customer's preferred language. If the locale value is missing, the fallback locale in the omnichannel message template will be applied. |
-   | **contextitems** | NA | Contains values to be processed with individual messages as they're sent. |
+   | **option** | Required | The customer's preference to be contacted by phone.    This field can be set to **true** or **false**. |
+   | **locale** | Chosen by default | Enable dynamic message languages, by replacing the default variable with a locale column reference, such as the customer's preferred language. If the locale value is missing, the fallback locale in the omnichannel message template will be applied. |
+   | **context items** | NA | Contains values to be processed with individual messages as they're sent. |
    | **entityrelationshipname** | Not required | This field refers to the **ActivityRelationship** that was previously defined. Although this field isn't required, it's essential for being able to track outbound activities in the timeline. So, if **show in timeline** in the outbound configuration is set to **Yes**, this field will have to be added to the flow for it to work. |
    | **CustomerName** | Required | The name of the customer. This value isn't case-sensitive and can throw an error if the customer name values are different. |
    | **CaseName** | Required | The name of the case. |
