@@ -29,25 +29,16 @@ The voice channel includes a trial phone number that comes with 60 minutes of fr
 
 **To view the available phone numbers in your organization**
 
-In Dynamics 365, go to one of the apps, and perform the following steps.
-   
-### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-  > [!IMPORTANT]
-  > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+You can view the phone numbers in one of the apps as follows:
 
-   1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
-    
-   2. Select **Manage** for **Phone numbers**.
+- In the site map of Customer Service admin center (preview), select **Channels** in **Customer support**, and then select **Manage** for **Phone numbers**.
 
-### [Omnichannel admin center](#tab/omnichanneladmincenter)
-
-   - In the site map, select **Phone numbers** in **General settings**.
+- In the site map of Omnichannel admin center, select **Phone numbers** in **General settings**.
 
 You'll see a list of all available phone numbers together with their carrier name, calling plan details, associated workstream, connection status, and other details.
 
-> [!div class="mx-imgBorder"]
-> ![View list of phone numbers.](./media/voice-channel-number-mgmt-view-phone-numbers.png "View list of phone numbers.")
+   > [!div class="mx-imgBorder"]
+   > ![View list of phone numbers.](./media/voice-channel-number-mgmt-view-phone-numbers.png "View list of phone numbers.")
 
 If you don't have any phone numbers set up for your business, see [Acquire new phone numbers](#acquire-new-phone-numbers) to learn how you can purchase new numbers.
 
