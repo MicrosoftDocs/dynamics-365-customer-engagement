@@ -44,14 +44,14 @@ You can create a holiday schedule in the Customer Service admin center (preview)
       1. In the site map, select **Calendar** in **Operations**. The **Calendar** page appears.
       1. In the **Holiday calendar** section, select **Manage**.                                                                         
         
-         The **All Holiday Schedules** view is displayed. You can switch between various system views using the drop-down list.  
+         The **All Holiday Schedules** view is displayed. You can switch between various system views using the dropdown list.  
 
     ### [Customer Service Hub](#tab/customerservicehub)
 
      1. In the site map, go to **Service Management**.
      1. From the list of entity records, select **Holiday Schedule** in **Service Terms**.                                                              
        
-        The **All Holiday Schedules** view is displayed. You can switch between various system views using the drop-down list.  
+        The **All Holiday Schedules** view is displayed. You can switch between various system views using the dropdown list.  
   
 3. Select **New** and in the **Create Holiday Schedule** dialog box, enter a name and description for the holiday, and then select **Create**.  
   
