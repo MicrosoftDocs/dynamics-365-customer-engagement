@@ -4,7 +4,7 @@ description: "Use this topic to understand how you can bring your own carrier to
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 02/03/2022
+ms.date: 02/11/2022
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ---
@@ -20,8 +20,6 @@ ms.service: dynamics-365-customerservice
 ## Prerequisites
 
 The following prerequisites must be met:
-
-- Provision the voice channel in Omnichannel for Customer Service. More information: [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)
 
 - Connect to an Azure Communication Services resource to bring in your carrier via Azure direct routing. You must then set up Azure direct routing for the connected Azure resource.
 

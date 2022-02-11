@@ -20,7 +20,7 @@ To add a chat widget, you need to have configured a workstream that defines how 
 
 **To configure the chat widget**
 
-1. Go to one of the apps, and perform the following steps.
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
    
    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
      
