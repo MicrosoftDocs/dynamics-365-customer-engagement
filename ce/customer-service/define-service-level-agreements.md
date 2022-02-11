@@ -172,7 +172,7 @@ You can create an SLA item in the Customer Service admin center (preview) or Cus
    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
    1. In the site map, select **Service Terms** in **Operations**. The **Service Terms** page appears
-   1.  In the **Service Level Agreements (SLAs)** section, select **Manage**.                                                                         
+   1. In the **Service Level Agreements (SLAs)** section, select **Manage**.                                                                         
         
         The **All Service Level Agreements** view is displayed. Select the SLA for which you want to add an SLA item.   
 
