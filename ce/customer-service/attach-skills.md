@@ -43,9 +43,9 @@ Admins can achieve the skill matching based on the business requirements:
 
 ### Exact skill matching
 
-In exact skill matching, the assignment logic searches for an agent with the required skills and proficiency and lists them in the order of highest available capacity by default. The default order can be set to round robin by the administrator.
+In exact skill matching, the assignment logic searches for an agent with the required skills and proficiency and lists them in the order of highest available capacity by default. The default order can be set to round robin by the administrator.
 
-If no agent is available with all the required skills and corresponding or higher proficiency, then the conversation remains unassigned in the queue.
+If no agent is available with all the required skills and corresponding or higher proficiency, then the conversation remains unassigned in the queue.
 
 Exact match will filter all matching agents whose proficiency is greater than or equal to the required proficiency.
 

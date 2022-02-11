@@ -26,16 +26,27 @@ Unified routing helps you assign a work item to the best suited agent or queue t
 
 To see data related to work items and their status, you need to enable routing diagnostics.
 
-1. Sign in to Dynamics 365.
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-2. Perform one of the following steps:
+    1. In the site map, select **Routing**. The **Routing** page appears.
+    2. Select **Manage** for **Routing diagnostics**.
 
-   - In the site map of Omnichannel admin center, in **Advanced settings**, select **Diagnostics**.
-   - In Customer Service Hub, go to **Service Management**, and in **Unified Routing** select **Diagnostics**.
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+   
+    - In the site map, select **Diagnostics** in **Advanced settings**.
 
-3. On the **Routing diagnostics** page, select **Turn on routing diagnostics**.
+   ### [Customer Service Hub](#tab/customerservicehub)
+   
+    - Go to the **Service Management** site map, and in **Unified Routing** select **Diagnostics**.
 
-4. In the confirmation message that appears, select **Yes**.
+1. On the **Routing diagnostics** page, select **Turn on routing diagnostics**.
+
+1. In the confirmation message that appears, select **Yes**.
 
    You'll see that a list of new work items start to appear. However, work items might not appear on your screen immediately.
 

@@ -1,7 +1,7 @@
 ---
 title: "Add the assistant widget to a custom form"
 description: "Display the assistant widget on your customized forms in Dynamics 365 Sales."
-ms.date: 02/03/2022
+ms.date: 02/08/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -10,7 +10,7 @@ manager: shujoshi
 
 # Add the assistant widget to custom forms
 
-By default, the assistant widget is available only in the out-of-the-box form. If you're using customized forms, you can display the assistant widget on custom forms.
+By default, the assistant widget is available only in the out-of-the-box forms&mdash;contact, opportunity, lead, account, and case. If you're using customized forms, you can display the assistant widget on custom forms.
 
 ## License and role requirements
 
