@@ -151,6 +151,7 @@ Dynamic match reduces the effort of having to write and maintain multiple static
 ### See also
 
 [Configure assignment methods and rules](configure-assignment-rules.md)  
+[Diagnostics for unified routing](unified-routing-diagnostics.md)  
 [Create workstreams](create-workstreams.md)  
 [Create queues](queues-omnichannel.md)  
 [Set up records for unified routing](set-up-record-routing.md)  
