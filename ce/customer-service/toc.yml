@@ -456,8 +456,6 @@
         href: csw-search-knowledge-articles.md
       - name: Search for knowledge articles in Customer Service Hub
         href: search-knowledge-articles-csh.md
-      - name: Share knowledge articles in Omnichannel for Customer Service
-        href: knowledge-management-oc.md
     - name: Customization experience
       items: 
       - name: Knowledge base search
@@ -799,7 +797,7 @@
       - name: Enable auto-assignment of conversations
         href: enable-auto-assign-conversations.md
       - name: Enable sharing of knowledge articles
-        href: knowledge-management-oc.md
+        href: set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-management
     - name: Agent experience
       items:
       - name: Productivity pane in Customer Service workspace
