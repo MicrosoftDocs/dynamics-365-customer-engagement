@@ -1,7 +1,7 @@
 ---
 title: "Enable self-service settings | MicrosoftDocs"
 description: "Enable self service in the Omnichannel Administration app."
-ms.date: 04/09/2021
+ms.date: 02/11/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
