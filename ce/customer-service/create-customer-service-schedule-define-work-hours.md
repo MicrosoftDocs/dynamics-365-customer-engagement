@@ -1,7 +1,7 @@
 ---
 title: "Create customer service schedule and define work hours (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Learn how to create a customer service schedule and define the work hours for Dynamics 365 Customer Service."
-ms.date: 10/01/2018
+ms.date: 02/11/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
