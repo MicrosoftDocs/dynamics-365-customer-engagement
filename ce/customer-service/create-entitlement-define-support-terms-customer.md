@@ -37,7 +37,7 @@ You can create an entitlement in the Customer Service admin center (preview) or 
    > [!IMPORTANT]
    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-    1. In the site map, select **Service terms** in **Opeations**. The **Service Terms** page appears.
+    1. In the site map, select **Service terms** in **Operations**. The **Service Terms** page appears.
     1.  In the **Entitlements** section, select **Manage**.                                                                         
         
         The **All Entitlements** view is displayed. You can switch between various system views using the drop-down list.  
