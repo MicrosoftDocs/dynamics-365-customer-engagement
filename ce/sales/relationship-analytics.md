@@ -90,7 +90,7 @@ The current relationship analytics provides information such as graphs, KPIs, em
 
 As a seller, it's important for you to understand what's working better for a deal and learn about the best engagement practices from similar deals that were won in the past. The enhanced relationship analytics displays comparable information on the KPIs, graphs, activity history, and relationship health with similar deals that were won. Also, a list of similar deals that were won is displayed at the bottom. By opening the deals, you can learn what has worked and what didn't work, and implement these learnings in the deal you're currently trying to close.  
 
-An administrator must enable the feature before you can start using it. More information: [Step 5 in Configure relationship analytics](configure-relationship-analytics.md#configure-similar-opportunities-preview).
+An administrator must enable the feature before you can start using it. More information: [Configure relationship analytics](configure-relationship-analytics.md).
 
 >[!NOTE]
 >If relationship analytics can't detect the similar opportunities for the current opportunity, relationship analytics takes top 100 won opportunities and displays KIPs to compare with the current opportunity.

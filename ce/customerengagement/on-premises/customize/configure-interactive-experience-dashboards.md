@@ -77,7 +77,7 @@ Interactive experience dashboards can be a one-stop workplace for app users, suc
   
 
 ### Entities enabled for interactive experience
- All entities supported in the Unified Interface are enabled for the interactive experience dashboards.
+ All entities supported in Unified Interface are enabled for the interactive experience dashboards.
 
   
 ### Configure fields  
