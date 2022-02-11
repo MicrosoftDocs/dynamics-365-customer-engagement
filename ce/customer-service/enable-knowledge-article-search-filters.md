@@ -83,7 +83,7 @@ You can enable search filters for your knowledge articles in the Customer Servic
 6. To set predetermined values that will appear for agents by default, select the ellipsis in the top-right corner of a filter area, and then select **Preselects**.
     > [!div class=mx-imgBorder]
     > ![Select filter preselects.](media/select-filter-preselects.png "Select filter preselects.")
-7. To make a filter value available by default, turn on  the **Set as preselected filter** toggle, so that  **Preselected** appears next to the filter name, and then select **Done**.
+7. To make a filter value available by default, turn on the **Set as preselected filter** toggle, so that **Preselected** appears next to the filter name, and then select **Done**.
    Values that are set as preselected automatically participate in the filtering without requiring the agent to manually select them. Only values made visible can be preselected.
     > [!div class=mx-imgBorder]
     > ![Toggle filter to show as Preselected.](media/set-filter-preselects.png "Toggle filter to show as Preselected.")
