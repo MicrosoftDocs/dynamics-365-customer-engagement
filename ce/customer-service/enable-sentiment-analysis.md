@@ -1,7 +1,7 @@
 ---
 title: "Enable sentiment analysis | MicrosoftDocs"
 description: "How to enable sentiment analysis for Omnichannel Ongoing Conversation dashboard in Omnichannel for Customer Service."
-ms.date: 03/08/2021
+ms.date: 02/11/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
