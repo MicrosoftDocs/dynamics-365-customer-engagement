@@ -12,7 +12,7 @@ manager: shujoshi
 
 ## Introduction
 
-You can map roles to personas to define user permissions for unified routing. Persona mapping gives your organization the option to add custom security roles alongside existing Customer Service and Omnichannel for Customer Service roles. The admin, supervisor, and agent personas are user archetypes that security roles can be mapped to. By mapping custom security roles to these personas, you can fine-tune data access and security across users and business units.
+You can map security roles to personas to define user permissions for unified routing. Persona mapping gives your organization the option to add custom security roles alongside existing security roles in Customer Service and Omnichannel for Customer Service. The admin, supervisor, and agent personas are user archetypes that security roles can be mapped to. By mapping custom security roles to these personas, you can fine-tune data access and security across users and business units.
 
 You can create and assign custom security roles in the Microsoft Dynamics 365 admin center. Persona mapping can be found in the Omnichannel admin center or Customer Service Hub in the **User attributes** section. For the custom security roles to be functional, perform the following steps:
 
@@ -84,8 +84,8 @@ After persona mapping is enabled, it'll automatically assign default roles depen
 | Service | Admin persona default mapping | Supervisor persona default mapping | Agent persona default mapping |
 | ------------- | ---------------- | ------------------- | --------------- |
 | Customer Service Enterprise | CSR Manager | CSR Manager | Customer Service Representative |
-| Omnichannel for Customer Service | Omnichannel administrator | Omnichannel supervisor | Omnichannel agent |  
-| Customer Service Enterprise + Omnichannel for Customer Service | CSR Manager + Omnichannel administrator | CSR Manager + Omnichannel supervisor | Customer Service Representative + Omnichannel agent |
+| Omnichannel for Customer Service | Omnichannel Administrator | Omnichannel supervisor | Omnichannel agent |  
+| Customer Service Enterprise + Omnichannel for Customer Service | CSR Manager + Omnichannel Administrator | CSR Manager + Omnichannel supervisor | Customer Service Representative + Omnichannel agent |
 |||||
 
 > [!NOTE]
