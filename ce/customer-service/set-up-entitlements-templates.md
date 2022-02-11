@@ -1,7 +1,7 @@
 ---
 title: Set up entitlements quickly with templates (Dynamics 365 Customer Service) | MicrosoftDocs
 description: "See how to set up entitlements quickly with templates in Dynamics 365 Customer Service"
-ms.date: 10/01/2018
+ms.date: 02/11/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -25,6 +25,8 @@ Quickly create other entitlements prefilled with the basic information like the 
 > With the latest release of Dynamics 365 Customer Service app, entitlement templates in service management are available in the Customer Service Hub. We recommend that you create and manage entitlement templates using the new experience.
 
 ## Create an entitlement template  
+
+You can create an entitlement template in the Customer Service admin center (preview) or Customer Service Hub app. 
   
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
   
@@ -34,7 +36,7 @@ Quickly create other entitlements prefilled with the basic information like the 
   
    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
 
-2. Navigate to the Customer Service admin center (preview) or Customer Service Hub app, and perform the following steps:
+2. Go to one of the apps, and perform the following steps.
 
    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 

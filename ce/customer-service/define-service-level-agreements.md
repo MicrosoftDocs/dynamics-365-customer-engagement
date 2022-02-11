@@ -1,7 +1,7 @@
 ---
 title: "Define service-level agreements in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how to define service-level agreements in Dynamics 365 Customer Service."
-ms.date: 10/21/2021
+ms.date: 02/11/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -72,7 +72,9 @@ Review the following requirements before configuring SLAs for your organization:
 
 SLA KPIs are performance indicators, such as First Response or Resolve by, that you'd like to track.
 
-1. Navigate to the Customer Service admin center (preview) app or Customer Service Hub app, and perform the following steps:
+You can create SLA KPIs in the Customer Service admin center (preview) app or Customer Service Hub app.
+
+1. Go to one of the apps, and perform the following steps.
 
     ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
@@ -80,7 +82,7 @@ SLA KPIs are performance indicators, such as First Response or Resolve by, that 
     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
     1. In the site map, select **Service Terms** in **Operations**. The **Service Terms** page appears.
-    1.  In the **SLA KPIs** section, select **Manage**.                                                                         
+    1. In the **SLA KPIs** section, select **Manage**.                                                                         
         
       The **Active SLAKPIs** view is displayed. Select the SLA for which you want to add an SLA item.   
 
@@ -127,8 +129,9 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
 ### Create an SLA 
 
-1. Navigate to the Customer Service admin center (preview) or Customer Service Hub app, and perform the following steps:
+You can create an SLA in the Customer Service admin center (preview) or Customer Service Hub app.
 
+1. Go to one of the apps, and perform the following steps.
 
    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
@@ -136,7 +139,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
    1. In the site map, select **Service Terms** in **Operations**. The **Service Terms** page appears.
-   1.  In the **Service Level Agreements (SLAs)** section, select **Manage**.                                                                         
+   1. In the **Service Level Agreements (SLAs)** section, select **Manage**.                                                                         
         
    The **All Service Level Agreements** view is displayed. You can switch between various system views using the drop-down list.  
 
@@ -159,8 +162,9 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
 ### Create an SLA item
 
-1. Navigate to the Customer Service admin center (preview) app or Customer Service Hub app, and perform the following steps:
+You can create an SLA item in the Customer Service admin center (preview) or Customer Service Hub app.
 
+1. Go to one of the apps, and perform the following steps.
 
    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
@@ -168,7 +172,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
    1. In the site map, select **Service Terms** in **Operations**. The **Service Terms** page appears
-   1.  In the **Service Level Agreements (SLAs)** section, select **Manage**.                                                                         
+   1. In the **Service Level Agreements (SLAs)** section, select **Manage**.                                                                         
         
         The **All Service Level Agreements** view is displayed. Select the SLA for which you want to add an SLA item.   
 

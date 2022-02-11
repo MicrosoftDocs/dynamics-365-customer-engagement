@@ -1,7 +1,7 @@
 ---
 title: "Configure Omnichannel historical analytics reports | MicrosoftDocs"
 description: "Configure historical analytics reports for Omnichannel"
-ms.date: 10/27/2021
+ms.date: 02/11/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan

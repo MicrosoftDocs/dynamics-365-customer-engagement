@@ -1,7 +1,7 @@
 ---
 title: Automatically create or update records in Customer Service Hub (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to automatically create or update records by setting up rules in Dynamics 365 Customer Service
-ms.date: 01/17/2022
+ms.date: 02/11/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim

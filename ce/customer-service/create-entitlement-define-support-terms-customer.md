@@ -1,7 +1,7 @@
 ---
 title: "Create entitlements to define the support terms for a customer (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Learn how to create entitlements to define the support terms for a customer in Dynamics 365 Customer Service."
-ms.date: 01/22/2021
+ms.date: 02/11/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -25,10 +25,12 @@ Define what kind of support your customers are eligible for by creating entitlem
 > With the latest release of Dynamics 365 Customer Service app, entitlements in service management are available in the Customer Service Hub. We recommend that you create and manage entitlements using the new experience.
   
 ## Create an entitlement
+
+You can create an entitlement in the Customer Service admin center (preview) or Customer Service Hub app.
   
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)] You can check your security permissions by following the steps in [View your user profile](../customerengagement/on-premises/basics/view-your-user-profile.md).
 
-2. Navigate to the Customer Service admin center (preview) or Customer Service Hub app, and perform the following steps:
+2. Go to one of the apps, and perform the following steps.
 
    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 

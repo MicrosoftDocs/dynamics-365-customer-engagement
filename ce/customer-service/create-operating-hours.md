@@ -1,7 +1,7 @@
 ---
 title: "Create and manage operating hours | MicrosoftDocs"
 description: "Perform the steps mentioned in the topic to create, manage, and define operating hours in Omnichannel for Customer Service."
-ms.date: 11/24/2021
+ms.date: 02/11/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -35,7 +35,10 @@ After you create an operating hour record, in Omnichannel admin center, you can 
 In Omnichannel Administration, you can add the operating hour record on the **Design** tab of the appropriate chat widget to control the display of the widget. For SMS channels and queues, the operating hour will be available for selection on the **General** and **Summary** tabs respectively.
 
 ## Create a record to define operating hours
-1. Navigate to the Customer Service admin center (preview) or Customer Service Hub app, and perform the following steps:
+
+You can define operating hours in the Customer Service admin center (preview) or Customer Service Hub app.
+
+1. Go to one of the apps, and perform the following steps.
 
    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
@@ -43,7 +46,7 @@ In Omnichannel Administration, you can add the operating hour record on the **De
    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
     1. In the site map, select **Calendars** in **Operations**. The **Calendar** page appears.
-    1.  In the **Operating Hours** section, select **Manage**.                                                                         
+    1. In the **Operating Hours** section, select **Manage**.                                                                         
         
         The **Active Operating Hours** view is displayed. You can switch between various system views using the drop-down list.  
 
@@ -127,13 +130,13 @@ Do the following to specify operating hours for a queue:
    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
     1. In the site map, select **Queues** in **Customer Support**. The **Queues** page appears.
-    1.  In the **Advanced Queues** section, select **Manage**.                                                                         
+    1. In the **Advanced Queues** section, select **Manage**.                                                                         
         
         The **Queues** view is displayed. 
 
    ### [Omnichannel admin Center](#tab/Omnichanneladmincenter)
 
-    In the site map, select **Queues** in **General settings**. The **Queues** page appears.
+    - In the site map, select **Queues** in **General settings**. The **Queues** page appears.
 
 2. Open the queue for which you want to specify the operating hours.
 3. On the **Operation hours** tab, select **Set operation hours**.

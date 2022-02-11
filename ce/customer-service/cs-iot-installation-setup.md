@@ -1,7 +1,7 @@
 ---
 title: "Create customized IoT solutions in Connected Customer Service | MicrosoftDocs"
-description: "Learn how to create customized IoT solutions in Connected Customer Service for Azure IoT Central."
-ms.date: 04/03/2020
+description: "Understand how to create customized IoT solutions in Connected Customer Service for Azure IoT Central."
+ms.date: 02/11/2022
 ms.topic: article
 author: lalexms
 ms.author: lalexms
@@ -125,7 +125,6 @@ Next, deploy and connect Azure IoTHub to your Customer Service environment by go
   
 1.  Open the device, alert, or asset form.  
   
-
     > [!IMPORTANT]
     >  The device that is related to any of the open forms must have a device ID and be registered; otherwise, the PowerBI section will be hidden.
 
@@ -153,7 +152,9 @@ Next, deploy and connect Azure IoTHub to your Customer Service environment by go
   
 ### Create a new IoT device category  
   
-1. Navigate to either on the Customer Service Hub or on Customer Service admin center (preview) app, and perform the following steps:
+You can create a new IoT device category in the Customer Service Hub or on Customer Service admin center (preview) app.
+
+1. Go to one of the apps, and perform the following steps.
 
     ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
