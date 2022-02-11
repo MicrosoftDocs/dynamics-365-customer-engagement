@@ -1,7 +1,7 @@
 ---
 title: Configure knowledge management (Dynamics 365 Customer Service) | MicrosoftDocs
 description: See how to configure the settings for knowledge management in Dynamics 365 Customer Service
-ms.date: 12/03/2021
+ms.date: 02/10/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -95,6 +95,8 @@ After you have configured knowledge management on your app, you must also set up
 9.  In the **Knowledge search logic** section, set the **Set search mode as all** toggle to **Yes**. More information: [Set up knowledge search logic](#set-up-knowledge-search-logic).
 
 10. Select **Save**.  
+
+The configured settings are also available to users of Omnichannel for Customer Service. 
 
 ## Set up knowledge management settings page manually for a model-driven app
 

@@ -1,7 +1,7 @@
 ---
 title: "Correlate across custom triggers (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to correlate across multiple custom triggers in Dynamics 365 Marketing."
-ms.date: 02/09/2022
+ms.date: 02/10/2022
 ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
@@ -45,7 +45,7 @@ In the case of the *Opportunity Won* custom trigger, the *bindingId* could be:
 
 - *bindingId* = ``opportunity/{unique ID of the opportunity row}``
 
-If custom triggers follow the *bindingId* pattern described above, they can be used to identify the exact journey instance, even when used with other business events. When the *bindingId* is implemented, it works acts on all instances of the journey.
+If custom triggers follow the *bindingId* pattern described above, they can be used to identify the exact journey instance, even when used with other business events. When the *bindingId* is implemented, it acts on all instances of the journey.
 
 > [!NOTE]
 > The binding only works across the same entity types.
@@ -102,13 +102,13 @@ will be interpreted as
 
 ## Comparison algorithm:
 ```
-[Case 0] trigger event has bindingId = "", meaning no restriction at all
+[Case 0] trigger has bindingId = "", meaning no restriction at all
     Always resume.
 [Case 1] entityType matches, and entityId matches:
     Resume.
 [Case 2] entityType matches, but entityId doesn't match:
     No resume.
-[Case 3] entityType doesn't event match:
+[Case 3] entityType doesn't match trigger:
     It doesn't make sense to apply binding, so we fall back to what we have now and let it resume the journey instance. 
 ```
 Examples: 
