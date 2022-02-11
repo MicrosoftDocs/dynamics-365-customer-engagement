@@ -35,7 +35,7 @@ Further, sellers can compare and remove the duplicate leads in the organization.
 >[!NOTE]
 >- If the Power Platform duplicate detection feature is enabled in your organization, a message is displayed as shown in the following image: 
 >:::image type="content" source="media/lead-power-platform-duplicate-detection-enabled-message.png" alt-text="Screenshot showing message when Power Platform duplicate detection feature is enabled." lightbox="media/lead-power-platform-duplicate-detection-enabled-message.png":::
->- To know the difference between the Power Platform and Sales duplicate detection features, see [What is difference between Power Platform duplicate detection and Dynamics 365 Sales duplicate detection of leads?](faqs-sales.md#what-is-the-difference-between-power-platform-duplicate-detection-and-dynamics-365-sales-duplicate-detection-of-leads)
+>- To know the difference between the Power Platform and Sales duplicate detection features, see [What is difference between Power Platform duplicate detection and Dynamics 365 Sales duplicate detection of leads?](faqs-sales.md#what-is-the-difference-between-duplicate-detection-capability-of-power-platform-and-duplicate-detection-of-leads-in-dynamics-365-sales)
 >- For an optimum experience for duplicate detection of leads in Dynamics 365 Sales, disable duplicate detection of leads in Power Platform. More information [Turn duplicate detection rules on or off for the whole organization](/power-platform/admin/turn-duplicate-detection-rules-off-whole-organization)  
 
 ## Prerequisites
