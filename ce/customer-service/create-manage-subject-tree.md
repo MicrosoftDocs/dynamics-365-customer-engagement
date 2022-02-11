@@ -1,7 +1,7 @@
 ---
 title: Create and manage subject tree (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to create and manage subject tree in Dynamics 365 Customer Service
-ms.date: 01/14/2022
+ms.date: 02/11/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -25,9 +25,27 @@ Dynamics 365 Customer Service includes a subject organizational structure that l
 ## Create or edit a subject
 
 [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
-  
 
-1. In the Customer Service Hub site map, go to **Service Management** > **Subjects**. The **Subject tree** page appears.
+You can create or edit a subject in the Customer Service admin center (preview) or Customer Service Hub app.
+
+1. Go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+     1. In the site map, select **Case Settings** in **Customer Support**. The **Case Settings** page appears.
+     1. In the **Subjects** section, select **Manage**.
+
+     The **Subject Tree** page is displayed.
+
+   ### [Customer Service Hub](#tab/customerservicehub)
+    
+     1. In the site map, select **Service Management**.
+     2. Select **Subjects** in **Case Settings**. 
+  
+      The **Subject Tree** page is displayed. 
   
 2. In the **Subject tree management** area, select **Add**.  
   
