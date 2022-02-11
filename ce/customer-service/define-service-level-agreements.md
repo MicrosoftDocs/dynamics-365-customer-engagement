@@ -26,7 +26,7 @@ With service-level agreements (SLAs) configured in Customer Service Hub, you can
 
 - Use out-of-the-box actions in Microsoft Power Automate.
 - Define work hours, and pause and resume SLAs at the SLA KPI level and SLA item level, which help track SLA items for different work hours based on priority and criteria. The pause settings at SLA KPI level or SLA item level gives you added flexibility to define pause conditions at a more granular level.
-- In a case lifecycle, trigger multiple SLA KPIs at different start points. The following illustration depicts how you can define an overall resolution time, and also specify SLA KPIs at different start points.
+- Define time to resolution and specify start points for multiple SLA KPIs. In a case lifecycle, trigger multiple SLA KPIs at different start points. The following illustration depicts how you can define an overall resolution time, and also specify SLA KPIs at different start points.
 
 ![SLA pause and resume.](media/SLA-pause-resume.png "SLA pause and resume")
 
