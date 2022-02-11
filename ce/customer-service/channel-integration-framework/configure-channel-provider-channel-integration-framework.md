@@ -21,6 +21,7 @@ searchScope:
 # How to configure a channel provider for your Dynamics 365 organization
 
 Using the Dynamics 365 Channel Integration Framework solution, you can configure channel providers.
+
 To configure channel providers:
 
 1. Sign in to Dynamics 365.
