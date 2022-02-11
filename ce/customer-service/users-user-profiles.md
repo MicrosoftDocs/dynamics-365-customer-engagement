@@ -1,7 +1,7 @@
 ---
 title: "Create and manage users and user profiles | MicrosoftDocs"
 description: "This topic provides steps that you can perform to manage users in Omnichannel for Customer Service."
-ms.date: 09/20/2021
+ms.date: 02/11/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -19,13 +19,28 @@ For more information on how to create users and assign security roles, see [Assi
 
 ## Manage a user in Omnichannel for Customer Service
 
-Users should be configured as a bookable resource so that they can be assigned work items by using unified routing. Perform the steps in this section to manage users for unified routing.
+Users should be configured as a bookable resource so that they can be assigned work items by using unified routing.
 
-1. Do one of the following:
-   - In the site map of Omnichannel admin center, select **Users** under **General settings**.
-   - In Customer Service Hub, go to the **Service Management** site map, and under **Unified Routing**, select **Users**.
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   
+    1. In the site map, select **User management** in **Customer support**.
+    
+    1. On the **User management** page, select **Manage** for **Users**.
 
-2. Double-click a user in the list.
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+
+    - In the site map, select **Users** in **General settings**.
+
+   ### [Customer Service Hub](#tab/customerservicehub)
+
+    - Go to the **Service Management** site map, and in **Unified Routing**, select **Users**.
+
+2. On the **Omnichannel Users** page, double-click a user in the list.
 
 3. Select the **Omnichannel** tab.
 
