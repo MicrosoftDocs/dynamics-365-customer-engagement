@@ -1,7 +1,7 @@
 ---
 title: "Set up unified routing for records | MicrosoftDocs"
 description: "Learn how to set up record routing in Customer Service."
-ms.date: 10/07/2021
+ms.date: 02/11/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -14,7 +14,7 @@ manager: shujoshi
 
 ## Introduction
 
-You can configure routing for records in Customer Service Hub, Omnichannel admin center, or Omnichannel Administration. However, unified routing can be configured only in Customer Service Hub or Omnichannel admin center.
+You can configure routing for records in Customer Service admin center (preview), Customer Service Hub, Omnichannel admin center, or Omnichannel Administration. However, unified routing can be configured only in Customer Service Hub or Omnichannel admin center.
 
 If you have only Dynamics 365 Customer Service, the options to configure unified routing is available only after you enable unified routing in service configuration settings.
 
@@ -36,35 +36,63 @@ The following prerequisites are applicable:
 
 ## Configure unified routing for records
 
-You can configure unified routing for records through Customer Service Hub or Omnichannel admin center.
+**To configure record routing**
 
-Perform the following steps to configure record routing:
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-1. Do one of the following:
-   - In Customer Service Hub, in **Service Management**, on the site map, select **Record routing** under **Unified Routing**. 
-   - In Omnichannel admin center, on the site map, select **Record routing** under **General settings**.
+    1. In the site map, select **Routing** in **Customer support**. The **Routing** page appears.
 
-2. On the **Record routing** page, select **Add**.
+    1. Select **Manage** for **Record routing**.
 
-3. In the **Add a record type** dialog box, select a record from the **Record type** list, and select **Add**. The record is added and listed on the **Record routing** page.
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
 
-4. Do the following tasks:
-   1. Configure workstreams.
-   2. Configure intake rules.
+    - In the site map, select **Record routing** in **General settings**.
+
+   ### [Customer Service Hub](#tab/customerservicehub)
+    
+    - Go to **Service Management**, and in the site map, select **Record routing** in **Unified Routing**. 
+
+1. On the **Record routing** page, select **Add**.
+
+1. In the **Add a record type** dialog box, select a record from the **Record type** list, and select **Add**. The record is added and listed on the **Record routing** page.
+
+1. Configure the following:
+   1. Workstreams.
+   1. Intake rules.
 
 ### Create workstreams for record routing
 
 To configure a workstream for the record, do the following:
 
-1. In the Customer Service Hub app, in **Service Management**, on the site map, select **Workstream** under **Unified Routing**, and then select **New**. If you're using Omnichannel admin center, on the site map, select **Workstreams** under **General settings**.
+1. Go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
-2. In the **Create a workstream** dialog, enter the following details:
+   1. In the site map, select **Workstreams** in **Customer support**.
+   
+   1. Select **New workstream**.
+
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+
+    - In the site map, select **Workstreams** in **General settings**, and then select **New workstream**.
+
+   ### [Customer Service Hub](#tab/customerservicehub)
+
+    - In the **Service Management** site map, select **Workstream** in **Unified Routing**, and then select **New workstream**.
+   
+
+1. In the **Create a workstream** dialog, enter the following details:
     - **Name**: Enter an intuitive name, such as **Contoso case workstream**.
     - **Work distribution mode**: Select **Push** or **Pick**.
     - **Type**: Select **Record**.
     - **Record type**: Select a record from the list.
 
-3. Select **Create**. The workstream is created.
+1. Select **Create**. The workstream is created.
 
 ### Configure intake rules
 
