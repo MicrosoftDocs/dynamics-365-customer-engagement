@@ -90,7 +90,7 @@ Make sure that you have the required security role or equivalent permissions.
     - Select whether the resource should be displayed on the schedule board in the **Display On Schedule Board** box.
     - Select whether you want to enable the resource for availability search in the **Enable for Availability Search** box.
 
-       ![bookable resources.](media/bookable_resource_2.png)
+       ![scheduling.](media/bookable_resource_2.png)
 
 5. Once you're ready, select **Save**.
 
