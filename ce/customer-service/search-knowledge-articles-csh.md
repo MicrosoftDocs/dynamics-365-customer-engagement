@@ -1,7 +1,7 @@
 ---
 title: Search knowledge articles in the Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: See how you can effectively search knowledge articles in the Customer Service Hub.
-ms.date: 02/04/2022
+ms.date: 02/11/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -196,26 +196,36 @@ To configure the ability to copy and send article URLs, see [Configure knowledge
 
 ### Configure knowledge base article URLs
 
-Knowledge articles can be configured with their portal URLs, and then agents can copy and share the URL links. 
+Knowledge articles can be configured with their portal URLs, and then agents can copy and share the URL links.
 
 > [!NOTE]
 > Before you can configure knowledge articles with their own URLs, you must create a portal using your domain name. For information on how to create a portal, see [Create a portal in an environment containing customer engagement apps](/powerapps/maker/portals/create-dynamics-portal).
 
-To configure a knowledge base article URL, do the following:
+You can configure a knowledge base article URL in the Customer Service admin center (preview) or Customer Service Hub app by performing the following steps:
 
-1. In the sitemap, under **Knowledge Base Management**, select **Settings**.
+1. Go to the **Support portal connection** section.
 
-   > [!div class=mx-imgBorder]
-   > ![Select Knowledge Base Management settings.](media/kb-management-settings.png "Navigate to Knowledge Base Management settings in the sitemap")
+### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
-2. Under **Support Portal Connection**, set **Use an external portal** to **Yes**.
+> [!IMPORTANT]
+> The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+  1. In the site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
+  1. On the **Knowledge** page, go to the **Portals** section and select **Manage**. The **Portal** page appears.
+  1. On the **Portals** page, go to the **Support portal connection** section.
+
+### [Customer Service Hub](#tab/customerservicehub)
+
+  1. In the site map, go to **Service Management** and select **Settings** in **Knowledge Base Management**.
+  1. On the **Settings** page, go to the **Support portal connection** section.
+
+---
+
+2. Set the **Use an external portal** toggle to **Yes**.
 
 3. In the **URL format** field, enter the URL name.
 
-   > [!div class=mx-imgBorder]
-   > ![Select URL format.](media/kb-url-format.png "Select the URL format to use")
-
-4. Select **Save**.
+ 4. Select **Save**.
 
 The knowledge base article link is now active and can be copied and shared.
 
@@ -367,7 +377,7 @@ When you are working on a case and refer to an article from the **Knowledge Base
 
     ![Provide comments.](media/ka-rating-feedback-provide-comments.png "Provide comments")
 
-To set up the feedback control, see [Set up knowledge management (Customer Service Hub)](set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-management-customer-service-hub).
+To set up the feedback control, see [Set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-management).
 
 ### See also
 

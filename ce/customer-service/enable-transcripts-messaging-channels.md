@@ -1,7 +1,7 @@
 ---
 title: "Enable transcript for messaging channels in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how to set up the transcript experience for messaging channels in Omnichannel for Customer Service."
-ms.date: 11/02/2021
+ms.date: 02/11/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -30,32 +30,37 @@ As an administrator, you can enable live transcription and recording of conversa
 > [!NOTE]
 > The transcript feature is generally available; however, in some environments, you might see a preview tag or banner in the interface. Any preview annotations for this feature can safely be ignored.
 
-Do the following to enable transcripts:
+**To enable transcripts**
 
-1. In the Omnichannel admin center, under **Advanced settings** on the sitemap, select **Agent experience**.
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+     
+     1. In the site map, select **Productivity** in **Agent experience**.
+     2. On the **Productivity** page, select **Manage** for **Transcript**.
 
-2. For **Transcript**, select **Manage**.
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
 
-   > [!div class="mx-imgBorder"]
-   > ![Advanced settings transcript option.](./media/voice-channel-enable-recordings-transcripts.png)
+    - In the site map, select **Agent experience** in **Advanced settings**, and then select **Manage** for **Transcript**.
 
-3. On the **Omnichannel Configuration Transcript settings** page, turn on the **Try out our new transcript experience for digital messaging channels** toggle.
+1. On the **Omnichannel Configuration - Transcript settings** page, turn on the **Try out our new transcript experience for digital messaging channels** toggle.
 
-4. Select **Save**.
-
-> [!NOTE]
-> The current transcript viewer experience will be deprecating at the end of the year, and will be replaced with this new transcript experience.
+1. Select **Save**.
 
 ## View the transcripts
 
-You can view the conversation transcriptions in the Omnichannel admin center and Omnichannel for Customer Service apps.
+You can view the conversation transcriptions in the Customer Service admin center (preview), Omnichannel admin center, and Omnichannel for Customer Service apps.
 
 To view transcripts in Omnichannel admin center, do the following:
 
-1. On the Omnichannel admin center site map, select **Users**, and then select the user whose conversations you want to view.
-2. Select the **Related** tab, and then select **Conversations** from the dropdown menu.
-3. Select **Closed conversations** from the dashboard dropdown menu.
-4. Select the conversation for which you want to access the transcript.
+1. In the Customer Service admin center (preview) site map, select **User management**, and then select **Manage** for **Users**. If you're using Omnichannel admin center, in the site map, select **Users**.
+2. Select the user whose conversations you want to view.
+3. Select the **Related** tab, and then select **Conversations** from the dropdown menu.
+4. Select **Closed conversations** from the dashboard dropdown menu.
+5. Select the conversation for which you want to access the transcript.
   
    > [!div class="mx-imgBorder"]
    > ![Screenshot of closed conversation list in Omnichannel admin center.](./media/voice-channel-conversations-list.png)
@@ -68,9 +73,6 @@ To view transcripts in Omnichannel for Customer Service, do the following:
     a. Select the closed work item for which you want to view the transcript.<br>
     OR<br>
     b. Right-click the three dots to view the transcript.
-    
-   > [!div class="mx-imgBorder"]
-   > ![Screenshot of closed conversation list in Omnichannel for Customer Service.](./media/agent-dashboard-closed-chat.png)
 
 ### See also
 
