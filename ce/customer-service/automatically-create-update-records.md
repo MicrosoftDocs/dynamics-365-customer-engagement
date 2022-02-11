@@ -26,8 +26,6 @@ searchScope:
 
 # Automatically create or update records in Customer Service Hub
 
-
-
 In Dynamics 365 Customer Service Hub, you can automatically create or update system or custom records from incoming activities, such as emails, social activities, and custom activities. In this section, you'll learn about creating rules for automatically creating records for cases from incoming emails.
 
 ## Set up rules for creating or updating records automatically
