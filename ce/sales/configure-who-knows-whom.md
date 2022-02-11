@@ -70,15 +70,12 @@ To configure the Sales Insights connection graph, follow these steps:
 
 1. Go to the **Microsoft 365 admin center**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Admin center](media/sales-insights-addon-admincenter.png "Admin center")
-
 2. Select **Settings** > **Org settings** > **Dynamics 365 Sales Insights – Connection Graph**.
 
-3.  Read the description carefully and then select the **Enable Dynamics 365 Sales Insights - Connection Graph for your entire organization** option.
-
     > [!div class="mx-imgBorder"]
-    > ![Enable and save the connection graph](media/sales-insights-addon-admincenter-connection-graph-enable.png "Enable and save the connection graph")
+    > ![Enable and save the connection graph](media/sales-insights-addon-admincenter-connection-graph-enable.png "Screenshot of connection graph settings")
+
+3.  Read the description carefully and then select the **Enable Dynamics 365 Sales Insights - Connection Graph for your entire organization** option.
 
 4. (Optional) If you don't want to collect information about a group of users in your organization, add their group ID in the text box. 
 

@@ -10,7 +10,10 @@ manager: shujoshi
 ---
 # Configure relationship analytics and health 
 
-Relationship analytics provides a graphical representation of KPIs and activity histories of any contact, opportunity, lead, or account. It uses data from Dynamics 365 and Exchange Online (if configured) to create more accurate and complete relationship information.
+Relationship analytics provides a graphical representation of KPIs and activity histories of any contact, opportunity, lead, or account. It uses data from Dynamics 365 and Exchange Online (if configured) to create more accurate and complete relationship information. To configure the feature, perform the following tasks:
+
+1. [Enable relationship analytics and health](#enable-relationship-analytics-and-health)
+1. [Allow to collect information from Exchange server](#allow-to-collect-information-from-exchange-server) 
 
 ## License and role requirements
 
@@ -23,7 +26,7 @@ Relationship analytics provides a graphical representation of KPIs and activity 
 >[!IMPORTANT]
 >This feature is intended to help sellers or sales managers enhance their team’s performance. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with sales persons may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their sales persons that their communications with end users may be monitored, recorded, or stored.
 
-## To configure relationship analytics and health 
+## Enable relationship analytics and health 
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**. 
    
@@ -92,19 +95,15 @@ Relationship analytics provides a graphical representation of KPIs and activity 
 Enable the **Dynamics 365 Sales Insights – Analytics** option in the admin center to collect valuable information about communications&mdash;such as emails and meetings&mdash;for users in your organization from Exchange server. This data is used in analytics features for salespeople and sales managers. When you enable, the **Exchange Data** option on the relationship analytics configuration page is automatically selected. 
 
 Follow these steps:    
-1. Go to the **Admin** center.    
-    > [!div class="mx-imgBorder"]
-    > ![Admin center](media/sales-insights-addon-admincenter.png "Admin center")   
+1. Go to the **Admin** center.     
     
-2. Select **Settings** > **Settings** > **Dynamics 365 Sales Insights – Analytics**.    
+2. Select **Settings** > **Org Settings** > **Dynamics 365 Sales Insights – Analytics**.    
     > [!div class="mx-imgBorder"]
     > ![Select Sales Insights preview option](media/sales-insights-addon-admincenter-customer-insights-preview.png "Select Sales Insights preview option")    
     
-3. Read the description carefully, select the **Allow org data to be used by Dynamics 365 Sales Insights - Analytics** option, and then select **Save changes**.    
-    > [!div class="mx-imgBorder"]
-    > ![Enable and save Sales Insights preview option](media/sales-insights-addon-admincenter-customer-insights-preview-settings.png "Enable and save Sales Insights preview option")    
+3. Read the description carefully, select the **Allow org data to be used by Dynamics 365 Sales Insights - Analytics** option, and then save the changes.       
     
-    Now you can connect to the Exchange server to collect data.
+    Dynamics 365 can now connect to the Exchange server to collect data.
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
