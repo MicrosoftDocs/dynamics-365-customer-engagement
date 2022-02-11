@@ -1,7 +1,7 @@
 ---
 title: "Configure forecasts in your organization"
 description: "Forecasts can be based on revenue or quantity. Configure forecast type, hierarchy, permissions, and details to appear on the forecast grid."
-ms.date: 01/24/2022
+ms.date: 02/10/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -17,6 +17,9 @@ searchScope:
 # Configure forecasts in your organization 
 
 Forecasts can be based on revenue or quantity. Configure forecast type, hierarchy, permissions, and details to appear on the forecast grid.
+
+> [!NOTE]
+> The forecasting feature is not supported on mobile devices.
 
 ## License and role requirements
 
