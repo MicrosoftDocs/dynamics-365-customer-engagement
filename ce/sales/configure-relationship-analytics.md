@@ -93,9 +93,8 @@ Relationship analytics provides a graphical representation of KPIs and activity 
 ## Allow to collect information from Exchange server 
 
 Enable the **Dynamics 365 Sales Insights – Analytics** option in the admin center to collect valuable information about communications&mdash;such as emails and meetings&mdash;for users in your organization from Exchange server. This data is used in analytics features for salespeople and sales managers. When you enable, the **Exchange Data** option on the relationship analytics configuration page is automatically selected. 
-
-Follow these steps:    
-1. Go to the **Admin** center.     
+   
+1. Go to the **Microsoft 365 admin center**.     
     
 2. Select **Settings** > **Org Settings** > **Dynamics 365 Sales Insights – Analytics**.    
     > [!div class="mx-imgBorder"]
