@@ -93,9 +93,27 @@ After persona mapping is enabled, it'll automatically assign default roles depen
 
 ### Manage personas
 
-To customize the role to the persona mapping, perform the following steps.
+You can customize the roles to persona mapping in the Customer Service admin center (preview), Omnichannel admin center, or Customer Service Hub app.
 
-1. In Customer Service Hub, go to the **Service Management** change area, and select **User attributes** from the **Unified routing** menu. If you're using Omnichannel admin center, select **User attributes** under **Advanced settings**.
+**To customize the role to persona mapping**
+
+1. Go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   
+    - In the site map, select **User management** in **Customer support**. The **User management** page appears.
+    
+   
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+
+    - In the site map, select **User attributes** under **Advanced settings**.
+    
+   ### [Customer Service Hub](#tab/customerservicehub) 
+
+    - Go to the **Service Management** change area, and select **User attributes** from the **Unified routing** menu.
 
 2. Select **Manage** for **Role persona mapping**.
 

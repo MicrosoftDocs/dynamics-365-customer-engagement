@@ -78,6 +78,8 @@
       href: /learn/modules/get-started-with-dynamics-365-for-customer-service/
     - name: Configure Customer Service
       href: configure-cs.md
+    - name: Customer Service admin center
+      href: cs-admin-center.md
     - name: Omnichannel admin center
       href: oc-admin-center.md
     - name: Customer Service Hub
@@ -108,7 +110,7 @@
       href: ../app-profile-manager/overview.md
     - name: Roles and permissions
       href: ../app-profile-manager/security-roles.md
-    - name: Use app profile manager
+    - name: Create and use agent experience profiles
       href: ../app-profile-manager/app-profile-manager.md
     - name: Settings
       href: ../app-profile-manager/settings.md
@@ -232,7 +234,7 @@
       items:
       - name: Create and manage workstreams
         href: create-workstreams.md
-      - name: Create and manage queues
+      - name: Manage queues for unified routing
         href: queues-omnichannel.md
       - name: Configure work classification
         href: configure-work-classification.md
@@ -1464,6 +1466,8 @@
     href: cs-share-feedback.md
   - name: FAQs on Customer Service
     items: 
+    - name: FAQs on Customer Service admin center
+      href: faq-customer-service-admin-center.md
     - name: FAQs on unified routing
       href: unified-routing-faqs.md
     - name: FAQs on AI suggestions for cases and knowledge articles

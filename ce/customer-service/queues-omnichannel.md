@@ -1,11 +1,11 @@
 ---
 title: Create and manage queues for unified routing | MicrosoftDocs
-description: "This topic provides information and steps to help you learn  how you can create and manage queues in Omnichannel for Customer Service."
+description: "This topic provides information and steps to help you learn to create and manage queues in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.topic: article
-ms.date: 11/01/2021
+ms.date: 02/11/2022
 ms.custom: intro-internal
 searchScope:
 - D365-App-customerservice
@@ -16,17 +16,17 @@ searchScope:
 - Customer Service
 ---
 
-# Create and manage queues for unified routing
+# Manage queues for unified routing
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Introduction
 
-In Omnichannel for Customer Service, queues are used to collect and distribute workload among agents. Workload includes records such as cases, and conversations such as chat or SMS. Agents are added as members to the queues and the workload is distributed among the agents based on assignment methods.
+In Customer Service, queues are used to collect and distribute workload among agents. Workload includes records such as cases, and conversations such as chat or SMS. Agents are added as members to the queues and the workload is distributed among the agents based on assignment methods.
 
 ## How work items are routed to queues
 
-Queues in Omnichannel for Customer Service are proxies for skills or domains. You can create separate queues for each line of business such as billing, investment, and products. When a customer query is raised for any of the areas, it is routed to the corresponding designated queue based on how you define route to queues in the classification. You can also set up a customer support availability matrix by using a combination of queues, operating hour schedules, and routing rules.
+You can create separate queues for each line of business such as billing, investment, and products. When a customer query is raised for any of the areas, it is routed to the corresponding designated queue based on how you define route to queues in the classification. You can also set up a customer support availability matrix by using a combination of queues, operating hour schedules, and routing rules.
 
 In an enterprise scenario, you can have various supervisors handling different issues, and therefore, different types of queues are required to handle the various scenarios. Accordingly, routing rules are set up based on the complexity of issues that need to be handled.
 
@@ -42,13 +42,27 @@ Assign a group number that helps you organize your queues in the list view. The 
 
 ## Create a queue for unified routing
 
-You can create queues for unified routing in Omnichannel admin center, or in the Service Management area in Customer Service Hub.
-
 **To create a queue and set operating hour record for the queue**
 
-1. Do one of the following:
-   - In the Omnichannel admin center site map, under **General settings**, select **Queues**.
-   - In Customer Service Hub, go to the **Service Management** site map, and under **Unified Routing**, select **Advanced queues**.
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   
+    1. In the site map, select **Queues** in **Customer support**.
+    
+    2. On the **Queues** page, select **Manage** for **Advanced queues**.
+    
+   
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+
+    - In the site map, select **Queues** in **General settings**.
+    
+   ### [Customer Service Hub](#tab/customerservicehub)
+
+    - Go to the **Service Management** site map, and select **Advanced queues** in **Unified routing**.
 
 2. On the **Queues** page, do the following:
 
