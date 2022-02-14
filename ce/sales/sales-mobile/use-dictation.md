@@ -1,7 +1,7 @@
 ---
 title: Dictate text in the Dynamics 365 Sales mobile app
 description: Learn how to enter a note's content or a record's description by using dictation in the Dynamics 365 Sales mobile app.
-ms.date: 12/01/2021
+ms.date: 02/14/2022
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
