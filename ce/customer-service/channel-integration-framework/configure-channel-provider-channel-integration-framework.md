@@ -26,7 +26,7 @@ To configure channel providers:
 
 1. Sign in to Dynamics 365.
 
-2. Select the dropdown button on Dynamics 365 and select **Channel Integration Framework**.
+2. Search for and select **Channel Integration Framework**.
 
   ![Dynamics 365 dropdown button to find Channel Integration Framework.](media/cif-app-navigation.png "Dynamics 365 dropdown button to find Channel Integration Framework")
 
