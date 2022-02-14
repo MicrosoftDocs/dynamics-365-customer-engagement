@@ -1,7 +1,7 @@
 ---
-title: "Develop customized IoT solutions in Connected Customer Service | MicrosoftDocs"
-description: "Learn how to create customized IoT solutions in Connected Customer Service for Azure IoT Central."
-ms.date: 04/03/2020
+title: "Create customized IoT solutions in Connected Customer Service | MicrosoftDocs"
+description: "Understand how to create customized IoT solutions in Connected Customer Service for Azure IoT Central."
+ms.date: 02/11/2022
 ms.topic: article
 author: lalexms
 ms.author: lalexms
@@ -41,7 +41,7 @@ Verify you have the Connected Customer Service entities in your environment.
 Next, deploy and connect Azure IoTHub to your Customer Service environment by going to [https://iotdeployment.dynamics.com/](https://iotdeployment.dynamics.com/) and following the instructions.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the IoT deployment app.](./media/cs-iot-deployment-app-screen.png)
+> ![IoT deployment app.](./media/cs-iot-deployment-app-screen.png)
 
   
 ### Set up the sample simulator (optional)  
@@ -54,12 +54,12 @@ Next, deploy and connect Azure IoTHub to your Customer Service environment by go
 3. Enter the IoT hub host name and key. The host is simply the name of the IoT Hub resource in Azure portal. 
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the IoT deployment app.](./media/cs-iot-deployment-app.png)
+> ![configure connection.](./media/cs-iot-deployment-app.png)
 
  The key can be accessed by clicking on the IoT Hub resource and going to the shared access policies, then copying the primary key for **iothubowner** as seen in the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the IoT deployment app.](./media/cs-iot-resource-azure-portal.png)
+> ![access key in iothubowner.](./media/cs-iot-resource-azure-portal.png)
   
 4. Select the IoT hub in the **Resource Group**.  
   
@@ -101,7 +101,7 @@ Next, deploy and connect Azure IoTHub to your Customer Service environment by go
 6. Copy the IP address when you see this message.  
   
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the IoT deployment app.](./media/cs-iot-ip-address.png)  
+> ![IP address.](./media/cs-iot-ip-address.png)  
   
 7. Go to the Azure portal, open the SQL server, and add your IP address to the firewall.  
   
@@ -125,7 +125,6 @@ Next, deploy and connect Azure IoTHub to your Customer Service environment by go
   
 1.  Open the device, alert, or asset form.  
   
-
     > [!IMPORTANT]
     >  The device that is related to any of the open forms must have a device ID and be registered; otherwise, the PowerBI section will be hidden.
 
@@ -152,27 +151,30 @@ Next, deploy and connect Azure IoTHub to your Customer Service environment by go
  You can also manage devices by categorizing them. For example, you can categorize devices by the commands they support, the type of device, or by devices that break down more often.  
   
 ### Create a new IoT device category  
-
-1. Navigate to either on the Customer Service Hub or on Customer Service admin center (preview) app. Depending on your app, perform the following steps:
-
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-
-   > [!IMPORTANT]
-   > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-
-    1. On the Customer Service admin center (preview) site map, select **Operations > Miscellaneous**.
-    1.  In the **Device Categories** section, select **Manage**.
-       
-       The **Active IoT Device Categories** view is displayed. You can switch between various system views using the drop-down list.  
-
-   ### [Customer Service Hub](#tab/customerservicehub)
-
-    1. On the Customer Service Hub site map, go to **Service Management**.
-    1. From the list of entity records, select **IoT > Device Categories**.
-       
-       The **Active IoT Device Categories** view is displayed. You can switch between various system views using the drop-down list.
   
-2.  On the command bar, click **New**.  
+You can create a new IoT device category in the Customer Service Hub or on Customer Service admin center (preview) app.
+
+1. Go to one of the apps, and perform the following steps.
+
+    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+
+    > [!IMPORTANT]
+    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+      1. In the site map, select **Miscellaneous** in **Operations**.
+      1.  In the **Device Categories** section, select **Manage**.
+       
+          The **Active IoT Device Categories** view is displayed. You can switch between various system views using the drop-down list.  
+
+     ### [Customer Service Hub](#tab/customerservicehub)
+
+     1. In the site map, go to **Service Management**.
+     1. From the list of entity records, select **Device Categories** IN **IoT**.
+       
+        The **Active IoT Device Categories** view is displayed. You can switch between various system views using the drop-down list. 
+   
+
+2.  On the command bar, select **New**.  
   
 3.  Enter a **Name** for the device category.  
   

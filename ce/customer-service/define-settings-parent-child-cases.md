@@ -36,9 +36,22 @@ In Dynamics 365 Customer Service, you can track multiple issues for a customer, 
   
 [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)] [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
-## Set parent and child case attributes (Customer Service Hub)
-  
-1. In the Customer Service Hub site map, go to **Service Management** and select **Case Settings** in **Parent Child Case Settings**.  
+## Set parent and child case attributes
+
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+     1. In the site map, select **Case Settings** in **Customer Support**. The **Case Settings** page appears.
+     
+     1. Select **Manage** for **Parent child case settings**.
+
+   ### [Customer Service Hub](#tab/customerservicehub)
+   
+     - In the **Service Management** site map, select **Case Settings** in **Parent Child Case Settings**.  
   
 2. In the **Case Settings** dialog, enter the following details:
 
@@ -57,9 +70,9 @@ In Dynamics 365 Customer Service, you can track multiple issues for a customer, 
       >
       > We recommend that you specify a smaller value for **Maximum number of child cases** to avoid performance issues when cases are resolved or merged.
 
-3. When you’re done, select **Save**.  
+3. Select **Save**.
 
-## Set parent and child case attributes (Customer Service app)
+### Set parent and child case attributes (Customer Service app)
 
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
   

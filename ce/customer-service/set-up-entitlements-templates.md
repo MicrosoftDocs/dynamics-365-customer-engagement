@@ -1,7 +1,7 @@
 ---
 title: Set up entitlements quickly with templates (Dynamics 365 Customer Service) | MicrosoftDocs
 description: "See how to set up entitlements quickly with templates in Dynamics 365 Customer Service"
-ms.date: 10/01/2018
+ms.date: 02/11/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -25,6 +25,8 @@ Quickly create other entitlements prefilled with the basic information like the 
 > With the latest release of Dynamics 365 Customer Service app, entitlement templates in service management are available in the Customer Service Hub. We recommend that you create and manage entitlement templates using the new experience.
 
 ## Create an entitlement template  
+
+You can create an entitlement template in the Customer Service admin center (preview) or Customer Service Hub app. 
   
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
   
@@ -33,8 +35,25 @@ Quickly create other entitlements prefilled with the basic information like the 
    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
-  
-2. In the Customer Service Hub sitemap, go to **Service Management** and select **Templates** > **Entitlement Templates**.
+
+2. Go to one of the apps, and perform the following steps.
+
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+
+   > [!IMPORTANT]
+   > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+    1. In the site map, select **Service terms** in **Operations**. The **Service Terms** page appears.
+    1.  In the **Entitlement Templates** section, select **Manage**.                                                                         
+        
+        The **All Entitlement Templates** view is displayed. You can switch between various system views using the drop-down list.  
+
+   ### [Customer Service Hub](#tab/customerservicehub)
+
+    1. In the site map, go to **Service Management**.
+    1. From the list of entity records, select **Entitlement Templates** in **Templates**.                                                              
+       
+       The **All Entitlement Templates** view is displayed. You can switch between various system views using the drop-down list.
 
     > [!NOTE]
     > In the Customer Service app, [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)] and select **Entitlement Templates**.
