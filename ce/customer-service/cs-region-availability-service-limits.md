@@ -1,15 +1,21 @@
 ---
-title: "Regional availability and service limits for Customer Service | MicrosoftDocs"
-description: "Learn about regional availability and service limits for Customer Service applications."
-ms.date: 10/07/2021
+title: "Regional availability, language availability, and service limits for Customer Service | MicrosoftDocs"
+description: "Learn about regional availability, languages supported, and service limits for Customer Service applications."
+ms.date: 02/14/2022
 ms.topic: article
-author: neeranelli
-ms.author: nenellim
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
 # Regional availability of insights in Customer Service
+
+The following features are available in all geographic locations that Omnichannel for Customer Service (voice channel) supports:
+- Call transcription
+- Call insights
+
+Geographic support for real-time message translation is dependent on your translator service.
 
 The following table lists the regional availability of Customer Service Insights features.
 
@@ -26,6 +32,33 @@ The following table lists the regional availability of Customer Service Insights
 
 ✔ : Available  
 ✖ : Not available
+
+## Language availability in Dynamics 365 Customer Service Insights
+
+## Language availability
+
+The following features support all languages that the product supports.
+- Sentiment prediction-based routing
+- Sentiment analysis
+- Call transcription
+- Call insights
+
+Language availability for real-time message translation is dependent on your translator service provider.
+
+The following table lists the language availability of other Customer Service Insights features.
+
+| Feature name | Feature administration documentation | Language support | English | Arabic | Dutch | French | German | Italian | Japanese | Portuguese | Simplified Chinese | Spanish |
+| ------- | ----- | ------- | -------- | ----- | ------- | ------- | ----- |---- | ------ | ------ | -------- | ------ | 
+| Intelligent skill finder for Unified Routing | [Set up intelligent skill finder model](set-up-skill-based-routing.md#set-up-intelligent-skill-finder-model) | Six AI Builder custom category classification model-supported languages: English, French, German, Italian, Spanish, Portuguese. More information: [Before you build a category classification model - AI Builder](/ai-builder/before-you-build-text-classification-model). | ✔ | ✖ | ✖ | ✖ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
+| Effort estimation model for routing | [Use effort estimation model in unified routing](use-effort-estimation-for-routing.md) | English, Arabic, Danish, Dutch, French, German, Italian, Japanese, Spanish | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
+| AI suggestions for cases and knowledge articles | [Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md) | English, Dutch, German, French, Italian, Japanese, Spanish | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
+| AI suggestions for contacts in Microsoft Teams | [Configure AI suggestions for contacts in Microsoft Teams](configure-teams-collaboration) | English, Dutch, German, French, Italian, Japanese, Spanish | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
+| AI topic discovery | [Configure AI topic clustering for conversations](ai-topic-clustering-conversations) | English, German, French, Italian, Japanese, Portugese, Simplified Chinese, Spanish | ✔ | ✖ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✔ |
+| AI suggestions for article keywords and description | [Configure AI suggestions for article keywords and description](configure-ai-suggested-article-keywords-description) | English, Dutch, German, French, Italian, Japanese, Spanish | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
+
+✔ : Available  
+✖ : Not available
+
 
 ## Service limits in Dynamics 365 Customer Service Insights
 
