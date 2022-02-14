@@ -1,7 +1,7 @@
 ---
 title: "Configure Microsoft Teams chats in Customer Service | Microsoft Docs"
 description: "Learn how to configure Microsoft Teams chat functionality in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
-ms.date: 01/31/2022
+ms.date: 02/11/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -32,7 +32,7 @@ ms.custom:
 
 ## Introduction
 
-You can configure the ability for agents to chat in Microsoft Teams from within Dynamics 365 Customer Service Hub, Dynamics 365 Customer Service workspace, and your custom apps. Teams chat is also available in other customer engagement apps such as Dynamics 365 Field Service and Dynamics 365 Sales.
+You can configure the ability for agents to chat in Microsoft Teams from within Customer Service admin center (preview), Customer Service Hub, Customer Service workspace, and your custom apps. Teams chat is also available in other customer engagement apps such as Dynamics 365 Field Service and Dynamics 365 Sales.
 
 > [!NOTE]
 > Teams settings apply across all supported customer engagement apps. Whether you enable the feature from Customer Service Hub or a custom app, it'll be enabled for all supported customer engagement apps.
@@ -85,18 +85,33 @@ The following data security and privacy considerations apply for Teams chat func
 
 7. Save and publish the changes.
 
-### Access the Teams settings in Customer Service Hub
+### Access the Teams settings
 
-1. In the Customer Service Hub app, select **Change area** in the lower-left corner, and then select **Service Management**.
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+     
+     1. In the site map, select **Productivity** in **Agent experience**.
+     2. On the **Productivity** page, select **Manage** for **Microsoft Teams integration**.
 
-2. Under **Microsoft Teams Integration**, select **Collaboration**.
-
-3. Toggle **Turn on Microsoft Teams chats inside Dynamics 365 (preview)** and **Use record title as the default chat name for linked chats** to **Yes**.
-
-   > [!div class="mx-imgBorder"] 
-   > ![Enable the Microsoft Teams chat experience in Dynamics 365 Customer Service.](media/teams-chat-enable-cs.png "Enable the Microsoft Teams chat experience")
+   ### [Customer Service Hub](#tab/customerservicehub)
     
-4. Save the changes.<br>
+    1. Go to **Service Management**, and in the site map, select **Service Management**.
+    2. In **Microsoft Teams Integration**, select **Collaboration**.
+
+2. On the **Microsoft Teams collaboration and chat** page, turn on the toggle for the following settings:
+
+   - **Turn on Microsoft Teams chats inside Dynamics 365 (preview)** 
+   - **Use record title as the default chat name for linked chats**.
+
+      > [!div class="mx-imgBorder"] 
+      > ![Enable the Microsoft Teams chat experience in Dynamics 365 Customer Service.](media/teams-chat-enable-cs.png "Enable the Microsoft Teams chat experience")
+    
+3. Save the changes.
+   
    The preview is now enabled for the Dynamics 365 Customer Service Hub, Customer Service workspace, and your custom apps (and also Field Service and Sales customer engagement apps, if you're using them). You can open a record and verify if you’re able to view the chats and channels related to the record.
     
 
@@ -107,6 +122,7 @@ If you're using the default profile, once you complete the steps in [Add the Tea
 If you want Teams chat to work for specific users, you must enable the feature for your custom profile. For more information about creating custom profiles in App profile manager, see [Overview of App profile manager](/dynamics365/app-profile-manager/overview).
 
 To enable Teams chat settings for a custom multisession user, complete the following steps:
+
 1. Create the custom profile from the default profile in App profile manager. More info: [Create an app profile](/dynamics365/app-profile-manager/app-profile-manager#create-an-app-profile)
 
 2. Go to [Power Apps](https://make.powerapps.com/), and then under **Environments**, select your environment.
@@ -145,17 +161,18 @@ Once you’ve enabled Teams chats, you can link the chats to different record ty
 
 **To add a record type to link chats to in Dynamics 365 records**
 
-1.	In Customer Service Hub, open the **Microsoft Teams collaboration and chat settings** page.
+1.	In Customer Service admin center (preview) or Customer Service Hub, open the **Microsoft Teams collaboration and chat settings** page.
 	
-2.	Under **Link chats to Dynamics 365 records**, select **Add record types**.
+2.	In **Link chats to Dynamics 365 records**, select **Add record types**.
 	
 3.	In the **Link chat to record type** pane, in **Choose record type**, type the name of the record type you want to use.
 	
 4.	(Optional): If you want to display content for new linked chats, toggle **Introduction message** to **Yes**, and then use the existing views functionality to define the fields that will represent context card or [create a custom view in Power Apps](/powerapps/maker/model-driven-apps/create-edit-views). You can choose up to five fields you want to include as a context card. 
-            
+
 5.	Select **Save**.
 
 For any view that's selected, keep in mind the following details:
+
  - The first five fields of any view are used as the context card details (in addition to a link to the record).
  - If a field isn't supported, it's skipped and the display will include the first four fields that are supported. You'll be able to see from the configuration experience that the specific field isn't supported.
  
