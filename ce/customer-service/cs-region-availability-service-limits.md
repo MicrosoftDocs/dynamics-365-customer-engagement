@@ -35,9 +35,8 @@ The following table lists the regional availability of Customer Service Insights
 
 ## Language availability in Dynamics 365 Customer Service Insights
 
-## Language availability
-
 The following features support all languages that the product supports.
+
 - Sentiment prediction-based routing
 - Sentiment analysis
 - Call transcription
@@ -52,9 +51,9 @@ The following table lists the language availability of other Customer Service In
 | Intelligent skill finder for Unified Routing | [Set up intelligent skill finder model](set-up-skill-based-routing.md#set-up-intelligent-skill-finder-model) | Six AI Builder custom category classification model-supported languages: English, French, German, Italian, Spanish, Portuguese. More information: [Before you build a category classification model - AI Builder](/ai-builder/before-you-build-text-classification-model). | ✔ | ✖ | ✖ | ✖ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
 | Effort estimation model for routing | [Use effort estimation model in unified routing](use-effort-estimation-for-routing.md) | English, Arabic, Danish, Dutch, French, German, Italian, Japanese, Spanish | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
 | AI suggestions for cases and knowledge articles | [Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md) | English, Dutch, German, French, Italian, Japanese, Spanish | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
-| AI suggestions for contacts in Microsoft Teams | [Configure AI suggestions for contacts in Microsoft Teams](configure-teams-collaboration) | English, Dutch, German, French, Italian, Japanese, Spanish | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
-| AI topic discovery | [Configure AI topic clustering for conversations](ai-topic-clustering-conversations) | English, German, French, Italian, Japanese, Portugese, Simplified Chinese, Spanish | ✔ | ✖ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✔ |
-| AI suggestions for article keywords and description | [Configure AI suggestions for article keywords and description](configure-ai-suggested-article-keywords-description) | English, Dutch, German, French, Italian, Japanese, Spanish | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
+| AI suggestions for contacts in Microsoft Teams | [Configure AI suggestions for contacts in Microsoft Teams](configure-teams-collaboration.md) | English, Dutch, German, French, Italian, Japanese, Spanish | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
+| AI topic discovery | [Configure AI topic clustering for conversations](ai-topic-clustering-conversations.md) | English, German, French, Italian, Japanese, Portugese, Simplified Chinese, Spanish | ✔ | ✖ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✔ |
+| AI suggestions for article keywords and description | [Configure AI suggestions for article keywords and description](configure-ai-suggested-article-keywords-description.md) | English, Dutch, German, French, Italian, Japanese, Spanish | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
 
 ✔ : Available  
 ✖ : Not available
