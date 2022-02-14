@@ -1,7 +1,7 @@
 ---
 title: "Barcode scanning and global search on the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
 description: Learn about barcode scanning and global search in the Field Service (Dynamics 365) mobile app.
-ms.date: 04/21/2021
+ms.date: 02/14/2022
 ms.reviewer: krbjoran
 ms.topic: article
 ms.service: dynamics-365-field-service
@@ -26,8 +26,10 @@ By scanning barcodes, technicians can:
 1. Enter a field with the barcode value to facilitate data entry
 2. Search the database for records that match the barcode for easy lookup.
 
+
+
 > [!div class="mx-imgBorder"]
-> ![Four mobile devices in different stages of the barcode scan process.](./media/mobile-2020-global-search-use.png)
+> ![Four mobile devices in different stages of the barcode scan process.](./media/mobile-scan-barcode-new.png)
 
 ## Step 1: Add a barcode field to the form
 
@@ -104,7 +106,7 @@ To enable a new Bar Code field for search within a Table:
 
 
 > [!div class="mx-imgBorder"]
-> ![Quick find dialogue in Power Apps, for customer asset record types.](./media/mobile-2020-barcode-customer-asset-quick-find.png)
+> ![Quick find dialogue in Power Apps, for customer asset record types.](./media/AddBarcode-to-QuickFind.png)
 
 ## Step 4: Test search by barcode
 
@@ -117,7 +119,7 @@ To enable a new Bar Code field for search within a Table:
 4. Scan the barcode, and the system will search for records with a matching barcode. 
 
 > [!div class="mx-imgBorder"]
-> ![Four mobile devices in different stages of the barcode scan process.](./media/mobile-2020-global-search-use.png)
+> ![Four mobile devices in different stages of the barcode scan process.](./media/mobile-scan-barcode-new.png)
 
 > [!Note]
 > If you are using offline first the record will need to be included in your offline profile and downloaded to the device to display in search results. 
