@@ -24,8 +24,10 @@ manager: kvivek
   
  In claims-based authentication, an identity provider that contains a security token service (STS) responds to authentication requests and issues SAML security tokens that include any number of claims about a user, such as a user name and groups the user belongs to. A relying party application receives the SAML token and uses the claims inside to decide whether to grant the client access to the requested resource. Claims-based authentication can be used to authenticate your organization's internal users, external users, and users from partner organizations.  
   
- This content provides the steps needed to configure [!INCLUDE[pn_Internet_facing_deployment](../includes/pn-internet-facing-deployment.md)] using claims-based authentication.  
-  
+This content provides the steps needed to configure [!INCLUDE[pn_Internet_facing_deployment](../includes/pn-internet-facing-deployment.md)] using claims-based authentication.  
+ 
+Note: For on-premise environments, it is not possible to use internal CRM URL with the legacy app designer / sitemap designer when IFD is enabled. It is expected to see an error as this is a design limitation.
+
 ### See also
 [Implement claims-based authentication: internal access](implement-claims-based-authentication-internal-access.md) <br />
 [Implement claims-based authentication: external access](implement-claims-based-authentication-external-access.md)
