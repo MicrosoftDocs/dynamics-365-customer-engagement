@@ -411,6 +411,8 @@
       href: configure-who-knows-whom.md
     - name: Add relationship intelligence widgets to custom forms
       href: add-ri-widgets-to-custom-form.md
+    - name: Provide consent to collect Office data
+    - href: provide-consent-office365.md
   - name: Conversation intelligence
     items:
     - name: Prerequisites to use Conversation Intelligence
