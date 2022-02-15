@@ -1,7 +1,7 @@
 ---
 title: "Timer control for SLA-enabled entities | Microsoft Docs"
 description: "Learn how to add timer control in the case form to track time against an SLA in Dynamics 365 Customer Service."
-ms.date: 10/05/2021
+ms.date: 02/15/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -65,6 +65,22 @@ You can configure the negative countdown property for the SLA timer so that the 
    :::image type="content" source="media/sla-negative-countdown.png" alt-text="Configure negative countdown in SLA timer.":::
 
 2. Save and publish the solution.
+
+### Customize the SLA timer control display text
+After you have added the SLA timer control for an SLA-enabled entity, you can use the maker experience to customize the values to display when SLAs succeed or expire.
+
+1. After you add the SLA Timer control, in the SLA Timer area, select **Edit** for **Customized Labels**.
+1. In the **Configure Property Customized Label** dialog, enter the values for the following fields:
+ - Select the **Bind to a static value** radio button.
+     - Select a value from the  dropdown list.
+     - Enter a language code. For the language code, refer to Settings -> Advanced Settings -> Administration -> Languages.
+   - Select the **Bind to a value on a field** radio button.
+     - Select a value from the dropdown. The status code for which it will work are:
+        1- Noncomplaint
+        3- Paused
+        4- Succeeded
+        5- Canceled
+1. Select **OK**.
 
 ## Add an out-of-the-box timer control to the Case form
 
