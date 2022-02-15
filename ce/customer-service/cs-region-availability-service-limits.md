@@ -1,5 +1,5 @@
 ---
-title: "Regional availability, language availability, and service limits for Customer Service | MicrosoftDocs"
+title: "Regional availability, language availability, and service limits for Customer Service Insights | MicrosoftDocs"
 description: "Learn about regional availability, languages supported, and service limits for Customer Service applications."
 ms.date: 02/14/2022
 ms.topic: article
@@ -11,7 +11,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Regional availability, lanugage availability, and service limits for insights in Customer Service
 
-Depending on your location, certain features and service limits may apply for insights in Dynamics 365 Customer Service.
+Depending on your location, certain features are available for insights in Dynamics 365 Customer Service. Service limits also apply.
 
 ## Regional availability of insights in Customer Service 
 
@@ -40,7 +40,7 @@ The following table lists the regional availability of Customer Service Insights
 ✔ : Available  
 ✖ : Not available
 
-## Language availability for AI features in insights for Customer Service
+## Language availability for AI features in Customer Service Insights
 
 The following features support all languages that the product supports.
 
@@ -93,3 +93,7 @@ For information on the service protection limits for AI suggestions, see [Enable
 ## Microsoft Power Platform capacity impact
 
 Enabling the insights feature will impact Dataverse entitlements. For more information, see [New Microsoft Dataverse storage capacity](/power-platform/admin/capacity-storage)
+
+### See also
+
+[Introduction to Customer Service Insights](introduction-customer-service-analytics.md)  
