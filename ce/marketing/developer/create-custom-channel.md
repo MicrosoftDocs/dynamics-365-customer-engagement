@@ -2,7 +2,7 @@
 title: "Create a custom channel for customer journey (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Learn how to create a custom channel to use in Dynamics 365 Marketing customer journeys."
 ms.date: 02/09/2022
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: how-to

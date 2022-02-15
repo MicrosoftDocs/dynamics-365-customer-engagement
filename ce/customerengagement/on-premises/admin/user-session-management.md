@@ -4,7 +4,7 @@ description: "Manage user access and sessions, such as when a session times out,
 ms.custom: 
 ms.date: 01/07/2021
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

@@ -6,7 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 ms.date: 12/28/2021
 ms.topic: article
-ms.service: dynamics-365-customerservice
+
 ---
 
 # FAQs about the voice channel in Omnichannel for Customer Service

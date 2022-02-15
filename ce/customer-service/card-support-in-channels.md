@@ -6,7 +6,7 @@ ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.service: dynamics-365-customerservice
+
 ms.reviewer: nenellim
 ---
 

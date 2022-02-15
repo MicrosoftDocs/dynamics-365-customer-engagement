@@ -4,7 +4,7 @@ description: How to work on your mobile device in offline mode with the Dynamics
 ms.custom: 
 ms.date: 12/10/2021
 ms.reviewer: kvivek
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

@@ -4,7 +4,7 @@ description: "Follow these steps to enable grid editing using the Editable Grid 
 ms.custom: 
 ms.date: 04/10/2020
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

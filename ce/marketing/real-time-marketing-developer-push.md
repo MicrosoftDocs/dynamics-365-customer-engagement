@@ -2,7 +2,7 @@
 title: "Push notification setup for application developers (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn developer settings for push notifications for real-time marketing journeys in Dynamics 365 Marketing."
 ms.date: 08/02/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

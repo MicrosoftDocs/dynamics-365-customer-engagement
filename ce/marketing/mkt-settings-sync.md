@@ -2,7 +2,7 @@
 title: "Dataset configuration (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Choose which entities to make available for use in dynamic email content, segmentation criteria, and lead scoring in Dynamics 365 Marketing."
 ms.date: 02/27/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

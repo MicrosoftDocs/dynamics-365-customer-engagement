@@ -4,7 +4,7 @@ description: "Tailor the Quick Find functionality by selecting record return lim
 ms.custom: 
 ms.date: 02/14/2022
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)

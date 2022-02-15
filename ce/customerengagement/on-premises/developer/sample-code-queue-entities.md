@@ -4,7 +4,7 @@ description: "The sample code examples demonstrate how to use the queue entities
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: sample
