@@ -1,6 +1,6 @@
 ---
-title: "Regional availability, language availability, and service limits for Customer Service Insights | MicrosoftDocs"
-description: "Learn about regional availability, languages supported, and service limits for Customer Service applications."
+title: "Regional availability, language availability, and service limits for Dynamics 365 Customer Service Insights | MicrosoftDocs"
+description: "Learn about regional availability, languages supported, and service limits for Customer Service Insights."
 ms.date: 02/14/2022
 ms.topic: article
 author: lalexms
@@ -9,11 +9,11 @@ manager: shujoshi
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
-# Regional availability, lanugage availability, and service limits for insights in Customer Service
+# Regional availability, lanugage availability, and service limits for Customer Service Insights
 
-Depending on your location, certain features are available for insights in Dynamics 365 Customer Service. Service limits also apply.
+Depending on your location, certain features are available for in Dynamics 365 Customer Service Insights. Service limits also apply.
 
-## Regional availability of insights in Customer Service 
+## Regional availability of Customer Service Insights
 
 The following features are available in all geographic locations that Omnichannel for Customer Service (voice channel) supports:
 - Call transcription
@@ -66,7 +66,7 @@ The following table lists the language availability of other Customer Service in
 ✖ : Not available
 
 
-## Service limits in Dynamics 365 Customer Service Insights
+## Service limits in Customer Service Insights
 
 Customer Service Insights service has built-in limits that are designed to ensure reliability and stability of the service. Any requests for changes can be made through the Ideas forum.
 
