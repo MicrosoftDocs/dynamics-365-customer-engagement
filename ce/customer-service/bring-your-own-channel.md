@@ -1,5 +1,5 @@
 ---
-title: "Bring your custom messaging channel: Direct Line Bot | MicrosoftDocs"
+title: "Bring your custom messaging channel: Direct Line bot | MicrosoftDocs"
 description: "This topic provides information on how you can integrate custom messaging channels using Direct Line API 3.0."
 ms.date: 11/24/2021
 ms.topic: reference
@@ -409,8 +409,7 @@ This page briefly explained how a channel is connected to the Microsoft Direct L
 
 [Configure custom messaging channel](configure-custom-channel.md)
 [Sample code: Bring your own channel](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/bring-your-own-channel)  
-  
-[Key concepts in Direct Line API 3.0](/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-concepts?view=azure-bot-service-4.0&preserve-view=true)   
+[Key concepts in Direct Line API 3.0](/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-concepts?view=azure-bot-service-4.0&preserve-view=true)  
 [MessageBird API reference](https://developers.messagebird.com/api)  
 [Support for live chat and asynchronous channels](card-support-in-channels.md)  
 [Markdown formats](markdown-formats-dev.md)  

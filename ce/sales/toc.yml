@@ -178,6 +178,8 @@
     items:
     - name: Define lead qualification experience
       href: define-lead-qualification-experience.md
+    - name: Enable duplicate lead detection 
+      href: enable-duplicate-lead-detection.md   
     - name: Integrate LinkedIn Sales Navigator solutions
       href: /dynamics365/linkedin/integrate-sales-navigator?context=/dynamics365/context/sales-context
     - name: Configure predictive lead scoring
@@ -391,6 +393,8 @@
         href: edit-insight-cards.md
       - name: Optimize ranking of insight cards
         href: optimize-ranking-insight-cards.md
+      - name: Add the assistant widget to custom forms
+        href: add-assistant-widget-custom-forms.md  
     - name: Playbook management
       items:
       - name: Define playbook categories
@@ -405,6 +409,8 @@
       href: configure-talking-points.md
     - name: Configure who knows whom
       href: configure-who-knows-whom.md
+    - name: Add relationship intelligence widgets to custom forms
+      href: add-ri-widgets-to-custom-form.md
   - name: Conversation intelligence
     items:
     - name: Prerequisites to use Conversation Intelligence
@@ -540,6 +546,8 @@
     items:
     - name: Create or edit leads
       href: create-edit-lead-sales.md
+    - name: Manage duplicate leads
+      href: manage-duplicate-leads.md  
     - name: Prioritize leads using predictive scores
       href: work-predictive-lead-scoring.md
     - name: Qualify or convert leads
@@ -989,8 +997,6 @@
   - name: GDPR for sales premium
     href: embedded-intelligence-gdpr.md
     items:
-    - name: Opt out of relationship analytics (GDPR)
-      href: optout-relationship-analytics-gdpr.md
     - name: View and export KPI data (GDPR)
       href: view-export-KPI-data-gdpr.md
     - name: Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action
