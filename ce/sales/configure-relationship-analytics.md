@@ -1,7 +1,7 @@
 ---
 title: "Configure Relationship analytics and health"
 description: "Configure relationship analytics and health to provide graphical representation of KPIs and activity histories to the sellers."
-ms.date: 02/08/2022
+ms.date: 02/15/2022
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -40,17 +40,7 @@ Relationship analytics provides a graphical representation of KPIs and activity 
     > [!div class="mx-imgBorder"]
     > ![Enable the relationship assistant for your organization](media/si-admin-relationship-analytics-enable-in-organization.png "Enable the relationship assistant for organization")  
     
-    The application takes few seconds to enable relationship analytics for your organization. After relationship analytics is enabled, you can configure the parameters as required.    
-
-    <a name="configure-similar-opportunities-preview"></a>By default, the data sources and view similar opportunities options are enabled. You can view the **Relationship analytics with modern design and similar opportunities** section for more information.    
-    The enhanced experience is available by default for contacts, opportunities, leads, and accounts. Users in your organization can see an improved relationship analytics tab for opportunities. The tab displays customer interaction KPIs along with suggestions calculated from similar won opportunities through AI-driven models.  
-
-    > [!div class="mx-imgBorder"]
-    > ![Enable to view similar opportunities](media/relationship-analytics-enable-preview-similar-opportunities.png "Enable to view similar opportunities") 
-    
-    > [!NOTE]
-    > - You must have at least 30 won and 30 lost opportunities to compare with existing opportunities.
-    > - To understand how users use this feature, see [View similar opportunities](relationship-analytics.md#relationship-analytics-with-similar-opportunities).   
+    The application takes few seconds to enable relationship analytics for your organization. After relationship analytics is enabled, you can configure the parameters as required.  
     
 6. To show the relationship health score in opportunities, views, and charts, set the toggle to **On**.    
 
@@ -89,9 +79,9 @@ Relationship analytics provides a graphical representation of KPIs and activity 
 
     Relationship analytics is ready to use in your organization.   
 
-## Allow to collect information from Exchange server 
+## Provide consent for collecting data from Office 365  
 
-Enable the **Dynamics 365 Sales Insights – Analytics** option in the admin center to collect valuable information about your employees communications&mdash;such as emails and meetings&mdash;from the Exchange server. This data is used for providing relationship insights to your salespeople and sales managers. When you enable, the **Exchange Data** option on the relationship analytics configuration page is automatically selected. 
+To calculate the relationship KPIs and health score, Dynamics 365 needs to collect data—such as emails and meetings—from the Exchange server in Office 365. Work with your Office 365 administrator and provide the level of access and consent you would need for the relationship intelligence features that you plan to use.  
 
 Follow these steps:    
 1. Go to the **Microsoft 365 admin center**.    
