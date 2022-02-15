@@ -133,7 +133,6 @@
         ]
       },
       "ms.service": {
-        "admin/**.*": "dynamics-365-cross-app",
         "mobile-app/**.*": "dynamics-365-cross-app",
         "outlook-addin/**.*": "dynamics-365-cross-app",
         "outlook-app/**.*": "dynamics-365-cross-app",
@@ -150,6 +149,7 @@
         "teams-integration/**.*": "teams-integration"
       },
       "ms.prod": {
+        "admin/**.*": "d365ce-op",
         "customerengagement/**.*": "d365ce-op"
       },
       "ms.subservice": {
