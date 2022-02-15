@@ -1,16 +1,15 @@
 ---
 title: "Export and import app configuration data | MicrosoftDocs"
 description: "Learn to export and import app configuration data from source to target environments in Omnichannel Administration and Omnichannel admin center apps."
-ms.date: 01/24/2022
+ms.date: 02/15/2022
 ms.topic: article
-author: neeranelli    
+author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.reviewer: nenellim
 ---
 
 # Export and import app configuration data
-
 
 
 After you have used Omnichannel for Customer Service in a test environment, you can export your app configuration data to a live production environment. Follow the process outlined in this topic to export and then import the app data into your new target environment. That way, you can keep all of the queues, routing rules, workstreams, and other custom settings that you set up earlier.
@@ -20,9 +19,9 @@ While you can use the configuration migration tool to export and import entity d
 > [!IMPORTANT]
 >
 > - To export and import record type of channel across environments, contact [Microsoft Support](https://dynamics.microsoft.com/support/).
-> - Org lifecycle operations, such as copy and restore of org, are not supported.
-> - We recommend that you to not export the msdyn_analytics entity. The entity contains org-specific configuration data for intraday insights in Omnichannel for Customer Service; exporting the entity might lead to an incorrect configuration of your intraday insights data.
-> - The processes outlined in this topic pertain to export and import of data, and not users. To export and import **users**, you must add them to the target environment after you've imported the configuration data.
+> - Environment lifecycle operations, such as copy and restore of environment, are not supported.
+> - We recommend that you don't export the msdyn_analytics entity. The entity contains org-specific configuration data for intraday insights in Omnichannel for Customer Service; exporting the entity might lead to an incorrect configuration of your intraday insights data.
+> - The processes outlined in this topic pertain to export and import of data, and not users. To export and import users, you must add them to the target environment after you've imported the configuration data.
 
 
 ## Export app configuration data
