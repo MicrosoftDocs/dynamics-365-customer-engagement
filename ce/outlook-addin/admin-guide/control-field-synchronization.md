@@ -3,7 +3,7 @@ title: "Control field synchronization between Dynamics 365 apps and Dynamics 365
 ms.custom: 
 ms.date: 11/28/2016
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

@@ -4,7 +4,7 @@ description: "This sample demonstrates how to create and manage contracts"
 ms.custom: 
 ms.date: 01/02/2020
 ms.reviewer: 
-ms.service:
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: sample

@@ -6,7 +6,7 @@ ms.author: v-jmh
 manager: shujoshi
 ms.date: 06/21/2021
 ms.topic: article
-ms.service: dynamics-365-customerservice
+
 ---
 
 # Route records automatically using custom flow

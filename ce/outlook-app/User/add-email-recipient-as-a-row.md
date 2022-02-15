@@ -4,7 +4,7 @@ ms.custom:
 description: Add an email recipient as a contact, lead, or account using Dynamics 365 app for Outlook.
 ms.date: 05/20/2021
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

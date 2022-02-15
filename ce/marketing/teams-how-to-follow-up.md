@@ -2,7 +2,7 @@
 title: "How to follow up with participants using Microsoft Teams and Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to follow up with Microsoft Teams webinar participants using Dynamics 365 Marketing."
 ms.date: 01/19/2022
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

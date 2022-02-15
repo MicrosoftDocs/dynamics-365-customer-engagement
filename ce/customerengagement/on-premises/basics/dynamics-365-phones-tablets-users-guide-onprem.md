@@ -4,7 +4,7 @@ description: "Learn how to use Dynamics 365 for phones and tablets to run Custom
 ms.custom: 
 ms.date: 1/14/2021
 ms.reviewer: kvivek
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

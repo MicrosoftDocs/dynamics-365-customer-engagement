@@ -3,7 +3,7 @@ title: "Create an app with the app designer in Dynamics 365 Customer Engagement 
 description: "Follow these steps to create single- or multiple-entity apps by using the tile-based app designer. Create it once and run your app on large screen devices."
 keywords: 
 ms.date: 06/20/2019
-ms.prod: d365ce-op
+
 ms.custom: 
 ms.topic: article
 applies_to: 

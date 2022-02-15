@@ -3,7 +3,7 @@ title: "Sample: Create, retrieve, update, and delete a SharePoint location recor
 description: ""
 keywords: 
 ms.date: 10/31/2017
-ms.prod: d365ce-op
+
 ms.custom: 
 ms.topic: samples
 applies_to: 

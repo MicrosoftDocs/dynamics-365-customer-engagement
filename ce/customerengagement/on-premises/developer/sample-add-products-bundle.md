@@ -4,7 +4,7 @@ description: "Sample demonstrates how to add products to a product bundle."
 ms.custom: 
 ms.date: 01/02/2020
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: sample

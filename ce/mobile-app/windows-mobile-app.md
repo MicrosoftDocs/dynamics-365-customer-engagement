@@ -4,7 +4,7 @@ ms.custom:
 description: How to use the Dynamics 365 (Preview) app for Windows
 ms.date: 01/29/2021
 ms.reviewer: kvivek
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

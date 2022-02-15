@@ -6,7 +6,7 @@ manager: shellyha
 ms.reviewer: krbjoran
 ms.date: 06/08/2018
 ms.topic: article
-ms.service: dynamics-365-field-service
+
 ms.subservice: resource-scheduling-optimization
 ms.author: daclar
 search.app: 

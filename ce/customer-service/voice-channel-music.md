@@ -6,7 +6,7 @@ ms.author: v-jmh
 manager: shujoshi
 ms.date: 12/10/2021
 ms.topic: article
-ms.service: dynamics-365-customerservice
+
 ms.custom: intro-internal
 ---
 

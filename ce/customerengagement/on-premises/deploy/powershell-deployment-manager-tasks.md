@@ -3,7 +3,7 @@ title: "Using Windows PowerShell to perform Deployment Manager tasks | Microsoft
 description: Learn how to get started to use the PowerShell commands for Dynamics 365 Customer Engagement (on-premises)
 ms.custom: 
 ms.date: 10/01/2018
-ms.prod: d365ce-op
+
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
