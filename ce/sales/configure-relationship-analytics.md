@@ -10,10 +10,7 @@ manager: shujoshi
 ---
 # Configure relationship analytics and health 
 
-Relationship analytics provides a graphical representation of KPIs and activity histories of any contact, opportunity, lead, or account. It uses data from Dynamics 365 and Exchange Online (if configured) to create more accurate and complete relationship information. To configure the feature, perform the following tasks:
-
-1. [Enable relationship analytics and health](#enable-relationship-analytics-and-health)
-1. [Allow to collect information from Exchange server](#allow-to-collect-information-from-exchange-server) 
+Relationship analytics provides a graphical representation of KPIs and activity histories of any contact, opportunity, lead, or account. It uses data from Dynamics 365 and Exchange Online (if configured) to create more accurate and complete relationship information.
 
 ## License and role requirements
 
@@ -35,12 +32,15 @@ Relationship analytics provides a graphical representation of KPIs and activity 
     > [!NOTE]
     > If you don't see the **Analytics and health** menu, verify whether the advanced Sales Insights features are enabled. To learn more, see [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features). 
     
-4. Select the toggle to enable relationship analytics for your organization and then select **Save**.  
+1. Select the toggle to enable relationship analytics for your organization.
+
+1. Select **Include exchange data for computing KPIs and health** ​to collect data from Exchange Online and improve the accuracy of the calculated KPIs and analytics.
+    > [!NOTE]
+    > This step requires that the Office 365 administrator provides the consent for using Office 365 data. If the consent is not yet provided, a message displays the type of consent required. 
 
     > [!div class="mx-imgBorder"]
     > ![Enable the relationship assistant for your organization](media/si-admin-relationship-analytics-enable-in-organization.png "Enable the relationship assistant for organization")  
-    
-    The application takes few seconds to enable relationship analytics for your organization. After relationship analytics is enabled, you can configure the parameters as required.  
+ 
     
 6. To show the relationship health score in opportunities, views, and charts, set the toggle to **On**.    
 
@@ -77,46 +77,7 @@ Relationship analytics provides a graphical representation of KPIs and activity 
     
 10. Select **Save**.   
 
-    Relationship analytics is ready to use in your organization.   
-
-## Provide consent for collecting data from Office 365  
-
-To calculate the relationship KPIs and health score, Dynamics 365 needs to collect data—such as emails and meetings—from the Exchange server in Office 365. Work with your Office 365 administrator and provide the level of access and consent you would need for the relationship intelligence features that you plan to use.  
-
-Follow these steps:    
-1. Go to the **Microsoft 365 admin center**.    
-    > [!div class="mx-imgBorder"]
-    > ![Admin center](media/sales-insights-addon-admincenter.png "Admin center")   
-    
-2. Select **Settings** > **Org settings** > **Dynamics 365 Applications**.    
-    The consent form is displayed in the right pane.
-    :::image type="content" source="media/office365-consent-form.png" alt-text="Consent form to use office 365 data":::
-
-    > [!IMPORTANT]
-    > If you've already provided consent in the **Dynamics 365 Sales Insights – Analytics** page, the consent will be valid until <month> 2022. After which, you must provide the consent in the new form as shown in the preceding screenshot. 
-    
-3. Read the description carefully and select the insights that you want to enable for your users. 
-
-    > [!NOTE]
-    > The consent provided is applicable for all the Dynamics 365 applications.  
-    
-4. Verify whether the **Exchange Online** option is selected in the relationship analytics settings page. 
-    :::image type="content" source="media/si-admin-relationship-analytics-enable-in-organization.png" alt-text="Screenshot of exchange online selection in relationship analytics page.":::
-    
-    Relationship insights can now connect to the Exchange server to fetch data.
-
-## Consent required for Relationship insights
-
-Depending on the consent provided by the Office 365 administrator, the following relationship insights are available to your users:
-
-
-|Consent  |Insights  |
-|---------|---------|
-|Insights for users     |         |
-|Insights for the org |         |
-|Insights for other users|         |
- 
-
+    Relationship analytics is ready to use in your organization.  
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
