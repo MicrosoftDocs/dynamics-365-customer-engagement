@@ -9,7 +9,11 @@ manager: shujoshi
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
-# Regional availability of insights in Customer Service
+# Regional availability, lanugage availability, and service limits for insights in Customer Service
+
+Depending on your location, certain features and service limits may apply for insights in Dynamics 365 Customer Service.
+
+## Regional availability of insights in Customer Service 
 
 The following features are available in all geographic locations that Omnichannel for Customer Service (voice channel) supports:
 - Call transcription
@@ -19,7 +23,7 @@ Geographic support for real-time message translation is dependent on your transl
 
 The following table lists the regional availability of Customer Service Insights features.
 
-| Feature | North America| Europe | Asia Pacific | South America | Australia |Japan | India | Canada | United Kingdom | France | United Arab Emirates | Switzerland |Germany | South Africa |Korea | Norway
+| Feature | North America| Europe | Asia Pacific | South America | Australia |Japan | India | Canada | United Kingdom | France | United Arab Emirates | Switzerland |Germany | South Africa |Korea | Norway 
 | ------- | ----- | ------- | -------- | ----- | ------- | ------- | ----- |---- | ------ | ------ | -------- | ------ | 
 | Customer Service historical analytics | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ | ✖ |
 | Case Topic Clustering | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ | ✖ |
@@ -28,12 +32,15 @@ The following table lists the regional availability of Customer Service Insights
 | Conversation Topic clustering | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ | ✖ |
 | Sentiment analysis | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ | ✖ |
 | AI suggestions for cases and knowledge articles | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ | ✖ |
-| AI suggestions for article keywords and description | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ | ✖ |
+| Intelligent Skill Finder for Unified Routing | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ | ✖ |
+| Sentiment prediction-based routing | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ | ✖ |
+| Effort estimation model for routing | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ | ✖ |
+| AI suggestions for contacts in Microsoft Teams | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ | ✖ |
 
 ✔ : Available  
 ✖ : Not available
 
-## Language availability in Dynamics 365 Customer Service Insights
+## Language availability for AI features in insights for Customer Service
 
 The following features support all languages that the product supports.
 
@@ -44,16 +51,16 @@ The following features support all languages that the product supports.
 
 Language availability for real-time message translation is dependent on your translator service provider.
 
-The following table lists the language availability of other Customer Service Insights features.
+The following table lists the language availability of other Customer Service insights features.
 
-| Feature name | Feature administration documentation | Language support | English | Arabic | Dutch | French | German | Italian | Japanese | Portuguese | Simplified Chinese | Spanish |
+| Feature name | Feature administration documentation | English | Arabic | Dutch | French | German | Italian | Japanese | Portuguese | Simplified Chinese | Spanish |
 | ------- | ----- | ------- | -------- | ----- | ------- | ------- | ----- |---- | ------ | ------ | -------- | ------ | 
-| Intelligent skill finder for Unified Routing | [Set up intelligent skill finder model](set-up-skill-based-routing.md#set-up-intelligent-skill-finder-model) | Six AI Builder custom category classification model-supported languages: English, French, German, Italian, Spanish, Portuguese. More information: [Before you build a category classification model - AI Builder](/ai-builder/before-you-build-text-classification-model). | ✔ | ✖ | ✖ | ✖ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
-| Effort estimation model for routing | [Use effort estimation model in unified routing](use-effort-estimation-for-routing.md) | English, Arabic, Danish, Dutch, French, German, Italian, Japanese, Spanish | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
-| AI suggestions for cases and knowledge articles | [Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md) | English, Dutch, German, French, Italian, Japanese, Spanish | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
-| AI suggestions for contacts in Microsoft Teams | [Configure AI suggestions for contacts in Microsoft Teams](configure-teams-collaboration.md) | English, Dutch, German, French, Italian, Japanese, Spanish | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
-| AI topic discovery | [Configure AI topic clustering for conversations](ai-topic-clustering-conversations.md) | English, German, French, Italian, Japanese, Portugese, Simplified Chinese, Spanish | ✔ | ✖ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✔ |
-| AI suggestions for article keywords and description | [Configure AI suggestions for article keywords and description](configure-ai-suggested-article-keywords-description.md) | English, Dutch, German, French, Italian, Japanese, Spanish | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
+| Intelligent skill finder for Unified Routing | [Set up intelligent skill finder model](set-up-skill-based-routing.md#set-up-intelligent-skill-finder-model)<br> [Before you build a category classification model - AI Builder](/ai-builder/before-you-build-text-classification-model) | ✔ | ✖ | ✖ | ✖ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
+| Effort estimation model for routing | [Use effort estimation model in unified routing](use-effort-estimation-for-routing.md) | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
+| AI suggestions for cases and knowledge articles | [Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md) | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
+| AI suggestions for contacts in Microsoft Teams | [Configure AI suggestions for contacts in Microsoft Teams](configure-teams-collaboration.md) | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
+| AI topic discovery | [Configure AI topic clustering for conversations](ai-topic-clustering-conversations.md) | ✔ | ✖ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✔ |
+| AI suggestions for article keywords and description | [Configure AI suggestions for article keywords and description](configure-ai-suggested-article-keywords-description.md) |  ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
 
 ✔ : Available  
 ✖ : Not available
