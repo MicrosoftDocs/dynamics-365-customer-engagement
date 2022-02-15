@@ -65,7 +65,7 @@ For outbound calls, set the capacity profile fields as follows:
 >
 > - When you name your capacity profiles, we recommend that you clearly indicate whether they're outbound, inbound, or both, in the capacity **Profile name** field, so it's easy for you to assign users or agents to the appropriate profile.
 > - Though you can use the same capacity profile for both inbound and outbound calling, we recommend that you create separate profiles because the considerations and settings for outbound calling and inbound calling can differ.
-> - If your agents are only assigned to receive customer calls and not assigned to any capacity profile used for outbound calling, calling features will not display to the agent.
+> - If your agents are only assigned to receive customer calls and not assigned to any capacity profile used for outbound calling, calling features will not be displayed to the agent.
 
 ## Create outbound profiles
 

@@ -82,23 +82,22 @@ The following out-of-the-box session templates are of the generic type and are f
 
 ### Associate application tabs, agents scripts with session templates<a name="associate-app-tabs"></a>
  
-**To add application tabs and agent scripts**
+You can associate application tabs that need to open when a session is started. Agents can't close these application tabs. You can also associate agents scripts; however, you must first configure the agent scripts. More information: [Agent scripts](agent-scripts.md)
 
-6. Select **Add Existing Application Tab Template** to add additional application tabs that you want to be opened when a session is started. Agents can't close this application tab. The **Lookup Records** pane appears.
+1. Go to the session template that you want to modify.
 
-7. Type the application tab names in the search box and select the search icon. A list of records appears. Select the application tab and select **Add**. The application tab is added to the session.
+1. In the **Additional Tab** section, Select **Add Existing Application Tab Template**. The **Lookup Records** pane appears.
 
-8. Select the **Agent scripts** tab, and set the **Enable build expression** toggle to **Yes** to define the expression to set an agent script as default for a particular session template.
+1. Type the application tab names in the search box and select the search icon. A list of records appears. Select the application tabs, and then select **Add**. The application tabs are added to the session template.
 
-9.  Build the expression, and then select **Save and close**. To learn more, see [Set default agent script for agents](agent-scripts.md#set-the-default-agent-script-for-agents).
+1. Select the **Agent scripts** tab, and set the **Enable build expression** toggle to **Yes** to define the expression to set an agent script as default for a particular session template.
 
-  > [!Note]
-  > Step 8 and 9 are optional, and applicable only when you've configured agent scripts. To learn more, see [Agent scripts](agent-scripts.md).
+1. Build the expression, and then select **Save and close**. To learn more, see [Set default agent script for agents](agent-scripts.md#set-the-default-agent-script-for-agents).
 
-10. Select **Save**.
+1. Select **Save**.
 
-   > [!div class=mx-imgBorder]
-   > ![Session template.](media/session-template1.png "Session template")
+  > [!div class=mx-imgBorder]
+  > ![Session template.](media/session-template1.png "Session template")
 
 The session template is configured. Now, you must associate the session template with a workstream. To learn more, see [Associate templates with workstreams](associate-templates.md).
 
