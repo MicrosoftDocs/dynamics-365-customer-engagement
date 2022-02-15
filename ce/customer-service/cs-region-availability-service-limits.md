@@ -1,7 +1,7 @@
 ---
 title: "Regional availability, language availability, and service limits for Dynamics 365 Customer Service Insights | MicrosoftDocs"
 description: "Learn about regional availability, languages supported, and service limits for Customer Service Insights."
-ms.date: 02/14/2022
+ms.date: 02/15/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -52,14 +52,14 @@ Language availability for real-time message translation is dependent on your tra
 
 The following table lists the language availability of other Customer Service insights features.
 
-| Feature name | Feature administration documentation | English | Arabic | Dutch | French | German | Italian | Japanese | Portuguese | Simplified Chinese | Spanish |
-| ------- | ----- | ------- | -------- | ----- | ------- | ------- | ----- |---- | ------ | ------ | -------- | ------ | 
-| Intelligent skill finder for Unified Routing | [Set up intelligent skill finder model](set-up-skill-based-routing.md#set-up-intelligent-skill-finder-model)<br> [Before you build a category classification model - AI Builder](/ai-builder/before-you-build-text-classification-model) | ✔ | ✖ | ✖ | ✖ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
-| Effort estimation model for routing | [Use effort estimation model in unified routing](use-effort-estimation-for-routing.md) | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
-| AI suggestions for cases and knowledge articles | [Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md) | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
-| AI suggestions for contacts in Microsoft Teams | [Configure AI suggestions for contacts in Microsoft Teams](configure-teams-collaboration.md) | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
-| AI topic discovery | [Configure AI topic clustering for conversations](ai-topic-clustering-conversations.md) | ✔ | ✖ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✔ |
-| AI suggestions for article keywords and description | [Configure AI suggestions for article keywords and description](configure-ai-suggested-article-keywords-description.md) |  ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
+| Feature name | English | Arabic | Dutch | French | German | Italian | Japanese | Portuguese | Simplified Chinese | Spanish |
+| ------- | ----- | -------- | ----- | ------- | ------- | ----- |---- | ------ | ------ | -------- | ------ | 
+| Intelligent skill finder for Unified Routing | ✔ | ✖ | ✖ | ✖ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
+| Effort estimation model for routing | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
+| AI suggestions for cases and knowledge articles | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
+| AI suggestions for contacts in Microsoft Teams | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
+| AI topic discovery | ✔ | ✖ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✔ |
+| AI suggestions for article keywords and description |  ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
 
 ✔ : Available  
 ✖ : Not available
@@ -79,7 +79,7 @@ The following table lists the built-in limits for the embedded version of insigh
 | Dashboard interaction | No limit | No limits on the number of interactions or drill-throughs within reports. |
 | Topics | At least three related cases | Topics require at least three semantically related cases for the model to generate topics. |
 | Topics refresh | 100k per run | Refresh of topics uses up to 100,000 cases or conversations per run. |
-| Data refresh | Once every 24 hours | Data refresh occurs automatically each day, starting at midnight UTC. The time when the refresh completes isn't guaranteed. For more information, see [Dashboard overview](customer-service-analytics-insights-csh.md). |
+| Data refresh | Once every 24 hours | Data refresh occurs automatically each day, starting at midnight UTC. The time when the refresh completes isn't guaranteed. More information: [Dashboard overview](customer-service-analytics-insights-csh.md). |
 | AI suggestions for active cases | Each user license adds 30 active cases where agents can get AI suggested knowledge articles and similar cases in real time. |
 | AI suggestions for conversations | 150 conversations per month per user license | Each user license adds 150 Omnichannel conversations where agents can get AI suggested knowledge articles and similar cases in real time. |
 
@@ -95,4 +95,12 @@ Enabling the insights feature will impact Dataverse entitlements. For more infor
 
 ### See also
 
-[Introduction to Customer Service Insights](introduction-customer-service-analytics.md)  
+[Introduction to Customer Service Insights](introduction-customer-service-analytics.md)<br>
+[Set up intelligent skill finder model](set-up-skill-based-routing.md#set-up-intelligent-skill-finder-model)<br> 
+[Before you build a category classification model - AI Builder](/ai-builder/before-you-build-text-classification-model)<br>
+[Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)<br>
+[Configure AI suggestions for contacts in Microsoft Teams](configure-teams-collaboration.md)<br>
+[Configure AI topic clustering for conversations](ai-topic-clustering-conversations.md)<br>
+[Configure AI suggestions for article keywords and description](configure-ai-suggested-article-keywords-description.md)
+
+
