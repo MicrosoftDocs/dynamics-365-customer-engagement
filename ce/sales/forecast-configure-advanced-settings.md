@@ -3,13 +3,11 @@ title: "Configure advanced settings for a forecast"
 description: "Configure advanced settings for a forecast in Dynamics 365 Sales."
 ms.date: 11/06/2020
 ms.topic: article
-author: udaykirang
-ms.author: udag
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 ---
 # Configure advanced settings 
-
-
 
 In the **Advanced** step of forecast configuration, you can configure the following:
 
@@ -52,6 +50,34 @@ For example, you have sales teams in the United States and Europe. The US dollar
 As an administrator or forecast manager, turn on the **Multi-currency selection** toggle in the **Advanced** forecast configuration step to allow users to view the forecast data in any currency that has been defined for your organization.  
 > [!div class="mx-imgBorder"]
 > ![Enable multiple-currency selection.](media/forecast-multi-currency-enable.png "Enable multiple-currency selection")
+
+## Set the default experience for underlying records 
+
+The underlying records of a forecast displays the records that contribute to the forecast calculation. These records are displayed in a grid view with no grouping or <what's the default view selected?>. As an administrator or forecast manager, you can define the default experience for each forecast configuration. 
+
+> [!NOTE]
+> The most recent selection of the user overrides the default selection for that user. For example, if the default view for the underlying records is Kanban and a user switches to the grid view, then the underlying records will open in the grid view when they access it next time. 
+
+
+### Set Kanban as default view
+
+The underlying records of a forecast can be displayed in a grid/table view or Kanban view. If you want to set Kanban as the default view for the selected forecast configuration, enable the **Set kanban as default** option in the  **Advanced** step of the forecast configuration.
+ 
+
+<<Add screenshot>> 
+
+
+### Select a default view
+
+You might want users to view the underlying records using a specific view to give the most relevant information about the forecast. You can select such a view as the default view for the forecast configuration.  
+
+Select the default view from the **Default underlying records view** dropdown in the **Advanced** step of the forecast configuration.
+
+### Select the default group by attribute
+
+As an administrator or forecast manager, you can select an attribute for grouping the underlying records by default. Users can change the grouping attribute in their view and that selection will override the default grouping attribute.
+
+Select the attribute from the **Default underlying records group by attribute (Preview)** dropdown in the **Advanced** step of the forecast configuration.
 
 ## Enable prediction factors
 
