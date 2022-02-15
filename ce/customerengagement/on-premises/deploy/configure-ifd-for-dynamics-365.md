@@ -2,7 +2,7 @@
 title: "Configure IFD for Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
 description: Learn how to configure an internet-facing deployment with Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
-ms.date: "10/01/2018"
+ms.date: "02/16/2022"
 ms.prod: d365ce-op
 ms.reviewer: ""
 ms.suite: ""
@@ -26,7 +26,8 @@ manager: kvivek
   
 This content provides the steps needed to configure [!INCLUDE[pn_Internet_facing_deployment](../includes/pn-internet-facing-deployment.md)] using claims-based authentication.  
  
-Note: For on-premise environments, it is not possible to use internal CRM URL with the legacy app designer / sitemap designer when IFD is enabled. It is expected to see an error as this is a design limitation.
+> [!NOTE]
+> When IFD is enabled, you can’t access the app or site map designers using an intranet URL, such as https://crmserver/crmorg/. You must use either a claims-based authentication internal or external URL that has been configured for IFD.
 
 ### See also
 [Implement claims-based authentication: internal access](implement-claims-based-authentication-internal-access.md) <br />
