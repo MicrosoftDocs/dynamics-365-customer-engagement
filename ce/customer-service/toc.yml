@@ -844,7 +844,7 @@
     items: 
     - name: Introduction to Customer Service Insights
       href: introduction-customer-service-analytics.md
-    - name: Regional availability, language availability, and service limits for Customer Service
+    - name: Regional availability, language availability, and service limits in Customer Service Insights
       href: cs-region-availability-service-limits.md
     - name: Administrator experience
       items: 
