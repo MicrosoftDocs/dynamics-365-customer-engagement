@@ -229,7 +229,7 @@ Chat icon doesn't load on the portal. The chat icon URL which was configured as 
 
 ### Resolution
 
-You can use an icon of your choice by specifying the link of the icon in the **Chat widget** configuration page. Perform the steps outlined in [Configure a chat widget](add-chat-widget.md#configure-a-chat-widget-in-omnichannel-admin-center).
+You can use an icon of your choice by specifying the link of the icon in the **Chat widget** configuration page. Perform the steps outlined in [Configure a chat widget](add-chat-widget.md#configure-a-chat-widget).
 
 ## Chat not getting initiated on starting a new chat from portal
 
