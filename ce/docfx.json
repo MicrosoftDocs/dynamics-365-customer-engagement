@@ -134,6 +134,7 @@
       },
       "ms.service": {
         "mobile-app/**.*": "dynamics-365-cross-app",
+        "legal/**.*": "dynamics-365-cross-app",
         "outlook-addin/**.*": "dynamics-365-cross-app",
         "outlook-app/**.*": "dynamics-365-cross-app",
         "app-profile-manager/**.*": "dynamics-365-customerservice",
