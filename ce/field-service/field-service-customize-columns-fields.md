@@ -29,7 +29,6 @@ In this article, we'll discuss how to create, edit, and delete fields for the wo
 > [!Important]
 > Before editing or deleting existing fields, make sure you consider possible system implications. Review the documentation to help avoid potential performance or process disruption.
 
-
 After understanding the existing fields and processes on the work order form, you may need to create additional fields based on your unique business processes.
 
 Go to `https://make.powerapps.com`.
@@ -57,7 +56,7 @@ For example, you can change the field display name of **Service Account** to **C
 Or consider the **System Status** field; you can change choice option labels, like changing the **In Progress** label to **Work Started**. 
 
 > [!div class="mx-imgBorder"]
-> ![Power Apps filed editor showing "WO System Status," with "Unscheduled" selected and editable.](./media/customization-form-field-choice-option-set.png)
+> ![Power Apps field editor showing "WO System Status," with "Unscheduled" selected and editable.](./media/customization-form-field-choice-option-set.png)
 
 Optional fields can be made required, but required fields cannot be made optional.
 
