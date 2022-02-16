@@ -283,7 +283,7 @@ Enable mobile offline for a specific app from MyApps page.
 
 ## Configure mobile offline profiles for images and files
 
-  For information on how to work with file and image columns in offline modeo , see [Configure mobile offline profiles for images and files](/powerapps-docs/mobile/offline-file-images).
+  For information on how to work with file and image columns in offline modeo , see [Configure mobile offline profiles for images and files](/powerapps/mobile/offline-file-images).
   
 ## Mobile offline capabilities and limitations
 
