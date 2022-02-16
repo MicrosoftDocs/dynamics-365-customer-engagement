@@ -2,7 +2,7 @@
 title: "Real-time marketing asset library (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to use the real-time marketing asset library in Dynamics 365 Marketing."
 ms.date: 12/16/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

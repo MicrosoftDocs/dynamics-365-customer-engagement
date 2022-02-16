@@ -3,7 +3,7 @@ title: "Configure Azure Cosmos DB in Dynamics 365 Customer Engagement (on-premis
 description: "Learn about configuring the Azure Cosmos DB for SQL API Data Provider to use with virtual entities, as well as best practices and limitations."
 keywords: SQL API
 ms.date: 02/15/2019
-ms.prod: d365ce-op
+
 ms.custom: 
 ms.topic: article
 applies_to: 

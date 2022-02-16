@@ -3,7 +3,7 @@ title: "Use IFRAME and web resource controls on a form | MicrosoftDocs"
 ms.custom: 
 ms.date: 02/03/2021
 ms.reviewer: pehecke
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

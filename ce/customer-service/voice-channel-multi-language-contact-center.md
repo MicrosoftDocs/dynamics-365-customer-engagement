@@ -6,7 +6,7 @@ ms.author: laalexan
 manager: shujoshi
 ms.date: 11/02/2021
 ms.topic: article
-ms.service: dynamics-365-customerservice
+
 ---
 
 # Set up a multilanguage contact center

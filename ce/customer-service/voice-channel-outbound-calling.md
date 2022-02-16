@@ -7,7 +7,7 @@ manager: shujoshi
 ms.date: 02/11/2022
 ms.topic: article
 ms.custom: intro-internal
-ms.service: dynamics-365-customerservice
+
 ---
 
 # Set up outbound calling

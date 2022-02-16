@@ -2,7 +2,7 @@
 title: "Set up global double opt-in (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to set up the global double opt-in system to let contacts confirm their new subscriptions and consent changes in Dynamics 365 Marketing."
 ms.date: 01/18/2022
-ms.service: dynamics-365-marketing
+
 ms.custom:
   - dyn365-admin    
   - dyn365-marketing

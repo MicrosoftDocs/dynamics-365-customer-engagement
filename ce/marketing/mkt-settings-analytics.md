@@ -2,7 +2,7 @@
 title: "Configure analytics (Dynamics 365 Marketing) | Microsoft Docs "
 description: "A short topic that links to more information about how to connect your Dynamics 365 Marketing instance to Azure Blob Storage."
 ms.date: 03/23/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
