@@ -3,15 +3,15 @@ title: "msdyn_paneconfiguration Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_paneconfiguration entity."
 ms.date: 10/12/2020
 ms.topic: "reference"
-author: "platkat"
-ms.author: "ktaylor"
+author: "mh-jaya"
+ms.author: "v-jmh"
 manager: "shujoshi"
+ms.reviewer: nenellim
 search.audienceType: 
   - developer
 search.app: 
   - PowerApps
   - D365CE
-ms.reviewer: nenellim
 ---
 # msdyn_paneconfiguration Entity Reference
 

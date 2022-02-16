@@ -1,12 +1,12 @@
 ---
 title: "Connect to Azure Communication Services | MicrosoftDocs"
 description: "Use this topic to understand how to connect to Azure Communication Services using new or existing Azure resources."
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
 ms.date: 02/02/2022
+ms.service: dynamics-365-customerservice
 ms.topic: article
-
+author: neeranelli
+ms.author: nenellim
+manager: shujoshi
 ---
 
 # Connect to Azure Communication Services

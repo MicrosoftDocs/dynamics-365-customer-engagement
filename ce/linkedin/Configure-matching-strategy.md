@@ -1,12 +1,12 @@
 ---
 title: "Create matching strategy to update existing LinkedIn leads"
 description: "Learn how to update existing LinkedIn leads with new form submission answers by creating, activating, editing, or deleting a lead matching strategy."
-keywords: lead matching, field mapping, linkedin leads, lead record
 ms.date: 04/02/2018
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
-manager: sakudes
+author: lavanyakr01
+ms.author: lavanyakr
+manager: shujoshi
+keywords: lead matching, field mapping, linkedin leads, lead record
 search.audienceType: 
   - admin
   - customizer

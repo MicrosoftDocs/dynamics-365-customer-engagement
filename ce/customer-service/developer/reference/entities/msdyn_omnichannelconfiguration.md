@@ -3,9 +3,9 @@ title: "msdyn_omnichannelconfiguration table/entity reference (Microsoft Dataver
 description: "Includes schema information and supported messages for the msdyn_omnichannelconfiguration table/entity."
 ms.date: 04/16/2021
 ms.topic: "reference"
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "annbe"
+author: "mh-jaya"
+ms.author: "v-jmh"
+manager: "shujoshi"
 search.audienceType: 
   - developer
 search.app: 
