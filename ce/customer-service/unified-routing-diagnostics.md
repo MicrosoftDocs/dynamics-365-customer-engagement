@@ -49,7 +49,7 @@ To see data related to work items and their status, you need to enable routing d
 
 3. In the confirmation message that appears, select **Yes**.
 
-   You'll see that a list of new work items start to appear. However, work items may not appear on your screen immediately.
+   You'll see that a list of new work items start to appear. However, the work items may not appear on your screen immediately.
 
 > [!NOTE]
 > After you enable diagnostics, the data will be stored in Microsoft Dataverse. This might impact your storage capacity. Select **Turn off diagnostics** to disable diagnostics.
