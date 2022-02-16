@@ -2,7 +2,7 @@
 title: "Install real-time customer journey orchestration (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to install the real-time customer journey orchestration features in Dynamics 365 Marketing."
 ms.date: 10/21/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

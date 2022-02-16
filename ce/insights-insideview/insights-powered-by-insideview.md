@@ -2,7 +2,7 @@
 title: "Insights, powered by InsideView (Dynamics 365 Sales) | MicrosoftDocs"
 description: ""
 ms.date: 09/30/2017
-ms.service: dynamics-365-sales
+
 ms.topic: article
 author: shubhadaj
 ms.author: shujoshi

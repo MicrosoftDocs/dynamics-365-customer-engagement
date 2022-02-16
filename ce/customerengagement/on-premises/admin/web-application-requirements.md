@@ -2,7 +2,7 @@
 title: "System requirements for Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn about the hardware, network requirements, and more needed to run Dynamics 365 Customer Engagement (on-premises) and Dynamics 365 web and mobile apps."
 ms.date: 01/07/2021
-ms.prod: d365ce-op
+
 ms.custom: 
 ms.topic: article
 applies_to: 

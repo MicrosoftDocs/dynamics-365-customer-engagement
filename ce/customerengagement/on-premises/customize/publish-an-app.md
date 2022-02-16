@@ -3,7 +3,7 @@ title: "Publish an app with the app designer in Dynamics 365 for Customer Engage
 description: "After you've added your components, validated the app, and saved it, follow these steps to publish your app in order to make it available to users."
 keywords: 
 ms.date: 04/30/2019
-ms.prod: d365ce-op
+
 ms.custom: 
 ms.topic: article
 applies_to: 

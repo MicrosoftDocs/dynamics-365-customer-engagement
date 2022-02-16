@@ -3,7 +3,7 @@ title: "Troubleshoot issues with Solution Health Hub for Dynamics 365 Field Serv
 description: Learn how to troubleshoot Dynamics 365 Field Service issues with the Solution Health Hub
 ms.date: 1/25/2022
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"

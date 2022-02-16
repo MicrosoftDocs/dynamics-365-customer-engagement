@@ -4,7 +4,7 @@ description: "The filter criteria applied to a view is a critical part of its va
 ms.custom: 
 ms.date: 11/03/2018
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

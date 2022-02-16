@@ -2,7 +2,7 @@
 title: "Overview of Dynamics 365 Sales"
 description: "Get an overview of the sales offerings from Dynamics 365 Sales."
 ms.date: 01/10/2022
-ms.service: dynamics-365-sales
+
 ms.topic: overview
 author: udaykirang
 ms.author: udag

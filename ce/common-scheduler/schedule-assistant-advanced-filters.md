@@ -3,7 +3,7 @@ title: "Use advanced filters in Universal Resource Scheduling"
 description: "The schedule assistant provides a few advanced filters for granularity in scheduling. Learn about filters such as real-time mode, allow overlapping, and more."
 ms.date: 07/06/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.subservice: common-scheduler
 ms.topic: article
 applies_to: 

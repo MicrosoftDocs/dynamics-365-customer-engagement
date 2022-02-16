@@ -4,7 +4,7 @@ description: Learn how to deploy Resource Scheduling Optimization for Dynamics 3
 ms.date: 09/10/2019
 ms.topic: article
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.subservice: resource-scheduling-optimization
 author: FieldServiceDave
 ms.author: daclar

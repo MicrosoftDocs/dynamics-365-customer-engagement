@@ -3,7 +3,7 @@ title: "Customer experience homepage in Dynamics 365 Field Service (contains vid
 description: Learn about how customers can manage their upcoming service visits with customer experience portals in Field Service.
 ms.date: 10/21/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.topic: article
 applies_to:
 - "Dynamics 365 (online)"
