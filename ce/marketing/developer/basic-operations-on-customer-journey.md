@@ -2,7 +2,7 @@
 title: "Basic customer journey API operations (Dynamics 365 Marketing Developer Guide) | Microsoft Docs" 
 description: "The customer journey API enables programmatic interaction with segmentation features of Dynamics 365 Marketing."
 ms.date: 01/27/2022
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

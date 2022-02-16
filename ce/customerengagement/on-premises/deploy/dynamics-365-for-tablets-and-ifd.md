@@ -3,7 +3,7 @@ title: "Dynamics 365 for tablets and IFD | Microsoft Docs"
 description: Learn about using Dynamics 365 for tablets over the internet with Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: d365ce-op
+
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

@@ -4,7 +4,7 @@ description: "The sample shows how to write a custom workflow activity that can 
 ms.custom: 
 ms.date: 12/10/2019
 ms.reviewer: pehecke
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: sample

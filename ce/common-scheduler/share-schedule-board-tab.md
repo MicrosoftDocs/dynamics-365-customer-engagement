@@ -3,7 +3,7 @@ title: "Share a schedule board tab in Universal Resource Scheduling"
 description: "Beyond using the default public schedule board tab, you can follow these steps to create a new schedule board tab and share it only with specific users."
 ms.date: 03/29/2019
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.subservice: common-scheduler
 ms.topic: article
 applies_to: 

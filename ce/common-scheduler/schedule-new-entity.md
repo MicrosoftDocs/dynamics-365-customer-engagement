@@ -3,7 +3,7 @@ title: "Enable entity for scheduling in Universal Resource Scheduling"
 description: "Match work orders to the right resources by enabling entities for scheduling. Learn how to enable an entity and how it works on the schedule board."
 ms.date: 06/10/2019
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.subservice: common-scheduler
 ms.topic: article
 applies_to: 

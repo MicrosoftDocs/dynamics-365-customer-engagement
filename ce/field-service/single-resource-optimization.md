@@ -3,7 +3,7 @@ title: "Single resource optimization for resource scheduling optimization | Micr
 description: Learn about single resource optimization for resource scheduling optimization in Dynamics 365 Field Service
 ms.date: 11/04/2019
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.topic: article 
 author: FieldServiceDave
 ms.author: daclar

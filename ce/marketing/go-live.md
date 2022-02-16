@@ -2,7 +2,7 @@
 title: "Publish records through the go-live process (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Find out which types of records must be published (go live) before you can use them, how to track go-live status, and how to stop processing records that are already live in Dynamics 365 Marketing."
 ms.date: 10/20/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

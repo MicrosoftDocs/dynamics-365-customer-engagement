@@ -4,7 +4,7 @@ description: "Learn how to configure the OData v4 Data Provider to connect Dynam
 ms.custom: 
 ms.date: 01/14/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

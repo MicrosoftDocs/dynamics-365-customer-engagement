@@ -4,7 +4,7 @@ description: "Deploy packages on Dynamics 365 Customer Engagement using the Dyna
 ms.custom: 
 ms.date: 06/10/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
