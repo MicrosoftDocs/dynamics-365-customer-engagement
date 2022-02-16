@@ -4,7 +4,7 @@ description: Learn about how to use inspections in Dynamics 365 Field Service.
 ms.date: 02/01/2021
 ms.reviewer: krbjoran
 ms.topic: article
-ms.service: dynamics-365-field-service
+
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"

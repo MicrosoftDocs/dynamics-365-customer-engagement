@@ -3,7 +3,7 @@ title: "Summary tiles in Connected Field Service | MicrosoftDocs"
 description: Learn about summary tiles in Connected Field Service for Dynamics 365 Field Service
 ms.date: 01/05/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.subservice: connected-field-service
 ms.topic: article
 applies_to:

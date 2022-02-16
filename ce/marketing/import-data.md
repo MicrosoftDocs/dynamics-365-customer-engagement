@@ -2,7 +2,7 @@
 title: "Import data (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to import data and control how duplicate records are identified in Dynamics 365 Marketing."
 ms.date: 06/09/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing

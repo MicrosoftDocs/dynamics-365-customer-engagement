@@ -4,7 +4,7 @@ description: "Profile cards, also known as people cards or contact cards, allow 
 ms.custom: 
 ms.date: 06/03/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

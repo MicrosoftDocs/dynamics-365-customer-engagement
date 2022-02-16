@@ -4,7 +4,7 @@ ms.custom:
 description: System requirements, limits, and configuration values for Dynamics 365 App for Outlook.
 ms.date: 05/20/2021
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article

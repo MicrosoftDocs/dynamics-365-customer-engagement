@@ -2,7 +2,7 @@
 title: "Overview of custom channel (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "A custom channel contains custom entities, workflow or plug-in containing your custom logic, and couple of web resources that help surface the custom channel as a “tile” in the customer journey designer."
 ms.date: 04/01/2018
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: overview

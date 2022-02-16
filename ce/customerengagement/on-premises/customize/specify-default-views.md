@@ -4,7 +4,7 @@ description: "Set any public view as the default view for an entity. Unless some
 ms.custom: 
 ms.date: 01/09/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

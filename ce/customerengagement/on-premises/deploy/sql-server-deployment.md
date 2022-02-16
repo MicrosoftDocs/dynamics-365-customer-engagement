@@ -3,7 +3,7 @@ title: "SQL Server deployment | Microsoft Docs"
 description: This article provides information about how SQL Server should be deployed to ensure the for the best experience with Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: d365ce-op
+
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

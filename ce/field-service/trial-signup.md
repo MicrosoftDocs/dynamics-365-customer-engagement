@@ -5,7 +5,7 @@ author: FieldServiceDave
 ms.author: daclar
 ms.date: 10/01/2021
 ms.topic: get-started
-ms.service: dynamics-365-field-service
+
 ms.custom: template-trial-setup
 ms.reviewer: krbjoran
 ---

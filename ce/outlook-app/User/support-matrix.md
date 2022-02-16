@@ -4,7 +4,7 @@ description: Supported features using App for Outlook on Outlook desktop client,
 ms.custom: 
 ms.date: 02/11/2022
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

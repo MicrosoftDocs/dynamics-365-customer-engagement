@@ -3,7 +3,7 @@ title: "Operating system and platform technology security considerations for Dyn
 description: Learn about the operating system and platform security considerations for Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: d365ce-op
+
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

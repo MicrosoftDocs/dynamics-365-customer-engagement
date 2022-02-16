@@ -1,7 +1,7 @@
 ---
 title: "Transition to Unified Interface for Dynamics 365 Sales and Service"
 description: "Download this white paper to learn how to plan and execute your transition from the legacy web client to Unified Interface for Dynamics 365 Sales and Service."
-ms.prod: d365ce-op
+
 ms.custom: ""
 ms.date: 07/24/2019
 ms.reviewer: ""

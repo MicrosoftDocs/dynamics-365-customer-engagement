@@ -3,7 +3,7 @@ title: "Field Service (Dynamics 365) app for Windows 10+ devices (preview) (cont
 description: Learn about the Field Service (Dynamics 365) app for Windows 10+ devices.
 ms.date: 10/01/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.subservice: field-service-mobile
 ms.topic: article
 applies_to:
