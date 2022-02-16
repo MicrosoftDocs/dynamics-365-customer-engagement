@@ -66,21 +66,25 @@ You can configure the negative countdown property for the SLA timer so that the 
 
 2. Save and publish the solution.
 
-### Customize the SLA timer control display text
-After you have added the SLA timer control for an SLA-enabled entity, you can use the maker experience to customize the values to display when SLAs succeed or expire.
+### Customize the SLA timer control display label
+After you have added the SLA timer control for an SLA-enabled entity, you can customize the labels to be displayed for the timer control.
 
-1. After you add the SLA Timer control, in the SLA Timer area, select **Edit** for **Customized Labels**.
+1. In the SLA Timer area, select **Edit** for **Customized Labels**.
+:::image type="content" source="media/sla-timer-customized-label.png" alt-text="SLA timer customized label option":::
 1. In the **Configure Property Customized Label** dialog, enter the values for the following fields:
+:::image type="content" source="media/sla-timer_configure_property.png" alt-text="SLA timer configure property dialog":::
  - Select the **Bind to a static value** radio button.
-     - Select a value from the  dropdown list.
-     - Enter a language code. For the language code, refer to Settings -> Advanced Settings -> Administration -> Languages.
+     - Select a value from the  dropdown list to enter the language code. The language code value must be of the format: <languagecode1>=<KPI instance status value>:<KPI instance custom label>, where for e.g:
+1033=0:Inprogress;1:Non Compliant. You cam also enter multiple language codes by seperating them with a semicolon. For example, <languagecode1>=<KPI instance status value>:<KPI instance custom label>;<KPI instance status value>:<KPI instance custom label>. For more information on language code, see [Regional and language options for your environment](/power-platform/admin/enable-languages).
    - Select the **Bind to a value on a field** radio button.
-     - Select a value from the dropdown. The status code for which it will work are:
+     - Select a value from the dropdown. The status codes that you can enter are: 
         1- Noncomplaint
         3- Paused
         4- Succeeded
         5- Canceled
+       
 1. Select **OK**.
+1. Save and publish the solution.
 
 ## Add an out-of-the-box timer control to the Case form
 
