@@ -4,7 +4,7 @@ ms.custom:
 description: "Collaborate with team members using the Dynamics 365 app for Microsoft Teams. Follow these steps to connect an app record or view to a team channel."
 ms.date: 08/26/2020
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

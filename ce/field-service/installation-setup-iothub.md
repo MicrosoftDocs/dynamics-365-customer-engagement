@@ -3,7 +3,7 @@ title: "Installation and setup for Connected Field Service for Azure IoT Hub (Dy
 description: Learn how connect and setup Dynamics 365 Field Service with Azure IoT Hub.
 ms.date: 09/14/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.subservice: connected-field-service
 ms.topic: article
 author: FieldServiceDave

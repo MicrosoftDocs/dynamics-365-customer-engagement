@@ -4,7 +4,7 @@ description: "The bulk Data Loader service for Dynamics 365 has been retired. Th
 ms.custom: 
 ms.date: 07/25/2018
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

@@ -4,7 +4,7 @@ ms.custom:
 description: How to install Dynamics 365 for phones and tablets.
 ms.date: 06/11/2020
 ms.reviewer:
-ms.service: crm-online
+
 ms.suite:
 ms.tgt_pltfrm:
 ms.topic: article

@@ -4,7 +4,7 @@ description: "Keep user information up to date by running a user summary report.
 ms.custom: 
 ms.date: 09/15/2017
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

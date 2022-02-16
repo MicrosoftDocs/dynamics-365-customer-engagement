@@ -6,7 +6,7 @@ author: Mattp123
 ms.author: matp
 manager: kvivek
 ms.date: 04/29/2019
-ms.prod: d365ce-op
+
 ms.topic: overview
 applies_to: 
   - "Dynamics 365 (online)"

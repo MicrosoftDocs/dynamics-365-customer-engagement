@@ -3,7 +3,7 @@ title: "SharePoint Online integration with Dynamics 365 Customer Engagement (on-
 description: "Follow these steps to configure server-based integration between Dynamics 365 Customer Engagement (on-premises) and SharePoint Online."
 ms:assetid: 24245deb-48cb-4c13-adfe-efa2fe94b3cd
 ms.date: 04/16/2020
-ms.prod: d365ce-op
+
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

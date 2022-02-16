@@ -4,7 +4,7 @@ description: "Custom entities are automatically assigned the same default icon. 
 ms.custom: 
 ms.date: 11/08/2018
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

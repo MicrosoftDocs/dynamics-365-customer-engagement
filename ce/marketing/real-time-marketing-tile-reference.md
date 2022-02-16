@@ -2,7 +2,7 @@
 title: "Real-time marketing journey tile reference (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about real-time marketing tiles in Dynamics 365 Marketing."
 ms.date: 02/03/2022
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

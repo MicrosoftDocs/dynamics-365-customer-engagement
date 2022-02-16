@@ -3,7 +3,7 @@ title: "Find developer resources for Dynamics 365 Customer Engagement (on-premis
 description: "Find developer resources and service endpoint URLs for Dynamics 365 Customer Engagement (on-premises)."
 keywords: 
 ms.date: 01/11/2019
-ms.prod: d365ce-op
+
 ms.custom: 
 ms.topic: article
 applies_to: 

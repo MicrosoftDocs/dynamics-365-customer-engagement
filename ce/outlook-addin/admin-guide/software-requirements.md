@@ -3,7 +3,7 @@ title: "Microsoft Dynamics 365 for Outlook software requirements | MicrosoftDocs
 ms.custom: 
 ms.date: 01/25/2019
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

@@ -2,7 +2,7 @@
 title: "Create custom event triggers in real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about creating real-time marketing custom event triggers in Dynamics 365 Marketing."
 ms.date: 10/04/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
