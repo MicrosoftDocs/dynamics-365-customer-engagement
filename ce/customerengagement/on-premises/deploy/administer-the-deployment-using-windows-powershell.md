@@ -3,7 +3,7 @@ title: "Administer the deployment using Windows PowerShell | Microsoft Docs"
 description: Learn how to administer a Dynamics 365 Customer Engagement (on-premises) deployment
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: d365ce-op
+
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

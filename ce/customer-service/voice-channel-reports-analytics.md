@@ -8,7 +8,7 @@ author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.reviewer: lalexms
-ms.service: dynamics-365-customerservice
+
 ms.topic: article
 ms.suite: ""
 applies_to:

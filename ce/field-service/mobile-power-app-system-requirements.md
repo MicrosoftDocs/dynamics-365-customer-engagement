@@ -4,7 +4,7 @@ description: Learn about system requirements for the Field Service (Dynamics 365
 ms.date: 03/23/2021
 ms.reviewer: krbjoran
 ms.topic: article
-ms.service: dynamics-365-field-service
+
 ms.subservice: field-service-mobile
 applies_to: 
   - "Dynamics 365 (online)"

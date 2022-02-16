@@ -4,7 +4,7 @@ description: Mobile offline capabilities and limitations for Dynamics 365 phones
 ms.custom: 
 ms.date: 1/19/2022
 ms.reviewer: kvivek
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

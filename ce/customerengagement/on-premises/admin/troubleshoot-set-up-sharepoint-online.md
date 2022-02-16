@@ -4,7 +4,7 @@ description: "This topic explains how to fix common issues that may occur with S
 ms.custom: 
 ms.date: 12/09/2021
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

@@ -4,7 +4,7 @@ description: Find all the training options for Dynamics 365 Sales.
 author: MargoC
 ms.topic: article
 ms.date: 11/23/2021
-ms.service: dynamics-365-sales
+
 ms.author: margoc
 ---
 

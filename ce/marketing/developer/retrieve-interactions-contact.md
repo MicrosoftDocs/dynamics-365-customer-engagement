@@ -2,7 +2,7 @@
 title: "Retrieve interactions for a contact using code (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Learn how to programmatically retrieve interactions for a contact using an action."
 ms.date: 10/04/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

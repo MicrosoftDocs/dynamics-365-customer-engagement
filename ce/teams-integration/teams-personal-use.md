@@ -4,7 +4,7 @@ ms.custom: ""
 description: "Learn how you can use the Dynamics 365 app to view your personal dashboard in Microsoft Teams. To work with other team members, consider the team app."
 ms.date: 8/26/2020
 ms.reviewer: ""
-ms.service: crm-online
+
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"

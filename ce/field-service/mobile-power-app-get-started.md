@@ -4,7 +4,7 @@ description: Learn how to install and set up the Field Service (Dynamics 365) mo
 ms.date: 06/04/2021
 ms.reviewer: krbjoran
 ms.topic: article
-ms.service: dynamics-365-field-service
+
 ms.subservice: field-service-mobile
 applies_to: 
   - "Dynamics 365 (online)"

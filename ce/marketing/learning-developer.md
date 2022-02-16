@@ -2,7 +2,7 @@
 title: "Developers learning catalog (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Find all the training options for Dynamics 365 Marketing developers."
 ms.date: 01/08/2020
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: hub-page
