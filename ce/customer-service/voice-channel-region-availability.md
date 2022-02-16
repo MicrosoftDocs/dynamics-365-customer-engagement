@@ -4,7 +4,7 @@ description: "Learn about the region availability and supported languages for th
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 02/02/2022
+ms.date: 02/15/2022
 ms.topic: article
 
 ---
@@ -32,7 +32,7 @@ Use the information in the following table to know about the availability of the
 |Geographic location | Availability | Availability in Customer Service trial|
 |----------|---------|-----|
 |North America <sup> **1** </sup> |November 2021  | November 2021|
-|Europe <sup>**2**</sup> |December 2021 |To be announced|
+|Europe, Middle East, and Africa <sup>**2**</sup> |December 2021 |To be announced|
 |Asia Pacific <sup>**2**</sup> |December 2021 |To be announced|
 |Australia <sup>**2**</sup> |December 2021 |To be announced|
 |South America|To be announced | To be announced|
