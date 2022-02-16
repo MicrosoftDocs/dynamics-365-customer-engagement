@@ -26,7 +26,7 @@ This function can be used to fetch a list of conversation (`msdyn_ocliveworkitem
 | correlationId | String | Optional. Unique identifier for telemetry logging.  |
 
 
-## Return Value
+## Return value
 
 Returns a resolved or rejected promise based on the outcome of the operation. 
 

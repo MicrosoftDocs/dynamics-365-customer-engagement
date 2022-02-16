@@ -21,7 +21,7 @@ This function can be called to fetch the unique GUID of the current ongoing conv
 ## Parameters
 None
 
-## Return Value
+## Return value
 
 Returns a promise resolved with currently ongoing conversation ID.
 

@@ -37,6 +37,7 @@ The following JavaScript methods can be used to perform various operations with 
 ### See also
 
 [Omnichannel for Customer Service for developers](omnichannel-developer.md)  
+[JavaScript API reference for live chat SDK](omnichannel-reference.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

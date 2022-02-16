@@ -25,7 +25,7 @@ This function can be used to unlink an already linked entity record of type cust
 | entityLogicalName | String     | Logical name of the entity (such as account, contact, or incident) | 
 | recordId          | String     | Unique identifier for the entity record to be unlinked |
 
-## Return Value
+## Return value
 
 Returns a resolved or rejected promise based on the outcome of the operation. 
 

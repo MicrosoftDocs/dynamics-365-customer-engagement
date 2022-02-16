@@ -28,7 +28,7 @@ This function can be used to link account, contact, or incident records to the c
 | entityLogicalName | String  | Logical name of the entity (such as account, contact, or incident) | 
 | recordId          | String  | Unique identifier for the entity record to be linked |
 
-## Return Value
+## Return value
 
 Returns a resolved or rejected promise based on the outcome of the operation. 
 

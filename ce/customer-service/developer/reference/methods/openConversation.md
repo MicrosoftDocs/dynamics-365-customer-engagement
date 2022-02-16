@@ -26,7 +26,7 @@ This function can be used to open a conversation as a session programmatically.
 | lastsessionId    | String | Optional. Unique identifier for the last session ID in which conversation was opened.   |
 | liveworkstreamId | String | Optional. Unique identifier for the live workstream to which the conversation belongs. |
 
-## Return Value
+## Return value
 
 Returns a resolved or rejected promise based on the outcome of the operation. 
 
