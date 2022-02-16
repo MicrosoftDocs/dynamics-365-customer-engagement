@@ -2,7 +2,7 @@
 title: "Best practices for administration (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about best practices for Dynamics 365 Marketing administration and management."
 ms.date: 12/02/2020
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing

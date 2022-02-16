@@ -5,7 +5,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.date: 02/08/2022
 ms.topic: get-started
-ms.service: dynamics-365-sales
+
 ms.custom: template-trial-faq
 ms.reviewer: shujoshi
 ---

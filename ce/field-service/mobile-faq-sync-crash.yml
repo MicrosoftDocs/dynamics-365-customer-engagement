@@ -4,7 +4,7 @@ metadata:
   description: Find help for the issue, "My mobile app won't sync to the server or it crashes immediately"
   ms.date: 10/24/2018
   ms.reviewer: krbjoran
-  ms.service: dynamics-365-field-service
+  
   ms.subservice: field-service-mobile
   ms.topic: troubleshooting
   author: FieldServiceDave

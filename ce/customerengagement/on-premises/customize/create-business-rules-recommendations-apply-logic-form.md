@@ -4,7 +4,7 @@ description: "Learn how to create business rules to apply form logic without wri
 ms.custom: 
 ms.date: 10/23/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article

@@ -4,9 +4,9 @@ description: "Learn how to enable the setting that allows agents to update skill
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 06/07/2021
+ms.date: 02/11/2022
 ms.topic: article
-ms.service: dynamics-365-customerservice
+
 ---
 
 # Enable agents to update skills
@@ -20,9 +20,25 @@ By default, skill-based routing is enabled. You can create skills to attach to a
 
 **To enable your agents to update skills for their work items**
 
-1. Sign in to Dynamics 365.
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   
+    - In the site map, select **User management** in **Customer support**. The **User management** page appears.
+    
+   
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
 
-2. In Omnichannel admin center or in Customer Service Hub, in the site map, select **User attributes**, and then select **Manage** next to **Skill-based routing** on the **User attributes** page.
+    - In the site map, select **User attributes** under **Advanced settings**.
+    
+   ### [Customer Service Hub](#tab/customerservicehub) 
+
+    - Go to the **Service Management** site map, and select **User attributes** in **Unified routing**.
+
+2. Select **Manage** for **Skill-based routing**.
 
 3. On the **Skill based routing** tab, set the **Enable update skill control** toggle to **Yes**.
 

@@ -4,7 +4,7 @@ description: "You can customize Dynamics 365 to be optimized for phone and table
 ms.custom: 
 ms.date: 06/18/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

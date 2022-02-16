@@ -7,7 +7,7 @@ manager: shujoshi
 ms.date: 11/02/2021
 ms.topic: article
 ms.custom: intro-internal
-ms.service: dynamics-365-customerservice
+
 ---
 
 # Configure call recordings and transcripts in the voice channel 

@@ -3,7 +3,7 @@ title: "Sample: Calculate Price plug-in (Developer Guide for Dynamics 365 Custom
 description: "Sample demonstrates how to write a plug-in that calculates the pricing of the opportunities, quotes, orders, and invoices based on your custom code."
 keywords: 
 ms.date: 10/31/2017
-ms.prod: d365ce-op
+
 ms.custom: 
 ms.topic: sample
 applies_to: 

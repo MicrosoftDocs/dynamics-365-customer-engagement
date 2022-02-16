@@ -3,7 +3,7 @@ title: "Engage in Teams chats from within Dynamics 365 | MicrosoftDocs"
 description: "Collaborate efficiently in Dynamics 365 without switching context. Start new chats, link existing chats, view all your Dynamics 365 chats and more."
 ms.date: 11/03/2021
 ms.topic: article
-ms.service: crm-online
+
 search.app: 
   - D365CE
   - Powerplatform

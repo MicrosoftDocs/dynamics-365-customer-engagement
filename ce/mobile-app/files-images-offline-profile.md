@@ -4,7 +4,7 @@ ms.custom:
 description: Configure mobile offline profiles for files and images for Dynamics 365 phones and tablets app and Power Apps mobile.
 ms.date: 10/19/2021
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

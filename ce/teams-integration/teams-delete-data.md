@@ -4,7 +4,7 @@ ms.custom:
 description: "You can delete personal data stored with Dynamics 365 app integration with Microsoft Teams. Run the following commands before requesting data deletion."
 ms.date: 8/27/2020
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

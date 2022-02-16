@@ -3,7 +3,7 @@ title: "Create early bound entity classes with the code generation tool (CrmSvcU
 description: ""
 keywords: 
 ms.date: 04/24/2019
-ms.prod: d365ce-op
+
 ms.custom: on-premise
 ms.topic: article
 applies_to: 

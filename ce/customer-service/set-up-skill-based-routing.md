@@ -1,7 +1,7 @@
 ---
 title: "Set up skill-based routing | MicrosoftDocs"
 description: "Use the information to set up skill-based routing for unified routing in Customer Service."
-ms.date: 10/26/2021
+ms.date: 02/11/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -121,28 +121,50 @@ Intelligent skill finder depends upon the custom AI Builder category classificat
  > [!IMPORTANT]
  > If you want to import skill finder models from one environment to another, make sure that you import and export between environments of the same type. A model trained in test environment will work only in another test environment and not in a production environment.
 
-### Create skill finder models
+ ## Create skill finder models
+   
+You can set up the intelligent skill finder model rating models in the Customer Service admin center (preview) or Omnichannel admin center app. You can create as many models as your business requires.
 
-Perform the steps in this section to set up the intelligent skill finder model. You can create as many models as your business requires.
+**To create the skill finder model**
 
-1. In Omnichannel admin center, select **User attributes** in the site map, and then select **Manage** beside **Intelligent skill finder**.
-2. Select **New**, and on the **Configuration** tab of **New skill finder model** page, enter a name.
-3. In **Data criteria**, enter the following to form the dataset records:
+1. In Dynamices 365, go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+     - In the site map, select **Insights** in **Operations**. The **Insights** page appears.
+     
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+    
+     - In the site map, select **User attributes** in **Advanced settings**. The **User attributes** page appears.
+     
+
+1. In the **Intelligent skill finder** section, select **Manage**.
+
+1. On the **Intelligent skill finder models** page, select **New**, and on the **Configuration** tab of **New skill finder model** page, enter a name.
+
+1. In **Data criteria**, enter the following to form the dataset records:
     - **Attributes (Required)**: Select attributes in the Attributes and related list to form the training dataset. The corresponding attribute values will be merged in the sequence they are added and will be used to form the input string for the model training data.
     - **Filters**: Optionally, apply filters to conditionally select the relevant records.
     - **Date range**: Select a value to set the time period for which the records need to be loaded.
     
     ![Configure skill finder model.](media/ur-skill-model.png "Configure skill finder model")
 
-4. Select **Save**, and then select **Load training data**. The **Training data** tab appears and displays the data load status.
-5. After the load is complete, review the data, and edit the records if you want to modify the tags.
-6. In the **Training data** section, select the checkbox beside **Input data** to select all the records, and select **Approve**. You must approve a minimum of 50 records for the model to be trained.
-7. Select **Train model**, and select **Train model** on the confirmation dialog.
-8. After the status changes to training completed, select the rows that you want to publish, and select **Publish model**. The skills model is ready for use.
+1. Select **Save**, and then select **Load training data**. The **Training data** tab appears and displays the data load status.
+
+1. After the load is complete, review the data, and edit the records if you want to modify the tags.
+
+1. In the **Training data** section, select the checkbox for **Input data** to select all the records, and select **Approve**. You must approve a minimum of 50 records for the model to be trained.
+
+1. Select **Train model**, and select **Train model** again on the confirmation dialog.
+
+1. After the status changes to training completed, select the rows that you want to publish, and select **Publish model**. The skills model is ready for use.
 
 ### Retrain the model iteratively
 
-You should retrain your published model iteratively to improve the model with new data in Microsoft Dataverse. For example, model retraining can be done by using the records in which agents have updated the skills for records or conversations. When you retrain the model to include the skills added by agents, review the training data records after loading it to make sure it meets the required skill criteria. 
+You should retrain your published model iteratively to improve the model with new data in Microsoft Dataverse. For example, model retraining can be done by using the records in which agents have updated the skills for records or conversations. When you retrain the model to include the skills added by agents, review the training data records after loading it to make sure it meets the required skill criteria.
 
 For information about how your agents can update skills, see [Manage skills](manage-skills.md). To enable your agents to update skills at runtime, see [Enable agents to update skills](allow-agents-update-skills.md).
 

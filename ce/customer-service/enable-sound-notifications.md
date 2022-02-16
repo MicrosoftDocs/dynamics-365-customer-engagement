@@ -1,7 +1,7 @@
 ---
 title: "Enable sound notifications for conversations in Omnichannel for Customer Service | MicrosoftDocs"
 description: "How to enable sound notifications for conversations in Omnichannel for Customer Service."
-ms.date: 07/07/2021
+ms.date: 02/11/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -24,8 +24,21 @@ Make sure the browsers used by agents allow sounds to be played. In Microsoft Ed
 
 When you enable sound settings, the options to personalize settings are available for all the channels that are provisioned in your environment.
 
-1. In Omnichannel admin center, under **Advanced settings**, select **Agent experience**, and then select **Manage** for **Notification templates**. If you are using the Omnichannel Administration app, select **Notifications** under **Agent Experience** in the site map.
-2. On the Omnichannel Configuration - Notifications page, select **Sound notification settings**.
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+     
+     1. In the site map, select **Workspaces** in **Agent experience**.
+     2. On the **Workspaces** page, select **Manage** for **Notification templates**.
+
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+
+    - In the site map, select **Agent experience** in **Advanced settings**, and then select **Manage** for **Notification templates**.
+
+2. On the **Omnichannel Configuration - Notifications** page, select **Sound notification settings**.
 3. Set the toggle to **Yes** for **Enable sound notifications**. The **Sound settings** area is displayed.
 
 4. Customize the notification settings for the required channels. The following settings are for Microsoft Teams:
@@ -45,6 +58,7 @@ When you enable sound settings, the options to personalize settings are availabl
 
 ### See also
 
+[Get started with Customer Service admin center](../customer-service/cs-admin-center.md)  
 [Personalize notifications](oc-personalize-sound-notifications.md)  
 
 

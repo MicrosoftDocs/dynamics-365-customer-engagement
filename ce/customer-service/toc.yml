@@ -78,6 +78,8 @@
       href: /learn/modules/get-started-with-dynamics-365-for-customer-service/
     - name: Configure Customer Service
       href: configure-cs.md
+    - name: Customer Service admin center
+      href: cs-admin-center.md
     - name: Omnichannel admin center
       href: oc-admin-center.md
     - name: Customer Service Hub
@@ -108,7 +110,7 @@
       href: ../app-profile-manager/overview.md
     - name: Roles and permissions
       href: ../app-profile-manager/security-roles.md
-    - name: Use app profile manager
+    - name: Create and use agent experience profiles
       href: ../app-profile-manager/app-profile-manager.md
     - name: Settings
       href: ../app-profile-manager/settings.md
@@ -232,7 +234,7 @@
       items:
       - name: Create and manage workstreams
         href: create-workstreams.md
-      - name: Create and manage queues
+      - name: Manage queues for unified routing
         href: queues-omnichannel.md
       - name: Configure work classification
         href: configure-work-classification.md
@@ -442,6 +444,8 @@
         href: integrate-KM-with-PVA.md
       - name: Configure the origin allow list for knowledge articles
         href: configure-knowledge-article-origin-allow-list.md
+      - name: Configure knowledge search control on app side pane for an entity record (preview)
+        href: configure-knowledge-search-control-productivity-pane.md
     - name: Knowledge author experience
       items:
       - name: Configure the knowledge article authoring language
@@ -458,8 +462,6 @@
         href: csw-search-knowledge-articles.md
       - name: Search for knowledge articles in Customer Service Hub
         href: search-knowledge-articles-csh.md
-      - name: Share knowledge articles in Omnichannel for Customer Service
-        href: knowledge-management-oc.md
     - name: Customization experience
       items: 
       - name: Knowledge base search
@@ -522,6 +524,8 @@
         href: voice-channel-route-queues.md      
       - name: Set up outbound calling
         href: voice-channel-outbound-calling.md
+      - name: Configure historical analytics for voice
+        href: cs-voice-historical-analytics.md
       - name: Add Power Virtual Agents bot for voice
         href: voice-channel-ivr-bots.md
       - name: Integrate Azure bots for voice
@@ -799,7 +803,7 @@
       - name: Enable auto-assignment of conversations
         href: enable-auto-assign-conversations.md
       - name: Enable sharing of knowledge articles
-        href: knowledge-management-oc.md
+        href: set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-management
     - name: Agent experience
       items:
       - name: Productivity pane in Customer Service workspace
@@ -846,7 +850,7 @@
     items: 
     - name: Introduction to Customer Service Insights
       href: introduction-customer-service-analytics.md
-    - name: Regional availability and service limits for Customer Service
+    - name: Regional availability, language availability, and service limits for Customer Service Insights
       href: cs-region-availability-service-limits.md
     - name: Administrator experience
       items: 
@@ -972,12 +976,6 @@
           href: ../common-scheduler/fulfillment-preferences.md
       - name: Configure service activity using schedule board
         href: use-schedule-board-configure-service-activity.md
-      - name: Work with settings
-        items: 
-        - name: Create and manage organizational units
-          href: create-org-units-cs-scheduling.md
-        - name: Schedule business closure
-          href: set-when-business-closed-csh.md
     - name: Service Scheduling in Unified Interface
       items: 
       - name: Service Scheduling in Unified Interface
@@ -1472,6 +1470,8 @@
     href: cs-share-feedback.md
   - name: FAQs on Customer Service
     items: 
+    - name: FAQs on Customer Service admin center
+      href: faq-customer-service-admin-center.md
     - name: FAQs on unified routing
       href: unified-routing-faqs.md
     - name: FAQs on AI suggestions for cases and knowledge articles

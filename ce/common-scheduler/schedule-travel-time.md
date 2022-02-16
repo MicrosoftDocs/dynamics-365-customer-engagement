@@ -3,7 +3,7 @@ title: "Schedule work with time and distance in Universal Resource Scheduling"
 description: "Learn how travel time and distance are calculated and visualized to help you understand and minimize the time it takes to provide service to your customers."
 ms.date: 06/25/2019
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.subservice: common-scheduler
 ms.topic: article
 applies_to: 

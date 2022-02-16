@@ -4,7 +4,7 @@ description: How to set up Dynamics 365 for phones and tablets
 ms.custom:
 ms.date: 10/13/2021
 ms.reviewer:
-ms.service: crm-online
+
 ms.suite:
 ms.tgt_pltfrm:
 ms.topic: overview
