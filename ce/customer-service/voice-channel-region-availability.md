@@ -6,7 +6,7 @@ ms.author: nenellim
 manager: shujoshi
 ms.date: 02/02/2022
 ms.topic: article
-ms.service: dynamics-365-customerservice
+
 ---
 
 

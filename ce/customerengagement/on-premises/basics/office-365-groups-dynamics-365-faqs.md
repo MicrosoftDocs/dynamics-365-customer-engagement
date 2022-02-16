@@ -4,7 +4,7 @@ description: "Get answers to frequently asked questions and known issues regardi
 ms.custom: 
 ms.date: 05/05/2020
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

@@ -7,7 +7,7 @@ ms.date: 11/02/2021
 author: gandhamm
 ms.author: mgandham
 manager: shujoshi
-ms.service: dynamics-365-customerservice
+
 ms.topic: article
 
 ---

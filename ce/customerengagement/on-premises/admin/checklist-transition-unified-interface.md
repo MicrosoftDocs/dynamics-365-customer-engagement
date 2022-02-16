@@ -4,7 +4,7 @@ description: "Use this checklist to ensure you're prepared for a transition from
 ms.custom: ""
 ms.date: 05/21/2020
 ms.reviewer: "kvivek"
-ms.prod: d365ce-op
+
 ms.topic: "article"
 author: "Mattp123"
 ms.author: "haybass"

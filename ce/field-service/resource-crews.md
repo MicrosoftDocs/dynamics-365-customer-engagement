@@ -2,7 +2,7 @@
 title: "Resource crew scheduling in Dynamics 365 Field Service| MicrosoftDocs"
 description: Learn about resource crew scheduling in Dynamics 365 Field Service
 ms.date: 1/09/2019
-ms.service: dynamics-365-field-service
+
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"

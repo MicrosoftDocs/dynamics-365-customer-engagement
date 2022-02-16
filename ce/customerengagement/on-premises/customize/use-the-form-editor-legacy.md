@@ -4,7 +4,7 @@ description: "Navigation within a form allows users to view lists of related rec
 ms.custom: 
 ms.date: 11/09/2021
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

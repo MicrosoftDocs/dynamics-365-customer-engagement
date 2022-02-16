@@ -2,7 +2,7 @@
 title: "Customize the response from the Events API (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Learn how to customize responses from the Dynamics 365 Marketing Events API."
 ms.date: 08/26/2020
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

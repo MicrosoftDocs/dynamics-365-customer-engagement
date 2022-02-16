@@ -4,7 +4,7 @@ description: "System charts are organization-owned and can’t be assigned or sh
 ms.custom: 
 ms.date: 11/09/2018
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

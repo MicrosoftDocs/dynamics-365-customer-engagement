@@ -3,7 +3,7 @@ title: "Authorize API connection between Dynamics 365 and Microsoft Azure IoT | 
 description: Learn about authorizing API connections between Dynamics 365 and Microsoft Azure IoT 
 ms.date: 05/21/2019
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.subservice: connected-field-service
 ms.topic: article
 applies_to: 

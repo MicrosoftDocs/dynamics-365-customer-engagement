@@ -2,7 +2,7 @@
 title: "Uninstall Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to remove Dynamics 365 Marketing from a Dynamics 365 instance."
 ms.date: 02/10/2020
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
