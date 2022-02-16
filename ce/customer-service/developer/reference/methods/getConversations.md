@@ -67,7 +67,11 @@ Microsoft.Omnichannel.getConversations(input).then(result => {
  
 ### See also
 
-[JavaScript API reference for live chat SDK](../../omnichannel-reference.md)
-
+[JavaScript API reference for live chat SDK](../../omnichannel-reference.md)  
+[Omnichannel JavaScript API reference](../../omnichannel-api-reference.md)  
+[getConversationId](reference/methods/getConversationId.md)  
+[linkToConversation](reference/methods/linkToConversation.md)  
+[unlinkFromConversation](reference/methods/unlinkFromConversation.md)  
+[openConversation](reference/methods/openConversation.md)   
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

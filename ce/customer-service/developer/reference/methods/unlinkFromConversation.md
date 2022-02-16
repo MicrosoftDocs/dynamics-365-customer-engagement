@@ -1,10 +1,10 @@
 ---
 title: "unlinkFromConversation (Omnichannel for Customer Service Session API reference) | MicrosoftDocs"
 description: "Includes information about unlinkFromConversation method, syntax, and parameters in Omnichannel for Customer Service Session API reference."
-ms.date: 10/20/2020
-ms.topic: article
-author: platkat
-ms.author: ktaylor
+ms.date: 02/18/2022
+ms.topic: reference
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.reviewer: nenellim
 ---
@@ -23,7 +23,7 @@ This function can be used to unlink an already linked entity record of type cust
 | Parameter         | Type       | Description |
 | ----------------- | -----------| ----------- |
 | entityLogicalName | String     | Logical name of the entity (such as account, contact, or incident) | 
-| recordId          | String     | Unique identifier for the entity record to be linked |
+| recordId          | String     | Unique identifier for the entity record to be unlinked |
 
 ## Return Value
 
@@ -43,7 +43,11 @@ Microsoft.Omnichannel.unlinkFromConversation("incident", "6b726d86-d37c-43b8-b3a
 
 ### See also
 
-[JavaScript API reference for live chat SDK](../../omnichannel-reference.md)
-
+[JavaScript API reference for live chat SDK](../../omnichannel-reference.md)  
+[Omnichannel JavaScript API reference](../../omnichannel-api-reference.md)  
+[getConversations](reference/methods/getConversations.md) 
+[getConversationId](reference/methods/getConversationId.md)  
+[linkToConversation](reference/methods/linkToConversation.md)  
+[openConversation](reference/methods/openConversation.md)  
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

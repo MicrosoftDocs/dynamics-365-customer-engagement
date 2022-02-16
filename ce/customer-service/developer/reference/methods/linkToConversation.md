@@ -1,10 +1,10 @@
 ---
 title: "linkToConversation (Omnichannel for Customer Service Session API reference) | MicrosoftDocs"
 description: "Includes information about linkToConversation method, syntax, and parameters in Omnichannel for Customer Service Session API reference."
-ms.date: 10/20/2020
+ms.date: 02/18/2022
 ms.topic: article
-author: platkat
-ms.author: ktaylor
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.reviewer: nenellim
 ---
@@ -12,7 +12,10 @@ ms.reviewer: nenellim
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-This function can be used to link account, contact, or incident records to the conversation in the focused session. The function will only link the records in the database. The link is reflected after the page is refreshed. The caller is responsible for the UI refresh. Only one account or contact and one case can be linked to a conversation at a time. If a new customer or case record is linked, it will override the previous record link for the conversation. Omnichannel for Customer Service supports linking only to active conversations. 
+This function can be used to link account, contact, or incident records to the conversation in the focused session. The function will only link the records in the database. The link is reflected after the page is refreshed. The caller is responsible for the UI refresh. Only one account or contact, and one case can be linked to a conversation at a time. If a new customer or case record is linked, it will override the previous record link for the conversation. 
+
+> [!Note]
+> Omnichannel for Customer Service supports linking only to active conversations. 
 
 ## Syntax
 
@@ -43,7 +46,11 @@ Microsoft.Omnichannel.linkToConversation("incident", "6b726d86-d37c-43b8-b3a4-c4
 
 ### See also
 
-[JavaScript API reference for live chat SDK](../../omnichannel-reference.md)
-
+[JavaScript API reference for live chat SDK](../../omnichannel-reference.md)  
+[Omnichannel JavaScript API reference](../../omnichannel-api-reference.md)  
+[getConversations](reference/methods/getConversations.md)  
+[getConversationId](reference/methods/getConversationId.md)  
+[unlinkFromConversation](reference/methods/unlinkFromConversation.md)  
+[openConversation](reference/methods/openConversation.md)  
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
