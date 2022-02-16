@@ -5,7 +5,7 @@ ms.date: 09/23/2020
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 ---
 # Move from Dynamics 365 Sales Enterprise edition to Dynamics 365 Sales Professional 
 
