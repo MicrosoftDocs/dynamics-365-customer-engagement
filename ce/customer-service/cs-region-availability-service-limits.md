@@ -9,7 +9,7 @@ manager: shujoshi
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
-# Regional availability, lanugage availability, and service limits for Customer Service Insights
+# Regional availability, language availability, and service limits for Customer Service Insights
 
 Depending on your location, certain features are available for in Dynamics 365 Customer Service Insights. Service limits also apply.
 
