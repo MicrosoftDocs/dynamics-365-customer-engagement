@@ -3,7 +3,7 @@ title: "Types of Field Service scheduling capabilities in Dynamics 365 Field Ser
 description: Learn about the different types of scheduling capabilities in Dynamics 365 Field Service
 ms.date: 1/28/2019
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"

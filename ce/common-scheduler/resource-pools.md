@@ -3,7 +3,7 @@ title: "Schedule with resource pools in Universal Resource Scheduling"
 description: "Learn how to use resource pool scheduling to assemble groups of similar resources and give schedulers the option to assign specific resources at a later time."
 ms.date: 2/08/2018
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.subservice: common-scheduler
 ms.topic: article
 applies_to: 

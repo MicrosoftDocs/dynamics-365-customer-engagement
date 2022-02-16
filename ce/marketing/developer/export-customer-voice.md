@@ -2,7 +2,7 @@
 title: "Export Dynamics 365 Customer Voice survey responses to Microsoft Excel (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Learn how to map names and emails to surveys with a custom Power Automate flow."
 ms.date: 01/24/2022
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

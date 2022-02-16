@@ -2,7 +2,7 @@
 title: "Change the URL for event websites hosted on Power Apps portals (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to change the URL where Power Apps portals hosts your events in Dynamics 365 Marketing."
 ms.date: 10/10/2019
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing

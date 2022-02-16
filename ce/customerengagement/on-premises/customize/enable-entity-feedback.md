@@ -4,7 +4,7 @@ description: "Follow these steps to enable user feedback on an entity record. Yo
 ms.custom: 
 ms.date: 04/29/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

@@ -4,7 +4,7 @@ ms.custom:
 description: "Use Microsoft Teams integration to co-author and sync documents to customer engagement apps using SharePoint. Get answers to FAQs about document management."
 ms.date: 04/01/2021
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

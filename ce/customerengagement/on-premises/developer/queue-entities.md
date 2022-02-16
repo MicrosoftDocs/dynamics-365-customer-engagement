@@ -4,7 +4,7 @@ description: "Queues help in organizing, prioritizing, and monitoring the progre
 ms.custom: 
 ms.date: 02/03/2022
 ms.reviewer: pehecke
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

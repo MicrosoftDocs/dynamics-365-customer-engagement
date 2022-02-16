@@ -3,7 +3,7 @@ title: "Prerequisites and considerations for planning your deployment of Dynamic
 description: Learn about the planning considerations with Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: d365ce-op
+
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

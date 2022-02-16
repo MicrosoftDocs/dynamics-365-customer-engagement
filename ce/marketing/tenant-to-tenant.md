@@ -2,7 +2,7 @@
 title: "Move environments between tenants (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to prepare for and request to move an environment from one tenant to another."
 ms.date: 07/28/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing

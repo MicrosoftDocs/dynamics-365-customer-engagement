@@ -4,7 +4,7 @@ description: "Office 365 Groups allow team members to collaborate to get stuff d
 ms.custom:
 ms.date: 08/26/2021
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

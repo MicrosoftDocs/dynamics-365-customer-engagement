@@ -4,7 +4,7 @@ description: "Download the Plugin Registration, Package Deployment, and other co
 ms.custom: 
 ms.date: 09/14/2021
 ms.reviewer: pehecke
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

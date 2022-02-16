@@ -4,7 +4,7 @@ description: "Many organizations customize default reports to meet their specifi
 ms.custom: 
 ms.date: 04/30/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

@@ -6,7 +6,7 @@ ms.author: v-jmh
 manager: shujoshi
 ms.date: 06/15/2021
 ms.topic: article
-ms.service: dynamics-365-customerservice
+
 ---
 # Route non-case records using a plug-in
 

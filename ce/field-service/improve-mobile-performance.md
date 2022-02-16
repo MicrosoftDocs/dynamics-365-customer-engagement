@@ -3,7 +3,7 @@ title: "Improve Field Service (Dynamics 365) mobile app performance - Dynamics 3
 description: Learn about you can improve the Field Service mobile app performance.
 ms.date: 01/19/2022
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.subservice: field-service-mobile
 ms.topic: article
 applies_to: 

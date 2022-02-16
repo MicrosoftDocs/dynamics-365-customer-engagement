@@ -6,7 +6,7 @@ ms.author: v-jmh
 manager: shujoshi
 ms.date: 11/02/2021
 ms.topic: article
-ms.service: dynamics-365-customerservice
+
 ---
 # Add Azure Bot Services for conversational IVR
 

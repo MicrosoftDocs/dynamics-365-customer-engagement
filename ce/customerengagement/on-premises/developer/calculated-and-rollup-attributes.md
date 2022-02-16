@@ -4,7 +4,7 @@ description: "Learn how calculated and rollup attributes free the user from havi
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: s
 ms.topic: article
