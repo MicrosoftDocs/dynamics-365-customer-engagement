@@ -33,9 +33,9 @@ Returns a promise resolved with currently ongoing conversation ID.
 
 [JavaScript API reference for live chat SDK](../../omnichannel-reference.md)  
 [Omnichannel JavaScript API reference](../../omnichannel-api-reference.md)  
-[getConversations](reference/methods/getConversations.md)  
-[linkToConversation](reference/methods/linkToConversation.md)  
-[unlinkFromConversation](reference/methods/unlinkFromConversation.md)  
-[openConversation](reference/methods/openConversation.md)  
+[getConversations](getConversations.md)  
+[linkToConversation](linkToConversation.md)  
+[unlinkFromConversation](unlinkFromConversation.md)  
+[openConversation](openConversation.md)  
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

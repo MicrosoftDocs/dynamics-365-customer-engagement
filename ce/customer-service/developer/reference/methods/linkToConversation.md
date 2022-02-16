@@ -48,9 +48,9 @@ Microsoft.Omnichannel.linkToConversation("incident", "6b726d86-d37c-43b8-b3a4-c4
 
 [JavaScript API reference for live chat SDK](../../omnichannel-reference.md)  
 [Omnichannel JavaScript API reference](../../omnichannel-api-reference.md)  
-[getConversations](reference/methods/getConversations.md)  
-[getConversationId](reference/methods/getConversationId.md)  
-[unlinkFromConversation](reference/methods/unlinkFromConversation.md)  
-[openConversation](reference/methods/openConversation.md)  
+[getConversations](getConversations.md)  
+[getConversationId](getConversationId.md)  
+[unlinkFromConversation](unlinkFromConversation.md)  
+[openConversation](openConversation.md)  
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
