@@ -1,7 +1,7 @@
 ---
 title: "Maximize email deliverability (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to design and send marketing email messages that avoid spam filters and get opened by customers in Dynamics 365 Marketing."
-ms.date: 02/14/2022
+ms.date: 02/15/2022
 ms.service: dynamics-365-marketing
 ms.custom:
   - dyn365-admin
@@ -185,23 +185,21 @@ The follow code snippet is an example section from the IP ranges document. The s
 }
 ```
 
-### Public IP reference table
+### Marketing services IP addresses
 
-Below, you will find the email public IP addresses listed by geo region, cluster name, front-end public IP, and back-end public IP.
+The table below shows Marketing services public IP addresses listed by geo region, cluster name, front-end public IP, and back-end public IP.
 
 | Geo | Cluster name  | Front-end public IP | Back-end public IP|
 |--|--|--|--|
 | APJ | mktsvcp102sa001 | 52.230.1.107 | 52.230.2.112 |
 | CAN | mktsvcp102cc001 | 52.237.33.21 | 52.237.22.190 |
 | CHE | mktsvcp102sn001 | 51.103.161.238 | 51.103.161.245 |
-| EUR | mktsvcp102ne001 | 52.169.10.20 | 52.178.209.68 |
-| EUR 2 | mktsvcp102we001 | 52.157.202.103 | 51.137.206.145 |
+| EUR | mktsvcp102ne001 | 52.169.10.20,<br>52.157.202.103 | 52.178.209.68,<br>51.137.206.145 |
 | FRA | mktsvcp102fc001 | 40.89.132.172 | 40.89.132.207 |
 | GBR | mktsvcp102us001 | 51.140.182.149 | 51.140.180.109 |
 | IND | mktsvcp102ci001 | 52.172.220.26 | 52.172.220.56 |
 | JPN | mktsvcp102je001 | 13.71.142.211 | 13.71.138.43 |
-| NAM | mktsvcp102wu001 | 52.183.87.159 | 52.183.84.242 |
-| NAM 2 | mktsvcp102wu101 | 104.40.78.147 | 104.40.79.23 |
+| NAM | mktsvcp102wu001 | 52.183.87.159,<br>104.40.78.147 | 52.183.84.242,<br>104.40.79.23 |
 | OCE | mktsvcp102as001 | 13.70.182.62 | 13.70.179.13 |
 | SAM | mktsvcp102bs001 | 191.234.179.19 | 191.234.183.56 |
 | UAE | mktsvcp102un001 | 40.123.196.88 | 40.123.197.242 |
