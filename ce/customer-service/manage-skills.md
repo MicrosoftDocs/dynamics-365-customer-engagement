@@ -3,18 +3,18 @@ title: "Manage skills| MicrosoftDocs"
 description: "Learn how to view or remove existing skills, and add new skills using the skill control in Omnichannel for Customer Service."
 ms.date: 09/25/2021
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
+ms.reviewer: nenellim
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
 search.app: 
   - D365CE
   - D365CS
-ms.custom: 
-  - dyn365-customerservice
-ms.reviewer: nenellim
 ---
 
 # Manage skills

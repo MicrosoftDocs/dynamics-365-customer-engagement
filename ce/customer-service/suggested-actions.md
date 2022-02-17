@@ -3,8 +3,8 @@ title: "Suggested actions for a Power Virtual Agents bot | MicrosoftDocs"
 description: "Suggested actions are displayed vertically"
 ms.date: 03/04/2021
 ms.topic: article
-author: meghanalanka
-ms.author: v-mlanka
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 ms.reviewer: nenellim
 ---

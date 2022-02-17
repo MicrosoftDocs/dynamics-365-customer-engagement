@@ -1,12 +1,12 @@
 ---
 title: "Sales Insights and GDPR | Microsoft Docs"
 description: "Protect customer privacy and remain compliant with GDPR regulations when using Sales Insights add-in for Dynamics 365."
-keywords: "GDPR; data protection; privacy;"
 ms.date: 10/26/2021
 ms.topic: article
-author: KumarVivek
-ms.author: kvivek
-manager: kvivek
+author: udaykirang
+ms.author: udag
+manager: shujoshi
+keywords: "GDPR; data protection; privacy;"
 topic-status: Drafting
 ---
 # Sales Insights add-in for Dynamics 365 and GDPR 
