@@ -75,20 +75,18 @@ After you have added the SLA timer control for an SLA-enabled entity, you can cu
 :::image type="content" source="media/sla-timer_configure_property.png" alt-text="SLA timer configure property dialog":::
  - Select the **Bind to a static value** radio button.
      - Select a value from the dropdown list to enter the language code. The language code value must be of the following format:
-         - language code1=KPI instance status value:KPI instance custom label. For example, 1033=0:In progress;1:Non Compliant
-You can also enter multiple language codes by separating them with a semicolon. For example, language code1=KPI instance status value:KPI instance custom label;KPI instance status value:KPI instance custom label. The status codes that you can enter are:
+         language code1=KPI instance status value:KPI instance custom label. For example, 1033=0:In progress. You can also enter multiple language codes by separating them with a semicolon. For example, language code1=KPI instance status value:KPI instance custom label;KPI instance status value:KPI instance custom label. The status codes that you can enter are:
         1- Non compliant
         3- Paused
         4- Succeeded
         5- Canceled
 
-To know the language code or to enable/disable a language, go to **Advanced Settings**>**Administration**>**Languages**.
+        To know the language code or to enable/disable a language, go to **Advanced Settings**>**Administration**>**Languages**.
 
-   - Select the **Bind to a value on a field** radio button.
-     - Select a value from the dropdown list.
+   - Select the **Bind to a value on a field** radio button and select a value from the dropdown list.
        
-1. Select **OK**.
-1. Save and publish the solution.
+3. Select **OK**.
+4. Save and publish the solution.
 
 ## Add an out-of-the-box timer control to the Case form
 
