@@ -19,10 +19,11 @@ The following JavaScript methods can be used to perform various operations with 
 | Method | Description |
 |---------|-------------|
 | [getConversationId](reference/methods/getConversationId.md) | Gets the unique GUID of the current ongoing conversation in a session.  |
-| [linkToConversation](reference/methods/linkToConversation.md) | Links the account, contact, or incident records to the conversation in the focused session. |
-| [unlinkFromConversation](reference/methods/unlinkFromConversation.md) | Unlinks an already linked entity record of type customer (account or contact) or case from a conversation. |
 | [getConversations](reference/methods/getConversations.md) |Gets a list of conversation (`msdyn_ocliveworkitem`) records for an agent.  |
 | [openConversation](reference/methods/openConversation.md) | Opens a conversation as a session programmatically.  |
+| [linkToConversation](reference/methods/linkToConversation.md) | Links the account, contact, or incident records to the conversation in the focused session. |
+| [unlinkFromConversation](reference/methods/unlinkFromConversation.md) | Unlinks an already linked entity record of type customer (account or contact) or case from a conversation. |
+
 
 ### See also
 
