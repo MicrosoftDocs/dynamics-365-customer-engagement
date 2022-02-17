@@ -1,7 +1,7 @@
 ---
 title: "Define service-level agreements in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how to define service-level agreements in Dynamics 365 Customer Service."
-ms.date: 02/11/2022
+ms.date: 02/17/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -543,6 +543,9 @@ We recommend that you perform the following steps to upgrade a solution:
 The following limitations apply to the Unified Interface apps:
 
 - The "applicable when" and "success conditions" aren't supported and won't work as expected if they are configured for related entities.
+    - Applicable when conditions if defined on Related entity will work only for the first time when met and the KPI instance will be set to In Progress. Post that, any update on the related entity will not cancel the existing KPI instance if the conditions of the same SLA item evaluates to false or create a new one if there is a change in SLA item 
+    - Success Conditions defined on Related entity will never evaluate to true and the KPI instance once set to In Progress will never succeed even if conditions are met. It will either continue to be in In Progress or Nearing NonCompliance or NonCompliant
+    - The limitations outlined in the points above will work if the Related entity is updated as a lookup record on the target entity
 - Multiple SLA items can't be defined with the same "applicable when" criteria and different "success conditions" for an SLA.
 
 ### See also
