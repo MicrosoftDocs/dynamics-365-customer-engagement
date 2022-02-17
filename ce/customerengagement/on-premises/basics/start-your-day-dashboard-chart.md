@@ -165,13 +165,12 @@ You can try out different types of charts, and see how your data looks when you 
     - Web resource. Web resources are virtual files stored in the system. Each web resource has a unique name that can be used in a URL to retrieve the file. More information: [Create or edit web resources to extend an app](../customize/create-edit-web-resources.md)  
     - Iframe. Used to display the contents from another website. More information: [Use IFRAME and web resource controls on a form](../developer/use-iframe-and-web-resource-controls-on-a-form.md) 
 
-  7. Enter a name for your dashboard, select **Save**, and then select **Close**. 
+7. Enter a name for your dashboard, select **Save**, and then select **Close**. 
 
-     Your dashboard is displayed in the **Dashboards** area where you can share or assign it to another user or team. You can also set it as your default dashboard. 
+   Your dashboard is displayed in the **Dashboards** area where you can share or assign it to another user or team. You can also set it as your default dashboard. 
 
-     > [!div class="mx-imgBorder"] 
-     > ![Personal dashboard.](media/my-dashboard.png "Personal dashboard") 
-
+   > [!div class="mx-imgBorder"] 
+   > ![Personal dashboard.](media/my-dashboard.png "Personal dashboard") 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
 
