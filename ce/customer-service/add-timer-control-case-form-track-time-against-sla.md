@@ -1,7 +1,7 @@
 ---
 title: "Timer control for SLA-enabled entities | Microsoft Docs"
 description: "Learn how to add timer control in the case form to track time against an SLA in Dynamics 365 Customer Service."
-ms.date: 02/15/2022
+ms.date: 02/17/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -74,14 +74,18 @@ After you have added the SLA timer control for an SLA-enabled entity, you can cu
 1. In the **Configure Property Customized Label** dialog, enter the values for the following fields:
 :::image type="content" source="media/sla-timer_configure_property.png" alt-text="SLA timer configure property dialog":::
  - Select the **Bind to a static value** radio button.
-     - Select a value from the  dropdown list to enter the language code. The language code value must be of the format: <languagecode1>=<KPI instance status value>:<KPI instance custom label>, where for e.g:
-1033=0:Inprogress;1:Non Compliant. You cam also enter multiple language codes by seperating them with a semicolon. For example, <languagecode1>=<KPI instance status value>:<KPI instance custom label>;<KPI instance status value>:<KPI instance custom label>. For more information on language code, see [Regional and language options for your environment](/power-platform/admin/enable-languages).
-   - Select the **Bind to a value on a field** radio button.
-     - Select a value from the dropdown. The status codes that you can enter are: 
-        1- Noncomplaint
+     - Select a value from the dropdown list to enter the language code. The language code value must be of the following format:
+         - language code1=KPI instance status value:KPI instance custom label. For example, 1033=0:In progress;1:Non Compliant
+You can also enter multiple language codes by separating them with a semicolon. For example, language code1=KPI instance status value:KPI instance custom label;KPI instance status value:KPI instance custom label. The status codes that you can enter are:
+        1- Non compliant
         3- Paused
         4- Succeeded
         5- Canceled
+
+To know the language code or to enable/disable a language, go to **Advanced Settings**>**Administration**>**Languages**.
+
+   - Select the **Bind to a value on a field** radio button.
+     - Select a value from the dropdown list.
        
 1. Select **OK**.
 1. Save and publish the solution.
@@ -168,6 +172,8 @@ For more information, see: [Track SLA details with Timer Control](customer-servi
    - You can add a timer control to any Main or Main - Interactive experience form of other entities, but timer controls are not displayed in [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)].  
   
 ### See also  
+
+[Set and enable languages](../customerengagement/on-premises/admin/enable-languages.md#set-and-enable-languages)
 
 [Add a timer in forms to track time against enhanced SLAs](add-timer-forms-track-time-against-enhanced-sla.md)
 
