@@ -3,8 +3,8 @@ title: Diagnostics for unified routing (Dynamics 365 Customer Service) | Microso
 description: Learn how to set up routing diagnostics and understand the different stages of routing work items.
 ms.date: 02/18/2022
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 search.audienceType: 
   - admin
