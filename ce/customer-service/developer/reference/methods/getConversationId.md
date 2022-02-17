@@ -3,8 +3,8 @@ title: "getConversationId (Omnichannel for Customer Service Session API referenc
 description: "Includes information about getConversationId method, syntax, and parameters in Omnichannel for Customer Service Session API reference."
 ms.date: 10/15/2020
 ms.topic: article
-author: platkat
-ms.author: ktaylor
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.reviewer: nenellim
 ---

@@ -4,7 +4,7 @@ description: "Learn how to enable folder-level tracking to map an Exchange inbox
 ms.custom: 
 ms.date: 12/02/2021
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

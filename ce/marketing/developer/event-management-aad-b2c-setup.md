@@ -2,7 +2,7 @@
 title: "Set up event management to work with AAD B2C Build (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Provides information about how you can set up event management  web application to work with AAD B2C."
 ms.date: 02/21/2019
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

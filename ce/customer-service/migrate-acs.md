@@ -3,8 +3,8 @@ title: "Migration changes for new Omnichannel messaging platform | MicrosoftDocs
 description: "Understand the changes you'll need to make to your omnichannel implementations before January 2022 to migrate to the new Azure Bot Service channel."
 ms.date: 10/07/2021
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ---
 

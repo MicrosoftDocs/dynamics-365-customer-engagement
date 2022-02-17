@@ -3,7 +3,7 @@ title: "Configure an Internet-facing deployment | Microsoft Docs"
 description: Learn how to configure an internet-facing deployment
 ms.custom: 
 ms.date: 10/01/2018
-ms.prod: d365ce-op
+
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

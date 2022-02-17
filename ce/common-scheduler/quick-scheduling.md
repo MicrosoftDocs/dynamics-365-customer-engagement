@@ -3,7 +3,7 @@ title: "Enable quick book in Universal Resource Scheduling"
 description: "Learn how to enable and use quick scheduling (also known as quick book) to simplify the schedule assistant experience and make the process easier."
 ms.date: 06/25/2019
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.subservice: common-scheduler
 ms.topic: article
 applies_to: 

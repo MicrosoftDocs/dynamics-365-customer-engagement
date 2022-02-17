@@ -2,7 +2,7 @@
 title: "Troubleshoot domain authentication errors (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to troubleshoot domain authentication errors in Dynamics 365 Marketing."
 ms.date: 08/19/2021
-ms.service: dynamics-365-marketing
+
 ms.topic: article
 ms.custom: 
   - dyn365-marketing

@@ -4,7 +4,7 @@ description: "Entity relationships define how records can be related to each oth
 ms.custom: 
 ms.date: 11/09/2018
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: overview

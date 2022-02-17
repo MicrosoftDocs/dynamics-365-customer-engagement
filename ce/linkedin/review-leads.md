@@ -1,12 +1,14 @@
 ---
 title: "Analyze LinkedIn leads updated by Dynamics 365 Connector"
 description: "See the details of a lead that's been updated by Dynamics 365 Connector for LinkedIn Lead Gen Forms, and work with charts to review aggregate performance."
-keywords: lead, lead gen form, sponsored content, linkedin, dashboard
 ms.date: 04/02/2018
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
-manager: sakudes
+author: lavanyakr01
+ms.author: lavanyakr
+manager: shujoshi
+ms.custom: 
+  - dyn365-LinkedIn
+keywords: lead, lead gen form, sponsored content, linkedin, dashboard
 search.audienceType: 
   - admin
   - customizer
@@ -17,8 +19,6 @@ search.app:
 applies_to: 
   - Dynamics 365 Sales
 ms.assetid: c372e325-991c-4178-a507-f7f4dfcc0dd5
-ms.custom: 
-  - dyn365-LinkedIn
 ---
 
 # Analyze updated LinkedIn leads and aggregate lead performance

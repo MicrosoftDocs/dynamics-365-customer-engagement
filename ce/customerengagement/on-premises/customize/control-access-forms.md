@@ -4,7 +4,7 @@ description: "There are two ways to control access to main forms. Learn how to m
 ms.custom: 
 ms.date: 06/18/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

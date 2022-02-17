@@ -4,7 +4,7 @@ description: "Learn which scenarios are and aren't supported by server-side sync
 ms.custom: 
 ms.date: 05/19/2020
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

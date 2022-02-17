@@ -1,12 +1,12 @@
 ---
 title: "Bring your own carrier | MicrosoftDocs"
 description: "Use this topic to understand how you can bring your own carrier to Dynamics 365 via Azure direct routing."
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
 ms.date: 02/03/2022
-ms.topic: article
 ms.service: dynamics-365-customerservice
+ms.topic: article
+author: neeranelli
+ms.author: nenellim
+manager: shujoshi
 ---
 
 # Bring your own carrier
@@ -20,8 +20,6 @@ ms.service: dynamics-365-customerservice
 ## Prerequisites
 
 The following prerequisites must be met:
-
-- Provision the voice channel in Omnichannel for Customer Service. More information: [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)
 
 - Connect to an Azure Communication Services resource to bring in your carrier via Azure direct routing. You must then set up Azure direct routing for the connected Azure resource.
 
@@ -38,11 +36,26 @@ The following prerequisites must be met:
 
 ## Bring your own phone number via Azure direct routing
 
-1. In the site map of Omnichannel admin center, in **General settings**, select **Phone numbers**, and then select **Advanced**.
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-2. Select **Add Number** next to **Bring your own number via Azure Direct Routing (preview)**.
+    1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
+    
+    2. Select **Manage** for **Phone numbers**.
 
-3. In the **Add your own phone number** dialog, enter the following details:
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+
+    - In the site map, select **Phone numbers** in **General settings**.
+
+1. Select **Advanced** on the menu.
+
+1. Select **Add Number** for **Bring your own number via Azure Direct Routing (preview)**.
+
+1. In the **Add your own phone number** dialog, enter the following details:
 
     - **Phone number**: Indicates the phone number that you own and have configured in your SBC.
 

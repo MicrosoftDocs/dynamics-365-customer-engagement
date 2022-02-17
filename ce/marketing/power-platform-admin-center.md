@@ -2,7 +2,7 @@
 title: "Open and use the Power Platform admin center (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to open and use the Power Platform admin center to manage your Dynamics 365 Marketing instances."
 ms.date: 09/02/2020
-ms.service: dynamics-365-marketing
+
 ms.custom:
   - dyn365-admin
   - dyn365-marketing

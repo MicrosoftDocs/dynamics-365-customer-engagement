@@ -2,7 +2,7 @@
 title: "Work with contact, account, and lead records (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to find, create and use contact, account, and lead records in Dynamics 365 Marketing."
 ms.date: 10/11/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

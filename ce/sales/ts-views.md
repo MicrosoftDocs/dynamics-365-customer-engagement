@@ -5,7 +5,7 @@ ms.date: 06/30/2020
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 ---
 # Troubleshooting entity views  
 

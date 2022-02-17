@@ -1,12 +1,12 @@
 ---
 title: "Block spam numbers in the voice channel | MicrosoftDocs"
 description: "Use this topic to understand how to review, mark, and block spam numbers in Omnichannel for Customer Service."
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
 ms.date: 01/04/2022
-ms.topic: article
 ms.service: dynamics-365-customerservice
+ms.topic: article
+author: gandhamm
+ms.author: mgandham
+manager: shujoshi
 ---
 
 # Block spam numbers
@@ -19,11 +19,28 @@ In Omnichannel for Customer Service, as an administrator, you can block spam pho
 
 ## Review phone numbers marked as spam
 
+You can review phone numbers marked as spam in the Customer Service admin center (preview) or Omnichannel admin center app.
+
 **To review phone numbers marked as spam**
 
-1. In the site map of Omnichannel admin center, go to **Advanced settings** > **Customer settings**.
+1. Go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-2. In the **Customer experience** area, select **Blocked numbers**, and then select **Manage**.
+     1. In the site map, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
+     1. In the **Blocked numbers** section, select **Manage**.
+
+     The **Blocked numbers** page is displayed.      
+
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+    
+     1. In the site map, select **Customer Settings** in **Advanced settings**. The **Customer settings** page appears.
+     2. In the **Blocked numbers** section, select **Manage**.
+
+      The **Blocked numbers** page is displayed. 
 
 3. In the **Blocked numbers** section, you can do the following:
 
@@ -35,10 +52,8 @@ In Omnichannel for Customer Service, as an administrator, you can block spam pho
     - **Blocked** tab - Shows the list of phone numbers that have been blocked as spam.
 
 ## Manually block phone numbers
-
-1. In the site map of Omnichannel admin center, go to **Advanced settings** > **Customer settings**.
   
-2. In the **Customer experience** area, select **Blocked numbers**, and then select **Manage**.
+1. Navigate to **Blocked numbers** and select **Manage**.
 
 3. Select **Block a number**.
 
@@ -50,9 +65,7 @@ You can set conditions so that some numbers are automatically added to the block
 
 **To automatically block phone numbers as spam**
 
-1. In the site map of Omnichannel admin center, go to **Advanced settings** > **Customer settings**.
-
-2. In the **Customer experience** area, select **Blocked numbers**, and then select **Manage**.
+1. Navigate to **Blocked numbers**, and select **Manage**.
 
 3. In the **Auto-block** section, select **Set up**.
 
