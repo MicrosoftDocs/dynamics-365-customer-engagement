@@ -1,12 +1,12 @@
 ---
 title: "Block spam numbers in the voice channel | MicrosoftDocs"
 description: "Use this topic to understand how to review, mark, and block spam numbers in Omnichannel for Customer Service."
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
 ms.date: 01/04/2022
+ms.service: dynamics-365-customerservice
 ms.topic: article
-
+author: gandhamm
+ms.author: mgandham
+manager: shujoshi
 ---
 
 # Block spam numbers

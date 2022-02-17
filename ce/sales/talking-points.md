@@ -2,11 +2,11 @@
 title: "Know conversation starters through talking points"
 description: "Use talking points to automatically identify conversation starters of your customers before you interact with them."
 ms.date: 10/31/2018
-ms.custom: 
 ms.topic: article
-author: udag
+author: udaykirang
 ms.author: udag
 manager: shujoshi
+ms.custom: 
 topic-status: Drafting
 ---
 # Know conversation starters for your customers  

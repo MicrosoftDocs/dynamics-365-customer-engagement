@@ -1,12 +1,14 @@
 ---
 title: "Authorize Dynamics 365 apps to use LinkedIn account data"
 description: "Before you can sync leads to your organization, follow these steps to authorize the Dynamics 365 Connector for LinkedIn Lead Gen Forms to use LinkedIn data."
-keywords: LinkedIn Lead Gen Connector, connection
 ms.date: 04/02/2018
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
-manager: sakudes
+author: lavanyakr01
+ms.author: lavanyakr
+manager: shujoshi
+ms.custom: 
+  - dyn365-LinkedIn
+keywords: LinkedIn Lead Gen Connector, connection
 search.audienceType: 
   - admin
   - customizer
@@ -18,8 +20,6 @@ applies_to:
   - Dynamics 365 Sales
 ms.assetid: 4140669d-2155-4f43-a4fc-253b67e42f7d
 topic-status: Drafting
-ms.custom: 
-  - dyn365-LinkedIn
 ---
 
 # Authorize Dynamics 365 Connector for LinkedIn Lead Gen Forms to use LinkedIn data

@@ -3,8 +3,8 @@ title: "Download Omnichannel for Customer Service transcripts in bulk | Microsof
 description: "Learn about transcripts in Omnichannel for Customer Service and how to download them in bulk using Web API requests."
 ms.date: 02/10/2021
 ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ---
 # Download Omnichannel for Customer Service transcripts in bulk

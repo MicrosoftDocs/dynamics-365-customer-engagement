@@ -3,8 +3,8 @@ title: "linkToConversation (Omnichannel for Customer Service Session API referen
 description: "Includes information about linkToConversation method, syntax, and parameters in Omnichannel for Customer Service Session API reference."
 ms.date: 10/20/2020
 ms.topic: article
-author: platkat
-ms.author: ktaylor
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.reviewer: nenellim
 ---
