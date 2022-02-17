@@ -3,8 +3,8 @@ title: "Migration tool FAQs | MicrosoftDocs"
 description: "Migration tool FAQs for  Automatic record creation rules and service-level agreement items"
 ms.date: 10/05/2020
 ms.topic: article
-author: lerobbin
-ms.author: lerobbin
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.reviewer: nenellim
 ---

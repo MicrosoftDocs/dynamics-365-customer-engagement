@@ -1,13 +1,14 @@
 ---
 title: "Set up outbound calling in the voice channel | MicrosoftDocs"
 description: "Use this topic to understand how you can set up outbound calling for phone numbers in your organization."
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
-ms.date: 02/11/2022
+ms.date: 11/02/2021
+ms.service: dynamics-365-customerservice
 ms.topic: article
-ms.custom: intro-internal
-
+author: neeranelli
+ms.author: nenellim
+manager: shujoshi
+ms.custom: 
+  - intro-internal
 ---
 
 # Set up outbound calling

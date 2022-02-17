@@ -3,8 +3,8 @@ title: "Customize chat widgets using data tags | MicrosoftDocs"
 description: "Use this topic to understand how you can customize chat widgets by using data tags on the chat widget script in Omnichannel admin center and Omnichannel Administration apps."
 ms.date: 11/10/2021
 ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ---
 # Customize chat widgets using data tags
