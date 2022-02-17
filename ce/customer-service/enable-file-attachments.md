@@ -3,8 +3,8 @@ title: "Enable file attachments | MicrosoftDocs"
 description: "Enable file attachments in messaging channels in Omnichannel for Customer Service."
 ms.date: 08/25/2020
 ms.topic: article
-author: platkat
-ms.author: ktaylor
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ms.reviewer: nenellim
 ---

@@ -1,12 +1,12 @@
 ---
 title: "Manage phone numbers | MicrosoftDocs"
 description: "Use this topic to understand how you can acquire new phone numbers, and also view, update, and release existing phone numbers in Omnichannel for Customer Service."
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
-ms.date: 02/11/2022
+ms.date: 11/02/2021
+ms.service: dynamics-365-customerservice
 ms.topic: article
-
+author: gandhamm
+ms.author: mgandham
+manager: shujoshi
 ---
 
 # Manage phone numbers

@@ -1,25 +1,25 @@
 ---
 title: "Basic vs Enhanced Collaboration in Microsoft Teams"
-ms.custom: 
 description: "Learn about the differences between Basic and Enhanced Collaboration in Microsoft Teams, including the permissions, connection setups, and more."
-ms.date: 8/26/2020
-ms.reviewer: 
-
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.date: 08/26/2020
+ms.service: crm-online
 ms.topic: article
-applies_to: 
-  - Dynamics 365 apps
-ms.assetid: 8097c9ec-023b-407d-ac0e-074b5e1964a5
-caps.latest.revision: 1
-author: mduelae
-ms.author: mkaur
-manager: kvivek
+author: sbmjais
+ms.author: shjais
+manager: shujoshi
+ms.reviewer: 
+ms.custom: 
 search.audienceType: 
   - enduser
 search.app: 
   - D365CE
   - Powerplatform
+applies_to: 
+  - Dynamics 365 apps
+ms.assetid: 8097c9ec-023b-407d-ac0e-074b5e1964a5
+ms.suite: 
+ms.tgt_pltfrm: 
+caps.latest.revision: 1
 ---
 # Difference between the Basic and Enhanced Collaboration Experience with Microsoft Teams 
 

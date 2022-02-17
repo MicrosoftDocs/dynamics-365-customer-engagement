@@ -3,9 +3,11 @@ title: Deprecations in Dynamics 365 Customer Service | MicrosoftDocs
 description: "Use this topic to get information about features that are deprecated in Dynamics 365 Customer Service."
 ms.date: 06/08/2021
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -13,8 +15,6 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
-ms.custom: 
-  - dyn365-customerservice
 ---
 
 # Deprecations in Customer Service
