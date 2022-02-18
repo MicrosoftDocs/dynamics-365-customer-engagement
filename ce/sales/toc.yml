@@ -282,7 +282,7 @@
       href: forecast-configure-advanced-settings.md
     - name: Activate and upload simple columns data
       href: activate-upload-simple-columns-data-forecast.md
-    - name: Select the default forecast
+    - name: Select a default forecast
       href: select-default-forecast.md
     - name: Deactivate and delete forecast
       href: deactivate-delete-forecast.md

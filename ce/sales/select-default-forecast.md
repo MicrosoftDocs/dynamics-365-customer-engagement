@@ -1,5 +1,5 @@
 ---
-title: "Select a default forecast configuration"
+title: "Select a default forecast"
 description: "When you have multiple forecast configurations, you can select the most used forecast configuration as the default."
 ms.date: 02/15/2022
 ms.topic: article
@@ -14,11 +14,11 @@ searchScope:
   - Sales
   - Customer Engagement
 ---
-# Select a default forecast configuration
+# Select a default forecast
 
-When you have multiple forecast configurations, you can select the most used forecast configuration as the default. When users open the forecasts page, the default forecast is displayed.  
+When you have multiple forecast configurations, you can select the most used one as the default forecast. When a user open the forecasts page, the default forecast is displayed until they switch to a different forecast.  
 
-**To select a default forecast configuration:**
+**To select a default forecast:**
   
 1.  In the **Sales Hub** app, select the Change area icon ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area"), and then select **App Settings**.    
 
@@ -30,7 +30,7 @@ When you have multiple forecast configurations, you can select the most used for
 
     :::image type="content" source="media/default-forecast.png" alt-text="Screenshot of the Set as default option."::: 
  
-4. To verify, switch to the **Sales**area and open the Forecasts page from **Performance** > **Forecasts**.
+4. To verify, switch to the **Sales** area and open the Forecasts page from **Performance** > **Forecasts**.
     
     The forecast configuration that you selected as the default is displayed.
     > [!NOTE]
