@@ -48,7 +48,7 @@ To create a new field, select **+Add column**.
 > [!div class="mx-imgBorder"]
 > ![Power Apps showing the edit panel for a new column.](./media/customization-form-create-fields2.png)
 
-Do not add new fields to the form yet, review the topic on [customizing Field Service forms](field-service-customize-forms.md) before doing so.
+Save your changes.
 
 ## Edit fields
 
