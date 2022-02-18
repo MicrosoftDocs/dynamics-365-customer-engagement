@@ -1,7 +1,7 @@
 ---
 title: "Configure an SMS channel using Azure Communication Services | MicrosoftDocs"
 description: "Get instructions for configuring an SMS channel in Omnichannel for Customer Service using Azure Communication Services."
-ms.date: 11/30/2021
+ms.date: 02/18/2022
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -15,7 +15,7 @@ manager: shujoshi
 The SMS channel in Omnichannel for Customer Service allows your organization to connect to customers via text messages. Your customers can send text messages and connect with an appropriate customer service agent. Agents can view incoming SMS requests on their dashboard and respond accordingly. You can use the same phone number for both the SMS channel, and for inbound and outbound calling in the voice channel.
 
 > [!NOTE]
-> - SMS is currently available for toll-free numbers in the United States only. 
+> - SMS is currently available for toll-free numbers in the United States only, and only works for inbound communication. Outbound (agent-initiated) SMS is not currently supported.
 > - SMS is not supported with [Azure direct routing](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing).
 
 ## Prerequisites
