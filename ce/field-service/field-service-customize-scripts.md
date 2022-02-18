@@ -1,5 +1,5 @@
 ---
-title: "How to write scripts to implement complex business logic in Field Service | MicrosoftDocs"
+title: "How to write scripts to implement complex business logic in Dynamics 365 Field Service | MicrosoftDocs"
 description: description
 ms.custom:
 - dyn365-fieldservice
@@ -21,92 +21,91 @@ search.app:
 
 # Write scripts to implement complex business logic in Field Service
 
-In some Field Service implementations, there are functionalities and complex business logic requested by the stakeholders which go beyond the processes offered by the default "out-of-the-box" Field Service app and even beyond the platform options like workflow and business rules. For these requirements developers may write custom code to execute complex requirements.
+In some Field Service implementations, there are functionalities and complex business logic that go beyond the processes offered by out-of-the-box Field Service; sometimes, these complexities even extend beyond the platform options, like workflow and business rules. For complex requirements, developers can create custom code.
 
-Implementing complex business logic typically involves writing [plugins](https://docs.microsoft.com/en-us/powerapps/developer/data-platform/plug-ins) on the server side and [JavaScript web resources](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/clientapi/client-scripting?view=op-9-1) on the client side.  
+Implementing complex business logic typically involves writing [plugins](/powerapps/developer/data-platform/plug-ins) on the server side and [JavaScript web resources](/dynamics365/customerengagement/on-premises/developer/clientapi/client-scripting?view=op-9-1) on the client side.  
 
+In this article, we'll explore these best practices: 
 
-**Plugins** allow you to write your own custom functionality on top of Microsoft’s event-driven dynamics platform for just about any process you can imagine.
+- Research existing Field Service processes and capabilities before writing any scripts
+- Avoid writing scripts when possible and try using platform options like Power Automate and workflow first.
+- Run scripts asynchronously instead of synchronously
+- Avoid loading scripts onload of a form and instead only load them when needed
+- Run solution checker on scripts
+- Don't edit or delete existing form libraries
 
-A plug-in is a custom business logic that integrates with Microsoft Dynamics 365 to modify or extend the standard behavior of the platform. Plug-ins act as event handlers and are registered to execute on a particular event in CRM. Plugins are written in either C# or VB and can run either in synchronous or asynchronous mode.
+## Types of scripts
 
-Some scenarios where you could write a plugin are: 
+### Plugins
 
-- You want to execute some business logic such as updating certain fields of a record or updating related records, etc. when you create or update a Dynamics 365 record.
-- You want to call an external web service on certain events such as saving or updating a record.
-- You want to dynamically calculate the field values when any record is opened.
-- You want to automate processes such as sending e-mails to your customers on certain events in CRM.
+Plugins allow you to write your own custom functionality on top of Microsoft’s event-driven Dynamics 365 platform for just about any process you can imagine. Plugins act as event handlers and are registered to execute on a particular event in Dynamics 365. Plugins are written in either C# or Visual Basic and can run either in synchronous or asynchronous mode.
 
-**JavaScript** is one of the ways to apply custom business process logic for displaying data on a form in Dynamics 365. In the context of Field Service, developers may add JavaScript to the work order and booking forms to enforce business logic. They may also add JavaScript to the Schedule Board to create booking rules that perform validations when a booking is created on the schedule board (see note at the end of this article).
+Custom plugins can help: 
 
+- Execute some business logic, such as updating certain fields of a record or updating related records when you create or update a Dynamics 365 record.
+- Call an external web service on certain events, such as saving or updating a record.
+- Dynamically calculate the field values when any record is opened.
+- Automate processes, such as sending e-mails to your customers on certain events in Dynamics 365.
 
+### JavaScript web resources
+
+JavaScript is one of the ways to apply custom business process logic for displaying data on a form in Dynamics 365. In the context of Field Service, developers may add JavaScript to the work order and booking forms to enforce business logic. They may also add JavaScript to the schedule board to create booking rules that perform validations when a booking is created on the schedule board.
 
 ## Step 1: Understand the risks of writing custom scripts
 
-> [!Note]
-> Adding plugins and JavaScript to your Field Service app requires a lot of caution. In fact, too many scripts or poorly written scripts is the top reason for poor performance, errors, and troubled Field Service implementations. It is recommended to only write scripts if the customization is absolutely critical to run your Field Service operation. Read this article and related content thoroughly before, during and after writing scripts.
+Use caution when adding plugins and JavaScript to your Field Service implementation. Too many scripts or poorly written scripts is the leading cause for poor performance, and errors. Only write scripts if the customization is critical to run your Field Service operation. 
 
+Read this article and related content thoroughly before, during, and after writing and implementing scripts.
 
-## Step 2: Check if Field Service or Dynamics 365 can accomplish the requirement 
-Before writing a plugin or JavaScript web resource it is important to check if the Field Service app or another Dynamics 365 app can accomplish the same or similar function. Unfortuantely many people write scripts to accomplish functions that already exist. Not only is this a waste of time and money, but duplicate processes can cause errors and performance issues.
+## Step 2: Check if Field Service or Dynamics 365 can accomplish the requirement
 
+Before writing a plugin or JavaScript web resource, make sure to check if Field Service or another Dynamics 365 app can accomplish the same or similar function. Duplicate processes can cause errors and performance issues.
 
 ## Step 3: Try using platform options first
 
-Before writing a custom script, try to accomplish your requirement with platform options like Power Automate, workflows and business rules. Can't fulfill your requirement with platform options? Decide if a workflow can get close enough to help your business. Using platform options is more scalable, supportable, is less likely to break with upgrades, and is better for performance.
+Before writing a custom script, try to accomplish your requirement with platform options like Microsoft Power Automate, workflows, and business rules. 
 
-View the following topic to understand [when to use plugins or workflows](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/best-practices-sdk?view=op-9-1#when-to-use-plug-ins-vs-workflow).
+Can't fulfill your requirement with platform options? Decide if a workflow can get close enough to help your business. Platform options are more scalable, supportable, are less likely to break with upgrades, and are better for performance.
+
+For more information on using platform options, see this article on [when to use plugins or workflows](/dynamics365/customerengagement/on-premises/developer/best-practices-sdk?view=op-9-1#when-to-use-plug-ins-vs-workflow).
 
 ## Step 4: Review best practices before writing plugins or scripts
 
 Many best practices have been established from experience with developers across thousands of Dynamics 365 implementations. Review best practices listed below before and during writing plugins or scripts. 
 
-- [Best practices and guidance regarding plug-in and workflow development for the Microsoft Dataverse](https://docs.microsoft.com/powerapps/developer/data-platform/best-practices/business-logic/)
-- [Best practices and guidance of client side scripting for model-driven apps](https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/best-practices/business-logic/)
-- [Best practices for developing with Dynamics 365 Customer Engagement](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/best-practices-sdk?view=op-9-1)
-- [Make intelligent customizations when you use JavaScript on forms](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/design-performant-forms#javascript-customization)
-- [Scalable Customization Design in Microsoft Dataverse](https://docs.microsoft.com/en-us/powerapps/developer/data-platform/scalable-customization-design/overview)
+- [Best practices and guidance regarding plug-in and workflow development for the Microsoft Dataverse](/powerapps/developer/data-platform/best-practices/business-logic/)
+- [Best practices and guidance of client side scripting for model-driven apps](/powerapps/developer/model-driven-apps/best-practices/business-logic/)
+- [Best practices for developing with Dynamics 365 Customer Engagement](/dynamics365/customerengagement/on-premises/developer/best-practices-sdk?view=op-9-1)
+- [Make intelligent customizations when you use JavaScript on forms](/powerapps/maker/model-driven-apps/design-performant-forms#javascript-customization)
+- [Scalable Customization Design in Microsoft Dataverse](/powerapps/developer/data-platform/scalable-customization-design/overview)
 
 ## Step 5: Use tools to test your scripts
 
-After writing scripts it is required to test them.
+After writing scripts, you must test them.
 
-First [use Solution Checker to validate your model-driven apps in Power Apps](https://docs.microsoft.com/powerapps/maker/data-platform/use-powerapps-checker). This will identify if the scripts violate best practices like running [synchronously instead of asynchronously](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/best-practices-sdk?view=op-9-1#when-to-use-plug-ins-vs-workflow). 
+First, [use Solution Checker to validate your model-driven apps in Power Apps](/powerapps/maker/data-platform/use-powerapps-checker). Solution Checker will identify if the scripts violate best practices, like running [synchronously instead of asynchronously](/dynamics365/customerengagement/on-premises/developer/best-practices-sdk?view=op-9-1#when-to-use-plug-ins-vs-workflow).
 
-Next, use [Plug-in Profiler](https://docs.microsoft.com/en-us/powerapps/developer/data-platform/tutorial-debug-plug-in?tabs=prt) to debug issues.
-
-
-## Summary of recommended best practices
-
-- Research existing Field Service processes and capabilities before writing any scripts
-- Avoid writing scripts when possible and try using platform options like Power Automate and workflow first.
-- Review best practices 
-- Run scripts asynchronously instead of synchronously
-- Avoid loading scripts onload of a form and isntead only load them when needed
-- Run solution checker on scripts
-- Do not edit or delete existing form libraries 
-
+Next, use [plugin profiler](/powerapps/developer/data-platform/tutorial-debug-plug-in?tabs=prt) to debug issues.
 
 ## Form libraries
 
-Many Field Service entities, like work orders (as shown in the image below), have JavaScript form libraries that are included by default with Field Service. These libraries perform important processes.
+Many Field Service record types, like work orders (as shown in the following image), have JavaScript form libraries that are included by default with Field Service. These libraries perform important processes.
 
 > [!Note]
-> Do not edit or delete form libraries.
-
+> Don't edit or delete form libraries.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/customization-form-libraries.png)
+> ![Power Apps form showing a work order.](./media/customization-form-libraries.png)
 
-## JavaScript on the Schedule board (Booking rules)
+## JavaScript on the Schedule board (booking rules)
 
-Booking rules are a way of using JavaScript to perform validations on the schedule board. However just like using JavaScript on other forms like work orders, you must use caution. It is recommended to not create more than 1 booking rule. Consider using [booking alerts](booking-alert) to alert dispatchers of issues instead. 
+Booking rules are a way of using JavaScript to perform validations on the schedule board. However, just like using JavaScript on other forms like work orders, proceed with caution. Don't create more than one booking rule. Consider instead using [booking alerts](booking-alert.md) to alert dispatchers of issues.
 
 ### See also
 
-- [Create or edit model-driven app web resources to extend an app](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/create-edit-web-resources)
-- [Client scripting in Customer Engagement using JavaScript](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/clientapi/client-scripting?view=op-9-1)
-- [Script (JScript) web resources](https://docs.microsoft.com/en-us/powerapps/developer/model-driven-apps/script-jscript-web-resources)
-- [Use plug-ins to extend business processes](https://docs.microsoft.com/en-us/powerapps/developer/data-platform/plug-ins)
-- [Access external web services](https://docs.microsoft.com/en-us/powerapps/developer/data-platform/access-web-services)
-- [Analyze plug-in performance](https://docs.microsoft.com/en-us/powerapps/developer/data-platform/analyze-performance)
+- [Create or edit model-driven app web resources to extend an app](/powerapps/maker/model-driven-apps/create-edit-web-resources)
+- [Client scripting in Customer Engagement using JavaScript](/dynamics365/customerengagement/on-premises/developer/clientapi/client-scripting?view=op-9-1)
+- [Script (JScript) web resources](/powerapps/developer/model-driven-apps/script-jscript-web-resources)
+- [Use plugins to extend business processes](/powerapps/developer/data-platform/plug-ins)
+- [Access external web services](/powerapps/developer/data-platform/access-web-services)
+- [Analyze plug-in performance](/powerapps/developer/data-platform/analyze-performance)
