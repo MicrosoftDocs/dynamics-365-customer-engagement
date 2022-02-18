@@ -19,14 +19,14 @@ In some Field Service implementations, there are functionalities and complex bus
 
 Implementing complex business logic typically involves writing [plugins](/powerapps/developer/data-platform/plug-ins) on the server side and [JavaScript web resources](/dynamics365/customerengagement/on-premises/developer/clientapi/client-scripting?view=op-9-1) on the client side.  
 
-In this article, we'll explore these best practices: 
+In this article, we'll explore these best practices:
 
-- Research existing Field Service processes and capabilities before writing any scripts
+- Research existing Field Service processes and capabilities before writing any scripts.
 - Avoid writing scripts when possible and try using platform options like Power Automate and workflow first.
-- Run scripts asynchronously instead of synchronously
-- Avoid loading scripts onload of a form and instead only load them when needed
-- Run solution checker on scripts
-- Don't edit or delete existing form libraries
+- Run scripts asynchronously instead of synchronously.
+- Avoid loading scripts onload of a form and instead only load them when needed.
+- Run solution checker on scripts.
+- Don't edit or delete existing form libraries.
 
 ## Types of scripts
 
@@ -34,7 +34,7 @@ In this article, we'll explore these best practices:
 
 Plugins allow you to write your own custom functionality on top of Microsoft’s event-driven Dynamics 365 platform for just about any process you can imagine. Plugins act as event handlers and are registered to execute on a particular event in Dynamics 365. Plugins are written in either C# or Visual Basic and can run either in synchronous or asynchronous mode.
 
-Custom plugins can help: 
+Custom plugins can help:
 
 - Execute some business logic, such as updating certain fields of a record or updating related records when you create or update a Dynamics 365 record.
 - Call an external web service on certain events, such as saving or updating a record.
@@ -91,7 +91,7 @@ Many Field Service record types, like work orders (as shown in the following ima
 > [!div class="mx-imgBorder"]
 > ![Power Apps form showing a work order.](./media/customization-form-libraries.png)
 
-## JavaScript on the Schedule board (booking rules)
+## JavaScript on the schedule board (booking rules)
 
 Booking rules are a way of using JavaScript to perform validations on the schedule board. However, just like using JavaScript on other forms like work orders, proceed with caution. Don't create more than one booking rule. Consider instead using [booking alerts](booking-alert.md) to alert dispatchers of issues.
 

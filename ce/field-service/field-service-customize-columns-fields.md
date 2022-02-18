@@ -23,6 +23,7 @@ Follow these best practices when creating and editing columns:
 - Field display names and labels can be edited.
 - Field properties can't be edited.
 - Optional fields can be made required, but required fields can't be made optional.
+- Don't delete existing fields.
 
 > [!Important]
 > Don't delete existing fields. Deleting fields can cause important processes to fail causing errors. You can simply hide or remove fields from the forms so that users cannot see them.
