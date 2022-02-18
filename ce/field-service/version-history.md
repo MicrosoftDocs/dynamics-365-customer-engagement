@@ -59,9 +59,9 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 (Includes Universal Resource Scheduling version [3.12.71.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#3127116)).
 
-- Field Service (D365) Mobile will correctly show times adjusted for Daylight Savings on the Booking Calendar control.
-- Field Service Admins will see a notification within D365 Field Service if their organization is using Field Service Mobile -Xamarin application. This notification will inform   users of upcoming [End-of-Life](https://docs.microsoft.com/en-us/dynamics365/field-service/activate-fs-mobile-app-license) timeline for the legacy mobile application. 
-- Fixed a bug in Field Service (D365) Mobile app to prevent an intermittent error from displaying after clicking a Push Notification.
+- Field Service (Dynamics 365) mobile will correctly show times adjusted for daylight saving time on the booking calendar control.
+- Field Service admins will see a notification within Dynamics 365 Field Service if their organization is using Field Service Mobile (Xamarin app). This notification will inform users of the upcoming [end-of-Life](/dynamics365/field-service/activate-fs-mobile-app-license) timeline for Field Service Mobile (Xamarin app). 
+- Fixed a bug in the Field Service (Dynamics 365) mobile app to prevent an intermittent error from displaying after selecting a push notification.
 
 
 ## 8.8.59.26
