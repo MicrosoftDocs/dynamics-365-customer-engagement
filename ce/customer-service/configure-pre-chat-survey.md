@@ -16,7 +16,7 @@ ms.topic: article
 
 For the chat channel, you can configure a survey that users can respond to when they access the widget to start a conversation.
 
-**To configure pre-conversation survey**
+**To configure a pre-conversation survey**
 
 1. Go to one of the apps, and perform the following steps.
    
