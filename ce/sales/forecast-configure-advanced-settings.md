@@ -53,7 +53,14 @@ As an administrator or forecast manager, turn on the **Multi-currency selection*
 
 ## Set the default experience for underlying records 
 
-The underlying records of a forecast displays the records that contribute to the forecast calculation. These records are displayed in a grid view with no grouping or <what's the default view selected?>. As an administrator or forecast manager, you can define the default experience for each forecast configuration. 
+As an administrator or forecast manager, you can define the default experience for each forecast configuration based on your forecast users' preferences. For example, if your users prefer a Kanban view instead of grid view, you can set the Kanban view as the default. You can define the following default settings:
+
+- [Set Kanban as default view](#set-kanban-as-default-view)
+
+- [Select the default group by attribute](#select-the-default-group-by-attribute)
+- [Select a default view](#select-a-default-view)
+
+ 
 
 > [!NOTE]
 > The most recent selection of the user overrides the default selection for that user. For example, if the default view for the underlying records is Kanban and a user switches to the grid view, then the underlying records will open in the grid view when they access it next time. 
@@ -62,22 +69,36 @@ The underlying records of a forecast displays the records that contribute to the
 ### Set Kanban as default view
 
 The underlying records of a forecast can be displayed in a grid/table view or Kanban view. If you want to set Kanban as the default view for the selected forecast configuration, enable the **Set kanban as default** option in the  **Advanced** step of the forecast configuration.
- 
 
-<<Add screenshot>> 
+The following screenshot illustrates how enabling the Kanban option displays the Kanban view by default for the underlying forecast records: 
 
-
-### Select a default view
-
-You might want users to view the underlying records using a specific view to give the most relevant information about the forecast. You can select such a view as the default view for the forecast configuration.  
-
-Select the default view from the **Default underlying records view** dropdown in the **Advanced** step of the forecast configuration.
+:::image type="content" source="media/forecast-default-kanban.png" alt-text="Screenshot of Kanban default and kanban view":::
 
 ### Select the default group by attribute
 
 As an administrator or forecast manager, you can select an attribute for grouping the underlying records by default. Users can change the grouping attribute in their view and that selection will override the default grouping attribute.
 
+> [!NOTE]
+> The group by option is only supported in the grid/table view. If you want to group the records, then disable the **Set kanban as default** option. If you select both Kanban and grouping, then the default view will be set to Kanban; Groups will appear only when the user switches to the table/grid view.
+
 Select the attribute from the **Default underlying records group by attribute (Preview)** dropdown in the **Advanced** step of the forecast configuration.
+
+The following screenshot illustrates how selecting the attribute groups the underlying records by default:
+
+:::image type="content" source="media/forecast-default-group.png" alt-text="Screenshot of group by default attributed and grouped records":::
+
+### Select a default underlying records view
+
+You might want users to view the underlying records using a specific view (such as My Open Opportunities) to give the most relevant information about the forecast. You can select such a view as the default view for the forecast configuration. 
+
+> [!NOTE]
+> View selection is only supported in the grid/table view. If you want to open the records in a specific view by default, then disable the **Set kanban as default** option. If you select both Kanban and the view, then the records will open in Kanban; The default records view will appear only when the user switches to the table/grid view. 
+
+Select the default view from the **Default underlying records view** dropdown in the **Advanced** step of the forecast configuration.
+
+The following screenshot illustrates how selecting a view displays the underlying records in that view by default:
+
+:::image type="content" source="media/forecast-default-records-view.png" alt-text="Screenshot of default underlying records view and view selection":::
 
 ## Enable prediction factors
 

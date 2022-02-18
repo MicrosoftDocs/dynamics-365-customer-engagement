@@ -1,6 +1,6 @@
 ---
 title: "Select a default forecast configuration"
-description: "Select a forecast as the default for the  "
+description: "When you have multiple forecast configurations, you can select the most used forecast configuration as the default."
 ms.date: 02/15/2022
 ms.topic: article
 author: lavanyakr01
