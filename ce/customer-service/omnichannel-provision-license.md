@@ -1,7 +1,7 @@
 ---
 title: "Provision Omnichannel for Customer Service | MicrosoftDocs"
 description: "Perform the steps in this topic to provision Omnichannel for Customer Service and add channels so that can you start using the product."
-ms.date: 02/03/2022
+ms.date: 02/18/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -35,8 +35,15 @@ You can provision the following channels in Omnichannel for Customer Service:
 
 To provision the Omnichannel for Customer Service application, complete the following prerequisites:
 
-- Obtain an active subscription of Chat for Dynamics 365 Customer Service or Dynamics 365 Digital Messaging. More information: [Pricing](https://dynamics.microsoft.com/customer-service/pricing/), Dynamics 365 Licensing Guide, and [How to purchase through Volume Licensing](https://www.microsoft.com/en-us/licensing/how-to-buy/how-to-buy). You can also get a free 30-day trial if you have the required prerequisites. More information: [Try channels for Dynamics 365 Customer Service](try-channels.md).
+- Obtain an active subscription of Chat for Dynamics 365 Customer Service or Dynamics 365 Digital Messaging.
+
+- Obtain an active subscription of the voice channel.
+  
+   > [!NOTE]
+   > More information: [Pricing](https://dynamics.microsoft.com/customer-service/pricing/), Dynamics 365 Licensing Guide, and [How to purchase through Volume Licensing](https://www.microsoft.com/en-us/licensing/how-to-buy/how-to-buy). You can also get a free 30-day trial if you have the required prerequisites. More information: [Try channels for Dynamics 365 Customer Service](try-channels.md).
+
 - Set up the prerequisites mentioned in the system requirements. More information: [Prerequisites](system-requirements-omnichannel.md#prerequisites).
+
 - Ensure that the provisioning user has the following permissions:
     - Microsoft 365 Global Admin role. More information: [Assign Admin roles to user in Microsoft Office 365](/microsoft-365/admin/add-users/assign-admin-roles)
     - Dynamics 365 System Administrator role on the root business unit for your organization. More information: [Assign security roles to a user in Power Platform](/power-platform/admin/assign-security-roles) and [Create or edit business units](/power-platform/admin/create-edit-business-units)
@@ -56,13 +63,13 @@ Use the following steps to allow Omnichannel for Customer Service to read and wr
 
 > For more information about app permissions, see [Azure app Power BI API permissions](/power-bi/developer/embedded/power-bi-permissions) and [Data access consent to provision Omnichannel for Customer Service](data-access-consent.md).
 
-## Set up Omnichannel for Customer Service
+## Set up Omnichannel for Customer Service<a name="set-up-omnichannel> </a>
 
-1. In **Power Platform Admin Center**, on the **Environments** page, select the environment in which Omnichannel for Customer Service needs to be set up.
+1. In Power Platform admin center, on the **Environments** page, select the environment in which Omnichannel for Customer Service needs to be set up.
 2. In the left pane, expand **Resources**, and select **Dynamics 365 apps**. 
    
    > [!NOTE]
-   > Don't select **Environments** in the left pane and try to navigate to **Dynamics 365 apps** from there. There are similar-looking menu options, but the correct way to navigate to the **Dynamics 365 apps** management options is to expand **Resources** in the left pane and select **Dynamics 365 apps**. 
+   > Don't select **Environments** in the left pane and try to navigate to **Dynamics 365 apps** from there. There are similar-looking menu options, but the correct way to navigate to the **Dynamics 365 apps** management options is to expand **Resources** in the left pane and select **Dynamics 365 apps**.
   
 3. On the **Dynamics 365 apps** page, select **More commands** beside **Omnichannel for Customer Service**, and then select **Manage**.
 
@@ -155,7 +162,7 @@ After the Omnichannel for Customer Service application is successfully provision
 ### See also
 
 [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)  
-[Understand and create work streams](work-streams-introduction.md)  
+[Create workstreams](create-workstreams.md)  
 [Manage users](users-user-profiles.md)  
 
 
