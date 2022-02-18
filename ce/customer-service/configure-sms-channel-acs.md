@@ -31,7 +31,7 @@ The SMS channel in Omnichannel for Customer Service allows your organization to 
 
 [Create a workstream for the SMS channel](create-workstreams.md), and then perform the following steps:
 
-1. In the site map of Omnichannel admin center, go to **Workstreams** and open the workstream that you created.
+1. Go to the **Workstreams** page, and open the workstream that you created.
 2. In the **Set up your SMS channel** section, select **Set up SMS**, and then configure the following options:
    1. On the **SMS setup** page, select a number from the list.
    2. On the **Language** page, select the language that you want to set as the default.
