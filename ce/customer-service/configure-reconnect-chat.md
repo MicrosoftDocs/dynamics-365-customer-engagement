@@ -60,7 +60,7 @@ You can enable the reconnection options in the chat widget either while setting 
 
 1. On the **Workstreams** page, select the workstream.
 
-1. select the chat widget for which you want to enable the reconnection option.
+1. Select the chat widget for which you want to enable the reconnection option.
 
 1. On the ***<widget_name>* Chat Widget** page, in the **Chat widget** area, select **Edit**.
 
