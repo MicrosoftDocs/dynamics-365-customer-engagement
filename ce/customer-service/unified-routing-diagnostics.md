@@ -21,7 +21,7 @@ ms.custom:
 Unified routing helps you assign a work item to the agent or queue who's best suited to handle it, based on the agent's skills and the records that are related to the work item. Routing diagnostics provides visibility into work item classification and assignment events when using unified routing.
 
 > [!Important]
-> Your supervisors can access the routing diagnostics for records and conversations that are handled through unified routing. However, if you don’t want them to view or select the links on a diagnostic record or conversation, or view rules and other configurations, ensure that you assign read-only permissions on the roles such as the Omnichannel supervisor or any other custom roles that you may have in your organization.
+> Your supervisors can access the routing diagnostics for records and conversations that are handled through unified routing. However, if you don’t want them to view or select the links on a diagnostic record or conversation, or view rules and other configurations, ensure that you assign read-only permissions on the roles such as the Omnichannel supervisor or any other custom roles that you use for managing access in your organization.
 
 ## Enable routing diagnostics
 
