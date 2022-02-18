@@ -13,6 +13,7 @@ In the **Advanced** step of forecast configuration, you can configure the follow
 
 - [Automatically hide parent rows](#automatically-hide-parent-rows)
 - [Enable multi-currency selection](#enable-multi-currency-selection)
+- [Set the default experience for underlying records](#set-the-default-experience-for-underlying-records)
 - [Enable prediction factors](#enable-prediction-factors)
 - [Customize underlying records](#customize-underlying-records)
 
@@ -57,8 +58,8 @@ As an administrator or forecast manager, you can define the default experience f
 
 - [Set Kanban as default view](#set-kanban-as-default-view)
 
-- [Select the default group by attribute](#select-the-default-group-by-attribute)
-- [Select a default view](#select-a-default-view)
+- [Select a default group by attribute](#select-a-default-group-by-attribute)
+- [Select a default underlying records view](#select-a-default-underlying-records-view)
 
  
 
