@@ -87,23 +87,16 @@ You can create rating models in the Customer Service admin center (preview), Omn
 
 **To create the rating model**
 
-1. Go to one of the apps, and perform the following steps.
+1.Perform the steps by using one of the following apps.
+      
+  > [!IMPORTANT]
+  > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+  - In the site map of [Customer Service admin center (preview), select **Insights** in **Operations**. 
 
-     - In the site map, select **Insights** in **Operations**. The **Insights** page appears.
-     
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
-    
-     - In the site map, select **User attributes** in **Advanced settings**. The **User attributes** page appears.
-     
-   ### [Customer Service Hub](#tab/customerservicehub)
+  - In the site map of Omnichannel admin center, select **User attributes** in **Advanced settings**. 
 
-     1. In the site map, go to **Service Management**
-     2. Select **User attributes** in **Unified Routing**. The **User attributes** page appears.
+  - In the site map of Customer Service Hub, go to **Service Management**, and select **User attributes** in **Unified Routing**. 
 
 1. In the **Skill-based routing** section, select **Manage**.
 
@@ -120,9 +113,9 @@ You can create rating models in the Customer Service admin center (preview), Omn
 
 1. Select **Save**. The **Rating Values** section appears.
 
-4. Select **New Rating Value**. The **New Rating Value** page appears.
+1. Select **New Rating Value**. The **New Rating Value** page appears.
 
-5. Specify the following.
+1. Specify the following.
 
   | Field | Description | Value  |
   |-----------------|----------------|--------------------------------------------|
@@ -130,11 +123,11 @@ You can create rating models in the Customer Service admin center (preview), Omn
   | Value | Provide a value. | 10 <br> **Note:** <br>This is an example value.|
   |||
 
-6. Select **Save and Close** to save and add the rating value to the grid.
+1. Select **Save and Close** to save and add the rating value to the grid.
 
-7. Select **New** to add other rating values and repeat step 4 and 5.
+1. Select **New** to add other rating values and repeat step 4 and 5.
 
-8. Select **Save** to save the rating model changes.
+1. Select **Save** to save the rating model changes.
 
 ### Recommended proficiency level
 
