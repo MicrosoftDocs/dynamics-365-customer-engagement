@@ -5,6 +5,7 @@ author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.date: 02/18/2022
+ms.topic: article
 ---
 
 # Set up skills, create a rating model, and assign agents
@@ -96,20 +97,20 @@ You can create rating models in the Customer Service admin center (preview), Omn
      1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
      1. In the **Skill-based routing** section, select **Manage**.
 
-     The **Omnichannel Configuration** page is displayed.       
+     The **Omnichannel Configuration** page is displayed.
 
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
     
      1. In the site map, select **User attributes** in **Advanced settings**. The **User attributes** page appears.
      2. In the **Skill-based routing** section, select **Manage**.
 
-      The **Omnichannel Configuration** page is displayed.    
+      The **Omnichannel Configuration** page is displayed.
     
    ### [Customer Service Hub](#tab/customerservicehub)
 
       1. In the site map, go to **Service Management**
-      1. Select **User attributes** in **Unified Routing**. The **User attributes** page appears.
-      1. In the **Skill-based routing** section, select **Manage**.
+      2. Select **User attributes** in **Unified Routing**. The **User attributes** page appears.
+      3. In the **Skill-based routing** section, select **Manage**.
 
       The **Omnichannel Configuration** page is displayed.  
      
@@ -165,7 +166,7 @@ For example:
 
 Add the agents as a bookable resource so that you can assign skills to them.
 
-1. In the site map of Omnichannel admin center, select **Users** under **General settings**. If you're using the Omnichannel Administration app, select **Users** under **Queues & Users**.
+1. Go to the users page in any of the administrator apps.
 
 2. Select a user from the list and select the **Omnichannel** tab.
 
