@@ -3,16 +3,18 @@
 
 (Includes Resource Scheduling controls version 1.2.12.220462)
 
-- Fixed the bug: custom booking template for custom entity is not being shown correctly. 
-- Fixed the bug: Facing error when clicking on Book option from Service Activity through Quick Book.
-- Fixed the bug: Quick book throws ‘Cannot read properties of undefined’ error for: (1) requirement group without from date (2) custom entity without from/to mapping.
-- Fixed the bug: on new schedule board, values in start time, end time columns are NOT in sync with Timezone displayed  in board view settings when book a requirement group.
-- Fixed the bug: New Schedule board does not remove cancelled work items from Map.
-- Fixed the bug: on new schedule board, booking method for the newly created bookings should be set as "Schedule Board".
-- Fixed the bug: spinner when Searching resources is not showing user friendly label on new schedule board. 
-- Fixed the bug: on new schedule board, details panel always takes view id from default BookingSetupMetadata(BSM).
-- Fixed the bug: on new schedule board, API to create bookings would fail when using logical name instead of schema name.
-- Fixed the bug: on old ScheduleBoard sends a request to GetAvailabilitySummaryFromDemand with 0 resources causing performance issue.
+- Fixed bug: Custom booking template for custom entity is not being shown correctly. 
+- Fixed bug: Facing error when selecting **Book** option from service activity through quick book.
+- Fixed bug: Quick book throws "Cannot read properties of undefined" error for two scenarios: 
+  - Requirement group without from date.
+  - Custom entity without from/to mapping.
+- Fixed bug: On new schedule board, values in start time and end time columns are not in sync with time zone displayed in board view settings when booking a requirement group.
+- Fixed bug: New schedule board doesn't remove canceled work items from map.
+- Fixed bug: On new schedule board, booking method for the newly created bookings should be set as "Schedule Board."
+- Fixed bug: Spinner when searching resources is not showing user-friendly label on new schedule board. 
+- Fixed bug: On new schedule board, details panel always takes view ID from default `BookingSetupMetadata(BSM)`.
+- Fixed bug: On new schedule board, API to create bookings would fail when using logical name instead of schema name.
+- Fixed bug: Legacy schedule board sends a request to `GetAvailabilitySummaryFromDemand` with zero resources, causing performance issue.
 
 ## 3.12.70.3
 
