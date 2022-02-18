@@ -4,11 +4,10 @@ description: "Perform the steps mentioned in the topic to create skills and assi
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 09/16/2021
+ms.date: 02/18/2022
 ---
 
 # Set up skills, create a rating model, and assign agents
-
 
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
@@ -19,7 +18,7 @@ As an administrator, to create skills, you need at least one skill type in the s
 
 ### Create skill types
 
-1. Sign in to the Dynamics 365 instance as an administrator.
+1. Sign in to the Dynamics 365 instance.
 
 2. Select **Settings** > **Customizations** >  **Customize the System**.
 
@@ -42,13 +41,28 @@ As an administrator, to create skills, you need at least one skill type in the s
 
 ### Create skills
 
-After you create a skill type, you can create skills in the Omnichannel admin center or Omnichannel Administration app.
+**To create skills**
 
-1. In the Omnichannel admin center app, select **User attributes** in the site map, and select **Manage** beside **Skills** on the **User attributes** page. In the Omnichannel Administration app, select **Skills** under **Queues & Users** in the site map.
+1. In Dynamices 365, go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+     
+     - In the site map, select **User management** in **Customer Support**.
+     
 
-3. Select **New**.
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+    
+     - In the site map, select **User attributes** in **Advanced settings**. The **User attributes** page appears.
+     
 
-4. Specify the following in the **New Skill** page.
+1. For **Skills**, select **Manage**.
+
+1. Select **New**.
+
+1. Specify the following in the **New Skill** page.
 
     | Field | Description  | Example value |
     |-----------|---------------------|------------------------------|
@@ -56,7 +70,7 @@ After you create a skill type, you can create skills in the Omnichannel admin ce
     | Type | Select a skill type from the dropdown list. | Language |
     | Description | Provide a description of the skill. | This record is used to define the skill level of the Spanish language. |
 
-5. Select **Save**.
+1. Select **Save**.
 
 After you save, the **Users (Agents)** section appears. In this section, you add the agents and rating value. To learn more, see [Assign agents to the skill](#assign-agents-to-skill).
 

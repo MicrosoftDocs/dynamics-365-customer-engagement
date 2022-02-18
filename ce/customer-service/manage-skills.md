@@ -30,7 +30,7 @@ Dynamics 365 comes with an out-of-the box skill control for messaging channels. 
 
 When you receive a work item in your queue, you can view the skills required to do the work in the **Skills** field of your case or conversation record. For each work item, you can view skills that have been attached by the manual skill classification rules and those that were identified by the machine-learning skill finder models.
 
-In the following illustration, **Refund** is a skill attached by the manual skill classification rules, whereas skills with percentage rating such as **99% Heating** and **99% Electrical** are those that have been identified by the machine-learning model.
+In the following screenshot, **Refund** is a skill attached by the manual skill classification rules, whereas skills with percentage rating such as **99% Heating** and **99% Electrical** are those that have been identified by the machine-learning model.
 
 > [!div class="mx-imgBorder"]
 > ![Add skills.](media/skill-control.png "Add skills.")

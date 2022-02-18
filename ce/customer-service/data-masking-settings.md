@@ -1,6 +1,7 @@
 ---
 title: "Create and manage data-masking rules | MicrosoftDocs"
 description: "Learn how to create and manage data-masking rules to block sensitive data in Omnichannel for Customer Service."
+ms.date: 02/18/2022
 author: lalexms
 ms.author: lalexms
 manager: shujoshi
@@ -38,12 +39,28 @@ As an administrator, you can delete or modify the out-of-the-box masking rules a
 
    > [!div class=mx-imgBorder]
    > ![Create a masking rule.](media/new-masking-rule.png "Create a masking rule")
-    
-1.	In the site map of the Omnichannel admin center app, select **Agent experience**, and then select **Manage** for **Data masking**. If you're using the Omnichannel Administration app, select **Data Masking** under **Settings**.
 
-3.	In **Masking rules**, select **New Masking Rule**.
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
 
-4.	On the **New Masking Rule** page, provide the following information:
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+    > [!IMPORTANT]
+    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+    - In the site map, in **Agent experience**, select **Productivity**.
+   
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter) 
+
+     - In the site map, in **Advanced settings**, select **Agent experience**.
+
+1.	Select **Manage** for **Data masking**.
+
+   > [!NOTE]
+   > If you're using the Omnichannel Administration app, select **Data Masking** under **Settings**.
+
+1.	In **Masking rules**, select **New Masking Rule**.
+
+1.	On the **New Masking Rule** page, provide the following information:
 
     - **Name**: The name of the masking rule.
 
@@ -51,12 +68,12 @@ As an administrator, you can delete or modify the out-of-the-box masking rules a
 
     - **Regular expression**: A regular expression to identify the data to be masked.
         
-5. To test the data masking as defined by the specified regular expression, enter a value in the **Enter test data** field. The masked value is displayed in the **Masked test data** field. By default, the number sign (#) is used to mask sensitive data.
+1. To test the data masking as defined by the specified regular expression, enter a value in the **Enter test data** field. The masked value is displayed in the **Masked test data** field. By default, the number sign (#) is used to mask sensitive data.
 
    > [!div class=mx-imgBorder]
    > ![Email masking rules.](media/email-masking-rule.png "Email masking rules")
 
-6. Select **Save**.
+1. Select **Save**.
 
 ## Manage data-masking rules
 

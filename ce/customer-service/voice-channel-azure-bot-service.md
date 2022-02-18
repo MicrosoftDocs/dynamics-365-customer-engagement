@@ -1,7 +1,7 @@
 ---
 title: "Azure Bot service in the voice channel | MicrosoftDocs"
 description: "Use this topic to learn how to add Azure Bot services for conversational IVR system in Omnichannel for Customer Service."
-ms.date: 11/02/2021
+ms.date: 02/18/2022
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: neeranelli
@@ -67,7 +67,7 @@ To integrate a bot with Omnichannel for Customer Service, you must do the follow
 
 **To assign a bot user as an application user**
 
-1. Open Omnichannel admin center and go to **Advanced Settings** > **Security** > **Users**.
+1. In Dynamics 365, go to **Advanced Settings** > **Security** > **Users**.
 
 2. In the **Users** dropdown list, select **Application Users**, and then select **New**.
 
@@ -108,13 +108,13 @@ An agent can transfer a chat to a bot by adding the bot to a queue, and then tra
 
 To enable the bot to answer incoming calls, you must add the bot to a corresponding workstream for accepting voice calls.
 
-1. In Omnichannel admin center, under **General Settings**, select **Workstreams**.
+1. In Customer Service admin center (preview) or Omnichannel admin center, open the workstream related to your voice channel.
 
-2. Open the workstream related to your voice channel, and under **Advanced Settings** > **Smart assist bots**, select **Add bot**. The **Add a bot** dialog opens.
+1. Expand **Advanced Settings**, and in **Smart assist bots**, select **Add bot**. The **Add a bot** dialog opens.
 
-3. Select an existing bot from the dropdown list and select **Save and close**.
+1. Select an existing bot from the dropdown list and select **Save and close**.
 
-Now, if there's a valid phone number associated with that workstream, the bot will automatically receive and respond to the phone call.
+Now, if there's a valid phone number associated with the workstream, the bot will automatically receive and respond to the phone call.
 
 ### Enable a bot to escalate and end conversations
 
