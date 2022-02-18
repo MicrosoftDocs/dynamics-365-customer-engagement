@@ -3,8 +3,8 @@ title: "Send custom context | MicrosoftDocs"
 description: "Learn how you can send custom context to a chat session that can help decide the queue to which you must route the chat."
 ms.date: 01/20/2022
 ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ---
 # Send custom context

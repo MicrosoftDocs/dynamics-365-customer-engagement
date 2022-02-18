@@ -1,7 +1,7 @@
 ---
 title: "Configure Customer Service historical analytics | MicrosoftDocs"
 description: "Learn how to configure Customer Service analytic reports for Customer Service Hub and Customer Service workspace"
-ms.date: 10/07/2021
+ms.date: 02/11/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -24,18 +24,31 @@ The following historical reports are available:
 
 Make sure that you have administrator permissions for Dynamics 365.
 
-1. Sign in to Dynamics 365 as an administrator, and go to **Customer Service Hub**.
+You can enable the customer service historical analytics reports in the Customer Service admin center (preview) or Customer Service Hub app.
 
-2. In the **Change area**, select **Service Management**.
+**Enable the Knowledge search analytics dashboard**
 
-3. Under **Insights**, select **Settings**. The **Insights** page is displayed.
+1. Go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
+     1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
+     1. In the **Customer Service historical analytics** section, select **Manage**.
 
-4. On the right of **Customer Service historical analytics**, select **Manage**.
+     The **Customer Service historical analytics** page is displayed. Set the **Enable Customer Service historical analytics report** toggle to **On**.  
 
-5. On the **Customer Service historical analytics** page, set the **Status** toggle to **Enabled**.
+   ### [Customer Service Hub](#tab/customerservicehub)
+    
+     1. In the site map, select **Service Management**.
+     2. Select **Settings** in **Insights**. The **Insights** page appears.
+     3. In the **Customer Service historical analytics** section, select **Manage**.
 
-6. Select **Save** or **Save & Close**.
+      The **Customer Service historical analytics** page is displayed. set the **Status** toggle to enabled.
+
+2. Select **Save** or **Save & Close**.
 
     > [!div class=ms-imgBorder]
     > ![Customer Service analytics installation.](media/cs-enable-analyticsinsights.png "Enable Customer Service historical analytics")
@@ -44,15 +57,34 @@ This configuration will also enable AI-discovered topics from cases with default
 
 ## Enable Historical analytics for unified routing
 
-You can enable historical analytics for unified routing on the **Insights** page in Customer Service Hub. The metrics are available in the report after 24 hours.
+You can enable historical analytics for unified routing in the Customer Service admin center (preview) or Customer Service Hub app. The metrics are available in the report after 24 hours.
 
 > [!IMPORTANT]
 >
 > Unified routing must be enabled to enable historical analytics for unified routing. More information: [Provision unified routing for Customer Service](provision-unified-routing.md)
 
-1. On the **Insights** page, select **Manage** for **Historical analytics for unified routing**.
-2. On the **Historical analytics for unified routing** page, set the **Status** toggle to enabled.
-3. Save and close.
+
+1. Go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+     1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
+     1. In the **Customer Service historical analytics** section, select **Manage**.
+
+     The **Customer Service historical analytics** page is displayed. Select the **Add historical analytics for unified routing** check box.  
+
+   ### [Customer Service Hub](#tab/customerservicehub)
+    
+     1. In the site map, select **Service Management**.
+     2. Select **Settings** in **Insights**. The **Insights** page appears.
+     3. In the **Historical analytics for unified routing** section, select **Manage**.
+
+      The **Historical analytics for unified routing** page is displayed. Set the **Status** toggle to enabled
+
+2. Save and close.
 
 After you enable the setting, you can access the report in one of the following ways:
 

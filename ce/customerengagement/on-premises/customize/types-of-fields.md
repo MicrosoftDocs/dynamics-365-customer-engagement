@@ -3,7 +3,7 @@ title: "Types of fields and field data in Dynamics 365 Customer Engagement (on-p
 description: "Learn about the difference between simple, calculated, and rollup fields. Field data can include lines of text, currency, dates and times, images and more."
 keywords: 
 ms.date: 04/29/2019
-ms.prod: d365ce-op
+
 ms.custom: 
 ms.topic: article
 applies_to: 
@@ -146,7 +146,7 @@ More information: [!INCLUDE[proc_more_information](../includes/proc-more-informa
 
   When you configure a currency field you can choose the precision value. There are essentially three options as shown in the following table.
   > [!NOTE]
-> In the Unified Interface the currency format for a negative value is set by the user settings and does not use the system setting.
+> In Unified Interface, the currency format for a negative value is set by the user settings and does not use the system setting.
 
 |Option|Description|  
 |------------|-----------------|  

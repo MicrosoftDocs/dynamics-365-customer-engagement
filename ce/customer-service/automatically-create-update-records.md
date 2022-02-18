@@ -1,7 +1,7 @@
 ---
 title: Automatically create or update records in Customer Service Hub (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to automatically create or update records by setting up rules in Dynamics 365 Customer Service
-ms.date: 01/17/2022
+ms.date: 02/11/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -25,8 +25,6 @@ searchScope:
 ---
 
 # Automatically create or update records in Customer Service Hub
-
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
 In Dynamics 365 Customer Service Hub, you can automatically create or update system or custom records from incoming activities, such as emails, social activities, and custom activities. In this section, you'll learn about creating rules for automatically creating records for cases from incoming emails.
 
@@ -61,7 +59,26 @@ Make sure that the following prerequisites are met:
 
 You can configure a rule that when active will be run for incoming emails. Using the feature to create rules, you can define the conditions for when a rule can be run.
 
-1. In Customer Service Hub site map, go to **Service Management**, and select **Automatic record creation and update rules**. The **Record creation and update rules** page appears.
+You can configure the rules in the Customer Service admin center (preview) or Customer Service Hub app.
+
+1. Go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+     1. In the site map, select **Case Settings** in **Customer Support**. The **Case Settings** page appears.
+     1. In the **Automatic record creation and update rules** section, select **Manage**.
+
+     The **All Record Creation and Update Rules** page is displayed.
+
+   ### [Customer Service Hub](#tab/customerservicehub)
+    
+     1. In the site map, select **Service Management**.
+     2. Select **Automatic record creation and update rules** in **Case Settings**. 
+  
+      The **Record Creation and Update Rules** page is displayed. 
 
 2. Select **New**. The **New Record Creation and Update Rule** page is displayed.
 
@@ -80,8 +97,6 @@ You can configure a rule that when active will be run for incoming emails. Using
    
    > [!NOTE]
    > You must add a minimum of one condition for the rule to run successfully.
-
-6. Perform the following steps to define the conditions:
 
 6. Perform the following steps:
 

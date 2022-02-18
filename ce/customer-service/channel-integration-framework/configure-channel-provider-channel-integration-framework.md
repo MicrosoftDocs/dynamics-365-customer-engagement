@@ -4,6 +4,8 @@ description: "Use this topic to understand how to configure channel providers in
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
+ms.date: 01/21/2022
+ms.topic: article
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -19,15 +21,16 @@ searchScope:
 # How to configure a channel provider for your Dynamics 365 organization
 
 Using the Dynamics 365 Channel Integration Framework solution, you can configure channel providers.
+
 To configure channel providers:
 
 1. Sign in to Dynamics 365.
 
-2. Select the dropdown button on Dynamics 365 and select **Channel Integration Framework**.
+2. Search for and select **Channel Integration Framework**.
 
   ![Dynamics 365 dropdown button to find Channel Integration Framework.](media/cif-app-navigation.png "Dynamics 365 dropdown button to find Channel Integration Framework")
 
-3.	Select **    New** to add a new provider.
+3.	Select **New** to add a new provider.
 
 4.	In the **New Channel** page, specify the following:
 
@@ -58,7 +61,7 @@ To configure channel providers:
 **The communication widget in the expanded mode**<br><br>
 ![Communication widget in the expanded mode.](media/widget-expanded-mode.PNG "Communication widget in the expanded mode")
 
-## See also
+### See also
 
 [Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)<br />
 [Microsoft.CIFramework.getEnvironment](reference/microsoft-ciframework/getEnvironment.md)<br />

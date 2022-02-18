@@ -2,7 +2,7 @@
 title: "Dynamics 365 Marketing entity reference (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Learn about the installed solutions, entities, and custom actions in Dynamics 365 Marketing."
 ms.date: 01/25/2019
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: reference

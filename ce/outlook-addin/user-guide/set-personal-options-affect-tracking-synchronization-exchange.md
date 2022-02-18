@@ -3,7 +3,7 @@ title: "Set personal options that affect tracking and synchronization between Dy
 ms.custom: 
 ms.date: 01/11/2016
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

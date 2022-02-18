@@ -9,7 +9,7 @@ ms.date: 09/16/2021
 
 # Set up skills, create a rating model, and assign agents
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -68,8 +68,37 @@ You must provide the minimum and maximum rating value. Also, in the **Rating Val
 
 ### Create a rating model
 
-1. In the Omnichannel admin center or Customer Service Hub app, select **User attributes** in the site map, and select **Manage** beside **Skill-based routing** on the **User attributes** page. If you're using the Omnichannel Administration app, select **Skill Based Routing** under **Settings** in the site map.
+You can create rating models in the Customer Service admin center (preview), Omnichannel admin center, or Customer Service Hub app.
 
+**To create the rating model**
+
+1. Go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+     1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
+     1. In the **Skill-based routing** section, select **Manage**.
+
+     The **Omnichannel Configuration** page is displayed.       
+
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+    
+     1. In the site map, select **User attributes** in **Advanced settings**. The **User attributes** page appears.
+     2. In the **Skill-based routing** section, select **Manage**.
+
+      The **Omnichannel Configuration** page is displayed.    
+    
+   ### [Customer Service Hub](#tab/customerservicehub)
+
+      1. In the site map, go to **Service Management**
+      1. Select **User attributes** in **Unified Routing**. The **User attributes** page appears.
+      1. In the **Skill-based routing** section, select **Manage**.
+
+      The **Omnichannel Configuration** page is displayed.  
+     
 2. On the **Omnichannel Configuration** page, in the **Rating Model** section, select **New Rating Model**.
 
 3. Specify the following in the **New Rating Model** page.

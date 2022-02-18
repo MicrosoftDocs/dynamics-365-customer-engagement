@@ -1,7 +1,7 @@
 ---
 title: "Use effort estimation model in unified routing | MicrosoftDocs"
 description: "Learn how to use the effort estimation model in unified routing in Customer Service."
-ms.date: 10/07/2021
+ms.date: 02/11/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -40,13 +40,29 @@ Some examples of how effort can be defined are as follows:
 
 ## Create effort estimation models
 
-You can create the effort estimation models in Omnichannel admin center or Customer Service Hub. The effort estimation can be created for any record that is enabled for unified routing. You can provide the context to the model for training by selecting the attributes. At least two attributes are mandatory, and you can specify up to 10 attributes. Attributes that indicate severity and priority are useful.
+You can create the effort estimation models for any record that is enabled for unified routing. You can provide the context to the model for training by selecting the attributes. At least two attributes are mandatory, and you can specify up to 10 attributes. Attributes that indicate severity and priority are useful.
 
 **To create an effort estimation model**
 
-1. In Customer Service Hub, go to the **Service Management** site map, and select **User attributes** under **Unified Routing**. If you are using Omnichannel admin center, in the site map, select **User attributes** under **Advanced settings**.
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-2. For **Effort estimation for routing (preview)**, select **Manage**.
+    - In the site map, select **Routing**. The **Routing** page appears.
+
+
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+
+    - In the site map, select **User attributes** in **Advanced settings**.
+
+   ### [Customer Service Hub](#tab/customerservicehub)
+   
+    - Go to the **Service Management** site map, and select **User attributes** in **Unified Routing**.
+
+2. Select **Manage** for **Effort-based routing**.
 
 3. On the page that appears, select **New**.
 

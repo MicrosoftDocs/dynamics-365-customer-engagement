@@ -3,7 +3,7 @@ title: "Use IFRAME and web resource controls on a form | MicrosoftDocs"
 ms.custom: 
 ms.date: 02/03/2021
 ms.reviewer: pehecke
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -149,7 +149,7 @@ IFrame.setSrc(newTarget);
 <a name="BKMK_rendering_differences"></a>
 ## Layout differences between the legacy web client and Unified Interface
 
-A web resource control configured to use a certain number of rows will have different heights in a Unified Client application compared to a web client application. This is because there is a difference in the height of a row between the Unified Interface and web client. If a form is needed in both the web client and Unified Interface, you can use different forms in the Unified Interface app and the web client app with the control configured to use the appropriate number of rows in each form.
+A web resource control configured to use a certain number of rows will have different heights in a Unified Interface application compared to a legacy web client application. This is because there is a difference in the height of a row between Unified Interface and the legacy web client. If a form is needed in both the legacy web client and Unified Interface, you can use different forms in the Unified Interface app and the legacy web client app with the control configured to use the appropriate number of rows in each form.
 
 ## See Also  
 

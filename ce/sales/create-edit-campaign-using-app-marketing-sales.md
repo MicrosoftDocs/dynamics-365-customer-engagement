@@ -1,7 +1,7 @@
 ---
 title: "Create or edit campaign using in-app marketing | MicrosoftDocs"
 description: "Use campaigns to store your marketing information and activities, and to measure the success of your efforts through in-app marketing."
-ms.date: 11/12/2021
+ms.date: 02/10/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -10,6 +10,7 @@ ms.custom:
   - "dyn365-sales"
 searchScope: 
   - D365-App-msdynce_saleshub
+  - D365-App-msdynce_salespro
   - D365-Entity-list
   - D365-Entity-campaign
   - D365-Entity-bulkoperation
@@ -45,6 +46,9 @@ Campaigns can include planning activities that you want to perform before you la
 |||
 
 ## Create or edit a campaign
+
+> [!NOTE]
+> The average time for distributing a campaign activity to 100,000 members is 24 hours. For larger campaigns and faster activity distribution, use Dynamics 365 Marketing. For more information, go to[Dynamics 365 Marketing documentation](../marketing/overview.md).
   
 1. In the site map, select **Marketing Lists**.
 

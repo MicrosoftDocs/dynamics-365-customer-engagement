@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/mobile-app/files-images-offline-profile.md",
+      "redirect_url": "/powerapps/mobile/offline-file-images",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customer-service/enable-consult.md",
       "redirect_url": "oc-conversation-control",
       "redirect_document_id": "false"
@@ -23542,6 +23547,16 @@
     {
       "source_path": "ce/sales/developer/exportpdf-api.md",
       "redirect_url": "../create-quote-pdf",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/optout-relationship-analytics-gdpr.md",
+      "redirect_url": "dynamics-365-sales-gdpr",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/knowledge-management-oc.md",
+      "redirect_url": "set-up-knowledge-management-embedded-knowledge-search#set-up-knowledge-management",
       "redirect_document_id": "false"
     }
   ]

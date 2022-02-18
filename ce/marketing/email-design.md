@@ -2,7 +2,7 @@
 title: "Create and design a marketing email message (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create and design a marketing email message in Dynamics 365 Marketing."
 ms.date: 03/22/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

@@ -1,12 +1,12 @@
 ---
 title: "Azure Bot service in the voice channel | MicrosoftDocs"
 description: "Use this topic to learn how to add Azure Bot services for conversational IVR system in Omnichannel for Customer Service."
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
 ms.date: 11/02/2021
-ms.topic: article
 ms.service: dynamics-365-customerservice
+ms.topic: article
+author: neeranelli
+ms.author: nenellim
+manager: shujoshi
 ---
 # Add Azure Bot Services for conversational IVR
 

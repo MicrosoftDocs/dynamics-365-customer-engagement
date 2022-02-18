@@ -25,7 +25,7 @@ The sales accelerator feature helps sellers in your organization increase their 
 
 > [!NOTE]
 > - To configure sales accelerator for assignment rule with your enterprise license, see [Configure sales accelerator for assignment rules](sales-accelerator-assignment-rules.md).
-> - You can also set up sales accelerator through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get 1500 sequence-connected records per month. More information: [Set up sales accelerator](digital-selling.md#set-up-sales-accelerator)
+> - You can also set up sales accelerator through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get 1,500 sequence-connected records per month. To set up sales accelerator through quick setup, you must go to the **Get started with digital sales** page under **App Settings**. More information: [Set up sales accelerator](digital-selling.md#set-up-sales-accelerator)
 
 As an administrator, you must enable and configure the sales accelerator in your organization to make it available for sales managers and sellers to use. Follow these steps:
 
@@ -64,8 +64,8 @@ For the best experience of the sales accelerator, enable and configure [predicti
 
     The configuration page opens.        
  
-4. <a name="define-team-access"></a>In the **Define team access** section, select roles to grant permissions to use assignment rules and sales accelerator features.     
-    For each section, choose one of the following options to grant permissions:     
+4. <a name="define-team-access"></a>In the **Define team access** section, select roles to grant permissions to use sales accelerator features.     
+    Choose one of the following options to grant permissions:     
        
     | Security roles | Description |
     |----------------|-------------|
@@ -73,20 +73,9 @@ For the best experience of the sales accelerator, enable and configure [predicti
     | Specific security roles | Select this option to specify security roles to give access to view the Sales Hub app to just a few users. Use the lookup box to add the security roles. |    
 
     >[!div class="mx-imgBorder"]
-    >![Select security roles to access the sales accelerator and assignment rules features](media/sa-select-security-role.png "Select security roles to access the sales accelerator and assignment rules features")   
+    >![Select security roles to access the sales accelerator features](media/sa-select-security-role.png "Select security roles to access the sales accelerator features")   
 
-5. In the **Seller availability** section, configure the following options: 
-    - Turn on **Seller availability settings** to enable sellers to configure work hours.
-    - From the Select a calendar option, choose one of the following calendar types that sellers can use to configure work hours and vacation days. Once configured, leads and opportunities are assigned based on seller availability. 
-        - **CRM calendar**: : Allows sellers to configure work hours and vacation days using the Dynamics 365 calendar in personal settings. By default, this option is selected. More information [Configure your work availability](personalize-sales-accelerator.md#configure-your-work-availability). 
-        - **Outlook**: Allows sellers to configure work hours and vacation days through the Outlook calendar. Sellers should have an Exchange license to use this option.
-
-    >[!div class="mx-imgBorder"]
-    >![Enable the option to allow sellers to set working hours and vacation days](media/sa-enable-seller-availability.png "Enable the option to allow sellers to set working hours and vacation days")   
-
-6. (Optional) In the **Automate lead and opportunity assignment (preview)** section, select the toggle to enable preview for the assignment rules feature. More information: [Manage assignment rules](create-manage-assignment-rules.md).
-
-7. <a name="choose-content-and-layout"></a>In the **Choose content and layout** section, select the record types and their corresponding related forms that are used in your organization, as required.      
+5. <a name="choose-content-and-layout"></a>In the **Choose content and layout** section, select the record types and their corresponding related forms that are used in your organization, as required.      
 
    >[!div class="mx-imgBorder"]
    >![Choose content layout](media/sa-choose-content-layout.png "Choose content layout")   
@@ -107,39 +96,34 @@ For the best experience of the sales accelerator, enable and configure [predicti
      
     3. Select **Next**
 
-8. In the **Automate activity creation** section, choose an option based on your requirements:    
-    - Select **Go to sequences** to create sequences and apply them to records. More information: [Create and manage sequences](create-manage-sequences.md)
-    - Select **Skip this step** to come back later and create the sequences.
+6. In the **Set up integrated calls** section, connect a phone system such as, Microsoft Teams to let sellers call directly from sales accelerator feature.   
+     
+    - **Teams calls (preview)**: Configure the Microsoft Teams calls for your organization to let sellers call directly from sales accelerator feature. Select **Setup Teams calls**.       
+    More information: [Configure Microsoft Teams dialer (Preview)](configure-microsoft-teams-dialer.md)
+    - **Boost productivity with conversational intelligence**: Configure conversation intelligence for sellers and sales managers to get in-context note taking, call recordings, automated transcripts, rich conversation insights, and more. Select **Set up conversation intelligence**.        
+    More information: [First-run setup experience of Microsoft Teams for conversation intelligence](fre-setup-ci-sales-app.md)
+    - **Connect an external phone service**: To use a different phone system in your organization to allow sellers call through the sales accelerator feature, use Dynamics 365 Channel Integration Framework. More information: [Integrate a sample softphone dialer with Dynamics 365 Sales](integrate-sample-softphone.md)    
+    The priority of the phone system that's selected for the sales accelerator depends on the ranking that's defined in the Dynamics 365 Channel Integration Framework configuration.      
+       
     >[!div class="mx-imgBorder"]
-    >![Choose an option to automatically create activities](media/sa-automatic-activity-creation.png "Choose an option to automatically create activities")           
-9. In the **Set up integrated calls** section, the status of the phone system that's integrated through Dynamics 365 Channel Integration Framework is displayed under **Channel Provider**. The phone system allows sellers to make calls directly through the sales accelerator feature. The priority of the phone system that's selected for the sales accelerator depends on the ranking that's defined in the Dynamics 365 Channel Integration Framework configuration. More information: [Integrate a sample softphone dialer with Dynamics 365 Sales](integrate-sample-softphone.md)     
-    >[!div class="mx-imgBorder"]
-    >![Status of the phone system](media/sa-channel-provider-status.png "Status of the phone system")        
-    After the phone system is successfully verified, configure the following advanced call settings:    
-    - Under **Phone number priority**, select the phone numbers for **Default**, **Fallback1**, and **Fallback2**. When sellers initiate calls through a sequence step or the work list, the softphone chooses the phone numbers in the order they're listed.     
-        For example, you can select **Business Phone** in **Default**, **Mobile Phone** in **Fallback1**, and **Home Phone** in **Fallback2**. When sellers initiate a call, the number in the **Default** option is dialed, if it's available. If it isn't available, the call goes to the next option.            
-        >[!NOTE]
-        >For opportunities, the phone number priority will be applied to the primary contacts.  
+    >![Advanced call settings](media/sa-advance-call-settings.png "Advanced call settings")       
 
-    - Under **Call settings**, select the **Create records automatically on click** option to automatically create a phone call activity when sellers initiate a call from a sequence step or from the work list.   
-        >[!div class="mx-imgBorder"]
-        >![Advanced call settings](media/sa-advance-call-settings.png "Advanced call settings")       
-10. <a name="enable-sales-accelerator-reports"></a>Enable the **Sales accelerator reports** option to help your sales manager view and understand their team's historical operational metrics and key performance indicators (KPIs), and sequence stats page.   
+7. <a name="enable-sales-accelerator-reports"></a>Enable the **Sales accelerator reports** option to help your sales manager view and understand their team's historical operational metrics, key performance indicators (KPIs), and sequence stats page.   
     [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
     
     >[!div class="mx-imgBorder"]
     >![Enable Sales acceleration reporting preview](media/sa-enable-sales-acceleration-reporting.png "Enable Sales acceleration reporting preview")        
 
-    By default, the users with sales manager and sequence manager roles can view the reports. To grant view access to other roles, provide read access at organizational level for the Sales acceleration reports table. More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges).   
+    By default, the users with sales manager and sequence manager roles can view the reports. To grant view access to other roles, provide read access at the organizational level for the sales acceleration reports table. More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)
 
     >[!NOTE]
-    >After you enable the option, the application may take up to 24 hours to display the data in the reports. Subsequently, the reports refresh every 24 hours. You can view the last updated date on the top-right corner of the sales acceleration reporting page.
+    >After you enable the option, the application might take up to 24 hours to display the data in the reports. Subsequently, the reports are refreshed every 24 hours. You can view the last updated date in the upper-right corner of the sales acceleration reporting page.
 
     To know how sales managers use,   
-       -	Metrics and KPIs, see [Understand sales acceleration reporting](understand-sales-acceleration-reporting.md).
-       -	Sequence stats, see [Understand sequence stats](understand-sequence-stats.md).
+       -	Metrics and KPIs, go to [Understand sales acceleration reporting](understand-sales-acceleration-reporting.md).
+       -	Sequence stats, go to [Understand sequence stats](understand-sequence-stats.md).
     
-11. Save and publish the configuration.
+8. Save and publish the configuration.
     A status message is displayed at the top of the page with details including the time and user who published the configurations.
     >[!div class="mx-imgBorder"]
     >![Sales accelerator setup status message](media/sa-setup-status-message.png "Sales accelerator setup status message")

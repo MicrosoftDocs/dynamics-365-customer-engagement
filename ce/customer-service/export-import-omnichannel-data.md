@@ -3,15 +3,15 @@ title: "Export and import app configuration data | MicrosoftDocs"
 description: "Learn to export and import app configuration data from source to target environments in Omnichannel Administration and Omnichannel admin center apps."
 ms.date: 10/12/2021
 ms.topic: article
-author: mh-jaya    
-ms.author: v-jmh
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.reviewer: nenellim
 ---
 
 # Export and import app configuration data
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 Now that you have used Omnichannel for Customer Service in a test environment, you're ready to unlock all the benefits and features in a live production environment or any target environment; you don't have to start over. You can follow this process to export your Omnichannel admin center or Omnichannel Administration app configuration data from your test environment, and then import the data into your new target environment. That way, you can keep all of the queues, routing rules, workstreams, and other custom settings that you set up earlier.
 

@@ -1,8 +1,8 @@
 ---
 title: "Real-time marketing journey tile reference (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about real-time marketing tiles in Dynamics 365 Marketing."
-ms.date: 12/06/2021
-ms.service: dynamics-365-marketing
+ms.date: 02/03/2022
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -90,6 +90,21 @@ The attribute branch lets you branch the journey based on various attributes inc
 - **Attributes in event triggers**: You can branch the journey based on attribute values in event triggers. For attribute values to be shown, the event trigger must have previously occurred in the journey. Thus, you can only check the attribute values for an event trigger that starts an event-based journey, or event triggers being used in an if/then branch.
 
 The attribute branch checks for attribute values the moment a customer enters this step. For example, when a customer enters the attribute branch step, the segment membership condition will check whether the customer is part of the specified segment at that instant.
+
+## Preview: Activate a custom event trigger
+
+> [!IMPORTANT]
+> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
+> 
+> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
+
+Triggering a custom event allows you to use activate a custom event at any point in the customer journey. Additional journeys or [Power Automate flows](/power-automate) connected to the custom event will be triggered immediately when a customer reaches the tile. This includes custom event triggers used in exit criteria, goals, and if/then branches for journeys.
+
+When using a custom event trigger, you can choose which data to send as part of the event trigger. You can choose customer profile data (for instance, attributes of the target audience such as contacts, leads, etc.) and data from other event triggers used in the journey (for instance, attributes of the event trigger that starts the journey).
+
+For example, a loan application journey could have various steps that require a human agent’s approval. By creating a separate customer journey or Power Automate Flow for loan exception approval, you can trigger it from various points in the loan application journeys where exceptions can occur. The data you send with the event trigger can be used to populate dynamic content or as inputs to other Flow actions.
+
+To learn more about triggering a custom event, see [Preview: Use custom events as actions in real-time marketing journeys](real-time-marketing-custom-event-actions.md).
 
 ## Wait
 

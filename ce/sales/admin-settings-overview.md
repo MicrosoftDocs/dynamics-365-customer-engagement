@@ -6,7 +6,7 @@ ms.date: 09/30/2021
 ms.topic: overview
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 ---
 # Overview of admin settings  
 

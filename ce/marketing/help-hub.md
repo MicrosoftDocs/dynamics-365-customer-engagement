@@ -2,7 +2,7 @@
 title: "Help resources for Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "A starting point for browsing help content for Dynamics 365 Marketing."
 ms.date: 07/09/2020
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: hub-page

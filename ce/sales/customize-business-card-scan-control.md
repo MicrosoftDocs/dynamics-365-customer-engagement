@@ -5,7 +5,7 @@ ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 ---
 # Customize the business card scanner control
  
@@ -20,7 +20,7 @@ Customize how the data from the scanned business cards maps to the fields in the
 |||
 
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 ## Customize the mapping
 

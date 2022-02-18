@@ -1,12 +1,12 @@
 ---
 title: "View LinkedIn Sales Navigator controls on forms"
 description: "Sign in to the LinkedIn Navigator in Dynamics 365 to view controls on forms. Learn how to work with controls to ensure correct profile matching."
-keywords: sign in, authenticate, sales navigator, customized form
 ms.date: 12/10/2021
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
-manager: shellyha
+author: lavanyakr01
+ms.author: lavanyakr
+manager: shujoshi
+keywords: sign in, authenticate, sales navigator, customized form
 search.audienceType: 
   - admin
   - customizer

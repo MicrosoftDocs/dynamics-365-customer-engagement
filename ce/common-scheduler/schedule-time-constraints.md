@@ -3,7 +3,7 @@ title: "Schedule work with time constraints in Universal Resource Scheduling"
 description: "When scheduling entities, you can set parameters to control when the requirement is booked. Learn how to do this by entering date and time values on the form."
 ms.date: 10/09/2019
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.subservice: common-scheduler
 ms.topic: article
 applies_to: 

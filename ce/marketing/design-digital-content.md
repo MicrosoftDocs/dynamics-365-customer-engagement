@@ -2,7 +2,7 @@
 title: "Use the designer tool (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Basics of how to use the designer tool to create emails, landing pages, and forms in Dynamics 365 Marketing."
 ms.date: 12/14/2020
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

@@ -3,7 +3,7 @@ title: "Use Microsoft Power Automate flows with Field Service Mobile (contains v
 description: Learn how to use Power Automate flows instead of Dynamics 365 workflows for Dynamics 365 Field Service Mobile processes.
 ms.date: 10/01/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.subservice: field-service-mobile
 ms.topic: article
 applies_to: 
@@ -18,6 +18,9 @@ search.app:
 ---
 
 # Use Microsoft Power Automate flows with Field Service Mobile
+
+> [!IMPORTANT]
+> Field Service Mobile (Xamarin app) will be end of life on **June 30, 2022**. Mobile configurator licenses will no longer be granted to new tenants onboarding with Dynamics 365 Field Service as of **June 30, 2021**. New tenants coming online should start with the new [Field Service (Dynamics 365) mobile](mobile-2020-power-platform.md) app. For more information, visit [the documentation](mobile-power-app-get-started.md). 
 
 Administrators can replace Dynamics 365 workflows with Power Automate flows for Field Service Mobile processes like geofencing, geofence alerts, and push notifications.
 

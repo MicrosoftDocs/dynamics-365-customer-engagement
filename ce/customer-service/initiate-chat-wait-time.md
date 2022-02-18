@@ -3,8 +3,8 @@ title: "Start a chat | MicrosoftDocs"
 description: "Understand how to start a chat using the startChat API. Also included are code snippets to start a chat and hide the chat button."
 ms.date: 07/15/2019
 ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ---
 # Start a chat
@@ -59,9 +59,9 @@ To use a custom chat button instead of the out-of-the-box chat button, add the a
 
 ### See also
 
-[startChat](developer/reference/methods/startChat.md)<br />
-[JavaScript API reference for Live Chat SDK](developer/omnichannel-reference.md)<br />
-[Customize chat widget](customize-chat-widget.md)
-
+[startChat](developer/reference/methods/startChat.md)  
+[JavaScript API reference for Live Chat SDK](developer/omnichannel-reference.md)  
+[Customize chat widget](customize-chat-widget.md)  
+[Start a chat proactively](start-proactive-chat.md)    
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

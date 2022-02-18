@@ -4,7 +4,7 @@ description: "Make sure people follow the same steps and enter data consistently
 ms.custom: 
 ms.date: 02/21/2020
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: overview
