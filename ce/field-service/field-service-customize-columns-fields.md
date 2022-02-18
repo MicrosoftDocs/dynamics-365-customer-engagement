@@ -1,13 +1,10 @@
 ---
 title: "Create and edit columns (fields) in Dynamics 365 Field Service | MicrosoftDocs"
-description: DESCRIPTION
-ms.date: 02/09/2022
+description: Learn about best practices for creating and editing fields in Dynamics 365 Field Service.
+ms.date: 02/18/2022
 ms.reviewer: krbjoran
 ms.service: dynamics-365-field-service
 ms.topic: article
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
 ms.author: daclar
 manager: shellyha
@@ -20,14 +17,22 @@ search.app:
 
 When deploying Field Service, you may need to add new columns (also called fields) to the various tables (sometimes referred to as "entities") that you use, like work orders, bookable resource bookings, customer assets, and more.
 
-Follow best practices when creating, editing, and deleting columns.
+Follow these best practices when creating and editing columns:
 
-In this article, we'll discuss how to create, edit, and delete fields for the work order table; however, the following guidance applies to all Field Service tables.
+- Understand existing columns and try to use them before creating new ones.
+- Field display names and labels can be edited.
+- Field properties can't be edited.
+- Optional fields can be made required, but required fields can't be made optional.
+
+> [!Important]
+> Don't delete existing fields. Deleting fields can cause important processes to fail causing errors. You can simply hide or remove fields from the forms so that users cannot see them.
+
+In this article, we'll discuss how to create and edit fields for the work order table; however, the following guidance applies to all Field Service tables.
 
 ## Create new fields
 
 > [!Important]
-> Before editing or deleting existing fields, make sure you consider possible system implications. Review the documentation to help avoid potential performance or process disruption.
+> Before editing existing fields, make sure you consider possible system implications. Review the documentation to help avoid potential performance or process disruption.
 
 After understanding the existing fields and processes on the work order form, you may need to create additional fields based on your unique business processes.
 
@@ -69,15 +74,10 @@ For example, editing fields in the following ways is unsupported and can cause i
 - Changing field types. for example, don't change the type of a field from _Date Only_ to _Date and Time_, or change a _Whole Number_ field to a _Decimal_ field. 
 - Removing choice options.
 - Adding choice options.
-- Changing field requirement from _Required_ to _Optional_ (though it's okay to change from *Optional* to *Required*)
+- Changing field requirement from _Required_ to _Optional_ (though it's okay to change from *Optional* to *Required*).
 
-## Delete fields
+## Additional notes
 
-Don't delete existing fields. Deleting fields can cause important processes to fail causing errors. You can simply hide or remove fields from the forms so that users cannot see them.
+### Deleting fields
 
-## Summary of recommended best practices
-
-- Understand existing fields and try to use them before creating new ones
-- Field display names and labels can be edited
-- Field properties cannot be edited
-- Optional fields can be made required, but required fields cannot be made optional.
+Don't delete existing fields! Deleting fields can cause unexpected issues. Instead of deleting a field, hide or remove fields from the forms so that users can't see them.

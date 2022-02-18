@@ -1,16 +1,10 @@
 ---
 title: "How to write scripts to implement complex business logic in Dynamics 365 Field Service | MicrosoftDocs"
-description: description
-ms.custom:
-- dyn365-fieldservice
-ms.date: 01/12/2022
+description: Learn all about best practices when implementing custom scripts in Dynamics 365 Field Service.
+ms.date: 02/18/2022
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+ms.service: dynamics-365-field-service
 ms.topic: article
-ms.suite: ""
-applies_to:
-- "Dynamics 365 (online)"
-- "Dynamics 365 Version 9.x"
 author: FieldServiceDave
 ms.author: daclar
 manager: shellyha
