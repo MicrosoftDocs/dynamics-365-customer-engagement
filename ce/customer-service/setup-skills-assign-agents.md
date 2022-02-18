@@ -88,13 +88,14 @@ You can create rating models in the Customer Service admin center (preview), Omn
 **To create the rating model**
 
 1. Go to one of the apps, and perform the following steps.
-   
+
    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
      
      > [!IMPORTANT]
      > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
      1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
+     
      1. In the **Skill-based routing** section, select **Manage**.
 
      The **Omnichannel Configuration** page is displayed.
@@ -102,7 +103,8 @@ You can create rating models in the Customer Service admin center (preview), Omn
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
     
      1. In the site map, select **User attributes** in **Advanced settings**. The **User attributes** page appears.
-     2. In the **Skill-based routing** section, select **Manage**.
+     
+     1. In the **Skill-based routing** section, select **Manage**.
 
       The **Omnichannel Configuration** page is displayed.
     

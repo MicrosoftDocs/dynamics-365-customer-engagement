@@ -63,7 +63,7 @@ Use the following steps to allow Omnichannel for Customer Service to read and wr
 
 > For more information about app permissions, see [Azure app Power BI API permissions](/power-bi/developer/embedded/power-bi-permissions) and [Data access consent to provision Omnichannel for Customer Service](data-access-consent.md).
 
-## Set up Omnichannel for Customer Service<a name="set-up-omnichannel> </a>
+## Set up Omnichannel for Customer Service<a name="set-up-omnichannel"> </a>
 
 1. In Power Platform admin center, on the **Environments** page, select the environment in which Omnichannel for Customer Service needs to be set up.
 2. In the left pane, expand **Resources**, and select **Dynamics 365 apps**. 
