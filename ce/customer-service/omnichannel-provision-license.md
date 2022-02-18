@@ -1,7 +1,7 @@
 ---
 title: "Provision Omnichannel for Customer Service | MicrosoftDocs"
 description: "Perform the steps in this topic to provision Omnichannel for Customer Service and add channels so that can you start using the product."
-ms.date: 02/03/2022
+ms.date: 02/18/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -162,7 +162,7 @@ After the Omnichannel for Customer Service application is successfully provision
 ### See also
 
 [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)  
-[Understand and create work streams](work-streams-introduction.md)  
+[Understand and create work streams](create-worksteams.md)  
 [Manage users](users-user-profiles.md)  
 
 

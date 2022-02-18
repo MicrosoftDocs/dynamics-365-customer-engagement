@@ -4,7 +4,7 @@ description: "Learn about the voice channel in Omnichannel for Customer Service 
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 11/02/2021
+ms.date: 02/18/2022
 ms.topic: overview
 ---
 
