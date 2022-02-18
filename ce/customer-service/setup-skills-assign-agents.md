@@ -94,31 +94,22 @@ You can create rating models in the Customer Service admin center (preview), Omn
      > [!IMPORTANT]
      > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-     1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
+     - In the site map, select **Insights** in **Operations**. The **Insights** page appears.
      
-     1. In the **Skill-based routing** section, select **Manage**.
-
-     The **Omnichannel Configuration** page is displayed.
-
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
     
-     1. In the site map, select **User attributes** in **Advanced settings**. The **User attributes** page appears.
+     - In the site map, select **User attributes** in **Advanced settings**. The **User attributes** page appears.
      
-     1. In the **Skill-based routing** section, select **Manage**.
-
-      The **Omnichannel Configuration** page is displayed.
-    
    ### [Customer Service Hub](#tab/customerservicehub)
 
-      1. In the site map, go to **Service Management**
-      2. Select **User attributes** in **Unified Routing**. The **User attributes** page appears.
-      3. In the **Skill-based routing** section, select **Manage**.
+     1. In the site map, go to **Service Management**
+     2. Select **User attributes** in **Unified Routing**. The **User attributes** page appears.
 
-      The **Omnichannel Configuration** page is displayed.  
-     
-2. On the **Omnichannel Configuration** page, in the **Rating Model** section, select **New Rating Model**.
+1. In the **Skill-based routing** section, select **Manage**.
 
-3. Specify the following in the **New Rating Model** page.
+1. On the **Omnichannel Configuration** page, in the **Rating Model** section, select **New Rating Model**.
+
+1. Specify the following in the **New Rating Model** page.
 
   | Tab | Field | Description | Example value  |
   |------------|-----------------|----------------|--------------------------------------------|
@@ -127,7 +118,7 @@ You can create rating models in the Customer Service admin center (preview), Omn
   | General | Max Rating Value | Provide a maximum rating value. | 10 |
   ||||
 
-3. Select **Save**. The **Rating Values** section appears.
+1. Select **Save**. The **Rating Values** section appears.
 
 4. Select **New Rating Value**. The **New Rating Value** page appears.
 
