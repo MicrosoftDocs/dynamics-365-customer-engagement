@@ -87,16 +87,16 @@ You can create rating models in the Customer Service admin center (preview), Omn
 
 **To create the rating model**
 
-1.Perform the steps by using one of the following apps.
+1. Perform the steps by using one of the following apps.
       
-  > [!IMPORTANT]
-  > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   > [!IMPORTANT]
+   > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-  - In the site map of [Customer Service admin center (preview), select **Insights** in **Operations**. 
+   - In the site map of [Customer Service admin center (preview), select **Insights** in **Operations**. 
 
-  - In the site map of Omnichannel admin center, select **User attributes** in **Advanced settings**. 
+   - In the site map of Omnichannel admin center, select **User attributes** in **Advanced settings**. 
 
-  - In the site map of Customer Service Hub, go to **Service Management**, and select **User attributes** in **Unified Routing**. 
+   - In the site map of Customer Service Hub, go to **Service Management**, and select **User attributes** in **Unified Routing**. 
 
 1. In the **Skill-based routing** section, select **Manage**.
 
@@ -104,12 +104,12 @@ You can create rating models in the Customer Service admin center (preview), Omn
 
 1. Specify the following in the **New Rating Model** page.
 
-  | Tab | Field | Description | Example value  |
-  |------------|-----------------|----------------|--------------------------------------------|
-  | General | Name | Specify a name for the rating model. | Language rating model |
-  | General | Min Rating Value | Provide a minimum rating value. | 1 |
-  | General | Max Rating Value | Provide a maximum rating value. | 10 |
-  ||||
+   | Tab | Field | Description | Example value  |
+   |------------|-----------------|----------------|--------------------------------------------|
+   | General | Name | Specify a name for the rating model. | Language rating model |
+   | General | Min Rating Value | Provide a minimum rating value. | 1 |
+   | General | Max Rating Value | Provide a maximum rating value. | 10 |
+   ||||
 
 1. Select **Save**. The **Rating Values** section appears.
 
@@ -117,11 +117,11 @@ You can create rating models in the Customer Service admin center (preview), Omn
 
 1. Specify the following.
 
-  | Field | Description | Value  |
-  |-----------------|----------------|--------------------------------------------|
-  | Name | Specify a name for the rating value. | ★★★★★★★★★★ <br> **Note:** <br>This is an example value.|
-  | Value | Provide a value. | 10 <br> **Note:** <br>This is an example value.|
-  |||
+   | Field | Description | Value  |
+   |-----------------|----------------|--------------------------------------------|
+   | Name | Specify a name for the rating value. | ★★★★★★★★★★ <br> **Note:** <br>This is an example value.|
+   | Value | Provide a value. | 10 <br> **Note:** <br>This is an example value.|
+   |||
 
 1. Select **Save and Close** to save and add the rating value to the grid.
 
