@@ -162,7 +162,7 @@ After the Omnichannel for Customer Service application is successfully provision
 ### See also
 
 [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)  
-[Understand and create work streams](create-worksteams.md)  
+[Create workstreams](create-workstreams.md)  
 [Manage users](users-user-profiles.md)  
 
 
