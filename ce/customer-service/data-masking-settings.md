@@ -3,8 +3,9 @@ title: "Create and manage data-masking rules | MicrosoftDocs"
 description: "Learn how to create and manage data-masking rules to block sensitive data in Omnichannel for Customer Service."
 ms.date: 02/18/2022
 author: lalexms
-ms.author: lalexms
+ms.author: laalexan
 manager: shujoshi
+ms.topic: article
 ---
 
 # Create and manage data-masking rules

@@ -217,7 +217,7 @@ For more information, see the developer guide, [Test your custom messaging chann
     
        To learn more about attachments, see [Enable file attachments](enable-file-attachments.md).
        
-       To learn more about uploading media in Direct Line, see [Azure Bot Service documentation](/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-send-activity?view=azure-bot-service-4.0).
+       To learn more about uploading media in Direct Line, see [Azure Bot Service documentation](/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-send-activity?view=azure-bot-service-4.0&preserve-view=true).
        
        To learn more about uploading media in Telegram, see the [Telegram Bot API](https://core.telegram.org/bots/api#available-types).
 
