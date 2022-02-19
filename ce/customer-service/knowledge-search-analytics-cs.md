@@ -1,7 +1,7 @@
 ---
 title: Knowledge search analytics dashboard | Microsoft Docs
 description: Learn about the knowledge search analytics reports to better understand agent performance in your organization.
-ms.date: 04/05/2021
+ms.date: 02/18/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -18,7 +18,39 @@ ms.custom:
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
-# Knowledge search analytics dashboard
+# Introduction to knowledge analytics
+
+Knowledge analytics can help provide knowledge workers and supervisors with valuable insights about how knowledge articles are being used and searched, which can help them make improvements to their overall knowledge management system.
+
+Knowledge analytics includes the following features:
+
+- [Article insights](#article-insights) (preview)
+- [Search analytics](#search-analytics)
+
+## Article insights
+
+> [!IMPORTANT]
+> The article insights dashboard is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+The article insights dashboard can help your organization's knowledge workers to understand the impact that knowledge management is making on the overall support experience. This includes the articles that are created, shared, and used.
+
+![Knowledge article insights analytics dashboard.](media/knowledge-search-analytics-dashboard.png "View of the knowledge article insights analytics dashboard")
+
+### Article insights analytics dashboard metrics
+
+The following are specific metrics represented in this dashboard:
+
+| Metrics or chart | Definition |
+|----------------------|-------------------------|
+| Views | The total number of views on the knowledge articles. |
+| Visitors | The total number of unique visitors viewing the knowledge articles. |
+| Feedback rating | The average feedback rating provided by the consumers of the knowledge articles. |
+| Most viewed articles | The top 20 articles used, along with visitors, avg feedback rating, linked cases and shares metrics. |
+| Linked cases | The total number of cases that were linked to the articles. |
+| Shares | The total number of the article that were shared by the support representative. |
+| Owner (Filter) | The owner of the knowledge article. |
+
+## Search analytics
 
 The knowledge search analytics dashboard is designed to provide your organization's customer service supervisors and knowledge workers with valuable insights into how your support agents are finding and using knowledge articles.
 
@@ -31,9 +63,9 @@ As a knowledge manager, it's your responsibility to maintain and improve your or
 
 To access this dashboard, your organization's administrator must first enable it. For more information, see [Configure Knowledge search insights](enable-knowledge-search-insights.md).
 
-## Knowledge search analytics dashboard metrics
+### Knowledge search analytics dashboard metrics
 
-The following are specific metrics represented in this dashboard: 
+The following are specific metrics represented in this dashboard:
 
 | KPIs or chart | Definition |
 |----------------------|-------------------------|
