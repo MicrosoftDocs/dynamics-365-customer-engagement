@@ -1,6 +1,6 @@
 ---
-title: Knowledge search analytics dashboard | Microsoft Docs
-description: Learn about the knowledge search analytics reports to better understand agent performance in your organization.
+title: Knowledge article and search analytics dashboards | Microsoft Docs
+description: Learn about the knowledge article and search analytics dashboards to better understand agent performance in your organization.
 ms.date: 02/18/2022
 ms.topic: article
 author: lalexms
