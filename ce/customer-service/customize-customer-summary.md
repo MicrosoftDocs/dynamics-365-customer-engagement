@@ -63,7 +63,7 @@ To customize labels on the conversation form:
 
 1. Select **Customize the System**. A popup window is displayed.
 
-1. When the content of the popup window has successfully loaded, on the left pane, select **Web Resources**, and then wait for the web resources to be loaded completely.
+1. When the content of the popup window has successfully loaded, on the left pane, select **Web Resources**, and then wait for the web resources to load completely.
 
 1. When the web resource has loaded, in the view, select the filters.
 
