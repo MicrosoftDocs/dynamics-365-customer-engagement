@@ -48,7 +48,7 @@ This form section displays the recent cases that relate to the customer. You can
 
 ## Customize the labels for customer, account, and case on the conversation form
 
-You can customize the labels for customer, account, and case that appear on the conversation form so that they are relevant to the agents and their roles. These customizations are applicable to labels such as **Search customer**, **+New customer**, **Search issue**, and **+New case**. 
+You can customize the labels for customer, account, and case that appear on the conversation form so that they are relevant to the agents and their roles. These customizations are applicable to labels such as **Search customer**, **+New customer**, **Search issue**, and **+New case**.
 
    > [!div class=mx-imgBorder]
    > !Customize labels on the conversation form.](media/customize-entity-labels.png "Customize labels on the conversation form")
@@ -57,44 +57,44 @@ For example, you could change **Search customer** to **Search client** or **Sear
 
 To customize labels on the conversation form:
 
-1. Sign in to your environment using the System Customizer or System Administrator role. 
+1. Sign in to your environment using the System Customizer or System Administrator role.
 
-1. Open **Advanced Settings and Customizations**. 
+1. Open **Advanced Settings and Customizations**.
 
-1. Select **Customize the System**. A popup window is displayed. 
+1. Select **Customize the System**. A popup window is displayed.
 
-1. When the content of the popup window has successfully loaded, on the left pane, select **Web Resources**, and then wait for the web resources to be loaded completely. 
+1. When the content of the popup window has successfully loaded, on the left pane, select **Web Resources**, and then wait for the web resources to be loaded completely.
 
-1. When the web resource has loaded, in the view, select the filters. 
+1. When the web resource has loaded, in the view, select the filters.
 
-1. In the **Type** column filter, select to display only **String (RESX)** files. 
+1. In the **Type** column filter, select to display only **String (RESX)** files.
 
-1. In the **Name** column filter, select **Custom Filter**, and in the popup window, select operator for **Contains**, and **CustomerSummary** for the value. All of the available CustomerSummary labels for all of the languages are displayed. 
+1. In the **Name** column filter, select **Custom Filter**, and in the popup window, select operator for **Contains**, and **CustomerSummary** for the value. All of the available CustomerSummary labels for all of the languages are displayed.
 
-1. Select the **CustomerSummary** labels for the language that needs to be modified. A popup will open with the URL link to the content of the CustomerSummaryLabels.resx file. 
+1. Select the **CustomerSummary** labels for the language that needs to be modified. A popup will open with the URL link to the content of the CustomerSummaryLabels.resx file.
 
-1. Select the link, and then select all the content of the window and save it in a text editor. 
+1. Select the link, and then select all the content of the window and save it in a text editor.
 
-1. Update the **value** XML tag of the data XML tag with name **Customer**. This will replace the customer label used in the out-of-the-box Customer Summary Form. 
+1. Update the **value** XML tag of the data XML tag with name **Customer**. This will replace the customer label used in the out-of-the-box Customer Summary Form.
 
-1. Update the **value** XML tag of the data XML tag with name **Issue**. This will replace the issue iabel used in the out-of-the-box Customer Summary Form. 
+1. Update the **value** XML tag of the data XML tag with name **Issue**. This will replace the issue iabel used in the out-of-the-box Customer Summary Form.
 
-1. Save the file locally. 
+1. Save the file locally.
 
-1. When the file has successfully been saved, go back to the **CustomerSummaryLabels Web resource** popup that was opened. 
+1. When the file has successfully been saved, go back to the **CustomerSummaryLabels Web resource** popup that was opened, and select the **Upload** file.
 
-1. Select the **Upload** file. 
+1. Select the recently saved file, and then select **Save** in the pop-up window.
 
-1. Select the recently saved file, and then select **Save** in the pop-up window.  
+1. When the data has saved, publish the changes.
 
-1. When the data has saved, publish the changes. 
-
-1. When the publishing has completed, manually refresh the webpage to view the published changes.  
+1. When the publishing has completed, manually refresh the webpage to view the published changes.
 
 
 ## Timeline
 
 This section displays case-related and customer-related activities in the form of a timeline. You can create quick notes based on the discussion with the customer. Use the **Linked records** field to switch the timeline based on the Case, Contact, or Account record linked to the conversation.
+
+You can customize the timeline dropdown labels for case, account, and contact by editing the display name for the corresponding entity and publishing your changes.
 
 > [!div class="nextstepaction"]
 > [Next topic: Customize quick view forms](customize-quick-view-form.md)
