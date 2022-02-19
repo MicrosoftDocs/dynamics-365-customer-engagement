@@ -32,7 +32,7 @@ Use the information in the following table to know about the availability of the
 |Geographic location | Availability | Availability in Customer Service trial|
 |----------|---------|-----|
 |North America (crm.dynamics.com) <sup> **1** </sup> |November 2021  | November 2021|
-|Europe, Middle East, and Africa (crm4.dynamics.com) <sup>**2**</sup> |December 2021 |To be announced|
+|Europe, Middle East, Africa (crm4.dynamics.com) <sup>**2**</sup> |December 2021 |To be announced|
 |Asia Pacific (crm5.dynamics.com) <sup>**2**</sup> |December 2021 |To be announced|
 |Australia, New Zealand, Fiji (crm6.dynamics.com) <sup>**2**</sup> |December 2021 |To be announced|
 |South America (crm2.dynamics.com) |To be announced | To be announced|
@@ -42,7 +42,7 @@ Use the information in the following table to know about the availability of the
 
 > [!NOTE]
 >
-> - <sup>**1**</sup> Supports [Microsoft as a carrier](/azure/communication-services/concepts/telephony/telephony-concept) for purchasing new US numbers and also [porting your existing US or toll-free phone numbers](/azure/communication-services/quickstarts/telephony/port-phone-number). Customers with billing locations in United States, United Kingdom, Ireland, and Puerto Rico are the only ones who can purchase numbers through Microsoft as a carrier. Other customers can select a [different carrier](voice-channel-bring-your-own-number.md) by using Azure direct routing.
+> - <sup>**1**</sup> Supports [Microsoft as a carrier](/azure/communication-services/concepts/telephony/telephony-concept) for purchasing new US numbers and also [porting your existing US or toll-free phone numbers](/azure/communication-services/quickstarts/telephony/port-phone-number). Customers with billing locations in United States, United Kingdom, Ireland, and Puerto Rico are the only ones who can purchase numbers through Microsoft as a carrier (even if Microsoft as a carrier is available in other regions, only regions listed before will be supported). Other customers can select a [different carrier](voice-channel-bring-your-own-number.md) by using Azure direct routing.
 > - <sup>**2**</sup>  Microsoft as a carrier is available only in specific billing postal codes, however bring your own carrier via Azure direct routing is supported everywhere using certified Session Border Controllers (SBCs). More information: [Bring your own carrier](voice-channel-bring-your-own-number.md). Though Azure direct routing is in public preview everywhere, it will provide generally available level of support for Dynamics 365 customers where the voice channel is generally available in the region. Country/Region-specific cloud deployments for the voice channel in Omnichannel for Customer Service are excluded, you must use the general region deployment. For example, in the preceding table, country/region cloud for local deployment in United Kingdom is **"To be announced"** and is not part of the Europe geographical region availability. If you want your data to stay within the country/region, you'll need to wait for country/region-specific local deployment of the voice channel. More information: [Datacenter regions](/power-platform/admin/new-datacenter-regions)
 
 
