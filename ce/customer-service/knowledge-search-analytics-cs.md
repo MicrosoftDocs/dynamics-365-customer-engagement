@@ -34,7 +34,7 @@ Knowledge analytics includes the following features:
 
 The article insights dashboard can help your organization's knowledge workers to understand the impact that knowledge management is making on the overall support experience. This includes the articles that are created, shared, and used.
 
-![Knowledge article insights analytics dashboard.](media/knowledge-search-analytics-dashboard.png "View of the knowledge article insights analytics dashboard")
+![Knowledge article insights analytics dashboard.](media/knowledge-article-insights-dashboard.png "View of the knowledge article insights analytics dashboard")
 
 ### Article insights analytics dashboard metrics
 
