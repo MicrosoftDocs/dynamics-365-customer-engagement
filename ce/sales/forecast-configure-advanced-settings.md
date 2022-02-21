@@ -52,7 +52,7 @@ As an administrator or forecast manager, turn on the **Multi-currency selection*
 > [!div class="mx-imgBorder"]
 > ![Enable multiple-currency selection.](media/forecast-multi-currency-enable.png "Enable multiple-currency selection")
 
-## Set the default experience for underlying records (Preview)
+## Preview: Set the default experience for underlying records 
 
 As an administrator or forecast manager, you can define the default experience for each forecast configuration based on your forecast users' preferences. For example, if your users prefer a Kanban view instead of grid view, you can set the Kanban view as the default. 
 
@@ -69,7 +69,7 @@ You can define the following default settings:
 > The most recent selection of the user overrides the default selection for that user. For example, if the default view for the underlying records is Kanban and a user switches to the grid view, then the underlying records will open in the grid view when they access it next time. 
 
 
-### Set Kanban as default view
+### Preview: Set Kanban as default view
 
 The underlying records of a forecast can be displayed in a grid/table view or Kanban view. If you want to set Kanban as the default view for the selected forecast configuration, enable the **Set kanban as default** option in the  **Advanced** step of the forecast configuration.
 
@@ -77,7 +77,7 @@ The following screenshot illustrates how enabling the Kanban option displays the
 
 :::image type="content" source="media/forecast-default-kanban.png" alt-text="Screenshot of Kanban default and kanban view":::
 
-### Select a default group by attribute
+### Preview: Select a default group by attribute
 
 As an administrator or forecast manager, you can select an attribute for grouping the underlying records by default. Users can change the grouping attribute in their view and that selection will override the default grouping attribute for them.
 
@@ -90,7 +90,7 @@ The following screenshot illustrates how selecting the attribute, groups the und
 
 :::image type="content" source="media/forecast-default-group.png" alt-text="Screenshot of group by default attributed and grouped records":::
 
-### Select a default underlying records view
+### Preview: Select a default underlying records view
 
 If you want users to view the underlying records using a specific view (such as My Open Opportunities) to give the most relevant information about the forecast, select that view as the default view for the forecast configuration.  
 
