@@ -40,11 +40,11 @@ Alternatively, you can set up a default SLA for the organization. More informati
 
  You can define the set of conditions based on which KPIs are applied to a case, or the set of actions to take as a warning or in case of an SLA breach. More information: [Manage service configuration settings](/power-platform/admin/system-settings-dialog-box-service-tab).
 ### Reminders
-  You can include detailed items to define metrics or key performance indicators (KPIs) to attain that service level. SLA KPIs help you get timely warnings about any issues your customer support team might be having. More information: [Create SLA KPIs <a name="create-sla-kpis"></a>](define-service-level-agreements.md#create-sla-kpis-a-namecreate-sla-kpisa).
+  You can include detailed items to define metrics or key performance indicators (KPIs) to attain that service level. SLA KPIs help you get timely warnings about any issues your customer support team might be having. More information: [Create SLA KPIs](define-service-level-agreements.md#create-sla-kpis).
 
 ## Videos
 
-TBD/ Need links
+TBD/Need links
 
 ## Blogs
 

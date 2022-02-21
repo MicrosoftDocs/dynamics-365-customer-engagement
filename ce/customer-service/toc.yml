@@ -390,8 +390,8 @@
         href: add-timer-control-case-form-track-time-against-sla.md
       - name: Add a timer in forms to track time against enhanced SLAs
         href: add-timer-forms-track-time-against-enhanced-sla.md
-      -name: Create a standard SLA (Customer Service app)
-       href: standard-sla.md
+      - name: Create a standard SLA (Customer Service app)
+        href: standard-sla.md
     - name: Agent experience
       items: 
       - name: Manage case SLAs
