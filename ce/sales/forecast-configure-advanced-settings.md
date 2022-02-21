@@ -12,8 +12,9 @@ manager: shujoshi
 In the **Advanced** step of forecast configuration, you can configure the following:
 
 - [Automatically hide parent rows](#automatically-hide-parent-rows)
+
 - [Enable multi-currency selection](#enable-multi-currency-selection)
-- [Set the default experience for underlying records (Preview)](#set-the-default-experience-for-underlying-records-preview)
+- [Preview: Set the default experience for underlying records](#preview-set-the-default-experience-for-underlying-records)
 - [Enable prediction factors](#enable-prediction-factors)
 - [Customize underlying records](#customize-underlying-records)
 
@@ -60,10 +61,9 @@ As an administrator or forecast manager, you can define the default experience f
 
 You can define the following default settings:
 
-- [Set Kanban as default view](#set-kanban-as-default-view)
-
-- [Select a default group by attribute](#select-a-default-group-by-attribute)
-- [Select a default underlying records view](#select-a-default-underlying-records-view)
+- [Preview: Set Kanban as default view](#preview-set-kanban-as-default-view)
+- [Preview: Select a default group by attribute](#preview-select-a-default-group-by-attribute)
+- [Preview: Select a default underlying records view](#preview-select-a-default-underlying-records-view)
 
 > [!NOTE]
 > The most recent selection of the user overrides the default selection for that user. For example, if the default view for the underlying records is Kanban and a user switches to the grid view, then the underlying records will open in the grid view when they access it next time. 
