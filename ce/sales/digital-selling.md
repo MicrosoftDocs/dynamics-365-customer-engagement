@@ -13,9 +13,6 @@ manager: shujoshi
 
 Use selected Dynamics 365 Sales Premium features (sales accelerator, conversation intelligence, and predictive scoring) with the Dynamics 365 Sales Enterprise license.
 
-> [!NOTE]
-> This capability is being rolled out in phases and will be available in all geographical regions by March 25, 2022.
-
 ## License and role requirements
 
 | &nbsp; | &nbsp; |
@@ -117,6 +114,9 @@ If you want to make advanced configurations for sales accelerator, select **Go t
 If you've created a custom app, you can add the sales accelerator to it from the app designer. More information: [How to add work list site map to your custom app](faqs-sales-insights.md#how-to-add-work-list-site-map-to-your-custom-app)
 
 ### Monitor usage
+
+> [!NOTE]
+> This capability is being rolled out in phases and will be available in all geographical regions by March 25, 2022.
 
 As an administrator, you can monitor the number of records that have been connected to sequences over a period of seven months. 
 
@@ -305,6 +305,9 @@ You may want to modify the lead and opportunity scoring configurations, for exam
 :::image type="content" source="media/ds-scoring-advanced-setup.png" alt-text="Advanced settings link in quick setup panel for Lead and opportunity scoring.":::
 
 ### Monitor usage
+
+> [!NOTE]
+> This capability is being rolled out in phases and will be available in all geographical regions by March 25, 2022.
 
 As an administrator, you can monitor the number of records that have been scored over a period of seven months. This includes both lead and opportunity scoring.
 
