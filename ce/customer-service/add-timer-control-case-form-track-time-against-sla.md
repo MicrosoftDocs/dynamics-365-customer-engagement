@@ -1,7 +1,7 @@
 ---
 title: "Timer control for SLA-enabled entities | Microsoft Docs"
 description: "Learn how to add timer control in the case form to track time against an SLA in Dynamics 365 Customer Service."
-ms.date: 02/17/2022
+ms.date: 02/21/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -71,22 +71,30 @@ After you have added the SLA timer control for an SLA-enabled entity, you can cu
 
 1. In the SLA Timer area, select **Edit** for **Customized Labels**.
 :::image type="content" source="media/sla-timer-customized-label.png" alt-text="SLA timer customized label option":::
-1. In the **Configure Property Customized Label** dialog, select the **Bind to a static value** option and enter the values for multiple language codes.
+1. In the **Configure Property "Customized Label"** dialog, select the **Bind to a static value** option and enter the values for multiple language codes.
 :::image type="content" source="media/sla-timer_configure_property.png" alt-text="SLA timer configure property dialog":::
-The language code value must be of the following format:
+   - The language code value must be of the following format:
 
-    (language code1)=(KPI instance status value):(KPI instance custom label). For example, 1033=0:In progress.
+     (language code1)=(KPI instance status value):(KPI instance custom label). For example, 1033=0:In progress.
 
-    You can also enter multiple language codes by separating them with a semicolon. For example, (language code1)=(KPI instance status value):(KPI instance custom label); (language code2)=(KPI instance status value):(KPI instance custom label).
-    If you need to create multiple language code sets, you must separate each set by pressing Enter.
+   - You can also enter multiple language codes by separating them with a semicolon: (language code1)=(KPI instance status value):(KPI instance custom label); (language code2)=(KPI instance status value):(KPI instance custom label). For example, 1033=0:Inprogress;1:Non Compliant
+    
+   - If you need to create multiple language code sets, you must separate each set by pressing **Enter**. For example, 
+    
+        (language code1)=(KPI instance status value):(KPI instance custom label); (language code2)=(KPI instance status value):(KPI instance custom label)
 
-    The status codes that you can enter are:
-        1- Non compliant
-        3- Paused
-        4- Succeeded
-        5- Canceled
+        **Enter**
 
-    To know the language code or to enable/disable a language, go to **Advanced Settings**>**Administration**>**Languages**.
+      (language code1)=(KPI instance status value):(KPI instance custom label); (language code2)=(KPI instance status value):(KPI instance custom label)
+   
+   - The status codes that you can enter are:
+
+       - 1: Noncompliant
+       - 3: Paused
+       - 4: Succeeded
+       - 5: Canceled
+
+   - To know the language code, or to enable or disable a language, go to **Advanced Settings**>**Administration**>**Languages**.
      
 3. Select **OK**.
 4. Save and publish the solution.
