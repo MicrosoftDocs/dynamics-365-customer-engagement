@@ -1,7 +1,7 @@
 ---
 title: Overview of knowledge management (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Learn the functionality of knowledge management in Dynamics 365 Customer Service.
-ms.date: 02/16/2022
+ms.date: 02/21/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -24,7 +24,6 @@ searchScope:
  - Customer Engagement 
 ---
 
-# Overview of knowledge management
 
 Knowledge management plays a vital role in enabling organizations to deliver world-class customer care. Allowing the agents to create rich, high-quality knowledge resources and showing the right knowledge content across engagement modalities (including self service, assisted service, and onsite service), expedites issue resolution and drives customer and agent satisfaction and productivity. 
 
