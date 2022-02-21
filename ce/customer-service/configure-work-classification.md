@@ -1,7 +1,7 @@
 ---
 title: "Configure work classification rulesets | MicrosoftDocs"
 description: "Learn about how to configure work classification rulesets for unified routing."
-ms.date: 10/11/2021
+ms.date: 02/21/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -79,11 +79,18 @@ Follow these steps to create a manual skill classification ruleset:
 
 4. Select **Create Rule**, and on the **Create work classification rule** dialog, enter a name.
 
-5. In the **Conditions** area, define the conditions according to your business needs.
+5. In the **Conditions** area, define the conditions as per your business needs:
+
+   1. Select **Add row**, and select **Skills** from the list box.
+   2. Select the required operator, and then select the skills for the condition.
+   3. Repeat the steps to define any other conditions.
 
 6. In the **Output** area, select the attribute whose value will be set if the conditions are met.
 
 7. If you want to manually set up the skill attribute, in the **Conditions** area, define the conditions, and select the required value in the **Output** area for the skill that needs to be set.
+
+   > [!Note]
+   > Make sure that the rating model that you choose for a skill in the work classification rule is same as the rating model in the assignment rule.
 
 ## Create classification rulesets based on capacity profiles
 
