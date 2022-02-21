@@ -23150,11 +23150,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/customer-service/voice-channel-install.md",
-      "redirect_url": "omnichannel-provision-license",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/sales-professional/help-hub.md",
       "redirect_url": "/dynamics365/sales/help-hub",
       "redirect_document_id": "false"

@@ -4,7 +4,7 @@ description: "Learn about the frequently asked questions (FAQs) for the voice ch
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 12/28/2021
+ms.date: 02/15/2022
 ms.topic: article
 
 ---
@@ -60,6 +60,14 @@ Dynamics 365 doesn’t use calling plans for its voice channel. However, if cust
 ### Is it possible to enable voice integrations outside of the Omnichannel for Customer Service app? For example, by adding omnichannel capabilities to a customer Dynamics 365 app?
 
 The voice channel is supported only in the Customer Service workspace and Omnichannel for Customer Service apps.
+
+### How can I set up an IVR bot in the voice channel?
+
+There are a few different ways you can set up an interactive voice response (IVR) bot in the voice channel. See the following topics for details.
+
+- [Integrate a Power Virtual Agents bot for voice](voice-channel-ivr-bots.md)
+- [Integrate an Azure bot](configure-bot.md)
+- [Integrate third-party IVR systems with voice channel](voice-channel-contextual-transfer-external-ivr.md)
 
 ### See also
 
