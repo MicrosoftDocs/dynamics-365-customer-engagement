@@ -119,7 +119,7 @@ If you've created a custom app, you can add the sales accelerator to it from the
 
 As an administrator, you can monitor the number of records that have been connected to sequences over a period of seven months. 
 
-If you're using sales accelerator with your Sales Enterprise license, you get 1,500 sequence-connected records per month. A warning symbol is displayed whenever the usage exceeds the monthly limit. Hover over the symbol to the message. In such a case, you must upgrade to the Sales Premium license to enjoy full benefits.
+If you're using sales accelerator with your Sales Enterprise license, you get 1,500 sequence-connected records per month. A warning symbol is displayed whenever the usage exceeds the monthly limit. Hover over the symbol to see the message. In such a case, you must upgrade to the Sales Premium license to enjoy full benefits.
 
 > [!IMPORTANT]
 > - There would be latency of one day to display the usage data.
@@ -310,7 +310,7 @@ You may want to modify the lead and opportunity scoring configurations, for exam
 
 As an administrator, you can monitor the number of records that have been scored over a period of seven months. This includes both lead and opportunity scoring.
 
-If you're using predictive scoring with your Sales Enterprise license, you get 1,500 scored records per month. A warning symbol is displayed whenever the usage exceeds the monthly limit. Hover over the symbol to the message. In such a case, you must upgrade to the Sales Premium license to enjoy full benefits.
+If you're using predictive scoring with your Sales Enterprise license, you get 1,500 scored records per month. A warning symbol is displayed whenever the usage exceeds the monthly limit. Hover over the symbol to see the message. In such a case, you must upgrade to the Sales Premium license to enjoy full benefits.
 
 > [!IMPORTANT]
 > There would be latency of one day to display the usage data.
