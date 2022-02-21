@@ -1,7 +1,7 @@
 ---
 title: Diagnostics for unified routing (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Learn how to set up routing diagnostics and understand the different stages of routing work items.
-ms.date: 02/11/2022
+ms.date: 02/18/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -18,7 +18,10 @@ ms.custom:
 
 # Diagnostics for unified routing
 
-Unified routing helps you assign a work item to the agent or queue who's best suited to handle it, based on the agent's skills and the entities that are related to the work item. Routing diagnostics will provide visibility into work item classification and assignment events when using unified routing.
+Unified routing helps you assign a work item to the agent or queue who's best suited to handle it, based on the agent's skills and the records that are related to the work item. Routing diagnostics provides visibility into work item classification and assignment events when using unified routing.
+
+> [!Important]
+> Your supervisors can access the routing diagnostics for records and conversations that are handled through unified routing. However, if you don’t want them to view or select the links on a diagnostic record or conversation, or view rules and other configurations, ensure that you assign read-only permissions on the roles such as the Omnichannel supervisor or any other custom roles that you use for managing access in your organization.
 
 ## Enable routing diagnostics
 
@@ -46,21 +49,20 @@ To see data related to work items and their status, you need to enable routing d
 
 3. In the confirmation message that appears, select **Yes**.
 
-   You'll see that a list of new work items start to appear. However, Work items may not appear on your screen immediately.
+   You'll see that a list of new work items start to appear. However, the work items may not appear on your screen immediately.
 
 > [!NOTE]
 > After you enable diagnostics, the data will be stored in Microsoft Dataverse. This might impact your storage capacity. Select **Turn off diagnostics** to disable diagnostics.
-
 
 ## Understand routing stages and diagnostics
 
 The **Routing diagnostics** page displays a list of work items with details and the stage each work item is in. The following table displays the information to help you understand routing diagnostics.
 
-- **Work item**: The name of the work item.Work items can be searched and sorted by clicking the dropdown next to the work item column.
+- **Work item**: The name of the work item. Work items can be searched and sorted by selecting the dropdown next to the work item column.
 - **Routing status**: The stage the work item is in.
-- **Routing started on**: The time and date when the routing began
+- **Routing started on**: The date and time when the routing began.
 - **Routing duration**: The amount of time the work item has been in its current stage.
-- **Work stream**: The name of the work stream that the work item was assigned to.
+- **Work stream**: The name of the workstream that the work item was assigned to.
 - **Queue**: The name of the queue that the work item was routed to.
 
 You can select any work item to see a **Summary** page that shows detailed information about when the work item was created, its current stage, and the duration of each stage. You can also open the work item to see the related case.
@@ -110,7 +112,7 @@ If no queue matches the requirement, the work item is assigned to the default qu
 
 ### Prioritization
 
-The Prioritization rule set is a list of prioritization rules. Work items are routed according to their priority. For more information, see : [Configure assignment methods and rules for queues](configure-assignment-rules.md)
+The Prioritization rule set is a list of prioritization rules. Work items are routed according to their priority. For more information, see [Configure assignment methods and rules for queues](configure-assignment-rules.md).
 
 ### Assignment selection
 
