@@ -74,7 +74,7 @@ No, you can't recover your data after the trial organization is removed from pro
 
 ### Is disaster recovery supported for the voice channel?
 
-Yes,  business continuity and disaster recovery for production instances of the voice channel are supported and are based on business continuity and disaster recovery for [Dynamics 365](/power-platform/admin/business-continuity-disaster-recovery) and [SLA for Azure Communication Services](https://azure.microsoft.com/support/legal/sla/communication-services/v1_0/).
+Yes,  business continuity and disaster recovery for production instances of the voice channel are supported and are based on [business continuity and disaster recovery for Dynamics 365](/power-platform/admin/business-continuity-disaster-recovery) and [SLA for Azure Communication Services](https://azure.microsoft.com/support/legal/sla/communication-services/v1_0/).
 
 ### See also
 
