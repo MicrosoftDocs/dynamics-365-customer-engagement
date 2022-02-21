@@ -82,7 +82,7 @@ The following screenshot illustrates how enabling the Kanban option displays the
 As an administrator or forecast manager, you can select an attribute for grouping the underlying records by default. Users can change the grouping attribute in their view and that selection will override the default grouping attribute for them.
 
 > [!NOTE]
-> The group by option is only supported in the grid/table view. If you want to group the records, then disable the **Set kanban as default** option. If you select both Kanban and grouping, then the default view will be set to Kanban; Groups will appear only when the user switches to the table/grid view.
+> The group by option is only supported in the grid/table view. If you want to group the records, then disable the **Set kanban as default** option. If you select both Kanban and grouping, then the default view will be set to Kanban; Groups will appear only when the user switches to the table/grid view.  
 
 Select the attribute from the **Default underlying records group by attribute (Preview)** dropdown in the **Advanced** step of the forecast configuration.
 
