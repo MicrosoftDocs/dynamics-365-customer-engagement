@@ -1,7 +1,7 @@
 ---
 title: "Connect to a model-driven app using Unified Service Desk client | MicrosoftDocs"
 description: "Learn how to sign in to Unified Service Desk using the Unified Service Desk client. Also, learn how to use SSO for Unified Service Desk."
-ms.date: 01/16/2022
+ms.date: 02/22/2022
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -18,8 +18,6 @@ tags: MigrationHO
 ---
 
 # Connect to a model-driven app
-
-
 
 The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client is the agent application you can use to connect to the Microsoft Dataverse instance where you've deployed your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] entities and configuration data. When you sign in by using the client application, it reads the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration on the Dataverse instance, and accordingly exposes the controls and functionality in the application.  
 
@@ -62,14 +60,11 @@ If you want to configure the sign-in experience, such as by prepopulating values
 
 Single sign-on (SSO) for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides an improved startup performance and user experience by authenticating users to access model-driven apps without the need for entering their credentials multiple times. This eliminates the need for entering the same password again, thereby minimizing the likelihood of sign-in errors, and helps ensure a seamless user experience.
 
-In Unified Service Desk 4.1.1.1433 and later versions, SSO is disabled by default. 
+In Unified Service Desk 4.1.1.1433 and later versions, SSO is disabled by default.
 
-In versions preceding Unified Service Desk 4.1.1.1433, SSO is enabled by default. 
+In versions preceding Unified Service Desk 4.1.1.1433, SSO is enabled by default.
 
-So, if you're using the EdgeWebView2 Process in Unified Service Desk 4.2, you must manually enable SSO. 
-
-If you're using the Chrome Process in versions earlier than Unified Service Desk 4.1.1.1433, and if your organization has enforced the inactivity session timeout for agents, then the agent won't be automatically signed out when the inactivity session timeout expires. So, to enforce an inactivity session timeout for agents in earlier versions of the product, be sure to disable the SSO feature. 
-
+If SSO is enabled and if your organization has enforced the inactivity session timeout for agents, then the agent won't be automatically signed out when the inactivity session timeout expires. So, to enforce an inactivity session timeout for agents in earlier versions of the product, be sure to disable the SSO feature.
 
 To enable or disable SSO, see [Enable or disable single sign-on](#enable-or-disable-single-sign-on).
 
