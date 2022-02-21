@@ -73,6 +73,14 @@ The voice channel is supported only in the Customer Service workspace and Omnich
 
 There are a few different ways you can set up an interactive voice response (IVR) bot in the voice channel. See the following topics for details.
 
+### Can I recover deprovisioned trial voice organizations?
+
+No, once deprovisioned, you can’t recover any data from a trial organization.
+
+### Is disaster recovery supported for the voice channel?
+
+Yes,  business continuity and disaster recovery for production instances of the voice channel are supported and are tied in with that of [Dynamics 365](/power-platform/admin/business-continuity-disaster-recovery) and [SLA for Azure Communication Services](/support/legal/sla/communication-services/v1_0/).
+
 
 - [Integrate a Power Virtual Agents bot for voice](voice-channel-ivr-bots.md)
 - [Integrate an Azure bot](configure-bot.md)
