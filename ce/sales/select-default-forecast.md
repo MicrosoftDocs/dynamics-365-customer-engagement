@@ -1,7 +1,7 @@
 ---
 title: "Select a default forecast"
 description: "When you have multiple forecast configurations, you can select the most used forecast configuration as the default."
-ms.date: 02/15/2022
+ms.date: 02/21/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -16,9 +16,17 @@ searchScope:
 ---
 # Select a default forecast
 
-When you have multiple forecast configurations, you can select the most used one as the default forecast. When a user open the forecasts page, the default forecast is displayed until they switch to a different forecast.  
+When you have multiple forecast configurations, you can select the most used one as the default forecast. When a user opens the forecasts page, the default forecast is displayed until they switch to a different forecast.
 
-**To select a default forecast:**
+## License and role requirements
+
+| &nbsp; | &nbsp; |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator or Forecast Manager<br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
+## To select a default forecast
   
 1.  In the **Sales Hub** app, select the Change area icon ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area"), and then select **App Settings**.    
 
@@ -30,8 +38,14 @@ When you have multiple forecast configurations, you can select the most used one
 
     :::image type="content" source="media/default-forecast.png" alt-text="Screenshot of the Set as default option."::: 
  
-4. To verify, switch to the **Sales** area and open the Forecasts page from **Performance** > **Forecasts**.
+4. (Optional) To verify whether the selected forecast is set as the default, switch to the **Sales** area and open the Forecasts page from **Performance** > **Forecasts**.
     
-    The forecast configuration that you selected as the default is displayed.
+    The forecast that you've selected as the default is displayed.
     > [!NOTE]
     > The most recent selection of the user overrides the default selection for that user. For example, if a user switches to a different forecast, that forecast is displayed when they access the forecasts page next time.
+
+[!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
+
+### See also
+[View a forecast](view-forecasts.md)  
+

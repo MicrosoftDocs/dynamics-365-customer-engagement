@@ -1,7 +1,7 @@
 ---
 title: "Configure advanced settings for a forecast"
 description: "Configure advanced settings for a forecast in Dynamics 365 Sales."
-ms.date: 11/06/2020
+ms.date: 02/21/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -52,16 +52,18 @@ As an administrator or forecast manager, turn on the **Multi-currency selection*
 > [!div class="mx-imgBorder"]
 > ![Enable multiple-currency selection.](media/forecast-multi-currency-enable.png "Enable multiple-currency selection")
 
-## Set the default experience for underlying records 
+## Set the default experience for underlying records (Preview)
 
-As an administrator or forecast manager, you can define the default experience for each forecast configuration based on your forecast users' preferences. For example, if your users prefer a Kanban view instead of grid view, you can set the Kanban view as the default. You can define the following default settings:
+As an administrator or forecast manager, you can define the default experience for each forecast configuration based on your forecast users' preferences. For example, if your users prefer a Kanban view instead of grid view, you can set the Kanban view as the default. 
+
+[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+
+You can define the following default settings:
 
 - [Set Kanban as default view](#set-kanban-as-default-view)
 
 - [Select a default group by attribute](#select-a-default-group-by-attribute)
 - [Select a default underlying records view](#select-a-default-underlying-records-view)
-
- 
 
 > [!NOTE]
 > The most recent selection of the user overrides the default selection for that user. For example, if the default view for the underlying records is Kanban and a user switches to the grid view, then the underlying records will open in the grid view when they access it next time. 
@@ -90,7 +92,7 @@ The following screenshot illustrates how selecting the attribute, groups the und
 
 ### Select a default underlying records view
 
-You might want users to view the underlying records using a specific view (such as My Open Opportunities) to give the most relevant information about the forecast. You can select such a view as the default view for the forecast configuration. 
+If you want users to view the underlying records using a specific view (such as My Open Opportunities) to give the most relevant information about the forecast, select that view as the default view for the forecast configuration.  
 
 > [!NOTE]
 > View selection is only supported in the grid/table view. If you want to open the records in a specific view by default, then disable the **Set kanban as default** option. If you select both Kanban and the view, then the records will open in Kanban; The default records view will appear only when the user switches to the table/grid view. 
