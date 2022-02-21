@@ -72,7 +72,8 @@ After you have added the SLA timer control for an SLA-enabled entity, you can cu
 1. In the SLA Timer area, select **Edit** for **Customized Labels**.
 :::image type="content" source="media/sla-timer-customized-label.png" alt-text="SLA timer customized label option":::
 1. In the **Configure Property "Customized Label"** dialog, select the **Bind to a static value** option and enter the values for multiple language codes.
-:::image type="content" source="media/sla-timer_configure_property.png" alt-text="SLA timer configure property dialog":::
+
+    :::image type="content" source="media/sla-timer_configure_property.png" alt-text="SLA timer configure property dialog":::
    - The language code value must be of the following format:
 
      (language code1)=(KPI instance status value):(KPI instance custom label). For example, 1033=0:In progress.
