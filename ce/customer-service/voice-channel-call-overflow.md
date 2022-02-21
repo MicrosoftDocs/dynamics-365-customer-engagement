@@ -69,8 +69,8 @@ If operation hours are not configured, the queues will be available round the cl
 Configure the action to be performed when call overflow is triggered. The following options are available to handle overflow actions for a voice workstream:
 
  -	**Default**: The work item remains in the queue to be routed to the next available agent.
- -	**End call**: Ends the call if no agent is available to take the call. For example, an operating hour is configured, and the overflow action was triggered on account of it.
- -	**Transfer to external number**: Routes the call to a specified number if the work item must be handled on priority.
+ -	**End call**: The call ends if no agent is available to take the call. For example, an operating hour is configured, and the overflow action was triggered on account of it.
+ -	**Transfer to external number**: The call is routed to a specified number if the work item must be handled on priority.
 
 More information: [Configure routing rules for the voice workstream](voice-channel-route-queues.md#configure-routing-rules-for-the-voice-workstream)
 
