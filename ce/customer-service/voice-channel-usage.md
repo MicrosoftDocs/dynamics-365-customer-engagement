@@ -4,7 +4,7 @@ description: "View the report to see the minutes used in voice calls in Omnichan
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 11/02/2021
+ms.date: 02/18/2022
 ms.topic: article
 ms.custom: intro-internal
 
@@ -26,7 +26,10 @@ The Voice minutes report lets Omnichannel administrators view a Power BI report 
 
 ## View the Voice minutes report
 
-To view the Voice minutes report, go to the Omnichannel admin center app, and in the site map, under **Insights**, select **Voice minutes**.
+To view the Voice minutes report, do one of the following steps:
+
+- In the site map of Customer Service admin center (preview), select **Insights**, and in **Admin reports**, select **View report** for **Voice minutes**. 
+- In the site map of Omnichannel admin center, in **Insights**, select **Voice minutes**.
 
 > ![The Voice minutes report.](media/voice-minutes-report.png "The Voice minutes report.")
 

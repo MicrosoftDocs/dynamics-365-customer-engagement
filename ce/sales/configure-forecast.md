@@ -1,10 +1,10 @@
 ---
 title: "Configure forecasts in your organization"
 description: "Forecasts can be based on revenue or quantity. Configure forecast type, hierarchy, permissions, and details to appear on the forecast grid."
-ms.date: 02/10/2022
+ms.date: 02/15/2022
 ms.topic: article
-author: udaykirang
-ms.author: udag
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 searchScope: 
   - D365-App-msdynce_saleshub

@@ -5,7 +5,7 @@ ms.date: 02/10/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 ---
 
 # What if you're no longer working a lead? (Sales Hub)

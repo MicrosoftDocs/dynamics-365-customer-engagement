@@ -515,6 +515,8 @@
       items:
       - name: Introduction to the voice channel
         href: voice-channel.md
+      - name: Install the voice channel
+        href: voice-channel-install.md  
       - name: Connect to Azure Communication Services
         href: voice-channel-acs-resource.md  
       - name: Manage phone numbers

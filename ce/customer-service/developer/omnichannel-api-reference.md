@@ -3,8 +3,8 @@ title: "Omnichannel JavaScript API Reference | Microsoft Docs"
 description: "Omnichannel JavaScript API Reference"
 ms.date: 10/20/2020
 ms.topic: reference
-author: platkat
-ms.author: ktaylor
+author: mh-jaya
+ms.author: v-jmh
 manager: shujoshi
 ms.reviewer: nenellim
 ---
