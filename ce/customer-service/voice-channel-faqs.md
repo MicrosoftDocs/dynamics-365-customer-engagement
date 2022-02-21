@@ -13,11 +13,11 @@ ms.topic: article
 
 ## Overview
 
-This topic contains the FAQs that you might have about the voice channel.
+This topic contains the frequently asked questions (FAQs) that you might have about the voice channel.
 
-### Are real-time keyword recognition or sentiment tracking while an agent is on a call included with the voice channel?
+### Does the voice channel include real-time keyword recognition or sentiment tracking while an agent is on a call?
 
-Yes, features, such as sentiment analysis and agent suggestions for similar cases or knowledge articles will work with the voice channel.
+Yes, features such as sentiment analysis and agent suggestions for similar cases or knowledge articles will work with the voice channel.
 
 ### Is the voice channel PCI DSS compliant?
 
@@ -25,13 +25,13 @@ The voice channel implements Payment Card Industry Data Security Standard (PCI D
 
 ### Where does Azure Communication Services provide native PSTN services?
 
-Getting registered as a carrier is a legally-complex and country-specific process. Azure Communication Services has a multi-year road map to become a carrier in different countries around the world. As of January 2022, Azure Communication Services provides “Direct Offers” of toll-free and local numbers (Microsoft through Azure Communication Services is the carrier) for those with billing postal codes in United States Puerto Rico, United Kingdom, and Ireland.
+Getting registered as a carrier is a legally-complex and country-specific process. Azure Communication Services has a multiyear road map to become a carrier in different countries and regions. As of January 2022, Azure Communication Services provides “Direct Offers” of toll-free and local numbers (Microsoft through Azure Communication Services is the carrier) for those with billing postal codes in United States Puerto Rico, United Kingdom, and Ireland.
 
 An alternative to Microsoft as a carrier is Azure direct routing that allows customers to bring their own carrier. More information: [Azure direct routing](/azure/communication-services/concepts/telephony/telephony-concept)
 
 ### What about countries where Azure Communication Services doesn't provide native PSTN services?
 
-Azure Communication Services is available worldwide, even if it isn't acting as the carrier in certain countries. For these countries, Azure Communication Services provides a direct routing for local carriers, such as AT&T and Verizon, to connect to Azure Communication Services. Through this mechanism, customers will still be able to deploy and use all the features of the voice channel in Dynamics.
+Azure Communication Services is available worldwide, even if it isn't acting as the carrier in certain countries. For these countries, Azure Communication Services provides a direct routing for local carriers, such as AT&T and Verizon, to connect to Azure Communication Services. Through this mechanism, customers will still be able to deploy and use all the features of the voice channel in Dynamics 365.
 
 ### Can I bring my own phone number?
 
@@ -53,11 +53,11 @@ Yes, you can use Dynamics 365 Channel Integration Framework 2.0 connector to int
 
 The voice capabilities for Dynamics 365 Customer Service are built on the Azure Communications Services.
 
-### Will Azure communications be an add-on service? I already have a competitor phone system and have Microsoft Teams?
+### Will Azure communications be an add-on service? I already have a competitor phone system and have Microsoft Teams.
 
 Dynamics 365 doesn’t use calling plans for its voice channel. However, if customers are using Azure direct routing with Microsoft Teams, the same SBCs and setup can be used with Azure direct routing to reuse the voice channel.
 
-### Is it possible to enable voice integrations outside of the Omnichannel for Customer Service app? For example, by adding omnichannel capabilities to a customer Dynamics 365 app?
+### Is it possible to enable voice integrations outside of the Omnichannel for Customer Service app? For example, by adding omnichannel capabilities to a customer Dynamics 365 app.
 
 The voice channel is supported only in the Customer Service workspace and Omnichannel for Customer Service apps.
 
