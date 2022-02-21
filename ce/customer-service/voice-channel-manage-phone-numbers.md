@@ -1,7 +1,7 @@
 ---
 title: "Manage phone numbers | MicrosoftDocs"
 description: "Use this topic to understand how you can acquire new phone numbers, and also view, update, and release existing phone numbers in Omnichannel for Customer Service."
-ms.date: 11/02/2021
+ms.date: 02/18/2022
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: gandhamm
@@ -19,7 +19,7 @@ Omnichannel for Customer Service helps you enable and use voice and SMS services
 
 ## Prerequisite
 
-You must provision the voice channel in Omnichannel for Customer Service. More information: [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)
+You must install the voice channel in Omnichannel for Customer Service. More information: [Install the voice channel](voice-channel-install.md)
 
 ## Use trial phone number
 

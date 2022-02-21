@@ -4,7 +4,7 @@ description: "Learn how to set up a multilanguage contact center in the voice ch
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 11/02/2021
+ms.date: 02/18/2022
 ms.topic: article
 
 ---
@@ -27,14 +27,20 @@ You can configure a phone number in a workstream that allows the customer to cho
    
 ## Add a phone number to the workstream and configure language settings
 
-1. In Omnichannel admin center, under **General settings** on the sitemap, select **Workstreams**, and then select the name of the workstream you want to add the phone number to. 
-2. Select **Edit** next to the pencil icon, and then on the **Voice settings** page, select the number to add to the workstream, and then select **Next**.
-3. On the **Language** tab, select **Add primary language**. A language page is displayed, where you set the primary language for the channel. You can add additional languages to this voice channel, and each language added will have its own settings.
+1. In Customer Service admin center (preview) or Omnichannel admin center, go to the voice workstreams, and then select the workstream to configure the phone number.
+
+1. Select **Edit** next to the pencil icon, and then on the **Voice settings** page, select the number to add to the workstream, and then select **Next**.
+
+1. On the **Language** tab, select **Add primary language**. A language page is displayed, where you set the primary language for the channel. You can add additional languages to this voice channel, and each language added will have its own settings.
    The **Primary language** is the first language the bot uses to greet the customer. This allows your organization to have one phone number that services multiple languages, rather than have multiple phone numbers, each with one language, and then ask customers to call the right number.
-4. Select the type of hold and wait music you want the customer to hear. For example, for the primary language, you might always want to use a certain type of hold music, but for a secondary language, you might choose a different type of music.
-5. In **Voice profile**, select a voice, voice style, speaking speed, and pitch for the bot.
-6. Turn on the **Post-call survey** toggle if you want the bot to present a survey to the customer at the end of the call. If this feature is on, the call is automatically transferred to the survey bot after the agent hangs up.
-7. When you've finished configuring your desired settings, select **Confirm**.
+
+1. Select the type of hold and wait music you want the customer to hear. For example, for the primary language, you might always want to use a certain type of hold music, but for a secondary language, you might choose a different type of music.
+
+1. In **Voice profile**, select a voice, voice style, speaking speed, and pitch for the bot.
+
+1. Turn on the **Post-call survey** toggle if you want the bot to present a survey to the customer at the end of the call. If this feature is on, the call is automatically transferred to the survey bot after the agent hangs up.
+
+1. When you've finished configuring the settings, select **Confirm**.
 
    > ![Language settings for the voice channel.](media/voice-language-settings.png "Language settings for the voice channel.")
 
