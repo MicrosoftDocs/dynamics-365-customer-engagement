@@ -25,7 +25,7 @@ In claims-based authentication, an identity provider that contains a security to
 This content provides the steps needed to configure [!INCLUDE[pn_Internet_facing_deployment](../includes/pn-internet-facing-deployment.md)] using claims-based authentication.  
  
 > [!NOTE]
-> When IFD is enabled, you can’t access the sitemap designer of a UCI modeldriven App using configured internal URL, such as https://internalurl.contoso.com/orgname. You must use the external URL that has been configured for IFD such as https://orgname.contoso.com
+> When IFD is enabled, you can’t access the sitemap designer of a UCI modeldriven App using the configured internal URL, such as https://internalurl.contoso.com/orgname. You must use the external URL that has been configured for IFD such as https://orgname.contoso.com
 
 ### See also
 [Implement claims-based authentication: internal access](implement-claims-based-authentication-internal-access.md) <br />
