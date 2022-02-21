@@ -13,7 +13,7 @@ In the **Advanced** step of forecast configuration, you can configure the follow
 
 - [Automatically hide parent rows](#automatically-hide-parent-rows)
 - [Enable multi-currency selection](#enable-multi-currency-selection)
-- [Set the default experience for underlying records](#set-the-default-experience-for-underlying-records)
+- [Set the default experience for underlying records (Preview)](#set-the-default-experience-for-underlying-records-preview)
 - [Enable prediction factors](#enable-prediction-factors)
 - [Customize underlying records](#customize-underlying-records)
 
