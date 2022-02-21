@@ -12,7 +12,6 @@ manager: shujoshi
 In the **Advanced** step of forecast configuration, you can configure the following:
 
 - [Automatically hide parent rows](#automatically-hide-parent-rows)
-
 - [Enable multi-currency selection](#enable-multi-currency-selection)
 - [Preview: Set the default experience for underlying records](#preview-set-the-default-experience-for-underlying-records)
 - [Enable prediction factors](#enable-prediction-factors)
