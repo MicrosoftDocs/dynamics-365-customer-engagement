@@ -36,7 +36,7 @@ Relationship analytics provides a graphical representation of KPIs and activity 
 
 1. Select **Include exchange data for computing KPIs and health** ​to collect data from Exchange Online and improve the accuracy of the calculated KPIs and analytics.
     > [!NOTE]
-    > This step requires that the Office 365 administrator provides the consent for using Office 365 data. If the consent is not yet provided, a message displays the type of consent required. 
+    > This step requires that the Office 365 administrator provides consent for using Office 365 data. If the consent is not yet provided, a message displays the type of consent required.  
 
     > [!div class="mx-imgBorder"]
     > ![Enable the relationship assistant for your organization](media/si-admin-relationship-analytics-enable-in-organization.png "Enable the relationship assistant for organization")  
@@ -66,7 +66,7 @@ Relationship analytics provides a graphical representation of KPIs and activity 
     
 9.  Set **Health score grading** for health scores to grade opportunities.  
 
-    When health score is calculated, the opportunities in your organization's pipeline are graded according to the range defined in this section. Each opportunity in the pipeline is graded Good, Fair, or Poor, according to the health score. Opportunities in the top score range are graded Good while records within the lowest score range are graded Poor.  
+    When health score is calculated, the opportunities in your organization's pipeline are graded according to the range defined in this section. Each opportunity in the pipeline is graded as Good, Fair, or Poor, according to the health score. Opportunities in the top score range are graded as Good while records within the lowest score range are graded as Poor.  
     
     You can configure the range for the grading according to your organizational requirements. When you change the health score range for a grade, the maximum range value for the adjacent grade changes automatically in accordance with the change in the minimum value. For example, when you change the minimum range value score for Good to 60, the maximum lead score range for Fair changes to 59.    
     
