@@ -83,7 +83,7 @@ After you have added the SLA timer control for an SLA-enabled entity, you can cu
     
         (language code1)=(KPI instance status value):(KPI instance custom label); (language code2)=(KPI instance status value):(KPI instance custom label)
 
-        **Enter**
+        Press **Enter**
 
       (language code1)=(KPI instance status value):(KPI instance custom label); (language code2)=(KPI instance status value):(KPI instance custom label)
    
