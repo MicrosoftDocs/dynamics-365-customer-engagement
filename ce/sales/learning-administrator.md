@@ -1,15 +1,16 @@
 ---
 title: Administrators learning catalog in sales
-description: Find all the Dynamics 365 Sales training options for administrators. 
+description: Find all the Dynamics 365 Sales training options for administrators.
+ms.date: 01/08/2020
+ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-ms.topic: article
-ms.date: 01/08/2020
+manager: shujoshi
 ---
 
 # Administrators Learning Catalog for sales
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 Do you need to keep systems and data flowing, provisioned, and secure round-the-clock?
 

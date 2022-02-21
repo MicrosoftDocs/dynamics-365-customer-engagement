@@ -2,7 +2,7 @@
 title: "Voice of the Customer is deprecated | MicrosoftDocs"
 description: "Information about Voice of the Customer deprecation."
 keywords: send survey; distribute survey; distribute voice of the customer survey; track survey invite; deprecate voice of the customer
-ms.date: 07/01/2020
+ms.date: 01/04/2022
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: sbmjais
@@ -26,7 +26,7 @@ Access to Voice of the Customer – including the ability to create new surveys 
 
 We encourage all customers to use Forms Pro for new surveys implementation. Forms Pro is available as an entitlement with the following Dynamics 365 Enterprise apps: Sales, Customer Service, Field Service, Marketing, Talent, and Project Service Automation.
 
-For questions about Voice of the Customer and guidance on how to move to Forms Pro, please contact [vocsupport@microsoft.com](mailto:vocsupport@microsoft.com).
+For questions about Voice of the Customer and guidance on how to move to Forms Pro, please contact Microsoft support.
 
 
 

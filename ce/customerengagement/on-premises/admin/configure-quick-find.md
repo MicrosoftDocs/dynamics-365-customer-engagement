@@ -2,9 +2,9 @@
 title: "Configure Quick Find in Dynamics 365 Customer Engagement (on-premises)"
 description: "Tailor the Quick Find functionality by selecting record return limits, an indexing method, and which entities are included."
 ms.custom: 
-ms.date: 10/17/2019
+ms.date: 02/14/2022
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
@@ -111,7 +111,7 @@ disabling full-text indexing** section.
 
 1.  Go to **Settings** \> **Administration** \> **System Settings** \> **General** tab.
 
-2.  Select **Yes** or **No** next to **Enable Relevance Search**.
+2.  Select **Yes** or **No** next to **Enable full-text search for Quick Find**.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

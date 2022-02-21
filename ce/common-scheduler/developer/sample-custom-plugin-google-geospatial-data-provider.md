@@ -6,7 +6,7 @@ searchScope:
   - Field Service
   - Project Service
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.subservice: common-scheduler
 ms.topic: article
 author: FieldServiceDave

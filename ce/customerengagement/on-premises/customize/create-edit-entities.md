@@ -4,10 +4,10 @@ description: "Entities define the types of records people can use in Dynamics 36
 ms.custom: 
 ms.date: 04/30/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: overview
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 02ba7668-028c-4886-9f05-9116a605f3c8

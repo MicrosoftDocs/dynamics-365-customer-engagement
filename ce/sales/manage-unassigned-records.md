@@ -2,7 +2,7 @@
 title: "View and manage unassigned records in assignment rules"
 description: "You can view and manage unassigned lead and opportunity records through assignment rules in sales accelerator."
 ms.date: 11/22/2021
-ms.service: dynamics-365-sales
+
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -11,12 +11,10 @@ manager: shujoshi
 
 # View and manage unassigned records
 
-[!INCLUDE[cc-preview-features-no-ms-support](../includes/preview-disclaimer.md)] 
-
 Monitoring of unassigned records allows you to view the lead or opportunity records that aren't assigned to any seller. As an administrator, sales manager, or sequence manager, you can view these unassigned records and assign to sellers. 
 
 ## License and role requirements
-|  | |
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator, Sequence Manager, or Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
@@ -42,7 +40,7 @@ The records aren't assigned automatically because of one of the following reason
 **To view the unassigned records** 
 
 1.	Go to the **Change area** ![change area](media/change-area-icon.png) in the lower-left corner of the page, and select **Sales Insights settings**.      
-2.	Under **Sales accelerator**, select **Assignment rules (preview)**.   
+2.	Under **Sales accelerator**, select **Assignment rules**.   
 
     >[!div class="mx-imgBorder"]
     >![Assignment rules home page.](media/sa-ar-view-unassigned-records-home-page.png "Assignment rules home page")

@@ -4,7 +4,7 @@ description: "Follow these steps to enable grid editing using the Editable Grid 
 ms.custom: 
 ms.date: 04/10/2020
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -94,7 +94,7 @@ In previous releases of Dynamics 365 Customer Engagement (on-premises), users co
 6. If you have a nested grid, select the pencil button for **Nested grid view**, and then select the entity and view for the nested grid. For the **Nested grid parent ID** select the relationship for the entities. For example, the ParentAccountID field connects the **Account** and **Contact** entities.  
   
    > [!NOTE]
-   >  Nested grids are only available for phones, tablets, and unified interface apps. Nested grids aren't available with classic web client apps. More information: [About Unified Interface](../admin/about-unified-interface.md) 
+   >  Nested grids are only available for phones, tablets, and Unified Interface apps. Nested grids aren't available with legacy web client apps. More information: [About Unified Interface](../admin/about-unified-interface.md) 
   
 7. If you don't want to allow the user to group data by any column in the view (you want to save space, for example), in the **Group by Column** row, select the pencil button, and then in the **Configure Property "Group by Column"** dialog box, select **Disabled**, and then select **OK**.  
   
@@ -169,7 +169,7 @@ Based on customer feedback, we have removed the editable grid experience from ph
 
 ### Why can't I use record navigation in a form when coming from an editable grid?
 
-This functionality isn't available with the web client. However, this functionality is available in Unified Interface. 
+This functionality isn't available with the legacy web client. However, this functionality is available in Unified Interface. 
 
 
 ### See also  

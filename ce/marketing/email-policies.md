@@ -2,7 +2,7 @@
 title: "Account email policies (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about Dynamics 365 Marketing email policies and what to do if your account is suspended."
 ms.date: 04/07/2020
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing

@@ -15,7 +15,7 @@ If your organization changes its selling process, you might want to edit a seque
 
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator or Sequence Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
@@ -23,7 +23,7 @@ If your organization changes its selling process, you might want to edit a seque
    
 1. Sign in to your sales app.   
 2. Go to **Change area** in the lower-left corner of the page and select **Sales Insights settings**.   
-3. Under **Sales accelerator**, select **Sequence**.     
+3. Under **Sales accelerator**, select **Sequences**.     
 4. On the **Sequences** page, verify the state of the sequence you want to edit:   
    - If the sequence is **Inactive**, skip to step 5.      
    - If the sequence is **Active**, select it, and then select **More options** > **Deactivate**.    

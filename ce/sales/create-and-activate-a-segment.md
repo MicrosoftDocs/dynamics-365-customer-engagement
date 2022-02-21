@@ -15,7 +15,7 @@ As a sequence manager, you create segments&mdash;groups of records&mdash;by defi
 
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator or Sequence Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
@@ -60,7 +60,7 @@ As a sequence manager, you create segments&mdash;groups of records&mdash;by defi
 
     -	**Add group**: Add multiple conditions as a group to your segment if you want to filter leads by using more than one field.   
 
-        1.	Select **AND** or **Or** to group the conditions.     
+        1.	Select **And** or **Or** to group the conditions.     
 
             >[!div class="mx-imgBorder"]
             >![Add a condition group](media/sa-segment-condition-add-group.png "Add a condition group")        
@@ -70,7 +70,7 @@ As a sequence manager, you create segments&mdash;groups of records&mdash;by defi
             >[!div class="mx-imgBorder"]
             >![Add conditions to the group](media/sa-segment-condition-add-group-select-condition.png "Add conditions to the group")        
 
-        3.	When you select **AND**, this segment is only applied to leads that meet both criteria. When you select **Or**, the segment is applied to leads that meet any of the filter criteria. For example, to apply this segment to leads that are created by Kenny Smith and have the company name Contoso, select **AND**.
+        3.	When you select **And**, this segment is only applied to leads that meet both criteria. When you select **Or**, the segment is applied to leads that meet any of the filter criteria. For example, to apply this segment to leads that are created by Kenny Smith and have the company name Contoso, select **AND**.
 
             Similarly, you can create multiple groups and further filter the leads based on the conditions defined in the groups.    
 

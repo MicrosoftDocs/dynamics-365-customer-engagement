@@ -3,8 +3,8 @@ title: "Delete a configured channel or page to stop receiving messages | Microso
 description: "Deactivate or delete a channel to turn off and stop receiving messages on the channel in Omnichannel for Customer Service."
 ms.date: 06/30/2020
 ms.topic: article
-author: platkat
-ms.author: ktaylor
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.reviewer: nenellim
 ---

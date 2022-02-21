@@ -1,7 +1,7 @@
 ---
 title: "Add a web resource for real-time translation of messages | MicrosoftDocs"
 description: "Learn how to add a web resource to implement the logic for enabling real-time translation of messages exchanged between your customers and agents."
-ms.date: 09/18/2020
+ms.date: 02/18/2022
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
@@ -23,7 +23,7 @@ To add a web resource:
 
 Perform the following steps to upload the web resource file for real-time translation:
 
-1. In Omnichannel Administration app, select **Settings**, and select **Advanced Settings**.
+1. In Dynamics 365, select **Settings**, and select **Advanced Settings**.
 
 2. On the page that appears on a new tab, select **Settings**, and then select **Solutions**.
 

@@ -1,21 +1,22 @@
 ---
 title: "Frequently asked questions - Dynamics 365 Sales | MicrosoftDocs"
 description: "Find a list of frequently asked questions that are related to different features in Dynamics 365 Sales Enterprise."
-ms.date: 11/10/2021
+ms.date: 01/25/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shubhadaj
+manager: shujoshi
 ---
 # Frequently asked questions for Dynamics 365 Sales 
 
 ## Licenses
 
-### What's the difference between Sales Premium and Sales Insights?  
+### What's the difference between Sales Premium and sales insights?  
 
-Sales Premium refers to the license and Sales Insights refers to the capabilities. The Sales Premium license includes both Sales Enterprise and Sales Insights capabilities. The basic Sales Insights capabilities are also available with the Sales Enterprise license. For a detailed comparison of the capabilities in each license, go to the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales/pricing/) page.     
+Sales Premium refers to the license and sales insights refers to the capabilities. The Sales Premium license includes both Sales Enterprise and premium sales insights capabilities. The basic sales insights capabilities are also available with the Sales Enterprise license. For a detailed comparison of the capabilities in each license, go to the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales/pricing/) page.  
 
-### Where can I find the comparison chart for Dynamics 365 Sales licenses? 
+
+### Where can I find the comparison chart for Dynamics 365 Sales licenses?  
 
 The following license options are available for Dynamics 365 Sales:
 - Sales Premium
@@ -23,6 +24,10 @@ The following license options are available for Dynamics 365 Sales:
 - Sales Professional
 
 For a detailed comparison of capabilities available with each license, go to the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales/pricing/) page.
+
+### Where can I find the Sales Professional and sales insights documentation?
+
+To provide a unified experience across all the Sales offerings, we've merged the documentation for Sales Enterprise, Sales Professional, and sales insights into this unified Sales documentation. The license and role requirements section at the top of pages indicate whether the feature and content are applicable to the license that you have. If you've bookmarked any of the old URLs, they would be automatically redirected to the corresponding pages in the unified documentation.  
 
 ## Entity: Activity
 
@@ -32,7 +37,7 @@ This is by design. If you go to an entity in Unified Interface and select a reco
 
 ### If the SchedulingEngine feature is enabled for appointments, why am I redirected to the default tab in an appointment when I save it from a non-default tab?
 
-This is by design. When you save an appointment from a non-default tab, you are redirected to the default environment when the appointment is saved.
+This is by design. When you save an appointment from a non-default tab, you're redirected to the default environment when the appointment is saved.
 
 ### If the SchedulingEngine feature is enabled for appointments, why are appointments saved automatically even if the system administrator has added a custom script to stop auto-save?
 
@@ -67,6 +72,21 @@ This is by design. The What's new functionality is only available in the legacy 
 7. In the **Timeline Control Properties** dialog box, update the values as required, and then select **OK**.
 
 8. Save the dashboard, and publish the customization.
+
+## Entity: Lead
+
+### What is the difference between duplicate detection capability of Power Platform and duplicate detection of leads in Dynamics 365 Sales?
+
+The duplicate detection capability of Power Platform uses rules based on matchcode that is created for each record. When a record is in the process of being created or updated, its matchcode is automatically compared against the matchcodes of existing records. If duplicates exist, the duplicate records are displayed before you save the record. More information: [Detect duplicate data so you can fix or remove it](/power-platform/admin/detect-duplicate-data)
+
+The duplicate detection of leads in Dynamics 365 Sales is an AI model that uses rules based on fuzzy logic and matchcode. When enabled, fuzzy logic and matchcode are generated for each lead and compared against other leads in the organization to identify duplicates.   
+
+| Rule type | Applied for|  
+|-----------|------------|
+| Fuzzy logic |- Similar lead name and company name<br>-	Similar lead name and the same email domain|
+| Matchcode |- Email address<br>-	Phone number|
+
+More information: [Enable duplicate lead detection](enable-duplicate-lead-detection.md)
 
 ## Entity: Opportunity
 
@@ -196,7 +216,34 @@ The following table defines the effect of changing the product price in **Pricel
 
 ## Forecasting
 
-### What are the configurations that I can edit once a forecast is published?     
+### Who owns the forecast?
+
+A forecast owner is the user who owns a specific level in the forecast hierarchy. When creating the forecast configuration, the forecast manager or administrator selects a field that should be used for assigning the owner to each level in the forecast hierarchy.
+By default, the following user field is selected based on the forecast template:        
+
+- For **Org chart forecast**, the **User** field is selected.      
+- For **Territory forecast**, the **Manager** field is selected.    
+  
+If you select a field other than the default, a column is created in the forecast grid. For example, if you select **Manager** as the user lookup field for an org chart forecast, the **Manager** field will be added to the forecast grid.
+
+**To view the forecast owner:**
+
+1. In the Sales Hub app, select **App Settings**.
+1. Under **Performance management**, select **Forecast configuration**.
+1. Select a forecast configuration, and then select the **Permissions** step.
+1. Verify the **User lookup field** to determine who owns the forecasts in the selected forecast configuration:  
+
+    :::image type="content" source="media/user-security-field.png" alt-text="Screenshot of User lookup field in the Permissions tab":::
+    
+    For example, in an org chart forecast, if you select **User** as the owner, each user in the hierarchy will be the owner of the hierarchy under them. In a territory-based forecast, a user could own more than one hierarchy if they own multiple territories.  
+ 
+    In the following illustration, the managers own all the forecasts in their hierarchy and individual sellers own their specific forecasts.
+
+    :::image type="content" source="media/forecast-hierarchy-owner.png" alt-text="Screenshot illustrating the forecast owner at different levels in the forecast hierarchy":::
+
+
+### What are the configurations that I can edit once a forecast is published?  
+
 You can edit the following configurations for a forecast once it's published:     
 -	On the [General](define-general-properties-scheduling-forecast.md) page, you can edit forecast title and default underlying records view. 
 -	On the [Permissions](provide-permissions-forecast.md) page, you can add security roles and provide them with permission to view or edit forecast. 
@@ -208,6 +255,6 @@ When you save and publish the configuration, the changes will be applied immedia
 
 ### Can I manually set the forecast category of an opportunity as **Won** or **Lost**?   
   
-Technically, you can. The opportunity form and editable grids, other than the grid in the forecast, allow the selection of **Won** or **Lost** as forecast categories. However, this will interfere with your forecast and rollup values, and is not an ideal practice. For example, if you manually set the value of an opportunity to **Won** without closing the opportunity, the opportunity might not even show up in the forecast. By default, forecasts are configured to show an opportunity as **Won** only when the actual revenue and actual close date are available. The best practice is to close the opportunity as **Won** or **Lost** and have the forecast category automatically updated. More information: [Close opportunities as won or lost](close-opportunity-won-lost-sales.md).
+Technically, you can. The opportunity form and editable grids, other than the grid in the forecast, allow the selection of **Won** or **Lost** as forecast categories. However, this will interfere with your forecast and rollup values, and isn't an ideal practice. For example, if you manually set the value of an opportunity to **Won** without closing the opportunity, the opportunity might not even show up in the forecast. By default, forecasts are configured to show an opportunity as **Won** only when the actual revenue and actual close date are available. The best practice is to close the opportunity as **Won** or **Lost** and have the forecast category automatically updated. More information: [Close opportunities as won or lost](close-opportunity-won-lost-sales.md).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

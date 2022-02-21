@@ -2,7 +2,7 @@
 title: "Walkthrough 5: Display session information in Unified Service Desk | MicrosoftDocs"
 description: "Use this walkthrough to understand the prerequisites and procedures for displaying session name and session overview information in Unified Service Desk."
 ms.date: 08/23/2017
-ms.topic: article
+ms.topic: overview
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -17,7 +17,7 @@ ms.custom:
 ---
 # Walkthrough 5: Display enhanced session information by displaying session name and overview data
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 In the previous walkthrough, [Walkthrough 4: Display a record in a session in your agent application](../unified-service-desk/walkthrough-display-dynamics-365-record-session-agent-application.md), you learned how to display your customer record stored in a session in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. However, the experience would be better if you can identify each session with a unique name along with some key overview information about the record in a session.  
   

@@ -2,8 +2,8 @@
 title: "Using deal manager (contains video) | MicrosoftDocs"
 description: "Deal manager is a dedicated workspace for sellers to efficiently manage their sales pipeline. Sellers can personalize the workspace for their needs."
 ms.date: 10/26/2021
-ms.topic: article
-ms.service: dynamics-365-sales
+ms.topic: overview
+
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi

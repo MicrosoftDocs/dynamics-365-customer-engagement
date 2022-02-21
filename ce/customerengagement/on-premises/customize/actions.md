@@ -4,10 +4,10 @@ description: "Actions provide the ability to define a verb that matches an opera
 ms.custom: 
 ms.date: 11/08/2018
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: overview
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 1475985f-d3c4-429d-beac-cb455965e792

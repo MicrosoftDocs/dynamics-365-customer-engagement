@@ -3,7 +3,7 @@ title: "Resource utilization on the schedule board - Dynamics 365 Field Service 
 description: Learn about resource utilization on the schedule board in Dynamics 365 Field Service
 ms.date: 08/02/2019
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"

@@ -2,9 +2,9 @@
 title: "Configure mobile offline synchronization | MicrosoftDocs"
 ms.custom: Configure mobile offline synchronization
 description: Set up mobile offline for Dynamics 365 phones and tablets app and Power Apps mobile
-ms.date: 12/10/2021
+ms.date: 02/15/2022
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -32,7 +32,9 @@ The mobile app provides a rich offline experience that helps users stay producti
 The offline experience uses [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] services to periodically synchronize tables with the mobile app so that synchronized rows are available when a user's mobile devices is disconnected from the internet. 
 
 > [!IMPORTANT]
-> To use this feature an administrator must to set up mobile offline for their organization. The set up and configuration process for mobile offline is the same for [Power Apps mobile](/powerapps/mobile/run-powerapps-on-mobile) and Dynamics 365 for phones and tablets app. To enable mobile offline synchronization for Power Apps mobile or Dynamics 365 mobile, follow the steps in this article.
+> - To use this feature an administrator must to set up mobile offline for their organization. The set up and configuration process for mobile offline is the same for [Power Apps mobile](/powerapps/mobile/run-powerapps-on-mobile) and Dynamics 365 for phones and tablets app. To enable mobile offline synchronization for Power Apps mobile or Dynamics 365 mobile, follow the steps in this article.
+> - There is new mobile offline experience for model-driven apps. For more information, see [Mobile offline overview (preview)](/powerapps-docs/mobile/mobile-offline-overview.md).
+
 
 ## Install the mobile app
 
@@ -209,10 +211,9 @@ A user or team can only be added to one offline profile at a time. If a user or 
 4.  When you’re done adding people, select **Save**.
   
   > [!NOTE]
-  > If you made any changes to a team, you must remove and add the team back to the mobile offline profile for the changes to take effect. We’re also working on improving the user management experience for offline profiles.
+  > If you made any changes to an Azure Active Directory (Azure AD) group team, you must remove and add the team back to the mobile offline profile for the changes to take effect.
 
-> [!NOTE]
-> If you made any changes to a team, you must remove and add the team back to the mobile office profile for the changes to take effect. We’re also working on improving the user management experience for offline profiles.
+
   
 ### Step 2.2: Publish a mobile offline profile
 
@@ -279,9 +280,14 @@ Enable mobile offline for a specific app from MyApps page.
    > [!div class="mx-imgBorder"]
    > ![Publish the app.](media/mol_publish_app.png "Publish the app")
 
+
+## Configure mobile offline profiles for images and files
+
+  For information on how to work with file and image columns in offline modeo , see [Configure mobile offline profiles for images and files](/powerapps/mobile/offline-file-images).
+  
 ## Mobile offline capabilities and limitations
 
-For information on capabilities and limitations of mobile offline, see [Mobile offline capabilities and limitations](mobile-offline-capabilities.md).
+  For information on capabilities and limitations of mobile offline, see [Mobile offline capabilities and limitations](mobile-offline-capabilities.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

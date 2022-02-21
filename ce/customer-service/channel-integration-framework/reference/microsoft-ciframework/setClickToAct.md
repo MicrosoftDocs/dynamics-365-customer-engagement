@@ -14,7 +14,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# setClickToAct (JavaScript API Reference) for DYnamics 365 Channel Integration Framework 1.0
+# setClickToAct (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0
 
 [!INCLUDE[setClickToAct](includes/setClickToAct-description.md)]
 

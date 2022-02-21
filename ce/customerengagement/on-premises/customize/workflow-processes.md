@@ -4,10 +4,10 @@ description: "Workflows automate business processes that don't need user interac
 ms.custom: 
 ms.date: 01/14/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: overview
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
   - PowerApps

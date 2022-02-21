@@ -1,7 +1,7 @@
 ---
 title: "Add activity to campaign in in-app marketing | MicrosoftDocs"
 description: "Create, distribute, and assign planning and campaign activities to a marketing campaign in Dynamics 365 Sales to make it successful."
-ms.date: 11/15/2021
+ms.date: 02/10/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -10,6 +10,7 @@ ms.custom:
   - "dyn365-sales"
 searchScope: 
   - D365-App-msdynce_saleshub
+  - D365-App-msdynce_salespro
   - D365-Entity-list
   - D365-Entity-campaignactivity
   - D365-UI-*
@@ -19,7 +20,19 @@ searchScope:
 ---
 # Add activity to campaign using in-app marketing 
 
-Make your marketing campaigns successful by creating, distributing, and assigning planning and campaign activities in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]. Planning activities are those you want to perform before you launch the campaign, and campaign activities are those you want to manage as part of the campaign. Examples of planning and campaign activities you can add include:  
+Make your marketing campaigns successful by creating, distributing, and assigning planning and campaign activities in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]. 
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |  
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+ 
+## Planning and campaign activities
+ 
+Planning activities are those you want to perform before you launch the campaign, and campaign activities are those you want to manage as part of the campaign. Examples of planning and campaign activities you can add include:  
   
 - Identify advertising channels and supporting materials  
   
@@ -31,14 +44,7 @@ Make your marketing campaigns successful by creating, distributing, and assignin
   
   By default, a campaign targets an activity to the group of marketing lists that you select for the campaign. If you want to run a campaign activity on a subset of your marketing lists, you can distribute the activity to certain members instead. 
 
-## License and role requirements
 
-| &nbsp; | &nbsp; |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-  
 <a name="Collapsed1"></a> 
 
 ## Add a planning activity to a campaign  
@@ -58,6 +64,11 @@ Make your marketing campaigns successful by creating, distributing, and assignin
 5. When you're ready to save your data, select **Save**.  
   
 ## Add a campaign activity to a campaign  
+
+When you add and distribute a campaign activity, an activity is created for each member in the marketing lists that you've chosen for the campaign.
+ 
+> [!NOTE]
+> The average time for distributing a campaign activity to 100,000 members is 24 hours. For larger campaigns and faster activity distribution, use Dynamics 365 Marketing. For more information, go to [Dynamics 365 Marketing documentation](../marketing/overview.md).
   
 1. In the site map, select **Marketing Lists**, and from the **Campaigns** area, open the campaign to which you want to add a campaign activity.
 

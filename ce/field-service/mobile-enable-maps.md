@@ -5,7 +5,7 @@ ms.custom:
   - dyn365-fieldservice
 ms.date: 04/15/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.subservice: field-service-mobile
 ms.topic: article
 applies_to: 
@@ -20,6 +20,9 @@ search.app:
 ---
 
 # Enable maps for Dynamics 365 Field Service Mobile
+
+> [!IMPORTANT]
+> Field Service Mobile (Xamarin app) will be end of life on **June 30, 2022**. Mobile configurator licenses will no longer be granted to new tenants onboarding with Dynamics 365 Field Service as of **June 30, 2021**. New tenants coming online should start with the new [Field Service (Dynamics 365) mobile](mobile-2020-power-platform.md) app. For more information, visit [the documentation](mobile-power-app-get-started.md). 
 
 By setting up maps and location services for Field Service Mobile, you'll be able to:
 

@@ -1,19 +1,19 @@
 ---  
-title: "Trial FAQ | Microsoft Docs"
+title: "Sales Premium Trial FAQ | Microsoft Docs"
 description: "Solutions to common questions related to Dynamics 365 Sales Premium trial sign up and management. Learn how to resolve platform and app-specific issues."
 author: lavanyakr01
 ms.author: lavanyakr
-ms.date: 08/31/2021
+ms.date: 02/08/2022
 ms.topic: get-started
-ms.service: dynamics-365-sales
+
 ms.custom: template-trial-faq
 ms.reviewer: shujoshi
 ---
-# Dynamics 365 Sales trial FAQ 
+# Dynamics 365 Sales Premium trial FAQ 
 
 The Sales trial offers a straightforward experience for sign-up, login, and usage. However, if you're stuck or have questions about the trial, check out this page for answers.
 
-[!INCLUDE[trial-faq-platform](../shared/trials/trial-faq-platform.md)]
+To sign up for the trial, go to the [Sales overview page](https://dynamics.microsoft.com/sales/overview/) and select **Try for free**.
 
 ### Can I convert the trial to a paid license?
 
@@ -61,6 +61,7 @@ The following licenses and capabilities pre-installed in the trial app:
 
 - Manage sales pipeline using leads and opportunities
 - Forecast sales
+- Sales Premium features (Sales accelerator, conversation intelligence, and predictive scoring) with limited monthly capacity. More information: [Digital selling capabilities in Sales Enterprise](digital-selling.md)
 
 To get started with the Sales Enterprise functionalities, see [Learn the basics of [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]](user-guide-learn-basics.md)
 

@@ -6,8 +6,8 @@ ms.author: daclar
 author: FieldServiceDave
 manager: shellyha
 ms.date: 05/04/2018
-ms.topic: quickstart
-ms.service: dynamics-365-field-service
+ms.topic: overview
+
 ms.subservice: connected-field-service
 search.app: 
   - D365CE

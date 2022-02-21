@@ -1,7 +1,7 @@
 ---
 title: "Configure an SMS channel for TeleSign | MicrosoftDocs"
 description: "Get instructions for configuring an SMS channel for TeleSign in Omnichannel for Customer Service."
-ms.date: 04/15/2021
+ms.date: 01/18/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -27,6 +27,7 @@ The tasks to add SMS support for TeleSign are as follows:
 > [!NOTE]
 >
 > - The maximum number of characters supported for sent and received messages is 1600.
+> - To ensure that third-party SMS providers handle opt-out commands properly, you must configure your consent settings with the provider directly.
 > - SMS is an asynchronous mode of communication. Agents can close the conversation and then work on them later. Ending the conversation will mark it as resolved. More information: [Understand conversation states](oc-conversation-state.md)
 
 ## Enable SMS channel in your Dynamics 365 organization
@@ -50,36 +51,69 @@ To sign up for TeleSign
 
 4. You are provided with a callback URL that must be sent to [TeleSign support](mailto:support@telesign.com). This callback URL is specific to your organization and is available when you add SMS support for your organization. When you send an email to TeleSign support, include the callback URL, your customer ID, and enter the subject line as **Omnichannel for Customer Service callback URL update request**.
 
-## Add SMS support in Omnichannel admin center
+## Add SMS support
 
-1. In the Omnichannel admin center site map, select **Channels**, and select **Add account**.
-2. Enter the following details:
+**To add SMS support**
+
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
+
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+    > [!IMPORTANT]
+    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+    
+    1. In the site map, in **Customer support**, select **Channels**.
+    
+    1. In **Accounts**, for **Messaging accounts**, select **Manage**.
+   
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter) 
+
+    - In the site map, in **General settings**, select **Channels**.
+
+1. On the **Accounts and channels** page, select **New account**.
+
+1. Enter the following details:
+
    1. In **Channel details**, enter a name, and select SMS in **Channel**.
-   2. In **Account details**, select TeleSign in **Provider**, and enter the following details:
+
+   1. In **Account details**, select TeleSign in **Provider**, and enter the following details:
       - **Customer ID:** Customer ID generated from the TeleSign account.
       - **API key:** API key generated from the TeleSign account.
-   3. In **SMS phone numbers**, select **Add**, and enter the following details in **Add SMS number**:
+
+   1. In **SMS phone numbers**, select **Add**, and enter the following details in **Add SMS number**:
     - **Number:** Specify the support phone number that you purchased from TeleSign in the *<phone_number>* format, such as 14252306549. Make sure that you don't enter blank spaces or special characters.
     - **Type:** Select Geo, Short code, or Toll free.
     - **Description:** Enter a description.
     - **Validate:** Select to validate the customer ID and API key.
-   4. In **Callback URL**, copy the value and send it to TeleSign at [support@telesign.com](mailto:support@telesign.com) with your customer ID; enter the subject line as "Omnichannel for Customer Service callback URL update request".
-3. Open the workstream that you created for the SMS channel for TeleSign.
-4. Select **Add SMS Channel**, and configure the following options:
+   
+   1. In **Callback URL**, copy the value and send it to TeleSign at [support@telesign.com](mailto:support@telesign.com) with your customer ID; enter the subject line as "Omnichannel for Customer Service callback URL update request".
+
+1. Open the workstream that you created for the SMS channel for TeleSign.
+
+1. Select **Add SMS Channel**, and configure the following options:
+   
    1. On the **SMS number** page, select a number from the list.
-   2. On the **Language** page, select the language that you want to set as the default.
-   3. On the **Behaviors** page, configure the following options:
+   
+   1. On the **Language** page, select the language that you want to set as the default.
+   
+   1. On the **Behaviors** page, configure the following options:
      - **Channel operation hours:** Set the toggle to **On**, and then select an operating hour record. More information: [Configure operating hours](create-operating-hours.md).
      - [Custom automated messages](configure-automated-message.md)
      - [Post-conversation survey](configure-post-conversation-survey.md)
-   4. In **User features**, set the toggle for **File attachments** to **On** and select the following options if you want both agents and customers to exchange files. More information: [Enable file attachments](enable-file-attachments.md).
+   
+   1. In **User features**, set the toggle for **File attachments** to **On** and select the following options if you want both agents and customers to exchange files. More information: [Enable file attachments](enable-file-attachments.md).
      - Customers can send file attachments
      - Agents can send file attachments
-   5. Verify the settings on the **Summary** page, and select **Finish**. The SMS for TeleSign channel is configured.
-5. Configure routing rules. More information: [Configure work classification](configure-work-classification.md).
-6. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
-7. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream).
-8. In **Advanced settings**, configure the following options based on your business needs:
+   
+   1. Verify the settings on the **Summary** page, and select **Finish**. The SMS for TeleSign channel is configured.
+
+1. Configure routing rules. More information: [Configure work classification](configure-work-classification.md).
+
+1. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
+
+1. Add a bot. More information: [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream).
+
+1. In **Advanced settings**, configure the following options based on your business needs:
    - [Sessions](../app-profile-manager/session-templates.md)
    - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
    - [Context variables](context-variables-for-bot.md#add-context-variables))
@@ -100,7 +134,7 @@ For an outgoing message sent by an agent from within Dynamics 365, the message i
 
 When you validate the API key while setting up the SMS channel, a call is made to TeleSign to validate customer ID and the API key.
 
-## Add SMS support in Omnichannel Administration
+### Add SMS support in Omnichannel Administration
 
 1. In the Omnichannel Administration app, go to **Work Streams** under **Work Distribution Management**.
 

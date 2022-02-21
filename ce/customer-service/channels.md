@@ -1,12 +1,12 @@
 ---
 title: "Overview of channels in Omnichannel for Customer Service | MicrosoftDocs"
-description: "This topic provides information about different messaging channels available in Omnichannel for Customer Service."
+description: "This topic provides information about different channels that are available in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.topic: article
-ms.date: 06/11/2021 
-ms.custom: intro-internal
+ms.topic: overview
+ms.date: 02/18/2022
+
 ---
 
 # Overview of channels
@@ -29,6 +29,10 @@ The following channels are currently available in Omnichannel for Customer Servi
 If you want to help your customers using live chat, you can use the **Chat for Dynamics 365 Customer Service** channel.
 
 To learn more, see [Configure a chat channel](set-up-chat-widget.md).
+
+## Voice
+
+To address customer issues, you can configure and use the voice channel. More information: [Introduction to the voice channel](voice-channel.md)
 
 ## SMS
 
@@ -69,7 +73,7 @@ To learn more, see [Entity records channel](entity-channel.md).
 
 ## License requirements
 
-An active subscription of Dynamics 365 for Customer Service Digital Messaging is required for SMS, social channels, Microsoft Teams, and custom messaging. In addition to Dynamics 365 subscriptions, if you choose to use any third-party channels you'll need to acquire subscriptions from those providers as well. 
+An active subscription of Dynamics 365 for Customer Service Digital Messaging is required for SMS, social channels, Microsoft Teams, and custom messaging. In addition to Dynamics 365 subscriptions, if you choose to use any third-party channels you'll need to acquire subscriptions from those providers as well.
 
 You can get Chat for Dynamics 365 Customer Service with either of the following add-on licenses:
 

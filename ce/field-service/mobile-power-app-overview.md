@@ -4,9 +4,9 @@ description: Learn about the Field Service (Dynamics 365) mobile app with this g
 ms.date: 10/01/2021
 ms.reviewer: krbjoran
 ms.topic: overview
-ms.service: dynamics-365-field-service
+
 ms.subservice: field-service-mobile
-ms.custom: intro-internal
+
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"

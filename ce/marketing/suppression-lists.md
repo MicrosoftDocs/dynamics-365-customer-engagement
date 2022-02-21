@@ -2,7 +2,7 @@
 title: "How Dynamics 365 Marketing uses suppression lists (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how Dynamics 365 Marketing uses suppression lists to protect email sending reputations."
 ms.date: 08/23/2021
-ms.service: dynamics-365-marketing
+
 ms.topic: article
 ms.custom: 
   - dyn365-marketing

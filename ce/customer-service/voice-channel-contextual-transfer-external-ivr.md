@@ -1,12 +1,12 @@
 ---
 title: "Integrate third-party IVR systems with voice channel | MicrosoftDocs"
 description: "Use this topic to understand how you can integrate third-party IVR systems with Omnichannel for Customer Service voice channel and set up contextual call transfer via Azure direct routing."
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
 ms.date: 11/02/2021
-ms.topic: article
 ms.service: dynamics-365-customerservice
+ms.topic: article
+author: gandhamm
+ms.author: mgandham
+manager: shujoshi
 ---
 
 # Integrate third-party IVR systems with voice channel
@@ -56,6 +56,6 @@ You can now call the phone number assigned to the third-party IVR system and ach
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
 [Set up outbound calling](voice-channel-outbound-calling.md)  
 [Connect to Azure Communication Services](voice-channel-acs-resource.md)  
-[Bring your own phone numbers](voice-channel-bring-your-own-number.md)  
+[Bring your own carrier](voice-channel-bring-your-own-number.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

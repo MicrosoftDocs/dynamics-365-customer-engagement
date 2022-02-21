@@ -1,13 +1,14 @@
 ### YamlMime:Landing
 
 title: Dynamics 365 Sales documentation
-summary: Navigate through the Dynamics 365 Sales documentation based on what you want to do.  
+
+summary: Welcome to the unified Dynamics 365 Sales documentation. This documentation includes content for all the capabilities available in the Sales Premium, Sales Enterprise, and Sales Professional licenses.  
 
 metadata:
   title: Dynamics 365 Sales documentation
   description: Navigate through the Dynamics 365 Sales documentation based on what you want to do.  
   services: service
-  ms.service: dynamics-365-sales 
+  
   ms.topic: landing-page 
   ms.collection: collection
   author: lavanyakr01

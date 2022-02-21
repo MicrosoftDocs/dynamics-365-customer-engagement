@@ -4,10 +4,10 @@ description: "In this overview, learn about the tools that allow you to customiz
 ms.custom: 
 ms.date: 05/20/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: article
+ms.topic: overview
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
   - powerapps
