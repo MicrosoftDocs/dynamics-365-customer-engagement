@@ -70,7 +70,7 @@ See the following topics to set up the interactive voice response (IVR) bot in t
 
 ### Can I recover a voice trial after it's no longer provisioned?
 
-No, you can't recover your data after the voice channel organization is removed from provision.
+No, you can't recover your data after the trial organization is removed from provision.
 
 ### Is disaster recovery supported for the voice channel?
 
