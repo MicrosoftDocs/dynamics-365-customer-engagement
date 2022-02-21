@@ -8,7 +8,7 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ---
-<!--note from editor: The edits to the description are suggested.-->
+
 # Use dictation in the mobile app
 
 You can use the Dynamics 365 Sales mobile app to dictate text in a [compliant and secure way](/legal/cognitive-services/speech-service/speech-to-text/data-privacy-security) by using the microphone icon in the app. You can use dictation for the following:
@@ -17,7 +17,7 @@ You can use the Dynamics 365 Sales mobile app to dictate text in a [compliant an
 - Entering details in a field that supports multiple lines of text, for example **Description**
 
 > [!IMPORTANT]
-> - The dictation capability in the mobile app uses the Microsoft Speech service. More information: [Speech service](/azure/cognitive-services/speech-service/)<!--note from editor: Should "Microsoft Speech" really be the branding for this service? It looks like it's part of Azure Cognitive Services, but it seems to be called simply "the Speech service" in the SDK docs and on GitHub, although the usage isn't consistent. I'd be curious to see any guidance you might have gotten from a PM so I can share it with the editing team.-->
+> - The dictation capability in the mobile app uses the Speech service. More information: [Speech service](/azure/cognitive-services/speech-service/)
 > - If you use the microphone icon on your phone's keyboard for dictation, it uses the built-in dictation capabilities of the phone's operating system.
 
 ## Use dictation to take notes
@@ -27,7 +27,7 @@ You can use the Dynamics 365 Sales mobile app to dictate text in a [compliant an
     ![Tap the microphone button on the Notes form.](media/note-mic.png "Tap the microphone button on the Notes form")
 
     > [!NOTE]
-    > If you're using the dictation capability for the first time in the Dynamics 365 Sales<!--note from editor: Edit okay?--> mobile app, you're prompted to allow the app to access your phone's microphone. Go to **Settings**, and give the app the access to your phone's microphone.
+    > If you're using the dictation capability for the first time in the Dynamics 365 Sales mobile app, you're prompted to allow the app to access your phone's microphone. Go to **Settings**, and give the app the access to your phone's microphone.
 
 2. Tap the microphone button to start listening.
 
@@ -43,7 +43,7 @@ You can use the Dynamics 365 Sales mobile app to dictate text in a [compliant an
 
 ## Use dictation in a field supporting multiple lines of text
 
-1. Open a record that includes a field that supports multiple lines of text. For example, opportunity has a **Description** field in which you can enter multiple lines of text.<!--note from editor: Suggested.-->
+1. Open a record that includes a field that supports multiple lines of text. For example, opportunity has a **Description** field in which you can enter multiple lines of text.
 
 2. Edit the record and tap the field that supports multiple lines of text.
 
