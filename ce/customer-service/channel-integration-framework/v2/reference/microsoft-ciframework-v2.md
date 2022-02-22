@@ -16,8 +16,8 @@ ms.custom:
 Provides methods to use JavaScript API to manage the communication panel (widget), notification, application tab, sessions, records, and forms in the Dynamics 365 model-driven app.
 
 > [!Important]
-> The [CIFInitDone event handler](events/cifinitdone.md) must be invoked before calling the other APIs.
-
+> - The [CIFInitDone event handler](events/cifinitdone.md) must be invoked before calling the other APIs.
+> - The timeout limit for the APIs is 10 seconds. If the APIs do not run within 10 seconds, then they must be run again with changed parameters or scope.
 
 ## Communication panel management APIs
 
