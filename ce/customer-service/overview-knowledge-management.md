@@ -19,7 +19,7 @@ ms.custom:
 
 # Overview of knowledge management
 
-Knowledge management plays a vital role in enabling organizations to deliver world-class customer care by providing organizations the ability to author, categorize, deliver, analyse, and share information through a knowledge base.
+Knowledge management plays a vital role in enabling organizations to deliver world-class customer care by providing organizations the ability to author, categorize, deliver, analyse, and share information through a knowledge base. 
 
 Knowledge management comes across as a powerful tool that empowers primary service providers, such as agents to deal with customer issues right away, thereby building customer credibility. Agents get access to rich, high-quality knowledge resources across consistent and contextual Omnichannel experiences with intelligent discoverability that drives customer satisfaction and productivity.
 
