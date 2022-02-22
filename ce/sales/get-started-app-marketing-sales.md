@@ -63,9 +63,10 @@ In the marketing area, use standard campaigns to manage the end-to-end process o
 ## Let your customers unsubscribe from marketing communications  
  You can enable customers to unsubscribe from email marketing communications your organization sends them.  
   
- More information: [System Settings dialog box - Marketing tab](/power-platform/admin/system-settings-dialog-box-marketing-tab)  
+ More information: [Configure in-app marketing settings](configure-inapp-marketing.md)  
   
- Note that you cannot add unsubscribe functionality to direct email or email templates.  
+ > [!NOTE]
+> You cannot add unsubscribe functionality to direct email or email templates.  
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
   
