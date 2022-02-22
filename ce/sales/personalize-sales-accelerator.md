@@ -40,7 +40,7 @@ Depending on the license you have in the organization, you use one of the follow
 >[!NOTE]
 >- Ensure that you have read and write privileges to **Calendar** entity. More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges).
 >- Verify that the administrator has enabled the option to configure your availability. 
->    - Through sequence settings, see step 5 in [Set up the sales accelerator](enable-configure-sales-accelerator.md#set-up-the-sales-accelerator).
+>    - Through sequence settings, see [Seller availability](customize-sales-accelerator-sellers.md#seller-availability).
 >    - Through sales accelerator configuration, see step 4 in [Configure sales accelerator for assignment rules](sales-accelerator-assignment-rules.md). 
 
 ### Through work list settings (Sales Premium)<a name="through-work-list-settings"></a>
@@ -143,7 +143,7 @@ The **Auto advance** settings specify the next course of action to take when you
 When a step is displayed in the **Up next** widget, a corresponding activity is automatically created on the timeline and linked to the step. When you complete the action, such as sending an email or making a call through the timeline, the step is updated. By configuring the activities and steps, you can choose how the actions you perform on steps will affect the linked activities and sequence steps.     
 
 > [!NOTE]
-> Verify that the administrator has enabled the option to configure steps and activities. More information: [Enable the availability option in sequence settings](customize-sales-accelerator-sellers.md#enable-linking-sequence-steps-and-activities)
+> Verify that the administrator has enabled the option to configure steps and activities. More information: [Enable the availability option in sequence settings](customize-sales-accelerator-sellers.md#sequence-activities)
 
 1.	Sign in to the Dynamics 365 Sales Hub app, and go to **My work** > **Sales accelerator**.
 2.	In the work list, select the settings icon.   

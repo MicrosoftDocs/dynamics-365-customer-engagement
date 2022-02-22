@@ -112,7 +112,7 @@ Use more options to do the following actions:
 - Send an email to multiple recipients at once. More information: [Send bulk emails](#send-bulk-emails)
 - Personalize your workspace. You can personalize your workspace by configuring the following options:
     - **Availability**: Configure your work availability. More information: [Configure your work availability](personalize-sales-accelerator.md#configure-your-work-availability)
-    - **Auto advance**: <a name="configure-personal-settings"></a>Choose what happens next when you complete an activity. More information: [Auto advance](personalize-sales-accelerator#configure-the-auto-advance-steps)
+    - **Auto advance**: <a name="configure-personal-settings"></a>Choose what happens next when you complete an activity. More information: [Configure the auto advance steps](personalize-sales-accelerator.md#configure-the-auto-advance-steps)
     - **Steps and activities**: Create an activity automatically on the timeline and linked to the step. More information: [Configure steps and activities](personalize-sales-accelerator.md#configure-steps-and-activities)
     - **Filters**: Hide or show filters from the available filter list. More information: [Show or hide filters](personalize-sales-accelerator.md#show-or-hide-filters)
 
