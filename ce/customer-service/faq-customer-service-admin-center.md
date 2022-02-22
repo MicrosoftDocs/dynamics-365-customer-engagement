@@ -20,7 +20,7 @@ manager: shujoshi
 
 ## Overview
 
-This topic contains the FAQs that you as an administrator might have about the Customer Service admin center app.
+This topic contains the frequently asked questions (FAQs) that you as an administrator might have about the Customer Service admin center (preview) app.
 
 ### What's the difference between Omnichannel admin center and Customer Service admin center?
 
@@ -37,7 +37,6 @@ After Customer service admin center becomes generally available, we will leave s
 ### Why can't I see this app in my environment?
 
 The app will be enabled automatically in all the Customer Service organizations, but it have followed the train schedule, so some regions will get it before the others, for NAM region, you will get at end of March, 4th.  
-
 
 ### See also
 
