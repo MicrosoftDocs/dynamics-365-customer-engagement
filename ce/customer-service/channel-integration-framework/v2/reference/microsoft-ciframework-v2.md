@@ -23,7 +23,7 @@ Provides methods to use JavaScript API to manage the communication panel (widget
 
 The communication panel is where you as an agent interact with the customer. Partner widgets built using Channel Integration Framework 2.0 are loaded in this panel. The widget in this version is displayed to the left of the session panel and supports Docked, Minimized, and Hidden modes.
 
-You can use the following APIs to manage the state of the communication panel (widget).
+Use the following APIs to manage the state of the communication panel (widget).
 
 | Methods | Description |
 |---------|-------------|
@@ -34,7 +34,7 @@ You can use the following APIs to manage the state of the communication panel (w
 
 ## CRUD operations APIs
 
-These APIs enable you to perform CRUD operations on entity records.
+Use the following APIs to perform CRUD operations on entity records.
 
 | Methods | Description |
 |---------|-------------|
