@@ -1,7 +1,7 @@
 ---
 title: Deprecations in Dynamics 365 Customer Service | MicrosoftDocs
 description: "Use this topic to get information about features that are deprecated in Dynamics 365 Customer Service."
-ms.date: 06/08/2021
+ms.date: 02/25/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -26,6 +26,10 @@ Administrators and IT professionals can use this information to prepare for futu
 > [!Important]
 >
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and will be fully supported until it is officially removed. This deprecation notification might span a few years. After removal, the feature or capability will no longer work. We are notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
+
+## Omnichannel Administration app is deprecated
+
+The Omnichannel Administration app won't be supported after April 30, 2022, and will be deprecated in a future release. We recommend that you use the new Customer Service admin center (preview) or the Omnichannel admin center app. The latest features can be configured and used only in the new admin apps. For more information, see [Get started with Customer Service admin center (preview)](cs-admin-center.md) and [Get started with Omnichannel admin center](oc-admin-center.md).
 
 ## setContextProvider method deprecated for authenticated chat
 
