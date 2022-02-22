@@ -36,7 +36,7 @@ After Customer service admin center becomes generally available, we will leave s
 
 ### Why can't I see this app in my environment?
 
-The app will be enabled automatically in all the Customer Service organizations, but it have followed the train schedule, so some regions will get it before the others, for NAM region, you will get at end of March, 4th.  
+The app will be enabled automatically in all the Customer Service organizations, but it follows an availability schedule, so some regions will get it before the others. For the North America region,the app will be available by end of March 2022.
 
 ### See also
 
