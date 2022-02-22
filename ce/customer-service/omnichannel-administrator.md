@@ -34,6 +34,7 @@ You can view the entities in the **Omnichannel Administration** site map.
 - [Create a chat widget](set-up-chat-widget.md)
 
 ## How-to topics
+
 - [Assign roles and enable users for Omnichannel for Customer Service](add-users-assign-roles.md)
 - [Manage a user in Omnichannel](users-user-profiles.md#manage-a-user-in-omnichannel-for-customer-service)<br>
 - [Configure a chat channel](set-up-chat-widget.md) </br>
