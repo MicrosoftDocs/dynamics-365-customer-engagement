@@ -13,9 +13,9 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# Microsoft.CIFramework methods (Dynamics 365 Channel Integration Framework JavaScript API reference)
+# Microsoft.CIFramework methods (Dynamics 365 Channel Integration Framework 1.0 JavaScript API reference)
 
-Provides methods to use JavaScript API to manage the communication panel, records, and forms in the Dynamics 365 model-driven app.
+Microsoft CIFramework provides methods to use JavaScript API to manage the communication panel, records, and forms in the Dynamics 365 model-driven app.
 
 > [!Important]
 > - The [CIFInitDone event handler](events/cifinitdone.md) must be invoked before calling the other APIs.
