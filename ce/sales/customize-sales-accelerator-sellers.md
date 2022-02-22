@@ -154,11 +154,6 @@ Follow these steps:
 >For opportunities, the phone number priority will be applied to the primary contacts.
 
 
-
-[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
-
-
-
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
 ### See also
