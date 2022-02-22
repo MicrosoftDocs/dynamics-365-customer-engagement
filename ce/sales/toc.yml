@@ -312,8 +312,6 @@
         href: enable-configure-sales-accelerator.md
       - name: Configure assignment rules in Sales Enterprise
         href: sales-accelerator-assignment-rules.md  
-      - name: Configure settings to customize sales accelerator    
-        href: customize-sales-accelerator-sellers.md
       - name: Add the Up next widget to an entity form
         href: add-upnext-widget-form.md          
     - name: Manage sequences
@@ -329,10 +327,6 @@
         href: connect-a-sequence-to-records.md
       - name: View details of a sequence and its connected records
         href: view-sequence-details-connected-records.md
-      - name: Understand sales acceleration reporting
-        href: understand-sales-acceleration-reporting.md
-      - name: Understand the sequence stats page
-        href: understand-sequence-stats.md
       - name: Manage tags for sequences
         href: manage-tags-for-sequences.md    
       - name: View sequence in a grid
@@ -345,6 +339,12 @@
         href: edit-active-sequence.md  
       - name: Delete a sequence
         href: delete-a-sequence.md
+      - name: Configure settings to customize sales accelerator    
+        href: customize-sales-accelerator-sellers.md
+      - name: Understand sales acceleration reporting
+        href: understand-sales-acceleration-reporting.md
+      - name: Understand the sequence stats page
+        href: understand-sequence-stats.md
     - name: Manage segments
       href: manage-segments.md
       items:
