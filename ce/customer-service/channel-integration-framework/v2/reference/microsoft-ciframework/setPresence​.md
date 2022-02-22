@@ -21,7 +21,7 @@ Sets the presence status of the agent in the client session​.
 
 ## Syntax
 
-`Microsoft.CIFramework.getPresence(sessionId).then(successCallback, errorCallback);`
+`Microsoft.CIFramework.setPresence(presenceState)`
 
 ## Parameters
 
@@ -36,7 +36,15 @@ Returns "FAILED" in case of any presence issues in Omnichannel for Customer Serv
 ## Example
 
 ```javascript
-
+Microsoft.CIFramework.setPresence(custompresence).then( 
+                        function (result) { 
+                            if(!result) 
+                            document.getElementById("setPresenceText").innerHTML = "OC Presence is in error state"; 
+                        }, 
+                        function (error) {  
+                            document.getElementById("setPresenceText").innerHTML = "ERROR"; 
+                            reject(error); 
+                        }); 
 ```
 
 

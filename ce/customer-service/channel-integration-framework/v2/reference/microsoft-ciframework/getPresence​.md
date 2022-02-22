@@ -21,7 +21,7 @@ Returns the presence status of the agent in the client session​.
 
 ## Syntax
 
-`Microsoft.CIFramework.getPresence(sessionId).then(successCallback, errorCallback);`
+`Microsoft.CIFramework.getPresence();`
 
 ## Parameters
 
@@ -34,8 +34,20 @@ Returns a Boolean value of success.
 ## Example
 
 ```javascript
-
+Microsoft.CIFramework.getPresence().then( 
+                        function (result) { 
+                            if (result == "FAILED") 
+                                document.getElementById("presenceOnChangeText").innerHTML = "OC Presence is in error state"; 
+                            else { 
+                                document.getElementById("presenceOnChangeText").innerHTML = result; 
+                                displayPresence(result); 
+                            } 
+                            return result; 
+                        }, 
+                        function (error) { 
+                            document.getElementById("presenceOnChangeText").innerHTML = "ERROR"; 
+                            reject(error); 
+                        }); 
 ```
-
 
 [!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]
