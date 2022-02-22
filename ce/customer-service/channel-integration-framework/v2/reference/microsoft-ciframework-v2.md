@@ -90,6 +90,40 @@ Session indicator APIs indicate a KPI breach and can be used to update the numbe
 | [notifyKpiBreach](microsoft-ciframework/notifyKPIBreach.md) | This method is used to indicate a KPI breach. When this KPI is used, a red circle appears on the display image of the contact when a KPI breach has occurred.|
 | [notifyNewActivity](microsoft-ciframework/notifyNewActivity.md) | This method is used to update the number of new activities in a particular session.|
 
+## Presence APIs
+
+| Methods | Description |
+|---------|-------------|
+| [setPresence​](microsoft-ciframework/setPresence​.md) | Allows presence to be set programmatically for the agent in the client session​. |
+| [getPresence​](microsoft-ciframework/getPresence​.md) | Allows presence to be returned programmatically for the agent in the client session​. |
+
+
+setPresence​
+
+Allows presence to be set programmatically for the agent in the client session​
+
+Input parameters – string presenceState, ​
+
+Output parameters – boolean success​
+
+​
+
+*Presence state is the string value for presence text  for corresponding presence in Omnichannel. For the presence to be correctly set, this should be an exact match with text used in admin application. ​
+
+​
+
+getPresence​
+
+Allows presence to be returned programmatically for the agent in the client session​
+
+Input parameters – none​
+
+Output – string presenceState​
+
+Returns ‘FAILED’ in case of any presence issues in Omnichannel ​
+
+
+
 ## Miscellaneous methods
 
 | Methods | Description |
