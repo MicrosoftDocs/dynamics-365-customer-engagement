@@ -1,7 +1,7 @@
 ---
 title: "Microsoft.CIFramework (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0 | MicrosoftDocs"
 description: "Includes information about the Microsoft.CIFramework JavaScript API Reference for Dynamics 365 Channel Integration Framework 1.0."
-ms.date: 12/31/2019
+ms.date: 02/25/2022
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -16,6 +16,9 @@ ms.custom:
 # Microsoft.CIFramework methods (Dynamics 365 Channel Integration Framework JavaScript API reference)
 
 Provides methods to use JavaScript API to manage the communication panel, records, and forms in the Dynamics 365 model-driven app.
+
+> [!Important]
+> The [CIFInitDone event handler](cifinitdone.md) must be invoked before calling the other APIs.
 
 ## Communication panel management APIs
 
