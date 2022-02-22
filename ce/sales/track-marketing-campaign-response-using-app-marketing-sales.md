@@ -49,16 +49,7 @@ Record the replies you get from potential customers in response to a specific ma
 
 **Prerequisite**: [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  
 
-1. On the navigation bar, select the **Settings** icon ![Settings icon on the navigation bar.](media/settings-icon.png "Settings icon on the navigation bar"), and then select **Advanced Settings**.
-
-2. On the navigation bar, select **Settings**, and then select **Administration**.
-
-3. Select **System Settings**, and then select the **Marketing** tab.  
-
-4. Set the **Create campaign responses for incoming email** option to **Yes**.  
-
-> [!NOTE]
-> If there are multiple email replies from a customer to an email sent out from a campaign activity, only the first reply is tracked as a campaign response in the campaign.
+Set the **Create campaign responses for incoming email** option to **Yes** in the [Marketing Settings](configure-inapp-marketing.md) page. 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
   

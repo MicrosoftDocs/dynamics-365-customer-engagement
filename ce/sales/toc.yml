@@ -316,6 +316,8 @@
         href: customize-sales-accelerator-sellers.md
       - name: Add the Up next widget to an entity form
         href: add-upnext-widget-form.md          
+    - name: Manage Campaigns
+      href: configure-inapp-marketing.md
     - name: Manage sequences
       href: create-manage-sequences.md
       items:
