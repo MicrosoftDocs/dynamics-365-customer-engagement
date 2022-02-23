@@ -92,7 +92,7 @@ After completing the prerequisites, you can add the Twitter channel for your org
 
 1. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
 
-1. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream).
+1. Add a bot. More information: [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream).
 
 1. In **Advanced settings**, configure the following options based on your business needs:
    - [Sessions](../app-profile-manager/session-templates.md)
