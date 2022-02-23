@@ -24,13 +24,10 @@ Knowledge analytics can help provide knowledge workers and supervisors with valu
 
 Knowledge analytics includes the following features:
 
-- [Article insights](#article-insights) (preview)
+- [Article insights](#article-insights)
 - [Search analytics](#search-analytics)
 
 ## Article insights
-
-> [!IMPORTANT]
-> The article insights dashboard is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
 The article insights dashboard can help your organization's knowledge workers to understand the impact that knowledge management is making on the overall support experience. This includes the articles that are created, shared, and used.
 
