@@ -43,9 +43,6 @@ After knowledge management is set up, users will be able to:
 
 - See the content of the knowledge base article inline, including images and videos.
 
-> [!NOTE]
-> With the latest release of the Dynamics 365 Customer Service app, embedded knowledge search in service management is available in the Customer Service Hub. We recommend that you set up knowledge management using embedded knowledge search in the new experience. 
-
 ## Setup overview
 
 You can set up knowledge management on the Customer Service admin center (preview), Customer Service Hub, or manually for a model-driven app.
@@ -129,7 +126,7 @@ The configured settings are also available to users of Omnichannel for Customer 
 
 ---
 > [!NOTE]
-> Duplicate detection rules don't work on the Knowledge Article entity.
+> During the creation of knowledge articles, duplicate detection rules aren't supported on the Knowledge Article entity.
 
 ## Set up knowledge management settings page manually for a model-driven app
 
