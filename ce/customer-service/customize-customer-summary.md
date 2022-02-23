@@ -48,7 +48,7 @@ This form section displays the recent cases that relate to the customer. You can
 
 ## Customize the labels for customer, account, and case on the conversation form
 
-You can customize the labels for customer, account, and case that appear on the conversation form so that they are relevant to the agents and their roles. These customizations are applicable to labels such as **Search customer**, **+New customer**, **Search issue**, and **+New case**. When you update a label, the updated name you choose will reflect in all occurrences where that name exists.
+You can customize the labels for customer, account, and case that appear on the conversation form so that they are relevant to the agents and their roles. These customizations are applicable to labels such as **Search customer**, **New customer**, **Search issue**, and **New case**. When you update a label, the updated name that you choose will reflect in all occurrences where that name exists.
 
    > [!div class="mx-imgBorder"]
    > ![Customize labels on the conversation form.](media/customize-entity-labels.png "Customize labels on the conversation form")
