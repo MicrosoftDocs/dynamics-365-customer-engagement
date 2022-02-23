@@ -74,7 +74,7 @@ As an administrator, to create skills, you need at least one skill type in the s
 
 1. Select **Save**.
 
-After you save, the **Users (Agents)** section appears. In this section, you add the agents and rating value. More information: [Assign agents to the skill](#assign-agents-to-skill).
+After you save, the **Users (Agents)** section appears. In this section, you add the agents and rating value. More information: [Assign agents to the skill](#assign-agents-to-skill)
 
 ## Rating value of skills
 
