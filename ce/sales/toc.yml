@@ -465,6 +465,8 @@
         href: configure-sales-template-apps.md
       - name: Customize Power BI template apps for Dynamics 365 Sales
         href: customize-template-apps.md
+    - name: Enable sales usage reports
+      href: enable-sales-usage-reports.md    
   - name: Dynamics 365 Sales mobile
     items:
     - name: Prerequisites for Dynamics 365 Sales mobile
@@ -491,6 +493,8 @@
       href: sales-pipeline-chart.md
     - name: Visualize data quickly from Power Apps and Dynamics 365 apps
       href: /power-bi/create-reports/dynamics-quick-create-report?context=/dynamics365/context/sales-context
+    - name: View and understand the sales usage reports
+      href: view-understand-sales-usage-reports.md   
   - name: Account and contact management
     items:
     - name: Work with accounts and contacts
