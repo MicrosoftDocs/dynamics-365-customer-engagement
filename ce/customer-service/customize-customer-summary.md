@@ -73,7 +73,7 @@ To customize labels on the conversation form:
 
 1. Update the **value** XML tag of the data XML tag with name **Customer**. This will replace the customer label used in the out-of-the-box Customer Summary Form.
 
-1. Update the **value** XML tag of the data XML tag with name **Issue**. This will replace the issue iabel used in the out-of-the-box Customer Summary Form.
+1. Update the **value** XML tag of the data XML tag with name **Issue**. This will replace the issue label used in the out-of-the-box Customer Summary Form.
 
 1. Save the file locally.
 
