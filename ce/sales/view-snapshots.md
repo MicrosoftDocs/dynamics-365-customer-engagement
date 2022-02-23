@@ -3,8 +3,8 @@ title: "View snapshots of a forecast (Sales Insights) | MicrosoftDocs"
 description: "Use the see forecast grid history page to view snapshots of a forecast in Dynamics 365 Sales Insights."
 ms.date: 10/26/2020
 ms.custom: 
-ms.topic: article
-author: udaykirang
+author: lavanyakr01
+ms.author: lavanyakr
 ms.author: udag
 manager: shujoshi
 ---

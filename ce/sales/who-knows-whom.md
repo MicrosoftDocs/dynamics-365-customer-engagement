@@ -5,8 +5,8 @@ ms.date: 10/31/2018
 ms.custom: 
 ms.topic: article
 ms.assetid: 905fac5d-c36d-4d64-bc9d-be59c535ac56
-author: udag
-ms.author: udag
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 ms.reviewer: 
 ms.suite: 
@@ -124,5 +124,6 @@ After you opt out of the connection graph, Sales Insights won't analyze your dat
 ### See also
 
 [Configure who knows whom](configure-who-knows-whom.md)
+[Who knows whom FAQs](faqs-sales-insights.md#who-knows-whom)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
