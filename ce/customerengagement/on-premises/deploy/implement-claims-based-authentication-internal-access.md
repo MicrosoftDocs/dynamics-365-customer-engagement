@@ -33,7 +33,7 @@ Enabling claims-based authentication for internal access to [!INCLUDE[pn_microso
 
 ### “An error occurred. Please try again or contact your system administrator if error persists” message returned in app and sitemap designers
 
-When IFD is enabled, you can’t access the app designer or sitemap designer of a Unified Interface app using the IFD configured internal URL, such as https://internalcrm.contoso.com/orgname. You must use the external URL that has been configured for IFD such as https://orgname.contoso.com.
+When IFD is enabled, you can’t access the app designer or sitemap designer of a Unified Interface app using the IFD configured internal URL, such as `https://internalcrm.contoso.com/orgname`. You must use the external URL that has been configured for IFD such as `https://orgname.contoso.com`.
 
 
 
