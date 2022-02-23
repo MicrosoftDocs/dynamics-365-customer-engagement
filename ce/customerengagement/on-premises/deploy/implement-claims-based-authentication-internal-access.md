@@ -18,8 +18,6 @@ manager: kvivek
 ---
 # Implement claims-based authentication: internal access
 
-
-
 Enabling claims-based authentication for internal access to [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] data involves the following steps:  
   
 1.  Deploy and configure [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)].  
@@ -32,10 +30,11 @@ Enabling claims-based authentication for internal access to [!INCLUDE[pn_microso
   
  Claims-based authentication is not a requirement for intranet [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] access. However, claims-based authentication is required for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] IFD access.  
   
-  
-<!-- ## See Also  
- [Configure IFD for Microsoft Dynamics 365](configure-ifd-for-dynamics-365.md)   
- [Implement claims-based authentication: external access](implement-claims-based-authentication-external-access.md)  -->
+## Known issue
+
+### “An error occurred. Please try again or contact your system administrator if error persists” message returned in app and sitemap designers
+
+When IFD is enabled, you can’t access the app designer or sitemap designer of a Unified Interface app using the IFD configured internal URL, such as https://internalcrm.contoso.com/orgname. You must use the external URL that has been configured for IFD such as https://orgname.contoso.com.
 
 
 
