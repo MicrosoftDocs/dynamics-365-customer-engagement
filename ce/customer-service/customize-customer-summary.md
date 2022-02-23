@@ -1,7 +1,7 @@
 ---
 title: "Customize the Customer summary form | MicrosoftDocs"
 description: "Learn how to add or remove custom controls, customize form layout, and add web resources to the Customer summary form in Omnichannel for Customer Service."
-ms.date: 02/18/2022
+ms.date: 02/23/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -48,7 +48,7 @@ This form section displays the recent cases that relate to the customer. You can
 
 ## Customize the labels for customer, account, and case on the conversation form
 
-You can customize the labels for customer, account, and case that appear on the conversation form so that they are relevant to the agents and their roles. These customizations are applicable to labels such as **Search customer**, **New customer**, **Search issue**, and **New case**. When you update a label, the updated name that you choose will reflect in all occurrences where that name exists.
+You can customize the labels for customer, account, and case that appear on the conversation form so that they are relevant to your business needs. These customizations are applicable to labels such as **Search customer**, **New customer**, **Search issue**, and **New case**. When you update a label, the updated name that you choose will reflect in all occurrences where that name exists.
 
    > [!div class="mx-imgBorder"]
    > ![Customize labels on the conversation form.](media/customize-entity-labels.png "Customize labels on the conversation form")
@@ -57,23 +57,19 @@ For example, you could change **Search customer** to **Search client** or **Sear
 
 To customize labels on the conversation form:
 
-1. Sign in to your environment using the System Customizer or System Administrator role.
+1. Sign in to the Dynamics 365 instance.
 
-1. Open **Advanced Settings and Customizations**.
+1. Go to **Advanced Settings and Customizations** > **Customize the System** > **Web Resources**.
 
-1. Select **Customize the System**. A popup window is displayed.
+1. Select the filters icon, and then select to only display **String (RESX)** files.
 
-1. When the content of the popup window has successfully loaded, on the left pane, select **Web Resources**, and then wait for the web resources to load completely.
+1. In the **Name** column filter, select **Custom Filter**, and in the pop-up window, select operator for **Contains**, and **CustomerSummary** for the value. All of the available CustomerSummary labels for all of the languages are displayed.
 
-1. When the web resource has loaded, in the view, select the filters.
+1. Select the **CustomerSummary** labels for the language that needs to be modified. A pop-up window will open with the URL link to the content of the CustomerSummaryLabels.resx file.
 
-1. In the **Type** column filter, select to display only **String (RESX)** files.
+1. Select the link in the URL field. A pop-up window displays the contents of the resource file. 
 
-1. In the **Name** column filter, select **Custom Filter**, and in the popup window, select operator for **Contains**, and **CustomerSummary** for the value. All of the available CustomerSummary labels for all of the languages are displayed.
-
-1. Select the **CustomerSummary** labels for the language that needs to be modified. A popup will open with the URL link to the content of the CustomerSummaryLabels.resx file.
-
-1. Select the link, and then select all the content of the window and save it in a text editor.
+1. Copy and paste the content it in a text editor.
 
 1. Update the **value** XML tag of the data XML tag with name **Customer**. This will replace the customer label used in the out-of-the-box Customer Summary Form.
 
@@ -81,13 +77,11 @@ To customize labels on the conversation form:
 
 1. Save the file locally.
 
-1. When the file has successfully been saved, go back to the **CustomerSummaryLabels Web resource** popup that was opened, and select the **Upload** file.
+1. When the file has successfully been saved, go back to the **CustomerSummaryLabels Web resource** pop-up window that was opened, and select the **Upload** file.
 
-1. Select the recently saved file, and then select **Save** in the pop-up window.
+1. Select the recently saved file, select **Save** in the pop-up window, and then publish the changes.
 
-1. When the data has saved, publish the changes.
-
-1. When the publishing has completed, manually refresh the webpage to view the published changes.
+1. Manually refresh the webpage to view the published changes.
 
 
 ## Timeline
