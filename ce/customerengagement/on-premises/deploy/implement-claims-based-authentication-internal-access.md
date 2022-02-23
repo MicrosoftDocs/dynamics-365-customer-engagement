@@ -2,8 +2,7 @@
 title: "Implement claims-based authentication: internal access | Microsoft Docs"
 description: Learn how to implement claims-based authentication for internal access with Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
-ms.date: "10/01/2018"
-
+ms.date: "02/23/2022"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
