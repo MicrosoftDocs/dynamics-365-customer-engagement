@@ -2,7 +2,7 @@
 title: "Create insight cards using Microsoft Power Automate"
 description: "Create your own suggested actions through custom insight cards using Microsoft Power Automate in Assistant in Dynamics 365 Sales."
 keywords: ""
-ms.date: 10/26/2021
+ms.date: 02/23/2022
 ms.custom: 
 ms.topic: article
 author: udaykirang
