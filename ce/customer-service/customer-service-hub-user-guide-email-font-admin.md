@@ -99,6 +99,16 @@ There are a variety of properties that can be modified and will apply to the ema
    
    The settings will now apply to the form when you create an email.
 
+### Configure the default email template selection view
+
+Perform the following steps to configure the default view for the new email template selection window:
+
+1. Navigate to **Settings > Advanced Settings**.
+1. Select **Settings > Email Configuration > Email Configuration Settings**.
+1. Set the **Default view** option for **Enhanced E-mail Template selection experience**.
+
+
+
 
 ### See also
 
