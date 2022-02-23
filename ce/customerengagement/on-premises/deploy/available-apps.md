@@ -18,7 +18,7 @@ manager: kvivek
 # Available apps for Dynamics 365 Customer Engagement (on-premises)
 
 The following Dynamics 365 Customer Engagement (on-premises) that are based on the Unified Interface framework are available and can be downloaded.
-- [Dynamics 365 for Sales for use with Customer Engagment (on-premises), version 9.1](https://docs.microsoft.com/en-us/dynamics/s-e/365enterprise/365salesappdownloads) 
+- [Dynamics 365 for Sales for use with Customer Engagment (on-premises), version 9.1](/dynamics/s-e/365enterprise/365salesappdownloads) 
 
 ## See also
 
