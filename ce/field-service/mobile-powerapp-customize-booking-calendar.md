@@ -3,7 +3,7 @@ title: "Edit the bookings calendar columns on the Dynamics 365 Field Service mob
 description: description
 ms.date: 12/01/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.topic: article
 author: FieldServiceDave
 ms.author: daclar

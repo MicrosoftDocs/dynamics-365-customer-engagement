@@ -2,7 +2,7 @@
 title: "Social media posting with Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Create social media posts for immediate or scheduled publishing in Dynamics 365 Marketing."
 ms.date: 12/09/2020
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

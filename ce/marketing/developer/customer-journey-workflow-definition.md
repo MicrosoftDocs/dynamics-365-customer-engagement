@@ -2,7 +2,7 @@
 title: "Customer Journey workflow definition (Dynamics 365 Marketing Developer Guide) | Microsoft Docs" 
 description: This topic shows how to define a customer journey workflow design.
 ms.date: 04/01/2019
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

@@ -2,7 +2,7 @@
 title: "Basic Operations on customer journey using C# (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "This sample shows how to perform basic operations on customer journey using C#."
 ms.date: 10/19/2020
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

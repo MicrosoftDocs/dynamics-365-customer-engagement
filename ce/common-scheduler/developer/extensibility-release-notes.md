@@ -5,7 +5,7 @@ author: FieldServiceDave
 ms.author: daclar
 ms.date: 11/14/2018
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.subservice: common-scheduler
 ms.topic: article
 search.app: 

@@ -3,8 +3,8 @@ title: "Enable an Azure bot to escalate and end conversations | MicrosoftDocs"
 description: "Use this topic to understand how to program Azure bots to route conversations to human agents and also end conversations in Omnichannel for Customer Service."
 ms.date: 10/22/2021
 ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ---
 # Enable an Azure bot to escalate and end conversations

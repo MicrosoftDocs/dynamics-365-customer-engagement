@@ -4,7 +4,7 @@ description: "Use this simple walkthrough to learn how to use the OData v4 data 
 ms.custom: 
 ms.date: 05/03/2021
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

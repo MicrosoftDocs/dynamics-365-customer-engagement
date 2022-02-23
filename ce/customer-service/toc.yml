@@ -514,6 +514,8 @@
       items:
       - name: Introduction to the voice channel
         href: voice-channel.md
+      - name: Install the voice channel
+        href: voice-channel-install.md  
       - name: Connect to Azure Communication Services
         href: voice-channel-acs-resource.md  
       - name: Manage phone numbers
@@ -848,7 +850,7 @@
     items: 
     - name: Introduction to Customer Service Insights
       href: introduction-customer-service-analytics.md
-    - name: Regional availability and service limits for Customer Service
+    - name: Regional availability, language availability, and service limits for Customer Service Insights
       href: cs-region-availability-service-limits.md
     - name: Administrator experience
       items: 

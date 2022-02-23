@@ -3,7 +3,7 @@ title: "Enable the new schedule board in Universal Resource Scheduling"
 description: "The new schedule board is faster, with better usability and additional capabilities. Learn about the updates and how to switch over to the new board."
 ms.date: 04/01/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.subservice: common-scheduler
 ms.topic: article
 applies_to: 

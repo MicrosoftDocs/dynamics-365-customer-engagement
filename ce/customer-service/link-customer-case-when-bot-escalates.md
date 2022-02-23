@@ -3,8 +3,8 @@ title: "Link customer, case to conversation when bot escalates or ends conversat
 description: "Use this topic to understand how to link customer and case to conversation when bot ends conversations or escalates conversations to a human agent."
 ms.date: 10/25/2021
 ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ---
 # Link customer and case to conversations when bot escalates or ends conversations

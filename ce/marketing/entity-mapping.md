@@ -2,7 +2,7 @@
 title: "Map form data to entities with custom Workflows (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to map form data to entities with custom Workflows."
 ms.date: 08/18/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

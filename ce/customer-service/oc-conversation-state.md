@@ -3,8 +3,8 @@ title: "Understand conversation states in Omnichannel for Customer Service | Mic
 description: "Learn about various states and status reasons of conversations or work items in Omnichannel for Customer Service."
 ms.date: 11/18/2021
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ---
 
