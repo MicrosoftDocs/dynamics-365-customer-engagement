@@ -107,9 +107,6 @@ Perform the following steps to configure the default view for the new email temp
 1. Select **Settings > Email Configuration > Email Configuration Settings**.
 1. Set the **Default view** option for **Enhanced E-mail Template selection experience**.
 
-
-
-
 ### See also
 
 [Configure email](/power-platform/admin/settings-email)<br>
