@@ -25,8 +25,8 @@ This topic explains how you can program an Azure bot in Omnichannel for Customer
 You must ensure the following conditions are met to configure an Azure bot in Omnichannel for Customer Service.
 
 - The bot must be developed using [Microsoft Bot Framework](https://dev.botframework.com).
-- The bot must be registered with [Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-3.0).
-- The bot must be configured to [have Microsoft Teams as a supported channel](/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0).
+- The bot must be registered with [Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-3.0&preserve-view=true).
+- The bot must be configured to [have Microsoft Teams as a supported channel](/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0&preserve-view=true).
 
 
 ## Engage an Azure bot
@@ -309,8 +309,8 @@ You understand that your data may be transmitted and shared with external system
 
 [Integrate an Azure bot](configure-bot.md)  
 [Add context variables](context-variables-for-bot.md#add-context-variables)  
-[Azure Bot Service](/azure/bot-service/?view=azure-bot-service-4.0)  
-[Connect a bot to channels](/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0)  
+[Azure Bot Service](/azure/bot-service/?view=azure-bot-service-4.0&preserve-view=true)  
+[Connect a bot to channels](/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0&preserve-view=true)  
 [Bring your own custom messaging channel: Direct Line Bot](bring-your-own-channel.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
