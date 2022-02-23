@@ -63,11 +63,11 @@ To customize labels on the conversation form:
 
 1. Select the filters icon, and then select to only display **String (RESX)** files.
 
-1. In the **Name** column filter, select **Custom Filter**, and in the pop-up window, select operator for **Contains**, and **CustomerSummary** for the value. All of the available CustomerSummary labels for all of the languages are displayed.
+1. In the **Name** column filter, select **Custom Filter**, and in the dialog that opens, select operator for **Contains**, and **CustomerSummary** for the value. All of the available CustomerSummary labels for all of the languages are displayed.
 
-1. Select the **CustomerSummary** labels for the language that needs to be modified. A pop-up window will open with the URL link to the content of the CustomerSummaryLabels.resx file.
+1. Select the **CustomerSummary** labels for the language that needs to be modified. A dialog opens with the URL link to the content of the CustomerSummaryLabels.resx file.
 
-1. Select the link in the URL field. A pop-up window displays the contents of the resource file. 
+1. Select the link in the URL field. A dialog opens and displays the contents of the resource file. 
 
 1. Copy and paste the content it in a text editor.
 
@@ -77,11 +77,11 @@ To customize labels on the conversation form:
 
 1. Save the file locally.
 
-1. When the file has successfully been saved, go back to the **CustomerSummaryLabels Web resource** pop-up window that was opened, and select the **Upload** file.
+1. When the file has successfully been saved, go back to the **CustomerSummaryLabels Web resource** dialog, and select the **Upload** file.
 
-1. Select the recently saved file, select **Save** in the pop-up window, and then publish the changes.
+1. Select the recently saved file, select **Save**, and then publish the changes.
 
-1. Manually refresh the webpage to view the published changes.
+1. Manually refresh the page to view the published changes.
 
 
 ## Timeline
