@@ -13,7 +13,7 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
-ms.custom: 
+ms.custom:
   - dyn365-customerservice
 ---
 
