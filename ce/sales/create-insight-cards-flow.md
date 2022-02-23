@@ -12,8 +12,6 @@ caps.latest.revision: 1
 ---
 # Create custom insight cards 
 
-
-
 As a system administrator or sales manager, you can create your own suggested actions that are more relevant to your organization through the assistant management feature. By using events and conditions, you can customize the circumstances on when to create suggestions and push information into the seller’s workflow. This helps the sellers to close deals faster. The following diagram illustrates a high-level flow of insight card creation:
 
 > [!div class="mx-imgBorder"]
@@ -31,8 +29,9 @@ As a system administrator or sales manager, you can create your own suggested ac
 
 In this procedure, we will show as an example how to create an insight to act when a property is updated. Let’s create the **When property is updated, create an insight to act** card.
 
-> [!NOTE]
-> To create custom insight cards with the assistant studio, ensure that Microsoft Power Automate is installed.
+>[!NOTE]
+>- To create custom insight cards with the assistant studio, ensure that Microsoft Power Automate is installed.
+>- The custom insight card is displayed in the list of cards only when the conditions defined in the flow are met. For example, you want a card to display when a lead is created with city as Seattle. When you create a custom insight card based on this requirement, the card will not be available in the list of cards until you have a lead with the city as Seattle.
 
 1.	Sign in to **Dynamics 365 Sales** and go to the **Sales Hub** app.
 
