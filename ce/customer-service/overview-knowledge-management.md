@@ -25,7 +25,7 @@ Knowledge management comes across as a powerful tool that empowers primary servi
 
 ## Benefits of KM
 
-Depending on the role that you play in an organization, here’s a glimpse into how you can leverage knowledge management and help your business grow.
+Depending on the role that you play in your organization, here’s a glimpse into how you can leverage knowledge management and help your business grow.
 
 ### Create and design knowledge articles:
   - Role: Knowledge author
