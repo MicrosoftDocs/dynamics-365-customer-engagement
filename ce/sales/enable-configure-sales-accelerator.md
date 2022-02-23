@@ -71,7 +71,7 @@ Enable sales accelerator by quickly providing access to security roles and selec
     >![Choose content layout](media/sa-choose-content-layout.png "Choose content layout")   
     
     1.	To add a record type, select Add record type, and then select the dropdown list to choose the records that you want to add. 
-    2.	From the drop down list, choose a form to which you want to add the Sequence (up next) widget. Sales managers use the record types to configure the sequence that will be assigned to records to be displayed in the app.  
+    2.	From the drop-down list, choose a form to which you want to add the Sequence (up next) widget. Sales managers use the record types to configure the sequence that will be assigned to records to be displayed in the app.  
         
         >[!NOTE]
         >- To view the custom records types in the list, enable the options **Activities**, **Connections**, and **Sending email (If an email field does not exist, one will be created)** under **Communication & Collaboration** in **Settings > Customizations** > **Customize the System** > **Components** > **Entities**.
@@ -109,7 +109,7 @@ After the first-run set up of the sales accelerator, you can manage the security
 
 ## Customize the workspace for sellers
 
-As an administrator, you can filter work items in the workspace to shortlist the ones that serves your sellers’ specific needs.
+As an administrator, you can filter work items in the workspace to shortlist the ones that serve your sellers’ specific needs.
 For example, if sellers want to filter work items based on currency type for leads, you can add a filter by selecting the record type as lead and field as currency. Sellers can now use this filter to refine the work items and view the leads with a specific currency type such as US Dollar.    
 To know how sellers can use the custom filters, see [Custom filters](prioritize-sales-pipeline-through-work-list.md#custom-filters).   
 You can manage custom filters by creating, disabling, and deleting the filters. Follow these steps:
@@ -160,7 +160,7 @@ Filter groups help you to organize the filters in a meaningful way for sellers t
 
 1.	Use one of the following ways to create groups:    
     -	On the **Filters** page, select **+ New group**.
-    -	While creating a filter, under the **Nest filter under** drop down list, select **Create new filter group**.
+    -	While creating a filter, under the **Nest filter under** drop-down list, select **Create new filter group**.
 2.	On the **Create new filter group** dialog box, enter the name of the group.
 
     >[!div class="mx-imgBorder"]

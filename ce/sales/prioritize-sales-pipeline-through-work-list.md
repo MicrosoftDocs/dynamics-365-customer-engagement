@@ -1,6 +1,6 @@
 ---
 title: "Prioritize your sales pipeline through the work list (Sales Insights) | MicrosoftDocs"
-description: "Use work list in sales accelerator to prioritize your sales pipeline to ensure important records are not left behind."
+description: "Use work list in sales accelerator to prioritize your sales pipeline to ensure important records aren't left behind."
 ms.date: 03/01/2022
 ms.topic: article
 author: udaykirang
@@ -12,7 +12,7 @@ products:
 ---
 # Prioritize your sales pipeline by using the work list  
 
-Use work list in sales accelerator to prioritize your sales pipeline to ensure important records are not left behind.
+Use work list in sales accelerator to prioritize your sales pipeline to ensure important records aren't left behind.
 
 ## License and role requirements
 
@@ -102,6 +102,9 @@ For example, you want to view leads that have currency as US Dollar. If your adm
     > ![Select the filter as US dollar](media/sa-worklist-filter-select-dollar.png "Select the filter as US dollar")    
  
     The work items list is filtered to show only leads with currency type as US Dollar.
+
+    >[!NOTE]
+    >You can hide or show filters that are not 
 
 ### Sort    
 Use the sort option to organize records into groups selecting the sort icon and display the records in the order of sort (ascending or descending).     
