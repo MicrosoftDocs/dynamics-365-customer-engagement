@@ -9,9 +9,11 @@ manager: shujoshi
 ---
 # Troubleshoot issues in Omnichannel for Customer Service
 
-
-
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+
+## Introduction
 
 Use the following list of troubleshooting topics to quickly find information to solve your issue.
 

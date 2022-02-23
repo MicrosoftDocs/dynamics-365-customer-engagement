@@ -11,6 +11,8 @@ ms.custom: intro-internal
 
 # Create workstreams for unified routing
 
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+
 ## Overview
 
 A workstream is a container to enrich, route, and assign work items. The workstream is associated with a channel, such as live chat, voice, or case.
