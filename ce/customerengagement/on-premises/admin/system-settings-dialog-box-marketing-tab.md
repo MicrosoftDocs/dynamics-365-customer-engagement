@@ -3,7 +3,7 @@ title: "Marketing settings tab in Dynamics 365 Customer Engagement (on-premises)
 description: "From the System Settings Marketing tab in Dynamics 365 Customer Engagement (on-premises), set options related to how users run marketing campaigns via email."
 keywords: 
 ms.date: 10/01/2019
-ms.prod: d365ce-op
+
 ms.custom: 
 ms.topic: article
 applies_to: 

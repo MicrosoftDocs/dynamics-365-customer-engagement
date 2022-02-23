@@ -3,16 +3,16 @@ title: Create a knowledge article using a template (Developer Guide for Dynamics
 description: "Read how you can create a knowledge article from an existing template using msdyn_GetKAObjectFromTemplate action"
 ms.date: 07/30/2019
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: Soumyasd27
+ms.author: sdas
 manager: shujoshi
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - developer
 search.app: 
   - D365CE
   - D365CS
-ms.custom: 
-  - dyn365-customerservice
 ---
 # Create a knowledge article using a template
 

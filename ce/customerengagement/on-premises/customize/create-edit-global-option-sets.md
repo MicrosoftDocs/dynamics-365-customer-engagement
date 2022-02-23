@@ -4,7 +4,7 @@ description: "A global option set specifies options defined elsewhere which can 
 ms.custom: 
 ms.date: 03/06/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

@@ -3,8 +3,8 @@ title: "Configure AI topic clustering for conversations | MicrosoftDocs"
 description: "Configure topic cLustering for conversations using AI"
 ms.date: 04/09/2021
 ms.topic: article
-author: meghanalanka
-ms.author: v-mlanka
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 ---
 

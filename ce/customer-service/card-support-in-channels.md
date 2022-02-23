@@ -6,7 +6,7 @@ ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.service: dynamics-365-customerservice
+
 ms.reviewer: nenellim
 ---
 
@@ -141,7 +141,7 @@ With social profiles, you can do the following:
 | WhatsApp           | Yes                                                                 |
 | Custom messaging (Telegram) | Yes                                                        |
 
-## Preview: Support for formatted messages <a name="formatted messages"></a>
+## Preview: Support for formatted messages <a name="formatted-messages"></a>
 
 > [!IMPORTANT]
 > This section is pre-release documentation and is subject to change.

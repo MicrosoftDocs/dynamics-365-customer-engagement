@@ -2,7 +2,7 @@
 title: "Email marketing report for Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "This email marketing analytics report provides you interaction and conversion leaderboards, automation status, block and failure analysis, and more."
 ms.date: 11/22/2019
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

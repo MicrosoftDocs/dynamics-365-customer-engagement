@@ -4,9 +4,9 @@ description: "Learn about the region availability and supported languages for th
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 02/02/2022
+ms.date: 02/18/2022
 ms.topic: article
-ms.service: dynamics-365-customerservice
+
 ---
 
 
@@ -31,13 +31,13 @@ Use the information in the following table to know about the availability of the
 
 |Geographic location | Availability | Availability in Customer Service trial|
 |----------|---------|-----|
-|North America <sup> **1** </sup> |November 2021  | November 2021|
-|Europe <sup>**2**</sup> |December 2021 |To be announced|
-|Asia Pacific <sup>**2**</sup> |December 2021 |To be announced|
-|Australia <sup>**2**</sup> |December 2021 |To be announced|
-|South America|To be announced | To be announced|
+|North America (crm.dynamics.com) <sup> **1** </sup> |November 2021  | November 2021|
+|Europe, Middle East, and Africa (crm4.dynamics.com) <sup>**2**</sup> |December 2021 |To be announced|
+|Asia Pacific (crm5.dynamics.com) <sup>**2**</sup> |December 2021 |To be announced|
+|Australia, New Zealand, Fiji (crm6.dynamics.com) <sup>**2**</sup> |December 2021 |To be announced|
+|South America (crm2.dynamics.com) |To be announced | To be announced|
 |Country/Region clouds: Canada, France, Germany, India, Japan, Switzerland, United Arab Emirates (UAE), United Kingdom |To be announced |To be announced|
-|Government Community Cloud (GCC) |To be announced |To be announced|
+|Government Community Cloud (GCC) (crm9.dynamics.com) |To be announced |To be announced|
 ||||
 
 > [!NOTE]

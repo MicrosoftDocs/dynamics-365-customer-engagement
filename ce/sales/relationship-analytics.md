@@ -2,13 +2,13 @@
 title: "Relationship analytics and health"
 description: "Use relationship analytics to view customer activity history of contact, opportunity, lead, or account in a graphical display through KPIs and activity histories."
 ms.date: 10/26/2021
-ms.custom: 
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: sakudes
+manager: shujoshi
 caps.latest.revision: 20
 topic-status: Drafting
+caps.latest.revision: 20
 ---
 # Use relationship analytics to gather KPIs     
 

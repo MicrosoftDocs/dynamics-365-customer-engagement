@@ -2,7 +2,7 @@
 title: "Event management web application overview (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Learn how you can extend event management web application functionality in Dynamics 365 Marketing."
 ms.date: 12/08/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: overview

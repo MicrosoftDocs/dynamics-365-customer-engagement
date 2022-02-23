@@ -2,7 +2,7 @@
 title: "Business management settings (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to import, export, and clean data in Dynamics 365 Marketing."
 ms.date: 03/25/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing

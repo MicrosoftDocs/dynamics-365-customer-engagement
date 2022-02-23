@@ -3,8 +3,8 @@ title: "Export and import app configuration data | MicrosoftDocs"
 description: "Learn to export and import app configuration data from source to target environments in Omnichannel Administration and Omnichannel admin center apps."
 ms.date: 10/12/2021
 ms.topic: article
-author: mh-jaya    
-ms.author: v-jmh
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.reviewer: nenellim
 ---

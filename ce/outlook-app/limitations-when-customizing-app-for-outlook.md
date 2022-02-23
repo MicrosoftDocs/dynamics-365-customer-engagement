@@ -4,7 +4,7 @@ ms.custom:
 ms.date: 05/20/2021
 description: When customizing the app you make run into these limitations.
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started-article

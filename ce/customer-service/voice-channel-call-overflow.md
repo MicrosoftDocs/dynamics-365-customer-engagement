@@ -4,9 +4,9 @@ description: "Learn how to configure call overflow for the voice channel in Omni
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 11/01/2021
+ms.date: 02/18/2022
 ms.topic: article
-ms.service: dynamics-365-customerservice
+
 ---
 
 # Handle call overflow for the voice queues
@@ -33,13 +33,28 @@ For call overflow to work correctly, the following prerequisites must be met:
 
 **To configure call overflow**
 
-1. In the Omnichannel admin center site map, select **Queues**, and go to the voice queue for which you want to configure call overflow.
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
 
-2. In **Overflow conditions**, select **Set overflow conditions**. The **Overflow conditions** panel appears.
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+    > [!IMPORTANT]
+    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   
+    1. In the site map, select **Queues** in **Customer support**.
+    
+    2. On the **Queues** page, select **Manage** for **Advanced queues**.
 
-3. In **Work item limit**, enter a number to denote the maximum number of calls that can be in waiting before overflow is reached. For example, if you enter 5 as the value, then five calls should be waiting in the queue for the sixth call to trigger call overflow.
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
 
-4. If an operating hour record is configured for the queue, the toggle for **Out of operation hours**, is set to **On** by default and can't be edited. The call overflow is triggered when a call reaches the queue during the after hours of the call center operations. If no operating hour record is configured, the toggle will be set to **Off** and in the disabled mode. In such a case, the call center is considered to be available round the clock.
+    - In the site map, select **Queues** in **General settings**.
+
+1. Select the voice queue for which you want to configure call overflow.
+
+1. In **Overflow conditions**, select **Set overflow conditions**. The **Overflow conditions** panel appears.
+
+1. In **Work item limit**, enter a number to denote the maximum number of calls that can be in waiting before overflow is reached. For example, if you enter 5 as the value, then five calls should be waiting in the queue for the sixth call to trigger call overflow.
+
+1. If an operating hour record is configured for the queue, the toggle for **Out of operation hours**, is set to **On** by default and can't be edited. The call overflow is triggered when a call reaches the queue during the after hours of the call center operations. If no operating hour record is configured, the toggle will be set to **Off** and in the disabled mode. In such a case, the call center is considered to be available round the clock.
 
 To remove the overflow setting, you'll need to set the work item limit to zero and remove the operating hour record on the queue if configured.
 
@@ -51,7 +66,13 @@ If operation hours are not configured, the queues will be available round the cl
 
 ## Configure overflow action in the voice workstream
 
-Configure the action to be performed when call overflow is triggered. More information: [Configure routing rules for the voice workstream](voice-channel-route-queues.md#configure-routing-rules-for-the-voice-workstream)
+Configure the action to be performed when call overflow is triggered. The following options are available to handle overflow actions for a voice workstream:
+
+ -	**Default**: The work item remains in the queue to be routed to the next available agent.
+ -	**End call**: The call ends if no agent is available to take the call. For example, an operating hour is configured, and the overflow action was triggered on account of it.
+ -	**Transfer to external number**: The call is routed to a specified number if the work item must be handled on priority.
+
+More information: [Configure routing rules for the voice workstream](voice-channel-route-queues.md#configure-routing-rules-for-the-voice-workstream)
 
 ## Configuration considerations
 

@@ -20,7 +20,7 @@ The following historical reports are available:
 - [Topics report](case-topics-dashboard-cs.md) 
 - [Unified routing](cs-historical-analytics-unified-routing.md)
 
-## Enable Customer Service analytics reports in Customer Service Hub
+## Enable Customer Service analytics reports
 
 Make sure that you have administrator permissions for Dynamics 365.
 

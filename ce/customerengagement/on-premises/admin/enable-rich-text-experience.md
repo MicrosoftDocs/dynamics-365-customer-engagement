@@ -4,7 +4,7 @@ description: "Learn about the benefits of enabling the rich text experience for 
 ms.custom: 
 ms.date: 10/28/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

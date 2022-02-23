@@ -2,7 +2,7 @@
 title: "Check your message for errors and prepare it for delivery (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to finalize your email message, check it for errors, go live, and schedule it for delivery using a customer journey in Dynamics 365 Marketing."
 ms.date: 04/07/2020
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

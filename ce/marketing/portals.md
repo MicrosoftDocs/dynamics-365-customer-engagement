@@ -2,7 +2,7 @@
 title: "Create interactive features with or without portals (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to create interactive webpages and an events website with or without portals with Dynamics 365 Marketing."
 ms.date: 12/16/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

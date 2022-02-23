@@ -4,10 +4,8 @@ description: "Learn about the voice channel in Omnichannel for Customer Service 
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 11/02/2021
+ms.date: 02/18/2022
 ms.topic: overview
-ms.service: dynamics-365-customerservice
-
 ---
 
 # Introduction to the voice channel
@@ -49,6 +47,7 @@ Take a look at some of the key capabilities that makes the voice channel great f
 
 ### See also
 
+[Install the voice channel](voice-channel-install.md)  
 [Regional availability of the voice channel](voice-channel-region-availability.md)  
 [International availability of Omnichannel for Customer Service](international-availability.md)  
 [System requirements](system-requirements-omnichannel.md)  

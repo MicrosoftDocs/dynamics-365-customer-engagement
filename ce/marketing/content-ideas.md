@@ -2,7 +2,7 @@
 title: "Preview: Use AI to kickstart email creation with Content ideas (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to use AI-powered Content ideas to generate content in Dynamics 365 Marketing."
 ms.date: 11/08/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

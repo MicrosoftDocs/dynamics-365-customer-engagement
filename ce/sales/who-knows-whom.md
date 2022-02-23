@@ -2,17 +2,18 @@
 title: "Who Knows Whom in Dynamics 365 Sales"
 description: "Use who knows whom to quickly identify colleagues within your organization who can introduce you to a lead or contact."
 ms.date: 10/31/2018
-ms.custom: 
 ms.topic: article
 ms.assetid: 905fac5d-c36d-4d64-bc9d-be59c535ac56
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
 ms.reviewer: 
+ms.custom: 
+ms.assetid: 905fac5d-c36d-4d64-bc9d-be59c535ac56
+topic-status: Drafting
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 
-topic-status: Drafting
 ---
 # How to get introduced to leads or contacts  
 

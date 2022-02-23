@@ -63,8 +63,7 @@ You can create workstreams for unified routing in the Customer Service admin cen
          - **Voice**: To configure the workstream for the voice channel. More information: [Overview of voice channel](voice-channel.md)
     
     - **Channel**: This box appears if you have selected the type as **Messaging**. Select a channel from the list.
-         - If you select **Chat**, the **Make chats persistent** option appears. Select the checkbox if you want to configure persistent chat. Also make sure that you select **Keep same agent for entire conversation** in the **Work distribution** settings of the workstream. More information: [Configure persistent chat](persistent-chat.md).
-         - If you select **Chat**, the **Make chats persistent** option appears. Select the checkbox if you want to configure persistent chat. Also make sure that you select **Keep same agent for entire conversation** in **Work distribution** settings of the workstream. More information: [Configure persistent chat](persistent-chat.md)
+         - If you select **Chat**, the **Make chats persistent** checkbox appears. Select the checkbox if you want to configure persistent chat. Also make sure that you select **Keep same agent for entire conversation** in the **Work distribution** settings of the workstream. More information: [Configure persistent chat](persistent-chat.md).
     
     - **Record**: This box appears if you have selected the type as **Record**. Select the record from the list.  More information: [Set up record routing](set-up-record-routing.md)
     

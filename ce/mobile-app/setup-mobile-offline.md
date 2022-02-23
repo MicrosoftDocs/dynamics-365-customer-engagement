@@ -2,9 +2,9 @@
 title: "Configure mobile offline synchronization | MicrosoftDocs"
 ms.custom: Configure mobile offline synchronization
 description: Set up mobile offline for Dynamics 365 phones and tablets app and Power Apps mobile
-ms.date: 02/01/2022
+ms.date: 02/15/2022
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -280,9 +280,14 @@ Enable mobile offline for a specific app from MyApps page.
    > [!div class="mx-imgBorder"]
    > ![Publish the app.](media/mol_publish_app.png "Publish the app")
 
+
+## Configure mobile offline profiles for images and files
+
+  For information on how to work with file and image columns in offline modeo , see [Configure mobile offline profiles for images and files](/powerapps/mobile/offline-file-images).
+  
 ## Mobile offline capabilities and limitations
 
-For information on capabilities and limitations of mobile offline, see [Mobile offline capabilities and limitations](mobile-offline-capabilities.md).
+  For information on capabilities and limitations of mobile offline, see [Mobile offline capabilities and limitations](mobile-offline-capabilities.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

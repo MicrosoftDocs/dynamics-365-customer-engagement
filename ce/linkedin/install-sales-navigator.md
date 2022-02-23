@@ -2,7 +2,7 @@
 title: "Install LinkedIn Sales Navigator for Dynamics 365"
 description: "Learn how to install and enable the LinkedIn Sales Navigator for your organization. You can install through Advanced Settings, AppSource, or App Settings."
 ms.date: 08/27/2021
-ms.service: crm-online
+
 ms.topic: article
 author: udaykirang
 ms.author: udag
