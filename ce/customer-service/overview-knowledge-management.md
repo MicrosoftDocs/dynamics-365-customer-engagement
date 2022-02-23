@@ -27,28 +27,28 @@ Knowledge management comes across as a powerful tool that empowers primary servi
 
 Depending on the role that you play in your organization, here’s a glimpse into how you can leverage knowledge management and help your business grow.
 
-### Create and design knowledge articles:
+### Create and design knowledge articles
   - Role: Knowledge author
     - Create rich and well-formatted content for emails or knowledge articles using the new rich text editor. More information: [Use the rich text editor to create knowledge articles and emails](customer-service-hub-user-guide-knowledge-article.md#use-the-rich-text-editor-to-create-knowledge-articles-and-emails).
     - Review knowledge articles for accuracy before they’re published or made available to others. More information: [Review and reject or approve a knowledge article](customer-service-hub-user-guide-knowledge-article.md#review-and-reject-or-approve-a-knowledge-article).
     - Use templates to create knowledge articles quickly with prepopulated fields in the selected template. Templates also help knowledge managers and authors maintain consistency in branding, language, and structure. More information: [Create a knowledge article template](create-templates-knowledge-article.md#create-a-knowledge-article-template).
     - Set up a default knowledge article authoring language. More information: [Set a default knowledge article authoring language for your organization](set-knowledge-article-authoring-language.md#set-a-default-knowledge-article-authoring-language-for-your-organization).
-### Manage the lifecycle of knowledge articles:
+### Manage the lifecycle of knowledge articles
   - Role: Knowledge Author
     - Create major and minor versions of a knowledge article, and keep your articles up to date with the latest information while keeping track of changes throughout the lifecycle of your products and services. More information: [Create and manage article versions](customer-service-hub-user-guide-knowledge-article.md#create-and-manage-article-versions).
     - Create a translation for a knowledge article record in multiple languages.More information: [Create a knowledge article translation](work-knowledge-articles.md#create-a-knowledge-article-translation).
     - Publish articles as soon as they're approved or schedule them for later publication. You can also set expiration dates on articles. More information: [Schedule or publish an article](customer-service-hub-user-guide-knowledge-article.md#schedule-or-publish-an-article).
-### Search multiple knowledge providers:
+### Search multiple knowledge providers
   - Role: Administrator
     - Use search providers to federate the search of files, documents, or articles from data sources outside of your organization. More information: [Set up a search provider in Customer Service Hub](set-up-search-providers.md#set-up-a-search-provider-in-customer-service-hub).
-### Set up search logic and search filters:
+### Set up search logic and search filters
   - Role: Administrator
     - Set up a knowledge search logic for your knowledge articles to help agents find only the articles they need. More information: [Set up knowledge search logic](set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-search-logic).
     - Create filters to help your agents more quickly find what they’re looking for. More information: [Enable search filters for knowledge articles](enable-knowledge-article-search-filters.md#enable-search-filters-for-knowledge-articles).
-### Integrate knowledge management with a Power Virtual Agents bot: 
+### Integrate knowledge management with a Power Virtual Agents bot 
   - Role: Administrator
     - Integrate Power Virtual Agents bot with knowledge management to make it easier to use customized conversations in your bot. This frees up your agent’s time to deal with complex issues that need human intervention, as the bot helps answer questions, perform actions, and solve issues that are simple in nature. More information: [Integrate knowledge management with a Power Virtual Agents bot](integrate-KM-with-PVA.md#integrate-knowledge-management-with-a-power-virtual-agents-bot).
-### Track and analyze knowledge article statistics: 
+### Track and analyze knowledge article statistics 
   -	Role: Administrator
     - Track how many times an article is used, viewed, and sent to customers. Proactively create knowledge based on search insights across customers and agents. 
     - View the knowledge search analytics dashboard to provide your organization's customer service supervisors and knowledge workers with valuable insights into how your support agents are finding and using knowledge articles. More information:[Configure Knowledge search insights for Dynamics 365 Customer Service](enable-knowledge-search-insights.md#configure-knowledge-search-insights-for-dynamics-365-customer-service).
