@@ -9,6 +9,10 @@ manager: shujoshi
 ---
 # Customize chat widgets using data tags
 
+[INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+
+## Introduction
+
 Chat widgets can be customized by using data tags on the chat widget script.
 
 |Attribute name|Description|Example|

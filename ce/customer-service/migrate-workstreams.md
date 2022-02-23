@@ -10,6 +10,10 @@ manager: shujoshi
 
 # Migrate workstreams created in Omnichannel Administration
 
+[INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+
+## Introduction
+
 If you've upgraded your Omnichannel for Customer Service instance to 2021 release wave 1 and want to use unified routing, we recommend that you migrate your existing workstreams for the messaging channels that you created in the Omnichannel Administration app.
 
 You can use the migration utility that is available at the following link:

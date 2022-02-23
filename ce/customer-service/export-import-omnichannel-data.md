@@ -11,7 +11,9 @@ ms.reviewer: nenellim
 
 # Export and import app configuration data
 
+[INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
+## Introduction
 
 Now that you have used Omnichannel for Customer Service in a test environment, you're ready to unlock all the benefits and features in a live production environment or any target environment; you don't have to start over. You can follow this process to export your Omnichannel admin center or Omnichannel Administration app configuration data from your test environment, and then import the data into your new target environment. That way, you can keep all of the queues, routing rules, workstreams, and other custom settings that you set up earlier.
 
@@ -20,7 +22,7 @@ To export and import your app configuration data in Omnichannel admin center or 
 - Omnichannel admin center or Omnichannel Administration apps
 - Any third-party solutions that you plan to integrate
 
-  
+
 > [!NOTE]
 >
 > - We recommend that you don't export the msdyn_analytics entity. The entity contains org-specific configuration data for intraday insights in Omnichannel for Customer Service; exporting the entity might lead to an incorrect configuration of your intraday insights data.
@@ -121,6 +123,5 @@ For entity routing, follow the instructions to [export and import your flows acr
 [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)  
 [Enable third-party co-browse and screen sharing](third-party-co-browse.md)  
 [Overview of channels](channels.md)  
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

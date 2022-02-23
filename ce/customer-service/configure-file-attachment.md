@@ -9,7 +9,11 @@ manager: shujoshi
 ms.reviewer: nenellim
 ---
 
-# Configure file attachment capability 
+# Configure file attachment capability
+
+[INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+
+## Introduction
 
 As an administrator, you can enable or disable the capability for your agents and customers to attach files during a conversation. When enabled, your customers and agents can send files and share more information about their issues. For example, if a customer receives an error while trying to complete a process, they can send the screenshots of the steps and error message to the agent. 
 

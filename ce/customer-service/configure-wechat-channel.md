@@ -11,6 +11,8 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
+[INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+
 ## WeChat channel
 
 Using social messaging channels such as WeChat, which has a large user base in Asia, lets organizations enhance business efficiencies in certain geographical areas by integrating these services into Omnichannel for Customer Service.

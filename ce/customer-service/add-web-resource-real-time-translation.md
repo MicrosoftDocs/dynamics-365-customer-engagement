@@ -9,6 +9,10 @@ manager: shujoshi
 ---
 # Add a web resource for real-time translation
 
+[INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+
+## Introduction
+
 You can use a web resource to implement the logic for enabling real-time translation of messages exchanged in conversations between the customer and the agent.
 
 To add a web resource:

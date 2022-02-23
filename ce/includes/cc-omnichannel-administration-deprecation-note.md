@@ -1,0 +1,2 @@
+> [!Important]
+> The Omnichannel Administration app won't be supported after April 30, 2022, and will be deprecated in a future release. We recommend that you use the new Customer Service admin center (preview) or the Omnichannel admin center app. The latest features can be configured and used only in the new admin apps. For more information about the deprecation announcement, see [Omnichannel Administration app is deprecated](deprecations-customer-service#omnichannel-administration-app-is-deprecated).
