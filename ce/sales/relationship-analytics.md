@@ -6,9 +6,6 @@ ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
-caps.latest.revision: 20
-topic-status: Drafting
-caps.latest.revision: 20
 ---
 # Use relationship analytics to gather KPIs     
 
