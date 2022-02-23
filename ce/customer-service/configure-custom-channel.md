@@ -13,6 +13,8 @@ ms.custom: intro-internal
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+
 ## Overview
 
 As an organization, you want the ability to integrate your line-of-business (in-house) messaging channels or other messaging channels with Omnichannel for Customer Service. The custom messaging channel capability lets you bring in your own channels, so you can engage better with customers. Here are some of the messaging channel integrations that are supported:

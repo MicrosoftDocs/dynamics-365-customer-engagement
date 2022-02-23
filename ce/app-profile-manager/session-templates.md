@@ -10,6 +10,8 @@ ms.topic: article
 
 # Manage session templates
 
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+
 ## Introduction
 
 A session template is a combination of attributes and application tab information that can be reused.
