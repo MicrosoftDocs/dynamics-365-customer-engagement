@@ -1,7 +1,7 @@
 ---
 title: Automatically create or update records in Customer Service Hub (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to automatically create or update records by setting up rules in Dynamics 365 Customer Service
-ms.date: 02/16/2022
+ms.date: 02/23/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -130,6 +130,15 @@ You can configure the rules in the Customer Service admin center (preview) or Cu
   > [!NOTE]
   > The rule will be in the draft status until you activate it.
 
+## How do record creation and update rules work with queues
+
+ In a record creation and update rule, when you specify a queue for a source type, any incoming activity from that source is added as a queue item for that specified queue. That is, if a rule for a particular source activity and queue combination is active, the rule processes the incoming activity on that queue to create or update records. When an email is processed by an automatic record creation rule, a queue item is created. If the email has the queue's email in the blind carbon copy (Bcc) or carbon copy (Cc), a queue item is created from server-side sync. If the email has the queue's mail in both the "To" and "Bcc" or "Cc" fields, two queue items are created. To control the creation of the queue item, the **CreateQueueItemForSynchronizingMailbox** toggle can be set. More information: [Create queue items from synchronized email messages](/power-platform/admin/create-queue-items-from-synchronized-email-messages)
+
+ For an email source type, you must specify a queue. For all other source types including custom activities, it is optional.  
+
+> [!NOTE]
+> When an automatic record creation rule is applied to an Email queue item, it gets deactivated.
+
 ## Configure advanced settings for rules
 
 On the **Advanced** tab of the **Record creation and update rule** page for a rule, you can configure actions that can be automatically performed before the conditions for the rule are evaluated.
@@ -162,13 +171,75 @@ On the **Advanced** tab of the **Record creation and update rule** page for a ru
 
 4. Select **Save** or **Save & Close**.
 
+## Change the order of rule items to be evaluated
+
+The rules are run in the order they're listed in the rule items list. If the incoming activity matches the condition specified in the rule item one, the case is created and the rest of the rule items aren't evaluated. You can reorder the rule items when more than one rule item exists for a rule.
+
+## Manually map a contact in Power Automate<a name="configure-in-power-automate"></a>
+
+Perform the following steps to manually map a contact in Power Automate:
+
+1. In the app in Customer Service, go to the automatic record creation and update rule feature, and then select the rule that you want to edit.
+2. In the **Step two: conditions to evaluate and actions to take** area, select the rule item for which you want to manually map the contact in Power Automate.
+3. On the page that appears, on the **Condition builder** tab, select **Save and open Power Automate**. The Power Automate workflow opens on a new tab.
+   1. Accept the default connection settings, and select **Continue**.
+   2. On the page that's displayed, in the **Is this email sender a contact or an account** step, for the **If no** option, select the ellipses for **Terminate when no valid customer found**, and select **Delete**.
+   3. Select **OK** on the confirmation dialog.
+   4. In the **Create a record (don't rename this step)** step of the workflow, specify the required value in the **Customer (Contacts)** box.
+   5. Make sure that you remove the default mappings from **Contact (Contacts)** and **Customer (Accounts)**.
+      > [!div class=mx-imgBorder]
+      > ![Configure manual mapping for creating contact.](media/arc-manual-power-automate.png " Configure manual mapping for creating contact")
+
+      > [!IMPORTANT]
+      > If you want to map an account, make sure that you remove the default mappings from the **Contact (Contacts)** and **Customer (Contacts)** boxes and specify only an account in the **Customer (Accounts)** box for the workflow to run without errors.
+
+   6. Save and close.
+
+### Process emails from known senders only
+
+To process emails from known senders only, do the following steps in Power Automate for the associated rule item:
+
+1. On the Power Automate workflow page, accept the default connection settings, and select **Continue**.
+
+1. On the page that's displayed, in the **Is this email sender a contact or an account** step, for the **If no** option, make sure that the **Terminate when no valid customer found** option is available.
+
+1. Save the changes.
+
+The mails from known senders only will be processed.
+
+### Create contacts for unknown senders
+
+The steps in this section are applicable only when you select the option to manually map in Power Automate in the **Manage unknown senders by** field on the **Advanced** tab of the record creation and update rule.
+
+To create a contact for unknown senders of mail, configure the following options in Power Automate for the associated rule item:
+
+1. In the **Is this email sender a contact or an account** step, for the **If no** option, delete the **Terminate when no valid customer found** action.
+
+1. Select **Add an action**, and in the **Choose an operation** box, search for "Add a new row", and select it.
+
+1. In **Table name**, select **Contacts**.
+
+1. In **Email**, search for "From" in **Dynamic content**, and select it.
+
+1. Select **Add an action** again, and in **Choose an operation** search for "Set variable", and select it.
+
+1. In **Name**, select **Customer from email sender**.
+
+1. In **Value**, search for "OData Id" in **Dynamic content**, and select it. "OData Id" is derived when you create a new contact record.
+
+1. In the **Create a record (don't rename this step)** option, search for **Contact (Contacts)**, and use the following expression:
+
+   if(equals(triggerOutputs()?['body/_emailsender_type'], 'contacts'), if(contains(variables('Customer from email sender'), triggerOutputs()?['body/_emailsender_value']) , string(''), concat('contacts(',triggerOutputs()?['body/_emailsender_value'], ')')), string(''))
+
+1. Save the changes.
+
 ## Activate a rule for creating or updating records automatically
 
  For any record creation and update rule to apply to a matching incoming activity, after you add the rule items, you must activate the rule.
 
-## Change the order of rule items to be evaluated
+## Manage automatic record creation and update rule from a queue form
 
-The rules are run in the order they're listed in the rule items list. If the incoming activity matches the condition specified in the rule item one, the case is created and the rest of the rule items aren't evaluated. You can reorder the rule items when more than one rule item exists for a rule.
+ You can create or manage an automatic record creation and update rule from a queue form. To learn more, see [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a queue](set-up-queues-manage-activities-cases.md)
 
 ## Use activity monitor to review and track rules
 
@@ -210,77 +281,6 @@ Perform the following steps to use the activity monitor for the rules:
       - Failed
       - Skipped
 
-## How do record creation and update rules work with queues
-
- In a record creation and update rule, when you specify a queue for a source type, any incoming activity from that source is added as a queue item for that specified queue. That is, if a rule for a particular source activity and queue combination is active, the rule processes the incoming activity on that queue to create or update records.  
-
- For an email source type, specifying a queue is mandatory. For all other source types including custom activities, it is optional.  
-
-> [!NOTE]
-> When an automatic record creation (ARC) rule is applied to an Email queue item, it gets deactivated.
-
-## Manage automatic record creation and update rule from a queue form
-
- You can create or manage an automatic record creation and update rule from a queue form. To learn more, see [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a queue](set-up-queues-manage-activities-cases.md)
-
-## Manually map a contact in Power Automate<a name="configure-in-power-automate"></a>
-
-Perform the following steps to manually map a contact in Power Automate:
-
-1. In the app in Customer Service, go to the automatic record creation and update rule feature, and then select the rule that you want to edit.
-2. In the **Step two: conditions to evaluate and actions to take** area, select the rule item for which you want to manually map the contact in Power Automate.
-3. On the page that appears, on the **Condition builder** tab, select **Save and open Power Automate**. The Power Automate workflow opens on a new tab.
-   1. Accept the default connection settings, and select **Continue**.
-   2. On the page that's displayed, in the **Is this email sender a contact or an account** step, for the **If no** option, select the ellipses for **Terminate when no valid customer found**, and select **Delete**.
-   3. Select **OK** on the confirmation dialog.
-   4. In the **Create a record (don't rename this step)** step of the workflow, specify the required value in the **Customer (Contacts)** box.
-   5. Make sure that you remove the default mappings from **Contact (Contacts)** and **Customer (Accounts)**.
-      > [!div class=mx-imgBorder]
-      > ![Configure manual mapping for creating contact.](media/arc-manual-power-automate.png " Configure manual mapping for creating contact")
-
-      > [!IMPORTANT]
-      > If you want to map an account, make sure that you remove the default mappings from the **Contact (Contacts)** and **Customer (Contacts)** boxes and specify only an account in the **Customer (Accounts)** box for the workflow to run without errors.
-
-   6. Save and close.
-
-### Process emails from known senders only
-
-To process emails from known senders only, do the following steps in Power Automate for the associated rule item:
-
-1. On the Power Automate workflow page, accept the default connection settings, and select **Continue**.
-
-1. On the page that's displayed, in the **Is this email sender a contact or an account** step, for the **If no** option, make sure that the **Terminate when no valid customer found** option is available.
-
-1. Save the changes.
-
-The mails from known senders only will be processed.
-
-
-### Create contacts for unknown senders
-
-To create a contact for unknown senders of mail, configure the following options in Power Automate for the associated rule item:
-
-1. In the **Is this email sender a contact or an account** step, for the **If no** option, delete the **Terminate when no valid customer found** action.
-
-1. Select **Add an action**, and in the **Choose an operation** box, search for "Add a new row", and select it.
-
-1. In **Table name**, select **Contacts**.
-
-1. In **Last Name**, enter lastname.
-
-1. In **Email**, search for "From" in **Dynamic content**, and select it.
-
-1. Select **Add an action** again, and in **Choose an operation** search for "Set variable", and select it.
-
-1. In **Name**, select **Customer from email sender**.
-
-1. In **Value**, search for "OData Id" in **Dynamic content**, and select it.
-
-1. In the **Create a record (don't rename this step)** option, search for **Contact (Contacts)**, and use the following expression:
-
-   if(equals(triggerOutputs()?['body/_emailsender_type'], 'contacts'), if(contains(variables('Customer from email sender'), triggerOutputs()?['body/_emailsender_value']) , string(''), concat('contacts(',triggerOutputs()?['body/_emailsender_value'], ')')), string(''))
-
-1. Save the changes.
 
 ### Troubleshoot cases
 
