@@ -3,7 +3,6 @@ title: "Available apps for Dynamics 365 Customer Engagement (on-premises) | Micr
 description: Learn about the apps available for Dynamics 365 Customer Engagement (on-premises) 
 ms.custom: 
 ms.date: 11/26/2018
-
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -16,14 +15,13 @@ author: Mattp123
 ms.author: matp
 manager: kvivek
 ---
-# Available apps for Dynamics 365 Customer Engagement (on-premises) 
+# Available apps for Dynamics 365 Customer Engagement (on-premises)
 
-The following Dynamics 365 Customer Engagement (on-premises) that are based on the Unified Interface framework are available and can be downloaded from Dynamics CustomerSource.
-- [Dynamics 365 for Sales](/dynamics/s-e/) 
+The following Dynamics 365 Customer Engagement (on-premises) that are based on the Unified Interface framework are available and can be downloaded.
+- [Dynamics 365 for Sales for use with Customer Engagment (on-premises), version 9.1](https://docs.microsoft.com/en-us/dynamics/s-e/365enterprise/365salesappdownloads) 
 
- 
- 
 ## See also
+
 [About Unified Interface](../admin/about-unified-interface.md) <br/>
 [Post-installation and configuration guidelines for Dynamics 365 Customer Engagement (on-premises)](post-installation-configuration-guidelines-dynamics-365.md)
 
