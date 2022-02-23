@@ -15,6 +15,16 @@ ms.custom:
 
 Invoked when the presence or available state of the agent has changed either manually or programmatically. |
 
+**Example**
+
+```Javascript
+handlerFunction = function (eventData) { 
+                    var obj = JSON.parse(eventData); 
+                    var presence = obj.presenceInfo.presenceText; 
+                    displayPresence(presence) 
+                } 
+                window.Microsoft.CIFramework.addHandler("onPresenceChange", handlerFunction); 
+```
 ### See also
 
 [setClickToAct](../microsoft-ciframework/setClickToAct.md)<br />

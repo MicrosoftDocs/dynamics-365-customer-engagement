@@ -50,4 +50,7 @@ Microsoft.CIFramework.getPresence().then(
                         }); 
 ```
 
+### See also
+[Configure and manage custom presence](../../../../../presence-custom-presence.md)  
+
 [!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

@@ -25,9 +25,9 @@ Sets the presence status of the agent in the client session​.
 
 ## Parameters
 
-| Name      | Type | Required| Description       |
-|-----------------|----------|--------------|--------------------------|
-| presenceState   | String   | Yes      | Presence text for corresponding presence in Omnichannel for Customer Service. For the presence to be correctly set, the string should be an exact match with text used in admin application.     |
+| Name            | Type     | Required    | Description       |
+|-----------------|----------|-------------|-------------------|
+| presenceState   | String   | Yes         | Presence text for corresponding presence in Omnichannel for Customer Service. For the presence to be correctly set, the string should be an exact match with text used in admin application.     |
 
 ## Return value
 
@@ -47,5 +47,8 @@ Microsoft.CIFramework.setPresence(custompresence).then(
                         }); 
 ```
 
+### See also
+
+[Configure and manage custom presence](../../../../../presence-custom-presence.md)  
 
 [!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]
