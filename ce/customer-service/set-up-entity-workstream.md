@@ -12,6 +12,8 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+
 > [!IMPORTANT]
 >
 > - If you have upgraded your Omnichannel for Customer service environment to 2021 release wave 1, and if you are setting up record routing for the first time, then we recommend that you use the new Omnichannel admin center app to configure record routing. More information: [Set up record routing](set-up-record-routing.md).
