@@ -11,6 +11,10 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
+[INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+
+## Introduction
+
 This topic explains how you can program an Azure bot in Omnichannel for Customer Service to route a conversation to a human agent. It also describes how to program the bot to end the conversation.
 
 > [!NOTE]

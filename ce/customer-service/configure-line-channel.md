@@ -12,14 +12,21 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
+[INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+
+## Introduction
+
 Many customers use social messaging channels like LINE for their personal communication needs. Many also prefer using these messaging channels to engage with businesses. The asynchronous nature of these channels gives customers the convenience of getting their issues resolved as and when they find time, unlike real-time channels like Chat for Dynamics 365 Customer Service, where the session ends when the chat window is closed.
 
 The LINE channel gives you an incredible opportunity to capitalize on the social media trend and engage with your customers in a seamless and personalized experience.
 
-  > [!NOTE]
-  > The LINE channel isn't available in the Government Community Cloud (GCC) region.
+> [!NOTE]
+> The LINE channel isn't available in the Government Community Cloud (GCC) region.
 
-**Prerequisites**: Following are the prerequisites before configuring the LINE channel in Omnichannel for Customer Service.
+## Prerequisites
+
+Following are the prerequisites before configuring the LINE channel in Omnichannel for Customer Service.
+
 > [!NOTE]
 > To enable the LINE channel in an existing Omnichannel for Customer Service environment, you must [upgrade to the latest version of Omnichannel for Customer Service](upgrade-omnichannel.md).
 

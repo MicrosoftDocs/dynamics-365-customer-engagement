@@ -11,9 +11,11 @@ ms.reviewer: nenellim
 
 # Configure outbound messaging
 
-
-
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+[INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+
+## Introduction
 
 Outbound messaging enables organizations to send messages to their customers through supported channels, based on system-triggered or user-defined events. You can configure message templates for only SMS, Twitter, and WhatsApp channels.
 

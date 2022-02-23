@@ -12,6 +12,8 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
+[INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+
 ## Introduction
 
 You can configure a live chat widget that can be displayed on your portal for customers to interact with bots and human agents.

@@ -12,7 +12,9 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Overview of WhatsApp channel through Twilio
+[INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+
+## Introduction
 
 Many customers use social messaging channels like WhatsApp for their personal communication needs and prefer to use the WhatsApp channel to engage with businesses also.
 
@@ -22,7 +24,7 @@ The WhatsApp channel feature lets you integrate WhatsApp through Twilio with Omn
 
 ## Prerequisites
 
-- Make sure channels are provisioned in your environment. For information, see [Provision Omnichannel for Customer Service](omnichannel-provision-license.md).
+- Make sure channels are provisioned in your environment. More information: [Provision Omnichannel for Customer Service](omnichannel-provision-license.md).
   > [!NOTE]
   >
   > To enable the Twilio channel in an existing Omnichannel environment, you must upgrade to the latest version of Omnichannel for Customer Service. For information, [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md).
@@ -31,7 +33,7 @@ The WhatsApp channel feature lets you integrate WhatsApp through Twilio with Omn
 
 - Connect Twilio Number to your WhatsApp Business Profile. To learn more, see [Connect your Twilio Number to your WhatsApp Business Profile](https://www.twilio.com/docs/sms/whatsapp/tutorial/connect-number-business-profile).
 
-## WhatsApp message types and 24 hours session rule
+## WhatsApp message types and 24-hour session rule
 
 - **Template messages:** These are the outbound messages that agents send through Twilio using one of the pre-approved templates. They are typically transactional messages, such as delivery alerts and appointment reminders, sent to users who have opted in to receive messages from your organization. For messages requiring localization, you must get the message approved by WhatsApp in each language. For more information about WhatsApp message templates, see [WhatsApp documentation](https://developers.facebook.com/docs/whatsapp/message-templates/).
 
@@ -39,7 +41,7 @@ The WhatsApp channel feature lets you integrate WhatsApp through Twilio with Omn
 
 - **24 hours session rule:** A messaging session starts when an agent receives a message from a customer or replies to the incoming message from the customer. When the customer sends a message, the agent has 24 hours to reply from the time the agent received it. However, after 24 hours, the agent can send a message to customer only by using a predefined and approved template.
 
-## End-to-end walk-through
+## End-to-end walkthrough
 
 1. Fetch Twilio account details
 2. Create a WhatsApp channel

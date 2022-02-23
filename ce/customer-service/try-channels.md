@@ -12,11 +12,15 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Channels, for example Live Chat and SMS, are the engagement channels that enable your agents to connect with customers in real-time and provide quick personalized help.
+[INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+
+## Introduction
+
+Channels, for example Live Chat and SMS, are the engagement channels that enable your agents to connect with customers in real time and provide quick personalized help.
 
 You can perform the following steps to try channels in Omnichannel for Customer Service:
 
-1. Sign-up for a free 30-day trial of channels using one of the following options:
+1. Sign up for a free 30-day trial of channels using one of the following options:
    - [Channels trial through trials.dynamics.com](#channels-trial-through-trialsdynamicscom)
    - [Channels trial through Microsoft 365 admin center](#channels-trial-through-microsoft-365-admin-center)
 2. [Provision Omnichannel for Customer Service](#provision-channels-in-your-organization)

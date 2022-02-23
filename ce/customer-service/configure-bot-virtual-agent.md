@@ -13,9 +13,9 @@ ms.custom:
 
 # Integrate a Power Virtual Agents bot
 
-
-
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+[INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 ## Introduction
 
