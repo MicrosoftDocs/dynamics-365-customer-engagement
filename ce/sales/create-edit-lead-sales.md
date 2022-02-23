@@ -24,7 +24,7 @@ Use leads to keep track of business prospects. A lead can be an existing client 
 | &nbsp; | &nbsp; | 
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)|
+| **Security roles** | Salesperson and above <br>More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
 ## How to create or edit a lead

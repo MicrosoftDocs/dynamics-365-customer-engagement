@@ -22,7 +22,7 @@ More information: [Configure and view your team page](configure-view-your-team-p
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **Security Role** | Sales Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
 ## To configure sales team&ndash;level settings 

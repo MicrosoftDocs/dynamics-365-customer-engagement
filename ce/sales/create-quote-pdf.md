@@ -25,7 +25,7 @@ Create PDF files of sales records that look professional and read-only using you
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **Security roles** | Salesperson and above <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
 ## Export to PDF

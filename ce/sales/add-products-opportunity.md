@@ -19,7 +19,7 @@ Develop your opportunity by adding products, bundles or families that you want t
 | &nbsp; | &nbsp; |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **Security roles** | Salesperson and above <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
 ## Find and add products to an opportunity 

@@ -17,7 +17,7 @@ You can view the details of a segment, such as connected sequences, segment memb
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator or Sequence Manager <br>  Go to [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **Security Role** | System Administrator or Sequence Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
 ## Open and view details of a segment

@@ -17,7 +17,7 @@ View a snapshot to see and understand the forecast data at the moment in time wh
 | &nbsp; | &nbsp; |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **Security Role** | Salesperson and above <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
 ## Open and view snapshots

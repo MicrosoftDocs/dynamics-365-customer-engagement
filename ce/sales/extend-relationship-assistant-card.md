@@ -21,7 +21,7 @@ Use the assistant to create custom action cards that help in displaying insight 
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator or System Customizer <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **Security Role** | System Administrator or System Customizer <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
 ## What are action or insight cards?

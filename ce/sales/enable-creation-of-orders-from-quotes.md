@@ -23,7 +23,7 @@ Quotes have important data about the customers and the products they're interest
 | &nbsp; | &nbsp; |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Sales Professional Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **Security roles** | System Administrator or Sales Professional Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 ## Enable quote creation
 

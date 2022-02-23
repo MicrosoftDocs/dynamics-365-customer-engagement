@@ -16,7 +16,7 @@ You can use LinkedIn-related activities that have been defined for sequences in 
 | &nbsp; | &nbsp; |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  Go to [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **Security roles** | Salesperson and above <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
 ## What are LinkedIn activities?

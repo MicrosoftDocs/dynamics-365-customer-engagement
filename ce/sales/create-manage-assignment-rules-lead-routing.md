@@ -14,11 +14,11 @@ manager: shujoshi
 
 Create, activate, edit, delete assignment rules, manage sales teams, and seller attributes for lead routing.
 
-## Requirements
+## License and role requirements
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator or Sequence Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **Security Role** | System Administrator or Sequence Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
 ## What are assignment rules

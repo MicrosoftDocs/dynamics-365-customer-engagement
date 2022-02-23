@@ -22,7 +22,7 @@ As a developer, use this reference documentation to define custom actions for ma
 | &nbsp; | &nbsp; |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System customizer <br>  See [Predefined security roles for Sales](../../../sales/security-roles-for-sales.md)|
+| **Security Role** | System customizer <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
 ## Supported custom actions

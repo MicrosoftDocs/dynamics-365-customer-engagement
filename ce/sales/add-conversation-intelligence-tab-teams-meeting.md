@@ -10,11 +10,11 @@ manager: shujoshi
 
 # Add a conversation intelligence tab to a Microsoft Teams meeting 
 
-## Requirements
+## License and role requirements
 |  | |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **Security roles** | Salesperson and above <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
 > [!IMPORTANT]
