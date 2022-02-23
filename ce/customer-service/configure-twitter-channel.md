@@ -12,7 +12,7 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-[INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 ## Introduction
 

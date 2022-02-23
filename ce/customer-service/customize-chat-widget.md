@@ -9,7 +9,7 @@ manager: shujoshi
 ---
 # Customize chat widgets using data tags
 
-[INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 ## Introduction
 

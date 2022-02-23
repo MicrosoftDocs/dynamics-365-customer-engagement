@@ -11,7 +11,7 @@ ms.reviewer: nenellim
 
 # Export and import app configuration data
 
-[INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 ## Introduction
 

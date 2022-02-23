@@ -12,7 +12,9 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-[INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+[
+1INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+
 ## Introduction
 
 You can integrate social messaging channels like Facebook Messenger with Omnichannel for Customer Service to engage with your customers. The asynchronous nature of the channel gives your customers the flexibility to reach out to your businesses when they find time to get their issues resolved.

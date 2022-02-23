@@ -11,7 +11,7 @@ ms.date: 10/07/2021
 
 # Demo data installation for Chat for Dynamics 365 Customer Service
 
-[INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 ## Introduction
 

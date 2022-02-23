@@ -10,7 +10,7 @@ manager: shujoshi
 
 # Migrate workstreams created in Omnichannel Administration
 
-[INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 ## Introduction
 
