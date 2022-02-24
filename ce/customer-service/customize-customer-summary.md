@@ -59,7 +59,7 @@ To customize labels on the conversation form:
 
 1. Sign in to the Dynamics 365 instance.
 
-1. Go to **Advanced Settings and Customizations** > **Customize the System** > **Web Resources**.
+1. Go to **Advanced Settings** > **Settings** >  **Customizations** > **Customize the System** > **Web Resources**.
 
 1. Select the filters icon, select the dropdown menu next to the **Type** column, and then select the checkbox to only display **String (RESX)** files.
 
