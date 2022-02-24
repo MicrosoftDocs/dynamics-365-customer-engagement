@@ -24,8 +24,8 @@ Teams has [built-in functionality](teams-journey.md) that allows you to quickly 
 
 Here's how to export your Team's participant information to Marketing:
 
-1. In Teams, select the **Attendance** tab to view the attendance report.
-1. In the top-right corner, select **Turn attendance into results**.
+1. In Teams, when you open the webinar either select the **Attendance** tab to view the attendance report, OR press **follow up** button from the detail page
+1. In the top-right corner in the attendance tab, select **Turn attendance into results**.
     > [!IMPORTANT]
     > The **Turn attendance into results** button only appears in the attendance tab *after* the webinar has ended.
     >
