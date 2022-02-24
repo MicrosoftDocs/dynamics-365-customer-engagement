@@ -24,9 +24,6 @@ In claims-based authentication, an identity provider that contains a security to
   
 This content provides the steps needed to configure [!INCLUDE[pn_Internet_facing_deployment](../includes/pn-internet-facing-deployment.md)] using claims-based authentication.  
  
-> [!NOTE]
-> When IFD is enabled, you can’t access the app or site map designers using an intranet URL, such as https://crmserver/crmorg/. You must use either a claims-based authentication internal or external URL that has been configured for IFD.
-
 ### See also
 [Implement claims-based authentication: internal access](implement-claims-based-authentication-internal-access.md) <br />
 [Implement claims-based authentication: external access](implement-claims-based-authentication-external-access.md)

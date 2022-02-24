@@ -1,6 +1,6 @@
 ---
-title: "Correlate across custom triggers (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to correlate across multiple custom triggers in Dynamics 365 Marketing."
+title: "Use binding IDs to correlate across triggers (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Learn how to use binding IDs to correlate across custom triggers in Dynamics 365 Marketing."
 ms.date: 02/10/2022
 
 ms.custom: 
@@ -18,7 +18,7 @@ search.app:
   - D365Mktg
 ---
 
-# Correlate across custom triggers
+# Use binding IDs to correlate across triggers
 
 For event-based, repeatable journeys, a customer can repeat a journey without having completed the previous run. For example, consider a journey that sends appointment confirmations and reminders. When a person registers for their first appointment, they enter the journey and receive a confirmation. They'll continue to wait in the journey until they receive a reminder a day before the appointment. During this time, the same person could register for a second appointment. The journey participant will start the same journey a second time for the second appointment. In other words, the same person is now going through two instances of the same journey.
 
