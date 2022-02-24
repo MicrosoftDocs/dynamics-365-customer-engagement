@@ -1,4 +1,4 @@
-﻿---
+---
 title: View activities for a record in the Dynamics 365 Sales mobile app
 description: Instructions to View activities for a record in the Dynamics 365 Sales mobile app
 ms.date: 03/01/2022
