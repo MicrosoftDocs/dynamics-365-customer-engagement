@@ -72,7 +72,7 @@ The conversation (work item) transitions from **Wrap-up** to **Closed** under th
 
 ## Waiting
 > [!NOTE]
-> Waiting state is not applicable to Live chat channel.
+> Waiting state applies only to asynchronous and persistent chats, and not live chats.
 
 A conversation in waiting doesn't block your capacity. The conversation gets transitioned to waiting when you (agent) close the session without ending the conversation (that is, without selecting the **End** button on the communication panel) or when the customer closes the browser window without closing the chat widget. For example, you're waiting for some information from customer and don't want to end the conversation or the customer's browser closes unexpectedly.
 
