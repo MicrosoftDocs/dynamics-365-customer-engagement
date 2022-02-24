@@ -64,7 +64,6 @@ In Omnichannel admin center, select the Power Virtual Agents bot from the list o
 
 ## Configure your Power Virtual Agents bot in Omnichannel Administration
 
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 In Omnichannel Administration, after the Power Virtual Agents bot is created and configured to work with Omnichannel for Customer Service, you can configure it to hand off conversations to queues. To receive incoming messages, you must add the bot to at least one queue. The bot will use the routing rules that were created at setup.
 
 1. Connect the bot to Omnichannel for Customer Service and go to the Omnichannel Administration app. More information: [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/dynamics365/ai/customer-service-virtual-agent/configuration-hand-off-omnichannel)

@@ -11,10 +11,10 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
-
 > [!IMPORTANT]
-> We recommend that you upgrade to the latest version of Omnichannel for Customer Service and use unified routing. For more information, see [Overview of unified routing](overview-unified-routing.md). With the upgrade, you can also use the new Omnichannel admin center app. For more information, see [Omnichannel admin center](oc-admin-center.md).
+>
+> - The Omnichannel Administration app won't be supported after April 30, 2022, and will be deprecated in a future release. We recommend that you use the Customer Service admin center (preview) or Omnichannel admin center app. The latest features, such as unified routing and the voice channel, can be configured and used only in the new admin apps. For more information about the deprecation announcement, see Omnichannel Administration app is deprecated.
+> - Additionally, workstreams that you create in the Omnichannel Administration app can't be modified in the Omnichannel admin center app. You'll need to migrate the existing workstreams and then manage them in the Omnichannel admin center app. More information: [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md)
 
 ## Introduction
 

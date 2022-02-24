@@ -297,8 +297,7 @@ You should consider the following points when you configure the Azure bot agent 
 
 - If a chat that's escalated by the bot comes to the same queue due to incorrect configurations or due to failure in updating context variables, the bot will not be assigned the same chat again. This is to ensure that the chat does not end up in an infinite loop. Therefore, some human agents should be configured as backup in the bot queue to handle such chats.
 
-- Unlike other Omnichannel for Customer Service agents, bots are not added to a "default" queue at the outset; they are added from the Omnichannel admin center or Omnichannel Administration app.
-> [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+- Unlike other Omnichannel for Customer Service agents, bots are not added to a "default" queue at the outset; they're added from the Omnichannel admin center app.
 
 ## Privacy notice
 

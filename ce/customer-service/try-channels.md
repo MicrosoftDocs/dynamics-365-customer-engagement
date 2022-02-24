@@ -12,8 +12,6 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
-
 ## Introduction
 
 Channels, for example Live Chat and SMS, are the engagement channels that enable your agents to connect with customers in real time and provide quick personalized help.
@@ -110,7 +108,7 @@ For information about the Digital Messaging license, pricing, and prerequisites,
 
 Perform the tasks in [Provision Omnichannel for Customer Service](omnichannel-provision-license.md) to set up Omnichannel for Customer Service and enable Chat, SMS, and social channels in your organization.
 
-After a channel is enabled in your organization, you can sign in to the Dynamics 365 organization, and select the Omnichannel Administration application to start configuring the channel. More information on configuring channels in Omnichannel for Customer Service: [Configure a chat channel](set-up-chat-widget.md), [Configure an SMS channel](configure-sms-channel.md), and [Configure a Facebook channel](configure-facebook-channel.md).
+After a channel is enabled in your organization, you can sign in to the Dynamics 365 organization, and select the Customer Service admin center (preview) or Omnichannel admin center app to start configuring the channel. More information on configuring channels in Omnichannel for Customer Service: [Configure a chat channel](set-up-chat-widget.md), [Configure an SMS channel](configure-sms-channel.md), and [Configure a Facebook channel](configure-facebook-channel.md).
 
 ### Videos
 
