@@ -83,7 +83,7 @@ The activity is created and displayed under the **To Do** tab.
 
 2.  In the **Create new** form, enter the details, along with a value in the **Regarding** field, and then tap **Save** at the upper-right corner of the form.
 
-> [!IMPORTANT]
+> [!NOTE]
 > The **Regarding** field is not a required field, but selecting a value in the **Regarding** field helps in associating the activity with a record.
 
 
