@@ -31,12 +31,12 @@ In just a few steps, you can use contacts, segments, and a customer journey to f
 
 The automatically created customer journey uses the power of Dynamics 365 Marketing to follow up with webinar participants. The journey creates the three most common follow-ups (paths) for your webinar participants:
 
-- The first path sends an email to registrants who did not attend the webinar.
-- The second path sends an email to registrants who attended the webinar.
-- The third path sends an email to registrants who canceled their webinar registration.
+- The first path sends an email to people who attended the webinar with objective to send a thank you to drive the next steps of the customer journey.
+- The second path sends an email to registrants who did not attended the webinar with objective to engage registrants who missed the webinar.
+- The third path sends an email to registrants who canceled their webinar registration with objective to follow up with people who missed out on the webinar.
 
 > [!div class="mx-imgBorder"]
-> ![Generated customer journey](media/team-follow-up-journey.png "Generated customer journey")
+> ![Generated customer journey](Downloads/audience-dialog.png "Generated customer journey")
 
 Each path includes an email template to send notification emails. You can personalize each email template to suit your branding and company needs. To personalize the email, select the **Send an email** tile. This opens the email designer, which allows you to [personalize the design](email-design.md#design-your-content) and [tailor the content](dynamic-email-content.md) to individual contacts.
 
