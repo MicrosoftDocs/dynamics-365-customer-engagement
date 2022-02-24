@@ -658,6 +658,8 @@
         href: sales-mobile/view-edit-add-note.md
       - name: Use dictation 
         href: sales-mobile/use-dictation.md
+      - name: View activities for a record
+        href: sales-mobile/view-activities-record.md
       - name: App settings
         href: sales-mobile/app-settings.md
       - name: Use the Sales Hub app on Dynamics 365 for phones and tablets app
