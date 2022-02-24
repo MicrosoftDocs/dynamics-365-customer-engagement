@@ -10,7 +10,7 @@ manager: shujoshi
 
 # View activities for a record
 
-You can view upcoming, recently completed, and overdue activities for a record or a contact in the mobile app. You can filter the activities based on an activity type and take various actions on them.
+You can view upcoming overdue activities for a record or a contact in the mobile app. You can filter the activities based on an activity type and take various actions on them.
 
 > [!NOTE]
 > Only task and phone call activities are displayed in the mobile app. To view all the associated activities, go to the Sales Hub app.
@@ -18,7 +18,7 @@ You can view upcoming, recently completed, and overdue activities for a record o
 
 ## License and role requirements
 
-|  | |
+|  |  |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Professional, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or Microsoft Relationship Sales <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](../security-roles-for-sales.md)|
@@ -31,13 +31,13 @@ You can view task and phone call activities created for a record or a contact. T
 
 **To view activities**:
 
-1.  Open a [record](https://docs.microsoft.com/en-us/dynamics365/sales/sales-mobile/open-record#view-details) or a [contact](https://docs.microsoft.com/en-us/dynamics365/sales/sales-mobile/create-contact#view-details) to view its details in a quick view form.
+1.  Open a [record](open-record.md#view-details) or a [contact](create-contact.md#view-details) to view its details in a quick view form.
 
 2.  Tap **To Do** at the top of the form.
 
-A list of activities is displayed.
+    A list of activities is displayed.
 
-![To Do view for a record](media/to-do-tab.png)
+    ![To Do view for a record](media/to-do-tab.png)
 
 ## Anatomy of an activity
 
@@ -57,11 +57,11 @@ You can add an activity from the quick view form of a record or from the home pa
 
 **To add an activity from the quick view form**:
 
-1.  Open a [record](https://docs.microsoft.com/en-us/dynamics365/sales/sales-mobile/open-record#view-details) or a [contact](https://docs.microsoft.com/en-us/dynamics365/sales/sales-mobile/create-contact#view-details) to view its details in a quick view form.
+1.  Open a [record](open-record.md#view-details) or a [contact](create-contact.md#view-details) to view its details in a quick view form.
 
 2.  Tap **To Do** at the top of the form.
 
-![Add an activity from a record](media/add-activity-record.png)
+    ![Add an activity from a record](media/add-activity-record.png)
 
 3.  Tap ![Add activity from a record](media/add-activity-record-icon.png)at the bottom-right of the form, and then tap one of the following options:
 
@@ -69,11 +69,11 @@ You can add an activity from the quick view form of a record or from the home pa
 
     -   Add a phone call
 
-![Add a task or a phone call](media/add-task-phonecall.png)
+    ![Add a task or a phone call](media/add-task-phonecall.png)
 
 4.  In the **Create new** form, enter the details, and then tap **Save** at the upper-right corner of the form.
 
-![Enter details for an activity](media/create-new-activity.png)
+    ![Enter details for an activity](media/create-new-activity.png)
 
 The activity is created and displayed under the **To Do** tab.
 
@@ -83,13 +83,13 @@ The activity is created and displayed under the **To Do** tab.
 
 2.  In the **Create new** form, enter the details, and then tap **Save** at the upper-right corner of the form.
 
-> [!NOTE]
+> [!IMPORTANT]
 > Ensure that you select a value in the **Regarding** field. This helps in associating the activity with a record.
 
 
 ## Open or edit an activity
 
-1.  Open a [record](https://docs.microsoft.com/en-us/dynamics365/sales/sales-mobile/open-record#view-details) or a [contact](https://docs.microsoft.com/en-us/dynamics365/sales/sales-mobile/create-contact#view-details) to view its details in a quick view form.
+1.  Open a [record](open-record.md#view-details) or a [contact](create-contact.md#view-details) to view its details in a quick view form.
 
 2.  Tap **To Do** at the top of the form.
 
@@ -105,7 +105,7 @@ Alternately, you can tap ![More options](media/activity-more-options.png) on an 
 
 You can filter the list of activities to view only one type of activity at a time.
 
-1.  Open a [record](https://docs.microsoft.com/en-us/dynamics365/sales/sales-mobile/open-record#view-details) or a [contact](https://docs.microsoft.com/en-us/dynamics365/sales/sales-mobile/create-contact#view-details) to view its details in a quick view form.
+1.  Open a [record](open-record.md#view-details) or a [contact](create-contact.md#view-details) to view its details in a quick view form.
 
 2.  Tap **To Do** at the top of the form.
 
@@ -115,13 +115,13 @@ You can filter the list of activities to view only one type of activity at a tim
 
     -   Phone calls
 
-![Filter activities](media/activity-filter.png)
+    ![Filter activities](media/activity-filter.png)
 
-The list is filtered based of the selected activity type.
+    The list is filtered based of the selected activity type.
 
-![Filtered list of activities](media/activity-filtered.png)
+    ![Filtered list of activities](media/activity-filtered.png)
 
-4.  To remove the filter, tap ![Remove the filter icon](media/ remove-filter-icon.png) on the **Filtered by** bar.
+4.  To remove the filter, tap ![Remove the filter icon](media/remove-filter-icon.png) on the **Filtered by** bar.
 
 ## Mark an activity as complete
 
@@ -139,4 +139,9 @@ If you created an activity by mistake or an activity is no longer required, you 
 
 ## Reassign an activity
 
-You can reassign an activity by changing its owner. Changing the owner is not supported from the mobile app. You must go to the Sales Hub app, open the activity, and then change the owner of the activity.
+You can reassign an activity to a team or another user from the Unified Interface. [Open or edit an activity](#open-or-edit-an-activity) and then tap ![Open record icon.](media/open-record-icon.png "Open record icon") at the upper-right of the form.
+
+### See also
+
+[Manage records](open-record.md)  
+[Manage contacts ](create-contact.md)  
