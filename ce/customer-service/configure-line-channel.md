@@ -12,7 +12,6 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 ## Introduction
 
@@ -102,6 +101,8 @@ After completing the prerequisites, you can add the LINE channel for your organi
 
 ### Create a LINE channel in Omnichannel Administration
 
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+
 1.	Go to **Channels** > **LINE**.
 
 2.	Select **New** to create a LINE channel.
@@ -145,6 +146,8 @@ The LINE channel setup is complete.
 > You can only add one **LINE account** per **LINE Application** channel.
 
 ## Modify settings for a specific LINE account
+
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 1. In the Omnichannel Administration app, go to your LINE application and select the LINE account you want to modify. 
 
@@ -202,7 +205,7 @@ Customers are solely responsible for using Dynamics 365, this feature, and any a
 
 ### See also
 
-[Understand and create work streams](create-workstreams.md)<br>
+[Understand and create workstreams](create-workstreams.md)<br>
 [Configure automated messages](configure-automated-message.md)<br> 
 [Configure a post-conversation survey](configure-post-conversation-survey.md)<br>
 [Create and manage routing rules](routing-rules.md)<br>

@@ -11,8 +11,6 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
-
 ## WeChat channel
 
 Using social messaging channels such as WeChat, which has a large user base in Asia, lets organizations enhance business efficiencies in certain geographical areas by integrating these services into Omnichannel for Customer Service.
@@ -119,6 +117,8 @@ If you're using the service account of WeChat, perform the following steps:
 
 ### Create a WeChat channel in Omnichannel Administration
 
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+
 1. In Omnichannel Administration, under **Channels**, select **WeChat**.
 
 2. Select **New**. The **New WeChat** page appears.
@@ -143,6 +143,8 @@ If you're using the service account of WeChat, perform the following steps:
     > ![Create a WeChat channel.](media/wechat-channel-config.png "Create a WeChat channel")
 
 ### Modify settings for a specific WeChat account
+
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 1. In the Omnichannel Administration app, go to your WeChat application and select the WeChat account you want to modify.
 

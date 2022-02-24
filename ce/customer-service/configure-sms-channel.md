@@ -12,7 +12,6 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 ## Introduction
 
@@ -139,6 +138,8 @@ For an outgoing message sent by an agent from within Dynamics 365, the message i
 When you validate the API key while setting up the SMS channel, a call is made to TeleSign to validate customer ID and the API key.
 
 ### Add SMS support in Omnichannel Administration
+
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 1. In the Omnichannel Administration app, go to **Work Streams** under **Work Distribution Management**.
 

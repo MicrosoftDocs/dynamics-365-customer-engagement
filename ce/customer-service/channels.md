@@ -13,6 +13,8 @@ ms.date: 02/18/2022
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+
 As new social networks and communication channels rapidly evolve, so do customer expectations on how to reach their favorite brands. Communicating via many channels has become not only comfortable but expected, and businesses seeking to provide personalized services are rapidly working to enable support through the channels their customers want to use. 
 
 Adding support channels to your businesses support offering is a powerful way to provide personalized service to customers on the channels of their choice. It is helpful to recognize a common pattern across all channels that are enabled through Omnichannel for Customer Service before diving into the implementation of a single channel. The implementation pattern for out-of-the-box channels is as follows:

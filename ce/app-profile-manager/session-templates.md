@@ -10,8 +10,6 @@ ms.topic: article
 
 # Manage session templates
 
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
-
 ## Introduction
 
 A session template is a combination of attributes and application tab information that can be reused.
@@ -62,6 +60,8 @@ The following out-of-the-box session templates are of the generic type and are f
    
     1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083), and go to the app profile manager page.
     2. In the left pane, select **Session templates** under Customer Service workspace or Omnichannel Administration. The Unified Interface page opens on a new tab.
+    
+  [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 2. Select **New** on the **Active Session Templates** page.
 

@@ -12,8 +12,6 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
-
 ## Introduction
 
 Many customers use social messaging channels like Twitter Direct Message for their personal communication needs. Many also prefer using these messaging channels to engage with businesses. The asynchronous nature of these channels gives customers the convenience of getting their issues resolved as and when they find time, unlike real-time channels like Chat for Dynamics 365, where the session ends when the chat window is closed.
@@ -102,6 +100,8 @@ After completing the prerequisites, you can add the Twitter channel for your org
    - [Quick replies](create-quick-replies.md)
 
 ### Create a Twitter channel and add a Twitter handle in Omnichannel Administration
+
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 > [!NOTE]
 > Before starting this procedure, you must meet the [prerequisites](#prerequisites) described earlier in this topic.
