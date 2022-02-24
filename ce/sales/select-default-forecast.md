@@ -1,7 +1,7 @@
 ---
 title: "Select a default forecast (Preview)"
 description: "When you have multiple forecast configurations, you can select the most used forecast configuration as the default."
-ms.date: 02/21/2022
+ms.date: 02/24/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -17,6 +17,9 @@ searchScope:
 # Preview: Select a default forecast 
 
 When you have multiple forecast configurations, you can select the most used one as the default forecast. When a user opens the forecasts page, the default forecast is displayed until they switch to a different forecast.
+
+> [!NOTE]
+> You can also specify the default experience for the underlying records of the forecast. More information: [Preview: Set the default experience for underlying records](forecast-configure-advanced-settings.md#preview-set-the-default-experience-for-underlying-records).
 
 ## License and role requirements
 
