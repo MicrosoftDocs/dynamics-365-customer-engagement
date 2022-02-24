@@ -1,6 +1,6 @@
 ---
-title: "getConversationId (Omnichannel for Customer Service Session API reference) | MicrosoftDocs"
-description: "Includes information about getConversationId method, syntax, and parameters in Omnichannel for Customer Service Session API reference."
+title: "getConversationId (Omnichannel JavaScript API reference) | MicrosoftDocs"
+description: "Includes information about getConversationId method, syntax, and parameters in Omnichannel JavaScript API reference."
 ms.date: 02/18/2022
 ms.topic: article
 author: mh-jaya
@@ -31,7 +31,7 @@ Returns a promise resolved with currently ongoing conversation ID.
 
 ### See also
 
-[JavaScript API reference for live chat SDK](../../omnichannel-reference.md)  
+[Live chat SDK JavaScript API reference](../../omnichannel-reference.md)  
 [Omnichannel JavaScript API reference](../../omnichannel-api-reference.md)  
 [getConversations](getConversations.md)  
 [linkToConversation](linkToConversation.md)  

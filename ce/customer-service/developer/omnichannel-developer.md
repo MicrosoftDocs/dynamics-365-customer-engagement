@@ -20,7 +20,7 @@ Omnichannel for Customer Service live chat widget SDK provides methods that allo
 - Set, retrieve, and remove authentication-token providers for a live chat session.
 
 [Start a chat](../initiate-chat-wait-time.md)<br />
-[JavaScript API reference for live chat SDK](omnichannel-reference.md)
+[Live chat SDK JavaScript API reference](omnichannel-reference.md)
 
 ## Start proactive chat 
 

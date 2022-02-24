@@ -1,6 +1,6 @@
 ---
-title: "openConversation (Omnichannel for Customer Service Session API reference) | MicrosoftDocs"
-description: "Includes information about openConversation method, syntax, and parameters in Omnichannel for Customer Service Session API reference."
+title: "openConversation (Omnichannel JavaScript API reference) | MicrosoftDocs"
+description: "Includes information about openConversation method, syntax, and parameters in Omnichannel JavaScript API reference."
 ms.date: 07/12/2021
 ms.topic: reference
 author: mh-jaya
@@ -42,7 +42,7 @@ Microsoft.Omnichannel.openConversation("051a340d-c821-42be-8c43-dfb42c4da821", "
  
 ### See also
 
-[JavaScript API reference for live chat SDK](../../omnichannel-reference.md)
+[Live chat SDK JavaScript API reference](../../omnichannel-reference.md)
 [Omnichannel JavaScript API reference](../../omnichannel-api-reference.md)
 [getConversationId](getConversationId.md)  
 [linkToConversation](linkToConversation.md)  
