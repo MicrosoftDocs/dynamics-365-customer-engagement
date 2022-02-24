@@ -23,7 +23,7 @@ The Sales Hub app that's based on the Unified Interface framework is available f
 
 ## Sales Hub for use with Customer Engagement (on-premises), version 9.1
 
-Download Microsoft Sales Hub for use on Dynamics 365 for Customer Engagement (on-premises), version 9.1
+Download Microsoft Sales Hub for use on Dynamics 365 Customer Engagement (on-premises), version 9.1
 
 ### System Requirements
 
@@ -47,7 +47,7 @@ Download link: [v9_1_SalesAppOnPremExe9_0_2009_3034.zip](https://mbs2.microsoft.
 1. The **Welcome to Dynamics 365 for Sales** page appears. Select **Next**.
 1. The **Ready to Install** page appears. Select **Next**.
 1. The **Reading SalesApp Installer Configuration** page appears that indicates two managed solutions will be imported, which are the **Dynamics 365 Sales Application** and the **Playbook App**. Select **Next**.
-1. The Executing Install Actions page appears. When the post import process is complete, select Next.
+1. The **Executing Install Actions** page appears. When the post import process is complete, select **Next**.
 1. Select **Finish**, and then select **OK** in the **The extraction is complete** dialog.
 1. The Sales Hub app appears in the list of published apps.
 
