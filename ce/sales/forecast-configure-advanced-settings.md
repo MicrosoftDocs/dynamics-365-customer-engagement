@@ -66,7 +66,7 @@ You can define the following default settings for underlying records:
 
 > [!NOTE]
 > - Apart from the default settings for underlying records, you can also set a forecast as the default. More information: [Preview: Select a default forecast](select-default-forecast.md).
-> - The most recent selection of the user overrides the default selection for that user. For example, if the default view for the underlying records is Kanban and a user switches to the grid view, then the underlying records will open in the grid view when they access it next time. 
+> - The most recent selection of the user overrides the default selection for that user. For example, if the default view for the underlying records of a forecast is Kanban and a user switches to the grid view, then the underlying records will open in the grid view when they access the forecast next time. 
 
 
 ### Preview: Set Kanban as default view
