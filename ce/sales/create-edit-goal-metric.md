@@ -25,7 +25,7 @@ Measure goals in terms of count or amount, depending on what you’re measuring.
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Sales Manager and above <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **Security roles** | Sales Manager or Vice President of Sales <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
 ## What are goal metrics?

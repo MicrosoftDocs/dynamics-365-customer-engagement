@@ -36,6 +36,22 @@ The predefined security roles for Sales include permissions and access levels th
 | Vice President of Sales | Users who typically manage the sales organization for several business units or the entire organization. | Sales Enterprise and Sales Premium | Same permissions as the Sales Manager, except that their scope of access is broader. |
 |  |  |  |  |
 
+## What are core sales roles
+
+The core sales roles correspond to the core sales personas in an organization. These roles have access to majority of the sales activities such as managing leads opportunities, quotes, orders, invoices, and so on. 
+
+The following core sales roles are predefined for Sales Enterprise and Sales Premium licenses:
+
+- Salesperson
+- Sales Manager
+- Vice President of Sales
+
+The following core sales roles are predefined for Sales Professional license:
+- Sales Professional Person
+- Sales Professional Manager
+
+Other roles such as Forecast manager, Playbook user, and so on are functional roles and can be assigned to users who perform these functions.  
+
 ## Assign security roles to users
 
 Associate one or more security roles to a user depending on their roles and responsibilities. For example, if a Sales Manager is also
