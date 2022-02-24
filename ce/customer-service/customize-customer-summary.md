@@ -57,15 +57,15 @@ For example, you could change **Search customer** to **Search client** or **Sear
 
 To customize labels on the conversation form:
 
-1. Sign in to the Dynamics 365 instance.
+1. In your Dynamics 365 instance, go to **Customize the System** in **Advanced Settings**, and then select **Web Resources**.
 
-1. Go to **Advanced Settings** > **Settings** >  **Customizations** > **Customize the System** > **Web Resources**.
+1. Select the filters icon, select the dropdown menu next to the **Type** column, and then select the checkbox for **String (RESX)**.
 
-1. Select the filters icon, select the dropdown menu next to the **Type** column, and then select the checkbox to only display **String (RESX)** files.
+1. In the **Name** column filter, select **Custom Filter**, and in the dialog that is displayed, set **Select Operator** to **Contains**, and then type **CustomerSummary** for the value. All the CustomerSummary labels for all the languages are displayed.
 
-1. In the **Name** column filter, select **Custom Filter**, and in the dialog that is displayed, set **Select Operator** to **Contains**, and then type **CustomerSummary** for the value. All of the available CustomerSummary labels for all of the languages will be displayed.
+1. Optionally, use the language filter to narrow the results to show the results for the required language.
 
-1. Select the **CustomerSummary** labels for the language that needs to be modified. A dialog opens with the URL link to the content of the CustomerSummaryLabels.resx file.
+1. In the **Name** column, select the **CustomerSummary** label. A dialog opens with the URL link to the content of the CustomerSummaryLabels.resx file.
 
 1. Select the link in the URL field. A dialog opens and displays the contents of the resource file. 
 
@@ -84,11 +84,11 @@ To customize labels on the conversation form:
 
 1. Update the **value** XML tag of the data XML tag with name **Issue**. This will replace the issue label used on the Customer summary form.
 
-1. Save the file locally, and then return to the **CustomerSummaryLabels Web resource** dialog, select **Choose File**, and upload to the file.
+1. Save the file locally, and then return to the **CustomerSummaryLabels Web resource** dialog, select **Choose File**, and upload the edited file.
 
 1. Select the recently saved file, select **Save**, and then publish the changes.
 
-1. Manually refresh the page to view the published changes.
+1. To view the published changes, in the Customer Service workspace or Omnichannel for Customer Service app, manually refresh the page containing the conversation summary form.
 
 ## Timeline
 
