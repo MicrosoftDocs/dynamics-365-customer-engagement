@@ -4,7 +4,7 @@ description: "The following sections contain information about how to configure 
 ms.custom: 
 ms.date: 11/01/2021
 ms.reviewer: pehecke
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

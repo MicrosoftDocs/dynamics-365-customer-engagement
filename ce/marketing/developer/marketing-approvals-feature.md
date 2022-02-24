@@ -2,7 +2,7 @@
 title: "Build an approvals feature (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Build an approvals feature that utilizes Dynamics 365 Marketing extensibility endpoints."
 ms.date: 02/03/2022
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

@@ -4,7 +4,7 @@ description: "Learn about creating custom themes in Dynamics 365 Customer Engage
 s.custom: 
 ms.date: 02/15/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

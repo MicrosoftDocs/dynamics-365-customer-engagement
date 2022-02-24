@@ -5,7 +5,7 @@ ms.custom:
   - dyn365-fieldservice
 ms.date: 04/15/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.subservice: field-service-mobile
 ms.topic: article
 applies_to: 

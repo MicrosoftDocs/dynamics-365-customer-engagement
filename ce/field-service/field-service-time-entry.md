@@ -3,7 +3,7 @@ title: "Time entries for Dynamics 365 Field Service (contains video) | Microsoft
 description: Learn about time entry in Dynamics 365 Field Service.
 ms.date: 11/19/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"

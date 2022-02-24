@@ -4,7 +4,7 @@ description: "A 1:N relationship is one in which a primary entity is associated 
 ms.custom: 
 ms.date: 02/09/2022
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

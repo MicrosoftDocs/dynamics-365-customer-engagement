@@ -3,17 +3,17 @@ title: "Skill control for routed records| MicrosoftDocs"
 description: "Learn how to add a skill control on forms to view skills of any routed record in Customer Service Hub."
 ms.date: 11/18/2021
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
 search.app: 
   - D365CE
   - D365CS
-ms.custom: 
-  - dyn365-customerservice
 ---
 
 # Add a skill control for routed records

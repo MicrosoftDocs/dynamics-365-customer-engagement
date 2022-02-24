@@ -5,7 +5,7 @@ ms.date: 08/10/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 ---
 # Troubleshooting common issues across multiple entities  
 

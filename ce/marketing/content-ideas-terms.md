@@ -2,7 +2,7 @@
 title: "Content ideas terms of use (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about the terms of use for content ideas in Dynamics 365 Marketing."
 ms.date: 08/26/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

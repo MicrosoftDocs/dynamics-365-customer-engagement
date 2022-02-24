@@ -4,7 +4,7 @@ description: "Learn about categorizing the entity records using category entity.
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: pehecke
-ms.service:
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

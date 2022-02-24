@@ -2,18 +2,17 @@
 title: "Overview of case management | MicrosoftDocs"
 description: "This topic provides information on how to manage cases in Dynamics 365 Customer Service apps."
 ms.date: 07/09/2021
-author: platkat
 ms.topic: overview
-ms.author: ktaylor
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-
-searchScope:
-- D365-App-customerservicehub
-- D365-Entity-incident
-- D365-UI-*
-- Customer Engagement
-- Dynamics 365
-- Customer Service
+searchScope: 
+  - D365-App-customerservicehub
+  - D365-Entity-incident
+  - D365-UI-*
+  - Customer Engagement
+  - Dynamics 365
+  - Customer Service
 ---
 
 # Overview of case management

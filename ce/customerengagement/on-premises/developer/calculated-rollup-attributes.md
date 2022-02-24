@@ -4,7 +4,7 @@ description: "Learn about common elements and characterstics, calculated attribu
 ms.custom: 
 ms.date: 11/12/2021
 ms.reviewer: pehecke
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

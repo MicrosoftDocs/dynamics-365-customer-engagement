@@ -7,7 +7,7 @@ manager: shujoshi
 ms.date: 11/02/2021
 ms.topic: article
 ms.custom: intro-internal
-ms.service: dynamics-365-customerservice
+
 ---
 
 
@@ -70,7 +70,7 @@ The following screenshots are examples of the survey types in Power Virtual Agen
 > [!Note]
 > Enabling the post-call survey feature isn't required for the agent-initiated scenario.
 
-1. In **Omnichannel admin center**, select your voice workstream, and then select **Edit** next to the pencil icon to modify the settings.
+1. In Customer Service admin center (preview) or Omnichannel admin center, select your voice workstream, and then select **Edit** next to the pencil icon to modify the settings.
 2. Under **Language**, scroll to the bottom of the dialog, and then toggle **Post-call survey** to **On**.
 3. From the dropdown menu, select the required bot.
 4. Select **Confirm**.

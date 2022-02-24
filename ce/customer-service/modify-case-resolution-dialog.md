@@ -3,16 +3,16 @@ title: "Modify case resolution dialog in Customer Service Hub | MicrosoftDocs"
 description: "Learn to customize the case resolution dialog in Customer Service Hub to support varied business needs."
 ms.date: 02/11/2022
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-searchScope:
-- D365-App-customerservicehub
-- D365-Entity-incident
-- D365-UI-*
-- Customer Engagement
-- Dynamics 365
-- Customer Service
+searchScope: 
+  - D365-App-customerservicehub
+  - D365-Entity-incident
+  - D365-UI-*
+  - Customer Engagement
+  - Dynamics 365
+  - Customer Service
 ---
 
 # Modify the case resolution dialog

@@ -4,7 +4,7 @@ description: "Learn how to create a new entity in Dynamics 365. As an app maker 
 ms.custom: 
 ms.date: 02/13/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

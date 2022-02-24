@@ -2,7 +2,7 @@
 title: "Preview: Trigger custom event actions in real-time marketing journeys (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to trigger custom event actions in real-time marketing journeys in Dynamics 365 Marketing."
 ms.date: 02/07/2022
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
