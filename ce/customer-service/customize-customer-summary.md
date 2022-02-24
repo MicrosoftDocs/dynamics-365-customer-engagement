@@ -67,22 +67,24 @@ To customize labels on the conversation form:
 
 1. In the **Name** column, select the **CustomerSummary** label. A dialog opens with the URL link to the content of the CustomerSummaryLabels.resx file.
 
-1. Select the link in the URL field. A dialog opens and displays the contents of the resource file. 
+1. Select the link in the URL field. A dialog opens and displays the contents of the resource file.
 
-1. Copy and paste the contents into a text editor, and then update the **value** XML tag of the data XML tag with name **Customer**. This will replace the customer label used on the Customer summary form.
+   1. Copy and paste the contents into a text editor, and then update the text for the value tag of the labels you want to change with a label of your choice . For example, for **Customer**, update the text in value with "Client". This will replace the "Customer" label with "Client" on the Customer summary form.
 
-     ```</resheader>
-     <data name="Customer" xml:space="preserve">
-       <value>Client</value>
-       <comment>Client Label</comment>
-     </data>
-     <data name="Issue" xml:space="preserve">
-       <value>Ticket</value>
-       <comment>Issue Label</comment>
-     </data>
-     ```
+   1. Similarly, for the **Issue** tag, update the text in value* with "Ticket". This will replace the "Issue" label with "Ticket" on the Customer summary form.
 
-1. Update the **value** XML tag of the data XML tag with name **Issue**. This will replace the issue label used on the Customer summary form.
+    The sample tags with the new values are as follows.
+
+      ```</resheader>
+      <data name="Customer" xml:space="preserve">
+        <value>Client</value>
+        <comment>Client Label</comment>
+      </data>
+      <data name="Issue" xml:space="preserve">
+        <value>Ticket</value>
+        <comment>Issue Label</comment>
+      </data>
+      ```
 
 1. Save the file locally, and then return to the **CustomerSummaryLabels Web resource** dialog, select **Choose File**, and upload the edited file.
 
