@@ -18,7 +18,65 @@ manager: kvivek
 # Available apps for Dynamics 365 Customer Engagement (on-premises)
 
 The following Dynamics 365 Customer Engagement (on-premises) that are based on the Unified Interface framework are available and can be downloaded.
-- [Dynamics 365 for Sales for use with Customer Engagment (on-premises), version 9.1](/dynamics/s-e/365enterprise/365salesappdownloads) 
+
+::: moniker range="op-9-1"
+
+## Sales Hub for use with Customer Engagement (on-premises), version 9.1
+
+Download Microsoft Sales Hub for use on Dynamics 365 for Customer Engagement applications, on-premises version 9.1
+
+### System Requirements
+
+This app works with deployments of Dynamics 365 Server, version 9.1.
+
+### Download
+
+This is an on-premises release of Sales Hub v9.1.2009.3034 containing solutions for sales comprising all features and functionality available for on-premises use with Dynamics 365 Server.
+
+Download link: [v9_1_SalesAppOnPremExe9_0_2009_3034.zip](https://mbs2.microsoft.com/fileexchange/?fileID=d8b10ff9-bd8d-4e5a-91c8-8654bce0a016)
+
+### Instructions
+
+1. When the **File Download** dialog box appears, select **Save** to save the file to your computer.
+1. Right-click the zip package file and then select **Extract All**.
+1. Right-click the extracted file, and then select **Run as administrator**.
+1. The Package Deployer loads. Enter the required information that’s on your screen, and then select **Next**.
+
+   > [!TIP]
+   >  In the **Server** box, enter the server name or IP address only. For example, *crmserver*. Don’t add a prefix, such as https://, or append with the organization name.
+1. The **Welcome to Dynamics 365 for Sales** page appears. Select **Next**.
+1. The **Ready to Install** page appears. Select **Next**.
+1. The **Reading SalesApp Installer Configuration** page appears that indicates two managed solutions will be imported, which are the **Dynamics 365 Sales Application** and the **Playbook App**. Select **Next**.
+1. The Executing Install Actions page appears. When the post import process is complete, select Next.
+1. Select **Finish**, and then select **OK** in the **The extraction is complete** dialog.
+1. The Sales Hub app appears in the list of published apps.
+
+::: moniker-end
+
+::: moniker range="op-9-0"
+
+## Sales Hub for use with Customer Engagement (on-premises), version 9.0
+
+Download Microsoft Dynamics 365 for Sales for use with Dynamics 365 Customer Engagement (on-premises), version 9.
+
+### System Requirements
+
+This app works with deployments of Dynamics 365 Server, version 9.0.
+
+### Download
+
+This is an on-premises release of the Microsoft Dynamics 365Sales Hub v9_0_SalesAppOnPremExe9.0.4.1310. It contains solutions for sales comprising all features and functionality available for on-premises use with Dynamics 365 Server. 
+
+Download link: [Sales App v9.0.4.1310](https://mbs2.microsoft.com/fileexchange/?fileID=abde6a2b-8955-4c28-aa69-0adad7fcdf3d)
+
+### Instructions
+
+1. When the **File Download** dialog box appears, select **Save** to save the file to your computer.
+1. Right-click the zip package file and then select **Extract All**.
+1. When you are ready to install the product, double-click the executable file. The Package Deployer loads.
+1. Follow the instructions on the screen to install the Sales Hub app.
+
+::: moniker-end
 
 ### See also
 
