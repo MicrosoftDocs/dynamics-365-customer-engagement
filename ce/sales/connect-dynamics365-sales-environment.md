@@ -23,7 +23,7 @@ As an administrator, you must configure the Dynamics 365 Sales environment to co
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
 ## To connect to a Dynamics 365 Sales environment 

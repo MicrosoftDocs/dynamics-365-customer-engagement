@@ -19,7 +19,7 @@ The stats about sequences provide insights on the performance of a sequence, suc
 | &nbsp; | &nbsp; |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Sales Manager or Sequence Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **Security roles** | Sales Manager or Sequence Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
 ## Who can view the stats page?
