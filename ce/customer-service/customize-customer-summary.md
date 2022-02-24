@@ -69,7 +69,7 @@ To customize labels on the conversation form:
 
 1. Select the link in the URL field. A dialog opens and displays the contents of the resource file. 
 
-1. Copy and paste the contents into a text editor, and then update the **value** XML tag of the data XML tag with name **Customer**. This will replace the customer label used on the Customer Summary Form.
+1. Copy and paste the contents into a text editor, and then update the **value** XML tag of the data XML tag with name **Customer**. This will replace the customer label used on the Customer summary form.
 
      ```</resheader>
      <data name="Customer" xml:space="preserve">
@@ -82,7 +82,7 @@ To customize labels on the conversation form:
      </data>
      ```
 
-1. Update the **value** XML tag of the data XML tag with name **Issue**. This will replace the issue label used on the Customer Summary Form.
+1. Update the **value** XML tag of the data XML tag with name **Issue**. This will replace the issue label used on the Customer summary form.
 
 1. Save the file locally, and then return to the **CustomerSummaryLabels Web resource** dialog, select **Choose File**, and upload to the file.
 
