@@ -61,28 +61,34 @@ To customize labels on the conversation form:
 
 1. Go to **Advanced Settings and Customizations** > **Customize the System** > **Web Resources**.
 
-1. Select the filters icon, and then select to only display **String (RESX)** files.
+1. Select the filters icon, select the dropdown menu next to the **Type** column, and then select the checkbox to only display **String (RESX)** files.
 
-1. In the **Name** column filter, select **Custom Filter**, and in the dialog that opens, select operator for **Contains**, and **CustomerSummary** for the value. All of the available CustomerSummary labels for all of the languages are displayed.
+1. In the **Name** column filter, select **Custom Filter**, and in the dialog that is displayed, set **Select Operator** to **Contains**, and then type **CustomerSummary** for the value. All of the available CustomerSummary labels for all of the languages will be displayed.
 
 1. Select the **CustomerSummary** labels for the language that needs to be modified. A dialog opens with the URL link to the content of the CustomerSummaryLabels.resx file.
 
 1. Select the link in the URL field. A dialog opens and displays the contents of the resource file. 
 
-1. Copy and paste the content it in a text editor.
+1. Copy and paste the contents into a text editor, and then update the **value** XML tag of the data XML tag with name **Customer**. This will replace the customer label used on the Customer Summary Form.
 
-1. Update the **value** XML tag of the data XML tag with name **Customer**. This will replace the customer label used in the out-of-the-box Customer Summary Form.
+     ```</resheader>
+     <data name="Customer" xml:space="preserve">
+       <value>Client</value>
+       <comment>Client Label</comment>
+     </data>
+     <data name="Issue" xml:space="preserve">
+       <value>Ticket</value>
+       <comment>Issue Label</comment>
+     </data>
+     ```
 
-1. Update the **value** XML tag of the data XML tag with name **Issue**. This will replace the issue label used in the out-of-the-box Customer Summary Form.
+1. Update the **value** XML tag of the data XML tag with name **Issue**. This will replace the issue label used on the Customer Summary Form.
 
-1. Save the file locally.
-
-1. When the file has successfully been saved, go back to the **CustomerSummaryLabels Web resource** dialog, and select the **Upload** file.
+1. Save the file locally, and then return to the **CustomerSummaryLabels Web resource** dialog, select **Choose File**, and upload to the file.
 
 1. Select the recently saved file, select **Save**, and then publish the changes.
 
 1. Manually refresh the page to view the published changes.
-
 
 ## Timeline
 
