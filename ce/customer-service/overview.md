@@ -1,7 +1,7 @@
 ---
 title: "Customer Service Overview (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Overview of Dynamics 365 Customer Service"
-ms.date: 02/22/2022
+ms.date: 02/23/2022
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -32,7 +32,9 @@ Use [!INCLUDE[pn-ms-dyn-365-for-customer-service](../includes/pn-ms-dyn-365-for-
 - Manage performance and productivity through reports and dashboards
 - Create and schedule services
 - Participate in chats
-- Manage conversations across channels
+- Manage conversations across channels, including voice
+- Embedded insights and analytics
+- Collaboration with experts in Microsoft Teams
 
 ## Administer Customer Service
 
