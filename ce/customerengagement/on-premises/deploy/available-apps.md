@@ -25,7 +25,7 @@ The Sales Hub app that's based on the Unified Interface framework is available f
 
 Download Microsoft Sales Hub for use on Dynamics 365 Customer Engagement (on-premises), version 9.1
 
-### System Requirements
+### System requirements
 
 This app works with deployments of Dynamics 365 Server, version 9.1.
 
@@ -59,7 +59,7 @@ Download link: [v9_1_SalesAppOnPremExe9_0_2009_3034.zip](https://mbs2.microsoft.
 
 Download Microsoft Dynamics 365 for Sales for use with Dynamics 365 Customer Engagement (on-premises), version 9.0.
 
-### System Requirements
+### System requirements
 
 This app works with deployments of Dynamics 365 Server, version 9.0.
 
