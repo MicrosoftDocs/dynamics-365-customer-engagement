@@ -81,10 +81,10 @@ The activity is created and displayed under the **To Do** tab.
 
 1.  On the navigation bar at the bottom of the screen, tap ![Add activity from home page](media/sm-plus-icon.png), and then tap **Phone Call** or **Task**.
 
-2.  In the **Create new** form, enter the details, and then tap **Save** at the upper-right corner of the form.
+2.  In the **Create new** form, enter the details, along with a value in the **Regarding** field, and then tap **Save** at the upper-right corner of the form.
 
 > [!IMPORTANT]
-> Ensure that you select a value in the **Regarding** field. This helps in associating the activity with a record.
+> The **Regarding** field is not a required field, but selecting a value in the **Regarding** field helps in associating the activity with a record.
 
 
 ## Open or edit an activity
