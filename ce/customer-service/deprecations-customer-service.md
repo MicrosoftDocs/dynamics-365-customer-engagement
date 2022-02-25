@@ -29,7 +29,7 @@ Administrators and IT professionals can use this information to prepare for futu
 
 ## Omnichannel Administration app is deprecated
 
-The Omnichannel Administration app won't be supported after April 30, 2022, and will be deprecated in a future release. We recommend that you use the new Customer Service admin center (preview) or the Omnichannel admin center app. The latest features can be configured and used only in the new admin apps. For more information, see [Get started with Customer Service admin center (preview)](cs-admin-center.md) and [Get started with Omnichannel admin center](oc-admin-center.md).
+The Omnichannel Administration app won't be supported after April 30, 2022, and will be deprecated in a future release. We recommend that you use the Omnichannel admin center app. The latest features, such as unified routing and voice channel, can be configured and used only in this admin app. More information: [Get started with Omnichannel admin center](oc-admin-center.md)
 
 ## setContextProvider method deprecated for authenticated chat
 
