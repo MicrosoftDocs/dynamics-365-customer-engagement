@@ -1,7 +1,7 @@
 ---
 title: "Create multiple work streams for entity records routing | MicrosoftDocs"
 description: "This walkthrough demonstrates how you can route entity record automatically using Entity Records channel in the Omnichannel Administration app."
-ms.date: 10/25/2019
+ms.date: 02/25/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim

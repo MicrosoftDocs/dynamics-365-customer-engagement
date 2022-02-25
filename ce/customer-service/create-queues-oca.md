@@ -1,7 +1,7 @@
 ---
 title: "Create queues in Omnichannel Administration | MicrosoftDocs"
 description: "See how you can create and manage queues in Omnichannel Administration"
-ms.date: 05/24/2021
+ms.date: 02/25/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim

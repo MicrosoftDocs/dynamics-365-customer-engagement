@@ -1,7 +1,7 @@
 ---
 title: Records routing using records channel | MicrosoftDocs
 description: Learn how you can route cases automatically using records channel in the Omnichannel Administration app.
-ms.date: 06/22/2021
+ms.date: 02/25/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim

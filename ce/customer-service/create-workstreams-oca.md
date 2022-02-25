@@ -1,7 +1,7 @@
 ---
 title: "Create workstreams in Omnichannel Administration app | MicrosoftDocs"
 description: "Learn how to create workstreams in the Omnichannel Administration app"
-ms.date: 10/27/2021
+ms.date: 02/25/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -12,7 +12,7 @@ manager: shujoshi
 
 > [!IMPORTANT]
 >
-> - The Omnichannel Administration app won't be supported after April 30, 2022, and will be deprecated in a future release. We recommend that you use the Customer Service admin center (preview) or Omnichannel admin center app. The latest features, such as unified routing and the voice channel, can be configured and used only in the new admin apps. For more information about the deprecation announcement, see Omnichannel Administration app is deprecated.
+> - The Omnichannel Administration app won't be supported after April 30, 2022, and will be deprecated in a future release. We recommend that you use the Omnichannel admin center app. The latest features, such as unified routing and the voice channel, can be configured and used only in the new admin apps. For more information about the deprecation announcement, see Omnichannel Administration app is deprecated.
 > - Additionally, workstreams that you create in the Omnichannel Administration app can't be modified in the Omnichannel admin center app. You'll need to migrate the existing workstreams and then manage them in the Omnichannel admin center app. More information: [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md)
 
 ## Introduction
