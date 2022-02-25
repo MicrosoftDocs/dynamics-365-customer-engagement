@@ -20,7 +20,7 @@ Omnichannel for Customer Service live chat widget SDK provides methods that allo
 - Set, retrieve, and remove authentication-token providers for a live chat session.
 
 [Start a chat](../initiate-chat-wait-time.md)<br />
-[JavaScript API reference for live chat SDK](omnichannel-reference.md)
+[Live chat SDK JavaScript API reference](omnichannel-reference.md)
 
 ## Start proactive chat 
 
@@ -90,6 +90,7 @@ Read how you can implement a connector to integrate custom messaging channels us
 [Omnichannel for Customer Service for system customizers](../omnichannel-customizer.md)<br />
 [Omnichannel for Customer Service for agents](../omnichannel-agent-overview.md)<br />
 [Dynamics 365 Channel Integration Framework guide](../../customer-service/channel-integration-framework/channel-integration-framework.md)
+[Live chat SDK JavaScript API reference](omnichannel-reference.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
