@@ -101,7 +101,7 @@ There are a variety of properties that can be modified and will apply to the ema
 
 ### Configure the default email template selection view
 
-Perform the following steps to configure the default view for the [new email template selection](/powerapps/user/insert-email-templat.md#new-email-template-selection-window)
+Perform the following steps to configure the default view for the [new email template selection](/powerapps/user/insert-email-template.md#new-email-template-selection-window)
 window:
 
 1. Navigate to **Settings > Advanced Settings**.
