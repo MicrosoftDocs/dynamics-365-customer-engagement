@@ -1,10 +1,10 @@
 ---
-title: Search knowledge articles in the Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
+title: Search operators used in knowledge management in Dynamics 365 Customer Service | Microsoft Docs
 description: See how you can effectively search knowledge articles in the Customer Service Hub.
-ms.date: 02/11/2022
+ms.date: 02/25/2022
 ms.topic: article
-author: lalexms
-ms.author: laalexan
+author: Soumyasd27
+ms.author: sdas
 manager: shujoshi
 search.audienceType: 
   - admin
@@ -17,7 +17,7 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Search for knowledge articles in the Customer Service Hub
+# Search operators
 
 Knowledge base search in the Customer Service Hub app lets you search for relevant knowledge articles to resolve a case. To search for knowledge articles in a case form, select the **Knowledge Base Search** search box in the **Knowledge Base Search control** of the **Related** section.
 
