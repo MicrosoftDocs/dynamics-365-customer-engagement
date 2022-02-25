@@ -38,7 +38,7 @@ The predefined security roles for Sales include permissions and access levels th
 
 ## What are core sales roles
 
-The core sales roles correspond to the core sales personas in an organization. These roles have access to majority of the sales activities such as managing leads opportunities, quotes, orders, invoices, and so on. 
+The core sales roles correspond to the core sales personas in an organization. These roles have access to majority of the sales activities such as managing leads, opportunities, quotes, orders, invoices, and so on. 
 
 The following core sales roles are predefined for Sales Enterprise and Sales Premium licenses:
 
@@ -46,7 +46,7 @@ The following core sales roles are predefined for Sales Enterprise and Sales Pre
 - Sales Manager
 - Vice President of Sales
 
-The following core sales roles are predefined for Sales Professional license:
+The following core sales roles are predefined for the Sales Professional license:
 - Sales Professional Person
 - Sales Professional Manager
 
