@@ -32,8 +32,8 @@ If you're working on a record and lose network connection, any updates made to t
 > [!IMPORTANT]
 > - This topic covers how to use the Dynamics 365 for phones and tablets app and [Power Apps Mobile](/powerapps/mobile/run-powerapps-on-mobile) in offline mode. The process is the same for both apps.
 > - There is a new experience to setup and use mobile offline for model-driven apps. For more information:
->   - [Set up mobile offline](/powerapps-docs/mobile/setup-mobile-offline.md)
->   - [Use mobile offline-first](/powerapps-docs/mobile/work-in-offline-mode.md)
+>   - [Set up mobile offline](/powerapps/mobile/setup-mobile-offline)
+>   - [Use mobile offline-first](/powerapps/mobile/work-in-offline-mode)
 
 ## Install the mobile app
 
