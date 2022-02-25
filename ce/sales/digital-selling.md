@@ -333,13 +333,13 @@ If you're using predictive scoring with your Sales Enterprise license, you get 1
         If the monthly limit exceeds in a month (for Sales Enterprise license users), a warning symbol is displayed.
     - **Usage over time**: Displays the monthly usage of predictive scoring in a graphical format for the last six months.
     
-    If the monthly limit exceeds in a month (for Sales Enterprise license users), a warning symbol is displayed.
+        If the monthly limit exceeds in a month (for Sales Enterprise license users), a warning symbol is displayed.
     
-    The monthly limit is shown with a blue line in the graph and whenever the limit is exceeded in a month, the number of records more than 1500 are shown in red.
+        The monthly limit is shown with a blue line in the graph and whenever the limit is exceeded in a month, the number of records more than 1500 are shown in red.
     
-    By default, the usage of both, lead and opportunity (if both are enabled), is displayed in the graph. You can also filter the graph to see the usage only for leads or opportunities by using the **All** filter.
+        By default, the usage of both, lead and opportunity (if both are enabled), is displayed in the graph. You can also filter the graph to see the usage only for leads or opportunities by using the **All** filter.
 
-    :::image type="content" source="media/ds-scoring-usage-panel.png" alt-text="Prodictive scoring usage panel.":::
+        :::image type="content" source="media/ds-scoring-usage-panel.png" alt-text="Prodictive scoring usage panel.":::
 
 ### Turn off lead and opportunity scoring
 
