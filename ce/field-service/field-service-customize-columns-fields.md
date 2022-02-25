@@ -72,13 +72,20 @@ Don't edit field properties! Editing field properties can result in performance 
 
 For example, editing fields in the following ways is unsupported and can cause issues when upgrading.
 
-- Changing field types. for example, don't change the type of a field from _Date Only_ to _Date and Time_, or change a _Whole Number_ field to a _Decimal_ field. 
 - Removing choice options.
 - Adding choice options.
 - Changing field requirement from _Required_ to _Optional_ (though it's okay to change from *Optional* to *Required*).
+- Changing the behavior of a **Date Only** or **Date and Time** field is unsupported. They must be left as **User Local** and can't be set to _Date Only_ or _Time Zone independent_. See additional notes for more details.
 
 ## Additional notes
 
 ### Deleting fields
 
 Don't delete existing fields! Deleting fields can cause unexpected issues. Instead of deleting a field, hide or remove fields from the forms so that users can't see them.
+
+### Changing the behavior of a Date and Time field is unsupported
+
+Changing the behavior of a **Date Only** or **Date and Time** column that is included with Field Service is unsupported, irreversible, and can cause upgrade issues. For example, the following screenshot shows the _Start Date_ column located on the agreement table. The behavior property must be left as **User Local**.
+
+> [!div class="mx-imgBorder"]
+> ![Start Date column on the agreement table.](./media/customization-fields-behavoir.png)
