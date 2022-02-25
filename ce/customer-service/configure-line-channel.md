@@ -1,7 +1,7 @@
 ---
 title: "Configure a LINE channel | MicrosoftDocs"
 description: "Instructions to configure a LINE channel in Omnichannel for Customer Service."
-ms.date: 02/11/2022
+ms.date: 02/25/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -12,14 +12,19 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
+## Introduction
+
 Many customers use social messaging channels like LINE for their personal communication needs. Many also prefer using these messaging channels to engage with businesses. The asynchronous nature of these channels gives customers the convenience of getting their issues resolved as and when they find time, unlike real-time channels like Chat for Dynamics 365 Customer Service, where the session ends when the chat window is closed.
 
 The LINE channel gives you an incredible opportunity to capitalize on the social media trend and engage with your customers in a seamless and personalized experience.
 
-  > [!NOTE]
-  > The LINE channel isn't available in the Government Community Cloud (GCC) region.
+> [!NOTE]
+> The LINE channel isn't available in the Government Community Cloud (GCC) region.
 
-**Prerequisites**: Following are the prerequisites before configuring the LINE channel in Omnichannel for Customer Service.
+## Prerequisites
+
+Following are the prerequisites before configuring the LINE channel in Omnichannel for Customer Service.
+
 > [!NOTE]
 > To enable the LINE channel in an existing Omnichannel for Customer Service environment, you must [upgrade to the latest version of Omnichannel for Customer Service](upgrade-omnichannel.md).
 
@@ -92,8 +97,9 @@ After completing the prerequisites, you can add the LINE channel for your organi
    - [Smart assist bots](smart-assist-bot.md)
    - [Quick replies](create-quick-replies.md)
 
-
 ### Create a LINE channel in Omnichannel Administration
+
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 1.	Go to **Channels** > **LINE**.
 
@@ -195,7 +201,7 @@ Customers are solely responsible for using Dynamics 365, this feature, and any a
 
 ### See also
 
-[Understand and create work streams](create-workstreams.md)<br>
+[Understand and create workstreams](create-workstreams.md)<br>
 [Configure automated messages](configure-automated-message.md)<br> 
 [Configure a post-conversation survey](configure-post-conversation-survey.md)<br>
 [Create and manage routing rules](routing-rules.md)<br>
