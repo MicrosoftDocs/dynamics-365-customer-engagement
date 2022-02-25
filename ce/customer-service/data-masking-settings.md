@@ -1,23 +1,27 @@
 ---
-title: "Create and manage data-masking rules | MicrosoftDocs"
-description: "Learn how to create and manage data-masking rules to block sensitive data in Omnichannel for Customer Service."
-ms.date: 02/18/2022
+title: "Create and manage data masking rules | MicrosoftDocs"
+description: "Learn how to create and manage data masking rules to block sensitive data in Omnichannel for Customer Service."
+ms.date: 02/25/2022
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
 ms.topic: article
 ---
 
-# Create and manage data-masking rules
+# Create and manage data masking rules
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Use data masking to block sensitive data such as credit card information, social security number (SSN), or even profanity in a conversation. You can create a masking rule and define a regular expression to identify the sensitive information and replace it with the masked characters. Any text that's masked in a conversation will also be masked in the conversation transcript. Data masking works for chat and async channels.
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+
+## Introduction
+
+Use data masking to block sensitive data such as credit card information, social security number (SSN), or even profanity in a conversation. You can create a masking rule and define a regular expression to identify the sensitive information and replace it with the masked characters. Any text that's masked in a conversation will also be masked in the conversation transcript. Data masking works for chat and asynchronous channels.
 
 Masking rules can be configured to apply to messages sent by a customer, an agent, or both. You must make sure that the masking rules you want applied are set to **Active**; otherwise, they won't apply to the selections you make.
 
    > [!div class=mx-imgBorder]
-   > ![Data-masking rules.](media/general-masking-rules.png "Data-masking rules")
+   > ![Data masking rules.](media/general-masking-rules.png "Data masking rules")
 
 You can choose to:
 
@@ -33,10 +37,10 @@ The following masking rules are provided out of the box:
 As an administrator, you can delete or modify the out-of-the-box masking rules and create new masking rules.
 
 > [!NOTE]
-> - Only an administrator can access and edit data-masking rules.
-> - Only 10 data-masking rules, including the rules provided out of the box, can exist in Omnichannel for Customer Service.
+> - Only an administrator can access and edit data masking rules.
+> - Only 10 data masking rules, including the rules provided out of the box, can exist in Omnichannel for Customer Service.
 
-## Create a data-masking rule
+## Create a data masking rule
 
    > [!div class=mx-imgBorder]
    > ![Create a masking rule.](media/new-masking-rule.png "Create a masking rule")
@@ -56,8 +60,7 @@ As an administrator, you can delete or modify the out-of-the-box masking rules a
 
 1.	Select **Manage** for **Data masking**.
 
-   > [!NOTE]
-   > If you're using the Omnichannel Administration app, select **Data Masking** under **Settings**.
+    If you're using the Omnichannel Administration app, select **Data Masking** under **Settings**.
 
 1.	In **Masking rules**, select **New Masking Rule**.
 
@@ -76,7 +79,7 @@ As an administrator, you can delete or modify the out-of-the-box masking rules a
 
 1. Select **Save**.
 
-## Manage data-masking rules
+## Manage data masking rules
 
 After a masking rule is created, you can edit, activate, deactivate, or permanently delete it.
 

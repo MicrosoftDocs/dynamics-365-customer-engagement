@@ -1,7 +1,7 @@
 ---
 title: "Configure a WeChat channel in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Perform the steps mentioned in this topic to configure a WeChat channel in Omnichannel for Customer Service."
-ms.date: 02/18/2022
+ms.date: 02/25/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -117,6 +117,8 @@ If you're using the service account of WeChat, perform the following steps:
 
 ### Create a WeChat channel in Omnichannel Administration
 
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+
 1. In Omnichannel Administration, under **Channels**, select **WeChat**.
 
 2. Select **New**. The **New WeChat** page appears.
@@ -141,6 +143,7 @@ If you're using the service account of WeChat, perform the following steps:
     > ![Create a WeChat channel.](media/wechat-channel-config.png "Create a WeChat channel")
 
 ### Modify settings for a specific WeChat account
+
 
 1. In the Omnichannel Administration app, go to your WeChat application and select the WeChat account you want to modify.
 

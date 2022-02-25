@@ -1,7 +1,7 @@
 ---
 title: "Configure Microsoft Teams channel in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the Microsoft Teams channel and how to configure the channel in Omnichannel for Customer Service."
-ms.date: 02/18/2022
+ms.date: 02/25/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -81,6 +81,7 @@ Make sure that the following prerequisites are met:
 
 ### Configure a Microsoft Teams channel in Omnichannel Administration<a name="configureteams"></a>
 
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 1. In Omnichannel Administration under **Channels**, select **Teams**. The **New Teams Channel** page appears.
 

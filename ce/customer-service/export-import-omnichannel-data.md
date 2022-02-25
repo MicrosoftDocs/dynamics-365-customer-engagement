@@ -11,6 +11,9 @@ ms.reviewer: nenellim
 
 # Export and import app configuration data
 
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+
+## Introduction
 After you have used Omnichannel for Customer Service in a test environment, you can export some of your app configuration data to a live production environment. Use the configuration management tool to export and import the data. More information: [Download the Configuration Migration tool from NuGet using the PowerShell script](/powerapps/developer/data-platform/download-tools-nuget)
 
 > [!IMPORTANT]
@@ -18,7 +21,7 @@ After you have used Omnichannel for Customer Service in a test environment, you 
 
 While you can use the configuration migration tool to export and import entity data, omnichannel-related configurations contain different entities that have internal dependencies. Therefore, you must bring together the required data by following a very specific process. For example, if you have already imported the context variables and then try to import pre-conversation configuration, which also creates context variables, the import might not work. Similarly, you must import all the internal entities, such as ruleset configurations that contain decision rulesets and contracts, for the import of workstreams and record queues to be successful.
 
-> [!IMPORTANT]
+> [!NOTE]
 >
 > - To export and import record type of channel across environments, contact [Microsoft Support](https://dynamics.microsoft.com/support/).
 > - Environment lifecycle operations, such as copy and restore of environment, are not supported.
@@ -31,6 +34,5 @@ While you can use the configuration migration tool to export and import entity d
 [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)  
 [Enable third-party co-browse and screen sharing](third-party-co-browse.md)  
 [Overview of channels](channels.md)  
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
