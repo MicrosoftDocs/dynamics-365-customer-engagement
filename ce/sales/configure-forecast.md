@@ -108,6 +108,7 @@ After a forecast is activated, you can use the msdyn_ForecastApi custom action t
 [View forecasts](view-forecasts.md)   
 [About premium forecasting](/dynamics365/ai/sales/configure-premium-forecasting)  
 [msdyn_ForecastApi action](developer/reference/custom-actions/msdyn_ForecastApi.md)
+[Forecasting FAQs](faqs-sales.md#forecasting)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
