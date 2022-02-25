@@ -32,17 +32,17 @@ Relationship analytics provides a graphical representation of KPIs and activity 
     > [!NOTE]
     > If you don't see the **Analytics and health** menu, verify whether the advanced Sales Insights features are enabled. To learn more, see [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features). 
     
-1. Select the toggle to enable relationship analytics for your organization.
+1. Turn on the toggle to enable relationship analytics for your organization.
 
 1. Select **Include exchange data for computing KPIs and health** ​to collect data from Exchange Online and improve the accuracy of the calculated KPIs and analytics.
     > [!NOTE]
-    > This step requires that the Office 365 administrator provides consent for using Office 365 data. If the consent is not yet provided, a message displays the type of consent required.  
+    > This step requires that your Office 365 administrator provides consent for using Office 365 data. If the consent is not yet provided, a message displays the type of consent required. Work with your Office 365 administrator to get the consent. More information: [Provide consent for collecting data from Office 365](provide-consent-office365.md).  
 
     > [!div class="mx-imgBorder"]
     > ![Enable the relationship assistant for your organization](media/si-admin-relationship-analytics-enable-in-organization.png "Enable the relationship assistant for organization")  
  
     
-6. To show the relationship health score in opportunities, views, and charts, set the toggle to **On**.    
+6. To show the relationship health score in opportunities, views, and charts, set the **Relationship health** toggle to **On**.    
 
     > [!NOTE]
     > You can disable the option if you don't wish to display the score in opportunities, views, and charts. However, disabling the option does not affect the process of gathering the relevant health data.   
@@ -50,21 +50,22 @@ Relationship analytics provides a graphical representation of KPIs and activity 
     > [!div class="mx-imgBorder"]
     > ![Enable relationship health for organization](media/relationship-analytics-relationship-health-enable.png "Enable relationship health for organization") 
     
-7. Adjust the importance of activities of different types as they contribute to the relationship health score.  
-
-    Businesses place different emphasis on the type of communication used with customers. The activities include, Emails, Meetings, Phone calls, and Tasks. 
-    
+7. Under Activity influence, adjust the importance of activities of different types as they contribute to the relationship health score.  
+ 
     > [!div class="mx-imgBorder"]
     > ![Adjust activity influence for relationship health](media/relationship-analytics-relationship-health-adjust-activity.png "Adjust activity influence for relationship health")
     
-8. Choose **Communication frequency**.     
+      Businesses place different emphasis on the type of communication used with customers. The activities include, Emails, Meetings, Phone calls, and Tasks. 
+  
+    
+8. From the **Communication frequency** list, select the expected frequency of communication between the sellers and customers .     
 
     Businesses have varying sales cycles and different expected levels of communications with customers. A longer expected communications frequency reduces the expectation of more recent frequent communications in the health score. A shorter expected communications frequency increases the expectation of more recent frequent communications in the health score. 
     
     > [!div class="mx-imgBorder"]
     > ![Choose communication frequency](media/relationship-analytics-communication-frequency.png  "Choose communication frequency")    
     
-9.  Set **Health score grading** for health scores to grade opportunities.  
+9.  Under **Health score grading**, set health scores to grade opportunities.  
 
     When health score is calculated, the opportunities in your organization's pipeline are graded according to the range defined in this section. Each opportunity in the pipeline is graded as Good, Fair, or Poor, according to the health score. Opportunities in the top score range are graded as Good while records within the lowest score range are graded as Poor.  
     

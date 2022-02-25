@@ -265,7 +265,20 @@ To add the work list site map to your custom app, follow these steps:
 KPIs are updated every 24 hours, potentially fewer.​  
 
 ### What are the signals in relationship health?​
-Relationship health looks at activity, recency, engagement, and sentiment of activities between sellers and customers.​   
+Relationship health looks at activity, recency, engagement, and sentiment of activities between sellers and customers.​ 
+
+### Is the Office 365 consent mandatory for the Relationship Intelligence feature to work?
+ 
+No, it’s not mandatory. You’ll get the basic relationship analytics and health score based on the data in Dynamics 365. When you provide the consent in Office 365 to use the Exchange data, you’ll get more accurate and complete relationship information. 
+
+### What happens If I select Exchange checkbox but the Office 365 admin hasn’t provided the consent?
+
+The data from Exchange will not be collected until the consent is provided. Work with your Office 365 administrator to get the consent. More information: [Provide consent for collecting data from Office 365](provide-consent-office365.md).
+
+###  I see that the Exchange checkbox is selected though I hadn't selected it or provided the required consent for it in the past.
+
+With the recent changes to the relationship intelligence feature, the Exchange checkbox is selected by default for all the existing customers. However, no data will be collected from Exchange until your Office 365 administrator provides consent. You can clear the checkbox if you aren’t planning to integrate with Exchange. 
+  
 
 ### Can I influence the relationship health score?​   
 An administrator can influence the relationship health score by changing the weight of activity types and the expected level of communications with customers.

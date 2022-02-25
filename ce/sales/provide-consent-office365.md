@@ -21,7 +21,7 @@ As an Office 365 administrator, follow these steps to provide the consent:
 1. Go to the **Microsoft 365 admin center**.    
     
 2. Select **Settings** > **Org settings** > **Dynamics 365 Applications**.    
-    The consent form is displayed in the right pane.
+    The consent form is displayed in the right panel.
     :::image type="content" source="media/office365-consent-form.png" alt-text="Consent form to use office 365 data":::
 
     > [!IMPORTANT]
