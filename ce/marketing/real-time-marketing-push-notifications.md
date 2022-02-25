@@ -102,8 +102,8 @@ As with the email editor, you can personalize push notifications to insert dynam
 To personalize a push notification:
 
 1. Select the **Personalization** ![The Personalization button.](media/real-time-marketing-personalization2.png "The Personalization button") button in the **Message** field.
-1. Select **Select a data field** to choose a data source. Your data source can be based on an **Audience**, an **Event trigger**, or **Compliance**.
-1. After choosing the data source, you can search for the specific attribute or event trigger you want.
+1. Select **Select a data field** to choose a data source. Your data source can be based on an **Audience**, an **trigger**, or **Compliance**.
+1. After choosing the data source, you can search for the specific attribute or trigger you want.
 1. Add a **Label** to quickly identify your token in the message content.
 
 When you send the push notification from a journey, it will automatically populate the token according to the attribute you selected.

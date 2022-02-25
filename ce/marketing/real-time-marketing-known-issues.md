@@ -51,10 +51,10 @@ As we continue to work on real-time marketing and refine the experience, we've b
 - The real-time marketing email editor *doesn’t* contain the following capabilities from the outbound marketing email editor: video, content blocks, QR codes, Teams check-in links, marketing page links, or the Send now function.
 - Emails created in outbound marketing need to be recreated in the real-time marketing email designer to be used in real-time marketing.
 
-## Event triggers
+## triggers
 
 - You can’t instrument C# apps in real-time marketing. If you choose to use an alternate language like Python, you’ll have to manage an infra to run Python.
-- Event triggers can’t be migrated when moving data between environments. Any events in the old environment need to be re-created in the new environment.
+- triggers can’t be migrated when moving data between environments. Any events in the old environment need to be re-created in the new environment.
 
 ## Natural language
 

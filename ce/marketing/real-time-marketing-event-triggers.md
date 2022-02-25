@@ -1,6 +1,6 @@
 ---
-title: "Real-time marketing event triggers (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn about real-time marketing event triggers in Dynamics 365 Marketing."
+title: "Real-time marketing triggers (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Learn about real-time marketing triggers in Dynamics 365 Marketing."
 ms.date: 08/02/2021
 
 ms.custom: 
@@ -18,11 +18,11 @@ search.app:
   - D365Mktg
 ---
 
-# Real-time marketing event triggers
+# Real-time marketing triggers
 
-Event triggers control the flow of [event-based journeys](real-time-marketing-event-based-journey.md). They represent customer actions such as a whitepaper download, a form submitted, or a Wi-Fi sign-up. Event triggers can also represent significant business events, such as a purchase that has shipped or completion of an enrollment process.
+triggers control the flow of [event-based journeys](real-time-marketing-event-based-journey.md). They represent customer actions such as a whitepaper download, a form submitted, or a Wi-Fi sign-up. triggers can also represent significant business events, such as a purchase that has shipped or completion of an enrollment process.
 
-Event triggers can be used to start, continue, or stop a journey. For example:
+triggers can be used to start, continue, or stop a journey. For example:
 
 - A **Contact created** event can be used to start a journey to welcome a new user.
 - An **Email opened** event can be used to trigger a follow-up response in a journey that engaged users by sending the users a promotional email.
@@ -30,13 +30,13 @@ Event triggers can be used to start, continue, or stop a journey. For example:
 
 ## Event types
 
-Real-time marketing offers three types of events in the event triggers catalog: custom events, interaction events, and business events.
+Real-time marketing offers three types of events in the triggers catalog: custom events, interaction events, and business events.
 
 ### Custom events
 
 Custom events are defined by real-time marketing users. Custom events provide a flexible way to capture any customer action or significant business event.
 
-Refer to [Custom event triggers in real-time marketing](real-time-marketing-custom-events.md) for more information, including important notes about security for custom events.
+Refer to [Custom triggers in real-time marketing](real-time-marketing-custom-events.md) for more information, including important notes about security for custom events.
 
 ### Interaction events
 
