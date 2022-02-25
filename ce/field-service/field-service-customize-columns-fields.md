@@ -75,7 +75,7 @@ For example, editing fields in the following ways is unsupported and can cause i
 - Removing choice options.
 - Adding choice options.
 - Changing field requirement from _Required_ to _Optional_ (though it's okay to change from *Optional* to *Required*).
-- Changing the Behavior of a Date Only or Date and Time field is unsupported. They must be left as **User Local** and cannot be set to _Date Only_ or _Time Zone independent_. See Additional notes for more details.
+- Changing the behavior of a **Date Only** or **Date and Time** field is unsupported. They must be left as **User Local** and can't be set to _Date Only_ or _Time Zone independent_. See additional notes for more details.
 
 ## Additional notes
 
@@ -85,7 +85,7 @@ Don't delete existing fields! Deleting fields can cause unexpected issues. Inste
 
 ### Changing the behavoir of a Date and Time field is unsupported
 
-Changing the Behavior of a Date Only or Date and Time  column that is included with Field Service is unsupported, irreversible, and can cause upgrade issues.  As an example, the image below shows the _Start Date_ column located on the Agreement table. The Behavior property must be left as User Local.
+Changing the behavior of a **Date Only** or **Date and Time** column that is included with Field Service is unsupported, irreversible, and can cause upgrade issues. For example, the following screenshot shows the _Start Date_ column located on the agreement table. The behavior property must be left as **User Local**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of ](./media/customization-fields-behavoir.png)
+> ![Start Date column on the agreement table.](./media/customization-fields-behavoir.png)
