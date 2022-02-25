@@ -435,6 +435,8 @@ As an administrator, you can view the macro run history, which shows how many ti
 
 1. In the site map of Omnichannel admin center, select **Agent experience** under **Advanced settings**, and then select **Manage** for **Macros**. If you're using the Omnichannel Administration app, under **Agent Experience**, select **Macros**.
 
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+
 2. Select the macro for which you want to view the history.
 
 3. Select **View run history**.
