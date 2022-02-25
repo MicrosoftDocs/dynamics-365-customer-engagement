@@ -83,7 +83,7 @@ For example, editing fields in the following ways is unsupported and can cause i
 
 Don't delete existing fields! Deleting fields can cause unexpected issues. Instead of deleting a field, hide or remove fields from the forms so that users can't see them.
 
-### Changing the behavoir of a Date and Time field is unsupported
+### Changing the behavior of a Date and Time field is unsupported
 
 Changing the behavior of a **Date Only** or **Date and Time** column that is included with Field Service is unsupported, irreversible, and can cause upgrade issues. For example, the following screenshot shows the _Start Date_ column located on the agreement table. The behavior property must be left as **User Local**.
 
