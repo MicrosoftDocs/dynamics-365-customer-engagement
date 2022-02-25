@@ -18,7 +18,7 @@ ms.custom:
   - intro-internal
 ---
 
-# Recalculate SLAs in terminal status
+# Enable force recalculation
 
 ## Introduction
 
