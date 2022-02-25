@@ -3,7 +3,7 @@ title: "Manage booking alerts in Universal Resource Scheduling"
 description: "Booking alerts display important notes, updates, and reminders on the schedule board. Create these alerts to ensure accurate and timely job completion."
 ms.date: 07/25/2019
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.subservice: common-scheduler
 ms.topic: article
 applies_to: 

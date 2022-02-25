@@ -3,7 +3,7 @@ title: "Sample: Retrieve absolute URL and site collection URL of a location reco
 description: ""
 keywords: 
 ms.date: 10/31/2017
-ms.prod: d365ce-op
+
 ms.custom: 
 ms.topic: samples
 applies_to: 

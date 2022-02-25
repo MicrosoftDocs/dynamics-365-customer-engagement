@@ -4,7 +4,7 @@ ms.custom:
 description:  Customize App for Outlook to auto populate data from an Outlook item to a quick create case table in Dynamics 365 App for Outlook.
 ms.date: 05/20/2021
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

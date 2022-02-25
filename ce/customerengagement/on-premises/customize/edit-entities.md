@@ -4,7 +4,7 @@ description: "Learn about ways you can edit entities within Dynamics 365. The de
 ms.custom: 
 ms.date: 11/03/2018
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

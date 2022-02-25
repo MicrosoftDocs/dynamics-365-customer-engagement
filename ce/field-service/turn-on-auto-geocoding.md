@@ -5,7 +5,7 @@ ms.custom:
   - dyn365-fieldservice
 ms.date: 02/1/2022
 ms.reviewer: krbjoran
-ms.service: dynamics-365-customerservice
+
 ms.topic: article
 author: FieldServiceDave
 ms.author: daclar

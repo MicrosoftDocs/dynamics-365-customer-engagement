@@ -2,7 +2,7 @@
 title: "Manage marketing environments (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to copy a production Dynamics 365 Marketing environment to a sandbox environment for experiments and testing."
 ms.date: 12/06/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing

@@ -23,25 +23,25 @@ The primary differences between live chat and persistent chat are as follows:
 
 | Feature                       | Persistent chat                   | Live chat
 |------------------------------------------|-----------------------------------|------------------------------|
-|Agent availability outside of operation hours|Allows customers to reach out to agents outside of working hours. If no agents are available, the conversation will remain open and the agent will receive the customer's messages during the operating hours.|Outside of operating hours, customers mightn't be able to chat with live agents.
+|Agent availability outside of operation hours|Allows customers to reach out to agents outside of working hours. If no agents are available, the conversation will remain open and the agent will receive the customer's messages during the operating hours.|Outside of operating hours, customers might not be able to chat with live agents.
 |Ending conversations|Customers can't end conversations from their side. Only agents can do it. |Both customers and agents can end the conversation by closing the chat.|
 |Default system messages|Persistent chat doesn't display default messages about average wait time and queue positions, because a customer doesn't need to wait for an agent. |In live chat, the customer receives system messages about wait time. These messages can be overwritten in the **Settings** tab.
 
 ## How persistent chat works
 
-From the start of a conversation until the agent explicitly ends it, agents and customers will be able to see the history of the conversation in the chat widget. Customers can close the chat widget and come back after a long time, and still see their history, with the ability to pick up where they left. When a customer is unresponsive for a long time, agents can attend to other conversations by moving their current conversation into a waiting stage, by selecting the ✖ button. When the customer comes back to the chat, the agent is notified and the conversation can be picked up and resolved.
+From the start of a conversation until the agent explicitly ends it, agents and customers will be able to see the history of the conversation in the chat widget. Customers can close the chat widget and come back after a long time, and still see their history, with the ability to pick up where they left. When a customer is unresponsive for a long time, agents can attend to other conversations by moving their current conversation into a waiting stage, by selecting the ✖ button. Chats in a waiting stage do not take up agent capacity. When the customer comes back to the chat, the agent is notified and the conversation can be picked up and resolved.
 
 ## Prerequisites
 
 Make sure that the authentication settings are configured. More information: [Create chat authentication settings](create-chat-auth-settings.md).
 
-## Set up persistent chat in Omnichannel admin center
+## Set up persistent chat in the new admin apps
 
-In Omnichannel admin center, you can select the **Make chats persistent** checkbox when you are creating the chat workstream. More information: [Create workstreams](create-workstreams.md)
+In Customer Service admin center (preview) or Omnichannel admin center, you can select the **Make chats persistent** checkbox when you are creating the chat workstream. More information: [Create workstreams](create-workstreams.md)
 
 Make sure that you set the toggle to **Yes** for **Keep same agent for entire conversation** in the **Work distribution** settings of the workstream. More information: [Configure work distribution](create-workstreams.md#configure-work-distribution)
 
-## Set up persistent chat in Omnichannel Administration
+### Set up persistent chat in Omnichannel Administration
 
 You can enable persistent chat in the chat widget settings for a chat channel.
 
@@ -59,7 +59,7 @@ You can enable persistent chat in the chat widget settings for a chat channel.
 
 7. Change the **auto-close after inactivity** field from the default value to 28 days, that will allow conversations to stay open longer.
 
-8. Set **agent affinity** to true. When a customer returns to the chat, this setting will ensure that the system first tries to connect them to the same agent.
+8. Set **agent affinity** to true. When a customer returns to the chat, this setting ensures the system connects them to the same agent. The conversation stays with the agent regardless of capacity or presence until a supervisor manually reassigns it to another agent or moves it back to a queue.
 
 9. Select **Save and close**.
 

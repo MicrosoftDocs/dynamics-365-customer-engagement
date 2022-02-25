@@ -1,7 +1,7 @@
 ---
 title: "Configure AI topic clustering for cases | MicrosoftDocs"
 description: "Learn how to configure and view the topics clustering dashboard in Customer Service Hub and Customer Service workspace"
-ms.date: 04/05/2021
+ms.date: 02/15/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -19,12 +19,12 @@ The AI-driven technology empowers informed decision-making about how to improve 
 
 Topic clustering is enabled by default when you enable historical analytics. To enable historical analytics, see [Configure Customer Service historical analytics](configure-cs-historical-analytics-csh.md).
 
-## Summary and Model Run Summary views
+## Summary and Model run summary views
 
    > [!div class="ms-imgBorder"]
    > ![Summary and Model Run Summary.](media/summary-model-run.png "Summary and Model Run Summary views")
 
-The Summary and Model Run Summary views provide key information about how the topic model is operating.
+The Summary and Model run summary views provide key information about how the topic model is operating.
 
 | View | Description |
 |--------|-------------|
@@ -63,7 +63,7 @@ AI discovered topics in Customer Service Historical Analytics are often prime ca
 > Topic automation to Power Virtual Agents bot is currently not supported in Government Community Cloud.
 
 
-## Language availability for topics 
+## Language availability for topics
 
 The topics capability in the Customer Service historical analytics reports comes with a natural language understanding model that can understand the text semantics and intent in the following languages: 
 

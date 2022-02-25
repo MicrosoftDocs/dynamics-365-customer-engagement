@@ -2,7 +2,7 @@
 title: "Cookies set and read (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Describes how cookies are set and used in Dynamics 365 Marketing."
 ms.date: 01/19/2022
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: reference

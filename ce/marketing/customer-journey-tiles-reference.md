@@ -2,7 +2,7 @@
 title: "Customer journey tiles reference (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Details for how to use each tile that is available for assembling a customer journey pipeline for Dynamics 365 Marketing."
 ms.date: 10/01/2020
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: reference

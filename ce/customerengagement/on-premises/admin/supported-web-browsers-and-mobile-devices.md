@@ -4,7 +4,7 @@ description: "Access model-driven apps with the most recent versions of Microsof
 ms.custom: 
 ms.date: 01/07/2021
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

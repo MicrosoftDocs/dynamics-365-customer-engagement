@@ -1,10 +1,11 @@
 ---
 title: Business users learning catalog for sales
-description: Find all the Dynamics 365 Sales training options for business users. 
+description: Find all the Dynamics 365 Sales training options for business users.
+ms.date: 01/08/2020
+ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-ms.topic: article
-ms.date: 01/08/2020
+manager: shujoshi
 ---
 
 # Business Users Learning Catalog for sales

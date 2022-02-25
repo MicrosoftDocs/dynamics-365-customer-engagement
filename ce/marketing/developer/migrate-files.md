@@ -2,7 +2,7 @@
 title: "Limitations on migrating files between environments (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Learn about limitations on migrating files between environments and possible workarounds."
 ms.date: 11/24/2020
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

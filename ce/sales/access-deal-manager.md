@@ -3,7 +3,7 @@ title: "Access deal manager | MicrosoftDocs"
 description: "Sellers access the deal manager workspace to get better visibility into their pipelines and manage their work efficiently."
 ms.date: 10/26/2021
 ms.topic: article
-ms.service: dynamics-365-sales
+
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
