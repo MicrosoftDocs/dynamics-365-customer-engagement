@@ -17,6 +17,9 @@ ms.custom:
 ---
 
 # Diagnostics for unified routing
+
+## Introduction
+
 Unified routing helps you assign a work item to the best suited agent or queue to handle it, based on the agent skills and the entities that are related to the work item. Routing diagnostics gives a granular view of each of the routed records to help you understand and self diagnose issues that occur in classification and assignment of work items.
 
 > [!Important]
@@ -27,9 +30,9 @@ Unified routing helps you assign a work item to the best suited agent or queue t
 To see data related to work items and their status, you need to enable routing diagnostics.
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
-   
+
    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
+
      > [!IMPORTANT]
      > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
@@ -37,11 +40,11 @@ To see data related to work items and their status, you need to enable routing d
     2. Select **Manage** for **Routing diagnostics**.
 
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
-   
+
     - In the site map, select **Diagnostics** in **Advanced settings**.
 
    ### [Customer Service Hub](#tab/customerservicehub)
-   
+
     - Go to the **Service Management** site map, and in **Unified Routing** select **Diagnostics**.
 
 1. On the **Routing diagnostics** page, select **Turn on routing diagnostics**.
@@ -82,7 +85,7 @@ You can select a work item on the **Routing diagnostics** page to view the detai
 ### Intake
 
 > [!NOTE]
-> The intake stage is applicable only for record routing.
+> The intake stage is applicable for record routing only.
 
 When a work item comes in, it goes to the first workstream in the **Intake** table and is checked for whether it meets the conditions of the rule set. The work item moves to the second workstream and checks for a match with that rule set, and so on. When a work item matches the rule set, the work item is run. You can create multiple workstreams to handle work items based on their priority. This is called the **Intake** stage of the workflow.
 
@@ -91,7 +94,7 @@ After a work item passes the **Intake** stage, it's then classified through seve
 A work item passes through three stages.
 
 - **Processed** : Work item has passed through a rule set but didn't match with the rule set and is therefore not run.
-- **Matched**: Applicable to only route-to-queue rules; displays with a green check mark if the rule conditions is true.
+- **Matched**: Applicable to route-to-queue rules only; displays with a green check mark if the rule conditions is true.
 - **Applied** : Work item has passed through a rule set and matched with the conditions of the rule set.
 - **Not processed**: Work item did not pass through a rule set.
 
@@ -123,7 +126,10 @@ The following stages are available:
 - **Assignment selection**: Displays information about the conditions that determined in selecting an agent. If more than one assignment rule set exists, selection criteria defines the order in which the rule sets are to be evaluated. The assignment selection criteria determines the rule set that has the closest match and the rule that should be run out of the many rules.
 - **Assignment ruleset**: Displays information about the rule sets that were processed.
 - **Agent assignment trace**: Provides details about the assignment criteria and assignment trace:
- 
+
+  > [!NOTE]
+  > Assignment trace is currently unavailable in the North America region.
+
   - **Assignment criteria**:
       - **Assignment method**: Displays "Highest", "Round robin", or "custom".
       - **Capacity**: Displays the capacity information.
