@@ -18,7 +18,7 @@
       href: purchase-setup.md
     - name: Install real-time customer journey orchestration
       href: real-time-marketing-install.md
-    - name: Integrate Marketing with a CMS system or Power Apps portals
+    - name: Integrate Marketing with a CMS system or a Power Apps portal
       href: portal-optional.md
     - name: Open the Power Platform admin center
       href: power-platform-admin-center.md
