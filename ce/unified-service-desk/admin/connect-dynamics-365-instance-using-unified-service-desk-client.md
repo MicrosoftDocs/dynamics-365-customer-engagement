@@ -60,11 +60,11 @@ If you want to configure the sign-in experience, such as by prepopulating values
 
 Single sign-on (SSO) for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides an improved startup performance and user experience by authenticating users to access model-driven apps without the need for entering their credentials multiple times. This eliminates the need for entering the same password again, thereby minimizing the likelihood of sign-in errors, and helps ensure a seamless user experience.
 
-In Unified Service Desk 4.1.1.1433 and later versions, SSO is disabled by default.
+In Unified Service Desk 4.1.1.1433 and later, SSO is disabled by default.
 
 In versions preceding Unified Service Desk 4.1.1.1433, SSO is enabled by default.
 
-If SSO is enabled and if your organization has enforced the inactivity session timeout for agents, then the agent won't be automatically signed out when the inactivity session timeout expires. So, to enforce an inactivity session timeout for agents in earlier versions of the product, be sure to disable the SSO feature.
+If SSO is enabled and if your organization has enforced the inactivity session timeout for agents, then the agents won't be automatically signed out when the inactivity session timeout expires. So, to enforce an inactivity session timeout for agents in earlier versions of the product, be sure to disable the SSO feature.
 
 To enable or disable SSO, see [Enable or disable single sign-on](#enable-or-disable-single-sign-on).
 
