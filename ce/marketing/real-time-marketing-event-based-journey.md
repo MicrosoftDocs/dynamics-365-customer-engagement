@@ -48,7 +48,7 @@ You can build the journey while the content is in the **Draft** state. To publis
 
 When creating an event-based journey, you can specify the following properties to configure how customers start the journey:
 
-- **Choose an trigger**: This is the trigger that customers must perform to start the journey. We want customers to start the journey when they abandon their cart, so select the *Abandoned cart* event as the trigger.
+- **Choose a trigger**: This is the trigger that customers must perform to start the journey. We want customers to start the journey when they abandon their cart, so select the *Abandoned cart* event as the trigger.
 - **Repeating this journey**: Specify whether a customer can repeat the journey and how soon can they repeat it if they perform the trigger again. For an abandoned cart reminder journey, this can be *immediately* because the *Abandoned cart* event is triggered only once for every abandoned cart. For other types of journeys, especially those involving triggers that are more frequent (like visiting a website), you might want to consider adding some delay before letting people repeat the journey.  
 - **Start date and time**: Customers can start the journey only if they perform the trigger after this start date and time. Select today's date if you want the journey to start listening to the abandoned cart trigger immediately after it has been published.  
 
@@ -66,7 +66,7 @@ The goal for this journey is to drive a purchase. You can use the *Purchase comp
 
 ## Set the journey exit
 
-By default, customers leave the journey when they’ve completed all the steps. However, you can set additional journey exits using triggers. Setting the journey exit to an trigger provides an easy way to remove customers who perform the trigger from the journey, ensuring that customers don’t receive irrelevant messages from your customer journey. For this journey, you want to make sure to only send reminder messages if customers haven’t yet completed their purchase. By setting the journey exit to the *Purchase completed* event, you can ensure that the moment any customer completes the purchase, they’ll exit the journey and will no longer receive the reminder messages.
+By default, customers leave the journey when they’ve completed all the steps. However, you can set additional journey exits using triggers. Setting the journey exit to a trigger provides an easy way to remove customers who perform the trigger from the journey, ensuring that customers don’t receive irrelevant messages from your customer journey. For this journey, you want to make sure to only send reminder messages if customers haven’t yet completed their purchase. By setting the journey exit to the *Purchase completed* event, you can ensure that the moment any customer completes the purchase, they’ll exit the journey and will no longer receive the reminder messages.
 
 > [!div class="mx-imgBorder"]
 > ![Set journey exit screenshot.](media/real-time-marketing-event-based-journey-exit.png "Set journey exit screenshot")

@@ -47,7 +47,7 @@ Actual dates add contacts to a journey on a specific day, month, and year, so th
 
 Now, let’s assume you are creating an onboarding journey. You might start the journey with an event when an opportunity is created and send two different messages when the opportunity is won versus when it’s still open.
 
-You can use an attribute branch to check the attribute values for an trigger that starts an event-based journey.
+You can use an attribute branch to check the attribute values for a trigger that starts an event-based journey.
 
 > [!div class="mx-imgBorder"]
 > ![trigger attribute screenshot.](media/real-time-marketing-branches-trigger.png "trigger attribute screenshot")

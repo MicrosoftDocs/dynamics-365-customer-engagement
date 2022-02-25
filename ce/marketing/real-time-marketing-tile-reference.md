@@ -53,7 +53,7 @@ By default, customers will end the journey when they complete all the steps. You
 
 ## Journey goal
 
-Journey goals let you track and [analyze the performance of the journey](real-time-marketing-analytics.md). You can use an trigger as the journey goal and measure the success of the journey based on the customers who perform the trigger as they are going through the journey.
+Journey goals let you track and [analyze the performance of the journey](real-time-marketing-analytics.md). You can use a trigger as the journey goal and measure the success of the journey based on the customers who perform the trigger as they are going through the journey.
 
 Journey goals can also help you determine the winner of A/B tests and find the best channel for channel optimization. For more information about using A/B tests, see [Experiment and refine real-time marketing journeys](real-time-marketing-experimentation.md).
 
@@ -87,7 +87,7 @@ The attribute branch lets you branch the journey based on various attributes inc
 
 - **Customer's attributes**: You can branch the journey based on the customer's attributes like address or age. The journey's audience defines which attributes will be shown. For example, if the journey is for Contacts, only attributes for Contacts will be shown.
 - **Customer's segment membership**: You can branch the journey based on whether the customer is part of a segment. The journey's audience defines which segments will be shown. For example, only Contacts-based segments will be shown for journeys that are meant for Contacts.
-- **Attributes in triggers**: You can branch the journey based on attribute values in triggers. For attribute values to be shown, the trigger must have previously occurred in the journey. Thus, you can only check the attribute values for an trigger that starts an event-based journey, or triggers being used in an if/then branch.
+- **Attributes in triggers**: You can branch the journey based on attribute values in triggers. For attribute values to be shown, the trigger must have previously occurred in the journey. Thus, you can only check the attribute values for a trigger that starts an event-based journey, or triggers being used in an if/then branch.
 
 The attribute branch checks for attribute values the moment a customer enters this step. For example, when a customer enters the attribute branch step, the segment membership condition will check whether the customer is part of the specified segment at that instant.
 
@@ -114,4 +114,4 @@ You can configure the wait step using the following parameters:
 
 - **A set amount of time**: Customers will wait for the specified amount of time (for example, one hour or one day). The time period starts as soon as customers enter the wait step.
 - **Until a specific date and time**: Customers will wait until the specified date and time. If the date and time are already in the past, customers will immediately proceed to the next step.
-- **Until a time specified by an trigger**: Customers will wait for the date and time that are specified by an trigger attribute. This configuration is useful for scenarios like appointment reminders, where you can choose to wait one day before the appointment to send a reminder. The date and time information must be included in an trigger that has previously occurred in the journey.
+- **Until a time specified by a trigger**: Customers will wait for the date and time that are specified by a trigger attribute. This configuration is useful for scenarios like appointment reminders, where you can choose to wait one day before the appointment to send a reminder. The date and time information must be included in a trigger that has previously occurred in the journey.
