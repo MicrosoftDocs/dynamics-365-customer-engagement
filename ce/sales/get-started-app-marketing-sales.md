@@ -61,11 +61,18 @@ In the marketing area, use standard campaigns to manage the end-to-end process o
 - **Campaign Performance**: Use this report to track the progress and status of your campaigns.  
   
 ## Let your customers unsubscribe from marketing communications  
- You can enable customers to unsubscribe from email marketing communications your organization sends them.  
+
+ You can enable customers to unsubscribe from email marketing communications that your organization sends them. 
+
+1. Add the unsubscribe link to your marketing campaign email. More information: [Distribute a campaign activity](add-activity-campaign-using-app-marketing-sales.md#distribute-a-campaign-activity). 
+
+2. In the **Marketing Settings** page, set the option **Set "Do Not Send Marketing Material" option when unsubscribe email is received** to Yes. **More information:** [Configure in-app marketing settings](configure-inapp-marketing.md). 
   
- More information: [Configure in-app marketing settings](configure-inapp-marketing.md)  
-  
- > [!NOTE]
+    When a member selects the unsubscribe link, the **Marketing Materials** setting for that member will be automatically set to **Do not send**.  They'll be removed from any future marketing email communications.
+
+    :::image type="content" source="media/contact-marketing-material.png" alt-text="Marketing Materials option in the Contacts page, Details tab.":::    
+
+> [!NOTE]
 > You cannot add unsubscribe functionality to direct email or email templates.  
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
