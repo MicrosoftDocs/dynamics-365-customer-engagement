@@ -123,7 +123,7 @@ If you're using sales accelerator with your Sales Enterprise license, you get 1,
 
 > [!IMPORTANT]
 > - The data in the usage panel is refreshed every 24 hours.
-> - Usage metrics are powered by the Power Automate flow **Sales insights sequence daily usage flow**. You should not disable this flow in Power Automate, else the usage report will not reflect the correct data. If the Power Automate flow is disabled, you must enable the flow to reactivate usage metrics. For information on enabling the flow, go to [Turn flows on](/power-automate/disable-flow#turn-flows-on).
+> - Usage metrics are powered by the Power Automate flow **Sales insights sequence daily usage flow**. You must not disable this flow in Power Automate, else the usage report will not reflect the correct data. If the Power Automate flow is disabled, you must enable the flow to reactivate usage metrics. For information on enabling the flow, go to [Turn flows on](/power-automate/disable-flow#turn-flows-on).
 
 **To monitor the usage of sales accelerator:**
 
