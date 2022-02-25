@@ -1,7 +1,7 @@
 ---
 title: "Configure file attachment capability for a chat widget | MicrosoftDocs"
 description: "Instructions to configure file attachment capability for a chat widget in Omnichannel for Customer Service."
-ms.date: 08/25/2020
+ms.date: 02/25/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
