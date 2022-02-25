@@ -27,7 +27,7 @@ Before you connect to an Azure resource, ensure you have the following details:
 - At least contributor-level permissions to the Azure subscription. To check your role, open your subscription and view the **My role** column of your subscription on the Azure portal. You'll be able to deploy your Azure resource only if you have contributor-level permissions.
 
 > [!Important]
-> If you're using a trial phone number, you must end your trial to be able to see the options to connect to a new or existing ACS resource.
+> If you're using a trial phone number, you must end the trial to be able to see the options to connect to a new or existing ACS resource.
 
 ### Connect to a new Azure resource
 
