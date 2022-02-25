@@ -28,7 +28,7 @@ The journey start configuration lets you define how customers can start the jour
 
 ### Event-based journey
 
-- **trigger to start the journey**: Customers will start the journey as soon as the selected trigger occurs.  
+- **Trigger to start the journey**: Customers will start the journey as soon as the selected trigger occurs.  
 - **Repeating the journey**: Lets you configure how soon customers can repeat the journey if the trigger to start the journey occurs again. You can allow customers to repeat the journey immediately, or only allow them to repeat the journey after a delay interval.
 - **Exclude this segment**: Members of this segment will not be allowed to start the journey. This is an easy way to filter out certain segments of customers from starting the journey, even if they performed the trigger to start the journey.  
 - **Journey Timing**: Lets you specify the time window in which customers can start the journey. Customers must perform the journey start trigger after the start time to enter the journey. No new customers will be allowed to start the journey after the end time. The end time only affects when customers can start the journey. If a customer is already in the journey, they will be allowed to continue the journey even after the end time.

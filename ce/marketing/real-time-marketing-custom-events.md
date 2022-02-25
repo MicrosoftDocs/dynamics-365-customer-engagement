@@ -30,7 +30,7 @@ Creating a custom event involves three steps: initial event creation, event inte
 
 ## 1. Initial event creation
 
-This step is performed in the **triggers** section of real-time marketing. To create the custom event, select **+New event** from the top ribbon and follow the on-screen instructions to define:
+This step is performed in the **Triggers** section of real-time marketing. To create the custom event, select **+New event** from the top ribbon and follow the on-screen instructions to define:
 
 - **Title and Description**
 
@@ -66,4 +66,4 @@ The code snippet contains extensive instructions detailing how to integrate the 
 
 ## 3. Finalize the event
 
-Once the integration has been completed, the **triggers** page will show information to confirm that the custom event is working as expected. With the integration complete and verified, the event will be marked as **Ready to use**, which will make the event visible and available in journeys.
+Once the integration has been completed, the **Triggers** page will show information to confirm that the custom event is working as expected. With the integration complete and verified, the event will be marked as **Ready to use**, which will make the event visible and available in journeys.
