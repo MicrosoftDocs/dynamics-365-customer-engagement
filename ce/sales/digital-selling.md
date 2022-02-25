@@ -119,7 +119,7 @@ If you've created a custom app, you can add the sales accelerator to it from the
 
 As an administrator, you can monitor the number of records that have been connected to sequences over a period of seven months. 
 
-If you're using sales accelerator with your Sales Enterprise license, you get 1,500 sequence-connected records per month. A warning symbol is displayed whenever the usage exceeds the monthly limit. Hover over the symbol to see the message. In such a case, you must upgrade to the Sales Premium license to enjoy full benefits.
+If you're using sales accelerator with your Sales Enterprise license, you get 1,500 sequence-connected records per month. A warning symbol is displayed whenever the usage exceeds the monthly limit. Hover over the symbol to see the message. In such a case, you must upgrade to the Sales Premium license to enjoy full benefits. If you're using sales accelerator with your Sales Premium license, there's no monthly limit.
 
 > [!IMPORTANT]
 > - There would be latency of one day to display the usage data.
@@ -127,7 +127,9 @@ If you're using sales accelerator with your Sales Enterprise license, you get 1,
 
 **To monitor the usage of sales accelerator:**
 
-1.	On the **Get started with digital sales** page, under **Sales accelerator**, select **Monitor usage**.
+-	On the **Get started with digital sales** page, under **Sales accelerator**, select **Monitor usage**.
+
+    :::image type="content" source="media/ds-sa-monitor-usage.png" alt-text="Monitor usage for sales accelerator.":::
     
     The **Sales accelerator usage** panel is displayed with the following information:
 
@@ -140,6 +142,8 @@ If you're using sales accelerator with your Sales Enterprise license, you get 1,
         If the monthly limit exceeds in a month (for Sales Enterprise license users), a warning symbol is displayed.
         
         The monthly limit is shown with a blue line in the graph and whenever the limit is exceeded in a month, the number of records more than 1500 are shown in red.
+
+    :::image type="content" source="media/ds-sa-usage-panel.png" alt-text="Sales accelerator usage panel.":::
 
 ### Turn off the sales accelerator
 
@@ -319,6 +323,8 @@ If you're using predictive scoring with your Sales Enterprise license, you get 1
 
 1.	On the **Get started with digital sales** page, under **Lead and opportunity scoring**, select **Monitor usage**.
 
+    :::image type="content" source="media/ds-scoring-monitor-usage.png" alt-text="Monitor usage for predictive scoring.":::
+
     The **Predictive scoring usage panel** is displayed with the following information:
 
     - **Monthly average**: Displays the average number of records scored over the last six full months of usage.
@@ -332,6 +338,8 @@ If you're using predictive scoring with your Sales Enterprise license, you get 1
     The monthly limit is shown with a blue line in the graph and whenever the limit is exceeded in a month, the number of records more than 1500 are shown in red.
     
     By default, the usage of both, lead and opportunity (if both are enabled), is displayed in the graph. You can also filter the graph to see the usage only for leads or opportunities by using the **All** filter.
+
+    :::image type="content" source="media/ds-scoring-usage-panel.png" alt-text="Prodictive scoring usage panel.":::
 
 ### Turn off lead and opportunity scoring
 
