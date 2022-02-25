@@ -119,10 +119,10 @@ If you've created a custom app, you can add the sales accelerator to it from the
 
 As an administrator, you can monitor the number of records that have been connected to sequences over a period of seven months. 
 
-If you're using sales accelerator with your Sales Enterprise license, you get 1,500 sequence-connected records per month. A warning symbol is displayed whenever the usage exceeds the monthly limit. Hover over the symbol to see the message. In such a case, you must upgrade to the Sales Premium license to enjoy full benefits. If you're using sales accelerator with your Sales Premium license, there's no monthly limit.
+If you're using sales accelerator with your Sales Enterprise license, you get 1,500 sequence-connected records per month. A warning symbol is displayed whenever the usage exceeds the monthly limit. Hover over the symbol to see the message. In such a case, you must upgrade to the Sales Premium license to enjoy full benefits with no monthly limit.
 
 > [!IMPORTANT]
-> - There would be latency of one day to display the usage data.
+> - The data in the usage panel is refreshed every 24 hours.
 > - Usage metrics are powered by the Power Automate flow **Sales insights sequence daily usage flow**. You should not disable this flow in Power Automate, else the usage report will not reflect the correct data. If the Power Automate flow is disabled, you must enable the flow to reactivate usage metrics. For information on enabling the flow, go to [Turn flows on](/power-automate/disable-flow#turn-flows-on).
 
 **To monitor the usage of sales accelerator:**
@@ -314,10 +314,10 @@ You may want to modify the lead and opportunity scoring configurations, for exam
 
 As an administrator, you can monitor the number of records that have been scored over a period of seven months. This includes both lead and opportunity scoring.
 
-If you're using predictive scoring with your Sales Enterprise license, you get 1,500 scored records per month. A warning symbol is displayed whenever the usage exceeds the monthly limit. Hover over the symbol to see the message. In such a case, you must upgrade to the Sales Premium license to enjoy full benefits. If you're using predictive scoring with your Sales Premium license, there's no monthly limit.
+If you're using predictive scoring with your Sales Enterprise license, you get 1,500 scored records per month. A warning symbol is displayed whenever the usage exceeds the monthly limit. Hover over the symbol to see the message. In such a case, you must upgrade to the Sales Premium license to enjoy full benefits with no monthly limit.
 
 > [!IMPORTANT]
-> There would be latency of one day to display the usage data.
+> The data in the usage panel is refreshed every 24 hours.
 
 **To monitor the usage of predictive scoring:**
 
