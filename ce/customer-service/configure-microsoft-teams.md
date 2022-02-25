@@ -104,8 +104,6 @@ Make sure that the following prerequisites are met:
 
 ### Modify settings for a specific Teams account
 
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
-
 1. In the Omnichannel Administration app, go to **Microsoft Teams** and select the account you want to modify.
 
 2. On the **General settings** tab, provide the following information:

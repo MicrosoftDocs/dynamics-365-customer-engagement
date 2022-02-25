@@ -12,7 +12,6 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-
 ## Introduction
 
 Many customers use social messaging channels like LINE for their personal communication needs. Many also prefer using these messaging channels to engage with businesses. The asynchronous nature of these channels gives customers the convenience of getting their issues resolved as and when they find time, unlike real-time channels like Chat for Dynamics 365 Customer Service, where the session ends when the chat window is closed.
@@ -98,7 +97,6 @@ After completing the prerequisites, you can add the LINE channel for your organi
    - [Smart assist bots](smart-assist-bot.md)
    - [Quick replies](create-quick-replies.md)
 
-
 ### Create a LINE channel in Omnichannel Administration
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
@@ -146,8 +144,6 @@ The LINE channel setup is complete.
 > You can only add one **LINE account** per **LINE Application** channel.
 
 ## Modify settings for a specific LINE account
-
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 1. In the Omnichannel Administration app, go to your LINE application and select the LINE account you want to modify. 
 

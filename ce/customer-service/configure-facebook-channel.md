@@ -96,7 +96,7 @@ The following Facebook roles and permissions are required for integrating your F
    - [Smart assist bots](smart-assist-bot.md)
    - [Quick replies](create-quick-replies.md)
 
-## Configure a Facebook channel in Omnichannel Administration
+### Configure a Facebook channel in Omnichannel Administration
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 

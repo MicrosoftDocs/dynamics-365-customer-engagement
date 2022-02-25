@@ -1,7 +1,7 @@
 ---
 title: "Add a web resource for real-time translation of messages | MicrosoftDocs"
 description: "Learn how to add a web resource to implement the logic for enabling real-time translation of messages exchanged between your customers and agents."
-ms.date: 02/18/2022
+ms.date: 02/25/2022
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
@@ -43,7 +43,9 @@ Perform the following steps to upload the web resource file for real-time transl
    5. Copy the link in the **URL** field. You'll provide this link in the administrator settings in Customer Service admin center (preview) or Omnichannel admin center app for configuring real-time translation.
    6. Select the option to publish all customizations on the **Solution** page, and close the form.
 
-6. In the site map of Omnichannel Administration, select **Real Time Translation**.
+6. In the site map of Customer Service admin center (preview) app, select **Productivity** under Agent experience, then select **Manage** next to **Real-time translation**.
+
+    If you're using Omnichannel admin center, then in the site map, select **Agent experience** under **Advanced settings**, and then select **Manage** next to **Real-time translation**.
 
 7. In the **Web resource URL** field, paste the link that you had copied, and save the changes.
 

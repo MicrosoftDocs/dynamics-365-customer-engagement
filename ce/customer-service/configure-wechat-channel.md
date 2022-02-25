@@ -144,7 +144,6 @@ If you're using the service account of WeChat, perform the following steps:
 
 ### Modify settings for a specific WeChat account
 
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 1. In the Omnichannel Administration app, go to your WeChat application and select the WeChat account you want to modify.
 
