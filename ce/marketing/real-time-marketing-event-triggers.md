@@ -20,9 +20,9 @@ search.app:
 
 # Real-time marketing triggers
 
-triggers control the flow of [event-based journeys](real-time-marketing-event-based-journey.md). They represent customer actions such as a whitepaper download, a form submitted, or a Wi-Fi sign-up. triggers can also represent significant business events, such as a purchase that has shipped or completion of an enrollment process.
+Triggers control the flow of [event-based journeys](real-time-marketing-event-based-journey.md). They represent customer actions such as a whitepaper download, a form submitted, or a Wi-Fi sign-up. Triggers can also represent significant business events, such as a purchase that has shipped or completion of an enrollment process.
 
-triggers can be used to start, continue, or stop a journey. For example:
+Triggers can be used to start, continue, or stop a journey. For example:
 
 - A **Contact created** event can be used to start a journey to welcome a new user.
 - An **Email opened** event can be used to trigger a follow-up response in a journey that engaged users by sending the users a promotional email.
