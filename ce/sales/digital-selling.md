@@ -314,14 +314,14 @@ You may want to modify the lead and opportunity scoring configurations, for exam
 
 As an administrator, you can monitor the number of records that have been scored over a period of seven months. This includes both lead and opportunity scoring.
 
-If you're using predictive scoring with your Sales Enterprise license, you get 1,500 scored records per month. A warning symbol is displayed whenever the usage exceeds the monthly limit. Hover over the symbol to see the message. In such a case, you must upgrade to the Sales Premium license to enjoy full benefits.
+If you're using predictive scoring with your Sales Enterprise license, you get 1,500 scored records per month. A warning symbol is displayed whenever the usage exceeds the monthly limit. Hover over the symbol to see the message. In such a case, you must upgrade to the Sales Premium license to enjoy full benefits. If you're using predictive scoring with your Sales Premium license, there's no monthly limit.
 
 > [!IMPORTANT]
 > There would be latency of one day to display the usage data.
 
 **To monitor the usage of predictive scoring:**
 
-1.	On the **Get started with digital sales** page, under **Lead and opportunity scoring**, select **Monitor usage**.
+-	On the **Get started with digital sales** page, under **Lead and opportunity scoring**, select **Monitor usage**.
 
     :::image type="content" source="media/ds-scoring-monitor-usage.png" alt-text="Monitor usage for predictive scoring.":::
 
