@@ -50,7 +50,7 @@ Now, let’s assume you are creating an onboarding journey. You might start the 
 You can use an attribute branch to check the attribute values for a trigger that starts an event-based journey.
 
 > [!div class="mx-imgBorder"]
-> ![trigger attribute screenshot.](media/real-time-marketing-branches-trigger.png "trigger attribute screenshot")
+> ![Trigger attribute screenshot.](media/real-time-marketing-branches-trigger.png "Trigger attribute screenshot")
 
 ## Case 3: If/then branch to follow up with your customers
 
