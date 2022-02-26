@@ -50,4 +50,4 @@ For more information, see documentation on how to implement this customization: 
 
 ## Remove unused controls from the app
 
-If app users are not using certain controls in the mobile app, consider removing them to reduce memory usage. Having unnecessary controls in the form increases the memory consumption of the app, leading to performance degradation. For e.g., the Timeline control is included by default on several tables and forms. If your scenario does not leverage timeline, consider removing it to reduce memory consumption.
+If app users are not using certain controls in the mobile app, consider removing them to reduce memory usage. Having unnecessary controls in the form increases the memory consumption of the app, leading to performance degradation. For e.g., the Timeline control is included by default on several tables and forms. If your scenario does not leverage Timeline, consider removing it to reduce memory consumption.
