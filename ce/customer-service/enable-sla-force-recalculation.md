@@ -1,6 +1,6 @@
 ---
-title: "Enable force recalculation of SLAs in terminal status in Dynamics 365 Customer Service | MicrosoftDocs"
-description: "Learn how to configure recalculation of SLAs that reach the terminal status in Dynamics 365 Customer Service."
+title: "Enable force recalculation of SLAs in Dynamics 365 Customer Service | MicrosoftDocs"
+description: "Learn how to force recalculation of SLAs KPIs in Dynamics 365 Customer Service."
 ms.date: 02/25/2022
 ms.topic: article
 author: Soumyasd27
@@ -22,9 +22,9 @@ ms.custom:
 
 ## Introduction
 
-This feature provides the flexibility to force cancel the active ( In Progress or Nearing Non compliance (NNC)) SLA KPI instances and create new SLA KPI instances by explicitly calling the custom action "msdyn_ManageSLAInstances".
+This feature provides the flexibility to force cancel the active **In Progress** or **Nearing Non compliance** SLA KPI instances and create new SLA KPI instances by explicitly calling the custom action **msdyn_ManageSLAInstances**.
 
-## Enable recalculation of SLAs on reaching terminal status
+## Enable force recalculation of SLAs on reaching terminal status
 
 You can enable the recalculation of SLAs that reach the terminal status in the Customer Service admin center (preview) or Customer Service Hub app.
 
