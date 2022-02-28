@@ -754,6 +754,8 @@
       href: create-operating-hours.md
     - name: Configure and manage custom presence
       href: presence-custom-presence.md
+    - name: Configure file attachments
+      href: configure-file-attachment.md      
     - name: Enable file attachments
       href: enable-file-attachments.md
     - name: Enable formatted messages

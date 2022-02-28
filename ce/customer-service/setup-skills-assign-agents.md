@@ -4,12 +4,11 @@ description: "Perform the steps mentioned in the topic to create skills and assi
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 02/18/2022
+ms.date: 02/25/2022
 ms.topic: article
 ---
 
 # Set up skills, create a rating model, and assign agents
-
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -44,7 +43,7 @@ As an administrator, to create skills, you need at least one skill type in the s
 
 **To create skills**
 
-1. In Dynamices 365, go to one of the apps, and perform the following steps.
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
    
    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
      
@@ -73,7 +72,7 @@ As an administrator, to create skills, you need at least one skill type in the s
 
 1. Select **Save**.
 
-After you save, the **Users (Agents)** section appears. In this section, you add the agents and rating value. To learn more, see [Assign agents to the skill](#assign-agents-to-skill).
+After you save, the **Users (Agents)** section appears. In this section, you add the agents and rating value. More information: [Assign agents to the skill](#assign-agents-to-skill)
 
 ## Rating value of skills
 
@@ -83,7 +82,7 @@ You must provide the minimum and maximum rating value. Also, in the **Rating Val
 
 ### Create a rating model
 
-You can create rating models in the Customer Service admin center (preview), Omnichannel admin center, or Customer Service Hub app.
+You can create rating models in the Customer Service admin center (preview), Omnichannel admin center, or Customer Service Hub apps.
 
 **To create the rating model**
 
@@ -92,7 +91,7 @@ You can create rating models in the Customer Service admin center (preview), Omn
    > [!IMPORTANT]
    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-   - In the site map of [Customer Service admin center (preview), select **Insights** in **Operations**. 
+   - In the site map of Customer Service admin center (preview), select **Insights** in **Operations**. 
 
    - In the site map of Omnichannel admin center, select **User attributes** in **Advanced settings**. 
 
@@ -125,7 +124,7 @@ You can create rating models in the Customer Service admin center (preview), Omn
 
 1. Select **Save and Close** to save and add the rating value to the grid.
 
-1. Select **New** to add other rating values and repeat step 4 and 5.
+1. Select **New** to add other rating values and repeat steps 4 and 5.
 
 1. Select **Save** to save the rating model changes.
 
@@ -164,15 +163,17 @@ Add the agents as a bookable resource so that you can assign skills to them.
 
 ## Assign agents to skill
 
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+
 1. In the site map of Omnichannel admin center, select **User attributes** under **Advanced settings**, and then select **Manage** for **Skills**. If you're using Omnichannel Administration, select **Skills** under **Users & Queues** in the site map.
 
 2. Select a skill from the list for which you want to assign the agents.
 
 3. Select **New Bookable Resource Characteristic** in the **Users (Agents)** section. The **Quick Create: Bookable Resource Characteristic** pane appears.
 
-4. Select an agent name for the **User (Agent)** field. Only the name of the agents who are added as Bookable Resources appears in drop-down.
+4. Select an agent name for the **User (Agent)** field. Only the name of the agents who are added as Bookable Resources appears in the dropdown list.
 
-5. Select a rating value from the list. The values that appear are based on the rating model and rating values that you created. To learn more, see [Rating value of skills](#rating-value-of-skills).
+5. Select a rating value from the list. The values that appear are based on the rating model and rating values that you created. More information: [Rating value of skills](#rating-value-of-skills).
 
 6. Select **Save and Close**. The agent you added is displayed in the grid.
 
@@ -183,7 +184,7 @@ Add the agents as a bookable resource so that you can assign skills to them.
 
 8. Select **Save**.
 
-Alternatively, you can also add a skill to the user (agent). To learn more, see [Manage users](users-user-profiles.md).
+Alternatively, you can also add a skill to the user (agent). More information: [Manage users](users-user-profiles.md).
 
 ### See also
 
