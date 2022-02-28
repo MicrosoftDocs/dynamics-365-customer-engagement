@@ -1,7 +1,7 @@
 ---
-title: Search operators used in knowledge management in Dynamics 365 Customer Service | Microsoft Docs
-description: See how you can effectively search knowledge articles in the Customer Service Hub.
-ms.date: 02/25/2022
+title: Learn which search operators can be used for knowledge management in Dynamics 365 Customer Service | Microsoft Docs
+description: Use search operators to search for knowledge articles in the Customer Service Hub.
+ms.date: 03/02/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -19,69 +19,60 @@ ms.custom:
 
 # Search operators
 
+## Introduction
+
 Knowledge management search control uses Dataverse search to search for knowledge articles. More information: [What is Dataverse search?](/power-platform/admin/configure-relevance-search-organization).
 
-This topic describes the search operators and the search query that you can use along with your search terms to get the results you want.
+This topic describes the search operators and the search query that you can use for your search terms to get the knowledge articles you want.
 
-## Search operators
+## Boolean Operators
 
-### Default: Knowledge search logic option
-Option in settings. 3.	One option that a knowledge search customer can leverage:
-Knowledge search logic: Set search mode as all.
+ By default, if you have Dataverse search enabled along with the **Knowledge search logic** option in **Settings**, the search mode will be set to "all". This will ensure that all the search words must match to consider an article as a match.
 
-Admin> by default> Knowledge search logic: Set search mode as all.
-Query:
-searchmode= any | all (optional)
-Specifies whether any or all the search terms must be matched to count the document as a match. The default is 'any'.
+- Query: searchmode= all
 
-If the Knowledge search logic: Set search mode as all setting is ON, searching by the Boolean operators And and Or is redundant in the search text query as By default, Search mode=any in Dataverse search.
+### AND operator
 
-However, users can use the And or the OR operator to search as well to search on the knowledge search bar in CSH.
+Use the AND operator when you need to search with a combination of words. The search results will show articles that contain  all the individual terms separated by +. For example, **delivery + order** returns the article **Delivery Never Arrived** which has **product** and **order** in the article content.
 
-### Boolean Operators
+:::image type="content" source="media/and-operator.png" alt-text="AND operator":::
 
-#### AND operator
+- Query: AND operator; denoted by +
 
-Search on a combination of terms using the + operator, which performs an AND search and shows results containing all the individual terms separated by +. For example, alpine + paul returns the contact record Paul Cannon related to the account record Alpine Ski House.
+### OR operator
 
-screenshot
+Use the OR operator to search for either of terms. SUe terms separated by a vertical bar (|). For example, searching for delivery | order returns records with reference to either term.
 
-Query: AND operator; denoted by +
-
-#### OR operator
-
-Similarly, the OR operator can be indicated by separating terms with a vertical bar (|). For example, searching for alpine | paul returns records with reference to either term.
-
-screenshot
+:::image type="content" source="media/or-operator.png" alt-text="OR operator":::
 
 Query syntax: OR operator; denoted by |
 
-#### NOT operator
+### NOT operator
 
-Use the NOT operator with a hyphen (-) before a keyword to indicate that it should be excluded from results.
-For example, when you search for evaluation, all rows matching the term evaluation will appear in results.
+Use the NOT operator with a hyphen (-) before a keyword to indicate that it should be excluded from the search results.
+For example, when you search for product, all rows matching the term product will appear in results.
 
-screenshot
+:::image type="content" source="media/not-operator.png" alt-text="NOT operator":::
 
-However, searching for evaluation + -agreed will match all rows that contain the term evaluation but not the term agreed.
+However, searching for product + -order will match all rows that contain the term product but not the term order.
 
-Query syntax: NOT operator; denoted by -
+- Query syntax: NOT operator; denoted by -
 
 ## Wildcards
 
-Use wildcards for operators such as begins-with and ends-with. Using an asterisk (*) at the beginning or end of a keyword makes the asterisk a placeholder for zero or more characters. For example, searching on *win will show results for all records associated with a keyword that ends with win.
+Use wildcards as placeholders for one or more text characters. Use an asterisk (*) at the beginning or end of a keyword. For example, searching on pro (asterisk) will show results for all records associated with a keyword that starts with pro. For example, "Pro*" searches for " Product", "Products" and "Procedure".
 
-screenshot
+:::image type="content" source="media/wildcard-search.png" alt-text="Wildcard search":::
 
-Query syntax: Trailing wildcard are supported. For example, "Alp*" searches for "alpine".
+- Query syntax: Search term with asterisk at the beginning or end of a keyword.
 
 ## Exact matches
 
-Use double quotation marks around a keyword to perform an exact match. Search ignores common used words such as the, an, and a. To improve matching, use double quotation marks and force an exact match for your search. For example, searching on "Call back for resolution (sample)" will match the exact keywords.
+Use double quotation marks around a keyword to perform an exact match. For example, searching on "Order Shipping time" will match the exact keywords in an knowledge article. Search ignores common used words such as the, an, and a. 
 
-screenshot
+:::image type="content" source="media/exact matches.png" alt-text="Exact matches":::
 
-Query syntax: A query enclosed in quotation marks " ".
+- Query syntax: Search term with double quotation marks around it.
 
 ### See also
 
