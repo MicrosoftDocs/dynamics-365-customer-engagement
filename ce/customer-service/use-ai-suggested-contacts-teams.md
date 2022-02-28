@@ -27,7 +27,9 @@ More information: [Configure AI suggestions for contacts in Microsoft Teams](con
 
 ## Collaborate with AI-suggested contacts in Microsoft Teams
 
-In Customer Service workspace, for a case or a support conversation, **Teams chat (Preview)** appears in the app side pane on the right. The conversations pertaining to the most recent cases that are similar to the case or conversation you're viewing are displayed.
+The AI-suggested contacts in Microsoft Teams functionality is applicable for cases or support conversations in the Customer Service workspace or Omnichannel for Customer Service app.
+
+For a case or a support conversation, **Teams chat (Preview)** appears in the app side pane on the right. The conversations pertaining to the most recent cases that are similar to the case or conversation you're viewing are displayed.
 
 :::image type="content" source="media/teams-new-linked-chat.png" alt-text="New linked chat option in Teams.":::
 
