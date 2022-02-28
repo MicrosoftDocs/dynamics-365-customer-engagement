@@ -1,6 +1,7 @@
 ---
 title: "Configure synchronization for appointments, contacts, and tasks | MicrosoftDocs"
 ms.custom:
+description: Configure synchronization for appointments, contacts, and tasks
 ms.date: 1/27/2022
 ms.reviewer:
 ms.service: crm-online
@@ -32,7 +33,7 @@ By default, some synchronization between Dynamics 365 and Outlook for Dynamics 3
 
  ![System Settings Synchronization tab.](../media/crm-itpro-systemsynctab.png "System Settings Synchronization tab")
  
-For information on synchronization works, see [Synchronization logic for appointments, contacts, and tasks](/power-platform/admin/sync-logic.md).
+For information on synchronization works, see [Synchronization logic for appointments, contacts, and tasks](/power-platform/admin/sync-logic).
 
 
 
