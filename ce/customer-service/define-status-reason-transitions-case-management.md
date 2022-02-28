@@ -29,7 +29,7 @@ If you’re in charge of incident management for an organization, it’s importa
   
 2. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
-3. Click **Customize the System**.  
+3. Select **Customize the System**.  
   
 4. In the solution explorer, in the left navigation pane, expand **Entities**, expand the **Case** entity, and then double-click **Fields**.  
   
@@ -50,7 +50,8 @@ If you’re in charge of incident management for an organization, it’s importa
   
 10. In the **Status Reason Transitions** dialog box, select the **Enable Status Reason Transitions** check box to apply the defined status reason transitions to case records. The list of available status reasons will be filtered for each case record based on the defined transitions.  
   
-### See also  
+### See also
+
  [Define status reason transitions](../customerengagement/on-premises/customize/define-status-reason-transitions.md)   
  [Create or edit entity fields](../customerengagement/on-premises/customize/create-edit-fields.md)
 

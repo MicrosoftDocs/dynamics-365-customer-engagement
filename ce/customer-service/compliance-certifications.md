@@ -3,8 +3,8 @@ title: "Compliance certification of Omnichannel for Customer Service | Microsoft
 description: "This topic provides information on compliance certification requirements for Omnichannel for Customer Service. Use the link in the topic to download the file that contains the compliance information."
 ms.date: 02/28/2020
 ms.topic: article
-author: platkat
-ms.author: ktaylor
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.reviewer: nenellim
 ---

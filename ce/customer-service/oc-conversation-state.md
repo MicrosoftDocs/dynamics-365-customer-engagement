@@ -3,8 +3,8 @@ title: "Understand conversation states in Omnichannel for Customer Service | Mic
 description: "Learn about various states and status reasons of conversations or work items in Omnichannel for Customer Service."
 ms.date: 11/18/2021
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ---
 
@@ -72,7 +72,7 @@ The conversation (work item) transitions from **Wrap-up** to **Closed** under th
 
 ## Waiting
 > [!NOTE]
-> Waiting state is not applicable to Live chat channel.
+> Waiting state applies only to asynchronous and persistent chats, and not live chats.
 
 A conversation in waiting doesn't block your capacity. The conversation gets transitioned to waiting when you (agent) close the session without ending the conversation (that is, without selecting the **End** button on the communication panel) or when the customer closes the browser window without closing the chat widget. For example, you're waiting for some information from customer and don't want to end the conversation or the customer's browser closes unexpectedly.
 
@@ -125,7 +125,7 @@ For the chat channel, consider a conversation that's in the **Open** state at 18
 
 ### Conversation in waiting
 
-For SMS channel, a conversation in **Waiting** is moved to the **Closed** state when the conversation is inactive for a specified time. The inactive time can be set in the work stream for the **Auto-close after inactivity** option, based on which the conversation will be moved to the closed state after the criteria is met.
+A conversation in **Waiting** is moved to the **Closed** state when the conversation is inactive for a specified time. The inactive time can be set in the work stream for the **Auto-close after inactivity** option, based on which the conversation will be moved to the closed state after the criteria is met.
 
 For example, when you set **Auto-close after inactivity** to 5 minutes, the conversation is moved to the **Closed** state if it has been in **Waiting** for more than 5 minutes.
 

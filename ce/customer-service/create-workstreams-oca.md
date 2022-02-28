@@ -1,7 +1,7 @@
 ---
 title: "Create workstreams in Omnichannel Administration app | MicrosoftDocs"
 description: "Learn how to create workstreams in the Omnichannel Administration app"
-ms.date: 10/27/2021
+ms.date: 02/25/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -10,18 +10,18 @@ manager: shujoshi
 
 # Create workstreams in Omnichannel Administration
 
-
 > [!IMPORTANT]
 >
-> - We recommend that you upgrade to the latest version of Omnichannel for Customer Service and use unified routing. For more information, see [Overview of unified routing](overview-unified-routing.md). With the upgrade, you can also use the new Omnichannel admin center app. For more information, see [Omnichannel admin center](oc-admin-center.md).
-> - Workstreams that you create in the Omnichannel Administration app can't be modified in the Omnichannel admin center app. You'll need to migrate the existing workstreams and then manage them in the Omnichannel admin center app. More information: [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md).
+> - The Omnichannel Administration app won't be supported after April 30, 2022, and will be deprecated in a future release. We recommend that you use the Omnichannel admin center app. The latest features, such as unified routing and the voice channel, can be configured and used only in the new admin apps. For more information about the deprecation announcement, see Omnichannel Administration app is deprecated.
+> - Additionally, workstreams that you create in the Omnichannel Administration app can't be modified in the Omnichannel admin center app. You'll need to migrate the existing workstreams and then manage them in the Omnichannel admin center app. More information: [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md)
+
+## Introduction
 
 A workstream is a collection of routing rules. Routing settings define how conversations should be routed to queues. Work distribution settings define how conversations should be allocated to agents within a queue. You can create the workstreams in the Omnichannel admin center, Customer Service Hub, and Omnichannel Administration apps.
 
-A workstream can belong to multiple channels of the same type, like multiple chat channels. In this case, all the conversations from these channels inherit the routing and work distribution settings of the workstream they belong to. 
+A workstream can belong to multiple channels of the same type, like multiple chat channels. In this case, all the conversations from these channels inherit the routing and work distribution settings of the workstream they belong to.
 
 If you want to create workstreams to configure unified routing, see [Create workstreams in Omnichannel admin center](create-workstreams.md).
-
 
 Perform the following steps:
 
@@ -40,7 +40,7 @@ Perform the following steps:
       - **Name**: Enter a name for the workstream.
       - **Channel**: Channel is defined as a medium through which a customer reaches out for support. For example, a customer can contact an agent through chat.
 
-        Select a channel from the drop-down list:
+        Select a channel from the dropdown list:
         - Live chat
         - SMS
         - Facebook

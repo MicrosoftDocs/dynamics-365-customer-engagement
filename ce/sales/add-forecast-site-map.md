@@ -3,8 +3,8 @@ title: "Add forecast grid and configuration to sitemap"
 description: "As the forecast grid and configurations are based on URL custom control forms, add them manually to the sitemap so that your users can access."
 ms.date: 10/26/2021
 ms.topic: article
-author: udaykirang
-ms.author: udag
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 ms.custom: 
   - "dyn365-sales"

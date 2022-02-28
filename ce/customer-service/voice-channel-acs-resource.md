@@ -1,12 +1,12 @@
 ---
 title: "Connect to Azure Communication Services | MicrosoftDocs"
 description: "Use this topic to understand how to connect to Azure Communication Services using new or existing Azure resources."
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
-ms.date: 02/02/2022
+ms.date: 02/25/2022
+ms.service: dynamics-365-customerservice
 ms.topic: article
-
+author: neeranelli
+ms.author: nenellim
+manager: shujoshi
 ---
 
 # Connect to Azure Communication Services
@@ -26,6 +26,8 @@ Before you connect to an Azure resource, ensure you have the following details:
 - An Azure subscription that's in the same tenant as your Dynamics 365 account. Ensure that your Azure subscription meets the [Azure Subscriptions eligibility](/azure/communication-services/concepts/telephony-sms/plan-solution#azure-subscriptions-eligibility) requirements.
 - At least contributor-level permissions to the Azure subscription. To check your role, open your subscription and view the **My role** column of your subscription on the Azure portal. You'll be able to deploy your Azure resource only if you have contributor-level permissions.
 
+> [!Important]
+> If you're using a trial phone number, you must end the trial to be able to see the options to connect to a new or existing ACS resource.
 
 ### Connect to a new Azure resource
 

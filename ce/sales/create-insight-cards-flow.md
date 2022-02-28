@@ -2,7 +2,7 @@
 title: "Create insight cards using Microsoft Power Automate"
 description: "Create your own suggested actions through custom insight cards using Microsoft Power Automate in Assistant in Dynamics 365 Sales."
 keywords: ""
-ms.date: 10/26/2021
+ms.date: 02/23/2022
 ms.custom: 
 ms.topic: article
 author: udaykirang
@@ -11,8 +11,6 @@ manager: shujoshi
 caps.latest.revision: 1
 ---
 # Create custom insight cards 
-
-
 
 As a system administrator or sales manager, you can create your own suggested actions that are more relevant to your organization through the assistant management feature. By using events and conditions, you can customize the circumstances on when to create suggestions and push information into the seller’s workflow. This helps the sellers to close deals faster. The following diagram illustrates a high-level flow of insight card creation:
 
@@ -31,8 +29,9 @@ As a system administrator or sales manager, you can create your own suggested ac
 
 In this procedure, we will show as an example how to create an insight to act when a property is updated. Let’s create the **When property is updated, create an insight to act** card.
 
-> [!NOTE]
-> To create custom insight cards with the assistant studio, ensure that Microsoft Power Automate is installed.
+>[!NOTE]
+>- To create custom insight cards with the assistant studio, ensure that Microsoft Power Automate is installed.
+>- The custom insight card is displayed in the list of insight cards in **Assistant studio** only after a card is generated based on the defined flow. For example, you defined a flow to display a card when an opportunity is created with an estimated value above $5000. When an opportunity is created for the first time in the organization with the estimated value of $6000, the card is generated and will be available in the list of insight cards in **Assistant studio**.
 
 1.	Sign in to **Dynamics 365 Sales** and go to the **Sales Hub** app.
 
