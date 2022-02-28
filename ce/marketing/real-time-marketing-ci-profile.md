@@ -26,7 +26,7 @@ Real-time marketing enables you to deeply personalize your customer engagement u
 
 For example, let's say you have an e-commerce website. You capture information about the visitors and shoppers on the website as customer profiles in Customer Insights. You decide you want to target visitors who have abandoned their carts while shopping.
 
-To target visitors with abandoned carts, you first need to define a [custom event trigger](real-time-marketing-custom-events.md) for any shopper who abandons a cart. You'll need to set the **Data type** field for the event trigger's **Customer Data** property to **Profile (Customer Insights)**. You'll then need to set up an [event-based journey](real-time-marketing-event-based-journey.md) using the abandoned cart trigger.
+To target visitors with abandoned carts, you first need to define a [custom trigger](real-time-marketing-custom-events.md) for any shopper who abandons a cart. You'll need to set the **Data type** field for the trigger's **Customer Data** property to **Profile (Customer Insights)**. You'll then need to set up an [event-based journey](real-time-marketing-event-based-journey.md) using the abandoned cart trigger.
 
 > [!div class="mx-imgBorder"]
 > ![Cart custom event screenshot.](media/real-time-marketing-ci-profile-cart-event.png)
