@@ -1,7 +1,7 @@
 ---
 title: "Create workstreams in Customer Service | MicrosoftDocs"
 description: "Use this topic to understand how to create workstreams for unified routing in Customer Service and Omnichannel for Customer Service apps."
-ms.date: 02/25/2022
+ms.date: 02/28/2022
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -91,6 +91,9 @@ You can create workstreams for unified routing in the Customer Service admin cen
    - [Configure an SMS channel for Twilio](configure-sms-channel-twilio.md)
    - [Configure a custom messaging channel](configure-custom-channel.md)
    - [Configure record routing](set-up-record-routing.md)
+
+> [!NOTE]
+> If async plug-ins are installed but disabled in your organization, you might face issues when creating workstreams. For the async plug-ins to work correctly, ensure that the value for "DisabledForAsyncProcessing" is set to "No".
 
 ### Configure routing rules
 
