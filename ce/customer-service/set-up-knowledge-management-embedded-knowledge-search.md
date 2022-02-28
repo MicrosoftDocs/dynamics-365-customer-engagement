@@ -1,7 +1,7 @@
 ---
 title: Configure knowledge management (Dynamics 365 Customer Service) | MicrosoftDocs
 description: See how to configure the settings for knowledge management in Dynamics 365 Customer Service
-ms.date: 02/11/2022
+ms.date: 02/23/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -42,9 +42,6 @@ After knowledge management is set up, users will be able to:
 - Use smart assist to receive AI suggestions on related knowledge articles and similar cases.
 
 - See the content of the knowledge base article inline, including images and videos.
-
-> [!NOTE]
-> With the latest release of the Dynamics 365 Customer Service app, embedded knowledge search in service management is available in the Customer Service Hub. We recommend that you set up knowledge management using embedded knowledge search in the new experience. 
 
 ## Setup overview
 
@@ -128,6 +125,8 @@ After you have configured knowledge management on your app, you must also set up
 The configured settings are also available to users of Omnichannel for Customer Service.
 
 ---
+> [!NOTE]
+> During the creation of knowledge articles, duplicate detection rules aren't supported on the Knowledge Article entity.
 
 ## Set up knowledge management settings page manually for a model-driven app
 

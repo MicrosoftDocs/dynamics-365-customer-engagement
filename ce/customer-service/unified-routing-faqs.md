@@ -10,6 +10,8 @@ manager: shujoshi
 
 # FAQs about unified routing in Customer Service, Omnichannel for Customer Service
 
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+
 ## Overview
 
 This topic contains the FAQs that you as an administrator, supervisor, or agent might have about unified routing.
