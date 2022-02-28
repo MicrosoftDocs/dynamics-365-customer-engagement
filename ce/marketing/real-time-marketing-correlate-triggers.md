@@ -56,7 +56,7 @@ You can modify the *bindingId* attribute in the code snippet for a custom trigge
 
 To access the code snippet for an existing custom trigger:
 
-1. Go to **Real-time marketing** > **Engagement** > **Event triggers**.
+1. Go to **Real-time marketing** > **Engagement** > **Triggers**.
 1. Select the custom trigger you want to add a *bindingId* to.
 1. Select **Go to code snippet**.
     > [!div class="mx-imgBorder"]
