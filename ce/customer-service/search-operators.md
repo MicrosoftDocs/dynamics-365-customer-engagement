@@ -25,7 +25,7 @@ Knowledge management search control uses Dataverse search to search for knowledg
 
 This topic describes the search operators and the search query that you can use for your search terms to get the knowledge articles you want.
 
-## Boolean Operators
+## Boolean operators
 
  By default, if you have Dataverse search enabled along with the **Knowledge search logic** option in **Settings**, the search mode will be set to "all". This will ensure that all the search words must match to consider an article as a match.
 
