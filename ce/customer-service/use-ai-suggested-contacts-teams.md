@@ -27,7 +27,7 @@ More information: [Configure AI suggestions for contacts in Microsoft Teams](con
 
 ## Collaborate with AI-suggested contacts in Microsoft Teams
 
-In Customer Service workspace, when you open a case, **Teams chat (Preview)** appears in the app side pane on the right. The conversations pertaining to the most recent cases that are similar to the case you're viewing are displayed.
+In Customer Service workspace, for a case or a support conversation, **Teams chat (Preview)** appears in the app side pane on the right. The conversations pertaining to the most recent cases that are similar to the case or conversation you're viewing are displayed.
 
 :::image type="content" source="media/teams-new-linked-chat.png" alt-text="New linked chat option in Teams.":::
 
@@ -46,11 +46,11 @@ You can do the following:
        - Full name
        - Display picture if available
        - Link to the top similar case, which is displayed under the contact’s full name. “Worked on similar case `<similar case title>`. Agents can select the link to view the similar case.
-       - Confidence score that indicates how confident the AI model thinks the suggested contact can help on the active case.
+       - Confidence score that indicates how confident the AI model thinks the suggested contact can help on the active case or conversation.
    
    - The confidence score is based on multiple factors:
        - Number of similar cases that the suggested contact resolved.
-       - The similarity of the similar cases to the active case.
+       - The similarity of the similar cases to the active case or conversation.
        - How recent the suggested contact resolved the similar cases.
        - The average time that the suggested contacts use to resolve similar cases.
    
@@ -65,7 +65,7 @@ You can do the following:
 
 3. Optionally, you can edit the group name.
 
-The participants who receive the chat message get a link to the case record for which you started the chat. The participant can select the link and open the case to view the details.
+If the Teams chat is created for an active case, the participants who receive the chat message get a link to the case record for which you started the chat. The participant can select the link and open the case to view the details.
 
 ### See also
 
