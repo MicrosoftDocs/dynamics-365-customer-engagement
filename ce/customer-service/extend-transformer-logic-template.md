@@ -1,7 +1,7 @@
 ---
 title: Extend transformer logic on templates (Dynamics 365 Customer Service) | MicrosoftDocs
 description: This topic provides information on how customers can overwrite transformer logic in Dynamics 365 Customer Service.
-ms.date: 02/21/2021
+ms.date: 02/28/2022
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -16,9 +16,9 @@ ms.custom:
 ---
 # Extend transformer logic on templates
 
-Customers can overwrite the out-of-the-box transformer logic by creating a plug-in and registering it as `msdyn_GetKAObjectFromTemplate` message.
+Transformer logic refers to moving the values of specific fields from the Knowledge Article template to the knowledge article. Standard fields are supported out of the box. Customers can overwrite the out-of-the-box transformer logic by creating a plug-in and registering it as a`msdyn_GetKAObjectFromTemplate` message.
 
-To extend the transformer logic for your knowledge article templates.
+To extend the transformer logic for your knowledge article templates:
 
 1. Create a plug-in by performing the steps mentioned in [Create a plug-in project](/powerapps/developer/common-data-service/tutorial-write-plug-in#BKMK_create).
 2. You can write your own mapping logic with the transformed `kaobject` using `context.OutputParameters["Result"]` as Entity. In this example, we will show how you can build the knowledge article template transformer with the help of two new attributes, Article Type and Audience. In the plug-in that you created, replace the entire class with the  following sample code:
@@ -31,7 +31,7 @@ To extend the transformer logic for your knowledge article templates.
 	/// The first is Article Type with the logical name new_articletype that is of type Option Set and points to a Global Option Set called Article Type
 	/// The second is Audience with the logical name new_audience, also of type Option Set. This is a local option set and has 3 values - 
 	/// Employee with value 100000000, Managers with value 100000001 and Public with value 100000002
-	/// Similarly, we have 2 new attribtues on the Knowledge Article entity which have been added to the Knowledge Article for Interactive Experience form.
+	/// Similarly, we have 2 new attributes on the Knowledge Article entity which have been added to the Knowledge Article for Interactive Experience form.
 	/// The first is Article Type with the logical name new_kaarticletype that is of type Option Set and points to the same Global Option Set Article Type described earlier.
 	/// The second is the Disclaimer with the logical name new_disclaimer that is of type Single Line of Text. To ensure that it behaves like a disclaimer, we have ensured that it is
 	/// not editable on the form.
