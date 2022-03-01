@@ -1,7 +1,7 @@
 ---
 title: Knowledge article and search analytics dashboards | Microsoft Docs
 description: Learn about the knowledge article and search analytics dashboards to better understand agent performance in your organization.
-ms.date: 02/23/2022
+ms.date: 03/01/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
