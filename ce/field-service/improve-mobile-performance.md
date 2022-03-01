@@ -48,6 +48,6 @@ Field Service supports the ability to display fields from different entities wit
 
 For more information, see documentation on how to implement this customization: [Customize Field Service solution](/dynamics365/field-service/mobile-power-app-configure#edit-the-booking-and-work-order-form)
 
-## Remove timeline from entities where it's not used
+## Remove unused controls from the app
 
-If the timeline control is not being used by the customer, it can be removed to reduce memory usage. This control has been identified as a contributor to memory pressure in customer scenarios; removing the control improves memory performance. The root cause of the memory leaks are being investigated.
+If app users are not using certain controls in the mobile app, consider removing them to reduce memory usage. Having unnecessary controls in the form increases the memory consumption of the app, leading to performance degradation. For example, the timeline control is included by default on several tables and forms. If your scenario doesn't leverage the timeline, consider removing it to reduce memory consumption.
