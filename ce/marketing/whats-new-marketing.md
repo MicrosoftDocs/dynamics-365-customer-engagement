@@ -28,15 +28,15 @@ Marketing updates are [pushed to customers automatically](https://cloudblogs.mic
 
 ## 2022 updates
 
-### February 2022 update
+### March 2022 update
 
-The Dynamics 365 Marketing February 2021 update includes many new features and improvements. This release includes three features from the [2022 wave 1 release plans](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/get-started): Microsoft Teams chat integration, a new journey tile that raises an event trigger at any point in a customer journey, and pre-defined dynamic text tokens. The update also includes multiple enhancements to customer journeys and the email editor, performance upgrades, and bug fixes.
+The Dynamics 365 Marketing March 2021 update includes some great new features. This release includes two preview features from the [2022 wave 1 release plans](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/get-started): responses for SMS messages and a bring your own data lake option for Customer Insights integration. The update also includes enhancements to customer journeys, marketing emails, performance upgrades, and bug fixes.
 
 #### Version number
 
 | App              | GA release      |
 |------------------|-----------------|
-| Marketing        | 1.35.10080.2009 |
+| Marketing        | 1.35.XXXXX.XXXX |
 
 > [!Tip]
 > To check your current version number, go to **Settings** > **Overview** > **Versions**.
@@ -48,42 +48,39 @@ The Dynamics 365 Marketing February 2021 update includes many new features and i
 > 
 > Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
 
-- **Collaborate across your organization to create the best marketing campaigns possible using the built-in Microsoft Teams chat**
-    - With Microsoft Teams chat, you can easily collaborate with your team without leaving the journey canvas or email editing experience.
-    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/collaborate-across-organization-create-best-marketing-campaigns-possible-using-built-teams-chat)
-    - [Docs](teams-chat.md)
-- **Quickly personalize emails using predefined dynamic text, without the need to know the underlying data structure**
-    - With predefined dynamic text, marketers will have a quick list of the most commonly used tokens to select from. Marketers familiar with the data model can create and share additional tokens so that the rest of the team can focus on authoring content rather than learning database concepts.
-    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/quickly-personalize-emails-using-predefined-dynamic-text-without-need-know-underlying-data-structure)
-    - [Docs](real-time-marketing-predefined-tokens.md)
-- **Take action with your customers in more ways by raising triggers from a journey to run another journey or Power Automate flow**
-    - Use custom event triggers to link between journeys and between journeys and custom processes. A new journey tile will raise an event trigger at any point in a customer journey. Any journey or Power Automate flows connected to the event trigger run immediately run when a customer reaches the tile. This includes event triggers used in exit criteria, goals, and if/then branches for journeys.
-    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/take-action-customers-more-ways-raising-triggers-journey-run-another-journey-or-power-automate)
-    - [Docs](real-time-marketing-custom-event-actions.md)
+- **Continue the conversation with your customers by taking action on their SMS replies**
+    - Allow your customers to respond to your SMS messages. Personalize their experience by defining custom keywords that will guide their journey based on their responses.
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/continue-conversation-customers-taking-action-their-sms-replies)
+- **Connect Dynamics 365 Customer Insights with customer journey orchestration when using your own data lake**
+    - Use Dynamics 365 Customer Insights data, such as customer profile and segment information, that is stored in Azure Data Lake Storage in the same way you do today with standard Customer Insights connected to Microsoft Dataverse.
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/connect-dynamics-365-customer-insights-customer-journey-orchestration-when-using-own-data-lake)
 
 #### Monthly enhancements
 
 ##### Real-time marketing
 
 - **Customer journeys**
-    - 
+    - New out-of-the-box triggers allow you to create customer journeys triggered by marketing interactions such as webinar check-ins and form submissions.
+    - The condition builder for real-time marketing customer journeys now supports partial and relative dates.
+- **Marketing emails**
+    - Link buttons or images to URLs, surveys, events, or marketing pages. You can also create button or image links that allow recipients to join a Microsoft Teams event or that create a new calendar item.
 
 ##### Outbound marketing
 
-- **Event management**
-    - 
+- **Marketing insights**
+    - You can now disable analytics exports.
 
 ##### Global updates
 
-- **Marketing emails**
-    - 
+- **First run experience**
+    - Real-time marketing features are now automatically installed when outbound marketing is installed.
 
 #### Bug fixes
 
 - **Event management**
     - 
 - **Marketing emails**
-    - 
+    - Resolved an issue where unsaved changes were triggered by undo/redo actions, even though no changes were made.
 
 ### February 2022 update
 
