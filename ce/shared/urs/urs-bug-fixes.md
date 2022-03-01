@@ -3,7 +3,7 @@
 
 (Includes Resource Scheduling controls version 1.2.12.220462)
 
-- Fixed the bug: travel time shouldn't be considered when returning available timeslots for facility scheduling.
+- Fixed bug: travel time shouldn't be considered when returning available time slots for facility scheduling.
 
 ## 3.12.71.16
 
