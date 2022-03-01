@@ -196,3 +196,110 @@ In this example, v3 of schedule assistant API which allows for web API calls is 
 
 }
 ```
+
+The following examples makes use of the XrmSDK to work with the `msdyn_SearchResourceAvailabilityRequest` and `msdyn_SearchResourceAvailabilityResponse` classes. The first example queries the availability of a specific Bookable Resource by using the 'MustChooseFromResources' attribute in the Resource specification entity:
+```
+// Specify a Resource Requirement for which you want to query resource availability
+msdyn_resourcerequirement rr = new msdyn_resourcerequirement();
+rr.msdyn_fromdate = new DateTime(2022, 3, 1, 0, 0, 0);
+rr.msdyn_todate = new DateTime(2022, 3, 8, 0, 0, 0);
+rr.msdyn_RemainingDuration = 2 * 480;
+rr.msdyn_duration = 3 * 480;
+
+// Define the Settings input parameter
+Entity settings = new Entity(); // type of entity does not matter
+settings.Attributes.Add("ConsiderSlotsWithLessThanRequiredCapacity", false);
+settings.Attributes.Add("ConsiderSlotsWithLessThanRequiredDuration", false);
+settings.Attributes.Add("ConsiderSlotsWithOverlappingBooking", false);
+settings.Attributes.Add("ConsiderSlotsWithProposedBookings", false);
+settings.Attributes.Add("ConsiderTravelTime	", false);
+
+// Define the ResourceSpecification parameter
+Entity resourceSpecification = new Entity();    // type of entity does not matter
+
+// Initialize EntityCollections for the ResourceSpecification entity
+EntityCollection mustChooseCollection = new EntityCollection();
+
+// Add bookable resource for which you want to query timeslots to the mustChooseCollection
+Entity resource = new Entity("bookableresource");
+resource.Attributes.Add("value", new Guid("8A54A324-43A1-4875-9F87-EFB34640B260"));
+mustChooseCollection.Entities.Add(resource);
+resourceSpecification.Attributes.Add("MustChooseFromResources", mustChooseCollection);
+
+// Execute the request
+msdyn_SearchResourceAvailabilityRequest request = new msdyn_SearchResourceAvailabilityRequest()
+{
+    Version = "2",
+    IsWebApi = false,
+    Requirement = rr,
+    Settings = settings,
+    ResourceSpecification = resourceSpecification,
+};
+msdyn_SearchResourceAvailabilityResponse response = (msdyn_SearchResourceAvailabilityResponse)manager.OrganizationService.Execute(request);
+
+// Print out basic timeslot information from the response
+IEnumerable<Entity> availableSlots = response.TimeSlots.Entities.Where(_ => (int)_.Attributes["Type"] == 0);
+System.Console.WriteLine($"Amount of available timeslots: {availableSlots.Count()}");
+IEnumerable<Entity> scheduledSlots = response.TimeSlots.Entities.Where(_ => (int)_.Attributes["Type"] == 1);
+System.Console.WriteLine($"Amount of scheduled timeslots: {scheduledSlots.Count()}");
+IEnumerable<Entity> offSlots = response.TimeSlots.Entities.Where(_ => (int)_.Attributes["Type"] == 2);
+System.Console.WriteLine($"Amount of off timeslots: {offSlots.Count()}");
+IEnumerable<Entity> breakSlots = response.TimeSlots.Entities.Where(_ => (int)_.Attributes["Type"] == 3);
+System.Console.WriteLine($"Amount of break timeslots: {breakSlots.Count()}");
+```
+  
+The second example queries resource availability of all Generic, Contact and User resource types by using the 'ResourceTypes' attribute in the Resource specification entity:
+```
+// Specify a Resource Requirement for which you want to query resource availability
+msdyn_resourcerequirement rr = new msdyn_resourcerequirement();
+rr.msdyn_fromdate = new DateTime(2022, 3, 1, 0, 0, 0);
+rr.msdyn_todate = new DateTime(2022, 3, 8, 0, 0, 0);
+rr.msdyn_RemainingDuration = 2 * 480;
+rr.msdyn_duration = 3 * 480;
+
+// Define the Settings input parameter
+Entity settings = new Entity(); // type of entity does not matter
+settings.Attributes.Add("ConsiderSlotsWithLessThanRequiredCapacity", false);
+settings.Attributes.Add("ConsiderSlotsWithLessThanRequiredDuration", false);
+settings.Attributes.Add("ConsiderSlotsWithOverlappingBooking", false);
+settings.Attributes.Add("ConsiderSlotsWithProposedBookings", false);
+settings.Attributes.Add("ConsiderTravelTime	", false);
+
+// Define the ResourceSpecification parameter
+Entity resourceSpecification = new Entity();    // type of entity does not matter
+
+// Initialize EntityCollections for the ResourceSpecification entity
+EntityCollection resourceTypeCollection = new EntityCollection();
+
+// Add Resource Types for which you want to query timeslots
+Entity genericResourceType = new Entity();
+genericResourceType.Attributes.Add("value", 1);
+Entity contactResourceType = new Entity();
+contactResourceType.Attributes.Add("value", 2);
+Entity userResourceType = new Entity();
+userResourceType.Attributes.Add("value", 3);
+resourceTypeCollection.Entities.AddRange(genericResourceType, contactResourceType, userResourceType);
+resourceSpecification.Attributes.Add("ResourceTypes", resourceTypeCollection);
+
+// Execute the request+
+msdyn_SearchResourceAvailabilityRequest request = new msdyn_SearchResourceAvailabilityRequest()
+{
+    Version = "2",
+    IsWebApi = false,
+    Requirement = rr,
+    Settings = settings,
+    ResourceSpecification = resourceSpecification,
+};
+msdyn_SearchResourceAvailabilityResponse response = (msdyn_SearchResourceAvailabilityResponse)manager.OrganizationService.Execute(request);
+
+// Print out basic timeslot information from the response
+IEnumerable<Entity> availableSlots = response.TimeSlots.Entities.Where(_ => (int)_.Attributes["Type"] == 0);
+System.Console.WriteLine($"Amount of available timeslots: {availableSlots.Count()}");
+IEnumerable<Entity> scheduledSlots = response.TimeSlots.Entities.Where(_ => (int)_.Attributes["Type"] == 1);
+System.Console.WriteLine($"Amount of scheduled timeslots: {scheduledSlots.Count()}");
+IEnumerable<Entity> offSlots = response.TimeSlots.Entities.Where(_ => (int)_.Attributes["Type"] == 2);
+System.Console.WriteLine($"Amount of off timeslots: {offSlots.Count()}");
+IEnumerable<Entity> breakSlots = response.TimeSlots.Entities.Where(_ => (int)_.Attributes["Type"] == 3);
+System.Console.WriteLine($"Amount of break timeslots: {breakSlots.Count()}");
+```
+  
