@@ -1,7 +1,7 @@
 ---
 title: "Customer Service Overview (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Overview of Dynamics 365 Customer Service"
-ms.date: 02/23/2022
+ms.date: 03/02/2022
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -26,15 +26,16 @@ Use [!INCLUDE[pn-ms-dyn-365-for-customer-service](../includes/pn-ms-dyn-365-for-
 - Track customer issues through cases
 - Record all interactions related to a case
 - Share information in the knowledge base
-- Create queues and route cases to the right channels
-- Create and track service levels through service-level agreements (SLAs) 
+- Use unified routing to efficiently route work items
+- Manage conversations across channels, including voice
+- Use AI-driven embedded insights and analytics to improve customer satisfaction
+- Collaborate with experts in Microsoft Teams
+- Create and track service levels through service-level agreements (SLAs)
 - Define service terms through entitlements
 - Manage performance and productivity through reports and dashboards
 - Create and schedule services
 - Participate in chats
-- Manage conversations across channels, including voice
-- Embedded insights and analytics
-- Collaboration with experts in Microsoft Teams
+
 
 ## Administer Customer Service
 
@@ -54,7 +55,7 @@ You can configure and manage the different capabilities in Customer Service by u
 - **Omnichannel Administration**: Helps in setting up and managing the chat and digital messaging channels and other features in Omnichannel for Customer Service. More information: [Omnichannel Administration](omnichannel-administrator.md)
   
   > [!NOTE]
-  > However, the latest capabilities, such as unified routing and the voice channel can't be configured and managed in the Omnichannel Administration app. We recommend that you use the Customer Service admin center (preview) or Omnichannel admin center app.
+  > The Omnichannel Administration app won't be supported after April 30, 2022, and will be deprecated in a future release. We recommend that you use the Omnichannel admin center app. The latest features, such as unified routing and voice channel, can be configured and used only in this admin app. For more information about the deprecation announcement, see [Omnichannel Administration app is deprecated](../customer-service/deprecations-customer-service.md#omnichannel-administration-app-is-deprecated).
 
 
 ## Use agent apps to service customers
@@ -117,8 +118,8 @@ For more details about app accessibility and GDPR compliance, see [Accessibility
 
 ## Get Started with Customer Service
 
- - [Customer Service Workspace](customer-service-workspace-system-requirements.md)
- - [Omnichannel for Customer Service](./introduction-omnichannel.md)
- - [Customer Service Hub](user-guide-customer-service-hub.md)
+- [Customer Service Workspace](customer-service-workspace-system-requirements.md)
+- [Omnichannel for Customer Service](./introduction-omnichannel.md)
+- [Customer Service Hub](user-guide-customer-service-hub.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
