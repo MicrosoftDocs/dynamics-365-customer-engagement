@@ -120,7 +120,10 @@ If the operating hours of the queue are updated to a new schedule, the latest op
 
 ### Modify thresholds
 
-You can update the out-of-box threshold value in Microsoft Power BI to suit your business needs.
+You can update the thresholds for out of the box reports to suit your business needs in a customer configured BI workspace.
+
+   > [!NOTE]
+   > You can’t edit out of the box reports for a preconfigured BI workspace.
 
 1. Open the report in Power BI.
 
