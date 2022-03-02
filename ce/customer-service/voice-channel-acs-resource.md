@@ -39,7 +39,13 @@ Before you connect to an Azure resource, ensure you have the following details:
      > [!IMPORTANT]
      > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-1. In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**, and then select **Get started**. The **Connect to Azure Communication Services** dialog opens.
+    1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
+    
+    2. Select **Manage** for **Phone numbers**.
+
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+
+   - In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**, and then select **Get started**. The **Connect to Azure Communication Services** dialog opens.
 
 2. Select **Create new resource** and enter the following details:
    - **Azure subscription**: Select a subscription from the dropdown list.
@@ -54,13 +60,13 @@ You're now connected to Azure Communication Services.
 
 ## Advanced: Connect to an existing Azure resource
 
-You can also use an existing Azure Communication Services resource to connect with voice or SMS channels. You can use a resource from any of your Azure subscriptions, available under any tenant. If you had previously unlinked a resource and want to use it now, you can do so using this option.
+You can also use an existing Azure Communication Services resource to connect with voice or SMS channels. You can use a resource from any of your Azure subscriptions, *available under any tenant*. If you had previously unlinked a resource and want to use it now, you can do so using this option.
 
-Before you proceed with adding an existing resource to Azure Communication Services, you must have the following information:
+Before you proceed with adding an existing resource to Azure Communication Services, you must do the following:
 
-- The resource name and ID from the Azure portal.
-- The connection string from the Azure portal.
-- The application ID and tenant ID from the App registrations page on the Azure portal.
+- [Get the resource name and ID from the Azure portal](#get-resource-name-and-id).
+- [Get the connection string from the Azure portal](#get-connection-string).
+- [Get the application ID and tenant ID from the App registrations page on the Azure portal](#get-application-and-tenant-ids).
 
 **To connect to an existing Azure resource**
 
@@ -240,10 +246,10 @@ The following sections include short procedures that explain how you can get res
 3. Go to the **Additional Features** tab, select the **Use AAD authentication** checkbox, and enter the following details.
     > [!div class="mx-imgBorder"]
     > ![Add AAD authentication details.](./media/voice-channel-create-event-subscription-AAD-authentication.png "Add AAD authentication details.")
-   - **AAD Tenant ID**: Copy-paste the **Directory (tenant) ID** field value from your Azure resource here.
+   - **AAD Tenant ID**: Copy-paste the **Directory (tenant) ID** field value from your Azure resource here. Not sure how to get your tenant ID? See [Get application and tenant IDs](#get-application-and-tenant-ids).
    > [!div class="mx-imgBorder"]
    > ![Copy Directory (tenant) ID.](./media/voice-channel-tenant-ID.png "Copy Directory (tenant) ID.") 
-   - **AAD Application ID or URI**: Copy-paste the **Application (client) ID** field value from your Azure resource here.
+   - **AAD Application ID or URI**: Copy-paste the **Application (client) ID** field value from your Azure resource here. Not sure how to get your application ID? See [Get application and tenant IDs](#get-application-and-tenant-ids).
    > [!div class="mx-imgBorder"]
    > ![Copy Application (client) ID.](./media/voice-channel-application-ID.png "Copy Application (client) ID.")
 
