@@ -33,6 +33,12 @@ Before you connect to an Azure resource, ensure you have the following details:
 
 **To create a new Azure resource**
 
+1.  In Dynamics 365, go to one of the apps, and perform the following steps.
+    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
 1. In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**, and then select **Get started**. The **Connect to Azure Communication Services** dialog opens.
 
 2. Select **Create new resource** and enter the following details:
@@ -191,14 +197,14 @@ The following sections include short procedures that explain how you can get res
 3. Go to the **Additional Features** tab, select the **Use AAD authentication** checkbox, and enter the following details.
     > [!div class="mx-imgBorder"]
     > ![Add AAD authentication details.](./media/voice-channel-create-event-subscription-AAD-authentication.png "Add AAD authentication details.")
-   - **AAD Tenant ID**: Copy-paste the **Directory (tenant) ID** field value from your Azure resource here.
+   - **AAD Tenant ID**: Copy-paste the **Directory (tenant) ID** field value from your Azure resource here. Not sure how to get your tenant ID? See [Get application and tenant IDs](#get-application-and-tenant-ids).
    > [!div class="mx-imgBorder"]
    > ![Copy Directory (tenant) ID.](./media/voice-channel-tenant-ID.png "Copy Directory (tenant) ID.")
-   - **AAD Application ID or URI**: Copy-paste the **Application (client) ID** field value from your Azure resource here.
+   - **AAD Application ID or URI**: Copy-paste the **Application (client) ID** field value from your Azure resource here. Not sure how to get your application ID? See [Get application and tenant IDs](#get-application-and-tenant-ids).
    > [!div class="mx-imgBorder"]
    > ![Copy Application (client) ID.](./media/voice-channel-application-ID.png "Copy Application (client) ID.")
 
-4. Select **Create** to create the event subscription endpoints for recording. This might take some time, so if you get an sync error, try refreshing after some time.
+4. Select **Create** to create the event subscription endpoints for recording. This might take some time, so if you get a sync error, try refreshing after some time.
 
     > [!div class="mx-imgBorder"]
     > ![Successfully created event subscription endpoints for recording.](./media/voice-channel-event-subscription-recording-success.png "Create event grid callbacks for recording.")
