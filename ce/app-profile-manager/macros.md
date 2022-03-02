@@ -39,9 +39,9 @@ The macros in Customer Service workspace have the following:
 
 - Install Dynamics 365 Productivity Tools solution.
 
-- Ensure that you have the **Productivity tools administrator** security role. To learn more, see [Assign roles and enable users](../customer-service/add-users-assign-roles.md).
+- Ensure that you have the **Productivity tools administrator** security role. More information: [Assign roles and enable users](../customer-service/add-users-assign-roles.md)
 
-- Ensure that agents and supervisors are assigned the **Productivity tools user** security role. To learn more, see [Assign roles and enable users](../customer-service/add-users-assign-roles.md).
+- Ensure that agents and supervisors are assigned the **Productivity tools user** security role. More information: [Assign roles and enable users](../customer-service/add-users-assign-roles.md)
 
 ## Predefined automation actions
 
@@ -362,7 +362,6 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
 
     1. In the left pane, under **Productivity**, select **Agent scripts**. The Unified Interface page opens on a new tab.
 
-
 1. On the page that appears, select **New**.
 
 1. On the **Macros** page, specify the following.
@@ -380,9 +379,9 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
 
    1. Select a connector from the list. The following connectors are available:
 
-   - [Productivity Automation](#productivity-automation)
-   - [Session Connector](#session-connector)
-   - [Omnichannel Connector](#omnichannel-connector)
+      - [Productivity Automation](#productivity-automation)
+      - [Session Connector](#session-connector)
+      - [Omnichannel Connector](#omnichannel-connector)
 
    1. Select an action from the list of actions. You can add as many actions as you need, based on your business requirements.
 
@@ -403,7 +402,7 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
        > [!div class=mx-imgBorder] 
        > ![Macro actions sample.](../customer-service/media/macro-actions.png "Macro actions")    
 
-      For example, select **Open a new form to create a record**, and the step appears. To learn more, see [Productivity automation](#productivity-automation).
+      For example, select **Open a new form to create a record**, and the step appears. More information: [Productivity automation](#productivity-automation).
 
       If you select **Session connector**, you'll see the following actions.
 
@@ -450,7 +449,7 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
 
 1. Select **Save and close**.
 
-Now, when the agent runs the macro, the actions will be run by fetching the data parameter keys according to the context available from the sources. To learn more, see [Use automation dictionary to pass data parameters keys](automation-dictionary-keys.md).
+Now, when the agent runs the macro, the actions will be run by fetching the data parameter keys according to the context available from the sources. More information: [Use automation dictionary to pass data parameters keys](automation-dictionary-keys.md).
 
 ## View macro run history
 
@@ -458,34 +457,32 @@ Now, when the agent runs the macro, the actions will be run by fetching the data
 
 As an administrator, you can view the macro run history, which shows how many times a macro has been run, along with the success or fail status. When you select a macro that failed, you can view the exact action step at which the failure occurred.
 
-1. In the site map of Omnichannel admin center, select **Agent experience** under **Advanced settings**, and then select **Manage** for **Macros**. If you're using the Omnichannel Administration app, under **Agent Experience**, select **Macros**.
+1. Go to the **Macros** page, select the macro for which you want to view the history.
 
-2. Select the macro for which you want to view the history.
-
-3. Select **View run history**.
+1. Select **View run history**.
 
    > [!div class=mx-imgBorder] 
    > ![View the run history for a macro.](../customer-service/media/macro-run-history.png "View the run history for a macro")
 
-4. Select the macro that failed from the list.
+1. Select the macro that failed from the list.
 
    > [!div class=mx-imgBorder] 
    > ![Select the macro that failed.](../customer-service/media/macro-run-history-list.png "Select the macro that failed")
 
-5. See the macro action step that caused the failure. Review the previous step for any issue in the slug data parameters that might've been passed incorrectly or slug data parameters that were updated incorrectly.
+1. See the macro action step that caused the failure. Review the previous step for any issue in the slug data parameters that might've been passed incorrectly or slug data parameters that were updated incorrectly.
 
    > [!div class=mx-imgBorder] 
    > ![Review the macro action steps.](../customer-service/media/macro-run-history-fail.png "Review the macro action steps")
 
    For example, when you select on the **Open a new form to create a record** step, select **Show more**, and you can view that the mandatory fields don't have values, which are mandatory to save the record. Due to this reason, the macro run failed at the **Save the record** step.
 
-   > [!div class=mx-imgBorder] 
+   > [!div class=mx-imgBorder]
    > ![Review the macro action steps to understand failure reason.](../customer-service/media/macro-run-history-fail-reason.png "Review the macro action steps to understand failure reason")
 
-6. Fix the macro step action that you think might have caused the failure, and then try running it again. For example, since the values are not resolved, go to the macro designer and then check on the slugs, and then try running the macro again.
+1. Fix the macro step action that you think might have caused the failure, and then try running it again. For example, since the values are not resolved, go to the macro designer and then check on the slugs, and then try running the macro again.
 
-> [!Note]
-> If the issue persists, contact Microsoft support.
+   > [!Note]
+   > If the issue persists, contact Microsoft support.
 
 ### See also
 
