@@ -1476,17 +1476,17 @@
       href: report-issues.md
   - name: Share feedback in Customer Service
     href: cs-share-feedback.md
-  - name: FAQs on Customer Service
+  - name: FAQs about Customer Service
     items: 
-    - name: FAQs on Customer Service admin center
+    - name: FAQs about Customer Service admin center
       href: faq-customer-service-admin-center.md
-    - name: FAQs on unified routing
+    - name: FAQs about unified routing
       href: unified-routing-faqs.md
-    - name: FAQs on AI suggestions for cases and knowledge articles
+    - name: FAQs about AI suggestions for cases and knowledge articles
       href: csw-faqs-ai-suggestions.md
-    - name: FAQs on Omnichannel for Customer Service
+    - name: FAQs about Omnichannel for Customer Service
       href: faqs.md
-    - name: FAQs on custom time calculation of SLA KPIs
+    - name: FAQs about custom time calculation of SLA KPIs
       href: faqs-custom-time-sla-kpis.md
   - name: Omnichannel for Customer Service on Unified Service Desk
     href: ../unified-service-desk/oc-usd/omnichannel-customer-service-unified-service-desk.md
