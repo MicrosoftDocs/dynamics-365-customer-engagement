@@ -48,7 +48,7 @@ Service-level agreements (SLAs) in Dynamics 365 Customer Engagement (on-premises
   
  You can also use the customization tool to enable entities for SLAs. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable entities for service level agreements](../../../customer-service/enable-entities-service-level-agreements.md)  
   
- After you have enabled an entity forSLAs, new SLA-related attributes, such as `SLAId` and `SLAInvokedId`, will be automatically added to the entity.  
+ After you have enabled an entity for SLAs, new SLA-related attributes, such as `SLAId` and `SLAInvokedId`, will be automatically added to the entity.  
   
 <a name="CreateSLAKPI"></a>   
 ## Create SLA KPIs  
