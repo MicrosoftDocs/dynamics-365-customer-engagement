@@ -28,7 +28,7 @@ The information displayed in these reports is based on the conversations that we
 >
 > - The intraday insights reports are available only in the English language, out of the box. You'll need to customize the reports to make them available in a language of your choice.
 > - In a customer configured BI workspace, you can perform the following customizations for out of the box reports:                                                            
-      - Change visualizations for KPIs displayed on the report
+      - Change visualizations for KPIs displayed on the report                                                                                                            
       - Add visualizations for existing measures, KPIs, or fields to the report
 > - To help ensure that the most accurate and up-to-date data is displayed on the dashboard, be sure to follow [best practices for using Omnichannel for Customer Service](best-practices.md).
 
