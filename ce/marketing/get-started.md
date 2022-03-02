@@ -1,8 +1,7 @@
 ---
 title: "Get started with the Marketing app (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to get up and running quickly with outbound and real-time marketing features in Dynamics 365 Marketing."
-ms.date: 02/02/2022
-
+ms.date: 03/01/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -21,6 +20,8 @@ search.app:
 # Get started with the Marketing app
 
 This article provides a checklist to get your Dynamics 365 Marketing implementation up and running quickly.
+
+For in-depth information on getting started with the Dynamics 365 platform, see the [Microsoft Dynamics 365 implementation guide](/dynamics365/fasttrack/implementation-guide/overview).
 
 ## Dynamics 365 Marketing basic setup
 
