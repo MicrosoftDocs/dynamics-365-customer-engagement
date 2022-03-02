@@ -110,7 +110,7 @@ If you're using a mobile device with Dynamics 365 for phones and tablets install
 > [!NOTE]
 > If you have previously installed any portal solution, to create a case in the Customer Service Hub or to use the Merge cases command, you must turn off the **Read-only in mobile** option for the Case entity. More information: [Turn off Read-only in mobile option](../customerengagement/on-premises/customize/edit-entities.md#enable-or-disable-entity-options).
 
-## Accessibility and GDPR in the Customer Service Apps 
+## Accessibility and GDPR in the Customer Service Apps
 
 Customer Service is committed to inclusive design and accessible content. The apps are designed around accessibility to help all users be effortlessly productive.
 
