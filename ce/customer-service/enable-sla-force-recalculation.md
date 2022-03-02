@@ -18,13 +18,13 @@ ms.custom:
   - intro-internal
 ---
 
-# Enable force recalculation
+# Enable force recalculation of SLA KPIs
 
 ## Introduction
 
-This feature provides the flexibility to force cancel the active **In Progress** or **Nearing Non compliance** SLA KPI instances and create new SLA KPI instances by explicitly calling the custom action **msdyn_ManageSLAInstances**.
+This feature provides the flexibility to force cancel the active **In Progress** or **Nearing Non compliance** service-level agreements (SLAs) key performance indicators (KPIs) instances and create new SLA KPIs by explicitly calling the custom action **msdyn_ManageSLAInstances**.
 
-To allow the force cancelling of instances and recreating new ones, we have added a new parameter **Recalculate** to the custom action. This is an optional parameter. By default, we use the integer value 0, but if you want to force create the instances, then you must set the the integer value as 1. This doesn't affect the KPI instances which are in **Paused**, **Cancelled**, **Succeeded** or **Non-compliant** statuses.
+To allow the force cancellation of instances and recreation of new ones, a new parameter **Recalculate** has been added to the custom action. This is an optional parameter. By default, the integer value 0 is used, but if you want to force create the instances, then you must set the the integer value as 1. This doesn't affect the KPI instances which are in **Paused**, **Cancelled**, **Succeeded** or **Non-compliant** statuses.
 
 ## Enable force recalculation of SLAs
 
@@ -46,9 +46,9 @@ To enable the force recalculation:
 
 You can enable the recalculation of SLAs by writing the custom plugin code on the SLA target entity and deciding the scenarios in which to call this custom action.
 
-For example, if you want to update Case type on Case entity, the previous SLA KPI instances, such as, In progress or NNC will be cancelled and new instances get created. You can then  register a plug-in on the Case entity update with the logic to call the custom action.
+For example, if you want to update Case type on Case entity, the previous SLA KPI instances, such as, In progress or Nearing Non compliance will be cancelled and new instances get created. You can then register a plug-in on the Case entity update with the logic to call the custom action.
 
- Following is an example of the code snippet to call the Custom Action from plugin:
+ Following is an example of the code snippet to call the Custom Action from plug-in:
 
 ``` OrganizationRequest customEvaluation = new OrganizationRequest("msdyn_ManageSLAInstances");
 customEvaluation["SLAId"] = "<sla id>";

@@ -370,13 +370,13 @@
         href: define-service-level-agreements.md
       - name: Enable entities for service level agreements
         href: enable-entities-service-level-agreements.md
-      - name: Calculate SLAs
+      - name: Recalculate SLAs in terminal status
+        href: enable-sla-recalculation.md
+      - name: Calculate SLA KPIs
         items: 
-        - name: Recalculate SLAs in terminal status
-          href: enable-sla-recalculation.md
-        - name: Enable custom time calculation
+        - name: Enable custom time calculation of SLA KPIs
           href: enable-sla-custom-time-calculation.md
-        - name: Enable force recalculation
+        - name: Enable force recalculation of SLA KPIs
           href: enable-sla-force-recalculation.md  
       - name: Create entitlements to define support terms
         href: create-entitlement-define-support-terms-customer.md
@@ -1486,6 +1486,8 @@
       href: csw-faqs-ai-suggestions.md
     - name: FAQs on Omnichannel for Customer Service
       href: faqs.md
+    - name: FAQs on custom time calculation of SLA KPIs
+      href: faqs-custom-time-sla-kpis.md
   - name: Omnichannel for Customer Service on Unified Service Desk
     href: ../unified-service-desk/oc-usd/omnichannel-customer-service-unified-service-desk.md
   - name: Unified Service Desk Guide
