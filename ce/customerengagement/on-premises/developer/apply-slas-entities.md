@@ -2,7 +2,7 @@
 title: "Apply SLAs to entities (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about applying SLAs to custom entities by enabling entities for applying SLAs. Also, you can create SLA KPIs."
 ms.custom: 
-ms.date: 10/01/2019
+ms.date: 03/02/2022
 ms.reviewer: pehecke
 
 ms.suite: 
@@ -60,16 +60,7 @@ Service level agreements (SLAs) in Dynamics 365 Customer Engagement (on-premises
   
  However, if you want to manually apply SLAs to entity records based on any custom business requirement, you can programmatically update the entity record to set the `SLAId` attribute value to the desired active SLA record.  
   
-<a name="Limitations"></a>   
-## Limitations to applying SLAs in Dynamics 365 Customer Engagement (on-premises)
- In Customer Engagement (on-premises), the following limitations are applicable for SLAs per Customer Engagement (on-premises) instance (organization):  
-  
-- You can have a maximum of 7 entities that can have active SLAs. You will encounter an error on activating an SLA if this limit is exceeded.  
-  
-- You can have a maximum of 5 SLA KPIs per entity for active SLAs. You will encounter an error on activating an SLA if this limit is exceeded. This limit is not applicable for the `Incident` entity.  
-  
-  These limits aren't applicable for Customer Engagement (on-premises).  
-  
+
 [!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)]
 
 ### See also  
