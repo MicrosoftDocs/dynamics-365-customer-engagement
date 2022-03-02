@@ -50,7 +50,7 @@ You can configure and manage the different capabilities in Customer Service by u
 - **App profile manager**: Helps in creating and managing targeted app experiences for agents and supervisors as an alternative to building and maintaining custom apps. You can create custom profiles with specific session templates, conversation channels, and productivity tools. You can then assign these profiles to agents and supervisors who use the Customer Service workspace and Omnichannel for Customer Service apps. More information: [Introduction to the app profile manager](../app-profile-manager/overview.md)
 
   > [!NOTE]
-  > The capabilities offered by the app profile manager are also available in Customer Service admin center (preview). We recommend that you use the new app.
+  > The capabilities offered by the app profile manager are also available in the new Customer Service admin center (preview) app. We recommend that you use the new app.
 
 - **Omnichannel Administration**: Helps in setting up and managing the chat and digital messaging channels and other features in Omnichannel for Customer Service. More information: [Omnichannel Administration](omnichannel-administrator.md)
   
