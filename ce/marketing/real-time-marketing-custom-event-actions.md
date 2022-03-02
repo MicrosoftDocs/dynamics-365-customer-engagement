@@ -29,24 +29,24 @@ Based on the unique needs of your business, you may want to trigger custom proce
 
 Here are some examples of where you might trigger custom event actions:
 
-1. You’re engaging customers so that they can purchase a subscription, but if they don’t do so by the end of the customer journey, you need to add them to a nurture journey. You can route the customers by activating a custom event trigger from the subscription journey and using that as the entry event trigger from the nurture journey.
-1. A loan application journey has various steps that require a human agent’s approval. By creating a separate customer journey or Power Automate Flow for loan exception approval, you can trigger it from various points in the loan application journeys where exceptions can occur by activating the custom event trigger.
-1. You need to engage customers through another application or channel, such as Microsoft Teams, which has a Power Automate connector. You can create a Power Automate flow using this connector and have it start using the custom event trigger that you can activate from relevant points in your journey.
-1. You need to create Dynamics 365 activities (such as a sales call, service tickets, etc.) from any point in the customer journey. By activating a custom event trigger, you can trigger a Power Automate flow that creates these activities on behalf of the journey.
+1. You’re engaging customers so that they can purchase a subscription, but if they don’t do so by the end of the customer journey, you need to add them to a nurture journey. You can route the customers by activating a custom trigger from the subscription journey and using that as the entry trigger from the nurture journey.
+1. A loan application journey has various steps that require a human agent’s approval. By creating a separate customer journey or Power Automate Flow for loan exception approval, you can trigger it from various points in the loan application journeys where exceptions can occur by activating the custom trigger.
+1. You need to engage customers through another application or channel, such as Microsoft Teams, which has a Power Automate connector. You can create a Power Automate flow using this connector and have it start using the custom trigger that you can activate from relevant points in your journey.
+1. You need to create Dynamics 365 activities (such as a sales call, service tickets, etc.) from any point in the customer journey. By activating a custom trigger, you can trigger a Power Automate flow that creates these activities on behalf of the journey.
 
-To learn more about creating custom event triggers, see [Customize event triggers in real-time marketing](real-time-marketing-custom-events.md).
+To learn more about creating custom triggers, see [Customize triggers in real-time marketing](real-time-marketing-custom-events.md).
 
 ## Trigger an action using a custom event
 
-Take an example using a journey with the goal of nurturing customers who have made purchases. Customers enter this journey when they’ve made a purchase on an online store, and you want to respond to them using the relevant information you have. This simple journey uses an **Attribute branch** that sends customers to the **Yes** branch if they’re a new customer and the **No** branch if they’re a current customer or rewards member. Each branch contains a custom event trigger designed to fulfill a specific task.
+Take an example using a journey with the goal of nurturing customers who have made purchases. Customers enter this journey when they’ve made a purchase on an online store, and you want to respond to them using the relevant information you have. This simple journey uses an **Attribute branch** that sends customers to the **Yes** branch if they’re a new customer and the **No** branch if they’re a current customer or rewards member. Each branch contains a custom trigger designed to fulfill a specific task.
 
 Given Customer 1 and Customer 2, here’s how this action performs in the journey:
 
-*Customer 1: Enters the journey as an existing rewards member and proceeds to the **No** branch. The **No** branch contains an action that activates a custom event trigger that enters them into a separate journey designed to nurture rewards members.*
+*Customer 1: Enters the journey as an existing rewards member and proceeds to the **No** branch. The **No** branch contains an action that activates a custom trigger that enters them into a separate journey designed to nurture rewards members.*
 
-*Customer 2: Enters the journey as a new customer and proceeds down the **Yes** branch. In the **Yes** branch, they reach a custom event trigger that you've connected to a Power Automate flow. Because the customer has never made a prior purchase, you want to pre-fill relevant information about the customer using the purchase data. The flow assigns a rewards number to the customer if there’s a valid phone number provided at the time of registration.*
+*Customer 2: Enters the journey as a new customer and proceeds down the **Yes** branch. In the **Yes** branch, they reach a custom trigger that you've connected to a Power Automate flow. Because the customer has never made a prior purchase, you want to pre-fill relevant information about the customer using the purchase data. The flow assigns a rewards number to the customer if there’s a valid phone number provided at the time of registration.*
 
-Setting up a custom event trigger action requires three steps: selecting a custom event, understanding the selected event usage, and mapping the attributes.
+Setting up a custom trigger action requires three steps: selecting a custom event, understanding the selected event usage, and mapping the attributes.
 
 ## 1. Select a custom event
 
@@ -66,7 +66,7 @@ After you select a custom event, the current usage of the custom event in all jo
 > Power Automate flows that reference the custom event are not tracked or displayed here.
 
 > [!TIP]
-> Live journeys displayed in the event usage tooltip will also activate the same custom event within them when a customer reaches this action in the journey. This will trigger other journeys using the same custom event trigger as an entry trigger. It will also trigger steps in other journeys that reference the custom event trigger, for instance, the if/then branches, exit conditions, or goals.
+> Live journeys displayed in the event usage tooltip will also activate the same custom event within them when a customer reaches this action in the journey. This will trigger other journeys using the same custom trigger as an entry trigger. It will also trigger steps in other journeys that reference the custom trigger, for instance, the if/then branches, exit conditions, or goals.
 
 ## 3. Map attributes
 
