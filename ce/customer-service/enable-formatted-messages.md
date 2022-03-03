@@ -40,12 +40,11 @@ Your agents can send and receive messages formatted using Markdown.
 
 1. In the **Markdown settings** area under **Omnichannel Configuration**, set the **Turn on Markdown** toggle to **Yes**.
 
-1. Select **Save & Close.**
-
+1. Select **Save & Close**.
 
 ### See also
 
-[Support for formatted messages](card-support-in-channels.md#formatted-messages).
+[Support for formatted messages](card-support-in-channels.md#formatted-messages)  
 [Use Markdown to format messages](markdown-formats-agents.md)  
 [Markdown formats](markdown-formats-dev.md)  
 
