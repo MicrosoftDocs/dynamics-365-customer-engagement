@@ -1,7 +1,7 @@
 ---
-title: "Provide consent for collecting data from Office 365"
-description: "Dynamics 365 needs consent from the Office 365 administrator to use the exchange data and provide relationship insights from the data."
-ms.date: 02/15/2022
+title: Provide consent to collect data from Exchange Online
+description: Provide consent for Dynamics 365 to use data from Exchange Online in relationship analytics.
+ms.date: 03/03/2022
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -9,28 +9,23 @@ ms.author: lavanyakr
 manager: shujoshi
 ---
 
-# Provide consent for collecting data from Office 365  
+# Provide consent to collect data from Exchange Online  
 
-To calculate the relationship KPIs and health score, Dynamics 365 needs to collect data—such as emails and meetings—from the Exchange server in Office 365. Work with your Office 365 administrator and have them provide the consent for using the Office 365 data.  
+> [!IMPORTANT]
+> If your organization is a relationship intelligence customer and you've provided consent in **Microsoft 365 admin center** > **Settings** > **Org settings** > **Dynamics 365 Sales Insights – Analytics**, the consent is valid until September 2022. After that, you'll need to provide consent as shown here. We recommend that you use the following method to provide consent as early as possible before your existing consent expires.
+
+Relationship analytics and health scores that include insights from Exchange Online are more accurate than those that include only data from Dynamics 365. However, an Office 365 administrator must provide consent for Dynamics 365 to collect information from your organization's Exchange server.  
 
 > [!TIP]
-> For more information on how relationship analytics uses Office 365 data, go to [Use relationship analytics to gather KPIs](relationship-analytics.md).
+> For more information on how relationship analytics uses Office 365 data, see [Use relationship analytics to gather KPIs](./relationship-analytics.md).
 
-As an Office 365 administrator, follow these steps to provide the consent:
-    
-1. Go to the **Microsoft 365 admin center**.    
-    
-2. Select **Settings** > **Org settings** > **Dynamics 365 Applications**.    
-    The consent form is displayed in the right panel.
-    :::image type="content" source="media/office365-consent-form.png" alt-text="Consent form to use office 365 data":::
+If you're an Office 365 administrator, here's how to provide consent:
 
-    > [!IMPORTANT]
-    > If you are an existing relationship intelligence customer and have already provided consent in the **Dynamics 365 Sales Insights – Analytics** page, the consent will be valid until September 2022. After when, you must provide the consent in the new form as shown in the preceding screenshot. However, we recommend that you provide the consent as soon as you can.  
-    
-3. Read the description carefully and select the **Insights for other users** option. 
+1. In **Microsoft 365 admin center**, select **Settings** > **Org settings** > **Dynamics 365 Applications**.
+
+    :::image type="content" source="./media/office365-consent-form.png" alt-text="A screenshot of the Microsoft 365 admin center Org settings, with the Dynamics 365 Apps consent form shown.":::
+
+1. Under **Insights for Other Users**, select **Allow individualized insights to be generated and accessed by other users when using Dynamics 365 Applications**, and then select **Save**.
 
     > [!NOTE]
-    > The consent provided is applicable to all the Dynamics 365 applications.  
-      
-    Relationship intelligence can now connect to the Exchange server to fetch data.
-
+    > The consent you provide applies to all Dynamics 365 apps.  
