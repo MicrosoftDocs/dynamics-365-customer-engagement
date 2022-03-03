@@ -1,7 +1,7 @@
 ---
 title: "Create real-time marketing emails (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create real-time marketing emails in Dynamics 365 Marketing."
-ms.date: 08/02/2021
+ms.date: 03/07/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -63,3 +63,9 @@ Add feature-rich links to emails by directly linking to documents stored in the 
 
 > [!div class="mx-imgBorder"]
 > ![File select screenshot.](media/real-time-marketing-email-file-link.png "File select screenshot")
+
+### Link to surveys, events, marketing pages, Microsoft Teams events, or calendar items
+
+Using images or buttons in the real-time marketing email editor, you can link to surveys, events, or marketing pages. You can also create button or image links that allow recipients to join a Microsoft Teams event or that create a new calendar item.
+
+Learn more about button and image links: [Generate iCalendar files for events and sessions](add-to-calendar.md).
