@@ -12,7 +12,7 @@ ms.topic: article
 
 ## Overview of macros
 
-In the customer service industry, agents have to click often to perform simple tasks, such as open a form, fill, and save it, and many repetitive and monotonous actions, such as greet a customer, verify a customer, send acknowledgment mail, and take notes. These clicks and repetitive tasks can lead to human errors while agents copy and paste the data across different operations.
+In the customer service industry, agents have to click often to perform simple tasks, such as open a form, fill, and save it, and many repetitive and monotonous actions, such as greeting and verifying a customer, sending acknowledgment mail, and taking notes. These clicks and repetitive tasks can lead to human errors when agents copy and paste the data across different operations.
 
 Macros are a set of sequential actions that are performed by a user. They enable users to perform daily operations efficiently in a fast and process-compliant manner. You can reuse macros with different sessions based on the context parameters that are specific to the session.
 
@@ -237,8 +237,6 @@ This action focuses on a tab in the Customer Service workspace session. This act
    | Tab ID | Specify the identifier of the tab that you want to give focus to. <br> This is a mandatory field.|
    |||
 
-
-
 ### Omnichannel connector
 
 As an administrator, you can use the actions any number of times across different macros to automate and perform operations related to Omnichannel for Customer Service.
@@ -457,7 +455,7 @@ Now, when the agent runs the macro, the actions will be run by fetching the data
 
 As an administrator, you can view the macro run history, which shows how many times a macro has been run, along with the success or fail status. When you select a macro that failed, you can view the exact action step at which the failure occurred.
 
-1. Go to the **Macros** page, select the macro for which you want to view the history.
+1. Go to the **Macros** page, and select the macro for which you want to view the history.
 
 1. Select **View run history**.
 
