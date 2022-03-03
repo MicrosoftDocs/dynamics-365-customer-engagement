@@ -19,7 +19,7 @@ By default, skill-based routing is enabled. You can create skills to attach to a
 
 > [!Important]
 > - By default, the skill control is available only for messaging channels. For the records channel, you'll need to customize the form to add the skill control. More information: [Add a skill control for routed records](add-skill-control.md)
-> - The skill control displays skills only if the work items have been processed by the [intelligent skill finder](set-up-skill-based-routing?tabs=customerserviceadmincenter.md#set-up-intelligent-skill-finder-model). 
+> - The skill control displays skills only if the work items have been processed by the [intelligent skill finder](set-up-skill-based-routing.md#set-up-intelligent-skill-finder-model). 
 
 ## Prerequisite
 
