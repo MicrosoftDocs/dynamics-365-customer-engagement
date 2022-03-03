@@ -22,7 +22,7 @@ ms.custom:
 
 ## Introduction
 
-This topic describes how you can customize the recalculation of active service-level agreements (SLAs) key performance indicators (KPIs) instances which are in either **In Progress** or **Nearing Non compliance** statuses, and create new SLA KPIs by explicitly calling the custom action **msdyn_ManageSLAInstances**. This doesn't affect the SLA KPI instances which are in either **Paused**, **Cancelled**, **Succeeded** or **Non-compliant** statuses.
+This topic describes how you can customize the recalculation of active service-level agreements (SLAs) key performance indicators (KPIs) instances which are in either **In Progress** or **Nearing Non compliance** statuses, and create new SLA KPIs by explicitly calling the custom action **msdyn_ManageSLAInstances**. This doesn't affect the SLA KPI instances which are in either **Paused**, **Cancelled**, **Succeeded** or **Non-compliant** statuses. 
 
 To enable custom calculation, a new parameter called *Recalculate** has been added to the custom action. This is an optional parameter. By default, the integer value is 0, but if you want to create new SLA KPIs, then you must set the the integer value to 1.
 
