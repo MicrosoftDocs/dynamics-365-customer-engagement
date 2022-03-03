@@ -165,9 +165,7 @@ The following table lists the text styles supported by Microsoft Teams, Facebook
 | unordered list       | ✔          | ✔              | ✖        | ✖       | ✖                          | ✔                             |
 
 > [!Note]
-
 > - Twitter, WeChat, and SMS channels don't support formatted messages.
-
 > - A few text styles such as blockquote, headers, numbered lists, and unordered lists, are currently not supported across some channels.
 
 ### See also
