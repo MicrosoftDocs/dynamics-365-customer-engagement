@@ -69,7 +69,7 @@ The following subgrids are also critical to the Field Service work order process
 - **Products**
 - **Services**
 
-For more information, see these articles on [Field Service architecture](field-service-architecture.md) and [creating a work order](create-work-order).
+For more information, see these articles on [Field Service architecture](field-service-architecture.md) and [creating a work order](create-work-order.md).
 
 ## 2. Make a list of needed and unneeded fields
 
@@ -260,7 +260,7 @@ For more information on editing forms, see the Power Platform documentation on [
 
 [Run Performance Insights](/powerapps/maker/common/performance-insights-overview) to see how app and form performance is affected by things like browsers, network performance, data queries, and more.
 
-Use the monitoring tool to understand the root cause of why forms may be loading slowly. For more information, see [this blog post](https://powerapps.microsoft.com/en-us/blog/monitor-now-supports-model-driven-apps/) and [this article](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/monitor-form-checker).
+Use the monitoring tool to understand the root cause of why forms may be loading slowly. For more information, see [this blog post](https://powerapps.microsoft.com/blog/monitor-now-supports-model-driven-apps/) and [this article](/powerapps/maker/model-driven-apps/monitor-form-checker).
 
 ## Configuration considerations 
 
@@ -279,4 +279,4 @@ Many organizations run code scripts on load, on change, and on save of the form 
 - [Create and edit forms](/powerapps/maker/model-driven-apps/create-and-edit-forms)
 - [Design productive forms](/powerapps/maker/model-driven-apps/design-productive-forms)
 - [Design performant forms](/powerapps/maker/model-driven-apps/design-performant-forms)
-- [Optimize form load time with design and script best practices](/dynamics365/customerengagement/on-premises/customize/optimize-form-performance?view=op-9-1)
+- [Optimize form load time with design and script best practices](/dynamics365/customerengagement/on-premises/customize/optimize-form-performance)
