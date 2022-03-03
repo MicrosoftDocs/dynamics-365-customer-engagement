@@ -35,7 +35,7 @@ The work order form is optimized for the following standard work order process.
 1. A work order is created manually, from a converted case, via an IoT alert, from an agreement schedule, or via an integration. Newly created work orders have a system status equal to _Unscheduled_ by default. 
 1. Work order details are entered like the account, work order type, location, products, services, service tasks, and any other information that is important.
 1. The work order is scheduled to one or more resources ("frontline workers") and the system status automatically becomes _Scheduled_.
-1. The frontline worker views the scheduled work order on his or her mobile app and travels to the customer location to perform the required work. The system status becomes _In Progress_. The fronltine worker updates information like when he or she arrived on site, service tasks completed, services and products billed. 
+1. The frontline worker views the scheduled work order on their mobile app and travels to the customer location to perform the required work. The system status becomes _In Progress_. The frontline worker updates information like when they arrived on site, service tasks completed, services and products billed. 
 1. The frontline worker completes the work order and the system status becomes _Completed_.
 1. The back office manager or dispatcher views the completed work order and verifies the work is completed and the necessary data is captured. If everything is finished the status is changed to _Posted_.
 
@@ -73,7 +73,7 @@ For more information, see these articles on [Field Service architecture](field-s
 
 ## 2. Make a list of needed and unneeded fields
 
-Make a list of default work order fields that are relevant to your business process and another list of unneeded fields. Make sure to add the critical fields mentioned above to the list of needed fields as they are required.  
+Make a list of default work order fields that are relevant to your business process and another list of unneeded fields. Make sure to add the critical fields mentioned above to the list of needed fields as they're required.  
 
 ## 3. Create new fields as needed
 
@@ -99,7 +99,7 @@ In the following tabbed sections, we'll look at the pros and cons of using the e
 
 ## [Existing form (recommended)](#tab/existing-form)
 
-Using the existing form is better for scenarios where your organization doesn't want to make a lot of changes to the layout or fields; it's also better for organizations that generally want to use the default work order process.
+Using the existing form is better for scenarios where your organization doesn't want to make many changes to the layout or fields; it's also better for organizations that generally want to use the default work order process.
 
 ### Pros
 
@@ -110,23 +110,23 @@ Using the existing form is better for scenarios where your organization doesn't 
 ### Cons
 
 - **Less customizable** - By agreeing to use the existing work order form, you agree to make fewer changes to the form.
-- **Need to test upgrades** - The existing work order form will receive updates as much as twice per year. You will have to test new updates in a sandbox environment and ensure they will not disrupt your users. For more information, see the article: [Merge form customizations](/power-platform/alm/how-managed-solutions-merged#merge-form-customizations). 
+- **Need to test upgrades** - The existing work order form will receive updates as much as twice per year. You'll have to test new updates in a sandbox environment and ensure they won't disrupt your users. For more information, see the article: [Merge form customizations](/power-platform/alm/how-managed-solutions-merged#merge-form-customizations). 
 ## [New custom form](#tab/new-form)
 
 Some scenarios may call for a completely custom work order form. The top reasons you may need to create a custom work order form include:
 
-1. You have a unique work order process and are unable to use the standard work order process included with Dynamics 365 Field Service, or you need to add a lot of custom fields (greater than 100).
-2. You have decided it's not feasbile for all roles to use the same work order form, even while using security roles and field security profiles to limit information; you also need to create different forms for different user personas.
+1. You have a unique work order process and are unable to use the standard work order process included with Dynamics 365 Field Service, or you need to add many custom fields (greater than 100).
+2. You have decided it's not feasible for all roles to use the same work order form, even while using security roles and field security profiles to limit information; you also need to create different forms for different user personas.
 
 ### Pros
 
-- **Shielded from UI updates** - A new custom form will not receive updates to the user interface meaning the layout and fields displayed on the form. This can be beneficial if you have very specific processes and form layouts.
+- **Shielded from UI updates** - A new custom form won't receive updates to the user interface meaning the layout and fields displayed on the form. This can be beneficial if you have very specific processes and form layouts.
 - **More edits** - You're free to make more changes to the form to fit your unique work order process.
 
 ### Cons
 
-- **No updates** - Your custom work order form will not receive updates from Microsoft. It will be static.
-- **Maintenance costs** - If Microsoft releases work order features that your organization wants to adopt, you will need to manually customize your forms to include those features. This costs time and money.
+- **No updates** - Your custom work order form won't receive updates from Microsoft. It will be static.
+- **Maintenance costs** - If Microsoft releases work order features that your organization wants to adopt, you'll need to manually customize your forms to include those features. This costs time and money.
 - **Risk of slow performance and errors** - Evidence shows that custom forms tend to have slower performance and more errors because of the risk of violating form design best practices. Review the risks and best practices at the end of this article.
 
 ### To create a completely custom work order form...
