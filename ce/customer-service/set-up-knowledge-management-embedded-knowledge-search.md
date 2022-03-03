@@ -1,7 +1,7 @@
 ---
 title: Configure knowledge management (Dynamics 365 Customer Service) | MicrosoftDocs
 description: See how to configure the settings for knowledge management in Dynamics 365 Customer Service
-ms.date: 02/11/2022
+ms.date: 03/02/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -42,9 +42,6 @@ After knowledge management is set up, users will be able to:
 - Use smart assist to receive AI suggestions on related knowledge articles and similar cases.
 
 - See the content of the knowledge base article inline, including images and videos.
-
-> [!NOTE]
-> With the latest release of the Dynamics 365 Customer Service app, embedded knowledge search in service management is available in the Customer Service Hub. We recommend that you set up knowledge management using embedded knowledge search in the new experience. 
 
 ## Setup overview
 
@@ -104,10 +101,7 @@ After you have configured knowledge management on your app, you must also set up
 
         Set the toggle to **Yes** to share the knowledge article as a link in the email sent to the customer. Set the toggle to **No** to share the article content inserted in the email body. If you select **Yes**, provide the **URL format**.
   
-   - **URL Format**. Type the portal URL that will be used to create external (public-facing) portal links for knowledge articles, which the service agents can share with the customers. The external URL is created in the following format:
-        </br> </br> *https://\support portal URL/knowledgebase/article/{kbnum}* 
-  
-        The placeholder "{kbnum}" is replaced by an actual knowledge article number.  
+   - **URL Format**. Type the portal URL that will be used to create external (public-facing) portal links for knowledge articles, which the service agents can share with the customers. The external URL is created in the following format: https://support portal URL/kb/{kbnum}. The placeholder "{kbnum}" is replaced by an actual knowledge article number.  
   
 4. In the **Knowledge articles feedback** section, set the **Enable feedback** toggle to **Yes**. To learn more about how users use this option, see [Submit ratings and feedback for knowledge articles](search-knowledge-articles-csh.md#submit-ratings-and-feedback-for-knowledge-articles).
 
@@ -128,6 +122,8 @@ After you have configured knowledge management on your app, you must also set up
 The configured settings are also available to users of Omnichannel for Customer Service.
 
 ---
+> [!NOTE]
+> During the creation of knowledge articles, duplicate detection rules aren't supported on the Knowledge Article entity.
 
 ## Set up knowledge management settings page manually for a model-driven app
 
