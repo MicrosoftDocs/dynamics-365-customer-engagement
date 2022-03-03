@@ -1,7 +1,7 @@
 ---
 title: "Timer control for SLA-enabled entities | Microsoft Docs"
 description: "Learn how to add timer control in the case form to track time against an SLA in Dynamics 365 Customer Service."
-ms.date: 02/21/2022
+ms.date: 03/03/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -67,7 +67,7 @@ You can configure the negative countdown property for the SLA timer so that the 
 2. Save and publish the solution.
 
 ### Customize the SLA timer control display label
-After you have added the SLA timer control for an SLA-enabled entity, you can customize the labels to be displayed for the timer control.
+After you have added the SLA timer control for a SLA-enabled entity, you can customize the labels of the statuses to be displayed for the timer control.
 
 1. In the SLA Timer area, select **Edit** for **Customized Labels**.
 :::image type="content" source="media/sla-timer-customized-label.png" alt-text="SLA timer customized label option":::
@@ -88,7 +88,7 @@ After you have added the SLA timer control for an SLA-enabled entity, you can cu
 
       (language code1)=(KPI instance status value):(KPI instance custom label); (language code2)=(KPI instance status value):(KPI instance custom label)
    
-   - The status codes that you can enter are:
+   - The customizable status codes are:
 
        - 1: Noncompliant
        - 3: Paused
