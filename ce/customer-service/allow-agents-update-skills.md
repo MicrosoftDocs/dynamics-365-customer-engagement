@@ -13,10 +13,18 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-By default, skill-based routing is enabled. You can create skills to attach to agents and define proficiency levels by using a rating model. You can also enable your agents to add or remove skills for their assigned work items at runtime.
+## Introduction
+
+By default, skill-based routing is enabled. You can create skills to attach to agents and define proficiency levels by using a rating model. You can also enable your agents to add or remove skills for their assigned work items at runtime. To do this, you must enable the update skill control toggle in the Customer Service admin center (preview) or Omnichannel admin center app.
 
 > [!Note]
 > By default, the skill control is available only for messaging channels. For the records channel, you'll need to customize the form to add the skill control. More information: [Add a skill control for routed records](add-skill-control.md)
+
+## Prerequisite
+
+To ensure that the skill control loads and displays properly, you must [allow access to these websites](system-requirements-omnichannel#allow-access-to-websites).  
+
+## Enable agents to update skills at runtime
 
 **To enable your agents to update skills for their work items**
 
@@ -45,7 +53,7 @@ By default, skill-based routing is enabled. You can create skills to attach to a
     > [!div class=mx-imgBorder]
     > ![Enable update skill control toggle.](enable-update-skill-control.png "Enable update skill control toggle")
 
-By enabling your agents to evaluate and update skills required for their work items, you make use of your agents' experience to identify the actual skills that are required for the work items. These skills are also used in training the skill finder model. Accurate data on skills  improves the model accuracy and prediction. More information: [Retrain skill finder model](set-up-skill-based-routing.md#retrain-the-model-iteratively)
+By enabling your agents to evaluate and update skills required for their work items, you make use of your agents' experience to identify the actual skills that are required for the work items. These skills are also used in training the skill finder model. Accurate data on skills improves the model accuracy and prediction. More information: [Retrain skill finder model](set-up-skill-based-routing.md#retrain-the-model-iteratively)
 
 ### See also
 
