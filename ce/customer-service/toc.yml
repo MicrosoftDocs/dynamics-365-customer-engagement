@@ -372,13 +372,13 @@
         href: define-service-level-agreements.md
       - name: Enable entities for service level agreements
         href: enable-entities-service-level-agreements.md
-      - name: Recalculate SLAs in terminal status
-        href: enable-sla-recalculation.md
       - name: Calculate SLA KPIs
-        items: 
-        - name: Enable custom time calculation of SLA KPIs
+        items:
+        - name: Recalculate SLAs in terminal status
+          href: enable-sla-recalculation.md
+        - name: Enable custom calculation of SLA KPIs
           href: enable-sla-custom-time-calculation.md
-        - name: Enable force recalculation of SLA KPIs
+        - name: Enable custom recalculation of SLA KPIs
           href: enable-sla-force-recalculation.md  
       - name: Create entitlements to define support terms
         href: create-entitlement-define-support-terms-customer.md

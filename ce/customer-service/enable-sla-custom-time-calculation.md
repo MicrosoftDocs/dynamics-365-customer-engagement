@@ -1,7 +1,7 @@
 ---
-title: "Enable custom calculation of SLAs in terminal status in Dynamics 365 Customer Service | MicrosoftDocs"
-description: "Learn how to configure recalculation of SLAs that reach the terminal status in Dynamics 365 Customer Service."
-ms.date: 02/25/2022
+title: "Enable custom calculation of SLA KPIs in Dynamics 365 Customer Service | MicrosoftDocs"
+description: "Learn how to perform custom calculation of SLAs KPIs in Dynamics 365 Customer Service."
+ms.date: 03/03/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -18,7 +18,7 @@ ms.custom:
   - intro-internal
 ---
 
-# Enable custom time calculation of SLA KPIs
+# Enable custom calculation of SLA KPIs
 
 ## Introduction
 

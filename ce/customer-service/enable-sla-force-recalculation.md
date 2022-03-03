@@ -1,7 +1,7 @@
 ---
-title: "Enable force recalculation of SLAs in Dynamics 365 Customer Service | MicrosoftDocs"
-description: "Learn how to force recalculation of SLAs KPIs in Dynamics 365 Customer Service."
-ms.date: 02/28/2022
+title: "Enable custom recalculation of SLA KPIs in Dynamics 365 Customer Service | MicrosoftDocs"
+description: "Learn how to perform custom recalculation of SLAs KPIs in Dynamics 365 Customer Service."
+ms.date: 03/03/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -18,31 +18,15 @@ ms.custom:
   - intro-internal
 ---
 
-# Enable force recalculation of SLA KPIs
+# Enable custom recalculation of SLA KPIs
 
 ## Introduction
 
-This feature provides the flexibility to force cancel the active **In Progress** or **Nearing Non compliance** service-level agreements (SLAs) key performance indicators (KPIs) instances and create new SLA KPIs by explicitly calling the custom action **msdyn_ManageSLAInstances**.
+This topic describes how you can customize the recalculation of active service-level agreements (SLAs) key performance indicators (KPIs) instances which are in either **In Progress** or **Nearing Non compliance** statuses, and create new SLA KPIs by explicitly calling the custom action **msdyn_ManageSLAInstances**. This doesn't affect the SLA KPI instances which are in either **Paused**, **Cancelled**, **Succeeded** or **Non-compliant** statuses.
 
-To allow the force cancellation of instances and recreation of new ones, a new parameter **Recalculate** has been added to the custom action. This is an optional parameter. By default, the integer value 0 is used, but if you want to force create the instances, then you must set the the integer value as 1. This doesn't affect the KPI instances which are in **Paused**, **Cancelled**, **Succeeded** or **Non-compliant** statuses.
+To enable custom calculation, a new parameter called *Recalculate** has been added to the custom action. This is an optional parameter. By default, the integer value is 0, but if you want to create new SLA KPIs, then you must set the the integer value to 1.
 
-## Enable force recalculation of SLAs
-
-To enable the force recalculation:
-1. Go to Advanced Settings -> Settings -> Customization -> Customize the system -> Processes -> New Process.
-1. On the **Create Process** dialog, enter the following:
-    1. Enter a process name, for example, ManageSLAInstances
-    1. Select **Action** from the **Category** dropdown list.
-    1. Select **None (global)** from the Entity dropdown list.
-    1. Select **OK**.
-    :::image type="content" source="media/sla-create-process.png" alt-text="Create a sla process":::
-1. On the Process: ManageSLAInstances dialog, Hide Process Arguments section, enter the following:
-   1. Enter Recalculate as Name.
-   1. Select **Integer** from the **Type** dropdown list.
-   1. Select the **Input** radio button for **Direction**.
-  :::image type="content" source="media/sla-process-argument.png" alt-text="Create a sla process argument":::
-
-## Implement the recalculation on a target entity
+## Enable the custom recalculation on a target entity
 
 You can enable the recalculation of SLAs by writing the custom plugin code on the SLA target entity and deciding the scenarios in which to call this custom action.
 
