@@ -1,7 +1,7 @@
 ---
 title: "Support for live chat and asynchronous channels | MicrosoftDocs"
 description: "Get information on the support for adaptive cards, emojis, file attachments, and message formatting in live chat and asynchronous channels in Omnichannel for Customer Service."
-ms.date: 08/26/2021
+ms.date: 03/04/2022
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -165,8 +165,10 @@ The following table lists the text styles supported by Microsoft Teams, Facebook
 | unordered list       | ✔          | ✔              | ✖        | ✖       | ✖                          | ✔                             |
 
 > [!Note]
-> - The Twitter, WeChat, and SMS channels don't support formatted messages.
-> - A few text styles such as blockquote, headers, numbered lists and unordered lists, are currently not supported across some channels. 
+
+> - Twitter, WeChat, and SMS channels don't support formatted messages.
+
+> - A few text styles such as blockquote, headers, numbered lists, and unordered lists, are currently not supported across some channels.
 
 ### See also
 
