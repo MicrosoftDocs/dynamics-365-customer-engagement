@@ -36,7 +36,7 @@ In the following screenshot, **Refund** is a skill attached by the manual skill 
 > ![Add skills.](media/skill-control.png "Add skills.")
 
 > [!Note] 
-> If you are not able to view the skill control on the case or conversation forms, try clearing your browser cache.
+> If you're not able to view the skill control on the case or conversation forms, try clearing your browser cache.
 
 ## Add and remove skills
 
