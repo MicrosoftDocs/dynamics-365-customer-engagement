@@ -22,17 +22,17 @@ ms.custom:
 
 ## Introduction
 
-This topic describes how you can customize the recalculation of active service-level agreements (SLAs) key performance indicators (KPIs) instances which are in either **In Progress** or **Nearing Non compliance** statuses, and create new SLA KPIs by explicitly calling the custom action **msdyn_ManageSLAInstances**. This doesn't affect the SLA KPI instances which are in either **Paused**, **Cancelled**, **Succeeded** or **Non-compliant** statuses. 
+This topic describes how you can customize the recalculation of active service-level agreements (SLAs) key performance indicators (KPIs) instances which are in either **In Progress** or **Nearing Non compliance** statuses, and create new SLA KPIs by explicitly calling the custom action **msdyn_ManageSLAInstances**. This doesn't affect the SLA KPI instances which are in either **Paused**, **Cancelled**, **Succeeded** or **Non-compliant** statuses.
 
-To enable custom calculation, a new parameter called *Recalculate** has been added to the custom action. This is an optional parameter. By default, the integer value is 0, but if you want to create new SLA KPIs, then you must set the the integer value to 1.
+To enable custom calculation and create new SLA KPIs, you must set the the integer value of the **Recalculate** parameter to 1 through a custom plug-in code. By default, the integer value of the **Recalculate** parameter is 0.
 
 ## Enable the custom recalculation on a target entity
 
-You can enable the recalculation of SLAs by writing the custom plugin code on the SLA target entity and deciding the scenarios in which to call this custom action.
+You can enable the recalculation of SLAs by creating a custom plugin code on the SLA target entity and specifying the scenarios where this custom action must be implemented. More information: [Write a plug-in](/powerapps/developer/data-platform/write-plug-in).
 
-For example, if you want to update Case type on Case entity, the previous SLA KPI instances, such as, In progress or Nearing Non compliance will be cancelled and new instances get created. You can then register a plug-in on the Case entity update with the logic to call the custom action.
+For example, if you want to update **Case** type on **Case** entity, the previous SLA KPI instances which are in either, **In progress** or **Nearing Non compliance** will be cancelled and new instances will be created. You can then register a plug-in on the Case entity update with the logic to implement the custom action.
 
- Following is an example of the code snippet to call the Custom Action from plug-in:
+Following is an example of the plug-in code:
 
 ``` OrganizationRequest customEvaluation = new OrganizationRequest("msdyn_ManageSLAInstances");
 customEvaluation["SLAId"] = "<sla id>";
@@ -43,13 +43,6 @@ customEvaluation["Recalculate"] = 1;
 OrganizationResponse customEvaluationResponse = service.Execute(customEvaluation);
 
 ```
-### Scenarios
-
-The scenarios in which it can be used are:
-- If user has configured the same condition on SLA item applicable when and calling force recalculate custom action also on the same condition. The way it should now work is: KPI instance will cancel and trigger twice once for OOB and once for force evaluation but SLA calculations will work fine.
-- If "Recalculate SLAs for SLA-enabled entities" setting is enabled which is a different setting. The way it should now work is: This setting will still work as expected for Non compliant and succeeded instances as it used to work.
-- If warning action is configured for SLA item. The way it should now work is: For instance recreated using force evaluation action will trigger.
-
 ### See also
 
 [Define service-level agreements](define-service-level-agreements.md)  
