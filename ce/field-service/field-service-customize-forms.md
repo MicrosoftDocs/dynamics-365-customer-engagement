@@ -196,7 +196,7 @@ Go to **Field Service Settings** and set **Calculate Price** to _No_. For more i
 
 There's an easy and supported way to remove all tax-related fields (such as **Taxable**) from the work order, work order product, and work order service forms.
 
-Go to **Field Service Settings** and set **Calculate Tax** to _No_. For more information, see [this article for more details](https://docs.microsoft.com/dynamics365/field-service/configure-default-settings#work-order-and-bookings-settings). 
+Go to **Field Service Settings** and set **Calculate Tax** to _No_. For more information, see [this article for more details](/dynamics365/field-service/configure-default-settings#work-order-and-bookings-settings). 
 
 ### Hide unwanted fields
 
