@@ -15,7 +15,9 @@ Predefined security roles define permissions and access levels specific to diffe
 
 Security roles control users access to data through a set of access levels and permissions. The combination of access levels and permissions that are included in a specific security role defines  users access to data and their interactions with that data. For more information, see [Security roles and privileges](/power-platform/admin/security-roles-privileges)
 
-The predefined security roles for Sales include permissions and access levels that the default sales personas will need. For example, the Sales Manager and Salesperson security roles can be associated with the respective users in your organization. As a system administrator, you can verify the permissions and access levels granted for each role and modify it to suit your needs. For more information, see [Create or edit a security role](/power-platform/admin/create-edit-security-role). Im the following table, security roles are listed in the order of their privileges - starting from the highest privilege first.  
+The predefined security roles for Sales include permissions and access levels that the default sales personas will need. For example, the Sales Manager and Salesperson security roles can be associated with the respective users in your organization. As a system administrator, you can verify the permissions and access levels granted for each role and modify it to suit your needs. For more information, see [Create or edit a security role](/power-platform/admin/create-edit-security-role). 
+
+In the following table, security roles are listed in the order of their privileges - starting from the highest privilege first.  
 
 | **Security roles** | **Who needs it?** | **Applies to** | **Access granted** |
 | --- | --- | --- | --- |
