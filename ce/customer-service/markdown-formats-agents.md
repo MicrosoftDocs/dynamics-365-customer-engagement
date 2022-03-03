@@ -47,6 +47,6 @@ To know the formats supported by the various channels, see [Support for formatte
 
 [Enable formatted messages](enable-formatted-messages.md)  
 [Bring your own custom messaging channel: Direct Line](bring-your-own-channel.md)  
-[Markdown formats](markdown-formats-dev.md)  
+[Markdown formats: Direct Line](markdown-formats-dev.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -151,9 +151,9 @@ Agents can use basic formatting capabilities in their outbound messages across b
 The following table lists the text styles supported by Microsoft Teams, Facebook, WhatsApp, Telegram, and Direct Line-based channels.
 
 | Style                | Live chat  | Microsoft Teams | Facebook | WhatsApp | Custom messaging (Telegram)| Custom messaging (Direct Line) |
-|----------------------| ---------- | -------------   | -------- | ---------|------------------ |------------------------------  |
-| bold                 | ✔          | ✔              | ✔        | ✔       | ✔                         | ✔                             |
-| italics              | ✔          | ✔              | ✔        | ✔       | ✔                         | ✔                             |
+|----------------------| ---------- | -------------   | -------- | ---------|------------------          |------------------------------  |
+| bold                 | ✔          | ✔              | ✔        | ✔       | ✔                          | ✔                             |
+| italics              | ✔          | ✔              | ✔        | ✔       | ✔                          | ✔                             |
 | strikethrough        | ✔          | ✔              | ✔        | ✔       | ✔                          | ✔                             |
 | blockquote           | ✔          | ✔              | ✖        | ✖       | ✖                          | ✔                             |
 | monospace            | ✔          | ✔              | ✔        | ✔       | ✔                          | ✔                             |
