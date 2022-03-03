@@ -123,7 +123,7 @@ If the operating hours of the queue are updated to a new schedule, the latest op
 You can update the thresholds for out of the box reports to suit your business needs in a customer configured BI workspace.
 
    > [!NOTE]
-   > You can’t edit out of the box reports for a preconfigured BI workspace.
+   > You can’t edit out of the box reports for a pre-configured BI workspace.
 
 1. Open the report in Power BI.
 
