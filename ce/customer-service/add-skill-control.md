@@ -1,7 +1,7 @@
 ---
 title: "Skill control for routed records| MicrosoftDocs"
 description: "Learn how to add a skill control on forms to view skills of any routed record in Customer Service Hub."
-ms.date: 03/03/2022
+ms.date: 03/04/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
