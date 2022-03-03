@@ -45,9 +45,11 @@ To enable custom calculation, you can define an API interface which has a fixed 
     1. From the **Entity** dropdown list, select **None (global)**. 
     1. Select the **New process from an existing template (select from the list)** option.
     1. Select **OK**.
-:::image type="content" source="media/cutom-time-cal-template.png" alt-text="Custom time calculation template":::
+
+    :::image type="content" source="media/cutom-time-cal-template.png" alt-text="Custom time calculation template":::
 1. On the template, enable this feature for any SLA item as per requirement.
-        :::image type="content" source="media/add-sla-process-arguments.png" alt-text="Enable the process arguments for any SLA item":::
+
+    :::image type="content" source="media/add-sla-process-arguments.png" alt-text="Enable the process arguments for any SLA item":::
 
 1. Once toggle is Switched On, you can see the lookup for adding the Action created in step 1. Search for the associated action and save the SLA Item.
 1. Implement the plugin code associated with Above Custom Action. To select the plug-in that you need, see [Plug-ins](#plug-ins).
