@@ -22,7 +22,7 @@ Customizing forms properly is very important for maximizing performance. Form cu
 In this article, we'll walk through how to customize the work order form, though the steps can be used to customize any Field Service web form.
 
 > [!Note]
-> There is a separate and unique process to customize the mobile work order form for frontline workers. See the section at the end of this article. 
+> There is a separate and unique process to customize the mobile work order form for frontline workers. See the configuration considerations at the end of this article.
 
 ## 1. Understand the default work order form 
 
