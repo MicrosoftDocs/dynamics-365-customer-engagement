@@ -16,7 +16,7 @@ ms.custom:
 ---
 # Extend transformer logic on templates
 
-Transformer logic refers to moving the values of specific fields from the Knowledge Article template to the knowledge article. Standard fields are supported out of the box. Organizations can overwrite the out-of-the-box transformer logic by creating a plug-in and registering it as a `msdyn_GetKAObjectFromTemplate` message.
+Transformer logic refers to moving the values of specific fields from the knowledge article template to the knowledge article. Standard fields are supported out of the box. Organizations can overwrite the out-of-the-box transformer logic by creating a plug-in and registering it as a `msdyn_GetKAObjectFromTemplate` message.
 
 To extend the transformer logic for your knowledge article templates:
 
