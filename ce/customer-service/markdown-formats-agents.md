@@ -40,7 +40,7 @@ To know the formats supported by the various channels, see [Support for formatte
 | hyperlink                 | https://www.microsoft.com            | <https://www.microsoft.com>    |
 | hyperlink with text       | [text]\(https://www.microsoft.com\)  | [Microsoft website](https://www.microsoft.com) |
 | monospace                 | \`\`\` <br> text<br>\`\`\`           | ```text```                     |
-| numbered list             |  <number> item one                   |  <ol><li> item one </li> <li> item two</li></ol>  |
+| numbered list             |  \<number\> item one                   |  <ol><li> item one </li> <li> item two</li></ol>  |
 | unordered list            | \* item one <br> or <br> - item one  |  \* item one <br> \* item two  |
 
 ### See also

@@ -36,7 +36,7 @@ The following table lists the Markdown formats used in inbound messages sent by 
 | hyperlink                 | https://www.microsoft.com         | https://www.microsoft.com             | <https://www.microsoft.com>    |
 | hyperlink with text       |[text]\(https://www.microsoft.com\)| [text]\(https://www.microsoft.com\)   | [Microsoft website](https://www.microsoft.com)  |
 | monospace                 | \`\`\` <br> text<br>\`\`\`        | \`\`\` <br> text<br>\`\`\`            | ```text```                     |
-| numbered list             |  <number> item one                | <number> item one                     |  1. item one <br> 2. item two  |
+| numbered list             |  \<number\> item one                | \<number\> item one                     |  1. item one <br> 2. item two  |
 | unordered list            |\* item one <br>or<br> - item one  | `\* item one <br> or <br> - item one  |  \* item one <br> \* item two  |
 
 For inbound messages, set the Markdown text to the [Activity](/azure/bot-service/rest-api/bot-framework-rest-connector-api-reference?view=azure-bot-service-4.0#activity-object&preserve-view=true) object's `text` property.
