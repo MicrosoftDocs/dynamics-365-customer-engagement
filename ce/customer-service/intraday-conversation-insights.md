@@ -120,10 +120,7 @@ If the operating hours of the queue are updated to a new schedule, the latest op
 
 ### Modify thresholds
 
-You can update the thresholds for out of the box reports to suit your business needs in a customer configured BI workspace.
-
-   > [!NOTE]
-   > You can’t edit out of the box reports for a pre-configured BI workspace.
+In a BI workspace that's custom configured, you can update the thresholds for the metrics that are displayed in the out-of-the-box reports. However, you can't modify the thresholds in a preconfigured BI workspace.
 
 1. Open the report in Power BI.
 
