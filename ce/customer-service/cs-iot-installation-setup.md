@@ -4,7 +4,7 @@ description: "Understand how to create customized IoT solutions in Connected Cus
 ms.date: 02/11/2022
 ms.topic: article
 author: lalexms
-ms.author: mgandham
+ms.author: lalexms
 manager: shujoshi
 ---
 
@@ -173,7 +173,8 @@ You can create a new IoT device category in the Customer Service Hub or on Custo
        
         The **Active IoT Device Categories** view is displayed. You can switch between various system views using the drop-down list. 
    
-2.  On the command bar, click **New**.  
+
+2.  On the command bar, select **New**.  
   
 3.  Enter a **Name** for the device category.  
   
