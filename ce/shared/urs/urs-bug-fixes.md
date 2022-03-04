@@ -1,4 +1,19 @@
 
+## 3.12.79.2
+
+(Includes Resource Scheduling controls version 1.2.13.220534)
+
+- Fixed the bug: on new schedule board, search range is always 2 days instead of taking the time range set when use ‘Find availability’.
+- Fixed the bug: proper error message is not shown when an unprivileged user is trying to delete a booking from new schedule board. 
+- Fixed the bug: Quick book is throwing "Cannot read properties of undefined (reading 'from')"error message when: (1) requirement group without from date (2)custom entity without from/to mapping.
+- Fixed the bug: on new schedule board, Date fields on the booking panel use incorrect date format.
+- Fixed the bug: Booking on new Schedule Board does not reflect booked hours     correctly for project team member.
+- Fixed the bug: On new schedule board, proper error message is not shown when user is trying to delete a record that has some related booking alert records.  
+- Fixed the bug: “Date-time format for /Date is invalid or value is outside of supported range" when using retrieve Resource Query on the new schedule board.
+- Fixed the bug: Unable to change booking status in New Schedule Board. 
+- Fixed the bug: KPI panel on new schedule board is not updated when booking suggestions.
+- Fixed the bug: Race condition when rendering availability slots in SA mode.
+
 ## 3.12.71.20
 
 (Includes Resource Scheduling controls version 1.2.12.220462)
