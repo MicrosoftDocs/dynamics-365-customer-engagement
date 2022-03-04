@@ -69,7 +69,7 @@ To acquire new phone numbers for your business, you must first [connect to Azure
 
    a. Select **Country/Region** from the dropdown list. The list of available plans for the selected country or region appears.
 
-   b. Select the **Number type**, whether **Toll-free** or **Geographic**.
+   b. Select the **Number type**, whether **Toll-free** or **Geographic**. More information: [Number types and features](/azure/communication-services/concepts/telephony/plan-solution.md#azure-subscriptions-eligibility)
 
    c. Select the **Calling plans**&mdash;**Receive calls**, **Make calls**, or both.
 
