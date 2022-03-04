@@ -22,7 +22,7 @@ By default, skill-based routing is enabled. You can create skills to attach to a
 
 ## Prerequisite
 
-To ensure that the skill control loads and displays properly, you must [allow access to these websites](system-requirements-omnichannel.md#allow-access-to-websites).  
+To ensure that the skill control is loaded and displayed properly, you must [allow access to these websites](system-requirements-omnichannel.md#allow-access-to-websites).  
 
 ## Enable agents to update skills at runtime
 
