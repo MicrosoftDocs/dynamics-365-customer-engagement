@@ -23,7 +23,7 @@ Dynamics 365 provides a custom control that you can embed in your forms to view 
 ## Prerequisites
 
 - To add the skill control, you must have the System Administrator or System Customizer security role, or equivalent permissions. For more information about your security role, go to [View your user profile](../basics/view-your-user-profile.md).
-- To ensure that the skill control loads and displays properly in the routed records, you must [allow access to these websites](system-requirements-omnichannel.md#allow-access-to-websites).  
+- To ensure that the skill control is loaded and displayed for the routed records, you must [allow access to these websites](system-requirements-omnichannel.md#allow-access-to-websites).  
 
 ## Add skill control
 
