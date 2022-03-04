@@ -1,6 +1,6 @@
 ---
 title: "Versium Predict (Dynamics 365 Sales) | MicrosoftDocs"
-description: ""
+description: "Use Versium Predict with Dynamics 365 Sales to increase your marketing and sales effectiveness using predictive analytics to precisely target your campaigns."
 ms.date: 09/30/2017
 ms.service: dynamics-365-sales
 ms.topic: article
@@ -15,7 +15,7 @@ ms.custom:
 # Versium Predict
 <a name="heroArea"></a> [![Get started with Versium Predict](../versium-predict/media/get-started-versium-predict.png "Get started with Versium Predict.")](https://predict-help.versium.com/wp-content/uploads/2016/10/predict-video-1min-update.mp4)
 
- Use Versium Predict with Dynamics 365 Sales to increase your marketing and sales effectiveness. Enhance your existing marketing process with predictive analytics that allow you to precisely target your campaigns.
+Use Versium Predict with Dynamics 365 Sales to increase your marketing and sales effectiveness. Enhance your existing marketing process with predictive analytics that allow you to precisely target your campaigns.
 
  With Versium Predict, you can:
 
