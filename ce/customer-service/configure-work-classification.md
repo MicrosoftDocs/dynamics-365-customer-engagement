@@ -90,7 +90,7 @@ Follow these steps to create a manual skill classification ruleset:
 7. If you want to manually set up the skill attribute, in the **Conditions** area, define the conditions, and select the required value in the **Output** area for the skill that needs to be set.
 
    > [!Note]
-   > Make sure that the rating model that you choose for a skill in the work classification rule is same as the rating model that's defined for the skill attached to the agent. Also, make sure that you don't define two rating models for the same skill.
+   > Ensure that the rating model that you choose for a skill in the work classification rule is same as the rating model that's defined for the skill attached to the agent. Also, ensure that you don't attach the same skill with two different rating models.
 
 ## Create classification rulesets based on capacity profiles
 
