@@ -152,6 +152,9 @@ If you want to change the calling plan, or upgrade the calling or SMS plans on a
 
 If you no longer need a phone number, you can release it from your organization's phone number list. However, before you plan to remove the phone number from your business, you must remove the number from any associated workstreams or outbound profiles. Also, if the number is assigned as a personal number to any agent, you must disable the number, and then try releasing it again.
 
+<!-->
+To simply disconnect phone numbers from an Azure Communication Services resource, see [Disconnect from Azure Communication Services resource](voice-channel-acs-resource.md#disconnect-from-azure-communication-services-resources).-->
+
 > [!Important]
 > When you release a phone number, you actually delete it from Dynamics 365, so release a number only if you're sure that you don't need it at all.
 
@@ -162,6 +165,8 @@ If you no longer need a phone number, you can release it from your organization'
 2. Select a phone number and select **Release number**. The **Release number** dialog requesting you to confirm the number deletion is displayed.
 
 3. Select **OK** if you're sure you don't need the number. The phone number is removed from your organization and is no longer displayed in the **Phone numbers** list.
+
+
 
 ### See also
 

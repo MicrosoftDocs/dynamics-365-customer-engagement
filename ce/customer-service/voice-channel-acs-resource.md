@@ -28,7 +28,7 @@ Before you connect to an Azure Communication Services resource, ensure you have 
 
 > [!Important]
 > - If you're using a trial phone number, you must end the trial to be able to see the options to connect to a new or existing Azure Communication Services resource.
-- The **Get started** button to connect to a new or existing Azure Communication Services resource will appear only when the trial has ended or when you've disconnected from the Azure Communication Services resource.
+> - The **Get started** button to connect to a new or existing Azure Communication Services resource will appear only when the trial has ended or when you've disconnected from the Azure Communication Services resource.
 
 ### Connect to a new Azure Communication Services resource
 
@@ -263,7 +263,7 @@ The following sections include short procedures that explain how you can get res
 
 If you're no longer using an Azure Communication Services resource or want to connect to different resource, you can disconnect the current resource, and later reconnect to a new or existing resource by selecting the **Get started** button.
 
-To simply release or remove one or more phone numbers from your organization, without disconnecting from the Azure Communication Services resource, see [Release phone numbers](voice-channel-manage-phone-numbers.md#release-phone-numbers).
+To permanently release or remove one or more phone numbers from your organization, see [Release phone numbers](voice-channel-manage-phone-numbers.md#release-phone-numbers).
 
 > [!Important]
 > Disconnecting a resource also releases any phone numbers associated with that resource from Dynamics 365. So, be sure to disconnect a resource only if you're sure no longer need it.
