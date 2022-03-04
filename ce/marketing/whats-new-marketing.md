@@ -30,13 +30,13 @@ Marketing updates are [pushed to customers automatically](https://cloudblogs.mic
 
 ### March 2022 update
 
-The Dynamics 365 Marketing March 2021 update includes some great new features. This release includes two preview features from the [2022 wave 1 release plans](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/get-started): responses for SMS messages and a bring your own data lake option for Customer Insights integration. The update also includes enhancements to customer journeys, marketing emails, performance upgrades, and bug fixes.
+The Dynamics 365 Marketing March 2021 update includes many new features. This release includes two preview features from the [2022 wave 1 release plans](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/get-started): a bring your own data lake option for Customer Insights integration and new out-of-the-box triggers for events and forms. The update also includes enhancements to marketing emails, partial and relative dates in real-time marketing personalization, performance upgrades, and bug fixes.
 
 #### Version number
 
 | App              | GA release      |
 |------------------|-----------------|
-| Marketing        | 1.35.XXXXX.XXXX |
+| Marketing        | 1.35.10081.2002 |
 
 > [!Tip]
 > To check your current version number, go to **Settings** > **Overview** > **Versions**.
@@ -48,32 +48,31 @@ The Dynamics 365 Marketing March 2021 update includes some great new features. T
 > 
 > Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
 
-- **Continue the conversation with your customers by taking action on their SMS replies**
-    - Allow your customers to respond to your SMS messages. Personalize their experience by defining custom keywords that will guide their journey based on their responses.
-    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/continue-conversation-customers-taking-action-their-sms-replies)
 - **Connect Dynamics 365 Customer Insights with customer journey orchestration when using your own data lake**
     - Use Dynamics 365 Customer Insights data, such as customer profile and segment information, that is stored in Azure Data Lake Storage in the same way you do today with standard Customer Insights connected to Microsoft Dataverse.
     - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/connect-dynamics-365-customer-insights-customer-journey-orchestration-when-using-own-data-lake)
+- **Quickly create customer journeys triggered by marketing interactions such as webinar check-ins and form submissions**
+    - New out-of-the-box triggers allow you to create customer journeys triggered by marketing interactions such as webinar check-ins and form submissions.
+    - Learn more: [Real-time marketing triggers](real-time-marketing-event-triggers.md).
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of new triggers.](media/real-time-marketing-new-oob-triggers.png "Screenshot of new triggers")
 
 #### Monthly enhancements
 
 ##### Real-time marketing
 
-- **Customer journeys**
-    - New out-of-the-box triggers allow you to create customer journeys triggered by marketing interactions such as webinar check-ins and form submissions.
-    - The condition builder for real-time marketing customer journeys now supports partial and relative dates.
+> [!Note]
+> “Event triggers” are now called “triggers” in the app and the documentation. The change was made to avoid confusion when referencing event management functionality versus triggering real-time marketing event-based journeys.
+
 - **Marketing emails**
-    - Link buttons or images to URLs, surveys, events, or marketing pages. You can also create button or image links that allow recipients to join a Microsoft Teams event or that create a new calendar item.
+    - Link buttons or images to URLs, surveys, events, marketing pages, or files. You can also create button or image links that allow recipients to join a Microsoft Teams event or that create a new calendar item. Learn more: [Create real-time marketing emails](real-time-marketing-email.md).
 
-##### Outbound marketing
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of link options for real-time marketing email.](media/real-time-marketing-email-button2.png "Screenshot of link options for real-time marketing email")
 
-- **Marketing insights**
-    - You can now disable analytics exports.
-
-##### Global updates
-
-- **First run experience**
-    - Real-time marketing features are now automatically installed when outbound marketing is installed.
+- **Personalization**
+    - Now, you can personalize both an email and the customer’s journey relative to important milestones (such as order date, upcoming appointment, etc.) by creating content variations and branches that use relative and partial dates when defining a condition using dates. Partial dates allow you to define conditions such as "Birthday is today" and relative dates allow you to define conditions such as "Birthday is next month". So, depending on when an email goes out and how close it is to someone’s birthday, a different offer can be shown. Learn more: [Personalize content]real-time-marketing-personalization.md).
 
 #### Bug fixes
 

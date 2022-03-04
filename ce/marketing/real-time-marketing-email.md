@@ -68,4 +68,13 @@ Add feature-rich links to emails by directly linking to documents stored in the 
 
 Using images or buttons in the real-time marketing email editor, you can link to surveys, events, or marketing pages. You can also create button or image links that allow recipients to join a Microsoft Teams event or that create a new calendar item.
 
-Learn more about button and image links: [Generate iCalendar files for events and sessions](add-to-calendar.md).
+  > [!div class="mx-imgBorder"]
+  > ![Screenshot of link options for real-time marketing email.](media/real-time-marketing-email-button2.png "Screenshot of link options for real-time marketing email")
+
+The **Link to** dropdown allows the following options for Team check-ins and calendar items:
+
+- **Teams check-in**: You can select a specific Teams event or session that your button or image should link to.
+- **Add to Calendar**: You can link to an iCalendar file. You can choose the information you want to include in the iCalendar file using the **What should be added to calendar** dropdown. The options include:
+    - **Only the event**: The iCalendar file will contain only the event the contact has registered for.
+    - **Event and sessions registered**: The file will contain information for the event and the sessions the contact has registered for.
+    - **Only sessions registered**: The file will contain only the event sessions the contact has registered for.

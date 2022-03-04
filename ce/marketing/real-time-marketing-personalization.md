@@ -139,6 +139,22 @@ Placeholder 2 true:
 > [!div class="mx-imgBorder"]
 > ![Screenshot showing conditions set to false.](media/real-time-marketing-personalization-condition-denmark-false.png)
 
+### Partial and relative dates in conditional content
+
+You can use relative and partial dates when defining a condition using dates. Partial dates allow you to define conditions such as "Birthday is Today" or "Birthday is this month" allowing you to create more flexible personalized content.
+
+#### Partial dates
+
+Partial dates allow you to define a conditions such as "Birthday is Today" or "Birthday is this month" allowing you to create more flexible personalized content. The available options with partial dates are as follows:
+
+- The day can be checked for (1) Any Day, (2) Today (3) a specific Day (e.g., 15), or (4) Day of the week(s) (e.g., Monday and Wednesday).
+- Month can be checked for (1) Any Month, (2) This month, or (3) a specific month (e.g., February).
+- Year can be checked for (1) Any year, (2) This year, or (3) a specific year (1922-2027).
+
+#### Relative dates
+
+Relative dates allow you to define conditions such as "Birthday is next month" or "Birthday was 2 days before today." Options here include ability to specify number of Days, months, or years "from today" or "before today."
+
 ## Lists of content
 
 Lists (each) statements allow you to format and display repeated content for a given table. You can add the code required to create these statements in the designer or in the HTML view. You can then use the placeholder dialog to specify the list to be evaluated including the number of rows to display and the order to display them in.
