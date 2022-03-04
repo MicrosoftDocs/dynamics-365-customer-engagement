@@ -68,6 +68,9 @@ You can manage members in a static marketing list by using one of the following 
 - [Remove using Advanced Find](#remove-using-advanced-find)
 - [Evaluate using Advanced Find](#evaluate-using-advanced-find)
 
+> [!NOTE]
+> To add more than 30,000 members to a marketing list, you must either be a part of the Salesperson security role or higher, or have the **List Operation** permission.
+
 ### Add using Lookup
 
 This option allows you to add members to a marketing list by searching through the records.
