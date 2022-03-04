@@ -24,11 +24,11 @@ To provision phone numbers for your business in Omnichannel for Customer Service
 Before you connect to an Azure Communication Services resource, ensure you have the following details:
 
 - An Azure subscription that's in the same tenant as your Dynamics 365 account. Ensure that your Azure subscription meets the [Azure Subscriptions eligibility](/azure/communication-services/concepts/telephony-sms/plan-solution#azure-subscriptions-eligibility) requirements.
-- At least contributor-level permissions to the Azure subscription. To check your role, open your subscription and view the **My role** column of your subscription on the Azure portal. You'll be able to deploy your Azure resource only if you have contributor-level permissions.
+- At least contributor-level permissions to the Azure subscription. To check your role, open your subscription and view the **My role** column of your subscription on the Azure portal. You'll be able to deploy your Azure Communication Services resource only if you have contributor-level permissions.
 
 > [!Important]
 > - If you're using a trial phone number, you must end the trial to be able to see the options to connect to a new or existing Azure Communication Services resource.
-- 
+- The **Get started** button to connect to a new or existing Azure Communication Services resource will appear only when the trial has ended or when you've disconnected from the Azure Communication Services resource.
 
 ### Connect to a new Azure Communication Services resource
 
@@ -46,7 +46,7 @@ Before you connect to an Azure Communication Services resource, ensure you have 
 
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
 
-   - In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**, and then select **Get started**. The **Connect to Azure Communication Services** dialog opens.
+   In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**, and then select **Get started**. The **Connect to Azure Communication Services** dialog opens.
 
 2. Select **Create new resource** and enter the following details:
    - **Azure subscription**: Select a subscription from the dropdown list.
@@ -57,7 +57,8 @@ Before you connect to an Azure Communication Services resource, ensure you have 
 3. Select **Deploy** to create and deploy the resource.
     > [!div class="mx-imgBorder"]
     > ![Create new resource.](./media/voice-channel-number-mgmt-azure-create-new-resource.png "Create new resource.")
-You're now connected to Azure Communication Services.
+
+You're now connected to Azure Communication Services, and can [acquire new phone numbers](voice-channel-manage-phone-numbers.md) for your organization via the new resource.
 
 ## Advanced: Connect to an existing Azure Communication Services resource
 
@@ -86,7 +87,7 @@ Before you proceed with adding an existing resource to Azure Communication Servi
     > [!div class="mx-imgBorder"]
     > ![Azure resource is connected to Azure Communication Services.](./media/voice-channel-acs-connection.png "Azure resource is connected to Azure Communication Services.")
 
-   Your existing Azure resource is now connected to Azure Communication Services. You'll be able to provision or acquire new phone numbers for your organization. However, to acquire or purchase phone numbers, you'll need to contact or wait to be contacted by a Microsoft voice program manager to be added to the Azure Communication Services allow list.
+   Your existing resource is now connected to Azure Communication Services. You'll be able to provision or acquire new phone numbers for your organization. However, to acquire or purchase phone numbers, you'll need to contact or wait to be contacted by a Microsoft voice program manager to be added to the Azure Communication Services allow list.
 
 5. Select **Add number**. The **Add phone number** page is displayed.
 
@@ -240,7 +241,7 @@ The following sections include short procedures that explain how you can get res
         
       c. In the **Manage Azure Communication Services** page that opens, select **Copy** next to **SMS Web Hook Endpoint**.
          > [!div class="mx-imgBorder"]
-         > ![Copy sms web hook endpoint.](./media/voice-channel-sms-webhook-endpoint.png "Copy sms web hook endpoint.")
+         > ![Copy SMS web hook endpoint.](./media/voice-channel-sms-webhook-endpoint.png "Copy SMS web hook endpoint.")
 
       d. Paste the web hook endpoint value in the **Subscriber Endpoint** field and select **Confirm Selection**.
 
@@ -254,9 +255,25 @@ The following sections include short procedures that explain how you can get res
    > [!div class="mx-imgBorder"]
    > ![Copy Application (client) ID.](./media/voice-channel-application-ID.png "Copy Application (client) ID.")
 
-4. Select **Create** to create the event subscription endpoints for SMS. This might take some time, so if you get an sync error, try refreshing after some time.
+4. Select **Create** to create the event subscription endpoints for SMS. This might take some time, so if you get a sync error, try refreshing after some time.
     > [!div class="mx-imgBorder"]
     > ![Successfully created event subscription endpoint for SMS.](./media/voice-channel-event-subscription-sms-success.png "Create event grid callbacks for SMS.")
+
+## Disconnect from Azure Communication Services resource
+
+If you're no longer using an Azure Communication Services resource or want to connect to different resource, you can disconnect the current resource, and later reconnect to a new or existing resource by selecting the **Get Started** button.
+
+To simply release or remove one or more phone numbers from your organization, without disconnecting from the Azure Communication Services resource, see [Release phone numbers](voice-channel-manage-phone-numbers.md#release-phone-numbers).
+
+> [!Important]
+> Disconnecting a resource also releases any phone numbers associated with that resource from Dynamics 365. So, be sure to disconnect a resource only if you're sure no longer need the resource.
+
+**To disconnect from an Azure Communication Services resource**
+
+1. In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**, and then select **Advanced**. The **Manage Azure Communication Services** dialog opens.
+2. Select **Disconnect**. A dialog requesting you to confirm the disconnection is displayed. 
+3. Select **Disconnect** again if you're sure you want to disconnect from the Azure Communication Services resource.
+   You've now disconnected the resource from Omnichannel for Customer Service. Any phone numbers associated with the resource will no longer be displayed in the **Phone numbers** list in Customer Service admin center (preview) or Omnichannel admin center.
 
 ### See also
 

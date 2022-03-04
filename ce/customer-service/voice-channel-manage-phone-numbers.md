@@ -17,9 +17,10 @@ manager: shujoshi
 
 Omnichannel for Customer Service helps you enable and use voice and SMS services seamlessly within Dynamics 365. As an administrator, you can purchase phone numbers and calling plans, decide whether you want to avail calling and/or SMS services, or whether you'd like to set up inbound or outbound calling options for your business.
 
-## Prerequisite
+## Prerequisites
 
-You must install the voice channel in Omnichannel for Customer Service. More information: [Install the voice channel](voice-channel-install.md)
+- [Install the voice channel in Omnichannel for Customer Service](voice-channel-install.md).
+- [Connect to Azure Communication Services using a new or existing Azure resource](voice-channel-acs-resource.md), and then deploy the resource through Dynamics 365.
 
 ## Use trial phone number
 
@@ -44,7 +45,7 @@ If you don't have any phone numbers set up for your business, see [Acquire new p
 
 ## Acquire new phone numbers
 
-To acquire new phone numbers for your business, you must first [connect to Azure Communication Services using a new or existing Azure resource](voice-channel-acs-resource.md), and then deploy the resource through Dynamics 365.
+You can purchase new phone numbers for your organization after you've installed the voice channel and have successfully connected to an Azure Communication Services resource.
 
 **To acquire a new phone number**
 
