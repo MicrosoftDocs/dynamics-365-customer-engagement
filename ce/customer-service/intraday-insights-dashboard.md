@@ -27,7 +27,7 @@ The information displayed in these reports is based on the conversations that we
 > [!IMPORTANT]
 >
 > - The intraday insights reports are available only in the English language, out of the box. You'll need to customize the reports to make them available in a language of your choice.
-> - In a customer configured BI workspace, you can perform the following customizations for out of the box reports:                                                            
+> - In a BI workspace that's custom configured, you can perform the following customizations for the out-of-the-box reports:                                                    
       - Change visualizations for KPIs displayed on the report                                                                                                            
       - Add visualizations for existing measures, KPIs, or fields to the report
 > - To help ensure that the most accurate and up-to-date data is displayed on the dashboard, be sure to follow [best practices for using Omnichannel for Customer Service](best-practices.md).
@@ -133,10 +133,10 @@ You can save your preferred time zone settings for reports as bookmarks. The boo
 
 ## Slice metrics by time
 
-The **Duration** option that is available in all reports lets you filter the report details. The filter helps you look at the metrics for the shift the supervisor is handling out of the entire 24 hours duration. The filter lets you report the data within the last four, eight, or 12 hours duration or apply a custom value as well. The metrics within the reports are calculated based on the conversations created in the selected time duration.
+The **Duration** option that's available in all reports lets you filter the report details. The filter helps you look at the metrics for the shift the supervisor is handling out of the entire 24 hours duration. The filter lets you report the data within the last four, eight, or 12 hours duration or apply a custom value as well. The metrics within the reports are calculated based on the conversations created in the selected time duration.
 
  > [!NOTE]
- > When you use the **Duration** filter, the report is always displayed in the UTC timezone, irrespective of the **Time zone** setting. This is due to a Power BI limitation. For more information, see [Power BI Considerations and limitations](/power-bi/visuals/desktop-slicer-filter-date-range.md#considerations-and-limitations).
+ > When you use the **Duration** filter, the report is always displayed in the UTC timezone, irrespective of the **Time zone** setting. This is due to a Power BI limitation. More information: [Power BI Considerations and limitations](/power-bi/visuals/desktop-slicer-filter-date-range.md#considerations-and-limitations).
 
 Let's look at an example to understand the data refresh of the reports.
 
