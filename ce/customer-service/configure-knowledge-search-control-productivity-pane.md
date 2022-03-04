@@ -28,13 +28,13 @@ searchScope:
 
 ## Introduction
 
-You can configure how you want the knowledge base search control to appear for your entities on the app side pane of Customer Service Workspace and Omnichannel for Customer Service apps. To do so, you will need to first add the record types for which you want to turn on knowledge management and then configure the record type settings.
+You can configure how you want the knowledge base search control to appear for your entities on the app side pane of Customer Service workspace and Omnichannel for Customer Service apps. To do so, you will need to first add the record types for which you want to turn on knowledge management and then configure the record type settings.
 
 Configuring a record type will specify the information that your agents will see while they interact with customers. **Case** and **Conversation** record types are enabled by default. The **Conversation** record type will be available by default if you have purchased add-on SKUs, such as Chat, Digital messaging, or Voice. If you are an existing user, you will also see all the entities previously enabled by you.
 
 ## Add record types for which you want to turn on knowledge management
 
-Go to the Customer Service admin center (preview) or Customer Service Hub app, and perform the following steps:
+Go to the Customer Service admin center or Customer Service Hub app, and perform the following steps:
 
 ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
@@ -62,16 +62,17 @@ To set up knowledge search control on the app side pane, see [Configure knowledg
 After you have added the record types for which you want to turn on knowledge management, you can configure the knowledge search control on the app side pane by editing the record type.
 
 > [!NOTE]
-> You can configure the knowledge settings for record types only from the Customer Service admin center (preview) app. Record types for which you have turned on knowledge management from the Customer Service Hub app will also be available to you for configuration from the Customer Service admin center (preview) app.
+> You can configure the knowledge settings for record types only from the Customer Service admin center app. Record types for which you have turned on knowledge management from the Customer Service Hub app will also be available to you for configuration from the Customer Service admin center app.
 
 To edit an entity record:
 
 1. On the **Record Types** page, select the entity you want to edit.
-1. Click **Edit**. The **Set up Knowledge settings on the app side pane** dialog appears.
-1. In **Automatic search**, set the **Turn on automatic search** toggle to yes, if you want automatic search to be enabled for your entity record.
-1. From the **Provide search results using** dropdown list, select the field by which search results will be provided for the entity.
-1. In **Actions**, set the toggle as per your requirements for the following:
-    * **Link/unlink article**
+1. Select **Edit**. The **Knowledge settings** dialog appears.
+1. In **Automatic search**:
+    - Set the **Turn on automatic search** toggle to yes, if you want automatic search to be enabled for your entity record.
+    - From the **Provide search results using** dropdown list, select the field by which the search results will be provided for the entity.
+1. In **Actions**, select the checkboxes as required for the following:
+    * **Link / unlink article**
     * **Copy URL**
     * **Link article and email URL**
     * **Link article and send article content**
@@ -84,7 +85,7 @@ To edit an entity record:
 
 ### See also  
 
- [Add the Knowledge Base Search control to a form](../customer-service/add-knowledge-base-search-control-forms.md)   
+ [Add the Knowledge Base Search control to a form](../customer-service/add-knowledge-base-search-control-forms.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
