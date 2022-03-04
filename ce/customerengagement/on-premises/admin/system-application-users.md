@@ -4,7 +4,7 @@ description: "System users are created when the system is provisioned. Find info
 ms.custom: 
 ms.date: 10/21/2021
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

@@ -2,7 +2,7 @@
 title: "Manage, score, and evaluate leads (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to generate, collect information about, and qualify leads in Dynamics 365 Marketing."
 ms.date: 04/01/2018
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
   - intro-internal

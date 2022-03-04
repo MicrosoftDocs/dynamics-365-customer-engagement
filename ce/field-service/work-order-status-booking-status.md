@@ -3,7 +3,7 @@ title: "Work order and booking statuses in Dynamics 365 Field Service | Microsof
 description: Learn about work order and booking statuses in Dynamics 365 Field Service
 ms.date: 11/04/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"

@@ -1,11 +1,12 @@
 ---
 title: "Integrate LinkedIn Sales Navigator with Dynamics 365 Sales"
 description: "Learn how to integrate the Sales Navigator solutions with Dynamics 365 Sales to enhance your business processes with data about people and organizations."
-keywords: integration, sales navigator, linkedin, versions
 ms.date: 04/30/2019
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
+author: lavanyakr01
+ms.author: lavanyakr
+manager: shujoshi
+keywords: integration, sales navigator, linkedin, versions
 search.audienceType: 
   - admin
   - customizer

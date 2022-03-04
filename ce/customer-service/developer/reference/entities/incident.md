@@ -3,15 +3,15 @@ title: "Incident Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the Incident entity."
 ms.date: 10/12/2020
 ms.topic: "reference"
-author: "platkat"
-ms.author: "ktaylor"
+author: "mh-jaya"
+ms.author: "v-jmh"
 manager: "shujoshi"
+ms.reviewer: nenellim
 search.audienceType: 
   - developer
 search.app: 
   - PowerApps
   - D365CE
-ms.reviewer: nenellim
 ---
 # Incident Entity Reference 
 

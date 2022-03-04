@@ -52,19 +52,33 @@ The inactive presence is not available for manual selection by the agents; if th
 
 In addition to the out-of-box presence statuses, admins can configure custom presence statuses for agents that must be mapped to a base presence. For example, if the agents on your team want to attend a training, you can create a custom **Away – In Training** presence status. When you map a custom presence to a base presence, make sure that the configurations are logically viable. For example, if you map an available custom presence to offline base status, the application will treat it as offline while the visual effect would be available.
 
-Perform the following steps to create a presence record:
+**To create a presence record**
 
-1. In the site map of Omnichannel admin center, select **Agent experience** under Advanced settings, and then select **Manage** for **Custom Presence**. If you're using the Omnichannel Administration app, under **Agent Experience**, select **Custom presence**. The **Active Presences** view is displayed.
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
 
-2. On the command bar, select **New** to create a presence record.
-3. On the **Summary** tab, provide the following information:
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+    > [!IMPORTANT]
+    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+    - In the site map, in **Agent experience**, select **Productivity**.
+   
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter) 
+
+     - In the site map, in **Advanced settings**, select **Agent experience**.
+    
+1. Select **Manage** for **Custom Presence**.
+
+1. On the command bar, select **New** to create a presence record.
+
+1. On the **Summary** tab, provide the following information:
 
     1. **Name**: Enter a name for the custom presence status.
     2. **Presence Text**: Enter presence text that should be associated with the new custom entity.
     3. **Base Status**: Select the most applicable base status in the list.
     4. **Description**: Enter a brief description of the custom presence record.
 
-4. Select **Save**.
+1. Select **Save**.
 
 > [!div class=mx-imgBorder]
 > ![custom presence.](media/oc-custom-presence-example.png)

@@ -3,8 +3,8 @@ title: Select a template to configure forecasting
 description: Select a template to define the hierarchy to use in a forecast in Dynamics 365 Sales.
 ms.date: 03/01/2022
 ms.topic: article
-author: udaykirang
-ms.author: udag
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 ms.custom: 
   - dyn365-sales

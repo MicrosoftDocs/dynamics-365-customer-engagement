@@ -1,7 +1,7 @@
 ---
-title: Select a default forecast
-description: When you have multiple forecasts configured in Sales Hub, select one as the default.
-ms.date: 02/28/2022
+title: "Select a default forecast (Preview)"
+description: "When you have multiple forecast configurations, you can select the most used forecast configuration as the default."
+ms.date: 02/24/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -17,6 +17,9 @@ searchScope:
 # Select a default forecast (preview)
 
 If your organization has configured multiple forecasts, save your users time and select one to be displayed by default when they open the Forecasts page.
+
+> [!NOTE]
+> You can also specify the default experience for the underlying records of the forecast. More information: [Preview: Set the default experience for underlying records](forecast-configure-advanced-settings.md#preview-set-the-default-experience-for-underlying-records).
 
 ## License and role requirements
 

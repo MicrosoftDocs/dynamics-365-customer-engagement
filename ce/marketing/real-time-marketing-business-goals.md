@@ -2,7 +2,7 @@
 title: "Set a business goal and measure progress through a journey (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to set real-time marketing business goals and measure progress in Dynamics 365 Marketing."
 ms.date: 08/02/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -43,7 +43,7 @@ Using the goal-setting feature, you can:
 
 | Goal                        | Examples                                                           | Possible goal measurements                                                                  |
 |-----------------------------|--------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| Drive a purchase            | - Cart abandonment campaigns <br> - Promote sales for new products | - Checkout custom event trigger on the website <br> - "Thank you for purchasing" email open |
+| Drive a purchase            | - Cart abandonment campaigns <br> - Promote sales for new products | - Checkout custom trigger on the website <br> - "Thank you for purchasing" email open |
 | Engage customers            | - Satisfaction survey campaigns                                    | - Message is opened or clicked                                                              |
 | Increase loyalty            | - Upsell campaigns                                                 | - User is upgraded from a lead to a contact                                                 |
 | Onboard new people          | - Remind customers who did not finish the sign-up process          | - Message is opened or clicked                                                              |

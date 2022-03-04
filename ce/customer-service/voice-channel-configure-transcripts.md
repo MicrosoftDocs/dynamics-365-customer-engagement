@@ -4,10 +4,10 @@ description: "Learn how to configure call recordings and transcripts in the voic
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 11/02/2021
+ms.date: 02/18/2022
 ms.topic: article
 ms.custom: intro-internal
-ms.service: dynamics-365-customerservice
+
 ---
 
 # Configure call recordings and transcripts in the voice channel 
@@ -23,22 +23,27 @@ As an administrator, you can enable live transcription and recording of calls, w
 
 ## Enable call recordings and transcripts for voice
 
-1. In the Omnichannel admin center, under **General settings** on the site map, select **Workstreams**.
-2. Select the workstream for which you want to enable recordings and transcripts.
-3. In the **Phone number** section, next to the pencil icon, select **Edit**.
-4. On the **Voice settings** page, select the **Behaviors** tab.
+1. In Customer Service admin center (preview) or Omnichannel admin center, select the workstream for which you want to enable recordings and transcripts.
+
+1. In the **Phone number** section, next to the pencil icon, select **Edit**.
+
+1. On the **Voice settings** page, select the **Behaviors** tab.
    > [!div class="mx-imgBorder"]
    > ![Screenshot of Behaviors tab on the Voice settings page.](./media/voice-channel-recording-number.png)
-5. In the **Transcription and recording** section, select the **Transcript and recording** dropdown menu, select either **Transcription** or **Transcription and recording**, depending on your preference.
-6. Under **Start setting**, set the toggle to **Automatic** if you want calls to be automatically recorded and transcribed when they begin, or **Manual** if you want allow agents to choose when they start recording and transcribing their calls.
-7. Set **Allow agents to pause and resume** if you want to allow agents to control the portions of conversations that they record and transcribe.
-8. Select **Save**.
+
+1. In the **Transcription and recording** section, select the **Transcript and recording** dropdown menu, select either **Transcription** or **Transcription and recording**, depending on your preference.
+
+1. Under **Start setting**, set the toggle to **Automatic** if you want calls to be automatically recorded and transcribed when they begin, or **Manual** if you want allow agents to choose when they start recording and transcribing their calls.
+
+1. Set **Allow agents to pause and resume** if you want to allow agents to control the portions of conversations that they record and transcribe.
+
+1. Select **Save**.
 
 ## View call transcripts
 
 You can view the call transcriptions in Omnichannel admin center.
 
-1. In the Omnichannel admin center, under **General settings** on the site map, select **Users**, and then select the user whose conversations you want to view.
+1. In Customer Service admin center (preview) or Omnichannel admin center,  go to manage **Users**, and then select the user whose conversations you want to view.
 2. Select the **Related** tab, and then select **Conversations** from the dropdown menu.
 3. Select **Closed conversations** from the dashboard dropdown menu.
 

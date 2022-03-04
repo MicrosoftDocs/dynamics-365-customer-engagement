@@ -2,7 +2,6 @@
 title: "Create real-time marketing emails (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create real-time marketing emails in Dynamics 365 Marketing."
 ms.date: 08/02/2021
-ms.service: dynamics-365-marketing
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -35,8 +34,8 @@ The real-time marketing email editor has a new assist edit control to bind perso
 #### Add personalized data to a real-time marketing email
 
 1. Create a placeholder by adding a text field and then selecting the **Personalization** button ![Personalization button.](media/real-time-marketing-personalization.png "Personalization button") in the toolbar.
-1. Select **Select a data field** to choose a data source. Your data source can be based on an **Audience**, an **Event trigger**, or **Compliance**.
-1. After choosing the data source, you can search for the specific attribute or event trigger you are looking for.
+1. Select **Select a data field** to choose a data source. Your data source can be based on an **Audience**, a **Trigger**, or **Compliance**.
+1. After choosing the data source, you can search for the specific attribute or trigger you are looking for.
 1. Add a **Label** to quickly identify your token in the message content.
 1. Personalized tokens are highlighted in the content designer.
 1. You can see and edit all your tokens in the **Personalize** tab in the **Toolbox**.
@@ -52,3 +51,15 @@ Learn more about the [Asset library](real-time-marketing-asset-library.md)
 
 > [!div class="mx-imgBorder"]
 > ![Image suggestions screenshot.](media/real-time-marketing-image-suggestions.png "Image suggestions screenshot")
+
+### Link to documents and videos stored in the asset library
+
+Add feature-rich links to emails by directly linking to documents stored in the asset library. To link to a document or video:
+
+1. Add a button or image to a real-time marketing email.
+1. In the button or image editing pane, select the **Link to** dropdown then select **File download**.
+1. To link to a document in the image library, select **Choose a file** then select **Browse library** and choose your file.
+1. Alternatively, you can upload a new file to link to by selecting **Upload to library**.
+
+> [!div class="mx-imgBorder"]
+> ![File select screenshot.](media/real-time-marketing-email-file-link.png "File select screenshot")

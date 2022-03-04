@@ -1,12 +1,12 @@
 ---
 title: "Manage phone numbers | MicrosoftDocs"
 description: "Use this topic to understand how you can acquire new phone numbers, and also view, update, and release existing phone numbers in Omnichannel for Customer Service."
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
-ms.date: 02/11/2022
-ms.topic: article
+ms.date: 02/18/2022
 ms.service: dynamics-365-customerservice
+ms.topic: article
+author: gandhamm
+ms.author: mgandham
+manager: shujoshi
 ---
 
 # Manage phone numbers
@@ -19,7 +19,7 @@ Omnichannel for Customer Service helps you enable and use voice and SMS services
 
 ## Prerequisite
 
-You must provision the voice channel in Omnichannel for Customer Service. More information: [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)
+You must install the voice channel in Omnichannel for Customer Service. More information: [Install the voice channel](voice-channel-install.md)
 
 ## Use trial phone number
 
@@ -69,7 +69,7 @@ To acquire new phone numbers for your business, you must first [connect to Azure
 
    a. Select **Country/Region** from the dropdown list. The list of available plans for the selected country or region appears.
 
-   b. Select the **Number type**, whether **Toll-free** or **Geographic**.
+   b. Select the **Number type**, whether **Toll-free** or **Geographic**. More information: [Number types and features](/azure/communication-services/concepts/telephony/plan-solution.md#azure-subscriptions-eligibility)
 
    c. Select the **Calling plans**&mdash;**Receive calls**, **Make calls**, or both.
 

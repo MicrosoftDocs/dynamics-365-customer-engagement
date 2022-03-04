@@ -2,7 +2,7 @@
 title: "Create a simple customer journey (Dynamics 365 Marketing) | Microsoft Docs"
 description: "A tutorial for how to set up a customer journey that implements a simple email blast in Dynamics 365 Marketing."
 ms.date: 12/09/2020
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

@@ -88,6 +88,8 @@
       href: csw-overview.md
     - name: Use Customer Service Team Member
       href: customer-service-team-member.md
+    - name: Omnichannel Administration
+      href: omnichannel-administrator.md  
     - name: Omnichannel for Customer Service
       items: 
       - name: Omnichannel for Customer Service
@@ -514,6 +516,8 @@
       items:
       - name: Introduction to the voice channel
         href: voice-channel.md
+      - name: Install the voice channel
+        href: voice-channel-install.md  
       - name: Connect to Azure Communication Services
         href: voice-channel-acs-resource.md  
       - name: Manage phone numbers
@@ -740,7 +744,7 @@
           href: bring-your-own-channel.md
         - name: Test the custom messaging channel
           href: test-custom-channel-sample-html.md
-        - name: Markdown formats
+        - name: "Markdown formats: Direct Line"
           href: markdown-formats-dev.md
     - name: Support for live chat and asynchronous channels
       href: card-support-in-channels.md
@@ -750,6 +754,8 @@
       href: create-operating-hours.md
     - name: Configure and manage custom presence
       href: presence-custom-presence.md
+    - name: Configure file attachments
+      href: configure-file-attachment.md      
     - name: Enable file attachments
       href: enable-file-attachments.md
     - name: Enable formatted messages
@@ -848,7 +854,7 @@
     items: 
     - name: Introduction to Customer Service Insights
       href: introduction-customer-service-analytics.md
-    - name: Regional availability and service limits for Customer Service
+    - name: Regional availability, language availability, and service limits for Customer Service Insights
       href: cs-region-availability-service-limits.md
     - name: Administrator experience
       items: 
@@ -1432,14 +1438,14 @@
         items: 
         - name: getConversationID
           href: developer/reference/methods/getConversationId.md        
+        - name: getConversations
+          href: developer/reference/methods/getConversations.md   
+        - name: openConversation
+          href: developer/reference/methods/openConversation.md        
         - name: linkToConversation
           href: developer/reference/methods/linkToConversation.md
         - name: unlinkFromConversation
-          href: developer/reference/methods/unlinkFromConversation.md
-        - name: getConversations
-          href: developer/reference/methods/getConversations.md
-        - name: openConversation
-          href: developer/reference/methods/openConversation.md  
+          href: developer/reference/methods/unlinkFromConversation.md 
     - name: runMacro
       href: developer/reference/methods/runMacro.md
     - name: Action Reference
