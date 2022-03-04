@@ -4,7 +4,7 @@ description: "Use this topic to understand how to enable your agents to send and
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 02/18/2022
+ms.date: 03/04/2022
 ms.topic: article
 ---
 
