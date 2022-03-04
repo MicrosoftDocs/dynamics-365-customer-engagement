@@ -19,7 +19,7 @@ Microsoft Dynamics 365 Package Deployer enables you to deploy the **Unified Serv
 
 ## Download Unified Service Desk - Omnichannel for Customer Service packages
 
-Download one of the following versions of the **OmnichannelUnifiedServiceDeskPackage.zip**, and save it on your computer.
+Download one of the following versions of **OmnichannelUnifiedServiceDeskPackage.zip**, and save it on your computer.
 
 - [Unified Service Desk - Omnichannel for Customer Service package 3.3](https://go.microsoft.com/fwlink/p/?linkid=2189024)
 - [Unified Service Desk - Omnichannel for Customer Service package 3.2](https://go.microsoft.com/fwlink/p/?linkid=2154961)
