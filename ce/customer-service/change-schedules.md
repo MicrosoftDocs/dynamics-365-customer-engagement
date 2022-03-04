@@ -23,6 +23,8 @@ ms.custom:
 AFter you have created Customer service schedule and holiday schedules. More information: ref to CS and HS topics. However, if there is a change to the CS and holiday schedules of the SLA because of certain reasons, the best practices that you can follow have been listed in this topic. 
 
 ## How does the time calculation of SLA work, using CS and Holiday schedule?
+
+
 The Time Calculation in SLA refers to calculating the Warning time and failure time of SLA KPI instances. They are calculated based on the customer service schedule and the holiday schedule associated with the SLA KPI instance.
 Example:
 Working hours are 9AM - 5 PM (8 hours daily)
@@ -44,6 +46,7 @@ Whenever any SLA KPI instance is created, it will use the above information and 
 -SLA changed scenario
 -SLA Item is changed
 -SLA KPI instance is reapplied after terminal state (in case of Recalculation on Terminal State)
+
 As in above scenarios, It will read the latest calendar information and values will be re-calculated with new customer service schedule and the holiday schedule.
 If you want to change the existing customer service schedule which is already in use in the existing SLA KPI instances, you can follow the following suggestions.
 Disclaimer: Please validate all business scenarios and use cases to ensure all the use-cases are met before applying the changes to production.
@@ -52,6 +55,7 @@ If you have any one of these scenarios, where a change occurs to the CS or holid
 Note: Check your business scenarios to see whether they are falling under any one of these 4 categories or not.
 
 ## Scenarios
+
 **Scenario 1:**
 Only 1 SLA as Default
 •	  1 Calendar
