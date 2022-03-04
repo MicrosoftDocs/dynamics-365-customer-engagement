@@ -266,7 +266,7 @@ If you're no longer using an Azure Communication Services resource or want to co
 To simply release or remove one or more phone numbers from your organization, without disconnecting from the Azure Communication Services resource, see [Release phone numbers](voice-channel-manage-phone-numbers.md#release-phone-numbers).
 
 > [!Important]
-> Disconnecting a resource also releases any phone numbers associated with that resource from Dynamics 365. So, be sure to disconnect a resource only if you're sure no longer need the resource.
+> Disconnecting a resource also releases any phone numbers associated with that resource from Dynamics 365. So, be sure to disconnect a resource only if you're sure no longer need it.
 
 **To disconnect from an Azure Communication Services resource**
 
@@ -274,6 +274,11 @@ To simply release or remove one or more phone numbers from your organization, wi
 2. Select **Disconnect**. A dialog requesting you to confirm the disconnection is displayed. 
 3. Select **Disconnect** again if you're sure you want to disconnect from the Azure Communication Services resource.
    You've now disconnected the resource from Omnichannel for Customer Service. Any phone numbers associated with the resource will no longer be displayed in the **Phone numbers** list in Customer Service admin center (preview) or Omnichannel admin center.
+
+
+## Sync from Azure
+
+Sync existing numbers from your Azure Communication Services resources into Omnichannel for Customer Service. 
 
 ### See also
 
