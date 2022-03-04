@@ -1,7 +1,7 @@
 ---
 title: Configure knowledge search control on app side pane for an entity record (preview) | Microsoft Docs
 description: See how to configure the settings for knowledge search control in Dynamics 365 Customer Service
-ms.date: 02/11/2022
+ms.date: 03/04/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -24,21 +24,11 @@ searchScope:
  - Customer Engagement 
 ---
 
-# Configure knowledge search control on app side pane for an entity record (preview)
-
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
->
+# Configure knowledge search control on app side pane for an entity record
 
 ## Introduction
 
-You can configure how you want the knowledge base search control to appear for your entities on the app side pane. To do so, you will need to first add the record types for which you want to turn on knowledge management and then configure the record type settings.
+You can configure how you want the knowledge base search control to appear for your entities on the app side pane of Customer Service Workspace and Omnichannel for Customer Service apps. To do so, you will need to first add the record types for which you want to turn on knowledge management and then configure the record type settings.
 
 Configuring a record type will specify the information that your agents will see while they interact with customers. **Case** and **Conversation** record types are enabled by default. The **Conversation** record type will be available by default if you have purchased add-on SKUs, such as Chat, Digital messaging, or Voice. If you are an existing user, you will also see all the entities previously enabled by you.
 
@@ -46,10 +36,7 @@ Configuring a record type will specify the information that your agents will see
 
 Go to the Customer Service admin center (preview) or Customer Service Hub app, and perform the following steps:
 
-### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-
-> [!IMPORTANT]
-> The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+### [Customer Service admin center](#tab/customerserviceadmincenter)
 
 1. In the sitemap, select **Knowledge** in **Agent Experience**.
 1. On the **Knowledge** page, in **Record Types**, select **Manage**.
