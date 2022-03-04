@@ -77,7 +77,7 @@ Use the following steps to allow Omnichannel for Customer Service to read and wr
     > [!div class=mx-imgBorder]
     > ![Manage Omnichannel for Customer Service.](media/OC-provisioning-ppadmin.png "Manage Omnichannel for Customer Service")
 
-1. If you're installing the voice channel only, you must select **More commands** for **Omnichannel for Customer Service - Telephony**.
+1. If you're installing the voice channel only, select **More commands** for **Omnichannel for Customer Service - Telephony**.
 
     :::image type="content" source="media/oc-telephony-only.png" alt-text="Select Omnichannel for Customer Service - Telephony if you're installing voice only.":::
 
