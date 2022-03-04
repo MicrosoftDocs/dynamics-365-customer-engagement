@@ -1,7 +1,7 @@
 ---
 title: "Connect to Azure Communication Services | MicrosoftDocs"
 description: "Use this topic to understand how to connect to Azure Communication Services using new or existing Azure resources."
-ms.date: 02/25/2022
+ms.date: 03/07/2022
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: neeranelli
@@ -261,7 +261,7 @@ The following sections include short procedures that explain how you can get res
 
 ## Disconnect from Azure Communication Services resource
 
-If you're no longer using an Azure Communication Services resource or want to connect to different resource, you can disconnect the current resource, and later reconnect to a new or existing resource by selecting the **Get Started** button.
+If you're no longer using an Azure Communication Services resource or want to connect to different resource, you can disconnect the current resource, and later reconnect to a new or existing resource by selecting the **Get started** button.
 
 To simply release or remove one or more phone numbers from your organization, without disconnecting from the Azure Communication Services resource, see [Release phone numbers](voice-channel-manage-phone-numbers.md#release-phone-numbers).
 
