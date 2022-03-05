@@ -21,7 +21,7 @@ Transformer logic refers to moving the values of specific fields from the knowle
 To extend the transformer logic for your knowledge article templates:
 
 1. Create a plug-in by performing the steps mentioned in [Create a plug-in project](/powerapps/developer/common-data-service/tutorial-write-plug-in#BKMK_create).
-2. You can write your own mapping logic with the transformed `kaobject` using `context.OutputParameters["Result"]` as Entity. In this example, we will show how you can build the knowledge article template transformer with the help of two new attributes, Article Type and Audience. In the plug-in that you created, replace the entire class with the  following sample code:
+2. You can write your own mapping logic with the transformed `kaobject` using `context.OutputParameters["Result"]` as Entity. In this example, we'll show how you can build the knowledge article template transformer with the help of two new attributes, Article Type and Audience. In the plug-in that you created, replace the entire class with the following sample code:
 
 ```/// <summary>
 	/// The plugin shows a sample of how to build a Knowledge Article Template Transformer
@@ -173,7 +173,7 @@ To extend the transformer logic for your knowledge article templates:
 	}
 ```
 3. Follow the steps mentioned in [Register a plug-in](/powerapps/developer/common-data-service/tutorial-write-plug-in#BKMK_register) to register your plug-in.
-4. Now, when you create a knowledge article from a template, the values of the option sets get transformed and are inserted in the article.
+4. Now, when you create a knowledge article from a template, the values of the option sets are transformed and inserted in the article.
 
 ## See also
 
