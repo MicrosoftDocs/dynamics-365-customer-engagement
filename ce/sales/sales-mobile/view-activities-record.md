@@ -8,12 +8,12 @@ ms.author: shjais
 manager: shujoshi
 ---
 
-# View activities for a record
+# View activities of a record or contact
 
-You can view upcoming overdue activities for a record or a contact in the mobile app. You can filter the activities based on an activity type and take various actions on them.
+You can view the upcoming and overdue activities related to a record or contact in the mobile app. You can filter activities based on an activity type and take various actions on them.
 
 > [!NOTE]
-> Only task and phone call activities are displayed in the mobile app. To view all the associated activities, go to the Sales Hub app.
+> The mobile app supports only task and phone call activities. To view all the associated activity types, use the Sales Hub app.
 
 
 ## License and role requirements
@@ -27,7 +27,7 @@ You can view upcoming overdue activities for a record or a contact in the mobile
 
 ## View activities
 
-You can view task and phone call activities created for a record or a contact. The list of activities is displayed under the **To Do** tab and is sorted based on the due date of the activities.
+You can view the upcoming and overdue task and phone call activities created for a record or a contact. The list of activities is displayed under the **To Do** tab and is sorted based on the due date of the activities.
 
 **To view activities**:
 
@@ -63,7 +63,7 @@ You can add an activity from the quick view form of a record or from the home pa
 
     ![Add an activity from a record](media/add-activity-record.png)
 
-3.  Tap ![Add activity from a record](media/add-activity-record-icon.png)at the bottom-right of the form, and then tap one of the following options:
+3.  Tap ![Add activity from a record](media/add-activity-record-icon.png)at the lower-right corner of the form, and then tap one of the following options:
 
     -   Add a task
 
@@ -75,13 +75,15 @@ You can add an activity from the quick view form of a record or from the home pa
 
     ![Enter details for an activity](media/create-new-activity.png)
 
-The activity is created and displayed under the **To Do** tab.
+    The activity is created and displayed under the **To Do** tab.
 
 **To add an activity from the home page**:
 
 1.  On the navigation bar at the bottom of the screen, tap ![Add activity from home page](media/sm-plus-icon.png), and then tap **Phone Call** or **Task**.
 
-2.  In the **Create new** form, enter the details, along with a value in the **Regarding** field, and then tap **Save** at the upper-right corner of the form.
+2.  In the **Create new** form, enter the details.
+
+3. In the **Regarding** field, select the name of the record to which this activity belongs, and then tap **Save** at the upper-right corner of the form.
 
 > [!NOTE]
 > The **Regarding** field is not a required field, but selecting a value in the **Regarding** field helps in associating the activity with a record.
@@ -125,7 +127,7 @@ You can filter the list of activities to view only one type of activity at a tim
 
 ## Mark an activity as complete
 
-After you call someone or complete a task, you can mark the activity for that action as completed. To mark an activity as complete, tap the option button on the activity card. Alternately, tap ![More options](media/activity-more-options.png) on the activity card, and then tap **Complete**.
+After you call someone or complete a task, you can mark the activity as completed. To mark an activity as complete, tap the option button on the activity card. Alternately, tap ![More options](media/activity-more-options.png) on the activity card, and then tap **Complete**.
 
 ![Mark an activity as complete](media/activity-complete.png)
 
@@ -139,7 +141,16 @@ If you created an activity by mistake or an activity is no longer required, you 
 
 ## Reassign an activity
 
-You can reassign an activity to a team or another user from the Unified Interface. [Open or edit an activity](#open-or-edit-an-activity) and then tap ![Open record icon.](media/open-record-icon.png "Open record icon") at the upper-right of the form.
+You can reassign an activity to a team or another user from the Unified Interface. 
+
+1. [Open or edit an activity](#open-or-edit-an-activity) and then tap ![Open record icon.](media/open-record-icon.png "Open record icon") at the upper-right of the form.
+
+2. In the Unified Interface, tap **More** at the lower-right corner of the form, and then tap **Assign**.
+
+3. In the **Assign to Team or User** window, tap the **Assign to** field, and then select **User or team**.
+
+4. In the **User or team** field, browse and select the user to which ownership needs to be transferred.
+
 
 ### See also
 
