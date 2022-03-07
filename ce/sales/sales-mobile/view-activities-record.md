@@ -149,7 +149,7 @@ You can reassign an activity to a team or another user from the Unified Interfac
 
 3. In the **Assign to Team or User** window, tap the **Assign to** field, and then select **User or team**.
 
-4. In the **User or team** field, browse and select the user to which ownership needs to be transferred.
+4. In the **User or team** field, browse and select the user to which activity needs to be assigned.
 
 
 ### See also
