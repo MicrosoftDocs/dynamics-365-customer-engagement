@@ -19,10 +19,7 @@ ms.custom:
 
 ### See also
 
-[addHandler](../microsoft-ciframework/addHandler.md)
-
-[removeHandler](../microsoft-ciframework/removeHandler.md)
-
-
+[addHandler method](../microsoft-ciframework/addHandler.md)  
+[removeHandler method](../microsoft-ciframework/removeHandler.md)  
 
 [!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

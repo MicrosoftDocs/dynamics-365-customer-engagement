@@ -27,9 +27,9 @@ The `onSessionSwitched` event takes following eventData:
 
 ### See also
 
-[setClickToAct](../microsoft-ciframework/setClickToAct.md)<br />
-[addHandler](../microsoft-ciframework/addHandler.md)<br />
-[removeHandler](../microsoft-ciframework/removeHandler.md)
+[setClickToAct method](../microsoft-ciframework/setClickToAct.md)  
+[addHandler method](../microsoft-ciframework/addHandler.md)  
+[removeHandler method](../microsoft-ciframework/removeHandler.md)  
 
 
 [!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

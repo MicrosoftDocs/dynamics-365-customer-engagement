@@ -19,9 +19,9 @@ ms.custom:
 
 ### See also
 
-[setMode](../microsoft-ciframework/setMode.md)  
-[getMode](../microsoft-ciframework/getMode.md)  
-[addHandler](../microsoft-ciframework/addHandler.md)  
-[removeHandler](../microsoft-ciframework/removeHandler.md)  
+[setMode method](../microsoft-ciframework/setMode.md)  
+[getMode method](../microsoft-ciframework/getMode.md)  
+[addHandler method](../microsoft-ciframework/addHandler.md)  
+[removeHandler method](../microsoft-ciframework/removeHandler.md)  
 
 [!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]
