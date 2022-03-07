@@ -30,7 +30,7 @@ You can use the following APIs to manage the state of the communication panel (w
 
 ## CRUD operations APIs
 
-These APIs enable you to perform CRUD operations on entity records.
+These APIs enable you to perform CRUD (create, read, update, and delete) operations on entity records.
 
 | Methods | Description |
 |---------|-------------|
@@ -44,6 +44,7 @@ These APIs enable you to perform CRUD operations on entity records.
 | Methods | Description |
 |---------|-------------|
 | [notifyEvent](microsoft-ciframework/notifyEvent.md)| Displays a notification that can be used to inform agent about an incoming conversation. |
+| [cancelEvent](microsoft-ciframework/cancelEvent.md)| Hides a notification based on the cancellation ID. |
 
 ## Application tab management APIs
 
@@ -74,7 +75,7 @@ These APIs allow you to manage sessions in a multisession provider environment.
 
 ## Channel analytics APIs
 
-Channel Analytics APIs enable you to track event analytics.
+These APIs enable you to track event analytics.
 
 | Methods | Description |
 |---------|-------------|
@@ -83,7 +84,7 @@ Channel Analytics APIs enable you to track event analytics.
 
 ## Session indicator APIs
 
-Session indicator APIs indicate a KPI breach and can be used to update the number of new activities in a particular session.
+These APIs indicate a KPI breach and can be used to update the number of new activities in a particular session.
 
 | Methods | Description |
 |---------|-------------|
@@ -107,9 +108,8 @@ Session indicator APIs indicate a KPI breach and can be used to update the numbe
 
 ### See also
 
-[What's new in Dynamics 365 Channel Integration Framework](../../whats-new-channel-integration-framework.md)
-
-[System requirements of Dynamics 365 Channel Integration Framework](../../system-requirements-channel-integration-framework.md)
+[What's new in Dynamics 365 Channel Integration Framework](../../whats-new-channel-integration-framework.md)  
+[System requirements of Dynamics 365 Channel Integration Framework](../../system-requirements-channel-integration-framework.md)  
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

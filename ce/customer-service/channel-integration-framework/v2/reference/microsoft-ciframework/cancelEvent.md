@@ -13,7 +13,7 @@ ms.custom:
 
 # cancelEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
 
-Hides the notification based on the cancellation ID.
+Hides a notification based on the cancellation ID.
 
 ## Syntax
 
