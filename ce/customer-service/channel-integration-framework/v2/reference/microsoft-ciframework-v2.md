@@ -11,7 +11,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# Microsoft.CIFramework methods (JavaScript API reference)
+# Microsoft.CIFramework methods (JavaScript API reference) for Dynamics 365 Channel Integration Framework 2.0
 
 Provides methods to use JavaScript API to manage the communication panel (widget), notification, application tab, sessions, records, and forms in the Dynamics 365 model-driven app.
 

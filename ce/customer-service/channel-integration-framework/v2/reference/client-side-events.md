@@ -27,8 +27,8 @@ Each event handler specifies a function within a JavaScript library and the para
 | [onPageNavigate](events/onPageNavigate.md) | Invoked when the main Unified Interface page navigation occurs. |
 | [onSendKBArticle](events/onSendKBArticle.md) | Invoked when the user selects the **Send** button in the Knowledge Base control. |
 | [onSizeChanged](events/onSizeChanged.md) | Invoked when the side panel width is changed. |
-| [onSessionSwitched](/dynamics365/customer-service/channel-integration-framework/referen/v2/reference/events/onSessionSwitched) | Invoked when the session is switched. |
-| [onSessionClosed](/dynamics365/customer-service/channel-integration-framework/referen/v2/reference/events/onSessionClosed) | Invoked when the session is closed. |
+| [onSessionSwitched](events/onSessionSwitched.md) | Invoked when the session is switched. |
+| [onSessionClosed](events/onSessionClosed.md) | Invoked when the session is closed. |
 | [onPresenceChange​](events/onPresenceChange​.md) | Invoked when the presence or available state of the agent has changed either manually or programmatically. |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
