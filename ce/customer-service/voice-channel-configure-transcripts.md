@@ -4,13 +4,13 @@ description: "Learn how to configure call recordings and transcripts in the voic
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 02/18/2022
+ms.date: 03/07/2022
 ms.topic: article
 ms.custom: intro-internal
 
 ---
 
-# Configure call recordings and transcripts in the voice channel 
+# Configure call recordings and transcripts in the voice channel
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -54,6 +54,18 @@ You can view the call transcriptions in Omnichannel admin center.
   
    > [!div class="mx-imgBorder"]
    > ![Screenshot of closed conversation list.](./media/voice-channel-conversations-list.png)
+
+### Storage location of your recordings and cost
+
+The voice recordings and transcripts data resides in the following locations:
+
+- **Data at rest**: Is stored wherever your Dynamics instance is located.
+- **Data in transit**: For components within the Microsoft stack, we strive to ensure that data doesn’t cross geographical boundaries during transit. The bring your own carrier model has dependencies on third parties, and therefore, data needs to be reviewed end to end and will include components outside the Microsoft stack.
+
+The data storage costs with two participants only is calculated as follows:
+
+- 20 minute call recording = 10240 KB
+- 20 minute call transcript = 40 KB
 
 ### See also
 
