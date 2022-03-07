@@ -13,7 +13,7 @@ ms.custom:
 
 # onPresenceChange​ event (JavaScript API reference) for Dynamics 365 Channel Integration Framework 2.0
 
-Invoked when the presence or available state of the agent has changed either manually or programmatically. |
+Invoked when the presence or available state of the agent has changed either manually or programmatically. 
 
 **Example**
 
