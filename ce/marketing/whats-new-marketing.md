@@ -72,14 +72,16 @@ The Dynamics 365 Marketing March 2021 update includes many new features. This re
     > ![Screenshot of link options for real-time marketing email.](media/real-time-marketing-email-button2.png "Screenshot of link options for real-time marketing email")
 
 - **Personalization**
-    - Now, you can personalize both an email and the customer’s journey relative to important milestones (such as order date, upcoming appointment, etc.) by creating content variations and branches that use relative and partial dates when defining a condition using dates. Partial dates allow you to define conditions such as "Birthday is today" and relative dates allow you to define conditions such as "Birthday is next month". So, depending on when an email goes out and how close it is to someone’s birthday, a different offer can be shown. Learn more: [Personalize content]real-time-marketing-personalization.md).
+    - Now, you can personalize both an email and the customer’s journey relative to important milestones (such as order date or an upcoming appointment) by creating content variations and branches that use relative and partial dates when defining a condition using dates. Partial dates allow you to define conditions such as "Birthday is today" and relative dates allow you to define conditions such as "Birthday is next month." So, depending on when an email goes out and how close it is to someone’s birthday, a different offer can be shown. Learn more: [Personalize content](real-time-marketing-personalization.md#partial-and-relative-dates-in-conditional-content).
 
 #### Bug fixes
 
-- **Event management**
-    - 
-- **Marketing emails**
-    - Resolved an issue where unsaved changes were triggered by undo/redo actions, even though no changes were made.
+- **First run experience**
+    - Resolved an issue during provisioning that ocassionally caused the user interface to get stuck in a refresh state.
+- **Marketing pages**
+    - Fixed a form capture error that occurred when the URL to capture ended with a period. For example, *contoso.com/form.".
+    - Resolved a form capture error that resulted when a URL had more than 1024 characters.
+    - Session cookies are now changed (instead of being grouped together) after 20 minutes of activity (the default marketing page setting). Learn more about cookie settings: [Set up website tracking and read results](track-online-behavior.md#set-up-website-tracking-and-read-results).
 
 ### February 2022 update
 

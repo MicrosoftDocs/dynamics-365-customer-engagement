@@ -1,8 +1,7 @@
 ---
 title: "Real-time marketing event triggers (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about real-time marketing event triggers in Dynamics 365 Marketing."
-ms.date: 08/02/2021
-
+ms.date: 03/07/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -19,6 +18,9 @@ search.app:
 ---
 
 # Real-time marketing event triggers
+
+> [!Note]
+> “Event triggers” are now called “triggers” in the app and the documentation. The change was made to avoid confusion when referencing event management functionality versus triggering real-time marketing event-based journeys.
 
 Event triggers control the flow of [event-based journeys](real-time-marketing-event-based-journey.md). They represent customer actions such as a whitepaper download, a form submitted, or a Wi-Fi sign-up. Event triggers can also represent significant business events, such as a purchase that has shipped or completion of an enrollment process.
 
@@ -53,3 +55,7 @@ Business events represent changes in Dynamics 365 applications such as Sales or 
 - *Lead created*
 - *Incident created*
 - *Opportunity created*
+- *Marketing event check-in created*
+- *Marketing event registration created*
+- *Marketing event registration cancelled*
+- *Marketing form submitted*
