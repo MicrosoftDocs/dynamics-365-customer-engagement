@@ -17,16 +17,20 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Impact of change in customer service or holiday schedule
+# Manage changes to customer service and holiday schedules
 
 ## Introduction
-AFter you have created Customer service schedule and holiday schedules. More information: ref to CS and HS topics. However, if there is a change to the CS and holiday schedules of the SLA because of certain reasons, the best practices that you can follow have been listed in this topic. 
+
+This topic describes how you can manage changes to your customer service and holiday schedules that you have created for your SLA KPIs. More information: 
+
+
 
 ## How does the time calculation of SLA work, using CS and Holiday schedule?
 
+To understand how you can manage changes to the customer service and holiday schedules of your SLA KPIs, you must understand how the time calculation for SLA KPIs work.
 
 The Time Calculation in SLA refers to calculating the Warning time and failure time of SLA KPI instances. They are calculated based on the customer service schedule and the holiday schedule associated with the SLA KPI instance.
-Example:
+FOr example:
 Working hours are 9AM - 5 PM (8 hours daily)
 Holiday calendar has Tomorrow marked as holiday.
 Failure Duration is 12 hours.
@@ -39,7 +43,10 @@ Day after Tomorrow : 9 AM + 5 hours= 14:00 (2 PM)
 Apart from WarningTime and FailureTime calculation, SLA Time Calculation also involves calculating the elapsed time if there is a pause and resume scenario. It will add the elapsed time into final failure time to ignore the working hours spent during the Paused State.
 
 
-## Impact of change to CS or Holiday schedule of the SLA
+## Best practices CS or Holiday schedule of the SLA
+
+Changes to your SLA KPIs can happen because of any one of the following scenarios, where a change occurs to the CS or holiday schedule because of the defined conditions, you can resolve it by applying the solutions that are provided below.
+Note: Check your business scenarios to see whether they are falling under any one of these 4 categories or not.
 
 Whenever any SLA KPI instance is created, it will use the above information and creates Warning Time and Failure Time. So, changing the calendar working hours will not impact the existing KPI instances unless one of below events occurs
 -Pause/Resume scenario
@@ -51,8 +58,6 @@ As in above scenarios, It will read the latest calendar information and values w
 If you want to change the existing customer service schedule which is already in use in the existing SLA KPI instances, you can follow the following suggestions.
 Disclaimer: Please validate all business scenarios and use cases to ensure all the use-cases are met before applying the changes to production.
 
-If you have any one of these scenarios, where a change occurs to the CS or holiday schedule because of the defined conditions, you can resolve it by applying the solutions that are provided below.
-Note: Check your business scenarios to see whether they are falling under any one of these 4 categories or not.
 
 ## Scenarios
 

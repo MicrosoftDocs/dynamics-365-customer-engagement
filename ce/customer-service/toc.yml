@@ -386,7 +386,7 @@
           href: create-customer-service-schedule-define-work-hours.md
         - name: Create and manage holiday schedules
           href: set-up-holiday-schedule.md
-        - name: Impact of change to customer service and holiday schedules
+        - name: Manage changes to customer service and holiday schedules
           href: change-schedules.md
       - name: Add timer control for SLA-enabled entities
         href: add-timer-control-case-form-track-time-against-sla.md
