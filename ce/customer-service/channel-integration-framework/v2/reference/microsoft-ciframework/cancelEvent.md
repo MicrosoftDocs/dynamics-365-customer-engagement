@@ -1,6 +1,6 @@
 ---
-title: "notifyEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
-description: "Learn about notifyEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0."
+title: "cancelEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
+description: "Learn about cancelEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0."
 ms.date: 03/08/2022
 ms.topic: reference
 author: mh-jaya
@@ -11,22 +11,21 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# notifyEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
+# cancelEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
 
-Displays a notification that can be used to inform the agent about incoming conversations.
+Hides the notification based on the cancellation ID.
 
 ## Syntax
 
-`Microsoft.CIFramework.notifyEvent(input, correlationId).then(successCallback, errorCallback);`
+`Microsoft.CIFramework.notifyEvent(cancellationToken, correlationId).then(successCallback, errorCallback);`
 
 ## Parameters
 
 | Name            | Type     | Required     | Description     |
 |-----------------|----------|--------------|-----------------|
-| input           | String   | Yes          | JSON input      |
-| correlationId   | GUID     | No           | Used to group all related API calls together for diagnostic telemetry.  |
-| cancellationId  | GUID    | No            | Used to send a cancellation token while calling notifyEvent.   |
-| successCallback | Function | No           | On success callback, response object will have the information about whether the customer selected Accept or Reject. |
+| cancellationToken| String  | Yes       | JSON input      |
+| correlationId   | GUID     | No           | Used to group all related API calls together for diagnostic telemetry.          |
+| successCallback | Function | No           | On success callback, response object will have the information about whether customer selected Accept or Reject. |
 | errorCallback   | Function | No           | A function to call when the operation fails.  |
 
 ## Callback function details
