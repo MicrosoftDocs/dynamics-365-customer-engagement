@@ -74,24 +74,11 @@ Sample JSON object:
 
 ## Example
 
+<!-->
 ```javascript
-var input = {
-	templateName: "msdyn_chat_incoming_unauthenticated",
-	// unique name of the configured template
-	templateParameters: {
-	}
-}
-Microsoft.CIFramework.notifyEvent(input).then(
-	function success(result) {
-		console.log(result);
-		// Perform operations
-	},
-	function (error) {
-		console.log(error.message);
-		// Handle error conditions
-	}
+
 );
 ```
-
+-->
 
 [!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]
