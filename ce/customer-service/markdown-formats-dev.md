@@ -7,7 +7,7 @@ manager: shujoshi
 ms.date: 08/02/2021
 ms.topic: reference
 ---
-# Preview: Markdown formats
+# Preview: Markdown formats: Direct Line
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -36,12 +36,12 @@ The following table lists the Markdown formats used in inbound messages sent by 
 | hyperlink                 | https://www.microsoft.com         | https://www.microsoft.com             | <https://www.microsoft.com>    |
 | hyperlink with text       |[text]\(https://www.microsoft.com\)| [text]\(https://www.microsoft.com\)   | [Microsoft website](https://www.microsoft.com)  |
 | monospace                 | \`\`\` <br> text<br>\`\`\`        | \`\`\` <br> text<br>\`\`\`            | ```text```                     |
-| numbered list             |  <number> item one                | <number> item one                     |  1. item one <br> 2. item two  |
+| numbered list             |  \<number\> item one                | \<number\> item one                     |  1. item one <br> 2. item two  |
 | unordered list            |\* item one <br>or<br> - item one  | `\* item one <br> or <br> - item one  |  \* item one <br> \* item two  |
 
-For inbound messages, set the Markdown text to the [Activity](/azure/bot-service/rest-api/bot-framework-rest-connector-api-reference?view=azure-bot-service-4.0#activity-object) object's `text` property.
+For inbound messages, set the Markdown text to the [Activity](/azure/bot-service/rest-api/bot-framework-rest-connector-api-reference?view=azure-bot-service-4.0#activity-object&preserve-view=true) object's `text` property.
 
-For outbound messages, the Markdown text will be received in the [Activity](/azure/bot-service/rest-api/bot-framework-rest-connector-api-reference?view=azure-bot-service-4.0#activity-object) object's `text` property (similar to a normal message).
+For outbound messages, the Markdown text will be received in the [Activity](/azure/bot-service/rest-api/bot-framework-rest-connector-api-reference?view=azure-bot-service-4.0#activity-object&preserve-view=true) object's `text` property (similar to a normal message).
 
 ### See also
 
@@ -49,7 +49,7 @@ For outbound messages, the Markdown text will be received in the [Activity](/azu
 [Bring your own custom messaging channel: Direct Line](bring-your-own-channel.md)  
 [Sample code: Bring your own channel](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/bring-your-own-channel)  
 [Configure custom messaging channel](configure-custom-channel.md)  
-[Key concepts in Direct Line API 3.0](/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-concepts?view=azure-bot-service-4.0)  
+[Key concepts in Direct Line API 3.0](/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-concepts?view=azure-bot-service-4.0&preserve-view=true)  
 [Enable formatted messages](enable-formatted-messages.md)  
 [Use Markdown to format messages](markdown-formats-agents.md)  
 
