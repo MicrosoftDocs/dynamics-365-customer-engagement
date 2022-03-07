@@ -260,7 +260,7 @@
           - name: "getPresence"
             href: v2/reference/microsoft-ciframework/getPresence.md
           - name: "setPresence"
-            href: v2/reference/microsoft-ciframework/setPresence.md                 
+            href: v2/reference/microsoft-ciframework/setPresence.md           
       - name: "Client-side events"
         href: reference/client-side-events.md
         items:
