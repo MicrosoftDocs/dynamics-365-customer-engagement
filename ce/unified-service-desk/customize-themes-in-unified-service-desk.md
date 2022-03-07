@@ -25,7 +25,7 @@ The predefined [Air Theme](../unified-service-desk/customize-themes-in-unified-s
 The automatic switching between normal and high-contrast modes in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client is supported only for the  predefined [Air Theme](../unified-service-desk/customize-themes-in-unified-service-desk.md#AirTheme). If you are using custom themes or custom hosted controls that supports high-contrast mode, the switching happens only after you restart the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client after switching to normal or high-contrast mode on your computer. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [High-contrast mode support  for custom themes](#HighContrast)
 
 > [!Caution]
-> The Air theme was designed for the Unified Service Desk Web Client while the Unified Blue theme was created for UCI, so you might face issues if you use the Air theme in UCI pages.
+> The Air theme was designed for the Unified Service Desk Web Client while the Unified Blue theme was created for UCI, so you might face issues if you switch to the Air theme in UCI pages.
 
 
 <a name="PredefinedThemes"></a>
