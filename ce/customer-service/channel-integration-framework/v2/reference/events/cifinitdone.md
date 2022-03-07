@@ -27,7 +27,7 @@ CIFInitDone event is raised by the Channel Integration Framework library when Ch
 
 ### See also
 
-[setClickToAct method](../microsoft-ciframework/setClickToAct.md)
+[setClickToAct method](../microsoft-ciframework/setClickToAct.md)  
 [addHandler method](../microsoft-ciframework/addHandler.md)  
 [removeHandler method](../microsoft-ciframework/removeHandler.md)  
 

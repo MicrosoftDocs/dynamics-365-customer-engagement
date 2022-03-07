@@ -11,7 +11,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# Events (JavaScript API reference) in Dynamics 365 Channel Integration Framework 2.0
+# Events (Dynamics 365 Channel Integration Framework 2.0 JavaScript API reference)
 
 All client-side code is initiated by events and the events occur in Dynamics 365 Unified Interface. You associate s specific function in a JavaScript library to run when an event occurs. This specific function is called an *event handler*.
 
@@ -21,7 +21,7 @@ Each event handler specifies a function within a JavaScript library and the para
 
 | Events | Description |
 |---------|-------------|
-| [CIFInitDone](events/cifinitdone.md) | Invoked when the Channel Integration framework is loaded to determine if Channel Integration Framework APIs are ready to be consumed. |
+| [CIFInitDone](events/cifinitdone.md) | Invoked when the Dynamics 365 Channel Integration Framework is loaded to determine if the APIs are ready to be consumed. |
 | [onClickToAct](events/onClickToAct.md) | Invoked when user selects the outbound communication (ClickToAct) field in a form. |
 | [onModeChanged](events/onModeChanged.md) | Invoked when the panel mode is manually toggled between **Minimized (0)**, **Docked (1)** and **Hidden (2)**. |
 | [onPageNavigate](events/onPageNavigate.md) | Invoked when the main Unified Interface page navigation occurs. |

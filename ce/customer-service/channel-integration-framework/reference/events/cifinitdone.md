@@ -11,7 +11,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# CIFInitDone event (JavaScript API reference) for Dynamics 365 Channel Integration Framework 1.0
+# CIFInitDone event (JavaScript API reference) in Dynamics 365 Channel Integration Framework 1.0
 
 CIFInitDone event is raised by the Channel Integration Framework library when Channel Integration Framework is loaded. This event is used to determine if Channel Integration Framework APIs are ready to be consumed.
 
@@ -27,11 +27,8 @@ CIFInitDone event is raised by the Channel Integration Framework library when Ch
 
 ### See also
 
-[setClickToAct](../microsoft-ciframework/setClickToAct.md)
-
-[addHandler](../microsoft-ciframework/addHandler.md)
-
-[removeHandler](../microsoft-ciframework/removeHandler.md)
-
+[setClickToAct method](../microsoft-ciframework/setClickToAct.md)  
+[addHandler method](../microsoft-ciframework/addHandler.md)  
+[removeHandler method](../microsoft-ciframework/removeHandler.md)  
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
