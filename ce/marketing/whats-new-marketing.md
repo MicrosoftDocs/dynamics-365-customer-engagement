@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 03/07/2022
+ms.date: 03/08/2022
 ms.custom:
   - dyn365-marketing
 ms.topic: article
@@ -76,6 +76,8 @@ The Dynamics 365 Marketing March 2021 update includes many new features. This re
 
 #### Bug fixes
 
+- **Channel optimization (real-time marketing)**
+    - Channel optimization will not recommend a channel which a customer has not consented to. If no channel has consent, no communication will be sent out and the customer will progress to the next step in the journey. Learn more: [Manage user compliance settings](real-time-marketing-compliance-settings.md).
 - **First run experience**
     - Resolved an issue during provisioning that ocassionally caused the user interface to get stuck in a refresh state.
 - **Marketing pages**
