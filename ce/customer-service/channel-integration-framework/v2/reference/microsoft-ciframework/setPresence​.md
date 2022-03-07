@@ -1,7 +1,7 @@
 ---
 title: "setPresence (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Includes description, syntax, and parameter information for the setPresence method in JavaScript API Reference for Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 02/28/2022
+ms.date: 03/10/2022
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -27,7 +27,7 @@ Sets the presence status of the agent in the client session​.
 
 | Name            | Type     | Required    | Description       |
 |-----------------|----------|-------------|-------------------|
-| presenceState   | String   | Yes         | Presence text for corresponding presence in Omnichannel for Customer Service. For the presence to be correctly set, the string should be an exact match with text used in admin application.     |
+| presenceText   | String   | Yes         | Presence text for corresponding presence in Omnichannel for Customer Service. For the presence to be correctly set, the string should be an exact match with text used in the admin app.     |
 
 ## Return value
 
@@ -50,5 +50,6 @@ Microsoft.CIFramework.setPresence(custompresence).then(
 ### See also
 
 [Configure and manage custom presence](../../../../../presence-custom-presence.md)  
+[getPresence method](getPresence.md)  
 
 [!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

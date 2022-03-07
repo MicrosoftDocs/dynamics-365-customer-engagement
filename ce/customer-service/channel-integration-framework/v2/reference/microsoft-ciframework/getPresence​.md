@@ -1,7 +1,7 @@
 ---
 title: "getPresence (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Includes description, syntax, and parameter information for the getPresence method in JavaScript API Reference for Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 02/28/2022
+ms.date: 03/10/2022
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -51,6 +51,8 @@ Microsoft.CIFramework.getPresence().then(
 ```
 
 ### See also
+
 [Configure and manage custom presence](../../../../../presence-custom-presence.md)  
+[setPresence method](setPresence.md)  
 
 [!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]
