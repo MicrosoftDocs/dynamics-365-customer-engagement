@@ -17,7 +17,7 @@ Displays a notification that can be used to inform the agent about incoming conv
 
 ## Syntax
 
-`Microsoft.CIFramework.notifyEvent(input, correlationId).then(successCallback, errorCallback);`
+`Microsoft.CIFramework.notifyEvent(input, correlationId, cancellationId).then(successCallback, errorCallback);`
 
 ## Parameters
 
