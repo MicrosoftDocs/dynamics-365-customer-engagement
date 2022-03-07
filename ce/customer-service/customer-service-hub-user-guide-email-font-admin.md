@@ -14,6 +14,8 @@ ms.reviewer: nenellim
 
 The email configuration experience enables users to be more effective and efficient when using email to communicate with customers. This topic discusses how to configure the email editor, email template builder, and email signature builder, which accepts the full configuration capability of the Rich Text Editor control.
 
+You can add custom attributes to the Template Gallery Filter Form to extend Filters, Email Template Sorted View to extend the grids, and Template Gallery Properties Form to extend the template details section.
+
 > [!NOTE]
 > If you're using the Activity Editor control, we recommend that you use the rich text editor control instead, as the Activity Editor control has been deprecated. For details, see [Use the rich text editor control in Power Apps](https://docs.microsoft.com/powerapps/maker/model-driven-apps/rich-text-editor-control#defaultsupportedprops). 
 
@@ -101,7 +103,7 @@ There are a variety of properties that can be modified and will apply to the ema
 
 ### Configure the default email template selection view
 
-Perform the following steps to configure the default view for the [new email template selection](/powerapps/user/insert-email-template.md#new-email-template-selection-window)
+Perform the following steps to configure the default view for the [enhanced email template selection](/powerapps/user/insert-email-template.md#new-email-template-selection-window)
 window:
 
 1. Navigate to **Settings > Advanced Settings**.
