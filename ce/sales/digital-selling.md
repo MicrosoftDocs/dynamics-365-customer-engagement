@@ -265,6 +265,8 @@ To monitor the usage of conversation intelligence:
 
 - On the **Get started with digital sales** page, under **Microsoft Teams calls with conversation intelligence**, select **Monitor usage**.
 
+    :::image type="content" source="media/ds-ci-monitor-usage.png" alt-text="Monitor usage for conversation intelligence.":::
+
     The **Conversation intelligence usage** panel is displayed with the following information:
     
     - **Recorded calls**: Displays the total recorded hours so far in the current month.
@@ -276,7 +278,7 @@ To monitor the usage of conversation intelligence:
     
     - **Usage by seller over time**: Displays the monthly usage of conversation intelligence in a graphical format for the last six months. 
 
-    :::image type="content" source="media/ds-ci-usage-panel.png" alt-text="Conversation intelligence usage panel.":::
+        :::image type="content" source="media/ds-ci-usage-panel.png" alt-text="Conversation intelligence usage panel.":::
 
 ### Turn off Teams calls and conversation intelligence
 
