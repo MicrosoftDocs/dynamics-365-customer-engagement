@@ -6,7 +6,7 @@ metadata:
   ms.reviewer: krbjoran
   
   ms.subservice: field-service-mobile
-  ms.topic: troubleshooting
+  ms.topic: faq
   applies_to: 
     - "Dynamics 365 (online)"
     - "Dynamics 365 Version 9.x"
@@ -16,7 +16,6 @@ metadata:
   search.app: 
     - D365CE
     - D365FS
-    
 title: Frequently asked questions for the Field Service (Dynamics 365) mobile app
 summary: |
 sections:
@@ -182,4 +181,3 @@ sections:
         > ![Screenshot of selecting Regions](./media/Mobile-PowerApps-SessionDetails.png)
         
         
-

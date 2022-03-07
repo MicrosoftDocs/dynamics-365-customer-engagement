@@ -82,6 +82,8 @@ Do the following for the channel in which you want to create custom automated me
 
 ### Add custom automated messages in Omnichannel Administration
 
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+
 1. In Omnichannel Administration, go to **Channels**, and select the channel you will use to send automated messages. This example uses WeChat.
 2. In the list of accounts, open the channel instance for which you want to configure an automated message.
 3. Select the **Automated messages** tab, and select **New message**.

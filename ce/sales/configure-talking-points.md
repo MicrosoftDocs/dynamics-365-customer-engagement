@@ -5,8 +5,8 @@ ms.date: 10/26/2021
 ms.custom: 
 ms.topic: article
 ms.assetid: cc6353f5-f044-4872-a486-9954550caa1b
-author: udaykirang
-ms.author: udag
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 ms.reviewer: 
 ms.suite: 
@@ -59,6 +59,7 @@ The talking points feature helps users in your organization to quickly establish
 ### See also
 
 [Know conversation starters for your customers](../sales/talking-points.md)
+[Talking points FAQs](faqs-sales-insights.md#talking-points)
 
 [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)
 

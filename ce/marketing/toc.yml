@@ -18,7 +18,7 @@
       href: purchase-setup.md
     - name: Install real-time customer journey orchestration
       href: real-time-marketing-install.md
-    - name: Integrate Marketing with a CMS system or Power Apps portals
+    - name: Integrate Marketing with a CMS system or a Power Apps portal
       href: portal-optional.md
     - name: Open the Power Platform admin center
       href: power-platform-admin-center.md
@@ -210,11 +210,11 @@
         items:
         - name: Create an event-based journey
           href: real-time-marketing-event-based-journey.md
-        - name: Real-time marketing event triggers
+        - name: Real-time marketing triggers
           href: real-time-marketing-event-triggers.md
         - name: "Preview: Trigger custom event actions"
           href: real-time-marketing-custom-event-actions.md
-        - name: Create custom event triggers
+        - name: Create custom triggers
           href: real-time-marketing-custom-events.md
       - name: Segment-based journeys
         items:
@@ -262,7 +262,7 @@
       items: 
       - name: Push notification setup for application developers
         href: real-time-marketing-developer-push.md
-      - name: Correlate across custom triggers
+      - name: Use binding IDs to correlate across triggers
         href: real-time-marketing-correlate-triggers.md
     - name: Real-time marketing troubleshoot + FAQ
       href: real-time-marketing-faq.md

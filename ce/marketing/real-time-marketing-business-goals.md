@@ -43,7 +43,7 @@ Using the goal-setting feature, you can:
 
 | Goal                        | Examples                                                           | Possible goal measurements                                                                  |
 |-----------------------------|--------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| Drive a purchase            | - Cart abandonment campaigns <br> - Promote sales for new products | - Checkout custom event trigger on the website <br> - "Thank you for purchasing" email open |
+| Drive a purchase            | - Cart abandonment campaigns <br> - Promote sales for new products | - Checkout custom trigger on the website <br> - "Thank you for purchasing" email open |
 | Engage customers            | - Satisfaction survey campaigns                                    | - Message is opened or clicked                                                              |
 | Increase loyalty            | - Upsell campaigns                                                 | - User is upgraded from a lead to a contact                                                 |
 | Onboard new people          | - Remind customers who did not finish the sign-up process          | - Message is opened or clicked                                                              |

@@ -49,7 +49,9 @@
   - name: Best practices
     href: field-service-customization-best-practices.md
   - name: Customize columns (fields)
-    href: field-service-customize-columns-fields.md 
+    href: field-service-customize-columns-fields.md
+  - name: Customize forms
+    href: field-service-customize-forms.md  
   - name: Write complex business logic (plugins + JavaScript)
     href: field-service-customize-scripts.md
 - name: Quickstarts
