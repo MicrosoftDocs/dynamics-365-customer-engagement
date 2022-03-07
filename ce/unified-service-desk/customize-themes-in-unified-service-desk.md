@@ -24,20 +24,17 @@ The predefined [Air Theme](../unified-service-desk/customize-themes-in-unified-s
 
 The automatic switching between normal and high-contrast modes in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client is supported only for the  predefined [Air Theme](../unified-service-desk/customize-themes-in-unified-service-desk.md#AirTheme). If you are using custom themes or custom hosted controls that supports high-contrast mode, the switching happens only after you restart the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client after switching to normal or high-contrast mode on your computer. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [High-contrast mode support  for custom themes](#HighContrast)
 
-> [!Caution]
-> The Air theme was designed for the Unified Service Desk Web Client while the Unified Blue theme was created for UCI, so you might face issues if you switch to the Air theme in UCI pages.
-
 
 <a name="PredefinedThemes"></a>
 ## Predefined Themes available in Unified Service Desk
- [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] comes with three predefined themes.
+ [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] inclues two predefined themes.
 
 ::: moniker range=">=dynamics-usd-4"
 
 <a name="UnifiedBlueTheme"></a>
 ### Unified Blue Theme
 
-This is Unified Blue theme, which is the predefined theme for Unified Service Desk when you are using Unified Interface App.
+This is the predefined theme for Unified Service Desk when you're using Unified Interface apps.
 
 ![Unified Blue in Unified Service Desk.](media/unified-blue-theme.png "Unified Blue in Unified Service Desk")
 
@@ -45,9 +42,12 @@ This is Unified Blue theme, which is the predefined theme for Unified Service De
 
 <a name="AirTheme"></a>   
 ### Air Theme  
- This is the Air theme. This theme supports high-contrast mode.  
+ This is the predefined theme for Unified Service Desk when you're using the Web Client. This theme supports high-contrast mode.  
   
  ![Air theme in Unified Service Desk.](../unified-service-desk/media/crm-itpro-usd-themeair.png "Air theme in Unified Service Desk") 
+
+> [!Caution]
+> The Air theme was designed for the Unified Service Desk Web Client while the Unified Blue theme was created for UCI, so you might face issues if you switch to the Air theme in UCI pages.
   
 <a name="SetPredefinedTheme"></a>   
 ## Set a predefined theme  
