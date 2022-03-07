@@ -26,7 +26,7 @@ Agents can collaborate with other contacts directly through Microsoft Teams to q
 This feature uses the AI capability to automatically suggest contacts in real-time, based on the currently open active case or support conversation when agents explore contacts in the embedded chat experience.
 
 > [!NOTE]
-> In public preview, AI suggestions for contacts is available only when users open an active case record.
+> Omnichannel for Customer Service must be configured for support conversations.
 
 ## How AI-suggested contacts works
 
