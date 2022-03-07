@@ -1,7 +1,7 @@
 ---
-title: "Use sample data for sales accelerator (Sales Insights) | MicrosoftDocs"
+title: "Use sample data for sales accelerator"
 description: "Sample data helps you visualize a product and its features. Learn how to add or remove sample data to explore sales accelerator."
-ms.date: 01/10/2022
+ms.date: 03/11/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -29,17 +29,20 @@ You can add sample data any time you need, during or after the configuration of 
 > - To prevent unwanted results, sample data is available only in non-production environments.  
 > - You can also add sample data from the quick setup panel (with the Dynamics 365 Sales Enterprise license). More information: [Set up sales accelerator](digital-selling.md#set-up-sales-accelerator)
 
-1. Sign in to your sales app.   
-2. Go to **Change area** in the lower-left corner of the page, and select **Sales Insight settings**.    
-3. Under **Sales accelerator**, select **Setup**.    
-4. Select **Get started**.    
-5. In the **Explore with sample data?** dialog box, select **Add sample data**.    
+1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **Sales Insights settings**.
+2. Under **Sales accelerator**, select **Workspace**.    
+3. Depending on the 
+
+
+1. Under **Sales accelerator**, select **Setup**.    
+1. Select **Get started**.    
+1. In the **Explore with sample data?** dialog box, select **Add sample data**.    
     > [!div class="mx-imgBorder"]
     > ![Select Add sample data](media/sample-data-popup.png "Select Add sample data")   
     It might take a few minutes to add the sample data to your organization.   
     > [!div class="mx-imgBorder"]
     > ![Progress of sample data installation](media/sample-data-installation-progress.png "Progress of sample data installation")     
-6. After the sample data is added to your organization, you can start using it to play around with the sales accelerator and other Sales Premium features.   
+1. After the sample data is added to your organization, you can start using it to play around with the sales accelerator and other Sales Premium features.   
     > [!div class="mx-imgBorder"]
     > ![Confirmation message that sample data has been added](media/sample-data-confirmation-message.png "Confirmation message that sample data has been added")     
     You can also add sample data after you've configured the sales accelerator. Select **Add sample data**.     

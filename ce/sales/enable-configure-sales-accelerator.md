@@ -1,7 +1,7 @@
 ---
 title: "Enable and configure sales accelerator"
 description: "Enable and configure the sales accelerator to create sequences and connect records, and view daily work list items."
-ms.date: 03/01/2022
+ms.date: 03/11/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -36,27 +36,26 @@ The sales accelerator is an engagement platform that helps the sales team unders
 Enable sales accelerator by quickly providing access to security roles and selecting the record types to be shown in the work list.
 
 1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **Sales Insights settings**.
-2. On the site map, under **Sales accelerator**, select **Setup**.    
-3. Under **Sales accelerator**, select **Workspace**.     
+2. Under **Sales accelerator**, select **Workspace**.     
     The sales accelerator workspace set up page opens. 
 
     >[!div class="mx-imgBorder"]
     >![Sales accelerator first-run setup page](media/sa-fre-setup.png "Sales accelerator first-run setup page")   
              
-4.	Select **Get started**.    
+3.	Select **Get started**.    
     The **Sales accelerator quick setup** pane opens.
 
     >[!div class="mx-imgBorder"]
     >![Sales accelerator quick setup](media/sa-fre-sa-quick-setup-pane.png "Sales accelerator quick setup pane")   
 
-5.	<a name="define-team-access"></a>In the **Enable for** section, select roles to grant permissions to use sales accelerator features. Choose one of the following options to grant permissions:
+4.	<a name="define-team-access"></a>In the **Enable for** section, select roles to grant permissions to use sales accelerator features. Choose one of the following options to grant permissions:
        
     | Security roles | Description |
     |----------------|-------------|
     | All security roles | Select this option to give access to view the sales accelerator features to all the security roles in your organization. |
     | Specific security roles | Select this option to specify security roles to give access to view the sales accelerator to just a few users. Use the lookup box to add the security roles. |    
 
-6.	(Optional) In the **Sample data** section, select **Add sample data** to explore the sales accelerator feature with the provided sample data.     
+5.	(Optional) In the **Sample data** section, select **Add sample data** to explore the sales accelerator feature with the provided sample data.     
     Installing the sample data is relevant only for your sandbox or trial environments. Adding the sample data might take a few minutes. More information: [Manage sample data](manage-sample-data.md)    
 
     >[!IMPORTANT]
@@ -65,7 +64,7 @@ Enable sales accelerator by quickly providing access to security roles and selec
     >[!div class="mx-imgBorder"]
     >![Sample data section](media/sa-fre-sample-data-section.png "Sample data section")            
 
-7.	<a name="choose-content-and-layout"></a>In the **Record type and form** section, select the record types and their corresponding related forms to view in the work list, as required. By default, leads, opportunities, accounts, and contacts are selected.   
+6.	<a name="choose-content-and-layout"></a>In the **Record type and form** section, select the record types and their corresponding related forms to view in the work list, as required. By default, leads, opportunities, accounts, and contacts are selected.   
     
     >[!div class="mx-imgBorder"]
     >![Choose content layout](media/sa-choose-content-layout.png "Choose content layout")   
@@ -83,7 +82,7 @@ Enable sales accelerator by quickly providing access to security roles and selec
         >- You can remove the records types that are no longer required to have automated activities associated with them. Select the **X** icon corresponding to the record type to remove it from the list. However, if the records in the deleted record type are associated with a sequence, these records will continue to be associated with the sequence.   
         >- To know how records are populated in the work list, see [View my records by using the work list](prioritize-sales-pipeline-through-work-list.md#view-my-records-through-work-list).
      
-8.	Select **Update**.   
+7.	Select **Update**.   
 The sales accelerator workspace is enabled and ready to use in your organization.
     
 ## Manage access and record type
@@ -91,20 +90,19 @@ The sales accelerator workspace is enabled and ready to use in your organization
 After the first-run set up of the sales accelerator, you can manage the security roles, sample data, and record types. 
 
 1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **Sales Insights settings**.
-2. On the site map, under **Sales accelerator**, select **Setup**.    
-3. Under **Sales accelerator**, select **Workspace**.     
+2. Under **Sales accelerator**, select **Workspace**.     
     The sales accelerator workspace set up page opens. 
 
     >[!div class="mx-imgBorder"]
     >![Sales accelerator setup page](media/sa-setup-page.png "Sales accelerator setup page")   
     
-4.	Under the **Manage access and record type** section, select **Configure**. 
+3.	Under the **Manage access and record type** section, select **Configure**. 
     The **Manage access and record type** page opens.
 
     >[!div class="mx-imgBorder"]
     >![Manage access and record type setup page](media/sa-manage-access-record-type-page.png "Manage access and record type setup page")   
 
-5.	Update the information as required and select **Publish**.  
+4.	Update the information as required and select **Publish**.  
     For more information, see steps 5 to 7 from [First-run set up](#first-run-set-up).
 
 ## Customize the workspace for sellers
@@ -115,14 +113,13 @@ To know how sellers can use the custom filters, see [Custom filters](prioritize-
 You can manage custom filters by creating, disabling, and deleting the filters. Follow these steps:
 
 1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **Sales Insights settings**.
-2. On the site map, under **Sales accelerator**, select **Setup**.    
-3. Under **Sales accelerator**, select **Workspace**.     
+2. Under **Sales accelerator**, select **Workspace**.     
     The sales accelerator workspace set up page opens. 
 
     >[!div class="mx-imgBorder"]
     >![Sales accelerator setup page](media/sa-setup-page.png "Sales accelerator setup page")   
 
-4.	Under the **Customize workspace** section, select **Filtering and sorting**.     
+3.	Under the **Customize workspace** section, select **Filtering and sorting**.     
     The **Filters** page opens.
 
     >[!div class="mx-imgBorder"]
