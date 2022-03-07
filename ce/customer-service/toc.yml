@@ -88,6 +88,8 @@
       href: csw-overview.md
     - name: Use Customer Service Team Member
       href: customer-service-team-member.md
+    - name: Omnichannel Administration
+      href: omnichannel-administrator.md  
     - name: Omnichannel for Customer Service
       items: 
       - name: Omnichannel for Customer Service
@@ -742,7 +744,7 @@
           href: bring-your-own-channel.md
         - name: Test the custom messaging channel
           href: test-custom-channel-sample-html.md
-        - name: Markdown formats
+        - name: "Markdown formats: Direct Line"
           href: markdown-formats-dev.md
     - name: Support for live chat and asynchronous channels
       href: card-support-in-channels.md

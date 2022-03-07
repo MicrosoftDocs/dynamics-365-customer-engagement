@@ -83,7 +83,7 @@ The journey list allows you to select and drill down into a specific journey to 
 
 ### Audience participation in journeys
 
-You can review journey inflow and outflow in an aggregated view, or select an item to see specifics. The participation tree map titled **Why people participated in the journeys** gives you a clear indication of which segments or real-time events are triggering most of your audience to join the orchestrated journey. You can use the tree map to identify your most engaged segments and event triggers to use them in future orchestrations.
+You can review journey inflow and outflow in an aggregated view, or select an item to see specifics. The participation tree map titled **Why people participated in the journeys** gives you a clear indication of which segments or real-time events are triggering most of your audience to join the orchestrated journey. You can use the tree map to identify your most engaged segments and triggers to use them in future orchestrations.
 
 The **Why people left journeys** pie chart helps you determine why individuals are exiting journeys. There are multiple reasons an individual could exit—for example, if they successfully completed the journey, or if they were part of a suppression segment, or if they ran into a problem. This can be beneficial for troubleshooting issues.
 
