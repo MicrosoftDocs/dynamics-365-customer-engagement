@@ -546,6 +546,8 @@
         href: voice-consult-microsoft-teams-user.md
       - name: Manage phone music
         href: voice-channel-music.md
+      - name: Set up a multilangauge bot in Power Virtual Agents
+        href: set-up-multilanguage-pva-bot.md  
       - name: Set up a multilanguage contact center
         href: voice-channel-multi-language-contact-center.md
       - name: Bring your own carrier
