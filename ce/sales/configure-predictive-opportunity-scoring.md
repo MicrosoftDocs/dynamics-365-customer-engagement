@@ -1,18 +1,12 @@
 ---
 title: "Configure predictive opportunity scoring"
 description: "Configure predictive opportunity scoring to help sellers prioritize opportunities based on scores and achieve higher opportunity qualification rates."
-ms.date: 01/10/2022
+ms.date: 03/07/2022
 ms.custom: 
 ms.topic: article
-ms.assetid: a1d02708-0e40-4967-ae1a-40e9c67186c8
-author: udaykirang
-ms.author: udag
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 1
-topic-status: Drafting
 ---
 # Configure predictive opportunity scoring 
 
@@ -243,7 +237,7 @@ It's time to retrain a model when its prediction accuracy score doesn't meet you
 >[!NOTE]
 >For better prediction accuracy scoring, retrain a model after the data in your organization is refreshed.
 
-You can retrain the model [automatically](#automatic-retraining) or [manually](#manually-retraining). Both methods are described in the following sections.
+You can retrain the model [automatically](#automatic-retraining) or [manually](#manual-retraining). Both methods are described in the following sections.
 
 ### Automatic retraining
 
@@ -257,7 +251,7 @@ To retrain a model automatically, go to the predictive opportunity scoring confi
     >[!NOTE]
     >A retrained model might not be published if the accuracy of the model isn't maintained at the application's standard. If this occurs, the existing user-published model will be retained.
 
-### Manually retraining
+### Manual retraining
 
 1. Go to the predictive opportunity scoring configuration page, and select **Edit model**.
 
@@ -273,7 +267,15 @@ To retrain a model automatically, go to the predictive opportunity scoring confi
     >- System generated attributes (such as, opportunityscore, opportunitygrade, version number, entity image, exchange rate, and predictive score ID)
 
 
-3. Select **Retrain model**.
+3. (Optional) Scroll to the right of the attributes list and turn on **Ignore empty values**. 
+    By default, empty values in the attribute are included for training the model. If you notice that empty values are acting as detractors or are producing false positives, turn on **Ignore empty values**.
+
+    [!NOTE]
+    > The **Ignore empty values** option is disabled for the following attributes:
+    >-Attributes that are automatically validated for empty values (such as, firstname_validation_engineered) 
+    >-Attributes that affect the score based on whether the value exists or not (such as, zipcode or business phone).    
+
+1. Select **Retrain model**.
 
     The model starts to be generated with the selected custom attributes, and a notification is displayed on the screen.
 
