@@ -4,7 +4,7 @@ description: "Learn about the frequently asked questions (FAQs) for the voice ch
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 02/15/2022
+ms.date: 03/08/2022
 ms.topic: article
 
 ---
@@ -21,7 +21,7 @@ Yes, features such as sentiment analysis and agent suggestions for similar cases
 
 ### Is the voice channel PCI DSS compliant?
 
-The voice channel implements Payment Card Industry Data Security Standard (PCI DSS) standards today, but support for credit card capture over voice is not yet available. Agents have the ability to pause or resume call recording and transcription to avoid capturing sensitive information. Agents don't hear dual tone multi frequency (DTMF) tones by design, and can pause transcription to avoid DTMF being captured in the transcript. All data is stored in Dynamics 365 and can be scrubbed by the customer.
+The voice channel implements Payment Card Industry Data Security Standard (PCI DSS) standards today, but support for credit card capture over voice is not yet available. Agents have the ability to pause or resume call recording and transcription to avoid capturing sensitive information. Agents can pause transcription to avoid dual tone multi frequency (DTMF) tones being captured in the transcript. All data is stored in Dynamics 365 and can be scrubbed by the customer.
 
 ### Where does Azure Communication Services provide native PSTN services?
 
