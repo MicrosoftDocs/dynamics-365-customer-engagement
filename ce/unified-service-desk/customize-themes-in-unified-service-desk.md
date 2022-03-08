@@ -187,15 +187,15 @@ The automatic switching between normal and high-contrast modes in the [!INCLUDE[
         <SolidColorBrush x:Key="WindowBackgroundStyle" Color="{x:Static SystemColors.WindowColor}"/>  
         ```  
   
--   Use the new  `$SystemParameters.HighContrast` replacement parameter in each of your action call definition as a condition to ensure that a action call is fired appropriately. For example, in the action call definition for setting custom theme for:  
+-   Use the new `$SystemParameters.HighContrast` replacement parameter in each of your action call definitions as a condition to ensure that an action call is fired appropriately. For example, in the action call definition for setting custom theme for:  
   
-    -   The *normal* mode, use the following in the **Condition** field to check that the high-contrast mode is not set on your computer:  
+    -   For the *normal* mode, use the following in the **Condition** field to check that the high-contrast mode is not set on your computer:  
   
         ```  
         "[[$SystemParameters.HighContrast]g]"=="False"  
         ```  
   
-    -   The *high-contrast* mode, use the following in the **Condition** field to check that the high-contrast mode is set on your computer:  
+    -   For the *high-contrast* mode, use the following in the **Condition** field to check that the high-contrast mode is set on your computer:  
   
         ```  
         "[[$SystemParameters.HighContrast]g]"=="True"  
