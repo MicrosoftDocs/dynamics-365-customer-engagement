@@ -27,7 +27,7 @@ The automatic switching between normal and high-contrast modes in the [!INCLUDE[
 
 <a name="PredefinedThemes"></a>
 ## Predefined Themes available in Unified Service Desk
- [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] inclues two predefined themes.
+ [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] includes two predefined themes.
 
 ::: moniker range=">=dynamics-usd-4"
 
@@ -47,7 +47,7 @@ This is the predefined theme for Unified Service Desk when you're using Unified 
  ![Air theme in Unified Service Desk.](../unified-service-desk/media/crm-itpro-usd-themeair.png "Air theme in Unified Service Desk") 
 
 > [!Caution]
-> The Air theme was designed for the Unified Service Desk Web Client while the Unified Blue theme was created for UCI, so you might face issues if you switch to the Air theme in UCI pages.
+> The Air Theme is applicable only to Web Client and the Unified Blue Theme is applicable only to Unified Interface. So, you might face issues when you switch to the Air theme in Unified Interface apps.
   
 <a name="SetPredefinedTheme"></a>   
 ## Set a predefined theme  
@@ -80,7 +80,7 @@ This is the predefined theme for Unified Service Desk when you're using Unified 
   
  Use the **SetTheme** action for the Global Manager hosted application to customize the default style of the agent application. [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] supports merging of your customizations with the existing theme or display style of the agent application. This effectively means that you just need to specify the controls or areas that you want to be changed along with the ResourceDictionary reference block to customize an existing display style. For general information about ResourceDictionary, select [ResourceDictionary and XAML resource references](/previous-versions/windows/apps/hh968442(v=win.10)).  
   
- Let us create an action call to change the text in the title and the skin color of the agent application to Yellow. Make sure you have the DefaultStyle.xaml file handy as we will need it.  
+ Let us create an action call to change the text in the title and the skin color of the agent application to Yellow. Make sure you have the DefaultStyle.xaml file ready.  
   
 1. Sign in to Unified Service Desk Administrator.  
   
@@ -203,8 +203,8 @@ This is the predefined theme for Unified Service Desk when you're using Unified 
   
 ### See also
 
- [Customize themes for High Contrast settings](../unified-service-desk/customize-themes-in-unified-service-desk.md )   
- [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)   
+ [Customize themes for high contrast settings](../unified-service-desk/customize-themes-in-unified-service-desk.md )   
+ [Unified Service Desk configuration walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)   
  [Use themes to customize the appearance of your application](../unified-service-desk/customize-appearance-application.md)   
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)   
 
