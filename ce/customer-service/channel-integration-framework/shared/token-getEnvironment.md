@@ -14,4 +14,4 @@
 Returns a promise object with type String with the available details of the current Unified Interface page. The details include: `appid`, `pagetype`, `record-id` (if available), `clientUrl`, `appUrl`, `orgLcid`, `orgUniqueName`, `userId`, `userLcid`, `isDirty`, and `username`.
 
 [!Note]
-> The details like `etn`, `record-id`, `appid`, and `pagetype` are only available in the response of the getEnvironment API if the underlying focused session belongs to the channel provider.
+> The details like `etn`, `record-id`, `appid`, and `pagetype` will be available in the response of the getEnvironment API only if the underlying focused session belongs to the channel provider.
