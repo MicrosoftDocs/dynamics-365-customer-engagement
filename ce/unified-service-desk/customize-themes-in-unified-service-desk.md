@@ -30,7 +30,7 @@ Themes in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk
 <a name="UnifiedBlueTheme"></a>
 ### Unified Blue theme
 
-This is the predefined theme for Unified Service Desk when you're using Unified Interface apps.
+This is the predefined theme for Unified Service Desk if you're using Unified Interface apps.
 
 ![Unified Blue in Unified Service Desk.](media/unified-blue-theme.png "Unified Blue in Unified Service Desk")
 
@@ -39,7 +39,7 @@ This is the predefined theme for Unified Service Desk when you're using Unified 
 <a name="AirTheme"></a>   
 ### Air theme
   
- This is the predefined theme for Unified Service Desk when you're using the Web Client. This theme supports high-contrast mode.  
+ This is the predefined theme for Unified Service Desk if you're using the Web Client.
   
  ![Air theme in Unified Service Desk.](../unified-service-desk/media/crm-itpro-usd-themeair.png "Air theme in Unified Service Desk") 
 
@@ -88,7 +88,7 @@ The automatic switching between normal and high-contrast modes in the [!INCLUDE[
   
 2. Select **Action Calls** under **Basic Settings**.  
   
-3. Select **+ Nw** to create an action call.  
+3. Select **New** to create an action call.  
   
 4. On the **New Action Call** page, set the general properties:  
   
