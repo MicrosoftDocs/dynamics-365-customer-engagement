@@ -61,12 +61,12 @@ Review the following requirements before you configure Microsoft Teams dialer in
     
     > [!div class="mx-imgBorder"]
     > ![Enable the preview.](media/teams-dialer-enable-preview.png "Enable the preview") 
-5.	In the **Security role** section, select one of the following options to provide permissions to users to view Microsoft Teams dialer. 
+5.	In the **Security role** section, select one of the following options to provide permissions to users to access Microsoft Teams dialer. 
 
     | Option | Description |
     |--------|-------------|
-    | All security roles | This option provides access to view Microsoft Teams dialer to users in all the security roles in your organization. |
-    | Specific security roles | This option allows you to specify security roles when you want to give access to view Microsoft Teams dialer to specific users.<br>**Note**:<br> - Ensure that the security roles you select are associated with the root business unit (top level of a business unit hierarchy). If not, the security roles will not see the Teams dialer. More information: [Create or edit business units](/power-platform/admin/create-edit-business-units)<br>- Ensure that the users are assigned to the selected security roles to access the Teams dialer. More information: [Assign a security role to a user](/power-platform/admin/assign-security-roles)<br>- Ensure that the selected security roles have read privileges to the following records in manage security roles page: <br>&nbsp;&nbsp;&nbsp;• Under the **Core Records** tab, read access to **Note**<br>&nbsp;&nbsp;&nbsp;• Under the **Custom Entities** tab, read access to **Teams Dialer Admin settings**<br>More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)|
+    | All security roles | Allows all the security roles to access Microsoft Teams dialer. |
+    | Specific security roles | Allows only the selected security roles to access Microsoft Teams dialer.<br>**Note**:<br> - Ensure that the security roles you’ve selected are associated with the root business unit (top level in the business unit hierarchy). If not, the users will not see the Teams dialer in the Sales Hub app. More information: [Create or edit business units](/power-platform/admin/create-edit-business-units)<br>- Ensure that users who need to access the Teams dialer are assigned to the selected security roles. More information: [Assign a security role to a user](/power-platform/admin/assign-security-roles)<br>- Ensure that the selected security roles have read privileges to the following records in manage security roles page: <br>&nbsp;&nbsp;&nbsp;• Under the **Core Records** tab, read access to **Note**<br>&nbsp;&nbsp;&nbsp;• Under the **Custom Entities** tab, read access to **Teams Dialer Admin settings**<br>More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)|
 
     > [!div class="mx-imgBorder"]
     > ![Select security roles.](media/teams-dialer-select-security-roles.png "Select security roles")
