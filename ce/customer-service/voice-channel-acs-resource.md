@@ -27,8 +27,8 @@ Before you connect to an Azure Communication Services resource, ensure you have 
 - At least contributor-level permissions to the Azure subscription. To check your role, open your subscription and view the **My role** column of your subscription on the Azure portal. You'll be able to deploy your Azure Communication Services resource only if you have contributor-level permissions.
 
 > [!Important]
-> - If you're using a trial phone number, you must end the trial to be able to see the options to connect to a new or existing Azure Communication Services resource.
-> - The **Get started** button to connect to a new or existing Azure Communication Services resource will appear only when the trial has ended or when you've disconnected from the Azure Communication Services resource.
+> - If you're using a trial phone number, you must end the trial to be able to see the options to connect to a new or existing Azure Communication Services resource. 
+> - The **Get started** button to connect to a new or existing Azure Communication Services resource will appear only when the trial has ended after the 60 minutes free calling time has elapsed, or when you have manually ended the trial, or when you've disconnected from the Azure Communication Services resource.
 
 ### Connect to a new Azure Communication Services resource
 
