@@ -25,7 +25,7 @@ Displays a notification that can be used to inform the agent about incoming conv
 |-----------------|----------|--------------|-----------------|
 | input           | String   | Yes          | JSON input      |
 | correlationId   | GUID     | No           | Used to group all related API calls together for diagnostic telemetry.  |
-| cancellationId  | GUID    | No            | Used to send a cancellation token while calling notifyEvent.   |
+| cancellationId  | GUID    | No            | Used to send a cancellation token while calling notifyEvent.  The `cancellationId` is used by the cancelEvent to hide a notification. |
 | successCallback | Function | No           | On success callback, response object will have the information about whether the customer selected Accept or Reject. |
 | errorCallback   | Function | No           | A function to call when the operation fails.  |
 
