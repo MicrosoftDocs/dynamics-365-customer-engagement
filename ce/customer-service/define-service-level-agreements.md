@@ -3,8 +3,8 @@ title: "Define service-level agreements in Dynamics 365 Customer Service | Micro
 description: "Learn how to define service-level agreements in Dynamics 365 Customer Service."
 ms.date: 03/08/2022
 ms.topic: article
-author: neeranelli
-ms.author: nenellim
+author: Soumyasd27
+ms.author: sdas
 manager: shujoshi
 search.audienceType: 
   - admin
@@ -72,7 +72,7 @@ Review the following requirements before configuring SLAs for your organization:
 
 SLA KPIs are performance indicators, such as First Response or Resolve by, that you'd like to track.
 
-You can create SLA KPIs in the Customer Service admin center (preview) app or Customer Service Hub app.
+You can create SLA KPIs from the Customer Service admin center (preview) or Customer Service Hub app.
 
 1. Go to one of the apps, and perform the following steps.
 
@@ -129,7 +129,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
 ### Create an SLA 
 
-You can create an SLA in the Customer Service admin center (preview) or Customer Service Hub app.
+You can create an SLA from the Customer Service admin center or Customer Service Hub app.
 
 1. Go to one of the apps, and perform the following steps.
 
@@ -162,7 +162,7 @@ You can create an SLA in the Customer Service admin center (preview) or Customer
 
 ### Create an SLA item
 
-You can create an SLA item in the Customer Service admin center (preview) or Customer Service Hub app.
+You can create an SLA item from the Customer Service admin center or Customer Service Hub app.
 
 1. Go to one of the apps, and perform the following steps.
 
@@ -538,21 +538,30 @@ We recommend that you perform the following steps to upgrade a solution:
 2. Upgrade your solution.
 3. After the solution has been successfully upgraded, activate the SLAs as required.
 
-## Export and import a calendar with SLAs
+## Export or import a calendar with its corresponding SLAs
 
-To export or import a calendar with SLAs:
+You can export or import a calendar from the Customer Service admin center or Customer Service Hub app.
 
-1. In Customer Service Hub site map, select **Service Configuration Settings** in Service Terms.
-1. On the **Service Configuration Settings** page, go to the Calendar Export and Import section and set the **Enable calendar export and import** toggle to Yes. By default, teh option is set to **No**.
+1. Go to one of the apps, and perform the following steps.
+
+    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+
+    1. In the site map, select **Service terms** in **Operations**. The **Service Terms** page appears.
+    1. In the **Other SLA Settings** section, select **Manage**. The **Service Configuration Settings** page appears.
+
+    ### [Customer Service Hub](#tab/customerservicehub)
+
+    - In the site map, go to **Service Management** and select **Service Configuration Settings** in **Service Terms**. The **Service Configuration Settings** page appears.
+   
+1. On the **Service Configuration Settings** page, go to the **Calendar Export and Import** section and set the **Enable calendar export and import** toggle to **Yes**. By default, the option is set to **No**.
 1. Select **Save**.
 
-While the calendars will be imported or exported with the corresponding SLAs, it is important to understand the following:
-
-- On deletion of solution containing SLAs, the SLAs will be deleted, but the corresponding calendars won't be deleted.
-- Calendars once imported onto the target org, are editable. However, it is recommended to make any changes to the calendar via solution import or export process.
-- The calendars will be overwritten during every solution import in case of any changes. So, the calendar in the latest solution being imported will overwrite the existing customizations or settings on the calendar present on the target environment.
-- Exported calendars will be present in XML format in the `Calendars` folder within the exported solution.
-- SLA Items will automatically be linked to the corresponding imported calendars on import.
+> [!IMPORTANT]
+> - When you delete a solution containing SLAs, the SLAs get deleted. However, their corresponding calendars don't get deleted.
+> - Calendars once imported to the target org, are editable. However, it is recommended to make any changes to the calendar through the solution import or export process.
+> - The calendars will be overwritten during every solution import in case of any changes. So, the calendar in the latest solution being imported will overwrite the existing customizations or settings on the calendar present on the target environment.
+> - Exported calendars will be present in XML format in the `Calendars` folder within the exported solution.
+> - SLA Items will automatically be linked to the corresponding imported calendars on import.
 
 ## Limitations
 
