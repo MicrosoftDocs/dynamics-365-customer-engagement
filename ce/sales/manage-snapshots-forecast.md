@@ -4,8 +4,8 @@ description: "Use snapshots to automatically take a snippet of forecast data at 
 ms.date: 10/26/2021
 ms.custom: 
 ms.topic: article
-author: udaykirang
-ms.author: udag
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 ---
 # Take snapshots automatically  
