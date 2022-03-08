@@ -17,7 +17,7 @@ ms.custom:
 
 [!INCLUDE[getEnvironment](includes/getEnvironment-description.md)]
 
-[!INCLUDE[token-getEnvironment](../../shared/token-getEnvironment.md)]
+[!INCLUDE[token-getEnvironment](../../../shared/token-getEnvironment.md)]
 
 > [!Note]
 > The details like `etn`, `record-id`, `appid`, and `pagetype` will be available in the response of the getEnvironment API only if the underlying focused session belongs to the channel provider.
