@@ -1,6 +1,6 @@
 ## Syntax
 
-`Microsoft.CIFramework.searchAndOpenRecords(entityLogicalName, queryParameters, searchOnly).then(successCallback, errorCallback);`
+`Microsoft.CIFramework.searchAndOpenRecords(entityLogicalName, queryParameters, searchOnly, searchType).then(successCallback, errorCallback);`
 
 ## Parameters
 
