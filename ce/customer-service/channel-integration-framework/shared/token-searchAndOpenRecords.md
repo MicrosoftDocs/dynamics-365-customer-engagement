@@ -27,7 +27,7 @@
 
 When you set `searchOnly` as `true`, the contact entity records are searched to the get results as a promise object, and the record is not opened. Set `searchOnly` as `true` when the search displays a list of records based on the search context.
 
-When you set `searchOnly` as `false`, the contact entity records are searched and the record is opened. Set the `searchOnly` as `false` when you want the search to display a single record based on the search context. If `searchOnly` parameter is set to `false`, it will open search page if the search result has multiple records and pre-populate the search page with the tag value mentioned when search field is used in queryParameters.
+When you set `searchOnly` as `false`, the contact entity records are searched and the record is opened. Set the `searchOnly` as `false` when you want the search to display a single record based on the search context. If `searchOnly` parameter is set to `false`, it will open search page if the search result has multiple records and prepopulate the search page with the tag value mentioned when search field is used in queryParameters.
 
 ## Examples
 
@@ -53,7 +53,7 @@ Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telepho
 
 ### Example 2: Search and display on the list of contact records
 
-This sample code searches and displays the name and phone number of Contact entity records whose first name is **Contoso**. Using `$search` we can make sure that the search results page is pre-populated with the search term **Contoso**.
+This sample code searches and displays the name and phone number of Contact entity records whose first name is **Contoso**. Using `$search` we can make sure that the search results page is prepopulated with the search term **Contoso**.
 
 > [!NOTE]
 > If you are using `$search` in the query and the `searchOnly` parameter is set to `false`, it will always open the search results page and not the retrieved record. If you want to open the retrieved record, do not use `$search` parameter in the query.
@@ -89,5 +89,24 @@ Microsoft.CIFramework.searchAndOpenRecords("contact", "$filter=statecode eq 0&$s
         console.log(error.message);
         // handle error conditions
     }
+);
+```
+
+### Example 4: Search and display name and phone number using 
+
+This sample code searches and displays the name and phone number of Contact entity records by specifying the relevance search type.
+
+```JavaScript
+Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telephone1", false, null, 0 ).
+then(     
+    function success(result) {     
+    res=JSON.parse(result);         
+    console.log(`Record values: Full Name: ${res[0].fullname}, Telephone Number: ${res[0].telephone1}`);         
+       // perform operations on record retrieval and opening 
+    },     
+    function (error) {         
+        console.log(error.message);         
+        // handle error conditions     
+    } 
 );
 ```
