@@ -18,7 +18,7 @@ ms.custom:
 
 # Customize themes in Unified Service Desk
 
-Themes in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] define the look and feel of the agent application. A theme in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] consists of an XAML resource library, and can be placed on any web server and referenced via URL or can be compiled into .NET assemblies (DLLs), and distributed with the agent applications.
+Themes in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] define the look and feel of the agent application. A theme in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] consists of an XAML resource library, and can be placed on any web server and referenced via URL, or can be compiled into .NET assemblies (DLLs) and distributed with the agent applications.
 
 <a name="PredefinedThemes"></a>
 ## Predefined themes available in Unified Service Desk
@@ -28,7 +28,7 @@ Themes in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk
 ::: moniker range=">=dynamics-usd-4"
 
 <a name="UnifiedBlueTheme"></a>
-### Unified Blue Theme
+### Unified Blue theme
 
 This is the predefined theme for Unified Service Desk when you're using Unified Interface apps.
 
@@ -37,17 +37,18 @@ This is the predefined theme for Unified Service Desk when you're using Unified 
 ::: moniker-end
 
 <a name="AirTheme"></a>   
-### Air Theme  
+### Air theme
+  
  This is the predefined theme for Unified Service Desk when you're using the Web Client. This theme supports high-contrast mode.  
   
  ![Air theme in Unified Service Desk.](../unified-service-desk/media/crm-itpro-usd-themeair.png "Air theme in Unified Service Desk") 
 
-The Air Theme supports the high-contrast mode. The high-contrast mode in [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] helps you read the text on screen clearly by increasing the color contrast. When you turn on high-contrast mode on your computer and are using the  `Air Theme`, the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client will automatically switch to the high-contrast mode. Similarly, disabling the high-contrast mode on your computer will cause the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client to automatically switch to the normal display mode.
+The Air theme supports the high-contrast mode. When you turn on the high-contrast mode on your computer and are using the `Air` theme, the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client will automatically switch to the high-contrast mode. Similarly, disabling the high-contrast mode on your computer will cause the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client to automatically switch to the normal display mode.
 
-The automatic switching between normal and high-contrast modes in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client is supported only for the  predefined [Air Theme](../unified-service-desk/customize-themes-in-unified-service-desk.md#AirTheme). If you are using custom themes or custom hosted controls that supports high-contrast mode, the switching happens only after you restart the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client after switching to normal or high-contrast modes on your computer. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [High-contrast mode support for custom themes](#HighContrast)
+The automatic switching between normal and high-contrast modes in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client is supported only for the predefined [Air theme](../unified-service-desk/customize-themes-in-unified-service-desk.md#AirTheme). If you're using custom themes or custom hosted controls that support high-contrast mode, the switching happens only after you restart the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client after switching to normal or high-contrast modes on your computer. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [High-contrast mode support for custom themes](#HighContrast)
 
 > [!Caution]
-> The Air Theme is applicable only to the Web Client whereas the Unified Blue Theme is applicable only to Unified Interface. So, you might face issues when you switch to the Air theme in Unified Interface apps.
+> You might face issues when you switch to the Air theme in Unified Interface apps as the Air theme is applicable only to the Web Client.
   
 <a name="SetPredefinedTheme"></a>   
 ## Set a predefined theme  
@@ -203,8 +204,7 @@ The automatic switching between normal and high-contrast modes in the [!INCLUDE[
         ```  
   
 ### See also
-
- [Customize themes for high contrast settings](../unified-service-desk/customize-themes-in-unified-service-desk.md )   
+ 
  [Unified Service Desk configuration walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)   
  [Use themes to customize the appearance of your application](../unified-service-desk/customize-appearance-application.md)   
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)   
