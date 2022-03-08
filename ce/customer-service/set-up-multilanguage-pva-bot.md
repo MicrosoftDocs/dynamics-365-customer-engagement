@@ -20,7 +20,7 @@ The process for setting up the multilanguage bot in Power Virtual Agents is as f
 
 2. Create a topic in Bot Framework Composer
 
-3. Invoke the topic in Power Virtual Agents
+3. Configure the greeting topic in Power Virtual Agents
 
 4. Configure transfer to agent using the escalate topic
 
