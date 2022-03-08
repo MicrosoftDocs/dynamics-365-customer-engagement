@@ -1,7 +1,7 @@
 ---
 title: "Define service-level agreements in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how to define service-level agreements in Dynamics 365 Customer Service."
-ms.date: 02/23/2022
+ms.date: 03/08/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -537,6 +537,22 @@ We recommend that you perform the following steps to upgrade a solution:
 1. Deactivate the SLAs that have been brought through the previous version of the solution. The status of these SLAs will change to Draft.
 2. Upgrade your solution.
 3. After the solution has been successfully upgraded, activate the SLAs as required.
+
+## Export and import a calendar with SLAs
+
+To export or import a calendar with SLAs:
+
+1. In Customer Service Hub site map, select **Service Configuration Settings** in Service Terms.
+1. On the **Service Configuration Settings** page, go to the Calendar Export and Import section and set the **Enable calendar export and import** toggle to Yes. By default, teh option is set to **No**.
+1. Select **Save**.
+
+While the calendars will be imported or exported with the corresponding SLAs, it is important to understand the following:
+
+- On deletion of solution containing SLAs, the SLAs will be deleted, but the corresponding calendars won't be deleted.
+- Calendars once imported onto the target org, are editable. However, it is recommended to make any changes to the calendar via solution import or export process.
+- The calendars will be overwritten during every solution import in case of any changes. So, the calendar in the latest solution being imported will overwrite the existing customizations or settings on the calendar present on the target environment.
+- Exported calendars will be present in XML format in the `Calendars` folder within the exported solution.
+- SLA Items will automatically be linked to the corresponding imported calendars on import.
 
 ## Limitations
 
