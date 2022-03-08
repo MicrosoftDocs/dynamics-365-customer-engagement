@@ -32,7 +32,8 @@ The process for setting up the multilanguage bot in Power Virtual Agents is as f
 
 ## Prerequisites
 
-Your bot must be registered in the Azure app registration page. Note the application ID. More information: [Create an app registration](/azure/digital-twins/how-to-create-app-registration-portal#create-the-registration)
+- You must install the Bot Framework Composer locally on the computer that you'll use to configure the multilanguage bot.
+- Your bot must be registered in the Azure app registration page. Note the application ID. More information: [Create an app registration](/azure/digital-twins/how-to-create-app-registration-portal#create-the-registration)
 
 ## Create a bot in Power Virtual Agents
 
@@ -45,8 +46,6 @@ For example, you can create the bot with the following details:
 - **Environment**: Environment name where Omnichannel for Customer Service is configured, such as **contoso-printers**.
 
 ## Create a topic in Bot Framework Composer
-
-You must install the Bot Framework Composer locally on the computer that you'll use to configure the multilanguage bot.
 
 **To create a topic**
 
@@ -118,6 +117,8 @@ You must install the Bot Framework Composer locally on the computer that you'll 
 
 ## Invoke the topic in Power Virtual Agents
 
+**To invoke the topic**
+
 1. In Power Virtual Agents, open the **Greeting** topic in the authoring canvas, and delete all the default messages except the trigger phrases.
 
 1. Select **Add node** (+), and select **Redirect to another topic**.
@@ -127,6 +128,8 @@ You must install the Bot Framework Composer locally on the computer that you'll 
 1. Save the **Greeting** topic.
 
 ## Configure transfer to agent using the escalate topic
+
+**To configure transfer to agent**
 
 1. In Power Virtual Agents, open the **Escalate** topic in the authoring canvas, and delete all the default messages except the trigger phrases.
 
