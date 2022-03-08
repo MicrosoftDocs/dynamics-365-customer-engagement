@@ -1,6 +1,6 @@
 ---
 title: "Set up a multilanguage bot in Power Virtual Agents | MicrosoftDocs"
-description: "Use this topic to learn how to set up a multilanguage bot in Power Virtual Agents to use in Omnichannel for Customer Service."
+description: "Use this article to learn how to set up a multilanguage bot in Power Virtual Agents to use in Omnichannel for Customer Service."
 ms.date: 03/08/2022
 ms.topic: article
 author: neeranelli
@@ -10,11 +10,9 @@ manager: shujoshi
 
 # Set up a multilanguage bot in Power Virtual Agents for contact center
 
-## Introduction
+You can configure routing rules to route voice calls to appropriate agents based on the language that your customer has selected. A multilanguage contact center helps you serve global customers who want to interact with your contact center in a language of their choice. You can also set up bots as the first contact who can handle such requests.
 
-To be able to service global customers who want to interact with your contact center in a language of their choice, you can configure routing rules to route the calls to appropriate agents based on the language your customer selects. You can also set up bots as the first contact who can handle such requests.
-
-You can use the Bot Framwork Composer in Power Virtual Agents to set up a bot for a multilanguage contact center. 
+Use the Bot Framework Composer in Power Virtual Agents to set up a bot for a multilanguage contact center.
 
 The process for setting up the multilanguage bot in Power Virtual Agents is as follows:
 
@@ -51,7 +49,7 @@ For example, you can create the bot with the following details:
 
 1. In Power Virtual Agents, for the bot that you created, select **Topics** in the site map, and then select the dropdown arrow for **New topic** in the **Topics** pane. A message appears stating that the application is trying to open the Bot Framework Composer.
 
-1. Select **Open**, and on the Import your bot to new project dialog that appears, enter the following details:
+1. Select **Open**, and on the **Import your bot to new project** dialog that appears, enter the following details:
 
    - **Name**: A name for the project, such as "Multilanguage bot".
    - **Location**: Select a folder location on the computer.
@@ -94,7 +92,7 @@ For example, you can create the bot with the following details:
 
           :::image type="content" source="media/va-customer-locale.png" alt-text="Set customer locale by using branch switch option.":::
 
-        The "virtualagent.va_CustomerLocale" will be updated to the corresponding language selected by the customer.
+        The value for the "virtualagent.va_CustomerLocale" variable will be updated with the language selected by the customer.
 
         > [!NOTE]
         > You must set the va_CustomerLocale context variable with the locale codes for the languages that you want to support. More information: [Supported locations and locale codes](voice-channel-multi-language-contact-center.md#supported-languages-and-locale-codes)
@@ -115,9 +113,9 @@ For example, you can create the bot with the following details:
 
 1. In Power Virtual Agents, refresh **Topics**. You'll see the topic listed.
 
-## Invoke the topic in Power Virtual Agents
+## Configure the greeting topic in Power Virtual Agents
 
-**To invoke the topic**
+**To configure the greeting topic**
 
 1. In Power Virtual Agents, open the **Greeting** topic in the authoring canvas, and delete all the default messages except the trigger phrases.
 
@@ -175,7 +173,7 @@ For example, ensure the following settings:
 
     :::image type="content" source="media/multilanguage-workstream.png" alt-text="Workstream with multiple language options set.":::
 
-1. In the route to queues ruleset of the workstream, use Conversation.CustomerLanguage as the criteria to route the incoming call to different language queues based on the option that's selected by the customer.
+1. In the route to queues ruleset of the workstream, use **Conversation.CustomerLanguage** as the criteria to route the incoming call to different language queues based on the option that's selected by the customer.
 
     :::image type="content" source="media/route-to-queue-ruleset-multilanguage.png" alt-text="Route-to-queue rules for multilanguage contact center workstream":::
 
@@ -183,9 +181,11 @@ For example, ensure the following settings:
 
 ## Verify the multilanguage bot
 
-To verify the bot settings that you have configured, perform the following step:
+Perform the following steps to verify the bot settings:
 
-- Call the number that is registered with the voice workstream, and select a language when you are prompted. The bot routes the call to an agent who can speak with you in the language that you have selected.
+1. As a customer, call the number that's registered with the voice workstream.
+
+1. Select a language when you are prompted with an interactive voice response (IVR) message. The bot routes the call to an agent who can speak with you in the language that you've selected.
 
 
 ### See also
