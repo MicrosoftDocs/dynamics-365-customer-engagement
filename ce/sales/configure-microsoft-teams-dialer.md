@@ -73,8 +73,8 @@ Review the following requirements before you configure Microsoft Teams dialer in
     >- Ensure that the selected security roles have read privileges to the following records in manage security roles page: 
     > - Under the **Core Records** tab, read access to **Note**
     > - Under the **Custom Entities** tab, read access to **Teams Dialer Admin settings**
-    > More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)
-    > - Ensure that the security roles you've selected can access the Teams dialer. More information: [Configure the dialer](configure-microsoft-teams-dialer.md#configure-the-dialer)
+    >More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)
+    >- Ensure that the security roles you've selected can access the Teams dialer. More information: [Configure the dialer](configure-microsoft-teams-dialer.md#configure-the-dialer)
 
     > [!div class="mx-imgBorder"]
     > ![Select security roles.](media/teams-dialer-select-security-roles.png "Select security roles")
