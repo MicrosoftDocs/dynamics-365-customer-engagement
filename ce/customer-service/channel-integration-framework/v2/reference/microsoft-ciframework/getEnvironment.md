@@ -1,7 +1,7 @@
 ---
 title: "getEnvironment (JavaScript API Reference) for Microsoft Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Includes description, syntax, and parameter information for the getEnvironment method in JavaScript API Reference for Channel Integration Framework 2.0."
-ms.date: 12/31/2019
+ms.date: 03/10/2022
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -17,7 +17,22 @@ ms.custom:
 
 [!INCLUDE[getEnvironment](includes/getEnvironment-description.md)]
 
-[!INCLUDE[tokengetEnvironment](../../../shared/token-getEnvironment.md)]
+## Syntax
 
+`Microsoft.CIFramework.getEnvironment().then(successCallback, errorCallback);`
+
+## Parameters
+
+| Name            | Type    | Required | Description |
+|-----------------|----------|---------|-------------|
+| successCallback | Function | No      | A function to call when the request for environment details are successful |
+| errorCallback   | Function | No      | A function to call when the request for the environment fails              |
+
+## Return value
+
+Returns a promise object with type String with the available details of the current Unified Interface page. The details include: `appid`, `pagetype`, `record-id` (if available), `clientUrl`, `appUrl`, `orgLcid`, `orgUniqueName`, `userId`, `userLcid`, `isDirty`, and `username`.
+
+> [!Note]
+> The details like `etn`, `record-id`, `appid`, and `pagetype` will be available in the response of the getEnvironment API only if the underlying focused session belongs to the channel provider.
 
 [!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]
