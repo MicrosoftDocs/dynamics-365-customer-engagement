@@ -1,7 +1,7 @@
 ---
 title: "Set up a multilanguage bot in Power Virtual Agents | MicrosoftDocs"
 description: "Use this topic to learn how to set up a multilanguage bot in Power Virtual Agents to use in Omnichannel for Customer Service."
-ms.date: 03/07/2022
+ms.date: 03/08/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -50,7 +50,7 @@ You must install the Bot Framework Composer locally on the computer that you'll 
 
 **To create a topic**
 
-1. In Power Virtual Agents, for the bot that you created, select **Topics** on the site map, and then select the dropdown arrow for **New topic** in the **Topics** pane. A message appears stating that the application is trying to open the Bot Framework Composer.
+1. In Power Virtual Agents, for the bot that you created, select **Topics** in the site map, and then select the dropdown arrow for **New topic** in the **Topics** pane. A message appears stating that the application is trying to open the Bot Framework Composer.
 
 1. Select **Open**, and on the Import your bot to new project dialog that appears, enter the following details:
 
@@ -71,7 +71,7 @@ You must install the Bot Framework Composer locally on the computer that you'll 
       `<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="en-US"><voice name="en-US-AriaNeural"><lang xml:lang="en-US">Hello ${virtualagent.msdyn_CustomerName}. Welcome to contoso customer support.</lang></voice></speak>`
 
       > [!NOTE]
-      > The ${virtualagent.msdyn_CustomerName} variable will provide the customer name for authenticated customers only through record identification.
+      > The ${virtualagent.msdyn_CustomerName} variable will provide the customer name for authenticated customers only through record identification. More information: [Identify customers automatically](record-identification-rule.md)
 
    1. Select the **Add** (+) node in **BeginDialog**,  select **Ask a question**, and then select **Multi-choice** in the floating menu.
 
@@ -89,7 +89,7 @@ You must install the Bot Framework Composer locally on the computer that you'll 
     1. Select the **Add** (+) node, select **Create a condition**, and then select **Branch Switch (multiple options)**.
 
         - **Condition**: conversation.language_choice
-        - **Value**: 1, 2, 3, 4, Opne, Two, Three, Un, deux, trois, Um, dois, três
+        - **Value**: 1, 2, 3, 4, One, Two, Three, Un, deux, trois, Um, dois, três
         - **Property**: virtualagent.va_CustomerLocale
         - **Value**: en-US, fr-FR, pt-PT, hi-IN
 
@@ -98,7 +98,7 @@ You must install the Bot Framework Composer locally on the computer that you'll 
         The "virtualagent.va_CustomerLocale" will be updated to the corresponding language selected by the customer.
 
         > [!NOTE]
-        > You must set the va_CustomerLocale context variable during the IVR handoff with the locale code for the language you want to support. More information: [Supported locations and locale codes](voice-channel-multi-language-contact-center.md#supported-languages-and-locale-codes)
+        > You must set the va_CustomerLocale context variable with the locale codes for the languages that you want to support. More information: [Supported locations and locale codes](voice-channel-multi-language-contact-center.md#supported-languages-and-locale-codes)
 
     1. Select the **Add** (+) node, and then select **Begin a Power Virtual Agent topic**.
 
