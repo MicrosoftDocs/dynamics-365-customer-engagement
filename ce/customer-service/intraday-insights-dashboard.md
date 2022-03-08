@@ -136,7 +136,7 @@ You can save your preferred time zone settings for reports as bookmarks. The boo
 The **Duration** option that's available in all reports lets you filter the report details. The filter helps you look at the metrics for the shift the supervisor is handling out of the entire 24 hours duration. The filter lets you report the data within the last four, eight, or 12 hours duration or apply a custom value as well. The metrics within the reports are calculated based on the conversations created in the selected time duration.
 
  > [!NOTE]
- > When you use the **Duration** filter, the report is always displayed in the UTC timezone, irrespective of the **Time zone** setting. This is due to a Power BI limitation. More information: [Power BI Considerations and limitations](/power-bi/visuals/desktop-slicer-filter-date-range.md#considerations-and-limitations).
+ > When you use the **Duration** filter, irrespective of the **Time zone** setting, the report is always displayed in the UTC time zone. This is due to a Power BI limitation. More information: [Power BI Considerations and limitations](/power-bi/visuals/desktop-slicer-filter-date-range#considerations-and-limitations).
 
 Let's look at an example to understand the data refresh of the reports.
 
