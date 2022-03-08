@@ -56,8 +56,6 @@ In the above scenarios, the latest calendar information and values are re-calcul
 > [!NOTE]
 > Please validate all the scenarios and the recommendations to ensure that all the conditions are met before applying the changes to your production environment.
 
-## Scenarios
-
 **Scenario 1:**
 
 Conditions: 
@@ -69,8 +67,8 @@ Conditions:
 
 Recommendation:
  
-- Don't modify the existing SLA and calendar. The earlier SLA can continue to remain in Active state on the production environment. Create a similar SLA with a new calendar and the same kind of SLA items.
-- Activate the new SLA and set as Default. This will ensure that all the new cases are created with the new SLA and time calculation will be done with the new calendar information.
+1. Don't modify the existing SLA and calendar. The earlier SLA can continue to remain in Active state on the production environment. Create a similar SLA with a new calendar and the same kind of SLA items.
+2. Activate the new SLA and set as Default. This will ensure that all the new cases are created with the new SLA and time calculation will be done with the new calendar information.
 
 > [!NOTE]
 > If you are not using a Default SLA, update your SLA condition to update the SLA ID in the Case entity accordingly. More information: [Apply SLAs on demand](define-service-level-agreements.md#apply-slas-on-demand).
@@ -86,9 +84,9 @@ Conditions:
 
 Recommendation:
 
-- Don't modify the existing SLAs and calendars. The earlier SLAs can continue to remain in Active state on the production org. Create similar SLAs with a new calendar and the same kind of SLA items. 
-- Activate the new SLAs. This will ensure that all the new cases are created with the new SLA and time calculation will be done with the new calendar information.
-- Update your SLA conditions to update the SLA ID in the case entity accordingly. More information: [Apply SLAs on demand<a name="apply-sla-on-demand"></a>](define-service-level-agreements.md#apply-slas-on-demand).
+1. Don't modify the existing SLAs and calendars. The earlier SLAs can continue to remain in Active state on the production org. Create similar SLAs with a new calendar and the same kind of SLA items.
+2. Activate the new SLAs. This will ensure that all the new cases are created with the new SLA and time calculation will be done with the new calendar information.
+3. Update your SLA conditions to update the SLA ID in the case entity accordingly. More information: [Apply SLAs on demand<a name="apply-sla-on-demand"></a>](define-service-level-agreements.md#apply-slas-on-demand).
 
 **Scenario 3**
 
