@@ -3,7 +3,6 @@ title: "Access deal manager | MicrosoftDocs"
 description: "Sellers access the deal manager workspace to get better visibility into their pipelines and manage their work efficiently."
 ms.date: 10/26/2021
 ms.topic: article
-
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
@@ -19,7 +18,7 @@ As a seller, you use the deal manager workspace to get better visibility into yo
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Core sales roles <br>  More information: [What are core sales roles](security-roles-for-sales.md#what-are-core-sales-roles)|
+| **Security roles** | Primary sales roles such as salesperson, sales manager, and so on.<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
 |||
 
 ## Access the workspace
