@@ -40,9 +40,9 @@ You'll create a bot in Power Virtual Agents by selecting the environment in whic
 
 For example, you can create the bot with the following details:
 
-- **Name**: *Bot name*, such as **Greeter bot**.
-- **Language**: *Primary language for the bot*, such as **English (US)**.
-- **Environment**: *Environment name where Omnichannel for Customer Service is configured*, such as **contoso-printers**.
+- **Name**: Bot name, such as **Greeter bot**.
+- **Language**: Primary language for the bot, such as **English (US)**.
+- **Environment**: Environment name where Omnichannel for Customer Service is configured, such as **contoso-printers**.
 
 ## Create a topic in Bot Framework Composer
 
