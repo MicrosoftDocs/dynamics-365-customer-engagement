@@ -4,7 +4,7 @@ description: "Learn how to configure call recordings and transcripts in the voic
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 03/07/2022
+ms.date: 03/08/2022
 ms.topic: article
 ms.custom: intro-internal
 
