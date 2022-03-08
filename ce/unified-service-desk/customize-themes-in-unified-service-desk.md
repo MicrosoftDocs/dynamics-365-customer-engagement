@@ -48,7 +48,7 @@ The Air theme supports the high-contrast mode. When you turn on the high-contras
 The automatic switching between normal and high-contrast modes in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client is supported only for the predefined [Air theme](../unified-service-desk/customize-themes-in-unified-service-desk.md#AirTheme). If you're using custom themes or custom hosted controls that support high-contrast mode, the switching happens only after you restart the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client after switching to normal or high-contrast modes on your computer. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [High-contrast mode support for custom themes](#HighContrast)
 
 > [!Caution]
-> You might face issues when you switch to the Air theme in Unified Interface apps as the Air theme is applicable only to the Web Client.
+> You might face issues when you switch to the Air theme in Unified Interface apps because the Air theme is applicable only to the Web Client.
   
 <a name="SetPredefinedTheme"></a>   
 ## Set a predefined theme  
