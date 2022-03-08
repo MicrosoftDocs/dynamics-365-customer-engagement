@@ -91,7 +91,7 @@ Microsoft.CIFramework.searchAndOpenRecords("contact", "$filter=statecode eq 0&$s
 );
 ```
 
-### Example 4: Search and display name and phone number using 
+### Example 4: Search and display name and phone number by specifying the relevance search type
 
 This sample code searches and displays the name and phone number of Contact entity records by specifying the relevance search type.
 
