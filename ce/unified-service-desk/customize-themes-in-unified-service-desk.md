@@ -21,7 +21,8 @@ ms.custom:
 Themes in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] define the look and feel of the agent application. A theme in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] consists of an XAML resource library, and can be placed on any web server and referenced via URL or can be compiled into .NET assemblies (DLLs), and distributed with the agent applications.
 
 <a name="PredefinedThemes"></a>
-## Predefined Themes available in Unified Service Desk
+## Predefined themes available in Unified Service Desk
+
  [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] includes two predefined themes.
 
 ::: moniker range=">=dynamics-usd-4"
