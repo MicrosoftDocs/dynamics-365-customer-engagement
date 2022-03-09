@@ -566,6 +566,8 @@
         href: voice-channel-call-customer.md
       - name: Use call controls and the agent desktop for voice
         href: voice-channel-agent-experience.md
+      - name: View call recordings and transcripts
+        href: voice-call-recordings-transcripts.md
     - name: Supervisor experience
       items:
       - name: Monitor voice calls
