@@ -1,7 +1,7 @@
 ---
 title: "Manage phone numbers | MicrosoftDocs"
 description: "Use this topic to understand how you can acquire new phone numbers, and also view, update, and release existing phone numbers in Omnichannel for Customer Service."
-ms.date: 02/18/2022
+ms.date: 03/10/2022
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: gandhamm
@@ -17,7 +17,11 @@ manager: shujoshi
 
 Omnichannel for Customer Service helps you enable and use voice and SMS services seamlessly within Dynamics 365. As an administrator, you can purchase phone numbers and calling plans, decide whether you want to avail calling and/or SMS services, or whether you'd like to set up inbound or outbound calling options for your business.
 
+You can also [bring your own phone number via Azure direct routing](voice-channel-bring-your-own-number.md).
+
 ## Prerequisites
+
+The following prerequisites must be met:
 
 - [Install the voice channel in Omnichannel for Customer Service](voice-channel-install.md).
 - [Connect to Azure Communication Services using a new or existing Azure resource](voice-channel-acs-resource.md), and then deploy the resource through Dynamics 365.
@@ -153,11 +157,9 @@ If you want to change the calling plan, or upgrade the calling or SMS plans on a
 
 If you no longer need a phone number, you can release it from your organization's phone number list. However, before you plan to remove the phone number from your business, you must remove the number from any associated workstreams or outbound profiles. Also, if the number is assigned as a personal number to any agent, you must disable the number, and then try releasing it again.
 
-<!-->
-To simply disconnect phone numbers from an Azure Communication Services resource, see [Disconnect from Azure Communication Services resource](voice-channel-acs-resource.md#disconnect-from-azure-communication-services-resources).-->
-
 > [!Important]
 > When you release a phone number, you actually delete it from Dynamics 365, so release a number only if you're sure that you don't need it at all.
+> To disconnect phone numbers from an Azure Communication Services resource, see [Disconnect from Azure Communication Services resource](voice-channel-acs-resource.md#disconnect-from-azure-communication-services-resources).
 
 **To release a phone number**
 
@@ -166,7 +168,6 @@ To simply disconnect phone numbers from an Azure Communication Services resource
 2. Select a phone number and select **Release number**. The **Release number** dialog requesting you to confirm the number deletion is displayed.
 
 3. Select **OK** if you're sure you don't need the number. The phone number is removed from your organization and is no longer displayed in the **Phone numbers** list.
-
 
 
 ### See also

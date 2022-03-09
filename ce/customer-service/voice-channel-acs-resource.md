@@ -23,7 +23,7 @@ To provision phone numbers for your business in Omnichannel for Customer Service
 
 Before you connect to an Azure Communication Services resource, ensure you have the following details:
 
-- An Azure subscription that's in the same tenant as your Dynamics 365 account. Ensure that your Azure subscription meets the [Subscription eligibility and number capabilities](azure/communication-services/concepts/numbers/sub-eligibility-number-capability) requirements.
+- An Azure subscription that's in the same tenant as your Dynamics 365 account. Ensure that your Azure subscription meets the [Subscription eligibility and number capabilities](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability) requirements.
 - At least contributor-level permissions to the Azure subscription. To check your role, open your subscription and view the **My role** column of your subscription on the Azure portal. You'll be able to deploy your Azure Communication Services resource only if you have contributor-level permissions.
 
 > [!Important]
