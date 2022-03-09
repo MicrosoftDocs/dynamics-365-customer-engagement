@@ -1,7 +1,7 @@
 ---
 title: Using the Dynamics 365 Sales mobile app
 description: Instructions for using the Dynamics 365 Sales mobile app
-ms.date: 02/14/2022
+ms.date: 03/09/2022
 ms.topic: article
 author: sbmjais
 ms.author: shjais
