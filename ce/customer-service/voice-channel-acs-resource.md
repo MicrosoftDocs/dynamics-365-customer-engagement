@@ -17,6 +17,9 @@ manager: shujoshi
 
 To provision phone numbers for your business in Omnichannel for Customer Service, you must first establish connection with Azure Communication Services. You can connect to a new Azure resource or use an existing one, and then deploy the resource through Dynamics 365.
 
+> [!Note]
+> After you've connected to a resource in a Dynamics 365 environment, the phone numbers purchased via that resource linked to the Dynamics 365 environment can't be transferred or migrated to another environment.
+
 ## Quickstart: Connect to a new Azure Communication Services resource
 
 ### Prerequisites
@@ -29,7 +32,7 @@ Before you connect to an Azure Communication Services resource, ensure you have 
 > [!Important]
 > - If you're [using a trial phone number](voice-channel-manage-phone-numbers.md#use-trial-phone-number), you must end the trial to be able to see the options to connect to a new or existing Azure Communication Services resource. 
 > - The **Get started** button to connect to a new or existing Azure Communication Services resource will appear only when the trial has ended after the free calling time has elapsed, or when you've manually ended the trial, or when you've disconnected from the Azure Communication Services resource.
-> - After you've connected a resource to an environment, the phone numbers purchased via that resource can't be moved to another environment.  
+
 
 ### Connect to a new Azure Communication Services resource
 
