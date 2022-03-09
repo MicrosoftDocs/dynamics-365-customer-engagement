@@ -79,7 +79,7 @@ Each booking timestamp details:
 
 - **Timestamp Time**: The date and time of status change.
 
-- **Timestamp Source**: The device from which the status was changed. Please note: When updating from Field Service Mobile (D365), this timestamp source will always read **Desktop**. 
+- **Timestamp Source**: The device from which the status was changed. Note: When updating from the Field Service (Dynamics 365) mobile app, this timestamp source will always read **Desktop**. 
 
 > [!Note]
 > By default Booking Timestamps are only generated when there is a change in the related Field Service Status which is noted on each booking status, but this is configurable based on the **Timestamp Frequency setting** described below.
