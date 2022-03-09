@@ -88,7 +88,7 @@ Before you proceed with adding an existing resource to Azure Communication Servi
     > [!div class="mx-imgBorder"]
     > ![Azure resource is connected to Azure Communication Services.](./media/voice-channel-acs-connection.png "Azure resource is connected to Azure Communication Services.")
 
-   Your existing resource is now connected to Azure Communication Services. You'll be able to provision or acquire new phone numbers for your organization. However, to acquire or purchase phone numbers, you'll need to contact or wait to be contacted by a Microsoft voice program manager to be added to the Azure Communication Services allow list.
+    Your existing resource is now connected to Azure Communication Services, and you can [acquire new phone numbers](voice-channel-manage-phone-numbers.md) for your organization via the resource. However, to acquire or purchase phone numbers, you'll need to contact or wait to be contacted by a Microsoft voice program manager to be added to the Azure Communication Services allowlist.
 
 5. Select **Add number**. The **Add phone number** page is displayed.
 
