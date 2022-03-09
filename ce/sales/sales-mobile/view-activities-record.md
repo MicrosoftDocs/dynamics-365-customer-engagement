@@ -1,7 +1,7 @@
 ---
 title: View activities for a record in the Dynamics 365 Sales mobile app
 description: Instructions to View activities for a record in the Dynamics 365 Sales mobile app
-ms.date: 03/01/2022
+ms.date: 03/09/2022
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -99,9 +99,9 @@ You can add an activity from the quick view form of a record or from the home pa
 
 4.  In the **Edit** form, make changes as you want, and then tap ![Save activity](media/save-activity-icon.png)at the upper-right corner of the form.
 
-Alternately, you can tap ![More options](media/activity-more-options.png) on an activity card, and then tap **Edit**. Make changes as you want, and then tap ![Save activity](media/save-activity-icon.png) at the upper-right corner of the form.
+    Alternately, you can tap ![More options](media/activity-more-options.png) on an activity card, and then tap **Edit**. Make changes as you want, and then tap ![Save activity](media/save-activity-icon.png) at the upper-right corner of the form.
 
-![Edit an activity](media/edit-activity.png)
+    ![Edit an activity](media/edit-activity.png)
 
 ## Filter activities
 
