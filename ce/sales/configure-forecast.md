@@ -1,10 +1,10 @@
 ---
 title: "Configure forecasts in your organization"
 description: "Forecasts can be based on revenue or quantity. Configure forecast type, hierarchy, permissions, and details to appear on the forecast grid."
-ms.date: 10/26/2021
+ms.date: 02/15/2022
 ms.topic: article
-author: udaykirang
-ms.author: udag
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 searchScope: 
   - D365-App-msdynce_saleshub
@@ -18,10 +18,14 @@ searchScope:
 
 Forecasts can be based on revenue or quantity. Configure forecast type, hierarchy, permissions, and details to appear on the forecast grid.
 
+> [!NOTE]
+> The forecasting feature is not supported on mobile devices.
+
 ## License and role requirements
-|  | |
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator or Forecast Manager <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
@@ -33,10 +37,12 @@ A forecast helps your organization predict how much revenue your sales team will
 - Directors can use forecast trends to anticipate departmental sales and reallocate resources if necessary.   
 - Organization leaders can use the projected estimates to change the product strategy or convey updated projections to investors.   
 
+
 >[!IMPORTANT]
 >Forecasting is not available on Government Community Cloud (GCC).  
 
 ## Enable forecasting    
+
 You can configure forecasts in your organization that are based on revenue or quantity. You can define the type of forecast, its hierarchy, permissions for accessing it, and the details you want to appear on the forecast grid. After a forecast is activated, your sales team can view the revenue or quantity, and pipeline projections.   
 By default, forecasting is available in your organization and the following page is displayed when you select **Forecast configuration**:   
 
@@ -65,7 +71,9 @@ Also, you can observe the following changes in the **Sales Hub** app:
 
     Currently, the **Forecast category** field in the **Opportunity** form can't be hidden through the **Visible by default** option in the form customization. If you don't want to use the **Forecast category** field in opportunity form, remove the field through form customization. To learn more, see [Unable to hide forecast category field in Opportunity forms](ts-forecasts.md#hide_forecast_category_field).    
 
-## Configure a forecast     
+
+## Configure a forecast  
+   
 To configure a forecast in your organization, follow these steps:    
 1.	[Select a template](select-template-forecast.md)     
 2.	[Define general properties and scheduling](define-general-properties-scheduling-forecast.md)   
@@ -78,6 +86,11 @@ To configure a forecast in your organization, follow these steps:
 
 >[!IMPORTANT]
 >This feature is intended to help sales managers or supervisors enhance their team’s performance. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with sales persons may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their sales persons that their communications with end users may be monitored, recorded, or stored.
+
+## Use APIs to upload forecast data
+
+After a forecast is activated, you can use the msdyn_ForecastApi custom action to upload forecasting data to simple columns. For more information, see [msdyn_ForecastApi action](developer/reference/custom-actions/msdyn_ForecastApi.md).
+
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
@@ -93,7 +106,9 @@ To configure a forecast in your organization, follow these steps:
 [Blog: Tips for setting up sales forecasting in Dynamics 365 Sales](https://cloudblogs.microsoft.com/dynamics365/it/2020/11/23/tips-for-setting-up-sales-forecasting-in-dynamics-365-sales/)   
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)   
 [View forecasts](view-forecasts.md)   
-[About premium forecasting](/dynamics365/ai/sales/configure-premium-forecasting)
+[About premium forecasting](/dynamics365/ai/sales/configure-premium-forecasting)  
+[msdyn_ForecastApi action](developer/reference/custom-actions/msdyn_ForecastApi.md)
+[Forecasting FAQs](faqs-sales.md#forecasting)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

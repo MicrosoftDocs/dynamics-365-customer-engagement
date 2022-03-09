@@ -1,6 +1,6 @@
 ---
-title: "onpagenavigate (JavaScript API Reference) for Dynamics 365 Channel Integration Framework (CIF) version 1.0| Microsoft Docs"
-description: ""
+title: "onPageNavigate (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0| MicrosoftDocs"
+description: "Learn about the onPageNavigate event raised by the Channel Integration Framework library in Dynamics 365 Channel Integration Framework 1.0."
 ms.date: 12/31/2019
 ms.topic: reference
 author: mh-jaya
@@ -13,11 +13,12 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# onpagenavigate event (CIF JavaScript API reference)
+# onPageNavigate event (JavaScript API reference) for Dynamics 365 Channel Integration Framework 1.0
 
 [!INCLUDE[token-onpagenavigate](../../shared/token-onpagenavigate.md)]
 
-## Related topics
+### See also
+
 
 [addHandler](../microsoft-ciframework/addHandler.md)
 

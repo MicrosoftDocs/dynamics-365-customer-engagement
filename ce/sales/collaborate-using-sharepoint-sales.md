@@ -1,5 +1,5 @@
 ---
-title: "Collaborate using SharePoint - Sales Enterprise | Microsoft Docs"
+title: "Collaborate using SharePoint | Microsoft Docs"
 description: "Save and retrieve files related to a lead or opportunity in SharePoint from within the Sales Hub app." 
 ms.date: 12/05/2019
 ms.topic: article
@@ -12,15 +12,15 @@ ms.custom:
 # Collaborate using SharePoint  
 
 ## Requirements
-|  | |
+| &nbsp; | &nbsp; | 
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
 
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 Manage common document types, such as Word, Excel, and PowerPoint and create folders to save and manage those documents that are seamlessly stored in SharePoint from within a model-driven app. 
 
@@ -126,7 +126,7 @@ When you select one or more documents in the Documents list, you can take the fo
 
 ### See also
 
-[SharePoint, OneNote, and OneDrive integration with Common Data Service](/powerapps/maker/common-data-service/sharepoint-onedrive-onenote-intro)
+[SharePoint, OneNote, and OneDrive integration with Microsoft Dataverse](/    powerapps/maker/common-data-service/sharepoint-onedrive-onenote-intro)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

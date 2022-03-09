@@ -4,7 +4,7 @@ description: "To control data access, you must set up security roles. Learn abou
 ms.custom: 
 ms.date: 10/14/2021
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

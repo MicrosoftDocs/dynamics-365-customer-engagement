@@ -34,7 +34,7 @@
   items:
   - name: Overview 
     href: admin/install-upgrade-deploy-unified-service-desk.md
-  - name: Unified Service Desk system requirements
+  - name: System requirements
     href: admin/unified-service-desk-system-requirements.md
   - name: Install the Unified Service Desk client
     href: admin/install-upgrade-unified-service-desk-client.md
@@ -84,9 +84,9 @@
       href: uii-computer-telephony-integration-cti-framework.md
 - name: Administer and manage Unified Service Desk
   items: 
-  - name: Administer and manage overview
+  - name: Overview
     href: admin/administer-manage-unified-service-desk.md
-  - name: Support for Unified Interface Apps
+  - name: Support for Unified Interface apps
     href: admin/Support-unified-interfaces-apps-usd.md
   - name: Unified Service Desk Administrator app
     href: admin/unified-service-desk-administrator-app.md
@@ -130,7 +130,7 @@
       href: admin/download-migration-assistant.md      
     - name: Migration steps
       href: admin/migration-steps-web-client-unified-interface-configuration.md
-    - name: Post-requisites steps
+    - name: Post-migration steps
       href: admin/test-migration.md
   - name: Migrate Unified Service Desk configuration to another Customer Engagement instance 
     items:    

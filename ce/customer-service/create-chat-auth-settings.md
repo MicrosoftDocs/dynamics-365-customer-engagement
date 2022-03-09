@@ -1,7 +1,7 @@
 ---
 title: "Create chat authentication settings | MicrosoftDocs"
-description: "Perform the steps mentioned in this topic to create chat authentication settings in Omnichannel for Customer Service."
-ms.date: 04/20/2021
+description: "Perform the steps mentioned in this article to create chat authentication settings in Omnichannel for Customer Service."
+ms.date: 02/11/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -12,13 +12,17 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+
+## Introduction
+
 You can create authentication settings to validate a signed-in customer from a domain, and extract information based on the context variables that are defined. You can differentiate your anonymous customers from authenticated customers, and you can create rules based on the context variables.
 
 For example, you can have separate queues for anonymous customers and authenticated customers. Because you have more information about your authenticated customers, you can also prioritize them based on specific variables, such as shopping cart value or a privileged status.
 
 After you create an authentication settings record, you must add it in the **Basic details** tab of the appropriate chat widget to make it work.
 
-An agent will get a notification in the **Conversation summary** section whether a customer is authenticated or not. The **Authenticated** field is set to **Yes** or **No** based on the authentication of the customer. If a chat widget does not have any authentication setting associated with it, **Authenticated** field is set to **No** even if a customer is logged in to the portal. For information on conversation summary, see [Conversation summary](oc-customer-summary.md#conversation-summary).
+An agent will get a notification in the **Conversation summary** section whether a customer is authenticated or not. The **Authenticated** field is set to **Yes** or **No** based on the authentication of the customer. If a chat widget doesn't have any authentication setting associated with it, **Authenticated** field is set to **No** even if a customer is logged in to the portal. For information on conversation summary, see [Conversation summary](oc-customer-summary.md#conversation-summary).
 
 ## Prerequisites
 
@@ -26,38 +30,55 @@ Make sure your organization has a working knowledge of OAuth 2.0 and JSON Web To
 
 ## Create a chat authentication setting record
 
-1. In the site map of Omnichannel admin center app, select **Customer settings**, and then select **Manage** for **Authentication settings**. If you're using the Omnichannel Administration app, go to **Authentication Settings** under **Settings**.
+You can create a chat authentication setting record in the Customer Service admin center (preview) or Omnichannel admin center app.
 
-    A list of existing authentication settings is shown.
+1. Go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
+     1. In the site map, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
+     1. In the **Authentication settings** section, select **Manage**.
+
+     The **Active Authentication settings** page is displayed.      
+
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+    
+     1. In the site map, select **Customer Settings** in **Advanced settings**. The **Customer settings** page appears.
+     2. In the **Authentication settings** section, select **Manage**.
+
+      The **Active Authentication settings** page is displayed. 
+      
 3. Select **New** to add an authentication settings record.
 4. On the **New Chat Authentication Settings** page, provide the following information:
 
     - **Name**: Enter a name for the authentication setting.
     - **Owner:** Accept the default value or change to a required value.
-    - **Authentication type:** By default, it is OAuth 2.0 implicit flow that can't be edited.
+    - **Authentication type:** By default, it's OAuth 2.0 implicit flow that can't be edited.
     - **Public key URL**: Specify the public key URL of the domain. This URL is used to validate the information that comes in from the JavaScript Object Notation (JSON) Web Token (JWT) of the domain that a customer has signed in to.
     - **JavaScript client function**: Specify the JavaScript client function to use for authentication. This function extracts a token from the token endpoint.
 
         > [!div class=mx-imgBorder]
         > ![Create chat authentication setting record.](media/chat-auth-settings.png "Create chat authentication setting record")
 
-    For more information about how to find the public key URL and JavaScript client function, see the [Setup for Power Apps portals](#setup-for-power-apps-portals) section or the [Setup for custom portals that are not created using Power Apps](#setup-for-custom-portals-that-are-not-created-using-power-apps) section later in this topic.
+    For more information about how to find the public key URL and JavaScript client function, see the [Setup for Power Apps portals](#setup-for-power-apps-portals) section or the [Setup for custom portals that aren't created using Power Apps](#setup-for-custom-portals-that-arent-created-using-power-apps) section later in this article.
 
 5. Select **Save**.
 
 ## Add authentication to chat widget
 
 1. Open the chat widget to which you want to add authentication and do one of the following steps:
-   - In Omnichannel admin center, go to the Behaviors tab. 
+   - In Customer Service admin center (preview) or Omnichannel admin center, go to the **Behaviors** tab. 
    - In Omnichannel Administration, go to the **Basic details** tab.
 2.	In the **Authentication settings** box, browse and select the chat authentication record.
 
-When a signed-in customer on a portal opens the chat widget, the JavaScript client function passes the JWT from the client to the server. The JWT is decrypted and validated by using the public key, and the information is then passed to the chat agent in Omnichannel for Customer Service. As an admin, you can also pass additional information about the signed-in customer in the JWT by defining custom context variables. The context variables must be defined exactly as they are defined in the workstream that is associated with the chat widget.
+When a signed-in customer on a portal opens the chat widget, the JavaScript client function passes the JWT from the client to the server. The JWT is decrypted and validated by using the public key, and the information is then passed to the chat agent in Omnichannel for Customer Service. As an admin, you can also pass additional information about the signed-in customer in the JWT by defining custom context variables. The context variables must be defined exactly as they're defined in the workstream that is associated with the chat widget.
 
 ## Setup for Power Apps portals
 
-If you're adding authentication for a chat widget on a website developed using Power Apps portals, the public key URL, JavaScript client function, and JWT are available out of the box. Here is how you can get the required values:
+If you're adding authentication for a chat widget on a website developed using Power Apps portals, the public key URL, JavaScript client function, and JWT are available out of the box. Here's how you can get the required values:
 
 - **Public key URL**: `<portal_base_URL>/_services/auth/publickey`
 - **JavaScript client function**: `auth.getAuthenticationToken`
@@ -65,13 +86,13 @@ If you're adding authentication for a chat widget on a website developed using P
 
 The Power Apps portal will try to automatically link a contact record to the conversation through the context passed in its JavaScript client function.
 
-## Setup for custom portals that are not created using Power Apps
+## Setup for custom portals that aren't created using Power Apps
 
-If you are adding an authenticated chat experience to a custom website, your web development team will need to do some initial set up before your administrators can configure authenticated chat. 
+If you're adding an authenticated chat experience to a custom website, your web development team will need to do some initial setup before your administrators can configure authenticated chat. 
 
 1. Generate a public/private key pair in their authentication servers. The keys must be generated using RSA256. 
 
-    Here is sample code for generating private/public key pairs.
+    Here's sample code for generating private/public key pairs.
 
     ```Powershell
     openssl genpkey -algorithm RSA -out private_key.pem -pkeyopt rsa_keygen_bits:2048
@@ -92,7 +113,7 @@ If you are adding an authenticated chat experience to a custom website, your web
         YQIDAQAB 
         -----END PUBLIC KEY-----   
         
-  If you need to use multiple public keys, your public key endpoint can return a set of `<kid, publickey >` pairs. (Note that key ID pairs must be unique.)  The kid will need to be passed in the JWT token in step 4. If you are using multiple keys, your public key endpoint should return something that looks like this. Note that the public key is base 64 encoded: 
+  If you need to use multiple public keys, your public key endpoint can return a set of `<kid, publickey >` pairs. (Note that key ID pairs must be unique.)  The kid will need to be passed in the JWT token in step 4. If you're using multiple keys, your public key endpoint should return something that looks like this. The public key is base 64 encoded: 
 
   ```
    [
@@ -109,7 +130,7 @@ If you are adding an authenticated chat experience to a custom website, your web
    ]
    ```
         
-3. You will need a service that generates the JWT to send to Omnichannel’s servers as a part of starting a chat for an authenticated user.  
+3. You'll need a service that generates the JWT to send to Omnichannel’s servers as a part of starting a chat for an authenticated user.  
 
     a. The JWT header will look similar to the following example.
        
@@ -120,7 +141,7 @@ If you are adding an authenticated chat experience to a custom website, your web
     } 
     ```
 
-    If you are using multiple public keys, you will need to pass in the key id (kid). Your header will look similar to this example:
+    If you're using multiple public keys, you'll need to pass in the key ID (kid). Your header will look similar to this example:
 
     ```JavaScript
     { 
@@ -138,7 +159,7 @@ If you are adding an authenticated chat experience to a custom website, your web
           |-------|-------------------------------------------------------------------------------------------------------------|
           | Iss   | The issuer of the token. |
           | Iat   | The date the token was issued. This is in numeric date format.  |
-          | Exp   | The expiration date of this token. Beyond this date it is no longer valid. This is in numeric date format.  |
+          | Exp   | The expiration date of this token. Beyond this date it's no longer valid. This is in numeric date format.  |
           | sub   | The subject of the claim. <br> **NOTE:** We recommend that you pass the GUID of the contact or account record in Customer Service for the logged-in user. This GUID will be used to identify and link the contact record to the conversation. |
           |||
 

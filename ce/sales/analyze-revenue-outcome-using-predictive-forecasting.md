@@ -4,8 +4,8 @@ description: "Use predictive forecasting to analyze the revenue outcome by provi
 ms.date: 10/26/2021
 ms.custom: 
 ms.topic: article
-author: udaykirang
-ms.author: udag
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 ---
 
@@ -14,7 +14,8 @@ manager: shujoshi
 Use predictive forecasting to analyze the revenue outcome by providing forecast projections based on your data.
 
 ## License and role requirements
-|  | |
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|

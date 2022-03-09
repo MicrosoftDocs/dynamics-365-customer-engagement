@@ -5,21 +5,22 @@ ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 ---
 # Customize the business card scanner control
  
 Customize how the data from the scanned business cards maps to the fields in the **Contact** and **Lead** forms.
 
 ## License and role requirements
-|  | |
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 ## Customize the mapping
 
@@ -68,7 +69,7 @@ To customize the mappings:
 
 
 > [!NOTE]
-> Salespeople must have the Common Data Service User role assigned to them to use the business card scan control.
+> Salespeople must have the Microsoft Dataverse User role assigned to them to use the business card scan control.
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 

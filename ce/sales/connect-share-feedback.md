@@ -5,7 +5,7 @@ ms.date: 10/25/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 ms.custom: 
   - "dyn365-sales"
 ---
@@ -14,9 +14,10 @@ ms.custom:
 The **Connect and share** capability in the Sales Hub app lets experts and peers connect with each other, submit ideas, and share any feedback that they have about the Sales Hub app.
 
 ## License and role requirements
-|  | |
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | All <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 

@@ -5,9 +5,10 @@ ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 searchScope: 
   - D365-App-msdynce_saleshub
+  - D365-App-msdynce_salespro
   - D365-Entity-opportunity
   - D365-UI-*
   - Customer Engagement
@@ -20,26 +21,29 @@ Use the opportunity Kanban view to effectively monitor the pipeline and see the 
 
 ## License and role requirements
 
-|  | |
+| &nbsp; | &nbsp; |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
 ## What is a Kanban view? 
 
-The Kanban view shows opportunities as cards. The lanes in the Kanban view represent the default statuses or business process flow stages of opportunities. The opportunity cards within the swim lanes show where in the process the opportunities are. 
+The Kanban view shows opportunities as cards. The lanes in the Kanban view represent the default statuses or business process flow stages of opportunities. The opportunity cards within the swim lanes show where in the process the opportunities are.  
 
 You can drag the opportunities to different lanes to move them from one status or stage to another.
 
+> [!div class="mx-imgBorder"]  
+> ![Status-based opportunity Kanban view.](media/status-based-opportunity-kanban-view.png "Status-based opportunity Kanban view")
+
 > [!NOTE]
-> The Kanban view is not supported in the **Dynamics 365 for Phones** mobile app.
+> The Kanban view is not supported in the mobile app.
 
 ## Open a Kanban view
 
 A Kanban view is available when the Kanban control is added to the Opportunity entity. If you don't see the Kanban view, talk to your system customizer.
 
-To open the Kanban view:
+**To open the Kanban view:**
 
 1. In the site map, select **Opportunities**.
 2. On the command bar, select the **More commands** icon ![More commands icon.](media/more-commands-icon.png "More commands icon") and then select **Show As** > **Kanban**.

@@ -1,7 +1,7 @@
 ---
 title: Automatically route cases using basic routing rulesets | MicrosoftDocs
 description: Understand how to create rules to automatically route cases in Dynamics 365 Customer Service
-ms.date: 10/11/2021
+ms.date: 02/11/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -36,12 +36,7 @@ While creating custom apps, you might not have routing rulesets available in you
 
 3. Select the pencil icon beside **Site Map**. The **Customer Service Hub** page appears.
 
-4. Select the area in which you want to add the routing ruleset entity, such as **Service Management**, select **Add**, and then select **Subarea**.
-
-    > [!div class="mx-imgBorder"]
-    > ![add routing rules to site map.](media/rr-add-to-sitemap.png "add routing rules to site map")
-
-  The **SUB AREA** section appears in the right pane.
+4. Select the area in which you want to add the routing ruleset entity, such as **Service Management**, select **Add**, and then select **Subarea**. The **SUB AREA** section appears in the right pane.
 
 5. On the **Properties** tab, in **General** section, do the following:
 
@@ -55,9 +50,9 @@ While creating custom apps, you might not have routing rulesets available in you
 
 To Learn more, see [Create a site map for an app using the site map designer](../customerengagement/on-premises/customize/create-site-map-app.md)
 
-## Create a routing ruleset (Customer Service Hub)
+## Create a routing ruleset
 
-You can create routing rulesets in Customer Service Hub to automatically route cases. This capability is also available in Dynamics 365 Customer Engagement (on-premises) 9.1. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new.md#unified-interface-enablement-of-case-routing-rules)
+You can create routing rulesets in Customer Service to automatically route cases. This capability is also available in Dynamics 365 Customer Engagement (on-premises) 9.1. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new.md#unified-interface-enablement-of-case-routing-rules)
 
 ### Prerequisites
 
@@ -75,9 +70,24 @@ Review the following prerequisites before creating a routing ruleset:
 
 When creating routing rulesets, you can add multiple rule items and arrange them in the required order. The rule items are evaluated in the order of their definition. Rule items are evaluated from top to bottom. If a rule item is evaluated as true, the case gets routed to the destination agent and skips further evaluation. If a rule item is evaluated as false, further rule items are evaluated.
 
-1. In the Customer Service Hub site map, go to **Service Management**, and select **Case Settings** > **Routing Rule Sets**.
+**To create the routing ruleset**
 
-2. To create a routing ruleset, select **New** on the command bar.
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+   1. In the site map, select **Routing**. The **Routing** page appears.
+
+   1. Select **Manage** for **Routing rule sets (basic)**.
+
+   ### [Customer Service Hub](#tab/customerservicehub)
+   
+   - In the site map, go to **Service Management**, and select **Routing Rule Sets** in **Case Settings**.
+
+2. Select **New** on the command bar.
 
 3. On the **General** tab, in **Routing Rule Set Information**, Enter **Name** and **Description** for the routing ruleset.
 
@@ -118,7 +128,7 @@ When creating routing rulesets, you can add multiple rule items and arrange them
 
     d. Select **Save & Close** to save and close the rule item.
 
-7. In the **Routing Rule Set** record, select **Activate**. The ruleset is applied to cases that match the conditions in the rule.
+6. In the **Routing Rule Set** record, select **Activate**. The ruleset is applied to cases that match the conditions in the rule.
 
     > [!NOTE]
     >
@@ -126,7 +136,7 @@ When creating routing rulesets, you can add multiple rule items and arrange them
     > - If you want to edit an active routing ruleset, you must deactivate it. To successfully import a solution that includes an active routing ruleset into an organization where a rule exists with the same ID, deactivate the rule in the organization.
 
 
-## Create a routing ruleset (Customer Service app)
+### Create a routing ruleset (Customer Service app)
 
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
 
@@ -195,7 +205,7 @@ Perform the following steps to manually apply the rule to any existing or manual
 
 > [!NOTE]
 >
-> - If you’re importing bulk records, and you don’t want the routing rules to apply to the cases that you’re importing, add a column **Route Case** to your spreadsheet, and add the value **No** for all the cases that you don’t want to route.
+> - If you’re importing bulk records, and don’t want the routing rules to be applied to the cases that you’re importing, add a column **Route Case** to the spreadsheet used for importing the records, and add the value **No** for all the cases that you don’t want to route.
 > - Cases can be created and routed programmatically. If you want to override this behavior, set the value for the RouteCase attribute to "No".
 
 ## Recommendation to upgrade solution

@@ -1,9 +1,9 @@
 ---
 title: "Improve seller coaching and sales potential"
 description: "Improve seller coaching and sales potential with AI-driven insights readily available for conversation intelligence."
-ms.date: 10/26/2021
-ms.custom: intro-internal
-ms.topic: article
+ms.date: 11/08/2021
+
+ms.topic: overview
 ms.assetid: 17cac16d-2a37-4a19-9cfe-2d4355a6f044
 author: udaykirang
 ms.author: udag
@@ -14,12 +14,14 @@ ms.tgt_pltfrm:
 caps.latest.revision: 1
 topic-status: Drafting
 ---
+
 # Improve seller coaching and sales potential with conversation intelligence 
 
 Conversation intelligence uses analytics and data science to gather data from sellers' call recordings and Dynamics 365 Sales. Conversation intelligence analyzes the data to provide you with the information and insights to intelligently manage your sales team and proactively coach sellers. To achieve this, conversation intelligence displays relevant key performance indicators (KPIs) and intelligent call data KPIs by team, seller, and call.
 
 ## License and role requirements
-|  | |
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
@@ -59,6 +61,27 @@ The next sections describe:
 - Recommendations for using conversation intelligence   
 - How to get conversation intelligence   
 - How to access conversation intelligence   
+
+## What languages are supported? 
+
+Currently, conversation intelligence supports the following languages: 
+
+| Language | Code |
+|----------|------|
+| Arabic | ar-BH |
+| Chinese simplified | zh-CN |
+| Danish | da-DK |
+| Dutch | nl-NL |
+| English | en-US and en-GB |
+| Finnish | fi-FI |
+| French | fr-FR and fr-CA |
+| German | de-DE |
+| Hebrew | he-IL |
+| Italian | it-IT |
+| Japanese | ja-JP |
+| Portuguese | pt-PT and pt-BR |
+| Spanish | es-ES and es-MX |
+| Swedish | sv-SE |
 
 ## Recommendations to use conversation intelligence   
 Before you start using the application, we suggest you review the following requirements for effective use of conversation intelligence:   

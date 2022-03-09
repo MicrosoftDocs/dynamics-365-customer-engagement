@@ -9,8 +9,28 @@ author: udaykirang
 ms.author: udag
 manager: shujoshi
 caps.latest.revision: 1
+searchScope: 
+  - D365-App-msdynce_saleshub
+  - D365-Entity-msdyn_suggestedactivity
+  - D365-Entity-msdyn_suggestedcontact
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
+  - Customer Engagement
 ---
 # Basic auto capture 
+
+Use the basic auto capture to capture activities related to your emails and contacts, and display on timeline.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |  
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
+## What is basic auto capture? 
 
 The activities captured by the auto capture feature are shown on the timeline in Dynamics 365 Sales. The feature finds activities by applying a set of rules that are specific to the record type. For example, when you look at an opportunity in Microsoft Dynamics 365 Sales, the timeline shows all the activities you've logged, and in addition it shows suggestions for up to 50 recent emails and meetings from your Outlook account that were sent to or from the primary contact for the opportunity or its stakeholders.
 
@@ -45,7 +65,6 @@ Auto capture queries your Outlook account and looks for activities related to th
 |-----------------|--------------------------------------------------------------------------------------|  
 |Account|**Email** address of the listed **Primary Contact**.<br /><br /> **Email** addresses of the top 50 contacts that have the account as their parent account.<br /><br /> All **Email** addresses defined for the account record itself.|  
 |Opportunity|**Email** address listed for the **Opportunity Contact**.<br /><br /> **Email** address of any contact in the **Stakeholders** list.<br /><br /> All **Email** addresses defined for the opportunity record itself.|  
-|Case|**Email** address of the **Primary Contact**.<br /><br /> All **Email** addresses defined for the case record itself.<br /><br /> If the **Customer** is a contact: all **Email** addresses for  the contact record.<br /><br /> If the **Customer** is an account: all **Email** addresses for the account record.|  
 |Lead|**Email** address listed in the **Contact** section.<br /><br /> All **Email** addresses defined for the lead record itself.|  
 |Contact|All **Email** addresses defined for the contact record.|  
 |Custom entities|For *account* fields: the email address for the **Primary Contact** of the account, plus all **Email** addresses defined for the account record itself.<br /><br /> For *contact* fields: all **Email** addresses defined for the contact record.<br /><br /> For *customer* fields that refer to a contact: all **Email** addresses defined for the contact record.<br /><br /> For *customer* fields that refer to an account: the **Email** address of the listed **Primary Contact**, plus all **Email** addresses defined for the account record itself.|  

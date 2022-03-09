@@ -1,9 +1,9 @@
 ---
-title: "Asset servicing in Dynamics 365 Field Service | MicrosoftDocs"
+title: "Asset servicing in Dynamics 365 Field Service (contains video) | MicrosoftDocs"
 description: Learn all about asset management in Dynamics 365 Field Service
 ms.date: 01/11/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.topic: article
 author: FieldServiceDave
 ms.author: daclar

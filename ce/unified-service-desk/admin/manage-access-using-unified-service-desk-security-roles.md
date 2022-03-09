@@ -18,7 +18,7 @@ tags: MigrationHO
 ---
 # Use security roles to manage access to Unified Service Desk
 
-[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 You must assign the **USD Administrator** and **USD Agent** security roles to appropriate users or teams. The **USD Administrator** role must be assigned to users who will be configuring the application using Microsoft Dataverse to define an agent application. The **USD Agent** role must be assigned to end users (agents) who will be using the client application to connect to the Dataverse instance with the configured [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] entities.  
   

@@ -1,6 +1,6 @@
 ---
-title: "getTabs (JavaScript API Reference) for Dynamics 365 Channel Integration Framework (CIF) version 2.0 | MicrosoftDocs"
-description: ""
+title: "getTabs (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
+description: "Includes description, syntax, and parameter information for the getTabs method in JavaScript API Reference for Channel Integration Framework 2.0."
 ms.date: 11/02/2020
 ms.topic: reference
 author: mh-jaya
@@ -11,9 +11,8 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# getTabs
+# getTabs (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
 
- 
 
 Returns an array of tab Ids associated with template name or template tags for tabs in the session in focus, if the session belongs to the channel provider.
 
@@ -31,7 +30,7 @@ Returns an array of tab Ids associated with template name or template tags for t
 | successCallback | Function | No           | A function to call when the request is successful                     |
 | errorCallback   | Function | No           | A function to call when the request fails                             |
 
-## Return Value
+## Return value
 
 Promise with the value as Array of strings
 

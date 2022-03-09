@@ -4,7 +4,7 @@ description: "A virtual entity is a custom entity with fields containing data fr
 ms.custom: 
 ms.date: 11/09/2018
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

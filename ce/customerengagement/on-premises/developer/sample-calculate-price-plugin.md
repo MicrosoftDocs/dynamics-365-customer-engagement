@@ -3,9 +3,9 @@ title: "Sample: Calculate Price plug-in (Developer Guide for Dynamics 365 Custom
 description: "Sample demonstrates how to write a plug-in that calculates the pricing of the opportunities, quotes, orders, and invoices based on your custom code."
 keywords: 
 ms.date: 10/31/2017
-ms.prod: d365ce-op
+
 ms.custom: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 683204f7-570a-43ab-bf7e-a12d26cec214
@@ -19,7 +19,6 @@ caps.latest.revision: 12
 topic-status: Drafting
 search.audienceType: 
   - developer
-
 ---
 
 # Sample: Calculate Price plug-in

@@ -8,6 +8,7 @@ ms.author: lavanyakr
 manager: shujoshi
 searchScope: 
   - D365-App-msdynce_saleshub
+  - D365-App-msdynce_salespro
   - D365-Entity-salesorder
   - D365-Entity-pricelevel
   - D365-UI-*
@@ -21,9 +22,9 @@ To determine whether your order or invoice is using Prices Locked, see the **Pri
 
 ## License and role requirements
 
-|  | |
+| &nbsp; | &nbsp; |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 

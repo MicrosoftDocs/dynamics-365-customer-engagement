@@ -3,8 +3,8 @@ title: "Define properties and scheduling for forecasts"
 description: "Define a forecast model using rollup and hierarchy entities and their relationship. Schedule how frequently you want to generate the forecast."
 ms.date: 10/26/2021
 ms.topic: article
-author: udaykirang
-ms.author: udag
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 ms.custom: 
   - dyn365-sales
@@ -14,9 +14,10 @@ ms.custom:
 Using the general properties and scheduling options of the forecast configuration page, you can define a forecast model by specifying a hierarchy and timeframe. 
 
 ## License and role requirements
-|  | |
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator or Forecast Manager<br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
@@ -29,7 +30,7 @@ Using the general properties and scheduling options of the forecast configuratio
 
 2.	Select a **Rollup entity**. The forecast is based on the gross rollup of the selected entity. 
 
-    By default, **Opportunity** is selected as the rollup entity. You can choose a custom or other out-of-the-box entity, to support your organizational requirements. Only the entities that have **Change Track** enabled will be listed here. To learn more, see [Enable change tracking to control data synchronization](/power-platform/admin/enable-change-tracking-control-data-synchronization).
+    By default, **Opportunity** is selected as the rollup entity. You can choose a custom or other out-of-the-box entity, to support your organizational requirements. Only the entities that have **Change Tracking** enabled will be listed here. To learn more, see [Enable change tracking to control data synchronization](/power-platform/admin/enable-change-tracking-control-data-synchronization).
 
     > [!div class="mx-imgBorder"]
     > ![Select a rollup entity.](media/forecast-general-properties-rollup-entity.png "Select a rollup entity")

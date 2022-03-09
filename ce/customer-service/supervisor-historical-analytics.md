@@ -28,7 +28,7 @@ The historical analytics reports must be enabled and provisioned for you to be a
 
 For the records that are routed using unified routing, the CSR Manager can view the historical analytics in Customer Service Hub and Customer Service workspace. Similarly, the Omnichannel supervisor can view the conversations-specific report in Customer Service workspace and Omnichannel for customer service.
 
-In these reports, you can view the performance of the routed items and queues. By looking at the metrics, you can determine why a particular work item has landed in a queue, why an agent got one service request over the other, and why one of the queues has unwarranted load, while other is starved. You can then check the diagnostics reports for the work items to view and understand how the work items have been routed. Routing diagnostics provide information on the classification and assignment rules that were used to classify and assign the work items.
+In these reports, you can view the performance of the routed items and queues. By looking at the metrics, you can determine why a particular work item has landed in a queue, why an agent got one service request over the other, and why one of the queues has unwarranted load, while other is starved. You can then check the diagnostics reports for the corresponding work items, such as cases and conversations, to view and understand how they have been routed. Routing diagnostics provide information on the classification and assignment rules that were used to classify and assign the work items.
 
 ## See also
 

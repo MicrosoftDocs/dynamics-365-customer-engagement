@@ -31,7 +31,7 @@ To resolve this issue, you must add the `onload` and `onchange` events to the cu
 
 4. Add the following code in the form's XML:
 
-    ```
+    ```XML
     <events>  <event name="onload" application="true" active="true"> 
     <InternalHandlers> <Handler functionName="Activities.Email.formOnload" libraryName="Activities/SystemLibraries/Email_main_system_library.js" handlerUniqueId="ecdfe4d8-d6d3-4d21-ab68-8ea75bb30a79" enabled="true" parameters="" passExecutionContext="true" /> 
     <Handler functionName="Activities.Email.NotifyPanelSubjectChange" libraryName="Activities/SystemLibraries/Email_main_system_library.js" handlerUniqueId="{706607A8-4424-4C9A-847A-602FC8035B48}" enabled="true" parameters="" passExecutionContext="true" solutionaction="Added"/> 

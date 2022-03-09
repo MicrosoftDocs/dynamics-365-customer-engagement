@@ -1,6 +1,6 @@
 ---
-title: "setMode (JavaScript API Reference) for Dynamics 365 Channel Integration Framework version 1.0 | Microsoft Docs"
-description: ""
+title: "setMode (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0 | MicrosoftDocs"
+description: "Includes description, syntax, and parameter information for the setMode method in JavaScript API Reference for Channel Integration Framework 1.0. "
 ms.date: 12/31/2019
 ms.topic: reference
 author: mh-jaya
@@ -13,7 +13,7 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# setMode (CIF JavaScript API Reference)
+# setMode (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0
 
 [!INCLUDE[setMode](includes/setMode-description.md)]
 

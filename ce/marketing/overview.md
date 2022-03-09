@@ -1,8 +1,8 @@
 ---
 title: "Overview (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Get a quick overview of the major capabilities, features, and benefits of Dynamics 365 Marketing."
-ms.date: 10/28/2021
-ms.service: dynamics-365-marketing
+ms.date: 11/04/2021
+
 ms.custom: 
   - dyn365-marketing
   - intro-internal
@@ -32,7 +32,7 @@ Dynamics 365 Marketing consists of two primary modules, along with event managem
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an real-time marketing event-based journey.](media/overview-live-journey.png "Screenshot of an real-time marketing event-based journey")
 
-Also known as customer journey orchestration, real-time marketing includes [event-based customer journeys](real-time-marketing-event-based-journey.md), [custom event triggers](real-time-marketing-custom-events.md), and [SMS](real-time-marketing-outbound-text-messaging.md) and [push notifications](real-time-marketing-push-notifications.md). It allows you to trigger customer journeys in real time based on the signals and rich profile data you collect from your customers, pick the right channel for each individual, and connect in the moments that matter.
+Also known as customer journey orchestration, real-time marketing includes [event-based customer journeys](real-time-marketing-event-based-journey.md), [custom triggers](real-time-marketing-custom-events.md), and [SMS](real-time-marketing-outbound-text-messaging.md) and [push notifications](real-time-marketing-push-notifications.md). It allows you to trigger customer journeys in real time based on the signals and rich profile data you collect from your customers, pick the right channel for each individual, and connect in the moments that matter.
 
 - **Respond to customer actions in real time**: Respond in the moments that matter with real-time, event-based journeys.
 - **Hyper-personalize your messaging**: Personalize messages with dynamic text and images from a flexible set of data sources.
@@ -47,7 +47,7 @@ Provides [email marketing](prepare-marketing-emails.md), [customer journeys](cus
 
 - **Turn prospects into leads**: Capture leads, qualify the hottest leads with automated lead scoring, and manage your leads through a custom business process.
 - **Leverage the power of social media**: Post messages to Facebook, Instagram, and Twitter. Capture leads from LinkedIn.
-- **Get customer feedback with Customer Voice surveys**: Create online surveys and analyze the results. This feature is bundled with the Marketing app, but is also available separately as an add-on for other Dynamics 365 products.
+- **Get customer feedback with Customer Voice surveys**: Create online surveys and build customer journeys based on responses. This feature is bundled with the Marketing app, but is also available separately as an add-on for other Dynamics 365 products.
 
 > [!NOTE]
 > Dynamics 365 Customer Voice is included in the Marketing standalone application, but not included in Marketing attach.
@@ -66,11 +66,11 @@ So, what’s the difference?
 
 ### Real-time marketing
 
-Real-time marketing works great as a scalable platform that allows you to engage with customers at specific moments through email and mobile channels based on signals and rich profile data you collect.
+Real-time marketing is a scalable platform that allows you to engage with customers at specific moments. Engagement takes place through email and mobile channels and is based on customer signals and rich profile data. In other words, journeys are customer-led. Communication starts when a customer takes a specific action. For example, a customer scanning a concert ticket or connecting to in-store Wi-Fi can trigger delivery of personalized messages.
 
-For example, you can send personalized messages to customers as they scan their tickets to enter a concert venue or connect to in-store Wi-Fi. You can start journeys with a set of predefined event triggers, or create your own custom event triggers providing you the flexibility to bring in the data you need from any system with a few lines of code.
+You can start journeys with predefined triggers, or you can create custom events. Custom events give you the flexibility to bring in data from other systems with just a few lines of code. With this flexibility, you can design personalized experiences as customers interact with marketing, sales, service, and other departments across your organization.
 
-With this flexibility, you can design personalized experiences throughout a customer’s life cycle as they interact with the many digital and human channels across your organization. You can also use real-time marketing to design a segment-based journey, for example orchestrating a seasonal campaign to a segment of loyal customers. [Learn more about real-time marketing](real-time-marketing-user-guide.yml).
+Real-time marketing also supports segment-based journeys, allowing you to orchestrate traditional marketing activities such as seasonal campaigns targeting loyal customers. [Learn more about real-time marketing](real-time-marketing-user-guide.yml).
 
 ### Outbound marketing
 
@@ -87,7 +87,7 @@ The approach will be different based on your current situation and what’s best
 
 If you are new to Dynamics 365 Marketing:
 
--	Explore the real-time capabilities and determine if they fit your needs. The real-time module is flexible and supports both event trigger-based and segmented-based customer journeys.
+-	Explore the real-time capabilities and determine if they fit your needs. The real-time module is flexible and supports both trigger-based and segmented-based customer journeys.
 -	If you are looking to collect new contacts or leads, use the forms and pages features in outbound marketing together with real-time marketing without the hassle of integration.
 -	For lead capture, scoring, grading, and seamless hand off to Dynamics 365 Sales, start with outbound marketing.
 -	Layer in real-time marketing to continue digital interactions with your customers in combination with the human interactions provided by your sales or service organization.

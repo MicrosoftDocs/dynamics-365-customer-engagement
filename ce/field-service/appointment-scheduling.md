@@ -1,9 +1,9 @@
 ---
-title: "Appointments included in resource scheduling in Dynamics 365 Field Service | MicrosoftDocs"
+title: "Appointments included in resource scheduling in Dynamics 365 Field Service (contains video) | MicrosoftDocs"
 description: Learn how to include appointments in resource scheduling in Dynamics 365 Field Service.
 ms.date: 05/24/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"

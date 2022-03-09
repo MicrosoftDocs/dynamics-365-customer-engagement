@@ -1,10 +1,10 @@
 ---
-title: "Location auditing for the Dynamics 365 Field Service mobile app | MicrosoftDocs"
+title: "Location auditing for the Dynamics 365 Field Service mobile app (contains video) | MicrosoftDocs"
 description: Learn how to enable and set up location auditing for the Dynamics 365 Field Service mobile app
 ms.date: 10/18/2021
 ms.reviewer: krbjoran
 ms.topic: article
-ms.service: dynamics-365-field-service
+
 ms.subservice: field-service-mobile
 applies_to: 
   - "Dynamics 365 (online)"

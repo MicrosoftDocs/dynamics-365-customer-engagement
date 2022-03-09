@@ -1,28 +1,16 @@
 ---
 title: "Azure Bot service in the voice channel | MicrosoftDocs"
-description: "Use this topic to learn how to add Azure Bot services for conversational IVR in Omnichannel for Customer Service."
-author: mh-jaya
-ms.author: v-jmh
-manager: shujoshi
-ms.date: 08/13/2021
-ms.topic: article
+description: "Use this topic to learn how to add Azure Bot services for conversational IVR system in Omnichannel for Customer Service."
+ms.date: 02/18/2022
 ms.service: dynamics-365-customerservice
-ROBOTS: NOINDEX,NOFOLLOW
+ms.topic: article
+author: neeranelli
+ms.author: nenellim
+manager: shujoshi
 ---
-# Preview: Add Azure Bot Services for conversational IVR
+# Add Azure Bot Services for conversational IVR
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-> [!IMPORTANT]
->
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-
 
 ## Introduction
 
@@ -50,15 +38,15 @@ When you integrate an Azure bot with Omnichannel for Customer Service, you get t
 
 1. You must have a bot that's built using Microsoft Bot Framework and registered with Azure Bot Service.
 
-    To create an Azure bot resource, see [Create Azure bot resource](/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0&tabs=csharp#create-the-resource) section in the Bot Framework SDK documentation. Be sure to note the values of the Microsoft App ID and the bot handle.
+    To create an Azure bot resource, see [Create Azure bot resource](/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0&preserve-view=true&tabs=csharp#create-the-resource) section in the Bot Framework SDK documentation. Be sure to note the values of the Microsoft App ID and the bot handle.
 
 2. You must add the Azure bot service to conversational IVR.
 
     To create a bot resource that's enabled for cognitive services and also supports the Direct Line speech channel, perform the following steps:
     
-    1. [Create a Cognitive Services resource using the Azure portal](/azure/bot-service/bot-service-channel-connect-directlinespeech?view=azure-bot-service-4.0#add-the-direct-line-speech-channel) to enable cognitive services such as text-to-speech or speech-to-text capabilities. Note the location/region and key values.
+    1. [Create a Cognitive Services resource using the Azure portal](/azure/bot-service/bot-service-channel-connect-directlinespeech?view=azure-bot-service-4.0&preserve-view=true#add-the-direct-line-speech-channel) to enable cognitive services such as text-to-speech or speech-to-text capabilities. Note the location/region and key values.
     
-    2. Then, [add the Cognitive Services speech resource you created in the earlier step to the Direct Line Speech channel](/azure/bot-service/bot-service-channel-connect-directlinespeech?view=azure-bot-service-4.0#add-the-direct-line-speech-channel).
+    2. Then, [add the Cognitive Services speech resource you created in the earlier step to the Direct Line Speech channel](/azure/bot-service/bot-service-channel-connect-directlinespeech?view=azure-bot-service-4.0&preserve-view=true#add-the-direct-line-speech-channel).
 
 
 ## Integrate a bot with Omnichannel for Customer Service
@@ -79,7 +67,7 @@ To integrate a bot with Omnichannel for Customer Service, you must do the follow
 
 **To assign a bot user as an application user**
 
-1. Open Omnichannel admin center and go to **Advanced Settings** > **Security** > **Users**.
+1. In Dynamics 365, go to **Advanced Settings** > **Security** > **Users**.
 
 2. In the **Users** dropdown list, select **Application Users**, and then select **New**.
 
@@ -120,13 +108,13 @@ An agent can transfer a chat to a bot by adding the bot to a queue, and then tra
 
 To enable the bot to answer incoming calls, you must add the bot to a corresponding workstream for accepting voice calls.
 
-1. In Omnichannel admin center, under **General Settings**, select **Workstreams**.
+1. In Customer Service admin center (preview) or Omnichannel admin center, open the workstream related to your voice channel.
 
-2. Open the workstream related to your voice channel, and under **Advanced Settings** > **Smart assist bots**, select **Add bot**. The **Add a bot** dialog opens.
+1. Expand **Advanced Settings**, and in **Smart assist bots**, select **Add bot**. The **Add a bot** dialog opens.
 
-3. Select an existing bot from the dropdown list and select **Save and close**.
+1. Select an existing bot from the dropdown list and select **Save and close**.
 
-Now, if there's a valid phone number associated with that workstream, the bot will automatically receive and respond to the phone call.
+Now, if there's a valid phone number associated with the workstream, the bot will automatically receive and respond to the phone call.
 
 ### Enable a bot to escalate and end conversations
 
@@ -214,6 +202,7 @@ You can purchase additional bot conversations from Microsoft 365 admin center.
 You understand that your data may be transmitted and shared with external systems and that your data may flow outside of your organization's compliance boundary (even if your organization is in a Government Cloud environment). For example, your messages will be shared with the bot which could be interacting with a third-party system based on the integration done by you. For more information on how we process your data, please refer to the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
 
 ### See also
+
 [Overview of the voice channel](voice-channel.md)  
 [Understand and create workstreams](create-workstreams.md)  
 [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)  

@@ -3,7 +3,7 @@ title: "Sales settings tab in Dynamics 365 Customer Engagement (on-premises)"
 description: "From the System Settings Sales tab in Dynamics 365 Customer Engagement (on-premises), set preferences related to pricing, product bundles, and more."
 keywords: 
 ms.date: 10/01/2019
-ms.prod: d365ce-op
+
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
@@ -71,7 +71,7 @@ Use the settings on this page to configure system-level settings for the sales a
  [Set up a discount list](../../../sales/set-up-discount-list.md)   
  [Create product bundles to sell multiple items together](../../../sales/create-product-bundles-sell-multiple-items-together.md)   
  [Use properties to describe a product](../../../sales/use-properties-describe-product.md)  
- [Administrator and Sales Manager Guide](../../../sales/admin-guide.md)  
+ [Administrator and Sales Manager Guide](../../../sales/admin-guide.yml)  
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

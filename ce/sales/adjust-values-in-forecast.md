@@ -1,10 +1,10 @@
 ---
-title: "Adjust forecast values in sales forecasting - Sales Enterprise | MicrosoftDocs"
+title: "Adjust forecast values in sales forecasting | MicrosoftDocs"
 description: "Adjust values in a forecast to estimate the final amount that you expect the forecast's opportunities to bring in at the close of the forecast period."
 ms.date: 02/03/2020
 ms.topic: article
-author: udaykirang
-ms.author: udag
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 ms.custom: 
   - dyn365-sales
@@ -26,9 +26,9 @@ Adjust values in a forecast to estimate the final amount that you expect the for
 
 ## License and role requirements
 
-|  | |
+| &nbsp; | &nbsp; |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 

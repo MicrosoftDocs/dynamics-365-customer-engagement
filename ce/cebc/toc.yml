@@ -28,12 +28,9 @@
       - name: Deploy and operate
         tocHref: /dynamics365/customerengagement/on-premises/deploy/
         topicHref: /dynamics365/customerengagement/on-premises/deploy/deploy-and-operate-dynamics-365-on-premises
-    - name: Sales Enterprise
-      tocHref: /dynamics365/sales-enterprise/
-      topicHref: /dynamics365/sales-enterprise/overview
-    - name: Sales Professional
-      tocHref: /dynamics365/sales-professional/
-      topicHref: /dynamics365/sales-professional/sales-professional-overview  
+    - name: Sales
+      tocHref: /dynamics365/sales/
+      topicHref: /dynamics365/sales/index
     - name: Customer Service
       tocHref: /dynamics365/customer-service/
       topicHref: /dynamics365/customer-service/overview
@@ -80,9 +77,6 @@
     - name: LinkedIn
       tocHref: /dynamics365/linkedin
       topicHref: /dynamics365/linkedin/sync-linkedin-leads
-    - name: Sales Preview
-      tocHref: /dynamics365/sales-business
-      topicHref: /dynamics365/sales-business/help-hub
     - name: Marketing
       tocHref: /dynamics365/marketing
       topicHref: /dynamics365/marketing/get-started-section                      

@@ -2,7 +2,7 @@
 title: "Work with email, page, and form templates (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Describes how to work with email, page, and form templates and gives details about client support and known issues related to email designs in Dynamics 365 Marketing."
 ms.date: 12/10/2019
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

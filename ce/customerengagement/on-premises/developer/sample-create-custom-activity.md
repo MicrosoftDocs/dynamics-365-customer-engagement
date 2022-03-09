@@ -4,10 +4,10 @@ description: "The following code example demonstrates how to create a custom act
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 4cd4c951-7c4f-4280-b928-0d901f62ef08
@@ -17,7 +17,6 @@ ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
   - developer
-
 ---
 # Sample: Create a custom activity
 

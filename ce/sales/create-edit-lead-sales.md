@@ -5,9 +5,10 @@ ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 searchScope: 
   - D365-App-msdynce_saleshub
+  - D365-App-msdynce_salespro
   - D365-Entity-lead
   - D365-UI-*
   - Dynamics 365
@@ -20,9 +21,9 @@ Use leads to keep track of business prospects. A lead can be an existing client 
 
 ## License and role requirements
 
-| | |
+| &nbsp; | &nbsp; | 
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)|
 |||
 

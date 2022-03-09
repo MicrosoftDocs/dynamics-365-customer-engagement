@@ -4,10 +4,10 @@ descriptions: The sample demonstrates how to set and retrieve data for entity im
 ms.custom: 
 ms.date: 01/08/2020
 ms.reviewer: pehecke
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: fa9352f2-ef46-401f-b376-d0192c9f45a7
@@ -17,7 +17,6 @@ ms.author: nkrb
 manager: kvivek
 search.audienceType: 
   - developer
-
 ---
 # Sample: Set and retrieve entity images
 

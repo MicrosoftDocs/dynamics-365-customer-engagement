@@ -1,5 +1,5 @@
 ---
-title: "Create or edit competitor records - (Sales Enterprise) | MicrosoftDocs"
+title: "Create or edit competitor records  | MicrosoftDocs"
 description: "Track information about your competitor’s strengths and weaknesses and share it with your colleagues to help everyone stay current."
 ms.date: 10/25/2021
 ms.topic: article
@@ -22,9 +22,9 @@ Tracking your competitors and their strengths and weaknesses can help you win sa
 
 ## License and role requirements
 
-|  | |
+| &nbsp; | &nbsp; |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
@@ -47,7 +47,7 @@ Tracking your competitors and their strengths and weaknesses can help you win sa
 
 ### See also  
 
-[Help resources for Dynamics 365 Sales](help-hub.md)
+[Help resources for Dynamics 365 Sales](help-hub.yml)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

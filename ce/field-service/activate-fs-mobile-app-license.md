@@ -1,7 +1,7 @@
 ---
-title: "Request licenses for Field Service Mobile (Xamarin app) configurator licenses | MicrosoftDocs"
-description: Learn about how to request licenses for the Field Service Mobile (Xamarin app) configurator tool.
-ms.service: dynamics-365-field-service
+title: "Field Service Mobile - Xamarin app end of life | MicrosoftDocs"
+description: Information about the end of support for Field Service Mobile Xamarin app.
+
 ms.subservice: field-service-mobile
 ms.date: 03/02/2020
 ms.reviewer: krbjoran
@@ -14,43 +14,49 @@ search.app:
   - D365FS
 ---
 
-# Requesting Field Service Mobile (Xamarin app) mobile configurator licenses
+# Field Service Mobile Xamarin end of life
 
 > [!IMPORTANT]
-> Field Service Mobile (Xamarin app) will be end of life on **June 30, 2022**. Mobile configurator licenses will no longer be granted to new tenants onboarding with Dynamics 365 Field Service as of **June 30, 2021**. New tenants coming online should start with the new Field Service (Dynamics 365) mobile app. For more information, visit [the documentation](mobile-power-app-get-started.md). 
+> Field Service Mobile (Xamarin app) will be end of life on **June 30, 2022**. Mobile configurator licenses will no longer be granted to new tenants onboarding with Dynamics 365 Field Service as of **June 30, 2021**. New tenants coming online should start with the new [Field Service (Dynamics 365) mobile](mobile-2020-power-platform.md) app. For more information, visit [the documentation](mobile-power-app-get-started.md). 
 
-Eligible organizations may request to activate mobile configurator licenses by completing the [request form for the mobile configurator (Woodford)](https://aka.ms/fsmlicense). You need the Dynamics 365 organization ID to complete the request form.
+> [!div class="mx-imgBorder"]
+> ![Field Service Mobile Xamarin app in the Windows app store.](media/mobile-field-service-mobile-windows-app-store.png)
 
-## FAQs
+
+## Field Service Mobile - End of life FAQs
 
 ### How long is Field Service Mobile (Xamarin app) supported?
 
 Field Service Mobile (Xamarin app) will reach end of life on June 30, 2022. Existing customers will be required to migrate to the new Field Service (Dynamics 365) mobile app by that date. For more information, [see this blog post](https://cloudblogs.microsoft.com/dynamics365/it/2020/05/01/next-generation-field-service-mobile-app-available/).
 
-### Can I use Resco MobileCRM application with Field Service Mobile licenses?
+### What will happen to the app after June 30, 2022
 
-No. Resco MobileCRM is a 3rd party ISV application, which is not eligible for use with licenses acquired through the Field Service Mobile (Xamarin app) licensing form. 
+After June 30, 2022, the mobile configurator used with Field Service Mobile (Xamarin app) will no longer be able to publish, and end users will not be able to access the mobile app.
 
-### Why can I no longer request individual licenses for Field Service Mobile (Xamarin app)?
+### Will I have access to my mobile configurator after June 30, 2022?
 
-With the latest versions of Field Service Mobile (Xamarin app), you only need a project license; individual user licenses are granted by enabling the users as "mobile enabled bookable resources" in Dynamics 365. 
+The mobile configurator used with Field Service Mobile (Xamarin app) will still be available in your org, but you will no longer be able to publish updates.
 
-### How do I find my mobile configuration trial End Date?
+### Are there additional licenses required to use the new Field Service (D365) mobile app?
 
-To find your trial end date, go to **Settings** > **Woodford** > **MobileCRM Woodford**. You'll see the trial end date at the top of the screen.
+No, use of the Field Service (Dynamics 365) mobile app is included with a Field Service Enterprise license. 
 
-  > ![Woodford trial expiration date.](media/woodford-expiration.png)  
+### Can I use Resco Mobile CRM application with Field Service Mobile licenses?
 
-> [!Note]
-> If you make any updates or do any work that changes the organization ID, you need to submit a new request to activate the mobile configurator for the organization.
+No. Resco Mobile CRM is a third-party ISV application with its own licensing. The Resco Mobile CRM application is not eligible for use with licenses acquired through the Field Service Mobile (Xamarin app). 
 
-### How do I find my organization ID?
+### Are there other resources available to learn more about the new Field Service Mobile application and migration?
 
- 1. Go to **Settings** > **Customizations** > **Developer Resources**.
- 1. In the **Instance Reference Information** section, find the ID.
-        
-  > ![Org ID in settings.](media/admin-orgid.png)  
-  
+Yes! See the following resources: 
+
+- [Field Service (Dynamics 365) mobile adoption playbook](https://aka.ms/fsmobile-adoption)
+- [Field Service (Dynamics 365) documentation](/dynamics365/field-service/mobile-2020-power-platform)
+- [Implementation pest practices blog post](https://cloudblogs.microsoft.com/dynamics365/it/2021/04/21/5-tips-for-implementing-the-field-service-dynamics-365-mobile-app/)
+
+
+### I have more questions about migration - where can I go for help?
+
+Please reach out to Dynamics 365 Field Service mobile adoption at `d365fsmadoption@microsoft.com` for further questions.
 
 
        

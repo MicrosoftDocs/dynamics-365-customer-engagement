@@ -1,8 +1,8 @@
 
-You can enable outbound communication by these two options.
+You can enable outbound communication by these two options:
 
-1. Using customizations on the phone control. Follow steps 1, 2, 3 and 4.
-2. Without any customizations. Follow steps 1, 3 and 4.
+1. Using customizations on the phone control. Follow steps 1 through 4.
+2. Without any customizations. Follow steps 1, 3, and 4.
 
 
 To enable outbound communication for your channel, you must perform the following:
@@ -23,15 +23,15 @@ To enable outbound communication for your channel, you must perform the followin
 
 3. On the menu that appears, select&nbsp;**App profile manager**. 
 
-4. On the App profile manager page, expand **Omnichannel for Customer Service**&nbsp;or&nbsp;**Customer Service workspace**&nbsp;and select&nbsp;**Channel provider**.
+4. On the app profile manager page, expand **Omnichannel for Customer Service**&nbsp;or&nbsp;**Customer Service workspace**&nbsp;and select&nbsp;**Channel provider**.
  
 5. Select your channel provider from the list, and set the **Enable Outbound Communication** field to **Yes**.
 
 ## Step 2: Add the Channel Communication Control to the Unified Interface form
 
-You can add the Channel Communication Control based on your organization and business requirements. The steps mentioned below illustrate adding the **Channel Communication Control** for the **Contact** form of **Main** type under the **Contact** entity.
+You can add the Channel Communication Control based on your organization and business requirements. The steps below describe how to add the Channel Communication Control for the Contact form of Main type under the Contact entity.
 
-1. Sign-in to Dynamics 365.
+1. Sign in to Dynamics 365.
 
 2. Go to **Settings** > **Customizations**.
 
@@ -76,4 +76,4 @@ Select the mobile phone icon to trigger the `onclicktoact` event, as shown below
 |![Select mobile phone icon to trigger the onclicktoact event](../media/custom-control-phone-icon.PNG "Select mobile phone icon to trigger the onclicktoact event") |![Select the mobile phone icon to trigger the onclicktoact event](../media/oob-phone-icon.PNG "Select the mobile phone icon to trigger the onclicktoact event")|
 
 > [!Note]
-> Channel Integration Framework invokes the onclicktoact event only if you programmatically set the `setClickToAct` API to `true` or by configuring the **Enable Outbound Communication** to **Yes** in the channel provider configurations.
+> Dynamics 365 Channel Integration Framework invokes the onclicktoact event only if you programmatically set the `setClickToAct` API to `true` or by configuring the **Enable Outbound Communication** to **Yes** in the channel provider configurations.

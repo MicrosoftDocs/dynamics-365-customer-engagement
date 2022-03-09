@@ -3,10 +3,10 @@ title: "Sample: Disable a user (Developer Guide for Dynamics 365 Customer Engage
 ms.custom: 
 ms.date: 10/31/2017
 ms.reviewer: pehecke
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 082fc88f-a951-41c2-85ae-4b5e69e9917c
@@ -16,7 +16,6 @@ ms.author: kvivek
 manager: amyla
 search.audienceType: 
   - developer
-
 ---
 # Sample: Disable a user
 

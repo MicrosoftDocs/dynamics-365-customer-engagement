@@ -4,10 +4,10 @@ description: "Dynamics 365 Customer Engagement (on-premises) and perform basic c
 ms.custom: 
 ms.date: 01/29/2020
 ms.reviewer: pehecke
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: samples
+ms.topic: sample
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 0f1b28e3-0db0-4150-9c3b-d65daf0fabc5
@@ -17,7 +17,6 @@ ms.author: nabuthuk
 manager: kvivek
 search.audienceType: 
   - developer
-
 ---
 # Sample: Quick start for Dynamics 365 Customer Engagement
 

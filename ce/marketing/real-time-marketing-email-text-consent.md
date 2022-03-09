@@ -2,7 +2,7 @@
 title: "Manage consent for email and text messages in real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to manage real-time marketing email and text consent settings in Dynamics 365 Marketing."
 ms.date: 08/02/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -23,7 +23,7 @@ search.app:
 The real-time marketing consent center allows you to manage consent information given by your customers.
 
 > [!NOTE]
-> Real-time marketing consent is contact-point based. Customer consent is stored per email address or phone number, as opposed to being stored per Contact record. Outbound marketing consent processes that you have already defined are not influenced by the real-time marketing settings.
+> Real-time marketing consent is contact-point based. Customer consent is stored per email address or phone number, as opposed to being stored per contact record. Outbound marketing consent processes that you have already defined are not influenced by the real-time marketing settings.
 
 > [!IMPORTANT]
 > If you wish to run a real-time customer journey for **contacts** for which you have already gathered consent data in outbound marketing, you don't need to take any actions in the consent center (you are not required to select the **Load consent** button or create new consent records) **under one condition**. Consent for sending commercial emails should be stored in the **Allow bulk email** field of a contact record. Even with the consent center empty, the app will check the **Allow bulk email** field of each contact record and send a commercial email based on this data. 

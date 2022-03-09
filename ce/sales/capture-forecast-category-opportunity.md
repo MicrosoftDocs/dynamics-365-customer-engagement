@@ -3,8 +3,8 @@ title: "Capture forecast category for opportunity"
 description: "Capture the forecast category to indicate the confidence level of an opportunity getting converted into a sale."
 ms.date: 10/26/2021
 ms.topic: article
-author: udaykirang
-ms.author: udag
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 ms.custom: 
   - dyn365-sales
@@ -14,9 +14,10 @@ ms.custom:
 Capture the forecast category to indicate the confidence level of an opportunity getting converted into a sale.
 
 ## License and role requirements
-|  | |
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator or Forecast Manager<br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
@@ -40,9 +41,9 @@ You can also manually configure your columns for a fully customized forecast. Fo
 
     -  **Omitted**. To exclude an opportunity’s numbers from the forecast. 
     
-    - **Won**. If an opportunity is closed as won.
+    - **Won**. Don't select this option manually. When you close an opportunity as **Won**, its forecast category is automatically set to **Won**.  
     
-    - **Lost**. If an opportunity fails and is closed as lost.
+    - **Lost**. Don't select this option manually. When you close an opportunity as **Lost**, its forecast category is automatically set to **Lost**.
 
        > [!div class="mx-imgBorder"]
        > ![Capture forecast category on an opportunity.](media/capture-forecast-category-opportunity-form.png "Capture forecast category on an opportunity")
@@ -57,5 +58,6 @@ You can also manually configure your columns for a fully customized forecast. Fo
 
 [View forecasts](view-forecasts.md)
 
+[Close opportunities as won or lost](close-opportunity-won-lost-sales.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -17,7 +17,7 @@ ms.custom:
 ---
 # Walkthrough: Create custom hosted control for Unified Service Desk
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 In this topic, you’ll learn how to create a custom hosted control called `My Custom Control` with a custom action. The custom hosted control has two [!INCLUDE[pn_ms_Windows_Presentation_Foundation](../includes/pn-ms-windows-presentation-foundation.md)] controls: a button that calls the Debugger hosted control and a text label that displays the user name when a custom action, `MyCustomAction`, is called.
 
@@ -180,10 +180,10 @@ In this topic, you’ll learn how to create a custom hosted control called `My C
    ![My Custom Host Control tab shows username.](../unified-service-desk/media/crm-itpro-usd-custhostedcontrol02.png "My Custom Host Control tab shows username")
 
 ### See also
- [USD Hosted Control (Hosted Control)](../unified-service-desk/usd-hosted-control-hosted-control.md)
- [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)
- [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)
- [Use custom hosted control in Unified Service Desk](../unified-service-desk/use-custom-hosted-control-unified-service-desk.md)
 
+ [USD Hosted Control (Hosted Control)](../unified-service-desk/usd-hosted-control-hosted-control.md)  
+ [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)  
+ [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)  
+ [Use custom hosted control in Unified Service Desk](../unified-service-desk/use-custom-hosted-control-unified-service-desk.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

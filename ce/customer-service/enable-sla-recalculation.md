@@ -1,7 +1,7 @@
 ---
-title: "Enable recalculation of SLAs in Dynamics 365 Customer Service | MicrosoftDocs"
+title: "Enable recalculation of SLAs in terminal status in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how to configure recalculation of SLAs that reach the terminal status in Dynamics 365 Customer Service."
-ms.date: 10/05/2021
+ms.date: 02/11/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -18,7 +18,7 @@ ms.custom:
   - intro-internal
 ---
 
-# Recalculate SLAs on terminal status
+# Recalculate SLAs in terminal status
 
 ## Introduction
 
@@ -26,11 +26,28 @@ By default, SLAs in the terminal status are not reevaluated on case reactivation
 
 ## Enable recalculation of SLAs on reaching terminal status
 
-Do the following to enable the recalculation of SLAs that reach the terminal status:
+You can enable the recalculation of SLAs that reach the terminal status in the Customer Service admin center (preview) or Customer Service Hub app.
 
-1. In Customer Service Hub, go to **Service Management**, and under **Service Terms**, select **Service Configuration Settings**.
+1. Go to one of the apps, and perform the following steps.
 
-2. In **Re-evaluate SLA on terminal status**, set the toggle to yes, and select **Save**.
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+
+   > [!IMPORTANT]
+   > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+    1. In the site map, select **Service Terms** in **Operations**.
+    1. In the **Other SLA Settings** section, select **Manage**.                                                                         
+        
+        The **Service Configuration Settings** view is displayed. 
+
+   ### [Customer Service Hub](#tab/customerservicehub)
+
+    1. In the site map, Go to **Service Management**.
+    1. From the list of entity records, select **Service Configuration Settings** in **Service Terms**.      
+
+        The **Service Configuration Settings** view is displayed.            
+
+2. In **Recalculate SLA on terminal status**, set the toggle to yes, and select **Save**.
 
     :::image type="content" source="media/sla-recalculate.png" alt-text="Enable recalculate SLA on reaching terminal status.":::
 

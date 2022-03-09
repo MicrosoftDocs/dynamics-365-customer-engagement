@@ -3,7 +3,7 @@ title: Modify settings for the Dynamics 365 Sales mobile app
 description: Learn to modify settings for the Dynamics 365 Sales mobile app.
 ms.date: 10/25/2021
 ms.topic: article
-ms.service: dynamics-365-sales
+
 author: sbmjais
 ms.author: shjais
 manager: shujoshi
@@ -18,9 +18,10 @@ The settings are divided into the following categories:
 - [Account](#account)
 
 ## License and role requirements
-|  | |
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Professional, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or Microsoft Relationship Sales <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Professional, or Microsoft Relationship Sales <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](../security-roles-for-sales.md)|
 |||
 

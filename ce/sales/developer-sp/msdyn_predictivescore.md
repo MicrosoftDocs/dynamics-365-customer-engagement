@@ -2,7 +2,7 @@
 title: "msdyn_predictivescore Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_predictivescore entity."
 ms.date: 11/10/2020
-ms.service: "crm-online"
+
 ms.topic: "reference"
 applies_to: 
   - "Dynamics 365 (online)"
@@ -17,9 +17,9 @@ This article includes schema information and supported messages for the msdyn_pr
 
 ## License and role requirements
 
-|  | |
+| &nbsp; | &nbsp; |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System customizer <br>  See [Predefined security roles for Sales](../security-roles-for-sales.md)|
 |||
 

@@ -23,36 +23,21 @@ Insight cards help keep you up to date with your work in Dynamics 365 Sales, let
 
 The assistant displays cards in the following categories:
 
-- [Upcoming meetings](#upcoming-meetings)
-
-- [Reminders](#reminders)
-
+- [Upcoming meetings](#upcoming-meetings)   
+- [Reminders](#reminders)   
 - [Insights](#insights)
   
 ## Upcoming meetings
 
 The following cards are available under **Upcoming meetings**.
 
+| &nbsp; | &nbsp; | &nbsp; |
+|----------|----------|----------|
+| [Meeting today/Meeting today (Exchange)](#MeetingToday) | [Upcoming meeting/Upcoming meeting (Exchange)](#UpcomingMeeting)| [Related news](#RelatedNEWS) |
+| [Nearby customers](#NearbyCustomers) |||
+
 >[!NOTE]
 >The standard insight card types are available to you with the Sales Enterprise license.
-
-<style type="text/css">
-.tg td{width:40%;padding:10px 5px;border-style:hidden;border-width:1px;overflow:hidden;word-break:normal;}
-</style>
-
-<table class="tg">
-  <tr>
-    <td><a href="#MeetingToday">Meeting today/Meeting today (Exchange)</td>
-    <td><a href="#UpcomingMeeting">Upcoming meeting/Upcoming meeting (Exchange)</a></td>
-    <td><a href="#RelatedNEWS">Related news</a></td>
-  </tr>
-  <tr>
-    <td><a href="#NearbyCustomers">Nearby customers</a></td> 
-    <td></td>
-    <td></td>
-  </tr>
-</table>
-
 
 |Insight card	| Type | Description |
 |-------------|------|-------------|
@@ -65,32 +50,15 @@ The following cards are available under **Upcoming meetings**.
 
 The following cards are available under **Reminders**.
 
+| &nbsp; | &nbsp; | &nbsp; |
+|----------|----------|----------|
+| [{<i>activity</i>} due today](#ActivityDueDate) | [Close date coming soon](#CloseDateComingSoon) | [Missed (opportunity) closed date](#MissedCloseDate)|
+| [Email opened](#EmailOpened) | [Email reminder](#EmailReminder) | [No activity with {<i>record type</i>}](#NoActivityWithType) |
+| [Recent meeting/Recent meeting (Exchange)](#RecentMeetingExchange) | [Missed email](#MissedEmail) ||
+
 >[!NOTE]
 >- The standard insight card types are available to you with the Sales Enterprise license.
 >- The premium insight card types are available to you with the Sales Insights license. 
-
-
-<style type="text/css">
-.tg td{width:40%;padding:10px 5px;border-style:hidden;border-width:1px;overflow:hidden;word-break:normal;}
-</style>
-
-<table class="tg">
-  <tr>
-    <td><a href="#ActivityDueDate"><i>{activity}</i> due today</a></td> 
-    <td><a href="#CloseDateComingSoon">Close date coming soon</a></td>
-    <td><a href="#MissedCloseDate">Missed (opportunity) closed date</a></td>    
-  </tr>
-  <tr>
-    <td><a href="#EmailOpened">Email opened</a></td>
-    <td><a href="#EmailReminder">Email reminder</a></td>
-    <td><a href="#NoActivityWithType">No activity with {<i>record type</i>}</a></td>
-  </tr>
-  <tr>
-    <td><a href="#RecentMeetingExchange">Recent meeting/Recent meeting (Exchange)</a></td>
-    <td><a href="#MissedEmail">Missed email</a></td>
-  </tr>
-</table>
-
 
 |Insight card	| Type | Description |
 |-------------|------|-------------|
@@ -108,47 +76,19 @@ The following cards are available under **Reminders**.
 
 The following cards are available under **Insights**.
 
+| &nbsp; | &nbsp; | &nbsp; |
+|----------|----------|----------|
+| [Opportunity at risk (sentiment detection)](#OpportunityRiskSentiment) | [Opportunity at risk (phrase detection)](#OpportunityRiskPhrase) | [Competitor mentioned](#CompetitorMentioned) |
+| [Issue detected](#IssueDetected) | [Customer question](#CustomerQuestion) | [Meeting requested](#MeetingRequested) |
+| [File requested](#FileRequested) | [Buying intent detected in email](#BuyingIntentDetectedEmail) | [Suggested stakeholder](#SuggestedStakeholder) |
+| [Suggested activities](#SuggestedActivities) | [Suggested contacts](#SuggestedContacts) | [Relationship analytics](#RelationshipAnalytics) |
+| [Contact is no longer with the company](#ContactMovedToNewOrg) | [Today's top people](#TodaysTopPeople) | [Today's top records](#TodaysTopRecords) |
+| [Upcoming flight](#UpcomingFlight) |||
+
 >[!NOTE]
 >- The standard insight card types are available to you with the Sales Enterprise license.
 >- The premium insight card types are available to you with the Sales Insights license. 
 >- The premium insight card types that get data from LinkedIn requires the Sales Navigator license.
-
-<style type="text/css">
-.tg td{width:40%;padding:10px 5px;border-style:None;border-width:1px;overflow:hidden;word-break:normal;}
-</style>
-
-<table class="tg">
-  <tr>
-    <td><a href="#OpportunityRiskSentiment">Opportunity at risk (sentiment detection)</a></td>
-    <td><a href="#OpportunityRiskPhrase">Opportunity at risk (phrase detection)</a></td>
-    <td><a href="#CompetitorMentioned">Competitor mentioned</a></td>
-  </tr>
-  <tr>
-    <td><a href="#IssueDetected">Issue detected</a></td>
-    <td><a href="#CustomerQuestion">Customer question</a></td>
-    <td><a href="#MeetingRequested">Meeting requested</td>
-  </tr>
-  <tr>
-    <td><a href="#FileRequested">File requested</a></td>
-    <td><a href="#BuyingIntentDetectedEmail">Buying intent detected in email</a></td>
-    <td><a href="#SuggestedStakeholder">Suggested stakeholder</a></td>
-  </tr>
-  <tr>
-    <td><a href="#SuggestedActivities">Suggested activities</a></td>
-    <td><a href="#SuggestedContacts">Suggested contacts</a></td>
-    <td><a href="#RelationshipAnalytics">Relationship analytics</a></td>
-  </tr>
-  <tr>
-    <td><a href="#ContactMovedToNewOrg">Contact is no longer with the company</a></td>
-    <td><a href="#TodaysTopPeople">Today's top people</a></td>
-    <td><a href="#TodaysTopRecords">Today's top records</td>
-  </tr>
-  <tr>
-    <td><a href="#UpcomingFlight">Upcoming flight</a></td>
-    <td> </td>
-    <td></td>
-  </tr>
-</table>
 
 |Insight card	| Type | Description |
 |-------------|------|-------------|
@@ -163,7 +103,7 @@ The following cards are available under **Insights**.
 | <a name="SuggestedStakeholder"></a>**Suggested stakeholder** <br/>![Insight card for recommended stakeholder](media/ActionCard_RecommendedStakeholder.png "Insight card for recommended stakeholder") |  Standard | **Description**: <br> An email regarding an open opportunity has arrived, and it includes an extra recipient that is not yet listed as a stakeholder for that opportunity.<br>**Features**:<br>Shows the name of the potential stakeholder.<br>Tells you that this person might be a stakeholder in an open opportunity.<br>Displays a short description that includes the name of the opportunity.<br>**Actions**:<br>Add Stakeholder<br>Always Add<br>**Configuration options**:<br>You can choose to add the stakeholder automatically rather than show the card.<br>**Note**: This  is the same as the configuration setting available for this card type, and you can reset it by going to your Assistant settings. To learn more, see [Assistant](assistant.md).|
 | <a name="SuggestedActivities"></a>**Suggested Activities** <br/> ![Suggested activities](media/ActionCard_SuggestedActivities.png "Insight card for suggested activities") | Premium | **Description**:<br> This card is provided as an alert when new activity suggestions are available in Dynamics 365 Sales.<br>**Feature**:<br>Indicates that new activities are available for you with the total number and regarding what.<br> **Actions**: <br>Open activity suggestions<br>**Prerequisite**: <br> Enable premium auto capture to use this card. To learn more, see [How to enable and configure premium auto capture](configure-auto-capture.md#how-to-enable-and-configure-premium-auto-capture). <br> You must purchase Sales Insights license. |
 | <a name="SuggestedContacts"></a>**Suggested Contacts** <br/> ![Suggested contacts](media/ActionCard_SuggestedContacts.png "Insight card for suggested contacts") | Premium | **Description**: <br>This card is provided as an alert when new contact suggestions are available in Dynamics 365 Sales.<br>**Feature**:<br>Indicates that new contacts are available for you with the total number and who. <br>**Actions**: <br> Open contact suggestions<br>**Prerequisite**: <br> Enable premium auto capture to use this card. To learn more, see [How to enable and configure premium auto capture](configure-auto-capture.md#how-to-enable-and-configure-premium-auto-capture). <br> You must purchase a Sales Insights license.|
-| <a name="RelationshipAnalytics"></a>**Relationship analytics** <br/> ![Relationship analytics](media/ActionCard_RelationshipAnalytics.png "Insight card for relationship analytics") |  Premium | **Description**: <br>This card is provided as an alert when you have an opportunity that is similar to deals that are won recently.<br>**Feature**:<br>Indicates that the current opportunity is similar to the opportunities that had been previously won. <br>**Actions**: <br>Open opportunity <br> By selecting the action, you can view comparable information on the KPIs, graphs, activity history, and relationship health with similar deals that had been won. <br>**Prerequisite**: <br> Enable preview to view similar opportunities in Relationship analytics to use this card. To learn more, see [step 5 in Configure Relationship analytics](configure-relationship-analytics.md#configure-similar-opportunities-preview). <br> You must purchase a Sales Insights license.|
+| <a name="RelationshipAnalytics"></a>**Relationship analytics** <br/> ![Relationship analytics](media/ActionCard_RelationshipAnalytics.png "Insight card for relationship analytics") |  Premium | **Description**: <br>This card is provided as an alert when you have an opportunity that is similar to deals that are won recently.<br>**Feature**:<br>Indicates that the current opportunity is similar to the opportunities that had been previously won. <br>**Actions**: <br>Open opportunity <br> By selecting the action, you can view comparable information on the KPIs, graphs, activity history, and relationship health with similar deals that had been won. <br>**Prerequisite**: <br> Enable preview to view similar opportunities in Relationship analytics to use this card. To learn more, see [Configure Relationship analytics](configure-relationship-analytics.md). <br> You must purchase a Sales Insights license.|
 | <a name="ContactMovedToNewOrg"></a>**Contact is no longer with the company** <br/> ![Contact left the company](media/ActionCard_ContactMovedToNewOrg.png "Insight card for contact left the company") | Premium | **Description**: Tells you that one of your contacts has left the company based on the information LinkedIn has.<br>**Actions**:<br>Open – Opens the contact record<br> **Prerequisite**:<br>Users should have a **LinkedIn Sales Navigator** license to use this card. To learn more, see [Install, enable, and disable default LinkedIn Sales Navigator controls](/dynamics365/linkedin/install-sales-navigator).|
 | <a name="TodaysTopPeople"></a>**Today's Top People** <br />![Insight card for top people today](media/ActionCard_TopPeople.png "Insight card for top people today") | Standard | **Description**: <br>The system analyzes your appointments, tasks, and other work for the day and generates this card to show the contacts you're most likely to interact with today.<br>**Features**:<br>Shows each contact's name and portrait.<br>Shows each contact's title and any business they have with you today (such as a meeting, task, or phone call).<br>Click to view full contact details. |
 | <a name="TodaysTopRecords"></a>**Today's Top Records**<br />![Insight card for top records today](media/ActionCard_TopRecords.png "Insight card for top records today") | Standard |**Description**:<br> The system analyzes all of the Sales records that are related to you and lists the records that you are most likely to be working with today based on your recent activities and date information (such as a due date or appointment) in each record.<br>**Features**:<br> Shows a thumbnail image and a summary of each found record.<br>Click to view the full record. |

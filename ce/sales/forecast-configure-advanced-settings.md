@@ -1,27 +1,27 @@
 ---
 title: "Configure advanced settings for a forecast"
 description: "Configure advanced settings for a forecast in Dynamics 365 Sales."
-ms.date: 11/06/2020
+ms.date: 02/24/2022
 ms.topic: article
-author: udaykirang
-ms.author: udag
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 ---
 # Configure advanced settings 
-
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
 
 In the **Advanced** step of forecast configuration, you can configure the following:
 
 - [Automatically hide parent rows](#automatically-hide-parent-rows)
 - [Enable multi-currency selection](#enable-multi-currency-selection)
+- [Preview: Set the default experience for underlying records](#preview-set-the-default-experience-for-underlying-records)
 - [Enable prediction factors](#enable-prediction-factors)
 - [Customize underlying records](#customize-underlying-records)
 
 ## License and role requirements
-|  | |
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator or Forecast Manager<br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
@@ -51,6 +51,57 @@ For example, you have sales teams in the United States and Europe. The US dollar
 As an administrator or forecast manager, turn on the **Multi-currency selection** toggle in the **Advanced** forecast configuration step to allow users to view the forecast data in any currency that has been defined for your organization.  
 > [!div class="mx-imgBorder"]
 > ![Enable multiple-currency selection.](media/forecast-multi-currency-enable.png "Enable multiple-currency selection")
+
+## Preview: Set the default experience for underlying records 
+
+As an administrator or forecast manager, you can define the default experience for each forecast configuration based on your forecast users' preferences. For example, if your users prefer a Kanban view instead of grid view, you can set the Kanban view as the default. 
+
+[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+
+You can define the following default settings for underlying records:
+
+- [Preview: Set Kanban as default view](#preview-set-kanban-as-default-view)
+- [Preview: Select a default group by attribute](#preview-select-a-default-group-by-attribute)
+- [Preview: Select a default underlying records view](#preview-select-a-default-underlying-records-view)
+
+> [!NOTE]
+> - Apart from the default settings for underlying records, you can also set a forecast as the default. More information: [Preview: Select a default forecast](select-default-forecast.md).
+> - The most recent selection of the user overrides the default selection for that user. For example, if the default view for the underlying records of a forecast is Kanban and a user switches to the grid view, then the underlying records will open in the grid view when they access the forecast next time. 
+
+
+### Preview: Set Kanban as default view
+
+The underlying records of a forecast can be displayed in a grid/table view or Kanban view. If you want to set Kanban as the default view for the selected forecast configuration, enable the **Set kanban as default** option in the  **Advanced** step of the forecast configuration.
+
+The following screenshot illustrates how enabling the Kanban option displays the Kanban view by default for the underlying forecast records: 
+
+:::image type="content" source="media/forecast-default-kanban.png" alt-text="Screenshot of Kanban default and kanban view":::
+
+### Preview: Select a default group by attribute
+
+As an administrator or forecast manager, you can select an attribute for grouping the underlying records by default. Users can change the grouping attribute in their view and that selection will override the default grouping attribute for them.
+
+> [!NOTE]
+> The group by option is only supported in the grid/table view. If you want to group the records, then disable the **Set kanban as default** option. If you select both Kanban and grouping, then the default view will be set to Kanban; Groups will appear only when the user switches to the table/grid view.  
+
+Select the attribute from the **Default underlying records group by attribute (Preview)** dropdown in the **Advanced** step of the forecast configuration.
+
+The following screenshot illustrates how selecting the attribute, groups the underlying records by default:
+
+:::image type="content" source="media/forecast-default-group.png" alt-text="Screenshot of group by default attributed and grouped records":::
+
+### Preview: Select a default underlying records view
+
+If you want users to view the underlying records using a specific view (such as My Open Opportunities) to give the most relevant information about the forecast, select that view as the default view for the forecast configuration.  
+
+> [!NOTE]
+> View selection is only supported in the grid/table view. If you want to open the records in a specific view by default, then disable the **Set kanban as default** option. If you select both Kanban and the view, then the records will open in Kanban; The default records view will appear only when the user switches to the table/grid view. 
+
+Select the default view from the **Default underlying records view** dropdown in the **Advanced** step of the forecast configuration.
+
+The following screenshot illustrates how selecting a view displays the underlying records in that view by default:
+
+:::image type="content" source="media/forecast-default-records-view.png" alt-text="Screenshot of default underlying records view and view selection":::
 
 ## Enable prediction factors
 
@@ -96,7 +147,7 @@ You can customize underlying records by adding a JavaScript library. These custo
     ```      
     > [!NOTE]
     > -	The function names in the JavaScript file must match the event names and must accept the context object parameter. 
-    > -	The forecasting context object that's referred to in the example is different from the execution context of the Common Data Service. A forecasting context object is specific to forecasting and supports the advanced configurations of the underlying records grid. More information: [Events and context object](../sales-enterprise/developer/reference/custom-actions/events-context.md)  
+    > -	The forecasting context object that's referred to in the example is different from the execution context of the Microsoft Dataverse. A forecasting context object is specific to forecasting and supports the advanced configurations of the underlying records grid. More information: [Events and context object](../sales-enterprise/developer/reference/custom-actions/events-context.md)  
 2.	Add your JavaScript code in a Script web resource.  
     1. Go to your customer engagement app instance in a browser, and select **Settings** > **Customizations**.
     2. In the **Customization** area, select **Customize the System**.

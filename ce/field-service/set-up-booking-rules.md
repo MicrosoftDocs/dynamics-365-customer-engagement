@@ -1,9 +1,9 @@
 ---
 title: "Set up booking rules in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to set up booking rules in Dynamics 365 Field Service.
-ms.date: 09/04/2020
+ms.date: 02/01/2022
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.topic: article
 author: FieldServiceDave
 ms.author: daclar
@@ -71,7 +71,7 @@ The following screenshot shows a newly created solution. We recommend that your 
 4. Save your booking rule. Once you save the booking rule, it will be used by the hourly view of schedule board and schedule assistant or the entity form. You can deactivate your booking rule record to keep the schedule board, schedule assistant, or the booking entity form, from executing the rule.
 
 > [!Note]
-> The booking rules are currently only supported on the hourly view of the schedule board and schedule assistant. The booking rules are also supported when the bookings are created or updated using the bookable resource booking form.
+> The booking rules are currently only supported on the hourly view of the schedule board and schedule assistant. The booking rules are also supported when the bookings are created or updated using the bookable resource booking form. Booking rules do **not** execute on delete of a booking record. Booking rules don't work on forms when using multi-edit.
 
 ## Create a CRM action
 
@@ -121,14 +121,12 @@ The possible values for *ResourceScheduleSource* are from the resource schedule 
 ```
     var sbContext = {
     oldValues: {
-        WorkOrderId: "00000000-0000-0000-0000-00000000",
         StartTime: "01/01/2016 08:00AM",
         EndTime: "01/01/2016 05:00PM",
         ResourceId: "00000000-0000-0000-0000-00000000",
         ResourceScheduleSource: 690970001
     },
     newValues: {
-        WorkOrderId: "00000000-0000-0000-0000-00000000",
         StartTime: "01/01/2016 08:00AM",
         EndTime: "01/01/2016 05:00PM",
         ResourceId: "00000000-0000-0000-0000-00000000",
@@ -266,7 +264,7 @@ On the booking rule record, the **Method Name** must be: *MSFSAENG.ScheduleBoard
         function ScheduleBoardHelper() {
         }
         ScheduleBoardHelper.callActionWebApi = function (sb) {
-            var oDataEndpoint = sb.url + "msdyn_workorders(" + sb.ctx.newValues.WorkOrderId + ")/Microsoft.Dynamics.CRM." + sb.actionName;
+            var oDataEndpoint = sb.url + sb.actionName;
             var req = new XMLHttpRequest();
             req.open("POST", oDataEndpoint, false);
             req.setRequestHeader("Accept", "application/json");

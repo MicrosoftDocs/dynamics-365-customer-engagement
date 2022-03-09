@@ -5,9 +5,10 @@ ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 searchScope: 
   - D365-App-msdynce_saleshub
+  - D365-App-msdynce_salespro
   - D365-Entity-pricelevel
   - D365-UI-*
   - Dynamics 365
@@ -16,7 +17,7 @@ searchScope:
 ---
 # Decimal precision in currency and pricing 
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 Decimal precision plays an important role in determining the number of decimal places to be used with field type **Currency** in Dynamics 365 Sales. It also affects rounding in calculations.
 
@@ -29,7 +30,7 @@ Decimal precision can be used with the following three levels:
 - **Field-level precision.** This is used to define a specific set precision using values between 0 and 4.
 
 
-These precision levels are set while configuring currency fields. More information: [Create and edit fields for Common Data Service using Power Apps solution explorer](/powerapps/maker/common-data-service/create-edit-field-solution-explorer)
+These precision levels are set while configuring currency fields. More information: [Create and edit fields for Microsoft Dataverse using Power Apps solution explorer](/powerapps/maker/common-data-service/create-edit-field-solution-explorer)
 
 ## Pricing decimal precision 
 

@@ -2,11 +2,11 @@
 title: "Overview of unified routing | MicrosoftDocs"
 description: "Overview of unified routing in Customer Service"
 ms.date: 10/07/2021
-ms.topic: article
+ms.topic: overview
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.custom: intro-internal
+
 ---
 
 # Overview of unified routing
@@ -53,7 +53,7 @@ The requirements for unified routing are same as those that are applicable for O
 
 For the languages that are supported in unified routing, see [Supported languages](international-availability.md#language-availability).
 
-You can configure unified routing only through the Omnichannel admin center or Customer Service Hub app. Agents must use the Customer Service workspace or Omnichannel for Customer Service app only to be assigned work through unified routing.
+You can configure unified routing only through the Customer Service admin center (preview), Omnichannel admin center, and Customer Service Hub apps. Agents must use the Customer Service workspace or Omnichannel for Customer Service app only to be assigned work through unified routing.
 
 The intelligent skill finder depends upon the custom AI Builder category classification model. Therefore, AI Builder should be available in the geographical region where you want to use intelligent skill finder. The languages supported in the intelligent skill finder are determined by the languages that AI Builder supports. For more information, see the following:
 

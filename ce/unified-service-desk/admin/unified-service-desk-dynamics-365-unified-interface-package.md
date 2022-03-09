@@ -14,7 +14,7 @@ search.app:
 ---
 # Unified Interface sample application package
 
-[!INCLUDE[cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
 
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is a desktop application that helps your customer service agents provide phone, email, and chat support to your customers. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides a configurable framework to quickly build an Agent Desktop application that’s integrated with Microsoft Dataverse. With [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] you can quickly make a customized Agent Desktop application by leveraging the User Interface Integration (UII) framework. 
  This package is best used in the following situations:  
@@ -23,11 +23,11 @@ search.app:
   
   With the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Unified Interface sample application package, the following components are installed:  
   
-- Unified Service Desk Administrator App
+    - Unified Service Desk Administrator App
 
-- User Interface Integration Solution 
+    - User Interface Integration Solution 
   
-- Unified Service Desk Solution
+    - Unified Service Desk Solution
 
 ::: moniker range=">=dynamics-usd-4"
 
@@ -37,13 +37,13 @@ search.app:
 
 - Data required for Dataverse and customizations
   
-- The following sample hosted controls  
+- The following sample hosted controls 
   
   -   KPI Custom Control  
   
   -   Customer Information System  
   
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > -  The sample applications aren't supported for production use.
 >  
 > - The sample application installs random sample records for entities like Account, Contact, Cases, and so on.

@@ -1,16 +1,25 @@
 ---
-title: "Relationship analytics abd health"
+title: "Relationship analytics and health"
 description: "Use relationship analytics to view customer activity history of contact, opportunity, lead, or account in a graphical display through KPIs and activity histories."
 ms.date: 10/26/2021
-ms.custom: 
 ms.topic: article
-author: udaykirang
-ms.author: udag
-manager: sakudes
-caps.latest.revision: 20
-topic-status: Drafting
+author: lavanyakr01
+ms.author: lavanyakr
+manager: shujoshi
 ---
 # Use relationship analytics to gather KPIs     
+
+Use relationship analytics to view customer activity history of contact, opportunity, lead, or account in a graphical display through KPIs and activity histories.
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |  
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
+## What is relationship analytics?
 
 >[!IMPORTANT]
 >This feature is intended to help sellers or sales managers enhance their team’s performance. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with sales persons may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their sales persons that their communications with end users may be monitored, recorded, or stored.
@@ -78,7 +87,7 @@ The current relationship analytics provides information such as graphs, KPIs, em
 
 As a seller, it's important for you to understand what's working better for a deal and learn about the best engagement practices from similar deals that were won in the past. The enhanced relationship analytics displays comparable information on the KPIs, graphs, activity history, and relationship health with similar deals that were won. Also, a list of similar deals that were won is displayed at the bottom. By opening the deals, you can learn what has worked and what didn't work, and implement these learnings in the deal you're currently trying to close.  
 
-An administrator must enable the feature before you can start using it. More information: [Step 5 in Configure relationship analytics](configure-relationship-analytics.md#configure-similar-opportunities-preview).
+An administrator must enable the feature before you can start using it. More information: [Configure relationship analytics](configure-relationship-analytics.md).
 
 >[!NOTE]
 >If relationship analytics can't detect the similar opportunities for the current opportunity, relationship analytics takes top 100 won opportunities and displays KIPs to compare with the current opportunity.
@@ -114,8 +123,10 @@ The following screenshot shows an example of enhanced relationship analytics:
 
 10. **Customer's email send/receive ratio**: Shows the ratio of the number of emails sent by the customer and received by you in this opportunity, to the average sent and received ratio by customers on all similar won deals.    
 
-11. **Similar won deals**: Shows the list of similar opportunities that have been closed as won. The columns display activities count, time spent, response time, and the response ratio for each opportunity. You can select and open an opportunity to view what has worked better in a deal that was closed as won, and implement these observations in the current deal to help close it as well. The list is refreshed every seven days.
-12. **Relationship activities**: Provides a detailed look at activities over 90 days, broken down by date and activity type, such as emails sent, emails received, meetings sent, meetings received, phone calls made, and phone calls received.       
+11. **Similar won deals**: Shows the list of similar opportunities that have been closed as won. The columns display activities count, time spent, response time, and the response ratio for each opportunity. You can select and open an opportunity to view what has worked better in a deal that was closed as won, and implement these observations in the current deal to help close it as well. The list is refreshed every seven days.   
+    To know how the similar won deals are identified, see [How are similar won deals identified?](faqs-sales-insights.md#similar-won-deals-fields)
+ 
+1. **Relationship activities**: Provides a detailed look at activities over 90 days, broken down by date and activity type, such as emails sent, emails received, meetings sent, meetings received, phone calls made, and phone calls received.       
 
 <a name="Calculations"></a>   
 ## How relationship analytics values are calculated    
@@ -200,10 +211,10 @@ In addition to the absolute health score, the system also reports the general tr
 ### See also   
 
 [Configure relationship analytics](configure-relationship-analytics.md)   
-[GDPR for Dynamics 365 Sales Insights](embedded-intelligence-gdpr.md)   
-[Opt out of relationship analytics (GDPR)](optout-relationship-analytics-gdpr.md)   
+[GDPR for Dynamics 365 Sales Insights](embedded-intelligence-gdpr.md)      
 [View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)   
 [Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action](../sales/retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)
+[Relationship analytics and health FAQ](faqs-sales-insights.md#relationship-analytics-and-health)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

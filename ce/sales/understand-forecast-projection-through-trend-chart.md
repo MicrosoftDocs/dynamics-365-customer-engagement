@@ -4,8 +4,8 @@ description: "Use the trend charts to understand how each forecast amount is tre
 ms.date: 10/26/2021
 ms.custom: 
 ms.topic: article
-author: udaykirang
-ms.author: udag
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 ---
 # Understand forecast projections by using trend charts 
@@ -16,7 +16,8 @@ The **Trend** chart shows how each forecast amount is trending over time, compar
 > The **Trend** chart is available as part of the predictive forecasting feature. Verify that predictive forecasting is enabled for your organization. To learn more, see [About premium forecasting](configure-premium-forecasting.md).
 
 ## License and role requirements
-|  | |
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|

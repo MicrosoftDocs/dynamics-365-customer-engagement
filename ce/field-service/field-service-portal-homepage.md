@@ -1,9 +1,9 @@
 ---
-title: "Customer experience homepage in Dynamics 365 Field Service | MicrosoftDocs"
+title: "Customer experience homepage in Dynamics 365 Field Service (contains video) | MicrosoftDocs"
 description: Learn about how customers can manage their upcoming service visits with customer experience portals in Field Service.
 ms.date: 10/21/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.topic: article
 applies_to:
 - "Dynamics 365 (online)"
@@ -21,6 +21,11 @@ search.app:
 Customer experience homepages provide a one-stop destination for your service end customers to book new appointments, manage existing appointments, track their technician, and provide feedback.
 
 In this article, we'll walk through the customer experience homepages, and how they work for end customers.
+
+For a guided walkthrough, check out the following video.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWO5EO]
+
 
 ## Prerequisites
 

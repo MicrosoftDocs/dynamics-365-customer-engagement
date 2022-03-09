@@ -1,7 +1,7 @@
 ---
 title: "Add a chat widget | MicrosoftDocs"
 description: "Perform the steps mentioned in the topic to add a chat widget in Omnichannel for Customer Service."
-ms.date: 08/17/2021
+ms.date: 02/25/2022
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -12,36 +12,54 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
+## Introduction
+
 You can configure a live chat widget that can be displayed on your portal for customers to interact with bots and human agents.
 
 To add a chat widget, you need to have configured a workstream that defines how chat conversations are routed to queues. More information: [Create a workstream](create-workstreams.md).
 
-## Configure a chat widget in Omnichannel admin center
+## Configure a chat widget
 
-Perform the following steps to configure the chat widget in Omnichannel admin center
+**To configure the chat widget**
 
-1. In the site map of Omnichannel admin center, select **Workstreams**.
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-2. In the **All workstreams** view, select the workstream for which you want to configure the chat widget.
+    1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
+    
+    1. Select **Manage** for **Chat**. The **Chat channels** page appears.
+    
+    1. Select **Add chat channel**.
 
-3. On the workstream page, select **Set up chat** if a chat channel hasn't been created, or select **Add chat channel** to add a chat widget.
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
 
-4. On the **Channel details** page, enter a name and select a language in the **Name** and **Language** fields, respectively.
+    1. In the site map, select **Workstreams**.
+    
+    1. In the **All workstreams** view, select the workstream for which you want to configure the chat widget.
 
-5. On the **Chat Widget** page, enter the following details:
+    1. On the workstream page, select **Set up chat** if a chat channel hasn't been created, or select **Add chat channel** to add a chat widget.
+
+1. On the **Channel details** page, enter a name and select a language in the **Name** and **Language** fields, respectively.
+
+1. On the **Chat Widget** page, enter the following details:
    - **Title:** Display name for the chat widget.
    - **Subtitle:** Additional title, such as "We're online".
    - **Theme color:** Choose a color from the list.
    - **Logo URL:** Select the default value or enter the link to the logo that you want to be displayed.
    - **Agent display name:** Select a value from the list.
 
-6. Set the toggle to **Yes** to enable the following options:
+1. Set the toggle to **Yes** to enable the following options:
    - [Proactive chat](proactive-chat.md)
    - [Reconnect to previous chat](configure-reconnect-chat.md)
    - Only show widget during operation hours
      - **Operation hours name**: Select an operating hour setting. More information: [Configure operating hours](create-operating-hours.md).
    - **Only show widget on the provided domains**: Enter the link of the portal.
-7. On the **Behaviors** page, configure the following options:
+
+1. On the **Behaviors** page, configure the following options:
    - [Custom automated messages](configure-automated-message.md)
    - [Pre-conversation survey](configure-pre-chat-survey.md)
    - [Post-conversation survey](configure-post-conversation-survey.md)
@@ -51,7 +69,7 @@ Perform the following steps to configure the chat widget in Omnichannel admin ce
          - **Show average wait time:** Select if you want to show to customers the average wait time in the queue when they're waiting to interact with an agent. More information: [Show customers their average wait time in a queue](average-wait-time.md)
    - **Customer location detection:** Select a location provider. More information: [Set up visitor location detection](geo-location-provider.md).
 
-8. On the **User features** page, configure the following options:
+1. On the **User features** page, configure the following options:
    - [File attachments](enable-file-attachments.md)
    - [Customer notifications](#configure-customer-notifications)
    - [Conversation transcripts](download-email-chat-transcripts.md)
@@ -63,7 +81,7 @@ Perform the following steps to configure the chat widget in Omnichannel admin ce
       > - You must install a third-party provider from AppSource to use the screen sharing or co-browse feature.
       > - You can select only one co-browse provider and or one screen sharing provider for each chat widget. Only those co-browse and screen sharing providers that have published a solution on AppSource will appear in the lists.
 
-9. Select **Save and close**.
+1. Select **Save and close**.
 
 ### Configure customer notifications
 
@@ -71,7 +89,7 @@ You can configure visual and sound notifications to be sent to customers when th
 
 Perform the following steps to enable the customer notifications:
 
-1. In Omnichannel admin center, edit a chat widget, and on the **Chat channel settings** page, select the **User features** tab.
+1. In Customer Service admin center (preview) or Omnichannel admin center, edit a chat widget, and on the **Chat channel settings** page, select the **User features** tab.
 2. For **Customer notifications**, set the toggle to **On**. The following checkboxes are displayed as selected:
    - **Show number of new messages**
    - **Play sound notifications for new messages**
@@ -79,7 +97,9 @@ Perform the following steps to enable the customer notifications:
 
 You can also configure the customer notifications when you're configuring the chat channel.
 
-## Configure a chat widget in Omnichannel Administration
+### Configure a chat widget in Omnichannel Administration
+
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 The information in this section is not applicable if you are using the Omnichannel admin center app in the latest version of Omnichannel for Customer Service.
 

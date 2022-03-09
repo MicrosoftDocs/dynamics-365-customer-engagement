@@ -1,7 +1,7 @@
 ---
 title: "Manage playbook templates (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Create and manage playbook templates to help your team consistently perform recurrent business processes such as a sales process."
-ms.date: 10/25/2021
+ms.date: 11/22/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -22,9 +22,10 @@ searchScope:
 Playbooks provide users with guidance on recurring tasks in which consistent actions are expected. Playbooks can also contain best practices based on scenarios that have worked in similar situations before.
 
 ## License and role requirements
-|  | |
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator or Playbook Manager <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
@@ -89,6 +90,10 @@ Playbooks provide users with guidance on recurring tasks in which consistent act
     *  **Duration**. If you’re creating a task or a phone call, select the duration for the task or phone call activity.
 
     * **Priority**. Select the priority of the activity.
+
+        >[!NOTE]
+        >- Only the **Relative start date (days)**, **Relative start time**, **Relative end date (days)**, and **Relative end time** fields are available for appointments.
+        >- The **Relative due date (days)** and **Relative due time (hours)** fields are not available for appointments.
 
         > [!div class="mx-imgBorder"]
         > ![quick create form for phone call activity.](media/quick-create-phone-call-form.png "Quick create form for phone call activity")  

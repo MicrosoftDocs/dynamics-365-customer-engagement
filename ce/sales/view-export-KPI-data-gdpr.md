@@ -1,13 +1,13 @@
 ---
 title: "View and export KPI data (GDPR) | Microsoft Docs"
 description: "View KPI data for contact, lead, and opportunity using system views, and export the data to an Excel file in Sales Insights."
-keywords: "GDPR; data protection; privacy; embedded intelligence"
 ms.date: 10/26/2021
 ms.topic: article
+author: udaykirang
+ms.author: udag
+manager: shujoshi
+keywords: "GDPR; data protection; privacy; embedded intelligence"
 ms.assetid: ada3bf5d-f083-4e2b-947e-b402e4068392
-author: KumarVivek
-ms.author: kvivek
-manager: kvivek
 topic-status: Drafting
 ---
 # View and export KPI data (GDPR) 
@@ -22,7 +22,8 @@ View KPI data for contact, lead, and opportunity using system views, and export 
 > This topic is applicable only for the [Relationship Analytics](relationship-analytics.md) feature.
 
 ## License and role requirements
-|  | |
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator or Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|

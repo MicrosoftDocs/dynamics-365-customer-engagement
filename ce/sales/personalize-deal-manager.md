@@ -1,9 +1,9 @@
 ---
-title: "Personalize deal manager - Sales Enterprise | MicrosoftDocs"
+title: "Personalize deal manager | MicrosoftDocs"
 description: "As a seller, personalize the grid and apply filters to suit your needs."
-ms.date: 10/26/2021
+ms.date: 02/01/2022
 ms.topic: article
-ms.service: dynamics-365-sales
+
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
@@ -12,13 +12,13 @@ manager: shujoshi
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-As a seller, personalize the grid and apply filters to suit your needs.
+As a seller, personalize the deal manager workspace and apply filters to suit your needs.
 
 ## License and role requirements
 
-|  | |
+| &nbsp; | &nbsp; |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
@@ -29,6 +29,7 @@ As a seller, personalize the grid and apply filters to suit your needs.
 As a seller, you can personalize the deal manager workspace to suit your needs. You can,
 
 - Personalize the grid by adding, removing, rearranging, sorting, and grouping columns.
+
 - Apply filters to view records that are important to you.
 - Change the layout of the workspace to either list (grid only) or combo (grid and chart).  
 - Change the metrics displayed at the top of the workspace.
@@ -49,16 +50,20 @@ The deal manager workspace lists important metrics related to the sales pipeline
 
     :::image type="content" source="media/deal-manager-editmetrics-small.png" alt-text="Screenshot illustrating the Edit metrics option in deal manager and the edit metrics side panel with the Create a metric option and the list of metrics." lightbox="media/deal-manager-editmetrics.png":::
 
-1. To create a metric, do the following:
+1. To create a metric, perform the following steps:
     1. Select **Create a Metric**.
+
     1. Select the field and the aggregate function that you want to use for calculating the metric.
        The **Field** list displays all the numerical fields in the opportunity entity. 
     1. (Optional) Add filters to calculate metrics from specific records. For example, if you want to view the estimated revenue of all opportunities created this year and are in the **Develop** stage, create a metric with the following values:
 
     - **Field:** Est. Revenue
+
     - **Aggregate function:** Sum
     - **Filters**
+
         - **Created On**: This year  
+
         - **Sales Stage**: Develop  
 
 1. To edit a metric, hover over the metric and select the **Edit** icon.
@@ -70,6 +75,7 @@ The deal manager workspace lists important metrics related to the sales pipeline
 Personalize the grid to include columns that you want to see and update quickly. You can:
 
 - Add or remove columns from the grid.
+
 - Show or hide columns.
 - Drag columns to rearrange them in the grid.
 - Resize, sort, and group records by columns.  
@@ -87,7 +93,7 @@ Personalize the grid to include columns that you want to see and update quickly.
         - **Basic column**    
           Lets you select a column from the opportunity or related entities such as account, contact, price list, and so on.
         - **Smart column**   
-          Lets you select a column that performs certain computations on the records to display smart and actionable information. For more information, see [What are smart columns?](#what-are-smart-columns) later in this topic. 
+          Lets you select a column that performs certain computations on the records to display smart and actionable information. For more information, see [What are smart columns?](#what-are-smart-columns) later in this article. 
 
           :::image type="content" source="media/deal-manager-editcolumns-small.png" alt-text="Screenshot illustrating the Edit columns option and the side panel." lightbox="media/deal-manager-editcolumns.png":::
 
@@ -100,7 +106,7 @@ Personalize the grid to include columns that you want to see and update quickly.
    
 ### What are smart columns?
 
-A *smart column* performs certain computations on existing columns to display smart and actionable information. For example, the **Revenue** column displays the actual revenue if the opportunity is closed; otherwise, it displays the estimated revenue. These columns save you the trouble of manual computation and makes it easy for you to look at opportunities that need your attention. 
+A *smart column* performs certain computations on existing columns to display smart and actionable information. For example, the **Revenue** column displays the actual revenue if the opportunity is closed; otherwise, it displays the estimated revenue. These columns save you the trouble of manual computation and make it easy for you to look at opportunities that need your attention. 
 
 The following table lists the smart columns that are available.
 
@@ -112,21 +118,34 @@ The following table lists the smart columns that are available.
 
 ## Apply filters
 
-As a seller, you want the workspace the display records that you're working on. As a manager, you want to view records that your team is working on. To view the records that you're interested in, you apply filters.
+As a seller, you want the workspace to display records that you're working on. As a manager, you want to view records that your team is working on. To view the records that you're interested in, you apply filters.
 
 **To apply filters to the workspace**
 
 1. In the deal manager workspace, select **Filters**.
 
     The **Filters** panel displays the columns in your view. 
-1. Select **More filters**, and then do one of the following:
+
+1. Specify the conditions for filtering.
+
+1. Select **More filters** to do the following tasks:
     - Select fields that aren't currently displayed in your view.
+
     - View or delete the existing filters.
-1. To specify an OR condition, select **Add group** in the **Add** dropdown menu.
-    :::image type="content" source="media/filter-add-group.PNG" alt-text="Screenshot of the Add group option in the More filters panel.":::
-   > [!NOTE]
-    > Though the **Add** dropdown menu displays **Add related entity**, this option isn't supported in this release.   
-1. Select the **Or** operator in the dropdown menu next to the group filter checkbox.
+
+1. In the **More filter** panel, select **Add** > **Add row** to add a condition on a field that isn't displayed in your view.  
+
+    You can add multiple conditions by adding more rows. The conditions will be validated with the AND operation.  
+
+1. To specify a condition with the OR operator, perform the following steps: 
+    1. Select **Add group** in the **Add** dropdown menu.
+    
+        :::image type="content" source="media/filter-add-group.PNG" alt-text="Screenshot of the Add group option in the More filters panel.":::
+       
+       > [!NOTE]
+       > Though the **Add** dropdown menu displays **Add related entity**, this option isn't supported in this release.
+   
+    1. Select the **Or** operator in the dropdown menu next to the group filter checkbox, and specify the condition.
 
 For more information on filters with grouped and nested conditions, see [Create or edit filters in model-driven app views](/powerapps/maker/model-driven-apps/create-edit-view-filters).
 

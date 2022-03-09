@@ -5,12 +5,13 @@ ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 ms.custom: 
   - "dyn365-sales"
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-discount
+  - D365-Entity-discounttype
   - D365-UI-*
   - Dynamics 365
   - Sales
@@ -22,9 +23,9 @@ Set up discounts on products in Dynamics 365 Sales to offer products to your cus
 
 ## License and role requirements
 
-|  | |
+| &nbsp; | &nbsp; |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 

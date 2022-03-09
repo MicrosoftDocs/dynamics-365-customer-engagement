@@ -24,6 +24,16 @@ searchScope:
 
 Use playbooks in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to guide team members on how to respond to events when a decision maker leaves an organization while the team is working on a deal with that decision maker, for example. The playbook defines an organization's best-practices response to such an event. Playbooks can also streamline and automate recurring tasks such as renewing contracts. 
 
+## License and role requirements
+
+| &nbsp; | &nbsp; |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** |  Playbook manager, Playbook user <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
+|||
+
+## How does it work
+
 To start, a team member with a **Playbook manager** role or equivalent permissions creates playbook categories to classify the playbooks. Then, the playbook manager creates playbook templates that define a set of best practices based on past experiences and their organization's standards. A business user such as a sales person or service rep who has been assigned a **Playbook user** role can then open one of these playbook templates while they work on their records. The playbook template helps ensure that best practices are applied consistently at every step.
 
  

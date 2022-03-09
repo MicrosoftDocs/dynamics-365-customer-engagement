@@ -3,7 +3,7 @@ title: "Set up sales territories in Dynamics 365 Customer Engagement (on-premise
 description: "Learn how to create sales territories and sub-territories, and assign people to handle the revenue opportunities for those areas."
 ms.custom: 
 ms.date: 03/30/2020
-ms.prod: d365ce-op
+
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
@@ -114,7 +114,7 @@ Organizations can create a model and visualize their sales territories in a hier
 >  To make your salesperson's job easier, you can also set a default price list for a territory. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create price lists and price list items to define pricing of products](../../../sales/create-price-lists-price-list-items-define-pricing-products.md)  
   
 ### See also  
- [Administrator and sales manager guide](../../../sales/admin-guide.md)   
+ [Administrator and sales manager guide](../../../sales/admin-guide.yml)   
  [Nurture sales from lead to order (Sales)](../../../sales/nurture-sales-from-lead-order-sales.md)
 
 

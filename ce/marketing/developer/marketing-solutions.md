@@ -2,7 +2,7 @@
 title: "Dynamics 365 Marketing solutions (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Know about the installed solutions in your marketing organization."
 ms.date: 04/01/2018
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

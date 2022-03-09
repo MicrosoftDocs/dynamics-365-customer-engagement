@@ -3,7 +3,7 @@ title: "Access deal manager | MicrosoftDocs"
 description: "Sellers access the deal manager workspace to get better visibility into their pipelines and manage their work efficiently."
 ms.date: 10/26/2021
 ms.topic: article
-ms.service: dynamics-365-sales
+
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
@@ -15,9 +15,10 @@ manager: shujoshi
 As a seller, you use the deal manager workspace to get better visibility into your pipeline and manage your work efficiently.
 
 ## License and role requirements
-|  | |
+
+| &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 

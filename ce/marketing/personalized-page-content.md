@@ -2,7 +2,7 @@
 title: "Personalized marketing page content (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to create web pages that provide content personalized for visitors that are known contacts in Dynamics 365 Marketing."
 ms.date: 08/16/2019
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

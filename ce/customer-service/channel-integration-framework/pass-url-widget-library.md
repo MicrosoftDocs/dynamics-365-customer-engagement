@@ -1,9 +1,11 @@
 ---
-title: "Pass a Dynamics 365 URL to your widget library | MicrosoftDocs"
+title: "Pass a Dynamics 365 URL to a widget library | MicrosoftDocs"
 description: "Read how you can pass the URL of your Dynamics 365 instance to the widget library inside your widget iframe to be able to use Dynamics 365 Channel Integration Framework 1.0 APIs."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
+ms.date: 01/21/2022
+ms.topic: get-started-article
 ms.custom: 
   - dyn365-a11y
   - dyn365-developer
@@ -13,7 +15,7 @@ ms.custom:
 
 [!INCLUDE[token-pass-url-widget-library](shared/token-pass-url-widget-library.md)]
 
-## See also
+### See also
 
 [Configure a channel provider for your Dynamics 365 organization](configure-channel-provider-channel-integration-framework.md)
 
@@ -21,7 +23,7 @@ ms.custom:
 
 [Add a Channel Integration Framework solution as a dependent solution](add-cif-solution-dependent-solution.md)
 
-[Authenticate channel users to the channel (widget)](authenticate-channel-users.md)
+[Authenticate channel users to log in to the channel (widget)](authenticate-channel-users.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
