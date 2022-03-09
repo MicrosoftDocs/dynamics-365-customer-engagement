@@ -25,7 +25,7 @@ To learn about connecting to existing Azure resources, see [Advanced: Connect to
 
 ### Disconnect from Azure Communication Services resource
 
-If you're no longer using an Azure Communication Services resource or want to connect to different resource, you can disconnect the current resource, and later reconnect to a new or existing resource by selecting the **Get started** button.
+If you're no longer using an Azure Communication Services resource or want to connect to a different resource, you can disconnect the current resource, and later reconnect to a new or existing resource by selecting the **Get started** button.
 
 To permanently release or remove one or more phone numbers from your organization, see [Release phone numbers](voice-channel-manage-phone-numbers.md#release-phone-numbers).
 
