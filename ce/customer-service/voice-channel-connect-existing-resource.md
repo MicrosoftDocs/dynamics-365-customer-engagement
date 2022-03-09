@@ -15,7 +15,7 @@ manager: shujoshi
 
 ## Introduction
 
-You can also use an existing Azure resource to connect with voice or SMS channels. You can use a resource from any of your Azure subscriptions, *available under any tenant*. If you had previously unlinked a resource and want to use it now, you can do so using this option.
+You can also use an existing Azure resource to connect with voice or SMS channels. You can use a resource from any of your Azure subscriptions, *available under any tenant*. If you had previously disconnected a resource and want to use it now, you can do so using this option.
 
 ## Prerequisites
 
@@ -230,6 +230,7 @@ The following sections include short procedures that explain how you can get res
 
 [Overview of the voice channel](voice-channel.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
+[Connect to Azure Communication Services](voice-channel-acs-resource.md)  
 [Connect to a new Azure resource](voice-channel-connect-new-resource.md)  
 [Set up outbound calling](voice-channel-outbound-calling.md)  
 [Bring your own carrier](voice-channel-bring-your-own-number.md)  
