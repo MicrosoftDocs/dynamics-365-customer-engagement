@@ -218,7 +218,7 @@ The following sections include short procedures that explain how you can get res
 
 [Overview of the voice channel](voice-channel.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
-[Connect to a new Azure resource](voice-channel-connect-new-resource.md)
+[Connect to a new Azure resource](voice-channel-connect-new-resource.md)  
 [Set up outbound calling](voice-channel-outbound-calling.md)  
 [Bring your own carrier](voice-channel-bring-your-own-number.md)  
 [Integrate third-party IVR systems with voice channel](voice-channel-contextual-transfer-external-ivr.md)  

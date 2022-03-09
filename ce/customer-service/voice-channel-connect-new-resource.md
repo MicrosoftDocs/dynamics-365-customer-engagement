@@ -17,7 +17,7 @@ manager: shujoshi
 
 ## Prerequisites
 
-Before you connect to an Azure Communication Services resource, ensure you have the following details:
+Before you connect to an Azure resource, ensure you have the following details:
 
 - An Azure subscription that's in the same tenant as your Dynamics 365 account. Ensure that your Azure subscription meets the [Subscription eligibility and number capabilities](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability) requirements.
 - At least contributor-level permissions to the Azure subscription. To check your role, open your subscription and view the **My role** column of your subscription on the Azure portal. You'll be able to deploy your Azure Communication Services resource only if you have contributor-level permissions.
@@ -57,8 +57,8 @@ Your new Azure resource is now connected to Azure Communication Services, and yo
 ### See also
 
 [Overview of the voice channel](voice-channel.md)  
-[Manage phone numbers](voice-channel-manage-phone-numbers.md) 
-[Connect to an existing Azure resource](voice-channel-connect-existing-resource.md) 
+[Manage phone numbers](voice-channel-manage-phone-numbers.md)  
+[Connect to an existing Azure resource](voice-channel-connect-existing-resource.md)  
 [Set up outbound calling](voice-channel-outbound-calling.md)  
 [Bring your own carrier](voice-channel-bring-your-own-number.md)  
 [Integrate third-party IVR systems with voice channel](voice-channel-contextual-transfer-external-ivr.md)  
