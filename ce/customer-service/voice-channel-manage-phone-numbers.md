@@ -75,7 +75,7 @@ You can purchase new phone numbers for your organization after you've installed 
 
    a. Select **Country/Region** from the dropdown list. The list of available plans for the selected country or region appears.
 
-   b. Select the **Number type**, whether **Toll-free** or **Geographic**. More information: [Number types and features](/azure/communication-services/concepts/telephony/plan-solution.md#azure-subscriptions-eligibility)
+   b. Select the **Number type**, whether **Toll-free** or **Geographic**. More information: [Number types and features](/azure/communication-services/concepts/telephony/plan-solution#azure-subscriptions-eligibility)
 
    c. Select the **Calling plans**&mdash;**Receive calls**, **Make calls**, or both.
 
