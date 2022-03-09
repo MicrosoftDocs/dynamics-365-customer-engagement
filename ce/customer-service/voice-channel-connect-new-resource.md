@@ -26,7 +26,7 @@ Before you connect to an Azure Communication Services resource, ensure you have 
 > - If you're [using a trial phone number](voice-channel-manage-phone-numbers.md#use-trial-phone-number), you must end the trial to be able to see the options to connect to a new or existing Azure Communication Services resource. 
 > - The **Get started** button to connect to a new or existing Azure Communication Services resource will appear only when the trial has ended after the free calling time has elapsed, or when you've manually ended the trial, or when you've [disconnected from the Azure resource](voice-channel-acs-resource.md#disconnect-from-azure-communication-services-resource).
 
-## Connect to a new Azure Communication Services resource
+## Connect to a new Azure resource
 
 1.  In Dynamics 365, go to one of the apps, and perform the following steps.
     ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
