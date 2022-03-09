@@ -29,8 +29,31 @@ You can also connect your existing telephony infrastructure with Azure and bring
 
 ### Sync from Azure
 
-You can import phone numbers that you purchased or acquired earlier via Azure Communication Services resources into Omnichannel for Customer Service. To do this, select the **Sync from Azure** button.
-This ensures that all of the phone numbers acquired previously display on the **Phone numbers** page along with the numbers acquired from within Omnichannel for Customer Service. 
+You can import phone numbers that you purchased or acquired earlier via Azure Communication Services resources into Omnichannel for Customer Service. 
+
+**To sync from Azure**
+
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+    1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
+    
+    2. Select **Manage** for **Phone numbers**.
+
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+
+    - In the site map, select **Phone numbers** in **General settings**.
+
+2. Select **Advanced** on the menu.
+
+3. Select **Sync** for **Sync from Azure**. A dialog requesting you to confirm the sync action is displayed.
+4. Select **Sync**.
+
+    Any existing phone numbers from Azure are imported to the voice channel. These phone numbers will display on the **Phone numbers** page along with the numbers acquired from within Omnichannel for Customer Service. 
 
 ### Disconnect from Azure Communication Services resource
 
@@ -43,8 +66,23 @@ To permanently release or remove one or more phone numbers from your organizatio
 
 **To disconnect from an Azure Communication Services resource**
 
-1. In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**, and then select **Advanced**. The **Manage Azure Communication Services** dialog opens.
-2. Select **Disconnect**. A dialog requesting you to confirm the disconnection is displayed. 
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+    1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
+    
+    2. Select **Manage** for **Phone numbers**.
+
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+
+    - In the site map, select **Phone numbers** in **General settings**.
+
+1. Select **Advanced** on the menu. The **Manage Azure Communication Services** dialog opens.
+2. Select **Disconnect** for **Disconnect from Azure**. A dialog requesting you to confirm the disconnection is displayed. 
 3. Select **Disconnect** again if you're sure you want to disconnect from the Azure Communication Services resource.
    You've now disconnected the resource from Omnichannel for Customer Service. Any phone numbers associated with the resource will no longer be displayed on the **Phone numbers** page in Customer Service admin center (preview) or Omnichannel admin center.
 
