@@ -29,6 +29,7 @@ The following prerequisites must be met:
 ## Use trial phone number
 
 The voice channel includes a trial phone number that comes with 60 minutes of free calling. With this trial number, you don't need to connect to Azure Communication Services. However, when the 60 minutes of free calling time elapses, you must purchase a new number based on your own Azure subscription, and cannot reuse or purchase the trial number.
+
 If you want to end the trial earlier, select **End trial** on the **Phone numbers** page. You'll now be able to connect to Azure Communication Services using new or existing resources. More information: [Connect to Azure Communication Services](voice-channel-acs-resource.md)
 
 ## View phone numbers
@@ -51,6 +52,22 @@ If you don't have any phone numbers set up for your business, see [Acquire new p
 ## Acquire new phone numbers
 
 You can purchase new phone numbers for your organization after you've installed the voice channel and have successfully connected to an Azure Communication Services resource.
+
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+    1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
+    
+    2. Select **Manage** for **Phone numbers**.
+
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+
+    - In the site map, select **Phone numbers** in **General settings**.
+
 
 **To acquire a new phone number**
 
@@ -168,7 +185,6 @@ If you no longer need a phone number, you can release it from your organization'
 2. Select a phone number and select **Release number**. The **Release number** dialog requesting you to confirm the number deletion is displayed.
 
 3. Select **OK** if you're sure you don't need the number. The phone number is removed from your organization and is no longer displayed in the **Phone numbers** list.
-
 
 ### See also
 
