@@ -534,7 +534,7 @@ You can also export or import a calendar with its corresponding SLAs by enabling
 
 ### Export or import a calendar with SLAs
 
-You can export or import a calendar from the Customer Service admin center or Customer Service Hub app.
+You can enable the export or import of calendar either from the Customer Service admin center or Customer Service Hub app.
 
 1. Go to one of the apps, and perform the following steps.
 
