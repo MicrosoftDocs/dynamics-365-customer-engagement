@@ -23,7 +23,7 @@ To learn about connecting to existing Azure resources, see [Advanced: Connect to
 > [!Note]
 > After you've connected to a resource in a Dynamics 365 environment, the phone numbers purchased via that resource linked to the Dynamics 365 environment can't be transferred or migrated to another environment.
 
-## Disconnect from Azure Communication Services resource
+### Disconnect from Azure Communication Services resource
 
 If you're no longer using an Azure Communication Services resource or want to connect to different resource, you can disconnect the current resource, and later reconnect to a new or existing resource by selecting the **Get started** button.
 
@@ -39,7 +39,7 @@ To permanently release or remove one or more phone numbers from your organizatio
 3. Select **Disconnect** again if you're sure you want to disconnect from the Azure Communication Services resource.
    You've now disconnected the resource from Omnichannel for Customer Service. Any phone numbers associated with the resource will no longer be displayed in the **Phone numbers** list in Customer Service admin center (preview) or Omnichannel admin center.
 
-## Sync from Azure
+### Sync from Azure
 
 You can import phone numbers that you purchased or acquired earlier via Azure Communication Services resources into Omnichannel for Customer Service. To do this, select the **Sync from Azure** button.
 This ensures that these all of the phone numbers acquired previously display on the **Phone numbers** page along with the numbers acquired from within Omnichannel for Customer Service. 
