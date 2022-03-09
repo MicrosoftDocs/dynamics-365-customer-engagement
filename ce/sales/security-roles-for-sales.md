@@ -17,6 +17,14 @@ Security roles control users access to data through a set of access levels and p
 
 The predefined security roles for Sales include permissions and access levels that the default sales personas will need. For example, the Sales Manager and Salesperson security roles can be associated with the respective users in your organization. As a system administrator, you can verify the permissions and access levels granted for each role and modify it to suit your needs. For more information, see [Create or edit a security role](/power-platform/admin/create-edit-security-role). 
 
+The predefined security roles are divided into the following categories:
+
+- [Administration and customization roles](#administration-and-customization-roles)
+- [Primary sales roles](#primary-sales-roles)
+- [Functional roles](#functional-roles)
+- [App access roles](#app-access-roles)
+- [Internal roles](#internal-roles)
+
 ## Administration and customization roles
 
 The following table lists the roles that you should assign to the administrators and customizers in your organization: 
