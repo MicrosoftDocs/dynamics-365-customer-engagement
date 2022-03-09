@@ -53,22 +53,6 @@ If you don't have any phone numbers set up for your business, see [Acquire new p
 
 You can purchase new phone numbers for your organization after you've installed the voice channel and have successfully connected to an Azure Communication Services resource.
 
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
-   
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-
-    1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
-    
-    2. Select **Manage** for **Phone numbers**.
-
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
-
-    - In the site map, select **Phone numbers** in **General settings**.
-
-
 **To acquire a new phone number**
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
@@ -86,9 +70,9 @@ You can purchase new phone numbers for your organization after you've installed 
 
     - In the site map, select **Phone numbers** in **General settings**.
 
-1. On the **Phone numbers** page, select **New number**. The **Add phone number** dialog opens.
+2. On the **Phone numbers** page, select **New number**. The **Add phone number** dialog opens.
 
-1. On the **Features** page, do the following:
+3. On the **Features** page, do the following:
 
    a. Select **Country/Region** from the dropdown list. The list of available plans for the selected country or region appears.
 
@@ -107,7 +91,7 @@ You can purchase new phone numbers for your organization after you've installed 
 
    A **Summary** with the newly allotted phone number and its details is displayed.
 
-1. On the **Summary** page, select **Purchase phone number**. Your new phone number will be displayed after purchase and you can select **Done** to get back to the **Phone numbers** page.
+4. On the **Summary** page, select **Purchase phone number**. Your new phone number will be displayed after purchase and you can select **Done** to get back to the **Phone numbers** page.
 
     > [!div class="mx-imgBorder"]
     > ![Summary page.](./media/voice-channel-number-mgmt-add-summary.png "Summary page.")
@@ -119,9 +103,9 @@ You can purchase new phone numbers for your organization after you've installed 
    >  - After you're allotted a new phone number, you must purchase it within the next 15 minutes. If the time elapses, you'll have to try purchasing again.
    >  - After you select **Purchase phone number**, you can select **Close** and return to the **Phone numbers** page. The purchase happens in the background and the new phone number appears in the phone numbers list with the **Ready for setup** status.
 
-1. (Optional) Select **Setup Workstream** to [add the phone number to a voice workstream](#add-a-phone-number-to-a-voice-workstream).
+5. (Optional) Select **Setup Workstream** to [add the phone number to a voice workstream](#add-a-phone-number-to-a-voice-workstream).
 
-1. Select **Done** to go back to the **Phone numbers** page where you can view details of the phone number that you just acquired.
+6. Select **Done** to go back to the **Phone numbers** page where you can view details of the phone number that you just acquired.
 
 ## Add a phone number to a voice workstream
 
@@ -131,13 +115,13 @@ After you've acquired a phone number, you must add it to a voice workstream to b
 
 1. In Customer Service admin center (preview) or Omnichannel admin center, go to the **Phone numbers** page, and then select the phone number that's marked **Ready for setup** in the **Status** column.
 
-1. Select **Setup workstream**. The **Workstreams** page with a list of all workstreams is displayed.
+2. Select **Setup workstream**. The **Workstreams** page with a list of all workstreams is displayed.
 
-1. If you want to create a new workstream, select **New workstream** and then follow the steps to [set up a voice workstream](voice-channel-route-queues.md#set-up-a-voice-workstream).
+3. If you want to create a new workstream, select **New workstream** and then follow the steps to [set up a voice workstream](voice-channel-route-queues.md#set-up-a-voice-workstream).
 
-1. Select an existing workstream from the list.
+4. Select an existing workstream from the list.
 
-1. Follow the steps to [configure a voice channel](voice-channel-route-queues.md#configure-a-voice-channel).
+5. Follow the steps to [configure a voice channel](voice-channel-route-queues.md#configure-a-voice-channel).
 
    The phone number is added to the workstream, and you can view the **Connected** status for the phone number on the **Phone numbers** page.
 
