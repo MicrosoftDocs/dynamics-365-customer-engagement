@@ -40,7 +40,7 @@ Before you connect to an Azure resource, ensure you have the following details:
 
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
 
-   In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**, and then select **Get started**. The **Connect to Azure Communication Services** dialog opens.
+   - In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**, and then select **Get started**. The **Connect to Azure Communication Services** dialog opens.
 
 2. Select **Create new resource** and enter the following details:
    - **Azure subscription**: Select a subscription from the dropdown list.
