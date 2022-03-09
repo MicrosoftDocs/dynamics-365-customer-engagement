@@ -59,7 +59,7 @@ Before you connect to an Azure Communication Services resource, ensure you have 
     > [!div class="mx-imgBorder"]
     > ![Create new resource.](./media/voice-channel-number-mgmt-azure-create-new-resource.png "Create new resource.")
 
-Your new Azure resource is now connected to Azure Communication Services, and can [acquire new phone numbers](voice-channel-manage-phone-numbers.md) for your organization via the new resource. However, to acquire or purchase phone numbers, you'll need to contact or wait to be contacted by a Microsoft voice program manager to be added to the Azure Communication Services allow list.
+Your new Azure resource is now connected to Azure Communication Services, and you can [acquire new phone numbers](voice-channel-manage-phone-numbers.md) for your organization via the new resource. However, to acquire or purchase phone numbers, you'll need to contact or wait to be contacted by a Microsoft voice program manager to be added to the Azure Communication Services allow list.
 
 ## Advanced: Connect to an existing Azure Communication Services resource
 
@@ -275,7 +275,6 @@ To permanently release or remove one or more phone numbers from your organizatio
 2. Select **Disconnect**. A dialog requesting you to confirm the disconnection is displayed. 
 3. Select **Disconnect** again if you're sure you want to disconnect from the Azure Communication Services resource.
    You've now disconnected the resource from Omnichannel for Customer Service. Any phone numbers associated with the resource will no longer be displayed in the **Phone numbers** list in Customer Service admin center (preview) or Omnichannel admin center.
-
 
 ## Sync from Azure
 
