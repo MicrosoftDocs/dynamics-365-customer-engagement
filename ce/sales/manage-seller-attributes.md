@@ -31,13 +31,13 @@ You can use the attribute designer to:
 
 ## Create an attribute
 
-1. Sign in to your Dynamics 365 Sales Hub app.   
-2. Go to the **Change area** ![change area](media/change-area-icon.png) in the lower-left corner of the page, and select **Sales Insights settings**.     
-3. Under **Sales accelerator**, select **Team settings**.    
-4. On the **Team settings** page, select **Manage attributes**.    
+1.	Sign in to your Dynamics 365 Sales Hub app.    
+2.	Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.   
+3.	Under **Sales accelerator**, select **Assignment rules**.    
+4.	From the **Team** tab, select **Manage attributes**.    
 
    >[!div class="mx-imgBorder"]
-   >![Select Manage in the Seller attributes section](media/sa-ar-seller-attributes-section-select-manage.png "Select Manage in the Seller attributes section")
+   >![Select Manage attributes](media/sa-ar-seller-attributes-section-select-manage.png "Select Manage attributes")
 
 5. On the **Manage attributes** page, select **+ New seller attribute**.
 

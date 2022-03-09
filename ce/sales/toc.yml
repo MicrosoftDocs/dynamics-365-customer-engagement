@@ -32,10 +32,10 @@
       href: uninstall-sales-insights.md         
   - name: Add or remove sample data in Sales Hub
     href: /power-platform/admin/add-remove-sample-data?context=/dynamics365/context/sales-context
+  - name: Add or remove sample data in Sales accelerator      
+    href: manage-sample-data.md   
   - name: Add or remove sample data in Sales Professional
     href: install-sample-data.md
-  - name: Add or remove sample data in Sales accelerator      
-    href: manage-sample-data.md     
   - name: Upgrade
     items:
     - name: Upgrade from Dynamics 365 Sales Professional
