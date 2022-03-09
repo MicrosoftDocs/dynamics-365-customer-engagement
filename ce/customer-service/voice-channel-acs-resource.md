@@ -15,10 +15,10 @@ manager: shujoshi
 
 ## Introduction
 
-To provision phone numbers for your business in Omnichannel for Customer Service, you must first establish connection with Azure Communication Services. You can connect to a new Azure resource or use an existing one, and then deploy the resource through Dynamics 365.
+The voice channel in Omnichannel for Customer Service is built over Azure Communication Services. This capability lets you provision phone numbers for your business by connecting to Azure Communication Services. However, to acquire phone numbers, you must first establish connection with Azure Communication Services. You can do this in the following ways:
 
-To learn about connecting and deploying a new Azure resource, see [Quickstart: Connect to a new Azure resource](voice-channel-connect-new-resource.md).
-To learn about connecting to existing Azure resources, see [Advanced: Connect to an existing Azure resource](voice-channel-connect-existing-resource.md).
+- [Quickstart: Connect to a new Azure resource](voice-channel-connect-new-resource.md).
+- [Advanced: Connect to an existing Azure resource](voice-channel-connect-existing-resource.md).
 
 > [!Note]
 > After you've connected to a resource in a Dynamics 365 environment, the phone numbers purchased via that resource linked to the Dynamics 365 environment can't be transferred or migrated to another environment.
@@ -30,7 +30,7 @@ If you're no longer using an Azure Communication Services resource or want to co
 To permanently release or remove one or more phone numbers from your organization, see [Release phone numbers](voice-channel-manage-phone-numbers.md#release-phone-numbers).
 
 > [!Important]
-> Disconnecting a resource also releases any phone numbers associated with that resource from Dynamics 365. So, be sure to disconnect a resource only if you're sure no longer need it.
+> Disconnecting a resource also releases any phone numbers associated with that resource from Dynamics 365. So, be sure to disconnect a resource only if you're sure you no longer need it.
 
 **To disconnect from an Azure Communication Services resource**
 
