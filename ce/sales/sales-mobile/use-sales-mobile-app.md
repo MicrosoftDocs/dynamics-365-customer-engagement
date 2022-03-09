@@ -62,7 +62,7 @@ There are two ways in which you can view non-production apps.
 
 - Tap :::image type="icon" source="media/filter-icon.png" border="false" ::: at the upper right of the screen, and then tap **Show non-production apps**.
     
-    :::image type="content" source="media/non-prod-apps-filter.png" alt-text="Tap apps."::: 
+    :::image type="content" source="media/non-prod-apps-filter.png" alt-text="Show non-production apps."::: 
 
 **Option 2**
 
@@ -88,7 +88,7 @@ There are two ways in which you can view non-production apps.
 
 2. Tap :::image type="icon" source="media/filter-icon.png" border="false" ::: at the upper right of the screen, and then tap **Show non-production apps**.
 
-    :::image type="content" source="media/non-prod-apps-filter1.png" alt-text="Tap apps.":::
+    :::image type="content" source="media/non-prod-apps-filter1.png" alt-text="Tap Show non-production apps.":::
 
 **Option 2**
 
