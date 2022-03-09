@@ -1,7 +1,7 @@
 ---
 title: "Use agent dashboard and call controls in the voice channel | MicrosoftDocs"
 description: "Use this topic to understand how the agent can use the agent dashboard, use call controls, and also make and receive customer calls in Omnichannel for Customer Service."
-ms.date: 11/02/2021
+ms.date: 03/09/2022
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: gandhamm
@@ -57,7 +57,7 @@ You can add notes to help your administrator review and block numbers. After you
 
 If your administrator has enabled the ability to view call recordings and transcripts, when conversations between agents and customers end, both supervisors and agents can view the recordings and transcripts of those conversations, play back the recordings, and view the sentiment analysis and other analytics related to the conversations.
 
-> [!NOTE] 
+> [!NOTE]
 > Many countries and states have laws and regulations that apply to the recording of PSTN, voice, and video calls, and may require that users first consent to the recording of their communications. It is your responsibility to use the call recording capabilities in compliance with the law. Before using call recording features, you must obtain consent from the parties of recorded communications in a manner that complies with all applicable laws for each participant.
 
 You can access the recordings and transcripts for completed calls by accessing the Conversation Form in one of the following ways:
@@ -129,6 +129,20 @@ Do the following steps to consult while you're on a call:
 3. Select **Add** for the SME you want to consult. The SME will receive a call in Microsoft Teams.
 
 4. Optionally, you can transfer the call to the SME.
+
+## Use chat consult with other agents and transfer calls
+
+You can use the chat consult option to contact another agent and consult with them for questions that you might have when you are on a call with a customer.
+
+**To use chat consult and transfer the call**
+
+1. On the call window, select the consult option. The **Consult** pop-up dialog appears.
+
+1. Search for the agent that you want to chat with and select chat for the required agent. A consult notification appears for the secondary agent that you select.
+
+1. When the secondary accepts the consult request, a consult pane appears for you and the secondary agent. You can send exchange your messages in this consult pane. More information: [Consult experience](oc-conversation-control.md#consult-with-agent-or-supervisor)
+
+1. If you want to transfer the call to the secondary agent, select the transfer option on the call window. A notification goes to the secondary agent and the call is transferred after the agent accepts the transfer request. The secondary agent becomes the primary agent and you will be disconnected from the call and consult pane with no option to send any further messages.
 
 ### See also
 
