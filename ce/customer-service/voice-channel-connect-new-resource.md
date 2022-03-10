@@ -12,7 +12,7 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Introduction
+## Overview
 
 In the voice channel, you can quickly connect to Azure Communication Services, provision phone numbers, and set up outbound, inbound calling for your business by creating and deploying a new Azure resource.
 
@@ -26,10 +26,10 @@ Before you connect to an Azure resource to Azure Communication Services, you mus
 
 > [!Important]
 > 
-> - The **Get started** button to connect to a new or existing Azure resource will appear only in the following scenarios:
-- The trial has ended after the free calling time has elapsed.
-- You've manually ended the trial.
-- You've [disconnected from the Azure resource](voice-channel-acs-resource.md#disconnect-from-azure-communication-services-resource).
+>  The **Get started** button to connect to a new or existing Azure resource will appear only in the following scenarios:
+> - The trial has ended after the free calling time has elapsed.
+> - You've manually ended the trial.
+> - You've [disconnected from the Azure resource](voice-channel-acs-resource.md#disconnect-from-azure-communication-services-resource).
 
 ## Connect to a new Azure resource
 

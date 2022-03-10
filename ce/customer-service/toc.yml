@@ -520,7 +520,7 @@
         href: voice-channel-install.md  
       - name: Connect to Azure Communication Services
         items: 
-        - name: Introduction
+        - name: Overview
           href: voice-channel-acs-resource.md
         - name: "Quickstart: Connect to a new Azure resource"
           href: voice-channel-connect-new-resource.md
