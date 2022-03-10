@@ -32,10 +32,10 @@ Duplicate leads are identified based on the following rules.
 
 | Rule | Description | Example |
 |------|-------------|---------|
-| Same email address | The leads are displayed as duplicates when they contain the same email address, even though other values such as name and mobile number are different. | The leads Kenny Smith and John Doe<!--note from editor: "Kevin Smith" is a Microsoft employee, so we should avoid using the name even if it happens to be included in sample data. (And even if we have Kevin Smith's permission!) To judge by images from all over Sales content, "Kenny Smith" must be part of the sample dataset. I don't see "John Doe" on our fictitious names list either, but perhaps it's included in sample data?--> have the email address employee@contoso.com. The duplicate detection feature displays the leads Kenny Smith and John Doe as duplicates, based on this rule. |
+| Same email address | The leads are displayed as duplicates when they contain the same email address, even though other values such as name and mobile number are different. | The leads Kenny Smith and John Doe have the email address employee@contoso.com. The duplicate detection feature displays the leads Kenny Smith and John Doe as duplicates, based on this rule. |
 | Same phone number | The leads are displayed as duplicates when they contain the same phone number, even though other values such as name and email address are different. | The leads Kenny Smith and John Doe have the same phone member, +1234567890. The duplicate detection feature displays the leads Kenny Smith and John Doe as duplicates, based on this rule. |
 | Similar name and company name | If the leads have a similar name and company, they're displayed as duplicates. The AI model can identify the duplicate leads even when the name and company sound similar. | For example, Regina Murphy from Contoso and Regina Merphy from Contoso.inc. In this example, the spelling of the names is different but the names sound similar. |
-| Similar name and the same email domain | If the leads have a similar name and the same email domain, they're displayed as duplicates. The AI model can identify the duplicate leads even when the names sound similar. | For example, Regina Murphy, Regina@contoso.com, and Regina Merphy, Manager@contoso.com. In this example, the spelling of the names is different, but the names sound similar and the email domain is the same (contoso.com).<!--note from editor: "Tallc.com" is an actual website for a company that handles financial services for "ultra-high net worth" people.--> |
+| Similar name and the same email domain | If the leads have a similar name and the same email domain, they're displayed as duplicates. The AI model can identify the duplicate leads even when the names sound similar. | For example, Regina Murphy, Regina@contoso.com, and Regina Merphy, Manager@contoso.com. In this example, the spelling of the names is different, but the names sound similar and the email domain is the same (contoso.com). |
  
 ## View and identify duplicate leads
 
@@ -95,7 +95,7 @@ Select the lead, and then select **Detach**.
 >[!div class="mx-imgBorder"]
 >![Select and remove a lead from the duplicates list](media/lead-duplicate-detection-select-duplicate-lead-remove.png "Select and remove a lead from the duplicates list")   
 
-The lead is detached from the actual lead's duplicate list. However, if the detached lead occurs in the duplicates list of other leads, you must remove it from each list<!--note from editor: Edit okay?--> individually.
+The lead is detached from the actual lead's duplicate list. However, if the detached lead occurs in the duplicates list of other leads, you must remove it from each list individually.
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
