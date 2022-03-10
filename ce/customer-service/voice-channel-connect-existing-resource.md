@@ -27,7 +27,7 @@ Before you connect an existing resource to Azure Communication Services, you mus
 
 > [!Important]
 > 
->  The **Get started** button to connect to a new or existing Azure resource will appear only in the following scenarios:
+>  The **Get started** button to connect to an existing Azure resource will appear only in the following scenarios:
 > - The trial has ended after the free calling time has elapsed.
 > - You've manually ended the trial.
 > - You've [disconnected from the Azure resource](voice-channel-acs-resource.md#disconnect-from-azure-communication-services-resource).
