@@ -1,6 +1,6 @@
 ---
-title: "Impact of change in customer service or holiday schedule of SLA KPIs (Dynamics 365 Customer Service) | MicrosoftDocs"
-description: "Learn how to manage business impact because of a change in customer service or holiday schedule in Dynamics 365 Customer Service."
+title: "Impact of change to customer service or holiday schedules of SLA KPIs (Dynamics 365 Customer Service) | MicrosoftDocs"
+description: "Learn how to manage impact of a change to customer service or holiday schedules in Dynamics 365 Customer Service."
 ms.date: 03/10/2022
 ms.topic: article
 author: Soumyasd27
@@ -42,7 +42,7 @@ Apart from  Warning and Failure time calculation, SLA time calculation also invo
 
 ## Scenarios and recommendations
 
-Whenever any SLA KPI instance is created, the Warning and Failure time is created depending on the factors described in the [Understand time calculation of SLA KPIs](#understand-time-calculation-of-sla-kpis) section. So, a change in the calendar working hours doesn't impact the existing KPI instances.
+Whenever any SLA KPI instance is created, the warning and failure time is created depending on the factors described in the [Understand time calculation of SLA KPIs](#understand-time-calculation-of-sla-kpis) section. So, a change in the calendar working hours doesn't impact the existing KPI instances.
 
 However, you may have the following scenarios which affect the existing KPI instances:
 
