@@ -1,3 +1,3 @@
-Gets the current Unified Interface app and page details. The details include appId, pageType, and recordId (If available).
+Gets the current Unified Interface app and page details. The details include `appId`, `pageType`, and `recordId` (if available).
 
 [!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]
