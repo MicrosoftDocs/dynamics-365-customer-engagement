@@ -521,7 +521,13 @@
       - name: Install the voice channel
         href: voice-channel-install.md  
       - name: Connect to Azure Communication Services
-        href: voice-channel-acs-resource.md  
+        items: 
+        - name: Overview
+          href: voice-channel-acs-resource.md
+        - name: "Quickstart: Connect to a new Azure resource"
+          href: voice-channel-connect-new-resource.md
+        - name: "Advanced: Connect to an existing Azure resource"    
+          href: voice-channel-connect-existing-resource.md  
       - name: Manage phone numbers
         href: voice-channel-manage-phone-numbers.md
       - name: Set up inbound calling

@@ -107,7 +107,7 @@ After a forecast is activated, you can use the msdyn_ForecastApi custom action t
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)   
 [View forecasts](view-forecasts.md)   
 [About premium forecasting](/dynamics365/ai/sales/configure-premium-forecasting)  
-[msdyn_ForecastApi action](developer/reference/custom-actions/msdyn_ForecastApi.md)
+[msdyn_ForecastApi action](developer/reference/custom-actions/msdyn_ForecastApi.md)  
 [Forecasting FAQs](faqs-sales.md#forecasting)
 
 
