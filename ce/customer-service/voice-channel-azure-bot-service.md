@@ -63,6 +63,7 @@ To integrate a bot with Omnichannel for Customer Service, you must do the follow
 
 4. Set escalation rules, as required.
 
+<!-->
 ### Assign a bot user as application user
 
 **To assign a bot user as an application user**
@@ -92,7 +93,7 @@ To integrate a bot with Omnichannel for Customer Service, you must do the follow
 
     > [!IMPORTANT]
     > By default, the bot user is assigned the same capacity as other users. You must assign the maximum capacity to the bot user among all users in a queue or workstream, if you want the bot to handle the customer queries first. The capacity of a bot user is however not reduced when a query is handled by it.
-
+-->
 ### Add bot user to queues
 
 Queues distribute the incoming customer queries among bots and agents. You must ensure that the bot user has the highest capacity among all users in the queue. This ensures that the bot user receives the customer query first.

@@ -74,6 +74,7 @@ Perform the following steps to connect and register your bot with Omnichannel ch
 
 Your bot is now registered with Omnichannel channel.
 
+<!-->
 ### Configure the bot user as an omnichannel agent
 
 A bot user is created as an application user and assigned with the **Omnichannel agent** role. 
@@ -107,6 +108,25 @@ A bot user is created as an application user and assigned with the **Omnichannel
     > [!NOTE]
     > By default, the bot user is assigned the same capacity as other users. You must assign the maximum capacity to the bot user among all users in a queue if you want the bot to handle the customer queries first. The capacity of a bot user isn't reduced when a query is handled by it.
 
+-->
+## Create the bot (application) user 
+
+1. Open the [PowerPlatform admin center](https://admin.powerplatform.com). 
+2. Select the environment you want to configure, and then select **Settings**.
+3. On the **Settings** page, select ***Users + permissions** > **Application users**.
+4. On the **Application users** page, select **Setup app user**.
+5. Add Omnichannel agent to the Roles
+6. Click + Add an app image.png
+7. Select the app created from Azure App Registration
+image.png
+8. Go to the legacy Users list page and search for the newly created user
+image.png
+9. Make sure to switch to the Applicaiton User form
+10. Set User type to Bot application user
+11. Enter the Bot application ID
+image.png
+12. Save
+
 ### Add the bot user to queues
 
 Queues distribute the incoming customer queries among bots and agents. You must ensure that the bot user has the highest capacity among all users in the queue. This ensures that the bot user receives the customer query first.
@@ -122,6 +142,7 @@ An agent can transfer a chat to a bot by adding the bot to a queue, and then tra
 > The chat cannot be transferred to the same bot.
 
 You can set escalation rules to allow a bot to send customer queries to a customer service agent. More information: [Set escalation rules](#set-escalation-rules)
+
 
 ### Add bot user to a voice or phone call workstream
 
