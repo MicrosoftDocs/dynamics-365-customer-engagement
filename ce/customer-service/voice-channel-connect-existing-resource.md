@@ -25,6 +25,13 @@ Before you connect an existing resource to Azure Communication Services, you mus
 - [Get the connection string from the Azure portal](#get-connection-string).
 - [Get the application ID and tenant ID from the App registrations page on the Azure portal](#get-application-and-tenant-ids).
 
+> [!Important]
+> 
+>  The **Get started** button to connect to a new or existing Azure resource will appear only in the following scenarios:
+> - The trial has ended after the free calling time has elapsed.
+> - You've manually ended the trial.
+> - You've [disconnected from the Azure resource](voice-channel-acs-resource.md#disconnect-from-azure-communication-services-resource).
+
 ## Connect to an existing Azure resource
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
@@ -66,11 +73,11 @@ Before you connect an existing resource to Azure Communication Services, you mus
 
 9. [Create event subscription endpoint for SMS](#create-event-subscription-endpoint-for-sms).
 
-You can now configure the voice workstream settings for the phone number, and also configure outbound and inbound calling to make and or receive customer calls.
+You can now configure the voice workstream settings for the phone number, and also configure outbound and inbound calling to make and/or receive customer calls.
 
 ## Additional information
 
-The following sections include short procedures that explain how you can get resource name, resource ID, connection string, application ID, tenant ID, and other details from the Azure portal.
+The following sections include short procedures that explain how you can get the resource name, resource ID, connection string, application ID, tenant ID, and other details from the Azure portal.
 
 ### Get resource name and ID
 

@@ -14,7 +14,7 @@ manager: shujoshi
 
 ## Overview
 
-In the voice channel, you can quickly connect to Azure Communication Services, provision phone numbers, and set up outbound, inbound calling for your business by creating and deploying a new Azure resource.
+In the voice channel, you can quickly connect to Azure Communication Services, provision phone numbers, and set up outbound and inbound calling for your business by creating and deploying a new Azure resource.
 
 ## Prerequisites
 
