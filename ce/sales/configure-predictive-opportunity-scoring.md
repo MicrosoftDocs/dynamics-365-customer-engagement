@@ -187,6 +187,7 @@ If you're using your custom attributes for opportunity generation, you can gener
    If you don't have enough closed opportunities in the chosen time period, the **Get started** option will be disabled. Choose another time period that has enough closed opportunities to train the model.  
 
 9. Turn on **Per stage modeling support** to select the stages for which the attributes must be used in the model. More information: [Manual retraining](#manual-retraining)
+    :::image type="content" source="media/enable-per-stage-modelling.png" alt-text="Screenshot of the Add model page with the Per stage modeling support option.":::
 
 1. Select **Get started**. 
 

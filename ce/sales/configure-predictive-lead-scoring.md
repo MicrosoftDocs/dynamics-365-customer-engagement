@@ -187,7 +187,8 @@ If you're using custom attributes for lead generation, you can generate the mode
 
    If you don't have enough closed leads in the chosen time period, the **Get started** option will be disabled. Choose another time period that has enough closed leads to train the model.  
 
-9. 9. Turn on **Per stage modeling support** to select the stages for which the attributes must be used in the model. More information: [Manual retraining](#manual-retraining)
+9. Turn on **Per stage modeling support** to select the stages for which the attributes must be used in the model. More information: [Manual retraining](#manual-retraining)
+      :::image type="content" source="media/enable-per-stage-modelling.png" alt-text="Screenshot of the Add model page with the Per stage modeling support option.":::
 
 1. Select **Get started**.
 
