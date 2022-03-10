@@ -74,7 +74,7 @@ Perform the following steps to connect and register your bot with Omnichannel ch
 
 Your bot is now registered with Omnichannel channel.
 
-<!-->
+<!--
 ### Configure the bot user as an omnichannel agent
 
 A bot user is created as an application user and assigned with the **Omnichannel agent** role. 
@@ -114,18 +114,19 @@ A bot user is created as an application user and assigned with the **Omnichannel
 1. Open the [PowerPlatform admin center](https://admin.powerplatform.com). 
 2. Select the environment you want to configure, and then select **Settings**.
 3. On the **Settings** page, select ***Users + permissions** > **Application users**.
-4. On the **Application users** page, select **Setup app user**.
-5. Add Omnichannel agent to the Roles
-6. Select **Add an app** image.png
-7. Select the app created from Azure App Registration
+4. On the **Application users** page, select **New app user** and in the **Create a new app user** dialog that opens, do the following:
+- Select a **Business unit** from the dropdown list.
+- Edit the **Security roles** field and add **Omnichannel agent** to the roles.
+- Select **Add an app**.
+1. In the **Add an app from Azure Active Directory** dialog that opens, select the app created from your ,Azure app registration, and select **Add** and then **Create**.
 image.png
-8. Go to the legacy Users list page and search for the newly created user
+1. In the Dynamics 365 Settings page, select **Security** > **Users** and search for the newly created user.
 image.png
-9. Make sure to switch to the Applicaiton User form
-10. Set User type to Bot application user
-11. Enter the Bot application ID
+1. Make sure you switch to the Application User form
+1. Set **User type** to **Bot application user**
+1. Enter the Bot application ID
 image.png
-12. Save
+1. Save
 
 ### Add the bot user to queues
 
