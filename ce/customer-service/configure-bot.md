@@ -1,7 +1,7 @@
 ---
 title: "Integrate an Azure bot | MicrosoftDocs"
 description: "Use this topic to understand how to integrate an Azure bot with Omnichannel for Customer Service."
-ms.date: 12/10/2021
+ms.date: 03/10/2022
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -109,14 +109,14 @@ A bot user is created as an application user and assigned with the **Omnichannel
     > By default, the bot user is assigned the same capacity as other users. You must assign the maximum capacity to the bot user among all users in a queue if you want the bot to handle the customer queries first. The capacity of a bot user isn't reduced when a query is handled by it.
 
 -->
-## Create the bot (application) user 
+## Create the bot (application) user
 
 1. Open the [PowerPlatform admin center](https://admin.powerplatform.com). 
 2. Select the environment you want to configure, and then select **Settings**.
 3. On the **Settings** page, select ***Users + permissions** > **Application users**.
 4. On the **Application users** page, select **Setup app user**.
 5. Add Omnichannel agent to the Roles
-6. Click + Add an app image.png
+6. Select **Add an app** image.png
 7. Select the app created from Azure App Registration
 image.png
 8. Go to the legacy Users list page and search for the newly created user
