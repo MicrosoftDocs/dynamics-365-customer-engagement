@@ -25,7 +25,7 @@ This topic describes how you can manage changes to the customer service and holi
 
 ## Understand time calculation of SLA KPIs
 
-To manage changes to customer service and holiday schedules of your SLA KPIs, you must first understand how time calculation works for SLA KPIs. The time calculation for SLA KPIs depends on the warning and failure time, and the customer service and holiday schedules associated with the SLA KPI Item.
+To manage changes to customer service and holiday schedules of your SLA KPIs, you must first understand how time calculation works for SLA KPIs. The time calculation for SLA KPIs depends on the warning and failure time, and the customer service and holiday schedules associated with the SLA KPI Item. 
 
 Here is an example of a SLA KPI that describes how time calculation works. The configuration set for the SLA KPI are as follows:
 - Defined working hours: 9 AM to 5 PM (8 hours daily)
