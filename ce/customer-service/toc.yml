@@ -548,6 +548,8 @@
         href: voice-consult-microsoft-teams-user.md
       - name: Manage phone music
         href: voice-channel-music.md
+      - name: Set up a multilangauge bot in Power Virtual Agents
+        href: set-up-multilanguage-pva-bot.md  
       - name: Set up a multilanguage contact center
         href: voice-channel-multi-language-contact-center.md
       - name: Bring your own carrier
@@ -570,10 +572,6 @@
       items:
       - name: Monitor voice calls
         href: voice-channel-monitor-calls.md
-      - name: Intraday conversation insights
-        href: intraday-conversation-insights.md
-      - name: Intraday Agents insights
-        href: intraday-agents-insights.md
       - name: Voice channel analytics, reports, and call insights
         href: voice-channel-reports-analytics.md
   - name: Chat
