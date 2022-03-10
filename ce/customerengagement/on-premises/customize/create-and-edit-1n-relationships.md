@@ -76,7 +76,7 @@ search.audienceType:
   
 10. In the **Relationship Behavior** section, in the **Type of Behavior** list, choose one of the following options:  
   
-    - **Parental**. In a parental relationship between two tables, any action taken on a record of the parent table is also taken on any child table records that are related to the primary (or parent) table record. For example, the owner of the parent record has inherited access to the child table records and when the parent record is deleted, all of the child records will also be deleted.  
+    - **Parental**. In a parental relationship between two tables, any action taken on a record of the parent table is also taken on any child table records that are related to the primary (or parent) table record. For example, the owner of the parent record has inherited access to the child table records and when the parent record is deleted, all of the child records will also be deleted. For 1:N parental relationship between the parent table (P1) and child entity (C1), the owner of P1 record is granted inherited access to C1 child records.
   
     - **Referential**. In a referential relationship between two entities, you can navigate to any related records, but actions taken on one will not affect the other.  
   
