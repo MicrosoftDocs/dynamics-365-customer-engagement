@@ -1,7 +1,7 @@
 ---
 title: "Manage sales teams in assignment rules for lead and opportunity routing"
 description: "Manage sales teams in assignment rules by assigning attributes and configuring the maximum number of leads and opportunities that a seller can handle at once."
-ms.date: 10/26/2021
+ms.date: 03/11/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
