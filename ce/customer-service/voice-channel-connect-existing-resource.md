@@ -26,8 +26,8 @@ Before you connect an existing resource to Azure Communication Services, you mus
 - [Get the application ID and tenant ID from the App registrations page on the Azure portal](#get-application-and-tenant-ids).
 
 > [!Important]
-> 
->  The **Get started** button to connect to an existing Azure resource will appear only in the following scenarios:
+>
+>  On the **Phone numbers** page, the **Get started** button to connect to an existing Azure resource will appear only in the following scenarios:
 > - The trial has ended after the free calling time has elapsed.
 > - You've manually ended the trial.
 > - You've [disconnected from the Azure resource](voice-channel-acs-resource.md#disconnect-from-azure-communication-services-resource).
