@@ -20,9 +20,7 @@ The voice channel in Omnichannel for Customer Service is built over Azure Commun
 - [Quickstart: Connect to a new Azure resource](voice-channel-connect-new-resource.md)
 - [Advanced: Connect to an existing Azure resource](voice-channel-connect-existing-resource.md)
 
-You can import phone numbers that you previously provisioned or ported via your Azure Communication Services resource into Omnichannel for Customer Service. To do this, see [Sync from Azure](#sync-from-azure).
-
-You can also connect your existing telephony infrastructure with Azure and bring in your existing carrier and phone numbers. To do this, see [Bring your own carrier](voice-channel-bring-your-own-number.md).
+You can either [import the phone numbers](#sync-from-azure) or [connect your existing telephony infrastructure with Azure](voice-channel-bring-your-own-number.md).
 
 > [!Note]
 > After you've connected to a resource in a Dynamics 365 environment, the phone numbers purchased via the resource that are linked to the Dynamics 365 environment can't be transferred or migrated to another environment.
