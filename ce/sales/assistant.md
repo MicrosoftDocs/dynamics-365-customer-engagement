@@ -167,7 +167,8 @@ You can configure the assistant by choosing which types of insight cards you'd l
 ### See also  
 
 [Configure the assistant](configure-assistant.md)  
-[Insight cards reference](action-cards-reference.md)
+[Insight cards reference](action-cards-reference.md)  
+[Assistant FAQs](faqs-sales-insights.md#assistant)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
