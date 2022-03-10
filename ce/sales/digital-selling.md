@@ -1,7 +1,7 @@
 ---
 title: "Digital selling | MicrosoftDocs"
 description: "Enable digital selling capabilities with the Dynamics 365 Sales Enterprise license."
-ms.date: 02/25/2022
+ms.date: 03/10/2022
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -276,7 +276,7 @@ To monitor the usage of conversation intelligence:
     - **Usage this month**: Displays the breakdown of usage by sellers who have access to conversation intelligence.
         If the monthly limit exceeds in a month (for Sales Enterprise license users), a warning symbol is displayed .
     
-    - **Usage by seller over time**: Displays the monthly usage of conversation intelligence in a graphical format for the last six months. 
+    - **Usage by seller over time**: Displays the monthly usage of conversation intelligence in a graphical format for the last six months. The data displays the number of active sellers each month and the breakdown of the number of sellers who exceeded the monthly and who did not.
 
         :::image type="content" source="media/ds-ci-usage-panel.png" alt-text="Conversation intelligence usage panel.":::
 
