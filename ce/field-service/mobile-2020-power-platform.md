@@ -48,7 +48,7 @@ The Field Service (Dynamics 365) mobile app will evolve over time and benefit fr
 | Driving directions | Technician | Yes | Not applicable |
 | Speech to text | Technician | Yes | Not applicable |
 | Geocoding | Technician | Yes* |  Not applicable |
-| [Microsoft Intune](field-service-mobile-intune.md)  | Integration | Yes | Not applicable |
+| [Microsoft Intune](mobile-power-app-intune.md)  | Integration | Yes | Not applicable |
 | Time entry  | Technician | Yes | Not applicable |
 | Connected Field Service and IoT alerts | Technician | Yes |  Not applicable |
 | [Inspections](inspections.md) | Technician | Yes | A Field Service technician can find and capture inspections associated with a work order. |
