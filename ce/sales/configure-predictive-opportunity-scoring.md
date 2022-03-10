@@ -186,7 +186,9 @@ If you're using your custom attributes for opportunity generation, you can gener
 
    If you don't have enough closed opportunities in the chosen time period, the **Get started** option will be disabled. Choose another time period that has enough closed opportunities to train the model.  
 
-9. Select **Get started**. 
+9. Turn on **Per stage modeling support** to select the stages for which the attributes must be used in the model. More information: [Manual retraining](#manual-retraining)
+
+1. Select **Get started**. 
 
     The application starts generating a model, and a notification is displayed. The application uses the standard attributes to generate the model.
 
@@ -257,7 +259,7 @@ To retrain a model automatically, go to the predictive opportunity scoring confi
     >[!NOTE]
     >A retrained model might not be published if the accuracy of the model isn't maintained at the application's standard. If this occurs, the existing user-published model will be retained.
 
-### Manually retraining
+### Manual retraining
 
 1. Go to the predictive opportunity scoring configuration page, and select **Edit model**.
 
@@ -272,6 +274,12 @@ To retrain a model automatically, go to the predictive opportunity scoring confi
     >- Date and time related attributes
     >- System generated attributes (such as, opportunityscore, opportunitygrade, version number, entity image, exchange rate, and predictive score ID)
 
+3. If you've enabled the per stage modeling support, you'll see two additional columns - **Application stages** and **Prediction influence**:
+        :::image type="content" source="media/per-stage-modelling-selection.png" alt-text="Screenshot of the edit fields page with the **Application stages** and **Prediction influence** columns.":::
+
+
+    1. In the **Application stages** field, select the stages for which the model should use the attribute. For example, the Actual Revenue attribute will have more influence during the Close stage rather than the initial stages. 
+    2. Use the information in the **Prediction influence** column to understand the influence of the attribute at each stage. Prediction influence is calculated based on historical data and ranges from very low to  very high. For example, let's say that you don't want to consider Budget Amount for Develop stage but as per historical data it has a high influence. In this case, you may want to reconsider your decision or analyze why it has a high influence.  
 
 3. Select **Retrain model**.
 
