@@ -1,6 +1,6 @@
 ---
 title: "Configure an SMS channel using Azure Communication Services | MicrosoftDocs"
-description: "Get instructions for configuring an SMS channel in Omnichannel for Customer Service using Azure Communication Services."
+description: "Use this article to get instructions for configuring an SMS channel in Omnichannel for Customer Service using Azure Communication Services."
 ms.date: 02/18/2022
 ms.topic: article
 author: mh-jaya
