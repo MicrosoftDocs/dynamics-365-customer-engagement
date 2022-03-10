@@ -68,10 +68,8 @@ Conditions:
 Recommendation:
  
 1. Don't modify the existing SLA and calendar. The earlier SLA can continue to remain in Active state on the production environment. Create a similar SLA with a new calendar and the same kind of SLA items.
-2. Activate the new SLA and set as Default. This will ensure that all the new cases are created with the new SLA and time calculation will be done with the new calendar information.
-
-> [!NOTE]
-> If you are not using a Default SLA, update your SLA condition to update the SLA ID in the Case entity accordingly. More information: [Apply SLAs on demand](define-service-level-agreements.md#apply-slas-on-demand).
+1. Activate the new SLA and set as Default. This will ensure that all the new cases are created with the new SLA and time calculation will be done with the new calendar information.
+1. If you are not using a Default SLA, update your SLA condition to update the SLA ID in the Case entity accordingly. More information: [Apply SLAs on demand](define-service-level-agreements.md#apply-slas-on-demand).
 
 **Scenario 2**
 
@@ -108,9 +106,6 @@ For example, a flow can run during the lowest activity hours, with the following
 - Find all the incidents which have same SLA ID field value as the above SLA. You can do this in batches to avoid running into scalability issues.
 - Do an update on the case to put it to a Paused state.
 - Do the next update on the case which puts it back to Resume.
-
-> [!NOTE]
-> This will be an intensive operation based on the SLA KPI instances and incidents in your environment.
 
 More information: [Apply SLAs on demand<a name="apply-sla-on-demand"></a>](define-service-level-agreements.md#apply-slas-on-demand).
 
