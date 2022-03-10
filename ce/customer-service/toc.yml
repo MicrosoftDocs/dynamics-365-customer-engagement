@@ -531,7 +531,7 @@
       - name: Add Power Virtual Agents bot for voice
         href: voice-channel-ivr-bots.md
       - name: Integrate Azure bots for voice
-        href: configure-bot.md
+        href: voice-channel-azure-bot-service.md
       - name: View voice calls usage
         href: voice-channel-usage.md
       - name: Configure post-call survey
