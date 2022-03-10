@@ -63,6 +63,8 @@ The following table lists the roles that you should assign to users who need to 
 
 The following table lists the roles that you should assign to the users who need to access the out-of-the-box Dynamics 365 Sales apps: 
 
+| **Security roles** | **Who needs it?** | **Applies to** | **Access granted** |
+| --- | --- | --- | --- |
 | Sales team member | Users who need to access the Sales Team Member app. Users who don't need the full capabilities of an enterprise application. These users will have a dedicated license, use a dedicated app, and get the Sales Team member security role to support their scenario.  More information: [Sales Team Member app for users with Team Member license](sales-team-member.md). | Sales Enterprise and Sales Premium | Access to the Sales Team Member App. Read access to contacts, accounts, leads, and opportunities. Add notes and activities, such as tasks. |
 | Sales Professional app access | Users who need to access the Sales Professional app. | Sales Professional | Access to the Sales Professional App. |
 | Sales, Enterprise app access | Users who need to access the Sales Hub app. | Sales Enterprise and Sales Premium | Access to the Sales Hub App. |
