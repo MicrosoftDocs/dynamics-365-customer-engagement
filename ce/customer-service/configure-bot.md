@@ -109,7 +109,7 @@ A bot user is created as an application user and assigned with the **Omnichannel
     > By default, the bot user is assigned the same capacity as other users. You must assign the maximum capacity to the bot user among all users in a queue if you want the bot to handle the customer queries first. The capacity of a bot user isn't reduced when a query is handled by it.
 
 -->
-## Create the bot (application) user
+## Configure the bot user as an omnichannel agent
 
 1. Open the [PowerPlatform admin center](https://admin.powerplatform.com). 
 2. Select the environment you want to configure, and then select **Settings**.
