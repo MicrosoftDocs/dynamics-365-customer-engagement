@@ -44,7 +44,7 @@ You can add sample data any time you need, during or after the configuration of 
 
 5. Select **Update**. 
 
-Adding of sample data may take few minutes and you can continue to work on the application. After the sample data is added, a confirmation message is displayed with the date and time it was added.
+Adding of sample data may take few minutes. You can continue to work on the application while the sample data is being added. After the sample data is added, a confirmation message is displayed with the date and time it was added.
 
 > [!div class="mx-imgBorder"]
 > ![Confirmation message of sample data added later](media/sample-data-add-later-confirmation-message.png "Confirmation message of sample data added later")     
