@@ -313,7 +313,9 @@
       - name: Configure assignment rules in Sales Enterprise
         href: sales-accelerator-assignment-rules.md  
       - name: Add the Up next widget to an entity form
-        href: add-upnext-widget-form.md          
+        href: add-upnext-widget-form.md  
+      - name: Add the sales accelerator site map entry to custom app          
+        href: add-sales-accelerator-sitemap-entry-custom-app.md
     - name: Manage sequences
       href: create-manage-sequences.md
       items:
