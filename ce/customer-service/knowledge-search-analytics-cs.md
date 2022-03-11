@@ -1,7 +1,7 @@
 ---
-title: Knowledge article and search analytics dashboards | Microsoft Docs
-description: Learn about the knowledge article and search analytics dashboards to better understand agent performance in your organization.
-ms.date: 03/01/2022
+title: Knowledge article and search term analytics dashboards | Microsoft Docs
+description: Learn about the knowledge article and search term analytics dashboards to better understand agent performance in your organization.
+ms.date: 03/10/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -25,7 +25,7 @@ Knowledge analytics can help provide knowledge workers and supervisors with valu
 Knowledge analytics includes the following features:
 
 - [Article insights](#article-insights)
-- [Search analytics](#search-analytics)
+- [Search term analytics](#search-term-analytics)
 
 ## Article insights
 
@@ -47,20 +47,20 @@ The following are specific metrics represented in this dashboard:
 | Shares | The total number of the article that were shared by the support representative. |
 | Owner (Filter) | The owner of the knowledge article. |
 
-## Search analytics
+## Search term analytics
 
-The knowledge search analytics dashboard is designed to provide your organization's customer service supervisors and knowledge workers with valuable insights into how your support agents are finding and using knowledge articles.
+The knowledge search term analytics dashboard is designed to provide your organization's customer service supervisors and knowledge workers with valuable insights into how your support agents are finding and using knowledge articles.
 
 > [!NOTE]
-> Knowledge search analytics won't provide information about customer search behavior. Data is only from internal knowledge searches. 
+> Knowledge search term analytics won't provide information about customer search behavior. Data is only from internal knowledge searches. 
 
-![Knowledge search analytics dashboard.](media/knowledge-search-analytics-dashboard.png "View of the knowledge search analytics dashboard")
+![Knowledge search term analytics dashboard.](media/knowledge-search-analytics-dashboard.png "View of the knowledge search term analytics dashboard")
 
-As a knowledge manager, it's your responsibility to maintain and improve your organization's overall knowledge base article offerings. By identifying searches that have low success or return no results, the Knowledge search analytics dashboard can help you identify knowledge gaps, improve search results, and surface the most relevant articles.  
+As a knowledge manager, it's your responsibility to maintain and improve your organization's overall knowledge base article offerings. By identifying searches that have low success or return no results, the Knowledge search term analytics dashboard can help you identify knowledge gaps, improve search results, and surface the most relevant articles.  
 
 To access this dashboard, your organization's administrator must first enable it. For more information, see [Configure Knowledge search insights](enable-knowledge-search-insights.md).
 
-### Knowledge search analytics dashboard metrics
+### Knowledge search term analytics dashboard metrics
 
 The following are specific metrics represented in this dashboard:
 
@@ -84,6 +84,7 @@ The following are specific metrics represented in this dashboard:
 
 ### See also
 
+[Configure knowledge search insights](enable-knowledge-search-insights.md)
 [Search for knowledge articles](search-knowledge-articles-csh.md) <br>
 [Understand knowledge base search mechanisms](knowledge-base-search-methods.md) <br>
 [Use embedded knowledge search to set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md)
