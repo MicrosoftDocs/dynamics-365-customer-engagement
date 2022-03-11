@@ -276,7 +276,7 @@ To monitor the usage of conversation intelligence:
     - **Usage this month**: Displays the breakdown of usage by sellers who have access to conversation intelligence.
         If the monthly limit exceeds in a month (for Sales Enterprise license users), a warning symbol is displayed .
     
-    - **Usage by seller over time**: Displays the monthly usage of conversation intelligence in a graphical format for the last six months. The data displays the number of active sellers each month and the breakdown of the number of sellers who exceeded the monthly and who did not.
+    - **Usage by seller over time**: Displays the monthly usage of conversation intelligence in a graphical format for the last six months. The data displays the number of active sellers each month and the breakdown of the number of sellers who exceeded the monthly limit and who did not.
 
         :::image type="content" source="media/ds-ci-usage-panel.png" alt-text="Conversation intelligence usage panel.":::
 
