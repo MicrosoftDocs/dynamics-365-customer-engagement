@@ -110,7 +110,7 @@ If you want to make advanced configurations for sales accelerator, select **Go t
 
 ### Add the sales accelerator to a custom app
 
-If you've created a custom app, you can add the sales accelerator to it from the app designer. More information: [How to add work list site map to your custom app](faqs-sales-insights.md#how-to-add-work-list-site-map-to-your-custom-app)
+If you've created a custom app, you can add the sales accelerator to it from the app designer. More information: [Add the sales accelerator site map entry to custom app](add-sales-accelerator-sitemap-entry-custom-app.md)
 
 ### Monitor usage
 
