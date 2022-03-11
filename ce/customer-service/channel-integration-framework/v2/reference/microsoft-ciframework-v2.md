@@ -92,6 +92,8 @@ Session indicator APIs indicate a KPI breach and can be used to update the numbe
 
 ## Presence APIs
 
+These APIs enable you to interact with Omnichannel agent presence programmatically.
+
 | Methods | Description |
 |---------|-------------|
 | [setPresence​](microsoft-ciframework/setPresence​.md) | Allows presence to be set programmatically for the agent in the client session​. |

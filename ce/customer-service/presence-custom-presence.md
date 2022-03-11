@@ -86,8 +86,8 @@ In addition to the out-of-box presence statuses, admins can configure custom pre
 ### See also
 
 [Manage a user in Omnichannel for Customer Service](users-user-profiles.md#manage-a-user-in-omnichannel-for-customer-service)  
-[Understand and create work streams](create-workstreams.md)  
+[Understand and create workstreams](create-workstreams.md)  
 [Overview of unified routing](overview-unified-routing.md)  
-
+[Presence API](channel-integration-framewor/v2/reference/microsoft-ciframework-v2.md#presence-api)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
