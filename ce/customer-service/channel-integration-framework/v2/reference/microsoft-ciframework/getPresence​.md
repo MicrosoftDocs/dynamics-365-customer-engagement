@@ -27,7 +27,7 @@ None.
 
 ## Return value
 
-Returns a Boolean value of success.
+Returns the presence status of the agent in the client session.
 
 ## Example
 

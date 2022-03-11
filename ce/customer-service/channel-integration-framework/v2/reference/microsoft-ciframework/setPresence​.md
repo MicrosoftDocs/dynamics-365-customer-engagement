@@ -29,7 +29,7 @@ Sets the presence status of the agent in the client session​.
 
 ## Return value
 
-Returns "FAILED" in case of any presence issues in Omnichannel for Customer Service. 
+Returns a Boolean value of success.
 
 ## Example
 
