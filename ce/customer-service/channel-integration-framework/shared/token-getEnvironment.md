@@ -11,4 +11,4 @@
 
 ## Return value
 
-Returns a promise object of type String with the available details of the current Unified Interface page. The details include: `appid`, `pagetype`, `record-id` (if available), `clientUrl`, `appUrl`, `orgLcid`, `orgUniqueName`, `userId`, `userLcid`, `isDirty`, and `username`.
+Returns a promise object of type String with details of the current Unified Interface app and page.
