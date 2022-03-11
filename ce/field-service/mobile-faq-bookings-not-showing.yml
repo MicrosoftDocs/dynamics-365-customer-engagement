@@ -6,14 +6,13 @@ metadata:
   ms.reviewer: krbjoran
   
   ms.subservice: field-service-mobile
-  ms.topic: troubleshooting
+  ms.topic: faq
   author: FieldServiceDave
   ms.author: daclar
   manager: shellyha
   search.app: 
     - D365CE
     - D365FS
-    
 title: Why can't I see my bookings when signed into the app?
 summary: |
   There are typically three possible reasons bookings don't show up in the mobile app:

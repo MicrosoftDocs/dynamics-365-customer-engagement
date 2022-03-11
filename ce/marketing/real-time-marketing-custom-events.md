@@ -1,6 +1,6 @@
 ---
-title: "Create custom event triggers in real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn about creating real-time marketing custom event triggers in Dynamics 365 Marketing."
+title: "Create custom triggers in real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Learn about creating real-time marketing custom triggers in Dynamics 365 Marketing."
 ms.date: 10/04/2021
 
 ms.custom: 
@@ -18,7 +18,7 @@ search.app:
   - D365Mktg
 ---
 
-# Create custom event triggers in real-time marketing
+# Create custom triggers in real-time marketing
 
 Custom events are a flexible way to capture important moments and interactions, allowing you to orchestrate uniquely engaging customer interactions.
 
@@ -30,11 +30,11 @@ Creating a custom event involves three steps: initial event creation, event inte
 
 ## 1. Initial event creation
 
-This step is performed in the **Event triggers** section of real-time marketing. To create the custom event, select **+New event** from the top ribbon and follow the on-screen instructions to define:
+This step is performed in the **Triggers** section of real-time marketing. To create the custom event, select **+New event** from the top ribbon and follow the on-screen instructions to define:
 
 - **Title and Description**
 
-  Give the event a short, descriptive title. Include a description to help other users find the right event trigger in the catalog.  
+  Give the event a short, descriptive title. Include a description to help other users find the right trigger in the catalog.  
 
 - **Attributes**
 
@@ -44,7 +44,7 @@ This step is performed in the **Event triggers** section of real-time marketing.
 
 - **Special Attributes**
   
-    **Customer data** is a special attribute present by default in every custom event. This attribute contains information about the customer that performs the event trigger action. The data type can either be a Dynamics 365 contact or lead, or a [Customer Insights profile](/customer-insights/audience-insights/overview). In code, this attribute is referred to as *authID*.
+    **Customer data** is a special attribute present by default in every custom event. This attribute contains information about the customer that performs the trigger action. The data type can either be a Dynamics 365 contact or lead, or a [Customer Insights profile](/customer-insights/audience-insights/overview). In code, this attribute is referred to as *authID*.
 
     **contactpoint_email** is a special attribute that is present in custom events that are tied to a Customer Insights profile. This attribute will be used as a fall back in case the full Customer Insights profile isn't available. Developers should include the customer's email in this attribute to ensure the customer can be reached by email even if their full profile information isn't available.
 
@@ -66,4 +66,4 @@ The code snippet contains extensive instructions detailing how to integrate the 
 
 ## 3. Finalize the event
 
-Once the integration has been completed, the **Event triggers** page will show information to confirm that the custom event is working as expected. With the integration complete and verified, the event will be marked as **Ready to use**, which will make the event visible and available in journeys.
+Once the integration has been completed, the **Triggers** page will show information to confirm that the custom event is working as expected. With the integration complete and verified, the event will be marked as **Ready to use**, which will make the event visible and available in journeys.

@@ -11,8 +11,6 @@ ms.custom:
 
 # Integrate an Azure bot
 
-
-
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Introduction

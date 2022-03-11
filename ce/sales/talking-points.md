@@ -3,8 +3,8 @@ title: "Know conversation starters through talking points"
 description: "Use talking points to automatically identify conversation starters of your customers before you interact with them."
 ms.date: 10/31/2018
 ms.topic: article
-author: udaykirang
-ms.author: udag
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 ms.custom: 
 topic-status: Drafting
@@ -54,7 +54,8 @@ Talking points will display only the latest communication for each topic on the 
 
 ### See also
 
-[Configure talking points](configure-talking-points.md)
+[Configure talking points](configure-talking-points.md)  
+[Talking points FAQs](faqs-sales-insights.md#talking-points)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

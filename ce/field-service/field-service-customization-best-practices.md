@@ -151,3 +151,9 @@ Regularly [run the Field Service Solution Health Hub](troubleshoot-field-service
 ## Mobile app performance considerations
 
 Customizing the mobile app can also affect performance. For more information, see this article: [Performance considerations when customizing the mobile app](improve-mobile-performance.md)
+
+## See also
+
+- [Dynamics 365 Implementation guide](https://www.d365implementationguide.com/books/asvr/#p=243)
+- [Microsoft Dynamics 365 FastTrack TechTalks](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks?c=Field%20Service)
+

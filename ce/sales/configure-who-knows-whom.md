@@ -91,7 +91,8 @@ To configure the Sales Insights connection graph, follow these steps:
 
 [Add Relationship intelligence widgets to custom forms](add-ri-widgets-to-custom-form.md)  
 [Get introduced to a lead](../sales/who-knows-whom.md)  
-[Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)
+[Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)  
+[Who knows whom FAQs](faqs-sales-insights.md#who-knows-whom)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
