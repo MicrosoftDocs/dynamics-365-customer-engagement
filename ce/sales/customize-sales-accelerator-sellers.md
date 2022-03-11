@@ -96,7 +96,10 @@ Follow these steps:
 
 7. Select **Save**.
 
-## Sequence reporting <a name="enable-sales-accelerator-reports"></a>
+
+<a name="enable-sales-accelerator-reports"></a>
+
+## Sequence reporting 
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
