@@ -53,7 +53,7 @@ However, you may have the following scenarios which affect the existing KPI inst
 In the above scenarios, the warning and the failure time of the SLA KPIs are recalculated with the new customer service schedule and the holiday schedule. However, if you want to change the existing customer service and holiday schedule that is already in use in the existing SLA KPI instances, you can implement the recommendations that are provided in the following section.  
 
 > [!NOTE]
-> Before applying the changes to your production environment, make sure to validate all of the scenarios and the recommendations to ensure that all the conditions are met.
+> Before applying the changes to your production environment, you must validate all the scenarios and the recommendations to ensure that all the conditions are met.
 
 **Scenario 1:**
 
