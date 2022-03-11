@@ -19,7 +19,7 @@ Microsoft CIFramework provides methods to use JavaScript API to manage the commu
 
 > [!Important]
 > - The [CIFInitDone event handler](events/cifinitdone.md) must be invoked before calling the other APIs.
-> - The timeout limit for the APIs is 10 seconds. If the APIs do not run within 10 seconds, then they must be run again with changed parameters or scope.
+> - The timeout limit for the APIs is 10 seconds. If the APIs don't run within 10 seconds, they must be run again with changed parameters or scope.
 
 ## Communication panel management APIs
 
