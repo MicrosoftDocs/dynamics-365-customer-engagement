@@ -1,7 +1,7 @@
 ---
 title: "Digital selling | MicrosoftDocs"
 description: "Enable digital selling capabilities with the Dynamics 365 Sales Enterprise license."
-ms.date: 03/10/2022
+ms.date: 03/11/2022
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -254,9 +254,9 @@ If you want to make advanced configurations for Teams calls and conversation int
 > [!NOTE]
 > This capability is being rolled out in phases and will be available in all geographical regions by March 25, 2022.
 
-As an administrator, you can monitor the number of call recordings made by your sellers over a period of six  months. 
+As an administrator, you can monitor the number of call recordings made by your sellers over a period of up to six  months. 
 
-If you're using conversation intelligence with your Sales Enterprise license, you get three hours of conversation intelligence per activated user per month. A warning symbol is displayed whenever the usage exceeds the monthly limit. Hover over the symbol to see the message. In such a case, you must upgrade to the Sales Premium license to enjoy full benefits, with 10 hours of call processing capacity.
+If you're using conversation intelligence with your Sales Enterprise license, you get three hours of conversation intelligence per activated user per month. A warning symbol is displayed whenever the usage exceeds the monthly limit. Hover over the symbol to see the message. In such a case, users will need to be upgraded to the Sales Premium license to enjoy 10 hours per user per month call processing capacity. Additional expansion packs are also available.
 
 > [!IMPORTANT]
 > The data in the usage panel is refreshed every 24 hours.
