@@ -519,7 +519,13 @@
       - name: Install the voice channel
         href: voice-channel-install.md  
       - name: Connect to Azure Communication Services
-        href: voice-channel-acs-resource.md  
+        items: 
+        - name: Overview
+          href: voice-channel-acs-resource.md
+        - name: "Quickstart: Connect to a new Azure resource"
+          href: voice-channel-connect-new-resource.md
+        - name: "Advanced: Connect to an existing Azure resource"    
+          href: voice-channel-connect-existing-resource.md  
       - name: Manage phone numbers
         href: voice-channel-manage-phone-numbers.md
       - name: Set up inbound calling
@@ -546,6 +552,8 @@
         href: voice-consult-microsoft-teams-user.md
       - name: Manage phone music
         href: voice-channel-music.md
+      - name: Set up a multilangauge bot in Power Virtual Agents
+        href: set-up-multilanguage-pva-bot.md  
       - name: Set up a multilanguage contact center
         href: voice-channel-multi-language-contact-center.md
       - name: Bring your own carrier
@@ -568,10 +576,6 @@
       items:
       - name: Monitor voice calls
         href: voice-channel-monitor-calls.md
-      - name: Intraday conversation insights
-        href: intraday-conversation-insights.md
-      - name: Intraday Agents insights
-        href: intraday-agents-insights.md
       - name: Voice channel analytics, reports, and call insights
         href: voice-channel-reports-analytics.md
   - name: Chat
