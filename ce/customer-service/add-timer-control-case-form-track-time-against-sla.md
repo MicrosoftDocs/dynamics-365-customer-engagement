@@ -1,10 +1,10 @@
 ---
 title: "Timer control for SLA-enabled entities | Microsoft Docs"
 description: "Learn how to add timer control in the case form to track time against an SLA in Dynamics 365 Customer Service."
-ms.date: 03/03/2022
+ms.date: 03/11/2022
 ms.topic: article
-author: neeranelli
-ms.author: nenellim
+author: Soumyasd27
+ms.author: sdas
 manager: shujoshi
 search.audienceType: 
   - admin
@@ -76,9 +76,9 @@ After you have added the SLA timer control for a SLA-enabled entity, you can cus
     :::image type="content" source="media/sla-timer_configure_property.png" alt-text="SLA timer configure property dialog":::
    - The language code value must be of the following format:
 
-     (language code1)=(KPI instance status value):(KPI instance custom label). For example, 1033=0:In progress.
+     (language code1)=(KPI instance status value):(KPI instance custom label). For example, 1033=1:Custom Noncompliant.
 
-   - You can also enter multiple language codes by separating them with a semicolon: (language code1)=(KPI instance status value):(KPI instance custom label); (language code2)=(KPI instance status value):(KPI instance custom label). For example, 1033=0:Inprogress;1:Non Compliant
+   - You can also enter multiple language codes by separating them with a semicolon: (language code1)=(KPI instance status value):(KPI instance custom label); (language code2)=(KPI instance status value):(KPI instance custom label). For example, 1033=1:Custom Noncompliant; 3:Paused.
     
    - If you need to create multiple language code sets, you must separate each set by pressing **Enter**. For example, 
     
