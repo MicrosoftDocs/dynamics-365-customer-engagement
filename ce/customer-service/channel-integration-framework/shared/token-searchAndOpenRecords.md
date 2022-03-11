@@ -37,7 +37,8 @@ This sample code searches the name and phone number of a contact record. It open
 ```JavaScript
 
 // retrieve contact record
-Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telephone1", false ).then(
+Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telephone1", false ).
+then(
     function success(result) { 
     res=JSON.parse(result);
         console.log(`Record values: Full Name: ${res[0].fullname}, Telephone Number: ${res[0].telephone1}`);
@@ -61,7 +62,8 @@ This sample code searches and displays the name and phone number of Contact enti
 
 // Retrieve Contact entity record
 // Change searchonly parameter to true, if you do not want to open the search results page
-Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telephone1&$filter=firstname eq 'Contoso'&$search=Contoso", false ).then(
+Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telephone1&$filter=firstname eq 'Contoso'&$search=Contoso", false ).
+then(
     function success(result) {
     res=JSON.parse(result);
         console.log(`The caller name is: ${res[0].fullname}, Telephone Number: ${res[0].telephone1}`);
@@ -79,7 +81,8 @@ Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telepho
 This sample code searches and displays the top 10 active contact records.
 
 ```JavaScript
-Microsoft.CIFramework.searchAndOpenRecords("contact", "$filter=statecode eq 0&$select=description&$top=10", false ).then(
+Microsoft.CIFramework.searchAndOpenRecords("contact", "$filter=statecode eq 0&$select=description&$top=10", false ).
+then(
     function success(result) { 
     res=JSON.parse(result);
         // perform operations on record retrieval and opening
@@ -96,7 +99,7 @@ Microsoft.CIFramework.searchAndOpenRecords("contact", "$filter=statecode eq 0&$s
 This sample code searches and displays the name and phone number of Contact entity records by specifying the relevance search type.
 
 ```JavaScript
-Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telephone1", false, null, 0 ).
+Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telephone1", false, 0 ).
 then(     
     function success(result) {     
     res=JSON.parse(result);         
