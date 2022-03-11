@@ -492,7 +492,7 @@
         href: teams-use-suggested-contacts.md
       - name: Collaborate with AI-suggested contacts in Microsoft Teams
         href: use-ai-suggested-contacts-teams.md
-  - name: Routing in Omnichannel Administration
+  - name: Routing in Omnichannel Administration (Deprecated)
     items:
     - name: Routing and assignment in Omnichannel Administration
       href: routing-work-distribution-oca.md

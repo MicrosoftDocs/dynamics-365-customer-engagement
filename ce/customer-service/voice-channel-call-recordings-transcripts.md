@@ -11,10 +11,10 @@ manager: shujoshi
 
 # View call recordings and transcripts
 
-If your administrator has enabled the ability to view call recordings and transcripts, when conversations between agents and customers end, both supervisors and agents can view the recordings and transcripts of those conversations, play back the recordings, and view the sentiment analysis and other analytics related to the conversations.
+If your administrator has enabled the option to view call recordings and transcripts, when conversations between agents and customers end, both supervisors and agents can view the recordings and transcripts of those conversations, play back the recordings, and view the sentiment analysis and other analytics related to the conversations.
 
 > [!NOTE]
-> Many countries and states have laws and regulations that apply to the recording of PSTN, voice, and video calls, and may require that users first consent to the recording of their communications. It is your responsibility to use the call recording capabilities in compliance with the law. Before using call recording features, you must obtain consent from the parties of recorded communications in a manner that complies with all applicable laws for each participant.
+> Many countries and states have laws and regulations that apply to the recording of public switched telephone network (PSTN), voice, and video calls, and may require that users first consent to the recording of their communications. It is your responsibility to use the call recording capabilities in compliance with the law. Before using call recording features, you must obtain consent from the parties of recorded communications in a manner that complies with all applicable laws for each participant.
 
 ## Introduction
 
@@ -26,7 +26,7 @@ As an agent, you can access the recordings and transcripts for completed calls b
 
 ## Call recording and transcript controls
 
-The **Details** tab of the Conversation - Conversation Form displays the call recording details.
+The **Details** tab of the **Conversation - Conversation Form** displays the call recording details.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of call recording and transcript controls.](./media/voice-channel-recording.png)

@@ -67,7 +67,7 @@ Do the following steps to consult while you're on a call:
 
 ## Use chat consult with other agents and transfer calls
 
-You can use the chat consult option to contact another agent and consult with them for questions that you might have when you are on a call with a customer.
+You can use the chat consult option to contact another agent and consult with them on questions that you might have when you are on a call with a customer.
 
 **To use chat consult and transfer the call**
 
@@ -75,7 +75,7 @@ You can use the chat consult option to contact another agent and consult with th
 
 1. Search for the agent that you want to chat with and select chat for the required agent. A consult notification appears for the secondary agent that you select.
 
-1. When the secondary accepts the consult request, a consult pane appears for you and the secondary agent. You can send exchange your messages in this consult pane. More information: [Consult experience](oc-conversation-control.md#consult-with-agent-or-supervisor)
+1. When the secondary accepts the consult request, a consult pane appears for you and the secondary agent. You can exchange messages in this consult pane. More information: [Consult experience](oc-conversation-control.md#consult-with-agent-or-supervisor)
 
 1. If you want to transfer the call to the secondary agent, select the transfer option on the call window. A notification goes to the secondary agent and the call is transferred after the agent accepts the transfer request. The secondary agent becomes the primary agent and you will be disconnected from the call and consult pane with no option to send any further messages.
 
