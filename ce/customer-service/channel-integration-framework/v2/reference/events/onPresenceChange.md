@@ -29,9 +29,10 @@ handlerFunction = function (eventData) {
 ### See also
 
 [setClickToAct method](../../microsoft-ciframework/setClickToAct.md)  
-[addHandler method](../../microsoft-ciframework/addHandler.md)  
-[removeHandler method](../../microsoft-ciframework/removeHandler.md)  
-[getPresence method](../../microsoft-ciframework/getPresence.md)  
-[setPresence method](../../microsoft-ciframework/setPresence.md)  
+[addHandler method](../microsoft-ciframework/addHandler.md)  
+[removeHandler method](../microsoft-ciframework/removeHandler.md)  
+[getPresence method](../microsoft-ciframework/getPresence.md)  
+[setPresence method](../microsoft-ciframework/setPresence.md)  
+
 
 [!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]
