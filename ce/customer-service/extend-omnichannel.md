@@ -3,11 +3,12 @@ title: "Extend Omnichannel for Customer Service | MicrosoftDocs"
 description: "Embed Omnichannel for Customer Service functionality into your website or app, or bring functionality from other apps into Omnichannel for Customer Service."
 ms.date: 11/24/2021
 ms.topic: article
-author: platkat
-ms.author: ktaylor
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ms.reviewer: nenellim
-ms.custom: intro-internal
+ms.custom: 
+  - intro-internal
 ---
 
 # Extend Omnichannel for Customer Service
@@ -37,7 +38,7 @@ The following table shows the SKUs that correspond with each experience.
 > [!NOTE]
 > [SMS](configure-SMS-channel.md) and [WhatsApp](configure-whatsapp-channel.md) require additional third-party subscriptions. Refer to channel documentation for more information.
 
-## Embedding other tools in Omnichannel for Customer Service
+## Embed other tools in Omnichannel for Customer Service
 
 ### Telephony
 

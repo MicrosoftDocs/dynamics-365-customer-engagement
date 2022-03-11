@@ -78,6 +78,8 @@
       href: /learn/modules/get-started-with-dynamics-365-for-customer-service/
     - name: Configure Customer Service
       href: configure-cs.md
+    - name: Customer Service admin center
+      href: cs-admin-center.md
     - name: Omnichannel admin center
       href: oc-admin-center.md
     - name: Customer Service Hub
@@ -86,6 +88,8 @@
       href: csw-overview.md
     - name: Use Customer Service Team Member
       href: customer-service-team-member.md
+    - name: Omnichannel Administration
+      href: omnichannel-administrator.md  
     - name: Omnichannel for Customer Service
       items: 
       - name: Omnichannel for Customer Service
@@ -108,7 +112,7 @@
       href: ../app-profile-manager/overview.md
     - name: Roles and permissions
       href: ../app-profile-manager/security-roles.md
-    - name: Use app profile manager
+    - name: Create and use agent experience profiles
       href: ../app-profile-manager/app-profile-manager.md
     - name: Settings
       href: ../app-profile-manager/settings.md
@@ -232,7 +236,7 @@
       items:
       - name: Create and manage workstreams
         href: create-workstreams.md
-      - name: Create and manage queues
+      - name: Manage queues for unified routing
         href: queues-omnichannel.md
       - name: Configure work classification
         href: configure-work-classification.md
@@ -440,6 +444,8 @@
         href: integrate-KM-with-PVA.md
       - name: Configure the origin allow list for knowledge articles
         href: configure-knowledge-article-origin-allow-list.md
+      - name: Configure knowledge search control on app side pane for an entity record (preview)
+        href: configure-knowledge-search-control-productivity-pane.md
     - name: Knowledge author experience
       items:
       - name: Configure the knowledge article authoring language
@@ -450,14 +456,12 @@
         href: create-templates-knowledge-article.md
     - name: Agent experience
       items:
-      - name: Search for and share knowledge articles
+      - name: Search for and share knowledge articles in Omnichannel for Customer Service
         href: oc-search-knowledge-articles.md 
-      - name: Search for knowledge articles
+      - name: Search for knowledge articles in Customer Service workspace
         href: csw-search-knowledge-articles.md
       - name: Search for knowledge articles in Customer Service Hub
         href: search-knowledge-articles-csh.md
-      - name: Share knowledge articles in Omnichannel for Customer Service
-        href: knowledge-management-oc.md
     - name: Customization experience
       items: 
       - name: Knowledge base search
@@ -488,7 +492,7 @@
         href: teams-use-suggested-contacts.md
       - name: Collaborate with AI-suggested contacts in Microsoft Teams
         href: use-ai-suggested-contacts-teams.md
-  - name: Routing in Omnichannel Administration
+  - name: Routing in Omnichannel Administration (Deprecated)
     items:
     - name: Routing and assignment in Omnichannel Administration
       href: routing-work-distribution-oca.md
@@ -512,14 +516,24 @@
       items:
       - name: Introduction to the voice channel
         href: voice-channel.md
+      - name: Install the voice channel
+        href: voice-channel-install.md  
       - name: Connect to Azure Communication Services
-        href: voice-channel-acs-resource.md  
+        items: 
+        - name: Overview
+          href: voice-channel-acs-resource.md
+        - name: "Quickstart: Connect to a new Azure resource"
+          href: voice-channel-connect-new-resource.md
+        - name: "Advanced: Connect to an existing Azure resource"    
+          href: voice-channel-connect-existing-resource.md  
       - name: Manage phone numbers
         href: voice-channel-manage-phone-numbers.md
       - name: Set up inbound calling
         href: voice-channel-route-queues.md      
       - name: Set up outbound calling
         href: voice-channel-outbound-calling.md
+      - name: Configure historical analytics for voice
+        href: cs-voice-historical-analytics.md
       - name: Add Power Virtual Agents bot for voice
         href: voice-channel-ivr-bots.md
       - name: Integrate Azure bots for voice
@@ -538,6 +552,8 @@
         href: voice-consult-microsoft-teams-user.md
       - name: Manage phone music
         href: voice-channel-music.md
+      - name: Set up a multilangauge bot in Power Virtual Agents
+        href: set-up-multilanguage-pva-bot.md  
       - name: Set up a multilanguage contact center
         href: voice-channel-multi-language-contact-center.md
       - name: Bring your own carrier
@@ -556,14 +572,12 @@
         href: voice-channel-call-customer.md
       - name: Use call controls and the agent desktop for voice
         href: voice-channel-agent-experience.md
+      - name: View call recordings and transcripts
+        href: voice-channel-call-recordings-transcripts.md
     - name: Supervisor experience
       items:
       - name: Monitor voice calls
         href: voice-channel-monitor-calls.md
-      - name: Intraday conversation insights
-        href: intraday-conversation-insights.md
-      - name: Intraday Agents insights
-        href: intraday-agents-insights.md
       - name: Voice channel analytics, reports, and call insights
         href: voice-channel-reports-analytics.md
   - name: Chat
@@ -736,7 +750,7 @@
           href: bring-your-own-channel.md
         - name: Test the custom messaging channel
           href: test-custom-channel-sample-html.md
-        - name: Markdown formats
+        - name: "Markdown formats: Direct Line"
           href: markdown-formats-dev.md
     - name: Support for live chat and asynchronous channels
       href: card-support-in-channels.md
@@ -746,6 +760,8 @@
       href: create-operating-hours.md
     - name: Configure and manage custom presence
       href: presence-custom-presence.md
+    - name: Configure file attachments
+      href: configure-file-attachment.md      
     - name: Enable file attachments
       href: enable-file-attachments.md
     - name: Enable formatted messages
@@ -797,7 +813,7 @@
       - name: Enable auto-assignment of conversations
         href: enable-auto-assign-conversations.md
       - name: Enable sharing of knowledge articles
-        href: knowledge-management-oc.md
+        href: set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-management
     - name: Agent experience
       items:
       - name: Productivity pane in Customer Service workspace
@@ -844,7 +860,7 @@
     items: 
     - name: Introduction to Customer Service Insights
       href: introduction-customer-service-analytics.md
-    - name: Regional availability and service limits for Customer Service
+    - name: Regional availability, language availability, and service limits for Customer Service Insights
       href: cs-region-availability-service-limits.md
     - name: Administrator experience
       items: 
@@ -970,12 +986,6 @@
           href: ../common-scheduler/fulfillment-preferences.md
       - name: Configure service activity using schedule board
         href: use-schedule-board-configure-service-activity.md
-      - name: Work with settings
-        items: 
-        - name: Create and manage organizational units
-          href: create-org-units-cs-scheduling.md
-        - name: Schedule business closure
-          href: set-when-business-closed-csh.md
     - name: Service Scheduling in Unified Interface
       items: 
       - name: Service Scheduling in Unified Interface
@@ -1434,14 +1444,14 @@
         items: 
         - name: getConversationID
           href: developer/reference/methods/getConversationId.md        
+        - name: getConversations
+          href: developer/reference/methods/getConversations.md   
+        - name: openConversation
+          href: developer/reference/methods/openConversation.md        
         - name: linkToConversation
           href: developer/reference/methods/linkToConversation.md
         - name: unlinkFromConversation
-          href: developer/reference/methods/unlinkFromConversation.md
-        - name: getConversations
-          href: developer/reference/methods/getConversations.md
-        - name: openConversation
-          href: developer/reference/methods/openConversation.md  
+          href: developer/reference/methods/unlinkFromConversation.md 
     - name: runMacro
       href: developer/reference/methods/runMacro.md
     - name: Action Reference
@@ -1470,6 +1480,8 @@
     href: cs-share-feedback.md
   - name: FAQs on Customer Service
     items: 
+    - name: FAQs on Customer Service admin center
+      href: faq-customer-service-admin-center.md
     - name: FAQs on unified routing
       href: unified-routing-faqs.md
     - name: FAQs on AI suggestions for cases and knowledge articles

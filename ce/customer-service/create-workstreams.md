@@ -1,7 +1,7 @@
 ---
 title: "Create workstreams in Customer Service | MicrosoftDocs"
 description: "Use this topic to understand how to create workstreams for unified routing in Customer Service and Omnichannel for Customer Service apps."
-ms.date: 11/18/2021
+ms.date: 03/02/2022
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -10,6 +10,8 @@ ms.custom: intro-internal
 ---
 
 # Create workstreams for unified routing
+
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 ## Overview
 
@@ -21,7 +23,7 @@ The workstream can be one of the following types:
 
 - **Messaging**: To route conversations from live chat, SMS, social, and Teams channels.
 - **Record**: To route records, such as case, email, and activity.
-- **Voice**: To route calls made to the support numbers listed on the customer portal.
+- **Voice**: To route calls made to the support numbers listed on the customer portal. More information: [Overview of voice channel](voice-channel.md)
 
 > [!IMPORTANT]
 >
@@ -30,26 +32,40 @@ The workstream can be one of the following types:
 
 ## Create a workstream
 
-You can create workstreams for unified routing in the Omnichannel admin center and Customer Service Hub apps.
+You can create workstreams for unified routing in the Customer Service admin center (preview), Omnichannel admin center, or Customer Service Hub app.
 
-Perform the following steps:
+**To create the workstream**
 
-1. In Omnichannel admin center, in the site map, select **Workstreams** under **General settings**. In Customer Service Hub, in the site map, select **Workstreams** under **Unified Routing**.
+1. Go to one of the apps, and perform the following steps.
 
-2. Select **New**.
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
-3. In the **Create a workstream** dialog, enter the following details:
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+    - In the site map, select **Workstreams** in **Customer support**.
+
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+    
+     - In the site map, select **Workstreams** in **General settings**.
+    
+   ### [Customer Service Hub](#tab/customerservicehub)
+
+     -  In the site map, select **Workstreams** in **Unified Routing**.
+
+1. Select **New workstream**.
+
+1. In the **Create a workstream** dialog, enter the following details:
 
     - **Name**: Enter an intuitive name, such as **Contoso chat workstream**.
     
     - **Type**: Select one of the following types:
-         - **Messaging**: To configure the workstream for chat and other conversation channels.
-         - **Record**: To configure the workstream for entity record, such as case and email activity.
-         - **Voice**: To configure the workstream for the voice channel. More information: [Overview of voice channel](voice-channel.md)
+         - **Messaging**
+         - **Record**
+         - **Voice**
     
     - **Channel**: This box appears if you have selected the type as **Messaging**. Select a channel from the list.
-         - If you select **Chat**, the **Make chats persistent** option appears. Select the checkbox if you want to configure persistent chat. Also make sure that you select **Keep same agent for entire conversation** in the **Work distribution** settings of the workstream. More information: [Configure persistent chat](persistent-chat.md).
-         - If you select **Chat**, the **Make chats persistent** option appears. Select the checkbox if you want to configure persistent chat. Also make sure that you select **Keep same agent for entire conversation** in **Work distribution** settings of the workstream. More information: [Configure persistent chat](persistent-chat.md)
+         - If you select **Chat**, the **Make chats persistent** checkbox appears. Select the checkbox if you want to configure persistent chat. Also make sure that you select **Keep same agent for entire conversation** in the **Work distribution** settings of the workstream. More information: [Configure persistent chat](persistent-chat.md).
     
     - **Record**: This box appears if you have selected the type as **Record**. Select the record from the list.  More information: [Set up record routing](set-up-record-routing.md)
     
@@ -57,12 +73,12 @@ Perform the following steps:
          - In **Push** mode, a work item is dispatched to agents automatically using a message alert. You can configure the push work item to be explicitly picked up. For voice, only push mode is available.
          - In **Pick** mode, a work item is dispatched to agents when they explicitly pick the work item from the **Open work items** in the agent dashboard.
 
-4. Select **Create**. The workstream that you created is displayed with the option to configure the selected channel instance.
+2. Select **Create**. The workstream that you created is displayed with the option to configure the selected channel instance.
     > [!div class=mx-imgBorder]
     > ![Set up a channel.](media/set-up-chat.png "Set up a channel")
 
-5. Perform the steps outlined in one of the following sections depending on the channel that you've selected.
-   - [Configure a chat widget](add-chat-widget.md#configure-a-chat-widget-in-omnichannel-admin-center)
+3. Perform the steps outlined in one of the following sections depending on the channel that you've selected.
+   - [Configure a chat widget](add-chat-widget.md#configure-a-chat-widget)
    - [Configure a voice channel](voice-channel-route-queues.md#configure-a-voice-channel)
    - [Configure a Facebook channel](configure-facebook-channel.md)
    - [Configure a WeChat instance](configure-wechat-channel.md)
@@ -76,6 +92,10 @@ Perform the following steps:
    - [Configure a custom messaging channel](configure-custom-channel.md)
    - [Configure record routing](set-up-record-routing.md)
 
+> [!NOTE]
+> If asynchronous plug-ins are installed but disabled in your organization, ensure that you set the value of "DisabledForAsyncProcessing" to "No" to avoid issues when you're creating workstreams.
+
+
 ### Configure routing rules
 
 Routing rules for a workstream consist of work classification rules and route-to-queue rules. For the steps to configure routing rules, see the following:
@@ -87,15 +107,17 @@ Routing rules for a workstream consist of work classification rules and route-to
 
 In the **Work distribution** area of a workstream, you can either accept the default settings or select **See more** and update the following options:
 
-- **Auto-close after inactivity**: Select a time period after which inactive conversations will be moved to the closed state automatically. This option is available for only Persistent chat, SMS, social, and Microsoft Teams channels.
+- **Auto-close after inactivity**: Select a time period after which inactive conversations will be moved to the closed state automatically. This option is available for only persistent chat, SMS, social, and Microsoft Teams channels.
  
 - **Work distribution mode**: The option that you selected in step 3 is displayed and can't be edited.
 - **Capacity**: Select one of the following options. More information: [Create and manage capacity profiles](capacity-profiles.md)
   - **Unit based**: Enter a value if your organization has configured unit-based capacity.
   - **Profile based**: Specify a profile in the list if your organization has configured profile-based capacity.
--  **Block capacity for wrap up**: Select a duration to block capacity when the agent is in **Wrap-up** state, such as **1 minute** or **15 minutes**. After the specified duration, agent capacity is released  and presence is automatically reset. By default, **Always block** is selected, where agent capacity is blocked as long as the conversation is in **Wrap-up** state. You can also select **Don't block**, where agent capacity is released immediately, when the conversation moves to the **Wrap-up** state.
-> [!NOTE]
-> If you have selected **End of Day mode** in capacity profile, agent capacity won't be reset after the duration selected in the **Block capacity for wrap up** field is over.
+- **Block capacity for wrap up**: Select a duration to block capacity when the agent is in **Wrap-up** state, such as **1 minute** or **15 minutes**. After the specified duration, agent capacity is released and presence is automatically reset. By default, **Always block** is selected, where agent capacity is blocked as long as the conversation is in **Wrap-up** state. You can also select **Don't block**, where agent capacity is released immediately, when the conversation moves to the **Wrap-up** state.
+
+  > [!NOTE]
+  > If you have selected **End of Day mode** in capacity profile, agent capacity won't be reset after the duration selected in the **Block capacity for wrap up** field is over.
+
 - **Allowed presences**: Select the presences in which agents will be assigned.
 - **Default skill matching algorithm**: Select **Exact Match**, **Closest Match**, or **None**.
 - **Keep same agent for entire conversation**: Set the toggle to yes if you want the conversation to remain assigned to the originally assigned agent. More information: [Agent affinity](#agent-affinity)
@@ -119,7 +141,7 @@ For Azure bots, see [Integrate a bot with Omnichannel for Customer Service](conf
 
 **To add the bot to the workstream**
 
-1. In Omnichannel admin center, go to **Settings** > **Workstreams**, and select a workstream.
+1. In Customer Service admin center (preview) or Omnichannel admin center, go to **Workstreams**, and select a workstream.
 2. For the selected workstream and channel, in the **Bot** area, select **Add bot**.
 3. In the **Add a bot** dialog, select the required bot from the **Name** dropdown list, and then select **Save and close**.
 

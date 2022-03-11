@@ -4,7 +4,7 @@ description: Track your Outlook contacts using App for Outlook.
 ms.custom: 
 ms.date: 05/20/2021
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

@@ -1,8 +1,8 @@
 ---
 title: "How to follow up with participants using Microsoft Teams and Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to follow up with Microsoft Teams webinar participants using Dynamics 365 Marketing."
-ms.date: 01/19/2022
-ms.service: dynamics-365-marketing
+ms.date: 02/25/2022
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -24,8 +24,8 @@ Teams has [built-in functionality](teams-journey.md) that allows you to quickly 
 
 Here's how to export your Team's participant information to Marketing:
 
-1. In Teams, select the **Attendance** tab to view the attendance report.
-1. In the top-right corner, select **Turn attendance into results**.
+1. In Teams, when you open the webinar, either select the **Attendance** tab to view the attendance report, or select the **Follow up** button from the details page.
+1. In the top-right corner of the attendance tab, select **Turn attendance into results**.
     > [!IMPORTANT]
     > The **Turn attendance into results** button only appears in the attendance tab *after* the webinar has ended.
     >

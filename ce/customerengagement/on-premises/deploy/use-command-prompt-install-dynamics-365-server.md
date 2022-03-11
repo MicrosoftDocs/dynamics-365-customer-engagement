@@ -3,7 +3,7 @@ title: "Use the command prompt to install Dynamics 365 Customer Engagement (on-p
 description: Learn how to use the command prompt to install Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
 ms.date: "10/01/2018"
-ms.prod: d365ce-op
+
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

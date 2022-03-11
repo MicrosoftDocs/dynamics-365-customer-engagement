@@ -2,7 +2,7 @@
 title: "Get started with email (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to get up and running quickly with email features in Dynamics 365 Marketing."
 ms.date: 02/02/2022
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

@@ -1,10 +1,10 @@
 ---
 title: "Configure forecasts in your organization"
 description: "Forecasts can be based on revenue or quantity. Configure forecast type, hierarchy, permissions, and details to appear on the forecast grid."
-ms.date: 01/24/2022
+ms.date: 02/15/2022
 ms.topic: article
-author: udaykirang
-ms.author: udag
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 searchScope: 
   - D365-App-msdynce_saleshub
@@ -17,6 +17,9 @@ searchScope:
 # Configure forecasts in your organization 
 
 Forecasts can be based on revenue or quantity. Configure forecast type, hierarchy, permissions, and details to appear on the forecast grid.
+
+> [!NOTE]
+> The forecasting feature is not supported on mobile devices.
 
 ## License and role requirements
 
@@ -104,7 +107,8 @@ After a forecast is activated, you can use the msdyn_ForecastApi custom action t
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)   
 [View forecasts](view-forecasts.md)   
 [About premium forecasting](/dynamics365/ai/sales/configure-premium-forecasting)  
-[msdyn_ForecastApi action](developer/reference/custom-actions/msdyn_ForecastApi.md)
+[msdyn_ForecastApi action](developer/reference/custom-actions/msdyn_ForecastApi.md)  
+[Forecasting FAQs](faqs-sales.md#forecasting)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -4,7 +4,7 @@ description: "Learn about managing notification templates in Omnichannel Adminis
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 11/25/2021
+ms.date: 02/11/2022
 ms.topic: article
 ---
 
@@ -119,11 +119,23 @@ The out-of-the-box templates are as follows.
 
 ### Create a notification template
 
-Perform the following steps to create a notification template:
+**To create the notification template**
 
-1. In the site map of Omnichannel admin center, select **Agent experience** under **Advanced settings**, and then select **Manage** for **Notification templates**. If you're using the Omnichannel Administration app, select **Notifications** under **Agent Experience** in the site map.
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+     
+     1. In the site map, select **Workspaces** in **Agent experience**.
+     2. On the **Workspaces** page, select **Manage** for **Notification templates**.
 
-2. Select **New** in the **Active Notifications** area.
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+
+    - In the site map, select **Agent experience** in **Advanced settings**, and then select **Manage** for **Notification templates**.
+
+2. On the **Templates** tab, select **New Notification Template** in the **Active Notifications Templates** area.
 
 3. Specify the following in the **New Notification** page.
 
@@ -231,6 +243,7 @@ As an administrator, you need to customize the notification template to show the
 
 ### See also
 
+[Get started with Customer Service admin center](../customer-service/cs-admin-center.md)  
 [Manage session templates](session-templates.md)  
 [Manage application tab templates](application-tab-templates.md)  
 [Associate templates with workstreams](associate-templates.md)  

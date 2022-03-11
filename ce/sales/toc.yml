@@ -178,6 +178,8 @@
     items:
     - name: Define lead qualification experience
       href: define-lead-qualification-experience.md
+    - name: Enable duplicate lead detection 
+      href: enable-duplicate-lead-detection.md   
     - name: Integrate LinkedIn Sales Navigator solutions
       href: /dynamics365/linkedin/integrate-sales-navigator?context=/dynamics365/context/sales-context
     - name: Configure predictive lead scoring
@@ -280,6 +282,8 @@
       href: forecast-configure-advanced-settings.md
     - name: Activate and upload simple columns data
       href: activate-upload-simple-columns-data-forecast.md
+    - name: Select a default forecast
+      href: select-default-forecast.md
     - name: Deactivate and delete forecast
       href: deactivate-delete-forecast.md
     - name: Clone a forecast
@@ -407,6 +411,8 @@
       href: configure-talking-points.md
     - name: Configure who knows whom
       href: configure-who-knows-whom.md
+    - name: Add relationship intelligence widgets to custom forms
+      href: add-ri-widgets-to-custom-form.md
   - name: Conversation intelligence
     items:
     - name: Prerequisites to use Conversation Intelligence
@@ -542,6 +548,8 @@
     items:
     - name: Create or edit leads
       href: create-edit-lead-sales.md
+    - name: Manage duplicate leads
+      href: manage-duplicate-leads.md  
     - name: Prioritize leads using predictive scores
       href: work-predictive-lead-scoring.md
     - name: Qualify or convert leads
@@ -722,6 +730,10 @@
       href: sales-mobile/create-contact.md
     - name: Manage notes
       href: sales-mobile/view-edit-add-note.md
+    - name: Use dictation 
+      href: sales-mobile/use-dictation.md
+    - name: View activities for a record
+      href: sales-mobile/view-activities-record.md
     - name: App settings
       href: sales-mobile/app-settings.md
     - name: Use the Sales Hub app or Sales Professional app on Dynamics 365 for phones and tablets app
@@ -991,8 +1003,6 @@
   - name: GDPR for sales premium
     href: embedded-intelligence-gdpr.md
     items:
-    - name: Opt out of relationship analytics (GDPR)
-      href: optout-relationship-analytics-gdpr.md
     - name: View and export KPI data (GDPR)
       href: view-export-KPI-data-gdpr.md
     - name: Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action

@@ -3,7 +3,7 @@ title: "Use and configure the schedule board in Dynamics 365 Field Service (cont
 description: Learn about how to configure the schedule board in Dynamics 365 Field Service
 ms.date: 01/27/2022
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.topic: article
 author: FieldServiceDave
 ms.author: daclar

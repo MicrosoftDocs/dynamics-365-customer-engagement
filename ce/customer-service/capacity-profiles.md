@@ -1,7 +1,7 @@
 ---
 title: Create and manage capacity profiles | MicrosoftDocs
 description: "Know how to create and manage capacity profiles in Customer Service"
-ms.date: 01/21/2022
+ms.date: 02/11/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -39,9 +39,25 @@ For a capacity profile, you can add or remove users and edit any setting except 
 
 **To configure the capacity profile**
 
-1. In Omnichannel admin center, select **User attributes** in **Advanced settings** in the site map. In Customer Service Hub, select **User attributes** in **Unified routing** in the site map.
+1. Go to one of the apps, and perform the following steps.
+   
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+     > [!IMPORTANT]
+     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   
+    - In the site map, select **User management** in **Customer support**. The **User management** page appears.
+    
+   
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
 
-2. On the **User attributes** page, select the **Manage** option for **Capacity profile**.
+    - In the site map, select **User attributes** under **Advanced settings**.
+    
+   ### [Customer Service Hub](#tab/customerservicehub) 
+
+    - Go to the **Service Management** change area, and select **User attributes** from the **Unified routing** menu.
+
+2. Select the **Manage** option for **Capacity profile**.
 
 3. On the **Capacity profiles** page, select **Create new**.
 

@@ -2,7 +2,7 @@
 title: "Embed forms on external websites (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to publish a form on an external site and capture the submissions in Dynamics 365 Marketing."
 ms.date: 04/26/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

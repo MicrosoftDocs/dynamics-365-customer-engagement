@@ -2,7 +2,7 @@
 title: "Continue the conversation with Microsoft Teams webinar participants (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to continue the conversation with Microsoft Teams webinar participants using Dynamics 365 Marketing."
 ms.date: 01/19/2022
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

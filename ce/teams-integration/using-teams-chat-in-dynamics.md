@@ -4,7 +4,7 @@ description: "Start Teams chat conversations from within Dynamics 365 customer e
 ms.date: 11/03/2021
 ms.topic: article
 author: lavanyakr01
-ms.service: crm-online
+
 search.app: 
   - D365CE
   - Powerplatform

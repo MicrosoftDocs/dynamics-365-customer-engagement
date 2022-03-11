@@ -2,7 +2,7 @@
 title: "Using the Events API (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Learn how to use the Events API to access date from events, sessions, session tracks, and passes in Dynamics 365 Marketing."
 ms.date: 06/11/2019
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

@@ -3,7 +3,7 @@ title:  "Get started with Dynamics 365 Customer Engagement (on-premises)"
 description: "Find the information you need to get your organization started with Dynamics 365 Customer Engagement (on-premises)."
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

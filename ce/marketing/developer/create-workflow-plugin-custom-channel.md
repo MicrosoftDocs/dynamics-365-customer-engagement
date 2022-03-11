@@ -2,7 +2,7 @@
 title: "Step 3: Create a workflow or plug-in to implement your custom logic (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Partners can create a workflow or plug-in to implement their custom logic for a custom channel in Dynamics 365 Marketing."
 ms.date: 04/01/2018
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: how-to

@@ -3,8 +3,8 @@ title: "Display custom context | MicrosoftDocs"
 description: "Use this topic to understand how to display custom context in the Conversation summary section of conversations."
 ms.date: 10/21/2021
 ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
+author: lalexms
+ms.author: laalexan
 manager: shujoshi
 ---
 # Display custom context

@@ -133,23 +133,33 @@
         ]
       },
       "ms.service": {
-        "app-profile-manager/**/*.md": "dynamics-365-customerservice",
-        "customer-service/**/*.md": "dynamics-365-customerservice",
-        "legal/**/*.md": "dynamics-365-customerservice",
-        "linkedin/**/*.md": "dynamics-365-linkedinconnector",
-        "sales/**/*.md": "dynamics-365-sales",
-        "unified-service-desk/**/*.md": "dynamics-365-customerservice"
+        "mobile-app/**.*": "dynamics-365-cross-app",
+        "legal/**.*": "dynamics-365-cross-app",
+        "outlook-addin/**.*": "dynamics-365-cross-app",
+        "outlook-app/**.*": "dynamics-365-cross-app",
+        "app-profile-manager/**.*": "dynamics-365-customerservice",
+        "customer-service/**.*": "dynamics-365-customerservice",
+        "unified-service-desk/**.*": "dynamics-365-customerservice",
+        "common-scheduler/**.*": "dynamics-365-field-service",
+        "field-service/**.*": "dynamics-365-field-service",
+        "linkedin/**.*": "dynamics-365-linkedinconnector",
+        "marketing/**.*": "dynamics-365-marketing",
+        "insights-insideview/**.*": "dynamics-365-sales",
+        "sales/**.*": "dynamics-365-sales",
+        "versium-predict/**.*": "dynamics-365-sales",
+        "teams-integration/**.*": "teams-integration"
       },
       "ms.prod": {
-	"customerengagement/**/*.md": "d365ce-op"
-	    },
+        "admin/**.*": "d365ce-op",
+        "customerengagement/**.*": "d365ce-op"
+      },
       "ms.subservice": {
         "customer-service/channel-integration-framework/**/*.md": "channel-integration-framework",
         "unified-service-desk/**/*.md": "unified-service-desk"
       },
       "ms.topic": {
         "legal/**/*.md": "article",
-	"customerengagement/**/*.md": "article"
+        "customerengagement/**/*.md": "article"
       },
       "learn_banner_products": {
         "**/*.md": [
@@ -168,7 +178,7 @@
           "dynamics-sales"
         ]
       },
-      "feedback_product_url":{
+      "feedback_product_url": {
         "admin/**.*": "https://ideas.powerapps.com",
         "customize/**.*": "https://ideas.powerapps.com",
         "developer/**.*": "https://ideas.powerapps.com",
@@ -187,18 +197,18 @@
           "Dynamics 365"
         ],
         "customer-service/**.*": [
-          "Dynamics 365",          
+          "Dynamics 365",
           "Omnichannel",
           "Channel Integration Framework",
-          "Unified Service Desk",          
+          "Unified Service Desk",
           "Customer Service"
         ],
         "customerengagement/**.*": [
           "Dynamics 365",
           "Customer Engagement (on-premises)"
-        ],        
+        ],
         "field-service/**.*": [
-          "Dynamics 365",          
+          "Dynamics 365",
           "Field Service"
         ],
         "gamification/**.*": [
@@ -211,7 +221,7 @@
           "Sales"
         ],
         "marketing/**.*": [
-          "Dynamics 365",          
+          "Dynamics 365",
           "Marketing"
         ],
         "mobile-app/**.*": [
@@ -227,12 +237,12 @@
           "Dynamics 365"
         ],
         "project-service/**.*": [
-          "Dynamics 365",          
+          "Dynamics 365",
           "Project Service"
         ],
         "sales/**.*": [
           "Dynamics 365",
-	  "Power Apps",
+          "Power Apps",
           "Sales"
         ],
         "social-engagement/**.*": [
@@ -265,13 +275,13 @@
           "Omnichannel"
         ]
       },
-      "search.app":{
-        "omnichannel/**.*": ["D365CE", "D365CS"],
-        "sales/**.*": ["D365CE", "D365Sales"],
+      "search.app": {
+        "omnichannel/**.*": [ "D365CE", "D365CS" ],
+        "sales/**.*": [ "D365CE", "D365Sales" ],
       },
-      "search.audienceType":{
-        "omnichannel/**.*": ["admin", "customizer", "enduser"],
-        "sales/**.*": ["admin", "customizer", "enduser"]
+      "search.audienceType": {
+        "omnichannel/**.*": [ "admin", "customizer", "enduser" ],
+        "sales/**.*": [ "admin", "customizer", "enduser" ]
       }
     },
     "template": [],
@@ -281,9 +291,9 @@
         "dest": "usd-all",
         "moniker_range": ">= dynamics-usd-3"
       },
-      "op-all":{
+      "op-all": {
         "dest": "op-all",
-        "moniker_range":">= op-9-0"
+        "moniker_range": ">= op-9-0"
       }
     },
     "markdownEngineName": "markdig"

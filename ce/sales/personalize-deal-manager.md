@@ -3,7 +3,7 @@ title: "Personalize deal manager | MicrosoftDocs"
 description: "As a seller, personalize the grid and apply filters to suit your needs."
 ms.date: 02/01/2022
 ms.topic: article
-ms.service: dynamics-365-sales
+
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
