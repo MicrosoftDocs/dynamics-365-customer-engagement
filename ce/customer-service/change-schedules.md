@@ -37,7 +37,7 @@ So, after time calculation, the failure duration will be the day after the next 
 
 For more information on creating customer service schedules, see: [Create customer service schedule and define the work hours](create-customer-service-schedule-define-work-hours.md#create-customer-service-schedule-and-define-the-work-hours). For more information on creating holiday schedules, see: [Create and manage holiday schedules](set-up-holiday-schedule.md#create-and-manage-holiday-schedules).
 
-Apart from warning and failure time calculation, SLA time calculation also involves calculating the elapsed time, which occurs if the SLA KPIs are paused and resumed. The elapsed time is added to the final failure time to ignore the working hours spent during the pPaused state.
+Apart from warning and failure time calculation, SLA time calculation also involves calculating the elapsed time, which occurs if the SLA KPIs are paused and resumed. The elapsed time is added to the final failure time to ignore the working hours spent during the paused state.
 
 ## Scenarios and recommendations
 
