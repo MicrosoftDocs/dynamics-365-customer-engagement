@@ -28,7 +28,7 @@ handlerFunction = function (eventData) {
 
 ### See also
 
-[setClickToAct method](../../microsoft-ciframework/setClickToAct.md)  
+[setClickToAct method](../microsoft-ciframework/setClickToAct.md)  
 [addHandler method](../microsoft-ciframework/addHandler.md)  
 [removeHandler method](../microsoft-ciframework/removeHandler.md)  
 [getPresence method](../microsoft-ciframework/getPresence.md)  
