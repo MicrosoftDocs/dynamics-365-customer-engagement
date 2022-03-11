@@ -1,4 +1,3 @@
-
 ---
 title: "getEnvironment (JavaScript API Reference) for Microsoft Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Includes reference information such as description, syntax, and parameters for the getEnvironment method in JavaScript API Reference for Dynamics 365 Channel Integration Framework 2.0."
