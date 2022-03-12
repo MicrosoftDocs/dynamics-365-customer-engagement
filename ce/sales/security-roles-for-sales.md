@@ -36,7 +36,7 @@ The following table lists the roles that you should assign to the administrators
 
 ## Primary sales roles
 
-The following table lists the roles that you should assign to the users in your sales team: 
+The following table lists the roles that you can assign to the users who need to perform primary sales tasks:  
 
 | **Security roles** | **Who needs it?** | **Applies to** | **Access granted** |
 | --- | --- | --- | --- |
@@ -49,7 +49,7 @@ The following table lists the roles that you should assign to the users in your 
 
 ## Functional roles
 
-The following table lists the roles that you should assign to users who need to perform specific functions such as forecasting, playbook management, and so on: 
+The following table lists the roles that you can assign to users who need to perform specific functions such as forecasting, playbook management, and so on: 
 
 | **Security roles** | **Who needs it?** | **Applies to** | **Access granted** |
 | --- | --- | --- | --- |
@@ -61,7 +61,7 @@ The following table lists the roles that you should assign to users who need to 
 
 ## App access roles
 
-The following table lists the roles that you should assign to the users who need to access the out-of-the-box Dynamics 365 Sales apps: 
+The following table lists the roles that you can assign to users who need to access the out-of-the-box Dynamics 365 Sales apps: 
 
 | **Security roles** | **Who needs it?** | **Applies to** | **Access granted** |
 | --- | --- | --- | --- |
@@ -71,8 +71,12 @@ The following table lists the roles that you should assign to the users who need
 
 ## Internal roles
 
-The following table lists some of the roles that are used internally by the product to perform certain operations. Do not assign these roles to any users:
+Some roles are internally used by the product to perform certain operations. For example, the Forecast Appuser role is used to perform the forecast calculations. 
+> [!NOTE]
+> Do not assign these roles to any users.
 
+The following roles are examples of internal roles:
+ 
 - Forecast Appuser
 - Sales system access
 - Sales system access extension
