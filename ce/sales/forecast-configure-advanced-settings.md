@@ -1,7 +1,7 @@
 ---
 title: "Configure advanced settings for a forecast"
 description: "Configure advanced settings for a forecast in Dynamics 365 Sales."
-ms.date: 02/21/2022
+ms.date: 02/24/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -58,14 +58,15 @@ As an administrator or forecast manager, you can define the default experience f
 
 [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 
-You can define the following default settings:
+You can define the following default settings for underlying records:
 
 - [Preview: Set Kanban as default view](#preview-set-kanban-as-default-view)
 - [Preview: Select a default group by attribute](#preview-select-a-default-group-by-attribute)
 - [Preview: Select a default underlying records view](#preview-select-a-default-underlying-records-view)
 
 > [!NOTE]
-> The most recent selection of the user overrides the default selection for that user. For example, if the default view for the underlying records is Kanban and a user switches to the grid view, then the underlying records will open in the grid view when they access it next time. 
+> - Apart from the default settings for underlying records, you can also set a forecast as the default. More information: [Preview: Select a default forecast](select-default-forecast.md).
+> - The most recent selection of the user overrides the default selection for that user. For example, if the default view for the underlying records of a forecast is Kanban and a user switches to the grid view, then the underlying records will open in the grid view when they access the forecast next time. 
 
 
 ### Preview: Set Kanban as default view

@@ -4,8 +4,8 @@ description: "Configure premium forecasting to help sellers and managers improve
 ms.date: 10/26/2021
 ms.custom: 
 ms.topic: article
-author: udaykirang
-ms.author: udag
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 ---
 # About premium forecasting 

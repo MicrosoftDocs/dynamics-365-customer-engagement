@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot issues in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Use this topic to get information on how to resolve issues that you might face when you work with Omnichannel for Customer Service."
-ms.date: 09/01/2021
+ms.date: 02/25/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -9,9 +9,11 @@ manager: shujoshi
 ---
 # Troubleshoot issues in Omnichannel for Customer Service
 
-
-
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+
+## Introduction
 
 Use the following list of troubleshooting topics to quickly find information to solve your issue.
 

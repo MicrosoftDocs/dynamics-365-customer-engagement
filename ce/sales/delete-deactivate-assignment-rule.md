@@ -24,10 +24,10 @@ You can deactivate or delete an assignment rule that's no longer required in you
 >[!NOTE]
 >In this procedure, we are using lead as an example to delete or deactivate an assignment rule. Similarly, you can use this procedure to delete or deactivate opportunity assignment rule. 
 
-1.	Sign in to your Dynamics 365 Sales Hub app.   
-2.	Go to the **Change area** ![change area](media/change-area-icon.png) in the lower-left corner of the page, and select **Sales Insights settings**.    
-3.	Under **Sales accelerator**, select **Assignment rules**.    
-4.	On the **Assignment rules** page in the **Rules** section, select the rule and do one of the following:   
+1.	Sign in to your Dynamics 365 Sales Hub app.    
+2.	Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.   
+3. Under **Sales accelerator**, select **Assignment rules**.    
+4.	On the **Assignment rules** page, in the **Rules** tab, select the rule and do one of the following:   
     -	To deactivate the rule, turn off the toggle in the **Active** column.    
 
         >[!div class="mx-imgBorder"]

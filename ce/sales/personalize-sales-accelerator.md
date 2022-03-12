@@ -20,13 +20,14 @@ Use personal settings to determine how activities are scheduled based on work av
 | **Security roles** | Salesperson and above <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-## What can you personalize
+## What can you personalize?
 
 As a seller, you can personalize the sales accelerator by determining how activities are scheduled based on your work availability and deciding what happens when you complete an activity. The following personal settings are available for you to configure:
 
 -	[Configure your work availability](#configure-your-work-availability)
 -	[Configure the auto advance steps](#configure-the-auto-advance-steps)
 -	[Configure steps and activities](#configure-steps-and-activities)
+-	[Show or hide filters](#show-or-hide-filters)
 
 ## Configure your work availability
 
@@ -39,7 +40,7 @@ Depending on the license you have in the organization, you use one of the follow
 >[!NOTE]
 >- Ensure that you have read and write privileges to **Calendar** entity. More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges).
 >- Verify that the administrator has enabled the option to configure your availability. 
->    - Through sequence settings, see step 5 in [Set up the sales accelerator](enable-configure-sales-accelerator.md#set-up-the-sales-accelerator).
+>    - Through sequence settings, see [Seller availability](customize-sales-accelerator-sellers.md#seller-availability).
 >    - Through sales accelerator configuration, see step 4 in [Configure sales accelerator for assignment rules](sales-accelerator-assignment-rules.md). 
 
 ### Through work list settings (Sales Premium)<a name="through-work-list-settings"></a>
@@ -142,7 +143,7 @@ The **Auto advance** settings specify the next course of action to take when you
 When a step is displayed in the **Up next** widget, a corresponding activity is automatically created on the timeline and linked to the step. When you complete the action, such as sending an email or making a call through the timeline, the step is updated. By configuring the activities and steps, you can choose how the actions you perform on steps will affect the linked activities and sequence steps.     
 
 > [!NOTE]
-> Verify that the administrator has enabled the option to configure steps and activities. More information: [Enable the availability option in sequence settings](customize-sales-accelerator-sellers.md#enable-linking-sequence-steps-and-activities)
+> Verify that the administrator has enabled the option to configure steps and activities. More information: [Enable the availability option in sequence settings](customize-sales-accelerator-sellers.md#sequence-activities)
 
 1.	Sign in to the Dynamics 365 Sales Hub app, and go to **My work** > **Sales accelerator**.
 2.	In the work list, select the settings icon.   
@@ -153,12 +154,37 @@ When a step is displayed in the **Up next** widget, a corresponding activity is 
     -	**When I send an email**: When you select this checkbox and send an email through the timeline, the sequence step that's related to this activity is automatically marked as complete.     
     -	**When I mark a phone call activity record as complete**: When you select this checkbox and make a phone call through the timeline, the sequence step that's related to this activity is automatically marked as complete.      
     -	**When I mark a phone call sequence step as complete**: When you complete a phone call activity in the sequence step, you can choose to enter the status of the activity or enter a default value that has been defined for your organization.    
-    -	**Link between skip and cancel**: When you turn on this toggle, you mark a sequence step as canceled when you skip the step.     
 
     >[!div class="mx-imgBorder"]
     >![Configure Steps and activities.](media/sa-personal-settings-configure-steps-activities.png "Configure steps and activities.")     
  
 5.	Save and close the settings page.
+
+## Show or hide filters
+
+As a seller, you can hide any filter from the filter list that is available. After hiding a filter, you can’t view the filter option in your list.   
+
+1.	In the work list section, select **More options** > **Settings**.    
+
+    > [!div class="mx-imgBorder"]    
+    > ![Select settings from more options](media/sa-worklist-filter-select-settings.png "Select settings from more options")  
+ 
+3.	On the **Personal settings** page, select **Filters**.   
+
+    > [!div class="mx-imgBorder"]    
+    > ![Select filters from personal settings](media/sa-worklist-filter-select-filters.png "Select filters from personal settings")  
+ 
+4.	Go to the filter that you want to hide and turn off the toggle. 
+
+    >[!NOTE]
+    >-	To hide a group, turn off the toggle for group.
+    >-	If the administrator hides filters or groups, you can’t see them in your list. Contact your administrator to show the filters for you to use. More information: [Hide filters](enable-configure-sales-accelerator.md#hide-filters)
+ 
+    > [!div class="mx-imgBorder"]    
+    > ![Turn off the toggle to hide filter](media/sa-worklist-filter-hide-filter.png "Turn off the toggle to hide filter")      
+
+5.	Select **Save**.
+    The filter is hidden from your list.
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
