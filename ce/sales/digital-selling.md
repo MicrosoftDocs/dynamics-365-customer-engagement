@@ -1,7 +1,7 @@
 ---
 title: "Digital selling | MicrosoftDocs"
 description: "Enable digital selling capabilities with the Dynamics 365 Sales Enterprise license."
-ms.date: 02/25/2022
+ms.date: 03/14/2022
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -252,9 +252,9 @@ If you want to make advanced configurations for Teams calls and conversation int
 > [!NOTE]
 > This capability is being rolled out in phases and will be available in all geographical regions by March 25, 2022.
 
-As an administrator, you can monitor the number of call recordings made by your sellers over a period of six months. 
+As an administrator, you can monitor the number of call recordings made by your sellers over a period of up to six months. 
 
-If you're using conversation intelligence with your Sales Enterprise license, you get three hours of conversation intelligence per activated user per month. A warning symbol is displayed whenever the usage exceeds the monthly limit. Hover over the symbol to see the message. In such a case, you must upgrade to the Sales Premium license to enjoy full benefits, with 10 hours of call processing capacity.
+If you're using conversation intelligence with your Sales Enterprise license, you get three hours of conversation intelligence per activated user per month. A warning symbol is displayed whenever the usage exceeds the monthly limit. Hover over the symbol to see the message. In such a case, users will need to be upgraded to the Sales Premium license to enjoy 10 hours per user per month call processing capacity. Additional expansion packs are also available. More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/)
 
 > [!IMPORTANT]
 > The data in the usage panel is refreshed every 24 hours.
@@ -266,14 +266,14 @@ If you're using conversation intelligence with your Sales Enterprise license, yo
   :::image type="content" source="media/ds-ci-monitor-usage.png" alt-text="Monitor usage for conversation intelligence.":::
 
   The **Conversation intelligence usage** panel is displayed with the following information:
-
+    
   - **Recorded calls**: Displays the total recorded hours so far in the current month.
-
+    
   - **Seller average**: Displays the average number of recorded call hours per active seller in the current month.
-
+    
   - **Usage this month**: Displays the breakdown of usage by sellers who have access to conversation intelligence. If the monthly limit is exceeded in a month (for Sales Enterprise license users), a warning symbol is displayed.
-
-  - **Usage by seller over time**: Displays the monthly usage of conversation intelligence for the last six months in a graphical format. 
+    
+  - **Usage by seller over time**: Displays the monthly usage of conversation intelligence for the last six months in a graphical format. The data displays the number of active sellers each month, and the breakdown of the number of sellers who exceeded the monthly limit and those who didn't.
 
     :::image type="content" source="media/ds-ci-usage-panel.png" alt-text="Conversation intelligence usage panel.":::
 
