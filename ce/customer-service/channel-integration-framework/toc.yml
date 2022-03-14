@@ -262,7 +262,7 @@
           - name: "logAnalyticsEvent"
             href: v2/reference/microsoft-ciframework/logAnalyticsEvent.md                 
       - name: "Client-side events"
-        href: v2/reference/events/client-side-events.md
+        href: v2/reference/client-side-events.md
         items:
         - name: "CIFInitDone"
           href: v2/reference/events/cifinitdone.md        
