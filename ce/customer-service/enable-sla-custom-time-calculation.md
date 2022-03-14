@@ -1,7 +1,7 @@
 ---
 title: "Enable custom calculation of SLA KPIs in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how to perform custom calculation of SLAs KPIs in Dynamics 365 Customer Service."
-ms.date: 03/03/2022
+ms.date: 03/14/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
