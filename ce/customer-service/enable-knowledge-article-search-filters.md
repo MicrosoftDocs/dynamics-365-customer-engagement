@@ -65,12 +65,28 @@ You can enable search filters for your knowledge articles in the Customer Servic
 2. Set **Enable search filters** to **Yes**, and then select **Save**.
 
 1. To enable agents to personalize knowledge article search filters in Customer Service Hub, Customer Service workspace, and Omnichannel for Customer Service:
-  - In Customer Service admin center, set the **Allow agent to personalize** toggle to **Yes**.
-  - In Customer Service Hub, set the **Allow agents to personalize the knowledge articles search filters** toggle to **Yes**.
 
+### [Customer Service admin center](#tab/customerserviceadmincenter)
+
+  - Set the **Allow agent to personalize** toggle to **Yes**.
+
+### [Customer Service Hub](#tab/customerservicehub)
+
+- Set the **Allow agents to personalize the knowledge articles search filters** toggle to **Yes**.
 
 ---
-5. Select the filters you want to make available for knowledge search. If you are on the Customer Service Hub site map, go to **Service Management**, and select **Filters** in **Knowledge Base Management**.
+
+5. Select the filters you want to make available for knowledge search.
+
+### [Customer Service admin center](#tab/customerserviceadmincenter)
+
+  - You will find the filters on the **Filters** page.  
+
+### [Customer Service Hub](#tab/customerservicehub)
+
+- In the site map, select **Filters** in **Knowledge Base Management**. The **Filters** page appears on which you will be able to view the filters.
+
+---
 
 1. To set predetermined values that will appear for agents by default, select the ellipsis in the top-right corner of a filter area, and then select **Preselects**.
     > [!div class=mx-imgBorder]
