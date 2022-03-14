@@ -59,10 +59,6 @@ Next, the technician sees the booking and work order on their mobile device and 
 
 **Timestamps are created to document when the booking status is updated**. 
 
-> [!Note]
-> Booking timestamps work when Field Service Mobile is in offline mode too. This means that every time a technician changes their booking status, the timestamp documenting the status change is saved locally to the device, and synced to the server when internet access is resumed. Booking statuses can also be updated in the back office by dispatchers on the booking form or schedule board and timestamps will alos be created in this scenario.
-
-
 ## View timestamps
 
 You can see timestamps by going to the booking (entity name bookableresourcebooking), then **Related** > **Booking Timestamps**.
