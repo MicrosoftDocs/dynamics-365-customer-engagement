@@ -12,7 +12,7 @@ ms.reviewer: nenellim
 
 # Customize the email experience
 
-The email configuration experience enables users to be more effective and efficient when using email to communicate with customers. This topic discusses how to configure the email editor, email template builder, and email signature builder, which accepts the full configuration capability of the Rich Text Editor control.
+The email configuration experience enables users to be more effective and efficient when using email to communicate with customers. This article discusses how to configure the email editor, email template builder, and email signature builder, which accepts the full configuration capability of the Rich Text Editor control.
 
 > [!NOTE]
 > If you're using the Activity Editor control, we recommend that you use the rich text editor control instead, as the Activity Editor control has been deprecated. For details, see [Use the rich text editor control in Power Apps](https://docs.microsoft.com/powerapps/maker/model-driven-apps/rich-text-editor-control#defaultsupportedprops). 
