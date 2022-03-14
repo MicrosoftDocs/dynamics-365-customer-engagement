@@ -3,8 +3,8 @@ title: Enable knowledge article search filters | MicrosoftDocs
 description: "Learn how to enable knowledge article search filters in Dynamics 365 Customer Service."
 ms.date: 02/11/2022
 ms.topic: article
-author: lalexms
-ms.author: laalexan
+author: Soumyasd27
+ms.author: sdas
 manager: shujoshi
 search.audienceType: 
   - admin
@@ -50,10 +50,7 @@ You can enable search filters for your knowledge articles in the Customer Servic
 
 1. Go to the **Filters** section.
 
-### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-
-> [!IMPORTANT]
-> The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+### [Customer Service admin center](#tab/customerserviceadmincenter)
 
   1. In the site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
   1. In the **General settings** section, select **Manage**.
@@ -70,7 +67,7 @@ You can enable search filters for your knowledge articles in the Customer Servic
 
 1. To enable agents to personalize knowledge article search filters in Customer Service Hub, Customer Service workspace, and Omnichannel for Customer Service, set the **Allow agents to personalize the knowledge articles search filters** option to **Yes**.
 1. Go to the **Filters** page.
-### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+### [Customer Service admin center](#tab/customerserviceadmincenter)
 
   * From the **Knowledge** page, go to **Filters** and select **Manage**.
 
@@ -122,10 +119,7 @@ You can add a default filter in the Customer Service admin center (preview) or C
 
 1. Go to the **Filters** page.
 
-### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-
-> [!IMPORTANT]
-> The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+### [Customer Service admin center](#tab/customerserviceadmincenter)
 
   1. In the site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
   2. In the **Filters** section, select **Manage**. The **Filters** page appears.
@@ -152,10 +146,7 @@ You can configure a lookup type filter in the Customer Service admin center (pre
 
 1. Go to the **Filters** page.
 
-### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-
-> [!IMPORTANT]
-> The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+### [Customer Service admin center](#tab/customerserviceadmincenter)
 
   1. In the site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
   1. In the **Filters** section, select **Manage**. The **Filters** page appears.
@@ -198,10 +189,7 @@ You can deactivate or reactivate a filter configuration in the Customer Service 
 
 1. Go to the **Filters** page.
 
-### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-
-> [!IMPORTANT]
-> The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+### [Customer Service admin center](#tab/customerserviceadmincenter)
 
   1. In the site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
   1. In the **Filters** section, select **Manage**. The **Filters** page appears.
@@ -225,10 +213,7 @@ You can allow agents to personalize their knowledge article search filters in th
 
 1. Go to the **Settings** page.
 
-### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-
-> [!IMPORTANT]
-> The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+### [Customer Service admin center](#tab/customerserviceadmincenter)
 
   1. In the site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
   1. In the **General settings** section, select **Manage**. The **General settings** page appears.

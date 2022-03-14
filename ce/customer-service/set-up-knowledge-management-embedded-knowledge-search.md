@@ -1,7 +1,7 @@
 ---
 title: Configure knowledge management (Dynamics 365 Customer Service) | MicrosoftDocs
 description: See how to configure the settings for knowledge management in Dynamics 365 Customer Service
-ms.date: 03/02/2022
+ms.date: 03/14/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -61,12 +61,9 @@ After you have configured knowledge management on your app, you must also set up
   
 [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)] You must also be the tenant administrator of [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)].
 
- You can set up knowledge management in the Customer Service admin center (preview) or Customer Service Hub app. The settings configured for knowledge management in the Customer Service Hub app are carried over to the Customer Service admin center (preview) app, and vice versa.
+ You can set up knowledge management in the Customer Service admin center or Customer Service Hub app. The settings configured for knowledge management in the Customer Service Hub app are carried over to the Customer Service admin center app, and vice versa.
   
-### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-
-> [!IMPORTANT]
-> The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+### [Customer Service admin center](#tab/customerserviceadmincenter)
 
   1. In the site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
   
@@ -163,14 +160,11 @@ You can enable the knowledge search to work by the `searchmode=all` logic, which
 - Article 1: Contoso coffee order price
 - Article 2: Coffee machine order for Contoso
 
-You can set up the knowledge search logic in the Customer Service admin center (preview) or Customer Service Hub app by performing the following steps:
+You can set up the knowledge search logic in the Customer Service admin center or Customer Service Hub app by performing the following steps:
 
 1. Go to the **Settings** page.
 
-### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-
-> [!IMPORTANT]
-> The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+### [Customer Service admin center](#tab/customerserviceadmincenter)
 
   1. In the site map, select **Knowledge** in **Agent experience**.
   1. On the **Knowledge** page, in the **General settings** section, select **Manage**. The **General settings** page appears.
