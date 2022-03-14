@@ -180,4 +180,8 @@ sections:
         > [!div class="mx-imgBorder"]
         > ![Screenshot of selecting Regions](./media/Mobile-PowerApps-SessionDetails.png)
         
+      - question: Where can I find information on mobile app Offline Security & Encryption?
+       answer: |
+        Field Service Mobile follows same architecture and security as Power Apps Mobile. See [Overview of Power Platform Security](https://docs.microsoft.com/power-platform/admin/security/overview#the-application-and-data-on-the-device).
+        
         
