@@ -1,7 +1,7 @@
 ---
 title: Search knowledge articles in the Customer Service workspace in Dynamics 365 Customer Service | Microsoft Docs
 description: See how you can effectively search knowledge articles in the Customer Service workspace.
-ms.date: 02/04/2022
+ms.date: 03/14/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -41,15 +41,12 @@ The knowledge articles are applicable for all knowledge-enabled entities. By def
   |-----|-----------|
   |1.| The Knowledge tab.|
   |2.| Tag when the article is linked to the entity.|
-  |3.| Article number (Preview).|
+  |3.| Article number.|
   |4.| The number of times the article has been viewed. |
-  |5.| Info card that displays search term matches from keywords, description, attachments, and any other custom fields. (Preview). |
+  |5.| Info card that displays search term matches from keywords, description, attachments, and any other custom fields.|
   |6.| Lets you link or unlink the article to the entity, such as the case.|
   |7.| Status and visibility tags for the article.|
-  |8.| Search results across attachments. The attachment title is displayed only when the search term matches the content in the attachment. (Preview).|
-  
-> [!NOTE]
-> The article number, info card that displays search term matches across custom fields, and search results across attachments are in preview.
+  |8.| Search results across attachments. The attachment title is displayed only when the search term matches the content in the attachment.|
 
 ## Use the knowledge search pane to work on your articles
 

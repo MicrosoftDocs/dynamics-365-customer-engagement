@@ -1,7 +1,7 @@
 ---
 title: Enable knowledge article search filters | MicrosoftDocs
 description: "Learn how to enable knowledge article search filters in Dynamics 365 Customer Service."
-ms.date: 02/11/2022
+ms.date: 03/14/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -46,7 +46,7 @@ In full-text search, the archived and discarded status filters are not supported
 
 ## Enable search filters for knowledge articles
 
-You can enable search filters for your knowledge articles in the Customer Service admin center (preview) or Customer Service Hub app by performing the following steps::
+You can enable search filters for your knowledge articles in the Customer Service admin center or Customer Service Hub app by performing the following steps::
 
 1. Go to the **Filters** section.
 
@@ -115,7 +115,7 @@ The following steps apply to these data types:
 - Two choices
 - Date and time
  
-You can add a default filter in the Customer Service admin center (preview) or Customer Service Hub app by performing the following steps:
+You can add a default filter in the Customer Service admin center or Customer Service Hub app by performing the following steps:
 
 1. Go to the **Filters** page.
 
@@ -142,7 +142,7 @@ You can add a default filter in the Customer Service admin center (preview) or C
 
 Some configurable filter values may include lookup types, where there are numerous value options that can be set. Some examples of these filters are Created by, Modified by, and Owner. For these types of values, when you add the filter, you can manually search for and select the records that you want to use.
 
-You can configure a lookup type filter in the Customer Service admin center (preview) or Customer Service Hub app by performing the following steps:
+You can configure a lookup type filter in the Customer Service admin center or Customer Service Hub app by performing the following steps:
 
 1. Go to the **Filters** page.
 
@@ -185,7 +185,7 @@ Keep in mind the following:
 
 - If an agent sets default values, those values will persist and cannot be overwritten by changes made by an administrator.
  
-You can deactivate or reactivate a filter configuration in the Customer Service admin center (preview) or Customer Service Hub app by performing the following steps:
+You can deactivate or reactivate a filter configuration in the Customer Service admin center or Customer Service Hub app by performing the following steps:
 
 1. Go to the **Filters** page.
 
@@ -209,7 +209,7 @@ You can deactivate or reactivate a filter configuration in the Customer Service 
 
 You may have scenarios within your organization where agents are working on different areas and don’t all need the same filter settings. For example, an organization may have agents working on different product areas. One agent might need to see knowledge articles for Product A, while another agent might only want knowledge articles for Product B, and so forth. You can allow your agents to personalize the knowledge article search filters for their areas.
 
-You can allow agents to personalize their knowledge article search filters in the Customer Service admin center (preview) or Customer Service Hub app by performing the following steps:
+You can allow agents to personalize their knowledge article search filters in the Customer Service admin center or Customer Service Hub app by performing the following steps:
 
 1. Go to the **Settings** page.
 

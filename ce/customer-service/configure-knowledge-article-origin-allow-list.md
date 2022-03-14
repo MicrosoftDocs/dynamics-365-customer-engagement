@@ -37,7 +37,7 @@ For published articles, agents and portal users will see an error message in the
 
 ## Configure origins allow list
 
-You can configure the origins allow list in the Customer Service admin center (preview) or Customer Service Hub app by performing the following steps:
+You can configure the origins allow list in the Customer Service admin center or Customer Service Hub app by performing the following steps:
 
 1. Go to the **Settings** page.
 

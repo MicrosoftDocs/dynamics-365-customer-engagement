@@ -40,7 +40,7 @@ Categories are useful for reporting, sorting, segmenting, and categorization of 
   
    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
 
-You can create a category in the Customer Service admin center (preview) or Customer Service Hub app by performing the following steps:
+You can create a category in the Customer Service admin center or Customer Service Hub app by performing the following steps:
 
 1. Go to the **Categories** page.
 
