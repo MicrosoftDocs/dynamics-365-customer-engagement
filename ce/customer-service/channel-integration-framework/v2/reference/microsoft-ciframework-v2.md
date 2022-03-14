@@ -1,7 +1,7 @@
 ---
 title: "Microsoft.CIFramework (JavaScript API Reference) for Channel Integration Framework 2.0 | MicrosoftDocs"
-description: "Includes information about the Microsoft.CIFramework JavaScript API Reference for Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 03/10/2022
+description: "Includes reference information about the Microsoft.CIFramework JavaScript API Reference for Dynamics 365 Channel Integration Framework 2.0."
+ms.date: 03/14/2022
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -13,13 +13,17 @@ ms.custom:
 
 # Microsoft.CIFramework methods (JavaScript API reference) for Dynamics 365 Channel Integration Framework 2.0
 
-Provides methods to use JavaScript API to manage the communication panel (widget), notification, application tab, sessions, records, and forms in the Dynamics 365 model-driven app.
+Microsoft CIFramework provides methods to use JavaScript API to manage the communication panel (widget), notification, application tab, sessions, records, and forms in the Dynamics 365 model-driven app.
+
+> [!Important]
+> - The [CIFInitDone event handler](events/cifinitdone.md) must be invoked before calling the other APIs.
+> - The time-out limit for the APIs is 10 seconds. If the APIs don't run within 10 seconds, they must be run again with changed parameters or scope.
 
 ## Communication panel management APIs
 
 The communication panel is where you as an agent interact with the customer. Partner widgets built using Channel Integration Framework 2.0 are loaded in this panel. The widget in this version is displayed to the left of the session panel and supports Docked, Minimized, and Hidden modes.
 
-You can use the following APIs to manage the state of the communication panel (widget).
+Use the following APIs to manage the state of the communication panel (widget).
 
 | Methods | Description |
 |---------|-------------|
@@ -30,7 +34,7 @@ You can use the following APIs to manage the state of the communication panel (w
 
 ## CRUD operations APIs
 
-These APIs enable you to perform CRUD operations on entity records.
+Use the following APIs to perform CRUD operations on entity records.
 
 | Methods | Description |
 |---------|-------------|
