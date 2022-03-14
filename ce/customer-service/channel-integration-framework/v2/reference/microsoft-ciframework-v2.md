@@ -121,6 +121,6 @@ These APIs enable you to interact with Omnichannel agent presence programmatical
 ### See also
 
 [What's new in Dynamics 365 Channel Integration Framework](../../whats-new-channel-integration-framework.md)  
-[System requirements of Dynamics 365 Channel Integration Framework](../../system-requirements-channel-integration-framework.md)  
+[System requirements for Dynamics 365 Channel Integration Framework](../../system-requirements-channel-integration-framework.md)  
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
