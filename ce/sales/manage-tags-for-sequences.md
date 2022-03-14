@@ -29,7 +29,7 @@ You can perform the following activities on tags:
 -	[Create tags](#create-tags)
 -	[Edit a tag](#edit-a-tag)
 -	[Delete a tag](#delete-a-tag)
--	[Apply a tag to a sequence](#apply-tag-to-a-sequence)
+-	[Apply a tag to a sequence](#apply-a-tag-to-a-sequence)
 -	[Filter sequences based on tags](#filter-sequences-based-on-tags)
 -	[Remove tags from a sequence](#remove-tags-from-a-sequence)
 
@@ -156,7 +156,8 @@ For example, there are three levels of tags in the hierarchy. You delete a tag a
 >[!div class="mx-imgBorder"]
 >![Delete a tag and move its child tags to its parent.](media/sa-sequence-tags-delete-mexico-tag.png "Delete tag to move child tags as parent")    
 
-## Apply a tag to a sequence<a name="apply-tag-to-sequence"></a>
+## Apply a tag to a sequence
+<a name="apply-tag-to-sequence"></a>
 
 1.	In the **Sales Hub** app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
 

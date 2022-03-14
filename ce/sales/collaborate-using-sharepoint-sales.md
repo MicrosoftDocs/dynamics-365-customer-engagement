@@ -76,7 +76,7 @@ You can create new or edit existing SharePoint locations from a model-driven app
 
 1. In the **Files** list on the command bar, select **Open Location**, and then select the location.
 
-2. To edit the location, on the command bar, select **Edit Location** <location name>.
+2. To edit the location, on the command bar, select **Edit Location** *location name*.
 
     The **Edit Location** dialog box appears.
 
