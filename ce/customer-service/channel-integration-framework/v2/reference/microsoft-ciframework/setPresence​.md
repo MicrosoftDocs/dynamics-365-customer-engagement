@@ -25,7 +25,7 @@ Sets the presence status of the agent in the client session​.
 
 | Name            | Type     | Required    | Description       |
 |-----------------|----------|-------------|-------------------|
-| presenceText   | String   | Yes         | Presence text for corresponding presence in Omnichannel for Customer Service. For the presence to be correctly set, the string should be an exact match with text used in the admin app.     |
+| presenceText   | String   | Yes         | Presence text for corresponding presence in Omnichannel for Customer Service. For the presence to be correctly set, the string should be an exact match with text used in the admin app. To create custom presence, see [Configure and manage custom presence](../../../../presence-custom-presence.md).    |
 
 ## Return value
 
@@ -34,20 +34,25 @@ Returns a Boolean value of success.
 ## Example
 
 ```javascript
-Microsoft.CIFramework.setPresence(custompresence).then( 
-                        function (result) { 
-                            if(!result) 
-                            document.getElementById("setPresenceText").innerHTML = "OC Presence is in error state"; 
-                        }, 
-                        function (error) {  
-                            document.getElementById("setPresenceText").innerHTML = "ERROR"; 
-                            reject(error); 
-                        }); 
+Microsoft.CIFramework.setPresence(custompresence).then(
+                        function (result) {
+                            if(!result)
+                          //code handling when OC Presence is in error
+                               else
+                                //code handling for success
+                        },
+                        function (error) {
+
+                            document.getElementById("setPresenceText").innerHTML = "ERROR";
+                            reject(error);
+                        });
+
+                });
 ```
 
 ### See also
 
-[Configure and manage custom presence](../../../../../presence-custom-presence.md)  
+[Configure and manage custom presence](../../../../presence-custom-presence.md)  
 [getPresence method](getPresence.md)  
 
 [!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

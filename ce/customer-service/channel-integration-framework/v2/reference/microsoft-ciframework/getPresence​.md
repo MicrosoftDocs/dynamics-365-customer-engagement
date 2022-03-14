@@ -32,25 +32,29 @@ Returns the presence status of the agent in the client session.
 ## Example
 
 ```javascript
-Microsoft.CIFramework.getPresence().then( 
-                        function (result) { 
-                            if (result == "FAILED") 
-                                document.getElementById("presenceOnChangeText").innerHTML = "OC Presence is in error state"; 
-                            else { 
-                                document.getElementById("presenceOnChangeText").innerHTML = result; 
-                                displayPresence(result); 
-                            } 
-                            return result; 
-                        }, 
-                        function (error) { 
-                            document.getElementById("presenceOnChangeText").innerHTML = "ERROR"; 
-                            reject(error); 
-                        }); 
+function getPresence() {
+                return new Promise((resolve, reject) => {
+                    Microsoft.CIFramework.getPresence().then(
+                        function (result) {
+                            if (result == "FAILED")
+                               //your code handling for failure
+                            else {
+                               //your code for success
+                            }
+                            return result;
+
+                        },
+                        function (error) {
+
+                           // code handling for promise faiure
+                        });
+
+                });
 ```
 
 ### See also
 
-[Configure and manage custom presence](../../../../../presence-custom-presence.md)  
+[Configure and manage custom presence](../../../../presence-custom-presence.md)  
 [setPresence method](setPresence.md)  
 
 [!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]
