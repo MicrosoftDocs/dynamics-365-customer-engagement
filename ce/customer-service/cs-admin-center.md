@@ -40,7 +40,7 @@ Some of the improvements include:
 
 You'll need one or more of the following security roles to access this app.
 
-- **System Administrator**: Can access and edit all the sitemap entries
+- **System Administrator**: Can access and edit all the site map entries
 
 - **System Customizer**: Can access and edit all the site map entries
 
