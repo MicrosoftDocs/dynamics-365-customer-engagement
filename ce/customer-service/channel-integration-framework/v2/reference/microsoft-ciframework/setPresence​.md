@@ -48,9 +48,5 @@ Microsoft.CIFramework.setPresence(custompresence).then(
                 });
 ```
 
-### See also
-
-[Configure and manage custom presence](../../../../presence-custom-presence.md)  
-[getPresence method](getPresence.md)  
 
 [!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

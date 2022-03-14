@@ -52,9 +52,4 @@ function getPresence() {
                 });
 ```
 
-### See also
-
-[Configure and manage custom presence](../../../../presence-custom-presence.md)  
-[setPresence method](setPresence.md)  
-
 [!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]
