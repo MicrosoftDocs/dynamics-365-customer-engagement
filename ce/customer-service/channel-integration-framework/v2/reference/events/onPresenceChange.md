@@ -32,6 +32,6 @@ handlerFunction = function (eventData) {
 [addHandler method](../microsoft-ciframework/addHandler.md)  
 [removeHandler method](../microsoft-ciframework/removeHandler.md)  
 [getPresence method](microsoft-ciframework/getPresence.md)  
-[setPresence method](microsoft-ciframework/setPresence.md)  
+[setPresence method](v2/reference/microsoft-ciframework/setPresence.md)  
 
 [!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]
