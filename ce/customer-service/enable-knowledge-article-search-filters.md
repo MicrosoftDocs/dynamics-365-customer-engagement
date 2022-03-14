@@ -64,7 +64,7 @@ You can enable search filters for your knowledge articles in the Customer Servic
 
 2. Set **Enable search filters** to **Yes**, and then select **Save**.
 
-1. To enable agents to personalize knowledge article search filters in Customer Service Hub, Customer Service workspace, and Omnichannel for Customer Service:
+3. To enable agents to personalize knowledge article search filters in Customer Service Hub, Customer Service workspace, and Omnichannel for Customer Service:
 
 ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
@@ -76,11 +76,11 @@ You can enable search filters for your knowledge articles in the Customer Servic
 
 ---
 
-5. Select the filters you want to make available for knowledge search.
+4. Select the filters you want to make available for knowledge search.
 
 ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
-  - You will find the filters on the **Filters** page.  
+  - Move through the **Filters** page to view the filters.  
 
 ### [Customer Service Hub](#tab/customerservicehub)
 
@@ -88,19 +88,19 @@ You can enable search filters for your knowledge articles in the Customer Servic
 
 ---
 
-1. To set predetermined values that will appear for agents by default, select the ellipsis in the top-right corner of a filter area, and then select **Preselects**.
+5. To set predetermined values that will appear for agents by default, select the ellipsis in the top-right corner of a filter area, and then select **Preselects**.
     > [!div class=mx-imgBorder]
     > ![Select filter preselects.](media/select-filter-preselects.png "Select filter preselects.")
-1. To make a filter value available by default, turn on the **Set as preselected filter** toggle, so that **Preselected** appears next to the filter name, and then select **Done**.
+6. To make a filter value available by default, turn on the **Set as preselected filter** toggle, so that **Preselected** appears next to the filter name, and then select **Done**.
    Values that are set as preselected automatically participate in the filtering without requiring the agent to manually select them. Only values made visible can be preselected.
     > [!div class=mx-imgBorder]
     > ![Toggle filter to show as Preselected.](media/set-filter-preselects.png "Toggle filter to show as Preselected.")
    
 
-8. If you want to set the filters that must be shown to the agent, select the ellipsis in the top-right corner of a filter area, and then select **Visibility**.
+7. If you want to set the filters that must be shown to the agent, select the ellipsis in the top-right corner of a filter area, and then select **Visibility**.
    
-9. Select the values that you want to show the agent, and then select **Done**.
-10. When you're finished with configuring the values you want, select **Save**.
+8. Select the values that you want to show the agent, and then select **Done**.
+9. When you're finished with configuring the values you want, select **Save**.
 
 ## Enable custom fields as search filters
 
