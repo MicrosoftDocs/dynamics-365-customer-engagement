@@ -19,7 +19,7 @@ Sets the presence status of the agent in the client session​.
 
 ## Syntax
 
-`Microsoft.CIFramework.setPresence(presenceState)`
+`Microsoft.CIFramework.setPresence(presenceText)`
 
 ## Parameters
 
