@@ -209,6 +209,12 @@
             href: v2/reference/microsoft-ciframework/updateRecord.md
           - name: "deleteRecord"
             href: v2/reference/microsoft-ciframework/deleteRecord.md
+        - name: "Presence APIs"
+          items:
+          - name: "getPresence"
+            href: v2/reference/microsoft-ciframework/getPresence.md
+          - name: "setPresence"
+            href: v2/reference/microsoft-ciframework/setPresence.md             
         - name: "Notification management APIs"
           items:
           - name: "notifyEvent"
@@ -254,13 +260,7 @@
           - name: "updateConversation"
             href: v2/reference/microsoft-ciframework/updateConversation.md
           - name: "logAnalyticsEvent"
-            href: v2/reference/microsoft-ciframework/logAnalyticsEvent.md       
-        - name: "Presence APIs"
-          items:
-          - name: "getPresence"
-            href: v2/reference/microsoft-ciframework/getPresence.md
-          - name: "setPresence"
-            href: v2/reference/microsoft-ciframework/setPresence.md           
+            href: v2/reference/microsoft-ciframework/logAnalyticsEvent.md                 
       - name: "Client-side events"
         href: reference/client-side-events.md
         items:

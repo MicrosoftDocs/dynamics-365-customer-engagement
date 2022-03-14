@@ -13,8 +13,6 @@ ms.custom:
 
 # setPresence (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
 
-[!include[session-api-omnichannel](../../includes/session-api-omnichannel.md)]
-
 Sets the presence status of the agent in the client session​.
 
 ## Syntax
