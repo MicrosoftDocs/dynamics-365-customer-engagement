@@ -22,7 +22,7 @@ You can customize the following for the **Customer summary** page:
 > [!NOTE]
 > However, for a conversation entity, you can't add custom fields, forms, or views.
 
-By default, the **Customer summary** page displays the sections that are listed in this topic. For information on how to customize these sections, see [Customize quick view forms](customize-quick-view-form.md).
+By default, the **Customer summary** page displays the sections that are listed in this article. For information on how to customize these sections, see [Customize quick view forms](customize-quick-view-form.md).
 
 ## Customer profile
 

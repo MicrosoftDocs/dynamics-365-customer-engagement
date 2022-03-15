@@ -1,6 +1,6 @@
 ---
 title: "Add a chat widget | MicrosoftDocs"
-description: "Perform the steps mentioned in the topic to add a chat widget in Omnichannel for Customer Service."
+description: "Perform the steps mentioned in the article to add a chat widget in Omnichannel for Customer Service."
 ms.date: 02/25/2022
 author: neeranelli
 ms.author: nenellim

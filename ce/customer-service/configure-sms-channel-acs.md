@@ -1,6 +1,6 @@
 ---
 title: "Configure an SMS channel using Azure Communication Services | MicrosoftDocs"
-description: "Get instructions for configuring an SMS channel in Omnichannel for Customer Service using Azure Communication Services."
+description: "Use this article to get instructions for configuring an SMS channel in Omnichannel for Customer Service using Azure Communication Services."
 ms.date: 02/18/2022
 ms.topic: article
 author: mh-jaya
@@ -22,7 +22,7 @@ The SMS channel in Omnichannel for Customer Service allows your organization to 
 
 - [Connect to Azure Communication Services](voice-channel-acs-resource.md).  
   
-   If you’ve connected your existing Azure resource, ensure that you’ve [created an event subscription endpoint for SMS](voice-channel-acs-resource.md#create-event-subscription-endpoint-for-sms).
+   If you’ve connected your existing Azure resource, ensure that you’ve [created an event subscription endpoint for SMS](voice-channel-connect-existing-resource.md#create-event-subscription-endpoint-for-sms).
 - Provision a phone number that's enabled for SMS services. Ensure that you select **Send SMS** or **Send and receive SMS** options when you choose your phone number features in Omnichannel admin center. More information: [Acquire new phone numbers](voice-channel-manage-phone-numbers.md#acquire-new-phone-numbers)
    
     If you're using an existing phone number that's not enabled for SMS, then you can upgrade your plan. More information: [Edit phone numbers](voice-channel-manage-phone-numbers.md#edit-phone-numbers)

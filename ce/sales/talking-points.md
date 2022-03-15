@@ -54,7 +54,7 @@ Talking points will display only the latest communication for each topic on the 
 
 ### See also
 
-[Configure talking points](configure-talking-points.md)
+[Configure talking points](configure-talking-points.md)  
 [Talking points FAQs](faqs-sales-insights.md#talking-points)
 
 
