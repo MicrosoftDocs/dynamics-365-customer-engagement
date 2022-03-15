@@ -105,28 +105,28 @@ Before you upload the JavaScript library, it must be created according to the sc
 
 Write your custom JavaScript code. The following example disables all fields except a few for the **Opportunity** entity:  
 
-    ```JavaScript
-    function OnRowLoad(executionContext) {
+```JavaScript
+function OnRowLoad(executionContext) {
 
-    // Get the logical name of the loaded entity as part of forecasting editable grid.
-    var entityName = executionContext.getFormContext().data.entity.getEntityName();
+// Get the logical name of the loaded entity as part of forecasting editable grid.
+var entityName = executionContext.getFormContext().data.entity.getEntityName();
 
-        if (entityName === "opportunity") {
+    if (entityName === "opportunity") {
 
-            // Defining the attributes list from opportunity that must be enabled if loaded as part of view.
-            var OPTY_ENABLE_ATTRS_LIST = ["name", "msdyn_forecastcategory", "actualvalue", "actualclosedate", "estimatedvalue", "estimatedclosedate"];
+        // Defining the attributes list from opportunity that must be enabled if loaded as part of view.
+        var OPTY_ENABLE_ATTRS_LIST = ["name", "msdyn_forecastcategory", "actualvalue", "actualclosedate", "estimatedvalue", "estimatedclosedate"];
 
-            executionContext.getFormContext().data.entity.attributes.forEach(
-                attribute => {
-                    // Disabling all attributes other than OPTY_ENABLE_ATTRS_LIST
-                    if (!OPTY_ENABLE_ATTRS_LIST.includes(attribute.getName())) {
-                        attribute.controls.get(0).setDisabled(true);
-                    }
+        executionContext.getFormContext().data.entity.attributes.forEach(
+            attribute => {
+                // Disabling all attributes other than OPTY_ENABLE_ATTRS_LIST
+                if (!OPTY_ENABLE_ATTRS_LIST.includes(attribute.getName())) {
+                    attribute.controls.get(0).setDisabled(true);
                 }
-            )        
-        }
+            }
+        )        
     }
-    ```
+}
+```
 
 >[!NOTE]
 >
