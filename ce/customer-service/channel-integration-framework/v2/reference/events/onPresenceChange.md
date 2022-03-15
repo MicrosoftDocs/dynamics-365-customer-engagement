@@ -1,7 +1,7 @@
 ---
 title: "onPresenceChange​ event (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Includes reference information about the onPresenceChange​ event such as syntax and example for Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 03/14/2022
+ms.date: 03/15/2022
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
