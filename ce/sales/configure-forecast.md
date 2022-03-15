@@ -1,7 +1,7 @@
 ---
 title: Configure forecasts in your organization
-description: Configure forecasts based on revenue or quantity to appear on the forecast grid.
-ms.date: 02/28/2022
+description: Configure forecasts based on revenue or quantity to predict how much revenue your sales team will generate in a given time frame.
+ms.date: 03/15/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -17,7 +17,18 @@ searchScope:
 
 # Configure forecasts in your organization
 
-A forecast helps your organization predict how much revenue your sales team will generate in a given time frame. When done correctly, forecasting can play a significant role in your company's success. Using forecasts:
+A forecast helps your organization predict how much revenue your sales team will generate in a given time frame. When done correctly, forecasting can play a significant role in your company's success.  
+
+## License and role requirements
+
+| &nbsp; | &nbsp; |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | System Administrator or Forecast Manager<br>See [Predefined security roles for Sales](security-roles-for-sales.md) |
+
+## How forecasting helps organizations?
+
+Using forecasts:
 
 - Sellers can track performance against targets and identify pipeline risks that might jeopardize their ability to hit them.
 - Managers can track individual sales performance against quotas to proactively provide coaching.
@@ -26,13 +37,6 @@ A forecast helps your organization predict how much revenue your sales team will
 
 >[!NOTE]
 >Forecasting isn't supported on Government Community Cloud (GCC) or mobile devices.
-
-## License and role requirements
-
-| &nbsp; | &nbsp; |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Forecast Manager<br>See [Predefined security roles for Sales](security-roles-for-sales.md) |
 
 ## Configure forecasting
 

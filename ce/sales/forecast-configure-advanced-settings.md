@@ -19,7 +19,6 @@ When you're configuring forecasts in Sales Hub, use the **Advanced** step to:
 - [Select the default attribute to group underlying records (preview)](#select-the-default-attribute-to-group-underlying-records-preview)
 - [Customize underlying records](#customize-underlying-records)
 
-[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 
 ## License and role requirements
 
@@ -55,11 +54,13 @@ For example, your organization has sales teams in the United States, Canada, and
 
 ## Set kanban as the default view for underlying records (preview)
 
+[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+
 The underlying records of a forecast can be displayed in a table view or a kanban (swimlane) view. Table view is the default. To change it, turn on **Set kanban as default**.
 
 :::image type="content" source="media/forecast-default-kanban.png" alt-text="A screenshot of a forecast with kanban set as the default view and underlying records shown in kanban view.":::
 
-A user's most recent selection overrides the default for that user. For example, the default view for the underlying records is kanban. A user switches to the table view. The underlying records open in the table view the next time the user views the forecast.
+A user's most recent selection overrides the default for that user. For example, the default view for the underlying records of a forecast is kanban. and a user switches to the table view. The underlying records open in the table view the next time the user views the forecast.
 
 ## View prediction factors
 
@@ -70,18 +71,26 @@ You'll need to turn on **Enable prediction factors** in your forecast's advanced
 :::image type="content" source="./media/predictive-forecasting-prediction-details.png" alt-text="A screenshot of a forecast's prediction details.":::
 
 >[!NOTE]
->Premium forecasting must be on for the **Prediction details** view to work. For more information, see [About premium forecasting](/dynamics365/ai/sales/configure-premium-forecasting).
+>Premium forecasting must be turned on for the **Prediction details** view to work. For more information, see [About premium forecasting](/dynamics365/ai/sales/configure-premium-forecasting).
 
 ## Select the default attribute to group underlying records (preview)
 
-Select an attribute by which to group underlying records by default. Users can select a different grouping attribute. Their selection overrides the default the next time they view the forecast.
+From the **Default underlying records group by attribute (Preview)** dropdown, select an attribute by which to group underlying records by default. Users can select a different grouping attribute. Their selection overrides the default the next time they view the forecast.
+
+The following screenshot illustrates how selecting the attribute, groups the underlying records by default:
+
+:::image type="content" source="media/forecast-default-group.png" alt-text="A screenshot of the group by attribute option and how the records are grouped based on the selected attribute.":::
 
 >[!NOTE]
 >Grouping is only available in the table view. If you want to group underlying records, you'll need to turn off **Set kanban as default**. If you select both kanban view and grouping, then the default view is set to kanban, and groups appear only when the user switches to the table view.
 
 ## Select the default view for underlying records (preview)
 
-If you want underlying records to open in a specific view by default, select it in **Default underlying records view**. For more information, see [View and manage underlying opportunities](./view-and-manage-underlying-opportunities.md).
+If you want underlying records to open in a specific view (such as My open opportunities view) by default, select it in **Default underlying records view**. For more information, see [View and manage underlying opportunities](./view-and-manage-underlying-opportunities.md).
+
+The following screenshot illustrates how selecting a default view displays the underlying records in that view by default:
+
+:::image type="content" source="media/forecast-default-records-view.png" alt-text="A screenshot of the default underlying records view option and the view appearing in the underlying records grid.":::
 
 >[!NOTE]
 >View selection is only available in the table view. If you want to open the records in a specific view by default, you'll need to turn off **Set kanban as default**. If you select both kanban view and a default view, then the records open in kanban view, and the default view appears only when the user switches to the table view.

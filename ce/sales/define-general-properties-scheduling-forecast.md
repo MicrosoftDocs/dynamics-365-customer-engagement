@@ -29,7 +29,7 @@ Use general properties and scheduling options to define a forecast model.
 
 1. Select a **Rollup entity**.
 
-    The forecast is based on the gross rollup of the entity you select. Each template starts with a default rollup entity:
+    The forecast is based on the gross rollup of the entity you select. Each forecast template starts with a default rollup entity:
 
     | Template | Default rollup entity |
     |----------|-----------------------|
@@ -47,7 +47,7 @@ Use general properties and scheduling options to define a forecast model.
 
     The forecast uses this entity to group your organization's data. Only entities that have a hierarchy are shown in the list.
 
-    Each template starts with a default hierarchy entity:
+    Each forecast template starts with a default hierarchy entity:
 
     | Template | Default hierarchy entity |
     |----------|--------------------------|
@@ -57,7 +57,7 @@ Use general properties and scheduling options to define a forecast model.
 
 1. Select a **Rollup to hierarchy relationship**.
 
-    This step establishes a relationship between the rollup and hierarchy entities. Each template starts with a default rollup to hierarchy relationship:
+    This step establishes a relationship between the rollup and hierarchy entities. Each forecast template starts with a default rollup to hierarchy relationship:
 
     | Template | Rollup to hierarchy relationship | Description |
     |----------|----------------------------------|-------------|
@@ -176,6 +176,7 @@ More options are available when you turn on advanced scheduling:
 
 [Configure forecasts in your organization](configure-forecast.md)  
 [Configure forecasts by using a custom rollup entity](configure-forecast-using-custom-rollup-entity.md)  
+[Work with fiscal year settings](/power-platform/admin/work-fiscal-year-settings)  
 [Troubleshooting forecasts](ts-forecasts.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
