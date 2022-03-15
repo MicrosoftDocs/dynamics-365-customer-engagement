@@ -18,14 +18,14 @@ ms.custom:
   - dyn365-admin
 ---
 
-# Customize live chat widget for mobile apps
+# Customize live chat widgets for mobile apps
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-If the SDK does not meet your requirements, you can embed a live chat widget code in your mobile app. However, embedding a chat widget code has many more limitations and restrictions compared to using the Omnichannel Chat SDK, such as reduced performance, limited mobile usability, and unavailable features.
+If the live chat SDK does not meet your requirements, then you can embed a widget code in your mobile app. However, embedding a chat widget code has many limitations such as reduced performance, limited mobile usability, and unavailable features.
 
 > [!NOTE]
-> - Live chat widget features&mdash;escalating to voice and video, and downloading the chat transcript&mdash;aren't supported on the mobile apps.
+> - Live chat widget features&mdash;escalating to voice and video, and downloading the chat transcript&mdash;aren't supported on mobile apps.
 
 ## Render the live chat widget using embedded code
 
