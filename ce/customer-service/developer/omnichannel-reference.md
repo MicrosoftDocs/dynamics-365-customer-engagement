@@ -26,6 +26,7 @@ The following JavaScript methods can be used to perform various operations with 
 | [startChat](reference/methods/startChat.md) | [!INCLUDE[startchat-description](reference/includes/startChat-description.md)] |
 | [startProactiveChat](reference/methods/startProactiveChat.md) | [!INCLUDE[startproactivechat-description](reference/includes/startProactiveChat-description.md)] |
 | [closeChat](reference/methods/closeChat.md) | [!INCLUDE[closechat-description](reference/includes/closeChat-description.md)] |
+| [getQueueAvailability](reference/methods/getQueueAvailability.md) | [!INCLUDE[closechat-description](reference/includes/getQueueAvailability-description.md)] |
 
 ## Events
 
