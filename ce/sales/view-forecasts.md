@@ -1,7 +1,7 @@
 ---
 title: "View a forecast (Dynamics 365 Sales) | MicrosoftDocs"
 description: "See a forecast in Dynamics 365 Sales to know the health of your pipeline or to track how your sales team is doing against their quota or target."
-ms.date: 02/10/2022
+ms.date: 03/15/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
