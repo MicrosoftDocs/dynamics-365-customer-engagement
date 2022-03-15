@@ -1,6 +1,6 @@
 ---
 title: "Enable an Azure bot to escalate and end conversations | MicrosoftDocs"
-description: "Use this topic to understand how to program Azure bots to route conversations to human agents and also end conversations in Omnichannel for Customer Service."
+description: "Use this article to understand how to program Azure bots to route conversations to human agents and also end conversations in Omnichannel for Customer Service."
 ms.date: 10/22/2021
 ms.topic: reference
 author: neeranelli
@@ -13,7 +13,7 @@ manager: shujoshi
 
 ## Introduction
 
-This topic explains how you can program an Azure bot in Omnichannel for Customer Service to route a conversation to a human agent. It also describes how to program the bot to end the conversation.
+This article explains how you can program an Azure bot in Omnichannel for Customer Service to route a conversation to a human agent. It also describes how to program the bot to end the conversation.
 
 > [!NOTE]
 > Bot agents are not supported in consult mode.
