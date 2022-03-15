@@ -1,7 +1,7 @@
 ---
 title: "Configure Relationship analytics and health"
 description: "Configure relationship analytics and health to provide graphical representation of KPIs and activity histories to the sellers."
-ms.date: 02/11/2022
+ms.date: 03/15/2022
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -88,7 +88,10 @@ Relationship analytics provides a graphical representation of KPIs and activity 
     
 10. Select **Save**.   
 
-    Relationship analytics is ready to use in your organization.   
+    Relationship analytics is ready to use in your organization.
+
+>[!NOTE]
+> If your organization is using a custom sales app or a custom form for lead or contact, add the **Relationship Health** widget to your app. The widget makes the relationship health score information available to sellers. More information: [Add Relationship intelligence widgets to custom forms](add-ri-widgets-to-custom-form.md).  
 
 ## Allow to collect information from Exchange server 
 
