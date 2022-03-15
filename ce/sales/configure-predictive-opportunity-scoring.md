@@ -246,7 +246,7 @@ It's time to retrain a model when its prediction accuracy score doesn't meet you
 >[!NOTE]
 >For better prediction accuracy scoring, retrain a model after the data in your organization is refreshed.
 
-You can retrain the model [automatically](#automatic-retraining) or [manually](#manually-retraining). Both methods are described in the following sections.
+You can retrain the model [automatically](#automatic-retraining) or [manually](#manual-retraining). Both methods are described in the following sections.
 
 ### Automatic retraining
 
