@@ -640,6 +640,8 @@
       items: 
       - name: Customize chat widgets using data tags
         href: customize-chat-widget.md
+      - name: Customize live chat widget using Chat SDK
+        href: customize-live-chat-widget-sdk.md        
       - name: Customize live chat widgets for mobile apps
         href: render-live-chat-widget-mobile.md
       - name: Download transcripts in bulk
