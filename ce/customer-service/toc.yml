@@ -640,7 +640,7 @@
       items: 
       - name: Customize live chat widgets using data tags
         href: customize-chat-widget.md
-      - name: Customize live chat widgets using Chat SDK
+      - name: Customize live chat widgets using Omnichanel Chat SDK
         href: customize-live-chat-widget-sdk.md        
       - name: Customize live chat widgets for mobile apps
         href: render-live-chat-widget-mobile.md
