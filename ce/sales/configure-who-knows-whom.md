@@ -60,7 +60,12 @@ The Who knows whom feature helps sellers to quickly identify colleagues who can 
 
 6. Select **Save**.
 
-The who knows whom feature is configured. As a next step, work with your Microsoft 365 administrator to [Enable the connection graph](#enable-the-connection-graph). This step is mandatory; users will see the suggestions only after the connection graph is enabled.  
+The who knows whom feature is configured. 
+
+>[!NOTE]
+> If your organization is using a custom sales app, add the Who Knows Whom widget to your app. Sellers can use the widget to know the collegues who can introduce them o the lead or contact. More information: [Add Relationship intelligence widgets to custom forms](add-ri-widgets-to-custom-form.md).
+
+As a next step, work with your Microsoft 365 administrator to [Enable the connection graph](#enable-the-connection-graph). This step is mandatory; users will see the suggestions only after the connection graph is enabled.  
 
 ## Enable the connection graph
 
