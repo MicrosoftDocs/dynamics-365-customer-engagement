@@ -13,7 +13,7 @@ ms.custom:
 
 # cancelEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
 
-Hides or cancels a notification about incoming conversations based on the cancellation token.
+Hides or cancels the notification about incoming conversations based on the cancellation token.
 
 ## Syntax
 
