@@ -79,6 +79,9 @@ Users should be configured as a bookable resource so that they can be assigned w
 8. To use the user schedule for assignment, set up the bookable resource calendar. More information: [Apply a calendar to a resource](../field-service/calendar-resource.md)
 
 9. Add the user to the required queue that's configured for unified routing. More information: [Configure queues for unified routing](queues-omnichannel.md)
+   
+   > [!NOTE]
+   > Bots in a queue are modeled as a bookable resource and therefore will be considered for assignment. However, we recommend that you don't add bots to queues that are used for routing records.
 
 ### Capacity
 
