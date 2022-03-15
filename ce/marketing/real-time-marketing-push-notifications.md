@@ -2,7 +2,6 @@
 title: "Create push notifications (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create push notifications for real-time marketing journeys in Dynamics 365 Marketing."
 ms.date: 11/08/2021
-
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
