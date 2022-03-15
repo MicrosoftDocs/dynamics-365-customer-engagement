@@ -1,7 +1,7 @@
 ---
 title: "Microsoft.CIFramework (JavaScript API Reference) for Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Includes reference information about the Microsoft.CIFramework JavaScript API Reference for Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 03/14/2022
+ms.date: 03/15/2022
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -45,13 +45,15 @@ Use the following APIs to perform CRUD operations on entity records.
 
 ## Notification management APIs
 
+Use the following API to display a notification about an incoming conversation.
+
 | Methods | Description |
 |---------|-------------|
 | [notifyEvent](microsoft-ciframework/notifyEvent.md)| Displays a notification that can be used to inform agent about an incoming conversation. |
 
 ## Application tab management APIs
 
-These APIs enable you to create and manage the state of an application tab.
+Use the following APIs to create and manage the state of an application tab.
 
 | Methods | Description |
 |---------|-------------|
@@ -64,7 +66,7 @@ These APIs enable you to create and manage the state of an application tab.
 
 ## Session management APIs
 
-These APIs allow you to manage sessions in a multisession provider environment.
+Use these APIs to manage sessions in a multisession provider environment.
 
 | Methods | Description |
 |---------|-------------|
@@ -78,7 +80,7 @@ These APIs allow you to manage sessions in a multisession provider environment.
 
 ## Channel analytics APIs
 
-Channel Analytics APIs enable you to track event analytics.
+Use these APIs to track event analytics.
 
 | Methods | Description |
 |---------|-------------|
@@ -87,7 +89,7 @@ Channel Analytics APIs enable you to track event analytics.
 
 ## Session indicator APIs
 
-Session indicator APIs indicate a KPI breach and can be used to update the number of new activities in a particular session.
+Use these APIs to indicate a KPI breach and to update the number of new activities in a particular session.
 
 | Methods | Description |
 |---------|-------------|
@@ -96,7 +98,7 @@ Session indicator APIs indicate a KPI breach and can be used to update the numbe
 
 ## Presence APIs
 
-These APIs enable you to interact with Omnichannel agent presence programmatically.
+Use these APIs to set and retrieve the Omnichannel agent presence programmatically. You can use the methods when the agent is working on a third-party application, and to synchronize presence states between different applications to ensure that agent capacity is optimally utilized.
 
 | Methods | Description |
 |---------|-------------|
