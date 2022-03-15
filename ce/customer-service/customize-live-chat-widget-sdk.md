@@ -1,5 +1,5 @@
 ---
-title: "Customize live chat widgets using Chat SDK | MicrosoftDocs"
+title: "Customize live chat widgets using Omnichannel Chat SDK | MicrosoftDocs"
 description: "Use this article to develop live chat widgets on your mobile apps using Omnichannel Chat SDK."
 ms.date: 03/18/2022
 ms.topic: article
@@ -18,11 +18,11 @@ ms.custom:
   - dyn365-admin
 ---
 
-# Customize live chat widget using Live Chat SDK
+# Customize live chat widget using Omnichannel Chat SDK
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Use the Omnichannel Chat SDK to create Omnichannel for Customer Service chat widgets in mobile apps. The open-source Omnichannel Chat SDK comes with a fully customizable user interface with Omnichannel chat methods and features. The SDK is supported on React Native, and therefore works for iOS and Android apps, and also on web browsers.
+Using the Omnichannel Chat SDK, you can create and customize chat widgets for use in mobile apps. The open-source Omnichannel Chat SDK comes with a fully customizable user interface with Omnichannel chat methods and features. The SDK is supported on React Native, and therefore works on iOS and Android apps, as well as on web browsers.
 
 Examples of sample apps in the Omnichannel Chat SDK include:
 
@@ -36,7 +36,7 @@ This topic explains how you can use the Omnichannel Chat SDK to customize the li
 
 ## Download Omnichannel Chat SDK
 
-We recommend that you download the latest version of the Omnichannel Chat SDK package to implement the latest features. For download instructions and information, go to the [Omnichannel Chat SDK Installation page on GitHub](https://github.com/microsoft/omnichannel-chat-sdk#installation).
+We recommend that you download the latest version of the Omnichannel Chat SDK package to take advantage of the newly added features. For download instructions and information, go to the [Omnichannel Chat SDK Installation page on GitHub](https://github.com/microsoft/omnichannel-chat-sdk#installation).
 
 > [!Note]
 > To implement the Azure Bot Service channel, you'll need Omnichannel Chat SDK 1.0.0.
