@@ -19,7 +19,7 @@ searchScope:
 If your organization has configured multiple forecasts, save your users time and select one to be displayed by default when they open the Forecasts page.
 
 > [!NOTE]
-> You can also specify the default experience for the underlying records of the forecast. More information: [Preview: Set the default experience for underlying records](forecast-configure-advanced-settings.md#preview-set-the-default-experience-for-underlying-records).
+> You can also specify the default experience for the underlying records of the forecast. More information: [Configure advanced settings for forecasts](forecast-configure-advanced-settings.md).
 
 ## License and role requirements
 

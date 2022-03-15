@@ -105,7 +105,7 @@ For example, you have sales teams in the US and Europe. The base currency for yo
 > ![Select currency drop-down.](media/forecast-multi-currency-select.png "Select currency drop-down")
 
 >[!NOTE]
->Administrator or forecast manager must enable the option to select currency. More information: [Enable multi-currency selection](forecast-configure-advanced-settings.md#enable-multi-currency-selection)
+>Administrator or forecast manager must enable the option to select currency. More information: [Turn on multi-currency selection](forecast-configure-advanced-settings.md#turn-on-multi-currency-selection).
 
 ## Tasks you can do on the forecast grid
 
