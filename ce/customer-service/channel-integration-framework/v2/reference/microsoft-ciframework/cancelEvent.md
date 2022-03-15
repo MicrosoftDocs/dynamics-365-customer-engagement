@@ -1,7 +1,7 @@
 ---
 title: "cancelEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
-description: "Learn about cancelEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 03/08/2022
+description: "Get reference information such as syntax and parameters for the cancelEvent (JavaScript API Reference) in Dynamics 365 Channel Integration Framework 2.0."
+ms.date: 03/15/2022
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -13,7 +13,7 @@ ms.custom:
 
 # cancelEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
 
-Hides a notification based on the cancellation ID.
+Hides a notification based on the cancellation token.
 
 ## Syntax
 
@@ -21,16 +21,16 @@ Hides a notification based on the cancellation ID.
 
 ## Parameters
 
-| Name            | Type     | Required     | Description     |
-|-----------------|----------|--------------|-----------------|
-| cancellationToken| String  | Yes       | JSON input      |
-| correlationId   | GUID     | No           | Used to group all related API calls together for diagnostic telemetry.          |
-| successCallback | Function | No           | On success callback, response object will have the information about whether customer selected Accept or Reject. |
-| errorCallback   | Function | No           | A function to call when the operation fails.  |
+| Name            | Type      | Required     | Description     |
+|-----------------|---------- |--------------|-----------------|
+| cancellationToken| String   | Yes          | JSON input      |
+| correlationId    | GUID     | No           | Used to group all related API calls together for diagnostic telemetry.   |
+| successCallback  | Function | No | On success callback, response object will have the information about whether customer selected Accept or Reject.|
+| errorCallback    | Function | No           | A function to call when the operation fails.  |
 
 ## Callback function details
 
-The following objects are passed into successCallback and errorCallback functions.
+The following objects are passed into the `successCallback` and `errorCallback` functions.
 
 ### successCallback function
 
@@ -74,11 +74,18 @@ Sample JSON object:
 
 ## Example
 
-<!-->
 ```javascript
-
+// Trying to cancel a notification, use the same cancelToken passed during creation of notification in notifyEvent
+Microsoft.CIFramework.cancelEvent(CancelToken).then(
+                function success(result) {
+                                console.log(result);
+                                // Perform operations
+                },
+                function (error) {
+                                console.log(error.message);
+                                // Handle error conditions
+                }
 );
 ```
--->
 
 [!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

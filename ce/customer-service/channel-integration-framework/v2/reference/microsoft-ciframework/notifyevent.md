@@ -1,7 +1,7 @@
 ---
 title: "notifyEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
-description: "Learn about notifyEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 03/08/2022
+description: "Get reference information such as syntax and parameters for the notifyEvent (JavaScript API Reference) in Dynamics 365 Channel Integration Framework 2.0."
+ms.date: 03/15/2022
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -25,13 +25,13 @@ Displays a notification that can be used to inform the agent about incoming conv
 |-----------------|----------|--------------|-----------------|
 | input           | String   | Yes          | JSON input      |
 | correlationId   | GUID     | No           | Used to group all related API calls together for diagnostic telemetry.  |
-| cancellationId  | GUID    | No            | Used to send a cancellation token while calling notifyEvent.  The `cancellationId` is used by the cancelEvent to hide a notification. |
+| cancellationToken | GUID    | No            | Used to send a cancellation token while calling `notifyEvent`.  The `cancellationToken` is used by the cancelEvent to hide a notification. |
 | successCallback | Function | No           | On success callback, response object will have the information about whether the customer selected Accept or Reject. |
 | errorCallback   | Function | No           | A function to call when the operation fails.  |
 
 ## Callback function details
 
-The following objects are passed into successCallback and errorCallback functions.
+The following objects are passed into the `successCallback` and `errorCallback` functions.
 
 ### successCallback function
 
@@ -76,23 +76,28 @@ Sample JSON object:
 ## Example
 
 ```javascript
+var canceltoken = "cancellationtoken"+ Math.ceil(Math.random() * 100000 + 100000).toString();
+
+ 
+
 var input = {
-	templateName: "msdyn_chat_incoming_unauthenticated",
-	// unique name of the configured template
-	templateParameters: {
-	}
+                templateName: "msdyn_chat_incoming_unauthenticated",
+                // unique name of the configured template
+                templateParameters: {
+                },
+// unique random token, to identify the notification during cancelEvent call
+                cancellationToken: canceltoken
 }
 Microsoft.CIFramework.notifyEvent(input).then(
-	function success(result) {
-		console.log(result);
-		// Perform operations
-	},
-	function (error) {
-		console.log(error.message);
-		// Handle error conditions
-	}
+                function success(result) {
+                                console.log(result);
+                                // Perform operations
+                },
+                function (error) {
+                                console.log(error.message);
+                                // Handle error conditions
+                }
 );
 ```
-
 
 [!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]
