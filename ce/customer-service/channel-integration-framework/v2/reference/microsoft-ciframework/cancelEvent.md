@@ -13,7 +13,7 @@ ms.custom:
 
 # cancelEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
 
-Hides a notification based on the cancellation token.
+Hides or cancels a notification about incoming conversations based on the cancellation token.
 
 ## Syntax
 
@@ -25,7 +25,7 @@ Hides a notification based on the cancellation token.
 |-----------------|---------- |--------------|-----------------|
 | cancellationToken| String   | Yes          | JSON input      |
 | correlationId    | GUID     | No           | Used to group all related API calls together for diagnostic telemetry.   |
-| successCallback  | Function | No | On success callback, response object will have the information about whether customer selected Accept or Reject.|
+| successCallback  | Function | No | On successful callback, the response object will have the information about whether the customer accepted or rejected the incoming conversation.|
 | errorCallback    | Function | No           | A function to call when the operation fails.  |
 
 ## Callback function details

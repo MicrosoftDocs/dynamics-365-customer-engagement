@@ -1,7 +1,7 @@
 ---
 title: "Microsoft.CIFramework (JavaScript API Reference) for Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Includes reference information about the Microsoft.CIFramework JavaScript API Reference for Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 03/14/2022
+ms.date: 03/15/2022
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -48,7 +48,7 @@ Use the following APIs to perform CRUD operations on entity records.
 | Methods | Description |
 |---------|-------------|
 | [notifyEvent](microsoft-ciframework/notifyEvent.md)| Displays a notification that can be used to inform agent about an incoming conversation. |
-| [cancelEvent](microsoft-ciframework/cancelEvent.md)| Hides a notification based on the cancellation ID. |
+| [cancelEvent](microsoft-ciframework/cancelEvent.md)| Hides or cancels a notification based on the cancellation token, as specified in the `notifyEvent` method. |
 
 ## Application tab management APIs
 
