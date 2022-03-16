@@ -6,8 +6,6 @@ ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
-ms.custom: 
-  - "dyn365-sales"
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro
