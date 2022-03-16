@@ -59,7 +59,7 @@ The Who knows whom feature helps sellers to quickly identify colleagues who can 
     > For instructions on creating a new email template, go to [Create email templates](/powerapps/user/email-template-create) 
 
 6. Select **Save**.
-1. If your organization is using a custom sales app or a custom form for lead or contact, add the **Relationship Health** widget to your app. The widget makes the relationship health score information available to sellers. More information: [Add Relationship intelligence widgets to custom forms](add-ri-widgets-to-custom-form.md). 
+1. If your organization is using a custom sales app or a custom form for lead or contact, add the [Who Knows Whom widget](add-ri-widgets-to-custom-form.md) to your app. The widget makes the who knows whom information available to sellers.
 
     The who knows whom feature is ready to use in your organization.
 

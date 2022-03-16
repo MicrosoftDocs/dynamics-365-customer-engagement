@@ -88,7 +88,7 @@ Relationship analytics provides a graphical representation of KPIs and activity 
     
 10. Select **Save**.   
 
-11. If your organization is using a custom sales app or a custom form for lead or contact, add the **Relationship Health** widget to your app. The widget makes the relationship health score information available to sellers. More information: [Add Relationship intelligence widgets to custom forms](add-ri-widgets-to-custom-form.md). 
+11. If your organization is using a custom sales app or a custom form for lead or contact, add the [Relationship Health widget](add-ri-widgets-to-custom-form.md) to your app. The widget makes the relationship health score information available to sellers.  
 
     Relationship analytics is ready to use in your organization.
 
