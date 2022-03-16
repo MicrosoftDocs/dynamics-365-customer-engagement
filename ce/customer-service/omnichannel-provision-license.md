@@ -37,7 +37,7 @@ To provision the Omnichannel for Customer Service application, complete the foll
 
 - Obtain an active subscription of Chat for Dynamics 365 Customer Service or Dynamics 365 Digital Messaging.
 
-- Obtain an active subscription of the voice channel.
+- Obtain an active subscription of voice to install the voice channel.
   
    > [!NOTE]
    > More information: [Pricing](https://dynamics.microsoft.com/customer-service/pricing/), Dynamics 365 Licensing Guide, and [How to purchase through Volume Licensing](https://www.microsoft.com/en-us/licensing/how-to-buy/how-to-buy). You can also get a free 30-day trial if you have the required prerequisites. More information: [Try channels for Dynamics 365 Customer Service](try-channels.md).

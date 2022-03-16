@@ -89,7 +89,9 @@ After persona mapping is enabled, it'll automatically assign default roles depen
 |||||
 
 > [!NOTE]
-> Customized mappings won't be reset if one of the services is added later.
+>
+> - Customized mappings won't be reset if one of the services is added later.
+> - Make sure that the roles you want to map to personas have been assigned to the users directly and not through team memberships.
 
 ### Manage personas
 
