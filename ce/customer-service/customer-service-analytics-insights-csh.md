@@ -131,7 +131,7 @@ For more details about the Topics dashboard, see [Topics dashboard](oc-conversat
 
 The reports refresh shows the following information.
 
-- **Data refresh:** Occurs every 24 hours. The reports are available during the refresh process. The **Last updated** timestamp in the report pages indicated the latest data included in the report, and this time reflects the time zone set in your user preferences. You might see a warning icon beside the **Last refresh (UTC)** label in the upper-right corner of each report when there's a delay or issue in the data refresh. When you hover over the icon, the tooltip message indicates whether the dataset is up to date.
+- **Data refresh:** Occurs every 24 hours. The reports are available during the refresh process. The **Last updated** timestamp in the report pages indicates the latest data included in the report, and this time reflects the time zone set in your user preferences. You might see a warning icon beside the **Last refresh (UTC)** label in the upper-right corner of each report when there's a delay or issue in the data refresh. When you hover over the icon, the tooltip message indicates whether the dataset is up to date.
   > [!div class=mx-imgBorder]
   > ![Customer Service Analytics refresh status.](media/cs-analytics-refresh-status.png "Customer Service Analytics refresh status")
 
