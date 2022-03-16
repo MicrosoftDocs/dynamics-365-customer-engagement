@@ -18,12 +18,12 @@ This topic contains the frequently asked questions (FAQs) that you as an adminis
 
 The custom action or plug-in will be initiated during the creation of a new SLA KPI instance, which also includes a SLA KPI, that has been resumed from a pause status.
 
-## How is the Pause Resume scenario different from a normal KPI instance creation?
+## How is the pause resume scenario different from a SLA KPI instance creation?
 
-Pause and Resume scenario includes the following two steps:
+Pause and resume scenario includes the following two steps:
 
-1. The Custom Action is initiated with requestType as "getElapsedTime". This calculates the time elapsed between the paused and resumed state of the SLA KPI.
-2. The Custom Action is initiated with requestType as `getEndTime`. This calculates the new WarningTime by adding the above `elapsedTime` to the current `warningTime`. A similar calculation is also made for FailureTime.
+1. The Custom Action is initiated with requestType as `getElapsedTime`. This calculates the time elapsed between the paused and resumed state of the SLA KPI.
+2. The Custom Action is initiated with requestType as `getEndTime`. This calculates the new `WarningTime` by adding the above `elapsedTime` to the current `warningTime`. A similar calculation is also done for `FailureTime`.
 
 ## How can I override the `StartTime` for a SLA KPI instance without creating and updating the custom DateTime field?
 
