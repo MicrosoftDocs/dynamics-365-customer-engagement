@@ -1,7 +1,7 @@
 ---
 title: "Live chat SDK Reference| MicrosoftDocs"
 description: "Get an overview of the JavasScript API reference for the live chat widget in Omnichannel for Customer Service."
-ms.date: 03/15/2021
+ms.date: 04/01/2021
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -26,7 +26,7 @@ The following JavaScript methods can be used to perform various operations with 
 | [startChat](reference/methods/startChat.md) | [!INCLUDE[startchat-description](reference/includes/startChat-description.md)] |
 | [startProactiveChat](reference/methods/startProactiveChat.md) | [!INCLUDE[startproactivechat-description](reference/includes/startProactiveChat-description.md)] |
 | [closeChat](reference/methods/closeChat.md) | [!INCLUDE[closechat-description](reference/includes/closeChat-description.md)] |
-| [getQueueAvailability](reference/methods/getQueueAvailability.md) | [!INCLUDE[closechat-description](reference/includes/getQueueAvailability-description.md)] |
+| [getAgentAvailability](reference/methods/getAgentAvailability.md) | [!INCLUDE[getAgentAvailability-description](reference/includes/getAgentAvailability-description.md)] |
 
 ## Events
 
