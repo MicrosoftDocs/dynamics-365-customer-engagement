@@ -151,7 +151,7 @@ There are two types of posts: auto and user.
 |To enable **Record types shown** for **Activities**, **Notes**, and **Posts** on a form, check the box next to the record type.||1. To confirm that the record type is displaying on the form, select **Create a timeline record** ![Create a timeline record icon.](media\timeline-create-a-record-icon.png "Create a timeline record icon") (Create a timeline record icon) in the top-right nav in the timeline, and a dropdown menu that displays the list of enabled record types will appear.<BR>2. When **Activities** are enabled, you'll see **Activity** record types for appointments, email, phone calls, and tasks.<BR> 3. When **Notes** are enabled, you'll see the Note record types on the form.<BR> 4. When **Posts** are enabled, you'll also see the Post record types on the form.|
 
 > [!Note]
-> Activities, Notes, and Posts are standard entities. If your administrator or system customizer has configured other entities, they'll also be displayedr.
+> Activities, Notes, and Posts are standard entities. If your administrator or system customizer has configured other entities, they'll also be displayed.
 
 ### Activity, note, post icons and date / timestamp display on timelines
 
