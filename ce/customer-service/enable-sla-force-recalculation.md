@@ -22,7 +22,7 @@ ms.custom:
 
 ## Introduction
 
-Time calculation in service-level agreements (SLAs) is dependent on SLA key performance indicators (KPIs) and input parameters. More information: [Enable custom time calculation of SLA KPIs](enable-sla-custom-time-calculation.md#introduction).
+Time calculation in service-level agreements (SLAs) is dependent on SLA key performance indicators (KPIs) and input parameters. More information: [Time calculation of SLA KPIs](enable-sla-custom-time-calculation.md#introduction).
 
 Changes in the associated customer service and the holiday schedules don't affect the existing SLA KPIs unless one of the following events occur:  
 
