@@ -21,7 +21,6 @@ Invoked when the presence or availability status of an agent has changed manuall
 handlerFunction = function (eventData) { 
                     var obj = JSON.parse(eventData); 
                     var presence = obj.presenceInfo.presenceText; 
-                    displayPresence(presence) 
                 } 
                 window.Microsoft.CIFramework.addHandler("onPresenceChange", handlerFunction); 
 ```
