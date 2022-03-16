@@ -24,13 +24,11 @@ To modify your process for automatically assigning leads or opportunities to sel
 >[!NOTE]
 >In this procedure, we are using lead as an example to edit an assignment rule. Similarly, you can use this procedure to edit opportunity assignment rule. 
 
-1.	Sign in to your Dynamics 365 Sales Hub app.
+1.	Sign in to your Dynamics 365 Sales Hub app.    
+2.	Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.   
+3. Under **Sales accelerator**, select **Assignment rules**.    
 
-2.	Go to the **Change area** ![change area](media/change-area-icon.png) in the lower-left corner of the page, and select **Sales Insights settings**.
-
-3.	Under **Sales accelerator**, select **Assignment rules**.
-
-4.	On the **Assignment rules** page, select the rule and then select the pencil icon to edit.   
+4.	On the **Assignment rules** page, from the **Rule** tab, select the rule and then select the pencil icon to edit.   
 
     >[!div class="mx-imgBorder"]
     >![Select the edit rule option](media/sa-ar-select-edit-rule.png "Select the edit rule option")    
