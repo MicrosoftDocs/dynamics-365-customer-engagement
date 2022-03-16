@@ -111,9 +111,9 @@ Enable the **Dynamics 365 Sales Insights – Analytics** option in the admin cen
 ### See also
 
 [Use relationship analytics to gather KPIs](../sales/relationship-analytics.md)  
-[Add Relationship intelligence widgets to custom forms](add-ri-widgets-to-custom-form.md) 
+[Add Relationship intelligence widgets to custom forms](add-ri-widgets-to-custom-form.md)  
 [GDPR for Sales Insights](embedded-intelligence-gdpr.md)  
 [View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)  
-[Relationship analytics and health FAQ](faqs-sales-insights.md#relationship-analytics-and-health)
+[Relationship analytics and health FAQ](faqs-sales-insights.md#relationship-analytics-and-health)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
