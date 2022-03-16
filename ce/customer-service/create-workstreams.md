@@ -148,7 +148,9 @@ For Azure bots, see [Integrate a bot with Omnichannel for Customer Service](conf
 When a work item needs to be assigned, the classification rules are run and the work distribution system checks and routes the work item to the bot, if the selected workstream has a bot. After a bot is added to the workstream, the incoming work item is first routed to the selected bot at runtime.
 
 > [!Note]
-> The bot is supported only in push type of workstreams.
+> 
+> - The bot is supported only in push type of workstreams.
+> - We recommend that you don't add bots to workstreams that are meant for record routing.
 
 ### Manage workstreams
 
