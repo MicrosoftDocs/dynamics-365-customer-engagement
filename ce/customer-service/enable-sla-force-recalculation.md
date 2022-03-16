@@ -57,4 +57,5 @@ OrganizationResponse customEvaluationResponse = service.Execute(customEvaluation
 
 [Define service-level agreements](define-service-level-agreements.md)  
 [How SLAs are applied](define-service-level-agreements.md#how-is-the-sla-applied)  
-[Enable records for SLA](enable-entities-service-level-agreements.md)  
+[Enable records for SLA](enable-entities-service-level-agreements.md)
+[FAQs about custom time calculation of SLA KPIs](faqs-custom-time-sla-kpis.md#faqs-about-custom-time-calculation-of-sla-kpis) 
