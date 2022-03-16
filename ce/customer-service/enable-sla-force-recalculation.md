@@ -1,7 +1,7 @@
 ---
 title: "Enable custom recalculation of SLA KPIs in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how to perform custom recalculation of SLAs KPIs in Dynamics 365 Customer Service."
-ms.date: 03/14/2022
+ms.date: 03/16/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -22,9 +22,9 @@ ms.custom:
 
 ## Introduction
 
-Time calculation in service-level agreements (SLAs) is used to calculate the `WarningTime` and `FailureTime` of SLA key performance indicators (KPIs). The input parameters are `ApplicableFrom` (StartTime of type DateTime field), `CalendarId` (GUID), and `Duration` (warning duration or failure duration in minutes). The final `WarningTime` or `FailureTime` is calculated based on the customer service and the holiday schedules associated with the SLA item.
+Time calcualtion in service-level agreements (SLAs) is dependent on SLA key performance indicators (KPIs) and input parameters. More information: [Enable custom time calculation of SLA KPIs](enable-sla-custom-time-calculation.md#enable-custom-time-calculation-of-sla-kpis).
 
-Changes in the associated customer service and the holiday schedules don't update the existing SLA KPIs unless one of the following events occur:  
+Changes in the associated customer service and the holiday schedules don't affect the existing SLA KPIs unless one of the following events occur:  
 
 - SLA KPI is paused and resumed.
 - SLA on an entity instance is updated.
@@ -33,14 +33,14 @@ Changes in the associated customer service and the holiday schedules don't updat
 
 ## Enable the custom recalculation on a target entity
 
-However, you can trigger the recalculation of active SLAs KPIs instances which are in either **In Progress** or **Nearing Noncompliance** statuses and create new SLA KPIs by explicitly calling the custom action `msdyn_ManageSLAInstances` independent of the events mentioned above. 
+However, you can trigger the recalculation of active SLAs KPIs instances which are in either **In Progress** or **Nearing Noncompliance** statuses and create new SLA KPIs by explicitly calling the custom action `msdyn_ManageSLAInstances` independent of the events mentioned above.
 
 To enable trigger custom recalculation and create new SLA KPIs, you must set the the integer value of the **Recalculate** parameter to **1** through a custom plug-in code. By default, the integer value of the **Recalculate** parameter is **0**. You can set the integer value by creating a custom plug-in code on the SLA’s target entity and implementing the custom logic based on which the custom action will be initiated. More information: [Write a plug-in](/powerapps/developer/data-platform/write-plug-in).
 
 > [!NOTE]
-> This doesn't affect the SLA KPI instances which are in either **Paused**, **Cancelled**, **Succeeded**, or **Non-compliant** statuses.
+> This doesn't affect the SLA KPI instances which are in **Paused**, **Cancelled**, **Succeeded**, or **Non-compliant** statuses.
 
-For example, if you want to recalculate the SLA KPIs which are in either **In progress** or **Nearing Noncompliance** state, on updating the **Case Type** field on the Case entity, you will need to create a custom plug-in and register it on the Case update for the **Case Type** field. On updating the **Case Type** field, you will need to call the custom action in your custom plug-in code. The previous SLA KPI instances will get cancelled and the new instances will be created.
+For example, if you want to recalculate the SLA KPIs which are in **In progress** or **Nearing Noncompliance** statuses, on updating the **Case Type** field on the Case entity, you will need to create a custom plug-in and register it on the Case update for the **Case Type** field. On updating the **Case Type** field, you will need to call the custom action in your custom plug-in code. The previous SLA KPI instances will get cancelled and new instances will be created.
 
 Following is an example of the plug-in code:
 
