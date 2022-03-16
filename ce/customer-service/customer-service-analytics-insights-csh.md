@@ -21,7 +21,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Dashboard overview
 
-The Insights dashboards for Customer Service and Omnichannel for Customer Service contain various charts and metrics to help you to understand the factors that can improve customer service for your organization.. Key performance indicators and visual breakdowns of your organization's support cases are coupled with AI-generated insights on cases, agents, and topics that contribute to overall trends.
+The Insights dashboards for Customer Service and Omnichannel for Customer Service contain various charts and metrics to help you to understand the factors that can improve customer service for your organization. Key performance indicators and visual breakdowns of your organization's support cases are coupled with AI-generated insights on cases, agents, and topics that contribute to overall trends.
 
 Insights dashboards cover Customer Service, Omnichannel for Customer Service, and Knowledge Management. The Customer Service dashboards give you a performance summary in addition to detailed reports on agents and topics. Similarly, the Omnichannel for Customer Service dashboards provide a view into the support operation across channels. For Knowledge managers, Knowledge Search analytics provide insight into search terms being used by agents to uncover content needed to resolve customer issues.  
 
@@ -85,7 +85,7 @@ The Conversation dashboard gives you a broad overview of the assisted support cu
 > [!div class="mx-imgBorder"]
 > ![Conversation dashboard.](media/conversation-dashboard.png "Conversation dashboard")
 
-For more details about the conversation report, see [Conversation dashboard](oc-conversation-dashboard.md)
+For more information about the conversation report, see [Conversation dashboard](oc-conversation-dashboard.md)
 
 
 ### Queue
@@ -95,7 +95,7 @@ The Queue dashboard gives you a broad overview of the customer service experienc
 > [!div class="mx-imgBorder"]
 > ![Queue dashboard.](media/queue-report.png "Queue dashboard")
 
-For more details about the queue report, see [Queue dashboard](oc-queue-dashboard.md)
+For more information about the queue report, see [Queue dashboard](oc-queue-dashboard.md)
 
 ### Agent
 
@@ -104,7 +104,7 @@ The Agent dashboard shows charts and KPIs that you can use to guide agents and u
 > [!div class="mx-imgBorder"]
 > ![Agent dashboard.](media/agent-report-cs.png "Agent report").
 
-For more details about the Agent report, see [Agent dashboard](agent-dashboard.md#agent-dashboard)
+For more information about the Agent report, see [Agent dashboard](agent-dashboard.md#agent-dashboard)
 
 ### Bot
 
@@ -113,7 +113,7 @@ The Bot dashboard shows charts and KPIs that you can use to understand how bots 
 > [!div class="mx-imgBorder"]
 > ![Bot dashboard.](media/oc-bot-dashboard.png "Bot dashboard")
 
-For more details about the bot report, see [Bot dashboard](oc-bot-dashboard.md)
+For more information about the bot report, see [Bot dashboard](oc-bot-dashboard.md)
 
 ### Conversation Topics
 
@@ -122,7 +122,7 @@ The Topics dashboard shows a detailed breakdown of conversations and their assig
 > [!div class="mx-imgBorder"]
 > ![Conversation Topics.](media/conversation-topics-dashboard.png "Conversation Topics")
 
-For more details about the Topics dashboard, see [Topics dashboard](oc-conversation-topics-dashboard.md)
+For more information about the Topics dashboard, see [Topics dashboard](oc-conversation-topics-dashboard.md)
 
 
 ## Information that you need to know about the analytics reports
