@@ -30,7 +30,7 @@ In addition to `WarningTime` and `FailureTime`, the `ElapsedTime` is also calcul
 
 To change the default time calculation and enable your own custom time calculation, you can define an API interface which has a fixed set of input and output parameters and add a custom logic to calculate the time.
 
-## Enable custom calculation of SLA KPIs
+## Enable custom time calculation of SLA KPIs
 
 1. Go to **Settings** > **Customization** > **Customize the system** > **Processes** > **New**.
 1. On the **Create Process** dialog, enter the following:
