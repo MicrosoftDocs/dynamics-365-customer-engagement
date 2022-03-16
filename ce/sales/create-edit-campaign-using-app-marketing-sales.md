@@ -55,7 +55,7 @@ Campaigns can include planning activities that you want to perform before you la
 
 2. Open a marketing list record, and then in the **Campaigns** area, select **New Campaign**.
 
-   \- from Exchange OR -
+   - OR -
 
    To edit a campaign, open a campaign from the list.
   
