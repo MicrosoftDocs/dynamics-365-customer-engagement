@@ -29,7 +29,7 @@ You can use the following search options to search the knowledge base on the por
 
 - **Dataverse search**: Let's you search across multiple tables sorted by relevance. More information: [What is Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro) To configure dataverse search on portals, see [Configure Dataverse search in portals (preview)](/powerapps/maker/portals/configure/dataverse-search).
 
-- **Faceted search**: Let's you search content on portals through filters based on content. More information: [Use faceted search to improve portal search](powerapps/maker/portals/configure/improve-portal-search-faceted-search).
+- **Faceted search**: Let's you search content on portals through filters based on content. More information: [Use faceted search to improve portal search](/powerapps/maker/portals/configure/improve-portal-search-faceted-search).
 
 ## Use faceted search to refine knowledge articles search query
 
