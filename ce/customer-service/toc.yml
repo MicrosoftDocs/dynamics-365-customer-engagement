@@ -282,7 +282,7 @@
           href: users-user-profiles.md
         - name: Manage capacity profiles
           href: capacity-profiles.md
-        - name: Roles and personas
+        - name: Manage personas and custom security roles
           href: role-persona-mapping.md
         - name: Personas and privileges
           href: persona-privilege-mapping.md

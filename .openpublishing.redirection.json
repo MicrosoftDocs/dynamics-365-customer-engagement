@@ -23550,6 +23550,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/sales-accelerator-assignment-rules.md",
+      "redirect_url": "enable-configure-sales-accelerator",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customer-service/knowledge-management-oc.md",
       "redirect_url": "set-up-knowledge-management-embedded-knowledge-search#set-up-knowledge-management",
       "redirect_document_id": "false"
