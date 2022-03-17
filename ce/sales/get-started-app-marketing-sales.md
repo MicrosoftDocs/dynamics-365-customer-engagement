@@ -1,7 +1,7 @@
 ---
 title: "Get started with in-app marketing"
 description: "Learn how to promote your business and improve sales with targeted marketing campaigns in Dynamics 365 Sales."
-ms.date: 11/12/2021
+ms.date: 03/18/2022
 ms.custom: intro-internal
 ms.topic: get-started-article
 author: lavanyakr01
@@ -35,7 +35,7 @@ Get your customer records into [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-36
   
 ## Create marketing lists  
 
-You can group accounts, contacts, or leads into a targeted marketing list. You can create a marketing list easily with the search functionality in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], so—for example—you can find all of your customers in a particular area and add them to the member list. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a marketing list using in-app marketing](create-marketing-list-using-app-marketing-sales.md)  
+You can group accounts, contacts, or leads into a targeted marketing list. You can create a marketing list easily with the search functionality in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], For example, you can find all of your customers in a particular area and add them to the member list. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a marketing list using in-app marketing](create-marketing-list-using-app-marketing-sales.md)  
   
 ## Understand the difference between a campaign and a quick campaign  
 
