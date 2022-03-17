@@ -8,7 +8,7 @@ ms.author: nenellim
 manager: shujoshi
 ---
 
-# Add custom security roles in Customer Service
+# Manage personas and custom security roles in Customer Service
 
 ## Introduction
 
