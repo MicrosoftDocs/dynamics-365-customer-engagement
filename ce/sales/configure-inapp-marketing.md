@@ -1,8 +1,7 @@
 ---
 title: "Configure in-app marketing settings"
-description: "Configure in-app marketing settings."
-ms.date: 02/22/2022
-ms.custom: intro-internal
+description: "Configure in-app marketing settings to define various aspects of campaigning."
+ms.date: 03/18/2022
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -33,17 +32,17 @@ Configure the in-app marketing settings to define various aspects of campaigning
 
 ## To configure in-app marketing settings
 
-1. In the Sales Hub app, go to the change area and select **App Settings**.
+1. In the Sales Hub app, go to the **Change Area** and select **App Settings**.
 
 2. Under **Sales Administration**, select **Marketing settings**.
 
-3. Configure the following settings in accordance with your requirements.<!--note from editor: For background on using "per," see https://styleguides.azurewebsites.net/Styleguide/Read?id=2700&topicid=35556 in the Writing Style Guide. Also, note that in the following table, the phrase "if set to **Yes**" becomes a dangling modifier if it isn't followed by the thing that's set to Yes. That's why the construction "If this option is set to **Yes**" works better here.-->
+3. Configure the following settings in accordance with your requirements.
     
     |Setting  |Description  |
     |---------|---------|
     |Create campaign responses for incoming email     |If this option is set to **Yes**, the app creates campaign response records automatically when email messages are received in response to a specific marketing campaign. <br> **Note:** If a customer sends multiple replies to an email that was sent out from a campaign activity, only the first reply is tracked as a campaign response in the campaign. <br>**Default:** Yes        |
     |Set "Do Not Send Marketing Material" option when an unsubscribe email is received     |If this option is set to **Yes**, when an unsubscribe email is received, the preference setting for the account, contact, or lead gets updated automatically to not send marketing materials. If this option is set to **No**, the unsubscribe email will be ignored and the user will continue to get marketing email communications. If you're providing an option to unsubscribe in the campaign emails, we recommend that you set this option to **Yes**.<br> More information: [Let your customers unsubscribe from marketing communications](get-started-app-marketing-sales.md#let-your-customers-unsubscribe-from-marketing-communications)<br> **Default:** No        |
-    |Send acknowledgement to customers when they unsubscribe     | If **Set "Do Not Send Marketing Material" option when an unsubscribe email is received**<!--note from editor: Edit okay? It seems that this whole string is actually the name of the option.--> is set to **Yes**, you can use this setting to send a response to customers when they unsubscribe.        |
+    |Send acknowledgement to customers when they unsubscribe     | If **Set "Do Not Send Marketing Material" option when an unsubscribe email is received** is set to **Yes**, you can use this setting to send a response to customers when they unsubscribe.        |
     |Template for Acknowledgement Email     | If the previous two options are set to **Yes**, select an email template to use for responding to customers when they unsubscribe.        |
 
 4. Save the changes.
