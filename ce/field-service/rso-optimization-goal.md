@@ -7,7 +7,7 @@ ms.reviewer: krbjoran
 manager: shellyha
 ms.date: 08/20/2020
 ms.topic: article
-ms.service: dynamics-365-field-service
+
 ms.subservice: resource-scheduling-optimization
 search.app: 
   - D365CE

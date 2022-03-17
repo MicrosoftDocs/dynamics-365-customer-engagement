@@ -1,7 +1,7 @@
 ---
 title: "Configure Relationship analytics and health"
 description: "Configure relationship analytics and health to provide graphical representation of KPIs and activity histories to the sellers."
-ms.date: 02/11/2022
+ms.date: 03/15/2022
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -88,7 +88,9 @@ Relationship analytics provides a graphical representation of KPIs and activity 
     
 10. Select **Save**.   
 
-    Relationship analytics is ready to use in your organization.   
+11. If your organization is using a custom sales app or a custom form for lead or contact, add the [Relationship Health widget](add-ri-widgets-to-custom-form.md) to your app. The widget makes the relationship health score information available to sellers.  
+
+    Relationship analytics is ready to use in your organization.
 
 ## Allow to collect information from Exchange server 
 
@@ -109,8 +111,9 @@ Enable the **Dynamics 365 Sales Insights – Analytics** option in the admin cen
 ### See also
 
 [Use relationship analytics to gather KPIs](../sales/relationship-analytics.md)  
-[Add Relationship intelligence widgets to custom forms](add-ri-widgets-to-custom-form.md) 
+[Add Relationship intelligence widgets to custom forms](add-ri-widgets-to-custom-form.md)  
 [GDPR for Sales Insights](embedded-intelligence-gdpr.md)  
 [View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)  
+[Relationship analytics and health FAQ](faqs-sales-insights.md#relationship-analytics-and-health)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

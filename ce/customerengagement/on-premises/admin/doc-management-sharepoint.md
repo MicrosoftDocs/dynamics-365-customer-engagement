@@ -3,7 +3,7 @@ title: "Manage documents with SharePoint in Dynamics 365 Customer Engagement app
 description: "Configure SharePoint with Customer Engagement apps to create folders and manage common document types such as Word, Excel, OneNote, and PowerPoint."
 ms.custom: ""
 ms.date: "05/29/2019"
-ms.prod: d365ce-op
+
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

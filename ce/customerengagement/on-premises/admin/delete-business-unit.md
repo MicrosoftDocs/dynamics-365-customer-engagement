@@ -4,7 +4,7 @@ description: "If you no longer need a business unit, follow these steps to remov
 ms.custom: 
 ms.date: 10/01/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

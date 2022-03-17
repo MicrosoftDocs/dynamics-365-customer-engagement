@@ -4,7 +4,7 @@ description: "Get an overview of Dynamics 365 Support, including information on 
 ms.custom: 
 ms.date: 09/12/2020
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: overview

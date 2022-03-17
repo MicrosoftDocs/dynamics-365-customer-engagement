@@ -2,7 +2,7 @@
 title: "Work with data protection and GDPR (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Protect customer privacy and remain compliant with GDPR regulations with Dynamics 365 Marketing."
 ms.date: 10/04/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: reference

@@ -1,13 +1,13 @@
 ---
 title: "Retrieve data using msdyn_RetrieveKPIValuesForGDPR action | Microsoft Docs"
 description: "Use the action to programmatically retrieve profiles, interactions, and KPIs for an account, contact, lead or opportunity that is stored Azure service."
-keywords: "GDPR; data protection; privacy; embedded intelligence"
 ms.date: 10/26/2021
 ms.topic: article
+author: udaykirang
+ms.author: udag
+manager: shujoshi
+keywords: "GDPR; data protection; privacy; embedded intelligence"
 ms.assetid: d0d20528-0a72-4dd2-8c91-6367a9d4279d
-author: KumarVivek
-ms.author: kvivek
-manager: kvivek
 topic-status: Drafting
 ---
 # Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action 

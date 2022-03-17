@@ -4,7 +4,7 @@ description: "After creating a report, test it to see if it produces the results
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

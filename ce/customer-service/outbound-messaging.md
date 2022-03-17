@@ -1,9 +1,9 @@
 ---
 title: "Configure outbound messaging in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about how to configure outbound messaging in Omnichannel for Customer Service."
-ms.date: 02/11/2022
+ms.date: 10/12/2020
 ms.topic: article
-author: Meghanalanka
+author: gandhamm
 ms.author: mgandham
 manager: shujoshi
 ms.reviewer: nenellim
@@ -11,9 +11,9 @@ ms.reviewer: nenellim
 
 # Configure outbound messaging
 
-
-
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+## Introduction
 
 Outbound messaging enables organizations to send messages to their customers through supported channels, based on system-triggered or user-defined events. You can configure message templates for only SMS, Twitter, and WhatsApp channels.
 
@@ -74,6 +74,8 @@ You can set up the outbound configuration in the Customer Service admin center (
       The **Active Outbound Configurations** page is displayed.
 
  If you're using the Omnichannel Administration app, go to **Settings**, and select **Outbound**.
+
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 2. Select **New**, and on New Outbound Configuration page,  enter the details for the settings mentioned in the following table.
 

@@ -4,9 +4,9 @@ description: ""
 ms.date: 09/30/2017
 ms.service: dynamics-365-sales
 ms.topic: article
-author: shubhadaj
-ms.author: shujoshi
-manager: annbe
+author: lavanyakr01
+ms.author: lavanyakr
+manager: shujoshi
 ms.reviewer: 
 ms.custom: 
   - "dyn365-insightsinsideview"

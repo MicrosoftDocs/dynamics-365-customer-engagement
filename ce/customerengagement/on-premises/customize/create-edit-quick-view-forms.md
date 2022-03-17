@@ -4,7 +4,7 @@ description: "Follow these steps or create or edit a quick view form. This provi
 ms.custom: 
 ms.date: 11/09/2018
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

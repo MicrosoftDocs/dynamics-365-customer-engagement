@@ -1,8 +1,7 @@
 ---
 title: "Customize your Teams webinar participant follow-up (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to customize your follow-up with Microsoft Teams webinar participants using Dynamics 365 Marketing."
-ms.date: 01/19/2022
-ms.service: dynamics-365-marketing
+ms.date: 03/15/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -31,12 +30,9 @@ In just a few steps, you can use contacts, segments, and a customer journey to f
 
 The automatically created customer journey uses the power of Dynamics 365 Marketing to follow up with webinar participants. The journey creates the three most common follow-ups (paths) for your webinar participants:
 
-- The first path sends an email to registrants who did not attend the webinar.
-- The second path sends an email to registrants who attended the webinar.
-- The third path sends an email to registrants who canceled their webinar registration.
-
-> [!div class="mx-imgBorder"]
-> ![Generated customer journey](media/team-follow-up-journey.png "Generated customer journey")
+- The first path sends an email to registrants who attended the webinar, thanking them for attending with an objective to drive the next steps of the customer journey.
+- The second path sends an email to registrants who did not attend the webinar with an objective to engage people who registered but missed the webinar.
+- The third path sends an email to registrants who canceled their webinar registration with an objective to follow up with people who missed out on the webinar.
 
 Each path includes an email template to send notification emails. You can personalize each email template to suit your branding and company needs. To personalize the email, select the **Send an email** tile. This opens the email designer, which allows you to [personalize the design](email-design.md#design-your-content) and [tailor the content](dynamic-email-content.md) to individual contacts.
 

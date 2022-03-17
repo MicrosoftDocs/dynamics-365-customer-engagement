@@ -1,7 +1,7 @@
 ---
 title: "Configure a WeChat channel in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Perform the steps mentioned in this topic to configure a WeChat channel in Omnichannel for Customer Service."
-ms.date: 04/09/2021
+ms.date: 02/25/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -39,35 +39,66 @@ To integrate a WeChat channel with Omnichannel for Customer Service, get the fol
 - **Token:** Customer-defined string.
 - **Message encryption key:** Message encryption key in WeChat. If you're using a sandbox WeChat account, use a key of your choice.
   
-## Create a WeChat channel in Omnichannel admin center
+## Create a WeChat channel
 
-1. In the site map, select **Channels** under **General settings**, and on the **Accounts and channels** page, select **Add account**.
-2. Enter the following details:
+**To create a WeChat channel**
+
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
+
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+    > [!IMPORTANT]
+    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+    
+    1. In the site map, in **Customer support**, select **Channels**.
+    
+    1. In **Accounts**, for **Messaging accounts**, select **Manage**.
+   
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter) 
+
+    - In the site map, in **General settings**, select **Channels**.
+
+1. On the **Accounts and channels** page, select **New account**.
+
+1. Enter the following details:
    1. On the **Channel details** page, specify a name and in **Channels**, select **WeChat**, and select **Next**.
-   2. In **Account details**, enter the following information:
+   
+   1. In **Account details**, enter the following information:
     - **Original ID:** Specify the WeChat account number.
     - **Developer ID (AppID):** Specify the WeChat Developer ID.
     - **Developer password (AppSecret):** Specify the WeChat Developer password.
     - **Token:** Specify the WeChat token.
     - **Message encryption key (EncodingAESKey):** Specify the WeChat Message encryption key for service account. If you're configuring a sandbox account, use a key of your choice.
 
-   3. On the **Callback information** page, copy the values in the **IP whitelist** and **Server address (URL)** boxes. You'll update the copied information in the WeChat account.
-   4. Select **Done**. The WeChat account instance is created.
-3. To configure routing and work distribution, you can create a [workstream](create-workstreams.md) or select an existing one.
-4. Select the workstream that you've created for the WeChat channel and on the workstream page, select **Set up WeChat**, and do the following steps:
+   1. On the **Callback information** page, copy the values in the **IP whitelist** and **Server address (URL)** boxes. You'll update the copied information in the WeChat account.
+   
+   1. Select **Done**. The WeChat account instance is created.
+
+1. To configure routing and work distribution, you can create a [workstream](create-workstreams.md) or select an existing one.
+
+1. Select the workstream that you've created for the WeChat channel and on the workstream page, select **Set up WeChat**, and do the following steps:
+   
    1. On the **WeChat setup** dialog box, on the **WeChat** page, select the account that you created.
-   2. On the **Language** page, select a language.
-   3. On the **Behaviors** page, configure the following options:
+   
+   1. On the **Language** page, select a language.
+   
+   1. On the **Behaviors** page, configure the following options:
       - [Custom automated messages](configure-automated-message.md)
       - [Post-conversation survey](configure-post-conversation-survey.md)
-   4. On the **User features** page, set the toggle for **File attachments** to **On** and select the following checkboxes if you want to allow agents and customers to send and receive file attachments. More information: [Enable file attachments](enable-file-attachments.md).
+   
+   1. On the **User features** page, set the toggle for **File attachments** to **On** and select the following checkboxes if you want to allow agents and customers to send and receive file attachments. More information: [Enable file attachments](enable-file-attachments.md).
       - Customers can send file attachments
       - Agents can send file attachments
-   5. Verify the settings on the **Summary** page, and select **Finish**. The WeChat channel instance is configured.
-5. Configure routing rules. More information: [Configure work classification](configure-work-classification.md).
-6. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
-7. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream).
-8. In **Advanced settings**, configure the following options based on your business needs:
+   
+   1. Verify the settings on the **Summary** page, and select **Finish**. The WeChat channel instance is configured.
+
+1. Configure routing rules. More information: [Configure work classification](configure-work-classification.md).
+
+1. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
+
+1. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream).
+
+1.  In **Advanced settings**, configure the following options based on your business needs:
    - [Sessions](../app-profile-manager/session-templates.md)
    - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
    - [Context variables](context-variables-for-bot.md#add-context-variables)
@@ -84,7 +115,9 @@ If you're using the service account of WeChat, perform the following steps:
 
 3. Select **Submit**.
 
-## Create a WeChat channel in Omnichannel Administration
+### Create a WeChat channel in Omnichannel Administration
+
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 1. In Omnichannel Administration, under **Channels**, select **WeChat**.
 
@@ -110,6 +143,7 @@ If you're using the service account of WeChat, perform the following steps:
     > ![Create a WeChat channel.](media/wechat-channel-config.png "Create a WeChat channel")
 
 ### Modify settings for a specific WeChat account
+
 
 1. In the Omnichannel Administration app, go to your WeChat application and select the WeChat account you want to modify.
 

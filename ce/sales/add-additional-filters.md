@@ -3,8 +3,8 @@ title: "Add additional filters to a forecast (Dynamics 365 Sales)"
 description: "Add filters to refine the opportunities and hierarchies that participate in calculating the forecast values."
 ms.date: 01/31/2022
 ms.topic: article
-author: udaykirang
-ms.author: udag
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 ---
 # Apply additional filters 

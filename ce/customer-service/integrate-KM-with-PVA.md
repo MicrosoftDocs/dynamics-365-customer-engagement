@@ -3,8 +3,8 @@ title: "Integrate knowledge management with Power Virtual Agents bot| MicrosoftD
 description: "Learn about the integration of knowledge management with Power Virtual Agents bot."
 ms.date: 05/11/2021
 ms.topic: article
-author: meghanalanka
-ms.author: v-mlanka
+author: Soumyasd27
+ms.author: sdas
 manager: shujoshi
 ---
 

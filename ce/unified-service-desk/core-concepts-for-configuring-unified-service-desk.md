@@ -6,14 +6,14 @@ ms.topic: get-started-article
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
+ms.custom: 
+  - dyn365-USD
 search.audienceType: 
   - customizer
   - developer
 search.app: 
   - D365CE
   - D365USD
-ms.custom: 
-  - dyn365-USD
 descriptions: 
   - Unified Service Desk provides an object-oriented kind of configuration and development experience through its hosted control implementation where the hosted control is equivalent to the object in a typical object-oriented development
   - and is used throughout Unified Service Desk to provide its loose coupling of components.

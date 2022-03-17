@@ -3,11 +3,11 @@ metadata:
   title: "Installation and management FAQ (Dynamics 365 Marketing) | Microsoft Docs"
   description: "Solutions to common questions and issues that can occur during the installation and management of Dynamics 365 Marketing."
   ms.date: 12/16/2020
-  ms.service: dynamics-365-marketing
+  
   ms.custom:
     - dyn365-admin
     - dyn365-marketing
-  ms.topic: article
+  ms.topic: faq
   author: alfergus
   ms.author: alfergus
   manager: shellyha
@@ -18,7 +18,6 @@ metadata:
   search.app: 
     - D365CE
     - D365Mktg
-    
 title: Installation and environment management FAQ
 summary: Read this article to find answers to common questions and solutions to known issues that can sometimes occur during the installation and management of Dynamics 365 Marketing.
 
@@ -54,4 +53,3 @@ additionalContent: |
      [Uninstall Marketing](uninstall-marketing.md)
           
      [!INCLUDE[footer-include](../includes/footer-banner.md)]
-

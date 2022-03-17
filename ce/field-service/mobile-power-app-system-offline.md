@@ -4,7 +4,7 @@ description: Learn how to configure offline data for the Field Service (Dynamics
 ms.date: 06/02/2021
 ms.reviewer: krbjoran
 ms.topic: article
-ms.service: dynamics-365-field-service
+
 ms.subservice: field-service-mobile
 applies_to: 
   - "Dynamics 365 (online)"

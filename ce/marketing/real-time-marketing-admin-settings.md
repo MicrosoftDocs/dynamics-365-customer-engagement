@@ -2,7 +2,7 @@
 title: "Real-time marketing administrator settings (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about administrator settings required for real-time marketing functionality in Dynamics 365 Marketing."
 ms.date: 11/12/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

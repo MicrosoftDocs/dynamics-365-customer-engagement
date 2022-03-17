@@ -3,7 +3,7 @@ title: "Send current technician location and arrival times to your customers wit
 description: Learn how to send customers information about their upcoming service in Dynamics 365 Field Service
 ms.date: 04/22/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.topic: article
 ms.suite: ""
 applies_to:

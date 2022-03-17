@@ -2,7 +2,7 @@
 title: "msdyn_ConnectSequence Action | MicrosoftDocs"
 description: "How to assigns a lead and opportunity entity record to a sequence."
 ms.date: 05/11/2020
-ms.service: crm-online
+
 ms.custom: 
 ms.topic: article
 author: udaykirang

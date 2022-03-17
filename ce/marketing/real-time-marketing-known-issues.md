@@ -1,8 +1,7 @@
 ---
 title: "Known issues in real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about known issues in real-time marketing and how to work around them."
-ms.date: 01/26/2022
-ms.service: dynamics-365-marketing
+ms.date: 02/23/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -33,6 +32,13 @@ As we continue to work on real-time marketing and refine the experience, we've b
 - Only one email address can be checked for consent for contacts.
 - Only one physical address field is available for commercial emails.
 
+## Customer journeys and orchestration
+
+- The journey goal only counts unique profiles. Unique profiles are the number of unduplicated (counted only once) people that enter the journey. This means that in cases where the journey is a repeating journey, the total inflow won’t match the number of unique profiles with which the goal attainment is calculated.
+- The journey goal met in analytics currently counts the number of unique profiles that met the goal divided by the total inflow. This will be fixed soon to count unique profiles that met the goal divided by total unique profiles.
+- After a real-time marketing journey is migrated, restored, or copied, its state is changed from **Live** to **Stopped**. To restart a migrated, restored, or copied journey, you need to first duplicate the journey, and then execute it.
+- Customer journeys have a limitation of eight nested conditions.
+
 ## Dynamics 365 Customer Insights
 
 -	Data from Customer Insights environments that use the Azure Data Lake Gen v2 storage isn’t accessible in real-time marketing. To use Customer Insights data in real-time marketing, you must create a new environment using a copy of the existing environment, then use the Customer Insights storage option and enable data sharing with the Dataverse org on which Dynamics 365 Marketing is installed.
@@ -45,16 +51,10 @@ As we continue to work on real-time marketing and refine the experience, we've b
 - The real-time marketing email editor *doesn’t* contain the following capabilities from the outbound marketing email editor: video, content blocks, QR codes, Teams check-in links, marketing page links, or the Send now function.
 - Emails created in outbound marketing need to be recreated in the real-time marketing email designer to be used in real-time marketing.
 
-## Event triggers
+## Triggers
 
 - You can’t instrument C# apps in real-time marketing. If you choose to use an alternate language like Python, you’ll have to manage an infra to run Python.
-- Event triggers can’t be migrated when moving data between environments. Any events in the old environment need to be re-created in the new environment.
-
-## Journey and orchestration
-
-- The journey goal only counts unique profiles. Unique profiles are the number of unduplicated (counted only once) people that enter the journey. This means that in cases where the journey is a repeating journey, the total inflow won’t match the number of unique profiles with which the goal attainment is calculated.
-- The journey goal met in analytics currently counts the number of unique profiles that met the goal divided by the total inflow. This will be fixed soon to count unique profiles that met the goal divided by total unique profiles.
-- After a real-time marketing journey is migrated, restored, or copied, its state is changed from **Live** to **Stopped**. To restart a migrated, restored, or copied journey, you need to first duplicate the journey, and then execute it.
+- Triggers can’t be migrated when moving data between environments. Any events in the old environment need to be re-created in the new environment.
 
 ## Natural language
 

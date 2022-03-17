@@ -2,7 +2,7 @@
 title: "Generate iCalendar files for events and sessions (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to add a button to emails that generates an iCalendar file for an event or session Dynamics 365 Marketing."
 ms.date: 06/24/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
