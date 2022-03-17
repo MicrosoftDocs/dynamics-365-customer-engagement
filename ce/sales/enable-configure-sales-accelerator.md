@@ -1,7 +1,7 @@
 ---
 title: "Enable and configure sales accelerator"
 description: "Enable and configure the sales accelerator to create sequences and connect records, and view daily work list items."
-ms.date: 03/11/2022
+ms.date: 03/17/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -31,14 +31,13 @@ The sales accelerator is an engagement platform that helps the sales team unders
 > - To configure sales accelerator for assignment rule with your enterprise license, see [Configure sales accelerator for assignment rules](sales-accelerator-assignment-rules.md).
 > - You can also set up sales accelerator through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get 1,500 sequence-connected records per month. To set up sales accelerator through quick setup, you must go to the **Get started with digital sales** page under **App Settings**. More information: [Set up sales accelerator](digital-selling.md#set-up-sales-accelerator)
 
-## Sales accelerator availability
-
-By default, sales accelerator is enabled and available in your organization through Dynamics 365 Sales Hub app. However, sales teams view only the work list items that are created through timeline. To experience the full capabilities of sales accelerator, purchase the required license and configure the features such as sequences and segments.   
-To disable the sales accelerator, go to [Disable sales accelerator](disable-sales-accelerator.md)
-
 ## First-run set up 
 
 Enable sales accelerator by quickly providing access to security roles and selecting the record types to be shown in the work list.
+
+>[!NOTE]
+>By default, sales accelerator is enabled and available in your organization through Dynamics 365 Sales Hub app. However, sales teams view only the work list items that are created through timeline. To experience the full capabilities of sales accelerator, purchase the required license and configure the features such as sequences and segments.   
+To disable the sales accelerator, go to [Disable sales accelerator](disable-sales-accelerator.md). 
 
 1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **Sales Insights settings**.
 2. Under **Sales accelerator**, select **Workspace**.     
