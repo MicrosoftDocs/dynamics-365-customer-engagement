@@ -1,8 +1,7 @@
 ---
 title: "Use Customer Insights profiles and segments in real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to use Customer Insights profiles and segments in real-time marketing."
-ms.date: 08/19/2021
-
+ms.date: 03/16/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -20,7 +19,7 @@ search.app:
 
 # Use Customer Insights profiles and segments in real-time marketing
 
-Real-time marketing enables you to deeply personalize your customer engagement using transactional, behavioral, and demographic data from [Dynamics 365 Customer Insights](/customer-insights). With Customer Insights data, you can:
+Real-time marketing enables you to deeply personalize your customer engagement using transactional, behavioral, and demographic data from [Dynamics 365 Customer Insights](/dynamics365/customer-insights). With Customer Insights data, you can:
 - Target unified Customer Insights customer profiles and segments. This enables you to engage every customer, regardless of whether the customer's data is in Marketing or Customer Insights.
 - Base dynamic content (such as personalized tokens) in emails, SMS, and push notifications on measures such as loyalty status, subscription renewal date, parent account, or any other measure you have captured in the unified customer profile.
 
