@@ -248,6 +248,21 @@ By default, the **Up next** widget is displayed on the **Default Main** and **Sa
 >[!NOTE]
 >To know how to add work list site map to your custom app, see [How to add work list site map to your custom app](faqs-sales-insights.md#how-to-add-sales-accelerator-site-map-to-your-custom-app).
 
+## Disable sales accelerator
+
+You can disable the sales accelerator workspace, if it's no longer required in your organization.    
+
+1. On the **Sales accelerator workspace** page, select **Disable**.
+
+    >[!div class="mx-imgBorder"]
+    >![Select disable to remove sales accelerator](media/sa-disable-sa.png "Select disable to remove sales accelerator")   
+
+2. On the confirmation message, select **Disable Sales accelerator**.
+
+    >[!div class="mx-imgBorder"]
+    >![Select disable sales accelerator on confirmation message](media/sa-disable-sa-confirmation.png "Select disable sales accelerator on confirmation message")   
+
+The sales accelerator workspace is disabled in your organization.
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 

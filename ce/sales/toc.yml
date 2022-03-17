@@ -312,8 +312,6 @@
       items:
       - name: Configure sales accelerator
         href: enable-configure-sales-accelerator.md
-      - name: Disable sales accelerator
-        href: disable-sales-accelerator.md  
       - name: Add the Up next widget to an entity form
         href: add-upnext-widget-form.md  
       - name: Add the sales accelerator site map entry to custom app          
