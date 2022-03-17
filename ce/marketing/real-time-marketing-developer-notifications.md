@@ -1,5 +1,5 @@
 ---
-title: "Receiving notifications and event sending (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Receiving notifications and creating interactions (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Developer: learn how to receive notifications from real-time marketing in Dynamics 365 Marketing."
 ms.date: 03/15/2022
 ms.custom: 
@@ -17,7 +17,7 @@ search.app:
   - D365Mktg
 ---
 
-# Receiving notifications and event sending
+# Receiving notifications and creating interactions
 
 Notifications received from Dynamics 365 Marketing have an additional payload containing links and a **trackingId** for interaction event creation.
 

@@ -21,6 +21,12 @@ search.app:
 
 [Push notification configuration for real-time marketing](real-time-marketing-push-notifications.md) requires some setup that must be completed by an app developer.
 
+The developer process to set up push notifications follows these steps:
+
+1. [App registration](real-time-marketing-push-notifications.md#create-a-mobile-app-configuration)
+1. [Device registration](real-time-marketing-developer-push.md#implement-user-mapping)
+1. [Receiving notifications and creating interactions](real-time-marketing-developer-notifications.md)
+
 ## Implement user mapping
 
 In order for push notifications from a mobile application to work correctly, you will need to configure mapping from Dynamics 365 Marketing customers to mobile application users. This ensures that the correct person (represented with the correct entity and record ID) receives the expected mobile push notification.

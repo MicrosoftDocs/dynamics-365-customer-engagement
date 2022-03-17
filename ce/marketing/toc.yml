@@ -262,7 +262,7 @@
       items: 
       - name: Push notification setup for application developers
         href: real-time-marketing-developer-push.md
-      - name: Receiving notifications and event sending
+      - name: Receiving notifications and creating interactions
         href: real-time-marketing-developer-notifications.md
       - name: Use binding IDs to correlate across triggers
         href: real-time-marketing-correlate-triggers.md
