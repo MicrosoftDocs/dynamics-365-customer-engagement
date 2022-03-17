@@ -1,6 +1,6 @@
 ---
 title: "Create early bound entity classes with the code generation tool (CrmSvcUtil.exe) (Developer Guide for Dynamics 365 Customer Engagement (on-premises) )| MicrosoftDocs"
-description: ""
+description: "Learn about a command-line code generation tool for use with Microsoft Dataverse. This tool generates early-bound .NET Framework classes that represent the Entity Data Model used by Dynamics 365 Customer Engagement (on-premises)."
 keywords: 
 ms.date: 09/05/2019
 
