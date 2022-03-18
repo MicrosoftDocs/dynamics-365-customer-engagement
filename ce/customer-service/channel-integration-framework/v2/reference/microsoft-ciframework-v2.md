@@ -98,7 +98,7 @@ Use these APIs to indicate a KPI breach and to update the number of new activiti
 
 ## Presence APIs
 
-Use these APIs to set and retrieve the Omnichannel agent presence programmatically. You can use the methods when the agent is working on a third-party application, and to synchronize presence states between different applications to ensure that agent capacity is optimally utilized.
+Use these APIs to set and retrieve the Omnichannel agent presence programmatically. You can use the methods when a blended agent is working on a third-party application with omnichannel, and you want to synchronize the presence states between different applications to ensure that agent capacity is optimally utilized.
 
 | Methods | Description |
 |---------|-------------|
