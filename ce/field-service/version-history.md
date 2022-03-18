@@ -59,8 +59,8 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 (Includes Universal Resource Scheduling version [3.12.73.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#3127325)).
 
 - Field Service (Dynamics 365) mobile app: Fixed a bug so booking calendar control will no longer jump to incorrect date when scrolling through bookings on iOS.
-- Field Service (Dynamics 365) mobile: Enabled the agenda view on the Booking Calendar control for Tablet & Windows devices. 
-- Field Service (Dynamics 365) mobile: Added customer phone number field to the out of the box Customer details tab on the Bookable Resource Booking & Work Order       form. 
+- Field Service (Dynamics 365) mobile app: Enabled the agenda view on the booking calendar control for tablets and Windows devices. 
+- Field Service (Dynamics 365) mobile app: Added customer phone number field to the out-of-the-box customer details tab on the bookable resource booking and work order forms. 
 
 ## 8.8.61.21
 
@@ -82,7 +82,7 @@ This release is a hotfix on Field Service version [8.8.60.18](/dynamics365/field
 (Includes Universal Resource Scheduling version [3.12.71.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#3127116)).
 
 -  Field Service (Dynamics 365) mobile will correctly show times adjusted for daylight saving time on the booking calendar control. 
--  Field Service admins will see a notification within Dynamics 365 Field Service if their organization is using Field Service Mobile (Xamarin app). This notification      will inform users of the upcoming [end-of-Life](/dynamics365/field-service/activate-fs-mobile-app-license) timeline for Field Service Mobile (Xamarin app). 
+-  Field Service admins will see a notification within Dynamics 365 Field Service if their organization is using Field Service Mobile (Xamarin app). This notification will inform users of the upcoming [end-of-Life](/dynamics365/field-service/activate-fs-mobile-app-license) timeline for Field Service Mobile (Xamarin app). 
 -  Fixed a bug in the Field Service (Dynamics 365) mobile app to prevent an intermittent error from displaying after selecting a push notification.
 
 
