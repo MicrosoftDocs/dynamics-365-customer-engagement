@@ -1,5 +1,14 @@
 
-## 3.12.79.2
+## 3.12.73.25
+
+(Includes Resource Scheduling controls version 1.2.14.220634)
+
+- Fixed bug: msdyn_SearchResourceAvailability API return wrong results if the search range is in the next hour.
+- Fixed bug: travel time shouldn't be considered when returning available timeslots for facility scheduling.
+- Fixed bug: msdyn_SearchResourceAvailability API should respect existing bookings only return where resource has idle time, and when user check ‘Ignore duration’ on 	UI, API should also  return slots with less than required duration. 
+- Fixed bug: on new schedule board,  filter for bottom requirement section doesn’t work correctly for boolen fields. 
+
+## 3.12.72.9
 
 (Includes Resource Scheduling controls version 1.2.13.220534)
 
