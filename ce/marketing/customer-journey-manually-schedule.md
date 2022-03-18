@@ -1,7 +1,7 @@
 ---
 title: "Manually schedule contacts and email delivery (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to manually schedule contacts and email delivery for customer journeys in Dynamics 365 Marketing."
-ms.date: 03/17/2022
+ms.date: 03/18/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: reference
@@ -33,7 +33,7 @@ Customer journeys feature multiple mechanisms that allow you to set schedules so
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the Wait until tile.](media/customer-journey-wait-until.png "Screenshot of the Wait until tile")
 
-1. Use the **Schedule** section in **Send an email**, **Wait until**, or **Wait for** tiles to hold contacts until a specific time of the week is reached. For example, you could set the tile to wait until weekend afternoons before sending an email and sending the contacts to the next tile in the journey.
+1. Use the **Schedule** section in a **Send an email** tile to hold contacts until a specific time of the week is reached. For example, you could set the tile to wait until weekend afternoons before sending an email and progressing the contacts to the next tile in the journey.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the Schedule section.](media/customer-journey-schedule.png "Screenshot of the Schedule section")
