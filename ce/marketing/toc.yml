@@ -430,6 +430,8 @@
         href: email-expire.md
       - name: Use automated scheduling to help improve email engagement
         href: automated-scheduler.md
+      - name: Manually schedule contacts and email delivery
+        href: customer-journey-manually-schedule.md
       - name: Create and manage customer journey templates
         href: journey-templates.md
       - name: Create an inbound customer journey
