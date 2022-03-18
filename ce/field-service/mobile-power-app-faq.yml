@@ -4,7 +4,6 @@ metadata:
   description: Find answers to commonly asked questions about the Field Service (Dynamics 365) mobile app.
   ms.date: 08/09/2021
   ms.reviewer: krbjoran
-  
   ms.subservice: field-service-mobile
   ms.topic: faq
   applies_to: 
@@ -65,9 +64,9 @@ sections:
         answer: |
           There are currently limitations in support of WebReources while using the mobile app in offline and online modes. These limitations vary by device operating system. For more information, see the table in [Platform Documentation](/dynamics365/mobile-app/mobile-offline-capabilities#limitations)
           For this reason, we recommend you develop using the [Power Apps component framework](/powerapps/developer/component-framework/overview), which will have broad cross-platform support on mobile and browser.
-       - question: Where can I find information on mobile app Offline Security & Encryption?
-       answer: |
-        Field Service Mobile follows same architecture and security as Power Apps Mobile. See [Overview of Power Platform Security](https://docs.microsoft.com/power-platform/admin/security/overview#the-application-and-data-on-the-device).
+      - question: Where can I find information on mobile app offline security and encryption?
+        answer: |
+          Field Service mobile follows the same architecture and security as the Power Apps mobile app. For more information, see: [Overview of Power Platform security](/power-platform/admin/security/overview#the-application-and-data-on-the-device).
  - name: Sign in
     questions:     
         - question: What do the "Reconfigure" and "Sign out" options do?
