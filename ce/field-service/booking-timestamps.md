@@ -3,7 +3,6 @@ title: "Booking timestamps in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn about booking timestamps in Dynamics 365 Field Service.
 ms.date: 02/03/2020
 ms.reviewer: krbjoran
-
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
@@ -75,10 +74,10 @@ Each booking timestamp details:
 
 - **Timestamp Time**: The date and time of status change.
 
-- **Timestamp Source**: The device from which the status was changed. When updating from the Field Service (Dynamics 365) mobile app, this timestamp source will read **Desktop** if the changes was made while the app is running in Online mode, and **Mobile** when the app is running in Offline mode. 
+- **Timestamp Source**: The device from which the status was changed. When updating from the Field Service (Dynamics 365) mobile app, this timestamp source will read **Desktop** if the changes were made while the app is running in online mode, and **Mobile** when the app is running in offline mode. 
 
 > [!Note]
-> By default Booking Timestamps are only generated when there is a change in the related Field Service Status which is noted on each booking status, but this is configurable based on the **Timestamp Frequency setting** described below.
+> By default, booking timestamps are only generated when there's a change in the related Field Service status, which is noted on each booking status; this is configurable based on the **Timestamp Frequency setting** described below.
 
 To help illustrate, consider that you have three booking statuses: 
 
