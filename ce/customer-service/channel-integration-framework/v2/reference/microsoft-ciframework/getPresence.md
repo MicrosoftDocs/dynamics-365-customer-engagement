@@ -40,13 +40,10 @@ function getPresence() {
                                //your code for success
                             }
                             return result;
-
                         },
                         function (error) {
-
-                           // code handling for promise faiure
+                           // code handling for promise failure
                         });
-
                 });
 ```
 
