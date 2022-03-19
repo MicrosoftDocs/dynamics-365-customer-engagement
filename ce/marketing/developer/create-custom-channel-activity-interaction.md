@@ -2,7 +2,7 @@
 title: "Custom channel activity create interaction (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Describes the input parameters required by the msdyncrm_CustomChannelActivityCreateInteraction action."
 ms.date: 02/15/2020
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

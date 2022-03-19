@@ -2,7 +2,7 @@
 title: "Dynamics 365 Marketing Developer Guide (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Provides information about how you can extend the customer journeys feature using *custom channels*."
 ms.date: 04/01/2018
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

@@ -4,7 +4,7 @@ description: "Office Graph integration for Dynamics 365 was removed on August 31
 ms.custom: 
 ms.date: 09/30/2017
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

@@ -5,16 +5,18 @@ ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 ms.custom: 
   - "dyn365-sales"
 searchScope: 
   - D365-App-msdynce_saleshub
+  - D365-App-msdynce_salespro
   - D365-Entity-uom
   - D365-Entity-uomschedule
   - D365-Entity-discount
   - D365-Entity-pricelevel
   - D365-Entity-productpricelevel
+  - D365-Entity-discounttype
   - D365-UI-*
   - Dynamics 365
   - Sales

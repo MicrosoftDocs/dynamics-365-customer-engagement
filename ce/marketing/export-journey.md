@@ -2,7 +2,7 @@
 title: "Export customer journey insights to Excel (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to export Dynamics 365 Marketing customer journey data to Excel for further analysis or reporting."
 ms.date: 04/03/2020
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing

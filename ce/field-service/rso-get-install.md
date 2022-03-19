@@ -3,7 +3,7 @@ title: "Get Resource Scheduling Optimization | MicrosoftDocs"
 description: Learn how to get Resource Scheduling Optimization for Dynamics 365
 ms.date: 07/30/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.subservice: resource-scheduling-optimization
 ms.topic: article
 applies_to: 

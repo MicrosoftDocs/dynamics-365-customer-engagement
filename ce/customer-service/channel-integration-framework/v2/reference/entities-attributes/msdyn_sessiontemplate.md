@@ -5,7 +5,7 @@ ms.date: 11/03/2020
 ms.topic: "reference"
 author: "mh-jaya"
 ms.author: v-jmh
-manager: "jdaly"
+manager: "shujoshi"
 applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c

@@ -81,7 +81,7 @@ Create a sample assignment rule with the following conditions.
 |                    |                             |               |              |
 
 > [!NOTE]
-> If you want to define a condition on available capacity of users, then use the **Available capacity** attribute only as suggested in the example. Use the "is greater than" operator to ensure that available capacity is more than the required capacity.
+> If you want to define a condition on unit-based capacity of users, then use the Available capacity attribute only as suggested in the example. Use the "is greater than" operator to ensure that available capacity is more than the required capacity.
 
 ![Sample assignment rule.](media/ur-sample-assign-rule.png "Sample assignment rule")
 

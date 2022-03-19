@@ -4,7 +4,7 @@ description: "App makers use web resources to extend an app with virtual files. 
 ms.custom: 
 ms.date: 10/29/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

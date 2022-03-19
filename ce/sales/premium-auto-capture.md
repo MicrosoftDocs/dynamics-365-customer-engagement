@@ -12,6 +12,13 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 1
+searchScope: 
+  - D365-App-msdynce_saleshub
+  - D365-Entity-msdyn_suggestedcontact
+  - D365-UI-*
+  - Dynamics 365
+  - Sales
+  - Customer Engagement
 ---
 # Preview: Premium auto capture   
 
@@ -316,7 +323,8 @@ A success message is displayed at the bottom of the screen, and the contact is d
 ### See also
 
 [Enable and configure auto capture](configure-auto-capture.md)<br>
-[Basic auto capture](free-auto-capture.md)
+[Basic auto capture](free-auto-capture.md)  
+[Auto capture FAQs](faqs-sales-insights.md#auto-capture)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

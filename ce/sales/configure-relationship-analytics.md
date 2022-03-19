@@ -1,17 +1,19 @@
 ---
 title: "Configure Relationship analytics and health"
 description: "Configure relationship analytics and health to provide graphical representation of KPIs and activity histories to the sellers."
-ms.date: 10/26/2021
+ms.date: 03/15/2022
 ms.custom: 
 ms.topic: article
-ms.assetid: 03bfdad0-2575-4c4b-a845-d7ac1ff0b0c3
-author: udaykirang
-ms.author: udag
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 ---
 # Configure relationship analytics and health 
 
-Relationship analytics provides graphical representation of KPIs and activity histories for any contact, opportunity, lead, or account to the users. 
+Relationship analytics provides a graphical representation of KPIs and activity histories of any contact, opportunity, lead, or account. It uses data from Dynamics 365 and Exchange Online (if configured) to create more accurate and complete relationship information. To configure the feature, perform the following tasks:
+
+1. [Enable relationship analytics and health](#enable-relationship-analytics-and-health)
+1. [Allow to collect information from Exchange server](#allow-to-collect-information-from-exchange-server) 
 
 ## License and role requirements
 
@@ -24,27 +26,25 @@ Relationship analytics provides graphical representation of KPIs and activity hi
 >[!IMPORTANT]
 >This feature is intended to help sellers or sales managers enhance their team’s performance. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with sales persons may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their sales persons that their communications with end users may be monitored, recorded, or stored.
 
-## To configure relationship analytics and health 
+## Enable relationship analytics and health 
 
-1. Verify that advanced Sales Insights features are enabled. To learn more, see [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features).    
-2. Go to **Change area** in the lower-left corner of the page and select **Sales Insights settings**. 
+1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**. 
+   
+3. Under **Relationship insights**, select **Analytics and health**.   
 
-    > [!div class="mx-imgBorder"]
-    > ![Select Sales Insights settings option](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings option")    
+    > [!NOTE]
+    > If you don't see the **Analytics and health** menu, verify whether the advanced Sales Insights features are enabled. To learn more, see [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features). 
     
-3. On the site map, under **Relationship insights**, select **Relationship analytics**. 
-
-    The configuration page opens.   
-    
-4. Select the toggle to enable relationship analytics for your organization and then select **Save**.    
+4. Select the toggle to enable relationship analytics for your organization and then select **Save**.  
 
     > [!div class="mx-imgBorder"]
     > ![Enable the relationship assistant for your organization](media/si-admin-relationship-analytics-enable-in-organization.png "Enable the relationship assistant for organization")  
     
     The application takes few seconds to enable relationship analytics for your organization. After relationship analytics is enabled, you can configure the parameters as required.    
 
-    <a name="configure-similar-opportunities-preview"></a>By default, the data sources and view similar opportunities options are enabled. You can view the **Relationship analytics with modern design and similar opportunities** section for more information.    
-    The enhanced experience is available by default for contacts, opportunities, leads, and accounts. Users in your organization can see an improved relationship analytics tab for opportunities. The tab displays customer interaction KPIs along with suggestions calculated from similar won opportunities through AI-driven models.  
+    By default, the data sources and view similar opportunities options are enabled. 
+
+    The modern design experience is available by default for contacts, opportunities, leads, and accounts. Users in your organization can see an improved relationship analytics tab for opportunities. The tab displays customer interaction KPIs along with suggestions calculated from similar won opportunities through AI-driven models.  
 
     > [!div class="mx-imgBorder"]
     > ![Enable to view similar opportunities](media/relationship-analytics-enable-preview-similar-opportunities.png "Enable to view similar opportunities") 
@@ -88,76 +88,32 @@ Relationship analytics provides graphical representation of KPIs and activity hi
     
 10. Select **Save**.   
 
-    Relationship analytics is ready to use in your organization.   
+11. If your organization is using a custom sales app or a custom form for lead or contact, add the [Relationship Health widget](add-ri-widgets-to-custom-form.md) to your app. The widget makes the relationship health score information available to sellers.  
+
+    Relationship analytics is ready to use in your organization.
 
 ## Allow to collect information from Exchange server 
 
 Enable the **Dynamics 365 Sales Insights – Analytics** option in the admin center to collect valuable information about communications&mdash;such as emails and meetings&mdash;for users in your organization from Exchange server. This data is used in analytics features for salespeople and sales managers. When you enable, the **Exchange Data** option on the relationship analytics configuration page is automatically selected. 
-
-Follow these steps:    
-1. Go to the **Admin** center.    
-    > [!div class="mx-imgBorder"]
-    > ![Admin center](media/sales-insights-addon-admincenter.png "Admin center")   
+   
+1. Go to the **Microsoft 365 admin center**.     
     
-2. Select **Settings** > **Settings** > **Dynamics 365 Sales Insights – Analytics**.    
+2. Select **Settings** > **Org Settings** > **Dynamics 365 Sales Insights – Analytics**.    
     > [!div class="mx-imgBorder"]
     > ![Select Sales Insights preview option](media/sales-insights-addon-admincenter-customer-insights-preview.png "Select Sales Insights preview option")    
     
-3. Read the description carefully, select the **Allow org data to be used by ‎Dynamics 365 Sales Insights - Analytics**‎ option, and then select **Save changes**.    
-    > [!div class="mx-imgBorder"]
-    > ![Enable and save Sales Insights preview option](media/sales-insights-addon-admincenter-customer-insights-preview-settings.png "Enable and save Sales Insights preview option")    
+3. Read the description carefully, select the **Allow org data to be used by Dynamics 365 Sales Insights - Analytics** option, and then save the changes.       
     
-    Now you can connect to the Exchange server to collect data.
-
-## Add the health score widget to a form
-
-By default, the health score widget is available only in the out-of-the-box **Sales Insights** form. If you're using customized forms, you can display the health score widget on your custom forms by following these steps.
-
-> [!IMPORTANT]
-> - Adding health score widget is only supported in Unified Interface apps.
-> - You can't use the legacy form designer to add a health score widget to a form.
-
-1. Sign in to the [Power Apps](https://make.powerapps.com/) portal.    
-    > [!div class="mx-imgBorder"]  
-    > ![Power Apps home page](media/power-apps-home-page.png "Power Apps home page")    
-2. Search for and select your organization's environment.    
-    > [!div class="mx-imgBorder"]    
-    > ![Select your organization](media/power-apps-select-org.png "Select your organization")    
-3. Select **Data** > **Tables**.   
-    The **Tables** page opens with the list of tables.   
-    > [!div class="mx-imgBorder"]  
-    > ![tables page with list of entities](media/power-apps-entities-page.png "tables page with list of entities")   
-4. Open the table, select the **Forms** tab, and then select a main form to add the widget to. In this example, the table **Account** is selected and the main form **Account** is selected.   
-    >[!NOTE]
-    >If you're unable to view the table to which you want to add the widget, in the upper-right corner of the page, change the filters settings to **All**.     
-    
-    > [!div class="mx-imgBorder"]  
-    > ![Select the account main form on the Forms tab](media/power-apps-account-main-form.png "Select the account main form on the Forms tab")    
-5. In the form designer, select **Component**, and then from **Layout**, add a column to the form as a placeholder to add the widget.    
-    > [!div class="mx-imgBorder"]  
-    > ![Add a column to the form](media/power-apps-layout-add-column-form.png "Add a column to the form")   
-7. From the site map, select **Display** > **Relationship Health**.    
-    >[!NOTE]
-    >Ensure that the added placeholder column is selected. If it isn't, the widget will be added at a random place in the form.   
-
-    > [!div class="mx-imgBorder"]   
-    > ![Select the health score widget](media/power-select-health-score-widget.png "Select the health score widget")   
-8. In the **Edit relationship health** pop-up window, select **Done**.    
-    > [!div class="mx-imgBorder"]  
-    > ![Select Done to add the health score widget](media/power-app-health-score-widget-options.png "Select Done to add the health score widget")    
-
-    The health score widget is added to the form.     
-    >[!NOTE]
-    >To hide the **New section** label, go to the **Properties** tab of the **New Section** settings pane that is displayed on the right side of the page, and then select **Hide label**.     
-9. Save and publish the form.   
+    Dynamics 365 can now connect to the Exchange server to collect data.
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 
 [Use relationship analytics to gather KPIs](../sales/relationship-analytics.md)  
-[Opt out of relationship analytics (GDPR)](optout-relationship-analytics-gdpr.md)  
+[Add Relationship intelligence widgets to custom forms](add-ri-widgets-to-custom-form.md)  
 [GDPR for Sales Insights](embedded-intelligence-gdpr.md)  
 [View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)  
+[Relationship analytics and health FAQ](faqs-sales-insights.md#relationship-analytics-and-health)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

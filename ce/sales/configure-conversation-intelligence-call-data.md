@@ -98,7 +98,7 @@ Upload the call recording or transcript to the created call recording repository
     |&nbsp;| `opportunity` | (Optional) Specifics the CRM opportunity details that are related to the conversation. The opportunity is an object that contains `id`. |
     |&nbsp;| `activity` | (Optional) Specifics the CRM activity details that are related to the conversation. The activity is an object that contains `id`. |
     |&nbsp;| `mediaReferenceId` | (Optional) Specifics the CRM media reference ID (Guid). |
-    | `locale` | &mdash; | Specifies the locale used in the conversation. Currently, we support en-US, en-GB, de-DE, fr-FR, it-IT, es-ES, es-MX, ja-JP, pt-BR, zh-CN, nl-NL, fr-CA, pt-PT, he-IL, and ar-BH. |
+    | `locale` | &mdash; | Specifies the locale used in the conversation. Currently, we support en-US, en-GB, de-DE, fr-FR, it-IT, es-ES, es-MX, ja-JP, pt-BR, zh-CN, nl-NL, fr-CA, pt-PT, he-IL, da-DK, sv-SE, fi-FI, and ar-BH. |
     | `version` | &mdash; | Specifies the version of metadata file. The value is 3.0.0. |
     | `title` | &mdash; | (Optional) Specifies the title of the conversation. |
     | `scope` | &mdash; | (Optional) Specifies whether the conversation is internal or external. The value is External or Internal. |
@@ -368,7 +368,7 @@ The call data storage container is updated, and you can start uploading the call
 
 [Introduction to administer conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)     
 [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md)     
-[FAQs](faqs-sales-insights.md)
+[Conversation Intelligence FAQs](faqs-sales-insights.md#conversation-intelligence)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

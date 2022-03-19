@@ -3,7 +3,7 @@ title: "Set up Teams integration with the Dynamics 365 app"
 description: "By default, Microsoft Teams integration is disabled for customer engagement apps. Follow these steps to install the Dynamics 365 app for Microsoft Teams."
 ms.date: 08/24/2021
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -55,9 +55,9 @@ If you get an error while configuring Microsoft Teams integration from Dynamics 
 If you're using the Sales Hub app, use the App Settings page to enable the integration. If you're using a custom app, use Power Apps Settings.
 
 **To enable the integration in the Sales Hub app:**
-1. Select the **Change area** icon
+1. Select the **Change area** icon
     ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area")
-    in the lower-left corner and then select **App Settings**.
+    in the lower-left corner and then select **App Settings**.
    > [!div class="mx-imgBorder"]
    > ![Screenshot depicting the App settings option in change area](media/app-settings-menu.png)  
 2. Under **General Settings**, select **Chat and collaborate**.  

@@ -1,7 +1,7 @@
 ---
 title: "Define service-level agreements in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how to define service-level agreements in Dynamics 365 Customer Service."
-ms.date: 10/21/2021
+ms.date: 02/23/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -30,9 +30,9 @@ You can associate an SLA with an entitlement so that when an entitlement is adde
 
 Alternatively, you can set up a default SLA for the organization.  
 
-## Configure SLAs in Customer Service Hub
+## Configure SLAs 
 
-With the SLA feature in Customer Service Hub, you can:
+With the SLA feature, you can:
 
 - Use out-of-the-box actions in Microsoft Power Automate.
 - Define work hours, and pause and resume SLAs at the SLA KPI level and SLA item level, which help track SLA items for different work hours based on priority and criteria. The pause settings at SLA KPI level or SLA item level gives you added flexibility to define pause conditions at a more granular level.
@@ -68,17 +68,34 @@ Review the following requirements before configuring SLAs for your organization:
 > [!NOTE]
 > In Unified Interface, the Elapsed Time and Paused On attributes of an SLA KPI Instance contain the values that are equivalent to the values in the Last Onhold Time and Onhold Time attributes of the target record, such as the case and account, in the web client.
 
-## Create SLA KPIs in Customer Service Hub<a name="create-sla-kpis"></a>
+## Create SLA KPIs <a name="create-sla-kpis"></a>
 
 SLA KPIs are performance indicators, such as First Response or Resolve by, that you'd like to track.
 
-1. Sign in to Customer Service, and open the **Customer Service Hub** app.
+You can create SLA KPIs in the Customer Service admin center (preview) app or Customer Service Hub app.
 
-2. Select **Change area** > **Service Management** > **SLA KPIs**.
+1. Go to one of the apps, and perform the following steps.
 
-3. Select **New**. The **New SLA KPI** page appears.
+    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
 
-4. Enter the following details on the **General** tab:
+    > [!IMPORTANT]
+    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+    1. In the site map, select **Service Terms** in **Operations**. The **Service Terms** page appears.
+    1. In the **SLA KPIs** section, select **Manage**.                                                                         
+        
+      The **Active SLAKPIs** view is displayed. Select the SLA for which you want to add an SLA item.   
+
+    ### [Customer Service Hub](#tab/customerservicehub)
+
+    1. In the site map, go to **Service Management**.
+    1. From the list of entity records, select **SLA KPIs** in **Service Terms**.                                                              
+       
+       The **Active SLAKPIs** view is displayed. Select the SLA for which you want to add an SLA item. 
+
+2. Select **New**. The **New SLA KPI** page appears.
+
+3. Enter the following details on the **General** tab:
 
    - **Name**: The name of the SLA KPI.
 
@@ -90,18 +107,18 @@ SLA KPIs are performance indicators, such as First Response or Resolve by, that 
 
    - **Applicable From**: Select a value based on which the warning and failure time will be measured. For example, if you select **Created On**, the warning and failure start time for an SLA will be calculated from the date and time when the entity was created.
 
-5. Select **Save**.
+4. Select **Save**.
 
-6. To define the pause criteria at the KPI level, in the **Pause Conditions** section that appears, do the following:
+5. To define the pause criteria at the KPI level, in the **Pause Conditions** section that appears, do the following:
    1. Set the toggle to **Yes** for **Override Criteria**. If any pause settings are applied at the entity level for your org, they will be overridden by the criteria define at the KPI level. For the other KPIs, the entity level pause settings will continue to function if no pause criteria is defined at the KPI level.
    2. Select **Add** to define the conditions in which the SLA KPI can be paused.
 
     > [!NOTE]
     > At runtime, when you pause an SLA KPI instance and resume it, the SLA KPI instance is canceled and a new SLA KPI instance is created.
 
-7. Select **Activate**. The SLA KPI is saved and activated.
+6. Select **Activate**. The SLA KPI is saved and activated.
 
-## Create SLAs in Customer Service Hub<a name="create-slas"></a>
+## Create SLAs <a name="create-slas"></a>
 
 Create SLAs to define conditions and actions that are applicable when an SLA is applied to an entity. The following steps are involved in creating the SLA:
 
@@ -110,9 +127,28 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 3. Configure actions for the SLA item.
 4. Activate the SLA.
 
-### Create an SLA
+### Create an SLA 
 
-1. In **Customer Service Hub** > **Service Management**, select **SLAs**.
+You can create an SLA in the Customer Service admin center (preview) or Customer Service Hub app.
+
+1. Go to one of the apps, and perform the following steps.
+
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+
+   > [!IMPORTANT]
+   > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+   1. In the site map, select **Service Terms** in **Operations**. The **Service Terms** page appears.
+   1. In the **Service Level Agreements (SLAs)** section, select **Manage**.                                                                         
+        
+   The **All Service Level Agreements** view is displayed. You can switch between various system views using the drop-down list.  
+
+   ### [Customer Service Hub](#tab/customerservicehub)
+
+   1. In the site map, go to **Service Management**.
+   1. From the list of entity records, select **Service Level Agreements** in **Service Terms**.                                                              
+       
+      The **All Service Level Agreements** view is displayed. You can switch between various system views using the drop-down list.  
 
 2. Select **New**. The **New SLA** page appears.
 
@@ -126,7 +162,26 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
 ### Create an SLA item
 
-1. In **Customer Service Hub** > **Service Management**, select the SLA for which you want to add an SLA item.
+You can create an SLA item in the Customer Service admin center (preview) or Customer Service Hub app.
+
+1. Go to one of the apps, and perform the following steps.
+
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+
+   > [!IMPORTANT]
+   > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+
+   1. In the site map, select **Service Terms** in **Operations**. The **Service Terms** page appears
+   1. In the **Service Level Agreements (SLAs)** section, select **Manage**.                                                                         
+        
+        The **All Service Level Agreements** view is displayed. Select the SLA for which you want to add an SLA item.   
+
+   ### [Customer Service Hub](#tab/customerservicehub)
+
+   1. In the site map, go to **Service Management**.
+   1. From the list of entity records, select **Service Level Agreements** in **Service Terms**.                                                              
+       
+      The **All Service Level Agreements** view is displayed. Select the SLA for which you want to add an SLA item. 
 
 2. On the page that appears, select **New SLA Item**. The **New SLA Item** dialog box appears.
 
@@ -208,7 +263,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
 6. Select **Activate**. The SLA is activated.
 
-## Create a standard SLA (Customer Service app)
+### Create a standard SLA (Customer Service app)
 
 > [!NOTE]
 >
@@ -290,7 +345,6 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
        ![Success criteria for an SLA is Case First Response Sent equals Yes.](media/crm-ua-sla-details-success-criteria.png "Success criteria for an SLA is 'Case First Response Sent equals Yes'")  
   
-
      > [!NOTE]
      >  Before you specify the failure and warning actions for the SLA, save the SLA item record.  </br> </br> If the conditions configured in the SLA fields conflict with each other, the SLA is canceled before it meets the success or failure criteria. For example, if the **Case Status** field is set as **Active** in the **Applicable When** section and is set as **not equal to Active** in the **Success Criteria** section, the SLA will be canceled when implemented.
 
@@ -315,7 +369,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
     > - If failure or warning times are set to less than one hour, processing of the failure or warning actions might be delayed.
     > - Make sure you author SLAs in a way that best suits your company's needs. For example, in the SLA **Applicable When** conditions, we recommend that you don't use case fields that are updated too frequently, because any change to the field value might lead to the SLA item being canceled.
 
-## Create an enhanced SLA (Customer Service app) 
+### Create an enhanced SLA (Customer Service app) 
 
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
 
@@ -434,7 +488,7 @@ To set an SLA as the default, select an active SLA from the list, and then selec
 > [!NOTE]
 > If you deactivate a default SLA, you must activate it again before resetting it as the default.  
 
-## Disable an SLA in Customer Service app
+### Disable an SLA in Customer Service app
 
 During maintenance activities or when you're importing records and you don't want the SLAs to be applied, you can disable SLAs for your organization. A system administrator can disable SLAs from the **System Settings** dialog box. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Service tab](/power-platform/admin/system-settings-dialog-box-service-tab)  
 
@@ -488,8 +542,14 @@ We recommend that you perform the following steps to upgrade a solution:
 
 The following limitations apply to the Unified Interface apps:
 
-- The "applicable when" and "success conditions" aren't supported and won't work as expected if they are configured for related entities.
-- Multiple SLA items can't be defined with the same "applicable when" criteria and different "success conditions" for an SLA.
+- The **Applicable When** and **Success Conditions** won't work as expected if they are configured for related entities.
+
+    - **Applicable when** conditions, if defined on the related entity, will work only for the first time when they are met, and the KPI instance will be set to **In Progress**. After that, any update to the related entity will not cancel the existing KPI instance if the conditions of the same SLA item are false, or create a new KPI instance if there is a change in the SLA item.
+    - Success conditions defined on the related entity will never be true and the KPI instance once set to **In Progress** will never succeed, even if conditions are met. It will continue to be in **In Progress**, **Nearing NonCompliance**, or **Noncompliant** status.
+    - The above limitations will work only if the related entity lookup record of the target entity is updated.
+    
+- Multiple SLA items can't be defined with the same **Applicable When** criteria and different **Success Conditions** for an SLA.
+
 
 ### See also
 

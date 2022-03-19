@@ -9,7 +9,7 @@ ms.date: 10/07/2021
 
 # Assign roles and enable users for Omnichannel for Customer Service
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -26,7 +26,7 @@ The Dynamics 365 users can access and perform different functions based on the r
 - **App Profile Manager Administrator:** Required for creating and assigning app profiles to users of Customer Service and Omnichannel for Customer Service.
 - **App Profile User:** Required by users of Customer Service and Omnichannel for Customer Service.
 
-For more information on the App Profile Manager Administrator and App Profile User roles, see [Roles and privileges associated with app profile manager](../app-profile-manager/security-roles.md)
+For information on the App Profile Manager Administrator and App Profile User roles, see [Roles and privileges associated with app profile manager](../app-profile-manager/security-roles.md)
 
 Additionally, the **Customer Service Representative** role is required to work with the Case entity.
 
@@ -34,7 +34,9 @@ Use the Microsoft 365 admin center to create user accounts for every user who ne
 
 ## Assign roles to users
 
-Perform the following steps to assign roles to users in the **Advanced Settings**:
+To be able to map roles to personas in role persona mapping, you must assign the roles to users directly and not through team memberships. For more information about role persona mapping, see [Role persona mapping](role-persona-mapping.md).
+
+Perform the following steps to assign roles to users in the advanced settings area of Dynamics 365:
 
 1. Select **Settings** > **Advanced Settings** on the command bar. The **Settings** page is displayed in a new browser tab.
 

@@ -3,7 +3,7 @@ title: "Which fields can be synchronized between Dynamics 365 apps and Outlook? 
 ms.custom: 
 ms.date: 08/20/2018
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

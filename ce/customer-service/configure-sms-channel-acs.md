@@ -1,7 +1,7 @@
 ---
 title: "Configure an SMS channel using Azure Communication Services | MicrosoftDocs"
-description: "Get instructions for configuring an SMS channel in Omnichannel for Customer Service using Azure Communication Services."
-ms.date: 11/30/2021
+description: "Use this article to get instructions for configuring an SMS channel in Omnichannel for Customer Service using Azure Communication Services."
+ms.date: 02/18/2022
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -15,14 +15,14 @@ manager: shujoshi
 The SMS channel in Omnichannel for Customer Service allows your organization to connect to customers via text messages. Your customers can send text messages and connect with an appropriate customer service agent. Agents can view incoming SMS requests on their dashboard and respond accordingly. You can use the same phone number for both the SMS channel, and for inbound and outbound calling in the voice channel.
 
 > [!NOTE]
-> - SMS is currently available for toll-free numbers in the United States only. 
+> - SMS is currently available for toll-free numbers in the United States only, and only works for inbound communication. Outbound (agent-initiated) SMS is not currently supported.
 > - SMS is not supported with [Azure direct routing](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing).
 
 ## Prerequisites
 
 - [Connect to Azure Communication Services](voice-channel-acs-resource.md).  
   
-   If you’ve connected your existing Azure resource, ensure that you’ve [created an event subscription endpoint for SMS](voice-channel-acs-resource.md#create-event-subscription-endpoint-for-sms).
+   If you’ve connected your existing Azure resource, ensure that you’ve [created an event subscription endpoint for SMS](voice-channel-connect-existing-resource.md#create-event-subscription-endpoint-for-sms).
 - Provision a phone number that's enabled for SMS services. Ensure that you select **Send SMS** or **Send and receive SMS** options when you choose your phone number features in Omnichannel admin center. More information: [Acquire new phone numbers](voice-channel-manage-phone-numbers.md#acquire-new-phone-numbers)
    
     If you're using an existing phone number that's not enabled for SMS, then you can upgrade your plan. More information: [Edit phone numbers](voice-channel-manage-phone-numbers.md#edit-phone-numbers)
@@ -31,7 +31,7 @@ The SMS channel in Omnichannel for Customer Service allows your organization to 
 
 [Create a workstream for the SMS channel](create-workstreams.md), and then perform the following steps:
 
-1. In the site map of Omnichannel admin center, go to **Workstreams** and open the workstream that you created.
+1. Go to the **Workstreams** page, and open the workstream that you created.
 2. In the **Set up your SMS channel** section, select **Set up SMS**, and then configure the following options:
    1. On the **SMS setup** page, select a number from the list.
    2. On the **Language** page, select the language that you want to set as the default.

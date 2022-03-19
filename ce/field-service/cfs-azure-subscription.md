@@ -3,7 +3,7 @@ title: "Microsoft Azure subscription prerequisites for Connected Field Service w
 description: Learn about Microsoft Azure subscription prerequisites for Connected Field Service with IoT Hub
 ms.date: 05/21/2019
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.subservice: connected-field-service
 ms.topic: article
 applies_to: 

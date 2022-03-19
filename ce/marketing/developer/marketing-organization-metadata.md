@@ -2,7 +2,7 @@
 title: "Metadata reference for your organization (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Know about the installed solutions, entities, and custom actions in your marketing organization."
 ms.date: 04/01/2018
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: reference

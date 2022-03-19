@@ -7,9 +7,7 @@ author: udaykirang
 ms.author: udag
 manager: shujoshi
 ---
-# Preview: Create and activate an assignment rule 
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# Create and activate an assignment rule 
 
 Create and activate assignment rules for leads and opportunities by defining conditions to automatically assign records to sellers when the defined conditions are met in Dynamics 365 Sales.
 
@@ -32,18 +30,16 @@ When a lead or opportunity record is created in an organization, assignment rule
 
 ## To create and activate an assignment rule
 
-1. Sign in to your Dynamics 365 Sales Hub app.
-
-2. Go to the **Change area** ![change area](media/change-area-icon.png) in the lower-left corner of the page, and select **Sales Insights settings**.
-
-3. Under **Sales accelerator**, select **Assignment rules (preview)**.
-
-4. On the **Assignment rules** page, select **+ New rule** and then select **Lead assignment rule**.
+1.	Sign in to your Dynamics 365 Sales Hub app.    
+2.	Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.   
+3. Under **Sales accelerator**, select **Assignment rules**.    
+4. On the **Assignment rules** page, from the **Rule** tab, select **+ New rule** > **Lead assignment rule**.
 
    >[!div class="mx-imgBorder"]
    >![Select the lead assignment rule option from a new rule.](media/sa-ar-create-assignment-rule-select-lead.png "Select the ead assignment rule option from a new rule")   
 
     The **Create assignment rule** pane opens.    
+
     >[!div class="mx-imgBorder"]
     >![Create assignment rule pane.](media/sa-ar-create-assignment-rule-right-pane.png "Create assignment rule pane")   
 

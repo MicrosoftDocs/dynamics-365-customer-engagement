@@ -62,6 +62,27 @@ The next sections describe:
 - How to get conversation intelligence   
 - How to access conversation intelligence   
 
+## What languages are supported? 
+
+Currently, conversation intelligence supports the following languages: 
+
+| Language | Code |
+|----------|------|
+| Arabic | ar-BH |
+| Chinese simplified | zh-CN |
+| Danish | da-DK |
+| Dutch | nl-NL |
+| English | en-US and en-GB |
+| Finnish | fi-FI |
+| French | fr-FR and fr-CA |
+| German | de-DE |
+| Hebrew | he-IL |
+| Italian | it-IT |
+| Japanese | ja-JP |
+| Portuguese | pt-PT and pt-BR |
+| Spanish | es-ES and es-MX |
+| Swedish | sv-SE |
+
 ## Recommendations to use conversation intelligence   
 Before you start using the application, we suggest you review the following requirements for effective use of conversation intelligence:   
 -	Verify that you have a subscription to Microsoft Dynamics 365 Sales. To learn more, see [About licensing and license management](/power-platform/admin/wp-license-management).   
@@ -112,7 +133,8 @@ The search results show the conversations that contain the tag **hot deal**. In 
 ### See also
 
 [Administer conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)   
-[View overall sales and seller insights](dynamics365-sales-insights-app-home-page.md)
+[View overall sales and seller insights](dynamics365-sales-insights-app-home-page.md)  
+[Conversation Intelligence FAQs](faqs-sales-insights.md#conversation-intelligence)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

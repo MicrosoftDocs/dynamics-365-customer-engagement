@@ -3,7 +3,7 @@ title: "Overview of inventory, purchasing, and returns in Dynamics 365 Field Ser
 description: Learn about inventory, purchasing, and returns in Dynamics 365 Field Service
 ms.date: 01/09/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.topic: overview
 
 applies_to: 
@@ -19,7 +19,7 @@ search.app:
 
 # Overview of inventory, purchasing, and returns
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 Dynamics 365 Field Service inventory capabilities include:
 

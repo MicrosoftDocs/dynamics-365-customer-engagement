@@ -145,7 +145,7 @@ If you're using custom attributes for lead generation, you can generate the mode
 1. Before you configure the model, review the [prerequisites](#prerequisites).
  
     > [!NOTE]
-    > You can also enable predictive lead scoring through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get 1500 scored records per month. To enable predictive lead scoring through quick setup, you must go to the **Get started with digital sales page** under **App Settings**. More information: [Lead and opportunity scoring](digital-selling.md#lead-and-opportunity-scoring)
+    > You can also enable predictive lead scoring through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get 1,500 scored records per month. To enable predictive lead scoring through quick setup, you must go to the **Get started with digital sales** page under **App Settings**. More information: [Lead and opportunity scoring](digital-selling.md#lead-and-opportunity-scoring)
 
 2. Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
 
@@ -641,6 +641,7 @@ By default, the predictive lead scoring widget is available only in the out-of-t
 ### See also
 
 [Prioritize leads through scores](../sales/work-predictive-lead-scoring.md)  
-[Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)
+[Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)  
+[Predictive lead/opportunity scoring FAQs](faqs-sales-insights.md#predictive-leadopportunity-scoring)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -4,7 +4,7 @@ description: "The page provides the steps for accessing view definitions in seve
 ms.custom: 
 ms.date: 08/08/2018
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

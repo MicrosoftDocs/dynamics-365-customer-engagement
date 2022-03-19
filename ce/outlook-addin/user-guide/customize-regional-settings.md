@@ -3,7 +3,7 @@ title: "Customize your regional settings (number, currency, time, and date) in D
 ms.custom: 
 ms.date: 01/23/2020
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

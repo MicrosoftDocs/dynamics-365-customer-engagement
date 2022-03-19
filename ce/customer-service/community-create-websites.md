@@ -17,22 +17,12 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Preview: Create new websites in Community
-> [!IMPORTANT]
->
-> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
->
-> [!INCLUDE[cc-preview-features-send-us-feedback](../includes/cc-preview-features-send-us-feedback.md)]
+# Create new websites in Community
 
 Complete the following steps to create a new website in Community:
-1. Go to **Website Settings** on the left-side navigation panel.
-2. Select **+New** to create a new website.
+
+1. Go to **Website Settings** in the site map.
+2. Select **New** to create a website.
 3. Go to [Power Apps](https://make.preview.powerapps.com/) to provision a portal for the new website.
 
 

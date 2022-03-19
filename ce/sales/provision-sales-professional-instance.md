@@ -5,12 +5,12 @@ ms.date: 09/23/2020
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 ---
 
 # Provision your Dynamics 365 Sales Professional environment
 
-[!INCLUDE[cc-data-platform-banner](../includes/cc-data-platform-banner.md)]
+
 
 Congratulations on the purchase of the Sales Professional application. 
 

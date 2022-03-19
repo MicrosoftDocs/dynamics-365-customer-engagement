@@ -4,7 +4,7 @@ description: "Learn how to deactivate an account or contact in Dynamics 365 Cust
 ms.custom: 
 ms.date: 10/11/2020
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

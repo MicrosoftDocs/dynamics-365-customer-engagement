@@ -3,7 +3,7 @@ title: "Scheduling parameters in resource scheduling (Settings) for Dynamics 365
 description: Learn about settings related to resource scheduling in Dynamics 365 Field Service.
 ms.date: 09/02/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.topic: article
 applies_to:
 - "Dynamics 365 (online)"

@@ -4,7 +4,7 @@ description: "The sample code demonstrates how to search by body, keyword, and t
 ms.custom: 
 ms.date: 01/02/2020
 ms.reviewer: 
-ms.service:
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: sample
