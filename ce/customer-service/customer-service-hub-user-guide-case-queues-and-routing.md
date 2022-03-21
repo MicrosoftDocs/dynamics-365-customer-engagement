@@ -3,9 +3,11 @@ title: "Cases to queues and routing in Customer Service Hub | MicrosoftDocs"
 description: "Understand cases and SLA in Customer Service Hub for Dynamics 365 Customer Service."
 ms.date: 03/25/2021
 ms.topic: article
-author: mh-jaya
-ms.author: v-jmh
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
+ms.custom: 
+  - dyn365-customerservice
 search.audienceType: 
   - admin
   - customizer
@@ -13,8 +15,6 @@ search.audienceType:
 search.app: 
   - D365CE
   - D365CS
-ms.custom: 
-  - dyn365-customerservice
 ---
 
 # Case queues and routing

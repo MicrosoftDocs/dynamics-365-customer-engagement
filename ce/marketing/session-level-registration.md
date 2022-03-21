@@ -2,7 +2,7 @@
 title: "Enable session-level registration and waitlisting for events (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Describes how to set up session-level registration and how it differs from event-level registration in Dynamics 365 Marketing."
 ms.date: 04/01/2019
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

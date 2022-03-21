@@ -3,7 +3,7 @@ title: "Create a work order in Dynamics 365 Field Service (contains video) | Mic
 description: Learn how to create a work order in Dynamics 365 Field Service
 ms.date: 11/15/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.topic: article
 author: FieldServiceDave
 ms.author: daclar
@@ -146,6 +146,7 @@ Popup navigation will now be enabled when the following entities are selected fr
 - Time entry
 
 > [!NOTE]
+
 > This feature is available in Unified Interface only.
 
 ### Show simplified work order commands

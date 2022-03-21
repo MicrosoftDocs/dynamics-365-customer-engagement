@@ -2,7 +2,7 @@
 title: "Add custom event-registration fields (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Add custom fields to the registration form on your event website, and read the submitted values in Dynamics 365 Marketing."
 ms.date: 07/22/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

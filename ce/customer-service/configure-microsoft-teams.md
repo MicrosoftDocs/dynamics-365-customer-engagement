@@ -1,7 +1,7 @@
 ---
 title: "Configure Microsoft Teams channel in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the Microsoft Teams channel and how to configure the channel in Omnichannel for Customer Service."
-ms.date: 12/10/2021
+ms.date: 02/25/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -26,16 +26,36 @@ Make sure that the following prerequisites are met:
 
 - An app is created and configured in **Teams** > **App Studio**. More information: [Build your first Teams app using C#](/microsoftteams/platform/get-started/get-started-dotnet-app-studio?tabs=AS).
 
-## Configure a Microsoft Teams channel in Omnichannel admin center<a name="configureinoac"></a>
+## Configure a Microsoft Teams channel<a name="configureinoac"></a>
 
-1. In the site map, select **Channels** under **General settings**, and on the **Accounts and channels** page, select **Add account**.
-2. Enter the following details:
+**To configure a Microsoft Teams channel**
+
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
+
+   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+     
+    > [!IMPORTANT]
+    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+    
+    1. In the site map, in **Customer support**, select **Channels**.
+    
+    1. In **Accounts**, for **Messaging accounts**, select **Manage**.
+   
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter) 
+
+    - In the site map, in **General settings**, select **Channels**.
+
+1. On the **Accounts and channels** page, select **New account**.
+
+1. Enter the following details:
    1. On the **Channel details** page, enter a name and select **Microsoft Teams** in **Channels**.
    2. On the **Account details** page, in **Account name**, enter the Microsoft Teams name that you use.
    3. On the **Callback information** page, copy the value in the **Bot ID** box. You'll use it in the Teams app to update the value for the bot ID.
    4. Select **Done**. The account is added to the list.
-3. To configure routing and work distribution, go to the **Workstreams** page and create a [workstream](create-workstreams.md).
-4. Select the workstream that you've created for the Microsoft Teams channel and on the workstream page, select **Set up Microsoft Teams** to configure the following options:
+
+1. To configure routing and work distribution, go to the **Workstreams** page and create a [workstream](create-workstreams.md).
+
+1. Select the workstream that you've created for the Microsoft Teams channel and on the workstream page, select **Set up Microsoft Teams** to configure the following options:
     1. On the **Microsoft Teams setup** page, in the **Available Microsoft Teams accounts** list, select the number that you created.
     2. On the **Language** page, select the language.
     3. On the **Behaviors** page, configure the following options:
@@ -45,18 +65,23 @@ Make sure that the following prerequisites are met:
       - Customers can send file attachments
       - Agents can send file attachments
    5. Verify the settings on the **Summary** page, and select **Finish**. The WhatsApp channel instance is configured.
-5. Configure routing rules. More information: [Configure work classification](configure-work-classification.md).
-6. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
-7. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream).
-8. In **Advanced settings**, configure the following options based on your business needs:
+
+1. Configure routing rules. More information: [Configure work classification](configure-work-classification.md).
+
+1. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
+
+1. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream).
+
+1. In **Advanced settings**, configure the following options based on your business needs:
    - [Sessions](../app-profile-manager/session-templates.md)
    - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
    - [Context variables](context-variables-for-bot.md#add-context-variables)
    - [Smart assist bots](smart-assist-bot.md)
    - [Quick replies](create-quick-replies.md)
 
-## Configure a Microsoft Teams channel in Omnichannel Administration<a name="configureteams"></a>
+### Configure a Microsoft Teams channel in Omnichannel Administration<a name="configureteams"></a>
 
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 1. In Omnichannel Administration under **Channels**, select **Teams**. The **New Teams Channel** page appears.
 

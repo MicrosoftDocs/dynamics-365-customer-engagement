@@ -1,6 +1,7 @@
 ---
 title: "Embed chat widget in your website or portal | MicrosoftDocs"
-description: "This topic provides information about the steps to perform to embed a chat widget in your website or Power Apps portal."
+description: "This article provides information about the steps to perform to embed a chat widget in your website or Power Apps portal."
+ms.date: 02/18/2022
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
@@ -14,32 +15,41 @@ manager: shujoshi
 
 To embed a chat widget in your web portal:
 
-1.	Sign in to Omnichannel Administration.
-2.	Go to **Channels** &gt; **Chat**.
-3.	Open the chat widget you want to embed in your website.
-4.	On the **Basic details** tab, copy the widget snippet code from the **Code snippet** section.
-5.  Paste the chat widget snippet code in the HTML source of your website.
+1.	In Dynamics 365, go to one of the administrator apps.
+
+1.	Go to **Channels** &gt; **Chat**.
+
+1.	Open the chat widget you want to embed in your website.
+
+1.	On the **Basic details** tab, copy the widget snippet code from the **Code snippet** section.
+
+1. Paste the chat widget snippet code in the HTML source of your website.
 
 ## Embed chat widget in your Power Apps portal
 
 To embed a chat widget in Power Apps portals:
 
-1.	Sign in to Omnichannel Administration.
-2.	Go to **Channels** &gt; **Chat**.
-3.	Open the chat widget you want to embed in Power Apps portals.
-4.	On the **Basic details** tab, copy the widget snippet code from the **Code snippet** section.
+1.	In one of the administrator apps, open the chat widget you want to embed in Power Apps portals.
+
+1.	On the **Basic details** tab, copy the widget snippet code from the **Code snippet** section.
     > [!div class=mx-imgBorder]
     > ![Copy code snippet of a chat widget.](media/chat-widget-snippet.png "Copy code snippet of a chat widget")
-5.	[Open the Portal Management app](/powerapps/maker/portals/configure/configure-portal).
-6.	Go to **Portal** > **Content Snippets**.
-7.	Find the **Chat Widget Code** content snippet and open it.
+
+1.	[Open the Portal Management app](/powerapps/maker/portals/configure/configure-portal).
+
+1.	Go to **Portal** > **Content Snippets**.
+
+1.	Find the **Chat Widget Code** content snippet and open it.
     > [!div class=mx-imgBorder]
     > ![Go to Chat Widget Code content snippet in portal.](media/portal-content-snippet.png "Go to Chat Widget Code content snippet in portal")    
-8.	On the **General** tab, scroll-down to the **Value (HTML)** section.
-9.	Paste the chat widget snippet code in the **HTML** tab.
+
+1.	On the **General** tab, scroll-down to the **Value (HTML)** section.
+
+1.	Paste the chat widget snippet code in the **HTML** tab.
     >[!div class=mx-imgBorder]
     > ![Paste code snippet of a chat widget.](media/paste-snippet.png "Paste code snippet of a chat widget")
-10.	Save the changes. The chat widget is now embedded into the portal.
+
+1.	Save the changes. The chat widget is now embedded into the portal.
 
 If you don't see your chat widget in the portal, see [Troubleshoot Omnichannel for Customer Service](troubleshoot-omnichannel-customer-service.md).
 

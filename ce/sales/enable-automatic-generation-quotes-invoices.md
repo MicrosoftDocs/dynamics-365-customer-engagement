@@ -5,7 +5,7 @@ ms.date: 11/23/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: annbe
+manager: shujoshi
 ---
 
 # Enable automatic generation of quote and invoice documents

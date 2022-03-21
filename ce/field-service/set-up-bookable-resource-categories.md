@@ -3,7 +3,7 @@ title: "Set up bookable resource categories (Dynamics 365 Field Service) | Micro
 description: Learn how to set up bookable resource categories in Dynamics 365 Field Service
 ms.date: 09/30/2017
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.topic: article
 author: FieldServiceDave
 ms.author: daclar

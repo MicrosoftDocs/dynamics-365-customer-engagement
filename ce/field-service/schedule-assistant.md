@@ -3,7 +3,7 @@ title: "Overview of the Dynamics 365 Field Service schedule assistant | Microsof
 description: Learn all about the schedule assistant in Dynamics 365 Field Service
 ms.date: 06/18/2020
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 
 ms.topic: overview
 applies_to: 

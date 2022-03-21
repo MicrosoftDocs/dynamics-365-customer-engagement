@@ -3,7 +3,7 @@ title: "Schedule work with requirement groups in Universal Resource Scheduling"
 description: "Learn how to use requirement groups to define a set of resources that are needed for a job and then schedule all those resources with a single search."
 ms.date: 06/24/2019
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.subservice: common-scheduler
 ms.topic: article
 applies_to: 

@@ -1,6 +1,16 @@
 {
   "redirections": [
     {
+      "source_path": "ce/customer-service/customer-service-hub-user-guide-timeline-admin.md",
+      "redirect_url": "/powerapps/maker/model-driven-apps/set-up-timeline-control?context=/dynamics365/context/customer-service-context",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/mobile-app/files-images-offline-profile.md",
+      "redirect_url": "/powerapps/mobile/offline-file-images",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customer-service/enable-consult.md",
       "redirect_url": "oc-conversation-control",
       "redirect_document_id": "false"
@@ -23145,11 +23155,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/customer-service/voice-channel-install.md",
-      "redirect_url": "omnichannel-provision-license",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/sales-professional/help-hub.md",
       "redirect_url": "/dynamics365/sales/help-hub",
       "redirect_document_id": "false"
@@ -23542,6 +23547,21 @@
     {
       "source_path": "ce/sales/developer/exportpdf-api.md",
       "redirect_url": "../create-quote-pdf",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/optout-relationship-analytics-gdpr.md",
+      "redirect_url": "dynamics-365-sales-gdpr",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/sales-accelerator-assignment-rules.md",
+      "redirect_url": "enable-configure-sales-accelerator",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/knowledge-management-oc.md",
+      "redirect_url": "set-up-knowledge-management-embedded-knowledge-search#set-up-knowledge-management",
       "redirect_document_id": "false"
     }
   ]

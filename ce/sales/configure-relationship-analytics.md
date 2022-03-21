@@ -1,163 +1,82 @@
 ---
-title: "Configure Relationship analytics and health"
-description: "Configure relationship analytics and health to provide graphical representation of KPIs and activity histories to the sellers."
-ms.date: 10/26/2021
+title: Configure relationship analytics and health
+description: Configure relationship analytics to help sales teams monitor customer relationship health and risks in Dynamics 365 Sales.
+ms.date: 03/03/2022
 ms.custom: 
 ms.topic: article
-ms.assetid: 03bfdad0-2575-4c4b-a845-d7ac1ff0b0c3
-author: udaykirang
-ms.author: udag
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 ---
-# Configure relationship analytics and health 
 
-Relationship analytics provides graphical representation of KPIs and activity histories for any contact, opportunity, lead, or account to the users. 
+# Configure relationship analytics and health
+
+Your organization's sales teams can use the relationship analytics in Dynamics 365 Sales to monitor the health and risks of their customer relationships. Graphical representations of KPIs and activity histories are available for any contact, opportunity, lead, or account. Detailed analytics about customer interactions, patterns, and trends are based on interaction data from Dynamics 365 and Office. With more accurate and complete relationship information, sales teams can more effectively identify customers who need their attention.
+
+Relationship analytics appears on Sales Insights opportunity record forms. Relationship health appears on opportunity record forms, list views, and charts.
 
 ## License and role requirements
 
 | &nbsp; | &nbsp; |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| --- | --- |
+| **License** | Dynamics 365 Sales Premium<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security Role** | System Administrator<br>See [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 >[!IMPORTANT]
->This feature is intended to help sellers or sales managers enhance their team’s performance. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with sales persons may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their sales persons that their communications with end users may be monitored, recorded, or stored.
+>This feature is intended to help sellers or sales managers enhance their team’s performance. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with users. This also includes adequately notifying users that their communications with sales persons may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their sales persons that their communications with users may be monitored, recorded, or stored.
 
-## To configure relationship analytics and health 
+## Turn on and configure relationship analytics and health
 
-1. Verify that advanced Sales Insights features are enabled. To learn more, see [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features).    
-2. Go to **Change area** in the lower-left corner of the page and select **Sales Insights settings**. 
+1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
+1. Under **Relationship insights**, select **Analytics and health**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Select Sales Insights settings option](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings option")    
-    
-3. On the site map, under **Relationship insights**, select **Relationship analytics**. 
-
-    The configuration page opens.   
-    
-4. Select the toggle to enable relationship analytics for your organization and then select **Save**.    
-
-    > [!div class="mx-imgBorder"]
-    > ![Enable the relationship assistant for your organization](media/si-admin-relationship-analytics-enable-in-organization.png "Enable the relationship assistant for organization")  
-    
-    The application takes few seconds to enable relationship analytics for your organization. After relationship analytics is enabled, you can configure the parameters as required.    
-
-    <a name="configure-similar-opportunities-preview"></a>By default, the data sources and view similar opportunities options are enabled. You can view the **Relationship analytics with modern design and similar opportunities** section for more information.    
-    The enhanced experience is available by default for contacts, opportunities, leads, and accounts. Users in your organization can see an improved relationship analytics tab for opportunities. The tab displays customer interaction KPIs along with suggestions calculated from similar won opportunities through AI-driven models.  
-
-    > [!div class="mx-imgBorder"]
-    > ![Enable to view similar opportunities](media/relationship-analytics-enable-preview-similar-opportunities.png "Enable to view similar opportunities") 
-    
-    > [!NOTE]
-    > - You must have at least 30 won and 30 lost opportunities to compare with existing opportunities.
-    > - To understand how users use this feature, see [View similar opportunities](relationship-analytics.md#relationship-analytics-with-similar-opportunities).   
-    
-6. To show the relationship health score in opportunities, views, and charts, set the toggle to **On**.    
-
-    > [!NOTE]
-    > You can disable the option if you don't wish to display the score in opportunities, views, and charts. However, disabling the option does not affect the process of gathering the relevant health data.   
-    
-    > [!div class="mx-imgBorder"]
-    > ![Enable relationship health for organization](media/relationship-analytics-relationship-health-enable.png "Enable relationship health for organization") 
-    
-7. Adjust the importance of activities of different types as they contribute to the relationship health score.  
-
-    Businesses place different emphasis on the type of communication used with customers. The activities include, Emails, Meetings, Phone calls, and Tasks. 
-    
-    > [!div class="mx-imgBorder"]
-    > ![Adjust activity influence for relationship health](media/relationship-analytics-relationship-health-adjust-activity.png "Adjust activity influence for relationship health")
-    
-8. Choose **Communication frequency**.     
-
-    Businesses have varying sales cycles and different expected levels of communications with customers. A longer expected communications frequency reduces the expectation of more recent frequent communications in the health score. A shorter expected communications frequency increases the expectation of more recent frequent communications in the health score. 
-    
-    > [!div class="mx-imgBorder"]
-    > ![Choose communication frequency](media/relationship-analytics-communication-frequency.png  "Choose communication frequency")    
-    
-9.  Set **Health score grading** for health scores to grade opportunities.  
-
-    When health score is calculated, the opportunities in your organization's pipeline are graded according to the range defined in this section. Each opportunity in the pipeline is graded Good, Fair, or Poor, according to the health score. Opportunities in the top score range are graded Good while records within the lowest score range are graded Poor.  
-    
-    You can configure the range for the grading according to your organizational requirements. When you change the health score range for a grade, the maximum range value for the adjacent grade changes automatically in accordance with the change in the minimum value. For example, when you change the minimum range value score for Good to 60, the maximum lead score range for Fair changes to 59.    
-    
-    After setting the values, the initial grading of opportunities can take up to 24 hours.
-    
-    > [!div class="mx-imgBorder"]
-    > ![Set health score grading](media/relationship-analytics-health-score-greading.png  "Set health score grading")    
-    
-10. Select **Save**.   
-
-    Relationship analytics is ready to use in your organization.   
-
-## Allow to collect information from Exchange server 
-
-Enable the **Dynamics 365 Sales Insights – Analytics** option in the admin center to collect valuable information about communications&mdash;such as emails and meetings&mdash;for users in your organization from Exchange server. This data is used in analytics features for salespeople and sales managers. When you enable, the **Exchange Data** option on the relationship analytics configuration page is automatically selected. 
-
-Follow these steps:    
-1. Go to the **Admin** center.    
-    > [!div class="mx-imgBorder"]
-    > ![Admin center](media/sales-insights-addon-admincenter.png "Admin center")   
-    
-2. Select **Settings** > **Settings** > **Dynamics 365 Sales Insights – Analytics**.    
-    > [!div class="mx-imgBorder"]
-    > ![Select Sales Insights preview option](media/sales-insights-addon-admincenter-customer-insights-preview.png "Select Sales Insights preview option")    
-    
-3. Read the description carefully, select the **Allow org data to be used by ‎Dynamics 365 Sales Insights - Analytics**‎ option, and then select **Save changes**.    
-    > [!div class="mx-imgBorder"]
-    > ![Enable and save Sales Insights preview option](media/sales-insights-addon-admincenter-customer-insights-preview-settings.png "Enable and save Sales Insights preview option")    
-    
-    Now you can connect to the Exchange server to collect data.
-
-## Add the health score widget to a form
-
-By default, the health score widget is available only in the out-of-the-box **Sales Insights** form. If you're using customized forms, you can display the health score widget on your custom forms by following these steps.
-
-> [!IMPORTANT]
-> - Adding health score widget is only supported in Unified Interface apps.
-> - You can't use the legacy form designer to add a health score widget to a form.
-
-1. Sign in to the [Power Apps](https://make.powerapps.com/) portal.    
-    > [!div class="mx-imgBorder"]  
-    > ![Power Apps home page](media/power-apps-home-page.png "Power Apps home page")    
-2. Search for and select your organization's environment.    
-    > [!div class="mx-imgBorder"]    
-    > ![Select your organization](media/power-apps-select-org.png "Select your organization")    
-3. Select **Data** > **Tables**.   
-    The **Tables** page opens with the list of tables.   
-    > [!div class="mx-imgBorder"]  
-    > ![tables page with list of entities](media/power-apps-entities-page.png "tables page with list of entities")   
-4. Open the table, select the **Forms** tab, and then select a main form to add the widget to. In this example, the table **Account** is selected and the main form **Account** is selected.   
     >[!NOTE]
-    >If you're unable to view the table to which you want to add the widget, in the upper-right corner of the page, change the filters settings to **All**.     
-    
-    > [!div class="mx-imgBorder"]  
-    > ![Select the account main form on the Forms tab](media/power-apps-account-main-form.png "Select the account main form on the Forms tab")    
-5. In the form designer, select **Component**, and then from **Layout**, add a column to the form as a placeholder to add the widget.    
-    > [!div class="mx-imgBorder"]  
-    > ![Add a column to the form](media/power-apps-layout-add-column-form.png "Add a column to the form")   
-7. From the site map, select **Display** > **Relationship Health**.    
-    >[!NOTE]
-    >Ensure that the added placeholder column is selected. If it isn't, the widget will be added at a random place in the form.   
+    >If you don't see **Analytics and health**, make sure the advanced Sales Insights features are turned on. To learn more, see [Install and configure premium Sales Insights features](./intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features).
 
-    > [!div class="mx-imgBorder"]   
-    > ![Select the health score widget](media/power-select-health-score-widget.png "Select the health score widget")   
-8. In the **Edit relationship health** pop-up window, select **Done**.    
-    > [!div class="mx-imgBorder"]  
-    > ![Select Done to add the health score widget](media/power-app-health-score-widget-options.png "Select Done to add the health score widget")    
+1. Turn on **Relationship analytics and health**.
 
-    The health score widget is added to the form.     
+1. Under **Data Sources**, select **Exchange Online** ​to include emails from Exchange Online in KPI calculations and analytics.
+
     >[!NOTE]
-    >To hide the **New section** label, go to the **Properties** tab of the **New Section** settings pane that is displayed on the right side of the page, and then select **Hide label**.     
-9. Save and publish the form.   
+    >Your Office 365 administrator must give consent to use Office 365 data before relationship analytics can include Exchange Online emails. If consent hasn't been given, a message displays stating the same. Work with your Office 365 administrator to get consent. For more information, see [Provide consent for collecting data from Office 365](./provide-consent-office365.md).  
+
+    :::image type="content" source="./media/si-admin-relationship-analytics-enable-in-organization.png" alt-text="A screenshot of the Relationship analytics and health settings page.":::
+
+1. To show the relationship health score in opportunities, views, and charts, turn on **Relationship Health**.
+
+    >[!NOTE]
+    >You can turn this option off if you don't want to show the score. However, relevant health data is still collected.
+
+    :::image type="content" source="./media/relationship-analytics-relationship-health-enable.png" alt-text="A screenshot of the Relationship analytics and health settings page, with the Relationship Health option shown.":::
+
+1. Under **Activity influence**, adjust the sliders according to the relative importance of common activities in calculating the relationship health score.  
+
+    :::image type="content" source="./media/relationship-analytics-relationship-health-adjust-activity.png" alt-text="A screenshot of the Relationship analytics and health settings page, with the Activity influence settings shown.":::
+
+1. In **Communication Frequency**, select how often your organization expects sales teams to communicate with customers.
+
+    The value you select influences the expectation of more recent frequent communications in the health score. Less frequent communication reduces the expectation. More frequent communication increases it.
+
+    :::image type="content" source="./media/relationship-analytics-communication-frequency.png" alt-text="A screenshot of the Relationship analytics and health settings page, with the Communication Frequency option shown.":::
+
+1. Under **Health score grading**, set the range of health scores to grade opportunities. To change the default values, point to the minimum value in the range and select the up or down arrow or type a new value.
+
+    When the health score is calculated, the opportunities in your organization's pipeline are graded as Good, Fair, or Poor, according to the ranges you defined. Grading can take up to 24 hours.
+
+    If you change a grade's minimum value, the adjacent grade's maximum value changes automatically with it. For example, if you change the minimum value for Good to *50*, the maximum value for Fair changes to *49*.
+
+    :::image type="content" source="./media/relationship-analytics-health-score-grading.png" alt-text="A screenshot of the Relationship analytics and health settings page, with the Health score grading settings shown.":::
+
+1. Select **Save**.
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 
 [Use relationship analytics to gather KPIs](../sales/relationship-analytics.md)  
-[Opt out of relationship analytics (GDPR)](optout-relationship-analytics-gdpr.md)  
+[Add Relationship intelligence widgets to custom forms](add-ri-widgets-to-custom-form.md)  
 [GDPR for Sales Insights](embedded-intelligence-gdpr.md)  
 [View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)  
+[Relationship analytics and health FAQ](faqs-sales-insights.md#relationship-analytics-and-health)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

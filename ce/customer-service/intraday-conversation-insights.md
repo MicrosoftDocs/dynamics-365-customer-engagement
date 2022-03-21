@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel Intraday insights: Conversation insights report for supervisors | MicrosoftDocs"
 description: "Learn about the Intraday dashboards: Conversation insights report for supervisors in Omnichannel for Customer Service."
-ms.date: 11/25/2021
+ms.date: 02/05/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -43,10 +43,10 @@ The **Conversation insights** report displays the following metrics about conver
 |Service level | The percentage of chats that were accepted by an agent within 30 seconds. The threshold of 30 seconds can be modified to suit your business needs. More information: [Modify thresholds](#modify-thresholds). Only the conversations that are directly handled by the agent or escalated by the bot to the agent are considered; conversations handled and closed by the bot are excluded.| Live chat|
 | Chats waiting in queue/Conversations waiting in queue/Calls waiting in queue | The number of conversations that are waiting in the queue to be accepted by the bot or agent. |Live chat, Digital messaging, Voice |
 | Closed chats/Closed conversations/Closed calls | The number of conversations closed in the last 24 hours by the bot or agent. |Live chat, Digital messaging, Voice |
-| Longest wait time | The longest time that a conversation is in queue waiting to be accepted by an agent. | Live chat, Digital messaging, Voice |
+| Longest wait time | The longest time that an open conversation is waiting in queue to be accepted by an agent.| Live chat, Digital messaging, Voice |
 | Average handle time | The average handle time is calculated as the average of all the handle times of the sessions handled by the agent. The session handle time is the total duration the agent spent on the session when it is in focus in the session panel until an agent closes the session. The handle time is paused when the agent switches to another session and is resumed when the agent returns to the session. More information: [Average handle time](intraday-insights-dashboard.md#average-handle-time). Only the conversations that are directly handled by an agent or escalated by a bot to an agent are considered; conversations handled and closed by the bot are excluded. | Live chat, Digital messaging, Voice |
 | Average wait time (min) | For a conversation, wait time is defined as the cumulative wait time of its individual sessions. Session wait time is defined as the elapsed time between the creation of a session and the time that an agent accepts it. If the agent rejects the chat or lets the notification time out, the amount of time it took for the agent to reject the chat or timeout is added and the time it takes for the subsequent session to be accepted by the agent is factored into the wait time. The average wait time is computed for only closed conversations and is also displayed on a per-queue basis. Is derived as the total wait time by total number of conversations, excluding the abandoned ones. Only the conversations that are directly handled by an agent or escalated by a bot to an agent are considered; conversations handled and closed by the bot are excluded. | Live chat, Digital messaging|
-| Average wrap time (min) | The average time taken to wrap up conversations. Is derived as the total wait time by total number of conversations, excluding abandoned ones. Only the conversations that are directly handled by an agent or escalated by a bot to an agent are considered; conversations handled and closed by the bot are excluded.| Live chat, Digital messaging|
+| Average wrap time (min) | The average time taken to wrap up conversations. Is derived as the total wrap time by total number of conversations, excluding abandoned ones. Only the conversations that are directly handled by an agent or escalated by a bot to an agent are considered; conversations handled and closed by the bot are excluded.| Live chat, Digital messaging|
 | Conversation status | The distribution of the status of conversations across **Open**, **Active**, **Waiting**, **Wrap up**, and **Closed**. |Live chat, Digital messaging, Voice |
 | Chat abandon rate/Call abandon rate | The percentage of conversations in which customers left before an agent accepted it. After escalation by a bot, when a customer leaves before an agent accepts it, it's also considered as abandoned. Is derived as the number of abandoned conversations or calls by number of chats or calls.|Live chat, Voice |
 | Transfer rate by queue | The percentage of sessions within a queue that were transferred to another agent or queue. Is derived as the number of sessions transferred by total sessions. This includes any sessions created by a bot and escalated to an agent. | Live chat, Digital messaging|
@@ -120,7 +120,7 @@ If the operating hours of the queue are updated to a new schedule, the latest op
 
 ### Modify thresholds
 
-You can update the out-of-box threshold value in Microsoft Power BI to suit your business needs.
+In a BI workspace that's custom configured, you can update the thresholds for the metrics that are displayed in the out-of-the-box reports. However, you can't modify the thresholds in a preconfigured BI workspace.
 
 1. Open the report in Power BI.
 

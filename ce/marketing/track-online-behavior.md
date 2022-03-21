@@ -2,7 +2,7 @@
 title: "Track online behavior (Dynamics 365 Marketing) | Microsoft Docs"
 description: "A tutorial for how to enable online behavior analysis for website activity and external clicks in Dynamics 365 Marketing."
 ms.date: 04/01/2018
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

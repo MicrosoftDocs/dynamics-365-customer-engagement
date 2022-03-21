@@ -3,7 +3,7 @@ title: "Set up booking rules in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to set up booking rules in Dynamics 365 Field Service.
 ms.date: 02/01/2022
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.topic: article
 author: FieldServiceDave
 ms.author: daclar
@@ -71,7 +71,7 @@ The following screenshot shows a newly created solution. We recommend that your 
 4. Save your booking rule. Once you save the booking rule, it will be used by the hourly view of schedule board and schedule assistant or the entity form. You can deactivate your booking rule record to keep the schedule board, schedule assistant, or the booking entity form, from executing the rule.
 
 > [!Note]
-> The booking rules are currently only supported on the hourly view of the schedule board and schedule assistant. The booking rules are also supported when the bookings are created or updated using the bookable resource booking form. Booking rules do **not** execute on delete of a booking record.
+> The booking rules are currently only supported on the hourly view of the schedule board and schedule assistant. The booking rules are also supported when the bookings are created or updated using the bookable resource booking form. Booking rules do **not** execute on delete of a booking record. Booking rules don't work on forms when using multi-edit.
 
 ## Create a CRM action
 

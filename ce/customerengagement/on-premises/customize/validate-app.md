@@ -3,7 +3,7 @@ title: "Validate an app with Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn how to check for dependencies that are necessary for an app to work but haven't been added yet. Once it's validated, publish the app for others to use."
 keywords: 
 ms.date: 01/11/2019
-ms.prod: d365ce-op
+
 ms.custom: 
 ms.topic: article
 applies_to: 

@@ -2,7 +2,7 @@
 title: "Service limits and fair use policy (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about usage limits and quotas in Dynamics 365 Marketing."
 ms.date: 12/15/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
@@ -48,7 +48,7 @@ The following tables show the current usage limits for Marketing features.
 | Data sync  | Number of rows in a single [synchronized table](./mkt-settings-sync.md) (for example, number of Marketing contacts). | 30,000,000 rows                                        |
 | Data sync  | Total rows across all [synchronized tables](./mkt-settings-sync.md).| 100,000,000 rows                                        |
 | Segment-based journeys          | Number of contacts in a segment used in a real-time marketing journey.          | 3,300,000 members                |
-| Latency of event-based journeys          | Time from when an event trigger is activated to completing first step in the journey.          | < 2 minutes with up to 700 event triggers activated per minute.<br>If the total number of event triggers activated across your environment exceeds 700 per minute, the time to complete the first step will increase linearly.                |
+| Latency of event-based journeys          | Time from when a trigger is activated to completing first step in the journey.          | < 2 minutes with up to 700 triggers activated per minute.<br>If the total number of triggers activated across your environment exceeds 700 per minute, the time to complete the first step will increase linearly.                |
 
 ## Event management
 

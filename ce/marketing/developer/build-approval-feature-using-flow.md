@@ -2,7 +2,7 @@
 title: "Build an approvals feature using Power Automate (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Learn how to build an approvals feature using Power Automate and Dynamics 365 Marketing."
 ms.date: 08/01/2019
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

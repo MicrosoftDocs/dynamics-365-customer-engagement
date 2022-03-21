@@ -2,7 +2,7 @@
 title: "Customize the email designer (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Learn how to customize the email designer in Dynamics 365 Marketing."
 ms.date: 10/27/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
