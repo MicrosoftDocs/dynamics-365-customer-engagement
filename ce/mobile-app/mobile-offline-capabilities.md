@@ -64,6 +64,8 @@ These tables and corresponding commands are available in offline mode.
     - The Power Apps mobile app is enabled for offline use.
     - The business process flow has a single table.
     - The business process flow table is added in the [offline profile](setup-mobile-offline.md#step-1-enable-tables-for-mobile-offline-synchronization).
+      > [!NOTE]
+      > If a table is associated with multiple business process flows, in order for any of the business process flows to work in offline, all the business process flows must be added to the offline profile.
     
     There are three commands that are available for a business process flow when you run an app in offline mode on the Power Apps mobile app.
     
