@@ -13,7 +13,7 @@ ms.custom:
 
 # setPresence (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
 
-Sets the presence status of the agent in the client session​.
+Sets the presence text of the agent in the client session​.
 
 ## Syntax
 

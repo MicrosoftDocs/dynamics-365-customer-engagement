@@ -13,7 +13,7 @@ ms.custom:
 
 # getPresence (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
 
-Returns the presence status of the agent in the client session​.
+Returns the presence text of the agent in the client session​.
 
 ## Syntax
 
