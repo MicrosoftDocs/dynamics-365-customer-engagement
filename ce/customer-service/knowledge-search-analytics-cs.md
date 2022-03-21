@@ -20,7 +20,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Introduction to knowledge analytics
 
-Knowledge analytics can help provide knowledge workers and supervisors with valuable insights about how knowledge articles are being used and searched, which can help them make improvements to their overall knowledge management system.
+Knowledge analytics help provide knowledge workers and supervisors with valuable insights about how knowledge articles are being used and searched. Supervisors can use these insights to improve their knowledge management system.
 
 Knowledge analytics includes the following features:
 
@@ -29,30 +29,30 @@ Knowledge analytics includes the following features:
 
 ## Article insights
 
-The article insights dashboard can help your organization's knowledge workers to understand the impact that knowledge management is making on the overall support experience. This includes the articles that are created, shared, and used.
+The article insights dashboard can help your organization's knowledge workers to understand the impact that knowledge management is making on the overall support experience. The insights include details about articles that are shared.
 
 ![Knowledge article insights analytics dashboard.](media/knowledge-article-insights-dashboard.png "View of the knowledge article insights analytics dashboard")
 
-### Article insights analytics dashboard metrics
+### Metrics in Article insights dashboard
 
-The following are specific metrics represented in this dashboard:
+The Articles insights dashboard represents the following metrics:
 
 | Metrics or chart | Definition |
 |----------------------|-------------------------|
 | Views | The total number of views on the knowledge articles. |
-| Visitors | The total number of unique visitors viewing the knowledge articles. |
+| Visitors | The total number of unique visitors who viewed the knowledge articles. |
 | Feedback rating | The average feedback rating provided by the consumers of the knowledge articles. |
-| Most viewed articles | The top 20 articles used, along with visitors, avg feedback rating, linked cases and shares metrics. |
+| Most viewed articles | The top 20 articles used, along with visitors, average feedback rating, linked cases and shares metrics. |
 | Linked cases | The total number of cases that were linked to the articles. |
 | Shares | The total number of the article that were shared by the support representative. |
 | Owner (Filter) | The owner of the knowledge article. |
 
 ## Search term analytics
 
-The knowledge search term analytics dashboard is designed to provide your organization's customer service supervisors and knowledge workers with valuable insights into how your support agents are finding and using knowledge articles.
+The knowledge search term analytics dashboard is designed to provide supervisors and knowledge workers with valuable insights into how agents find and use knowledge articles.
 
 > [!NOTE]
-> Knowledge search term analytics won't provide information about customer search behavior. Data is only from internal knowledge searches. 
+> Knowledge search term analytics won't provide information about customer search behavior. Data is from internal knowledge searches only. 
 
 ![Knowledge search term analytics dashboard.](media/knowledge-search-analytics-dashboard.png "View of the knowledge search term analytics dashboard")
 
@@ -67,13 +67,13 @@ The following are specific metrics represented in this dashboard:
 | KPIs or chart | Definition |
 |----------------------|-------------------------|
 | Search count | The total number of searches completed within a given period. |
-| Search count over duration | The number of searches of completed within a certain amount of time. |
+| Search count over duration | The number of searches completed within a certain amount of time. |
 | Avg. search rate trend | The day-by-day trend of the average list position of the link selected by a user when presented with search results. |
 | Avg. search rank | The average position of the link selected by a user when presented within search results. |
 | Engagement rate | The percentage of events where a user interacted with the search results compared to the search events presented with results. |
 | Engagement rate trend | The day-by-day trend of the percentage of events where a user interacted with the search results compared to the search events presented with results. |
-| Rate of no-result searches | Percentage of instances where there are no results for the that was term searched for. |
-| Rate of no-result searches trend | The day-by-day trend of the percentage of instances where there were no results for the search term used by the agent. |
+| Rate of no-result searches | Percentage of instances where the searched term displayed no results. |
+| Rate of no-result searches trend | The day-by-day trend of the percentage of instances that displayed "no results". |
 | Top 20 search terms | The top 20 terms being searched, showing the number of times searched, the average search rate, and engagement rate. |
 | Top 20 search terms with no results | The top 20 search terms that returned no results when searched. |
 | Top 20 search terms with high avg. search rank | The top 20 search topics by volume with an average click position of greater than five. |
