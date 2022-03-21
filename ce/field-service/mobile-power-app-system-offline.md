@@ -155,8 +155,7 @@ In summary, an offline-first application will always read from the local device 
 
 
 > [!Note]
-> After the offline enabled user logs into application the initial data sync will begin. During this time period the app with run in online mode and changes will be updated on the server. After completing the offline sync, the application will be in Offline-first mode and will read data from the local device database. If changes to data were made during that initial sync, a subsequent sync may need to occur to see those changes. 
-
+> After the offline-enabled user signs into the app, the initial data sync will begin. During this time period, the app with run in online mode and changes will be updated on the server. After completing the offline sync, the app will be in offline-first mode and will read data from the local device database.
 
 
 ## Sync intervals
