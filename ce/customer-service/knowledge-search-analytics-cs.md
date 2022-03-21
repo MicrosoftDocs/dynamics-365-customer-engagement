@@ -51,6 +51,8 @@ The Articles insights dashboard represents the following metrics.
 
 The knowledge search term analytics dashboard is designed to provide supervisors and knowledge workers with valuable insights into how agents find and use knowledge articles.
 
+Your administrator must enable the dashboard for you to access it. More information: [Configure Knowledge search insights](enable-knowledge-search-insights.md).
+
 > [!NOTE]
 > Knowledge search term analytics won't provide information about customer search behavior. Data is from internal knowledge searches only. 
 
@@ -58,9 +60,7 @@ The knowledge search term analytics dashboard is designed to provide supervisors
 
 As a knowledge manager, it's your responsibility to maintain and improve your organization's overall knowledge base article offerings. By identifying searches that have low success or return no results, the Knowledge search term analytics dashboard can help you identify knowledge gaps, improve search results, and surface the most relevant articles.  
 
-To access this dashboard, your organization's administrator must first enable it. For more information, see [Configure Knowledge search insights](enable-knowledge-search-insights.md).
-
-### Knowledge search term analytics dashboard metrics
+### Metrics in Knowledge search term analytics dashboard
 
 The Knowledge search term analytics dashboard represents the following metrics.
 
