@@ -1,7 +1,7 @@
 ---
 title: "Create and manage users and user profiles | MicrosoftDocs"
-description: "This topic provides steps that you can perform to manage users in Omnichannel for Customer Service."
-ms.date: 02/11/2022
+description: "This article provides steps that you can perform to manage users in Omnichannel for Customer Service."
+ms.date: 03/16/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -16,6 +16,7 @@ All users who are assigned the **Omnichannel administrator**, **Omnichannel supe
 
 For more information on how to create users and assign security roles, see [Assign roles and enable users for Omnichannel for Customer Service](add-users-assign-roles.md).
 
+For users to access the Omnichannel for Customer Service experiences, the roles that you map to personas in role persona mapping must be assigned to the users directly and not through team memberships. For more information about role persona mapping, see [Role persona mapping](role-persona-mapping.md).
 
 ## Manage a user in Omnichannel for Customer Service
 

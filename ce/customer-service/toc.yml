@@ -282,7 +282,7 @@
           href: users-user-profiles.md
         - name: Manage capacity profiles
           href: capacity-profiles.md
-        - name: Roles and personas
+        - name: Manage personas and custom security roles
           href: role-persona-mapping.md
         - name: Personas and privileges
           href: persona-privilege-mapping.md
@@ -427,7 +427,7 @@
   - name: Timeline
     items: 
     - name: Configure timeline
-      href: customer-service-hub-user-guide-timeline-admin.md
+      href: /powerapps/maker/model-driven-apps/set-up-timeline-control?context=/dynamics365/context/customer-service-context
     - name: Use timeline
       href: /powerapps/user/add-activities
     - name: FAQs about Activities and the Timeline Wall
