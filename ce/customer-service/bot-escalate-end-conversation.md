@@ -1,17 +1,19 @@
 ---
 title: "Enable an Azure bot to escalate and end conversations | MicrosoftDocs"
-description: "Use this topic to understand how to program Azure bots to route conversations to human agents and also end conversations in Omnichannel for Customer Service."
+description: "Use this article to understand how to program Azure bots to route conversations to human agents and also end conversations in Omnichannel for Customer Service."
 ms.date: 10/22/2021
 ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ---
 # Enable an Azure bot to escalate and end conversations
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-This topic explains how you can program an Azure bot in Omnichannel for Customer Service to route a conversation to a human agent. It also describes how to program the bot to end the conversation.
+## Introduction
+
+This article explains how you can program an Azure bot in Omnichannel for Customer Service to route a conversation to a human agent. It also describes how to program the bot to end the conversation.
 
 > [!NOTE]
 > Bot agents are not supported in consult mode.
@@ -21,8 +23,8 @@ This topic explains how you can program an Azure bot in Omnichannel for Customer
 You must ensure the following conditions are met to configure an Azure bot in Omnichannel for Customer Service.
 
 - The bot must be developed using [Microsoft Bot Framework](https://dev.botframework.com).
-- The bot must be registered with [Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-3.0).
-- The bot must be configured to [have Microsoft Teams as a supported channel](/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0).
+- The bot must be registered with [Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-3.0&preserve-view=true).
+- The bot must be configured to [have Microsoft Teams as a supported channel](/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0&preserve-view=true).
 
 
 ## Engage an Azure bot
@@ -295,7 +297,7 @@ You should consider the following points when you configure the Azure bot agent 
 
 - If a chat that's escalated by the bot comes to the same queue due to incorrect configurations or due to failure in updating context variables, the bot will not be assigned the same chat again. This is to ensure that the chat does not end up in an infinite loop. Therefore, some human agents should be configured as backup in the bot queue to handle such chats.
 
-- Unlike other Omnichannel for Customer Service agents, bots are not added to a "default" queue at the outset; they are added from the Omnichannel admin center or Omnichannel Administration app.
+- Unlike other Omnichannel for Customer Service agents, bots are not added to a "default" queue at the outset; they're added from the Omnichannel admin center app.
 
 ## Privacy notice
 
@@ -305,8 +307,8 @@ You understand that your data may be transmitted and shared with external system
 
 [Integrate an Azure bot](configure-bot.md)  
 [Add context variables](context-variables-for-bot.md#add-context-variables)  
-[Azure Bot Service](/azure/bot-service/?view=azure-bot-service-4.0)  
-[Connect a bot to channels](/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0)  
+[Azure Bot Service](/azure/bot-service/?view=azure-bot-service-4.0&preserve-view=true)  
+[Connect a bot to channels](/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0&preserve-view=true)  
 [Bring your own custom messaging channel: Direct Line Bot](bring-your-own-channel.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

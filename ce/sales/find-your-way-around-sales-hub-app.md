@@ -5,7 +5,7 @@ ms.date: 10/01/2019
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr
-manager: brycho
+manager: shujoshi
 ms.custom: 
   - dyn365-sales
 ---

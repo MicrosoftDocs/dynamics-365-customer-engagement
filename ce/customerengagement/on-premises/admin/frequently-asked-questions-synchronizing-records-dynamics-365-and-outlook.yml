@@ -5,10 +5,10 @@ metadata:
   ms.custom: 
   ms.date: 10/01/2019
   ms.reviewer: 
-  ms.prod: d365ce-op
+  
   ms.suite: 
   ms.tgt_pltfrm: 
-  ms.topic: article
+  ms.topic: faq
   applies_to: 
     - Dynamics 365 for Customer Engagement  (online)
     - Dynamics 365 for Customer Engagement  Version 9.x
@@ -19,8 +19,6 @@ metadata:
   manager: brycho
   search.audienceType: 
     - admin
-  
-    
 title: FAQs about record synchronization between Customer Engagement (on-premises) and Outlook
 summary: |
 

@@ -2,7 +2,7 @@
 title: "Add surveys to your Dynamics 365 Marketing campaigns (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create surveys in Dynamics 365 Marketing using Microsoft Dynamics 365 Customer Voice."
 ms.date: 11/30/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

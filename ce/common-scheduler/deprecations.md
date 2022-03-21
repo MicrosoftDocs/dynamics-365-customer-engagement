@@ -3,7 +3,7 @@ title: "Feature deprecations for Universal Resource Scheduling"
 description: "Learn about features that have been deprecated for Universal Resource Scheduling. Admins and IT pros can use this information to prepare for future releases."
 ms.date: 04/01/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.subservice: common-scheduler
 ms.topic: article
 applies_to: 

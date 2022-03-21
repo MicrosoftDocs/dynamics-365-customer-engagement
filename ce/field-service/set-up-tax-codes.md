@@ -3,7 +3,7 @@ title: "Set up tax codes (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn how to set up tax codes in Dynamics 365 Field Service
 ms.date: 02/12/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.topic: article
 author: FieldServiceDave
 ms.author: daclar

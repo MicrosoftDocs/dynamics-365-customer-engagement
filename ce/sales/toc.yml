@@ -32,10 +32,10 @@
       href: uninstall-sales-insights.md         
   - name: Add or remove sample data in Sales Hub
     href: /power-platform/admin/add-remove-sample-data?context=/dynamics365/context/sales-context
+  - name: Add or remove sample data in Sales accelerator      
+    href: manage-sample-data.md   
   - name: Add or remove sample data in Sales Professional
     href: install-sample-data.md
-  - name: Add or remove sample data in Sales accelerator      
-    href: manage-sample-data.md     
   - name: Upgrade
     items:
     - name: Upgrade from Dynamics 365 Sales Professional
@@ -282,6 +282,8 @@
       href: forecast-configure-advanced-settings.md
     - name: Activate and upload simple columns data
       href: activate-upload-simple-columns-data-forecast.md
+    - name: Select a default forecast
+      href: select-default-forecast.md
     - name: Deactivate and delete forecast
       href: deactivate-delete-forecast.md
     - name: Clone a forecast
@@ -310,12 +312,10 @@
       items:
       - name: Configure sales accelerator
         href: enable-configure-sales-accelerator.md
-      - name: Configure assignment rules in Sales Enterprise
-        href: sales-accelerator-assignment-rules.md  
-      - name: Configure settings to customize sales accelerator    
-        href: customize-sales-accelerator-sellers.md
       - name: Add the Up next widget to an entity form
-        href: add-upnext-widget-form.md          
+        href: add-upnext-widget-form.md  
+      - name: Add the sales accelerator site map entry to custom app          
+        href: add-sales-accelerator-sitemap-entry-custom-app.md
     - name: Manage sequences
       href: create-manage-sequences.md
       items:
@@ -329,10 +329,6 @@
         href: connect-a-sequence-to-records.md
       - name: View details of a sequence and its connected records
         href: view-sequence-details-connected-records.md
-      - name: Understand sales acceleration reporting
-        href: understand-sales-acceleration-reporting.md
-      - name: Understand the sequence stats page
-        href: understand-sequence-stats.md
       - name: Manage tags for sequences
         href: manage-tags-for-sequences.md    
       - name: View sequence in a grid
@@ -345,6 +341,12 @@
         href: edit-active-sequence.md  
       - name: Delete a sequence
         href: delete-a-sequence.md
+      - name: Configure settings to customize sales accelerator    
+        href: customize-sales-accelerator-sellers.md
+      - name: Understand sales acceleration reporting
+        href: understand-sales-acceleration-reporting.md
+      - name: Understand the sequence stats page
+        href: understand-sequence-stats.md
     - name: Manage segments
       href: manage-segments.md
       items:
@@ -467,6 +469,8 @@
         href: configure-sales-template-apps.md
       - name: Customize Power BI template apps for Dynamics 365 Sales
         href: customize-template-apps.md
+    - name: Enable sales usage reports
+      href: enable-sales-usage-reports.md    
   - name: Dynamics 365 Sales mobile
     items:
     - name: Prerequisites for Dynamics 365 Sales mobile
@@ -493,6 +497,8 @@
       href: sales-pipeline-chart.md
     - name: Visualize data quickly from Power Apps and Dynamics 365 apps
       href: /power-bi/create-reports/dynamics-quick-create-report?context=/dynamics365/context/sales-context
+    - name: View and understand the sales usage reports
+      href: view-understand-sales-usage-reports.md   
   - name: Account and contact management
     items:
     - name: Work with accounts and contacts
@@ -730,6 +736,10 @@
       href: sales-mobile/create-contact.md
     - name: Manage notes
       href: sales-mobile/view-edit-add-note.md
+    - name: Use dictation 
+      href: sales-mobile/use-dictation.md
+    - name: View activities for a record
+      href: sales-mobile/view-activities-record.md
     - name: App settings
       href: sales-mobile/app-settings.md
     - name: Use the Sales Hub app or Sales Professional app on Dynamics 365 for phones and tablets app

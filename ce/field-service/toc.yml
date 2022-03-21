@@ -32,7 +32,7 @@
     href: view-user-accounts-security-roles.md
   - name: Location and map settings
     href: field-service-maps-address-locations.md
-  - name: Customization overview
+  - name: Configuration overview
     href: field-service-customizations.md
   - name: Priorities
     href: set-priorities.md
@@ -42,10 +42,18 @@
     href: set-up-tax-codes.md
   - name: Territories
     href: set-up-territories.md
-  - name: Customization best practices
-    href: field-service-customization-best-practices.md
   - name: Field Service settings
     href: configure-default-settings.md
+- name: Customize Field Service
+  items: 
+  - name: Best practices
+    href: field-service-customization-best-practices.md
+  - name: Customize columns (fields)
+    href: field-service-customize-columns-fields.md
+  - name: Customize forms
+    href: field-service-customize-forms.md  
+  - name: Write complex business logic (plugins + JavaScript)
+    href: field-service-customize-scripts.md
 - name: Quickstarts
   items: 
   - name: Set up users to create, schedule, and view work orders

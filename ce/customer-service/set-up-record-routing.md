@@ -1,7 +1,7 @@
 ---
 title: "Set up unified routing for records | MicrosoftDocs"
 description: "Learn how to set up record routing in Customer Service."
-ms.date: 02/11/2022
+ms.date: 02/25/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -14,7 +14,7 @@ manager: shujoshi
 
 ## Introduction
 
-You can configure routing for records in Customer Service admin center (preview), Customer Service Hub, Omnichannel admin center, or Omnichannel Administration. However, unified routing can be configured only in Customer Service Hub or Omnichannel admin center.
+You can configure routing for records in Customer Service admin center (preview), Customer Service Hub, or Omnichannel admin center. However, unified routing can be configured only in Customer Service Hub or Omnichannel admin center.
 
 If you have only Dynamics 365 Customer Service, the options to configure unified routing is available only after you enable unified routing in service configuration settings.
 

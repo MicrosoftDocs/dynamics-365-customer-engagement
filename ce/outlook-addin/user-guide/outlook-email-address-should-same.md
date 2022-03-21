@@ -3,7 +3,7 @@ title: "The Outlook email address should be the same as the Dynamics 365 apps em
 ms.custom: 
 ms.date: 01/11/2016
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

@@ -2,7 +2,7 @@
 title: "Segment Query definition (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "The Segmentation API enables programmatic interaction with certain segmentation features of Dynamics 365 Marketing app."
 ms.date: 08/12/2019
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

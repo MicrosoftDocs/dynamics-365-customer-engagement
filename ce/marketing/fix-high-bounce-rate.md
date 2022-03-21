@@ -2,7 +2,7 @@
 title: "Fix a high email bounce rate (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to diagnose and fix a high email bounce rate in Dynamics 365 Marketing."
 ms.date: 07/19/2021
-ms.service: dynamics-365-marketing
+
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
