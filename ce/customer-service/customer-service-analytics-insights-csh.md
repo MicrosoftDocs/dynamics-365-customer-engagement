@@ -1,7 +1,7 @@
 ---
 title: Insights dashboard overview | Microsoft Docs
 description: Learn about the various dashboards and reports for historical operational metrics and KPIs to manage contact centers.
-ms.date: 09/27/2021
+ms.date: 03/30/2022
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -131,10 +131,7 @@ For more information about the Topics dashboard, see [Topics dashboard](oc-conve
 
 The reports refresh shows the following information.
 
-- **Data refresh:** Occurs every 24 hours. The reports are available during the refresh process. The **Last updated** timestamp in the report pages indicates the latest data included in the report, and this time reflects the time zone set in your user preferences. You might see a warning icon beside the **Last refresh (UTC)** label in the upper-right corner of each report when there's a delay or issue in the data refresh. When you hover over the icon, the tooltip message indicates whether the dataset is up to date.
-  > [!div class=mx-imgBorder]
-  > ![Customer Service Analytics refresh status.](media/cs-analytics-refresh-status.png "Customer Service Analytics refresh status")
-
+- **Data refresh:** Occurs every 24 hours. The reports are available during the refresh process. The **Last updated** timestamp in the report pages indicates the latest data included in the report, and this time reflects the time zone set in your user preferences. 
 - **Custom refresh:** Isn't available.
 - **Data refresh for inactive environments:** Data refresh is paused if the reports aren't used continuously for two weeks. When you access a report after a lengthy period of inactivity, the report will be refreshed in the next refresh cycle.
 - **Data retention:** Data is stored for 24 months.
