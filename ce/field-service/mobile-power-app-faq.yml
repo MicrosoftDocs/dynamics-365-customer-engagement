@@ -172,7 +172,11 @@ sections:
      - question: How do I change the time zone for the app?
        answer: |
           While signed into the app, select the three vertical lines or swipe from the left to access the sitemap. Select the settings icon to find **Time Zone**. Change to desired time zone. Fully close and reopen the application for time zone changes to take effect. 
-      
+  
+       - question: Can I use Drip Scheduling with Field Service Mobile?
+       answer: |
+          Drip Scheduling is currently not supported with Field Service Mobile (D365). 
+         
      - question: Where can I find the app version and session ID for debugging purposes?
        answer: |
         When opening a case with Microsoft Support, you will often be asked for details about your app, including the app version and session detail. To find the session and app version details:
