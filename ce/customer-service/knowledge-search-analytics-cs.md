@@ -35,7 +35,7 @@ The article insights dashboard can help your organization's knowledge workers to
 
 ### Metrics in Article insights dashboard
 
-The Articles insights dashboard represents the following metrics:
+The Articles insights dashboard represents the following metrics.
 
 | Metrics or chart | Definition |
 |----------------------|-------------------------|
@@ -62,7 +62,7 @@ To access this dashboard, your organization's administrator must first enable it
 
 ### Knowledge search term analytics dashboard metrics
 
-The following are specific metrics represented in this dashboard:
+The Knowledge search term analytics dashboard represents the following metrics.
 
 | KPIs or chart | Definition |
 |----------------------|-------------------------|
