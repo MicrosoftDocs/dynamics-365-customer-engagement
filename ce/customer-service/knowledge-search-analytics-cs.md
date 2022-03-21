@@ -73,7 +73,7 @@ The Knowledge search term analytics dashboard represents the following metrics.
 | Engagement rate | The percentage of events where a user interacted with the search results compared to the search events presented with results. |
 | Engagement rate trend | The day-by-day trend of the percentage of events where a user interacted with the search results compared to the search events presented with results. |
 | Rate of no-result searches | Percentage of instances where the searched term displayed no results. |
-| Rate of no-result searches trend | The day-by-day trend of the percentage of instances that displayed "no results". |
+| Rate of no-result searches trend | The day-by-day trend of the percentage of search instances that displayed "no results". |
 | Top 20 search terms | The top 20 terms being searched, showing the number of times searched, the average search rate, and engagement rate. |
 | Top 20 search terms with no results | The top 20 search terms that returned no results when searched. |
 | Top 20 search terms with high avg. search rank | The top 20 search topics by volume with an average click position of greater than five. |
