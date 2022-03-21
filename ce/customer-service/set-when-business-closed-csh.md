@@ -34,8 +34,6 @@ You can schedule a business closure in the Customer Service admin center (previe
 
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
-   > [!IMPORTANT]
-
     1. In the site map, select **Service Scheduling** in **Operations**. The **Service Scheduling** page appears.
     1. In the **Business closure** section, select **Manage**.
        
