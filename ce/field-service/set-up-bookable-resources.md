@@ -96,6 +96,9 @@ To quickly create frontline workers refer to the article on [setting up frontlin
 12. **Time Off Approval Required**: Choose this if time off needs to be approved or not. If set to **No**, then a time-off request record will block time on the schedule board and show as nonworking hours for that resource. If set to **yes**, the same result will occur once the time-off request is approved. 
 13. **Enable Drip Scheduling**: This controls how many bookings can appear on the Field Service Mobile app at one time. Set to **No** to allow all bookings for a resource to display  based on mobile settings (view and sync filters). Set to **Yes** to display a new field titled **Bookings to Drip**, where you can enter the total number of bookings displayed at one time. As a resource completes bookings (sets booking status to completed), more bookings will appear in the bookings tab of the Field Service Mobile app.
 
+> [!NOTE]
+> Drip Scheduling is currently only supported with the legacy Field Service Mobile application. Support for the Field Service (D365) app is coming soon.
+
 **Save** the record.  
   
 ## Add work hours  
