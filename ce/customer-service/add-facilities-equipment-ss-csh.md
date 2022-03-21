@@ -35,8 +35,6 @@ You can create a new facility or equipment record in the Customer Service admin 
 
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
-   > [!IMPORTANT]
-
     1. In the site map, select **Service Scheduling** in **Operations**. The **Service Scheduling** page appears.
     2. In the **Facilities & equipment** section, select **Manage**.
         
