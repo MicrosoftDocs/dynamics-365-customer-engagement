@@ -11,7 +11,7 @@ manager: shujoshi
 # Provide consent to collect data from Exchange Online  
 
 > [!IMPORTANT]
-> If your organization is a relationship intelligence customer and you've provided consent in **Microsoft 365 admin center** > **Settings** > **Org settings** > **Dynamics 365 Sales Insights – Analytics**, the consent is valid until September 2022. After that, you'll need to provide consent as shown here. We recommend that you use the following method to provide consent as early as possible before your existing consent expires.
+> If your organization is an existing relationship intelligence customer and you've provided consent in **Microsoft 365 admin center** > **Settings** > **Org settings** > **Dynamics 365 Sales Insights – Analytics**, the consent is valid until September 2022. After that, you'll need to provide consent as described in this article. We recommend that you provide consent as early as possible.
 
 Relationship analytics and health scores that include insights from Exchange Online are more accurate than those that include only data from Dynamics 365. However, an Office 365 administrator must provide consent for Dynamics 365 to collect information from your organization's Exchange server.  
 
@@ -31,3 +31,6 @@ If you're an Office 365 administrator, here's how to provide consent:
       
     Relationship analytics can now connect to the Exchange server to fetch data.
 
+### See also
+
+[Configure relationship analytics and health](configure-relationship-analytics.md)

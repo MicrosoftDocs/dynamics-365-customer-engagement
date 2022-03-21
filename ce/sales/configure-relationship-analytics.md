@@ -34,11 +34,11 @@ Relationship analytics appears on Sales Insights opportunity record forms. Relat
     >If you don't see **Analytics and health**, make sure the advanced Sales Insights features are turned on. To learn more, see [Install and configure premium Sales Insights features](./intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features).
 
 1. Turn on **Relationship analytics and health**.
-<!-- When I turn on **Relationship analytics and health** in my demo, **Exchange Online** is automatically selected. In fact, I can't select it or unselect it. Is the following step needed? -->
+
 1. Under **Data Sources**, select **Exchange Online** ​to include emails from Exchange Online in KPI calculations and analytics.
 
     >[!NOTE]
-    >Your Office 365 administrator must give consent to use Office 365 data before relationship analytics can include Exchange Online emails. If consent hasn't been given, a message displays the type of consent that's required. Work with your Office 365 administrator to get consent. For more information, see [Provide consent for collecting data from Office 365](./provide-consent-office365.md).  
+    >Your Office 365 administrator must give consent to use Office 365 data before relationship analytics can include Exchange Online emails. If consent hasn't been given, a message displays stating the same. Work with your Office 365 administrator to get consent. For more information, see [Provide consent for collecting data from Office 365](./provide-consent-office365.md).  
 
     :::image type="content" source="./media/si-admin-relationship-analytics-enable-in-organization.png" alt-text="A screenshot of the Relationship analytics and health settings page.":::
 
