@@ -22,7 +22,6 @@ searchScope:
 Set up discounts on products in Dynamics 365 Sales to offer products to your customers on marked down rates.
 
 ## License and role requirements
-
 | &nbsp; | &nbsp; |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

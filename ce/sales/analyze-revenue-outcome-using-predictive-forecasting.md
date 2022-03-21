@@ -14,7 +14,6 @@ manager: shujoshi
 Use predictive forecasting to analyze the revenue outcome by providing forecast projections based on your data.
 
 ## License and role requirements
-
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

@@ -19,7 +19,6 @@ topic-status: Drafting
 Get intelligent suggestions on action that you take on notes you enter during a recent meeting or discussion with your customer.
 
 ## License and role requirements
-
 | &nbsp; | &nbsp; |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

@@ -19,7 +19,6 @@ In Dynamics 365 Sales, forms provide the user interface that people use to inter
 > Only customizations done within the app are supported. You should not try to customize your forms outside of the app itself.
 
 ## License and role requirements
-
 | &nbsp; | &nbsp; |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

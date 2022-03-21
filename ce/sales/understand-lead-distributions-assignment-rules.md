@@ -18,7 +18,6 @@ The following factors help to determine how leads are assigned:
 - When a seller was last assigned a lead
 
 ## License and role requirements
-
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

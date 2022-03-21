@@ -15,7 +15,6 @@ products:
 Use work list in sales accelerator to prioritize your sales pipeline to ensure important records aren't left behind.
 
 ## License and role requirements
-
 | &nbsp; | &nbsp; |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

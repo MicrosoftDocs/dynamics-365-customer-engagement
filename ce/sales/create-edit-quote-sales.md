@@ -21,7 +21,6 @@ searchScope:
 Quotes include the pricing details of products your potential customer is interested in. A quote becomes an order once the customer accepts it.
 
 ## License and role requirements
-
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

@@ -21,7 +21,6 @@ searchScope:
 Configure columns and layouts you want sellers to see in the forecast grid. Add from option set, change column type, show columns in chart, and more.
 
 ## License and role requirements
-
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

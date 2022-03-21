@@ -12,7 +12,6 @@ manager: shujoshi
 Add filters to refine the opportunities and hierarchies that participate in calculating the forecast values.
 
 ## License and role requirements
-
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

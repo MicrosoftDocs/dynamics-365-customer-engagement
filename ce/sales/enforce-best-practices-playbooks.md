@@ -25,7 +25,6 @@ searchScope:
 Use playbooks in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to guide team members on how to respond to events when a decision maker leaves an organization while the team is working on a deal with that decision maker, for example. The playbook defines an organization's best-practices response to such an event. Playbooks can also streamline and automate recurring tasks such as renewing contracts. 
 
 ## License and role requirements
-
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

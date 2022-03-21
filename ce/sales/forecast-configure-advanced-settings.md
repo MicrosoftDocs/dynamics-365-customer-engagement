@@ -18,7 +18,6 @@ In the **Advanced** step of forecast configuration, you can configure the follow
 - [Customize underlying records](#customize-underlying-records)
 
 ## License and role requirements
-
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

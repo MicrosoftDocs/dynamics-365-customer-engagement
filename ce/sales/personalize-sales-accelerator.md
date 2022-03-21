@@ -13,7 +13,6 @@ manager: shujoshi
 Use personal settings to determine how activities are scheduled based on work availability and deciding what happens when an activity is complete.
 
 ## License and role requirements
-
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

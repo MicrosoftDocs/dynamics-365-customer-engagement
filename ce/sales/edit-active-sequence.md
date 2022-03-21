@@ -15,7 +15,6 @@ When you've changed the process of an active sequence, you can create a new vers
 >The records that were connected to a previous version of the sequence remain connected to that previous version.
 
 ## License and role requirements
-
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

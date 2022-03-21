@@ -19,7 +19,6 @@ topic-status: Drafting
 Configure predictive lead scoring to help sellers prioritize leads based on scores and achieve higher lead qualification rates.
 
 ## License and role requirements
-
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

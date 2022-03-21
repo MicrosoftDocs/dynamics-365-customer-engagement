@@ -27,7 +27,6 @@ searchScope:
 Use the premium auto capture to provide suggestions on creating new contacts along with capturing activities related to your emails and meetings.
 
 ## License and role requirements
-
 | &nbsp; | &nbsp; |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

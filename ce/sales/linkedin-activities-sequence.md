@@ -12,7 +12,6 @@ manager: shujoshi
 Use LinkedIn features to define activities for sequences in the sales accelerator to display steps in the work list and **Up next** widget.
 
 ## License and role requirements
-
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium and [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

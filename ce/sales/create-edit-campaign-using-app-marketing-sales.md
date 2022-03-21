@@ -38,7 +38,6 @@ Promote your business, expand your reach to new customers, and improve sales by 
 Campaigns can include planning activities that you want to perform before you launch the campaign, and also the campaign activities you want to manage as part of the campaign. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add an activity to a campaign using in-app marketing](../sales-enterprise/add-activity-campaign-using-app-marketing-sales.md)  
 
 ## License and role requirements
-
 | &nbsp; | &nbsp; |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

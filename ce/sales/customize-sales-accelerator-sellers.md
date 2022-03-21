@@ -13,7 +13,6 @@ manager: shujoshi
 The personalize sales accelerator settings allows sellers determine what happens when you complete an activity. 
 
 ## License and role requirements
-
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

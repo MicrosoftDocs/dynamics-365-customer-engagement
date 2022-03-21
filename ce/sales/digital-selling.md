@@ -13,7 +13,6 @@ manager: shujoshi
 Use selected Dynamics 365 Sales Premium features (sales accelerator, conversation intelligence, and predictive scoring) with the Dynamics 365 Sales Enterprise license.
 
 ## License and role requirements
-
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

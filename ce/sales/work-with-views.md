@@ -15,7 +15,6 @@ ms.custom:
 Use grids (views) and lists to browse and manage various data sets in Dynamics 365 Sales to improve your productivity.
 
 ## License and role requirements
-
 | &nbsp; | &nbsp; |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

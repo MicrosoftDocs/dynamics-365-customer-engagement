@@ -12,7 +12,6 @@ manager: shujoshi
 You can view the details of a sequence and the records connected with it. This view can also be used to remove records connected with the sequence.
 
 ## License and role requirements
-
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

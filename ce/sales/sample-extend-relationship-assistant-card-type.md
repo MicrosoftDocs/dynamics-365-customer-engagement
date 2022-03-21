@@ -17,7 +17,6 @@ ms.tgt_pltfrm:
 Learn how to download and what resources are present to create a custom actions or learn about extending the assistant action card.
 
 ## License and role requirements
-
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

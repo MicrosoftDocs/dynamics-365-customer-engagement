@@ -18,7 +18,6 @@ searchScope:
 The drill-down feature lets you break down the seller's forecast projections as a function of the contributing factors that you care about, such as Account and Product.
 
 ## License and role requirements
-
 | &nbsp; | &nbsp; |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

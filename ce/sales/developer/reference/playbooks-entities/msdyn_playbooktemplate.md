@@ -12,7 +12,6 @@ manager: shujoshi
 As developer, use this reference information to understand the msdyn_playbooktemplate EntityType and its properties.
 
 ## License and role requirements
-
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

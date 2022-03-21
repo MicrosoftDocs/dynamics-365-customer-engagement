@@ -16,7 +16,6 @@ Help your sales team to automatically generate quotes and invoice documents with
 > This feature requires integration with SharePoint as the generated documents are stored in the SharePoint site. For more information, see [Configure Dynamics 365 Sales to integrate with SharePoint](connect-with-sharepoint.md). If you can't integrate with SharePoint, you can manually export the documents to PDF. For more information, see [Export sales records to PDF](create-quote-pdf.md).
 
 ## License and role requirements
-
 | &nbsp; | &nbsp; |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

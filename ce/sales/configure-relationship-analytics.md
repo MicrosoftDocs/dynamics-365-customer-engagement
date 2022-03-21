@@ -16,7 +16,6 @@ Relationship analytics provides a graphical representation of KPIs and activity 
 1. [Allow to collect information from Exchange server](#allow-to-collect-information-from-exchange-server) 
 
 ## License and role requirements
-
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

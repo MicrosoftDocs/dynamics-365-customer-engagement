@@ -21,7 +21,6 @@ searchScope:
 With Dynamics 365, you can define, measure, and track goals for your organization and team. For example, your sales organization can define goals based on sales revenue for a specific territory, number of leads created, number of units sold, and so on. Similarly, your customer service organization can define goals based on the number of cases closed.
 
 ## License and role requirements
-
 | &nbsp; | &nbsp; |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

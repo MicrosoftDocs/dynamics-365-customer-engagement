@@ -25,7 +25,6 @@ searchScope:
 Adjust values in a forecast to estimate the final amount that you expect the forecast's opportunities to bring in at the close of the forecast period.
 
 ## License and role requirements
-
 | &nbsp; | &nbsp; |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

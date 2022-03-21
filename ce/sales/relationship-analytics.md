@@ -12,7 +12,6 @@ manager: shujoshi
 Use relationship analytics to view customer activity history of contact, opportunity, lead, or account in a graphical display through KPIs and activity histories.
 
 ## License and role requirements
-
 | &nbsp; | &nbsp; |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

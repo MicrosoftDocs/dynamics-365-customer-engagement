@@ -22,7 +22,6 @@ searchScope:
 When you [create an order from a quote](create-edit-order-sales.md#create-an-order-from-a-quote), the quote is automatically closed as won. However, if the quote was not accepted, you can close it manually as Lost, Canceled, or Revised. 
 
 ## License and role requirements
-
 | &nbsp; | &nbsp; |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

@@ -15,7 +15,6 @@ Enable duplicate lead detection to help your sellers identify and address potent
 [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
 
 ## License and role requirements
-
 | &nbsp; | &nbsp; |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

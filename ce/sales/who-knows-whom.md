@@ -12,7 +12,6 @@ manager: shujoshi
 Use who knows whom to quickly identify colleagues within your organization who can introduce you to a lead or contact.
 
 ## License and role requirements
-
 | &nbsp; | &nbsp; |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

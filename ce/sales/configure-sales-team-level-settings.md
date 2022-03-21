@@ -18,7 +18,6 @@ As a sales manager, you can configure conversation intelligence to match your te
 More information: [Configure and view your team page](configure-view-your-team-page.md)
 
 ## License and role requirements
-
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

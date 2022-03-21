@@ -19,7 +19,6 @@ topic-status: Drafting
 To help users with intelligent suggestions when they enter an activity in the timeline&mdash;such as an appointment, email, phone call, task, note, post, or any custom activities&mdash;enable notes analysis.
 
 ## License and role requirements
-
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

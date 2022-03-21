@@ -14,7 +14,6 @@ ms.custom:
 The **LinkedIn Sales Insights** tab in **Account** records provides information about the company and personas that are defined for the company within LinkedIn Sales Insights.
 
 ## License and role requirements
-
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

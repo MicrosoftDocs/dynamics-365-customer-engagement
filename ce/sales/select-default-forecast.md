@@ -22,7 +22,6 @@ When you have multiple forecast configurations, you can select the most used one
 > You can also specify the default experience for the underlying records of the forecast. More information: [Preview: Set the default experience for underlying records](forecast-configure-advanced-settings.md#preview-set-the-default-experience-for-underlying-records).
 
 ## License and role requirements
-
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |

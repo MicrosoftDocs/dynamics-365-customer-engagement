@@ -14,7 +14,6 @@ ms.custom:
 Publishing a product or bundle makes the product available for selling in Dynamics 365 Sales. Sellers can choose only published products and bundles when creating opportunities, quotes, and so on.
 
 ## License and role requirements
-
 | &nbsp; | &nbsp; |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
