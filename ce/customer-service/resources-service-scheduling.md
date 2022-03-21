@@ -32,8 +32,6 @@ You can create a new bookable resource in the Customer Service admin center (pre
 1. Go to one of the apps, and perform the following steps.
 
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-   > [!IMPORTANT]
    
     1. In the site map, select **Service Scheduling** in **Operations**. The **Service Scheduling** page appears.
     2. In the **Resources** section, select **Manage**.                   
