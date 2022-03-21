@@ -4,9 +4,9 @@ metadata:
   description: Find a list of frequently asked questions for Field Service Mobile
   ms.date: 09/21/2020
   ms.reviewer: krbjoran
-  ms.service: dynamics-365-field-service
+  
   ms.subservice: field-service-mobile
-  ms.topic: troubleshooting
+  ms.topic: faq
   applies_to: 
     - "Dynamics 365 (online)"
     - "Dynamics 365 Version 9.x"
@@ -16,7 +16,6 @@ metadata:
   search.app: 
     - D365CE
     - D365FS
-    
 title: Frequently asked questions for Field Service Mobile
 summary: |
   > [!Note]
@@ -172,7 +171,7 @@ sections:
       - question: |
           Can I use the Dynamics 365 mobile application to access Field Service? 
         answer: |
-          We strongly recommend using the Field Service Mobile app to access Field Service, rather than the Dynamics 365 mobile app with the Unified Interface. While the native Dynamics 365 app does work in offline mode, it doesn't fully support offline mode for Field Service-specific scenarios. For more information, visit our article on Field Service Mobile.
+          We strongly recommend using the Field Service Mobile app to access Field Service, rather than the Dynamics 365 mobile app with Unified Interface. While the native Dynamics 365 app does work in offline mode, it doesn't fully support offline mode for Field Service-specific scenarios. For more information, visit our article on Field Service Mobile.
 
       - question: |
           Does Field Service Mobile support SharePoint integration? 

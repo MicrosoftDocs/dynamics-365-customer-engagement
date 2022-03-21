@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel communication panel (Conversation control) | MicrosoftDocs"
 description: "Learn what you can do as an agent in the communication panel in Omnichannel for Customer Service when you interact with the customer."
-ms.date: 11/18/2021
+ms.date: 02/07/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -80,17 +80,25 @@ You can consult with other agents or supervisors using the consult option. You c
 
 The following events occur when you select the **Consult** button:
 
-1. The agent can search for agents to consult with in the same queue or other queues, select and invite an agent, and then start a consultation.
-2. The secondary agent will receive a notification for the consult request.
-3. When the secondary agent accepts the consult request, a separate pane with an option to end will open beside the communication panel for the primary agent.
-4. The secondary agent will see a consultation window on the page with an option to leave. They will also have a read-only view of the messages exchanged between the primary agent and customer.
-5. The primary agent can add the secondary agent to the customer conversation by selecting the people icon. The secondary agent can join the customer conversation only after the primary agent selects to add the agent.
+1. The agent can search for agents to consult within the same queue or other queues, select and invite an agent, and then start a consultation.
+
+1. The secondary agent will receive a notification for the consult request.
+
+1. When the secondary agent accepts the consult request, a separate pane with an option to end will open beside the communication panel for the primary agent.
+ 
+   :::image type="content" source="media/consult-primary-agent-view.png" alt-text="View of consult pane for the primary agent.":::
+
+1. The secondary agent will see a consultation window on the page with an option to leave. They will also have a read-only view of the messages exchanged between the primary agent and customer.
+   
+   :::image type="content" source="media/consultee-agent-view.png" alt-text="View of consult pane for the consultee agent.":::
+
+2. The primary agent can add the secondary agent to the customer conversation by selecting the people icon. The secondary agent can join the customer conversation only after the primary agent selects to add the agent.
 
    :::image type="content" source="media/add-to-consult.png" alt-text="Select the people icon to add the secondary agent to the conversation.":::
 
 Additionally, the following considerations apply:
 
-- The consult pane can be collapsed and expanded using the UI buttons. When the primary agent selects the option to take notes, the consult pane will be in collapse mode.
+- You can use the UI buttons to collapse and expand the consult pane. When the primary agent selects the option to take notes, the consult pane will be in collapsed mode.
 - The primary agent can end the consult or the secondary agent can leave, after which, the secondary agent won't be able to view the interaction between the primary agent and customer.
 
 You can also use a keyboard command to see the list of agents and or supervisors who are available for consultation. Type the forward slash (/) key and the letter c (**/c**). Type forward slash and the letters cq (**/cq**) to view the list of queues.

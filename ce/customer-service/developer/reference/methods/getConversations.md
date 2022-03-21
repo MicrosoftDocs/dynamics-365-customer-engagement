@@ -1,6 +1,6 @@
 ---
-title: "getConversations (Omnichannel for Customer Service Session API reference) | MicrosoftDocs"
-description: "Includes information about getConversations method, syntax, and parameters in Omnichannel for Customer Service Session API reference."
+title: "getConversations (Omnichannel JavaScript API reference) | MicrosoftDocs"
+description: "Includes information about getConversations method, syntax, and parameters in Omnichannel JavaScript API reference."
 ms.date: 07/12/2021
 ms.topic: article
 author: mh-jaya
@@ -26,7 +26,7 @@ This function can be used to fetch a list of conversation (`msdyn_ocliveworkitem
 | correlationId | String | Optional. Unique identifier for telemetry logging.  |
 
 
-## Return Value
+## Return value
 
 Returns a resolved or rejected promise based on the outcome of the operation. 
 
@@ -67,7 +67,11 @@ Microsoft.Omnichannel.getConversations(input).then(result => {
  
 ### See also
 
-[JavaScript API reference for live chat SDK](../../omnichannel-reference.md)
-
+[Live chat SDK JavaScript API reference](../../omnichannel-reference.md)  
+[Omnichannel JavaScript API reference](../../omnichannel-api-reference.md)  
+[getConversationId](getConversationId.md)  
+[linkToConversation](linkToConversation.md)  
+[unlinkFromConversation](unlinkFromConversation.md)  
+[openConversation](openConversation.md)   
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

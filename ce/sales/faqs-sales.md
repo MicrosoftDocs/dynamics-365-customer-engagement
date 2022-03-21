@@ -5,7 +5,7 @@ ms.date: 01/25/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
-manager: shubhadaj
+manager: shujoshi
 ---
 # Frequently asked questions for Dynamics 365 Sales 
 
@@ -27,7 +27,7 @@ For a detailed comparison of capabilities available with each license, go to the
 
 ### Where can I find the Sales Professional and sales insights documentation?
 
-To provide a unified experience across all the Sales offerings, we have merged the documentation for Sales Enterprise, Sales Professional, and sales insights into this unified Sales documentation. The license and role requirements section at the top of pages indicate whether the feature and content are applicable to the license that you have. If you have bookmarked any of the old URLs, they would be automatically redirected to the corresponding pages in the unified documentation.  
+To provide a unified experience across all the Sales offerings, we've merged the documentation for Sales Enterprise, Sales Professional, and sales insights into this unified Sales documentation. The license and role requirements section at the top of pages indicate whether the feature and content are applicable to the license that you have. If you've bookmarked any of the old URLs, they would be automatically redirected to the corresponding pages in the unified documentation.  
 
 ## Entity: Activity
 
@@ -37,7 +37,7 @@ This is by design. If you go to an entity in Unified Interface and select a reco
 
 ### If the SchedulingEngine feature is enabled for appointments, why am I redirected to the default tab in an appointment when I save it from a non-default tab?
 
-This is by design. When you save an appointment from a non-default tab, you are redirected to the default environment when the appointment is saved.
+This is by design. When you save an appointment from a non-default tab, you're redirected to the default environment when the appointment is saved.
 
 ### If the SchedulingEngine feature is enabled for appointments, why are appointments saved automatically even if the system administrator has added a custom script to stop auto-save?
 
@@ -72,6 +72,23 @@ This is by design. The What's new functionality is only available in the legacy 
 7. In the **Timeline Control Properties** dialog box, update the values as required, and then select **OK**.
 
 8. Save the dashboard, and publish the customization.
+
+## Entity: Lead
+
+<a name="what-is-the-difference-between-duplicate-detection-capability-of-power-platform-and-duplicate-detection-of-leads-in-dynamics-365-sales"></a>
+
+### What is the difference between the duplicate detection capability in Microsoft Power Platform and duplicate detection of leads in Dynamics 365 Sales?
+
+The duplicate detection capability of Microsoft Power Platform uses rules based on the matchcode that's created for each record. When a record is in the process of being created or updated, its matchcode is automatically compared against the matchcodes of existing records. If duplicates exist, the duplicate records are displayed before you save the record. More information: [Detect duplicate data so you can fix or remove it](/power-platform/admin/detect-duplicate-data)
+
+The duplicate detection of leads in Dynamics 365 Sales is an AI model that uses rules based on fuzzy logic and matchcodes. When enabled, fuzzy logic and matchcode are generated for each lead and compared against other leads in the organization to identify duplicates.
+
+| Rule type | Applied for|  
+|-----------|------------|
+| Fuzzy logic |- Similar lead name and company name<br>-	Similar lead name and the same email domain|
+| Matchcode |- Email address<br>-	Phone number|
+
+More information: [Enable duplicate lead detection](enable-duplicate-lead-detection.md)
 
 ## Entity: Opportunity
 
@@ -240,6 +257,6 @@ When you save and publish the configuration, the changes will be applied immedia
 
 ### Can I manually set the forecast category of an opportunity as **Won** or **Lost**?   
   
-Technically, you can. The opportunity form and editable grids, other than the grid in the forecast, allow the selection of **Won** or **Lost** as forecast categories. However, this will interfere with your forecast and rollup values, and is not an ideal practice. For example, if you manually set the value of an opportunity to **Won** without closing the opportunity, the opportunity might not even show up in the forecast. By default, forecasts are configured to show an opportunity as **Won** only when the actual revenue and actual close date are available. The best practice is to close the opportunity as **Won** or **Lost** and have the forecast category automatically updated. More information: [Close opportunities as won or lost](close-opportunity-won-lost-sales.md).
+Technically, you can. The opportunity form and editable grids, other than the grid in the forecast, allow the selection of **Won** or **Lost** as forecast categories. However, this will interfere with your forecast and rollup values, and isn't an ideal practice. For example, if you manually set the value of an opportunity to **Won** without closing the opportunity, the opportunity might not even show up in the forecast. By default, forecasts are configured to show an opportunity as **Won** only when the actual revenue and actual close date are available. The best practice is to close the opportunity as **Won** or **Lost** and have the forecast category automatically updated. More information: [Close opportunities as won or lost](close-opportunity-won-lost-sales.md).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -18,7 +18,7 @@
       href: purchase-setup.md
     - name: Install real-time customer journey orchestration
       href: real-time-marketing-install.md
-    - name: Integrate Marketing with a CMS system or Power Apps portals
+    - name: Integrate Marketing with a CMS system or a Power Apps portal
       href: portal-optional.md
     - name: Open the Power Platform admin center
       href: power-platform-admin-center.md
@@ -114,6 +114,8 @@
         href: designer-feature-protection.md
     - name: Email administration
       items:
+      - name: Get started with email
+        href: email-get-started.md
       - name: Best practices for email marketing
         href: get-ready-email-marketing.md
       - name: Setup guides
@@ -192,7 +194,7 @@
         href: real-time-marketing-ci-profile.md
       - name: Known issues in real-time marketing
         href: real-time-marketing-known-issues.md
-    - name: Channels
+    - name: Communication channels
       items: 
       - name: Real-time marketing emails
         href: real-time-marketing-email.md
@@ -208,9 +210,11 @@
         items:
         - name: Create an event-based journey
           href: real-time-marketing-event-based-journey.md
-        - name: Real-time marketing event triggers
+        - name: Real-time marketing triggers
           href: real-time-marketing-event-triggers.md
-        - name: Custom event triggers in real-time marketing
+        - name: "Preview: Trigger custom event actions"
+          href: real-time-marketing-custom-event-actions.md
+        - name: Create custom triggers
           href: real-time-marketing-custom-events.md
       - name: Segment-based journeys
         items:
@@ -236,6 +240,8 @@
         items:
         - name: Personalize content
           href: real-time-marketing-personalization.md
+        - name: "Preview: Personalize content using pre-defined tokens"
+          href: real-time-marketing-predefined-tokens.md
       - name: Analytics
         items:
         - name: Access and interpret analytics
@@ -256,6 +262,10 @@
       items: 
       - name: Push notification setup for application developers
         href: real-time-marketing-developer-push.md
+      - name: Receiving notifications and creating interactions
+        href: real-time-marketing-developer-notifications.md
+      - name: Use binding IDs to correlate across triggers
+        href: real-time-marketing-correlate-triggers.md
     - name: Real-time marketing troubleshoot + FAQ
       href: real-time-marketing-faq.md
   - name: Outbound marketing user guide
@@ -420,6 +430,8 @@
         href: email-expire.md
       - name: Use automated scheduling to help improve email engagement
         href: automated-scheduler.md
+      - name: Manually schedule contacts and email delivery
+        href: customer-journey-manually-schedule.md
       - name: Create and manage customer journey templates
         href: journey-templates.md
       - name: Create an inbound customer journey
@@ -454,18 +466,14 @@
         href: linkedin-overview.md
       - name: LinkedIn Lead Gen integration
         href: LinkedIn-Lead-Gen-integration.md
-    - name: Register link clicks and website visits
-      href: register-engagement.md
-    - name: Work with marketing calendars
-      href: marketing-calendar.md
-    - name: Go live with publishable entities and track their status
-      href: go-live.md
     - name: Performance analytics
       items: 
       - name: Analyze results to gain insights
         href: insights.md
       - name: Insights glossary
         href: insights-glossary.md
+      - name: Register link clicks and website visits
+        href: register-engagement.md
       - name: Prepare for analytic reporting with Power BI
         href: custom-analytics.md
       - name: Power BI report and template gallery
@@ -486,6 +494,12 @@
           href: marketing-analytics/analytics-gallery-reach.md
         - name: "Gallery: Marketing form submission report"
           href: marketing-analytics/analytics-gallery-forms.md
+    - name: "Preview: Collaborate using Microsoft Teams chat"
+      href: teams-chat.md
+    - name: Work with marketing calendars
+      href: marketing-calendar.md
+    - name: Go live with publishable entities and track their status
+      href: go-live.md
   - name: Event planning and management
     items: 
     - name: Event management overview

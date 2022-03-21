@@ -3,7 +3,7 @@ title: "Overview of Field Service Mobile (Xamarin app) (contains video) - Micros
 description: Learn general capabilities of the Field Service Mobile (Xamarin app).
 ms.date: 03/29/2021
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.subservice: field-service-mobile
 
 ms.topic: overview

@@ -3,7 +3,7 @@ title: "Push notifications in Field Service Mobile | MicrosoftDocs"
 description: Learn about push notifications in Field Service Mobile
 ms.date: 03/14/2019
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.subservice: field-service-mobile
 ms.topic: article
 applies_to: 

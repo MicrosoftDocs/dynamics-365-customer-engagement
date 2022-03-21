@@ -3,8 +3,8 @@ title: "Start a chat proactively | MicrosoftDocs"
 description: "Read how you can start a chat proactively to see if customers need help and thereby improve customer experience."
 ms.date: 01/25/2022
 ms.topic: reference
-author: mh-jaya
-ms.author: v-jmh
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
 ---
 # Start a chat proactively

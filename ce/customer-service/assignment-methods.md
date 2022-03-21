@@ -1,7 +1,7 @@
 ---
 title: "Assignment methods for queues | MicrosoftDocs"
 description: "Learn about the different assignment methods for queues in Customer Service and Omnichannel for Customer Service and how they can be used in unified routing."
-ms.date: 12/27/2021
+ms.date: 02/16/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -79,6 +79,7 @@ Some important points about prioritization rules are as follows:
 - You can create only one prioritization ruleset per queue.
 - Prioritization rules are run during every assignment cycle. If you change any attributes of the work item, such as the priority of the case, that change will be considered during the next assignment cycle.
 - By default, the queue is sorted in the "first in first out" basis. If you don't create a prioritization rule, then the oldest work item will be assigned first.
+- In normal scenarios, when sufficient number of agents are available to take up the work items, the queue processing period is only a couple of seconds, and the agents are assigned work items in the priority order. However, if work items pile up due to fewer eligible agents and then an agent becomes available during the processing period, the agent will be offered the next work item according to the priority order. This might create a perception that the highest priority item was not assigned, especially, after some top-priority items are attempted for assignment and yet remain in the queue.
 - The work items that don't match the criteria of any of the prioritization rule sets are kept in the last priority bucket, and are ordered by "First in first out".
 - Prioritization rules are skipped for affinity work items and such work items will be assigned before other work items in the queue. For information about affinity, see [Agent affinity](create-workstreams.md#agent-affinity).
 
@@ -90,8 +91,9 @@ In the assignment rule, the system user attributes are matched with the requirem
 
 :::image type="content" source="media/assignment-rule-root-entity.png" alt-text="Assignment rule with dynamic match and static match conditions.":::
 
-In scenarios when more than one agent matches the requirement of the work item, the system resolves the assignment in a round robin manner, based on the earliest last assignment time. For example, three agents Lesa, Alicia, and Alan are available with the coffee refund skill and 100 units capacity, and their last assignment time stamps are 10:30 AM, 10:35 AM, and 10:37 AM respectively. A work item on coffee refund arrives in the queue. The system assigns the work item to Lesa because her last assignment was the earliest at 10:30 AM. Meanwhile, if another coffee refund work item comes, the system will assign it to Alicia and not to Lesa or Alan.
+In scenarios when more than one agent matches the requirement of the work item, the system resolves the assignment in a round robin manner, based on the earliest time of the last assignment. In other words, the agent who has been idle for the longest time since their last assignment. For example, three agents Lesa, Alicia, and Alan are available with the coffee refund skill and 100 units capacity, and their last assignment time stamps are 10:30 AM, 10:35 AM, and 10:37 AM respectively. A work item on coffee refund arrives in the queue. The system assigns the work item to Lesa because her last assignment was the earliest at 10:30 AM. Meanwhile, if another coffee refund work item comes, the system will assign it to Alicia and not to Lesa or Alan.
 
+However, if there's a tie between the availability of agents, the agent who has been idle for the longest time will be assigned the work item if all other conditions remain the same.
 
 ### Components of an assignment rule
 
@@ -150,6 +152,7 @@ Dynamic match reduces the effort of having to write and maintain multiple static
 ### See also
 
 [Configure assignment methods and rules](configure-assignment-rules.md)  
+[Diagnostics for unified routing](unified-routing-diagnostics.md)  
 [Create workstreams](create-workstreams.md)  
 [Create queues](queues-omnichannel.md)  
 [Set up records for unified routing](set-up-record-routing.md)  

@@ -1,7 +1,7 @@
 ---
 title: Search knowledge articles in the Customer Service workspace in Dynamics 365 Customer Service | Microsoft Docs
 description: See how you can effectively search knowledge articles in the Customer Service workspace.
-ms.date: 01/31/2022
+ms.date: 02/04/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -41,12 +41,12 @@ The knowledge articles are applicable for all knowledge-enabled entities. By def
   |-----|-----------|
   |1.| The Knowledge tab.|
   |2.| Tag when the article is linked to the entity.|
-  |3.| Article number (Preview)|
+  |3.| Article number (Preview).|
   |4.| The number of times the article has been viewed. |
-  |5.| Info card that displays search term matches from keywords, description, attachments, and any other custom fields. (Preview) |
+  |5.| Info card that displays search term matches from keywords, description, attachments, and any other custom fields. (Preview). |
   |6.| Lets you link or unlink the article to the entity, such as the case.|
   |7.| Status and visibility tags for the article.|
-  |8.| Search results across attachments. The attachment title is displayed only when the search term matches the content in the attachment. (Preview)|
+  |8.| Search results across attachments. The attachment title is displayed only when the search term matches the content in the attachment. (Preview).|
   
 > [!NOTE]
 > The article number, info card that displays search term matches across custom fields, and search results across attachments are in preview.
@@ -82,7 +82,7 @@ When you select the filter icon, you can see the **Filter by** menu where you ca
   | Status | <ul> <li> Approved </li> <li> Published </li> <li> Scheduled </li> </ul> |
   | Visibility | <ul> <li> Internal </li> <li> External </li> </ul> |
   | Modified On | <ul> <li> Last 7 days </li> <li> Last 30 days </li> <li> Last 6 months </li> <li> Last year </li> <li> All </li> </ul> |
-  | Language | <ul> <li> List of languages </li> </ul> **Note:** The language list is based on the articles that are present in the those languages. For example, there are a total of 50 articles in five different languages such as French, English, Japanese, Spanish, and Danish. The language filter will show only these five languages. |
+  | Language | <ul> <li> List of languages </li> </ul> **Note:** The language list is based on the articles that are present in those languages. For example, there are a total of 50 articles in five different languages such as French, English, Japanese, Spanish, and Danish. The language filter will show only these five languages. |
   |||
 
 ### Sort knowledge articles
@@ -100,7 +100,7 @@ Select the up-arrow icon to view the sorting options and select an option from t
 
 ### Link and unlink the knowledge article to a record
 
-When configured, you can link an article to case. You can associate and dissociate the knowledge article with a record.
+When configured, you can link an article to a case. You can associate and dissociate the knowledge article with a record.
 
 :::image type="content" source="media/csw-link-unlink-km.png" alt-text="Link or unlink an article to a case":::
 
@@ -113,7 +113,7 @@ You can also share the knowledge article link or knowledge article content throu
 :::image type="content" source="media/csw-email-url.png" alt-text="Email options for knowledge artcile":::
 
 - **Copy URL**: You can copy the URL to share the knowledge article link.
-- **Email URL:** The new email form opens with the link to the article in the mail box.
+- **Email URL:** The new email form opens with the link to the article in the mailbox.
 - **Email Content:** The article content is populated in the mail body. The fields are automatically populated based on the case and customer details.
 
 Add other information as needed, and then on the command bar, select **Send**. Also, you can perform these actions for only published or expired articles.

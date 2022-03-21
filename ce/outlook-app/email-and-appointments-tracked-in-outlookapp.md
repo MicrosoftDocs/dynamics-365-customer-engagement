@@ -3,7 +3,7 @@ title: "Emails and appointments are tracked with a Regarding record in Dynamics 
 ms.custom: 
 ms.date: 05/20/2021
 ms.reviewer: 
-ms.service: crm-online
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

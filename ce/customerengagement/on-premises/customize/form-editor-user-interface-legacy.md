@@ -7,7 +7,7 @@ author: Mattp123
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
   - powerapps
-ms.prod: d365ce-op
+
 ms.topic: overview
 ms.author: matp
 manager: kvivek

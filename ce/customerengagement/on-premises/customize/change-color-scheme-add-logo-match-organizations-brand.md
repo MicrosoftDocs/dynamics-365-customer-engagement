@@ -4,7 +4,7 @@ description: "Learn about creating custom themes in Dynamics 365 Customer Engage
 s.custom: 
 ms.date: 02/15/2019
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -43,7 +43,7 @@ You can create a custom look and feel (a theme), for your app by making changes 
   
 -   Navigation bar shelf color
 
--   Main command bar color on the Unified Interface
+-   Main command bar color on Unified Interface
   
 -   Header color  
   

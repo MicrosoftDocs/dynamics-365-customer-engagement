@@ -1,25 +1,25 @@
 ---
 title: "Document management with Microsoft Teams integration"
-ms.custom: 
 description: "Use Microsoft Teams integration to co-author and sync documents to customer engagement apps using SharePoint. Get answers to FAQs about document management."
 ms.date: 04/01/2021
-ms.reviewer: 
 ms.service: crm-online
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
-applies_to: 
-  - Dynamics 365 apps
-ms.assetid: 8097c9ec-023b-407d-ac0e-074b5e1964a5
-caps.latest.revision: 1
-author: mduelae
-ms.author: mkaur
-manager: kvivek
+author: sbmjais
+ms.author: shjais
+manager: shujoshi
+ms.reviewer: 
+ms.custom: 
 search.audienceType: 
   - enduser
 search.app: 
   - D365CE
   - Powerplatform
+applies_to: 
+  - Dynamics 365 apps
+ms.assetid: 8097c9ec-023b-407d-ac0e-074b5e1964a5
+ms.suite: 
+ms.tgt_pltfrm: 
+caps.latest.revision: 1
 ---
 # Document management with Microsoft Teams integration
 

@@ -1,8 +1,7 @@
 ---
 title: "Create segments and lists to establish target markets (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Use segments and lists to target customer journeys and manage subscriptions in Dynamics 365 Marketing."
-ms.date: 07/07/2020
-ms.service: dynamics-365-marketing
+ms.date: 03/21/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -31,7 +30,7 @@ The segment designer resembles other querying tools found in Dynamics 365 (such 
 
 A market segment is a collection of contacts that you target with a customer journey. In some cases, you'll target all the contacts you have. But in most cases, you'll choose who you want to target based on demographic, firmographic, behavioral data, and other considerations.
 
-For example, if you're opening a new store in San Francisco, you'll probably promote the opening day event only to contacts who live near San Francisco. Or, if you're running a sale on dresses, you might only send related marketing email messages to your contacts who are female. You may want to target the contacts who have shown interest in the dresses in the past. In this case, you can narrow the segment by only targeting contacts who have opened emails related to dresses in the past. Decisions like these will affect how you communicate with the segment. These decisions will also influence which channels you'll choose, what kind of graphics you'll pick, which kinds of arguments you make, and more.
+For example, if you're opening a new store in San Francisco, you'll probably promote the opening day event only to contacts who live near San Francisco. Or, if you're running a sale on dresses, you may want to target contacts who have shown interest in the dresses in the past. In this case, you can narrow the segment by only targeting contacts who have opened emails related to dresses in the past. Decisions like these will affect how you communicate with the segment. These decisions will also influence which channels you'll choose, what kind of graphics you'll pick, which kinds of arguments you make, and more.
 
 <a name="segment-types"></a>
 

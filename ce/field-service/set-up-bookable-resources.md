@@ -3,7 +3,7 @@ title: "Set up bookable resources (Dynamics 365 Field Service) (contains video) 
 description: Learn about bookable resources in Dynamics 365 Field Service, and how to set them up.
 ms.date: 01/27/2022
 ms.reviewer: krbjoran
-ms.service: dynamics-365-field-service
+
 ms.topic: article
 author: xonatia
 ms.author: xolee
@@ -123,7 +123,7 @@ Select **+New** > **Working hours**.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the new work hours dropdown.](./media/resource-work-hours-new-working-hours.png "Screenshot of the new work hours dropdown.")
 
-Choosing the beginning and end time of working hours, along with a repeat option such as "every day."
+Choosing the beginning and end time of working hours, along with a repeat option such as *every day*.
 
 **Capacity** is the number of times the resource can be booked during that specific work hour. For example, setting the capacity to *5* means that when booking a resource with the schedule assistant, the resource will show as available and can be overbooked up to the capacity limit (in this case, five times). It's set to *1* by default. If this setting is set to *0*, the resource will never be shown as available in a resource search. 
 
@@ -227,13 +227,12 @@ Once the territory record is created, you can add it to a resource. Learn more o
 
 ## Enable resource for Resource Scheduling Optimization
 
-If Resource Scheduling Optimization (RSO) is enabled in your organization, a new tab will appear on the bookable resource form. To allow RSO to automatically schedule requirements to the resource, go to the new tab and set **Optimize Schedule** to **Yes**.
+If Resource Scheduling Optimization is enabled in your organization, a new tab will appear on the bookable resource form. To allow Resource Scheduling Optimization to automatically schedule requirements to the resource, go to the new tab and set **Optimize Schedule** to **Yes**.
 
-Setting to yes doesn’t mean requirements will automatically be scheduled to this bookable resource; instead it means that after RSO is set up and with the appropriate scope to include this bookable resource, it would then be eligible for automatic schedules.
-
+Setting to yes doesn’t mean requirements will automatically be scheduled to this bookable resource; instead it means that after Resource Scheduling Optimization is set up and with the appropriate scope to include this bookable resource, it would then be eligible for automatic schedules.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of enabling RSO for a resource.](media/resource-enable-rso.png "Screenshot of enabling RSO for a resource.")
+> ![Screenshot of enabling Resource Scheduling Optimization for a resource.](media/resource-enable-rso.png "Screenshot of enabling Resource Scheduling Optimization for a resource.")
 
 ## Geolocate resources
 
@@ -300,16 +299,14 @@ The process is similar for resources with resource type of Account or User. **Ed
 - The start and end location of a resource is used as the resource's location during break hours if a break is configured when working hours are set up for that resource. 
 - The resource work hours are saved in the calendar entity, which isn’t supported by the configuration migration tool and also audit history can’t be enabled on the calendar entity. 
 - The new work hours control is added to the bookable resource out-of-the-box form. But if you have a custom form defined on this entity, you must enable the work hours tab on the form by following these steps:
+
   * Create a tab with name as *work hours*. Create a section in it and add the *calendar* field to it.
   * Double-click on the calendar field, and change the control to *Work Hour Control*. Save and publish the form.
-
 
 ### See also   
  
  [Set up bookable resource categories](../field-service/set-up-bookable-resource-categories.md)   
  [Set up characteristics](../field-service/set-up-characteristics.md)   
  [Set up resource pay types](../field-service/set-up-resource-pay-types.md)  
-
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

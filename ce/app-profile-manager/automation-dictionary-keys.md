@@ -10,6 +10,8 @@ ms.topic: article
 
 # Use the automation dictionary to pass data parameter keys
 
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+
 ## Overview
 
 The automation dictionary maintains the contextual data for sessions. You can use the keys from the automation dictionary to pass the parameter in an action.​

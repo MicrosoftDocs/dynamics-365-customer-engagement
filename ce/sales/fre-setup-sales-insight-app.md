@@ -73,7 +73,7 @@ Now your conversation intelligence application is ready, and managers and seller
 ### See also
 
 [Introduction to administering conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)  
-[Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md)
-
+[Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md)  
+[Conversation Intelligence FAQs](faqs-sales-insights.md#conversation-intelligence)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

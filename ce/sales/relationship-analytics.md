@@ -2,13 +2,10 @@
 title: "Relationship analytics and health"
 description: "Use relationship analytics to view customer activity history of contact, opportunity, lead, or account in a graphical display through KPIs and activity histories."
 ms.date: 10/26/2021
-ms.custom: 
 ms.topic: article
-author: udaykirang
-ms.author: udag
-manager: sakudes
-caps.latest.revision: 20
-topic-status: Drafting
+author: lavanyakr01
+ms.author: lavanyakr
+manager: shujoshi
 ---
 # Use relationship analytics to gather KPIs     
 
@@ -90,7 +87,7 @@ The current relationship analytics provides information such as graphs, KPIs, em
 
 As a seller, it's important for you to understand what's working better for a deal and learn about the best engagement practices from similar deals that were won in the past. The enhanced relationship analytics displays comparable information on the KPIs, graphs, activity history, and relationship health with similar deals that were won. Also, a list of similar deals that were won is displayed at the bottom. By opening the deals, you can learn what has worked and what didn't work, and implement these learnings in the deal you're currently trying to close.  
 
-An administrator must enable the feature before you can start using it. More information: [Step 5 in Configure relationship analytics](configure-relationship-analytics.md#configure-similar-opportunities-preview).
+An administrator must enable the feature before you can start using it. More information: [Configure relationship analytics](configure-relationship-analytics.md).
 
 >[!NOTE]
 >If relationship analytics can't detect the similar opportunities for the current opportunity, relationship analytics takes top 100 won opportunities and displays KIPs to compare with the current opportunity.
@@ -214,10 +211,10 @@ In addition to the absolute health score, the system also reports the general tr
 ### See also   
 
 [Configure relationship analytics](configure-relationship-analytics.md)   
-[GDPR for Dynamics 365 Sales Insights](embedded-intelligence-gdpr.md)   
-[Opt out of relationship analytics (GDPR)](optout-relationship-analytics-gdpr.md)   
+[GDPR for Dynamics 365 Sales Insights](embedded-intelligence-gdpr.md)      
 [View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)   
 [Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action](../sales/retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)
+[Relationship analytics and health FAQ](faqs-sales-insights.md#relationship-analytics-and-health)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

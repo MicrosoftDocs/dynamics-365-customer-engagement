@@ -4,7 +4,7 @@ description: "You can add iFrames and web resources to forms and dashboards in a
 ms.custom: 
 ms.date: 12/04/2018
 ms.reviewer: 
-ms.prod: d365ce-op
+
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

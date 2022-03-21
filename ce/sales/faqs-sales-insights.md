@@ -2,7 +2,7 @@
 title: "Frequently asked questions for Sales Insights"
 description: "Find a list of frequently asked questions that are related to different features in Sales Insights add-in for Dynamics 365 Sales."
 keywords: ""
-ms.date: 01/10/2022
+ms.date: 02/08/2022
 ms.custom: 
 ms.topic: article
 author: udaykirang
@@ -51,27 +51,28 @@ Sales Premium is available in the following regions:
 -    Japan (JPN)
 -    North America (NAM)
 -    Oceania (OCE)
+- South America (SAM)
 -  Switzerland (CHE)
 
 > [!NOTE]
-> Currently, Sales Premium is not available in the following datacenters&mdash;Brazil, Germany, South Africa, UAE, Government Community Cloud (GCC), including USG, Department of Defense (DoD), and China.
+> Currently, Sales Premium is not available in the following datacenters&mdash; Germany, South Africa, UAE, Government Community Cloud (GCC), including USG, Department of Defense (DoD), and China.
 
 ### In which region are the features available? 
 Sales Premium features are available in the following regions:   
 
-| Feature | NAM | EMEA | GBR | APJ | CAN | IND | JPN | OCE | CHE | FRA |
-|---------|-----|------|-----|-----|-----|-----|-----|-----|-----|-----|
-| Assistant | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Auto capture | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Conversation intelligence | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
-| Notes analysis | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Premium forecasting | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes | No |
-| Predictive lead scoring | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Predictive opportunity scoring | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Relationship analytics | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Sales accelerator | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
-| Talking points | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
-| Who knows whom | Yes | Yes | No | No | Yes | No | No | No | No | Yes |
+| Feature | NAM | EMEA | GBR | APJ | CAN | IND | JPN | OCE | CHE | FRA | SAM |
+|---------|-----|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| Assistant | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Auto capture | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Conversation intelligence | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Notes analysis | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Premium forecasting | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes | No | Yes |
+| Predictive lead scoring | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Predictive opportunity scoring | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Relationship analytics | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Sales accelerator | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Talking points | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Who knows whom | Yes | Yes | No | No | Yes | No | No | No | No | Yes | No |
 
 ### Which version of Exchange is supported for features in Sales Premium?   
 The Sales Premium features support the following versions of Exchange:
@@ -122,6 +123,7 @@ Depending on the region where your organization is hosted, data is stored in the
 | Japan (JPN) | Japan East (Tokyo, Saitama) | Japan West (Osaka) |
 | North America (NAM) | East US (Virginia) | West US 2 (Washington) |
 | Oceania (OCE) | Australia East (New South Wales) | Australia Southeast (Victoria) |
+| South America (SAM) | Brazil South | Brazil Southeast |
 | Switzerland (CHE) | Switzerland North | Switzerland West |
 
 More information: [Azure Regional Pairs](/azure/best-practices-availability-paired-regions#azure-regional-pairs)
@@ -224,53 +226,32 @@ To add the **Up next** widget to a managed entity form, follow these steps:
 17.	Publish all customizations.    
 18.	Verify that the **Up next** Widget successfully shows up on the form.
 
-### How to add work list site map to your custom app    
+### How to add sales accelerator site map to your custom app    
 
->[!NOTE]
->Enable sales insights in your organization before you add the site map to your custom app.     
-
-To add the work list site map to your custom app, follow these steps:     
-1. Open your custom app in the app designer. In the following example, the custom app **Sales SandBox** is opened.   
-    > [!div class="mx-imgBorder"]
-    > ![Open app designer](media/faq-sa-open-app-designer.png "Open app designer")     
-2. Open the site map designer. Select the pencil icon corresponding to the **Site Map** section.     
-    > [!div class="mx-imgBorder"]
-    > ![Open site map designer](media/faq-sa-open-site-map-designer.png "Open site map designer")     
-3. Select the area in which you want to add the work list entry and then select **+ Add** > **Subarea**.    
-    > [!div class="mx-imgBorder"]
-    > ![Add subarea to an area](media/faq-sa-select-sub-area.png "Add subarea to an area")      
-    In the following example, subarea entry is added to the **Sales** area under **Sales records**.     
-    > [!div class="mx-imgBorder"]
-    > ![Subarea entry is added](media/faq-sa-subarea-entry-added.png "Subarea entry is added")      
-4. Select **New Subarea** and go to the **Properties** tab.
-    > [!div class="mx-imgBorder"]
-    > ![Subarea properties tab](media/faq-sa-subarea-properties.png "Subarea properties tab")       
-5. In the subarea properties, enter the following values:     
-    - Choose **Type** as **URL**.
-    - Enter the **URL** value as `/main.aspx?pagetype=control&controlName=MscrmControls.AcceleratedSales.AnchorShellControl`.
-    - Enter the **Title (1033)** for the entry. For example, **Sales accelerator**.
-    - Select the **Icon** to use in the sitemap. For example, use default icon **salesacceleration.svg**. 
-    - Enter the **ID** field enter a unique ID value. For example, **SalesAccelerationInstance**.    
-        > [!div class="mx-imgBorder"]
-        > ![Subarea properties tab with values](media/faq-sa-subarea-properties-values.png "Subarea properties tab with values")       
-6. (Optional) To show or hide the section only to enabled users, go to **Advanced** and then select **Privileges**. In the **Entity** dropdown list, select **Work Queue record**.     
-7. Save and publish the sitemap.
-    The work list site map entry is added to your custom app.
+Use the site map designer from the app designer to add the sales accelerator site map to your custom app. More information: [Add the sales accelerator site map entry to custom app](add-sales-accelerator-sitemap-entry-custom-app.md).
 
 ## Relationship analytics and health   
-
-### What do I need in order to use Relationship analytics?​
-Relationship analytics uses data from Dynamics 365 for Sales. Optionally, it includes data from Exchange Online. For Exchange data, the graph is built only on user accounts situated in the United States.​    
-
-### How do I enable Relationship analytics?​
-Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] and enable the Relationship analytics feature from  **Settings** > **AI setup**.​    
+    
 ### What is the frequency of KPI updates?
 KPIs are updated every 24 hours, potentially fewer.​  
 
 ### What are the signals in relationship health?​
-Relationship health looks at activity, recency, engagement, and sentiment of activities between sellers and customers.​   
+Relationship health looks at activity, recency, engagement, and sentiment of activities between sellers and customers.​ 
 
-### Can I configure relationship health?​   
+### Is the Office 365 consent mandatory for the Relationship Intelligence feature to work?
+ 
+No, it’s not mandatory. You’ll get the basic relationship analytics and health score based on the data in Dynamics 365. When you provide the consent in Office 365 to use the Exchange data, you’ll get more accurate and complete relationship information. 
+
+### What happens If I select Exchange checkbox but the Office 365 admin hasn’t provided the consent?
+
+The data from Exchange will not be collected until the consent is provided. Work with your Office 365 administrator to get the consent. More information: [Provide consent for collecting data from Office 365](provide-consent-office365.md).
+
+###  I see that the Exchange checkbox is selected though I hadn't selected it or provided the required consent for it in the past.
+
+With the recent changes to the relationship intelligence feature, the Exchange checkbox is selected by default for all the existing customers. However, no data will be collected from Exchange until your Office 365 administrator provides consent. You can clear the checkbox if you aren’t planning to integrate with Exchange. 
+  
+
+### Can I influence the relationship health score?​   
 An administrator can influence the relationship health score by changing the weight of activity types and the expected level of communications with customers.
 
 ### How are similar won deals identified? <a name="similar-won-deals-fields"></a>  
@@ -305,12 +286,6 @@ The grade is just grouping scores in four buckets that the admin can configure.
 
 ## Notes analysis
 
-### What do I need in order to use Notes analysis?​
-Notes analysis requires Microsoft 365.​
-
-### How do I enable Notes analysis?​  
-Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] and enable the Notes analysis feature from **Settings** > **AI setup**.​
-
 ### What does Notes analysis look at for the intent?​   
 Notes analysis looks at notes and posts on the timeline for the intent that may indicate a record should be created. Notes analysis looks for meeting requests, meetings, tasks, and contacts.
 
@@ -327,8 +302,6 @@ Notes analysis looks at notes and posts on the timeline for the intent that may 
 
 Talking points require Microsoft 365 Exchange and a configured server-side sync (SSS) profile (mailbox need not be enabled for SSS).​
 
-### How do I enable Talking points?​
-Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] and enable the Talking points feature from **Settings** > **AI setup**.​
 
 ### What do Talking points look at for the conversation starters?​   
 Talking points look at the inbox of the signed-in user for emails from the contact list that includes conversational topics relating to sports, entertainment, and health.​
@@ -343,20 +316,6 @@ It takes a few seconds to display the results.​
 
 ### What do I need in order to use Who knows whom?
 Who knows whom requires Microsoft 365 Exchange. The graph is built only on user accounts situated in the United States. Geo availability will expand as Sales Insights becomes available in more regions. Server-side sync is required for email introduction requests. ​
-
-### What do I need to build a connection graph in who knows whom?
-To build a connection graph in who knows whom, Microsoft 365 Exchange is required. The graph is built only on user accounts that are in the following Office 365 geography locations:
-- Global Geography 1 – EMEA (Austria, Finland, France, Ireland, Netherlands).
-- Global Geography 2 – Asia Pacific	(Hong Kong, Japan, Malaysia, Singapore, South Korea).
-- Global Geography 3 – Americas (Brazil, Chile, United States).
-
-More information: [Data center locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations&preserve-view=true)
-
-Also, server-side sync is required for email introduction requests. ​
-
-### How do I enable who knows whom?
-Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)], opt in to Connection insights from the Microsoft 365 admin, and enable the Who knows whom feature from **Settings** > **AI setup**.​
-
 
 ### How long will it take for results to appear?
 It takes about one to three days for results to populate the graph the first time. Later, updates take three to six days, depending on the new activities included in the graph.​
