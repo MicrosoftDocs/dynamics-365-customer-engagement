@@ -1,7 +1,7 @@
 ---
 title: "cancelEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Get reference information such as syntax and parameters for the cancelEvent (JavaScript API Reference) in Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 03/15/2022
+ms.date: 03/21/2022
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -13,17 +13,17 @@ ms.custom:
 
 # cancelEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
 
-Hides or cancels the notification about incoming conversations based on the cancellation token.
+Cancels the notification about incoming conversations based on the cancellation token.
 
 ## Syntax
 
-`Microsoft.CIFramework.notifyEvent(cancellationToken, correlationId).then(successCallback, errorCallback);`
+`Microsoft.CIFramework.cancelEvent(cancellationToken, correlationId).then(successCallback, errorCallback);`
 
 ## Parameters
 
 | Name            | Type      | Required     | Description     |
 |-----------------|---------- |--------------|-----------------|
-| cancellationToken| String   | Yes          | JSON input      |
+| cancellationToken| String   | Yes          | Unique string that was provided in the [`notifyEvent`](notifyevent.md) method to display notifications about incoming conversations.      |
 | correlationId    | GUID     | No           | Used to group all related API calls together for diagnostic telemetry.   |
 | successCallback  | Function | No | On successful callback, the response object will have the information about whether the customer accepted or rejected the incoming conversation.|
 | errorCallback    | Function | No           | A function to call when the operation fails.  |
