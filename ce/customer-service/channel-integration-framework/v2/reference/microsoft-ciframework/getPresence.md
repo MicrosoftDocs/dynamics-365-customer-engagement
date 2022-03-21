@@ -25,7 +25,7 @@ None.
 
 ## Return value
 
-Returns a String value with the presence status of the agent in the client session.
+Promise with the presence status of the agent in the client session, as String.
 
 ## Example
 
