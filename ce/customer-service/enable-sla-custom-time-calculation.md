@@ -1,7 +1,7 @@
 ---
 title: "Enable custom calculation of SLA KPIs in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how to perform custom calculation of SLAs KPIs in Dynamics 365 Customer Service."
-ms.date: 03/16/2022
+ms.date: 03/21/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -26,7 +26,7 @@ This topic describes how you can override the default time calculation.
 
 Time calculation in service-level agreements (SLAs) calculates the `WarningTime` and `FailureTime` of SLA key performance indicators (KPIs), taking into consideration input parameters, such as `ApplicableFrom` (StartTime of type DateTime field), `CalendarId` (GUID), and `Duration` (warning duration or failure duration in minutes). The final `WarningTime` or `FailureTime` is calculated based on the customer service and the holiday schedules associated with the SLA item.
 
-In addition to `WarningTime` and `FailureTime`, the `ElapsedTime` is also calculated if there is a Pause and Resume scenario configured for the SLA. The `ElapsedTime` gets added to the final `FailureTime` to ignore the working hours spent during the **Paused** state of the SLA KPI.
+In addition to warning and failure time, the elapsed time is also calculated if there is a pause and resume scenario configured for the SLA. The elapsed time gets added to the final failure time to ignore the working hours spent during the **Paused** state of the SLA KPI.
 
 To change the default time calculation and enable your own custom time calculation, you can define an API interface which has a fixed set of input and output parameters and add a custom logic to calculate the time.
 
@@ -46,10 +46,10 @@ To change the default time calculation and enable your own custom time calculati
     :::image type="content" source="media/add-sla-process-arguments.png" alt-text="Enable the process arguments for any SLA item":::
 
 1. Write the plug-in and link it to the custom action created in step 2. More information: [Write a plug-in](/powerapps/developer/data-platform/write-plug-in). To select the plug-in that you need, see [Scenarios and plug-ins](#scenarios-and-plug-ins).
-1. Associate the the previously created Custom Action with the SLA Item for which you need to perform the default time calculation. 
+1. Associate the the previously created custom action with the SLA Item for which you need to perform the default time calculation. 
 1. Edit the relevant SLA item. In the General section, enable the **Allow Custom Time Calculation**. 
 1. From the **Custom Time Calculation API** field, select the custom action you created in step 2 and select **Save**.
-1. Activate your SLA and apply it to the required entity. The `WarningTime` and `FailureTime` of the SLA KPI will appear as per your time calculation logic provided in the custom action.
+1. Activate your SLA and apply it to the required entity. The warning and failure time of the SLA KPI appears as per the time calculation logic provided in the custom action.
 
 If you need to export the solution to another environment, you can first add the SLA (whose item has the custom action reference) to the custom solution. This will also import the custom action workflow process. Next, include the SDK message in the solution. This will import the plug-in you created earlier.
 

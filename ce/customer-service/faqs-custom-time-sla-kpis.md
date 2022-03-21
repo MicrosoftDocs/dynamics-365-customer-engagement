@@ -1,7 +1,7 @@
 ---
 title: "FAQs about custom time calculation of SLA KPIs | MicrosoftDocs"
 description: "Learn about the frequently asked questions (FAQs) on custom time calculation of SLA KPIs."
-ms.date: 03/16/2022
+ms.date: 03/21/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -41,7 +41,7 @@ You can override the startTime of a SLA KPI instance based on the custom logic, 
         ... rest code is same as previous examples
 ```
 
-## How can I override the Warning or Failure duration for a KPI instance instead of the values defined in the SLA Item?
+## How can I override the warning or failure duration for a KPI instance instead of the values defined in the SLA Item?
 
 You can override the Warning or Failure of a SLA KPI instance based on the custom logic, whereby you must change the following parameter. Note that the value provided must be in minutes.
 

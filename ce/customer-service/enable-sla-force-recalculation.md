@@ -1,7 +1,7 @@
 ---
 title: "Enable custom recalculation of SLA KPIs in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how to perform custom recalculation of SLAs KPIs in Dynamics 365 Customer Service."
-ms.date: 03/16/2022
+ms.date: 03/21/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
