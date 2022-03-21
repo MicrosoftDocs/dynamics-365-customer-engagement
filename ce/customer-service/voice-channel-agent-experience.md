@@ -1,6 +1,6 @@
 ---
 title: "Use agent dashboard and call controls in the voice channel | MicrosoftDocs"
-description: "Use this topic to understand how the agent can use the agent dashboard, use call controls, and also make and receive customer calls in Omnichannel for Customer Service."
+description: "Use this article to understand how the agent can use the agent dashboard, use call controls, and also make and receive customer calls in Omnichannel for Customer Service."
 ms.date: 03/11/2022
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -13,11 +13,11 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-One of the main value propositions of the Omnichannel for Customer Service voice channel is that it's integrated directly with Dynamics 365; this integration is presented by way of the agent dashboard. The dashboard offers the agent a consolidated view of the calling interface, the customer summary, case history, and timeline. This helps the agent provide quick, effective, and proactive solutions to customer issues. At the same time, the agent experience in the voice channel is similar to the chat, SMS, and other social channels, thereby reducing any agent training time and costs.
+The voice channel in Omnichannel for Customer Service is integrated directly with Dynamics 365 by way of the agent dashboard. The dashboard offers the agent a consolidated view of the calling interface, the customer summary, case history, and timeline. This helps the agent provide quick, effective, and proactive solutions to customer issues. The agent experience in the voice channel is similar to the chat and other channels, which reduces agent training time and costs.
 
 ## Make and receive customer calls
 
-You can call a customer either using the phone dialer on the customer summary page or the launch dialer button on the Omnichannel for Customer Service menu bar. More information: [Call a customer](voice-channel-call-customer.md)
+You can call a customer by using the phone dialer on the customer summary page or the launch dialer button on the menu. More information: [Call a customer](voice-channel-call-customer.md)
 
 When a customer calls your business, the incoming call is received by an intelligent bot. The bot gathers basic information about the customer issue and then transfers the call to you for further action. You'll receive a notification about the incoming call on your agent desktop so you can accept it. The following section describes the call controls and other features you can use during your conversation.
 
@@ -45,7 +45,7 @@ The conversation panel in the agent dashboard includes the following call contro
 
 ## Report a phone number as spam
 
-When you receive a phone call and want to report the number as spam while on the call, you can do so immediately via the call controls on your conversation panel. A notification is then sent to your administrator for review and further action.
+You can report a phone number as a spam call while you are on the call by using the call controls on the conversation panel. A notification is then sent to your administrator for review and further action.
 
 To report a phone number as spam, select the ellipsis to open more actions, and then select **Mark number as spam**.
 
