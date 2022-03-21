@@ -23,7 +23,7 @@ Sets the presence text of the agent in the client session​.
 
 | Name            | Type     | Required    | Description       |
 |-----------------|----------|-------------|-------------------|
-| presenceText   | String   | Yes         | Presence text for corresponding presence in Omnichannel for Customer Service. For the presence to be set correctly, the string should exactly match the text used in the admin app. To create custom presence, see [Configure and manage custom presence](../../../../presence-custom-presence.md).    |
+| presenceText   | String   | Yes         | Presence text for current agent in Omnichannel for Customer Service. For the presence to be set correctly, the string should exactly match the text used in the admin app. To create custom presence, see [Configure and manage custom presence](../../../../presence-custom-presence.md).    |
 
 ## Return value
 
