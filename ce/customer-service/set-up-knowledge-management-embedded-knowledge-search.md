@@ -1,7 +1,7 @@
 ---
 title: Configure knowledge management (Dynamics 365 Customer Service) | MicrosoftDocs
 description: See how to configure the settings for knowledge management in Dynamics 365 Customer Service
-ms.date: 03/14/2022
+ms.date: 03/21/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -79,12 +79,15 @@ After you have configured knowledge management on your app, you must also set up
       *	In the **Origins allow list** section, add your origins links to the **Add origin links** field. More information: [Configure origins allow list for knowledge articles](configure-knowledge-article-origin-allow-list.md#configure-origins-allow-list-for-knowledge-articles)
       *	In the **Knowledge search logic** section, set the **Set search mode as all** toggle to **Yes**. More information: [Set up knowledge search logic](#set-up-knowledge-search-logic)
 	    * Select **Save**.
-  4. In the **Filters** section, set the **Enable search filters** toggle to **Yes**. If you want to allow agents to personalize the search filters, then set the **Allow agent to personalize** toggle to **Yes**.
-  5. In the **Portals** section, select **Manage**. The **Portals** page appears.
+  4. Optionally, in the **Categories** section, select **Manage**. The **Categories System Views** page appears. You can create and manage a logical structure of categories for your records. More information: [Create and manage categories](create-manage-categories.md#create-and-manage-categories).
+  5. In the **Filters** section, set the **Enable search filters** toggle to **Yes**. If you want to allow agents to personalize the search filters, then set the **Allow agent to personalize** toggle to **Yes**.
+  6. In the **Portals** section, select **Manage**. The **Portals** page appears.
       1. In the **Support portal connection** section, do the following to share knowledge articles as URLs:
           *	Set the **Use an external portal** toggle to **Yes**, to integrate an external portal to publish knowledge articles.
           * **URL Format**: Type the portal URL that will be used to create external (public-facing) portal links for knowledge articles, which the service agents can share with the customers. The external URL is created in the following format: https://support portal URL/kb/{kbnum}. The placeholder "{kbnum}" is replaced by an actual knowledge article number.
       1.	In the **Sync knowledge article attachments to portal** section, set the **Sync attachments to the portal** toggle to **Yes**. More information: [Update knowledge article attachments for portal](customer-service-hub-user-guide-knowledge-article.md#update-knowledge-article-attachments-for-portal)
+  7. Optionally, in the **Article templates** section, select **Manage**. The **Article Templates System Views** page appears. You can create templates to help knowledge authors use consistent language and messaging. More information: [Create templates for articles](/power-platform/admin/create-templates-articles).
+  8. Optionally, in the **Search providers** section, select **Manage**. The **Search providers System Views** page appears. You can use search providers to federate the search of files, documents, or articles from data sources outside of your current Dynamics 365 organization. More information: [Set up a search provider in Customer Service Hub](set-up-search-providers.md#set-up-a-search-provider-in-customer-service-hub).
 
 ### [Customer Service Hub](#tab/customerservicehub)
 
@@ -110,7 +113,7 @@ After you have configured knowledge management on your app, you must also set up
 
 7. In the **Sync knowledge article attachments to portal** section, set the **Sync attachments to portal** toggle to **Yes**. More information: [Update knowledge article attachments for portal](customer-service-hub-user-guide-knowledge-article.md#update-knowledge-article-attachments-for-portal).
 
-8. In the **Origins allow list** section, add your origins links to the **Add origin links** field. More information: [Configure origins allow list for knowledge articles](configure-knowledge-article-origin-allow-list.md#configure-origins-allow-list-for-knowledge-articles).
+8. In the **Origins allowlist** section, add your origins links to the **Add origin links** field. More information: [Configure origins allow list for knowledge articles](configure-knowledge-article-origin-allow-list.md#configure-origins-allow-list-for-knowledge-articles).
 
 9.  In the **Knowledge search logic** section, set the **Set search mode as all** toggle to **Yes**. More information: [Set up knowledge search logic](#set-up-knowledge-search-logic).
 
