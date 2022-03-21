@@ -262,6 +262,8 @@
       items: 
       - name: Push notification setup for application developers
         href: real-time-marketing-developer-push.md
+      - name: Receiving notifications and creating interactions
+        href: real-time-marketing-developer-notifications.md
       - name: Use binding IDs to correlate across triggers
         href: real-time-marketing-correlate-triggers.md
     - name: Real-time marketing troubleshoot + FAQ
@@ -428,6 +430,8 @@
         href: email-expire.md
       - name: Use automated scheduling to help improve email engagement
         href: automated-scheduler.md
+      - name: Manually schedule contacts and email delivery
+        href: customer-journey-manually-schedule.md
       - name: Create and manage customer journey templates
         href: journey-templates.md
       - name: Create an inbound customer journey
