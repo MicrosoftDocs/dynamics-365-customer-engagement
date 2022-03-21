@@ -35,8 +35,6 @@ You can create a new organizational unit in the Customer Service admin center (p
 
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
-   > [!IMPORTANT]
-
     1. In the site map, select **Service Scheduling** in **Operations**. The **Service Scheduling** page appears.
     1. In the **Organizational units** section, select **Manage**.                                                                         
         
