@@ -46,8 +46,8 @@ To change the default time calculation and enable your own custom time calculati
     :::image type="content" source="media/add-sla-process-arguments.png" alt-text="Enable the process arguments for any SLA item":::
 
 1. Write the plug-in and link it to the custom action created in step 2. More information: [Write a plug-in](/powerapps/developer/data-platform/write-plug-in). To select the plug-in that you need, see [Scenarios and plug-ins](#scenarios-and-plug-ins).
-1. Associate the the previously created custom action with the SLA Item for which you need to perform the default time calculation. 
-1. Edit the relevant SLA item. In the General section, enable the **Allow Custom Time Calculation**. 
+1. Associate the the previously created custom action with the SLA Item for which you need to perform the default time calculation.
+1. Edit the relevant SLA item. In the **General** section, set the **Allow Custom Time Calculation** toggle to **Yes**.
 1. From the **Custom Time Calculation API** field, select the custom action you created in step 2 and select **Save**.
 1. Activate your SLA and apply it to the required entity. The warning and failure time of the SLA KPI appears as per the time calculation logic provided in the custom action.
 
