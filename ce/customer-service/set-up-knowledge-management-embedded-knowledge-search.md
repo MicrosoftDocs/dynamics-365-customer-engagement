@@ -76,7 +76,7 @@ After you have configured knowledge management on your app, you must also set up
         * If you want to select a default knowledge authoring language for your organization, then select the **Organization’s UI language** radio button. 
         *	If you want to use the organizations’ s UI language as the default knowledge authoring language, select the **Other language** radio button, and then select a language from the **Language** dropdown.
         *	If you also want to allow users to set their default knowledge authoring language, then set the **Allow users to set default knowledge authoring language** toggle to **Yes**. More information: [Set a default knowledge article authoring language for your organization](set-knowledge-article-authoring-language.md#set-a-default-knowledge-article-authoring-language-for-your-organization).
-      *	In the **Origins allow list** section, add your origins links to the **Add origin links** field. More information: [Configure origins allow list for knowledge articles](configure-knowledge-article-origin-allow-list.md#configure-origins-allow-list-for-knowledge-articles)
+      *	In the **Origins allow list** section, add your origins links to the **Add origin links** field. More information: [Configure origins allowlist for knowledge articles](configure-knowledge-article-origin-allow-list.md#configure-origins-allowlist-for-knowledge-articles).
       *	In the **Knowledge search logic** section, set the **Set search mode as all** toggle to **Yes**. More information: [Set up knowledge search logic](#set-up-knowledge-search-logic)
 	    * Select **Save**.
   4. Optionally, in the **Categories** section, select **Manage**. The **Categories System Views** page appears. You can create and manage a logical structure of categories for your records. More information: [Create and manage categories](create-manage-categories.md#create-and-manage-categories).
@@ -113,7 +113,7 @@ After you have configured knowledge management on your app, you must also set up
 
 7. In the **Sync knowledge article attachments to portal** section, set the **Sync attachments to portal** toggle to **Yes**. More information: [Update knowledge article attachments for portal](customer-service-hub-user-guide-knowledge-article.md#update-knowledge-article-attachments-for-portal).
 
-8. In the **Origins allowlist** section, add your origins links to the **Add origin links** field. More information: [Configure origins allow list for knowledge articles](configure-knowledge-article-origin-allow-list.md#configure-origins-allow-list-for-knowledge-articles).
+8. In the **Origins allowlist** section, add your origins links to the **Add origin links** field. More information: [Configure origins allowlist for knowledge articles](configure-knowledge-article-origin-allow-list.md#configure-origins-allowlist-for-knowledge-articles).
 
 9.  In the **Knowledge search logic** section, set the **Set search mode as all** toggle to **Yes**. More information: [Set up knowledge search logic](#set-up-knowledge-search-logic).
 
