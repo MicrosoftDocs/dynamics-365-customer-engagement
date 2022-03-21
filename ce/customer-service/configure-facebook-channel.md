@@ -1,7 +1,7 @@
 ---
 title: "Configure a Facebook channel | MicrosoftDocs"
 description: "This topic provides steps to configure a Facebook channel and corresponding Facebook pages in Omnichannel for Customer Service."
-ms.date: 02/18/2022
+ms.date: 02/25/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -97,6 +97,8 @@ The following Facebook roles and permissions are required for integrating your F
    - [Quick replies](create-quick-replies.md)
 
 ### Configure a Facebook channel in Omnichannel Administration
+
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 After completing the prerequisites, you can add the Facebook channel for your organization by following these steps:
 

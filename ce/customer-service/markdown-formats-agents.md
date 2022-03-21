@@ -4,7 +4,7 @@ description: "Get information on Markdown formats that agents can use in Omnicha
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 08/02/2021
+ms.date: 03/04/2022
 ms.topic: reference
 
 ---
@@ -40,13 +40,13 @@ To know the formats supported by the various channels, see [Support for formatte
 | hyperlink                 | https://www.microsoft.com            | <https://www.microsoft.com>    |
 | hyperlink with text       | [text]\(https://www.microsoft.com\)  | [Microsoft website](https://www.microsoft.com) |
 | monospace                 | \`\`\` <br> text<br>\`\`\`           | ```text```                     |
-| numbered list             |  <number> item one                   |  <ol><li> item one </li> <li> item two</li></ol>  |
+| numbered list             |  \<number\> item one                   |  <ol><li> item one </li> <li> item two</li></ol>  |
 | unordered list            | \* item one <br> or <br> - item one  |  \* item one <br> \* item two  |
 
 ### See also
 
 [Enable formatted messages](enable-formatted-messages.md)  
 [Bring your own custom messaging channel: Direct Line](bring-your-own-channel.md)  
-[Markdown formats](markdown-formats-dev.md)  
+[Markdown formats: Direct Line](markdown-formats-dev.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

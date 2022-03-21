@@ -1,7 +1,7 @@
 ---
 title: "Add a chat widget | MicrosoftDocs"
-description: "Perform the steps mentioned in the topic to add a chat widget in Omnichannel for Customer Service."
-ms.date: 02/11/2022
+description: "Perform the steps mentioned in the article to add a chat widget in Omnichannel for Customer Service."
+ms.date: 02/25/2022
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -98,6 +98,8 @@ Perform the following steps to enable the customer notifications:
 You can also configure the customer notifications when you're configuring the chat channel.
 
 ### Configure a chat widget in Omnichannel Administration
+
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 The information in this section is not applicable if you are using the Omnichannel admin center app in the latest version of Omnichannel for Customer Service.
 

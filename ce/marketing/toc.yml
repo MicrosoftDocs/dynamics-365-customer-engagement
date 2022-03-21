@@ -18,7 +18,7 @@
       href: purchase-setup.md
     - name: Install real-time customer journey orchestration
       href: real-time-marketing-install.md
-    - name: Integrate Marketing with a CMS system or Power Apps portals
+    - name: Integrate Marketing with a CMS system or a Power Apps portal
       href: portal-optional.md
     - name: Open the Power Platform admin center
       href: power-platform-admin-center.md
@@ -194,7 +194,7 @@
         href: real-time-marketing-ci-profile.md
       - name: Known issues in real-time marketing
         href: real-time-marketing-known-issues.md
-    - name: Channels
+    - name: Communication channels
       items: 
       - name: Real-time marketing emails
         href: real-time-marketing-email.md
@@ -210,11 +210,11 @@
         items:
         - name: Create an event-based journey
           href: real-time-marketing-event-based-journey.md
-        - name: Real-time marketing event triggers
+        - name: Real-time marketing triggers
           href: real-time-marketing-event-triggers.md
         - name: "Preview: Trigger custom event actions"
           href: real-time-marketing-custom-event-actions.md
-        - name: Create custom event triggers
+        - name: Create custom triggers
           href: real-time-marketing-custom-events.md
       - name: Segment-based journeys
         items:
@@ -262,7 +262,9 @@
       items: 
       - name: Push notification setup for application developers
         href: real-time-marketing-developer-push.md
-      - name: Correlate across custom triggers
+      - name: Receiving notifications and creating interactions
+        href: real-time-marketing-developer-notifications.md
+      - name: Use binding IDs to correlate across triggers
         href: real-time-marketing-correlate-triggers.md
     - name: Real-time marketing troubleshoot + FAQ
       href: real-time-marketing-faq.md
@@ -428,6 +430,8 @@
         href: email-expire.md
       - name: Use automated scheduling to help improve email engagement
         href: automated-scheduler.md
+      - name: Manually schedule contacts and email delivery
+        href: customer-journey-manually-schedule.md
       - name: Create and manage customer journey templates
         href: journey-templates.md
       - name: Create an inbound customer journey

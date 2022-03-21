@@ -3,8 +3,8 @@ title: "View the status of prediction column"
 description: "Use the status of prediction column in a forecast to view the details such as, last predicted date and errors."
 ms.date: 10/26/2021
 ms.topic: article
-author: udaykirang
-ms.author: udag
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 ---
 # View prediction model status  

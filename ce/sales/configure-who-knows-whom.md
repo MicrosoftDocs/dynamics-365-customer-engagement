@@ -1,7 +1,7 @@
 ---
 title: "Configure who knows whom"
 description: "Configure who knows whom to help sellers quickly identify colleagues within their organization who can introduce them to leads or contacts."
-ms.date: 02/11/2022
+ms.date: 03/15/2022
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -59,8 +59,11 @@ The Who knows whom feature helps sellers to quickly identify colleagues who can 
     > For instructions on creating a new email template, go to [Create email templates](/powerapps/user/email-template-create) 
 
 6. Select **Save**.
+1. If your organization is using a custom sales app or a custom form for lead or contact, add the [Who Knows Whom widget](add-ri-widgets-to-custom-form.md) to your app. The widget makes the who knows whom information available to sellers.
 
-The who knows whom feature is configured. As a next step, work with your Microsoft 365 administrator to [Enable the connection graph](#enable-the-connection-graph). This step is mandatory; users will see the suggestions only after the connection graph is enabled.  
+    The who knows whom feature is ready to use in your organization.
+
+As a next step, work with your Microsoft 365 administrator to [Enable the connection graph](#enable-the-connection-graph). This step is mandatory; users will see the suggestions only after the connection graph is enabled.  
 
 ## Enable the connection graph
 
@@ -91,7 +94,8 @@ To configure the Sales Insights connection graph, follow these steps:
 
 [Add Relationship intelligence widgets to custom forms](add-ri-widgets-to-custom-form.md)  
 [Get introduced to a lead](../sales/who-knows-whom.md)  
-[Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)
+[Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)  
+[Who knows whom FAQs](faqs-sales-insights.md#who-knows-whom)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
