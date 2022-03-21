@@ -35,12 +35,11 @@ Returns a Boolean value of success.
 Microsoft.CIFramework.setPresence(custompresence).then(
                         function (result) {
                             if(!result)
-                          //code handling when OC Presence is in error
-                               else
-                                //code handling for success
+                            //code handling when OC Presence is in error
+                            else
+                            //code handling for success
                         },
                         function (error) {
-                            document.getElementById("setPresenceText").innerHTML = "ERROR";
                             reject(error);
                         });
                 });
