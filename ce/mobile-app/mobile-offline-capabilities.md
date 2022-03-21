@@ -67,7 +67,7 @@ These tables and corresponding commands are available in offline mode.
       > [!NOTE]
       > If a table is associated with multiple business process flows, in order for any of the business process flows to work in offline, all the business process flows must be added to the offline profile.
     
-    There are three commands that are available for a business process flow when you run an app in offline mode on the Power Apps mobile app.
+    There are three commands that are available for a business process flows, when you run an app in offline mode on the Power Apps mobile app.
     
     - Next stage
     - Previous stage
@@ -121,7 +121,7 @@ For more information, see [Run business process flows offline](/power-automate/b
 |Web resource configuration |Offline support on Android|Offline support on iOS|  
 |-------------|---------|--------|  
 |Web resource used on form handlers, form scripts and ribbon commands|Supported (File names should be in lower case)|Supported (file names need should be in lower case)|
-|JavaScript files referenced within an HTML web resource|Supported| Partially supported: The web resource needs to be opened at least once while online so that it's cached by the browser which will handle its lifetime and or availability.|
+|JavaScript files referenced within an HTML web resource|Supported| Partially supported: The web resource needs to be opened at least once you are in online mode so that it's cached by your browser. Then it is handled for lifetime and or availability.|
 |HTML, JS, CSS, XML web resources embedded on a model-driven app form|Supported| Partially supported: The web resource needs to be opened at least once while online so that it's cached by the browser which will handle its lifetime and or availability.|
 |Other web resources embedded on a model-driven app form (like images, resx, etc.)|Not supported**|Not supported**|
 |Webpage (HTML web resource) via a model-driven app’s sitemap|Not supported|Not supported|
