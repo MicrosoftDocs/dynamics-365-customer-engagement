@@ -1,7 +1,7 @@
 ---
 title: View activities for a record in the Dynamics 365 Sales mobile app
 description: Instructions to view activities for a record in the Dynamics 365 Sales mobile app
-ms.date: 03/09/2022
+ms.date: 03/22/2022
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -132,7 +132,7 @@ After you call someone or complete a task, you can mark the activity as complete
 ![Mark an activity as complete](media/activity-complete.png)
 
 ## Cancel an activity
-<!--note from editor: "Canceling" with one "l" is via Writing Style Guide.-->
+
 If an activity is no longer relevant but you want to keep a record of it, you can mark the activity as canceled. To mark an activity as canceled, tap ![More options](media/activity-more-options.png) on the activity card, and then tap **Cancel**. Canceling an activity removes it from the **To Do** view.
 
 ## Delete an activity
@@ -140,7 +140,7 @@ If an activity is no longer relevant but you want to keep a record of it, you ca
 If you created an activity by mistake, or the activity is no longer required, you can delete it. To delete an activity, tap ![More options](media/activity-more-options.png) on the activity card, and then tap **Delete**.
 
 ## Reassign an activity
-<!--note from editor: Dropping "the" from "Unified Interface" is via Cloud Style Guide.-->
+
 You can reassign an activity to a team or another user from Unified Interface. 
 
 1. [Open or edit an activity](#open-or-edit-an-activity), and then tap ![Open record icon.](media/open-record-icon.png "Open record icon") at the upper-right corner of the form.
