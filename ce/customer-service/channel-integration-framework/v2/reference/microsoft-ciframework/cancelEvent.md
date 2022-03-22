@@ -25,7 +25,7 @@ Cancels the notification about incoming conversations based on the cancellation 
 |-----------------|---------- |--------------|-----------------|
 | cancellationToken| String   | Yes          | Unique string that was provided in the [`notifyEvent`](notifyevent.md) method to display notifications about incoming conversations.      |
 | correlationId    | GUID     | No           | Used to group all related API calls together for diagnostic telemetry.   |
-| successCallback  | Function | No | On successful callback, the response object will have the information about whether the customer accepted or rejected the incoming conversation.|
+| successCallback  | Function | No | A function to call when the request is successful. On successful callback, the response object will contain the cancellation token.|
 | errorCallback    | Function | No           | A function to call when the operation fails.  |
 
 ## Callback function details
@@ -34,25 +34,7 @@ The following objects are passed into the `successCallback` and `errorCallback` 
 
 ### successCallback function
 
-Sample JSON object:
-
-```json
-{
-	"value": {"actionName" : "Accept",
-     "responseReason" : "Accept"}
-}
-```
-
-**Parameters**
-
-| actionName   |  responseReason                    |     Description                            |
-|--------------|------------------------------------|--------------------------------------------|
-| Accept       | Accept                             | When user accepts the notification  |
-| Accept       | AutoAccept                         | The notification is accepted by default via a notification template |
-| Reject       | DeclinedByAgent                    | When user rejects the notification |
-| Reject       | NotificationQueueLimitExceeded     | The notification is rejected if the limit exceeds ten notifications in the queue |
-| Reject       | NotificationQueueTimeLimitExceeded | When a notification in the queue exceeds the configured timeout period |
-| Timeout      | DisplayTimeout                     | When user doesn't respond to the notification within the timeout period |
+Returns the cancellation token.
 
 ### errorCallback function
 
@@ -61,16 +43,15 @@ Sample JSON object:
 ```json
 {
 	"message" : "<error details>",
-	"msdyn_name" : "NotifyEvent"
+	"msdyn_name" : "CancelEvent"
 }
 ```
 
 **Parameters**
 
-| message                          |  Description                            |
-|-------------------------------   |-----------------------------------------|
-| NotificationTemplateNotFoundError | When the specified template name is not found |
-| RejectAfterClientError            | An unknown exception occurred (occurs when the Platform API call fails or some input parameter is missing) |
+| message                    |  Description                            |
+|--------------------------  |-----------------------------------------|
+| RejectAfterClientError     | An unknown exception occurred (occurs when the Platform API call fails or some input parameter is missing) |
 
 ## Example
 
