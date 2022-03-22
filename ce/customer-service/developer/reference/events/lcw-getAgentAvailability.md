@@ -2,7 +2,7 @@
 title: "lcw:getAgentAvailability | MicrosoftDocs"
 description: lcw getAgentAvailability event (Omnichannel for Customer Service JavaScript API reference)
 ms.topic: article
-ms.date: 11/10/2021
+ms.date: 04/01/2022
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
