@@ -42,7 +42,7 @@ To change the estimated revenue value of an opportunity based on any changes to 
 
 [Create or edit an opportunity](../sales-enterprise/create-edit-opportunity-sales.md)  
 [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)   
-[Print leads, quotes, and other records](../customerengagement/on-premises/basics/print-leads-quotes-other-records.md)  
+[Print quote, invoice, or other records](print-records.md)  
 [Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  
 
 
