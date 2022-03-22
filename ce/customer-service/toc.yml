@@ -1402,8 +1402,8 @@
           href: developer/reference/methods/startProactiveChat.md
         - name: closeChat
           href: developer/reference/methods/closeChat.md
-        - name: getQueueAvailability
-          href: developer/reference/methods/getQueueAvailability.md
+        - name: getAgentAvailability
+          href: developer/reference/methods/getAgentAvailability.md
       - name: Events
         items: 
         - name: "lcw:ready"
