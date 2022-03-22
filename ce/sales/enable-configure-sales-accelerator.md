@@ -1,7 +1,7 @@
 ---
 title: "Enable and configure the sales accelerator"
 description: "Enable and configure the sales accelerator to create sequences and connect records, and view daily work list items."
-ms.date: 03/11/2022
+ms.date: 03/17/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -41,7 +41,12 @@ Enable the sales accelerator by quickly providing access to security roles and s
 
 2. Under **Sales accelerator**, select **Workspace**.
 
-    The sales accelerator workspace setup page opens. 
+>[!NOTE]
+>By default, sales accelerator is enabled in the Sales Hub app with limited functionalities. Your Sales teams can view the work list items created through timeline. To experience the full capabilities of sales accelerator, purchase the Sales Premium license and configure the features such as sequences and segments. To disable the sales accelerator, go to [Disable sales accelerator](#disable-sales-accelerator). 
+
+1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **Sales Insights settings**.
+2. Under **Sales accelerator**, select **Workspace**.     
+    The sales accelerator workspace set up page opens. 
 
     >[!div class="mx-imgBorder"]
     >![Sales accelerator first-run setup page.](media/sa-fre-setup.png "Sales accelerator first-run setup page")   
@@ -271,6 +276,21 @@ By default, the **Up next** widget is displayed on the **Default Main** and **Sa
 >[!NOTE]
 >To know how to add the work list site map to your custom app, go to [How to add work list site map to your custom app](faqs-sales-insights.md#how-to-add-sales-accelerator-site-map-to-your-custom-app).
 
+## Disable sales accelerator
+
+You can disable the sales accelerator workspace, if it's no longer required in your organization.    
+
+1. On the **Sales accelerator workspace** page, select **Disable**.
+
+    >[!div class="mx-imgBorder"]
+    >![Select disable to remove sales accelerator](media/sa-disable-sa.png "Select disable to remove sales accelerator")   
+
+2. On the confirmation message, select **Disable Sales accelerator**.
+
+    >[!div class="mx-imgBorder"]
+    >![Select disable sales accelerator on confirmation message](media/sa-disable-sa-confirmation.png "Select disable sales accelerator on confirmation message")   
+
+The sales accelerator workspace is disabled in your organization.
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
