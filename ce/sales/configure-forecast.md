@@ -80,7 +80,7 @@ In the **Opportunity** form, **Forecast Category** appears above **Description**
 >- Forecast category options include **Won** and **Lost**. If an opportunity is closed as **Won** or **Lost**, the **Opportunity Forecast Category Mapping Process** out-of-the-box workflow automatically changes the forecast category to match.
 >- To view the **Opportunity Forecast Category Mapping Process** workflow, go to **Settings** > **Process Center** > **Processes** and select the **All Processes** view. Search for and open the **Opportunity Forecast Category Mapping Process** workflow. You can customize or deactivate the workflow according to your organization's requirements.
 >- Are you using a custom option set instead of forecast category? You'll need to create a workflow to automatically sync the opportunity status with your option set to make sure that the projection is accurate.
->- To learn more, see [Use workflow processes to automate processes that don't require user interaction](../customerengagement/on-premises/customize/workflow-processes.md).
+>- To learn more, see [Use workflow processes to automate processes that don't require user interaction](/power-automate/get-started-logic-flow).
 
 If you don't want to see the forecast category in the opportunity form, you'll need to customize the form. You can't use the **Visible by default** option to hide it. To learn more, see [Unable to hide forecast category field in opportunity forms](./ts-forecasts.md#hide_forecast_category_field).
 
