@@ -1428,6 +1428,8 @@
           href: developer/reference/events/lcw-onMessageReceived.md
         - name: "lcw:onMessageSent"
           href: developer/reference/events/lcw-onMessageSent.md
+        - name: "lcw:getAgentAvailability"
+          href: developer/reference/events/lcw-getAgentAvailability.md  
         - name: "lcw:error"
           href: developer/reference/events/lcw-error.md                    
       - name: Error code reference
