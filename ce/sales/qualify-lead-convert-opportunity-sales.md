@@ -121,7 +121,7 @@ When salespeople work on a lead, they use notes to store key information on the 
   
 ### See also  
 [Define lead qualification experience](define-lead-qualification-experience.md)  
-[Print leads, quotes, and other records](../customerengagement/on-premises/basics/print-leads-quotes-other-records.md)          
+[Print quote, invoice, or other records](print-records.md)         
 [Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  
 [Boost sales with Versium Predict](../versium-predict/versium-predict.md)  
 [Get sales Insights, powered by InsideView](../insights-insideview/insights-powered-by-insideview.md)  
