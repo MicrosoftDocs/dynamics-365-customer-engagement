@@ -234,7 +234,6 @@ If Resource Scheduling Optimization is enabled in your organization, a new tab w
 
 Setting to yes doesn’t mean requirements will automatically be scheduled to this bookable resource; instead it means that after Resource Scheduling Optimization is set up and with the appropriate scope to include this bookable resource, it would then be eligible for automatic schedules.
 
-
 > [!div class="mx-imgBorder"]
 > ![Screenshot of enabling Resource Scheduling Optimization for a resource.](media/resource-enable-rso.png "Screenshot of enabling Resource Scheduling Optimization for a resource.")
 
@@ -303,16 +302,14 @@ The process is similar for resources with resource type of Account or User. **Ed
 - The start and end location of a resource is used as the resource's location during break hours if a break is configured when working hours are set up for that resource. 
 - The resource work hours are saved in the calendar entity, which isn’t supported by the configuration migration tool and also audit history can’t be enabled on the calendar entity. 
 - The new work hours control is added to the bookable resource out-of-the-box form. But if you have a custom form defined on this entity, you must enable the work hours tab on the form by following these steps:
-  1. Create a tab with name as *work hours*. Create a section in it and add the *calendar* field to it.
-  2. Double-click on the calendar field, and change the control to *Work Hour Control*. Save and publish the form.
 
+  * Create a tab with name as *work hours*. Create a section in it and add the *calendar* field to it.
+  * Double-click on the calendar field, and change the control to *Work Hour Control*. Save and publish the form.
 
 ### See also   
  
  [Set up bookable resource categories](../field-service/set-up-bookable-resource-categories.md)   
  [Set up characteristics](../field-service/set-up-characteristics.md)   
  [Set up resource pay types](../field-service/set-up-resource-pay-types.md)  
- 
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
