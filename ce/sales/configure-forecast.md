@@ -26,7 +26,7 @@ Forecasts can be based on revenue or quantity. Configure forecast type, hierarch
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator or Forecast Manager <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+
 
 ## What is a forecast 
 

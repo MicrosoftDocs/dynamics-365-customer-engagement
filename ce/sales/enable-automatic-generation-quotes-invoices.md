@@ -20,7 +20,7 @@ Help your sales team to automatically generate quotes and invoice documents with
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator or Sales Professional Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+
 
 ## Enable automatic document generation
 

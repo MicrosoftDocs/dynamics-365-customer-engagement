@@ -19,7 +19,7 @@ With Dynamics 365 Sales, you can help ensure that users enter data consistently 
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator or System Customizer  <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+
 
 ## How do business process flows help? 
 

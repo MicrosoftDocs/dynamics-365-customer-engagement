@@ -20,7 +20,7 @@ When you sign in to conversation intelligence as a sales manager, you’ll see t
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Sales Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+
 
 ## Sections of the home page
 

@@ -17,7 +17,7 @@ ms.custom:
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | All primary sales roles such as salesperson, sales manager, and so on.<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-|||
+
 
 
 The Sales Hub app is built on the Unified Interface framework, which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. The Sales Hub app is also built from the ground up with accessibility in mind.

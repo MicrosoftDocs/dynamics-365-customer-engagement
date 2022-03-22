@@ -21,7 +21,7 @@ Learn how to download and what resources are present to create a custom actions 
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Customizer <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+
 
 ## Create custom action card
 The following process explains how to create a custom card:

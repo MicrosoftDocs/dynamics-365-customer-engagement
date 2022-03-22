@@ -21,7 +21,7 @@ You can see the notes associated with a record in the **Notes** section of the r
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Professional, or Microsoft Relationship Sales <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | All primary sales roles such as salesperson, sales manager, and so on.<br>  More information: [Primary sales roles](../security-roles-for-sales.md#primary-sales-roles)|
-|||
+
 
 ## What actions can performed?
 
@@ -67,7 +67,7 @@ You can perform the following actions in the **Notes** section.
     |![Camera icon.](media/sm-take-photo-note.png "Camera icon")|Take a photo from your mobile camera and attach it to the note.|
     |![Microphone icon to add a note.](media/mic-icon-note.png "Microphone icon to add a note")|Add content by dictation. More information: [Use dictation in the mobile app](use-dictation.md)|
     |![Copy icon to copy the note.](media/copy-icon-note.png "Copy icon to copy the note")|Copy the note's content.|
-    |||
+    
 
     > [!NOTE]
     > If you're adding the note by using the navigation bar at the bottom of the screen, you must connect the note to the record that it's regarding. Tap **Next**, and then select the record you want to associate the note with. More information about annotation: [annotation EntityType](/dynamics365/customer-engagement/web-api/annotation?view=dynamics-ce-odata-9&preserve-view=true)

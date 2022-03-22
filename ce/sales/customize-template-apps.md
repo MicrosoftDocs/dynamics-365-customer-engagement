@@ -19,7 +19,7 @@ You can use Power BI template apps to visualize and analyze the sales data.
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise, and Power BI Pro  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) ; [Power BI pricing](https://powerbi.microsoft.com/en-us/pricing/) |
 | **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+
 
 ## Customize the template apps
 

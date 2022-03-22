@@ -17,7 +17,7 @@ The sales usage dashboard provides a snapshot view of the historical operational
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+
 
 ## View the sales usage reports
 

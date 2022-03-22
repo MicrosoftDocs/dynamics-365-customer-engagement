@@ -16,7 +16,7 @@ The Dynamics 365 Sales mobile app uses the quick view form to display table deta
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Professional, or Microsoft Relationship Sales <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System administrator <br>  More information: [Predefined security roles for Sales](../security-roles-for-sales.md)|
-|||
+
 
 
 ## How does quick view form work for the mobile app?
@@ -28,7 +28,7 @@ If you've created multiple quick view forms, the mobile app uses the first form 
 |1|Contact quick view form one|
 |2|Contact quick view form two|
 |3|Contact quick view form three|
-|||
+
 
 In this example, the mobile app displays information based on the fields defined in **Contact quick view form one**.
 

@@ -19,7 +19,7 @@ Use work list in sales accelerator to prioritize your sales pipeline to ensure i
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | All primary sales roles such as salesperson, sales manager, and so on.<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-|||
+
 
 ## How to prioritize your pipeline
 

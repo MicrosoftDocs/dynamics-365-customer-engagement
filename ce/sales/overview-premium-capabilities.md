@@ -16,7 +16,7 @@ manager: shujoshi
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator or Sales Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+
 
 Sales premium empowers sellers to achieve more to align with today's dynamic and unpredictable environments that organizations operate in. Sales premium helps sellers to:    
 - Become more productive and spend time on valuable activities

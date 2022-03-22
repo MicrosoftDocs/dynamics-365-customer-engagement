@@ -15,7 +15,7 @@ manager: shujoshi
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | All primary sales roles such as salesperson, sales manager, and so on.<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-|||
+
 
 > [!IMPORTANT]
 > - The enhanced experience of adding a conversation intelligence tab to Microsoft Teams is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]

@@ -19,7 +19,7 @@ The Dynamics 365 Sales application is a modular app built to provide capabilitie
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator or System Customizer <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+
 
 ## Customize the app
 

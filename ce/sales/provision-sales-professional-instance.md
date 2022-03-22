@@ -19,7 +19,7 @@ Congratulations on the purchase of the Sales Professional application.
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+
 
 
 Before you can start using the Sales Professional application you need to:
