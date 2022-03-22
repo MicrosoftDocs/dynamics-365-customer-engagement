@@ -53,7 +53,7 @@ Enable the sales accelerator by quickly providing access to security roles and s
     >[!div class="mx-imgBorder"]
     >![Sales accelerator quick setup.](media/sa-fre-sa-quick-setup-pane.png "Sales accelerator quick setup pane")   
 
-4.	<a name="define-team-access"></a>In the **Enable for** section, select roles to grant permissions to use sales accelerator features. Choose one of the following options to grant permissions.<!--note from editor: Via Writing Style Guide, you introduce tables with complete sentences; lists are the ones that should be introduced with colons. -->
+4.	<a name="define-team-access"></a>In the **Enable for** section, select roles to grant permissions to use sales accelerator features. Choose one of the following options to grant permissions.
        
     | Security roles | Description |
     |----------------|-------------|
@@ -80,13 +80,13 @@ Enable the sales accelerator by quickly providing access to security roles and s
     2. From the dropdown list, choose a form to which you want to add the Sequence (up next) widget. Sales managers use the record types to configure the sequence that will be assigned to records to be displayed in the app.  
 
        >[!NOTE]
-       >- To view the custom records types in the list, go to  **Settings** > **Customizations** > **Customize the System** > **Components** > **Entities**. Under **Communication & Collaboration**, enable the options **Activities**, **Connections**, and **Sending email (If an email field does not exist, one will be created)**.<!--note from editor: Edit okay? This sequence seemed to start at the end and work backward.-->
+       >- To view the custom records types in the list, go to  **Settings** > **Customizations** > **Customize the System** > **Components** > **Entities**. Under **Communication & Collaboration**, enable the options **Activities**, **Connections**, and **Sending email (If an email field does not exist, one will be created)**.
        >- To add the **Up next** widget to your custom entity form, see [Add the Up next widget to an entity form](add-upnext-widget-form.md).  
 
     3. Repeat steps a and b to add more record types.
         
        >[!NOTE]
-       >- You can remove the record types that you no longer need to associate automated activities with.<!--note from editor: Edit okay? I wasn't sure what this was saying.--> Select the **X** icon corresponding to the record type to remove it from the list. However, note that if the records in the deleted record type are associated with a sequence, these records will continue to be associated with the sequence.   
+       >- You can remove the record types that you no longer need to associate automated activities with. Select the **X** icon corresponding to the record type to remove it from the list. However, note that if the records in the deleted record type are associated with a sequence, these records will continue to be associated with the sequence.   
        >- To know how records are populated in the work list, go to [View my records by using the work list](prioritize-sales-pipeline-through-work-list.md#view-my-records-through-work-list).
 
 7.	Select **Update**.
@@ -118,7 +118,7 @@ After the first-run setup of the sales accelerator, you can manage security role
 
 ## Customize the workspace for sellers
 
-As an administrator, you can filter work items in the workspace to short-list the ones that serve your sellers' specific needs.<!--note from editor: Note that "short-list" is the verb, "shortlist" is the noun.-->
+As an administrator, you can filter work items in the workspace to short-list the ones that serve your sellers' specific needs.
 
 For example, if sellers want to filter work items based on currency type for leads, you can add a filter by selecting the record type as **Lead** and the field as **Currency**. Sellers can then use this filter to refine work items and view leads with a specific currency type, such as **US dollar**.
 
@@ -158,7 +158,7 @@ You can manage custom filters by creating, disabling, and deleting the filters:
 
     | Parameter | Description |
     |-----------|-------------|
-    | Record | Select the type of record that you want to use to filter the work list. You can select only the record types that were added during content and layout configuration when you set up the sales accelerator.<!--note from editor: Or this could be, "...You can select only the record types that were added during content and layout configuration when the sales accelerator was set up."--> <br>For more information, go to step 7 in [First-run set up](#first-run-set-up). |
+    | Record | Select the type of record that you want to use to filter the work list. You can select only the record types that were added during content and layout configuration when you set up the sales accelerator. <br>For more information, go to step 7 in [First-run set up](#first-run-set-up). |
     | Field | Select a field based on which sellers can enter a value to filter the work list. The fields displayed in the list are the basic attributes of the selected record type. |
     | Filter name | Enter a name for the filter. By default, the name is selected as *record type.field*. For example, **Lead.Currency**. | 
     | Nest filter under | Select a group to which you want to add the filter. Grouping filters helps sellers to easily identify and apply filters. If you don't select a group, the filter is added to the default **More filters** group. To know how to create groups, go to [Add groups](#add-groups). |

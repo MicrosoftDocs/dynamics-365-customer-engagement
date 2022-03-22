@@ -22,7 +22,7 @@ The personalize sales accelerator settings allows sellers determine what happens
 
 ## What can you configure?
 
-As an administrator or sequence manager, you can configure sequences by using the following options to allow sellers to customize and personalize their experience:<!--note from editor: Suggested.-->
+As an administrator or sequence manager, you can configure sequences by using the following options to allow sellers to customize and personalize their experience:
 
 - [Seller availability](#seller-availability)
 - [Sequence activities](#sequence-activities)
@@ -37,7 +37,7 @@ Follow these steps:
 
 1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** ![change area.](media/change-area-icon.png) > **Sales Insights settings**.    
 
-2. On the site map under **Sales accelerator**, select **Sequence**<!--note from editor: Just checking that this should indeed be singular and not "Sequences"?-->.    
+2. On the site map, under **Sales accelerator**, select **Sequences**.    
 
 3. On the **Sequences** page, select **Settings**.    
 
@@ -51,7 +51,7 @@ Follow these steps:
 
 5. Configure the following options: 
     - Select the **Seller availability settings** toggle.
-    - Under **Select a calendar**<!--note from editor: Edit okay? You don't want to say "From the **Xxx** option". In this case, I assume that this string is the label for the options you describe below, which the image seems to indicate is also "Seller availability settings". I assume the image doesn't show the final UI though?-->, choose a calendar type from which sellers can configure work hours and vacation days so that leads and opportunities can be assigned based on sellers' availability: 
+    - Under **Select a calendar**, choose a calendar type from which sellers can configure work hours and vacation days so that leads and opportunities can be assigned based on sellers' availability: 
         - **CRM calendar** allows sellers to configure work hours and vacation days through the Dynamics 365 calendar in personal settings. By default, this option is selected. More information [Configure your work availability](personalize-sales-accelerator.md#configure-your-work-availability)
         - **Outlook** allows sellers to configure work hours and vacation days through the Outlook calendar. Before you select this option, verify that [server-side synchronization of email, appointments, contacts, and tasks](/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks?context=/dynamics365/context/sales-context) is configured for your organization.
 
@@ -92,8 +92,8 @@ Follow these steps:
     | Action | Description |
     |--------|-------------|
     | When seller sends an email | When you select this checkbox and sellers send an email through the timeline, the sequence step that's related to this activity is automatically marked as complete.|
-    | When seller marks a phone call activity record as complete | When you select this checkbox and sellers<!--note from editor: Edit okay?--> make a phone call through the timeline, the sequence step that's related to this activity is automatically marked as complete. |
-    | When seller marks a phone call sequence step as complete | When sellers complete a phone call activity in the sequence step, you can choose to let sellers<!--note from editor: Edit okay? So far "you" in this table has been the admin.--> enter the status of the activity or enter a default value that has been defined for your organization. |
+    | When seller marks a phone call activity record as complete | When you select this checkbox and sellers make a phone call through the timeline, the sequence step that's related to this activity is automatically marked as complete. |
+    | When seller marks a phone call sequence step as complete | When sellers complete a phone call activity in the sequence step, you can choose to let sellers enter the status of the activity or enter a default value that has been defined for your organization. |
     
     >[!NOTE]
     >Select the **Lock settings so sellers can't modify them** checkbox to prevent sellers from updating the sequence activities configuration.
@@ -120,7 +120,7 @@ Follow these steps:
     >[!div class="mx-imgBorder"]
     >![Select Settings.](media/sa-sequence-settings.png "Select Settings")        
 
-4. On the **Settings** page, select **Sequence reporting**.<!--note from editor: Note that I didn't capitalize anything in the following alt text because it doesn't include the literal command string. Also, I don't think you need to include "preview" because you've put the preview disclaimer at the top of this procedure.-->
+4. On the **Settings** page, select **Sequence reporting**.
 
     >[!div class="mx-imgBorder"]
     >![Enable sales acceleration reporting.](media/sa-enable-sales-acceleration-reporting.png "Enable sales acceleration reporting")        
