@@ -31,7 +31,7 @@ None
 ## Example
 
 ```JavaScript
-window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
+window.addEventListener("lcw:getAgentAvailability", function handlegetAgentAvailabilityEvent(){
                // Closes an existing chat
                Microsoft.Omnichannel.LiveChatWidget.SDK.getAgentAvailability();
 });

@@ -1,1 +1,1 @@
-Ends the conversation .
+Retrieves the agent availability.

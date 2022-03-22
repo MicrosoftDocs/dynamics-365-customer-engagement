@@ -1,23 +1,23 @@
 ---
-title: "lcw:chatRetrieved | MicrosoftDocs"
-description: lcw chatRetrieved event (Omnichannel for Customer Service JavaScript API reference)
+title: "lcw:getAgentAvailability | MicrosoftDocs"
+description: lcw getAgentAvailability event (Omnichannel for Customer Service JavaScript API reference)
 ms.topic: article
 ms.date: 11/10/2021
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
 ---
-# lcw:chatRetrieved event (Omnichannel for Customer Service JavaScript API reference)
+# lcw:getAgentAvailability event (Omnichannel for Customer Service JavaScript API reference)
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-This event is raised when an ongoing chat conversation is retrieved from cache after a page reload or is opened on another tab.
+This event is raised when the [`getAgentAvailability`](../methods/getAgentAvailability.md) method returns a successful response.
 
 ## Example
 
 ```javascript
-window.addEventListener("lcw:chatRetrieved", function handleLivechatRetrievedEvent(){
-    // Handle livechat retrieved event 
+window.addEventListener("lcw:getAgentAvailability", function handlegetAgentAvailabilityEvent(){
+    // Handle getAgentAvailability event 
 });
 ```
 
@@ -34,7 +34,7 @@ window.addEventListener("lcw:chatRetrieved", function handleLivechatRetrievedEve
 [lcw:onMessageReceived](lcw-onMessageReceived.md)  
 [lcw:onMessageSent](lcw-onMessageSent.md)  
 [lcw:threadUpdate](lcw-threadUpdate.md)   
-[Live chat SDK JavaScript API reference](../../omnichannel-reference.md)
+[Live chat SDK reference](../../omnichannel-reference.md)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
