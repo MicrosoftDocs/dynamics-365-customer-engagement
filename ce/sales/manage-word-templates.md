@@ -1,7 +1,7 @@
 ---
 title: "Create and manage Word templates in Dynamics 365 Sales | MicrosoftDocs"
 description: "Create templates in Dynamics 365 Sales so all documents that go out to your customers have a consistent look per your organization’s branding guidelines."
-ms.date: 10/01/2019
+ms.date: 03/23/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -24,9 +24,9 @@ Microsoft Word provides powerful ways to present your Dynamics 365 Sales data in
 
 ## Create a Word template
 
-Once templates are created, users can generate standardized documents automatically populated with Dynamics 365 Sales data with just a click.
+Templates help users to generate standardized documents with Dynamics 365 Sales data.
 
-Depending on the license you have, select one of the following tabs for more information:
+Depending on the license you have, select one of the following tabs to know on how to create word templates for Dynamics 365:
 
 # [Sales Premium and Sales Enterprise](#tab/SE)
 
