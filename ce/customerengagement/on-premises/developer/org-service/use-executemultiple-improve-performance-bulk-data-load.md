@@ -41,11 +41,11 @@ Throttling of concurrent calls – for Dynamics 365 for Customer Engagement it i
   
 ### See also  
  [Read and Write Data and Metadata using the IOrganizationService Web Service](use-organization-service-read-write-data-metadata.md)   
- [Microsoft.Xrm.Sdk Messages](xrm-messages-organization-service.md)   
+ [Microsoft.Xrm.Sdk Messages](/dotnet/api/microsoft.xrm.sdk.messages)   
  <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Execute*>   
  <xref:Microsoft.Xrm.Sdk.OrganizationRequest>   
  <xref:Microsoft.Xrm.Sdk.OrganizationResponse>   
- [Microsoft.Crm.Sdk Messages](organization-service-messages.md)   
+ [Microsoft.Crm.Sdk Messages](/dotnet/api/microsoft.crm.sdk.messages)   
  [Import data](../import-data.md)
  
 
