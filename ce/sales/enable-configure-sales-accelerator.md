@@ -1,6 +1,6 @@
 ---
-title: "Enable and configure the sales accelerator"
-description: "Enable and configure the sales accelerator to create sequences and connect records, and view daily work list items."
+title: "Configure the sales accelerator"
+description: "Configure the sales accelerator to create sequences and connect records, and view daily work list items."
 ms.date: 03/17/2022
 ms.topic: article
 author: udaykirang
