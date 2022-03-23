@@ -24,7 +24,6 @@ Make sure that your administrator has configured a Teams channel.
 
 You'll receive a notification when a customer requests a conversation through Teams. When you accept the Teams chat request, a session is started, and you'll see the communication panel in which you can exchange messages with the customer.
 
-If your administrator has enabled the option to initiate voice and video calls during a conversation, the options to use voice and video will be available on the communication panel.
 
 > [!div class=mx-imgBorder]
 > ![Teams chat agent notification.](media/incoming-chat-teams.png "Teams chat agent notification")
@@ -51,6 +50,8 @@ In Omnichannel for Customer Service, you can:
 - [View conversation and session forms](oc-view-activity-types.md).
 - [View the customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md).
 - [Search for transcripts](oc-search-transcipts.md).
+
+If your administrator has enabled the option to initiate voice and video calls during the conversation, the options to use voice and video will be available on the communication panel menu.
 
 ### See also
 
