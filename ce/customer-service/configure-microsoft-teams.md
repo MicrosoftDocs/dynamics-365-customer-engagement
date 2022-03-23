@@ -61,12 +61,12 @@ Make sure that the following prerequisites are met:
     1. On the **Language** page, select the language.
     
     1. On the **Behaviors** page, configure the following options:
-      - [Custom automated messages](configure-automated-message.md)
-      - [Post-conversation survey](configure-post-conversation-survey.md)
+       - [Custom automated messages](configure-automated-message.md)
+       - [Post-conversation survey](configure-post-conversation-survey.md)
     
     1. On the **User features** page, set the toggle for **File attachments** to **On** and select the following checkboxes if you want to allow agents and customers to send and receive file attachments. More information: [Enable file attachments](enable-file-attachments.md).
-      - Customers can send file attachments
-      - Agents can send file attachments
+       - Customers can send file attachments
+       - Agents can send file attachments
     
     1. Turn on the toggle for **Voice and video calls**, and select an option in the **Calling options** dropdown list. At runtime, when agents are in conversation with customers and need to use audio or video to resolve issues, the call and video options are available to them.
     
