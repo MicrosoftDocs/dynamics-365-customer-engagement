@@ -1,7 +1,7 @@
 ---
 title: "Notifications for agents working in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about notifications and their types. Agents will see notifications and screen pops in Omnichannel for Customer Service."
-ms.date: 11/30/2021
+ms.date: 03/23/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -16,7 +16,7 @@ A notification is a visual alert that appears each time you get a chat or an SMS
 
 Here are some scenarios where you might receive notifications:
 
-- Case assignment if record routing is configured using unified routing
+- Case assignment if record routing is configured using workstreams for unified routing
 
 - Incoming chat conversation
 
