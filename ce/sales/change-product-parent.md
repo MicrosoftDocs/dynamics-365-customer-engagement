@@ -39,7 +39,7 @@ When you change the parent of a product, inherited properties from the previous 
 
     :::image type="content" source="media/parent-product.png" alt-text="Screenshot of a product page with the Parent field highlighted.":::
     
-2. To delete the parent, just remove the parent record from the **Parent** field.
+2. To remove the parent from the record, just remove the parent record from the **Parent** field.
 
 **Things to consider when reparenting a record:**
 
