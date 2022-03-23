@@ -1,15 +1,14 @@
 ---  
-title: "Sales Premium Trial FAQ | Microsoft Docs"
-description: "Solutions to common questions related to Dynamics 365 Sales Premium trial sign up and management. Learn how to resolve platform and app-specific issues."
+title: "Sales Trial FAQ | Microsoft Docs"
+description: "Solutions to common questions related to Dynamics 365 Sales trial sign up and management. Learn how to resolve platform and app-specific issues."
 author: lavanyakr01
 ms.author: lavanyakr
-ms.date: 02/08/2022
+ms.date: 03/23/2022
 ms.topic: get-started
-
 ms.custom: template-trial-faq
 ms.reviewer: shujoshi
 ---
-# Dynamics 365 Sales Premium trial FAQ 
+# Dynamics 365 Sales trial FAQ 
 
 The Sales trial offers a straightforward experience for sign-up, login, and usage. However, if you're stuck or have questions about the trial, check out this page for answers.
 
@@ -31,7 +30,7 @@ The following limitations apply for the trial:
 - The trial will expire if there’s no activity on the app for 14 consecutive days. Expired trials cannot be reactivated. However, you can start a new trial.  
 - You can have only one active trial per app at a time. You can sign up again after your current trial for the app ends.
 
-## Dynamics 365 Sales Premium-specific questions
+## Dynamics 365 Sales-specific questions
 
 ### How do I start using the trial?
 
