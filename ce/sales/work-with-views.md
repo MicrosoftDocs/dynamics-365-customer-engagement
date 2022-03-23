@@ -45,7 +45,7 @@ A typical view page contains these components:
 
 - **View selector:** When you select a view such as Accounts, My Activities, or Contacts, records in the grid change based on the view you’ve selected.
 
-    More information: [Create and edit views](../customerengagement/on-premises/customize/create-edit-views.md).
+    More information: [Create and edit public or system views](/powerapps/maker/model-driven-apps/create-or-edit-model-driven-app-view).
 
     > [!NOTE]
     > To configure a view as the default, select the pin icon next to the view.

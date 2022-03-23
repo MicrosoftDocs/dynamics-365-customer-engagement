@@ -1,7 +1,7 @@
 ---
 title: "Scan business cards (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use the business card scanner in Dynamics 365 Sales to quickly scan business cards of the prospective customers you've met with."
-ms.date: 10/25/2021
+ms.date: 03/15/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -28,9 +28,9 @@ The integrated business card scanner in Dynamics 365 Sales helps salespeople to 
 ## License and role requirements
 | &nbsp; | &nbsp; |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | All primary sales roles such as salesperson, sales manager, and so on.<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional license with the AI Builder add-on <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Microsoft Dataverse User |
+|||
 
 
 ## Scan a business card

@@ -312,8 +312,6 @@
       items:
       - name: Configure sales accelerator
         href: enable-configure-sales-accelerator.md
-      - name: Configure assignment rules in Sales Enterprise
-        href: sales-accelerator-assignment-rules.md  
       - name: Add the Up next widget to an entity form
         href: add-upnext-widget-form.md  
       - name: Add the sales accelerator site map entry to custom app          
@@ -415,6 +413,8 @@
       href: configure-who-knows-whom.md
     - name: Add relationship intelligence widgets to custom forms
       href: add-ri-widgets-to-custom-form.md
+    - name: Provide consent to collect Office data
+      href: provide-consent-office365.md
   - name: Conversation intelligence
     items:
     - name: Prerequisites to use Conversation Intelligence

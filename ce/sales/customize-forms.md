@@ -75,7 +75,7 @@ Depending on the license you have, select one of the following tabs for more inf
 
 4.  To open a form, select the form from the **Name** column. Alternately, you can select a form, and then select **Edit** above the **Quick find** field.
 
-For more information on creating forms, see [Create and design forms](../customerengagement/on-premises/customize/create-design-forms.md).
+For more information on creating forms, see [Create and design model-driven app forms](/powerapps/maker/model-driven-apps/create-design-forms).
 
 To set a form as the default form in the app, see [Why isn't my form displayed as the default form in the app?](/powerapps/maker/model-driven-apps/create-design-forms#form-display-faq)
 

@@ -1,7 +1,7 @@
 ---
 title: "View a forecast (Dynamics 365 Sales) | MicrosoftDocs"
 description: "See a forecast in Dynamics 365 Sales to know the health of your pipeline or to track how your sales team is doing against their quota or target."
-ms.date: 02/10/2022
+ms.date: 03/15/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -104,7 +104,7 @@ For example, you have sales teams in the US and Europe. The base currency for yo
 > ![Select currency drop-down.](media/forecast-multi-currency-select.png "Select currency drop-down")
 
 >[!NOTE]
->Administrator or forecast manager must enable the option to select currency. More information: [Enable multi-currency selection](forecast-configure-advanced-settings.md#enable-multi-currency-selection)
+>Administrator or forecast manager must enable the option to select currency. More information: [Turn on multi-currency selection](forecast-configure-advanced-settings.md#turn-on-multi-currency-selection).
 
 ## Tasks you can do on the forecast grid
 

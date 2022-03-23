@@ -49,7 +49,7 @@ Sales Hub is a Microsoft first-party app that's designed and configured for idea
 -   You need not create custom documentation because the Microsoft documentation is based on the Sales Hub app.
 
 > [!NOTE]
-> The Sales Hub app can coexist with any custom sales apps that you might have in your organization.
+> The Sales Hub app can coexist with any custom sales apps that you might have in your organization. To learn the benefits of using the Sales Hub app versus a custom app, see [Guidance on Sales Hub and custom model driven apps](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/guidance-on-sales-hub-and-custom-model-driven-apps).
 
 ## Grant or revoke access to the Sales Hub app
 
