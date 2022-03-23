@@ -27,7 +27,7 @@ Each event handler specifies a function within a JavaScript library and the para
 | [onSendKBArticle](events/onSendKBArticle.md) | Invoked when the user selects the **Send** button in the Knowledge Base control. |
 | [onSizeChanged](events/onSizeChanged.md) | Invoked when the side panel width is changed. |
 | [onSessionSwitched](/dynamics365/customer-service/channel-integration-framework/referen/v2/reference/events/onSessionSwitched) | Invoked when the session is switched. |
-| [onSessionClosed](/dynamics365/customer-service/channel-integration-framework/referen/v2/reference/events/onSessionClosed) | Invoked when the session is closed. |
+| [onSessionClosed](/dynamics365/customer-service/channel-integration-framework/v2/reference/events/onsessionclosed) | Invoked when the session is closed. |
 | [CIFInitDone](events/cifinitdone.md) | Invoked when the Channel Integration framework is loaded to determine if Channel Integration Framework APIs are ready to be consumed. |
 
 
