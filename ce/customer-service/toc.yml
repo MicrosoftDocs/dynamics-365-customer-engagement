@@ -376,7 +376,7 @@
         items:
         - name: Recalculate SLAs in terminal status
           href: enable-sla-recalculation.md
-        - name: Enable custom calculation of SLA KPIs
+        - name: Enable custom time calculation of SLA KPIs
           href: enable-sla-custom-time-calculation.md
         - name: Enable custom recalculation of SLA KPIs
           href: enable-sla-force-recalculation.md  

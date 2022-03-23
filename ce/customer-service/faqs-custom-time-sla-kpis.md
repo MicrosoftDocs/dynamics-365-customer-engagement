@@ -14,16 +14,16 @@ manager: shujoshi
 
 This topic contains the frequently asked questions (FAQs) that you as an administrator might have about the custom time calculation of service-level agreements (SLAs) key performance indicators (KPIs).
 
-## When will be the custom action or plug-in be initiated?
+## When does the custom action or plug-in get initiated?
 
-The custom action or plug-in will be initiated during the creation of a new SLA KPI instance, which also includes a SLA KPI, that has been resumed from a pause status.
+The custom action or plug-in gets initiated during the creation of a new SLA KPI instance, which also includes a SLA KPI, that has been resumed from a pause status.
 
-## How is the pause resume scenario different from a SLA KPI instance creation?
+## How is the pause resume scenario different from a SLA KPI creation scenario?
 
 Pause and resume scenario includes the following two steps:
 
-1. The Custom Action is initiated with requestType as `getElapsedTime`. This calculates the time elapsed between the paused and resumed state of the SLA KPI.
-2. The Custom Action is initiated with requestType as `getEndTime`. This calculates the new `WarningTime` by adding the above `elapsedTime` to the current `warningTime`. A similar calculation is also done for `FailureTime`.
+1. The custom action is initiated with requestType as `getElapsedTime`. This calculates the time elapsed between the paused and resumed state of the SLA KPI.
+2. The custom action is initiated with requestType as `getEndTime`. This calculates the new `WarningTime` by adding the above `elapsedTime` to the current `warningTime`. A similar calculation is also done for `FailureTime`.
 
 ## How can I override the `StartTime` for a SLA KPI instance without creating and updating the custom DateTime field?
 
@@ -41,9 +41,9 @@ You can override the startTime of a SLA KPI instance based on the custom logic, 
         ... rest code is same as previous examples
 ```
 
-## How can I override the warning or failure duration for a KPI instance instead of the values defined in the SLA Item?
+## How can I override the defined warning or failure duration of a SLA KPI instance?
 
-You can override the Warning or Failure of a SLA KPI instance based on the custom logic, whereby you must change the following parameter. Note that the value provided must be in minutes.
+You can override the warning or failure of a SLA KPI instance based on the custom logic, whereby you must change the following parameter. Note that the value provided must be in minutes.
 
 ```
 // when the case priority is modified and a new KPI instance is being created, the KPI instance must have failure time as 1 hour.

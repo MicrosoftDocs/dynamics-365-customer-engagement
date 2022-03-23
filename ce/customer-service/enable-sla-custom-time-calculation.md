@@ -34,13 +34,14 @@ To change the default time calculation and enable your own custom time calculati
 
 1. Go to **Settings** > **Customization** > **Customize the system** > **Processes** > **New**.
 1. On the **Create Process** dialog, enter the following:
-    1. Enter a process name.
+    1. Enter a process name, for example, CustomPluginTime Calculation.
     1. From the **Category** dropdown list, select **Action** .
     1. From the **Entity** dropdown list, select **None (global)**. 
     1. Select the **New process from an existing template (select from the list)** option.
+    1. Select the **SLACustomTimeCalculationTemplate** template from the list.
     1. Select **OK**.
 
-    :::image type="content" source="media/cutom-time-cal-template.png" alt-text="Custom time calculation template":::
+    :::image type="content" source="media/custom-time-cal-template.png" alt-text="Custom time calculation template":::
 1. On the template, add the required parameters.
 
     :::image type="content" source="media/add-sla-process-arguments.png" alt-text="Enable the process arguments for any SLA item":::
@@ -55,7 +56,7 @@ If you need to export the solution to another environment, you can first add the
 
 ### Scenarios and plug-ins
 
-Refer to the following scenarios and their plug-ins to implement a plug-in code associated with your Custom Action:
+Refer to the following scenarios and their plug-ins to implement a plug-in code associated with your custom action:
 
 Scenario 1:
 
