@@ -1,7 +1,7 @@
 ---
 title: "Change the parent of a product (reparenting) (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Create a product hierarchy by associating products and product families in a parent-child relationship in Dynamics 365 Sales."
-ms.date: 10/26/2021
+ms.date: 03/23/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -32,7 +32,14 @@ Create a product hierarchy by associating products and product families in a par
 
 To organize your company's product catalog better, you may want to change the parent of an existing product record so the child products inherit the appropriate product properties. You can change the parent of an existing product, bundle, or family to a new parent or delete an existing parent.
 
-To change the parent of a product, bundle, or family, open the respective record, and in the **Parent** field, select the new parent record. To delete the parent, just remove the parent record from the **Parent** field.
+**To change the parent of a product, bundle, or family:**
+
+1. Open the record that you want to parent.
+1. In the **Parent** field, select the new parent record. 
+
+    :::image type="content" source="media/parent-product.png" alt-text="Screenshot of a product page with the Parent field highlighted.":::
+    
+    To delete the parent, just remove the parent record from the **Parent** field.
 
 Things to consider when changing reparenting:
 
