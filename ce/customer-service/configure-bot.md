@@ -1,6 +1,6 @@
 ---
 title: "Integrate an Azure bot | MicrosoftDocs"
-description: "Use this topic to understand how to integrate an Azure bot with Omnichannel for Customer Service."
+description: "Use this article to understand how to integrate an Azure bot with Omnichannel for Customer Service."
 ms.date: 03/10/2022
 author: neeranelli
 ms.author: nenellim

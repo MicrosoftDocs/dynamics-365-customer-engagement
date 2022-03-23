@@ -282,7 +282,7 @@
           href: users-user-profiles.md
         - name: Manage capacity profiles
           href: capacity-profiles.md
-        - name: Roles and personas
+        - name: Manage personas and custom security roles
           href: role-persona-mapping.md
         - name: Personas and privileges
           href: persona-privilege-mapping.md
@@ -382,10 +382,12 @@
         href: ../admin/system-settings-dialog-box-service-tab.md
       - name: Manage service schedules
         items: 
-        - name: Create customer service schedule
+        - name: Create customer service schedules
           href: create-customer-service-schedule-define-work-hours.md
-        - name: Create and manage holiday schedule
+        - name: Create and manage holiday schedules
           href: set-up-holiday-schedule.md
+        - name: Manage changes to customer service and holiday schedules
+          href: change-schedules.md
       - name: Add timer control for SLA-enabled entities
         href: add-timer-control-case-form-track-time-against-sla.md
       - name: Add a timer in forms to track time against enhanced SLAs
@@ -419,7 +421,7 @@
   - name: Timeline
     items: 
     - name: Configure timeline
-      href: customer-service-hub-user-guide-timeline-admin.md
+      href: /powerapps/maker/model-driven-apps/set-up-timeline-control?context=/dynamics365/context/customer-service-context
     - name: Use timeline
       href: /powerapps/user/add-activities
     - name: FAQs about Activities and the Timeline Wall
@@ -492,24 +494,6 @@
         href: teams-use-suggested-contacts.md
       - name: Collaborate with AI-suggested contacts in Microsoft Teams
         href: use-ai-suggested-contacts-teams.md
-  - name: Routing in Omnichannel Administration
-    items:
-    - name: Routing and assignment in Omnichannel Administration
-      href: routing-work-distribution-oca.md
-    - name: Create and manage workstreams in Omnichannel Administration
-      href: create-workstreams-oca.md
-    - name: Create queues in Omnichannel Administration
-      href: Create-queues-oca.md
-    - name: Set up routing and assignment rules in Omnichannel Administration
-      href: routing-rules.md  
-    - name: Set up record routing in Omnichannel Administration
-      href: set-up-entity-workstream.md
-    - name: Create multiple workstreams for records in Omnichannel Administration
-      href: multiple-ws-entity-record-routing.md  
-    - name: Route records in Omnichannel Administration app
-      href: entity-channel.md
-    - name: Set up skill-based routing in Omnichannel Administration
-      href: attach-skills.md
   - name: Voice
     items:
     - name: Administrator experience
@@ -572,6 +556,8 @@
         href: voice-channel-call-customer.md
       - name: Use call controls and the agent desktop for voice
         href: voice-channel-agent-experience.md
+      - name: View call recordings and transcripts
+        href: voice-channel-call-recordings-transcripts.md
     - name: Supervisor experience
       items:
       - name: Monitor voice calls
@@ -920,7 +906,7 @@
           href: oc-conversation-topics-dashboard.md
         - name: Historical analytics for unified routing in Omnichannel for Customer Service
           href: oc-historical-analytics-unified-routing.md  
-      - name: Knowledge search analytics dashboard
+      - name: Knowledge management analytics
         href: knowledge-search-analytics-cs.md
       - name: View analytics dashboards created in Power BI
         href: customer-service-analytics.md
@@ -1090,6 +1076,24 @@
     items: 
     - name: Deprecations in Customer Service
       href: deprecations-customer-service.md
+  - name: Routing in Omnichannel Administration (Deprecated)
+    items:
+    - name: Routing and assignment in Omnichannel Administration
+      href: routing-work-distribution-oca.md
+    - name: Create and manage workstreams in Omnichannel Administration
+      href: create-workstreams-oca.md
+    - name: Create queues in Omnichannel Administration
+      href: Create-queues-oca.md
+    - name: Set up routing and assignment rules in Omnichannel Administration
+      href: routing-rules.md  
+    - name: Set up record routing in Omnichannel Administration
+      href: set-up-entity-workstream.md
+    - name: Create multiple workstreams for records in Omnichannel Administration
+      href: multiple-ws-entity-record-routing.md  
+    - name: Route records in Omnichannel Administration app
+      href: entity-channel.md
+    - name: Set up skill-based routing in Omnichannel Administration
+      href: attach-skills.md
   - name: Extend Customer Service
     items: 
     - name: Overview
