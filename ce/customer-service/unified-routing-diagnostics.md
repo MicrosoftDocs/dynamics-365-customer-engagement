@@ -54,7 +54,7 @@ To see data related to work items and their status, you need to enable routing d
    You'll see that a list of new work items start to appear. However, the work items may not appear on your screen immediately.
 
 > [!NOTE]
-> After you enable diagnostics, the data will be stored in Microsoft Dataverse. This might affect the storage capacity, especially the data for routed records can consume more space than for the other types of work items. You can select **Turn off diagnostics** to disable diagnostics.
+> After you enable diagnostics, the data will be stored in Microsoft Dataverse. The diagnostics data can affect the storage capacity. The data for routed records might consume more space in comparison to other types of work items. You can select **Turn off diagnostics** to disable diagnostics.
 
 ## Understand routing stages and diagnostics
 
