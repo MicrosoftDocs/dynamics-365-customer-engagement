@@ -73,10 +73,10 @@ To get started with the Sales Enterprise functionalities, see [Learn the basics 
 - Prioritize leads and opportunities using predictive scoring
 - Analyze revenue outcome by using predictive forecasting
 
-To get started with the Sales Insights functionalities, see [Sales Insights Add-in for Dynamics 365 Sales Help & Training](/ai/sales/help-hub). To enable Sales Insights, see [Enable and configure standard Sales Insights features](/ai/sales/intro-admin-guide-sales-insights#enable-and-configure-standard-sales-insights-features).
+To get started with the Sales Insights functionalities, see [Sales Insights Add-in for Dynamics 365 Sales Help & Training](/dynamics365/sales/help-hub). To enable Sales Insights, see [Enable and configure standard Sales Insights features](/dynamics365/sales/intro-admin-guide-sales-insights).
 
 > [!NOTE]
-> Sales Insights functionalities are restricted to specific regions. For information on supported regions, see [In which region is Sales Insights available?](/ai/sales/faqs-sales-insights#general). If you are not in a supported region, you can only  access the Sales Enterprise functionalities.  
+> Sales Insights functionalities are restricted to specific regions. For information on supported regions, see [In which region is Sales Insights available?](/dynamics365/sales/faqs-sales-insights). If you are not in a supported region, you can only  access the Sales Enterprise functionalities.  
 
 **Dynamics 365 Power Platform**
 - Administer and customize your Dynamics 365 Sales environment to fit your needs  
