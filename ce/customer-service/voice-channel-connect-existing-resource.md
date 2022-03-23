@@ -106,10 +106,11 @@ The following sections include short procedures that explain how you can get the
 
 **To get the application and tenant IDs from the Azure portal**
 
-1. Open the **App registrations** page on the Azure portal in a separate window or tab.
-
-    If you're registering your app on the Azure portal for the first time, then do the following:
-    1. On the **Register an application** page, enter the following details:
+1. Open the Azure portal in a separate window or tab, and select **App registrations** under **Azure services**.
+   Select the registered app from the **All applications** list.
+   
+   If you're registering your app for the first time, then do the following:
+    1. On the **App registrations** page, select **New registration**. Then, enter the following details on the **Register an application** page: 
         - **Name**: Enter a name for your application.
         - **Supported account types**: Select **Accounts in any organizational directory (Any Azure AD directory - Multitenant)**.
     2. Select **Register**.
@@ -128,7 +129,7 @@ The following sections include short procedures that explain how you can get the
 
 **To create, deploy, and register event grid system topics**
 
-1. Open the Azure portal in a separate window or tab, and open the **Event Grid System Topics** service. 
+1. Open the Azure portal in a separate window or tab, and select **Event Grid System Topics** under **All services**.
 2. Select **Create** and in the **Create Event Grid System Topic** page, enter the following details.
     - **Topic Types**: Select **Azure Communication Services** from the dropdown list.
     - **Subscription**: Select the subscription from the dropdown list.
