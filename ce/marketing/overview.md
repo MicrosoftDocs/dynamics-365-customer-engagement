@@ -1,8 +1,7 @@
 ---
 title: "Overview (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Get a quick overview of the major capabilities, features, and benefits of Dynamics 365 Marketing."
-ms.date: 11/04/2021
-
+ms.date: 03/21/2022
 ms.custom: 
   - dyn365-marketing
   - intro-internal
@@ -32,7 +31,7 @@ Dynamics 365 Marketing consists of two primary modules, along with event managem
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an real-time marketing event-based journey.](media/overview-live-journey.png "Screenshot of an real-time marketing event-based journey")
 
-Also known as customer journey orchestration, real-time marketing includes [event-based customer journeys](real-time-marketing-event-based-journey.md), [custom triggers](real-time-marketing-custom-events.md), and [SMS](real-time-marketing-outbound-text-messaging.md) and [push notifications](real-time-marketing-push-notifications.md). It allows you to trigger customer journeys in real time based on the signals and rich profile data you collect from your customers, pick the right channel for each individual, and connect in the moments that matter.
+Also known as customer journey orchestration, real-time marketing includes [event-based customer journeys](real-time-marketing-event-based-journey.md), [custom triggers](real-time-marketing-custom-triggers.md), and [SMS](real-time-marketing-outbound-text-messaging.md) and [push notifications](real-time-marketing-push-notifications.md). It allows you to trigger customer journeys in real time based on the signals and rich profile data you collect from your customers, pick the right channel for each individual, and connect in the moments that matter.
 
 - **Respond to customer actions in real time**: Respond in the moments that matter with real-time, event-based journeys.
 - **Hyper-personalize your messaging**: Personalize messages with dynamic text and images from a flexible set of data sources.
