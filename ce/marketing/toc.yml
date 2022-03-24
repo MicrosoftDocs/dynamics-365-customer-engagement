@@ -211,11 +211,11 @@
         - name: Create an event-based journey
           href: real-time-marketing-event-based-journey.md
         - name: Real-time marketing triggers
-          href: real-time-marketing-event-triggers.md
-        - name: "Preview: Trigger custom event actions"
-          href: real-time-marketing-custom-event-actions.md
+          href: real-time-marketing-triggers.md
+        - name: "Preview: Trigger an action outside of a journey"
+          href: real-time-marketing-custom-actions.md
         - name: Create custom triggers
-          href: real-time-marketing-custom-events.md
+          href: real-time-marketing-custom-triggers.md
       - name: Segment-based journeys
         items:
         - name: Work with segments in real-time marketing
