@@ -17,7 +17,7 @@ Here are the error codes and error messages that are returned when using live ch
 
 |Error Code|Error message|
 |-----     |-----         |
-|1|Custom context provider method execution failed. <br> :::code language="html" source="msdyn_capacityprofile.html"::: |
+|1|Custom context provider method execution failed. <br> \:::code language="html" source="msdyn_capacityprofile.html"\::: |
 |2|Auth token provider method execution failed|
 |3|Auth token provider didn't provide any token|
 |4|Auth token provider provided invalid token|
