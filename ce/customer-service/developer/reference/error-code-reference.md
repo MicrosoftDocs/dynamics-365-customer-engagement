@@ -21,7 +21,7 @@ Here are the error codes and error messages that are returned when using live ch
 |-----     |-----         |
 |1|Custom context provider method execution failed. <br> :::code language="html" source="msdyn_capacityprofile.html"::: |
 |2|Auth token provider method execution failed <br> More information: [FetchXML to filter records](#fetchxml) |
-|3|Auth token provider didn't provide any token <br> [!include[token_msdyn_capacityprofile](../../../includes/token_msdyn_capacityprofile.md)|
+|3|Auth token provider didn't provide any token <br> [!include[token_msdyn_capacityprofile](../../../includes/token_msdyn_capacityprofile.md)]|
 | | |
 
 ## FetchXML
