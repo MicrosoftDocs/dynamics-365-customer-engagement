@@ -61,11 +61,11 @@ You can add messages or questions to a Power Virtual Agents IVR bot to create a 
 #### Survey bot
 
 > [!div class="mx-imgBorder"]
-> ![Explicit survey in Power Virtual Agents.](./media/voice-survey-bot.png)
+> ![Greetings in PVA.](./media/voice-survey-bot.png)
 
 
 > [!div class="mx-imgBorder"]
-> ![Configure survey in Power Virtual Agents.](./media/voice-survey-bot2.png)
+> ![Configure greeting in Power Virtual Agents.](./media/voice-survey-bot2.png)
 
 
 > [!TIP]
