@@ -31,20 +31,18 @@ You can obtain customer consent for post-call surveys as follows:
 > [!NOTE]
 > We recommend that you have two bots if your organization wants to use Power Virtual Agents for both IVR and survey scenarios.
 
-## Step 1: Create a survey bot
+## Create a survey bot in Power Virtual Agents
 
 Use either Power Virtual Agents (no-code or low-code experience) or Azure bot Service (pro-developer experience).
 
-### Using Power Virtual Agents
+You can add messages or questions in the **Escalation** topic to obtain a customer consent for a post-call survey. Examples of the messages are as follows:
 
-You can add messages or questions in the **Escalation** topic to obtain a customer's consent for a post-call survey. Examples of the messages are as follows:
-
-#### Implicit survey
+### Implicit survey
 
 > [!div class="mx-imgBorder"]
 > ![Implicit survey in Power Virtual Agents.](./media/voice-survey-pva-implicit.png)
 
-#### Explicit survey
+### Explicit survey
 
 > [!div class="mx-imgBorder"]
 > ![Explicit survey in Power Virtual Agents.](./media/voice-survey-pva-explicit1.png)
@@ -53,12 +51,12 @@ You can add messages or questions in the **Escalation** topic to obtain a custom
 > [!div class="mx-imgBorder"]
 > ![Configure explicit survey in Power Virtual Agents.](./media/voice-survey-pva-explicit2.png)
 
-You can add messages or questions to a Power Virtual Agents IVR bot to create a post call survey. A bot greets the customer when the call routed to the survey queue is answered. Examples of messages or questions configured in the **Greetings** topic for the bot to greet the customer are as follows:
+You can add messages or questions to a Power Virtual Agents IVR bot to create a post-call survey. A bot greets the customer when the call routed to the survey queue is answered. Examples of messages or questions configured in the **Greetings** topic for the bot to greet the customer are as follows:
 
 > [!NOTE]
 > We recommend that you have two bots if your organization wants to use Power Virtual Agents for both IVR and survey scenarios.
 
-#### Survey bot
+### Survey bot
 
 > [!div class="mx-imgBorder"]
 > ![Greetings in PVA.](./media/configure-survey-bot.png)
@@ -69,15 +67,14 @@ You can add messages or questions to a Power Virtual Agents IVR bot to create a 
 
 
 > [!TIP]
-> The bot author can use Power Automate to implement custom business logic to decide who receives a survey (for example, the bot may decide to survey someone random, VIP customers, and so forth).
+> The bot author can use Power Automate to implement custom business logic to decide who receives a survey (for example, the bot may decide to survey someone random, VIP customers, and so forth)
 
-
-## Step 2: Connect your bot to Omnichannel for Customer Service
+## Connect your bot to Omnichannel for Customer Service
 
 - Configure your Power Virtual Agents bot. Perform the steps in [Configure handoff to Omnichannel for Customer Service](/power-virtual-agents/configuration-hand-off-omnichannel#configure-hand-off-in-the-power-virtual-agents-app) and [Integrate a Power Virtual Agents bot](configure-bot-virtual-agent.md).
 - Configure your Azure bot. More information: [Integrate an Azure bot](configure-bot.md)
 
-## Step 3: Enable post-call survey in phone number settings of the workstream or set up human agent initiated survey
+## Enable post-call survey in phone number settings of the workstream or set up human agent initiated survey
 
 > [!Note]
 > Enabling the post-call survey feature isn't required for the agent-initiated scenario.
@@ -107,7 +104,7 @@ You can enable agent initiated feedback as follows:
    > [!div class="mx-imgBorder"]
    > ![Configure agent initiated survey in Power Virtual Agents.](./media/voice-survey-pva-agent-initiated-greeting.png)
 
-## Step 4: View Survey Results
+## View Survey Results
 
 You can view the survey results on the **Analytics > Sessions** tab.
 
