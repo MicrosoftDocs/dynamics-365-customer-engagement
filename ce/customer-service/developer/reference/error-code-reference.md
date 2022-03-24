@@ -11,19 +11,16 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
+## Introduction
+
 Here are the error codes and error messages that are returned when using live chat JavaScript API methods.
 
 :::code language="html" source="msdyn_capacityprofile.html":::
 
-:::code language="html" source="msdyn_capacityprofile.html" interactive="try-dotnet-class":::
-
-:::code language="html" source="msdyn_capacityprofile.html" interactive="try-dotnet-method":::
-
-
 |Error Code|Error message|
 |-----     |-----         |
 |1|Custom context provider method execution failed. <br> :::code language="html" source="msdyn_capacityprofile.html" interactive="try-dotnet-class"::: |
-|2|Auth token provider method execution failed <br> :::code language="html" source="msdyn_capacityprofile.html" interactive="try-dotnet-method"::: |
+|2|Auth token provider method execution failed <br> More information: [FetchXML to filter records](#FetchXML) |
 |3|Auth token provider didn't provide any token|
 |4|Auth token provider provided invalid token|
 |7|Live chat widget scripts failed to load|
@@ -43,6 +40,10 @@ Given below is a sample `errorEvent` object that is raised when the context prov
     }
 }
 ```
+
+## FetchXML
+
+:::code language="html" source="msdyn_capacityprofile.html":::
 
 ### See also
 
