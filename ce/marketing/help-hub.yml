@@ -7,7 +7,7 @@ summary: Welcome to the Dynamics 365 Marketing documentation. This documentation
 metadata:
   title: "Help resources for Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
   description: "A starting point for browsing help content for Dynamics 365 Marketing."
-  ms.date: 03/23/2022
+  ms.date: 03/24/2022
   ms.custom: 
     - dyn365-marketing
   ms.topic: hub-page
@@ -43,22 +43,14 @@ landingContent:
           url: trial-signup.md
         - text: Purchase and set up Marketing
           url: purchase-setup.md
-        - text: Get started with the Marketing app
-          url: get-started.md
         - text: Find your way around 
           url: navigation.md
-        - text: Accessibility and keyboard shortcuts
-          url: designer-shortcuts.md
         - text: Use Customer Insights profiles and segments in real-time marketing
           url: real-time-marketing-ci-profile.md
-        - text: Organize your work
-          url: organize-daily-work.md
         - text: Manage customer information
           url: manage-customer-information.md
         - text: Import data
           url: import-data.md
-        - text: Export data
-          url: export-data-word-excel.md
         - text: Best practices for email marketing
           url: get-ready-email-marketing.md
 
