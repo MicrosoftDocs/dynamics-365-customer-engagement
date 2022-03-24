@@ -48,104 +48,182 @@ Use the information in the following table to know about the availability of the
 
 See the information in the following table to know about the supported languages and locale codes.
 
-| Language |Locale code |
-| ---- | ---- |
-| Arabic - Saudi Arabia	| ar-SA  |
-| Basque  | eu-ES  |
-| Bulgarian - Bulgaria | 	bg-BG  |
-| Catalan 	| ca-ES  |
-| Chinese - China	| zh-CN  |
-| Chinese - Hong Kong SAR | 	zh-HK  |
-| Chinese - Taiwan	| zh-TW  |
-| Croatian - Croatia | 	hr-HR  |
-| Czech - Czech Republic	| cs-CZ  |
-| Danish - Denmark | da-DK  |
-| Dutch - Netherlands | 	nl-NL  |
-| English - United States | 	en-US  |
-| Estonian - Estonia	| et-EE  |
-| Finnish - Finland	| fi-FI  |
-| French - France	| fr-FR  |
-| Galician 	| gl-ES  |
-| German - Germany	| de-DE  |
-| Greek - Greece	| el-GR  |
-| Hebrew - Israel	| he-IL  |
-| Hindi - India	| hi-IN  |
-| Hungarian - Hungary	| hu-HU  |
-| Indonesian - Indonesia	| id-ID  |
-| Italian - Italy	| it-IT  |
-| Japanese - Japan	| ja-JP  |
-| Kazakh - Kazakhstan	| kk-KZ  |
-| Korean - Korea	| ko-KR  |
-| Latvian - Latvia	| lv-LV  |
-| Lithuanian - Lithuania	| lt-LT  |
-| Malay - Malaysia	| ms-MY  |
-| Norwegian Bokmal - Norway	| nb-NO  |
-| Polish - Poland	| pl-PL  |
-| Portuguese - Brazil	| pt-BR  |
-| Portuguese - Portugal	| pt-PT  |
-| Romanian - Romania	| ro-RO  |
-| Russian - Russia	| ru-RU  |
-| Serbian (Cyrillic) - Serbia	| sr-Cyrl-CS  |
-| Serbian (Latin) - Serbia	| sr-Latn-CS  |
-| Slovak - Slovakia	| sk-SK  |
-| Slovenian - Slovenia	| sl-SI  |
-| Spanish - Spain	| es-ES  |
-| Swedish - Sweden	| sv-SE  |
-| Thai - Thailand	| th-TH  |
-| Turkish - Turkey	| tr-TR  |
-| Ukrainian - Ukraine	| uk-UA  |
-| Vietnamese - Vietnam	| vi-VN |
+We use the Azure Cognitive Services Speech service Speech-to-Text for transcription, so we'll support all the languages that Speech-to-Text supports today. We also support a bring-your-own bot through Azure Bot Service for Interactive Voice Response (IVR) that will be constrained by the languages that Speech-to-Text supports. For end to end voice support, including IVR, a language must be supported by the Power Virtual Agents or  Azure bot service and Omnichannel Voice. Sentiment and AI insights are optional for the base voice functionality.  
+
+| Language | Language code | Voice channel in Omnichannel for Customer Service | Power Virtual Agents | Speech-to-Text | Text-to-Speech | Sentiment | AI recommendations | UI Language availability|
+|:-|:-:|:-:|:-:|:-:|:-:|:-:| :-:| :-:|
+| Afrikaans - South Africa | `af- ZA` ||||||||
+| Albanian | `sq` ||||||||
+| Amharic | `am- ET` |||||||
+| Arabic - Algeria| `ar-DZ` |||✔|✔||||
+| Arabic - Bahrain| `ar-BH` |||✔|✔||||
+| Arabic - Egypt| `ar-EG` |||✔|✔||||
+| Arabic - Iraq| `ar-IQ` |||✔|✔||||
+| Arabic - Israel| `ar-IL` |||✔|||||
+| Arabic - Jordan| `ar-JO` |||✔|✔||||
+| Arabic - Kuwait| `ar-KW` |||✔|✔||||
+| Arabic - Lebanon| `ar-LB` |||✔|||||
+| Arabic - Libya| `ar-LY` |||✔|✔||||
+| Arabic - Morocco| `ar-MA` |||✔|✔||||
+| Arabic - Oman | `ar-OM` |||✔|||||
+| Arabic - Palestenian Authority| `ar-PS` |||✔|||||
+| Arabic - Qatar| `ar-QA` |||✔|✔||||
+| Arabic - Saudi Arabia| `ar-SA` |✔||✔|✔||✔|✔|
+| Arabic - Syria| `ar- SY` |||✔|✔||||
+| Arabic - Tunisia| `ar-TN` |||✔|✔||||
+| Arabic - United Arab Emirates| `ar-AE` |||✔|✔||||
+| Arabic - Yemen| `ar-YE` |||✔|✔||||
+| Armenian | `hy` ||||||||
+| Assamese | `as` ||||||||
+| Azerbaijani | `az` ||||||||
+| Bangla - Bangladesh| `bn-BD` ||||||||
+| Bashkir | `ba` ||||||||
+| Basque| `eu-ES` |||||||✔|
+| Bengali - India| `bn-IN` ||||||||
+| Bosnian (Latin) | `bs` ||||||||
+| Bulgarian | `bg-BGC UI` |✔||✔|✔|✔||✔|
+| Burmese - Myanmar| `my-MM` ||||||||
+| Catalan | `ca` |✔||✔|✔|✔||✔|
+| Chinese - China - Mandarin| `zh-CN` |✔|✔|✔|✔|✔||✔|
+| Chinese - Hong Kong SAR - Cantonese - Taiwan - Traditional| `zh-CN` |✔|✔|✔|✔|✔||✔|
+| Chinese - Literary | `lzh` ||||||||
+| Croatian - Croatia | `hr-HR` |✔||✔|✔|✔||✔||
+| Czech - Czech Republic | `cs-CZ` |✔||✔|✔|✔||✔|
+| Danish - Denmark | `da-DK` |✔|✔|✔|✔|✔||✔|
+| Dari | `prs` ||||||||
+| Divehi | `dv` ||||||||
+| Dutch - Belgium | `nl-BE` |||✔|✔||||
+| Dutch - Netherlands | `nl-NL` |✔|✔|✔|✔|✔|✔|✔|
+| English - Australia | `en-AU` |||✔|✔||||
+| English - Canada | `en-CA` |||✔|✔||||
+| English - Ghana | `en-GH` |||✔|✔||||
+| English - Hong Kong | `en-HK` |||✔|✔||||
+| English - India | `en-IN` |||✔|✔||||
+| English - Ireland | `en-IE` |||✔|✔||||
+| English - Kenya | `en-KE` |||✔|✔||||
+| English - Nigeria | `en-NG` |||✔|✔||||
+| English - New Zealand | `en-NZ` |||✔|✔||||
+| English - Philippines | `en-PH` |||✔|✔||||
+| English - Singapore | `en-SG` |||✔|✔||||
+| English - South Africa | `en-SA` |||✔|✔||||
+| English - Tanzania | `en-TZ` |||✔|✔||||
+| English - United Kingdom | `en-GB` |||✔|✔||||
+| English - United States | `en-US` |✔|✔|✔|✔|✔|✔|✔|
+| Estonian - Estonia | `et-EE` |✔||✔|✔|✔||✔|
+| Fijian | `fj` ||||||||
+| Filipino | `fil-PH` ||||✔||||
+| Finnish | `fi-FI` |✔||✔|✔|✔||✔|
+| French -Canada | `fr-CA` |||✔|✔||||
+| French - France | `fr-FR` |✔|✔|✔|✔|✔|✔|✔|
+| French - Switzerland| `fr-CH` |||✔|✔||||
+| Galician | `gl-ES` |||||||✔|
+| Georgian | `ka` ||||||||
+| German - Austria| `de-CH` |||✔|✔||||
+| German - Germany | `de-DE` |✔|✔|✔|✔|✔|✔|✔|
+| German - Switzerland | `de-AT` |||✔|✔||||
+| Greek - Greece| `el-GR` |✔||✔|✔|✔||✔|
+| Gujarati - India | `gu-IN` |||✔|✔||||
+| Haitian Creole | `ht` ||||||||
+| Hebrew - Israel | `he-IL` |✔||✔|✔|✔||✔|
+| Hindi - India | `hi-IN` |✔|✔|✔|✔|✔||✔|
+| Hmong Daw | `mww` ||||||||
+| Hungarian - Hungary | `hu-HU` |✔||✔|✔|✔||✔|
+| Icelandic - Iceland| `is-IS` ||||||||
+| Indonesian - Indonesia | `id-ID` |✔|✔|✔|✔|✔||✔|
+| Inuinnaqtun | `ikt` ||||||||
+| Inuktitut | `iu` ||||||||
+| Inuktitut - Latin | `iu-Latn` |||||||| 
+| Irish - Ireland | `ga-IE` |||✔|✔||||
+| Italian - Italy| `it -IT` |✔|✔|✔|✔|✔|✔|✔|
+| Japanese - Japan | `ja-JP` |✔|✔|✔|✔|✔|✔|✔|
+| Javanese - Indonesia | `jv-ID` |||||||| 
+| Kannada - India | `kn-IN` |||✔|✔||||
+| Kazakh - Kazakhstan | `kk-KZ` |||||||✔|
+| Khmer - Cambodia | `km-KH` ||||||||
+| Klingon | `tlh-` ||||||||
+| Klingon (plqaD) | `tlh-Piqd` ||||||||
+| Korean - Korea | `ko-KR` |✔|✔|✔|✔|✔||✔|
+| Kurdish (Central) | `ku` ||||||||
+| Kurdish (Northern) | `kmr` ||||||||
+| Kyrgyz | `ky` ||||||||
+| Lao - Laos | `lo-LA` ||||||||
+| Latvian - Latvia | `lv-LV` |✔||✔|✔|✔||✔|
+| Lithuanian - Lithuania | `lt-LT` |✔||✔|✔|✔||✔|
+| Macedonian - Republic of North Macedonia | `mk-MK` ||||||||
+| Malagasy | `mg` ||||||||
+| Malay - Malaysia | `ms-MY` |✔||✔|✔|✔||✔|
+| Malayalam - India | `ml-IN` ||||||||
+| Maltese - Malta | `mt-MT` |||✔|✔||||
+| Maori | `mi` ||||||||
+| Marathi - India | `mr-IN` |||✔|✔||||
+| Mongolian - Cyrillic | `mn-Cyrl` ||||||||
+| Mongolian - Traditional | `mn-Mong` ||||||||
+| Nepali | `ne` ||||||||
+|Norwegian Bokmal - Norway| `nb-NO` |✔|✔|✔|✔|✔||✔|
+| Odia | `or` ||||||||
+| Pashto - Afghanistan | `ps-AF` ||||||||
+| Persian - Iran | `fa-IR` ||||||||
+| Polish - Poland | `pl-PL` |✔|✔|✔|✔|✔||✔|
+| Portuguese - Brazil | `pt-BR` |✔|✔|✔|✔|✔||✔|
+| Portuguese - Portugal | `pt-PT` |✔||✔|✔||||
+| Punjabi | `pa` ||||||||
+| Queretaro Otomi | `otq` ||||||||
+| Romanian - Romania | `ro-RO` |✔||✔|✔|✔||✔|
+| Russian - Russia | `ru-RU` |✔|✔|✔|✔|✔||✔|
+| Samoan | `sm` ||||||||
+| Serbian (Cyrillic) - Serbia | `sr-Cyrl-CS` or sr-RS |||||✔||✔|
+| Serbian (Latin) - Serbia | `sr-Latn-CS` |||||✔||✔|
+| Sinhala - Sri Lanka | `si-LK` ||||||||
+| Slovak - Slovakia | `sk-SK` |✔||✔|✔|✔||✔|
+| Slovenian - Slovenia| `sl-SL` |✔||✔|✔|✔||✔|
+| Somali - Somalia | `so-SO` ||||||||
+| Spanish - Argentina | `es-AR` |||✔|✔||||
+| Spanish - Bolivia| `es-BO` |||✔|✔||||
+| Spanish - Chile | `es-CL` |||✔|✔||||
+| Spanish - Colombia | `es-CO` |||✔|✔||||
+| Spanish - Costa Rica| `es-CR` |||✔|✔||||
+| Spanish - Cuba| `es-CU` |||✔|✔||||
+| Spanish - Dominican Republic| `es-DO` |||✔|✔||||
+| Spanish - Ecuador| `es-EC` |||✔|✔||||
+| Spanish - El Salvador| `es-SV` |||✔|✔||||
+| Spanish Equatorial Guinea| `es-GQ` |||✔|✔||||
+| Spanish - Guatemala| `es-GT` |||✔|✔||||
+| Spanish - Honduras| `es-HN` |||✔|✔||||
+| Spanish - Mexico | `es-MX` |||✔|✔||||
+| Spanish - Nicaragua| `es-NI` |||✔|✔||||
+| Spanish - Panama| `es-PA` |||✔|✔||||
+| Spanish - Paraguay| `es-PY` |||✔|✔||||
+| Spanish - Peru| `es-PE` |||✔|✔||||
+| Spanish - Puerto Rico| `es-PR` |||✔|✔||||
+| Spanish - Spain | `es-ES` |✔|✔|✔|✔|✔|✔|✔|
+| Spanish - Venezuela| `es-VE` |||✔|✔||||
+| Spanish - Uruguay| `es-UY` |||✔|✔||||
+| Spanish - US| `es-US` |||✔|✔||||
+| Sudanese - Indonesia | `su-ID` ||||||||
+| Swahili - Kenya| `sw-KE` |||✔|✔||||
+| Swedish - Sweden | `sv-SE` |✔|✔|✔|✔|✔||✔|
+| Swahili - Tanzania| `sw-TZ` ||||||||
+| Tahitian | `ty` ||||||||
+| Tamil - India | `ta-IN` |||✔|✔||||
+| Tatar | `tt` ||||||||
+| Telugu - India | `te-IN` |||✔|✔||||
+| Thai - Thailand | `th-TH` |✔||✔|✔|✔||✔|
+| Tibetan | `bo` ||||||||
+| Tigrinya | `ti` ||||||||
+| Tongan | `to` ||||||||
+| Turkish - Turkey | `tr-TR` |✔|✔|✔|✔|✔||✔|
+| Ukrainian - Ukraine | `uk-UA` |||||✔||✔|
+| Upper Sorbian | `hsb` ||||||||
+| Urdu - India | `ur-IN` |||||||||
+| Uyghur | `ug` ||||||||
+| Uzbek - Uzbekistan | `uz-UZ` ||||||||
+| Vietnamese - Vietnam | `vi-VN` |✔||✔|✔|✔||✔|
+| Welsh - United Kingdom | `cy-GB` ||||||||
+| Yucatec Maya | `yua` ||||||||
+| Zulu - South Africa| `zu-ZA` ||||||||
 |||
 
-### Language limitations by feature
-
-We use the Azure Cognitive Services Speech service Speech-to-Text for transcription, so we'll support all the languages that Speech-to-Text supports today. We also support a bring-your-own bot through Azure Bot Service for Interactive Voice Response (IVR) that will be constrained by the languages that Speech-to-Text supports. Power Virtual Agents is available only for a subset of languages, so for Power Virtual Agents-based IVR, we will support the languages that Power Virtual Agents supports.
-
-In Text-to-Speech and Speech-to-Text, the following languages only are supported in the voice channel.
-
-| Language    | Locale code |
-|-------------|-------------|
-| Arabic - Egypt | ar-EG |
-| Arabic - Saudi Arabia | ar-SA |
-| Catalan - Spain | ca-ES |
-| Chinese - Mandarin, Simplified |zh-CN |
-| Chinese - Cantonese, Traditional | zh-HK |
-| Chinese - Taiwanese, Mandarin | zh-TW |
-| Danish - Denmark | da-DK |
-| Dutch - Netherlands | nl-NL |
-| English - Australia | en-AU |
-| English - Canada | en-CA |
-| English - India | en-IN |
-| English - New Zealand | en- NZ |
-| English - United Kingdom | en-GB |
-| English - United States | en-US  |
-| Finnish - Finland | fi-FI |
-| French - Canada | fr-CA |
-| French - France | fr-FR |
-| German - Germany | de-DE |
-| Gujarati - India | gu-IN |
-| Hindi - India | hi-IN |
-| Hungarian - Hungary | hu-HU |
-| Italian - Italy | it-IT |
-| Japanese - Japan | ja-JP|
-| Korean - Korea | ko-KR |
-| Marathi - India | mr-IN |
-| Norwegian - Norway | nb-NO |
-| Polish - Poland | pl-PL |
-| Portuguese - Brazil | pt-BR |
-| Portuguese - Portugal | pt-PT |
-| Russian - Russia | ru-RU |
-| Spanish - Spain | es-ES  |
-| Spanish - Mexico	| es-MX  |
-| Swedish - Sweden | sv-SE |
-| Tamil - India | ta-IN |
-| Telugu - India | te-IN |
-| Thai - Thailand | th-TH |
-| Turkish - Turkey | tr-TR |
-|||
-
-
-Use the information in the following table to know about the feature-wise support for languages.
+Use the information in table to find more about language support for voice related features.
  
 | Feature |	List of supported languages |
 | ---- | ---- |
