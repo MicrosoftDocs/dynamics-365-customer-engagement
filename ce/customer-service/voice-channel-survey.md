@@ -61,11 +61,11 @@ You can add messages or questions to a Power Virtual Agents IVR bot to create a 
 #### Survey bot
 
 > [!div class="mx-imgBorder"]
-> ![Greetings in PVA.](./media/voice-survey-bot.png)
+> ![Greetings in PVA.](./media/configure-survey-bot.png)
 
 
 > [!div class="mx-imgBorder"]
-> ![Configure greeting in Power Virtual Agents.](./media/voice-survey-bot2.png)
+> ![Configure greeting in Power Virtual Agents.](./media/pva-configure-greeting.png)
 
 
 > [!TIP]
@@ -112,7 +112,7 @@ You can enable agent initiated feedback as follows:
 You can view the survey results on the **Analytics > Sessions** tab.
 
    > [!div class="mx-imgBorder"]
-   > ![Dashboard](./media/voice-survey-bot3.png)
+   > ![Dashboard](./media/pva-view-survey-results.png)
 
 ### See also
 
