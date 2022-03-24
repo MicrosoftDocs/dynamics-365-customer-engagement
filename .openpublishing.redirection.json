@@ -19352,7 +19352,7 @@
     },
     {
       "source_path": "ce/customer-service/channel-integration-framework/reference/events/onSessionSwitched.md",
-      "redirect_url": "/dynamics365/customer-service/dynamics365/channel-integration-framework/referen/v2/reference/events/onSessionSwitched",
+      "redirect_url": "/dynamics365/customer-service/channel-integration-framework/v2/reference/events/onsessionswitched",
       "redirect_document_id": false
     },
     {
