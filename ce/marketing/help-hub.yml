@@ -48,7 +48,7 @@ landingContent:
         - text: Find your way around 
           url: navigation.md
         - text: Accessibility and keyboard shortcuts
-          url: desiger-shortcuts.md
+          url: designer-shortcuts.md
         - text: Use Customer Insights profiles and segments in real-time marketing
           url: real-time-marketing-ci-profile.md
         - text: Organize your work
@@ -83,7 +83,7 @@ landingContent:
         - text: Manage consent for email and text messages in real-time marketing
           url: real-time-marketing-email-text-consent.md
         - text: Event management settings
-          url: event-settings.md
+          url: events-settings.md
         - text: Manage your quotas
           url: quota-management.md
         - text: Customize Dynamics 365 Marketing
@@ -141,7 +141,7 @@ landingContent:
         - text: Create a new version of a customer journey
           url: real-time-marketing-new-journey-version.md
         - text: Send outbound text messages
-          url: real-time-marketing-text-messaging.md
+          url: real-time-marketing-outbound-text-messaging.md
         - text: Send push notifications
           url: real-time-marketing-push-notifications.md
         - text: Personalize content
