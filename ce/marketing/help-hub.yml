@@ -58,12 +58,14 @@ landingContent:
 # Card 
 - title: Administer the system
   linkLists:
+      - linkListType: overview
+        links:
+        - text: Manage Marketing environments 
+          url: manage-marketing-environments.md
       - linkListType: how-to-guide
         links:
         - text: Manage user accounts, user licenses, and security roles 
           url: admin-users-licenses-roles.md
-        - text: Manage Marketing environments 
-          url: manage-marketing-environments.md
         - text: Organization settings 
           url: organization-settings.md
         - text: Business management settings
@@ -146,8 +148,12 @@ landingContent:
   linkLists:
       - linkListType: how-to-guide
         links:
+        - text: Design digital content
+          url: design-digital-content.md
         - text: Email marketing overview 
           url: prepare-marketing-emails.md
+      - linkListType: how-to-guide
+        links:
         - text: Create and deploy marketing pages 
           url: create-deploy-marketing-pages.md
         - text: Integrate with landing pages on external websites 
