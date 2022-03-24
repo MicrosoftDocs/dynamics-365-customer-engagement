@@ -19357,7 +19357,7 @@
     },
     {
       "source_path": "ce/customer-service/channel-integration-framework/reference/events/onSessionClosed.md",
-      "redirect_url": "/dynamics365/customer-service/dynamics365/channel-integration-framework/referen/v2/reference/events/onSessionClosed",
+      "redirect_url": "/dynamics365/customer-service/channel-integration-framework/v2/reference/events/onSessionClosed",
       "redirect_document_id": false
     },
     {
