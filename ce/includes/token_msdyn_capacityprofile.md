@@ -1,0 +1,12 @@
+```html
+<fetch>
+    <entity name="msdyn_capacityprofile">
+    <filter type="and">
+    <condition attribute="msdyn_capacityprofileid" operator="in">
+    <value uiname="Demo Capacity Profile 1" uitype="msdyn_capacityprofile">{F57CFE3C-14BD-D53E-F423-A1E7F9749DFB}</value> 
+    <value uiname="Demo Capacity Profile 2" uitype="msdyn_capacityprofile">{D0B8ABFB-4A9F-0B1F-6FF4-8003E29A623C}</value>
+    </condition>
+    </filter>  
+    </entity>
+</fetch>
+```
