@@ -13,14 +13,17 @@ manager: shujoshi
 
 Here are the error codes and error messages that are returned when using live chat JavaScript API methods.
 
+:::code language="html" source="msdyn_capacityprofile.html":::
+
 |Error Code|Error message|
-|-----|-----|
-|1|Custom context provider method execution failed|
+|-----     |-----         |
+|1|Custom context provider method execution failed. <br> :::code language="html" source="msdyn_capacityprofile.html"::: |
 |2|Auth token provider method execution failed|
 |3|Auth token provider didn't provide any token|
 |4|Auth token provider provided invalid token|
 |7|Live chat widget scripts failed to load|
 |8|Auth function cannot be found on webpage|
+| | |
 
 > [!Note]
 > The live chat widget script can fail to load for a number of reasons. One possible reason is the user has disabled access to session and local storage in their browser. The reason will be described in the `errorDetail` attribute. 
