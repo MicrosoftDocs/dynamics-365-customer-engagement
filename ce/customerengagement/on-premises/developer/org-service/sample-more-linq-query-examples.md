@@ -44,7 +44,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dyna
  [!code-csharp[query#UseLinqQuery](../../snippets/csharp/CRMV8/query/cs/uselinqquery.cs#uselinqquery)]  
   
 ### See also  
- [Build Queries with LINQ (.NET Language-Integrated Query)](build-queries-with-linq-net-language-integrated-query.md)   
+ [Build Queries with LINQ (.NET Language-Integrated Query)](/powerapps/developer/data-platform/org-service/build-queries-with-linq-net-language-integrated-query)   
  [Sample: Use LINQ with Late Binding](sample-create-linq-query-late-binding.md)   
  <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceContext>
 
