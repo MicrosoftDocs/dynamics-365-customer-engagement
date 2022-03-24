@@ -28,12 +28,12 @@ Time calculation in service-level agreements (SLAs) calculates the `WarningT
 
 In addition to warning and failure time, the elapsed time is also calculated if there is a pause and resume scenario configured for the SLA. The elapsed time gets added to the final failure time to ignore the working hours spent during the **Paused** state of the SLA KPI.
 
-To change the default time calculation and enable your own custom time calculation, you can define an API interface which has a fixed set of input and output parameters and add a custom logic to calculate the time.
+To change the default time calculation and enable your own custom time calculation, you can define an API interface that has a fixed set of input and output parameters and add a custom logic to calculate the time.
 
 ## Enable custom time calculation of SLA KPIs
 
 1. Go to **Settings** > **Customization** > **Customize the system** > **Processes** > **New**.
-1. On the **Create Process** dialog, enter the following:
+1. On the **Create Process** dialog, enter the following details:
     1. Enter a process name, for example, CustomPluginTime Calculation.
     1. From the **Category** dropdown list, select **Action** .
     1. From the **Entity** dropdown list, select **None (global)**. 
@@ -120,7 +120,7 @@ public void Execute(IServiceProvider serviceProvider)
 	throw new Exception("Invalid requestType:" + requestType+ " for entityName:" + entityName + " of id:" + regardingId);
 }
 
-// in this example, we are using Custom Field(new_country) on Case entity to apply the require calendar.
+// in this example, we're using Custom Field(new_country) on Case entity to apply the require calendar.
 
 private string CalculateWarningAndFailureTime(string regardingId, string calendarId, string slaItemId, string entityName, DateTime warningStartTime, DateTime failureStartTime, int warningDuration, int failureDuration, out DateTime warningTime, out DateTime failureTime)
 {

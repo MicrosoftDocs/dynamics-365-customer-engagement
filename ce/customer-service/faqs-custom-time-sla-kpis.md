@@ -12,15 +12,15 @@ manager: shujoshi
 
 ## Overview
 
-This topic contains the frequently asked questions (FAQs) that you as an administrator might have about the custom time calculation of service-level agreements (SLAs) key performance indicators (KPIs).
+This topic contains the frequently asked questions (FAQs) that you, as an administrator, might have about the custom time calculation of service-level agreements (SLAs) key performance indicators (KPIs).
 
 ## When does the custom action or plug-in get initiated?
 
 The custom action or plug-in gets initiated during the creation of a new SLA KPI instance, which also includes a SLA KPI, that has been resumed from a pause status.
 
-## How is the pause resume scenario different from a SLA KPI creation scenario?
+## How is the pause and resume scenario different from a SLA KPI creation scenario?
 
-Pause and resume scenario includes the following two steps:
+The pause and resume scenario includes the following two steps:
 
 1. The custom action is initiated with requestType as `getElapsedTime`. This calculates the time elapsed between the paused and resumed state of the SLA KPI.
 2. The custom action is initiated with requestType as `getEndTime`. This calculates the new `WarningTime` by adding the above `elapsedTime` to the current `warningTime`. A similar calculation is also done for `FailureTime`.
