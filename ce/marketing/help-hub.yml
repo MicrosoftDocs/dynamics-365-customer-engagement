@@ -64,8 +64,6 @@ landingContent:
           url: admin-users-licenses-roles.md
         - text: Manage Marketing environments 
           url: manage-marketing-environments.md
-        - text: Open the Settings work area 
-          url: open-settings.md
         - text: Organization settings 
           url: organization-settings.md
         - text: Business management settings
@@ -148,8 +146,6 @@ landingContent:
   linkLists:
       - linkListType: how-to-guide
         links:
-        - text: Design digital content 
-          url: design-digital-content.md
         - text: Email marketing overview 
           url: prepare-marketing-emails.md
         - text: Create and deploy marketing pages 
