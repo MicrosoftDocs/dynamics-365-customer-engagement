@@ -163,10 +163,14 @@ If you're using custom attributes for lead generation, you can generate the mode
 
     By default, the name is **LeadScoring_**<***YYYYMMDD***><***Time***> (for example, **LeadScoring_202009181410**). The date and time are based on Coordinated Universal Time (UTC).
 
-5. In the **Business process flow** list, select a flow that's relevant for the leads that you're generating the model for.  
+5. In the **Business process flow** list, select a flow that's relevant for the leads that you're generating the model for.
+    The list displays all the business process flows that are defined for leads in your organization.  
+    
     > [!NOTE]
-    > To display custom business process flows in the list, enable **Change Tracking** for the business process flow entity. More information: [Enable change tracking to control data synchronization](/power-platform/admin/enable-change-tracking-control-data-synchronization)
-
+    >- Custom business process flows that are not enabled for change tracking are disabled for selection in the list. To enable change tracking for such entities, see [Enable change tracking to control data synchronization](/power-platform/admin/enable-change-tracking-control-data-synchronization).
+    >- The custom business processes will be automatically enabled to sync the data to Data Lake Storage.
+    >- An entry will be created in the EntityAnalyticsConfig table with ParentEntityLogicalName as BPF name and IsEnabledForADLS as True.
+    
 
 6. In the **State option set** list, select the option set in which the status of the leads is defined, and then select the corresponding qualified and disqualified values in the **Qualified value** and **Disqualified value** lists, respectively. 
 
