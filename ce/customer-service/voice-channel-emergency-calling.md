@@ -12,6 +12,8 @@ ms.topic: overview
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
+## Introduction
+
 With the new emergency calling feature, agents call dial in the emergency number during a crisis situation and leave voice messages. When the agent dials in the emergency number, the auto-responder bot receives the call and sends out a temporary callback number (subscriber identifier) to the agent. The emergency responder can then call back the agent over the assigned callback number. 
 
 During the call, the agent's status is automatically changed to "Do not disturb", so the emergency callback gets the highest priority and all other incoming calls are blocked. The agent receives the responder callback directly bypassing any routing rules, capacity profiles, and presence setting (including the "Do not disturb" status).
