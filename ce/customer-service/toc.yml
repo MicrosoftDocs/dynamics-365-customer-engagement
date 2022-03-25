@@ -496,10 +496,10 @@
         href: use-ai-suggested-contacts-teams.md
   - name: Voice
     items:
+    - name: Introduction to the voice channel
+      href: voice-channel.md
     - name: Administrator experience
       items:
-      - name: Introduction to the voice channel
-        href: voice-channel.md
       - name: Install the voice channel
         href: voice-channel-install.md  
       - name: Connect to Azure Communication Services
