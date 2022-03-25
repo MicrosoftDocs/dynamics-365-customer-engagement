@@ -35,11 +35,6 @@ For call overflow to work correctly, the following prerequisites must be met:
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
 
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-    > [!IMPORTANT]
-    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-   
     1. In the site map, select **Queues** in **Customer support**.
     
     2. On the **Queues** page, select **Manage** for **Advanced queues**.
