@@ -24,7 +24,7 @@ search.app:
 The **Settings** work area contains pages that let you configure the core marketing functionality of Dynamics 365 Marketing. See the following topics for information about how to work with each page in the **Marketing settings** section:
 
 - **[Lead scoring](mkt-settings-lead-score-options.md)**: Configure a few basic options that control how automatic lead scoring works on your instance, including how scores can advance leads can through the marketing business process and how to handle stopped scoring models.
-- **[Authenticated domains](mkt-settings-authenticate-domains.md)**: Authenticate your domains to maximize email deliverability with DKIM and enable embedding of Dynamics 365 Marketing forms on your own website.
+- **[Domains](mkt-settings-authenticate-domains.md)**: Setup and authenticate domains to maximize email deliverability and enable embedding of Dynamics 365 Marketing forms on your own website.
 - **[Marketing analytics configuration](mkt-settings-analytics.md)**: Enable sharing of interaction data with external systems such as Power BI. See also [Create custom analytics with Power BI](custom-analytics.md).
 - **[Landing pages](mkt-settings-landing-pages.md)**: Set up a privacy banner, set hosting defaults, and configure defaults for how data submitted through a landing page form is matched to existing contact or lead record
 - **[Marketing data configuration](mkt-settings-sync.md)**: Choose which entities to make available for use in dynamic email content, segmentation criteria, and lead scoring.

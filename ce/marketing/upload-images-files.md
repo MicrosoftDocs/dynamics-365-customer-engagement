@@ -1,5 +1,5 @@
 ---
-title: "Work with images and other files (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Upload and use images and files in online content (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to upload, tag, and find images and other files for use in emails and marketing pages in Dynamics 365 Marketing."
 ms.date: 04/01/2018
 
@@ -34,6 +34,9 @@ Images are an important part of most marketing-page and marketing-email designs.
 
 > [!NOTE]
 > The maximum file size for uploaded images is 5 MB.
+
+> [!TIP]
+> Use of the asset library is provided with your Dynamics 365 Marketing license at no extra charge except for the following regions: Brazil, India, United Arab Emirates. Images and files uploaded in these regions will be stored in the user’s Microsoft Dataverse storage and will count against their file storage capacity. For more information on Dataverse storage capacity, see [New Microsoft Dataverse storage capacity](/power-platform/admin/capacity-storage).
 
 ## Upload files to Dynamics 365
 
