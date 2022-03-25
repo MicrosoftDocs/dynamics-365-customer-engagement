@@ -18,7 +18,7 @@ Dynamics 365 Sales Premium offers a 30-day free trial with the Sales Premium lic
 1. Go to the [Sales overview page](https://dynamics.microsoft.com/sales/overview/) and select **Try for free**.
 1. Enter your work email ID that's associated with your Microsoft account or your personal email ID.
     > [!NOTE]
-    > [Conversation intelligence](dynamics365-sales-insights-app.md) is not supported for non-Microsoft accounts. 
+    > [Conversation intelligence](dynamics365-sales-insights-app.md) is not supported for non-work accounts. 
 1. Follow the onscreen guidance to provide additional information about your account.  
 
     The trial takes a few moments to set up. Once ready, you'll see the **Launch Trial** button. 
