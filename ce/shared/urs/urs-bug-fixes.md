@@ -1,4 +1,28 @@
 
+## 3.12.73.25
+
+(Includes Resource Scheduling controls version 1.2.14.220634)
+
+- Fixed bug: `msdyn_SearchResourceAvailability` API returns wrong results if the search range is in the next hour.
+- Fixed bug: Travel time shouldn't be considered when returning available time slots for facility scheduling.
+- Fixed bug: `msdyn_SearchResourceAvailability` API should respect existing bookings only return where resource has idle time, and when user checks **Ignore duration** on UI. API should also return slots with less than required duration. 
+- Fixed bug: On the new schedule board, filter for bottom requirement section doesn’t work correctly for boolean fields. 
+
+## 3.12.72.9
+
+(Includes Resource Scheduling controls version 1.2.13.220534)
+
+- Fixed bug: On the new schedule board, search range is always two days instead of taking the time range set when using "Find availability."
+- Fixed bug: Proper error message is not shown when an unprivileged user is trying to delete a booking from new schedule board. 
+- Fixed bug: Quick book is throwing "Cannot read properties of undefined (reading 'from')" error message when: (1) requirement group without from date, and (2) custom entity without from/to mapping.
+- Fixed bug: On the new schedule board, date fields on the booking panel use incorrect date format.
+- Fixed bug: Booking on the new schedule board doen't reflect booked hours correctly for project team member.
+- Fixed bug: On the new schedule board, proper error message is not shown when user is trying to delete a record that has some related booking alert records.  
+- Fixed bug: “Date-time format for /Date is invalid or value is outside of supported range" when using retrieve resource query on the new schedule board.
+- Fixed bug: Unable to change booking status on the new schedule board. 
+- Fixed bug: KPI panel on the new schedule board is not updated when booking suggestions.
+- Fixed bug: Race condition when rendering availability slots in SA mode.
+
 ## 3.12.71.20
 
 (Includes Resource Scheduling controls version 1.2.12.220462)

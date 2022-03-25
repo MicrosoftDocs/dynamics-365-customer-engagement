@@ -1,7 +1,7 @@
 ---
 title: "Prioritize your sales pipeline through the work list (Sales Insights) | MicrosoftDocs"
-description: "Use work list in sales accelerator to prioritize your sales pipeline to ensure important records are not left behind."
-ms.date: 09/10/2021
+description: "Use work list in sales accelerator to prioritize your sales pipeline to ensure important records aren't left behind."
+ms.date: 03/01/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -12,7 +12,7 @@ products:
 ---
 # Prioritize your sales pipeline by using the work list  
 
-Use work list in sales accelerator to prioritize your sales pipeline to ensure important records are not left behind.
+Use work list in sales accelerator to prioritize your sales pipeline to ensure important records aren't left behind.
 
 ## License and role requirements
 
@@ -56,21 +56,27 @@ The work list displays a list of records that are assigned to you or to the secu
     |--------|---------|-------------|
     | 1 | **Search, filter, sort, and group records** | You can search, filter, sort, and group the records that you want to view in the list to quickly identify the customers to contact. More information: [Filter, sort, and more options](#filter-records-in-work-list)<br><br>By using the lookup icon, you can search for a specific record by using the record name. Select the **More options** icon to [send bulk emails](#send-bulk-emails), [configure work list settings](#configure-personal-settings), and refresh the list. |
     | 2 | **Records list** | Displays a list of records that are assigned to you or to a security role that you're part of. The unread records appear in bold with a blue vertical bar on the left. You must perform and complete the activities on these records from the current date and from previous dates.<br><br>Each record displays the name of the record, primary contact name, next best action, priority scoring, and entity name. Hover over the record to view more options and the activity to perform.<br><br> Select **More options** to perform the following actions on the record:<ul><li>Mark as complete</li><li>Skip the current activity</li><li>Snooze the activity</li><li>Change the state of the record to unread or read</li><li>Follow or unfollow the record</li><li>Skip wait time (this option is available for items that are in the wait state)</li></ul><br>Also, you can select the activity icon to perform the specified activity for the record.<br>![Options for records](media/sa-record-hover-view.png "Options for records")<br>More information: [Connect with customers by using a record or the Up next widget](connect-with-customers.md) <br><br>When you complete an activity on the record, select the refresh icon. The list will be refreshed, and the record will be removed from the list.<br><br>**Note**<br>The list displays records for a month from the current date. The records that are older than 30 days are automatically removed and won't be displayed.|
-
     | 3 | **Up next widget** | Displays the next best action that you can perform on a record for the given date. More information: [Understand the Up next widget](#understand-the-up-next-widget)|
     
 ## Filter, sort, and more options<a name="filter-records-in-work-list"></a>     
-#### Filter       
+
+### Filter       
 Use filters to prioritize the records in the work list so you can reach customers at the right time. The following screen provides the list of options that are available to filter work list:    
 
 > [!div class="mx-imgBorder"]    
 > ![Work list filter options](media/sa-worklist-filter-options.png "Work list filter options")    
  
-let's understand the filter options in detail:   
-- **Clear filters**: Select this option to clear filter selections that were previously selected and set to default.   
+Filters are categorized into two types:    
+- [Default filters](#default-filters)
+- [Custom filters](#custom-filters)
+
+#### Default filters
+
+The default filters are available to you along with sales accelerator. The following filters are available:
+
 - **Unopened**: Select the option to filter the list to view records that aren't opened or unread.   
 - **Followed**: Select the option to  filter the list to view records that are followed by you.   
-- **Due date**: Select this option to filter the records according to the time that a task must complete for a record. The following options are available:   
+- **Due by**: Select this option to filter the records according to the time that a task must complete for a record. The following options are available:   
     - **Today**: Select this option to filter the list to view records with pending tasks that aren't completed today.   
     - **From tomorrow**: Select this option to filter the list to view records with pending tasks that are to be completed tomorrow.   
     - **Overdue**: Select the option to  filter the list to view records with pending tasks that aren't completed on time.   
@@ -78,26 +84,42 @@ let's understand the filter options in detail:
     Select at least one option to display relevant records in the work list. If no records match your selected type, an empty list is displayed. By default, all filter options are selected.   
 - **Activity type**: The **Activity type** filter options are **Phone calls**, **Email messages**, **Tasks**, and **Meetings**. You can select all or any specific option to filter the records to display in the work list.    
     Select at least one option to display relevant records in the work list. If no records match your selected activity type, an empty list is displayed. By default, all filter options are selected.  
-    For example, when you select the entity type as **Lead** and the activity type as **Call**, the work list displays only the lead records that include call activities.   
-#### Sort    
+    For example, when you select the entity type as **Lead** and the activity type as **Call**, the work list displays only the lead records that include call activities.  
+
+#### Custom filters
+
+Custom filters are created specifically for you to view records that are important and relevant to you. You can contact your administrator to create a custom filter that you can use to filter records.    
+For example, you want to view leads that have currency as US Dollar. If your administrator has created a filter based on lead and currency, you can choose the filter and select US Dollar as currency to filter lead records.   
+
+1.	From the filter options, select the drop-down button corresponding to **Leads**.  
+
+    > [!div class="mx-imgBorder"]    
+    > ![Select leads from filters](media/sa-worklist-filter-options-custom-select-lead.png "Select leads from filters")    
+ 
+2.	Select the drop-down button corresponding to **Leads.Currency** and select the currency as **US Dollar**.
+
+    > [!div class="mx-imgBorder"]    
+    > ![Select the filter as US dollar](media/sa-worklist-filter-select-dollar.png "Select the filter as US dollar")    
+ 
+    The work items list is filtered to show only leads with currency type as US Dollar.
+
+    >[!NOTE]
+    >You can hide or show filters that are not 
+
+### Sort    
 Use the sort option to organize records into groups selecting the sort icon and display the records in the order of sort (ascending or descending).     
-#### More options     
+
+### More options     
 Use more options to do the following actions:   
 - Refresh the list.
 - Send an email to multiple recipients at once. More information: [Send bulk emails](#send-bulk-emails)
-- Configure work list settings<a name="configure-personal-settings"></a>: Using the work list settings, you can choose what must happen to a record when a step is completed or skipped. Select **Settings** and on the **Work list settings** dialog box choose the following options:     
+- Personalize your workspace. You can personalize your workspace by configuring the following options:
+    - **Availability**: Configure your work availability. More information: [Configure your work availability](personalize-sales-accelerator.md#configure-your-work-availability)
+    - **Auto advance**: <a name="configure-personal-settings"></a>Choose what happens next when you complete an activity. More information: [Configure the auto advance steps](personalize-sales-accelerator.md#configure-the-auto-advance-steps)
+    - **Steps and activities**: Create an activity automatically on the timeline and linked to the step. More information: [Configure steps and activities](personalize-sales-accelerator.md#configure-steps-and-activities)
+    - **Filters**: Hide or show filters from the available filter list. More information: [Show or hide filters](personalize-sales-accelerator.md#show-or-hide-filters)
 
-| Option | Description |
-|--------|-------------|
-| Ask before moving to the next work item | Select this option to display a confirmation message to whether to go to the next in-line record or stay on the same record after you complete or skip.<br>![Confirmation message whether to move to next record or stay on the same record](media/sa-worklist-filter-settings-confirmation-message.png "Confirmation message whether to move to next record or stay on the same record") |
-| Automatically go to the next work item | Select this option to go to the next in-line record after you complete or skip the step on the current record. |
-| Stay on the same record | Select this option to remain on the same record even after you complete or skip the step. By default, this option is selected for both **When I mark a step as complete** and **When I skip a step**.|         
-> [!div class="mx-imgBorder"]
-> ![Work list settings](media/sa-worklist-filter-settings.png "Work list settings")  
-
-<a name="send-bulk-emails"></a>
-
-## Send bulk email
+## Send bulk email <a name="send-bulk-emails"></a>
 
 The bulk email feature helps you to optimize your work by sending the same email to a list of leads simultaneously. The leads need to have the same email step from the same sequence attached to all their records.
 
