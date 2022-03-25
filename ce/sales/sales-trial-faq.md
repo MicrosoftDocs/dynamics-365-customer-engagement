@@ -15,6 +15,8 @@ The Sales trial offers a straightforward experience for sign-up, login, and usag
 
 To sign up for the trial, go to the [Sales overview page](https://dynamics.microsoft.com/sales/overview/) and select **Try for free**.
 
+[!INCLUDE[trial-faq-platform](../shared/trials/trial-faq-platform.md)]
+
 ### Can I convert the trial to a paid license?
 
 Yes, you can purchase licenses through direct, credit card purchase at admin.microsoft.com. Or, you can work with sales to establish a volume licensing or enterprise agreement. Visit our [Pricing page](https://dynamics.microsoft.com/pricing/) for more information on pricing and purchasing.
