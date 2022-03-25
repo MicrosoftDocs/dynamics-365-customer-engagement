@@ -1,10 +1,10 @@
 ---
 title: "Voice channel in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn about the voice channel in Omnichannel for Customer Service and its offerings."
+description: "Get an overview of the voice channel in Omnichannel for Customer Service and its offerings."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 02/18/2022
+ms.date: 03/28/2022
 ms.topic: overview
 ---
 
@@ -32,18 +32,32 @@ Beyond workflows and processes, the voice channel benefits from a common data fr
 
 The voice channel has Microsoft's award winning AI built into the product. This enables agents to resolve issues faster with tools like call transcriptions and sentiment analysis and gain instant insights into trends.
 
+### Emergency callback
+
+With the new emergency calling feature, emergency responders can call back an agent over a temporary callback number. When the agent dials in the emergency number, the auto-responder bot receives the call and sends out a callback number (subscriber identifier) to the caller (agent).
+
+The agent can dial in using the callback number and leave a message. During the call, the agent's status is automatically changed to "Do not disturb", so the emergency callback gets the highest priority and all other incoming calls are blocked. The agent receives the responder callback directly bypassing any routing rules, capacity profiles, and presence setting (including the "Do not disturb" status).
+
+During the active emergency conversation, the conversation dashboard only displays just the device settings and the **End call** button. After the call ends, no calling controls or conversation history is displayed to ensure confidentiality of the emergency call.
+
+Omnichannel for Customer Service does not record or store details of incoming or outgoing emergency calls. Also, the Omnichannel Ongoing Conversations Dashboard will not display the emergency call details. 
+
+When the agent exits out of the emergency call and ends the session, the presence changes back to the earlier base status.
+
+> [!Note]
+> The emergency callback number is assigned to the agent for a duration of 60 minutes.
+
 ## Key capabilities of the voice channel
 
 Take a look at some of the key capabilities that makes the voice channel great for IT administrators, supervisors, agents, and customers.
 
 | User experience | Capability |
 | --- | --- |
-| Agent  |  <ul><li>Call controls: Mute, Hold, End</li><li>Music on hold</li><li>Music on wait</li><li>Integrated customer and case history lookup</li><li>Notes and knowledge search</li><li>Mark a number as spam</li></ul>  |
+| Agent  |  <ul><li>Call controls: Mute, Hold, End</li><li>Music on hold</li><li>Music on wait</li><li>Integrated customer and case history lookup</li><li>Notes and knowledge search</li><li>Mark a number as spam</li> <li>Receive calls from emergency responders during emergencies </li></ul>  |
 | Calling and routing  | <ul><li>Ability to handle and distribute incoming calls, automatic call distribution (routing)</li><li>Ability to make outbound calls</li><li>Transfer to external phone number</li><li>Phone number provisioning and management</li><li>Skills-based assignment</li></ul> |
-| AI | <ul><li>Call insights </li><li>Real-time sentiment analysis</li><li>Real-time transcription and recording</li><li>Real-time translation of call transcripts</li><li>Real-time smart assist suggestions</li><li>No-code Virtual Agent as IVR</li></ul> |
+| AI | <ul><li>Call insights </li><li>Real-time sentiment analysis</li><li>Real-time transcription and recording</li><li>Real-time translation of call transcripts</li><li>Real-time smart-assist suggestions</li><li>No-code Virtual Agent as IVR</li></ul> |
 | Supervisor  | <ul><li>Consulting and transferring</li><li>Monitoring and barging</li><li>Ability to record and manage phone calls</li><li>Operations management through supervisor dashboards</li></ul> |
 | Customer   | <ul><li>Post-call survey</li><li>Queue position and wait time announcements</li><li>Music on hold and wait</li></ul> |
-
 
 ### See also
 
