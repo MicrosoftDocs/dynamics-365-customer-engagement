@@ -4,7 +4,7 @@ description: "Learn about how to configure a post-call survey for the voice chan
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 11/02/2021
+ms.date: 03/25/2022
 ms.topic: article
 ms.custom: intro-internal
 
@@ -75,7 +75,7 @@ You can add messages or questions to a Power Virtual Agents IVR bot to create a 
 
 ## Enable post-call survey in phone number settings
 > [!Note]
-> Enabling the post-call survey feature isn't required for the agent-initiated scenario.
+> Enabling the post-call survey feature isn't required for the human agent initiated scenario.
 
 To route the customer to the Power Voice Agent survey bot automatically after the agent hangs up, perform the following steps:
 
