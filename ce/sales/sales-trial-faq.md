@@ -69,28 +69,23 @@ Your trial includes a simplified Trial app with a few important capabilities to 
 
 The following licenses and capabilities pre-installed in the trial app:
 
-**Dynamics 365 Sales Enterprise**
+**Dynamics 365 Sales Premium**
 
 - Manage sales pipeline using leads and opportunities
 - Forecast sales
-- Sales Premium features (Sales accelerator, conversation intelligence, and predictive scoring) with limited monthly capacity. More information: [Digital selling capabilities in Sales Enterprise](digital-selling.md)
+- Use sales insights features (Sales accelerator, conversation intelligence, and predictive scoring) with limited monthly capacity. More information: [Digital selling capabilities in Sales Enterprise](digital-selling.md)
+    - Sell smartly using Sales accelerator that builds a strong and prioritized pipeline, offers context, and surfaces automated recommendations.
+    - Improve seller coaching and sales potential with conversation intelligence.
+        > [!NOTE]
+        > Conversation intelligence is not supported for non-work accounts.
+    - Get the AI-powered assistant to stay on top of your activities.
+    - Prioritize leads and opportunities using predictive scoring.
+    - Analyze revenue outcome by using predictive forecasting.
 
-To get started with the Sales Enterprise functionalities, see [Learn the basics of [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]](user-guide-learn-basics.md)
-
-**Dynamics 365 Sales Insights**
-
-- Sell smartly using Sales accelerator that builds a strong and prioritized pipeline, offers context, and surfaces automated recommendations.
-- Improve seller coaching and sales potential with conversation intelligence.
-    > [!NOTE]
-    > Conversation intelligence is not supported for non-work accounts.
-- Get the AI-powered assistant to stay on top of your activities.
-- Prioritize leads and opportunities using predictive scoring.
-- Analyze revenue outcome by using predictive forecasting.
-
-To get started with the Sales Insights functionalities, see [Sales Insights Add-in for Dynamics 365 Sales Help & Training](/ai/sales/help-hub). To enable Sales Insights, see [Enable and configure standard Sales Insights features](/ai/sales/intro-admin-guide-sales-insights#enable-and-configure-standard-sales-insights-features).
+To get started with the sales insights features, see [Sales Insights Add-in for Dynamics 365 Sales Help & Training](/ai/sales/help-hub). To enable sales insights features, see [Enable and configure standard Sales Insights features](/ai/sales/intro-admin-guide-sales-insights#enable-and-configure-standard-sales-insights-features).
 
 > [!NOTE]
-> Sales Insights functionalities are restricted to specific regions. For information on supported regions, see [In which region is Sales Insights available?](/ai/sales/faqs-sales-insights#general). If you are not in a supported region, you can only  access the Sales Enterprise functionalities.  
+> Sales insights functionalities are restricted to specific regions. For information on supported regions, see [In which region is Sales Insights available?](/ai/sales/faqs-sales-insights#general). If you are not in a supported region, you can only  access the Sales Enterprise functionalities.  
 
 **Dynamics 365 Power Platform**
 - Administer and customize your Dynamics 365 Sales environment to fit your needs  
