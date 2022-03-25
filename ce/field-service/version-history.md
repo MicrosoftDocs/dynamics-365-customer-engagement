@@ -61,6 +61,7 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 - Field Service (Dynamics 365) mobile app: Fixed a bug so booking calendar control will no longer jump to incorrect date when scrolling through bookings on iOS.
 - Field Service (Dynamics 365) mobile app: Enabled the agenda view on the booking calendar control for tablets and Windows devices. 
 - Field Service (Dynamics 365) mobile app: Added customer phone number field to the out-of-the-box customer details tab on the bookable resource booking and work order forms. 
+- Updated privacy messages on landing page for Bing Maps.
 
 ## 8.8.61.21
 
@@ -71,6 +72,11 @@ This release is a hotfix on Field Service version [8.8.61.14](/dynamics365/field
 ## 8.8.61.14
 
 (Includes Universal Resource Scheduling version [3.12.72.9](/dynamics365/field-service/field-service-version-history-resource-scheduling#312729)).
+
+- Fixed a bug where a work order’s price list, set from a service account, is cleared when changing work order type.
+- Fixed a bug where the price list lookup on agreement invoice product form was showing units instead of price lists.
+- Fixed a bug where service durations were rounded up when converting opportunities to work orders.
+
 
 ## 8.8.60.21
 This release is a hotfix on Field Service version [8.8.60.18](/dynamics365/field-service/version-history#886018).
