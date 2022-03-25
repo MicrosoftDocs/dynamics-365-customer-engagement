@@ -74,11 +74,12 @@ You can add messages or questions to a Power Virtual Agents IVR bot to create a 
 - Configure your Power Virtual Agents bot. Perform the steps in [Configure handoff to Omnichannel for Customer Service](/power-virtual-agents/configuration-hand-off-omnichannel#configure-hand-off-in-the-power-virtual-agents-app) and [Integrate a Power Virtual Agents bot](configure-bot-virtual-agent.md).
 - Configure your Azure bot. More information: [Integrate an Azure bot](configure-bot.md)
 
-## Enable post-call survey in phone number settings of the workstream or set up human agent initiated survey
+## Enable post-call survey in phone number settings or set up human agent initiated survey
 
 > [!Note]
 > Enabling the post-call survey feature isn't required for the agent-initiated scenario.
-> To route the customer to the Power Voice Agent survey bot automatically after the agent hangs up, perform the following steps:
+
+To route the customer to the Power Voice Agent survey bot automatically after the agent hangs up, perform the following steps:
 
 1. In Customer Service admin center or Omnichannel admin center, select your voice workstream, and then select **Edit** next to the pencil icon to modify the settings.
 2. Under **Language**, scroll to the bottom of the dialog, and then toggle **Post-call survey** to **On**.
