@@ -546,8 +546,6 @@
         href: voice-channel-contextual-transfer-external-ivr.md 
       - name: Supported regions and languages
         href: voice-channel-region-availability.md
-      - name: FAQs about the voice channel
-        href: voice-channel-faqs.md  
     - name: Agent experience
       items:
       - name: Make and receive your first phone call
@@ -564,6 +562,10 @@
         href: voice-channel-monitor-calls.md
       - name: Voice channel analytics, reports, and call insights
         href: voice-channel-reports-analytics.md
+    - name: Emergency calling in the voice channel
+      href: voice-channel-emergency-calling.md
+    - name: FAQs about the voice channel
+      href: voice-channel-faqs.md  
   - name: Chat
     items: 
     - name: Administrator experience
