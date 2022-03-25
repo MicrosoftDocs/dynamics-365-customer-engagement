@@ -32,7 +32,7 @@ None
 
 ```JavaScript
 window.addEventListener("lcw:getAgentAvailability", function handlegetAgentAvailabilityEvent(){
-               // Closes an existing chat
+               // Gets the agent availability
                Microsoft.Omnichannel.LiveChatWidget.SDK.getAgentAvailability();
 });
 ```

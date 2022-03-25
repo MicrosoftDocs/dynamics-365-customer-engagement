@@ -1,1 +1,1 @@
-Retrieves the agent availability.
+Retrieves the agent availability for a queue based on the routing rules.
