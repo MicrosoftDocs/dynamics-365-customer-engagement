@@ -117,7 +117,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
     |Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |Configure import settings  |
     |---------|---------|---------|---------|
-    |Capacity Profile (msdyn_capacityprofile)     | <ul><li>Block Assignment (msdyn_blockassignment)</li><li> Capacity Profile (msdyn_capacityprofileid)</li><li>-Default Max Units (msdyn_defaultmaxunits)</li>-Name (msdyn_name)</li><li> Reset Duration </li><li>(msdyn_resetduration)</li><li>Unique Name (msdyn_uniquename)<li></ul> | <fetch>  |         |
+    |Capacity Profile (msdyn_capacityprofile)     | <ul><li>Block Assignment (msdyn_blockassignment)</li><li> Capacity Profile (msdyn_capacityprofileid)</li><li>-Default Max Units (msdyn_defaultmaxunits)</li>-Name (msdyn_name)</li><li> Reset Duration </li><li>(msdyn_resetduration)</li><li>Unique Name (msdyn_uniquename)<li></ul> | For all capacity profile records<br>`  <fetch>` <br>          `<entity name="msdyn_capacityprofile">` <br>`<filter type="and">`<br>`<condition attribute="ismanaged" operator="eq" value="0" />`<br>`</filter>`<br>`</entity>`<br>  `</fetch>`<br>  |         |
     |Row2     |         |         |         |
 
 
