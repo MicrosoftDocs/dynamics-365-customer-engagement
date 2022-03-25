@@ -156,7 +156,7 @@ When no rule condition is matched or no rule is defined, the work item is assign
 
 4. In **Route to queues**, select the queue to which the work items will be routed if the conditions are met.
    > [!NOTE]
-   > Make sure that you don't select **Default messaging queue**, **Default entity queue**, or fallback queue in the list. More information: [Default queues in Omnichannel for Customer Service](queues-omnichannel.md#default-queues)
+   > Make sure that you don't select **Default messaging queue**, **Default entity queue**, or fallback queue in the list. More information: [Default queues in Omnichannel for Customer Service](queues-omnichannel.md#default-queues) and [fallback queues](queues-omnichannel.md#fallback-queues)
 
    :::image type="content" source="media/ur-route-to-queue-decision.png" alt-text="Configure route to queue decision rules.":::
 
