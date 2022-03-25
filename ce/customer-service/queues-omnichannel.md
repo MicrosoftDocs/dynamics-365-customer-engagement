@@ -89,7 +89,7 @@ Assign a group number that helps you organize your queues in the list view. The 
 
 7. Select **Save and close**. The operating hour record that you selected is configured for the queue.
 
-### Manage queues for unified routing
+### Manage the queues for unified routing
 
 You can manage queues on the **Queues** page, and perform operations such as search, edit, copy, and delete the queues.
 
@@ -115,6 +115,11 @@ Work is routed to the default queues that act as a safety net in the following s
 
 > [!NOTE]
 > When you configure route to queues for work classification, we recommend that you don't select the default queues.
+
+### Fallback queues
+
+To efficiently manage the work items, you can configure a fallback queue per workstream. You can set an existing queue as the fallback queue or create a fallback queue with the required settings when you are creating a workstream. For existing workstreams, you can configure the fallback queue on the workstream page. If you choose to create a queue, you'll need to add users. You'll also need to configure the route to queue rules. By default, the assignment method for the fallback queue is highest capacity.
+
 
 ### See also
 
