@@ -23,7 +23,7 @@ Omnichannel for Customer Service does not record or store details of incoming or
 When the agent exits the emergency call and ends the session, the presence changes back to the earlier base status.
 
 > [!Note]
-> The emergency callback number is assigned to the agent for a duration of 60 minutes.
+> The emergency callback number is temporarily assigned to the agent for a duration of 60 minutes.
 
 ### See also
 
