@@ -30,22 +30,11 @@ Beyond workflows and processes, the voice channel benefits from a common data fr
 
 ### Differentiating AI
 
-The voice channel has Microsoft's award winning AI built into the product. This enables agents to resolve issues faster with tools like call transcriptions and sentiment analysis and gain instant insights into trends.
+The voice channel has Microsoft's award-winning AI built into the product. This enables agents to resolve issues faster with tools like call transcriptions and sentiment analysis, and gain instant insights into trends.
 
-### Emergency callback
+### Support for emergency calling
 
-With the new emergency calling feature, emergency responders can call back an agent over a temporary callback number. When the agent dials in the emergency number, the auto-responder bot receives the call and sends out a callback number (subscriber identifier) to the caller (agent).
-
-The agent can dial in using the callback number and leave a message. During the call, the agent's status is automatically changed to "Do not disturb", so the emergency callback gets the highest priority and all other incoming calls are blocked. The agent receives the responder callback directly bypassing any routing rules, capacity profiles, and presence setting (including the "Do not disturb" status).
-
-During the active emergency conversation, the conversation dashboard only displays just the device settings and the **End call** button. After the call ends, no calling controls or conversation history is displayed to ensure confidentiality of the emergency call.
-
-Omnichannel for Customer Service does not record or store details of incoming or outgoing emergency calls. Also, the Omnichannel Ongoing Conversations Dashboard will not display the emergency call details. 
-
-When the agent exits out of the emergency call and ends the session, the presence changes back to the earlier base status.
-
-> [!Note]
-> The emergency callback number is assigned to the agent for a duration of 60 minutes.
+The voice channel supports emergency calling where agents can dial in the emergency number in case of a crisis. The emergency responders can call back the agent over a temporary callback number. The agent can leave a voice message and can use the callback number to make calls to the emergency responders.
 
 ## Key capabilities of the voice channel
 
