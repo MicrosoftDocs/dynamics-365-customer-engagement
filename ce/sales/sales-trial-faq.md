@@ -3,7 +3,7 @@ title: "Sales Premium Trial FAQ | Microsoft Docs"
 description: "Solutions to common questions related to Dynamics 365 Sales Premium trial sign up and management. Learn how to resolve platform and app-specific issues."
 author: lavanyakr01
 ms.author: lavanyakr
-ms.date: 02/08/2022
+ms.date: 03/25/2022
 ms.topic: get-started
 
 ms.custom: template-trial-faq
