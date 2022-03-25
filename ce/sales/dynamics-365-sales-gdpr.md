@@ -33,11 +33,11 @@ It is also possible to update the read-only records programmatically with the SD
 
 2. Open the view that shows all the records regardless of their state. For example, open the **All Quotes** view.
 
-3. Select the records that you want to export, and on the command bar, select **Export to Excel** > **Static Worksheet**. More information: [Export data to Excel](../customerengagement/on-premises/basics/export-data-excel.md)
+3. Select the records that you want to export, and on the command bar, select **Export to Excel** > **Static Worksheet**. More information: [Export data to Excel](/powerapps/user/export-data-excel)
 
 4. In the file that you exported, make the necessary changes.
 
-5. To import the updated records back into [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], in your sales app, in the list of records, select **Import Data**. More information: [Import accounts, leads, or other data](../customerengagement/on-premises/basics/import-accounts-leads-other-data.md)
+5. To import the updated records back into [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], in your sales app, in the list of records, select **Import Data**. More information: [Import data into Dynamics 365 Sales](import-data.md)
 
 
 ## Important points

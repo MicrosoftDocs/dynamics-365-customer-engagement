@@ -33,7 +33,7 @@ This app works with deployments of Dynamics 365 Server, version 9.1.
 
 This is an on-premises release of Sales Hub v9.1.2009.3034 containing solutions for sales comprising all features and functionality available for on-premises use with Dynamics 365 Server.
 
-Download link: [v9_1_SalesAppOnPremExe9_0_2009_3034.zip](https://mbs2.microsoft.com/fileexchange/?fileID=d8b10ff9-bd8d-4e5a-91c8-8654bce0a016)
+Download link: [v9_1_SalesAppOnPremExe9_0_2009_3034.zip](https://download.microsoft.com/download/b/e/6/be6fdcd6-9c49-49e0-af9f-ef3454ac9677/v9_1_SalesAppOnPremExe9_0_2009_3034.zip)
 
 ### Instructions
 
@@ -67,7 +67,7 @@ This app works with deployments of Dynamics 365 Server, version 9.0.
 
 This is an on-premises release of Sales Hub v9_0_SalesAppOnPremExe9.0.4.1310. It contains solutions for sales comprising all features and functionality available for on-premises use with Dynamics 365 Server.
 
-Download link: [Sales App v9.0.4.1310](https://mbs2.microsoft.com/fileexchange/?fileID=abde6a2b-8955-4c28-aa69-0adad7fcdf3d)
+Download link: [Sales App v9.0.4.1310](https://download.microsoft.com/download/b/e/6/be6fdcd6-9c49-49e0-af9f-ef3454ac9677/SalesApp-OnPrem_9.0.4.1310.exe)
 
 ### Instructions
 

@@ -32,7 +32,7 @@ In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], **Talking poin
 
 > [!NOTE]
 > - The system administrator configures which categories of talking points should be displayed in your organization. 
-> - To view talking points, ensure that your mailbox is configured and approved in Dynamics 365 Sales, and Server-side sync is enabled. More information: [Set up server-side synchronization of email, appointments, contacts, and tasks](/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks).  
+> - To view talking points, ensure that your mailbox is configured and approved in Dynamics 365 Sales, and Server-side sync is enabled. More information: [Set up server-side synchronization of email, appointments, contacts, and tasks](/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks).  
 
 > [!div class="mx-imgBorder"]
 > ![Talking point](media/talkingpoints.png "Talking point")
@@ -54,7 +54,7 @@ Talking points will display only the latest communication for each topic on the 
 
 ### See also
 
-[Configure talking points](configure-talking-points.md)
+[Configure talking points](configure-talking-points.md)  
 [Talking points FAQs](faqs-sales-insights.md#talking-points)
 
 

@@ -31,6 +31,9 @@ The mobile app provides a rich offline experience that helps users stay producti
   
 The offline experience uses [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] services to periodically synchronize tables with the mobile app so that synchronized rows are available when a user's mobile devices is disconnected from the internet. 
 
+Before you set-up the mobile app in offline mode be sure to review [mobile offline capabilities and limitations](mobile-offline-capabilities.md).
+
+
 > [!IMPORTANT]
 > - To use this feature an administrator must to set up mobile offline for their organization. The set up and configuration process for mobile offline is the same for [Power Apps mobile](/powerapps/mobile/run-powerapps-on-mobile) and Dynamics 365 for phones and tablets app. To enable mobile offline synchronization for Power Apps mobile or Dynamics 365 mobile, follow the steps in this article.
 > - There is new mobile offline experience for model-driven apps. For more information, see [Mobile offline overview (preview)](/powerapps/mobile/work-in-offline-mode).
@@ -42,7 +45,7 @@ Mobile offline is available for iOS and Android devices. To use the mobile offli
 
 ### Install Dynamics 365 phones and table app (for customer engagement apps in Dynamics 365)
 
-For customer engagement apps (such as [Dynamics 365 Sales](../sales-professional/help-hub.md), [Dynamics 365 Customer Service](../customer-service/help-hub.md), and [Dynamics 365 Marketing](../marketing/help-hub.md)) [install Dynamics 365 for phones and tables app](./install-dynamics-365-for-phones-and-tablets.md).
+For customer engagement apps (such as [Dynamics 365 Sales](../sales-professional/help-hub.md), [Dynamics 365 Customer Service](../customer-service/help-hub.md), and [Dynamics 365 Marketing](../marketing/help-hub.yml)) [install Dynamics 365 for phones and tables app](./install-dynamics-365-for-phones-and-tablets.md).
 
 Supported devices for mobile offline:
 
@@ -62,6 +65,7 @@ For information on supported devices for Power Apps mobile, see [Supported devic
 ## Step 1: Enable tables for mobile offline synchronization 
  
 One of the first things you need to do is enable tables that will be available to mobile users when they're using the mobile app in offline mode. You can disable or enable any of the supported tables for offline mode.
+
 
 To enable a table for mobile offline synchronization, follow the steps below.
 
