@@ -39,7 +39,7 @@ Relationship analytics appears on Sales Insights opportunity record forms. Relat
 
     >[!NOTE]
     >- Your Office 365 administrator must give consent to use Office 365 data before relationship analytics can include Exchange Online emails. If consent hasn't been given, a message displays stating the same. Work with your Office 365 administrator to get consent. For more information, see [Provide consent for collecting data from Office 365](./provide-consent-office365.md).  
-    >- The application analyzes the Exchange emails data pertaining to two years (including the current year).  
+    >- The application analyzes the Exchange emails data pertaining to two years, including the current year.  
 
     :::image type="content" source="./media/si-admin-relationship-analytics-enable-in-organization.png" alt-text="A screenshot of the Relationship analytics and health settings page.":::
 
