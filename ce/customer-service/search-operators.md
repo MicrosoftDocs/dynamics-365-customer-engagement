@@ -29,7 +29,7 @@ This topic describes the search fields and search operators with their respectiv
 
 ## Custom search fields configured in Dataverse search
 
-Depending on the custom field configurations made in Dataverse search, you could use the information provided in the search results, such as  article number, info card that displays search term matches from keywords, description, attachments, and any other custom fields.
+Depending on the custom field configurations made in Dataverse search, you could use the information provided in the search results, such as  article number, info card that displays search term matches from keywords, description, attachments, and any other custom fields. More information: [Use the knowledge search pane to search articles](csw-search-knowledge-articles.md#use-the-knowledge-search-pane-to-search-articles).
 
 ## Search operators
 
