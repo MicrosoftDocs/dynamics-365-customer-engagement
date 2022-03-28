@@ -1,7 +1,7 @@
 ---
 title: Learn which search operators can be used for knowledge management in Dynamics 365 Customer Service | Microsoft Docs
 description: Use search operators to search for knowledge articles in the Customer Service Hub.
-ms.date: 03/02/2022
+ms.date: 03/28/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -17,9 +17,15 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Search operators
+# Understand knowledge search
 
 ## Introduction
+
+Setting up a comprehensive knowledge base is the key to increased customer satisfaction and improved productivity. A knowledge base is created to help agents with solutions to the most common customer issues, so that they can assist customers quickly.
+
+This topic describes how various search methods work in a knowledge base, and how a customer service rep can view accurate search results based on the client, application, or keyword they use to search the knowledge base.
+
+See the following section to learn the types of search mechanisms available.
 
 Knowledge management search control uses Dataverse search to search for knowledge articles. More information: [What is Dataverse search?](/power-platform/admin/configure-relevance-search-organization).
 
