@@ -18,21 +18,21 @@ You must ensure the following conditions are met for emergency calling to work p
 - The omnichannel user should have an outbound profile and must belong to a voice queue.
 - Location sharing and detection must be enabled on your browser.
 
-## Introduction
+## How emergency calling works
 
 With the new emergency calling feature, anyone who's configured to make outbound calls, whether it's an omnichannel administrator, supervisor, or agent, can call the emergency number during a crisis situation. When the agent dials the emergency number, a temporary callback number is assigned to the agent. The callback number is temporarily assigned to the agent for a duration of 60 minutes.
 
 During the call, the agent's status is automatically changed to "Do not disturb", so the emergency callback gets the highest priority and all other incoming calls are blocked. The agent receives the responder callback directly bypassing any routing rules, capacity profiles, and presence setting (including the "Do not disturb" status).
 
-During the ongoing emergency conversation, the conversation dashboard displays just the device settings and the **End call** button. After the call ends, no calling controls or conversation history is displayed to ensure confidentiality of the emergency call. When the agent exits the emergency call and ends the session, the presence changes back to the earlier base status.
+During the ongoing emergency conversation, the **Omnichannel Ongoing Conversations** dashboard displays just the device settings and the **End call** button; the dashboard doesn't display any call details. After the call ends, the calling controls and conversation history are not displayed to ensure confidentiality of the emergency call. When the agent exits the emergency call and ends the session, the presence changes back to the earlier base status.
 
 > [!Note]
-> - Emergency calling is currently supported only in the US and Puerto Rico where the emergency calling number is 911.
-> - Omnichannel for Customer Service does not record or store details of incoming or outgoing emergency calls. Also, the Omnichannel Ongoing Conversations Dashboard will not display the emergency call details.
+> - Emergency calling is currently supported only in US and Puerto Rico where the emergency calling number is 911.
+> - Omnichannel for Customer Service does not record or store details of incoming or outgoing emergency calls.
 
 ### See also
 
-[Set up outbound calling in the voice channel](voice-channel-outbound-calling.md)    
+[Set up outbound calling in the voice channel](voice-channel-outbound-calling.md)  
 [Set up inbound calling for the voice channel](voice-channel-route-queues.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
