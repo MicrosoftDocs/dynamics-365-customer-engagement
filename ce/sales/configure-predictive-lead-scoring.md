@@ -56,7 +56,7 @@ You can add custom fields to generate an accurate model for predictive lead scor
 
 Verify that you meet the following requirement before adding predictive lead scoring models for your organization:
 
-- A minimum of 40 qualified and 40 disqualified leads in the past 3 months to 2 years. You can configure the time frame in the **Train with leads from the past** field. More information: [First-run setup experience](#first-run-setup-experience)
+- A minimum of 40 qualified and 40 disqualified leads in the past 3 months to 2 years. You can configure the timeframe in the **Train with leads from the past** field. More information: [First-run setup experience](#first-run-setup-experience)
 
     >[!NOTE]
     >These numbers represent the minimum requirement. The more leads you can include to train the model, the better the prediction results will be.
