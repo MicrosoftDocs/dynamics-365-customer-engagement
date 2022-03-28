@@ -1,7 +1,7 @@
 ---
 title: "Configure predictive lead scoring"
 description: "Configure predictive lead scoring to help sellers prioritize leads based on scores and achieve higher lead qualification rates."
-ms.date: 01/10/2022
+ms.date: 03/28/2022
 ms.custom: 
 ms.topic: article
 ms.assetid: 8660ca75-c63c-495d-a1a6-d3a0cd36f7cb
@@ -56,7 +56,7 @@ You can add custom fields to generate an accurate model for predictive lead scor
 
 Verify that you meet the following requirement before adding predictive lead scoring models for your organization:
 
-- A minimum of 40 qualified and 40 disqualified leads in the past 3 months to 2 years. You can configure the time frame in the **Train with leads from the past** field.
+- A minimum of 40 qualified and 40 disqualified leads in the past 3 months to 2 years. You can configure the time frame in the **Train with leads from the past** field. More information: [First-run setup experience](#first-run-setup-experience)
 
     >[!NOTE]
     >These numbers represent the minimum requirement. The more leads you can include to train the model, the better the prediction results will be.
