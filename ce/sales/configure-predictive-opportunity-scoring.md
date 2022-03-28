@@ -180,7 +180,10 @@ If you're using your custom attributes for opportunity generation, you can gener
 
     With multiple models, each model can be directed to score a specific set of opportunities based on the line of business they belong to, or based on other criteria. The filter column is the column that holds the value that distinguishes which opportunities the model should score. These selections determine which column and which values within that column correspond to the opportunities that this model will score.  
 
-8. Choose a time period from the **Train with opportunities from the past** list. The default duration is 2 years.   
+    >[!NOTE]
+    >To filter based on multiple columns, create a calculated field with the required columns and then select the calculated field in the Filter column field. More information: [Define calculated columns to automate calculations](/powerapps/maker/data-platform/define-calculated-fields)
+   
+8. Choose time period from the **Train with opportunities from the past** list. The default duration is 2 years.   
 
     > [!NOTE]
     > You must have a minimum of 40 won and 40 lost opportunities that were created during the selected period. For example, if you select 6 months, the model considers opportunities that were created in the past 6 months to verify whether the minimum opportunity requirement is met.  
