@@ -30,14 +30,7 @@ During the ongoing emergency conversation, the conversation dashboard displays j
 
 ### See also
 
-[Introduction to the voice channel](voice-channel.md)  
-[Regional availability of the voice channel](voice-channel-region-availability.md)  
-[International availability of Omnichannel for Customer Service](international-availability.md)  
-[System requirements](system-requirements-omnichannel.md)  
-[Provision Omnichannel for Customer Service](omnichannel-provision-license.md)  
-[FAQs about the voice channel in Omnichannel for Customer Service](voice-channel-faqs.md)  
-
-[Blog: New voice channel streamlines omnichannel customer experiences](https://cloudblogs.microsoft.com/dynamics365/bdm/2020/09/23/new-voice-channel-streamlines-omnichannel-customer-experiences/)  
-
+[Set up outbound calling in the voice channel](voice-channel-outbound-calling.md)    
+[Set up inbound calling for the voice channel](voice-channel-route-queues.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
