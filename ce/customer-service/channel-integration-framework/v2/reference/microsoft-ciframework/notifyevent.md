@@ -27,7 +27,7 @@ Displays a notification that can be used to inform the agent about incoming conv
 | correlationId   | GUID     | No           | Used to group all related API calls together for diagnostic telemetry.  |
 | cancellationToken | String    | No        | Is the unique string that's used by the [`cancelEvent`](cancelEvent.md) method to cancel notifications about incoming conversations. |
 | successCallback | Function | No           | A function to call when the request is successful. On successful callback, the response object will have the information about whether the customer accepted or rejected the conversation. |
-| errorCallback   | Function | No           | A function to call when the operation fails.  |
+| errorCallback   | Function | No           | A function to call when the request fails.  |
 
 ## Callback function details
 

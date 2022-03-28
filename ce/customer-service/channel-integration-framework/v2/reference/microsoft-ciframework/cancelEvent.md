@@ -26,7 +26,7 @@ Cancels the notification about incoming conversations based on the cancellation 
 | cancellationToken| String   | Yes          | Unique string that was provided in the [`notifyEvent`](notifyevent.md) method to display notifications about incoming conversations.      |
 | correlationId    | GUID     | No           | Used to group all related API calls together for diagnostic telemetry.   |
 | successCallback  | Function | No | A function to call when the request is successful. On successful callback, the response object will contain the cancellation token.|
-| errorCallback    | Function | No           | A function to call when the operation fails.  |
+| errorCallback    | Function | No           | A function to call when the request fails.  |
 
 ## Callback function details
 
