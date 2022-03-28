@@ -180,6 +180,9 @@ If you're using your custom attributes for opportunity generation, you can gener
 
     With multiple models, each model can be directed to score a specific set of opportunities based on the line of business they belong to, or based on other criteria. The filter column is the column that holds the value that distinguishes which opportunities the model should score. These selections determine which column and which values within that column correspond to the opportunities that this model will score.  
 
+    >[!NOTE]
+    >To filter based on multiple columns, create a calculated field with the required columns and then select the calculated field in the Filter column field. More information: [Define calculated columns to automate calculations](/powerapps/maker/data-platform/define-calculated-fields)
+
 8. Choose time period from the **Train with opportunities from the past** list. The default duration is 2 years.   
 
    For example, if you want to consider the closed opportunities from past 6 months to train the model, choose 6 months from the list. The model considers the closed opportunities from the past 6 months and trains the model to score the open opportunities from past 2 years.  
