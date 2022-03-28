@@ -49,7 +49,7 @@ the reply with the App for Outlook including replies to this
 because the master email is still tracked.
 
 An administrator can change the
-[*OrgDbOrgSetting*](/power-platform/admin/environment-database-settings.md) to,
+[*OrgDbOrgSetting*](/power-platform/admin/environment-database-settings) to,
 **IgnoreConversationIndexAndInReplyToForCorrelation**, which changes the
 functionality when **Use correlation to track email conversations** is the
 only selected email correlation option. However, if tracking token or
@@ -74,7 +74,7 @@ the forward with the App for Outlook and any replies to this
 because the master email is still tracked.
 
 An administrator can change the
-[*OrgDbOrgSetting*](/power-platform/admin/environment-database-settings.md) to,
+[*OrgDbOrgSetting*](/power-platform/admin/environment-database-settings) to,
 **IgnoreConversationIndexAndInReplyToForCorrelation**, which changes the
 functionality when **Use correlation to track email conversations** is the
 only selected email correlation option. However, if tracking token or
@@ -100,7 +100,7 @@ is best to assume this scenario will also track.
 If you untrack a reply or forward to a thread on a tracked email thread,
 and if the initial/master email is still tracked, it will continue to
 track replies. If there are certain replies you do not want to track,
-you will need to untrack these manually or change the [*OrgDbOrgSetting*](/power-platform/admin/environment-database-settings.md) to
+you will need to untrack these manually or change the [*OrgDbOrgSetting*](/power-platform/admin/environment-database-settings) to
 **IgnoreConversationIndexAndInReplyToForCorrelation** and prevent replies
 and forwards from being tracked. 
 
