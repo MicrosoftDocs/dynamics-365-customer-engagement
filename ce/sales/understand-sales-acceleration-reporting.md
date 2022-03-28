@@ -100,7 +100,7 @@ The following metrics are displayed in the charts.
 
 ### See also
 
-[Enable the sales accelerator reports preview](enable-configure-sales-accelerator.md#enable-sales-accelerator-reports)    
+[Sequence reporting](customize-sales-accelerator-sellers.md#enable-sales-accelerator-reports)    
 [Understand the sequence stats page](understand-sequence-stats.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
