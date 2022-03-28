@@ -228,7 +228,7 @@ You can use the `Microsoft.Crm.PowerShell.Get-CrmSetting` and `Microsoft.Crm.Pow
 ## WebAddressSettings  
  For an example of code you can use to update web address settings in your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] deployment, see [Configure web address settings](configure-web-address-settings.md). The following settings are available.  
   
-|Name|Description||  
+|Name|Description|Type|  
 |----------|-----------------|-|  
 |DeploymentSdkRootDomain|Gets or sets the root domain for the deployment web service (SDK).|String|  
 |DiscoveryRootDomain|Gets or sets the root domain for the discovery web service.|String|  

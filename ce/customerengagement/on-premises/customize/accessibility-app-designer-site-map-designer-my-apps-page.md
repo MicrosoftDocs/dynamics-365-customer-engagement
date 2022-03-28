@@ -26,16 +26,17 @@ Microsoft is committed to making its products and services easier for everyone. 
 ## Keyboard shortcuts  
  Dynamics 365 for Customer Engagement offers keyboard shortcuts to address issues faced by people with limited dexterity or motion disabilities.  
 
-|My Apps page|||  
-|------------------|-|-|  
+My Apps page
+
 |**To**|**Shortcut Keys (Windows)**|**Shortcut Keys (Mac)**|  
+|------------------|-|-|  
 |Create a New App.|Alt + N|Opt + N|  
 |Open the **More Actions** menu on the selected tile.|Alt + M|Opt + N|  
 
+App designer and site map designer
 
-|App designer and site map designer|||  
-|----------------------------------------|-|-|  
 |**To**|**Shortcut Keys (Windows)**|**Shortcut Keys (Mac)**|  
+|----------------------------------------|-|-|  
 |Go to the next section or major component.|Ctrl + F6|Cmd + F6|  
 |Go to the previous section or major component.|Shift + Ctrl + F6|Shift + Cmd + F6|  
 |Save command.|Ctrl + S|Cmd + S|  

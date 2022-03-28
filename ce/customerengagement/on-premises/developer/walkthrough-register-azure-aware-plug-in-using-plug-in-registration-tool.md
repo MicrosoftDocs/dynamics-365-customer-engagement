@@ -55,10 +55,13 @@ This walkthrough demonstrates how to register a service endpoint step using the 
 
 3. In the **Login** dialog box, select the deployment type radio button corresponding to the Dynamics 365 Server you intend to register a service endpoint with. The **On-premises** radio button includes an IFD deployment and the **Office 365** button is for the [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)] provider of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
 
+   ![Login form for an online deployment](media/crm-v6s-pr.png "Login form for an online deployment")
 
-   |                                                                                                                                             |                                                                                                                                                                                 |
-   |---------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-   | ![Login form for an online deployment](media/crm-v6s-pr.png "Login form for an online deployment")<br />Login form for an online deployment | ![Login window for an on&#45;premises deployment](media/crm-v6s-pr-login-onprem.png "Login window for an on-premises deployment")<br />Login form for an on-premises deployment |
+   Login form for an online deployment
+
+   ![Login window for an on&#45;premises deployment](media/crm-v6s-pr-login-onprem.png "Login window for an on-premises deployment")
+
+   Login form for an on-premises deployment
 
 
 4. If you check **Display list of available organizations**, you are presented with a list of organizations that you belong to after you click **Login**. This enables you to choose the organization that you want to register the service endpoint with. Otherwise, your default organization is used.  

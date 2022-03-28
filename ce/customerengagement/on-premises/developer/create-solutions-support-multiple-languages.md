@@ -64,12 +64,16 @@ search.audienceType:
 <a name="BKMK_ExportAndImportTranslations"></a>   
 ## Export and import translations  
  Localizable labels for the solution components in the following table can be exported for localization.  
-  
-||||  
-|-|-|-|  
-|Entities|Attributes|Relationships|  
-|Global Option Sets|Entity Messages|Entity Forms|  
-|Entity Views (SavedQuery)|Charts|Dashboards|  
+
+- Entities
+- Attributes
+- Relationships
+- Global Option Sets
+- Entity Messages
+- Entity Forms
+- Entity Views (SavedQuery)
+- Charts
+- Dashboards
   
 ### Translating labels and display strings  
  You can only perform customizations in the application by using the base language. Therefore, when you want to provide localized labels and display strings for these customizations, you must export the text of the labels so that they can be localized for any other languages enabled for the organization. Use the following steps:  

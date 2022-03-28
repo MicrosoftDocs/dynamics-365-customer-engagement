@@ -140,10 +140,10 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 #### msdyn_operator Options
 
-|Value|Label|
+| Value | Label |
 |-----|-----|
-|192350000|&&|
-|192350001||||
+| 192350000 | && |
+| 192350001 | \|\| |
 
 
 

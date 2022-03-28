@@ -94,14 +94,24 @@ Solutions are made of solution components. You'll use the **Solutions** area in 
 ## Common Solution components  
  These are the solution components displayed in the application and the components that you'll work with directly when adding or removing solution components using the solution page. Each of the other types of solution components will depend on one or more of these solution components to exist.  
   
-||||  
-|-|-|-|  
-|[Application Ribbons (RibbonCustomization)](dependency-tracking-solution-components.md#BKMK_RibbonCustomization)|[Entity (Entity)](dependency-tracking-solution-components.md#BKMK_Entity)|[Report (Report)](dependency-tracking-solution-components.md#BKMK_Report)|  
-|[Article Template (KBArticleTemplate)](dependency-tracking-solution-components.md#BKMK_KBArticleTemplate)|[Field Security Profile (FieldSecurityProfile)](dependency-tracking-solution-components.md#BKMK_FieldSecurityProfile)|[SDK Message Processing Step (SDKMessageProcessingStep)](dependency-tracking-solution-components.md#BKMK_SDKMessageProcessingStep)|  
-|[Connection Role (ConnectionRole)](dependency-tracking-solution-components.md#BKMK_ConnectionRole)|[Mail Merge Template (MailMergeTemplate)](dependency-tracking-solution-components.md#BKMK_MailMergeTemplate)|[Security Role (Role)](dependency-tracking-solution-components.md#BKMK_Role)|  
-|[Contract Template (ContractTemplate)](dependency-tracking-solution-components.md#BKMK_ContractTemplate)|[Option Set (OptionSet)](dependency-tracking-solution-components.md#BKMK_OptionSet)|[Service Endpoint (ServiceEndpoint)](dependency-tracking-solution-components.md#BKMK_ServiceEndpoint)|  
-|[Dashboard or Entity Form (SystemForm)](dependency-tracking-solution-components.md#BKMK_SystemForm)|[Plug-in Assembly (PluginAssembly)](dependency-tracking-solution-components.md#BKMK_PluginAssembly)|[Site Map (SiteMap)](dependency-tracking-solution-components.md#BKMK_SiteMap)|  
-|[Email Template (EmailTemplate)](dependency-tracking-solution-components.md#BKMK_EmailTemplate)|[Process (Workflow)](dependency-tracking-solution-components.md#BKMK_Workflow)|[Web Resource (WebResource)](dependency-tracking-solution-components.md#BKMK_WebResource)|  
+- [Application Ribbons (RibbonCustomization)](dependency-tracking-solution-components.md#BKMK_RibbonCustomization)
+- [Entity (Entity)](dependency-tracking-solution-components.md#BKMK_Entity)
+- [Report (Report)](dependency-tracking-solution-components.md#BKMK_Report)
+- [Article Template (KBArticleTemplate)](dependency-tracking-solution-components.md#BKMK_KBArticleTemplate)
+- [Field Security Profile (FieldSecurityProfile)](dependency-tracking-solution-components.md#BKMK_FieldSecurityProfile)
+- [SDK Message Processing Step (SDKMessageProcessingStep)](dependency-tracking-solution-components.md#BKMK_SDKMessageProcessingStep)
+- [Connection Role (ConnectionRole)](dependency-tracking-solution-components.md#BKMK_ConnectionRole)
+- [Mail Merge Template (MailMergeTemplate)](dependency-tracking-solution-components.md#BKMK_MailMergeTemplate)
+- [Security Role (Role)](dependency-tracking-solution-components.md#BKMK_Role)
+- [Contract Template (ContractTemplate)](dependency-tracking-solution-components.md#BKMK_ContractTemplate)
+- [Option Set (OptionSet)](dependency-tracking-solution-components.md#BKMK_OptionSet)
+- [Service Endpoint (ServiceEndpoint)](dependency-tracking-solution-components.md#BKMK_ServiceEndpoint)
+- [Dashboard or Entity Form (SystemForm)](dependency-tracking-solution-components.md#BKMK_SystemForm)
+- [Plug-in Assembly (PluginAssembly)](dependency-tracking-solution-components.md#BKMK_PluginAssembly)
+- [Site Map (SiteMap)](dependency-tracking-solution-components.md#BKMK_SiteMap)
+- [Email Template (EmailTemplate)](dependency-tracking-solution-components.md#BKMK_EmailTemplate)
+- [Process (Workflow)](dependency-tracking-solution-components.md#BKMK_Workflow)
+- [Web Resource (WebResource)](dependency-tracking-solution-components.md#BKMK_WebResource)
   
 <a name="BKMK_RibbonCustomization"></a>   
 ### Application ribbons (RibbonCustomization)  

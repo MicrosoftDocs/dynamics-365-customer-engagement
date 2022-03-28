@@ -57,7 +57,7 @@ In Dynamics 365 Customer Engagement (on-premises) the fundamental concept in rol
 
  The following table lists the levels of access in Dynamics 365 Customer Engagement (on-premises), starting with the most access. The icon is shown in the security role editor in the Web application.  
 
-|||  
+|Access level |Description |  
 |-|-|  
 |![Access level global.](../media/access-level-global.gif "Access level global")|**Global**. This access level gives a user access to all records within the organization, regardless of the business unit hierarchical level to which the instance or the user belongs. Users who have Global access automatically have Deep, Local, and Basic access, also.<br /><br /> Because this access level gives access to information throughout the organization, it should be restricted to match the organization's data security plan. This level of access is usually reserved for managers with authority over the organization.<br /><br /> The application refers to this access level as **Organization**.|  
 |![Access level deep.](../media/access-deep.png "Access level deep")|**Deep**. This access level gives a user access to records in the user's business unit and all business units subordinate to the user's business unit.<br /><br /> Users who have Deep access automatically have Local and Basic access, also.<br /><br /> Because this access level gives access to information throughout the business unit and subordinate business units, it should be restricted to match the organization's data security plan. This level of access is usually reserved for managers with authority over the business units.<br /><br /> The application refers to this access level as **Parent: Child Business Units**.|  
@@ -87,9 +87,8 @@ In Dynamics 365 Customer Engagement (on-premises) the fundamental concept in rol
  The following table lists the predefined set of roles that are included.  
 
 
-|                                       |                                                                                                                                      |
-|---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
 |                 Role                  |                                                             Description                                                              |
+|---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
 |         CEO-Business Manager          |                                 A user who manages the organization at the corporate business level.                                 |
 |              CSR Manager              |                              A user who manages customer service activities at the local or team level.                              |
 | Customer Service Representative (CSR) |                                        A customer service representative (CSR) at any level.                                         |
