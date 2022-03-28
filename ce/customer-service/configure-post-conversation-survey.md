@@ -86,7 +86,7 @@ In the Omnichannel admin center or Omnichannel Administration app, you can set u
 
     By default the **Use same survey settings as above** checkbox is selected.
 
-1. If you want to use different settings, repeat the steps 4 and 5.
+1. If you want to use different settings for the surveys sent by bots, repeat the steps 4 and 5.
 
 1. Select **Save and close**.
 
