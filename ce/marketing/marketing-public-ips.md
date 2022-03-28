@@ -18,7 +18,7 @@ search.app:
   - D365Mktg
 ---
 
-### Dynamics 365 Marketing public IP addresses
+# Dynamics 365 Marketing public IP addresses
 
 The table below shows Marketing services public IP addresses listed by region.
 
