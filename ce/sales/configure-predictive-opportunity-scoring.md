@@ -55,7 +55,7 @@ You can add custom fields to generate an accurate model for predictive opportuni
 
 Verify that you meet the following requirement before adding predictive opportunity scoring models for your organization:
 
-- A minimum of 40 won and 40 lost opportunities in the past 3 months to 2 years. You can configure the time frame in the **Train with opportunities from the past** field. More information: h[First-run setup experience](#first-run-setup-experience)
+- A minimum of 40 won and 40 lost opportunities in the past 3 months to 2 years. You can configure the time frame in the **Train with opportunities from the past** field. More information: [First-run setup experience](#first-run-setup-experience)
 
     >[!NOTE]
     >These numbers represent the minimum requirement. The more opportunities you can include to train the model, the better the prediction results will be.
