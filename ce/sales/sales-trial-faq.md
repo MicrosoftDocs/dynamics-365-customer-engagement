@@ -77,7 +77,7 @@ The following licenses and capabilities pre-installed in the trial app:
     - Sell smartly using Sales accelerator that builds a strong and prioritized pipeline, offers context, and surfaces automated recommendations.
     - Improve seller coaching and sales potential with conversation intelligence.
         > [!NOTE]
-        > Conversation intelligence is not supported for non-work accounts.
+        > Conversation intelligence is only supported for work accounts.
     - Get the AI-powered assistant to stay on top of your activities.
     - Prioritize leads and opportunities using predictive scoring.
     - Analyze revenue outcome by using predictive forecasting.
@@ -92,7 +92,7 @@ To get started with the sales insights features, see [Sales Insights Add-in for 
 
 ### Why am I not able to use conversation intelligence features? 
 
-Conversation intelligence is only supported for work accounts with a Microsoft tenant. If you've used a non-work account to sign up for the trial, accessing the conversation intelligence options in the app will display a message as shown in the following screenshot:
+Conversation intelligence is only supported for work accounts with a Microsoft tenant. For other accounts, conversation intelligence options in the app will display a message as shown in the following screenshot:
 
 :::image type="content" source="media/ci-trial-unsupported.png" alt-text="A screenshot of message shown in the conversation intelligence pages for non-work accounts.":::
 
