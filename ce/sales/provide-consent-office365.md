@@ -15,6 +15,8 @@ manager: shujoshi
 
 Relationship analytics and health scores that include insights from Exchange Online are more accurate than those that include only data from Dynamics 365. However, an Office 365 administrator must provide consent for Dynamics 365 to collect information from your organization's Exchange server.  
 
+When provided, the application analyzes the Exchange emails data pertaining to two years, including the current year.  
+
 > [!TIP]
 > For more information on how relationship analytics uses Office 365 data, see [Use relationship analytics to gather KPIs](./relationship-analytics.md).
 
