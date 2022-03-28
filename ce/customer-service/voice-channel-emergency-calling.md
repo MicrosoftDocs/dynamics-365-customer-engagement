@@ -4,7 +4,7 @@ description: "Use this article to understand how emergency calls work in the voi
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 01/04/2022
+ms.date: 04/01/2022
 ms.topic: article
 ---
 
@@ -14,7 +14,9 @@ ms.topic: article
 
 ## Prerequisites
 
-The omnichannel user should have an outbound profile and must belong to a voice queue.
+You must ensure the following conditions are met for emergency calling to work properly
+- The omnichannel user should have an outbound profile and must belong to a voice queue.
+- Location sharing and detection must be enabled on your browser.
 
 ## Introduction
 

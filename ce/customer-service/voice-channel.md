@@ -4,7 +4,7 @@ description: "Get an overview of the voice channel and its offerings in Omnichan
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 01/04/2022
+ms.date: 04/01/2022
 ms.topic: overview
 ---
 
