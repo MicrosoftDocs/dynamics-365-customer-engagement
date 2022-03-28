@@ -1,11 +1,11 @@
 ---
 title: "Emergency calling in the voice channel | MicrosoftDocs"
-description: "Understand how emergency calls work in the voice channel of Omnichannel for Customer Service."
+description: "Use this article to understand how emergency calls work in the voice channel of Omnichannel for Customer Service."
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
 ms.date: 01/04/2022
-ms.topic: overview
+ms.topic: article
 ---
 
 # Emergency calling in the voice channel
@@ -13,6 +13,8 @@ ms.topic: overview
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Prerequisites
+
+The omnichannel agent should have an outbound profile and must belong to a voice queue.
 
 > [!Important]
 > Currently emergency calling is supported only in US and Puerto Rico where the emergency calling number is 911.

@@ -34,7 +34,7 @@ The voice channel has Microsoft's award-winning AI built into the product. This 
 
 ### Support for emergency calling
 
-The voice channel supports emergency calling where agents can dial in the emergency number in case of a crisis. The emergency responders can call the agent back over a temporary callback number even if the agent calls via a shared outbound number. 
+The voice channel supports emergency calling where agents can dial in the emergency number in case of a crisis. Any omnichannel voice agent with outbound profile enabled and belonging to a voice queue can make an emergency call. The emergency responders can call back over a temporary callback number (even if the agent calls via a shared outbound number).
 
 ## Key capabilities of the voice channel
 
