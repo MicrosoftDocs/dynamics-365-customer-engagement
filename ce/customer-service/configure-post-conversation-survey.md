@@ -63,7 +63,7 @@ In the Omnichannel admin center or Omnichannel Administration app, you can set u
     - In the site map, select **Workstreams** in **Customer support**.
 
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
-    
+
      - In the site map, select **Workstreams** in **General settings**.
 
 1. Select the channel instance, and then select **Edit**.
@@ -87,12 +87,12 @@ In the Omnichannel admin center or Omnichannel Administration app, you can set u
     By default the **Use same survey settings as above** checkbox is selected.
 
 1. If you want to use different settings, repeat the steps 4 and 5.
-   
+
 1. Select **Save and close**.
 
 ## Runtime experience of post-conversation surveys
 
-If the post-conversation survey is enabled for a conversation, after the conversation ends, the pre-designed survey is shared with the customer. This survey allows you to keep a track of the customer's feedback of the service provided. Any conversation can be considered as closed when one of the following scenarios happen:
+If the post-conversation survey is enabled for a conversation, after the conversation ends, the pre-designed survey is shared with the customer. This survey allows you to keep a track of the customer feedback of the service provided. Any conversation can be considered as closed when one of the following scenarios happen:
 
 - Agent closes the chat conversation.
 - Customer closes the chat conversation.
