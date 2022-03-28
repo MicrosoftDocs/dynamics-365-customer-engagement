@@ -4,7 +4,7 @@ description: "Get an overview of the voice channel in Omnichannel for Customer S
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 03/28/2022
+ms.date: 01/04/2022
 ms.topic: overview
 ---
 
@@ -34,7 +34,7 @@ The voice channel has Microsoft's award-winning AI built into the product. This 
 
 ### Support for emergency calling
 
-The voice channel supports emergency calling where agents can dial in the emergency number in case of a crisis. The emergency responders can call the agent back over a temporary callback number. The agent can leave a voice message and also use the callback number to make calls to the emergency responders.
+The voice channel supports emergency calling where agents can dial in the emergency number in case of a crisis. The emergency responders can call the agent back over a temporary callback number even if the agent calls via a shared outbound number. 
 
 ## Key capabilities of the voice channel
 
@@ -42,7 +42,7 @@ Take a look at some of the key capabilities that makes the voice channel great f
 
 | User experience | Capability |
 | --- | --- |
-| Agent  |  <ul><li>Call controls: Mute, Hold, End</li><li>Music on hold</li><li>Music on wait</li><li>Integrated customer and case history lookup</li><li>Notes and knowledge search</li><li>Mark a number as spam</li><li>Dial in the emergency number during crises </li> <li>Receive calls from emergency responders over a dedicated callback number </li></ul>  |
+| Agent  |  <ul><li>Call controls: Mute, Hold, End</li><li>Music on hold</li><li>Music on wait</li><li>Integrated customer and case history lookup</li><li>Notes and knowledge search</li><li>Mark a number as spam</li><li>Dial an emergency number during crises (currently supported for US and Puerto Rico only)</li> <li>Receive callbacks from emergency responders over a dedicated callback number </li></ul>  |
 | Calling and routing  | <ul><li>Ability to handle and distribute incoming calls, automatic call distribution (routing)</li><li>Ability to make outbound calls</li><li>Transfer to external phone number</li><li>Phone number provisioning and management</li><li>Skills-based assignment</li></ul> |
 | AI | <ul><li>Call insights </li><li>Real-time sentiment analysis</li><li>Real-time transcription and recording</li><li>Real-time translation of call transcripts</li><li>Real-time smart-assist suggestions</li><li>No-code Virtual Agent as IVR</li></ul> |
 | Supervisor  | <ul><li>Consulting and transferring</li><li>Monitoring and barging</li><li>Ability to record and manage phone calls</li><li>Operations management through supervisor dashboards</li></ul> |

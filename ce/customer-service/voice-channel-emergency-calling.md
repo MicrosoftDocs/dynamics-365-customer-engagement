@@ -4,7 +4,7 @@ description: "Understand how emergency calls work in the voice channel of Omnich
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 03/28/2022
+ms.date: 01/04/2022
 ms.topic: overview
 ---
 
@@ -12,9 +12,14 @@ ms.topic: overview
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
+## Prerequisites
+
+> [!Important]
+> Currently emergency calling is supported only in US and Puerto Rico where the emergency calling number is 911.
+
 ## Introduction
 
-With the new emergency calling feature, agents call dial in the emergency number during a crisis situation and leave voice messages. When the agent dials in the emergency number, the auto-responder bot receives the call and sends out a temporary callback number (subscriber identifier) to the agent. The emergency responder can then call back the agent over the assigned callback number. 
+With the new emergency calling feature, anyone who's configured to make outbound calls, whether it's an omnichannel administrator, supervisor, or agent, can call the emergency number during a crisis situation. When the agent dials the emergency number, a temporary callback number is assigned to the agent.
 
 During the call, the agent's status is automatically changed to "Do not disturb", so the emergency callback gets the highest priority and all other incoming calls are blocked. The agent receives the responder callback directly bypassing any routing rules, capacity profiles, and presence setting (including the "Do not disturb" status).
 
