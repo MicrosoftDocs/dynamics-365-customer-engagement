@@ -20,9 +20,9 @@ ms.custom:
 
 # Enable Microsoft Teams meeting integration in Customer Service
 
-The Microsoft Teams meeting integration feature allows your Dynamics 365 Customer Service agents to quickly access and update records in Microsoft Teams before, during, and after meeting with their customers. By enabling this feature, you can help give agents and supervisors in your organzation a cohesive, seamless experience between Dynamics 365 and Teams. Agents can use the meetings functionality to more efficiently meet their
+The Microsoft Teams meeting integration feature allows your Dynamics 365 Customer Service agents to quickly access and update records in Microsoft Teams before, during, and after meeting with their customers. 
 
-As an administrator, you can enable this feature to give your agents and supervisors a cohesive, seamless experience between Dynamics 365 and Microsoft Teams meetings. Agents can use these meetings to more efficiently meet their customers' needs.
+By enabling this feature, you can help give agents and supervisors in your organzation a cohesive, seamless experience between Dynamics 365 and Teams. Agents can use the meetings functionality to more efficiently meet their customers' needs.
 
 > [!Note]
 > Conversation Intelligence capabilities that are displayed in the user interface are applicable only to Dynamics 365 Sales users who have a premium license.
@@ -64,5 +64,3 @@ The side panel helps agents quickly view details of the related record during a 
 1.	Go to the **Forms** tab and select the **In Context Form** form. 
 1.	Edit the form to manage the fields that appear in the side panel. Consider the following aspects when customizing the form:
    
-
-
