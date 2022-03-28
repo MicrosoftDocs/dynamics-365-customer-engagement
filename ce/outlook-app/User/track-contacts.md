@@ -62,7 +62,7 @@ You can link and track a single or multiple contacts from Outlook to an account 
    > [!div class="mx-imgBorder"] 
    > ![Demo of how to link a Outlook contact to a row in your app.](../media/link-outlook-contact-3.gif) 
 
-Depending on the server-side synchronization filters, the active contacts that a user owns in the Dynamics 365 app should be synchronized with Outlook after the mailbox is configured. For more information, see [Choose the records to synchronize between customer engagement apps and Exchange](/power-platform/admin/choose-records-synchronize-dynamics-365-outlook-exchange.md),
+Depending on the server-side synchronization filters, the active contacts that a user owns in the Dynamics 365 app should be synchronized with Outlook after the mailbox is configured. For more information, see [Choose the records to synchronize between customer engagement apps and Exchange](/power-platform/admin/choose-records-synchronize-dynamics-365-outlook-exchange),
 
 Follow the steps below to link and track your Outlook contacts to a row in your app.
 

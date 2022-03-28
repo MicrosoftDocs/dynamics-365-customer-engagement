@@ -1,7 +1,7 @@
 - name: Dynamics 365 Marketing
   items: 
   - name: Dynamics 365 Marketing
-    href: help-hub.md
+    href: help-hub.yml
   - name: Overview
     href: overview.md
   - name: What's new
@@ -211,11 +211,11 @@
         - name: Create an event-based journey
           href: real-time-marketing-event-based-journey.md
         - name: Real-time marketing triggers
-          href: real-time-marketing-event-triggers.md
-        - name: "Preview: Trigger custom event actions"
-          href: real-time-marketing-custom-event-actions.md
+          href: real-time-marketing-triggers.md
+        - name: "Preview: Trigger an action outside of a journey"
+          href: real-time-marketing-custom-actions.md
         - name: Create custom triggers
-          href: real-time-marketing-custom-events.md
+          href: real-time-marketing-custom-triggers.md
       - name: Segment-based journeys
         items:
         - name: Work with segments in real-time marketing
@@ -430,6 +430,8 @@
         href: email-expire.md
       - name: Use automated scheduling to help improve email engagement
         href: automated-scheduler.md
+      - name: Manually schedule contacts and email delivery
+        href: customer-journey-manually-schedule.md
       - name: Create and manage customer journey templates
         href: journey-templates.md
       - name: Create an inbound customer journey

@@ -69,7 +69,7 @@ To enable the editable products grid on the Opportunity, Quote, Order, or Invoic
 
 ### See also  
 
-[Make grids (lists) editable using the Editable Grid custom control](../customerengagement/on-premises/customize/make-grids-lists-editable-custom-control.md)
+[Make model-driven app views editable using the editable grid control](/powerapps/maker/model-driven-apps/make-grids-lists-editable-custom-control)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

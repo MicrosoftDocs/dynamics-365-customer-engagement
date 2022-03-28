@@ -100,8 +100,8 @@ By default, Dynamics 365 Field Service is configured to search against activity,
 
 To enable a new bar code field for search within a table:
 
-1. If the desired table is not enabled for search, [follow these steps](power-platform/admin/configure-relevance-search-organization#select-tables-for-dataverse-search) to enable the table for search. 
-2. Add the barcode-enabled field to the [table's quick-find view](power-platform/admin/configure-relevance-search-organization#select-searchable-fields-and-filters-for-each-table).
+1. If the desired table is not enabled for search, [follow these steps](/power-platform/admin/configure-relevance-search-organization#select-tables-for-dataverse-search) to enable the table for search. 
+2. Add the barcode-enabled field to the [table's quick-find view](/power-platform/admin/configure-relevance-search-organization#select-searchable-fields-and-filters-for-each-table).
 3. Save and publish changes.
 
 > [!div class="mx-imgBorder"]
