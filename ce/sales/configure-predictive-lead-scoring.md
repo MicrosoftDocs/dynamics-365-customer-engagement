@@ -56,7 +56,7 @@ You can add custom fields to generate an accurate model for predictive lead scor
 
 Verify that you meet the following requirement before adding predictive lead scoring models for your organization:
 
-- A minimum of 40 qualified and 40 disqualified leads within the past 18 months.
+- A minimum of 40 qualified and 40 disqualified leads
 
     >[!NOTE]
     >These numbers represent the minimum requirement. The more leads you can include to train the model, the better the prediction results will be.
@@ -181,11 +181,14 @@ If you're using custom attributes for lead generation, you can generate the mode
 
     With multiple models, each model can be directed to score a specific set of leads based on the line of business they belong to, or based on other criteria. The filter column is the column that holds the value that distinguishes which leads the model should score. These selections determine which column and which values within that column correspond to the leads that this model will score.
 
-8. Choose time period from the **Train with leads from the past** list. The default duration is 2 years.   
+8. Choose a time period from the **Train with leads from the past** list. The default duration is 2 years.   
 
-   For example, if you want to consider the closed leads from past 6 months to train the model, choose 6 months from the list. The model considers the closed leads from the past 6 months and trains the model to score the open leads from past 2 years.  
+    > [!NOTE]
+    > You must have a minimum of 40 qualified and 40 disqualified leads that were created during the selected period. For example, if you select 6 months, the model considers leads that were created in the past 6 months to verify whether the minimum lead requirement is met. 
 
-   If you don't have enough closed leads in the chosen time period, the **Get started** option will be disabled. Choose another time period that has enough closed leads to train the model.  
+    The model considers closed leads from the selected period and uses that to score the open leads from past 2 years.  
+
+   If you don't have the minimum closed leads in the chosen time period, the **Get started** option will be disabled. Choose another time period that has enough closed leads to train the model.  
 
 9. Select **Get started**.
 
