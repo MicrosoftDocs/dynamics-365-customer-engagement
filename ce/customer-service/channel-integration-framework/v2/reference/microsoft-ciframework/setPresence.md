@@ -1,7 +1,7 @@
 ---
 title: "setPresence (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Includes reference information such as description, syntax, and parameters for the setPresence method in JavaScript API Reference for Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 03/21/2022
+ms.date: 04/01/2022
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
