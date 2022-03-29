@@ -74,11 +74,11 @@ See the following topics to set up the interactive voice response (IVR) bot in t
 
 ### Can I recover a voice trial after it's no longer provisioned?
 
-No, you can't recover your data after the trial organization is removed from provision.
+No, you can't recover your data after the trial organization is deprovisioned.
 
 ### Is disaster recovery supported for the voice channel?
 
-Yes,  business continuity and disaster recovery for production instances of the voice channel are supported and are based on [business continuity and disaster recovery for Dynamics 365](/power-platform/admin/business-continuity-disaster-recovery) and [SLA for Azure Communication Services](https://azure.microsoft.com/support/legal/sla/communication-services/v1_0/).
+Yes, business continuity and disaster recovery for production instances of the voice channel are supported and are based on [business continuity and disaster recovery for Dynamics 365](/power-platform/admin/business-continuity-disaster-recovery) and [SLA for Azure Communication Services](https://azure.microsoft.com/support/legal/sla/communication-services/v1_0/).
 
 ### Does the voice channel support emergency calling?
 
