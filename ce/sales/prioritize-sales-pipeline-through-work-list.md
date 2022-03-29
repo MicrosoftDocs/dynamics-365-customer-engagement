@@ -23,11 +23,11 @@ Use work lists in the sales accelerator to prioritize your sales pipeline and en
 |||
 
 ## How to prioritize your pipeline
-<!--note from editor: Is it okay to switch "sellers" to "you"? The title and description and H1 all are address the reader (the seller) as "you."-->
+
 During your workday as a seller, you need to juggle multiple tasks as you work on multiple records. As a result, it can be hard to plan and prioritize your customer-facing activities. The work list in the sales accelerator for Dynamics 365 Sales Insights helps you prioritize your time and effort to ensure that important records aren't left behind.
 
 The sales accelerator work list gives you the following capabilities:
-<!--note from editor: Suggest making these direct links when they go to a place within this topic, and using "More information" to indicate that the link will take the reader outside of this topic.-->
+
 - [Manage and view records that include activities that are due in the last 30 days to be performed, sorted by priority, and removed after an activity has been completed.](#view-my-records-through-work-list)
 - [Manage the work list by sorting, filtering, and grouping records.](#filter-records-in-work-list)
 - [View relevant information about customers, such as personal details, past and future activities, and the related entities for each record.](#understand-the-up-next-widget)
@@ -46,11 +46,11 @@ Review the following prerequisites before you start using work lists:
 - Dynamics 365 Channel Integration Framework version 1 is installed, and a channel provider is configured for your Dynamics 365 organization. More information: [Integrate a sample softphone dialer with Dynamics 365 Sales](integrate-sample-softphone.md)   
 
 > [!NOTE]
-> Although [predictive lead scoring](configure-predictive-lead-scoring.md) and [predictive opportunity scoring](configure-predictive-opportunity-scoring.md) aren't required for work lists, the work list functionality described in this topic assumes that these features have been enabled and models generated for your organization. Contact your administrator to enable these features.<!--note from editor: Suggest adding something like this in note form, because anything that's optional isn't really a prerequisite.-->
+> Although [predictive lead scoring](configure-predictive-lead-scoring.md) and [predictive opportunity scoring](configure-predictive-opportunity-scoring.md) aren't required for work lists, the work list functionality described in this topic assumes that these features have been enabled and models generated for your organization. Contact your administrator to enable these features.
 
 ## View my records by using the work list<a name="view-my-records-through-work-list"></a>  
 
-The work list displays a list of records that are assigned to you or the security role you're associated with. The records display activities that are due for the current date&mdash;or pending from previous dates&mdash;that were created manually or through a sequence. This helps you to access all records that include activities in one place, instead of navigating across multiple forms in the application. A sales manager can configure and determine the entities to display to you in the work list. The top of the record in the work list will always be the next-best customer with the highest prediction score.<!---->
+The work list displays a list of records that are assigned to you or the security role you're associated with. The records display activities that are due for the current date&mdash;or pending from previous dates&mdash;that were created manually or through a sequence. This helps you to access all records that include activities in one place, instead of navigating across multiple forms in the application. A sales manager can configure and determine the entities to display to you in the work list. The top of the record in the work list will always be the next-best customer with the highest prediction score.
 
 **To view the work list**
 
@@ -119,9 +119,6 @@ In the following example, your administrator has created a filter based on lead 
  
 The work items list is filtered to show only leads with the currency type of **US Dollar**.
 
->[!NOTE]
->You can hide or show filters that are not<!--note from editor: Something is missing, I'm not sure what though.-->
-
 ### Sort
 
 Select **Sort** ![sort icon.](media/sa-worklist-sort.png) to organize records into groups and display them in the sort order you choose (ascending or descending).
@@ -160,7 +157,7 @@ For example, let's say 10 leads have a sequence step to send an introduction ema
  
 2.	Choose the leads to whom you want to send the bulk email.
     You can select all the leads at once by selecting the step name, or you can expand the step and then select the leads individually.
-    In this example, we're sending a bulk email to the leads Ivan Komashinsky, Lidman Anna, Counts Vongple, and Nancy Anderson.<!--note from editor: I assume these names are all from sample data? "Lidman Anna" and "Counts Vongple" don't sound right, but if they're in sample data I'll make a note and not question this again.-->
+    In this example, we're sending a bulk email to the leads Ivan Komashinsky, Lidman Anna, Counts Vongple, and Nancy Anderson.
 
     > [!div class="mx-imgBorder"]
     > ![Lead records selected to send bulk email to.](media/sa-worklist-bulk-email-records-selected.png "Lead records selected to send bulk email to")
@@ -179,7 +176,7 @@ For example, let's say 10 leads have a sequence step to send an introduction ema
 
 4.	(Optional) To preview the email, select **Preview**.
 
-    The preview opens and shows tags that contain information about the first recipient (in this example, Ivan Komashinsky). However, when the actual email is sent, each email will include relevant information from each lead in your recipient list.<!--note from editor: The email in this image needs some editing. It should say "Dear Ivan" or "Dear Mr. Komashinsky." It shouldn't mention Kenny Smith (nor "his or her direct line") because it's supposed to be from Kenny Smith. Maybe the simplest fix would be to smudge out Kenny Smith's name from the body of the email.-->
+    The preview opens and shows tags that contain information about the first recipient (in this example, Ivan Komashinsky). However, when the actual email is sent, each email will include relevant information from each lead in your recipient list.
 
     > [!div class="mx-imgBorder"]
     > ![Preview of the email.](media/sa-worklist-bulk-email-preview-email.png "Preview of the email")
@@ -191,14 +188,14 @@ For example, let's say 10 leads have a sequence step to send an introduction ema
  
 6.	Select **Send to all**.
 
-The email will be sent to all the recipients you specify. You can verify that the timelines for those entities are updated with the email. After you refresh the work list, all the records you just sent email to<!--note from editor: I'm not sure what it means to send email to records. Should this maybe say "...the records for the recipients you just sent email to"?--> will move to the next step.
+The email will be sent to all the recipients you specify. You can verify that the timelines for those entities are updated with the email. After you refresh the work list, all the records you just sent email to will move to the next step.
 
 ## Understand the Up next widget
 
 Using the **Up next** widget, you can view and perform actions on activities on a record. The widget displays the current activity, upcoming activity, and completed activities. You can add these activities to a record manually or by using a sequence:
 
 - In a sequence, a sales manager creates activities and applies them to the record according to business requirements. The activities in the sequence are displayed in the **Up next** widget.    
-- For manual activities, you or a sales manager can create an activity on the timeline. The activity is displayed in the **Up next** widget as a current, upcoming, or completed activity, depending on its due date<!--note from editor: Edit okay?-->. This activity is available to you and other sellers who have access to the record.
+- For manual activities, you or a sales manager can create an activity on the timeline. The activity is displayed in the **Up next** widget as a current, upcoming, or completed activity, depending on its due date. This activity is available to you and other sellers who have access to the record.
 
 The following image shows an example of the **Up next** widget.    
 
