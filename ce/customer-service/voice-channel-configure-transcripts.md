@@ -62,7 +62,7 @@ The voice recordings and transcripts data resides in the following locations:
 - **Data at rest**: Is stored wherever your Dynamics instance is located.
 - **Data in transit**: For components within the Microsoft stack, we strive to ensure that data doesn’t cross geographical boundaries during transit. The bring your own carrier model has dependencies on third parties, and therefore, data needs to be reviewed end to end and will include components outside the Microsoft stack.
 
-The data storage costs with two participants only is calculated as follows:
+The data storage costs with two participants only is calculated approximately as follows and the cost can fluctuate:
 
 - 20 minute call recording = 10240 KB
 - 20 minute call transcript = 40 KB

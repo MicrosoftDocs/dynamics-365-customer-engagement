@@ -116,7 +116,7 @@ After you opt out of the connection graph, Sales Insights won't analyze your dat
 
 ### See also
 
-[Configure who knows whom](configure-who-knows-whom.md)
+[Configure who knows whom](configure-who-knows-whom.md)  
 [Who knows whom FAQs](faqs-sales-insights.md#who-knows-whom)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
