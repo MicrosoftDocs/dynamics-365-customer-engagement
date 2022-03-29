@@ -85,7 +85,7 @@ To configure the Sales Insights connection graph, follow these steps:
 5. Select **Save**.
 
 >[!NOTE]
-> Sellers can opt out of the connection graph if they don't want sales insights to analyze their communication and collaboration data. More information: [Opt out of the connection graph](who-knows-whom.md#opt-out-of-the-connection-graph)
+> Users can opt out of the connection graph if they don't want sales insights to analyze their communication and collaboration data. More information: [Opt out of the connection graph](who-knows-whom.md#opt-out-of-the-connection-graph)
 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
