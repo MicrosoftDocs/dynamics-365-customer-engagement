@@ -51,7 +51,7 @@ See the information in the following table to know about the supported languages
 We use the Azure Cognitive Services Speech service Speech-to-Text for transcription, so we'll support all the languages that Speech-to-Text supports today. We also support a bring-your-own bot through Azure Bot Service for Interactive Voice Response (IVR) that will be constrained by the languages that Speech-to-Text supports.  End-to-end voice and IVR support is available only if a language is supported in the Power Virtual Agents or Azure bot service, and Omnichannel for Customer Service. Sentiment and AI insights are optional for the voice functionality.  
 
 |Language |Language code | Voice channel in Omnichannel for Customer Service | Power Virtual Agents | Speech-to-Text | Text-to-Speech | Sentiment | AI suggestions | UI language support|
-|----------|---------|-----|-----|-----|-----|-----|-----|-----|
+|---------|--------------|---------------------------------------------------|----------------------|----------------|----------------|-----------|----------------|-------------------|
 | Afrikaans - South Africa | `af- ZA` |x|x|x|x|x|x|x|
 | Albanian | `sq` |x|x|x|x|x|x|x|
 | Amharic | `am- ET` |x|x|x|x|x|x|
