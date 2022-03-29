@@ -21,7 +21,7 @@ ms.custom:
 
 ## Introduction
 
-Setting up a comprehensive knowledge base is the key to increased customer satisfaction and improved productivity. A knowledge base is created to help agents with solutions to the most common customer issues to assist customers quickly. This topic describes how various search methods work in a knowledge base and how agents can view accurate search results based on the fields or operators that they use to search the knowledge base.
+Setting up a comprehensive knowledge base is the key to increased customer satisfaction and improved productivity. A knowledge base is created to help you with solutions to the most common customer issues to assist customers quickly. This topic describes how various search methods work in a knowledge base and how you can view accurate search results based on the fields or operators that you use to search the knowledge base.
 
 Knowledge management search control uses Dataverse search to search for knowledge articles. More information: [What is Dataverse search?](/power-platform/admin/configure-relevance-search-organization). Dataverse search is enabled by default on all production environments, except those using their own encryption key. More information: [Enable Dataverse search](/power-platform/admin/configure-relevance-search-organization#enable-dataverse-search).
 
