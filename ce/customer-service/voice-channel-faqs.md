@@ -55,11 +55,11 @@ Yes, you can use Dynamics 365 Channel Integration Framework 2.0 connector to int
 
 ### Does the voice channel tie in with Azure Communications Services or is it entirely a different technology?
 
-The voice capabilities for Dynamics 365 Customer Service are built on the Azure Communications Services.
+The voice capabilities for Dynamics 365 Customer Service are built on Azure Communication Services.
 
-### Will Azure communications be an add-on service? I already have a competitor phone system and have Microsoft Teams.
+### Will Azure Communication Services be an add-on service? I already have a competitor phone system and have Microsoft Teams.
 
-Dynamics 365 doesn’t use calling plans for its voice channel. However, if customers are using Azure direct routing with Microsoft Teams, the same SBCs and setup can be used with Azure direct routing to reuse the voice channel.
+Dynamics 365 doesn’t use calling plans for its voice channel. However, if customers are using Azure direct routing with Microsoft Teams, the same SBCs and setup can be used with Azure direct routing to reuse the voice channel. More information: [Bring your own carrier](voice-channel-bring-your-own-number.md)
 
 ### Is it possible to enable voice integrations outside of the Omnichannel for Customer Service app? For example, by adding omnichannel capabilities to a customer Dynamics 365 app.
 
