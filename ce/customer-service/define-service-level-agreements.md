@@ -1,7 +1,7 @@
 ---
 title: "Define service-level agreements in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how to define service-level agreements in Dynamics 365 Customer Service."
-ms.date: 03/09/2022
+ms.date: 03/29/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -536,9 +536,9 @@ You can also export or import a calendar with its corresponding SLAs by enabling
 
 You can enable the export or import of calendar either from the Customer Service admin center or Customer Service Hub app.
 
-1. Go to one of the apps, and perform the following steps.
+1. Go to one of the apps and perform the following steps.
 
-    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
     1. In the site map, select **Service terms** in **Operations**. The **Service Terms** page appears.
     1. In the **Other SLA Settings** section, select **Manage**. The **Service Configuration Settings** page appears.
