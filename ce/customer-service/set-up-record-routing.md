@@ -40,10 +40,7 @@ The following prerequisites are applicable:
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
     1. In the site map, select **Routing** in **Customer support**. The **Routing** page appears.
 
@@ -71,7 +68,7 @@ To configure a workstream for the record, do the following:
 
 1. Go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
    1. In the site map, select **Workstreams** in **Customer support**.
    
@@ -85,7 +82,6 @@ To configure a workstream for the record, do the following:
 
     - In the **Service Management** site map, select **Workstream** in **Unified Routing**, and then select **New workstream**.
    
-
 1. In the **Create a workstream** dialog, enter the following details:
     - **Name**: Enter an intuitive name, such as **Contoso case workstream**.
     - **Work distribution mode**: Select **Push** or **Pick**.
