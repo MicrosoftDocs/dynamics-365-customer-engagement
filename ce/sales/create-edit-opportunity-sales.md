@@ -1,7 +1,7 @@
 ---
 title: "Create or edit opportunities (Dynamics 365 Sales) | MicrosoftDocs"
 description: "An opportunity is a deal you're ready to win. Create an opportunity record for a lead who's ready to buy."
-ms.date: 10/25/2021
+ms.date: 03/29/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -18,13 +18,12 @@ searchScope:
 
 # Create or edit opportunities 
 
-An opportunity is a lead who is now almost ready to buy&mdash;in other words, a deal that you're ready to win. 
+Create an opportunity when your lead is almost ready to buy. Use one of the following methods to create an opportunity:
 
-With an opportunity, you can forecast sales revenue, set a potential close date, and factor in a probability for the sale to occur. 
-
-When you create an opportunity, you must specify an existing account or contact record. When you add a price list to an opportunity, it helps in automatically calculating pricing of the proposed products that the customer is interested in purchasing.
-
-At this point in the sales process, you're most likely in either the **Develop** or **Propose** stage. More information: [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md) 
+- Convert a qualified lead into an opportunity. In this case,
+    - Information from the lead record is copied to the opportunity.
+    - The lead and opportunity records are linked. 
+- Create a new opportunity from scratch if it didn't originate from a lead.  
 
 ## License and role requirements
 
@@ -34,17 +33,10 @@ At this point in the sales process, you're most likely in either the **Develop**
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-## Ways to create opportunities
+## Qualify or convert a lead
 
-You can create a new opportunity that didn't originate from a lead, or you can convert qualified leads to opportunities without reentering the data, and then you can track opportunities through the sales cycle.
-When you convert a qualified lead to an account, contact, or opportunity, you can access the lead record, which
-includes activities and notes, from the corresponding opportunity form. You can also access the lead information if you create a new opportunity and link it to a lead record. You can't convert an opportunity to a lead; you can only close opportunities.
+If the opportunity originated from an existing lead, quality the lead and convert it to an opportunity. More information: [Qualify a lead and convert it to an opportunity](qualify-lead-convert-opportunity-sales.md)
 
-Here are the different ways in which you can create an opportunity:
-
-- Qualify or convert a lead. More information: [Qualify a lead and convert it to an opportunity](../sales-enterprise/qualify-lead-convert-opportunity-sales.md)
-- Import opportunity records. More information: [Import data](/powerapps/user/import-data)
-- Create an opportunity by using the Quick create option on the command bar. More information: [Create a new record](/powerapps/user/create-a-record)
 - Create an opportunity from the Opportunities list. More information: [Create an opportunity](#create-sales-hub)
 
 
@@ -156,6 +148,8 @@ The next step is to create a quote and send it to your customer. [!INCLUDE[proc-
   
 ### See also 
 
+[Import opportunity records](/powerapps/user/import-data)
+[Create an opportunity by using the Quick create option on the command bar](/powerapps/user/create-a-record)
 [Add products to an opportunity](add-products-opportunity.md)  
 [Add products to an opportunity using the enhanced experience](add-products-enhanced-experience.md)  
 [Recalculate an opportunity](recalculate-opportunity.md)  
