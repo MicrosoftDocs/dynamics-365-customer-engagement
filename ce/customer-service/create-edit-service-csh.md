@@ -40,8 +40,6 @@ You can create a service in Customer Service admin center (preview) or Customer 
 
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
-   > [!IMPORTANT]
-
     1. In the site map, select **Service Scheduling** in **Operations**. The **Service Scheduling** page appears.
     2. In the **Service** section, select **Manage**.
         
