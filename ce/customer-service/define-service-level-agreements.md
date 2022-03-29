@@ -538,7 +538,10 @@ You can enable the export or import of calendar either from the Customer Service
 
 1. Go to one of the apps and perform the following steps.
 
-    ### [Customer Service admin center](#tab/customerserviceadmincenter)
+    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+
+    > [!IMPORTANT]
+    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
     1. In the site map, select **Service terms** in **Operations**. The **Service Terms** page appears.
     1. In the **Other SLA Settings** section, select **Manage**. The **Service Configuration Settings** page appears.
