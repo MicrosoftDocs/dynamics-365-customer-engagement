@@ -75,7 +75,7 @@ You can create workstreams for unified routing in the Customer Service admin cen
     
     - In **Fallback queue**, select one of the following options:
          - **Create new**: Enter a queue name to which work items will be sent when no queue is available. You'll need to add users to the queue after creating the workstream.
-         - **Choose existing**: Select an existing queue from the dropdown list box.
+         - **Choose existing**: Select an existing queue from the dropdown list box. By default, the out-of-the-box queue for the selected channel type is selected.
 
       More information: [Fallback queues](queues-omnichannel.md#fallback-queues)
 

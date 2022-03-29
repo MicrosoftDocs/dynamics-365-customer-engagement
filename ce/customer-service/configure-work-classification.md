@@ -1,7 +1,7 @@
 ---
 title: "Configure work classification rulesets | MicrosoftDocs"
 description: "Learn about how to configure work classification rulesets for unified routing."
-ms.date: 03/04/2022
+ms.date: 04/02/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -155,9 +155,7 @@ When no rule condition is matched or no rule is defined, the work item is assign
 3. In **Conditions**, define the set of conditions. If you are creating rules for records, then the top-level condition is automatically populated. You can define conditions for up to two levels of the related records and attributes.
 
 4. In **Route to queues**, select the queue to which the work items will be routed if the conditions are met.
-   > [!NOTE]
-   > Make sure that you don't select **Default messaging queue**, **Default entity queue**, or fallback queue in the list. More information: [Default queues in Omnichannel for Customer Service](queues-omnichannel.md#default-queues) and [fallback queues](queues-omnichannel.md#fallback-queues)
-
+  
    :::image type="content" source="media/ur-route-to-queue-decision.png" alt-text="Configure route to queue decision rules.":::
 
 5. Repeat steps 2 through 4 to define the rules to cater to your business needs.

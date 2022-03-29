@@ -97,29 +97,21 @@ You can manage queues on the **Queues** page, and perform operations such as sea
 
 - Select a queue on the **Queues** page, select **Copy** on the command menu, and then select **Copy** in the *<queue_name>* dialog. The queue is copied and inherits the settings of the queue you copied from, including its name, prefixed with **Copy of**.
 
-### Default queues in Omnichannel for Customer Service<a name="default-queues"></a>
+### Fallback queues
 
-The following default queues are available in Omnichannel for Customer Service:
+To efficiently manage the work items, you can configure a fallback queue per workstream. You can set an existing queue as the fallback queue or create a fallback queue with the required settings when you are creating a workstream. For existing workstreams, you can configure the fallback queue on the workstream page. If you choose to create a queue, you'll need to add users. You'll also need to configure the route to queue rules. By default, the assignment method for the fallback queue is highest capacity.
+
+By default, the following queues are available. You can add and remove users from these queues.
 
 - **Default entity queue** for routing entity records.
 - **Default messaging queue** for routing all messaging conversations pertaining to live chat, SMS, Microsoft Teams, and social channels.
 - **Default voice queue** for routing all voice calls.
 
-Default queues can't be edited or deleted. All Omnichannel for Customer Service users are members of the default queues so the membership to these default queues can't be changed.
-
-Work is routed to the default queues that act as a safety net in the following scenarios:
+Work is routed to these queues that act as a safety net in the following scenarios:
 
 - Work item encounters an error during classification
 - Work item encounters an error when running a route-to-queue rule
 - Work item does not match any route-to-queue rules
-
-> [!NOTE]
-> When you configure route to queues for work classification, we recommend that you don't select the default queues.
-
-### Fallback queues
-
-To efficiently manage the work items, you can configure a fallback queue per workstream. You can set an existing queue as the fallback queue or create a fallback queue with the required settings when you are creating a workstream. For existing workstreams, you can configure the fallback queue on the workstream page. If you choose to create a queue, you'll need to add users. You'll also need to configure the route to queue rules. By default, the assignment method for the fallback queue is highest capacity.
-
 
 ### See also
 
