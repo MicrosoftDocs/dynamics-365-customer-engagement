@@ -1,6 +1,6 @@
 ---
 title: "FAQs about the voice channel | MicrosoftDocs"
-description: "Learn about the frequently asked questions (FAQs) for the voice channel in Omnichannel for Customer Service."
+description: "This article includes frequently asked questions (FAQs) about the voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -79,6 +79,10 @@ No, you can't recover your data after the trial organization is removed from pro
 ### Is disaster recovery supported for the voice channel?
 
 Yes,  business continuity and disaster recovery for production instances of the voice channel are supported and are based on [business continuity and disaster recovery for Dynamics 365](/power-platform/admin/business-continuity-disaster-recovery) and [SLA for Azure Communication Services](https://azure.microsoft.com/support/legal/sla/communication-services/v1_0/).
+
+### Does the voice channel support emergency calling?
+
+Yes, the voice channel supports emergency calling where agents can dial in the emergency number in case of a crisis. This feature is currently supported in the United States and Puerto Rico where the emergency calling number is 911. More information: [How emergency calling works in the voice channel](voice-channel-emer-calling.md)
 
 ### See also
 
