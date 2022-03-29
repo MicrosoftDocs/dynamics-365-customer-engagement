@@ -45,6 +45,8 @@ Use the following APIs to perform CRUD operations on entity records.
 
 ## Notification management APIs
 
+Use the following APIs to display or cancel notifications about incoming conversations.
+
 | Methods | Description |
 |---------|-------------|
 | [notifyEvent](microsoft-ciframework/notifyEvent.md)| Displays a notification that can be used to inform agent about an incoming conversation. |
@@ -52,7 +54,7 @@ Use the following APIs to perform CRUD operations on entity records.
 
 ## Application tab management APIs
 
-These APIs enable you to create and manage the state of an application tab.
+Use the following APIs to create and manage the state of an application tab.
 
 | Methods | Description |
 |---------|-------------|
@@ -65,7 +67,7 @@ These APIs enable you to create and manage the state of an application tab.
 
 ## Session management APIs
 
-These APIs allow you to manage sessions in a multisession provider environment.
+Use the following APIs to manage sessions in a multisession provider environment.
 
 | Methods | Description |
 |---------|-------------|
@@ -79,7 +81,7 @@ These APIs allow you to manage sessions in a multisession provider environment.
 
 ## Channel analytics APIs
 
-These APIs enable you to track event analytics.
+Use the following APIs to track event analytics.
 
 | Methods | Description |
 |---------|-------------|
@@ -88,7 +90,7 @@ These APIs enable you to track event analytics.
 
 ## Session indicator APIs
 
-These APIs indicate a KPI breach and can be used to update the number of new activities in a particular session.
+Use the following APIs to indicate a KPI breach and can be used to update the number of new activities in a particular session.
 
 | Methods | Description |
 |---------|-------------|
