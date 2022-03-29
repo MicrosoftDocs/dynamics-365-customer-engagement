@@ -38,6 +38,7 @@ The following limitations apply for the trial:
 This section contains answers to the following questions:
 - [How do I start using the trial?](#how-do-i-start-using-the-trial)
 - [What features are available in the trial?](#what-features-are-available-in-the-trial)
+- [Why am I not able to use conversation intelligence features?](#why-am-i-not-able-to-use-conversation-intelligence-features)
 - [Why can't I find the features and options mentioned in the documentation?](#why-cant-i-find-the-features-and-options-mentioned-in-the-documentation)
 - [What should I do if I don't see any apps in the mobile app](#what-should-i-do-if-i-dont-see-any-apps-in-the-mobile-app)
 - [Why is the sample data not available to all trial users?](#why-is-the-sample-data-not-available-to-all-trial-users)
