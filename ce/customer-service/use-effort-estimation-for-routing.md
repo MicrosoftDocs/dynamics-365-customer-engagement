@@ -46,13 +46,9 @@ You can create the effort estimation models for any record that is enabled for u
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
     - In the site map, select **Routing**. The **Routing** page appears.
-
 
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
 
