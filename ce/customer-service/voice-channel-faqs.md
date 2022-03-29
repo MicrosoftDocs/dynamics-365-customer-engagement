@@ -21,11 +21,11 @@ Yes, features such as sentiment analysis and agent suggestions for similar cases
 
 ### Is the voice channel PCI DSS compliant?
 
-The voice channel implements Payment Card Industry Data Security Standard (PCI DSS) standards today, but support for credit card capture over voice is not yet available. Agents have the ability to pause or resume call recording and transcription to avoid capturing sensitive information. Agents can pause transcription to avoid dual tone multi frequency (DTMF) tones being captured in the transcript. All data is stored in Dynamics 365 and can be scrubbed by the customer.
+The voice channel is compliant with Payment Card Industry Data Security Standard (PCI DSS) today, but support for credit card data capture over voice is not yet available. Agents have the ability to pause or resume call recording and transcription to avoid capturing sensitive information. Agents can pause transcription to avoid dual-tone multi-frequency (DTMF) tones being captured in the transcript. All data is stored in Dynamics 365 and can be scrubbed by the customer.
 
 ### Where does Azure Communication Services provide native PSTN services?
 
-Getting registered as a carrier is a legally-complex and country-specific process. Azure Communication Services has a multiyear road map to become a carrier in different countries and regions. As of January 2022, Azure Communication Services provides “Direct Offers” of toll-free and local numbers (Microsoft through Azure Communication Services is the carrier) for those with billing postal codes in United States Puerto Rico, United Kingdom, and Ireland.
+Getting registered as a carrier is a legally complex and country-specific process. Azure Communication Services has a multiyear roadmap to become a carrier in different countries and regions. As of January 2022, Azure Communication Services provides “Direct Offers” of toll-free and local numbers (Microsoft through Azure Communication Services is the carrier) for those with billing postal codes in United States,  Puerto Rico, United Kingdom, and Ireland.
 
 An alternative to Microsoft as a carrier is Azure direct routing that allows customers to bring their own carrier. More information: [Azure direct routing](/azure/communication-services/concepts/telephony/telephony-concept)
 
@@ -53,7 +53,7 @@ Yes, you can.
 
 Yes, you can use Dynamics 365 Channel Integration Framework 2.0 connector to integrate third-party contact centers, such as Genesys Engage, Solgari, and NICE inContact.
 
-### Does the voice channel tie in with Azure Communications Services or is it entirely a different technology?
+### Does the voice channel tie in with Azure Communication Services or is it entirely a different technology?
 
 The voice capabilities for Dynamics 365 Customer Service are built on Azure Communication Services.
 
