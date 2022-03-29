@@ -403,7 +403,7 @@
     - name: Email templates
       items: 
       - name: Create an email template
-        href: /powerapps/user/email-template-create
+        href: /powerapps/user/email-template-create?context=/dynamics365/context/customer-service-context
       - name: Insert an email template
         href: /powerapps/user/insert-email-template
       - name: Convert an email to a template
