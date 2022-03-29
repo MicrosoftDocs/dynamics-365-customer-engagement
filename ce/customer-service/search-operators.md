@@ -23,15 +23,14 @@ ms.custom:
 
 Setting up a comprehensive knowledge base is the key to increased customer satisfaction and improved productivity. A knowledge base is created to help you with solutions to the most common customer issues to assist customers quickly. This topic describes how various search methods work in a knowledge base and how you can view accurate search results based on the fields or operators that you use to search the knowledge base.
 
-Knowledge management search control uses Dataverse search to search for knowledge articles. More information: [What is Dataverse search?](/power-platform/admin/configure-relevance-search-organization). Dataverse search is enabled by default on all production environments, except those using their own encryption key. More information: [Enable Dataverse search](/power-platform/admin/configure-relevance-search-organization#enable-dataverse-search).
+Dataverse search is enabled by default on all production environments, except those using their own encryption key. More information: [Enable Dataverse search](/power-platform/admin/configure-relevance-search-organization#enable-dataverse-search). When Dataverse search is enabled, knowledge management search control uses Dataverse search to search for knowledge articles. More information: [What is Dataverse search?](/power-platform/admin/configure-relevance-search-organization). Otherwise, the search mechanism switches to full-text search, which lets you run full-text queries against character-based data in SQL Server tables. More information: [Full-text search](/sql/relational-databases/search/full-text-search).
 
-Depending on the configurations made in Dataverse search through the Quick Find view columns list, you could use the information provided in the search results, such as keywords, description, attachments, or article number. More information: [Before you begin using Dataverse search](search-knowledge-articles-csh.md#before-you-begin-using-dataverse-search).
+Depending on the configurations made in Dataverse search through the Quick Find view columns list, you can view the information provided in the search results, such as keywords, description, attachments, or article number. More information: [Before you begin using Dataverse search](search-knowledge-articles-csh.md#before-you-begin-using-dataverse-search).
 
-If you turn off Dataverse search, the search mechanism switches to full-text search, which lets you run full-text queries against character-based data in SQL Server tables. More information: [Full-text search](/sql/relational-databases/search/full-text-search).
 
 ## Search operators
 
-The following section describes the search operators that you can use to search your articles.
+The following section describes the search operators that you can use to search for your knowledge articles when Dataverse search is enabled for your environment.
 
 ### Boolean operators
 
@@ -41,7 +40,7 @@ By default, the search mode is "any". However, if you have Dataverse search enab
 
 #### AND operator
 
-Use the AND operator when you need to search with a combination of words. The search results will show articles that contain  all the individual terms separated by (+). For example, **delivery + order** returns the article **Delivery Never Arrived** which has **product** and **order** in the article content.
+Use the AND operator when you need to search with a combination of words. The search results will show articles that contain all the individual terms separated by (+). For example, **Delivery + order** returns the article **Delivery Never Arrived** which has **Delivery** and **order** in the article content.
 
 :::image type="content" source="media/and-operator.png" alt-text="AND operator":::
 
@@ -58,17 +57,17 @@ Query syntax: OR operator; denoted by |
 #### NOT operator
 
 Use the NOT operator with a hyphen (-) before a keyword to indicate that it should be excluded from the search results.
-For example, when you search for **product**, all rows matching the term product will appear in the search results.
+For example, when you search for **product**, all rows matching the term product will appear in the search results. However, searching for **product -order** will match all rows that contain the term **product** but not the term **order**.
 
 :::image type="content" source="media/not-operator.png" alt-text="NOT operator":::
 
-However, searching for **product -order** will match all rows that contain the term product but not the term order.
+
 
 - Query syntax: NOT operator; denoted by -
 
 ### Wildcards
 
-Use wildcards as placeholders for one or more text characters. Use an asterisk (*) at the beginning or end of a keyword. For example, searching on **pro (asterisk)** will show results for all records associated with a keyword that starts with pro. For example, "Pro*" searches for "Product", "Products" and "Procedure".
+Use wildcards as placeholders for one or more text characters. Use an asterisk at the beginning or end of a keyword. For example, searching on **pro*** will show results for all records associated with a keyword that starts with **pro**. **Pro*** searches for **product**, **products**, and **procedure**.
 
 :::image type="content" source="media/wildcard-search.png" alt-text="Wildcard search":::
 
