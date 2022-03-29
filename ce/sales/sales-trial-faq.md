@@ -3,7 +3,7 @@ title: "Sales Premium Trial FAQ | Microsoft Docs"
 description: "Solutions to common questions related to Dynamics 365 Sales Premium trial sign up and management. Learn how to resolve platform and app-specific issues."
 author: lavanyakr01
 ms.author: lavanyakr
-ms.date: 02/08/2022
+ms.date: 03/29/2022
 ms.topic: get-started
 
 ms.custom: template-trial-faq
@@ -35,6 +35,17 @@ The following limitations apply for the trial:
 
 ## Dynamics 365 Sales Premium-specific questions
 
+This section contains answers to the following questions:
+- [How do I start using the trial?](#how-do-i-start-using-the-trial)
+- [What features are available in the trial?](#what-features-are-available-in-the-trial)
+- [Why am I not able to use conversation intelligence features?](#why-am-i-not-able-to-use-conversation-intelligence-features)
+- [Why can't I find the features and options mentioned in the documentation?](#why-cant-i-find-the-features-and-options-mentioned-in-the-documentation)
+- [What should I do if I don't see any apps in the mobile app](#what-should-i-do-if-i-dont-see-any-apps-in-the-mobile-app)
+- [Why is the sample data not available to all trial users?](#why-is-the-sample-data-not-available-to-all-trial-users)
+- [How do I remove sample data from the trial?](#how-do-i-remove-sample-data-from-the-trial)
+- [How do I add or restore sample data?](#how-do-i-add-or-restore-sample-data)
+- [Is the Sales trial available in all geographical regions?](#is-the-sales-trial-available-in-all-geographical-regions)
+
 ### How do I start using the trial?
 
 When the trial is ready, you can get started with the following resources:
@@ -59,21 +70,20 @@ Your trial includes a simplified Trial app with a few important capabilities to 
 
 The following licenses and capabilities pre-installed in the trial app:
 
-**Dynamics 365 Sales Enterprise**
+**Dynamics 365 Sales Premium**
 
 - Manage sales pipeline using leads and opportunities
+
 - Forecast sales
-- Sales Premium features (Sales accelerator, conversation intelligence, and predictive scoring) with limited monthly capacity. More information: [Digital selling capabilities in Sales Enterprise](digital-selling.md)
+- Use sales insights features (Sales accelerator, conversation intelligence, and predictive scoring) with limited monthly capacity. More information: [Digital selling capabilities in Sales Enterprise](digital-selling.md)
+    - Sell smartly using Sales accelerator that builds a strong and prioritized pipeline, offers context, and surfaces automated recommendations.
 
-To get started with the Sales Enterprise functionalities, see [Learn the basics of [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]](user-guide-learn-basics.md)
-
-**Dynamics 365 Sales Insights**
-
-- Sell smartly using Sales accelerator that builds a strong and prioritized pipeline, offers context, and surfaces automated recommendations
-- Improve seller coaching and sales potential with conversation intelligence
-- Get the AI-powered assistant to stay on top of your activities 
-- Prioritize leads and opportunities using predictive scoring
-- Analyze revenue outcome by using predictive forecasting
+    - Improve seller coaching and sales potential with conversation intelligence.
+        > [!NOTE]
+        > Conversation intelligence is only supported for work accounts.
+    - Get the AI-powered assistant to stay on top of your activities.
+    - Prioritize leads and opportunities using predictive scoring.
+    - Analyze revenue outcome by using predictive forecasting.
 
 To get started with the Sales Insights functionalities, see [Sales Insights Add-in for Dynamics 365 Sales Help & Training](/dynamics365/sales/help-hub). To enable Sales Insights, see [Enable and configure standard Sales Insights features](/dynamics365/sales/intro-admin-guide-sales-insights#enable-and-configure-standard-sales-insights-features).
 
@@ -82,6 +92,12 @@ To get started with the Sales Insights functionalities, see [Sales Insights Add-
 
 **Dynamics 365 Power Platform**
 - Administer and customize your Dynamics 365 Sales environment to fit your needs  
+
+### Why am I not able to use conversation intelligence features? 
+
+Conversation intelligence is only supported for work accounts with a Microsoft tenant. For other accounts, conversation intelligence options in the app will display a message as shown in the following screenshot:
+
+:::image type="content" source="media/ci-trial-unsupported.png" alt-text="A screenshot of message shown in the conversation intelligence pages for non-work accounts.":::
 
 ### Why can't I find the features and options mentioned in the documentation?
 
