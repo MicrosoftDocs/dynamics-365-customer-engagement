@@ -8,6 +8,8 @@
     href: whats-new-marketing.md
   - name: Get started
     href: get-started.md
+  - name: "Deprecation: Dynamics 365 for Customer Engagement"
+    href: ce-deprecation.md
   - name: Installation and environment management
     items: 
     - name: Sign up for a free Marketing trial
