@@ -62,11 +62,11 @@ To set up knowledge search control on the app side pane, see [Configure knowledg
 After you have added the record types for which you want to turn on knowledge management, you can configure the knowledge search control on the app side pane by editing the record type. The app side pane is available only in Customer Service workspace and Omnichannel for Customer Service. For more information on how to set up an app side pane, see [Configure productivity pane](../app-profile-manager/app-profile-manager.md#assign-templates-configure-productivity-pane-channels).
 
 > [!NOTE]
-> You can configure the knowledge settings for record types only from the Customer Service admin center app. Record types for which you have turned on knowledge management from the Customer Service Hub app will also be available to you for configuration from the Customer Service admin center app.
+> You can configure the knowledge settings for record types from the Customer Service admin center app only. You will also be able to view and edit the record types that you have previously enabled in Customer Service Hub.
 
 To edit an entity record:
 
-1. On the **Record Types** page, select the entity you want to edit.
+1. In Customer Service admin center, on the **Record Types** page, select the entity you want to edit.
 1. Select **Edit**. The **Knowledge settings** dialog appears.
 1. In **Automatic search**:
     - Set the **Turn on automatic search** toggle to **Yes**, if you want automatic search to be enabled for your entity record.
