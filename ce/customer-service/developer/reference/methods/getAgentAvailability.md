@@ -1,8 +1,8 @@
 ---
 title: "getAgentAvailability (JavaScript API reference) for Omnichannel for Customer Service in Dynamics 365 | MicrosoftDocs"
-description: "Includes information about getAgentAvailability method, syntax, and parameters in Omnichannel for Customer Service JavaScript API reference."
+description: "Includes reference information about getAgentAvailability method, syntax, and parameters in Omnichannel for Customer Service JavaScript API reference."
 ms.date: 04/01/2021
-ms.topic: article
+ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -48,9 +48,8 @@ window.addEventListener("lcw:getAgentAvailability", function handlegetAgentAvail
 
 ### See also
 
-[startChat](startChat.md)<br />
-[setContextProvider](setContextProvider.md)<br />
+[startChat](startChat.md)  
+[setContextProvider](setContextProvider.md)  
 [Live chat SDK reference](../../omnichannel-reference.md)
-
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

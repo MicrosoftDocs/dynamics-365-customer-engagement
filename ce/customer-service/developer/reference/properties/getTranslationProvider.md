@@ -1,8 +1,8 @@
 ---
 title: "getTranslationProvider (Omnichannel for Customer Service JavaScript property reference) | MicrosoftDocs"
-description: 
+description: "Includes reference information about getTranslationProvider property in Omnichannel JavaScript API reference."
 ms.date: 10/05/2020
-ms.topic: article
+ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -12,7 +12,7 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-This property is required to be set in web resource. It is called once, after agent has logged in to the Omnichannel for Customer Service. It helps Omnichannel for Customer Service to know the functions to be called for initializing a conversation and translating a message.
+This property is required to be set in web resource. It is called once, after agent has logged in to Omnichannel for Customer Service. It helps Omnichannel for Customer Service know the functions to be called for initializing a conversation and translating a message.
 
 > [!IMPORTANT]
 > See this [sample web resource](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/06e9c84263bac81e7411f95365c5e792aca15122/customer-service/omnichannel/real-time-translation/webResourceV2.js#L452) for more information on how to set the `getTranslationProvider` property.

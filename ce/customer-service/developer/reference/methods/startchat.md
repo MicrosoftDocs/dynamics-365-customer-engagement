@@ -1,8 +1,8 @@
 ---
 title: "startChat (JavaScript API reference) for Omnichannel for Customer Service in Dynamics 365 | MicrosoftDocs"
-description: "Includes information about startChat method, syntax, and parameters in Omnichannel for Customer Service JavaScript API reference."
+description: "Includes reference information about startChat method, syntax, and parameters in Omnichannel for Customer Service JavaScript API reference."
 ms.date: 07/08/2020
-ms.topic: article
+ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
