@@ -14,15 +14,15 @@ ms.topic: article
 
 ## Prerequisites
 
-You must ensure the following conditions are met for emergency calling to work properly
-- The omnichannel user should have an outbound profile and must belong to a voice queue.
-- Location sharing and detection must be enabled on your browser.
+You must ensure the following conditions are met for emergency calling to work properly.
+- The omnichannel user must have a capacity profile associated with a voice call outbound profile.
+- Browser location setting must be enabled and set to United States or Puerto Rico.
 
 ## How emergency calling works
 
-With the new emergency calling feature, anyone who's configured to make outbound calls, whether it's an omnichannel administrator, supervisor, or agent, can call the emergency number during a crisis situation. When the agent dials the emergency number, a temporary callback number is assigned to the agent. The callback number is temporarily assigned to the agent for a duration of 60 minutes.
+With the new emergency calling feature, anyone who's configured to make outbound calls, whether it's an omnichannel administrator, supervisor, or agent, can call the emergency number during a crisis situation. When the agent dials the emergency number, a temporary callback number is assigned to the agent. This way, the agent can be reached via callback in case of a dropped emergency call even when using a shared outbound number. The callback number is temporarily assigned to the agent for a duration of 60 minutes.
 
-During the call, the agent's status is automatically changed to "Do not disturb", so the emergency callback gets the highest priority and all other incoming calls are blocked. The agent receives the responder callback directly bypassing any routing rules, capacity profiles, and presence setting (including the "Do not disturb" status).
+During the call, the agent's status is automatically changed to "Do not disturb", so the emergency callback gets the highest priority and all other incoming calls are blocked. The agent receives the responder callback directly bypassing any routing rules, capacity profiles, and presence settings (including the "Do not disturb" status).
 
 During the ongoing emergency conversation, the **Omnichannel Ongoing Conversations** dashboard displays just the device settings and the **End call** button; the dashboard doesn't display any call details. After the call ends, the calling controls and conversation history are not displayed to ensure confidentiality of the emergency call. When the agent exits the emergency call and ends the session, the presence changes back to the earlier base status.
 
