@@ -48,7 +48,7 @@ Use the information in the following table to know about the availability of the
 
 See the information in the following table to know about the supported languages and locale codes.
 
-We use the Azure Cognitive Services Speech service Speech-to-Text for transcription, so we'll support all the languages that Speech-to-Text supports today. We also support a bring-your-own bot through Azure Bot Service for Interactive Voice Response (IVR) that will be constrained by the languages that Speech-to-Text supports.  End-to-end voice and IVR support is available only if a language is supported in the Power Virtual Agents or Azure bot service, and Omnichannel for Customer Service. Sentiment and AI insights are optional for the voice functionality.  
+We use the Azure Cognitive Services Speech service Speech-to-Text for transcription, so we'll support all the languages that Speech-to-Text supports today. We also support a bring-your-own bot through Azure Bot Service for Interactive Voice Response (IVR) that will be constrained by the languages that Speech-to-Text supports. End-to-end voice and IVR support is available only if a language is supported in the Power Virtual Agents or Azure bot service, and Omnichannel for Customer Service. Sentiment and AI insights are optional for the voice functionality.  
 
 | Language | Language code | Voice channel in Omnichannel for Customer Service | Power Virtual Agents | Speech-to-Text | Text-to-Speech | Sentiment | AI suggestions | UI language support|
 |-------------------|---------|-----------|-------------|--------------|--------------|-----------|----------------|---------------|
@@ -223,7 +223,7 @@ We use the Azure Cognitive Services Speech service Speech-to-Text for transcript
 | Zulu - South Africa| `zu-ZA` |x|x|x|x|x|x|x|
 ||||||||||
 
-Use the information in table to find more about language support for voice related features.
+Use the information in the following table to find out more about language support for voice-related features.
  
 | Feature |	List of supported languages |
 | ---- | ---- |
@@ -231,7 +231,7 @@ Use the information in table to find more about language support for voice relat
 | Power Virtual Agents (IVR) | [Power Virtual Agents supported languages](/power-virtual-agents/authoring-language-support)|
 | Bring your own bot (IVR) | [Language and voice support for the Speech service](/azure/cognitive-services/speech-service/language-support)|
 | AI suggestions | [Language support for AI suggestions](csw-enable-ai-suggested-cases-knowledge-articles.md#language-support-for-ai-suggestions)|
-| Sentiment Analysis | [Multi-language sentiment](enable-sentiment-analysis.md#multi-language-sentiment) |
+| Sentiment Analysis | [Multilanguage sentiment](enable-sentiment-analysis.md#multilanguage-sentiment) |
 | Other Omnichannel for Customer Service features | [Language availability in Omnichannel for Customer Service](international-availability.md#language-availability)
 |||
 
