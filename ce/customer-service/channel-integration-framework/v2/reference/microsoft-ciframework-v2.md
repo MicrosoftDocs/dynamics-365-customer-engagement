@@ -90,7 +90,7 @@ Use the following APIs to track event analytics.
 
 ## Session indicator APIs
 
-Use the following APIs to indicate a KPI breach and can be used to update the number of new activities in a particular session.
+Use the following APIs to indicate a KPI breach and to update the number of new activities in a particular session.
 
 | Methods | Description |
 |---------|-------------|
