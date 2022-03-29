@@ -31,9 +31,9 @@ Dynamics 365 Sales Premium offers a 30-day free trial with the Sales Premium lic
 
 Your trial environment includes many of the same features as the paid version. The following links guide you through some of the key features:
 
-- [Accelerate your sales](/ai/sales/sales-accelerator-intro)
-    - [Prioritize your sales pipeline through the work list](/ai/sales/prioritize-sales-pipeline-through-work-list)
-    - [Manage sequences](/ai/sales/create-manage-sequences)
+- [Accelerate your sales](sales-accelerator-intro.md)
+    - [Prioritize your sales pipeline through the work list](prioritize-sales-pipeline-through-work-list.md)
+    - [Manage sequences](create-manage-sequences.md)
 - [Nurture your sales from lead to order](nurture-sales-from-lead-order-sales.md)
     - [Manage your pipeline using deal manager](deal-manager-seller-overview.md)
     - [Create an opportunity](create-edit-opportunity-sales.md)
@@ -45,6 +45,6 @@ Your trial environment includes many of the same features as the paid version. T
 ## Additional resources
 
 - [Dynamics 365 Sales free trial sign up page](https://dynamics.microsoft.com/sales/sales-tool/free-trial)
-- [Explore training on Microsoft Learn](/learn/dynamics365/sales>)
+- [Explore training on Microsoft Learn](/learn/dynamics365/sales)
 - [Watch videos on the product playlist](https://www.youtube.com/watch?v=d1eOU8SCy_A&list=PLcakwueIHoT8Bkb8BvqgBKgJPUc3jSX3m)
 - [Trial FAQ](sales-trial-faq.md)
