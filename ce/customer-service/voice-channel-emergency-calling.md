@@ -27,7 +27,7 @@ During the call, the agent's status is automatically changed to "Do not disturb"
 During the ongoing emergency conversation, the **Omnichannel Ongoing Conversations** dashboard displays just the device settings and the **End call** button; the dashboard doesn't display any call details. After the call ends, the calling controls and conversation history are not displayed to ensure confidentiality of the emergency call. When the agent exits the emergency call and ends the session, the presence changes back to the earlier base status.
 
 > [!Note]
-> - Emergency calling is currently supported only in US and Puerto Rico where the emergency calling number is 911.
+> - Emergency calling is currently supported only in the United States and Puerto Rico where the emergency calling number is 911.
 > - Omnichannel for Customer Service does not record or store details of incoming or outgoing emergency calls.
 
 ### See also
