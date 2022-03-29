@@ -46,7 +46,7 @@ To manage keywords:
 
 To view and edit your image library:
 
-1. Go to **Marketing** > **Marketing content** > **Files**. You now see a list of all existing images and files. Choose any row in the table here to view information about the file and edit its settings (including keywords).
+1. Go to **Marketing** > **Marketing content** > **Images**. You now see a list of all existing images and files. Choose any row in the table here to view information about the file and edit its settings (including keywords).
 
 2. On the command bar, select **New** to upload a new file. The **Upload Files** dialog box opens.
 
@@ -61,7 +61,7 @@ To view and edit your image library:
 
 5. Select **Save** to upload your images to Dynamics 365 Marketing.
 
-6. If you want to edit the display name for an image, go back to **Marketing** > **Marketing content** > **Files**.
+6. If you want to edit the display name for an image, go back to **Marketing** > **Marketing content** > **Images**.
 
 ### See also
 
