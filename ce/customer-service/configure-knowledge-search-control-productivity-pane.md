@@ -1,7 +1,7 @@
 ---
 title: Configure knowledge search control on app side pane for an entity record (preview) | Microsoft Docs
 description: See how to configure the settings for knowledge search control in Dynamics 365 Customer Service
-ms.date: 03/07/2022
+ms.date: 03/29/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -38,8 +38,8 @@ Go to the Customer Service admin center or Customer Service Hub app, and perform
 
 ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
-1. In the sitemap, select **Knowledge** in **Agent Experience**.
-1. On the **Knowledge** page, in **Record Types**, select **Manage**.
+1. In the site map, select **Knowledge** in **Agent Experience**.
+1. On the **Knowledge** page, in the **Record Types** section, select **Manage**.
 1. On the **Record Types** page, select **Add**. The **Add record type** dialog appears.
 1. On the **Add record type** dialog, from the **Select record type** dropdown list, select the record type.
 1.	Click **Save and Close**.
@@ -69,7 +69,7 @@ To edit an entity record:
 1. On the **Record Types** page, select the entity you want to edit.
 1. Select **Edit**. The **Knowledge settings** dialog appears.
 1. In **Automatic search**:
-    - Set the **Turn on automatic search** toggle to yes, if you want automatic search to be enabled for your entity record.
+    - Set the **Turn on automatic search** toggle to **Yes**, if you want automatic search to be enabled for your entity record.
     - From the **Provide search results using** dropdown list, select the field by which the search results will be provided for the entity.
 1. In **Actions**, select the checkboxes as required for the following:
     * **Link / unlink article**
