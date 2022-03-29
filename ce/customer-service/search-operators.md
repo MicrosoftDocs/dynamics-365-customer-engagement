@@ -1,7 +1,7 @@
 ---
 title: Learn which search operators can be used for knowledge management in Dynamics 365 Customer Service | Microsoft Docs
 description: Use search operators to search for knowledge articles in the Customer Service Hub.
-ms.date: 03/28/2022
+ms.date: 03/29/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -23,13 +23,11 @@ ms.custom:
 
 Setting up a comprehensive knowledge base is the key to increased customer satisfaction and improved productivity. A knowledge base is created to help agents with solutions to the most common customer issues to assist customers quickly. This topic describes how various search methods work in a knowledge base and how agents can view accurate search results based on the fields or operators that they use to search the knowledge base.
 
-Knowledge management search control uses the Dataverse search mechanism to search for knowledge articles. More information: [What is Dataverse search?](/power-platform/admin/configure-relevance-search-organization).
+Knowledge management search control uses Dataverse search to search for knowledge articles. More information: [What is Dataverse search?](/power-platform/admin/configure-relevance-search-organization). Dataverse search is enabled by default on all production environments, except those using their own encryption key. More information: [Enable Dataverse search](/power-platform/admin/configure-relevance-search-organization#enable-dataverse-search).
 
-This topic describes the search fields and search operators with their respective search queries that you can use to get the knowledge articles you want.
+Depending on the configurations made in Dataverse search through the Quick Find view columns list, you could use the information provided in the search results, such as keywords, description, attachments, or article number. More information: [Before you begin using Dataverse search](search-knowledge-articles-csh.md#before-you-begin-using-dataverse-search).
 
-## Custom search fields configured in Dataverse search
-
-Depending on the custom field configurations made in Dataverse search, you could use the information provided in the search results, such as  article number, info card that displays search term matches from keywords, description, attachments, and any other custom fields. More information: [Use the knowledge search pane to search articles](csw-search-knowledge-articles.md#use-the-knowledge-search-pane-to-search-articles).
+If you turn off Dataverse search, the search mechanism switches to full-text search, which lets you run full-text queries against character-based data in SQL Server tables. More information: [Full-text search](/sql/relational-databases/search/full-text-search).
 
 ## Search operators
 
@@ -64,7 +62,7 @@ For example, when you search for **product**, all rows matching the term product
 
 :::image type="content" source="media/not-operator.png" alt-text="NOT operator":::
 
-However, searching for **product + -order** will match all rows that contain the term product but not the term order.
+However, searching for **product -order** will match all rows that contain the term product but not the term order.
 
 - Query syntax: NOT operator; denoted by -
 
@@ -78,7 +76,7 @@ Use wildcards as placeholders for one or more text characters. Use an asterisk (
 
 ### Exact matches
 
-Use double quotation marks around a keyword to perform an exact match. For example, searching on "Order Shipping time" will match the exact keywords in an knowledge article. The search ignores commonly used words such as a, an, and the.
+Use double quotation marks around a keyword to perform an exact match. For example, searching on "order shipping time" will match the exact keywords in an knowledge article. The search ignores commonly used words such as a, an, and the.
 
 :::image type="content" source="media/exact matches.png" alt-text="Exact matches":::
 
