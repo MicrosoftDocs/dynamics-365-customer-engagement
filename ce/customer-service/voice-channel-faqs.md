@@ -82,7 +82,7 @@ Yes, business continuity and disaster recovery for production instances of the v
 
 ### Does the voice channel support emergency calling?
 
-Yes, the voice channel supports emergency calling where agents can dial in the emergency number in case of a crisis. This feature is currently supported in the United States and Puerto Rico where the emergency calling number is 911. More information: [How emergency calling works in the voice channel](voice-channel-emer-calling.md)
+Yes, the voice channel supports emergency calling where agents can dial in the emergency number in case of a crisis. This feature is currently supported in the United States and Puerto Rico where the emergency calling number is 911. More information: [How emergency calling works in the voice channel](voice-channel-emergency-calling.md)
 
 ### See also
 
