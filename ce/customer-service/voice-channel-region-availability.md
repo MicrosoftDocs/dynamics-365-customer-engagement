@@ -66,7 +66,7 @@ We use the Azure Cognitive Services Speech service Speech-to-Text for transcript
 | Arabic - Libya| `ar-LY` |x|x|✔|✔|x|x|x|
 | Arabic - Morocco| `ar-MA` |x|x|✔|✔|x|x|x|
 | Arabic - Oman | `ar-OM` |x|x|✔|x|x|x|x|
-| Arabic - Palestenian Authority| `ar-PS` |x|x|✔|x|x|x|x|
+| Arabic - Palestinian Authority| `ar-PS` |x|x|✔|x|x|x|x|
 | Arabic - Qatar| `ar-QA` |x|x|✔|✔|x|x|x|
 | Arabic - Saudi Arabia| `ar-SA` |✔|x|✔|✔|x|✔|✔|
 | Arabic - Syria| `ar- SY` |x|x|✔|✔|x|x|x|
