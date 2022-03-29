@@ -30,9 +30,9 @@ None
 |Name                 |   Type      |     Description            |
 |----                 |----         |----------------------------|
 |`queueId`            | String      |  The target queue where the request will be routed​ based on routing rule configuration and input data (value of entity and context which are part of routing rule) are provided.                        |
-|`isWithinOperatingHours` |    Boolean      | Boolean value for whether queue is within operating hours.  |
-|`availableNextTime` |    DateTime      |    The time (UTC) when the queue will be available next when queue is outside operating hours​.  |
-|`availableUntilTime` |    DateTime      |    The time (UTC) until when the queue will be available                       |
+|`isWithinOperatingHours` |    Boolean      | Boolean value for whether the queue is within operating hours.  |
+|`availableNextTime` |    DateTime      |    The time (UTC) until when the queue will be available next if queue is outside operating hours​.  |
+|`availableUntilTime` |    DateTime      |    The time (UTC) until when the queue will be available.                       |
 |`positionInQueue` |    String      |   The position in queue for the customer behind other customers waiting in the same queue​.|
 | `isAgentAvailable`  |  Boolean  |  If agents within the queue are currently available to take requests based on configured routing and assignment rules for workstream​. |
 | `averageWaitTime`  | Integer   | Average wait time in minutes for customers in the target queue based on past 48 hours data. |
