@@ -1,7 +1,7 @@
 ---
 title: Knowledge base search options on portals in Dynamics 365 Customer Service| MicrosoftDocs
 description: Know how you can search the knowledge base on portals in Microsoft Dynamics 365 Customer Service.
-ms.date: 03/29/2022
+ms.date: 03/30/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -22,6 +22,8 @@ ms.custom:
 ## Introduction
 
 A portal is a platform that brings in information from various sources to customers. Having a knowledge base on the portal makes it a customer self-service portal, where customers can access and search for knowledge articles through simple queries. This reduces customer issues and makes information easily accessible. You can search for your knowledge articles by selecting **Knowledge Base** from your portal.
+
+You can search for a knowledge article after it has been published to the portal. More information: [Schedule or publish an article](customer-service-hub-user-guide-knowledge-article.md#schedule-or-publish-an-article).
 
 The following are the search options that you can use to search the knowledge base on the portal.
 
