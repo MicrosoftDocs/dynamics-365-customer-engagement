@@ -13,7 +13,7 @@ ms.custom:
 
 # onPresenceChange​ event (JavaScript API reference) for Dynamics 365 Channel Integration Framework 2.0
 
-Invoked when the presence or availability status of an agent has changed manually or programmatically.
+Invoked when the presence or availability status of an agent has changed manually or programmatically. 
 
 ## eventData
 
@@ -21,7 +21,8 @@ The `onPresenceChange` event takes the following eventData:
 
 | eventData | Example |
 |-----------|---------|
-| ```{"value": <string>}``` | ```{"value": "Available"}``` |
+| ```{"presenceId": <guid>}``` | ```{"presenceId": "efdeb843-c07a-e811-8162-000d3aa11f50"}``` |
+| ```{"presenceInfo":{"basePresenceStatus":<string>, "presenceColor":<string>, "presenceId":<string>,"presenceText":<string>}}``` | ```{"presenceInfo":{"basePresenceStatus: "BUSY", "presenceColor": "#ff0000", "presenceId":"efdeb843-c07a-e811-8162-000d3aa11f50", "presenceText": "Busy"}}``` |
 
 **Example**
 
