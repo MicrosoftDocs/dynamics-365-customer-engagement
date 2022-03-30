@@ -23,7 +23,7 @@ ms.custom:
 
 A portal is a platform that brings in information from various sources to customers. Having a knowledge base on the portal makes it a customer self-service portal, where customers can access and search for knowledge articles through simple queries. This reduces customer issues and makes information easily accessible. You can search for your knowledge articles by selecting **Knowledge Base** from your portal.
 
-You can search for a knowledge article after it has been published to the portal. More information: [Schedule or publish an article](customer-service-hub-user-guide-knowledge-article.md#schedule-or-publish-an-article).
+You can search for a knowledge article after it has been published to the portal. More information: [Schedule or publish an article](customer-service-hub-user-guide-knowledge-article.md#schedule-or-publish-an-article). You can also share knowledge article as URLs, on an external portal. More information: [Set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-management).
 
 The following are the search options that you can use to search the knowledge base on the portal.
 
