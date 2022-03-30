@@ -66,6 +66,8 @@ The **Routing diagnostics** page displays a list of work items with details and 
 - **Routing duration**: The amount of time the work item has been in its current stage.
 - **Work stream**: The name of the workstream that the work item was assigned to.
 - **Queue**: The name of the queue that the work item was routed to.
+- **Routed agent**: The agent to whom the work item was assigned.
+- **Rule hit policy**: Depending on the stage, displays the rule information, such as first match or run all, that helps you understand how the rules were processed in the stage.
 
 ## Routing diagnostics flow
 
