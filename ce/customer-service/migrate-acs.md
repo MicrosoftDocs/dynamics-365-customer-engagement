@@ -1,6 +1,6 @@
 ---
 title: "Migration changes for new Omnichannel messaging platform | MicrosoftDocs"
-description: "Understand the changes you'll need to make to your omnichannel implementations to successfully migrate to the new Azure Bot Service channel."
+description: "Use this article to understand the changes you'll need to make to your omnichannel implementations to successfully migrate to the new Azure Bot Service channel."
 ms.date: 03/31/2022
 ms.topic: article
 author: neeranelli
