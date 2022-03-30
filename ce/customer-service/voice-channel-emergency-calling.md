@@ -20,7 +20,7 @@ You must ensure the following conditions are met for emergency calling to work p
 
 ## How emergency calling works
 
-With the new emergency calling feature, anyone who's configured to make outbound calls, whether it's an omnichannel administrator, supervisor, or agent, can call the emergency number during a crisis situation. When the agent dials the emergency number, a temporary callback number is assigned to the agent. This way, the agent can be reached via callback in case of a dropped emergency call even when using a shared outbound number. The callback number is temporarily assigned to the agent for a duration of 60 minutes.
+With the new emergency calling feature, agents can call the emergency number during a crisis situation. When the agent dials the emergency number, a temporary callback number is assigned to the agent. This way, the agent can be reached via callback in case of a dropped emergency call even when using a shared outbound number. The callback number is temporarily assigned to the agent for a duration of 60 minutes.
 
 During the call, the agent's status is automatically changed to "Do not disturb", so the emergency callback gets the highest priority and all other incoming calls are blocked. The agent receives the responder callback directly bypassing any routing rules, capacity profiles, and presence settings (including the "Do not disturb" status).
 
@@ -33,6 +33,6 @@ During the ongoing emergency conversation, the **Omnichannel Ongoing Conversatio
 ### See also
 
 [Set up outbound calling in the voice channel](voice-channel-outbound-calling.md)  
-[Set up inbound calling for the voice channel](voice-channel-route-queues.md)  
+[Set up inbound calling in the voice channel](voice-channel-route-queues.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
