@@ -1,7 +1,7 @@
 ---
 title: "Define service-level agreements in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how to define service-level agreements in Dynamics 365 Customer Service."
-ms.date: 03/29/2022
+ms.date: 03/30/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -538,10 +538,7 @@ You can enable the export or import of calendar either from the Customer Service
 
 1. Go to one of the apps and perform the following steps.
 
-    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-
-    > [!IMPORTANT]
-    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
     1. In the site map, select **Service terms** in **Operations**. The **Service Terms** page appears.
     1. In the **Other SLA Settings** section, select **Manage**. The **Service Configuration Settings** page appears.
@@ -554,10 +551,10 @@ You can enable the export or import of calendar either from the Customer Service
 1. Select **Save**.
 
 > [!IMPORTANT]
-> - When you delete a solution containing SLAs, the SLAs get deleted. However, their corresponding calendars don't get deleted.
-> - Calendars once imported to the target org, are editable. However, it is recommended to make any changes to the calendar through the solution import or export process.
-> - The calendars will be overwritten during every solution import in case of any changes. So, the calendar in the latest solution being imported will overwrite the existing customizations or settings on the calendar present on the target environment.
-> - Exported calendars will be present in XML format in the `Calendars` folder within the exported solution.
+> - When you delete a solution that contains SLAs, the SLAs are also deleted. However, their corresponding calendars aren't deleted.
+> - Calendars, when imported to the target organization, are editable. However, it is recommended to make any changes to the calendar through the solution import or export process.
+> - Calendars are overwritten when there is a solution import. So, the calendar in the latest solution that is being imported will overwrite existing customizations or settings on the current calendar in the target environment.
+> - Exported calendars will be present in XML format in the Calendars folder within the exported solution.
 > - SLA Items will automatically be linked to the corresponding imported calendars on import.
 
 ## Recommended procedure for upgrading a solution
