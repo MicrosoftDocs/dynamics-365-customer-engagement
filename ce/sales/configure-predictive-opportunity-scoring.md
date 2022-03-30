@@ -164,7 +164,9 @@ If you're using your custom attributes for opportunity generation, you can gener
 
 5. In the **Business process flow** list, select a business process flow that's relevant for the opportunities that you're generating the model for. 
     > [!NOTE]
-    > To display custom business process flows in the list, enable **Change Tracking** for the business process flow entity. More information: [Enable change tracking to control data synchronization](/power-platform/admin/enable-change-tracking-control-data-synchronization)
+    >- To display custom business process flows in the list, enable **Change Tracking** for the business process flow entity. More information: [Enable change tracking to control data synchronization](/power-platform/admin/enable-change-tracking-control-data-synchronization)
+    >- When you generate the model, custom business processes will be automatically enabled to sync the data to Data Lake Storage for analytics.
+
 
 6. In the **State option set** list, select the option set in which the status of the opportunities is defined, and then select the corresponding won and lost values in the **Won value** and **Lost value** lists, respectively.
 

@@ -169,7 +169,6 @@ If you're using custom attributes for lead generation, you can generate the mode
     > [!NOTE]
     >- Custom business process flows that are not enabled for change tracking are disabled for selection in the list. To enable change tracking for such entities, see [Enable change tracking to control data synchronization](/power-platform/admin/enable-change-tracking-control-data-synchronization).
     >- When you generate the model, custom business processes will be automatically enabled to sync the data to Data Lake Storage for analytics.
-    >- An entry will be created in the EntityAnalyticsConfig table with ParentEntityLogicalName as BPF name and IsEnabledForADLS as True.
     
 
 6. In the **State option set** list, select the option set in which the status of the leads is defined, and then select the corresponding qualified and disqualified values in the **Qualified value** and **Disqualified value** lists, respectively. 
