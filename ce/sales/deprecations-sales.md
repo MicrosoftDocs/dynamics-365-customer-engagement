@@ -53,7 +53,7 @@ Effective April 1, 2021, Dynamics 365 – Gamification is deprecated. Until Sept
 | Product areas affected | Application |
 | Deployment option | All |
 | Status | Removed: By October 15, 2020 |
-|||
+
 
 ## Dynamics 365 Product Visualize is deprecated
 
