@@ -39,7 +39,9 @@ To enable Teams integration in Customer Service, the following prerequisites mus
 To enable Teams meeting integration:
 
 1. In Customer Service Hub, on the lower-left corner of the screen, select **Change area** > **Service Management**.
+
 1. On the site map, under **Collaboration**, select **Meeting integration using Teams (preview)**.
+
 1. Turn on the **Show Dynamics 365 data in Teams meetings (preview)** toggle.
 
     ![Show Dynamics 365 data in Teams meetings toggle.](media/show-teams-meetings-toggle.png)
@@ -69,9 +71,14 @@ The side panel helps agents quickly view and update details of the related recor
 **To customize the record side panel**
 
 1.	Sign in to Power Apps. 
+
 1.	Select the environment, and then select **Dataverse** > **Tables**. 
+
 1.	In the upper-right corner, select the dropdown list, and then select **All**. 
-1.	Search for the required table and select to open it. 
+
+1.	Search for the required table and then select it to open it. 
+
 1.	Go to the **Forms** tab and select the **In Context Form** form. 
+
 1.	Edit the form to manage the fields that appear in the side panel. By default, all the fields in the form are editable. If you want to set a field as read-only, select the field, and then enable the **Read-only** property.
    
