@@ -30,13 +30,13 @@ By enabling this feature, you can help give agents and supervisors in your organ
 ## Prerequisites
 To enable Teams integration in Customer Service, the following prerequisites must be met.
 
-- You must have a Dynamics 365 Customer Service license for your organization
-- As an administrator, you must configure the ability for agents in your organization to add and join Teams meetings in the Power Platform admin center app. More information: [Manage feature settings - Power Platform](/power-platform/admin/settings-features).   
+- You must have a Dynamics 365 Customer Service license for your organization.
+- As an administrator, you must configure the ability for agents in your organization to add and join Teams meetings in the Power Platform admin center app. More information: [Manage feature settings - Power Platform](/power-platform/admin/settings-features) 
 - Optional: Configure the ability to sync calendars so that any meetings that are created in Dynamics 365 apps will show up on calendars in Microsoft Outlook and Teams. More information: [Set up server-side synchronization of email, appointments, contacts, and tasks - Power Platform](/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)
 
 ## Enable Teams meeting integration
 
-To enable Teams meeting integration:
+Complete the following steps to enable Teams meeting integration.
 
 1. In Customer Service Hub, on the lower-left corner of the screen, select **Change area** > **Service Management**.
 
@@ -68,7 +68,7 @@ The side panel helps agents quickly view and update details of the related recor
 |Define (add or remove) fields in the header. | Enable or disable tabs.<br> Rearrange tabs. |
 | Define (add or remove) fields in the Key Details section.<br>Change a field label.<br>Set a field requirement (for example, read-only).| Enable or disable tabs.<br>Rearrange tabs.<br>Add custom tabs or sections.<br>Add sections other than Key Details, Contacts, Notes, Tasks, Collaboration, and Recent Opportunities.<br>Add a web resource.<br>Add a subgrid.<br>Change the format or layout for headers, tabs, sections, or fields.<br> Change certain properties for headers, tabs, sections, or fields. For example, the **available on phone** property can't be changed. 
 
-**To customize the record side panel**
+**To customize the record side panel:**
 
 1.	Sign in to Power Apps. 
 
