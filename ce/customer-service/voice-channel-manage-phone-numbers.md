@@ -57,10 +57,7 @@ You can purchase new phone numbers for your organization after you've installed 
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
     1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
     
@@ -164,7 +161,7 @@ If you no longer need a phone number, you can release it from your organization'
 
 **To release a phone number**
 
-1. In Customer Service admin center (preview) or Omnichannel admin center, go to the **Phone numbers** page. The list of the available phone numbers for your business is displayed.
+1. In Customer Service admin center or Omnichannel admin center, go to the **Phone numbers** page. The list of the available phone numbers for your business is displayed.
 
 2. Select a phone number and select **Release number**. The **Release number** dialog requesting you to confirm the number deletion is displayed.
 
