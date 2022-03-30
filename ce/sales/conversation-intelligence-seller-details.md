@@ -17,7 +17,7 @@ View insights and analysis of each seller’s performance during calls with cust
 The information you see on the **Seller details** page varies according to your role (sales manager or seller). To view the **Seller details** page, sign in to **Conversation intelligence**, and select **Seller details**. 
 
 ## License and role requirements
-| Requirement | What you need? |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|

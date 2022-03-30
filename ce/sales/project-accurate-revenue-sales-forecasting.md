@@ -25,7 +25,7 @@ searchScope:
 A forecast helps your organization predict how much revenue your sales team will generate in a given timeframe. When done correctly, it can play a significant role in your company's success. 
 
 ## License and role requirements
-| Requirement | What you need? |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|

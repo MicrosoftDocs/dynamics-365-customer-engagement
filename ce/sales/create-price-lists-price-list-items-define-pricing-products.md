@@ -24,8 +24,8 @@ Use price lists and price list items for defining price for a product. Create mu
 > [!NOTE]
 > Territories are only supported for Sales Enterprise and Sales Premium.
 
-## License and role requirements 
-| Requirement | What you need? | 
+## License and role requirements
+| Requirement type | You must have | 
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Sales Manager, Sales Professional Manager, or Vice President of Sales <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|

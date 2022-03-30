@@ -12,7 +12,7 @@ manager: shujoshi
 Use who knows whom to quickly identify colleagues within your organization who can introduce you to a lead or contact.
 
 ## License and role requirements
-| Requirement | What you need? |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|

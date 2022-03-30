@@ -15,7 +15,7 @@ Develop your opportunity by adding products, bundles or families that you want t
 
 
 ## License and role requirements
-| Requirement | What you need? |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|

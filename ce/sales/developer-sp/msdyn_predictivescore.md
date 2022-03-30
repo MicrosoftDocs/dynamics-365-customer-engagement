@@ -16,7 +16,7 @@ manager: shujoshi
 This article includes schema information and supported messages for the msdyn_predictivescore entity.
 
 ## License and role requirements
-| Requirement | What you need? |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System customizer <br>  More information: [Predefined security roles for Sales](../security-roles-for-sales.md)|

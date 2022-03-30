@@ -12,7 +12,7 @@ manager: shujoshi
 View a snapshot to see and understand the forecast data at the moment in time when the snapshot was taken, including underlying opportunities. Also, you can compare the data between your current forecast and the snapshot to understand how the forecast is doing.
 
 ## License and role requirements
-| Requirement | What you need? |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|

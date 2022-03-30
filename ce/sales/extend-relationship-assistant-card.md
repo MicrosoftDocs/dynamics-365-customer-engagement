@@ -17,7 +17,7 @@ ms.tgt_pltfrm:
 Use the assistant to create custom action cards that help in displaying insight cards that are specific to your organization.
 
 ## License and role requirements
-| Requirement | What you need? |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator or System Customizer <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|

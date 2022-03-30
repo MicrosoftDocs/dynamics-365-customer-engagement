@@ -14,7 +14,7 @@ As a seller using Dynamics 365 Sales, you can connect with your customers daily 
 If an activity isn't required to be completed by the due date or you're unable to connect with a customer, you can [skip or snooze the activity](#skip-or-snooze-an-activity).
 
 ## License and role requirements
-| Requirement | What you need? |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|

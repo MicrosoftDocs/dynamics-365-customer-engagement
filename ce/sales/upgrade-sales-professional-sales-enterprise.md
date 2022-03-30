@@ -12,7 +12,7 @@ manager: shujoshi
 Learn the steps to upgrade from Sales Professional to Sales Enterprise.
 
 ## License and role requirements
-| Requirement | What you need? |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise and Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
