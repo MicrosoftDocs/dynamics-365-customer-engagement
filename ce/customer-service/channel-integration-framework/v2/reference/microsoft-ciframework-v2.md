@@ -102,8 +102,8 @@ Use these APIs to set and retrieve the Omnichannel agent presence programmatical
 
 | Methods | Description |
 |---------|-------------|
-| [setPresence​](microsoft-ciframework/setPresence​.md) | Allows presence to be set programmatically for the agent in the client session​. |
-| [getPresence​](microsoft-ciframework/getPresence​.md) | Allows presence to be returned programmatically for the agent in the client session​. |
+| [setPresence​](v2/reference/microsoft-ciframework/setPresence​.md) | Allows presence to be set programmatically for the agent in the client session​. |
+| [getPresence​](v2/reference/microsoft-ciframework/getPresence​.md) | Allows presence to be returned programmatically for the agent in the client session​. |
 
 ## Miscellaneous methods
 
