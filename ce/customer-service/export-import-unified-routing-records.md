@@ -43,11 +43,11 @@ The following prerequisites must be met:
 
 Perform the steps in the order listed to export and import the configuration from the source to the target organization. Use the information in the sections for each type of data and refer to the corresponding sample schemas for each type of configuration to fetch the required records.
 
-1. Export and import data for skill-based (logical) routing
-2. Export and import data for capacity profile configuration
-3. Export and import data for record queues based on unified routing
-4. Export and import data for intake rules for record routing configuration
-5. Export and import data for record workstreams based on unified routing
+1. Export and import data for skill-based routing
+2. Export and import data for capacity profiles
+3. Export and import data for unified routing-based record queues
+4. Export and import intake rules for records
+5. Export and import unified routing-based record workstreams
 
 ## Considerations for export and import of data
 
@@ -104,7 +104,7 @@ If skill-based routing rulesets are used in your unified routing setup, perform 
    > [!NOTE]
    > You need to manually create bookableresourcecharacteristictype (Global option set value) in the target organization if required.
 
-## Export and import data for capacity profiles configuration
+## Export and import data for capacity profiles
 
 If you have configured capacity profiles in your unified routing setup, perform the steps to migrate the corresponding configuration.
 
@@ -184,7 +184,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 1. Use the Configuration Migration tool, and select the option to import data into the target organization.
 
-## Export and import intake rules for record configuration
+## Export and import intake rules for records
 
 **Sample schema**
 
@@ -196,10 +196,10 @@ If you have configured capacity profiles in your unified routing setup, perform 
    
     - If in the target organization, a record routing hub exists for the record type that you want to migrate, then do one of the following steps:
       
-      - Delete the record routing hub and in Intake Data.xml, remove the attribute msdyn_rulesetdefinition from the entity msdyn_decisionruleset.
-      - Keep the value of msdyn_rulesetdefinition as empty.
+       - Delete the record routing hub and in Intake Data.xml, remove the attribute msdyn_rulesetdefinition from the entity msdyn_decisionruleset.
+       - Keep the value of msdyn_rulesetdefinition as empty.
   
-      [!INCLUDE[ur-migration](../includes/cc-ur-migration.md)]
+    [!INCLUDE[ur-migration](../includes/cc-ur-migration.md)]
    
     | SN| Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |Configure import settings  |
     |-----|---------|---------|---------|---------|
