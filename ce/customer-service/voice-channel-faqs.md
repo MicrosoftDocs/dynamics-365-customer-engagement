@@ -21,7 +21,7 @@ Yes, features such as sentiment analysis and agent suggestions for similar cases
 
 ### Is the voice channel PCI DSS compliant?
 
-The voice channel is compliant with Payment Card Industry Data Security Standard (PCI DSS) today, but support for credit card data capture over voice is not yet available. Agents have the ability to pause or resume call recording and transcription to avoid capturing sensitive information. Agents can pause transcription to avoid dual-tone multi-frequency (DTMF) tones being captured in the transcript. All data is stored in Dynamics 365 and can be scrubbed by the customer.
+The voice channel is compliant with Payment Card Industry Data Security Standard (PCI DSS) today, but support for credit card data capture over voice isn't yet available. Agents have the ability to pause or resume call recording and transcription to avoid capturing sensitive information. Agents can also pause transcription to avoid dual-tone multi-frequency (DTMF) tones being captured in the transcript. All data is stored in Dynamics 365 and can be scrubbed by the customer.
 
 ### Where does Azure Communication Services provide native PSTN services?
 
@@ -31,7 +31,7 @@ An alternative to Microsoft as a carrier is Azure direct routing that allows cus
 
 ### What about countries where Azure Communication Services doesn't provide native PSTN services?
 
-Azure Communication Services is available worldwide, even if it isn't acting as the carrier in certain countries. For these countries, Azure Communication Services provides a direct routing for local carriers, such as AT&T and Verizon, to connect to Azure Communication Services. Through this mechanism, customers will still be able to deploy and use all the features of the voice channel in Dynamics 365.
+Azure Communication Services is available worldwide, even if it isn't acting as the carrier in certain countries. For these countries, Azure Communication Services provides a direct routing for local carriers, such as AT&T and Verizon, to connect to Azure Communication Services. With this mechanism, customers will still be able to deploy and use all the features of the voice channel in Dynamics 365.
 
 ### What codecs are implemented in the voice channel?
 
@@ -57,7 +57,7 @@ Yes, you can use Dynamics 365 Channel Integration Framework 2.0 connector to int
 
 The voice capabilities for Dynamics 365 Customer Service are built on Azure Communication Services.
 
-### Will Azure Communication Services be an add-on service? I already have a competitor phone system and have Microsoft Teams.
+### Will Azure Communication Services be an add-on service? I already have a competitor phone system and have Microsoft Teams?
 
 Dynamics 365 doesn’t use calling plans for its voice channel. However, if customers are using Azure direct routing with Microsoft Teams, the same SBCs and setup can be used with Azure direct routing to reuse the voice channel. More information: [Bring your own carrier](voice-channel-bring-your-own-number.md)
 
@@ -82,7 +82,7 @@ Yes, business continuity and disaster recovery for production instances of the v
 
 ### Does the voice channel support emergency calling?
 
-Yes, the voice channel supports emergency calling where agents can dial in the emergency number in case of a crisis. This feature is currently supported in the United States and Puerto Rico where the emergency calling number is 911. More information: [How emergency calling works in the voice channel](voice-channel-emergency-calling.md)
+Yes, the voice channel supports emergency calling where agents can dial in the emergency number during crisis. This feature is currently supported in the United States and Puerto Rico where the emergency calling number is 911. More information: [How emergency calling works in the voice channel](voice-channel-emergency-calling.md)
 
 ### See also
 
