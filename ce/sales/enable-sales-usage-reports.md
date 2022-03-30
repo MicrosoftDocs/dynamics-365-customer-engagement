@@ -13,7 +13,7 @@ manager: shujoshi
 The sales usage reports provide an historical view of operational metrics and key performance indicators in Dynamics 365 Sales. This helps sales managers to view and analyze the teams’ operational metrics and take decisions to improve sales performance.
 
 ## License and role requirements
-| &nbsp; | &nbsp; |
+| Requirement | What you need? |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|

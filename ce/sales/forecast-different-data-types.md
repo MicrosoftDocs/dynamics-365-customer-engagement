@@ -24,7 +24,7 @@ Similarly, the Kanban view, deal flow, and trend chart can't show two columns wi
 >To use deal flows and trend charts, you must enable premium forecasting.
 
 ## License and role requirements
-| &nbsp; | &nbsp; |
+| Requirement | What you need? |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator or Forecast Manager <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|

@@ -16,7 +16,7 @@ Your organization's sales teams can use the relationship analytics in Dynamics 3
 Relationship analytics appears on Sales Insights opportunity record forms. Relationship health appears on opportunity record forms, list views, and charts.
 
 ## License and role requirements
-| &nbsp; | &nbsp; |
+| Requirement | What you need? |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md)|

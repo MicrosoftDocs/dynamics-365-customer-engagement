@@ -12,7 +12,7 @@ manager: shujoshi
 You can search for records such as contacts, accounts, leads, notes, and opportunities in the Dynamics 365 Sales mobile app.
 
 ## License and role requirements
-| &nbsp; | &nbsp; |
+| Requirement | What you need? |
 |-----------------------|---------|
 | **License** |Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Professional, or Microsoft Relationship Sales <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | All primary sales roles such as salesperson, sales manager, and so on.<br>  More information: [Primary sales roles](../security-roles-for-sales.md#primary-sales-roles)|

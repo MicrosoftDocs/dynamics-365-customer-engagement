@@ -13,7 +13,7 @@ manager: shujoshi
 Admin settings provides an organized and unified experience for administrators to easily configure the sales app from a single place.
 
 ## License and role requirements
-| &nbsp; | &nbsp; | 
+| Requirement | What you need? | 
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
