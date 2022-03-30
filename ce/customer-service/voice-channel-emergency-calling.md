@@ -24,7 +24,7 @@ With the new emergency calling feature, agents can call the emergency number dur
 
 During the call, the agent's status is automatically changed to "Do not disturb", so the emergency callback gets the highest priority and all other incoming calls are blocked. The agent receives the responder callback directly bypassing any routing rules, capacity profiles, and presence settings (including the "Do not disturb" status).
 
-During the ongoing emergency conversation, the **Omnichannel Ongoing Conversations** dashboard displays just the device settings and the **End call** button; the dashboard doesn't display any call details. After the call ends, the calling controls and conversation history aren't displayed to ensure confidentiality of the emergency call. When the agent exits the emergency call and ends the session, the presence changes back to the earlier base status.
+During the ongoing emergency conversation, the **Omnichannel Ongoing Conversations** dashboard displays just the device settings and the **End call** button; the dashboard doesn't display any call details. After the call ends, the calling controls and conversation history aren't displayed to ensure confidentiality. When the agent ends the emergency call, the presence changes back to the earlier status.
 
 > [!Note]
 > - Emergency calling is currently supported only in the United States and Puerto Rico where the emergency calling number is 911.
