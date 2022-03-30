@@ -61,11 +61,11 @@ The KPI summary charts summarize KPIs for the specified date and the percent cha
 >[!div class="mx-imgBorder"]
 >![KPI summary charts of sales usage reports.](media/sales-usage-reports-kpi-summary-charts.png "KPI summary charts of sales usage reports")  
  
-The following table shows the KPIs that are displayed in the report (in this example, an opportunity usage report).<!--note from editor: Suggested, to avoid saying "we are".-->
+The following table shows the KPIs that are displayed in the report (in this example, an opportunity usage report).
 
 | KPI | Description |
 |-----|-------------|
-| Opportunities converted | The number of opportunities that were converted into won deals.<!--note from editor: It looks like the UI uses "won deals" (see https://docs.microsoft.com/en-us/dynamics365/sales/relationship-analytics), which also works better grammatically.--> |
+| Opportunities converted | The number of opportunities that were converted into won deals. |
 | Opportunity conversion rate | The percentage of opportunities that were successfully converted into won deals. |
 | Avg. time (in days) for opportunity conversion | The average number of days that it took for an opportunity to be converted into a won deal. |
 
