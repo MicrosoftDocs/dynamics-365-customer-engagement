@@ -11,7 +11,7 @@ manager: shujoshi
 
 # Sales Hub app versus custom app
 
-Sales Hub is a Microsoft first-party app that's designed and configured for ideal seller experiences. The app is designed keeping in mind the sales processes following majority of the organizations, across domains. However, if your organization has unique selling processes, you can either customize the Sales Hub app or create a custom app from scratch. 
+Sales Hub is a Microsoft first-party app that's designed and configured for ideal seller experiences. The app is designed keeping in mind the sales processes followed by majority of the organizations, across domains. However, if your organization has unique selling processes, you can either customize the Sales Hub app or create a custom app from scratch. 
 
 Use the following table to compare the Sales Hub app and custom app, and decide which one suits your needs better: 
 
