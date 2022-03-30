@@ -32,9 +32,6 @@ You can enable the recalculation of SLAs that reach the terminal status in the C
 
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
-   > [!IMPORTANT]
-   > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-
     1. In the site map, select **Service Terms** in **Operations**.
     1. In the **Other SLA Settings** section, select **Manage**.                                                                         
         
