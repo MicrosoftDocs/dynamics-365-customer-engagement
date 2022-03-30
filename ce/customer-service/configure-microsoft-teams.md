@@ -68,17 +68,20 @@ Make sure that the following prerequisites are met:
        - Customers can send file attachments
        - Agents can send file attachments
     
-    1. Turn on the toggle for **Voice and video calls**, and select an option in the **Calling options** dropdown list. At runtime, when agents are in conversation with customers and need to use audio or video to resolve issues, the call and video options are available to them.
+    1. Turn on the toggle for **Voice and video calls** (preview), and select an option in the **Calling options** dropdown list. At runtime, when agents are in conversation with customers and need to use audio or video to resolve issues, the call and video options are available to them.
+
+      > [!NOTE]
+      > Voice and video calls is in preview, so you shouldn't use it in production. Use it only in test and development environments.
     
-    1. Verify the settings on the **Summary** page, and select **Finish**. The WhatsApp channel instance is configured.
+    2. Verify the settings on the **Summary** page, and select **Finish**. The WhatsApp channel instance is configured.
 
-1. Configure routing rules. More information: [Configure work classification](configure-work-classification.md).
+2. Configure routing rules. More information: [Configure work classification](configure-work-classification.md).
 
-1. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
+3. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
 
-1. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream).
+4. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream).
 
-1. In **Advanced settings**, configure the following options based on your business needs:
+5. In **Advanced settings**, configure the following options based on your business needs:
    - [Sessions](../app-profile-manager/session-templates.md)
    - [Agent notifications](../app-profile-manager/notification-templates.md#out-of-the-box-notification-templates)
    - [Context variables](context-variables-for-bot.md#add-context-variables)
