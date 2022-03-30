@@ -74,7 +74,7 @@ You can create workstreams for unified routing in the Customer Service admin cen
          - In **Pick** mode, a work item is dispatched to agents when they explicitly pick the work item from the **Open work items** in the agent dashboard.
     
     - In **Fallback queue**, select one of the following options:
-         - **Create new**: Enter a queue name to which work items will be sent when no queue is available. You'll need to add users to the queue after creating the workstream.
+         - **Create new**: Enter a queue name to which work items will be sent when no queue is identified in the the route-to-queue rules. You'll need to add users to the queue after creating the workstream.
          - **Choose existing**: Select an existing queue from the dropdown list box. By default, the out-of-the-box queue for the selected channel type is selected.
 
       More information: [Fallback queues](queues-omnichannel.md#fallback-queues)
