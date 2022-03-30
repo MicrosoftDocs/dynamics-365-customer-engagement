@@ -10,7 +10,7 @@ manager: shujoshi
 
 # Migration changes for new Omnichannel messaging platform
 
-We'll be rolling out a new messaging platform enhancement in phases over the next few months. We're releasing a new Azure Bot Service channel to help extend the existing bot integration capabilities for the messaging channels.
+We'll be rolling out a new messaging platform enhancement in phases over the next few months. We're releasing a new Azure Bot Service channel to extend the existing bot integration capabilities for the messaging channels.
 
 You must make the following changes to your omnichannel implementations:
 
