@@ -1,8 +1,8 @@
-The `onsizechanged` event is invoked when the side panel width is changed.
+The `onSizeChanged` event is invoked when the side panel width is changed.
 
 ## eventData
 
-The `onsizechanged` event takes the following eventData:
+The `onSizeChanged` event takes the following eventData:
 
 | eventData | Example |
 |-----------|---------|

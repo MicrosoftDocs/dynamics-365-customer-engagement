@@ -15,6 +15,14 @@ ms.custom:
 
 Invoked when the presence or availability status of an agent has changed manually or programmatically.
 
+## eventData
+
+The `onPresenceChange` event takes the following eventData:
+
+| eventData | Example |
+|-----------|---------|
+| ```{"value": <string>}``` | ```{"value": "Available"}``` |
+
 **Example**
 
 ```Javascript
