@@ -149,9 +149,8 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 1. Use the Configuration Migration tool to create the schema and export data from the source organization for unified routing-based record queues configuration.
 
-   [!INCLUDE[ur-migration](../includes/cc-ur-migration.md)]
+  - [!INCLUDE[ur-migration](../includes/cc-ur-migration.md)]
 
-------
 
   - **Entity display name**: When you create the schema, select the entities in the sequence that's mentioned in the following table.
   - **Attribute display name**: We recommend that you select the attributes defined in the following table. You don't need to select the out-of-the-box system defined attributes, such as Created By, Created On, Modified By, Modified On, and Owner. You can select custom attributes if required.
