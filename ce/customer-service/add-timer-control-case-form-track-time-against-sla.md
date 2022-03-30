@@ -147,7 +147,7 @@ More information: [Track SLA details with Timer Control](customer-service-hub-us
   
 4. In the solution explorer on the left pane, expand **Entities**, expand the **Case** entity, and select **Forms**.
   
-    To add the timer to the form so the customer service representatives can use it in the Customer Service Hub, open the case form of type **Main**.  
+    To add the timer to the form so the customer service representatives can use it in Customer Service Hub, open the case form of type **Main**.  
   
 5. Select on the form where you want to place the control. You can add it anywhere except the form header or footer.  
   
