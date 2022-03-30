@@ -139,8 +139,6 @@ The following sections include short procedures that explain how you can get the
     > [!div class="mx-imgBorder"]
     > ![Create event grid system topic.](./media/voice-channel-create-event-grid-system-topic.png "Create event grid system topic.")
 3. Select **Review + create**. The system topic is validated and deployed.  
-   <!-- > [!div class="mx-imgBorder"]
-    > ![Event grid system topic is deployed.](./media/voice-channel-system-topic-deployment.png "Event grid system topic is deployed.") -->
 4. Select **Go to resource**.
 5. In the resource details page that opens, select the **Subscription** link.
     > [!div class="mx-imgBorder"]
