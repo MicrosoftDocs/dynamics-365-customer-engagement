@@ -20,7 +20,7 @@ Typically, customer service organizations must manually integrate standalone tel
 
 ### Native platform
 
-The voice channel is built, owned, and operated completely by Microsoft. This means that it's is an all-in-one customer service solution without fragmentation or manual data integration, and reduces time to value by enabling quick and easy deployment of the voice channel for your business. Also, the voice channel is built on Microsoft Azure Communication Services with the scalability and reliability of the calling platform that powers Microsoft Teams worldwide today.
+The voice channel is built, owned, and operated completely by Microsoft. This means that it is an all-in-one customer service solution without fragmentation or manual data integration, and reduces time to value by enabling quick and easy deployment of the voice channel for your business. Also, the voice channel is built on Microsoft Azure Communication Services with the scalability and reliability of the calling platform that powers Microsoft Teams worldwide today.
 
 ### Built alongside existing omnichannel capabilities with a common data framework
 
