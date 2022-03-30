@@ -1,7 +1,7 @@
 ---
 title: Learn which search operators can be used for knowledge management in Dynamics 365 Customer Service | Microsoft Docs
 description: Use search operators to search for knowledge articles in the Customer Service Hub.
-ms.date: 03/29/2022
+ms.date: 03/30/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -17,7 +17,7 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Understand knowledge search
+# Search mechanisms in knowledge management
 
 ## Introduction
 
@@ -34,7 +34,7 @@ The following section describes the search operators that you can use to search 
 
 ### Boolean operators
 
-By default, the search mode is "any". However, if you have Dataverse search enabled along with the **Knowledge search logic** option in **Settings**, the search mode will be set to "all". This ensures that all the search words must match to consider an article as a match.
+By default, the search mode is "any". However, if you have Dataverse search enabled along with the **Knowledge search logic** option in **Settings**, the search mode will be set to "all". This ensures that all the search words must match to consider an article as a match. More information: [Set up knowledge search logic](set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-search-logic).
 
 - Query: searchmode= all
 
