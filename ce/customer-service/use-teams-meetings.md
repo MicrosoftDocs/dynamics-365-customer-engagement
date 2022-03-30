@@ -57,7 +57,9 @@ You can create a Teams meeting while creating a meeting either from the timeline
 **To create a Teams meeting from the Timeline control**
 
 1. On the timeline control of a Dynamics 365 record, select **Create a timeline record** > **Meeting**.
+
 1. In the **Quick Create: Meeting panel**, enter the meeting information such as attendees, location, time, and description.
+
 1. Turn on the Teams meeting toggle.
 
     ![Turn on the Teams meetings toggle in Quick Create: Meeting panel.](media/teams-quick-create-meeting.png)
@@ -69,12 +71,17 @@ You can create a Teams meeting while creating a meeting either from the timeline
 **To create a Teams meeting from the Activities page**
 
 1.	Sign in to Customer Service Hub.
+
 1.	On the sitemap, select **Activities**.
+
 1.	On the command bar at the top, select **Meeting**.
+
 1.	On the **New Meeting** page, enter the meeting information such as attendees, location, time, and description.
+
 1.	Turn on the **Teams meeting** toggle.
-1.	In the **Regarding** field, search and select a record that the meeting is related to.
-This ensures that the Dynamics 365 app is added automatically to the Teams meeting and you can see the related record details during the meeting.
+
+1.	In the **Regarding** field, search and select a record that the meeting is related to. This ensures that the Dynamics 365 app is added automatically to the Teams meeting and you can see the related record details during the meeting.
+
 1.	Select **Save & Close**.
 
 **Create Teams meetings in Microsoft Outlook**
@@ -86,12 +93,15 @@ For information on creating a Teams meeting in Microsoft Outlook, see [Schedule 
 For information on using the Dynamics 365 App for Outlook, see [Basic navigation in App for Outlook (Dynamics 365 apps)](/dynamics365/outlook-app/user/basic-navigation).
 
 ## Add Dynamics 365 app to a Teams meeting
+
 The Dynamics 365 app, when added to a Teams meeting, enables you to view record details before, during, and after a meeting. The Dynamics 365 app can be added either automatically or manually to a Teams meeting.
 
 **Automatically add the app**
+
 If you link a Dynamics 365 record to a meeting while creating it in Dynamics 365 or Microsoft Outlook, the Dynamics 365 app is added automatically to the meeting. This allows you to view record details before, during, and after a meeting.
 
 **Manually add the app**
+
 If you don’t link a Dynamics 365 record to a meeting while creating it in Dynamics 365 or Microsoft Outlook, it's recommended that you add the app to the meeting before joining the Teams meeting for a better experience.
 
 To add an app before a meeting, first send the meeting invite, then open the meeting in Teams. Select **Add a tab**, search for the Dynamics 365 app, and add it.
@@ -123,14 +133,18 @@ While in Teams, if you want to access a record directly in your Dynamics 365 app
 You can join a Teams meeting from Dynamics 365, Microsoft Outlook, or Microsoft Teams. 
 
 **Join a Teams meeting from Dynamics 365** 
-1.	Open the meeting record either from the **Timeline** control or from the **Activities** page. 
+
+1.	Open the meeting record either from the **Timeline** control or from the **Activities** page.
+
 1.	Perform one of the following actions: 
     -	On the command bar at the top, select **Join Teams Meeting**. 
     - In the **Teams meeting** field, select **Join Teams Meeting**. 
     - Go to the **Description** area, and Ctrl+click **Click here to join the meeting**. 
 
 **Join a Teams meeting from Microsoft Outlook** 
-1.	Open the calendar invite. 
+
+1.	Open the calendar invite.
+
 1.	Perform one of the following actions: 
     - On the **Meeting** tab in the ribbon, select **Join Teams Meeting**. 
     - In the message body, select **Click here to join the meeting**. 
@@ -147,19 +161,27 @@ Prerequisites:
 The latest note is displayed under the **Notes** section in the side panel. You can view all notes in a standalone panel by selecting **Show more notes**. If you add, edit, or delete notes from the side panel, the changes are synced with the linked Dynamics 365 record. 
 
 **Add a note** 
-1.	In the **Notes** section, select IMAGE. 
+
+1.	In the **Notes** section, select IMAGE.
+
 1.	In the **Add note** form, enter a title and description of the note. 
+
 1.	To attach a file, select **Attach file**. 
-1.	Select **Save**. 
-The note is added to the record and displayed in the side panel. 
+
+1.	Select **Save**. The note is added to the record and displayed in the side panel. 
 
 **Edit a note**
-1.	In the **Notes** section, hover over the note, and then select IMAGE OF EDIT ICON. 
+
+1.	In the **Notes** section, hover over the note, and then select the **Edit** icon IMAGE OF EDIT ICON.
+
 1.	In the **Edit note** form, update the title and description of the note as desired. 
+
 1.	Select **Save**.   
 
 **Delete a note** 
-1.	In the **Notes** section, hover over the note, and then select IMAGE OF DELETE ICON. 
+
+1.	In the **Notes** section, hover over the note, and then select the **Delete** icon IMAGE OF DELETE ICON. 
+
 1.	In the confirmation message, select **Delete**. 
 
 ### Work with tasks during a meeting   
@@ -171,22 +193,31 @@ Prerequisites:
 The open tasks are displayed under the **Tasks** section in the side panel. You can view all tasks in a standalone panel by selecting **Show more tasks**. If you add, edit, or delete tasks from the side panel, the changes are synced with the linked Dynamics 365 record. The tasks are sorted by their due date, prioritizing the tasks that are due soon or overdue.
 
 **Add a task** 
+
 1.	In the **Tasks** section, select the **Add** icon IMAGE. 
+
 1.	Add the task details.
 
 **Complete a task** 
+
 In the **Tasks** section, select the option button for a task to mark it as complete. 
-Reopen a task 
+
+**Reopen a task**
+
 1. In the **Tasks** section, select **Show more tasks**. 
  
 1. In the **Completed tasks** section, select the option button for a completed task to reopen it.
  
 **Edit a task** 
+
 1.	In the **Tasks** section, hover over the task, and then select the **Edit** icon IMAGE. 
+
 1.	Edit the task details as desired.
    
 **Delete a task** 
+
 1.	In the **Tasks** section, hover over the task, and then select the **Delete** icon IMAGE. 
+
 1.	In the confirmation message, select **Delete**.
 
 ### Work with activities during a meeting
