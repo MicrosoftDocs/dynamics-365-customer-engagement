@@ -33,7 +33,7 @@ Create an opportunity when your lead is almost ready to buy. Use one of the foll
 | **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
 |||
 
-## Qualify and convert a lead
+## Convert a lead to an opportunity
 
 If the opportunity originated from an existing lead, quality the lead and convert it to an opportunity. More information: [Qualify a lead and convert it to an opportunity](qualify-lead-convert-opportunity-sales.md)
 
