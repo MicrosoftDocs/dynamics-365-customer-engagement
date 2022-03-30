@@ -19,13 +19,13 @@ ms.custom:
 
 # Add a timer control for SLA-enabled entities
 
-Add a timer control to an service-level agreement (SLA) enabled entity form to help users gauge the amount of time they have to complete a task as specified in the SLA. The timer control displays count-down timers that show the current status and time remaining for the configured SLA KPIs.
+Add a timer control to a service-level agreement (SLA)–enabled entity form to help users gauge the amount of time they have to complete a task as specified in the SLA. The timer control displays countdown timers that show the current status and time remaining for the configured SLA KPIs.
 
-## Add a SLA timer to a SLA-enabled entity
+## Add an SLA timer to an SLA-enabled entity
 
 After you've configured the SLA KPIs, SLAs, and SLA items for an entity, you can add the SLA Timer control to display the SLA KPIs that are configured for the entity. You can customize the views to filter the KPIs and display only the relevant KPIs to agents. Some of the KPIs that agents can see include the different stages that KPIs go through.
 
-For information on how the SLA KPIs are displayed at runtime when agents view the case to work on in Customer Service Hub, see [Timer for SLA-enabled entities](customer-service-hub-user-guide-case-sla.md#timer-control-for-sla-enabled-entities).
+For information on how the SLA KPIs are displayed at runtime when agents view the case to work on in Customer Service Hub, go to [Timer for SLA-enabled entities](customer-service-hub-user-guide-case-sla.md#timer-control-for-sla-enabled-entities).
 
 A sample runtime view of the SLA Timer is as follows.
 
@@ -37,14 +37,14 @@ A sample runtime view of the SLA Timer is as follows.
 Do the following steps to add the SLA timer control for the case entity.
 
 > [!IMPORTANT]
-> You can add the SLA timer control only in the classic PowerApps experience.
+> You can add the SLA timer control only in the classic Power Apps experience.
 
 1. In your Dynamics 365 environment, select **Advanced Settings** to go to **Customizations**.
 2. Select **Customize the System**, and in the **Solutions** page, expand **Entities** under **Components**.
 3. Select the entity for which you want to add the SLA Timer control, and in the **Forms** view, select the corresponding form. In this example, let us select the Case entity, and the **Case for interactive experience** form.
 4. On the page that appears, on the **Insert** tab, insert a section, and then insert a subgrid.
-5. Double-click the subgrid, and on the **Set Properties** dialog box, enter the necessary details.
-   - In the **Data Source** area, in **Default View**, you can add a view or edit an existing view to determine the SLA KPIs that should be displayed for agents at runtime. For information on views, see [Create and edit views](/powerapps/maker/model-driven-apps/create-edit-views-app-designer).
+5. Double-click the subgrid, and in the **Set Properties** dialog, enter the necessary details.
+   - In the **Data Source** area, in **Default View**, you can add a view or edit an existing view to determine the SLA KPIs that should be displayed for agents at runtime. For information on views, go to [Create and edit views](/powerapps/maker/model-driven-apps/create-edit-views-app-designer).
 
    > ![Configure SLA Timer in customizations.](../customer-service/media/sla-timer-properties.png "Configure SLA Timer in customizations")
 
@@ -67,26 +67,29 @@ You can configure the negative countdown property for the SLA timer so that the 
 2. Save and publish the solution.
 
 ### Customize the SLA timer control display label
-After you have added the SLA timer control for a SLA-enabled entity, you can customize the labels of the statuses to be displayed for the timer control.
+
+After you've added the SLA timer control for an SLA-enabled entity, you can customize the labels of the status to be displayed for the timer control.
 
 1. In the SLA Timer area, select **Edit** for **Customized Labels**.
-:::image type="content" source="media/sla-timer-customized-label.png" alt-text="SLA timer customized label option":::
+
+   :::image type="content" source="media/sla-timer-customized-label.png" alt-text="SLA timer customized label option":::
+
 1. In the **Configure Property "Customized Label"** dialog, select the **Bind to a static value** option and enter the values for multiple language codes.
 
     :::image type="content" source="media/sla-timer_configure_property.png" alt-text="SLA timer configure property dialog":::
-   - The language code value must be of the following format:
+   - The language code value must be of the following format:<!--note from editor: Suggest using code format to distinguish the variable string from the example. This edit assumes that the period is part of the string the user enters.-->
 
-     (language code1)=(KPI instance status value):(KPI instance custom label). For example, 1033=1:Custom Noncompliant.
+     `(language code1)=(KPI instance status value):(KPI instance custom label)`<br>For example, 1033=1:Custom Noncompliant.
 
-   - You can also enter multiple language codes by separating them with a semicolon: (language code1)=(KPI instance status value):(KPI instance custom label); (language code2)=(KPI instance status value):(KPI instance custom label). For example, 1033=1:Custom Noncompliant; 3:Paused.
+   - You can also enter multiple language codes by separating them with a semicolon:<br>`(language code1)=(KPI instance status value):(KPI instance custom label); (language code2)=(KPI instance status value):(KPI instance custom label).`<br>For example, 1033=1:Custom Noncompliant; 3:Paused.
     
-   - If you need to create multiple language code sets, you must separate each set by pressing **Enter**. For example, 
+   - If you need to create multiple language code sets, you must separate each set by selecting **Enter**. For example:<!--note from editor: Suggest adding these step numbers just to emphasize that these are sequential steps that have a relation to each other. --> 
     
-        (language code1)=(KPI instance status value):(KPI instance custom label); (language code2)=(KPI instance status value):(KPI instance custom label)
+     1. Enter `(language code1)=(KPI instance status value):(KPI instance custom label); (language code2)=(KPI instance status value):(KPI instance custom label)`.
 
-        Press **Enter**
+      1. Select **Enter**.
 
-      (language code1)=(KPI instance status value):(KPI instance custom label); (language code2)=(KPI instance status value):(KPI instance custom label)
+      1. Enter `(language code1)=(KPI instance status value):(KPI instance custom label); (language code2)=(KPI instance status value):(KPI instance custom label)`
    
    - The customizable status codes are:
 
@@ -95,9 +98,10 @@ After you have added the SLA timer control for a SLA-enabled entity, you can cus
        - 4: Succeeded
        - 5: Canceled
 
-   - To know the language code, or to enable or disable a language, go to **Advanced Settings**>**Administration**>**Languages**.
+   - To look up the language code, or to enable or disable a language, go to **Advanced Settings**>**Administration**>**Languages**.
      
 3. Select **OK**.
+
 4. Save and publish the solution.
 
 ## Add an out-of-the-box timer control to the Case form
@@ -112,21 +116,21 @@ After you have added the SLA timer control for a SLA-enabled entity, you can cus
   
 - If a condition causes the milestone to be canceled, the control shows the word **Canceled**. This behavior is optional.  
   
-- If either of the required fields in the **Timer Control** dialog box does not have a value in the record, the control shows the words **Not Set**.  
+- If either of the required fields in the **Timer Control** dialog doesn't have a value in the record, the control shows the words **Not Set**.  
   
     ![Timer control state in Customer Service Hub.](media/timer-sla-csh.png "Timer control state in Customer Service Hub")
 
     ![Timer control expired in Customer Service Hub.](media/timer-sla-csh-expired.png "Timer control expired in Customer Service Hub")
   
 > [!IMPORTANT]
-> - The instructions in this article apply if you're adding a timer to track time for the date/time field of any entity, or for tracking time against standard SLAs on case records. If you are using enhanced SLAs and want to add a timer to your forms, see [Add a timer to forms to track time against enhanced SLAs](../customer-service/add-timer-forms-track-time-against-enhanced-sla.md).  
+> - The instructions in this article apply if you're adding a timer to track time for the date/time field of any entity, or for tracking time against standard SLAs on case records. If you are using enhanced SLAs and want to add a timer to your forms, go to [Add a timer to forms to track time against enhanced SLAs](../customer-service/add-timer-forms-track-time-against-enhanced-sla.md).  
 > - The timer control is designed to visually show the current state or show the remaining or elapsed time relative to the date and time as specified in the **Failure Time** field of the SLA KPI Instance. It doesn’t calculate or keep track of the time for which the Pause condition is true.  
  
 > [!NOTE]
 > The screens showcase the timer control on a Unified Interface app. On a legacy web client app, the timer control is displayed as follows: <br><br> ![Timer control in webclient app.](media/timer-control-webclient.png)
 
 
-For more information, see: [Track SLA details with Timer Control](customer-service-hub-user-guide-case-sla.md#track-sla-details-with-timer-control)
+More information: [Track SLA details with Timer Control](customer-service-hub-user-guide-case-sla.md#track-sla-details-with-timer-control)
 
 
 ### Add an out-of-the-box timer control  
@@ -141,7 +145,7 @@ For more information, see: [Track SLA details with Timer Control](customer-servi
   
 3. Select **Customize the System**.  
   
-4. In the solution explorer, in the left nav pane, expand **Entities**, expand the **Case** entity, and select **Forms**.
+4. In the solution explorer on the left pane, expand **Entities**, expand the **Case** entity, and select **Forms**.
   
     To add the timer to the form so the customer service representatives can use it in the Customer Service Hub, open the case form of type **Main**.  
   
@@ -151,7 +155,7 @@ For more information, see: [Track SLA details with Timer Control](customer-servi
 
    ![Timer control button on Insert tab in Customer Service Hub.](media/insert-timer-control.png "Timer control button on Insert tab in Customer Service Hub")
   
-7. In the **Timer Control** dialog box:  
+7. In the **Timer Control** dialog, do the following:  
   
    1. In the **General** section, type a name and label for the control.  
   
