@@ -478,13 +478,15 @@
         href: create-knowledge-article-using-template.md
       - name: Extend transformer logic on templates
         href: extend-transformer-logic-template.md
-  - name: Microsoft Teams chat for enterprise collaboration
+  - name: Microsoft Teams for collaboration
     items:
     - name: Administrator experience
       items: 
       - name: Configure Teams chat
         href: configure-teams-chat.md
-      - name: Configure AI suggestions for contacts in Microsoft Teams
+      - name: Enable Teams meetings in Customer Service apps
+        href: configure-teams-meetings.md
+      - name: Configure AI suggestions for contacts in Teams
         href: configure-teams-collaboration.md
     - name: Agent experience
       items:
@@ -492,6 +494,7 @@
         href: use-teams-chat.md
       - name: Use suggested contacts to collaborate with coworkers
         href: teams-use-suggested-contacts.md
+      - name: use-teams-meetings.md
       - name: Collaborate with AI-suggested contacts in Microsoft Teams
         href: use-ai-suggested-contacts-teams.md
   - name: Voice
