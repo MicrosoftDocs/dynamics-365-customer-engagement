@@ -12,7 +12,7 @@ manager: shujoshi
 
 We'll be rolling out a new messaging platform enhancement in phases over the next few months. We're releasing a new Azure Bot Service channel to extend the existing bot integration capabilities for the messaging channels.
 
-You must make the following changes to your omnichannel implementations:
+You must make the following changes to your omnichannel implementations by March 2022:
 
 - If you have network policies in your organization, be sure to update your system requirements to include a new set of domains that'll be used by the new Omnichannel channel. More information: [Omnichannel for Customer Service system requirements](system-requirements-omnichannel.md)
 
