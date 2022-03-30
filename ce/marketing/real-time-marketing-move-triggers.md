@@ -29,7 +29,7 @@ To move draft custom trigger definitions between environments, use the following
 1. Ensure the triggers you want to move are in a *Draft* state. If they’ve already been published, you can stop them and the customer journeys using them.
 1. Use [solution export/import](transfer-solution.md) to copy the *msdynmkt_eventmetadata* entity from the test environment to the production environment. This entity carries the definitions of the custom triggers.
 1. In the target environment, once you’ve verified that the custom trigger definitions have been copied, re-publish all the triggers so that they can be used in the journeys.
-1. Any web/mobile/other applications that need to trigger journeys in your target environment now need to call the trigger using the new ingestion key. A developer will need to update the ingestion key. You can find the ingestion key by opening any custom trigger and opening the one-time setup code snippet for that trigger.
+1. Any web/mobile/other applications that need to trigger journeys in your target environment now need to call the trigger using the new ingestion key. A developer will need to update the ingestion key. You can find the ingestion key by opening any custom trigger and opening the one-time setup code snippet for that trigger. To learn more about integrating the code snippet, see [Trigger integration](real-time-marketing-custom-triggers.md#2-trigger-integration).
 
     > [!div class="mx-imgBorder"]
     > ![Setup code snippet download.](media/real-time-marketing-move-ingestion.png "Setup code snippet download")
