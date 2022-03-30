@@ -130,7 +130,7 @@ You can assign personal phone numbers to agents to make outbound calls to custom
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center)](#tab/customerserviceadmincenter)
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
     1. In the site map, select **Channels** in **Customer support**.
     1. On the **Channels** page, select **Manage** for **Phone numbers**.
