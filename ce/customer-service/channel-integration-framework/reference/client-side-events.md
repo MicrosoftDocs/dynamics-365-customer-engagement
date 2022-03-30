@@ -23,13 +23,12 @@ Each event handler specifies a function within a JavaScript library and the para
 |---------|-------------|
 | [CIFInitDone](events/cifinitdone.md) | Invoked when Dynamics 365 Channel Integration Framework 1.0 is loaded to determine if the APIs are ready to be consumed. |
 | [onClickToAct](events/onClickToAct.md) | Invoked when user selects the outbound communication (ClickToAct) field in a form. |
-| [onModeChanged](events/onModeChanged.md) | Invoked when the panel mode is manually toggled between **Minimized (0)** and **Docked (1)** modes. |
+| [onModeChanged](events/onModeChanged.md) | Invoked when the panel mode is manually toggled between **Minimized (0)**, and **Docked (1)** modes. |
 | [onPageNavigate](events/onPageNavigate.md) | Invoked when the main Unified Interface page navigation occurs. |
 | [onSendKBArticle](events/onSendKBArticle.md) | Invoked when the user selects the **Send** button in the Knowledge Base control. |
 | [onSizeChanged](events/onSizeChanged.md) | Invoked when the side panel width is changed. |
 | [onSessionSwitched](/dynamics365/customer-service/channel-integration-framework/v2/reference/events/onSessionSwitched) | Invoked when the session is switched. |
 | [onSessionClosed](/dynamics365/customer-service/channel-integration-framework/v2/reference/events/onsessionclosed) | Invoked when the session is closed. |
-| [CIFInitDone](events/cifinitdone.md) | Invoked when the Channel Integration framework is loaded to determine if Channel Integration Framework APIs are ready to be consumed. |
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
