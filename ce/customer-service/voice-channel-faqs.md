@@ -33,6 +33,10 @@ An alternative to Microsoft as a carrier is Azure direct routing that allows cus
 
 Azure Communication Services is available worldwide, even if it isn't acting as the carrier in certain countries. For these countries, Azure Communication Services provides a direct routing for local carriers, such as AT&T and Verizon, to connect to Azure Communication Services. Through this mechanism, customers will still be able to deploy and use all the features of the voice channel in Dynamics 365.
 
+### What codecs are implemented in the voice channel?
+
+The voice channel supports the G.711 and Opus codecs for PSTN and VoIP services.
+
 ### Can I bring my own phone number?
 
 Yes, you have the following two options to bring your existing numbers to Dynamics 365:
