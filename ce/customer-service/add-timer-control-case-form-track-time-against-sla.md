@@ -1,6 +1,6 @@
 ---
 title: "Timer control for SLA-enabled entities | Microsoft Docs"
-description: "Learn how to add timer control in the case form to track time against an SLA in Dynamics 365 Customer Service."
+description: "Learn how to add timer control in the case form to track time against a SLA in Dynamics 365 Customer Service."
 ms.date: 03/28/2022
 ms.topic: article
 author: Soumyasd27
@@ -21,7 +21,7 @@ ms.custom:
 
 Add a timer control to a service-level agreement (SLA) enabled entity form to help users gauge the amount of time they have to complete a task as specified in the SLA. The timer control displays countdown timers that show the current status and time remaining for the configured SLA KPIs.
 
-## Add an SLA timer to an SLA-enabled entity
+## Add a SLA timer to a SLA-enabled entity
 
 After you've configured the SLA KPIs, SLAs, and SLA items for an entity, you can add the SLA Timer control to display the SLA KPIs that are configured for the entity. You can customize the views to filter the KPIs and display only the relevant KPIs to agents. Some of the KPIs that agents can see include the different stages that KPIs go through.
 
@@ -68,7 +68,7 @@ You can configure the negative countdown property for the SLA timer so that the 
 
 ### Customize the SLA timer control display label
 
-After you've added the SLA timer control for an SLA-enabled entity, you can customize the labels of the status to be displayed for the timer control.
+After you've added the SLA timer control for a SLA-enabled entity, you can customize the labels of the status to be displayed for the timer control.
 
 1. In the SLA Timer area, select **Edit** for **Customized Labels**.
 
