@@ -25,7 +25,7 @@ The **msdyn_RetrieveKPIValuesForGDPR** action expects the following input parame
 | Name | Type | Description |
 |------|------|-------------|
 | `CRMRecord` | <a href="/dynamics365/customer-engagement/web-api/crmbaseentity?view=dynamics-ce-odata-9&preserve-view=true" data-raw-source="[mscrm.crmbaseentity](dynamics365/customer-engagement/web-api/crmbaseentity?view=dynamics-ce-odata-9&preserve-view=true)">mscrm.crmbaseentity</a> | Entity type for which you want to retrieve the data. Required.<br><p>You can specify one of the following values:</p><ul><li><code>Microsoft.Dynamics.CRM.contact</code></li><li><code>Microsoft.Dynamics.CRM.lead</code></li><li><code>Microsoft.Dynamics.CRM.opportunity</code></li><li><code>Microsoft.Dynamics.CRM.systemuser</code></li></ul><p>Depending on the specified entity type, you must specify <code>contactid</code>, <code>leadid</code>, <code>opportunityid</code>, or <code>systemuserid</code> as the second key to identify the entity record you want to retrieve data for. See <a href="#example" data-raw-source="[Example](#example)">Example</a> later in this topic.</p>|
-||||
+|
 
 ## Action return type
 
