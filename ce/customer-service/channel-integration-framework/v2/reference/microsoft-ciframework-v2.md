@@ -1,7 +1,7 @@
 ---
 title: "Microsoft.CIFramework (JavaScript API Reference) for Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Includes reference information about the Microsoft.CIFramework JavaScript API Reference for Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 03/14/2022
+ms.date: 04/04/2022
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -56,11 +56,12 @@ These APIs enable you to create and manage the state of an application tab.
 | Methods | Description |
 |---------|-------------|
 | [createTab](microsoft-ciframework/createtab.md) | Creates a tab in a focused session and returns the unique identifier of the created tab. |
-| [getTabs](microsoft-ciframework/gettabs.md) | Returns an array of tab Ids associated with template name or template tags for tabs in the session in focus, if the session belongs to the channel provider.|
+| [getTabs](microsoft-ciframework/gettabs.md) | Returns an array of tab identifiers associated with template name or template tags for tabs in the session in focus, if the session belongs to the channel provider.|
 | [focusTab](microsoft-ciframework/focustab.md) | Sets the focus on a tab, if the focused session belongs to the channel provider and if the tab belongs to the session in focus.|
-| [getFocusedTab](microsoft-ciframework/getfocusedtab.md) | Returns the focused tab's tabId in focused session, if the session belongs to the provider.|
+| [getFocusedTab](microsoft-ciframework/getfocusedtab.md) | Returns the focused tab's identifier (tabId) in focused session, if the session belongs to the provider.|
 | [refreshTab](microsoft-ciframework/refreshtab.md) | Refreshes the tab. |
 | [setTabTitle](microsoft-ciframework/settabtitle.md) | Sets the title of the tab, if the focused session belongs to the channel provider and if the tab belongs to the session in focus.|
+| [closeTab](microsoft-ciframework/closeTab.md) | Closes the specified tab in the current session.. |
 
 ## Session management APIs
 
