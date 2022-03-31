@@ -1055,7 +1055,7 @@
     - name: Migrate data for unified routing-based records
       href: export-import-unified-routing-records.md
     - name: Migrate data for unified routing-based-live chat
-      href: export-import-unified-routing-live-chat.md  
+      href: export-import-unified-routing live-chat.md
     - name: Migrate workstreams created in Omnichannel Administration
       href: migrate-workstreams.md
     - name: Migrate automatic record creation rules and SLAs
