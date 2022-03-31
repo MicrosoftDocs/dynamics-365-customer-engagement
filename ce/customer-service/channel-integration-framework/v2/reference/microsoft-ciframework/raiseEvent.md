@@ -17,7 +17,7 @@ ms.custom:
 
 [!INCLUDE[raiseEvent-description](includes/raiseEvent-description.md)]
 
-[!INCLUDE[token-raiseEvent](../../shared/token-raiseEvent.md)]
+[!INCLUDE[token-raiseEvent](../../../shared/token-raiseEvent.md)]
 
 
 ### See also

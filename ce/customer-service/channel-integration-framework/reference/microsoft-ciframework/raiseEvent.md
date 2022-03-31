@@ -15,10 +15,9 @@ ms.custom:
 
 # raiseEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0
 
-[!INCLUDE[raiseEvent-description](includes/raiseEvent-description.md)] 
+[!INCLUDE[raiseEvent-description](includes/raiseEvent-description.md)]
 
 [!INCLUDE[token-raiseEvent](../../shared/token-raiseEvent.md)]
-
 
 ### See also
 
