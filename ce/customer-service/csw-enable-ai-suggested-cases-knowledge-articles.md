@@ -90,7 +90,7 @@ Make sure that the following requirements are met:
 
 ## Enable AI suggestions for similar cases
 
-You can enable AI suggestions for similar cases in the Customer Service admin center (preview), Omnichannel admin center, or Customer Service Hub app.
+You can enable AI suggestions for similar cases in the Customer Service admin center, Omnichannel admin center, or Customer Service Hub app.
 
 1. Go to one of the apps, and perform the following steps.
    

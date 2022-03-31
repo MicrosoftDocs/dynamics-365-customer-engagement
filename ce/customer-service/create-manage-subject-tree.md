@@ -26,7 +26,7 @@ Dynamics 365 Customer Service includes a subject organizational structure that l
 
 [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
 
-You can create or edit a subject in the Customer Service admin center (preview) or Customer Service Hub app.
+You can create or edit a subject in the Customer Service admin center or Customer Service Hub app.
 
 1. Go to one of the apps, and perform the following steps.
    

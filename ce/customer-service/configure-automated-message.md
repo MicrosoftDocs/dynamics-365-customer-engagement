@@ -20,7 +20,7 @@ You can configure Omnichannel for Customer Service to send automated messages th
 
 You can view a list of all agent and customer-facing automated messages in your Omnichannel for Customer Service environment. Administrators can overwrite or deactivate the preconfigured, out-of-the-box automated messages for any channel instance. See [Preconfigured automated message triggers](#preconfigured-automated-message-triggers) for more information.
 
-You can configure automated messages in the Customer Service admin center (preview) or Omnichannel admin center apps.
+You can configure automated messages in the Customer Service admin center or Omnichannel admin center apps.
 
 1. Go to one of the apps, and perform the following steps.
    
@@ -67,7 +67,7 @@ You can customize automated messages at the channel instance level. For example,
 
 ### Add custom automated messages
 
-Do the following for the channel in which you want to create custom automated messages in the Customer Service admin center (preview) or Omnichannel admin center app:
+Do the following for the channel in which you want to create custom automated messages in the Customer Service admin center or Omnichannel admin center app:
 
 1. Go to the workstream, and edit the channel instance.
 2. On the **Behaviors** page, select **Add message** in the **Custom automated messages** area.

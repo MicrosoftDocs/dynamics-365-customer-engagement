@@ -38,7 +38,7 @@ In Omnichannel Administration, you can add the operating hour record on the **De
 
 ## Create a record to define operating hours
 
-You can define operating hours in the Customer Service admin center (preview) or Customer Service Hub app.
+You can define operating hours in the Customer Service admin center or Customer Service Hub app.
 
 1. Go to one of the apps, and perform the following steps.
 
@@ -121,7 +121,7 @@ You can add operating hours to a queue that can later be configured for a social
 
 Do the following to specify operating hours for a queue:
 
-1. Navigate to the Customer Service admin center (preview) or Customer Service Hub app, and perform the following steps:
+1. Navigate to the Customer Service admin center or Customer Service Hub app, and perform the following steps:
 
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 

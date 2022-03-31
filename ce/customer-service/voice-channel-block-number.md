@@ -19,7 +19,7 @@ In Omnichannel for Customer Service, as an administrator, you can block spam pho
 
 ## Review phone numbers marked as spam
 
-You can review phone numbers marked as spam in the Customer Service admin center (preview) or Omnichannel admin center app.
+You can review phone numbers marked as spam in the Customer Service admin center or Omnichannel admin center app.
 
 **To review phone numbers marked as spam**
 

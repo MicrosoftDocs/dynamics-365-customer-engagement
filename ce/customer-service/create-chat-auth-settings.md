@@ -30,7 +30,7 @@ Make sure your organization has a working knowledge of OAuth 2.0 and JSON Web To
 
 ## Create a chat authentication setting record
 
-You can create a chat authentication setting record in the Customer Service admin center (preview) or Omnichannel admin center app.
+You can create a chat authentication setting record in the Customer Service admin center or Omnichannel admin center app.
 
 1. Go to one of the apps, and perform the following steps.
    
@@ -67,7 +67,7 @@ You can create a chat authentication setting record in the Customer Service admi
 ## Add authentication to chat widget
 
 1. Open the chat widget to which you want to add authentication and do one of the following steps:
-   - In Customer Service admin center (preview) or Omnichannel admin center, go to the **Behaviors** tab. 
+   - In Customer Service admin center or Omnichannel admin center, go to the **Behaviors** tab. 
    - In Omnichannel Administration, go to the **Basic details** tab.
 2.	In the **Authentication settings** box, browse and select the chat authentication record.
 

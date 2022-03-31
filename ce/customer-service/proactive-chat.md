@@ -21,7 +21,7 @@ Information about the user journey, time spent on a web page, and more can be us
 
 ## Enable proactive chat in new admin apps
 
-In Customer Service admin center (preview) or Omnichannel admin center, go to the workstream of the chat widget in which you need to configure the settings, select edit for the required chat widget, and on the **Chat widget** tab of the **Chat channel settings** page, set the toggle for **Proactive chat** to **On**.
+In Customer Service admin center or Omnichannel admin center, go to the workstream of the chat widget in which you need to configure the settings, select edit for the required chat widget, and on the **Chat widget** tab of the **Chat channel settings** page, set the toggle for **Proactive chat** to **On**.
 
 ## Enable proactive chat in Omnichannel Administration
 

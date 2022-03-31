@@ -21,7 +21,7 @@ To enable location detection, you must first get your Bing Maps API key and crea
 
 ## Create a geo location provider record
 
-You can create a geo location provider record in the Customer Service admin center (preview) or Omnichannel admin center app.
+You can create a geo location provider record in the Customer Service admin center or Omnichannel admin center app.
 
 1. Go to one of the apps, and perform the following steps.
    

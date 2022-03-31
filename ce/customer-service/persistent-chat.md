@@ -37,7 +37,7 @@ Make sure that the authentication settings are configured. More information: [Cr
 
 ## Set up persistent chat in the new admin apps
 
-In Customer Service admin center (preview) or Omnichannel admin center, you can select the **Make chats persistent** checkbox when you are creating the chat workstream. More information: [Create workstreams](create-workstreams.md)
+In Customer Service admin center or Omnichannel admin center, you can select the **Make chats persistent** checkbox when you are creating the chat workstream. More information: [Create workstreams](create-workstreams.md)
 
 Make sure that you set the toggle to **Yes** for **Keep same agent for entire conversation** in the **Work distribution** settings of the workstream. More information: [Configure work distribution](create-workstreams.md#configure-work-distribution)
 

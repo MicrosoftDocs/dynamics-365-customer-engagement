@@ -123,7 +123,7 @@ Intelligent skill finder depends upon the custom AI Builder category classificat
 
  ## Create skill finder models
    
-You can set up the intelligent skill finder model rating models in the Customer Service admin center (preview) or Omnichannel admin center app. You can create as many models as your business requires.
+You can set up the intelligent skill finder model rating models in the Customer Service admin center or Omnichannel admin center app. You can create as many models as your business requires.
 
 **To create the skill finder model**
 

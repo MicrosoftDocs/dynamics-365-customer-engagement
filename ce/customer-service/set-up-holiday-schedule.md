@@ -28,7 +28,7 @@ For example, if your service organization has an SLA to reply to email cases wit
  
 ## Create a holiday schedule 
 
-You can create a holiday schedule in the Customer Service admin center (preview) or Customer Service Hub app
+You can create a holiday schedule in the Customer Service admin center or Customer Service Hub app
   
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
   

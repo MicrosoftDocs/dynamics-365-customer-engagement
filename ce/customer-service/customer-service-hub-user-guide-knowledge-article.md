@@ -340,11 +340,11 @@ For users to be able to view and download file attachments, you'll need to grant
 
 ### Update knowledge article attachments for portal
 
-With this new attachment capability, you'll need to stop using notes attachments for the portal. To use knowledge article attachments for the portal, you must enable the feature in the Customer Service admin center (preview) or Customer Service Hub app by performing the following steps:
+With this new attachment capability, you'll need to stop using notes attachments for the portal. To use knowledge article attachments for the portal, you must enable the feature in the Customer Service admin center or Customer Service Hub app by performing the following steps:
 
 1. Go to the **Sync knowledge article attachments to portal** section.
 
-### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+### [Customer Service admin center](#tab/customerserviceadmincenter)
 
 > [!IMPORTANT]
 > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]

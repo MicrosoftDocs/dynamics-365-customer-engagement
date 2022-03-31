@@ -78,13 +78,13 @@ You must provide the minimum and maximum rating value. Also, in the **Rating Val
 
 ### Create a rating model
 
-You can create rating models in the Customer Service admin center (preview), Omnichannel admin center, or Customer Service Hub apps.
+You can create rating models in the Customer Service admin center, Omnichannel admin center, or Customer Service Hub apps.
 
 **To create the rating model**
 
 1. Perform the steps by using one of the following apps.
 
-   - In the site map of Customer Service admin center (preview), select **Insights** in **Operations**. 
+   - In the site map of Customer Service admin center, select **Insights** in **Operations**. 
 
    - In the site map of Omnichannel admin center, select **User attributes** in **Advanced settings**. 
 

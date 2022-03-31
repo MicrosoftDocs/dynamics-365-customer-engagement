@@ -28,7 +28,7 @@ The Voice minutes report lets Omnichannel administrators view a Power BI report 
 
 To view the Voice minutes report, do one of the following steps:
 
-- In the site map of Customer Service admin center (preview), select **Insights**, and in **Admin reports**, select **View report** for **Voice minutes**. 
+- In the site map of Customer Service admin center, select **Insights**, and in **Admin reports**, select **View report** for **Voice minutes**. 
 - In the site map of Omnichannel admin center, in **Insights**, select **Voice minutes**.
 
 > ![The Voice minutes report.](media/voice-minutes-report.png "The Voice minutes report.")

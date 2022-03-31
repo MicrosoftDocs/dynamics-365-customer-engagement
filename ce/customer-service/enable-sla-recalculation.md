@@ -26,7 +26,7 @@ By default, SLAs in the terminal status are not reevaluated on case reactivation
 
 ## Enable recalculation of SLAs on reaching terminal status
 
-You can enable the recalculation of SLAs that reach the terminal status in the Customer Service admin center (preview) or Customer Service Hub app.
+You can enable the recalculation of SLAs that reach the terminal status in the Customer Service admin center or Customer Service Hub app.
 
 1. Go to one of the apps, and perform the following steps.
 

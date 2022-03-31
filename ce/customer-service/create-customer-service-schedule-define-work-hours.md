@@ -39,7 +39,7 @@ You can create the service schedule and define work hours in Dynamics 365 Custom
   
    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
 
-2. Navigate to the Customer Service admin center (preview) or Customer Service Hub app, and perform the following steps:
+2. Navigate to the Customer Service admin center or Customer Service Hub app, and perform the following steps:
 
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 

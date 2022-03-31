@@ -30,7 +30,7 @@ You must add a web resource and make sure that the required language translation
 
 ## Enable real-time translation for agent and customer conversations
 
-You can enable real-time translation in the Customer Service admin center (preview) or Omnichannel admin center app.
+You can enable real-time translation in the Customer Service admin center or Omnichannel admin center app.
 
 1. Go to one of the apps, and perform the following steps.
    

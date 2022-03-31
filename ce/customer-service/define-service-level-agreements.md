@@ -72,7 +72,7 @@ Review the following requirements before configuring SLAs for your organization:
 
 SLA KPIs are performance indicators, such as First Response or Resolve by, that you'd like to track.
 
-You can create SLA KPIs in the Customer Service admin center (preview) app or Customer Service Hub app.
+You can create SLA KPIs in the Customer Service admin center app or Customer Service Hub app.
 
 1. Go to one of the apps, and perform the following steps.
 
@@ -126,7 +126,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
 ### Create an SLA 
 
-You can create an SLA in the Customer Service admin center (preview) or Customer Service Hub app.
+You can create an SLA in the Customer Service admin center or Customer Service Hub app.
 
 1. Go to one of the apps, and perform the following steps.
 
@@ -156,7 +156,7 @@ You can create an SLA in the Customer Service admin center (preview) or Customer
 
 ### Create an SLA item
 
-You can create an SLA item in the Customer Service admin center (preview) or Customer Service Hub app.
+You can create an SLA item in the Customer Service admin center or Customer Service Hub app.
 
 1. Go to one of the apps, and perform the following steps.
 

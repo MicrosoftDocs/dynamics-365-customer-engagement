@@ -28,7 +28,7 @@ You can also configure hold and wait music for each language in each of the work
 
 ## Edit music files
 
-You can update existing music files and replace them with your own music files in the Customer Service admin center (preview) or Omnichannel admin center app.
+You can update existing music files and replace them with your own music files in the Customer Service admin center or Omnichannel admin center app.
 
 **To update existing music files**
 
@@ -39,7 +39,7 @@ You can update existing music files and replace them with your own music files i
      1. In the site map, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
      1. In the **Phone Music** section, select **Manage**.
 
-     The **Phone music (preview)** page is displayed.      
+     The **Phone music** page is displayed.      
 
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
     

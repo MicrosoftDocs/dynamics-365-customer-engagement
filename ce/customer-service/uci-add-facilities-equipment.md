@@ -27,7 +27,7 @@ Facilities and equipment are resources you use to perform services for your cust
 
 Before you begin, make sure you have the **System Administrator** security role or equivalent permissions in Microsoft Dynamics 365. 
 
-1. Navigate to the Customer Service admin center (preview) or Customer Service Hub app, and perform the following steps:
+1. Navigate to the Customer Service admin center or Customer Service Hub app, and perform the following steps:
 
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 

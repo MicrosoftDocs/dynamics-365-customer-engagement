@@ -108,7 +108,7 @@ An agent can transfer a chat to a bot by adding the bot to a queue, and then tra
 
 To enable the bot to answer incoming calls, you must add the bot to a corresponding workstream for accepting voice calls.
 
-1. In Customer Service admin center (preview) or Omnichannel admin center, open the workstream related to your voice channel.
+1. In Customer Service admin center or Omnichannel admin center, open the workstream related to your voice channel.
 
 1. Expand **Advanced Settings**, and in **Smart assist bots**, select **Add bot**. The **Add a bot** dialog opens.
 

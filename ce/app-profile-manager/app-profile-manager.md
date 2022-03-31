@@ -28,10 +28,7 @@ Make sure you have the App Profile Manager Administrator role. More information:
 
 To create agent experience profiles in Customer Service admin center, the Basic User role is also required.
 
-## Create agent experience profiles in Customer Service admin center (preview)
-
-> [!IMPORTANT]
-> The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+## Create agent experience profiles in Customer Service admin center
 
 By using profiles, you can create targeted app experiences for agents and supervisors. Profiles help access the features that your agents and supervisors can use in their daily tasks to resolve customer issues.
 

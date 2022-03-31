@@ -8,7 +8,7 @@ ms.author: nenellim
 manager: shujoshi
 ---
 
-# FAQs about Customer Service admin center (Preview)
+# FAQs about Customer Service admin center
 
 > [!IMPORTANT]
 >
@@ -20,7 +20,7 @@ manager: shujoshi
 
 ## Overview
 
-This topic contains the frequently asked questions (FAQs) that you as an administrator might have about the Customer Service admin center (preview) app.
+This topic contains the frequently asked questions (FAQs) that you as an administrator might have about the Customer Service admin center app.
 
 ### What's the difference between Omnichannel admin center and Customer Service admin center?
 
@@ -40,5 +40,5 @@ The app will be enabled automatically in all the Customer Service organizations,
 
 ### See also
 
-[Get started with Customer Service admin center (preview)](cs-admin-center.md)  
+[Get started with Customer Service admin center](cs-admin-center.md)  
 [Overview of Customer Service](overview.md)  

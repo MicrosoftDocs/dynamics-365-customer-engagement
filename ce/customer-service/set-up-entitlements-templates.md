@@ -26,7 +26,7 @@ Quickly create other entitlements prefilled with the basic information like the 
 
 ## Create an entitlement template  
 
-You can create an entitlement template in the Customer Service admin center (preview) or Customer Service Hub app. 
+You can create an entitlement template in the Customer Service admin center or Customer Service Hub app. 
   
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
   

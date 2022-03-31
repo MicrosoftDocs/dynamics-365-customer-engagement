@@ -43,7 +43,7 @@ After meeting the prerequisites, you can send outbound messages from your organi
 
 Set up templates to send outbound messages. To create a template, consider the scenarios that require your organization to send outbound messages.
 
-1. Sign in to the Customer Service admin center (preview) or Omnichannel admin center app.
+1. Sign in to the Customer Service admin center or Omnichannel admin center app.
 
 2. Create a template for your outbound message.
 
@@ -52,7 +52,7 @@ Set up templates to send outbound messages. To create a template, consider the s
 
 ## Set up outbound configuration
 
-You can set up the outbound configuration in the Customer Service admin center (preview) or Omnichannel admin center app.
+You can set up the outbound configuration in the Customer Service admin center or Omnichannel admin center app.
 
 1. Go to one of the apps, and perform the following steps.
    

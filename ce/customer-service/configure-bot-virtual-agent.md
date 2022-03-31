@@ -19,7 +19,7 @@ ms.custom:
 
 Microsoft Power Virtual Agents allows organizations to automate routine conversations, letting agents focus on high-value interactions. When a conversation is escalated from a bot to a human agent, agents can see the full transcript of the bot conversation and get complete context while engaging with customers.
 
-After you've created your bot and connected it to an Omnichannel for Customer Service environment, you can go to the Omnichannel admin center or [Customer Service admin center (preview)](cs-admin-center.md) app to add your bot to queues and configure context variables to route work items.
+After you've created your bot and connected it to an Omnichannel for Customer Service environment, you can go to the Omnichannel admin center or [Customer Service admin center](cs-admin-center.md) app to add your bot to queues and configure context variables to route work items.
 
 When you integrate a Power Virtual Agents bot with Omnichannel for Customer Service, you get the following capabilities for bot conversations:
 

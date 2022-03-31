@@ -26,7 +26,7 @@ Define what kind of support your customers are eligible for by creating entitlem
   
 ## Create an entitlement
 
-You can create an entitlement in the Customer Service admin center (preview) or Customer Service Hub app.
+You can create an entitlement in the Customer Service admin center or Customer Service Hub app.
   
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)] You can check your security permissions by following the steps in [View your user profile](../customerengagement/on-premises/basics/view-your-user-profile.md).
 

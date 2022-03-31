@@ -50,7 +50,7 @@ Based on configured data input, the Relevance search mechanism filters the cases
   
     - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
-1. Navigate to the Customer Service admin center (preview) or Customer Service Hub app, and perform the following:
+1. Navigate to the Customer Service admin center or Customer Service Hub app, and perform the following:
    
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
      

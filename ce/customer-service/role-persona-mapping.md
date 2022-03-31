@@ -95,7 +95,7 @@ After persona mapping is enabled, it'll automatically assign default roles depen
 
 ### Manage personas
 
-You can customize the roles to persona mapping in the Customer Service admin center (preview), Omnichannel admin center, or Customer Service Hub app.
+You can customize the roles to persona mapping in the Customer Service admin center, Omnichannel admin center, or Customer Service Hub app.
 
 **To customize the role to persona mapping**
 

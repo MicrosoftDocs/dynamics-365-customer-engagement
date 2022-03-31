@@ -29,7 +29,7 @@ You can also create a site in Dynamics 365 Customer Engagement (on-premises) 9.1
 
 Before you begin, make sure you have the System Administrator or System Customizer security role or equivalent permissions.
 
-2. Navigate to the Customer Service admin center (preview) or Customer Service Hub app, and perform the following steps:
+2. Navigate to the Customer Service admin center or Customer Service Hub app, and perform the following steps:
 
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 

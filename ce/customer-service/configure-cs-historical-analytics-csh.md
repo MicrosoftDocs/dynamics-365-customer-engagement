@@ -24,7 +24,7 @@ The following historical reports are available:
 
 Make sure that you have administrator permissions for Dynamics 365.
 
-You can enable the customer service historical analytics reports in the Customer Service admin center (preview) or Customer Service Hub app.
+You can enable the customer service historical analytics reports in the Customer Service admin center or Customer Service Hub app.
 
 **Enable the Knowledge search analytics dashboard**
 
@@ -54,7 +54,7 @@ This configuration will also enable AI-discovered topics from cases with default
 
 ## Enable Historical analytics for unified routing
 
-You can enable historical analytics for unified routing in the Customer Service admin center (preview) or Customer Service Hub app. The metrics are available in the report after 24 hours.
+You can enable historical analytics for unified routing in the Customer Service admin center or Customer Service Hub app. The metrics are available in the report after 24 hours.
 
 > [!IMPORTANT]
 >

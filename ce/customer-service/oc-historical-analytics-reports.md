@@ -25,7 +25,7 @@ The following historical analytics reports are available:
 
 ## Enable Omnichannel historical analytics reports in Omnichannel for Customer Service
 
-You can enable Omnichannel historical analytics reports in the Customer Service admin center (preview) or Omnichannel admin center app.
+You can enable Omnichannel historical analytics reports in the Customer Service admin center or Omnichannel admin center app.
 
 Make sure that you have the required administrator permissions for Dynamics 365.
 
@@ -51,7 +51,7 @@ This configuration will also enable AI-discovered topics from conversations with
 
 ## Enable Historical analytics for unified routing in Omnichannel for Customer Service
 
-You can enable historical analytics for unified routing in the Customer Service admin center (preview) or Omnichannel admin center app. The metrics are available in the report after 24 hours.
+You can enable historical analytics for unified routing in the Customer Service admin center or Omnichannel admin center app. The metrics are available in the report after 24 hours.
 
 > [!IMPORTANT]
 >

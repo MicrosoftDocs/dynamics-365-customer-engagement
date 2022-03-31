@@ -65,7 +65,7 @@ You can configure a rule that when active will be run for incoming emails. By us
 
 
 
-You can configure the rules in the Customer Service admin center (preview) or Customer Service Hub app.
+You can configure the rules in the Customer Service admin center or Customer Service Hub app.
 
 1. Go to one of the apps, and perform the following steps.
    

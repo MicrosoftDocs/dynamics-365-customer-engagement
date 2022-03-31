@@ -29,7 +29,7 @@ Make sure that you have the required security role or equivalent permissions.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage security roles in service scheduling](manage-security-roles.md)
 
-You can create a new facility or equipment record in the Customer Service admin center (preview) or Omnichannel admin center app.
+You can create a new facility or equipment record in the Customer Service admin center or Omnichannel admin center app.
 
 1. Go to one of the apps, and perform the following steps.
 
