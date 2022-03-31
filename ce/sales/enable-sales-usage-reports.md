@@ -10,8 +10,7 @@ manager: shujoshi
 
 # Enable sales usage reports
 
-S
-ales usage reports provide a historical view of operational metrics and key performance indicators in Dynamics 365 Sales. This helps sales managers to view and analyze their team's operational metrics, and make decisions that improve sales performance.
+Sales usage reports provide a historical view of operational metrics and key performance indicators in Dynamics 365 Sales. This helps sales managers to view and analyze their team's operational metrics, and make decisions that improve sales performance.
 
 ## License and role requirements
 | Requirement type | You must have |
