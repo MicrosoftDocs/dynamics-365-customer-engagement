@@ -27,13 +27,13 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 |<strong>Station 1</strong> | | |  | |
 | | <i>First Release</i> | [8.8.62.26](/dynamics365/field-service/version-history#8859226226) | TBD | 04/01/2022
 |<strong>Station 2</strong> | | |  | |
-| | <i>South America</i> | [8.8.62.26](/dynamics365/field-service/version-history#8859226226) | TBD | 04/08/2022
-| | <i>Canada</i> |[8.8.62.26](/dynamics365/field-service/version-history#8859226226) | TBD | 04/08/2022
-| | <i>India</i> | [8.8.62.26](/dynamics365/field-service/version-history#8859226226) | TBD |04/08/2022
-| | <i>France</i> |[8.8.62.26](/dynamics365/field-service/version-history#8859226226) | TBD | 04/08/2022
-| | <i>South Africa</i>|[8.8.62.26](/dynamics365/field-service/version-history#8859226226) | TBD | 04/08/2022
-| | <i>Germany</i> |[8.8.62.26](/dynamics365/field-service/version-history#8859226226) | TBD |04/08/2022
-| | <i>Switzerland</i> |  [8.8.62.26](/dynamics365/field-service/version-history#8859226226) | TBD | 04/08/2022
+| | <i>South America</i> | [8.8.62.26](/dynamics365/field-service/version-history#8859226226) | TBD | 04/01/2022
+| | <i>Canada</i> |[8.8.62.26](/dynamics365/field-service/version-history#8859226226) | TBD | 04/01/2022
+| | <i>India</i> | [8.8.62.26](/dynamics365/field-service/version-history#8859226226) | TBD |04/01/2022
+| | <i>France</i> |[8.8.62.26](/dynamics365/field-service/version-history#8859226226) | TBD | 04/01/2022
+| | <i>South Africa</i>|[8.8.62.26](/dynamics365/field-service/version-history#8859226226) | TBD | 04/01/2022
+| | <i>Germany</i> |[8.8.62.26](/dynamics365/field-service/version-history#8859226226) | TBD | 04/01/2022
+| | <i>Switzerland</i> |  [8.8.62.26](/dynamics365/field-service/version-history#8859226226) | TBD | 04/01/2022
 |<strong>Station 3</strong> | |  |  | |
 | | <i>Japan</i> | [8.8.61.21](/dynamics365/field-service/version-history#8859226121) |  [8.8.62.26](/dynamics365/field-service/version-history#8859226226) | 04/01/2022
 | | <i>Asia Pacific</i> | [8.8.61.21](/dynamics365/field-service/version-history#8859226121) |  [8.8.62.26](/dynamics365/field-service/version-history#8859226226) | 04/01/2022

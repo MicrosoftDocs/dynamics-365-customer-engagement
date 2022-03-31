@@ -23,12 +23,11 @@ Getting visibility into the underlying opportunities that are contributing to th
 
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+
 
 ## View underlying opportunities
 
@@ -162,7 +161,7 @@ Kenny Smith is a Vice President of the sales organization at Contoso Inc. He hea
     | Username - All opportunities | All the opportunities across different forecast categories that the selected user owns. |
     | Username (Group) – Column name | The opportunities that the selected user and that user's team own for the selected forecast category. |
     | Username – Column name | All the opportunities that the selected user owns for the selected forecast category. |
-    |||
+    
 
     You can change the view of these opportunities by using the view selector. By default, the view that was selected when the forecast was configured is displayed.
 
