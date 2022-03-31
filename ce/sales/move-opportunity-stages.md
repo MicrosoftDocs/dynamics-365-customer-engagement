@@ -33,7 +33,11 @@ An opportunity goes through different stages (aka pipeline phase) as you make pr
 
 ## Move the opportunity to Qualify stage
 
-1. Select **Qualify** in the process bar when you've identified the basic details about the customer: 
+When you've gathered the basic details about the customer, move the opportunity to the Qualify stage. 
+
+:::image type="content" source="media/opportunity-stages.png" alt-text="A screenshot of accessing the Qualify stage in the opportunity.":::
+
+1. Select **Qualify** in the process bar when you've identified the following details about the customer: 
     - **Identify Contact**: Select the contact who will be working on the opportunity from the customer's end. 
     
     - **Identify Account**: Select the customer for the opportunity.
@@ -56,7 +60,8 @@ An opportunity goes through different stages (aka pipeline phase) as you make pr
     
     - **Identify Competitors**: Select **mark complete** if you've added the competitor information. More information: [Add competitors for the opportunity](add-stakeholder.md#add-competitors-for-the-opportunity)
 
-2. Specify the details and select Next stage
+2. Specify the details and select **Next stage**.
+    The opportunity moves to the Propose stage of the process.
 
 ## Move the opportunity to Propose stage
 
@@ -71,6 +76,7 @@ An opportunity goes through different stages (aka pipeline phase) as you make pr
     - **Present Proposal**: Select **mark complete** if you've presented the proposal to the stakeholders. 
 
 2. Specify the details and select **Next stage**.
+    The opportunity moves to the Close stage of the process.
 
 The next step is to create a quote and send it to your customer. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create a quote and send it to your customer](../sales-enterprise/create-edit-quote-sales.md)
 
@@ -87,4 +93,5 @@ When your quote is accepted by the customer and an order is raised, you can move
     - File De-brief: Select **mark complete** if you've created a de-brief for the opportunity.
 
 2. Select **Finished** when you're done with all the activities.
+    You can now close the opportunity as Won or Lost. More information: [Close opportunities as won or lost](close-opportunity-won-lost-sales.md)
 
