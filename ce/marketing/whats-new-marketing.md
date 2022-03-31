@@ -236,7 +236,7 @@ With the Dynamics 365 Marketing November 2021 update you can export images from 
 - **Mobile channel**
     - Send Customer Voice surveys in SMS messages and push notifications. Learn more: [Add a Customer Voice survey to a text message](real-time-marketing-outbound-text-messaging.md#add-a-customer-voice-survey-to-a-text-message) and [Add a Customer Voice survey to a push notification](real-time-marketing-push-notifications.md#add-a-customer-voice-survey-to-a-push-notification).
 - **Scale**
-    - Send up to 100 million outbound interactions (email, SMS, or push notifications) per month to a maximum of 20 million contacts using real-time marketing journeys. Learn more: [Reach more customers with a 10X increase in the scale of interactions in real-time marketing journeys](/2021wave2/marketing/dynamics365-marketing/increase-reach-improved-scalability-real-time-marketing).
+    - Send up to 100 million outbound interactions (email, SMS, or push notifications) per month to a maximum of 20 million contacts using real-time marketing journeys. Learn more: [Reach more customers with a 10X increase in the scale of interactions in real-time marketing journeys](/dynamics365-release-plan/2021wave2/marketing/dynamics365-marketing/increase-reach-improved-scalability-real-time-marketing).
 
 ##### Outbound marketing
 
