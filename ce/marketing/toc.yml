@@ -670,6 +670,8 @@
       href: learning-functional-consultant.md
     - name: Partner Sales and Marketing
       href: learning-sales.md
+  - name: "Deprecation: Dynamics 365 for Customer Engagement"
+    href: ce-deprecation.md
   - name: Troubleshoot with Solution Health Hub
     href: troubleshoot-marketing-solution-health.md
   - name: General FAQ
