@@ -74,7 +74,6 @@ Perform the following steps to connect and register your bot with Omnichannel ch
 
 Your bot is now registered with Omnichannel channel.
 
-
 ### Configure the bot user as an omnichannel agent
 
 A bot user is created as an application user and assigned with the **Omnichannel agent** role. 
