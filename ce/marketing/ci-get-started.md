@@ -30,18 +30,18 @@ With Customer Insights data, you can:
 
 ## Use Customer Insights profiles and segments with real-time marketing features
 
-<Description>
+*Description*
 
 Learn more: [Use Customer Insights profiles and segments in real-time marketing](real-time-marketing-ci-profile.md)
 
 ## Use Customer Insights segments with outbound marketing features
 
-<Description>
+*Description*
 
 Learn more: [Use segments from Dynamics 365 Customer Insights with Dynamics 365 Marketing](customer-insights-segments.md)
 
 ## Use Customer Insights data from your own data lake in Marketing
 
-<Description>
+*Description*
 
-Learn more: [Enable data sharing with Dataverse from your own Azure Data Lake Storage](manage-environments.md#enable-data-sharing-with-dataverse-from-your-own-azure-data-lake-storage-preview)
+Learn more: [Enable data sharing with Dataverse from your own Azure Data Lake Storage](/dynamics365/customer-insights/audience-insights/manage-environments#enable-data-sharing-with-dataverse-from-your-own-azure-data-lake-storage-preview)
