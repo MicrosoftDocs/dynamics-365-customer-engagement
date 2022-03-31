@@ -113,9 +113,6 @@ If you've created a custom app, you can add the sales accelerator to it from the
 
 ### Monitor usage
 
-> [!NOTE]
-> This capability is being rolled out in phases and will be available in all geographical regions by March 25, 2022.
-
 As an administrator, you can monitor the number of records that have been connected to sequences over a period of seven months. 
 
 If you're using the sales accelerator with your Sales Enterprise license, you get 1,500 sequence-connected records per month. A warning symbol is displayed whenever the usage exceeds the monthly limit. Hover over the symbol to see the message. In such a case, you must upgrade to the Sales Premium license to enjoy full benefits with no monthly limit.
@@ -248,9 +245,6 @@ If you want to make advanced configurations for Teams calls and conversation int
 
 ### Monitor usage
 
-> [!NOTE]
-> This capability is being rolled out in phases and will be available in all geographical regions by March 25, 2022.
-
 As an administrator, you can monitor the number of call recordings made by your sellers over a period of up to six months. 
 
 If you're using conversation intelligence with your Sales Enterprise license, you get three hours of conversation intelligence per activated user per month. A warning symbol is displayed whenever the usage exceeds the monthly limit. Hover over the symbol to see the message. In such a case, users will need to be upgraded to the Sales Premium license to enjoy 10 hours per user per month call processing capacity. Additional expansion packs are also available. More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/)
@@ -335,9 +329,6 @@ You may want to modify the lead and opportunity scoring configurations, for exam
 :::image type="content" source="media/ds-scoring-advanced-setup.png" alt-text="Advanced settings link in quick setup panel for Lead and opportunity scoring.":::
 
 ### Monitor usage
-
-> [!NOTE]
-> This capability is being rolled out in phases and will be available in all geographical regions by March 25, 2022.
 
 As an administrator, you can monitor the number of records that have been scored over a period of seven months. This includes both lead and opportunity scoring.
 
