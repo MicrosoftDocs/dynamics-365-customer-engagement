@@ -52,11 +52,8 @@ Based on configured data input, the Relevance search mechanism filters the cases
   
 1. Navigate to the Customer Service admin center (preview) or Customer Service Hub app, and perform the following:
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
      
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-
      1. In the site map, select **Case Settings** in **Customer Support**. The **Case Settings** page appears.
      1. In the **Advanced similarity rules** section, select **Manage**.
 

@@ -45,14 +45,10 @@ As an administrator, to create skills, you need at least one skill type in the s
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-     
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+   
      - In the site map, select **User management** in **Customer Support**.
      
-
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
     
      - In the site map, select **User attributes** in **Advanced settings**. The **User attributes** page appears.
@@ -87,9 +83,6 @@ You can create rating models in the Customer Service admin center (preview), Omn
 **To create the rating model**
 
 1. Perform the steps by using one of the following apps.
-      
-   > [!IMPORTANT]
-   > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
    - In the site map of Customer Service admin center (preview), select **Insights** in **Operations**. 
 

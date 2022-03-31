@@ -38,7 +38,7 @@ If you want to end the trial earlier, select **End trial** on the **Phone number
 
 You can view the phone numbers in one of the apps as follows:
 
-- In the site map of Customer Service admin center (preview), select **Channels** in **Customer support**, and then select **Manage** for **Phone numbers**.
+- In the site map of Customer Service admin center, select **Channels** in **Customer support**, and then select **Manage** for **Phone numbers**.
 
 - In the site map of Omnichannel admin center, select **Phone numbers** in **General settings**.
 
@@ -57,10 +57,7 @@ You can purchase new phone numbers for your organization after you've installed 
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
     1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
     
@@ -113,7 +110,7 @@ After you've acquired a phone number, you must add it to a voice workstream to b
 
 **To add a phone number to a voice workstream**
 
-1. In Customer Service admin center (preview) or Omnichannel admin center, go to the **Phone numbers** page, and then select the phone number that's marked **Ready for setup** in the **Status** column.
+1. In Customer Service admin center or Omnichannel admin center, go to the **Phone numbers** page, and then select the phone number that's marked **Ready for setup** in the **Status** column.
 
 2. Select **Setup workstream**. The **Workstreams** page with a list of all workstreams is displayed.
 
@@ -143,7 +140,7 @@ If you want to change the calling plan, or upgrade the calling or SMS plans on a
 
 **To edit a phone number**
 
-1. In Customer Service admin center (preview) or Omnichannel admin center, go to the **Phone numbers** page. The list of the available phone numbers for your business is displayed.
+1. In Customer Service admin center or Omnichannel admin center, go to the **Phone numbers** page. The list of the available phone numbers for your business is displayed.
 
 1. Select a phone number and then select **Edit**. The **Edit phone number** dialog with the current plan type, calling plan, and SMS plan is displayed.
 
@@ -164,7 +161,7 @@ If you no longer need a phone number, you can release it from your organization'
 
 **To release a phone number**
 
-1. In Customer Service admin center (preview) or Omnichannel admin center, go to the **Phone numbers** page. The list of the available phone numbers for your business is displayed.
+1. In Customer Service admin center or Omnichannel admin center, go to the **Phone numbers** page. The list of the available phone numbers for your business is displayed.
 
 2. Select a phone number and select **Release number**. The **Release number** dialog requesting you to confirm the number deletion is displayed.
 

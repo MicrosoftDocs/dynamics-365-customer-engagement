@@ -35,6 +35,7 @@ You can create a new resource category in the Customer Service admin center (pre
 
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
+ 
     1. In the site map, select **Service Scheduling** in **Operations**. The **Service Scheduling** page appears.
     2. In the **Resource categories** section, select **Manage**.
         

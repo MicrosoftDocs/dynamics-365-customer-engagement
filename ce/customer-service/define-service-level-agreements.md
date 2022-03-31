@@ -76,10 +76,7 @@ You can create SLA KPIs in the Customer Service admin center (preview) app or Cu
 
 1. Go to one of the apps, and perform the following steps.
 
-    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-
-    > [!IMPORTANT]
-    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
     1. In the site map, select **Service Terms** in **Operations**. The **Service Terms** page appears.
     1. In the **SLA KPIs** section, select **Manage**.                                                                         
@@ -133,10 +130,7 @@ You can create an SLA in the Customer Service admin center (preview) or Customer
 
 1. Go to one of the apps, and perform the following steps.
 
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-
-   > [!IMPORTANT]
-   > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
    1. In the site map, select **Service Terms** in **Operations**. The **Service Terms** page appears.
    1. In the **Service Level Agreements (SLAs)** section, select **Manage**.                                                                         
@@ -166,10 +160,7 @@ You can create an SLA item in the Customer Service admin center (preview) or Cus
 
 1. Go to one of the apps, and perform the following steps.
 
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-
-   > [!IMPORTANT]
-   > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
    1. In the site map, select **Service Terms** in **Operations**. The **Service Terms** page appears
    1. In the **Service Level Agreements (SLAs)** section, select **Manage**.                                                                         
