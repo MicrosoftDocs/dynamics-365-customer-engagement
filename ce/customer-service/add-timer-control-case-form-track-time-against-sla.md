@@ -19,7 +19,7 @@ ms.custom:
 
 # Add a timer control for SLA-enabled entities
 
-Add a timer control to a service-level agreement (SLA)–enabled entity form to help users gauge the amount of time they have to complete a task as specified in the SLA. The timer control displays countdown timers that show the current status and time remaining for the configured SLA KPIs.
+Add a timer control to a service-level agreement (SLA) enabled entity form to help users gauge the amount of time they have to complete a task as specified in the SLA. The timer control displays countdown timers that show the current status and time remaining for the configured SLA KPIs.
 
 ## Add an SLA timer to an SLA-enabled entity
 
@@ -77,15 +77,15 @@ After you've added the SLA timer control for an SLA-enabled entity, you can cust
 1. In the **Configure Property "Customized Label"** dialog, select the **Bind to a static value** option and enter the values for multiple language codes.
 
     :::image type="content" source="media/sla-timer_configure_property.png" alt-text="SLA timer configure property dialog":::
-   - The language code value must be of the following format:<!--note from editor: Suggest using code format to distinguish the variable string from the example. This edit assumes that the period is part of the string the user enters.-->
+   - The language code value must be of the following format:
 
-     `(language code1)=(KPI instance status value):(KPI instance custom label)`<br>For example, 1033=1:Custom Noncompliant.
+     `(language code1)=(KPI instance status value):(KPI instance custom label)`<br>For example, 1033=1:Custom Noncompliant
 
-   - You can also enter multiple language codes by separating them with a semicolon:<br>`(language code1)=(KPI instance status value):(KPI instance custom label); (language code2)=(KPI instance status value):(KPI instance custom label).`<br>For example, 1033=1:Custom Noncompliant; 3:Paused.
+   - You can also enter multiple language codes by separating them with a semicolon:<br>`(language code1)=(KPI instance status value):(KPI instance custom label); (language code2)=(KPI instance status value):(KPI instance custom label)`<br>For example, 1033=1:Custom Noncompliant; 3:Paused
     
-   - If you need to create multiple language code sets, you must separate each set by selecting **Enter**. For example:<!--note from editor: Suggest adding these step numbers just to emphasize that these are sequential steps that have a relation to each other. --> 
+   - If you need to create multiple language code sets, you must separate each set by selecting **Enter**. For example: 
     
-     1. Enter `(language code1)=(KPI instance status value):(KPI instance custom label); (language code2)=(KPI instance status value):(KPI instance custom label)`.
+     1. Enter `(language code1)=(KPI instance status value):(KPI instance custom label); (language code2)=(KPI instance status value):(KPI instance custom label)`
 
       1. Select **Enter**.
 
