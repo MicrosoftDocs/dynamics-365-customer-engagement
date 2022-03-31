@@ -41,9 +41,10 @@ Faceted search allows you to filter knowledge articles based on **Record Type**,
 
 The following section describes how the search results are rendered:
 
-- When you select a product from the product facet, search results for the knowledge articles associated to that product are displayed.
-- If the number of search results exceeds 100, the first 100 results are displayed on the first page for every search query with a + icon against the product facet, displaying the exact search count.
-- If you move to the next page, the next 100 search results with the associated product facets are displayed.
+- When you select a product from the product facet, search results only for the knowledge articles associated to that product are displayed.
+- If the number of search results is less than 100, the exact number of results is displayed against the product facet.
+- If the number of search results exceeds 100, a + icon appears against the product facet, displaying the exact search count.
+- If you go to the next page, the next 100 search results with the associated product facets are displayed.
 
 :::image type="content" source="media/km-portals.png" alt-text="Search knowledge articles on portals":::
 
