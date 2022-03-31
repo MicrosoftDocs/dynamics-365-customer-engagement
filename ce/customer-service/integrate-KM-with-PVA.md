@@ -58,7 +58,11 @@ You must perform the following steps to integrate knowledge management with a Po
 
 ### Set connection references
 
-Knowledge Power Virtual Agents solution makes use of the flow which uses connections, such as **Content Conversion** and **Microsoft Dataverse**. You must configure these connection references before turning the **Search knowledge article flow** on. You must have a system administrator role to be able to set connection references. To set connection references:
+Knowledge Power Virtual Agents solution makes use of the flow which uses connections, such as **Content Conversion** and **Microsoft Dataverse**. You must configure these connection references before turning the **Search knowledge article flow** on.
+
+You must have a system administrator role to be able to set connection references. If you have a Environment Maker role and can't see the notification, then you don't have the permission to maintain the connection reference. You must contact your system administrator to maintain the connection reference.
+
+To set connection references:
    
 1. Go to https://make.preview.powerapps.com.
 1. Select the notification. A form to configure connection references appears.
