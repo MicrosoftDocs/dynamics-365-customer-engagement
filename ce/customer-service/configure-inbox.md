@@ -86,5 +86,5 @@ The following items are known issues with the inbox.
 
 ### See also
 
-[Customer Service admin center](/app-profile-manager/app-profile-manager)
+[Customer Service admin center](/app-profile-manager/app-profile-manager)<br>
 [Enable real-time translation of conversations](enable-real-time-translation.md) 
