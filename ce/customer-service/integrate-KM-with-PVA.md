@@ -1,14 +1,14 @@
 ---
 title: Integrate knowledge management with Power Virtual Agents bot | MicrosoftDocs
 description: Learn about the integration of knowledge management with a Power Virtual Agents bot.
-ms.date: 02/07/2022
+ms.date: 03/31/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
 manager: shujoshi
 ---
 
-# Integrate knowledge management with a Power Virtual Agents bot (preview)
+# Integrate knowledge management with Power Virtual Agents bots (preview)
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
@@ -26,14 +26,14 @@ Power Virtual Agents let you create powerful bots configured with various topics
 
 Integrating Power Virtual Agents bot with knowledge management makes it easier to use customized conversations in your bot. This frees up your agent's time to deal with complex issues that need human intervention, as the bot helps answer questions, perform actions, and solve simple problems.
 
-You can integrate knowledge management with a Power Virtual Agents bot by using either of the following ways:
+You can integrate knowledge management with Power Virtual Agents bots by using either of the following ways:
 
 - Search knowledge articles dialog.
 - Power Automate flow template.
 
 ## Prerequisites
 
-- Dataverse search must be enabled for the integration. More information: [Configure Dataverse search for your environment](/power-platform/admin/configure-relevance-search-organization)
+- Dataverse search must be enabled for the integration. You must have a system administrator role to be able to enable Dataverse search. More information: [Configure Dataverse search for your environment](/power-platform/admin/configure-relevance-search-organization).
 
 - You must perform the following two steps before you begin the integration:
 
@@ -58,7 +58,7 @@ You must perform the following steps to integrate knowledge management with a Po
 
 ### Set connection references
 
-Knowledge Power Virtual Agents solution makes use of the flow which uses connections, such as **Content Conversion** and **Microsoft Dataverse**. You must configure these connection references before turning the **Search knowledge article flow** on. To set connection references:
+Knowledge Power Virtual Agents solution makes use of the flow which uses connections, such as **Content Conversion** and **Microsoft Dataverse**. You must configure these connection references before turning the **Search knowledge article flow** on. You must have a system administrator role to be able to set connection references.To set connection references:
    
 1. Go to https://make.preview.powerapps.com.
 1. Select the notification. A form to configure connection references appears.
