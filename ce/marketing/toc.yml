@@ -8,6 +8,8 @@
     href: whats-new-marketing.md
   - name: Get started
     href: get-started.md
+  - name: Use rich Customer Insights data in Marketing journeys
+    href: ci-get-started.md
   - name: Installation and environment management
     items: 
     - name: Sign up for a Marketing trial
@@ -24,8 +26,6 @@
         href: real-time-marketing-install.md
       - name: Integrate Marketing with a CMS system or a Power Apps portal
         href: portal-optional.md
-      - name: Integrate Dynamics 365 Customer Insights with Marketing
-        href: ci-get-started.md
       - name: Re-run the Marketing setup wizard
         href: re-run-setup.md
       - name: Uninstall Marketing

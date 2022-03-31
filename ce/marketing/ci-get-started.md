@@ -1,5 +1,5 @@
 ---
-title: "Integrate Dynamics 365 Customer Insights with Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Connect rich customer information from multiple data sources to customer journeys (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to integrate Dynamics 365 Customer Insights profiles and segments with Dynamics 365 Marketing."
 ms.date: 03/30/2022
 ms.custom: 
@@ -17,7 +17,7 @@ search.app:
   - D365Mktg
 ---
 
-# Integrate Dynamics 365 Customer Insights with Dynamics 365 Marketing
+# Connect rich customer information from multiple data sources to customer journeys
 
 Dynamics 365 Customer Insights applies artificial intelligence to analyze rich pools of customer data collected from across other apps like Dynamics 365 Sales, Service, and Marketing. Its standard functionality generates powerful analytical displays for each contact, which makes the information easy to understand and use.
 
