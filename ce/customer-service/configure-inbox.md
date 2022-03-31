@@ -75,7 +75,7 @@ The following views are supported in the inbox:
 Inbox views refresh every five minutes. To manually refresh the view, you can select the **Refresh** icon at the top of the inbox.
 
 ## Real Time Translation
-For information about how to configure Real Time Translation (RTT) for conversations in the inbox, see [Enable real-time translation of conversations](enable-real-time-translation?tabs=customerserviceadmincenter.md)
+For information about how to configure Real Time Translation (RTT) for conversations in the inbox, see [Enable real-time translation of conversations](enable-real-time-translation.md)
 
 ## Known issues
 The following items are known issues with the inbox.
@@ -87,4 +87,4 @@ The following items are known issues with the inbox.
 ### See also
 
 [Customer Service admin center](/app-profile-manager/app-profile-manager)
-[Enable real-time translation of conversations](enable-real-time-translation?tabs=customerserviceadmincenter.md) 
+[Enable real-time translation of conversations](enable-real-time-translation.md) 
