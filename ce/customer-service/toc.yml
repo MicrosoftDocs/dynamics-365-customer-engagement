@@ -47,7 +47,7 @@
     - name: Accessibility
       href: /dynamics365/get-started/accessibility/customer-engagement/accessibility
     - name: Privacy and personal data
-      href: https://docs.microsoft.com/dynamics365/get-started/gdpr/
+      href: /dynamics365/get-started/gdpr/
     - name: Keyboard navigation support
       href: keyboard-navigation-support-customer-service-hub.md
   - name: Installation and upgrade
@@ -372,8 +372,14 @@
         href: define-service-level-agreements.md
       - name: Enable entities for service level agreements
         href: enable-entities-service-level-agreements.md
-      - name: Recalculate SLAs in terminal status
-        href: enable-sla-recalculation.md
+      - name: Calculate SLA KPIs
+        items:
+        - name: Recalculate SLAs in terminal status
+          href: enable-sla-recalculation.md
+        - name: Enable custom time calculation of SLA KPIs
+          href: enable-sla-custom-time-calculation.md
+        - name: Enable custom recalculation of SLA KPIs
+          href: enable-sla-force-recalculation.md  
       - name: Create entitlements to define support terms
         href: create-entitlement-define-support-terms-customer.md
       - name: Use entitlement templates to set up entitlements  
@@ -1482,21 +1488,23 @@
       href: report-issues.md
   - name: Share feedback in Customer Service
     href: cs-share-feedback.md
-  - name: FAQs on Customer Service
+  - name: FAQs about Customer Service
     items: 
-    - name: FAQs on Customer Service admin center
+    - name: FAQs about Customer Service admin center
       href: faq-customer-service-admin-center.md
-    - name: FAQs on unified routing
+    - name: FAQs about unified routing
       href: unified-routing-faqs.md
-    - name: FAQs on AI suggestions for cases and knowledge articles
+    - name: FAQs about AI suggestions for cases and knowledge articles
       href: csw-faqs-ai-suggestions.md
-    - name: FAQs on Omnichannel for Customer Service
+    - name: FAQs about Omnichannel for Customer Service
       href: faqs.md
+    - name: FAQs about custom time calculation of SLA KPIs
+      href: faqs-custom-time-sla-kpis.md
   - name: Omnichannel for Customer Service on Unified Service Desk
     href: ../unified-service-desk/oc-usd/omnichannel-customer-service-unified-service-desk.md
   - name: Unified Service Desk Guide
-    href: https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk
+    href: /dynamics365/unified-service-desk/unified-service-desk
   - name: Dynamics 365 Channel Integration Framework Guide
-    href: https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework
+    href: /dynamics365/customer-service/channel-integration-framework/channel-integration-framework
   - name: Dynamics 365 Customer Service Insights
-    href: https://docs.microsoft.com/dynamics365/ai/customer-service-insights/overview
+    href: /dynamics365/ai/customer-service-insights/overview
