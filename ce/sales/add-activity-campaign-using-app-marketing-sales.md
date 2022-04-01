@@ -103,7 +103,7 @@ When you add and distribute a campaign activity, an activity is created for each
 
 You can distribute a campaign activity when you're ready to initiate the campaign. 
 
-1. Open the campaign activity and select **Distribute Campaign Activity** on the command bar.  
+1. Open the campaign activity and on the command bar select **Distribute Campaign Activity**.  
   
 8. In the activity form, enter the information that you want to distribute. For email activities, 
     - Draft the email that you want to send to the members.
@@ -129,7 +129,7 @@ To close the campaign activity:
 
 1. Set an appropriate status for the activity, and then select **Close Campaign Activity**.  
   
-11. (Optional) Update the campaign activity record with the actual costs in the **Actual Cost** field. This can help guide you in planning future campaign activities.  
+11. (Optional) Update the campaign activity record with the actual costs in the **Actual Cost** field. This helps guide you in planning the budget for future campaign activities.  
 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
