@@ -1,7 +1,7 @@
 ---
-title: "Qualify or convert leads | MicrosoftDocs"
-description: "Qualify the lead after you've identified the timeframe, budget, and purchase process of the lead."
-ms.date: 10/25/2021
+title: "Qualify and convert leads | MicrosoftDocs"
+description: "Qualify the lead after you've identified the time frame, budget, and purchase process of the lead."
+ms.date: 03/23/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -16,26 +16,24 @@ searchScope:
   - Dynamics 365
   - Sales
 ---
-# Qualify or convert leads 
+# Qualify and convert leads 
 
-Qualify the lead after you've identified the timeframe, budget, and purchase process of the lead.
+After you've identified the time frame, budget, and purchase process for a lead, qualify the lead with additional information such as account, contact, and opportunity to be associated.  
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+
 
 ## Qualify or convert a lead
 
-Does your lead have what you're looking for and vice versa? After you've identified the timeframe, budget, purchase process, and decision makers for the sale, it's time to qualify your lead. 
-
 Your system administrator defines what happens to a lead when it is qualified:
--  If your system administrator has set **Create Account, Contact, and Opportunity records by default upon qualifying a lead** to **No**, you'll be prompted to choose what records to create when the lead is qualified (account, contact, or opportunity). 
--  If they've set **Create Account, Contact, and Opportunity records by default upon qualifying a lead** to Yes, an account, contact, and opportunity record is created when the lead is qualified.
 
+-  If your system administrator has set **Create Account, Contact, and Opportunity records by default upon qualifying a lead** to **No**, you'll be prompted to choose what records to create when the lead is qualified (account, contact, or opportunity). 
+
+-  If they've set **Create Account, Contact, and Opportunity records by default upon qualifying a lead** to Yes, an account, contact, and opportunity record is created when the lead is qualified.
 
 **To qualify a lead**
 
@@ -121,7 +119,7 @@ When salespeople work on a lead, they use notes to store key information on the 
   
 ### See also  
 [Define lead qualification experience](define-lead-qualification-experience.md)  
-[Print leads, quotes, and other records](../customerengagement/on-premises/basics/print-leads-quotes-other-records.md)          
+[Print quote, invoice, or other records](print-records.md)         
 [Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  
 [Boost sales with Versium Predict](../versium-predict/versium-predict.md)  
 [Get sales Insights, powered by InsideView](../insights-insideview/insights-powered-by-insideview.md)  

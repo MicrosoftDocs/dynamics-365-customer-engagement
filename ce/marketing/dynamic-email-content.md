@@ -1,8 +1,7 @@
 ---
 title: "Add dynamic content to email messages (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to add field values, set up content settings information, conditional statements, and while loops to your email designs in Dynamics 365 Marketing."
-ms.date: 01/19/2022
-
+ms.date: 03/24/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -171,6 +170,9 @@ Once you have an expression that works, you can copy and paste it anywhere. You 
 
 > [!TIP]
 > If you require the types of data that are supported by assist edit, then it's usually best to use the [assist-edit](#assist-edit) feature to place the code rather than try to type it from scratch. This will ensure that the entity, relation, and field names match those used in the database and will help you avoid misspellings.
+
+> [!NOTE]
+> Dynamics 365 Marketing's email sending functionality does not support calculated fields.
 
 <a name="dynamic-from"></a>
 
