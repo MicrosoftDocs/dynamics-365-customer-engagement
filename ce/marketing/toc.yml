@@ -32,6 +32,8 @@
       href: transfer-solution.md
     - name: Tenant to tenant migration
       href: tenant-to-tenant.md
+    - name: Dynamics 365 Marketing public IP addresses
+      href: marketing-public-ips.md
     - name: Keep Marketing up to date
       href: apply-updates.md
     - name: Recurring activity bulk deletion
@@ -256,6 +258,8 @@
         href: real-time-marketing-email-text-consent.md
       - name: Select the audience source for real-time journeys
         href: real-time-marketing-audience-data.md
+      - name: Move custom triggers between environments
+        href: real-time-marketing-move-triggers.md
       - name: Real-time marketing link tracking mechanics
         href: real-time-marketing-link-tracking-mechanics.md
     - name: Developer
@@ -666,6 +670,8 @@
       href: learning-functional-consultant.md
     - name: Partner Sales and Marketing
       href: learning-sales.md
+  - name: "Deprecation: Dynamics 365 for Customer Engagement"
+    href: ce-deprecation.md
   - name: Troubleshoot with Solution Health Hub
     href: troubleshoot-marketing-solution-health.md
   - name: General FAQ

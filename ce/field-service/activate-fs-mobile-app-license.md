@@ -37,7 +37,7 @@ After June 30, 2022, the mobile configurator used with Field Service Mobile (Xam
 
 The mobile configurator used with Field Service Mobile (Xamarin app) will still be available in your org, but you will no longer be able to publish updates.
 
-### Are there additional licenses required to use the new Field Service (D365) mobile app?
+### Are there additional licenses required to use the new Field Service (Dynamics 365) mobile app?
 
 No, use of the Field Service (Dynamics 365) mobile app is included with a Field Service Enterprise license. 
 
