@@ -96,7 +96,7 @@ Follow these steps to create a logical skill classification ruleset:
 
 Create work classification rulesets that are based on capacity profiles to route work items to agents based on capacity.
 
-1. Perform the steps 1 through 5 in [Create manual skill classification rulesets](#create-manual-skill-classification-rulesets).
+1. Perform the steps 1 through 5 in [Create manual skill classification rulesets](#create-logical-skill-classification-rulesets).
 2. In the **Output** area, select **Capacity profile**, and choose a capacity profile whose value should be set if the conditions are met.
 
    > ![Capacity profile-based work classification rule.](media/capacity-profile-based-rule.png "Capacity profile-based work classification rule.")
