@@ -13,12 +13,11 @@ manager: shujoshi
 The sales usage dashboard provides a snapshot view of the historical operational metrics and key performance indicators (KPIs) for opportunities and leads.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security Role** | Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+
 
 ## View sales usage reports
 
