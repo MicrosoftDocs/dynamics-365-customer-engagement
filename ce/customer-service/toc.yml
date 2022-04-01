@@ -464,7 +464,7 @@
         href: csw-search-knowledge-articles.md
       - name: Search for knowledge articles in Customer Service Hub
         href: search-knowledge-articles-csh.md
-      - name: Search mechanisms in knowledge management
+      - name: Understand how search works in knowledge management
         href: search-operators.md
     - name: Customization experience
       items: 
