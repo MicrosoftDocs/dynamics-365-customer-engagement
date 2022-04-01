@@ -20,7 +20,7 @@ search.audienceType:
 ---
 # Distribute a managed app
 
-An app can be distributed to other Dynamics 365 Customer Engagement organizations. To do this, you create a solution and then add one or more apps and components to the solution. Finally, export the solution as managed. This creates a .zip package file that can be imported into other Dynamics 365 Customer Engagement organizations.  
+An app can be distributed to other Dynamics 365 Customer Engagement organizations. To do this, you create a solution and then add one or more apps and components to the solution. Then, export the solution as managed. This creates a .zip package file that can be imported into other Dynamics 365 Customer Engagement organizations.  
   
 ## Add an app to a solution
 
@@ -50,7 +50,7 @@ To delete a managed app, you must delete the managed solution that contains the 
 1. Go to **Settings** > **Solutions**.  
   
    > [!IMPORTANT]
-   > - Deleting a solution deletes all data that is associated with the components in the solution, such as entities.
+   > - Deleting a solution deletes all data that is associated with the components in the solution, such as entities and all entity records.
    > - Deleting a solution might impact Dynamics 365 Customer Engagement apps performance. We recommend that you perform this task during hours when there's less user activity.
 
 1. Select the managed solution that contains the app you want to delete, and then, on the command bar, select **Delete**.
