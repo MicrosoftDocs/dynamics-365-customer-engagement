@@ -61,7 +61,7 @@ Effective October 04, 2021, Dynamics 365 Product Visualize is deprecated. After 
 
 ## Dynamics 365 assistant cards - Opportunity at Risk (sentiment detection) and Opportunity at Risk (phrase detection)
 
-Effective March 31, 2022 The Opportunity at Risk (sentiment detection) and Opportunity at Risk (phrase detection) cards are deprecated. After May 30, 2022 these cards will no longer be supported.     
+Effective March 31, 2022, the Opportunity at Risk (sentiment detection) and Opportunity at Risk (phrase detection) cards are deprecated. After May 30, 2022, these cards will no longer be supported.     
 The Opportunity at Risk cards, both sentiment detection and phrase detection, have been disabled from the backend and insights are no longer generated. However, these cards are still visible through the Settings page. When users are trying to activate these cards, activation fails.
  
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
