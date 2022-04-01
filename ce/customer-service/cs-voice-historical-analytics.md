@@ -3,7 +3,7 @@ title: "Configure historical analytics for voice | MicrosoftDocs"
 description: Learn about how to configure historical analytics the voice channel in Omnichannel for Customer Service
 ms.custom:
 - dyn365-customerservice
-ms.date: 11/02/2021
+ms.date: 04/04/2022
 author: gandhamm
 ms.author: mgandham
 manager: shujoshi
