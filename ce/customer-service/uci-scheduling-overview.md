@@ -30,7 +30,7 @@ The following topics contain information about legacy service scheduling feature
 
 - Add facilities and equipment  
 
-- Create resource groups 
+- Create resource groups
 
 - Use sites to manage your service locations 
 
