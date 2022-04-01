@@ -1,7 +1,7 @@
 ---
-title: Learn which search operators can be used for knowledge management in Dynamics 365 Customer Service | Microsoft Docs
-description: Use search operators to search for knowledge articles in the Customer Service Hub.
-ms.date: 03/30/2022
+title: Learn how search works for knowledge management in Dynamics 365 Customer Service | Microsoft Docs
+description: Use search mechanisms knowledge articles in the Customer Service Hub.
+ms.date: 04/01/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -17,7 +17,7 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Search mechanisms in knowledge management
+# Understand how search works in knowledge management
 
 ## Introduction
 
@@ -26,7 +26,6 @@ Setting up a comprehensive knowledge base is the key to increased customer satis
 Dataverse search is enabled by default on all production environments, except those using their own encryption key. More information: [Enable Dataverse search](/power-platform/admin/configure-relevance-search-organization#enable-dataverse-search). When Dataverse search is enabled, knowledge management search control uses Dataverse search to search for knowledge articles. More information: [What is Dataverse search?](/power-platform/admin/configure-relevance-search-organization). Otherwise, the search mechanism switches to full-text search, which lets you run full-text queries against character-based data in SQL Server tables. More information: [Full-text search](/sql/relational-databases/search/full-text-search).
 
 Depending on the configurations made in Dataverse search through the Quick Find view columns list, you can view the information provided in the search results, such as keywords, description, attachments, or article number. More information: [Before you begin using Dataverse search](search-knowledge-articles-csh.md#before-you-begin-using-dataverse-search).
-
 
 ## Search operators
 
