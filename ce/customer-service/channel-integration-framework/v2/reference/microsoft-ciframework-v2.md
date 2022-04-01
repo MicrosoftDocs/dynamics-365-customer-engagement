@@ -72,9 +72,9 @@ Use these APIs to manage sessions in a multisession provider environment.
 |---------|-------------|
 | [canCreateSession](microsoft-ciframework/cancreatesession.md) | Allows you to check if a new session can be created. |
 | [createSession](microsoft-ciframework/createsession.md) | Creates a session based on the session template defined as part of the template and returns the unique identifier of the session that was created. |
-| [getSession](microsoft-ciframework/getsession.md) | Returns an object containing the unique identifier of the session, context, and the value of `isFocused` parameter, in case the session belongs to the channel provider. |
+| [getSession](microsoft-ciframework/getsession.md) | Returns an object containing the unique identifier of the session, context, and the value of `isFocused` parameter, if the session belongs to the channel provider. |
 | [getFocusedSession](microsoft-ciframework/getfocusedsession.md) | Returns the unique identifier of the session that is in focus, if it belongs to the channel provider else returns null. |
-| [getAllSessions](microsoft-ciframework/getallsessions.md) | Returns the array of session identifiers for a given provider. |
+| [getAllSessions](microsoft-ciframework/getallsessions.md) | Returns the array of session identifiers for a channel provider. |
 | [setSessionTitle](microsoft-ciframework/setsessiontitle.md) | Sets the session title, if the session belongs to the channel provider. |
 | [requestFocusSession](microsoft-ciframework/requestFocusSession.md) | Sets the focus on the session whose session identifier is passed as a parameter, if the session belongs to the channel provider. |
 
@@ -89,11 +89,11 @@ Use these APIs to track event analytics.
 
 ## Session indicator APIs
 
-Use these APIs to indicate a KPI breach and to update the number of new activities in a particular session.
+Use these APIs to indicate a key performance indicator (KPI) breach and to update the number of new activities in a particular session.
 
 | Methods | Description |
 |---------|-------------|
-| [notifyKpiBreach](microsoft-ciframework/notifyKPIBreach.md) | This method is used to indicate a KPI breach. When this KPI is used, a red circle appears on the display image of the contact when a KPI breach has occurred.|
+| [notifyKpiBreach](microsoft-ciframework/notifyKPIBreach.md) | This method is used to indicate a KPI breach. When this method is used, a red circle appears on the display image of the contact when a KPI breach has occurred.|
 | [notifyNewActivity](microsoft-ciframework/notifyNewActivity.md) | This method is used to update the number of new activities in a particular session.|
 
 ## Presence APIs
