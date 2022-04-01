@@ -1,14 +1,14 @@
 ---
-title: Integrate knowledge management with Power Virtual Agents bot | MicrosoftDocs
-description: Learn about the integration of knowledge management with a Power Virtual Agents bot.
-ms.date: 03/31/2022
+title: Integrate knowledge management in Dynamics 365 with a Power Virtual Agents bot | MicrosoftDocs
+description: Learn about the integration of knowledge management in Dynamics 365 with a Power Virtual Agents bot.
+ms.date: 04/01/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
 manager: shujoshi
 ---
 
-# Integrate knowledge management with Power Virtual Agents bots (preview)
+# Integrate knowledge management in Dynamics 365 with a Power Virtual Agents bot (preview)
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
@@ -24,9 +24,9 @@ manager: shujoshi
 
 Power Virtual Agents let you create powerful bots configured with various topics and trigger phrases that help automatically resolve questions posed by your customers on your portal page. More information: [Power Virtual Agents overview](/power-virtual-agents/fundamentals-what-is-power-virtual-agents).
 
-Integrating Power Virtual Agents bot with knowledge management makes it easier to use customized conversations in your bot. This frees up your agent's time to deal with complex issues that need human intervention, as the bot helps answer questions, perform actions, and solve simple problems.
+Integrating a Power Virtual Agents bot with knowledge management makes it easier to use customized conversations in your bot. This frees up your agent's time to deal with complex issues that need human intervention, as the bot helps answer questions, perform actions, and solve simple problems.
 
-You can integrate knowledge management with Power Virtual Agents bots by using either of the following ways:
+You can integrate knowledge management with a Power Virtual Agents bot by using either of the following ways:
 
 - Search knowledge articles dialog.
 - Power Automate flow template.
@@ -62,7 +62,7 @@ Knowledge Power Virtual Agents solution makes use of the flow which uses connect
 
 > [!NOTE]
 > - You must have a system administrator role to be able to set connection references. If you have a Environment Maker role and can't see the notification, then you don't have the permission to maintain the connection reference. You must contact your system administrator to maintain the connection reference.
-> - When the connection references are set, then all the bots in the environment can access the knowledge articles if the search Dynamics 365 knowledge articles (preview) dialog is used in the bot topics.
+> - When the connection references are set, the bots in the environment can access knowledge articles if the search Dynamics 365 knowledge articles (preview) dialog is used in the bot topics.
 
 To set connection references:
    
