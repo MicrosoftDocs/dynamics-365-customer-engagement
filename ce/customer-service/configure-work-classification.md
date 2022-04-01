@@ -65,7 +65,7 @@ To create a logical work classification ruleset, do the following steps:
 
    ![Decision list for logical ruleset.](media/ur-decision-list-manual.png "Decision list for logical ruleset")
 
-## Create logicak skill classification rulesets
+## Create logical skill classification rulesets
 
 Skill attachment rules are a sub-type of logical work classification rules and are defined to attach skills to the work item. They are written in the format of "if defined condition satisfies, then attach defined skills to the work item."
 
