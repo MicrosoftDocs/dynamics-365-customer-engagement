@@ -1,7 +1,7 @@
 ---
 title: "Connect to Azure Communication Services | MicrosoftDocs"
 description: "Get an overview about connecting to Azure Communication Services. The article also includes procedures to sync from Azure and disconnect from Azure Communication Services."
-ms.date: 03/10/2022
+ms.date: 04/04/2022
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: neeranelli
