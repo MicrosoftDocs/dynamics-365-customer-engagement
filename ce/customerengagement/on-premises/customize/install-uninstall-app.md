@@ -20,7 +20,7 @@ search.audienceType:
 ---
 # Distribute a managed app
 
-An app can be made available as a solution. This allows you to package one or more apps in a solution and import them into other organizations.  
+An app can be distributed to other Dynamics 365 Customer Engagement organizations. To do this, you create a solution and then add one or more apps and components to the solution. Finally, export the solution as managed. This creates a .zip package file that can be imported into other Dynamics 365 Customer Engagement organizations.  
   
 ## Add an app to a solution
 
