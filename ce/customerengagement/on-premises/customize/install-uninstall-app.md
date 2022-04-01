@@ -51,9 +51,9 @@ To delete a managed app, you must delete the managed solution that contains the 
   
    > [!IMPORTANT]
    > - Deleting a solution deletes all data that is associated with the components in the solution, such as entities.
-   > - Deleting a solution might impact Dynamics 365 Customer Engagement apps performance. We recommend that you perform these tasks during hours when there's less user activity.
+   > - Deleting a solution might impact Dynamics 365 Customer Engagement apps performance. We recommend that you perform this task during hours when there's less user activity.
 
-1. Select the managed solution that contains the app you want to delete, and on the command bar, select **Delete**.
+1. Select the managed solution that contains the app you want to delete, and then, on the command bar, select **Delete**.
   
 ### See also
 
