@@ -38,10 +38,12 @@ Most out-of-box (OOB) tables have activities enabled by default, which cannot be
 1. To enable activities, Sign in to [Power Apps](https://make.powerapps.com).
 
   
-2. On the left nav, select **Data** to expand it and then select **Tables**.  
+2. On the left nav, select **Dataverse** to expand it and then select **Tables**.  
 
    > [!div class="mx-imgBorder"]
    >![Go to Tables in maker portal.](media/maker-data-tables.png "Go to Tables in maker portal")
+![image](https://user-images.githubusercontent.com/57445531/160470571-79831772-d686-4627-836c-f823c06e3d27.png)
+
    
   
 3. Select a table.
@@ -51,15 +53,16 @@ Most out-of-box (OOB) tables have activities enabled by default, which cannot be
    > [!div class="mx-imgBorder"]
    >![Select settings.](media/maker-row-settings.png "Select setting")
 
-5. Expand **More settings** > **Collaboration**, and select the checkbox for **Enable for activities**.
+5. Expand **Advanced options** > **Make this table an option when**, and select the checkbox for **Creating a new activity**.
 6. 
    > [!div class="mx-imgBorder"]
    >![Communication and collaboration activity enabled.](media/enable-activity-for-table.png "Communication and collaboration activity enabled")
-   
+   ![image](https://user-images.githubusercontent.com/57445531/160470941-1077d61f-f287-44bb-905c-defde6e4d662.png)
+
   > [!IMPORTANT]
   > Once enabled this setting can't be disabled. If prompted, select **Okay** to confirm.
    
-6.  Select **Done** and then **Save Table**.
+6.  Select **Save**.
 
 
 ## Verify the table is added to the app designer
