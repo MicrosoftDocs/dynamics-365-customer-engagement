@@ -76,7 +76,7 @@ Use wildcards as placeholders for one or more text characters. Use an asterisk a
 
 Use double quotation marks around a keyword to perform an exact match. For example, searching on "order shipping time" will match the exact keywords in an knowledge article. The search ignores commonly used words such as a, an, and the.
 
-:::image type="content" source="media/exact matches.png" alt-text="Exact matches":::
+:::image type="content" source="media/exact matches.png" alt-text="Exact matches search query":::
 
 - Query syntax: Search term with double quotation marks around it.
 
