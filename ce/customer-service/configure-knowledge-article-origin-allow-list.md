@@ -26,7 +26,7 @@ searchScope:
 
 ## Introduction
 
-You can configure an origins allowlist to ensure that knowledge authors add only safe links to their knowledge articles.
+You can configure an origins allowlist to ensure that knowledge authors add only safe links to their knowledge articles. 
 
 > [!IMPORTANT]
 > The supported origins are HTTP or HTTPS protocol, IP address or domain name, and TCP port number. For example, https://www.contoso.com, https://www.contoso.com:443 are supported origins. Knowledge authors must use only links with origin links as specified in the supported origins list.
