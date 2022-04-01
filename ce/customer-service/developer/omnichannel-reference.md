@@ -30,7 +30,7 @@ The following JavaScript methods can be used to perform various operations with 
 
 ## Events
 
-| Events | Description |
+| Event | Description |
 |---------|-------------|
 | [lcw:ready](reference/events/lcw-ready.md) | [!INCLUDE[lcw-ready-description](reference/includes/lcw-ready-description.md)] |
 | [lcw:error](reference/events/lcw-error.md) | [!INCLUDE[lcw-error-description](reference/includes/lcw-error-description.md)] |
