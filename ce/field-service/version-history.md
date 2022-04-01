@@ -25,34 +25,47 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 |Station | Region | Current version | Next version |  Scheduled date
 |------| -------|-------|-----|------|         
 |<strong>Station 1</strong> | | |  | |
-| | <i>First Release</i> | [8.8.62.26](/dynamics365/field-service/version-history#8859226226) | TBD | 04/01/2022
+| | <i>First Release</i> | [8.8.63.20](/dynamics365/field-service/version-history#8859226320) | TBD | 04/15/2022
 |<strong>Station 2</strong> | | |  | |
-| | <i>South America</i> | [8.8.62.26](/dynamics365/field-service/version-history#8859226226) | TBD | 04/01/2022
-| | <i>Canada</i> |[8.8.62.26](/dynamics365/field-service/version-history#8859226226) | TBD | 04/01/2022
-| | <i>India</i> | [8.8.62.26](/dynamics365/field-service/version-history#8859226226) | TBD |04/01/2022
-| | <i>France</i> |[8.8.62.26](/dynamics365/field-service/version-history#8859226226) | TBD | 04/01/2022
-| | <i>South Africa</i>|[8.8.62.26](/dynamics365/field-service/version-history#8859226226) | TBD | 04/01/2022
-| | <i>Germany</i> |[8.8.62.26](/dynamics365/field-service/version-history#8859226226) | TBD | 04/01/2022
-| | <i>Switzerland</i> |  [8.8.62.26](/dynamics365/field-service/version-history#8859226226) | TBD | 04/01/2022
+| | <i>South America</i> | [8.8.63.20](/dynamics365/field-service/version-history#8859226320) | TBD | 04/22/2022
+| | <i>Canada</i> |[8.8.63.20](/dynamics365/field-service/version-history#8859226320) | TBD | 04/22/2022
+| | <i>India</i> |[8.8.63.20](/dynamics365/field-service/version-history#8859226320) | TBD | 04/22/2022
+| | <i>France</i> | [8.8.63.20](/dynamics365/field-service/version-history#8859226320) | TBD | 04/22/2022
+| | <i>South Africa</i>| [8.8.63.20](/dynamics365/field-service/version-history#8859226320) | TBD | 04/22/2022
+| | <i>Germany</i> | [8.8.63.20](/dynamics365/field-service/version-history#8859226320) | TBD | 04/22/2022
+| | <i>Switzerland</i> |  [8.8.63.20](/dynamics365/field-service/version-history#8859226320) | TBD | 04/22/2022
+| | <i>NOR</i> |  [8.8.63.20](/dynamics365/field-service/version-history#8859226320) | TBD | 04/22/2022
+| | <i>KOR</i> |  [8.8.63.20](/dynamics365/field-service/version-history#8859226320) | TBD | 04/22/2022
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> | [8.8.61.21](/dynamics365/field-service/version-history#8859226121) |  [8.8.62.26](/dynamics365/field-service/version-history#8859226226) | 04/01/2022
-| | <i>Asia Pacific</i> | [8.8.61.21](/dynamics365/field-service/version-history#8859226121) |  [8.8.62.26](/dynamics365/field-service/version-history#8859226226) | 04/01/2022
-| | <i>Great Britain</i> |[8.8.61.21](/dynamics365/field-service/version-history#8859226121) |  [8.8.62.26](/dynamics365/field-service/version-history#8859226226) | 04/01/2022
-| | <i>Oceania</i> |  [8.8.61.21](/dynamics365/field-service/version-history#8859226121) |  [8.8.62.26](/dynamics365/field-service/version-history#8859226226) | 04/01/2022
-| | <i>United Arab Emirates</i> |  [8.8.61.21](/dynamics365/field-service/version-history#8859226121) |  [8.8.62.26](/dynamics365/field-service/version-history#8859226226) | 04/01/2022
+| | <i>Japan</i> | [8.8.62.26](/dynamics365/field-service/version-history#8859226226)  |  [8.8.63.20](/dynamics365/field-service/version-history#8859226320) | 04/08/2022
+| | <i>Asia Pacific</i> |[8.8.62.26](/dynamics365/field-service/version-history#8859226226)  |  [8.8.63.20](/dynamics365/field-service/version-history#8859226320) | 04/08/2022
+| | <i>Great Britain</i> | [8.8.62.26](/dynamics365/field-service/version-history#8859226226)  |  [8.8.63.20](/dynamics365/field-service/version-history#8859226320) | 04/08/2022
+| | <i>Oceania</i> | [8.8.62.26](/dynamics365/field-service/version-history#8859226226)  |  [8.8.63.20](/dynamics365/field-service/version-history#8859226320) | 04/08/2022
+| | <i>United Arab Emirates</i> | [8.8.62.26](/dynamics365/field-service/version-history#8859226226)  |  [8.8.63.20](/dynamics365/field-service/version-history#8859226320) | 04/08/2022
 |<strong>Station 4</strong> | |  |  | |
 | | <i>Europe</i> |   [8.8.61.21](/dynamics365/field-service/version-history#8859226121) |  [8.8.62.26](/dynamics365/field-service/version-history#8859226226) | 04/08/2022
 |<strong>Station 5</strong> | |  |  | |
-| | <i>North America</i> | [8.8.60.21](/dynamics365/field-service/version-history#8859226021) |  [8.8.61.21](/dynamics365/field-service/version-history#8859226121)  | 04/01/2022
+| | <i>North America</i> |  [8.8.61.21](/dynamics365/field-service/version-history#8859226121) |  [8.8.62.26](/dynamics365/field-service/version-history#8859226226) | 04/15/2022
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> |  [8.8.60.21](/dynamics365/field-service/version-history#8859226021) |  [8.8.61.21](/dynamics365/field-service/version-history#8859226121)  | 04/01/2022
-| | <i>China</i> |   [8.8.60.21](/dynamics365/field-service/version-history#8859226021) |  [8.8.61.21](/dynamics365/field-service/version-history#8859226121)  | 04/01/2022
+| | <i>Government Community Cloud</i> | [8.8.61.21](/dynamics365/field-service/version-history#8859226121) |  [8.8.62.26](/dynamics365/field-service/version-history#8859226226) | 04/15/2022
+| | <i>China</i> |  [8.8.61.21](/dynamics365/field-service/version-history#8859226121) |  [8.8.62.26](/dynamics365/field-service/version-history#8859226226) | 04/15/2022
 | | <i>Dedicated Scale Groups</i> |    [8.8.60.21](/dynamics365/field-service/version-history#8859226021) |  [8.8.61.21](/dynamics365/field-service/version-history#8859226121)  | 04/08/2022
 
 >[!Note]
 > - Dates in all regions except Government Community Cloud (GCC) and China indicate the timing of the next automatic update. Dates in GCC and China indicate version availability; at this time, there is no automatic update for the GCC and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
+## 8.8.63.20
+
+(Includes Universal Resource Scheduling version [3.12.74.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#312741)).
+
+- Field Service (D365) mobile will now leverage native mobile device controls when inputting date and time. 
+- Field Service (D365) mobile will now display optimized mobile keyboards when interacting with fields of specific input type: Numeric, Decimal, Telephone, Email, and   URL.
+- Field Service (D365) mobile Timeline control will now support uploading files from the mobile device in addition to photos.
+- Field Service (D365) mobile will no longer show “Start Task Flow” within global commands by default.
+- Field Service (D365) mobile Windows application will now include Map view within the Booking Calendar control.
+- The Customer tab of the mobile Bookable Resource Booking form will include a phone number field for the Primary Contact of the Work Order Service Account.
+- The Customer tab of the mobile Bookable Resource Booking form will support an optional 3rd row of text for Street Address.
 
 ## 8.8.62.26
 
