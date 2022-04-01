@@ -1,7 +1,7 @@
 ---
 title: "Add a web resource for real-time translation of messages | MicrosoftDocs"
 description: "Learn how to add a web resource to implement the logic for enabling real-time translation of messages exchanged between your customers and agents."
-ms.date: 02/25/2022
+ms.date: 04/04/2022
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
