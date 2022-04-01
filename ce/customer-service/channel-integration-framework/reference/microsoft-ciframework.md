@@ -1,7 +1,7 @@
 ---
 title: "Microsoft.CIFramework (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0 | MicrosoftDocs"
-description: "Includes reference information about the Microsoft.CIFramework JavaScript API Reference for Dynamics 365 Channel Integration Framework 1.0."
-ms.date: 03/14/2022
+description: "Includes information about the Microsoft.CIFramework JavaScript API Reference for Dynamics 365 Channel Integration Framework 1.0."
+ms.date: 12/31/2019
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -13,19 +13,15 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# Microsoft.CIFramework methods (JavaScript API reference) for Dynamics 365 Channel Integration Framework 1.0
+# Microsoft.CIFramework methods (Dynamics 365 Channel Integration Framework JavaScript API reference)
 
-Microsoft CIFramework provides methods to use JavaScript API to manage the communication panel, records, and forms in the Dynamics 365 model-driven app.
-
-> [!Important]
-> - The [CIFInitDone event handler](events/cifinitdone.md) must be invoked before calling the other APIs.
-> - The time-out limit for the APIs is 10 seconds. If the APIs don't run within 10 seconds, they must be run again with changed parameters or scope.
+Provides methods to use JavaScript API to manage the communication panel, records, and forms in the Dynamics 365 model-driven app.
 
 ## Communication panel management APIs
 
 The communication panel is where you, as an agent, interact with the customer. Partner widgets built using Channel Integration Framework 1.0 are loaded in this panel. The widget in this version is displayed to the right of the screen, and supports Docked and Minimized modes.
 
-Use the following APIs to manage the state of the communication panel (widget).
+You can use the APIs mentioned below to manage the state of the communication panel (widget).
 
 | Methods | Description |
 |---------|-------------|
@@ -36,7 +32,7 @@ Use the following APIs to manage the state of the communication panel (widget).
 
 ## CRUD operations APIs
 
-Use the following APIs to perform CRUD operations on entity records.
+These APIs enable you to perform CRUD operations on entity records.
 
 | Methods | Description |
 |---------|-------------|
@@ -63,6 +59,7 @@ Use the following APIs to perform CRUD operations on entity records.
 ### See also
 
 [What's new in Dynamics 365 Channel Integration Framework](../whats-new-channel-integration-framework.md)  
-[System requirements for Dynamics 365 Channel Integration Framework](../system-requirements-channel-integration-framework.md)  
+[System requirements of Dynamics 365 Channel Integration Framework](../system-requirements-channel-integration-framework.md)   
+
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

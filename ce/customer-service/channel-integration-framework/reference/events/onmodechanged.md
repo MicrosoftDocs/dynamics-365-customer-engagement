@@ -13,15 +13,20 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# onModeChanged event (JavaScript API reference) in Dynamics 365 Channel Integration Framework 1.0
+# onModeChanged event (JavaScript API reference) for Dynamics 365 Channel Integration Framework 1.0
 
 [!INCLUDE[token-onmodechanged](../../shared/token-onmodechanged.md)]
 
 ### See also
 
-[setMode method](../microsoft-ciframework/setMode.md)  
-[getMode method](../microsoft-ciframework/getMode.md)  
-[addHandler method](../microsoft-ciframework/addHandler.md)  
-[removeHandler method](../microsoft-ciframework/removeHandler.md)  
+
+[setMode](../microsoft-ciframework/setMode.md)
+
+[getMode](../microsoft-ciframework/getMode.md)
+
+[addHandler](../microsoft-ciframework/addHandler.md)
+
+[removeHandler](../microsoft-ciframework/removeHandler.md)
+
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

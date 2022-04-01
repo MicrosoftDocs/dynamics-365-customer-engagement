@@ -19,9 +19,14 @@ ms.custom:
 
 ### See also
 
-[setWidth method](../microsoft-ciframework/setWidth.md)  
-[getWidth method](../microsoft-ciframework/getWidth.md)  
-[addHandler method](../microsoft-ciframework/addHandler.md)  
-[removeHandler method](../microsoft-ciframework/removeHandler.md)
+- [setWidth](../microsoft-ciframework/setWidth.md)
+
+- [getWidth](../microsoft-ciframework/getWidth.md)
+
+- [addHandler](../microsoft-ciframework/addHandler.md)
+
+- [removeHandler](../microsoft-ciframework/removeHandler.md)
+
+
 
 [!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]
