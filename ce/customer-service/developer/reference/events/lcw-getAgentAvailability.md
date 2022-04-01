@@ -1,7 +1,7 @@
 ---
 title: "lcw:getAgentAvailability | MicrosoftDocs"
 description: "Live chat widget getAgentAvailability event (Omnichannel for Customer Service JavaScript API reference)."
-ms.topic: article
+ms.topic: reference
 ms.date: 04/04/2022
 author: mh-jaya
 ms.author: v-jmh
