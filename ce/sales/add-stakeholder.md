@@ -1,6 +1,6 @@
 ---
 title: "Add stakeholders, sales team, and competitors for the opportunity | MicrosoftDocs"
-description: "An opportunity is a deal you're ready to win. Create an opportunity record for a lead who's ready to buy."
+description: "Add people that you're working with on the opportunity as stakeholders and sales team."
 ms.date: 03/29/2022
 ms.topic: article
 author: lavanyakr01

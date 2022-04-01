@@ -1,6 +1,6 @@
 ---
 title: "Move the opportunity through different stages | MicrosoftDocs"
-description: "An opportunity is a deal you're ready to win. Create an opportunity record for a lead who's ready to buy."
+description: "An opportunity goes through different stages as you make progress and get more details about the opportunity."
 ms.date: 03/29/2022
 ms.topic: article
 author: lavanyakr01
