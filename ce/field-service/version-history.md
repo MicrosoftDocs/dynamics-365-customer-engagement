@@ -59,13 +59,13 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 (Includes Universal Resource Scheduling version [3.12.74.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#312741)).
 
-- Field Service (D365) mobile will now leverage native mobile device controls when inputting date and time. 
-- Field Service (D365) mobile will now display optimized mobile keyboards when interacting with fields of specific input type: Numeric, Decimal, Telephone, Email, and   URL.
-- Field Service (D365) mobile Timeline control will now support uploading files from the mobile device in addition to photos.
-- Field Service (D365) mobile will no longer show “Start Task Flow” within global commands by default.
-- Field Service (D365) mobile Windows application will now include Map view within the Booking Calendar control.
-- The Customer tab of the mobile Bookable Resource Booking form will include a phone number field for the Primary Contact of the Work Order Service Account.
-- The Customer tab of the mobile Bookable Resource Booking form will support an optional 3rd row of text for Street Address.
+- Field Service (Dynamics 365) mobile app will now leverage native mobile device controls when inputting date and time. 
+- Field Service (Dynamics 365) mobile app will now display optimized mobile keyboards when interacting with fields of specific input type: numeric, decimal, telephone, email, and URL.
+- Field Service (Dynamics 365) mobile app timeline control will now support uploading files from the mobile device in addition to photos.
+- Field Service (Dynamics 365) mobile app will no longer show "Start Task Flow" within global commands by default.
+- Field Service (Dynamics 365) mobile Windows app will now include map view within the booking calendar control.
+- The **Customer** tab of the mobile bookable resource booking form will include a phone number field for the primary contact of the work order service account.
+- The **Customer** tab of the mobile bookable resource booking form will support an optional third row of text for street address.
 
 ## 8.8.62.26
 
