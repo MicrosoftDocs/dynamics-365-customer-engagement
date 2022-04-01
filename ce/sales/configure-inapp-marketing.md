@@ -1,7 +1,7 @@
 ---
 title: "Configure in-app marketing settings"
 description: "Configure in-app marketing settings to define various aspects of campaigning."
-ms.date: 03/18/2022
+ms.date: 04/01/2022
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr
