@@ -65,11 +65,11 @@ To create a logical work classification ruleset, do the following steps:
 
    ![Decision list for logical ruleset.](media/ur-decision-list-manual.png "Decision list for logical ruleset")
 
-## Create manual skill classification rulesets
+## Create logicak skill classification rulesets
 
 Skill attachment rules are a sub-type of logical work classification rules and are defined to attach skills to the work item. They are written in the format of "if defined condition satisfies, then attach defined skills to the work item."
 
-Follow these steps to create a manual skill classification ruleset:
+Follow these steps to create a logical skill classification ruleset:
 
 1. For the selected workstream, in the **Routing rules** area, for the **Work classification (optional)** option, select **Create Ruleset**.
 

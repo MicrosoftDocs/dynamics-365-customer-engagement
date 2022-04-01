@@ -1,6 +1,6 @@
 ---
-title: "Teams channel | MicrosoftDocs"
-description: "This topic provides an overview about Teams channel and incoming chat notifications in the agent dashboard for Omnichannel for Customer Service."
+title: "Use Microsoft Teams channel | MicrosoftDocs"
+description: "This article provides an overview of Microsoft Teams channel and incoming chat notifications in the agent dashboard for Omnichannel for Customer Service."
 ms.date: 04/02/2022
 ms.topic: article
 author: neeranelli
@@ -8,7 +8,7 @@ ms.author: nenellim
 manager: shujoshi
 ---
 
-# Use a Microsoft Teams channel
+# Use Microsoft Teams channel
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 

@@ -7,7 +7,7 @@ author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ---
-# Configure a Microsoft Teams channel
+# Configure Microsoft Teams channel
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -64,7 +64,7 @@ Make sure that the following prerequisites are met:
        - [Custom automated messages](configure-automated-message.md)
        - [Post-conversation survey](configure-post-conversation-survey.md)
     
-    1. On the **User features** page, set the toggle for **File attachments** to **On** and select the following checkboxes if you want to allow agents and customers to send and receive file attachments. More information: [Enable file attachments](enable-file-attachments.md).
+    1. On the **User features** page, set the toggle for **File attachments** to **On** and select the following checkboxes if you want to allow agents and customers to send and receive file attachments. More information: [Enable file attachments](enable-file-attachments.md)
        - Customers can send file attachments
        - Agents can send file attachments
     
@@ -75,11 +75,11 @@ Make sure that the following prerequisites are met:
     
     2. Verify the settings on the **Summary** page, and select **Finish**. The WhatsApp channel instance is configured.
 
-2. Configure routing rules. More information: [Configure work classification](configure-work-classification.md).
+2. Configure routing rules. More information: [Configure work classification](configure-work-classification.md)
 
 3. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
 
-4. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream).
+4. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream)
 
 5. In **Advanced settings**, configure the following options based on your business needs:
    - [Sessions](../app-profile-manager/session-templates.md)
@@ -152,7 +152,7 @@ Make sure that the following prerequisites are met:
 
 [Channels in Omnichannel for Customer Service](channels.md)  
 [Configure automated messages](configure-automated-message.md)  
-[Use a Microsoft Teams channel](teams-channel.md)  
+[Use Microsoft Teams channel](teams-channel.md)  
 [Delete a configured channel](delete-channel.md)  
 
 

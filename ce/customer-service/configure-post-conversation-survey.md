@@ -82,17 +82,17 @@ In the Omnichannel admin center or Omnichannel Administration app, you can set u
 1. Select the **Bot conversation survey** checkbox to share surveys for conversations that are handled by bots.
 
    > [!NOTE]
-   > The bot conversation survey option is available for only the live chat channel.
+   > The bot conversation survey option is available for the live chat channel only.
 
-    By default the **Use same survey settings as above** checkbox is selected.
+    By default, the **Use same survey settings as above** checkbox is selected.
 
-1. If you want to use different settings for the surveys sent by bots, repeat the steps 4 and 5.
+1. If you want to use different settings for the surveys sent by bots, repeat steps 4 and 5.
 
 1. Select **Save and close**.
 
 ## Runtime experience of post-conversation surveys
 
-If the post-conversation survey is enabled for a conversation, after the conversation ends, the pre-designed survey is shared with the customer. This survey allows you to keep a track of the customer feedback of the service provided. Any conversation can be considered as closed when one of the following scenarios happen:
+If the post-conversation survey is enabled for a conversation, after the conversation ends, the pre-designed survey is shared with the customer. This survey allows you to keep a track of the customer feedback for the service provided. Any conversation can be considered as closed when one of the following scenarios happen:
 
 - Agent closes the chat conversation.
 - Customer closes the chat conversation.
@@ -101,7 +101,7 @@ If the post-conversation survey is enabled for a conversation, after the convers
 For Live chat conversations, customers can receive survey questions within the same conversation or through a link that takes them to an external site. For SMS and social channels, a survey link is shared.
 
 > [!NOTE]
-> The surveys that you create and survey data that's processed are not hosted or stored in Omnichannel for Customer Service.
+> The surveys that you create and the survey data that's processed are not hosted or stored in Omnichannel for Customer Service.
 
 ### Configure the survey in Omnichannel Administration
 
