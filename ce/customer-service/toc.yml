@@ -399,11 +399,11 @@
   - name: Email
     items: 
     - name: Use email
-      href: /powerapps/user/view-create-email
+      href: /power-apps/user/view-create-email.md
     - name: Email templates
       items: 
       - name: Create an email template
-        href: /powerapps/user/email-template-create.md
+        href: /power-apps/user/email-template-create?context=/dynamics365/context/customer-service-context
       - name: Insert an email template
         href: /powerapps/user/insert-email-template?context=/dynamics365/context/customer-service-context
       - name: Convert an email to a template
