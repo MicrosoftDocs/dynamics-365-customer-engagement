@@ -4,7 +4,7 @@ description: "View the report to see the minutes used in voice calls in Omnichan
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 02/18/2022
+ms.date: 04/04/2022
 ms.topic: article
 ms.custom: intro-internal
 
