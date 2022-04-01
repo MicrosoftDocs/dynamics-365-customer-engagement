@@ -19,8 +19,10 @@ searchScope:
 
 An opportunity goes through different stages (aka pipeline phase) as you make progress and get more details about the opportunity. Each stage defines the information you should've collected about the opportunity to methodically progress and increase your chances of winning the deal. 
 
-> [!IMPORTANT]
->- The opportunity stage is stored in the **Pipeline Phase** field and is used in sales charts and dashboards. For example, the funnel chart displays the opportunities in different stages.  
+:::image type="content" source="media/opportunity-all-stages.png" alt-text="A screenshot of the different opportunity stages.":::
+
+> [!NOTE]
+>- It's important to keep the stage current as it's used in sales charts and dashboards. For example, the funnel chart displays the opportunities in different stages.  
 >- If your organization has multiple business process flows for the opportunity entity, the **Pipeline Phase** field stores the last stage change information done on the opportunity record through any business process flow. If you're using multiple business process flows on opportunity, exercise your discretion while using this field.
 
 ## License and role requirements
@@ -65,7 +67,7 @@ When you've gathered the basic details about the customer, move the opportunity 
 
 ## Move the opportunity to Propose stage
 
-1. In the **Propose** stage, select **mark complete** to display a check mark next to each of the following steps that you've completed:
+1. In the **Propose** stage, select **mark complete** next to each of the following steps that you've completed:
     
     - **Identify Sales Team**: Select **mark complete** if you've added the sales team members. More information: [Add sales team for the opportunity](add-stakeholder.md#add-sales-team-for-the-opportunity)
     
@@ -84,7 +86,7 @@ The next step is to create a quote and send it to your customer. [!INCLUDE[proc-
 
 When your quote is accepted by the customer and an order is raised, you can move the opportunity to the Close stage. 
 
-1. In the **Close** stage, select **mark complete** to display a check mark next to each of the following steps that you've completed:
+1. In the **Close** stage, select **mark complete** next to each of the following steps that you've completed:
 
     - **Complete Final Proposal:** Select **mark complete** if you've created a final proposal for the opportunity. You can add the proposal as attachment to the opportunity in the **Files** tab.  
     - Present Final Proposal: Select **mark complete** if you've presented the final proposal to the customer. 

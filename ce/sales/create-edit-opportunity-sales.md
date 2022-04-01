@@ -35,7 +35,7 @@ Create an opportunity when your lead is almost ready to buy. Use one of the foll
 
 ## Convert a lead to an opportunity
 
-If the opportunity originated from an existing lead, quality the lead and convert it to an opportunity. More information: [Qualify a lead and convert it to an opportunity](qualify-lead-convert-opportunity-sales.md)
+If the opportunity originated from an existing lead, qualify the lead and convert it to an opportunity. More information: [Qualify a lead and convert it to an opportunity](qualify-lead-convert-opportunity-sales.md)
 
 ## Create an opportunity
 

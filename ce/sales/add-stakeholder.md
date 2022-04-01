@@ -15,9 +15,9 @@ searchScope:
   - Sales
 ---
 
-# Add contacts relevant for the opportunity
+# Add stakeholders, sales team, and competitors for the opportunity
 
-When you're working on an opportunity, you'll be interacting with several people, both internally and externally. These users are broadly categorized as stakeholders, sales team, and competitors. Capturing all such details helps your team and leadership get a good view of the opportunity at hand. 
+When you're working on an opportunity, you'll be interacting with several people, both internally and externally. These users are broadly categorized as stakeholders, sales team, and competitors. Capturing information about the people that you're working with on the opportunity helps your leadership team understand the how the opportunity is shaping up and where you need help.  
 
 ## License and role requirements
 
