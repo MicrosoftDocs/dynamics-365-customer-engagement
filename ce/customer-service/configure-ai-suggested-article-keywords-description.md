@@ -1,7 +1,7 @@
 ---
 title: Configure AI suggestions for article keywords and description | MicrosoftDocs
 description: Configure AI suggestions for article keywords and description in Dynamics 365 Customer Service.
-ms.date: 12/03/2021
+ms.date: 04/01/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -63,7 +63,7 @@ The language used in AI-generated suggestions is based on the language that the 
 Ensure to meet the following requirements:
 
 - You have the System Administrator role.
-- Authors have the "AIB Roles" and "AIB SML Roles".
+- Authors have **Read** access to **Keywords Description Suggestion Setting** custom entity.
 
 ## Enable AI suggestions for article keywords and description
 
