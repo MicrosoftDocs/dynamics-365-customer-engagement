@@ -1,7 +1,7 @@
 ---
 title: Enable personal quick replies in Omnichannel for Customer Service | MicrosoftDocs
 description: Enable personal quick replies in agent experience for Omnichannel for Customer Service
-ms.date: 02/18/2022
+ms.date: 04/04/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
