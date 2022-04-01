@@ -214,7 +214,7 @@
           - name: "getPresence"
             href: /v2/reference/microsoft-ciframework/getPresence.md
           - name: "setPresence"
-            href: ../v2/reference/microsoft-ciframework/setPresence.md             
+            href: /v2/reference/microsoft-ciframework/setPresence.md             
         - name: "Notification management APIs"
           items:
           - name: "notifyEvent"
@@ -281,7 +281,7 @@
         - name: "onSessionClosed"
           href: v2/reference/events/onSessionClosed.md
         - name: "onPresenceChange"
-          href: v2/reference/events/onPresenceChange.md
+          href: /v2/reference/events/onPresenceChange.md
       - name: Entity reference
         items:
         - name: "msdyn_appconfiguration"
