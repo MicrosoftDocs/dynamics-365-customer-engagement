@@ -63,7 +63,7 @@ The language used in AI-generated suggestions is based on the language that the 
 Ensure to meet the following requirements:
 
 - You have the System Administrator role.
-- Authors have **Read** access to **Keywords Description Suggestion Setting** custom entity.
+- Authors have **Read** access to the **Keywords Description Suggestion Setting** custom entity.
 
 ## Enable AI suggestions for article keywords and description
 
