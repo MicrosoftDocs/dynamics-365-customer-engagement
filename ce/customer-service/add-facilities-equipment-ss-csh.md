@@ -1,7 +1,7 @@
 ---
 title: Add and create new facilities and equipment for Service Scheduling in Dynamics 365 Customer Service | MicrosoftDocs
 description: Learn how to add and create facilities and equipment for service scheduling in Dynamics 365 Customer Service
-ms.date: 02/11/2022
+ms.date: 04/04/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
