@@ -1,8 +1,7 @@
 ---
 title: "Configure and use a custom channel (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Provides information on how to install custom channel from AppSource to your Dynamics 365 Marketing instance."
-ms.date: 04/01/2018
-
+ms.date: 03/17/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -29,7 +28,8 @@ To configure a custom channel in your instance of Dynamics 365 Marketing, admini
 
 Installing a custom channel installs a [managed solution](/powerapps/developer/common-data-service/introduction-solutions#managed-and-unmanaged-solutions) for the custom channel in your instance. After the custom channel is installed in your instance, users will see the new custom channel tile in their customer journey designer when they create a customer journey.
 
-![Custom Content tiles.](../media/marketing-custom-channel-tile.png)
+> [!div class="mx-imgBorder"]
+> ![Custom Content tiles.](../media/marketing-custom-channel-tile2.png "Custom Content tiles")
 
 For information about creating a customer journey, see the following topics in the Marketing User Guide:
 - [Create a simple customer journey with email messaging](../../marketing/create-simple-customer-journey.md)

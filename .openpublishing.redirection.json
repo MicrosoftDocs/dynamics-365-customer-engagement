@@ -1,6 +1,26 @@
 {
   "redirections": [
     {
+      "source_path": "ce/marketing/real-time-marketing-custom-event-actions.md",
+      "redirect_url": "real-time-marketing-custom-actions",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-custom-events.md",
+      "redirect_url": "real-time-marketing-custom-triggers",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-event-triggers.md",
+      "redirect_url": "real-time-marketing-triggers",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/customer-service-hub-user-guide-timeline-admin.md",
+      "redirect_url": "/powerapps/maker/model-driven-apps/set-up-timeline-control?context=/dynamics365/context/customer-service-context",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/mobile-app/files-images-offline-profile.md",
       "redirect_url": "/powerapps/mobile/offline-file-images",
       "redirect_document_id": "false"
@@ -19332,12 +19352,12 @@
     },
     {
       "source_path": "ce/customer-service/channel-integration-framework/reference/events/onSessionSwitched.md",
-      "redirect_url": "/dynamics365/customer-service/dynamics365/channel-integration-framework/referen/v2/reference/events/onSessionSwitched",
+      "redirect_url": "/dynamics365/customer-service/channel-integration-framework/v2/reference/events/onsessionswitched",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/customer-service/channel-integration-framework/reference/events/onSessionClosed.md",
-      "redirect_url": "/dynamics365/customer-service/dynamics365/channel-integration-framework/referen/v2/reference/events/onSessionClosed",
+      "redirect_url": "/dynamics365/customer-service/channel-integration-framework/v2/reference/events/onSessionClosed",
       "redirect_document_id": false
     },
     {
