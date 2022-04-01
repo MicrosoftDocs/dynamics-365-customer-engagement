@@ -418,7 +418,7 @@
         href: customer-service-hub-user-guide-email-admin.md
       - name: Customize the email experience
         href: customer-service-hub-user-guide-email-font-admin.md
-      - name: Configure the enhanced insert email template
+      - name: Configure the enhanced insert email template dialog
         href: /power-apps/user/customize-insert-email-template?context=/dynamics365/context/customer-service-context
   - name: Timeline
     items: 
