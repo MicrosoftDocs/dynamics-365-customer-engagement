@@ -15,7 +15,7 @@ ms.reviewer: nenellim
 The email configuration experience enables users to be more effective and efficient when using email to communicate with customers. This article discusses how to configure the email editor, email template builder, and email signature builder, which accepts the full configuration capability of the Rich Text Editor control.
 
 > [!NOTE]
-> If you're using the Activity Editor control, we recommend that you use the rich text editor control instead because the Activity Editor control has been deprecated. For details, see [Use the rich text editor control in Power Apps](https://docs.microsoft.com/powerapps/maker/model-driven-apps/rich-text-editor-control#defaultsupportedprops). 
+> If you're using the Activity Editor control, we recommend that you use the rich text editor control instead because the Activity Editor control has been deprecated. For details, see [Use the rich text editor control in Power Apps](/power-apps/maker/model-driven-apps/rich-text-editor-control#defaultsupportedprops). 
 
 Each instance of the email editor or builder can be configured independently, enabling you to:
 
@@ -25,7 +25,7 @@ Each instance of the email editor or builder can be configured independently, en
 - Adjust the toolbar location and buttons.
 - Automatically increase the editor height to fit the content.
 - Access HTML.
-- Configure [the rich text editor control](https://docs.microsoft.com/powerapps/maker/model-driven-apps/rich-text-editor-control) in email experiences (including email editor, email template builder, and signature builder).
+- Configure [the rich text editor control](/power-apps/maker/model-driven-apps/rich-text-editor-control) in email experiences (including email editor, email template builder, and signature builder).
 
 ## Configure the email form by using a web resource file
 
@@ -63,7 +63,7 @@ Enabling the user configured settings to an email form consists of the following
 
    > [!NOTE]
    > A code editor such as Visual Studio Code can provide a better editing experience.<br></br>
-     There are a variety of properties that can be modified and will apply to the email form when you configure it. For more information, see [Rich Text Editor Properties](https://docs.microsoft.com/powerapps/maker/model-driven-apps/rich-text-editor-control#rich-text-editor-properties).
+     There are a variety of properties that can be modified and will apply to the email form when you configure it. For more information, see [Rich Text Editor Properties](/power-apps/maker/model-driven-apps/rich-text-editor-control#rich-text-editor-properties).
 
 7. Make any changes you want, and then select **Save and publish**. Save the URL to the new web resource because you'll need it to map the new web resource file to the **Enhanced Email** form.
 
@@ -101,7 +101,7 @@ Enabling the user configured settings to an email form consists of the following
 
 ### Configure the default email template selection view
 
-Perform the following steps to configure the default view for the [enhanced email template selection](/powerapps/user/insert-email-template.md#new-email-template-selection-window) window:
+Perform the following steps to configure the default view for the [enhanced email template selection](/power-apps/user/insert-email-template.md#new-email-template-selection-window) window:
 
 1. Navigate to **Settings** > **Advanced Settings**.
 1. Select **Settings** > **Email Configuration** > **Email Configuration Settings**.
