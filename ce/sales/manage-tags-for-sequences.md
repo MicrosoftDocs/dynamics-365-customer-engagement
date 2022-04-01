@@ -13,12 +13,11 @@ manager: shujoshi
 Tags help you quickly filter and identify sequences from a list by categories that you define.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator, Sequence manager, or Sales Manager <br>  Go to [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator, Sequence manager, or Sales Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## What are tags?
 
@@ -29,7 +28,7 @@ You can perform the following activities on tags:
 -	[Create tags](#create-tags)
 -	[Edit a tag](#edit-a-tag)
 -	[Delete a tag](#delete-a-tag)
--	[Apply a tag to a sequence](#apply-tag-to-a-sequence)
+-	[Apply a tag to a sequence](#apply-a-tag-to-a-sequence)
 -	[Filter sequences based on tags](#filter-sequences-based-on-tags)
 -	[Remove tags from a sequence](#remove-tags-from-a-sequence)
 
@@ -156,7 +155,8 @@ For example, there are three levels of tags in the hierarchy. You delete a tag a
 >[!div class="mx-imgBorder"]
 >![Delete a tag and move its child tags to its parent.](media/sa-sequence-tags-delete-mexico-tag.png "Delete tag to move child tags as parent")    
 
-## Apply a tag to a sequence<a name="apply-tag-to-sequence"></a>
+## Apply a tag to a sequence
+<a name="apply-tag-to-sequence"></a>
 
 1.	In the **Sales Hub** app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
 
