@@ -1,7 +1,7 @@
 ---
 title: Enable supervisor settings for managing agent conversations | MicrosoftDocs
 description: "How to enable supervisors to monitor, assign, and transfer conversations in the Omnichannel admin center and Omnichannel Administration apps."
-ms.date: 02/11/2022
+ms.date: 04/04/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
