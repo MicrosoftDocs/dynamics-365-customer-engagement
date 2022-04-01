@@ -1,7 +1,7 @@
 ---
 title: "Persistent chat | MicrosoftDocs"
 description: "Overview of Persistent chat in Omnichannel for Customer Service."
-ms.date: 10/21/2021
+ms.date: 04/04/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
