@@ -117,8 +117,6 @@ Do the following to configure a machine learning-based ruleset:
 
 4. Select a model in the **Select skill identification model** list, and select **Create**.
 
-   ![Machine learning skill ruleset.](media/ur-ml-skill-ruleset.png "Machine learning skill ruleset")
-
 5. On the page that appears, in the **Input attributes** area, select **Add attribute**, and select the attributes from the **Attributes** or **Related Entities** category. For an incoming work item, these attribute values will be concatenated and sent to the machine learning model for skill prediction.
 
     > [!NOTE]
