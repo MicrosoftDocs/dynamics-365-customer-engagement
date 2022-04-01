@@ -8,7 +8,7 @@ ms.author: sdas
 manager: shujoshi
 ---
 
-# Integrate knowledge management in Dynamics 365 with a Power Virtual Agents bot (preview)
+# Integrate knowledge management in Dynamics 365 with Power Virtual Agents bots (preview)
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
@@ -61,8 +61,8 @@ You must perform the following steps to integrate knowledge management with a Po
 Knowledge Power Virtual Agents solution makes use of the flow which uses connections, such as **Content Conversion** and **Microsoft Dataverse**. You must configure these connection references before turning the **Search knowledge article flow** on.
 
 > [!NOTE]
-> - You must have a system administrator role to be able to set connection references. If you have a Environment Maker role and can't see the notification, then you don't have the permission to maintain the connection reference. You must contact your system administrator to maintain the connection reference.
-> - When the connection references are set, the bots in the environment can access knowledge articles if the search Dynamics 365 knowledge articles (preview) dialog is used in the bot topics.
+> - You must have a system administrator role to be able to set connection references. If you have the Environment Maker role and can't see either the notification for connection references or the cloud flow, then you don't have the permission to update them. You must contact your system administrator or system customizer to set the connection references and enable the flow.
+> - When the connection references are set, the bots in the environment can access knowledge articles if the **Search Dynamics 365 knowledge article flow (Preview)** dialog is used in the bot topics.
 
 To set connection references:
    
@@ -93,7 +93,7 @@ You must create a topic with two question nodes for search text and filter. For 
      
 4. Provide the input to the flow.
     
-    :::image type="content" source="media/search_ka_flow.png" alt-text="Search knowledge article flow"::: 
+    :::image type="content" source="media/search-flow.png" alt-text="Describes the search flow":::
     
 5. Add a message node to show the results returned by the flow. More information: [Render results](#render-results) 
     
@@ -108,7 +108,7 @@ You must create a topic with two question nodes for search text and filter. For 
    
 1. After the topic is configured, replace the **Search knowledge article flow** with the **Search knowledge articles** dialog.
 
-    :::image type="content" source="media/final_search_ka_dialog.png" alt-text="Replace with search knowledge articles dialog":::
+    :::image type="content" source="media/search-dialog.png" alt-text="Add dialog to pva topic":::
 
 2. Remove the filter question node. More information on filters, see [Working with filters](#working-with-filters).
 
