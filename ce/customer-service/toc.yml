@@ -47,7 +47,7 @@
     - name: Accessibility
       href: /dynamics365/get-started/accessibility/customer-engagement/accessibility
     - name: Privacy and personal data
-      href: https://docs.microsoft.com/dynamics365/get-started/gdpr/
+      href: /dynamics365/get-started/gdpr/
     - name: Keyboard navigation support
       href: keyboard-navigation-support-customer-service-hub.md
   - name: Installation and upgrade
@@ -1501,8 +1501,8 @@
   - name: Omnichannel for Customer Service on Unified Service Desk
     href: ../unified-service-desk/oc-usd/omnichannel-customer-service-unified-service-desk.md
   - name: Unified Service Desk Guide
-    href: https://docs.microsoft.com/dynamics365/unified-service-desk/unified-service-desk
+    href: /dynamics365/unified-service-desk/unified-service-desk
   - name: Dynamics 365 Channel Integration Framework Guide
-    href: https://docs.microsoft.com/dynamics365/customer-service/channel-integration-framework/channel-integration-framework
+    href: /dynamics365/customer-service/channel-integration-framework/channel-integration-framework
   - name: Dynamics 365 Customer Service Insights
-    href: https://docs.microsoft.com/dynamics365/ai/customer-service-insights/overview
+    href: /dynamics365/ai/customer-service-insights/overview
