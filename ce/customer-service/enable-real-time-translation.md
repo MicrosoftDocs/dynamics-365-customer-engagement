@@ -1,7 +1,7 @@
 ---
 title: "Enable translation settings in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Steps for enabling language translation for customer chats in the Omnichannel for Customer Service app."
-ms.date: 02/11/2022
+ms.date: 04/04/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
