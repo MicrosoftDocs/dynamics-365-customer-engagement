@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.topic: article
-ms.date: 02/11/2022
+ms.date: 04/04/2022
 ms.custom: intro-internal
 searchScope:
 - D365-App-customerservice
@@ -101,7 +101,7 @@ You can manage queues on the **Queues** page, and perform operations such as sea
 
 To efficiently manage the work items, you can configure a fallback queue per workstream. You can set an existing queue as the fallback queue or create a fallback queue with the required settings when you are creating a workstream. For existing workstreams, you can configure the fallback queue on the workstream page. If you choose to create a queue, you'll need to add users. By default, the assignment method for the fallback queue is highest capacity.
 
-By default, the following queues are available. You can add and remove users from these queues.
+OUt of the box, the following queues are available. You can add and remove users from these queues.
 
 - **Default entity queue** for routing entity records.
 - **Default messaging queue** for routing all messaging conversations pertaining to live chat, SMS, Microsoft Teams, and social channels.

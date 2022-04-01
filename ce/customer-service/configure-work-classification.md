@@ -45,13 +45,13 @@ For a rule item, you can set the output values for up to five attributes.
 
 ## Create work classification rulesets
 
-Manual classification rules are run to update work item attributes. They are written in the format of "if defined condition satisfies, then set the output attributes to certain values." You can create conditions to define rules based on multiple entity attributes. Routing rules are written as rulesets that consist of rule items.
+Logical classification rules are run to update work item attributes. They are written in the format of "if defined condition satisfies, then set the output attributes to certain values." You can create conditions to define rules based on multiple entity attributes. Routing rules are written as rulesets that consist of rule items.
 
-To create a manual work classification ruleset, do the following steps:
+To create a logical work classification ruleset, do the following steps:
 
 1. In Customer Service admin center (preview), Omnichannel admin center, or Customer Service Hub, select a workstream, and in the **Routing rules** area, for the **Work classification (optional)** option, select **Create Ruleset**.
 
-2. On the **Work classification** page, select **Create new**, and in the **Create work classification ruleset** dialog, select **Rule Type** as **Manual**, and enter a name and description. By default, the root record is selected and displayed at the top of the condition builder for ease of reference and visibility of the record for which you are creating the rule.
+2. On the **Work classification** page, select **Create new**, and in the **Create work classification ruleset** dialog, select **Logical rules** in **Rule type**, and enter a name and description. By default, the root record is selected and displayed at the top of the condition builder for ease of reference and visibility of the record for which you are creating the rule.
 
 3. In the **Decision list** area, select **Create Rule**, and on the **Create work classification rule** dialog, enter a name.
 
@@ -63,11 +63,11 @@ To create a manual work classification ruleset, do the following steps:
 
 6. Repeat steps 3 through 5 to create the demand rules.
 
-   ![Decision list for manual ruleset.](media/ur-decision-list-manual.png "Decision list for manual ruleset")
+   ![Decision list for logical ruleset.](media/ur-decision-list-manual.png "Decision list for logical ruleset")
 
 ## Create manual skill classification rulesets
 
-Skill attachment rules are a sub-type of manual work classification rules and are defined to attach skills to the work item. They are written in the format of "if defined condition satisfies, then attach defined skills to the work item."
+Skill attachment rules are a sub-type of logical work classification rules and are defined to attach skills to the work item. They are written in the format of "if defined condition satisfies, then attach defined skills to the work item."
 
 Follow these steps to create a manual skill classification ruleset:
 
@@ -75,7 +75,7 @@ Follow these steps to create a manual skill classification ruleset:
 
 2. On the **Work classification** page, select **Create new**.
 
-3. In the **Create work classification ruleset** dialog, select  **Rule Type** as **Manual**, and enter a name and description.
+3. In the **Create work classification ruleset** dialog, select **Logical rule** in **Rule type**, and enter a name and description.
 
 4. Select **Create Rule**, and on the **Create work classification rule** dialog, enter a name.
 
