@@ -4,7 +4,7 @@ description: "Learn about managing session templates in Customer Service workspa
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 02/11/2022
+ms.date: 04/04/2022
 ms.topic: article
 ---
 
