@@ -29,7 +29,7 @@ The key highlights of the AI suggestions feature are as follows:
 - Enable admins to select the source data (text only) fields that the AI model will use; the default fields are **Title** and **Content**.
 
 > [!NOTE]
-> The AI suggestions feature is currently available only in specific geographical locations. More information: [Regional availability and service limits for Customer Service](cs-region-availability-service-limits.md)
+> The AI suggestions feature is currently available only in specific geographical locations. More information: [Regional availability and service limits for Customer Service](cs-region-availability-service-limits.md).
 
 ## How AI suggestions for article keywords and descriptions work
 
