@@ -37,15 +37,15 @@ Once you have the app and all components in the solution, export it as a managed
 
 In the organization where you need the app, import the solution that contains the app.  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install a managed solution](../developer/create-install-update-managed-solution.md#install-a-managed-solution), [Import an unmanaged solution](../developer/create-export-import-unmanaged-solution.md#import-an-unmanaged-solution) 
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install a managed solution](../developer/create-install-update-managed-solution.md#install-a-managed-solution)
   
 ## App access
 
- System administrators and customizers have access to these apps by default, and can give app access to specific security roles. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access to apps with security roles](../customize/manage-access-apps-security-roles.md)  
+ System administrators and customizers have access to these apps by default, and can grant app access to specific security roles. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access to apps with security roles](../customize/manage-access-apps-security-roles.md)  
   
 ## Delete (uninstall) a managed app  
 
-To delete an managed app, you must delete the managed solution that contains the app.
+To delete a managed app, you must delete the managed solution that contains the app.
 
 1. Go to **Settings** > **Solutions**.  
   
