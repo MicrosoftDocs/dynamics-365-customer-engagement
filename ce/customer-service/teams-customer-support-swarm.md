@@ -1,10 +1,27 @@
-
-
-
+---
+title: "Customer support swarming for agents | MicrosoftDocs"
+description: "Understand how customer support swarming to help resolve case issues more quickly in Dynamics 365 Customer Service."
+ms.date: 04/02/2022
+ms.topic: article
+author: lalexms
+ms.author: laalexan
+manager: shujoshi
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365CS
+ms.custom: 
+  - dyn365-customerservice
+---
 
 # Customer support swarming for agents
 
-When working on time-sensitive, complex customer issues, there are times when it's useful for you, as an agent, to be able to leverage the expertise of coworkers outside of your Dynamics 365 Customer Service teams. Typically, agents struggle with finding the right expert(s) and collaborating with them in a single shared space, where they have access to the required information necessary resolve an issue. Using the customer support swarming feature, you can effortlessly find the right set of experts to work with on a customer issue and collaborate with them directly from the your desktop.
+When working on time-sensitive, complex customer issues, there are times when it's useful for you, as an agent, to be able to leverage the expertise of coworkers outside of your Dynamics 365 Customer Service team. 
+
+Using the customer support swarming feature, you can effortlessly find the right set of experts to work with on a customer's issue and collaborate with those peers directly from your desktop.
 
 ## Start a swarm
 
@@ -29,8 +46,8 @@ To be able to create a swarm when working on a customer issue, you must have the
       - Suggests skills that have the light bulb icon
     You can also select up to 10 skills manually that you think are relative to the case. (Manually selected skills won't have the light bulb icon next to them.)
     
-    > [!Note]
-    > If neither the system or you designate any skills, you can still create the swarm but no experts will be added. In this scenario, we recommend asking your supervisor for help with identifying the appropriate skills to get expert support.
+        > [!Note]
+        > If neither the system or you designate any skills, you can still create the swarm but no experts will be added. In this scenario, we recommend asking your supervisor for help with identifying the appropriate skills to get expert support.
 
 1. Save and send your swarm invitation. A linked swarm chat is created, and the contacts configured by your administrator are automatically added to the chat.
 
