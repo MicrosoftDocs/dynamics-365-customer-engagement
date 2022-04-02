@@ -38,8 +38,8 @@ To be able to create a swarm when working on a customer issue, you must have the
    > If you don't see the **Create swarm** option, check the overflow actions. If you still don't see it, ask your administrator to assign access privileges for you.
 
 1.  On the **Intelligent case swarming (preview)** form, type information into the following fields:
-    - **What do you need help with**: Type a succinct question about what you want help with. The question will be used to find skills and experts to help you.
-    - **What are some things you have already tried** (optional, 500-character limit): Type the details about steps you've already taken to try to resolve the issue, and any results. These details help confirm that any required processes have been followed, and also provides immediate context for other swarm participants who are invited to collaborate on the issue.
+    - **What do you need help with?**: Type a succinct question about what you want help with. The question will be used to find skills and experts to help you.
+    - **What are some things you have already tried?** (optional, 500-character limit): Type the details about steps you've already taken to try to resolve the issue, and any results. These details help confirm that any required processes have been followed, and also provides immediate context for other swarm participants who are invited to collaborate on the issue.
     - **Request skills needed** (optional): As part of the swarm request, the system takes the following actions: 
       - Suggest skills base on case title or other case-related conditions your administrator has defined
       - Attempts to match skills based on your swarm question
@@ -66,7 +66,7 @@ To be able to create a swarm when working on a customer issue, you must have the
 
 ### How the invitation to experts works
 
-When you specify an expert to invite to your swarm, they're sent an automated invitation via an adaptive card. If they accept your invitation, they're attached to the swarm and their skills are indicated. If the expert declines the invitation, the system then looks for the next expert(s) that contain the needed skill(s).
+When you select an expert for your swarm, they're sent an automated invitation via an adaptive card. When they accept your invitation, they're attached to the swarm and their skills are indicated. If the expert declines the invitation, the system then looks for the next expert(s) that contain the needed skill(s).
 
 The swarm invitation shows the following information:
    - Inviting agent: The agent who initiated the swarm and invited the expert.
