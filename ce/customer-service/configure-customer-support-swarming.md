@@ -11,7 +11,7 @@ manager: shujoshi
 
 # Configure intelligent swarming for complex cases
 
-As an administrator, you can help transform your organization into a unified customer service team by configuring your applications so that agents and subject matter experts can "swarm" together when resolving complext cases, including using Customer Service workspace and Microsoft Teams.
+As an administrator, you can help transform your organization into a unified customer service team by configuring your applications so that agents and subject matter experts can "swarm" together when resolving complex cases, including using Customer Service workspace and Microsoft Teams.
 
 Some of the key benefits of intelligent swarming include:
 
