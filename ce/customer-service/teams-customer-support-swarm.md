@@ -17,7 +17,7 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Customer support swarming for agents
+# Use customer support swarming
 
 When working on time-sensitive, complex customer issues, there are times when it's useful for you, as an agent, to be able to leverage the expertise of coworkers outside of your Dynamics 365 Customer Service team. 
 
@@ -104,6 +104,6 @@ To view a list of swarms, go to **Swarms** on the site map. The following views 
 
 ### See also
 
-[Configure Teams customer support swarming](teams-configure-customer-support-swarm.md)<br>
+[Configure Teams customer support swarming](teams-configure-customer-support-swarming.md)<br>
 [Configure Teams chat](configure-teams-chat.md)<br>
 [Use Teams chat](use-teams-chat.md)
