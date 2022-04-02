@@ -1,15 +1,24 @@
 ---
 title: "Configure intelligent swarming for complex cases | MicrosoftDocs"
 description: "This topic provides steps to configure intelligent swarming for cases in Dynamics 365 Customer Service and Microsoft Teams."
-ms.date: 02/25/2022
+ms.date: 04/02/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365CS
+ms.custom: 
+  - dyn365-customerservice
 ---
 
 
-# Configure intelligent swarming for complex cases
+# Configure customer support swarming for complex cases
 
 As an administrator, you can help transform your organization into a unified customer service team by configuring your applications so that agents and subject matter experts can "swarm" together when resolving complex cases, including using Customer Service workspace and Microsoft Teams.
 
