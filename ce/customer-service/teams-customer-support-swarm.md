@@ -19,7 +19,7 @@ ms.custom:
 
 # Use customer support swarming
 
-When working on time-sensitive, complex customer issues, there are times when it's useful for you, as an agent, to be able to leverage the expertise of coworkers outside of your Dynamics 365 Customer Service team. 
+When you work on time-sensitive, complex customer issues, there are times when it's useful to apply the expertise of coworkers outside of your Dynamics 365 Customer Service team. 
 
 Using the customer support swarming feature, you can effortlessly find the right set of experts to work with on a customer's issue and collaborate with those peers directly from your desktop.
 
@@ -40,7 +40,7 @@ To be able to create a swarm when working on a customer issue, you must have the
 1.  On the **Intelligent case swarming (preview)** form, type information into the following fields:
     - **What do you need help with**: Type a succinct question about what you want help with. The question will be used to find skills and experts to help you.
     - **What are some things you have already tried** (optional, 500-character limit): Type the details about steps you've already taken to try to resolve the issue, and any results. These details help confirm that any required processes have been followed, and also provides immediate context for other swarm participants who are invited to collaborate on the issue.
-    - **Request skills needed** (optional): As part of the swarm request, the system does the following: 
+    - **Request skills needed** (optional): As part of the swarm request, the system takes the following actions: 
       - Suggest skills base on case title or other case-related conditions your administrator has defined
       - Attempts to match skills based on your swarm question
       - Suggests skills that have the light bulb icon
@@ -56,17 +56,17 @@ To be able to create a swarm when working on a customer issue, you must have the
    
    The following actions and views occur:
    - The system finds the minimum set of experts needed to cover as many of the skills suggested or that you added as possible.
-   - A participants section opens, where you can see the number of experts that have been invited to your swarm who match a particular number of skills.
+   - A participants section opens, where you can see the number of experts invited to your swarm who match a particular number of skills.
    - You can view the names of skills not matched to an expert. If a skill is unmatched, you can work with your supervisor to find experts who match the skill.
    - You can view names of contacts who are automatically added to the swarm chat.
-   - When an invited experts accepts the swarm invitation, they are automatically added to the swarm chat.
+   - When an invited expert accepts the swarm invitation, they're automatically added to the swarm chat.
    - If you select **Edit**, existing saved skills remain. If you edit the swarm request, then the following actions occur:
      - The system will search for skills to account for the newest information, and will append skills found to the existing ones.
      - Invited experts and experts who are already in the swarm remain.
 
 ### How the invitation to experts works
 
-When you specify an expert you want to invite to your swarm, they're sent an automated invitation via an adaptive card. If they accept your invitation, they're attached to the swarm and their skills are indicated. If the expert declines the invitation, the system then looks for the next expert(s) that contain the needed skill(s).
+When you specify an expert to invite to your swarm, they're sent an automated invitation via an adaptive card. If they accept your invitation, they're attached to the swarm and their skills are indicated. If the expert declines the invitation, the system then looks for the next expert(s) that contain the needed skill(s).
 
 The swarm invitation shows the following information:
    - Inviting agent: The agent who initiated the swarm and invited the expert.
@@ -75,7 +75,7 @@ The swarm invitation shows the following information:
    - Expert skills: The required skills the expert has for the swarm.
    - Accept and reject: Options for the expert to either join or decline the swarm. If an expert declines an invitation and then later decides they want to join, they can participate by asking you to add them manually. They won't be able to view the swarm form from the group chat.
  
-When an expert joins a group chat, they'll see a read-only version of the **Swarm details** form added as a tab. The right-side pane displays the associated case details, with a section that shows the agent's swarm request and a summary of what the agent has tried to do to resolve the issue.
+When an expert joins a group chat, they'll see a read-only version of the **Swarm details** form added as a tab. The right-side pane displays the associated case details. There's a section that shows the agent's swarm request and a summary of what the agent has tried to do to resolve the issue.
 
 Experts who join a swarm can see all participants in the swarm and the skills they have that resulted in their invitation to the swarm.
 
@@ -104,6 +104,6 @@ To view a list of swarms, go to **Swarms** on the site map. The following views 
 
 ### See also
 
-[Configure Teams customer support swarming](teams-configure-customer-support-swarming.md)<br>
+[Configure Teams customer support swarming](configure-customer-support-swarming.md)<br>
 [Configure Teams chat](configure-teams-chat.md)<br>
 [Use Teams chat](use-teams-chat.md)
