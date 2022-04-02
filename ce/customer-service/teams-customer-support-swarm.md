@@ -1,6 +1,6 @@
 ---
 title: "Customer support swarming for agents | MicrosoftDocs"
-description: "Understand how customer support swarming to help resolve case issues more quickly in Dynamics 365 Customer Service."
+description: "Learn how to use customer support swarming to help resolve case issues more quickly in Dynamics 365 Customer Service."
 ms.date: 04/02/2022
 ms.topic: article
 author: lalexms
