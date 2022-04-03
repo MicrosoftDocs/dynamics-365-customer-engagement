@@ -275,12 +275,12 @@ To retrain a model automatically, go to the predictive opportunity scoring confi
     >- Date and time related attributes
     >- System generated attributes (such as, opportunityscore, opportunitygrade, version number, entity image, exchange rate, and predictive score ID)
 
-3. If you've enabled the per stage modeling support, you'll see two additional columns - **Application stages** and **Prediction influence**:
-        :::image type="content" source="media/per-stage-modelling-selection.png" alt-text="Screenshot of the edit fields page with the **Application stages** and **Prediction influence** columns.":::
+3. If you've enabled per stage modeling support, you'll see two additional columns: **Application stages** and **Prediction influence**.
+        :::image type="content" source="media/per-stage-modelling-selection.png" alt-text="Screenshot of the edit fields page with the Application stages and Prediction influence columns.":::
 
 
-    1. In the **Application stages** field, select the stages for which the model should use the attribute. For example, the Actual Revenue attribute will have more influence during the Close stage rather than the initial stages. 
-    2. Use the information in the **Prediction influence** column to understand the influence of the attribute at each stage. Prediction influence is calculated based on historical data and ranges from very low to  very high. For example, let's say that you don't want to consider Budget Amount for Develop stage but as per historical data it has a high influence. In this case, you may want to reconsider your decision or analyze why it has a high influence.  
+    1. In the **Application stages** field, select the stages for which the model should use the attribute. For example, the Actual Revenue attribute will have more influence during the Close stage rather than initial stages. 
+    2. Use the information in the **Prediction influence** column to understand the influence of the attribute at each stage. Prediction influence is calculated based on historical data and ranges from very low to very high. For example, let's say that you don't want to consider Budget Amount for Develop stage, but historical data shows that it has a high influence. In this case, you might want to reconsider your decision or analyze why it has such high influence.  
 
 3. Select **Retrain model**.
 
