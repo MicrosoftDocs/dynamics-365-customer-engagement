@@ -48,7 +48,7 @@ The app is automatically installed in all the Customer service organizations. Yo
 
 > [!NOTE]
 >
-> - Quick setup is in preview, therefore, we recommend that you don't use it in production. Use it only in test and development environments.
+> - Quick setup is in preview; therefore, we recommend that you don't use it in production. Use it only in test and development environments.
 > - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
 You can use the quick setup wizard to configure a channel, such as for routing cases. The wizard helps you create the channel, configure users and permissions, and set up routing rules to get you started with handling customer issues with minimal setup.
