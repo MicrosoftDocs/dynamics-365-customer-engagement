@@ -1,4 +1,13 @@
 
+## 3.12.74.1
+
+(Includes Resource Scheduling controls version 1.2.15.220774).
+
+- Fixed bug: Resource utilization expand and collapse on the new schedule board.
+- Fixed bug: `msdyn_SearchResourceAvailability` returned inaccurate time slot type. 
+- Improved daylight saving time to avoid invalid date and time errors. 
+
+
 ## 3.12.73.25
 
 (Includes Resource Scheduling controls version 1.2.14.220634)
