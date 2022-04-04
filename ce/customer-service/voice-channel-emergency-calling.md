@@ -25,12 +25,15 @@ You must ensure the following conditions are met for emergency calling to work p
 
 ## How emergency calling works
 
-In Omnichannel for Customer Service, agents can use the dialer to call the emergency number during a crisis. When the agent dials the emergency number, a temporary callback number is assigned to the agent for a duration of 60 minutes. 
-The emergency responder can call back the agent via the callback number if the emergency call is dropped or gets disconnected. The emergency callback gets the highest priority, directly bypassing any routing rules, capacity profiles, and presence settings (including the "Do not disturb" status). During the call, the agent status is automatically changed to "Do not disturb".
+In Omnichannel for Customer Service, agents can use the dialer to call the emergency number during a crisis. 
 
-During the ongoing emergency conversation, the **Omnichannel Ongoing Conversations** dashboard displays the device settings and the **End call** button only. To ensure confidentiality, the outgoing and incoming emergency calls are not recorded and not stored as activities in call history. 
-
-When the agent ends the emergency call, the agent presence is reset to the prior status.
+Here's how emergency calling works:
+1. The agent calls the emergency number such as 911 in the US or Puerto Rico.
+1. The agent status automatically changes to "Do not disturb", irrespective of the current status.
+1. A temporary callback number is assigned to the agent for a duration of 60 minutes. 
+1. If the emergency call is dropped or gets disconnected, then the emergency responder can call back the agent via this callback number. The emergency callback gets the highest priority, bypassing all configured routing rules, capacity profiles, and presence settings.
+1. During the ongoing emergency conversation, the **Omnichannel Ongoing Conversations** dashboard displays the device settings and the **End call** button only. To ensure confidentiality, the outgoing and incoming emergency calls are not recorded and are not stored as activities in call history. 
+1. When the agent ends the emergency call, the agent presence is reset to the prior status.
 
 ### See also
 
