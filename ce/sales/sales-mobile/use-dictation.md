@@ -172,7 +172,7 @@ The following languages are supported by the dictation capability in the mobile 
 |     Thai                  |     Thailand                        |
 |     Turkish               |     Turkey                          |
 |     Vietnamese            |     Vietnam                         |
-|||
+
 
 ### See also
 
