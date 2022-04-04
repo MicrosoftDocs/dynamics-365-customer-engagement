@@ -11,7 +11,7 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../../../includes/cc-use-with-omnichannel.md)]
 
-Here are the error codes and error messages that are returned by the live chat SDK JavaScript API methods.
+Here are the error codes and error messages that are returned by the live chat SDK methods.
 
 |Error code|Error message|
 |-----|-----|
