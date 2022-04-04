@@ -1,7 +1,7 @@
 ---
 title: "Microsoft.CIFramework (JavaScript API Reference) for Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Includes reference information about the Microsoft.CIFramework JavaScript API Reference for Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 04/01/2022
+ms.date: 04/04/2022
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -115,6 +115,6 @@ Use the following APIs to indicate a KPI breach and to update the number of new 
 ### See also
 
 [What's new in Dynamics 365 Channel Integration Framework](../../whats-new-channel-integration-framework.md)  
-[System requirements of Dynamics 365 Channel Integration Framework](../../system-requirements-channel-integration-framework.md)  
+[System requirements for Dynamics 365 Channel Integration Framework](../../system-requirements-channel-integration-framework.md)  
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

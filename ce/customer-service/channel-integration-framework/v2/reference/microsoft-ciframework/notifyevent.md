@@ -1,7 +1,7 @@
 ---
 title: "notifyEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
 description: "Get reference information such as syntax and parameters for the notifyEvent (JavaScript API Reference) in Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 04/01/2022
+ms.date: 04/04/2022
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
