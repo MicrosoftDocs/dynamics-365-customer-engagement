@@ -10,14 +10,6 @@ manager: shujoshi
 
 # FAQs about Customer Service admin center
 
-> [!IMPORTANT]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-
 ## Overview
 
 This topic contains the frequently asked questions (FAQs) that you as an administrator might have about the Customer Service admin center app.
