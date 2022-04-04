@@ -1,7 +1,7 @@
 ---
 title: Learn how search works for knowledge management in Dynamics 365 Customer Service | Microsoft Docs
 description: Use knowledge article search mechanisms in Customer Service Hub.
-ms.date: 04/01/2022
+ms.date: 04/04/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
