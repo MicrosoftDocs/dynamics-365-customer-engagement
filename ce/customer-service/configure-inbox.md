@@ -1,7 +1,7 @@
 ---
 title: Configure the inbox | MicrosoftDocs
 description: Learn how to enable the inbox in Dynamics 365 Customer Service App profile manager and configure inbox settings in Customer Service admin center.
-ms.date: 04/02/2022
+ms.date: 04/04/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -52,23 +52,23 @@ You can configure the inbox in the [Customer Service admin center](/app-profile-
 
 1. You can either modify an existing view or create a new one by selecting **Edit**.
    The following fields can be configured:
-   - **Name:** The name of the view that will show in  the inbox. Alphanumeric values are valid names.
-   - **Record Type:** The records that currently available for inbox configuration. Select or deselect to show or hide the status of these items:
-   - **Chat Status**
+   - **Name:** Specify a name that will show in the inbox. Alphanumeric values are valid names.
+   - **Record Type:** Select the record types for which the settings need to be applied. You can select more than one record type.
+   - **Chat Status**: Is available if you select the record type as chat. Select one or more of the following settings:
      -  **Assigned**
      -  **Unassigned**
      -  **Resolved**
-   - **Email**:
+   - **Email**: Is available if you select the record type as Email. Select all the options that you want to enable.
      - Assigned to me:
        - Emails sent to me
        - Emails assigned to me
      - Unassigned
        - Emails in my team
        - Emails in my queue(s)
-       - Emails in a shred mailbox.
-    - **Agent Visibility**
-      - **Show**: Makes this view available to the users in Inbox.
-      - **Hide**: This view won't show in the user's Inbox.
+       - Emails in a shared mailbox.
+    - **Agent Visibility**: Select one of the following options to show or hide the view to agents:
+      - **Show**
+      - **Hide**
 
 ## Enable the inbox in App profile manager
 
