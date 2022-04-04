@@ -16,7 +16,10 @@ Sales teams in organizations must focus on high-velocity selling. The sellers wh
 
 To overcome this challenge, the Sales accelerator in Dynamics 365 provides a tailored experience for sellers by minimizing the time they spend on their search for the best next customer to reach out to. The Sales accelerator gathers information from multiple sources and lets sellers focus on how to best approach their customers. It helps sellers to sell smartly, by building a strong and prioritized pipeline, offering context, and surfacing automated recommendations throughout a sales sequence that helps to speed the sales process.
 
-By default, sales accelerator is enabled in the Sales Hub app with limited functionalities. Your Sales teams can view the work list items created through timeline. To experience the full capabilities of sales accelerator, purchase the Sales Premium license and configure the features such as sequences and segments.
+By default, sales accelerator is enabled in the Sales Hub app with limited functionalities. Sales teams can view their work list items created through timeline that are due and can perform search, filter, and sort on the list. To experience the full capabilities of sales accelerator, contact your administrator to configure the sales accelerator workspace. More information: [Enable and configure Sales accelerator](enable-configure-sales-accelerator.md).
+
+>[!NOTE]
+>The following features aren't available with the default sales accelerator    
 
 By using the Sales accelerator:
 
