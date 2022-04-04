@@ -1,7 +1,7 @@
 ---
 title: "Connect to an existing Azure resource | MicrosoftDocs"
 description: "Use this article to understand how to connect to Azure Communication Services using an existing Azure resource."
-ms.date: 03/10/2022
+ms.date: 04/04/2022
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: neeranelli
@@ -35,10 +35,7 @@ Before you connect an existing resource to Azure Communication Services, you mus
 ## Connect to an existing Azure resource
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-   > [!IMPORTANT]
-   > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
     1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
     

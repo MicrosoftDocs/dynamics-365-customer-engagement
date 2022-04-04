@@ -1,7 +1,7 @@
 ---
 title: "Enable self-service settings | MicrosoftDocs"
 description: "Enable self service in the Omnichannel Administration app."
-ms.date: 02/11/2022
+ms.date: 04/04/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -24,16 +24,13 @@ Enabling the self-service feature is a two-step process as follows:
 
 ## Enable self service
 
-You can enable the self service feature in the Customer Service admin center (preview) or Omnichannel admin center app.
+You can enable the self service feature in the Customer Service admin center or Omnichannel admin center app.
 
 1. Add the code snippet in the customer self-service portal.
 
 1. Go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
      1. In the site map, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
      1. In the **Self service** section, select **Manage**.

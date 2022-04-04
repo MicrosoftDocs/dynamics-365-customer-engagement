@@ -4,7 +4,7 @@ description: "Learn how to set up a multilanguage contact center in the voice ch
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 02/18/2022
+ms.date: 04/04/2022
 ms.topic: article
 
 ---
@@ -27,7 +27,7 @@ You can configure a phone number in a workstream that allows the customer to cho
    
 ## Add a phone number to the workstream and configure language settings
 
-1. In Customer Service admin center (preview) or Omnichannel admin center, go to the voice workstreams, and then select the workstream to configure the phone number.
+1. In Customer Service admin center or Omnichannel admin center, go to the voice workstreams, and then select the workstream to configure the phone number.
 
 1. Select **Edit** next to the pencil icon, and then on the **Voice settings** page, select the number to add to the workstream, and then select **Next**.
 
