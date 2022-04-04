@@ -39,10 +39,6 @@ The sales accelerator is an engagement platform that helps a sales team understa
 
 Enable the sales accelerator by quickly providing access to security roles and selecting the record types to be shown in the work list.
 
-1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** ![change area.](media/change-area-icon.png) > **Sales Insights settings**.
-
-2. Under **Sales accelerator**, select **Workspace**.
-
 >[!NOTE]
 >- By default, sales accelerator is enabled in the Sales Hub app with limited functionalities. Your Sales teams can view the work list items created through timeline. To experience the full capabilities of sales accelerator, purchase the Sales Premium license and configure the features such as sequences and segments. 
 >- To disable the sales accelerator, go to [Disable sales accelerator](#disable-sales-accelerator). 
