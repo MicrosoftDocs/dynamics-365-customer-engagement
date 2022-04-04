@@ -18,20 +18,24 @@ ms.custom:
 
 # Configure the inbox
 
-As an administrator, you can configure the inbox setting so that when your agents open Dynamics 365 Customer Service workspace or Omnichannel for Customer Service, they can select the inbox icon to show all of the cases and conversations that are assigned to them. The inbox is designed to help agents efficiently work on high velocity tasks, as well as promote inbox sessions to regular sessions when they need more time to resolve cases and complete their conversations.
+As an administrator, you can configure the inbox setting so that when your agents open Customer Service workspace or Omnichannel for Customer Service, they can select the inbox icon to show all the cases and conversations that are assigned to them. The inbox is designed to help agents efficiently work on high velocity tasks, and promote inbox sessions to regular sessions when they need more time to resolve cases and complete their conversations.
 
-The following asynchronized channels are available in the conversation inbox: SMS, persistent chat, Facebook, Twitter, WeChat, LINE, WhatsApp, and Teams.
+You can configure the inbox settings for custom experiences only.
 
-## Enable the inbox setting in App profile manager
+The following asynchronized channels are available in the conversation inbox.
 
-As an administrator, you can enable the inbox in App profile manager. After you enable the inbox for a profile, any user who is added to the profile can use the inbox. More information: [Configure the inbox view in App profile manager.](/dynamics365/app-profile-manager/app-profile-manager#configure-the-inbox-view)
+- SMS
+- Persistent chat
+- Facebook
+- Twitter
+- WeChat
+- LINE
+- WhatsApp
+- Teams
 
-> [!Note]
-> To configure the properties of the inbox, you must create a custom profile. Default profiles cannot be edited, and will show a lock icon next to them.
+## Configure the inbox setting for agents
 
-## Edit the custom app profile inbox settings
-
-You can configure the inbox in the [Customer Service admin center](/app-profile-manager/app-profile-manager#create-agent-experience-profiles-in-customer-service-admin-center-preview) by editing the custom app profile to meet your preferred inbox settings.
+You can configure the inbox in the [Customer Service admin center](/app-profile-manager/app-profile-manager#create-agent-experience-profiles-in-customer-service-admin-center-preview) by editing the agent experience profile to meet your preferred inbox settings.
 
 1. Open the Customer Service admin center app.
 
@@ -42,9 +46,12 @@ You can configure the inbox in the [Customer Service admin center](/app-profile-
 1. Select the profile for which you want to configure the inbox.
 
    > [!Note]
-   > Channel providers must have **All active channels** set to **On** in order to use and configure the chat setting in the inbox.
+   > Channel providers must have **All active channels** set to **On** to use and configure the chat setting in the inbox.
 
-1. You can either modify an existing view or create a new one. The following fields can be configured:
+1. In **Inbox**, select the **Settings** icon, and then toggle **Inbox** to on.
+
+1. You can either modify an existing view or create a new one by selecting **Edit**.
+   The following fields can be configured:
    - **Name:** The name of the view that will show in  the inbox. Alphanumeric values are valid names.
    - **Record Type:** The records that currently available for inbox configuration. Select or deselect to show or hide the status of these items:
    - **Chat Status**
@@ -60,29 +67,27 @@ You can configure the inbox in the [Customer Service admin center](/app-profile-
        - Emails in my queue(s)
        - Emails in a shred mailbox.
     - **Agent Visibility**
-      - **Show**: Makes this view available to the user's in Inbox.
-      - **Hide**: this view will not show in the user's Inbox
+      - **Show**: Makes this view available to the users in Inbox.
+      - **Hide**: This view won't show in the user's Inbox.
 
-### Inbox views
+## Enable the inbox in App profile manager
+
+After you enable the inbox for a profile, any user who is added to the profile can use the inbox. More information: [Configure the inbox view in App profile manager.](/dynamics365/app-profile-manager/app-profile-manager#configure-the-inbox-view)
+
+## Inbox views
 
 The following views are supported in the inbox:
 
 - **Cases**: Shows all cases that are owned by the user, including active and resolved cases.
-- **Assigned Conversation(s)**: Shows all conversations that have been assigned to the user, including active and closed conversations.
-- **Resolved Conversation(s)**: Shows all conversations that have been marked as closed, and where the user was the primary agent in the conversation.
-- **Unassigned Conversation(s)**: Shows all active conversations and emails in a team or queue in which the user is a member. The user is able to assign conversations to themselves and reply to emails directly from this view.
+- **Assigned Conversations**: Shows all conversations that have been assigned to the user, including active and closed conversations.
+- **Resolved Conversations**: Shows all conversations that have been marked as closed, and where the user was the primary agent in the conversation.
+- **Unassigned Conversations**: Shows all active conversations and emails in a team or queue in which the user is a member. The user is able to assign conversations to themselves and reply to emails directly from this view.
 
-Inbox views refresh every five minutes. To manually refresh the view, you can select the **Refresh** icon at the top of the inbox.
+Inbox views are refreshed every five minutes. Agents can manually refresh the view by using the **Refresh** icon.
 
-## Real Time Translation
-For information about how to configure Real Time Translation (RTT) for conversations in the inbox, see [Enable real-time translation of conversations](enable-real-time-translation.md)
+## Real-time translation
+For information about how to configure real-time translation for conversations in the inbox, see [Enable real-time translation of conversations](enable-real-time-translation.md)
 
-## Known issues
-The following items are known issues with the inbox.
-
-- Live Chat and Live Call won't show as part of the inbox, and will open as sessions.
-- Asynchronous channels, such as Facebook, Teams, Twitter, and so forth, and those configured as persistent chat, will open within the inbox.
-- Real Time Translation (RTT): Prior to the open conversation being assigned to a user, the last message will not be translated in the inbox.
 
 ### See also
 
