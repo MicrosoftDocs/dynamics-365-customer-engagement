@@ -8,9 +8,7 @@ ms.author: mgandham
 manager: shujoshi
 ---
 
-# Share feedback for Customer Service (Preview)
-
-[!INCLUDE [cc-early-access-disclaimer](../includes/cc-early-access.md)]
+# Share feedback for Customer Service
 
 ## Introduction
 
