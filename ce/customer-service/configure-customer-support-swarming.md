@@ -80,7 +80,7 @@ In Dynamics 365, go to one of the apps, and perform the following steps.
    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
      
    1. In the site map, select **Collaboration** in **Experiences**.
-   2. On the **Embedded chat using Teams** page, toggle on **Turn on Microsoft Teams chats inside Dynamics 365 (preview).
+   2. On the **Embedded chat using Teams** page, toggle on **Turn on Microsoft Teams chats inside Dynamics 365 (preview)**.
 
  ### [Customer Service Hub](#tab/customerservicehub)
     
