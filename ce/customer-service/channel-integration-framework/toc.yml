@@ -283,7 +283,7 @@
         - name: "onSessionClosed"
           href: v2/reference/events/onSessionClosed.md
         - name: "onPresenceChange"
-          href: /v2/reference/events/onPresenceChange.md
+          href: v2/reference/events/onPresenceChange.md
       - name: Entity reference
         items:
         - name: "msdyn_appconfiguration"
