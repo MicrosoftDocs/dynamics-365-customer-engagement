@@ -42,7 +42,7 @@ Go to the Customer Service admin center or Customer Service Hub app, and perform
 1. On the **Knowledge** page, in the **Record Types** section, select **Manage**.
 1. On the **Record Types** page, select **Add**. The **Add record type** dialog appears.
 1. On the **Add record type** dialog, from the **Select record type** dropdown list, select the record type.
-1.	Click **Save and Close**.
+1.	Select **Save and Close**.
 
 ### [Customer Service Hub](#tab/customerservicehub)
 
@@ -57,16 +57,16 @@ After you have enabled a record type, to set up knowledge base search control on
 To set up knowledge search control on the app side pane, see [Configure knowledge search control on the app side pane](#configure-knowledge-search-control-on-app-side-pane).
 
 
-## Configure knowledge search control on the app side pane
+## Configure knowledge search control on the app side pane<a name="configure-knowledge-search-control-on-app-side-pane"></a>
 
-After you have added the record types for which you want to turn on knowledge management, you can configure the knowledge search control on the app side pane by editing the record type. The app side pane is available only in Customer Service workspace and Omnichannel for Customer Service. For more information on how to set up an app side pane, see [Configure productivity pane](../app-profile-manager/app-profile-manager.md#assign-templates-configure-productivity-pane-channels).
+After you've added the record types for which you want to turn on knowledge management, you can configure the knowledge search control on the app side pane by editing the record type. The app side pane is available only in Customer Service workspace and Omnichannel for Customer Service. For more information on how to set up an app side pane, go to [Configure productivity pane](../app-profile-manager/app-profile-manager.md#assign-templates-configure-productivity-pane-channels).
 
 > [!NOTE]
-> You can configure the knowledge settings for record types from the Customer Service admin center app only. You will also be able to view and edit the record types that you have previously enabled in Customer Service Hub.
+> You can configure the knowledge settings for record types from the Customer Service admin center app only. You'll also be able to view and edit the record types that you've previously enabled in Customer Service Hub.
 
 To edit an entity record:
 
-1. In Customer Service admin center, on the **Record Types** page, select the entity you want to edit.
+1. In the Customer Service admin center, on the **Record Types** page, select the entity you want to edit.
 1. Select **Edit**. The **Knowledge settings** dialog appears.
 1. In **Automatic search**:
     - Set the **Turn on automatic search** toggle to **Yes**, if you want automatic search to be enabled for your entity record.
@@ -78,7 +78,7 @@ To edit an entity record:
     * **Link article and send article content**
 7.	In **Email recipient**, from the **Select default email recipient** dropdown list, select the email recipient.
     The **Email recipient** option is available only to the Customer or Lookup attribute type, and to the Account or Contact lookup entity.
-8.	Click **Save and Close**.
+8.	Select **Save and Close**.
   
     :::image type="content" source="media/edit-ent-record.png" alt-text="edit an existing entity record":::
 
