@@ -2,7 +2,6 @@
 title: "Create a segment-based journey (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create a real-time marketing segment-based journey in Dynamics 365 Marketing."
 ms.date: 08/02/2021
-
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

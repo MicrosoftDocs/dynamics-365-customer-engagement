@@ -226,38 +226,9 @@ To add the **Up next** widget to a managed entity form, follow these steps:
 17.	Publish all customizations.    
 18.	Verify that the **Up next** Widget successfully shows up on the form.
 
-### How to add work list site map to your custom app    
+### How to add sales accelerator site map to your custom app    
 
->[!NOTE]
->Enable sales insights in your organization before you add the site map to your custom app.     
-
-To add the work list site map to your custom app, follow these steps:     
-1. Open your custom app in the app designer. In the following example, the custom app **Sales SandBox** is opened.   
-    > [!div class="mx-imgBorder"]
-    > ![Open app designer](media/faq-sa-open-app-designer.png "Open app designer")     
-2. Open the site map designer. Select the pencil icon corresponding to the **Site Map** section.     
-    > [!div class="mx-imgBorder"]
-    > ![Open site map designer](media/faq-sa-open-site-map-designer.png "Open site map designer")     
-3. Select the area in which you want to add the work list entry and then select **+ Add** > **Subarea**.    
-    > [!div class="mx-imgBorder"]
-    > ![Add subarea to an area](media/faq-sa-select-sub-area.png "Add subarea to an area")      
-    In the following example, subarea entry is added to the **Sales** area under **Sales records**.     
-    > [!div class="mx-imgBorder"]
-    > ![Subarea entry is added](media/faq-sa-subarea-entry-added.png "Subarea entry is added")      
-4. Select **New Subarea** and go to the **Properties** tab.
-    > [!div class="mx-imgBorder"]
-    > ![Subarea properties tab](media/faq-sa-subarea-properties.png "Subarea properties tab")       
-5. In the subarea properties, enter the following values:     
-    - Choose **Type** as **URL**.
-    - Enter the **URL** value as `/main.aspx?pagetype=control&controlName=MscrmControls.AcceleratedSales.AnchorShellControl`.
-    - Enter the **Title (1033)** for the entry. For example, **Sales accelerator**.
-    - Select the **Icon** to use in the sitemap. For example, use default icon **salesacceleration.svg**. 
-    - Enter the **ID** field enter a unique ID value. For example, **SalesAccelerationInstance**.    
-        > [!div class="mx-imgBorder"]
-        > ![Subarea properties tab with values](media/faq-sa-subarea-properties-values.png "Subarea properties tab with values")       
-6. (Optional) To show or hide the section only to enabled users, go to **Advanced** and then select **Privileges**. In the **Entity** dropdown list, select **Work Queue record**.     
-7. Save and publish the sitemap.
-    The work list site map entry is added to your custom app.
+Use the site map designer from the app designer to add the sales accelerator site map to your custom app. More information: [Add the sales accelerator site map entry to custom app](add-sales-accelerator-sitemap-entry-custom-app.md).
 
 ## Relationship analytics and health   
     
@@ -265,7 +236,20 @@ To add the work list site map to your custom app, follow these steps:
 KPIs are updated every 24 hours, potentially fewer.​  
 
 ### What are the signals in relationship health?​
-Relationship health looks at activity, recency, engagement, and sentiment of activities between sellers and customers.​   
+Relationship health looks at activity, recency, engagement, and sentiment of activities between sellers and customers.​ 
+
+### Is the Office 365 consent mandatory for the Relationship Intelligence feature to work?
+ 
+No, it’s not mandatory. You’ll get the basic relationship analytics and health score based on the data in Dynamics 365. When you provide the consent in Office 365 to use the Exchange data, you’ll get more accurate and complete relationship information. 
+
+### What happens If I select Exchange checkbox but the Office 365 admin hasn’t provided the consent?
+
+The data from Exchange will not be collected until the consent is provided. Work with your Office 365 administrator to get the consent. More information: [Provide consent for collecting data from Office 365](provide-consent-office365.md).
+
+###  I see that the Exchange checkbox is selected though I hadn't selected it or provided the required consent for it in the past.
+
+With the recent changes to the relationship intelligence feature, the Exchange checkbox is selected by default for all the existing customers. However, no data will be collected from Exchange until your Office 365 administrator provides consent. You can clear the checkbox if you aren’t planning to integrate with Exchange. 
+  
 
 ### Can I influence the relationship health score?​   
 An administrator can influence the relationship health score by changing the weight of activity types and the expected level of communications with customers.

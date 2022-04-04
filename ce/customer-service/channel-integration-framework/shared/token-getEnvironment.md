@@ -4,10 +4,10 @@
 
 ## Parameters
 
-| Name            | Type    | Required | Description |
-|-----------------|----------|---------|-------------|
-| successCallback | Function | No      | A function to call when the request for environment details are successful |
-| errorCallback   | Function | No      | A function to call when the request for the environment fails              |
+| Name            | Type     | Required | Description |
+|-----------------|----------|----------|-------------|
+| successCallback | Function | No       | A function to call when the request for environment details is successful |
+| errorCallback   | Function | No       | A function to call when the request for the environment fails              |
 
 ## Return value
 

@@ -2,8 +2,7 @@
 title: Configure server-based authentication with Customer Engagement (on-premises) and SharePoint
 description: "Configure server-based authentication with Customer Engagement (on-premises) and SharePoint on-premises."
 ms:assetid: 26cad581-33b0-4025-9964-d289363c4245
-ms.date: 12/16/2021
-
+ms.date: 03/22/2022
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -51,6 +50,8 @@ Before you configure Customer Engagement (on-premises) and SharePoint On-Premise
 ## SharePoint prerequisites
 
   - One of the following SharePoint versions:
+  
+      - Sharepoint Service Subscription edition.
 
       - SharePoint 2019 On-Premises.
 

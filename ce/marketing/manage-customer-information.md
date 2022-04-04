@@ -2,7 +2,6 @@
 title: "Work with contact, account, and lead records (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to find, create and use contact, account, and lead records in Dynamics 365 Marketing."
 ms.date: 10/11/2021
-
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -24,7 +23,7 @@ Three of the most important and common types of database records are contacts, a
 
 <a name="contacts"></a>
 
-## Use contacts to manage customer people
+## Use contacts to manage customers
 
 Contacts represent individual people. They are the primary customer entity in Dynamics 365 Marketing. When you run a customer journey, your target segment will include only contact records. And when you create a lead, you will also set a parent contact for that lead (or set a parent account, which itself relates to contacts). Other Dynamics 365 apps might treat these entities somewhat differently, instead focusing more on accounts or using leads that aren't related to any contact.
 
