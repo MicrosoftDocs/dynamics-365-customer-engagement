@@ -212,9 +212,9 @@
         - name: "Presence APIs"
           items:
           - name: "getPresence"
-            href: /v2/reference/microsoft-ciframework/getPresence.md
+            href: v2/reference/microsoft-ciframework/getPresence.md
           - name: "setPresence"
-            href: /v2/reference/microsoft-ciframework/setPresence.md             
+            href: v2/reference/microsoft-ciframework/setPresence.md             
         - name: "Notification management APIs"
           items:
           - name: "notifyEvent"
