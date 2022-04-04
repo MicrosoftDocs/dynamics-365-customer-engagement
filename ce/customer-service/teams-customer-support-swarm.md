@@ -32,19 +32,19 @@ To be able to create a swarm when working on a customer issue, you must have the
 - Swarming privileges
 - Embedded Microsoft Teams chat enabled for the agent desktop
 
-1. To start a swarm, Customer Service command bar, select **Create swarm**. The **Intelligent case swarming (preview)** page opens with the **Case details** displayed on the left side pane.
+1. To start a swarm, on the Customer Service command bar, select **Create swarm**. The **Customer support swarming (preview)** page opens with the **Case details** displayed on the left side pane.
    The case and account fields are read-only, and are designed to give other swarm participants the associated details about the case.
    > [!Note]
    > If you don't see the **Create swarm** option, check the overflow actions. If you still don't see it, ask your administrator to assign access privileges for you.
 
-1.  On the **Intelligent case swarming (preview)** form, type information into the following fields:
+1.  On the swarm form, type information into the following fields:
     - **What do you need help with?**: Type a succinct question about what you want help with. The question will be used to find skills and experts to help you.
     - **What are some things you have already tried?** (optional, 500-character limit): Type the details about steps you've already taken to try to resolve the issue, and any results. These details help confirm that any required processes have been followed, and also provides immediate context for other swarm participants who are invited to collaborate on the issue.
     - **Request skills needed** (optional): As part of the swarm request, the system takes the following actions: 
-      - Suggest skills base on case title or other case-related conditions your administrator has defined
-      - Attempts to match skills based on your swarm question
-      - Suggests skills that have the light bulb icon
-    You can also select up to 10 skills manually that you think are relative to the case. (Manually selected skills won't have the light bulb icon next to them.)
+       - Attempts to match skills based on your swarm question
+       - Suggests skills based on case title or other case-related conditions your administrator has defined
+     
+     Suggested skills have the light bulb icon. You can also select up to 10 skills (both system-suggested and manually selected) that you think are relative to the case. (Manually selected skills won't have the light bulb icon next to them.)
     
         > [!Note]
         > If neither the system or you designate any skills, you can still create the swarm but no experts will be added. In this scenario, we recommend asking your supervisor for help with identifying the appropriate skills to get expert support.
@@ -104,6 +104,6 @@ To view a list of swarms, go to **Swarms** on the site map. The following views 
 
 ### See also
 
-[Configure Teams customer support swarming](configure-customer-support-swarming.md)<br>
+[Configure customer support swarming](configure-customer-support-swarming.md)<br>
 [Configure Teams chat](configure-teams-chat.md)<br>
 [Use Teams chat](use-teams-chat.md)
