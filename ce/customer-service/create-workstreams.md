@@ -32,16 +32,13 @@ The workstream can be one of the following types:
 
 ## Create a workstream
 
-You can create workstreams for unified routing in the Customer Service admin center (preview), Omnichannel admin center, or Customer Service Hub app.
+You can create workstreams for unified routing in the Customer Service admin center, Omnichannel admin center, or Customer Service Hub app.
 
 **To create the workstream**
 
 1. Go to one of the apps, and perform the following steps.
 
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
     - In the site map, select **Workstreams** in **Customer support**.
 
@@ -147,7 +144,7 @@ For Azure bots, see [Integrate a bot with Omnichannel for Customer Service](conf
 
 **To add the bot to the workstream**
 
-1. In Customer Service admin center (preview) or Omnichannel admin center, go to **Workstreams**, and select a workstream.
+1. In Customer Service admin center or Omnichannel admin center, go to **Workstreams**, and select a workstream.
 2. For the selected workstream and channel, in the **Bot** area, select **Add bot**.
 3. In the **Add a bot** dialog, select the required bot from the **Name** dropdown list, and then select **Save and close**.
 

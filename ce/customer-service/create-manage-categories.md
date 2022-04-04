@@ -52,8 +52,6 @@ You can create a category in the Customer Service admin center or Customer Servi
 ### [Customer Service Hub](#tab/customerservicehub)
 
    * In the site map, go to **Service Management** and select **Categories** in **Knowledge Base Management**. The **All Categories** view is displayed. You can switch between various system views using the dropdown list.
-
----
   
 2. On the command bar, select **New** to create a new category record.  
  

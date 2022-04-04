@@ -55,11 +55,8 @@ In the Omnichannel admin center or Omnichannel Administration app, you can set u
 
 1. Go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
      
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-
     - In the site map, select **Workstreams** in **Customer support**.
 
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
