@@ -1,7 +1,7 @@
 ---
 title: "Enable custom calculation of SLA KPIs in Dynamics 365 Customer Service | MicrosoftDocs"
-description: "Learn how to perform custom calculation of SLAs KPIs in Dynamics 365 Customer Service."
-ms.date: 04/01/2022
+description: "Learn how to perform custom calculation of SLA KPIs in Dynamics 365 Customer Service."
+ms.date: 04/04/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -24,16 +24,16 @@ ms.custom:
 
 This topic describes how you can override the default time calculation.
 
-Time calculation in service-level agreements (SLAs) calculates the `WarningTime` and `FailureTime` of SLA key performance indicators (KPIs), taking into consideration input parameters, such as `ApplicableFrom` (StartTime of type DateTime field), `CalendarId` (GUID), and `Duration` (warning duration or failure duration in minutes). The final `WarningTime` or `FailureTime` is calculated based on the customer service and the holiday schedules associated with the SLA item.
+Time calculation in service-level agreements (SLAs) calculates the `WarningTime` and `FailureTime` of SLA key performance indicators (KPIs), taking into consideration input parameters, such as `ApplicableFrom` (StartTime of type DateTime field), `CalendarId` (GUID), and `Duration` (warning duration or failure duration in minutes). The final `WarningTime` or `FailureTime` is calculated based on the customer service schedule and the holiday schedule associated with the SLA item.
 
-In addition to warning and failure time, the elapsed time is also calculated if there is a pause and resume scenario configured for the SLA. The elapsed time gets added to the final failure time to ignore the working hours spent during the **Paused** state of the SLA KPI.
+In addition to warning and failure time, the elapsed time is also calculated if there is a pause and resume scenario configured for the SLA. To ignore the working hours spent during the paused state of the SLA KPI, the elapsed time gets added to the final failure time.
 
 To change the default time calculation and enable your own custom time calculation, you can define an API interface that has a fixed set of input and output parameters and add a custom logic to calculate the time.
 
 ## Enable custom time calculation of SLA KPIs
 
 1. Go to **Settings** > **Customization** > **Customize the system** > **Processes** > **New**.
-1. On the **Create Process** dialog, enter the following details:
+1. In the **Create Process** dialog, enter the following details:
     1. Enter a process name, for example, CustomPluginTime Calculation.
     1. From the **Category** dropdown list, select **Action** .
     1. From the **Entity** dropdown list, select **None (global)**. 
@@ -42,26 +42,28 @@ To change the default time calculation and enable your own custom time calculati
     1. Select **OK**.
 
     :::image type="content" source="media/custom-time-cal-template.png" alt-text="Custom time calculation template":::
+
 1. On the template, add the required parameters.
 
     :::image type="content" source="media/add-sla-process-arguments.png" alt-text="Enable the process arguments for any SLA item":::
 
-1. Write the plug-in and link it to the custom action created in step 2. More information: [Write a plug-in](/powerapps/developer/data-platform/write-plug-in). To select the plug-in that you need, see [Scenarios and plug-ins](#scenarios-and-plug-ins).
+1. Write the plug-in and link it to the custom action created in step 2. For more information, go to: [Write a plug-in](/powerapps/developer/data-platform/write-plug-in). To select the plug-in that you need, go to [Scenarios and plug-ins](#scenarios-and-plug-ins), later in this topic.
 1. Associate the the previously created custom action with the SLA Item for which you need to perform the default time calculation.
 1. Edit the relevant SLA item. In the **General** section, set the **Allow Custom Time Calculation** toggle to **Yes**.
-1. From the **Custom Time Calculation API** field, select the custom action you created in step 2 and select **Save**.
-1. Activate your SLA and apply it to the required entity. The warning and failure time of the SLA KPI appears as per the time calculation logic provided in the custom action.
+1. From the **Custom Time Calculation API** field, select the custom action you created in step 2, and then select **Save**.
+1. Activate your SLA, and apply it to the required entity. The warning and failure time of the SLA KPI appears in accordance with the time calculation logic provided in the custom action.
 
 If you need to export the solution to another environment, you can first add the SLA (whose item has the custom action reference) to the custom solution. This will also import the custom action workflow process. Next, include the SDK message in the solution. This will import the plug-in you created earlier.
 
 ### Scenarios and plug-ins
 
-Refer to the following scenarios and their plug-ins to implement a plug-in code associated with your custom action:
+Refer to the following scenarios and their plug-ins to implement a plug-in code associated with your custom action.
 
 Scenario 1:
 
-If you don't have a pause or resume scenario, then only the `WarningTime` and `FailureTime` is to be calculated. Whenever any new KPI instances get created, SLA initiates the custom time calculation API to calculate only `WarningTime` and `FailureTime` in a single call.
-In such a case, `requestType` will be `getEndTime` and other attributes can be fetched as defined in the following example:
+If you don't have a pause or resume scenario, only the `WarningTime` and `FailureTime` are to be calculated. Whenever any new KPI instances get created, SLA initiates the custom time calculation API to calculate only `WarningTime` and `FailureTime` in a single call.
+
+In such a case, `requestType` will be `getEndTime`, and other attributes can be fetched as defined in the following example:
 
 ```
 public void Execute(IServiceProvider serviceProvider)
@@ -120,7 +122,7 @@ public void Execute(IServiceProvider serviceProvider)
 	throw new Exception("Invalid requestType:" + requestType+ " for entityName:" + entityName + " of id:" + regardingId);
 }
 
-// in this example, we're using Custom Field(new_country) on Case entity to apply the require calendar.
+// in this example, we're using Custom Field(new_country) on the Case entity to apply the required calendar.
 
 private string CalculateWarningAndFailureTime(string regardingId, string calendarId, string slaItemId, string entityName, DateTime warningStartTime, DateTime failureStartTime, int warningDuration, int failureDuration, out DateTime warningTime, out DateTime failureTime)
 {
@@ -187,8 +189,8 @@ Scenario 2:
 
 If there is a pause or resume scenario, the following calculations are to be made:
 
-- Calculation of `elapsedTime` between pause and resume state.
-For this scenario, SLA invokes the custom time calculation API to calculate the elapsed time between the pause and resume. In such a case, the requestType will be `getElapsedTime` and other attributes can be fetched as defined in the plug-in code example.
+- Calculation of `elapsedTime` between paused and resumed states.
+For this scenario, the SLA invokes the custom time calculation API to calculate the elapsed time between the pause and resume. In such a case, the requestType will be `getElapsedTime` and other attributes can be fetched as defined in the plug-in code example.
 - Calculation of new `WarningTime` and `FailureTime` computation for resumed instances. In this case, `requestType` will be `getEndTime` and other attributes can be fetched as defined in the following example:
 
 ```
@@ -229,7 +231,7 @@ private double CalculateElapsedTime(string regardingId, string calendarId, strin
 ```
 
 ## FAQs
-For FAQs about custom time calculation of SLA KPIs, see [FAQs about custom time calculation of SLA KPIs](faqs-custom-time-sla-kpis.md#faqs-about-custom-time-calculation-of-sla-kpis).
+For answers to frequently asked questions about custom time calculation of SLA KPIs, go to [FAQs about custom time calculation of SLA KPIs](faqs-custom-time-sla-kpis.md#faqs-about-custom-time-calculation-of-sla-kpis).
 
 ### See also
 
