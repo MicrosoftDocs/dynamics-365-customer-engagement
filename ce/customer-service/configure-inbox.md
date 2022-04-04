@@ -65,7 +65,7 @@ You can configure the inbox in the [Customer Service admin center](/app-profile-
      - Unassigned
        - Emails in my team
        - Emails in my queue(s)
-       - Emails in a shared mailbox.
+       - Emails in a shared mailbox
     - **Agent Visibility**: Select one of the following options to show or hide the view to agents:
       - **Show**
       - **Hide**
