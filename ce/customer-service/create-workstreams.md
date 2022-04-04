@@ -76,9 +76,9 @@ You can create workstreams for unified routing in the Customer Service admin cen
 
       More information: [Fallback queues](queues-omnichannel.md#fallback-queues)
 
+      :::image type="content" source="media/create-messaging-workstream.png" alt-text="Settings for creating workstream for live chat.":::
+
 1. Select **Create**. The workstream that you created is displayed with the option to configure the selected channel instance.
-    > [!div class=mx-imgBorder]
-    > ![Set up a channel.](media/set-up-chat.png "Set up a channel")
 
 1. Perform the steps outlined in one of the following sections depending on the channel that you've selected.
    - [Configure a chat widget](add-chat-widget.md#configure-a-chat-widget)
