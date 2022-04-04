@@ -38,7 +38,7 @@ Some of the key benefits of customer support swarming include:
 
 ## Availability and licensing for customer support swarming
 
-Swarming features are available in Dynamics 365 Customer Serivce workspace, Customer Service Hub, and custom apps.
+Swarming features are available in Dynamics 365 Customer Service workspace, Customer Service Hub, and custom apps.
 
 To use customer service swarming, you must have a Dynamics 365 Customer Service Enterprise license.
 
@@ -57,7 +57,7 @@ Use the following image and legend to understand the layout of the customer supp
 |3 | Case details | Out-of-box-related account and case fields. Administrators can configure which case fields show on the form. |
 |4 | Skills | Add relevant skills to help match experts for swarming. Onboard coworkers outside the team as experts to recommend for swarms. |
 |5 | Rules for skills | Conditions that define which skills to attach to swarms. The attached skills are then used to find and invite experts to swarms. |
-|6 | Participants automatically added to swarms | Team contact who are automatically added to swarms because of their relationship to the customer or the agent working on the issue. |
+|6 | Participants automatically added to swarms | Team contacts who are automatically added to swarms because of their relationship to the customer or the agent working on the issue. |
 |7 | Swarm expert notification | The Power Automate flow that turns on and manages swarm invitations that are sent to experts. |
 
 ## Steps to configure customer support swarming
@@ -105,8 +105,8 @@ In Dynamics 365, go to one of the apps, and perform the following steps.
     2. In **Collaboration** in the site map, select **Swarming using Teams**.
     3. If you haven't already activated the case details for the swarm form, do the following steps. 
        1. Go to **Case details** on the administration page. Follow the link in the case details section titled **Activate case form for swarming**. The Power Apps Case Table Forms page is displayed.
-       1. Select the **Case form for swarm** form, select the elipsis (...), and then select **Activate form**. This makes the form active.
-       1. Open the form (or select the elipsis (...) and then select **Edit form**), and then publish it by selecting **Publish** on the top-right side of the form.
+       1. Select the **Case form for swarm** form, select the ellipsis, and then select **Activate form**. This makes the form active.
+       1. Open the form (or select the ellipsis and then select **Edit form**), and then publish it by selecting **Publish** on the top-right side of the form.
 
 ## Turn on the swarm expert notification flow in Power Automate
 
@@ -159,7 +159,7 @@ To configure case details, perform the following steps:
 
 ### Add new skills
 
-If your organization is already using skills in resource scheduling or omnichannel, you can reuse the skills to define swarm fules. 
+If your organization is already using skills in resource scheduling or omnichannel, you can reuse the skills to define swarm rules. 
 
 If you haven't already configured skills, then perform the following steps.
 
@@ -189,7 +189,7 @@ If the skills you want to use to match experts to swarms are stored in another s
 
 ### Add experts
 
-If your organization is already using bookable resources in resource scheduling or omnichannel, you can reuse the resources to define your swarm fules.
+If your organization is already using bookable resources in resource scheduling or omnichannel, you can reuse the resources to define your swarm rules.
 
 If you haven't already configured experts, then perform the following steps.
 
@@ -225,7 +225,7 @@ If you want to bulk map skills and experts, perform the following steps.
 
 1. On the **Characteristic** page of a skill, select the **Resource Characteristics** tab.
 
-1. Select the elipsis, and then select **Export Selected Records**. An Excel spreadsheet is opened.
+1. Select the ellipsis, and then select **Export Selected Records**. An Excel spreadsheet is opened.
 
 1. Enter the resource and characteristic to match the fields that are exported. 
 
@@ -239,7 +239,9 @@ You can attach characteristics (skills) in the **Resources** form by performing 
 
 1. Edit the form, and then select **Save**.
 
-## Define swarm rules
+### Define swarm rules
 
 You can define swarm rules that identify the skills that should be suggested when an agent types a swarm question that matches the conditions of a rule.
+
+Only the top four rules are shown on the main swarm page. To view more rules, s
 
