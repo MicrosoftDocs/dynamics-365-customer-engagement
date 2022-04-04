@@ -18,9 +18,6 @@ To overcome this challenge, the Sales accelerator in Dynamics 365 provides a tai
 
 By default, sales accelerator is enabled in the Sales Hub app with limited functionalities. Sales teams can view their work list items created through timeline that are due and can perform search, filter, and sort on the list. To experience the full capabilities of sales accelerator, contact your administrator to configure the sales accelerator workspace. More information: [Enable and configure Sales accelerator](enable-configure-sales-accelerator.md).
 
->[!NOTE]
->The following features aren't available with the default sales accelerator    
-
 By using the Sales accelerator:
 
 - Sellers can prioritize their customer list in a fast and easy way by using an intelligent work list. The work list helps sellers reach out to the next best lead or opportunity by displaying relevant sales information and customer context that's available immediately, which helps make every communication more successful. More information: [Prioritize sales pipeline through work list](prioritize-sales-pipeline-through-work-list.md)
