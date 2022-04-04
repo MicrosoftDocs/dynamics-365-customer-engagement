@@ -74,7 +74,7 @@ Use the following steps to configure the customer support swarm feature.
 
 In Dynamics 365, go to one of the apps, and perform the following steps.
    
- ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+ ### Customer Service admin center (preview)
      
    > [!IMPORTANT]
    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
@@ -82,7 +82,7 @@ In Dynamics 365, go to one of the apps, and perform the following steps.
    1. In the site map, select **Collaboration** in **Experiences**.
    2. On the **Embedded chat using Teams** page, toggle on **Turn on Microsoft Teams chats inside Dynamics 365 (preview)**.
 
- ### [Customer Service Hub](#tab/customerservicehub)
+ ### Customer Service Hub
     
   1. Go to **Service Management**.
   2. In **Collaboration** in the site map, select **Embedded chat using Teams**.
