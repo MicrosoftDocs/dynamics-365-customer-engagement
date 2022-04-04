@@ -294,20 +294,17 @@ Agents need specific privileges to ensure that they can effectively swarm. Use t
 
 To set up swarm privileges for agents, perform the following steps.
 
-1. Go to Power Platform admin center > **Environments** > **Environment name**.
-2
-1. . Select the ellipsis, and then select **Settings**.
+1. Go to Power Platform admin center, and then in **Environments** > **Environment name**, select the ellipsis, and then select **Settings**.
 
 1. In **Users + permissions**, select **Security rules**.
 
 1. Select the security role (for example, **Customer Service Representative**), and then select the following roles to apply the following privileges: 
- - **Swarm**
- - **Swarm participant**
- - **Swarm participant rule**
- - **Swarm role**
- - **Swarm skill**
+   - Swarm
+   - Swarm participant
+   - Swarm participant rule
+   - Swarm role
+   - Swarm skill
 
 1. Select the **Service** tab, and then for **Characteristic**, select the security privileges.
 
 1. Save and publish your changes.
-
