@@ -71,7 +71,7 @@ Make sure that the following prerequisites are met:
     1. Turn on the toggle for **Voice and video calls** (preview), and select an option in the **Calling options** dropdown list. At runtime, when agents are in conversation with customers and need to use audio or video to resolve issues, the call and video options are available to them.
 
       > [!NOTE]
-      > Voice and video calls in Microsoft Teams is in preview, so you shouldn't use it in production. Use it only in test and development environments.
+      > Voice and video calls in Microsoft Teams is in preview, therefore, we recommend that you don't use it in production. Use it only in test and development environments.
     
     2. Verify the settings on the **Summary** page, and select **Finish**. The WhatsApp channel instance is configured.
 
