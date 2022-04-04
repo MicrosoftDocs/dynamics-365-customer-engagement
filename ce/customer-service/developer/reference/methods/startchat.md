@@ -1,8 +1,8 @@
 ---
 title: "startChat (JavaScript API reference) for Omnichannel for Customer Service in Dynamics 365 | MicrosoftDocs"
-description: "Includes information about startChat method, syntax, and parameters in Omnichannel for Customer Service JavaScript API reference."
-ms.date: 07/08/2020
-ms.topic: article
+description: "Includes reference information about startChat method, syntax, and parameters in Omnichannel for Customer Service JavaScript API reference."
+ms.date: 04/04/2022
+ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
@@ -26,7 +26,7 @@ manager: shujoshi
 |----|----|----|----|
 |`inNewWindow`|Boolean|No|Decides whether to open the chat in a new window.|
 
-## Return Value
+## Return value
 
 None
 
@@ -38,7 +38,8 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
                Microsoft.Omnichannel.LiveChatWidget.SDK.startChat({inNewWindow: true});
 });
 ```
-## See also
+
+### See also
 
 [setAuthTokenProvider](setAuthTokenProvider.md)<br />
 [setContextProvider](setContextProvider.md)<br />
