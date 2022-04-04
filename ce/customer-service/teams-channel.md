@@ -1,7 +1,7 @@
 ---
 title: "Use Microsoft Teams channel | MicrosoftDocs"
 description: "This article provides an overview of Microsoft Teams channel and incoming chat notifications in the agent dashboard for Omnichannel for Customer Service."
-ms.date: 04/02/2022
+ms.date: 04/04/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -51,7 +51,7 @@ In Omnichannel for Customer Service, you can:
 - [View the customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md).
 - [Search for transcripts](oc-search-transcipts.md).
 
-If your administrator has enabled the option to initiate voice and video calls during the conversation, the options to use voice and video will be available on the communication panel menu.
+If your administrator has enabled the option to initiate voice and video calls (in preview) during the conversation, the options to use voice and video will be available on the communication panel menu.
 
 ### See also
 

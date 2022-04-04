@@ -1,7 +1,7 @@
 ---
 title: "Set up skill-based routing | MicrosoftDocs"
 description: "Use the information to set up skill-based routing for unified routing in Customer Service."
-ms.date: 02/11/2022
+ms.date: 04/04/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -123,17 +123,14 @@ Intelligent skill finder depends upon the custom AI Builder category classificat
 
  ## Create skill finder models
    
-You can set up the intelligent skill finder model rating models in the Customer Service admin center (preview) or Omnichannel admin center app. You can create as many models as your business requires.
+You can set up the intelligent skill finder model rating models in the Customer Service admin center or Omnichannel admin center app. You can create as many models as your business requires.
 
 **To create the skill finder model**
 
 1. In Dynamices 365, go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
      
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-
      - In the site map, select **Insights** in **Operations**. The **Insights** page appears.
      
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
