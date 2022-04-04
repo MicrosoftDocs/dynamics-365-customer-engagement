@@ -1,6 +1,6 @@
 ---
 title: "Enable sentiment analysis | MicrosoftDocs"
-description: "How to enable sentiment analysis for Omnichannel Ongoing Conversation dashboard in Omnichannel for Customer Service."
+description: "How to enable sentiment analysis for Omnichannel Ongoing Conversations dashboard in Omnichannel for Customer Service."
 ms.date: 02/11/2022
 ms.topic: article
 author: lalexms
@@ -23,7 +23,7 @@ Sentiment analysis settings in Omnichannel for Customer Service provide agents a
 
 ## Sentiment analysis
 
-To let agents and supervisors see the customer's satisfaction levels instantly while communicating with the customer, you need to enable the sentiment analysis.
+To let agents and supervisors see the customer's satisfaction levels instantly while communicating with the customer, you need to enable sentiment analysis.
 
 > [!NOTE]
 > Sentiment analysis is enabled by default.
@@ -86,9 +86,9 @@ To turn off agent alerts, select **Don't show alerts**.
 
 ## Supervisor settings
 
-Supervisors can use the **Omnichannel Ongoing Conversation** dashboard to view customer sentiment in real time during conversations between customers and agents.
+Supervisors can use the **Omnichannel Ongoing Conversations** dashboard to view customer sentiment in real time during conversations between customers and agents.
 
-You can show notifications to the supervisors when a customer's sentiment decreases to or below a particular value. The supervisor must be assigned to the queue to receive sentiment notifications.
+You can show notifications to the supervisors when a customer's sentiment decreases to a particular value or below it. The supervisor must be assigned to the queue to receive sentiment notifications.
 
 You can set the sentiment threshold to any of the following values:
 
@@ -112,9 +112,9 @@ For example, you set the threshold value as **Slightly negative**. When the cust
 
 To turn off supervisor notifications, select **Don't send notifications**.
 
-## Multi-language sentiment
+## Multilanguage sentiment
 
-Multi-language sentiment scoring is enabled by default. Conversations in more than 40 languages are scored. The languages listed in the following table are supported in the analytics features.
+Multilanguage sentiment scoring is enabled by default. Conversations in more than 40 languages are scored. The languages listed in the following table are supported in the analytics features.
 
 <table>
 <tbody>
@@ -176,7 +176,7 @@ Vietnamese<br>
 
 ### See also
 
-[Monitor conversations](monitor-conversations.md)
+[Monitor, assign, and transfer conversations](monitor-conversations.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
