@@ -10,14 +10,6 @@ manager: shujoshi
 
 # FAQs about Customer Service admin center
 
-> [!IMPORTANT]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-
 ## Overview
 
 This topic contains the frequently asked questions (FAQs) that you as an administrator might have about the Customer Service admin center app.
@@ -36,7 +28,7 @@ After Customer service admin center becomes generally available, we will leave s
 
 ### Why can't I see this app in my environment?
 
-The app will be enabled automatically in all the Customer Service organizations, but it follows an availability schedule, so some regions will get it before the others. For the North America region, the app will be available on March 04, 2022.
+The app will be enabled automatically in all the Customer Service organizations, but it follows an availability schedule, so some regions will get it before the others. For the North America region, the app is available from March 04, 2022.
 
 ### See also
 

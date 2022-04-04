@@ -134,7 +134,7 @@ The following stages are available:
       - **Capacity**: Displays the capacity information.
       - **Presence**: Displays the presence used.
       - **Skills**: Displays the skills that were matched if any.
-  - **Assignment trace**: 
+  - **Assignment trace**:
       - **Current status**: Displays the status of the work item, such as whether an agent has been identified.
       - **Status reason**: Displays the associated reason of the status.
       - **Assigned to**: Displays the agent to whom the work item is assigned if any.
@@ -142,7 +142,9 @@ The following stages are available:
       - **Last attempt at**: Displays the date and time of the last attempt for assigning the work item was made.
 
   > [!NOTE]
-  > Assignment trace provides details only if the highest capacity or round robin assignment method has been used.
+  >
+  > - The **Assignment Criteria** section in **Agent assignment trace** displays details only if the highest capacity or round robin assignment method has been used.
+  > - When assignment failure occurs for a work item, **Status reason** will display the assignment reason for the first three attempts. If the assignment continues to fail, the assignment failure message will be updated hourly. In such cases, the value that's displayed for **Total attempts** might not be refreshed accurately.
 
     :::image type="content" source="media/agent-assignment-trace.png" alt-text="Information about assignment trace.":::
 

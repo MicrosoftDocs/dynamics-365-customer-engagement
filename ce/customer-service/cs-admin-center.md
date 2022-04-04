@@ -10,16 +10,6 @@ manager: shujoshi
 
 # Get started with Customer Service admin center
 
-> [!IMPORTANT]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-
-## Introduction
-
 Welcome to Customer Service admin center, a new app that unifies and simplifies administration experience across the Customer Service suite.
 
 Use the Customer Service admin center app to set up the features in Customer Service, such as defining parent-child case hierarchy, creating queues, channels, rules for automatic case creation, and customer service schedules.
@@ -53,6 +43,15 @@ You'll need one or more of the following security roles to access this app.
 ## Access the app
 
 The app is automatically installed in all the Customer service organizations. You can sign in to Dynamics 365, and on the apps page, select Customer service admin center.
+
+### Quick setup (preview)
+
+> [!NOTE]
+>
+> - Quick setup is in preview; therefore, we recommend that you don't use it in production. Use it only in test and development environments.
+> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+
+You can use the quick setup wizard to configure a channel, such as for routing cases. The wizard helps you create the channel, configure users and permissions, and set up routing rules to get you started with handling customer issues with minimal setup.
 
 ### Navigate the site map in Customer Service admin center
 
