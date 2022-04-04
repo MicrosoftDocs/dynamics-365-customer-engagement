@@ -316,6 +316,8 @@
         href: add-upnext-widget-form.md  
       - name: Add the sales accelerator site map entry to custom app          
         href: add-sales-accelerator-sitemap-entry-custom-app.md
+    - name: Manage Campaigns
+      href: configure-inapp-marketing.md
     - name: Manage sequences
       href: create-manage-sequences.md
       items:
