@@ -91,25 +91,14 @@ In Dynamics 365, go to one of the apps, and perform the following steps.
 
 ## Activate case details on swarms
 
-In Dynamics 365, go to one of the apps, and perform the following steps.
+In Customer Service Hub, perform the following steps.
       
- ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-   > [!IMPORTANT]
-   > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-    
-1. To be added.
-1. TBD
-
-
- ### [Customer Service Hub](#tab/customerservicehub)
-    
-  1. Go to **Service Management**.
-  2. In **Collaboration** in the site map, select **Swarming using Teams**.
-  3. If you haven't already activated the case details for the swarm form, do the following steps.
-  4. Go to **Case details** on the administration page. Follow the link in the case details section titled **Activate case form for swarming**. The Power Apps Case Table Forms page is displayed.
-  5. Select the **Case form for swarm** form, select the ellipsis, and then select **Activate form**. This makes the form active.
-  6. Open the form (or select the ellipsis and then select **Edit form**), and then publish it by selecting **Publish** on the top-right side of the form.
+1. Go to **Service Management**.
+2. In **Collaboration** in the site map, select **Swarming using Teams**.
+3. If you haven't already activated the case details for the swarm form, do the following steps.
+4. Go to **Case details** on the administration page. Follow the link in the case details section titled **Activate case form for swarming**. The Power Apps Case Table Forms page is displayed.
+5. Select the **Case form for swarm** form, select the ellipsis, and then select **Activate form**. This makes the form active.
+6. Open the form (or select the ellipsis and then select **Edit form**), and then publish it by selecting **Publish** on the top-right side of the form.
 
 
 ## Turn on the swarm expert notification flow in Power Automate
