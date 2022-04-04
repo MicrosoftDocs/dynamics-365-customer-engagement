@@ -50,8 +50,8 @@ Go to the Customer Service admin center or Customer Service Hub app, and perform
 
 2. On the **Settings** page, in **Record Types**, select the record types you want to turn on knowledge management for. The list will include all available entities for an N:N relationship. Knowledge management is enabled for the **Case** entity by default.
 
-### Set up the knowledge base search control
-<!--note from editor: Note that I removed the horizontal rule markup here. It's not supported in our doc design.-->
+---
+
 After you have enabled a record type, to set up knowledge base search control on a standard or custom form, see [Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-forms). Setting up knowledge base search control on a standard or custom form makes it easy for agents in your organization to find knowledge articles, so they can answer common customer questions and resolve their issues right from the records, without having to switch to a different application.
 
 To set up knowledge search control on the app side pane, see [Configure knowledge search control on the app side pane](#configure-knowledge-search-control-on-app-side-pane).
@@ -64,7 +64,7 @@ After you've added the record types for which you want to turn on knowledge mana
 > [!NOTE]
 > You can configure the knowledge settings for record types from the Customer Service admin center app only. You'll also be able to view and edit the record types that you've previously enabled in Customer Service Hub.
 
-**To edit an entity record**
+To edit an entity record:
 
 1. In the Customer Service admin center, on the **Record Types** page, select the entity you want to edit.
 1. Select **Edit**. The **Knowledge settings** dialog appears.
