@@ -454,7 +454,7 @@
         href: integrate-KM-with-PVA.md
       - name: Configure the origin allowlist for knowledge articles
         href: configure-knowledge-article-origin-allow-list.md
-      - name: Configure knowledge search control on app side pane for an entity record (preview)
+      - name: Configure knowledge search control on app side pane for an entity record
         href: configure-knowledge-search-control-productivity-pane.md
     - name: Knowledge author experience
       items:
@@ -472,6 +472,8 @@
         href: csw-search-knowledge-articles.md
       - name: Search for knowledge articles in Customer Service Hub
         href: search-knowledge-articles-csh.md
+      - name: Understand how search works in knowledge management
+        href: search-operators.md
     - name: Customization experience
       items: 
       - name: Knowledge base search

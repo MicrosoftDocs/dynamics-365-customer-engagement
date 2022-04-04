@@ -219,6 +219,8 @@
           items:
           - name: "notifyEvent"
             href: v2/reference/microsoft-ciframework/notifyevent.md
+          - name: "cancelEvent"
+            href: v2/reference/microsoft-ciframework/cancelevent.md
         - name: "Session management APIs"
           items:
           - name: "canCreateSession"
