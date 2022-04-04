@@ -29,6 +29,6 @@ Each event handler specifies a function within a JavaScript library and the para
 | [onSizeChanged](events/onSizeChanged.md) | Invoked when the side panel width is changed. |
 | [onSessionSwitched](events/onSessionSwitched.md) | Invoked when the session is switched. |
 | [onSessionClosed](events/onSessionClosed.md) | Invoked when the session is closed. |
-| [onPresenceChange​](events/onPresenceChange​.md) | Invoked when the presence or availability state of the agent has changed either manually or programmatically. |
+| [onPresenceChange​](events/onPresenceChange.md) | Invoked when the presence or availability state of the agent has changed either manually or programmatically. |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
