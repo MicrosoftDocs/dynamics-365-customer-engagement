@@ -28,7 +28,7 @@ ms.custom:
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
-As an administrator, you can help transform your organization into a unified customer service team by configuring your applications so that agents and subject matter experts can "swarm" together when resolving complex cases,.
+As an administrator, you can help transform your organization into a unified customer service team by configuring your applications so that agents and subject matter experts can "swarm" together when resolving complex cases.
 
 Some of the key benefits of customer support swarming include:
 
@@ -132,6 +132,7 @@ The swarm guide is agent-facing text that appears in the interface to help agent
 Important things to keep in mind when creating the swarm guide:
  
  - While the guide content is editable by you, as the administrator, the guide you create will apply to all different swarm types, and can't be further customized.
+ 
  - The guide template is rich text-enabled.
  - The guide template has a 500-character limit.
 
@@ -146,10 +147,17 @@ To create the swarm guide, perform the following steps.
 When an agent creates a swarm, the system includes fields from the related case and account to provide more context for the swarm participants who join. 
 
 As an administrator, you can configure which case fields to include as part of the swarm form.
+   - Out-of-box account fields include customer name, email, and phone number.
+  
+   - Out-of-box case fields include the following:
 
- - Out-of-box account fields include customer name, email, and phone number.
-
- - Out-of-box case fields include case title, case number, subject, customer priority, status, product, and case description.
+      - Case title
+      - Case number
+      - Subject
+      - Customer priority
+      - Status
+      - Product
+      - Case description
 
 To configure case details, perform the following steps:
 
@@ -159,7 +167,7 @@ To configure case details, perform the following steps:
 
 ### Add new skills
 
-If your organization is already using skills in resource scheduling or omnichannel, you can reuse the skills to define swarm rules. 
+If your organization is already using skills in resource scheduling or Omnichannel for Customer Service, you can reuse the skills to define swarm rules. 
 
 If you haven't already configured skills, then perform the following steps.
 
@@ -241,7 +249,65 @@ You can attach characteristics (skills) in the **Resources** form by performing 
 
 ### Define swarm rules
 
-You can define swarm rules that identify the skills that should be suggested when an agent types a swarm question that matches the conditions of a rule.
+You can define swarm rules that identify the skills that should be suggested when an agent types a swarm question that matches the conditions of a rule. Expert suggestions are defined with the goal of finding the minimum set of experts in your organization who match the maximum number of skills suggested for a swarm.
 
-Only the top four rules are shown on the main swarm page. To view more rules, s
+The following are aspects of configuring swarm rules.
+
+- Only the top four rules are shown on the main swarm page. To view more rules select **See more**.
+
+- To add a new rule, select **+Create rule**, and then add the conditions and skills to define the rule.
+
+- You can define rules based on the related case and account attributes. By default, the swarm request, or the question the agent needs help with, is automatically suggested as one of the conditions.
+
+- Depending on the rules you define, you can add one or more specific unique skills.
+
+- To add a new skill from the rule builder, perform the following steps, in the **Select skill** field, select the search icon, and then on the **Lookup records** pane, select the search icon in the **Look for characteristic** field, and then select **Advanced lookup**. A page opens where you can choose skills (characteristics) using **Add new record**.
+
+- If you choose **+New characteristic** on the **Lookup records** pane, you have to leave the current page to create the new skill.
+
+- When skills are being matched, the system runs through all possible rules, up to 100 rules.
+
+- Rules are run in the order in which they're listed. As an administrator, you can reorder, edit, delete, or copy rules.
+
+### Automatically add contacts to swarms
+
+In addition to matching skills to find experts, by default, the system adds out-of-box contacts to the swarm. These participants are added to the swarm automatically without a swarm invitation. Typically, their role is to observe the swarm process and provide customer information if needed, or manage customer communications.
+
+A minimum of two participants are required for a swarm. Swarm contacts include the following persons.
+ - The agent's supervisor (this setting cannot be edited). Ensure that the agent has a supervisor. (This person can be the same for many agents on the team). If a supervisor isn't identified for the agent, the administrator who enabled the swarm is automatically added.
+ - Optional: The administrator of the team the agent is a member of.
+ - Optional: The owner of the related account.
+
+### Grant swarm privileges for agents
+
+Agents need specific privileges to ensure that they can effectively swarm. Use the following table to understand the privileges and types.
+
+|Swarm privilege | Privilege type |
+|-----------|-----------|
+|Swarm | Read, create, update, share |
+|Swarm participant | Read, create, update, share |
+|Swarm participant rule | Read |
+|Swarm skill | Read, create, update, share |
+|Swarm role | Read |
+|Characteristic | Read |
+|System user | Read |
+
+To set up swarm privileges for agents, perform the following steps.
+
+1. Go to Power Platform admin center > **Environments** > **Environment name**.
+2
+1. . Select the ellipsis, and then select **Settings**.
+
+1. In **Users + permissions**, select **Security rules**.
+
+1. Select the security role (for example, **Customer Service Representative**), and then select the following roles to apply the following privileges: 
+ - **Swarm**
+ - **Swarm participant**
+ - **Swarm participant rule**
+ - **Swarm role**
+ - **Swarm skill**
+
+1. Select the **Service** tab, and then for **Characteristic**, select the security privileges.
+
+1. Save and publish your changes.
 
