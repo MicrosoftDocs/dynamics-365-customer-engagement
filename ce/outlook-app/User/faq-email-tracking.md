@@ -4,7 +4,6 @@ description: FAQs about email tracking using App for Outlook
 ms.custom: 
 ms.date: 05/20/2021
 ms.reviewer: 
-
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -162,7 +161,7 @@ though it was the last created.
 **Scenario C**
 - Two contacts and one account exist with the same email address  
 - The tracking user owns both contacts and the account  
-- The account was created before the account.  
+- The account was created before the contacts.
 
 The sender will resolve to the first created contact.
 
