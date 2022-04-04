@@ -346,9 +346,6 @@ With this new attachment capability, you'll need to stop using notes attachments
 
 ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
-> [!IMPORTANT]
-> The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-
   1. In the site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
   2. In the **Portals** section, select **Manage**. The **Portal** page appears.
   3. On the **Portals** page, go to the **Sync knowledge article attachments to portal** section.

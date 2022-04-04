@@ -69,12 +69,18 @@ You can create workstreams for unified routing in the Customer Service admin cen
     - **Work distribution mode**: Select **Push** or **Pick**.
          - In **Push** mode, a work item is dispatched to agents automatically using a message alert. You can configure the push work item to be explicitly picked up. For voice, only push mode is available.
          - In **Pick** mode, a work item is dispatched to agents when they explicitly pick the work item from the **Open work items** in the agent dashboard.
+    
+    - In **Fallback queue**, select one of the following options:
+         - **Create new**: Enter a queue name to which work items will be sent when no queue is identified in the the route-to-queue rules. You'll need to add users to the queue after creating the workstream.
+         - **Choose existing**: Select an existing queue from the dropdown list box. By default, the out-of-the-box queue for the selected channel type is selected.
 
-2. Select **Create**. The workstream that you created is displayed with the option to configure the selected channel instance.
+      More information: [Fallback queues](queues-omnichannel.md#fallback-queues)
+
+1. Select **Create**. The workstream that you created is displayed with the option to configure the selected channel instance.
     > [!div class=mx-imgBorder]
     > ![Set up a channel.](media/set-up-chat.png "Set up a channel")
 
-3. Perform the steps outlined in one of the following sections depending on the channel that you've selected.
+1. Perform the steps outlined in one of the following sections depending on the channel that you've selected.
    - [Configure a chat widget](add-chat-widget.md#configure-a-chat-widget)
    - [Configure a voice channel](voice-channel-route-queues.md#configure-a-voice-channel)
    - [Configure a Facebook channel](configure-facebook-channel.md)
@@ -158,6 +164,7 @@ Select a workstream to perform any of the following actions:
 - **Edit**: Lets you edit the workstream, such as add a new channel or update the existing settings.
 - **Copy**: Lets you create a copy of the workstream with all the properties, such as the rules, so that you can reuse the configured workstream in another organization. The copied workstream name is prefixed with "Copy of "*`<workstream>`*.
 - **Delete**: Lets you delete the workstream if you no longer need it in your organization. You can't delete workstreams that are used in intake rules for record routing. You'll be prompted to remove the dependencies and then try to delete the workstream.
+- **Fallback queue**: Select an existing queue or create a queue to set as the fallback queue.
 
 ### Agent affinity
 

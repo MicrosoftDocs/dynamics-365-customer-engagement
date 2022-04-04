@@ -3,8 +3,8 @@ title: Create and manage categories (Dynamics 365 Customer Service) | MicrosoftD
 description: Know how to create and manage categories for Customer Service.
 ms.date: 04/04/2022
 ms.topic: article
-author: neeranelli
-ms.author: nenellim
+author: Soumyasd27
+ms.author: sdas
 manager: shujoshi
 search.audienceType: 
   - admin
