@@ -1,14 +1,14 @@
 ---
 title: "Customer Service admin center | MicrosoftDocs"
 description: "Get started with Customer Service admin center"
-ms.date: 02/11/2022
+ms.date: 04/04/2022
 ms.topic: get-started
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ---
 
-# Get started with Customer Service admin center (Preview)
+# Get started with Customer Service admin center
 
 > [!IMPORTANT]
 >
@@ -20,7 +20,7 @@ manager: shujoshi
 
 ## Introduction
 
-Welcome to Customer Service admin center (preview), a new app that unifies and simplifies administration experience across the Customer Service suite.
+Welcome to Customer Service admin center, a new app that unifies and simplifies administration experience across the Customer Service suite.
 
 Use the Customer Service admin center app to set up the features in Customer Service, such as defining parent-child case hierarchy, creating queues, channels, rules for automatic case creation, and customer service schedules.
 
@@ -52,7 +52,7 @@ You'll need one or more of the following security roles to access this app.
 
 ## Access the app
 
-The app is automatically installed in all the Customer service organizations. You can sign in to Dynamics 365, and on the apps page, select Customer service admin center (preview).
+The app is automatically installed in all the Customer service organizations. You can sign in to Dynamics 365, and on the apps page, select Customer service admin center.
 
 ### Navigate the site map in Customer Service admin center
 
