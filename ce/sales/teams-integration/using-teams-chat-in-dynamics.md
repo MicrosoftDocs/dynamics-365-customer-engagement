@@ -14,9 +14,9 @@ manager: shujoshi
 
 # Preview: Using Microsoft Teams chat in Dynamics 365
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+[!INCLUDE [preview-disclaimer](../../includes/preview-disclaimer.md)]
 
 As a Dynamics 365 customer engagement app user, you can start or link chat conversations with a record that you're working on.  
 
