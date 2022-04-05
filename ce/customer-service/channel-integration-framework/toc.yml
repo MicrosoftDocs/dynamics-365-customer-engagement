@@ -169,16 +169,6 @@
         items:
         - name: "Overview"
           href: v2/reference/microsoft-ciframework-v2.md
-        - name: "Communication panel management APIs"
-          items:
-          - name: "setWidth"
-            href: v2/reference/microsoft-ciframework/setWidth.md
-          - name: "getWidth"
-            href: v2/reference/microsoft-ciframework/getWidth.md
-          - name: "setMode"
-            href: v2/reference/microsoft-ciframework/setMode.md
-          - name: "getMode"
-            href: v2/reference/microsoft-ciframework/getMode.md
         - name: "getEntityMetadata"
           href: v2/reference/microsoft-ciframework/getEntityMetadata.md
         - name: "setClickToAct"
@@ -191,6 +181,8 @@
           href: v2/reference/microsoft-ciframework/getEnvironment.md
         - name: "openForm"
           href: v2/reference/microsoft-ciframework/openForm.md
+        - name: "raiseEvent"
+          href: v2/reference/microsoft-ciframework/raiseEvent.md
         - name: "renderSearchPage"
           href: v2/reference/microsoft-ciframework/renderSearchPage.md
         - name: "addHandler"
@@ -199,6 +191,16 @@
           href: v2/reference/microsoft-ciframework/removeHandler.md
         - name: "updateContext"
           href: v2/reference/microsoft-ciframework/updateContext.md
+        - name: "Communication panel management APIs"
+          items:
+          - name: "setWidth"
+            href: v2/reference/microsoft-ciframework/setWidth.md
+          - name: "getWidth"
+            href: v2/reference/microsoft-ciframework/getWidth.md
+          - name: "setMode"
+            href: v2/reference/microsoft-ciframework/setMode.md
+          - name: "getMode"
+            href: v2/reference/microsoft-ciframework/getMode.md
         - name: "CRUD operations APIs"
           items:
           - name: "createRecord"
@@ -313,7 +315,7 @@
 
   - name: Known issues in Dynamics 365 Channel Integration Framework
     href: https://go.microsoft.com/fwlink/p/?linkid=2171869
-  - name: "FAQs"
+  - name: "FAQs for Dynamics 365 Channel Integration Framework"
     href: faq-channel-integration-framework.md
 
 - name: Dynamics 365 Customer Service
