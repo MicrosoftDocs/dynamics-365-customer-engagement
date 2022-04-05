@@ -131,9 +131,9 @@
     - name: Microsoft Teams meeting integration
       items:
       - name: Enable Microsoft Teams meeting integration
-        href: enable-teams-meeting-integration.md
+        href: teams-integration/enable-teams-meeting-integration.md
       - name: Customize record details in the side panel
-        href: customize-record-side-panel.md
+        href: teams-integration/customize-record-side-panel.md
     - name: Make and receive calls using Microsoft Teams
       items:
       - name: Configure Microsoft Teams dialer
@@ -536,23 +536,23 @@
     - name: Microsoft Teams meeting integration
       items:
       - name: Overview
-        href: teams-meeting-integration.md
+        href: teams-integration/teams-meeting-integration.md
       - name: Create a Teams meeting
-        href: create-teams-meeting.md
+        href: teams-integration/create-teams-meeting.md
       - name: Add the Dynamics 365 app to a Teams meeting
-        href: add-d365-app.md
+        href: teams-integration/add-d365-app.md
       - name: Work with the Dynamics 365 app
-        href: work-with-d365-app.md
+        href: teams-integration/work-with-d365-app.md
       - name: Join a Teams meeting
-        href: join-teams-meeting.md
+        href: teams-integration/join-teams-meeting.md
       - name: Work with notes during a meeting
-        href: work-with-notes.md
+        href: teams-integration/work-with-notes.md
       - name: Work with tasks during a meeting
-        href: work-with-tasks.md
+        href: teams-integration/work-with-tasks.md
       - name: Work with activities during a meeting
-        href: work-with-activities.md
+        href: teams-integration/work-with-activities.md
       - name: Conversation intelligence capabilities during a meeting
-        href: ci-capabilities.md
+        href: teams-integration/ci-capabilities.md
     - name: Make and receive calls using Microsoft Teams
       items:
       - name: Make and receive calls through Microsoft Teams
