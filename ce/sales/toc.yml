@@ -122,7 +122,23 @@
         href: match-fields-between-dynamics365-zoominfo.md
       - name: Customize the ZoomInfo app
         href: customize-zoominfo-app.md              
-  - name: Collaboration and productivity
+  - name: Collaboration
+    items:
+    - name: Microsoft Teams chat in Dynamics 365
+      items:
+      - name: Configure Teams chat
+        href: teams-integration/enable-teams-chat.md
+    - name: Make and receive calls using Microsoft Teams
+      items:
+      - name: Configure Microsoft Teams dialer
+        href: configure-microsoft-teams-dialer.md
+    - name: Link Dynamics 365 records to Microsoft Teams channels
+      items:
+      - name: Install and set up
+        href: teams-integration/teams-install-app.md
+      - name: Enable Sensitivity labels
+        href: teams-integration/sensitivity-labels.md
+  - name: Productivity and document management
     items:
     - name: Activity management
       items:
@@ -156,14 +172,6 @@
       href: enable-automatic-generation-quotes-invoices.md
     - name: Enable creation of orders from quotes
       href: enable-creation-of-orders-from-quotes.md
-    - name: Configure Microsoft Teams dialer
-      href: configure-microsoft-teams-dialer.md
-    - name: Install and set up Microsoft Teams integration
-      href: /dynamics365/teams-integration/teams-install-app?context=/dynamics365/context/sales-context
-    - name: Enable or disable Microsoft Teams chat in Dynamics 365
-      href: /dynamics365/teams-integration/enable-teams-chat?context=/dynamics365/context/sales-context
-    - name: FAQ on Teams chat integration
-      href: /dynamics365/teams-integration/teams-in-dynamics-faq?context=/dynamics365/context/sales-context
     - name: Set up server-side synchronization for Exchange  
       href: /power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks?context=/dynamics365/context/sales-context
     - name: Integrate with OneDrive for Business
@@ -513,7 +521,25 @@
       href: use-zoominfo-app-data.md   
     - name: Scan business cards
       href: scan-business-cards.md
-  - name: Collaboration and productivity
+  - name: Collaboration
+    items:
+    - name: Microsoft Teams chat in Dynamics 365
+      items:
+      - name: Using Teams chat in Dynamics 365
+        href: teams-integration/using-teams-chat-in-dynamics.md
+    - name: Make and receive calls using Microsoft Teams
+      items:
+      - name: Make and receive calls through Microsoft Teams
+        href: call-using-microsoft-teams.md   
+    - name: Link Dynamics 365 records to Microsoft Teams channels
+      items:
+      - name: Basic vs Enhanced Collaboration Experience
+        href: teams-basic-vs-enhanced-collaboration.md
+      - name: Basic Collaboration with Teams
+        href: teams-collaboration.md
+      - name: Enhanced Collaboration with Teams
+        href: teams-collaboration-enhanced-experience.md
+  - name: Productivity and document management
     items:
     - name: Activity management
       items:
@@ -540,12 +566,6 @@
       href: notes-analysis.md   
     - name: Manage sales literature
       href: create-sales-literature.md
-    - name: Make and receive calls through Microsoft Teams
-      href: call-using-microsoft-teams.md          
-    - name: Collaborate using Microsoft Teams
-      href: /dynamics365/teams-integration/teams-collaboration?context=/dynamics365/context/sales-context
-    - name: Using Microsoft Teams chat in Dynamics 365
-      href: /dynamics365/teams-integration/using-teams-chat-in-dynamics?context=/dynamics365/context/sales-context
     - name: Use OneDrive for Business
       href: /powerapps/user/one-drive?context=/dynamics365/context/sales-context
     - name: Take notes by using OneNote
