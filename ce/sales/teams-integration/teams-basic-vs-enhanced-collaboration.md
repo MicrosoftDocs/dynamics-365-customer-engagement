@@ -36,4 +36,4 @@ Enable Basic Collaboration Experience to share documents between a connected Mic
 |**Enhanced Collaboration Experience**    | <ul><li>You need Microsoft 365 tenant admin permissions to enable this feature. </li><br/>  <li>When you choose the **Collaborate** option on in app record or view page, a set-up wizard will guide you through the connection set-up process between the app record or view page in customer engagement apps and Microsoft Teams collaboration.</li><br/> <li>You can manually pin an app record or view from the Microsoft Teams app and add recommended members if you are the team channel owner.</li><br/>  </ul>  
 
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

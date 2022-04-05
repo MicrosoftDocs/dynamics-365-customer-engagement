@@ -13,9 +13,9 @@ manager: shujoshi
 ---
 # Preview: Engage in Microsoft Teams chats from within Dynamics 365
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+[!INCLUDE [preview-disclaimer](../../includes/preview-disclaimer.md)]
 
 You can now engage in a Teams chat conversation from within Dynamics 365. While you're working on a customer engagement record, you can start a new Teams chat or link an existing chat to the record, and thus collaborate efficiently without switching context. Linking all the associated chats to the record helps you maintain all the conversations related to the record in one place.
 

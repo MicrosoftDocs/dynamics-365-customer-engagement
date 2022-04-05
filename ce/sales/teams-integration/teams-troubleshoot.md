@@ -21,6 +21,7 @@ search.app:
   - D365CE
   - Powerplatform
 ---
+
 # Troubleshoot Microsoft Teams integration with customer engagement apps in Dynamics 365
 
 This topic provides information about the error messages you might face with possible resolutions and some known issues.
@@ -243,4 +244,4 @@ To disable the user from accessing to the documents in the record from the custo
 
 
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -24,6 +24,7 @@ caps.latest.revision: 17
 # Delete personal data from Microsoft Teams
 
 ## Delete user data
+
 Your privacy is important to us. You can remove the personal data for customer engagement apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation) from Microsoft Teams.
 
 The following data is stored with Dynamics 365 app integration with Microsoft Teams.
@@ -48,4 +49,4 @@ For more information on how to install Windows PowerShell, see [Azure ActiveDire
 Record this information to provide to the support team.
 
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

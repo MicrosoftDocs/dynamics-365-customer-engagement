@@ -243,8 +243,9 @@ Teams integration with Dynamics 365 isn't available for Government GCC environme
 
 
 ### See also  
- [Troubleshoot Microsoft Teams integration](teams-troubleshoot.md)
+
+[Troubleshoot Microsoft Teams integration](teams-troubleshoot.md)
 
 
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -93,8 +93,9 @@ The [basic collaboration experience](teams-collaboration.md) only lets you pin a
 
 5. When the connection process is complete, the system will open Microsoft Teams and go to channel that you connected.
 
-## See also
+### See also
 - [Enable sensitivity labels to protect content in Microsoft Team](sensitivity-labels.md)
 
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

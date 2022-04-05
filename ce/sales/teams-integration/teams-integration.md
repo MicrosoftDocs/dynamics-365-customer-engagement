@@ -85,4 +85,4 @@ To manage admin settings for apps in Microsoft Teams, go to the Microsoft 365 ad
 
 
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

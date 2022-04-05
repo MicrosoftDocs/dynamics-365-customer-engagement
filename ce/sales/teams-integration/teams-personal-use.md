@@ -21,6 +21,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 caps.latest.revision: 17
 ---
+
 # View your personal dashboard with the Dynamics 365 app for Microsoft Teams
 
 
@@ -62,4 +63,4 @@ If you have more than one environment or app, you can use the **Settings** tab t
 
 
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
