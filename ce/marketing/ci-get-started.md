@@ -1,7 +1,7 @@
 ---
-title: "Connect rich customer information from multiple data sources to customer journeys (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Connect rich customer data from multiple sources to customer journeys (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to integrate Dynamics 365 Customer Insights profiles and segments with Dynamics 365 Marketing."
-ms.date: 03/30/2022
+ms.date: 04/05/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -17,31 +17,31 @@ search.app:
   - D365Mktg
 ---
 
-# Connect rich customer information from multiple data sources to customer journeys
+# Connect rich customer data from multiple sources to customer journeys
 
-Dynamics 365 Customer Insights applies artificial intelligence to analyze rich pools of customer data collected from across other apps like Dynamics 365 Sales, Service, and Marketing. Its standard functionality generates powerful analytical displays for each contact, which makes the information easy to understand and use.
+[Dynamics 365 Customer Insights](/dynamics365/customer-insights/overview) applies artificial intelligence to analyze rich pools of customer data. Customer Insights allows you to unify data from transactional, behavioral, and observational sources to create a 360-degree customer view. This means that you're no longer restricted by siloed data that requires you to look in multiple locations to track customer behavior. With Customer Insights, you can view powerful analytical displays for each contact. And connecting it to Dynamics 365 Marketing allows you to automate personalized responses to customer actions as they occur.
 
-With Customer Insights data, you can:
+By connecting Customer Insights data with Marketing, you can:
 
-- Target unified Customer Insights customer profiles and segments. This enables you to engage every customer, regardless of whether the customer's data is in Marketing or Customer Insights.
-- Base dynamic content (such as personalized tokens) in emails, SMS, and push notifications on measures such as loyalty status, subscription renewal date, parent account, or any other measure you have captured in the unified customer profile.
-- Load data from Dynamics 365 Marketing into Customer Insights and combine it with customer data from other sources.
-- Apply data cleansing, enrichment, fuzzy matching, and more.
+- Target unified customer profiles and segments. This enables you to engage every customer, regardless of the location of the customer's data.
+- Base dynamic content (such as personalized tokens) in emails, SMS, and push notifications on measures such as loyalty status, subscription renewal date, parent account, or any other measure you've captured in the unified Customer Insights profile.
+- Load data from Marketing into Customer Insights and combine it with customer data from other sources.
+- Apply Customer Insights data cleansing, enrichment, and fuzzy matching tools.
 
-## Use Customer Insights profiles and segments with real-time marketing features
+## Use rich customer profiles in real-time marketing
 
-*Description*
+Real-time marketing allows you to create [custom triggers](real-time-marketing-custom-triggers.md) that launch customer journeys based on any customer action. Of course, the more personalized your data is to each customer, the more relevant and personalized your journeys will be. This is what makes combining Marketing and Customer Insights so powerful. You can unify data from any source, then use it to fuel hyper-personalized customer journeys.
 
 Learn more: [Use Customer Insights profiles and segments in real-time marketing](real-time-marketing-ci-profile.md)
 
-## Use Customer Insights segments with outbound marketing features
+## Use unified segments with outbound customer journeys
 
-*Description*
+Customer Insights allows you to refine data from many sources and combine it into aggregated customer segments. By connecting Customer Insights with outbound marketing, these segments will automatically appear *and* refresh automatically in the customer journey designer.
 
 Learn more: [Use segments from Dynamics 365 Customer Insights with Dynamics 365 Marketing](customer-insights-segments.md)
 
-## Use Customer Insights data from your own data lake in Marketing
+## Pull data from your own Azure Data Lake Storage
 
-*Description*
+You aren't limited to cloud storage if you want to use Customer Insights data with Marketing. If you already have your own Azure Data Lake Storage set up, you can connect with Customer Insights, then share the data with the Marketing app just as you would with a cloud-based setup.
 
 Learn more: [Enable data sharing with Dataverse from your own Azure Data Lake Storage](/dynamics365/customer-insights/audience-insights/manage-environments#enable-data-sharing-with-dataverse-from-your-own-azure-data-lake-storage-preview)
