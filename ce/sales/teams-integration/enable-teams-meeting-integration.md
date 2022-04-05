@@ -58,4 +58,4 @@ You'll also need to turn on the following settings:
 ### See also
 
 [Customize record details in the side panel](customize-record-side-panel.md)    
-[Integrate Dynamics 365 and Microsoft Teams meetings](teams-meetings-integration.md)
+[Integrate Dynamics 365 and Microsoft Teams meetings](teams-meeting-integration.md)
