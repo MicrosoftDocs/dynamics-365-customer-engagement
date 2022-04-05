@@ -1,7 +1,7 @@
 ---
 title: "Configure customer support swarming for complex cases | MicrosoftDocs"
 description: "This topic provides steps to configure customer support swarming for cases in Dynamics 365 Customer Service and Microsoft Teams."
-ms.date: 04/02/2022
+ms.date: 04/05/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -92,11 +92,18 @@ In Dynamics 365, go to one of the apps and perform the following steps.
 In Customer Service Hub, perform the following steps.
       
 1. Go to **Service Management**.
-2. In **Collaboration** in the site map, select **Swarming using Teams**.
-3. If you haven't already activated the case details for the swarm form, do the following steps.
-4. Go to **Case details** on the administration page. Follow the link in the case details section titled **Activate case form for swarming**. The Power Apps Case Table Forms page is displayed.
-5. Select the **Case form for swarm** form, select the ellipsis, and then select **Activate form**. This makes the form active.
-6. Open the form (or select the ellipsis and then select **Edit form**), and then publish it by selecting **Publish** on the top-right side of the form.
+1. In **Collaboration** in the site map, select **Swarming using Teams**.
+1. If you haven't already activated the case details for the swarm form, do the following steps.
+1. Go to **Case details** on the administration page. Follow the link in the case details section titled **Activate case form for swarming**. The Power Apps Case table form page is displayed.
+1. Select the **Case form for swarm** form, select the ellipsis, and then select **Activate form**. This makes the form active.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Power Apps Case table forms page.](media/teams-swarm-power-apps-table-case.png "Power Apps Case table form page")
+
+1. Open the form (or select the ellipsis and then select **Edit form**), and then publish it by selecting **Publish** on the top-right side of the form.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Publish the case form for swarm.](media/teams-swarm-table-form-publish.png "Publish the case form for swarm")
 
 
 ## Turn on the swarm expert notification flow in Power Automate
@@ -112,6 +119,9 @@ To ensure that swarm experts receive invitations in Teams, turn on the Power Aut
 1. After completing the edits, select **Save**.
 
 1. Return to the main form and select **Turn on** to activate the flow.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Activate the swarm flow.](media/teams-swarm-flow-enable.png "Activate the swarm flow")
 
 > [!Note]
 > You can configure various administration sections without turning on swarming. This is useful in ensuring you have fully configured the feature before enabling the feature. Once enabled, it appears on the agent's desktop, which might cause issue if it's not fully functional.
@@ -164,9 +174,12 @@ If your organization is already using skills in resource scheduling or Omnichann
 
 If you haven't already configured skills, then perform the following steps.
 
-1. Select **Go to skills**. The **Active characteristics** page is displayed.
+1. Select :::image type="icon" source="./media/teams-swarm-go-to-skills-icon.png" border="false":::. The **Active characteristics** page is displayed.
 
 1. To add a new skill, on the command menu, select **New**. The **New Characteristic** form is displayed.
+
+   > [!div class="mx-imgBorder"] 
+   > ![View of the New Charactistic form.](media/teams-swarm-new-characteristic.png "New Characteristic form")
 
 1. Enter the **Name** and **Description** details for the skill, and select the **Characterisic Type**.
 
@@ -179,13 +192,23 @@ If you haven't already configured skills, then perform the following steps.
 
 #### Bulk import of skills
 
-If the skills you want to use to match experts to swarms are stored in another system outside of Dataverse, you can import them from Excel.
+If the skills you want to use to match experts to swarms are stored in another system outside of Dataverse, you can import them using Excel.
 
-1. On the skills page, select the list of skills, and then select **Export to Excel**. 
+1. On the skills page, select the list of skills, and then select **Export to Excel**.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Export to Excel option for skills list.](media/teams-swarm-excel.png "Skills list Export to Excel option")
 
 1. Open the downloaded Excel spreadsheet, and add rows that include the information for the different skills that match your business needs.
 
+   > [!div class="mx-imgBorder"] 
+   > ![Edit Excel spreadsheet.](media/teams-swarm-excel.png "Edit Excel spreadsheet")
+
 1. Save the spreadsheet, and then import it using the **Import from Excel** wizard.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Import Excel spreadsheet.](media/teams-swarm-import-excel.png "Import the Excel spreadsheet using the wizard")
+
 
 ### Add experts
 
@@ -198,6 +221,9 @@ If you haven't already configured experts, then perform the following steps.
 1. On the command menu, select **New**.
 
 1. On the **New Bookable Resource** form, enter the **User** and **Name** information.
+
+   > [!div class="mx-imgBorder"] 
+   > ![New bookable resources page.](media/teams-swarm-new-bookable-resource.png "New bookable resources page")
 
 1. Confirm or change the **Time Zone**, and then select **Save**.
 
@@ -217,6 +243,9 @@ You can map skills and expert resources using respective grids on the skills and
 
 1. On the **Characteristic** page of a skill, select the **Related** tab, and then select **Resource Characteristics**.
 
+   > [!div class="mx-imgBorder"] 
+   > ![Resource Characteristics page.](media/teams-swarm-resource-characteristics.png "Resource Characteristics page")
+
 1. Select **+New Bookable Resource** to add a new resource to the skill.
 
 #### Bulk map skills and experts
@@ -226,6 +255,9 @@ If you want to bulk map skills and experts, perform the following steps.
 1. On the **Characteristic** page of a skill, select the **Resource Characteristics** tab.
 
 1. Select the ellipsis, and then select **Export Selected Records**. An Excel spreadsheet is opened.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Export Selected Records option.](media/teams-swarm-export-records.png "Export Selected Records option")
 
 1. Enter the resource and characteristic to match the fields that are exported. 
 
@@ -241,7 +273,10 @@ You can attach characteristics (skills) in the **Resources** form by performing 
 
 ### Define swarm rules
 
-You can define swarm rules that identify the skills that should be suggested when an agent types a swarm question that matches the conditions of a rule. Expert suggestions are defined with the goal of finding the minimum set of experts in your organization who match the maximum number of skills suggested for a swarm.
+You can define swarm rules that identify the skills that should be suggested when an agent makes a swarm request that matches the conditions of a rule. Expert suggestions are defined with the goal of finding the minimum set of experts in your organization who match the maximum number of skills suggested for a swarm.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Edit a swarm rule.](media/teams-swarm-edit-rule.png "Edit a swarm rule")
 
 The following are aspects of configuring swarm rules.
 
@@ -253,7 +288,7 @@ The following are aspects of configuring swarm rules.
 
 - Depending on the rules you define, you can add one or more specific unique skills.
 
-- To add a new skill from the rule builder, perform the following steps, in the **Select skill** field, select the search icon, and then on the **Lookup records** pane, select the search icon in the **Look for characteristic** field, and then select **Advanced lookup**. A page opens where you can choose skills (characteristics) using **Add new record**.
+- To add a new skill from the rule builder, in the **Select skill** field, select the search icon, and then on the **Lookup records** pane. Select the search icon in the **Look for characteristic** field, and then select **Advanced lookup**. A page opens where you can choose skills (characteristics) using **Add new record**.
 
 - If you choose **+New characteristic** on the **Lookup records** pane, you have to leave the current page to create the new skill.
 
@@ -296,6 +331,9 @@ To set up swarm privileges for agents, perform the following steps.
    - Swarm participant rule
    - Swarm role
    - Swarm skill
+
+   > [!div class="mx-imgBorder"] 
+   > ![Security role swarm privilege page.](media/teams-swarm-role-privileges.png "Assign swarm privileges for security role")
 
 1. Select the **Service** tab, and then for **Characteristic**, select the security privileges.
 
