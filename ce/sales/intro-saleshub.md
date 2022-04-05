@@ -44,12 +44,10 @@ Sales Hub is a Microsoft first-party app that's designed and configured for idea
 -   Get access to the preview features with minimal configuration.
 
 -   (Sales Enterprise users) Get access to the premium features, for a specific period, when they're made available.
--   Customize the app and configure the features as required.
-
--   Use the Microsoft documentation to train your sales organization as the documentation is based on the Sales Hub app. You need not create custom documentation.
+-   Customize the app and configure the features as required. 
 - Enable your sales team to harness the power of data and intelligence. The app will help them to forecast, compare annual projections, and measure performance using predictive scoring. 
 - Allow sellers to collaborate using Teams from within Dynamics 365 to accelerate their pipeline, while managers can track team performance and provide coaching to increase customer satisfaction.
-- 
+- Use the Microsoft documentation to train your sales organization as the documentation is based on the Sales Hub app. You need not create custom documentation.
 
 > [!NOTE]
 > The Sales Hub app can coexist with any custom sales apps that you might have in your organization. To learn the benefits of using the Sales Hub app versus a custom app, see [Guidance on Sales Hub and custom model driven apps](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/guidance-on-sales-hub-and-custom-model-driven-apps).

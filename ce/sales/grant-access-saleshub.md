@@ -1,7 +1,7 @@
 ---
-title: "Use the Sales Hub app to access Dynamics 365 Sales features | MicrosoftDocs"
-description: "The Sales Hub app is preinstalled and preconfigured with several core sales and sales insights features to help you get started quickly"
-ms.date: 03/31/2022
+title: "Grant or revoke access to the Sales Hub app | MicrosoftDocs"
+description: "As an administrator, you can either grant or revoke access to a security role or to specific users."
+ms.date: 04/05/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -45,3 +45,8 @@ As an administrator, you can either grant or revoke access to a security role or
     - To grant access to specific users, assign the **Sales, Enterprise app access** role to the users. To revoke access, remove the role for the user. For more information on adding or removing users from a security role, see [Assign security roles to users](security-roles-for-sales.md#assign-security-roles-to-users).
 
 If you've granted access, the users will see the Sales Hub app in their published apps page. If you've revoked access, the app will be removed from published apps page of the users.
+
+### See also
+
+- [Why should you use the Sales Hub app?](intro-saleshub.md#why-should-you-use-the-sales-hub-app)
+- [Access the Sales Hub app](intro-saleshub.md#access-the-sales-hub-app)

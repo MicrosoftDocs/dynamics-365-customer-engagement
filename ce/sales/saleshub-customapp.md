@@ -25,9 +25,23 @@ Use the following table to compare the Sales Hub app and custom app, and decide 
 | Customizations                                                        | Customizations are possible. Customizations are not overwritten by any new updates to the app.                            | Completely customizable. Customers have full control of navigation and user experience.                                                                                                                          |
 | New feature availability                                              | New features are instantly available in the app.                                                                                             | Adding the UI elements and controls required for the new features is solely the customer's responsibility. Some new features may not be available immediately. They could be made available in the next release. |
 
+## When should you a create custom app instead of customizing the Sales Hub app
 
+Every sales implementation has unique aspects and considerations that will influence the application strategy.
 
-## How Sales Hub app updates impact customizations
+Create a custom app in the following cases:
+
+- For traditional sales roles, the recommendation is to leverage the Sales Hub app. However, for non-traditional sales roles such as senior executives who just need to see Power BI dashboards and a handful of entities, or an audit supervisor who only needs to see the won opportunities, a custom app is the recommended approach.
+
+- When you want to combine specific components and processes from two or more first-party apps such as Sales Hub and Customer Service Hub, assess which application is primary and consider the different types of personas it must cater to:
+
+    - For a salesperson, who needs to access all the sales module components and the customer assets entity from customer service module, it is recommended to configure Sales Hub app to include customer assets entity.
+
+    - For a customer service manager, who needs to have access to the case management module and  the opportunities pipeline, it is recommended to configure the Customer Service Hub app to include the opportunity entity.
+    - For a very customized sales process where the built-in sales module is not used, many custom entities are created and the customer wants to remove all or many of the built-in components, a custom app is recommended.
+- When customers need to build an XRM solution that is neither sales nor customer service and there is a need to keep the application lean without many of the OOB first party components, a custom app is recommended as well.
+
+## How Sales Hub app updates handle customizations
 
 To help ensure that the Sales Hub customizations are not overwritten by the Sales Hub app update, Microsoft adopts the following practices:
 
