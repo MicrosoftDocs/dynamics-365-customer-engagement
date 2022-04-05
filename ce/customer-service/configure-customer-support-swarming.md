@@ -28,7 +28,7 @@ ms.custom:
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
-As an administrator, you can help transform your organization into a unified customer service team by configuring your applications so that agents and subject matter experts can "swarm" together when resolving complex cases.
+Customer support swarming is a way to quickly bring together experts across your business to help agents solve issues. As an administrator, you can help transform your organization into a unified customer service team by configuring your applications so that agents and subject matter experts can "swarm" together when resolving complex cases.
 
 Some of the key benefits of customer support swarming include:
 
@@ -40,7 +40,7 @@ Some of the key benefits of customer support swarming include:
 
 Swarming features are available in Dynamics 365 Customer Service workspace, Customer Service Hub, and custom apps.
 
-To use customer service swarming, you must have a Dynamics 365 Customer Service Enterprise license.
+To use customer support swarming, you must have a Dynamics 365 Customer Service Enterprise license.
 
 ## Overview of the customer support swarming page
 
@@ -64,15 +64,13 @@ Use the following image and legend to understand the layout of the customer supp
 
 To configure customer support swarming, you must have administrator privileges.
 
-Use the following steps to configure the customer support swarm feature.
-
 1. [Turn on the Embedded chat using Teams feature](#turn-on-embedded-chat-using-teams)
 1. [Activate case details on swarms](#activate-case-details-on-swarms)
 1. [Turn on the swarm expert notification flow in Power Automate](#turn-on-the-swarm-expert-notification-flow-in-power-automate)
 
 ## Turn on Embedded chat using Teams
 
-In Dynamics 365, go to one of the apps, and perform the following steps.
+In Dynamics 365, go to one of the apps and perform the following steps.
    
  ### Customer Service admin center (preview)
      
@@ -127,6 +125,7 @@ Important things to keep in mind when creating the swarm guide:
  - While the guide content is editable by you, as the administrator, the guide you create will apply to all different swarm types, and can't be further customized.
  
  - The guide template is rich text-enabled.
+ 
  - The guide template has a 500-character limit.
 
 To create the swarm guide, perform the following steps.
@@ -140,6 +139,7 @@ To create the swarm guide, perform the following steps.
 When an agent creates a swarm, the system includes fields from the related case and account to provide more context for the swarm participants who join. 
 
 As an administrator, you can configure which case fields to include as part of the swarm form.
+
    - Out-of-box account fields include customer name, email, and phone number.
   
    - Out-of-box case fields include the following:
@@ -172,11 +172,10 @@ If you haven't already configured skills, then perform the following steps.
 
 1. Select **Save**.
 
-The new skill must be assigned to an expert so that it can be used in swarming. 
-
-1. Go to the command bar and select **Assign**.
-
-1. Enter the details for the expert, and then select **Save**.
+> [!Note]
+> The new skill must be assigned to an expert so that it can be used in swarming. 
+> 1. On the command bar and select **Assign**.
+> 1. Enter the details for the expert, and then select **Save**.
 
 #### Bulk import of skills
 
