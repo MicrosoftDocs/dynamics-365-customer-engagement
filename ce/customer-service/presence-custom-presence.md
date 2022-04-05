@@ -1,7 +1,7 @@
 ---
 title: Configure and manage presence and custom presence | MicrosoftDocs
 description: See how you can configure and manage presence and custom presence in Omnichannel for Customer Service
-ms.date: 04/09/2021
+ms.date: 04/04/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -56,10 +56,7 @@ In addition to the out-of-box presence statuses, admins can configure custom pre
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
 
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-    > [!IMPORTANT]
-    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
     - In the site map, in **Agent experience**, select **Productivity**.
    
