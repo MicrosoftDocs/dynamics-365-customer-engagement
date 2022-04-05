@@ -1,7 +1,7 @@
 ---
 title: "raiseEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
-description: "Includes description, syntax, and parameter information for the raiseEvent method in JavaScript API Reference for Dynamics 365 Channel Integration Framework 2.0. "
-ms.date: 12/21/2021
+description: "Includes reference information such as description, syntax, and parameter information for the raiseEvent method in JavaScript API Reference for Dynamics 365 Channel Integration Framework 2.0. "
+ms.date: 04/07/2022
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
