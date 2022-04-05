@@ -560,11 +560,11 @@
     - name: Link Dynamics 365 records to Microsoft Teams channels
       items:
       - name: Basic vs Enhanced Collaboration Experience
-        href: teams-basic-vs-enhanced-collaboration.md
+        href: teams-integration/teams-basic-vs-enhanced-collaboration.md
       - name: Basic Collaboration with Teams
-        href: teams-collaboration.md
+        href: teams-integration/teams-collaboration.md
       - name: Enhanced Collaboration with Teams
-        href: teams-collaboration-enhanced-experience.md
+        href: teams-integration/teams-collaboration-enhanced-experience.md
   - name: Productivity and document management
     items:
     - name: Activity management
