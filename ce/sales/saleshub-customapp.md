@@ -1,6 +1,6 @@
 ---
 title: "Sales Hub app versus custom app | MicrosoftDocs"
-description: "The Sales Hub app is preinstalled and preconfigured with several core sales and sales insights features to help you get started quickly"
+description: "Learn the scenarios when to use the Sales Hub app over a custom app and vice versa."
 ms.date: 03/30/2022
 ms.topic: article
 
