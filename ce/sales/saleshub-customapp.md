@@ -25,21 +25,25 @@ Use the following table to compare the Sales Hub app and custom app, and decide 
 | Customizations                                                        | Customizations are possible. Customizations are not overwritten by any new updates to the app.                            | Completely customizable. Customers have full control of navigation and user experience.                                                                                                                          |
 | New feature availability                                              | New features are instantly available in the app.                                                                                             | Adding the UI elements and controls required for the new features is solely the customer's responsibility. Some new features may not be available immediately. They could be made available in the next release. |
 
-## When should you a create custom app instead of customizing the Sales Hub app
+## When to create custom app and when to customize the Sales Hub app
 
 Every sales implementation has unique aspects and considerations that will influence the application strategy.
 
-Create a custom app in the following cases:
+**Create a custom app in the following cases**:
 
-- For traditional sales roles, the recommendation is to leverage the Sales Hub app. However, for non-traditional sales roles such as senior executives who just need to see Power BI dashboards and a handful of entities, or an audit supervisor who only needs to see the won opportunities, a custom app is the recommended approach.
+- You want an app for the non-traditional sales roles such as senior executives, who just need to see Power BI dashboards and a handful of entities, or an audit supervisor who only needs to see the won opportunities.
+- Your organization has a completely customized sales process and the built-in sales module doesn't cater to your needs. 
+- You've created many custom entities and you want to remove all or many of the built-in components. 
+- You want to build an XRM solution that is neither focused on sales nor customer service. You want to keep the application lean without many of the built-in first-party components.
 
-- When you want to combine specific components and processes from two or more first-party apps such as Sales Hub and Customer Service Hub, assess which application is primary and consider the different types of personas it must cater to:
+**Customize the first-party apps (such as Sales Hub) in the following cases**:
 
-    - For a salesperson, who needs to access all the sales module components and the customer assets entity from customer service module, it is recommended to configure Sales Hub app to include customer assets entity.
+- When your organization follows the standard sales practices with minor tweaks.
+- When you want to combine specific components and processes from two or more first-party apps such as Sales Hub and Customer Service Hub, assess which application is primary for the persona it caters  to:
 
-    - For a customer service manager, who needs to have access to the case management module and  the opportunities pipeline, it is recommended to configure the Customer Service Hub app to include the opportunity entity.
-    - For a very customized sales process where the built-in sales module is not used, many custom entities are created and the customer wants to remove all or many of the built-in components, a custom app is recommended.
-- When customers need to build an XRM solution that is neither sales nor customer service and there is a need to keep the application lean without many of the OOB first party components, a custom app is recommended as well.
+    - For a salesperson, who needs to access all the sales module components and the customer assets entity from customer service module, configure Sales Hub app to include the customer assets entity.
+
+    - For a customer service manager, who needs to have access to the case management module and  the opportunities pipeline, configure the Customer Service Hub app to include the opportunity entity.
 
 ## How Sales Hub app updates handle customizations
 
