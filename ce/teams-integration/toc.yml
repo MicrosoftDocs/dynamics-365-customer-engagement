@@ -11,6 +11,9 @@
   - name: Delete personal data
     href: teams-delete-data.md
   - name: Link Dynamics 365 records to Microsoft Teams channels
+    href: link-d365-records.md
+  - name: Integrate Dynamics 365 and Microsoft Teams meetings
+    href: teams-meeting-integration.md
   - name: FAQ on Teams chat integration
     href: teams-in-dynamics-faq.md
   - name: Troubleshoot
