@@ -269,7 +269,7 @@
             - name: "removeHandler"
               href: v2/reference/microsoft-ciframework/removeHandler.md
             - name: "updateContext"
-              href: v2/reference/microsoft-ciframework/updateContext.md            
+              href: v2/reference/microsoft-ciframework/updateContext.md
       - name: "Client-side events"
         href: v2/reference/client-side-events.md
         items:
