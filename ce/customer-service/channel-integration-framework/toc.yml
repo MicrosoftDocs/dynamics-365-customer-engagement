@@ -55,26 +55,6 @@
             href: reference/microsoft-ciframework/setMode.md
           - name: "getMode"
             href: reference/microsoft-ciframework/getMode.md
-        - name: "getEntityMetadata"
-          href: reference/microsoft-ciframework/getEntityMetadata.md
-        - name: "setClickToAct"
-          href: reference/microsoft-ciframework/setClickToAct.md
-        - name: "getClickToAct"
-          href: reference/microsoft-ciframework/getClickToAct.md
-        - name: "searchAndOpenRecords"
-          href: reference/microsoft-ciframework/searchAndOpenRecords.md
-        - name: "getEnvironment"
-          href: reference/microsoft-ciframework/getEnvironment.md
-        - name: "openForm"
-          href: reference/microsoft-ciframework/openForm.md
-        - name: "renderSearchPage"
-          href: reference/microsoft-ciframework/renderSearchPage.md
-        - name: "addHandler"
-          href: reference/microsoft-ciframework/addHandler.md
-        - name: "removeHandler"
-          href: reference/microsoft-ciframework/removeHandler.md
-        - name: "updateContext"
-          href: reference/microsoft-ciframework/updateContext.md
         - name: "CRUD operations APIs"
           items:
           - name: "createRecord"
@@ -85,6 +65,30 @@
             href: reference/microsoft-ciframework/updateRecord.md
           - name: "deleteRecord"
             href: reference/microsoft-ciframework/deleteRecord.md
+        - name: "Miscellaneous APIs"
+          items: 
+          - name: "getEntityMetadata"
+            href: reference/microsoft-ciframework/getEntityMetadata.md
+          - name: "setClickToAct"
+            href: reference/microsoft-ciframework/setClickToAct.md
+          - name: "getClickToAct"
+            href: reference/microsoft-ciframework/getClickToAct.md
+          - name: "searchAndOpenRecords"
+            href: reference/microsoft-ciframework/searchAndOpenRecords.md
+          - name: "getEnvironment"
+            href: reference/microsoft-ciframework/getEnvironment.md
+          - name: "openForm"
+            href: reference/microsoft-ciframework/openForm.md
+          - name: "raiseEvent"
+            href: reference/microsoft-ciframework/raiseEvent.md  
+          - name: "renderSearchPage"
+            href: reference/microsoft-ciframework/renderSearchPage.md
+          - name: "addHandler"
+            href: reference/microsoft-ciframework/addHandler.md
+          - name: "removeHandler"
+            href: reference/microsoft-ciframework/removeHandler.md
+          - name: "updateContext"
+            href: reference/microsoft-ciframework/updateContext.md
       - name: "Client-side events"
         href: reference/client-side-events.md
         items:
