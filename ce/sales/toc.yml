@@ -128,6 +128,12 @@
       items:
       - name: Configure Teams chat
         href: teams-integration/enable-teams-chat.md
+    - name: Microsoft Teams meeting integration
+      items:
+      - name: Enable Microsoft Teams meeting integration
+        href: enable-teams-meeting-integration.md
+      - name: Customize record details in the side panel
+        href: customize-record-side-panel.md
     - name: Make and receive calls using Microsoft Teams
       items:
       - name: Configure Microsoft Teams dialer
@@ -527,6 +533,26 @@
       items:
       - name: Using Teams chat in Dynamics 365
         href: teams-integration/using-teams-chat-in-dynamics.md
+    - name: Microsoft Teams meeting integration
+      items:
+      - name: Overview
+        href: teams-meeting-integration.md
+      - name: Create a Teams meeting
+        href: create-teams-meeting.md
+      - name: Add the Dynamics 365 app to a Teams meeting
+        href: add-d365-app.md
+      - name: Work with the Dynamics 365 app
+        href: work-with-d365-app.md
+      - name: Join a Teams meeting
+        href: join-teams-meeting.md
+      - name: Work with notes during a meeting
+        href: work-with-notes.md
+      - name: Work with tasks during a meeting
+        href: work-with-tasks.md
+      - name: Work with activities during a meeting
+        href: work-with-activities.md
+      - name: Conversation intelligence capabilities during a meeting
+        href: ci-capabilities.md
     - name: Make and receive calls using Microsoft Teams
       items:
       - name: Make and receive calls through Microsoft Teams
