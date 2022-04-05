@@ -251,6 +251,8 @@
             href: v2/reference/microsoft-ciframework/refreshtab.md
           - name: "setTabTitle"
             href: v2/reference/microsoft-ciframework/settabtitle.md
+          - name: "closeTab"
+            href: v2/reference/microsoft-ciframework/closeTab.md
         - name: "Session indicator APIs"
           items:
           - name: "notifyKPIBreach"
