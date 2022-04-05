@@ -1,6 +1,6 @@
 ## Syntax
 
-`Microsoft.CIFramework.removeHandler(eventName, handlerFunction);`
+`Microsoft.CIFramework.raiseEvent(eventName, eventInputParameters, correlationId);`
 
 ## Parameters
 
