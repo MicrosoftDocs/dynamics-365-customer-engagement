@@ -1,7 +1,7 @@
 ---
 title: "Enable transcript for messaging channels in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how to set up the transcript experience for messaging channels in Omnichannel for Customer Service."
-ms.date: 02/11/2022
+ms.date: 04/04/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -34,10 +34,7 @@ As an administrator, you can enable live transcription and recording of conversa
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
      
      1. In the site map, select **Productivity** in **Agent experience**.
      2. On the **Productivity** page, select **Manage** for **Transcript**.
@@ -52,11 +49,11 @@ As an administrator, you can enable live transcription and recording of conversa
 
 ## View the transcripts
 
-You can view the conversation transcriptions in the Customer Service admin center (preview), Omnichannel admin center, and Omnichannel for Customer Service apps.
+You can view the conversation transcriptions in the Customer Service admin center, Omnichannel admin center, and Omnichannel for Customer Service apps.
 
 To view transcripts in Omnichannel admin center, do the following:
 
-1. In the Customer Service admin center (preview) site map, select **User management**, and then select **Manage** for **Users**. If you're using Omnichannel admin center, in the site map, select **Users**.
+1. In the Customer Service admin center site map, select **User management**, and then select **Manage** for **Users**. If you're using Omnichannel admin center, in the site map, select **Users**.
 2. Select the user whose conversations you want to view.
 3. Select the **Related** tab, and then select **Conversations** from the dropdown menu.
 4. Select **Closed conversations** from the dashboard dropdown menu.

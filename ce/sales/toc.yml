@@ -402,6 +402,8 @@
               href: manage-sales-teams.md
             - name: Manage seller attributes
               href: manage-seller-attributes.md
+        - name: Manage campaigns
+          href: configure-inapp-marketing.md
     - name: Guided selling
       expanded: true
       items: 

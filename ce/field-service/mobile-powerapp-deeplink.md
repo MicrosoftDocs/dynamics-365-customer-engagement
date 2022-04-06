@@ -10,8 +10,8 @@ ms.suite: ""
 applies_to:
 - "Dynamics 365 (online)"
 - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
+author: krbjoran
+ms.author: krbjoran
 manager: shellyha
 search.app:
 - D365CE
@@ -21,6 +21,9 @@ search.app:
 # Use deep links with the Field Service (Dynamics 365) mobile app
 
 Deep links let users move from one application to another on computers and mobile devices. Simple examples include a mobile app deep-linking to Facebook to sign in, an email address deep-linking to a mail app to compose a message, or a website deep-linking to an app store to download a related mobile app. Because multiple apps might be needed to complete onsite work, an organization can allow technicians to create deep links from Field Service (Dynamics 365) app to other apps and vice versa.
+
+> [!Note]
+> You can also deep-link within the Field Service (Dynamics 365) app to enable quick navigation to different parts of the app. For example, you can deep-link from a PCF control to a form on a different table (such as **Booking** or **Customer Asset**).
 
 ## Open an entity record or entity list view in the Field Service (Dynamics 365) mobile app
 

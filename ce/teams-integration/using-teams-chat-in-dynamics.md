@@ -1,7 +1,7 @@
 ---
 title: "Using Teams chat in Dynamics 365 | MicrosoftDocs"
 description: "Start Teams chat conversations from within Dynamics 365 customer engagement apps and link them to records"
-ms.date: 11/03/2021
+ms.date: 04/01/2022
 ms.topic: article
 author: lavanyakr01
 
@@ -22,6 +22,8 @@ As a Dynamics 365 customer engagement app user, you can start or link chat conve
 
 > [!NOTE]
 > Your administrator must have enabled this functionality. For more information, go to [Admin: Enable or disable the Teams chat in Dynamics 365 (preview)](enable-teams-chat.md).
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWQEPI]
 
 ## Open Teams chats and channels related to a record
 
