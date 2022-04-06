@@ -37,14 +37,14 @@ The lifecycle of a meeting can be divided into the following stages, with each s
     -	[Create a Teams meeting](#create-a-teams-meeting)
     -	[Join a Teams meeting](#join-a-teams-meeting)
     -	[Add Dynamics 365 app to a Teams meeting](#add-dynamics-365-app-to-a-teams-meeting)
-    -	[Use the Dynamics 365 app to view and update record information](#work-with-dynamics-365-app)
+    -	[Use the Dynamics 365 app to view and update record information](#work-with-the-dynamics-365-app)
 -	In-meeting: In this stage, you perform the following tasks:
     -	Use the side-panel to view and update record information
     -	[Work with notes during a meeting](#work-with-notes-during-a-meeting)
     -	[Work with tasks during a meeting](#work-with-tasks-during-a-meeting)
     -	[Work with activities during a meeting](#work-with-activities-during-a-meeting) 
 -	Post-meeting: In this stage, you perform the following tasks:
-    -	[Use the Dynamics 365 app to view and update record information](#work-with-dynamics-365-app)
+    -	[Use the Dynamics 365 app to view and update record information](#work-with-the-dynamics-365-app)
 
 ### Create a Teams meeting
 
