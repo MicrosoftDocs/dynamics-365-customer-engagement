@@ -300,7 +300,7 @@ The following aspects apply to swarm rule configuration.
 
 - Rules are run in the order in which they're listed. As an administrator, you can reorder, edit, delete, or copy rules.
 
-## Configure contacts to automatically add to warms
+## Configure contacts to automatically add to swarms
 
 In addition to matching skills to find experts, by default, the system adds out-of-box contacts to the swarm. These participants are added to the swarm automatically without a swarm invitation. Typically, their role is to observe the swarm process and provide customer information if needed, or manage customer communications.
 
