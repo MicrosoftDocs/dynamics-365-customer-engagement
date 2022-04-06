@@ -1,7 +1,7 @@
 ---
 title: "Customer support swarming for agents | MicrosoftDocs"
 description: "Learn how to use customer support swarming to help resolve case issues more quickly in Dynamics 365 Customer Service."
-ms.date: 04/02/2022
+ms.date: 04/05/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -19,21 +19,37 @@ ms.custom:
 
 # Use customer support swarming
 
+> [!IMPORTANT]
+> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
+>
+> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+>
+> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+>
+> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+
+## Introduction
+
 When you work on time-sensitive, complex customer issues, there are times when it's useful to apply the expertise of coworkers outside of your Dynamics 365 Customer Service team. 
 
-Using the customer support swarming feature, you can effortlessly find the right set of experts to work with on a customer's issue and collaborate with those peers directly from your desktop.
+Using the customer support swarming feature, you can effortlessly find the right set of experts to work with on your customer issue, and collaborate with those peers directly from your desktop.
 
-## Start a swarm
-
-### Prerequisites
+## Prerequisites
 
 To be able to create a swarm when working on a customer issue, you must have the following prerequisites in place.
 
-- Swarming privileges
+- Swarming privileges 
 - Embedded Microsoft Teams chat enabled for the agent desktop
 
-1. To start a swarm, on the Customer Service command bar, select **Create swarm**. The **Customer support swarming (preview)** page opens with the **Case details** displayed on the left side pane.
-   The case and account fields are read-only, and are designed to give other swarm participants the associated details about the case.
+## Start a swarm
+
+1. On the Customer Service command bar, select **Create swarm**.
+
+   > [!div class="mx-imgBorder"] 
+   > ![Create swarm option on the command bar.](media/teams-create-swarm.png "Create swarm option on the command bar")
+
+  The **Customer support swarming (preview)** page opens with the **Case details** displayed on the left side pane. The case and account fields are read-only, and are designed to give other swarm participants the associated details about the case.
+  
    > [!Note]
    > If you don't see the **Create swarm** option, check the overflow actions. If you still don't see it, ask your administrator to assign access privileges for you.
 
@@ -46,8 +62,8 @@ To be able to create a swarm when working on a customer issue, you must have the
      
      Suggested skills have the light bulb icon. You can also select up to 10 skills (both system-suggested and manually selected) that you think are relative to the case. (Manually selected skills won't have the light bulb icon next to them.)
     
-        > [!Note]
-        > If neither the system or you designate any skills, you can still create the swarm but no experts will be added. In this scenario, we recommend asking your supervisor for help with identifying the appropriate skills to get expert support.
+      > [!Note]
+      > If neither the system or you designate any skills, you can still create the swarm but no experts will be added. In this scenario, we recommend asking your supervisor for help with identifying the appropriate skills to get expert support.
 
 1. Save and send your swarm invitation. A linked swarm chat is created, and the contacts configured by your administrator are automatically added to the chat.
 
