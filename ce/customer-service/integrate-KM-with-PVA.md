@@ -1,7 +1,7 @@
 ---
 title: Integrate knowledge management in Dynamics 365 with a Power Virtual Agents bot | MicrosoftDocs
 description: Learn about the integration of knowledge management in Dynamics 365 with a Power Virtual Agents bot.
-ms.date: 04/01/2022
+ms.date: 04/06/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -71,38 +71,44 @@ To set connection references:
 
      :::image type="content" source="media/con-ref-notification.png" alt-text="Connection reference notification":::
 
-2. Configure the connection references.
+1. Configure the connection references.
 
      :::image type="content" source="media/con-ref.png" alt-text="Connection References page"::: 
 
-3. Go to the knowledge article solution and turn on the **Search knowledge article flow**.
+1. Select **Default Solution** > **Cloud flows** and turn on **Search Dynamics 365 knowledge article flow (Preview)** flow.
 
-     :::image type="content" source="media/ka_art_on.png" alt-text="Turn search knowledge article flow to on":::
+     :::image type="content" source="media/ka-article flow-on.png" alt-text="Turn on knowledge article flow":::
 
 ### Call the flow as a one-time mandatory step
-    
-You must create a topic with two question nodes for search text and filter. For filter, the Power Virtual Agents author can provide a dummy filter value, for example, **statecode eq 3**. This step ensures that flow is properly configured and can now be replaced with **Search knowledge article extended** topic.  
+
+You can create a topic with two question nodes for search text and filter or you can configure the search integration to set up a fall-back topic in case of an unrecognized search phrase. More information: [Configure the system fallback topic in Power Virtual Agents](/power-virtual-agents/authoring-system-fallback-topic)
+   
+If you are creating a topic with two question nodes for search text and filter, for filter, the Power Virtual Agents author can provide a dummy filter value, for example, **statecode eq 3**. This step ensures that flow is properly configured and can now be replaced with **Search knowledge article extended** topic.  
   
 1. Within the topic, create a question node to ask the user to search for the input text.
 
     :::image type="content" source="media/question_node.png" alt-text="Create a question node":::
     
-2. Create a question node for the filter and provide the dummy filter value after you trigger the topic.
+1. Create a question node for the filter and provide the dummy filter value after you trigger the topic.
     
-3. Select **Add node** and select **Call an action**. Select **Search knowledge article flow**.
+1. Select **Add node** and select **Call an action**. Select **Search knowledge article flow**.
      
-4. Provide the input to the flow.
+1. Provide the input to the flow.
     
     :::image type="content" source="media/search-flow.png" alt-text="Describes the search flow":::
     
-5. Add a message node to show the results returned by the flow. More information: [Render results](#render-results) 
+1. Add a message node to show the results returned by the flow. More information: [Render results](#render-results)
+
+:::image type="content" source="media/mesg_node.png" alt-text="Add message node.":::
     
-    :::image type="content" source="media/mesg_node.png" alt-text="Message node"::: 
+1. Select **Save**. An error might appear if filter is not provided to the flow.
     
-6. Select **Save**. An error might appear if filter is not provided to the flow.
-    
-7. Use the trigger phase and run the topic.
-      
+1. Use the trigger phase and run the topic.
+
+> [!TIP]
+> You can configure your topic to handle cases where your search doesn’t return any results by modifying the search terms or filter conditions. You can add a condition to take appropriate action in cases where no search results are returned by the  topic.
+
+:::image type="content" source="media/no-search-results.png" alt-text="Add a condition when no search results are returened":::  
   
 ### Add the dialog to the Power Virtual Agents topic
    
