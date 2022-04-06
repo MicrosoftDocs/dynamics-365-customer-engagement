@@ -342,3 +342,8 @@ To set up swarm privileges for agents, perform the following steps.
 1. Select the **Service** tab, and then for **Characteristic**, select the security privileges.
 
 1. Save and publish your changes.
+
+
+### See also
+
+[Use customer support swarming](use-customer-support-swarming.md)
