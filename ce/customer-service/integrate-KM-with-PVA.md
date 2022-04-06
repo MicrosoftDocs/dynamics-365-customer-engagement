@@ -28,7 +28,7 @@ Integrating a Power Virtual Agents bot with knowledge management makes it easier
 
 You can integrate knowledge management with a Power Virtual Agents bot by using either of the following ways:
 
-- **Search Dynamics 365 knowledge articles (Preview)** dialog.
+- **Search Dynamics 365 knowledge articles (Preview)** action.
 - Power Automate flow template.
 
 ## Prerequisites
@@ -48,17 +48,17 @@ You can integrate knowledge management with a Power Virtual Agents bot by using 
     - For more information on creating a bot, see: [Create and delete Power Virtual Agents bots](/power-virtual-agents/authoring-first-bot)
     - For more information on creating a topic, see: [Create and edit topics in your Power Virtual Agents bot](/power-virtual-agents/authoring-create-edit-topics)
    
-## Use the Search Dynamics 365 knowledge article flow (Preview) dialog
+## Use the Search Dynamics 365 knowledge article flow (Preview) action
 
-You must perform the following steps to integrate knowledge management with a Power Virtual Agents bot using the **Search Dynamics 365 knowledge article flow (Preview)** dialog:
+You must perform the following steps to integrate knowledge management with a Power Virtual Agents bot using the **Search Dynamics 365 knowledge article flow (Preview)** action:
  
    1. Set connection references.
    1. Call the flow as a one-time mandatory step.
-   1. Add the dialog to the Power Virtual Agents topic.
+   1. Add the action to the Power Virtual Agents topic.
 
 ### Set connection references
 
-Knowledge Power Virtual Agents solution makes use of the flow which uses connections, such as **Content Conversion** and **Microsoft Dataverse**. You must configure these connection references before turning the **Search Dynamics 365 knowledge article flow (Preview) dialog** on.
+Knowledge Power Virtual Agents solution makes use of the flow which uses connections, such as **Content Conversion** and **Microsoft Dataverse**. You must configure these connection references before turning the **Search Dynamics 365 knowledge article flow (Preview)** action on.
 
 > [!NOTE]
 > If you have the Environment Maker role and can't see either the notification for connection references or the cloud flow, then you don't have the permission to update them. You must contact your system administrator or system customizer to set the connection references and enable the flow.
@@ -90,7 +90,7 @@ If you are creating a topic with two question nodes for search text and filter, 
     
 1. Create a question node for the filter and provide the dummy filter value after you trigger the topic.
     
-1. Select **Add node** and select **Call an action**. Select **Search Dynamics 365 knowledge article flow (Preview)** dialog.
+1. Select **Add node** and select **Call an action**. Select **Search Dynamics 365 knowledge article flow (Preview)** action.
      
 1. Provide the input to the flow.
     
@@ -109,17 +109,17 @@ If you are creating a topic with two question nodes for search text and filter, 
 
   :::image type="content" source="media/no-search-results.png" alt-text="Add a condition when no search results are returened":::  
   
-### Add the dialog to the Power Virtual Agents topic
+### Add the action to the Power Virtual Agents topic
 
 After you have completed the two previous steps, you can configure any bot in the organization to access knowledge articles using the **Search Dynamics 365 knowledge articles (Preview)** action.
    
 1. After the topic is configured, replace the **Search Dynamics 365 knowledge article flow (Preview)** with the **Search Dynamics 365 knowledge articles (Preview)** action.
 
-    :::image type="content" source="media/search-dialog.png" alt-text="Add dialog to pva topic":::
+    :::image type="content" source="media/search-dialog.png" alt-text="Add action to pva topic":::
 
 2. Remove the filter question node. More information on filters, see [Working with filters](#working-with-filters).
 
-3. Update the message node with the output from the extended topic and select **Save**.
+3. Update the message node with the output from the action and select **Save**.
 
 #### Working with filters
 - By default, the search is performed on the external published articles (**statecode eq 3** and **isinternal eq false**). If you need to perform additional filtering, you can set the desired filter query as the Filter (text) input variable.
