@@ -49,8 +49,8 @@ Use the following image and legend to understand the layout of the customer supp
    > [!div class="mx-imgBorder"] 
    > ![Customer support swarming page in Dynamics 365 Customer Service.](media/teams-swarm-page.png "Customer support swarming page")
 
-
-| | Functionality | Description |
+**Legend**
+| Number | Functionality | Description |
 |-----|------------|------------|
 |1 | Swarming toggle | Turns on the swarming feature. |
 |2 | Agent swarm guide | Admininstrator-provided guidance to help agents know what content to include to begin a swarm or manage the swarm process. |
