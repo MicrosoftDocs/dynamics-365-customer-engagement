@@ -190,7 +190,7 @@ If you haven't already configured skills, then perform the following steps.
 > 1. On the command bar and select **Assign**.
 > 1. Enter the details for the expert, and then select **Save**.
 
-#### Bulk import of skills
+#### Bulk import skills
 
 If the skills you want to use to match experts to swarms are stored in another system outside of Dataverse, you can import them using Excel.
 
@@ -227,7 +227,7 @@ If you haven't already configured experts, then perform the following steps.
 
 1. Confirm or change the **Time Zone**, and then select **Save**.
 
-#### Bulk import of resources
+#### Bulk import resources
 
 If the experts you want to use are stored in another system outside of Dataverse, you can import them using Excel, and then upload the experts who can be used as matches in swarms.
 
