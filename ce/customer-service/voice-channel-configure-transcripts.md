@@ -7,7 +7,6 @@ manager: shujoshi
 ms.date: 04/06/2022
 ms.topic: article
 
-
 ---
 
 # Configure call recordings and transcripts in the voice channel
@@ -56,7 +55,7 @@ You can view the call transcriptions in Omnichannel admin center.
 
 ### Storage location of your recordings and cost
 
-The maximum file size of a recording is 512 MB. The voice recordings and transcripts data resides in the following locations:
+The maximum file size of a recording can be 512 MB. The voice recordings and transcripts data resides in the following locations:
 
 - **Data at rest**: Is stored wherever your Dynamics instance is located.
 - **Data in transit**: For components within the Microsoft stack, we strive to ensure that data doesn’t cross geographical boundaries during transit. The bring your own carrier model has dependencies on third parties, and therefore, data needs to be reviewed end to end and will include components outside the Microsoft stack.
