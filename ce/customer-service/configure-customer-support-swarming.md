@@ -103,7 +103,7 @@ In Customer Service Hub, perform the following steps.
 1. Open the form (or select the ellipsis and then select **Edit form**), and then publish it by selecting **Publish** on the top-right side of the form.
 
    > [!div class="mx-imgBorder"] 
-   > ![Publish the case form for swarm.](media/teams-swarm-table-form-publish.png "Publish the case form for swarm")
+   > ![Publish the case form for swarm.](media/teams-swarm-tables-form-publish.png "Publish the case form for swarm")
 
 
 ## Turn on the swarm expert notification flow in Power Automate
