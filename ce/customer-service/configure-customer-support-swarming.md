@@ -61,7 +61,7 @@ Use the following image and legend to understand the layout of the customer supp
 |6 | Participants automatically added to swarms | Team contacts who are automatically added to swarms because of their relationship to the customer or the agent working on the issue. |
 |7 | Swarm expert notification | The Power Automate flow that turns on and manages swarm invitations that are sent to experts. |
 
-## Steps to configure customer support swarming
+## Prerequisites 
 
 To configure customer support swarming, you must have administrator privileges.
 
@@ -69,11 +69,11 @@ To configure customer support swarming, you must have administrator privileges.
 1. [Activate case details on swarms](#activate-case-details-on-swarms)
 1. [Turn on the swarm expert notification flow in Power Automate](#turn-on-the-swarm-expert-notification-flow-in-power-automate)
 
-## Turn on Embedded chat using Teams
+### Turn on Embedded chat using Teams
 
 In Dynamics 365, go to one of the apps and perform the following steps.
    
- ### Customer Service admin center (preview)
+ #### Customer Service admin center (preview)
      
    > [!IMPORTANT]
    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
@@ -81,14 +81,14 @@ In Dynamics 365, go to one of the apps and perform the following steps.
    1. In the site map, select **Collaboration** in **Experiences**.
    2. On the **Embedded chat using Teams** page, toggle on **Turn on Microsoft Teams chats inside Dynamics 365 (preview)**.
 
- ### Customer Service Hub
+ #### Customer Service Hub
     
   1. Go to **Service Management**.
   2. In **Collaboration** in the site map, select **Embedded chat using Teams**.
   3. Toggle on **Turn on Microsoft Teams chats inside Dynamics 365 (preview)**.
    
 
-## Activate case details on swarms
+### Activate case details on swarms
 
 In Customer Service Hub, perform the following steps.
       
@@ -107,7 +107,7 @@ In Customer Service Hub, perform the following steps.
    > ![Publish the case form for swarm.](media/teams-swarm-tables-form-publish.png "Publish the case form for swarm")
 
 
-## Turn on the swarm expert notification flow in Power Automate
+### Turn on the swarm expert notification flow in Power Automate
 
 To ensure that swarm experts receive invitations in Teams, turn on the Power Automate flow for swarm expert notifications. Complete the following steps.
 
@@ -127,7 +127,7 @@ To ensure that swarm experts receive invitations in Teams, turn on the Power Aut
 > [!Note]
 > You can configure various administration sections without turning on swarming. This is useful in ensuring you have fully configured the feature before enabling the feature. Once enabled, it appears on the agent's desktop, which might cause issue if it's not fully functional.
 
-### Create the swarm guide
+## Create the swarm guide
 
 The swarm guide is agent-facing text that appears in the interface to help agents create a swarm. The swarm guide helps ensure that your agents type the right questions and provide helpful context to effectively match skills and find experts. 
 
@@ -145,7 +145,7 @@ To create the swarm guide, perform the following steps.
 
 1. Type your details, and then select **Save**.
 
-### Edit case details
+## Edit case details
 
 When an agent creates a swarm, the system includes fields from the related case and account to provide more context for the swarm participants who join. 
 
@@ -169,7 +169,7 @@ To configure case details, perform the following steps:
 
 1. When finished, select **Publish** on the top-right side of the page.
 
-### Add new skills
+## Add new skills
 
 If your organization is already using skills in resource scheduling or Omnichannel for Customer Service, you can reuse the skills to define swarm rules. 
 
@@ -186,7 +186,7 @@ If you haven't already configured skills, then perform the following steps.
 
 1. Select **Save**.
 
-#### Assign the new skill to an expert
+### Assign the new skill to an expert
 
 To use the new skill in customer support swarming, you must assign it to an expert.
 
@@ -194,7 +194,7 @@ To use the new skill in customer support swarming, you must assign it to an expe
 
 1. Enter the details for the expert, and then select **Save**.
 
-#### Bulk import skills
+### Bulk import skills
 
 If the skills you want to use to match experts to swarms are stored in another system outside of Dataverse, you can import them using Excel.
 
@@ -214,7 +214,7 @@ If the skills you want to use to match experts to swarms are stored in another s
    > ![Import Excel spreadsheet.](media/teams-swarm-import-excel.png "Import the Excel spreadsheet using the wizard")
 
 
-### Add experts
+## Add experts
 
 If your organization is already using bookable resources in resource scheduling or omnichannel, you can reuse the resources to define your swarm rules.
 
@@ -231,7 +231,7 @@ If you haven't already configured experts, then perform the following steps.
 
 1. Confirm or change the **Time Zone**, and then select **Save**.
 
-#### Bulk import resources
+### Bulk import resources
 
 If the experts you want to use are stored in another system outside of Dataverse, you can import them using Excel, and then upload the experts who can be used as matches in swarms.
 
@@ -241,7 +241,7 @@ If the experts you want to use are stored in another system outside of Dataverse
 
 1. On the **Active Bookable Resources** page, select **Import from Excel**, and then complete the wizard to import the spreadsheet.
 
-### Map skills and experts
+## Map skills and experts
 
 You can map skills and expert resources using respective grids on the skills and resources form.
 
@@ -252,7 +252,7 @@ You can map skills and expert resources using respective grids on the skills and
 
 1. Select **+New Bookable Resource** to add a new resource to the skill.
 
-#### Bulk map skills and experts
+### Bulk map skills and experts
 
 If you want to bulk map skills and experts, perform the following steps.
 
@@ -267,7 +267,7 @@ If you want to bulk map skills and experts, perform the following steps.
 
 1. Import the record back into Customer Service Hub.
 
-#### Attach characteristics in the Resources form
+### Attach characteristics in the Resources form
 
 You can attach characteristics (skills) in the **Resources** form by performing the following steps.
 
@@ -275,7 +275,7 @@ You can attach characteristics (skills) in the **Resources** form by performing 
 
 1. Edit the form, and then select **Save**.
 
-### Define swarm rules
+## Define swarm rules
 
 You can define swarm rules that identify the skills that should be suggested when an agent makes a swarm request that matches the conditions of a rule. Expert suggestions are defined with the goal of finding the minimum set of experts in your organization who match the maximum number of skills suggested for a swarm.
 
@@ -300,7 +300,7 @@ The following are aspects of configuring swarm rules.
 
 - Rules are run in the order in which they're listed. As an administrator, you can reorder, edit, delete, or copy rules.
 
-### Automatically add contacts to swarms
+## Configure contacts to automatically add to warms
 
 In addition to matching skills to find experts, by default, the system adds out-of-box contacts to the swarm. These participants are added to the swarm automatically without a swarm invitation. Typically, their role is to observe the swarm process and provide customer information if needed, or manage customer communications.
 
@@ -309,7 +309,7 @@ A minimum of two participants are required for a swarm. Swarm contacts include t
  - Optional: The administrator of the team the agent is a member of.
  - Optional: The owner of the related account.
 
-### Grant swarm privileges for agents
+## Grant swarm privileges for agents
 
 Agents need specific privileges to ensure that they can effectively swarm. Use the following table to understand the privileges and types.
 
