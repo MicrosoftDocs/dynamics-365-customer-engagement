@@ -20,7 +20,14 @@ ms.custom:
 
 # Use Microsoft Teams meeting integration in Customer Service (preview)
 
-
+> [!IMPORTANT]
+> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
+>
+> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+>
+> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+>
+> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
 The Teams meeting integration feature provides a unified meeting experience that helps you, as an agent, to reduce your administrative workload and increase productivity. The Dynamics 365 records are accessible while conducting a meeting over Teams, which you can refer to and have contextually relevant conversations with your customers. You can also take notes to help save time, be more productive, and leverage better data within your organization. 
 
