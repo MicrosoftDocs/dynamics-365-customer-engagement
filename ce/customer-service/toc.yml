@@ -492,6 +492,8 @@
         href: extend-transformer-logic-template.md
   - name: Microsoft Teams collaboration
     items:
+    - name: Introduction to collaboration
+      href: collaboration.md
     - name: Administrator experience
       items: 
       - name: Configure Teams chat
