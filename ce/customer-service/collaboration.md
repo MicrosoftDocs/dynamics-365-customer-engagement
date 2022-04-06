@@ -11,7 +11,7 @@ ms.date: 04/06/2022
 
 # Overview of collaboration
 
-Collaboration features make it easier for agents to find the help they need when working on complex cases using Microsoft Teams. By enabling agents to find experts, chat with peers in Teams, and set meetings, collaboration helps turn your business into a unified and cohesive customer service center. Collaboration features work in Customer Service admin center, Customer Service Hub, Customer Service workspace, and your custom apps. 
+Collaboration features make it easy for agents to find the help they need in Microsoft Teams from within Customer Service admin center, Customer Service Hub, Customer Service workspace, and your custom apps. Using collaboration features, agents can find experts, chat with peers in Teams, and set meetings. Collaboration helps turn your business into a unified and cohesive customer service center. 
 
 ## Embedded chat using Teams
 
