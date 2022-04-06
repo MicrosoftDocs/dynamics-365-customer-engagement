@@ -9,17 +9,17 @@ ms.date: 04/06/2022
 
 ---
 
-# Overview of Collaboration
+# Overview of collaboration
 
-Collaboration features it easy for agents to find the help they need in Microsoft Teams from within Customer Service admin center, Customer Service Hub, Customer Service workspace, and your custom apps. By enabling agents to find experts, chat with peers in Teams, and set meetings, collaboration helps turn your business into a unified and cohesive customer service center.
+Collaboration features make it easier for agents to find the help they need when working on complex cases using Microsoft Teams. By enabling agents to find experts, chat with peers in Teams, and set meetings, collaboration helps turn your business into a unified and cohesive customer service center. Collaboration features work in Customer Service admin center, Customer Service Hub, Customer Service workspace, and your custom apps. 
 
 ## Embedded chat using Teams
 
-Agents can start a new chat or link an existing chat to a record in Teams, and thus collaborate efficiently without switching context or leaving the application. Linking all the associated chats to a record can help agents maintain the chats related to the record in one place. More information: [Configure Teams chat](configure-teams-chat.md)
+Agents can start a new chat or link an existing chat to a record in Teams without switching context or leaving the application. Linking all the associated chats to a record can help agents maintain the chats in one place. More information: [Configure Teams chat](configure-teams-chat.md)
 
 ## Customer support swarming using Teams
 
-Customer support swarming helps agents more quickly solve issues by bringing together the right experts across your business. More information: [Configure customer support swarming](configure-customer-support-swarming.md)
+Customer support swarming helps agents more quickly resolve issues by bringing together the right experts across your business. More information: [Configure customer support swarming](configure-customer-support-swarming.md)
 
 ### See also
 [Configure Teams chat](configure-teams-chat.md)<br>
