@@ -49,10 +49,7 @@ To be able to create a swarm when working on a customer issue, you must have the
    > ![Create swarm option on the command bar.](media/teams-create-swarm.png "Create swarm option on the command bar")
 
   The **Swarm** page opens with the **Case details** displayed on the left side pane. The case and account fields are read-only, and are designed to give other swarm participants the associated details about the case.
-    
-   > [!div class="mx-imgBorder"] 
-   > ![Swarm case details page.](media/teams-swarm-case-details.png "Swarm case details page")
-  
+ ![image](https://user-images.githubusercontent.com/52931214/161988407-dcfbf3ce-ef39-4185-8ff0-9c43ccd669bd.png)
    > [!Note]
    > If you don't see the **Create swarm** option, check the overflow actions. If you still don't see it, ask your administrator to assign access privileges for you.
 
@@ -72,6 +69,9 @@ To be able to create a swarm when working on a customer issue, you must have the
 
    > [!Note]
    > By default, your supervisor is automatically added to create the swarm. If you don't have a supervisor, your administrator who configured the swarm is automatically added.
+
+  > [!div class="mx-imgBorder"] 
+  > ![View of the linked swarm chat page.](media/teams-swarm-request.png "Linked swarm chat page")
    
    The following actions and views occur:
    - The system finds the minimum set of experts needed to cover as many of the skills suggested or that you added as possible.
