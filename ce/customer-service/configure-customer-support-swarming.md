@@ -28,7 +28,7 @@ ms.custom:
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
-Customer support swarming is a way to quickly bring together experts across your business to help agents solve issues. As an administrator, you can help transform your organization into a unified customer service team by configuring your applications so that agents and subject matter experts can "swarm" together when resolving complex cases.
+Customer support swarming is a way to quickly bring together experts across your business to help agents solve issues. AS an administrator, you can create a more unified customer service team by configuring your applications so that agents and subject matter experts can "swarm" together when resolving complex cases.
 
 Some of the key benefits of customer support swarming include:
 
@@ -109,9 +109,9 @@ In Customer Service Hub, perform the following steps.
 
 ### Turn on the swarm expert notification flow in Power Automate
 
-To ensure that swarm experts receive invitations in Teams, turn on the Power Automate flow for swarm expert notifications. Complete the following steps.
+To ensure that swarm experts receive invitations in Teams, turn on the Microsoft Power Automate flow for swarm expert notifications. Perform the following steps.
 
-1. On the customer support swarming configuration page, go to the swarm expert notification tile.
+1. On the customer support swarming configuration page, go to the **Swarm expert notification** card.
 
 1. Select the **Edit flow in Power Automate** link.
 
@@ -129,11 +129,11 @@ To ensure that swarm experts receive invitations in Teams, turn on the Power Aut
 
 ## Create the swarm guide
 
-The swarm guide is agent-facing text that appears in the interface to help agents create a swarm. The swarm guide helps ensure that your agents type the right questions and provide helpful context to effectively match skills and find experts. 
+The swarm guide is text that appears in the app to help agents create a swarm. The swarm guide helps ensure that your agents type the right questions and provide helpful context to effectively match skills and find experts. 
 
 Important things to keep in mind when creating the swarm guide:
  
- - While the guide content is editable by you, as the administrator, the guide you create will apply to all different swarm types, and can't be further customized.
+ - You can edit the guide content, and the guide you create will apply to all different swarm types. It can't be further customized.
  
  - The guide template is rich text-enabled.
  
@@ -141,7 +141,7 @@ Important things to keep in mind when creating the swarm guide:
 
 To create the swarm guide, perform the following steps.
 
-1. On the **Agent swarm guide** tile, select **Edit**.
+1. On the **Agent swarm guide** card, select **Edit**.
 
 1. Type your details, and then select **Save**.
 
@@ -149,7 +149,7 @@ To create the swarm guide, perform the following steps.
 
 When an agent creates a swarm, the system includes fields from the related case and account to provide more context for the swarm participants who join. 
 
-As an administrator, you can configure which case fields to include as part of the swarm form.
+You can configure which case fields to include as part of the swarm form.
 
    - Out-of-box account fields include customer name, email, and phone number.
   
