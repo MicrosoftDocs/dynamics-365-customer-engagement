@@ -60,7 +60,7 @@ To be able to create a swarm when working on a customer issue, you must have the
        - Attempts to match skills based on your swarm question
        - Suggests skills based on case title or other case-related conditions your administrator has defined
      
-     Suggested skills have the light bulb icon. You can also select up to 10 skills (both system-suggested and manually selected) that you think are relative to the case. (Manually selected skills won't have the light bulb icon next to them.)
+     Suggested skills have the light bulb icon. You can also select up to 10 skills (both system-suggested and manually selected) that you think are relevant to the case. (Manually selected skills won't have the light bulb icon next to them.)
     
       > [!Note]
       > If neither the system or you designate any skills, you can still create the swarm but no experts will be added. In this scenario, we recommend asking your supervisor for help with identifying the appropriate skills to get expert support.
