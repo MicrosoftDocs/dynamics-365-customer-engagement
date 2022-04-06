@@ -30,7 +30,7 @@ By connecting Customer Insights data with Marketing, you can:
 
 ## Use rich customer profiles in real-time marketing
 
-Real-time marketing allows you to create [custom triggers](real-time-marketing-custom-triggers.md) that launch customer journeys based on any customer action. Of course, the more personalized your data is to each customer, the more relevant and personalized your journeys will be. This is what makes combining Marketing and Customer Insights so powerful. You can unify data from any source, then use it to fuel hyper-personalized customer journeys.
+Real-time marketing allows you to create [custom triggers](real-time-marketing-custom-triggers.md) that launch customer journeys based on any customer action. Of course, the more personalized your data, the more relevant and personalized your journeys will be. This is what makes combining Marketing and Customer Insights so powerful. You can unify data from any source, then use it to fuel hyper-personalized customer journeys.
 
 Learn more: [Use Customer Insights profiles and segments in real-time marketing](real-time-marketing-ci-profile.md)
 
