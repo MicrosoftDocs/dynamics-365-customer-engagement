@@ -1,5 +1,5 @@
 ---
-title: "Qualify and convert leads | MicrosoftDocs"
+title: "Qualify and convert leads to opportunity | MicrosoftDocs"
 description: "Qualify the lead after you've identified the time frame, budget, and purchase process of the lead."
 ms.date: 03/23/2022
 ms.topic: article
@@ -16,9 +16,9 @@ searchScope:
   - Dynamics 365
   - Sales
 ---
-# Qualify and convert leads 
+# Qualify and convert leads to opportunity
 
-After you've identified the time frame, budget, and purchase process for a lead, qualify the lead with additional information such as account, contact, and opportunity to be associated.  
+After you've identified the time frame, budget, and purchase process for a lead, qualify the lead to create the corresponding account, contact, and opportunity.  
 
 ## License and role requirements
 | Requirement type | You must have |
@@ -27,15 +27,15 @@ After you've identified the time frame, budget, and purchase process for a lead,
 | **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
 
 
-## Qualify or convert a lead
+## Qualify a lead
 
 Your system administrator defines what happens to a lead when it is qualified:
 
 -  If your system administrator has set **Create Account, Contact, and Opportunity records by default upon qualifying a lead** to **No**, you'll be prompted to choose what records to create when the lead is qualified (account, contact, or opportunity). 
 
--  If they've set **Create Account, Contact, and Opportunity records by default upon qualifying a lead** to Yes, an account, contact, and opportunity record is created when the lead is qualified.
+-  If they've set **Create Account, Contact, and Opportunity records by default upon qualifying a lead** to **Yes**, an account, contact, and opportunity records are automatically created when the lead is qualified.
 
-**To qualify a lead**
+**Follow these steps:**
 
 1. Select the site map ![Site Map icon.](media/site-map-icon.png "site map icon"), and then select **Leads**.
 
