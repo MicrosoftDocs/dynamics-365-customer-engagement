@@ -377,6 +377,8 @@
         href: manage-sales-teams.md
       - name: Manage seller attributes
         href: manage-seller-attributes.md
+    - name: Manage Campaigns
+      href: configure-inapp-marketing.md
   - name: Guided selling
     items:      
     - name: Business process flows    

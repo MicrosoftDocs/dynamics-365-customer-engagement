@@ -1,7 +1,7 @@
 ---
 title: "Create and manage users and user profiles | MicrosoftDocs"
 description: "This article provides steps that you can perform to manage users in Omnichannel for Customer Service."
-ms.date: 03/16/2022
+ms.date: 04/04/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -24,10 +24,7 @@ Users should be configured as a bookable resource so that they can be assigned w
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
    
     1. In the site map, select **User management** in **Customer support**.
     

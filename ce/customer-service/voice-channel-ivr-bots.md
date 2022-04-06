@@ -4,7 +4,7 @@ description: "Learn about how to add a Power Virtual Agents bot for using in voi
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 02/18/2022
+ms.date: 04/04/2022
 ms.topic: article
 
 ms.custom: intro-internal
@@ -37,7 +37,7 @@ The following prerequisites must be met for the Power Virtual Agents bot:
 
 **To add and configure a bot for voice**
 
-1. In the Customer Service admin center (preview) or Omnichannel admin center app, go to the workstream that you created for the voice channel, and then in the **Bot section,** select **Add Bot**.
+1. In the Customer Service admin center or Omnichannel admin center app, go to the workstream that you created for the voice channel, and then in the **Bot section,** select **Add Bot**.
 
 
 1. On the **Add Bot** pane, select a bot from the **Name** box.
