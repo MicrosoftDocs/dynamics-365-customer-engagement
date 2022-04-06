@@ -1,7 +1,7 @@
 ---
 title: "Configure customer support swarming for complex cases | MicrosoftDocs"
 description: "This topic provides steps to configure customer support swarming for cases in Dynamics 365 Customer Service and Microsoft Teams."
-ms.date: 04/05/2022
+ms.date: 04/06/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -127,7 +127,7 @@ To ensure that swarm experts receive invitations in Teams, turn on the Microsoft
 > [!Note]
 > You can configure various administration sections without turning on swarming. This is useful in ensuring you have fully configured the feature before enabling the feature. Once enabled, it appears on the agent's desktop, which might cause issue if it's not fully functional.
 
-## Create the swarm guide
+## Edit the swarm guide
 
 The swarm guide is text that appears in the app to help agents create a swarm. The swarm guide helps ensure that your agents type the right questions and provide helpful context to effectively match skills and find experts. 
 
