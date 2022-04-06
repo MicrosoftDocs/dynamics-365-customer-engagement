@@ -1,7 +1,7 @@
 ---
 title: "Customize views (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "Use views in Dynamics 365 Sales to define how a list of records for a specific entity is displayed."
-ms.date: 10/01/2019
+ms.date: 03/23/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -15,12 +15,11 @@ ms.custom:
 In Dynamics 365 Sales, use views to define how a list of records for a specific entity is displayed. 
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator, Sales Manager, Sales Professional Manager, and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Sales Manager, Sales Professional Manager, or Vice President of Sales <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## What's a view
 
@@ -259,6 +258,16 @@ When you're finished creating or updating a view, you need to publish it so peop
 2.  In the designer, select **Publish**. 
 
 ---
+
+## Create a personal view
+
+Create personal views with columns and filters that are relevant for you. You can open an existing view and modify the columns, apply filters, and save it as a personal view.
+
+More information:
+- [Edit columns in the view](/powerapps/user/grid-filters-advanced#column-editor)
+- [Apply filters](/powerapps/user/grid-filters-advanced#filter-editor)
+- [Create a personal view](/powerapps/user/grid-filters-advanced#create-personal-views)
+
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 

@@ -1,14 +1,14 @@
 ---
-title: "Teams channel | MicrosoftDocs"
-description: "This topic provides an overview about Teams channel and incoming chat notifications in the agent dashboard for Omnichannel for Customer Service."
-ms.date: 10/12/2020
+title: "Use Microsoft Teams channel | MicrosoftDocs"
+description: "This article provides an overview of Microsoft Teams channel and incoming chat notifications in the agent dashboard for Omnichannel for Customer Service."
+ms.date: 04/04/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ---
 
-# Use a Microsoft Teams channel
+# Use Microsoft Teams channel
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -23,6 +23,7 @@ Make sure that your administrator has configured a Teams channel.
 ## Incoming Teams chat notification
 
 You'll receive a notification when a customer requests a conversation through Teams. When you accept the Teams chat request, a session is started, and you'll see the communication panel in which you can exchange messages with the customer.
+
 
 > [!div class=mx-imgBorder]
 > ![Teams chat agent notification.](media/incoming-chat-teams.png "Teams chat agent notification")
@@ -49,6 +50,8 @@ In Omnichannel for Customer Service, you can:
 - [View conversation and session forms](oc-view-activity-types.md).
 - [View the customer summary for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md).
 - [Search for transcripts](oc-search-transcipts.md).
+
+If your administrator has enabled the option to initiate voice and video calls (in preview) during the conversation, the options to use voice and video will be available on the communication panel menu.
 
 ### See also
 

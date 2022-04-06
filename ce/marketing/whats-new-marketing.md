@@ -53,7 +53,7 @@ The Dynamics 365 Marketing March 2021 update includes many new features. This re
     - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/connect-dynamics-365-customer-insights-customer-journey-orchestration-when-using-own-data-lake)
 - **Quickly create customer journeys triggered by marketing interactions such as webinar check-ins and form submissions**
     - New out-of-the-box triggers allow you to create customer journeys triggered by marketing interactions such as webinar check-ins and form submissions.
-    - Learn more: [Real-time marketing triggers](real-time-marketing-event-triggers.md).
+    - Learn more: [Real-time marketing triggers](real-time-marketing-triggers.md).
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of new triggers.](media/real-time-marketing-new-oob-triggers.png "Screenshot of new triggers")
@@ -116,7 +116,7 @@ The Dynamics 365 Marketing February 2021 update includes many new features and i
 - **Take action with your customers in more ways by raising triggers from a journey to run another journey or Power Automate flow**
     - Use custom triggers to link between journeys and between journeys and custom processes. A new journey tile will raise a trigger at any point in a customer journey. Any journey or Power Automate flows connected to the trigger run immediately run when a customer reaches the tile. This includes triggers used in exit criteria, goals, and if/then branches for journeys.
     - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/take-action-customers-more-ways-raising-triggers-journey-run-another-journey-or-power-automate)
-    - [Docs](real-time-marketing-custom-event-actions.md)
+    - [Docs](real-time-marketing-custom-actions.md)
 
 #### Monthly enhancements
 
@@ -236,7 +236,7 @@ With the Dynamics 365 Marketing November 2021 update you can export images from 
 - **Mobile channel**
     - Send Customer Voice surveys in SMS messages and push notifications. Learn more: [Add a Customer Voice survey to a text message](real-time-marketing-outbound-text-messaging.md#add-a-customer-voice-survey-to-a-text-message) and [Add a Customer Voice survey to a push notification](real-time-marketing-push-notifications.md#add-a-customer-voice-survey-to-a-push-notification).
 - **Scale**
-    - Send up to 100 million outbound interactions (email, SMS, or push notifications) per month to a maximum of 20 million contacts using real-time marketing journeys. Learn more: [Reach more customers with a 10X increase in the scale of interactions in real-time marketing journeys](/2021wave2/marketing/dynamics365-marketing/increase-reach-improved-scalability-real-time-marketing).
+    - Send up to 100 million outbound interactions (email, SMS, or push notifications) per month to a maximum of 20 million contacts using real-time marketing journeys. Learn more: [Reach more customers with a 10X increase in the scale of interactions in real-time marketing journeys](/dynamics365-release-plan/2021wave2/marketing/dynamics365-marketing/increase-reach-improved-scalability-real-time-marketing).
 
 ##### Outbound marketing
 
@@ -615,7 +615,7 @@ The May 2021 Marketing monthly update includes email editor improvements, expand
     - [Docs](real-time-marketing-push-notifications.md)
 - **Event catalog with built-in and custom events for triggering customer journeys**
     - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/event-catalog-built-in-custom-events-triggering-customer-journeys)
-    - [Docs](real-time-marketing-event-triggers.md)
+    - [Docs](real-time-marketing-triggers.md)
 - **Experiment with the next action in a journey to optimize for results**
     - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/experiment-next-action-journey-optimize-results)
     - [Docs](real-time-marketing-experimentation.md)

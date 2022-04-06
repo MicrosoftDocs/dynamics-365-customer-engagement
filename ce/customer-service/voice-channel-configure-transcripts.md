@@ -4,7 +4,7 @@ description: "Learn how to configure call recordings and transcripts in the voic
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 03/08/2022
+ms.date: 04/04/2022
 ms.topic: article
 ms.custom: intro-internal
 
@@ -23,7 +23,7 @@ As an administrator, you can enable live transcription and recording of calls, w
 
 ## Enable call recordings and transcripts for voice
 
-1. In Customer Service admin center (preview) or Omnichannel admin center, select the workstream for which you want to enable recordings and transcripts.
+1. In Customer Service admin center or Omnichannel admin center, select the workstream for which you want to enable recordings and transcripts.
 
 1. In the **Phone number** section, next to the pencil icon, select **Edit**.
 
@@ -43,7 +43,7 @@ As an administrator, you can enable live transcription and recording of calls, w
 
 You can view the call transcriptions in Omnichannel admin center.
 
-1. In Customer Service admin center (preview) or Omnichannel admin center,  go to manage **Users**, and then select the user whose conversations you want to view.
+1. In Customer Service admin center or Omnichannel admin center,  go to manage **Users**, and then select the user whose conversations you want to view.
 2. Select the **Related** tab, and then select **Conversations** from the dropdown menu.
 3. Select **Closed conversations** from the dashboard dropdown menu.
 
@@ -62,7 +62,7 @@ The voice recordings and transcripts data resides in the following locations:
 - **Data at rest**: Is stored wherever your Dynamics instance is located.
 - **Data in transit**: For components within the Microsoft stack, we strive to ensure that data doesn’t cross geographical boundaries during transit. The bring your own carrier model has dependencies on third parties, and therefore, data needs to be reviewed end to end and will include components outside the Microsoft stack.
 
-The data storage costs with two participants only is calculated as follows:
+The data storage costs with two participants only is calculated approximately as follows and the cost can fluctuate:
 
 - 20 minute call recording = 10240 KB
 - 20 minute call transcript = 40 KB

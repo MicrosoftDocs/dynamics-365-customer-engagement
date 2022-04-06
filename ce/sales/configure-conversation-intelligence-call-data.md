@@ -19,12 +19,11 @@ topic-status: Drafting
 Configure call data to assist sales managers to get an overview of the call center and drill down to get call statistics for individual sellers.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## Create repository and upload call data 
 
@@ -368,7 +367,7 @@ The call data storage container is updated, and you can start uploading the call
 
 [Introduction to administer conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)     
 [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md)     
-[FAQs](faqs-sales-insights.md)
+[Conversation Intelligence FAQs](faqs-sales-insights.md#conversation-intelligence)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

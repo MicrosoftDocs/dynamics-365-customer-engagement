@@ -22,12 +22,11 @@ applies_to:
 Configure auto capture to helps your sellers to get suggestions on relevant customer activities by capturing emails and meetings from Outlook.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## Configure the basic and premium auto capture
 
@@ -146,7 +145,8 @@ Premium auto capture is now enabled for your organization.
 
 ### See also
 
-[Introduction to administering Sales Insights](intro-admin-guide-sales-insights.md)
+[Introduction to administering Sales Insights](intro-admin-guide-sales-insights.md)  
+[Auto capture FAQs](faqs-sales-insights.md#auto-capture)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

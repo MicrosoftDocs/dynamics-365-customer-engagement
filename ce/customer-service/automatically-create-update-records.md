@@ -1,7 +1,7 @@
 ---
 title: Automatically create or update records in Customer Service Hub (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to automatically create or update records by setting up rules in Dynamics 365 Customer Service
-ms.date: 02/28/2022
+ms.date: 04/04/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -36,6 +36,8 @@ Every organization has multiple applications to capture customer interactions. T
 
 A record creation and update rule consist of rule items. The rule items define the conditions for creating or updating records, and also define the actions or steps to be taken on the records.
 
+When a case record is created through an automatic record creation rule, and the rule owner is a team, the owner of the case record will be the team's administrator user.
+
 ## Activities and entities supported by rules for creating or updating records automatically
 
  By default, Dynamics 365 Customer Service supports creating records from the following activities:  
@@ -59,17 +61,16 @@ Make sure that the following prerequisites are met:
 
 ## Configure rules for creating or updating records automatically
 
-You can configure a rule that when active will be run for incoming emails. Using the feature to create rules, you can define the conditions for when a rule can be run.
+You can configure a rule that when active will be run for incoming emails. By using the feature to create rules, you can define the conditions for when a rule can be run.
 
-You can configure the rules in the Customer Service admin center (preview) or Customer Service Hub app.
+
+
+You can configure the rules in the Customer Service admin center or Customer Service Hub app.
 
 1. Go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+   
      1. In the site map, select **Case Settings** in **Customer Support**. The **Case Settings** page appears.
      1. In the **Automatic record creation and update rules** section, select **Manage**.
 
