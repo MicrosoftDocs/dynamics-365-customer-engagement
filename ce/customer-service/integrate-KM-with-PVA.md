@@ -112,7 +112,7 @@ If you are creating a topic with two question nodes for search text and filter, 
   
 ### Add the dialog to the Power Virtual Agents topic
    
-1. After the topic is configured, replace the **Search knowledge article flow** with the ****Search Dynamics 365 knowledge article flow (Preview)** dialog.
+1. After the topic is configured, replace the **Search knowledge article flow** with the **Search Dynamics 365 knowledge article flow (Preview)** dialog.
 
     :::image type="content" source="media/search-dialog.png" alt-text="Add dialog to pva topic":::
 
