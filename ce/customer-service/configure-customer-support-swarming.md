@@ -50,6 +50,7 @@ Use the following image and legend to understand the layout of the customer supp
    > ![Customer support swarming page in Dynamics 365 Customer Service.](media/teams-swarm-page.png "Customer support swarming page")
 
 **Legend**
+
 | Number | Functionality | Description |
 |-----|------------|------------|
 |1 | Swarming toggle | Turns on the swarming feature. |
@@ -174,7 +175,7 @@ If your organization is already using skills in resource scheduling or Omnichann
 
 If you haven't already configured skills, then perform the following steps.
 
-1. Select :::image type="icon" source="./media/teams-swarm-go-to-skills-icon.png" border="false":::. The **Active characteristics** page is displayed.
+1. Select :::image type="icon" source="./media/teams-swarm-go-to-skills.png" border="false":::. The **Active characteristics** page is displayed.
 
 1. To add a new skill, on the command menu, select **New**. The **New Characteristic** form is displayed.
 
