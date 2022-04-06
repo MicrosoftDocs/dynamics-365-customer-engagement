@@ -61,7 +61,7 @@ You must perform the following steps to integrate knowledge management with a Po
 Knowledge Power Virtual Agents solution makes use of the flow which uses connections, such as **Content Conversion** and **Microsoft Dataverse**. You must configure these connection references before turning the **Search Dynamics 365 knowledge article flow (Preview) dialog** on.
 
 > [!NOTE]
-> If you have the Environment Maker role and can't see either the notification for connection references or the cloud flow, then you don't have the permission to update them. You must contact your System Administrator or System Customizer to set the connection references and enable the flow.
+> If you have the Environment Maker role and can't see either the notification for connection references or the cloud flow, then you don't have the permission to update them. You must contact your system administrator or system customizer to set the connection references and enable the flow.
 
 To set connection references:
    
