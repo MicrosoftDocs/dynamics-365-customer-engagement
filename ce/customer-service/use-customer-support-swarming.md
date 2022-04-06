@@ -49,7 +49,10 @@ To be able to create a swarm when working on a customer issue, you must have the
    > ![Create swarm option on the command bar.](media/teams-create-swarm.png "Create swarm option on the command bar")
 
   The **Swarm** page opens with the **Case details** displayed on the left side pane. The case and account fields are read-only, and are designed to give other swarm participants the associated details about the case.
- ![image](https://user-images.githubusercontent.com/52931214/161988407-dcfbf3ce-ef39-4185-8ff0-9c43ccd669bd.png)
+ 
+   > [!div class="mx-imgBorder"] 
+   > ![Swarm page with case details side pane.](media/teams-swarm-case-details.png "Swarm page with case details side pane displayed")
+
    > [!Note]
    > If you don't see the **Create swarm** option, check the overflow actions. If you still don't see it, ask your administrator to assign access privileges for you.
 
