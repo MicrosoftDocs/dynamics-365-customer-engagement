@@ -22,4 +22,4 @@ Additionally, sellers can use Conversation Intelligence capabilities (if enabled
 For app specific information about the feature, select the appropriate link below:
 
 - Dynamics 365 Sales: [Enable Microsoft Teams meeting integration](../sales/teams-integration/enable-teams-meeting-integration.md)
-- Dynamics 365 Customer Service: 
+- Dynamics 365 Customer Service: [Enable Microsoft Teams meeting integration](../customer-service/configure-teams-meetings.md)
