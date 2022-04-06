@@ -1,5 +1,5 @@
 ---
-title: "Using Teams chat in Dynamics 365 | MicrosoftDocs"
+title: "Use Teams chat in Dynamics 365 | MicrosoftDocs"
 description: "Start Teams chat conversations from within Dynamics 365 customer engagement apps and link them to records"
 ms.date: 04/01/2022
 ms.topic: article
@@ -11,7 +11,7 @@ ms.author: shjais
 manager: shujoshi
 ---
 
-# Preview: Using Microsoft Teams chat in Dynamics 365
+# Using Microsoft Teams chat in Dynamics 365 (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 

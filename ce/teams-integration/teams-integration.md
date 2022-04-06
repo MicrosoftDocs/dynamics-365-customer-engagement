@@ -51,7 +51,8 @@ Microsoft Teams is integrated into Dynamics 365 and additional capabilities are 
   - **Link Dynamics 365 records to Teams channels**: You can easily connect a Dynamics 365 record to an existing Teams channel or create a new team or channel. More information: [Enhanced Collaboration Experience with the Dynamics 365 app for Microsoft Teams](teams-collaboration-enhanced-experience.md)
 
   - **Embedded Teams calling**: Boost seller's productivity by making and receiving Teams calls directly in Dynamics 365. Avoid the need to switch apps, get calls automatically recorded in the relevant record's timeline and save your call notes directly where you need them.  More information: [Call customers through Microsoft Teams dialer in Dynamics 365 Sales](../sales/call-using-microsoft-teams.md)
-
+  
+  - **Integrate Dynamics 365 and Teams meetings**: Microsoft Teams meeting integration allows you to stay in the flow of work, whether you're in Dynamics 365 or Teams. In Dynamics 365, you can create and join Teams meetings directly from Dynamics 365. More information: [Integrate Dynamics 365 and Teams meetings](../sales/teams-integration/teams-meeting-integration.md)
 
 - **In Microsoft Teams**
 
@@ -60,6 +61,14 @@ Microsoft Teams is integrated into Dynamics 365 and additional capabilities are 
   - **File integration**: You can co-author documents using Microsoft 365 and automatically sync with Dynamics 365 records that are linked to a Teams channel. Files uploaded to a Teams channel are associated with the Dynamics 365 record. Similarly, files uploaded to the linked Dynamics 365 record are visible in the Teams channel. More information: [Document management with Microsoft Teams integration](teams-doc-management.md)
 
   - **Personal dashboard**: You can use the Dynamics 365 app to view your personal dashboard in Teams. More information: [View your personal dashboard with the Dynamics 365 app for Microsoft Teams](teams-personal-use.md)
+  
+  - **Work with Dynamics 365 records in a Teams meeting**: With Microsoft Teams meeting integration, you can:
+      - View and update Dynamics 365 records seamlessly in a Teams meeting.
+      - Capture notes and tasks seamlessly during a Teams meeting. Your notes and tasks automatically sync to Dynamics 365.
+      - Get real-time call analysis and insights during a Teams meeting with conversation intelligence.
+    
+    More information: [Work with the Dynamics 365 app](../sales/teams-integration/work-with-d365-app.md)
+
 
 
 ## Questions and feedback

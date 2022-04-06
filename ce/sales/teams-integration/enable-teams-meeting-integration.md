@@ -26,7 +26,7 @@ Additionally, sellers can use Conversation Intelligence capabilities (if enabled
 
 Teams meeting integration doesn't have any licensing restrictions. Any user in the organization can use the Dynamics 365 app for Teams in meetings, assuming they have the necessary privileges.
 
-Conversation intelligence requires a Sales Enterprise or Sales Premium license. For more information, see [Prerequisites to configure conversation intelligence](../sales/prereq-sales-insights-app.md).
+Conversation intelligence requires a Sales Enterprise or Sales Premium license. For more information, see [Prerequisites to configure conversation intelligence](../prereq-sales-insights-app.md).
 
 ## Enable Teams meeting integration
 
