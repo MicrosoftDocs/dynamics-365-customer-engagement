@@ -1,7 +1,7 @@
 ---
 title: "Use Microsoft Teams meetings in Customer Service | Microsoft Docs"
-description: "Learn how to use Microsoft Teams meetings functionality in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
-ms.date: 04/02/2022
+description: "Learn how to use Microsoft Teams meetings integration in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
+ms.date: 04/06/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -125,7 +125,7 @@ Select the Dynamics 365 app icon in the meeting toolbar at the upper-right area 
 > [!NOTE] 
 > The record side panel supports only Contact, Opportunity, Lead, Account, and Case tables. 
  
-IMAGE of the anatomy of the side panel
+:::image type="content" source="./media/teams-meeting-side-panel.png" alt-text="Record side panel in a Teams meeting.":::
 
 While in Teams, if you want to access a record directly in your Dynamics 365 app, you can open the record by selecting the popout icon on the side panel. 
 
@@ -159,7 +159,9 @@ Prerequisites:
 - A record must be linked to the meeting and the Dynamics 365 app must be added to the meeting. 
 - The side panel must be launched by selecting the Dynamics 365 app icon  in the meeting controls at the upper-right area of the screen.
   
-The latest note is displayed under the **Notes** section in the side panel. You can view all notes in a standalone panel by selecting **Show more notes**. If you add, edit, or delete notes from the side panel, the changes are synced with the linked Dynamics 365 record. 
+The latest note is displayed under the **Notes** section in the side panel. You can view all notes in a standalone panel by selecting **Show more notes**. If you add, edit, or delete notes from the side panel, the changes are synced with the linked Dynamics 365 record.
+
+:::image type="content" source="./media/teams-meeting-notes.png" alt-text="Notes in the record side panel in a Teams meeting.":::
 
 **Add a note** 
 
@@ -192,6 +194,8 @@ Prerequisites:
 - The side panel must be added to the meeting.
 
 The open tasks are displayed under the **Tasks** section in the side panel. You can view all tasks in a standalone panel by selecting **Show more tasks**. If you add, edit, or delete tasks from the side panel, the changes are synced with the linked Dynamics 365 record. The tasks are sorted by their due date, prioritizing the tasks that are due soon or overdue.
+
+:::image type="content" source="./media/teams-meeting-tasks.png" alt-text="Tasks in the record side panel in a Teams meeting":::
 
 **Add a task** 
 
