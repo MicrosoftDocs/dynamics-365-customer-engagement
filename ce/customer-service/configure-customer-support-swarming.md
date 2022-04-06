@@ -63,7 +63,7 @@ Use the following image and legend to understand the layout of the customer supp
 
 ## Prerequisites 
 
-To configure customer support swarming, you must have administrator privileges.
+To configure customer support swarming, you must have administrator privileges and complete the following prerequisite steps.
 
 1. [Turn on the Embedded chat using Teams feature](#turn-on-embedded-chat-using-teams)
 1. [Activate case details on swarms](#activate-case-details-on-swarms)
@@ -169,7 +169,7 @@ To configure case details, perform the following steps:
 
 1. When finished, select **Publish** on the top-right side of the page.
 
-## Add new skills
+## Add and assign new skills
 
 If your organization is already using skills in resource scheduling or Omnichannel for Customer Service, you can reuse the skills to define swarm rules. 
 
@@ -267,7 +267,7 @@ If you want to bulk map skills and experts, perform the following steps.
 
 1. Import the record back into Customer Service Hub.
 
-### Attach characteristics in the Resources form
+## Attach characteristics in the Resources form
 
 You can attach characteristics (skills) in the **Resources** form by performing the following steps.
 
