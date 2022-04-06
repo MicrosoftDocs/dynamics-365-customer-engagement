@@ -58,7 +58,7 @@ To be able to create a swarm when working on a customer issue, you must have the
 
 1.  On the **Swarm** form, type information into the following fields:
     - **Swarm request**: Type a succinct question about what you want help with. The question will be used to find skills and experts to help you.
-    - **What are some things you have already tried?** (optional, 500-character limit): Type the details about steps you've already taken to try to resolve the issue, and any results. These details help confirm that any required processes have been followed, and also provides immediate context for other swarm participants who are invited to collaborate on the issue.
+    - **Steps already tried** (optional, 500-character limit): Type the details about steps you've already taken to try to resolve the issue, and any results. These details help confirm that any required processes have been followed, and also provides immediate context for other swarm participants who are invited to collaborate on the issue.
     - **What skills do you need?** (optional): As part of the swarm request, the system takes the following actions: 
        - Attempts to match skills based on your swarm question
        - Suggests skills based on case title or other case-related conditions your administrator has defined
