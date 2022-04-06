@@ -61,8 +61,8 @@ You must perform the following steps to integrate knowledge management with a Po
 Knowledge Power Virtual Agents solution makes use of the flow which uses connections, such as **Content Conversion** and **Microsoft Dataverse**. You must configure these connection references before turning the **Search Dynamics 365 knowledge article flow (Preview) dialog** on.
 
 > [!NOTE]
-> - You must have a system administrator role to be able to set connection references. If you have the Environment Maker role and can't see either the notification for connection references or the cloud flow, then you don't have the permission to update them. You must contact your system administrator or system customizer to set the connection references and enable the flow.
-> - When the connection references are set, the bots in the environment can access knowledge articles if the **Search Dynamics 365 knowledge article flow (Preview)** dialog is used in the bot topics.
+> You must have a system administrator role to be able to set connection references. If you have the Environment Maker role and can't see either the notification for connection references or the cloud flow, then you don't have the permission to update them. You must contact your system administrator or system customizer to set the connection references and enable the flow.
+
 
 To set connection references:
    
@@ -111,6 +111,8 @@ If you are creating a topic with two question nodes for search text and filter, 
 :::image type="content" source="media/no-search-results.png" alt-text="Add a condition when no search results are returened":::  
   
 ### Add the dialog to the Power Virtual Agents topic
+
+After you have completed the two previous steps, you can configure any bot in the organization to access knowledge articles using the **Search Dynamics 365 knowledge article flow (Preview)** action.
    
 1. After the topic is configured, replace the **Search knowledge article flow** with the **Search Dynamics 365 knowledge article flow (Preview)** dialog.
 
