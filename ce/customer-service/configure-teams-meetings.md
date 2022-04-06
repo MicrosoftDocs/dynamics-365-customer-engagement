@@ -91,3 +91,5 @@ The side panel helps agents quickly view and update details of the related recor
 
 1.	Edit the form to manage the fields that appear in the side panel. By default, all the fields in the form are editable. If you want to set a field as read-only, select the field, and then enable the **Read-only** property.
    
+### See also
+[Use Microsoft Teams Meeting integration in Customer Service](use-teams-meetings.md)
