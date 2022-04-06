@@ -20,9 +20,9 @@ searchScope:
 
 Create an opportunity when your lead is almost ready to buy. Use one of the following methods to create an opportunity:
 
-- Convert a qualified lead into an opportunity. In this case,
+- Convert a lead into an opportunity. In this case,
     - Information from the lead record is copied to the opportunity.
-    - The lead and opportunity records are linked. 
+    - The lead and opportunity records are linked. All the activities and notes in the lead record also becomes available in the corresponding opportunity record. 
 - Create a new opportunity from scratch if it didn't originate from a lead.  
 
 ## License and role requirements
@@ -73,8 +73,9 @@ Create an opportunity with the details you have. You can update the opportunity 
 ## Typical next steps  
 
  ![Right arrow button](media/orange-right-arrow-button.png "Right arrow button") [Preview: Find and add multiple products to an opportunity](add-products-enhanced-experience.md)  
- ![Right arrow button](media/orange-right-arrow-button.png "Right arrow button") [Add contacts relevant for the opportunity](add-stakeholder.md)
- ![Right arrow button](media/orange-right-arrow-button.png "Right arrow button") [Move the opportunity through different stages](move-opportunity-stages.md) 
+ ![Right arrow button](media/orange-right-arrow-button.png "Right arrow button") 
+[Add stakeholders, sales team, and competitors for the opportunity](add-stakeholder.md)  
+ ![Right arrow button](media/orange-right-arrow-button.png "Right arrow button") [Move the opportunity through different stages](move-opportunity-stages.md)  
   
  ![Home button](media/home-button.png "Home button") [Learn about the sales process, nurturing sales from lead to order](nurture-sales-from-lead-order-sales.md)  
 
