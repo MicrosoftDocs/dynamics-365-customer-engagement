@@ -153,7 +153,7 @@ As an administrator, you can configure which case fields to include as part of t
 
    - Out-of-box account fields include customer name, email, and phone number.
   
-   - Out-of-box case fields include the following:
+   - The following out-of-box case fields are included:
 
       - Case title
       - Case number
@@ -237,7 +237,7 @@ If the experts you want to use are stored in another system outside of Dataverse
 
 1. On the **Active Bookable Resources** page, on the command bar, select **Export to Excel**.
 
-1. Open the downloaded Excel spreadsheet and edit it to add rows with the different resource names and types that match your business needs.
+1. Open the downloaded Excel spreadsheet to edit it. Add rows with the different resource names and types that match your business needs.
 
 1. On the **Active Bookable Resources** page, select **Import from Excel**, and then complete the wizard to import the spreadsheet.
 
@@ -282,7 +282,7 @@ You can define swarm rules that identify the skills that should be suggested whe
    > [!div class="mx-imgBorder"] 
    > ![Edit a swarm rule.](media/teams-swarm-edit-rule.png "Edit a swarm rule")
 
-The following are aspects of configuring swarm rules.
+The following aspects apply to swarm rule configuration.
 
 - Only the top four rules are shown on the main swarm page. To view more rules select **See more**.
 
