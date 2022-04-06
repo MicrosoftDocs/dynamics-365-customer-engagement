@@ -194,7 +194,7 @@ To use the new skill in customer support swarming, you must assign it to an expe
 
 1. Enter the details for the expert, and then select **Save**.
 
-### Bulk import skills
+### Bulk import skills (optional)
 
 If the skills you want to use to match experts to swarms are stored in another system outside of Dataverse, you can import them using Excel.
 
@@ -231,7 +231,7 @@ If you haven't already configured experts, then perform the following steps.
 
 1. Confirm or change the **Time Zone**, and then select **Save**.
 
-### Bulk import resources
+### Bulk import resources (optional)
 
 If the experts you want to use are stored in another system outside of Dataverse, you can import them using Excel, and then upload the experts who can be used as matches in swarms.
 
@@ -241,7 +241,7 @@ If the experts you want to use are stored in another system outside of Dataverse
 
 1. On the **Active Bookable Resources** page, select **Import from Excel**, and then complete the wizard to import the spreadsheet.
 
-## Map skills and experts
+## Map skills and experts (optional)
 
 You can map skills and expert resources using respective grids on the skills and resources form.
 
@@ -252,7 +252,7 @@ You can map skills and expert resources using respective grids on the skills and
 
 1. Select **+New Bookable Resource** to add a new resource to the skill.
 
-### Bulk map skills and experts
+### Bulk map skills and experts (optional)
 
 If you want to bulk map skills and experts, perform the following steps.
 
@@ -342,6 +342,8 @@ To set up swarm privileges for agents, perform the following steps.
 1. Select the **Service** tab, and then for **Characteristic**, select the security privileges.
 
 1. Save and publish your changes.
+
+1. On the **Customer support swarming** page, set the **Swarming** toggle to **On**.
 
 
 ### See also
