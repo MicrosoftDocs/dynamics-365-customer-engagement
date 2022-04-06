@@ -1,7 +1,7 @@
 ---
 title: "Customer support swarming for agents | MicrosoftDocs"
 description: "Learn how to use customer support swarming to help resolve case issues more quickly in Dynamics 365 Customer Service."
-ms.date: 04/05/2022
+ms.date: 04/06/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -48,7 +48,10 @@ To be able to create a swarm when working on a customer issue, you must have the
    > [!div class="mx-imgBorder"] 
    > ![Create swarm option on the command bar.](media/teams-create-swarm.png "Create swarm option on the command bar")
 
-  The **Customer support swarming (preview)** page opens with the **Case details** displayed on the left side pane. The case and account fields are read-only, and are designed to give other swarm participants the associated details about the case.
+  The **Swarm** page opens with the **Case details** displayed on the left side pane. The case and account fields are read-only, and are designed to give other swarm participants the associated details about the case.
+    
+   > [!div class="mx-imgBorder"] 
+   > ![Swarm case details page.](media/teams-swarm-case-details.png "Swarm case details page")
   
    > [!Note]
    > If you don't see the **Create swarm** option, check the overflow actions. If you still don't see it, ask your administrator to assign access privileges for you.
