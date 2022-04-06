@@ -1,9 +1,8 @@
 ---
 title: "Sales Hub app versus custom app | MicrosoftDocs"
 description: "Learn the scenarios when to use the Sales Hub app over a custom app and vice versa."
-ms.date: 03/30/2022
+ms.date: 04/05/2022
 ms.topic: article
-
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
@@ -56,3 +55,7 @@ To help ensure that the Sales Hub customizations are not overwritten by the Sale
 - Quarterly releases that have new and innovative features have an early access period. It’s important for all customers to test and validate their applications and core use cases on the new build. 
 
 - Updates to the Sales Hub site map do not overwrite the customizations that you've done to the site map. Instead, the changes will be merged.
+
+### See also
+- [Use the Sales Hub app to access Dynamics 365 Sales features](intro-saleshub.md)
+- [Build your first model-driven app](/power-apps/maker/model-driven-apps/build-first-model-driven-app)

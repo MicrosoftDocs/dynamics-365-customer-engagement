@@ -59,6 +59,6 @@ Access your Dynamics 365 Sales environment, and select Sales Hub from the **Publ
 ![Screenshot of the Sales Hub app card on the **Published apps** page](media/saleshubcard.png)
 
 > [!NOTE]
-> If you don't see the app, contact your administrator to grant you access. More information: [Grant access to the Sales Hub app](#grant-or-revoke-access-to-the-sales-hub-app).
+> If you don't see the app, contact your administrator to grant you access. More information: [Grant or revoke access to the Sales Hub app](grant-access-saleshub.md)
 
 For instructions on using the Sales Hub app on mobile devices, go to [Sign in and sign out from the app](sales-mobile/use-sales-mobile-app.md#sign-in-and-sign-out-from-the-app).
