@@ -82,7 +82,7 @@ To set connection references:
 
 You can create a topic with two question nodes for search text and filter or you can configure the search integration to set up a fall-back topic in case of an unrecognized search phrase. More information: [Configure the system fallback topic in Power Virtual Agents](/power-virtual-agents/authoring-system-fallback-topic)
    
-If you are creating a topic with two question nodes for search text and filter, for filter, the Power Virtual Agents author can provide a dummy filter value, for example, **statecode eq 3**. This step ensures that flow is properly configured and can now be replaced with **Search knowledge article extended** topic.  
+If you are creating a topic with two question nodes for search text and filter, for filter, the Power Virtual Agents author can provide a dummy filter value, for example, **statecode eq 3**. This step ensures that flow is properly configured and can now be replaced with **Search Dynamics 365 knowledge articles (Preview)** extended topic.  
   
 1. Within the topic, create a question node to ask the user to search for the input text.
 
@@ -98,22 +98,22 @@ If you are creating a topic with two question nodes for search text and filter, 
     
 1. Add a message node to show the results returned by the flow. More information: [Render results](#render-results)
 
-:::image type="content" source="media/mesg_node.png" alt-text="Add message node.":::
+   :::image type="content" source="media/mesg_node.png" alt-text="Add message node.":::
     
 1. Select **Save**. An error might appear if filter is not provided to the flow.
     
 1. Use the trigger phase and run the topic.
 
-> [!TIP]
-> You can configure your topic to handle cases where your search doesn’t return any results by modifying the search terms or filter conditions. You can add a condition to take appropriate action in cases where no search results are returned by the  topic.
+ > [!TIP]
+ > You can configure your topic to handle cases where your search doesn’t return any results by modifying the search terms or filter conditions. You can add a condition to take appropriate action in cases where no search results are returned by the  topic.
 
-:::image type="content" source="media/no-search-results.png" alt-text="Add a condition when no search results are returened":::  
+  :::image type="content" source="media/no-search-results.png" alt-text="Add a condition when no search results are returened":::  
   
 ### Add the dialog to the Power Virtual Agents topic
 
-After you have completed the two previous steps, you can configure any bot in the organization to access knowledge articles using the **Search Dynamics 365 knowledge article flow (Preview)** action.
+After you have completed the two previous steps, you can configure any bot in the organization to access knowledge articles using the **Search Dynamics 365 knowledge articles (Preview)** action.
    
-1. After the topic is configured, replace the **Search Dynamics 365 knowledge article flow (Preview)** with the **Search Dynamics 365 knowledge articles (Preview)** dialog.
+1. After the topic is configured, replace the **Search Dynamics 365 knowledge article flow (Preview)** with the **Search Dynamics 365 knowledge articles (Preview)** action.
 
     :::image type="content" source="media/search-dialog.png" alt-text="Add dialog to pva topic":::
 
