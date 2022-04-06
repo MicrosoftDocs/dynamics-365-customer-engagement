@@ -14,7 +14,5 @@
     href: link-d365-records.md
   - name: Integrate Dynamics 365 and Microsoft Teams meetings
     href: teams-meeting-integration.md
-  - name: FAQ on Teams chat integration
-    href: teams-in-dynamics-faq.md
   - name: Troubleshoot
     href: teams-troubleshoot.md

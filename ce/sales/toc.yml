@@ -140,8 +140,8 @@
         href: configure-microsoft-teams-dialer.md
     - name: Link Dynamics 365 records to Microsoft Teams channels
       items:
-      - name: Install and set up
-        href: teams-integration/teams-install-app.md
+      - name: Enable linking of Dynamics 365 records to Teams channels
+        href: teams-integration/enable-record-linking.md
       - name: Enable Sensitivity labels
         href: teams-integration/sensitivity-labels.md
   - name: Productivity and document management
@@ -533,6 +533,8 @@
       items:
       - name: Using Teams chat in Dynamics 365
         href: teams-integration/using-teams-chat-in-dynamics.md
+      - name: FAQ on Teams chat integration
+        href: teams-integration/teams-in-dynamics-faq.md
     - name: Microsoft Teams meeting integration
       items:
       - name: Overview

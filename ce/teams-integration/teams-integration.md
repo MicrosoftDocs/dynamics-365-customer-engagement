@@ -39,8 +39,6 @@ Dynamics 365 and Teams integration is built around the following pillars:
 
 - **Integrate experiences**: Increase audience engagement during and after events across multiple channels with engaging content and recommendations.
 
-> [!div class="mx-imgBorder"] 
-> ![Features of Microsoft Teams app.](media/teams-intro.png "Features of Microsoft Teams app")
 
 ## Features of Teams integration
 
@@ -50,7 +48,7 @@ Microsoft Teams is integrated into Dynamics 365 and additional capabilities are 
 
   - **Engage in Teams chat**: You can engage in a Teams chat conversation from within Dynamics 365 while working on a record. More information: [Engage in Microsoft Teams chats from within Dynamics 365](teams-collaboration-in-dynamics.md) and [Using Microsoft Teams chat in Dynamics 365](using-teams-chat-in-dynamics.md)
 
-  - **Collaboration hub**: You can easily connect a Dynamics 365 record to an existing Teams channel or create a new team or channel. More information: [Enhanced Collaboration Experience with the Dynamics 365 app for Microsoft Teams](teams-collaboration-enhanced-experience.md)
+  - **Link Dynamics 365 records to Teams channels**: You can easily connect a Dynamics 365 record to an existing Teams channel or create a new team or channel. More information: [Enhanced Collaboration Experience with the Dynamics 365 app for Microsoft Teams](teams-collaboration-enhanced-experience.md)
 
   - **Embedded Teams calling**: Boost seller's productivity by making and receiving Teams calls directly in Dynamics 365. Avoid the need to switch apps, get calls automatically recorded in the relevant record's timeline and save your call notes directly where you need them.  More information: [Call customers through Microsoft Teams dialer in Dynamics 365 Sales](../sales/call-using-microsoft-teams.md)
 
