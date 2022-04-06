@@ -205,7 +205,7 @@ If the skills you want to use to match experts to swarms are stored in another s
 1. Open the downloaded Excel spreadsheet, and add rows that include the information for the different skills that match your business needs.
 
    > [!div class="mx-imgBorder"] 
-   > ![Edit Excel spreadsheet.](media/teams-swarm-excel.png "Edit Excel spreadsheet")
+   > ![Edit Excel spreadsheet.](media/teams-swarm-excel-spreadsheet.png "Edit Excel spreadsheet")
 
 1. Save the spreadsheet, and then import it using the **Import from Excel** wizard.
 
