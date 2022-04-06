@@ -185,10 +185,13 @@ If you haven't already configured skills, then perform the following steps.
 
 1. Select **Save**.
 
-> [!Note]
-> The new skill must be assigned to an expert so that it can be used in swarming. 
-> 1. On the command bar and select **Assign**.
-> 1. Enter the details for the expert, and then select **Save**.
+#### Assign the new skill to an expert
+
+To use the new skill in customer support swarming, you must assign it to an expert.
+
+1. On the command bar and select **Assign**.
+
+1. Enter the details for the expert, and then select **Save**.
 
 #### Bulk import skills
 
