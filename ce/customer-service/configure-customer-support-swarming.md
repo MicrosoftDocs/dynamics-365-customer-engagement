@@ -58,7 +58,7 @@ Use the following image and legend to understand the layout of the customer supp
 |3 | Case details | Out-of-box-related account and case fields. Administrators can configure which case fields show on the form. |
 |4 | Skills | Add relevant skills to help match experts for swarming. Onboard coworkers outside the team as experts to recommend for swarms. |
 |5 | Rules for skills | Conditions that define which skills to attach to swarms. The attached skills are then used to find and invite experts to swarms. |
-|6 | Participants automatically added to swarms | Team contacts who are automatically added to swarms because of their relationship to the customer or the agent working on the issue. |
+|6 | Participants automatically added to swarms | Team contacts automatically added to swarms because of their relationship to the customer or the agent assigned to the issue. |
 |7 | Swarm expert notification | The Power Automate flow that turns on and manages swarm invitations that are sent to experts. |
 
 ## Prerequisites 
@@ -96,7 +96,7 @@ In Customer Service Hub, perform the following steps.
 1. In **Collaboration** in the site map, select **Swarming using Teams**.
 1. If you haven't already activated the case details for the swarm form, do the following steps.
 1. Go to **Case details** on the administration page. Follow the link in the case details section titled **Activate case form for swarming**. The Power Apps Case table form page is displayed.
-1. Select the **Case form for swarm** form, select the ellipsis, and then select **Activate form**. This makes the form active.
+1. Select the **Case form for swarm** form, select the ellipsis, and then select **Activate form**. The form becomes active.
 
    > [!div class="mx-imgBorder"] 
    > ![Power Apps Case table forms page.](media/teams-swarm-power-apps-table-case.png "Power Apps Case table form page")
