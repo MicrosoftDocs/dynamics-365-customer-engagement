@@ -48,9 +48,9 @@ You can integrate knowledge management with a Power Virtual Agents bot by using 
     - For more information on creating a bot, see: [Create and delete Power Virtual Agents bots](/power-virtual-agents/authoring-first-bot)
     - For more information on creating a topic, see: [Create and edit topics in your Power Virtual Agents bot](/power-virtual-agents/authoring-create-edit-topics)
    
-## Use the Search knowledge articles dialog
+## Use the Search Dynamics 365 knowledge article flow (Preview) dialog
 
-You must perform the following steps to integrate knowledge management with a Power Virtual Agents bot using the Search knowledge articles dialog:
+You must perform the following steps to integrate knowledge management with a Power Virtual Agents bot using the **Search Dynamics 365 knowledge article flow (Preview)** dialog:
  
    1. Set connection references.
    1. Call the flow as a one-time mandatory step.
@@ -58,7 +58,7 @@ You must perform the following steps to integrate knowledge management with a Po
 
 ### Set connection references
 
-Knowledge Power Virtual Agents solution makes use of the flow which uses connections, such as **Content Conversion** and **Microsoft Dataverse**. You must configure these connection references before turning the **Search knowledge article flow** on.
+Knowledge Power Virtual Agents solution makes use of the flow which uses connections, such as **Content Conversion** and **Microsoft Dataverse**. You must configure these connection references before turning the **Search Dynamics 365 knowledge article flow (Preview) dialog** on.
 
 > [!NOTE]
 > - You must have a system administrator role to be able to set connection references. If you have the Environment Maker role and can't see either the notification for connection references or the cloud flow, then you don't have the permission to update them. You must contact your system administrator or system customizer to set the connection references and enable the flow.
@@ -91,7 +91,7 @@ If you are creating a topic with two question nodes for search text and filter, 
     
 1. Create a question node for the filter and provide the dummy filter value after you trigger the topic.
     
-1. Select **Add node** and select **Call an action**. Select **Search knowledge article flow**.
+1. Select **Add node** and select **Call an action**. Select **Search Dynamics 365 knowledge article flow (Preview)** dialog.
      
 1. Provide the input to the flow.
     
@@ -112,7 +112,7 @@ If you are creating a topic with two question nodes for search text and filter, 
   
 ### Add the dialog to the Power Virtual Agents topic
    
-1. After the topic is configured, replace the **Search knowledge article flow** with the **Search knowledge articles** dialog.
+1. After the topic is configured, replace the **Search knowledge article flow** with the ****Search Dynamics 365 knowledge article flow (Preview)** dialog.
 
     :::image type="content" source="media/search-dialog.png" alt-text="Add dialog to pva topic":::
 
