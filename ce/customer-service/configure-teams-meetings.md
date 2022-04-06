@@ -1,7 +1,7 @@
 ---
 title: "Enable Microsoft Teams meetings in Customer Service | Microsoft Docs"
 description: "Learn how to enable Microsoft Teams meetings functionality in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
-ms.date: 04/02/2022
+ms.date: 04/06/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -31,7 +31,7 @@ ms.custom:
 
 The Microsoft Teams meeting integration feature allows your Dynamics 365 Customer Service agents to quickly access and update records in Microsoft Teams before, during, and after meeting with their customers. 
 
-By enabling this feature, you can help give agents and supervisors in your organzation a cohesive, seamless experience between Dynamics 365 and Teams. Agents can use the meetings functionality to more efficiently meet their customers' needs.
+By enabling this feature, you can help give agents and supervisors in your organization a cohesive, seamless experience between Dynamics 365 and Teams. Agents can use the meetings functionality to more efficiently meet their customers' needs.
 
 > [!Note]
 > Conversation Intelligence capabilities that are displayed in the user interface are applicable only to Dynamics 365 Sales users who have a premium license.
