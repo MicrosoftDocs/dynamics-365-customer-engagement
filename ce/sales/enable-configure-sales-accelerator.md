@@ -1,7 +1,7 @@
 ---
 title: "Configure the sales accelerator"
 description: "Configure the sales accelerator to create sequences and connect records, and view daily work list items."
-ms.date: 03/17/2022
+ms.date: 04/06/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
