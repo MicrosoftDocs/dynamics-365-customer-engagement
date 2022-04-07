@@ -6,14 +6,14 @@
   href: whats-new.md
 - name: Try, install, and manage
   items: 
-    - name: Sales trial
-      items: 
-        - name: Sign up for the free trial
-          href: sign-up-for-sales-trial.md
-        - name: Trial FAQs
-          href: sales-trial-faq.md
-        - name: Preview features in trial
-          href: sales-previews-in-trial.md
+  - name: Sales trial
+    items: 
+      - name: Sign up for the free trial
+        href: sign-up-for-sales-trial.md
+      - name: Trial FAQs
+        href: sales-trial-faq.md
+      - name: Preview features in trial
+        href: sales-previews-in-trial.md
   - name: Install or uninstall
     items:
     - name: Set up Dynamics 365 Sales
