@@ -15,7 +15,10 @@ manager: shujoshi
 
 ## Introduction
 
-System topics are built-in topics provided by Azure services such as Azure Storage, Azure Event Hubs, and Azure Service Bus. You can create system topics in your Azure subscription and subscribe to them. For more information, see Overview of system topics.
+Azure Communication Services integrates with Azure Event Grid to send real-time event notifications for chat, telephony, SMS, video, and voice-calling events. To enable voice calling and SMS services, you must  and SMS The purpose of this article is to help you configure your applications to listen to Communication Services events.
+Event grid uses event subscriptions to route event messages to subscribers.
+
+System topics are built-in topics provided by Azure services such as Azure Storage, Azure Event Hubs, and Azure Service Bus. You can create system topics in your Azure subscription and subscribe to them. For more information, see Overview of system topics. More information: [System topics in Azure Event Grid](/azure/event-grid/system-topics)
 
 This topic explains how to create, deploy, and register event grid system topics for an existing Azure resource.
 
