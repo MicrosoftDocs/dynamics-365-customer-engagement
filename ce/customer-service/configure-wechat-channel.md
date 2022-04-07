@@ -1,7 +1,7 @@
 ---
 title: "Configure a WeChat channel in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Perform the steps mentioned in this topic to configure a WeChat channel in Omnichannel for Customer Service."
-ms.date: 02/25/2022
+ms.date: 04/04/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -45,10 +45,7 @@ To integrate a WeChat channel with Omnichannel for Customer Service, get the fol
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
 
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-    > [!IMPORTANT]
-    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
     
     1. In the site map, in **Customer support**, select **Channels**.
     

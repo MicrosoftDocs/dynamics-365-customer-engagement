@@ -2,7 +2,6 @@
 title: "Overview of Marketing settings in Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Get an overview of marketing settings and find links to details about each page in the Dynamics 365 Marketing administration settings."
 ms.date: 03/25/2021
-
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing

@@ -1,7 +1,7 @@
 ---
 title: "Receiving notifications and creating interactions (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Developer: learn how to receive notifications from real-time marketing in Dynamics 365 Marketing."
-ms.date: 03/15/2022
+ms.date: 03/21/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -25,6 +25,8 @@ Notifications received from Dynamics 365 Marketing have an additional payload co
 > To track links that recipients open in notifications, you must collect customer tracking consent. Dynamics 365 Marketing has no way to collect this consent for you.
 >
 > If you have not collected tracking consent, you must use the **originalLink** URL field described in the code snippet below. If you have acquired consent, you can use the **link** field value, which will be trackable.
+>
+> *PushLinkClicked* will be automatically generated. The URL is a redirect link which will create the interaction if the link from the **link** field is used.
 
 ## Receive notifications in iOS
 
@@ -195,52 +197,51 @@ Create the notification content and add the tracking ID in the data to generate 
 
 ```
 private void sendNotification(String message, String title, String deeplink, String name, String trackingId) {
-        NotificationManager notificationManager = (NotificationManager)
-                this.getSystemService(Context.NOTIFICATION_SERVICE);
+    NotificationManager notificationManager = (NotificationManager)
+        this.getSystemService(Context.NOTIFICATION_SERVICE);
 
-        Uri defaultSoundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
-        NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(
-                this,
-                NOTIFICATION_CHANNEL_ID)
-                .setContentText(message)
-                .setContentTitle(title)
-                .setPriority(NotificationCompat.PRIORITY_HIGH)
-                .setSmallIcon(android.R.drawable.ic_popup_reminder)
-                .setBadgeIconType(NotificationCompat.BADGE_ICON_SMALL)
-                .setContentIntent(createContentIntent(this, deeplink, name, trackingId))
-                .setDeleteIntent(createOnDismissedIntent(this, trackingId))
-                .setStyle(new NotificationCompat.BigTextStyle()
-                        .bigText(message));
+    Uri defaultSoundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
+    NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(
+        this,
+        NOTIFICATION_CHANNEL_ID)
+        .setContentText(message)
+        .setContentTitle(title)
+        .setPriority(NotificationCompat.PRIORITY_HIGH)
+        .setSmallIcon(android.R.drawable.ic_popup_reminder)
+        .setBadgeIconType(NotificationCompat.BADGE_ICON_SMALL)
+        .setContentIntent(createContentIntent(this, deeplink, name, trackingId))
+        .setDeleteIntent(createOnDismissedIntent(this, trackingId))
+        .setStyle(new NotificationCompat.BigTextStyle()
+            .bigText(message));
 
-
-        notificationManager.notify(NOTIFICATION_ID, notificationBuilder.build());
-    }
+    notificationManager.notify(NOTIFICATION_ID, notificationBuilder.build());
+}
 
 private PendingIntent createOnDismissedIntent(Context context, String trackingId) {
-        Intent intent = new Intent(context, NotificationDismissalReceiver.class);
-        intent.putExtra("TrackingId", trackingId);
+    Intent intent = new Intent(context, NotificationDismissalReceiver.class);
+    intent.putExtra("TrackingId", trackingId);
 
-        return PendingIntent.getBroadcast(context.getApplicationContext(),0, intent, 0);
+    return PendingIntent.getBroadcast(context.getApplicationContext(),0, intent, 0);
+}
+
+private PendingIntent createContentIntent(Context context, String deeplink, String name, String trackingId) {
+    Intent intent;
+
+    if (deeplink != null) {
+        intent = new Intent(Intent.ACTION_VIEW, Uri.parse(deeplink));
+    } else {
+        intent = new Intent(this, MainActivity.class);
     }
+    Bundle pushData = new Bundle();
+    pushData.putString("name", name);
 
-    private PendingIntent createContentIntent(Context context, String deeplink, String name, String trackingId) {
-        Intent intent;
+    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+    intent.putExtras(pushData);
+    intent.putExtra("Source", "Notification");
+    intent.putExtra("TrackingId", trackingId);
 
-        if (deeplink != null) {
-            intent = new Intent(Intent.ACTION_VIEW, Uri.parse(deeplink));
-        } else {
-            intent = new Intent(this, MainActivity.class);
-        }
-        Bundle pushData = new Bundle();
-        pushData.putString("name", name);
-
-        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        intent.putExtras(pushData);
-        intent.putExtra("Source", "Notification");
-        intent.putExtra("TrackingId", trackingId);
-
-        return PendingIntent.getActivity(this, NOTIFICATION_ID, intent, PendingIntent.FLAG_ONE_SHOT);
-    }
+    return PendingIntent.getActivity(this, NOTIFICATION_ID, intent, PendingIntent.FLAG_ONE_SHOT);
+}
 ```
 
 #### Part 3: Generate a notification opened event
