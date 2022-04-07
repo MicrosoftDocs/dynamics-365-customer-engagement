@@ -48,7 +48,6 @@ This topic explains how to create, deploy, and register event grid system topics
     > ![Event grid is listed as a registered provider.](./media/voice-channel-eventgrid-registered.png "Event grid is listed as a registered provider.")
 
 > [!Note]
-
 > When you connect your event subscription, you must use the same app ID and directory ID for the app registration as you did when you first connected your Azure resource. To check which app ID and directory ID you used to connect your ACS resource, select the filter icon in the top right and search for communication provider setting entries.
 
 ### See also
