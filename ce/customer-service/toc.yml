@@ -579,13 +579,7 @@
       - name: Monitor voice calls
         href: voice-channel-monitor-calls.md
       - name: Voice channel analytics, reports, and call insights
-        href: voice-channel-reports-analytics.md
-    - name: Get resource and app details for an Azure resource
-      href: voice-channel-resource-app-details.md
-    - name: Register event grid system topics
-      href: voice-channel-event-grid.md
-    - name: Create event subscription endpoints
-      href: voice-channel-sub-endpoints.md  
+        href: voice-channel-reports-analytics.md 
     - name: Emergency calling in the voice channel
       href: voice-channel-emergency-calling.md
     - name: FAQs about the voice channel
