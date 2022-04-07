@@ -176,9 +176,7 @@ For example, ensure the following settings:
 
 1. In the **Bot** area of the workstream, edit to add the Power Virtual Agents bot that you configured.
 
-## Verify the multilanguage bot
-
-Perform the following steps to verify the bot settings:
+## Verify the multilingual bot
 
 1. As a customer, call the number that's registered with the voice workstream.
 
