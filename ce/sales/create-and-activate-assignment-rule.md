@@ -32,7 +32,7 @@ When a lead or opportunity record is created in an organization, assignment rule
 1.	Sign in to your Dynamics 365 Sales Hub app.    
 2.	Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.   
 3. Under **Sales accelerator**, select **Assignment rules**.    
-4. On the **Assignment rules** page, from the **Rule** tab, select **+ New rule** > **Lead assignment rule**.
+4. On the **Assignment rules** page, from the **Rule** tab, select **New rule** > **Lead assignment rule**.
 
    >[!div class="mx-imgBorder"]
    >![Select the lead assignment rule option from a new rule.](media/sa-ar-create-assignment-rule-select-lead.png "Select the ead assignment rule option from a new rule")   
@@ -47,7 +47,7 @@ When a lead or opportunity record is created in an organization, assignment rule
 6. <a name="setSegment"></a>Under **Select eligible Leads for this rule**, select one of the following options:
 
     - **All incoming leads**: All the new leads that are created will be assigned to sellers in accordance with the conditions defined in the rule.
-    - **Specific lead**: Select a segment from the **Choose segment** dropdown menu to connect leads that are available in the segment to sellers in accordance with the conditions defined in this rule. All the active segments that are related to leads that are displayed in the list. However, if you want to create a segment that's not in the list and is specific to this rule, select **+ New segment** from the **Choose segment** dropdown list. More information: [Create and activate a segment](create-and-activate-a-segment.md)
+    - **Specific lead**: Select a segment from the **Choose segment** dropdown menu to connect leads that are available in the segment to sellers in accordance with the conditions defined in this rule. All the active segments that are related to leads that are displayed in the list. However, if you want to create a segment that's not in the list and is specific to this rule, select **New segment** from the **Choose segment** dropdown list. More information: [Create and activate a segment](create-and-activate-a-segment.md)
 
       >[!div class="mx-imgBorder"]
       >![Select a new segment from the Choose segment dropdown menu.](media/sa-segment-assignment-rule-specific-lead.png "Select new segment from choose segment dropdown")

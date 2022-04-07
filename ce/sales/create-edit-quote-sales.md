@@ -41,7 +41,7 @@ When the customer accepts the quote, you create an order. Otherwise, you close t
 
 2. Select the opportunity you want to create a quote for.
 
-3. Go to the **Quotes** tab and then select **+ New Quote**.
+3. Go to the **Quotes** tab and then select **New Quote**.
 
     The quote form opens. The quote form is prefilled with important details from the opportunity record.
 
@@ -63,7 +63,7 @@ When the customer accepts the quote, you create an order. Otherwise, you close t
 
 1. Select the site map ![Site Map icon.](media/site-map-icon.png "site map icon"), and then select **Quotes**.
 
-2. Select **+ New**.
+2. Select **New**.
 
 3. On the **Quote** form, enter data in the following required fields:
 

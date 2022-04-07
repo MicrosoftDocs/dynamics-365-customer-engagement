@@ -50,7 +50,7 @@ When a customer places an order, you can create an invoice to bill them for the 
   
 1. Select the site map ![Site Map icon.](media/site-map-icon.png "Site map icon"), and then select **Invoices**. 
   
-2.  Select **+ New**.
+2.  Select **New**.
 
     The Invoice form opens.
 

@@ -155,7 +155,7 @@ You can manage custom filters by creating, disabling, and deleting the filters:
 
 ### Add filters
 
-1.	On the **Filters** page, select **+ New filter**.    
+1.	On the **Filters** page, select **New filter**.    
 
 2.	In the **New filter** dialog box, enter the following information.
 
@@ -179,7 +179,7 @@ Filter groups help you to organize filters in a meaningful way for sellers to ea
 
 1.	Use one of the following ways to create groups:
 
-    -	On the **Filters** page, select **+ New group**.
+    -	On the **Filters** page, select **New group**.
     -	While creating a filter, in the **Nest filter under** dropdown list, select **Create new filter group**.
 
 2.	In the **Create new filter group** dialog box, enter the name of the group.

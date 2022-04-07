@@ -25,7 +25,7 @@ As a sequence manager, you create segments&mdash;groups of records&mdash;by defi
 1.	Sign in to your Dynamics 365 Sales Hub app.    
 2.	Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.   
 3.	Under **Sales accelerator**, select **Segments**.   
-4.	On the **Segments** page, select **+ New segment**.
+4.	On the **Segments** page, select **New segment**.
 
     The **Create a segment** dialog opens.
 

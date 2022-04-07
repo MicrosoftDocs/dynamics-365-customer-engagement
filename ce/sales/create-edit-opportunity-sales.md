@@ -1,7 +1,7 @@
 ---
 title: "Create or edit opportunities (Dynamics 365 Sales) | MicrosoftDocs"
 description: "An opportunity is a deal you're ready to win. Create an opportunity record for a lead who's ready to buy."
-ms.date: 03/29/2022
+ms.date: 04/07/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -18,12 +18,7 @@ searchScope:
 
 # Create or edit opportunities 
 
-Create an opportunity when your lead is almost ready to buy. Use one of the following methods to create an opportunity:
-
-- Convert a lead into an opportunity. In this case,
-    - Information from the lead record is copied to the opportunity.
-    - The lead and opportunity records are linked. All the activities and notes in the lead record also becomes available in the corresponding opportunity record. 
-- Create a new opportunity from scratch if it didn't originate from a lead.  
+Create an opportunity when your lead is almost ready to buy. With an opportunity, you can forecast sales revenue, set a potential close date, and factor in a probability for the sale to occur.
 
 ## License and role requirements
 | Requirement type | You must have |
@@ -31,11 +26,20 @@ Create an opportunity when your lead is almost ready to buy. Use one of the foll
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
 
+## How to create an opportunity
+
+Use one of the following methods to create an opportunity:
+
+- [Convert a lead to an opportunity](#convert-a-lead-to-an-opportunity). In this case,
+    - Information from the lead record is copied to the opportunity.
+    - The lead and opportunity records are linked. All the activities and notes in the lead record also becomes available in the corresponding opportunity record. 
+- [Create a new opportunity](#create-an-opportunity) from scratch if it didn't originate from a lead.  
+
 ## Convert a lead to an opportunity
 
 If the opportunity originated from an existing lead, qualify the lead and convert it to an opportunity. More information: [Qualify a lead and convert it to an opportunity](qualify-lead-convert-opportunity-sales.md)
 
-## Create an opportunity
+## Create a new opportunity
 
 Create an opportunity with the details you have. You can update the opportunity as you progress through the different stages of the opportunity - Qualify, Develop, Propose, and Close.  
 
@@ -45,7 +49,7 @@ Create an opportunity with the details you have. You can update the opportunity 
 
 1. In the Sales Hub site map, select **Opportunities**.
 
-2. On the command bar, select **+ New**.
+2. On the command bar, select **New**.
 
 3. In the **Summary** tab, capture important details about the opportunity. The following list describes fields that require explanation:
 

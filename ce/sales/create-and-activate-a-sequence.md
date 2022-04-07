@@ -23,7 +23,7 @@ Every organization has its own selling processes for sellers to follow. A sequen
 1. Sign in to your sales app.   
 2. Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.   
 3. Under **Sales accelerator**, select **Sequence**.  
-4. On the **Sequences** page, select **+ New sequence**.   
+4. On the **Sequences** page, select **New sequence**.   
     > [!div class="mx-imgBorder"]
     > ![Select new to create a sequence.](media/sequence-select-new-sequence.png "Select new to create a sequence")   
 5. In the **Create a sequence** dialog, enter the following information:   

@@ -167,7 +167,7 @@ After you have created a campaign or quick campaign, you can associate it to you
 2.  Search for the campaign or quick campaign you want to associate to this marketing list.  
   
     > [!NOTE]
-    > - If you don't have any campaigns, or if you want to create a new one, you can select **+ New**.  
+    > - If you don't have any campaigns, or if you want to create a new one, you can select **New**.  
     > - If you don't have any quick campaigns, the Quick Campaign Wizard will start.  
   
 ## Customized marketing list form

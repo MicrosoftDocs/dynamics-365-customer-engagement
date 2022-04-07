@@ -171,7 +171,7 @@ It's no longer necessary for you to open a laptop to add notes to an opportunity
     > [!div class="mx-imgBorder"]
     > ![Add product to an opportunity.](media/mobile-app-add-product.png "Add a product to an opportunity")
 
-4. (Optional) If you've met a new stakeholder at the customer's office, on the **Summary** tab, go to the **Stakeholders** section, tap **More options** (...), and then tap **+ New Connection**. Then add the stakeholder. You can also add the contact from an account record.
+4. (Optional) If you've met a new stakeholder at the customer's office, on the **Summary** tab, go to the **Stakeholders** section, tap **More options** (...), and then tap **New Connection**. Then add the stakeholder. You can also add the contact from an account record.
 
 ### Update deals and customer information after a meeting
 
@@ -248,7 +248,7 @@ After a successful meeting, you can quickly generate a PDF of the quote from an 
 
 2. Open the opportunity for which you want to generate a PDF of the quote, and then go to the **Quotes** tab. 
 
-3. In the quote section, tap **More option** (...), and then tap **+ New Quote**.
+3. In the quote section, tap **More option** (...), and then tap **New Quote**.
 
     > [!div class="mx-imgBorder"]
     > ![Generate a quote.](media/mobile-app-generate-quote.png "Generate a quote")

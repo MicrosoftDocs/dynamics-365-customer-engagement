@@ -84,7 +84,7 @@ Nested tags allow you to group tags together so that it's easy to identify tags 
     1.	Hover over the root node tag of **North America**, and then select **Add (+)**.     
 
         >[!NOTE]
-        >You can also use **+ New Tag** to add a node below the root node.   
+        >You can also use **New Tag** to add a node below the root node.   
         
         >[!div class="mx-imgBorder"]
         >![Select the Add tag icon corresponding to a tag.](media/sa-sequence-tags-nest-select-add-tag.png "Select the Add tag icon corresponding to a tag")     
