@@ -1131,7 +1131,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 </fetch> 
 ```
 **Option 3: Workstream capacity profile for multiple unified routing-based record workstreams**<a name="BKMK3cp-ur-ws"></a>
-
+```
 <fetch>
 	<entity name="msdyn_liveworkstreamcapacityprofile">
 		<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_workstream_id" link-type="inner" alias="am">
@@ -1143,4 +1143,5 @@ If you have configured capacity profiles in your unified routing setup, perform 
 			</filter>
 		</link-entity>
 	</entity>
-</fetch>  
+</fetch>
+```    
