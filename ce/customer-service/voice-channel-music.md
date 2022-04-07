@@ -1,7 +1,7 @@
 ---
 title: "Manage phone music in the voice channel | MicrosoftDocs"
 description: "Use this topic to understand how you can configure hold and wait music in Omnichannel for Customer Service."
-ms.date: 12/10/2021
+ms.date: 04/04/2022
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: gandhamm
@@ -28,28 +28,25 @@ You can also configure hold and wait music for each language in each of the work
 
 ## Edit music files
 
-You can update existing music files and replace them with your own music files in the Customer Service admin center (preview) or Omnichannel admin center app.
+You can update existing music files and replace them with your own music files in the Customer Service admin center or Omnichannel admin center app.
 
 **To update existing music files**
 
 1. Go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
      
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-
      1. In the site map, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
      1. In the **Phone Music** section, select **Manage**.
 
-     The **Phone music (preview)** page is displayed.      
+     The **Phone music** page is displayed.      
 
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
     
      1. In the site map, select **Customer Settings** in **Advanced settings**. The **Customer settings** page appears.
      2. In the **Phone music** section, select **Manage**.
 
-      The **Phone music (preview)** page is displayed.
+      The **Phone music** page is displayed.
 
 3. Select any music file from the list and then select **Edit**.
 
@@ -68,15 +65,12 @@ You can also add new music files to use them in calls as hold and wait music.
 
 1. Go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
      1. In the site map, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
      1. In the **Phone Music** section, select **Manage**.
 
-     The **Phone music (preview)** page is displayed.      
+     The **Phone music** page is displayed.      
 
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
     

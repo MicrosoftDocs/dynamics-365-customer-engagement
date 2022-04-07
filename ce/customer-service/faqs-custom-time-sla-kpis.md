@@ -1,18 +1,18 @@
 ---
-title: "FAQs about custom time calculation of SLA KPIs | MicrosoftDocs"
-description: "Learn about the frequently asked questions (FAQs) on custom time calculation of SLA KPIs."
-ms.date: 04/01/2022
+title: "FAQ about custom time calculation of SLA KPIs | MicrosoftDocs"
+description: "Learn about the frequently asked questions (FAQ) about custom time calculation of SLA KPIs."
+ms.date: 04/04/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
 manager: shujoshi
 ---
 
-# FAQs about custom time calculation of SLA KPIs
+# FAQ about custom time calculation of SLA KPIs
 
 ## Overview
 
-This topic contains the frequently asked questions (FAQs) that you, as an administrator, might have about the custom time calculation of service-level agreements (SLAs) key performance indicators (KPIs).
+This topic contains the frequently asked questions (FAQ) that you, as an administrator, might have about the custom time calculation of service-level agreements (SLAs) key performance indicators (KPIs).
 
 ## When does the custom action or plug-in get initiated?
 
