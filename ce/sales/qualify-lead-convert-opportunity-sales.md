@@ -37,8 +37,8 @@ After you've identified the time frame, budget, and purchase process for a lead,
     - If the lead is from an existing account or contact, select them in the **Existing Contact** and **Existing Account** fields.
     - Specify the other details such as purchase timeframe and estimated budget.
 
-      > [!TIP]
-      > To qualify multiple leads, go back to the leads list page and select the leads that you want to qualify.
+     > [!TIP]
+     > To qualify multiple leads, go back to the leads list page and select the leads that you want to qualify.
 4. On the command bar, select **Qualify**.
     Depending the lead qualification experience chosen by your administrator, you'll either see a prompt for creating the contact, lead, and opportunity records or you'll see a **Processing** message and the records will be automatically created. 
       ![Select which records to create in the Qualify lead dialog box.](media/qualify-lead-dialog-box.png "Select which records to create in the Qualify lead dialog box")
