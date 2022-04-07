@@ -87,5 +87,5 @@ Yes, the voice channel supports emergency calling; agents can call the emergency
 ### See also
 
 [Introduction to the voice channel](voice-channel.md)  
-[System requirements](system-requirements-omnichannel.md)  
+[System requirements for Omnichannel for Customer Service](system-requirements-omnichannel.md)  
 [Voice channel regional availability](voice-channel-region-availability.md)  

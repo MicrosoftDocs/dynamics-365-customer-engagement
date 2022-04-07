@@ -15,13 +15,9 @@ manager: shujoshi
 
 ## Introduction
 
+System topics are built-in topics provided by Azure services such as Azure Storage, Azure Event Hubs, and Azure Service Bus. You can create system topics in your Azure subscription and subscribe to them. For more information, see Overview of system topics.
+
 This topic explains how to create, deploy, and register event grid system topics for an existing Azure resource.
-
-1. [Create, deploy, and register event grid system topics](#create-deploy-and-register-event-grid-system-topics).
-
-2. [Create event subscription endpoint for recording](#create-event-subscription-endpoint-for-recording) to enable recording services in the voice channel.
-
-3. [Create event subscription endpoint for SMS](#create-event-subscription-endpoint-for-sms) to enable SMS services.
 
 ## Create, deploy, and register event grid system topics
 
@@ -59,7 +55,6 @@ This topic explains how to create, deploy, and register event grid system topics
 [Connect to an existing Azure resource](voice-channel-connect-existing-resource.md)  
 [Set up outbound calling](voice-channel-outbound-calling.md)  
 [Get resource and app registration details from Azure portal](voice-channel-resource-app-details.md)  
-[Register event grid system topics](voice-channel-event-grid.md)  
 [Create event subscription endpoints](voice-channel-sub-endpoints.md)  
   
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
