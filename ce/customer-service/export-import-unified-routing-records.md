@@ -146,13 +146,13 @@ If you have configured capacity profiles in your unified routing setup, perform 
     - **Configure import settings**: For the Decision contract entity, ensure that you select the **Do not update existing records** checkbox.
 
 
-    |SN.| Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
+    |S.No.| Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
     |-----|---------|---------|---------|
     | 1. | Queue (queue) |  <ul><li>Assignment Input Contract Id (msdyn_assignmentinputcontractid)</li><li>Assignment Strategy (msdyn_assignmentstrategy) </li> <li> Description (description) </li><li> Is Default Queue (msdyn_isdefaultqueue) </li><li> Is Omnichannel queue (msdyn_isomnichannelqueue) </li><li> Name (name) </li><li> Priority (msdyn_priority) </li><li> Queue (queueid) </li><li> Queue type (msdyn_queuetype) </li><li> Type (queueviewtype) </li></ul>  |  [**1. All queues for unified routing-based records**](#BKMK1all-ur-qs) <br> [**2. Single queue for unified routing-based records**](#BKMK2single-ur-qs) <br> [**3. Multiple queues for unified routing-based records**](#BKMK3multiple-ur-qs)   |
     | 2. | Decision contract (msdyn_decisioncontract)  |  <ul> <li>Contract definition (msdyn_contractdefinition)</li> <li>Decision contract (msdyn_decisioncontractid) </li> <li>Name (msdyn_name) </li> <li>Unique name (msdyn_uniquename) </li> </ui>  | [**1. Decision contract for all unified routing-based record queues**](#BKMK1all-ur-dc) <br> <br>  [**2. Decision contract for a single unified routing-based record queue**](#BKMK2single-ur-dc) <br> <br> [**3. Decision contract for multiple unified routing-based record queues**](#BKMK3multiple-ur-dc) <br> |
-    | 3. |  Decision rule set (msdyn_decisionruleset)  |  <ul><li>AI builder model (msdyn_aibmodelid)</li><li>Authoring mode (msdyn_authoringmode)</li><li>Decision rule set (msdyn_decisionrulesetid)</li><li>Description (msdyn_description)</li><li>Input contract (msdyn_inputcontractid)</li><li>Is input collection (msdyn_isinputcollection)</li><li>ML model type - (msdyn_mlmodeltype)</li><li>Name (msdyn_name)</li><li>Output contract (msdyn_outputcontractid)</li><li>Rule set definition (msdyn_rulesetdefinition)</li><li>Rule set type (msdyn_rulesettype)</li><li>Unique name (msdyn_uniquename)</li></ul>  |  [**1. Decision ruleset for all unified routing-based record queues**](#BKMK1all-ur-rls) <br> <br> [**2. Decision ruleset for a single unified routing-based record queue**](#BKMK2single-ur-rls) <br> <br> [**3. Decision ruleset for multiple unified routing-based record queues**](#BKMK3multiple-ur-rls) <br>  |
-    | 4. |  Assignment Configuration (msdyn_assignmentconfiguration)  |  <ul><li>Assignment Configuration (msdyn_assignmentconfigurationid)</li><li>Description (msdyn_description)</li><li>Is Active Configuration (msdyn_isactiveconfiguration)</li><li>Name (msdyn_name)</li><li>Queue (msdyn_queueid)</li><li>Unique Name (msdyn_uniquename)</li></ul>  |  **1. Assignment configuration for all unified routing-based record queues** <br><br>`<fetch>`<br><br>`<entity name="msdyn_assignmentconfiguration">`<br>`<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="bi">` <br> `<filter type="and">` <br> `<condition attribute="msdyn_queuetype" operator="eq" value="192350001" />` <br> `<condition attribute="msdyn_isomnichannelqueue" operator="eq" value="1" />` <br> `<condition attribute="queueid" operator="ne" uiname="Default entity queue" uitype="queue" value="{5A4B76B0-DAB5-4717-9743-9490F2F822C6}" />` <br> `</filter>` <br> `</link-entity>` <br> `</entity>` <br> `</fetch>` <br> <br>**2. Assignment configuration for a single unified routing-based-record queue**<br> <br>`<fetch>` <br> `<entity name="msdyn_assignmentconfiguration">` <br> `<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="bi">` <br> `<filter type="and">` <br> `<condition attribute="queueid" operator="eq" uiname="Test Record Queue 1" uitype="queue" value="{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}" />` <br> `</filter>` <br> `</link-entity>` <br> `</entity>` <br> `</fetch>`<br> <br>**3. Assignment configuration for multiple unified routing-based record queues**<br> <br>`<fetch>` <br> `<entity name="msdyn_assignmentconfiguration">` <br> `<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="bi">` <br> `<filter type="and">` <br> `<condition attribute="queueid" operator="in">` <br> `<value uiname="Test Record Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value>` <br> `<value uiname="Test Record Queue 2" uitype="queue">{B2862B31-3B54-EC11-8F8F-000D3A1CBB9E}</value>` <br> `</condition>` <br> `</filter>` <br> `</link-entity>` <br> `</entity>` <br> `</fetch>` <br>   |
-    | 5. |  Assignment Configuration Step (msdyn_assignmentconfigurationstep)  |  <ul><li>Assignment Configuration (msdyn_assignmentconfigurationid)</li><li>Assignment Configuration Step (msdyn_assignmentconfigurationstepid)</li><li>Is default ruleset (msdyn_isdefaultruleset)</li><li>Name (msdyn_name)</li><li>Rule Set (msdyn_rulesetid)</li><li>Rule Set - (msdyn_rulesetid)</li><li>Step Order (msdyn_steporder)</li><li>Step Type (msdyn_type)</li><li>Unique Name (msdyn_uniquename)</li></ul>  |  **1. Assignment configuration step for all unified routing-based record queues**<br> <br>`<fetch>` <br> `<entity name="msdyn_assignmentconfigurationstep">` <br> `<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="inner" alias="bq">` <br> `<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="br">` <br> `<filter type="and">` <br> `<condition attribute="msdyn_queuetype" operator="eq" value="192350001" />` <br> `<condition attribute="msdyn_isomnichannelqueue" operator="eq" value="1" />` <br> `<condition attribute="queueid" operator="ne" uiname="Default entity queue" uitype="queue" value="{5A4B76B0-DAB5-4717-9743-9490F2F822C6}" />` <br> `</filter>` <br> `</link-entity>` <br> `</link-entity>` <br> `</entity>` <br> `</fetch>` <br> <br> **2. Assignment configuration step for a single unified routing-based record queue**<br> <br>`<fetch>` <br> `<entity name="msdyn_assignmentconfigurationstep">` <br> `<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="inner" alias="bq">` <br> `<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="br">` <br> `<filter type="and">` <br> `<condition attribute="queueid" operator="eq" uiname="Test Record Queue 1" uitype="queue" value="{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}" />` <br> `</filter>` <br> `</link-entity>` <br> `</link-entity>` <br> `</entity>` <br> `</fetch>` <br> <br> **3. Assignment configuration step for multiple unified routing-based record queues**<br> <br>`<fetch>` <br> `<entity name="msdyn_assignmentconfigurationstep">` <br> `<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="inner" alias="bq">` <br> `<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="br">` <br> `<filter type="and">` <br> `<condition attribute="queueid" operator="in">` <br> `<value uiname="Test Record Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value>` <br> `<value uiname="Test Record Queue 2" uitype="queue">{B2862B31-3B54-EC11-8F8F-000D3A1CBB9E}</value>` <br> `</condition>` <br> `</filter>` <br> `</link-entity>` <br> `</link-entity>` <br> `</entity>` <br> `</fetch>` <br>   |
+    | 3. |  Decision ruleset (msdyn_decisionruleset)  |  <ul><li>AI builder model (msdyn_aibmodelid)</li><li>Authoring mode (msdyn_authoringmode)</li><li>Decision rule set (msdyn_decisionrulesetid)</li><li>Description (msdyn_description)</li><li>Input contract (msdyn_inputcontractid)</li><li>Is input collection (msdyn_isinputcollection)</li><li>ML model type - (msdyn_mlmodeltype)</li><li>Name (msdyn_name)</li><li>Output contract (msdyn_outputcontractid)</li><li>Rule set definition (msdyn_rulesetdefinition)</li><li>Rule set type (msdyn_rulesettype)</li><li>Unique name (msdyn_uniquename)</li></ul>  |  [**1. Decision ruleset for all unified routing-based record queues**](#BKMK1all-ur-rls) <br> <br> [**2. Decision ruleset for a single unified routing-based record queue**](#BKMK2single-ur-rls) <br> <br> [**3. Decision ruleset for multiple unified routing-based record queues**](#BKMK3multiple-ur-rls) <br>  |
+    | 4. |  Assignment Configuration (msdyn_assignmentconfiguration)  |  <ul><li>Assignment Configuration (msdyn_assignmentconfigurationid)</li><li>Description (msdyn_description)</li><li>Is Active Configuration (msdyn_isactiveconfiguration)</li><li>Name (msdyn_name)</li><li>Queue (msdyn_queueid)</li><li>Unique Name (msdyn_uniquename)</li></ul>  | [ **1. Assignment configuration for all unified routing-based record queues**](#BKMK1all-ur-ac) <br> <br>[**2. Assignment configuration for a single unified routing-based-record queue**](#BKMK2single-ur-ac) <br> <br>[**3. Assignment configuration for multiple unified routing-based record queues**](#BKMK3multiple-ur-ac) <br>   |
+    | 5. |  Assignment Configuration Step (msdyn_assignmentconfigurationstep)  |  <ul><li>Assignment Configuration (msdyn_assignmentconfigurationid)</li><li>Assignment Configuration Step (msdyn_assignmentconfigurationstepid)</li><li>Is default ruleset (msdyn_isdefaultruleset)</li><li>Name (msdyn_name)</li><li>Rule Set (msdyn_rulesetid)</li><li>Rule Set - (msdyn_rulesetid)</li><li>Step Order (msdyn_steporder)</li><li>Step Type (msdyn_type)</li><li>Unique Name (msdyn_uniquename)</li></ul>  |  [**1. Assignment configuration step for all unified routing-based record queues**](#BKMK1all-ur-acs) <br> <br> [**2. Assignment configuration step for a single unified routing-based record queue**](#BKMK2single-ur-acs) <br> <br> *[*3. Assignment configuration step for multiple unified routing-based record queues**](#BKMK3multiple-ur-acs) <br>   |
     |||||
 
 
@@ -224,245 +224,290 @@ If you have configured capacity profiles in your unified routing setup, perform 
 </fetch> 
 ```
 
-### FetchXML for Decision contract
+### FetchXML for decision contract
 
 **1. Decision contract for all unified routing-based record queues**<a name="BKMK1all-ur-dc"></a>
 
 ```
-<fetch distinct="true"> 
-
-<entity name="msdyn_decisioncontract"> 
-
-<filter type="or"> 
-
-<filter type="and"> 
-
-<condition attribute="msdyn_queuetype" entityname="aw" operator="eq" value="192350001" /> 
-
-<condition attribute="msdyn_isomnichannelqueue" entityname="aw" operator="eq" value="1" /> 
-
-<condition attribute="queueid" entityname="aw" operator="ne" uiname="Default entity queue" uitype="queue" value="{5A4B76B0-DAB5-4717-9743-9490F2F822C6}" /> 
-
-</filter> 
-
-<filter type="and"> 
-
-<condition attribute="msdyn_isomnichannelqueue" entityname="be" operator="eq" value="1" /> 
-
-<condition attribute="msdyn_queuetype" entityname="be" operator="eq" value="192350001" /> 
-
-<condition attribute="queueid" entityname="be" operator="ne" uiname="Default entity queue" uitype="queue" value="{5A4B76B0-DAB5-4717-9743-9490F2F822C6}" /> 
-
-</filter> 
-
-<filter type="and"> 
-
-<condition attribute="msdyn_isomnichannelqueue" entityname="bm" operator="eq" value="1" /> 
-
-<condition attribute="msdyn_queuetype" entityname="bm" operator="eq" value="192350001" /> 
-
-<condition attribute="queueid" entityname="bm" operator="ne" uiname="Default entity queue" uitype="queue" value="{5A4B76B0-DAB5-4717-9743-9490F2F822C6}" /> 
-
-</filter> 
-
-</filter> 
-
-<link-entity name="queue" from="msdyn_assignmentinputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="aw"> 
-
-</link-entity> 
-
-<link-entity name="msdyn_decisionruleset" from="msdyn_inputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="bb"> 
-
-<link-entity name="msdyn_assignmentconfigurationstep" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="bc"> 
-
-<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="outer" alias="bd"> 
-
-<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="outer" alias="be"> 
-
-</link-entity> 
-
-</link-entity> 
-
-</link-entity> 
-
-</link-entity> 
-
-<link-entity name="msdyn_decisionruleset" from="msdyn_outputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="bj"> 
-
-<link-entity name="msdyn_assignmentconfigurationstep" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="bk"> 
-
-<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="outer" alias="bl"> 
-
-<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="outer" alias="bm"> 
-
-</link-entity> 
-
-</link-entity> 
-
-</link-entity> 
-
-</link-entity> 
-
-</entity> 
-
-</fetch> 
+<fetch distinct="true">
+	<entity name="msdyn_decisioncontract">
+		<filter type="or">
+			<filter type="and">
+				<condition attribute="msdyn_queuetype" entityname="aw" operator="eq" value="192350001" />
+				<condition attribute="msdyn_isomnichannelqueue" entityname="aw" operator="eq" value="1" />
+				<condition attribute="queueid" entityname="aw" operator="ne" uiname="Default entity queue" uitype="queue" value="{5A4B76B0-DAB5-4717-9743-9490F2F822C6}" />
+			</filter>
+			<filter type="and">
+				<condition attribute="msdyn_isomnichannelqueue" entityname="be" operator="eq" value="1" />
+				<condition attribute="msdyn_queuetype" entityname="be" operator="eq" value="192350001" />
+				<condition attribute="queueid" entityname="be" operator="ne" uiname="Default entity queue" uitype="queue" value="{5A4B76B0-DAB5-4717-9743-9490F2F822C6}" />
+			</filter>
+			<filter type="and">
+				<condition attribute="msdyn_isomnichannelqueue" entityname="bm" operator="eq" value="1" />
+				<condition attribute="msdyn_queuetype" entityname="bm" operator="eq" value="192350001" />
+				<condition attribute="queueid" entityname="bm" operator="ne" uiname="Default entity queue" uitype="queue" value="{5A4B76B0-DAB5-4717-9743-9490F2F822C6}" />
+			</filter>
+		</filter>
+		<link-entity name="queue" from="msdyn_assignmentinputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="aw"></link-entity>
+		<link-entity name="msdyn_decisionruleset" from="msdyn_inputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="bb">
+			<link-entity name="msdyn_assignmentconfigurationstep" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="bc">
+				<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="outer" alias="bd">
+					<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="outer" alias="be"></link-entity>
+				</link-entity>
+			</link-entity>
+		</link-entity>
+		<link-entity name="msdyn_decisionruleset" from="msdyn_outputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="bj">
+			<link-entity name="msdyn_assignmentconfigurationstep" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="bk">
+				<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="outer" alias="bl">
+					<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="outer" alias="bm"></link-entity>
+				</link-entity>
+			</link-entity>
+		</link-entity>
+	</entity>
+</fetch>  
 ```
 
 **2. Decision contract for a single unified routing-based record queue**<a name="BKMK2single-ur-dc"></a>
 
 ```
-<fetch distinct="true"> 
-
-<entity name="msdyn_decisioncontract"> 
-
-<filter type="or"> 
-
-<filter type="and"> 
-
-<condition attribute="queueid" entityname="aw" operator="eq" uiname="Test Record Queue 1" uitype="queue" value="{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}" /> 
-
-</filter> 
-
-<filter type="and"> 
-
-<condition attribute="queueid" entityname="be" operator="eq" uiname="Test Record Queue 1" uitype="queue" value="{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}" /> 
-
-</filter> 
-
-<filter type="and"> 
-
-<condition attribute="queueid" entityname="bm" operator="eq" uiname="Test Record Queue 1" uitype="queue" value="{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}" /> 
-
-</filter> 
-
-</filter> 
-
-<link-entity name="queue" from="msdyn_assignmentinputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="aw"> 
-
-</link-entity> 
-
-<link-entity name="msdyn_decisionruleset" from="msdyn_inputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="bb"> 
-
-<link-entity name="msdyn_assignmentconfigurationstep" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="bc"> 
-
-<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="outer" alias="bd"> 
-
-<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="outer" alias="be"> 
-
-</link-entity> 
-
-</link-entity> 
-
-</link-entity> 
-
-</link-entity> 
-
-<link-entity name="msdyn_decisionruleset" from="msdyn_outputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="bj"> 
-
-<link-entity name="msdyn_assignmentconfigurationstep" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="bk"> 
-
-<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="outer" alias="bl"> 
-
-<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="outer" alias="bm"> 
-
-</link-entity> 
-
-</link-entity> 
-
-</link-entity> 
-
-</link-entity> 
-
-</entity> 
-
+<fetch distinct="true">
+	<entity name="msdyn_decisioncontract">
+		<filter type="or">
+			<filter type="and">
+				<condition attribute="queueid" entityname="aw" operator="eq" uiname="Test Record Queue 1" uitype="queue" value="{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}" />
+			</filter>
+			<filter type="and">
+				<condition attribute="queueid" entityname="be" operator="eq" uiname="Test Record Queue 1" uitype="queue" value="{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}" />
+			</filter>
+			<filter type="and">
+				<condition attribute="queueid" entityname="bm" operator="eq" uiname="Test Record Queue 1" uitype="queue" value="{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}" />
+			</filter>
+		</filter>
+		<link-entity name="queue" from="msdyn_assignmentinputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="aw"></link-entity>
+		<link-entity name="msdyn_decisionruleset" from="msdyn_inputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="bb">
+			<link-entity name="msdyn_assignmentconfigurationstep" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="bc">
+				<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="outer" alias="bd">
+					<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="outer" alias="be"></link-entity>
+				</link-entity>
+			</link-entity>
+		</link-entity>
+		<link-entity name="msdyn_decisionruleset" from="msdyn_outputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="bj">
+			<link-entity name="msdyn_assignmentconfigurationstep" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="bk">
+				<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="outer" alias="bl">
+					<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="outer" alias="bm"></link-entity>
+				</link-entity>
+			</link-entity>
+		</link-entity>
+	</entity>
 </fetch> 
 ```
 
 **3. Decision contract for multiple unified routing-based record queues**<a name="BKMK3multiple-ur-dc"></a>
 
 ```
-<fetch distinct="true"> 
+<fetch distinct="true">
+	<entity name="msdyn_decisioncontract">
+		<filter type="or">
+			<filter type="and">
+				<condition attribute="queueid" entityname="aw" operator="in">
+					<value uiname="Test Record Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value>
+					<value uiname="Test Record Queue 2" uitype="queue">{B2862B31-3B54-EC11-8F8F-000D3A1CBB9E}</value>
+				</condition>
+			</filter>
+			<filter type="and">
+				<condition attribute="queueid" entityname="be" operator="in">
+					<value uiname="Test Record Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value>
+					<value uiname="Test Record Queue 2" uitype="queue">{B2862B31-3B54-EC11-8F8F-000D3A1CBB9E}</value>
+				</condition>
+			</filter>
+			<filter type="and">
+				<condition attribute="queueid" entityname="bm" operator="in">
+					<value uiname="Test Record Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value>
+					<value uiname="Test Record Queue 2" uitype="queue">{B2862B31-3B54-EC11-8F8F-000D3A1CBB9E}</value>
+				</condition>
+			</filter>
+		</filter>
+		<link-entity name="queue" from="msdyn_assignmentinputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="aw"></link-entity>
+		<link-entity name="msdyn_decisionruleset" from="msdyn_inputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="bb">
+			<link-entity name="msdyn_assignmentconfigurationstep" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="bc">
+				<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="outer" alias="bd">
+					<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="outer" alias="be"></link-entity>
+				</link-entity>
+			</link-entity>
+		</link-entity>
+		<link-entity name="msdyn_decisionruleset" from="msdyn_outputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="bj">
+			<link-entity name="msdyn_assignmentconfigurationstep" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="bk">
+				<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="outer" alias="bl">
+					<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="outer" alias="bm"></link-entity>
+				</link-entity>
+			</link-entity>
+		</link-entity>
+	</entity>
+</fetch> 
+```
 
-<entity name="msdyn_decisioncontract"> 
+### FetchXML for decision rulesets
 
-<filter type="or"> 
+**1. Decision ruleset for all unified routing-based record queues**<a name="BKMK1all-ur-rls"></a>
 
-<filter type="and"> 
+```
+<fetch distinct="true">
+	<entity name="msdyn_decisionruleset">
+		<link-entity name="msdyn_assignmentconfigurationstep" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="inner" alias="am">
+			<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="inner" alias="an">
+				<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="ao">
+					<filter type="and">
+						<condition attribute="msdyn_queuetype" operator="eq" value="192350001" />
+						<condition attribute="msdyn_isomnichannelqueue" operator="eq" value="1" />
+						<condition attribute="queueid" operator="ne" uiname="Default entity queue" uitype="queue" value="{5A4B76B0-DAB5-4717-9743-9490F2F822C6}" />
+					</filter>
+				</link-entity>
+			</link-entity>
+		</link-entity>
+	</entity>
+</fetch>
+```
 
-<condition attribute="queueid" entityname="aw" operator="in"> 
+**2. Decision ruleset for a single unified routing-based record queue**<a name="BKMK2single-ur-rls"></a>
 
-<value uiname="Test Record Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value> 
+```
+<fetch distinct="true">
+	<entity name="msdyn_decisionruleset">
+		<link-entity name="msdyn_assignmentconfigurationstep" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="inner" alias="am">
+			<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="inner" alias="an">
+				<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="ao">
+					<filter type="and">
+						<condition attribute="queueid" operator="eq" uiname="Test Record Queue 1" uitype="queue" value="{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}" />
+					</filter>
+				</link-entity>
+			</link-entity>
+		</link-entity>
+	</entity>
+</fetch> 
+```
 
-<value uiname="Test Record Queue 2" uitype="queue">{B2862B31-3B54-EC11-8F8F-000D3A1CBB9E}</value> 
+**3. Decision ruleset for multiple unified routing-based record queues**<a name="BKMK3multiple-ur-rls"></a>
 
-</condition> 
+```
+<fetch distinct="true">
+	<entity name="msdyn_decisionruleset">
+		<link-entity name="msdyn_assignmentconfigurationstep" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="inner" alias="am">
+			<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="inner" alias="an">
+				<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="ao">
+					<filter type="and">
+						<condition attribute="queueid" operator="in">
+							<value uiname="Test Record Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value>
+							<value uiname="Test Record Queue 2" uitype="queue">{B2862B31-3B54-EC11-8F8F-000D3A1CBB9E}</value>
+						</condition>
+					</filter>
+				</link-entity>
+			</link-entity>
+		</link-entity>
+	</entity>
+</fetch> 
+```
 
-</filter> 
+### FetchXML for assignment configuration
 
-<filter type="and"> 
+**1. Assignment configuration for all unified routing-based record queues**<a name="BKMK1all-ur-ac"></a>
 
-<condition attribute="queueid" entityname="be" operator="in"> 
+```
+<fetch>
+	<entity name="msdyn_assignmentconfiguration">
+		<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="bi">
+			<filter type="and">
+				<condition attribute="msdyn_queuetype" operator="eq" value="192350001" />
+				<condition attribute="msdyn_isomnichannelqueue" operator="eq" value="1" />
+				<condition attribute="queueid" operator="ne" uiname="Default entity queue" uitype="queue" value="{5A4B76B0-DAB5-4717-9743-9490F2F822C6}" />
+			</filter>
+		</link-entity>
+	</entity>
+</fetch> 
+```
 
-<value uiname="Test Record Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value> 
+**2. Assignment configuration for a single unified routing-based-record queue**<a name="BKMK2single-ur-ac"></a>
 
-<value uiname="Test Record Queue 2" uitype="queue">{B2862B31-3B54-EC11-8F8F-000D3A1CBB9E}</value> 
+```
+<fetch>
+	<entity name="msdyn_assignmentconfiguration">
+		<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="bi">
+			<filter type="and">
+				<condition attribute="queueid" operator="eq" uiname="Test Record Queue 1" uitype="queue" value="{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}" />
+			</filter>
+		</link-entity>
+	</entity>
+</fetch> 
+```
 
-</condition> 
+**3. Assignment configuration for multiple unified routing-based record queues**<a name="BKMK3multiple-ur-ac"></a>
 
-</filter> 
+```
+<fetch>
+	<entity name="msdyn_assignmentconfiguration">
+		<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="bi">
+			<filter type="and">
+				<condition attribute="queueid" operator="in">
+					<value uiname="Test Record Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value>
+					<value uiname="Test Record Queue 2" uitype="queue">{B2862B31-3B54-EC11-8F8F-000D3A1CBB9E}</value>
+				</condition>
+			</filter>
+		</link-entity>
+	</entity>
+</fetch> 
+```
 
-<filter type="and"> 
+### FetchXML for assignment configuration step
 
-<condition attribute="queueid" entityname="bm" operator="in"> 
+**1. Assignment configuration step for all unified routing-based record queues**<a name="BKMK1all-ur-acs"></a>
 
-<value uiname="Test Record Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value> 
+```
+<fetch>
+	<entity name="msdyn_assignmentconfigurationstep">
+		<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="inner" alias="bq">
+			<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="br">
+				<filter type="and">
+					<condition attribute="msdyn_queuetype" operator="eq" value="192350001" />
+					<condition attribute="msdyn_isomnichannelqueue" operator="eq" value="1" />
+					<condition attribute="queueid" operator="ne" uiname="Default entity queue" uitype="queue" value="{5A4B76B0-DAB5-4717-9743-9490F2F822C6}" />
+				</filter>
+			</link-entity>
+		</link-entity>
+	</entity>
+</fetch> 
+```
 
-<value uiname="Test Record Queue 2" uitype="queue">{B2862B31-3B54-EC11-8F8F-000D3A1CBB9E}</value> 
+**2. Assignment configuration step for a single unified routing-based record queue**<a name="BKMK2single-ur-acs"></a>
 
-</condition> 
+```
+<fetch>
+	<entity name="msdyn_assignmentconfigurationstep">
+		<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="inner" alias="bq">
+			<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="br">
+				<filter type="and">
+					<condition attribute="queueid" operator="eq" uiname="Test Record Queue 1" uitype="queue" value="{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}" />
+				</filter>
+			</link-entity>
+		</link-entity>
+	</entity>
+</fetch> 
+```
 
-</filter> 
+**3. Assignment configuration step for multiple unified routing-based record queues**<a name="BKMK3multiple-ur-acs"></a>
 
-</filter> 
-
-<link-entity name="queue" from="msdyn_assignmentinputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="aw"> 
-
-</link-entity> 
-
-<link-entity name="msdyn_decisionruleset" from="msdyn_inputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="bb"> 
-
-<link-entity name="msdyn_assignmentconfigurationstep" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="bc"> 
-
-<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="outer" alias="bd"> 
-
-<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="outer" alias="be"> 
-
-</link-entity> 
-
-</link-entity> 
-
-</link-entity> 
-
-</link-entity> 
-
-<link-entity name="msdyn_decisionruleset" from="msdyn_outputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="bj"> 
-
-<link-entity name="msdyn_assignmentconfigurationstep" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="bk"> 
-
-<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="outer" alias="bl"> 
-
-<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="outer" alias="bm"> 
-
-</link-entity> 
-
-</link-entity> 
-
-</link-entity> 
-
-</link-entity> 
-
-</entity> 
-
+```
+<fetch>
+	<entity name="msdyn_assignmentconfigurationstep">
+		<link-entity name="msdyn_assignmentconfiguration" from="msdyn_assignmentconfigurationid" to="msdyn_assignmentconfigurationid" link-type="inner" alias="bq">
+			<link-entity name="queue" from="queueid" to="msdyn_queueid" link-type="inner" alias="br">
+				<filter type="and">
+					<condition attribute="queueid" operator="in">
+						<value uiname="Test Record Queue 1" uitype="queue">{A5ED5CAA-3A54-EC11-8F8F-000D3A1CBB9E}</value>
+						<value uiname="Test Record Queue 2" uitype="queue">{B2862B31-3B54-EC11-8F8F-000D3A1CBB9E}</value>
+					</condition>
+				</filter>
+			</link-entity>
+		</link-entity>
+	</entity>
 </fetch> 
 ```
 
@@ -484,7 +529,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
     [!INCLUDE[ur-migration](../includes/cc-ur-migration.md)]
     - **Configure import settings**: For the Decision contract entity, ensure that you select the **Do not update existing records** checkbox.
    
-    | SN.| Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
+    | S.No.| Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
     |-----|---------|---------|---------|
     | 1. | Decision contract (msdyn_decisioncontract) |  <ul><li>Contract definition (msdyn_contractdefinition)</li><li>Decision contract (msdyn_decisioncontractid) </li><li>Name (msdyn_name) </li><li>Unique name (msdyn_uniquename) </li></ul>  |  **1. Decision contract for all routed records** `<br> `<br> `<fetch distinct="true">` <br> `<entity name="msdyn_decisioncontract">` <br> `<filter type="or">` <br> `<filter type="and">` <br> `<condition attribute="msdyn_entitylogicalname" entityname="bp" operator="not-null" />` <br> `</filter>` <br> `<filter type="and">` <br> `<condition attribute="msdyn_entitylogicalname" entityname="bt" operator="not-null" />` <br> `</filter>` <br> `</filter>` <br> `<link-entity name="msdyn_decisionruleset" from="msdyn_inputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="bo">` <br> `<link-entity name="msdyn_masterentityroutingconfiguration" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" linktype="outer" alias="bp" />` <br> `</link-entity>` <br> `<link-entity name="msdyn_decisionruleset" from="msdyn_outputcontractid" to="msdyn_decisioncontractid" link-type="outer"alias="bs">` <br> `<link-entity name="msdyn_masterentityroutingconfiguration" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" linktype="outer" alias="bt" />` <br> `</link-entity>` <br> `</entity>` <br> `</fetch>` <br> <br> **2. Decision contract for the incident entity**<br> **Note:** Update the entity logical name in the sample code to migrate entities other than incident.<br> <br> `<fetch distinct="true">` <br> `<entity name="msdyn_decisioncontract">` <br> `<filter type="or">` <br> `<filter type="and">` <br> `<condition attribute="msdyn_entitylogicalname" entityname="bp" operator="eq" value="incident" />` <br> `</filter>` <br> `<filter type="and">` <br> `<condition attribute="msdyn_entitylogicalname" entityname="bt" operator="eq" value="incident" />` <br> `</filter>` <br> `</filter>` <br> `<link-entity name="msdyn_decisionruleset" from="msdyn_inputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="bo">` <br> `<link-entity name="msdyn_masterentityroutingconfiguration" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" linktype="outer" alias="bp" />` <br> `</link-entity>` <br> `<link-entity name="msdyn_decisionruleset" from="msdyn_outputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="bs">` <br> `<link-entity name="msdyn_masterentityroutingconfiguration" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" linktype="outer" alias="bt" />` <br> `</link-entity>` <br> `</entity>` <br> `</fetch>` <br> `<br> **3. Decision Contract for the incident and task entities** `<br>`<br>` <br> `<fetch distinct="true">` <br> `<entity name="msdyn_decisioncontract">` <br> `<filter type="or">` <br> `<filter type="and">` <br> `<condition attribute="msdyn_entitylogicalname" entityname="bp" operator="eq" value="incident" />` <br> `</filter>` <br> `<filter type="and">` <br> `<condition attribute="msdyn_entitylogicalname" entityname="bt" operator="eq" value="incident" />` <br> `</filter>` <br> `<filter type="and">` <br> `<condition attribute="msdyn_entitylogicalname" entityname="bp" operator="eq" value="task" />` <br> `</filter>` <br> `<filter type="and">` <br> `<condition attribute="msdyn_entitylogicalname" entityname="bt" operator="eq" value="task" />` <br> `</filter>` <br> `</filter>` <br> `<link-entity name="msdyn_decisionruleset" from="msdyn_inputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="bo">` <br> `<link-entity name="msdyn_masterentityroutingconfiguration" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" linktype="outer" alias="bp" />` <br> `</link-entity>` <br> `<link-entity name="msdyn_decisionruleset" from="msdyn_outputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="bs">` <br> `<link-entity name="msdyn_masterentityroutingconfiguration" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" linktype="outer" alias="bt" />` <br> `</link-entity>` <br> `</entity>` <br> `</fetch>` <br>  |
     | 2. |  Decision rule set (msdyn_decisionruleset)  |  <ul><li>AI builder model (msdyn_aibmodelid)</li><li> Authoring mode (msdyn_authoringmode) </li><li> Decision rule set (msdyn_decisionrulesetid) </li><li> Description (msdyn_description) </li><li>  Input contract (msdyn_inputcontractid) </li><li>  Is input collection (msdyn_isinputcollection) </li><li> ML model type (msdyn_mlmodeltype) </li><li> Name (msdyn_name) </li><li> Output contract (msdyn_outputcontractid) </li><li>  Rule set definition (msdyn_rulesetdefinition) </li><li>  Rule set type (msdyn_rulesettype) </li><li> Unique name (msdyn_uniquename) </li></ul> |  **1. Decision ruleset for all routed records** <br><br>`<fetch distinct="true">` <br> `<entity name="msdyn_decisionruleset">` <br> `<link-entity name="msdyn_masterentityroutingconfiguration" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" linktype="inner" alias="cp">` <br> `<filter type="and">` <br> `<condition attribute="msdyn_entitylogicalname" operator="not-null" />` <br> `</filter>` <br> `</link-entity>` <br> `</entity>` <br> `</fetch>` <br> **2. Decision ruleset for the incident entity** `<fetch distinct="true">` <br> `<entity name="msdyn_decisionruleset">` <br> `<link-entity name="msdyn_masterentityroutingconfiguration" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" linktype="inner" alias="cp">` <br> `<filter type="and">` <br> `<condition attribute="msdyn_entitylogicalname" operator="eq" value="incident" />` <br> `</filter>` <br> `</link-entity>` <br> `</entity>` <br> `</fetch>` <br><br> **3. Decision ruleset for the incident and task entities** <br> <br>`<fetch distinct="true">` <br> `<entity name="msdyn_decisionruleset">` <br> `<link-entity name="msdyn_masterentityroutingconfiguration" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" linktype="inner" alias="cp">` <br> `<filter type="and">` <br> `<filter type="or">` <br> `<condition attribute="msdyn_entitylogicalname" operator="eq" value="incident" />` <br> `<condition attribute="msdyn_entitylogicalname" operator="eq" value="task" />` <br> `</filter>` <br> `</filter>` <br> `</link-entity>` <br> `</entity>` <br> `</fetch>`  |
@@ -530,9 +575,9 @@ If you have configured capacity profiles in your unified routing setup, perform 
     > [!NOTE]
     > If you want to migrate workstreams pertaining to a specific record type, use the Fetchxml query mentioned in **Option 3** for all the entities in the following table.
 
-    | SN | Entity display name (Logical name)  | Attribute display name (Logical name)  | Use FetchXML to filter records  |
+    | S.No. | Entity display name (Logical name)  | Attribute display name (Logical name)  | Use FetchXML to filter records  |
     |-----|---------|---------|---------|
-    | 1. |  Work Stream (msdyn_liveworkstream)  |  <ul><li>Allow Automated Messages (msdyn_enableautomatedmessages)</li> <li> </li> <li>Allowed Presences (msdyn_allowedpresences)</li> <li>Assign WorkItem After Decline or Timeout (msdyn_assignworkitemafterdecline)</li> <li>Auto-close after inactivity (msdyn_autocloseafterinactivity)</li> <li>Block capacity for wrap up state (msdyn_blockcapacityforwrapup)</li> <li>Bot queue (msdyn_bot_queue)</li> <li>Bot rule (msdyn_bot_rule)</li> <li>Bot user (msdyn_bot_user)</li> <li>Capacity (msdyn_capacityrequired)</li> <li>Capacity format (msdyn_capacityformat)</li> <li>Channel (msdyn_streamsource)</li> <li>Contract Id (msdyn_routingcontractid)</li> <li>Default (msdyn_sessiontemplate_default)</li> <li>Direction (msdyn_direction)</li> <li>Enable selecting from push-based work streams (msdyn_enableselectingfrompushbasedworkstreams)</li> <li>Entity (msdyn_masterentityroutingconfigurationid)</li> <li>FallBack Language (msdyn_fallbacklanguage)</li> <li>Follow-up after waiting (msdyn_followupafterwaiting)</li> <li>Handling Time Threshold (msdyn_handlingtimethreshold)</li> <li>Incoming authenticated (msdyn_notificationtemplate_incoming_auth)</li> <li>Is Default (msdyn_isdefault)</li> <li>Keep same agent for entire conversation (msdyn_enableagentaffinity)</li> <li>Matching Logic (msdyn_matchinglogic)</li> <li>Max Concurrency (msdyn_maxconcurrentconnection)</li> <li>Mode (msdyn_mode)</li> <li>Name (msdyn_name)</li> <li>Notification (msdyn_notification)</li> <li>Outbound queue (msdyn_outboundqueueid)</li> <li>Record Identification Rule (msdyn_recordidentificationrule)</li> <li>Record Identification Validation Rule (msdyn_recordidentificationvalidationrule)</li> <li>Screen pop timeout (msdyn_screenpoptimeout)</li> <li>Screen pop timeout (msdyn_screenpoptimeout_optionSet)</li> <li>Skill Attachment Rules Count (msdyn_skillattachmentrulescount)</li> <li>Skill Attachment Rules Count (Last Updated On) (msdyn_skillattachmentrulescount_date)</li> <li>Skill Attachment Rules Count (State) (msdyn_skillattachmentrulescount_state)</li> <li>Waiting Time Threshold (msdyn_waitingtimethreshold)</li> <li>Work Distribution Mode (msdyn_workdistributionmode)</li> <li>Work Stream (msdyn_liveworkstreamid)</li> </ui>  |    **Option 1: All unified routing-based record workstreams** <br> <br> `<fetch distinct="true">` <br> `<entity name="msdyn_liveworkstream">` <br> `<filter type="and">` <br> `<condition attribute="msdyn_mode" operator="eq" value="717210001" />` <br> `<condition attribute="msdyn_streamsource" operator="eq" value="192350000" />` <br> `</filter>` <br> `</entity>` <br> `</fetch>` <br> <br> **Option 2: Single unified routing-based record workstream**<br> <br> `<fetch>` <br> `<entity name="msdyn_liveworkstream">` <br> `<filter type="and">` <br> `<condition attribute="msdyn_liveworkstreamid" operator="eq" uiname="Test Record Workstream Case 1" uitype="msdyn_liveworkstream" value="{759255C7-7AC8-98E0-7E3E-59A7F0312EFC}" />` <br> `</filter>` <br> `</entity>` <br> `</fetch>` <br> <br> **Option 3: Multiple unified routing-based record workstreams** <br> <br> `<fetch version="1.0" mapping="logical" distinct="false">` <br> `<entity name="msdyn_liveworkstream">` <br> `<filter type="and">` <br> `<condition attribute="msdyn_liveworkstreamid" operator="in">` <br> `<value uiname="Test Record Workstream Case 1" uitype="msdyn_liveworkstream">{759255C7-7AC8-98E0-7E3E-59A7F0312EFC}</value>` <br> `<value uiname="Test Record Workstream Task 1" uitype="msdyn_liveworkstream">{E6246229-33AC-5A9E-2FFE-51668AD44215}</value>` <br> `</condition>` <br> `</filter>` <br> `</entity>` <br> `</fetch>` <br>  |
+    | 1. |  Work Stream (msdyn_liveworkstream)  |  <ul><li>Allow Automated Messages (msdyn_enableautomatedmessages)</li> <li> </li> <li>Allowed Presences (msdyn_allowedpresences)</li> <li>Assign WorkItem After Decline or Timeout (msdyn_assignworkitemafterdecline)</li> <li>Auto-close after inactivity (msdyn_autocloseafterinactivity)</li> <li>Block capacity for wrap up state (msdyn_blockcapacityforwrapup)</li> <li>Bot queue (msdyn_bot_queue)</li> <li>Bot rule (msdyn_bot_rule)</li> <li>Bot user (msdyn_bot_user)</li> <li>Capacity (msdyn_capacityrequired)</li> <li>Capacity format (msdyn_capacityformat)</li> <li>Channel (msdyn_streamsource)</li> <li>Contract Id (msdyn_routingcontractid)</li> <li>Default (msdyn_sessiontemplate_default)</li><li>Default Queue (msdyn_defaultqueue)</li> <li>Direction (msdyn_direction)</li> <li>Enable selecting from push-based work streams (msdyn_enableselectingfrompushbasedworkstreams)</li> <li>Entity (msdyn_masterentityroutingconfigurationid)</li> <li>FallBack Language (msdyn_fallbacklanguage)</li> <li>Follow-up after waiting (msdyn_followupafterwaiting)</li> <li>Handling Time Threshold (msdyn_handlingtimethreshold)</li> <li>Incoming authenticated (msdyn_notificationtemplate_incoming_auth)</li> <li>Is Default (msdyn_isdefault)</li> <li>Keep same agent for entire conversation (msdyn_enableagentaffinity)</li> <li>Matching Logic (msdyn_matchinglogic)</li> <li>Max Concurrency (msdyn_maxconcurrentconnection)</li> <li>Mode (msdyn_mode)</li> <li>Name (msdyn_name)</li> <li>Notification (msdyn_notification)</li> <li>Outbound queue (msdyn_outboundqueueid)</li> <li>Record Identification Rule (msdyn_recordidentificationrule)</li> <li>Record Identification Validation Rule (msdyn_recordidentificationvalidationrule)</li> <li>Screen pop timeout (msdyn_screenpoptimeout)</li> <li>Screen pop timeout (msdyn_screenpoptimeout_optionSet)</li> <li>Skill Attachment Rules Count (msdyn_skillattachmentrulescount)</li> <li>Skill Attachment Rules Count (Last Updated On) (msdyn_skillattachmentrulescount_date)</li> <li>Skill Attachment Rules Count (State) (msdyn_skillattachmentrulescount_state)</li> <li>Waiting Time Threshold (msdyn_waitingtimethreshold)</li> <li>Work Distribution Mode (msdyn_workdistributionmode)</li> <li>Work Stream (msdyn_liveworkstreamid)</li> </ui>  |    **Option 1: All unified routing-based record workstreams** <br> <br> `<fetch distinct="true">` <br> `<entity name="msdyn_liveworkstream">` <br> `<filter type="and">` <br> `<condition attribute="msdyn_mode" operator="eq" value="717210001" />` <br> `<condition attribute="msdyn_streamsource" operator="eq" value="192350000" />` <br> `</filter>` <br> `</entity>` <br> `</fetch>` <br> <br> **Option 2: Single unified routing-based record workstream**<br> <br> `<fetch>` <br> `<entity name="msdyn_liveworkstream">` <br> `<filter type="and">` <br> `<condition attribute="msdyn_liveworkstreamid" operator="eq" uiname="Test Record Workstream Case 1" uitype="msdyn_liveworkstream" value="{759255C7-7AC8-98E0-7E3E-59A7F0312EFC}" />` <br> `</filter>` <br> `</entity>` <br> `</fetch>` <br> <br> **Option 3: Multiple unified routing-based record workstreams** <br> <br> `<fetch version="1.0" mapping="logical" distinct="false">` <br> `<entity name="msdyn_liveworkstream">` <br> `<filter type="and">` <br> `<condition attribute="msdyn_liveworkstreamid" operator="in">` <br> `<value uiname="Test Record Workstream Case 1" uitype="msdyn_liveworkstream">{759255C7-7AC8-98E0-7E3E-59A7F0312EFC}</value>` <br> `<value uiname="Test Record Workstream Task 1" uitype="msdyn_liveworkstream">{E6246229-33AC-5A9E-2FFE-51668AD44215}</value>` <br> `</condition>` <br> `</filter>` <br> `</entity>` <br> `</fetch>` <br>  |
     | 2. |  Decision contract (msdyn_decisioncontract)  |  <ul><li>Contract definition (msdyn_contractdefinition) </li> <li>- Decision contract (msdyn_decisioncontractid) </li> <li>- Name (msdyn_name) </li> <li>- Unique name (msdyn_uniquename) </li> </ul>  |  **Option 1: Decision contract for all unified routing-based record workstreams** <br> <br> `<fetch distinct="true">` <br> `<entity name="msdyn_decisioncontract">` <br> `<filter type="or">` <br> `<filter type="and">` <br> `<condition attribute="msdyn_mode" entityname="an" operator="eq" value="717210001" />` <br> `<condition attribute="msdyn_streamsource" entityname="an" operator="eq" value="192350000" />` <br> `</filter>` <br> `<filter type="and">` <br> `<condition attribute="msdyn_mode" entityname="bd" operator="eq" value="717210001" />` <br> `<condition attribute="msdyn_streamsource" entityname="bd" operator="eq" value="192350000" />` <br> `</filter>` <br> `<filter type="and">` <br> `<condition attribute="msdyn_entitylogicalname" entityname="bp" operator="not-null" />` <br> `</filter>` <br> `<filter type="and">` <br> `<condition attribute="msdyn_entitylogicalname" entityname="bt" operator="not-null" />` <br> `</filter>` <br> `</filter>` <br> `<link-entity name="msdyn_liveworkstream" from="msdyn_routingcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="an">` <br> `</link-entity>` <br> `<link-entity name="msdyn_decisionruleset" from="msdyn_outputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="ba">` <br> `<link-entity name="msdyn_routingconfigurationstep" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="bb">` <br> `<link-entity name="msdyn_routingconfiguration" from="msdyn_routingconfigurationid" to="msdyn_routingconfigurationid" link-type="outer" alias="bc">` <br> `<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="outer" alias="bd">` <br> `</link-entity>` <br> `</link-entity>` <br> `</link-entity>` <br> `</link-entity>` <br> `<link-entity name="msdyn_decisionruleset" from="msdyn_inputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="bo">` <br> `<link-entity name="msdyn_masterentityroutingconfiguration" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="bp" />` <br> `</link-entity>` <br> `<link-entity name="msdyn_decisionruleset" from="msdyn_outputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="bs">` <br> `<link-entity name="msdyn_masterentityroutingconfiguration" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="bt" />` <br> `</link-entity>` <br> `</entity>` <br> `</fetch>` <br> **Option 2: Decision contract for a single unified routing-based record workstream of type = incident** <br> <br> `<fetch distinct="true">` <br> `<entity name="msdyn_decisioncontract">` <br> `<filter type="or">` <br> `<filter type="and">` <br> `<condition attribute="msdyn_liveworkstreamid" entityname="an" operator="eq" uiname="Test Record Workstream Case 1" uitype="msdyn_liveworkstream" value="{759255C7-7AC8-98E0-7E3E-59A7F0312EFC}" />` <br> `</filter>` <br> `<filter type="and">` <br> `<condition attribute="msdyn_liveworkstreamid" entityname="bd" operator="eq" uiname="Test Record Workstream Case 1" uitype="msdyn_liveworkstream" value="{759255C7-7AC8-98E0-7E3E-59A7F0312EFC}" />` <br> `</filter>` <br> `<filter type="and">` <br> `<condition attribute="msdyn_entitylogicalname" entityname="bp" operator="eq" value="incident" />` <br> `</filter>` <br> `<filter type="and">` <br> `<condition attribute="msdyn_entitylogicalname" entityname="bt" operator="eq" value="incident" />` <br> `</filter>` <br> `</filter>` <br> `<link-entity name="msdyn_liveworkstream" from="msdyn_routingcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="an">` <br> `</link-entity>` <br> `<link-entity name="msdyn_decisionruleset" from="msdyn_outputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="ba">` <br> `<link-entity name="msdyn_routingconfigurationstep" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="bb">` <br> `<link-entity name="msdyn_routingconfiguration" from="msdyn_routingconfigurationid" to="msdyn_routingconfigurationid" link-type="outer" alias="bc">` <br> `<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="outer" alias="bd">` <br> `</link-entity>` <br> `</link-entity>` <br> `</link-entity>` <br> `</link-entity>` <br> `<link-entity name="msdyn_decisionruleset" from="msdyn_inputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="bo">` <br> `<link-entity name="msdyn_masterentityroutingconfiguration" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="bp" />` <br> `</link-entity>` <br> `<link-entity name="msdyn_decisionruleset" from="msdyn_outputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="bs">` <br> `<link-entity name="msdyn_masterentityroutingconfiguration" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="bt" />` <br> `</link-entity>` <br> `</entity>` <br> `</fetch>` <br> **Option 3: Decision contract for multiple unified routing-based record workstreams of type = incident and type = task** <br> <br>`<fetch distinct="true">` <br> `<entity name="msdyn_decisioncontract">` <br> `<filter type="or">` <br> `<filter type="and">` <br> `<condition attribute="msdyn_liveworkstreamid" entityname="an" operator="in">` <br> `<value uiname="Test Record Workstream Case 1" uitype="msdyn_liveworkstream">{759255C7-7AC8-98E0-7E3E-59A7F0312EFC}</value>` <br> `<value uiname="Test Record Workstream Task 1" uitype="msdyn_liveworkstream">{E6246229-33AC-5A9E-2FFE-51668AD44215}</value>` <br> `</condition>` <br> `</filter>` <br> `<filter type="and">` <br> `<condition attribute="msdyn_liveworkstreamid" entityname="bd" operator="in">` <br> `<value uiname="Test Record Workstream Case 1" uitype="msdyn_liveworkstream">{759255C7-7AC8-98E0-7E3E-59A7F0312EFC}</value>` <br> `<value uiname="Test Record Workstream Task 1" uitype="msdyn_liveworkstream">{E6246229-33AC-5A9E-2FFE-51668AD44215}</value>` <br> `</condition>` <br> `</filter>` <br> `<filter type="and">` <br> `<condition attribute="msdyn_entitylogicalname" entityname="bp" operator="eq" value="incident" />` <br> `</filter>` <br> `<filter type="and">` <br> `<condition attribute="msdyn_entitylogicalname" entityname="bt" operator="eq" value="incident" />` <br> `</filter>` <br> `<filter type="and">` <br> `<condition attribute="msdyn_entitylogicalname" entityname="bp" operator="eq" value="task" />` <br> `</filter>` <br> `<filter type="and">` <br> `<condition attribute="msdyn_entitylogicalname" entityname="bt" operator="eq" value="task" />` <br> `</filter>` <br> `</filter>` <br> `<link-entity name="msdyn_liveworkstream" from="msdyn_routingcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="an">` <br> `</link-entity>` <br> `<link-entity name="msdyn_decisionruleset" from="msdyn_outputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="ba">` <br> `<link-entity name="msdyn_routingconfigurationstep" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="bb">` <br> `<link-entity name="msdyn_routingconfiguration" from="msdyn_routingconfigurationid" to="msdyn_routingconfigurationid" link-type="outer" alias="bc">` <br> `<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="outer" alias="bd">` <br> `</link-entity>` <br> `</link-entity>` <br> `</link-entity>` <br> `</link-entity>` <br> `<link-entity name="msdyn_decisionruleset" from="msdyn_inputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="bo">` <br> `<link-entity name="msdyn_masterentityroutingconfiguration" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="bp" />` <br> `</link-entity>` <br> `<link-entity name="msdyn_decisionruleset" from="msdyn_outputcontractid" to="msdyn_decisioncontractid" link-type="outer" alias="bs">` <br> `<link-entity name="msdyn_masterentityroutingconfiguration" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="bt" />` <br> `</link-entity>` <br> `</entity>` <br> `</fetch>` <br>   |
     | 3. |  Decision rule set (msdyn_decisionruleset)  |  <ul><li> AI builder model (msdyn_aibmodelid)</li><li> Authoring mode (msdyn_authoringmode) </li><li> Decision rule set (msdyn_decisionrulesetid) </li><li>Description (msdyn_description) </li><li>Input contract (msdyn_inputcontractid) </li><li>Is input collection (msdyn_isinputcollection) </li><li>-ML model type (msdyn_mlmodeltype) </li><li>Name (msdyn_name) </li><li>-Output contract (msdyn_outputcontractid) </li><li>Rule set definition (msdyn_rulesetdefinition) </li><li>Rule set type (msdyn_rulesettype) </li><li>Unique name (msdyn_uniquename) </li></ul>  |  **1. Decision ruleset for all unified routing-based record workstreams** <br> <br> `<fetch distinct="true">` <br> `<entity name="msdyn_decisionruleset">` <br> `<filter type="or">` <br> `<filter type="and">` <br> `<condition attribute="msdyn_mode" entityname="af" operator="eq" value="717210001" />` <br> `<condition attribute="msdyn_streamsource" entityname="af" operator="eq" value="192350000" />` <br> `</filter>` <br> `<filter type="and">` <br> `<condition attribute="msdyn_entitylogicalname" entityname="dc" operator="not-null" />` <br> `</filter>` <br> `</filter>` <br> `<link-entity name="msdyn_routingconfigurationstep" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="ad">` <br> `<link-entity name="msdyn_routingconfiguration" from="msdyn_routingconfigurationid" to="msdyn_routingconfigurationid" link-type="outer" alias="ae">` <br> `<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="outer" alias="af">` <br> `</link-entity>` <br> `</link-entity>` <br> `</link-entity>` <br> `<link-entity name="msdyn_masterentityroutingconfiguration" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="dc">` <br> `</link-entity>` <br> `</entity>` <br> `</fetch>` <br> <br></li> **2. Decision ruleset for a single unified routing-based record workstream of type = incident** <br> <br> `<fetch distinct="true">` <br> `<entity name="msdyn_decisionruleset">` <br> `<filter type="or">` <br> `<filter type="and">` <br> `<condition attribute="msdyn_liveworkstreamid" entityname="af" operator="eq" uiname="Test Record Workstream Case 1" uitype="msdyn_liveworkstream"value="{759255C7-7AC8-98E0-7E3E-59A7F0312EFC}" />` <br> `</filter>` <br> `<filter type="and">` <br> `<condition attribute="msdyn_entitylogicalname" entityname="dc" operator="eq" value="incident" />` <br> `</filter>` <br> `</filter>` <br> `<link-entity name="msdyn_routingconfigurationstep" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="ad">` <br> `<link-entity name="msdyn_routingconfiguration" from="msdyn_routingconfigurationid" to="msdyn_routingconfigurationid" link-type="outer" alias="ae">` <br> `<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="outer" alias="af">` <br> `</link-entity>` <br> `</link-entity>` <br> `</link-entity>` <br> `<link-entity name="msdyn_masterentityroutingconfiguration" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="dc">` <br> `</link-entity>` <br> `</entity>` <br> `</fetch>` <br> <br></li> **3. Decision ruleset for multiple unified routing-based record workstreams type = incident and type = task** <br><br> `<fetch distinct="true">` <br> `<entity name="msdyn_decisionruleset">` <br> `<filter type="or">` <br> `<filter type="and">` <br> `<condition attribute="msdyn_liveworkstreamid" entityname="af" operator="in">` <br> `<value uiname="Test Record Workstream Case 1" uitype="msdyn_liveworkstream">{759255C7-7AC8-98E0-7E3E-59A7F0312EFC}</value>` <br> `<value uiname="Test Record Workstream Task 1" uitype="msdyn_liveworkstream">{E6246229-33AC-5A9E-2FFE-51668AD44215}</value>` <br> `</condition>` <br> `</filter>` <br> `<filter type="and">` <br> `<filter type="or">` <br> `<condition attribute="msdyn_entitylogicalname" entityname="dc" operator="eq" value="incident" />` <br> `<condition attribute="msdyn_entitylogicalname" entityname="dc" operator="eq" value="task" />` <br> `</filter>` <br> `</filter>` <br> `</filter>` <br> `<link-entity name="msdyn_routingconfigurationstep" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="ad">` <br> `<link-entity name="msdyn_routingconfiguration" from="msdyn_routingconfigurationid" to="msdyn_routingconfigurationid" link-type="outer" alias="ae">` <br> `<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="outer" alias="af">` <br> `</link-entity>` <br> `</link-entity>` <br> `</link-entity>` <br> `<link-entity name="msdyn_masterentityroutingconfiguration" from="msdyn_rulesetid" to="msdyn_decisionrulesetid" link-type="outer" alias="dc">` <br> `</link-entity>` <br> `</entity>` <br> `</fetch>` <br> **Note:** All the intake rules for the selected entity are migrated, therefore ensure that the corresponding workstreams are also migrated to the target organization.   |
     | 4. | Routing configuration (msdyn_routingconfiguration) |  <ul> <li> Is active configuration (msdyn_isactiveconfiguration) </li> <li>- Name (msdyn_name) </li> <li>- Routing configuration (msdyn_routingconfigurationid) </li> <li>- Unique name (msdyn_uniquename) </li> <li>-Work stream (msdyn_liveworkstreamid) </li> </ul>  |  **1. Routing configuration for all unified routing-based record workstreams** <br><br>`<fetch>` <br> `<entity name="msdyn_routingconfiguration">` <br> `<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ah">` <br> `<filter type="and">` <br> `<condition attribute="msdyn_mode" operator="eq" value="717210001" />` <br> `<condition attribute="msdyn_streamsource" operator="eq" value="192350000" />` <br> `</filter>` <br> `</link-entity>` <br> `</entity>` <br> `</fetch>` <br> <br>**2. Routing configuration for a single unified routing-based record workstream** <br> <br>`<fetch>` <br> `<entity name="msdyn_routingconfiguration">` <br> `<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ah">` <br> `<filter type="and">` <br> `<condition attribute="msdyn_liveworkstreamid" operator="eq" uiname="Test Record Workstream Case 1" uitype="msdyn_liveworkstream" value="{759255C7-7AC8-98E0-7E3E-59A7F0312EFC}" />` <br> `</filter>` <br> `</link-entity>` <br> `</entity>` <br> `</fetch>` <br> <br>**3. Routing configuration for multiple unified routing-based record workstreams** <br><br>`<fetch>` <br> `<entity name="msdyn_routingconfiguration">` <br> `<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ah">` <br> `<filter type="and">` <br> `<condition attribute="msdyn_liveworkstreamid" operator="in">` <br> `<value uiname="Test Record Workstream Case 1" uitype="msdyn_liveworkstream">{759255C7-7AC8-98E0-7E3E-59A7F0312EFC}</value>` <br> `<value uiname="Test Record Workstream Task 1" uitype="msdyn_liveworkstream">{E6246229-33AC-5A9E-2FFE-51668AD44215}</value>` <br> `</condition>` <br> `</filter>` <br> `</link-entity>` <br> `</entity>` <br> `</fetch>` <br>   |
