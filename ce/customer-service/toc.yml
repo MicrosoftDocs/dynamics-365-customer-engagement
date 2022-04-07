@@ -452,7 +452,7 @@
         href: create-manage-categories.md
       - name: Create knowledge article templates in Power Apps
         href: /power-platform/admin/create-templates-articles
-      - name: Integrate knowledge management with Power Virtual Agents
+      - name: Integrate knowledge management in Dynamics 365 with Power Virtual Agents bots (preview)
         href: integrate-KM-with-PVA.md
       - name: Configure the origin allowlist for knowledge articles
         href: configure-knowledge-article-origin-allow-list.md
