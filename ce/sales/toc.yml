@@ -14,86 +14,86 @@
           href: sales-trial-faq.md
         - name: Preview features in trial
           href: sales-previews-in-trial.md
-    - name: Install or uninstall
-      items: 
-        - name: Set up Dynamics 365 Sales
-          href: set-up-dynamics-365-sales.md
-        - name: Use the Sales Hub app
-          href: intro-saleshub.md
-        - name: Set up Dynamics 365 Sales premium features
-          href: intro-admin-guide-sales-insights.md
-        - name: Provision your Dynamics 365 Sales Professional environment
-          href: provision-sales-professional-instance.md
-        - name: Uninstall Dynamics 365 Sales premium features
-          href: uninstall-sales-insights.md
-    - name: Add or remove sample data in Sales Hub
-      href: /power-platform/admin/add-remove-sample-data?context=/dynamics365/context/sales-context
-    - name: Add or remove sample data in Sales accelerator
-      href: manage-sample-data.md
-    - name: Add or remove sample data in Sales Professional
-      href: install-sample-data.md
-    - name: Upgrade
-      items: 
-        - name: Upgrade from Dynamics 365 Sales Professional
-          href: upgrade-sales-professional-sales-enterprise.md
-        - name: Move from Dynamics 365 Sales Enterprise to Professional
-          href: move-sales-enterprise-sales-professional.md
-    - name: Configure your sales organization
-      items: 
-        - name: System Settings - Sales
-          href: system-settings-sales-tab.md
-        - name: Create business units
-          href: /power-platform/admin/create-edit-business-units?context=/dynamics365/context/sales-context
-        - name: Predefined security roles for Sales
-          href: security-roles-for-sales.md
-        - name: Create users and assign security roles
-          href: manage-users.md
-        - name: Add or manage teams
-          href: manage-teams.md
-        - name: Set up sales territories
-          href: /power-platform/admin/set-up-sales-territories-organize-business-markets-geographical-area?context=/dynamics365/context/sales-context
-        - name: Add or remove sales territory members
-          href: /power-platform/admin/add-remove-territory-members?context=/dynamics365/context/sales-context
-        - name: Hierarchy security to control access
-          href: /power-platform/admin/hierarchy-security?context=/dynamics365/context/sales-context
-        - name: Define fiscal and currency settings
-          items: 
-            - name: Manage transactions with multiple currencies
-              href: /power-platform/admin/manage-transactions-with-multiple-currencies?context=/dynamics365/context/sales-context
-            - name: Work with fiscal year settings
-              href: /power-platform/admin/work-fiscal-year-settings?context=/dynamics365/context/sales-context
-            - name: Import data
-              href: import-data.md
-    - name: Customize your sales app
-      items: 
-        - name: Create and customize a form
-          href: customize-forms.md
-        - name: Create and customize a view
-          href: customize-views.md
-        - name: Set up branding and theming
-          href: change-color-scheme-logo.md
-        - name: Customize the app
-          href: manage-app.md
+  - name: Install or uninstall
+    items:
+    - name: Set up Dynamics 365 Sales
+      href: set-up-dynamics-365-sales.md
+    - name: Use the Sales Hub app 
+      href: intro-saleshub.md
+    - name: Set up Dynamics 365 Sales premium features
+      href: intro-admin-guide-sales-insights.md
+    - name: Provision your Dynamics 365 Sales Professional environment
+      href: provision-sales-professional-instance.md
+    - name: Uninstall Dynamics 365 Sales premium features
+      href: uninstall-sales-insights.md         
+  - name: Add or remove sample data in Sales Hub
+    href: /power-platform/admin/add-remove-sample-data?context=/dynamics365/context/sales-context
+  - name: Add or remove sample data in Sales accelerator      
+    href: manage-sample-data.md   
+  - name: Add or remove sample data in Sales Professional
+    href: install-sample-data.md
+  - name: Upgrade
+    items:
+    - name: Upgrade from Dynamics 365 Sales Professional
+      href: upgrade-sales-professional-sales-enterprise.md
+    - name: Move from Dynamics 365 Sales Enterprise to Professional
+      href: move-sales-enterprise-sales-professional.md
+  - name: Configure your sales organization
+    items:
+    - name: System Settings - Sales
+      href: system-settings-sales-tab.md
+    - name: Create business units 
+      href: /power-platform/admin/create-edit-business-units?context=/dynamics365/context/sales-context
+    - name: Predefined security roles for Sales
+      href: security-roles-for-sales.md    
+    - name: Create users and assign security roles
+      href: manage-users.md
+    - name: Add or manage teams
+      href: manage-teams.md
+    - name: Set up sales territories
+      href: /power-platform/admin/set-up-sales-territories-organize-business-markets-geographical-area?context=/dynamics365/context/sales-context
+    - name: Add or remove sales territory members
+      href: /power-platform/admin/add-remove-territory-members?context=/dynamics365/context/sales-context
+    - name: Hierarchy security to control access
+      href: /power-platform/admin/hierarchy-security?context=/dynamics365/context/sales-context
+    - name: Define fiscal and currency settings
+      items:
+      - name: Manage transactions with multiple currencies
+        href: /power-platform/admin/manage-transactions-with-multiple-currencies?context=/dynamics365/context/sales-context
+      - name: Work with fiscal year settings
+        href: /power-platform/admin/work-fiscal-year-settings?context=/dynamics365/context/sales-context
+      - name: Import data
+        href: import-data.md
+  - name: Customize your sales app
+    items:
+    - name: Create and customize a form
+      href: customize-forms.md
+    - name: Create and customize a view
+      href: customize-views.md
+    - name: Set up branding and theming
+      href: change-color-scheme-logo.md
+    - name: Customize the app
+      href: manage-app.md
 - name: Learn the basics
-  items: 
-    - name: Learn the basics
-      href: user-guide-learn-basics.md
-    - name: Understand the sales process
-      href: nurture-sales-from-lead-order-sales.md
-    - name: Import data
-      href: import-data.md
-    - name: Export data to Excel
-      href: /powerapps/user/export-data-excel?context=/dynamics365/context/sales-context
-    - name: Search for your data
-      href: /powerapps/user/search?context=/dynamics365/context/sales-context
-    - name: Assign or share records
-      href: /powerapps/user/assign-or-share-records?context=/dynamics365/context/sales-context
-    - name: Print quote, invoice, or other records
-      href: print-records.md
-    - name: Export sales records to PDF
-      href: create-quote-pdf.md
-    - name: Work with views
-      href: work-with-views.md
+  items:
+  - name: Learn the basics
+    href: user-guide-learn-basics.md
+  - name: Understand the sales process
+    href: nurture-sales-from-lead-order-sales.md        
+  - name: Import data 
+    href: import-data.md
+  - name: Export data to Excel
+    href: /powerapps/user/export-data-excel?context=/dynamics365/context/sales-context
+  - name: Search for your data
+    href: /powerapps/user/search?context=/dynamics365/context/sales-context
+  - name: Assign or share records
+    href: /powerapps/user/assign-or-share-records?context=/dynamics365/context/sales-context
+  - name: Print quote, invoice, or other records
+    href: print-records.md
+  - name: Export sales records to PDF
+    href: create-quote-pdf.md
+  - name: Work with views
+    href: work-with-views.md
 - name: Administration guide
   items:
   - name: Administration overview
@@ -853,365 +853,229 @@
       - name: Sales forecasting APIs
         items:
         - name: Overview
-          href: sales-mobile/dynamics-365-sales-mobile-app.md
-        - name: Install the mobile app
-          href: sales-mobile/install-mobile-app.md
-        - name: Use the mobile app
-          href: sales-mobile/use-sales-mobile-app.md
-        - name: Learn the basics
-          href: sales-mobile/learn-basics-mobile-app.md
-        - name: View meetings
-          href: sales-mobile/view-agenda.md
-        - name: Search records
-          href: sales-mobile/search-records.md
-        - name: Manage records
-          href: sales-mobile/open-record.md
-        - name: Manage contacts
-          href: sales-mobile/create-contact.md
-        - name: Manage notes
-          href: sales-mobile/view-edit-add-note.md
-        - name: Use dictation
-          href: sales-mobile/use-dictation.md
-        - name: View activities for a record
-          href: sales-mobile/view-activities-record.md
-        - name: App settings
-          href: sales-mobile/app-settings.md
-        - name: Use the Sales Hub app or Sales Professional app on Dynamics 365 for phones and tablets app
-          href: use-sales-hub-on-dynamics-365-mobile.md
-- name: Developer guide
-  items: 
-    - name: Resources for developers
-      href: developer/developer-guide.md
-    - name: Sales entities
-      items: 
-        - name: Sales entities (lead, opportunity, competitor, quote, order, invoice)
-          href: ../customerengagement/on-premises/developer/sales-entities-lead-opportunity-competitor-quote-order-invoice.md
-        - name: Competitor entity
-          href: ../customerengagement/on-premises/developer/competitor-entity.md
-        - name: Lead entity
-          items: 
-            - name: About Lead entity
-              href: ../customerengagement/on-premises/developer/lead-entity.md
-            - name: Qualify a lead (Sample)
-              href: ../customerengagement/on-premises/developer/sample-qualify-lead.md
-        - name: Opportunity entity
-          items: 
-            - name: About Opportunity entity
-              href: ../customerengagement/on-premises/developer/opportunity-entities.md
-            - name: Create an opportunity
-              href: ../customerengagement/on-premises/developer/create-opportunity.md
-            - name: Convert an opportunity to a quote, sales order or invoice
-              href: ../customerengagement/on-premises/developer/convert-opportunity-quote-sales-order-invoice.md
-            - name: Create an opportunity (early bound sample)
-              href: ../customerengagement/on-premises/developer/sample-create-opportunity-early-bound.md
-            - name: Retrieve an opportunity (early bound sample)
-              href: ../customerengagement/on-premises/developer/sample-retrieve-opportunity-early-bound.md
-            - name: Convert an opportunity to a quote (early bound sample)
-              href: ../customerengagement/on-premises/developer/sample-convert-opportunity-quote-early-bound.md
-        - name: Quote, order, and invoice entities
-          items: 
-            - name: About Quote, order, and invoice entities
-              href: ../customerengagement/on-premises/developer/quote-order-invoice-entities.md
-            - name: Set negative prices in opportunities, quotes, and sales orders (Sample)
-              href: ../customerengagement/on-premises/developer/sample-set-negative-prices-opportunities-quotes-sales-orders.md
-            - name: Process quotes, sales orders and invoices (Sample)
-              href: ../customerengagement/on-premises/developer/sample-process-quotes-sales-orders-invoices.md
-            - name: Fulfill a sales order (Sample)
-              href: ../customerengagement/on-premises/developer/sample-fulfill-sales-order.md
-            - name: Enable sales order processing integration
-              href: developer/enable-sales-order-processing-integration.md
-    - name: Marketing entities
-      items: 
-        - name: Marketing entities (campaign, list)
-          href: ../customerengagement/on-premises/developer/marketing-entities-campaign-list.md
-        - name: Campaign entities
-          href: ../customerengagement/on-premises/developer/campaign-entities.md
-        - name: List (marketing list) entity
-          href: ../customerengagement/on-premises/developer/list-marketing-list-entity.md
-        - name: Distribute a quick campaign (Sample)
-          href: ../customerengagement/on-premises/developer/sample-distribute-a-quick-campaign.md
-        - name: Distribute campaign activities to dynamic and static lists (Sample)
-          href: ../customerengagement/on-premises/developer/sample-distribute-campaign-activities-dynamic-static-lists.md
-        - name: Distribute campaign activities to qualified marketing list (Sample)
-          href: ../customerengagement/on-premises/developer/sample-distribute-campaign-activities-qualified-marketing-list.md
-    - name: Goal management entities
-      items: 
-        - name: About goal management entities
-          href: ../customerengagement/on-premises/developer/goal-management-entities.md
-        - name: Create goal hierarchy, goals, and targets
-          href: ../customerengagement/on-premises/developer/create-goal-hierarchy-goals-targets.md
-        - name: Define goal metric and rollup fields
-          href: ../customerengagement/on-premises/developer/define-goal-metric-rollup-fields.md
-        - name: Add complex goal criteria
-          href: ../customerengagement/on-premises/developer/add-complex-goal-criteria.md
-        - name: Roll up goal totals
-          href: ../customerengagement/on-premises/developer/roll-up-goal-totals.md
-        - name: Rollup goal data for a custom period against the target revenue (Sample)
-          href: ../customerengagement/on-premises/developer/sample-rollup-goal-data-custom-period-target-revenue.md
-        - name: Rollup goal data for a fiscal period against the stretch target count (Sample)
-          href: ../customerengagement/on-premises/developer/sample-rollup-goal-data-fiscal-period-stretch-target-count.md
-        - name: Use rollup queries to track goals (Sample)
-          href: ../customerengagement/on-premises/developer/sample-use-rollup-queries-track-goals.md
-        - name: Override goal total count and close the goal (Sample)
-          href: ../customerengagement/on-premises/developer/sample-override-goal-total-count-close-goal.md
-    - name: Product catalog entities
-      items: 
-        - name: About Product catalog entities
-          href: ../customerengagement/on-premises/developer/product-catalog-entities.md
-        - name: Manage products, families, bundles, and properties
-          href: ../customerengagement/on-premises/developer/create-manage-product-families-products-bundles-product-properties.md
-        - name: View product hierarchy
-          href: view-product-hierarchy.md
-        - name: Publish, revise, revert, retire, and activate products
-          href: ../customerengagement/on-premises/developer/publish-revise-revert-retire-activate-products.md
-        - name: Product pricing methods
-          href: ../customerengagement/on-premises/developer/product-pricing-methods.md
-        - name: Use custom pricing
-          href: ../customerengagement/on-premises/developer/use-custom-pricing-products.md
-        - name: Set default price levels
-          href: ../customerengagement/on-premises/developer/set-default-price-level-for-opportunity-quote-order-invoice.md
-        - name: Product discounting methods
-          href: ../customerengagement/on-premises/developer/product-discounting-methods.md
-        - name: Localize product property values
-          href: ../customerengagement/on-premises/developer/localize-product-property-values.md
-        - name: Create and publish products (Sample)
-          href: ../customerengagement/on-premises/developer/sample-create-publish-products.md
-        - name: Clone product records (Sample)
-          href: ../customerengagement/on-premises/developer/sample-clone-product-records.md
-        - name: Add products to a bundle (Sample)
-          href: ../customerengagement/on-premises/developer/sample-add-products-bundle.md
-        - name: Calculate Price plug-in (Sample)
-          href: ../customerengagement/on-premises/developer/sample-calculate-price-plugin.md
-    - name: Sales literature entities
-      href: ../customerengagement/on-premises/developer/sales-literature-entities.md
-    - name: Forecasting
-      items: 
-        - name: Sales forecasting APIs
-          items: 
-            - name: Overview
-              href: developer/reference/custom-actions-manual-forecasting.md
-            - name: msdyn_ForecastApi
-              href: developer/reference/custom-actions/msdyn_ForecastApi.md
-        - name: Override save, update, load events for editable fields on underlying records grid
-          href: developer/reference/custom-actions/events-context.md
-    - name: Deal manager
-      items: 
-        - name: Override save, update, load events for deal manager editable grid
-          href: developer/reference/custom-actions/events-context-deal-manager.md
-    - name: In-app marketing
-      items: 
-        - name: Customize quick campaign and campaign activity distribution forms
-          href: developer/marketingformdisplayattributessetApi.md
-    - name: Custom actions
-      items: 
-        - name: DeleteOQOILineWithSkipPricingCalculation
-          href: developer/reference/custom-actions/deleteoqoilinewithskippricingcalculation.md
-    - name: Entity reference
-      items: 
-        - name: Account
-          href: ../customerengagement/on-premises/developer/entities/account.md
-        - name: BulkOperation
-          href: ../customerengagement/on-premises/developer/entities/bulkoperation.md
-        - name: BulkOperationLog
-          href: ../customerengagement/on-premises/developer/entities/bulkoperationlog.md
-        - name: Campaign
-          href: ../customerengagement/on-premises/developer/entities/campaign.md
-        - name: CampaignActivity
-          href: ../customerengagement/on-premises/developer/entities/campaignactivity.md
-        - name: CampaignResponse
-          href: ../customerengagement/on-premises/developer/entities/campaignresponse.md
-        - name: Competitor
-          href: ../customerengagement/on-premises/developer/entities/competitor.md
-        - name: Contact
-          href: ../customerengagement/on-premises/developer/entities/contact.md
-        - name: Discount
-          href: ../customerengagement/on-premises/developer/entities/discount.md
-        - name: DiscountType
-          href: ../customerengagement/on-premises/developer/entities/discounttype.md
-        - name: DynamicPropertyInstance
-          href: ../customerengagement/on-premises/developer/entities/dynamicpropertyinstance.md
-        - name: Goal
-          href: ../customerengagement/on-premises/developer/entities/goal.md
-        - name: GoalRollupQuery
-          href: ../customerengagement/on-premises/developer/entities/goalrollupquery.md
-        - name: Invoice
-          href: ../customerengagement/on-premises/developer/entities/invoice.md
-        - name: InvoiceDetail
-          href: ../customerengagement/on-premises/developer/entities/invoicedetail.md
-        - name: Lead
-          href: ../customerengagement/on-premises/developer/entities/lead.md
-        - name: LeadAddress
-          href: ../customerengagement/on-premises/developer/entities/leadaddress.md
-        - name: LeadToOpportunitySalesProcess
-          href: ../customerengagement/on-premises/developer/entities/leadtoopportunitysalesprocess.md
-        - name: List
-          href: ../customerengagement/on-premises/developer/entities/list.md
-        - name: Metric
-          href: ../customerengagement/on-premises/developer/entities/metric.md
-        - name: msdyn_forecastdefinition
-          href: ../customerengagement/on-premises/developer/entities/msdyn_forecastdefinition.md
-        - name: msdyn_forecastinstance
-          href: ../customerengagement/on-premises/developer/entities/msdyn_forecastinstance.md
-        - name: msdyn_forecastrecurrence
-          href: ../customerengagement/on-premises/developer/entities/msdyn_forecastrecurrence.md
-        - name: Opportunity
-          href: ../customerengagement/on-premises/developer/entities/opportunity.md
-        - name: OpportunityClose
-          href: ../customerengagement/on-premises/developer/entities/opportunityclose.md
-        - name: OpportunitySalesProcess
-          href: ../customerengagement/on-premises/developer/entities/opportunitysalesprocess.md
-        - name: OrderClose
-          href: ../customerengagement/on-premises/developer/entities/orderclose.md
-        - name: Playbooks
-          items: 
-            - name: Entity reference
-              href: developer/reference/playbook-entity-reference.md
-              items: 
-                - name: msdyn_playbookinstance
-                  href: developer/reference/playbooks-entities/msdyn_playbookinstance.md
-                - name: msdyn_playbookactivity
-                  href: developer/reference/playbooks-entities/msdyn_playbookactivity.md
-                - name: msdyn_playbookactivityattribute
-                  href: developer/reference/playbooks-entities/msdyn_playbookactivityattribute.md
-                - name: msdyn_playbookcategory
-                  href: developer/reference/playbooks-entities/msdyn_playbookcategory.md
-                - name: msdyn_playbooktemplate
-                  href: developer/reference/playbooks-entities/msdyn_playbooktemplate.md
-                - name: msdyn_callablecontext
-                  href: developer/reference/playbooks-entities/msdyn_callablecontext.md
-            - name: PriceLevel
-              href: ../customerengagement/on-premises/developer/entities/pricelevel.md
-            - name: Product
-              href: ../customerengagement/on-premises/developer/entities/product.md
-            - name: ProductAssociation
-              href: ../customerengagement/on-premises/developer/entities/productassociation.md
-            - name: ProductPriceLevel
-              href: ../customerengagement/on-premises/developer/entities/productpricelevel.md
-            - name: ProductSubstitute
-              href: ../customerengagement/on-premises/developer/entities/productsubstitute.md
-            - name: Quote
-              href: ../customerengagement/on-premises/developer/entities/quote.md
-            - name: QuoteClose
-              href: ../customerengagement/on-premises/developer/entities/quoteclose.md
-            - name: QuoteDetail
-              href: ../customerengagement/on-premises/developer/entities/quotedetail.md
-            - name: RollupField
-              href: ../customerengagement/on-premises/developer/entities/rollupfield.md
-            - name: SalesLiterature
-              href: ../customerengagement/on-premises/developer/entities/salesliterature.md
-            - name: SalesLiteratureItem
-              href: ../customerengagement/on-premises/developer/entities/salesliteratureitem.md
-            - name: SalesOrder
-              href: ../customerengagement/on-premises/developer/entities/salesorder.md
-            - name: SalesOrderDetail
-              href: ../customerengagement/on-premises/developer/entities/salesorderdetail.md
-            - name: UoM
-              href: ../customerengagement/on-premises/developer/entities/uom.md
-            - name: UoMSchedule
-              href: ../customerengagement/on-premises/developer/entities/uomschedule.md
+          href: developer/reference/custom-actions-manual-forecasting.md
+        - name: msdyn_ForecastApi
+          href: developer/reference/custom-actions/msdyn_ForecastApi.md
+      - name: Override save, update, load events for editable fields on underlying records grid
+        href: developer/reference/custom-actions/events-context.md
+  - name: Deal manager
+    items:
+      - name: Override save, update, load events for deal manager editable grid
+        href: developer/reference/custom-actions/events-context-deal-manager.md
+  - name: In-app marketing
+    items:
+    - name: Customize quick campaign and campaign activity distribution forms
+      href: developer/marketingformdisplayattributessetApi.md    
+  - name: Custom actions
+    items:
+    - name: DeleteOQOILineWithSkipPricingCalculation
+      href: developer/reference/custom-actions/deleteoqoilinewithskippricingcalculation.md
+  - name: Entity reference
+    items:
+    - name: Account
+      href: ../customerengagement/on-premises/developer/entities/account.md
+    - name: BulkOperation
+      href: ../customerengagement/on-premises/developer/entities/bulkoperation.md
+    - name: BulkOperationLog
+      href: ../customerengagement/on-premises/developer/entities/bulkoperationlog.md
+    - name: Campaign
+      href: ../customerengagement/on-premises/developer/entities/campaign.md
+    - name: CampaignActivity
+      href: ../customerengagement/on-premises/developer/entities/campaignactivity.md
+    - name: CampaignResponse
+      href: ../customerengagement/on-premises/developer/entities/campaignresponse.md
+    - name: Competitor
+      href: ../customerengagement/on-premises/developer/entities/competitor.md
+    - name: Contact
+      href: ../customerengagement/on-premises/developer/entities/contact.md
+    - name: Discount
+      href: ../customerengagement/on-premises/developer/entities/discount.md
+    - name: DiscountType
+      href: ../customerengagement/on-premises/developer/entities/discounttype.md
+    - name: DynamicPropertyInstance
+      href: ../customerengagement/on-premises/developer/entities/dynamicpropertyinstance.md
+    - name: Goal
+      href: ../customerengagement/on-premises/developer/entities/goal.md
+    - name: GoalRollupQuery
+      href: ../customerengagement/on-premises/developer/entities/goalrollupquery.md
+    - name: Invoice
+      href: ../customerengagement/on-premises/developer/entities/invoice.md
+    - name: InvoiceDetail
+      href: ../customerengagement/on-premises/developer/entities/invoicedetail.md
+    - name: Lead
+      href: ../customerengagement/on-premises/developer/entities/lead.md
+    - name: LeadAddress
+      href: ../customerengagement/on-premises/developer/entities/leadaddress.md
+    - name: LeadToOpportunitySalesProcess
+      href: ../customerengagement/on-premises/developer/entities/leadtoopportunitysalesprocess.md
+    - name: List
+      href: ../customerengagement/on-premises/developer/entities/list.md
+    - name: Metric
+      href: ../customerengagement/on-premises/developer/entities/metric.md
+    - name: msdyn_forecastdefinition
+      href: ../customerengagement/on-premises/developer/entities/msdyn_forecastdefinition.md
+    - name: msdyn_forecastinstance
+      href: ../customerengagement/on-premises/developer/entities/msdyn_forecastinstance.md
+    - name: msdyn_forecastrecurrence
+      href: ../customerengagement/on-premises/developer/entities/msdyn_forecastrecurrence.md
+    - name: Opportunity
+      href: ../customerengagement/on-premises/developer/entities/opportunity.md
+    - name: OpportunityClose
+      href: ../customerengagement/on-premises/developer/entities/opportunityclose.md
+    - name: OpportunitySalesProcess
+      href: ../customerengagement/on-premises/developer/entities/opportunitysalesprocess.md
+    - name: OrderClose
+      href: ../customerengagement/on-premises/developer/entities/orderclose.md
+    - name: Playbooks
+      items:
+      - name: Entity reference
+        href: developer/reference/playbook-entity-reference.md
+        items:
+        - name: msdyn_playbookinstance
+          href: developer/reference/playbooks-entities/msdyn_playbookinstance.md
+        - name: msdyn_playbookactivity
+          href: developer/reference/playbooks-entities/msdyn_playbookactivity.md
+        - name: msdyn_playbookactivityattribute
+          href: developer/reference/playbooks-entities/msdyn_playbookactivityattribute.md
+        - name: msdyn_playbookcategory
+          href: developer/reference/playbooks-entities/msdyn_playbookcategory.md
+        - name: msdyn_playbooktemplate
+          href: developer/reference/playbooks-entities/msdyn_playbooktemplate.md
+        - name: msdyn_callablecontext
+          href: developer/reference/playbooks-entities/msdyn_callablecontext.md
+      - name: PriceLevel
+        href: ../customerengagement/on-premises/developer/entities/pricelevel.md
+      - name: Product
+        href: ../customerengagement/on-premises/developer/entities/product.md
+      - name: ProductAssociation
+        href: ../customerengagement/on-premises/developer/entities/productassociation.md
+      - name: ProductPriceLevel
+        href: ../customerengagement/on-premises/developer/entities/productpricelevel.md
+      - name: ProductSubstitute
+        href: ../customerengagement/on-premises/developer/entities/productsubstitute.md
+      - name: Quote
+        href: ../customerengagement/on-premises/developer/entities/quote.md
+      - name: QuoteClose
+        href: ../customerengagement/on-premises/developer/entities/quoteclose.md
+      - name: QuoteDetail
+        href: ../customerengagement/on-premises/developer/entities/quotedetail.md
+      - name: RollupField
+        href: ../customerengagement/on-premises/developer/entities/rollupfield.md
+      - name: SalesLiterature
+        href: ../customerengagement/on-premises/developer/entities/salesliterature.md
+      - name: SalesLiteratureItem
+        href: ../customerengagement/on-premises/developer/entities/salesliteratureitem.md
+      - name: SalesOrder
+        href: ../customerengagement/on-premises/developer/entities/salesorder.md
+      - name: SalesOrderDetail
+        href: ../customerengagement/on-premises/developer/entities/salesorderdetail.md
+      - name: UoM
+        href: ../customerengagement/on-premises/developer/entities/uom.md
+      - name: UoMSchedule
+        href: ../customerengagement/on-premises/developer/entities/uomschedule.md
+  - name: Action Reference
+    items:
+    - name: RecalculatePrice Action
+      href: developer/reference/recalculateprice-action.md
+  - name: Sales premium capabilities
+    items:
     - name: Action Reference
-      items: 
-        - name: RecalculatePrice Action
-          href: developer/reference/recalculateprice-action.md
-    - name: Sales premium capabilities
-      items: 
-        - name: Action Reference
-          items: 
-            - name: msdyn_ConnectSequence
-              href: developer-sp/msdyn-ConnectSequence-action.md
-        - name: Entity Reference
-          items: 
-            - name: Entity reference
-              href: entity-reference.md
-            - name: msdyn_PredictiveScore
-              href: developer-sp/msdyn_predictivescore.md
-            - name: msdyn_PredictiveModelScore
-              href: developer-sp/msdyn_predictivemodelscore.md
-        - name: Create insight cards using solution
-          href: extend-relationship-assistant-card.md
-          items: 
-            - name: Extend assistant card type (custom card sample)
-              href: sample-extend-relationship-assistant-card-type.md
-    - name: Troubleshooting
-      items: 
-        - name: Custom plugin handling through shared variable
-          href: developer/custom-plugin-handling-shared-variable.md
+      items:
+      - name: msdyn_ConnectSequence
+        href: developer-sp/msdyn-ConnectSequence-action.md
+    - name: Entity Reference
+      items:
+      - name: Entity reference
+        href: entity-reference.md
+      - name: msdyn_PredictiveScore
+        href: developer-sp/msdyn_predictivescore.md
+      - name: msdyn_PredictiveModelScore
+        href: developer-sp/msdyn_predictivemodelscore.md
+    - name: Create insight cards using solution
+      href: extend-relationship-assistant-card.md
+      items:
+      - name: Extend assistant card type (custom card sample) 
+        href: sample-extend-relationship-assistant-card-type.md
+  - name: Troubleshooting
+    items:
+    - name: Custom plugin handling through shared variable
+      href: developer/custom-plugin-handling-shared-variable.md
 - name: General Data Protection Regulation (GDPR) and privacy
-  items: 
-    - name: Dynamics 365 Sales & GDPR
-      href: dynamics-365-sales-gdpr.md
-    - name: GDPR for sales premium
-      href: embedded-intelligence-gdpr.md
-      items: 
-        - name: View and export KPI data (GDPR)
-          href: view-export-KPI-data-gdpr.md
-        - name: Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action
-          href: retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md
-    - name: Privacy notice
-      href: privacy-notice.md
+  items:
+  - name: Dynamics 365 Sales & GDPR
+    href: dynamics-365-sales-gdpr.md
+  - name: GDPR for sales premium
+    href: embedded-intelligence-gdpr.md
+    items:
+    - name: View and export KPI data (GDPR)
+      href: view-export-KPI-data-gdpr.md
+    - name: Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action
+      href: retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md
+  - name: Privacy notice
+    href: privacy-notice.md   
 - name: Learning Catalog
   items: 
-    - name: Learning Catalog
-      href: learning-catalog.md
-    - name: Business Decision Maker
-      href: learning-bdm.md
-    - name: Business User
-      href: learning-bus-user.md
-    - name: Implementation Project Manager
-      href: learning-project-manager.md
-    - name: Administrator
-      href: learning-administrator.md
-    - name: Developer
-      href: learning-developer.md
-    - name: Functional Consultant
-      href: learning-functional-consultant.md
-    - name: Partner Sales and Marketing
-      href: learning-sales.md
+  - name: Learning Catalog
+    href: learning-catalog.md
+  - name: Business Decision Maker
+    href: learning-bdm.md
+  - name: Business User
+    href: learning-bus-user.md
+  - name: Implementation Project Manager
+    href: learning-project-manager.md
+  - name: Administrator
+    href: learning-administrator.md
+  - name: Developer
+    href: learning-developer.md
+  - name: Functional Consultant
+    href: learning-functional-consultant.md
+  - name: Partner Sales and Marketing
+    href: learning-sales.md        
 - name: Troubleshooting and FAQs
-  items: 
-    - name: Dynamics 365 Sales Troubleshooting guide
-      href: troubleshooting.md
-    - name: Troubleshooting leads
-      href: ts-leads.md
-    - name: Troubleshooting opportunities
-      href: ts-opportunities.md
-    - name: Troubleshooting orders
-      href: ts-orders.md
-    - name: Troubleshooting products
-      href: ts-products.md
-    - name: Troubleshooting common entities
-      href: ts-oqoi.md
-    - name: Troubleshooting currency and price list
-      href: ts-currency-pricelist.md
-    - name: Troubleshooting views
-      href: ts-views.md
-    - name: Troubleshooting forecasts
-      href: ts-forecasts.md
-    - name: Troubleshooting in-app marketing
-      href: ts-inapp-marketing.md
-    - name: Troubleshooting Unified Interface
-      href: ts-unified-interface.md
-    - name: Troubleshooting the sales pipeline chart
-      href: ts-sales-pipeline.md
-    - name: Troubleshooting email
-      href: ts-email.md
-    - name: Troubleshooting Sales Premium
-      href: troubleshooting-sp.md
-    - name: Troubleshooting Sales Professional
-      href: troubleshooting-spro.md
-    - name: Sales FAQs
-      href: faqs-sales.md
-    - name: Sales premium FAQs
-      href: faqs-sales-insights.md
+  items:
+  - name: Dynamics 365 Sales Troubleshooting guide
+    href: troubleshooting.md
+  - name: Troubleshooting leads
+    href: ts-leads.md
+  - name: Troubleshooting opportunities
+    href: ts-opportunities.md
+  - name: Troubleshooting orders
+    href: ts-orders.md
+  - name: Troubleshooting products
+    href: ts-products.md
+  - name: Troubleshooting common entities
+    href: ts-oqoi.md
+  - name: Troubleshooting currency and price list
+    href: ts-currency-pricelist.md
+  - name: Troubleshooting views
+    href: ts-views.md
+  - name: Troubleshooting forecasts
+    href: ts-forecasts.md
+  - name: Troubleshooting in-app marketing
+    href: ts-inapp-marketing.md  
+  - name: Troubleshooting Unified Interface
+    href: ts-unified-interface.md
+  - name: Troubleshooting the sales pipeline chart
+    href: ts-sales-pipeline.md
+  - name: Troubleshooting email
+    href: ts-email.md
+  - name: Troubleshooting Sales Premium
+    href: troubleshooting-sp.md  
+  - name: Troubleshooting Sales Professional
+    href: troubleshooting-spro.md  
+  - name: Sales FAQs
+    href: faqs-sales.md
+  - name: Sales premium FAQs
+    href: faqs-sales-insights.md
 - name: Removed or deprecated features
-  href: deprecations-sales.md
+  href: deprecations-sales.md    
 - name: Known issues
   href: https://go.microsoft.com/fwlink/?linkid=2171768
 - name: Connect and share feedback
   href: connect-share-feedback.md
 - name: Resources for other Sales apps
-  items: 
-    - name: Help resources for Dynamics 365 Sales (Professional)
-      href: ../sales-professional/help-hub.md
-    - name: Sales Team Member app for users with Team Member license
-      href: sales-team-member.md
+  items:
+  - name: Help resources for Dynamics 365 Sales (Professional)
+    href: ../sales-professional/help-hub.md
+  - name: Sales Team Member app for users with Team Member license
+    href: sales-team-member.md
