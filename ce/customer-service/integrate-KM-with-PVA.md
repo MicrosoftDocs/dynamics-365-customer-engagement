@@ -50,7 +50,7 @@ You can integrate knowledge management with a Power Virtual Agents bot by using 
    
 ## Use the Search Dynamics 365 knowledge article flow (Preview) action
 
-You must perform the following steps to integrate knowledge management with a Power Virtual Agents bot using the **Search Dynamics 365 knowledge article flow (Preview)** action:
+You must perform the following steps to integrate knowledge management with a Power Virtual Agents bot using the **Search Dynamics 365 knowledge articles (Preview)** action:
  
    1. Set connection references.
    1. Call the flow as a one-time mandatory step.
