@@ -9,7 +9,7 @@ manager: shujoshi
 ---
 
 # Set up a multilingual bot in Power Virtual Agents for contact center
-<!-- -->
+<!--note from editor: Not only is "multilanguage" missing from our style guide, it's not in any dictionary.-->
 You can configure routing rules to route voice calls to appropriate agents based on the language that your customer has selected. A multilingual contact center helps you serve global customers who want to interact with your contact center in the language of their choice. You can also set up bots as the first contact who can handle such requests.
 
 Use Bot Framework Composer in Power Virtual Agents to set up a bot for a multilingual contact center.
