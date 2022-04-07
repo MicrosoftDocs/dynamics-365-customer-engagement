@@ -36,7 +36,7 @@ A stakeholder can be a decision maker or any person who will be working with you
 1. Open the opportunity.
 1. In the Summary tab, go to the **Stakeholders** section.
     > [!NOTE]
-    > If you'd selected a user in the **Contact** field, that user is automatically added to the **Stakeholders** section.
+    > If you'd selected a user in the **Contact** field of the opportunity, that contact is automatically added to the **Stakeholders** section.
 1. Select **New Connection** and then select the stakeholder's record from the contacts list.
 
     > [!NOTE]
