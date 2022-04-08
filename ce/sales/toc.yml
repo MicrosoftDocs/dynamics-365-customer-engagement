@@ -377,6 +377,8 @@
         href: manage-sales-teams.md
       - name: Manage seller attributes
         href: manage-seller-attributes.md
+    - name: Manage Campaigns
+      href: configure-inapp-marketing.md
   - name: Guided selling
     items:      
     - name: Business process flows    
@@ -558,7 +560,7 @@
       href: manage-duplicate-leads.md  
     - name: Prioritize leads using predictive scores
       href: work-predictive-lead-scoring.md
-    - name: Qualify or convert leads
+    - name: Qualify and convert leads
       href: qualify-lead-convert-opportunity-sales.md
     - name: Reopen leads
       href: re-open-lead-sales.md
