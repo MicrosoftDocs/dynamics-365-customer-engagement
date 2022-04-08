@@ -11,16 +11,13 @@ ms.custom: template-how-to
 
 ---
 
-# Manage event grid system topics
+# Register event grid system topics
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Introduction
 
-Azure Communication Services integrates with Azure Event Grid to send real-time event notifications for chat, telephony, SMS, video, and voice-calling events. To enable voice calling and SMS services, you must x` and SMS The purpose of this article is to help you configure your applications to listen to Communication Services events.
-Event grid uses event subscriptions to route event messages to subscribers.
-
-System topics are built-in topics provided by Azure services such as Azure Storage, Azure Event Hubs, and Azure Service Bus. You can create system topics in your Azure subscription and subscribe to them. For more information, see Overview of system topics. More information: [System topics in Azure Event Grid](/azure/event-grid/system-topics)
+*Azure Communication Services integrates with Azure Event Grid to send real-time event notifications for chat, telephony, SMS, video, and voice-calling events. The Azure Event grid uses event subscriptions to route event messages to subscribers. So, to enable voice calling and SMS services, you must configure your applications to listen to Azure Communication Services events by registering event grid system topics. More information: [System topics in Azure Event Grid](/azure/event-grid/system-topics)*
 
 This topic explains how to create, deploy, and register event grid system topics for an existing Azure resource.
 
@@ -50,7 +47,7 @@ This topic explains how to create, deploy, and register event grid system topics
     > ![Event grid is listed as a registered provider.](./media/voice-channel-eventgrid-registered.png "Event grid is listed as a registered provider.")
 
 > [!Note]
-> When you connect your event subscription, you must use the same app ID and directory ID for the app registration as you did when you first connected your Azure resource. To check which app ID and directory ID you used to connect your ACS resource, select the filter icon in the top right and search for communication provider setting entries.
+> *When you connect your event subscription, you must use the same app ID and directory ID for the app registration as you did when you first connected your Azure resource. To check which app ID and directory ID you used to connect your Azure Communication Services resource, select the filter icon in the top right and search for communication provider setting entries.*
 
 ### See also
 
