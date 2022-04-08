@@ -17,7 +17,7 @@ search.app:
 # Field Service Mobile Xamarin end of life
 
 > [!IMPORTANT]
-> Field Service Mobile (Xamarin app) will be end of life on **June 30, 2022**. Mobile configurator licenses will no longer be granted to new tenants onboarding with Dynamics 365 Field Service as of **June 30, 2021**. New tenants coming online should start with the new [Field Service (Dynamics 365) mobile](mobile-2020-power-platform.md) app. For more information, visit [the documentation](mobile-power-app-get-started.md). 
+> Field Service Mobile (Xamarin app) will be end of life on **June 30, 2022**. Mobile configurator licenses will no longer be granted to new Tenants onboarding with Dynamics 365 Field Service as of **June 30, 2021**. New tenants coming online should start with the new [Field Service (Dynamics 365) mobile](mobile-2020-power-platform.md) app. For more information, visit [the documentation](mobile-power-app-get-started.md). 
 
 > [!div class="mx-imgBorder"]
 > ![Field Service Mobile Xamarin app in the Windows app store.](media/mobile-field-service-mobile-windows-app-store.png)
@@ -31,11 +31,14 @@ Field Service Mobile (Xamarin app) will reach end of life on June 30, 2022. Exis
 
 ### What will happen to the app after June 30, 2022
 
-After June 30, 2022, the mobile configurator used with Field Service Mobile (Xamarin app) will no longer be able to publish, and end users will not be able to access the mobile app.
+After June 30, 2022, Microsoft will begin to block access to the Field Service Mobile – Xamarin application in the following months. A Message Center communication will be sent to Org Admins 30 days before access is blocked. Mobile Application licenses will then be removed, and the Mobile Configurator will no longer be able to publish.  
+
+If you have questions on this deadline, please reach out to Dynamics 365 Field Service mobile adoption at `d365fsmadoption@microsoft.com
+
 
 ### Will I have access to my mobile configurator after June 30, 2022?
 
-The mobile configurator used with Field Service Mobile (Xamarin app) will still be available in your org, but you will no longer be able to publish updates.
+The mobile configurator used with Field Service Mobile - Xamarin will still be available in your org, but you will no longer be able to publish updates after Mobile licenses are removed.
 
 ### Are there additional licenses required to use the new Field Service (Dynamics 365) mobile app?
 
@@ -44,6 +47,11 @@ No, use of the Field Service (Dynamics 365) mobile app is included with a Field 
 ### Can I use Resco Mobile CRM application with Field Service Mobile licenses?
 
 No. Resco Mobile CRM is a third-party ISV application with its own licensing. The Resco Mobile CRM application is not eligible for use with licenses acquired through the Field Service Mobile (Xamarin app). 
+
+
+### I currently use Dynamics Field Service On Premises with Field Service Mobile - Xamarin. What options do I have?
+
+Field Service On Premises will be [Depricated](https://docs.microsoft.com/en-us/dynamics365/field-service/deprecations-field-service#dynamics-365-field-service-on-premises---june-30-2022) on June 30th, 2022. We recommend current On Premises customers migrate to Dynamics 365 Field Service online to continue operations and support. Field Service Mobile-Xamarin will not be available for the depricated Dynamics Field Service On Premises. Continued unsupported use of Field Service On Premises will require an alternative mobile solution.
 
 ### Are there other resources available to learn more about the new Field Service Mobile application and migration?
 
