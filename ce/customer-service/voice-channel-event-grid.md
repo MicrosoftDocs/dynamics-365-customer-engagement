@@ -7,7 +7,6 @@ author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.topic: article
-
 ---
 
 # Register event grid system topics

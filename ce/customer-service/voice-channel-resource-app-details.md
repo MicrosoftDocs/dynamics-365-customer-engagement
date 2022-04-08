@@ -7,7 +7,6 @@ author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.topic: article
-
 ---
 
 # Get resource and app details for an Azure resource
