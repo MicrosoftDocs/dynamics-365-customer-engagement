@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel for Customer Service system requirements | MicrosoftDocs"
 description: "This topic provides information about the prerequisites and system requirements for deploying Omnichannel for Customer Service."
-ms.date: 04/04/2022
+ms.date: 04/06/2022
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -45,7 +45,7 @@ The system requirements to use Omnichannel for Customer Service are as follows.
 | Internet bandwidth for voice and video |<ul><li>**Minimum:** 500 KBps upload speed; 1 MBps download speed</li><li>**Recommended:** 1 MBps upload speed; 2 MBps download speed</li></ul> |
 |||
 
-For other hardware and software requirements, see [Model-driven app requirements](/power-platform/admin/online-requirements).
+For other hardware and software requirements, see [Model-driven app requirements](/power-platform/admin/web-application-requirements).
 
 ### Supported browsers for live chat widget<a name="browsers-for-chat"></a>
 

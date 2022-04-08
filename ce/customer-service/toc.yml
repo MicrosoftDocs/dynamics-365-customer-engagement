@@ -452,7 +452,7 @@
         href: create-manage-categories.md
       - name: Create knowledge article templates in Power Apps
         href: /power-platform/admin/create-templates-articles
-      - name: Integrate knowledge management with Power Virtual Agents
+      - name: Integrate knowledge management in Dynamics 365 with Power Virtual Agents bots (preview)
         href: integrate-KM-with-PVA.md
       - name: Configure the origin allowlist for knowledge articles
         href: configure-knowledge-article-origin-allow-list.md
@@ -490,14 +490,18 @@
         href: create-knowledge-article-using-template.md
       - name: Extend transformer logic on templates
         href: extend-transformer-logic-template.md
-  - name: Microsoft Teams chat for enterprise collaboration
+  - name: Microsoft Teams collaboration
     items:
+    - name: Introduction to collaboration
+      href: collaboration.md
     - name: Administrator experience
       items: 
       - name: Configure Teams chat
         href: configure-teams-chat.md
       - name: Configure AI suggestions for contacts in Microsoft Teams
         href: configure-teams-collaboration.md
+      - name: Configure customer support swarming
+        href: configure-customer-support-swarming.md
     - name: Agent experience
       items:
       - name: Use Teams chat
@@ -506,6 +510,8 @@
         href: teams-use-suggested-contacts.md
       - name: Collaborate with AI-suggested contacts in Microsoft Teams
         href: use-ai-suggested-contacts-teams.md
+      - name: Use customer support swarming to resolve issues
+        href: use-customer-support-swarming.md
   - name: Voice
     items:
     - name: Introduction to the voice channel
