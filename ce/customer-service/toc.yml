@@ -498,6 +498,8 @@
         href: configure-teams-chat.md
       - name: Configure AI suggestions for contacts in Microsoft Teams
         href: configure-teams-collaboration.md
+      - name: Configure AI-generated conversation summary
+        href: cs-enable-AI-generated-summary.md
     - name: Agent experience
       items:
       - name: Use Teams chat
@@ -506,6 +508,8 @@
         href: teams-use-suggested-contacts.md
       - name: Collaborate with AI-suggested contacts in Microsoft Teams
         href: use-ai-suggested-contacts-teams.md
+      - name: AI-generated summary for ongoing conversations in Microsoft Teams
+        href: cs-ai-generated-summary.md
   - name: Voice
     items:
     - name: Introduction to the voice channel
