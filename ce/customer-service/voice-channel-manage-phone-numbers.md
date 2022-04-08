@@ -38,7 +38,7 @@ If you want to end the trial earlier, select **End trial** on the **Phone number
 
 ## View phone numbers
 
-To view the available phone numbers in your organization, go to one of the apps in Dynamics 365, and do the following.
+To view the available phone numbers in your organization, go to one of the apps in Dynamics 365, and do the following
    
 ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
@@ -111,6 +111,10 @@ You can purchase new phone numbers for your organization after you've checked fo
 5. (Optional) Select **Setup Workstream** to [add the phone number to a voice workstream](#add-a-phone-number-to-a-voice-workstream).
 
 6. Select **Done** to go back to the **Phone numbers** page where you can view details of the phone number that you just acquired.
+
+> [!Note]
+> - If your desired phone number is unavailable or if you'd like to acquire numbers in bulk, complete [this form(https://github.com/Azure/Communication/blob/master/Forms/ACS%20-%20Bulk%20Number%20Acquisition.docx)] and email it to acstnrequest@microsoft.com with a subject line beginning with "Azure Communication Services Number Request:".
+> - To port your phone number into an Azure Communication Services resource, see [Port a phone number](/azure/communication-services/quickstarts/telephony/port-phone-number.)
 
 ## Add a phone number to a voice workstream
 
