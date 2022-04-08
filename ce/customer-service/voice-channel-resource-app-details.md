@@ -19,7 +19,7 @@ This article includes short procedures to help you retrieve the resource name, r
 
 ## Prerequisites
 
-xx
+<<to add info here>>
 
 ### Get resource name and ID
 
