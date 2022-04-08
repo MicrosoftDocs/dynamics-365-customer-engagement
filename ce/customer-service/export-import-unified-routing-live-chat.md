@@ -70,7 +70,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 ## Export and import data for live chat queues
 
-Waiting for inputs from Cooper.
+For exporting and importing queues for live chat, perform the steps outlined in [Export and import data for unified routing-based record queues](export-import-unified-routing-records.md#export-and-import-data-for-unified-routing-based-record-queues).
 
 ## Export and import data for live chat channel workstreams
 
@@ -88,16 +88,35 @@ Use the Configuration Migration tool to create schema and export the data from t
 
 The following assumptions are in place:
 
-- Rules will be exported after chat configurations to be able to use pre-chat survey questions as conversation context variables.
+- Rules will be exported after chat configurations to be able to use pre-conversation survey questions as conversation context variables.
 
-- You can't create the context variables when you're adding new questions to the pre chat survey section.
+- You can't create the context variables when you're adding new questions to the pre-conversation survey section.
 
-- Queues can be exported after live chat configurations and rules definition, to be able to use preconversation survey questions as context variables.
+- Queues can be exported after live chat configurations and rules definition, to be able to use pre-conversation survey questions as context variables.
 
-The workstream must already exist, created manually or previously migrated in the destination organization.
+- The workstream must already exist, created manually or previously migrated in the destination organization.
 
 **To export and import data for live chat widgets**
 
 1. Use the Configuration Migration tool to create the schema and export data from the source organization for the live chat widget and related entities.
 
+   - **Entity display name**: When you create the schema, select the entities in the sequence that's mentioned in the table.
+   - **Attribute display name**: We recommend that you select the attributes defined in the following table. You don't need to select the out-of-the-box system defined attributes, such as Created By, Created On, Modified By, Modified On, and Owner. You can select custom attributes if required.
 
+    | Chat widget((msdyn_livechatconfig) |  Attribute display name (Logical name) | Use FetchXML to filter records |
+    |-------------------------------------|----------------------------------------|-------------------------------|
+    |  Chat widget (msdyn_livechatconfig) | Note: <ul><li> Do not include: msdyn_widgetappid and msdyn_widgetsnippet as part of the entity.</li> <li> Corroborate as part of the entity declaration in the schema that the plugin is disabled. (disableplugins="false") </li></ul> <br> <ul><li>(Deprecated) During non-operating hour (msdyn_duringnonoperatinghours) </li> <li> Agent display name(msdyn_agentdisplayname) </li> <li> Allow download of transcript (msdyn_enablechattranscriptdownload) </li> <li> Allow email of transcript (msdyn_enablechattranscriptemail) </li> <li> Anonymize Agent (msdyn_showagentname) </li> <li> Authentication settings (msdyn_authsettingsid) </li> <li> Auto Detect Language (msdyn_autodetectlanguage) </li> <li> Bot Survey (msdyn_postconversationsurveybotsurvey) </li> <li> Calling options (msdyn_callingoptions) </li> <li> Chat Widget (msdyn_livechatconfigid) </li> <li> Co-browse provider (msdyn_cobrowseprovider) </li> <li> Created By(createdby) </li> <li> Created By (Delegate) (createdonbehalfby) </li> <li> Created On(createdon) </li> <li> Display Generic Name (msdyn_genericagentdisplayname) </li> <li> Email Template (msdyn_emailtemplate) </li> <li> Enable (msdyn_postconversationsurveyenable) </li> <li> Enable Co-browse (msdyn_enablecobrowse) </li> <li> Enable file attachments for agents (msdyn_enablefileattachmentsforagents) </li> <li> Enable file attachments for customers (msdyn_enablefileattachmentsforcustomers) </li> <li> Enable Screen sharing (msdyn_enablescreensharing) </li> <li> Import Sequence Number (importsequencenumber) </li> <li> Indicates the conversation mode of the chat widget (msdyn_conversationmode) </li> <li> Indicates whether display of wait time is enabled (msdyn_averagewaittime_enabled) </li> <li> infolabel(msdyn_infolabel) </li> <li> Language(msdyn_widgetlocale) </li> <li> Language(msdyn_ocwidgetlanguage) </li> <li> Language (msdyn_language) </li> <li> Logo (msdyn_avatarurl) </li> <li> Message (msdyn_postconversationsurveymessagetext) </li> <li> Modified By (modifiedby) </li> <li> Modified By (Delegate) (modifiedonbehalfby) </li> <li> Modified On (modifiedon) </li> <li> Name (msdyn_name) </li> <li> Offline Widegt Title (msdyn_offlinewidgettitle) </li> <li> Offline Widget Subtitle (msdyn_offlinewidgetsubtitle) </li> <li> Offline Widget Theme Color (msdyn_offlinewidgetthemecolor) </li> <li> Operating hours (msdyn_operatinghourid) </li> <li> Owning Business Unit (owningbusinessunit) </li> <li> Owning Team (owningteam) </li> <li> Owning User (owninguser) </li> <li> Portal URL (msdyn_portalurl) </li> <li> Position (msdyn_widgetposition) </li> <li> Post-chat Survey (msdyn_postchatenabled) </li> <li> Pre-Chat Survey (msdyn_prechatenabled) </li> <li> Proactive-chat (msdyn_proactivechatenabled) </li> <li> Provider API key (msdyn_oc_geolocationprovider) </li> <li> Question Set for Authenticated Users (msdyn_prechatquestionnaireauthenticated) </li> <li> Question Set for Unauthenticated Users (msdyn_prechatquestionnaireunauthenticated) </li> <li> Reconnect to previous agent (msdyn_timetoreconnectwithpreviousagent) </li> <li> Record Created On (overriddencreatedon) </li> <li> Redirection URL (msdyn_redirectionurl) </li> <li> Request visitor location (msdyn_requestvisitorlocation) </li> <li> Screen sharing provider (msdyn_screensharingprovider) </li> <li> Sender Mailbox (msdyn_mailbox) </li> <li> Show position in queue (msdyn_positioninqueue_enabled) </li> <li> Show widget during offline hours (msdyn_showwidgetduringofflinehours) </li> <li> Status (statecode) </li> <li> Status Reason (statuscode) </li> <li> Subtitle (msdyn_widgetsubtitle) </li> <li> Survey (msdyn_postconversationsurvey) </li> <li> Survey Mode (msdyn_postconversationsurveymode) </li> <li> Theme Color (msdyn_widgetthemecolor) </li> <li> Time Zone Rule Version Number (timezoneruleversionnumber) </li> <li> Title (msdyn_widgettitle) </li> <li> Turn on reconnect to previous chat (msdyn_enablechatreconnect) </li> <li> Turn on sound notifications (msdyn_widgetsoundnotification) </li> <li> Turn on unread messages indicator (msdyn_widgetvisualnotification) </li> <li> UTC Conversion Time Zone Code (utcconversiontimezonecode) </li> <li> Version Number (versionnumber) </li> <li> Work stream (msdyn_liveworkstreamid)</li></ul>
+  ||
+    ||||
+    ||||
+    ||||
+    ||||
+    ||||
+    ||||
+    ||||
+    ||||
+    ||||
+    ||||
+    ||||
+    ||||
+    ||||
