@@ -52,7 +52,7 @@ The following section describes how the search results are rendered:
 
 You can set the content access levels for users to control access to knowledge articles on a portal. More information: [Manage knowledge articles by using content access levels](/powerapps/maker/portals/customer-engagement-apps/manage-knowledge-articles-content-levels)
 
-For content access level to work with relevance search, you must perform the following steps in the Dynamics 365 Portals app:<!--note from editor: Is this actually the app you mean here? The rest of the topic seems to be referring to portals created by using the portals feature in Power Apps.-->
+For content access level to work with relevance search, you must perform the following steps in the Dynamics 365 Portals app:
 
   1. In the Portal Management site map, in the **Website** area, select **Site Settings**.
   1. Select **New**.
@@ -61,7 +61,7 @@ For content access level to work with relevance search, you must perform the fol
   1. Set the Value to **true**. By default, the value of the site setting is set to **false**.
   1. Select **Save**.
  
-When performing a search on the portal, you might encounter an error while opening an article and also see the error message, "Update your origins allowlist if any iframe in the article doesn't work or displays error." This might be because the link types used in the article aren't a part of the origins allow list. You must contact your administrator to update your origins allowlist. More information: [Configure the origins allow list for knowledge articles](configure-knowledge-article-origin-allow-list.md)
+When performing a search on the portal, you might encounter an error while opening an article and also see the error message, "Update your origins allowlist if any iframe in the article doesn't work or displays error." This might be because the link types used in the article aren't a part of the origins allowlist. You must contact your administrator to update your origins allowlist. More information: [Configure the origins allowlist for knowledge articles](configure-knowledge-article-origin-allow-list.md)
 
 
 ### See also
