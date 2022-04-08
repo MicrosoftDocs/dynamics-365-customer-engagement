@@ -41,7 +41,7 @@ You can integrate knowledge management with a Power Virtual Agents bot by using 
   
     Set up your portal with the Power Apps portals feature before integrating knowledge management with the Power Virtual Agents bot. More information: [Use settings to set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md). For more information on setting up your Power Apps portal, see: [Power Apps portal documentation](/powerapps/maker/portals/).
 
-    You can create and manage knowledge articles by setting the **Internal** field to **No**. More information: [knowledgearticle EntityType](/customer-engagement/web-api/knowledgearticle?view=dataverse-latest).
+    You can create and manage knowledge articles by setting the **Internal** field to **No**. More information: [knowledgearticle EntityType](../web-api/knowledgearticle?view=dataverse-latest).
 
   - Create a  Power Virtual Agents bot and a topic in it.
 
@@ -107,7 +107,7 @@ If you are creating a topic with two question nodes for search text and filter, 
  > [!TIP]
  > You can configure your topic to handle cases where your search doesn’t return any results by modifying the search terms or filter conditions. You can add a condition to take appropriate action in cases where no search results are returned by the  topic.
 
-  :::image type="content" source="media/no-search-results.png" alt-text="Add a condition when no search results are returened":::  
+  :::image type="content" source="media/no-search-results.png" alt-text="Add a condition when no search results are returned":::  
   
 ### Add the action to the Power Virtual Agents topic
 
@@ -123,7 +123,7 @@ After you have completed the two previous steps, you can configure any bot in th
 
 #### Working with filters
 - By default, the search is performed on the external published articles (**statecode eq 3** and **isinternal eq false**). If you need to perform additional filtering, you can set the desired filter query as the Filter (text) input variable.
-- To check which filters you can use and the attributes of the knowledge article entity, see [knowledgearticle EntityType](/dynamics365/customer-engagement/web-api/knowledgearticle?view=dataverse-latest).
+- To check which filters you can use and the attributes of the knowledge article entity, see [knowledgearticle EntityType](../web-api/knowledgearticle?view=dataverse-latest).
 - To write a dataverse search query using filters, see [Working with operators](/powerapps/user/relevance-search#working-with-operators).
 - To see filter conditions that aren't supported by Dataverse search, see [Configure Dataverse search to improve search results and performance](/power-platform/admin/configure-relevance-search-organization) .
 - To filter on a string attribute like keywords, append the string value to the search text.
