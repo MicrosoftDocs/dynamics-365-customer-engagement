@@ -6,8 +6,7 @@ ms.service: dynamics-365-customerservice
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.topic: how-to
-ms.custom: template-how-to
+ms.topic: article
 
 ---
 
@@ -67,7 +66,6 @@ xx
 3. Select the value of the **Directory (tenant) ID** field, then select the **Copy to clipboard** button, and paste the value in the **Tenant ID** field of the **Use existing resource** dialog.
    > [!div class="mx-imgBorder"]
    > ![Copy Directory (tenant) ID.](./media/voice-channel-tenant-ID.png "Copy Directory (tenant) ID.")
-
 
 ### See also
 

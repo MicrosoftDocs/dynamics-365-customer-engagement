@@ -6,8 +6,7 @@ ms.service: dynamics-365-customerservice
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.topic: how-to
-ms.custom: template-how-to
+ms.topic: article
 
 ---
 
