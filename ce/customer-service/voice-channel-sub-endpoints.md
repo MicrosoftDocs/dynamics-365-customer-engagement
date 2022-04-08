@@ -6,7 +6,8 @@ ms.service: dynamics-365-customerservice
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.topic: article
+ms.topic: how-to
+ms.custom: template-how-to
 ---
 
 # Create event subscription endpoints
