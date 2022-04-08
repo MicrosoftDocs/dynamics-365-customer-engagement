@@ -1,7 +1,7 @@
 ---
 title: "Manage phone numbers | MicrosoftDocs"
 description: "Use this article to understand how you can acquire new phone numbers, and also view, update, and release existing phone numbers in Omnichannel for Customer Service."
-ms.date: 04/04/2022
+ms.date: 04/08/2022
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: gandhamm
@@ -21,8 +21,12 @@ You can also [bring your own phone number via Azure direct routing](voice-channe
 
 ## Prerequisites
 
-The following prerequisites must be met:
+Before you acquire phone numbers, you must do the following:
 
+- Check for the following criteria:
+    - [Azure subscriptions eligibility](/azure/communication-services/concepts/telephony/plan-solution#azure-subscriptions-eligibility).
+    - [Service limits for Azure Communication Services](/azure/communication-services/concepts/service-limits#acquiring-phone-numbers).
+    - [Country/region availability](/azure/communication-services/concepts/telephony/plan-solution#countryregion-availability).
 - [Install the voice channel in Omnichannel for Customer Service](voice-channel-install.md).
 - [Connect to Azure Communication Services using a new or existing Azure resource](voice-channel-acs-resource.md), and then deploy the resource through Dynamics 365.
 
@@ -34,13 +38,17 @@ If you want to end the trial earlier, select **End trial** on the **Phone number
 
 ## View phone numbers
 
-**To view the available phone numbers in your organization**
+To view the available phone numbers in your organization, go to one of the apps in Dynamics 365, and do the following.
+   
+### [Customer Service admin center](#tab/customerserviceadmincenter)
 
-You can view the phone numbers in one of the apps as follows:
+   1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
+    
+   2. Select **Manage** for **Phone numbers**.
 
-- In the site map of Customer Service admin center, select **Channels** in **Customer support**, and then select **Manage** for **Phone numbers**.
+### [Omnichannel admin center](#tab/omnichanneladmincenter)
 
-- In the site map of Omnichannel admin center, select **Phone numbers** in **General settings**.
+In the site map, select **Phone numbers** in **General settings**.
 
 You'll see a list of all available phone numbers together with their carrier name, calling plan details, associated workstream, connection status, and other details.
 
@@ -51,7 +59,7 @@ If you don't have any phone numbers set up for your business, see [Acquire new p
 
 ## Acquire new phone numbers
 
-You can purchase new phone numbers for your organization after you've installed the voice channel and have successfully connected to an Azure Communication Services resource.
+You can purchase new phone numbers for your organization after you've checked for the prerequisites, installed the voice channel, and have successfully connected to an Azure Communication Services resource.
 
 **To acquire a new phone number**
 

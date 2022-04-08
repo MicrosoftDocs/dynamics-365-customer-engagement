@@ -21,6 +21,10 @@ You can also use an existing Azure resource to connect with voice or SMS channel
 
 Before you connect an existing Azure resource to Azure Communication Services, you must do the following:
 
+- If you're [using a trial phone number](voice-channel-manage-phone-numbers.md#use-trial-phone-number), you must end the trial to be able to see the options to connect to a new or existing Azure Communication Services resource.
+
+Get the following details from the Azure portal.
+
 - [Get the resource name and ID from the Azure portal](voice-channel-resource-app-details.md#get-resource-name-and-id).
 - [Get the connection string from the Azure portal](voice-channel-resource-app-details.md#get-connection-string).
 - [Get the application ID and tenant ID from the App registrations page on the Azure portal](voice-channel-resource-app-details.md#get-application-and-tenant-ids).
