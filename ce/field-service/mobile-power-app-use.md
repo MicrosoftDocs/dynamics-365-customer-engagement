@@ -20,7 +20,7 @@ search.app:
 
 # Use the Field Service (Dynamics 365) mobile app to complete work orders
 
-Available natively for Apple iOS and Google Android phones and tablets, the Field Service (Dynamics 365) mobile app offers technicians many capabilities they need to perform onsite customer service, such as:  
+Available natively for Apple iOS and Google Android phones and tablets, as well as Windows Laptops and Tablets, the Field Service (Dynamics 365) mobile app offers technicians many capabilities they need to perform onsite customer service, such as:  
 
 - A calendar view of assigned jobs.
 - Support for picture, video, and asset barcode scanning.
@@ -34,7 +34,7 @@ Before using the mobile app, a system administrator must [install and set up the
 
 ## Download
 
-Go to the app store on your iOS or Android device and search for **Dynamics 365 Field Service**.
+Go to the app store on your iOS, Android, or Windows device and search for **Dynamics 365 Field Service**.
 
 Download the app called **Field Service (Dynamics 365)**, as seen in the following screenshot.
 
