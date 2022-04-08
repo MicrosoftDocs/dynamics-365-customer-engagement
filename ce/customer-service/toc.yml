@@ -584,12 +584,14 @@
       href: voice-channel-emergency-calling.md
     - name: FAQs about the voice channel
       href: voice-channel-faqs.md
-    - name: Get resource and app registration details from Azure portal
-      hef: voice-channel-resource-app-details.md
-    - name: Create event subscription endpoints
-      hef: voice-channel-sub-endpoints.md
-    - name: Register event grid system topics
-      hef: voice-channel-event-grid.md
+    - name: How-to guides
+      items:
+      - name: Get resource and app registration details from Azure portal
+        href: voice-channel-resource-app-details.md
+      - name: Create event subscription endpoints
+        href: voice-channel-sub-endpoints.md 
+      - name: Register event grid system topics
+        href: voice-channel-event-grid.md
   - name: Chat
     items: 
     - name: Administrator experience
