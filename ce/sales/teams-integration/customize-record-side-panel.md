@@ -61,4 +61,4 @@ The following customizations are not supported:
 ### See also
 
 [Enable Microsoft Teams meeting integration](enable-teams-meeting-integration.md)    
-[Integrate Dynamics 365 and Microsoft Teams meetings](teams-meetings-integration.md)
+[Integrate Dynamics 365 and Microsoft Teams meetings](teams-meeting-integration.md)
