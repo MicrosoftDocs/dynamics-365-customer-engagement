@@ -25,8 +25,7 @@ As an administrator, you can customize record details that should be displayed w
 
 The following customizations are supported:
 
-- Add or remove fields in the header.
-- Add or remove fields in the Key Details section.
+- Add or remove fields in the **(table) info** section.
 - Change a field label.
 - Set a field requirement (for example, read-only).
 
@@ -35,7 +34,7 @@ The following customizations are not supported:
 - Enable or disable tabs.
 - Rearrange tabs.
 - Add custom tabs or sections.
-- Add sections other than Key Details, Contacts, Notes, Tasks, Collaboration, and Recent Opportunities.
+- Add sections other than (table) info, Contacts, Notes, Tasks, Collaboration, and Recent Opportunities.
 - Add a web resource.
 - Add a subgrid.
 - Change the format or layout of headers, tabs, sections, and fields.
