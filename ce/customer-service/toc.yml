@@ -496,7 +496,7 @@
       href: collaboration.md
     - name: Administrator experience
       items: 
-      - name: Configure Teams chat
+      - name: Configure Microsoft Teams chat
         href: configure-teams-chat.md
       - name: Configure AI suggestions for contacts in Microsoft Teams
         href: configure-teams-collaboration.md
@@ -504,7 +504,7 @@
         href: configure-customer-support-swarming.md
     - name: Agent experience
       items:
-      - name: Use Teams chat
+      - name: Use Microsoft Teams chat
         href: use-teams-chat.md
       - name: Use suggested contacts to collaborate with coworkers
         href: teams-use-suggested-contacts.md
