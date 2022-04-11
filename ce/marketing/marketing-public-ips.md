@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 Marketing public IP addresses (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about the public IP addresses for Dynamics 365 Marketing clusters."
-ms.date: 04/04/2022
+ms.date: 04/11/2022
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
@@ -22,7 +22,7 @@ search.app:
 
 The table below shows Marketing services public IP addresses listed by region.
 
-| Region                     | Public IP                                                                                                 |
+| Region                     | Public IPs                                                                                                 |
 |----------------------------|-----------------------------------------------------------------------------------------------------------|
 | Asia Pacific (APJ)         | 52.230.2.112,<br>20.212.150.142,<br>104.43.19.46                                                          |
 | Canada (CAN)               | 52.237.22.190,<br>20.104.252.173,<br>20.116.53.158                                                        |
