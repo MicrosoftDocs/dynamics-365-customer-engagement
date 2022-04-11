@@ -22,7 +22,7 @@ To integrate your Azure bot, perform the following steps:
 
 1. [Connect your Azure bot resource to Omnichannel channel](#connect-your-azure-bot-resource-to-omnichannel-channel).
 1. [Configure the bot user as an omnichannel agent](#configure-the-bot-user-as-an-omnichannel-agent).
-1. [Create routing rules](#create-routing-rules).
+1. [Configure routing rules and context variables](#configure-routing-rules).
 1. [Add the bot user to queues](#add-the-bot-user-to-queues).
 1. [Set escalation rules](#set-escalation-rules) as required.
 
@@ -32,7 +32,7 @@ To integrate your Azure bot, perform the following steps:
 
 ## Prerequisites
 
-- Have a bot that's built using [Microsoft Bot Framework](https://dev.botframework.com) and registered with [Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0&preserve-view=true). To create an Azure bot resource, see [Create Azure bot resource](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0#create-the-resource&preserve-view=true) in the Bot Framework SDK documentation. 
+- Have a bot that's built using [Microsoft Bot Framework](https://dev.botframework.com) and registered with [Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0&preserve-view=true). To create an Azure bot resource, see [Create Azure bot resource](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0#create-the-resource&preserve-view=true) in the Bot Framework SDK documentation.
 - Open your bot resource on the Azure portal, and note the values of the app ID and bot handle.
 - Configure your bot to have [Omnichannel channel](/azure/bot-service/bot-service-channel-omnichannel?view=azure-bot-service-4.0&preserve-view=true) and [Microsoft Teams](/azure/bot-service/channel-connect-teams?view=azure-bot-service-4.0&preserve-view=true) as supported channels.
 
@@ -52,7 +52,7 @@ Your bot is now registered with Omnichannel channel.
 
 The bot user is first created as an application user and then assigned the **Omnichannel agent** role.
 
-1. Open the [PowerPlatform admin center](https://admin.powerplatform.com). 
+1. Open the [PowerPlatform admin center](https://admin.powerplatform.com).
 
 1. Select the environment you want to configure, and then select **Settings**.
 
@@ -79,12 +79,6 @@ The bot user is first created as an application user and then assigned the **Omn
 
 1. Select the save icon at the bottom of the page.
 
-## Create routing rules
-
-Routing rules route the incoming customer queries to their respective queues. Each routing rule has a condition and a destination queue. If the condition is evaluated as true, the customer query is routed to the destination queue. For bots, the condition is built by using the context variable.
-
-Bots can be developed to receive customer queries first, gain information about the query, and then pass the query to a human agent if required. To achieve this behavior, you must add a bot user to the queue and [configure routing rules](routing-rules.md) in a way that the incoming customer queries are routed to the queue with the bot user. Be sure to map the routing rules to the correct queues so that the queries are routed appropriately. 
-
 ## Add the bot user to queues
 
 You can add a bot user to specific queues where you want the bot to handle the customer queries first, instead of the agent. For this, you must ensure that the bot user has the highest capacity among all users in the queue.
@@ -96,6 +90,12 @@ An agent can transfer a chat to a bot by adding the bot to a queue, and then tra
 > [!Note]
 > The chat cannot be transferred to the same bot.
 > The bot works with the chat widget, workstream, and queues created in Omnichannel for Customer Service.
+
+## Configure routing rules
+
+Routing rules route the incoming customer queries to their respective queues. Each routing rule has a condition and a destination queue. If the condition is evaluated as true, the customer query is routed to the destination queue. For bots, the condition is built by using context variables. To learn about context variables and how to add them, see [Configure context variables for a bot](context-variables-for-bot.md).
+
+Bots can be developed to receive customer queries first, gain information about the query, and then pass the query to a human agent if required. To achieve this behavior, you must first add the bot user to the queue and [configure routing rules](routing-rules.md) in a way that the incoming customer queries are routed to the queue with the bot user. Be sure to map the routing rules to the correct queues so that the queries are routed appropriately.
 
 ## Set escalation rules
 

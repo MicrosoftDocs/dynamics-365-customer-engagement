@@ -16,8 +16,8 @@ manager: shujoshi
 This article explains how you can program an Azure bot to route a conversation to a human agent in Omnichannel for Customer Service. It also describes how to program the bot to end the conversation.
 
 > [!Important]
-> - Bot agents are not supported in consult mode.
 > - Bots can escalate conversations to agents only if they're part of push-based workstreams.
+> - Bot agents are not supported in consult mode.
 
 ## Prerequisites
 
