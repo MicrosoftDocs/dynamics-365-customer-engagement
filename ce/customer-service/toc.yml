@@ -838,9 +838,10 @@
     items:
     - name: Administrator experience
       items:
-      - name: Integrate an Azure bot
-        href: configure-bot.md
+      - name: Configure Azure bots
         items:
+        - name: Integrate an Azure bot
+          href: configure-bot.md
         - name: Sample configuration to integrate an Azure bot
           href: sample-config-azure-bot.md
         - name: Best practices for configuring Azure bots
