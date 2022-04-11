@@ -20,15 +20,14 @@ Consider the following points when you configure Azure bots in Omnichannel for C
 
 - Unlike other Omnichannel for Customer Service agents, bots are not added to a "default" queue at the outset; they're added from the Omnichannel admin center or Customer Service admin center apps.
 
-
 ## Privacy notice
 
 You understand that your data may be transmitted and shared with external systems and that your data may flow outside of your organization's compliance boundary (even if your organization is in a Government Cloud environment). For example, your messages will be shared with the bot which could be interacting with a third-party system based on the integration done by you. For more information on how we process your data, please refer to the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
 
 ### See also
 
-[Integrate an Azure bot](configure-bot.md)
-[Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)  
-[Context variables for a bot](context-variables-for-bot.md)   
+[Integrate an Azure bot](configure-bot.md)  
+[Configure bots to escalate and end conversation](bot-escalate-end-conversation.md)  
+[Context variables for a bot](context-variables-for-bot.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

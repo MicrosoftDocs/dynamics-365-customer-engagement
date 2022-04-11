@@ -846,20 +846,22 @@
         href: context-variables-for-bot.md
       - name: Link customer and case when bot escalates or ends conversations
         href: link-customer-case-when-bot-escalates.md
+      - name: Best practices for configuring Azure bots
+        href: configure-azure-bot-best-practices.md
     - name: Developer experience
       items: 
       - name: Enable bot context NuGet package
         href: enable-bot-context.md
-      - name: Enable an Azure bot to escalate and end conversations
+      - name: Configure Azure bots to escalate and end conversations
         href: bot-escalate-end-conversation.md
       - name: Download attachments from Azure bot
         href: download-attachments-bot.md
-      - name: Get user details on Microsoft Teams from Azure bot
-        href: user-details-teams-azure-bot.md
-      - name: Display suggested actions in a vertical layout
-        href: suggested-actions.md
       - name: Download attachments from Power Virtual Agents bot
         href: download-attachments-PVA-bot.md
+    - name: Get user details on Microsoft Teams from Azure bot
+      href: user-details-teams-azure-bot.md
+    - name: Display suggested actions in a vertical layout
+      href: suggested-actions.md
   - name: Insights
     items: 
     - name: Introduction to Customer Service Insights

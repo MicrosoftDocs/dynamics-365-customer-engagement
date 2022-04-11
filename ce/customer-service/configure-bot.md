@@ -123,7 +123,7 @@ The following sample provides the exact steps and configuration values to integr
     - **HomeLoanRule**: Specify the workstream and queue as **ChatWorkStream** and **HomeLoanQueue**, respectively. Add the condition as follows:
         > [!div class=mx-imgBorder]
         > ![Create a rule to send customer query from bot to an agent.](media/home-loan-rule.png "Create a rule to send a customer query from a bot to an agent")
-5. [Enable the Azure bot to escalate and end conversations](bot-escalate-end-conversation.md).
+5. [Configure the Azure bot to escalate and end conversations](bot-escalate-end-conversation.md).
 
 When a chat is started by a customer, the query is routed to the bot through the **BotRule** routing rule. If the bot escalates the query, it is sent to the appropriate agent as per the configured routing rules. The bot needs to send the correct context variable and its value in the escalation request to route the query appropriately.
 
@@ -138,9 +138,8 @@ You understand that your data may be transmitted and shared with external system
 [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)  
 [Create and manage routing rules](routing-rules.md)  
 [View bot insights](omnichannel-insights-dashboard.md#botinsights)  
-[Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)  
+[Configure Azure bots to escalate and end conversation](bot-escalate-end-conversation.md)  
 [Context variables for a bot](context-variables-for-bot.md)  
-[Enable bot context NuGet package](enable-bot-context.md)  
 [Create an application user](/powerapps/developer/data-platform/use-multi-tenant-server-server-authentication#create-a-multi-tenant-web-application-registered-with-your-azure-ad-tenant)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
