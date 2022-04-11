@@ -24,7 +24,7 @@ To integrate your Azure bot, perform the following steps:
 1. [Configure the bot user as an omnichannel agent](#configure-the-bot-user-as-an-omnichannel-agent).
 1. [Create routing rules](#create-routing-rules).
 1. [Add the bot user to queues](#add-the-bot-user-to-queues).
-1. [Set escalation rules](#set-escalation-rules).
+1. [Set escalation rules](#set-escalation-rules) as required.
 
 > [!Note]
 > - To integrate your Azure bot with the voice channel and enable calling/SMS services, see [Add Azure bot to conversational IVR](voice-channel-azure-bot-service.md).
@@ -89,7 +89,7 @@ Bots can be developed to receive customer queries first, gain information about 
 
 You can add a bot user to specific queues where you want the bot to handle the customer queries first, instead of the agent. For this, you must ensure that the bot user has the highest capacity among all users in the queue.
 
-Alternatively, you can also create a queue with the bot user only. In such a case, ensure that the routing rules are set in a way that customer queries are sent to this queue first. This ensures that the bot acts as a first recipient for all queries.
+Alternatively, you can also create a queue with the bot user only. In such a case, ensure that the routing rules are set in a way that customer queries are sent to this queue first. This ensures that the bot acts as the first recipient for all queries.
 
 An agent can transfer a chat to a bot by adding the bot to a queue, and then transferring the chat to the queue.
 
