@@ -119,7 +119,7 @@ The following sample provides the exact steps and configuration values to integr
     - **CreditCardQueue**: Add agents who will handle queries related to credit card.
     - **HomeLoanQueue**: Add agents who will handle queries related to home loan.
 
-3. [Configure context variables](#context-variables-for-bot). Let's say you create a context variable named **BotHandoffTopic** in the **ChatWorkStream** workstream.
+3. [Configure context variables](#context-variables-for-bot.md). Let's say you create a context variable named **BotHandoffTopic** in the **ChatWorkStream** workstream.
 
 4. [Create the following routing rules](routing-rules.md) in the **ChatWorkStream** workstream in this order:
     - **BotRule**: Specify the workstream and queue as **ChatWorkStream** and **BotQueue**, respectively. Add the condition as follows:
