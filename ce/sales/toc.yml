@@ -14,7 +14,7 @@
         href: sales-trial-faq.md
       - name: Preview features in trial
         href: sales-previews-in-trial.md
-  - name: Install or uninstall
+  - name: Install and configure
     items:
     - name: Set up Dynamics 365 Sales
       href: set-up-dynamics-365-sales.md
@@ -69,12 +69,12 @@
           href: change-color-scheme-logo.md
         - name: Customize the app
           href: manage-app.md
-    - name: Upgrade
-      items: 
-        - name: Upgrade from Dynamics 365 Sales Professional
-          href: upgrade-sales-professional-sales-enterprise.md
-        - name: Move from Dynamics 365 Sales Enterprise to Professional
-          href: move-sales-enterprise-sales-professional.md
+  - name: Upgrade
+    items: 
+      - name: Upgrade from Dynamics 365 Sales Professional
+        href: upgrade-sales-professional-sales-enterprise.md
+      - name: Move from Dynamics 365 Sales Enterprise to Professional
+        href: move-sales-enterprise-sales-professional.md
 - name: Learn the basics
   items: 
     - name: Learn the basics
