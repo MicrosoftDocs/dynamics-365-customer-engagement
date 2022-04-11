@@ -1,6 +1,6 @@
 ---
 title: "Integrate an Azure bot | MicrosoftDocs"
-description: "Use this article to understand how to integrate an Azure bot with Omnichannel for Customer Service."
+description: "Use this article to understand how to integrate Azure bots with Omnichannel for Customer Service."
 ms.date: 04/12/2022
 author: neeranelli
 ms.author: nenellim
@@ -134,7 +134,7 @@ You understand that your data may be transmitted and shared with external system
 
 ### See also
 
-[Overview of the voice channel](voice-channel.md)  
+[Best practices for configuring Azure bots](configure-azure-bot-best-practices.md)
 [Understand and create workstreams](create-workstreams.md)  
 [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)  
 [Create and manage routing rules](routing-rules.md)  
