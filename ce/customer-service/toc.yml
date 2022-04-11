@@ -838,11 +838,11 @@
     items:
     - name: Administrator experience
       items:
-      - name: Integrate a Power Virtual Agents bot
-        href: configure-bot-virtual-agent.md
       - name: Integrate an Azure bot
         href: configure-bot.md
-      - name: Configure context variables for bots
+      - name: Integrate a Power Virtual Agents bot
+        href: configure-bot-virtual-agent.md
+      - name: Configure context variables for a bot
         href: context-variables-for-bot.md
       - name: Link customer and case when bot escalates or ends conversations
         href: link-customer-case-when-bot-escalates.md
@@ -854,7 +854,7 @@
         href: bot-escalate-end-conversation.md
       - name: Download attachments from Azure bot
         href: download-attachments-bot.md
-      - name: Get user details on Teams from Azure bot
+      - name: Get user details on Microsoft Teams from Azure bot
         href: user-details-teams-azure-bot.md
       - name: Display suggested actions in a vertical layout
         href: suggested-actions.md

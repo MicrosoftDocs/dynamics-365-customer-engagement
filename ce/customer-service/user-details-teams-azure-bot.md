@@ -1,15 +1,14 @@
 ---
-title: "Get user details on Teams from Azure bot | MicrosoftDocs"
-description: "Get user details on Teams from Azure bot in Omnichannel for Customer Service."
+title: "Get user details on Microsoft Teams from Azure bot | MicrosoftDocs"
+description: "Get user details on Microsoft Teams from Azure bot in Omnichannel for Customer Service."
 ms.date: 06/16/2021
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
+ms.topic: article
 ---
 
-# Get user details on Teams from Azure bot
-
-
+# Get user details on Microsoft Teams from Azure bot
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
