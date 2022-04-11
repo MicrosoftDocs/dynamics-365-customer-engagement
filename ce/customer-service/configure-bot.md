@@ -35,16 +35,16 @@ When you integrate an Azure bot with Omnichannel for Customer Service, you get t
 
 ## Prerequisites
 
-You must ensure the following requirements are met before you integrate your bot with Omnichannel for Customer Service.
+You must ensure the following requirements are met before you integrate your Azure bot with Omnichannel for Customer Service.
 
 - Have a bot that's built using [Microsoft Bot Framework](https://dev.botframework.com) and registered with [Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0&preserve-view=true).  
 
     To create an Azure bot resource, see [Create Azure bot resource](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0#create-the-resource&preserve-view=true) section in the Bot Framework SDK documentation. Be sure to note the values of the Microsoft App ID and the bot handle.
 
-- To add the Azure bot service to conversational IVR, you must create a bot resource that's enabled for cognitive services and also supports the Direct Line speech channel. To do so, perform the following steps:
+- To add the Azure bot service to conversational IVR, you must create a bot resource that's enabled for cognitive services and also supports the Telephony channel. To do so, perform the following steps:
     1. [Create a Cognitive Services resource using the Azure portal](/azure/cognitive-services/cognitive-services-apis-create-account?tabs=multiservice%2Cwindows) to enable cognitive services such as text-to-speech or speech-to-text capabilities. Note the location/region and key values.
 
-    2. Then, [add the Cognitive Services speech resource you created in the earlier step to the Direct Line Speech channel](/azure/bot-service/bot-service-channel-connect-directlinespeech?view=azure-bot-service-4.0&preserve-view=true).
+    2. Then, [add the Cognitive Services speech resource you created in the earlier step to the Telephony channel](/azure/bot-service/bot-service-channel-connect-directlinespeech?view=azure-bot-service-4.0&preserve-view=true).
 
 - The bot must be configured to have [Omnichannel channel](/azure/bot-service/bot-service-channel-omnichannel?view=azure-bot-service-4.0&preserve-view=true) and [Microsoft Teams](/azure/bot-service/channel-connect-teams?view=azure-bot-service-4.0&preserve-view=true) as supported channels.
 
@@ -62,7 +62,7 @@ To integrate your bot with Omnichannel for Customer Service, perform the followi
 5. [Add a code snippet to engage the bot](#add-a-code-snippet-to-engage-the-bot).
 6. [Set escalation rules](#set-escalation-rules).
 
-### Connect your bot resource to Omnichannel channel
+### Connect your Azure bot resource to Omnichannel channel
 
 Perform the following steps to connect and register your bot with Omnichannel channel.
 
@@ -74,70 +74,41 @@ Perform the following steps to connect and register your bot with Omnichannel ch
 
 Your bot is now registered with Omnichannel channel.
 
-<!--
-### Configure the bot user as an omnichannel agent
 
-A bot user is created as an application user and assigned with the **Omnichannel agent** role. 
+## Configure the app user as an omnichannel agent
 
-**To create a bot user**
+To configure the app user as an omnichannel agent, you must do the following:
+1. [Add the app user as application user in Power Platform admin center](#add-the-app-user-in-Power-Platform-admin-center).
+1. [Change the user type from applicaton user to bot application user in Dynamics 365](#change-the-user-type-in-Dynamics-365).
 
-1. Open Omnichannel admin center, and go to **Advanced Settings** > **Security** > **Users**.
-
-2. In the **Users** dropdown list, select **Application Users**, and then select **New**.
-
-3. In the **New User** dropdown list, select **Application User**.
-
-4. On the **New User** page, enter or select the following information:
-    - **Application ID**: An application ID for any valid (non-expired) application created in Azure Active Directory (Azure AD) for the same tenant. This ID is not used by the bot in Omnichannel for Customer Service.
-    - **User type**: Select **Bot application user**.
-    - **Bot application ID**: The bot's application ID from Azure AD that you copied in the previous step.
-    - **Bot handle**: Enter the bot handle from the Bot profile settings.
-
-    If you've added the Azure bot service to conversational IVR, then update the following fields:
-    - **Cognitive Services Subscription Key**: Enter the KEY 1 or KEY 2 value from the [cognitive speech service resource](/azure/cognitive-services/cognitive-services-apis-create-account?tabs=multiservice%2Cwindows) that you created earlier.
-    - **Cognitive Services Region**: Enter the Location/Region value from the cognitive speech service resource that you created earlier.
-
-    For more information on creating an application user, see [Create an application user](/dynamics365/customer-engagement/developer/use-multi-tenant-server-server-authentication#create-an-application-user--associated-with-the-registered-application--in-).
-
-5. Select **Save and Close**.
-
-6. Select **Manage Roles** on the command bar.
-
-7. In the **Manage User Roles** window, select **Omnichannel agent**, and then select **OK**.
-
-    > [!NOTE]
-    > By default, the bot user is assigned the same capacity as other users. You must assign the maximum capacity to the bot user among all users in a queue if you want the bot to handle the customer queries first. The capacity of a bot user isn't reduced when a query is handled by it.
-
--->
-## Configure the bot user as an omnichannel agent
+### Add the app user in Power Platform admin center
 
 1. Open the [PowerPlatform admin center](https://admin.powerplatform.com). 
 
 2. Select the environment you want to configure, and then select **Settings**.
 
-3. On the **Settings** page, select ***Users + permissions** > **Application users**.
+3. On the **Settings** page, select ***Users + permissions**, and then select **Application users**.
 
 4. On the **Application users** page, select **New app user** and in the **Create a new app user** dialog that opens, do the following:
 
     a. Select a **Business unit** from the dropdown list.
     
-    b. Edit the **Security roles** field and add **Omnichannel agent** to the roles.
+    b. Edit the **Security roles** field, and in the **Add security roles** page, select **Omnichannel agent** from the dropdown list and select **Save** to go back to the **Create a new app user** dialog.
     
-    c. Select **Add an app**.
+    c. Select **Add an app**. The **Add an app from Azure Active Directory** dialog opens.
+    
+    d. Select the app that you created during your Azure app registration, and then select **Add** and **Create**.
 
-5. In the **Add an app from Azure Active Directory** dialog that opens, select the app created from your Azure app registration, and then select **Add** and **Create**.
+### Change the user type in Dynamics 365
 
-   <<image.png>>
+1. In the Dynamics 365 Settings page, go to **Settings** > **System** > **Security** > **Users**, search and open the newly created user.
 
-6. In the Dynamics 365 Settings page, select **Security** > **Users** and search for the newly created user.
- 
-   <<image.png>>
+2. Make sure you switch to the **APPLICATION USER** form.
 
-7. Make sure you switch to the **Application User form**.
-
-8. Set **User type** to **Bot application user**.
-
-9. Enter the **Bot application ID** and select **Save**.
+8. In the **User Information** box, do the following:
+    - **User type**: Select **Bot application user** from the dropdown list.
+    - **Bot application ID**: Enter the Microsoft App ID from Azure AD that you noted earlier from the Prerequisites section.
+    - **Bot handle**: Enter the bot handle from the Bot profile settings.
    
    <<image.png>>
 
