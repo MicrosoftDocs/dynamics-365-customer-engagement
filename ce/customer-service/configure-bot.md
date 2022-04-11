@@ -27,8 +27,8 @@ To integrate your Azure bot, perform the following steps:
 1. [Set escalation rules](#set-escalation-rules).
 
 > [!Note]
-- To integrate your Azure bot with the voice channel and enable calling/SMS services, see [Add Azure bot to conversational IVR](voice-channel-azure-bot-service.md).
-- To program Azure bots to route conversations to human agents and also end conversations in Omnichannel for Customer Service, see [Enable an Azure bot to escalate and end conversations](bot-escalate-end-conversation.md).
+> - To integrate your Azure bot with the voice channel and enable calling/SMS services, see [Add Azure bot to conversational IVR](voice-channel-azure-bot-service.md).
+> - To program Azure bots to route conversations to human agents and also end conversations in Omnichannel for Customer Service, see [Enable an Azure bot to escalate and end conversations](bot-escalate-end-conversation.md).
 
 ## Prerequisites
 
@@ -38,8 +38,6 @@ You must ensure the following requirements are met before you integrate your Azu
 - Open your bot resource on the Azure portal, and note the values of the app ID and bot handle.
 - Configure your bot to have [Omnichannel channel](/azure/bot-service/bot-service-channel-omnichannel?view=azure-bot-service-4.0&preserve-view=true) and [Microsoft Teams](/azure/bot-service/channel-connect-teams?view=azure-bot-service-4.0&preserve-view=true) as supported channels.
 
-> [!NOTE]
-> Bots can escalate conversations to agents only if they're part of push-based workstreams.
 
 ## Connect your Azure bot resource to Omnichannel channel
 
