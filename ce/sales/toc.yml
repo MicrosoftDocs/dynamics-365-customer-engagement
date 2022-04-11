@@ -4,20 +4,16 @@
   href: overview.md
 - name: What's new
   href: whats-new.md
-- name: Sign up, install, and manage
-  items:
-  - name: Sign up for a Sales trial
-    items:
-    - name: Sign up for a free Sales Premium trial
-      items:
-      - name: Sign up for the trial
-        href: sign-up-for-sales-trial.md 
+- name: Try, install, and manage
+  items: 
+  - name: Sales trial
+    items: 
+      - name: Sign up for the free trial
+        href: sign-up-for-sales-trial.md
       - name: Trial FAQs
         href: sales-trial-faq.md
       - name: Preview features in trial
         href: sales-previews-in-trial.md
-    - name: Sign up for a free Sales Professional trial
-      href: try-dynamics365-sales-professional.md
   - name: Install or uninstall
     items:
     - name: Set up Dynamics 365 Sales
@@ -316,8 +312,6 @@
         href: add-upnext-widget-form.md  
       - name: Add the sales accelerator site map entry to custom app          
         href: add-sales-accelerator-sitemap-entry-custom-app.md
-    - name: Manage Campaigns
-      href: configure-inapp-marketing.md
     - name: Manage sequences
       href: create-manage-sequences.md
       items:
@@ -379,6 +373,8 @@
         href: manage-sales-teams.md
       - name: Manage seller attributes
         href: manage-seller-attributes.md
+    - name: Manage Campaigns
+      href: configure-inapp-marketing.md
   - name: Guided selling
     items:      
     - name: Business process flows    
@@ -560,7 +556,7 @@
       href: manage-duplicate-leads.md  
     - name: Prioritize leads using predictive scores
       href: work-predictive-lead-scoring.md
-    - name: Qualify or convert leads
+    - name: Qualify and convert leads
       href: qualify-lead-convert-opportunity-sales.md
     - name: Reopen leads
       href: re-open-lead-sales.md
