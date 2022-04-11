@@ -1,7 +1,7 @@
 ---
-title: "Connect rich customer data from multiple sources to customer journeys (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Connect rich customer data from multiple sources (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to integrate Dynamics 365 Customer Insights profiles and segments with Dynamics 365 Marketing."
-ms.date: 04/05/2022
+ms.date: 04/11/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -17,7 +17,7 @@ search.app:
   - D365Mktg
 ---
 
-# Connect rich customer data from multiple sources to customer journeys
+# Connect rich customer data from multiple sources
 
 [Dynamics 365 Customer Insights](/dynamics365/customer-insights/overview) applies artificial intelligence to analyze rich pools of customer data. Customer Insights allows you to unify data from transactional, behavioral, and observational sources to create a 360-degree customer view. This means that you're no longer restricted by siloed data that requires you to look in multiple locations to track customer behavior. With Customer Insights, you can view powerful analytical displays for each contact. And connecting it to Dynamics 365 Marketing allows you to automate personalized responses to customer actions as they occur.
 
