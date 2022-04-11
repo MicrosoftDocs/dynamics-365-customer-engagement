@@ -18,10 +18,11 @@ ms.custom:
 To integrate your Azure bot with Omnichannel for Customer Service, perform the following steps:
 
 1. [Connect your Azure bot resource to Omnichannel channel](#connect-your-azure-bot-resource-to-omnichannel-channel).
-2. [Configure the bot user as an ommnichannel agent](#configure-the-app-user-as-an-omnichannel-agent).
+2. [Configure the bot user as an omnichannel agent](#configure-the-bot-user-as-an-omnichannel-agent).
 3. [Add the bot user to queues](#add-the-bot-user-to-queues).
-4. [Add a code snippet to engage the bot](#add-a-code-snippet-to-engage-the-bot).
-5. [Set escalation rules](#set-escalation-rules).
+1.  Enable the bot to escalate and end conversations
+1. [Add a code snippet to engage the bot](#add-a-code-snippet-to-engage-the-bot).
+1. [Set escalation rules](#set-escalation-rules).
 
 > [!Note]
 > To integrate your Azure bot with the voice channel and enable calling/SMS services, see [Add Azure bot to conversational IVR](voice-channel-azure-bot-service.md).
@@ -96,7 +97,7 @@ An agent can transfer a chat to a bot by adding the bot to a queue, and then tra
 
 You can set escalation rules to allow a bot to send customer queries to a customer service agent. More information: [Set escalation rules](#set-escalation-rules)
 
-## Enable a bot to escalate and end conversations
+## Enable the bot to escalate and end conversations
 
 In Omnichannel for Customer Service, you can program a bot to route a conversation to a human agent, or end the conversation if the customer is not responding. For more information about how you can program bots to escalate or end conversations, see [Engage an Azure bot](bot-escalate-end-conversation.md#engage-an-azure-bot).
 
