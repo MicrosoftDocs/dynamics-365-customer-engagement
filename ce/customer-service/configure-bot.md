@@ -18,9 +18,9 @@ ms.custom:
 To integrate your Azure bot with Omnichannel for Customer Service, perform the following steps:
 
 1. [Connect your Azure bot resource to Omnichannel channel](#connect-your-azure-bot-resource-to-omnichannel-channel).
-2. [Configure the bot user as an omnichannel agent](#configure-the-bot-user-as-an-omnichannel-agent).
-3. [Add the bot user to queues](#add-the-bot-user-to-queues).
-1.  Enable the bot to escalate and end conversations
+1. [Configure the bot user as an omnichannel agent](#configure-the-bot-user-as-an-omnichannel-agent).
+1. [Add the bot user to queues](#add-the-bot-user-to-queues).
+1. [Enable the bot to escalate and end conversations]
 1. [Add a code snippet to engage the bot](#add-a-code-snippet-to-engage-the-bot).
 1. [Set escalation rules](#set-escalation-rules).
 
@@ -95,39 +95,15 @@ An agent can transfer a chat to a bot by adding the bot to a queue, and then tra
 > [!Note]
 > The chat cannot be transferred to the same bot.
 
-You can set escalation rules to allow a bot to send customer queries to a customer service agent. More information: [Set escalation rules](#set-escalation-rules)
-
-## Enable the bot to escalate and end conversations
-
-In Omnichannel for Customer Service, you can program a bot to route a conversation to a human agent, or end the conversation if the customer is not responding. For more information about how you can program bots to escalate or end conversations, see [Engage an Azure bot](bot-escalate-end-conversation.md#engage-an-azure-bot).
-
-## Add a code snippet to engage the bot
-
-To send messages to Omnichannel Engagement Hub, you must add the following statement to the bot code:
-
-```csharp
-OmnichannelBotClient.BridgeBotMessage(turnContext.Activity);
-```
-
-More information: [Engage an Azure bot](bot-escalate-end-conversation.md#engage-an-azure-bot)
-
-## Set escalation rules
-
-Escalation rules allow you to create rules for the bot to escalate the queries to the appropriate agent. For escalation rules, you must create a context variable and appropriate routing rules to route the customer queries.
-
-If the bot escalates a customer query, it's routed to the appropriate queue as per the defined routing rule. If the customer query is redirected to the same queue, another agent in the queue will pick the conversation as per the capacity. For information on working with queues, see [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md).
-
-#### Create a context variable
-
-You must create a context variable for the bot to handle the customer queries appropriately. The context variable is used in routing the incoming customer queries to the appropriate bots and agents. For information on creating context variables, see [Configure context variables for a bot](context-variables-for-bot.md).
-
-#### Create routing rules
+## Create routing rules
 
 Routing rules route the incoming customer queries to their respective queues. Each routing rule has a condition and a destination queue. If the condition is evaluated as true, the customer query is routed to the destination queue. For bots, the condition is built by using the context variable.
 
-Bots are developed to receive customer queries first, gain information about the query, and then pass the query to a human agent if required. To achieve this behavior, you must add a bot user to the queue and configure routing rules in a way that the incoming customer queries are routed to the queue with the bot user.
+Bots are developed to receive customer queries first, gain information about the query, and then pass the query to a human agent if required. To achieve this behavior, you must add a bot user to the queue and [configure routing rules](routing-rules.md) in a way that the incoming customer queries are routed to the queue with the bot user. Be sure to map the routing rules to the correct queues so that the queries are routed appropriately. 
 
-Be sure to map the routing rules to the correct queues so that the queries are routed appropriately. For information on creating a routing rule, see [Create and manage routing rules](routing-rules.md).
+## Set escalation rules
+
+Escalation rules allow you to create rules for the bot to escalate the queries to the appropriate agent. For escalation rules, you must [configure context variables](context-variables-for-bot.md) and set routing rules to route the customer queries. If the bot escalates a customer query, it's routed to the appropriate queue as per the defined routing rule. Even if the query is redirected to the same queue, another agent in the queue will pick the conversation as per the capacity.
 
 ## Sample configuration to integrate a bot
 

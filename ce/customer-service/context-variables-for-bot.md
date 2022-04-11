@@ -12,8 +12,6 @@ ms.custom:
 
 # Configure context variables for a bot
 
-
-
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Introduction

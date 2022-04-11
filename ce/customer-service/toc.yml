@@ -850,7 +850,7 @@
       items: 
       - name: Enable bot context NuGet package
         href: enable-bot-context.md
-      - name: Enable a bot to escalate and end conversation
+      - name: Enable an Azure bot to escalate and end conversations
         href: bot-escalate-end-conversation.md
       - name: Download attachments from Azure bot
         href: download-attachments-bot.md
