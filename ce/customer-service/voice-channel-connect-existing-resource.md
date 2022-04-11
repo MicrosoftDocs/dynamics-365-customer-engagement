@@ -1,7 +1,7 @@
 ---
 title: "Connect to an existing Azure resource | MicrosoftDocs"
 description: "Use this article to understand how to connect to Azure Communication Services using an existing Azure resource."
-ms.date: 04/08/2022
+ms.date: 04/12/2022
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: neeranelli
@@ -15,19 +15,19 @@ manager: shujoshi
 
 ## Introduction
 
-You can also use an existing Azure resource to connect with voice or SMS channels. You can use a resource from any of your Azure subscriptions, *available under any tenant*. If you had previously disconnected a resource and want to use it now, you can do so using this option.
+You can use an existing Azure resource from any of your Azure subscriptions, *available under any tenant*, to connect with voice or SMS channels. If you had previously disconnected a resource and want to use it now, you can do so using this option.
 
 ## Prerequisites
 
 Before you connect an existing Azure resource to Azure Communication Services, you must do the following:
 
-- If you're [using a trial phone number](voice-channel-manage-phone-numbers.md#use-trial-phone-number), you must end the trial to be able to see the options to connect to a new or existing Azure Communication Services resource.
+- If you're [using a trial phone number](voice-channel-manage-phone-numbers.md#use-trial-phone-number), you must end the trial to be able to see the options to connect to the existing Azure resource.
 
-Get the following details from the Azure portal.
+- Get the following details from the Azure portal.
 
-- [Get the resource name and ID from the Azure portal](voice-channel-resource-app-details.md#get-resource-name-and-id).
-- [Get the connection string from the Azure portal](voice-channel-resource-app-details.md#get-connection-string).
-- [Get the application ID and tenant ID from the App registrations page on the Azure portal](voice-channel-resource-app-details.md#get-application-and-tenant-ids).
+    - [Resource name and ID of your resource](voice-channel-resource-app-details.md#get-resource-name-and-id).
+    - [Connection string of your resource](voice-channel-resource-app-details.md#get-connection-string).
+    - [Application ID and tenant ID for your registered app](voice-channel-resource-app-details.md#get-application-and-tenant-ids).
 
 > [!Important]
 >
@@ -51,12 +51,12 @@ Get the following details from the Azure portal.
 
 2. Select **Use existing resource**.
 
-3. Enter the following details, based on the resource details retrieved from the Azure portal.
+3. In the **Use existing resource** dialog, fill in the following fields using the resource details retrieved from the Azure portal.
    - **ACS Resource Name**: Enter the resource name.
    - **ACS Resource ID**: Enter the resource ID.
-   - **Connection string**: [Enter the connection string](voice-channel-resource-app-details.md#get-connection-string).
-   - **Event grip app ID**: [Enter the application ID](voice-channel-resource-app-details.md#get-application-and-tenant-ids).
-   - **Event grip app tenant ID**: [Enter the tenant ID](voice-channel-resource-app-details.md#get-application-and-tenant-ids).
+   - **Connection string**: Enter the connection string.
+   - **Event grip app ID**: Enter the application ID.
+   - **Event grip app tenant ID**: Enter the tenant ID.
 
 4. Select **Connect**.
     > [!div class="mx-imgBorder"]
