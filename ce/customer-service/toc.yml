@@ -840,14 +840,17 @@
       items:
       - name: Integrate an Azure bot
         href: configure-bot.md
+        items:
+        - name: Sample configuration to integrate an Azure bot
+          href: sample-config-azure-bot.md
+        - name: Best practices for configuring Azure bots
+          href: configure-azure-bot-best-practices.md
       - name: Integrate a Power Virtual Agents bot
         href: configure-bot-virtual-agent.md
       - name: Configure context variables for a bot
         href: context-variables-for-bot.md
       - name: Link customer and case when bot escalates or ends conversations
         href: link-customer-case-when-bot-escalates.md
-      - name: Best practices for configuring Azure bots
-        href: configure-azure-bot-best-practices.md
     - name: Developer experience
       items: 
       - name: Enable bot context NuGet package
