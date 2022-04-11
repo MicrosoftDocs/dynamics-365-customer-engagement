@@ -16,7 +16,7 @@ ms.custom:
 
 ## Introduction
 
-Context variables enrich conversations with pre-chat data, channel data, and custom context data. These attributes can then be used to define routing rules to route conversations to different queues. This topic lists the context variables and how you can configure them for Azure or Power Virtual Agents bots in Omnichannel for Customer Service.
+Context variables enrich conversations with pre-chat data, channel data, and custom context data. These attributes can then be used to define routing rules to route conversations to different queues. This topic lists the context variables for Azure and Power Virtual Agents bots, and how you can configure them in Omnichannel for Customer Service.
 
 ## Considerations
 

@@ -20,14 +20,9 @@ This article explains how you can program an Azure bot to route a conversation t
 
 ## Prerequisites
 
-You must ensure the following conditions are met to configure an Azure bot in Omnichannel for Customer Service.
+You must have an Azure bot that's configured and integrated with Omnichannel for Customer Service. More information: [Integrate an Azure bot](configure-bot.md)
 
-- The bot must be developed using [Microsoft Bot Framework](https://dev.botframework.com).
-- The bot must be registered with [Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-3.0&preserve-view=true).
-- The bot must be configured to [have Microsoft Teams as a supported channel](/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0&preserve-view=true).
-
-
-## Engage an Azure bot
+## Add code snippet to engage an Azure bot
 
 To send messages to Omnichannel for Customer Service, add the following code statement to the bot code.
 
