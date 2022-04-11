@@ -9,6 +9,7 @@ manager: shujoshi
 ---
 
 # Use the Sales Hub app to access Dynamics 365 Sales features
+
 Sales Hub is a free sales app from Microsoft, which is preinstalled and preconfigured with several core sales and sales premium features to help you get started quickly.  
 
 > [!TIP]
