@@ -15,16 +15,16 @@ ms.custom:
 
 ## Introduction
 
-To integrate your bot with Omnichannel for Customer Service, perform the following steps:
+To integrate your Azure bot with Omnichannel for Customer Service, perform the following steps:
 
 1. [Connect your bot resource to Omnichannel for Customer Service](#connect-your-bot-resource-to-omnichannel-channel).
-2. [Create the bot user as application user and assign it as an omnichannel agent](#configure-the-bot-user-as-an-omnichannel-agent).
+2. [Configure the app user as Omnichannel agent](#configure-the-app-user-as-omnichannel-agent).
 3. [Add the bot user to queues](#add-the-bot-user-to-queues).
 4. [Add a code snippet to engage the bot](#add-a-code-snippet-to-engage-the-bot).
 5. [Set escalation rules](#set-escalation-rules).
 
 [!Note]
-To enable your Azure bot for the voice channel, see [Add Azure bot to conversational IVR](voice-channel-azure-bot-service.md).
+To integrate your Azure bot with the voice channel and enable calling/SMS services, see [Add Azure bot to conversational IVR](voice-channel-azure-bot-service.md).
 
 ## Prerequisites
 
@@ -51,11 +51,11 @@ Perform the following steps to connect and register your bot with Omnichannel ch
 
 Your bot is now registered with Omnichannel channel.
 
-## Configure the app user as an omnichannel agent
+## Configure the app user as Omnichannel agent
 
-To configure the app user as an omnichannel agent, you must do the following:
-1. [Add the app user as application user in Power Platform admin center](#add-the-app-user-in-Power-Platform-admin-center).
-1. [Change the user type from applicaton user to bot application user in Dynamics 365](#change-the-user-type-in-Dynamics-365).
+To configure the app user as Omnichannel agent, you must do the following:
+1. [Add the app user as application user in Power Platform admin center](#add-the-app-user-in-power-platform-admin-center).
+1. [Change the user type from applicaton user to bot application user in Dynamics 365](#change-the-user-type-in-dynamics-365).
 
 ### Add the app user in Power Platform admin center
 
@@ -145,7 +145,7 @@ Be sure to map the routing rules to the correct queues so that the queries are r
 
 The following sample provides the exact steps and configuration values to integrate a bot and then escalate the query to a human agent. In this sample, three queues and three routing rules are created. The bot user is added to one queue, and the agents are added to the two other queues. Routing rules are defined in such a way that whenever a customer starts a chat, it will be first sent to the bot, and then escalated to a human agent as per the conditions defined in the routing rules. The workstream used in this sample is **ChatWorkStream**.
 
-1. Follow the instructions in [Configure bot user as Omnichannel agent](#configure-the-bot-user-as-an-omnichannel-agent) to create a bot user.
+1. Follow the instructions in [Configure the app user as Omnichannel agent](#configure-the-app-user-as-omnichannel-agent) to create a bot user.
 
 2. Follow the instructions in [Add the bot user to queues](#add-the-bot-user-to-queues) to create three queues and add users as follows:
     - **BotQueue**: Add the bot user to this queue.
