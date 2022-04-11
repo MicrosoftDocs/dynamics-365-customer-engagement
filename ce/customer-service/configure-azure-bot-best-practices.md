@@ -8,7 +8,7 @@ manager: shujoshi
 ms.topic: article
 ---
 
-## Best practices for configuring Azure bots
+# Best practices for configuring Azure bots
 
 Consider the following points when you configure Azure bots in Omnichannel for Customer Service:
 
