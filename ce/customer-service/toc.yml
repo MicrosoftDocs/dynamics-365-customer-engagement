@@ -582,8 +582,6 @@
         href: voice-channel-reports-analytics.md 
     - name: Emergency calling in the voice channel
       href: voice-channel-emergency-calling.md
-    - name: FAQs about the voice channel
-      href: voice-channel-faqs.md
     - name: How-to guides
       items:
       - name: Get resource and app registration details from Azure portal
@@ -592,6 +590,8 @@
         href: voice-channel-sub-endpoints.md 
       - name: Register event grid system topics
         href: voice-channel-event-grid.md
+    - name: FAQs about the voice channel
+      href: voice-channel-faqs.md        
   - name: Chat
     items: 
     - name: Administrator experience

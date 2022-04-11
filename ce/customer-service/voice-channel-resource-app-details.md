@@ -28,7 +28,7 @@ This article includes short procedures to help you retrieve the resource name, r
 **To get the resource name and ID from the Azure portal**
 
 1. Open your existing resource on the Azure portal in a separate window or tab, and go to **Settings** > **Properties**.
-2. Select the value of the **Name** field, select the **Copy to clipboard** button, and then save the value in the **ACS Resource Name** field of the **Use existing resource** dialog.
+2. Select the value of the **Name** field, select the **Copy to clipboard** button, and paste the value in the **ACS Resource Name** field of the **Use existing resource** dialog.
    > [!div class="mx-imgBorder"]
    > ![Copy resource name.](./media/voice-channel-resource-name.png "Copy resource name.")
 3. Select the value of the **Resource ID** field, then select the **Copy to clipboard** button, and paste the value in the **ACS Resource ID** field of the **Use existing resource** dialog.
