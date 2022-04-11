@@ -27,8 +27,7 @@ To integrate your Azure bot, perform the following steps:
 1. [Set escalation rules](#set-escalation-rules) as required.
 
 > [!Note]
-> - To integrate your Azure bot with the voice channel and enable calling/SMS services, see [Add Azure bot to conversational IVR](voice-channel-azure-bot-service.md).
-> - To program Azure bots to route conversations to human agents and also end conversations in Omnichannel for Customer Service, see [Enable an Azure bot to escalate and end conversations](bot-escalate-end-conversation.md).
+> To integrate your Azure bot with the voice channel and enable calling/SMS services, see [Add Azure bot to conversational IVR](voice-channel-azure-bot-service.md).
 
 ## Prerequisites
 
@@ -56,7 +55,7 @@ The bot user is first created as an application user and then assigned the **Omn
 
 1. Select the environment you want to configure, and then select **Settings**.
 
-1. On the **Settings** page, select ***Users + permissions**, and then select **Application users**.
+1. On the **Settings** page, select **Users + permissions**, and then select **Application users**.
 
 1. On the **Application users** page, select **New app user** and in the **Create a new app user** dialog that opens, do the following:
 
