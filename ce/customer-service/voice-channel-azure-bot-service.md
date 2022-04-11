@@ -48,7 +48,6 @@ When you integrate an Azure bot with Omnichannel for Customer Service, you get t
     
     2. Then, [add the Cognitive Services speech resource you created in the earlier step to the Direct Line Speech channel](/azure/bot-service/bot-service-channel-connect-directlinespeech?view=azure-bot-service-4.0&preserve-view=true#add-the-direct-line-speech-channel).
 
-
 ## Integrate a bot with Omnichannel for Customer Service
 
 To integrate a bot with Omnichannel for Customer Service, you must do the following steps:
@@ -63,37 +62,6 @@ To integrate a bot with Omnichannel for Customer Service, you must do the follow
 
 4. Set escalation rules, as required.
 
-<!-->
-### Assign a bot user as application user
-
-**To assign a bot user as an application user**
-
-1. In Dynamics 365, go to **Advanced Settings** > **Security** > **Users**.
-
-2. In the **Users** dropdown list, select **Application Users**, and then select **New**.
-
-3. In the New User dropdown list, select **Application User**.
-
-4. On the **New User** summary page, enter or select the following information:
-    - **User Name**: User name of the bot. Note that this name won't be displayed in the chat widget.
-    - **Application ID**: An application ID for any valid (non-expired) application created in Azure Active Directory (Azure AD) under the same tenant. This ID is not used by the bot in Omnichannel for Customer Service.
-    - **Full Name**: Name of the bot to be displayed in the *chat widget or conversation.*
-    - **Primary Email**: Enter a dummy email address. This email address is not used by the bot in Omnichannel for Customer Service.
-    - **User type**: Select **Bot application user**.
-    - **Bot application ID**: Enter the Microsoft App ID from Azure AD that you noted earlier.
-    - **Bot handle**: Enter the bot handle from the Bot profile settings.
-    - **Cognitive Services Subscription Key**: Enter the KEY 1 or KEY 2 value from the [cognitive speech service resource](voice-channel-azure-bot-service.md) that you created earlier.
-    - **Cognitive Services Region**: Enter the Location/Region value from the cognitive speech service resource that you created earlier.
-
-5. Select **Save and Close**.
-
-6. Select **Manage Roles** on the command bar.
-
-7. In the **Manage User Roles** window, select **Omnichannel agent**, and then select **OK**.
-
-    > [!IMPORTANT]
-    > By default, the bot user is assigned the same capacity as other users. You must assign the maximum capacity to the bot user among all users in a queue or workstream, if you want the bot to handle the customer queries first. The capacity of a bot user is however not reduced when a query is handled by it.
--->
 ### Add bot user to queues
 
 Queues distribute the incoming customer queries among bots and agents. You must ensure that the bot user has the highest capacity among all users in the queue. This ensures that the bot user receives the customer query first.
