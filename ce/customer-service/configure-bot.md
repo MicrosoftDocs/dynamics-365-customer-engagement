@@ -108,9 +108,9 @@ Bots are developed to receive customer queries first, gain information about the
 
 Escalation rules allow you to create rules for the bot to escalate the queries to the appropriate agent. For escalation rules, you must [configure context variables](context-variables-for-bot.md) and set routing rules to route the customer queries. If the bot escalates a customer query, it's routed to the appropriate queue as per the defined routing rule. Even if the query is redirected to the same queue, another agent in the queue will pick the conversation as per the capacity.
 
-## Sample configuration to integrate a bot
+## Sample configuration to integrate an Azure bot
 
-The following sample provides the exact steps and configuration values to integrate a bot and then escalate the query to a human agent. In this sample, three queues and three routing rules are created. The bot user is added to one queue, and the agents are added to the two other queues. Routing rules are defined in such a way that whenever a customer starts a chat, it will be first sent to the bot, and then escalated to a human agent as per the conditions defined in the routing rules. The workstream used in this sample is **ChatWorkStream**.
+The following sample provides the exact steps and configuration values to integrate an Azure bot and then escalate the query to a human agent. In this sample, three queues and three routing rules are created. The bot user is added to one queue, and the agents are added to the two other queues. Routing rules are defined in such a way that whenever a customer starts a chat, it will be first sent to the bot, and then escalated to a human agent as per the conditions defined in the routing rules. The workstream used in this sample is **ChatWorkStream**.
 
 1. [Configure the bot user as an omnichannel agent](#configure-the-bot-user-as-an-omnichannel-agent).
 
@@ -119,11 +119,9 @@ The following sample provides the exact steps and configuration values to integr
     - **CreditCardQueue**: Add agents who will handle queries related to credit card.
     - **HomeLoanQueue**: Add agents who will handle queries related to home loan.
 
-3. [Add code snippet to engage a bot](bot-escalate-end-conversation.md#add-code-snippet-to-engage-an-Azure-bot) to send messages to Omnichannel for Customer Service.
+3. [Configure context variables](#context-variables-for-bot). Let's say you create a context variable named **BotHandoffTopic** in the **ChatWorkStream** workstream.
 
-4. [Configure context variables](#context-variables-for-bot). Let's say you create a context variable named **BotHandoffTopic** in the **ChatWorkStream** workstream.
-
-5. Create three routing rules in the **ChatWorkStream** workstream in the following order:
+4. [Create the following routing rules](routing-rules.md) in the **ChatWorkStream** workstream in this order:
     - **BotRule**: Specify the workstream and queue as **ChatWorkStream** and **BotQueue**, respectively. Add the condition as follows:
         > [!div class=mx-imgBorder]
         > ![Create a rule to send customer query to bot.](media/bot-rule.png "Create a rule to send customer query to bot")
@@ -133,8 +131,9 @@ The following sample provides the exact steps and configuration values to integr
     - **HomeLoanRule**: Specify the workstream and queue as **ChatWorkStream** and **HomeLoanQueue**, respectively. Add the condition as follows:
         > [!div class=mx-imgBorder]
         > ![Create a rule to send customer query from bot to an agent.](media/home-loan-rule.png "Create a rule to send a customer query from a bot to an agent")
+5. [Enable the Azure bot to escalate and end conversations](bot-escalate-end-conversation.md).
 
-When a chat is started by a customer, the query is routed to the bot through the **BotRule** routing rule. If the bot escalates the query, it is sent to the appropriate agent as per the configured routing rules. The bot needs to send the correct context variable and its value in the escalation request to route the query appropriately. For more information on setting up of context variable and escalation request, see [Enable a bot to escalate and end conversations](bot-escalate-end-conversation.md).
+When a chat is started by a customer, the query is routed to the bot through the **BotRule** routing rule. If the bot escalates the query, it is sent to the appropriate agent as per the configured routing rules. The bot needs to send the correct context variable and its value in the escalation request to route the query appropriately.
 
 ## Privacy notice
 
