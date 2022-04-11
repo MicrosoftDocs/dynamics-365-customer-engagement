@@ -67,6 +67,37 @@ Perform the steps in the order listed to export and import the configuration fro
 > - Presence
 > - Queue membership
 
+### How to use FetchXML to filter records for exporting data
+
+**To generate FetchXML**
+
+1. [Use Advanced find to create a custom view](/power-apps/user/advanced-find#create-edit-or-save-a-view-using-legacy-advanced-find).
+
+1. [Select one or multiple records of the entity to export](/power-apps/user/advanced-find#share-a-personal-view). After step 6 is complete, select Download FetchXML.
+
+1. Edit the XML as follows, and save it
+
+   1. Remove "output-format=xml-platform".
+
+   1. Remove all attribute elements.
+
+   1. Remove the order attribute element.
+
+**To use FetchXML to export data from the required entity**
+
+> [!NOTE]
+> Use the DataMigrationUtility App instead of the DataMigrationUtility.exe to use the Configuration Migration Tool.
+
+
+1. In the Configuration Migration Tool, select **Configure Import Settings from Tools**.
+
+1. Select the entity that needs to run FetchXML from the **Available Entity** drop-down list.
+
+1. Select **Edit FetchXML**. Put the XML generated from **Download FetchXML**, and select **OK**.
+
+1. Select **Save**.
+
+
 ## Export and import data for skill-based routing
 
 If skill-based routing rulesets are used in your unified routing setup, perform the steps to migrate the corresponding configuration.
@@ -1145,3 +1176,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 	</entity>
 </fetch>
 ```    
+
+### See also
+
+[Create a schema to export configuration data](/power-platform/admin/create-schema-export-configuration-data)
