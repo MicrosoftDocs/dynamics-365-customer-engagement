@@ -1,7 +1,7 @@
 ---
 title: "Use agent dashboard and call controls in the voice channel | MicrosoftDocs"
 description: "Use this article to understand how the agent can use the agent dashboard, use call controls, and also make and receive customer calls in Omnichannel for Customer Service."
-ms.date: 03/11/2022
+ms.date: 04/05/2022
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: gandhamm
@@ -72,6 +72,8 @@ You can use the chat consult option to contact another agent and consult with th
 **To use chat consult and transfer the call**
 
 1. On the call window, select the consult option. The **Consult** pop-up dialog appears.
+
+  > :::image type="content" source="media/voice-consult.png" alt-text="Voice consult dialog for consulting with other agents.":::
 
 1. Search for the agent that you want to chat with and select chat for the required agent. A consult notification appears for the secondary agent that you select.
 

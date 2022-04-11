@@ -5,31 +5,20 @@
 - name: What's new
   href: whats-new.md
 - name: Try, install, and manage
-  expanded: true
   items: 
-    - name: Sign up for a Sales trial
-      items: 
-        - name: Sign up for a free Sales Premium trial
-          items: 
-            - name: Sign up for the trial
-              href: sign-up-for-sales-trial.md
-            - name: Trial FAQs
-              href: sales-trial-faq.md
-            - name: Preview features in trial
-              href: sales-previews-in-trial.md
-        - name: Sign up for a free Sales Professional trial
-          href: try-dynamics365-sales-professional.md
-    - name: Install or uninstall
-      items: 
-        - name: Install sales apps
-          href: set-up-dynamics-365-sales.md
-        - name: Set up sales premium features
-          href: intro-admin-guide-sales-insights.md
-        - name: Provision your Dynamics 365 Sales Professional environment
-          href: provision-sales-professional-instance.md
-        - name: Uninstall Dynamics 365 Sales premium features
-          href: uninstall-sales-insights.md
-    - name: Use the Sales Hub app
+  - name: Sales trial
+    items: 
+      - name: Sign up for the free trial
+        href: sign-up-for-sales-trial.md
+      - name: Trial FAQs
+        href: sales-trial-faq.md
+      - name: Preview features in trial
+        href: sales-previews-in-trial.md
+  - name: Install or uninstall
+    items:
+    - name: Set up Dynamics 365 Sales
+      href: set-up-dynamics-365-sales.md
+    - name: Use the Sales Hub app 
       href: intro-saleshub.md
       items: 
         - name: Grant or revoke access
