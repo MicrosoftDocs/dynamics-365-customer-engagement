@@ -114,12 +114,12 @@ The following sample provides the exact steps and configuration values to integr
 
 1. [Configure the bot user as an omnichannel agent](#configure-the-bot-user-as-an-omnichannel-agent).
 
-2. [Add the bot user to queues](#add-the-bot-user-to-queues) to create three queues and add users as follows:
+2. [Create the following three queues](set-up-queues-manage-activities-cases.md#create-a-queue) and add users as follows:
     - **BotQueue**: Add the bot user to this queue.
     - **CreditCardQueue**: Add agents who will handle queries related to credit card.
     - **HomeLoanQueue**: Add agents who will handle queries related to home loan.
 
-3. [Configure context variables](#context-variables-for-bot.md). Let's say you create a context variable named **BotHandoffTopic** in the **ChatWorkStream** workstream.
+3. [Add a context variable](context-variables-for-bot.md#add-context-variables). Let's say you create a context variable named **BotHandoffTopic** in the **ChatWorkStream** workstream.
 
 4. [Create the following routing rules](routing-rules.md) in the **ChatWorkStream** workstream in this order:
     - **BotRule**: Specify the workstream and queue as **ChatWorkStream** and **BotQueue**, respectively. Add the condition as follows:
