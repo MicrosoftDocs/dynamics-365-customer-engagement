@@ -1,7 +1,7 @@
 ---
 title: "Sales Hub app versus custom app | MicrosoftDocs"
 description: "Learn the scenarios when to use the Sales Hub app over a custom app and vice versa."
-ms.date: 04/05/2022
+ms.date: 04/11/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -62,7 +62,7 @@ To help ensure that the Sales Hub customizations are not overwritten by the Sale
 
 ## How to revert changes to Sales Hub app
 
-Unfortunately, there's no option to revert changes to the Sales Hub app. You have to manually undo the changes. For example, let's say you've removed an entry (such as Cases) from the site map and you want to add it back. You've to manually add the entry back to the sitemap. More information: [Customize the app](manage-app#customize-the-app)
+Unfortunately, there's no option to revert changes to the Sales Hub app. You have to manually undo the changes. For example, let's say you've removed an entry (such as Cases) from the site map and you want to add it back. You have to manually add the entry back to the sitemap. More information: [Customize the app](manage-app#customize-the-app)
 
 ### See also
 - [Use the Sales Hub app to access Dynamics 365 Sales features](intro-saleshub.md)

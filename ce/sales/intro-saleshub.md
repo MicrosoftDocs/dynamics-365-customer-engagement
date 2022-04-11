@@ -1,7 +1,7 @@
 ---
 title: "Use the Sales Hub app to access Dynamics 365 Sales features | MicrosoftDocs"
 description: "The Sales Hub app is preinstalled and preconfigured with several core sales and sales insights features to help you get started quickly"
-ms.date: 03/31/2022
+ms.date: 04/11/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
