@@ -14,7 +14,7 @@ This topic provides the exact steps and configuration values to integrate an Azu
 
 In this sample configuration, three queues and three routing rules are created. The bot user is added to one queue, and the agents are added to the two other queues. Routing rules are defined in such a way that whenever a customer starts a chat, it will be first sent to the bot, and then escalated to a human agent as per the conditions defined in the routing rules. The workstream used in this sample is **ChatWorkStream**.
 
-1. [Configure the bot user as an omnichannel agent](configure.bot.md#configure-the-bot-user-as-an-omnichannel-agent).
+1. [Configure the bot user as an omnichannel agent](configure-bot.md#configure-the-bot-user-as-an-omnichannel-agent).
 
 2. [Create the following three queues](set-up-queues-manage-activities-cases.md#create-a-queue) and add users as follows:
     - **BotQueue**: Add the bot user to this queue.
