@@ -1,13 +1,13 @@
 ---
 title: "Grant or revoke access to the Sales Hub app | MicrosoftDocs"
 description: "As an administrator, you can either grant or revoke access to a security role or to specific users."
-ms.date: 04/05/2022
+ms.date: 04/11/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 manager: shujoshi
 ---
-## Grant or revoke access to the Sales Hub app
+# Grant or revoke access to the Sales Hub app
 
 As an administrator, you can decide which users or security roles should have access to the Sales Hub app. The app will honor the access permissions defined in the security role of the user. For example, if the security role allows access to only opportunities and quotes, the app will display only those entities for the user.
 
