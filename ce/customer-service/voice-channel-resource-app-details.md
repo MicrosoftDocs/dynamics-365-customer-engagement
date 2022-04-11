@@ -20,7 +20,8 @@ This article includes short procedures to help you retrieve the resource name, r
 
 ## Prerequisites
 
-<< add info here>>
+- An Azure account with an active subscription. Else, create an account for free [here](https://azure.microsoft.com/free/dotnet/).
+- An active [Azure Communication Services resource](/azure/communication-services/quickstarts/create-communication-resource).
 
 ### Get resource name and ID
 
