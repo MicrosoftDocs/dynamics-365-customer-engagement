@@ -112,16 +112,16 @@ Escalation rules allow you to create rules for the bot to escalate the queries t
 
 The following sample provides the exact steps and configuration values to integrate a bot and then escalate the query to a human agent. In this sample, three queues and three routing rules are created. The bot user is added to one queue, and the agents are added to the two other queues. Routing rules are defined in such a way that whenever a customer starts a chat, it will be first sent to the bot, and then escalated to a human agent as per the conditions defined in the routing rules. The workstream used in this sample is **ChatWorkStream**.
 
-1. Follow the instructions in [Configure the bot user as an omnichannel agent](#configure-the-bot-user-as-an-omnichannel-agent) to create a bot user.
+1. [Configure the bot user as an omnichannel agent](#configure-the-bot-user-as-an-omnichannel-agent).
 
-2. Follow the instructions in [Add the bot user to queues](#add-the-bot-user-to-queues) to create three queues and add users as follows:
+2. [Add the bot user to queues](#add-the-bot-user-to-queues) to create three queues and add users as follows:
     - **BotQueue**: Add the bot user to this queue.
     - **CreditCardQueue**: Add agents who will handle queries related to credit card.
     - **HomeLoanQueue**: Add agents who will handle queries related to home loan.
 
-3. Follow the instructions in [Add code snippet to engage a bot](bot-escalate-end-conversation.md#add-code-snippet-to-engage-an-Azure-bot) to add a code snippet for engaging a bot.
+3. [Add code snippet to engage a bot](bot-escalate-end-conversation.md#add-code-snippet-to-engage-an-Azure-bot) to send messages to Omnichannel for Customer Service.
 
-4. Follow the instructions in [Set escalation rules](#set-escalation-rules) to create escalation rules. Let's say you create a context variable named **BotHandoffTopic** in the **ChatWorkStream** workstream.
+4. [Configure context variables](#context-variables-for-bot). Let's say you create a context variable named **BotHandoffTopic** in the **ChatWorkStream** workstream.
 
 5. Create three routing rules in the **ChatWorkStream** workstream in the following order:
     - **BotRule**: Specify the workstream and queue as **ChatWorkStream** and **BotQueue**, respectively. Add the condition as follows:
