@@ -1,7 +1,7 @@
 ---
 title: "Customer Service admin center | MicrosoftDocs"
 description: "Get started with Customer Service admin center"
-ms.date: 04/04/2022
+ms.date: 04/11/2022
 ms.topic: get-started
 author: neeranelli
 ms.author: nenellim
@@ -26,7 +26,8 @@ Some of the improvements include:
 
 - The site map adapts to the capabilities that are provisioned. Based in core Customer Service, if Omnichannel for Customer Service is provisioned, other features are automatically available.
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/RE4TYJn?maskLevel=0" frameborder="0" allowfullscreen=""></iframe></div>
+  
+   <div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/RE4TYJn?maskLevel=0" frameborder="0" allowfullscreen=""></iframe></div>
 
 ## Prerequisites
 
