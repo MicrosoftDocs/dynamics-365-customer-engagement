@@ -116,6 +116,6 @@ A copy of the sample schema details is as follows:
 
 [Integrate a Power Virtual Agents bot](configure-bot-virtual-agent.md)  
 [Integrate an Azure bot](configure-bot.md)  
-[Live chat SDK JavaScript API Reference](developer/omnichannel-reference.md)  
+[Live chat SDK reference](developer/omnichannel-reference.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
