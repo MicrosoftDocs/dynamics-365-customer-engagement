@@ -1,7 +1,7 @@
 ---
 title: "Move the opportunity through different stages | MicrosoftDocs"
 description: "An opportunity goes through different stages as you make progress and get more details about the opportunity."
-ms.date: 03/29/2022
+ms.date: 04/13/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
