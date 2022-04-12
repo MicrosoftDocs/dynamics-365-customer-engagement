@@ -21,8 +21,6 @@ You can also [bring your own phone number via Azure direct routing](voice-channe
 
 ## Prerequisites
 
-Before you acquire phone numbers, you must do the following:
-
 - Check for the following criteria:
     - [Azure subscriptions eligibility](/azure/communication-services/concepts/telephony/plan-solution#azure-subscriptions-eligibility).
     - [Service limits for Azure Communication Services](/azure/communication-services/concepts/service-limits#acquiring-phone-numbers).
