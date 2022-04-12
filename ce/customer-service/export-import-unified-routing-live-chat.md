@@ -81,14 +81,17 @@ For exporting and importing queues for live chat, perform the steps outlined in 
 ## Export and import data for live chat channel workstreams
 
 Use the Configuration Migration tool to create schema and export the data from the source organization for the following entities:
+
 - msdyn_liveworkstream
 - msdyn_ocliveworkstreamcontextvariable
 - msdyn_notificationtemplate
 - msdyn_sessiontemplate
-- msdyn_surveyquestions
-- msdyn_questionsequence
-- msdyn_chatansweroption
-- msdyn_ocbotchannelregistration
+- msdyn_routingconfiguration
+- msdyn_routingconfigurationstep
+- msdyn_decisioncontract
+- msdyn_decisionruleset
+- msdyn_cannedmessages
+- msdyn_octags
 
 ## Export and import data for live chat widgets
 
