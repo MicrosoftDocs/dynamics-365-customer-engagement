@@ -36,12 +36,18 @@ The following prerequisites must be met:
     - Capacity Profile (msdyn_capacityprofile)
     - Queue (queue)
     - Decision contract (msdyn_decisioncontract)
-    - Decision rule set (msdyn_decisionruleset)
-    - Assignment Configuration (msdyn_assignmentconfiguration)
-    - Assignment Configuration Step (msdyn_assignmentconfigurationstep)
+    - Decision ruleset (msdyn_decisionruleset)
+    - Assignment configuration (msdyn_assignmentconfiguration)
+    - Assignment configuration Step (msdyn_assignmentconfigurationstep)
     - Routing configuration (msdyn_routingconfiguration)
     - Routing configuration step (msdyn_routingconfigurationstep)
     - Workstream capacity profile (msdyn_liveworkstreamcapacityprofile)
+    - Context variable (msdyn_ocliveworkstreamcontextvariable) 
+	- Survey question (msdyn_surveyquestions)
+	- Survey question sequence (msdyn_questionsequence)
+	- Survey answer option (msdyn_chatansweroption)
+	- Quick replies (msdyn_cannedmessages)
+	- Tags (msdyn_octags)
 
 > [!IMPORTANT]
 > The migration of the account and channel and AI and analytics settings is not in scope.
