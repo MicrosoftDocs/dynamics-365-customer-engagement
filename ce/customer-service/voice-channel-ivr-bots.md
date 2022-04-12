@@ -1,5 +1,5 @@
 ---
-title: "Integrate Power Virtual Agents bot for voice | MicrosoftDocs"
+title: "Configure Power Virtual Agents bots for voice | MicrosoftDocs"
 description: "Learn about how to add a Power Virtual Agents bot for using in voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
@@ -11,7 +11,7 @@ ms.custom: intro-internal
 ---
 
 
-# Integrate a Power Virtual Agents bot for voice
+# Configure Power Virtual Agents bots for voice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -31,7 +31,6 @@ The following prerequisites must be met for the Power Virtual Agents bot:
 
 - The bot is published, and the **Agent transfers** setting is configured by selecting **Omnichannel**. More information: [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/power-virtual-agents/configuration-hand-off-omnichannel)
 - The **Enable voice** option is selected in the **Omnichannel** section of the **Agent transfers** setting.
-
 
 ## Configure a bot for voice
 

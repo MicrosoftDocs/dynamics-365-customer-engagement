@@ -27,13 +27,13 @@ To integrate your Azure bot, perform the following steps:
 1. [Set escalation rules](#set-escalation-rules) as required.
 
 > [!Note]
-> To integrate your Azure bot with the voice channel and enable calling/SMS services, see [Add Azure bot to conversational IVR](voice-channel-azure-bot-service.md).
+> To integrate your Azure bot with the voice channel and enable calling/SMS services, see [Configure Azure bots for voice](voice-channel-azure-bot-service.md).
 
 ## Prerequisites
 
 - Have a bot that's built using [Microsoft Bot Framework](https://dev.botframework.com) and registered with [Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0&preserve-view=true). To create an Azure bot resource, see [Create Azure bot resource](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0#create-the-resource&preserve-view=true) in the Bot Framework SDK documentation.
 - Open your bot resource on the Azure portal, and note the values of the app ID and bot handle.
-- Configure your bot to have [Omnichannel channel](/azure/bot-service/bot-service-channel-omnichannel?view=azure-bot-service-4.0&preserve-view=true) and [Microsoft Teams](/azure/bot-service/channel-connect-teams?view=azure-bot-service-4.0&preserve-view=true) as supported channels.
+- Configure your bot to have [Telephony channel](/azure/bot-service/bot-service-channel-omnichannel?view=azure-bot-service-4.0&preserve-view=true) and [Microsoft Teams](/azure/bot-service/channel-connect-teams?view=azure-bot-service-4.0&preserve-view=true) as supported channels.
 
 ## Connect your Azure bot resource to Omnichannel channel
 
