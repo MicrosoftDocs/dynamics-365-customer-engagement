@@ -43,6 +43,7 @@ HttpResponseMessage response = await client.SendAsync(httpRequest);
 
 [Migration changes for new omnichannel messaging platform](migrate-acs.md)  
 [Enable file attachments](enable-file-attachments.md)  
+[Process file attachments during migration](process-file-attachments-during-migration.md)  
 [Download file attachments from your Power Virtual Agents bot](download-attachments-PVA-bot.md)  
 [Card support by channel - Bot Framework SDK Documentation](/azure/bot-service/bot-service-channels-reference?view=azure-bot-service-4.0#card-support-by-channel)  
 [Support for live chat and asynchronous channels](card-support-in-channels.md)  
