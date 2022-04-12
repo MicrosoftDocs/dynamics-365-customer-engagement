@@ -35,9 +35,10 @@ To integrate your Azure bot, perform the following steps:
 - Have a bot that's built using [Microsoft Bot Framework](https://dev.botframework.com) and registered with [Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0&preserve-view=true).  
 
     To create an Azure bot resource, see [Create Azure bot resource](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0#create-the-resource&preserve-view=true) section in the Bot Framework SDK documentation. Be sure to note the values of the Microsoft App ID and the bot handle.
-- To configure the bot to work on messaging channels, add [Omnichannel channel](/azure/bot-service/bot-service-channel-omnichannel?view=azure-bot-service-4.0&preserve-view=true) and [Microsoft Teams](/azure/bot-service/channel-connect-teams?view=azure-bot-service-4.0&preserve-view=true) as supported channels.
-- To configure the bot to work on the voice channel, [connect the bot to Telephony](/azure/bot-service/bot-service-channel-connect-telephony?view=azure-bot-service-4.0&preserve-view=true).
-- For the bot to work over both messaging and voice channels, ensure the bot is enabled for Microsoft Teams, Omnichannel, and Telephony channels.
+- Connect the bot to the desired channel to enable messaging and voice capabilities
+    - For only messaging capabilities, add [Omnichannel channel](/azure/bot-service/bot-service-channel-omnichannel?view=azure-bot-service-4.0&preserve-view=true) and [Microsoft Teams](/azure/bot-service/channel-connect-teams?view=azure-bot-service-4.0&preserve-view=true) as supported channels.
+    - For only voice capabilities, [connect the bot to Telephony](/azure/bot-service/bot-service-channel-connect-telephony?view=azure-bot-service-4.0&preserve-view=true).
+    - For both messaging and voice capabilities, ensure the bot is enabled for Microsoft Teams, Omnichannel, and Telephony channels.
 
 ## Connect your bot resource to Telephony channel
 
