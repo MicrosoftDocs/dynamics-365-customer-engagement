@@ -584,7 +584,7 @@
       href: voice-channel-emergency-calling.md
     - name: How-to guides
       items:
-      - name: Get resource and app registration details from Azure portal
+      - name: Get resource and app registration details
         href: voice-channel-resource-app-details.md
       - name: Create event subscription endpoints
         href: voice-channel-sub-endpoints.md 
@@ -862,12 +862,12 @@
         href: bot-escalate-end-conversation.md
       - name: Download file attachments from Azure bot
         href: download-attachments-bot.md
+      - name: Download file attachments from Power Virtual Agents bot
+        href: download-attachments-PVA-bot.md        
       - name: Get user details on Teams from Azure bot
         href: user-details-teams-azure-bot.md
       - name: Display suggested actions in a vertical layout
         href: suggested-actions.md
-      - name: Download attachments from Power Virtual Agents bot
-        href: download-attachments-PVA-bot.md
   - name: Insights
     items: 
     - name: Introduction to Customer Service Insights

@@ -1,5 +1,5 @@
 ---
-title: "Get resource and app details for an Azure resource | MicrosoftDocs"
+title: "Get resource and app registration details | MicrosoftDocs"
 description: "Use this article to learn how to get the resource name, resource ID, connection string, application ID, and tenant ID for an existing Azure resource from the Azure portal."
 ms.date: 04/08/2022
 ms.service: dynamics-365-customerservice
@@ -10,7 +10,7 @@ ms.topic: how-to
 ms.custom: template-how-to
 ---
 
-# Get resource and app details for an Azure resource
+# Get resource and app registration details
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
