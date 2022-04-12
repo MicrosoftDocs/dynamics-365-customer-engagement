@@ -39,15 +39,21 @@ foreach (var header in requestHeaders)
 HttpResponseMessage response = await client.SendAsync(httpRequest);
 ```
 
-## Attachment format on Azure bot channel  
+## Attachment format on the Azure Bot Service channel  
 
 When file attachments are sent to the Azure bot from Omnichannel for Customer Service, the information required to download the files is available in the `amsReferences` and `amsMetadata` fields of the `Activity.ChannelData` property.
+    > [!div class="mx-imgBorder"]
+    > ![Attachment format on Azure Bot Service channel.](./media/attachment-format-acs-channel.png "Attachment format on Azure Bot Service channel.")
 
-The attachment information on ACS chat platform is not passed on Activity.Attachments field, as it is done on Teams chat platform. The Teams chat platform specific logic should not be removed from the existing bot but kept together with newly ACS specific logic to guarantee smooth migration between those two chat platforms.
+The attachment information on the Azure Bot Service channel is not passed in the `Activity.Attachments` field, as is done on the Microsoft Teams chat channel. So, the Teams chat channel-specific logic should not be removed from the existing bot but kept together with the new Azure Bot Service channel-specific logic to ensure smooth migration between the two chat channels.
 
-## Attachment format on Teams channel 
+## Attachment format on the Microsoft Teams channel
 
-When file attachment is sent from Omnichannel to Bot on Teams chat platform, it is passed on the Activity.Attachments property. The content type of that attachment is “application/vnd.microsoft.teams.file.download.info”: 
+When file attachment is sent from Omnichannel to Bot on Teams chat channel, it is passed in the `Activity.Attachments` property. The content type of that attachment is “application/vnd.microsoft.teams.file.download.info”.
+
+    > [!div class="mx-imgBorder"]
+    > ![Attachment format on Microsoft Teams channel.](./media/attachment-format-teams-channel.png "Attachment format on Microsoft Teams channel.")
+
 
 ### See also
 
