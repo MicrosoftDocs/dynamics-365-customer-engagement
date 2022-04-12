@@ -41,6 +41,7 @@ HttpResponseMessage response = await client.SendAsync(httpRequest);
 
 [Card support by channel](/azure/bot-service/bot-service-channels-reference?view=azure-bot-service-4.0#card-support-by-channel)<br />
 [Asynchronous channel support](card-support-in-channels.md)
+[Download file attachments from your Power Virtual Agents bot](download-attachments-PVA-bot.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

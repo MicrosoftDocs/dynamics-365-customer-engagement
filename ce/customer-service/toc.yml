@@ -846,9 +846,9 @@
         items:
         - name: Integrate an Azure bot
           href: configure-bot.md
-        - name: Sample configuration to integrate an Azure bot
+        - name: Sample configuration
           href: sample-config-azure-bot.md
-        - name: Best practices for configuring Azure bots
+        - name: Best practices
           href: configure-azure-bot-best-practices.md
       - name: Integrate a Power Virtual Agents bot
         href: configure-bot-virtual-agent.md
@@ -862,9 +862,9 @@
         href: enable-bot-context.md
       - name: Configure Azure bots to escalate and end conversations
         href: bot-escalate-end-conversation.md
-      - name: Download attachments from Azure bot
+      - name: Download file attachments from Azure bot
         href: download-attachments-bot.md
-      - name: Download attachments from Power Virtual Agents bot
+      - name: Download file attachments from Power Virtual Agents bot
         href: download-attachments-PVA-bot.md
     - name: Get user details on Microsoft Teams from Azure bot
       href: user-details-teams-azure-bot.md

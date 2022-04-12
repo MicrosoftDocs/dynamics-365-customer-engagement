@@ -1,6 +1,6 @@
 ---
-title: "Download attachments from your Power Virtual Agents bot| Microsoft Docs"
-description: "Read how to download attachments from a Power Virtual Agents bot in Omnichannel for Customer Service."
+title: "Download file attachments from your Power Virtual Agents bot| MicrosoftDocs"
+description: "Read how to download file attachments from a Power Virtual Agents bot in Omnichannel for Customer Service."
 ms.date: 08/26/2021
 ms.topic: reference
 author: neeranelli
@@ -8,7 +8,9 @@ ms.author: nenellim
 manager: shujoshi
 ---
 
-# Download attachments from Power Virtual Agents bot in Omnichannel for Customer Service
+# Download file attachments from Power Virtual Agents bot
+
+[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Introduction
 
@@ -22,8 +24,7 @@ For more information on enabling file attachments for your bot, see [Configure f
 
 1. Provide the Power Virtual Agents bot token to the Azure Bot Framework Skill. You can do so by providing the Microsoft AppId, Client Secret, and using the parent Power Virtual Agent bot's AppId.
 
-
-  ``` csharp
+  ```csharp
   // Parent Power Virtual Agent bot's AppId 
 
               string oAuthScope = JwtTokenValidation.GetAppIdFromClaims(claimsIdentity.Claims); 
@@ -50,45 +51,28 @@ For more information on enabling file attachments for your bot, see [Configure f
 
 2. Fetch the required contentURL from the attachment of the Bot framework activity, and then use the `httpRequestMessage` method to call the `GET` request as shown in the following sample code.
 
-  ```
-
-  ``` csharp
+  
+  ```csharp
 
   string requestUri = activity.Attachments[i].ContentUrl; 
-
- 
-
   var httpRequest = new HttpRequestMessage(HttpMethod.Get, requestUri); 
-
-  
-
   var authorization = new AuthenticationHeaderValue("bearer", <add the botToken here>); 
-
   var requestHeaders = new Dictionary<string, string>() 
-
     { 
-
        { "Authorization", authorization.ToString() } 
-
     }; 
 
- 
-
   foreach (var header in requestHeaders) 
-
    { 
-
         httpRequest.Headers.Add(header.Key, header.Value); 
 
     } 
-
- 
-
   HttpResponseMessage response = await client.SendAsync(httpRequest); 
-
   ```
 
 ### See also
 
-[Configure Power Virtual Agents bot in Omnichannel for Customer Service](configure-bot-virtual-agent.md)  
- 
+[Integrate a Power Virtual Agents bot](configure-bot-virtual-agent.md)  
+[Download file attachments from your Azure bot](download-attachments-bot.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
