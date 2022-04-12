@@ -31,10 +31,7 @@ When you integrate bots with Omnichannel for Customer Service, you get the follo
 - Configure routing rules to selectively route incoming requests to bots based on context, such as issue type or customer type. For example, you can route low-complexity issues to bots, or route the conversation to a sales or support bot based on the web browsing history of the customer.
 - Monitor bot conversations in real time by using the supervisor dashboard, which includes details such as customer sentiment.
 - Use historical dashboards to get insights into the effectiveness of the bots through metrics such as resolution rate, escalation rate, resolution time, escalation time, and average sentiment.
-
-- Connect speech resource to the Azure bot using Azure Cognitive Services.
-- Configure routing rules to use Azure bots in *post-conversation* surveys.
-- Repurpose Azure bots to be smart assist bots and provide recommendations to agents.
+- Configure post-call surveys to measure customer satisfaction.
 
 ### See also
 

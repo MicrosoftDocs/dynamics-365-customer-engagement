@@ -16,7 +16,11 @@ ms.topic: article
 
 ## Introduction
 
-This article includes detailed information about how you can integrate your Azure bot with Omnichannel for Customer Service. The topic also includes a sample configuration that explains the integration steps.
+In Omnichannel for Customer Service, you can integrate Azure bots and get the following additional capabilities:
+
+- Connect speech resource to the Azure bot using Azure Cognitive Services.
+- Repurpose Azure bots to be smart assist bots and provide recommendations to agents. For more information, see [Manage smart assist](smart-assist.md) and [View smart assist suggestions](oc-smart-assist.md).
+- Integrate your Azure bot with the voice channel to enable calling/SMS services. More information: [Configure Azure bots for voice](voice-channel-azure-bot-service.md)
 
 To integrate your Azure bot, perform the following steps:
 
@@ -26,26 +30,36 @@ To integrate your Azure bot, perform the following steps:
 1. [Add the bot user to queues](#add-the-bot-user-to-queues).
 1. [Set escalation rules](#set-escalation-rules) as required.
 
-> [!Note]
-> To integrate your Azure bot with the voice channel and enable calling/SMS services, see [Configure Azure bots for voice](voice-channel-azure-bot-service.md).
-
 ## Prerequisites
 
-- Have a bot that's built using [Microsoft Bot Framework](https://dev.botframework.com) and registered with [Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0&preserve-view=true). To create an Azure bot resource, see [Create Azure bot resource](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0#create-the-resource&preserve-view=true) in the Bot Framework SDK documentation.
-- Open your bot resource on the Azure portal, and note the values of the app ID and bot handle.
-- Configure your bot to have [Telephony channel](/azure/bot-service/bot-service-channel-omnichannel?view=azure-bot-service-4.0&preserve-view=true) and [Microsoft Teams](/azure/bot-service/channel-connect-teams?view=azure-bot-service-4.0&preserve-view=true) as supported channels.
+- Have a bot that's built using [Microsoft Bot Framework](https://dev.botframework.com) and registered with [Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0&preserve-view=true).  
 
-## Connect your Azure bot resource to Omnichannel channel
+    To create an Azure bot resource, see [Create Azure bot resource](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0#create-the-resource&preserve-view=true) section in the Bot Framework SDK documentation. Be sure to note the values of the Microsoft App ID and the bot handle.
+- To configure the bot to work on messaging channels, add [Omnichannel channel](/azure/bot-service/bot-service-channel-omnichannel?view=azure-bot-service-4.0&preserve-view=true) and [Microsoft Teams](/azure/bot-service/channel-connect-teams?view=azure-bot-service-4.0&preserve-view=true) as supported channels.
+- To configure the bot to work on the voice channel, [connect the bot to Telephony](/azure/bot-service/bot-service-channel-connect-telephony?view=azure-bot-service-4.0&preserve-view=true).
+- For the bot to work over both messaging and voice channels, ensure the bot is enabled for Microsoft Teams, Omnichannel, and Telephony channels.
 
-Perform the following steps to connect and register your bot with Omnichannel channel.
+## Connect your bot resource to Telephony channel
 
-1. Open [https://portal.azure.com](https://portal.azure.com), and then select your bot resource.
+Perform the following steps to connect and register your bot with the Telephony channel.
 
-2. On the left pane, under **Settings**, select **Channels (Preview)**, and then select **Omnichannel** from the list of channels.
+1. Open the [Azure portal](https://portal.azure.com), and then select your bot resource.
 
-3. On the **Configure Omnichannel** page, select **Apply**.
+2. Under **Settings**, select **Channels**. The list of available channels is displayed.
+> [!div class=mx-imgBorder]
+> ![Available channels.](media/acs-available-channels.png "Available channels")
 
-Your bot is now registered with Omnichannel channel.
+3. Select **Telephony** and then select **Create a connection**.
+4. In the **New connection** dialog, do the following:
+    1. **Type**: Select **Omnichannel for Dynamics Customer Service** from the dropdown list.
+    1. **Subscription**: Select a subscription from the dropdown list.
+    1. **Azure Cognitive Services**: Select an existing Cognitive Services resource from the dropdown list or create a new one.
+    1. **Default Locale**: Select a locale from the dropdown list.
+    1. Select **Connect**. The **Omnichannel** telephony channel is now listed in the Bot connection column.
+    1. Select the **Omnichannel** channel, select **Apply**, and then refresh the page.
+        The **Telephony** channel will now appear in the list of available channels for your resource.
+    > [!div class=mx-imgBorder]
+    > ![Telephony channel.](media/acs-telephony-channel.png "Telephony channel")
 
 ## Configure the bot user as an omnichannel agent
 
