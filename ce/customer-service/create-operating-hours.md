@@ -1,7 +1,7 @@
 ---
 title: "Create and manage operating hours | MicrosoftDocs"
 description: "Perform the steps mentioned in the topic to create, manage, and define operating hours in Omnichannel for Customer Service."
-ms.date: 02/11/2022
+ms.date: 04/04/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -38,14 +38,11 @@ In Omnichannel Administration, you can add the operating hour record on the **De
 
 ## Create a record to define operating hours
 
-You can define operating hours in the Customer Service admin center (preview) or Customer Service Hub app.
+You can define operating hours in the Customer Service admin center or Customer Service Hub app.
 
 1. Go to one of the apps, and perform the following steps.
 
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-
-   > [!IMPORTANT]
-   > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
     1. In the site map, select **Calendars** in **Operations**. The **Calendar** page appears.
     1. In the **Operating Hours** section, select **Manage**.                                                                         
@@ -124,12 +121,9 @@ You can add operating hours to a queue that can later be configured for a social
 
 Do the following to specify operating hours for a queue:
 
-1. Navigate to the Customer Service admin center (preview) or Customer Service Hub app, and perform the following steps:
+1. Navigate to the Customer Service admin center or Customer Service Hub app, and perform the following steps:
 
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-
-   > [!IMPORTANT]
-   > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
     1. In the site map, select **Queues** in **Customer Support**. The **Queues** page appears.
     1. In the **Advanced Queues** section, select **Manage**.                                                                         

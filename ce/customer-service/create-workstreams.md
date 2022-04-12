@@ -1,7 +1,7 @@
 ---
 title: "Create workstreams in Customer Service | MicrosoftDocs"
 description: "Use this topic to understand how to create workstreams for unified routing in Customer Service and Omnichannel for Customer Service apps."
-ms.date: 03/02/2022
+ms.date: 04/04/2022
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -32,16 +32,13 @@ The workstream can be one of the following types:
 
 ## Create a workstream
 
-You can create workstreams for unified routing in the Customer Service admin center (preview), Omnichannel admin center, or Customer Service Hub app.
+You can create workstreams for unified routing in the Customer Service admin center, Omnichannel admin center, or Customer Service Hub app.
 
 **To create the workstream**
 
 1. Go to one of the apps, and perform the following steps.
 
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
     - In the site map, select **Workstreams** in **Customer support**.
 
@@ -72,12 +69,18 @@ You can create workstreams for unified routing in the Customer Service admin cen
     - **Work distribution mode**: Select **Push** or **Pick**.
          - In **Push** mode, a work item is dispatched to agents automatically using a message alert. You can configure the push work item to be explicitly picked up. For voice, only push mode is available.
          - In **Pick** mode, a work item is dispatched to agents when they explicitly pick the work item from the **Open work items** in the agent dashboard.
+    
+    - In **Fallback queue**, select one of the following options:
+         - **Create new**: Enter a queue name to which work items will be sent when no queue is identified in the the route-to-queue rules. You'll need to add users to the queue after creating the workstream.
+         - **Choose existing**: Select an existing queue from the dropdown list box. By default, the out-of-the-box queue for the selected channel type is selected.
 
-2. Select **Create**. The workstream that you created is displayed with the option to configure the selected channel instance.
-    > [!div class=mx-imgBorder]
-    > ![Set up a channel.](media/set-up-chat.png "Set up a channel")
+      More information: [Fallback queues](queues-omnichannel.md#fallback-queues)
 
-3. Perform the steps outlined in one of the following sections depending on the channel that you've selected.
+      :::image type="content" source="media/create-messaging-workstream.png" alt-text="Settings for creating workstream for live chat.":::
+
+1. Select **Create**. The workstream that you created is displayed with the option to configure the selected channel instance.
+
+1. Perform the steps outlined in one of the following sections depending on the channel that you've selected.
    - [Configure a chat widget](add-chat-widget.md#configure-a-chat-widget)
    - [Configure a voice channel](voice-channel-route-queues.md#configure-a-voice-channel)
    - [Configure a Facebook channel](configure-facebook-channel.md)
@@ -141,14 +144,16 @@ For Azure bots, see [Integrate a bot with Omnichannel for Customer Service](conf
 
 **To add the bot to the workstream**
 
-1. In Customer Service admin center (preview) or Omnichannel admin center, go to **Workstreams**, and select a workstream.
+1. In Customer Service admin center or Omnichannel admin center, go to **Workstreams**, and select a workstream.
 2. For the selected workstream and channel, in the **Bot** area, select **Add bot**.
 3. In the **Add a bot** dialog, select the required bot from the **Name** dropdown list, and then select **Save and close**.
 
 When a work item needs to be assigned, the classification rules are run and the work distribution system checks and routes the work item to the bot, if the selected workstream has a bot. After a bot is added to the workstream, the incoming work item is first routed to the selected bot at runtime.
 
 > [!Note]
-> The bot is supported only in push type of workstreams.
+> 
+> - The bot is supported only in push type of workstreams.
+> - We recommend that you don't add bots to workstreams that are meant for record routing.
 
 ### Manage workstreams
 
@@ -159,6 +164,7 @@ Select a workstream to perform any of the following actions:
 - **Edit**: Lets you edit the workstream, such as add a new channel or update the existing settings.
 - **Copy**: Lets you create a copy of the workstream with all the properties, such as the rules, so that you can reuse the configured workstream in another organization. The copied workstream name is prefixed with "Copy of "*`<workstream>`*.
 - **Delete**: Lets you delete the workstream if you no longer need it in your organization. You can't delete workstreams that are used in intake rules for record routing. You'll be prompted to remove the dependencies and then try to delete the workstream.
+- **Fallback queue**: Select an existing queue or create a queue to set as the fallback queue.
 
 ### Agent affinity
 

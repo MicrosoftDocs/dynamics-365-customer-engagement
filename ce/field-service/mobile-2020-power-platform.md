@@ -48,16 +48,16 @@ The Field Service (Dynamics 365) mobile app will evolve over time and benefit fr
 | Driving directions | Technician | Yes | Not applicable |
 | Speech to text | Technician | Yes | Not applicable |
 | Geocoding | Technician | Yes* |  Not applicable |
-| [Microsoft Intune](field-service-mobile-intune.md)  | Integration | Yes | Not applicable |
+| [Microsoft Intune](mobile-power-app-intune.md)  | Integration | Yes | Not applicable |
 | Time entry  | Technician | Yes | Not applicable |
 | Connected Field Service and IoT alerts | Technician | Yes |  Not applicable |
 | [Inspections](inspections.md) | Technician | Yes | A Field Service technician can find and capture inspections associated with a work order. |
 | [Dynamics 365 Remote Assist](/dynamics365/mixed-reality/remote-assist/overview-hololens) | Integration | Yes** | You can get help from remote collaborators with integrated Dynamics 365 Remote Assist. |
-| [Push notifications](mobile-push-notifications.md) | Technician | Yes* |  You can send user notifications, such as a new booking appointment and other out-of-the-box triggers. |
-| [Geofencing](geofencing.md) | Technician | Yes* | You can automatically set booking status as a technician arrives or leaves a location. |
+| [Push notifications](mobile-power-app-push-notifications.md) | Technician | Yes* |  You can send user notifications, such as a new booking appointment and other out-of-the-box triggers. |
+| [Geofencing](mobile-powerapp-geofence.md) | Technician | Yes* | You can automatically set booking status as a technician arrives or leaves a location. |
 | Reporting | Technician | Yes | You can generate customer service reports with a signature, with the option to email a PDF. |
 | Scan to find asset (Global search) | Technician | Yes |  Not applicable |
-| [Location sharing and auditing](./geofencing.md#step-3-enable-location-auditing-for-the-field-service-mobile-app) | Admin | Yes* | You can enable real-time sharing of the technician's location with the back office. |
+| [Location sharing and auditing](mobile-powerapp-location-auditing.md) | Admin | Yes* | You can enable real-time sharing of the technician's location with the back office. |
 | Enhanced offline sync filters | Admin | Yes |  These are offline by default, and the data available offline can be customized (for example, by location or by accounts for scheduled bookings). |
 | Offline by default | Technician | Yes |  The app is offline by default, so the technician is always ready. |
 | Allow technician to force data sync | Technician | Yes |  The technician can manually force data sync. |

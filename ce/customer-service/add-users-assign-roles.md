@@ -34,6 +34,8 @@ Use the Microsoft 365 admin center to create user accounts for every user who ne
 
 ## Assign roles to users
 
+To be able to map roles to personas in role persona mapping, you must assign the roles to users directly and not through team memberships. For more information about role persona mapping, see [Role persona mapping](role-persona-mapping.md).
+
 Perform the following steps to assign roles to users in the advanced settings area of Dynamics 365:
 
 1. Select **Settings** > **Advanced Settings** on the command bar. The **Settings** page is displayed in a new browser tab.

@@ -1,7 +1,7 @@
 ---
 title: "View a forecast (Dynamics 365 Sales) | MicrosoftDocs"
 description: "See a forecast in Dynamics 365 Sales to know the health of your pipeline or to track how your sales team is doing against their quota or target."
-ms.date: 02/10/2022
+ms.date: 03/15/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -26,12 +26,11 @@ Forecasts help you to see the health of your pipeline or to see how your sales t
 > The forecasting feature is not supported on mobile devices.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+
 
 ## Open and view a forecast
 
@@ -105,7 +104,7 @@ For example, you have sales teams in the US and Europe. The base currency for yo
 > ![Select currency drop-down.](media/forecast-multi-currency-select.png "Select currency drop-down")
 
 >[!NOTE]
->Administrator or forecast manager must enable the option to select currency. More information: [Enable multi-currency selection](forecast-configure-advanced-settings.md#enable-multi-currency-selection)
+>Administrator or forecast manager must enable the option to select currency. More information: [Turn on multi-currency selection](forecast-configure-advanced-settings.md#turn-on-multi-currency-selection).
 
 ## Tasks you can do on the forecast grid
 
