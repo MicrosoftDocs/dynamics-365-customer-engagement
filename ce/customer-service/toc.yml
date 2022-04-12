@@ -836,6 +836,10 @@
         href: smart-assist-scenario.md
   - name: Bots
     items:
+    - name: Overview of bots
+      href: overview-bots.md
+    - name: Bot sessions and licensing
+      href: bot-session-licensing.md
     - name: Administrator experience
       items:
       - name: Configure Azure bots

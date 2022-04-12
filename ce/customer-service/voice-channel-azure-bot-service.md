@@ -1,7 +1,7 @@
 ---
 title: "Configure Azure bots for voice | MicrosoftDocs"
-description: "Use this topic to learn how to add Azure Bot services for conversational IVR system in Omnichannel for Customer Service."
-ms.date: 04/04/2022
+description: "Use this topic to learn how to configure Azure bots for voice channel in Omnichannel for Customer Service."
+ms.date: 04/13/2022
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: neeranelli
@@ -14,66 +14,20 @@ manager: shujoshi
 
 ## Introduction
 
-A bot is a program that provides automated responses in a conversational manner to a customer. It can also help resolve customer queries by using case deflection. A bot can also collect basic information from a customer and then provide it to a customer service agent to work further on the issue raised by the customer.  
+In Omnichannel for Customer Service, you can seamlessly integrate your Azure bot with all chat and voice channels. You can connect a speech resource to the bot using Azure Cognitive Services. You can also transfer chat and voice conversations from bots to human agents.
 
-A bot eases the load on your customer service agents by handling basic queries. This saves your agents' time so they can work on more complex issues. You can configure your bots to escalate the query to a human agent as required, or when requested by the customer.
-
-In Omnichannel for Customer Service, you can integrate a bot to start the conversation with a customer, provide automated responses, and then shift the conversation to a human agent if required.
-
-When you integrate an Azure bot with Omnichannel for Customer Service, you get the following capabilities for bot conversations:
-
-- Seamlessly integrate your Azure bot with all *chat and voice* channels without needing to add channel-specific code in the bot.
-- *Connect speech resource to the bot using Azure Cognitive Services.*
-- Transfer bot conversations *(both chat and voice)* to human agents, and include the full context of the conversation.
-- Analyze the bot transcript that's available in Microsoft Dataverse after the *chat or voice call* is completed.
-- Configure routing rules to selectively route incoming requests to bots based on context, such as issue type or customer type. For example, you can route low-complexity issues to bots, or route the conversation to a sales or support bot based on the webpage browsing history of the customer.
-- Monitor the bot conversations in real time by using the supervisor dashboard, which includes details such as customer sentiment.
-- Use historical dashboards to get insights into the effectiveness of the bots through metrics such as resolution rate, escalation rate, resolution time, escalation time, and average sentiment.
-- Configure routing rules to use bots in *post-conversation* surveys.
-- Repurpose bots to be smart assist bots and provide recommendations to agents.
-
-<a name="#cognitive-services"></a>
+This topic describes how you can configure Azure bots for the voice channel.
 
 ## Prerequisites
 
-1. You must have a bot that's built using Microsoft Bot Framework and registered with Azure Bot Service.
+The following prerequisites must be met to configure the Azure bot for voice.
 
-    To create an Azure bot resource, see [Create Azure bot resource](/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0&preserve-view=true&tabs=csharp#create-the-resource) section in the Bot Framework SDK documentation. Be sure to note the values of the Microsoft App ID and the bot handle.
+- Have a bot that's built using [Microsoft Bot Framework](https://dev.botframework.com) and registered with [Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0&preserve-view=true).  
 
-2. You must add the Azure bot service to conversational IVR.
+    To create an Azure bot resource, see [Create Azure bot resource](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0#create-the-resource&preserve-view=true) section in the Bot Framework SDK documentation. Be sure to note the values of the Microsoft App ID and the bot handle.
+- [Enable the bot for Telephony](https://github.com/microsoft/botframework-telephony/blob/main/EnableTelephony.md).
 
-    To create a bot resource that's enabled for cognitive services and also supports the Direct Line speech channel, perform the following steps:
-    
-    1. [Create a Cognitive Services resource using the Azure portal](/azure/bot-service/bot-service-channel-connect-directlinespeech?view=azure-bot-service-4.0&preserve-view=true#add-the-direct-line-speech-channel) to enable cognitive services such as text-to-speech or speech-to-text capabilities. Note the location/region and key values.
-    
-    2. Then, [add the Cognitive Services speech resource you created in the earlier step to the Direct Line Speech channel](/azure/bot-service/bot-service-channel-connect-directlinespeech?view=azure-bot-service-4.0&preserve-view=true#add-the-direct-line-speech-channel).
-
-## Integrate a bot with Omnichannel for Customer Service
-
-To integrate a bot with Omnichannel for Customer Service, you must do the following steps:
-
-1. Create a bot user as an application user with the Omnichannel agent role.
-
-2. Add the bot user to one or more queues or workstreams.
-    > [!NOTE]
-    > Bots can escalate conversations to agents only if they are a part of push-based workstreams.
-
-3. Enable a bot to escalate or end conversations.
-
-4. Set escalation rules, as required.
-
-### Add bot user to queues
-
-Queues distribute the incoming customer queries among bots and agents. You must ensure that the bot user has the highest capacity among all users in the queue. This ensures that the bot user receives the customer query first.
-
-> [!NOTE]
-> The bot works with the chat widget, workstreams, and queues created in Omnichannel for Customer Service.
-
-You can add a bot user to specific queues or workstreams where you want the bot to handle the customer queries first. Alternatively, you can also create a queue or workstream with the bot user only. If you create a queue with the bot user only, ensure that the routing rules are set in a way that customer queries are sent to this queue first. This ensures that the bot acts as a first line of defense for all queries.
-
-An agent can transfer a chat to a bot by adding the bot to a queue, and then transferring the chat to the queue. Please note that the chat cannot be transferred to the same bot. You can also set escalation rules to allow a bot to send customer queries to a customer service agent. More information: [Set escalation rules](#set-escalation-rules)
-
-#### Add bot user to a voice or phone call workstream
+## Add bot user to a voice or phone call workstream
 
 To enable the bot to answer incoming calls, you must add the bot to a corresponding workstream for accepting voice calls.
 
@@ -85,53 +39,6 @@ To enable the bot to answer incoming calls, you must add the bot to a correspond
 
 Now, if there's a valid phone number associated with the workstream, the bot will automatically receive and respond to the phone call.
 
-### Enable a bot to escalate and end conversations
-
-In Omnichannel for Customer Service, you can program a bot to route a conversation to a human agent, or end the conversation if the customer is not responding. For more information about how you can program bots to escalate or end conversations, see [Engage an Azure bot](bot-escalate-end-conversation.md#engage-an-azure-bot).
-
-#### Set escalation rules
-
-Escalation rules allow you to create rules for the bot to escalate the queries to the appropriate agent. For escalation rules, you must create a context variable and appropriate routing rules to route the customer queries.
-
-If the bot escalates the customer query, it is routed to the appropriate queue as per the defined routing rule. If the customer query in redirected to the same queue, another agent in the queue will pick the conversation as per the capacity. For information on working with queues, see [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md).
-
-#### Create a context variable
-
-You must create a context variable for the bot to handle customer queries appropriately. The context variable is used in routing incoming customer queries to appropriate bots and agents. For information on creating context variables, see [Understand and create workstreams](create-workstreams.md).
-
-#### Create routing rules
-
-Routing rules route the incoming customer queries to their respective queues. Each routing rule has a condition and a destination queue. If the condition is evaluated as true, the customer query is routed to the destination queue. For bots, the condition is built by using the context variable.
-
-Bots are developed to receive customer queries first, gain information about the query, and then pass the query to a human agent if required. To achieve this behavior, you must add a bot user to the queue and configure routing rules in a way that the incoming customer queries are routed to the queue with the bot user.
-
-Be sure to map the routing rules to the correct queues so that the queries are routed appropriately. For information on creating a routing rule, see [Create and manage routing rules](routing-rules.md).
-
-## Sample configuration to integrate a bot
-
-This sample provides exact steps and configuration values to integrate a bot and then escalate the query to a human agent. In this sample, three queues and three routing rules will be created. A bot user is added to one queue, and agents are added to two other queues. Routing rules are defined in such a way that whenever a customer initiates a chat, it will be sent to the bot first and then escalated to a human agent as per the conditions defined in the routing rules. The workstream used in this sample is **ChatWorkStream**.
-
-1. Follow the instructions in [Create a bot user](configure-bot.md#assign-a-bot-user-as-application-user) to create a bot user.
-
-2. Follow the instructions in [Add a bot user to the queues](configure-bot.md#add-the-bot-user-to-queues) to create three queues and add users as follows:
-    - **BotQueue**: Add the bot user to this queue.
-    - **CreditCardQueue**: Add agents to handle credit card&ndash;related queries.
-    - **HomeLoanQueue**: Add agents to handle home loan&ndash;related queries.
-
-3. Follow the instructions in [Set escalation rules](#set-escalation-rules) to create escalation rules. Let's say you create a context variable named **BotHandoffTopic** in the **ChatWorkStream** workstream.
-
-4. Create three routing rules in the **ChatWorkStream** workstream in the following order:
-    - **BotRule**: Specify the workstream and queue as **ChatWorkStream** and **BotQueue**, respectively. Add the condition as follows:
-        > [!div class=mx-imgBorder]
-        > ![Create a rule to send customer query to bot.](media/bot-rule.png "Create a rule to send customer query to bot")
-    - **CreditCardRule**: Specify the workstream and queue as **ChatWorkStream** and **CreditCardQueue**, respectively. Add the condition as follows:
-        > [!div class=mx-imgBorder]
-        > ![Send customer queries from a bot to an agent, by creating a rule.](media/credit-card-rule.png "Send customer queries from a bot to an agent, by creating a rule.")
-    - **HomeLoanRule**: Specify the workstream and queue as **ChatWorkStream** and **HomeLoanQueue**, respectively. Add the condition as follows:
-        > [!div class=mx-imgBorder]
-        > ![Create a rule to send customer query from bot to an agent.](media/home-loan-rule.png "Create a rule to send a customer query from a bot to an agent")
-
-When a chat is initiated by a customer, the query is routed to the bot through the **BotRule** routing rule. If the bot escalates the query, it is sent to the appropriate agent as per the configured routing rules. The bot needs to send the correct context variable and its value in the escalation request to route the query appropriately. For more information on setting up of context variable and escalation request, see [Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md).
 
 ## Privacy notice
 
