@@ -80,7 +80,7 @@ For exporting and importing queues for live chat, perform the steps outlined in 
 
 ## Export and import data for live chat channel workstreams
 
-Use the Configuration Migration tool to create schema and export the data from the source organization for the following entities:
+Use the Configuration Migration tool to create the schema and export the data from the source organization for the following entities:
 
 - msdyn_liveworkstream
 - msdyn_ocliveworkstreamcontextvariable
