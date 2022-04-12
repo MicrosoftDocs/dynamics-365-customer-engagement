@@ -33,7 +33,7 @@ Use one of the following methods to create an opportunity:
 - [Convert a lead to an opportunity](#convert-a-lead-to-an-opportunity). In this case,
     - Information from the lead record is copied to the opportunity.
     - The lead and opportunity records are linked. All the activities and notes in the lead record also becomes available in the corresponding opportunity record. 
-- [Create a new opportunity](#create-an-opportunity) from scratch if it didn't originate from a lead.  
+- [Create a new opportunity](#create-a-new-opportunity) from scratch if it didn't originate from a lead.  
 
 ## Convert a lead to an opportunity
 
@@ -55,11 +55,11 @@ Create an opportunity with the details you have. You can update the opportunity 
 
     - **Topic**: Specify a brief summary of the opportunity. Include details such as the product, quantity, and customer name. A well-written topic helps your stakeholders spot the opportunity by just glancing through the opportunity list.  **Example:** 125 CRM licenses for Contoso inc. 
     
-   - **Currency**: Select the currency to use for calculating values in the opportunity.
+   - **Currency**: Select the currency to use for calculating money values in the opportunity.
 
      > [!NOTE]
-     > Your base record and all its line items must use the same currency. For example, if your opportunity has the currency set to U.S Dollars, you must use the same currency for the price list items that you add to the opportunity. You can't change the currency of the base record (in this case, an opportunity), unless you remove all the list items associated with the record.
-     > Similarly, all the records created from an opportunity, such as a quote, order or invoice must use the same currency as the opportunity. 
+     >- Your base record and all its line items must use the same currency. For example, if your opportunity has the currency set to US Dollars, you must use the same currency for the price list items that you add to the opportunity. You can't change the currency of the base record (in this case, an opportunity), unless you remove all the list items associated with the record.
+     >- Similarly, all the records created from an opportunity, such as a quote, order or invoice must use the same currency as the opportunity. 
 
 1. Select the pull-down menu at the top-right corner of the opportunity as shown in the following screenshot:
     
@@ -76,7 +76,7 @@ Create an opportunity with the details you have. You can update the opportunity 
 
 ## Typical next steps  
 
- ![Right arrow button](media/orange-right-arrow-button.png "Right arrow button") [Preview: Find and add multiple products to an opportunity](add-products-enhanced-experience.md)  
+ ![Right arrow button](media/orange-right-arrow-button.png "Right arrow button") [Find and add multiple products to an opportunity](add-products-enhanced-experience.md)  
  ![Right arrow button](media/orange-right-arrow-button.png "Right arrow button") 
 [Add stakeholders, sales team, and competitors for the opportunity](add-stakeholder.md)  
  ![Right arrow button](media/orange-right-arrow-button.png "Right arrow button") [Move the opportunity through different stages](move-opportunity-stages.md)  

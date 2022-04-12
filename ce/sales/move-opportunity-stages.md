@@ -17,7 +17,7 @@ searchScope:
 
 # Move the opportunity through different stages
 
-An opportunity goes through different stages (aka pipeline phase) as you make progress and get more details about the opportunity. Each stage defines the information you should've collected about the opportunity to methodically progress and increase your chances of winning the deal. 
+An opportunity goes through different stages (aka pipeline phase) as you make progress and get more details about the opportunity. Each stage defines the information that you should've collected about the opportunity to methodically progress and increase your chances of winning the deal. 
 
 :::image type="content" source="media/opportunity-all-stages.png" alt-text="A screenshot of the different opportunity stages.":::
 
@@ -82,7 +82,7 @@ The next step is to create a quote and send it to your customer. [!INCLUDE[proc-
 
 ## Move the opportunity to Close stage
 
-When your quote is accepted by the customer and an order is raised, you can move the opportunity to the Close stage. 
+When the opportunity materializes, you can move the opportunity to the Close stage. 
 
 1. In the **Close** stage, select **mark complete** next to each of the following steps that you've completed:
 

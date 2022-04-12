@@ -22,7 +22,7 @@ When you're working on an opportunity, you'll be interacting with several people
 ## License and role requirements
 | Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Sales Professional  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
  
 ## Add stakeholders and decision makers for the opportunity
@@ -36,13 +36,13 @@ A stakeholder can be a decision maker or any person who will be working with you
 1. Open the opportunity.
 1. In the Summary tab, go to the **Stakeholders** section.
     > [!NOTE]
-    > If you'd selected a user in the **Contact** field of the opportunity, that contact is automatically added to the **Stakeholders** section.
+    > If you'd selected a person in the **Contact** field of the opportunity, that contact is automatically added to the **Stakeholders** section.
 1. Select **New Connection** and then select the stakeholder's record from the contacts list.
 
     > [!NOTE]
-    > If you don't see the **New connection** button, navigate to the Connection Associated view for the record and use the **Connect** button to create a new connection. More information: [How are stakeholders and sales team members tracked for opportunities?](stakeholders-sales-team-members.md)
+    > The **New Connection** button is supported only for the out-of-box "Stakeholders" and "Sales Team" views on the Opportunity entity. For any other connection sub-grid or "Stakeholders" or "Sales Team" sub-grids that are based on custom views, the **New Connection** button doesn't appear on the sub-grid. In such cases, navigate to the Connection Associated view for the record and use the **Connect** button to create a new connection. More information: [How are stakeholders and sales team members tracked for opportunities?](stakeholders-sales-team-members.md)
 
-    The user is added as a stakeholder by default. 
+    The contact is added as a stakeholder by default. 
 1. To convert a stakeholder to any other stakeholder category (for example, decision maker), select the stakeholder record and then select **Edit**.
 1. In the **As this role** field, remove Stakeholder and select a role that best fits the contact. For example, select Decision Maker if the contact is a decision maker for the opportunity.  
 1. Go back to the opportunity and verify that the stakeholder's role is updated.  
@@ -64,9 +64,12 @@ If multiple users and teams from your organization are working on an opportunity
 
 ## Add competitors for the opportunity
 
-Add the organizations that are competing with you for the opportunity as competitors for the opportunity.  
+Add the organizations that are competing with you for the opportunity as competitors for the opportunity. 
 
-**To add the competitors:**
+> [!NOTE]
+> The competitors entity is not supported for Sales Professional license.  
+
+**To add competitors:**
 
 1. In the Sales Hub site map, select **Opportunities**.
 
@@ -75,5 +78,6 @@ Add the organizations that are competing with you for the opportunity as competi
 1. Select **Add Existing Competitor** to add a competitor.
 
 ### See also
+
 [Create or edit opportunities](create-edit-opportunity-sales.md)  
 [Move the opportunity through different stages](move-opportunity-stages.md)
