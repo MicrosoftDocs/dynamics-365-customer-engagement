@@ -13,11 +13,11 @@ manager: shujoshi
 
 Follow these steps to download attachments from your Azure bot.
 
-1. Get the token for your bot. You can do so by providing your bot's Microsoft AppId and Client Secret. More information: [Connector authentication](/azure/bot-service/rest-api/bot-framework-rest-connector-authentication?view=azure-bot-service-4.0)
+1. Get the token for your bot. You can do so by providing your bot's Microsoft AppId and Client secret. More information: [Connector authentication](/azure/bot-service/rest-api/bot-framework-rest-connector-authentication?view=azure-bot-service-4.0)
 
 2. Fetch the `attachmentId` from the attachment content URL. For example, the `attachmentId` in this URL `https://us-api.asm.skype.com/v1/objects/0-eus-d1-5360689c55c308cb4e3b51722e46b801/` is `0-eus-d1-5360689c55c308cb4e3b51722e46b801`. 
 
-3.	Use the `attachmentId` in the `RequestUri` variable. Then, call the `GET` request by using the `HttpRequestMessage` method, as shown in the following sample code.
+3. Use the `attachmentId` in the `RequestUri` variable. Then, call the `GET` request by using the `HttpRequestMessage` method, as shown in the following sample code.
 
 ```csharp
 string requestUri = $"https://botapi.skype.com/amer/v3/attachments/{attachmentId}/views/original";
@@ -39,9 +39,8 @@ HttpResponseMessage response = await client.SendAsync(httpRequest);
 
 ### See also
 
-[Card support by channel - Bot Framework SDK](/azure/bot-service/bot-service-channels-reference?view=azure-bot-service-4.0#card-support-by-channel)<br />
-[Support for live chat and asynchronous channels](card-support-in-channels.md)
-[Download file attachments from your Power Virtual Agents bot](download-attachments-PVA-bot.md)
-
+[Card support by channel - Bot Framework SDK](/azure/bot-service/bot-service-channels-reference?view=azure-bot-service-4.0#card-support-by-channel)  
+[Support for live chat and asynchronous channels](card-support-in-channels.md)  
+[Download file attachments from your Power Virtual Agents bot](download-attachments-PVA-bot.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
