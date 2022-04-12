@@ -140,84 +140,8 @@ The following assumptions are in place:
 ### FetchXML for live chat<a name="BKMKlive-chat"></a>
 
 ```
-    <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+    <fetch version="1.0" mapping="logical" distinct="false">
 	<entity name="msdyn_livechatconfig">
-		<attribute name="msdyn_agentdisplayname" />
-		<attribute name="msdyn_enablechattranscriptdownload" />
-		<attribute name="msdyn_enablechattranscriptemail" />
-		<attribute name="msdyn_showagentname" />
-		<attribute name="msdyn_authsettingsid" />
-		<attribute name="msdyn_autodetectlanguage" />
-		<attribute name="msdyn_postconversationsurveybotsurvey" />
-		<attribute name="msdyn_callingoptions" />
-		<attribute name="msdyn_livechatconfigid" />
-		<attribute name="msdyn_cobrowseprovider" />
-		<attribute name="createdby" />
-		<attribute name="createdonbehalfby" />
-		<attribute name="createdon" />
-		<attribute name="msdyn_genericagentdisplayname" />
-		<attribute name="msdyn_emailtemplate" />
-		<attribute name="msdyn_postconversationsurveyenable" />
-		<attribute name="msdyn_enablecobrowse" />
-		<attribute name="msdyn_enablefileattachmentsforagents" />
-		<attribute name="msdyn_enablefileattachmentsforcustomers" />
-		<attribute name="msdyn_enablescreensharing" />
-		<attribute name="importsequencenumber" />
-		<attribute name="msdyn_conversationmode" />
-		<attribute name="msdyn_averagewaittime_enabled" />
-		<attribute name="msdyn_infolabel" />
-		<attribute name="msdyn_widgetlocale" />
-		<attribute name="msdyn_ocwidgetlanguage" />
-		<attribute name="msdyn_language" />
-		<attribute name="msdyn_avatarurl" />
-		<attribute name="msdyn_postconversationsurveymessagetext" />
-		<attribute name="modifiedby" />
-		<attribute name="modifiedonbehalfby" />
-		<attribute name="modifiedon" />
-		<attribute name="msdyn_offlinewidgettitle" />
-		<attribute name="msdyn_offlinewidgetsubtitle" />
-		<attribute name="msdyn_offlinewidgetthemecolor" />
-		<attribute name="msdyn_operatinghourid" />
-		<attribute name="owningbusinessunit" />
-		<attribute name="owningteam" />
-		<attribute name="owninguser" />
-		<attribute name="msdyn_portalurl" />
-		<attribute name="msdyn_widgetposition" />
-		<attribute name="msdyn_postchatenabled" />
-		<attribute name="msdyn_prechatenabled" />
-		<attribute name="msdyn_proactivechatenabled" />
-		<attribute name="msdyn_oc_geolocationprovider" />
-		<attribute name="msdyn_prechatquestionnaireauthenticated" />
-		<attribute name="msdyn_prechatquestionnaireunauthenticated" />
-		<attribute name="msdyn_timetoreconnectwithpreviousagent" />
-		<attribute name="overriddencreatedon" />
-		<attribute name="msdyn_redirectionurl" />
-		<attribute name="msdyn_requestvisitorlocation" />
-		<attribute name="msdyn_screensharingprovider" />
-		<attribute name="msdyn_mailbox" />
-		<attribute name="msdyn_positioninqueue_enabled" />
-		<attribute name="msdyn_showwidgetduringofflinehours" />
-		<attribute name="statecode" />
-		<attribute name="statuscode" />
-		<attribute name="msdyn_widgetsubtitle" />
-		<attribute name="msdyn_postconversationsurvey" />
-		<attribute name="msdyn_postconversationsurveymode" />
-		<attribute name="msdyn_widgetthemecolor" />
-		<attribute name="timezoneruleversionnumber" />
-		<attribute name="msdyn_widgettitle" />
-		<attribute name="msdyn_enablechatreconnect" />
-		<attribute name="msdyn_widgetsoundnotification" />
-		<attribute name="msdyn_widgetvisualnotification" />
-		<attribute name="utcconversiontimezonecode" />
-		<attribute name="versionnumber" />
-		<attribute name="msdyn_widgettitle" />
-		<attribute name="msdyn_widgettitle" />
-		<attribute name="msdyn_widgettitle" />
-		<attribute name="msdyn_widgettitle" />
-		<attribute name="msdyn_liveworkstreamid" />
-		<attribute name="msdyn_name" />
-		<attribute name="msdyn_livechatconfigid" />
-		<order attribute="msdyn_name" descending="false" />
 		<link-entity name="msdyn_liveworkstream" from="msdyn_liveworkstreamid" to="msdyn_liveworkstreamid" link-type="inner" alias="ab">
 			<filter type="and">
 				<condition attribute="msdyn_liveworkstreamid" operator="eq" uiname="elopez-ws-lcw-m7" uitype="msdyn_liveworkstream" value="{EBEE52BD-2EFD-99C5-C658-F13E7C7D3F8C}" />
@@ -225,7 +149,6 @@ The following assumptions are in place:
 		</link-entity>
 	</entity>
 </fetch>
-
 ```
 
 ### See also
