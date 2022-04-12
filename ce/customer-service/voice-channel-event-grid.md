@@ -1,7 +1,7 @@
 ---
 title: "Register event grid system topics | MicrosoftDocs"
 description: "This article explains how to create, deploy, and register event grid system topics for an existing Azure resource."
-ms.date: 04/08/2022
+ms.date: 04/12/2022
 ms.service: dynamics-365-customerservice
 author: neeranelli
 ms.author: nenellim
