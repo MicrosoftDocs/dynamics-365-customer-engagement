@@ -13,9 +13,9 @@ manager: shujoshi
 
 ## Introduction
 
-Follow these steps to download attachments from your Azure bot.
+If you've deployed your Azure bot in Omnichannel for Customer Service and have enabled customers to send attachments such as pictures or documents to the bot, then follow these steps to download file attachments from your Azure bot.
 
-1. Get the token for your bot. You can do so by providing your bot's Microsoft AppId and Client Secret. More information: [Connector authentication](/azure/bot-service/rest-api/bot-framework-rest-connector-authentication?view=azure-bot-service-4.0)
+1. Get the token for your Azure bot. You can do so by providing your bot's Microsoft App ID and Client secret. More information: [Connector authentication](/azure/bot-service/rest-api/bot-framework-rest-connector-authentication?view=azure-bot-service-4.0)
 
 2. Fetch the `attachmentId` from the attachment content URL. For example, the `attachmentId` in this URL `https://us-api.asm.skype.com/v1/objects/0-eus-d1-5360689c55c308cb4e3b51722e46b801/` is `0-eus-d1-5360689c55c308cb4e3b51722e46b801`. 
 
