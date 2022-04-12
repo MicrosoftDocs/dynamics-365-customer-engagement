@@ -12,7 +12,7 @@ manager: shujoshi
 
 ## Introduction
 
-If your administrator has enabled the AI-generated introductory message and configured the ability to link chats to Dynamics 365 records, you can view and share the AI-generated summary of an ongoing conversation to an expert who can resolve the customer's issue. This reduces the time spent in providing context or summarizing the steps taken to solve the issue, enabling you to provide a quick resolution.
+If your administrator has enabled the AI-generated introductory message and configured the ability to link chats to Dynamics 365 records, you can view and share the AI-generated summary of an ongoing conversation to a contact you want to collaborate with in Microsoft Teams. This reduces the time spent in providing context or summarizing the steps taken to solve the issue, enabling you to provide a quick resolution.
 
 ## AI-generated summary based on ongoing conversation 
 
@@ -25,15 +25,21 @@ In the Customer Service workspace, when you open a case, Teams chat (Preview) ap
     - If AI-suggested contacts is enabled, a Resolved similar cases section is displayed in the dropdown list.
     - If AI-generated summary is enabled, a summary of the chat is displayed in the dropdown list.
 
-- The default AI-generated summary is displayed with the following details, if the **Include introduction message (preview)** checkbox is enabled. Select the **Include introduction message (preview)** checkbox  based on the ongoing conversation with the customer:
+- The default AI-generated summary is displayed with the following details, from an active conversation, if the **Include introduction message (preview)** checkbox is enabled. By default this checkbox is selected. At least three customer messages are required to generate a summary.
     - The issue description: the key customer problems to solve in a conversation
     - The resolution steps: resolution steps the agent has already tried to solve the issue.
 
-- You can perform the following actions:
+- You can perform the following optional actions:
     - Edit the auto-generated summary to provide additional details.
-    - Share feedback about the summary.
-    - Clear the **Include introduction message (preview)** checkbox to disable the auto-generated summary and start the Microsoft Teams chat.  
+    - Share feedback about the summary, if you find it helpful or not.
+    - Clear the **Include introduction message (preview)** checkbox to disable the auto-generated summary, if you want to skip it and start the Microsoft Teams chat, immediately.  
+ 
+ For more details how the AI model works and its limitation, see [Configure AI-generated summary for customer service](cs-enable-ai-generated-summary.md)
 
 - Type a participant name or select from the suggested contacts. You can select more than one contact and then select **Start chat**. A conversation is initiated. The AI-generated summary appears on the chat as the introductory message.
 
 
+### See also
+
+[Configure AI-generated summary for customer service](cs-enable-ai-generated-summary.md)                                                 
+[Overview of Customer Service workspace](csw-overview.md) 
