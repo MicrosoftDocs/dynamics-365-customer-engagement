@@ -172,7 +172,7 @@ For example, ensure the following settings:
 1. In the route to queues rule set of the workstream, use **Conversation.CustomerLanguage** as the criteria to route the incoming call to different language queues based on the option that's selected by the customer.
 
 
-    :::image type="content" source="media/multilingual-route-to-queue-rule.png" alt-text="Route-to-queue rules for the multilingual contact center workstream":::
+    :::image type="content" source="media/multilingual-route-to-queue-rules.png" alt-text="Route-to-queue rules for the multilingual contact center workstream":::
 
 
 1. In the **Bot** area of the workstream, edit to add the Power Virtual Agents bot that you configured.
