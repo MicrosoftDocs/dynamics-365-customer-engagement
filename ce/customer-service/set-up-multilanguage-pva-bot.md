@@ -1,6 +1,6 @@
 ---
-title: "Set up a multilanguage bot in Power Virtual Agents | MicrosoftDocs"
-description: "Use this article to learn how to set up a multilanguage bot in Power Virtual Agents to use in Omnichannel for Customer Service."
+title: "Set up a multilingual bot in Power Virtual Agents | MicrosoftDocs"
+description: "Use this article to learn how to set up a multilingual bot in Power Virtual Agents to use in Omnichannel for Customer Service."
 ms.date: 03/08/2022
 ms.topic: article
 author: neeranelli
@@ -8,56 +8,55 @@ ms.author: nenellim
 manager: shujoshi
 ---
 
-# Set up a multilanguage bot in Power Virtual Agents for contact center
+# Set up a multilingual bot in Power Virtual Agents for contact center
+<!--note from editor: Not only is "multilanguage" missing from our style guide, it's not in any dictionary.-->
+You can configure routing rules to route voice calls to appropriate agents based on the language that your customer has selected. A multilingual contact center helps you serve global customers who want to interact with your contact center in the language of their choice. You can also set up bots as the first contact who can handle such requests.
 
-You can configure routing rules to route voice calls to appropriate agents based on the language that your customer has selected. A multilanguage contact center helps you serve global customers who want to interact with your contact center in a language of their choice. You can also set up bots as the first contact who can handle such requests.
+Use Bot Framework Composer in Power Virtual Agents to set up a bot for a multilingual contact center.
 
-Use the Bot Framework Composer in Power Virtual Agents to set up a bot for a multilanguage contact center.
+The process for setting up the multilingual bot in Power Virtual Agents is as follows:
 
-The process for setting up the multilanguage bot in Power Virtual Agents is as follows:
+1. Create a bot in Power Virtual Agents.
 
-1. Create a bot in Power Virtual Agents
+2. Create a topic in Bot Framework Composer.
 
-2. Create a topic in Bot Framework Composer
+3. Configure the greeting topic in Power Virtual Agents.
 
-3. Configure the greeting topic in Power Virtual Agents
+4. Configure the transfer to agent node by using the escalate topic.<!--note from editor: Suggested. I found "configure transfer to agent" to be confusing.-->
 
-4. Configure transfer to agent using the escalate topic
+5. Configure workstreams and queues.
 
-5. Configure workstreams and queues
-
-6. Verify the multilanguage bot
+6. Verify the multilingual bot.
 
 ## Prerequisites
 
-- You must install the Bot Framework Composer locally on the computer that you'll use to configure the multilanguage bot.
+- You must install Bot Framework Composer locally on the computer that you'll use to configure the multilingual bot.
 - Your bot must be registered in the Azure app registration page. Note the application ID. More information: [Create an app registration](/azure/digital-twins/how-to-create-app-registration-portal#create-the-registration)
 
 ## Create a bot in Power Virtual Agents
 
-You'll create a bot in Power Virtual Agents by selecting the environment in which Omnichannel for Customer Service is configured. More information: [Create a bot](/power-virtual-agents/authoring-first-bot).
+You'll create a bot in Power Virtual Agents by selecting the environment in which Omnichannel for Customer Service is configured. For detailed instructions, go to [Create a bot](/power-virtual-agents/authoring-first-bot).<!--note from editor: I suggest the "For detailed instructions" wording here because I think it works a bit better. "More information" links are there to give the reader ideas of where they can go if they're curious - more of an optional suggestion.-->
 
-For example, you can create the bot with the following details:
+For example, you can create a bot with the following details:
 
-- **Name**: Bot name, such as **Greeter bot**.
-- **Language**: Primary language for the bot, such as **English (US)**.
-- **Environment**: Environment name where Omnichannel for Customer Service is configured, such as **contoso-printers**.
+- **Name**: A descriptive name for the bot, such as **Greeter bot**.<!--note from editor: Suggested.-->
+- **Language**: The primary language for the bot, such as **English (US)**.
+- **Environment**: The environment where Omnichannel for Customer Service is configured, such as **contoso-printers**.
 
 ## Create a topic in Bot Framework Composer
+<!--note from editor: You don't need a "To create a topic" procedure heading that simply echoes the wording of the H2 it follows and there's only one procedure in the section.-->
 
-**To create a topic**
-
-1. In Power Virtual Agents, for the bot that you created, select **Topics** in the site map, and then select the dropdown arrow for **New topic** in the **Topics** pane. A message appears stating that the application is trying to open the Bot Framework Composer.
+1. In Power Virtual Agents, for the bot that you created, select **Topics** in the site map, and then in the **Topics** pane, select the dropdown arrow for **New topic**. A message appears stating that the application is trying to open Bot Framework Composer.
 
 1. Select **Open**, and on the **Import your bot to new project** dialog that appears, enter the following details:
 
-   - **Name**: A name for the project, such as "Multilanguage bot".
-   - **Location**: Select a folder location on the computer.
+   - **Name**: A name for the project, such as **Multilanguage bot**.
+   - **Location**: Select a folder on the computer.
 
-1. In Bot Framework Composer, select **More commands** (...), select **Add a dialog**, and enter the following details.
+1. In Bot Framework Composer, select **More commands** (...), select **Add a dialog**, and enter the following details:
 
-   - **Name**: Name such as **PVA greeter dialog**.
-   - **Description**: Brief description. 
+   - **Name**: A name such as **PVA greeter dialog**.
+   - **Description**: A brief description. 
 
 1. In the site map, select **BeginDialog**, select the **Add** (+) node, and then select **Send a response**.
 
@@ -70,44 +69,44 @@ For example, you can create the bot with the following details:
       > [!NOTE]
       > The ${virtualagent.msdyn_CustomerName} variable will provide the customer name for authenticated customers only through record identification. More information: [Identify customers automatically](record-identification-rule.md)
 
-   1. Select the **Add** (+) node in **BeginDialog**,  select **Ask a question**, and then select **Multi-choice** in the floating menu.
+   1. Select the **Add** (+) node in **BeginDialog**, and then select **Ask a question** > **Multi-choice**.<!--note from editor: Or if it describes the behavior better, this could read "Select the **Add** (+) node in **BeginDialog**, point to **Ask a question**, and then select **Multi-choice**."-->
 
-      :::image type="content" source="media/pva-ask-question.png" alt-text="Select a multi-choice option for ask a question.":::
+      :::image type="content" source="media/pva-ask-question.png" alt-text="Select the multiple-choice option for asking a question.":::
 
-   1. Repeat the steps a and b to add the following text.
+   1. Repeat steps a and b to add the following text.
 
       `<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="en-US"><voice name="en-US-AriaNeural"><lang xml:lang="en-US">Press or say 1 for English.</lang><break strength="medium"/><lang xml:lang="fr-FR"> Appuyez ou dites 2 pour le français.</lang><break strength="medium"/><lang xml:lang="pt-PT">Pressione 3 para português.</lang></voice></speak>`
 
-   1. Select the **User input** box, and enter the following details in the right pane:
+   1. Select the **User input** box, and enter the following details on the rightmost pane:
 
-    - **Property**: conversation.language_choice
-    - **Array of choices**: 1, 2, 3, one, two, three, un, deux, trois, um, dois, três
+      - **Property**: conversation.language_choice
+      - **Array of choices**: 1, 2, 3, one, two, three, un, deux, trois, um, dois, três
 
-    1. Select the **Add** (+) node, select **Create a condition**, and then select **Branch Switch (multiple options)**.
+    1. Select the **Add** (+) node, select **Create a condition**, and then select **Branch Switch (multiple options)**. Enter the following details:<!--note from editor: Suggested, to be parallel.-->
 
         - **Condition**: conversation.language_choice
-        - **Value**: 1, 2, 3, 4, One, Two, Three, Un, deux, trois, Um, dois, três
+        - **Value**: 1, 2, 3, 4, One, Two, Three, Un, deux, trois, Um, dois, três<!--note from editor: The image doesn't show a value of "4", is that okay? Also, shouldn't this list include the Hindi version of "one, two, three"?-->
         - **Property**: virtualagent.va_CustomerLocale
         - **Value**: en-US, fr-FR, pt-PT, hi-IN
 
-          :::image type="content" source="media/va-customer-locale.png" alt-text="Set customer locale by using branch switch option.":::
+          :::image type="content" source="media/va-customer-locale.png" alt-text="Set customer locale by using the branch switch option.":::
 
-        The value for the "virtualagent.va_CustomerLocale" variable will be updated with the language selected by the customer.
+        The value for the virtualagent.va_CustomerLocale<!--note from editor: Other variable names have just been in regular text, so I suggest using that format here also. QUotation marks could be construed to be part of the name otherwise.--> variable will be updated with the language selected by the customer.
 
         > [!NOTE]
         > You must set the va_CustomerLocale context variable with the locale codes for the languages that you want to support. More information: [Supported locations and locale codes](voice-channel-multi-language-contact-center.md#supported-languages-and-locale-codes)
 
     1. Select the **Add** (+) node, and then select **Begin a Power Virtual Agent topic**.
 
-    1. Select **Escalate** in **Dialog name**.
+    1. In **Dialog name**, select **Escalate**.
 
-1. Select **Publish** in the site map, and then select **Publishing profile**.
+1. In the site map, select **Publish**, and then select **Publishing profile**.
 
-    1. Select **Edit**, and select **Login to proceed**.
+    1. Select **Edit**, and then select **Login to proceed**.<!--note from editor: Just wondering, would it be possible for you to let the UI designer know that Microsoft style is to say "Sign in to proceed"?-->
 
-    1. Select the environment and bot, and select **Save**.
+    1. Select the environment and bot, and then select **Save**.
 
-    1. Select the **Publish** bot, select the bot, and **Publish selected bots**.
+    1. Select the **Publish** bot, select the bot, and then select **Publish selected bots**.
 
     1. Select **Okay** .
 
@@ -115,19 +114,17 @@ For example, you can create the bot with the following details:
 
 ## Configure the greeting topic in Power Virtual Agents
 
-**To configure the greeting topic**
-
 1. In Power Virtual Agents, open the **Greeting** topic in the authoring canvas, and delete all the default messages except the trigger phrases.
 
-1. Select **Add node** (+), and select **Redirect to another topic**.
+1. Select **Add node** (+), and then select **Redirect to another topic**.
 
-1. In the floating menu that appears, select the greeter dialog that you created, such as **PVA greeter dialog**.
+1. Select the greeter dialog that you created (in our example, **PVA greeter dialog**).<!--note from editor: Would it be more accurate to have step that says "3. Point to **Redirect to another topic**, and then select the greeter dialog that you created."? -->
 
 1. Save the **Greeting** topic.
 
-## Configure transfer to agent using the escalate topic
+<a name="configure-transfer-to-agent-using-the-escalate-topic"></a>
 
-**To configure transfer to agent**
+## Configure the transfer to agent node by using the escalate topic
 
 1. In Power Virtual Agents, open the **Escalate** topic in the authoring canvas, and delete all the default messages except the trigger phrases.
 
@@ -139,14 +136,14 @@ For example, you can create the bot with the following details:
 
 1. Save the topic.
 
-1. In the site map, select **Channels** in **Manage**, and then select **Microsoft Teams** on the **Channels** page.
+1. In the site map under **Manage**, select **Channels**, and then select **Microsoft Teams** on the **Channels** page.
 
 1. Publish the bot with the latest content.
 
-1. In the site map, select **Agent transfers** in **Manage**, and then select **Omnichannel** on the **Agent transfers** page.
+1. In the site map under **Manage**, select **Agent transfers**, and then select **Omnichannel** on the **Agent transfers** page.
 
 1. On the Omnichannel pane, configure the following settings:
-    - **Enable voice**: Set to yes.
+    - **Enable voice**: Set to **Yes**.
     - **See the environment this bot is connected to**: Select the environment in which the bot will be used.
     - **Application ID**: Enter the application ID that was generated when you registered the app in Azure.
   
@@ -158,7 +155,7 @@ For example, you can create the bot with the following details:
 
 ## Configure workstreams and queues
 
-Use the information in the following articles to configure a voice workstream and a voice queue and the routing rules.
+Use the information in the following articles to configure a voice workstream and a voice queue, and their routing rules.
 
 - [Configure a workstream](create-workstreams.md)
 - [Configure work classification](configure-work-classification.md)
@@ -167,28 +164,28 @@ Use the information in the following articles to configure a voice workstream an
 
 For example, ensure the following settings:
 
-1. Configure three voice queues, one each for English, French, and Portuguese, and add the required agents.
+1. Configure three voice queues—one each for English, French, and Portuguese—and add the required agents.
 
-1. Configure a voice workstream with English as the primary language, and French and Portuguese as the additional languages.
+1. Configure a voice workstream with English as the primary language, and French and Portuguese as additional languages.
 
     :::image type="content" source="media/multilanguage-workstream.png" alt-text="Workstream with multiple language options set.":::
 
-1. In the route to queues ruleset of the workstream, use **Conversation.CustomerLanguage** as the criteria to route the incoming call to different language queues based on the option that's selected by the customer.
+1. In the route to queues rule set of the workstream, use **Conversation.CustomerLanguage** as the criteria to route the incoming call to different language queues based on the option that's selected by the customer.<!--note from editor: Can you smudge out or replace the name "Alan Steiner" in the upper-right corner of the image? He's in the Microsoft address book.-->
+
 
     :::image type="content" source="media/multilingual-route-to-queue-rule.png" alt-text="Route-to-queue rules for the multilingual contact center workstream":::
 
+
 1. In the **Bot** area of the workstream, edit to add the Power Virtual Agents bot that you configured.
 
-## Verify the multilanguage bot
-
-Perform the following steps to verify the bot settings:
+## Verify the multilingual bot
 
 1. As a customer, call the number that's registered with the voice workstream.
 
-1. Select a language when you are prompted with an interactive voice response (IVR) message. The bot routes the call to an agent who can speak with you in the language that you've selected.
+1. When you're prompted with an interactive voice response (IVR) message, select a language. Verify that the bot routes the call to an agent who can speak with you in the language that you've selected.
 
 
 ### See also
 
-[Configure a bot using Azure Bot Framework](voice-channel-multi-language-contact-center.md)  
-[Configure a bot in Power Virtual Agents](configure-bot-virtual-agent.md)  
+[Set up a multilanguage contact center](voice-channel-multi-language-contact-center.md)<!--note from editor: I realize that the name of this target article might change, but I needed to change this link now because "Bot Framework" isn't an Azure brand.-->  
+[Integrate a Power Virtual Agents bot](configure-bot-virtual-agent.md)  
