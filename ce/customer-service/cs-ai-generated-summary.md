@@ -8,7 +8,17 @@ ms.author: gandhamm
 manager: shujoshi
 ---
 
-# AI-generated summary for ongoing conversations in Microsoft Teams
+# AI-generated summary for ongoing conversations in Microsoft Teams (preview)
+
+
+> [!IMPORTANT]
+> [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
+>
+> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+>
+> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+>
+> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
 ## Introduction
 
@@ -42,4 +52,4 @@ In the Customer Service workspace, when you open a case, Teams chat (Preview) ap
 ### See also
 
 [Configure AI-generated summary for customer service](cs-enable-ai-generated-summary.md)                                                 
-[Overview of Customer Service workspace](csw-overview.md) 
+
