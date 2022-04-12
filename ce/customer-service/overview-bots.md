@@ -1,6 +1,6 @@
 ---
 title: "Overview of bots | MicrosoftDocs"
-description: "Use this article to understand how to integrate an Azure bot with Omnichannel for Customer Service."
+description: "Get an overview of bots and how you can configure and use them in Omnichannel for Customer Service."
 ms.date: 04/08/2022
 author: neeranelli
 ms.author: nenellim
@@ -19,7 +19,22 @@ A bot is a program that provides automated responses in a conversational manner 
 
 A bot eases the load on your customer service agents by handling basic queries. This saves your agents' time so they can work on more complex issues. You can configure your bots to escalate a query to a human agent as required, or when requested by the customer.
 
-In Omnichannel for Customer Service, you can integrate bots to start a conversation with the customer, provide automated responses, and then transfer the conversation to a human agent, if required.
+In Omnichannel for Customer Service, you can integrate both Azure and Power Virtual Agents bots to perform tasks like starting a conversation with the customer, providing automated responses, and then transferring the conversation to a human agent, as required.
+
+## Integrate Azure and Power Virtual Agents bots
+
+When you integrate bots with Omnichannel for Customer Service, you get the following capabilities:
+
+- Seamlessly integrate your bots with chat and voice channels without needing to add channel-specific code in the bot.
+- Transfer both chat and voice conversations from bots to human agents, together with the full context of the conversation.
+- Analyze the bot transcript that's available in Microsoft Dataverse after the conversation is completed.
+- Configure routing rules to selectively route incoming requests to bots based on context, such as issue type or customer type. For example, you can route low-complexity issues to bots, or route the conversation to a sales or support bot based on the web browsing history of the customer.
+- Monitor bot conversations in real time by using the supervisor dashboard, which includes details such as customer sentiment.
+- Use historical dashboards to get insights into the effectiveness of the bots through metrics such as resolution rate, escalation rate, resolution time, escalation time, and average sentiment.
+
+- Connect speech resource to the Azure bot using Azure Cognitive Services.
+- Configure routing rules to use Azure bots in *post-conversation* surveys.
+- Repurpose Azure bots to be smart assist bots and provide recommendations to agents.
 
 ### See also
 
