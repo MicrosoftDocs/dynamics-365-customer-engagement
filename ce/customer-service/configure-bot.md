@@ -28,9 +28,9 @@ In Omnichannel for Customer Service, you can integrate Azure bots and get the fo
 
     To create an Azure bot resource, see [Create Azure bot resource](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0#create-the-resource&preserve-view=true) section in the Bot Framework SDK documentation. Be sure to note the values of the Microsoft App ID and the bot handle.
 - Connect the bot to the desired channels to enable messaging and voice capabilities.
-    - For only messaging capabilities, add [Omnichannel channel](/azure/bot-service/bot-service-channel-omnichannel?view=azure-bot-service-4.0&preserve-view=true) and [Microsoft Teams](/azure/bot-service/channel-connect-teams?view=azure-bot-service-4.0&preserve-view=true) as supported channels.
-    - For only voice capabilities, [connect the bot to Telephony](/azure/bot-service/bot-service-channel-connect-telephony?view=azure-bot-service-4.0&preserve-view=true).
-    - For both messaging and voice capabilities, ensure the bot is enabled for Microsoft Teams, Omnichannel, and Telephony channels.
+    - To use the bot over *messaging channels only*, add [Omnichannel channel](/azure/bot-service/bot-service-channel-omnichannel?view=azure-bot-service-4.0&preserve-view=true) and [Microsoft Teams](/azure/bot-service/channel-connect-teams?view=azure-bot-service-4.0&preserve-view=true) as supported channels.
+    - To use the bot over the *voice channel only*, [add the Telephony channel](/azure/bot-service/bot-service-channel-connect-telephony?view=azure-bot-service-4.0&preserve-view=true).
+    - To use the bot for *both messaging and voice services*, connect the bot to Microsoft Teams, Omnichannel, and Telephony channels.
 
 ## Integrate Azure bots with Omnichannel for Customer Service
 

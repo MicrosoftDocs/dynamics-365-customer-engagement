@@ -20,48 +20,23 @@ This topic describes how you can configure Azure bots to enable voice services.
 
 ## Prerequisites
 
-The following prerequisites must be met to configure the Azure bot for the voice channel.
-
 - Have a bot that's built using [Microsoft Bot Framework](https://dev.botframework.com) and registered with [Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0&preserve-view=true).  
 
     To create an Azure bot resource, see [Create Azure bot resource](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0#create-the-resource&preserve-view=true) section in the Bot Framework SDK documentation. Be sure to note the values of the Microsoft App ID and the bot handle.
-- [Enable the bot for Telephony](https://github.com/microsoft/botframework-telephony/blob/main/EnableTelephony.md).
 
-## Configure Azure bots for voice
+- Configure the Azure bot for voice capabilities as follows:
 
-After you've checked for the prerequisites, perform the following steps to integrate your Azure bots with Omnichannel for Customer Service and then configure the bot for the voice channel.
+    1. [Create a Cognitive Services resource using the Azure portal](/azure/cognitive-services/cognitive-services-apis-create-account?tabs=multiservice%2Cwindows) to enable cognitive services such as text-to-speech or speech-to-text capabilities. Note the location/region and key values.
 
-1. [Connect your Azure bot resource to Telephony channel](#connect-your-bot-resource-to-telephony-channel).
-1. [Configure the bot user as an omnichannel agent](configure-bot.md#configure-the-bot-user-as-an-omnichannel-agent).
-1. [Configure routing rules and context variables](configure-bot.md#configure-routing-rules).
-1. [Add the bot user to a voice workstream](#add-bot-user-to-a-voice-workstream).
-1. [Set escalation rules](#set-escalation-rules) as required.
+    1. [Add the Cognitive Services speech resource you just created to the Telephony channel](/azure/bot-service/bot-service-channel-connect-telephony?view=azure-bot-service-4.0&preserve-view=true).
 
-### Connect your bot resource to Telephony channel
+## Configure Azure bots for the voice channel
 
-Perform the following steps to connect and register your bot with the Telephony channel.
+After you've checked for the prerequisites, follow the instructions mentioned in [Integrate Azure bots with Omnichannel for Customer Service](configure-bot.md#integrate-azure-bots-with-omnichannel-for-customer-service).
 
-1. Open the [Azure portal](https://portal.azure.com), and then select your bot resource.
+Additionally, you can also enable your Azure bot to answer incoming calls.
 
-2. Under **Settings**, select **Channels**. The list of available channels is displayed.
-    > [!div class=mx-imgBorder]
-    > ![Available channels.](media/acs-available-channels.png "Available channels")
-
-3. Select **Telephony** and then select **Create a connection**.
-4. In the **New connection** dialog, do the following:
-    1. **Type**: Select **Omnichannel for Dynamics Customer Service** from the dropdown list.
-    1. **Subscription**: Select a subscription from the dropdown list.
-    1. **Azure Cognitive Services**: Select an existing Cognitive Services resource from the dropdown list or create a new one.
-    1. **Default Locale**: Select a locale from the dropdown list.
-    1. Select **Connect**. The **Omnichannel** telephony channel is now listed in the Bot connection column.
-    1. Select the **Omnichannel** channel, select **Apply**, and then refresh the page.
-        The **Telephony** channel will now appear in the list of available channels for your resource.
-        > [!div class=mx-imgBorder]
-        > ![Telephony channel.](media/acs-telephony-channel.png "Telephony channel")
-
-## Add bot user to a voice workstream
-
-To enable the bot to answer incoming calls, you must add the bot to a corresponding workstream for accepting voice calls.
+**To add bot user to a voice workstream**
 
 1. In Customer Service admin center or Omnichannel admin center, open the workstream related to your voice channel.
 
@@ -70,7 +45,6 @@ To enable the bot to answer incoming calls, you must add the bot to a correspond
 1. Select an existing bot from the dropdown list and select **Save and close**.
 
 Now, if there's a valid phone number associated with the workstream, the bot will automatically receive and respond to the phone call.
-
 
 ## Privacy notice
 
