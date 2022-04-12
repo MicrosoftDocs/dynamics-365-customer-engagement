@@ -39,12 +39,21 @@ foreach (var header in requestHeaders)
 HttpResponseMessage response = await client.SendAsync(httpRequest);
 ```
 
-File 
+## Attachment format on Azure bot channel  
+
+When file attachments are sent to the Azure bot from Omnichannel for Customer Service, the information required to download the files is available in the `amsReferences` and `amsMetadata` fields of the `Activity.ChannelData` property.
+
+The attachment information on ACS chat platform is not passed on Activity.Attachments field, as it is done on Teams chat platform. The Teams chat platform specific logic should not be removed from the existing bot but kept together with newly ACS specific logic to guarantee smooth migration between those two chat platforms.
+
+## Attachment format on Teams channel 
+
+When file attachment is sent from Omnichannel to Bot on Teams chat platform, it is passed on the Activity.Attachments property. The content type of that attachment is “application/vnd.microsoft.teams.file.download.info”: 
 
 ### See also
 
 [Card support by channel - Bot Framework SDK Documentation](/azure/bot-service/bot-service-channels-reference?view=azure-bot-service-4.0#card-support-by-channel)  
 [Support for live chat and asynchronous channels](card-support-in-channels.md)  
 [Enable file attachments](enable-file-attachments.md)  
+[Download file attachments from your Power Virtual Agents bot](download-attachments-PVA-bot.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

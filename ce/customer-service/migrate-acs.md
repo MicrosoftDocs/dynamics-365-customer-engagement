@@ -22,7 +22,9 @@ You must make the following changes to your omnichannel implementations by March
 
 - If you're a bot author or developer, then you must download the latest middleware NuGet package. More information: [Enable bot context NuGet package](enable-bot-context.md#install-the-bot-sdk-in-your-project) 
 
-- If your bot is processing file attachments, then you must update your code as described in  to the topic: Download attachments from your Azure bot | Microsoft Docs
+- If your bot is processing file attachments, then you must update your code as described in  to the topic:
+More information: [Download file attachments from your Azure bot](download-attachments-bot.md)  
+
 
 > [!Note]
 > These changes won't impact your existing omnichannel experience. We'll work with you to help you navigate and test the changes to ensure a smooth transition.
