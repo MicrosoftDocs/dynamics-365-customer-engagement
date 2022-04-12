@@ -22,47 +22,39 @@ In Omnichannel for Customer Service, you can integrate Azure bots and get the fo
 - Repurpose Azure bots to be smart assist bots and provide recommendations to agents. For more information, see [Manage smart assist](smart-assist.md) and [View smart assist suggestions](oc-smart-assist.md).
 - Integrate your Azure bot with the voice channel to enable calling/SMS services. More information: [Configure Azure bots for voice](voice-channel-azure-bot-service.md)
 
-To integrate your Azure bot, perform the following steps:
-
-1. [Connect your Azure bot resource to Omnichannel channel](#connect-your-azure-bot-resource-to-omnichannel-channel).
-1. [Configure the bot user as an omnichannel agent](#configure-the-bot-user-as-an-omnichannel-agent).
-1. [Configure routing rules and context variables](#configure-routing-rules).
-1. [Add the bot user to queues](#add-the-bot-user-to-queues).
-1. [Set escalation rules](#set-escalation-rules) as required.
-
 ## Prerequisites
 
 - Have a bot that's built using [Microsoft Bot Framework](https://dev.botframework.com) and registered with [Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0&preserve-view=true).  
 
     To create an Azure bot resource, see [Create Azure bot resource](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0#create-the-resource&preserve-view=true) section in the Bot Framework SDK documentation. Be sure to note the values of the Microsoft App ID and the bot handle.
-- Connect the bot to the desired channel to enable messaging and voice capabilities
+- Connect the bot to the desired channels to enable messaging and voice capabilities.
     - For only messaging capabilities, add [Omnichannel channel](/azure/bot-service/bot-service-channel-omnichannel?view=azure-bot-service-4.0&preserve-view=true) and [Microsoft Teams](/azure/bot-service/channel-connect-teams?view=azure-bot-service-4.0&preserve-view=true) as supported channels.
     - For only voice capabilities, [connect the bot to Telephony](/azure/bot-service/bot-service-channel-connect-telephony?view=azure-bot-service-4.0&preserve-view=true).
     - For both messaging and voice capabilities, ensure the bot is enabled for Microsoft Teams, Omnichannel, and Telephony channels.
 
-## Connect your bot resource to Telephony channel
+## Integrate Azure bots with Omnichannel for Customer Service
+
+After you've checked for the prerequisites, perform the following steps to integrate your Azure bots with Omnichannel for Customer Service.
+
+1. [Connect your Azure bot resource to Omnichannel channel](#connect-your-bot-resource-to-omnichannel-channel).
+1. [Configure the bot user as an omnichannel agent](#configure-the-bot-user-as-an-omnichannel-agent).
+1. [Configure routing rules and context variables](#configure-routing-rules).
+1. [Add the bot user to queues](#add-the-bot-user-to-queues).
+1. [Set escalation rules](#set-escalation-rules) as required.
+
+### Connect your bot resource to Omnichannel channel
 
 Perform the following steps to connect and register your bot with the Telephony channel.
 
 1. Open the [Azure portal](https://portal.azure.com), and then select your bot resource.
 
-2. Under **Settings**, select **Channels**. The list of available channels is displayed.
-> [!div class=mx-imgBorder]
-> ![Available channels.](media/acs-available-channels.png "Available channels")
+2. On the left pane, under **Settings**, select **Channels** and then select **Omnichannel** from the list of channels.
 
-3. Select **Telephony** and then select **Create a connection**.
-4. In the **New connection** dialog, do the following:
-    1. **Type**: Select **Omnichannel for Dynamics Customer Service** from the dropdown list.
-    1. **Subscription**: Select a subscription from the dropdown list.
-    1. **Azure Cognitive Services**: Select an existing Cognitive Services resource from the dropdown list or create a new one.
-    1. **Default Locale**: Select a locale from the dropdown list.
-    1. Select **Connect**. The **Omnichannel** telephony channel is now listed in the Bot connection column.
-    1. Select the **Omnichannel** channel, select **Apply**, and then refresh the page.
-        The **Telephony** channel will now appear in the list of available channels for your resource.
-    > [!div class=mx-imgBorder]
-    > ![Telephony channel.](media/acs-telephony-channel.png "Telephony channel")
+3. On the **Configure Omnichannel** page, select **Apply**.
 
-## Configure the bot user as an omnichannel agent
+Your bot is now registered with the Omnichannel channel.
+
+### Configure the bot user as an omnichannel agent
 
 The bot user is first created as an application user and then assigned the **Omnichannel agent** role.
 
@@ -82,7 +74,7 @@ The bot user is first created as an application user and then assigned the **Omn
     
     d. Select the app that you created during your Azure app registration, and then select **Add** and **Create**.
 
-1. Open the Dynamics 365 and under **Settings** > **System** > **Security** > **Users**, search and open the newly created user.
+1. Open your Dynamics 365 environment and under **Settings** > **System** > **Security** > **Users**, search and open the newly created user.
 
 1. Select the **APPLICATION USER** form.
 
@@ -93,7 +85,7 @@ The bot user is first created as an application user and then assigned the **Omn
 
 1. Select the save icon at the bottom of the page.
 
-## Add the bot user to queues
+### Add the bot user to queues
 
 You can add a bot user to specific queues where you want the bot to handle the customer queries first, instead of the agent. For this, you must ensure that the bot user has the highest capacity among all users in the queue.
 
@@ -102,16 +94,16 @@ Alternatively, you can also create a queue with the bot user only. In such a cas
 An agent can transfer a chat to a bot by adding the bot to a queue, and then transferring the chat to the queue.
 
 > [!Note]
-> The chat cannot be transferred to the same bot.
-> The bot works with the chat widget, workstream, and queues created in Omnichannel for Customer Service.
+> - The chat cannot be transferred to the same bot.
+> - The bot works with the chat widget, workstream, and queues created in Omnichannel for Customer Service.
 
-## Configure routing rules
+### Configure routing rules
 
 Routing rules route the incoming customer queries to their respective queues. Each routing rule has a condition and a destination queue. If the condition is evaluated as true, the customer query is routed to the destination queue. For bots, the condition is built by using context variables. To learn about context variables and how to add them, see [Configure context variables for a bot](context-variables-for-bot.md).
 
 Bots can be developed to receive customer queries first, gain information about the query, and then pass the query to a human agent if required. To achieve this behavior, you must first add the bot user to the queue and [configure routing rules](routing-rules.md) in a way that the incoming customer queries are routed to the queue with the bot user. Be sure to map the routing rules to the correct queues so that the queries are routed appropriately.
 
-## Set escalation rules
+### Set escalation rules
 
 Escalation rules allow you to create rules for the bot to escalate the queries to the appropriate agent. For escalation rules, you must [configure context variables](context-variables-for-bot.md) and set routing rules to route the customer queries. If the bot escalates a customer query, it's routed to the appropriate queue as per the defined routing rule. Even if the query is redirected to the same queue, another agent in the queue will pick the conversation as per the capacity.
 
@@ -126,9 +118,9 @@ You understand that your data may be transmitted and shared with external system
 [Best practices for configuring Azure bots](configure-azure-bot-best-practices.md)  
 [Understand and create workstreams](create-workstreams.md)  
 [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)  
-[Create and manage routing rules](routing-rules.md)  
 [View bot insights](omnichannel-insights-dashboard.md#botinsights)  
 [Configure Azure bots to escalate and end conversation](bot-escalate-end-conversation.md)  
+[Configure Azure bots for voice](voice-channel-azure-bot-service.md)  
 [Context variables for a bot](context-variables-for-bot.md)  
 [Create an application user](/powerapps/developer/data-platform/use-multi-tenant-server-server-authentication#create-a-multi-tenant-web-application-registered-with-your-azure-ad-tenant)  
 
