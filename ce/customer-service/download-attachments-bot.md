@@ -54,15 +54,17 @@ When file attachments are sent from Omnichannel for Customer Service to an Azure
 
 ### Attachment format on the Azure Bot Service channel  
 
-When file attachments are sent from Omnichannel for Customer Service on the Azure Bot Service channel, the information required to download the files is available in the `amsReferences` and `amsMetadata` fields of the `Activity.ChannelData` property.
+However, when file attachments are sent from Omnichannel for Customer Service to the Azure bot on the Azure Bot Service channel, the information required to download the files is available in the `amsReferences` and `amsMetadata` fields of the `Activity.ChannelData` property.
   > [!div class="mx-imgBorder"]
   > ![Attachment format on Azure Bot Service channel.](./media/attachment-format-acs-channel.png "Attachment format on Azure Bot Service channel.")
 
+In the new channel, the attachment information is not passed in the `Activity.Attachments` field, as is done on the Microsoft Teams chat channel.
+
 ### Migrate file attachments across the chat channels
 
-The attachment information on the Azure Bot Service channel is not passed in the `Activity.Attachments` field, as is done on the Microsoft Teams chat channel. So, the Teams chat channel-specific logic should not be removed from the existing bot but kept together with the new Azure Bot Service channel-specific logic to ensure smooth migration between the two chat channels.
+ So, to ensure smooth migration between the two chat channels, the Teams channel-specific logic should be retained in the bot code together with the new Azure Bot Service channel-specific logic.
 
-Here's a sample code that downloads file attachments.
+Here's a sample code to do this.
 
 ```csharp
 // 1. Retrieve Attachment ID from ChannelData["amsReferences"]

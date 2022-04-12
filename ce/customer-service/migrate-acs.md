@@ -22,7 +22,7 @@ To successfully migrate to the new channel, you must make the following changes 
 
 - If you're a bot author or developer, then you must download the latest middleware NuGet package. More information: [Enable bot context NuGet package](enable-bot-context.md#install-the-bot-sdk-in-your-project)
 
-- If you've enabled the option to download file attachments in chat conversations, then as a bot author or developer, you must program your Azure bot for processing and downloading the file attachments properly. More information: [How to process file attachments during migration](download-attachments-bot.md#how-to-process-file-attachments-during-migration)  
+- If you've enabled the option to download file attachments in chat conversations, then as a bot author or developer, you must program your Azure bot for processing and downloading the file attachments properly in the new channel. More information: [How to process file attachments during migration](download-attachments-bot.md#how-to-process-file-attachments-during-migration)  
 
 
 > [!Note]
