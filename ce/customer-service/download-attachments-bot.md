@@ -13,7 +13,7 @@ manager: shujoshi
 
 ## Introduction
 
-If you've deployed your Azure bot in Omnichannel for Customer Service and have enabled customers to send attachments such as pictures or documents to the bot, then follow these steps to download file attachments from your Azure bot.
+If you've deployed your Azure bot in Omnichannel for Customer Service and have enabled customers to send attachments such as pictures or documents to the bot over a chat session, then follow these steps to download file attachments from your Azure bot.
 
 1. Get the token for your Azure bot. You can do so by providing your bot's Microsoft App ID and Client secret. More information: [Connector authentication](/azure/bot-service/rest-api/bot-framework-rest-connector-authentication?view=azure-bot-service-4.0)
 
@@ -41,7 +41,7 @@ HttpResponseMessage response = await client.SendAsync(httpRequest);
 
 ## How to process file attachments during migration
 
-This section describes how you must process file attachments when you migrate your omnichannel implementations from the old Microsoft Teams channel to the new Azure Bot Service channel during a regular chat session. 
+This section describes how you must process file attachments when you migrate your omnichannel implementations from the old Microsoft Teams channel to the new Azure Bot Service channel. 
 
 Before you begin, let's quickly learn about the file attachment formats in the Teams channel and the Azure Bot Service channel.
 
@@ -58,13 +58,9 @@ However, when file attachments are sent from Omnichannel for Customer Service to
   > [!div class="mx-imgBorder"]
   > ![Attachment format on Azure Bot Service channel.](./media/attachment-format-acs-channel.png "Attachment format on Azure Bot Service channel.")
 
-In the new channel, the attachment information is not passed in the `Activity.Attachments` field, as is done on the Microsoft Teams chat channel.
-
 ### Migrate file attachments across the chat channels
 
- So, to ensure smooth migration between the two chat channels, the Teams channel-specific logic should be retained in the bot code together with the new Azure Bot Service channel-specific logic.
-
-Here's a sample code to do this.
+ In the new channel, the attachment information is not passed in the `Activity.Attachments` field, as is done on the Microsoft Teams chat channel. So, to ensure smooth migration between the two chat channels, the Teams channel-specific logic should be retained in the bot code together with the new Azure Bot Service channel-specific logic, as shown in the following sample code.
 
 ```csharp
 // 1. Retrieve Attachment ID from ChannelData["amsReferences"]
