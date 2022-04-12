@@ -186,7 +186,6 @@ If you have configured capacity profiles in your unified routing setup, perform 
     | 5. |  Assignment Configuration Step (msdyn_assignmentconfigurationstep)  |  <ul><li>Assignment Configuration (msdyn_assignmentconfigurationid)</li><li>Assignment Configuration Step (msdyn_assignmentconfigurationstepid)</li><li>Is default ruleset (msdyn_isdefaultruleset)</li><li>Name (msdyn_name)</li><li>Rule Set (msdyn_rulesetid)</li><li>Rule Set - (msdyn_rulesetid)</li><li>Step Order (msdyn_steporder)</li><li>Step Type (msdyn_type)</li><li>Unique Name (msdyn_uniquename)</li></ul>  |  [**Option 1: Assignment configuration step for all unified routing-based record queues**](#BKMK1all-ur-acs) <br> <br> [**Option 2: Assignment configuration step for a single unified routing-based record queue**](#BKMK2single-ur-acs) <br> <br> [**Option 3: Assignment configuration step for multiple unified routing-based record queues**](#BKMK3multiple-ur-acs) <br>   |
     |||||
 
-
 2. Generate the schema and save it.
 
 3. Export the data and generate the compressed (zip) file.
@@ -1179,4 +1178,5 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 ### See also
 
-[Create a schema to export configuration data](/power-platform/admin/create-schema-export-configuration-data)
+[Create a schema to export configuration data](/power-platform/admin/create-schema-export-configuration-data)  
+[Export and import configuration for live chat](export-import-unified-routing-live-chat.md)  
