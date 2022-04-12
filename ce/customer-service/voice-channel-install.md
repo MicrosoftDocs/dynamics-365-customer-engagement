@@ -30,6 +30,7 @@ To install the voice channel, you must obtain an active subscription of the voic
 
 ### See also
 
+[System requirements for using the voice channel](system-requirements-omnichannel.md)  
 [Connect to Azure Communication Services](voice-channel-acs-resource.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
 [Set up inbound calling](voice-channel-route-queues.md)  

@@ -1,10 +1,10 @@
 ---
 title: Knowledge base search options in Dynamics 365 Customer Service| MicrosoftDocs
 description: Know how the knowledge base search methods work in Microsoft Dynamics 365 Customer Service.
-ms.date: 12/20/2021
+ms.date: 03/14/2022
 ms.topic: article
-author: lalexms
-ms.author: laalexan
+author: Soumyasd27
+ms.author: sdas
 manager: shujoshi
 search.audienceType: 
   - admin

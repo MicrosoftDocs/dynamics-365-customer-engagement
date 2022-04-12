@@ -12,6 +12,8 @@ manager: shujoshi
 
 [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)] 
 
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4TYQP]
+
 Identifying duplicate leads helps you to maintain a clean and accurate database of leads by removing the duplicates.
 
 ## License and role requirements

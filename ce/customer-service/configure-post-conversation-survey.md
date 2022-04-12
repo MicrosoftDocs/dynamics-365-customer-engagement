@@ -1,7 +1,7 @@
 ---
 title: "Configure post-conversation survey | MicrosoftDocs"
 description: "Instructions to configure a post-conversation survey in Omnichannel for Customer Service."
-ms.date: 11/23/2021
+ms.date: 04/02/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -55,15 +55,12 @@ In the Omnichannel admin center or Omnichannel Administration app, you can set u
 
 1. Go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
      
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-
     - In the site map, select **Workstreams** in **Customer support**.
 
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
-    
+
      - In the site map, select **Workstreams** in **General settings**.
 
 1. Select the channel instance, and then select **Edit**.
@@ -79,12 +76,29 @@ In the Omnichannel admin center or Omnichannel Administration app, you can set u
        - In the **Message** box that appears, select the default message text or type a custom message. The personalized survey link will be appended to the message and displayed to the customer.
    - **Insert survey in conversation:** At runtime, the agent can insert a survey link in an active conversation that results in the survey questions being displayed on the customer chat window. This option is available only for the Live chat channel.
 
-1. Select the **Bot conversation survey (preview)** checkbox to share surveys for conversations that are handled by bots.
+1. Select the **Bot conversation survey** checkbox to share surveys for conversations that are handled by bots.
 
    > [!NOTE]
-   > In preview, the bot conversation survey option is available for only the live chat channel.
+   > The bot conversation survey option is available for the live chat channel only.
+
+    By default, the **Use same survey settings as above** checkbox is selected.
+
+1. If you want to use different settings for the surveys sent by bots, repeat steps 4 and 5.
 
 1. Select **Save and close**.
+
+## Runtime experience of post-conversation surveys
+
+If the post-conversation survey is enabled for a conversation, after the conversation ends, the pre-designed survey is shared with the customer. This survey allows you to keep a track of the customer feedback for the service provided. Any conversation can be considered as closed when one of the following scenarios happen:
+
+- Agent closes the chat conversation.
+- Customer closes the chat conversation.
+- System closes the chat conversation after a pre-defined time.
+
+For Live chat conversations, customers can receive survey questions within the same conversation or through a link that takes them to an external site. For SMS and social channels, a survey link is shared.
+
+> [!NOTE]
+> The surveys that you create and the survey data that's processed are not hosted or stored in Omnichannel for Customer Service.
 
 ### Configure the survey in Omnichannel Administration
 
@@ -113,19 +127,6 @@ In the Omnichannel admin center or Omnichannel Administration app, you can set u
 
     > [!div class=mx-imgBorder]
     > ![Post-conversation survey.](media/oc-post-conversation-survey.png "Post-conversation survey")
-
-## Runtime experience of post-conversation surveys
-
-If the post-conversation survey is enabled for a conversation, after the conversation ends, the pre-designed survey is shared with the customer. This survey allows you to keep a track of the customer's feedback of the service provided. Any conversation can be considered as closed when one of the following scenarios happen:
-
-- Agent closes the chat conversation.
-- Customer closes the chat conversation.
-- System closes the chat conversation after a pre-defined time.
-
-For Live chat conversations, customers can receive survey questions within the same conversation or through a link that takes them to an external site. For SMS and social channels, a survey link is shared.
-
-> [!NOTE]
-> The surveys that you create and survey data that's processed are not hosted or stored in Omnichannel for Customer Service.
 
 ### See also
 
