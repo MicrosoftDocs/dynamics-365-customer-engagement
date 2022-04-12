@@ -860,7 +860,7 @@
         href: enable-bot-context.md
       - name: Enable a bot to escalate and end conversation
         href: bot-escalate-end-conversation.md
-      - name: Download attachments from Azure bot
+      - name: Download file attachments from Azure bot
         href: download-attachments-bot.md
       - name: Get user details on Teams from Azure bot
         href: user-details-teams-azure-bot.md
