@@ -29,6 +29,8 @@ When you're working on an opportunity, you'll be interacting with several people
 
 A stakeholder can be a decision maker or any person who will be working with you on the opportunity from the customer's end. Other stakeholder categories include Champion, End User, Economic Buyer, Influencer, and Technical Buyer.
 
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4U5N2]
+
 **To add stakeholders and other stakeholder categories:**
 
 1. In the Sales Hub site map, select **Opportunities**.
