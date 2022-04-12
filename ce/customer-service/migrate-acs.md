@@ -10,9 +10,9 @@ manager: shujoshi
 
 # Migration changes for new mnichannel messaging platform
 
-We'll be rolling out a new messaging platform enhancement in phases over the next few months. We're releasing a new Azure Bot Service channel to extend the existing bot integration capabilities for the messaging channels.
+We'll be rolling out a new messaging platform in phases over the next few months. We're releasing a new Azure Bot Service channel to extend the existing bot integration capabilities of the messaging channels.
 
-You must make the following changes to your omnichannel implementations by March 2022:
+To successfully migrate to the new channel, you must make the following changes to your omnichannel implementations by March 2022:
 
 - If you have network policies in your organization, be sure to update your system requirements to include a new set of domains that'll be used by the new channel. More information: [Omnichannel for Customer Service system requirements](system-requirements-omnichannel.md)
 
@@ -20,10 +20,9 @@ You must make the following changes to your omnichannel implementations by March
 
 - If you're integrating an Azure bot, then you must connect and register your bot with the new channel. More information: [Integrate Azure bot](configure-bot.md). If you're using a Power Virtual Agents bot or Azure Health Bot, then these changes will be automatically applied, and you don't need to take any action.
 
-- If you're a bot author or developer, then you must download the latest middleware NuGet package. More information: [Enable bot context NuGet package](enable-bot-context.md#install-the-bot-sdk-in-your-project) 
+- If you're a bot author or developer, then you must download the latest middleware NuGet package. More information: [Enable bot context NuGet package](enable-bot-context.md#install-the-bot-sdk-in-your-project)
 
-- If your bot is processing file attachments, then you must update your code as described in  to the topic:
-More information: [Download file attachments from your Azure bot](download-attachments-bot.md)  
+- If you've enabled the option to download file attachments in chat conversations, then as a bot author or developer, you must program your Azure bot for processing and downloading the file attachments properly. More information: [How to process file attachments during migration](download-attachments-bot.md#how-to-process-file-attachments-during-migration)  
 
 
 > [!Note]
