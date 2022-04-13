@@ -1,7 +1,7 @@
 ---
 title: "Set up a multilingual bot in Power Virtual Agents | MicrosoftDocs"
 description: "Use this article to learn how to set up a multilingual bot in Power Virtual Agents to use in Omnichannel for Customer Service."
-ms.date: 04/12/2022
+ms.date: 04/13/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -130,7 +130,7 @@ For example, you can create a bot with the following details:
 1. Select **Add node** (+), select **End the conversation**, and then select **Transfer to agent**.
 
 1. Optionally, in **Private message to agent**, enter the following to fetch the preferred language of the customer.
-   
+
    `Customer preferred language is {x} bot.va_CustomerLocale`
 
 1. Save the topic.
@@ -171,9 +171,7 @@ For example, ensure the following settings:
 
 1. In the route to queues rule set of the workstream, use **Conversation.CustomerLanguage** as the criteria to route the incoming call to different language queues based on the option that's selected by the customer.
 
-
     :::image type="content" source="media/multilingual-route-to-queue-rules.png" alt-text="Route-to-queue rules for the multilingual contact center workstream":::
-
 
 1. In the **Bot** area of the workstream, edit to add the Power Virtual Agents bot that you configured.
 
@@ -182,7 +180,6 @@ For example, ensure the following settings:
 1. As a customer, call the number that's registered with the voice workstream.
 
 1. When you're prompted with an interactive voice response (IVR) message, select a language. Verify that the bot routes the call to an agent who can speak with you in the language that you've selected.
-
 
 ### See also
 
