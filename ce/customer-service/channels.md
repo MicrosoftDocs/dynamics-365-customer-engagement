@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.topic: overview
-ms.date: 04/04/2022
+ms.date: 04/13/2022
 
 ---
 
@@ -42,6 +42,7 @@ There are two options:
 
 - [SMS through TeleSign](configure-sms-channel.md)
 - [SMS through Twilio](configure-sms-channel-twilio.md)
+- [SMS through Azure Communication Services](configure-sms-channel-acs.md)
 
 ## Social channels
 
