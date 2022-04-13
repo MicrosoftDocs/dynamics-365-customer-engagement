@@ -47,7 +47,7 @@ When you've gathered the basic details about the customer, move the opportunity 
     |**Estimated Budget**     |Enter the estimated budget of the customer. This is different from the estimated revenue. Depending on the budget the customer has, you can decide the products that best fits the budget.         |
     |**Purchase Process**     | Select whether the purchase decision is made by an individual or committee.        |
     |**Identify Decision Maker**     |Mark as complete if you've identified the decision maker. More information: [Add stakeholders and decision makers for the opportunity](add-stakeholder.md#add-stakeholders-and-decision-makers-for-the-opportunity)         |
-1. Select **Next Stage**. 
+1. Select **Next Stage**.  
     The opportunity moves to the Develop stage of the process.
 
 ## Move the opportunity to Develop stage
@@ -64,7 +64,7 @@ When you've gathered specific details about the customer need, move the opportun
     |**Identify Stakeholders**     |Select **mark complete** if you've added contacts in the Stakeholders. These are contacts from the customer's end who will be involved in pursuing the opportunity. More information: [Add stakeholders and decision makers for the opportunity](add-stakeholder.md#add-stakeholders-and-decision-makers-for-the-opportunity)         |
     |**Identify Competitors**     |Select **mark complete** if you've added the competitor information. More information: [Add competitors for the opportunity](add-stakeholder.md#add-competitors-for-the-opportunity)         |
 
-2. Select **Next stage**.
+2. Select **Next stage**.  
     The opportunity moves to the Propose stage of the process.
 
 ## Move the opportunity to Propose stage
@@ -81,7 +81,7 @@ When you've ready to propose the solution to the customer, move the opportunity 
     |**Complete Internal Review**     |Select **mark complete** if you've completed an internal review of the proposal.          |
     |**Present Proposal**     |Select **mark complete** if you've presented the proposal to the stakeholders.          |
 
-2. Select **Next stage**.
+2. Select **Next stage**.  
     The opportunity moves to the Close stage of the process.
 
 The next step is to create a quote and send it to your customer. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create a quote and send it to your customer](../sales-enterprise/create-edit-quote-sales.md)
@@ -100,6 +100,6 @@ When the opportunity materializes, you can move the opportunity to the Close sta
     |**Send Thank You**     | Select **mark complete** if you've sent a thank you note to the customer.        |
     |**File De-brief**     | Select **mark complete** if you've created a de-brief for the opportunity.       |
 
-2. Select **Finished** when you're done with all the activities.
+2. Select **Finished** when you're done with all the activities.  
     You can now close the opportunity as Won or Lost. More information: [Close opportunities as won or lost](close-opportunity-won-lost-sales.md)
 
