@@ -60,8 +60,7 @@ You can even create entirely new groups with more subareas to display different 
 
 - [Customize entity views](/powerapps/developer/model-driven-apps/customize-entity-views)
 
-> [!Note]
-> Currently, the booking calendar view is not editable. You cannot edit the fields displayed in the time slots on the calendar.
+- [Customize Booking Calendar](https://docs.microsoft.com/dynamics365/field-service/mobile-powerapp-customize-booking-calendar)
 
 ### See also
 
