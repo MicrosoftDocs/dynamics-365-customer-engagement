@@ -28,17 +28,16 @@ An opportunity goes through different stages (also known as pipeline phase) as y
 ## License and role requirements
 | Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium,  Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Premium  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium,  Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
 
 ## Move the opportunity to Qualify stage
 
 When you've gathered the basic details about the customer, move the opportunity to the Qualify stage. 
 
-:::image type="content" source="media/opportunity-stages.png" alt-text="A screenshot of accessing the Qualify stage in the opportunity.":::
+1. Select **Qualify** in the process bar and specify the following details about the customer:
 
-1. Select **Qualify** in the process bar when you've identified the following details about the customer:
-
+    :::image type="content" source="media/opportunity-stages.png" alt-text="A screenshot of accessing the Qualify stage in the opportunity.":::
     
     |Field  |Description  |
     |---------|---------|
@@ -48,12 +47,14 @@ When you've gathered the basic details about the customer, move the opportunity 
     |**Estimated Budget**     |Enter the estimated budget of the customer. This is different from the estimated revenue. Depending on the budget the customer has, you can decide the products that best fits the budget.         |
     |**Purchase Process**     | Select whether the purchase decision is made by an individual or committee.        |
     |**Identify Decision Maker**     |Mark as complete if you've identified the decision maker. More information: [Add stakeholders and decision makers for the opportunity](add-stakeholder.md#add-stakeholders-and-decision-makers-for-the-opportunity)         |
-1. Specify the details and select **Next Stage**. 
+1. Select **Next Stage**. 
     The opportunity moves to the Develop stage of the process.
 
 ## Move the opportunity to Develop stage
 
-1. Select **Develop** in the process bar when you've worked out the following details:
+When you've gathered specific details about the customer need, move the opportunity to the Develop stage. 
+
+1. Select **Develop** in the process bar and specify the following details:
 
     
     |Field  |Description  |
@@ -63,10 +64,12 @@ When you've gathered the basic details about the customer, move the opportunity 
     |**Identify Stakeholders**     |Select **mark complete** if you've added contacts in the Stakeholders. These are contacts from the customer's end who will be involved in pursuing the opportunity. More information: [Add stakeholders and decision makers for the opportunity](add-stakeholder.md#add-stakeholders-and-decision-makers-for-the-opportunity)         |
     |**Identify Competitors**     |Select **mark complete** if you've added the competitor information. More information: [Add competitors for the opportunity](add-stakeholder.md#add-competitors-for-the-opportunity)         |
 
-2. Specify the details and select **Next stage**.
+2. Select **Next stage**.
     The opportunity moves to the Propose stage of the process.
 
 ## Move the opportunity to Propose stage
+
+When you've ready to propose the solution to the customer, move the opportunity to the Propose stage. 
 
 1. In the **Propose** stage, select **mark complete** next to each of the following steps that you've completed:
 
@@ -78,7 +81,7 @@ When you've gathered the basic details about the customer, move the opportunity 
     |**Complete Internal Review**     |Select **mark complete** if you've completed an internal review of the proposal.          |
     |**Present Proposal**     |Select **mark complete** if you've presented the proposal to the stakeholders.          |
 
-2. Specify the details and select **Next stage**.
+2. Select **Next stage**.
     The opportunity moves to the Close stage of the process.
 
 The next step is to create a quote and send it to your customer. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create a quote and send it to your customer](../sales-enterprise/create-edit-quote-sales.md)
