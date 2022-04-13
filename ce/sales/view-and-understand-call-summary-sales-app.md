@@ -82,7 +82,7 @@ Further, you can share the saved summary with the stakeholders through an email.
 3.	Type your notes and select the bulb icon to add the automatically generated suggestions from the items on the right.    
 
     >[!NOTE]
-    >-	To add notes from the call highlights and action items, select **+ Add** corresponding to the item. 
+    >-	To add notes from the call highlights and action items, select **Add** corresponding to the item. 
     >-	To add all the suggested notes, select More options (…) corresponding to Suggested notes, and then select **Add all**.
     >-	To understand and know more about the context of the note, select the timestamp corresponding to the notes and you are directed to the section in the transcript. 
 
