@@ -15,7 +15,7 @@ manager: shujoshi
 
 If you've deployed your Azure bot in Omnichannel for Customer Service and have enabled customers to send attachments such as pictures or documents to the bot over a chat session, then follow these steps to download file attachments from your Azure bot.
 
-1. Get the token for your Azure bot. You can do so by providing your bot's Microsoft App ID and Client secret. More information: [Connector authentication](/azure/bot-service/rest-api/bot-framework-rest-connector-authentication?view=azure-bot-service-4.0)
+1. Get the token for your Azure bot. You can do so by providing your bot's Microsoft App ID and Client secret. More information: [Connector authentication](/azure/bot-service/rest-api/bot-framework-rest-connector-authentication?view=azure-bot-service-4.0&preserve-view=true)
 
 2. Fetch the `attachmentId` from the attachment content URL. For example, the `attachmentId` in this URL `https://us-api.asm.skype.com/v1/objects/0-eus-d1-5360689c55c308cb4e3b51722e46b801/` is `0-eus-d1-5360689c55c308cb4e3b51722e46b801`. 
 
@@ -45,7 +45,7 @@ HttpResponseMessage response = await client.SendAsync(httpRequest);
 [Enable file attachments](enable-file-attachments.md)  
 [Process file attachments during migration](process-file-attachments-during-migration.md)  
 [Download file attachments from your Power Virtual Agents bot](download-attachments-PVA-bot.md)  
-[Card support by channel - Bot Framework SDK Documentation](/azure/bot-service/bot-service-channels-reference?view=azure-bot-service-4.0#card-support-by-channel)  
+[Card support by channel - Bot Framework SDK Documentation](/azure/bot-service/bot-service-channels-reference?view=azure-bot-service-4.0#card-support-by-channel&preserve-view=true)  
 [Support for live chat and asynchronous channels](card-support-in-channels.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
