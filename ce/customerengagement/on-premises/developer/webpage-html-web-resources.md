@@ -41,7 +41,7 @@ Because an HTML web resource is just streamed to the user's browser, it can incl
 
 ## Use the text editor for HTML web resources
 
- The text editor provided in the web resource form is intended for use with very simple HTML editing. For more sophisticated HTML documents, you should edit the code in an external editor and use the **Browse** button to upload the contents of your file.
+ The text editor provided in the web resource form is intended for use with very simple [HTML editing](https://goonlinetools.com/html-viewer/?promo=true). For more sophisticated HTML documents, you should edit the code in an external editor and use the **Browse** button to upload the contents of your file.
 
  For example, a more complex HTML page that requires script to render the contents of the page will begin like the following sample.
 
