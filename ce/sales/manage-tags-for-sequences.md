@@ -170,7 +170,7 @@ For example, there are three levels of tags in the hierarchy. You delete a tag a
     >[!div class="mx-imgBorder"]
     >![Select Edit tag for a sequence.](media/sa-sequence-tags-apply-tag-select-edit-tag.png "Select Edit tag for a sequence")    
     
-5.	On the **Edit sequence tags** pane, select **+ Add tags to sequence**.
+5.	On the **Edit sequence tags** pane, select **Add tags to sequence**.
 
     >[!div class="mx-imgBorder"]
     >![Select Add tag to sequence.](media/sa-sequence-tags-apply-tag-select-add-tags-sequence.png "Select Add tag to sequence")    

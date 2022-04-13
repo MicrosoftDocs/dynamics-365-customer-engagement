@@ -107,7 +107,7 @@ The filters you apply are available only for that session and can’t be saved. 
     >[!div class="mx-imgBorder"]
     >![The Filter by seller properties pane](media/sa-ar-sales-team-advanced-filters-pane.png "The Filter by seller properties pane")  
     
-5.	Select **+ Add** and then choose the filter options as described in the following table:
+5.	Select **Add** and then choose the filter options as described in the following table:
 
     | Filter option | Description |
     |---------------|-------------|
@@ -148,7 +148,7 @@ You can apply attributes in bulk by selecting multiple sellers at a time.
     -	**Replace existing attributes with new attributes**: This option replaces the existing attributes that were already applied to the seller. If any leads were assigned to the seller based on the previous attributes, those leads won't be affected.
     -	**Keep existing attributes and add more**: This option adds more attributes to the seller, in addition to the attributes that were already applied.
 
-7.	Select **+ Add attribute**, and then choose the attribute and its corresponding values. Repeat this step for each attribute you want to add.
+7.	Select **Add attribute**, and then choose the attribute and its corresponding values. Repeat this step for each attribute you want to add.
 
     >[!div class="mx-imgBorder"]
     >![Select Add attribute](media/sa-ar-sales-team-add-attribute.png "Select Add attribute")

@@ -161,7 +161,7 @@ It's no longer necessary for you to open a laptop to add notes to an opportunity
     > [!div class="mx-imgBorder"]
     > ![Add a note to an opportunity.](media/mobile-app-take-notes-timeline.png "Add a note to an opportunity")
 
-3. (Optional) If the customer shows interest in additional products, go to the **Products** tab, tap **More options** (...), and then tap **+ Add Product**.
+3. (Optional) If the customer shows interest in additional products, go to the **Products** tab, tap **More options** (...), and then tap **Add Product**.
 
     > [!div class="mx-imgBorder"]
     > ![Select the Add Product option.](media/mobile-app-select-add-product.png "Select the Add Product option")

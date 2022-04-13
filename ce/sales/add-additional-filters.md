@@ -57,7 +57,7 @@ For example, you know that opportunities related to **Adatum Corporation** and t
 
 1.	In the **Filter Data** step of the forecast configuration, go to the **Add rollup filters** section.
  
-2.	Select **+ Add** > **Add row**. 
+2.	Select **Add** > **Add row**. 
  
 3.	In the selection boxes, select the attribute as **Potential Customer**, the condition as **Does Not Equals**, and the company to be considered as **Adatum Corporation**.
  
@@ -66,7 +66,7 @@ For example, you know that opportunities related to **Adatum Corporation** and t
 
     With this condition, the opportunities related to **Adatum Corporation** will be removed from the forecast. In the next step, you'll add a condition to filter revenue that's more than or equal to **$10,000**.
 
-4.	Select **+ Add** > **Add row**.
+4.	Select **Add** > **Add row**.
 
 5.	In the selection boxes, select the attribute as **Est. Revenue**, the condition as **Is greater than**, and revenue to be considered as **10000**.
 
