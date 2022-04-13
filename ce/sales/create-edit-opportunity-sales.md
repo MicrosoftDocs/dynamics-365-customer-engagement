@@ -61,7 +61,7 @@ Create an opportunity with the details you have. You can update the opportunity 
      >- Your base record and all its line items must use the same currency. For example, if your opportunity has the currency set to US Dollars, you must use the same currency for the price list items that you add to the opportunity. You can't change the currency of the base record (in this case, an opportunity), unless you remove all the list items associated with the record.
      >- Similarly, all the records created from an opportunity, such as a quote, order or invoice must use the same currency as the opportunity. 
 
-1. Select the pull-down menu at the top-right corner of the opportunity as shown in the following video:
+1. Select the pull-down menu at the top-right corner of the opportunity to update the estimated revenue and estimated close date as shown in the following video:
 
     > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4TYCI]
  
