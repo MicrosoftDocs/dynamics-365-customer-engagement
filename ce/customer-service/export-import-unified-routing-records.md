@@ -78,22 +78,7 @@ You must perform the steps in the order they're listed to migrate your configura
 
    1. Remove the order attribute element.
 
-<!-- <Remove the this procedure> **To use FetchXML to export data from the required entity**
-
-> [!NOTE]
-> Use the DataMigrationUtility App instead of the DataMigrationUtility.exe to use the Configuration Migration Tool.
-
-
-1. In the Configuration Migration Tool, select **Configure Import Settings from Tools**.
-
-1. Select the entity that needs to run FetchXML from the **Available Entity** drop-down list.
-
-1. Select **Edit FetchXML**. Put the XML generated from **Download FetchXML**, and select **OK**.
-
-1. Select **Save**.
-
--->
-## Export and import skill-based configuration
+## Export and import skill-based routing configuration
 
 If skill-based routing rulesets are used in your unified routing setup, perform the steps to migrate the corresponding configuration.
 
@@ -102,10 +87,8 @@ If skill-based routing rulesets are used in your unified routing setup, perform 
 
 **Sample schema**
 
-[Sample schema for skill-based routing](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20skill-based%20routing.xml) to get all the required records.
+[Sample schema for skill-based routing configuration](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20skill-based%20routing.xml) to get all the required records.
 
-
-**To migrate the skill-based routing data**
 
 1. Use the Configuration Migration tool to create the schema and export data from the source organization for skill-based routing configuration.
   
@@ -160,15 +143,18 @@ If you have configured capacity profiles in your unified routing setup, perform 
  > - Assignment configuration
  > - Assignment configuration step
 
- > - If you want to update a queue in the target organization after a successful import for queues and import again, remove the following line from the sample schema xml and data. `<field displayname="Queue type" name="msdyn_queuetype" type="optionsetvalue" customfield="true" />`
+Along with the import of the queues configuration, if you want to update an existing queue in the target organization, you must remove the following line from the sample schema xml and data before you use it to import the configuration.
+
+`<field displayname="Queue type" name="msdyn_queuetype" type="optionsetvalue" customfield="true" />`
+
 **Sample schema**
 
-[Sample schema for unified routing-based record queues](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20unified%20routing%20record%20queues.xml) to get all the required records.
+[Sample schema for record queues](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20unified%20routing%20record%20queues.xml) to get all the required records.
 
 
-**To migrate the unified routing-based record queues**
+**To migrate the record queues**
 
-1. Use the Configuration Migration tool to create the schema and export data from the source organization for unified routing-based record queues configuration.
+1. Use the Configuration Migration tool to create the schema and export data from the source organization for the record queues configuration.
 
     [!INCLUDE[ur-migration](../includes/cc-ur-migration.md)]
     - **Configure import settings**: For the Decision contract entity, ensure that you select the **Do not update existing records** checkbox.
@@ -176,11 +162,11 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
     |S.No.| Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
     |-----|---------|---------|---------|
-    | 1. | Queue (queue) |  <ul><li>Assignment Input Contract Id (msdyn_assignmentinputcontractid)</li><li>Assignment Strategy (msdyn_assignmentstrategy) </li> <li> Description (description) </li><li> Is Default Queue (msdyn_isdefaultqueue) </li><li> Is Omnichannel queue (msdyn_isomnichannelqueue) </li><li> Name (name) </li><li> Priority (msdyn_priority) </li><li> Queue (queueid) </li><li> Queue type (msdyn_queuetype) </li><li> Type (queueviewtype) </li></ul>  |  [**Option 1: All queues for unified routing-based records**](#BKMK1all-ur-qs) <br><br> [**Option 2: Single queue for unified routing-based records**](#BKMK2single-ur-qs) <br><br> [**Option 3: Multiple queues for unified routing-based records**](#BKMK3multiple-ur-qs)   |
-    | 2. | Decision contract (msdyn_decisioncontract)  |  <ul> <li>Contract definition (msdyn_contractdefinition)</li> <li>Decision contract (msdyn_decisioncontractid) </li> <li>Name (msdyn_name) </li> <li>Unique name (msdyn_uniquename) </li> </ui>  | [**Option 1: Decision contract for all unified routing-based record queues**](#BKMK1all-ur-dc) <br> <br>  [**Option 2: Decision contract for a single unified routing-based record queue**](#BKMK2single-ur-dc) <br> <br> [**Option 3: Decision contract for multiple unified routing-based record queues**](#BKMK3multiple-ur-dc) <br> |
-    | 3. |  Decision ruleset (msdyn_decisionruleset)  |  <ul><li>AI builder model (msdyn_aibmodelid)</li><li>Authoring mode (msdyn_authoringmode)</li><li>Decision rule set (msdyn_decisionrulesetid)</li><li>Description (msdyn_description)</li><li>Input contract (msdyn_inputcontractid)</li><li>Is input collection (msdyn_isinputcollection)</li><li>ML model type (msdyn_mlmodeltype)</li><li>Name (msdyn_name)</li><li>Output contract (msdyn_outputcontractid)</li><li>Rule set definition (msdyn_rulesetdefinition)</li><li>Rule set type (msdyn_rulesettype)</li><li>Unique name (msdyn_uniquename)</li></ul>  |  [**Option 1: Decision ruleset for all unified routing-based record queues**](#BKMK1all-ur-rls) <br> <br> [**Option 2: Decision ruleset for a single unified routing-based record queue**](#BKMK2single-ur-rls) <br> <br> [**Option 3: Decision ruleset for multiple unified routing-based record queues**](#BKMK3multiple-ur-rls) <br>  |
-    | 4. |  Assignment Configuration (msdyn_assignmentconfiguration)  |  <ul><li>Assignment Configuration (msdyn_assignmentconfigurationid)</li><li>Description (msdyn_description)</li><li>Is Active Configuration (msdyn_isactiveconfiguration)</li><li>Name (msdyn_name)</li><li>Queue (msdyn_queueid)</li><li>Unique Name (msdyn_uniquename)</li></ul>  | [**Option 1: Assignment configuration for all unified routing-based record queues**](#BKMK1all-ur-ac) <br> <br>[**Option 2: Assignment configuration for a single unified routing-based-record queue**](#BKMK2single-ur-ac) <br> <br>[**Option 3: Assignment configuration for multiple unified routing-based record queues**](#BKMK3multiple-ur-ac) <br>   |
-    | 5. |  Assignment Configuration Step (msdyn_assignmentconfigurationstep)  |  <ul><li>Assignment Configuration (msdyn_assignmentconfigurationid)</li><li>Assignment Configuration Step (msdyn_assignmentconfigurationstepid)</li><li>Is default ruleset (msdyn_isdefaultruleset)</li><li>Name (msdyn_name)</li><li>Rule Set (msdyn_rulesetid)</li><li>Rule Set - (msdyn_rulesetid)</li><li>Step Order (msdyn_steporder)</li><li>Step Type (msdyn_type)</li><li>Unique Name (msdyn_uniquename)</li></ul>  |  [**Option 1: Assignment configuration step for all unified routing-based record queues**](#BKMK1all-ur-acs) <br> <br> [**Option 2: Assignment configuration step for a single unified routing-based record queue**](#BKMK2single-ur-acs) <br> <br> [**Option 3: Assignment configuration step for multiple unified routing-based record queues**](#BKMK3multiple-ur-acs) <br>   |
+    | 1. | Queue (queue) |  <ul><li>Assignment Input Contract Id (msdyn_assignmentinputcontractid)</li><li>Assignment Strategy (msdyn_assignmentstrategy) </li> <li> Description (description) </li><li> Is Default Queue (msdyn_isdefaultqueue) </li><li> Is Omnichannel queue (msdyn_isomnichannelqueue) </li><li> Name (name) </li><li> Priority (msdyn_priority) </li><li> Queue (queueid) </li><li> Queue type (msdyn_queuetype) </li><li> Type (queueviewtype) </li></ul>  |  [**Option 1: All queues for records**](#BKMK1all-ur-qs) <br><br> [**Option 2: Single queue for records**](#BKMK2single-ur-qs) <br><br> [**Option 3: Multiple queues for records**](#BKMK3multiple-ur-qs)   |
+    | 2. | Decision contract (msdyn_decisioncontract)  |  <ul> <li>Contract definition (msdyn_contractdefinition)</li> <li>Decision contract (msdyn_decisioncontractid) </li> <li>Name (msdyn_name) </li> <li>Unique name (msdyn_uniquename) </li> </ui>  | [**Option 1: Decision contract for all record queues**](#BKMK1all-ur-dc) <br> <br>  [**Option 2: Decision contract for a single record queue**](#BKMK2single-ur-dc) <br> <br> [**Option 3: Decision contract for multiple record queues**](#BKMK3multiple-ur-dc) <br> |
+    | 3. |  Decision ruleset (msdyn_decisionruleset)  |  <ul><li>AI builder model (msdyn_aibmodelid)</li><li>Authoring mode (msdyn_authoringmode)</li><li>Decision rule set (msdyn_decisionrulesetid)</li><li>Description (msdyn_description)</li><li>Input contract (msdyn_inputcontractid)</li><li>Is input collection (msdyn_isinputcollection)</li><li>ML model type (msdyn_mlmodeltype)</li><li>Name (msdyn_name)</li><li>Output contract (msdyn_outputcontractid)</li><li>Rule set definition (msdyn_rulesetdefinition)</li><li>Rule set type (msdyn_rulesettype)</li><li>Unique name (msdyn_uniquename)</li></ul>  |  [**Option 1: Decision ruleset for all record queues**](#BKMK1all-ur-rls) <br> <br> [**Option 2: Decision ruleset for a single record queue**](#BKMK2single-ur-rls) <br> <br> [**Option 3: Decision ruleset for multiple record queues**](#BKMK3multiple-ur-rls) <br>  |
+    | 4. |  Assignment Configuration (msdyn_assignmentconfiguration)  |  <ul><li>Assignment Configuration (msdyn_assignmentconfigurationid)</li><li>Description (msdyn_description)</li><li>Is Active Configuration (msdyn_isactiveconfiguration)</li><li>Name (msdyn_name)</li><li>Queue (msdyn_queueid)</li><li>Unique Name (msdyn_uniquename)</li></ul>  | [**Option 1: Assignment configuration for all record queues**](#BKMK1all-ur-ac) <br> <br>[**Option 2: Assignment configuration for a single record queue**](#BKMK2single-ur-ac) <br> <br>[**Option 3: Assignment configuration for multiple record queues**](#BKMK3multiple-ur-ac) <br>   |
+    | 5. |  Assignment Configuration Step (msdyn_assignmentconfigurationstep)  |  <ul><li>Assignment Configuration (msdyn_assignmentconfigurationid)</li><li>Assignment Configuration Step (msdyn_assignmentconfigurationstepid)</li><li>Is default ruleset (msdyn_isdefaultruleset)</li><li>Name (msdyn_name)</li><li>Rule Set (msdyn_rulesetid)</li><li>Step Order (msdyn_steporder)</li><li>Step Type (msdyn_type)</li><li>Unique Name (msdyn_uniquename)</li></ul>  |  [**Option 1: Assignment configuration step for all record queues**](#BKMK1all-ur-acs) <br> <br> [**Option 2: Assignment configuration step for a single record queue**](#BKMK2single-ur-acs) <br> <br> [**Option 3: Assignment configuration step for multiple record queues**](#BKMK3multiple-ur-acs) <br>   |
     |||||
 
 2. Generate the schema and save it.
@@ -203,13 +189,12 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 5. Package the extracted content again.
 
-6. Use the Configuration Migration tool, and select the option to import data into the target organization.
-
+6. Use the Configuration Migration tool, select the option to import data, and select the compressed file.
 
 
 ### FetchXML for queues
 
-**Option 1: All queues for unified routing-based records**<a name="BKMK1all-ur-qs"></a>
+**Option 1: All queues for records**<a name="BKMK1all-ur-qs"></a>
 
 ```
 <fetch> 
@@ -223,7 +208,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 </fetch>
 ```
 
-**Option 2: Single queue for unified routing-based records**<a name="BKMK2single-ur-qs"></a>
+**Option 2: Single queue for records**<a name="BKMK2single-ur-qs"></a>
 
 ```
 <fetch> 
@@ -235,7 +220,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 </fetch>
 ```
 
-**Option 3: Multiple queues for unified routing-based records**<a name="BKMK3multiple-ur-qs"></a>
+**Option 3: Multiple queues for records**<a name="BKMK3multiple-ur-qs"></a>
 
 ```
 <fetch> 
@@ -252,7 +237,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 ### FetchXML for decision contract entity
 
-**Option 1: Decision contract for all unified routing-based record queues**<a name="BKMK1all-ur-dc"></a>
+**Option 1: Decision contract for all record queues**<a name="BKMK1all-ur-dc"></a>
 
 ```
 <fetch distinct="true">
@@ -293,7 +278,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 </fetch>  
 ```
 
-**Option 2: Decision contract for a single unified routing-based record queue**<a name="BKMK2single-ur-dc"></a>
+**Option 2: Decision contract for a single record queue**<a name="BKMK2single-ur-dc"></a>
 
 ```
 <fetch distinct="true">
@@ -328,7 +313,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 </fetch> 
 ```
 
-**Option 3: Decision contract for multiple unified routing-based record queues**<a name="BKMK3multiple-ur-dc"></a>
+**Option 3: Decision contract for multiple record queues**<a name="BKMK3multiple-ur-dc"></a>
 
 ```
 <fetch distinct="true">
@@ -374,7 +359,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 ### FetchXML for decision ruleset entity for queues
 
-**Option 1: Decision ruleset for all unified routing-based record queues**<a name="BKMK1all-ur-rls"></a>
+**Option 1: Decision ruleset for all record queues**<a name="BKMK1all-ur-rls"></a>
 
 ```
 <fetch distinct="true">
@@ -394,7 +379,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 </fetch>
 ```
 
-**Option 2: Decision ruleset for a single unified routing-based record queue**<a name="BKMK2single-ur-rls"></a>
+**Option 2: Decision ruleset for a single record queue**<a name="BKMK2single-ur-rls"></a>
 
 ```
 <fetch distinct="true">
@@ -412,7 +397,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 </fetch> 
 ```
 
-**Option 3: Decision ruleset for multiple unified routing-based record queues**<a name="BKMK3multiple-ur-rls"></a>
+**Option 3: Decision ruleset for multiple record queues**<a name="BKMK3multiple-ur-rls"></a>
 
 ```
 <fetch distinct="true">
@@ -435,7 +420,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 ### FetchXML for assignment configuration entity
 
-**Option 1: Assignment configuration for all unified routing-based record queues**<a name="BKMK1all-ur-ac"></a>
+**Option 1: Assignment configuration for all record queues**<a name="BKMK1all-ur-ac"></a>
 
 ```
 <fetch>
@@ -451,7 +436,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 </fetch> 
 ```
 
-**Option 2: Assignment configuration for a single unified routing-based-record queue**<a name="BKMK2single-ur-ac"></a>
+**Option 2: Assignment configuration for a single record queue**<a name="BKMK2single-ur-ac"></a>
 
 ```
 <fetch>
@@ -465,7 +450,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 </fetch> 
 ```
 
-**Option 3: Assignment configuration for multiple unified routing-based record queues**<a name="BKMK3multiple-ur-ac"></a>
+**Option 3: Assignment configuration for multiple record queues**<a name="BKMK3multiple-ur-ac"></a>
 
 ```
 <fetch>
@@ -484,7 +469,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 ### FetchXML for assignment configuration step entity
 
-**Option 1: Assignment configuration step for all unified routing-based record queues**<a name="BKMK1all-ur-acs"></a>
+**Option 1: Assignment configuration step for all record queues**<a name="BKMK1all-ur-acs"></a>
 
 ```
 <fetch>
@@ -502,7 +487,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 </fetch> 
 ```
 
-**Option 2: Assignment configuration step for a single unified routing-based record queue**<a name="BKMK2single-ur-acs"></a>
+**Option 2: Assignment configuration step for a single record queue**<a name="BKMK2single-ur-acs"></a>
 
 ```
 <fetch>
@@ -518,7 +503,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 </fetch> 
 ```
 
-**Option 3: Assignment configuration step for multiple unified routing-based record queues**<a name="BKMK3multiple-ur-acs"></a>
+**Option 3: Assignment configuration step for multiple record queues**<a name="BKMK3multiple-ur-acs"></a>
 
 ```
 <fetch>
@@ -543,16 +528,17 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 [Sample schema for intake rules for record routing](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20intake%20rules%20for%20record%20routing.xml) to get all the required records.
 
-**To migrate the unified routing-based intake rules for records**
+**To migrate the intake rules for records**
 
-1. Use the Configuration Migration tool to create the schema and export data from the source organization for a record routing configuration. 
-   
-    - If in the target organization, a record routing hub exists for the record type that you want to migrate, then do one of the following steps:
-      
-       - Delete the record routing hub and in Intake Data.xml, remove the attribute msdyn_rulesetdefinition from the entity msdyn_decisionruleset.
-       - Keep the value of msdyn_rulesetdefinition as empty.
-  
-    [!INCLUDE[ur-migration](../includes/cc-ur-migration.md)]
+1. Use the Configuration Migration tool to create the schema and export data from the source organization for a record routing configuration.
+
+	> [!IMPORTANT]
+	> - If the target organization doesn't have the intake rules for the record type that you want to import, then remove the  msdyn_rulesetdefinition attribute of the msdyn_decisionruleset entity from the data.xml before you do an import.
+	> - If the target organization has intake rules for the record type with the same GUID, then remove the  msdyn_rulesetdefinition attribute of the msdyn_decisionruleset entity from the data.xml before you do an import.
+	> - If the target organization has intake rules for the record type with different GUID, then delete all the intake rules in the target organization before you do the import.
+
+    
+[!INCLUDE[ur-migration](../includes/cc-ur-migration.md)]
     - **Configure import settings**: For the Decision contract entity, ensure that you select the **Do not update existing records** checkbox.
    
      > [!Note]
@@ -561,15 +547,15 @@ If you have configured capacity profiles in your unified routing setup, perform 
     | S.No.| Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
     |-----|---------|---------|---------|
     | 1. | Decision contract (msdyn_decisioncontract) |  <ul><li>Contract definition (msdyn_contractdefinition)</li><li>Decision contract (msdyn_decisioncontractid) </li><li>Name (msdyn_name) </li><li>Unique name (msdyn_uniquename) </li></ul>  |  [**Option 1: Decision contract for all routed records**](#BKMK1dc-all-rr) <br><br> [**Option 2: Decision contract for the incident entity**](#BKMK2dc-incident) <br><br>  [**Option 3: Decision contract for the incident and task entities**](#BKMK3dc-incident-task)  |
-    | 2. |  Decision ruleset (msdyn_decisionruleset)  |  <ul><li>AI builder model (msdyn_aibmodelid)</li><li> Authoring mode (msdyn_authoringmode) </li><li> Decision rule set (msdyn_decisionrulesetid) </li><li> Description (msdyn_description) </li><li>  Input contract (msdyn_inputcontractid) </li><li>  Is input collection (msdyn_isinputcollection) </li><li> ML model type (msdyn_mlmodeltype) </li><li> Name (msdyn_name) </li><li> Output contract (msdyn_outputcontractid) </li><li>  Rule set definition (msdyn_rulesetdefinition) </li><li>  Rule set type (msdyn_rulesettype) </li><li> Unique name (msdyn_uniquename) </li></ul> |  [**Option 1: Decision ruleset for all routed records**](#BKMK1drl-all-rr) <br><br> [**Option 2: Decision ruleset for the incident entity**](#BKMK2drl-incident) <br><br> [**Option 3: Decision ruleset for the incident and task entities**](#BKMK3drl-incident-task) <br> <br>  |
+    | 2. |  Decision ruleset (msdyn_decisionruleset)  |  <ul><li>AI builder model (msdyn_aibmodelid)</li><li> Authoring mode (msdyn_authoringmode) </li><li> Decision rule set (msdyn_decisionrulesetid) </li><li> Description (msdyn_description) </li><li>  Input contract (msdyn_inputcontractid) </li><li>  Is input collection (msdyn_isinputcollection) </li><li> ML model type (msdyn_mlmodeltype) </li><li> Name (msdyn_name) </li><li> Output contract (msdyn_outputcontractid) </li><li>  Rule set definition (msdyn_rulesetdefinition) </li><li>  Rule set type (msdyn_rulesettype) </li><li> Unique name (msdyn_uniquename) </li></ul> |  [**Option 1: Decision ruleset for all rouced records**](#BKMK1drl-all-rr) <br><br> [**Option 2: Decision ruleset for the incident entity**](#BKMK2drl-incident) <br><br> [**Option 3: Decision ruleset for the incident and task entities**](#BKMK3drl-incident-task) <br> <br>  |
     | 3. | Master Entity Routing Configuration (msdyn_masterentityroutingconfiguration) | <ul><li>Entity (msdyn_entitylogicalname) </li><li> Master Entity Routing Configuration (msdyn_masterentityroutingconfigurationid) </li><li> Name (msdyn_name) </li><li> Rule set (msdyn_rulesetid) </li><li> Unique Name (msdyn_uniquename) </li></ul> |  [**Option 1: Master entity routing configuration for a routed records**](#BKMK1mer-rr) <br> <br>  [**Option 2: Master entity routing configuration for the incident entity**](#BKMK2mer-incident) <br> <br> [**Option 3: Master entity routing configuration for the incident and task entities**](#BKMK3mer-incident-task) |
     |||||
 
-2. Generate the schema and save it.
+1. Generate the schema and save it.
 
-3. Export the data and generate the compressed (zip) file.
+2. Export the data and generate the compressed (zip) file.
 
-4. Extract the zip file, open the data.xml file present in the extracted folder, and perform the following operations:
+3. Extract the zip file, open the data.xml file present in the extracted folder, and perform the following operations:
 
    - In the source and target organizations, run the following OData API and note the `msdyn_decisioncontractid`.
 
@@ -583,9 +569,9 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
      In data.xml file, replace all the occurrences of the msdyn_decisioncontractid GUID in the source organization  with the msdyn_decisioncontractid GUID of the target organization.
 
-5. Package the extracted content again.
+4. Package the extracted content again.
 
-6. Use the Configuration Migration tool, and select the option to import data into the target organization.
+5. Use the Configuration Migration tool, and select the option to import data into the target organization.
 
 
 ### FetchXML for decision contract entity for intake rules
@@ -751,23 +737,27 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 [Sample schema for unified routing record workstream](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20unified%20routing%20record%20workstreams.xml) to get all the required records.
 
-**To migrate the unified routing-based record workstreams**
+**To migrate the record workstreams**
 
-1. Use the Configuration Migration tool to create the schema and export data from the source organization for unified routing-based record workstreams.
+1. Use the Configuration Migration tool to create the schema and export data from the source organization for record workstreams.
 
-    [!INCLUDE[ur-migration](../includes/cc-ur-migration.md)]
+    - **Entity display name**: When you create the schema, select the entities in the sequence that's mentioned in the table.
+    - **Attribute display name**: We recommend that you select the attributes defined in the following table. You don't need to select the out-of-the-box system defined attributes, such as Created By, Created On, Modified By, Modified On, and Owner. You can select custom attributes if required.
+    - **Use FetchXML to filter records**: Use the appropriate fetch xml query to get single, multiple, or all records based on your requirement. For single or multiple records, you need to use source organization to get the correct name in uiname and GUID in value. If required, you can use the advanced find option to construct the appropriate fetch xml query. For illustration, the sample fetch query has considered the entity as incident and task. Based on your requirement, update the entity logical name in the FetchXML query accordingly.
     - **Configure import settings**: For the Decision contract entity, ensure that you select the **Do not update existing records** checkbox.
     
-	**<Note to be added>**
+	> [!NOTE]
+	> Ensure that the workstreams that're referred in the intake rules exist in the target organization or are present as part of the current migration.
+
 
     | S.No. | Entity display name (Logical name)  | Attribute display name (Logical name)  | Use FetchXML to filter records  |
     |-----|---------|---------|---------|
-    | 1. |  Workstream (msdyn_liveworkstream)  |  <ul><li>Allow Automated Messages (msdyn_enableautomatedmessages)</li> <li> </li> <li>Allowed Presences (msdyn_allowedpresences)</li> <li>Assign WorkItem After Decline or Timeout (msdyn_assignworkitemafterdecline)</li> <li>Auto-close after inactivity (msdyn_autocloseafterinactivity)</li> <li>Block capacity for wrap up state (msdyn_blockcapacityforwrapup)</li> <li>Bot queue (msdyn_bot_queue)</li> <li>Bot rule (msdyn_bot_rule)</li> <li>Bot user (msdyn_bot_user)</li> <li>Capacity (msdyn_capacityrequired)</li> <li>Capacity format (msdyn_capacityformat)</li> <li>Channel (msdyn_streamsource)</li> <li>Contract Id (msdyn_routingcontractid)</li> <li>Default (msdyn_sessiontemplate_default)</li><li>Default Queue (msdyn_defaultqueue)</li> <li>Direction (msdyn_direction)</li> <li>Enable selecting from push-based work streams (msdyn_enableselectingfrompushbasedworkstreams)</li> <li>Entity (msdyn_masterentityroutingconfigurationid)</li> <li>FallBack Language (msdyn_fallbacklanguage)</li> <li>Follow-up after waiting (msdyn_followupafterwaiting)</li> <li>Handling Time Threshold (msdyn_handlingtimethreshold)</li> <li>Incoming authenticated (msdyn_notificationtemplate_incoming_auth)</li> <li>Is Default (msdyn_isdefault)</li> <li>Keep same agent for entire conversation (msdyn_enableagentaffinity)</li> <li>Matching Logic (msdyn_matchinglogic)</li> <li>Max Concurrency (msdyn_maxconcurrentconnection)</li> <li>Mode (msdyn_mode)</li> <li>Name (msdyn_name)</li> <li>Notification (msdyn_notification)</li> <li>Outbound queue (msdyn_outboundqueueid)</li> <li>Record Identification Rule (msdyn_recordidentificationrule)</li> <li>Record Identification Validation Rule (msdyn_recordidentificationvalidationrule)</li> <li>Screen pop timeout (msdyn_screenpoptimeout)</li> <li>Screen pop timeout (msdyn_screenpoptimeout_optionSet)</li> <li>Skill Attachment Rules Count (msdyn_skillattachmentrulescount)</li> <li>Skill Attachment Rules Count (Last Updated On) (msdyn_skillattachmentrulescount_date)</li> <li>Skill Attachment Rules Count (State) (msdyn_skillattachmentrulescount_state)</li> <li>Waiting Time Threshold (msdyn_waitingtimethreshold)</li> <li>Work Distribution Mode (msdyn_workdistributionmode)</li> <li>Work Stream (msdyn_liveworkstreamid)</li> </ui>  |  [**Option 1: All unified routing-based record workstreams**](#BKMK1all-ur-ws) <br> <br>  [**Option 2: Single unified routing-based record workstream**](#BKMK2single-ur-ws) <br> <br>  [**Option 3: Multiple unified routing-based record workstreams**](BKMK3multiple-ur-ws) <br> |
-    | 2. |  Decision contract (msdyn_decisioncontract)  |  <ul><li>Contract definition (msdyn_contractdefinition) </li> <li> Decision contract (msdyn_decisioncontractid) </li> <li> Name (msdyn_name) </li> <li> Unique name (msdyn_uniquename) </li> </ul>  |  [**Option 1: Decision contract for all unified routing-based record workstreams**](#BKMK1dc-ur-ws) <br> <br>  [**Option 2: Decision contract for a single unified routing-based record workstream of type = incident**](#BKMK2dc-ur-ws) <br> <br> [**Option 3: Decision contract for multiple unified routing-based record workstreams of type = incident and type = task**](#BKMK3dc-ur-ws) <br> <br> |
-    | 3. |  Decision rule set (msdyn_decisionruleset)  |  <ul><li> AI builder model (msdyn_aibmodelid)</li><li> Authoring mode (msdyn_authoringmode) </li><li> Decision rule set (msdyn_decisionrulesetid) </li><li>Description (msdyn_description) </li><li>Input contract (msdyn_inputcontractid) </li><li>Is input collection (msdyn_isinputcollection) </li><li>ML model type (msdyn_mlmodeltype) </li><li>Name (msdyn_name) </li><li>Output contract (msdyn_outputcontractid) </li><li>Rule set definition (msdyn_rulesetdefinition) </li><li>Rule set type (msdyn_rulesettype) </li><li>Unique name (msdyn_uniquename) </li></ul>  |  [**Option 1: Decision ruleset for all unified routing-based record workstreams**](#BKMK1drl-ur-ws) <br> <br> [**Option 2: Decision ruleset for a single unified routing-based record workstream of type = incident**](#BKMK2drl-ur-ws) <br> <br> [**Option 3: Decision ruleset for multiple unified routing-based record workstreams type = incident and type = task**](#BKMK3drl-ur-ws) <br><br> |
-    | 4. | Routing configuration (msdyn_routingconfiguration) |  <ul> <li> Is active configuration (msdyn_isactiveconfiguration) </li> <li> Name (msdyn_name) </li> <li> Routing configuration (msdyn_routingconfigurationid) </li> <li> Unique name (msdyn_uniquename) </li> <li>Workstream (msdyn_liveworkstreamid) </li> </ul>  |  [**Option 1: Routing configuration for all unified routing-based record workstreams**](#BKMK1rc-ur-ws) <br><br> [**Option 2: Routing configuration for a single unified routing-based record workstream**](#BKMK2rc-ur-ws) <br> <br> [**Option 3: Routing configuration for multiple unified routing-based record workstreams**](#BKMK3rc-ur-ws) <br><br> |
-    | 5. |  Routing configuration step (msdyn_routingconfigurationstep)  |  <ul><li> Name (msdyn_name) </li><li> Routing configuration (msdyn_routingconfigurationid) </li><li> Routing configuration step (msdyn_routingconfigurationstepid) </li><li> Rule set (msdyn_rulesetid) </li><li> Step order (msdyn_steporder) </li><li> Step type (msdyn_type) </li><li> Unique name (msdyn_uniquename) </li></ul>  |  [**Option 1: Routing configuration step for all unified routing-based record workstreams**](#BKMK1rs-ur-ws) <br><br> [**Option 2: Routing configuration step for a single unified routing-based record workstream**](#BKMK2rs-ur-ws) <br><br> [**Option 3: Routing configuration step for multiple unified routing-based record workstreams**](#BKMK3rs-ur-ws) <br><br>  |
-    | 6. |  Workstream capacity profile (msdyn_liveworkstreamcapacityprofile)  |  <ul><li> Capacity Profile (msdyn_capacityprofile_id)</li><li> Name (msdyn_name) </li><li>Workstream (msdyn_workstream_id) </li><li>Workstream Capacity profile (msdyn_liveworkstreamcapacityprofileid)</li></ul>  | [**Option 1: Workstream capacity profile for all unified routing-based record workstreams**](#BKMK1cp-ur-ws) <br><br> [**Option 2: Workstream capacity profile for a single unified routing-based record workstream**](#BKMK2cp-ur-ws) <br><br> [**Option 3: Workstream capacity profile for multiple unified routing-based record workstreams**](#BKMK3cp-ur-ws) <br><br>   |
+    | 1. |  Workstream (msdyn_liveworkstream)  |  <ul><li>Allow Automated Messages (msdyn_enableautomatedmessages)</li> <li> </li> <li>Allowed Presences (msdyn_allowedpresences)</li> <li>Assign WorkItem After Decline or Timeout (msdyn_assignworkitemafterdecline)</li> <li>Auto-close after inactivity (msdyn_autocloseafterinactivity)</li> <li>Block capacity for wrap up state (msdyn_blockcapacityforwrapup)</li> <li>Bot queue (msdyn_bot_queue)</li> <li>Bot rule (msdyn_bot_rule)</li> <li>Bot user (msdyn_bot_user)</li> <li>Capacity (msdyn_capacityrequired)</li> <li>Capacity format (msdyn_capacityformat)</li> <li>Channel (msdyn_streamsource)</li> <li>Contract Id (msdyn_routingcontractid)</li> <li>Default (msdyn_sessiontemplate_default)</li><li>Default Queue (msdyn_defaultqueue)</li> <li>Direction (msdyn_direction)</li> <li>Enable selecting from push-based work streams (msdyn_enableselectingfrompushbasedworkstreams)</li> <li>Entity (msdyn_masterentityroutingconfigurationid)</li> <li>FallBack Language (msdyn_fallbacklanguage)</li> <li>Follow-up after waiting (msdyn_followupafterwaiting)</li> <li>Handling Time Threshold (msdyn_handlingtimethreshold)</li> <li>Incoming authenticated (msdyn_notificationtemplate_incoming_auth)</li> <li>Is Default (msdyn_isdefault)</li> <li>Keep same agent for entire conversation (msdyn_enableagentaffinity)</li> <li>Matching Logic (msdyn_matchinglogic)</li> <li>Max Concurrency (msdyn_maxconcurrentconnection)</li> <li>Mode (msdyn_mode)</li> <li>Name (msdyn_name)</li> <li>Notification (msdyn_notification)</li> <li>Outbound queue (msdyn_outboundqueueid)</li> <li>Record Identification Rule (msdyn_recordidentificationrule)</li> <li>Record Identification Validation Rule (msdyn_recordidentificationvalidationrule)</li> <li>Screen pop timeout (msdyn_screenpoptimeout)</li> <li>Screen pop timeout (msdyn_screenpoptimeout_optionSet)</li> <li>Skill Attachment Rules Count (msdyn_skillattachmentrulescount)</li> <li>Skill Attachment Rules Count (Last Updated On) (msdyn_skillattachmentrulescount_date)</li> <li>Skill Attachment Rules Count (State) (msdyn_skillattachmentrulescount_state)</li> <li>Waiting Time Threshold (msdyn_waitingtimethreshold)</li> <li>Work Distribution Mode (msdyn_workdistributionmode)</li> <li>Work Stream (msdyn_liveworkstreamid)</li> </ui>  |  [**Option 1: All record workstreams**](#BKMK1all-ur-ws) <br> <br>  [**Option 2: Single record workstream**](#BKMK2single-ur-ws) <br> <br>  [**Option 3: Multiple record workstreams**](BKMK3multiple-ur-ws) <br> |
+    | 2. |  Decision contract (msdyn_decisioncontract)  |  <ul><li>Contract definition (msdyn_contractdefinition) </li> <li> Decision contract (msdyn_decisioncontractid) </li> <li> Name (msdyn_name) </li> <li> Unique name (msdyn_uniquename) </li> </ul>  |  [**Option 1: Decision contract for all record workstreams**](#BKMK1dc-ur-ws) <br> <br>  [**Option 2: Decision contract for a single record workstream of type = incident**](#BKMK2dc-ur-ws) <br> <br> [**Option 3: Decision contract for multiple record workstreams of type = incident and type = task**](#BKMK3dc-ur-ws) <br> <br> |
+    | 3. |  Decision rule set (msdyn_decisionruleset)  |  <ul><li> AI builder model (msdyn_aibmodelid)</li><li> Authoring mode (msdyn_authoringmode) </li><li> Decision rule set (msdyn_decisionrulesetid) </li><li>Description (msdyn_description) </li><li>Input contract (msdyn_inputcontractid) </li><li>Is input collection (msdyn_isinputcollection) </li><li>ML model type (msdyn_mlmodeltype) </li><li>Name (msdyn_name) </li><li>Output contract (msdyn_outputcontractid) </li><li>Rule set definition (msdyn_rulesetdefinition) </li><li>Rule set type (msdyn_rulesettype) </li><li>Unique name (msdyn_uniquename) </li></ul>  |  [**Option 1: Decision ruleset for all record workstreams**](#BKMK1drl-ur-ws) <br> <br> [**Option 2: Decision ruleset for a single record workstream of type = incident**](#BKMK2drl-ur-ws) <br> <br> [**Option 3: Decision ruleset for multiple record workstreams type = incident and type = task**](#BKMK3drl-ur-ws) <br><br>  |
+    | 4. | Routing configuration (msdyn_routingconfiguration) |  <ul> <li> Is active configuration (msdyn_isactiveconfiguration) </li> <li> Name (msdyn_name) </li> <li> Routing configuration (msdyn_routingconfigurationid) </li> <li> Unique name (msdyn_uniquename) </li> <li>Workstream (msdyn_liveworkstreamid) </li> </ul>  |  [**Option 1: Routing configuration for all record workstreams**](#BKMK1rc-ur-ws) <br><br> [**Option 2: Routing configuration for a single record workstream**](#BKMK2rc-ur-ws) <br> <br> [**Option 3: Routing configuration for multiple record workstreams**](#BKMK3rc-ur-ws) <br><br> |
+    | 5. |  Routing configuration step (msdyn_routingconfigurationstep)  |  <ul><li> Name (msdyn_name) </li><li> Routing configuration (msdyn_routingconfigurationid) </li><li> Routing configuration step (msdyn_routingconfigurationstepid) </li><li> Rule set (msdyn_rulesetid) </li><li> Step order (msdyn_steporder) </li><li> Step type (msdyn_type) </li><li> Unique name (msdyn_uniquename) </li></ul>  |  [**Option 1: Routing configuration step for all record workstreams**](#BKMK1rs-ur-ws) <br><br> [**Option 2: Routing configuration step for a single record workstream**](#BKMK2rs-ur-ws) <br><br> [**Option 3: Routing configuration step for multiple record workstreams**](#BKMK3rs-ur-ws) <br><br>  |
+    | 6. |  Workstream capacity profile (msdyn_liveworkstreamcapacityprofile)  |  <ul><li> Capacity Profile (msdyn_capacityprofile_id)</li><li> Name (msdyn_name) </li><li>Workstream (msdyn_workstream_id) </li><li>Workstream Capacity profile (msdyn_liveworkstreamcapacityprofileid)</li></ul>  | [**Option 1: Workstream capacity profile for all record workstreams**](#BKMK1cp-ur-ws) <br><br> [**Option 2: Workstream capacity profile for a single record workstream**](#BKMK2cp-ur-ws) <br><br> [**Option 3: Workstream capacity profile for multiple record workstreams**](#BKMK3cp-ur-ws) <br><br>   |
     |||||
 
 2. Generate the schema and save it.
@@ -800,7 +790,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 ### FetchXML for workstream entity
 
-**Option 1: All unified routing-based record workstreams**<a name="BKMK1all-ur-ws"></a>
+**Option 1: All record workstreams**<a name="BKMK1all-ur-ws"></a>
 
 ```
 <fetch distinct="true">
@@ -812,7 +802,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 	</entity>
 </fetch> 
 ```
-**Option 2: Single unified routing-based record workstream**<a name="BKMK2single-ur-ws"></a>
+**Option 2: Single record workstream**<a name="BKMK2single-ur-ws"></a>
 
 ```
 <fetch>
@@ -823,7 +813,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 	</entity>
 </fetch> 
 ```
-**Option 3: Multiple unified routing-based record workstreams**<a name="BKMK3multiple-ur-ws"></a>
+**Option 3: Multiple record workstreams**<a name="BKMK3multiple-ur-ws"></a>
 
 ```
 <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
@@ -840,7 +830,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 ### FetchXML for decision contract entity
 
-**Option 1: Decision contract for all unified routing-based record workstreams**<a name="BKMK1dc-ur-ws"></a>
+**Option 1: Decision contract for all record workstreams**<a name="BKMK1dc-ur-ws"></a>
 
 ```
 <fetch distinct="true">
@@ -876,7 +866,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 	</entity>
 </fetch> 
 ```
-**Option 2: Decision contract for a single unified routing-based record workstream of type = incident**<a name="BKMK2dc-ur-ws"></a>
+**Option 2: Decision contract for a single record workstream of type = incident**<a name="BKMK2dc-ur-ws"></a>
 
 ```
 <fetch distinct="true">
@@ -910,7 +900,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 	</entity>
 </fetch>
 ```
-**Option 3: Decision contract for multiple unified routing-based record workstreams of type = incident and type = task**<a name="BKMK3dc-ur-ws"></a>
+**Option 3: Decision contract for multiple record workstreams of type = incident and type = task**<a name="BKMK3dc-ur-ws"></a>
 
 ```
 <fetch distinct="true">
@@ -958,7 +948,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 ```
 ### FetchXML for decision ruleset entity
 
-**Option 1: Decision ruleset for all unified routing-based record workstreams**<a name="BKMK1drl-ur-ws"></a>
+**Option 1: Decision ruleset for all record workstreams**<a name="BKMK1drl-ur-ws"></a>
 
 ```
 <fetch distinct="true">
@@ -981,7 +971,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 	</entity>
 </fetch> 
 ```
-**Option 2: Decision ruleset for a single unified routing-based record workstream of type = incident**<a name="BKMK2drl-ur-ws"></a>
+**Option 2: Decision ruleset for a single record workstream of type = incident**<a name="BKMK2drl-ur-ws"></a>
 
 ```
 <fetch distinct="true">
@@ -1003,7 +993,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 	</entity>
 </fetch>
 ```
-**Option 3: Decision ruleset for multiple unified routing-based record workstreams type = incident and type = task**<a name="BKMK3drl-ur-ws"></a>
+**Option 3: Decision ruleset for multiple record workstreams type = incident and type = task**<a name="BKMK3drl-ur-ws"></a>
 
 ```
 <fetch distinct="true">
@@ -1033,7 +1023,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 ```
 ### FetchXML for routing configuration entity
 
-**Option 1: Routing configuration for all unified routing-based record workstreams**<a name="BKMK1rc-ur-ws"></a>
+**Option 1: Routing configuration for all record workstreams**<a name="BKMK1rc-ur-ws"></a>
 
 ```
 <fetch>
@@ -1047,7 +1037,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 	</entity>
 </fetch> 
 ```
-**Option 2: Routing configuration for a single unified routing-based record workstream**<a name="BKMK2rc-ur-ws"></a>
+**Option 2: Routing configuration for a single record workstream**<a name="BKMK2rc-ur-ws"></a>
 
 ```
 <fetch>
@@ -1060,7 +1050,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 	</entity>
 </fetch> 
 ```
-**Option 3: Routing configuration for multiple unified routing-based record workstreams**<a name="BKMK3rc-ur-ws"></a>
+**Option 3: Routing configuration for multiple record workstreams**<a name="BKMK3rc-ur-ws"></a>
 
 ```
 <fetch>
@@ -1079,7 +1069,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 ### FetchXML for routing configuration step entity
 
-**Option 1: Routing configuration step for all unified routing-based record workstreams**<a name="BKMK1rs-ur-ws"></a>
+**Option 1: Routing configuration step for all record workstreams**<a name="BKMK1rs-ur-ws"></a>
 
 ```
 <fetch>
@@ -1095,7 +1085,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 	</entity>
 </fetch> 
 ```
-**Option 2: Routing configuration step for a single unified routing-based record workstream**<a name="BKMK2rs-ur-ws"></a>
+**Option 2: Routing configuration step for a single record workstream**<a name="BKMK2rs-ur-ws"></a>
 
 ```
 <fetch>
@@ -1110,7 +1100,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 	</entity>
 </fetch> 
 ```
-**Option 3: Routing configuration step for multiple unified routing-based record workstreams**<a name="BKMK3rs-ur-ws"></a>
+**Option 3: Routing configuration step for multiple record workstreams**<a name="BKMK3rs-ur-ws"></a>
 
 ```
 <fetch>
@@ -1131,7 +1121,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 ### FetchXML for workstream capacity profile entity
 
-**Option 1: Workstream capacity profile for all unified routing-based record workstreams**<a name="BKMK1cp-ur-ws"></a>
+**Option 1: Workstream capacity profile for all record workstreams**<a name="BKMK1cp-ur-ws"></a>
 
 ```
 <fetch>
@@ -1145,7 +1135,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 	</entity>
 </fetch> 
 ```
-**Option 2: Workstream capacity profile for a single unified routing-based record workstream**<a name="BKMK2cp-ur-ws"></a>
+**Option 2: Workstream capacity profile for a single record workstream**<a name="BKMK2cp-ur-ws"></a>
 
 ```
 <fetch>
@@ -1158,7 +1148,7 @@ If you have configured capacity profiles in your unified routing setup, perform 
 	</entity>
 </fetch> 
 ```
-**Option 3: Workstream capacity profile for multiple unified routing-based record workstreams**<a name="BKMK3cp-ur-ws"></a>
+**Option 3: Workstream capacity profile for multiple record workstreams**<a name="BKMK3cp-ur-ws"></a>
 ```
 <fetch>
 	<entity name="msdyn_liveworkstreamcapacityprofile">

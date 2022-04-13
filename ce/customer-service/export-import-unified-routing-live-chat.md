@@ -9,9 +9,9 @@ manager: shujoshi
 ms.reviewer: nenellim
 ---
 
-# Export import data for live chat channel
+# Export import data for the live chat channel
 
-By using the Configuration Migration tool, you can migrate the unified routing related configurations from the source organization to the target organization for live chat that's configured to use unified routing.
+By using the Configuration Migration tool, you can migrate the unified routing configurations from the source organization to the target organization for live chat that's configured to use unified routing.
 
 For information on how to use the Configuration Migration tool, see the following articles:
 
@@ -22,8 +22,8 @@ For information on how to use the Configuration Migration tool, see the followin
 
 The following prerequisites must be met:
 
-- In the source organization, if unified routing ruleset refers to custom entities, attributes, relationships, option sets or lookup values, then ensure that they exist in the target organization before you proceed with the migration. 
-- Ensure that the user who performs the migration has the required privileges on the following unified routing-related entities in the source and target organizations:
+- In the source organization, if a unified routing ruleset refers to custom entities, attributes, relationships, option sets or lookup values, then ensure that they exist in the target organization before you proceed with the migration.
+- Ensure that the user who performs the migration has the required privileges on the following unified routing entities in the source and target organizations:
 
     - Workstream (msdyn_liveworkstream)
     - Channel configuration (msdyn_omnichannelconfiguration)
@@ -50,35 +50,32 @@ The following prerequisites must be met:
 	- Tags (msdyn_octags)
 
 > [!IMPORTANT]
-> The migration of the account and channel and AI and analytics settings is not in scope.
+> The migration of the account, channel, bot configuration, and AI and analytics settings is not in scope.
 
-## Export and import data for the live chat channel
+## Export and import live chat configuration
 
-Perform the steps in the order listed to export and import the configuration from the source to the target organization. Use the information in the sections for each type of data and refer to the corresponding sample schemas for each type of configuration to fetch the required records.
+You must perform the steps in the order they're listed to migrate your configuration data successfully from the source to the target organization. Use the information in the tables and refer to the corresponding sample schemas for each configuration.
 
-1. Export and import data for skill-based routing
-1. Export and import data for capacity profiles
-1. Export and import data for live chat queues
-1. Export and import data for live chat channel workstreams
-1. Export and import data for live chat widgets
+1. Export and import skill-based configuration
+1. Export and import configuration for capacity profiles
+1. Export and import configuration for live chat queues
+1. Export and import configuration for live chat workstreams
+1. Export and import configuration for live chat widgets
 
-## Considerations for export and import of data
 
-[!INCLUDE[ur-migration considerations](../includes/cc-ur-migration-considerations.md)]
-
-## Export and import data for skill-based routing
+## Export and import skill-based configuration
 
 If skill-based routing rulesets are used in your unified routing setup, perform the steps outlined in [Export and import data for skill-based routing](export-import-unified-routing-records.md#export-and-import-data-for-skill-based-routing).
 
-## Export and import data for capacity profiles
+## Export and import configuration for capacity profiles
 
 If you have configured capacity profiles in your unified routing setup, perform the steps outlined in [Export and import data for capacity profiles](export-import-unified-routing-records.md#export-and-import-data-for-capacity-profiles).
 
-## Export and import data for live chat queues
+## Export and import configuration for live chat queues
 
 For exporting and importing queues for live chat, perform the steps outlined in [Export and import data for unified routing-based record queues](export-import-unified-routing-records.md#export-and-import-data-for-unified-routing-based-record-queues).
 
-## Export and import data for live chat channel workstreams
+## Export and import configuration for live chat workstreams
 
 Use the Configuration Migration tool to create the schema and export the data from the source organization for the following entities:
 
@@ -93,7 +90,7 @@ Use the Configuration Migration tool to create the schema and export the data fr
 - msdyn_cannedmessages
 - msdyn_octags
 
-## Export and import data for live chat widgets
+## Export and import configuration for live chat widgets
 
 The following assumptions are in place:
 
@@ -103,7 +100,7 @@ The following assumptions are in place:
 
 - Queues can be exported after live chat configurations and rules definition, to be able to use pre-conversation survey questions as context variables.
 
-- The workstream must already exist, created manually or previously migrated in the destination organization.
+- The workstream must already exist; created manually or previously migrated in the destination organization.
 
 **To export and import data for live chat widgets**
 
@@ -114,7 +111,7 @@ The following assumptions are in place:
 
     | Chat widget((msdyn_livechatconfig) |  Attribute display name (Logical name) | Use FetchXML to filter records |
     |-------------------------------------|----------------------------------------|-------------------------------|
-    |  Chat widget (msdyn_livechatconfig) | Note: <ul><li> Do not include: msdyn_widgetappid and msdyn_widgetsnippet as part of the entity.</li> <li> Corroborate as part of the entity declaration in the schema that the plugin is disabled. (disableplugins="false") </li></ul> <br> <ul><li>(Deprecated) During non-operating hour (msdyn_duringnonoperatinghours) </li> <li> Agent display name(msdyn_agentdisplayname) </li> <li> Allow download of transcript (msdyn_enablechattranscriptdownload) </li> <li> Allow email of transcript (msdyn_enablechattranscriptemail) </li> <li> Anonymize Agent (msdyn_showagentname) </li> <li> Authentication settings (msdyn_authsettingsid) </li> <li> Auto Detect Language (msdyn_autodetectlanguage) </li> <li> Bot Survey (msdyn_postconversationsurveybotsurvey) </li> <li> Calling options (msdyn_callingoptions) </li> <li> Chat Widget (msdyn_livechatconfigid) </li> <li> Co-browse provider (msdyn_cobrowseprovider) </li> <li> Created By(createdby) </li> <li> Created By (Delegate) (createdonbehalfby) </li> <li> Created On(createdon) </li> <li> Display Generic Name (msdyn_genericagentdisplayname) </li> <li> Email Template (msdyn_emailtemplate) </li> <li> Enable (msdyn_postconversationsurveyenable) </li> <li> Enable Co-browse (msdyn_enablecobrowse) </li> <li> Enable file attachments for agents (msdyn_enablefileattachmentsforagents) </li> <li> Enable file attachments for customers (msdyn_enablefileattachmentsforcustomers) </li> <li> Enable Screen sharing (msdyn_enablescreensharing) </li> <li> Import Sequence Number (importsequencenumber) </li> <li> Indicates the conversation mode of the chat widget (msdyn_conversationmode) </li> <li> Indicates whether display of wait time is enabled (msdyn_averagewaittime_enabled) </li> <li> infolabel(msdyn_infolabel) </li> <li> Language(msdyn_widgetlocale) </li> <li> Language(msdyn_ocwidgetlanguage) </li> <li> Language (msdyn_language) </li> <li> Logo (msdyn_avatarurl) </li> <li> Message (msdyn_postconversationsurveymessagetext) </li> <li> Modified By (modifiedby) </li> <li> Modified By (Delegate) (modifiedonbehalfby) </li> <li> Modified On (modifiedon) </li> <li> Name (msdyn_name) </li> <li> Offline Widegt Title (msdyn_offlinewidgettitle) </li> <li> Offline Widget Subtitle (msdyn_offlinewidgetsubtitle) </li> <li> Offline Widget Theme Color (msdyn_offlinewidgetthemecolor) </li> <li> Operating hours (msdyn_operatinghourid) </li> <li> Owning Business Unit (owningbusinessunit) </li> <li> Owning Team (owningteam) </li> <li> Owning User (owninguser) </li> <li> Portal URL (msdyn_portalurl) </li> <li> Position (msdyn_widgetposition) </li> <li> Post-chat Survey (msdyn_postchatenabled) </li> <li> Pre-Chat Survey (msdyn_prechatenabled) </li> <li> Proactive-chat (msdyn_proactivechatenabled) </li> <li> Provider API key (msdyn_oc_geolocationprovider) </li> <li> Question Set for Authenticated Users (msdyn_prechatquestionnaireauthenticated) </li> <li> Question Set for Unauthenticated Users (msdyn_prechatquestionnaireunauthenticated) </li> <li> Reconnect to previous agent (msdyn_timetoreconnectwithpreviousagent) </li> <li> Record Created On (overriddencreatedon) </li> <li> Redirection URL (msdyn_redirectionurl) </li> <li> Request visitor location (msdyn_requestvisitorlocation) </li> <li> Screen sharing provider (msdyn_screensharingprovider) </li> <li> Sender Mailbox (msdyn_mailbox) </li> <li> Show position in queue (msdyn_positioninqueue_enabled) </li> <li> Show widget during offline hours (msdyn_showwidgetduringofflinehours) </li> <li> Status (statecode) </li> <li> Status Reason (statuscode) </li> <li> Subtitle (msdyn_widgetsubtitle) </li> <li> Survey (msdyn_postconversationsurvey) </li> <li> Survey Mode (msdyn_postconversationsurveymode) </li> <li> Theme Color (msdyn_widgetthemecolor) </li> <li> Time Zone Rule Version Number (timezoneruleversionnumber) </li> <li> Title (msdyn_widgettitle) </li> <li> Turn on reconnect to previous chat (msdyn_enablechatreconnect) </li> <li> Turn on sound notifications (msdyn_widgetsoundnotification) </li> <li> Turn on unread messages indicator (msdyn_widgetvisualnotification) </li> <li> UTC Conversion Time Zone Code (utcconversiontimezonecode) </li> <li> Version Number (versionnumber) </li> <li> Work stream (msdyn_liveworkstreamid)</li></ul>  | [**FetchXMl for live chat**](#BKMKlive-chat) <br> **Note**: Replace the value for msdyn_liveworkstream in the condition section.|
+    |  Chat widget (msdyn_livechatconfig) | **Note:** <ul><li> Do not include: msdyn_widgetappid and msdyn_widgetsnippet as part of the entity.</li> <li> Ensure as part of the entity declaration in the schema that the plugin is disabled. (disableplugins="false") </li></ul> <br> <ul><li>(Deprecated) During non-operating hour (msdyn_duringnonoperatinghours) </li> <li> Agent display name(msdyn_agentdisplayname) </li> <li> Allow download of transcript (msdyn_enablechattranscriptdownload) </li> <li> Allow email of transcript (msdyn_enablechattranscriptemail) </li> <li> Anonymize Agent (msdyn_showagentname) </li> <li> Authentication settings (msdyn_authsettingsid) </li> <li> Auto Detect Language (msdyn_autodetectlanguage) </li> <li> Bot Survey (msdyn_postconversationsurveybotsurvey) </li> <li> Calling options (msdyn_callingoptions) </li> <li> Chat Widget (msdyn_livechatconfigid) </li> <li> Co-browse provider (msdyn_cobrowseprovider) </li> <li> Created By(createdby) </li> <li> Created By (Delegate) (createdonbehalfby) </li> <li> Created On(createdon) </li> <li> Display Generic Name (msdyn_genericagentdisplayname) </li> <li> Email Template (msdyn_emailtemplate) </li> <li> Enable (msdyn_postconversationsurveyenable) </li> <li> Enable Co-browse (msdyn_enablecobrowse) </li> <li> Enable file attachments for agents (msdyn_enablefileattachmentsforagents) </li> <li> Enable file attachments for customers (msdyn_enablefileattachmentsforcustomers) </li> <li> Enable Screen sharing (msdyn_enablescreensharing) </li> <li> Import Sequence Number (importsequencenumber) </li> <li> Indicates the conversation mode of the chat widget (msdyn_conversationmode) </li> <li> Indicates whether display of wait time is enabled (msdyn_averagewaittime_enabled) </li> <li> infolabel(msdyn_infolabel) </li> <li> Language(msdyn_widgetlocale) </li> <li> Language(msdyn_ocwidgetlanguage) </li> <li> Language (msdyn_language) </li> <li> Logo (msdyn_avatarurl) </li> <li> Message (msdyn_postconversationsurveymessagetext) </li> <li> Modified By (modifiedby) </li> <li> Modified By (Delegate) (modifiedonbehalfby) </li> <li> Modified On (modifiedon) </li> <li> Name (msdyn_name) </li> <li> Offline Widegt Title (msdyn_offlinewidgettitle) </li> <li> Offline Widget Subtitle (msdyn_offlinewidgetsubtitle) </li> <li> Offline Widget Theme Color (msdyn_offlinewidgetthemecolor) </li> <li> Operating hours (msdyn_operatinghourid) </li> <li> Owning Business Unit (owningbusinessunit) </li> <li> Owning Team (owningteam) </li> <li> Owning User (owninguser) </li> <li> Portal URL (msdyn_portalurl) </li> <li> Position (msdyn_widgetposition) </li> <li> Post-chat Survey (msdyn_postchatenabled) </li> <li> Pre-Chat Survey (msdyn_prechatenabled) </li> <li> Proactive-chat (msdyn_proactivechatenabled) </li> <li> Provider API key (msdyn_oc_geolocationprovider) </li> <li> Question Set for Authenticated Users (msdyn_prechatquestionnaireauthenticated) </li> <li> Question Set for Unauthenticated Users (msdyn_prechatquestionnaireunauthenticated) </li> <li> Reconnect to previous agent (msdyn_timetoreconnectwithpreviousagent) </li> <li> Record Created On (overriddencreatedon) </li> <li> Redirection URL (msdyn_redirectionurl) </li> <li> Request visitor location (msdyn_requestvisitorlocation) </li> <li> Screen sharing provider (msdyn_screensharingprovider) </li> <li> Sender Mailbox (msdyn_mailbox) </li> <li> Show position in queue (msdyn_positioninqueue_enabled) </li> <li> Show widget during offline hours (msdyn_showwidgetduringofflinehours) </li> <li> Status (statecode) </li> <li> Status Reason (statuscode) </li> <li> Subtitle (msdyn_widgetsubtitle) </li> <li> Survey (msdyn_postconversationsurvey) </li> <li> Survey Mode (msdyn_postconversationsurveymode) </li> <li> Theme Color (msdyn_widgetthemecolor) </li> <li> Time Zone Rule Version Number (timezoneruleversionnumber) </li> <li> Title (msdyn_widgettitle) </li> <li> Turn on reconnect to previous chat (msdyn_enablechatreconnect) </li> <li> Turn on sound notifications (msdyn_widgetsoundnotification) </li> <li> Turn on unread messages indicator (msdyn_widgetvisualnotification) </li> <li> UTC Conversion Time Zone Code (utcconversiontimezonecode) </li> <li> Version Number (versionnumber) </li> <li> Work stream (msdyn_liveworkstreamid)</li></ul>  | [**FetchXMl for live chat**](#BKMKlive-chat) <br> **Note**: Replace the value for msdyn_liveworkstream in the condition section.|
     | Chat Authentication Settings (msdyn_authenticationsettings) | <ul> <li> Authentication type (msdyn_authenticationtype) </li><li> Chat Authentication Settings (msdyn_authenticationsettingsid) </li><li> Created By (createdby)   </li><li> Created By (Delegate) (createdonbehalfby)  </li><li> Created On (createdon) </li><li> Import Sequence Number (importsequencenumber) </li><li> JavaScript client function (msdyn_javascriptclientfunction) </li><li> Modified By (modifiedby) </li><li> Modified By (Delegate) (modifiedonbehalfby) </li><li> Modified On (modifiedon) </li><li> Name (msdyn_name) </li><li> Owner (ownerid) </li><li> Owning Business Unit (owningbusinessunit) </li><li> Owning Team (owningteam) </li><li> Owning User (owninguser) </li><li> Public key URL (msdyn_publickeyurl) </li><li> Record Created On (overriddencreatedon)) </li><li> Status (statecode) </li><li> Status Reason (statuscode) </li><li> Time Zone Rule Version Number (timezoneruleversionnumber) </li><li> UTC Conversion Time Zone Code (utcconversiontimezonecode) </li><li> Version Number (versionnumber) </li></ul>  ||
     | Live Chat Context (msdyn_livechatengagementctx) | <ul><li>Browser (msdyn_browser) </li><li> Chat Widget App Id (msdyn_widgetappid) </li><li> City (msdyn_city) </li><li> Conversation (msdyn_liveworkitemid) </li><li> Country/Region (msdyn_country) </li><li> Created By (createdby) </li><li> Created By (Delegate) (createdonbehalfby) </li><li> Created On (createdon) </li><li> Device (msdyn_device) </li><li> Import Sequence Number (importsequencenumber) </li><li> Is Authenticated Engagement (msdyn_isauthenticated) </li><li> Is Proactivechat (msdyn_isproactivechat) </li><li> Latitude (msdyn_latitude) </li><li> Live Chat Context (msdyn_livechatengagementctxid) </li><li> Live Chat Engagement Id (msdyn_livechatengagementid) </li><li> Locale (msdyn_locale) </li><li> Longitude (msdyn_longitude) </li><li> Modified By (modifiedby) </li><li> Modified By (Delegate) (modifiedonbehalfby) </li><li> Modified On (modifiedon) </li><li> Name (msdyn_name) </li><li> Operating System (msdyn_os) </li><li> Origin Url (msdyn_originurl) </li><li> Owner (ownerid) </li><li> Owning Business Unit (owningbusinessunit) </li><li> Owning Team (owningteam) </li><li> Owning User (owninguser) </li><li> Portal Contact Id (msdyn_portalcontactid) </li><li> Record Created On (overriddencreatedon) </li><li> State/Province (msdyn_state) </li><li> Status (statecode) </li><li> Status Reason (statuscode) </li><li> Street 1 (msdyn_street1) </li><li> Street 2 (msdyn_street2) </li><li> Street 3 (msdyn_street3) </li><li> Time Zone Rule Version Number (timezoneruleversionnumber) </li><li> UTC Conversion Time Zone Code (utcconversiontimezonecode) </li><li> Version Number (versionnumber) </li><li> Zip/Postal Code (msdyn_postalcode)</li></ul>  ||
     | Localization (msdyn_oclocalizationdata) | <ul> <li> Automated message (msdyn_systemmessageid) </li><li> Created By (createdby)  </li><li> Created By (Delegate)  </li><li> Created On (createdon) </li><li> Default Localized Text (msdyn_defaultlocalizedtext) </li><li> Entity Column Name (msdyn_entitycolumnname) </li><li> Entity Name (msdyn_entityname) </li><li> Entity Record Id (msdyn_entityrecordid) </li><li> Import Sequence Number (importsequencenumber)  </li><li> Is default (msdyn_isdefault) </li><li> Language code (msdyn_customerlanguageid) </li><li> Language Code (msdyn_languagecode)  </li><li> Localization (msdyn_oclocalizationdataid)  </li><li> Localized text (msdyn_localizedtext) </li><li> Modified By (modifiedby) </li><li> Modified By (Delegate) (modifiedonbehalfby) </li><li> Modified On (modifiedon) </li><li> Organization Id (organizationid) </li><li> Record Created On (overriddencreatedon) </li><li> Status (statecode) </li><li> Status Reason (statuscode) </li><li> Time Zone Rule Version Number (timezoneruleversionnumber)  </li><li> UTC Conversion Time Zone Code (utcconversiontimezonecode)  </li><li> Version Number (versionnumber) </li></ul>  ||
@@ -130,12 +127,12 @@ The following assumptions are in place:
     |  Operation Hour(msdyn_operatinghour) | <ul> <li> (Deprecated) 24/7 (msdyn_enablealldays ) </li><li> (Deprecated) End time (msdyn_endtimestring ) </li><li> (Deprecated) Start time (msdyn_starttimestring ) </li><li> (Deprecated) Time zone (msdyn_timezone ) </li><li> (Deprecated) Total work hours (msdyn_totalworkhours ) </li><li> (Deprecated) Work days (msdyn_oc_daysofweek ) </li><li> Calendarid (msdyn_calendarid ) </li><li> Created By (createdby ) </li><li> Created By (Delegate) (createdonbehalfby ) </li><li> Created On (createdon ) </li><li> Description (msdyn_description ) </li><li> Import Sequence Number (importsequencenumber ) </li><li> Modified By (modifiedby ) </li><li> Modified By (Delegate) (modifiedonbehalfby ) </li><li> Modified On (modifiedon ) </li><li> Name (msdyn_name ) </li><li> Operating Hour (msdyn_operatinghourid ) </li><li> Organization Id (organizationid ) </li><li> Owner (ownerid ) </li><li> Owning Business Unit (owningbusinessunit ) </li><li> Owning Team (owningteam ) </li><li> Owning User (owninguser ) </li><li> Record Created On (overriddencreatedon ) </li><li> Status (statecode ) </li><li> Status Reason (statuscode ) </li><li> Time Zone Rule Version Number (timezoneruleversionnumber ) </li><li> UTC Conversion Time Zone Code (utcconversiontimezonecode ) </li><li> Version Number (versionnumber )</li></ul> ||
     ||||
 
-
 2. Generate the schema and save it.
 
 3. Export the data and generate the compressed (zip) file.
 
-4.  Use the Configuration Migration tool, and select the option to import data into the target organization.
+4. Use the Configuration Migration tool, select the option to import data, and then select the compressed file.
+
 
 ### FetchXML for live chat<a name="BKMKlive-chat"></a>
 
@@ -150,6 +147,10 @@ The following assumptions are in place:
 	</entity>
 </fetch>
 ```
+
+## Considerations for export and import of data
+
+[!INCLUDE[ur-migration considerations](../includes/cc-ur-migration-considerations.md)]
 
 ### See also
 
