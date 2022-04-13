@@ -17926,6 +17926,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/developer/use-executemultiple-improve-performance-bulk-data-load.md",
+      "redirect_url": "/dynamics365/developer/customerengagement/on-premises/developer/org-service/use-executemultiple-improve-performance-bulk-data-load",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/developer/org-service/use-organization-service-metadata.md",
       "redirect_url": "/dynamics365/developer/customerengagement/on-premises/developer/org-service/use-organization-service-metadata",
       "redirect_document_id": "false"
