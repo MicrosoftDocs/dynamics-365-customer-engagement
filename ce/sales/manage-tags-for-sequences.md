@@ -84,7 +84,7 @@ Nested tags allow you to group tags together so that it's easy to identify tags 
     1.	Hover over the root node tag of **North America**, and then select **Add (+)**.     
 
         >[!NOTE]
-        >You can also use **+ New Tag** to add a node below the root node.   
+        >You can also use **New Tag** to add a node below the root node.   
         
         >[!div class="mx-imgBorder"]
         >![Select the Add tag icon corresponding to a tag.](media/sa-sequence-tags-nest-select-add-tag.png "Select the Add tag icon corresponding to a tag")     
@@ -170,7 +170,7 @@ For example, there are three levels of tags in the hierarchy. You delete a tag a
     >[!div class="mx-imgBorder"]
     >![Select Edit tag for a sequence.](media/sa-sequence-tags-apply-tag-select-edit-tag.png "Select Edit tag for a sequence")    
     
-5.	On the **Edit sequence tags** pane, select **+ Add tags to sequence**.
+5.	On the **Edit sequence tags** pane, select **Add tags to sequence**.
 
     >[!div class="mx-imgBorder"]
     >![Select Add tag to sequence.](media/sa-sequence-tags-apply-tag-select-add-tags-sequence.png "Select Add tag to sequence")    
