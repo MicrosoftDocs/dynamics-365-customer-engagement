@@ -26,7 +26,7 @@ In general, <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest> behaves the
 
 Custom code in the form of plug-ins and custom workflow activities may execute <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest>. However, there are a few key points to keep in mind. An exception thrown by a synchronous registered plug-in is returned in the response collection item <xref:Microsoft.Xrm.Sdk.ExecuteMultipleResponseItem.Fault> parameter. If a plug-in executes within a database transaction, the plug-in executes <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest>, and a transaction rollback is initiated, the rollback includes any data changes resulting from requests executed by <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest>.
 
-For the latest information about ExecuteMultiple, see [Execute multiple requests using the Organization service](/powerapps/developer/common-data-service/org-service/execute-multiple-requests).
+For the latest information about ExecuteMultiple, see [Execute multiple requests using the Organization service](/powerapps/developer/data-platform/org-service/execute-multiple-requests). For recommendations and guidance, see [Do not use batch request types in plug-ins and workflow activities](/power-apps/developer/data-platform/best-practices/business-logic/avoid-batch-requests-plugin).
   
 <a name="limitations"></a>
 
