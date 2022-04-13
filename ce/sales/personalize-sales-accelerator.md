@@ -61,7 +61,7 @@ Depending on the license you have in the organization, you use one of the follow
     >![Configure your work availability through Outlook message.](media/sa-personal-settings-select-availability-settings-outlook.png "Configure your work availability through Outlook message.")    
     >Go to your Outlook calendar, set your work hours and vacation days, and then save the calendar events. Your availability will be automatically updated in the Dynamics 365 application calendar.
 
-4. Select **+ New**, and choose an option to configure your calendar according to your requirements:
+4. Select **New**, and choose an option to configure your calendar according to your requirements:
 
    - **Working hours**: Configure your regular working hours between dates you define. This helps the sales accelerator to consider the assignment of activities to your work list.
 
