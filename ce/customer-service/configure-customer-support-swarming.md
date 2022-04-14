@@ -1,7 +1,7 @@
 ---
 title: "Configure customer support swarming for complex cases | MicrosoftDocs"
 description: "This topic provides steps to configure customer support swarming for cases in Dynamics 365 Customer Service and Microsoft Teams."
-ms.date: 04/06/2022
+ms.date: 04/08/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -186,9 +186,9 @@ If you haven't already configured skills, then perform the following steps.
 
 1. Select **Save**.
 
-### Assign the new skill to an expert
+### Attach the new skill to an expert
 
-To use the new skill in customer support swarming, you must assign it to an expert.
+To use the new skill in customer support swarming, you must attach it to a user.
 
 1. On the command bar and select **Assign**.
 
