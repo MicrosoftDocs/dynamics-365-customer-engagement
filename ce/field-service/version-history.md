@@ -6,8 +6,8 @@ ms.reviewer: krbjoran
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
-author: FieldServiceDave
-ms.author: daclar
+author: krbjoran
+ms.author: krbjoran
 manager: shellyha
 search.app:
   - D365CE
@@ -25,18 +25,34 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 |              | Region | Current version | Next version |  Scheduled date
 | ----------   | :---   | :---   |  :---   | :---   | 
-|<strong>Station 1</strong> |  <i>First Release</i>|[8.8.63.20](/dynamics365/field-service/version-history#8859226320) | TBD | 04/15/2022
-|<strong>Station 2</strong> |  <i>South America, Canada, India, France, South Africa, Germany, Switzerland,Norway,Korea</i>|[8.8.63.20](/dynamics365/field-service/version-history#8859226320) | TBD | 04/22/2022
-|<strong>Station 3</strong> | <i>United Arab Emirates, Japan, Asia Pacific, Great Britain, Oceana</i> |[8.8.63.20](/dynamics365/field-service/version-history#8859226320) | TBD | 04/29/2022
-| | USG</i> |[8.8.63.20](/dynamics365/field-service/version-history#8859226320) | TBD | 04/22/2022
-|<strong>Station 4</strong> |<i>Europe</i> | [8.8.62.26](/dynamics365/field-service/version-history#8859226226) |[8.8.63.20](/dynamics365/field-service/version-history#8859226320) | 04/15/2022
-|<strong>Station 5</strong> |  <i>North America</i>|[8.8.61.21](/dynamics365/field-service/version-history#8859226121) |  [8.8.62.26](/dynamics365/field-service/version-history#8859226226) | 04/15/2022
-|<strong>Station 6</strong> |<i>Goverment Community Cloud, DoD , China</i> | [8.8.61.21](/dynamics365/field-service/version-history#8859226121) |  [8.8.62.26](/dynamics365/field-service/version-history#8859226226) | 04/15/2022
+|<strong>Station 1</strong> |  <i>First Release</i>| [8.8.64.13](/dynamics365/field-service/version-history#8859226413) | TBD | 04/29/2022
+|<strong>Station 2</strong> |  <i>South America, Canada, India, France, South Africa, Germany, Switzerland,Norway,Korea</i>|[8.8.63.20](/dynamics365/field-service/version-history#8859226320) | [8.8.64.13](/dynamics365/field-service/version-history#8859226413)| 04/22/2022
+|<strong>Station 3</strong> | <i>United Arab Emirates, Japan, Asia Pacific, Great Britain, Oceana</i> |[8.8.63.20](/dynamics365/field-service/version-history#8859226320) | [8.8.64.13](/dynamics365/field-service/version-history#8859226413) | 04/29/2022
+| | USG</i> | [8.8.63.20](/dynamics365/field-service/version-history#8859226320) | [8.8.64.13](/dynamics365/field-service/version-history#8859226413) | 04/22/2022
+|<strong>Station 4</strong> |<i>Europe</i> | [8.8.63.22](/dynamics365/field-service/version-history#8859226322) |[8.8.64.13](/dynamics365/field-service/version-history#8859226413) | 05/06/2022
+|<strong>Station 5</strong> |  <i>North America</i>|[8.8.62.26](/dynamics365/field-service/version-history#8859226226) | [8.8.63.22](/dynamics365/field-service/version-history#8859226322)  | 04/22/2022
+|<strong>Station 6</strong> |<i>Goverment Community Cloud, DoD , China</i> |[8.8.62.26](/dynamics365/field-service/version-history#8859226226) | [8.8.63.22](/dynamics365/field-service/version-history#8859226322)  | 04/27/2022
 | | <i>Dedicated Scale Groups</i> |    [8.8.61.21](/dynamics365/field-service/version-history#8859226121) |  [8.8.62.26](/dynamics365/field-service/version-history#8859226226) | 04/22/2022
 
 >[!Note]
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 8.8.64.13
+
+(Includes Universal Resource Scheduling version [3.12.75.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#312752)).
+
+- Fixed a bug that prevented bookings from being generated via agreement booking setups when the agreement is assigned to "SYSTEM" user.
+- Fixed a bug that prevented the checkbox question from focusing properly in the designer when navigating via keyboard.
+- Fixed a SurveyControl bug that prevented the inspection template form from being saved with no columns.
+- Fixed a bug that prevented deserialization of inspection responses during translation.
+- The "Check if forms have unhealthy customizations" rule now provides better warning messages, and will provide an in-app notification by default.
+
+## 8.8.63.22
+
+This release is a hotfix on Field Service version [8.8.63.20](/dynamics365/field-service/version-history#886320).
+
+- Fixed a bug where opening the audit history on a work order would fail and show an error.
 
 ## 8.8.63.20
 
