@@ -6,8 +6,8 @@ ms.reviewer: krbjoran
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
-author: FieldServiceDave
-ms.author: daclar
+author: krbjoran
+ms.author: krbjoran
 manager: shellyha
 search.app:
   - D365CE
@@ -42,11 +42,11 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 (Includes Universal Resource Scheduling version [3.12.75.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#312752)).
 
-- Fixed a bug that prevented bookings from being generated via agreement booking setups when the agreement is assigned to ‘SYSTEM’ user.
+- Fixed a bug that prevented bookings from being generated via agreement booking setups when the agreement is assigned to "SYSTEM" user.
 - Fixed a bug that prevented the checkbox question from focusing properly in the designer when navigating via keyboard.
 - Fixed a SurveyControl bug that prevented the inspection template form from being saved with no columns.
 - Fixed a bug that prevented deserialization of inspection responses during translation.
-- The ‘Check if forms have unhealthy customizations’ rule now provides better warning messages, and will provide an in app notification by default.
+- The "Check if forms have unhealthy customizations" rule now provides better warning messages, and will provide an in-app notification by default.
 
 ## 8.8.63.22
 
