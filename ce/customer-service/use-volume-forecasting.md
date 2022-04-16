@@ -46,7 +46,7 @@ You can use the Forecast report for case and conversation volumes in the followi
 
 ## Prerequisites
 
-Before you can use the Forecast report, ensure your administrator has given you Customer Service Manager role permissions. More information: []()
+Before you can use the Forecast report, ensure that your administrator has given you Customer Service Manager role permissions. More information: []()
 
 ## View the Forecast report in Customer Service
 
