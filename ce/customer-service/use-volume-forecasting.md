@@ -71,3 +71,29 @@ You can filter the case data by using any of the following options:
 The **Case forecasting** section of the report displays a visual trend from historical case volume in the past to the predicted case volume in the future. The forecast is based on actual case records from the case entity created in the past.
 
 The **Confidence level** for the forecasted data is displayed on the right-hand side in blue, indicating the level of confidence in the predicted volume. The narrowest part of the blue area indicates higher confidence. You can hover on the report to display the forecast based on data for specific dates.
+
+Hovering on the future side (dash line) of the report will show you a range that includes an upper and lower bound confidence range, which indicates the amount of possible variance that could occur from the predicted volume number.
+
+#### Filter data by drilling up or down
+
+You can drill into the report data by using the up or down arrows at the top-right side of the report to display data by day, week, month, or year. Forecasting supports date ranges of up to six months.
+
+If you select the single down arrow, you can drill down to a specific date. For example, if the report shows a month view, you can select the single down arrow, and then select the specific month on the report that you want to drill down to. The report will then display the data for that specific month.
+
+### View volume forecasting by numbers
+
+The number grid at the bottom of the report predicts the exact number of cases to expect across months, based on actual past data.
+
+You can filter the data by selecting from the following options:
+
+|Filter	|Description |
+|---------|------------|
+|All up	|Displays the actual and forecasted numbers day by day. You can use the up and down arrows to drill to specific levels.|
+|Queue	|Displays both actual and forecasted numbers for each queue.|
+|Channel	|If there are channels associated with the cases, the actual and forecasted case numbers are displayed for each channel.|
+
+### Export data
+
+You can export the report data by selecting the ellipsis in the top-right corner of either section of the report, and then selecting **Export data**.
+
+The data for the date range you selected is saved in an Excel spreadsheet. For the **Sum of Forecast** column, there will only be numbers for dates that are in the future. Actual numbers are based on monthly date that your administrator configured for the report to be refreshed.
