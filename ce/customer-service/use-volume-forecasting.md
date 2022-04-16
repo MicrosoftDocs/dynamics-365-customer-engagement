@@ -52,6 +52,8 @@ Before you can use the Forecast report, ensure that your administrator has given
 
 You can access the Forecast report in the Customer Service workspace app by selecting the plus (+) icon, and then selecting **Forecast (preview)**, or in Customer Service Hub by selecting **Forecast (preview)** under **Insights** in the site map.
 
+   :::image type="content" source="media/forecast-dashboard.png" alt-text="View of the Forecast report.":::
+
 ### Filters for case and conversation forecasting
 
 The **Case** and **Conversation** tabs of the volume forecast report display visual and numeric metrics for the filters you select. The difference between the two tabs is based on the input data source. Case data is based on the case entity, whereas conversation data is based on the omnichannel conversations, such as live chat, digital messages, the voice channel, and so forth.
