@@ -87,7 +87,7 @@ As an administrator, you can configure sales managers or sellers to impersonate 
 
 For example, Robert Kline is a sales enablement manager who doesn't have access to the conversation intelligence dashboard of Jacob Hancock's team. When Robert is given access to view the dashboard as Jacob, Robert can access the information he requires in the conversation intelligence application by impersonating Jacob.
 
-1. In the **View as different user (preview)** section, select **+ Add user**.
+1. In the **View as different user (preview)** section, select **Add user**.
 
     > [!div class="mx-imgBorder"]
     > ![Select Add user.](media/si-app-admin-configure-your-page-view-as-select-add-user.png "Select add user")

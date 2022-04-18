@@ -554,9 +554,9 @@
         href: voice-consult-microsoft-teams-user.md
       - name: Manage phone music
         href: voice-channel-music.md
-      - name: Set up a multilanguage bot in Power Virtual Agents
-        href: set-up-multilanguage-pva-bot.md  
-      - name: Set up a multilanguage contact center
+      - name: Set up a multilingual bot in Power Virtual Agents
+        href: set-up-multilingual-pva-bot.md  
+      - name: Set up a multilingual contact center
         href: voice-channel-multi-language-contact-center.md
       - name: Bring your own carrier
         href: voice-channel-bring-your-own-number.md
@@ -1072,6 +1072,10 @@
       href: cs-iot-security-roles.md
   - name: Migration solutions
     items: 
+    - name: Export and import configuration data for the record channel
+      href: export-import-config-data-for-records.md
+    - name: Export and import configuration data for live chat
+      href: export-import-config-data-for-live-chat.md
     - name: Migrate workstreams created in Omnichannel Administration
       href: migrate-workstreams.md
     - name: Migrate automatic record creation rules and SLAs
