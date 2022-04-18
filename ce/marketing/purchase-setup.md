@@ -20,7 +20,7 @@ search.app:
 
 # Purchase and set up Dynamics 365 Marketing
 
-This article explains how to purchase set up a new Dynamics 365 Marketing environment.
+This article explains how to purchase and set up a new Dynamics 365 Marketing environment.
 
 > [!TIP]
 > A trial version of Dynamics 365 Marketing is also available. If you'd like to set up a trial, see [Sign up for a free trial of Dynamics 365 Marketing](trial-signup.md) for instructions.

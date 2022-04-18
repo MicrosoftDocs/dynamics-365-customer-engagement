@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ms.topic: overview
-ms.date: 04/04/2022
+ms.date: 04/13/2022
 
 ---
 
@@ -36,10 +36,9 @@ To address customer issues, you can configure and use the voice channel. More in
 
 ## SMS
 
-If you want to help your customers using SMS, you can use the SMS channel.
+If you want to help your customers using SMS, you can use the following SMS channels:
 
-There are two options:
-
+- [SMS through Azure Communication Services](configure-sms-channel-acs.md)
 - [SMS through TeleSign](configure-sms-channel.md)
 - [SMS through Twilio](configure-sms-channel-twilio.md)
 

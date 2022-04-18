@@ -41,7 +41,7 @@ As an administrator, you must configure the Dynamics 365 Sales environment to co
     > [!div class="mx-imgBorder"]
     > ![Data source section](media/si-app-admin-select-data-source.png "Data source section")
  
-5.	In the **Dynamics 365 environment** section, select **+ Add an environment**.
+5.	In the **Dynamics 365 environment** section, select **Add an environment**.
 
     > [!div class="mx-imgBorder"]
     > ![Select an environment to add](media/si-app-admin-select-add-an-environment.png "Select an environment to add")
