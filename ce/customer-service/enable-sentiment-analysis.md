@@ -109,9 +109,9 @@ For example, you set the threshold value as **Slightly negative**. When the cust
 
 To turn off supervisor notifications, select **Don't send notifications**.
 
-## Multilanguage sentiment
+## Multilingual sentiment
 
-Multilanguage sentiment scoring is enabled by default. Conversations in more than 40 languages are scored. The languages listed in the following table are supported in the analytics features.
+Multilingual sentiment scoring is enabled by default. Conversations in more than 40 languages are scored. The languages listed in the following table are supported in the analytics features.
 
 <table>
 <tbody>
