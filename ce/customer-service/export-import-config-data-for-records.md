@@ -9,7 +9,7 @@ manager: shujoshi
 ms.reviewer: nenellim
 ---
 
-# Export and import data for record channel
+# Export and import configuration data for the record channel
 
 By using the Configuration Migration tool, you can migrate the configurations from the source organization to the target organization for the records that're configured to use unified routing.
 
@@ -1173,4 +1173,4 @@ Along with the import of the queues configuration, if you want to update an exis
 ### See also
 
 [Create a schema to export configuration data](/power-platform/admin/create-schema-export-configuration-data)  
-[Export and import configuration for live chat](export-import-unified-routing-live-chat.md)  
+[Export and import configuration for live chat](export-import-config-data-for-live-chat.md)  

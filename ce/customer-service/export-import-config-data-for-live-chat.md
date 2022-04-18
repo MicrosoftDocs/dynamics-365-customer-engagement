@@ -65,15 +65,15 @@ You must perform the steps in the order they're listed to migrate your configura
 
 ## Export and import skill-based configuration
 
-If skill-based routing rulesets are used in your unified routing setup, perform the steps outlined in [Export and import data for skill-based routing](export-import-unified-routing-records.md#export-and-import-data-for-skill-based-routing).
+If skill-based routing rulesets are used in your unified routing setup, perform the steps outlined in [Export and import data for skill-based routing](export-import-config-data-for-records.md#export-and-import-data-for-skill-based-routing).
 
 ## Export and import configuration for capacity profiles
 
-If you have configured capacity profiles in your unified routing setup, perform the steps outlined in [Export and import data for capacity profiles](export-import-unified-routing-records.md#export-and-import-data-for-capacity-profiles).
+If you have configured capacity profiles in your unified routing setup, perform the steps outlined in [Export and import data for capacity profiles](export-import-config-data-for-records.md#export-and-import-data-for-capacity-profiles).
 
 ## Export and import configuration for live chat queues
 
-For exporting and importing queues for live chat, perform the steps outlined in [Export and import data for unified routing-based record queues](export-import-unified-routing-records.md#export-and-import-data-for-unified-routing-based-record-queues).
+For exporting and importing queues for live chat, perform the steps outlined in [Export and import data for unified routing-based record queues](export-import-config-data-for-records.md#export-and-import-data-for-unified-routing-based-record-queues).
 
 ## Export and import configuration for live chat workstreams
 
@@ -154,4 +154,4 @@ The following assumptions are in place:
 
 ### See also
 
-[Export and import configuration for records based on unified routing](export-import-unified-routing-records.md)  
+[Export and import configuration for records based on unified routing](export-import-config-data-for-records.md)  

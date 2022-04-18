@@ -1072,10 +1072,10 @@
       href: cs-iot-security-roles.md
   - name: Migration solutions
     items: 
-    - name: Migrate data for unified routing-based records
-      href: export-import-unified-routing-records.md
-    - name: Migrate data for unified routing-based-live chat
-      href: export-import-unified-routing-live-chat.md
+    - name: Export and import configuration data for the record channel
+      href: export-import-config-data-for-records.md
+    - name: Export and import configuration data for live chat
+      href: export-import-config-data-for-live-chat.md
     - name: Migrate workstreams created in Omnichannel Administration
       href: migrate-workstreams.md
     - name: Migrate automatic record creation rules and SLAs
