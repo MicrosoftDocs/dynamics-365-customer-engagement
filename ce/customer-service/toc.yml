@@ -658,6 +658,8 @@
         href: markdown-formats-agents.md
     - name: Developer experience
       items: 
+      - name: Create a custom live chat widget
+        href: 
       - name: Customize live chat widgets using data tags
         href: customize-chat-widget.md
       - name: Customize live chat widgets using Omnichanel Chat SDK
