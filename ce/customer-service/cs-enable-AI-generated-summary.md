@@ -24,13 +24,11 @@ This feature uses the AI capability to automatically summarize the agents ongoin
 
 ## How AI-generated summary works
 
-The summary generation feature uses a natural language generation model, so that admins can enable the feature by setting the toggle without the need for extra model training.  the AI model generates summaries from full conversation transcripts with up to 7,000 characters. If a transcript contains more than 7,000 characters, the first 7,000 characters are considered from the beginning to generate the summary. The summary is generated only for active conversations, as follows:
+The summary generation feature uses a natural language generation model, so that admins can enable the feature by setting the toggle without the need for extra model training. The AI model generates summaries from full conversation transcripts with up to 7000 characters. If a transcript contains more than 7000 characters, the first 7000 characters are considered from the beginning to generate the summary. The summary is generated only for active conversations, as follows:
 - **Issue description** summarizes the key customer problems to solve in a conversation. At least 3 customer messages are required to generate the issue description. 
 - **Resolution tried** generates a list that summarizes if any resolutions agents have tried with the customer. If a resolution can't be discovered by the AI model from the transcript, no resolution is displayed in the summary. 
  
 ## Regional availability and supported languages
-
-The AI generated summary is supported in geographical locations that AI suggestions for similar cases supports. More information: [Regional availability and service limits for Customer Service](cs-region-availability-service-limits.md)
  
 The AI-generated summary is supported in the following geographical locations:
 - United States
@@ -38,6 +36,8 @@ The AI-generated summary is supported in the following geographical locations:
 - United Kingdom.
 
 This feature is supported only in English.
+
+More information: [Regional availability and service limits for Customer Service](cs-region-availability-service-limits.md)
 
 ## Prerequisites
 
