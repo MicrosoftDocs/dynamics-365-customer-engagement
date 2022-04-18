@@ -74,7 +74,7 @@ As a salesperson, you want to be able to easily identify and add products from t
 
 4. Under **Revenue**, do one of the following:
 
-   - To calculate the estimated revenue of the opportunity based on all the products added to the opportunity, select **System calculated**.
+   - To calculate the estimated revenue of the opportunity based on the products that are added to the opportunity, select **System calculated**.
 
    - To use a custom estimated revenue, select **User provided**.
 

@@ -50,7 +50,7 @@ When a customer places an order, you can create an invoice to bill them for the 
   
 1. Select the site map ![Site Map icon.](media/site-map-icon.png "Site map icon"), and then select **Invoices**. 
   
-2.  Select **+ New**.
+2.  Select **New**.
 
     The Invoice form opens.
 
@@ -75,7 +75,7 @@ When a customer places an order, you can create an invoice to bill them for the 
 6. To add products from your opportunity to your order, select the **More options** icon ![More commands icon](media/more-commands-button.png "More commands icon") and then choose **Get Products**, select your opportunity, and select **OK**.  
   
     -OR-
-    To manually add other products, In the **Products** section, select the **+ Add Product**. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add products to Quote, invoice, or order records](add-product-quote-order-invoice.md)
+    To manually add other products, In the **Products** section, select the **Add Product**. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add products to Quote, invoice, or order records](add-product-quote-order-invoice.md)
     
     You need to enter the tax amount when you add a product to a quote, order, or invoice. [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] doesn't automatically calculate tax for individual products. However, the total tax is calculated automatically based on the sum of the tax amounts for all of the individual products in a quote, order, or invoice.  
 
