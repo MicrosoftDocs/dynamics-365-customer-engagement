@@ -538,11 +538,11 @@ Along with the import of the queues configuration, if you want to update an exis
 	> - If the target organization has intake rules for the record type with different GUID, then delete all the intake rules in the target organization before you do the import.
 
     
-[!INCLUDE[ur-migration](../includes/cc-ur-migration.md)]
+   [!INCLUDE[ur-migration](../includes/cc-ur-migration.md)]
    - **Configure import settings**: For the Decision contract entity, ensure that you select the **Do not update existing records** checkbox.
    
-    > [!Note]
-	> Update the entity logical name in the sample code to migrate entities other than incident.
+   > [!Note]
+   > Update the entity logical name in the sample code to migrate entities other than incident.
 
     | S.No.| Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
     |-----|---------|---------|---------|
