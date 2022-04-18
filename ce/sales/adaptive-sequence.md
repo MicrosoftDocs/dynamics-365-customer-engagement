@@ -1,7 +1,7 @@
 ---
 title: "Use adaptive sequences to define conditions (Sales Premium)"
 description: "Use adaptive sequences in sales accelerator to define conditions steps that determines the path of a sequence."
-ms.date: 01/10/2022
+ms.date: 03/11/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -12,12 +12,11 @@ manager: shujoshi
 Use adaptive sequences in sales accelerator to define conditions steps that determines the path of a sequence.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator or Sequence Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator or Sequence Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## Configure adaptive sequence steps
 
@@ -52,7 +51,7 @@ When the seller skips an email activity that includes a condition, the flow foll
 
 >[!IMPORTANT]
 >- You need to [configure the email engagement feature](configure-email-engagement.md) in your organization before you start using conditions for the email activity. The interactions that customers have with emails are displayed in the condition list.
->- [Enable linking sequence steps and activities](customize-sales-accelerator-sellers.md#enable-linking-sequence-steps-and-activities) to create conditions for email activities.
+>- [Enable sequence activities](customize-sales-accelerator-sellers.md#sequence-activities) to create conditions for email activities.
 
 The following table lists the interactions that are available in email conditions.
 
@@ -108,7 +107,7 @@ The **Advanced email conditions** step lets you define next course of action whe
 
 >[!IMPORTANT]
 >- You need to [configure the email engagement feature](configure-email-engagement.md) in your organization before you start using conditions for the email activity. The interactions that customers have with emails are displayed in the condition list.
->- [Enable linking sequence steps and activities](customize-sales-accelerator-sellers.md#enable-linking-sequence-steps-and-activities) to create conditions for email activities.
+>- [Enable sequence activities](customize-sales-accelerator-sellers.md#sequence-activities) to create conditions for email activities.
 
 Let's define a flow where you want to trigger the next step when a customer opens the email and downloads the attachment. 
 

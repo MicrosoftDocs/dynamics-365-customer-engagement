@@ -1,7 +1,7 @@
 ---
 title: "Configure outbound messaging in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about how to configure outbound messaging in Omnichannel for Customer Service."
-ms.date: 10/12/2020
+ms.date: 04/04/2022
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
@@ -11,9 +11,9 @@ ms.reviewer: nenellim
 
 # Configure outbound messaging
 
-
-
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+## Introduction
 
 Outbound messaging enables organizations to send messages to their customers through supported channels, based on system-triggered or user-defined events. You can configure message templates for only SMS, Twitter, and WhatsApp channels.
 
@@ -43,7 +43,7 @@ After meeting the prerequisites, you can send outbound messages from your organi
 
 Set up templates to send outbound messages. To create a template, consider the scenarios that require your organization to send outbound messages.
 
-1. Sign in to the Customer Service admin center (preview) or Omnichannel admin center app.
+1. Sign in to the Customer Service admin center or Omnichannel admin center app.
 
 2. Create a template for your outbound message.
 
@@ -52,14 +52,11 @@ Set up templates to send outbound messages. To create a template, consider the s
 
 ## Set up outbound configuration
 
-You can set up the outbound configuration in the Customer Service admin center (preview) or Omnichannel admin center app.
+You can set up the outbound configuration in the Customer Service admin center or Omnichannel admin center app.
 
 1. Go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
      1. In the site map, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
      1. In the **Outbound** section, select **Manage**.
@@ -74,6 +71,8 @@ You can set up the outbound configuration in the Customer Service admin center (
       The **Active Outbound Configurations** page is displayed.
 
  If you're using the Omnichannel Administration app, go to **Settings**, and select **Outbound**.
+
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 2. Select **New**, and on New Outbound Configuration page,  enter the details for the settings mentioned in the following table.
 
@@ -104,11 +103,8 @@ Power Automate provides a low-code platform for workflow and process automation.
 
 1. Go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+    
      1. In the site map, select **Productivity** in **Agent experience**. The **Productivity** page appears.
      1. In the **Message templates** section, select **Manage**.
 

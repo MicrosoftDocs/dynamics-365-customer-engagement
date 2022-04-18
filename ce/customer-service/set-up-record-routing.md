@@ -1,7 +1,7 @@
 ---
 title: "Set up unified routing for records | MicrosoftDocs"
 description: "Learn how to set up record routing in Customer Service."
-ms.date: 02/11/2022
+ms.date: 04/04/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -14,7 +14,7 @@ manager: shujoshi
 
 ## Introduction
 
-You can configure routing for records in Customer Service admin center (preview), Customer Service Hub, Omnichannel admin center, or Omnichannel Administration. However, unified routing can be configured only in Customer Service Hub or Omnichannel admin center.
+You can configure routing for records in Customer Service admin center, Customer Service Hub, or Omnichannel admin center. However, unified routing can be configured only in Customer Service Hub or Omnichannel admin center.
 
 If you have only Dynamics 365 Customer Service, the options to configure unified routing is available only after you enable unified routing in service configuration settings.
 
@@ -40,10 +40,7 @@ The following prerequisites are applicable:
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
     1. In the site map, select **Routing** in **Customer support**. The **Routing** page appears.
 
@@ -71,7 +68,7 @@ To configure a workstream for the record, do the following:
 
 1. Go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
    1. In the site map, select **Workstreams** in **Customer support**.
    
@@ -85,7 +82,6 @@ To configure a workstream for the record, do the following:
 
     - In the **Service Management** site map, select **Workstream** in **Unified Routing**, and then select **New workstream**.
    
-
 1. In the **Create a workstream** dialog, enter the following details:
     - **Name**: Enter an intuitive name, such as **Contoso case workstream**.
     - **Work distribution mode**: Select **Push** or **Pick**.

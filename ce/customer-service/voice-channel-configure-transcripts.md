@@ -1,20 +1,18 @@
 ---
 title: "Configure call recordings and transcripts in the voice channel administrator dashboard | MicrosoftDocs"
 description: "Learn how to configure call recordings and transcripts in the voice channel for Omnichannel for Customer Service."
-author: lalexms
-ms.author: laalexan
+author: neeranelli
+ms.author: nenellim
 manager: shujoshi
-ms.date: 02/18/2022
+ms.date: 04/06/2022
 ms.topic: article
-ms.custom: intro-internal
 
 ---
 
-# Configure call recordings and transcripts in the voice channel 
+# Configure call recordings and transcripts in the voice channel
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Introduction
 
 As an administrator, you can enable live transcription and recording of calls, which allows agents and supervisors to view transcripts of customer calls.
 
@@ -23,7 +21,7 @@ As an administrator, you can enable live transcription and recording of calls, w
 
 ## Enable call recordings and transcripts for voice
 
-1. In Customer Service admin center (preview) or Omnichannel admin center, select the workstream for which you want to enable recordings and transcripts.
+1. In Customer Service admin center or Omnichannel admin center, select the workstream for which you want to enable recordings and transcripts.
 
 1. In the **Phone number** section, next to the pencil icon, select **Edit**.
 
@@ -31,9 +29,9 @@ As an administrator, you can enable live transcription and recording of calls, w
    > [!div class="mx-imgBorder"]
    > ![Screenshot of Behaviors tab on the Voice settings page.](./media/voice-channel-recording-number.png)
 
-1. In the **Transcription and recording** section, select the **Transcript and recording** dropdown menu, select either **Transcription** or **Transcription and recording**, depending on your preference.
+1. In the **Transcription and recording** section, select the **Transcript and recording** dropdown menu, select **Transcription** or **Transcription and recording**, depending on your preference.
 
-1. Under **Start setting**, set the toggle to **Automatic** if you want calls to be automatically recorded and transcribed when they begin, or **Manual** if you want allow agents to choose when they start recording and transcribing their calls.
+1. Under **Start setting**, set the toggle to **Automatic** if you want calls to be automatically recorded and transcribed when they begin, or **Manual** if you want to allow agents to choose when they start recording and transcribing their calls.
 
 1. Set **Allow agents to pause and resume** if you want to allow agents to control the portions of conversations that they record and transcribe.
 
@@ -43,7 +41,7 @@ As an administrator, you can enable live transcription and recording of calls, w
 
 You can view the call transcriptions in Omnichannel admin center.
 
-1. In Customer Service admin center (preview) or Omnichannel admin center,  go to manage **Users**, and then select the user whose conversations you want to view.
+1. In Customer Service admin center or Omnichannel admin center,  go to manage **Users**, and then select the user whose conversations you want to view.
 2. Select the **Related** tab, and then select **Conversations** from the dropdown menu.
 3. Select **Closed conversations** from the dashboard dropdown menu.
 
@@ -54,6 +52,18 @@ You can view the call transcriptions in Omnichannel admin center.
   
    > [!div class="mx-imgBorder"]
    > ![Screenshot of closed conversation list.](./media/voice-channel-conversations-list.png)
+
+### Storage location of your recordings and cost
+
+The maximum file size of a recording can be 512 MB. The voice recordings and transcripts data resides in the following locations:
+
+- **Data at rest**: Is stored wherever your Dynamics instance is located.
+- **Data in transit**: For components within the Microsoft stack, we strive to ensure that data doesn’t cross geographical boundaries during transit. The bring your own carrier model has dependencies on third parties, and therefore, data needs to be reviewed end to end and will include components outside the Microsoft stack.
+
+The data storage costs with two participants only is calculated approximately as follows and the cost can fluctuate:
+
+- 20 minute call recording = 10240 KB
+- 20 minute call transcript = 40 KB
 
 ### See also
 

@@ -1,7 +1,7 @@
 ---
 title: "Use agent dashboard and call controls in the voice channel | MicrosoftDocs"
-description: "Use this topic to understand how the agent can use the agent dashboard, use call controls, and also make and receive customer calls in Omnichannel for Customer Service."
-ms.date: 11/02/2021
+description: "Use this article to understand how the agent can use the agent dashboard, use call controls, and also make and receive customer calls in Omnichannel for Customer Service."
+ms.date: 04/05/2022
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: gandhamm
@@ -13,13 +13,11 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Introduction
-
-One of the main value propositions of the Omnichannel for Customer Service voice channel is that it's integrated directly with Dynamics 365; this integration is presented by way of the agent dashboard. The dashboard offers the agent a consolidated view of the calling interface, the customer summary, case history, and timeline. This helps the agent provide quick, effective, and proactive solutions to customer issues. At the same time, the agent experience in the voice channel is similar to the chat, SMS, and other social channels, thereby reducing any agent training time and costs.
+The voice channel in Omnichannel for Customer Service is integrated directly with Dynamics 365 by way of the agent dashboard. The dashboard offers the agent a consolidated view of the calling interface, the customer summary, case history, and timeline. This helps the agent provide quick, effective, and proactive solutions to customer issues. The agent experience in the voice channel is similar to the chat and other channels, which reduces agent training time and costs.
 
 ## Make and receive customer calls
 
-You can call a customer either using the phone dialer on the customer summary page or the launch dialer button on the Omnichannel for Customer Service menu bar. More information: [Call a customer](voice-channel-call-customer.md)
+You can call a customer by using the phone dialer on the customer summary page or the launch dialer button on the menu. More information: [Call a customer](voice-channel-call-customer.md)
 
 When a customer calls your business, the incoming call is received by an intelligent bot. The bot gathers basic information about the customer issue and then transfers the call to you for further action. You'll receive a notification about the incoming call on your agent desktop so you can accept it. The following section describes the call controls and other features you can use during your conversation.
 
@@ -47,74 +45,11 @@ The conversation panel in the agent dashboard includes the following call contro
 
 ## Report a phone number as spam
 
-When you receive a phone call and want to report the number as spam while on the call, you can do so immediately via the call controls on your conversation panel. A notification is then sent to your administrator for review and further action.
+You can report a phone number as a spam call while you are on the call by using the call controls on the conversation panel. A notification is then sent to your administrator for review and further action.
 
 To report a phone number as spam, select the ellipsis to open more actions, and then select **Mark number as spam**.
 
 You can add notes to help your administrator review and block numbers. After you mark a number as spam, it goes into the pending review tab on the **Blocked numbers** page.
-
-## View call recordings and transcripts
-
-If your administrator has enabled the ability to view call recordings and transcripts, when conversations between agents and customers end, both supervisors and agents can view the recordings and transcripts of those conversations, play back the recordings, and view the sentiment analysis and other analytics related to the conversations.
-
-> [!NOTE] 
-> Many countries and states have laws and regulations that apply to the recording of PSTN, voice, and video calls, and may require that users first consent to the recording of their communications. It is your responsibility to use the call recording capabilities in compliance with the law. Before using call recording features, you must obtain consent from the parties of recorded communications in a manner that complies with all applicable laws for each participant.
-
-You can access the recordings and transcripts for completed calls by accessing the Conversation Form in one of the following ways:
-
-- On your session window, select the dropdown button beside Customer summary and select Conversation Form.
-
-- Select the name of the contact, and then in the **Timeline** section, hover the mouse over the closed conversation you want to view, and then select the **Open Record** icon.
-
-### Call recording and transcript controls
-
-The **Details** tab of the Conversation Form displays call recording details.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of call recording and transcript controls.](./media/voice-channel-recording.png)
-
-**Recording playback**
-
-- **Play**: Select the button to listen to the conversation audio.
-- **Rewind** or **Fast-forward**: Select the buttons to either rewind in 10-second increments or fast-forward in 30-second increments.
-- **Volume**: Move the slider to adjust the volume to your desired level.
-- **Download audio**: Download an .mp4 audio file of the complete conversation.
-- **Speed**: From the dropdown menu, select the playback speed of the conversation, whether slower or faster. **Normal** is the default, and is the speed in which the conversation was recorded.
-- **Conversation scroll bar**: Move the scroll bar to any point of the conversation, or listen to it from beginning to end. When you select a location in the recording visualization, the transcript also moves to same place in the conversation.
-- **Sentiment**: Colors and emojis help you quickly analyze the sentiment of the conversation. Green indicates positive sentiment, red indicates negative sentiment, and grey indicates neutral sentiment.
-
-**Transcript**
-
-- **Search**: Enter keywords in the search field to locate desired sections of conversation.
-- **Download transcript**: Open an HTML file of the conversation transcript in your browser.
-  
-   > [!NOTE]
-   > Inline images and rendering of videos is not supported in downloaded transcripts.
-
-The **Overview** section of the Conversation Form displays the following details:
-
-- **Primary agent**: The name of the agent who conducted the call.
-- **Customer**: The name of the customer the call was with.
-- **Channel**: The type of communication conducted.
-- **Sentiment**: The average sentiment of the call.
-- **Status**: The state of the communication.
-- **Status reason**: The reason for the status of the call.
-- **Queue**: The queue the call was conducted in.
-- **Workstream**: The workstream the call was conducted in.
-- **Duration**: The total amount of time of the call, from start to finish.
-- **Skills**: The list of agent skills.
-- **Regarding**: The link to the customer record.
-- **Last modified**: The date and time that the call was last edited.
-
-The **Metrics** tab of the Conversation Form displays the following details:
-
-- **Talking speed**: The rate of speed in which participants conversed during the call.
-- **Talk to listen ratio**: The ratio in which the agent spoke versus listened to the customer.
-- **Average pause**: The average amount of time in which the conversation was paused.
-- **Longest customer monologue**: The longest amount of time that the customer spoke during the conversation.
-- **Switches per conversation**: The number of times the conversation switched from agent to customer, and vice versa.
-
-The **Sessions** tab displays details about the number of voice calls between the agent and the customer, and the duration, date, and time of the conversation.
 
 ## Consult with Microsoft Teams users
 
@@ -129,6 +64,22 @@ Do the following steps to consult while you're on a call:
 3. Select **Add** for the SME you want to consult. The SME will receive a call in Microsoft Teams.
 
 4. Optionally, you can transfer the call to the SME.
+
+## Use chat consult with other agents and transfer calls
+
+You can use the chat consult option to contact another agent and consult with them on questions that you might have when you are on a call with a customer.
+
+**To use chat consult and transfer the call**
+
+1. On the call window, select the consult option. The **Consult** pop-up dialog appears.
+
+  > :::image type="content" source="media/voice-consult.png" alt-text="Voice consult dialog for consulting with other agents.":::
+
+1. Search for the agent that you want to chat with and select chat for the required agent. A consult notification appears for the secondary agent that you select.
+
+1. When the secondary accepts the consult request, a consult pane appears for you and the secondary agent. You can exchange messages in this consult pane. More information: [Consult experience](oc-conversation-control.md#consult-with-agent-or-supervisor)
+
+1. If you want to transfer the call to the secondary agent, select the transfer option on the call window. A notification goes to the secondary agent and the call is transferred after the agent accepts the transfer request. The secondary agent becomes the primary agent and you will be disconnected from the call and consult pane with no option to send any further messages.
 
 ### See also
 

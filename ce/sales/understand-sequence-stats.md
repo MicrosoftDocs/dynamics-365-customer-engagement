@@ -15,12 +15,11 @@ manager: shujoshi
 The stats about sequences provide insights on the performance of a sequence, such as success rate and the state of records that are connected. The data helps you view the sequences that are doing better and emerging with high conversion rates. 
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Sales Manager or Sequence Manager <br>  Go to [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Sales Manager or Sequence Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## Who can view the stats page?
 
@@ -29,7 +28,7 @@ By default, the users with sales manager and sequence manager roles can view the
 ## View the sequence stats page
 
 >[!NOTE]
->-	Verify that an administrator has enabled the sales acceleration reporting preview in your organization. More information: [Enable the Sales accelerator reports preview](enable-configure-sales-accelerator.md#enable-sales-accelerator-reports)
+>-	Verify that an administrator has enabled the sales acceleration reporting preview in your organization. More information: [Sequence reporting](customize-sales-accelerator-sellers.md#enable-sales-accelerator-reports)
 >-	After an administrator enables reporting, the application might take up to 24 hours to display data on the stats page for the first time. Subsequently, data in the stats page is refreshed every four hours. 
 
 **To view the sequence stats**
@@ -86,7 +85,7 @@ The sequence stats list consists of sequences—including inactive ones—that a
 
 ### See also
 
-[Enable the sales accelerator reports preview](enable-configure-sales-accelerator.md#enable-sales-accelerator-reports)    
+[Sequence reporting](customize-sales-accelerator-sellers.md#enable-sales-accelerator-reports)    
 [Understand sales acceleration reporting](understand-sales-acceleration-reporting.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

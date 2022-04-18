@@ -20,12 +20,11 @@ The information on the call summary page helps both sellers and managers:
 Call summaries are available from the conversation intelligence capabilities of the Sales Insights Add-in for Dynamics 365 Sales.
 
 ## License and role requirements
-
 | &nbsp; | $nbsp; |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+
 
 ## Prerequisites
 
@@ -83,7 +82,7 @@ Further, you can share the saved summary with the stakeholders through an email.
 3.	Type your notes and select the bulb icon to add the automatically generated suggestions from the items on the right.    
 
     >[!NOTE]
-    >-	To add notes from the call highlights and action items, select **+ Add** corresponding to the item. 
+    >-	To add notes from the call highlights and action items, select **Add** corresponding to the item. 
     >-	To add all the suggested notes, select More options (…) corresponding to Suggested notes, and then select **Add all**.
     >-	To understand and know more about the context of the note, select the timestamp corresponding to the notes and you are directed to the section in the transcript. 
 

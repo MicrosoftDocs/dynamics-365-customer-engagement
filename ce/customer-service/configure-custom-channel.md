@@ -1,7 +1,7 @@
 ---
 title: "Configure custom channel, or bring your own channel | MicrosoftDocs"
 description: "Learn what a custom channel is and how to configure the channel, or bring your own channel, in Omnichannel for Customer Service."
-ms.date: 02/18/2022
+ms.date: 04/04/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -12,6 +12,8 @@ ms.custom: intro-internal
 # Configure a custom messaging channel, or bring your own channel
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 ## Overview
 
@@ -34,25 +36,27 @@ You must have channels provisioned in your environment. More information: [Provi
 
 ## End-to-end walkthrough
 
-[Step 1: Register your messaging channel](#step-1-register-your-messaging-channel)
+1. Register your custom messaging channel
 
-[Step 2: Add the messaging channel to bot channel registration](#step-2-add-the-messaging-channel-to-bot-channel-registration)
+1. Add the custom messaging channel to bot channel registration
 
-[Step 3: Create a work stream](#step-3-create-a-workstream)
+1. Create a work stream
 
-[Step 4: Create a custom messaging account](#step-4-create-a-custom-messaging-account)
+1. Create a custom messaging account
 
-## Step 1: Register your messaging channel
+## Register your custom messaging channel
 
-To integrate your messaging channel with Omnichannel for Customer Service, register your channel in **Azure Bot Service**. To learn how to register, see [Register a bot with Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration).
+**To integrate your messaging channel with Omnichannel for Customer Service**
 
-After you register, save the **Microsoft App ID** and **Client secret** values safely for future use. These two values are required to create a custom channel configuration in the Omnichannel admin center app.  To learn more, see [Get registration password](/azure/bot-service/bot-service-quickstart-registration#get-registration-password).
+1. Register your custom channel in **Azure Bot Service** by selecting a multitenant bot. To learn how to register, see [Register a bot with Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration).
 
-## Step 2: Add the messaging channel to bot channel registration
+2. Save the **Microsoft App ID** and **Client secret** values safely for future use. These two values are required to create a custom channel configuration in the Omnichannel admin center app. More information: [Get registration password](/azure/bot-service/bot-service-quickstart-registration#get-registration-password).
 
-After registering your messaging channel, add the messaging channel to the bot channel registration. To learn more, see [Connect a bot to channels](/azure/bot-service/bot-service-manage-channels).
+## Add the messaging channel to bot channel registration
 
-## Step 3: Create a workstream
+After registering your messaging channel, add the messaging channel to the bot channel registration. More information: [Connect a bot to channels](/azure/bot-service/bot-service-manage-channels)
+
+## Create a workstream
 
 After you add the messaging channel to the Bot Channel registration in Azure Bot Service, create a workstream for the custom channel.
 
@@ -91,16 +95,11 @@ To configure other options in the workstream, see the following:
 - [Smart assist](../app-profile-manager/smart-assist.md)
 - [Templates](/dynamics365/app-profile-manager/templates-overview)
 
-## Step 4: Create a custom messaging account
-
-### Create a custom messaging account
+## Create a custom messaging account
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
 
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-    > [!IMPORTANT]
-    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
     
     1. In the site map, in **Customer support**, select **Channels**.
     
@@ -112,7 +111,7 @@ To configure other options in the workstream, see the following:
 
 1. On the **Accounts and channels** page, select **New account**.
 
-2. Enter the following details:
+1. Enter the following details:
    1. On the **Channel details** page, enter a name and select **Custom** in **Channels**.
    2. On the **Account details** page, enter the Microsoft app ID in **Microsoft app ID** that you saved from the Azure Bot Channel Registration page, and the client secret in **Client secret**, and then select **Validate**.
    3. On the **Custom channel** page, select **Add**, and enter the following information:
@@ -120,7 +119,8 @@ To configure other options in the workstream, see the following:
       - **Channel:** Select a channel in the list.
    4. On the **Callback information** page, copy the value in the **Messaging endpoint URL** box. You'll update this information in the custom channel account.
    5. Select **Done**. The custom channel instance is created.
-3. In the site map, select the workstream that you've created for the custom channel, and on the page that appears, select **Set up Custom** and enter the following details:
+
+1. In the site map, select the workstream that you've created for the custom channel, and on the page that appears, select **Set up Custom** and enter the following details:
    1. On the **Custom channel** page, select the account that you created.
    2. On the **Language** page, select the required language.
    3. On the **Behaviors** page, configure the following options:
@@ -130,7 +130,8 @@ To configure other options in the workstream, see the following:
       - Customers can send file attachments
       - Agents can send file attachments
    5. Verify the settings on the **Summary** page, and select **Finish**. The custom channel instance is configured.
-4. Configure routing rules. More information: [Configure work classification](configure-work-classification.md).
+
+1. Configure routing rules. More information: [Configure work classification](configure-work-classification.md).
 
 ### Create a custom messaging account in Omnichannel Administration
 
@@ -196,7 +197,7 @@ To create a custom channel, follow these steps:
     > [!div class=mx-imgBorder]
     > ![Summary page for custom channel.](media/custom-channel-4.png "Summary page for custom channel")
 
-## Test your channel
+## Test your custom channel
 
 For more information, see the developer guide, [Test your custom messaging channel: Test Client HTML](test-custom-channel-sample-html.md).
 

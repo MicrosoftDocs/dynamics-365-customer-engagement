@@ -1,8 +1,7 @@
 ---
 title: "Real-time marketing overview (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn general information about the new real-time marketing features in Dynamics 365 Marketing."
-ms.date: 08/19/2021
-
+ms.date: 03/21/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: overview
@@ -24,7 +23,7 @@ Dynamics 365 Marketing isn't just for marketers anymore. With AI and natural lan
 
 - **Engage customers in real-time**
 
-  With features such as [event-based customer journeys](real-time-marketing-event-based-journey.md), [custom event triggers](real-time-marketing-custom-events.md), and [SMS](real-time-marketing-outbound-text-messaging.md) and [push notifications](real-time-marketing-push-notifications.md), organizations can trigger customer journeys in real time, pick the right channel for each individual, and react to customer-led actions in the moments that matter.
+  With features such as [event-based customer journeys](real-time-marketing-event-based-journey.md), [custom triggers](real-time-marketing-custom-triggers.md), and [SMS](real-time-marketing-outbound-text-messaging.md) and [push notifications](real-time-marketing-push-notifications.md), organizations can trigger customer journeys in real time, pick the right channel for each individual, and react to customer-led actions in the moments that matter.
 
 - **Win customers and earn loyalty faster**
 

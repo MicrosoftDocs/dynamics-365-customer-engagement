@@ -1,0 +1,1 @@
+Retrieves the agent availability for a queue based on the routing rules. The omnichannel developer can use this API to determine whether the start conversation option should be visible to the customer and also for displaying information such as wait time and position in queues.

@@ -1,7 +1,7 @@
 ---
 title: "Configure a Twitter Direct Message channel | MicrosoftDocs"
 description: "Use this topic to get instructions to configure a Twitter Direct Message channel in Omnichannel for Customer Service."
-ms.date: 02/18/2022
+ms.date: 04/04/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -11,6 +11,8 @@ manager: shujoshi
 # Configure a Twitter Direct Message channel
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+## Introduction
 
 Many customers use social messaging channels like Twitter Direct Message for their personal communication needs. Many also prefer using these messaging channels to engage with businesses. The asynchronous nature of these channels gives customers the convenience of getting their issues resolved as and when they find time, unlike real-time channels like Chat for Dynamics 365, where the session ends when the chat window is closed.
 
@@ -38,10 +40,7 @@ After completing the prerequisites, you can add the Twitter channel for your org
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
 
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-    > [!IMPORTANT]
-    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
     
     1. In the site map, in **Customer support**, select **Channels**.
     
@@ -88,7 +87,7 @@ After completing the prerequisites, you can add the Twitter channel for your org
 
 1. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
 
-1. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream).
+1. Add a bot. More information: [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream).
 
 1. In **Advanced settings**, configure the following options based on your business needs:
    - [Sessions](../app-profile-manager/session-templates.md)
@@ -98,6 +97,8 @@ After completing the prerequisites, you can add the Twitter channel for your org
    - [Quick replies](create-quick-replies.md)
 
 ### Create a Twitter channel and add a Twitter handle in Omnichannel Administration
+
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 > [!NOTE]
 > Before starting this procedure, you must meet the [prerequisites](#prerequisites) described earlier in this topic.
