@@ -104,7 +104,7 @@ Create a solution to locate and work with the components you’ve customized and
 **To create a solution:**    
 1.	Sign in to the [Power Apps portal](https://make.preview.powerapps.com/) and choose the organization in which you’ve installed the ZoomInfo app.
 2.	On the left navigation pane, select **Solutions**.   
-3.	Select **+ New solution** and on the **New solution** pane, enter the information as described in the following table:    
+3.	Select **New solution** and on the **New solution** pane, enter the information as described in the following table:    
 
     | Field | Description |
     |-------|-------------|

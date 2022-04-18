@@ -34,7 +34,7 @@ In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], you use leads 
   
 1. In the site map, select **Leads**. 
   
-2. Select **+ New**.
+2. Select **New**.
 
 3. Follow the process bar to enter data into fields to move the lead to the next stage. 
 
@@ -54,12 +54,12 @@ In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], you use leads 
   
 5. In the **Timeline** section, add any notes or activities (for example, phone calls or tasks) related to this lead. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Track and manage activities](manage-activities.md) 
 
-6. In the **Stakeholders** section, select the **More Commands** button ![More Commands button.](media/more-button-stakeholders-grid.png "More Commands button"), and then select **+ New Connection** to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making. 
+6. In the **Stakeholders** section, select the **More Commands** button ![More Commands button.](media/more-button-stakeholders-grid.png "More Commands button"), and then select **New Connection** to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making. 
 
-   In the **Lookup Records** dialog box, enter a name or select the Lookup icon to choose from a list of suggestions. When you've entered the name you want, select **Add**. To create a new contact, select **+ New**. By default, the contact you add is assigned the Stakeholder role. Select the role corresponding to the contact to select a different role such as Decision Maker or Technical Buyer. 
+   In the **Lookup Records** dialog box, enter a name or select the Lookup icon to choose from a list of suggestions. When you've entered the name you want, select **Add**. To create a new contact, select **New**. By default, the contact you add is assigned the Stakeholder role. Select the role corresponding to the contact to select a different role such as Decision Maker or Technical Buyer. 
   
     > [!IMPORTANT]
-    > The "+ New" button on Connection sub-grids is supported only for the out-of-box "Stakeholders" views on the Lead entity. For any other Connection sub-grid or "Stakeholders" sub-grids that are based on custom views, the "+ New" button doesn't appear on the sub-grid. In such case, navigate to the Connection Associated view for the record and use the **Connect** button to create a new connection. 
+    > The "New" button on Connection sub-grids is supported only for the out-of-box "Stakeholders" views on the Lead entity. For any other Connection sub-grid or "Stakeholders" sub-grids that are based on custom views, the "New" button doesn't appear on the sub-grid. In such case, navigate to the Connection Associated view for the record and use the **Connect** button to create a new connection. 
 
 7. In the **Details** area of the **Lead** form, enter information about your lead's industry and preferred contact method.  
    

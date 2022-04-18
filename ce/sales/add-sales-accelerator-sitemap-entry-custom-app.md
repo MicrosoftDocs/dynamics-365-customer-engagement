@@ -31,7 +31,7 @@ Know how to add the sales accelerator site map entry to your custom app.
 2. Open the site map designer. Select the pencil icon corresponding to the **Site Map** section.     
     > [!div class="mx-imgBorder"]
     > ![Open site map designer](media/faq-sa-open-site-map-designer.png "Open site map designer")     
-3. Select the area in which you want to add the work list entry and then select **+ Add** > **Subarea**.    
+3. Select the area in which you want to add the work list entry and then select **Add** > **Subarea**.    
     > [!div class="mx-imgBorder"]
     > ![Add subarea to an area](media/faq-sa-select-sub-area.png "Add subarea to an area")      
     In the following example, subarea entry is added to the **Sales** area under **Sales records**.     

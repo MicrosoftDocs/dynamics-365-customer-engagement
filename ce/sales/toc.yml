@@ -14,7 +14,7 @@
         href: sales-trial-faq.md
       - name: Preview features in trial
         href: sales-previews-in-trial.md
-  - name: Install or uninstall
+  - name: Install and configure
     items:
     - name: Set up Dynamics 365 Sales
       href: set-up-dynamics-365-sales.md
@@ -69,12 +69,12 @@
           href: change-color-scheme-logo.md
         - name: Customize the app
           href: manage-app.md
-    - name: Upgrade
-      items: 
-        - name: Upgrade from Dynamics 365 Sales Professional
-          href: upgrade-sales-professional-sales-enterprise.md
-        - name: Move from Dynamics 365 Sales Enterprise to Professional
-          href: move-sales-enterprise-sales-professional.md
+  - name: Upgrade
+    items: 
+      - name: Upgrade from Dynamics 365 Sales Professional
+        href: upgrade-sales-professional-sales-enterprise.md
+      - name: Move from Dynamics 365 Sales Enterprise to Professional
+        href: move-sales-enterprise-sales-professional.md
 - name: Learn the basics
   items: 
     - name: Learn the basics
@@ -564,12 +564,24 @@
         - name: Nurture sales from lead to order
           href: nurture-sales-from-lead-order-sales.md
     - name: Opportunity management
+      expanded: true
       items: 
         - name: Create or edit opportunities
           href: create-edit-opportunity-sales.md
+          expanded: true
+          items: 
+            - name: Add products to an opportunity
+              href: add-products-opportunity.md
+            - name: Add products to an opportunity by using the enhanced experience
+              href: add-products-enhanced-experience.md
+            - name: Add stakeholders, sales team, and competitors
+              href: add-stakeholder.md
+            - name: Move the opportunity through different stages
+              href: move-opportunity-stages.md
         - name: Prioritize opportunities using predictive scores
           href: work-predictive-opportunity-scoring.md
         - name: Manage opportunities using deal manager
+          expanded: true
           items: 
             - name: Deal manager workspace overview
               href: deal-manager-seller-overview.md
@@ -579,10 +591,6 @@
               href: personalize-deal-manager.md
         - name: Work with opportunities in the Kanban view
           href: opportunity-kanban-view.md
-        - name: Add products to an opportunity
-          href: add-products-opportunity.md
-        - name: Add products to an opportunity by using the enhanced experience
-          href: add-products-enhanced-experience.md
         - name: Price calculation for opportunity, quote, order, and invoice records
           href: price-calculation-opportunity-quote-order-invoice-records.md
         - name: How are stakeholders and sales team members tracked for opportunities?
@@ -1015,6 +1023,7 @@
     - name: Privacy notice
       href: privacy-notice.md
 - name: Learning Catalog
+  expanded: true
   items: 
     - name: Learning Catalog
       href: learning-catalog.md
