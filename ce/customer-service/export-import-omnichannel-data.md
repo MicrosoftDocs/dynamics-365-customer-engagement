@@ -32,7 +32,7 @@ While you can use the configuration migration tool to export and import entity d
 
 [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)  
 [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)
-[Export and import configuration for records based on unified routing](export-import-unified-routing-records.md)  
+[Export and import configuration data for records based on unified routing](export-import-unified-routing-records.md)  
 [Export and import configuration for live chat](export-import-unified-routing-live-chat.md)  
 [Enable third-party co-browse and screen sharing](third-party-co-browse.md)  
 [Overview of channels](channels.md)  

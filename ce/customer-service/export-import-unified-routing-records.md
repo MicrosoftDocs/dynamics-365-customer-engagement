@@ -1,5 +1,5 @@
 ---
-title: "Export and import record routing data | MicrosoftDocs"
+title: "Export and import configuration data for records based on unified routing records | MicrosoftDocs"
 description: "Learn to export and import data pertaining to records enabled for unified routing from source to target environments in Omnichannel for Customer Service."
 ms.date: 04/18/2022
 ms.topic: article
@@ -51,7 +51,7 @@ You must perform the steps in the order they're listed to migrate your configura
 
 > [!IMPORTANT]
 > The migration of the following items is not in scope:
-> 
+>
 > - Intelligent skill finder
 > - Effort estimation for routing
 > - Sentiment prediction for routing
@@ -152,7 +152,7 @@ Along with the import of the queues configuration, if you want to update an exis
 [Sample schema for record queues](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20unified%20routing%20record%20queues.xml) to get all the required records.
 
 
-**To migrate the record queues**
+**To migrate the record queues data**
 
 1. Use the Configuration Migration tool to create the schema and export data from the source organization for the record queues configuration.
 
@@ -528,7 +528,7 @@ Along with the import of the queues configuration, if you want to update an exis
 
 [Sample schema for intake rules for record routing](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20intake%20rules%20for%20record%20routing.xml) to get all the required records.
 
-**To migrate the intake rules for records**
+**To migrate the intake rules data for records**
 
 1. Use the Configuration Migration tool to create the schema and export data from the source organization for a record routing configuration.
 
@@ -596,6 +596,8 @@ Along with the import of the queues configuration, if you want to update an exis
 	</entity>
 </fetch>
 ```
+
+
 **Option 2: Decision contract for the incident entity**<a name="BKMK2dc-incident"></a>
 
 ```
@@ -738,7 +740,7 @@ Along with the import of the queues configuration, if you want to update an exis
 
 [Sample schema for unified routing record workstream](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20unified%20routing%20record%20workstreams.xml) to get all the required records.
 
-**To migrate the record workstreams**
+**To migrate the record workstreams data**
 
 1. Use the Configuration Migration tool to create the schema and export data from the source organization for record workstreams.
 
