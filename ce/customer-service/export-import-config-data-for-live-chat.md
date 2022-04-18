@@ -65,15 +65,15 @@ You must perform the steps in the order they're listed to migrate your configura
 
 ## Export and import skill-based configuration
 
-If skill-based routing rulesets are used in your unified routing setup, perform the steps outlined in [Export and import data for skill-based routing](export-import-config-data-for-records.md#export-and-import-data-for-skill-based-routing).
+If skill-based routing rulesets are used in your unified routing setup, perform the steps outlined in [Export and import data for skill-based routing](export-import-config-data-for-records.md#export-and-import-skill-based-routing-configuration).
 
 ## Export and import configuration for capacity profiles
 
-If you have configured capacity profiles in your unified routing setup, perform the steps outlined in [Export and import data for capacity profiles](export-import-config-data-for-records.md#export-and-import-data-for-capacity-profiles).
+If you have configured capacity profiles in your unified routing setup, perform the steps outlined in [Export and import data for capacity profiles](export-import-config-data-for-records.md#export-and-import-capacity-profiles-configuration).
 
 ## Export and import configuration for live chat queues
 
-For exporting and importing queues for live chat, perform the steps outlined in [Export and import data for unified routing-based record queues](export-import-config-data-for-records.md#export-and-import-data-for-unified-routing-based-record-queues).
+For exporting and importing queues for live chat, perform the steps outlined in [Export and import data for unified routing-based record queues](export-import-config-data-for-records.md#export-and-import-record-queues-configuration).
 
 ## Export and import configuration for live chat workstreams
 
