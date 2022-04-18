@@ -28,7 +28,7 @@ The following prerequisites must be set for the Microsoft Teams users:
 - **Update the Azure profile for SMEs with phone number**: Add SMEs as guest users to the Azure Active Directory for them to participate in a Teams voice call. To add a guest user and update a phone number in the user profile, perform the following steps:
 
      1. Add a guest user in the Azure portal. More information: [Add a new guest user](/azure/active-directory/external-identities/b2b-quickstart-add-guest-users-portal#add-a-new-guest-user-in-azure-ad).
-     2. On the guest user profile, select **Edit** to add the user phone number in the **Contact info** > **Office phone** field.
+     2. On the guest user profile, select **Edit** to add the phone number in the **Contact info** > **Office phone** field.
 
   Dynamics 365 uses Graph API to retrieve the number in the **Office phone** field. Agents can then search for and add a user to the phone call.
 
