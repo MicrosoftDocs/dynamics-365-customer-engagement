@@ -1,7 +1,7 @@
 ---
 title: "Known issues in real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about known issues in real-time marketing and how to work around them."
-ms.date: 02/23/2022
+ms.date: 03/29/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -54,7 +54,7 @@ As we continue to work on real-time marketing and refine the experience, we've b
 ## Triggers
 
 - You can’t instrument C# apps in real-time marketing. If you choose to use an alternate language like Python, you’ll have to manage an infra to run Python.
-- Triggers can’t be migrated when moving data between environments. Any events in the old environment need to be re-created in the new environment.
+- Published triggers can’t be migrated when moving data between environments. Any published triggers in the old environment need to be re-created in the new environment. Draft triggers, however, can be migrated as described in [Move custom triggers between environments](real-time-marketing-move-triggers.md).
 
 ## Natural language
 

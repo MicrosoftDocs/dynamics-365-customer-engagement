@@ -1,7 +1,7 @@
 ---
 title: "Configure the sales accelerator"
 description: "Configure the sales accelerator to create sequences and connect records, and view daily work list items."
-ms.date: 03/17/2022
+ms.date: 04/06/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -12,12 +12,11 @@ manager: shujoshi
 Enable and configure the sales accelerator to create sequences and connect records, and view daily work list items.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## How does the sales accelerator help a sales team?
 
@@ -40,21 +39,17 @@ The sales accelerator is an engagement platform that helps a sales team understa
 
 Enable the sales accelerator by quickly providing access to security roles and selecting the record types to be shown in the work list.
 
-1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** ![change area.](media/change-area-icon.png) > **Sales Insights settings**.
-
-2. Under **Sales accelerator**, select **Workspace**.
-
 >[!NOTE]
->By default, sales accelerator is enabled in the Sales Hub app with limited functionalities. Your Sales teams can view the work list items created through timeline. To experience the full capabilities of sales accelerator, purchase the Sales Premium license and configure the features such as sequences and segments. To disable the sales accelerator, go to [Disable sales accelerator](#disable-sales-accelerator). 
+>By default, sales accelerator is available in the Sales Hub app with limited functionalities. Your Sales teams can view the work list items created through timeline for contact, opportunity, lead, and account records. To experience the full capabilities of sales accelerator, purchase the Sales Premium license and configure the features such as sequences and segments. 
 
 1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **Sales Insights settings**.
 2. Under **Sales accelerator**, select **Workspace**.     
-    The sales accelerator workspace set up page opens. 
+    The sales accelerator workspace setup page opens. 
 
     >[!div class="mx-imgBorder"]
     >![Sales accelerator first-run setup page.](media/sa-fre-setup.png "Sales accelerator first-run setup page")   
 
-3.	Select **Get started**.
+3.	Select **Quick setup**.
 
     The **Sales accelerator quick setup** pane opens.
 
@@ -122,7 +117,7 @@ After the first-run setup of the sales accelerator, you can manage security role
     >![Manage access and record type setup page.](media/sa-manage-access-record-type-page.png "Manage access and record type setup page")   
 
 4.	Update the information as required, and then select **Publish**.  
-    For more information, go to steps 5 through 7 in [First-run setup](#first-run-set-up), earlier in this topic.
+    For more information, go to steps 5 through 7 in [First-run setup](#first-run-set-up), earlier in this article.
 
 ## Customize the workspace for sellers
 
@@ -160,7 +155,7 @@ You can manage custom filters by creating, disabling, and deleting the filters:
 
 ### Add filters
 
-1.	On the **Filters** page, select **+ New filter**.    
+1.	On the **Filters** page, select **New filter**.    
 
 2.	In the **New filter** dialog box, enter the following information.
 
@@ -184,7 +179,7 @@ Filter groups help you to organize filters in a meaningful way for sellers to ea
 
 1.	Use one of the following ways to create groups:
 
-    -	On the **Filters** page, select **+ New group**.
+    -	On the **Filters** page, select **New group**.
     -	While creating a filter, in the **Nest filter under** dropdown list, select **Create new filter group**.
 
 2.	In the **Create new filter group** dialog box, enter the name of the group.
@@ -270,7 +265,7 @@ The filter is moved to the filter list of the selected group.
 
 ## Recommendations
 
-For the best experience of the sales accelerator, enable and configure [predictive lead scoring](configure-predictive-lead-scoring.md) and [predictive opportunity scoring](configure-predictive-opportunity-scoring.md) to display predictive scores for each record in the work list. Displaying the score helps your sellers to prioritize leads and opportunities based on how likely they are to be converted.
+For the best experience of the sales accelerator, enable and configure [predictive lead scoring](configure-predictive-lead-scoring.md) and [predictive opportunity scoring](configure-predictive-opportunity-scoring.md) to display predictive scores for each record in the work list. Displaying the score helps your sellers to prioritize leads and opportunities based on how likely they're to be converted.
 
 ## Customizations
 
@@ -293,7 +288,8 @@ You can disable the sales accelerator workspace, if it's no longer required in y
     >[!div class="mx-imgBorder"]
     >![Select disable sales accelerator on confirmation message](media/sa-disable-sa-confirmation.png "Select disable sales accelerator on confirmation message")   
 
-The sales accelerator workspace is disabled in your organization.
+The sales accelerator workspace is disabled in your organization. Also, sellers can't see the **Sales accelerator** sitemap entry under **My Work**.    
+To configure the sales accelerator, go to [First-run setup](#first-run-set-up).
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
