@@ -64,10 +64,11 @@ More information:
 
 3. In the **Agent transfers** section, select **Omnichannel**, and on the Omnichannel panel that appears, do the following:
    
-   1. Select **Enable**. A message that Omnichannel is enabled is displayed on the top.
+   1. Select **Enable**. One of the following messages appear:
    
-       - If you haven't installed the [required extensions](/power-virtual-agents/configuration-hand-off-omnichannel#install-extensions), you'll see a message that your bot doesn't have access to the variables or actions it needs. You must install at least [Omnichannel Power Virtual Agent extension](https://appsource.microsoft.com/product/dynamics-365/mscrm.omnichannelpvaextension) for hand-off to work.
-       - If you're using Application Lifecycle Management (ALM), you may see a message that we can't determine if omnichannel integration is enabled for the environment. For more information, see [Bots with ALM](/power-virtual-agents/configuration-hand-off-omnichannel#bots-with-alm).
+     - A message that Omnichannel is enabled is displayed at the top of the page.
+     - If you haven't installed the [required extensions](/power-virtual-agents/configuration-hand-off-omnichannel#install-extensions), you'll see a message that your bot doesn't have access to the variables or actions it needs. You must install at least [Omnichannel Power Virtual Agent extension](https://appsource.microsoft.com/product/dynamics-365/mscrm.omnichannelpvaextension) for hand-off to work.
+     - If you're using Application Lifecycle Management (ALM), you might see the following message: "We can't determine if omnichannel integration is enabled for the environment". For more information, see [Bots with ALM](/power-virtual-agents/configuration-hand-off-omnichannel#bots-with-alm).
    2. Turn on the **Enable voice** toggle.
    
    3. Select **See how to register a new Application ID**, and follow the instructions to register an application identifier.
