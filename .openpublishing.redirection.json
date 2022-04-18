@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/customer-service/set-up-multilanguage-pva-bot.md",
+      "redirect_url": "set-up-multilingual-pva-bot",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/marketing/real-time-marketing-custom-event-actions.md",
       "redirect_url": "real-time-marketing-custom-actions",
       "redirect_document_id": "false"
@@ -17917,6 +17922,11 @@
     },
     {
       "source_path": "ce/developer/org-service/use-executemultiple-improve-performance-bulk-data-load.md",
+      "redirect_url": "/dynamics365/developer/customerengagement/on-premises/developer/org-service/use-executemultiple-improve-performance-bulk-data-load",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/use-executemultiple-improve-performance-bulk-data-load.md",
       "redirect_url": "/dynamics365/developer/customerengagement/on-premises/developer/org-service/use-executemultiple-improve-performance-bulk-data-load",
       "redirect_document_id": "false"
     },
