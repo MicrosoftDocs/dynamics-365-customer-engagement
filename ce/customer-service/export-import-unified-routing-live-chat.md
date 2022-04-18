@@ -1,7 +1,7 @@
 ---
 title: "Export and import unified routing data for live chat | MicrosoftDocs"
 description: "Learn to export and import data pertaining to live chat from source to target environments in Omnichannel for Customer Service."
-ms.date: 04/12/2022
+ms.date: 04/18/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -56,7 +56,7 @@ The following prerequisites must be met:
 
 You must perform the steps in the order they're listed to migrate your configuration data successfully from the source to the target organization. Use the information in the tables and refer to the corresponding sample schemas for each configuration.
 
-1. Export and import skill-based configuration
+1. Export and import configuration for skill-based routing
 1. Export and import configuration for capacity profiles
 1. Export and import configuration for live chat queues
 1. Export and import configuration for live chat workstreams

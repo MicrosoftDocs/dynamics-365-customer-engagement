@@ -1,7 +1,7 @@
 ---
 title: "Export and import record routing data | MicrosoftDocs"
 description: "Learn to export and import data pertaining to records enabled for unified routing from source to target environments in Omnichannel for Customer Service."
-ms.date: 04/04/2022
+ms.date: 04/18/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -43,11 +43,11 @@ The following prerequisites must be met:
 
 You must perform the steps in the order they're listed to migrate your configuration data successfully from the source to the target organization. Use the information in the tables and refer to the corresponding sample schemas for each configuration.
 
-1. Export and import skill-based configuration
-2. Export and import capacity profiles configuration
-3. Export and import record queues configuration
-4. Export and import intake rules configuration for records
-5. Export and import workstreams configuration for records
+1. [Export and import skill-based routing configuration](#export-and-import-skill-based-routing-configuration)
+2. [Export and import capacity profiles configuration](#export-and-import-capacity-profiles-configuration)
+3. [Export and import record queues configuration](#export-and-import-record-queues-configuration)
+4. [Export and import intake rules configuration for records](#export-and-import-intake-rules-configuration-for-records)
+5. [Export and import workstreams configuration for records](#export-and-import-workstreams-configuration-for-records)
 
 > [!IMPORTANT]
 > The migration of the following items is not in scope:
@@ -56,7 +56,7 @@ You must perform the steps in the order they're listed to migrate your configura
 > - Effort estimation for routing
 > - Sentiment prediction for routing
 > - Operating hours
-> - Role Persona Mapping
+> - Role persona mapping
 > - Notification template
 > - Session template
 > - Presence
@@ -68,15 +68,17 @@ You must perform the steps in the order they're listed to migrate your configura
 
 1. [Use Advanced find to create a custom view](/power-apps/user/advanced-find#create-edit-or-save-a-view-using-legacy-advanced-find).
 
-1. [Select one or multiple records of the entity to export](/power-apps/user/advanced-find#share-a-personal-view). After step 6 is complete, select Download FetchXML.
+1. [Select one or multiple records of the entity to export](/power-apps/user/advanced-find#share-a-personal-view). 
 
-1. Edit the XML as follows, and save it
+1. Select **Download FetchXML**.
+
+1. Edit the XML as follows, and save it:
 
    1. Remove "output-format=xml-platform".
 
-   1. Remove all attribute elements.
+   2. Remove all attribute elements.
 
-   1. Remove the order attribute element.
+   3. Remove the order attribute element.
 
 ## Export and import skill-based routing configuration
 
@@ -88,7 +90,6 @@ If skill-based routing rulesets are used in your unified routing setup, perform 
 **Sample schema**
 
 [Sample schema for skill-based routing configuration](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20skill-based%20routing.xml) to get all the required records.
-
 
 1. Use the Configuration Migration tool to create the schema and export data from the source organization for skill-based routing configuration.
   
@@ -107,7 +108,6 @@ If skill-based routing rulesets are used in your unified routing setup, perform 
 1. Export the data and generate the compressed (zip) file.
 
 1. Use the Configuration Migration tool, and select the option to import data in to the target organization using the compressed file.
-
 
 ## Export and import capacity profiles configuration
 
@@ -571,7 +571,7 @@ Along with the import of the queues configuration, if you want to update an exis
 
 4. Package the extracted content again.
 
-5. Use the Configuration Migration tool, and select the option to import data into the target organization.
+5. Use the Configuration Migration tool, select the option to import data, and select the compressed file.
 
 
 ### FetchXML for decision contract entity for intake rules
@@ -643,6 +643,7 @@ Along with the import of the queues configuration, if you want to update an exis
 	</entity>
 </fetch> 
 ```
+
 ### FetchXML for decision ruleset entity for intake rules
 
 **Option 1: Decision ruleset for all routed records**<a name="BKMK1drl-all-rr"></a>
@@ -786,7 +787,7 @@ Along with the import of the queues configuration, if you want to update an exis
 
 5. Package the extracted content again.
 
-6. Use the Configuration Migration tool, and select the option to import data into the target organization.
+6. Use the Configuration Migration tool, select the option to import data, and select the compressed file.
 
 ### FetchXML for workstream entity
 
