@@ -30,7 +30,7 @@ Marketing updates are [pushed to customers automatically](https://cloudblogs.mic
 
 ### April 2022 update
 
-The Dynamics 365 Marketing March 2021 update includes many new features. This release includes two preview features from the [2022 wave 1 release plans](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/get-started): a bring your own data lake option for Customer Insights integration and new out-of-the-box triggers for events and forms. The update also includes enhancements to marketing emails, partial and relative dates in real-time marketing personalization, performance upgrades, and bug fixes.
+The Dynamics 365 Marketing April 2022 is a milestone release. This release includes two preview features from the [2022 wave 1 release plans](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/get-started): a bring your own data lake option for Customer Insights integration and new out-of-the-box triggers for events and forms. The update also includes enhancements to marketing emails, partial and relative dates in real-time marketing personalization, performance upgrades, and bug fixes.
 
 #### Version number
 
@@ -48,15 +48,43 @@ The Dynamics 365 Marketing March 2021 update includes many new features. This re
 > 
 > Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
 
-- **Connect Dynamics 365 Customer Insights with customer journey orchestration when using your own data lake**
-    - Use Dynamics 365 Customer Insights data, such as customer profile and segment information, that is stored in Azure Data Lake Storage in the same way you do today with standard Customer Insights connected to Microsoft Dataverse.
-    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/connect-dynamics-365-customer-insights-customer-journey-orchestration-when-using-own-data-lake)
-- **Quickly create customer journeys triggered by marketing interactions such as webinar check-ins and form submissions**
-    - New out-of-the-box triggers allow you to create customer journeys triggered by marketing interactions such as webinar check-ins and form submissions.
-    - Learn more: [Real-time marketing triggers](real-time-marketing-triggers.md).
+- **Personalize interactions using a unified view of customer activity across Dynamics 365 Marketing, Sales, and Customer Service**
+    - View both real-time and outbound marketing activities in the Dynamics 365 unified timeline.
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/personalize-interactions-using-unified-view-customer-activity-across-dynamics-365-marketing-sales-customer-service)
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of new triggers.](media/real-time-marketing-new-oob-triggers.png "Screenshot of new triggers")
+    > ![Screenshot of new timeline view.](media/whats-new-timelineview.png "Screenshot of new timeline view")
+
+- **Quickly create emails with enhanced reusable content fragments**
+    - Now it’s easy to create rich, reusable blocks of content allowing your team to quickly assemble beautiful emails with a few clicks.
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/quickly-create-emails-enhanced-reusable-content-fragments).
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of new content fragments.](media/whats-new-content-fragments-themes.png "Screenshot of new content fragments")
+
+- **Fast, easy, and enjoyable email creation canvas**
+    - With this release, the email editor is further enhanced with a completely new canvas experience. Now, you can quickly create pixel-perfect emails, allowing you to spend more time focusing on your content.
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/create-emails-faster-precise-drag-and-drop-in-context-menu-easy-select-interactions).
+
+#### General availability enhancements
+
+- **Take action with your customers in more ways by raising triggers from a journey to run another journey or Power Automate flow**
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/take-action-customers-more-ways-raising-triggers-journey-run-another-journey-or-power-automate)
+    - [Docs](real-time-marketing-custom-actions.md)
+
+- **Quickly personalize emails using predefined dynamic text, without the need to know the underlying data structure**
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/quickly-personalize-emails-using-predefined-dynamic-text-without-need-know-underlying-data-structure)
+    - [Docs](real-time-marketing-predefined-tokens.md)
+
+- **Use additional triggers to create customer journeys**
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/quickly-create-customer-journeys-triggered-marketing-interactions-such-as-webinar-check-ins-form-submissions)
+    - [Docs](real-time-marketing-triggers.md#business-triggers)
+
+- **Create individualized journeys by adding conditions based on attributes captured as part of the event trigger**
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/create-individualized-journeys-adding-conditions-based-attributes-captured-as-part-event-trigger)
+
+- **Improved email layout templates for faster content creation**
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/improved-email-layout-templates-faster-content-creation)
 
 #### Monthly enhancements
 
