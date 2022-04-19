@@ -22,7 +22,12 @@ For information on how to use the Configuration Migration tool, see the followin
 
 The following prerequisites must be met:
 
-- In the source organization, if a ruleset refers to custom entities, attributes, relationships, option sets or lookup values, then ensure that they exist in the target organization before you proceed with the migration.
+- In the source organization, if a unified routing ruleset refers to the following, then ensure that they exist in the target organization before you proceed with the migration:
+  - Custom entities
+  - Attributes
+  - Relationships
+  - Option sets
+  - Lookup values
 - Ensure that the user who performs the migration has the required privileges on the following entities in the source and target organizations:
   - Characteristic (characteristic)
   - Rating Model (ratingmodel)
