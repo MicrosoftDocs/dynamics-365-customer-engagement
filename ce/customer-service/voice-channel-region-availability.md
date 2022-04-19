@@ -20,9 +20,14 @@ This article provides information about the availability of the voice channel in
 > [!NOTE]
 > For information about availability of live chat and digital messaging channels, see [International availability of Omnichannel for Customer Service](international-availability.md#international-availability-of-omnichannel-for-customer-service).
 
-## Supported regions
+## Supported cloud locations
+
 
 Use the information in the following table to know about the availability of the voice channel in Omnichannel for Customer Service.
+
+If the voice channel in Omnichannel for Customer Service for your country or region specific cloud deployments are not yet available, use the general region deployments. For example, country/region cloud for local deployment in the United Kingdom is **To be announced** and is not a part of Europe geographical region availability.
+
+ If you want your data to stay within a country or region, stay tuned for country or region specific local deployment of the voice channel. More information: [Datacenter regions](/power-platform/admin/new-datacenter-regions)
 
 > [!IMPORTANT]
 > Your Microsoft 365 tenant must be co-located in one of the following geographic locations where Omnichannel for Customer Service is available. These geographic locations refer to your Microsoft 365 tenant only and not the data center where your Dynamics 365 environment or org instance resides.
@@ -223,17 +228,19 @@ We use the Azure Cognitive Services Speech service Speech-to-Text for transcript
 | Zulu - South Africa| `zu-ZA` |x|x|x|x|x|x|x|
 ||||||||||
 
-Use the information in the following table to find out more about language support for voice-related features.
- 
-| Feature |	List of supported languages |
-| ---- | ---- |
-| Transcription | [Language and speech support](/azure/cognitive-services/speech-service/language-support)|
-| Power Virtual Agents (IVR) | [Power Virtual Agents supported languages](/power-virtual-agents/authoring-language-support)|
-| Bring your own bot (IVR) | [Language and voice support for the Speech service](/azure/cognitive-services/speech-service/language-support)|
-| AI suggestions | [Language support for AI suggestions](csw-enable-ai-suggested-cases-knowledge-articles.md#language-support-for-ai-suggestions)|
-| Sentiment Analysis | [Multilingual sentiment](enable-sentiment-analysis.md#multilingual-sentiment) |
-| Other Omnichannel for Customer Service features | [Language availability in Omnichannel for Customer Service](international-availability.md#language-availability)
-|||
+### Direct offer availability
+
+Azure direct offer or [Microsoft as a carrier](/azure/communication-services/concepts/telephony/telephony-concept) is available for customers with billing locations in the United States, United Kingdom, Ireland, and Puerto Rico.  Azure direct offer supports:
+- the purchase new US numbers
+- the porting of existing US or toll-free phone numbers. More information: [Port a phone number](/azure/communication-services/quickstarts/telephony/port-phone-number)
+
+ Only the listed billing locations are supported Even if Microsoft as a carrier is available in other regions,. Customers can select a [different carrier](voice-channel-bring-your-own-number.md) by using Azure direct routing.
+
+### Direct routing availability
+
+Bring your own carrier via [Azure direct routing](azure/communication-services/concepts/telephony/telephony-concept#azure-direct-routing) is supported globally/across all geographic locations using certified Session Border Controllers (SBCs). More information: [Bring your own carrier](voice-channel-bring-your-own-number). 
+
+ In the geographic region where the voice channel is generally available, the Azure direct routing only extends general availability support.
 
 ### See also
 
