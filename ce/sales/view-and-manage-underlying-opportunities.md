@@ -1,7 +1,7 @@
 ---
 title: "View and manage the opportunities pipeline through sales forecasting (Dynamics 365 Sales) | MicrosoftDocs"
 description: "View and manage the opportunities pipeline through sales forecasting in Dynamics 365 Sales."
-ms.date: 01/20/2022
+ms.date: 04/01/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -23,12 +23,11 @@ Getting visibility into the underlying opportunities that are contributing to th
 
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+
 
 ## View underlying opportunities
 
@@ -65,13 +64,11 @@ With the enhanced grid, you can view and edit related entity records also. The f
 
 2. **View selector**: You can change the view of these records. By default, the view that was selected when the forecast was configured is displayed.
 
-3. **Group by**: You can group the underlying opportunity records by using a related entity such as, account. For more information on how to use the **Group by** option with or without a filter, see [Preview: Filter the underlying opportunities of a forecast](#preview-filter-the-underlying-opportunities-of-a-forecast).
+3. **Group by**: You can group the underlying opportunity records by using a related entity such as, account. For more information on how to use the **Group by** option with or without a filter, go to [Filter the underlying opportunities of a forecast](#filter-the-underlying-opportunities-of-a-forecast).
 
-4. **Filter**: You can filter the underlying opportunities to view specific set of opportunities that you want to analyze or work on. For more information on how to use filters, see [Preview: Filter the underlying opportunities of a forecast](#preview-filter-the-underlying-opportunities-of-a-forecast). 
+4. **Filter**: You can filter the underlying opportunities to view specific set of opportunities that you want to analyze or work on. For more information on how to use filters, go to [Filter the underlying opportunities of a forecast](#filter-the-underlying-opportunities-of-a-forecast). 
 
-### Preview: Filter the underlying opportunities of a forecast
-
-[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+### Filter the underlying opportunities of a forecast
 
 When you select a row in the forecast grid, you see the underlying opportunities that contribute to that row in the forecast. You can group and filter these opportunities to efficiently manage them and take necessary actions to finalize deals that matter the most.  
 
@@ -90,10 +87,7 @@ When you select a row in the forecast grid, you see the underlying opportunities
         The opportunities associated with that account are displayed. For more information on how filters work when the underlying records are grouped, go to [Example: Grouping and filtering the underlying opportunities](#example-grouping-and-filtering-the-underlying-opportunities).
 
 3. Select **Filters**, and add the filter conditions.  
-
-    > [!NOTE]
-    > If you don't see the **Filters** option, talk to your Dynamics 365 administrator to opt in for the preview as described on the [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates) page.
-    
+ 
     - If **Group by** is set to **None**, you can directly apply the filters on the underlying opportunities as shown in the following screenshot. The opportunities filter will persist across the recurrences in the same forecast until you clear the filter manually.  
     
         :::image type="content" source="media/forecast-filter-opportunity.png" alt-text="Screenshot of a filter set on opportunity columns":::
@@ -162,7 +156,7 @@ Kenny Smith is a Vice President of the sales organization at Contoso Inc. He hea
     | Username - All opportunities | All the opportunities across different forecast categories that the selected user owns. |
     | Username (Group) – Column name | The opportunities that the selected user and that user's team own for the selected forecast category. |
     | Username – Column name | All the opportunities that the selected user owns for the selected forecast category. |
-    |||
+    
 
     You can change the view of these opportunities by using the view selector. By default, the view that was selected when the forecast was configured is displayed.
 

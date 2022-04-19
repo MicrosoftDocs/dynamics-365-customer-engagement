@@ -23,12 +23,11 @@ searchScope:
 Access your Sales Hub and Sales Professional data while you're on the go by using Dynamics 365 for phones or Dynamics 365 for tablets on your mobile device. The Sales Hub app and Sales Professional works the same whether you're using it on your mobile device or on a web browser on your computer.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+
 
 ## About the mobile app
 
@@ -162,7 +161,7 @@ It's no longer necessary for you to open a laptop to add notes to an opportunity
     > [!div class="mx-imgBorder"]
     > ![Add a note to an opportunity.](media/mobile-app-take-notes-timeline.png "Add a note to an opportunity")
 
-3. (Optional) If the customer shows interest in additional products, go to the **Products** tab, tap **More options** (...), and then tap **+ Add Product**.
+3. (Optional) If the customer shows interest in additional products, go to the **Products** tab, tap **More options** (...), and then tap **Add Product**.
 
     > [!div class="mx-imgBorder"]
     > ![Select the Add Product option.](media/mobile-app-select-add-product.png "Select the Add Product option")
@@ -172,7 +171,7 @@ It's no longer necessary for you to open a laptop to add notes to an opportunity
     > [!div class="mx-imgBorder"]
     > ![Add product to an opportunity.](media/mobile-app-add-product.png "Add a product to an opportunity")
 
-4. (Optional) If you've met a new stakeholder at the customer's office, on the **Summary** tab, go to the **Stakeholders** section, tap **More options** (...), and then tap **+ New Connection**. Then add the stakeholder. You can also add the contact from an account record.
+4. (Optional) If you've met a new stakeholder at the customer's office, on the **Summary** tab, go to the **Stakeholders** section, tap **More options** (...), and then tap **New Connection**. Then add the stakeholder. You can also add the contact from an account record.
 
 ### Update deals and customer information after a meeting
 
@@ -249,7 +248,7 @@ After a successful meeting, you can quickly generate a PDF of the quote from an 
 
 2. Open the opportunity for which you want to generate a PDF of the quote, and then go to the **Quotes** tab. 
 
-3. In the quote section, tap **More option** (...), and then tap **+ New Quote**.
+3. In the quote section, tap **More option** (...), and then tap **New Quote**.
 
     > [!div class="mx-imgBorder"]
     > ![Generate a quote.](media/mobile-app-generate-quote.png "Generate a quote")

@@ -45,7 +45,7 @@ Mobile offline is available for iOS and Android devices. To use the mobile offli
 
 ### Install Dynamics 365 phones and table app (for customer engagement apps in Dynamics 365)
 
-For customer engagement apps (such as [Dynamics 365 Sales](../sales-professional/help-hub.md), [Dynamics 365 Customer Service](../customer-service/help-hub.md), and [Dynamics 365 Marketing](../marketing/help-hub.md)) [install Dynamics 365 for phones and tables app](./install-dynamics-365-for-phones-and-tablets.md).
+For customer engagement apps (such as [Dynamics 365 Sales](../sales-professional/help-hub.md), [Dynamics 365 Customer Service](../customer-service/help-hub.md), and [Dynamics 365 Marketing](../marketing/help-hub.yml)) [install Dynamics 365 for phones and tables app](./install-dynamics-365-for-phones-and-tablets.md).
 
 Supported devices for mobile offline:
 

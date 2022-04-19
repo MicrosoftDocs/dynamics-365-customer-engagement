@@ -16,12 +16,11 @@ After you create and activate a sequence for the selling process, you connect th
 > - Opportunities that are in an **Open** state.    
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator or Sequence Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator or Sequence Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 
 ## Ways to connect sequence to records
@@ -138,7 +137,7 @@ You can create a flow based on a sequence. The flow connects the records automat
     > [!div class="mx-imgBorder"]
     > ![Search for your solution](media/si-admin-view-flows-search-solution.png "Search for your solution")
 4. Configure a trigger to the flow.    
-5. Select **+ New step**.   
+5. Select **New step**.   
 6. In the **Search connectors and actions** box, select **Microsoft Dataverse**, and then search for and add the action **Perform an unbound action**.     
     > [!div class="mx-imgBorder"]
     > ![Search and add Perform an unbound action](media/sequence-add-an-unbound-action.png "Search and add Perform an unbound action")     

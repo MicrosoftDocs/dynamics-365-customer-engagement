@@ -4,7 +4,7 @@ description: "Learn about managing session templates in Customer Service workspa
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 02/11/2022
+ms.date: 04/04/2022
 ms.topic: article
 ---
 
@@ -48,10 +48,7 @@ The following out-of-the-box session templates are of the generic type and are f
 
 1. Select one of the following tabs, and perform the steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
     1. In the site map, select **Workspaces** in **Agent experience**.
     2. On the **Workspaces** page, select **Manage** for **Session templates**.
