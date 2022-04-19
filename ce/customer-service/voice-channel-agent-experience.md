@@ -13,11 +13,11 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-The voice channel in Omnichannel for Customer Service is integrated directly with Dynamics 365 by way of the agent dashboard. The dashboard offers you as an agent<!--note from editor: Suggested, to make it clear who "you" is in the rest of the article.--> a consolidated view of the calling interface, the customer summary, case history, and timeline. This helps you provide quick, effective, and proactive solutions to customer issues. The agent experience in the voice channel is similar to the chat and other channels, which reduces agent training time and costs.
+The voice channel in Omnichannel for Customer Service is integrated directly with Dynamics 365 by way of the agent dashboard. The dashboard offers you as an agent a consolidated view of the calling interface, the customer summary, case history, and timeline. This helps you provide quick, effective, and proactive solutions to customer issues. The agent experience in the voice channel is similar to the chat and other channels, which reduces agent training time and costs.
 
 ## Make and receive customer calls
 
-You can call a customer by using the phone dialer on the customer summary page or the **Launch dialer**<!--note from editor: Here and below, I think it would be helpful to have inline graphics for these UI buttons.--> button on the menu. More information: [Call a customer](voice-channel-call-customer.md)
+You can call a customer by using the phone dialer on the customer summary page or the **Launch dialer** button on the menu. More information: [Call a customer](voice-channel-call-customer.md)
 
 When a customer calls your business, the incoming call is received by an intelligent bot. The bot gathers basic information about the customer issue and then transfers the call to you for further action. You'll receive a notification about the incoming call on your agent desktop so you can accept it. The following section describes the call controls and other features you can use during your conversation.
 
@@ -37,7 +37,7 @@ The conversation panel in the agent dashboard includes the following call contro
 - **Mark number as spam**: [Report the incoming call as spam](#report-a-phone-number-as-spam). If you happened to accidentally mark a number as spam, you can select the **Unmark as spam** option.
 - **Device settings**: Configure your microphone and speaker settings.
 - **Take notes**: Make note of important information or specific details from your conversation with the customer. Note that this is in addition to the call recording and transcription that happen during the conversation.
-- **Pause transcription**<!--note from editor: Edit okay? Or is the screenshot out of sync?-->: If you don't want to capture some details of the conversation—such as bank details, billing, or payment information—you can temporarily pause the transcription and resume it later.
+- **Pause transcription**: If you don't want to capture some details of the conversation—such as bank details, billing, or payment information—you can temporarily pause the transcription and resume it later.
 - **Knowledge Articles**: Get a list of knowledge base articles pertaining to the conversation that you can use to resolve the customer issue.
 - **Link to conversation**: You can link another conversation, case, or knowledge article to the conversation.
 - **Transcription**: When the transcription and recording service is enabled by your administrator, all of the conversation between you and the customer is automatically transcribed in real time, which means that you as an agent don't need to take notes during the call. This feature also helps your supervisor or agent (in case of a call transfer) to see the call history.
@@ -52,7 +52,7 @@ To report a phone number as spam, select the ellipsis to open more actions, and 
 You can add notes to help your administrator review and block numbers. After you mark a number as spam, it goes into the pending review tab on the **Blocked numbers** page.
 
 ## Consult with Microsoft Teams users
-<!--note from editor: The latest guidance is that it's okay to drop "Microsoft" after first mention. See https://styleguides.azurewebsites.net/Styleguide/Read?id=2869&topicid=48152 -->
+
 If your administrator has enabled the option for you to consult with subject matter experts (SMEs) through Microsoft Teams, you can contact them by navigating to the **Teams** tab in the **Consult** section of the communication panel. Your supervisor can monitor the calls and after the call ends, the call recording and transcript of the conversation with the Teams user is saved in Dynamics 365 for reporting and compliance.
 
 Do the following steps to consult while you're on a call:
@@ -71,9 +71,9 @@ You can use the chat **Consult** option to contact another agent and consult wit
 
 **To use chat consult and transfer the call**
 
-1. In the call window, select the **Consult**<!--note from editor: I assume there's a tooltip that reads "Consult"? If not (or even if so), I think it would be helpful to have inline images for these command buttons.--> option. The **Consult** dialog appears.
+1. In the call window, select the **Consult** option. The **Consult** dialog appears.
 
-1. Search for the agent who you want to chat with and select **Add to chat**<!--note from editor: As above - is this the tooltip for the option? --> for the required agent. A consult notification appears for the secondary agent that you select.
+1. Search for the agent who you want to chat with and select **Add to chat** for the required agent. A consult notification appears for the secondary agent that you select.
 
 1. When the secondary accepts the consult request, a consult pane appears for you and the secondary agent. You can exchange messages in this consult pane. More information: [Consult experience](oc-conversation-control.md#consult-with-agent-or-supervisor)
 
