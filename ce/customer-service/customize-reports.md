@@ -1,7 +1,7 @@
 ---
 title: "Visual customization of historical analytics reports in Customer Service | MicrosoftDocs"
 description: "Learn how to customize historical analytics reports in Dynamics 366 Customer Service using the Power BI embedded editing experience."
-ms.date: 04/18/2022
+ms.date: 04/19/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -391,3 +391,9 @@ FactSession	|Avg. Speed to answer (sec)	Avg. Speed to answer (sec)|
 |FactSessionParticipant	|Consult sessions	|The number of sessions accepted by a user in mode = consult.|
 |FactSessionParticipant	|Monitor sessions	|The number of sessions accepted by a user in mode = monitor.|
 
+### See also
+
+[Introduction to Customer Service Insights](introduction-customer-service-analytics.md) <br>
+[Configure Customer Service analytics and insights](configure-customer-service-analytics-insights-csh.md) <br>
+[Configure Customer Service Analytics dashboards in Power BI](configure-customer-service-analytics-dashboard.md) <br>
+[Configure Omnichannel historical analytics](oc-historical-analytics-reports.md)
