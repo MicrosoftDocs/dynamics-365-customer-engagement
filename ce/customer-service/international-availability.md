@@ -28,6 +28,28 @@ Your Microsoft 365 tenant must be co-located in one of the following geographic 
 >
 > In the South America, Europe, and Asia Pacific regions, Omnichannel for Customer Service is currently not available in a tenant that's located in Brazil, Norway, and Singapore respectively.
 
+### April 2022 update
+
+Omnichannel for Customer Service April 2022 update is available in the following regions.
+
+|   Geographic location                     |   Date             |
+|-------------------------------------------|--------------------|
+| Asia Pacific                              |   April 09, 2022   |
+| Australia                                 |   April 09, 2022   |
+| Canada                                    |   April 02, 2022   |
+| Europe                                    |     |
+| France                                    |   April 02, 2022   |
+| Germany                                   |   April 02, 2022   |
+| GCC                                       |       |
+| India                                     |   April 02, 2022   |
+| Japan                                     |   April 09, 2022   |
+| North America                             |      |
+| South America                             |   April 02, 2022   |
+| Switzerland                               |   April 02, 2022   |
+| United Arab Emirates (UAE)                |   April 09, 2022   |
+| United Kingdom                            |   April 09, 2022   |
+|||
+
 ### October 2021 update
 
 Omnichannel for Customer Service October 2021 update is available in the following regions.
@@ -50,27 +72,7 @@ Omnichannel for Customer Service October 2021 update is available in the followi
 | United Kingdom                            |   October 08, 2021   |
 |||
 
-### April 2021 update
 
-Omnichannel for Customer Service April 2021 update is available in the following regions.
-
-|   Geographic location                     |   Date             |
-|-------------------------------------------|--------------------|
-| Asia Pacific                              |   April 13, 2021   |
-| Australia                                 |   April 14, 2021   |
-| Canada                                    |   April 07, 2021   |
-| Europe                                    |   April 17, 2021   |
-| France                                    |   April 09, 2021   |
-| Germany                                   |   April 09, 2021   |
-| GCC                                       |   May 15, 2021     |
-| India                                     |   April 08, 2021   |
-| Japan                                     |   April 15, 2021   |
-| North America                             |   April 24, 2021   |
-| South America                             |   April 08, 2021   |
-| Switzerland                               |   April 10, 2021   |
-| United Arab Emirates (UAE)                |   April 08, 2021   |
-| United Kingdom                            |   April 12, 2021   |
-|||
 
 
 ## Language availability
