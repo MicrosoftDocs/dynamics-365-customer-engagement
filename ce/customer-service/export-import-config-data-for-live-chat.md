@@ -22,32 +22,36 @@ For information on how to use the Configuration Migration tool, see the followin
 
 The following prerequisites must be met:
 
-- In the source organization, if a unified routing ruleset refers to custom entities, attributes, relationships, option sets or lookup values, then ensure that they exist in the target organization before you proceed with the migration.
+- In the source organization, if a unified routing ruleset refers to the following, then ensure that they exist in the target organization before you proceed with the migration:
+  - Custom entities
+  - Attributes
+  - Relationships
+  - Option sets
+  - Lookup values
 - Ensure that the user who performs the migration has the required privileges on the following unified routing entities in the source and target organizations:
-
-    - Workstream (msdyn_liveworkstream)
-    - Channel configuration (msdyn_omnichannelconfiguration)
-    - Notification template (msdyn_notificationtemplate)
-    - Session template (msdyn_sessiontemplate)
-    - Operating hours (msdyn_operatinghour)
-    - Characteristic (characteristic)
-    - Rating Model (rating model)
-    - Rating Value (ratingvalue)
-    - Capacity Profile (msdyn_capacityprofile)
-    - Queue (queue)
-    - Decision contract (msdyn_decisioncontract)
-    - Decision ruleset (msdyn_decisionruleset)
-    - Assignment configuration (msdyn_assignmentconfiguration)
-    - Assignment configuration Step (msdyn_assignmentconfigurationstep)
-    - Routing configuration (msdyn_routingconfiguration)
-    - Routing configuration step (msdyn_routingconfigurationstep)
-    - Workstream capacity profile (msdyn_liveworkstreamcapacityprofile)
-    - Context variable (msdyn_ocliveworkstreamcontextvariable) 
-	- Survey question (msdyn_surveyquestions)
-	- Survey question sequence (msdyn_questionsequence)
-	- Survey answer option (msdyn_chatansweroption)
-	- Quick replies (msdyn_cannedmessages)
-	- Tags (msdyn_octags)
+  - Workstream (msdyn_liveworkstream)
+  - Channel configuration (msdyn_omnichannelconfiguration)
+  - Notification template (msdyn_notificationtemplate)
+  - Session template (msdyn_sessiontemplate)
+  - Operating hours (msdyn_operatinghour)
+  - Characteristic (characteristic)
+  - Rating Model (rating model)
+  - Rating Value (ratingvalue)
+  - Capacity Profile (msdyn_capacityprofile)
+  - Queue (queue)
+  - Decision contract (msdyn_decisioncontract)
+  - Decision ruleset (msdyn_decisionruleset)
+  - Assignment configuration (msdyn_assignmentconfiguration)
+  - Assignment configuration Step (msdyn_assignmentconfigurationstep)
+  - Routing configuration (msdyn_routingconfiguration)
+  - Routing configuration step (msdyn_routingconfigurationstep)
+  - Workstream capacity profile (msdyn_liveworkstreamcapacityprofile)
+  - Context variable (msdyn_ocliveworkstreamcontextvariable) 
+  - Survey question (msdyn_surveyquestions)
+  - Survey question sequence (msdyn_questionsequence)
+  - Survey answer option (msdyn_chatansweroption)
+  - Quick replies (msdyn_cannedmessages)
+  - Tags (msdyn_octags)
 
 > [!IMPORTANT]
 > The migration of the account, channel, bot configuration, and AI and analytics settings is not in scope.
@@ -109,7 +113,7 @@ The following assumptions are in place:
 1. Use the Configuration Migration tool to create the schema and export data from the source organization for the live chat widget and related entities.
 
    - **Entity display name**: When you create the schema, select the entities in the sequence that's mentioned in the table.
-   - **Attribute display name**: We recommend that you select the attributes defined in the following table. You don't have to select the system defined attributes, such as Created By, Created On, Modified By, Modified On, and Owner. You can select custom attributes if necessary.
+   - **Attribute display name**: We recommend that you select the attributes defined in the following table. You don't have to select the system-defined attributes, such as Created By, Created On, Modified By, Modified On, and Owner. You can select custom attributes if necessary.
 
    | Chat widget((msdyn_livechatconfig) | Attribute display name (Logical name) |
    |---------|---------|
