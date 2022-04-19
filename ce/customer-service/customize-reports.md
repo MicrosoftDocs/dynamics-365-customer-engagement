@@ -102,14 +102,14 @@ In a scenario where you have customized your reports and then Microsoft makes up
 |FactCase	|Active cases	|Case count when case status is active. |
 |FactCase	|Canceled cases	|Case count when case status is cancelled. |
 |FactCase	|Escalated cases	|Case count when case is escalated. |
-|FactCase	|Escalated rate	|Rate that escalated cases devide by total cases. |
-|FactCase	|Case volume	|Total case count per topic devide by total cases. |
+|FactCase	|Escalated rate	|Rate that escalated cases divided by total cases. |
+|FactCase	|Case volume	|Total case count per topic divided by total cases. |
 |FactCase	|Case volume change	|Total case count link relative ratio for the same date range filter.|
 |FactCase	|Avg. resolve time (hrs|	Average time for case handle time. |
 |FactCase |	Avg. case age (days)	|Average case age |
 |FactCase	|First response - SLA %	|Total cases when first response sent is false divided by total cases. |
 |FactCase	|Avg. CSAT |	Average CSAT score. |
-|FactCase	|CSAT |mpact	| Change ratio for the CSAT.|
+|FactCase	|CSAT impact	| Change ratio for the CSAT.|
 |FactCase	| Avg. survey sentiment	|Average survey sentiment. |
 |FactCase |	Survey sentiment impact |	Change ratio for the sentiment. |
 |DimQueue |	Queue	|Queue name.|
