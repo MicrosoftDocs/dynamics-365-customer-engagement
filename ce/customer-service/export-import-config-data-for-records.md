@@ -1,5 +1,5 @@
 ---
-title: "Export and import configuration data for records based on unified routing records | MicrosoftDocs"
+title: "Export and import configuration data for records based on unified routing | MicrosoftDocs"
 description: "Learn to export and import data pertaining to records enabled for unified routing from source to target environments in Omnichannel for Customer Service."
 ms.date: 04/18/2022
 ms.topic: article
