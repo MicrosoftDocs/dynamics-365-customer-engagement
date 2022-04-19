@@ -48,6 +48,8 @@ You must perform the steps in the order they're listed to migrate your configura
 3. [Export and import record queues configuration](#export-and-import-record-queues-configuration)
 4. [Export and import intake rules configuration for records](#export-and-import-intake-rules-configuration-for-records)
 5. [Export and import workstreams configuration for records](#export-and-import-workstreams-configuration-for-records)
+6. [Verify your migration](#verify-your-migration)
+7. [Troubleshoot export and import of data](#troubleshoot-export-and-import-of-data)
 
 > [!IMPORTANT]
 > The migration of the following items is not in scope:

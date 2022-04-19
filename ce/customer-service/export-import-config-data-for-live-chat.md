@@ -61,6 +61,8 @@ You must perform the steps in the order they're listed to migrate your configura
 1. Export and import configuration for live chat queues
 1. Export and import configuration for live chat workstreams
 1. Export and import configuration for live chat widgets
+1. Verify your migration
+1. Troubleshoot export and import of data
 
 
 ## Export and import skill-based configuration
