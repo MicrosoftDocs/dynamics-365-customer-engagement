@@ -52,7 +52,7 @@ As a knowledge author, you can:
 As an administrator, you can create hierarchical categorical data to help group records. Categories are useful for reporting, sorting, segmenting, and categorization of records. More information: [Create and manage categories](create-manage-categories.md#create-and-manage-categories).
 
 ### Integrate knowledge management with a Power Virtual Agents bot 
-As an administrator you can integrate Power Virtual Agents bot with knowledge management to make it easier to use customized conversations in your bot. This frees up your agent’s time to deal with complex issues that need human intervention, as the bot helps answer questions, perform actions, and solve issues that are simple in nature. More information: [Integrate knowledge management in Dynamics 365 with Power Virtual Agents bots (preview)](integrate-KM-with-PVA.md#integrate-knowledge-management-in-dynamics-365-with-power-virtual-agents-bots-preview)
+As an administrator, you can integrate Power Virtual Agents bot with knowledge management to make it easier to use customized conversations in your bot. This frees up your agent’s time to deal with complex issues that need human intervention, as the bot helps answer questions, perform actions, and solve issues that are simple in nature. More information: [Integrate knowledge management in Dynamics 365 with Power Virtual Agents bots (preview)](integrate-KM-with-PVA.md#integrate-knowledge-management-in-dynamics-365-with-power-virtual-agents-bots-preview)
 
 ## Search knowledge
 
@@ -82,7 +82,7 @@ As an administrator, you can:
   - Track how many times an article is used, viewed, and sent to customers. Proactively create knowledge based on search insights across customers and agents. 
   - View the knowledge search analytics dashboard to provide your organization's customer service supervisors and knowledge workers with valuable insights into how your support agents are finding and using knowledge articles. More information:[Configure Knowledge search insights for Dynamics 365 Customer Service](enable-knowledge-search-insights.md#configure-knowledge-search-insights-for-dynamics-365-customer-service)
 
-:::image type="content" source="media/knowledge-article-insights-dashboard.png" alt-text="View of the knowlege article analytics dashboard":::
+    :::image type="content" source="media/knowledge-article-insights-dashboard.png" alt-text="View of the knowlege article analytics dashboard":::
   
 As a supervisor, you can identify searches that have low success or return no results through the Knowledge search analytics dashboard to help identify knowledge gaps, improve search results, and surface the most relevant articles. More information: [Introduction to knowledge analytics](knowledge-search-analytics-cs.md#introduction-to-knowledge-analytics)
   
