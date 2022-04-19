@@ -27,7 +27,7 @@ Knowledge management plays a vital role in enabling organizations to deliver wor
 * Agents get access to rich, high-quality knowledge resources across consistent and contextual Omnichannel experiences which enables quick resolution of issues, thus reducing the average call handling time for agents.
 * Knowledge management search capabilities across channels help reduce support tickets through self-service, and drives customer satisfaction.
 
-# Features of knowledge management
+## Features of knowledge management
 
 Depending on the role that you play in your organization, here’s how you can leverage the features of knowledge management and help your business grow.
 
@@ -52,7 +52,7 @@ As a knowledge author, you can:
 As an administrator, you can create hierarchical categorical data to help group records. Categories are useful for reporting, sorting, segmenting, and categorization of records. More information: [Create and manage categories](create-manage-categories.md#create-and-manage-categories).
 
 ### Integrate knowledge management with a Power Virtual Agents bot 
-As an administrator you can integrate Power Virtual Agents bot with knowledge management to make it easier to use customized conversations in your bot. This frees up your agent’s time to deal with complex issues that need human intervention, as the bot helps answer questions, perform actions, and solve issues that are simple in nature. More information: [Integrate knowledge management with a Power Virtual Agents bot](integrate-KM-with-PVA.md#integrate-knowledge-management-with-a-power-virtual-agents-bot)
+As an administrator you can integrate Power Virtual Agents bot with knowledge management to make it easier to use customized conversations in your bot. This frees up your agent’s time to deal with complex issues that need human intervention, as the bot helps answer questions, perform actions, and solve issues that are simple in nature. More information: [Integrate knowledge management in Dynamics 365 with Power Virtual Agents bots (preview)](integrate-KM-with-PVA.md#integrate-knowledge-management-in-dynamics-365-with-power-virtual-agents-bots-preview)
 
 ## Search knowledge
 
@@ -84,11 +84,11 @@ As an administrator, you can:
 
 :::image type="content" source="media/knowledge-article-insights-dashboard.png" alt-text="View of the knowlege article analytics dashboard":::
   
-As a supervisor, you can identify searches that have low success or return no results through the Knowledge search analytics dashboard to help identify knowledge gaps, improve search results, and surface the most relevant articles. More information: [Knowledge search analytics dashboard](knowledge-search-analytics-cs.md#knowledge-search-analytics-dashboard)
+As a supervisor, you can identify searches that have low success or return no results through the Knowledge search analytics dashboard to help identify knowledge gaps, improve search results, and surface the most relevant articles. More information: [Introduction to knowledge analytics](knowledge-search-analytics-cs.md#introduction-to-knowledge-analytics)
   
 ### See also  
 
-[Configure origins allow list for knowledge articles](configure-knowledge-article-origin-allow-list.md#configure-origins-allow-list-for-knowledge-articles)
+[Configure origins allowlist for knowledge articles](configure-knowledge-article-origin-allow-list.md#configure-origins-allowlist-for-knowledge-articles)
 
 [Search and share knowledge articles](oc-search-knowledge-articles.md)
 
