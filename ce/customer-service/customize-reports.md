@@ -139,7 +139,7 @@ In a scenario where you have customized your reports and then Microsoft makes up
 |Entities |Attributes|	Description |
 |----------|----------|----------| 
 |DimAgentPresence	|Agent presence id |Primary key. |
-|DimAgentPresence	|Presence status	| Agent presence status. That is, available, busy, busy - DND, away, or offline. |
+|DimAgentPresence	|Presence status	| Agent presence status. That is, Available, Busy, Busy-DND, Away, or Offline. |
 |DimConversationProperty |Conversation property id |Primary key. |
 |DimConversationProperty	|Channel |	Channel name. The name of the channel that the conversation came through. |
 |DimConversationProperty|Conversation status |The status of the conversation. That is, open, active, waiting, wrap up, and closed. |
@@ -169,7 +169,7 @@ In a scenario where you have customized your reports and then Microsoft makes up
 |FactAgentStatusHistory	|Agent busy duration (hrs) |Time an agent in the busy state in Omnichannel application.|
 |FactAgentStatusHistory	|Agent offline duration (hrs)|	The time an agent signed out of the Omnichannel application.|
 |FactAgentStatusHistory	|Agent total login time (hrs)	|The time an agent is in each status. The column is used to calculate other measures like "Agent avaliable duration (hrs)", "Agent away duration (hrs)".|
-|FactConversation	Conversation id	|Identifier of the conversation record. Primary key. Type: Guid.|
+|FactConversation	Conversation id	|Identifier of the conversation record. | Primary key. Type: Guid.|
 |FactConversation|	Conversation title	|Conversation title.|
 |FactConversation|	Conversation Url	|Conversation URL.|
 |FactConversation	|Conversation property id|	Foreign key to DimConversationProperty. |
@@ -300,7 +300,7 @@ In a scenario where you have customized your reports and then Microsoft makes up
 |DimSystemUser	|Agent	|Name of the agent.|
 |DimSystemUser	|Is bot	|Is bot. True or false.|
 |DimTimeZone	|Time zone	|Time zone code. Example: GMT +01:00.|
-|DimTopic	|Topic id	|Topic id. Primary key. Type: Guid.|
+|DimTopic	|Topic id	|Topic ID. Primary key. Type: Guid.|
 |DimTopic	|Topic	|Topic name.|
 |FactAgentStatusHistory	|Agent status history id|	Identifier of the agent status history record. Primary key. Type: Guid.|
 |FactAgentStatusHistory|	System user id	|Agent ID. Foreign key to DimSystemUser.|
@@ -315,7 +315,7 @@ In a scenario where you have customized your reports and then Microsoft makes up
 |FactConversation|	Conversation title	|Conversation title.|
 |FactConversation	|Conversation Url	|Conversation URL.|
 |FactConversation	|Conversation property id	|Foreign key to DimConversationProperty. |
-|FactConversation|	Owner system user id	|Owner system user id. Foreign key to DimSystemUser.|
+|FactConversation|	Owner system user id	|Owner system user ID. Foreign key to DimSystemUser.|
 |FactConversation	|Queue id	|Queue ID. Foreign key to DimQueue.|
 |FactConversation	|Topic id	|Topic ID. Foreign key to DimTopic.| 
 |FactConversation	|Is offered	|It means whether the conversations is initiated by the customer. Bot esclates to an agent or an agent handling customer call directly|
@@ -353,7 +353,7 @@ In a scenario where you have customized your reports and then Microsoft makes up
 |FactSession	|Closed on	Date closed on.|
 |FactSession	|Queue id	|Queue ID. Foreign key to DimQueue.|
 |FactSession	|Topic id	|Topic ID. Foreign key to DimTopic. |
-|FactSession	|primary system user id	|Primary system user id. Foreign key to DimSystemUser.|
+|FactSession	|primary system user id	|Primary system user ID. Foreign key to DimSystemUser.|
 |FactSession	|Is agent accepted session	Is agent accepted the session or not. |
 |FactSession	|Is agent session	|Is agent session or not.|
 |FactSession	|Avg. conversation handle time (min)	|Avg. conversation handle time (min)|
@@ -385,7 +385,7 @@ FactSession	|Avg. Speed to answer (sec)	Avg. Speed to answer (sec)|
 |FactSession	|Sessions rejected	|Sessions rejected.|
 |FactSession	|Transfer rate	|The number of sessions transferred by an agent.|
 |FactSessionParticipant	|Session participant id	|Identifier of the session participant record.|
-|FactSessionParticipant	|Session id	|Session id. Foreign key to FactSession.|
+|FactSessionParticipant	|Session id	|Session ID. Foreign key to FactSession.|
 |FactSessionParticipant	|Avg. consult time (min)	|The time spent on the consult from when the agent joined to when they left in session participant.|
 |FactSessionParticipant	|Avg. monitor time (min)	|The time spent on the monitor from when the agent joined to when they left in session participant.|
 |FactSessionParticipant	|Consult sessions	|The number of sessions accepted by a user in mode = consult.|
