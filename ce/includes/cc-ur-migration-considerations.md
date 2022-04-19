@@ -1,4 +1,4 @@
-The following considerations are applicable:
+To troubleshoot any issues that you might face during the export and import, do the following:
 
 - During the import of the data in the target organization, if you see yellow warning symbols, we recommend that you verify the logs in the Configuration Migration Tool for network errors.
     

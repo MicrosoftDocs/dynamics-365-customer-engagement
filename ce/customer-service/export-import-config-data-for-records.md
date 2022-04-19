@@ -531,14 +531,16 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 1. Use the Configuration Migration tool to create the schema and export data from the source organization for a record routing configuration.
 
+   - **Entity display name**: When you create the schema, select the entities in the sequence that's mentioned in the table.
+   - **Attribute display name**: We recommend that you select the attributes defined in the following table. You don't need to select the out-of-the-box system defined attributes, such as Created By, Created On, Modified By, Modified On, and Owner. You can select custom attributes if required.
+   - **Use FetchXML to filter records**: Use the appropriate fetch xml query to get single, multiple, or all records based on your requirement. For single or multiple records, you need to use source organization to get the correct name in uiname and GUID in value. If required, you can use the advanced find option to construct the appropriate fetch xml query.
 
-   [!INCLUDE[ur-migration](../includes/cc-ur-migration.md)]
+     For illustration, the sample query is listed in the following table to get single or multiple records. The sample fetch query has considered the entity as incident and task. Based on your requirement, update the entity logical name in the FetchXML query accordingly.
 
-   	For illustration, the sample fetch query has considered the entity as incident and task. Based on your requirement, update the entity logical name in the FetchXML query accordingly.
-	
    - **Configure import settings**: For the Decision contract entity, ensure that you select the **Do not update existing records** checkbox.
 
 	> [!IMPORTANT]
+	>
 	> - If the target organization doesn't have the intake rules for the record type that you want to import, then remove the  msdyn_rulesetdefinition attribute of the msdyn_decisionruleset entity from the data.xml before you do an import.
 	> - If the target organization has intake rules for the record type with the same GUID, then remove the  msdyn_rulesetdefinition attribute of the msdyn_decisionruleset entity from the data.xml before you do an import.
 	> - If the target organization has intake rules for the record type with different GUID, then delete all the intake rules in the target organization before you do the import.
@@ -1179,7 +1181,7 @@ After you import the unified routing-related configuration data successfully fro
   
 3. If capacity profiles are used in rulesets and workstreams for unified routing, then you need to manually link, associate, or create the users, bookable resources, and bookable reources capacity profile records.
 
-## Considerations for export and import of data
+## Troubleshoot export and import of data
 
 [!INCLUDE[ur-migration considerations](../includes/cc-ur-migration-considerations.md)]
 
