@@ -318,6 +318,8 @@
           items: 
             - name: Create and activate a sequence
               href: create-and-activate-a-sequence.md
+            - name: Sequence templates
+              href: sequence-templates.md  
             - name: Adaptive sequences
               href: adaptive-sequence.md
             - name: Add LinkedIn activities to sequence

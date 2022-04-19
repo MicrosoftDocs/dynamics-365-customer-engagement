@@ -1,7 +1,7 @@
 ---
 title: "Sequence creation and activation in the sales accelerator | MicrosoftDocs"
 description: "Create and activate a sequence by defining a set of activities as steps that sellers should follow while handling records in Dynamics 365 Sales."
-ms.date: 10/26/2021
+ms.date: 04/30/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -17,16 +17,24 @@ Every organization has its own selling processes for sellers to follow. A sequen
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator or Sequence Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
-
 ## To create and activate a sequence
 
-1. Sign in to your sales app.   
-2. Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.   
-3. Under **Sales accelerator**, select **Sequence**.  
-4. On the **Sequences** page, select **New sequence**.   
+1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **Sales Insights settings**.
+2. Under **Sales accelerator**, select **Sequence**.  
+3. On the **Sequences** page, select **New sequence**.   
     > [!div class="mx-imgBorder"]
     > ![Select new to create a sequence.](media/sequence-select-new-sequence.png "Select new to create a sequence")   
-5. In the **Create a sequence** dialog, enter the following information:   
+
+4. In the **Create a sequence** dialog, select one of the following options to create the sequence:  
+
+    - **Use template**: Use the templates, you can get started by quickly setting up sequences. Sequence templates provide a set of activities to guide sellers with what’s coming next in the up next widget to achieve a task, such as getting introduced to a lead and winning a deal. More information: [Sequence templates](sequence-templates.md)  
+    
+    - **Use blank sequence**: Use the blank sequence to create a sequence from scratch.   
+        
+    > [!div class="mx-imgBorder"]
+    > ![Select an option to create a sequence.](media/sequence-select-option-create-sequence.png "Select an option to create a sequence")     
+
+5. In the **Define sequence properties** dialog, enter the following information as required:
 
     | Parameter | Description |
     |-----------|-------------|
@@ -37,8 +45,8 @@ Every organization has its own selling processes for sellers to follow. A sequen
     > [!div class="mx-imgBorder"]
     > ![Create a sequence dialog.](media/sequence-create-sequence.png "Create a sequence dialog")   
 
-6. Select **Next**.   
-7. Choose and configure one of the following steps:      
+5. Select **Next**.   
+6. Choose and configure one of the following steps:      
     - [Email activity](#email-activity)
     - [Automated email activity](#automated-email-activity)
     - [Phone call activity](#phone-call-activity)
@@ -50,12 +58,12 @@ Every organization has its own selling processes for sellers to follow. A sequen
     > [!div class="mx-imgBorder"]
     > ![Choose an activity type.](media/sequence-choose-activity.png "Choose an activity type")       
     
-8. Select the **Add** icon, and then repeat step 7 for all the activities that you want to add to the sequence.    
-9. Select **More options** in the upper-right corner of the page, and then select **Save**.    
-10. Select **More options** again, and then select **Activate** to activate the sequence.   
+7. Select the **Add** icon, and then repeat step 7 for all the activities that you want to add to the sequence.    
+8. Select **More options** in the upper-right corner of the page, and then select **Save**.    
+9. Select **More options** again, and then select **Activate** to activate the sequence.   
     >[!NOTE]
     >You can have up to 250 active sequences at a time in your organization.        
-11. Select **Yes** in the confirmation message that appears.   
+10. Select **Yes** in the confirmation message that appears.   
     > [!NOTE]
     > An error might occur if you've added **Set wait time** as the last activity of the sequence. You must delete this last **Set wait time** activity, and then save and activate the sequence.       
 
