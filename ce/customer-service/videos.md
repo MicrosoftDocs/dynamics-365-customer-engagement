@@ -13,9 +13,8 @@ manager: shujoshi
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 The following videos help you get started with Omnichannel for Customer Service:
-- [Introduction to Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2097511)
 
-- [Try channels in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114715)
+- [Introduction to Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2097511)
 
 - [Overview of Chat for Dynamics 365 Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2097416)
 

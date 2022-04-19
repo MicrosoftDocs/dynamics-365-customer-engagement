@@ -1,10 +1,10 @@
 ---
 title: Configure default knowledge article authoring language | MicrosoftDocs
 description: Learn how to configure a default language for authoring knowledge articles in Dynamics 365 Customer Service
-ms.date: 02/11/2022
+ms.date: 04/04/2022
 ms.topic: article
-author: lalexms
-ms.author: laalexan
+author: Soumyasd27
+ms.author: sdas
 manager: shujoshi
 search.audienceType: 
   - admin
@@ -41,14 +41,11 @@ Admin settings for KA authoring language (Knowledge settings page)
 
 The ability to override follows the hierarchy order at the individual articles, agent or knowledge manager, and then administrator.
 
-You can set a default knowledge article authoring language for your organization in the Customer Service admin center (preview) or Customer Service Hub app by performing the following steps:
+You can set a default knowledge article authoring language for your organization in the Customer Service admin center or Customer Service Hub app by performing the following steps:
 
 1. Go to the **Authoring language** section.
 
-### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-
-> [!IMPORTANT]
-> The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+### [Customer Service admin center](#tab/customerserviceadmincenter)
 
   1. In the site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
   1. In the **General settings** section, select **Manage**. The **General settings** page appears.
@@ -62,7 +59,7 @@ You can set a default knowledge article authoring language for your organization
 ---
 
 2.	Set the default knowledge article authoring language for the users.
-### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+### [Customer Service admin center](#tab/customerserviceadmincenter)
 
   * Set the **Enable default authoring language** toggle to **Yes**.
 
@@ -73,7 +70,7 @@ You can set a default knowledge article authoring language for your organization
 ---
 3.	If you want to set a default knowledge authoring language for your organization: 
 
-### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+### [Customer Service admin center](#tab/customerserviceadmincenter)
 
   * Select **Other language** and select a language from the **Language** dropdown.
 
