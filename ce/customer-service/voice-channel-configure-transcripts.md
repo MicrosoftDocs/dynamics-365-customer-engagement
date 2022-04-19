@@ -65,6 +65,16 @@ The data storage costs with two participants only is calculated approximately as
 - 20 minute call recording = 10240 KB
 - 20 minute call transcript = 40 KB
 
+## Delete call recording
+
+To delete a call recording, perform the following steps:
+
+1. On the Dynamics 365 Customer Service instance, select the **Advanced Find** icon displayed on the top right.
+1. On the **Advanced Find** page, select **Recordings** in the **Look for** dropdown. More information: [Create, edit, or save an Advanced Find](/customerengagement/on-premises/basics/save-advanced-find-search).
+1. Select the required recording.
+1. Click the **Delete** icon.
+
+
 ### See also
 
 [Overview of the voice channel](voice-channel.md)  
