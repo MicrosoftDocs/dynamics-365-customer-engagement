@@ -32,7 +32,7 @@ The nature of your business may require that you customize these standard report
 
 ## Grant user privileges to edit analytics reports
 
-To be able to edit analytics reports, users must have the **Analytics Report Author** role. For information about assigning user roles, go to [Assign roles to users](/add-users-assign-roles#assign-roles-to-users).
+To be able to edit analytics reports, users must have the **Analytics Report Author** role. For information about assigning user roles, go to [Assign roles to users](/add-users-assign-roles.md#assign-roles-to-users).
 
 ## Customize the visual display of your analytics reports
 
@@ -78,7 +78,7 @@ In a scenario where you have customized your reports and then Microsoft makes up
 
 ### Data dictionary 
 
-|Entities |Attributes|	Description |
+|Entities |Attributes |	Description |
 |----------|------------------|---------------|
 |DimDate	|Date time	|Date time. The type is Date/Time. |
 |DimDate	|Day | Day name. Example: "Fri". |
@@ -137,7 +137,7 @@ In a scenario where you have customized your reports and then Microsoft makes up
 ### Data dictionary
 
 |Entities |Attributes|	Description |
-|----------|------------------|---------------| 
+|----------|----------|----------| 
 |DimAgentPresence	|Agent presence id |Primary key. |
 |DimAgentPresence	|Presence status	| Agent presence status. That is, available, busy, busy - DND, away, or offline. |
 |DimConversationProperty |Conversation property id |Primary key. |
@@ -279,8 +279,8 @@ In a scenario where you have customized your reports and then Microsoft makes up
 
 ### Data dictionary
 
-|Entities |Attributes|	Description |
-|----------|------------------|---------------|
+|Entities |Attributes |Description |
+|----------|----------|----------|
 |DimAgentPresence	|Agent presence id	|Primary key. |
 |DimAgentPresence	|Presence status	|agent presence status. that is, Available,Busy,Busy - DND,Away,Offline|
 |DimConversationProperty	|Conversation property id	|Primary key|
