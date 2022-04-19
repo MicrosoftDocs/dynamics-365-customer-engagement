@@ -27,7 +27,7 @@ The nature of your business may require that you customize these standard report
 - Create visuals using metrics in the data model that aren't directly exposed in the out-of-box reports.
 
 > [!Note]
-> Visual customization of historical analytics reports is currently available for Customer Service Workspace, Customer Service Hub, and Omnichannel for Customer Service. It is not available for unified Routing or knowledge management analytical reports.
+> Visual customization of historical analytics reports is currently available for Customer Service Workspace, Customer Service Hub, and Omnichannel for Customer Service. It is not available for unified routing or knowledge management analytical reports.
 
 
 ## Grant user privileges to edit analytics reports
