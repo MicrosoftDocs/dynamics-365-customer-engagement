@@ -162,7 +162,7 @@ The template consists of the following process:
 The following flow diagram illustrates the steps included in the template:
 
 >[!div class="mx-imgBorder"]
->![Sequence flow diagram of the Webinar follow up template](media/st-upcoming-account-renewal.png "Sequence flow diagram of the Webinar follow up template") 
+>![Sequence flow diagram of the Webinar follow up template](media/st-webinar-follow-up.png "Sequence flow diagram of the Webinar follow up template") 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
