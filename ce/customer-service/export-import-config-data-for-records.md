@@ -1,5 +1,5 @@
 ---
-title: "Export and import configuration data for records based on unified routing records | MicrosoftDocs"
+title: "Export and import configuration data for records based on unified routing | MicrosoftDocs"
 description: "Learn to export and import data pertaining to records enabled for unified routing from source to target environments in Omnichannel for Customer Service."
 ms.date: 04/18/2022
 ms.topic: article
@@ -11,7 +11,7 @@ ms.reviewer: nenellim
 
 # Export and import configuration data for the record channel
 
-By using the Configuration Migration tool, you can migrate the configurations from the source organization to the target organization for the records that're configured to use unified routing.
+Use the Configuration Migration tool to migrate the configurations from the source organization to the target organization for the records that're based on unified routing.
 
 For information on how to use the Configuration Migration tool, see the following articles:
 
