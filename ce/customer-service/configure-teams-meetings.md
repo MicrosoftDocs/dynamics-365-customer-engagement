@@ -1,7 +1,7 @@
 ---
 title: "Enable Microsoft Teams meetings in Customer Service | Microsoft Docs"
 description: "Learn how to enable Microsoft Teams meetings functionality in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
-ms.date: 04/06/2022
+ms.date: 04/19/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
