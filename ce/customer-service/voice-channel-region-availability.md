@@ -238,7 +238,7 @@ Azure direct offer or [Microsoft as a carrier](/azure/communication-services/con
 
 ### Direct routing availability
 
-Bring your own carrier via [Azure direct routing](azure/communication-services/concepts/telephony/telephony-concept#azure-direct-routing) is supported globally/across all geographic locations using certified Session Border Controllers (SBCs). More information: [Bring your own carrier](voice-channel-bring-your-own-number). 
+Bring your own carrier via [Azure direct routing](/azure/communication-services/concepts/telephony/telephony-concept#azure-direct-routing) is supported globally/across all geographic locations using certified Session Border Controllers (SBCs). More information: [Bring your own carrier](voice-channel-bring-your-own-number.md). 
 
  In the geographic region where the voice channel is generally available, the Azure direct routing only extends general availability support.
 
