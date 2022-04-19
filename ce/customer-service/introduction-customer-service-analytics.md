@@ -1,7 +1,7 @@
 ---
 title: "Customer Service Insights | MicrosoftDocs"
 description: "Learn about Customer Service Insights"
-ms.date: 04/05/2021
+ms.date: 04/05/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -61,8 +61,8 @@ If you're a customer who uses the Customer Service Insights standalone web appli
 
 [Configure Customer Service analytics and insights](configure-customer-service-analytics-insights-csh.md) <br>
 [Configure Customer Service Analytics dashboards in Power BI](configure-customer-service-analytics-dashboard.md) <br>
-[Send a survey automatically when case is resolved](https://go.microsoft.com/fwlink/p/?linkid=2153819)
-[Configure Omnichannel historical analytics](oc-historical-analytics-reports.md)
+[Send a survey automatically when case is resolved](https://go.microsoft.com/fwlink/p/?linkid=2153819) <br>
+[Configure Omnichannel historical analytics](oc-historical-analytics-reports.md) <br>
 [Configure AI topic clustering for conversation](ai-topic-clustering-conversations.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
