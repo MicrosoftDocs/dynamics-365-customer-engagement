@@ -32,7 +32,7 @@ The nature of your business may require that you customize these standard report
 
 ## Grant user privileges to edit analytics reports
 
-To be able to edit analytics reports, users must have the **Analytics Report Author** role. For information about assigning user roles, go to [Assign roles to users](/add-users-assign-roles.md#assign-roles-to-users).
+To be able to edit analytics reports, users must have the **Analytics Report Author** role. For information about assigning user roles, go to [Assign roles to users](add-users-assign-roles.md#assign-roles-to-users).
 
 ## Customize the visual display of your analytics reports
 
