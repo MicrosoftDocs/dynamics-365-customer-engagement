@@ -1,6 +1,6 @@
 ---
-title: "Customize analytics reports in Customer Service | MicrosoftDocs"
-description: "Learn how to enable users in your organization to be able to customize analytics reports in Dynamics 366 Customer Service."
+title: "Visual customization of historical analytics reports in Customer Service | MicrosoftDocs"
+description: "Learn how to customize historical analytics reports in Dynamics 366 Customer Service using the Power BI embedded editing experience."
 ms.date: 04/18/2022
 ms.topic: article
 author: lalexms
