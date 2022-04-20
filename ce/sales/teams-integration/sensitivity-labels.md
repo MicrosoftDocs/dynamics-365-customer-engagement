@@ -20,6 +20,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 1
 ---
+
 # Enable sensitivity labels to protect content in Microsoft Teams
 
 Users in your organization collaborate with others both inside and outside the organization. This means that content no longer stays behind a firewall. It can roam everywhere—across devices, apps, and services. And when it roams, you want it to do so in a secure, protected way that meets your organization's business and compliance policies. For more information, see [Get started with sensitivity labels](/microsoft-365/compliance/get-started-with-sensitivity-labels).
@@ -38,7 +39,7 @@ The following prerequisites are required before you can turn on sensitivity labe
 
 ## Turn on sensitivity labels
 
-Sensitivity labels are only available when the Enhanced Collaboration Experience is turned on. For more information, see [Install and set up Microsoft Teams integration](teams-install-app.md).
+Sensitivity labels are only available when the Enhanced Collaboration Experience is turned on. For more information, see [Enable linking of Dynamics 365 records to Teams channels](enable-record-linking.md).
 
 > [!NOTE]
   > If you are still using the group classification labels instead of sensitivity labels, turning on this option will let you use the classification labels in Teams.

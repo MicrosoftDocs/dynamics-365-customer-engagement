@@ -1,5 +1,5 @@
 ---
-title: "Enable or disable Teams chat in Dynamics 365 | MicrosoftDocs"
+title: "Enable or disable Teams chat in Sales Hub | MicrosoftDocs"
 description: "Enable Teams chat to help users effectively collaborate on their Dynamics 365 customer engagement records without having to leave the application."
 ms.date: 04/20/2022
 ms.topic: article
@@ -84,6 +84,5 @@ The following data security and privacy considerations apply for Teams chat func
 
 ### See also
 
-[Engage in Microsoft Teams chats from within Dynamics 365](teams-collaboration-in-dynamics.md)  
 [Using Microsoft Teams chat in Dynamics 365](using-teams-chat-in-dynamics.md)  
  
