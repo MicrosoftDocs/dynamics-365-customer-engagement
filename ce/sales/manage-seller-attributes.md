@@ -38,7 +38,7 @@ You can use the attribute designer to:
    >[!div class="mx-imgBorder"]
    >![Select Manage attributes](media/sa-ar-seller-attributes-section-select-manage.png "Select Manage attributes")
 
-5. On the **Manage attributes** page, select **+ New seller attribute**.
+5. On the **Manage attributes** page, select **New seller attribute**.
 
     >[!div class="mx-imgBorder"]
     >![Select New seller attribute](media/sa-ar-seller-attributes-select-new-seller-attribute.png "Select New seller attribute")

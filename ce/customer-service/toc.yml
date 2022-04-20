@@ -406,20 +406,6 @@
         href: customer-service-hub-user-guide-case-sla.md
   - name: Email
     items: 
-    - name: Use email
-      href: /power-apps/user/view-create-email?context=/dynamics365/context/customer-service-context
-    - name: Email templates
-      items: 
-      - name: Create an email template
-        href: /power-apps/user/email-template-create?context=/dynamics365/context/customer-service-context
-      - name: Insert an email template
-        href: /power-apps/user/insert-email-template?context=/dynamics365/context/customer-service-context
-      - name: Convert an email to a template
-        href: /power-apps/user/email-template-convert?context=/dynamics365/context/customer-service-context
-      - name: Create a signature for emails
-        href: /power-apps/user/email-signature?context=/dynamics365/context/customer-service-context
-    - name: Email FAQs and known issues
-      href: /power-apps/user/activities-known-issues?context=/dynamics365/context/customer-service-context
     - name: Administrator experience
       items: 
       - name: Configure email
@@ -428,6 +414,22 @@
         href: customer-service-hub-user-guide-email-font-admin.md
       - name: Configure the enhanced insert email template dialog
         href: /power-apps/user/customize-insert-email-template?context=/dynamics365/context/customer-service-context
+    - name: Agent experience
+      items:
+      - name: Use email
+        href: /power-apps/user/view-create-email?context=/dynamics365/context/customer-service-context
+      - name: Email templates
+        items: 
+        - name: Create an email template
+          href: /power-apps/user/email-template-create?context=/dynamics365/context/customer-service-context
+        - name: Insert an email template
+          href: /power-apps/user/insert-email-template?context=/dynamics365/context/customer-service-context
+        - name: Convert an email to a template
+          href: /power-apps/user/email-template-convert?context=/dynamics365/context/customer-service-context
+        - name: Create a signature for emails
+          href: /power-apps/user/email-signature?context=/dynamics365/context/customer-service-context
+      - name: Email FAQs and known issues
+        href: /power-apps/user/activities-known-issues?context=/dynamics365/context/customer-service-context 
   - name: Timeline
     items: 
     - name: Configure timeline
@@ -452,7 +454,7 @@
         href: create-manage-categories.md
       - name: Create knowledge article templates in Power Apps
         href: /power-platform/admin/create-templates-articles
-      - name: Integrate knowledge management with Power Virtual Agents
+      - name: Integrate knowledge management in Dynamics 365 with Power Virtual Agents bots (preview)
         href: integrate-KM-with-PVA.md
       - name: Configure the origin allowlist for knowledge articles
         href: configure-knowledge-article-origin-allow-list.md
@@ -490,22 +492,32 @@
         href: create-knowledge-article-using-template.md
       - name: Extend transformer logic on templates
         href: extend-transformer-logic-template.md
-  - name: Microsoft Teams chat for enterprise collaboration
+  - name: Microsoft Teams for collaboration
     items:
+    - name: Introduction to collaboration
+      href: collaboration.md
     - name: Administrator experience
       items: 
       - name: Configure Teams chat
         href: configure-teams-chat.md
-      - name: Configure AI suggestions for contacts in Microsoft Teams
+      - name: Enable Teams meetings in Customer Service apps
+        href: configure-teams-meetings.md
+      - name: Configure AI suggestions for contacts in Teams
         href: configure-teams-collaboration.md
+      - name: Configure customer support swarming
+        href: configure-customer-support-swarming.md
     - name: Agent experience
       items:
       - name: Use Teams chat
         href: use-teams-chat.md
       - name: Use suggested contacts to collaborate with coworkers
         href: teams-use-suggested-contacts.md
+      - name: Use Teams meetings
+        href: use-teams-meetings.md
       - name: Collaborate with AI-suggested contacts in Microsoft Teams
         href: use-ai-suggested-contacts-teams.md
+      - name: Use customer support swarming to resolve issues
+        href: use-customer-support-swarming.md
   - name: Voice
     items:
     - name: Introduction to the voice channel
@@ -548,9 +560,9 @@
         href: voice-consult-microsoft-teams-user.md
       - name: Manage phone music
         href: voice-channel-music.md
-      - name: Set up a multilanguage bot in Power Virtual Agents
-        href: set-up-multilanguage-pva-bot.md  
-      - name: Set up a multilanguage contact center
+      - name: Set up a multilingual bot in Power Virtual Agents
+        href: set-up-multilingual-pva-bot.md  
+      - name: Set up a multilingual contact center
         href: voice-channel-multi-language-contact-center.md
       - name: Bring your own carrier
         href: voice-channel-bring-your-own-number.md
@@ -952,6 +964,8 @@
           href: supervisor-sentiment-monitoring.md
     - name: Customize dashboards
       items: 
+      - name: Visual customization of historical analytics reports
+        href: customize-reports.md
       - name: Customize interactive dashboards based on Unified Interface
         href: configure-interactive-dashboards-customer-service-hub.md
   - name: Service scheduling
@@ -1066,6 +1080,10 @@
       href: cs-iot-security-roles.md
   - name: Migration solutions
     items: 
+    - name: Export and import configuration data for the record channel
+      href: export-import-config-data-for-records.md
+    - name: Export and import configuration data for live chat
+      href: export-import-config-data-for-live-chat.md
     - name: Migrate workstreams created in Omnichannel Administration
       href: migrate-workstreams.md
     - name: Migrate automatic record creation rules and SLAs

@@ -25,7 +25,7 @@ As a sequence manager, you create segments&mdash;groups of records&mdash;by defi
 1.	Sign in to your Dynamics 365 Sales Hub app.    
 2.	Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.   
 3.	Under **Sales accelerator**, select **Segments**.   
-4.	On the **Segments** page, select **+ New segment**.
+4.	On the **Segments** page, select **New segment**.
 
     The **Create a segment** dialog opens.
 
@@ -46,7 +46,7 @@ As a sequence manager, you create segments&mdash;groups of records&mdash;by defi
     >[!div class="mx-imgBorder"]
     >![Segment condition builder page](media/sa-segment-condition-builder-home-page.png "Segment condition builder page")
 
-7.	On the **Builder** tab, under **And**, select **+ Add**. Use the following options to define the criteria for the conditions to use for evaluating records:     
+7.	On the **Builder** tab, under **And**, select **Add**. Use the following options to define the criteria for the conditions to use for evaluating records:     
 
     -	**Add row**: Add conditions for when the segment should be applied. For example, you can add rows to specify that this segment be applied to leads created by the user John Thomas.    
         1.	Select an attribute from the dropdown list in the first column.    

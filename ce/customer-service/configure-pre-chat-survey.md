@@ -59,6 +59,8 @@ For the chat channel, you can configure a survey that users can respond to when 
 
 ### Configure a pre-conversation survey in Omnichannel Administration
 
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+
 You can configure your chat widget to show users a survey that they must respond to before they start the conversation.
 
 1. Sign in to Omnichannel Administration.
