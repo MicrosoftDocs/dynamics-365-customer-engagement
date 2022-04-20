@@ -1,7 +1,7 @@
 ---
 title: "Enable or disable Teams chat in Dynamics 365 | MicrosoftDocs"
 description: "Enable Teams chat to help users effectively collaborate on their Dynamics 365 customer engagement records without having to leave the application."
-ms.date: 11/03/2021
+ms.date: 04/20/2022
 ms.topic: article
 
 search.app: 

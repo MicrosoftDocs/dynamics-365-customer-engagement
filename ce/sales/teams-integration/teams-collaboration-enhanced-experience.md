@@ -1,7 +1,7 @@
 ---
 title: "Enhanced Collaboration for Microsoft Teams with Dynamics 365 app"
 description: "Learn how to use Enhanced Collaboration with Microsoft Teams, and connect a record or view to a team channel from Dynamics 365 customer engagement apps."
-ms.date: 05/30/2021
+ms.date: 04/20/2022
 ms.service: crm-online
 ms.topic: article
 author: sbmjais
