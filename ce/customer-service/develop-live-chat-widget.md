@@ -22,23 +22,19 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-We recommend that you develop your own custom live chat widget using the Omnichannel Chat Live Chat Widget UI Components and Omnichannel Chat SDK. This article explains how you can create your own chat widget.
-
-## Create a custom live chat widget
-
-To enable you to add more customization and functionality in the live chat widget and user interface than the current out-of-the-box option, you can now attach a custom live chat widget to your Dynamics Customer Service account. To create a custom live chat widget, you can use the Omnichannel Live Chat Widget UI Components and the Omnichannel Chat SDK.
+Microsoft provides an out-of-the-box live chat widget where each individual component can be further customized. You can now attach the custom live chat widget to your Dynamics Customer Service account, and add more functionality and customize the user interface. We recommend that you develop your own custom live chat widget using the Omnichannel Chat Live Chat Widget UI Components and Omnichannel Chat SDK. This article explains how you can create your own chat widget.
 
 ### Omnichannel Live Chat Widget UI Components
 
 The Omnichannel Live Chat Widget UI Components library provides a framework of reusable React components that can be edited in all basic CSS styles to modify the user interface of the live chat widget. These components are built using the (Fluent UI library)[https://developer.microsoft.com/fluentui].
 
-Microsoft provides a default out-of-the-box live chat widget built using all the components where each individual component can be further customized. To learn more about the Omnichannel Live Chat Widget UI Components, see (here) [Hyperlink].
+To learn more about the Omnichannel Live Chat Widget UI Components, see [Hyperlink]().
 
 ### Omnichannel Chat SDK
 
-The Omnichannel Chat SDK is an open-source package that provides chat methods and features for the functionality of the widget. The SDK is supported on React Native, and therefore works on iOS and Android apps, as well as on web browsers.
+The Omnichannel Chat SDK is an open-source package that provides chat methods and features to add functionality of the widget. To learn more about the Omnichannel Chat SDK, see [Omnichannel Chat SDK](https://github.com/microsoft/omnichannel-chat-sdk).
 
-Examples of sample apps in the Omnichannel Chat SDK include:
+The SDK is supported on React Native, and works on iOS apps, Android apps, and web browsers. Examples of sample apps in the Omnichannel Chat SDK include:
 
 - React-Native App: [gifted-chat](https://github.com/FaridSafi/react-native-gifted-chat)
 
@@ -46,14 +42,13 @@ Examples of sample apps in the Omnichannel Chat SDK include:
 
 To view all sample apps, go to [Chat SDK Sample Apps](https://github.com/microsoft/omnichannel-chat-sdk/tree/main/samples).
 
-To learn more about the Omnichannel Chat SDK, see [Omnichannel Chat SDK](https://github.com/microsoft/omnichannel-chat-sdk).
+## Develop your own live chat widget
 
-We recommend that you download the latest version of the Omnichannel Chat SDK package to take advantage of the newly added features. For download instructions and information, go to the [Omnichannel Chat SDK Installation page on GitHub](https://github.com/microsoft/omnichannel-chat-sdk#installation).
+To develop the custom live chat widget, you'll use both the Omnichannel Live Chat Widget UI Components and the Omnichannel Chat SDK.
 
-### Combining the Omnichannel Chat SDK and Omnichannel Live Chat Widget UI Components
+Ensure that you first install the Omnichannel Chat SDK package. We recommend that you download the latest version of the Omnichannel Chat SDK package to take advantage of the newly added features. More information: [Omnichannel Chat SDK Installation page on GitHub](https://github.com/microsoft/omnichannel-chat-sdk#installation)
 
-With the Omnichannel Live Chat Widget UI Components library, the Omnichannel Chat SDK package is a pre-requisite, allowing the components to already be linked with the methods. 
-In addition, custom components from developers can be attached using both. Together with the Live Chat Widget UI Components library, you can use the methods of the Omnichannel Chat SDK to develop your widget.
+You can also use custom components from third-party developers in your chat widget, and create your own custom widget using both the Live Chat Widget UI Components library and the Omnichannel Chat SDK methods.
 
 ### See also
 
