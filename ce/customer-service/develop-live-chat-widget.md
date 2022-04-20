@@ -36,24 +36,34 @@ Microsoft provides a default out-of-the-box live chat widget built using all the
 
 ### Omnichannel Chat SDK
 
-The Omnichannel Chat SDK is an open-source package that provides chat methods and features for the functionality of the widget.
+The Omnichannel Chat SDK is an open-source package that provides chat methods and features for the functionality of the widget. The SDK is supported on React Native, and therefore works on iOS and Android apps, as well as on web browsers.
+
+Examples of sample apps in the Omnichannel Chat SDK include:
+
+- React-Native App: [gifted-chat](https://github.com/FaridSafi/react-native-gifted-chat)
+
+- Web Reference App: [BotFramework-WebChat](https://github.com/microsoft/BotFramework-WebChat)
+
+To view all sample apps, go to [Chat SDK Sample Apps](https://github.com/microsoft/omnichannel-chat-sdk/tree/main/samples).
+
 To learn more about the Omnichannel Chat SDK, see [Omnichannel Chat SDK](https://github.com/microsoft/omnichannel-chat-sdk).
 
-Together with the Live Chat Widget UI Components library, you can use the methods of the Omnichannel Chat SDK to develop your widget.
+We recommend that you download the latest version of the Omnichannel Chat SDK package to take advantage of the newly added features. For download instructions and information, go to the [Omnichannel Chat SDK Installation page on GitHub](https://github.com/microsoft/omnichannel-chat-sdk#installation).
 
 ### Combining the Omnichannel Chat SDK and Omnichannel Live Chat Widget UI Components
 
 With the Omnichannel Live Chat Widget UI Components library, the Omnichannel Chat SDK package is a pre-requisite, allowing the components to already be linked with the methods. 
-In addition, custom components from developers can be attached using both.
+In addition, custom components from developers can be attached using both. Together with the Live Chat Widget UI Components library, you can use the methods of the Omnichannel Chat SDK to develop your widget.
 
 ### See also
 
+[Customize live chat widgets for mobile apps](render-live-chat-widget-mobile.md)  
 [startChat](developer/reference/methods/startchat.md)  
 [closeChat](developer/reference/methods/closechat.md)  
 [lcw:closeChat](developer/reference/events/lcw-closechat.md)  
 [lcw:threadUpdate](developer/reference/events/lcw-threadUpdate.md)  
 [lcw:chatRetrieved](developer/reference/events/lcw-chatRetrieved.md)  
-[lcw:chatQueued](developer/reference/events/lcw-chatQueued.md) 
+[lcw:chatQueued](developer/reference/events/lcw-chatQueued.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
 

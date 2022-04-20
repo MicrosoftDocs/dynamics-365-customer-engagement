@@ -89,6 +89,7 @@ When the chat is closed, the live chat widget triggers the [lcw:closeChat](devel
 
 ### See also
 
+[Develop custom live chat widgets](develop-live-chat-widget.md)  
 [startChat](developer/reference/methods/startchat.md)  
 [closeChat](developer/reference/methods/closechat.md)  
 [lcw:chatRetrieved](developer/reference/events/lcw-chatRetrieved.md)  
