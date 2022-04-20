@@ -1,7 +1,7 @@
 ---
 title: Customize the side panel to view record details during a meeting
 description: Learn how to customize the side panel to view record details during a meeting.
-ms.date: 03/31/2022
+ms.date: 04/20/2022
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
