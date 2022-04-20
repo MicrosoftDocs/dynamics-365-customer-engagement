@@ -1,7 +1,7 @@
 ---
 title: "Customize live chat widgets for mobile apps | MicrosoftDocs"
 description: "Learn how to use sample code to embed live chat widget code directly in your mobile apps."
-ms.date: 03/33/2022
+ms.date: 03/22/2022
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
