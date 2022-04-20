@@ -29,8 +29,8 @@ Omnichannel for Dynamics 365 Customer Service provides dashboards that help supe
 
 - Manage agent and customer escalations
 
-> [!IMPORTANT]
-> Ensure that the Omnichannel supervisor role is assigned for the user to access the supervisor dashboards. To learn more, see [Enable users for Omnichannel Customer Service](add-users-assign-roles.md).
+> [!NOTE]
+>  For the user to access the supervisor dashboards, Ensure that the Omnichannel supervisor role is assigned. To learn more, see [Enable users for Omnichannel Customer Service](add-users-assign-roles.md).
 
 As a supervisor, you see the following tabs when you open the Omnichannel for Customer Service app:
 
