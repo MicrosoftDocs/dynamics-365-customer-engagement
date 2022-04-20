@@ -22,15 +22,15 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Microsoft provides an out-of-the-box live chat widget where each individual component can be further customized. You can now attach the custom live chat widget to your Dynamics Customer Service account, and add more functionality and customize the user interface. We recommend that you develop your own custom live chat widget using the Omnichannel Chat Live Chat Widget UI Components and Omnichannel Chat SDK. This article explains how you can create your own chat widget.
+Microsoft provides an out-of-the-box live chat widget where each individual component can be further customized. You can now attach the custom live chat widget to your Dynamics Customer Service account, and add more functionality and customize the user interface. We recommend that you develop your own custom live chat widget using the Omnichannel Chat Live Chat Widget UI Components and Omnichannel Chat SDK. This article explains how you can develop your own chat widget.
 
-### Omnichannel Live Chat Widget UI Components
+## Omnichannel Live Chat Widget UI Components
 
 The Omnichannel Live Chat Widget UI Components library provides a framework of reusable React components that can be edited in all basic CSS styles to modify the user interface of the live chat widget. These components are built using the (Fluent UI library)[https://developer.microsoft.com/fluentui].
 
 To learn more about the Omnichannel Live Chat Widget UI Components, see [Hyperlink]().
 
-### Omnichannel Chat SDK
+## Omnichannel Chat SDK
 
 The Omnichannel Chat SDK is an open-source package that provides chat methods and features to add functionality of the widget. To learn more about the Omnichannel Chat SDK, see [Omnichannel Chat SDK](https://github.com/microsoft/omnichannel-chat-sdk).
 
