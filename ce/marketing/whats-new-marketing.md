@@ -30,7 +30,11 @@ Marketing updates are [pushed to customers automatically](https://cloudblogs.mic
 
 ### April 2022 update
 
-The Dynamics 365 Marketing April 2022 is a milestone release. This release includes two preview features from the [2022 wave 1 release plans](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/get-started): a bring your own data lake option for Customer Insights integration and new out-of-the-box triggers for events and forms. The update also includes enhancements to marketing emails, partial and relative dates in real-time marketing personalization, performance upgrades, and bug fixes.
+The Dynamics 365 Marketing April 2022 update is a milestone release. This release includes three preview features and five general availability features from the [2022 wave 1 release plans](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/get-started). The preview features include a unified timeline to view customer activity across Dynamics 365 Marketing, Sales, and Customer Service, reusable content fragments for quick email creation, and a new email creation canvas and user experience.
+
+Generally available features include the ability to trigger outside journeys or Power Automate flows, reusable personalization tokens, more out-of-the-box real-time marketing triggers, filter conditions for triggers, and improved email templates.
+
+The update also includes monthly enhancements to journeys, a basic image library for regions where the real-time marketing content management system (CMS) isn't available, domain authentication settings improvements, improved contact card consent management, performance upgrades, and bug fixes.
 
 #### Version number
 
@@ -90,28 +94,36 @@ The Dynamics 365 Marketing April 2022 is a milestone release. This release inclu
 
 ##### Real-time marketing
 
-> [!Note]
-> “Event triggers” are now called “triggers” in the app and the documentation. The change was made to avoid confusion when referencing event management functionality versus triggering real-time marketing event-based journeys.
+- **Journeys**
+    - The triggers page now works in [Solution Only mode](purchase-setup.md#solution-only-app).
+    - Out-of-the-box triggers allow you to launch journeys for marketing events without the need to create custom triggers.
+
+- **Asset library**
+    - Real-time marketing now includes a basic image library in regions where the real-time marketing CMS is not yet available. The basic image library functions similarly to the [file library in outbound marketing](upload-images-files.md).
+
+##### Outbound marketing
+
+- **Marketing pages**
+    - Email field validation is now enabled by default.
+
+##### Global updates
 
 - **Marketing emails**
-    - Link buttons or images to URLs, surveys, events, marketing pages, or files. You can also create button or image links that allow recipients to join a Microsoft Teams event or that create a new calendar item. Learn more: [Create real-time marketing emails](real-time-marketing-email.md).
-
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of link options for real-time marketing email.](media/real-time-marketing-email-button2.png "Screenshot of link options for real-time marketing email")
-
-- **Personalization**
-    - Now, you can personalize both an email and the customer’s journey relative to important milestones (such as order date or an upcoming appointment) by creating content variations and branches that use relative and partial dates when defining a condition using dates. Partial dates allow you to define conditions such as "Birthday is today" and relative dates allow you to define conditions such as "Birthday is next month." So, depending on when an email goes out and how close it is to someone’s birthday, a different offer can be shown. Learn more: [Personalize content](real-time-marketing-personalization.md#partial-and-relative-dates-in-conditional-content).
+    - New user experience and design for the domain authentication settings page, including DKIM, envelope-from, forms, and domain validation.
+    - Content ideas now includes an in-product feedback survey.
+- **Consent**
+    - Contact cards now show all levels of consent for each contact, allowing marketers to view all consent settings for any contact at a glance.
 
 #### Bug fixes
 
 - **Channel optimization (real-time marketing)**
-    - Channel optimization will not recommend a channel which a customer has not consented to. If no channel has consent, no communication will be sent out and the customer will progress to the next step in the journey. Learn more: [Manage user compliance settings](real-time-marketing-compliance-settings.md).
+    - 
 - **First run experience**
-    - Resolved an issue during provisioning that ocassionally caused the user interface to get stuck in a refresh state.
+    - 
 - **Marketing pages**
-    - Fixed a form capture error that occurred when the URL to capture ended with a period. For example, *contoso.com/form.".
-    - Resolved a form capture error that resulted when a URL had more than 1024 characters.
-    - Session cookies are now changed (instead of being grouped together) after 20 minutes of activity (the default marketing page setting). Learn more about cookie settings: [Set up website tracking and read results](track-online-behavior.md#set-up-website-tracking-and-read-results).
+    - 
+    - 
+    - 
 
 ### March 2022 update
 
