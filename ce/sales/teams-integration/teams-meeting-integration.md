@@ -1,6 +1,6 @@
 ---
 title: Use Teams meeting integration in Sales Hub
-description: Learn how to create and join a Teams meeting from Dynamics 365.
+description: Learn how to create and join a Teams meeting from Sales Hub.
 ms.date: 04/20/2022
 ms.topic: article
 ms.service: dynamics-365-sales
