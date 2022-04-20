@@ -95,7 +95,7 @@ A user or team can only be added to one offline profile one at a time. If a user
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Power Platform admin center, showing the section where to add users to the offline profile.](./media/mobile-2020-offline-profile-add-user.png)
 
-## Step 3: Edit and publish the offline profile as needed
+## Step 3: Edit and publish the offline profile
 
 For each record type, you can choose a data download filter:
 
@@ -142,6 +142,7 @@ Sign into your mobile app, then go to **Settings** > **Offline Setting (globe ic
 > ![Device render showing offline status mode in Field Service (Dynamics 365) mobile app.](./media/mobile-2020-offline-complete.png)
 
 If data is not downloading, try signing out and signing back in. If offline data is still not downloading, make sure the user you are signing into the mobile app as has been assigned to a **Published** mobile offline profile. 
+
 
 ## Understanding offline vs. online capabilities
 
@@ -224,11 +225,34 @@ To control changes and keep your offline profiles in sync, your organization may
 
 Due to some current [limitations](/dynamics365/mobile-app/mobile-offline-capabilities#limitations) of offline WebResources, we recommend using the [Power Apps component framework (PCF)](/powerapps/developer/component-framework/overview) to implement custom capabilities that work in both the Field Service (Dynamics 365) mobile app and in the browser.
 
+### How do I know when a sync is in progress?
+
+During regular use a Frontline worker will observe a notification during:
+- Initial sync going offline for the first time.
+- Manual refresh by clicking "Refresh" button on a grid.
+- Large incremntal sync, such as if the application has been closed for multiple days over the weekend.
+
+These notifications will continue to displaly while the sync is in progress. The larger incremental sync will include an inline Refresh button once complete to refresh the current view with latest data.
+
+The Offline Status page in the application, available from the sitemap, can also be viewed to see which tables have been sycnronized and the last date/time of the sync. 
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of Field Service (D365) Sync Notifications.](./media/syncnotifications.png)
+
+Sync notifications are available from UCI Platform version 9.2.22033.00152+.
+
+
 ### Known limitations
 
 - Offline sync filters: If a record is created from the device while in offline mode, and that record does not meet filter conditions, then the record does not get resynchronized from the service until conditions are met.
 - Offline sync filters: If commands or capabilities are set up to work with internet connectivity but not in offline mode, those capabilities should be reviewed to confirm they are calling correct APIs: `Xrm.WebApi.online`.
 - [Details on additional platform supported capabilities and limitations for offline](../mobile-app/mobile-offline-capabilities.md)
+
+
+> [!Note]
+> As Part of Wave 1, 2021 the Power Platform is introducing new (Preview) features for the Mobile Offline Profile. These features include a new way to access the Mobile Offline Profile from http://make.powerapps.com, improved error handling, and removing the need to manually add individual user access. For more details on these Preview features please see [Mobile Offline Overview](https://docs.microsoft.com/en-us/power-apps/mobile/mobile-offline-overview) in Power Platform documentation.
+
+
 
 ### See also
 

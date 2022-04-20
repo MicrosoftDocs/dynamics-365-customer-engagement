@@ -33,18 +33,6 @@ With an Intune-enabled Field Service (Dynamics 365) mobile app, IT administrator
 - Limit sharing of corporate data among apps by restricting data leakage through cut, copy, paste, and save-as.
 - Provide encryption at rest.
 
-## Prerequisites
-
-- Field Service (Dynamics 365) mobile app for iOS and Android
-- Note the bundle IDs to find the mobile app in Intune.
-
-|Platform | Bundle ID |
-| -- | -- | 
-| iOS | com.microsoft.dynamics.iphone.moca.fieldServices |
-| Android | com.microsoft.crm.crmphone.fieldServices |
-
-
-
 
 ## Get started
 

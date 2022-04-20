@@ -155,7 +155,7 @@ sections:
     questions:       
      - question: Can I connect the Field Service (Dynamics 365) mobile app tos GCC, GCC high, DoD, or China (21Vianet) environments?
        answer: |
-          Yes.  To connect to the specific data center end points select **Region settings** from initial app sign-in screen.
+          Yes.  To connect to the specific data center end points select **Region settings** from initial app sign-in screen. 
       
           > [!div class="mx-imgBorder"]
           > ![Screenshot of Region Selector Option.](./media/Mobile-PowerApps-RegionSelector.png)
@@ -167,12 +167,33 @@ sections:
 
      - question: Can I download the Field Service (Dynamics 365) app in China market app stores?
        answer: |
-          Yes, the Field Service (Dynamics 365) app is available in the following China market app stores: Xiamoi, Lenovo, Baidu, Meizu.
+          Yes, the Field Service (Dynamics 365) app is available in the following China market app stores: Xiamoi, Lenovo, Baidu, Meizu, and Apple.
           
      - question: How do I change the time zone for the app?
        answer: |
           While signed into the app, select the three vertical lines or swipe from the left to access the sitemap. Select the settings icon to find **Time Zone**. Change to desired time zone. Fully close and reopen the application for time zone changes to take effect. 
   
+       - question: How do I enable native mobile Date & Time picker, and input-specific keyboards for my app module? 
+       answer: |
+          New capability to leverage native device Date & Time experience, along with input-specific mobile keyboards, were added to Platform release version 9.2.22033.00153+. These capabilites are enabled by default for the Field Service Mobile app module, but can be enabled for other App Modules with the following steps:
+          1. With an Admin account login to https://make.powerapps.com. After logging in be sure to select the correct Organization you are targeting from drop down list.
+          2. Click on the ... next to the App Module for which you with to enable the feature. 
+          3. Expand Settings to "Edit in Preview". In the resulting screen select "Settings" from the top navigation.
+          4. Click into Feature Settings where you will find the On/Off toggle for these features.
+          5. Save and Publish your app module
+
+          > [!div class="mx-imgBorder"]
+          > ![Screenshot of app settings.](./media/mobile-powerapps-appsettings.jpg)
+          
+          After making changes, when interacting with date and time fields on your mobile device they will use the native device date and time experience. 
+          Simiarily, after enabling Native Mobile Inputs, the device will raise a specific keyboard depending on the input type of the field for Numeric, Phone, Email, and URL fields.
+
+          
+          > [!div class="mx-imgBorder"]
+          > ![Screenshot of native input on iOS.](./media/mobile-powerapps-datetime.jpg)
+
+          
+
      - question: Can I use drip scheduling with the Field Service mobile app?
        answer: |
           Drip scheduling is currently not supported with the Field Service (Dynamics 365) mobile app. 

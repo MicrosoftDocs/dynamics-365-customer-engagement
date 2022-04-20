@@ -189,6 +189,11 @@ The push notifications will be shown to the technician using the mobile phone. F
 > [!div class="mx-imgBorder"]
 > ![A mobile phone push notification from Field Service.](./media/mobile-2020-push-notification-result-wf.png)
 
+
+> [!Note]
+> Push notifications are currently not available on Field Service (D365) Windows application.
+
+
 ### See also
 
 - For more information, see the [Power Apps mobile push notification documentation](/powerapps/mobile/power-apps-mobile-notification).

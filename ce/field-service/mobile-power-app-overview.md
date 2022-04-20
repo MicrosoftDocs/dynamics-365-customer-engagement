@@ -24,7 +24,7 @@ The Field Service (Dynamics 365) mobile app lets technicians view Dynamics 365 F
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWN1Bb]
 
-Available natively for Apple iOS, Google Android, and Windows 10+ (preview) phones and tablets, the Field Service (Dynamics 365) mobile app offers technicians many capabilities they need to perform onsite customer service, such as:  
+Available natively for Apple iOS and Google Android phones and tablets, as well as Windows 10+ devices, the Field Service (Dynamics 365) mobile app offers technicians many capabilities they need to perform onsite customer service, such as:  
 
 - A calendar view of assigned jobs.
 - Support for picture, video, and asset barcode scanning.

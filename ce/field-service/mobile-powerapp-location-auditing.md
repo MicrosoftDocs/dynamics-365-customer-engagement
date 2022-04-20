@@ -103,6 +103,10 @@ Here you see a list of locations throughout the day, listed by user.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of real time mode schedule assistant setting.](./media/mobile-geofence-real-time-location-filter.png)
 
+> [!Note]
+> Location Tracking is currently not available on Field Service (D365) Windows application.
+
+
 ### See also
 
 [Geofencing](mobile-powerapp-geofence.md)

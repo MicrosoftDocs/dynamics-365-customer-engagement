@@ -123,10 +123,10 @@ To enable a new bar code field for search within a table:
 > [!Note]
 > If you're using offline first the record will need to be included in your offline profile and downloaded to the device to display in search results. 
 
+## Other Considerations
+- Custom integration using Bar Code can be accomplished on mobile devices with [getBarcodeValue API](power-apps/developer/model-driven-apps/clientapi/reference/xrm-device/getbarcodevalue).
+- Currently, Global Search with Bar Code scanning is not available on Tablet and Windows versions of the application.
 
 
-### See also
-
-[```getBarcodeValue``` - Power Apps](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-device/getbarcodevalue)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

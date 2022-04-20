@@ -40,17 +40,16 @@ The Field Service (Dynamics 365) mobile app will evolve over time and benefit fr
 
 | Feature | Category | Field Service (Dynamics 365) mobile app |  Details |
 | --- | --- | --- |  --- |
-| Mobile platform |  | iOS, Android, Windows(Preview) |  Not applicable |
-| Camera capture (photo + video) | Technician | Yes |  Not applicable |
-| Barcode scanning | Technician | Yes |  Not applicable |
-| Offline data | Technician | Yes |  Not applicable |
-| Calendar view | Technician | Yes |   Not applicable |
-| Driving directions | Technician | Yes | Not applicable |
-| Speech to text | Technician | Yes | Not applicable |
-| Geocoding | Technician | Yes* |  Not applicable |
-| [Microsoft Intune](mobile-power-app-intune.md)  | Integration | Yes | Not applicable |
-| Time entry  | Technician | Yes | Not applicable |
-| Connected Field Service and IoT alerts | Technician | Yes |  Not applicable |
+| Mobile platform |  | iOS, Android, Windows |  [Apple App Store](http://aka.ms/fsmobile-apple),  [Android App Store](http://aka.ms/fsmobile-google), [Microsoft App Store](https://aka.ms/fsmobile-win)  |
+| Camera capture (photo + video) | Technician | Yes |  Leverage native device camera to capture images and video |
+| Barcode scanning | Technician | Yes |  Scan bar code form global search or at a field level |
+| Offline data | Technician | Yes |  Offline enabled application allows you to access your data regardless of internet connectivity. |
+| Calendar view | Technician | Yes |   Customize your calendar with data relavent for your organization. |
+| Driving directions | Technician | Yes | Use your favorite in app map application for turn by turn directions |
+| Speech to text | Technician | Yes | Leverage native device speech-to-text capabilities to insert notes. |
+| [Microsoft Intune](mobile-power-app-intune.md)  | Integration | Yes | Provdie an extra layer of device and data protection with Microsoft Intune. |
+| Time entry  | Technician | Yes | In application Time Entry enabled by default |
+| Connected Field Service and IoT alerts | Technician | Yes |  Receive iOT signals and send commands directly from your mobile app. |
 | [Inspections](inspections.md) | Technician | Yes | A Field Service technician can find and capture inspections associated with a work order. |
 | [Dynamics 365 Remote Assist](/dynamics365/mixed-reality/remote-assist/overview-hololens) | Integration | Yes** | You can get help from remote collaborators with integrated Dynamics 365 Remote Assist. |
 | [Push notifications](mobile-power-app-push-notifications.md) | Technician | Yes* |  You can send user notifications, such as a new booking appointment and other out-of-the-box triggers. |
@@ -64,8 +63,8 @@ The Field Service (Dynamics 365) mobile app will evolve over time and benefit fr
 | Bulk-add users  | Admin | Yes|  You can quickly assign an offline data sync profile to users. |
 | Checklist for service tasks  | Technician | Yes |  Use a checklist to quickly mark a task as complete. |
 
-*coming soon to Windows(Preview)<br>
-**not available on Windows(Preview)
+*coming soon to Windows<br>
+**not available on Windows
 
 Check [release plans](/dynamics365/release-plans/) to stay up to date on upcoming features for Field Service, including the Field Service (Dynamics 365) mobile app.
 
