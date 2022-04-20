@@ -85,7 +85,7 @@ The service managers must have either the Omnichannel Administrator, Omnichannel
 
 Perform the following steps to enable users with different privileges to access reports beyond the default ones.
 
-1. In Dynamics 365, navigate to **Settings** and select **Advanced settings**.
+1. In Dynamics 365, go to **Settings** and select **Advanced settings**.
 
 1. Select **Security** and then **Security roles**.
 
