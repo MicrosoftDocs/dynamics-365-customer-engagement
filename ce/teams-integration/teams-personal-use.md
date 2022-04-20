@@ -1,7 +1,7 @@
 ---
 title: "View personal dashboard in Microsoft Teams with Dynamics 365 app"
 description: "Learn how you can use the Dynamics 365 app to view your personal dashboard in Microsoft Teams. To work with other team members, consider the team app."
-ms.date: 03/31/2022
+ms.date: 04/20/2022
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
