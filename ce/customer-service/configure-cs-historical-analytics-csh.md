@@ -102,8 +102,8 @@ Perform the following steps to enable users with different privileges to access 
 1. Select the **Custom Entities** tab.
 
 1. Grant Read privileges to the following entities:
-   - Customer Service historical analytics
-   - Insights
+   - **Customer Service historical analytics**
+   - **Insights**
 
 1. Select **Save and close**. The agent manager can now see the Customer Service historical analytics report.
 
