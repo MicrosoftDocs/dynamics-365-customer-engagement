@@ -1,7 +1,7 @@
 ---
 title: "Set up Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to run the setup wizard for Dynamics 365 Marketing."
-ms.date: 03/23/2022
+ms.date: 04/20a/2022
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
@@ -23,7 +23,9 @@ search.app:
 This article explains how to purchase and set up a new Dynamics 365 Marketing environment.
 
 > [!TIP]
-> A trial version of Dynamics 365 Marketing is also available. If you'd like to set up a trial, see [Sign up for a free trial of Dynamics 365 Marketing](trial-signup.md) for instructions.
+> If you'd like to set up a free 30-day trial, go to [Try Dynamics 365 Marketing free for 30 days](https://dynamics.microsoft.com/marketing/marketing/free-trial/).
+> 
+> For general information about setting up a trial, see [Sign up for a free trial of Dynamics 365 Marketing](trial-signup.md).
 
 <a name="how-licensed"></a>
 
