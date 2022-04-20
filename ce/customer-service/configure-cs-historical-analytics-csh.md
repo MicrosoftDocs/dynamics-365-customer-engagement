@@ -1,7 +1,7 @@
 ---
 title: "Configure Customer Service historical analytics | MicrosoftDocs"
 description: "Learn how to configure Customer Service analytic reports for Customer Service Hub and Customer Service workspace"
-ms.date: 04/04/2022
+ms.date: 04/19/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -95,15 +95,17 @@ Perform the following steps to enable users with different privileges to access 
 
 1. In Dynamics 365, navigate to **Settings** and select **Advanced settings**.
 
-2. Select **Security** and then **Security roles**.
+1. Select **Security** and then **Security roles**.
 
-3. Select the security role that you want to enable access for. For example, agent manager.
+1. Select the security role that you want to enable access for. For example, agent manager.
 
-4. Select the **Custom Entities** tab.
+1. Select the **Custom Entities** tab.
 
-5. Select an entity. For example, select Customer Service historical analytics.
+1. Grant Read privileges to the following entities:
+   - Customer Service historical analytics
+   - Insights
 
-6. Select **Save and close**. The agent manager can now see the Customer Service historical analytics report.
+1. Select **Save and close**. The agent manager can now see the Customer Service historical analytics report.
 
 You can see the following reports by navigating to the **Service** > **Analytics and Insights** > **Customer Service historical analytics** page. By default, the **Summary** page is displayed.
 
