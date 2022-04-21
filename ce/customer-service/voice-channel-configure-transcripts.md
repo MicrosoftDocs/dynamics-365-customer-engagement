@@ -39,7 +39,7 @@ As an administrator, you can enable live transcription and recording of calls, w
 
 ## View call transcripts
 
-You can view the call transcriptions in Omnichannel admin center.
+You can view the call transcriptions in  Customer Service admin center or Omnichannel admin center.
 
 1. In Customer Service admin center or Omnichannel admin center,  go to manage **Users**, and then select the user whose conversations you want to view.
 2. Select the **Related** tab, and then select **Conversations** from the dropdown menu.
@@ -53,6 +53,13 @@ You can view the call transcriptions in Omnichannel admin center.
    > [!div class="mx-imgBorder"]
    > ![Screenshot of closed conversation list.](./media/voice-channel-conversations-list.png)
 
+## Delete call recordings
+
+1. In the Dynamics 365 instance, go to the app and select the **Advanced Find** icon displayed on the menu.
+1. On the **Advanced Find** page, select **Recordings** in the **Look for** dropdown list. More information: [Create, edit, or save an Advanced Find](/customerengagement/on-premises/basics/save-advanced-find-search).
+1. Select the required recording.
+1. Select the **Delete** icon.
+
 ### Storage location of your recordings and cost
 
 The maximum file size of a recording can be 512 MB. The voice recordings and transcripts data resides in the following locations:
@@ -64,16 +71,6 @@ The data storage costs with two participants only is calculated approximately as
 
 - 20 minute call recording = 10240 KB
 - 20 minute call transcript = 40 KB
-
-## Delete call recording
-
-To delete a call recording, perform the following steps:
-
-1. In the Dynamics 365 instance, go to the app and select the **Advanced Find** icon displayed on the menu.
-1. On the **Advanced Find** page, select **Recordings** in the **Look for** dropdown list. More information: [Create, edit, or save an Advanced Find](/customerengagement/on-premises/basics/save-advanced-find-search).
-1. Select the required recording.
-1. Select the **Delete** icon.
-
 
 ### See also
 
