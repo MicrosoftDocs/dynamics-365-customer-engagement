@@ -69,7 +69,7 @@ The data storage costs with two participants only is calculated approximately as
 
 To delete a call recording, perform the following steps:
 
-1. In the Dynamics 365 instance, on the app, select the **Advanced Find** icon displayed on the menu.
+1. In the Dynamics 365 instance, go to the app and select the **Advanced Find** icon displayed on the menu.
 1. On the **Advanced Find** page, select **Recordings** in the **Look for** dropdown list. More information: [Create, edit, or save an Advanced Find](/customerengagement/on-premises/basics/save-advanced-find-search).
 1. Select the required recording.
 1. Select the **Delete** icon.
