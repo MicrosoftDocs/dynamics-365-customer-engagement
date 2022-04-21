@@ -1,5 +1,5 @@
 ---
-title: "Process file attachments during migration| MicrosoftDocs"
+title: "Manage file attachments during migration| MicrosoftDocs"
 description: "This topic includes reference information about processing file attachments from your Azure bot when you migrate to the new omnichannel messaging platform."
 ms.date: 04/22/2022
 ms.topic: reference
@@ -8,7 +8,7 @@ ms.author: v-jmh
 manager: shujoshi
 ---
 
-# Process file attachments during migration
+# Manage file attachments during migration
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 

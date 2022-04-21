@@ -22,7 +22,7 @@ To successfully migrate to the new messaging platform, you must make the followi
 
 - If you're a bot author or developer, then you must download the latest middleware NuGet package. More information: [Enable bot context NuGet package](enable-bot-context.md#install-the-bot-sdk-in-your-project)
 
-- If you've enabled the option to download file attachments in chat conversations, then as a bot author or developer, you must program your Azure bot for processing and downloading the file attachments properly in the new channel. More information: [How to process file attachments during migration](process-file-attachments-during-migration.md)  
+- If you've enabled the option to download file attachments in chat conversations, then as a bot author or developer, you must program your Azure bot for processing and downloading the file attachments properly in the new channel. More information: [How to manage file attachments during migration](manage-file-attachments-during-migration.md)  
 
 > [!Note]
 > These changes won't impact your existing omnichannel experience. We'll work with you to help you navigate and test the changes to ensure a smooth transition.
