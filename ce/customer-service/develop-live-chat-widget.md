@@ -1,7 +1,7 @@
 ---
 title: "Develop a custom live chat widget | MicrosoftDocs"
 description: "Use this article to understand how to develop a custom live chat widget using Omnichannel Chat SDK and Omnichannel Live Chat Widget UI Components library."
-ms.date: 03/22/2022
+ms.date: 04/22/2022
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
