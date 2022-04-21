@@ -24,4 +24,6 @@ For app specific information about the feature, select the appropriate link belo
 
 - Dynamics 365 Sales: [Enable or disable Microsoft Teams chat in Sales Hub](../sales/teams-integration/enable-teams-chat.md)
 - Dynamics 365 Customer Service: [Configure Microsoft Teams chat in Customer Service](../customer-service/configure-teams-chat.md)
+- Dynamics 365 Marketing: [Collaborate using built-in Microsoft Teams chat](../marketing/teams-chat.md)
+- Dynamics 365 Field Service: [Collaborate on work orders with Microsoft Teams](../field-service/field-service-teams-collaboration.md)
 

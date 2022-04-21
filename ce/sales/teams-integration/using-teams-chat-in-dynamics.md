@@ -22,6 +22,7 @@ You can now engage in a Teams chat conversation from within Dynamics 365. While 
 > [!NOTE]
 > - When you associate a Teams channel to a record, the channel gets linked to the record. However, unlike chat conversations, channel conversations can't be accessed from within Dynamics 365.
 > - Your administrator must have enabled this functionality. For more information, go to [Enable or disable the Teams chat in Dynamics 365 (preview)](enable-teams-chat.md).
+> - For the embedded Teams chat functionality to work properly, ensure that web browser settings allow pop-ups for the Dynamics website.
 
 
 You can do the following Teams collaboration activities from Dynamics 365:
