@@ -28,21 +28,17 @@ Microsoft provides an option to create a custom live chat widget that you can at
 
 The Omnichannel Live Chat Widget UI Components library provides a framework of reusable React components that can be edited in all basic CSS styles to modify the user interface of the live chat widget. These components are built using the [Fluent UI library](https://developer.microsoft.com/fluentui).
 
-To learn more about the Omnichannel Live Chat Widget UI Components, see [here](https://github.com/microsoft/omnichannel-chat-widget).
+To learn more about the Omnichannel Live Chat Widget UI Components, see [here](https://github.com/microsoft/omnichannel-chat-widget/blob/main/README.md).
 
 ## Omnichannel Chat SDK
 
 The Omnichannel Chat SDK is an open-source package that provides chat methods and features to add functionality of the widget.
 
-To learn more about the Omnichannel Chat SDK, see [here](https://github.com/microsoft/omnichannel-chat-sdk).
+To learn more about the Omnichannel Chat SDK, see [here](https://github.com/microsoft/omnichannel-chat-sdk/blob/main/README.md).
 
-## Develop your own live chat widget
+## Customize your live chat widget
 
-To develop the custom live chat widget, you'll use both the Omnichannel Live Chat Widget UI Components and the Omnichannel Chat SDK.
-
-Ensure that you first install the Omnichannel Chat SDK package. We recommend that you download the latest version of the Omnichannel Chat SDK package to take advantage of the newly added features. More information: [Omnichannel Chat SDK Installation page on GitHub](https://github.com/microsoft/omnichannel-chat-sdk#installation)
-
-You can also use custom components from third-party developers in your chat widget, and create your own custom widget using both the Live Chat Widget UI Components library and the Omnichannel Chat SDK methods.
+After you install the Omnichannel Chat SDK, you can customize your live chat widget using both the Omnichannel Live Chat Widget UI Components and the Omnichannel Chat SDK methods.
 
 ### See also
 
