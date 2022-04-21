@@ -1,7 +1,7 @@
 ---
 title: "Configure Omnichannel historical analytics reports | MicrosoftDocs"
 description: "Configure historical analytics reports for Omnichannel"
-ms.date: 04/04/2022
+ms.date: 04/19/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -83,7 +83,22 @@ The service managers must have either the Omnichannel Administrator, Omnichannel
 
 ### Provide report access to additional security roles
 
-If your organization needs to enable users with different privileges to access reports in addition to the default ones, see [Assign a security role to a user](/power-platform/admin/assign-security-roles).
+Perform the following steps to enable users with different privileges to access reports beyond the default ones.
+
+1. In Dynamics 365, go to **Settings** and select **Advanced settings**.
+
+1. Select **Security** and then **Security roles**.
+
+1. Select the security role that you want to enable access for. For example, agent manager.
+
+1. Select the **Custom Entities** tab.
+
+1. Grant Read privileges to the following entities:
+   - **Omnichannel historical analytics**
+   - **Insights**
+
+1. Select **Save and close**. The agent manager can now see the Omnichannel historical analytics report.
+
 
 ### See Also
 
