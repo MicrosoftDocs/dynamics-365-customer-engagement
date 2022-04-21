@@ -11,6 +11,9 @@ manager: shujoshi
 
 Enable and configure the sales accelerator to create sequences and connect records, and view daily work list items.
 
+> [!TIP]
+> If you'd like to set up a free trial, go to [Try Dynamics 365 Sales free for 30 days](https://dynamics.microsoft.com/sales/sales/free-trial/).
+
 ## License and role requirements
 | Requirement type | You must have |  
 |-----------------------|---------|
