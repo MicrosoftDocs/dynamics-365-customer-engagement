@@ -4,13 +4,12 @@ description: Learn how to get the Field Service (Dynamics 365) mobile app set up
 ms.date: 07/06/2020
 ms.reviewer: krbjoran
 ms.topic: article
-
 ms.subservice: field-service-mobile
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
+author: JonBaker007
+ms.author: jobaker
 manager: shellyha
 search.app: 
   - D365CE

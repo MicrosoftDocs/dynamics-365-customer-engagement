@@ -1,17 +1,15 @@
 ---
 title: "Overview of the Field Service (Dynamics 365) mobile app (contains video) | MicrosoftDocs"
 description: Learn about the Field Service (Dynamics 365) mobile app with this general overview.
-ms.date: 10/01/2021
+ms.date: 04/22/2022
 ms.reviewer: krbjoran
 ms.topic: overview
-
 ms.subservice: field-service-mobile
-
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
+author: JonBaker007
+ms.author: jobaker
 manager: shellyha
 search.app: 
   - D365CE

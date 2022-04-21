@@ -4,13 +4,12 @@ description: Learn how to configure offline data for the Field Service (Dynamics
 ms.date: 06/02/2021
 ms.reviewer: krbjoran
 ms.topic: article
-
 ms.subservice: field-service-mobile
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
+author: JonBaker007
+ms.author: jobaker
 manager: shellyha
 search.app: 
   - D365CE
@@ -146,7 +145,7 @@ If data is not downloading, try signing out and signing back in. If offline data
 
 ## Understanding offline vs. online capabilities
 
-Once an offline profile is configured and user assigned, following the initial sync to download data, the mobile app will _always_ runs offline-first. This functionality optimizes performance and creates a consistent experience for frontline workers as they move through areas with and without internet connection. 
+Once an offline profile is configured and user assigned, following the initial sync to download data, the mobile app will _always_ run offline-first. This functionality optimizes performance and creates a consistent experience for frontline workers as they move through areas with and without internet connection. 
 
 1.	**Online**: Occurs when there is internet but no offline profile is configured. The mobile app functions like using a Dynamics 365 app with internet on your PC. When internet is lost or diminished, the mobile app is unusable. Not recommended.
 2.	**Offline First _without_ internet connection**: Data is downloaded to the device and all changes are saved locally to your mobile device. When internet is restored, the changes are synced to the server.
@@ -201,7 +200,7 @@ Administrators can view past sync errors by going to **Settings** > **Sync Error
 
 ### Should I make a copy of the offline profile?
 
-It is recommended to use the mobile offline profile included with Field Service and then make offline filter changes directly in the *Field Service Mobile - Offline Profile*. Using the default offline profile allows your offline profile to receive updates to unchanges entity sync filters. You can also copy the default *Field Service Mobile - Offline Profile*, and make changes to the copy. The copy is considered unmanaged and will not receive any updates. If you make changes to the default offline profile and want to see the latest unadulterated offline profile, you can create a new trial of Field Service and view the included profile.
+It is recommended to use the mobile offline profile included with Field Service and then make offline filter changes directly in the *Field Service Mobile - Offline Profile*. Using the default offline profile allows your offline profile to receive updates to unchanged entity sync filters. You can also copy the default *Field Service Mobile - Offline Profile*, and make changes to the copy. The copy is considered unmanaged and will not receive any updates. If you make changes to the default offline profile and want to see the latest unadulterated offline profile, you can create a new trial of Field Service and view the included profile.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Power Platform admin center showing the copy option for the Field Service Mobile - Offline profile.](./media/mobile-2020-offline-profile-copy.png)
@@ -227,14 +226,15 @@ Due to some current [limitations](/dynamics365/mobile-app/mobile-offline-capabil
 
 ### How do I know when a sync is in progress?
 
-During regular use a Frontline worker will observe a notification during:
+During regular use, a frontline worker will receive a notification during:
+
 - Initial sync going offline for the first time.
-- Manual refresh by clicking "Refresh" button on a grid.
-- Large incremntal sync, such as if the application has been closed for multiple days over the weekend.
+- Manual refresh by selecting **Refresh** button on a grid.
+- Large incremental sync, such as if the app has been closed for multiple days (like over the weekend, for instance).
 
-These notifications will continue to displaly while the sync is in progress. The larger incremental sync will include an inline Refresh button once complete to refresh the current view with latest data.
+These notifications will continue to display while the sync is in progress. The larger incremental sync will include an inline refresh button once complete to refresh the current view with latest data.
 
-The Offline Status page in the application, available from the sitemap, can also be viewed to see which tables have been sycnronized and the last date/time of the sync. 
+The **Offline Status** page in the app, available from the sitemap, can also be viewed to see which tables have been synchronized and the last date and time of the sync. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Field Service (D365) Sync Notifications.](./media/syncnotifications.png)
@@ -250,7 +250,7 @@ Sync notifications are available from UCI Platform version 9.2.22033.00152+.
 
 
 > [!Note]
-> As Part of Wave 1, 2021 the Power Platform is introducing new (Preview) features for the Mobile Offline Profile. These features include a new way to access the Mobile Offline Profile from http://make.powerapps.com, improved error handling, and removing the need to manually add individual user access. For more details on these Preview features please see [Mobile Offline Overview](https://docs.microsoft.com/en-us/power-apps/mobile/mobile-offline-overview) in Power Platform documentation.
+> As part of Wave 1, 2021, Power Platform is introducing new (preview) features for the mobile offline profile. These features include a new way to access the mobile offline profile from http://make.powerapps.com, improved error handling, and removing the need to manually add individual user access. For more information, see [mobile offline overview](/power-apps/mobile/mobile-offline-overview) in Power Platform documentation.
 
 
 
