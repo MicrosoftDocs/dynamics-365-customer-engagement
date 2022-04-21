@@ -17,8 +17,6 @@ ms.custom: intro-internal
 > [!IMPORTANT]
 > This feature is intended to help customer service managers or supervisors enhance their team’s performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 
-## Introduction
-
 Customer service managers or supervisors are responsible for managing the agents who work with customers to resolve queries every day through various service channels.
 
 Omnichannel for Dynamics 365 Customer Service provides dashboards that help supervisors keep track of the work that their agents do. As a supervisor, you can use these dashboards to perform these tasks:
@@ -41,7 +39,7 @@ As a supervisor, you see the following tabs when you open the Omnichannel for Cu
 
 - **Ongoing Conversations dashboard**: This tab provides information about the conversations that agents are handling and are in active, open, wrap up, and waiting status reason. To learn more, see [Ongoing Conversations dashboard](ongoing-conversations-dashboard.md).
 
-## Videos
+### Videos
 
 [Overview of supervisor experience in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2099487)
 
