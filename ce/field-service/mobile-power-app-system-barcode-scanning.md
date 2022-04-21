@@ -124,7 +124,7 @@ To enable a new bar code field for search within a table:
 
 ## Other considerations
 
-- Custom integration using barcode can be accomplished on mobile devices with [getBarcodeValue API](power-apps/developer/model-driven-apps/clientapi/reference/xrm-device/getbarcodevalue).
+- Custom integration using barcode can be accomplished on mobile devices with [getBarcodeValue API](/power-apps/developer/model-driven-apps/clientapi/reference/xrm-device/getbarcodevalue).
 - Currently, global search with barcode scanning is not available on tablet and Windows versions of the app.
 
 

@@ -3,14 +3,13 @@ title: "Field Service (Dynamics 365) app for Windows 10+ devices (contains video
 description: Learn about the Field Service (Dynamics 365) app for Windows 10+ devices.
 ms.date: 10/01/2021
 ms.reviewer: krbjoran
-
 ms.subservice: field-service-mobile
 ms.topic: article
 applies_to:
 - "Dynamics 365 (online)"
 - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
+author: JonBaker007
+ms.author: jobaker
 manager: shellyha
 search.app:
 - D365CE
@@ -19,14 +18,13 @@ search.app:
 
 # Field Service (Dynamics 365) app for Windows 10+ devices
 
-
 Built on Microsoft Power Platform as a model-driven app, the Field Service (Dynamics 365) Windows app is built for frontline workers using Microsoft Surface laptops, Surface duos, and other Windows devices running Windows 10 or Windows 11.
 
 > [!div class="mx-imgBorder"]
 > ![Field Service native app on a Windows device.](./media/mobile-2020-windows-agenda-view.jpg)
 
 
-The Field Service (Dynamics 365) Windows app supports most common features as iOS & Android versions, including [offline mode](hmobile-power-app-system-offline.md), for a consitent cross-platform experience. 
+The Field Service (Dynamics 365) Windows app supports most common features as iOS & Android versions, including [offline mode](mobile-power-app-system-offline.md), for a consistent cross-platform experience. 
 
 For a guided walkthrough, check out the following video.
 
@@ -60,11 +58,10 @@ Open the app and sign in with your username and password, which should be the cr
  
 ## View bookings
 
-You can access your bookings from the **Home** screen or **Bookings** screen.  On the bookings screen you have the option to view bookings on an Agenda, Day, Week, Month, or [Map view](mobile-powerapp-booking-maps.md). You can [customize the Agenda view](/mobile-powerapp-customize-booking-calendar.md) in the same way as iOS and Android applications.
+You can access your bookings from the **Home** screen or **Bookings** screen. On the bookings screen, you have the option to view bookings on an agenda, day, week, month, or [map view](mobile-powerapp-booking-maps.md). You can [customize the agenda view](/mobile-powerapp-customize-booking-calendar.md) in the same way as iOS and Android apps.
  
 > [!div class="mx-imgBorder"]
-> ![Bookings Agenda View in the Field Service Windows app.](./media/mobile-2020-windows-agenda-view.jpg)
-
+> ![Bookings agenda view in the Field Service Windows app.](./media/mobile-2020-windows-agenda-view.jpg)
 
 Selecting a booking will open the record, where you can then change status, complete service tasks (including inspections), and attach notes to the timeline.
 
@@ -93,7 +90,7 @@ You can use the device camera to scan barcodes either for global search or for f
 
 ## Download data for offline use
 
-When enabled for [Offline mode](mobile-power-app-system-offline.md), the application will automatically download offline data after you sign in. You can also force an update of the offline data from the Offline Status page by selecting **Update date**.
+When enabled for [offline mode](mobile-power-app-system-offline.md), the app will automatically download offline data after you sign in. You can also force an update of the offline data from the **Offline Status** page by selecting **Update date**.
  
 > [!div class="mx-imgBorder"]
 > ![Offline status panel in the Field Service Windows app.](./media/mobile-2020-windows-offline.jpg)
@@ -107,6 +104,6 @@ The following capabilities *are not* available at this time. These capabilities 
 
 - Push notifications
 - Geo location tracking of users
-- Quick Notes Photos & Videos
+- Quick notes photos and videos
 - Access to GCC High or China cloud environment
 - Search with barcode via global search

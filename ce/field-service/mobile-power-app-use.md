@@ -8,8 +8,8 @@ ms.subservice: field-service-mobile
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: krbjoran
-ms.author: krbjoran
+author: JonBaker007
+ms.author: jobaker
 manager: shellyha
 search.app: 
   - D365CE
@@ -141,7 +141,7 @@ When the **Status** is set to **Available**, you'll have all the data you need t
 
 
 > [!Note]
-> When the technician has internet connectivity, data on the device is automatically refreshed every five minutes or as configured in their Mobile Offline Profile.
+> When the technician has internet connectivity, data on the device is automatically refreshed every five minutes or as configured in their mobile offline profile.
 
 Technicians can also **Update offline data** manually by going to the home screen, selecting the offline icon in the bottom left, then selecting the **Update offline data** option. 
 
@@ -159,7 +159,7 @@ To sync specific views, select **Refresh** from the app's bottom menu. For examp
 > [!div class="mx-imgBorder"]
 > ![Devices showing Field Service (Dynamics 365), with attention to the refresh option.](./media/mobile-2020-offline-refresh.png)
 
-System administrators can find more information in the topic on [Offline data and Sync Filters](mobile-power-app-system-offline.md).
+For more information, see this article: [Offline data and Sync Filters](mobile-power-app-system-offline.md).
 
 ## Time entry
 
