@@ -47,7 +47,7 @@ To enable the preconfigured Power BI workspace:
 
    The Power BI configuration view opens.
     
-> [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+   > [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 2. Select **New**.
 
