@@ -1,7 +1,7 @@
 ---
 title: "Provision Omnichannel for Customer Service and voice channel | MicrosoftDocs"
 description: "Perform the steps in this article to provision Omnichannel for Customer Service and add channels so that can you start using the product."
-ms.date: 04/05/2022
+ms.date: 04/22/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -12,7 +12,7 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Introduction
+[!INCLUDE[cc-trial-sign-up](../includes/cc-trial-sign-up.md)]
 
 Omnichannel for Customer Service provides a modern, customizable, high-productivity app that lets agents help customers across different channels via a unified interface. It lets organizations choose the channel that suits their business needs. It also ensures that a high level of responsive, quality service is received across channels.
 

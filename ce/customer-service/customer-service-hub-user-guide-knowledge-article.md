@@ -1,7 +1,7 @@
 ---
 title: Understand Knowledge Management in Customer Service Hub in Dynamics 365 Customer Service | Microsoft Docs
 description: Understand Knowledge Management in Customer Service Hub for Customer Service Dynamics 365 Customer Service
-ms.date: 04/04/2022
+ms.date: 04/22/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -27,6 +27,8 @@ searchScope:
 
 # Create and manage knowledge articles
 
+[!INCLUDE[cc-trial-sign-up](../includes/cc-trial-sign-up.md)]
+
 Reduce call handling times with knowledge articles in the Customer Service Hub application.
   
 With the knowledge management module, you can create and manage knowledge articles that your users may be looking for.
@@ -34,7 +36,7 @@ With the knowledge management module, you can create and manage knowledge articl
 Knowledge articles can address any number of issues your customers encounter while using your organization's product or services. Types of knowledge articles can include solutions to common issues, product or feature documentation, answers to frequently asked questions (FAQs), product briefs, and more. Use the rich text editor to create knowledge articles, format your content, or embed videos and images.  
   
 > [!IMPORTANT]
-> Knowledge management is available out of the box through the Customer Service Hub app module, and it works with other customer apps as well. Articles that are created in the Customer Service Hub will be available in the Dynamics 365 Customer Service app as read-only records.  
+> Knowledge management is available out of the box through the Customer Service Hub app module, and it works with other customer service apps as well. Articles that are created in the Customer Service Hub will be available in the Dynamics 365 Customer Service app as read-only records.  
 
 > [!NOTE]
 > The entities `KBArticle`, `KBArticleTemplate` and `KBArticleComment` are now deprecated. This means we don't expect you to use these entities anymore. You must use the newer `KnowledgeArticle` entity for knowledge management in Dynamics 365 Customer Service. More information: [Work with knowledge articles](work-knowledge-articles.md)

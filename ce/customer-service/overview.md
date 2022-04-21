@@ -13,7 +13,7 @@ ms.custom:
 
 # Overview of Dynamics 365 Customer Service
 
-*<a href="https://dynamics.microsoft.com/customer-service/overview/" target="_blank">Try Dynamics 365 Customer Service for free</a>*
+[!INCLUDE[cc-trial-sign-up](../includes/cc-trial-sign-up.md)]
 
 Welcome to Dynamics 365 Customer Service! We are delighted to offer you a suite of capabilities to ensure your business can deliver the best customer service experience possible to your customers. We believe that knowing your customers enables you to personalize each experience and optimizes your agents' productivity so you can earn customers for life. 
 
