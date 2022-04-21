@@ -16,28 +16,27 @@
 
 ## Return value
 
-Returns a Promise object of type String. On success, the API returns the search results as per the search query. 
+Returns a Promise object of type String. On success, the method returns the search results as per the search query. 
 
 > [!Note]
-> You can fetch a maximum of 5000 records at once (if more than 5000 records exist). You can narrow down the results by using query options such as $filter, $select, and $top in the method parameters as shown in the [Examples](#examples) section. 
-> For more information about query options, see [Query options overview](/odata/concepts/queryoptions-overview).
+> You can fetch a maximum of 5000 records at once (if more than 5000 records exist). You can narrow down the results by using query options such as $filter, $select, and $top in the method parameters as shown in the [Examples](#examples) section. More information: [Query options overview](/odata/concepts/queryoptions-overview)
 
 ## Remarks
 
-When you set `searchOnly` as `true`, the contact entity records are searched to the get results as a promise object, and the record is not opened. Set `searchOnly` as `true` when the search displays a list of records based on the search context.
+When you set `searchOnly` as `true`, the contact entity records are searched to get the results as a Promise object, and the record is not opened. Set `searchOnly` as `true` when the search displays a list of records based on the search context.
 
-When you set `searchOnly` as `false`, the contact entity records are searched and the record is opened. Set the `searchOnly` as `false` when you want the search to display a single record based on the search context. If `searchOnly` parameter is set to `false`, it will open search page if the search result has multiple records and prepopulate the search page with the tag value mentioned when search field is used in queryParameters.
+When you set `searchOnly` as `false`, the contact entity records are searched and the record is opened. Set the `searchOnly` as `false` when you want the search to display a single record based on the search context. If `searchOnly` parameter is set to `false`, it will open search page if the search result has multiple records and prepopulate the search page with the tag value mentioned when search field is used in `queryParameters`.
 
 ## Examples
 
-### Example 1: Search and open the contact record
+### Search and open the contact record
 
 This sample code searches the name and phone number of a contact record. It opens an empty search results page.
 
 ```JavaScript
 
 // retrieve contact record
-Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telephone1", false ).
+Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telephone1", false );
 then(
     function success(result) { 
     res=JSON.parse(result);
@@ -51,7 +50,7 @@ then(
 );
 ```
 
-### Example 2: Search and display on the list of contact records
+### Search and display on the list of contact records
 
 This sample code searches and displays the name and phone number of Contact entity records whose first name is **Contoso**. Using `$search` we can make sure that the search results page is prepopulated with the search term **Contoso**.
 
@@ -61,8 +60,8 @@ This sample code searches and displays the name and phone number of Contact enti
 ```JavaScript
 
 // Retrieve Contact entity record
-// Change searchonly parameter to true, if you do not want to open the search results page
-Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telephone1&$filter=firstname eq 'Contoso'&$search=Contoso", false ).
+// Change searchOnly parameter to true, if you do not want to open the search results page
+Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telephone1&$filter=firstname eq 'Contoso'&$search=Contoso", false );
 then(
     function success(result) {
     res=JSON.parse(result);
@@ -76,12 +75,12 @@ then(
 );
 ```
 
-### Example 3: Search and display top 10 active contact records
+### Search and display top 10 active contact records
 
 This sample code searches and displays the top 10 active contact records.
 
 ```JavaScript
-Microsoft.CIFramework.searchAndOpenRecords("contact", "$filter=statecode eq 0&$select=description&$top=10", false ).
+Microsoft.CIFramework.searchAndOpenRecords("contact", "$filter=statecode eq 0&$select=description&$top=10", false );
 then(
     function success(result) { 
     res=JSON.parse(result);
@@ -94,12 +93,12 @@ then(
 );
 ```
 
-### Example 4: Search and display name and phone number by specifying the relevance search type
+### Search and display name and phone number by specifying the relevance search type
 
 This sample code searches and displays the name and phone number of Contact entity records by specifying the relevance search type.
 
 ```JavaScript
-Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telephone1", false, 0 ).
+Microsoft.CIFramework.searchAndOpenRecords("contact", "?$select=fullname,telephone1", false, 0 );
 then(     
     function success(result) {     
     res=JSON.parse(result);         
