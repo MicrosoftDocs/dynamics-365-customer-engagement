@@ -492,7 +492,7 @@
         href: create-knowledge-article-using-template.md
       - name: Extend transformer logic on templates
         href: extend-transformer-logic-template.md
-  - name: Microsoft Teams collaboration
+  - name: Microsoft Teams for collaboration
     items:
     - name: Introduction to collaboration
       href: collaboration.md
@@ -500,7 +500,9 @@
       items: 
       - name: Configure Teams chat
         href: configure-teams-chat.md
-      - name: Configure AI suggestions for contacts in Microsoft Teams
+      - name: Enable Teams meetings in Customer Service apps
+        href: configure-teams-meetings.md
+      - name: Configure AI suggestions for contacts in Teams
         href: configure-teams-collaboration.md
       - name: Configure customer support swarming
         href: configure-customer-support-swarming.md
@@ -510,6 +512,8 @@
         href: use-teams-chat.md
       - name: Use suggested contacts to collaborate with coworkers
         href: teams-use-suggested-contacts.md
+      - name: Use Teams meetings
+        href: use-teams-meetings.md
       - name: Collaborate with AI-suggested contacts in Microsoft Teams
         href: use-ai-suggested-contacts-teams.md
       - name: Use customer support swarming to resolve issues
