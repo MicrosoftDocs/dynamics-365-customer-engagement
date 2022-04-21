@@ -1,7 +1,7 @@
 ---
 title: "Process file attachments during migration| MicrosoftDocs"
 description: "This topic includes reference information about processing file attachments from your Azure bot when you migrate to the new omnichannel messaging platform."
-ms.date: 04/13/2022
+ms.date: 04/22/2022
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -48,13 +48,21 @@ if (turnContext.Activity.ChannelData != null &&
     // 3. Acquire authentication token and add it to request headers
     var token = await new MicrosoftAppCredentials("botAppId", "botAppSecret").GetTokenAsync();
     var authorization = new AuthenticationHeaderValue("bearer", token);
-                        httpRequest.Headers.Add("Authorization", authorization.ToString());
+    httpRequest.Headers.Add("Authorization", authorization.ToString());
 
     // 4. Add ACS Bot Id to request header. This is required to achieve good download performance.
     httpRequest.Headers.Add("BotAcsId", turnContext.Activity.Recipient.Id);
 
     // 5. Use HttpClient to execute the request and download attachment
     var response = await client.SendAsync(httpRequest);
+    
+    // 6. Save HTTP response stream to the file
+    var responseContentStream = await response.Content.ReadAsStreamAsync();
+    using (FileStream fileCreateStream = new FileStream("file path", FileMode.Create))
+    {
+        fileCreateStream.CopyTo(responseContentStream);
+    }
+
 }
 else if (turnContext.Activity.Attachments != null)
 {

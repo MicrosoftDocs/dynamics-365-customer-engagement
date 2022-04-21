@@ -1,7 +1,7 @@
 ---
 title: "Migration changes for new omnichannel messaging platform | MicrosoftDocs"
 description: "Use this article to understand the changes you'll need to make to your omnichannel implementations to successfully migrate to the new omnichannel messaging platform."
-ms.date: 04/13/2022
+ms.date: 04/22/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
