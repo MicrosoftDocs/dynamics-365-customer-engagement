@@ -62,7 +62,6 @@ if (turnContext.Activity.ChannelData != null &&
     {
         fileCreateStream.CopyTo(responseContentStream);
     }
-
 }
 else if (turnContext.Activity.Attachments != null)
 {
