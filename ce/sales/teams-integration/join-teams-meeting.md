@@ -9,7 +9,7 @@ ms.author: shjais
 manager: shujoshi
 ---
 
-# Join a Teams meeting (preview)
+# Join a Microsoft Teams meeting (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 

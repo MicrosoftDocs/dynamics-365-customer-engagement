@@ -9,7 +9,7 @@ ms.author: shjais
 manager: shujoshi
 ---
 
-# Enable linking of Dynamics 365 records to Teams channels 
+# Enable linking of Dynamics 365 records to Microsoft Teams channels 
 
 By default, the linking of Dynamics 365 records to Teams channels is disabled for customer engagement apps in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation).
 
