@@ -1,7 +1,7 @@
 ---
 title: "Configure Customer Service historical analytics | MicrosoftDocs"
 description: "Learn how to configure Customer Service analytic reports for Customer Service Hub and Customer Service workspace"
-ms.date: 02/11/2022
+ms.date: 04/19/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -24,16 +24,13 @@ The following historical reports are available:
 
 Make sure that you have administrator permissions for Dynamics 365.
 
-You can enable the customer service historical analytics reports in the Customer Service admin center (preview) or Customer Service Hub app.
+You can enable the customer service historical analytics reports in the Customer Service admin center or Customer Service Hub app.
 
 **Enable the Knowledge search analytics dashboard**
 
 1. Go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
      1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
      1. In the **Customer Service historical analytics** section, select **Manage**.
@@ -57,7 +54,7 @@ This configuration will also enable AI-discovered topics from cases with default
 
 ## Enable Historical analytics for unified routing
 
-You can enable historical analytics for unified routing in the Customer Service admin center (preview) or Customer Service Hub app. The metrics are available in the report after 24 hours.
+You can enable historical analytics for unified routing in the Customer Service admin center or Customer Service Hub app. The metrics are available in the report after 24 hours.
 
 > [!IMPORTANT]
 >
@@ -66,11 +63,8 @@ You can enable historical analytics for unified routing in the Customer Service 
 
 1. Go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
      
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-
      1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
      1. In the **Customer Service historical analytics** section, select **Manage**.
 
@@ -101,15 +95,17 @@ Perform the following steps to enable users with different privileges to access 
 
 1. In Dynamics 365, navigate to **Settings** and select **Advanced settings**.
 
-2. Select **Security** and then **Security roles**.
+1. Select **Security** and then **Security roles**.
 
-3. Select the security role that you want to enable access for. For example, agent manager.
+1. Select the security role that you want to enable access for. For example, agent manager.
 
-4. Select the **Custom Entities** tab.
+1. Select the **Custom Entities** tab.
 
-5. Select an entity. For example, select Customer Service historical analytics.
+1. Grant Read privileges to the following entities:
+   - **Customer Service historical analytics**
+   - **Insights**
 
-6. Select **Save and close**. The agent manager can now see the Customer Service historical analytics report.
+1. Select **Save and close**. The agent manager can now see the Customer Service historical analytics report.
 
 You can see the following reports by navigating to the **Service** > **Analytics and Insights** > **Customer Service historical analytics** page. By default, the **Summary** page is displayed.
 

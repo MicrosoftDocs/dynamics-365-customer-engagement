@@ -34,7 +34,7 @@ The app supports offline by default and allows frontline workers using a Windows
 The Field Service (Dynamics 365) Windows app supports:
 
 - Access to the device's camera, which means you can capture images and videos.
-- Barcode scanning for assets and global search.
+- Barcode scanning for assets and search.
 - Deep-linking into the Field Service mobile app.
 
 For a guided walkthrough, check out the following video.
@@ -105,13 +105,14 @@ The app automatically downloads offline data after you sign in, though you can a
 > ![Offline status panel in the Field Service Windows app.](./media/mobile-2020-windows-offline.jpg)
 
 >[!Note]
-> At this time, offline is supported on devices running Windows OS 20H2 (19042.1348) and greater. This limitation will be removed before the app reaches general availability. 
+> At this time, offline is supported on devices running Windows OS 20H2 (19042.1348) and greater.
 
 ## Configuration considerations
 
-The following capabilities *are not* available in this public preview. but are planned for future releases. These capabilities *are* available in the iOS and Android apps.
+The following capabilities *are not* available in this public preview. These capabilities *are* available in the iOS and Android apps.
 
 - Push notifications
-- Geo tracking of users
-- Quick notes
-- Large file and image support
+- Geo location tracking of users
+- Quick Notes Photos & Videos
+- Access to GCC/GCC High or China cloud environment
+- Dataverse search with barcode via global search

@@ -35,19 +35,11 @@ As a supervisor, you see the following tabs when you open the Omnichannel for Cu
 
 - **Omnichannel intraday insights dashboard**: This tab provides an overview of information about the health and KPIs of agents in your organization. The information in this dashboard is displayed based on the last 24 hours conversations. To learn more, see [Omnichannel intraday insights dashboard](intraday-insights-dashboard.md). If you're unable to view the dashboards, contact your system administrator. More information: [Configure to view intraday insights dashboard](configure-intraday-dashboard-supervisor.md). The intraday insights reports are available only in the English language, out of the box. You'll need to customize the reports to make them available in a language of your choice.
 
-This tab also displays all the reports and dashboards configured in the corresponding Power BI workspace.
+  This tab also displays all the reports and dashboards configured in the corresponding Power BI workspace.
 
 - **Ongoing Conversations dashboard**: This tab provides information about the conversations that agents are handling and are in active, open, wrap up, and waiting status reason. To learn more, see [Ongoing Conversations dashboard](ongoing-conversations-dashboard.md).
 
-## Prerequisites
-
-Verify the following prerequisites before you use the supervisor dashboards:
-
--  Omnichannel supervisor role is assigned. To learn more, see [Enable users for Omnichannel Customer Service](add-users-assign-roles.md).
-
--  **Power BI Pro** or **Power BI Premium** license is assigned to you.
-
-## Videos
+### Videos
 
 [Overview of supervisor experience in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2099487)
 

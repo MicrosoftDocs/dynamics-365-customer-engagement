@@ -1,8 +1,8 @@
 ---
 title: "getConversationId (Omnichannel JavaScript API reference) | MicrosoftDocs"
-description: "Includes information about getConversationId method, syntax, and parameters in Omnichannel JavaScript API reference."
+description: "Includes reference information about getConversationId method, syntax, and parameters in Omnichannel JavaScript API reference."
 ms.date: 02/18/2022
-ms.topic: article
+ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi

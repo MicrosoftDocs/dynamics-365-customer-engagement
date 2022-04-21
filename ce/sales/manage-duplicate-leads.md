@@ -12,15 +12,16 @@ manager: shujoshi
 
 [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)] 
 
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4UpF6]
+
 Identifying duplicate leads helps you to maintain a clean and accurate database of leads by removing the duplicates.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+
 
 ## Prerequisites
 

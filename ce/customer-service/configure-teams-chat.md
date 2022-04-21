@@ -1,7 +1,7 @@
 ---
 title: "Configure Microsoft Teams chats in Customer Service | Microsoft Docs"
 description: "Learn how to configure Microsoft Teams chat functionality in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
-ms.date: 03/18/2022
+ms.date: 04/21/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -31,7 +31,7 @@ ms.custom:
 
 ## Introduction
 
-You can configure the ability for agents to chat in Microsoft Teams from within Customer Service admin center (preview), Customer Service Hub, Customer Service workspace, and your custom apps. Teams chat is also available in other customer engagement apps such as Dynamics 365 Field Service and Dynamics 365 Sales.
+You can configure the ability for agents to chat in Microsoft Teams from within Customer Service admin center, Customer Service Hub, Customer Service workspace, and your custom apps. Teams chat is also available in other customer engagement apps such as Dynamics 365 Field Service and Dynamics 365 Sales.
 
 > [!NOTE]
 > Teams settings apply across all supported customer engagement apps. Whether you enable the feature from Customer Service Hub or a custom app, it'll be enabled for all supported customer engagement apps.
@@ -88,10 +88,7 @@ The following data security and privacy considerations apply for Teams chat func
 
 1. In Dynamics 365, go to one of the apps and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
      
      1. In the site map, select **Productivity** in **Agent experience**.
      2. On the **Productivity** page, select **Manage** for **Microsoft Teams integration**.
@@ -156,7 +153,7 @@ Once you’ve enabled Teams chats, you can link the chats to different record ty
 
 **To add a record type to link chats to in Dynamics 365 records**
 
-1. In Customer Service admin center (preview) or Customer Service Hub, open the **Microsoft Teams collaboration and chat settings** page.
+1.	In Customer Service admin center or Customer Service Hub, open the **Microsoft Teams collaboration and chat settings** page.
 	
 1. Under **Link chats to Dynamics 365 records**, select **Add record types**.
 	

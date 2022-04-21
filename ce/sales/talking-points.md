@@ -14,12 +14,11 @@ topic-status: Drafting
 Use talking points to automatically identify conversation starters of your customers before you interact with them.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+
 
 ## What are talking points?
 
@@ -32,7 +31,7 @@ In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], **Talking poin
 
 > [!NOTE]
 > - The system administrator configures which categories of talking points should be displayed in your organization. 
-> - To view talking points, ensure that your mailbox is configured and approved in Dynamics 365 Sales, and Server-side sync is enabled. More information: [Set up server-side synchronization of email, appointments, contacts, and tasks](/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks).  
+> - To view talking points, ensure that your mailbox is configured and approved in Dynamics 365 Sales, and Server-side sync is enabled. More information: [Set up server-side synchronization of email, appointments, contacts, and tasks](/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks).  
 
 > [!div class="mx-imgBorder"]
 > ![Talking point](media/talkingpoints.png "Talking point")

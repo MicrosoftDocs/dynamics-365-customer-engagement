@@ -12,12 +12,11 @@ manager: shujoshi
 The Dynamics 365 Sales mobile app supports quick creation of records and activities. As an administrator, you can control which records and activities are available for quick creation and which fields are available in the quick creation form.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Professional, or Microsoft Relationship Sales <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System administrator <br>  See [Predefined security roles for Sales](../security-roles-for-sales.md)|
-|||
+| **Security roles** | System administrator <br>  More information: [Predefined security roles for Sales](../security-roles-for-sales.md)|
+
 
 ## Enable a table or an activity for quick creation
 
@@ -49,7 +48,7 @@ Quick creation is enabled only for a table or activity that has a quick view for
 Fields are obtained as an aggregation of the following:
 
 - Fields from the table's or activity's main quick view form
-- Fields that are ApplicationRequired (see [RequiredLevel](/customer-engagement/web-api/attributerequiredlevel?view=dynamics-ce-odata-9))
+- Fields that are ApplicationRequired (see [RequiredLevel](/dynamics365/customer-engagement/web-api/attributerequiredlevel?view=dynamics-ce-odata-9))
 
 ### Supported field types
 

@@ -12,12 +12,11 @@ manager: shujoshi
 Add filters to refine the opportunities and hierarchies that participate in calculating the forecast values.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Forecast Manager<br> Go to [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator or Forecast Manager<br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## Filter hierarchy records in the forecast
 
@@ -58,7 +57,7 @@ For example, you know that opportunities related to **Adatum Corporation** and t
 
 1.	In the **Filter Data** step of the forecast configuration, go to the **Add rollup filters** section.
  
-2.	Select **+ Add** > **Add row**. 
+2.	Select **Add** > **Add row**. 
  
 3.	In the selection boxes, select the attribute as **Potential Customer**, the condition as **Does Not Equals**, and the company to be considered as **Adatum Corporation**.
  
@@ -67,7 +66,7 @@ For example, you know that opportunities related to **Adatum Corporation** and t
 
     With this condition, the opportunities related to **Adatum Corporation** will be removed from the forecast. In the next step, you'll add a condition to filter revenue that's more than or equal to **$10,000**.
 
-4.	Select **+ Add** > **Add row**.
+4.	Select **Add** > **Add row**.
 
 5.	In the selection boxes, select the attribute as **Est. Revenue**, the condition as **Is greater than**, and revenue to be considered as **10000**.
 

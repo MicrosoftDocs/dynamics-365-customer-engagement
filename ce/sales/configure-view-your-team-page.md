@@ -15,12 +15,11 @@ topic-status: Drafting
 Configure and view your team page with information on levels of hierarchy, top performers, and delete sellers data.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator or Sales Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator or Sales Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## What can I configure
 
@@ -88,7 +87,7 @@ As an administrator, you can configure sales managers or sellers to impersonate 
 
 For example, Robert Kline is a sales enablement manager who doesn't have access to the conversation intelligence dashboard of Jacob Hancock's team. When Robert is given access to view the dashboard as Jacob, Robert can access the information he requires in the conversation intelligence application by impersonating Jacob.
 
-1. In the **View as different user (preview)** section, select **+ Add user**.
+1. In the **View as different user (preview)** section, select **Add user**.
 
     > [!div class="mx-imgBorder"]
     > ![Select Add user.](media/si-app-admin-configure-your-page-view-as-select-add-user.png "Select add user")
