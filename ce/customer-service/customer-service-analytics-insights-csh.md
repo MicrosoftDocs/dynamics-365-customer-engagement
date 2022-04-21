@@ -131,7 +131,7 @@ More information: [Topics dashboard](oc-conversation-topics-dashboard.md)
 
 The reports refresh shows the following information.
 
-- **Data refresh:** Occurs every 24 hours. The reports are available during the refresh process. The **Last updated** timestamp in the report pages indicates when the latest data included was in the report, and the time reflects the time zone that's set in your user preferences. 
+- **Data refresh:** Occurs every 24 hours. The reports are available during the refresh process. The **Last updated** timestamp in the report pages indicates when the latest data was included in the report, and the time reflects the time zone that's set in your user preferences. 
 - **Custom refresh:** Isn't available.
 - **Data refresh for inactive environments:** Data refresh is paused if the reports aren't used continuously for two weeks. When you access a report after a lengthy period of inactivity, the report will be refreshed in the next refresh cycle.
 - **Data retention:** Data is stored for 24 months.
