@@ -59,7 +59,7 @@ landingContent:
          links:
 
           - text: Work with accounts and contacts 
-            url: /dynamics365/customerengagement/on-premises/basics/accounts-contacts
+            url: accounts-contacts.md
           - text: Deactivate or activate an account or contact 
             url: /powerapps/user/deactivate-activate-account-contact
           - text: Add an appointment, email, phone call, note, or task activity to the timeline 
@@ -138,15 +138,13 @@ landingContent:
             url: /powerapps/user/search
 
 # Card 
-  - title: Reports, calendar, and printing
+  - title: Reports and printing
     linkLists:
        - linkListType: overview
          links:
 
           - text: Work with reports 
             url: /powerapps/user/work-with-reports
-          - text: Use the workplace calendar 
-            url: /dynamics365/customerengagement/on-premises/basics/workplace-calendar
           - text: Print quote, invoice, or other records 
             url: print-records.md
 

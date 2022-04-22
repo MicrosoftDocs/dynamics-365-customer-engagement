@@ -1,8 +1,7 @@
 ---
 title: "Create an event-based journey (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create a real-time marketing event-based journey in Dynamics 365 Marketing."
-ms.date: 08/02/2021
-
+ms.date: 03/21/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -20,6 +19,9 @@ search.app:
 
 # Create an event-based journey
 
+> [!Note]
+> “Event triggers” are now called “triggers” in the app and the documentation. The change was made to avoid confusion when referencing event management functionality versus triggering real-time marketing event-based journeys.
+
 Event-based customer journeys enable you to react to customers’ actions in real time. Journeys can be triggered based on real-world interactions like walking into a store and connecting to Wi-Fi. Journeys can also be triggered by virtual interactions such as visiting a shopping website. The real-time nature of the journey ensures that you can respond to customers immediately and convert their expression of interest into a sale.
 
 ## Creating an event-based journey for abandoned cart reminders
@@ -30,7 +32,7 @@ To illustrate the capabilities of event-based journeys, we'll create a personali
 
 ### Create custom triggers
 
-- Work with your website team to capture the customer's *Abandoned cart* and *Purchase completed* actions as custom triggers. For more information on creating custom events, see [Real-time marketing triggers](real-time-marketing-event-triggers.md).
+- Work with your website team to capture the customer's *Abandoned cart* and *Purchase completed* actions as custom triggers. For more information on creating custom events, see [Real-time marketing triggers](real-time-marketing-triggers.md).
 - The *Abandoned cart* trigger should be raised whenever a customer adds products to the cart but doesn’t complete the purchase.  
 - The *Purchase completed* trigger should be raised whenever a customer completes their purchase.
 

@@ -1,7 +1,7 @@
 ---
 title: "Manage sales teams in assignment rules for lead and opportunity routing"
 description: "Manage sales teams in assignment rules by assigning attributes and configuring the maximum number of leads and opportunities that a seller can handle at once."
-ms.date: 10/26/2021
+ms.date: 03/11/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -24,24 +24,20 @@ You can use the **Team settings** page to:
 Before you start using the sales teams designer, verify that the security roles that are assigned to your sellers were selected when the sales accelerator was configured. More information: step 4 in [Set up the sales accelerator](enable-configure-sales-accelerator.md)
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator or Sequence Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator or Sequence Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## Grant permissions to use assignment rules
 
 Select roles to grant permissions to use the assignment rules features. 
 
-1.	Sign in to your Dynamics 365 Sales Hub app.
-
-2.	Go to the **Change area** ![change area](media/change-area-icon.png) in the lower-left corner of the page, and select **Sales Insights settings**.
-
-3.	Under **Sales accelerator**, select **Team settings**.
-
-4.	On the **Team settings** page, select **Define team access**.
+1.	Sign in to your Dynamics 365 Sales Hub app.    
+2.	Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.   
+3.	Under **Sales accelerator**, select **Assignment rules**.      
+4.	From the **Team** tab, select **Define team access**.
 
     >[!div class="mx-imgBorder"]
     >![Select Define team access](media/sa-ar-sales-team-select-define-team-access.png "Select Define team access")  
@@ -64,13 +60,10 @@ Select roles to grant permissions to use the assignment rules features.
 
 Enable the seller availability option to let sellers configure their work hours through Outlook or CRM calendar.
 
-1.	Sign in to your Dynamics 365 Sales Hub app.
-
-2.	Go to the **Change area** ![change area](media/change-area-icon.png) in the lower-left corner of the page, and select **Sales Insights settings**.
-
-3.	Under **Sales accelerator**, select **Team settings**.
-
-4.	On the **Team settings** page, select **Settings**. 
+1.	Sign in to your Dynamics 365 Sales Hub app.    
+2.	Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.   
+3.	Under **Sales accelerator**, select **Assignment rules**.    
+4.	From the **Team** tab, select **Settings**. 
 
     >[!div class="mx-imgBorder"]
     >![Select Settings](media/sa-ar-sales-team-select-settings.png "Select settings")  
@@ -101,13 +94,10 @@ The filters you apply are available only for that session and can’t be saved. 
 
 **To create and apply filters**
 
-1.	Sign in to your Dynamics 365 Sales Hub app.
-
-2.	Go to the **Change area** ![change area](media/change-area-icon.png) in the lower-left corner of the page, and select **Sales Insights settings**.
-
-3.	Under **Sales accelerator**, select **Team settings**.
-
-4.	On the **Team settings** page, select **Advanced filters**.
+1.	Sign in to your Dynamics 365 Sales Hub app.    
+2.	Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.   
+3.	Under **Sales accelerator**, select **Assignment rules**.    
+4.	From the **Team** tab, select **Advanced filters**.
 
     >[!div class="mx-imgBorder"]
     >![Select Advanced filters](media/sa-ar-sales-team-select-advanced-filters.png "Select Advanced filters")  
@@ -117,7 +107,7 @@ The filters you apply are available only for that session and can’t be saved. 
     >[!div class="mx-imgBorder"]
     >![The Filter by seller properties pane](media/sa-ar-sales-team-advanced-filters-pane.png "The Filter by seller properties pane")  
     
-5.	Select **+ Add** and then choose the filter options as described in the following table:
+5.	Select **Add** and then choose the filter options as described in the following table:
 
     | Filter option | Description |
     |---------------|-------------|
@@ -139,13 +129,10 @@ You can apply attributes in bulk by selecting multiple sellers at a time.
 <!--markdownlint-disable MD036-->
 **To add attributes**
 
-1.	Sign in to your Dynamics 365 Sales Hub app.
-
-2.	Go to the **Change area** ![change area](media/change-area-icon.png) in the lower-left corner of the page, and select **Sales Insights settings**.
-
-3.	Under **Sales accelerator**, select **Team settings**.
-
-4.	On the **Team settings** page, select a team or sellers that you want to apply attributes for and then select **Apply attribute**.
+1.	Sign in to your Dynamics 365 Sales Hub app.    
+2.	Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.   
+3.	Under **Sales accelerator**, select **Assignment rules**.    
+4.	From the **Team** tab, select a team or sellers that you want to apply attributes for and then select **Apply attribute**.
 
     >[!NOTE]
     >- The **Team settings** page lists the teams that include sellers whose security roles were configured when the sales accelerator was originally set up.
@@ -161,7 +148,7 @@ You can apply attributes in bulk by selecting multiple sellers at a time.
     -	**Replace existing attributes with new attributes**: This option replaces the existing attributes that were already applied to the seller. If any leads were assigned to the seller based on the previous attributes, those leads won't be affected.
     -	**Keep existing attributes and add more**: This option adds more attributes to the seller, in addition to the attributes that were already applied.
 
-7.	Select **+ Add attribute**, and then choose the attribute and its corresponding values. Repeat this step for each attribute you want to add.
+7.	Select **Add attribute**, and then choose the attribute and its corresponding values. Repeat this step for each attribute you want to add.
 
     >[!div class="mx-imgBorder"]
     >![Select Add attribute](media/sa-ar-sales-team-add-attribute.png "Select Add attribute")
@@ -178,10 +165,10 @@ For example, Kenny is a seller, and his capacity limit is set to 10. A new lead 
 
 **To set capacity**
 
-1.	Sign in to your Dynamics 365 Sales Hub app.   
-2.	Go to the **Change area** ![change area](media/change-area-icon.png) in the lower-left corner of the page, and select **Sales Insights settings**.   
-3.	Under **Sales accelerator**, select **Team settings**.   
-4.	On the **Team settings** page, select a team or sellers that you want to apply attributes for and then select **Set capacity**.
+1.	Sign in to your Dynamics 365 Sales Hub app.    
+2.	Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.   
+3.	Under **Sales accelerator**, select **Assignment rules**.     
+4.	From the **Team** tab, select a team or sellers that you want to apply attributes for and then select **Set capacity**.
 
     >[!NOTE]
     >- The **Team settings** page lists the teams that include sellers whose security roles were configured when the sales accelerator was originally set up.
@@ -212,9 +199,9 @@ When a seller is on vacation or otherwise unavailable, you can disable record as
 **To turn off assignment**
 <!--markdownlint-enable MD036-->  
 1.	Sign in to your Dynamics 365 Sales Hub app.    
-2.	Go to the **Change area** ![change area](media/change-area-icon.png) in the lower-left corner of the page, and select **Sales Insights settings**.    
-3.	Under **Sales accelerator**, select **Team settings**.    
-4.	On the **Team settings** page, under the **Assign records** column, turn off the toggle.   
+2.	Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.   
+3.	Under **Sales accelerator**, select **Assignment rules**.  
+4.	From the **Team** tab, under the **Assign records** column, turn off the toggle.   
 
     >[!div class="mx-imgBorder"]
     >![Turn off the Assign leads toggle](media/sa-ar-sales-team-disable-lead-assignment.png "Turn off the Assign leads toggle")   

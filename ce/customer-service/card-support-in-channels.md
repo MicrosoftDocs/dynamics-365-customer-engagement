@@ -1,7 +1,7 @@
 ---
 title: "Support for live chat and asynchronous channels | MicrosoftDocs"
 description: "Get information on the support for adaptive cards, emojis, file attachments, and message formatting in live chat and asynchronous channels in Omnichannel for Customer Service."
-ms.date: 08/26/2021
+ms.date: 03/04/2022
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -146,12 +146,14 @@ With social profiles, you can do the following:
 > [!IMPORTANT]
 > This section is pre-release documentation and is subject to change.
 
-Agents can use basic formatting capabilities in their outbound messages across both asynchronous and live chat channels. However, be aware that a few styles are not currently supported across some channels. The following table lists the text styles supported by Microsoft Teams, Facebook, WhatsApp, Telegram, and Direct Line-based channels.
+Agents can use basic formatting capabilities in their outbound messages across both asynchronous and live chat channels. However, for your agents to send and receive formatted messages, you must [enable formatted messages](enable-formatted-messages.md).
+
+The following table lists the text styles supported by Microsoft Teams, Facebook, WhatsApp, Telegram, and Direct Line-based channels.
 
 | Style                | Live chat  | Microsoft Teams | Facebook | WhatsApp | Custom messaging (Telegram)| Custom messaging (Direct Line) |
-|----------------------| ---------- | -------------   | -------- | ---------|------------------ |------------------------------  |
-| bold                 | ✔          | ✔              | ✔        | ✔       | ✔                         | ✔                             |
-| italics              | ✔          | ✔              | ✔        | ✔       | ✔                         | ✔                             |
+|----------------------| ---------- | -------------   | -------- | ---------|------------------          |------------------------------  |
+| bold                 | ✔          | ✔              | ✔        | ✔       | ✔                          | ✔                             |
+| italics              | ✔          | ✔              | ✔        | ✔       | ✔                          | ✔                             |
 | strikethrough        | ✔          | ✔              | ✔        | ✔       | ✔                          | ✔                             |
 | blockquote           | ✔          | ✔              | ✖        | ✖       | ✖                          | ✔                             |
 | monospace            | ✔          | ✔              | ✔        | ✔       | ✔                          | ✔                             |
@@ -163,16 +165,17 @@ Agents can use basic formatting capabilities in their outbound messages across b
 | unordered list       | ✔          | ✔              | ✖        | ✖       | ✖                          | ✔                             |
 
 > [!Note]
-> The Twitter, WeChat, WhatsApp, and SMS channels do not support formatted messages.
+> - Twitter, WeChat, and SMS channels don't support formatted messages.
+> - A few text styles such as blockquote, headers, numbered lists, and unordered lists, are currently not supported across some channels.
 
 ### See also
 
 [Overview of channels](channels.md)  
 [Bring your own custom messaging channel: Direct Line](bring-your-own-channel.md)  
 [Configure custom messaging channel](configure-custom-channel.md)  
-[Enable file attachments](enable-file-attachments.md)   
+[Enable file attachments](enable-file-attachments.md)  
 [Enable formatted messages](enable-formatted-messages.md)  
-[Markdown formats](markdown-formats-dev.md)  
+[Markdown formats: Direct Line](markdown-formats-dev.md)  
 [Use Markdown to format messages](markdown-formats-agents.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

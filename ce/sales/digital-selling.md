@@ -1,7 +1,7 @@
 ---
 title: "Digital selling | MicrosoftDocs"
 description: "Enable digital selling capabilities with the Dynamics 365 Sales Enterprise license."
-ms.date: 02/25/2022
+ms.date: 03/14/2022
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -13,12 +13,11 @@ manager: shujoshi
 Use selected Dynamics 365 Sales Premium features (sales accelerator, conversation intelligence, and predictive scoring) with the Dynamics 365 Sales Enterprise license.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator <br>  Go to [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## Overview
 
@@ -110,40 +109,35 @@ If you want to make advanced configurations for sales accelerator, select **Go t
 
 ### Add the sales accelerator to a custom app
 
-If you've created a custom app, you can add the sales accelerator to it from the app designer. More information: [How to add work list site map to your custom app](faqs-sales-insights.md#how-to-add-work-list-site-map-to-your-custom-app)
+If you've created a custom app, you can add the sales accelerator to it from the app designer. More information: [Add the sales accelerator site map entry to custom app](add-sales-accelerator-sitemap-entry-custom-app.md)
 
 ### Monitor usage
 
-> [!NOTE]
-> This capability is being rolled out in phases and will be available in all geographical regions by March 25, 2022.
-
 As an administrator, you can monitor the number of records that have been connected to sequences over a period of seven months. 
 
-If you're using sales accelerator with your Sales Enterprise license, you get 1,500 sequence-connected records per month. A warning symbol is displayed whenever the usage exceeds the monthly limit. Hover over the symbol to see the message. In such a case, you must upgrade to the Sales Premium license to enjoy full benefits with no monthly limit.
+If you're using the sales accelerator with your Sales Enterprise license, you get 1,500 sequence-connected records per month. A warning symbol is displayed whenever the usage exceeds the monthly limit. Hover over the symbol to see the message. In such a case, you must upgrade to the Sales Premium license to enjoy full benefits with no monthly limit.
 
 > [!IMPORTANT]
 > - The data in the usage panel is refreshed every 24 hours.
-> - Usage metrics are powered by the Power Automate flow **Sales insights sequence daily usage flow**. You must not disable this flow in Power Automate, else the usage report will not reflect the correct data. If the Power Automate flow is disabled, you must enable the flow to reactivate usage metrics. For information on enabling the flow, go to [Turn flows on](/power-automate/disable-flow#turn-flows-on).
+> - Usage metrics are powered by the Power Automate flow **Sales insights sequence daily usage flow**. Without this flow, the usage report won't reflect the correct data. If the Power Automate flow is disabled, you must enable the flow to reactivate usage metrics. For information on enabling the flow, go to [Turn flows on](/power-automate/disable-flow#turn-flows-on).
 
-**To monitor the usage of sales accelerator:**
+**To monitor the usage of the sales accelerator**
 
--	On the **Get started with digital sales** page, under **Sales accelerator**, select **Monitor usage**.
+- On the **Get started with digital sales** page, under **Sales accelerator**, select **Monitor usage**.
 
-    :::image type="content" source="media/ds-sa-monitor-usage.png" alt-text="Monitor usage for sales accelerator.":::
-    
-    The **Sales accelerator usage** panel is displayed with the following information:
+  :::image type="content" source="media/ds-sa-monitor-usage.png" alt-text="Monitor usage for the sales accelerator.":::
 
-    - **Connected records**: Displays the total number of records connected to sequences so far in the current month.
-        
-        If the monthly limit exceeds in a month (for Sales Enterprise license users), a warning symbol is displayed .
-    - **Monthly average**: Displays the average number of records connected to sequences over the last six full months of usage.
-    - **Usage over time**: Displays the monthly usage of sales accelerator in a graphical format for the last six months.
-        
-        If the monthly limit exceeds in a month (for Sales Enterprise license users), a warning symbol is displayed.
-        
-        The monthly limit is shown with a blue line in the graph and whenever the limit is exceeded in a month, the number of records more than 1500 are shown in red.
+  The **Sales accelerator usage** panel is displayed with the following information:
 
-    :::image type="content" source="media/ds-sa-usage-panel.png" alt-text="Sales accelerator usage panel.":::
+  - **Connected records**: Displays the total number of records connected to sequences so far in the current month. If the monthly limit is exceeded in a month (for Sales Enterprise license users), a warning symbol is displayed .
+
+  - **Monthly average**: Displays the average number of records connected to sequences over the last six full months of usage.
+
+  - **Usage over time**: Displays the monthly usage of the sales accelerator for the last six months in a graphical format. If the monthly limit is exceeded in a month (for Sales Enterprise license users), a warning symbol is displayed.
+
+     The monthly limit is shown with a blue line in the graph. When the limit is exceeded in a month, the number of records in excess of 1,500 are shown in red.
+
+     :::image type="content" source="media/ds-sa-usage-panel.png" alt-text="Sales accelerator usage panel.":::
 
 ### Turn off the sales accelerator
 
@@ -249,6 +243,33 @@ If you want to make advanced configurations for Teams calls and conversation int
 
 :::image type="content" source="media/ds-ci-advanced-setup.png" alt-text="Advanced settings link in quick setup panel for Teams calls + conversation intelligence.":::
 
+### Monitor usage
+
+As an administrator, you can monitor the number of call recordings made by your sellers over a period of up to six months. 
+
+If you're using conversation intelligence with your Sales Enterprise license, you get three hours of conversation intelligence per activated user per month. A warning symbol is displayed whenever the usage exceeds the monthly limit. Hover over the symbol to see the message. In such a case, users will need to be upgraded to the Sales Premium license to enjoy 10 hours per user per month call processing capacity. Additional expansion packs are also available. More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/)
+
+> [!IMPORTANT]
+> The data in the usage panel is refreshed every 24 hours.
+
+**To monitor the usage of conversation intelligence**
+
+- On the **Get started with digital sales** page, under **Microsoft Teams calls with conversation intelligence**, select **Monitor usage**.
+
+  :::image type="content" source="media/ds-ci-monitor-usage.png" alt-text="Monitor usage for conversation intelligence.":::
+
+  The **Conversation intelligence usage** panel is displayed with the following information:
+    
+  - **Recorded calls**: Displays the total recorded hours so far in the current month.
+    
+  - **Seller average**: Displays the average number of recorded call hours per active seller in the current month.
+    
+  - **Usage this month**: Displays the breakdown of usage by sellers who have access to conversation intelligence. If the monthly limit is exceeded in a month (for Sales Enterprise license users), a warning symbol is displayed.
+    
+  - **Usage by seller over time**: Displays the monthly usage of conversation intelligence for the last six months in a graphical format. The data displays the number of active sellers each month, and the breakdown of the number of sellers who exceeded the monthly limit and those who didn't.
+
+    :::image type="content" source="media/ds-ci-usage-panel.png" alt-text="Conversation intelligence usage panel.":::
+
 ### Turn off Teams calls and conversation intelligence
 
 1. Select **Go to advanced conversation intelligence settings** at the top of the quick setup panel.
@@ -309,9 +330,6 @@ You may want to modify the lead and opportunity scoring configurations, for exam
 
 ### Monitor usage
 
-> [!NOTE]
-> This capability is being rolled out in phases and will be available in all geographical regions by March 25, 2022.
-
 As an administrator, you can monitor the number of records that have been scored over a period of seven months. This includes both lead and opportunity scoring.
 
 If you're using predictive scoring with your Sales Enterprise license, you get 1,500 scored records per month. A warning symbol is displayed whenever the usage exceeds the monthly limit. Hover over the symbol to see the message. In such a case, you must upgrade to the Sales Premium license to enjoy full benefits with no monthly limit.
@@ -319,27 +337,25 @@ If you're using predictive scoring with your Sales Enterprise license, you get 1
 > [!IMPORTANT]
 > The data in the usage panel is refreshed every 24 hours.
 
-**To monitor the usage of predictive scoring:**
+**To monitor the usage of predictive scoring**
 
--	On the **Get started with digital sales** page, under **Lead and opportunity scoring**, select **Monitor usage**.
+- On the **Get started with digital sales** page, under **Lead and opportunity scoring**, select **Monitor usage**.
 
-    :::image type="content" source="media/ds-scoring-monitor-usage.png" alt-text="Monitor usage for predictive scoring.":::
+  :::image type="content" source="media/ds-scoring-monitor-usage.png" alt-text="Monitor usage for predictive scoring.":::
 
-    The **Predictive scoring usage panel** is displayed with the following information:
+  The **Predictive scoring usage panel** is displayed with the following information:
 
-    - **Monthly average**: Displays the average number of records scored over the last six full months of usage.
-    - **Scored this month**: Displays the total number of records scored so far in the current month.
-        
-        If the monthly limit exceeds in a month (for Sales Enterprise license users), a warning symbol is displayed.
-    - **Usage over time**: Displays the monthly usage of predictive scoring in a graphical format for the last six months.
-    
-        If the monthly limit exceeds in a month (for Sales Enterprise license users), a warning symbol is displayed.
-    
-        The monthly limit is shown with a blue line in the graph and whenever the limit is exceeded in a month, the number of records more than 1500 are shown in red.
-    
-        By default, the usage of both, lead and opportunity (if both are enabled), is displayed in the graph. You can also filter the graph to see the usage only for leads or opportunities by using the **All** filter.
+  - **Monthly average**: Displays the average number of records scored over the last six full months of usage.
 
-        :::image type="content" source="media/ds-scoring-usage-panel.png" alt-text="Prodictive scoring usage panel.":::
+  - **Scored this month**: Displays the total number of records scored so far in the current month. If the monthly limit is exceeded in a month (for Sales Enterprise license users), a warning symbol is displayed.
+
+  - **Usage over time**: Displays the monthly usage of predictive scoring for the last six months in a graphical format. If the monthly limit is exceeded in a month (for Sales Enterprise license users), a warning symbol is displayed.
+
+    The monthly limit is shown with a blue line in the graph. Whenever the limit is exceeded in a month, the number of records in excess of 1,500 are shown in red.
+
+    By default, the usage of both lead and opportunity (if both are enabled) is displayed in the graph. To display the usage only for leads or only for opportunities, select **All** and then select the filter you want.<!--note from editor: Suggested.-->
+
+    :::image type="content" source="media/ds-scoring-usage-panel.png" alt-text="Predictive scoring usage panel.":::
 
 ### Turn off lead and opportunity scoring
 

@@ -1,7 +1,7 @@
 ---
 title: "Set up outbound calling in the voice channel | MicrosoftDocs"
-description: "Use this topic to understand how you can set up outbound calling for phone numbers in your organization."
-ms.date: 02/18/2022
+description: "Use this article to understand how you can set up outbound calling for phone numbers in your organization."
+ms.date: 04/04/2022
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: neeranelli
@@ -38,10 +38,7 @@ To check whether a phone number is enabled for outbound calling, go to **General
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
     1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
     
@@ -87,10 +84,7 @@ You can define the way outbound calls are made and also who can make them. To cr
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
      
      1. In the site map, select **Productivity** in **Agent experience**.
      2. On the **Productivity** page, select **Manage** for **Outbound profiles**.
@@ -136,10 +130,7 @@ You can assign personal phone numbers to agents to make outbound calls to custom
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
     1. In the site map, select **Channels** in **Customer support**.
     1. On the **Channels** page, select **Manage** for **Phone numbers**.
