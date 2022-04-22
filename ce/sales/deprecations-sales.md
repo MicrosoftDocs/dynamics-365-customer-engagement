@@ -33,7 +33,7 @@ Administrators and IT professionals can use this information to prepare for futu
 | Replaced by another feature? | Partly. Switch to basic auto capture for activity suggestions. No alternative available for contact suggestions currently.  |
 | Product areas affected | Application |
 | Deployment option | All |
-| Status | Removed: Will be removed in July 2022  |
+| Status | Will be removed in July 2022  |
 > [!NOTE]
 > If you’ve added the premium auto capture suggestion grid to your custom app, remove it manually. The grid will not show any suggestions after the feature is deprecated.  
 
