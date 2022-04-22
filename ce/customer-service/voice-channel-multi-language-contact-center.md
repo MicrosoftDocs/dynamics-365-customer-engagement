@@ -1,6 +1,6 @@
 ---
-title: "Set up a multilanguage contact center in the voice channel | MicrosoftDocs"
-description: "Learn how to set up a multilanguage contact center in the voice channel for Omnichannel for Customer Service."
+title: "Set up a multilingual contact center in the voice channel | MicrosoftDocs"
+description: "Learn how to set up a multilingual contact center in the voice channel for Omnichannel for Customer Service."
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
@@ -9,7 +9,7 @@ ms.topic: article
 
 ---
 
-# Set up a multilanguage contact center
+# Set up a multilingual contact center
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -48,11 +48,11 @@ You can configure a phone number in a workstream that allows the customer to cho
 
 Define the language-based routing rules. More information: [Configure work classification rulesets for unified routing](configure-work-classification.md)
 
-## Create a multilanguage IVR bot using Azure Bot Framework
+## Create a multilingual IVR bot using Azure Bot Framework
 
 Create the bot. More information: [Azure Bot Service](https://azure.microsoft.com/services/bot-services/)
 
-### Sample code for multilanguage IVR bot
+### Sample code for multilingual IVR bot
 
 > [!Note]
 > The bot author must set the va_CustomerLocale context variable field during the IVR handoff with the locale code for the language they want to support. 
