@@ -33,7 +33,7 @@ ms.custom:
 
 
 ## Return value
-On success, returns a Promise object containing the attributes specified earlier in the description of the **successCallback** parameter.
+On success, returns a Promise object containing the attributes specified in the description of the **successCallback** parameter.
 
 ## Examples
 
