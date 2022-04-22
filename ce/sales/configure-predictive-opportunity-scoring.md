@@ -262,8 +262,7 @@ To retrain a model automatically, go to the predictive opportunity scoring confi
 
 2. On the **Edit fields** page, select attributes from opportunity entity, and its related entity (account) including custom attributes to train the model.
 
-    > [!div class="mx-imgBorder"]
-    > ![Edit model page](media/si-admin-predictive-opportunity-scoring-edit-model-page.png "Edit model page")   
+    :::image type="content" source="media/si-admin-predictive-opportunity-scoring-edit-model-page.png" alt-text="A screenshot of the Edit model page.":::  
 
     >[!NOTE]
     >The scoring model don't support the following types of attributes:
