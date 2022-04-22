@@ -1,7 +1,7 @@
 ---
 title: "closeTab (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
-description: "Includes reference information such as description, syntax, and parameter for the closeTab method in JavaScript API Reference for Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 04/07/2022
+description: "Includes reference information such as description, syntax, and parameters for the closeTab method in JavaScript API Reference for Dynamics 365 Channel Integration Framework 2.0."
+ms.date: 04/22/2022
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -23,8 +23,8 @@ Closes the specified app tab in the current session.
 
 |  Name            | Type     | Required     | Description |
 |------------------|----------|--------------|-------------|
-| tabId            | String   | Yes          | JSON input      |
-| correlationId    | GUID     | No           | JSON input      |
+| tabId            | String   | Yes          | Name of the event whose handler needs to be invoked.     |
+| correlationId    | GUID     | No           | Used to group all related API calls together for diagnostic telemetry.      |
 | successCallback  | Function | No           | A function to call when a record is retrieved. |
 | errorCallback    | Function | No           | A function to call when the operation fails.  |
 
