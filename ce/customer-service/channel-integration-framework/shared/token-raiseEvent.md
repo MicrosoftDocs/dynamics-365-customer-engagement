@@ -27,9 +27,13 @@ console.log(inputData + " " + correlationId);
 }
 return Promise.resolve();
 }
-
 Microsoft.CIFramework.addHandler("oncustomevent", handlerFunction);
-
 //Use raiseEvent API to invoke the subscribed handler of the event.
 Microsoft.CIFramework.raiseEvent("oncustomevent", "test input value");
+
+//In the main UCI page
+Microsoft.CIFramework.addHandler(“customEvent1”, mainHandler);
+///In the widget code
+Microsoft.CIFramework.raiseEvent(“customEvent1”, eventData);
+
 ```
