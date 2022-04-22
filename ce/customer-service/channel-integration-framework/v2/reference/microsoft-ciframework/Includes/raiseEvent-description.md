@@ -1,3 +1,4 @@
-Invokes the associated subscriber for the event.
+Invokes the associated subscriber for the event. 
 
-[!INCLUDE[footer-include](../../../../../../includes/footer-banner.md)]
+> [!Note]
+> If you've created custom events using the [addHandler method](../addHandler.md), you can raise those events by passing the event name as parameter in the raiseEvent method.

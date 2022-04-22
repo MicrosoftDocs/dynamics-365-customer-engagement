@@ -7,7 +7,7 @@
 | Name                 | Type   | Required | Description    |
 |------                |------  |----------|-------------   |
 | eventName            | String | Yes      | Name of the event whose handler needs to be invoked. |
-| eventInputParameters | String | Yes      | The input parameters that need to be passed to the handler function. |
+| eventInputParamters  | JSON String | Yes      | The input parameters that need to be passed to the handler function. |
 | correlationId        | GUID   | No       |  Used to group all related API calls together for diagnostic telemetry.  |
 
 ## Return value
