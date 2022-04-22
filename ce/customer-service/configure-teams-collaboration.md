@@ -26,7 +26,7 @@ Agents can collaborate with other contacts directly through Microsoft Teams to q
 This feature uses the AI capability to automatically suggest contacts in real-time, based on the currently open active case or support conversation when agents explore contacts in the embedded chat experience.
 
 > [!NOTE]
-> Agents can also connect and engage with customers through Teams if Omnichannel for Customer Service is enabled.
+> Through Teams, agents can connect and engage with customers also if Omnichannel for Customer Service is enabled.
 
 ## How AI-suggested contacts works
 
