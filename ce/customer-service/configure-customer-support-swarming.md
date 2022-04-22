@@ -1,7 +1,7 @@
 ---
 title: "Configure customer support swarming for complex cases | MicrosoftDocs"
 description: "This topic provides steps to configure customer support swarming for cases in Dynamics 365 Customer Service and Microsoft Teams."
-ms.date: 04/08/2022
+ms.date: 04/22/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -190,9 +190,16 @@ If you haven't already configured skills, then perform the following steps.
 
 To use the new skill in customer support swarming, you must attach it to a user.
 
-1. On the command bar and select **Assign**.
+1. Select the **Related** tab on the characteristic, and then select **Resource Characteristics**.
+ 
+   > [!div class="mx-imgBorder"] 
+   > ![Resource Charactistics menu option.](media/swarm-resource-characteristics.png "Reource Characteristics menu option")
 
-1. Enter the details for the expert, and then select **Save**.
+1. Select **New Bookable Resource**.
+
+1. On the **New Bookable Resource Characteristic** page, select the **Resource** field, and then search for the resource.
+
+1. Select **Save**.
 
 ### Bulk import skills (optional)
 
