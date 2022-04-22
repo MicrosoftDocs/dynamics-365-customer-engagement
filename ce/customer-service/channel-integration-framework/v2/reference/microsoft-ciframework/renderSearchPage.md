@@ -1,6 +1,6 @@
 ---
 title: "renderSearchPage (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0| MicrosoftDocs"
-description: "Includes description, syntax, and parameter information for the renderSearchPage method in JavaScript API Reference for Dynamics 365 Channel Integration Framework 2.0."
+description: "Includes reference information such as description, syntax, and parameters for the renderSearchPage method in JavaScript API Reference for Dynamics 365 Channel Integration Framework 2.0."
 ms.date: 09/30/2021
 ms.topic: reference
 author: mh-jaya
@@ -33,7 +33,7 @@ ms.custom:
 
 
 ## Return value
-On success, returns a promise object containing the attributes specified earlier in the description of the **successCallback** parameter.
+On success, returns a Promise object containing the attributes specified earlier in the description of the **successCallback** parameter.
 
 ## Examples
 
