@@ -43,8 +43,6 @@ Auto capture is available in two forms:
 -	**Auto capture** (also called _basic auto capture_): Provides activity suggestions from Outlook. This feature is available for free with Dynamics 365 Sales Insights for Dynamics 365 Sales. To learn more, see [How to enable auto capture](#how-to-enable-basic-auto-capture).
 
 -	**Premium auto capture**: Provides activity and contact suggestions from Outlook. Premium auto capture is available as a preview with Dynamics 365 Sales Insights. To learn more, see [How to enable and configure premium auto capture](#how-to-enable-and-configure-premium-auto-capture).
-
- [!INCLUDE [premium-adc-deprecation](../includes/premium-adc-deprecation.md)]
     
 ## Things you must know
 
@@ -88,8 +86,6 @@ Before you enable auto capture, perform the following tasks:
    > ![Enable or disable auto capture](media/si-admin-auto-capture-enable-disable.png "Enable or disable auto capture")
 
 ## How to enable and configure premium auto capture
-
-[!INCLUDE [premium-adc-deprecation](../includes/premium-adc-deprecation.md)] 
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
