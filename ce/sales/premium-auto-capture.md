@@ -25,9 +25,9 @@ searchScope:
 > [!IMPORTANT]
 > Premium auto capture (Preview) will be deprecated on July 1, 2022. After the feature is deprecated, you’ll stop getting contact suggestions from Outlook. However, your administrator can enable basic auto capture to help you get activity suggestions from Outlook.
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 Use the premium auto capture to provide suggestions on creating new contacts along with capturing activities related to your emails and meetings.
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 ## License and role requirements
 | Requirement type | You must have |  
