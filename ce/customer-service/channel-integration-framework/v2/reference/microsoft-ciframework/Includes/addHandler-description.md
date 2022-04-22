@@ -1,1 +1,4 @@
-Adds the subscriber to the events. The API is available on both the widget and Unified Interface page.
+Adds the subscriber to the events.
+
+> [!Note]
+> This API can be used on both the widget and Unified Interface page.

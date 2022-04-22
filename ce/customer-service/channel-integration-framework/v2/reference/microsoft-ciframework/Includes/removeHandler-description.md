@@ -1,3 +1,4 @@
-Removes the subscriber from the events. The API is available on both the widget and Unified Interface page.
+Removes the subscriber from the events. 
 
-[!INCLUDE[footer-include](../../../../../../includes/footer-banner.md)]
+> [!Note]
+> This API can be used on both the widget and Unified Interface page.
