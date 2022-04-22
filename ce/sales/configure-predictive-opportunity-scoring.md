@@ -277,7 +277,7 @@ To retrain a model automatically, go to the predictive opportunity scoring confi
     :::image type="content" source="media/ignore-empty-values.png" alt-text="A screenshot of ignore empty values option in the attributes list.":::
 
     > [!NOTE]
-    > When you turn on **Ignore empty values** for an attribute, the scoring widget will indicate that the score is calculated after excluding empty values as shown in the following screenshot:
+    > When you turn on **Ignore empty values** for an attribute, the scoring widget will indicate that the score is calculated after excluding blank values as shown in the following screenshot:
     :::image type="content" source="media/ignore-empty-values-scoring-widget.png" alt-text="A screenshot of scoring widget when the Ignore empty values option is turned on."::: 
 
 1. Select **Retrain model**.

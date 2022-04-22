@@ -282,10 +282,14 @@ To retrain a model automatically, go to the predictive lead scoring configuratio
 3. (Optional) Scroll to the right of the attributes list and turn on **Ignore empty values**. 
     By default, empty values in the attribute are included for training the model. If you notice that empty values are acting as detractors or are producing false positives, turn on **Ignore empty values**.
 
+    :::image type="content" source="media/ignore-empty-values.png" alt-text="A screenshot of ignore empty values option in the attributes list.":::
+
     >[!NOTE]
-    >The **Ignore empty values** option is disabled for the following type of attributes:
-    >- Attributes that are automatically validated for empty values (such as, firstname_validation_engineered).   
-    >- Attributes that affect the score based on whether the value exists or not (such as, zipcode or business phone). 
+    >- The **Ignore empty values** option is disabled for the following type of attributes:
+    >    - Attributes that are automatically validated for empty values (such as, firstname_validation_engineered).   
+    >    - Attributes that affect the score based on whether the value exists or not (such as, zipcode or business phone).  
+    >- When you turn on **Ignore empty values** for an attribute, the scoring widget will indicate that the score is calculated after excluding blank values as shown in the following screenshot:
+    :::image type="content" source="media/ignore-empty-values-scoring-widget.png" alt-text="A screenshot of scoring widget when the Ignore empty values option is turned on."::: 
 
 1. Select **Retrain model**. 
 
