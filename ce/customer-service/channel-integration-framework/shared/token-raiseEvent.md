@@ -1,6 +1,6 @@
 ## Syntax
 
-`Microsoft.CIFramework.raiseEvent(eventName, eventInputParameters, correlationId);`
+`Microsoft.CIFramework.raiseEvent(eventName, eventInputParamters, correlationId);`
 
 ## Parameters
 
