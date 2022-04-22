@@ -268,12 +268,7 @@ To retrain a model automatically, go to the predictive opportunity scoring confi
 
 
 3. (Optional) Scroll to the right of the attributes list and turn on **Ignore empty values**.  
-    By default, empty values in the attribute are included for training the model. If you notice that empty values are acting as detractors or are producing false positives, turn on **Ignore empty values**.
-
-    >[!NOTE]
-    >The **Ignore empty values** option is disabled for the following type of attributes:
-    >- Attributes that are automatically validated for empty values (such as, firstname_validation_engineered).   
-    >- Attributes that affect the score based on whether the value exists or not (such as, zipcode or business phone).  
+    By default, empty values in the attribute are included for training the model. If you notice that empty values are acting as detractors or are producing false positives, turn on **Ignore empty values**. 
 
 1. Select **Retrain model**.
 
