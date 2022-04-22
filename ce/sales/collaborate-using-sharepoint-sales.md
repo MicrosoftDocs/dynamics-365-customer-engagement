@@ -11,12 +11,12 @@ ms.custom:
 ---
 # Collaborate using SharePoint  
 
-## Requirements
-| &nbsp; | &nbsp; | 
+## License and role requirements
+| Requirement type | You must have | 
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+
 
 
 
@@ -76,7 +76,7 @@ You can create new or edit existing SharePoint locations from a model-driven app
 
 1. In the **Files** list on the command bar, select **Open Location**, and then select the location.
 
-2. To edit the location, on the command bar, select **Edit Location** <location name>.
+2. To edit the location, on the command bar, select **Edit Location** *location name*.
 
     The **Edit Location** dialog box appears.
 

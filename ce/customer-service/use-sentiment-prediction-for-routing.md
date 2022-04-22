@@ -1,7 +1,7 @@
 ---
 title: "Use sentiment prediction in unified routing | MicrosoftDocs"
 description: "Learn how to enable and use sentiment prediction in unified routing in Customer Service."
-ms.date: 02/11/2022
+ms.date: 04/04/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -45,13 +45,9 @@ The sentiment model is configured to look for and use the messages provided by t
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
     - In the site map, select **Routing**. The **Routing** page appears.
-
 
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
 

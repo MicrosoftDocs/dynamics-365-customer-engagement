@@ -26,12 +26,11 @@ Use the enhanced experience to quickly identify and add multiple products from t
 > Product families are only supported for Sales Enterprise and Sales Premium.  
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+
 
 ## What's in the enhanced experience?
 
@@ -75,7 +74,7 @@ As a salesperson, you want to be able to easily identify and add products from t
 
 4. Under **Revenue**, do one of the following:
 
-   - To calculate the estimated revenue of the opportunity based on all the products added to the opportunity, select **System calculated**.
+   - To calculate the estimated revenue of the opportunity based on the products that are added to the opportunity, select **System calculated**.
 
    - To use a custom estimated revenue, select **User provided**.
 

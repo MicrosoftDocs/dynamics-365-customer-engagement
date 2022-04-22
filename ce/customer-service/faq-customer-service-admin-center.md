@@ -1,26 +1,18 @@
 ---
 title: "Customer Service admin center FAQs | MicrosoftDocs"
 description: "FAQs pertaining to Customer Service admin center."
-ms.date: 02/22/2022
+ms.date: 04/04/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ---
 
-# FAQs about Customer Service admin center (Preview)
-
-> [!IMPORTANT]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+# FAQs about Customer Service admin center
 
 ## Overview
 
-This topic contains the frequently asked questions (FAQs) that you as an administrator might have about the Customer Service admin center (preview) app.
+This topic contains the frequently asked questions (FAQs) that you as an administrator might have about the Customer Service admin center app.
 
 ### What's the difference between Omnichannel admin center and Customer Service admin center?
 
@@ -36,9 +28,9 @@ After Customer service admin center becomes generally available, we will leave s
 
 ### Why can't I see this app in my environment?
 
-The app will be enabled automatically in all the Customer Service organizations, but it follows an availability schedule, so some regions will get it before the others. For the North America region, the app will be available on March 04, 2022.
+The app will be enabled automatically in all the Customer Service organizations, but it follows an availability schedule, so some regions will get it before the others. For the North America region, the app is available from March 04, 2022.
 
 ### See also
 
-[Get started with Customer Service admin center (preview)](cs-admin-center.md)  
+[Get started with Customer Service admin center](cs-admin-center.md)  
 [Overview of Customer Service](overview.md)  

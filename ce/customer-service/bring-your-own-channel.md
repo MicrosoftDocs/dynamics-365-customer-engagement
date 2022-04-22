@@ -1,6 +1,6 @@
 ---
 title: "Bring your custom messaging channel: Direct Line bot | MicrosoftDocs"
-description: "This topic provides information on how you can integrate custom messaging channels using Direct Line API 3.0."
+description: "This article provides information on how you can integrate custom messaging channels using Direct Line API 3.0."
 ms.date: 11/24/2021
 ms.topic: reference
 author: mh-jaya

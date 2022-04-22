@@ -4,7 +4,7 @@ description: "Use this topic to understand how to enable your agents to send and
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 03/04/2022
+ms.date: 04/04/2022
 ms.topic: article
 ---
 
@@ -25,11 +25,8 @@ Your agents can send and receive messages formatted using Markdown.
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
 
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
      
-    > [!IMPORTANT]
-    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-
     - In the site map, in **Agent experience**, select **Productivity**.
    
    ### [Omnichannel admin center](#tab/omnichanneladmincenter) 

@@ -68,7 +68,7 @@ As an example, consider the prioritization ruleset as seen in the following scre
 
 - During any assignment cycle, this prioritization ruleset will be run, and the rules within the ruleset will be run in the order they are listed.
 
-- The first rule “High priority and premium”, will find all work items in the queue where the associated case priority is "High" and the case category is "‘"Premium". It will create the top priority bucket with those work items and sort them in "First in first out” manner as specified in the **Order by** attribute. The first work item to be assigned from the queue will be the oldest item in this bucket.
+- The first rule “High priority and premium”, will find all work items in the queue where the associated case priority is "High" and the case category is "Premium". It will create the top priority bucket with those work items and sort them in "First in first out” manner as specified in the **Order by** attribute. The first work item to be assigned from the queue will be the oldest item in this bucket.
 
 - The next priority bucket will be of the work items where case category is "Premium". The work items with "Premium" case category and "High" priority have already been put in top bucket as per the preceding rule, so this rule will only consider other work items with "Premium" case priority. The **Order by** attribute in this case also is "First in first out".
 
@@ -91,8 +91,9 @@ In the assignment rule, the system user attributes are matched with the requirem
 
 :::image type="content" source="media/assignment-rule-root-entity.png" alt-text="Assignment rule with dynamic match and static match conditions.":::
 
-In scenarios when more than one agent matches the requirement of the work item, the system resolves the assignment in a round robin manner, based on the earliest last assignment time. For example, three agents Lesa, Alicia, and Alan are available with the coffee refund skill and 100 units capacity, and their last assignment time stamps are 10:30 AM, 10:35 AM, and 10:37 AM respectively. A work item on coffee refund arrives in the queue. The system assigns the work item to Lesa because her last assignment was the earliest at 10:30 AM. Meanwhile, if another coffee refund work item comes, the system will assign it to Alicia and not to Lesa or Alan.
+In scenarios when more than one agent matches the requirement of the work item, the system resolves the assignment in a round robin manner, based on the earliest time of the last assignment. In other words, the agent who has been idle for the longest time since their last assignment. For example, three agents Lesa, Alicia, and Alan are available with the coffee refund skill and 100 units capacity, and their last assignment time stamps are 10:30 AM, 10:35 AM, and 10:37 AM respectively. A work item on coffee refund arrives in the queue. The system assigns the work item to Lesa because her last assignment was the earliest at 10:30 AM. Meanwhile, if another coffee refund work item comes, the system will assign it to Alicia and not to Lesa or Alan.
 
+However, if there's a tie between the availability of agents, the agent who has been idle for the longest time will be assigned the work item if all other conditions remain the same.
 
 ### Components of an assignment rule
 

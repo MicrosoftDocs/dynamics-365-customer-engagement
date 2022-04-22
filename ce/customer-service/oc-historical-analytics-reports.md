@@ -1,7 +1,7 @@
 ---
 title: "Configure Omnichannel historical analytics reports | MicrosoftDocs"
 description: "Configure historical analytics reports for Omnichannel"
-ms.date: 02/11/2022
+ms.date: 04/19/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -25,16 +25,13 @@ The following historical analytics reports are available:
 
 ## Enable Omnichannel historical analytics reports in Omnichannel for Customer Service
 
-You can enable Omnichannel historical analytics reports in the Customer Service admin center (preview) or Omnichannel admin center app.
+You can enable Omnichannel historical analytics reports in the Customer Service admin center or Omnichannel admin center app.
 
 Make sure that you have the required administrator permissions for Dynamics 365.
 
 1. Go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
      1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
      1. In the **Omnichannel historical analytics** section, select **Manage**.
@@ -54,7 +51,7 @@ This configuration will also enable AI-discovered topics from conversations with
 
 ## Enable Historical analytics for unified routing in Omnichannel for Customer Service
 
-You can enable historical analytics for unified routing in the Customer Service admin center (preview) or Omnichannel admin center app. The metrics are available in the report after 24 hours.
+You can enable historical analytics for unified routing in the Customer Service admin center or Omnichannel admin center app. The metrics are available in the report after 24 hours.
 
 > [!IMPORTANT]
 >
@@ -62,10 +59,7 @@ You can enable historical analytics for unified routing in the Customer Service 
 
 1. Go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
      1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
      1. In the **Omnichannel historical analytics** section, select **Manage**.
@@ -89,7 +83,22 @@ The service managers must have either the Omnichannel Administrator, Omnichannel
 
 ### Provide report access to additional security roles
 
-If your organization needs to enable users with different privileges to access reports in addition to the default ones, see [Assign a security role to a user](/power-platform/admin/assign-security-roles).
+Perform the following steps to enable users with different privileges to access reports beyond the default ones.
+
+1. In Dynamics 365, go to **Settings** and select **Advanced settings**.
+
+1. Select **Security** and then **Security roles**.
+
+1. Select the security role that you want to enable access for. For example, agent manager.
+
+1. Select the **Custom Entities** tab.
+
+1. Grant Read privileges to the following entities:
+   - **Omnichannel historical analytics**
+   - **Insights**
+
+1. Select **Save and close**. The agent manager can now see the Omnichannel historical analytics report.
+
 
 ### See Also
 

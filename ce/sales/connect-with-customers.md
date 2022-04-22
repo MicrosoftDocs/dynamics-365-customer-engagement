@@ -14,21 +14,17 @@ As a seller using Dynamics 365 Sales, you can connect with your customers daily 
 If an activity isn't required to be completed by the due date or you're unable to connect with a customer, you can [skip or snooze the activity](#skip-or-snooze-an-activity).
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+
 
 ## Call a customer
 
 You can make a phone call to your customer from a record in the **My work** list or an activity in the **Up next** widget. The business phone number of the contact is used to initiate the call. If the business phone number isn't available, the mobile phone number will be used to initiate the call. If both business and mobile phone number are not available, the softphone dialer is displayed for you to dial a phone number manually. If the contact has set their preference not to be contacted by phone, a warning message is displayed. After you've successfully made the phone call, you must mark the **Phone Call** activity as complete.
 
 When you make a phone call, a **Phone Call** activity is created and linked to the lead or opportunity. The **Phone Call** activity captures the following information:
-
->[!NOTE]
->Administrator must configure the option to automatically create the phone call activity. To learn more, see **step 9** from [Set up the sales accelerator](enable-configure-sales-accelerator.md#set-up-the-sales-accelerator).
 
 - **Subject**: Name of the activity in the **Up next** widget.
 - **Call From**: Name of the contact who made the call.

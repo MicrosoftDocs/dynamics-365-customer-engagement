@@ -27,12 +27,11 @@ searchScope:
 Use the premium auto capture to provide suggestions on creating new contacts along with capturing activities related to your emails and meetings.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+
 
 ## What is premium auto capture? 
 
@@ -323,7 +322,8 @@ A success message is displayed at the bottom of the screen, and the contact is d
 ### See also
 
 [Enable and configure auto capture](configure-auto-capture.md)<br>
-[Basic auto capture](free-auto-capture.md)
+[Basic auto capture](free-auto-capture.md)  
+[Auto capture FAQs](faqs-sales-insights.md#auto-capture)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

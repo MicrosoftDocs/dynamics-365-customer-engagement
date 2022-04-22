@@ -1,7 +1,7 @@
 ---
 title: "Define a goal metric | MicrosoftDocs"
 description: "Measure goals in terms of count or amount, depending on what you’re measuring. Use rollup fields to track progress on the goals."
-ms.date: 02/10/2021
+ms.date: 03/16/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -21,12 +21,11 @@ searchScope:
 Measure goals in terms of count or amount, depending on what you’re measuring. Use rollup fields to track progress on the goals.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Sales Manager and above <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Sales Manager or Vice President of Sales <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## What are goal metrics?
 
@@ -70,36 +69,34 @@ Goal metrics let you clearly define how a goal will be measured. For example, a 
  
 6.	Select **Save**.
 
-7.	Define the rollup fields for this metric to track the target's actual and in-progress values.
+7.	On the **Rollup Fields** tab, define how you want to calculate the actual and in-progress values for this metric. For example, let's say your goal metric is based on revenue. You can define your rollup fields as shown in the following screenshot:
 
-    a.	On the **Rollup Fields** tab, select **Add New Rollup Field**.
+       > [!div class="mx-imgBorder"]
+       > ![Rollup fields tab on goal metric form.](media/rollup-fields-tab-goal-metric-form.png "A screenshot of the rollup fields for the revenue goal metric.")
 
-    b.	In the New Rollup Field form, under **Step 1: Specify the rollup field to track against goals**, fill in the information:
+    a.	Select **Add New Rollup Field**.
 
-      -  **Rollup Field**. Select a rollup field where the metric rollup data will be displayed in the goal. You can display an integer or money, depending on the Metric Type you chose. You can't select a field you already added to the metric.
+    b.	Complete the following fields:
 
-          > [!div class="mx-imgBorder"]
-          > ![Rollup fields tab on goal metric form.](media/rollup-fields-tab-goal-metric-form.png "Rollup fields tab on goal metric form")
- 
-    c. Under **Step 2: Specify the details about the source data that rolls up**, fill in the information:
+      -  **Rollup Field:** Select the rollup field type. Select Actual, In-progress, or Custom rollup. Apart from the actual and inprogress values, you can track one more value as a **Custom Rollup Field**. For example, let's say you want to track the lost revenue as a third rollup.  
 
-      - **Source Record Type**. Required. Select the record type to use as the source of the rollup data for the metric.
+      - **Source Record Type:** Select the record type to use as the source for the rollup data. Example: Opportunity.
 
         > [!NOTE]
-        > A custom record type (entity) that is organization-owned isn't available in the Source Record Type drop-down list for selection. For more information about entity ownership, see Types of entities.
+        > Custom record types are not supported.
 
-      - **Source Record Type State**. Required. Select the record state you want to use as the source of the rollup data for the metric.
+      - **Source Field:** Select the field to use for calculating the rollup value. Example: Actual Revenue.
 
-      - **Source Record Type Status**. Required. Select the status of the records you want to use as the source of the rollup data for the metric. State and status may be identical, depending on the record type you selected.
+      - **Source Record Type State:** Select the record state you want to use as the source of the rollup data for the metric. Example: Won.
+
+      - **Source Record Type Status:** Select the status of the records you want to use as the source of the rollup data for the metric. State and status may be identical, depending on the record type you selected.
 
           > [!div class="mx-imgBorder"] 
           > ![Rollup fields tab.](media/rollup-fields-tab-source-data-goal-metric-form.png "Rollup fields tab")
 
-    d. Under **Step 3: Specify the date field that determines the goal period that the records will roll up into**, fill in the information:
+      - **Record Type:** Select the entity that contains the date field you want. Typically, you can only choose the same record type you selected as the Source Record Type.
 
-      - **Record Type**. Required. Select the entity that contains the date field you want. Typically, you can only choose the same record type you selected as the Source Record Type.
-
-      - **Date Field**. Select a date field. The options available in the list are from the entity you selected in the Record Type field.
+      - **Date Field**. Select a date field you want to use to determine the goal period that the records will roll up into. Example: Actual Close Date.  
 
          > [!div class="mx-imgBorder"]
          > ![Specify a date field that determines the goal period.](media/rollup-fields-tab-goal-period-goal-metric-form.png "Specify a date field that determines the goal period")

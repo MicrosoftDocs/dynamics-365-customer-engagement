@@ -1,6 +1,6 @@
 ---
 title: "International availability of Omnichannel for Customer Service | MicrosoftDocs"
-description: "This topic contains information on the availability of Omnichannel for Customer Service in different geographical locations and languages."
+description: "This article contains information on the availability of Omnichannel for Customer Service in different geographical locations and languages."
 ms.date: 02/01/2022
 ms.topic: article
 author: neeranelli
@@ -97,7 +97,7 @@ The product user interface (UI) is available in the following languages.
 | Galician                | Portuguese        |                     |
 |                         |                   |                     |
 
-To know the languages that are supported in analytics, see [Multi-language sentiment](enable-sentiment-analysis.md#multi-language-sentiment).
+To know the languages that are supported in analytics, see [Multilingual sentiment](enable-sentiment-analysis.md#multilingual-sentiment).
 
 ### See also
 

@@ -1,7 +1,7 @@
 ---
 title: "Add a chat widget | MicrosoftDocs"
-description: "Perform the steps mentioned in the topic to add a chat widget in Omnichannel for Customer Service."
-ms.date: 02/25/2022
+description: "Perform the steps mentioned in the article to add a chat widget in Omnichannel for Customer Service."
+ms.date: 04/04/2022
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -24,10 +24,7 @@ To add a chat widget, you need to have configured a workstream that defines how 
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
     1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
     
