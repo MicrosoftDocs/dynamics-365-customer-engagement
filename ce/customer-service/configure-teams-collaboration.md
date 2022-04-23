@@ -26,7 +26,7 @@ Agents can collaborate with other contacts directly through Microsoft Teams to q
 This feature uses the AI capability to automatically suggest contacts in real-time, based on the currently open active case or support conversation when agents explore contacts in the embedded chat experience.
 
 > [!NOTE]
-> The Omnichannel for Customer Service app for Dynamics must be configured for agents connect and engage with their customers via channels like Chat for Dynamics 365 Customer Service and SMS.
+> Through Teams, agents can connect and engage with customers also if Omnichannel for Customer Service is enabled.
 
 ## How AI-suggested contacts works
 

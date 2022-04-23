@@ -24,13 +24,13 @@ manager: shujoshi
 If your administrator has enabled AI suggestions for similar cases and configured the ability to link chats to Dynamics 365 records, you can view suggested contacts who have resolved cases similar to yours to help you more quickly resolve customer issues. To chat with AI-suggested contacts, your administrator must also enable the option to collaborate with other contacts in Microsoft Teams.
 
 > [!NOTE]
-> The Omnichannel for Customer Service app for Dynamics must be configured for agents connect and engage with their customers via channels like Chat for Dynamics 365 Customer Service and SMS.
+> Through Teams, agents can connect and engage with customers also if Omnichannel for Customer Service is enabled.
 
 More information: [Configure AI suggestions for contacts in Microsoft Teams](configure-teams-collaboration.md)
 
 ## Collaborate with AI-suggested contacts in Microsoft Teams
 
-The AI-suggested contacts in Microsoft Teams functionality is applicable for cases or support conversations in the Customer Service workspace or Omnichannel for Customer Service app.
+The AI-suggested contacts in Microsoft Teams functionality is applicable for cases and support conversations in the Customer Service workspace and Omnichannel for Customer Service apps.
 
 For a case or a support conversation, **Teams chat (Preview)** appears in the app side pane on the right. 
 
