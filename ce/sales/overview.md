@@ -10,7 +10,12 @@ manager: shujoshi
 ---
 # Overview of Dynamics 365 Sales 
 
-Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]! Here's a short video to help you understand the power of leveraging Dynamics 365 Sales in your organization:
+Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]! This article provides an overview of the capabilities in Dynamics 365 Sales.
+
+> [!TIP]
+> If you'd like to set up a free trial, go to [Try Dynamics 365 Sales free for 30 days](https://dynamics.microsoft.com/sales/sales/free-trial/).
+
+Here's a short video to help you understand the power of leveraging Dynamics 365 Sales in your organization:
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/RE4AC4d?maskLevel=0" frameborder="0" allowfullscreen=""></iframe></div>
 
