@@ -11,7 +11,7 @@ ms.reviewer: nenellim
 
 # Export and import configuration data for the record channel
 
-By using the Configuration Migration tool, you can migrate the configurations from the source organization to the target organization for the records that're configured to use unified routing.
+Use the Configuration Migration tool to migrate the configurations from the source organization to the target organization for the records that're based on unified routing.
 
 For information on how to use the Configuration Migration tool, see the following articles:
 
@@ -22,7 +22,12 @@ For information on how to use the Configuration Migration tool, see the followin
 
 The following prerequisites must be met:
 
-- In the source organization, if a ruleset refers to custom entities, attributes, relationships, option sets or lookup values, then ensure that they exist in the target organization before you proceed with the migration.
+- In the source organization, if a unified routing ruleset refers to the following, then ensure that they exist in the target organization before you proceed with the migration:
+  - Custom entities
+  - Attributes
+  - Relationships
+  - Option sets
+  - Lookup values
 - Ensure that the user who performs the migration has the required privileges on the following entities in the source and target organizations:
   - Characteristic (characteristic)
   - Rating Model (ratingmodel)
@@ -48,6 +53,8 @@ You must perform the steps in the order they're listed to migrate your configura
 3. [Export and import record queues configuration](#export-and-import-record-queues-configuration)
 4. [Export and import intake rules configuration for records](#export-and-import-intake-rules-configuration-for-records)
 5. [Export and import workstreams configuration for records](#export-and-import-workstreams-configuration-for-records)
+6. [Verify your migration](#verify-your-migration)
+7. [Troubleshoot export and import of data](#troubleshoot-export-and-import-of-data)
 
 > [!IMPORTANT]
 > The migration of the following items is not in scope:
@@ -84,24 +91,24 @@ You must perform the steps in the order they're listed to migrate your configura
 
 If skill-based routing rulesets are used in your unified routing setup, perform the steps to migrate the corresponding configuration.
 
-> [!NOTE]
-> You need to manually create bookableresourcecharacteristictype (Global option set value) in the target organization if required.
-
 **Sample schema**
 
 [Sample schema for skill-based routing configuration](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20skill-based%20routing.xml) to get all the required records.
 
 1. Use the Configuration Migration tool to create the schema and export data from the source organization for skill-based routing configuration.
   
-  - **Entity display name**: When you create the schema, select the entities in the sequence that's mentioned in the table.
-  - **Attribute display name**: We recommend that you select the attributes defined in the following table. You don't need to select the out-of-the-box system defined attributes, such as Created By, Created On, Modified By, Modified On, and Owner. You can select custom attributes if required.
+    - **Entity display name**: When you create the schema, select the entities in the sequence that's mentioned in the table.
+    - **Attribute display name**: We recommend that you select the attributes defined in the following table. You don't need to select the out-of-the-box system-defined attributes, such as Created By, Created On, Modified By, Modified On, and Owner. You can select custom attributes if required.
 
-    |Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
-    |---------|---------|---------|
-    |Characteristic (characteristic)    | <ul><li>Characteristic Type (characteristictype)</li><li>Characteristic (characteristicid)</li><li>Description (description)</li><li>Name (name)</li></ul> |         |
-    |Rating Model (ratingmodel)     |<ul><li>Max Rating Value (maxratingvalue)</li><li>Min Rating Value (minratingvalue)</li><li>Name (name)</li><li>Rating Model (ratingmodelid)</li></ul>         |         |
-    |Rating Value (ratingvalue)     | <ul><li>Name (name)</li><li>Rating Model (ratingmodel)</li><li>Rating Value (ratingvalueid)</li><li>Value (value)</li></ul> |         |
-    |   |         |         |
+	> [!IMPORTANT]
+    > You need to manually create bookableresourcecharacteristictype (Global option set value) in the target organization if required.
+
+   |Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
+   |---------|---------|---------|
+   |Characteristic (characteristic)    | <ul><li>Characteristic Type (characteristictype)</li><li>Characteristic (characteristicid)</li><li>Description (description)</li><li>Name (name)</li></ul> |         |
+   |Rating Model (ratingmodel)     |<ul><li>Max Rating Value (maxratingvalue)</li><li>Min Rating Value (minratingvalue)</li><li>Name (name)</li><li>Rating Model (ratingmodelid)</li></ul>         |         |
+   |Rating Value (ratingvalue)     | <ul><li>Name (name)</li><li>Rating Model (ratingmodel)</li><li>Rating Value (ratingvalueid)</li><li>Value (value)</li></ul> |         |
+   |   |         |         |
 
 1. Generate the schema and save it.
 
@@ -136,17 +143,6 @@ If you have configured capacity profiles in your unified routing setup, perform 
 
 ## Export and import record queues configuration
 
- > [!NOTE]
- > If you are using the out-of-the-box assignment methods for queues, such as highest capacity and round robin, skip the following entities that are listed in step 1.
- >
- > - Decision rule set
- > - Assignment configuration
- > - Assignment configuration step
-
-Along with the import of the queues configuration, if you want to update an existing queue in the target organization, you must remove the following line from the sample schema xml and data before you use it to import the configuration.
-
-`<field displayname="Queue type" name="msdyn_queuetype" type="optionsetvalue" customfield="true" />`
-
 **Sample schema**
 
 [Sample schema for record queues](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20unified%20routing%20record%20queues.xml) to get all the required records.
@@ -159,6 +155,16 @@ Along with the import of the queues configuration, if you want to update an exis
     [!INCLUDE[ur-migration](../includes/cc-ur-migration.md)]
     - **Configure import settings**: For the Decision contract entity, ensure that you select the **Do not update existing records** checkbox.
 
+    > [!NOTE]
+    > If you are using the out-of-the-box assignment methods for queues, such as highest capacity and round robin, skip the following entities that are listed in step 1.
+    >
+    > - Decision rule set
+    > - Assignment configuration
+    > - Assignment configuration step
+    > 
+	> Along with the import of the queues configuration, if you want to update an existing queue in the target organization, you must remove the following line from the sample schema XML and data XML before you use it to import the configuration.
+    >
+	> `<field displayname="Queue type" name="msdyn_queuetype" type="optionsetvalue" customfield="true" />`
 
     |S.No.| Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
     |-----|---------|---------|---------|
@@ -532,17 +538,20 @@ Along with the import of the queues configuration, if you want to update an exis
 
 1. Use the Configuration Migration tool to create the schema and export data from the source organization for a record routing configuration.
 
+   - **Entity display name**: When you create the schema, select the entities in the sequence that's mentioned in the table.
+   - **Attribute display name**: We recommend that you select the attributes defined in the following table. You don't need to select the out-of-the-box system-defined attributes, such as Created By, Created On, Modified By, Modified On, and Owner. You can select custom attributes if required.
+   - **Use FetchXML to filter records**: Use the appropriate fetch xml query to get single, multiple, or all records based on your requirement. For single or multiple records, you need to use source organization to get the correct name in uiname and GUID in value. If required, you can use the advanced find option to construct the appropriate fetch xml query.
+
+     For illustration, the sample query is listed in the following table to get single or multiple records. The sample fetch query has considered the entity as incident and task. Based on your requirement, update the entity logical name in the FetchXML query accordingly.
+
+   - **Configure import settings**: For the Decision contract entity, ensure that you select the **Do not update existing records** checkbox.
+
 	> [!IMPORTANT]
+	>
 	> - If the target organization doesn't have the intake rules for the record type that you want to import, then remove the  msdyn_rulesetdefinition attribute of the msdyn_decisionruleset entity from the data.xml before you do an import.
 	> - If the target organization has intake rules for the record type with the same GUID, then remove the  msdyn_rulesetdefinition attribute of the msdyn_decisionruleset entity from the data.xml before you do an import.
 	> - If the target organization has intake rules for the record type with different GUID, then delete all the intake rules in the target organization before you do the import.
 
-    
-   [!INCLUDE[ur-migration](../includes/cc-ur-migration.md)]
-   - **Configure import settings**: For the Decision contract entity, ensure that you select the **Do not update existing records** checkbox.
-   
-   > [!Note]
-   > Update the entity logical name in the sample code to migrate entities other than incident.
 
     | S.No.| Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
     |-----|---------|---------|---------|
@@ -746,7 +755,9 @@ Along with the import of the queues configuration, if you want to update an exis
 
     - **Entity display name**: When you create the schema, select the entities in the sequence that's mentioned in the table.
     - **Attribute display name**: We recommend that you select the attributes defined in the following table. You don't need to select the out-of-the-box system defined attributes, such as Created By, Created On, Modified By, Modified On, and Owner. You can select custom attributes if required.
-    - **Use FetchXML to filter records**: Use the appropriate fetch xml query to get single, multiple, or all records based on your requirement. For single or multiple records, you need to use source organization to get the correct name in uiname and GUID in value. If required, you can use the advanced find option to construct the appropriate fetch xml query. For illustration, the sample fetch query has considered the entity as incident and task. Based on your requirement, update the entity logical name in the FetchXML query accordingly.
+    - **Use FetchXML to filter records**: Use the appropriate fetch xml query to get single, multiple, or all records based on your requirement. For single or multiple records, you need to use source organization to get the correct name in uiname and GUID in value. If required, you can use the advanced find option to construct the appropriate fetch xml query. 
+	
+	  For illustration, the sample fetch query has considered the entity as incident and task. Based on your requirement, update the entity logical name in the FetchXML query accordingly.
     - **Configure import settings**: For the Decision contract entity, ensure that you select the **Do not update existing records** checkbox.
     
 	> [!NOTE]
@@ -755,7 +766,7 @@ Along with the import of the queues configuration, if you want to update an exis
 
     | S.No. | Entity display name (Logical name)  | Attribute display name (Logical name)  | Use FetchXML to filter records  |
     |-----|---------|---------|---------|
-    | 1. |  Workstream (msdyn_liveworkstream)  |  <ul><li>Allow Automated Messages (msdyn_enableautomatedmessages)</li> <li> </li> <li>Allowed Presences (msdyn_allowedpresences)</li> <li>Assign WorkItem After Decline or Timeout (msdyn_assignworkitemafterdecline)</li> <li>Auto-close after inactivity (msdyn_autocloseafterinactivity)</li> <li>Block capacity for wrap up state (msdyn_blockcapacityforwrapup)</li> <li>Bot queue (msdyn_bot_queue)</li> <li>Bot rule (msdyn_bot_rule)</li> <li>Bot user (msdyn_bot_user)</li> <li>Capacity (msdyn_capacityrequired)</li> <li>Capacity format (msdyn_capacityformat)</li> <li>Channel (msdyn_streamsource)</li> <li>Contract Id (msdyn_routingcontractid)</li> <li>Default (msdyn_sessiontemplate_default)</li><li>Default Queue (msdyn_defaultqueue)</li> <li>Direction (msdyn_direction)</li> <li>Enable selecting from push-based work streams (msdyn_enableselectingfrompushbasedworkstreams)</li> <li>Entity (msdyn_masterentityroutingconfigurationid)</li> <li>FallBack Language (msdyn_fallbacklanguage)</li> <li>Follow-up after waiting (msdyn_followupafterwaiting)</li> <li>Handling Time Threshold (msdyn_handlingtimethreshold)</li> <li>Incoming authenticated (msdyn_notificationtemplate_incoming_auth)</li> <li>Is Default (msdyn_isdefault)</li> <li>Keep same agent for entire conversation (msdyn_enableagentaffinity)</li> <li>Matching Logic (msdyn_matchinglogic)</li> <li>Max Concurrency (msdyn_maxconcurrentconnection)</li> <li>Mode (msdyn_mode)</li> <li>Name (msdyn_name)</li> <li>Notification (msdyn_notification)</li> <li>Outbound queue (msdyn_outboundqueueid)</li> <li>Record Identification Rule (msdyn_recordidentificationrule)</li> <li>Record Identification Validation Rule (msdyn_recordidentificationvalidationrule)</li> <li>Screen pop timeout (msdyn_screenpoptimeout)</li> <li>Screen pop timeout (msdyn_screenpoptimeout_optionSet)</li> <li>Skill Attachment Rules Count (msdyn_skillattachmentrulescount)</li> <li>Skill Attachment Rules Count (Last Updated On) (msdyn_skillattachmentrulescount_date)</li> <li>Skill Attachment Rules Count (State) (msdyn_skillattachmentrulescount_state)</li> <li>Waiting Time Threshold (msdyn_waitingtimethreshold)</li> <li>Work Distribution Mode (msdyn_workdistributionmode)</li> <li>Work Stream (msdyn_liveworkstreamid)</li> </ui>  |  [**Option 1: All record workstreams**](#BKMK1all-ur-ws) <br> <br>  [**Option 2: Single record workstream**](#BKMK2single-ur-ws) <br> <br>  [**Option 3: Multiple record workstreams**](#BKMK3multiple-ur-ws) <br> |
+    | 1. |  Workstream (msdyn_liveworkstream)  |  <ul><li>Allow Automated Messages (msdyn_enableautomatedmessages)</li> <li>Allowed Presences (msdyn_allowedpresences)</li> <li>Assign WorkItem After Decline or Timeout (msdyn_assignworkitemafterdecline)</li> <li>Auto-close after inactivity (msdyn_autocloseafterinactivity)</li> <li>Block capacity for wrap up state (msdyn_blockcapacityforwrapup)</li> <li>Bot queue (msdyn_bot_queue)</li> <li>Bot rule (msdyn_bot_rule)</li> <li>Bot user (msdyn_bot_user)</li> <li>Capacity (msdyn_capacityrequired)</li> <li>Capacity format (msdyn_capacityformat)</li> <li>Channel (msdyn_streamsource)</li> <li>Contract Id (msdyn_routingcontractid)</li> <li>Default (msdyn_sessiontemplate_default)</li><li>Default Queue (msdyn_defaultqueue)</li> <li>Direction (msdyn_direction)</li> <li>Enable selecting from push-based work streams (msdyn_enableselectingfrompushbasedworkstreams)</li> <li>Entity (msdyn_masterentityroutingconfigurationid)</li> <li>FallBack Language (msdyn_fallbacklanguage)</li> <li>Follow-up after waiting (msdyn_followupafterwaiting)</li> <li>Handling Time Threshold (msdyn_handlingtimethreshold)</li> <li>Incoming authenticated (msdyn_notificationtemplate_incoming_auth)</li> <li>Is Default (msdyn_isdefault)</li> <li>Keep same agent for entire conversation (msdyn_enableagentaffinity)</li> <li>Matching Logic (msdyn_matchinglogic)</li> <li>Max Concurrency (msdyn_maxconcurrentconnection)</li> <li>Mode (msdyn_mode)</li> <li>Name (msdyn_name)</li> <li>Notification (msdyn_notification)</li> <li>Outbound queue (msdyn_outboundqueueid)</li> <li>Record Identification Rule (msdyn_recordidentificationrule)</li> <li>Record Identification Validation Rule (msdyn_recordidentificationvalidationrule)</li> <li>Screen pop timeout (msdyn_screenpoptimeout)</li> <li>Screen pop timeout (msdyn_screenpoptimeout_optionSet)</li> <li>Skill Attachment Rules Count (msdyn_skillattachmentrulescount)</li> <li>Skill Attachment Rules Count (Last Updated On) (msdyn_skillattachmentrulescount_date)</li> <li>Skill Attachment Rules Count (State) (msdyn_skillattachmentrulescount_state)</li> <li>Waiting Time Threshold (msdyn_waitingtimethreshold)</li> <li>Work Distribution Mode (msdyn_workdistributionmode)</li> <li>Work Stream (msdyn_liveworkstreamid)</li> </ui>  |  [**Option 1: All record workstreams**](#BKMK1all-ur-ws) <br> <br>  [**Option 2: Single record workstream**](#BKMK2single-ur-ws) <br> <br>  [**Option 3: Multiple record workstreams**](#BKMK3multiple-ur-ws) <br> |
     | 2. |  Decision contract (msdyn_decisioncontract)  |  <ul><li>Contract definition (msdyn_contractdefinition) </li> <li> Decision contract (msdyn_decisioncontractid) </li> <li> Name (msdyn_name) </li> <li> Unique name (msdyn_uniquename) </li> </ul>  |  [**Option 1: Decision contract for all record workstreams**](#BKMK1dc-ur-ws) <br> <br>  [**Option 2: Decision contract for a single record workstream of type = incident**](#BKMK2dc-ur-ws) <br> <br> [**Option 3: Decision contract for multiple record workstreams of type = incident and type = task**](#BKMK3dc-ur-ws) <br> <br> |
     | 3. |  Decision rule set (msdyn_decisionruleset)  |  <ul><li> AI builder model (msdyn_aibmodelid)</li><li> Authoring mode (msdyn_authoringmode) </li><li> Decision rule set (msdyn_decisionrulesetid) </li><li>Description (msdyn_description) </li><li>Input contract (msdyn_inputcontractid) </li><li>Is input collection (msdyn_isinputcollection) </li><li>ML model type (msdyn_mlmodeltype) </li><li>Name (msdyn_name) </li><li>Output contract (msdyn_outputcontractid) </li><li>Rule set definition (msdyn_rulesetdefinition) </li><li>Rule set type (msdyn_rulesettype) </li><li>Unique name (msdyn_uniquename) </li></ul>  |  [**Option 1: Decision ruleset for all record workstreams**](#BKMK1drl-ur-ws) <br> <br> [**Option 2: Decision ruleset for a single record workstream of type = incident**](#BKMK2drl-ur-ws) <br> <br> [**Option 3: Decision ruleset for multiple record workstreams type = incident and type = task**](#BKMK3drl-ur-ws) <br><br>  |
     | 4. | Routing configuration (msdyn_routingconfiguration) |  <ul> <li> Is active configuration (msdyn_isactiveconfiguration) </li> <li> Name (msdyn_name) </li> <li> Routing configuration (msdyn_routingconfigurationid) </li> <li> Unique name (msdyn_uniquename) </li> <li>Workstream (msdyn_liveworkstreamid) </li> </ul>  |  [**Option 1: Routing configuration for all record workstreams**](#BKMK1rc-ur-ws) <br><br> [**Option 2: Routing configuration for a single record workstream**](#BKMK2rc-ur-ws) <br> <br> [**Option 3: Routing configuration for multiple record workstreams**](#BKMK3rc-ur-ws) <br><br> |
@@ -769,23 +780,23 @@ Along with the import of the queues configuration, if you want to update an exis
 
 4. Extract the zip file, open the data.xml file present in the extracted folder, and perform the following operations:
 
-   1. In the source and target organizations, run the following OData API and note the `msdyn_decisioncontractid`.
+   - In the source and target organizations, run the following OData API and note the `msdyn_decisioncontractid`.
 
       https://`<OrgURL>`/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_baseoutputcontractmasterentityroutingconfiguration'
 
-   2. In data.xml file, replace all the occurrences of the msdyn_decisioncontractid GUID in the source organization  with the msdyn_decisioncontractid GUID of the target organization.
+     In data.xml file, replace all the occurrences of the msdyn_decisioncontractid GUID in the source organization  with the msdyn_decisioncontractid GUID of the target organization.
 
-   3. In the source and target organizations, run the following OData API and note the `msdyn_decisioncontractid`.
+   - In the source and target organizations, run the following OData API and note the `msdyn_decisioncontractid`.
 
       https://`<OrgURL>`/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_baseoutputcontractmasterentityroutingconfigurationunifiedrouting'
 
-   4. In data.xml file, replace all the occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
+     In data.xml file, replace all the occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
    
-   5. In the source and target organizations, run the following OData API and note the `msdyn_decisioncontractid`.
+   - In the source and target organizations, run the following OData API and note the `msdyn_decisioncontractid`.
 
       https://`<OrgURL>`/api/data/v9.1/msdyn_decisioncontracts?$select=msdyn_decisioncontractid&$filter=msdyn_uniquename eq 'msdyn_demandqueueidentificationoutput'
 
-   6. In data.xml file, replace all the occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
+     In data.xml file, replace all the occurrences of the msdyn_decisioncontractid GUID in the source organization with the msdyn_decisioncontractid GUID of the target organization.
 
 5. Package the extracted content again.
 
@@ -1166,7 +1177,18 @@ Along with the import of the queues configuration, if you want to update an exis
 	</entity>
 </fetch>
 ```    
-## Considerations for export and import of data
+
+## Verify your migration
+
+After you import the unified routing-related configuration data successfully from the source to target organization, perform the following steps in the target organization:
+
+1. In the UI, make sure that the unified routing configuration and rulesets are rendered properly and don't display errors.
+
+2. If skills and rating values are used in unified routing rulesets, then you need to manually link, associate, or create the users, bookable resources, and bookable resources characteristics records.
+  
+3. If capacity profiles are used in rulesets and workstreams for unified routing, then you need to manually link, associate, or create the users, bookable resources, and bookable reources capacity profile records.
+
+## Troubleshoot export and import of data
 
 [!INCLUDE[ur-migration considerations](../includes/cc-ur-migration-considerations.md)]
 
