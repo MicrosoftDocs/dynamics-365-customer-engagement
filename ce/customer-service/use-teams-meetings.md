@@ -1,7 +1,7 @@
 ---
 title: "Use Microsoft Teams meetings in Customer Service | Microsoft Docs"
 description: "Learn how to use Microsoft Teams meetings integration in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
-ms.date: 04/19/2022
+ms.date: 04/22/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -245,3 +245,7 @@ Recent activities are displayed under the **Activity** section in the side panel
 :::image type="content" source="./media/teams-meeting-activities.png" alt-text="Activities in the record side panel in a Teams meeting":::
 
 You can view only appointment, email, and phone call activities that are associated with the record. To view other associated activities, go to the customer engagement app. If you want to view details of an activity, in the **Activities** section, select an activity. The activity record opens in your web browser.
+
+
+### See also
+[Configure Microsoft Teams Meeting integration in Customer Service](configure-teams-meetings.md)
