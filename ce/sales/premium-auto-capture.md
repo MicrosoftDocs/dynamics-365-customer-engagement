@@ -2,7 +2,7 @@
 title: "Premium auto capture for Sales Insights"
 description: "Use the premium auto capture to provide suggestions on creating new contacts along with capturing activities related to your emails and meetings."
 keywords: 
-ms.date: 10/26/2021
+ms.date: 04/25/2022
 ms.custom: 
 ms.topic: article
 author: udaykirang
@@ -22,9 +22,12 @@ searchScope:
 ---
 # Preview: Premium auto capture   
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+> [!IMPORTANT]
+> Premium auto capture (Preview) will be deprecated from July 1, 2022. After the feature is deprecated, you’ll stop getting contact suggestions from Outlook. If your administrator has enabled basic auto capture, you'll continue to get activity suggestions from Outlook.  
 
 Use the premium auto capture to provide suggestions on creating new contacts along with capturing activities related to your emails and meetings.
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 ## License and role requirements
 | Requirement type | You must have |  
