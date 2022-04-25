@@ -48,11 +48,11 @@ Before you begin, let's quickly learn about file attachment formats in the Teams
 When file attachments are sent from Omnichannel for Customer Service to an Azure bot on the Teams bot service channel, the attachment format is passed in the `Activity.Attachments` property. The content type of that attachment is “application/vnd.microsoft.teams.file.download.info”.
 
   > [!div class="mx-imgBorder"]
-  > ![Attachment format on Microsoft Teams channel.](./media/attachment-format-teams-channel.png "Attachment format on Microsoft Teams channel.")
+  > ![Attachment format on the Teams bot service channel.](./media/attachment-format-teams-channel.png "Attachment format on the Teams bot service channel.")
 
 However, when file attachments are sent from Omnichannel for Customer Service to the Azure bot on the Omnichannel bot service channel, the information required to download the files is passed in the `amsReferences` and `amsMetadata` fields of the `Activity.ChannelData` property.
   > [!div class="mx-imgBorder"]
-  > ![Attachment format on bot service channel.](./media/attachment-format-acs-channel.png "Attachment format on bot service channel.")
+  > ![Attachment format on the Omnichannel bot service channel.](./media/attachment-format-acs-channel.png "Attachment format on the Omnichannel bot service channel.")
 
 ### How to manage file attachments in your Azure bot code
 
