@@ -1,13 +1,13 @@
 ## Syntax
 
-`Microsoft.CIFramework.raiseEvent(eventName, eventInputParamters, correlationId);`
+`Microsoft.CIFramework.raiseEvent(eventName, eventInputParameters, correlationId);`
 
 ## Parameters
 
 | Name                 | Type   | Required | Description    |
 |------                |------  |----------|-------------   |
 | eventName            | String | Yes      | Name of the event whose handler needs to be invoked. |
-| eventInputParamters  | JSON String | Yes      | The input parameters that need to be passed to the handler function. |
+| eventInputParameters  | JSON String | Yes      | The input parameters that need to be passed to the handler function. |
 | correlationId        | GUID   | No       |  Is used to group all related API calls together for diagnostic telemetry.  |
 
 ## Return value
