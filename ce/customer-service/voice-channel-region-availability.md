@@ -45,9 +45,9 @@ If the voice channel in Omnichannel for Customer Service for your country or reg
 
 ### Direct offer availability
 
-Azure direct offer or [Microsoft as a carrier](/azure/communication-services/concepts/telephony/telephony-concept) is available for customers with billing locations in the United States, United Kingdom, Ireland, and Puerto Rico.  Azure direct offer supports:
-- the purchase of new US and Puerto Rico numbers. More information: [Subscription eligibility and number capabilities](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability).
-- the porting of existing US or toll-free phone numbers. More information: [Port a phone number](/azure/communication-services/quickstarts/telephony/port-phone-number)
+Azure direct offer or [Microsoft as a carrier](/azure/communication-services/concepts/telephony/telephony-concept) is available for customers with billing locations in the United States, United Kingdom, Ireland, and Puerto Rico.  Azure direct offer supports the following options:
+- The purchase of new US and Puerto Rico numbers. More information: [Subscription eligibility and number capabilities](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability).
+- The porting of existing US or toll-free phone numbers. More information: [Port a phone number](/azure/communication-services/quickstarts/telephony/port-phone-number)
 
  Only the listed billing locations are supported even if Microsoft as a carrier is available in other regions. Customers can select a [different carrier](voice-channel-bring-your-own-number.md) using Azure direct routing.
 
