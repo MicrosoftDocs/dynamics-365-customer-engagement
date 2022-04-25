@@ -23,6 +23,8 @@ Create, activate, edit, delete assignment rules, manage sales teams, and seller 
 
 ## What are assignment rules
 
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VjOo]
+
 Assignment rules enable new leads to be automatically assigned to sellers or sales teams. This helps reduce the amount of time and effort required to manually assign leads, prevent the loss of unassigned leads, and balance lead assignments among sellers.
 
 As an administrator or sequence manager, you can create rules that match lead attributes (such as location and language) with seller or team attributes (such as location and language). When a lead is created and satisfies the conditions of a specific rule, the lead is automatically assigned to a seller.
