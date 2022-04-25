@@ -1,4 +1,14 @@
 
+## 3.12.75.2
+
+(Includes Resource Scheduling controls version 1.2.16.220914).
+
+- New schedule board fix for preferred resources filter.
+- New schedule board fix where the custom filter doesn't clear the existing value correctly.
+- New schedule board fix to view all of the items in the drop down when filtering for territories. 
+- New schedule board modified the logic to calculate remaining duration and fulfilled duration. 
+
+
 ## 3.12.74.1
 
 (Includes Resource Scheduling controls version 1.2.15.220774).
