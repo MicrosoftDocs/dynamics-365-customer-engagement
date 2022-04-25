@@ -18,7 +18,10 @@ searchScope:
 ---
 # Qualify and convert leads to opportunity
 
-After you've identified the time frame, budget, and purchase process for a lead, qualify the lead to create the corresponding account, contact, and opportunity.  
+After you've identified the time frame, budget, and purchase process for a lead, qualify the lead to create the corresponding account, contact, and opportunity. 
+
+> [!TIP]
+> If you'd like to set up a free trial, go to [Try Dynamics 365 Sales free for 30 days](https://dynamics.microsoft.com/sales/sales/free-trial/). 
 
 ## License and role requirements
 | Requirement type | You must have |
