@@ -98,7 +98,7 @@ else if (turnContext.Activity.Attachments != null)
         // 1. Retrieve Teams Attachment ID from Content[“uniqueId”] field
         string attachmentId = (teamsAttachment.Content as JObject).GetValue("uniqueId").ToString();
 
-        // 2. Build HTTP request for specified attachment Id.
+        // 2. Build HTTP request for specified attachment ID.
         string requestUri = $"https://botapi.skype.com/amer/v3/attachments/{attachmentId}/views/original";
         var httpRequest = new HttpRequestMessage(HttpMethod.Get, requestUri);
 
@@ -118,5 +118,5 @@ else if (turnContext.Activity.Attachments != null)
 
 [Card support by channel](/azure/bot-service/bot-service-channels-reference?view=azure-bot-service-4.0#card-support-by-channel&preserve-view=true)  
 [Support for live chat and asynchronous channels](card-support-in-channels.md)  
-
+[Migration changes for new omnichannel messaging platform](migrate-acs.md)
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
