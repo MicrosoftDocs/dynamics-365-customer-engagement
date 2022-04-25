@@ -40,6 +40,9 @@ To learn more about the Omnichannel Chat SDK, see [here](https://github.com/micr
 
 After you install the Omnichannel Chat SDK, you can customize your live chat widget using both the Omnichannel Live Chat Widget UI Components and the Omnichannel Chat SDK methods.
 
+> [!Note]
+> The Omnichannel Chat SDK is a prerequisite for Omnichannel Live Chat Widget UI Components. To effectively use both Omnichannel Live Chat Widget UI Components and Omnichannel Chat SDK, ensure that you've installed the latest version of Omnichannel Chat SDK.
+
 ### See also
 
 [Customize live chat widgets for mobile apps](render-live-chat-widget-mobile.md)  

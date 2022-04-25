@@ -41,9 +41,9 @@ To embed a chat widget in Power Apps portals:
 
 1. Find the **Chat Widget Code** content snippet and open it.
     > [!div class=mx-imgBorder]
-    > ![Go to Chat Widget Code content snippet in portal.](media/portal-content-snippet.png "Go to Chat Widget Code content snippet in portal")    
+    > ![Go to Chat Widget Code content snippet in portal.](media/portal-content-snippet.png "Go to Chat Widget Code content snippet in portal")
 
-1. On the **General** tab, scroll-down to the **Value (HTML)** section.
+1. On the **General** tab, scroll down to the **Value (HTML)** section.
 
 1. Paste the chat widget snippet code in the **HTML** tab.
     >[!div class=mx-imgBorder]
@@ -58,11 +58,11 @@ If you don't see your chat widget in the portal, see [Troubleshoot Omnichannel f
 To embed a chat widget in a mobile app:
 
 1. Create the code snippet. Refer to [Render a live chat widget on the mobile app](render-live-chat-widget-mobile.md) for samples showing how to enable rendering of the web version of the live chat widget on mobile devices.
-2. Sign in to Omnichannel Administration.
+2. Open one of the administrator apps.
 3. Go to **Channels** &gt; **Chat**.
 4. Open the chat widget you want to embed in your website or create a new one.
 5. On the **Basic details** tab, copy the widget snippet code you created or modified into the **Code snippet** section.
-6. Copy the widget snippet code from the **Code snippet** section and paste it in the source code of your mobile operating system. 
+6. Copy the widget snippet code from the **Code snippet** section and paste it in the source code of your mobile operating system.
 
 ## Customer experience of chat widget
 
@@ -80,7 +80,7 @@ After the chat widget is configured, it has the following capabilities:
     > [!div class=mx-imgBorder]
     > ![System events in the chat widget.](media/chat-widget-system-events.png "System events in the chat widget")
 
-- **Keyboard shortcut**: During the chat session, the customer can press **Ctrl+/** to return the cursor to the message send box from elsewhere on the page. 
+- **Keyboard shortcut**: During the chat session, the customer can press **Ctrl+/** to return the cursor to the message send box from elsewhere on the page.
 
 - **Pre-chat survey**: If a survey has been configured by an admin, it's shown to the user before the conversation is started. This survey also helps the user connect to an appropriate agent.
 
