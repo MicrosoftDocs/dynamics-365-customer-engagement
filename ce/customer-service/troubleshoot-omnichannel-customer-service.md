@@ -223,6 +223,16 @@ To configure ending a bot conversation, perform the following steps:
 
 Additionally, you can configure automated messages in Omnichannel for Customer Service that will be displayed to the customer after the conversation ends.
 
+## Unable to connect the PVA IVR to a Voice Workstream
+
+### Issue
+
+Trouble connecting PVA IVR to Voice Workstream.
+
+### Resolution
+
+Ensure that you have enabled voice in your PVA IVR. More information : [Integrate Power Virtual Agents bot for voice](voice-channel-ivr-bots.md)
+
 ## Chat widget icon does not load on the portal
 
 ### Issue
