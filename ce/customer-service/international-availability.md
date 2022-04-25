@@ -1,7 +1,7 @@
 ---
 title: "International availability of Omnichannel for Customer Service | MicrosoftDocs"
 description: "This article contains information on the availability of Omnichannel for Customer Service in different geographical locations and languages."
-ms.date: 02/01/2022
+ms.date: 04/25/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -26,7 +26,7 @@ Your Microsoft 365 tenant must be co-located in one of the following geographic 
 
 > [!Note]
 >
-> In the South America, Europe, and Asia Pacific regions, Omnichannel for Customer Service is currently not available in a tenant that's located in Brazil, Norway, and Singapore respectively.
+> In the South America, Europe, and Asia Pacific regions, Omnichannel for Customer Service is currently not available in a tenant that's located in Brazil, Norway, Sweden, and Singapore respectively.
 
 ### April 2022 update
 
@@ -37,13 +37,12 @@ Omnichannel for Customer Service April 2022 update is available in the following
 | Asia Pacific                              |   April 09, 2022   |
 | Australia                                 |   April 09, 2022   |
 | Canada                                    |   April 02, 2022   |
-| Europe                                    |     |
+| Europe                                    |    April 16, 2022 |
 | France                                    |   April 02, 2022   |
 | Germany                                   |   April 02, 2022   |
-| GCC                                       |       |
 | India                                     |   April 02, 2022   |
 | Japan                                     |   April 09, 2022   |
-| North America                             |      |
+| North America                             |    April 23, 2022  |
 | South America                             |   April 02, 2022   |
 | Switzerland                               |   April 02, 2022   |
 | United Arab Emirates (UAE)                |   April 09, 2022   |
@@ -71,8 +70,6 @@ Omnichannel for Customer Service October 2021 update is available in the followi
 | UAE                                       |   October 08, 2021   |
 | United Kingdom                            |   October 08, 2021   |
 |||
-
-
 
 
 ## Language availability
