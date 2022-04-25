@@ -1,6 +1,6 @@
 ---
 title: "Download file attachments from Azure bot| Microsoft Docs"
-description: "This topic includes reference information about downloading attachments from your Azure bot."
+description: "This article includes reference information about downloading attachments from your Azure bot."
 ms.date: 04/26/2022
 ms.topic: reference
 author: lalexms
@@ -13,7 +13,7 @@ manager: shujoshi
 
 Follow these steps to download attachments from your Azure bot.
 
-1. Get the token for your bot. You can do so by providing your bot's Microsoft AppId and Client Secret. More information: [Connector authentication](/azure/bot-service/rest-api/bot-framework-rest-connector-authentication?view=azure-bot-service-4.0&preserve-view=true)
+1. Get the token for your bot by providing your bot's Microsoft AppId and Client Secret. More information: [Connector authentication](/azure/bot-service/rest-api/bot-framework-rest-connector-authentication?view=azure-bot-service-4.0&preserve-view=true)
 
 2. Fetch the `attachmentId` from the attachment content URL. For example, the `attachmentId` in this URL `https://us-api.asm.skype.com/v1/objects/0-eus-d1-5360689c55c308cb4e3b51722e46b801/` is `0-eus-d1-5360689c55c308cb4e3b51722e46b801`. 
 
@@ -75,7 +75,7 @@ if (turnContext.Activity.ChannelData != null &&
     var authorization = new AuthenticationHeaderValue("bearer", token);
     httpRequest.Headers.Add("Authorization", authorization.ToString());
 
-    // 4. Add ACS Bot Id to request header. This is required to achieve good download performance.
+    // 4. Add Azure Communication Services Bot Id to request header. This is required to achieve good download performance.
     httpRequest.Headers.Add("BotAcsId", turnContext.Activity.Recipient.Id);
 
     // 5. Use HttpClient to execute the request and download attachment
