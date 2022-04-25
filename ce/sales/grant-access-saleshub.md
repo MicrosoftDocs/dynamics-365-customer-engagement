@@ -38,7 +38,9 @@ To hide the app from all users and roles, follow the instructions in [Hide a mod
 
 ## Grant or revoke access
 
-1. On the **Published Apps** page in the **Sales Hub** card, select **...** (**More options**), and then select **Manage Roles**.
+As an administrator, you can either grant or revoke access to a security role or to specific users.
+
+1. On the **Published Apps** page, locate the **Sales Hub** card. Select **...** (**More options**), and then select **Manage Roles**.
 
     :::image type="content" source="media/saleshub-manageroles.png" alt-text="Screenshot showing the Manage Roles pane, with roles that already have access highlighted in blue.":::
 
