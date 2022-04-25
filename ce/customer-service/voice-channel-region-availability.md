@@ -131,9 +131,9 @@ We use the Azure Cognitive Services Speech service Speech-to-Text for transcript
 | French - Switzerland| `fr-CH` |x|x|✔|✔|x|x|x|
 | Galician | `gl-ES` |x|x|x|x|x|x|✔|
 | Georgian | `ka` |x|x|x|x|x|x|x|
-| German - Austria| `de-CH` |x|x|✔|✔|x|x|x|
+| German - Austria| `de-AT` |x|x|✔|✔|x|x|x|
 | German - Germany | `de-DE` |✔|✔|✔|✔|✔|✔|✔|
-| German - Switzerland | `de-AT` |x|x|✔|✔|x|x|x|
+| German - Switzerland | `de-CH` |x|x|✔|✔|x|x|x|
 | Greek - Greece| `el-GR` |✔|x|✔|✔|✔|x|✔|
 | Gujarati - India | `gu-IN` |x|x|✔|✔|x|x|x|
 | Haitian Creole | `ht` |x|x|x|x|x|x|x|
