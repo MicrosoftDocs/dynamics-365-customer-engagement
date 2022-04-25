@@ -660,7 +660,9 @@
         href: markdown-formats-agents.md
     - name: Developer experience
       items: 
-      - name: Customize chat widgets using data tags
+      - name: Develop a custom live chat widget
+        href: develop-live-chat-widget.md
+      - name: Customize live chat widgets using data tags
         href: customize-chat-widget.md
       - name: Customize live chat widgets for mobile apps
         href: render-live-chat-widget-mobile.md
