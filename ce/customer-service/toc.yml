@@ -1090,8 +1090,6 @@
       href: contract-to-entitlement-migration.md
     - name: Migration changes for new omnichannel messaging platform
       href: migrate-acs.md
-    - name: Manage file attachments during migration
-      href: manage-file-attachments-during-migration.md
     - name: Migrate service scheduling
       items: 
       - name: Introduction to service scheduling migration

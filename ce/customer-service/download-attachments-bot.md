@@ -1,7 +1,7 @@
 ---
 title: "Download attachments from your Azure bot| Microsoft Docs"
 description: "Read about the various cards and attachments supported by various channels."
-ms.date: 07/21/2020
+ms.date: 04/26/2022
 ms.topic: reference
 author: lalexms
 ms.author: laalexan
@@ -37,10 +37,12 @@ foreach (var header in requestHeaders)
 HttpResponseMessage response = await client.SendAsync(httpRequest);
 ```
 
+>[!Important]
+> If you're migrating your omnichannel implementations from the Microsoft Teams channel to the new messaging platform, then you must program your Azure bot for processing and downloading the file attachments properly in the new channel. More information: [Manage file attachments during migration](migrate-acs.md#manage-file-attachments-during-migration) 
+
 ### See also
 
-[Card support by channel](/azure/bot-service/bot-service-channels-reference?view=azure-bot-service-4.0#card-support-by-channel)<br />
-[Asynchronous channel support](card-support-in-channels.md)
-
+[Card support by channel](/azure/bot-service/bot-service-channels-reference?view=azure-bot-service-4.0#card-support-by-channel&preserve-view=true)  
+[Support for live chat and asynchronous channels](card-support-in-channels.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
