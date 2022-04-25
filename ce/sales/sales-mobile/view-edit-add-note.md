@@ -35,6 +35,7 @@ You can perform the following actions in the **Notes** section.
 | Take more actions, like change the connected record or delete a note.  | Tap ![Options button.](media/sm-options-button.png "Options button").  |
 | Create a note.     | Tap **Add a note**.     |
 
+
 ## Add a note
 
 1.  Perform one of the following actions:
