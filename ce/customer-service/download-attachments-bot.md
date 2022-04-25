@@ -66,7 +66,7 @@ if (turnContext.Activity.ChannelData != null &&
 {
     string attachmentId = JsonConvert.DeserializeObject<string[]>(amsReferencesArray.ToString()).FirstOrDefault();
 
-    // 2. Build HTTP request for specified attachment Id.
+    // 2. Build HTTP request for specified attachment ID.
     string requestUri = $"https://botapi.skype.com/amer/v3/attachments/{attachmentId}/views/original";
     var httpRequest = new HttpRequestMessage(HttpMethod.Get, requestUri);
 
@@ -75,7 +75,7 @@ if (turnContext.Activity.ChannelData != null &&
     var authorization = new AuthenticationHeaderValue("bearer", token);
     httpRequest.Headers.Add("Authorization", authorization.ToString());
 
-    // 4. Add Azure Communication Services Bot Id to request header. This is required to achieve good download performance.
+    // 4. Add Azure Communication Services Bot ID to request header. This is required to achieve good download performance.
     httpRequest.Headers.Add("BotAcsId", turnContext.Activity.Recipient.Id);
 
     // 5. Use HttpClient to execute the request and download attachment
@@ -118,5 +118,6 @@ else if (turnContext.Activity.Attachments != null)
 
 [Card support by channel](/azure/bot-service/bot-service-channels-reference?view=azure-bot-service-4.0#card-support-by-channel&preserve-view=true)  
 [Support for live chat and asynchronous channels](card-support-in-channels.md)  
-[Migration changes for new omnichannel messaging platform](migrate-acs.md)
+[Migration changes for new omnichannel messaging platform](migrate-acs.md)  
+
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
