@@ -223,7 +223,7 @@ To configure ending a bot conversation, perform the following steps:
 
 Additionally, you can configure automated messages in Omnichannel for Customer Service that will be displayed to the customer after the conversation ends.
 
-## Unable to connect the PVA IVR to a Voice Workstream
+## Unable to connect the Power Virtual Agent bot to a Voice Workstream
 
 ### Issue
 
@@ -237,7 +237,6 @@ If you haven't installed the required extensions, you'll see a message that your
    1. [Power Virtual Agents telephony extension](https://appsource.microsoft.com/product/dynamics-365/mscrm.mspva_telephony_extension)
    1. [Omnichannel Power Virtual Agent extension](https://appsource.microsoft.com/product/dynamics-365/mscrm.omnichannelpvaextension)
    1. [Omnichannel Voice Power Virtual Agent extension](https://appsource.microsoft.com/product/dynamics-365/mscrm.omnichannelvoicepvaextension)
-- 
 
 ## Chat widget icon does not load on the portal
 
