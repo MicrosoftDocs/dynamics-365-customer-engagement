@@ -1,16 +1,15 @@
 ---
 title: "Enable push notifications for the Field Service (Dynamics 365) mobile app | MicrosoftDocs"
 description: Learn how to enable push notifications for the Field Service (Dynamics 365) mobile app.
-ms.date: 06/18/2021
+ms.date: 04/22/2022
 ms.reviewer: krbjoran
-
 ms.subservice: field-service-mobile
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
+author: JonBaker007
+ms.author: jobaker
 manager: shellyha
 search.app: 
   - D365CE
@@ -188,6 +187,11 @@ The push notifications will be shown to the technician using the mobile phone. F
 
 > [!div class="mx-imgBorder"]
 > ![A mobile phone push notification from Field Service.](./media/mobile-2020-push-notification-result-wf.png)
+
+
+> [!Note]
+> Push notifications are currently not available on Field Service (Dynamics 365) Windows app.
+
 
 ### See also
 
