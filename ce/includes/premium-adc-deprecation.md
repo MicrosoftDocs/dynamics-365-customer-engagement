@@ -1,2 +1,2 @@
 > [!IMPORTANT]
-> Premium auto capture (Preview) will be deprecated on July 1, 2022. After the feature is deprecated, users will stop getting activity and contact suggestions from their Outlook inbox. You can however, enable basic auto capture to help users get activity suggestions from Outlook. More information: [How to enable basic auto capture](#how-to-enable-basic-auto-capture)
+> Premium auto capture (Preview) will be deprecated from July 1, 2022. After the feature is deprecated, users will stop getting contact suggestions from their Outlook inbox. If you've enabled basic auto capture, users will continue to get activity suggestions from Outlook. More information: [How to enable basic auto capture](#how-to-enable-basic-auto-capture)
