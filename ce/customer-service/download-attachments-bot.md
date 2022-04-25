@@ -1,5 +1,5 @@
 ---
-title: "Download attachments from Azure bot| Microsoft Docs"
+title: "Download file attachments from Azure bot| Microsoft Docs"
 description: "This topic includes reference information about downloading attachments from your Azure bot."
 ms.date: 04/26/2022
 ms.topic: reference
@@ -7,13 +7,13 @@ author: lalexms
 ms.author: laalexan
 manager: shujoshi
 ---
-# Download attachments from Azure bot
+# Download file attachments from Azure bot
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 Follow these steps to download attachments from your Azure bot.
 
-1. Get the token for your bot. You can do so by providing your bot's Microsoft AppId and Client Secret. More information: [Connector authentication](/azure/bot-service/rest-api/bot-framework-rest-connector-authentication?view=azure-bot-service-4.0)
+1. Get the token for your bot. You can do so by providing your bot's Microsoft AppId and Client Secret. More information: [Connector authentication](/azure/bot-service/rest-api/bot-framework-rest-connector-authentication?view=azure-bot-service-4.0&preserve-view=true)
 
 2. Fetch the `attachmentId` from the attachment content URL. For example, the `attachmentId` in this URL `https://us-api.asm.skype.com/v1/objects/0-eus-d1-5360689c55c308cb4e3b51722e46b801/` is `0-eus-d1-5360689c55c308cb4e3b51722e46b801`. 
 
