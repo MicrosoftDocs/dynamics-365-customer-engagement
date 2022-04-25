@@ -18,14 +18,16 @@ Promise with a value as Boolean.
 
 ```JavaScript
 // Let there be an event registered to a subscriber.
-handlerFunction = function(eventInput) {
-console.log(eventData);
-if(eventInput != null &&  eventInput != undefined && eventInput.size > 0) {
-inputData = eventInput.get("value");
-correlationId = eventInput.get("correlationId");
-console.log(inputData + " " + correlationId);
-}
-return Promise.resolve();
+handlerFunction = function(eventInput) 
+{
+    console.log(eventData);
+    if(eventInput != null &&  eventInput != undefined && eventInput.size > 0) 
+    {
+        inputData = eventInput.get("value");
+        correlationId = eventInput.get("correlationId");
+        console.log(inputData + " " + correlationId);
+    }
+    return Promise.resolve();
 }
 Microsoft.CIFramework.addHandler("oncustomevent", handlerFunction);
 //Use raiseEvent API to invoke the subscribed handler of the event.
