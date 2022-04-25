@@ -25,6 +25,18 @@ Administrators and IT professionals can use this information to prepare for futu
 > [!Important]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and is fully supported until it is officially removed. This deprecation notification might span a few years. After removal, the feature or capability will no longer work. We are notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
 
+## Premium auto capture will be deprecated
+
+| &nbsp; | &nbsp; | 
+|-------------|------------|
+| Reason for deprecation/removal | Lower adoption. |
+| Replaced by another feature? | Partly. Switch to basic auto capture for activity suggestions. No alternative available for contact suggestions currently.  |
+| Product areas affected | Application |
+| Deployment option | All |
+| Status | Will be removed in July 2022  |
+> [!NOTE]
+> If you’ve added the premium auto capture suggestion grid to your custom app, remove it manually. The grid will not show any suggestions after the feature is deprecated.  
+
 ## Internet Explorer 11 support for Dynamics 365 and Microsoft Power Platform is deprecated
 
 Effective December 2020, Microsoft Internet Explorer 11 support for Microsoft Dynamics 365 and Microsoft Power Platform is deprecated. Internet Explorer 11 won’t be supported after August 2021. 
