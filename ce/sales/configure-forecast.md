@@ -19,6 +19,9 @@ searchScope:
 
 A forecast helps your organization predict how much revenue your sales team will generate in a given time frame. When done correctly, forecasting can play a significant role in your company's success.  
 
+> [!TIP]
+> If you'd like to set up a free trial, go to [Try Dynamics 365 Sales free for 30 days](https://dynamics.microsoft.com/sales/sales/free-trial/).
+
 ## License and role requirements
 | Requirement type | You must have |
 |-----------------------|---------|

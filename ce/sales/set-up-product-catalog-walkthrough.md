@@ -23,8 +23,9 @@ searchScope:
 
 Set up the product catalog with the collection of products that you sell and their pricing information.
 
-> [!NOTE]
-> Product families are only supported for Sales Enterprise and Sales Premium.
+> [!TIP]
+> If you'd like to set up a free trial, go to [Try Dynamics 365 Sales free for 30 days](https://dynamics.microsoft.com/sales/sales/free-trial/).
+
 
 ## License and role requirements
 | Requirement type | You must have |  
@@ -36,6 +37,9 @@ Set up the product catalog with the collection of products that you sell and the
 ## Process for setting up the product catalog
 
  The product catalog is a collection of products and their pricing information. To set up pricing, you need to define the units in which your products are sold, the amount to charge for each unit, and the discounts you want to offer based on volume purchased.  
+
+> [!NOTE]
+> Product families are only supported for Sales Enterprise and Sales Premium.
 
 Watch this video to understand the components of a product catalog and how to set them up:
 

@@ -4,13 +4,12 @@ description: Learn how to enable and set up location auditing for the Dynamics 3
 ms.date: 10/18/2021
 ms.reviewer: krbjoran
 ms.topic: article
-
 ms.subservice: field-service-mobile
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
+author: JonBaker007
+ms.author: jobaker
 manager: shellyha
 search.app: 
   - D365CE
@@ -102,6 +101,10 @@ Here you see a list of locations throughout the day, listed by user.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of real time mode schedule assistant setting.](./media/mobile-geofence-real-time-location-filter.png)
+
+> [!Note]
+> Location tracking is currently not available on Field Service (Dynamics 365) Windows app.
+
 
 ### See also
 
