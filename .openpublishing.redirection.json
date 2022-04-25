@@ -23628,6 +23628,11 @@
       "source_path": "ce/teams-integration/using-teams-chat-in-dynamics.md",
       "redirect_url": "/dynamics365/sales/teams-integration/using-teams-chat-in-dynamics",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales/sales-mobile/use-dictation.md",
+      "redirect_url": "/dynamics365/sales/sales-mobile/dynamics-365-sales-mobile-app",
+      "redirect_document_id": false
     }
   ]
 }
