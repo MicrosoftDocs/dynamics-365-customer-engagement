@@ -27,7 +27,7 @@ Use the information in the following table to know about the availability of the
 
 If the voice channel in Omnichannel for Customer Service for your country or region specific cloud deployments are not yet available, use the general region deployments. For example, country/region cloud for local deployment in the United Kingdom is **To be announced** and is not a part of Europe geographical region availability.
 
- If you want your data to stay within a country or region, stay tuned for country or region specific local deployment of the voice channel. More information: [Datacenter regions](/power-platform/admin/new-datacenter-regions)
+ If you need your data to stay within a country or region, stay tuned for country or region-specific local deployment of the voice channel. More information: [Datacenter regions](/power-platform/admin/new-datacenter-regions)
 
 > [!IMPORTANT]
 > Your Microsoft 365 tenant must be co-located in one of the following geographic locations where Omnichannel for Customer Service is available. These geographic locations refer to your Microsoft 365 tenant only and not the data center where your Dynamics 365 environment or org instance resides.
