@@ -34,10 +34,10 @@ If the voice channel in Omnichannel for Customer Service for your country or reg
 
 |Geographic location | Availability | Availability in Customer Service trial|
 |----------|---------|-----|
-|North America (crm.dynamics.com) <sup> **1** </sup> |November 2021  | November 2021|
-|Europe, Middle East, Africa (crm4.dynamics.com) <sup>**2**</sup> |December 2021 |To be announced|
-|Asia Pacific (crm5.dynamics.com) <sup>**2**</sup> |December 2021 |To be announced|
-|Australia, New Zealand, Fiji (crm6.dynamics.com) <sup>**2**</sup> |December 2021 |To be announced|
+|North America (crm.dynamics.com) |November 2021  | November 2021|
+|Europe, Middle East, Africa (crm4.dynamics.com)|December 2021 |To be announced|
+|Asia Pacific (crm5.dynamics.com) |December 2021 |To be announced|
+|Australia, New Zealand, Fiji (crm6.dynamics.com) |December 2021 |To be announced|
 |South America (crm2.dynamics.com) |To be announced | To be announced|
 |Country/Region clouds: Canada, France, Germany, India, Japan, Switzerland, United Arab Emirates (UAE), United Kingdom |To be announced |To be announced|
 |Government Community Cloud (GCC) (crm9.dynamics.com) |To be announced |To be announced|
@@ -46,17 +46,16 @@ If the voice channel in Omnichannel for Customer Service for your country or reg
 ### Direct offer availability
 
 Azure direct offer or [Microsoft as a carrier](/azure/communication-services/concepts/telephony/telephony-concept) is available for customers with billing locations in the United States, United Kingdom, Ireland, and Puerto Rico.  Azure direct offer supports:
-- the purchase of new US, Puerto Rico, UK (preview), and Denmark (preview) numbers. More information: [Subscription eligibility and number capabilities](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability).
+- the purchase of new US and Puerto Rico numbers. More information: [Subscription eligibility and number capabilities](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability).
 - the porting of existing US or toll-free phone numbers. More information: [Port a phone number](/azure/communication-services/quickstarts/telephony/port-phone-number)
 
- Only the listed billing locations are supported Even if Microsoft as a carrier is available in other regions,. Customers can select a [different carrier](voice-channel-bring-your-own-number.md) by using Azure direct routing.
+ Only the listed billing locations are supported even if Microsoft as a carrier is available in other regions. Customers can select a [different carrier](voice-channel-bring-your-own-number.md) using Azure direct routing.
 
 ### Direct routing availability
 
-Bring your own carrier via [Azure direct routing](/azure/communication-services/concepts/telephony/telephony-concept#azure-direct-routing) is supported globally/across all geographic locations using certified Session Border Controllers (SBCs). More information: [Bring your own carrier](voice-channel-bring-your-own-number.md). 
+Bring your own carrier through [Azure direct routing](/azure/communication-services/concepts/telephony/telephony-concept#azure-direct-routing) is supported across all geographic locations using certified Session Border Controllers. More information: [Bring your own carrier](voice-channel-bring-your-own-number.md). 
 
- In the geographic region where the voice channel is generally available, the Azure direct routing also extends general availability support.
-
+ In the geographic region where the voice channel is generally available, Azure direct routing extends general availability support.
 
 ## Supported languages and locale codes
 
@@ -138,8 +137,8 @@ We use the Azure Cognitive Services Speech service Speech-to-Text for transcript
 | Greek - Greece| `el-GR` |✔|x|✔|✔|✔|x|✔|
 | Gujarati - India | `gu-IN` |x|x|✔|✔|x|x|x|
 | Haitian Creole | `ht` |x|x|x|x|x|x|x|
-| Hebrew - Israel | `he-IL` |✔||✔|✔|✔||✔|
-| Hindi - India | `hi-IN` |✔|✔|✔|✔|✔||✔|
+| Hebrew - Israel | `he-IL` |✔|x|✔|✔|✔|x|✔|
+| Hindi - India | `hi-IN` |✔|✔|✔|✔|✔|x|✔|
 | Hmong Daw | `mww` |x|x|x|x|x|x|x|
 | Hungarian - Hungary | `hu-HU` |✔|x|✔|✔|✔|x|✔|
 | Icelandic - Iceland| `is-IS` |x|x|x|x|x|x|x|
