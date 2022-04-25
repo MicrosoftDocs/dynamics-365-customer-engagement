@@ -1,15 +1,16 @@
 ---
-title: "AI-generated summary for customer service | MicrosoftDocs"
-description: "Learn how AI-generated summary works"
-ms.date: 04/07/2022
+title: AI-generated summary for customer service
+description: View an AI-generated summary of a customer service conversation and share it in Microsoft Teams.
+ms.date: 04/20/2022
 ms.topic: article
 author: mgandham
 ms.author: gandhamm
 manager: shujoshi
 ---
+<!-- Please change the title: View and share an AI-generated conversation summary in Teams -->
 
 # AI-generated summary for ongoing conversations in Microsoft Teams (preview)
-
+<!--Please change the H1: View and share an AI-generated conversation summary in Teams (preview) -->
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
@@ -20,36 +21,38 @@ manager: shujoshi
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
-## Introduction
+Share an AI-generated summary of a customer conversation in Teams to easily collaborate on a case. A summary quickly provides context and relays steps you've already taken to solve the issue.
 
-If your administrator has enabled the AI-generated introductory message and configured the ability to link chats to Dynamics 365 records, you can view and share the AI-generated summary of an ongoing conversation to a contact you want to collaborate with in Microsoft Teams. This reduces the time spent in providing context or summarizing the steps taken to solve the issue, enabling you to provide a quick resolution.
+## View and share a conversation summary
 
-## AI-generated summary based on ongoing conversation 
+<!-- I'm going to edit based on what I see here, but please confirm that UI elements are named correctly and that all steps have been included. For instance, in my testing, I had to open the Teams chats (preview) pane using the "chat" icon in the top menu bar; it didn't open automatically when I opened a case, as suggested here. Also, I see three icons in the right side pane, Recent Cases, Knowledge, and Similar Cases. Is this where Teams chats (preview) should appear? A screenshot would be really helpful! I've added some as a suggestion, but I don't think my system is set up correctly. -->
+When you open a case in the Customer Service workspace, the **Teams chats (preview)** pane appears to the right of the case view.
 
-In the Customer Service workspace, when you open a case, Teams chat (Preview) appears in the app side pane on the right. You can do the following:
+1. Select **New linked chat**.
 
-- Select **New linked chat**. The following options appear:
+    :::image type="content" source="media/cs-ai-generated-summary-new-linked-chat.png" alt-text="Screenshot that shows the New linked chat button in the Teams chats (preview) pane.":::
 
-    - An option to enter participant agent names to create linked chats.
-    - A dropdown list of suggested contacts who have worked on similar and related cases. AI and rules-based suggested contacts are listed if admins have enabled both of these options.
-    - If AI-suggested contacts is enabled, a Resolved similar cases section is displayed in the dropdown list.
-    - If AI-generated summary is enabled, a summary of the chat is displayed in the dropdown list.
+1. Select a contact to start a chat with.  
+    If your administrator has turned on AI and rules-based suggestions, the system suggests contacts you might want to chat with. They include contacts who have experience resolving similar cases, or who are related to the current case. You can select more than one contact if you want to start a group chat.
 
-- The default AI-generated summary is displayed with the following details, from an active conversation, if the **Include introduction message (preview)** checkbox is enabled. By default this checkbox is selected. At least three customer messages are required to generate a summary.
-    - The issue description: the key customer problems to solve in a conversation
-    - The resolution steps: resolution steps the agent has already tried to solve the issue.
+    :::image type="content" source="media/cs-ai-generated-summary-new-linked-chat-contact.png" alt-text="Screenshot of selecting a contact when linking a chat to a case.":::
 
-- You can perform the following optional actions:
-    - Edit the auto-generated summary to provide additional details.
-    - Share feedback about the summary, if you find it helpful or not.
-    - Clear the **Include introduction message (preview)** checkbox to disable the auto-generated summary, if you want to skip it and start the Microsoft Teams chat, immediately.  
- 
- For more details how the AI model works and its limitation, see [Configure AI-generated summary for customer service](cs-enable-ai-generated-summary.md)
+    With at least three customer messages to work from, the AI generates a summary of the conversation. (You won't see a summary if the conversation doesn't include at least three messages from the customer.) The summary includes:
+    <!-- Definitely would like to see a screenshot of this. -->
 
-- Type a participant name or select from the suggested contacts. You can select more than one contact and then select **Start chat**. A conversation is initiated. The AI-generated summary appears on the chat as the introductory message.
+    - The key customer problems to solve
+    - Any steps you've already taken to resolve the issue
 
+    Before you start the chat, you can:
 
-### See also
+    - Edit the summary to provide more details.
+    - Share feedback about the summary.
+    - Clear the **Include introduction message (preview)** checkbox to skip including the summary and start the Teams chat without an introduction.  
 
-[Configure AI-generated summary for customer service](cs-enable-ai-generated-summary.md)                                                 
+    :::image type="content" source="media/cs-ai-generated-summary-new-linked-chat-send-intro.png" alt-text="Screenshot that shows the Include introduction message (preview) checkbox in the Teams chats (preview) pane.":::
 
+1. Select **Start chat**.  
+
+## See also
+
+[Set up AI-generated conversation summary in Dynamics 365 Customer Service](cs-enable-ai-generated-summary.md)
