@@ -18,7 +18,10 @@ searchScope:
 ---
 # Create or edit quotes
 
-Quotes include the pricing details of products your potential customer is interested in. A quote becomes an order once the customer accepts it.
+Quotes include the pricing details of products that your potential customer is interested in.  
+
+> [!TIP]
+> If you'd like to set up a free trial, go to [Try Dynamics 365 Sales free for 30 days](https://dynamics.microsoft.com/sales/sales/free-trial/).
 
 ## License and role requirements
 | Requirement type | You must have |
