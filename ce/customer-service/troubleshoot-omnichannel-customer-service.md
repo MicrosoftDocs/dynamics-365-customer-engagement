@@ -227,11 +227,17 @@ Additionally, you can configure automated messages in Omnichannel for Customer S
 
 ### Issue
 
-Trouble connecting PVA IVR to Voice Workstream.
+The following error message is displayed on the PVA dashboard when connecting the PVA IVR to the Omnichannel voice Workstream.
+> ![Error when no extension](media/handoff-no-extension.png "Configure extensions for voice")
 
 ### Resolution
 
-Ensure that you have enabled voice in your PVA IVR. More information : [Integrate Power Virtual Agents bot for voice](voice-channel-ivr-bots.md)
+If you haven't installed the required extensions, you'll see a message that your bot doesn't have access to the variables or actions it needs. You must install the following extensions in the specified order for the hand-off to work:
+
+   1. [Power Virtual Agents telephony extension](https://appsource.microsoft.com/product/dynamics-365/mscrm.mspva_telephony_extension)
+   1. [Omnichannel Power Virtual Agent extension](https://appsource.microsoft.com/product/dynamics-365/mscrm.omnichannelpvaextension)
+   1. [Omnichannel Voice Power Virtual Agent extension](https://appsource.microsoft.com/product/dynamics-365/mscrm.omnichannelvoicepvaextension)
+- 
 
 ## Chat widget icon does not load on the portal
 
