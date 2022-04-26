@@ -1,2 +1,2 @@
 > [!TIP]
-> If you'd like to set up a free trial, go to [Try Dynamics 365 Customer Service free for 30 days](https://dynamics.microsoft.com/customer-service/customer-service/free-trial/).
+> If you’d like to try Dynamics 365 Customer Service for free, you can sign up for a [30-day trial](https://dynamics.microsoft.com/customer-service/customer-service/free-trial/).

@@ -1,7 +1,7 @@
 ---
 title: Set up rules to automatically create or update records (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to set up rules to automatically create or update records in Dynamics 365 Customer Service
-ms.date: 08/25/2020
+ms.date: 04/26/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
