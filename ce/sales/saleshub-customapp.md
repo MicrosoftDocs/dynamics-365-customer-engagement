@@ -15,7 +15,7 @@ Sales Hub is a Microsoft first-party app that's designed around the sales proces
 
 | **Factors to consider** | **Sales Hub** | **Custom app** |
 | --- | --- | --- |
-| **Time to value and ROI** | The app is available right after setting up the product | A custom app must be built from scratch |
+| **Time to value and ROI** | Faster time to value and greater ROI as the app is available right after setting up the product.| Slower start as the custom app has to be built from scratch. |
 | **Accessibility and adaptability** | Built in, and the UI adapts to multiple devices | The customer's responsibility |
 | **Navigate to forms, entities, and views right after purchasing the product** | Start using the app almost instantly with out-of-the-box forms, entities, and views | If the out-of-the-box objects don't serve your purpose, custom forms, entities, and views must be created |
 | **Time and expertise required** | Minimal | Extensive experience and time required to plan, develop, test, and implement |
@@ -42,14 +42,13 @@ In the second case, assess which application is primary for the persona it cater
 
 Create a custom app when:
 
-- you want an app for roles that fall outside of sales. Examples include senior executives, who just need to see Power BI dashboards and a handful of entities, or an audit supervisor, who only needs to see won opportunities.
+- you want an app for roles that fall outside of the sales org. Examples include senior executives, who just need to see Power BI dashboards and a handful of entities, or an audit supervisor, who only needs to see won opportunities.
 
 - your organization has a custom sales process, and the built-in sales module doesn't meet your needs
 
 - you've created many custom entities and you want to remove all or many of the built-in components
 
-- you want to build an XRM solution that combines multiple work streams and isn't focused on Sales Hub or Customer Service
-<!-- Please either spell out "XRM" (first mention) or reword. -->
+- you want to build a solution that combines multiple work streams and isn't focused on Sales Hub or Customer Service
 
 - you want to keep the application lean without many of the built-in first-party components
 
