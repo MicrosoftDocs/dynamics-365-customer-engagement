@@ -16,11 +16,9 @@ ms.custom: template-how-to
 
 ## Introduction
 
-This topic explains how to create event subscription endpoints to enable recording and SMS services for an Azure resource.
+This article explains how to create event subscription endpoints to enable recording and SMS services for an Azure resource.
 
 ## Create event subscription endpoint for recording
-
-**To create event subscription endpoint for recording**
 
 1. Open the resource on the Azure portal, go to **Events**, and select **Event Subscription**.
 
@@ -61,8 +59,6 @@ This topic explains how to create event subscription endpoints to enable recordi
     > ![Successfully created event subscription endpoints for recording.](./media/voice-channel-event-subscription-recording-success.png "Create event grid callbacks for recording.")
 
 ## Create event subscription endpoint for SMS
-
-**To create event subscription endpoint for SMS**
 
 1. Open the resource on the Azure portal, go to **Events**, and select **Event Subscription**.
 

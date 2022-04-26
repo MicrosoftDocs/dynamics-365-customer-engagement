@@ -530,14 +530,14 @@
           href: voice-channel-connect-new-resource.md
         - name: "Advanced: Connect to an existing Azure resource"    
           href: voice-channel-connect-existing-resource.md 
-        - name: How-to guides
-          items:
-          - name: Get resource and app registration details
-            href: voice-channel-resource-app-details.md
-          - name: Register event grid system topics
-            href: voice-channel-event-grid.md
-          - name: Create event subscription endpoints
-            href: voice-channel-sub-endpoints.md 
+      - name: How-to guides
+        items:
+        - name: Get resource and app registration details
+          href: voice-channel-resource-app-details.md
+        - name: Register event grid system topics
+          href: voice-channel-event-grid.md
+        - name: Create event subscription endpoints
+          href: voice-channel-sub-endpoints.md 
       - name: Manage phone numbers
         href: voice-channel-manage-phone-numbers.md
       - name: Set up inbound calling
