@@ -14,9 +14,9 @@ As an administrator, you decide which users or security roles should have access
 ## License and role requirements
 
 | Requirement type | You must have |
-| --- | --- |
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise (for more information, see [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/)) |
-| **Security roles** | System administrator (for more information, see [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)) |
+|-----------------------|---------|
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
 
 If your organization has [opted in to early access updates](/power-platform/admin/opt-in-early-access-updates), Sales Hub is turned on by default for the following roles:
 
