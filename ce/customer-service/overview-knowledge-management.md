@@ -1,7 +1,7 @@
 ---
 title: Overview of knowledge management (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Learn what is knowledge management in Dynamics 365 Customer Service.
-ms.date: 04/19/2022
+ms.date: 04/26/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -26,6 +26,8 @@ Knowledge management plays a vital role in enabling organizations to deliver wor
 * Knowledge management with its knowledge article base empowers primary service providers, such as agents resolve customer queries right away, thereby increasing agent productivity.
 * Agents get access to rich, high-quality knowledge resources across consistent and contextual Omnichannel experiences which enables quick resolution of issues, thus reducing the average call handling time for agents.
 * Knowledge management search capabilities across channels help reduce support tickets through self-service, and drives customer satisfaction.
+
+    :::image type="content" source="media/km-benefits.png" alt-text="benefits of knowledge management":::
 
 ## Features of knowledge management
 
