@@ -1,7 +1,7 @@
 ---
 title: "Microsoft.CIFramework (JavaScript API Reference) for Channel Integration Framework 2.0 | MicrosoftDocs"
-description: "Includes reference information about the Microsoft.CIFramework JavaScript API Reference for Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 04/04/2022
+description: "Includes reference information about the Microsoft.CIFramework JavaScript methods for Dynamics 365 Channel Integration Framework 2.0."
+ms.date: 04/22/2022
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -64,6 +64,7 @@ Use the following APIs to create and manage the state of an application tab.
 | [getFocusedTab](microsoft-ciframework/getfocusedtab.md) | Returns the tab identifier in a focused session, if the session belongs to the provider.|
 | [refreshTab](microsoft-ciframework/refreshtab.md) | Refreshes the tab. |
 | [setTabTitle](microsoft-ciframework/settabtitle.md) | Sets the title of the tab, if the focused session belongs to the channel provider and if the tab belongs to the session in focus.|
+| [closeTab](microsoft-ciframework/closeTab.md) | Closes the specified tab in the current session. |
 
 ## Session management APIs
 
@@ -119,6 +120,7 @@ Use these APIs to set and retrieve the Omnichannel agent presence programmatical
 | [renderSearchPage](microsoft-ciframework/renderSearchPage.md)| [!INCLUDE[openForm-description](microsoft-ciframework/includes/renderSearchPage-description.md)] |
 | [addHandler](microsoft-ciframework/addHandler.md) | [!INCLUDE[addHandler-description](microsoft-ciframework/includes/addHandler-description.md)] |
 | [removeHandler](microsoft-ciframework/removeHandler.md) | [!INCLUDE[removeHandler-description](microsoft-ciframework/includes/removeHandler-description.md)] |
+| [raiseEvent](microsoft-ciframework/raiseEvent.md) | [!INCLUDE[raiseEvent-description](microsoft-ciframework/includes/raiseEvent-description.md)] |
 | [updateContext](microsoft-ciframework/updateContext.md) | This method allows you to set the automation dictionary. |
 
 ### See also

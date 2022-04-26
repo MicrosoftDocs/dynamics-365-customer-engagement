@@ -9,6 +9,11 @@ manager: shujoshi
 ---
 # Set up Dynamics 365 Sales  
 
+This article explains how to set up Dynamics 365 Sales in your environment.
+
+[!INCLUDE [trial-cta-note](../includes/trial-cta-note.md)]
+
+
 To set up Dynamics 365 Sales, you must complete these general steps.
 
 1. Buy a subscription, or sign up for a free 30-day trial subscription.

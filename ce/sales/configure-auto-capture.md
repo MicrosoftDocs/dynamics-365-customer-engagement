@@ -1,7 +1,7 @@
 ---
 title: "Enable and configure auto capture"
 description: "Configure auto capture to helps your sellers to get suggestions on relevant customer activities by capturing emails and meetings from Outlook."
-ms.date: 10/26/2021
+ms.date: 04/25/2022
 ms.custom: 
 ms.topic: article
 ms.assetid: d4d130c5-3494-4677-9093-0a0e0124d953
@@ -19,6 +19,8 @@ applies_to:
 ---
 # Enable and configure auto capture 
 
+[!INCLUDE [premium-adc-deprecation](../includes/premium-adc-deprecation.md)]
+
 Configure auto capture to helps your sellers to get suggestions on relevant customer activities by capturing emails and meetings from Outlook.
 
 ## License and role requirements
@@ -28,22 +30,23 @@ Configure auto capture to helps your sellers to get suggestions on relevant cust
 | **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 
-## Configure the basic and premium auto capture
+## Configure basic and premium auto capture
 
 When you enable auto capture, you help salespeople in your organization by suggesting relevant customer activities in Microsoft Dynamics 365 Sales by capturing emails and meetings from Outlook.
-
-Auto capture is available in two forms:
-
--	**Auto capture** (also called _basic auto capture_): This feature is available for free with Dynamics 365 Sales Insights for Dynamics 365 Sales. To learn more, see [How to enable auto capture](#how-to-enable-basic-auto-capture).
-
--	**Premium auto capture**: Premium auto capture is available as a preview with Dynamics 365 Sales Insights for Dynamics 365 Sales. To learn more, see [How to enable and configure premium auto capture](#how-to-enable-and-configure-premium-auto-capture).
 
 > [!IMPORTANT]
 > By enabling this feature, you consent to share data about your customers' email activity with an external system. Data imported from external systems into Sales Insights are subject to the [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?linkid=2116778).
 
+
+Auto capture is available in two forms:
+
+-	**Auto capture** (also called _basic auto capture_): Provides activity suggestions from Outlook. This feature is available for free with Dynamics 365 Sales Insights for Dynamics 365 Sales. To learn more, see [How to enable auto capture](#how-to-enable-basic-auto-capture).
+
+-	**Premium auto capture**: Provides activity and contact suggestions from Outlook. Premium auto capture is available as a preview with Dynamics 365 Sales Insights. To learn more, see [How to enable and configure premium auto capture](#how-to-enable-and-configure-premium-auto-capture).
+    
 ## Things you must know
 
-Before you configure auto capture for Dynamics 365 Sales in your organization, note the following:
+Before you configure auto capture, note the following:
 
 -	You can enable both basic and premium auto capture for your organization.
 
@@ -110,6 +113,8 @@ Before you enable premium auto capture, perform the following tasks:
 -	(Optional) Approve the email addresses of users to allow queries against Exchange (this requires tenant-level admin privileges) and set up server-side synchronization. If you don't configure these options, users will be required to provide consent to access their Outlook data. To learn more, see [Approve email](/dynamics365/customer-engagement/admin/connect-exchange-online#approve-email) and [Set up server-side synchronization of email, appointments, contacts, and tasks](/dynamics365/customer-engagement/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks).
 
 ### Enable and configure premium auto capture
+
+[!INCLUDE [premium-adc-deprecation](../includes/premium-adc-deprecation.md)]
 
 1.	Sign in to the Dynamics 365 Sales Hub app, and go to **Change area** > **Sales Insights settings**.
 
