@@ -75,6 +75,8 @@
         href: upgrade-sales-professional-sales-enterprise.md
       - name: Move from Dynamics 365 Sales Enterprise to Professional
         href: move-sales-enterprise-sales-professional.md
+      - name: Upgrade to Sales Premium
+        href: upgrade-sales-premium.md
 - name: Learn the basics
   items: 
     - name: Learn the basics
@@ -100,7 +102,17 @@
     - name: Administration overview
       href: admin-guide.yml
     - name: Digital selling capabilities in Sales Enterprise
-      href: digital-selling.md
+      items:
+        - name: Overview
+          href: digital-selling.md
+        - name: Sales accelerator
+          href: digital-selling-sales-accelerator.md
+        - name: Teams collaboration
+          href: digital-selling-teams-collab.md
+        - name: Teams calls with conversation intelligence
+          href: digital-selling-microsoft-teams-calls.md
+        - name: Lead and opportunity scoring
+          href: digital-selling-scoring.md
     - name: Account and contact management
       items: 
         - name: Enable or disable saving of business card image
