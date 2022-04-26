@@ -10,7 +10,7 @@ manager: shujoshi
 
 # Use the Sales Hub app to access Dynamics 365 Sales features
 
-Sales Hub is a free app from Microsoft. It's preinstalled and comes with several core features to help you get started using Dynamics 365 Sales quickly.  
+Sales Hub is a free app from Microsoft. It's preinstalled and comes with several core sales and sales premium features to help you get started using Dynamics 365 Sales quickly.  
 
 > [!TIP]
 > We recommend that you use the Sales Hub app unless your organization follows unique sales practices that warrant a custom app. For a comparison, see [Sales Hub app versus custom app](saleshub-customapp.md).
@@ -28,13 +28,13 @@ The Sales Hub app has a modern interface that's designed to simplify your day-to
 
 Sales Hub is based on the Unified Interface framework. Highlights include:
 
-- a modern, seamless, and intuitive user interface
+- A modern, seamless, and intuitive user interface
 
-- an adaptive UI that renders content according to the device it runs on
+- An adaptive UI that renders content according to the device it runs on
 
-- a built-in mobile app that lets you complete tasks on the go
+- A built-in mobile app that lets you complete tasks on the go
 
-- built with accessibility in mind
+- An accessible UI
 
 ## Why should you use the Sales Hub app?
 
@@ -50,11 +50,12 @@ Sales Hub is a Microsoft first-party app that's designed for ideal seller experi
 
 - Access premium features, for a specific period, when they're made available (Sales Enterprise users only).
 
-- Customize features as required.
+- Customize the app and configure features as required.
 
 Use the Microsoft documentation to train your sales organization, too. The documentation is based on the Sales Hub app, so there's no need to create custom documentation.
 
-The Sales Hub app can coexist with any custom sales apps that you might have in your organization. To learn the benefits of using the Sales Hub app, see [Sales Hub app versus custom app](saleshub-customapp.md).
+> [!NOTE]
+> The Sales Hub app can coexist with any custom sales apps that you might have in your organization. To learn the benefits of using the Sales Hub app, see [Sales Hub app versus custom app](saleshub-customapp.md).
 
 ## Access the Sales Hub app
 
