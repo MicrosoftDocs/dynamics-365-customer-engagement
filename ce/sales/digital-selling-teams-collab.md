@@ -10,7 +10,7 @@ manager: shujoshi
 
 # Microsoft Teams collaboration
 
-Collaborate using Microsoft Teams with the Dynamics 365 Sales Enterprise license.
+Connect Dynamics 365 and Microsoft Teams so your sales teams can collaborate seamlessly on deals from wherever they work.
 
 ## License and role requirements
 | Requirement type | You must have |

@@ -10,7 +10,7 @@ manager: shujoshi
 
 # Lead and opportunity scoring
 
-Use lead and opportunity scoring with the Dynamics 365 Sales Enterprise license.
+Harness the power of AI to get insights into which deals are most likely to close so your team can prioritize better.
 
 ## License and role requirements
 | Requirement type | You must have |

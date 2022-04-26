@@ -10,7 +10,7 @@ manager: shujoshi
 
 # Microsoft Teams calls with conversation intelligence
 
-Use Microsoft Teams dialer and conversation intelligence with the Dynamics 365 Sales Enterprise license.
+Set up integrated Teams calls with conversation intelligence so your sellers can call customers directly from Dynamics 365 and get real-time insights, rich call summaries, and more.
 
 ## License and role requirements
 | Requirement type | You must have |

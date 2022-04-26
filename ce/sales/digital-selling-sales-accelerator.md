@@ -10,7 +10,7 @@ manager: shujoshi
 
 # Sales accelerator
 
-Use the sales accelerator with the Dynamics 365 Sales Enterprise license.
+Help your team focus on what matters most with a prioritized list of upcoming activities and tasks and everything they need in one place.
 
 ## License and role requirements
 | Requirement type | You must have |
