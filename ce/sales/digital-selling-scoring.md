@@ -35,6 +35,8 @@ When you set up lead and opportunity scoring with the Dynamics 365 Sales Enterpr
 
 1. On the **Get started with digital sales** page, under **Lead and opportunity scoring**, select **Quick setup**.
 
+    :::image type="content" source="media/ds-get-started.png" alt-text="Get started page for setting up digital sales.":::
+
     The **Lead and opportunity scoring quick setup** panel is displayed.
 
     :::image type="content" source="media/ds-scoring-setup.png" alt-text="Lead and opportunity scoring quick setup panel.":::

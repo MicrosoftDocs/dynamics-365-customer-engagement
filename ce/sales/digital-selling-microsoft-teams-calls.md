@@ -34,6 +34,8 @@ When you set up Microsoft Teams calls with conversation intelligence with the Dy
 
 1. On the **Get started with digital sales** page, under **Microsoft Teams calls with conversation intelligence**, select **Quick setup**.
 
+    :::image type="content" source="media/ds-get-started.png" alt-text="Get started page for setting up digital sales.":::
+
     The **Teams calls + conversation intelligence quick setup** panel is displayed.
 
     :::image type="content" source="media/ds-ci-setup.png" alt-text="Teams calls + conversation intelligence quick setup panel.":::

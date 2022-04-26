@@ -28,6 +28,8 @@ Connect Dynamics 365 and Microsoft Teams so your sales teams can collaborate sea
 
 1. On the **Get started with digital sales** page, under **Microsoft Teams collaboration**, select **Quick setup**.
 
+    :::image type="content" source="media/ds-get-started.png" alt-text="Get started page for setting up digital sales.":::
+
     The **Teams collaboration quick setup** panel is displayed.
 
     :::image type="content" source="media/ds-teams-collab-setup.png" alt-text="Teams collaboration quick setup panel.":::

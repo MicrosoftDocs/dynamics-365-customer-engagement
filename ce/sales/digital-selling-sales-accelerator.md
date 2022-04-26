@@ -32,6 +32,8 @@ When you set up the sales accelerator with the Dynamics 365 Sales Enterprise lic
 
 1. On the **Get started with digital sales** page, under **Sales accelerator**, select **Quick setup**.
 
+    :::image type="content" source="media/ds-get-started.png" alt-text="Get started page for setting up digital sales.":::
+
     The **Sales accelerator quick setup** panel is displayed.
 
     :::image type="content" source="media/ds-sa-setup.png" alt-text="Sales accelerator quick setup panel.":::
