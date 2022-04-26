@@ -1,7 +1,7 @@
 ---
 title: Grant or revoke access to the Sales Hub app
 description: Grant or revoke access to Sales Hub to a security role or to specific users.
-ms.date: 04/18/2022
+ms.date: 04/26/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
