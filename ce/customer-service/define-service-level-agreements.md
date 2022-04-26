@@ -20,6 +20,8 @@ ms.custom:
 
 # Define service-level agreements
 
+[!INCLUDE[cc-trial-sign-up](../includes/cc-trial-sign-up.md)]
+
 ## Introduction
 
 Service-level agreements (SLAs) enable businesses to track support policies and ensure customers are being supported per the support policy to which they are entitled. Businesses use SLAs to govern support products that customers either receive as part of their purchase or add on to their purchase. SLAs include policy details such as how quickly a customer is entitled to receive support, how many support requests a customer can make, and how long after purchases a customer can be supported as part of the agreement.  
