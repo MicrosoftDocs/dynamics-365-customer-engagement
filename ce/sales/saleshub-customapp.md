@@ -1,7 +1,7 @@
 ---
 title: Sales Hub app versus custom app
 description: Learn when to use the Sales Hub app or a custom app.
-ms.date: 04/18/2022
+ms.date: 04/26/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
