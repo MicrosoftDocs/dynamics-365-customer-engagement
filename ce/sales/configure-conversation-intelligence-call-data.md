@@ -97,7 +97,7 @@ Upload the call recording or transcript to the created call recording repository
     |&nbsp;| `opportunity` | (Optional) Specifics the CRM opportunity details that are related to the conversation. The opportunity is an object that contains `id`. |
     |&nbsp;| `activity` | (Optional) Specifics the CRM activity details that are related to the conversation. The activity is an object that contains `id`. |
     |&nbsp;| `mediaReferenceId` | (Optional) Specifics the CRM media reference ID (Guid). |
-    | `locale` | &mdash; | Specifies the locale used in the conversation. Currently, we support en-US, en-GB, de-DE, fr-FR, it-IT, es-ES, es-MX, ja-JP, pt-BR, zh-CN, nl-NL, fr-CA, pt-PT, he-IL, da-DK, sv-SE, fi-FI, and ar-BH. |
+    | `locale` | &mdash; | Specifies the locale used in the conversation. Currently, we support en-US, en-GB, de-DE, fr-FR, it-IT, es-ES, es-MX, ja-JP, pt-BR, zh-CN, nl-NL, fr-CA, pt-PT, he-IL, da-DK, sv-SE, fi-FI, nb-NO, and ar-BH. |
     | `version` | &mdash; | Specifies the version of metadata file. The value is 3.0.0. |
     | `title` | &mdash; | (Optional) Specifies the title of the conversation. |
     | `scope` | &mdash; | (Optional) Specifies whether the conversation is internal or external. The value is External or Internal. |
