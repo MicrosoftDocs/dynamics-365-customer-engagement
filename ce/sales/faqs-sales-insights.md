@@ -314,14 +314,18 @@ It takes a few seconds to display the results.​
 
 ## Who knows whom
 
+### Why am I not seeing some of the contacts in the suggestions?
+
+The contacts might not be part of your org. If your company has multiple orgs in Dynamics 365, you will see contacts only from your org. Prior to June 2022, the contact suggestions grid showed contacts across all the orgs of the tenant. After June 2022, the suggestions will be specific to your org.  
+
 ### What do I need in order to use Who knows whom?
 Who knows whom requires Microsoft 365 Exchange. The graph is built only on user accounts situated in the United States. Geo availability will expand as Sales Insights becomes available in more regions. Server-side sync is required for email introduction requests. ​
 
 ### How long will it take for results to appear?
 It takes about one to three days for results to populate the graph the first time. Later, updates take three to six days, depending on the new activities included in the graph.​
 
-### ​Who will be included in the graph?
-Everyone in the tenant is included in the graph. Administrators or users have the option to opt out users or groups such as C-suite, M&A, finance, and so on. To opt out of the connection graph, see [Opt out of connection graph](who-knows-whom.md#opt-out-of-the-connection-graph).​
+### ​Who will be included in the contact suggestions?
+Everyone in the org is included in contact suggestions. Currently, users can't opt out or get their names removed from contact suggestions. ​
 
 ### ​How are the connections weighted?
 The connection strength is weighted by a combination of how well the signed-in user knows the intermediary, and how well the intermediary knows the target contact or lead. This means that a salesperson might not see the same results as another salesperson does, because they know different people in the organization.

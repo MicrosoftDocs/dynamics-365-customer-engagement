@@ -20,7 +20,7 @@ When the consent is provided, the application analyzes Exchange emails data pert
 > [!TIP]
 > For more information on how relationship analytics uses Office 365 data, see [Use relationship analytics to gather KPIs](./relationship-analytics.md).
 
-If you're an Office 365 administrator, here's how to provide consent:
+If you're an Office 365 administrator, here's how you provide consent:
 
 1. In **Microsoft 365 admin center**, select **Settings** > **Org settings** > **Dynamics 365 Applications**.
 
@@ -31,7 +31,7 @@ If you're an Office 365 administrator, here's how to provide consent:
     > [!NOTE]
     > The consent provided is applicable to all the Dynamics 365 applications that require **Insights for other users** permission.  
       
-    Relationship analytics can now connect to the Exchange server to fetch data.
+    Relationship analytics and Who knows whom features can now connect to the Exchange server to fetch data.
 
 ### See also
 
