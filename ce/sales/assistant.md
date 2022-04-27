@@ -17,8 +17,7 @@ caps.latest.revision: 22
 
 The assistant (formerly known as Relationship Assistant) is part of Dynamics 365 Sales Insights. The assistant keeps an eye on your daily actions and communications, and helps you stay on top of your day with insight cards that are displayed prominently throughout the application to provide tailored and actionable insights. 
 
-> [!TIP]
-> If you'd like to set up a free trial, go to [Try Dynamics 365 Sales free for 30 days](https://dynamics.microsoft.com/sales/sales/free-trial/).
+[!INCLUDE [trial-cta-note](../includes/trial-cta-note.md)]
 
 Some ways the assistant reminds you of upcoming activities are:
 
