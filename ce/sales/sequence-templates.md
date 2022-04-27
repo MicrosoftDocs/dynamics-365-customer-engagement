@@ -1,6 +1,6 @@
 ---
-title: "Working with sequence templates"
-description: "Create sequence using sequence templates in Dynamics 365 Sales."
+title: "Sequence templates"
+description: "Sequence templates provide a set of activities to guide sellers with the next best action to take in a specific scenario."
 ms.date: 04/30/2022
 ms.topic: article
 author: udaykirang
@@ -10,7 +10,7 @@ manager: shujoshi
 
 # Sequence templates
 
-Create sequence using sequence templates in Dynamics 365 Sales.
+Sequence templates provide a set of activities to guide sellers with the next best action to take in a specific scenario.
 
 ## License and role requirements
 | Requirement type | You must have |
@@ -20,7 +20,7 @@ Create sequence using sequence templates in Dynamics 365 Sales.
 
 ## Using sequence templates
 
-You can use sequence templates to quickly get started with sequences. Sequence templates provide a set of activities to guide sellers with the next best action to take in a specific scenario, such as getting introduced to a lead and winning a deal.
+You can use sequence templates to quickly get started with sequences. Sequence templates provide a set of activities to guide sellers with the next best action to take in a specific scenario, such as getting introduced to a lead and winning the deal.
 
 Sequence templates are available for common scenarios, such as an incoming lead on a website. You can customize the template by adding and removing steps as per your organization’s requirements. The following templates are available by default: 
 

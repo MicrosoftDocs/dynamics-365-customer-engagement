@@ -27,9 +27,9 @@ Every organization has its own selling processes for sellers to follow. A sequen
 
 4. In the **Create a sequence** dialog, select one of the following options to create the sequence:  
 
-    - **Use template**: Use the templates, you can get started by quickly setting up sequences. Sequence templates provide a set of activities to guide sellers with what’s coming next in the up next widget to achieve a task, such as getting introduced to a lead and winning a deal. More information: [Sequence templates](sequence-templates.md)  
+    - **Use template**: Use the templates to quickly set up sequences. Sequence templates provide a set of activities to guide sellers with what’s coming next in the up next widget to achieve a task, such as getting introduced to a lead and winning the deal. More information: [Sequence templates](sequence-templates.md)  
     
-    - **Use blank sequence**: Use the blank sequence to create a sequence from scratch.   
+    - **Use blank sequence**: Use a blank sequence to create a sequence from scratch.   
         
     > [!div class="mx-imgBorder"]
     > ![Select an option to create a sequence.](media/sequence-select-option-create-sequence.png "Select an option to create a sequence")     
