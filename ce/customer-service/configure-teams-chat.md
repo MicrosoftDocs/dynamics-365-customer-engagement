@@ -31,7 +31,7 @@ ms.custom:
 
 ## Introduction
 
-You can configure the ability for agents to chat in Microsoft Teams from within Customer Service admin center, Customer Service Hub, Customer Service workspace, and your custom apps. Teams chat is also available in other customer engagement apps such as Dynamics 365 Field Service and Dynamics 365 Sales.
+You can configure the ability for agents to chat in Microsoft Teams from within Customer Service Hub, Customer Service workspace, and your custom apps. Teams chat is also available in other customer engagement apps such as Dynamics 365 Field Service and Dynamics 365 Sales.
 
 > [!NOTE]
 > Teams settings apply across all supported customer engagement apps. Whether you enable the feature from Customer Service Hub or a custom app, it'll be enabled for all supported customer engagement apps.
@@ -86,18 +86,10 @@ The following data security and privacy considerations apply for Teams chat func
 
 ### Access the Teams settings
 
-1. In Dynamics 365, go to one of the apps and perform the following steps.
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-     
-     1. In the site map, select **Productivity** in **Agent experience**.
-     2. On the **Productivity** page, select **Manage** for **Microsoft Teams integration**.
+ 
 
-   ### [Customer Service Hub](#tab/customerservicehub)
-    
-    1. Go to **Service Management**, and in the site map, select **Service Management**.
-    2. In **Collaboration**, select **Embedded chat using Teams**.
-
+1. In Customer Service Hub go to **Service Management**, and in the site map, select **Service Management**.
+1. In **Collaboration**, select **Embedded chat using Teams**.
 1. On the **Microsoft Teams collaboration and chat** page, turn on the toggle for the following settings:
 
    - **Turn on Microsoft Teams chats inside Dynamics 365 (preview)** 
@@ -107,7 +99,7 @@ The following data security and privacy considerations apply for Teams chat func
       > ![Enable the Microsoft Teams chat experience in Dynamics 365 Customer Service.](media/teams-chat-enable-cs.png "Enable the Microsoft Teams chat experience")
     
 1. Save the changes.<br>
-   The preview is now enabled for the Dynamics 365 Customer Service admin center, Customer Service Hub, Customer Service workspace, and your custom apps (and also Field Service and Sales customer engagement apps, if you're using them). You can open a record and verify if you’re able to view the chats and channels related to the record.
+   The preview is now enabled for the Dynamics 365 Customer Service Hub, Customer Service workspace, and your custom apps (and also Field Service and Sales customer engagement apps, if you're using them). You can open a record and verify if you’re able to view the chats and channels related to the record.
     
 
 ### Add the Teams chat settings page for specific multisession users
@@ -153,7 +145,7 @@ Once you’ve enabled Teams chats, you can link the chats to different record ty
 
 **To add a record type to link chats to in Dynamics 365 records**
 
-1.	In Customer Service admin center or Customer Service Hub, open the **Microsoft Teams collaboration and chat settings** page.
+1.	In Customer Service Hub, open the **Microsoft Teams collaboration and chat settings** page.
 	
 1. Under **Link chats to Dynamics 365 records**, select **Add record types**.
 	
@@ -202,7 +194,7 @@ You can assign the ability to unlink chats to record owners or users who linked 
 
 **To enable or disable user-specific rights to unlink chats:**
 
-1. In the Customer Service Hub app, go to **Collaboration settings**.
+1. In the Customer Service Hub, go to **Collaboration settings**.
 1. Select the record type (for example, **Case**), and then from the linked chat settings pane, toggle on or off **Record owner can unlink** and/or **Chat linker can unlink**, depending on your preferences.
 
     > [!div class="mx-imgBorder"] 
@@ -269,7 +261,7 @@ The ability for users to join existing chats related to cases is especially usef
 
 **To turn on or off the join chat capability for a record type**:
 
-1. In the Customer Service Hub app, select **Change area** in the lower-left corner, and then select **Service Management**.
+1. In the Customer Service Hub, select **Change area** in the lower-left corner, and then select **Service Management**.
 1. Under **Microsoft Teams Integration**, select **Collaboration**.
 1. Select the specific record type (for example, Case), and then in the settings pane, toggle **Join chat** on or off.
 
