@@ -559,21 +559,21 @@
       - name: Share and update Dynamics 365 records within Microsoft Teams conversation
         items:
         - name: Overview
-          href: share-d365-record-overview.md
+          href: teams-integration/share-d365-record-overview.md
         - name: Work with the Dynamics 365 app
           items:
           - name: Access the Dynamics 365 app through messaging extensions
-            href: access-d365-app.md
+            href: teams-integration/access-d365-app.md
           - name: Edit settings of the Dynamics 365 app
-            href: edit-d365-app.md
+            href: teams-integration/edit-d365-app.md
           - name: Share feedback
-            href: share-feedback-d365-app.md
+            href: teams-integration/share-feedback-d365-app.md
         - name: Share a record in Teams conversation
-          href: share-dynamics-records-in-teams.md
+          href: teams-integration/share-dynamics-records-in-teams.md
         - name: View and update record details
-          href: view-update-dynamics-records.md
+          href: teams-integration/view-update-dynamics-records.md
         - name: Add chat messages to Dynamics 365 as notes or tasks
-          href: add-chat-d365.md
+          href: teams-integration/add-chat-d365.md
       - name: Make and receive calls using Microsoft Teams
         items:
         - name: Make and receive calls through Microsoft Teams
