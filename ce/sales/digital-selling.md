@@ -34,7 +34,7 @@ To use digital selling capabilities, you must have Sales Hub installed. If you d
 
 ## Licensing options
 
-When you set up digital sales with Sales Enterprise license, you get to explore Sales Premium features such as the sales accelerator, conversation intelligence, and predictive scoring with a limited monthly capacity. If you need more capacity or would like access to all the premium features, you must upgrade to Dynamics 365 Sales Premium. The following table contains information about the capacity available with the Sales Enterprise and Sales Premium licenses.
+When you set up digital sales with Sales Enterprise license, you get to explore Sales Premium features such as the sales accelerator, conversation intelligence, and predictive scoring with a limited monthly capacity. If you need more capacity or would like access to all the premium features, you must [upgrade to Dynamics 365 Sales Premium](upgrade-sales-premium.md). The following table contains information about the capacity available with the Sales Enterprise and Sales Premium licenses.
 
 
 |Festure  |Sales Enterprise license  |Sales Premium license  |
