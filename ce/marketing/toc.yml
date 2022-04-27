@@ -216,13 +216,13 @@
         href: real-time-marketing-channel-optimization.md
     - name: Customer engagement
       items: 
-      - name: Event-based journeys
+      - name: Trigger-based journeys
         items:
-        - name: Create an event-based journey
-          href: real-time-marketing-event-based-journey.md
+        - name: Create a trigger-based journey
+          href: real-time-marketing-trigger-based-journey.md
         - name: Real-time marketing triggers
           href: real-time-marketing-triggers.md
-        - name: "Preview: Trigger an action outside of a journey"
+        - name: Trigger an action outside of a journey
           href: real-time-marketing-custom-actions.md
         - name: Create custom triggers
           href: real-time-marketing-custom-triggers.md
