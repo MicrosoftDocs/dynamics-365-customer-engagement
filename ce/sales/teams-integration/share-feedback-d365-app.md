@@ -11,7 +11,7 @@ manager: shujoshi
 
 # Share feedback (production-ready preview)
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 If you have any feedback about the Dynamics 365 app, you can share it from within the app.
 

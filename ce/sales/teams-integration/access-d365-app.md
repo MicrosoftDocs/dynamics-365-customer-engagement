@@ -11,7 +11,7 @@ manager: shujoshi
 
 # Access the Dynamics 365 app through messaging extensions (production-ready preview)
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 If you've already added the Dynamics 365 app to Teams, proceed with the [Access the Dynamics 365 app](#access-the-dynamics-365-app) section. If you haven't added the app to Teams, proceed with the [Add the Dynamics 365 app](#add-the-dynamics-365-app) section.
 

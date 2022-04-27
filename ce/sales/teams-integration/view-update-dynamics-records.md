@@ -11,6 +11,8 @@ manager: shujoshi
 
 # View and update record details (production-ready preview)
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
 After you receive a card in a Teams chat, you can view its details and update them as required.
 
 1.  In a record card whose details you want to update, select one of the following:

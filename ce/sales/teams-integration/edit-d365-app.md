@@ -11,7 +11,7 @@ manager: shujoshi
 
 # Edit settings of the Dynamics 365 app (production-ready preview)
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 1.  [Access the Dynamics 365 app](access-d365-app.md#access-the-dynamics-365-app).
 

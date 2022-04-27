@@ -11,6 +11,8 @@ manager: shujoshi
 
 # Share Dynamics 365 records within Microsoft Teams conversations (production-ready preview)
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
 Discussing a particular opportunity on Teams? Share the record of the chat conversation and let participants view it without navigating away from Teams. You can share any Dynamics 365 record on Teams channels and chat conversations.
 
 ## Share a Dynamics 365 record through search

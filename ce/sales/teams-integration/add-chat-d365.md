@@ -11,6 +11,8 @@ manager: shujoshi
 
 # Add chat messages to Dynamics 365 as notes or tasks (production-ready preview)
 
+[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
 While you're in a conversation about a particular record, you might discuss certain action items, or important points that you want to capture in Dynamics 365. The app makes it easy for you to add such messages as notes or tasks to the corresponding record.
 
 **To add a chat message to a Dynamics 365 record:**
