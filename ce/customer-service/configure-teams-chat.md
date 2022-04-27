@@ -88,7 +88,7 @@ The following data security and privacy considerations apply for Teams chat func
 
  
 
-1. In Customer Service Hub go to **Service Management**, and in the site map, select **Service Management**.
+1. In Customer Service Hub, go to **Service Management**, and in the site map, select **Service Management**.
 1. In **Collaboration**, select **Embedded chat using Teams**.
 1. On the **Microsoft Teams collaboration and chat** page, turn on the toggle for the following settings:
 
@@ -194,7 +194,7 @@ You can assign the ability to unlink chats to record owners or users who linked 
 
 **To enable or disable user-specific rights to unlink chats:**
 
-1. In the Customer Service Hub, go to **Collaboration settings**.
+1. In Customer Service Hub, go to **Collaboration settings**.
 1. Select the record type (for example, **Case**), and then from the linked chat settings pane, toggle on or off **Record owner can unlink** and/or **Chat linker can unlink**, depending on your preferences.
 
     > [!div class="mx-imgBorder"] 
@@ -261,7 +261,7 @@ The ability for users to join existing chats related to cases is especially usef
 
 **To turn on or off the join chat capability for a record type**:
 
-1. In the Customer Service Hub, select **Change area** in the lower-left corner, and then select **Service Management**.
+1. In Customer Service Hub, select **Change area** in the lower-left corner, and then select **Service Management**.
 1. Under **Microsoft Teams Integration**, select **Collaboration**.
 1. Select the specific record type (for example, Case), and then in the settings pane, toggle **Join chat** on or off.
 
