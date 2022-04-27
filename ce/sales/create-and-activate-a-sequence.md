@@ -23,18 +23,18 @@ Every organization has its own selling processes for sellers to follow. A sequen
 2. Under **Sales accelerator**, select **Sequence**.  
 3. On the **Sequences** page, select **New sequence**.   
     > [!div class="mx-imgBorder"]
-    > ![Select new to create a sequence.](media/sequence-select-new-sequence.png "Select new to create a sequence")   
+    > ![Select New to create a sequence.](media/sequence-select-new-sequence.png "Select New to create a sequence")   
 
 4. In the **Create a sequence** dialog, select one of the following options to create the sequence:  
 
-    - **Use template**: Use the templates, you can get started by quickly setting up sequences. Sequence templates provide a set of activities to guide sellers with what’s coming next in the up next widget to achieve a task, such as getting introduced to a lead and winning a deal. More information: [Sequence templates](sequence-templates.md)  
+    - **Use template**: Using a template, you can quickly get started setting up sequences. Sequence templates provide a set of activities to guide sellers with the next best action to take<!--note from editor: To echo what you wrote in sequence-templates.md--> to achieve a task, such as getting introduced to a lead or winning a deal. More information: [Sequence templates](sequence-templates.md)  
     
     - **Use blank sequence**: Use the blank sequence to create a sequence from scratch.   
         
     > [!div class="mx-imgBorder"]
     > ![Select an option to create a sequence.](media/sequence-select-option-create-sequence.png "Select an option to create a sequence")     
 
-5. In the **Define sequence properties** dialog, enter the following information as required:
+5. In the **Define sequence properties** dialog, enter the following information.
 
     | Parameter | Description |
     |-----------|-------------|
@@ -45,8 +45,8 @@ Every organization has its own selling processes for sellers to follow. A sequen
     > [!div class="mx-imgBorder"]
     > ![Create a sequence dialog.](media/sequence-create-sequence.png "Create a sequence dialog")   
 
-5. Select **Next**.   
-6. Choose and configure one of the following steps:      
+6. Select **Next**.   
+7. Choose and configure one of the following steps:      
     - [Email activity](#email-activity)
     - [Automated email activity](#automated-email-activity)
     - [Phone call activity](#phone-call-activity)
@@ -58,25 +58,25 @@ Every organization has its own selling processes for sellers to follow. A sequen
     > [!div class="mx-imgBorder"]
     > ![Choose an activity type.](media/sequence-choose-activity.png "Choose an activity type")       
     
-7. Select the **Add** icon, and then repeat step 7 for all the activities that you want to add to the sequence.    
-8. Select **More options** in the upper-right corner of the page, and then select **Save**.    
-9. Select **More options** again, and then select **Activate** to activate the sequence.   
+8. Select the **Add** icon, and then repeat step 7 for all the activities that you want to add to the sequence.
+9. In the upper-right corner of the page, select **More options**, and then select **Save**.    
+10. Select **More options** again, and then select **Activate** to activate the sequence.   
     >[!NOTE]
     >You can have up to 250 active sequences at a time in your organization.        
-10. Select **Yes** in the confirmation message that appears.   
+11. Select **Yes** in the confirmation message that appears.   
     > [!NOTE]
     > An error might occur if you've added **Set wait time** as the last activity of the sequence. You must delete this last **Set wait time** activity, and then save and activate the sequence.       
 
-    The sequence is activated and listed in the sequence designer home page. 
+The sequence is activated and listed in the sequence designer home page. 
 
-    > [!NOTE]
-    > On the sequence home page, you can do the following tasks:
-    > - Sort and filter the records based on the column options. Select the down arrow icon corresponding to column header, and then select the sort and filter options that are available.
-    > - Reorder the columns by dragging-and-dropping at the location you want in the grid.
-    > - Search is available only on the name and description of the sequence.
+> [!NOTE]
+> On the sequence home page, you can do the following tasks:
+> - Sort and filter the records based on the column options. Expand the column header, and then select the sort and filter options that are available.
+> - Reorder the columns by dragging them to the location you want in the grid.
+> - Search is available only on the name and description of the sequence.
    
-    > [!div class="mx-imgBorder"]
-    > ![Sequence designer home page.](media/sequence-home-page.png "Sequence designer home page")    
+> [!div class="mx-imgBorder"]
+> ![Sequence designer home page.](media/sequence-home-page.png "Sequence designer home page")    
 
 Next, you connect the active sequence to lead or opportunity records. More information: [Connect a sequence to records](connect-a-sequence-to-records.md)
 
