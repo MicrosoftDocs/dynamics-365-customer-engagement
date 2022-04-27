@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/marketing/real-time-marketing-event-based-journey.md",
+      "redirect_url": "real-time-marketing-trigger-based-journey",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/marketing/real-time-marketing-predefined-tokens.md",
       "redirect_url": "real-time-marketing-predefined-dynamic-text",
       "redirect_document_id": "false"
