@@ -2,7 +2,7 @@
 title: "Connect Exchange Online to Dynamics 365 Customer Engagement (on-premises)"
 description: "Follow these steps to configure server-based authentication between Dynamics 365 Customer Engagement (on-premises) and Exchange Online."
 ms.custom: ""
-ms.date: "03/08/2022"
+ms.date: "04/27/2022"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
