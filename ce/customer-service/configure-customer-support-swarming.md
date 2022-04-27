@@ -71,21 +71,9 @@ To configure customer support swarming, you must have administrator privileges a
 
 ### Turn on Embedded chat using Teams
 
-In Dynamics 365, go to one of the apps and perform the following steps.
-   
- #### Customer Service admin center (preview)
-     
-   > [!IMPORTANT]
-   > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-     
-   1. In the site map, select **Collaboration** in **Experiences**.
-   2. On the **Embedded chat using Teams** page, toggle on **Turn on Microsoft Teams chats inside Dynamics 365 (preview)**.
-
- #### Customer Service Hub
-    
-  1. Go to **Service Management**.
-  2. In **Collaboration** in the site map, select **Embedded chat using Teams**.
-  3. Toggle on **Turn on Microsoft Teams chats inside Dynamics 365 (preview)**.
+1. In Customer Service Hub, go to **Service Management**.
+1. In **Collaboration** in the site map, select **Embedded chat using Teams**.
+1. Toggle on **Turn on Microsoft Teams chats inside Dynamics 365 (preview)**.
    
 
 ### Activate case details on swarms
