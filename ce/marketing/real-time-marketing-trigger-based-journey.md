@@ -1,7 +1,7 @@
 ---
-title: "Create an event-based journey (Dynamics 365 Marketing) | Microsoft Docs"
-description: "Learn how to create a real-time marketing event-based journey in Dynamics 365 Marketing."
-ms.date: 03/21/2022
+title: "Create a trigger-based journey (Dynamics 365 Marketing) | Microsoft Docs"
+description: "Learn how to create a real-time marketing trigger-based journey in Dynamics 365 Marketing."
+ms.date: 04/27/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -17,16 +17,16 @@ search.app:
   - D365Mktg
 ---
 
-# Create an event-based journey
+# Create a trigger-based journey
 
 > [!Note]
-> “Event triggers” are now called “triggers” in the app and the documentation. The change was made to avoid confusion when referencing event management functionality versus triggering real-time marketing event-based journeys.
+> “Event triggers” are now called “triggers” in the app and the documentation. The change was made to avoid confusion when referencing event management functionality versus triggering real-time marketing journeys.
 
-Event-based customer journeys enable you to react to customers’ actions in real time. Journeys can be triggered based on real-world interactions like walking into a store and connecting to Wi-Fi. Journeys can also be triggered by virtual interactions such as visiting a shopping website. The real-time nature of the journey ensures that you can respond to customers immediately and convert their expression of interest into a sale.
+Trigger-based customer journeys enable you to react to customers’ actions in real time. Journeys can be triggered based on real-world interactions like walking into a store and connecting to Wi-Fi. Journeys can also be triggered by virtual interactions such as visiting a shopping website. The real-time nature of the journey ensures that you can respond to customers immediately and convert their expression of interest into a sale.
 
-## Creating an event-based journey for abandoned cart reminders
+## Creating a trigger-based journey for abandoned cart reminders
 
-To illustrate the capabilities of event-based journeys, we'll create a personalized, multichannel, event-based journey that can be used to bring prospective buyers with abandoned carts back to your website to complete their purchase.  
+To illustrate the capabilities of trigger-based journeys, we'll create a personalized, multichannel, trigger-based journey that can be used to bring prospective buyers with abandoned carts back to your website to complete their purchase.  
 
 ## Prerequisites
 
@@ -48,14 +48,14 @@ You can build the journey while the content is in the **Draft** state. To publis
 
 ## Set the journey start
 
-When creating an event-based journey, you can specify the following properties to configure how customers start the journey:
+When creating a trigger-based journey, you can specify the following properties to configure how customers start the journey:
 
 - **Choose a trigger**: This is the trigger that customers must perform to start the journey. We want customers to start the journey when they abandon their cart, so select the *Abandoned cart* event as the trigger.
 - **Repeating this journey**: Specify whether a customer can repeat the journey and how soon can they repeat it if they perform the trigger again. For an abandoned cart reminder journey, this can be *immediately* because the *Abandoned cart* event is triggered only once for every abandoned cart. For other types of journeys, especially those involving triggers that are more frequent (like visiting a website), you might want to consider adding some delay before letting people repeat the journey.  
 - **Start date and time**: Customers can start the journey only if they perform the trigger after this start date and time. Select today's date if you want the journey to start listening to the abandoned cart trigger immediately after it has been published.  
 
 > [!div class="mx-imgBorder"]
-> ![Create an event-based journey screenshot.](media/real-time-marketing-event-based-journey.png "Create an event-based journey screenshot")
+> ![Create a trigger-based journey screenshot.](media/real-time-marketing-trigger-based-journey.png "Create a trigger-based journey screenshot")
 
 Additional configurations for starting the journey can be found in the journey task pane. See [Real-time marketing journey tile reference](real-time-marketing-tile-reference.md).
 
@@ -64,14 +64,14 @@ Additional configurations for starting the journey can be found in the journey t
 The goal for this journey is to drive a purchase. You can use the *Purchase completed* trigger to track and capture when users meet this goal. The **Amount of people needed for this goal** can be set to 50 percent to indicate that you want at least 50 percent of customers who abandon carts and are targeted by this journey to go on to complete the purchase.
 
 > [!div class="mx-imgBorder"]
-> ![Set the journey goal screenshot.](media/real-time-marketing-event-based-journey-goal.png "Set the journey goal screenshot")
+> ![Set the journey goal screenshot.](media/real-time-marketing-trigger-based-journey-goal.png "Set the journey goal screenshot")
 
 ## Set the journey exit
 
 By default, customers leave the journey when they’ve completed all the steps. However, you can set additional journey exits using triggers. Setting the journey exit to a trigger provides an easy way to remove customers who perform the trigger from the journey, ensuring that customers don’t receive irrelevant messages from your customer journey. For this journey, you want to make sure to only send reminder messages if customers haven’t yet completed their purchase. By setting the journey exit to the *Purchase completed* event, you can ensure that the moment any customer completes the purchase, they’ll exit the journey and will no longer receive the reminder messages.
 
 > [!div class="mx-imgBorder"]
-> ![Set journey exit screenshot.](media/real-time-marketing-event-based-journey-exit.png "Set journey exit screenshot")
+> ![Set journey exit screenshot.](media/real-time-marketing-trigger-based-journey-exit.png "Set journey exit screenshot")
 
 ## Add the abandoned cart reminders
 
@@ -84,7 +84,7 @@ Use the plus sign (**+**) on the journey canvas to add the abandoned cart remind
 1. **Send a push notification**: As the final step, send the *Final push notification* reminder.
 
 > [!div class="mx-imgBorder"]
-> ![Abandoned cart journey screenshot.](media/real-time-marketing-event-based-abandoned-cart-journey.png "Abandoned cart journey screenshot")
+> ![Abandoned cart journey screenshot.](media/real-time-marketing-trigger-based-abandoned-cart-journey.png "Abandoned cart journey screenshot")
 
 ## Publish the journey
 
