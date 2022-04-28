@@ -10,7 +10,7 @@ manager: shujoshi
 
 # Sales accelerator
 
-Help your team focus on what matters most with a prioritized list of upcoming activities and tasks and everything they need in one place.
+Help your team focus on what matters most with a prioritized list of upcoming activities and tasks.
 
 ## License and role requirements
 | Requirement type | You must have |
@@ -95,7 +95,7 @@ If you're using the sales accelerator with your Sales Enterprise license, you ge
 
   The **Sales accelerator usage** panel is displayed with the following information:
 
-  - **Connected records**: Displays the total number of records connected to sequences so far in the current month. If the monthly limit is exceeded in a month (for Sales Enterprise license users), a warning symbol is displayed .
+  - **Connected records**: Displays the total number of records connected to sequences so far in the current month. If the monthly limit is exceeded in a month (for Sales Enterprise license users), a warning symbol is displayed.
 
   - **Monthly average**: Displays the average number of records connected to sequences over the last six full months of usage.
 
