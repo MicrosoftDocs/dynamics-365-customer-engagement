@@ -19,9 +19,7 @@ searchScope:
   - Dynamics 365
   - Sales
 ---
-# Preview: Find and add multiple products to quotes, orders, or invoices
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# Find and add multiple products to quotes, orders, or invoices
 
 Use the enhanced experience to quickly identify and add multiple products from the catalog to opportunities.
 
@@ -57,12 +55,6 @@ As a salesperson, you want to be able to easily identify and add products from t
 
 [!INCLUDE [add-products-experience-on-mobile](../includes/add-products-experience-on-mobile.md)]
 
-> [!IMPORTANT]
->
-> - The enhanced experience for adding products is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-> - [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
-> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-
 If you've created a quote from an opportunity, the products added to the opportunity are automatically added to the quote. You can add more products or remove the existing ones.
 
 ## Add products to a quote, order, or invoice
@@ -90,7 +82,7 @@ If you've created a quote from an opportunity, the products added to the opportu
        ![Screenshot showing the enhanced Add products dialog box.](media/enhancedAddProductsDialog.png)
 
        > [!NOTE]
-       > The enhanced experience for adding products is only available if your system administrator has enabled the preview. If you see a **Quick create** form instead of a dialog box, see [Add products to quotes, orders, or invoices](add-product-quote-order-invoice.md). 
+       > The enhanced experience for adding products is only available if your system administrator has enabled it. If you see a **Quick create** form instead of the Add products dialog, contact your system administrator to enable the experience. More information: [Enable or disable the enhanced experience for adding products](enable-enhanced-add-product-experience.md) 
        >
        > The preceding image shows the default columns in the dialog box. The information displayed in the **Product** column is customizable, as are the columns that appear in the grid. If you need additional columns to populate data or you need more information so you can better identify the product, contact your system administrator.
     

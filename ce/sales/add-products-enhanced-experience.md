@@ -16,9 +16,7 @@ searchScope:
   - Dynamics 365
   - Sales
 ---
-# Preview: Find and add multiple products to an opportunity
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# Find and add multiple products to an opportunity
 
 Use the enhanced experience to quickly identify and add multiple products from the catalog to opportunities.
 
@@ -54,11 +52,6 @@ As a salesperson, you want to be able to easily identify and add products from t
 
 [!INCLUDE [add-products-experience-on-mobile](../includes/add-products-experience-on-mobile.md)]
 
-> [!IMPORTANT]
->- The enhanced experience for adding products is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->- [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->- [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-
 ## Add products to an opportunity
 
 1. Open the opportunity to which you want to add products.
@@ -83,7 +76,7 @@ As a salesperson, you want to be able to easily identify and add products from t
    ![Screenshot showing the enhanced Add products dialog box.](media/enhancedAddProductsDialog.png)
 
    > [!NOTE]
-   > The enhanced experience for adding products is only available if your system administrator has enabled the preview. If you see the form interface instead of a dialog box, contact your system administrator to enable the preview.
+   > The enhanced experience for adding products is only available if your system administrator has enabled it. If you see the form interface instead of the Add products dialog, contact your system administrator to enable the experience.
    
    The preceding image shows the default columns in the dialog box. The information displayed in the **Product** column is customizable, as are the columns that appear in the grid. If you need additional columns to populate data or you need more information so you can better identify the product, contact your system administrator.
 
