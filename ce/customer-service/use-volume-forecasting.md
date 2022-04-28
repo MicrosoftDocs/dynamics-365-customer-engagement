@@ -99,3 +99,6 @@ You can filter the data by selecting from the following options:
 You can export the report data by selecting the ellipsis in the top-right corner of either section of the report, and then selecting **Export data**.
 
 The data for the date range you selected is saved in an Excel spreadsheet. For the **Sum of Forecast** column, there will only be numbers for dates that are in the future. Actual numbers are based on monthly date that your administrator configured for the report to be refreshed.
+
+### See also
+[Configure case and conversation volume forecasting](configure-volume-forecasting.md)
