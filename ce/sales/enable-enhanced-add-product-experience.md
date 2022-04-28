@@ -75,7 +75,7 @@ If you're using a custom app or Sales Professional app, you can enable or disabl
 
 3. Select **System Settings**.
 
-4. In the **System Settings** dialog box, go to the **Sales** tab and set **Enhanced add product experience** to **Yes** to enable the enhanced experience. Set it to **No** to disable. 
+4. In the **System Settings** dialog box, go to the **Sales** tab and set **Adding products** to **Yes** to enable the enhanced experience. Set it to **No** to disable. 
 
 5. Select **OK**.
 
