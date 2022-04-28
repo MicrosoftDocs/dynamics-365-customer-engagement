@@ -1,10 +1,10 @@
 ---
 title: Navigate the service calendar | Microsoft Docs
 description: Learn about the various features of the service calendar in Dynamics 365 Customer Service.
-ms.date: 02/05/2021
+ms.date: 04/28/2022
 ms.topic: article
 author: lalexms
-ms.author: laalexan
+ms.author: lalexms
 manager: shujoshi
 search.audienceType: 
   - admin
@@ -42,7 +42,7 @@ You can’t customize the service calendar or change the default view with the a
 2. Under the Tools section, select the service calendar.
     A list of resources opens in alphabetical order on the left side of the calendar.
 
-3. To view the resources, appointments, and service activities for anyone in your organization, in the **Type** list, select **Resource**, and then in the **View** list, select the resource view.
+3. To view the resources, appointments, and service activities for anyone in your organization, in the **Type** list, select **Resource**, and then in the **View** list, select the resource view.
 
 4. To find a specific resource, in the **Search** field, enter the first few letters of a name.
 
@@ -53,6 +53,9 @@ You can’t customize the service calendar or change the default view with the a
 ## Calendar legend of colors and statuses
 
    ![View the calendar legend.](media/uci-color-legend.png "View legend of calendar colors and statuses")
+
+> [!NOTE]
+> For accessibility to information provided in the service calendar, switch to **List view** that shows the availability of resources and bookings in a list format. Information in **List view** can be accessed by users who use keyboard shortcuts or a screen reader.
    
 ## Preview: View resources in a list view
 [!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
