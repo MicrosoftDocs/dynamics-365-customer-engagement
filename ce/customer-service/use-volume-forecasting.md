@@ -1,6 +1,6 @@
 ---
 title: "Forecast case and conversation volumes in Customer Service | Microsoft Docs"
-description: "Learn how to use use the Forecast report for cases and conversations in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
+description: "Learn how to use the Forecast report for cases and conversations in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
 ms.date: 04/25/2022
 ms.topic: article
 author: lalexms
