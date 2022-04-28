@@ -44,9 +44,11 @@ You can use the Forecast report for case and conversation volumes in the followi
 
 - Automatically detect seasonality from historical traffic with the settings option to import your service calendar. This helps the forecasting model to accurately predict case or conversation volume during special, seasonal events.
 
+For details of how the forecast models work for this feature, see [How the case and conversation volume forecasting works](configure-volume-forecasting#how-the-case-and-conversation-volume-forecasting-works).
+
 ## Prerequisites
 
-Before you can use the Forecast report, ensure that your administrator has given you Customer Service Manager role permissions. More information: []()
+Before you can use the Forecast report, ensure that your administrator has given you Customer Service Manager role permissions. More information: [Configure case and conversation volume forecasting](configure-volume-forecasting.md)
 
 ## View the Forecast report in Customer Service
 
@@ -58,7 +60,7 @@ You can access the Forecast report in the Customer Service workspace app by sele
 
 The **Case** and **Conversation** tabs of the volume forecast report display visual and numeric metrics for the filters you select. The difference between the two tabs is based on the input data source. Case data is based on the case entity, whereas conversation data is based on the omnichannel conversations, such as live chat, digital messages, the voice channel, and so forth.
 
-Report data is refreshed on a monthly basis. Your administrator can configure which day of the month the report will be refreshed.
+Report data is refreshed on a monthly basis. Your administrator can configure which day of the month the report will be refreshed. More information: [Configure case and conversation volume forecasting](configure-volume-forecasting.md)
 
 You can filter the case data by using any of the following options:
 
@@ -96,9 +98,12 @@ You can filter the data by selecting from the following options:
 
 ### Export data
 
-You can export the report data by selecting the ellipsis in the top-right corner of either section of the report, and then selecting **Export data**.
+You can export the report data by selecting the ellipsis in the top-right corner of either section of the report and then selecting **Export data**.
 
 The data for the date range you selected is saved in an Excel spreadsheet. For the **Sum of Forecast** column, there will only be numbers for dates that are in the future. Actual numbers are based on monthly date that your administrator configured for the report to be refreshed.
 
 ### See also
-[Configure case and conversation volume forecasting](configure-volume-forecasting.md)
+[Configure case and conversation volume forecasting](configure-volume-forecasting.md)<br>
+[Introduction to Customer Service Insights](introduction-customer-service-analytics.md)<br>
+[Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md)
+
