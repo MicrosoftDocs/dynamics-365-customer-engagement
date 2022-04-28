@@ -106,5 +106,5 @@ The configuration steps for enabling case and conversation forecasting reports a
 
 ### See also
 
-[Forecast case and conversation volumes](use-volume-forecasting.md)
+[Forecast case and conversation volumes](use-volume-forecasting.md)<br>
 [Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md)
