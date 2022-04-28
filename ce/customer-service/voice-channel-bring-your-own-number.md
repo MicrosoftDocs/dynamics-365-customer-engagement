@@ -1,7 +1,7 @@
 ---
 title: "Bring your own carrier | MicrosoftDocs"
-description: "Use this topic to understand how you can bring your own carrier to Dynamics 365 via Azure direct routing."
-ms.date: 02/03/2022
+description: "Use this article to understand how you can bring your own carrier to Dynamics 365 via Azure Direct Routing."
+ms.date: 04/04/2022
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: neeranelli
@@ -38,10 +38,7 @@ The following prerequisites must be met:
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
     1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
     

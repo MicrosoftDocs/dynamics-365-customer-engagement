@@ -1,10 +1,10 @@
 ---
 title: "Define service-level agreements in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how to define service-level agreements in Dynamics 365 Customer Service."
-ms.date: 02/11/2022
+ms.date: 04/04/2022
 ms.topic: article
-author: neeranelli
-ms.author: nenellim
+author: Soumyasd27
+ms.author: sdas
 manager: shujoshi
 search.audienceType: 
   - admin
@@ -19,6 +19,8 @@ ms.custom:
 ---
 
 # Configure service-level agreements
+
+[!INCLUDE[cc-trial-sign-up](../includes/cc-trial-sign-up.md)]
 
 ## Introduction
 
@@ -62,14 +64,11 @@ Review the following requirements before configuring SLAs for your organization:
 
 SLA KPIs are performance indicators, such as First Response or Resolve by, that you'd like to track.
 
-You can create SLA KPIs in the Customer Service admin center (preview) app or Customer Service Hub app.
+You can create SLA KPIs from the Customer Service admin center or Customer Service Hub app.
 
 1. Go to one of the apps, and perform the following steps.
 
-    ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-
-    > [!IMPORTANT]
-    > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
     1. In the site map, select **Service Terms** in **Operations**. The **Service Terms** page appears.
     1. In the **SLA KPIs** section, select **Manage**.                                                                         
@@ -119,14 +118,11 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
 ### Create an SLA 
 
-You can create an SLA in the Customer Service admin center (preview) or Customer Service Hub app.
+You can create an SLA from the Customer Service admin center or Customer Service Hub app.
 
 1. Go to one of the apps, and perform the following steps.
 
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-
-   > [!IMPORTANT]
-   > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
    1. In the site map, select **Service Terms** in **Operations**. The **Service Terms** page appears.
    1. In the **Service Level Agreements (SLAs)** section, select **Manage**.                                                                         
@@ -152,14 +148,11 @@ You can create an SLA in the Customer Service admin center (preview) or Customer
 
 ### Create an SLA item
 
-You can create an SLA item in the Customer Service admin center (preview) or Customer Service Hub app.
+You can create an SLA item from the Customer Service admin center or Customer Service Hub app.
 
 1. Go to one of the apps, and perform the following steps.
 
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-
-   > [!IMPORTANT]
-   > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
    1. In the site map, select **Service Terms** in **Operations**. The **Service Terms** page appears
    1. In the **Service Level Agreements (SLAs)** section, select **Manage**.                                                                         
@@ -520,6 +513,33 @@ The service rep who is working on a case can see the SLA details right on the ca
 
 You can replicate the SLA settings in another environment by exporting the solution containing the SLAs. During the export, all the related components and their dependencies will also be exported.
 
+You can also export or import a calendar with its corresponding SLAs by enabling the calendar import and export option.
+
+### Export or import a calendar with SLAs
+
+You can enable the export or import of a calendar either from the Customer Service admin center or Customer Service Hub app.
+
+1. Go to one of the apps and perform the following steps:
+
+    ### [Customer Service admin center](#tab/customerserviceadmincenter)
+
+    1. In the site map, select **Service terms** in **Operations**. The **Service Terms** page appears.
+    1. In the **Other SLA Settings** section, select **Manage**. The **Service Configuration Settings** page appears.
+
+    ### [Customer Service Hub](#tab/customerservicehub)
+
+    - In the site map, go to **Service Management** and select **Service Configuration Settings** in **Service Terms**. The **Service Configuration Settings** page appears.
+   
+1. On the **Service Configuration Settings** page, go to the **Calendar Export and Import** section and set the **Enable calendar export and import** toggle to **Yes**. By default, the option is set to **No**.
+1. Select **Save**.
+
+> [!IMPORTANT]
+> - When you delete a solution that contains SLAs, the SLAs are also deleted. However, their corresponding calendars aren't deleted.
+> - Calendars, when imported to the target organization, are editable. However, we recommend that you make any changes to the calendar through the solution import or export process.
+> - Calendars are overwritten when a solution is imported. So, the calendar in the latest solution that's being imported will overwrite existing customizations or settings on the current calendar in the target environment.
+> - Exported calendars will be present in XML format in the Calendars folder within the exported solution.
+> - SLA Items will automatically be linked to the corresponding imported calendars on import.
+
 ## Recommended procedure for upgrading a solution
 
 We recommend that you perform the following steps to upgrade a solution:
@@ -528,12 +548,18 @@ We recommend that you perform the following steps to upgrade a solution:
 2. Upgrade your solution.
 3. After the solution has been successfully upgraded, activate the SLAs as required.
 
-## Limitations
+## SLA Limitations
 
 The following limitations apply to the Unified Interface apps:
 
-- The "applicable when" and "success conditions" aren't supported and won't work as expected if they are configured for related entities.
-- Multiple SLA items can't be defined with the same "applicable when" criteria and different "success conditions" for an SLA.
+- The **Applicable When** and **Success Conditions** won't work as expected if they are configured for related entities.
+
+    - **Applicable when** conditions, if defined on the related entity, will work only for the first time when they are met, and the KPI instance will be set to **In Progress**. After that, any update to the related entity will not cancel the existing KPI instance if the conditions of the same SLA item are false, or create a new KPI instance if there is a change in the SLA item.
+    - Success conditions defined on the related entity will never be true and the KPI instance once set to **In Progress** will never succeed, even if conditions are met. It will continue to be in **In Progress**, **Nearing NonCompliance**, or **Noncompliant** status.
+    - The above limitations will work only if the related entity lookup record of the target entity is updated.
+    
+- Multiple SLA items can't be defined with the same **Applicable When** criteria and different **Success Conditions** for an SLA.
+
 
 ### See also
 

@@ -1,6 +1,7 @@
 ---
 title: "Configure agent display name for a chat widget | MicrosoftDocs"
-description: "This topic provides procedural information to configure an agent's display name for a chat widget in Omnichannel for Customer Service."
+description: "This article provides procedural information to configure an agent's display name for a chat widget in Omnichannel for Customer Service."
+ms.date: 02/25/2022
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
@@ -9,6 +10,10 @@ manager: shujoshi
 # Configure agent display name
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+
+## Introduction
 
 To protect an agent's privacy, you can configure your chat widget to display either the full name, first name, last name, or nickname of the agent to the customers. If you'd like to hide your agent’s identity and anonymize, choose to display the nickname. The values for the names are retrieved from the user record created in Omnichannel for Customer Service. For information on creating users, see [Create users in model-driven applications and assign security roles](/power-platform/admin/create-users-assign-online-security-roles). You can add nickname of a user in the Omnichannel user record in Web Client.
 

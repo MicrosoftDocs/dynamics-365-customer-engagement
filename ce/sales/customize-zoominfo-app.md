@@ -16,12 +16,11 @@ As an administrator, you can customize the ZoomInfo app in the following ways:
 -	**Add ZoomInfo form to table entities**: You can add the ZoomInfo form to standard or custom Account, Contacts, and Leads table entities to provide sellers with inline access to ZoomInfo data. More information: [Add ZoomInfo form to entities](#add-zoominfo-form-to-table-entities).
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## Prerequisites
 Before you start, be sure you've met the following prerequisites:
@@ -105,7 +104,7 @@ Create a solution to locate and work with the components you’ve customized and
 **To create a solution:**    
 1.	Sign in to the [Power Apps portal](https://make.preview.powerapps.com/) and choose the organization in which you’ve installed the ZoomInfo app.
 2.	On the left navigation pane, select **Solutions**.   
-3.	Select **+ New solution** and on the **New solution** pane, enter the information as described in the following table:    
+3.	Select **New solution** and on the **New solution** pane, enter the information as described in the following table:    
 
     | Field | Description |
     |-------|-------------|

@@ -15,12 +15,11 @@ manager: shujoshi
 View and understand the report for sales acceleration to get a broad overview of the sequences related to leads and opportunities in your organization.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Sales Manager or Sequence Manager <br>  Go to [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Sales Manager or Sequence Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## What is sales acceleration reporting?
 
@@ -100,7 +99,7 @@ The following metrics are displayed in the charts.
 
 ### See also
 
-[Enable the sales accelerator reports preview](enable-configure-sales-accelerator.md#enable-sales-accelerator-reports)    
+[Sequence reporting](customize-sales-accelerator-sellers.md#enable-sales-accelerator-reports)    
 [Understand the sequence stats page](understand-sequence-stats.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

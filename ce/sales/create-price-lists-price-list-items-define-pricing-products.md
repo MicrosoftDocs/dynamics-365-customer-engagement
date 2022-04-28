@@ -19,22 +19,23 @@ searchScope:
 ---
 # Define product pricing with price lists and price list items 
 
-Use price lists and price list items for defining price for a product. Create multiple price lists and set a default price list for each territory.
+Use price lists and price list items to define price for a product.  
 
-> [!NOTE]
-> Territories are only supported for Sales Enterprise and Sales Premium.
+[!INCLUDE [trial-cta-note](../includes/trial-cta-note.md)]
 
-## License and role requirements 
-
-| &nbsp; | &nbsp; | 
+## License and role requirements
+| Requirement type | You must have | 
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator, Sales Manager, Sales Professional Manager, and above <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Sales Manager, Sales Professional Manager, or Vice President of Sales <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## What is a price list?
 
-Price lists tell your sales agents what to charge for your products or services. You can create multiple price lists so that you can maintain separate price structures for different regions,  sales channels, or sales territories.  
+Price lists tell your sales agents what to charge for your products or services. You can create multiple price lists so that you can maintain separate price structures for different regions,  sales channels, or sales territories. 
+
+> [!NOTE]
+> Territories are only supported for Sales Enterprise and Sales Premium. 
   
 Price lists tie the unit, product, and pricing details together, so before you create a price list, make sure the units and products are in place.  
  

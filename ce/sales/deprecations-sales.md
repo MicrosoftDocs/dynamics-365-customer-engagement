@@ -1,7 +1,7 @@
 ---
 title: Deprecations in Dynamics 365 Sales | MicrosoftDocs
 description: Visit this page to see what's deprecated in Dynamics 365 Sales.
-ms.date: 02/02/2022
+ms.date: 04/01/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -25,9 +25,21 @@ Administrators and IT professionals can use this information to prepare for futu
 > [!Important]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and is fully supported until it is officially removed. This deprecation notification might span a few years. After removal, the feature or capability will no longer work. We are notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
 
+## Premium auto capture will be deprecated
+
+| &nbsp; | &nbsp; | 
+|-------------|------------|
+| Reason for deprecation/removal | Lower adoption. |
+| Replaced by another feature? | Partly. Switch to basic auto capture for activity suggestions. No alternative available for contact suggestions currently.  |
+| Product areas affected | Application |
+| Deployment option | All |
+| Status | Will be removed in July 2022  |
+> [!NOTE]
+> If you’ve added the premium auto capture suggestion grid to your custom app, remove it manually. The grid will not show any suggestions after the feature is deprecated.  
+
 ## Internet Explorer 11 support for Dynamics 365 and Microsoft Power Platform is deprecated
 
-Effective December 2020, Microsoft Internet Explorer 11 support for Microsoft Dynamics 365 and Microsoft Power Platform is deprecated. Internet Explorer 11 won’t be supported after August, 2021. 
+Effective December 2020, Microsoft Internet Explorer 11 support for Microsoft Dynamics 365 and Microsoft Power Platform is deprecated. Internet Explorer 11 won’t be supported after August 2021. 
 
 This will impact customers who use Dynamics 365 and Microsoft Power Platform products that are designed to be used through an Internet Explorer 11 interface. After August 2021, Internet Explorer 11 won't be supported for such Dynamics 365 and Microsoft Power Platform products. We recommend that customers transition to Microsoft Edge. 
 
@@ -53,11 +65,15 @@ Effective April 1, 2021, Dynamics 365 – Gamification is deprecated. Until Sept
 | Product areas affected | Application |
 | Deployment option | All |
 | Status | Removed: By October 15, 2020 |
-|||
+
 
 ## Dynamics 365 Product Visualize is deprecated
 
 Effective October 04, 2021, Dynamics 365 Product Visualize is deprecated. After October 04, 2021 the product will cease to function and will no longer be supported.
 
+## Dynamics 365 assistant cards - Opportunity at Risk (sentiment detection) and Opportunity at Risk (phrase detection)
 
+Effective March 31, 2022, the Opportunity at Risk (sentiment detection) and Opportunity at Risk (phrase detection) cards are deprecated. After May 30, 2022, these cards will no longer be supported.     
+The Opportunity at Risk cards, both sentiment detection and phrase detection, have been disabled from the backend and insights are no longer generated. However, these cards are still visible through the Settings page. When users are trying to activate these cards, activation fails.
+ 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

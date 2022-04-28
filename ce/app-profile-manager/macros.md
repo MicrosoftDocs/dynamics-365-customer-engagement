@@ -4,7 +4,7 @@ description: "This topic provides information about the different macros that ca
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/01/2021
+ms.date: 04/04/2022
 ms.topic: article
 ---
 
@@ -12,7 +12,7 @@ ms.topic: article
 
 ## Overview of macros
 
-In the customer service industry, agents have to click often to perform simple tasks, such as open a form, fill, and save it, and many repetitive and monotonous actions, such as greet a customer, verify a customer, send acknowledgment mail, and take notes. These clicks and repetitive tasks can lead to human errors while agents copy and paste the data across different operations.
+In the customer service industry, agents have to click often to perform simple tasks, such as open a form, fill, and save it, and many repetitive and monotonous actions, such as greeting and verifying a customer, sending acknowledgment mail, and taking notes. These clicks and repetitive tasks can lead to human errors when agents copy and paste the data across different operations.
 
 Macros are a set of sequential actions that are performed by a user. They enable users to perform daily operations efficiently in a fast and process-compliant manner. You can reuse macros with different sessions based on the context parameters that are specific to the session.
 
@@ -39,9 +39,9 @@ The macros in Customer Service workspace have the following:
 
 - Install Dynamics 365 Productivity Tools solution.
 
-- Ensure that you have the **Productivity tools administrator** security role. To learn more, see [Assign roles and enable users](../customer-service/add-users-assign-roles.md).
+- Ensure that you have the **Productivity tools administrator** security role. More information: [Assign roles and enable users](../customer-service/add-users-assign-roles.md)
 
-- Ensure that agents and supervisors are assigned the **Productivity tools user** security role. To learn more, see [Assign roles and enable users](../customer-service/add-users-assign-roles.md).
+- Ensure that agents and supervisors are assigned the **Productivity tools user** security role. More information: [Assign roles and enable users](../customer-service/add-users-assign-roles.md)
 
 ## Predefined automation actions
 
@@ -237,8 +237,6 @@ This action focuses on a tab in the Customer Service workspace session. This act
    | Tab ID | Specify the identifier of the tab that you want to give focus to. <br> This is a mandatory field.|
    |||
 
-
-
 ### Omnichannel connector
 
 As an administrator, you can use the actions any number of times across different macros to automate and perform operations related to Omnichannel for Customer Service.
@@ -337,12 +335,31 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
 
 ## Create a macro
 
-1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083), and go to the app profile manager page.
-2. In the left pane, under **Productivity**, select **Agent scripts**. The Unified Interface page opens on a new tab.
+**To create a macro**
 
-3. On the page that appears, select **New**.
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
 
-4. On the **Create macros** page, specify the following.
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+    
+    1. In the site map, in **Agent experience**, select **Productivity**.
+    
+    1. For **Macros**, select **Manage**.
+
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+
+    1. In the site map, in **Advanced settings**, select **Agent experience**.
+    
+    1. For **Macros**, select **Manage**.
+
+   ### [App profile manager](#tab/appprofilemanager)
+
+    1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083), and go to the app profile manager page.
+
+    1. In the left pane, under **Productivity**, select **Agent scripts**. The Unified Interface page opens on a new tab.
+
+1. On the page that appears, select **New**.
+
+1. On the **Macros** page, specify the following.
 
     | Field | Description | Example value |
     |-------------|-----------------------------------|------------------------------------|
@@ -350,123 +367,123 @@ To learn more, see [Use automation dictionary to pass data parameter keys](autom
     | Description | Describe the purpose of the macro. The description is displayed to the agent at runtime. | This macro action is used to create a case. |
     |||
 
-5. Select **Start macro execution**, and then select **New step**.
+1. On the **Preferred automation actions** tab, select **Start macro execution**, and then select **New step**.
 
    > [!div class=mx-imgBorder] 
    > ![Create macro.](../customer-service/media/create-macro1.png "Create a macro")
 
-6. Select a connector from the list. The following connectors are available:
+   1. Select a connector from the list. The following connectors are available:
 
-   - [Productivity Automation](#productivity-automation)
-   - [Session Connector](#session-connector)
-   - [Omnichannel Connector](#omnichannel-connector)
+      - [Productivity Automation](#productivity-automation)
+      - [Session Connector](#session-connector)
+      - [Omnichannel Connector](#omnichannel-connector)
 
-7. Select an action from the list of actions. You can add as many actions as you need, based on your business requirements.
+   1. Select an action from the list of actions. You can add as many actions as you need, based on your business requirements.
 
-   If you select **Productivity Automation**, you'll see the following actions.
+      If you select **Productivity Automation**, you'll see the following actions.
 
-    | Purpose | Action name |
-    |-----------------------------|---------------------------------------------|
-    | Open a new form to create a record | Create new |
-    | Open an existing form | Open form |
-    | Open a record grid | Open grid |
-    | Search the knowledge base for the populated phrase | Search knowledge articles |
-    | Do a relevance search based on the phrase | Search |
-    | Update an existing record | Update record |
-    | Open an email form with predefined template | Open email |
-    | Resolve a case | Resolve case |
-    |||
+      | Purpose | Action name |
+      |-----------------------------|---------------------------------------------|
+      | Open a new form to create a record | Create new |
+      | Open an existing form | Open form |
+      | Open a record grid | Open grid |
+      | Search the knowledge base for the populated phrase | Search knowledge articles |
+      | Do a relevance search based on the phrase | Search |
+      | Update an existing record | Update record |
+      | Open an email form with predefined template | Open email |
+      | Resolve a case | Resolve case |
+      |||
 
-   > [!div class=mx-imgBorder] 
-   > ![Macro actions sample.](../customer-service/media/macro-actions.png "Macro actions")    
+       > [!div class=mx-imgBorder] 
+       > ![Macro actions sample.](../customer-service/media/macro-actions.png "Macro actions")    
 
-   For example, select **Open a new form to create a record**, and the step appears. To learn more, see [Productivity automation](#productivity-automation).
+      For example, select **Open a new form to create a record**, and the step appears. More information: [Productivity automation](#productivity-automation).
 
-   If you select **Session connector**, you'll see the following actions.
+      If you select **Session connector**, you'll see the following actions.
 
-    | Purpose | Action name |
-    |-----------------------------|---------------------------------------------|
-    | Refresh the application tab | Refresh tab |
-    | Focus on a particular application tab from another application tab| Focus tab |
-    | Get the details of the current application tab | Get current tab |
-    |||
+      | Purpose | Action name |
+      |-----------------------------|---------------------------------------------|
+      | Refresh the application tab | Refresh tab |
+      | Focus on a particular application tab from another application tab| Focus tab |
+      | Get the details of the current application tab | Get current tab |
+      |||
 
-   > [!div class=mx-imgBorder] 
-   > ![Macro actions for session.](../customer-service/media/macro-session-connector.png "Macro actions for session")    
+       > [!div class=mx-imgBorder] 
+       > ![Macro actions for session.](../customer-service/media/macro-session-connector.png "Macro actions for session")    
 
-   To learn more, see [Session connector](#session-connector).
+      More information: [Session connector](#session-connector)
 
-   If you select **Omnichannel connector**, you'll see the following actions.
+      If you select **Omnichannel connector**, you'll see the following actions.
 
-    | Purpose | Action name |
-    |-----------------------------|---------------------------------------------|
-    | Link a record to the conversation while interacting with the customer | Link record to the conversation |
-    | Unlink a record from the conversation while interacting with the customer | Unlink record from the conversation |
-    |||
+      | Purpose | Action name |
+      |-----------------------------|---------------------------------------------|
+      | Link a record to the conversation while interacting with the customer | Link record to the conversation |
+      | Unlink a record from the conversation while interacting with the customer | Unlink record from the conversation |
+      |||
 
-   > [!div class=mx-imgBorder] 
-   > ![Macro actions for Omnichannel.](../customer-service/media/macro-omnichannel-connector.png "Macro actions for Omnichannel") 
+       > [!div class=mx-imgBorder] 
+       > ![Macro actions for Omnichannel.](../customer-service/media/macro-omnichannel-connector.png "Macro actions for Omnichannel") 
 
-   To learn more, see [Omnichannel connector](#omnichannel-connector).
+       More information: [Omnichannel connector](#omnichannel-connector)
    
-   > [!Note]
-   > Omnichannel connector is not available in Customer Service workspace.
+       > [!Note]
+       > Omnichannel connector is not available in Customer Service workspace.
 
-8. Specify the values in the fields. To learn how to specify the values, see [Use automation dictionary to pass data parameters keys](automation-dictionary-keys.md).
+1. Specify the values in the fields. To learn how to specify the values, see [Use automation dictionary to pass data parameters keys](automation-dictionary-keys.md).
 
-   If you selected **Open a new form to create a record**, you can select **Show advanced options** to add the attributes and values you want. If required, you can select **+ Add new item** to add more attributes.
+   If you selected **Open a new form to create a record**, you can select **Show advanced options** to add the attributes and values you want. If required, you can select **Add new item** to add more attributes.
 
    > [!div class=mx-imgBorder] 
    > ![Attributes for Open a new form to create a record.](../customer-service/media/macro-fields.png "Attributes for Open a new form to create a record") 
 
-9. After you add an action step, to define conditions, select the **Built-in** tab, and select **Control**.
+1. After you add an action step, to define conditions, select the **Built-in** tab, and select **Control**.
 
-10. Select **Condition** to define the conditions. The condition has **If true** or **If false**. Define the condition as per your requirement.
+1. Select **Condition** to define the conditions. The condition has **If true** or **If false**. Define the condition as per your requirement.
 
-11. To add another action step, repeat step 7 and optionally step 8.
+1. To add another action step, repeat step 7 and optionally step 8.
 
-12. Select **Save and close**.
+1. Select **Save and close**.
 
-Now, when the agent runs the macro, the actions will be run by fetching the data parameter keys according to the context available from the sources. To learn more, see [Use automation dictionary to pass data parameters keys](automation-dictionary-keys.md).
+Now, when the agent runs the macro, the actions will be run by fetching the data parameter keys according to the context available from the sources. More information: [Use automation dictionary to pass data parameters keys](automation-dictionary-keys.md).
 
 ## View macro run history
 
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+
 As an administrator, you can view the macro run history, which shows how many times a macro has been run, along with the success or fail status. When you select a macro that failed, you can view the exact action step at which the failure occurred.
 
-1. In the site map of Omnichannel admin center, select **Agent experience** under **Advanced settings**, and then select **Manage** for **Macros**. If you're using the Omnichannel Administration app, under **Agent Experience**, select **Macros**.
+1. Go to the **Macros** page, and select the macro for which you want to view the history.
 
-2. Select the macro for which you want to view the history.
-
-3. Select **View run history**.
+1. Select **View run history**.
 
    > [!div class=mx-imgBorder] 
    > ![View the run history for a macro.](../customer-service/media/macro-run-history.png "View the run history for a macro")
 
-4. Select the macro that failed from the list.
+1. Select the macro that failed from the list.
 
    > [!div class=mx-imgBorder] 
    > ![Select the macro that failed.](../customer-service/media/macro-run-history-list.png "Select the macro that failed")
 
-5. See the macro action step that caused the failure. Review the previous step for any issue in the slug data parameters that might've been passed incorrectly or slug data parameters that were updated incorrectly.
+1. See the macro action step that caused the failure. Review the previous step for any issue in the slug data parameters that might've been passed incorrectly or slug data parameters that were updated incorrectly.
 
    > [!div class=mx-imgBorder] 
    > ![Review the macro action steps.](../customer-service/media/macro-run-history-fail.png "Review the macro action steps")
 
    For example, when you select on the **Open a new form to create a record** step, select **Show more**, and you can view that the mandatory fields don't have values, which are mandatory to save the record. Due to this reason, the macro run failed at the **Save the record** step.
 
-   > [!div class=mx-imgBorder] 
+   > [!div class=mx-imgBorder]
    > ![Review the macro action steps to understand failure reason.](../customer-service/media/macro-run-history-fail-reason.png "Review the macro action steps to understand failure reason")
 
-6. Fix the macro step action that you think might have caused the failure, and then try running it again. For example, since the values are not resolved, go to the macro designer and then check on the slugs, and then try running the macro again.
+1. Fix the macro step action that you think might have caused the failure, and then try running it again. For example, since the values are not resolved, go to the macro designer and then check on the slugs, and then try running the macro again.
 
-> [!Note]
-> If the issue persists, contact Microsoft support.
+   > [!Note]
+   > If the issue persists, contact Microsoft support.
 
 ### See also
 
 [Use automation dictionary to pass data parameters keys](automation-dictionary-keys.md)  
-[Agent scripts](agent-scripts.md)
-[Smart Assist](smart-assist.md)
+[Agent scripts](agent-scripts.md)  
+[Smart Assist](smart-assist.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

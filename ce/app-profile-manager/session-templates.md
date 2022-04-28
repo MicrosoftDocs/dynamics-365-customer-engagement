@@ -4,7 +4,7 @@ description: "Learn about managing session templates in Customer Service workspa
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 02/11/2022
+ms.date: 04/04/2022
 ms.topic: article
 ---
 
@@ -48,10 +48,7 @@ The following out-of-the-box session templates are of the generic type and are f
 
 1. Select one of the following tabs, and perform the steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
     1. In the site map, select **Workspaces** in **Agent experience**.
     2. On the **Workspaces** page, select **Manage** for **Session templates**.
@@ -60,6 +57,8 @@ The following out-of-the-box session templates are of the generic type and are f
    
     1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083), and go to the app profile manager page.
     2. In the left pane, select **Session templates** under Customer Service workspace or Omnichannel Administration. The Unified Interface page opens on a new tab.
+    
+  [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 2. Select **New** on the **Active Session Templates** page.
 

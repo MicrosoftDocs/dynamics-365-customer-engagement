@@ -2,7 +2,7 @@
 title: "Premium auto capture for Sales Insights"
 description: "Use the premium auto capture to provide suggestions on creating new contacts along with capturing activities related to your emails and meetings."
 keywords: 
-ms.date: 10/26/2021
+ms.date: 04/25/2022
 ms.custom: 
 ms.topic: article
 author: udaykirang
@@ -22,17 +22,19 @@ searchScope:
 ---
 # Preview: Premium auto capture   
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+> [!IMPORTANT]
+> Premium auto capture (Preview) will be deprecated from July 1, 2022. After the feature is deprecated, you’ll stop getting contact suggestions from Outlook. If your administrator has enabled basic auto capture, you'll continue to get activity suggestions from Outlook.  
 
 Use the premium auto capture to provide suggestions on creating new contacts along with capturing activities related to your emails and meetings.
 
-## License and role requirements
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-| &nbsp; | &nbsp; |  
+## License and role requirements
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+
 
 ## What is premium auto capture? 
 
@@ -323,7 +325,8 @@ A success message is displayed at the bottom of the screen, and the contact is d
 ### See also
 
 [Enable and configure auto capture](configure-auto-capture.md)<br>
-[Basic auto capture](free-auto-capture.md)
+[Basic auto capture](free-auto-capture.md)  
+[Auto capture FAQs](faqs-sales-insights.md#auto-capture)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

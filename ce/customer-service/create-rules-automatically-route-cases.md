@@ -1,7 +1,7 @@
 ---
 title: Automatically route cases using basic routing rulesets | MicrosoftDocs
 description: Understand how to create rules to automatically route cases in Dynamics 365 Customer Service
-ms.date: 02/11/2022
+ms.date: 04/28/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -18,6 +18,8 @@ ms.custom:
 ---
 
 # Route cases using basic routing rulesets
+
+[!INCLUDE[cc-trial-sign-up](../includes/cc-trial-sign-up.md)]
 
 > [!NOTE]
 > We recommend that you enable and use unified routing for automatically routing records in Customer Service. More information: [Overview of unified routing](overview-unified-routing.md).
@@ -74,10 +76,7 @@ When creating routing rulesets, you can add multiple rule items and arrange them
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
    1. In the site map, select **Routing**. The **Routing** page appears.
 

@@ -1,7 +1,7 @@
 ---
-title: "Provision Omnichannel for Customer Service | MicrosoftDocs"
-description: "Perform the steps in this topic to provision Omnichannel for Customer Service and add channels so that can you start using the product."
-ms.date: 02/18/2022
+title: "Provision Omnichannel for Customer Service and voice channel | MicrosoftDocs"
+description: "Perform the steps in this article to provision Omnichannel for Customer Service and add channels so that can you start using the product."
+ms.date: 04/26/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -12,7 +12,7 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Introduction
+[!INCLUDE[cc-trial-sign-up](../includes/cc-trial-sign-up.md)]
 
 Omnichannel for Customer Service provides a modern, customizable, high-productivity app that lets agents help customers across different channels via a unified interface. It lets organizations choose the channel that suits their business needs. It also ensures that a high level of responsive, quality service is received across channels.
 
@@ -33,14 +33,13 @@ You can provision the following channels in Omnichannel for Customer Service:
 
 ## Prerequisites
 
-To provision the Omnichannel for Customer Service application, complete the following prerequisites:
+- Obtain an active subscription of one or more of the following:
 
-- Obtain an active subscription of Chat for Dynamics 365 Customer Service or Dynamics 365 Digital Messaging.
-
-- Obtain an active subscription of the voice channel.
+    - To provision the Omnichannel for Customer Service application, Chat for Dynamics 365 Customer Service or Dynamics 365 Digital Messaging
+    - To provision the voice channel, Voice Channel for Dynamics 365 Customer Service
   
-   > [!NOTE]
-   > More information: [Pricing](https://dynamics.microsoft.com/customer-service/pricing/), Dynamics 365 Licensing Guide, and [How to purchase through Volume Licensing](https://www.microsoft.com/en-us/licensing/how-to-buy/how-to-buy). You can also get a free 30-day trial if you have the required prerequisites. More information: [Try channels for Dynamics 365 Customer Service](try-channels.md).
+     > [!NOTE]
+     > More information: [Pricing](https://dynamics.microsoft.com/customer-service/pricing/), Dynamics 365 Licensing Guide, and [How to purchase through Volume Licensing](https://www.microsoft.com/en-us/licensing/how-to-buy/how-to-buy). You can also get a free 30-day trial if you have the required prerequisites. More information: [Try channels for Dynamics 365 Customer Service](try-channels.md).
 
 - Set up the prerequisites mentioned in the system requirements. More information: [Prerequisites](system-requirements-omnichannel.md#prerequisites).
 
@@ -66,19 +65,24 @@ Use the following steps to allow Omnichannel for Customer Service to read and wr
 ## Set up Omnichannel for Customer Service<a name="set-up-omnichannel"> </a>
 
 1. In Power Platform admin center, on the **Environments** page, select the environment in which Omnichannel for Customer Service needs to be set up.
-2. In the left pane, expand **Resources**, and select **Dynamics 365 apps**. 
+
+1. In the left pane, expand **Resources**, and select **Dynamics 365 apps**. 
    
    > [!NOTE]
-   > Don't select **Environments** in the left pane and try to navigate to **Dynamics 365 apps** from there. There are similar-looking menu options, but the correct way to navigate to the **Dynamics 365 apps** management options is to expand **Resources** in the left pane and select **Dynamics 365 apps**.
+   > Don't select **Environments** in the left pane and try to navigate to **Dynamics 365 apps** from there. The correct way to navigate to the **Dynamics 365 apps** management options is to expand **Resources** in the left pane and select **Dynamics 365 apps**.
   
-3. On the **Dynamics 365 apps** page, select **More commands** beside **Omnichannel for Customer Service**, and then select **Manage**.
+1. On the **Dynamics 365 apps** page, select **More commands** for **Omnichannel for Customer Service**, and then select **Manage**.
 
     > [!div class=mx-imgBorder]
     > ![Manage Omnichannel for Customer Service.](media/OC-provisioning-ppadmin.png "Manage Omnichannel for Customer Service")
 
-4. On the **Manage Omnichannel for Customer Service** message, select **OK**. The **Dynamics 365 Administration Center | Omnichannel** page is displayed on a new tab.
+1. If you're installing the voice channel only, select **More commands** for **Omnichannel for Customer Service - Telephony**.
 
-5. On the **Manage Omnichannel Instances** page, select **Add Org** to add an organization. Omnichannel is set up on the organization environment that you add here.
+    :::image type="content" source="media/oc-telephony-only.png" alt-text="Select Omnichannel for Customer Service - Telephony if you're installing voice only.":::
+
+1. On the **Manage Omnichannel for Customer Service** message, select **OK**. The **Dynamics 365 Administration Center | Omnichannel** page is displayed on a new tab.
+
+1. On the **Manage Omnichannel Instances** page, select **Add Org** to add an organization. Omnichannel is set up on the organization environment that you add here.
 
     > [!div class=mx-imgBorder]
     > ![Manage environments.](media/manage-environments.png "Manage environments")
@@ -86,7 +90,7 @@ Use the following steps to allow Omnichannel for Customer Service to read and wr
     > [!IMPORTANT]
     > As an admin, you can configure Omnichannel in multiple environments. You can view the status of all organization environments where the Omnichannel app has been configured in the **Manage environments** view.
 
-6. Select the environment in the dropdown list, then perform the following steps.
+1. Select the environment in the dropdown list, then perform the following steps.
 
     > [!div class=mx-imgBorder]
     > ![Select org.](media/select-org.png "Select org")
@@ -106,7 +110,7 @@ Use the following steps to allow Omnichannel for Customer Service to read and wr
    5. In the **Microsoft Teams** section, set the **Add Microsoft Teams** toggle to **Yes** to enable Microsoft Teams.
 
 
-7. On the **Confirmation** page, verify your selections, and then select **Finish** to provision Omnichannel for Customer Service in your organization.
+1. On the **Confirmation** page, verify your selections, and then select **Finish** to provision Omnichannel for Customer Service in your organization.
 
     > [!div class=mx-imgBorder]
     > ![Summary tab on Manage Omnichannel instances page.](media/manage-omnichannel-summary.png "Summary tab on Manage Omnichannel instances page")

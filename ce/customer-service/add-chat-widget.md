@@ -1,7 +1,7 @@
 ---
 title: "Add a chat widget | MicrosoftDocs"
-description: "Perform the steps mentioned in the topic to add a chat widget in Omnichannel for Customer Service."
-ms.date: 02/11/2022
+description: "Perform the steps mentioned in the article to add a chat widget in Omnichannel for Customer Service."
+ms.date: 04/04/2022
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -24,10 +24,7 @@ To add a chat widget, you need to have configured a workstream that defines how 
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
     1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
     
@@ -89,7 +86,7 @@ You can configure visual and sound notifications to be sent to customers when th
 
 Perform the following steps to enable the customer notifications:
 
-1. In Customer Service admin center (preview) or Omnichannel admin center, edit a chat widget, and on the **Chat channel settings** page, select the **User features** tab.
+1. In Customer Service admin center or Omnichannel admin center, edit a chat widget, and on the **Chat channel settings** page, select the **User features** tab.
 2. For **Customer notifications**, set the toggle to **On**. The following checkboxes are displayed as selected:
    - **Show number of new messages**
    - **Play sound notifications for new messages**
@@ -98,6 +95,8 @@ Perform the following steps to enable the customer notifications:
 You can also configure the customer notifications when you're configuring the chat channel.
 
 ### Configure a chat widget in Omnichannel Administration
+
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 The information in this section is not applicable if you are using the Omnichannel admin center app in the latest version of Omnichannel for Customer Service.
 

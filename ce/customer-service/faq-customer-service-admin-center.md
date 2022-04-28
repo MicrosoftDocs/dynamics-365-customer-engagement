@@ -1,30 +1,22 @@
 ---
 title: "Customer Service admin center FAQs | MicrosoftDocs"
 description: "FAQs pertaining to Customer Service admin center."
-ms.date: 02/11/2022
+ms.date: 04/04/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ---
 
-# FAQs about Customer Service admin center (Preview)
-
-> [!IMPORTANT]
->
-> [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+# FAQs about Customer Service admin center
 
 ## Overview
 
-This topic contains the FAQs that you as an administrator might have about the Customer Service admin center app.
+This topic contains the frequently asked questions (FAQs) that you as an administrator might have about the Customer Service admin center app.
 
 ### What's the difference between Omnichannel admin center and Customer Service admin center?
 
-Customer Service admin center unifies all the administration settings in Customer Service Hub and Omnichannel admin center. The site map is task oriented, and only navigation to the entities has changed. You don't need to migration data, you just need to start to use this new app and get used to it.  
+Customer Service admin center unifies all the administration settings in Customer Service Hub, Omnichannel admin center, and app profile manager. The site map is task oriented, with overview pages and feature landing pages to easily locate each capability. The user experience is consolidated and improved, and you don't need to migrate any data. Try the new app for centrally managing the features.
 
 ### Can I customize this new application?
 
@@ -32,4 +24,9 @@ Similar to other apps, you can use the App designer to  customize the site map e
 
 ### When do you plan to deprecate existing admin experience?
 
-After Customer service admin center becomes generally available, we will leave some time for customers to get used it and provide feedback. This new app will co-exist with the existing admin experience. We'll then announce the deprecation of the legacy app. We recommend that you start using this app for the seamless benefits.  
+After Customer service admin center becomes generally available, we will leave some time for customers to get familiar with it and provide feedback. This new app will coexist with the existing admin experience. We'll then announce the deprecation of the existing admin experience in Customer Service Hub, Omnichannel admin center, and app profile manager. We recommend that you start using this app for the seamless benefits it offers.
+
+### See also
+
+[Get started with Customer Service admin center](cs-admin-center.md)  
+[Overview of Customer Service](overview.md)  

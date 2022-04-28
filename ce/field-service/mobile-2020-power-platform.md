@@ -1,16 +1,15 @@
 ---
 title: "Dynamics 365 Field Service mobile app | Microsoft Docs"
 description: Learn about the Field Service (Dynamics 365) mobile app.
-ms.date: 11/15/2021
+ms.date: 04/22/2022
 ms.reviewer: krbjoran
-
 ms.subservice: field-service-mobile
 ms.topic: overview
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: FieldServiceDave
-ms.author: daclar
+ms.author: jobaker
 manager: shellyha
 search.app: 
   - D365CE
@@ -40,32 +39,31 @@ The Field Service (Dynamics 365) mobile app will evolve over time and benefit fr
 
 | Feature | Category | Field Service (Dynamics 365) mobile app |  Details |
 | --- | --- | --- |  --- |
-| Mobile platform |  | iOS, Android, Windows(Preview) |  Not applicable |
-| Camera capture (photo + video) | Technician | Yes |  Not applicable |
-| Barcode scanning | Technician | Yes |  Not applicable |
-| Offline data | Technician | Yes |  Not applicable |
-| Calendar view | Technician | Yes |   Not applicable |
-| Driving directions | Technician | Yes | Not applicable |
-| Speech to text | Technician | Yes | Not applicable |
-| Geocoding | Technician | Yes* |  Not applicable |
-| [Microsoft Intune](field-service-mobile-intune.md)  | Integration | Yes | Not applicable |
-| Time entry  | Technician | Yes | Not applicable |
-| Connected Field Service and IoT alerts | Technician | Yes |  Not applicable |
+| Mobile platform |  | iOS, Android, Windows |  [Apple App Store](https://aka.ms/fsmobile-apple),  [Android App Store](https://aka.ms/fsmobile-google), [Microsoft App Store](https://aka.ms/fsmobile-win)  |
+| Camera capture (photo + video) | Technician | Yes |  Leverage native device camera to capture images and video |
+| Barcode scanning | Technician | Yes |  Scan bar code from global search or at a field level |
+| Offline data | Technician | Yes |  Offline enabled application allows you to access your data regardless of internet connectivity. |
+| Calendar view | Technician | Yes |   Customize your calendar with data relevant for your organization. |
+| Driving directions | Technician | Yes | Use your favorite in app map application for turn by turn directions |
+| Speech to text | Technician | Yes | Leverage native device speech-to-text capabilities to insert notes. |
+| [Microsoft Intune](mobile-power-app-intune.md)  | Integration | Yes | Provide an extra layer of device and data protection with Microsoft Intune. |
+| Time entry  | Technician | Yes | In application Time Entry enabled by default |
+| Connected Field Service and IoT alerts | Technician | Yes |  Receive iOT signals and send commands directly from your mobile app. |
 | [Inspections](inspections.md) | Technician | Yes | A Field Service technician can find and capture inspections associated with a work order. |
 | [Dynamics 365 Remote Assist](/dynamics365/mixed-reality/remote-assist/overview-hololens) | Integration | Yes** | You can get help from remote collaborators with integrated Dynamics 365 Remote Assist. |
-| [Push notifications](mobile-push-notifications.md) | Technician | Yes* |  You can send user notifications, such as a new booking appointment and other out-of-the-box triggers. |
-| [Geofencing](geofencing.md) | Technician | Yes* | You can automatically set booking status as a technician arrives or leaves a location. |
+| [Push notifications](mobile-power-app-push-notifications.md) | Technician | Yes* |  You can send user notifications, such as a new booking appointment and other out-of-the-box triggers. |
+| [Geofencing](mobile-powerapp-geofence.md) | Technician | Yes* | You can automatically set booking status as a technician arrives or leaves a location. |
 | Reporting | Technician | Yes | You can generate customer service reports with a signature, with the option to email a PDF. |
 | Scan to find asset (Global search) | Technician | Yes |  Not applicable |
-| [Location sharing and auditing](./geofencing.md#step-3-enable-location-auditing-for-the-field-service-mobile-app) | Admin | Yes* | You can enable real-time sharing of the technician's location with the back office. |
+| [Location sharing and auditing](mobile-powerapp-location-auditing.md) | Admin | Yes* | You can enable real-time sharing of the technician's location with the back office. |
 | Enhanced offline sync filters | Admin | Yes |  These are offline by default, and the data available offline can be customized (for example, by location or by accounts for scheduled bookings). |
 | Offline by default | Technician | Yes |  The app is offline by default, so the technician is always ready. |
 | Allow technician to force data sync | Technician | Yes |  The technician can manually force data sync. |
 | Bulk-add users  | Admin | Yes|  You can quickly assign an offline data sync profile to users. |
 | Checklist for service tasks  | Technician | Yes |  Use a checklist to quickly mark a task as complete. |
 
-*coming soon to Windows(Preview)<br>
-**not available on Windows(Preview)
+*coming soon to Windows<br>
+**not available on Windows
 
 Check [release plans](/dynamics365/release-plans/) to stay up to date on upcoming features for Field Service, including the Field Service (Dynamics 365) mobile app.
 
@@ -79,7 +77,7 @@ Here are a few more planning tips to help with your project:
 
 **Pilot the mobile apps side by side**. If you're a current customer of Field Service, you can pilot the new Field Service (Dynamics 365) mobile app alongside the Field Service Mobile (Xamarin) app, as well as other Field Service apps your organization might be using. This will help you assess how your frontline workers are currently using the apps, like what data is most important and what information is most commonly viewed and edited. You'll better understand what functionality to include in the new Field Service (Dynamics 365) mobile app.
 
-**Measure performance**. How the mobile app performs is a big factor in how much frontline workers enjoy using the app. Add performance measures to the deployment plan and test how editing forms, the mobile offline profile, and workflows affect app performance. Take feedback from users to determine what is necessary and what can be removed or hidden from forms.
+**Measure performance**. How the mobile app performs is a significant factor in how much frontline workers enjoy using the app. Add performance measures to the deployment plan and test how editing forms, the mobile offline profile, and workflows affect app performance. Take feedback from users to determine what is necessary and what can be removed or hidden from forms.
 
 
 ### See also

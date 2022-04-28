@@ -4,7 +4,6 @@ description: FAQs about email tracking using App for Outlook
 ms.custom: 
 ms.date: 05/20/2021
 ms.reviewer: 
-
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -48,13 +47,9 @@ To have this email untracked, the user needs to manually untrack
 the reply with the App for Outlook including replies to this
 because the master email is still tracked.
 
-An administrator can change the
-[*OrgDbOrgSetting*](/power-platform/admin/environment-database-settings.md) to,
-**IgnoreConversationIndexAndInReplyToForCorrelation**, which changes the
-functionality when **Use correlation to track email conversations** is the
-only selected email correlation option. However, if tracking token or
-smart matching is enabled, it will still track based on those
-correlation methods. 
+An administrator can enable the
+[*OrgDbOrgSetting*](/power-platform/admin/orgdborgsettings) named 
+**DoNotCorrelateForwardedEmailsAsReplies** to change this behavior. 
 
 
 ### Scenario B
@@ -73,14 +68,9 @@ To have this email untracked, the user would have to manually untrack
 the forward with the App for Outlook and any replies to this
 because the master email is still tracked.
 
-An administrator can change the
-[*OrgDbOrgSetting*](/power-platform/admin/environment-database-settings.md) to,
-**IgnoreConversationIndexAndInReplyToForCorrelation**, which changes the
-functionality when **Use correlation to track email conversations** is the
-only selected email correlation option. However, if tracking token or
-smart matching is enabled, it will still track based on those
-correlation methods. \*\*link to email settings paragraph on this
-setting.
+An administrator can enable the
+[*OrgDbOrgSetting*](/power-platform/admin/orgdborgsettings) named 
+**DoNotCorrelateForwardedEmailsAsReplies** to change this behavior. 
  
 
 ### Scenario C
@@ -100,9 +90,9 @@ is best to assume this scenario will also track.
 If you untrack a reply or forward to a thread on a tracked email thread,
 and if the initial/master email is still tracked, it will continue to
 track replies. If there are certain replies you do not want to track,
-you will need to untrack these manually or change the [*OrgDbOrgSetting*](/power-platform/admin/environment-database-settings.md) to
-**IgnoreConversationIndexAndInReplyToForCorrelation** and prevent replies
-and forwards from being tracked. 
+you will need to untrack these manually or an administrator can enable the
+[*OrgDbOrgSetting*](/power-platform/admin/orgdborgsettings) named 
+**DoNotCorrelateForwardedEmailsAsReplies** to change this behavior. 
 
 ## 2. When resolving recipient email addresses to rows in Dynamics 365, if there is more than one row in Dynamics 365 with the same email address, which row is it resolved to?
 
@@ -162,7 +152,7 @@ though it was the last created.
 **Scenario C**
 - Two contacts and one account exist with the same email address  
 - The tracking user owns both contacts and the account  
-- The account was created before the account.  
+- The account was created before the contacts.
 
 The sender will resolve to the first created contact.
 

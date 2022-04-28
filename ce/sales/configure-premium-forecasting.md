@@ -4,8 +4,8 @@ description: "Configure premium forecasting to help sellers and managers improve
 ms.date: 10/26/2021
 ms.custom: 
 ms.topic: article
-author: udaykirang
-ms.author: udag
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 ---
 # About premium forecasting 
@@ -16,12 +16,11 @@ Premium forecasting helps sellers and managers improve their forecast accuracy b
 >Premium forecasting is not available on Government Community Cloud (GCC), France, and India. 
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | System Administrator or Forecast Manager <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | System Administrator or Forecast Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## Features available in premium forecasting
 

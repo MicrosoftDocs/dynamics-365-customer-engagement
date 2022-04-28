@@ -3,24 +3,20 @@ title: "Relationship analytics and health"
 description: "Use relationship analytics to view customer activity history of contact, opportunity, lead, or account in a graphical display through KPIs and activity histories."
 ms.date: 10/26/2021
 ms.topic: article
-author: udaykirang
-ms.author: udag
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
-ms.custom: 
-topic-status: Drafting
-caps.latest.revision: 20
 ---
 # Use relationship analytics to gather KPIs     
 
 Use relationship analytics to view customer activity history of contact, opportunity, lead, or account in a graphical display through KPIs and activity histories.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+
 
 ## What is relationship analytics?
 
@@ -217,6 +213,7 @@ In addition to the absolute health score, the system also reports the general tr
 [GDPR for Dynamics 365 Sales Insights](embedded-intelligence-gdpr.md)      
 [View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)   
 [Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action](../sales/retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)
+[Relationship analytics and health FAQ](faqs-sales-insights.md#relationship-analytics-and-health)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

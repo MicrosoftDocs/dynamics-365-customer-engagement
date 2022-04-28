@@ -1,3 +1,70 @@
+
+## 3.12.75.2
+
+(Includes Resource Scheduling controls version 1.2.16.220914).
+
+- New schedule board fix for preferred resources filter.
+- New schedule board fix where the custom filter doesn't clear the existing value correctly.
+- New schedule board fix to view all of the items in the drop down when filtering for territories. 
+- New schedule board modified the logic to calculate remaining duration and fulfilled duration. 
+
+
+## 3.12.74.1
+
+(Includes Resource Scheduling controls version 1.2.15.220774).
+
+- Fixed bug: Resource utilization expand and collapse on the new schedule board.
+- Fixed bug: `msdyn_SearchResourceAvailability` returned inaccurate time slot type. 
+- Improved daylight saving time to avoid invalid date and time errors. 
+
+
+## 3.12.73.25
+
+(Includes Resource Scheduling controls version 1.2.14.220634)
+
+- Fixed bug: `msdyn_SearchResourceAvailability` API returns wrong results if the search range is in the next hour.
+- Fixed bug: Travel time shouldn't be considered when returning available time slots for facility scheduling.
+- Fixed bug: `msdyn_SearchResourceAvailability` API should respect existing bookings only return where resource has idle time, and when user checks **Ignore duration** on UI. API should also return slots with less than required duration. 
+- Fixed bug: On the new schedule board, filter for bottom requirement section doesn’t work correctly for boolean fields. 
+
+## 3.12.72.9
+
+(Includes Resource Scheduling controls version 1.2.13.220534)
+
+- Fixed bug: On the new schedule board, search range is always two days instead of taking the time range set when using "Find availability."
+- Fixed bug: Proper error message is not shown when an unprivileged user is trying to delete a booking from new schedule board. 
+- Fixed bug: Quick book is throwing "Cannot read properties of undefined (reading 'from')" error message when: (1) requirement group without from date, and (2) custom entity without from/to mapping.
+- Fixed bug: On the new schedule board, date fields on the booking panel use incorrect date format.
+- Fixed bug: Booking on the new schedule board doen't reflect booked hours correctly for project team member.
+- Fixed bug: On the new schedule board, proper error message is not shown when user is trying to delete a record that has some related booking alert records.  
+- Fixed bug: “Date-time format for /Date is invalid or value is outside of supported range" when using retrieve resource query on the new schedule board.
+- Fixed bug: Unable to change booking status on the new schedule board. 
+- Fixed bug: KPI panel on the new schedule board is not updated when booking suggestions.
+- Fixed bug: Race condition when rendering availability slots in SA mode.
+
+## 3.12.71.20
+
+(Includes Resource Scheduling controls version 1.2.12.220462)
+
+- Fixed bug: travel time shouldn't be considered when returning available time slots for facility scheduling.
+
+## 3.12.71.16
+
+(Includes Resource Scheduling controls version 1.2.12.220462)
+
+- Fixed bug: Custom booking template for custom entity is not being shown correctly. 
+- Fixed bug: Facing error when selecting **Book** option from service activity through quick book.
+- Fixed bug: Quick book throws "Cannot read properties of undefined" error for two scenarios: 
+  - Requirement group without from date.
+  - Custom entity without from/to mapping.
+- Fixed bug: On new schedule board, values in start time and end time columns are not in sync with time zone displayed in board view settings when booking a requirement group.
+- Fixed bug: New schedule board doesn't remove canceled work items from map.
+- Fixed bug: On new schedule board, booking method for the newly created bookings should be set as "Schedule Board."
+- Fixed bug: Spinner when searching resources is not showing user-friendly label on new schedule board. 
+- Fixed bug: On new schedule board, details panel always takes view ID from default `BookingSetupMetadata(BSM)`.
+- Fixed bug: On new schedule board, API to create bookings would fail when using logical name instead of schema name.
+- Fixed bug: Legacy schedule board sends a request to `GetAvailabilitySummaryFromDemand` with zero resources, causing performance issue.
+
 ## 3.12.70.3
 
 (Includes Resource Scheduling controls version 1.2.11.220252)

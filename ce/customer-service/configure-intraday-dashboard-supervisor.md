@@ -1,7 +1,7 @@
 ---
 title: "Configure intraday insights for supervisors | MicrosoftDocs"
 description: "How to configure intraday insights for Unified Service Desk and Omnichannel for Dynamics 365 Customer Service."
-ms.date: 01/07/2022
+ms.date: 02/25/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -16,9 +16,11 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 > [!Important]
 > This feature is intended to help customer service managers or supervisors enhance their team’s performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 
+## Introduction
+
 Supervisors have a dual responsibility with respect to agents and customers. They monitor and manage agents and make sure they remain highly productive. At the same time, they help provide a superior experience for customers. To help supervisors carry out this dual responsibility, the insights consist of intraday health tracking of agent productivity and performance.
 
-You can customize Intraday insights if you use Power BI or Power BI Premium licenses. You can't customize Insights in a pre-configured Power BI workspace that doesn't have a Power BI license.
+You can customize intraday insights if you use Power BI or Power BI Premium licenses. You can't customize insights in a pre-configured Power BI workspace that doesn't have a Power BI license.
 
  > [!NOTE]
  > The pre-configured Power BI workspace version of intraday insights is only available for organizations that are provisioned in a public cloud and isn't available in Government Community Cloud (GCC) and Unified Service Desk.
@@ -37,11 +39,15 @@ As an administrator, you must configure intraday insights before supervisors can
 
 As an administrator for a new organization, intraday insights is configured by default, so you don’t need to take extra steps to configure it, but if you want to switch from using customized reports to using the preconfigured Power BI workspace, follow the steps in this section. The preconfigured Power BI workspace feature allows you to access intraday insights without customizing the reports.
 
+For supervisor users in your organization to access the report and dashboard, ensure the Omnichannel supervisor role is assigned. More information: [Enable users for Omnichannel for Customer Service](add-users-assign-roles.md)
+
 To enable the preconfigured Power BI workspace:
 
 1. In the site map of Omnichannel admin center, select **Supervisor settings** under **Advanced settings**, and then select **Manage** for **Intraday insights**. If you're using the Omnichannel Administration app, from the site map ![Site map icon.](../unified-service-desk/media/oc-usd-supervisor-dashboard-site-map.png "Site map icon"), select **Supervisor Experience** > **Intraday Insights**.  
 
    The Power BI configuration view opens.
+    
+   > [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 2. Select **New**.
 
@@ -64,15 +70,15 @@ Review the following prerequisites before configuring the supervisor insights:
 
 - You have a **Power BI Pro** or **Power BI Premium** license for all supervisors and administrators.
 
-- As a system administrator, allow the **Omnichannel for Customer Service** app to read and write data on behalf of users in your organization. To learn more, see [Provide data access consent](omnichannel-provision-license.md).
+- As a system administrator, allow the **Omnichannel for Customer Service** app to read and write data on behalf of users in your organization. More information: [Provide data access consent](omnichannel-provision-license.md)
 
-- The Omnichannel supervisor role has been assigned to supervisor users in your organization to access the report and dashboard. To learn more, see [Enable users for Omnichannel for Customer Service](add-users-assign-roles.md).
+- The Omnichannel supervisor role has been assigned to supervisor users in your organization to access the report and dashboard. More information: [Enable users for Omnichannel for Customer Service](add-users-assign-roles.md)
 
 - As a system administrator, you must create and add a security group for Power BI service. Follow these steps to create and add a security group:
 
    1. Create a security group in Azure Active Directory (Azure AD), and add **Omnichannel for Customer Service** as a member to that security group. For GCC, you must add only **Omnichannel Engagement Hub - GCC** as a member.
 
-      For more information, see [Create a basic group and add members using Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal).
+      More information: [Create a basic group and add members using Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
    
 
    1. As a Power BI admin, enable the service principal in the **Developer settings** in the Power BI admin portal and the security group that you created in Azure AD.
@@ -101,6 +107,8 @@ Follow these steps to configure intraday insights for the Omnichannel for Custom
 2. [Share workspace and reports with supervisors](#share-workspace-and-reports-with-supervisors)
 
 #### Configure the Power BI workspace
+
+[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 You must configure the Power BI workspace using the Omnichannel admin center or Omnichannel Administration app to create datasets and reports in Power BI. When configured, the supervisor users in your organization can see the Intraday insights reports as an app tab. Follow these steps to configure the Power BI workspace to display Intraday insights reports as an app tab in the **Omnichannel for Customer Service** app on the web.
 
@@ -152,7 +160,7 @@ You must configure the Power BI workspace using the Omnichannel admin center or 
     > [!NOTE]
     > You can also see the status of different configuration stages such as workspace, dashboard, and datasets. When a workspace is created successfully, all the statuses will have a green check. If failed, the respective configuration stage check will be red, and an error message is displayed. Resolve the error and create the workspace again.
 
-8. In [Power BI Service](https://app.powerbi.com), share the reports with supervisor users to access the report in the **Omnichannel for Customer Service** app on the web. To learn more, see [Share Power BI dashboards and reports with coworkers and others](/power-bi/service-share-dashboards).
+8. In [Power BI Service](https://app.powerbi.com), share the reports with supervisor users to access the report in the **Omnichannel for Customer Service** app on the web. More information: [Share Power BI dashboards and reports with coworkers and others](/power-bi/service-share-dashboards)
 
     > [!IMPORTANT]
     >
@@ -187,7 +195,7 @@ You must configure the Power BI workspace using the Omnichannel admin center or 
 
 6. Select **Add** > **Close**.
 
-7. Select the report and share with supervisor users to access the report as an app tab in the **Omnichannel for Customer Service** app on the web. To learn more, see [Share Power BI dashboards and reports with coworkers and others](/power-bi/service-share-dashboards).
+7. Select the report and share with supervisor users to access the report as an app tab in the **Omnichannel for Customer Service** app on the web. More information: [Share Power BI dashboards and reports with coworkers and others](/power-bi/service-share-dashboards)
 
 
 ### Configure customized intraday insights for Unified Service Desk
@@ -206,7 +214,7 @@ Configuring the Power BI workspace provides you only the **Intraday Monitoring**
 
 Follow these steps to configure Power BI dashboards:
 
-1. In [Power BI Service](https://app.powerbi.com), open the reports that are available in the workspace. To learn more, see [Open a report in Power BI service](/power-bi/consumer/end-user-report-open).
+1. In [Power BI Service](https://app.powerbi.com), open the reports that are available in the workspace. More information: [Open a report in Power BI service](/power-bi/consumer/end-user-report-open)
 
 2. Pin the required tiles to dashboards. 
 
@@ -220,11 +228,11 @@ Follow these steps to configure Power BI dashboards:
     > [!div class=mx-imgBorder]
     > ![Pin a report on a dashboard.](media/supervisor-admin-pin-report-dashboard.png "Pin a report on a dashboard")  
 
-    To learn more, see [Pin a tile to a Power BI dashboard from a report](/power-bi/service-dashboard-pin-tile-from-report).
+    More information: [Pin a tile to a Power BI dashboard from a report](/power-bi/service-dashboard-pin-tile-from-report)
 
 3. Select **Set as featured** so the created dashboard will display at the top each time you open the Power BI service.
 
-4. Share the dashboard and reports with supervisor users. This allows supervisors to access the dashboards. To learn more, see [Share Power BI dashboards and reports with coworkers and others](/power-bi/service-share-dashboards).  
+4. Share the dashboard and reports with supervisor users. This allows supervisors to access the dashboards. More information: [Share Power BI dashboards and reports with coworkers and others](/power-bi/service-share-dashboards)
 
 5. For Unified Service Desk configuration, copy the URL of the dashboard.  
 
@@ -276,7 +284,7 @@ You must add users in the supervisor configuration to access any supervisor insi
 
 Update the client cache version number to reduce the amount of bandwidth required at the startup of the Unified Service Desk client on the computers of agents, and over the lifecycle of the client application.
 
-To learn more, see [Client caching overview](/dynamics365/customer-engagement/unified-service-desk/admin/configure-client-caching-unified-service-desk?preserve-view=true&view=dynamics-usd-4.1).  
+More information: [Client caching overview](/dynamics365/customer-engagement/unified-service-desk/admin/configure-client-caching-unified-service-desk?preserve-view=true&view=dynamics-usd-4.1)
 
 1. Sign in to **Dynamics 365 Customer Service**.
 
@@ -297,12 +305,10 @@ To learn more, see [Client caching overview](/dynamics365/customer-engagement/un
 
 5. Select **Save**.
 
-
 ### See also
 
-[Introduction to intraday insights](intro-intraday-insights-dashboard.md)
-
-[Customize KPIs for intraday insights](customize-kpis-intraday-insights.md)
+[Introduction to intraday insights](intro-intraday-insights-dashboard.md)  
+[Customize KPIs for intraday insights](customize-kpis-intraday-insights.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

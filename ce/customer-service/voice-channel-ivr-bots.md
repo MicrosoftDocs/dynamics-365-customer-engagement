@@ -4,7 +4,7 @@ description: "Learn about how to add a Power Virtual Agents bot for using in voi
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 02/18/2022
+ms.date: 04/04/2022
 ms.topic: article
 
 ms.custom: intro-internal
@@ -31,13 +31,16 @@ The following prerequisites must be met for the Power Virtual Agents bot:
 
 - The bot is published, and the **Agent transfers** setting is configured by selecting **Omnichannel**. More information: [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/power-virtual-agents/configuration-hand-off-omnichannel)
 - The **Enable voice** option is selected in the **Omnichannel** section of the **Agent transfers** setting.
-
+- Install the following extensions for voice hand-off in the specified order:
+   1. [Power Virtual Agents telephony extension](https://appsource.microsoft.com/product/dynamics-365/mscrm.mspva_telephony_extension)
+   1. [Omnichannel Power Virtual Agent extension](https://appsource.microsoft.com/product/dynamics-365/mscrm.omnichannelpvaextension)
+   1. [Omnichannel Voice Power Virtual Agent extension](https://appsource.microsoft.com/product/dynamics-365/mscrm.omnichannelvoicepvaextension)
 
 ## Configure a bot for voice
 
 **To add and configure a bot for voice**
 
-1. In the Customer Service admin center (preview) or Omnichannel admin center app, go to the workstream that you created for the voice channel, and then in the **Bot section,** select **Add Bot**.
+1. In the Customer Service admin center or Omnichannel admin center app, go to the workstream that you created for the voice channel, and then in the **Bot section,** select **Add Bot**.
 
 
 1. On the **Add Bot** pane, select a bot from the **Name** box.
@@ -64,8 +67,10 @@ More information:
 
 3. In the **Agent transfers** section, select **Omnichannel**, and on the Omnichannel panel that appears, do the following:
    
-   1. Select **Enable**. A message that Omnichannel is enabled is displayed on the top.
+   1. Select **Enable**. One of the following messages appears:
    
+     - That Omnichannel is enabled is displayed at the top of the page.
+     - If you're using Application Lifecycle Management (ALM), you might see the following message: "We can't determine if omnichannel integration is enabled for the environment". For more information, see [Bots with ALM](/power-virtual-agents/configuration-hand-off-omnichannel#bots-with-alm).
    2. Turn on the **Enable voice** toggle.
    
    3. Select **See how to register a new Application ID**, and follow the instructions to register an application identifier.

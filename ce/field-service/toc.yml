@@ -49,7 +49,9 @@
   - name: Best practices
     href: field-service-customization-best-practices.md
   - name: Customize columns (fields)
-    href: field-service-customize-columns-fields.md 
+    href: field-service-customize-columns-fields.md
+  - name: Customize forms
+    href: field-service-customize-forms.md  
   - name: Write complex business logic (plugins + JavaScript)
     href: field-service-customize-scripts.md
 - name: Quickstarts
@@ -242,7 +244,7 @@
     href: mobile-powerapp-deeplink.md
   - name: Add a custom app module to the mobile app
     href: mobile-powerapp-copy-app-module.md
-  - name: Mobile app for Windows 10+ (Preview)
+  - name: Mobile app for Windows 10+
     href: mobile-powerapp-windows.md
   - name: Use Microsoft Power Platform
     href: mobile-power-utilize-platform.md

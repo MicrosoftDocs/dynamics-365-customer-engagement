@@ -1,7 +1,7 @@
 ---
 title: View, edit, or add a note in the Dynamics 365 Sales mobile app
 description: Instructions to view, edit, or add a note in the Dynamics 365 Sales mobile app
-ms.date: 10/25/2021
+ms.date: 04/25/2022
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -17,12 +17,11 @@ You can see the notes associated with a record in the **Notes** section of the r
 ![View a note.](media/sm-view-note.png "View a note")
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Professional, or Microsoft Relationship Sales <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](../security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](../security-roles-for-sales.md#primary-sales-roles)|
+
 
 ## What actions can performed?
 
@@ -35,6 +34,7 @@ You can perform the following actions in the **Notes** section.
 | Open or edit a note  | Tap the note.       |
 | Take more actions, like change the connected record or delete a note.  | Tap ![Options button.](media/sm-options-button.png "Options button").  |
 | Create a note.     | Tap **Add a note**.     |
+
 
 ## Add a note
 
@@ -52,7 +52,7 @@ You can perform the following actions in the **Notes** section.
 
         ![Add a note in the notes list.](media/sm-add-note-from-list.png "Add a note in the notes list")
 
-    -   On the navigation bar at the bottom of the screen, tap ![Plus icon.](media/sm-plus-icon.png "Plus icon"), and then tap **Take a note**.
+    -   On the navigation bar at the bottom of the screen, tap ![Plus icon.](media/sm-plus-icon.png "Plus icon"), and then tap **Note**.
 
         ![Add a note.](media/sm-add-note-nav-bar.png "Add a note")
 
@@ -60,14 +60,17 @@ You can perform the following actions in the **Notes** section.
 
     ![Note form.](media/sm-note-form.png "Note form")
 
-3.  To attach a file or an image stored on your mobile device, tap ![Paper clip icon.](media/sm-attach-file-note.png "Paper clip icon").
+    You can perform the following actions from the bottom command bar while adding text to your note.
 
-4.  To take a photo from your mobile camera and attach it to the note, tap ![Camera icon.](media/sm-take-photo-note.png "Camera icon").
+    |Icon|Description|
+    |----|-----------|
+    |![Paper clip icon.](media/sm-attach-file-note.png "Paper clip icon")|Attach a file or an image stored on your mobile device.|
+    |![Camera icon.](media/sm-take-photo-note.png "Camera icon")|Take a photo from your mobile camera and attach it to the note.|
+    |![Copy icon to copy the note.](media/copy-icon-note.png "Copy icon to copy the note")|Copy the note's content.|
+    
 
     > [!NOTE]
     > If you're adding the note by using the navigation bar at the bottom of the screen, you must connect the note to the record that it's regarding. Tap **Next**, and then select the record you want to associate the note with. More information about annotation: [annotation EntityType](/dynamics365/customer-engagement/web-api/annotation?view=dynamics-ce-odata-9&preserve-view=true)
-
-    If you're adding the note by using the navigation bar at the bottom of the screen, you must set the record you would like the note to be connected to. Tap **Next**, and then select the record you want to associate the note with. Learn more about annotation in dynamics entities
 
 5. Tap **Save**.
 

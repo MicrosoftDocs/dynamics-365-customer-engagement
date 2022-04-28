@@ -1,6 +1,41 @@
 {
   "redirections": [
     {
+      "source_path": "ce/marketing/real-time-marketing-event-based-journey.md",
+      "redirect_url": "real-time-marketing-trigger-based-journey",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-predefined-tokens.md",
+      "redirect_url": "real-time-marketing-predefined-dynamic-text",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/set-up-multilanguage-pva-bot.md",
+      "redirect_url": "set-up-multilingual-pva-bot",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-custom-event-actions.md",
+      "redirect_url": "real-time-marketing-custom-actions",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-custom-events.md",
+      "redirect_url": "real-time-marketing-custom-triggers",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-event-triggers.md",
+      "redirect_url": "real-time-marketing-triggers",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/customer-service-hub-user-guide-timeline-admin.md",
+      "redirect_url": "/powerapps/maker/model-driven-apps/set-up-timeline-control?context=/dynamics365/context/customer-service-context",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/mobile-app/files-images-offline-profile.md",
       "redirect_url": "/powerapps/mobile/offline-file-images",
       "redirect_document_id": "false"
@@ -1428,6 +1463,11 @@
     {
       "source_path": "ce/sales-enterprise/insert-email-template.md",
       "redirect_url": "/dynamics365/customer-service/customer-service-hub-user-guide-email-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/try-dynamics365-sales-professional.md",
+      "redirect_url": "sign-up-for-sales-trial",
       "redirect_document_id": "false"
     },
     {
@@ -17896,6 +17936,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/customerengagement/on-premises/developer/use-executemultiple-improve-performance-bulk-data-load.md",
+      "redirect_url": "/dynamics365/developer/customerengagement/on-premises/developer/org-service/use-executemultiple-improve-performance-bulk-data-load",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/developer/org-service/use-organization-service-metadata.md",
       "redirect_url": "/dynamics365/developer/customerengagement/on-premises/developer/org-service/use-organization-service-metadata",
       "redirect_document_id": "false"
@@ -19332,12 +19377,12 @@
     },
     {
       "source_path": "ce/customer-service/channel-integration-framework/reference/events/onSessionSwitched.md",
-      "redirect_url": "/dynamics365/customer-service/dynamics365/channel-integration-framework/referen/v2/reference/events/onSessionSwitched",
+      "redirect_url": "/dynamics365/customer-service/channel-integration-framework/v2/reference/events/onsessionswitched",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/customer-service/channel-integration-framework/reference/events/onSessionClosed.md",
-      "redirect_url": "/dynamics365/customer-service/dynamics365/channel-integration-framework/referen/v2/reference/events/onSessionClosed",
+      "redirect_url": "/dynamics365/customer-service/channel-integration-framework/v2/reference/events/onSessionClosed",
       "redirect_document_id": false
     },
     {
@@ -23550,9 +23595,54 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/sales-accelerator-assignment-rules.md",
+      "redirect_url": "enable-configure-sales-accelerator",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customer-service/knowledge-management-oc.md",
       "redirect_url": "set-up-knowledge-management-embedded-knowledge-search#set-up-knowledge-management",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/teams-integration/teams-basic-vs-enhanced-collaboration.md",
+      "redirect_url": "/dynamics365/sales/teams-integration/teams-basic-vs-enhanced-collaboration",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/teams-integration/sensitivity-labels.md",
+      "redirect_url": "/dynamics365/sales/teams-integration/sensitivity-labels",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/teams-integration/teams-in-dynamics-faq.md",
+      "redirect_url": "/dynamics365/sales/teams-integration/teams-in-dynamics-faq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/teams-integration/teams-collaboration.md",
+      "redirect_url": "/dynamics365/sales/teams-integration/teams-collaboration",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/teams-integration/teams-collaboration-enhanced-experience.md",
+      "redirect_url": "/dynamics365/sales/teams-integration/teams-collaboration-enhanced-experience",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/teams-integration/teams-collaboration-in-dynamics.md",
+      "redirect_url": "/dynamics365/sales/teams-integration/using-teams-chat-in-dynamics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/teams-integration/using-teams-chat-in-dynamics.md",
+      "redirect_url": "/dynamics365/sales/teams-integration/using-teams-chat-in-dynamics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales/sales-mobile/use-dictation.md",
+      "redirect_url": "/dynamics365/sales/sales-mobile/dynamics-365-sales-mobile-app",
+      "redirect_document_id": false
     }
   ]
 }
