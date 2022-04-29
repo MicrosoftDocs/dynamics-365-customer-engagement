@@ -43,7 +43,7 @@ As we continue to work on real-time marketing and refine the experience, we've b
 
 -	Data from Customer Insights environments that use the Azure Data Lake Gen v2 storage isn’t accessible in real-time marketing. To use Customer Insights data in real-time marketing, you must create a new environment using a copy of the existing environment, then use the Customer Insights storage option and enable data sharing with the Dataverse org on which Dynamics 365 Marketing is installed.
 -	Segments and profiles in Customer Insights aren’t evaluated in real time. Segments and profiles can be set to refresh on a schedule defined by the Customer Insights admin. When a customer journey uses profiles from Customer Insights, the earliest you can engage with a new customer is when their profile is created on the next scheduled refresh. Similarly, when you use segments from Customer Insights, new customers will only enter the journey on the next scheduled refresh.
--	Once you start using Customer Insights data in customer journeys, you can’t remove the profile attributes being used from the data unification process (Map-Match-Merge). Doing so might break customer journeys and personalization tokens that reference those attributes.
+-	Once you start using Customer Insights data in customer journeys, you can’t remove the profile attributes being used from the data unification process (Map-Match-Merge). Doing so might break customer journeys and personalized dynamic text that reference those attributes.
 - Customer Insights segments used in customer journeys can’t currently exceed one million profiles. A segment of larger size may get truncated to the first one million profiles only.
 
 ## Email editor
@@ -66,8 +66,8 @@ As we continue to work on real-time marketing and refine the experience, we've b
 
 ## Personalization
 
-- Changing the data binding of an existing token creates a new token.
-- Even if you delete all usage of a token from the current message, it is still shown and considered in use.
+- Changing the data binding of existing dynamic text creates new dynamic text.
+- Even if you delete all usage of a piece of dynamic text from the current message, it is still shown and considered in use.
 
 ## SMS
 

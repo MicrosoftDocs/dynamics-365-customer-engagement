@@ -92,8 +92,8 @@ landingContent:
           url: real-time-marketing-asset-library.md      
       - linkListType: how-to-guide
         links:
-        - text: Create an event-based journey 
-          url: real-time-marketing-event-based-journey.md
+        - text: Create a trigger-based journey 
+          url: real-time-marketing-trigger-based-journey.md
         - text: Create a dynamic segment 
           url: create-segment.md
         - text: Create a marketing email and go live 
