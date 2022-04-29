@@ -63,7 +63,7 @@ The Dynamics 365 Marketing March 2022 update includes many new features. This re
 ##### Real-time marketing
 
 > [!Note]
-> “Event triggers” are now called “triggers” in the app and the documentation. The change was made to avoid confusion when referencing event management functionality versus triggering real-time marketing event-based journeys.
+> “Event triggers” are now called “triggers” in the app and the documentation. The change was made to avoid confusion when referencing event management functionality versus triggering real-time marketing journeys.
 
 - **Marketing emails**
     - Link buttons or images to URLs, surveys, events, marketing pages, or files. You can also create button or image links that allow recipients to join a Microsoft Teams event or that create a new calendar item. Learn more: [Create real-time marketing emails](real-time-marketing-email.md).
@@ -319,7 +319,7 @@ The Dynamics 365 Marketing October 2021 update includes a new Content ideas feat
 - **Real-time marketing**
     - Live customer journeys can now be updated by creating a new version.
     - The journey designer and the content designer UI is more consistent, improving navigation and workflow.
-    - Event-based journeys that target Customer Insights profile can be started even if the customer’s full profile is not available. Customers without a full profile will start the journey immediately using defaults for any missing profile data.
+    - Trigger-based journeys that target Customer Insights profile can be started even if the customer’s full profile is not available. Customers without a full profile will start the journey immediately using defaults for any missing profile data.
 
 #### Bug fixes
 
@@ -567,7 +567,7 @@ The Dynamics 365 Marketing June 2021 update includes improved engagement-trackin
 The much-anticipated customer journey orchestration features have made their public preview debut to customers in North America. Customers with Dynamics 365 Marketing paid or trial subscriptions are able to use the new features. Marketing now has capabilities to empower customer experience-focused organizations to deliver digitally transformed customer experiences in real time. These features enable organizations to:
 
 - Engage customers in real-time.
-    - With features such as event-based customer journeys, custom triggers, and SMS and push notifications, organizations can trigger customer journeys in real-time, pick the right channel for each individual, and react to customer-led actions in the moments that matter.
+    - With features such as trigger-based customer journeys, custom triggers, and SMS and push notifications, organizations can trigger customer journeys in real-time, pick the right channel for each individual, and react to customer-led actions in the moments that matter.
 - Win customers and earn loyalty faster.
     - Working across all customer touchpoints, real-time customer journeys are truly an end-to-end experience.
 - Personalize customer experiences with AI.
@@ -628,9 +628,9 @@ The May 2021 Marketing monthly update includes email editor improvements, expand
 - **In real time, monitor your customer journeys and channel KPIs**
     - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/real-time-monitor-customer-journeys-channel-kpis)
     - [Docs](real-time-marketing-analytics.md)
-- **Real-time, event-based customer journey orchestration**
+- **Real-time, trigger-based customer journey orchestration**
     - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/real-time-event-based-customer-journey-orchestration)
-    - [Docs](real-time-marketing-event-based-journey.md)
+    - [Docs](real-time-marketing-trigger-based-journey.md)
 - **Search, version, manage, and tag your digital assets with a new centralized asset library**
     - [Release plan](/dynamics365-release-plan/2021wave1/marketing/dynamics365-marketing/search-version-manage-tag-digital-assets-new-centralized-asset-library)
     - [Docs](real-time-marketing-asset-library.md)

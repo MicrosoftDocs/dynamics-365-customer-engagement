@@ -1,6 +1,6 @@
 ---
 title: "Visual customization of historical analytics reports in Customer Service | MicrosoftDocs"
-description: "Learn how to customize historical analytics reports in Dynamics 366 Customer Service using the Power BI embedded editing experience."
+description: "Learn how to customize historical analytics reports in Dynamics 365 Customer Service using the Power BI embedded editing experience."
 ms.date: 04/19/2022
 ms.topic: article
 author: lalexms
@@ -259,7 +259,7 @@ In a scenario where you have customized your reports and then Microsoft makes up
 |FactSession	|Sessions rejected rate	|The percentage of sessions that been rejected. |
 |FactSession	|Sessions timeout rate	|The percentage of sessions that timed out. |
 |FactSession	|Sessions timed out count	|Session count when agent is timeout. |
-|FactSession	|Bot escalated	| NUmber of bot conversations that have been escalated. |
+|FactSession	|Bot escalated	| Number of bot conversations that have been escalated. |
 |FactSession	|Bot resolved	| Number of bot conversations that have been resolved. |
 |FactSession	|Transfer count |Number of sessions that have been transferred (closure reason in 192350006 or 192350010).
 |FactSessionParticipant	|Session participant id	|Identifier of the session participant record.|

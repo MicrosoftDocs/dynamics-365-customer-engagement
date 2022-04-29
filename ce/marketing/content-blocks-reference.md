@@ -67,7 +67,7 @@ You can edit the text of any new or existing text element by working directly in
 
 Select a text element and use the settings provided on the **Properties** tabs to stylize the element itself by using colors, fonts, margins, borders, and backgrounds. Many of the settings on the **Style** tab (which apply to the overall page, form, or message design) also affect the styling of text-element content unless overruled locally.
 
-For email messages, the text toolbar includes an **[Assist edit](dynamic-email-content.md#assist-edit)** button ![The assist-edit button](media/button-assist-edit.png "The assist-edit button"). Use this to place dynamic text, including field values such as the recipient's name. More information: [Add dynamic content to email messages](dynamic-email-content.md)
+For email messages, the text toolbar includes an **[Assist edit](dynamic-email-content.md#assist-edit)** button ![The assist-edit button](media/button-assist-edit.png "The assist-edit button"). Use this to place pre-defined dynamic text, including field values such as the recipient's name. More information: [Add dynamic content to email messages](dynamic-email-content.md)
 
 ### Image elements
 
