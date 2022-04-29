@@ -18,7 +18,7 @@ The knowledge search analytics dashboard is designed to provide your organizatio
 
 ## Configure the Knowledge search analytics dashboard
 
-You can enable the knowledge search analytics dashboard in the Customer Service admin center (preview) or Customer Service Hub app.
+You can enable the knowledge search analytics dashboard in the Customer Service admin center or Customer Service Hub app.
 
 **Enable the Knowledge search analytics dashboard**
 

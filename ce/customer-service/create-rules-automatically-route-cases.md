@@ -1,7 +1,7 @@
 ---
 title: Automatically route cases using basic routing rulesets | MicrosoftDocs
 description: Understand how to create rules to automatically route cases in Dynamics 365 Customer Service
-ms.date: 04/04/2022
+ms.date: 04/28/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -18,6 +18,8 @@ ms.custom:
 ---
 
 # Route cases using basic routing rulesets
+
+[!INCLUDE[cc-trial-sign-up](../includes/cc-trial-sign-up.md)]
 
 > [!NOTE]
 > We recommend that you enable and use unified routing for automatically routing records in Customer Service. More information: [Overview of unified routing](overview-unified-routing.md).
