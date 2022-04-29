@@ -11,13 +11,13 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-Follow these steps to download attachments from your Azure bot.
+Follow these steps to download attachments from your Azure bot via the Microsoft Teams channel.
 
-1. Get the token for your bot by providing your bot's Microsoft AppId and Client Secret. More information: [Connector authentication](/azure/bot-service/rest-api/bot-framework-rest-connector-authentication?view=azure-bot-service-4.0&preserve-view=true)
+1. Get the token for your bot by providing your bot's Microsoft App Id and client secret. More information: [Connector authentication](/azure/bot-service/rest-api/bot-framework-rest-connector-authentication?view=azure-bot-service-4.0&preserve-view=true)
 
 2. Fetch the `attachmentId` from the attachment content URL. For example, the `attachmentId` in this URL `https://us-api.asm.skype.com/v1/objects/0-eus-d1-5360689c55c308cb4e3b51722e46b801/` is `0-eus-d1-5360689c55c308cb4e3b51722e46b801`. 
 
-3.	Use the `attachmentId` in the `RequestUri` variable. Then, call the `GET` request by using the `HttpRequestMessage` method, as shown in the following sample code.
+3. Use the `attachmentId` in the `RequestUri` variable. Then, call the `GET` request by using the `HttpRequestMessage` method, as shown in the following sample code.
 
 ```csharp
 string requestUri = $"https://botapi.skype.com/amer/v3/attachments/{attachmentId}/views/original";
@@ -47,13 +47,64 @@ Before you begin, let's quickly learn about file attachment formats in the Teams
 
 When file attachments are sent from Omnichannel for Customer Service to an Azure bot on the Teams bot service channel, the attachment format is passed in the `Activity.Attachments` property. The content type of that attachment is “application/vnd.microsoft.teams.file.download.info”.
 
-  > [!div class="mx-imgBorder"]
-  > ![Attachment format on the Teams bot service channel.](./media/attachment-format-teams-channel.png "Attachment format on the Teams bot service channel.")
+**Teams bot service channel**
+
+```json
+{
+   "attachments":[
+      {
+         "contentType":" text/html",
+         "contentUrl":null,
+         "content ":{
+            "name":null,
+            "thumbnailUrl":null
+         }
+      },
+      {
+         "contentType":"application/vnd.microsoft.teams.file.download.info",
+         "contentUrl":"https://us-api.asm.skype.com/v1/objects/0-wus-d8-111 a550dfI 6e947f250519ffc242763d/",
+         "content":{
+            "downloadUrl":"https://us-api.asm.skype.com/v1/objects/0-wus-d8-111 a550dfI 6e947f250519ffc242763d/",
+            "uniqueld":"0-wus-d8-111 a550dfI 6e947f250519ffc242763d",
+            "fileType":"png "
+         },
+         "name":"bot.png",
+         "thumbnailUrl":null
+      }
+   ]
+}
+```
 
 However, when file attachments are sent from Omnichannel for Customer Service to the Azure bot on the Omnichannel bot service channel, the information required to download the files is passed in the `amsReferences` and `amsMetadata` fields of the `Activity.ChannelData` property.
-  > [!div class="mx-imgBorder"]
-  > ![Attachment format on the Omnichannel bot service channel.](./media/attachment-format-acs-channel.png "Attachment format on the Omnichannel bot service channel.")
 
+**Omnichannel bot service channel**
+
+```json
+{
+   "recipient":{
+      "id":"8:acs:5ecf37b1-11 Oc-414g-ab33-804ffd6b4a33_eooe0010-7c57-1ceb-nec-113aOdOOb272",
+      "name":"Omnichannel-test-bot",
+      "aadObjectId":null,
+      "role":null
+   },
+   "attachments ":null,
+   "channelData":{
+      "tags":"Channelld-lcw,FromCustomer",
+      "deliveryMode":"bridged",
+      "fromUserId":"8:acs:5ecf37b1-110c-4149-ab33-804ffd6b4a33_00000010-61 b9-ab1 d-3dfe-9c3aOd009ea4",
+      "amsReferences":[
+         "0-wus-d6-20e7797d208fab388cc11b09674d166"
+      ],
+      "amsMetadata":[
+         {
+            "contentType":"image/png",
+            "fileName":"SurnmerTime.png"
+         }
+      ],
+      "sourceChannelId":"omnichannel"
+   }
+}
+```
 ### How to manage file attachments in your Azure bot code
 
 In the new channel, the attachment information is not passed in the `Activity.Attachments` field, as is done on the Teams bot service channel. So, to ensure smooth migration between the two chat channels, the Teams channel-specific logic should be retained in the bot code together with the Omnichannel bot service channel-specific logic, as shown in the following sample code.
