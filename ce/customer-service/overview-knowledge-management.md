@@ -27,7 +27,7 @@ Knowledge management plays a vital role in enabling organizations to deliver wor
 * Agents get access to rich, high-quality knowledge resources across consistent and contextual Omnichannel experiences which enables quick resolution of issues, thus reducing the average call handling time for agents.
 * Knowledge management search capabilities across channels help reduce support tickets through self-service, and drives customer satisfaction.
 
-    :::image type="content" source="media/km-benefits.png" alt-text="benefits of knowledge management":::
+    :::image type="content" source="media/km-benefits.png" alt-text="Benefits of knowledge management":::
 
 ## Features of knowledge management
 
