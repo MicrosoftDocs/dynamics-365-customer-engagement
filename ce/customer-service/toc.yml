@@ -890,6 +890,8 @@
         href: configure-ai-suggested-article-keywords-description.md
       - name: Configure Customer Service analytics dashboards in Power BI
         href: configure-customer-service-analytics-dashboard.md
+      - name: Configure case and conversation volume forecasting
+        href: configure-volume-forecasting.md
       - name: Configure AI topic clustering for conversation
         href: ai-topic-clustering-conversations.md
       - name: Configure intraday insights
@@ -936,6 +938,8 @@
         href: knowledge-search-analytics-cs.md
       - name: View analytics dashboards created in Power BI
         href: customer-service-analytics.md
+      - name: Forecast case and conversation volumes
+        href: use-volume-forecasting.md
       - name: Intraday supervisor experience
         items: 
         - name: Introduction to intraday supervisor experience
