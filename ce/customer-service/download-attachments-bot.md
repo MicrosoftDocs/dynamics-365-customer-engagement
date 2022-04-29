@@ -1,7 +1,7 @@
 ---
 title: "Download file attachments from Azure bot| Microsoft Docs"
 description: "This article includes reference information about downloading attachments from your Azure bot."
-ms.date: 04/26/2022
+ms.date: 04/30/2022
 ms.topic: reference
 author: lalexms
 ms.author: laalexan
