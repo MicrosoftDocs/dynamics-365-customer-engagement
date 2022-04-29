@@ -1,7 +1,7 @@
 ---
 title: Navigate the service calendar | Microsoft Docs
 description: Learn about the various features of the service calendar in Dynamics 365 Customer Service.
-ms.date: 04/28/2022
+ms.date: 04/29/2022
 ms.topic: article
 author: lalexms
 ms.author: lalexms
@@ -54,8 +54,6 @@ You can’t customize the service calendar or change the default view with the a
 
    ![View the calendar legend.](media/uci-color-legend.png "View legend of calendar colors and statuses")
 
-> [!NOTE]
-> For accessibility to information provided in the service calendar, switch to **List view** that shows the availability of resources and bookings in a list format. Information in **List view** can be accessed by users who use keyboard shortcuts or a screen reader.
    
 ## Preview: View resources in a list view
 [!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -67,6 +65,9 @@ You can’t customize the service calendar or change the default view with the a
 > - Previews are not meant for production use, especially to process Personal Data or other data that is subject to heightened compliance requirements, and any use of "live" or production data is at your sole risk. All previews are subject to separate [Terms and Conditions](../legal/supp-dynamics365-preview.md).
 
 You can view the number of records in a list by selecting **List view**.
+
+> [!NOTE]
+> Information in **List view** can be accessed by users who use keyboard shortcuts or a screen reader. For accessibility to information provided in the service calendar, switch to **List view** that shows the availability of resources and bookings in a list format.
 
   ![View resources in a list.](media/resources-list-view.png "View resources in a list")
 
