@@ -32,7 +32,7 @@ To successfully migrate to the new messaging platform, you must make the followi
 
 [Introduction to Omnichannel for Customer Service](introduction-omnichannel.md)  
 [Omnichannel for Customer Service system requirements](system-requirements-omnichannel.md)  
-[Develop custom live chat widgets](develop-live-chat-widget.md)  
+[Develop a custom live chat widget](develop-live-chat-widget.md)  
 [Customize live chat widgets for mobile apps](render-live-chat-widget-mobile.md)  
 [Integrate an Azure bot](configure-bot.md)  
 
