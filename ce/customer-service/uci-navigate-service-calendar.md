@@ -3,8 +3,8 @@ title: Navigate the service calendar | Microsoft Docs
 description: Learn about the various features of the service calendar in Dynamics 365 Customer Service.
 ms.date: 04/29/2022
 ms.topic: article
-author: lalexms
-ms.author: lalexms
+author: laalexan
+ms.author: laalexan
 manager: shujoshi
 search.audienceType: 
   - admin
@@ -17,19 +17,19 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Navigate the service calendar (preview)
+# Navigate the service calendar
 
-In the Service calendar, you can do the following tasks and activities: 
+In the Service calendar, you can do the following tasks and activities:
 
-- View your organization's hourly schedule of appointments and service activities. 
+- View your organization's hourly schedule of appointments and service activities.
 
-- View work schedules and service activity schedules for a variety of resources. 
+- View work schedules and service activity schedules for a variety of resources.
 
-- Create new appointments and schedule service activities. 
+- Create new appointments and schedule service activities.
 
-- Change the status of an existing service activity. 
+- Change the status of an existing service activity.
 
-- Search for conflicts in the schedule. 
+- Search for conflicts in the schedule.
 
 You can’t customize the service calendar or change the default view with the application. However, you can ask your system administrator to change the colors of the time blocks.
 
