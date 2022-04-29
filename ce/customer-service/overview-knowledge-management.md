@@ -19,12 +19,12 @@ ms.custom:
 
 # Overview of knowledge management
 
-Knowledge management plays a vital role in enabling organizations to deliver world-class customer care by providing organizations the ability to author, categorize, deliver, analyze, and share information through a knowledge base. 
+Knowledge management plays a vital role in enabling organizations to deliver world-class customer care by providing team members with the ability to author, categorize, deliver, analyze, and share information through a knowledge base. 
 
 ## Benefits of knowledge management
 
-* Knowledge management with its knowledge article base empowers primary service providers, such as agents resolve customer queries right away, thereby increasing agent productivity.
-* Agents get access to rich, high-quality knowledge resources across consistent and contextual Omnichannel experiences which enables quick resolution of issues, thus reducing the average call handling time for agents.
+* Knowledge management with its knowledge article base empowers primary service providers, such as agents, to resolve customer queries right away, thereby increasing their productivity.
+* Agents get access to rich, high-quality knowledge resources across consistent and contextual Omnichannel experiences, which enables quicker issue resolution, thus reducing the average call handling time for agents.
 * Knowledge management search capabilities across channels help reduce support tickets through self-service, and drives customer satisfaction.
 
     :::image type="content" source="media/km-benefits.png" alt-text="Benefits of knowledge management":::
@@ -39,28 +39,28 @@ Depending on the role that you play in your organization, here’s how you can l
 As a knowledge author, you can:
    - Create rich and well-formatted content for emails or knowledge articles using the new rich text editor. More information: [Use the rich text editor to create knowledge articles and emails](customer-service-hub-user-guide-knowledge-article.md#use-the-rich-text-editor-to-create-knowledge-articles-and-emails)
    - Review knowledge articles for accuracy before they’re published or made available to others. More information: [Review and reject or approve a knowledge article](customer-service-hub-user-guide-knowledge-article.md#review-and-reject-or-approve-a-knowledge-article).
-   - Use templates to create knowledge articles quickly with prepopulated fields in the selected template. Templates also help knowledge managers and authors maintain consistency in branding, language, and structure. More information: [Create a knowledge article template](create-templates-knowledge-article.md#create-a-knowledge-article-template)
+   - Use templates to create knowledge articles quickly, with prepopulated fields in the selected template. Templates also help knowledge managers and authors maintain consistency in branding, language, and structure. More information: [Create a knowledge article template](create-templates-knowledge-article.md#create-a-knowledge-article-template)
    - Set up a default knowledge article authoring language. More information: [Set a default knowledge article authoring language for your organization](set-knowledge-article-authoring-language.md#set-a-default-knowledge-article-authoring-language-for-your-organization)
    
 ### Manage the lifecycle of knowledge articles
 As a knowledge author, you can:
   - Create major and minor versions of a knowledge article, and keep your articles up to date with the latest information while keeping track of changes throughout the lifecycle of your products and services. More information: [Create and manage article versions](customer-service-hub-user-guide-knowledge-article.md#create-and-manage-article-versions)
-  - Create a translation for a knowledge article record in multiple languages.More information: [Create a knowledge article translation](work-knowledge-articles.md#create-a-knowledge-article-translation)
-  - Publish articles as soon as they're approved or schedule them for later publication. You can also set expiration dates on articles. More information: [Schedule or publish an article](customer-service-hub-user-guide-knowledge-article.md#schedule-or-publish-an-article)
+  - Create a translation for a knowledge article record in multiple languages. More information: [Create a knowledge article translation](work-knowledge-articles.md#create-a-knowledge-article-translation)
+  - Publish articles as soon as they're approved, or schedule them for later publication. You can also set expiration dates on articles. More information: [Schedule or publish an article](customer-service-hub-user-guide-knowledge-article.md#schedule-or-publish-an-article)
   
     :::image type="content" source="media/create- knowledge.png" alt-text="Create and manage knowledge articles life cycle":::
 
 ### Create and manage categories for your knowledge articles
-As an administrator, you can create hierarchical categorical data to help group records. Categories are useful for reporting, sorting, segmenting, and categorization of records. More information: [Create and manage categories](create-manage-categories.md#create-and-manage-categories).
+As an administrator, you can create hierarchical, categorical data to help group records. Categories are useful for reporting, sorting, segmenting, and categorization of records. More information: [Create and manage categories](create-manage-categories.md#create-and-manage-categories).
 
 ### Integrate knowledge management with a Power Virtual Agents bot 
-As an administrator, you can integrate Power Virtual Agents bot with knowledge management to make it easier to use customized conversations in your bot. This frees up your agent’s time to deal with complex issues that need human intervention, as the bot helps answer questions, perform actions, and solve issues that are simple in nature. More information: [Integrate knowledge management in Dynamics 365 with Power Virtual Agents bots (preview)](integrate-KM-with-PVA.md#integrate-knowledge-management-in-dynamics-365-with-power-virtual-agents-bots-preview)
+As an administrator, you can integrate a Power Virtual Agents bot with knowledge management to make it easier to use customized conversations in your bot. This helps free up your agents' time so they can focus on complex issues that need human intervention, as the bot helps answer questions, perform actions, and solve issues that are simple in nature. More information: [Integrate knowledge management in Dynamics 365 with Power Virtual Agents bots (preview)](integrate-KM-with-PVA.md#integrate-knowledge-management-in-dynamics-365-with-power-virtual-agents-bots-preview)
 
 ## Search knowledge
 
 ### Search knowledge articles through different channels
 - As an agent, you can use the knowledge search pane to search articles in Customer Service workspace. More information: [Use the knowledge search pane to search articles](csw-search-knowledge-articles.md#use-the-knowledge-search-pane-to-search-articles)
-- As a customizer, you can set up knowledge base search control on a standard or custom form,  to make it easy for users in your organization to find knowledge articles. More information: [Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-forms)
+- As a customizer, you can set up knowledge base search control on a standard or custom form to help make it easy for users in your organization to find knowledge articles. More information: [Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-forms)
 - As an administrator, you can configure how you want the knowledge base search control to appear for your entities on the app side pane of Customer Service workspace and Omnichannel for Customer Service. Configuring a record type will specify the information that your agents will see while they interact with customers. More information: [Configure knowledge search control on app side pane for an entity record](configure-knowledge-search-control-productivity-pane.md#configure-knowledge-search-control-on-app-side-pane-for-an-entity-record)
 
 ### Search multiple knowledge providers
