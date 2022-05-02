@@ -4,7 +4,6 @@ description: Mobile offline capabilities and limitations for Dynamics 365 phones
 ms.custom: 
 ms.date: 1/19/2022
 ms.reviewer: kvivek
-
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -92,7 +91,7 @@ For more information, see [Run business process flows offline](/power-automate/b
 
 - **Qualify a lead**: When a lead created in mobile offline is qualified and when the user goes online, the business process stage will still show the  qualify stage. The user will have to manually click **Next stage** to move to the next stage.
 
-- **Grids**: Column filtering is disabled when an offline profile is set up, even when there is network connectivity. The grid works with the local database and does not support custom filters.
+- **Grids**: Column filtering is disabled when an offline profile is set up even when there is network connectivity. The grid works with the local database and does not support custom filters.
 
 - **Views** are not supported for the following tables in offline mode: 
 
@@ -175,9 +174,6 @@ Ensure that you have configured at least one of the Profile rules for each table
 |Download Related Data only|If you are selecting this filter, you cannot define any other filter rule. Ensure that the table has been defined as a Profile Item Association table also.|
 |Other Data Filter - if selected, then select at least one of these options: **Download my Records**, **Download my team records**, or **Download my business unit**  |	If you want to define this filter, then you have to pick at least one of the given options. It is highly recommended to not have Business Unit level filter for an table unless there is a strong justification. It is recommended for a master data scenario with a small data set like Country codes. |
 |Custom Data Filter |<=3 filters can be defined in the custom data filter. |
-
-
-
 
 
 
