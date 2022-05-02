@@ -92,6 +92,8 @@ For more information, see [Run business process flows offline](/power-automate/b
 
 - **Qualify a lead**: When a lead created in mobile offline is qualified and when the user goes online, the business process stage will still show the  qualify stage. The user will have to manually click **Next stage** to move to the next stage.
 
+- **Grids**: Column filtering is disabled when an offline profile is set up, even when there is network connectivity. The grid works with the local database and does not support custom filters.
+
 - **Views** are not supported for the following tables in offline mode: 
 
      - Email
