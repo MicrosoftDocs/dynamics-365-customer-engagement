@@ -42,7 +42,7 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 (Includes Universal Resource Scheduling version [3.12.76.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#312761)).
 
-- Field Service (D365) mobile Offline: Fixed a bug where under some conditions, when multiple Bookings are assigned to a Work Order, the resource would not be able to complete Service Tasks.
+- Field Service (Dynamics 365) mobile offline: Fixed a bug where under some conditions, when multiple bookings are assigned to a work order, the resource would not be able to complete service tasks.
 
 ## 8.8.64.13
 
