@@ -142,6 +142,6 @@ Programmatically, you can change the default time and set it as per your organiz
 ### See also
 
 [View communication panel](oc-conversation-control.md)  
-[Automatic closure of a conversation](auto-close-conversation.md)  
+[Configure automatic closure of conversations](auto-close-conversation.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
