@@ -1,20 +1,3 @@
----
-title: "Understand conversation states in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn about various states and status reasons of conversations or work items in Omnichannel for Customer Service."
-ms.date: 11/18/2021
-ms.topic: article
-author: neeranelli
-ms.author: nenellim
-manager: shujoshi
----
-
-# Understand conversation states in Omnichannel for Customer Service
-
-[!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-[!INCLUDE[cc-conversation-states](../includes/cc-conversation-states.md)]
-
-<!-->
 This topic explains the various states and status reasons of the conversation (work item) in Omnichannel for Customer Service.
 
 The conversation can be in an open or closed state and can have the following status reasons:
@@ -137,10 +120,3 @@ To learn more, see [Create a workstream](work-streams-introduction.md#create-a-w
 ### Set default time using APIs
 
 Programmatically, you can change the default time and set it as per your organization's requirements using the Web APIs. To learn more, see [Configure automatic closure of conversations](auto-close-conversation.md).
-<-->
-### See also
-
-[View communication panel](oc-conversation-control.md)  
-[Automatic closure of a conversation](auto-close-conversation.md)  
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

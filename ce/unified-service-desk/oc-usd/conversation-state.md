@@ -13,6 +13,7 @@ monikerRange: '>= dynamics-usd-4.1'
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
+<!-->
 The topic explains the various states of the conversation (work item) in Omnichannel for Customer Service.
 
 Types of conversation states:
@@ -145,6 +146,7 @@ Programmatically, you can change the default time and set it as per your organiz
 > [!div class="nextstepaction"]
 > [Next topic: View alert and toast notifications](notifications.md) 
 
+<-->
 ## See also
 
 [View communication panel](left-control-panel.md)
