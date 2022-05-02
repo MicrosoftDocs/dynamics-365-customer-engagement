@@ -856,11 +856,11 @@
       items: 
       - name: Enable bot context NuGet package
         href: enable-bot-context.md
-      - name: Enable a bot to escalate and end conversation
+      - name: Enable an Azure bot to escalate and end conversations
         href: bot-escalate-end-conversation.md
-      - name: Download attachments from Azure bot
+      - name: Download file attachments from Azure bot
         href: download-attachments-bot.md
-      - name: Get user details on Teams from Azure bot
+      - name: Get Microsoft Teams user details from Azure bot
         href: user-details-teams-azure-bot.md
       - name: Display suggested actions in a vertical layout
         href: suggested-actions.md
@@ -1094,7 +1094,7 @@
       href: migrate-automatic-record-creation-and-sla-agreements.md
     - name: Strategy for migrating from contracts to entitlements
       href: contract-to-entitlement-migration.md
-    - name: Migration changes for new Omnichannel messaging platform
+    - name: Migration changes for new omnichannel messaging platform
       href: migrate-acs.md
     - name: Migrate service scheduling
       items: 
