@@ -1,4 +1,8 @@
 
+## 3.12.76.1
+
+(Includes Resource Scheduling controls version 1.2.17.221165).
+
 ## 3.12.75.2
 
 (Includes Resource Scheduling controls version 1.2.16.220914).
