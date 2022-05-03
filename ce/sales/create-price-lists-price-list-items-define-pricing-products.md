@@ -19,10 +19,9 @@ searchScope:
 ---
 # Define product pricing with price lists and price list items 
 
-Use price lists and price list items for defining price for a product. Create multiple price lists and set a default price list for each territory.
+Use price lists and price list items to define price for a product.  
 
-> [!NOTE]
-> Territories are only supported for Sales Enterprise and Sales Premium.
+[!INCLUDE [trial-cta-note](../includes/trial-cta-note.md)]
 
 ## License and role requirements
 | Requirement type | You must have | 
@@ -33,7 +32,10 @@ Use price lists and price list items for defining price for a product. Create mu
 
 ## What is a price list?
 
-Price lists tell your sales agents what to charge for your products or services. You can create multiple price lists so that you can maintain separate price structures for different regions,  sales channels, or sales territories.  
+Price lists tell your sales agents what to charge for your products or services. You can create multiple price lists so that you can maintain separate price structures for different regions,  sales channels, or sales territories. 
+
+> [!NOTE]
+> Territories are only supported for Sales Enterprise and Sales Premium. 
   
 Price lists tie the unit, product, and pricing details together, so before you create a price list, make sure the units and products are in place.  
  

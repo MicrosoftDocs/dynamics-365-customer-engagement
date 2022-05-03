@@ -49,4 +49,4 @@ Starting in the August 2021 Dynamics 365 Marketing release, you can opt in for d
 
 - [Get to know real-time customer journey orchestration](real-time-marketing-user-guide.yml)
 - [Use Customer Insights profiles and segments](real-time-marketing-ci-profile.md)
-- [Create an event-based journey](real-time-marketing-event-based-journey.md)
+- [Create a trigger-based journey](real-time-marketing-trigger-based-journey.md)

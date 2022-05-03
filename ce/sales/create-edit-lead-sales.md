@@ -17,7 +17,9 @@ searchScope:
 
 # Create or edit leads
 
-Use leads to keep track of business prospects. A lead can be an existing client or someone you've never done business with before.
+Use leads to keep track of business prospects. This article explains when and how create leads.
+
+[!INCLUDE [trial-cta-note](../includes/trial-cta-note.md)]
 
 ## License and role requirements
 | Requirement type | You must have | 

@@ -11,6 +11,8 @@ manager: shujoshi
 
 Enable and configure the sales accelerator to create sequences and connect records, and view daily work list items.
 
+[!INCLUDE [trial-cta-note](../includes/trial-cta-note.md)]
+
 ## License and role requirements
 | Requirement type | You must have |  
 |-----------------------|---------|

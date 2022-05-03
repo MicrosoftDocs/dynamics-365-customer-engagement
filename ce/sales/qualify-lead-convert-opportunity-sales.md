@@ -18,7 +18,9 @@ searchScope:
 ---
 # Qualify and convert leads to opportunity
 
-After you've identified the time frame, budget, and purchase process for a lead, qualify the lead to create the corresponding account, contact, and opportunity.  
+After you've identified the time frame, budget, and purchase process for a lead, qualify the lead to create the corresponding account, contact, and opportunity. 
+
+[!INCLUDE [trial-cta-note](../includes/trial-cta-note.md)] 
 
 ## License and role requirements
 | Requirement type | You must have |

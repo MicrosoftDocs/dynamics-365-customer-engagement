@@ -1,7 +1,7 @@
 ---
 title: "Set up Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to run the setup wizard for Dynamics 365 Marketing."
-ms.date: 03/23/2022
+ms.date: 04/28/2022
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
@@ -20,10 +20,10 @@ search.app:
 
 # Purchase and set up Dynamics 365 Marketing
 
-This article explains how to purchase set up a new Dynamics 365 Marketing environment.
+This article explains how to purchase and set up a new Dynamics 365 Marketing environment.
 
 > [!TIP]
-> A trial version of Dynamics 365 Marketing is also available. If you'd like to set up a trial, see [Sign up for a free trial of Dynamics 365 Marketing](trial-signup.md) for instructions.
+> If you'd like to set up a free trial, go to [Try Dynamics 365 Marketing free for 30 days](https://dynamics.microsoft.com/marketing/marketing/free-trial/).
 
 <a name="how-licensed"></a>
 
@@ -83,7 +83,7 @@ To run the setup wizard, you must meet all the following requirements:
 - An unconfigured Dynamics 365 Marketing app must be available on your tenant.
 - You must not already have a Dynamics 365 Marketing app installed on your Dynamics 365 environment. You can have at most one Dynamics 365 Marketing app per environment, and each Dynamics 365 Marketing app can only be used with one Dynamics 365 environment.
 - You must sign into your tenant with a user account that has all the following:
-   - A security role (such as _Global admin_ or _Service support admin_) that allows you to modify the target Dynamics 365 environment. (If you're reinstalling Marketing on an environment where Marketing was previously installed, then _Service support admin_ users must use the same user ID as was used for the initial install. If you're not sure which ID was used for the initial install, or if you're getting errors, then try to install as a _Global admin_.)
+   - A security role (such as _Global admin_ or [_Service support admin_](/power-platform/admin/use-service-admin-role-manage-tenant)) that allows you to modify the target Dynamics 365 environment. (If you're reinstalling Marketing on an environment where Marketing was previously installed, then _Service support admin_ users [_Dynamics 365 administrator_ or _Power Platform administrator_] must use the same user ID as was used for the initial install. If you're not sure which ID was used for the initial install, or if you're getting errors, then try to install as a _Global admin_.)
    - Permissions to register applications in Azure. The global administrator always has this right, but other accounts can also have it. See [Do I have permissions to register applications on Azure?](setup-troubleshooting.yml#register-apps-azure) for information about how to confirm this setting for your account.
    - A Dynamics 365 license with the _System Administrator_ security role assigned on your target Dynamics 365 environment. (The Dynamics 365 Marketing license agreement doesn't legally require the installing user to have this license, but a known technical issue currently makes it necessary.)
 - You must be located in a country/region where the product is supported. To read the latest list of countries/regions where you can use Dynamics 365 Marketing, download the [Microsoft Dynamics 365 International Availability](https://go.microsoft.com/fwlink/p/?linkid=875097) document (PDF).
