@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 05/02/2022
+ms.date: 05/03/2022
 ms.custom:
   - dyn365-marketing
 ms.topic: article
@@ -32,7 +32,7 @@ Marketing updates are [pushed to customers automatically](https://cloudblogs.mic
 
 The Dynamics 365 Marketing April 2022 update is a milestone release. It offers three preview features and five general availability features from the [2022 wave 1 release plans](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/get-started). The preview features include a new email creation canvas and user experience, a unified timeline to view customer activity across Dynamics 365 Marketing, Sales, and Customer Service, and reusable content blocks for quick email creation.
 
-Generally available features include the ability to trigger outside journeys or Power Automate flows, reusable dynamic text for personalization, more out-of-the-box real-time marketing triggers, filter conditions for triggers, and improved email templates.
+Generally available features include the ability to raise triggers from a journey to run another journey or Power Automate flow, reusable dynamic text for personalization, more out-of-the-box real-time marketing triggers, filter conditions for triggers, and improved email templates.
 
 The update also includes monthly enhancements to journeys, an image library for regions where the real-time marketing content management system (CMS) isn't available, domain authentication settings improvements, and improved contact card consent management.
 
@@ -40,7 +40,7 @@ The update also includes monthly enhancements to journeys, an image library for 
 
 | App              | GA release      |
 |------------------|-----------------|
-| Marketing        | 1.35.10081.2002 |
+| Marketing        | 1.82.2016.0 |
 
 > [!Tip]
 > To check your current version number, go to **Settings** > **Overview** > **Versions**.
