@@ -1,7 +1,7 @@
 ---
 title: "Configure the email experience in customer engagement apps | MicrosoftDocs"
 description: "Learn how to configure the email experience in customer engagement apps."
-ms.date: 04/04/2022
+ms.date: 05/02/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -33,49 +33,45 @@ You can configure email by using a web resource file that can be modified as nee
 
 Enabling the user configured settings to an email form consists of the following steps:
 1.	[Configure the web resource file](#configure-the-web-resource-file)
-2.	[Enable the RTE control in the email form](#enable-the-rte-control-in-the-email-form)
+1.	[Enable the RTE control in the email form](#enable-the-rte-control-in-the-email-form)
 
 ### Configure the web resource file
 
 1. Access the web resource file by navigating to **Advanced settings** > **Customize the system** > **Web Resources**.
 
-2. Use the filter to search for the web resource files, as shown below:
+1. Use the filter to search for the web resource files, as shown below:
 
    ![Filter to search for web resource files.](media/email-custom-filters.png "Filter to search for web resource files.")
 
-   There may be more than one file named msdyn_EmailRTEConfig.js. One is the default, out-of-the-box configuration file that isn't modifiable. The other can be opened and used as a reference to create a new web resource file that will host your configuration changes. 
+   There may be more than one file named msdyn_EmailRTEconfig_reference.js. One is the default, out-of-the-box configuration file that isn't modifiable. The other can be opened and used as a reference to create a new web resource file that will host your configuration changes. 
 
-3. Select the modifiable file.
-
-   ![Create a new web resource file.](media/email-create-web-resource-file.png "Create a new web resource file.")
+1. Select the editable file. A new window is displayed. 
    
-   A new window is displayed. 
-   
-4. In the **Content** section, select **Text Editor**.
+1. In the **Content** section, select **Text Editor**.
    
    An **Edit Content** window is displayed.
    
-5. Copy the text in the **Source** field, and then close the window.
+1. Copy the text in the **Source** field, and then close the window.
 
    ![Copy web resource file.](media/email-copy-web-resource-file.png "Copy the web resource file.")
 
-6. Create a new web resource and paste the code you copied from the existing file into it.
+1. Create a new web resource and paste the code you copied from the existing file into it.
 
    > [!NOTE]
    > A code editor such as Visual Studio Code can provide a better editing experience.<br></br>
      There are a variety of properties that can be modified and will apply to the email form when you configure it. For more information, see [Rich Text Editor Properties](/power-apps/maker/model-driven-apps/rich-text-editor-control#rich-text-editor-properties).
 
-7. Make any changes you want, and then select **Save and publish**. Save the URL to the new web resource because you'll need it to map the new web resource file to the **Enhanced Email** form.
+1. Make any changes you want, and then select **Save and publish**. Save the URL to the new web resource because you'll need it to map the new web resource file to the **Enhanced Email** form.
 
    ![Save web resource URL.](media/email-web-resource-url.png "Save the web resource URL.")
 
-8. Navigate to **Customization** > **Customize the system** > **Entity** > **Email** > **Forms**.
+1. Navigate to **Customization** > **Customize the system** > **Entity** > **Email** > **Forms**.
 
-9. Open the **Enhanced Email** form, double-click **Description**, and then navigate to the **Control** tab.
+1. Open the **Enhanced Email** form, double-click **Description**, and then navigate to the **Control** tab.
 	
-10. Add the RTE control, select **Custom Configuration URL**, and then in the URL field, enter the URL from the new web resource file you created.
+1. Add the RTE control, select **Custom Configuration URL**, and then in the URL field, enter the URL from the new web resource file you created.
 
-11. Select **Save** and then **Publish All Customizations**.
+1. Select **Save** and then **Publish All Customizations**.
 
 
 ### Enable the RTE control in the email form
@@ -86,16 +82,16 @@ Enabling the user configured settings to an email form consists of the following
    
     ![Add web resource file to Enhanced Email form.](media/email-configure-enhanced-email.png "Add web resource file to Enhanced Email form.")
  
-2. Select the form, and then double-click the **Description** field to enter the field properties.
+1. Select the form, and then double-click the **Description** field to enter the field properties.
 
-3. If the RTE control isn't already added, select the **Controls** tab to add it.
+1. If the RTE control isn't already added, select the **Controls** tab to add it.
 
-4. Select the **Custom configuration control** and replace **singleLine.URL** with the web resource URL for the web resource file you created in the steps above.
+1. Select the **Custom configuration control** and replace **singleLine.URL** with the web resource URL for the web resource file you created in the steps above.
 
    ![Replace singleLine.URL with the web resource URL.](media/email-configure-custom-properties.png "Replace singleLine.URL with web resource URL.")
 
 
-5. Select **Save** > **Publish**.
+1. Select **Save** > **Publish**.
    
    The settings will now apply to the form when you create an email.
 
