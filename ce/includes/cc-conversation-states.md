@@ -115,7 +115,7 @@ A conversation in **Waiting** is moved to the **Closed** state when the conversa
 
 For example, when you set **Auto-close after inactivity** to 5 minutes, the conversation is moved to the **Closed** state if it has been in **Waiting** for more than 5 minutes.
 
-To learn more, see [Create a workstream](../customer-service/create-workstreams).
+To learn more, see [Create a workstream](../customer-service/create-workstreams.md).
 
 ### Set default time using APIs
 
