@@ -63,13 +63,14 @@ Enabling the user configured settings to an email form consists of the following
    >  - There are a variety of properties that can be modified and will apply to the email form when you configure it. For more information, see [Rich Text Editor Properties](/power-apps/maker/model-driven-apps/rich-text-editor-control#rich-text-editor-properties).
   
 
-1. Make any changes you want, and then select **Save and publish**. Save the URL to the new web resource because you'll need it to map the new web resource file to the **Enhanced Email** form.
+1. Make any changes you want, and then select **Save and publish**.
+   > [!NOTE]
+   > Ensure that the **disableDefaultImageProcessing** property is set to **True** for inline images added to the editor to load properly in the recipient's email.
+
+3.  Save the URL to the new web resource because you'll need it to map the new web resource file to the **Enhanced Email** form.
 
    ![Save web resource URL.](media/email-web-resource-url.png "Save the web resource URL.")
    
-    > [!NOTE]
-    > Ensure that the **disableDefaultImageProcessing** property is set to **True** for inline images added to the editor to load properly in the recipient's email.
-
 1. Navigate to **Customization** > **Customize the system** > **Entity** > **Email** > **Forms**.
 
 1. Open the **Enhanced Email** form, double-click **Description**, and then navigate to the **Control** tab.
