@@ -25,8 +25,8 @@ In Omnichannel for Customer Service, you can integrate both Azure and Power Virt
 
 When you integrate bots with Omnichannel for Customer Service, you get the following capabilities:
 
-- Seamlessly integrate your bots with chat and voice channels without needing to add channel-specific code in the bot.
-- Transfer both chat and voice conversations from bots to human agents, together with the full context of the conversation.
+- Seamlessly integrate your bots with chat and social channels without needing to add channel-specific code in the bot.
+- Transfer chat conversations from bots to human agents, together with the full context of the conversation.
 - Analyze the bot transcript that's available in Microsoft Dataverse after the conversation is completed.
 - Configure routing rules to selectively route incoming requests to bots based on context, such as issue type or customer type. For example, you can route low-complexity issues to bots, or route the conversation to a sales or support bot based on the web browsing history of the customer.
 - Monitor bot conversations in real time by using the supervisor dashboard, which includes details such as customer sentiment.
