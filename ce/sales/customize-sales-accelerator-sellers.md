@@ -77,7 +77,7 @@ Follow these steps:
 4. On the **Settings** page, select **Sequence activities**.      
 
     >[!div class="mx-imgBorder"]
-    >![Select Sequence activities on the settings page.](media/sa-configure-sequence-activities.png "Select Sequence activities on the settings page")   
+    >![Select Sequence activities on the settings page.](media/sa-configure-sequence-activities.png "Select Sequence activities on the settings page")  
 
 5. Turn on the **Create linked activities** toggle.
 
@@ -85,13 +85,16 @@ Follow these steps:
 
     >[!div class="mx-imgBorder"]
     >![Enable Create linked activities.](media/sa-personal-settings-enable-precreate-linked-activities.png "Enable Create linked activities")
+
+    >[!NOTE]
+    >When turned off, activities will not be created automatically. However, activities are created on the timeline only when sellers select the activity in the **Up next** widget.   
  
 6. Configure activities and steps. You can choose how the actions that sellers perform on steps will affect linked activities and sequence steps.
 
     | Action | Description |
     |--------|-------------|
-    | When seller sends an email | When you select this checkbox and sellers send an email through the timeline, the sequence step that's related to this activity is automatically marked as complete.|
-    | When seller marks a phone call activity record as complete | When you select this checkbox and sellers make a phone call through the timeline, the sequence step that's related to this activity is automatically marked as complete. |
+    | When a seller completes any activity(other than a phone call), the linked step also gets completed. | When you select this checkbox and sellers complete the activity through the timeline, the sequence step that's related to this activity is automatically marked as complete.|
+    | When a seller completes a phone call, the linked step also gets completed. | When you select this checkbox and sellers make a phone call through the timeline, the sequence step that's related to this activity is automatically marked as complete. |
     | When seller marks a phone call sequence step as complete | When sellers complete a phone call activity in the sequence step, you can choose to let sellers enter the status of the activity or enter a default value that has been defined for your organization. |
     
     >[!NOTE]
