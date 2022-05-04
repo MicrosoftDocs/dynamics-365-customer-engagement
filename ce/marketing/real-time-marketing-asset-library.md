@@ -1,8 +1,7 @@
 ---
 title: "Real-time marketing asset library (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to use the real-time marketing asset library in Dynamics 365 Marketing."
-ms.date: 12/16/2021
-
+ms.date: 05/04/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -25,11 +24,10 @@ The centralized real-time marketing asset library lets you upload images, videos
 > [!NOTE]
 > The asset library supports images (such as JPEG, GIF, and PNG files), videos (such as MP4, AVI, and MPEG files), and documents (such as Word documents, PowerPoint files, and Adobe PDFs). Learn more about supported file types: [Upload files other than images and videos](/dynamics365/commerce/dam-upload-files).
 
-> [!NOTE]
-> Please refer to [Upload and use images and files in online content](/ce/marketing/upload-images-files.md)  if you are in any of the following regions: Brazil, India, United Arab Emirates.
-
 > [!TIP]
-> Use of the asset library is provided with your Dynamics 365 Marketing license at no extra charge except for the following regions: Brazil, India, United Arab Emirates. Images and files uploaded in these regions will be stored in the user’s Microsoft Dataverse storage and will count against their file storage capacity. For more information on Dataverse storage capacity, see [New Microsoft Dataverse storage capacity](/power-platform/admin/capacity-storage).
+> Use of the asset library is provided with your Dynamics 365 Marketing license at no extra charge except for the following regions: Brazil, India, and United Arab Emirates. Images and files uploaded in these regions will be stored in the user’s Microsoft Dataverse storage and will count against their file storage capacity. For more information on Dataverse storage capacity, see [New Microsoft Dataverse storage capacity](/power-platform/admin/capacity-storage).
+>
+> If you are in Brazil, India, or United Arab Emirates, refer to [Upload and use images and files in online content](upload-images-files.md) for further guidance.
 
 ## Asset library features
 
