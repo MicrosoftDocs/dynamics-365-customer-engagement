@@ -1,7 +1,7 @@
 ---
 title: "Configure sales accelerator settings for sellers to personalize"
 description: "Use personal settings to determine what happens when an activity is complete."
-ms.date: 10/26/2021
+ms.date: 05/04/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag

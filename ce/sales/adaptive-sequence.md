@@ -1,7 +1,7 @@
 ---
 title: "Use adaptive sequences to define conditions (Sales Premium)"
 description: "Use adaptive sequences in sales accelerator to define conditions steps that determines the path of a sequence."
-ms.date: 03/11/2022
+ms.date: 05/04/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
