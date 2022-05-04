@@ -1,7 +1,7 @@
 ---
 title: "Real-time marketing domain authentication (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to authenticate domains for real-time marketing functionality in Dynamics 365 Marketing."
-ms.date: 03/16/2022
+ms.date: 05/04/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -26,22 +26,22 @@ Domain authentication is important for two reasons:
 
 The primary purpose of email-domain authentication is to detect forged messages and domains, and thereby prevent spam, phishing, and other fraudulent activity. A method called *DomainKeys Identified Mail* (DKIM) helps make these authentications possible. Domain authentication is implemented through the internet DNS system, and is based on public/private key encryption and signatures.
 
-When you error check or go live with a marketing email message, the verification system requires that the message uses a from-address that specifies an authenticated domain registered and is confirmed for your organization. You'll get a warning if you try to send a message that has a from-address from an unregistered domain. You'll also get an error if you try to send a message that uses a from-address from a domain that is registered as belonging to another organization. You can ignore the warning (but will probably have low deliverability), but you can't go live with the error.
+When you error check or go live with a marketing email message, the verification system requires that the message uses a from-address that specifies an authenticated domain registered and is confirmed for your organization. You'll get a warning if you try to send a message that has a from-address from an unregistered domain. You'll also get an error if you try to send a message that uses a from-address from a domain that is registered to another organization. You can ignore the warning (the message will probably have low deliverability), but you can't go live with the error.
 
 To learn more about email marketing and deliverability see [Best practices for email marketing](get-ready-email-marketing.md). To learn more about embedded forms and pre-filling, see [Integrate with landing pages on external websites](embed-forms.md).
 
 ## The default authenticated domain
 
-By default, all new Dynamics 365 Marketing installations come with a pre-authenticated sending domain ending in `-dyn365mktg.com`. The pre-authenticated domain means that you can begin sending authenticated emails right away. This domain is designed only for testing or demo purposes as it doesn’t have an email reputation and is not connected to your organization. It is recommended that you authenticate your own actual sending domains right away so your authenticated messages will show a from address that recipients will recognize as coming from your organization. Authenticating your own domain will allow you to manage sending reputation and improve brand recognition and deliverability results.
+By default, all new Dynamics 365 Marketing installations come with a pre-authenticated sending domain ending in `-dyn365mktg.com`. The pre-authenticated domain means that you can begin sending authenticated emails right away. This domain is designed only for testing or demo purposes as it doesn’t have an email reputation and isn't connected to your organization. It's recommended that you authenticate your own actual sending domains right away so your authenticated messages will show a from address that recipients will recognize as coming from your organization. Authenticating your own domain will allow you to manage sending reputation and improve brand recognition and deliverability results.
 
-When a user creates a new email, the **From address** is automatically set to the email address registered for that user's Dynamics 365 Marketing user account. However, if that email address uses a domain that is not yet authenticated using DKIM, then the initial **From address** will be modified to use an authenticated domain (email addresses use the form `account-name*@*domain-name`). The resulting **From address** will still show the *account-name* of the user creating the message, but will now show a DKIM-authenticated *domain-name* that's registered for your Marketing instance (for example, `MyName@contoso-dyn365mktg.com`), which will provide the deliverability benefit, but probably isn't a valid return address. Users can overrule this by editing the **From address** after creating the message, but this will lower message deliverability.
+When a user creates a new email, the **From address** is automatically set to the email address registered for that user's Dynamics 365 Marketing user account. However, if that email address uses a domain that isn't yet authenticated using DKIM, the initial **From address** will be modified to use an authenticated domain (email addresses use the form `account-name*@*domain-name`). The resulting **From address** will still show the *account-name* of the user creating the message, but will now show a DKIM-authenticated *domain-name* that's registered for your Marketing instance (for example, `MyName@contoso-dyn365mktg.com`), which will provide the deliverability benefit, but probably isn't a valid return address. Users can overrule this by editing the **From address** after creating the message, but this will lower message deliverability.
 
 ## Which domains to authenticate
 
-Set up as many authenticated domains as you need to cover all the from-addresses you use in your marketing emails, plus all domains and subdomains where you want to support embedded forms with pre-fill enabled.
+You can set up as many authenticated domains as you need to cover all the from-addresses you use in your marketing emails, plus all domains and subdomains where you want to support embedded forms with pre-fill enabled.
 
-- When you're authenticating a domain for email, use the full domain name as it appears in your email return addresses. Email addresses take the form _&lt;MailAccount&gt;_@_&lt;domain&gt;_, so if your email address is `lamar.ferrari@contoso.com`, then the domain you need to authenticate is `contoso.com` (not `www.contoso.com` or any other subdomain).
-- When you're authenticating a domain to support pre-filled forms, you must authenticate each subdomain individually. So if you have forms on `contoso.com`, `www.contoso.com`, and `events.contoso.com`, then you must set up a separate domain-authentication record for each of them and specify the full subdomain each time.
+- When you're authenticating a domain for email use, use the full domain name as it appears in your email return addresses. Email addresses take the form _&lt;MailAccount&gt;_@_&lt;domain&gt;_, so if your email address is `lamar.ferrari@contoso.com`, then the domain you need to authenticate is `contoso.com` (not `www.contoso.com` or any other subdomain).
+- When you're authenticating a domain to support pre-filled forms, you must authenticate each subdomain individually. So if you have forms on `contoso.com`, `www.contoso.com`, and `events.contoso.com`, you must set up a separate domain-authentication record for each of them and specify the full subdomain each time.
 
 > [!IMPORTANT]
 > To use form pre-filling, the page hosting the form must be served over HTTPS (not HTTP).
@@ -51,29 +51,30 @@ Set up as many authenticated domains as you need to cover all the from-addresses
 
 ## Authenticate a domain
 
-To authenticate a new domain or a sub-domain for email sending and/or form hosting, please follow the steps below.:
+To authenticate a new domain or a subdomain for email sending and/or form hosting, follow the steps below:
 
 1. Go to **Settings** > **Email marketing** > **Domains**. A list of existing authenticated domains opens.
 
 1. Select **New** on the command bar to add a new domain.
 
-1. A guided wizard opens, prompting you to enter the domain that you would like to authenticate, together with the reason for authenticating the domain: external form hosting and/or email sending. The wizard will reconfigure itself based on the selections that have been made.
+1. A guided wizard opens, prompting you to enter the domain that you want to authenticate, together with the reason for authenticating the domain: external form hosting and/or email sending. The wizard will reconfigure itself based on the selections that you make.
 
     > [!div class="mx-imgBorder"]
-    > ![Domain authentication wizard new](media/authenticate-wizard-new.png " Domain authentication wizard new ")
+    > ![Domain authentication wizard new.](media/authenticate-wizard-new.png "Domain authentication wizard new")
 
-1. Depending on the selections made during the previous step, the wizard will provide an ownership key and 3 sets of records that should be configured on the DNS provider’s portal.
+1. Depending on the selections you made during the previous step, the wizard will provide an ownership key and three sets of records that should be configured on the DNS provider’s portal.
 
-1. An overview of the data will be provided in the last step, along with the ability to bulk copy all the values.
+1. An overview of the data will be provided in the last step, along with the ability to bulk copy all of the values.
 
-1. Provide the data to your DNS provider and follow their instructions. Once the DNS registration is complete you can click on *Verify* to complete the setup.
+1. Provide the data to your DNS provider and follow their instructions. Once the DNS registration is complete, you can select **Verify** to complete the setup.
 
     > [!div class="mx-imgBorder"]
-    > ![Domain authentication wizard verify](media/authenticate-wizard-verify.png " Domain authentication wizard verify ")
+    > ![Domain authentication wizard verify.](media/authenticate-wizard-verify.png "Domain authentication wizard verify")
 
-Note: DNS registration may require up to 24 hours to take effect. You can leave the wizard at any time and come back to it to try again if it's not confirmed right away.
+> [!NOTE]
+> DNS registration may require up to 24 hours to take effect. You can leave the wizard at any time and come back to it to try again if the registration is not confirmed right away.
 
-### Create a CNAME record
+<!--- ### Create a CNAME record
 
 After the Envelope-from domain is entered, select **Save**. The appropriate DNS record values will then be generated for you. You can find the record values in the **Envelope-from key** section.
 
@@ -88,11 +89,11 @@ After the DNS record update is complete, select **Refresh** and then **Confirm**
 After your domain’s **Envelope-from status** is confirmed, your Envelope-from sending domain will adhere to your Envelope-from settings every time you use the specified From domain when sending emails in Dynamics 365 Marketing.
 
 > [!NOTE]
-> If you use another domain that does not have an Envelope-from domain set, Marketing will use the **default Envelope-from** domain provided by the system. 
+> If you use another domain that does not have an Envelope-from domain set, Marketing will use the **default Envelope-from** domain provided by the system. -->
 
 ## Example DNS records for domain contoso.com
 
-This example is valid if you are adding DNS records into the root domain contoso.com.
+This example is valid if you're adding DNS records into the root domain contoso.com.
 
 **TXT record**  
 `TXT name: @`  
@@ -130,7 +131,7 @@ This example is valid if you are adding DNS records into the root domain contoso
 
 ### DNS Confirmation Statuses
 
-As you are setting up an authenticated domain, you can track the progress of all its statuses: **Envelope-from status**, **Ownership status**, and **Email status**, each of which is reported as one of the following:
+As you're setting up an authenticated domain, you can track the progress of all its statuses: **Envelope-from status**, **Ownership status**, and **Email status**, each of which is reported as one of the following:
 
 | **Status** | **Description** |
 | --- | --- |
@@ -146,10 +147,10 @@ As you are setting up an authenticated domain, you can track the progress of all
 
 ## Prevent sending emails from unauthorized domains
 
-To benefit from DKIM, the from-address for each message you send must show a domain that you've authenticated for DKIM. Microsoft is dedicated to helping our customers achieve maximum email deliverability, so we've added a few features to help make sure you don't overlook or inadvertently work around your DKIM setup:
+To benefit from DKIM, the from-address for each message you send must use a domain that you've authenticated. Here are a few features to help make sure you don't overlook or inadvertently work around your DKIM setup:
 
 - The error check for email messages will show a warning if you try to go live with an email message that has a from-address not associated with any of your DKIM domains.
-- We recommend that you [set a default sending domain](mkt-settings-default-marketing.md) that is authenticated for DKIM. When this is set, then the from-address for all of your email messages will automatically be adjusted to show your selected default domain (if it initially uses a non-authenticated domain) each time you create a new email message or change the user shown in the **From** field. More information: [Default marketing settings](mkt-settings-default-marketing.md) and [Set sender and receiver options](email-properties.md#send-receive-options)
+- You should [set a default sending domain](mkt-settings-default-marketing.md) that is authenticated for DKIM. When this is set, the from-address for all your email messages will automatically be adjusted to show your selected default domain (if it initially uses a non-authenticated domain). The from-address will automatically adjust each time you create a new email message or change the user shown in the **From** field. More information: [Default marketing settings](mkt-settings-default-marketing.md) and [Set sender and receiver options](email-properties.md#send-receive-options).
 - All new instances and trials will automatically authenticate the instance domain with DKIM and set that domain as the default sending domain for your instance.
 
 ### See also

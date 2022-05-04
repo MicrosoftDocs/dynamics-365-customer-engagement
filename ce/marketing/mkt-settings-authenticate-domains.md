@@ -79,8 +79,7 @@ To set up Dynamics 365 Marketing and the DNS to authenticate marketing email mes
 ## Envelope-from domain
 
 If you want to go further with the domain authentication process, you should look at **Envelope-from domain** feature. Every email has two **From** addresses. The first one (described in RFC5322) is the main **From** address,
-or, simply, the “friendly from” address. The second From address (RFC5321), is a
-so-called **Envelope From** address, or “Return-Path” address.
+or, simply, the “friendly from” address. The second From address (RFC5321), is a so-called **Envelope From** address, or “Return-Path” address.
 
 To ensure good deliverability, the domains that you use for sending should be aligned. *Alignment* of domains means that the SPF and DKIM domains
 match the **From** address, at least partially. For SPF *alignment*, the
