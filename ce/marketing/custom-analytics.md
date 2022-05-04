@@ -1,8 +1,7 @@
 ---
 title: "Prepare for analytic reporting with Power BI (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Describes how to set up data sources in Dynamics 365 Marketing to make them available to Power BI, and how to download and connect a Power BI template to them."
-ms.date: 11/22/2021
-
+ms.date: 03/28/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -20,9 +19,10 @@ search.app:
 
 # Prepare for analytic reporting with Power BI
 
-
-
 Dynamics 365 Marketing provides a wide selection of built-in analytics throughout the application. But you can also create your own custom analytics and reports from your Dynamics 365 Marketing data by using Power BI. We provide endpoints that you can use to connect Power BI to Dynamics 365 Marketing, plus a downloadable Power BI template that you can open in Power BI Desktop, connect to your Dynamics 365 data sources, and then customize as needed. When you're done setting it up, you can publish and share your Power BI report using the standard Power BI online tools.
+
+> [!NOTE]
+> For information about public IP addresses used for Dynamics 365 Marketing services, see [Dynamics 365 Marketing public IP addresses](marketing-public-ips.md).
 
 <a name="data-sources"></a>
 
@@ -96,7 +96,7 @@ for a quick overview of all the data that is available for your marketing analyt
     Make the following settings:
 
     - **Name**: Enter a name to identify this configuration record.
-    - **Export to blob storage sas token**: Paste the URL you copied earlier in this procedure.
+    - **Export to blob storage SAS token**: Paste the URL you copied earlier in this procedure.
     - **Export from date**: Optional. When left empty, all interactions available in the Marketing application will be exported. If a date value is specified, then only the interactions that happened after this date will be exported. This is useful for reducing the amount of data exported if you are not interested in creating reports for older interactions.
 
     > [!NOTE]

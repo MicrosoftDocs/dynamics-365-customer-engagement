@@ -15,14 +15,15 @@ manager: shujoshi
 The stats about sequences provide insights on the performance of a sequence, such as success rate and the state of records that are connected. The data helps you view the sequences that are doing better and emerging with high conversion rates. 
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |  
+| Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Sales Manager or Sequence Manager <br>  Go to [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Sales Manager or Sequence Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+
 
 ## Who can view the stats page?
+
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4Vmxe]
 
 By default, the users with sales manager and sequence manager roles can view the stats page. For other roles to view the reporting page, contact your administrator to get read access at the organizational level for the sales acceleration reports table. More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)
 
@@ -63,24 +64,19 @@ For example, if you want to view the data for the last 90 days, select **Last 90
 
 ### Sequence stats list
 
-The sequence stats list consists of sequences—including inactive ones—that are available in your organization, for all record types. For the timeframe you selected, you can view information such as targets created and success rate.   
+The sequence stats list consists of sequences—including inactive ones—that are available in your organization, for all record types. For the timeframe you selected, you can view information such as success rate.   
 
--	The **Target Created** column contains information on the total number of records that are linked to the sequence in the selected timeframe, with their status. Hover over the column to view information on the number of records that have the status of completed, in-progress, or disconnected.
+The **Success Rate** column displays the trend of the sequence with its successful conversion rate for the connected records in the selected timeframe. 
 
-    >[!div class="mx-imgBorder"]
-    >![The Target created column.](media/sa-sequence-stats-page-column-target-created.png "The target created column")
+>[!NOTE]
+>The **Success Rate** column is available only for lead and opportunity record types.  
+
+>[!div class="mx-imgBorder"]
+>![The Success rate column.](media/sa-sequence-stats-page-column-success-rate.png "The success rate column")  
  
--	The **Success Rate** column displays the trend of the sequence with its successful conversion rate for the connected records in the selected timeframe. 
+The trend shows how a sequence is performing in the selected timeframe compared to that of the previous timeframe. For example, if you select 30 days and a sequence related to the lead record type shows an upward trend (green), this shows that the sequence has performed better in converting leads into opportunities in the current 30 days when compared to the previous 30 days. Green indicates improvement, red indicates a downward trend, and orange indicates that there has been no change in the success rate.
 
-    >[!NOTE]
-    >The **Success Rate** column is available only for lead and opportunity record types.  
-
-    >[!div class="mx-imgBorder"]
-    >![The Success rate column.](media/sa-sequence-stats-page-column-success-rate.png "The success rate column")  
- 
-    The trend shows how a sequence is performing in the selected timeframe compared to that of the previous timeframe. For example, if you select 30 days and a sequence related to the lead record type shows an upward trend (green), this shows that the sequence has performed better in converting leads into opportunities in the current 30 days when compared to the previous 30 days. Green indicates improvement, red indicates a downward trend, and orange indicates that there has been no change in the success rate.
-
-    The percentage shows the average number of records that are successfully converted into win deals or opportunities when compared to the previous timeframe.
+The percentage shows the average number of records that are successfully converted into win deals or opportunities when compared to the previous timeframe.
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 

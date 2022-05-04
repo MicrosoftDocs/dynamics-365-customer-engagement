@@ -1,7 +1,7 @@
 ---
 title: Enable supervisor settings for managing agent conversations | MicrosoftDocs
 description: "How to enable supervisors to monitor, assign, and transfer conversations in the Omnichannel admin center and Omnichannel Administration apps."
-ms.date: 02/11/2022
+ms.date: 04/04/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -14,17 +14,14 @@ manager: shujoshi
 
 ## Introduction
 
-As an administrator, you can enable your supervisors to take specific actions on various conversations being handled by their agents in Omnichannel for Customer Service. You can grant your supervisors permissions to monitor, assign, and transfer conversations by enabling the respective permissions in the Customer Service admin center (preview), Omnichannel admin center or Omnichannel Administration apps.
+As an administrator, you can enable your supervisors to take specific actions on various conversations being handled by their agents in Omnichannel for Customer Service. You can grant your supervisors permissions to monitor, assign, and transfer conversations by enabling the respective permissions in the Customer Service admin center, Omnichannel admin center or Omnichannel Administration apps.
 
 ## Configure Supervisor settings
 
 1. Go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+   
      1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
      1. In the **Ongoing conversation insights** section, select **Manage**.
 

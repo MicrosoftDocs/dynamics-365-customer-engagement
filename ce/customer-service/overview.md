@@ -1,7 +1,7 @@
 ---
 title: "Customer Service Overview (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Overview of Dynamics 365 Customer Service"
-ms.date: 03/02/2022
+ms.date: 04/26/2022
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -13,7 +13,7 @@ ms.custom:
 
 # Overview of Dynamics 365 Customer Service
 
-*<a href="https://dynamics.microsoft.com/customer-service/overview/" target="_blank">Try Dynamics 365 Customer Service for free</a>*
+[!INCLUDE[cc-trial-sign-up](../includes/cc-trial-sign-up.md)]
 
 Welcome to Dynamics 365 Customer Service! We are delighted to offer you a suite of capabilities to ensure your business can deliver the best customer service experience possible to your customers. We believe that knowing your customers enables you to personalize each experience and optimizes your agents' productivity so you can earn customers for life. 
 
@@ -41,7 +41,7 @@ Use [!INCLUDE[pn-ms-dyn-365-for-customer-service](../includes/pn-ms-dyn-365-for-
 
 You can configure and manage the different capabilities in Customer Service by using any of the following apps based on the licensing module that you've purchased. While you can use any of the admin apps to set up the features in Customer Service, we recommend that you use the latest apps and centrally manage the features in a robust framework.
 
-- **Customer Service admin center (preview)**: Helps in managing the different features of Customer Service in one place. You can configure all the features of the customer support, operations, and agent experiences through the new app. You can manage core customer service and other features, such as service terms, service scheduling, and all the channels in Omnichannel for Customer Service. More information: [Customer Service admin center (preview) at a glance](cs-admin-center.md)
+- **Customer Service admin center**: Helps in managing the different features of Customer Service in one place. You can configure all the features of the customer support, operations, and agent experiences through the new app. You can manage core customer service and other features, such as service terms, service scheduling, and all the channels in Omnichannel for Customer Service. More information: [Customer Service admin center at a glance](cs-admin-center.md)
 
 - **Omnichannel admin center**: Helps in managing all your chat and digital messaging channels, including the voice channel. You can configure enterprise-grade routing and assignment capability by using the unified routing infrastructure to route service requests on all channels. More information: [Omnichannel admin center at a glance](oc-admin-center.md)
 
@@ -50,7 +50,7 @@ You can configure and manage the different capabilities in Customer Service by u
 - **App profile manager**: Helps in creating and managing targeted app experiences for agents and supervisors as an alternative to building and maintaining custom apps. You can create custom profiles with specific session templates, conversation channels, and productivity tools. You can then assign these profiles to agents and supervisors who use the Customer Service workspace and Omnichannel for Customer Service apps. More information: [Introduction to the app profile manager](../app-profile-manager/overview.md)
 
   > [!NOTE]
-  > The capabilities offered by the app profile manager are also available in the new Customer Service admin center (preview) app. We recommend that you use the new app.
+  > The capabilities offered by the app profile manager are also available in the new Customer Service admin center app. We recommend that you use the new app.
 
 - **Omnichannel Administration**: Helps in setting up and managing the chat and digital messaging channels and other features in Omnichannel for Customer Service. More information: [Omnichannel Administration](omnichannel-administrator.md)
   

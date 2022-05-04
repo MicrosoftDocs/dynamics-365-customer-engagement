@@ -20,14 +20,15 @@ topic-status: Drafting
 Conversation intelligence uses analytics and data science to gather data from sellers' call recordings and Dynamics 365 Sales. Conversation intelligence analyzes the data to provide you with the information and insights to intelligently manage your sales team and proactively coach sellers. To achieve this, conversation intelligence displays relevant key performance indicators (KPIs) and intelligent call data KPIs by team, seller, and call.
 
 ## License and role requirements
-
-| &nbsp; | &nbsp; |
+| Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Salesperson and above <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+
 
 ## How can I use conversation intelligence
+
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4Ub4r]
 
 >[!IMPORTANT]
 >This feature is intended to help sales managers or supervisors enhance their team's performance. This feature isn't intended for use in making&mdash;and shouldn't be used to make&mdash;decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with sales persons may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their sales persons that their communications with end users may be monitored, recorded, or stored.
@@ -68,20 +69,21 @@ Currently, conversation intelligence supports the following languages:
 
 | Language | Code |
 |----------|------|
-| Arabic | ar-BH |
-| Chinese simplified | zh-CN |
-| Danish | da-DK |
-| Dutch | nl-NL |
-| English | en-US and en-GB |
-| Finnish | fi-FI |
-| French | fr-FR and fr-CA |
-| German | de-DE |
-| Hebrew | he-IL |
-| Italian | it-IT |
-| Japanese | ja-JP |
-| Portuguese | pt-PT and pt-BR |
-| Spanish | es-ES and es-MX |
-| Swedish | sv-SE |
+| Arabic | ar_BH |
+| Chinese simplified | zh_CN |
+| Danish | da_DK |
+| Dutch | nl_NL |
+| English | en_US and en_GB |
+| Finnish | fi_FI |
+| French | fr_FR and fr_CA |
+| German | de_DE |
+| Hebrew | he_IL |
+| Italian | it_IT |
+| Japanese | ja_JP |
+| Norwegian | nb_NO|
+| Portuguese | pt_PT and pt_BR |
+| Spanish | es_ES and es_MX |
+| Swedish | sv_SE |
 
 ## Recommendations to use conversation intelligence   
 Before you start using the application, we suggest you review the following requirements for effective use of conversation intelligence:   

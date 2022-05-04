@@ -1,7 +1,7 @@
 ---
-title: "addHandler (JavaScript API Reference) for Channel Integration Framework 1.0 | MicrosoftDocs"
-description: "Includes description, syntax, and parameter information for the addHandler method in JavaScript API Reference for Dynamics 365 Channel Integration Framework 1.0. "
-ms.date: 10/12/2018
+title: "addHandler (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0 | MicrosoftDocs"
+description: "Includes reference information such as description, syntax, and parameters for the addHandler method in JavaScript API Reference for Dynamics 365 Channel Integration Framework 1.0. "
+ms.date: 04/22/2022
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -25,7 +25,7 @@ ms.custom:
 
 | Name | Type | Required | Description |
 |------|------|----------|-------------|
-| eventName | String | Yes | Name of the event for which the handler is set. <br>The supported events are as follows:<br><ul><li><b>onClickToAct:</b> The event is invoked when the outbound communication (ClickToAct) field is enabled.</li> <li><b>onModeChanged:</b> The event is invoked when the panel mode is manually toggled between Minimized (0) and Docked (1). </li><li><b>onSizeChanged:</b> The event is invoked when the panel size is manually changed by dragging. </li><li><b>onPageNavigate:</b> The event is triggered before a navigation event occurs on the main page. </li><li><b>onSendKBArticle: </b> The event is invoked when the user selects the **Send** button on the KB control.</li></ul>  |
+| eventName | String | Yes | Name of the event for which the handler is set. <br>The supported events are as follows:<br><ul><li><b>onClickToAct:</b> The event is invoked when the outbound communication (ClickToAct) field is enabled.</li> <li><b>onModeChanged:</b> The event is invoked when the panel mode is manually toggled between Minimized (0) and Docked (1). </li><li><b>onSizeChanged:</b> The event is invoked when the panel size is manually changed by dragging. </li><li><b>onPageNavigate:</b> The event is triggered before a navigation event occurs on the main page. </li><li><b>onSendKBArticle: </b> The event is invoked when the user selects the **Send** button on the KB control.</li></ul> You can also pass custom events in the `eventName` parameter. |
 | handlerFunction | Function | Yes | The handler function is invoked when any of the supported events are triggered. |
 
 ## Example

@@ -39,13 +39,15 @@ As an administrator, you must configure intraday insights before supervisors can
 
 As an administrator for a new organization, intraday insights is configured by default, so you don’t need to take extra steps to configure it, but if you want to switch from using customized reports to using the preconfigured Power BI workspace, follow the steps in this section. The preconfigured Power BI workspace feature allows you to access intraday insights without customizing the reports.
 
+For supervisor users in your organization to access the report and dashboard, ensure the Omnichannel supervisor role is assigned. More information: [Enable users for Omnichannel for Customer Service](add-users-assign-roles.md)
+
 To enable the preconfigured Power BI workspace:
 
 1. In the site map of Omnichannel admin center, select **Supervisor settings** under **Advanced settings**, and then select **Manage** for **Intraday insights**. If you're using the Omnichannel Administration app, from the site map ![Site map icon.](../unified-service-desk/media/oc-usd-supervisor-dashboard-site-map.png "Site map icon"), select **Supervisor Experience** > **Intraday Insights**.  
 
    The Power BI configuration view opens.
     
-> [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
+   > [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 2. Select **New**.
 

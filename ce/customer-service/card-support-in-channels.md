@@ -132,14 +132,15 @@ With social profiles, you can do the following:
 - Display the customer name or phone number with conversations on the agent dashboard
 - Send outbound messages
 
-| Channel            | Supported?                                                          |
-|--------------------|---------------------------------------------------------------------|
-| Facebook           | Yes                                                                 |
-| LINE               | Yes                                                                 |
-| Twitter            | Yes                                                                 |
-| WeChat             | Yes                                                                 |
-| WhatsApp           | Yes                                                                 |
-| Custom messaging (Telegram) | Yes                                                        |
+| Channel            | Supported?                                                          | Visitor name|
+|--------------------|---------------------------------------------------------------------|-------------|
+| Facebook           | Yes                                                                 | User name |
+| LINE               | Yes                                                                 | Display name |
+| Twitter            | Yes                                                                 | Twitter handle name |
+| WeChat             | Yes                                                                 | Visitor |
+| WhatsApp           | Yes                                                                 | Phone number |
+| Custom messaging (Telegram) | Yes                                                        | User name |
+| | | |
 
 ## Preview: Support for formatted messages <a name="formatted-messages"></a>
 

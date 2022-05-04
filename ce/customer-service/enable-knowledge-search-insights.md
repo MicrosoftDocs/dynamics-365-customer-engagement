@@ -1,7 +1,7 @@
 ---
 title: "Configure Knowledge search insights for Dynamics 365 in Customer Service Hub and Customer Service workspace | MicrosoftDocs"
 description: "Learn how to configure Knowledge search insights in Customer Service Hub and Customer Service workspace"
-ms.date: 02/11/2022
+ms.date: 04/04/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -18,16 +18,13 @@ The knowledge search analytics dashboard is designed to provide your organizatio
 
 ## Configure the Knowledge search analytics dashboard
 
-You can enable the knowledge search analytics dashboard in the Customer Service admin center (preview) or Customer Service Hub app.
+You can enable the knowledge search analytics dashboard in the Customer Service admin center or Customer Service Hub app.
 
 **Enable the Knowledge search analytics dashboard**
 
 1. Go to one of the apps, and perform the following steps.
    
-   ### [Customer Service admin center (preview)](#tab/customerserviceadmincenter)
-     
-     > [!IMPORTANT]
-     > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
      1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
      1. In the **Knowledge search analytics** section, select **Manage**.
