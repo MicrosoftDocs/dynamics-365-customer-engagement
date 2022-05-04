@@ -157,7 +157,7 @@ sections:
       - question: |
           Where are the **Date Windows Start** and **Date Window End** fields? 
         answer: |
-          As of the 2021 Wave 2 October update, the **Date Window Start** and **Date Window End** fields have been removed to simplify the expereince. Use the **Time From Promised** and **Time To Promised** fields to manage time expecations for when service should be performed. To revert this change, see the **Pre/Post Booking Flexibility Date Field Population** setting in the [Agreements section of Field Service settings](/dynamics365/field-service/configure-default-settings#agreement).  
+          As of the 2021 Wave 2 October update, the **Date Window Start** and **Date Window End** fields have been removed to simplify the experience. Use the **Time From Promised** and **Time To Promised** fields to manage time expectations for when service should be performed. To revert this change, see the **Pre/Post Booking Flexibility Date Field Population** setting in the [Agreements section of Field Service settings](/dynamics365/field-service/configure-default-settings#agreement).  
 
 
                     
