@@ -12,7 +12,7 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-[!INCLUDE[cc-conversation-states](includes/cc-conversation-states.md)]
+[!INCLUDE[cc-conversation-states](../includes/cc-conversation-states.md)]
 
 <!---
 This topic explains the various states and status reasons of the conversation (work item) in Omnichannel for Customer Service.
