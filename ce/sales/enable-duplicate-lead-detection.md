@@ -23,7 +23,7 @@ Enable duplicate lead detection to help your sellers identify and address potent
 
 ## What is duplicate detection?
 
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4TYQP]
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4UpF6]
 
 The duplicate detection capability helps sellers to check for potential duplicate leads in the app. When you enable this capability, the AI model uses the following rules to identify duplicates:
 

@@ -96,7 +96,7 @@ for a quick overview of all the data that is available for your marketing analyt
     Make the following settings:
 
     - **Name**: Enter a name to identify this configuration record.
-    - **Export to blob storage sas token**: Paste the URL you copied earlier in this procedure.
+    - **Export to blob storage SAS token**: Paste the URL you copied earlier in this procedure.
     - **Export from date**: Optional. When left empty, all interactions available in the Marketing application will be exported. If a date value is specified, then only the interactions that happened after this date will be exported. This is useful for reducing the amount of data exported if you are not interested in creating reports for older interactions.
 
     > [!NOTE]

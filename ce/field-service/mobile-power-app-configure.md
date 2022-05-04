@@ -4,13 +4,12 @@ description: Learn about how to change the sitemap, forms, and views in the Fiel
 ms.date: 11/09/2021
 ms.reviewer: krbjoran
 ms.topic: article
-
 ms.subservice: field-service-mobile
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: FieldServiceDave
-ms.author: daclar
+author: krbjoran
+ms.author: krbjoran
 manager: shellyha
 search.app: 
   - D365CE
@@ -60,8 +59,7 @@ You can even create entirely new groups with more subareas to display different 
 
 - [Customize entity views](/powerapps/developer/model-driven-apps/customize-entity-views)
 
-> [!Note]
-> Currently, the booking calendar view is not editable. You cannot edit the fields displayed in the time slots on the calendar.
+- [Customize Booking Calendar](/dynamics365/field-service/mobile-powerapp-customize-booking-calendar)
 
 ### See also
 

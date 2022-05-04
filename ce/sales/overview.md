@@ -10,7 +10,11 @@ manager: shujoshi
 ---
 # Overview of Dynamics 365 Sales 
 
-Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]! Here's a short video to help you understand the power of leveraging Dynamics 365 Sales in your organization:
+Welcome to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]! This article provides an overview of the capabilities in Dynamics 365 Sales.
+
+[!INCLUDE [trial-cta-note](../includes/trial-cta-note.md)]
+
+Here's a short video to help you understand the power of leveraging Dynamics 365 Sales in your organization:
 
 <div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/RE4AC4d?maskLevel=0" frameborder="0" allowfullscreen=""></iframe></div>
 
