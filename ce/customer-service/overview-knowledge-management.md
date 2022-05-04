@@ -1,7 +1,7 @@
 ---
-title: Overview of knowledge management (Dynamics 365 Customer Service) | MicrosoftDocs
-description: Learn what is knowledge management in Dynamics 365 Customer Service.
-ms.date: 04/29/2022
+title: Overview of knowledge management
+description: Learn about knowledge management in Dynamics 365 Customer Service.
+ms.date: 05/04/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -19,21 +19,21 @@ ms.custom:
 
 # Overview of knowledge management
 
-Knowledge management plays a vital role in enabling organizations to deliver world-class customer care by providing team members with the ability to author, categorize, deliver, analyze, and share information through a knowledge base. 
+Knowledge management plays a vital role in delivering world-class customer care. It provides team members with the ability to author, categorize, deliver, analyze, and share information through a knowledge base.
 
 ## Benefits of knowledge management
 
-* Knowledge management with its knowledge article base empowers primary service providers, such as agents, to resolve customer queries right away, thereby increasing their productivity.
-* Agents get access to rich, high-quality knowledge resources across consistent and contextual Omnichannel experiences, which enables quicker issue resolution, thus reducing the average call handling time for agents.
-* Knowledge management search capabilities across channels help reduce support tickets through self-service, and drives customer satisfaction.
+* Primary service providers, such as agents, can look up information in a knowledge base to resolve customer queries right away, thereby increasing their productivity.
+* With access to rich, high-quality knowledge resources across consistent and contextual Omnichannel experiences, agents can resolve issues faster, reducing their average call handling time.
+* Customers can use knowledge management search capabilities across channels to solve issues themselves, reducing support tickets and driving customer satisfaction.
 
-    :::image type="content" source="media/km-benefits.png" alt-text="Benefits of knowledge management":::
+    :::image type="content" source="media/km-benefits.png" alt-text="Diagram that illustrates the benefits of knowledge management":::
 
 ## Features of knowledge management
 
-Depending on the role that you play in your organization, here’s how you can leverage the features of knowledge management and help your business grow.
+Depending on your role in your organization, here’s how you can leverage the features of knowledge management to help your organization grow.
 
-## Create knowledge
+## Create knowledge articles
 
 ### Create and design knowledge articles
 As a knowledge author, you can:
@@ -56,7 +56,7 @@ As an administrator, you can create hierarchical, categorical data to help group
 ### Integrate knowledge management with a Power Virtual Agents bot 
 As an administrator, you can integrate a Power Virtual Agents bot with knowledge management to make it easier to use customized conversations in your bot. This helps free up your agents' time so they can focus on complex issues that need human intervention, as the bot helps answer questions, perform actions, and solve issues that are simple in nature. More information: [Integrate knowledge management in Dynamics 365 with Power Virtual Agents bots (preview)](integrate-KM-with-PVA.md#integrate-knowledge-management-in-dynamics-365-with-power-virtual-agents-bots-preview)
 
-## Search knowledge
+## Search knowledge articles
 
 ### Search knowledge articles through different channels
 - As an agent, you can use the knowledge search pane to search articles in Customer Service workspace. More information: [Use the knowledge search pane to search articles](csw-search-knowledge-articles.md#use-the-knowledge-search-pane-to-search-articles)
@@ -76,15 +76,15 @@ As an administrator, you can:
 ### Search the knowledge base on portals
 Having a knowledge base on the portal makes it a customer self-service portal, where you can access and search for knowledge articles through simple queries. This helps resolve issues and makes information easily accessible. You can search for your knowledge articles by selecting **Knowledge Base** from your portal. More information: [Search the knowledge base on portals](knowledge-base-search-methods.md#search-the-knowledge-base-on-portals)
 
-## Analytics and Reporting
+## Analyze and report
 
 ### Track and analyze knowledge article statistics
 
 As an administrator, you can:
-  - Track how many times an article is used, viewed, and sent to customers. Proactively create knowledge based on search insights across customers and agents. 
-  - View the knowledge search analytics dashboard to provide your organization's customer service supervisors and knowledge workers with valuable insights into how your support agents are finding and using knowledge articles. More information:[Configure Knowledge search insights for Dynamics 365 Customer Service](enable-knowledge-search-insights.md#configure-knowledge-search-insights-for-dynamics-365-customer-service)
+  - Track how many times an article is used, viewed, and sent to customers. Use this information to proactively create knowledge based on search insights across customers and agents. 
+  - Use the knowledge search analytics dashboard to provide supervisors and knowledge workers with valuable insights into how your support agents are finding and using knowledge articles. More information:[Configure Knowledge search insights for Dynamics 365 Customer Service](enable-knowledge-search-insights.md#configure-knowledge-search-insights-for-dynamics-365-customer-service)
 
-    :::image type="content" source="media/knowledge-article-insights-dashboard.png" alt-text="View of the knowlege article analytics dashboard":::
+    :::image type="content" source="media/knowledge-article-insights-dashboard.png" alt-text="Screenshot of the knowledge search analytics dashboard":::
   
 As a supervisor, you can identify searches that have low success or return no results through the Knowledge search analytics dashboard to help identify knowledge gaps, improve search results, and surface the most relevant articles. More information: [Introduction to knowledge analytics](knowledge-search-analytics-cs.md#introduction-to-knowledge-analytics)
   
@@ -95,8 +95,6 @@ As a supervisor, you can identify searches that have low success or return no re
 [Search and share knowledge articles](oc-search-knowledge-articles.md)
 
 [Search for knowledge articles in Customer Service workspace](csw-search-knowledge-articles.md#search-for-knowledge-articles-in-customer-service-workspace)
-
-[Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-forms)
 
 [Create a knowledge article using a template](create-knowledge-article-using-template.md#create-a-knowledge-article-using-a-template)
 
