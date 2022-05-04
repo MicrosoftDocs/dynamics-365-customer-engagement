@@ -26,7 +26,7 @@ Your Microsoft 365 tenant must be co-located in one of the following geographic 
 
 > [!Note]
 >
-> In the South America, Europe, and Asia Pacific regions, Omnichannel for Customer Service is currently not available in a tenant that's located in Brazil, Norway, Sweden, and Singapore respectively.
+> In the South America, Europe, and Asia Pacific regions, Omnichannel for Customer Service is currently not available in a tenant that's located in Brazil, Norway, Sweden, and Singapore.
 
 ### April 2022 update
 
