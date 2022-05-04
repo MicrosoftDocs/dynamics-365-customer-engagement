@@ -16,7 +16,7 @@ To successfully migrate to the new messaging platform, you must make the followi
 
 - If you have network policies in your organization, be sure to update your system requirements to include a new set of domains that'll be used by the new platform. More information: [Omnichannel for Customer Service system requirements](system-requirements-omnichannel.md)
 
-- If you're using the Omnichannel Chat SDK to customize the live chat widget, download the latest version of the chat SDK package. You'll need Omnichannel Chat SDK 1.1.0 or later versions to ensure that your widget works in the new platform. More information: [Omnichannel Chat SDK Installation page on GitHub](https://github.com/microsoft/omnichannel-chat-sdk#installation)
+- If you're using the Omnichannel Chat SDK to customize the live chat widget, download the latest version of the chat SDK package. You'll need Omnichannel Chat SDK 1.1.0 or later versions to ensure that your widget works on the new platform. More information: [Omnichannel Chat SDK Installation page on GitHub](https://github.com/microsoft/omnichannel-chat-sdk#installation)
 
 - If you're integrating an Azure bot, then you must connect and register your bot with the new channel. More information: [Integrate Azure bot](configure-bot.md). If you're using a Power Virtual Agents bot or Azure Health Bot, then these changes will be automatically applied, and you don't need to take any action.
 
