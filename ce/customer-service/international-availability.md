@@ -17,7 +17,7 @@ The purpose of this document is to provide information about the geographic loca
 
 
 > [!NOTE]
-> For information about the supported regions and languages in the voice channel, see [Supported regions and languages](voice-channel-region-availability.md).
+> For information about the supported regions and languages in the voice channel, see [Supported cloud locations, languages, and locale codes](voice-channel-region-availability.md).
 
 
 ## Geographic location availability
