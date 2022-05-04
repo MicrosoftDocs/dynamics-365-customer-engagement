@@ -1,7 +1,7 @@
 ---
 title: "Configure work classification rulesets | MicrosoftDocs"
 description: "Learn about how to configure work classification rulesets for unified routing."
-ms.date: 04/04/2022
+ms.date: 05/02/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -26,7 +26,7 @@ In unified routing, work classification lets you define rules to add detailed in
 
 Typically, rules are written in the format of "if defined condition satisfies, then set the output attributes to certain values," but can also be surfaced through machine learning models. They are optional and can be used to add additional information to the incoming work items that are then used for more precise routing and assignment.
 
-Work classification rules can be written by using the manual declarative decision list or by using machine learning models.
+Work classification rules can be written by using the logical declarative decision list or by using machine learning models.
 
 > [!IMPORTANT]
 > You can create 10 rulesets per workstream, and for each ruleset, you can create up to 100 rule items.
@@ -87,7 +87,7 @@ Follow these steps to create a logical skill classification ruleset:
 
 6. In the **Output** area, select the attribute whose value will be set if the conditions are met.
 
-7. If you want to manually set up the skill attribute, in the **Conditions** area, define the conditions, and select the required value in the **Output** area for the skill that needs to be set.
+7. If you want to set up the skill attribute, in the **Conditions** area, define the conditions, and select the required value in the **Output** area for the skill that needs to be set.
 
    > [!Note]
    > Ensure that the rating model that you choose for a skill in the work classification rule is same as the rating model that's defined for the skill attached to the agent. Also, ensure that you don't attach the same skill with two different rating models.
@@ -96,7 +96,7 @@ Follow these steps to create a logical skill classification ruleset:
 
 Create work classification rulesets that are based on capacity profiles to route work items to agents based on capacity.
 
-1. Perform the steps 1 through 5 in [Create manual skill classification rulesets](#create-logical-skill-classification-rulesets).
+1. Perform the steps 1 through 5 in [Create logical skill classification rulesets](#create-logical-skill-classification-rulesets).
 2. In the **Output** area, select **Capacity profile**, and choose a capacity profile whose value should be set if the conditions are met.
 
    > ![Capacity profile-based work classification rule.](media/capacity-profile-based-rule.png "Capacity profile-based work classification rule.")
