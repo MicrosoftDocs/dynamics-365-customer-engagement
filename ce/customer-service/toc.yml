@@ -564,7 +564,7 @@
         href: voice-channel-bring-your-own-number.md
       - name: Integrate third-party IVR systems with voice channel
         href: voice-channel-contextual-transfer-external-ivr.md 
-      - name: Supported regions and languages
+      - name: Supported cloud locations, languages, and locale codes
         href: voice-channel-region-availability.md
     - name: Agent experience
       items:

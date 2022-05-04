@@ -1,5 +1,5 @@
 ---
-title: "Region availability and supported languages | MicrosoftDocs"
+title: "Supported cloud locations, languages, and locale codes | MicrosoftDocs"
 description: "Use this article to learn about the region availability and supported languages for the voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
@@ -9,7 +9,7 @@ ms.topic: article
 
 ---
 
-# Region availability and supported languages
+# Supported cloud locations, languages, and locale codes 
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -21,7 +21,6 @@ This article provides information about the supported cloud locations, languages
 > For information about international availability of live chat and digital messaging channels, see [International availability of Omnichannel for Customer Service](international-availability.md#international-availability-of-omnichannel-for-customer-service).
 
 ## Supported cloud locations
-
 
 Use the information in the following table to know about the availability of the voice channel in Omnichannel for Customer Service.
 
