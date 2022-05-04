@@ -34,7 +34,7 @@ The Dynamics 365 Marketing April 2022 update is a milestone release. It offers t
 
 Generally available features include the ability to raise triggers from a journey to run another journey or Power Automate flow, reusable dynamic text for personalization, more out-of-the-box real-time marketing triggers, filter conditions for triggers, and improved email templates.
 
-The update also includes monthly enhancements to journeys, an image library for regions where the real-time marketing content management system (CMS) isn't available, domain authentication settings improvements, and improved contact card consent management.
+The update also includes monthly enhancements to journeys, domain authentication settings improvements, and improved contact card consent management.
 
 #### Version number
 
@@ -110,9 +110,6 @@ The update also includes monthly enhancements to journeys, an image library for 
 
 - **Consent**
     - Contact cards now show a unified view of consent for real-time and outbound marketing, giving customers clarity on contact point vs contact-based consent and the results for the different journeys. The new view also allows you to update contact point consent, giving a single place to manage consent for a contact.
-
-- **Asset library**
-    - Real-time marketing now includes a basic image library in regions where the real-time marketing CMS is not yet available. The basic image library functions similarly to the [file library in outbound marketing](upload-images-files.md).
 
 ##### Outbound marketing
 
