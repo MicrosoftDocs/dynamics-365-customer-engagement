@@ -3,7 +3,6 @@ title: "Set up customer agreements (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn about customer agreements and how to set them up in Dynamics 365 Field Service
 ms.date: 07/06/2020
 ms.reviewer: krbjoran
-
 ms.topic: article
 author: FieldServiceDave
 ms.author: daclar
@@ -360,7 +359,7 @@ For example, see a recurrence in the following screenshot, and related XML below
   - Categorizing a lead as a service-maintenance lead
   - Adding opportunity lines with service-based lines
   - Creating quote lines as service-based lines and adding a quote booking setup
-- When setting up agreements to automatically generate work orders, limit the number of work order child records -- work order products, services, service tasks, incident types, etc. -- to be generated to no more than 500. Larger volumes of records, synchronous custom plugins, or custom processes may cause a time out: resulting in the remaining child records not being generated.
+- When setting up agreements to automatically generate work orders, limit the number of work order child records - work order products, services, service tasks, incident types, and so on - to be generated to no more than 500. Larger volumes of records, synchronous custom plugins, or custom processes may cause a time out, resulting in the remaining child records not being generated.
 
 - The **Copy Incident Items to Agreement** field during incident type setup is important for two reasons:
 
