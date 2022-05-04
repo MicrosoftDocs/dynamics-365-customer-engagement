@@ -1,7 +1,7 @@
 ---
 title: Knowledge base search options on portals in Dynamics 365 Customer Service| MicrosoftDocs
 description: Learn how you can search the knowledge base on portals in Microsoft Dynamics 365 Customer Service.
-ms.date: 03/31/2022
+ms.date: 05/04/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
