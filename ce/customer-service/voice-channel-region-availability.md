@@ -1,6 +1,6 @@
 ---
-title: "Regional availability of the voice channel | MicrosoftDocs"
-description: "Use this article to learn about the regional availability and supported languages for the voice channel in Omnichannel for Customer Service."
+title: "Region availability and supported languages | MicrosoftDocs"
+description: "Use this article to learn about the region availability and supported languages for the voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -9,23 +9,23 @@ ms.topic: article
 
 ---
 
-# Regional availability and supported languages for the voice channel
+# Region availability and supported languages
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Introduction
 
-This article provides information about the availability of the voice channel in different geographical regions, supported languages, locale codes, and language limitations by feature.
+This article provides information about the supported cloud locations, languages, and locale codes.
 
 > [!NOTE]
-> For information about availability of live chat and digital messaging channels, see [International availability of Omnichannel for Customer Service](international-availability.md#international-availability-of-omnichannel-for-customer-service).
+> For information about international availability of live chat and digital messaging channels, see [International availability of Omnichannel for Customer Service](international-availability.md#international-availability-of-omnichannel-for-customer-service).
 
 ## Supported cloud locations
 
 
 Use the information in the following table to know about the availability of the voice channel in Omnichannel for Customer Service.
 
-If the voice channel in Omnichannel for Customer Service for your country or region specific cloud deployments are not yet available, use the general region deployments. For example, country/region cloud for local deployment in the United Kingdom is **To be announced** and is not a part of Europe geographical region availability.
+If the voice channel in Omnichannel for Customer Service for your country or region-specific cloud deployments are not yet available, use the general region deployments. For example, country/region cloud for local deployment in the United Kingdom is **To be announced** and is not a part of Europe geographical region availability.
 
  If you need your data to stay within a country or region, stay tuned for country or region-specific local deployment of the voice channel. More information: [Datacenter regions](/power-platform/admin/new-datacenter-regions)
 
@@ -45,17 +45,17 @@ If the voice channel in Omnichannel for Customer Service for your country or reg
 
 ### Direct offer availability
 
-Azure direct offer or [Microsoft as a carrier](/azure/communication-services/concepts/telephony/telephony-concept) is available for customers with billing locations in the United States, United Kingdom, Ireland, and Puerto Rico.  Azure direct offer supports the following options:
-- The purchase of new US and Puerto Rico numbers. More information: [Subscription eligibility and number capabilities](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability).
+Azure direct offer or [Microsoft as a carrier](/azure/communication-services/concepts/telephony/telephony-concept) is available for customers with billing locations in the United States, United Kingdom, Ireland, and Puerto Rico. Azure direct offer supports the following options:
+- The purchase of new US and Puerto Rico numbers. More information: [Subscription eligibility and number capabilities](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability)
 - The porting of existing US or toll-free phone numbers. More information: [Port a phone number](/azure/communication-services/quickstarts/telephony/port-phone-number)
 
- Only the listed billing locations are supported even if Microsoft as a carrier is available in other regions. Customers can select a [different carrier](voice-channel-bring-your-own-number.md) using Azure direct routing.
+ Only the listed billing locations are supported even if Microsoft as a carrier is available in other locations. Customers can select a [different carrier](voice-channel-bring-your-own-number.md) using Azure direct routing.
 
 ### Direct routing availability
 
 Bring your own carrier through [Azure direct routing](/azure/communication-services/concepts/telephony/telephony-concept#azure-direct-routing) is supported across all geographic locations using certified Session Border Controllers. More information: [Bring your own carrier](voice-channel-bring-your-own-number.md)
 
- In the geographic region where the voice channel is generally available, Azure direct routing extends general availability support.
+In the geographic location where the voice channel is generally available, Azure direct routing extends general availability support.
 
 ## Supported languages and locale codes
 
