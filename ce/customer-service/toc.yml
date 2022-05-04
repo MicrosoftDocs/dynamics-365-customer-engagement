@@ -435,7 +435,9 @@
     - name: FAQs about Activities and the Timeline Wall
       href: /powerapps/user/faq-for-timeline-and-activity
   - name: Knowledge management
-    items: 
+    items:
+    - name: Overview of knowledge management 
+      href: overview-knowledge-management.md
     - name: Administrator experience
       items:
       - name: Configure knowledge management 
@@ -864,11 +866,15 @@
       items: 
       - name: Enable bot context NuGet package
         href: enable-bot-context.md
-      - name: Configure Azure bots to escalate and end conversations
+      - name: Enable an Azure bot to escalate and end conversations
         href: bot-escalate-end-conversation.md
       - name: Download file attachments from Azure bot
         href: download-attachments-bot.md
-      - name: Download file attachments from Power Virtual Agents bot
+      - name: Get Microsoft Teams user details from Azure bot
+        href: user-details-teams-azure-bot.md
+      - name: Display suggested actions in a vertical layout
+        href: suggested-actions.md
+      - name: Download attachments from Power Virtual Agents bot
         href: download-attachments-PVA-bot.md
     - name: Get user details on Microsoft Teams from Azure bot
       href: user-details-teams-azure-bot.md
@@ -1102,7 +1108,7 @@
       href: migrate-automatic-record-creation-and-sla-agreements.md
     - name: Strategy for migrating from contracts to entitlements
       href: contract-to-entitlement-migration.md
-    - name: Migration changes for new Omnichannel messaging platform
+    - name: Migration changes for new omnichannel messaging platform
       href: migrate-acs.md
     - name: Migrate service scheduling
       items: 
