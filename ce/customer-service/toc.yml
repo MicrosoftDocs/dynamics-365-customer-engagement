@@ -539,9 +539,7 @@
       - name: Set up outbound calling
         href: voice-channel-outbound-calling.md
       - name: Configure historical analytics for voice
-        href: cs-voice-historical-analytics.md
-      - name: Configure Azure bots for voice
-        href: voice-channel-azure-bot-service.md        
+        href: cs-voice-historical-analytics.md  
       - name: Configure Power Virtual Agents bot for voice
         href: voice-channel-ivr-bots.md
       - name: View voice calls usage
