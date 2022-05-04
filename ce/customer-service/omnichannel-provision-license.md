@@ -1,7 +1,7 @@
 ---
 title: "Provision Omnichannel for Customer Service and voice channel | MicrosoftDocs"
 description: "Perform the steps in this article to provision Omnichannel for Customer Service and add channels so that can you start using the product."
-ms.date: 04/26/2022
+ms.date: 05/02/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -82,7 +82,7 @@ Use the following steps to allow Omnichannel for Customer Service to read and wr
 
 1. On the **Manage Omnichannel for Customer Service** message, select **OK**. The **Dynamics 365 Administration Center | Omnichannel** page is displayed on a new tab.
 
-1. On the **Manage Omnichannel Instances** page, select **Add Org** to add an organization. Omnichannel is set up on the organization environment that you add here.
+1. On the **Manage Omnichannel Instances** page, select **Add environment** to add an environment. Omnichannel is set up for the organization environment that you add here.
 
     > [!div class=mx-imgBorder]
     > ![Manage environments.](media/manage-environments.png "Manage environments")

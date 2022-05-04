@@ -1,8 +1,7 @@
 ---
 title: "Known issues and workarounds (Dynamics 365 Marketing) | Microsoft Docs"
 description: "This article documents known issues and workarounds for Dynamics 365 Marketing."
-ms.date: 12/09/2021
-
+ms.date: 04/29/2022
 ms.custom:
   - dyn365-admin
   - dyn365-marketing
@@ -83,6 +82,7 @@ This document provides important, late-breaking information about known issues a
 - As of March 2021, A/B testing is not yet available in the new email designer.
 - If you have any email editor customizations, your administrator will need to manually recreate them in the new email designer.
 - Due to a limitation in Outlook, the maximum divider height is 10 pixels.
+- Image placeholders for emails created before the April 2022 release are shown in blue. <!--- 2689328 -->
 
 ## Marketing pages and forms
 
