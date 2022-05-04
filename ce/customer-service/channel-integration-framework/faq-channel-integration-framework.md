@@ -1,7 +1,7 @@
 ---
 title: "FAQs for Dynamics 365 Channel Integration Framework | MicrosoftDocs"
 description: "Frequently asked questions about Dynamics 365 Channel Integration Framework and its APIs for Dynamics 365."
-ms.date: 01/21/2022
+ms.date: 05/04/2022
 ms.topic: reference
 author: mh-jaya
 ms.author: v-jmh
@@ -59,14 +59,10 @@ No, Dynamics 365 Channel Integration Framework is agnostic to operating systems 
 
 ### Which web browsers does Dynamics 365 Channel Integration Framework support?
 
-Dynamics 365 Channel Integration Framework supports Microsoft Edge and Google Chrome.
+For the supported browsers information, see the following articles:
 
-> [!NOTE]
-> The widget domain needs to be granted permission to use appropriate media like pop-ups and microphone as required. For Microsoft Edge to permanently grant the required permissions, the required domain needs to be accessed via a regular window; permanent exception cannot be granted when the domain is accessed in private mode.
-
-### Are there any browsers that Dynamics 365 Channel Integration Framework does not support?
-
-Dynamics 365 Channel Integration Framework does not support Internet Explorer and Firefox browsers.
+- [System requirements for Dynamics 365 Channel Integration Framework 2.0](system-requirements-channel-integration-framework.md)
+- [System requirements for Dynamics 365 Channel Integration Framework 1.0](v2/system-requirements-channel-integration-framework-v2.md)
 
 ### Can partners package solutions that have a dependency on the Dynamics 365 Channel Integration Framework solution, together with the Dynamics 365 Channel Integration Framework solution?
 
