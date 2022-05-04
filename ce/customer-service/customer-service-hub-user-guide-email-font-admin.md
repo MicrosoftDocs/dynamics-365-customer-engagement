@@ -68,16 +68,12 @@ Enabling the user configured settings to an email form consists of the following
    > Ensure that the **disableDefaultImageProcessing** property is set to **True** for inline images added to the editor to load properly in the recipient's email.
 
 3.  Save the URL to the new web resource because you'll need it to map the new web resource file to the **Enhanced Email** form.
-
-   ![Save web resource URL.](media/email-web-resource-url.png "Save the web resource URL.")
    
-1. Navigate to **Customization** > **Customize the system** > **Entity** > **Email** > **Forms**.
-
-1. Open the **Enhanced Email** form, double-click **Description**, and then navigate to the **Control** tab.
-	
-1. Add the RTE control, select **Custom Configuration URL**, and then in the URL field, enter the URL from the new web resource file you created.
-
-1. Select **Save** and then **Publish All Customizations**.
+     ![Save web resource URL.](media/email-web-resource-url.png "Save the web resource URL.")
+5.  Navigate to **Customization** > **Customize the system** > **Entity** > **Email** > **Forms**.
+6.  Open the **Enhanced Email** form, double-click **Description**, and then navigate to the **Control** tab.
+7.  Add the RTE control, select **Custom Configuration URL**, and then in the URL field, enter the URL from the new web resource file you created.
+8.  Select **Save** and then **Publish All Customizations**.
 
 
 ### Enable the RTE control in the email form
