@@ -47,7 +47,6 @@ You understand that your data may be transmitted and shared with external system
 [Overview of bots](overview-bots.md)  
 [Integrate an Azure bot](configure-bot.md)  
 [Integrate Power Virtual Agents bot](configure-bot-virtual-agent.md)  
-[Configure Azure bot for voice](voice-channel-azure-bot-service.md)  
 [Configure Power Virtual Agents bot for voice](voice-channel-ivr-bots.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

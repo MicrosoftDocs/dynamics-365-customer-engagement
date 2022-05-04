@@ -1,6 +1,6 @@
 ---
-title: "FAQs about the voice channel | MicrosoftDocs"
-description: "This article includes frequently asked questions (FAQs) about the voice channel in Omnichannel for Customer Service."
+title: "FAQ about the voice channel | MicrosoftDocs"
+description: "This article includes frequently asked questions (FAQ) about the voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -9,11 +9,11 @@ ms.topic: article
 
 ---
 
-# FAQs about the voice channel in Omnichannel for Customer Service
+# FAQ about the voice channel in Omnichannel for Customer Service
 
 ## Overview
 
-This topic contains the frequently asked questions (FAQs) that you might have about the voice channel.
+This topic contains the frequently asked questions (FAQ) that you might have about the voice channel.
 
 ### Does the voice channel include real-time keyword recognition or sentiment tracking while an agent is on a call?
 
