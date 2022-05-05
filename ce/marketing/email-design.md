@@ -1,8 +1,7 @@
 ---
 title: "Create and design a marketing email message (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create and design a marketing email message in Dynamics 365 Marketing."
-ms.date: 03/22/2021
-
+ms.date: 05/04/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -36,7 +35,7 @@ To create a new email marketing message, go to **Marketing** > **Marketing Execu
 The first thing you are asked when you create a new message is to select a template. Dynamics 365 Marketing includes many templates, each of which includes both structural and style elements. You can select **Skip** to start with a  blank template, which lets you start from scratch with an empty message. After you select a template or choose **Skip**, you'll be in the email designer, where you can finish creating your email content.
 
 > [!div class="mx-imgBorder"]
-> ![Dialog for choosing an email template.](media/email-template-dialog2.png)
+> ![Dialog for choosing an email template.](media/email-template-dialog.png)
 
 When you create a new message from a template, the template content is copied into your new message. The message and template aren't linked, so when you edit the message, the template won't change. Likewise, any future changes that you make to a template won't affect any existing messages that were created using it.
 
@@ -53,7 +52,7 @@ After choosing a template, a new email message opens showing the initial content
 Each email message must have a name, which identifies the message when you're looking at the list view or when selecting messages to include in a customer journey. To enter a name, select the **Email name** field on the left side of the header and enter a name for your new message.
 
 > [!div class="mx-imgBorder"]
-> ![Enter a name for your new email.](media/email-edit-header-fields3.png)
+> ![Enter a name for your new email.](media/email-edit-header-fields.png)
 
 ### Enter a subject for the message
 
@@ -62,7 +61,7 @@ Enter a subject for your message by selecting **Add a subject** in the email hea
 You can also add a preheader, which shows up next to or below the subject line in the recipient's inbox. Preheader allows you to create custom text that displays in your recipient's inbox before they open the email message. The preheader is your chance to create a line that grabs the recipient's attention as soon as they see your message.
 
 > [!div class="mx-imgBorder"]
-> ![Enter a subject for your new email.](media/email-edit-subject2.png)
+> ![Enter a subject for your new email.](media/email-edit-subject.png)
 
 ### Other important settings
 

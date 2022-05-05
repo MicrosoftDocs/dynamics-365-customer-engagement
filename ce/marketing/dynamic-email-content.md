@@ -1,7 +1,7 @@
 ---
 title: "Add dynamic content to email messages (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to add field values, set up content settings information, conditional statements, and while loops to your email designs in Dynamics 365 Marketing."
-ms.date: 03/24/2022
+ms.date: 05/04/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -81,7 +81,7 @@ To use personalization:
 
 1. Position your cursor in the field or text element where you want to insert the dynamic text, and then select the  **Personalization**  button  ![The personalization button](media/button-personalization.png "The personalization button"). The personalization dialog opens.
 
-    ![Personalization, page 1.](media/personalization1.png "Personalization, page 1")
+    ![Personalization, page 1.](media/assist-edit1.png "Personalization, page 1")
 
 1. Do one of the following:
     - Select **Dynamic content** to place a value that can change based on the context where you use the message, and then choose one of the following from the drop-down list here:
