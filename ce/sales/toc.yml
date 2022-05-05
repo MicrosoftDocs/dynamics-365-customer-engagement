@@ -1115,7 +1115,7 @@
     - name: Dynamics 365 Sales Troubleshooting guide
       href: troubleshooting.md
     - name: Troubleshooting leads
-      href: ts-leads.md
+      href: ts-leads.md?context=/troubleshoot/dynamics-365/sales/troubleshoot-lead-form-auto-generated-contact-company-fields
     - name: Troubleshooting opportunities
       href: ts-opportunities.md
     - name: Troubleshooting orders
