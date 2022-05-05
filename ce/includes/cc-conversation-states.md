@@ -8,7 +8,7 @@ The conversation can be in an open or closed state, and can have the following s
 - [Wrap-up](#wrap-up)
 - [Closed](#closed)
 
- ![Omnichannel conversation states.](media/oc-conversation-state.png "Conversation states")
+ ![Omnichannel conversation states.](/media/oc-conversation-state.png "Conversation states")
 
  *Channel* refers to SMS, social, and Microsoft Teams channels supported in Omnichannel for Customer Service.
 
@@ -26,7 +26,7 @@ The conversation (work item) transitions from **Open** to **Active** or **Closed
 | Open          | Active           | When you pick the conversation from the **Open work items** stream.<br><br> When the routing and work distribution feature pushes (assigns) the conversation to you. | Channel<br><br>Chat|
 | Open          | Closed           | When the customer disconnects or ends the chat before the conversation is assigned to you.| Chat |
 
-![Transition from open to active or closed.](media/oc-conversation-open1.png "Transition from open to active or closed")
+![Transition from open to active or closed.](../media/oc-conversation-open1.png "Transition from open to active or closed")
 
 ## Active
 
@@ -42,7 +42,7 @@ The conversation (work item) transitions from **Active** to **Closed**, **Open**
 | Active | Closed | When you resolve the case (or get a record to non-active state) and close the session. | Record |
 
 
-![Transition from active to closed, open, waiting, wrap-up, or in-progress state.](media/oc-conversation-active.png "Active state")
+![Transition from active to closed, open, waiting, wrap-up, or in-progress state.](../../media/oc-conversation-active.png "Active state")
 
 ## Wrap-up
 
