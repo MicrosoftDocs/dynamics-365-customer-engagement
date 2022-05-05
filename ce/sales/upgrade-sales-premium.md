@@ -47,7 +47,7 @@ You can upgrade your existing Dynamics 365 Sales Enterprise license to Sales Pre
 
 - [Purchase a license from the Microsoft 365 admin center](#purchase-a-sales-premium-license-from-the-microsoft-365-admin-center).
 
-#### Purchase a Sales Premium license from the Microsoft 365 admin center
+### Purchase a Sales Premium license from the Microsoft 365 admin center
 
 1. Go to the [Microsoft 365 admin center](https://admin.microsoft.com/).
 
