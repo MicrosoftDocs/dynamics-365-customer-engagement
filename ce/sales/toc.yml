@@ -1117,7 +1117,7 @@
     - name: Troubleshooting leads
       href: /troubleshoot/dynamics-365/sales/troubleshoot-lead-form-auto-generated-contact-company-fields?context=/dynamics365/context/sales-context
     - name: Troubleshooting opportunities
-      href: ts-opportunities.md
+      href: /troubleshoot/dynamics-365/sales/troubleshoot-opportunities-issues?context=/dynamics365/context/sales-context
     - name: Troubleshooting orders
       href: ts-orders.md
     - name: Troubleshooting products
