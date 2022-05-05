@@ -74,7 +74,7 @@ To reduce the clutter while navigating Azure portal we will use the following na
 * Tenant > Properties > Name textbox: **Tenant name** (for example, `contoso.onmicrosoft.com`)
 * First part of the tenant name: **Tenant ID** (for example, `contoso`)
 * Settings > User Flows (policies): **Policy** (for example, `B2C_1_default-sign-up`)
-* Application > Published scopes > Full scope value textbox: **Scope** (for example, https://contosoeventmanagementtest.onmicrosoft.com/events/registration)
+* Application > Published scopes > Full scope value textbox: **Scope** (for example, `https://contosoeventmanagementtest.onmicrosoft.com/events/registration`)
 
 ## Registering the application with Dynamics 365 Marketing instance
 
@@ -103,7 +103,7 @@ Use following mapping while entering the values:
 * tenant: Tenant name (for example, `contosoeventmanagementtest.onmicrosoft.com`)
 * clientID: Application ID 
 * signUpSignInPolicy: Policy (for example, `B2C_1_default-sign-up`)
-* b2cScopes: ['Scope'] (for example, https://contosoeventmanagementtest.onmicrosoft.com/events/registration)
+* b2cScopes: ['Scope'] (for example, `https://contosoeventmanagementtest.onmicrosoft.com/events/registration`)
 * redirectUri: Application > Reply URL > Pick your application uri (for example, for localhost `https://localhost:4200`)
 
 An example of the full aadB2cConfig object would be:
