@@ -53,19 +53,15 @@ Enabling the user configured settings to an email form consists of the following
    
 1. Copy the text in the **Source** field, and then close the window.
 
-   ![Copy web resource file.](media/email-copy-web-resource-file.png "Copy the web resource file.")
-  
+   ![Copy web resource file.](media/email-copy-web-resource-file.png "Copy the web resource file.") 
 
 1. Create a new web resource and paste the code you copied from the existing file into it.
 
+1. Make any changes you want, and then select **Save and publish**.
    > [!NOTE]
    >  - A code editor such as Visual Studio Code can provide a better editing experience.
    >  - There are a variety of properties that can be modified and will apply to the email form when you configure it. For more information, see [Rich Text Editor Properties](/power-apps/maker/model-driven-apps/rich-text-editor-control#rich-text-editor-properties).
-  
-
-1. Make any changes you want, and then select **Save and publish**.
-   > [!NOTE]
-   > Ensure that the **disableDefaultImageProcessing** property is set to **True** for inline images added to the editor to load properly in the recipient's email.
+   >  - Ensure that the **disableDefaultImageProcessing** property is set to **True** for inline images added to the editor to load properly in the recipient's email.
 
 3.  Save the URL to the new web resource because you'll need it to map the new web resource file to the **Enhanced Email** form.
    
