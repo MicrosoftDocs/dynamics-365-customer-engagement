@@ -128,7 +128,7 @@ Create the bot. More information: [Azure Bot Service](https://azure.microsoft.co
 
 ## Add your bot to the workstream
 
-Add the bot as an IVR bot to the workstream. More information: [Configure Azure bots for voice](voice-channel-azure-bot-service.md)
+Add the bot as an IVR bot to the workstream. More information: [Configure Azure bots for voice (Preview)](voice-channel-azure-bot-service.md)
 
 
 ## Supported languages and locale codes
