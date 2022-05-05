@@ -8,9 +8,13 @@ author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ---
-# Configure Azure bots for voice
+# Configure Azure bots for voice (Preview)
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+[!INCLUDE[cc-preview-features-definition.md](../includes/cc-preview-features-definition.md)]
+
+[!INCLUDE[cc-preview-features-no-ms-support.md](../includes/cc-preview-features-no-ms-support.md)]
 
 ## Introduction
 
@@ -53,10 +57,9 @@ You understand that your data may be transmitted and shared with external system
 ### See also
 
 [Overview of the voice channel](voice-channel.md)  
-[Understand and create workstreams](create-workstreams.md)  
-[Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)  
+[Enable Azure bots to escalate and end conversations](bot-escalate-end-conversation.md)  
 [Context variables for a bot](context-variables-for-bot.md)  
 [Enable bot context NuGet package](enable-bot-context.md)   
-
+[Configure Power Virtual Agents bots for voice](voice-channel-ivr-bots.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

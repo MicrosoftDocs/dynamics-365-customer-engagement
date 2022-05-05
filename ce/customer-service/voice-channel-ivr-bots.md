@@ -97,6 +97,7 @@ More information:
 ### See also
 
 [Overview of the voice channel](voice-channel.md)  
-[Configure context variables](context-variables-for-bot.md)
+[Configure context variables](context-variables-for-bot.md)  
+[Configure Azure bots for voice](voice-channel-azure-bot-service.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
