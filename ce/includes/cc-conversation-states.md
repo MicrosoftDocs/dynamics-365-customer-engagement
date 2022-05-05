@@ -26,7 +26,7 @@ The conversation (work item) transitions from **Open** to **Active** or **Closed
 | Open          | Active           | When you pick the conversation from the **Open work items** stream.<br><br> When the routing and work distribution feature pushes (assigns) the conversation to you. | Channel<br><br>Chat|
 | Open          | Closed           | When the customer disconnects or ends the chat before the conversation is assigned to you.| Chat |
 
-![Transition from open to active or closed.](../media/oc-conversation-open1.png "Transition from open to active or closed")
+![Transition from open to active or closed.](/media/oc-conversation-open1.png "Transition from open to active or closed")
 
 ## Active
 
@@ -42,7 +42,7 @@ The conversation (work item) transitions from **Active** to **Closed**, **Open**
 | Active | Closed | When you resolve the case (or get a record to non-active state) and close the session. | Record |
 
 
-![Transition from active to closed, open, waiting, wrap-up, or in-progress state.](../../media/oc-conversation-active.png "Active state")
+![Transition from active to closed, open, waiting, wrap-up, or in-progress state.](/media/oc-conversation-active.png "Active state")
 
 ## Wrap-up
 
@@ -54,7 +54,7 @@ The conversation (work item) transitions from **Wrap-up** to **Closed** under th
 |---------------|------------------|---------------------------------------------------------|------------|
 | Wrap-up       | Closed           | When you select the **End** button in communication panel and close the session. | Channel <br><br> Chat|
 
-![Transition from wrap-up to closed state.](../../media/oc-conversation-wrap-up1.png "Wrap-up state")
+![Transition from wrap-up to closed state.](/media/oc-conversation-wrap-up1.png "Wrap-up state")
 
 ## Waiting
 > [!NOTE]
@@ -70,7 +70,7 @@ The conversation (work item) transitions from **Waiting** to **Closed**, **Activ
 | Waiting       | Active           | When you revive the session from your **My work items** stream on **Omnichannel Agent Dashboard**. | Channel |
 | Waiting       | Open             | When the customer revives the conversation within a specified timeout period while the session is still active in the browser. | Channel |
 
-![Transition from waiting to closed, active, or open state.](../../media/oc-conversation-waiting1.png "Waiting state")
+![Transition from waiting to closed, active, or open state.](/media/oc-conversation-waiting1.png "Waiting state")
 
 ## Closed
 
