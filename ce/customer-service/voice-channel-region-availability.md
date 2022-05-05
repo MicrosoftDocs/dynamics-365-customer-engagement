@@ -1,6 +1,6 @@
 ---
 title: "Supported cloud locations, languages, and locale codes | MicrosoftDocs"
-description: "Use this article to learn about the region availability and supported languages for the voice channel in Omnichannel for Customer Service."
+description: "Use this article to learn about the supported cloud locations, languages, and locale codes for the voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
