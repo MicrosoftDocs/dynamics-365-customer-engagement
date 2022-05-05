@@ -34,7 +34,7 @@ The Dynamics 365 Marketing April 2022 update is a milestone release. It offers t
 
 Generally available features include the ability to raise triggers from a journey to run another journey or Power Automate flow, reusable dynamic text for personalization, more out-of-the-box real-time marketing triggers, filter conditions for triggers, and improved email templates.
 
-The update also includes monthly enhancements to journeys, an image library for regions where the real-time marketing content management system (CMS) isn't available, domain authentication settings improvements, and improved contact card consent management.
+The update also includes monthly enhancements to journeys, domain authentication settings improvements, and improved contact card consent management.
 
 #### Version number
 
@@ -55,6 +55,7 @@ The update also includes monthly enhancements to journeys, an image library for 
 - **Create emails faster with precise drag-and-drop, in-context menu, and easy-select interactions**
     - The reimagined email editor is optimized for a productive workflow, allowing you to quickly create engaging and relevant content. With this release, the editor is further enhanced with precise drag-and-drop interactions, easy selection of elements, columns, or sections, and an in-context menu for faster content creation so you can create pixel-perfect emails in minutes.
     - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/create-emails-faster-precise-drag-and-drop-in-context-menu-easy-select-interactions)
+    - [Docs](create-marketing-email.md)
 
 - **Personalize interactions using a unified view of customer activity across Dynamics 365 Marketing, Sales, and Customer Service**
     - Sales and Customer Service agents use the Dynamics 365 unified timeline to view their customers’ past activities so they can personalize engagement. Now, these agents can also view real-time and outbound marketing activities in the Dynamics 365 unified timeline. The timeline allows filtering based on the specific type(s) of activity or interactions. It also allows previews of messages sent to customers. This enables, for instance, loan agents in a financial services firm to know what document request was made to a loan applicant in a previous email so that the agent can quickly find the right document.
@@ -110,9 +111,6 @@ The update also includes monthly enhancements to journeys, an image library for 
 
 - **Consent**
     - Contact cards now show a unified view of consent for real-time and outbound marketing, giving customers clarity on contact point vs contact-based consent and the results for the different journeys. The new view also allows you to update contact point consent, giving a single place to manage consent for a contact.
-
-- **Asset library**
-    - Real-time marketing now includes a basic image library in regions where the real-time marketing CMS is not yet available. The basic image library functions similarly to the [file library in outbound marketing](upload-images-files.md).
 
 ##### Outbound marketing
 
