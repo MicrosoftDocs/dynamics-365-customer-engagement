@@ -404,7 +404,7 @@ private async Task PollActivitiesFromBotAsync(string conversationId, Activity in
  }
  ```
 
-If the conversation is active for the activity received by the relay processor, it sends the activity to the message relay processor. For information about how to configure a custom messaging channel, see [Configure custom messaging channel](configure-custom-channel.md).
+If the conversation is active for the activity received by the relay processor, it sends the activity to the message relay processor.
 
 ## End a conversation
 
