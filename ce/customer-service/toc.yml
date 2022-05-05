@@ -410,6 +410,8 @@
         href: customer-service-hub-user-guide-email-font-admin.md
       - name: Configure the enhanced insert email template dialog
         href: /power-apps/user/customize-insert-email-template?context=/dynamics365/context/customer-service-context
+      - name: Enable the enhanced email template editor page
+        href: /power-apps/user/cs_email_template_builder?context=/dynamics365/context/customer-service-context
     - name: Agent experience
       items:
       - name: Use email
@@ -420,6 +422,8 @@
           href: /power-apps/user/email-template-create?context=/dynamics365/context/customer-service-context
         - name: Insert an email template
           href: /power-apps/user/insert-email-template?context=/dynamics365/context/customer-service-context
+        - name: Manage email templates using the enhanced email template
+          href: /power-apps/user/cs-template-options?context=/dynamics365/context/customer-service-context
         - name: Convert an email to a template
           href: /power-apps/user/email-template-convert?context=/dynamics365/context/customer-service-context
         - name: Create a signature for emails
