@@ -1,6 +1,6 @@
 ---
 title: "Configure Azure bots for voice | MicrosoftDocs"
-description: "Use this topic to learn how to configure Azure bots for voice channel in Omnichannel for Customer Service."
+description: "Use this article to learn how to configure Azure bots for voice channel in Omnichannel for Customer Service."
 ms.date: 05/06/2022
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -24,7 +24,7 @@ manager: shujoshi
 
 In Omnichannel for Customer Service, you can seamlessly integrate your Azure bot with all chat and voice channels. You can connect a speech resource to the bot using Azure Cognitive Services. You can also transfer chat and voice conversations from bots to human agents.
 
-This topic describes how you can configure Azure bots to enable voice services.
+This article describes how you can configure Azure bots to enable voice services.
 
 ## Prerequisites
 
@@ -36,7 +36,7 @@ This topic describes how you can configure Azure bots to enable voice services.
 
     1. [Create a Cognitive Services resource using the Azure portal](/azure/cognitive-services/cognitive-services-apis-create-account?tabs=multiservice%2Cwindows) to enable cognitive services such as text-to-speech or speech-to-text capabilities. Note the location/region and key values.
 
-    1. [Add the Cognitive Services speech resource you just created to the Telephony channel](/azure/bot-service/bot-service-channel-connect-telephony?view=azure-bot-service-4.0&preserve-view=true).
+    1. Add the Cognitive Services speech resource you just created to the [Telephony channel](/azure/bot-service/bot-service-channel-connect-telephony?view=azure-bot-service-4.0&preserve-view=true).
 
 ## Configure Azure bots for the voice channel
 
