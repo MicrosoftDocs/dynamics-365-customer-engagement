@@ -81,7 +81,7 @@ To use personalization:
 
 1. Position your cursor in the field or text element where you want to insert the dynamic text, and then select the  **Personalization**  button  ![The personalization button](media/button-personalization.png "The personalization button"). The personalization dialog opens.
 
-    ![Personalization, page 1.](media/assist-edit1.png "Personalization, page 1")
+    ![Personalization, page 1.](media/personalization1.png "Personalization, page 1")
 
 1. Do one of the following:
     - Select **Dynamic content** to place a value that can change based on the context where you use the message, and then choose one of the following from the drop-down list here:
