@@ -12,7 +12,7 @@
     href: teams-delete-data.md
   - name: Link Dynamics 365 records to Microsoft Teams channels
     href: link-d365-records.md
-  - name: Enable or disbale Teams chat in Dynamics 365
+  - name: Enable or disable Teams chat in Dynamics 365
     href: enable-teams-chat.md
   - name: Integrate Dynamics 365 and Microsoft Teams meetings
     href: teams-meeting-integration.md
