@@ -1,7 +1,7 @@
 ---
 title: "Configure Azure bots for voice | MicrosoftDocs"
 description: "Use this topic to learn how to configure Azure bots for voice channel in Omnichannel for Customer Service."
-ms.date: 04/13/2022
+ms.date: 05/06/2022
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: neeranelli
