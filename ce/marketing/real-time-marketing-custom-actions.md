@@ -1,7 +1,7 @@
 ---
-title: "Preview: Trigger an action outside of a journey (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Raise triggers from a journey to run another journey or Power Automate flow (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to trigger an action outside of a real-time marketing journey in Dynamics 365 Marketing."
-ms.date: 03/21/2022
+ms.date: 05/05/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -17,12 +17,7 @@ search.app:
   - D365Mktg
 ---
 
-# Preview: Trigger an action outside of a journey
-
-> [!IMPORTANT]
-> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
-> 
-> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
+# Raise triggers from a journey to run another journey or Power Automate flow
 
 Based on the unique needs of your business, you may want to trigger custom processes or Power Automate flows at certain points in a customer journey. Or, you might want to create multiple journeys that logically function together. Triggering custom actions allows you to accomplish these tasks, working as the glue between journeys, or between journeys and custom processes.
 

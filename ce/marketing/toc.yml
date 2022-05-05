@@ -6,18 +6,19 @@
     href: overview.md
   - name: What's new
     href: whats-new-marketing.md
+  - name: Free trial
+    items:
+    - name: Sign up for a free Marketing trial
+      href: trial-signup.md
+    - name: Marketing trial FAQ
+      href: trial-faq.md
   - name: Get started
-    href: get-started.md
-  - name: Connect rich customer data from multiple sources
-    href: ci-get-started.md
+    - name: Quickstart guide
+      href: get-started.md
+    - name: Integrate with Dynamics 365 Customer Insights
+      href: ci-get-started.md
   - name: Installation and environment management
     items: 
-    - name: Sign up for a Marketing trial
-      items:
-      - name: Sign up for a free Marketing trial
-        href: trial-signup.md
-      - name: Marketing trial FAQ
-        href: trial-faq.md
     - name: Install or uninstall
       items:
       - name: Purchase and set up Marketing
