@@ -1,8 +1,7 @@
 ---
 title: "Create a marketing email (Dynamics 365 Marketing) | Microsoft Docs"
 description: "A tutorial for how to create a marketing email in Dynamics 365 Marketing."
-ms.date: 12/14/2020
-
+ms.date: 05/04/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -36,76 +35,104 @@ Email is a vital marketing channel for most modern organizations. It's also a co
 To create a marketing email and go live:
 
 1. Go to **Marketing** > **Marketing Execution** > **Marketing Emails**. You will see a list of existing marketing emails. Select **New** on the command bar.
-
-    ![Location of the new-email button.](media/new-email-button-location4.png "Location of the new-email button")
+    > [!div class="mx-imgBorder"]
+    > ![Location of the new-email button.](media/new-email-button-location4.png "Location of the new-email button")
 
 1. The **New Marketing Email** page opens with the **Select an Email Template** dialog box shown. Each template provides a starting point for designing a particular type of message. The template dialog box provides tools for searching, browsing, and previewing your template collection.
 
-    ![Dialog for choosing an email template.](media/email-template-dialog2.png "Dialog box for choosing an email template")
+    > [!div class="mx-imgBorder"]
+    > ![Dialog for choosing an email template.](media/email-template-dialog.png "Dialog box for choosing an email template")
 
     For this exercise, select the **blank** template so that you can step through all the required content. Then choose **Select** to apply the template to your new message.
 
    > [!TIP]
    > Several standard templates are provided out of the box, and you can also create your own templates that feature your organization's graphical identity, required elements, and messaging standards. More information: [Create templates for emails, pages, forms, and journeys](create-templates.md)
 
-1. The **Select an Email Template** dialog box closes and the content (if any) from your selected template is copied to your design. Select the **More header fields** button at the side of the header to open a drop-down dialog and then enter a **Name** for your new message.
+1. The **Select an Email Template** dialog box closes and the content (if any) from your selected template is copied to your design. Select the **Header settings** button at the side of the header to open a drop-down dialog and then enter a **Name** for your new message.
 
-    ![Enter a name for your new email.](media/email-edit-header-fields3.png "Enter a name for your new email")
+    > [!div class="mx-imgBorder"]
+    > ![Enter a name for your new email.](media/email-edit-header-fields.png "Enter a name for your new email")
 
-1. Enter a **Subject** for your message. The subject is an important setting because it is one of the first things recipients will see when they receive the email. Recipients may use the subject to decide whether to open or read the message.
+1. Enter a **Subject** for your message. The subject is an important setting because it is one of the first things recipients will see when they receive the email. Recipients may use the subject to decide whether to open or read the message. You can also specify a preheader for your message, which is shown just below the email subject in most email clients.
 
-    ![Enter a subject for your new email.](media/email-edit-subject2.png "Enter a subject for your new email")
+    > [!div class="mx-imgBorder"]
+    > ![Enter a subject for your new email.](media/email-edit-subject.png "Enter a subject for your new email")
 
-1. In the main part of the page, you now see the design canvas (on the left side), where you can drag, arrange, and enter content. If you chose the blank template, then your design includes just a single one-column section (layout) element with nothing in it. A **Toolbox** on the right side of the page provides design elements that you'll use to construct your message. Drag a **Text** element from the **Toolbox** tab into the section element. When you have dragged the element to a suitable location, a blue shaded region appears. Release the mouse button to drop the element at that location.
+1. In the main part of the page, you now see the design canvas (on the left side), where you can drag, arrange, and enter content. If you chose the blank template, then your design includes just a single one-column section (layout) element with nothing in it. A **Toolbox** on the right side of the page provides design elements that you'll use to construct your message. Drag a **Text** element from the **Elements** tab in the toolbar into the section element. Release the mouse button to drop the element at that location.
 
-    ![Add a text element.](media/email-add-text-block.png "Add a text element")
+    > [!div class="mx-imgBorder"]
+    > ![Add a text element.](media/email-add-text-block.png "Add a text element")
 
-1. When you drop the text element, you'll see some placeholder text within the element and a floating toolbar just below or above it.  
+    > [!div class="mx-imgBorder"]
+    > ![Add a text element detail.](media/email-add-text-block-detail.png "Add a text element detail")
 
-   ![The floating text toolbar.](media/email-floating-text-toolbar.png "The floating text toolbar")
+    You can also add elements directly on the canvas without having to navigate between the toolbar and the canvas. To do this, select the **[+] Add element here** button on the canvas and use the in-place menu to add the needed element.
 
-   Select and remove the placeholder text, and then add your own. Use the toolbar buttons to style your text as you would in a text editor like Microsoft Word (point to any toolbar button to see what it does). Most of the buttons are for styling text and paragraphs, but there are also buttons for creating links; entering dynamic text (more on this later); and moving, copying, or deleting the entire text element.
+    > [!div class="mx-imgBorder"]
+    > ![Add an element using the in-place menu.](media/email-add-in-place-menu.png "Add an element using the in-place menu")
 
-   > [!TIP]
-   > The very first text that you enter on the page is especially important because most email clients show this as preview text for the messages in their inbox list. Here is how it looks in Microsoft Outlook:
-   > 
-   > ![How email content looks in the Outlook inbox list.](media/email-inbox-list-ill.png "How email content looks in the Outlook inbox list")
-   > 
-   > Messages that come from a familiar sender that have an enticing subject and relevant preview text are much more likely to get opened than messages that have just some, or none, of those things.
+1. When you add the text element onto the canvas, you'll see a rich-text editor toolbar just below the header fields.  
 
-1. An easy way to personalize the message is to include the name of the recipient in the greeting. Add the recipient's name as dynamic text by using the [assist edit](dynamic-email-content.md#assist-edit) feature as follows:
+    > [!div class="mx-imgBorder"]
+    > ![Rich-text editor toolbar.](media/email-rich-text-editor-toolbar.png "Rich-text editor  toolbar")
+
+   Use the rich-text editor toolbar buttons to style your text as you would in a text editor like Microsoft Word (point to any toolbar button to see what it does). Most of the buttons are for styling text and paragraphs, but there are also buttons for creating links; adding personalized content (more on this later); and moving, copying, or deleting the entire text element.
+
+    > [!TIP]
+    > Unless you specify email preheader content in the email settings, most email clients will show the very first text that you enter in the email as preheader text. Here is how it looks in Microsoft Outlook:
+    > 
+    > [!div class="mx-imgBorder"]
+    > ![How email content looks in the Outlook inbox list.](media/email-inbox-list-ill.png "How email content looks in the Outlook inbox list")
+    > 
+    > Messages that come from a familiar sender that have an enticing subject and relevant preview text are much more likely to get opened than messages that have just some, or none, of those things.
+
+1. An easy way to personalize the message is to include the name of the recipient in the greeting. Add the recipient's name as dynamic text by using the [personalization](dynamic-email-content.md#personalization) feature as follows:
 
     1. Working in the text element you just added, enter a suitable opening such as "Dear".
 
-    1. On the pop-up toolbar, select the **Assist edit** button ![The assist-edit button.](media/button-assist-edit.png "The assist-edit button"). This opens the assist-edit dialog.
+    1. On the rich-text editor toolbar, select the **Personalization** button ![The personalization button.](media/button-personalization.png "The personalization button"). This opens the content assist dialog.
 
-    1. Select the **Contextual** radio button, and then select **Contact** from the combo box here. The **Contextual** setting means that you will place a dynamic value related to the context where you use the message, while the **Contact** setting means that the context relates to the individual recipient (contact) of the message.
+    1. Select the **Dynamic content** radio button, and then select **Contact** from the drop down list. The **Dynamic content** setting means that you will place a dynamic value related to the context where you use the message, while the **Contact** setting means that the context relates to the individual recipient (contact) of the message.
 
-    1. Select **Next** to continue to the next page of the assit-edit tool.
+    1. Select **No relationship (Select a field from Contact)** from the second drop down list. Choose which field you want to place. We're building the salutation, so we'd like to show the recipient's first name here. Start to type "first" into the combo box here. This searches the available fields for those that include the text "first," which greatly reduces the number of fields you need to look through. Select **First Name** from the list as soon as you can see it.
 
-        ![Assist edit, page 2.](media/assist-edit-email-tutorial-p2.png "Assist edit, page 2")
+        > [!div class="mx-imgBorder"]
+        > ![Personalization select field from Contact.](media/personalization-email-tutorial-p1.png "Personalization select field from Contact")
 
-    1. On the previous page, you choose the contact entity (in context). On this page, you must choose which field from that entity you want to place. We're building the salutation, so we'd like to show the recipient's first name here. Select the **Property** radio button and then start to type "first" into the combo box here. This searches the available fields for those that include the text "first," which greatly reduces the number of fields you need to look through. Select **First Name** from the list as soon as you can see it.
-    
-        > [!NOTE]
-        > [Calculated and rollup fields](../customerengagement/on-premises/developer/calculated-rollup-attributes.md) cannot be used in Marketing emails.
-
-    1. Select OK to place the expression you've built and close the assist-edit tool. The full salutation now looks like this: **Dear {{contact.firstname}},**. (If you prefer, you can enter that code directly without using assist edit.)
+    1. Select **Insert** to place the expression you've built and close the personalization tool. The full salutation now looks like this: **Dear {{contact.firstname}},**. (If you prefer, you can enter that code directly without using content assist.)
 
    > [!TIP]
-   > You might have noticed that the **Subject** field also has an assist-edit button. This means that you can put dynamic text (including the recipient's name) in the subject too.
+   > You might have noticed that the **Subject** field also has a personalization button. This means that you can add personalized text (including the recipient's name) in the subject too.
 
-1. The body of all email messages must include both a subscription-center link and your organization's physical address. These are required by law in many jurisdictions, and Dynamics 365 Marketing won't let you publish any marketing email that doesn't have them. These values are provided by the [content settings entity](dynamic-email-content.md#content-settings), which enables you to store their values centrally and change them for each customer journey as needed. Therefore you'll place these as contextual dynamic values, just as you did with the recipient's name (though in this case, the relevant context is the journey rather than the recipient). Place them by using assist edit as follows:
+1. The body of all email messages must include both a subscription-center link and your organization's physical address. These are required by law in many jurisdictions, and Dynamics 365 Marketing won't let you publish any marketing email that doesn't have them. These values are provided by the [content settings entity](dynamic-email-content.md#content-settings), which enables you to store their values centrally and change them for each customer journey as needed. Therefore you'll place these as contextual dynamic values, just as you did with the recipient's name (though in this case, the relevant context is the journey rather than the recipient). Place them by using personalization as follows:
 
-   1. Choose a suitable location for your *physical address*, and then use assist edit to place it. Select **Contextual** and then **ContentSettings** on the first page of the assist-edit tool. Select **Next** and then pick **Property** and **msdyncrm_addressmain** on the second page. Select **OK** to place the expression `{{msdyncrm_contentsettings.msdyncrm_addressmain}}` into your message.
+   1. Choose a suitable location for your *physical address*, and then use personalization to place it. Select **Dynamic content** and then **ContentSettings** in the first combo box/drop down field of the content assist tool. Select **No relationship (Select a field from ContentSettings)** and then pick the **AddressMain** field. Select **Insert** to place the expression `{{msdyncrm_contentsettings.msdyncrm_addressmain}}` into your message.
 
-   2. Choose a suitable location for the *subscription-center link*, and then enter some anchor text there (such as "Manage your subscriptions"). Select the anchor text, and then select the **Link** button ![The Link button](media/email-link-button.png "The link button") from the floating toolbar, which opens the **Link** dialog box. Select the **Assist edit** button ![The assist-edit button](media/button-assist-edit.png "The assist-edit button") for the **Link** field. In the assist-edit dialog, select **Contextual** and then **ContentSettings** on the first page. Select **Next** and then pick **Property** and **msdyncrm_subscriptioncenter** on the second page. Select **OK** to place the expression `{{msdyncrm_contentsettings.msdyncrm_subscriptioncenter}}` into the **Link** field.
+   2. Choose a suitable location for the *subscription-center link*, and then enter some anchor text there (such as "Manage your subscriptions"). Select the anchor text, and then select the **Link** button ![The Link button](media/email-link-button.png "The link button") from the rich-text editor toolbar, which opens the **Link** dialog box. Select the **Content assist** button ![The personalization button](media/button-personalization.png "The personalization button") for the **Link** field. In the content assist dialog, select **Dynamic content** and then **ContentSettings** in the first field. Select **No relationship (Select a field from ContentSettings)** and then pick **SubscriptionCenter** in the third field. Select **Insert** to place the expression `{{msdyncrm_contentsettings.msdyncrm_subscriptioncenter}}` into the **Link** field.
 
-        ![The email Link dialog.](media/email-link-dialog.png "The email Link dialog box")  
+        > [!div class="mx-imgBorder"]
+        > ![The email content assist dialog box.](media/email-content-assist-subscription.png "The email content assist dialog box")
+
+        > [!div class="mx-imgBorder"]
+        > ![The email link dialog box.](media/email-link-dialog.png "The email link dialog box")
 
 1. You should usually include at least one visible image in your design because this will invite recipients to load images, which is required for Dynamics 365 Marketing to log the message-open event. Drag an **Image** element from the **Toolbox** onto the canvas. This time, when you drop the element, you'll see an image placeholder and the **Properties** tab, which shows configuration settings for the selected element.
 
-    ![Where to set the Source for an image.](media/email-image-source.png "Where to set the source for an image")
+    > [!div class="mx-imgBorder"]
+    > ![Where to set the source for an image.](media/email-image-source.png "Where to set the source for an image")
+
+    > [!TIP]
+    > You can easily navigate between the elements, columns, and sections either by using the navigation button available by the selected element on the canvas or using the breadcrumb menu in the element properties in the toolbar pane on the right side of the editor.
+    >
+    > 1. On canvas navigation between the elements:
+    > 
+    >    > [!div class="mx-imgBorder"]
+    >    > ![Screenshot of on canvas navigation.](media/email-image-source.png "Screenshot of on canvas navigation")
+    > 
+    > 1. Breadcrumb navigation in the element properties pane:
+    > 
+    >    > [!div class="mx-imgBorder"]
+    >    > ![Screenshot of breadcrumb navigation.](media/email-image-source.png "Screenshot of breadcrumb navigation")
 
 1. On the **Properties** tab, select the **Image gallery** button ![The browse button.](media/email-browse-button.png "The browse button") at the right side of the **Source** field. The **Select a file** dialog box opens.
 
@@ -151,6 +178,5 @@ To create a marketing email and go live:
 [Email marketing overview](prepare-marketing-emails.md)  
 [Work with email, page, and form templates](email-templates.md)  
 [Design elements reference](content-blocks-reference.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
