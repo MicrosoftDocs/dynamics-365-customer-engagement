@@ -9,7 +9,7 @@ ms.custom:
   - intro-internal
 ---
 
-# Introduction
+# Bot sessions and licensing
 
 A bot session is defined as a conversation in which a bot is invoked. The bot can be invoked at the beginning, during, or end of a conversation.
 
@@ -18,7 +18,6 @@ A bot session is defined as a conversation in which a bot is invoked. The bot ca
 
 > [!NOTE]
 > If smart assist is enabled, the bot conversations don't include smart assist conversations. More information: [View smart assist suggestions for agents configured using custom Azure bot](oc-smart-assist.md)
-## Bot sessions and licensing
 
 Each Chat and Digital Messaging license receives an entitlement of 50 chatbot sessions for use with Microsoft Bot Framework bots. These sessions are pooled at the tenant level and expire at the end of each month. For additional chatbot sessions, you must purchase the Chatbot Sessions Add-on. For more information on Chatbot licenses and pricing, see the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
 
