@@ -53,7 +53,7 @@ To create a marketing email and go live:
     > [!div class="mx-imgBorder"]
     > ![Enter a name for your new email.](media/email-edit-header-fields.png "Enter a name for your new email")
 
-1. Enter a **Subject** for your message. The subject is an important setting because it is one of the first things recipients will see when they receive the email. Recipients may use the subject to decide whether to open or read the message. You can also specify a preheader for your message, which is shown just below the email subject in most email clients.
+1. Enter a **Subject** for your message. The subject is an important setting because it's one of the first things recipients will see when they receive the email. Recipients may use the subject to decide whether to open or read the message. You can also specify a preheader for your message, which is shown just below the email subject in most email clients.
 
     > [!div class="mx-imgBorder"]
     > ![Enter a subject for your new email.](media/email-edit-subject.png "Enter a subject for your new email")
@@ -92,9 +92,9 @@ To create a marketing email and go live:
 
     1. On the rich-text editor toolbar, select the **Personalization** button ![The personalization button.](media/button-personalization.png "The personalization button"). This opens the content assist dialog.
 
-    1. Select the **Dynamic content** radio button, and then select **Contact** from the drop down list. The **Dynamic content** setting means that you will place a dynamic value related to the context where you use the message, while the **Contact** setting means that the context relates to the individual recipient (contact) of the message.
+    1. Select the **Dynamic content** radio button, and then select **Contact** from the drop-down list. The **Dynamic content** setting means that you'll place a dynamic value related to the context where you use the message, while the **Contact** setting means that the context relates to the individual recipient (contact) of the message.
 
-    1. Select **No relationship (Select a field from Contact)** from the second drop down list. Choose which field you want to place. We're building the salutation, so we'd like to show the recipient's first name here. Start to type "first" into the combo box here. This searches the available fields for those that include the text "first," which greatly reduces the number of fields you need to look through. Select **First Name** from the list as soon as you can see it.
+    1. Select **No relationship (Select a field from Contact)** from the second drop-down list. Choose which field you want to place. We're building the salutation, so we'd like to show the recipient's first name here. Start to type "first" into the combo box here. This searches the available fields for those that include the text "first," which greatly reduces the number of fields you need to look through. Select **First Name** from the list as soon as you can see it.
 
         > [!div class="mx-imgBorder"]
         > ![Personalization select field from Contact.](media/personalization-email-tutorial-p1.png "Personalization select field from Contact")
@@ -127,45 +127,47 @@ To create a marketing email and go live:
     > 1. On canvas navigation between the elements:
     > 
     >    > [!div class="mx-imgBorder"]
-    >    > ![Screenshot of on canvas navigation.](media/email-image-source.png "Screenshot of on canvas navigation")
+    >    > ![Screenshot of on canvas navigation.](media/email-on-canvas-navigation.png "Screenshot of on canvas navigation")
     > 
     > 1. Breadcrumb navigation in the element properties pane:
     > 
     >    > [!div class="mx-imgBorder"]
-    >    > ![Screenshot of breadcrumb navigation.](media/email-image-source.png "Screenshot of breadcrumb navigation")
+    >    > ![Screenshot of breadcrumb navigation.](media/email-breadcrumb-navigation.png "Screenshot of breadcrumb navigation")
 
-1. On the **Properties** tab, select the **Image gallery** button ![The browse button.](media/email-browse-button.png "The browse button") at the right side of the **Source** field. The **Select a file** dialog box opens.
+1. On the **Edit image** pane, select the **Choose an image** link and the **Browse library** option from the drop-down. The **Select a file** dialog box opens.
 
-    ![The image library browser.](media/image-library.png "The image library browser")  
+    > [!div class="mx-imgBorder"]
+    > ![The image library browser.](media/image-library.png "The image library browser")  
 
     Here you can see all the images that have already been uploaded to your Dynamics 365 Marketing server. Select an image, and then choose **Select** to place it in your message design. (If you don't see any images, choose **Upload** to add a new one.)
 
     > [!TIP]
     > When a message goes live, Dynamics 365 Marketing uploads all relevant images from your library to its content-delivery network, where they become available as a single source to all recipients. The images aren't attached to each message, but instead are included as links that are redirected through Dynamics 365 Marketing for tracking purposes. Recipients won't download any images until they open the message, which saves bandwidth both for you and them. When a recipient's email client requests the images, Dynamics 365 Marketing knows that the message has been opened, and by whom.
 
-1. Your message now includes all the minimal required and recommended content, so go to the **Preview** tab to see an approximation of how it will be rendered on various screen sizes and how its dynamic content will get resolved.
+1. Your message now includes all the minimal required and recommended content, so go to the **Preview and test** tab to see an approximation of how it will be rendered on various screen sizes and how its personalized content will get resolved.
 
     ![The email preview and preview settings.](media/email-preview-settings.png "The email preview and preview settings")  
 
-    Use the buttons in the leftmost column to choose a screen size and orientation to preview. Use the **Contact** and **Content Settings** fields in the **Properties** column to see how your dynamic content will resolve for various recipients and settings.
+    Use the buttons in the **Preview** pane to choose a screen size and orientation to preview. Use the **Preview as** and **Content settings** fields at the top of the preview tab to see how your personalized content will resolve for various recipients and settings.
 
-1. To make sure your message includes all required content and is ready to send, select **Check for Errors** in the command bar. Dynamics 365 Marketing checks your message, and then displays results in the notification bar at the top of the page. If more than one error is found, then select the expansion button to see all of them.
+1. To make sure your message includes all required content and is ready to send, select **Check content** in the command bar. Dynamics 365 Marketing checks your message, and then displays results in the notification bar at the top of the page. If more than one error is found, then select the expansion button to see all of them.
 
     ![The check-for-errors button and notifications.](media/email-validation-result.png "The Check for Errors button and notifications")
 
     If you followed this procedure, your message should pass the error check. If it doesn't, read the error message, fix the reported issue, and try again until it passes.
 
-1. Until now, your previews and error checks have been simulated. The final test is to deliver the message to yourself, open it in your email program, and inspect the results. On the command bar, select **Test Send**. A **Quick Create** form slides in from the side.
+1. Until now, your previews and error checks have been simulated. The final test is to deliver the message to yourself, open it in your email program, and inspect the results. On the command bar, select **Test send**. The **Test send** dialog box opens.
 
-    ![Email test-send settings.](media/email-test-send-flyout.png "Email Test Send settings")
+    > [!div class="mx-imgBorder"]
+    > ![Email test send dialog box.](media/email-test-send-dialog-box.png "Email test send dialog box")
 
-    Enter your own **Email Address** in the field provided, and select the **Test Contact** and **Test Content Settings** records to use when resolving dynamic content (these work the same as for the simulated preview). Select **Save** to send yourself the message. You should receive it in a few minutes.
+    Enter your own **Email Address** in the field provided and select the **Test contact** and **Test content settings** records to use when resolving personalized content (these work the same as for the simulated preview). Select **Test send** to send yourself the message. You should receive it in a few minutes.
 
 1. If your message still looks good after you receive it in your inbox and open it, you're ready to publish it by selecting **Go Live** on the command bar.
 
     ![Location of the Go Live button.](media/email-golive-button-location.png "Location of the Go Live button")
 
-    Dynamics 365 Marketing copies your design to the email marketing service, which makes the message available for use by a customer journey (but doesn't deliver any messages yet). The go-live process also activates any dynamic code and replaces links with trackable versions that are redirected through Dynamics 365 Marketing (which identifies the recipient and logs the click). Finally, your message **Status Reason** is updated to **Live**
+    Dynamics 365 Marketing copies your design to the email marketing service, which makes the message available for use by a customer journey (but doesn't deliver any messages yet). The go-live process also activates any dynamic code and replaces links with trackable versions that are redirected through Dynamics 365 Marketing (which identifies the recipient and logs the click). Finally, your message **Status reason** is updated to **Live**
 
     > [!TIP]
     > While the message is live, it's locked for editing in Dynamics 365 Marketing. If you need to edit a live message, you must first open it in Dynamics 365 Marketing, and then select **Deactivate** on the command bar.
