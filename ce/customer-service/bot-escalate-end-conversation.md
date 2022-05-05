@@ -272,11 +272,6 @@ Dictionary<string, Object> keyValues = new Dictionary<string, object>() {
 
 The bot can also send an escalation summary that'll be visible only to the agent after the escalated chat request is accepted. To send the summary, set the activity text appropriately in the escalation Activity message.
 
-
-## Privacy notice
-
-You understand that your data may be transmitted and shared with external systems and that your data may flow outside of your organization's compliance boundary (even if your organization is in a Government Cloud environment). For example, your messages will be shared with the bot which could be interacting with a third-party system based on the integration done by you. For more information on how we process your data, please refer to the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
-
 ### See also
 
 [Integrate an Azure bot](configure-bot.md)  
