@@ -14,15 +14,13 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Introduction
-
 In Omnichannel for Customer Service, you can integrate Azure bots seamlessly with chat and social channels, and also repurpose Azure bots to be smart assist bots and provide recommendations to agents. For more information, see [Manage smart assist](smart-assist.md) and [View smart assist suggestions](oc-smart-assist.md). This article discusses how you can integrate Azure bots, configure routing rules, and set escalation rules.
 
 For information about configuring your Azure bot to enable voice calling and SMS services, see [Configure Azure bots for voice](voice-channel-azure-bot-service.md).
 
 ## Prerequisites
 
-- Have a bot that's built using [Microsoft Bot Framework](https://dev.botframework.com) and registered with [Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0&preserve-view=true).  
+- Have a bot that's built using the [Microsoft Bot Framework](https://dev.botframework.com) and registered with [Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0&preserve-view=true).  
 
     To create an Azure bot resource, see [Create Azure bot resource](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0#create-the-resource&preserve-view=true) section in the Bot Framework SDK documentation. Be sure to note the values of the Microsoft App ID and the bot handle.
 - [Register your app on the Azure portal](/azure/active-directory/develop/quickstart-register-app#register-an-application). Make a note of the registered app name.
