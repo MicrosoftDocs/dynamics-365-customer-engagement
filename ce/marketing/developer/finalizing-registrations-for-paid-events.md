@@ -1,8 +1,7 @@
 ---
 title: "Finalizing registrations for paid events (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Provides information about how to finalize registrations for paid events."
-ms.date: 07/12/2019
-
+ms.date: 05/06/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -55,6 +54,7 @@ Follow these steps to register your application:
     ![Supported account types.](../media/supported-account-types.png "Supported account types")
 
 1. Select **Register**. 
+
 1. After the application is registered, you should be redirected to the **Overview** page. Look for the **application ID** and **tenant ID** values and save them. 
 
 1. Navigate to **Certificates & secrets** and select **New client secret**. Make note of the client secret value.  
@@ -358,6 +358,5 @@ namespace TriggerFinalizeRegistration
 [Power Apps portal hosted](portal-hosted.md)<br/>
 [Customer Event Portal Localization](event-portal-localization.md)<br />
 [Host your custom event website on Azure](host-custom-event-website-on-azure.md)
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
