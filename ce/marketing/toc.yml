@@ -188,6 +188,8 @@
         href: form-double-opt-in.md
       - name: How the app uses cookies
         href: cookies.md
+      - name: Anonymized customer data human review notice
+        href: anonymized-data-review.md
     - name: Terms and fair use
       items:
       - name: Service limits and fair use policy
