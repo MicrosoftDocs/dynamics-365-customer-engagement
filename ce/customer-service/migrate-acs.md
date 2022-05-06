@@ -1,7 +1,7 @@
 ---
 title: "Migration changes for new omnichannel messaging platform | MicrosoftDocs"
 description: "Use this article to understand the changes you'll need to make to your omnichannel implementations to successfully migrate to the new omnichannel messaging platform."
-ms.date: 04/29/2022
+ms.date: 05/06/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -10,7 +10,7 @@ manager: shujoshi
 
 # Migration changes for new omnichannel messaging platform
 
-We'll be rolling out a new messaging platform in phases over the next few months. As part of this migration, we're releasing a new bot service channel to extend the existing bot integration capabilities of the messaging channels.
+We have started rolling out a new messaging platform in May 2022. As part of this migration, we've released a new bot service channel and chat SDK version to extend our messaging capabilities.
 
 To successfully migrate to the new messaging platform, you must make the following changes to your omnichannel implementations:
 
