@@ -10,7 +10,7 @@ manager: shujoshi
 
 # Migration changes for new omnichannel messaging platform
 
-We're rolling out a new messaging platform in May 2022. As part of this migration, we've released a new bot service channel and chat SDK version to extend our messaging capabilities.
+We have started rolling out a new messaging platform in May 2022. As part of this migration, we've released a new bot service channel and chat SDK version to extend our messaging capabilities.
 
 To successfully migrate to the new messaging platform, you must make the following changes to your omnichannel implementations:
 
