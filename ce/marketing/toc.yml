@@ -13,6 +13,7 @@
     - name: Marketing trial FAQ
       href: trial-faq.md
   - name: Get started
+    items:
     - name: Quickstart guide
       href: get-started.md
     - name: Integrate with Dynamics 365 Customer Insights
