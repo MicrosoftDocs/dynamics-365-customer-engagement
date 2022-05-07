@@ -25,7 +25,7 @@ Perform the following steps to migrate third-party channel configuration data fr
 
 3. [Assign user to this profile](/dynamics365/app-profile-manager/app-profile-manager#assign-users-to-the-profile).
 
-4. In the channel provider code, make sure that the communication panel is set to the docked state using the [setMode(1)](/channel-integration-framework/v2/reference/microsoft-ciframework/setmode) API.
+4. In the channel provider code, make sure that the communication panel is set to the docked state using the [setMode(1)](/dynamics365/customer-service/channel-integration-framework/reference/microsoft-ciframework/setmode) API.
 
 5. Open Customer Service workspace and check if the communication panel is visible.
 
