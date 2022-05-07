@@ -236,7 +236,7 @@ To execute this search against your organization, you need to download the [samp
 
 ![Modify the hard-coded input parameters to reflect record GUIDs.](media/ur-scheduling-5.PNG)
 
-[Sample Search Requirement Group](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/sushant-service-scheduling/customer-service/master/search-resource-availability-create-bookings)
+[Sample Search Requirement Group](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/service-scheduling/search-resource-availability-create-bookings)
 
 2. Add the files in the sample folder as web resources in your organization 
 
