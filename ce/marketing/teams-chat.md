@@ -2,7 +2,6 @@
 title: "Preview: Collaborate using built-in Microsoft Teams chat (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to collaborate across your organization using built-in Microsoft Teams chat in Dynamics 365 Marketing."
 ms.date: 02/07/2022
-
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

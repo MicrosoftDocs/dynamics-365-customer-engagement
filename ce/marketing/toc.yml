@@ -404,7 +404,7 @@
       items: 
       - name: Upload and use images and files
         href: upload-images-files.md
-      - name: Create reusable content blocks
+      - name: "Preview: Create reusable content blocks"
         href: content-blocks.md
       - name: Create a video library and add videos to your designs
         href: video-content.md
