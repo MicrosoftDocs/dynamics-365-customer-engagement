@@ -69,7 +69,8 @@ The update also includes monthly enhancements to journeys, domain authentication
 
 - **Quickly create emails with enhanced reusable content fragments**
     - Content blocks are reusable pieces of content that let you easily assemble rich and consistent emails. New and enhanced content blocks are now available in outbound and real-time marketing. The enhanced content blocks can include all standard elements such as text, images, and buttons, as well as custom layouts and personalization.
-    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/quickly-create-emails-enhanced-reusable-content-fragments).
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/quickly-create-emails-enhanced-reusable-content-fragments)
+    - [Docs](content-blocks.md)
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of new content fragments.](media/whats-new-content-fragments-themes.png "Screenshot of new content fragments")
