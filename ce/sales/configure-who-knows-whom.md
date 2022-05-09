@@ -32,7 +32,7 @@ The Who knows whom feature helps sellers to quickly identify colleagues who can 
 ## Turn on the who knows whom feature
 
 > [!IMPORTANT]
-> Currently, users can't be opted out of this feature. This limitation means that users can't stop their names from appearing in contact suggestions. If the ability to opt out is important for your organization, don't turn on the Who Knows Whom feature.
+> Currently, users can't be opted out of this feature. This limitation means that users can't prevent their names from appearing in contact suggestions. If the ability to opt out is important for your organization, don't turn on the Who Knows Whom feature.
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**. 
      
