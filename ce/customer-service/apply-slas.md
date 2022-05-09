@@ -1,6 +1,6 @@
 ---
 title: "Apply SLAs | MicrosoftDocs"
-description: "Learn how to define service-level agreements in Dynamics 365 Customer Service."
+description: "Learn how to apply service-level agreements in Dynamics 365 Customer Service."
 ms.date: 05/09/2022
 ms.topic: article
 author: Soumyasd27
