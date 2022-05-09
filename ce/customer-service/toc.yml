@@ -370,6 +370,8 @@
         href: define-service-level-agreements.md
       - name: Enable entities for service level agreements
         href: enable-entities-service-level-agreements.md
+      - name: Apply SLAs
+        href: apply-slas.md
       - name: Calculate SLA KPIs
         items:
         - name: Recalculate SLAs in terminal status
