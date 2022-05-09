@@ -68,7 +68,7 @@ Review the following requirements before configuring SLAs for your organization:
    To configure a timer, add the timer control to an entity form. The timer control initially displays a countdown timer to show the time remaining to complete the task. To learn more, see [Add a timer control to the Case form to track time against an SLA](add-timer-control-case-form-track-time-against-sla.md).
 
 > [!NOTE]
-> In Unified Interface, the Elapsed Time and Paused On attributes of an SLA KPI instance contain values equivalent to the Onhold Time and Last Onhold Time attributes respectively, of the target record, such as the case and account, in the web client.
+> In Unified Interface, the Elapsed Time and Paused On attributes of an SLA KPI instance contain values equivalent to the Onhold Time and Last Onhold Time attributes respectively, of the target record, for example, case and account in the web client.
 
 ## Create SLA KPIs <a name="create-sla-kpis"></a>
 
