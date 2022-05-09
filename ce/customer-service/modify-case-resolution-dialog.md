@@ -102,7 +102,11 @@ To do so, you'll need to update the Case entity to add a new **Resolved** status
 
 6. In the **Label** field, enter **Duplicate** and note down the value listed in the **Value** field.  
 
-7. Select **OK** and then select **Save and Close**. You've successfully added a custom status type and status value to the case entity.  
+7. Select **OK**.
+
+1. To update pre configured status reason transitions, select **Edit Status Reason Transitions** and configure the new status reason and then select **OK**. For more information, see: [Define status reason transitions](/power-apps/maker/data-platform/define-status-reason-transitions).
+
+1.  Select **Save and Close**. You've successfully added a custom status type and status value to the case entity.  
 
 After you've added the **Duplicate** custom status value to the status code field of the case entity, add the same status value to the resolution type field of the case resolution entity, as described in the following section.
 
