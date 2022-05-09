@@ -104,10 +104,8 @@ To do so, you'll need to update the Case entity to add a new **Resolved** status
 
 8. Select **OK**.
 
-9. If you have pre configured status reason transitions available, select **Edit Status Reason Transitions** to setup new status reasons.
+9. If you have pre configured status reason transitions available, select **Edit Status Reason Transitions** to setup new status reasons, then select **Ok**.
 For more information, see: [Define status reason transitions](/power-apps/maker/data-platform/define-status-reason-transitions).
-
-3. Select **OK**.
 
 1.  Select **Save and Close**. You've successfully added a custom status type and status value to the case entity.  
 
