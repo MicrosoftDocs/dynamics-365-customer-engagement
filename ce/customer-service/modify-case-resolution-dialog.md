@@ -104,9 +104,9 @@ To do so, you'll need to update the Case entity to add a new **Resolved** status
 
 8. Select **OK**.
 
-1. To update pre configured status reason transitions, select **Edit Status Reason Transitions**.  
+1. You can also update pre configured status reason transitions. Select **Edit Status Reason Transitions**.  
 
-2. Configure the new status reason. For more information, see: [Define status reason transitions](/power-apps/maker/data-platform/define-status-reason-transitions).
+2. On **Status Reasn Transitions**, configure the new status reason. For more information, see: [Define status reason transitions](/power-apps/maker/data-platform/define-status-reason-transitions).
 
 3. Select **OK**.
 
