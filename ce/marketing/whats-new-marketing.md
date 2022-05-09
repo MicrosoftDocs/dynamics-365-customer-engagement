@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 05/03/2022
+ms.date: 05/05/2022
 ms.custom:
   - dyn365-marketing
 ms.topic: article
@@ -18,6 +18,8 @@ search.app:
 ---
 
 # What's new in Dynamics 365 Marketing
+
+[!INCLUDE[marketing-trial-cta](../shared/trials/marketing-trial-cta.md)]
 
 We're excited to announce our newest updates! This article summarizes early access features, preview features, general availability enhancements, monthly updates, and bug fixes. To see the long-term feature plans, take a look at the [Dynamics 365 and Power Platform release plans](/dynamics365/release-plans/).
 
@@ -67,7 +69,8 @@ The update also includes monthly enhancements to journeys, domain authentication
 
 - **Quickly create emails with enhanced reusable content fragments**
     - Content blocks are reusable pieces of content that let you easily assemble rich and consistent emails. New and enhanced content blocks are now available in outbound and real-time marketing. The enhanced content blocks can include all standard elements such as text, images, and buttons, as well as custom layouts and personalization.
-    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/quickly-create-emails-enhanced-reusable-content-fragments).
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/quickly-create-emails-enhanced-reusable-content-fragments)
+    - [Docs](content-blocks.md)
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of new content fragments.](media/whats-new-content-fragments-themes.png "Screenshot of new content fragments")

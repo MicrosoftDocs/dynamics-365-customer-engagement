@@ -410,6 +410,8 @@
         href: customer-service-hub-user-guide-email-font-admin.md
       - name: Configure the enhanced insert email template dialog
         href: /power-apps/user/customize-insert-email-template?context=/dynamics365/context/customer-service-context
+      - name: Enable the enhanced email template editor page
+        href: /power-apps/user/cs-email-template-builder?context=/dynamics365/context/customer-service-context
     - name: Agent experience
       items:
       - name: Use email
@@ -420,6 +422,8 @@
           href: /power-apps/user/email-template-create?context=/dynamics365/context/customer-service-context
         - name: Insert an email template
           href: /power-apps/user/insert-email-template?context=/dynamics365/context/customer-service-context
+        - name: Customize an email templates using the template editor
+          href: /power-apps/user/cs-template-options?context=/dynamics365/context/customer-service-context
         - name: Convert an email to a template
           href: /power-apps/user/email-template-convert?context=/dynamics365/context/customer-service-context
         - name: Create a signature for emails
@@ -676,7 +680,7 @@
         href: download-transcripts-bulk.md
       - name: Add a web resource for real-time translation
         href: add-web-resource-real-time-translation.md
-      - name: Enable third-party co-browse
+      - name: Enable third-party co-browse and screen sharing
         href: third-party-co-browse.md
       - name: Live chat widget telemetry
         href: live-chat-telemetry.md
@@ -736,14 +740,10 @@
           href: configure-whatsapp-channel.md
         - name: Configure a WeChat channel
           href: configure-wechat-channel.md
-      - name: Set up Microsoft Teams
-        items: 
-        - name: Configure a Microsoft Teams channel
-          href: configure-microsoft-teams.md
-      - name: Set up a custom messaging channel
-        items: 
-        - name: Configure a custom messaging channel
-          href: configure-custom-channel.md
+      - name: Configure a Microsoft Teams channel
+        href: configure-microsoft-teams.md
+      - name: Configure a custom messaging channel
+        href: configure-custom-channel.md
     - name: Agent experience
       items: 
       - name: Use SMS channel
@@ -758,9 +758,9 @@
         href: wechat-channel.md
     - name: Developer experience
       items: 
-      - name: Bring your own custom messaging channel
+      - name: Integrate a custom messaging channel
         items: 
-        - name: "Bring your own custom messaging channel: Direct Line"
+        - name: "Integrate your own custom channel: Direct Line"
           href: bring-your-own-channel.md
         - name: Test the custom messaging channel
           href: test-custom-channel-sample-html.md
