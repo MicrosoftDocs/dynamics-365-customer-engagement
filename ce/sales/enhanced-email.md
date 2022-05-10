@@ -61,7 +61,7 @@ For more information about the email functionality, see [Understand the email ex
 ### See also
 
 [Set up enhanced email](set-up-enhanced-email.md)<br>
-[Troubleshooting issues with email](ts-email.md)
+[Troubleshooting issues with email](/troubleshoot/dynamics-365/sales/troubleshoot-emails-issues)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
