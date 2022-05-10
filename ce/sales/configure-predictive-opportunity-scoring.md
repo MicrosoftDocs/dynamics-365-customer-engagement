@@ -1,18 +1,12 @@
 ---
 title: "Configure predictive opportunity scoring"
 description: "Configure predictive opportunity scoring to help sellers prioritize opportunities based on scores and achieve higher opportunity qualification rates."
-ms.date: 03/30/2022
+ms.date: 04/25/2022
 ms.custom: 
 ms.topic: article
-ms.assetid: a1d02708-0e40-4967-ae1a-40e9c67186c8
-author: udaykirang
-ms.author: udag
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 1
-topic-status: Drafting
 ---
 # Configure predictive opportunity scoring 
 
@@ -248,7 +242,7 @@ It's time to retrain a model when its prediction accuracy score doesn't meet you
 >[!NOTE]
 >For better prediction accuracy scoring, retrain a model after the data in your organization is refreshed.
 
-You can retrain the model [automatically](#automatic-retraining) or [manually](#manually-retraining). Both methods are described in the following sections.
+You can retrain the model [automatically](#automatic-retraining) or [manually](#manual-retraining). Both methods are described in the following sections.
 
 ### Automatic retraining
 
@@ -262,14 +256,13 @@ To retrain a model automatically, go to the predictive opportunity scoring confi
     >[!NOTE]
     >A retrained model might not be published if the accuracy of the model isn't maintained at the application's standard. If this occurs, the existing user-published model will be retained.
 
-### Manually retraining
+### Manual retraining
 
 1. Go to the predictive opportunity scoring configuration page, and select **Edit model**.
 
 2. On the **Edit fields** page, select attributes from opportunity entity, and its related entity (account) including custom attributes to train the model.
 
-    > [!div class="mx-imgBorder"]
-    > ![Edit model page](media/si-admin-predictive-opportunity-scoring-edit-model-page.png "Edit model page")   
+    :::image type="content" source="media/si-admin-predictive-opportunity-scoring-edit-model-page.png" alt-text="A screenshot of the Edit model page.":::  
 
     >[!NOTE]
     >The scoring model don't support the following types of attributes:
@@ -278,7 +271,15 @@ To retrain a model automatically, go to the predictive opportunity scoring confi
     >- System generated attributes (such as, opportunityscore, opportunitygrade, version number, entity image, exchange rate, and predictive score ID)
 
 
-3. Select **Retrain model**.
+3. (Optional) Scroll to the right of the attributes list and turn on **Ignore empty values**.  
+    By default, empty values in the attribute are included for training the model. If you notice that empty values are acting as detractors or are producing false positives, turn on **Ignore empty values**.  
+    :::image type="content" source="media/ignore-empty-values.png" alt-text="A screenshot of ignore empty values option in the attributes list.":::
+
+    > [!NOTE]
+    > When you turn on **Ignore empty values** for an attribute, the scoring widget will indicate that the score is calculated after excluding blank values in the attribute, as shown in the following screenshot:
+    :::image type="content" source="media/ignore-empty-values-scoring-widget-opp.png" alt-text="A screenshot of scoring widget when the Ignore empty values option is turned on."::: 
+
+1. Select **Retrain model**.
 
     The model starts to be generated with the selected custom attributes, and a notification is displayed on the screen.
 

@@ -1,6 +1,16 @@
 {
   "redirections": [
     {
+      "source_path": "ce/marketing/real-time-marketing-event-based-journey.md",
+      "redirect_url": "real-time-marketing-trigger-based-journey",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/marketing/real-time-marketing-predefined-tokens.md",
+      "redirect_url": "real-time-marketing-predefined-dynamic-text",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customer-service/set-up-multilanguage-pva-bot.md",
       "redirect_url": "set-up-multilingual-pva-bot",
       "redirect_document_id": "false"
@@ -23632,6 +23642,11 @@
     {
       "source_path": "ce/sales/sales-mobile/use-dictation.md",
       "redirect_url": "/dynamics365/sales/sales-mobile/dynamics-365-sales-mobile-app",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/download-attachments-pva-bot.md",
+      "redirect_url": "/dynamics365/customer-service/configure-bot-virtual-agent",
       "redirect_document_id": false
     }
   ]

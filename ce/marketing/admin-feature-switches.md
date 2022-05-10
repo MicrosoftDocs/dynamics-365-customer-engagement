@@ -34,7 +34,7 @@ The following table lists each available feature together with its preview statu
 | Updated customer journey designer | Production | [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)|
 | Simplified journey creation experience (real-time marketing) | Production | Enable simplified journey creation that requires only minimum entry criteria |
 | Customer Voice Marketing integration | Production | [Add surveys to your marketing campaigns](customer-voice.md) |
-| Pre-defined list of tokens | Preview | [Personalize content using pre-defined tokens](real-time-marketing-predefined-tokens.md) |
+| Pre-defined dynamic text | Preview | [Personalize content using pre-defined dynamic text](real-time-marketing-predefined-dynamic-text.md) |
 | Content ideas | Preview | [Use AI to kickstart email creation with Content ideas](content-ideas.md) |
 
 > [!IMPORTANT]

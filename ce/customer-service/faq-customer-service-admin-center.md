@@ -26,10 +26,6 @@ Similar to other apps, you can use the App designer to  customize the site map e
 
 After Customer service admin center becomes generally available, we will leave some time for customers to get familiar with it and provide feedback. This new app will coexist with the existing admin experience. We'll then announce the deprecation of the existing admin experience in Customer Service Hub, Omnichannel admin center, and app profile manager. We recommend that you start using this app for the seamless benefits it offers.
 
-### Why can't I see this app in my environment?
-
-The app will be enabled automatically in all the Customer Service organizations, but it follows an availability schedule, so some regions will get it before the others. For the North America region, the app is available from March 04, 2022.
-
 ### See also
 
 [Get started with Customer Service admin center](cs-admin-center.md)  
