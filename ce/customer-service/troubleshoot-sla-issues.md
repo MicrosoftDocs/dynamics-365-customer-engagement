@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot SLA issues in Customer Service | Microsoft Docs
 description: Know about the SLA issues and how to troubleshoot them.
-ms.date: 04/05/2021
+ms.date: 05/10/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -103,6 +103,29 @@ When the "Applicable when" attribute is updated, the SLA is reevaluated that res
 ### Resolution
 
 This is expected behavior for SLAs in the web client. We recommend that you define the "Applicable when" condition on only those attributes whose values don't change frequently.
+
+## SLA KPI Instance doesn't reach Nearing Non-compliance or Non-compliant state. And the SLA KPI Instance timer continues to run
+
+The flow runs created for SLA KPI Instances timer fails with a license error message.
+
+### Reason
+
+The **SLAWarningAndExpiryMonitoringFlow** is required to move the **SLA KPI Instances** to nearing non-compliance or non-complaint state. This flow always works in the context of the user who activated the first SLA in the organization. It must be ensured that user activating the first SLA on the organization should have all the required licenses for flow execution.
+
+If the user is missing any of the required licenses then the flow runs created for the corresponding SLA KPI Instance will fail with a license required error: "The user with SystermUserId = XXXX in OrganizationContext = YYYY is not licensed". Thus, the SLA KPI Instance will never reach nearing non-compliance or non-compliant state. And the SLA KPI Instance timer will keep on running.
+
+Additionally, the current owner must have the required permissions with read and write access for SLAKPIInstance.
+
+If the current owner needs to be removed from the organization, it is recommended to first change the owner of the flow to another user. This new user must have all the required licenses as explained before. After, the new owner is added, the old owner can be removed. This ensures that the flow runs continue to be executed without an issue.
+
+### Resolution
+
+To change the owner of any flow, perform the following steps:
+
+1. In https://powerautomate.microsoft.com, go to **My flows > Cloud flows**.
+1. Search for the failed flow with the error.
+1. Click **Edit**. A new flyout menu appears where a new owner can be set.
+1. In the owner field, remove the current owner and add the new owner. Ensure that the new owner has all required flow licenses.
 
 ### See also
 
