@@ -1115,33 +1115,33 @@
     - name: Dynamics 365 Sales Troubleshooting guide
       href: troubleshooting.md
     - name: Troubleshooting leads
-      href: ts-leads.md
+      href: /troubleshoot/dynamics-365/sales/troubleshoot-lead-form-auto-generated-contact-company-fields?context=/dynamics365/context/sales-context
     - name: Troubleshooting opportunities
-      href: ts-opportunities.md
+      href: /troubleshoot/dynamics-365/sales/troubleshoot-opportunities-issues?context=/dynamics365/context/sales-context
     - name: Troubleshooting orders
-      href: ts-orders.md
+      href: /troubleshoot/dynamics-365/sales/troubleshoot-orders-issues?context=/dynamics365/context/sales-context
     - name: Troubleshooting products
-      href: ts-products.md
+      href: /troubleshoot/dynamics-365/sales/troubleshoot-products-issues?context=/dynamics365/context/sales-context
     - name: Troubleshooting common entities
-      href: ts-oqoi.md
+      href: /troubleshoot/dynamics-365/sales/troubleshoot-multiple-tables-issues?context=/dynamics365/context/sales-context
     - name: Troubleshooting currency and price list
-      href: ts-currency-pricelist.md
+      href: /troubleshoot/dynamics-365/sales/troubleshoot-currency-and-price-lists-issues?context=/dynamics365/context/sales-context
     - name: Troubleshooting views
-      href: ts-views.md
+      href: /troubleshoot/dynamics-365/sales/troubleshoot-table-views-issues?context=/dynamics365/context/sales-context
     - name: Troubleshooting forecasts
-      href: ts-forecasts.md
+      href: /troubleshoot/dynamics-365/sales/troubleshoot-forecast-issues?context=/dynamics365/context/sales-context
     - name: Troubleshooting in-app marketing
-      href: ts-inapp-marketing.md
+      href: /troubleshoot/dynamics-365/sales/troubleshoot-in-app-marketing-issues?context=/dynamics365/context/sales-context
     - name: Troubleshooting Unified Interface
-      href: ts-unified-interface.md
+      href: /troubleshoot/dynamics-365/sales/troubleshoot-unified-interface-issues?context=/dynamics365/context/sales-context
     - name: Troubleshooting the sales pipeline chart
-      href: ts-sales-pipeline.md
+      href: /troubleshoot/dynamics-365/sales/troubleshoot-sales-pipeline-issues?context=/dynamics365/context/sales-context
     - name: Troubleshooting email
-      href: ts-email.md
+      href: /troubleshoot/dynamics-365/sales/troubleshoot-emails-issues?context=/dynamics365/context/sales-context
     - name: Troubleshooting Sales Premium
-      href: troubleshooting-sp.md
+      href: /troubleshoot/dynamics-365/sales/troubleshoot-sales-premium-issues?context=/dynamics365/context/sales-context
     - name: Troubleshooting Sales Professional
-      href: troubleshooting-spro.md
+      href: /troubleshoot/dynamics-365/sales/troubleshoot-sales-professional-issues?context=/dynamics365/context/sales-context
     - name: Sales FAQs
       href: faqs-sales.md
     - name: Sales premium FAQs
