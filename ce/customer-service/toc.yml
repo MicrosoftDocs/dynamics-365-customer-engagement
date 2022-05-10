@@ -870,8 +870,6 @@
         href: user-details-teams-azure-bot.md
       - name: Display suggested actions in a vertical layout
         href: suggested-actions.md
-      - name: Download attachments from Power Virtual Agents bot
-        href: download-attachments-PVA-bot.md
   - name: Insights
     items: 
     - name: Introduction to Customer Service Insights
