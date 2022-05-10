@@ -47,7 +47,7 @@ Perform the following steps to configure SLAs in Customer Service Hub:
 1. [Review prerequisites](#prerequisites).
 2. [Create SLA KPIs](#create-sla-kpis).
 3. [Create SLAs](#create-slas).
-4. Learn [how the SLA is applied](#how-is-the-sla-applied).
+4. [Apply SLAs](apply-slas.md#apply-slas)
 
 ## Prerequisites
 
