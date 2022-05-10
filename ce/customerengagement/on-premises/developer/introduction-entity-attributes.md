@@ -1,5 +1,5 @@
 ---
-title: "Introduction to entity attributes (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
+title: "Entity attributes for Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn about entity attributes that include a set of attributes that represent the data, valid operations on attributes, categorization data attributes, and types of attributes."
 ms.custom: 
 ms.date: 10/31/2017
@@ -19,7 +19,7 @@ search.audienceType:
   - developer
 
 ---
-# Introduction to entity attributes
+# Introduction to entity attributes in Dynamics 365 Customer Engagement
 
 Entities include a set of attributes that represent the data that can be included within each record. Developers need to understand the different types of attributes and how to work with them. The metadata for attributes describes the valid operations and behaviors of different types of attributes. Several types of attributes can be grouped by common behaviors.  
 

@@ -12,7 +12,7 @@ search.audienceType:
   - developer
 
 ---
-# SystemUser Entity Reference
+# SystemUser Entity Reference for Dynamics 365 Customer Engagement
 
 Person with access to the Microsoft CRM system and who owns objects in the Microsoft CRM database.
 
