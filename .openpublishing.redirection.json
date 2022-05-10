@@ -23713,6 +23713,11 @@
       "source_path": "ce/sales/troubleshooting-spro.md",
       "redirect_url": "https://docs.microsoft.com/troubleshoot/dynamics-365/sales/troubleshoot-sales-professional-issues",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/download-attachments-pva-bot.md",
+      "redirect_url": "/dynamics365/customer-service/configure-bot-virtual-agent",
+      "redirect_document_id": false
     }
   ]
 }
