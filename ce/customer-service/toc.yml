@@ -410,6 +410,8 @@
         href: customer-service-hub-user-guide-email-font-admin.md
       - name: Configure the enhanced insert email template dialog
         href: /power-apps/user/customize-insert-email-template?context=/dynamics365/context/customer-service-context
+      - name: Enable the enhanced email template editor page
+        href: /power-apps/user/cs-email-template-builder?context=/dynamics365/context/customer-service-context
     - name: Agent experience
       items:
       - name: Use email
@@ -420,6 +422,8 @@
           href: /power-apps/user/email-template-create?context=/dynamics365/context/customer-service-context
         - name: Insert an email template
           href: /power-apps/user/insert-email-template?context=/dynamics365/context/customer-service-context
+        - name: Customize an email templates using the template editor
+          href: /power-apps/user/cs-template-options?context=/dynamics365/context/customer-service-context
         - name: Convert an email to a template
           href: /power-apps/user/email-template-convert?context=/dynamics365/context/customer-service-context
         - name: Create a signature for emails
@@ -435,7 +439,9 @@
     - name: FAQs about Activities and the Timeline Wall
       href: /powerapps/user/faq-for-timeline-and-activity
   - name: Knowledge management
-    items: 
+    items:
+    - name: Overview of knowledge management 
+      href: overview-knowledge-management.md
     - name: Administrator experience
       items:
       - name: Configure knowledge management 
@@ -476,11 +482,9 @@
         href: search-operators.md
     - name: Customization experience
       items: 
-      - name: Knowledge base search
-        href: knowledge-base-search-methods.md
       - name: Add the knowledge base search control to forms
         href: add-knowledge-base-search-control-forms.md
-      - name: Configure faceted search results web template from your portal (preview) 
+      - name: Configure faceted search results web template from your portal 
         href: configure-faceted-search-results.md
     - name: Developer experience
       items:
@@ -488,6 +492,12 @@
         href: create-knowledge-article-using-template.md
       - name: Extend transformer logic on templates
         href: extend-transformer-logic-template.md
+    - name: Self-service experience
+      items:
+      - name: Search the knowledge base on portals
+        href: knowledge-base-search-methods.md
+  - name: Microsoft Teams chat for enterprise collaboration
+  - name: Microsoft Teams collaboration
   - name: Microsoft Teams for collaboration
     items:
     - name: Introduction to collaboration
@@ -670,7 +680,7 @@
         href: download-transcripts-bulk.md
       - name: Add a web resource for real-time translation
         href: add-web-resource-real-time-translation.md
-      - name: Enable third-party co-browse
+      - name: Enable third-party co-browse and screen sharing
         href: third-party-co-browse.md
       - name: Live chat widget telemetry
         href: live-chat-telemetry.md
@@ -730,14 +740,10 @@
           href: configure-whatsapp-channel.md
         - name: Configure a WeChat channel
           href: configure-wechat-channel.md
-      - name: Set up Microsoft Teams
-        items: 
-        - name: Configure a Microsoft Teams channel
-          href: configure-microsoft-teams.md
-      - name: Set up a custom messaging channel
-        items: 
-        - name: Configure a custom messaging channel
-          href: configure-custom-channel.md
+      - name: Configure a Microsoft Teams channel
+        href: configure-microsoft-teams.md
+      - name: Configure a custom messaging channel
+        href: configure-custom-channel.md
     - name: Agent experience
       items: 
       - name: Use SMS channel
@@ -752,9 +758,9 @@
         href: wechat-channel.md
     - name: Developer experience
       items: 
-      - name: Bring your own custom messaging channel
+      - name: Integrate a custom messaging channel
         items: 
-        - name: "Bring your own custom messaging channel: Direct Line"
+        - name: "Integrate your own custom channel: Direct Line"
           href: bring-your-own-channel.md
         - name: Test the custom messaging channel
           href: test-custom-channel-sample-html.md
@@ -854,16 +860,14 @@
       items: 
       - name: Enable bot context NuGet package
         href: enable-bot-context.md
-      - name: Enable a bot to escalate and end conversation
+      - name: Enable an Azure bot to escalate and end conversations
         href: bot-escalate-end-conversation.md
-      - name: Download attachments from Azure bot
+      - name: Download file attachments from Azure bot
         href: download-attachments-bot.md
-      - name: Get user details on Teams from Azure bot
+      - name: Get Microsoft Teams user details from Azure bot
         href: user-details-teams-azure-bot.md
       - name: Display suggested actions in a vertical layout
         href: suggested-actions.md
-      - name: Download attachments from Power Virtual Agents bot
-        href: download-attachments-PVA-bot.md
   - name: Insights
     items: 
     - name: Introduction to Customer Service Insights
@@ -1092,7 +1096,7 @@
       href: migrate-automatic-record-creation-and-sla-agreements.md
     - name: Strategy for migrating from contracts to entitlements
       href: contract-to-entitlement-migration.md
-    - name: Migration changes for new Omnichannel messaging platform
+    - name: Migration changes for new omnichannel messaging platform
       href: migrate-acs.md
     - name: Migrate service scheduling
       items: 

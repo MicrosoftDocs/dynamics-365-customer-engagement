@@ -1,6 +1,6 @@
 ---
-title: "Add a chat widget | MicrosoftDocs"
-description: "Perform the steps mentioned in the article to add a chat widget in Omnichannel for Customer Service."
+title: "Configure a chat widget | MicrosoftDocs"
+description: "Perform the steps mentioned in the article to configure a chat widget in Omnichannel for Customer Service."
 ms.date: 04/04/2022
 author: neeranelli
 ms.author: nenellim
@@ -8,19 +8,16 @@ manager: shujoshi
 ms.topic: article
 ---
 
-# Add a chat widget
+# Configure a chat widget
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Introduction
-
 You can configure a live chat widget that can be displayed on your portal for customers to interact with bots and human agents.
 
-To add a chat widget, you need to have configured a workstream that defines how chat conversations are routed to queues. More information: [Create a workstream](create-workstreams.md).
+To add a chat widget, you need to have configured a workstream that defines how chat conversations are routed to queues. More information: [Create a workstream](create-workstreams.md)
 
 ## Configure a chat widget
 
-**To configure the chat widget**
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
    

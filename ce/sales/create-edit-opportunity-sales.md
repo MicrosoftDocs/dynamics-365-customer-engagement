@@ -1,7 +1,7 @@
 ---
 title: "Create or edit opportunities (Dynamics 365 Sales) | MicrosoftDocs"
 description: "An opportunity is a deal you're ready to win. Create an opportunity record for a lead who's ready to buy."
-ms.date: 04/13/2022
+ms.date: 05/10/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -99,6 +99,6 @@ Create an opportunity with the details you have. You can update the opportunity 
 [Boost sales with Versium Predict](../versium-predict/versium-predict.md)   
 [Insights, powered by InsideView](../insights-insideview/insights-powered-by-insideview.md)   
 [Print quote, invoice, or other records](print-records.md)
-
+[Troubleshoot issues with opportunities](/troubleshoot/dynamics-365/sales/troubleshoot-opportunities-issues#opportunity-issues-and-resolution-for-salespeople)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
