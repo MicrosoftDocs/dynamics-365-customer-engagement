@@ -78,7 +78,7 @@ See the following topics to set up the interactive voice response (IVR) bot in t
 
  ### Should the language of the bot be the same as the primary language configured in the Omnichannel admin center app?
  
-Yes, the language of the bot must be the same as the language configured in the **Voice workstream** > **Channel settings** > **Language** > **Primary language**. You can configure different geographic locales in the bot and app.<br>
+Yes, the language of the bot must be the same as that of the voice workstream to which the bot will be attached. You can configure different geographic locales for the bot and voice workstream.<br>
 
 For example, you can set English-UK in the voice profile and English-US in the bot.<br>
 
