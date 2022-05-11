@@ -1,5 +1,5 @@
 ---
-title: "FAQs about the voice channel | MicrosoftDocs"
+title: "FAQ about the voice channel | MicrosoftDocs"
 description: "This article includes frequently asked questions (FAQs) about the voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
@@ -9,7 +9,7 @@ ms.topic: article
 
 ---
 
-# FAQs about the voice channel in Omnichannel for Customer Service
+# FAQ about the voice channel in Omnichannel for Customer Service
 
 ## Overview
 
@@ -72,11 +72,11 @@ See the following topics to set up the interactive voice response (IVR) bot in t
 - [Integrate an Azure bot](configure-bot.md)
 - [Integrate third-party IVR systems with voice channel](voice-channel-contextual-transfer-external-ivr.md)
 
- ### Should the language of the bot be the same as the Primary language configured in the Omnichannel admin center app?
+ ### Should the language of the bot be the same as the primary language configured in the Omnichannel admin center app?
  
-Yes, the language of the bot must be the same as the language configured in the **Voice workstream** > **Channel settings** > **Language** > **Primary language**.  Geographic locales configured in the bot and app can differ.
- For example, you can configure English-UK in the voice profile and English-US in the bot.
-The bot's accuracy depends on the similarities between locales. If you configure different locales, pre configured entities for the bot, such as zipcode, might not be accurate. 
+Yes, the language of the bot must be the same as the language configured in the **Voice workstream** > **Channel settings** > **Language** > **Primary language**. You can configure different geographic locales in the bot and app.<br>
+ For example, you can set English-UK in the voice profile and English-US in the bot.
+The bot's accuracy depends on the similarities between locales. However, if you configure different locales, preconfigured entities for the bot, such as zipcode, might not be accurate. 
 
 ### Can I recover a voice trial after it's no longer provisioned?
 
