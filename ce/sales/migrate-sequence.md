@@ -27,7 +27,7 @@ Administrators and sales managers can now migrate sequences along with their dep
 1.	[Create a solution](#create-a-solution)
 2.	[Add sequence to the solution](#add-sequence-to-the-solution)
 3.	[Export the solution](#export-the-solution)
-4.	[Import the solution package](#import-the-solution-package)
+4.	[Import the solution](#import-the-solution)
 
 ##	Create a solution
 
@@ -121,7 +121,7 @@ Always export the sequence as an unmanaged solution. The unmanaged dependent com
 
 Now, the solution is ready for import.
 
-##	Import the solution package
+##	Import the solution
 
 1.	Sign into [Power Apps](https://make.powerapps.com/), and then search for and select the target environment for import.
 
