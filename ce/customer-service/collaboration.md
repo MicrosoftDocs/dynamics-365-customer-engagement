@@ -5,7 +5,7 @@ author: lalexms
 ms.author: laalexan
 manager: shujoshi
 ms.topic: overview
-ms.date: 04/06/2022
+ms.date: 05/10/2022
 
 ---
 
@@ -26,6 +26,10 @@ Agents can start a new chat or link an existing chat to a record in Teams withou
 ## Customer support swarming using Teams
 
 Customer support swarming helps agents more quickly resolve issues by bringing together the right experts across your business. More information: [Configure customer support swarming](configure-customer-support-swarming.md)
+
+## Share Dynamics 365 records within Microsoft Teams conversations
+
+Agents can share the record of the chat conversation and let participants view it without navigating away from Teams. They can share any Dynamics 365 record on Teams channels and chat conversations, as well as share records using search in the app. More information: [Share Dynamics 365 records within Microsoft Teams conversations](/sales/teams-integration/share-d365-record-overview?context=/dynamics365/context/customer-service-context)
 
 ### See also
 [Configure Teams chat](configure-teams-chat.md)<br>
