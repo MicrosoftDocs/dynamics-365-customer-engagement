@@ -428,7 +428,7 @@
           href: /power-apps/user/email-template-convert?context=/dynamics365/context/customer-service-context
         - name: Create a signature for emails
           href: /power-apps/user/email-signature?context=/dynamics365/context/customer-service-context
-      - name: Email FAQs and known issues
+      - name: Email FAQ and known issues
         href: /power-apps/user/activities-known-issues?context=/dynamics365/context/customer-service-context 
   - name: Timeline
     items: 
