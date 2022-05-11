@@ -406,6 +406,8 @@
         href: create-standard-sla.md
       - name: Create an enhanced SLA (Customer Service app)
         href: create-enhanced-sla.md
+      - name: SLA Limitations
+        href: sla-limitations.md
     - name: Agent experience
       items: 
       - name: Manage case SLAs
