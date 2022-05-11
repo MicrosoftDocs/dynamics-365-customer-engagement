@@ -47,7 +47,7 @@ Perform the following steps to configure SLAs in Customer Service Hub:
 1. [Review prerequisites](#prerequisites).
 2. [Create SLA KPIs](#create-sla-kpis).
 3. [Create SLAs](#create-slas).
-4. Learn [how the SLA is applied](#how-is-the-sla-applied).
+4. [Apply SLAs](apply-slas.md#apply-slas)
 
 ## Prerequisites
 
@@ -484,28 +484,6 @@ To set an SLA as the default, select an active SLA from the list, and then selec
 ### Disable an SLA in Customer Service app
 
 During maintenance activities or when you're importing records and you don't want the SLAs to be applied, you can disable SLAs for your organization. A system administrator can disable SLAs from the **System Settings** dialog box. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Service tab](/power-platform/admin/system-settings-dialog-box-service-tab)  
-
-## How an SLA is applied<a name="how-is-the-sla-applied"></a>
-
-When a record is created, the SLA is applied (either by default or through entitlement for the Case entity) and the related record field values are updated. When the record is modified and any of the record field values change&mdash;that is, when the fields that are added in the **Applicable When** conditions of the SLA change&mdash;the SLA is applied again. For example, if the priority of the case changes from Normal to High, and according to the SLA the first response should happen soon, the SLA is reapplied to make sure the KPIs are tracked based on the updated values.
-
-When the SLA is applied again, all of the SLA items are evaluated based on the updated record fields, and failure or warning actions are initiated if the time has been exceeded. This happens even if the failure or warning actions were already initiated before the record was updated.
-
-In Unified Interface, by default, when the SLA moves to a terminal status (non-compliant or succeeded), the "applicable when" and "success criteria" will not be evaluated again on the SLA. If you want the SLA to be reevaluated, you can enable the reevaluation setting in the service configuration settings. More information: [Enable SLA recalculation](enable-sla-recalculation.md)
-
-> [!NOTE]
->
-> Only one SLA can be run on one record. When an entity record is updated by using a different SLA, the previously applied SLA is canceled.  
-
-## Apply SLAs on demand<a name="apply-sla-on-demand"></a>
-
-With the enhancements made to SLAs, you can now apply SLAs to records manually. You can also automatically apply SLAs to records based on your business logic by using workflows or custom plug-ins.  
-
-For example, if your customers are spread across different countries or regions, you can have multiple SLAs with different business hours and holiday schedules. You can set up business logic to apply SLAs on case records based on the customer's country or region, to make sure that the SLA time calculation is done correctly.  
-
-To create workflows so that SLAs will be automatically applied, talk to your customer service managers, administrator, or customizer. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and edit workflow processes](../customerengagement/on-premises/customize/workflow-processes.md)
-
-To manually apply SLAs on demand, choose the SLA in the SLA field. This field isn't available by default on entity forms; you need to ask your system administrator to add it.  
 
 ## Track SLA status and details on the case record
 
