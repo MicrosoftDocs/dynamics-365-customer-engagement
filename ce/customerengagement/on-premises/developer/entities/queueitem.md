@@ -12,7 +12,7 @@ search.audienceType:
   - developer
 
 ---
-# QueueItem Entity Reference
+# QueueItem Entity Reference for Dynamics 365 Customer Engagement
 
 A specific item in a queue, such as a case record or an activity record.
 

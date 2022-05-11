@@ -20,6 +20,8 @@ Sequences help sales managers enforce best practices by introducing a set of con
 
 ## Use sequence designer
 
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4Vdof]
+
 As a sequence manager, you can use the sequence designer to do the following tasks:  
 - [Create and activate a sequence](create-and-activate-a-sequence.md).
 - [Connect a sequence to records](connect-a-sequence-to-records.md).

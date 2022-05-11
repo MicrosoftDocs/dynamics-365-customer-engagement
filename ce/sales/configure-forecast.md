@@ -19,6 +19,8 @@ searchScope:
 
 A forecast helps your organization predict how much revenue your sales team will generate in a given time frame. When done correctly, forecasting can play a significant role in your company's success.  
 
+[!INCLUDE [trial-cta-note](../includes/trial-cta-note.md)]
+
 ## License and role requirements
 | Requirement type | You must have |
 |-----------------------|---------|

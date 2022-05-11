@@ -1,7 +1,7 @@
 ---
 title: "Configure customer support swarming for complex cases | MicrosoftDocs"
 description: "This topic provides steps to configure customer support swarming for cases in Dynamics 365 Customer Service and Microsoft Teams."
-ms.date: 04/06/2022
+ms.date: 04/22/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -55,8 +55,8 @@ Use the following image and legend to understand the layout of the customer supp
 |-----|------------|------------|
 |1 | Swarming toggle | Turns on the swarming feature. |
 |2 | Agent swarm guide | Admininstrator-provided guidance to help agents know what content to include to begin a swarm or manage the swarm process. |
-|3 | Case details | Out-of-box-related account and case fields. Administrators can configure which case fields show on the form. |
-|4 | Skills | Add relevant skills to help match experts for swarming. Onboard coworkers outside the team as experts to recommend for swarms. |
+|3 | Case details | Add out-of-box case fields. Administrators can configure which case fields show on the form. |
+|4 | Skills | Add relevant skills to help match experts for swarming. Onboard coworkers outside of your team as experts (through mapping or bulk-importing) so they can be recommended for swarms. |
 |5 | Rules for skills | Conditions that define which skills to attach to swarms. The attached skills are then used to find and invite experts to swarms. |
 |6 | Participants automatically added to swarms | Team contacts automatically added to swarms because of their relationship to the customer or the agent assigned to the issue. |
 |7 | Swarm expert notification | The Power Automate flow that turns on and manages swarm invitations that are sent to experts. |
@@ -71,30 +71,17 @@ To configure customer support swarming, you must have administrator privileges a
 
 ### Turn on Embedded chat using Teams
 
-In Dynamics 365, go to one of the apps and perform the following steps.
-   
- #### Customer Service admin center (preview)
-     
-   > [!IMPORTANT]
-   > The Customer Service admin center app is in preview. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-     
-   1. In the site map, select **Collaboration** in **Experiences**.
-   2. On the **Embedded chat using Teams** page, toggle on **Turn on Microsoft Teams chats inside Dynamics 365 (preview)**.
-
- #### Customer Service Hub
-    
-  1. Go to **Service Management**.
-  2. In **Collaboration** in the site map, select **Embedded chat using Teams**.
-  3. Toggle on **Turn on Microsoft Teams chats inside Dynamics 365 (preview)**.
+1. In Customer Service Hub, go to **Service Management**.
+1. In **Collaboration** in the site map, select **Embedded chat using Teams**.
+1. Toggle on **Turn on Microsoft Teams chats inside Dynamics 365 (preview)**.
    
 
 ### Activate case details on swarms
 
-In Customer Service Hub, perform the following steps.
+If you haven't already activated the case details for the swarm form, perform the following steps.
       
-1. Go to **Service Management**.
+1. In Customer Service Hub, go to **Service Management**.
 1. In **Collaboration** in the site map, select **Swarming using Teams**.
-1. If you haven't already activated the case details for the swarm form, do the following steps.
 1. Go to **Case details** on the administration page. Follow the link in the case details section titled **Activate case form for swarming**. The Power Apps Case table form page is displayed.
 1. Select the **Case form for swarm** form, select the ellipsis, and then select **Activate form**. The form becomes active.
 
@@ -129,7 +116,7 @@ To ensure that swarm experts receive invitations in Teams, turn on the Microsoft
 
 ## Edit the swarm guide
 
-The swarm guide is text that appears in the app to help agents create a swarm. The swarm guide helps ensure that your agents type the right questions and provide helpful context to effectively match skills and find experts. 
+The swarm guide is the direction provided by you, as the administrator, that appears in the swarm form when the agent opens it. The swarm guide helps ensure that your agent types the right questions. It provides helpful context to effectively match skills and experts. 
 
 Important things to keep in mind when creating the swarm guide:
  
@@ -186,13 +173,20 @@ If you haven't already configured skills, then perform the following steps.
 
 1. Select **Save**.
 
-### Assign the new skill to an expert
+### Attach the new skill to an expert
 
-To use the new skill in customer support swarming, you must assign it to an expert.
+To use the new skill in customer support swarming, you must attach it to a user.
 
-1. On the command bar and select **Assign**.
+1. Select the **Related** tab on the characteristic, and then select **Resource Characteristics**.
+ 
+   > [!div class="mx-imgBorder"] 
+   > ![Resource Charactistics menu option.](media/swarm-resource-characteristics.png "Reource Characteristics menu option")
 
-1. Enter the details for the expert, and then select **Save**.
+1. Select **New Bookable Resource**.
+
+1. On the **New Bookable Resource Characteristic** page, select the **Resource** field, and then search for the resource.
+
+1. Select **Save**.
 
 ### Bulk import skills (optional)
 

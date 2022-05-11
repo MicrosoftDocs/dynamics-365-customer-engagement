@@ -18,7 +18,9 @@ searchScope:
 ---
 # Create or edit quotes
 
-Quotes include the pricing details of products your potential customer is interested in. A quote becomes an order once the customer accepts it.
+Quotes include the pricing details of products that your potential customer is interested in.  
+
+[!INCLUDE [trial-cta-note](../includes/trial-cta-note.md)]
 
 ## License and role requirements
 | Requirement type | You must have |

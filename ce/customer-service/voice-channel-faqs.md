@@ -4,7 +4,7 @@ description: "This article includes frequently asked questions (FAQs) about the 
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/04/2022
+ms.date: 04/29/2022
 ms.topic: article
 
 ---
@@ -44,6 +44,10 @@ Yes, you have the following two options to bring your existing numbers to Dynami
 - Port the number to Azure Communication Services. This will change ownership of the phone number from the existing carrier to Microsoft. More information: [Quickstart: Port a phone number into Azure Communication Services](/azure/communication-services/quickstarts/telephony/port-phone-number)
 
 - Configure Azure direct routing. This will require you to configure a Session Border Controller (SBC) that is connected to your local carrier with Azure Communication Services, and register the phone number in Dynamics 365. More information: [Azure direct routing infrastructure requirements](/azure/communication-services/concepts/telephony/direct-routing-infrastructure)
+ 
+### How can I acquire additional phone numbers from Azure direct offer?
+
+You can purchase one phone number per tenant for Azure Communication Services through the Azure Portal. To acquire phone numbers in bulk or request for a specific phone number, complete this [form](https://github.com/Azure/Communication/blob/master/Forms/ACS%20-%20Bulk%20Number%20Acquisition.docx) and email it to acstnrequest@microsoft.com. Ensure that the subject line of the email begins with "Azure Communication Services Number Request:"
 
 ### Can I keep my existing contract with my carrier?
 

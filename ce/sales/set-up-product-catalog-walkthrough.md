@@ -23,8 +23,8 @@ searchScope:
 
 Set up the product catalog with the collection of products that you sell and their pricing information.
 
-> [!NOTE]
-> Product families are only supported for Sales Enterprise and Sales Premium.
+[!INCLUDE [trial-cta-note](../includes/trial-cta-note.md)]
+
 
 ## License and role requirements
 | Requirement type | You must have |  
@@ -36,6 +36,9 @@ Set up the product catalog with the collection of products that you sell and the
 ## Process for setting up the product catalog
 
  The product catalog is a collection of products and their pricing information. To set up pricing, you need to define the units in which your products are sold, the amount to charge for each unit, and the discounts you want to offer based on volume purchased.  
+
+> [!NOTE]
+> Product families are only supported for Sales Enterprise and Sales Premium.
 
 Watch this video to understand the components of a product catalog and how to set them up:
 

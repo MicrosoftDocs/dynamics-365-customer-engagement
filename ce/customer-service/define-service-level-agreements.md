@@ -1,7 +1,7 @@
 ---
 title: "Define service-level agreements in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how to define service-level agreements in Dynamics 365 Customer Service."
-ms.date: 04/04/2022
+ms.date: 05/10/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -20,6 +20,8 @@ ms.custom:
 
 # Define service-level agreements
 
+[!INCLUDE[cc-trial-sign-up](../includes/cc-trial-sign-up.md)]
+
 ## Introduction
 
 Service-level agreements (SLAs) enable businesses to track support policies and ensure customers are being supported per the support policy to which they are entitled. Businesses use SLAs to govern support products that customers either receive as part of their purchase or add on to their purchase. SLAs include policy details such as how quickly a customer is entitled to receive support, how many support requests a customer can make, and how long after purchases a customer can be supported as part of the agreement.  
@@ -35,7 +37,7 @@ Alternatively, you can set up a default SLA for the organization.
 With the SLA feature, you can:
 
 - Use out-of-the-box actions in Microsoft Power Automate.
-- Define work hours, and pause and resume SLAs at the SLA KPI level and SLA item level, which help track SLA items for different work hours based on priority and criteria. The pause settings at SLA KPI level or SLA item level gives you added flexibility to define pause conditions at a more granular level.
+- Define work hours, and pause and resume SLAs at the SLA KPI level and SLA item level, which help track SLA items for different work hours based on priority and criteria. The pause settings at SLA KPI level or SLA item level give you added flexibility to define pause conditions at a more granular level.
 - In a case lifecycle, multiple SLA KPIs can be triggered at different start points. The following illustration depicts how you can define an overall resolution time, and also specify SLA KPIs at different start points.
 
 ![SLA pause and resume.](media/SLA-pause-resume.png "SLA pause and resume")
@@ -66,7 +68,7 @@ Review the following requirements before configuring SLAs for your organization:
    To configure a timer, add the timer control to an entity form. The timer control initially displays a countdown timer to show the time remaining to complete the task. To learn more, see [Add a timer control to the Case form to track time against an SLA](add-timer-control-case-form-track-time-against-sla.md).
 
 > [!NOTE]
-> In Unified Interface, the Elapsed Time and Paused On attributes of an SLA KPI Instance contain the values that are equivalent to the values in the Last Onhold Time and Onhold Time attributes of the target record, such as the case and account, in the web client.
+> In Unified Interface, the Elapsed Time and Paused On attributes of an SLA KPI instance contain values equivalent to the Onhold Time and Last Onhold Time attributes respectively, of the target record, such as, case and account in the web client.
 
 ## Create SLA KPIs <a name="create-sla-kpis"></a>
 
