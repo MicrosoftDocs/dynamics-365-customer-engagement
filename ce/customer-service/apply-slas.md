@@ -1,7 +1,7 @@
 ---
 title: "Apply SLAs | MicrosoftDocs"
 description: "Learn how to apply service-level agreements in Dynamics 365 Customer Service."
-ms.date: 05/10/2022
+ms.date: 05/11/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -20,11 +20,9 @@ ms.custom:
 
 # Apply SLAs
 
-## Introduction
+You can apply service-level agreements (SLAs) to a case or an SLA-enabled entity record in one of the following ways:
 
-You can apply service-level agreements (SLAs) to a case or a SLA-enabled entity record in the following ways:
-
-- By updating the SLA information through either the workflow, power automate flow, or the custom plug-in written for the entity.
+- By updating the SLA information automatically through a workflow, Power Automate flow, or custom plug-in written for the entity.
 - Through the entitlement associated with the case entity record. This isn't applicable for other SLA-enabled entities.
 - By marking a particular SLA as default.
 - Manually applying SLAs to records.
@@ -41,7 +39,7 @@ In Unified Interface, by default, when the SLA moves to a terminal status (non-c
 
 ## Apply SLAs automatically
 
-You can automatically apply SLAs to records based on your business logic by using workflows, power automate flows or custom plug-ins.
+You can automatically apply SLAs to records based on your business logic by using workflows, Power Automate flows or custom plug-ins.
 
 For example, if your customers are spread across different countries or regions, you can have multiple SLAs with different business hours and holiday schedules. You can set up business logic to apply SLAs on case records based on the customer's country or region, to make sure that the SLA time calculation is done correctly.  
 
