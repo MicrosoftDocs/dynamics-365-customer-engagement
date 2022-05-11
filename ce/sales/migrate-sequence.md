@@ -10,7 +10,7 @@ manager: shujoshi
 
 # Migrate sequences from one environment to another
 
-Use the solution import functionality to migrate sequences from one environment to another in Dynamics 365 sales.
+Use the solution import functionality to migrate sequences from one environment to another in Dynamics 365 Sales.
 
 ## License and role requirements
 | Requirement type | You must have |
@@ -20,7 +20,7 @@ Use the solution import functionality to migrate sequences from one environment 
 
 ## Migrate sequences
 
-Organizations use staging (non-production) environments to set up and test complex steps, such as sequences, assignment rules, and segments. The staging environments are then used to test these steps to avoid any disruption in the organization’s operations, saving time and money. Also, the staging environments help in training the sellers. 
+Organizations use staging (non-production) environments to set up and test complex steps, such as sequences, assignment rules, and segments. Organizations then use the staging environments to test these steps to avoid any disruption in their operations, saving time and money. Also, the staging environments help in training the sellers. 
     
 Administrators and sales managers can now migrate sequences along with their dependent entities from one environment to the other. To migrate sequences, complete the following steps:
 
@@ -29,11 +29,11 @@ Administrators and sales managers can now migrate sequences along with their dep
 3.	[Export the solution](#export-the-solution)
 4.	[Import the solution](#import-the-solution)
 
-##	Create a solution
+## Create a solution
 
 Let’s create a sequence solution with an example.
 
-1.	Sign into [Power Apps](https://make.powerapps.com/) and from the left navigation, select **Solutions**.   
+1.	Sign in to [Power Apps](https://make.powerapps.com/) and from the left navigation, select **Solutions**.   
 
 2.	Select **New solution** and then on the **New solution** pane, enter the values for the following fields:
             
@@ -56,7 +56,7 @@ Let’s create a sequence solution with an example.
      
 Now, let’s add the required sequences into the solution.       
 
-##	Add sequence to the solution
+## Add sequence to the solution
 
 After you create the solution, add the sequences that you want to export through the solution. 
 
@@ -74,26 +74,27 @@ After you create the solution, add the sequences that you want to export through
     >[!div class="mx-imgBorder"]
     >![Select and add sequence to the solution](media/sa-sequence-migration-select-add-sequence.png "Select and add sequence to the solution") 
      
-    The sequence and its dependent components such as, sequences, email template, business process flows (BPF) record, sequence tags, and attribute are added to the solution. 
+    The sequence and its dependent components such as sequences, email template, business process flows (BPF) record, sequence tags, and attribute are added to the solution. 
 
     In our example, the **New lead nurturing** sequence is added to the list because the **APAC Leads** sequence contains it as a step.
 
     >[!div class="mx-imgBorder"]
     >![List of added dependent components of the sequence](media/sa-sequence-migration-added-dependent-components.png "List of added dependent components of the sequence") 
 
-    To see other dependent entities of the **APAC Leads** sequence, select **More options** > **Advanced** > **Show dependencies** and go to **Required objects** tab.  
+    To see other dependent entities of the **APAC Leads** sequence, select **More options** > **Advanced** > **Show dependencies** and go to the **Required objects** tab.  
     
     >[!NOTE]
-    >If the sequence contains managed components, they will not be added to the solution. Therefore, when the solution is imported, the steps that are dependent on the missed components will show an error.
+    >If the sequence contains managed components, they won't be added to the solution. Therefore, when the solution is imported, the steps that are dependent on the missed components will show an error.
 
     >[!div class="mx-imgBorder"]
     >![View complete list of added components of the sequence](media/sa-sequence-migration-complete-list-dependent-components.png "View complete list of added components of the sequence") 
  
 Now that you've added the sequences, export the solution.
 
-##	Export the solution
+## Export the solution
 
-Always export the sequence as an unmanaged solution. The unmanaged dependent components of the sequences are automatically added to the solution package; managed components aren't added. When the solution is imported, the steps that depend on the missing components will show an error. To resolve the error, install the dependent components in the target environment. More information: [Solution install fails due to missing dependencies](/troubleshoot/dynamics-365/sales/solution-install-fails-due-dependencies).   
+Always export the sequence as an unmanaged solution. The unmanaged dependent components of the sequences are automatically added to the solution package; managed components aren't added. When the solution is imported, the steps that depend on the missing components will show an error. To resolve the error, install the dependent components in the target environment. More information: [Solution install fails due to missing dependencies](/troubleshoot/dynamics-365/sales/solution-install-fails-due-dependencies). 
+
 Also, you can edit the sequences and their dependent components in the target environment after the import. 
 
 1.	On the **Solutions** page, select the solution. In this example, let’s select **Sequence APAC leads**.
@@ -122,9 +123,9 @@ Also, you can edit the sequences and their dependent components in the target en
 
 Now, the solution is ready for import.
 
-##	Import the solution
+## Import the solution
 
-1.	Sign into [Power Apps](https://make.powerapps.com/), and then search for and select the target environment for import.
+1.	Sign in to [Power Apps](https://make.powerapps.com/), and then search for and select the target environment for import.
 
 2.	From the left navigation, select **Solutions** and then select **Import solution**.
 
@@ -146,7 +147,7 @@ Now, the solution is ready for import.
     >![Solution import fail message](media/sa-sequence-migration-import-failed-message.png "Solution import fail message")
 
     >[!NOTE]
-    >To troubleshoot import related issues for solutions, go to [Troubleshoot solution import errors in Microsoft Dynamics 365](/troubleshoot/dynamics-365/sales/troubleshoot-solution-import-errors-in-dynamics-365)
+    >To troubleshoot import-related issues for solutions, go to [Troubleshoot solution import errors in Microsoft Dynamics 365](/troubleshoot/dynamics-365/sales/troubleshoot-solution-import-errors-in-dynamics-365).
  
     Select **Show dependencies**. A list of dependencies that aren't available in the environment is displayed.  
 
