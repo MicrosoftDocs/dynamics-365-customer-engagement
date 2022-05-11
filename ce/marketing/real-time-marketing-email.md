@@ -1,7 +1,7 @@
 ---
 title: "Create real-time marketing emails (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create real-time marketing emails in Dynamics 365 Marketing."
-ms.date: 03/07/2022
+ms.date: 05/04/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -19,7 +19,7 @@ search.app:
 
 # Create real-time marketing emails
 
-The real-time marketing email editor shares much of its look and feel with the [outbound marketing email editor](prepare-marketing-emails.md). As with the outbound marketing email editor, the real-time marketing editor allows you to quickly create dynamic emails to capture your customers' attention. 
+The real-time marketing email editor shares much of its look and feel with the [outbound marketing email editor](prepare-marketing-emails.md). As with the outbound marketing email editor, the real-time marketing editor allows you to quickly create personalized emails to capture your customers' attention.
 
 Learn more about creating email in Dynamics 365 Marketing: [Create a new email and design its content](email-design.md)
 
