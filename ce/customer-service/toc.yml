@@ -374,6 +374,8 @@
         href: enable-entities-service-level-agreements.md
       - name: Apply SLAs
         href: apply-slas.md
+      - name: Export and import a solution with SLAs
+        href: export-import-solution.md
       - name: Calculate SLA KPIs
         items:
         - name: Recalculate SLAs in terminal status
@@ -401,7 +403,9 @@
       - name: Add a timer in forms to track time against enhanced SLAs
         href: add-timer-forms-track-time-against-enhanced-sla.md
       - name: Create a standard SLA (Customer Service app)
-        href: standard-sla.md
+        href: create-standard-sla.md
+      - name: Create an enhanced SLA (Customer Service app)
+        href: create-enhanced-sla.md
     - name: Agent experience
       items: 
       - name: Manage case SLAs
