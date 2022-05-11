@@ -1,7 +1,7 @@
 ---
 title: "Overview of service-level agreements | MicrosoftDocs"
-description: "Learn what is a service-level agreement in Dynamics 365 Customer Service."
-ms.date: 02/21/2022
+description: "Learn what are service-level agreements in Dynamics 365 Customer Service."
+ms.date: 05/11/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -41,14 +41,6 @@ Alternatively, you can set up a default SLA for the organization. More informati
  You can define the set of conditions based on which KPIs are applied to a case, or the set of actions to take as a warning or in case of an SLA breach. More information: [Manage service configuration settings](/power-platform/admin/system-settings-dialog-box-service-tab).
 ### Reminders
   You can include detailed items to define metrics or key performance indicators (KPIs) to attain that service level. SLA KPIs help you get timely warnings about any issues your customer support team might be having. More information: [Create SLA KPIs](define-service-level-agreements.md#create-sla-kpis).
-
-## Videos
-
-TBD/Need links
-
-## Blogs
-
-TBD/Need links
 
 ### See also
 
