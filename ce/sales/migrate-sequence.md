@@ -107,17 +107,17 @@ Always export the sequence as an unmanaged solution. The unmanaged dependent com
     >[!NOTE]
     >After you’ve added the sequence and its dependent components to the solution and if you’ve made any changes that you would like to export, select **Publish**. The updates are added to the solution.
 
-4.	On the **Export this solution** pane, enter or select from the following options, and then select **Export**:
+4.	On the **Export this solution** pane, enter or select from the following options, and then select **Export**:    
     
     | Option | Description |
-    |--------|-------------|	
+    |--------|-------------|
     | Version number | Power Apps automatically increments your solution version while displaying the current version. You can accept the default version or enter your own. Example: **1.0.0.1** |
     | Export as | Select **Unmanaged**. More information: [Managed and unmanaged solutions](/power-platform/alm/solution-concepts-alm#managed-and-unmanaged-solutions) |
 
     >[!div class="mx-imgBorder"]
     >![Select required options to export solution](media/sa-sequence-migration-select-option-export-solution.png "Select required options to export solution")
  
-    The export can take several minutes to complete. Once finished, the export .zip file is available in the download folder specified by your web browser. Download the zip file to your local computer. For example, **SequenceAPACleads_1_0_0_1.zip**.
+    The export can take several minutes to complete. Once finished, the exported *.zip* file is available in the download folder specified by your web browser. Download the zip file to your local computer. For example, **SequenceAPACleads_1_0_0_1.zip**.
 
 Now, the solution is ready for import.
 
