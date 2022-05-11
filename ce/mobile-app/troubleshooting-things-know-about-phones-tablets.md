@@ -181,7 +181,7 @@ If you're an admin, you can avoid users getting this error by making sure all mo
   
 ## By design: “—d” added to URL  
   
- To improve the reliability of DNS resolutions to Microsoft Dataverse or Dynamics 365 Customer Engagement (on-premises) organizations, Dynamics 365 for mobile modifies the organization URL used when signing in. When a user signs in, the Dynamics 365 mobile app adds “—d” (two dashes + d) to the URL. For example, if the organization URL is **`<https://contoso.crm.dynamics.com>`**, [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] will change the URL to **`<https://contoso--d.crm.dynamics.com>`**.  
+ To improve the reliability of DNS resolutions to Microsoft Dataverse or Dynamics 365 Customer Engagement (on-premises) organizations, Dynamics 365 for mobile modifies the organization URL used when signing in. When a user signs in, the Dynamics 365 mobile app adds “—d” (two dashes + d) to the URL. For example, if the organization URL is **<https://contoso.crm.dynamics.com>**, [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] will change the URL to **<https://contoso--d.crm.dynamics.com>**.  
   
  If a user needs to retry signing in, they’ll see “—d” in the web address. They can sign in with the modified URL or reset it to the URL normally used.  
   
@@ -189,7 +189,7 @@ If you're an admin, you can avoid users getting this error by making sure all mo
 ## Redirected URLs do not work when you configure the Dynamics 365 mobile app
  URLs that redirect, such as [!INCLUDE[pn_iis](../includes/pn-iis.md)] host headers or link-shortening websites such as tinyurl or bitly, do not work when you use the URL in the **Dynamics 365 apps web address** field with Dynamics 365 mobile during configuration.  
   
- For example, an `*<https://www.contosocrm.com>*` host header for a Dynamics 365 apps online  website URL that is actually `*<https://crm.contososerver001.com>*`, will not work and will display an error message. To work around this behavior, you must enter the actual web address for the Microsoft Dataverse or Dynamics 365 Customer Engagement (on-premises) organization. When this issue occurs and you have enabled logging, the information logged is similar to the following. Notice that the URLs in lines 2 and 3 are different. That difference indicates a redirected URL.  
+ For example, an *<https://www.contosocrm.com>* host header for a Dynamics 365 apps online  website URL that is actually *<https://crm.contososerver001.com>*, will not work and will display an error message. To work around this behavior, you must enter the actual web address for the Microsoft Dataverse or Dynamics 365 Customer Engagement (on-premises) organization. When this issue occurs and you have enabled logging, the information logged is similar to the following. Notice that the URLs in lines 2 and 3 are different. That difference indicates a redirected URL.  
   
 1.  User entered URL: *https://URL_entered*  
   
