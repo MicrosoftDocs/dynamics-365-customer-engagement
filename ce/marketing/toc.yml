@@ -512,6 +512,8 @@
           href: marketing-analytics/analytics-gallery-forms.md
     - name: "Preview: Collaborate using Microsoft Teams chat"
       href: teams-chat.md
+    - name: "Preview: Customer interactions timeline"
+      href: timeline.md
     - name: Work with marketing calendars
       href: marketing-calendar.md
     - name: Go live with publishable entities and track their status
