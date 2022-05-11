@@ -215,7 +215,7 @@ Review the following requirements before you enable the **Exit the sequence** op
 
 [Create and manage sequences](create-manage-sequences.md)     
 [Adaptive sequences](adaptive-sequence.md)    
-[Manage tags for sequences](manage-tags-for-sequences.md) 
-
+[Manage tags for sequences](manage-tags-for-sequences.md)     
+[Migrate sequences from one environment to another](migrate-sequence.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
