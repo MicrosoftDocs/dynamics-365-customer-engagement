@@ -24,18 +24,10 @@ Organizations use staging (non-production) environments to set up and test compl
     
 Administrators and sales managers can now migrate sequences along with their dependent entities from one environment to the other. To migrate sequences, complete the following steps:
 
-1.	[Review the considerations](#review-the-considerations)
-2.	[Create a solution](#create-a-solution)
-3.	[Add sequence to the solution](#add-sequence-to-the-solution)
-4.	[Export the solution](#export-the-solution)
-5.	[Import the solution package](#import-the-solution-package)
-
-##	Review the considerations
-
-Review the following considerations before you import and export the sequences:    
-
--	Always import and export the sequence as an unmanaged solution. To know more about managed and unmanaged solutions, go to [Managed and unmanaged solutions](/power-platform/alm/solution-concepts-alm#managed-and-unmanaged-solutions).
--	Unmanaged dependent components of the sequences are automatically added to the solution; managed components aren't added. When the solution is imported, the steps that depend on the missing components will show an error. 
+1.	[Create a solution](#create-a-solution)
+2.	[Add sequence to the solution](#add-sequence-to-the-solution)
+3.	[Export the solution](#export-the-solution)
+4.	[Import the solution package](#import-the-solution-package)
 
 ##	Create a solution
 
@@ -101,7 +93,7 @@ Now that you've added the sequences, export the solution.
 
 ##	Export the solution
 
-Export the sequence as an unmanaged solution. The solution package includes sequences and their dependent components, which can be edited in the target environment after import. 
+Always export the sequence as an unmanaged solution. The unmanaged dependent components of the sequences are automatically added to the solution package; managed components aren't added. When the solution is imported, the steps that depend on the missing components will show an error. You can edit the sequences and their dependent components in the target environment after the import. 
 
 1.	On the **Solutions** page, select the solution. In this example, let’s select **Sequence APAC leads**.
 
@@ -151,13 +143,16 @@ Now, the solution is ready for import.
 
     >[!div class="mx-imgBorder"]
     >![Solution import fail message](media/sa-sequence-migration-import-failed-message.png "Solution import fail message")
+
+    >[!NOTE]
+    >To troubleshoot import related issues for solutions, go to [Troubleshoot solution import errors in Microsoft Dynamics 365](/troubleshoot/dynamics-365/sales/troubleshoot-solution-import-errors-in-dynamics-365)
  
     Select **Show dependencies**. A list of dependencies that aren't available in the environment is displayed. Install the dependencies and import the solution again. 
 
     >[!div class="mx-imgBorder"]
     >![View missing dependencies](media/sa-sequence-migration-view-missing-dependencies.png "View missing dependencies")
-
-    >[NOTE]
+    
+    >[!NOTE]
     >To download and view the error log, select **Download**.
  
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
