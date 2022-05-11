@@ -10,7 +10,7 @@ manager: shujoshi
 
 # Migrate sequences from one environment to another
 
-Use the solution import functionality to migrate sequences from one environment to another to in Dynamics 365 sales.
+Use the solution import functionality to migrate sequences from one environment to another in Dynamics 365 sales.
 
 ## License and role requirements
 | Requirement type | You must have |
