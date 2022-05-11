@@ -28,18 +28,22 @@ You can associate an SLA with an entitlement, so that when an entitlement is add
 
 Alternatively, you can set up a default SLA for the organization. More information: [Set an SLA as the default](define-service-level-agreements.md#set-an-sla-as-the-default).
 
-## Benefits of SLA
+## Benefits of service-level agreements
 
 ### Tracking
+
    - You can create SLA KPIs with target times by setting up customer holiday schedules or customer service schedules to calculate business hours to be considered during time calculation. 
    
   - You can also enable recalculation of SLAs, providing agents with sufficient time to work on their services. More information: [Enable recalculation of SLAs on reaching terminal status](enable-sla-recalculation.md#enable-recalculation-of-slas-on-reaching-terminal-status).
   
   - After you've configured the SLA KPIs, SLAs, and SLA items for an entity, you can add the SLA Timer control to display the SLA KPIs that are configured for the entity. You can customize the views to filter the KPIs and display only the relevant KPIs to agents. More information: [Add a timer control for SLA-enabled entities](add-timer-control-case-form-track-time-against-sla.md#add-a-timer-control-for-sla-enabled-entities). This helps agents monitor their service level performance and meet their service level goals.
+
 ### Prioritization
 
  You can define the set of conditions based on which KPIs are applied to a case, or the set of actions to take as a warning or in case of an SLA breach. More information: [Manage service configuration settings](/power-platform/admin/system-settings-dialog-box-service-tab).
+
 ### Reminders
+
   You can include detailed items to define metrics or key performance indicators (KPIs) to attain that service level. SLA KPIs help you get timely warnings about any issues your customer support team might be having. More information: [Create SLA KPIs](define-service-level-agreements.md#create-sla-kpis).
 
 ### See also
