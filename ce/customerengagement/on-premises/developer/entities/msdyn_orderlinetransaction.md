@@ -190,11 +190,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|Select the amount calculation method used for this project contract estimate line. Valid values are: 
-0: Multiply Quantity By Price
-1: Fixed Price
-2: Multiply Basis Quantity By Price
-3: Multiply Basis Amount By Percent |
+|Description|Select the amount calculation method used for this project contract estimate line. Valid values are: <br>0: Multiply Quantity By Price <br> 1: Fixed Price <br> 2: Multiply Basis Quantity By Price <br> 3: Multiply Basis Amount By Percent |
 |DisplayName|Amount Method|
 |IsValidForForm|True|
 |IsValidForRead|True|

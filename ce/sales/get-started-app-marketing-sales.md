@@ -1,7 +1,7 @@
 ---
 title: "Get started with in-app marketing"
 description: "Learn how to promote your business and improve sales with targeted marketing campaigns in Dynamics 365 Sales."
-ms.date: 04/04/2022
+ms.date: 05/10/2022
 ms.custom: intro-internal
 ms.topic: get-started-article
 author: lavanyakr01
@@ -87,6 +87,6 @@ When a member selects the unsubscribe link, the **Marketing Materials** setting 
 [Add an activity to a campaign using in-app marketing](add-activity-campaign-using-app-marketing-sales.md)   
 [Add a marketing list, sales literature, or product to a campaign using in-app marketing](add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md)   
 [Track a marketing campaign response using in-app marketing](track-marketing-campaign-response-using-app-marketing-sales.md)   
-
+[Troubleshoot issues with in-app marketing](/troubleshoot/dynamics-365/sales/troubleshoot-in-app-marketing-issues)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

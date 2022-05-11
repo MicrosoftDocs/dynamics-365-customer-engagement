@@ -1,7 +1,7 @@
 ---
 title: "Define lead qualification experience in Dynamics 365 Sales"
 description: "Give your salespeople the flexibility to choose which records to create—account, contact, or opportunity—when a lead is qualified."
-ms.date: 10/26/2021
+ms.date: 05/10/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -60,6 +60,7 @@ To go to this setting:
 ### See also
 [Qualify or convert leads](qualify-lead-convert-opportunity-sales.md)  
 [Create or edit leads](create-edit-lead-sales.md)  
+[Troubleshoot issues with lead qualification](/troubleshoot/dynamics-365/sales/troubleshoot-lead-qualification-issues-for-system-admin)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
