@@ -93,7 +93,8 @@ Now that you've added the sequences, export the solution.
 
 ##	Export the solution
 
-Always export the sequence as an unmanaged solution. The unmanaged dependent components of the sequences are automatically added to the solution package; managed components aren't added. When the solution is imported, the steps that depend on the missing components will show an error. You can edit the sequences and their dependent components in the target environment after the import. 
+Always export the sequence as an unmanaged solution. The unmanaged dependent components of the sequences are automatically added to the solution package; managed components aren't added. When the solution is imported, the steps that depend on the missing components will show an error. To resolve the error, install the dependent components in the target environment. More information: [Solution install fails due to missing dependencies](/troubleshoot/dynamics-365/sales/solution-install-fails-due-dependencies).   
+Also, you can edit the sequences and their dependent components in the target environment after the import. 
 
 1.	On the **Solutions** page, select the solution. In this example, let’s select **Sequence APAC leads**.
 
@@ -147,13 +148,15 @@ Now, the solution is ready for import.
     >[!NOTE]
     >To troubleshoot import related issues for solutions, go to [Troubleshoot solution import errors in Microsoft Dynamics 365](/troubleshoot/dynamics-365/sales/troubleshoot-solution-import-errors-in-dynamics-365)
  
-    Select **Show dependencies**. A list of dependencies that aren't available in the environment is displayed. Install the dependencies and import the solution again. 
+    Select **Show dependencies**. A list of dependencies that aren't available in the environment is displayed.  
 
     >[!div class="mx-imgBorder"]
     >![View missing dependencies](media/sa-sequence-migration-view-missing-dependencies.png "View missing dependencies")
     
     >[!NOTE]
     >To download and view the error log, select **Download**.
+
+    Install the dependencies and import the solution again.
  
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
