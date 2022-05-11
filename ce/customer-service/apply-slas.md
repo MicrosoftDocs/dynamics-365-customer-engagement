@@ -57,14 +57,14 @@ You can create entitlements to define support terms. More information: [Associat
 
 ## Set a default SLA
 
-You can set up a apply a default SLA in the Customer Service admin center or Customer Service Hub app by performing the following steps:
+You can apply a default SLA in the Customer Service admin center or Customer Service Hub app by performing the following steps:
 
 1. Go to **Service Level Agreements**.
 
 ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
-  1. In the site map, select **Service terms** in **Operations**. The **Service terms** page appears.
-  2. In the **Service-level agreements (SLAs)** section, select **Manage**.
+ 1. In the site map, select **Service terms** in **Operations**. The **Service terms** page appears.
+ 2. In the **Service-level agreements (SLAs)** section, select **Manage**.
 
 ### [Customer Service Hub](#tab/customerservicehub)
 
@@ -72,7 +72,7 @@ You can set up a apply a default SLA in the Customer Service admin center or Cus
 
 ---
 
-1. Select the required SLA and then select the **Set As Default** option from the ribbon.
+2. Select the required SLA and then select the **Set As Default** option from the ribbon.
 
 ## Apply SLAs manually
 
