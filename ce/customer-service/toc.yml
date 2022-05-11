@@ -534,12 +534,12 @@
             href: /sales/teams-integration/edit-d365-app?context=/dynamics365/context/customer-service-context
           - name: Share feedback
             href: /sales/teams-integration/share-feedback-d365-app?context=/dynamics365/context/customer-service-context
-         - name: Share a record in Teams conversation
-           href: /sales/teams-integration/share-dynamics-records-in-teams?context=/dynamics365/context/customer-service-context
-         - name: View and update record details
-           href: /sales/teams-integration/view-update-dynamics-records?context=/dynamics365/context/customer-service-context
-         - name: Add chat messages to Dynamics 365 as notes or tasks
-           href: /sales/teams-integration/add-chat-d365?context=/dynamics365/context/customer-service-context
+          - name: Share a record in Teams conversation
+            href: /sales/teams-integration/share-dynamics-records-in-teams?context=/dynamics365/context/customer-service-context
+          - name: View and update record details
+            href: /sales/teams-integration/view-update-dynamics-records?context=/dynamics365/context/customer-service-context
+          - name: Add chat messages to Dynamics 365 as notes or tasks
+            href: /sales/teams-integration/add-chat-d365?context=/dynamics365/context/customer-service-context
   - name: Voice
     items:
     - name: Introduction to the voice channel
