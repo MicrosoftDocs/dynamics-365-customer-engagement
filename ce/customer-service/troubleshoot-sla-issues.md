@@ -104,27 +104,27 @@ When the **Applicable when** attribute is updated, the SLA is reevaluated that r
 
 This is the expected behavior for SLAs in the web client. It is recommended to define the **Applicable when** condition on only those attributes whose values don't change frequently.
 
-## SLA KPI Instance doesn't reach Nearing Non-compliance or Non-compliant state. And the SLA KPI Instance timer continues to run
+## SLA KPI Instance doesn't reach Nearing Non-compliance or Non-compliant state, and the SLA KPI Instance timer continues to run
 
-The flow runs created for SLA KPI Instances timer fails with a license error message.
+The flow runs that are created for the SLA KPI Instances timer fail with a license error message.
 
 ### Reason
 
-The **SLAWarningAndExpiryMonitoringFlow** is required to move the **SLA KPI Instances** to **Nearing non-compliance** or **Non-complaint** state. This flow always works in the context of the user who activated the first SLA in the organization. It must be ensured that the user activating the first SLA on the organization must have all the required licenses for the execution of the flow.
+The **SLAWarningAndExpiryMonitoringFlow** is required to move the **SLA KPI Instances** to a **Nearing non-compliance** or **Non-complaint** state. This flow always works in the context of the user who activates the first SLA in the organization. It must be ensured that the user who activates the first SLA on the organization must have all the required licenses for the flow execution.
 
-If the user is missing any of the required licenses, then the flow runs created for the corresponding SLA KPI Instance will fail with a license required error: "The user with SystermUserId = XXXX in OrganizationContext = YYYY is not licensed". Thus, the SLA KPI Instance will never reach the **Nearing non-compliance** or **Non-complaint** state. And the SLA KPI Instance timer will keep on running.
+If the user is missing any of the required licenses, then the flow runs that are created for the corresponding SLA KPI Instance will fail with a license required error: "The user with SystermUserId = XXXX in OrganizationContext = YYYY is not licensed". Thus, the SLA KPI Instance will never reach the **Nearing non-compliance** or **Non-complaint** state and the SLA KPI Instance timer will continue to run.
 
 Additionally, the current owner of the flow must have the required permissions with read and write access for SLAKPIInstance.
 
-If a user who is the current owner of the flow needs to be removed from the organization, it is recommended to first change the owner of the flow to another user. This new user must also have all the required permissions. Once, the new owner is added, the old owner can be removed. This ensures that the flow runs continue to be executed without any issue.
+If a user who is the current owner of the flow needs to be removed from the organization, it is recommended to first change the owner of the flow to another user. This new user must also have all the required permissions. Once a new owner is added, you can remove the previous owner. This will ensure that the flow runs continue to execute without issues.
 
 ### Resolution
 
 To change the owner of any flow, perform the following steps:
 
-1. Navigate to **My flows > Cloud flows** in https://powerautomate.microsoft.com, 
+1. In https://powerautomate.microsoft.com, navigate to **My flows > Cloud flows**.
 1. Search for the failed flow with the error.
-1. Click **Edit**. A new flyout menu appears where a new owner can be set.
+1. Select **Edit**. A new flyout menu is displayed, where you can set a new owner.
 1. In the Owner field, remove the current owner and add the new owner. Ensure that the new owner has all required flow licenses.
 
 ### See also
