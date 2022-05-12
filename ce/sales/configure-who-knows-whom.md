@@ -9,10 +9,7 @@ manager: shujoshi
 ---
 # Configure who knows whom 
 
-The Who knows whom feature helps sellers to quickly identify colleagues who can introduce them to leads or contacts, based on their email interactions. To configure the feature, perform the following tasks:
-1. [Enable the who knows whom feature](#enable-the-who-knows-whom-feature)
-2. [Enable the connection graph](#enable-the-connection-graph)
-
+The Who knows whom feature helps sellers to quickly identify colleagues who can introduce them to leads or contacts, based on their email interactions. 
 
 >[!NOTE]
 >- To know whether the Who knows whom feature is available in your region, see [In which region are the features available?](faqs-sales-insights.md#in-which-region-are-the-features-available).
@@ -55,13 +52,19 @@ The Who knows whom feature helps sellers to quickly identify colleagues who can 
     > For instructions on creating a new email template, go to [Create email templates](/powerapps/user/email-template-create) 
 
 6. Select **Save**.
-1. If your organization is using a custom sales app or a custom form for lead or contact, add the [Who Knows Whom widget](add-ri-widgets-to-custom-form.md) to your app. The widget makes the who knows whom information available to sellers.
-1. Work with your Office 365 administrator to get consent to use Office 365 data. If consent hasn't been given, a message stating the same is displayed in the Who Knows Whom configuration page. For more information, see [Provide consent for collecting data from Office 365](./provide-consent-office365.md).  
+    Who knows whom requires a consent from the Microsoft 365 administrator to use Exchange data. If the consent hasn't been given, the following message is displayed:
+
+    
+    
+    For more information about the consent and where to provide it, see [Provide consent for collecting data from Office 365](./provide-consent-office365.md).  
 
     > [!NOTE]
     > After the consent is provided, the application analyzes Exchange emails pertaining to last two years.  
 
-    The who knows whom feature is ready to use in your organization.
+**Next steps:**
+
+- If your organization is using a custom sales app or a custom form for lead or contact, add the [Who Knows Whom widget](add-ri-widgets-to-custom-form.md) to your app. The widget makes the who knows whom information available to sellers.
+
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
