@@ -56,6 +56,6 @@ Go to the Azure portal, find your IoT Hub resource, then set pricing and scale t
 
 ## Why do I see IoT Edge module data aggregated in charts?
 
-Currently the Connected Field Service implementation with IoT Hub does not support splitting out telemetry day for IoT Edge modules. We're looking to add support for IoT Edge modules in the future.
+Currently, the Connected Field Service implementation with IoT Hub does not support splitting out telemetry data for IoT Edge modules.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
