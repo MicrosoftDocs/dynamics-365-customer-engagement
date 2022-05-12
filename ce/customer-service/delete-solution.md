@@ -1,7 +1,7 @@
 ---
 title: "Uninstall solutions in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Perform the steps mentioned in the topic to remove solutions in Omnichannel for Customer Service."
-ms.date: 05/02/2022
+ms.date: 05/12/2022
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -62,25 +62,13 @@ When you uninstall Omnichannel for Customer Service from your organization, the 
     |	28	|	 `OmnichannelFacebook`	                        |		|
     |	28	|	 `msdyn_OmnichannelBotEnablerPatch`	            |		|
     |	29	|	 `OmnichannelBotEnabler`	                    |		|
-    |	30  |   `OmnichannelTelephony` |  You must delete all the related workstreams before you delete OmnichannelTelephony |
-    |   31	|	 `msdyn_UnifiedRoutingForCS`	                | Required for unified routing in Customer Service		|
-    |	32	|	 `UnifiedRoutingPrimeAnchor`                    | Required for unified routing in Customer Service		|
-    |	33	|	 `msdyn_OmnichannelSBRPatch_managed`	        | Required for unified routing in Customer Service		|
-    |	34	|	 `OmnichannelSBR`                            	| Required for unified routing in Customer Service		|
-    |	35	|	 `OCBaseURBase`	                                | Required for unified routing in Customer Service		|
-    |	36	|	 `OmnichannelBase`	                            | Required for unified routing in Customer Service		|
-    |	37	|	 `MLDecisionEngine`	                            | Required for unified routing in Customer Service		|
-    |	38	|	 `UnifiedRouting`	                            | Required for unified routing in Customer Service		|
-    |	39	|	 `msdyn_UnifiedRoutingForEntity`	            | Required for unified routing in Customer Service		|
-    |	40	|	 `DecisionEngine`	                            | Required for unified routing in Customer Service		|
-    |	41	| `msdynce_AnyEntityRoutingRulePatch202001_managed`	| Required for unified routing in Customer Service		|
-    |	42	|	 `msdynce_AnyEntityRoutingRule`	                | Required for unified routing in Customer Service		|
-    |	43	|	 `ScenariosAndChannels`	                        |		|
-    |	44	|	 `msdyn_CIFrameworkPatch`	                    |		|
-    |	45	|	 `ChannelAPIIntegrationFramework`	            |		|
-    |	46	|	 `OmnichannelIntelligence` 	                    |		|
-    |	47	|	 `OmnichannelConfiguration`                    	|		| 
-    |	48	|	 `msdyn_MacrosDataOmnichannel`	                |		|
+    |	30  |   `OmnichannelTelephony`                          | You must delete all the related workstreams before you delete OmnichannelTelephony |
+    |	31	|	 `ScenariosAndChannels`	                        |		|
+    |	32	|	 `msdyn_CIFrameworkPatch`	                    |		|
+    |	33	|	 `ChannelAPIIntegrationFramework`	            |		|
+    |	34	|	 `OmnichannelIntelligence` 	                    |		|
+    |	35	|	 `OmnichannelConfiguration`                    	|		| 
+    |	36	|	 `msdyn_MacrosDataOmnichannel`	                |		|
     ||||
 
 5. A confirmation message appears that prompts you to uninstall the managed solution. Select **OK**.
