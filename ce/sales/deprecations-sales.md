@@ -18,16 +18,14 @@ ms.custom:
 ---
 # Deprecations in Dynamics 365 Sales 
 
-The features that have been deprecated in Sales are listed in this article. For more information on other deprecations that impact Dynamics 365 customer engagement apps, see [Important changes (deprecations) coming in Power Apps, Power Automate, and customer engagement apps](/power-platform/important-changes-coming) 
-
-Administrators and IT professionals can use this information to prepare for future releases.
+The features that have been deprecated in Sales are listed in this article. For more information on other deprecations that impact all the Dynamics 365 customer engagement apps, see [Important changes (deprecations) coming in Power Apps, Power Automate, and customer engagement apps](/power-platform/important-changes-coming) 
 
 > [!Important]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and is fully supported until it is officially removed. This deprecation notification might span a few years. After removal, the feature or capability will no longer work. We are notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
 
 ## Premium auto capture will be deprecated
 
-Effective July 2022, premium auto capture will be deprecated. This feature enables users to get activity and contact suggestions. The deprecation will impact customers who have enabled the premium auto capture preview.
+Effective July 2022, premium auto capture will be deprecated. The deprecation will impact customers who have enabled the premium auto capture preview. This feature enables users to get activity and contact suggestions. 
 
 You can switch to basic auto capture to get activity suggestions. However, no alternative is available for contact suggestions currently. For more information about basic auto capture, see [Capture customer-related activities with auto capture](auto-capture.md). 
 
