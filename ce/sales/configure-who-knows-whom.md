@@ -54,7 +54,7 @@ The Who knows whom feature helps sellers to quickly identify colleagues who can 
 6. Select **Save**.
     Who knows whom requires a consent from the Microsoft 365 administrator to use Exchange data. If the consent hasn't been given, the following message is displayed:
 
-    
+    <<Screenshot>>
     
     For more information about the consent and where to provide it, see [Provide consent for collecting data from Office 365](./provide-consent-office365.md).  
 
