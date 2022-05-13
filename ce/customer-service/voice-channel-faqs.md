@@ -1,15 +1,15 @@
 ---
-title: "FAQs about the voice channel | MicrosoftDocs"
+title: "FAQ about the voice channel | MicrosoftDocs"
 description: "This article includes frequently asked questions (FAQs) about the voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/04/2022
+ms.date: 04/29/2022
 ms.topic: article
 
 ---
 
-# FAQs about the voice channel in Omnichannel for Customer Service
+# FAQ about the voice channel in Omnichannel for Customer Service
 
 ## Overview
 
@@ -44,6 +44,10 @@ Yes, you have the following two options to bring your existing numbers to Dynami
 - Port the number to Azure Communication Services. This will change ownership of the phone number from the existing carrier to Microsoft. More information: [Quickstart: Port a phone number into Azure Communication Services](/azure/communication-services/quickstarts/telephony/port-phone-number)
 
 - Configure Azure direct routing. This will require you to configure a Session Border Controller (SBC) that is connected to your local carrier with Azure Communication Services, and register the phone number in Dynamics 365. More information: [Azure direct routing infrastructure requirements](/azure/communication-services/concepts/telephony/direct-routing-infrastructure)
+ 
+### How can I acquire additional phone numbers from Azure direct offer?
+
+You can purchase one phone number per tenant for Azure Communication Services through the Azure Portal. To acquire phone numbers in bulk or request for a specific phone number, complete this [form](https://github.com/Azure/Communication/blob/master/Forms/ACS%20-%20Bulk%20Number%20Acquisition.docx) and email it to acstnrequest@microsoft.com. Ensure that the subject line of the email begins with "Azure Communication Services Number Request:"
 
 ### Can I keep my existing contract with my carrier?
 
@@ -71,6 +75,14 @@ See the following topics to set up the interactive voice response (IVR) bot in t
 - [Integrate a Power Virtual Agents bot for voice](voice-channel-ivr-bots.md)
 - [Integrate an Azure bot](configure-bot.md)
 - [Integrate third-party IVR systems with voice channel](voice-channel-contextual-transfer-external-ivr.md)
+
+ ### Should the language of the bot be the same as the primary language configured in the Omnichannel admin center app?
+ 
+Yes, the language of the bot must be the same as that of the voice workstream to which the bot will be attached. You can configure different geographic locales for the bot and voice workstream.<br>
+
+For example, you can set English-UK in the voice profile and English-US in the bot.<br>
+
+The bot's accuracy depends on the similarities between locales. However, if you configure different locales, preconfigured entities for the bot, such as zipcode, might not be accurate. 
 
 ### Can I recover a voice trial after it's no longer provisioned?
 

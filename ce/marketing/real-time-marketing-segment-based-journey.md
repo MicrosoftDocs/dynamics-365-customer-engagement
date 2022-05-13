@@ -19,7 +19,7 @@ search.app:
 
 # Create a segment-based journey
 
-You can use segment-based journeys to create outbound journeys like sending out announcements or a nurture campaign. To create journeys that can react to customers' actions in real time, see [Create an event-based journey](real-time-marketing-event-based-journey.md).
+You can use segment-based journeys to create outbound journeys like sending out announcements or a nurture campaign. To create journeys that can react to customers' actions in real time, see [Create a trigger-based journey](real-time-marketing-trigger-based-journey.md).
 
 ## Creating a segment-based journey to send an announcement
 

@@ -69,20 +69,21 @@ Currently, conversation intelligence supports the following languages:
 
 | Language | Code |
 |----------|------|
-| Arabic | ar-BH |
-| Chinese simplified | zh-CN |
-| Danish | da-DK |
-| Dutch | nl-NL |
-| English | en-US and en-GB |
-| Finnish | fi-FI |
-| French | fr-FR and fr-CA |
-| German | de-DE |
-| Hebrew | he-IL |
-| Italian | it-IT |
-| Japanese | ja-JP |
-| Portuguese | pt-PT and pt-BR |
-| Spanish | es-ES and es-MX |
-| Swedish | sv-SE |
+| Arabic | ar_BH |
+| Chinese simplified | zh_CN |
+| Danish | da_DK |
+| Dutch | nl_NL |
+| English | en_US and en_GB |
+| Finnish | fi_FI |
+| French | fr_FR and fr_CA |
+| German | de_DE |
+| Hebrew | he_IL |
+| Italian | it_IT |
+| Japanese | ja_JP |
+| Norwegian | nb_NO|
+| Portuguese | pt_PT and pt_BR |
+| Spanish | es_ES and es_MX |
+| Swedish | sv_SE |
 
 ## Recommendations to use conversation intelligence   
 Before you start using the application, we suggest you review the following requirements for effective use of conversation intelligence:   

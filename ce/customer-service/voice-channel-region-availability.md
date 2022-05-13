@@ -4,7 +4,7 @@ description: "Use this article to learn about the regional availability and supp
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 03/29/2022
+ms.date: 05/13/2022
 ms.topic: article
 
 ---
@@ -22,8 +22,7 @@ This article provides information about the availability of the voice channel in
 
 ## Supported cloud locations
 
-
-Use the information in the following table to know about the availability of the voice channel in Omnichannel for Customer Service.
+Use the information in the table that follows to know about the availability of the voice channel in Omnichannel for Customer Service.
 
 If the voice channel in Omnichannel for Customer Service for your country or region specific cloud deployments are not yet available, use the general region deployments. For example, country/region cloud for local deployment in the United Kingdom is **To be announced** and is not a part of Europe geographical region availability.
 
@@ -46,10 +45,12 @@ If the voice channel in Omnichannel for Customer Service for your country or reg
 ### Direct offer availability
 
 Azure direct offer or [Microsoft as a carrier](/azure/communication-services/concepts/telephony/telephony-concept) is available for customers with billing locations in the United States, United Kingdom, Ireland, and Puerto Rico.  Azure direct offer supports the following options:
-- The purchase of new US and Puerto Rico numbers. More information: [Subscription eligibility and number capabilities](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability).
-- The porting of existing US or toll-free phone numbers. More information: [Port a phone number](/azure/communication-services/quickstarts/telephony/port-phone-number)
 
- Only the listed billing locations are supported even if Microsoft as a carrier is available in other regions. Customers can select a [different carrier](voice-channel-bring-your-own-number.md) using Azure direct routing.
+- The purchase of new US and Puerto Rico numbers. For information, see [Subscription eligibility and number capabilities](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability).
+- The porting of existing US or toll-free phone numbers. For information, see [Port a phone number](/azure/communication-services/quickstarts/telephony/port-phone-number).
+- The purchase of new numbers in United Kingdom (preview) and Denmark (preview). For information, see [Customers with UK Azure billing addresses](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability#customers-with-uk-azure-billing-addresses) and [Customers with Denmark Azure Billing Addresses](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability#customers-with-denmark-azure-billing-addresses). You can purchase the United Kingdom and Denmark numbers only if you have a billing address in the respective country. You must purchase the numbers through the Azure portal, then you can sync into Omnichannel for Customer Service through the [sync option](voice-channel-acs-resource.md#sync-from-azure).
+
+The listed billing locations only are supported even if Microsoft as a carrier is available in other regions. Customers can select a [different carrier](voice-channel-bring-your-own-number.md) using Azure direct routing.
 
 ### Direct routing availability
 
