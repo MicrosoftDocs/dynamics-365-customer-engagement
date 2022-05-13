@@ -32,7 +32,7 @@ The conversation panel in the agent dashboard includes the following call contro
 - **Hold**: Put the customer on hold; the customer will hear the hold music.
 - **Consult**: Consult with or bring another agent or supervisor into the call. You can have a *public* consultation, where the customer is actively involved in the conversation. Or you can have a *private* consultation, where you can put the customer on hold before you talk to your peers or supervisor.
 - **Transfer**: View the options and transfer the call to:
-    - An agent or queue. During a transfer the following to the queue, the customer is automatically put on hold. When you tranfer a call to another agent, your number is displayed on the called id. The transcription and recording of transferred calls continue unless the administrator hasn't enabled the [option](voice-channel-configure-transcripts.md#enable-call-recordings-and-transcripts-for-voice) or if you disable recording from the dashboard.
+    - An agent or queue. During a transfer the following to the queue, the customer is automatically put on hold. When you tranfer a call to another agent, your number is displayed on the called id. The transcription and recording of transferred calls will continue unless the administrator hasn't enabled the [option](voice-channel-configure-transcripts.md#enable-call-recordings-and-transcripts-for-voice) or if you disable recording from the dashboard.
     - A Teams user
     - An external phone number
 - **End**: End the call.
