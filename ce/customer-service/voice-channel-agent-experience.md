@@ -1,7 +1,7 @@
 ---
 title: "Use agent dashboard and call controls in the voice channel | MicrosoftDocs"
 description: "Use this article to understand how the agent can use the agent dashboard, use call controls, and also make and receive customer calls in Omnichannel for Customer Service."
-ms.date: 04/05/2022
+ms.date: 05/13/2022
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: gandhamm
