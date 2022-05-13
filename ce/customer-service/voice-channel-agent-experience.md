@@ -33,9 +33,9 @@ The conversation panel in the agent dashboard includes the following call contro
 - **Consult**: Consult with or bring another agent or supervisor into the call. You can have a *public* consultation, where the customer is actively involved in the conversation. Or you can have a *private* consultation, where you can put the customer on hold before you talk to your peers or supervisor.
 - **Transfer**: View the options and transfer the call to:
     - An agent or queue.
-    During a transfer to the queue, the customer is automatically put on hold. When you tranfer a call to another agent, your number is displayed on the called id. The transcription and recording of transferred calls will continue if the administrator has enabled the [option](voice-channel-configure-transcripts.md#enable-call-recordings-and-transcripts-for-voice). You can disable recording from the dashboard.
     - A Teams user
     - An external phone number
+  During a transfer to the queue, the customer is automatically put on hold. When you transfer a call to another agent, your number is displayed on the called id. The transcription and recording of transferred calls will continue if the administrator has enabled the [option](voice-channel-configure-transcripts.md#enable-call-recordings-and-transcripts-for-voice). You can disable recording from the dashboard.
 - **End**: End the call.
 - **Show number pad**: Open the number pad so you can dial an extension number, when required.
 - **Mark number as spam**: [Report the incoming call as spam](#report-a-phone-number-as-spam). If you happened to accidentally mark a number as spam, you can select the **Unmark as spam** option.
