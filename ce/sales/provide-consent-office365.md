@@ -22,7 +22,7 @@ Previously, the consent for these capabilities were provided from **Microsoft 36
 
 The Relationship analytics and who knows whom capabilities in Dynamics 365 Sales include insights based on email interactions from Exchange Online. 
 
-To enable Dynamics 365 to collect information from your organization's Exchange server, your Office 365 administrator must provide consent to use Exchange data.  
+To enable Dynamics 365 to collect information from your organization's Exchange server, your Microsoft 365 administrator must provide consent to use Exchange data.  
 
 > [!NOTE]
 > When the consent is provided, Dynamics 365 analyzes Exchange emails pertaining to last two years.  
@@ -41,7 +41,7 @@ If you're Microsoft 365 administrator, here's how you provide consent:
 
 4. (Optional) Opt out security groups of users who don't want to share their collaboration and communication data. Add their Microsoft 365 security group ID in the text box.
 1. Save the changes.  
-    Dynamics 365 applications can now access the Office 365 data.
+    Dynamics 365 applications can now access the Microsoft 365 data.
 
 
 ### See also
