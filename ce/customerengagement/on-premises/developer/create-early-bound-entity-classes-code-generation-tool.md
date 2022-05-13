@@ -15,7 +15,7 @@ search.audienceType:
 
 ---
 
-# Create early bound entity classes with the code generation tool (CrmSvcUtil.exe)
+# How to create early bound entity classes with the code generation tool (CrmSvcUtil.exe)
 
 **CrmSvcUtil.exe** is a command-line code generation tool for use Dynamics 365 Customer Engagement (on-premises). This tool generates early-bound [!INCLUDE[pn_NET_Framework](../includes/pn-net-framework.md)] classes that represent the entity data model used by Dynamics 365 Customer Engagement (on-premises).
 

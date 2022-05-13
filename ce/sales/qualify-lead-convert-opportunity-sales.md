@@ -1,7 +1,7 @@
 ---
 title: "Qualify and convert leads to opportunity | MicrosoftDocs"
 description: "Qualify the lead after you've identified the time frame, budget, and purchase process of the lead."
-ms.date: 04/06/2022
+ms.date: 05/10/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -128,6 +128,7 @@ When salespeople work on a lead, they use notes to store key information on the 
 [Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  
 [Boost sales with Versium Predict](../versium-predict/versium-predict.md)  
 [Get sales Insights, powered by InsideView](../insights-insideview/insights-powered-by-insideview.md)  
+[Troubleshoot issues with lead qualification issues](/troubleshoot/dynamics-365/sales/troubleshoot-lead-qualification-issues-for-salespeople)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
