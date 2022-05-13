@@ -4,7 +4,7 @@ description: "Use this article to learn about the regional availability and supp
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/11/2022
+ms.date: 05/13/2022
 ms.topic: article
 
 ---
@@ -48,7 +48,7 @@ Azure direct offer or [Microsoft as a carrier](/azure/communication-services/con
 
 - The purchase of new US and Puerto Rico numbers. For information, see [Subscription eligibility and number capabilities](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability).
 - The porting of existing US or toll-free phone numbers. For information, see [Port a phone number](/azure/communication-services/quickstarts/telephony/port-phone-number).
-- The purchase of new numbers in United Kingdom and Denmark (preview). For information, see [Customers with UK Azure billing addresses](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability#customers-with-uk-azure-billing-addresses) and [Customers with Denmark Azure Billing Addresses](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability#customers-with-denmark-azure-billing-addresses). You can purchase the United Kingdom and Denmark numbers only if you have a billing address in the respective country. After you purchase the numbers through the Azure portal, you can sync with Omnichannel for Customer Service through the [sync option](voice-channel-acs-resource.md#sync-from-azure).
+- The purchase of new numbers in United Kingdom (preview) and Denmark (preview). For information, see [Customers with UK Azure billing addresses](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability#customers-with-uk-azure-billing-addresses) and [Customers with Denmark Azure Billing Addresses](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability#customers-with-denmark-azure-billing-addresses). You can purchase the United Kingdom and Denmark numbers only if you have a billing address in the respective country. You must purchase the numbers through the Azure portal, then you can sync into Omnichannel for Customer Service through the [sync option](voice-channel-acs-resource.md#sync-from-azure).
 
 The listed billing locations only are supported even if Microsoft as a carrier is available in other regions. Customers can select a [different carrier](voice-channel-bring-your-own-number.md) using Azure direct routing.
 
