@@ -1,7 +1,7 @@
 ---
 title: Configure relationship analytics and health
 description: Configure relationship analytics to help sales teams monitor customer relationship health and risks in Dynamics 365 Sales.
-ms.date: 03/28/2022
+ms.date: 05/13/2022
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -28,18 +28,28 @@ Relationship analytics appears on Sales Insights opportunity record forms. Relat
 ## Turn on and configure relationship analytics and health
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
-1. Under **Relationship insights**, select **Analytics and health**.
+1. Under **Relationship insights**, select **Overview**.
 
     >[!NOTE]
-    >If you don't see **Analytics and health**, make sure the advanced Sales Insights features are turned on. To learn more, see [Install and configure premium Sales Insights features](./intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features).
+    >If you don't see **Relationship insights**, make sure the advanced Sales Insights features are turned on. To learn more, see [Install and configure premium Sales Insights features](./intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features).
+
+1. Turn on the toggle under **Get started with Relationship Intelligence** to enable the relationship intelligence features such as relationship analytics and who knows whom.
 
 1. Turn on **Relationship analytics and health**.
+    With this selection, relationship analytics can get insights based on your Dynamics 365 data. If you want to get advanced insights from office data, your Microsoft 365 admin must give consent. If the consent hasn't been given, the following message is displayed:
+    
+    `Relationship analytics is enabled. Aggregated insights for users consent required for office data.`
 
-1. Under **Data Sources**, select **Exchange Online** ​to include emails from Exchange Online in KPI calculations and analytics.
+    Work with your Microsoft 365 administrator to get consent. For more information, see [Provide consent for collecting data from Office 365](./provide-consent-office365.md). 
 
-    >[!NOTE]
-    >- Your Office 365 administrator must give consent to use Office 365 data before relationship analytics can include Exchange Online emails. If consent hasn't been given, a message displays stating the same. Work with your Office 365 administrator to get consent. For more information, see [Provide consent for collecting data from Office 365](./provide-consent-office365.md).  
-    >- The application analyzes the Exchange emails data pertaining to two years, including the current year.  
+    > [!NOTE]
+    > After the consent is provided, Dynamics 365 will analyze Exchange emails pertaining to the last two years.  
+
+    If you don't want to use Office data, you can turn it off as described in the following steps.
+   
+1. Select **Settings** next to the **Relationship Analytics** toggle to configure additional settings.
+
+1. Under **Data Sources**, turn off **Exchange Online** if you don't want to include emails from Exchange Online in KPI calculations and analytics.
 
     :::image type="content" source="./media/si-admin-relationship-analytics-enable-in-organization.png" alt-text="A screenshot of the Relationship analytics and health settings page.":::
 
@@ -69,12 +79,17 @@ Relationship analytics appears on Sales Insights opportunity record forms. Relat
     :::image type="content" source="./media/relationship-analytics-health-score-grading.png" alt-text="A screenshot of the Relationship analytics and health settings page, with the Health score grading settings shown.":::
 
 1. Select **Save**.
+    Relationship analytics is now enabled and configured for your organization. To view the analytics, see [Use relationship analytics to gather KPIs](../sales/relationship-analytics.md).
+
+**Next steps:**
+
+- If your organization is using a custom sales app or a custom form for lead or contact, add the [relationship analytics widget](add-ri-widgets-to-custom-form.md) to your app. The widget makes the relationship health information available to sellers.
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ### See also
 
-[Use relationship analytics to gather KPIs](../sales/relationship-analytics.md)  
+
 [Add Relationship intelligence widgets to custom forms](add-ri-widgets-to-custom-form.md)  
 [GDPR for Sales Insights](embedded-intelligence-gdpr.md)  
 [View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)  

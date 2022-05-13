@@ -1,7 +1,7 @@
 ---
 title: "Configure who knows whom"
 description: "Configure who knows whom to help sellers quickly identify colleagues within their organization who can introduce them to leads or contacts."
-ms.date: 03/15/2022
+ms.date: 05/13/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -28,22 +28,19 @@ The Who knows whom feature helps sellers to quickly identify colleagues who can 
 
 ## Turn on the who knows whom feature
 
-> [!IMPORTANT]
-> Currently, users can't be opted out of this feature. This limitation means that users can't prevent their names from appearing in contact suggestions. If the ability to opt out is important for your organization, don't turn on the Who Knows Whom feature.
-
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**. 
      
-3.  Under **Relationship insights**, select **Who knows whom**.
+3.  Under **Relationship insights**, select **Overview**.
 
-    > [!NOTE]
-    > If you don't see the **Who knows whom** menu, verify whether the advanced Sales Insights features are enabled. To learn more, see [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features).
+    >[!NOTE]
+    >If you don't see **Relationship insights**, make sure the advanced Sales Insights features are turned on. To learn more, see [Install and configure premium Sales Insights features](./intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features).
 
-4. In the **Who knows whom** section, select **Turn on Who Knows Whom for your organization**.
-
+1. Turn on the toggle under **Get started with Relationship Intelligence** to enable the relationship intelligence features such as relationship analytics and who knows whom.
+1. Turn on **Who Knows Whom**.
     > [!div class="mx-imgBorder"]
     > ![Enable who knows whom](media/si-admin-who-knows-whom-enable.png "Enable who knows whom")
 
-5. (Optional) Select the email template to use when a seller wants to contact a colleague, so as to get introduced to a lead or contact. By default, the who knows whom introduction emails template is selected.
+5. (Optional) Select the email template to use when a seller wants to contact a colleague to get introduced to a lead or contact. By default, the who knows whom introduction emails template is selected.
     
     The following screenshot shows an example introduction email:
 
@@ -52,14 +49,15 @@ The Who knows whom feature helps sellers to quickly identify colleagues who can 
     > For instructions on creating a new email template, go to [Create email templates](/powerapps/user/email-template-create) 
 
 6. Select **Save**.
-    Who knows whom requires a consent from the Microsoft 365 administrator to use Exchange data. If the consent hasn't been given, the following message is displayed:
-
-    <<Screenshot>>
+    Who knows whom requires a consent from the Microsoft 365 administrator to use Exchange data. If the consent hasn't been given, the following message is displayed: 
     
+    `Who knows whom is enabled but not active. Aggregated insights for users consent required for office data.`
+
     For more information about the consent and where to provide it, see [Provide consent for collecting data from Office 365](./provide-consent-office365.md).  
 
     > [!NOTE]
-    > After the consent is provided, the application analyzes Exchange emails pertaining to last two years.  
+    > After the consent is provided, Dynamics 365 will analyze Exchange emails pertaining to the last two years.  
+
 
 **Next steps:**
 
@@ -70,7 +68,6 @@ The Who knows whom feature helps sellers to quickly identify colleagues who can 
 
 ### See also
 
-[Add Relationship intelligence widgets to custom forms](add-ri-widgets-to-custom-form.md)  
 [Get introduced to a lead](../sales/who-knows-whom.md)  
 [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)  
 [Who knows whom FAQs](faqs-sales-insights.md#who-knows-whom)
