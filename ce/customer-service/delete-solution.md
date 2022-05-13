@@ -1,7 +1,7 @@
 ---
 title: "Uninstall solutions in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Perform the steps mentioned in the topic to remove solutions in Omnichannel for Customer Service."
-ms.date: 05/12/2022
+ms.date: 05/13/2022
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
