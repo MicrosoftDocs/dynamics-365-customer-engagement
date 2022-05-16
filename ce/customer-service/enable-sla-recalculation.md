@@ -51,5 +51,5 @@ You can enable the recalculation of SLAs that reach the terminal status in the C
 ### See also
 
 [Define service-level agreements](define-service-level-agreements.md)  
-[How SLAs are applied](define-service-level-agreements.md#how-is-the-sla-applied)  
+[Apply SLAs](apply-slas.md#apply-slas) 
 [Enable records for SLA](enable-entities-service-level-agreements.md)  

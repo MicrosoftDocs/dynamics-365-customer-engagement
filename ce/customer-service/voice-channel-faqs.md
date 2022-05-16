@@ -76,6 +76,14 @@ See the following topics to set up the interactive voice response (IVR) bot in t
 - [Configure Azure bots for voice](voice-channel-azure-bot-service.md)
 - [Integrate third-party IVR systems with voice channel](voice-channel-contextual-transfer-external-ivr.md)
 
+ ### Should the language of the bot be the same as the primary language configured in the Omnichannel admin center app?
+ 
+Yes, the language of the bot must be the same as that of the voice workstream to which the bot will be attached. You can configure different geographic locales for the bot and voice workstream.<br>
+
+For example, you can set English-UK in the voice profile and English-US in the bot.<br>
+
+The bot's accuracy depends on the similarities between locales. However, if you configure different locales, preconfigured entities for the bot, such as zipcode, might not be accurate. 
+
 ### Can I recover a voice trial after it's no longer provisioned?
 
 No, you can't recover your data after the trial organization is deprovisioned.

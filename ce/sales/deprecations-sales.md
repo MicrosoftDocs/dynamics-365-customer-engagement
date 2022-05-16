@@ -1,7 +1,7 @@
 ---
 title: Deprecations in Dynamics 365 Sales | MicrosoftDocs
 description: Visit this page to see what's deprecated in Dynamics 365 Sales.
-ms.date: 04/01/2022
+ms.date: 05/12/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -18,22 +18,17 @@ ms.custom:
 ---
 # Deprecations in Dynamics 365 Sales 
 
-The features that have been deprecated in Sales are listed in this article. For more information on other deprecations that impact Dynamics 365 customer engagement apps, see [Important changes (deprecations) coming in Power Apps, Power Automate, and customer engagement apps](/power-platform/important-changes-coming) 
-
-Administrators and IT professionals can use this information to prepare for future releases.
+The features that have been deprecated in Sales are listed in this article. For more information on other deprecations that impact all the Dynamics 365 customer engagement apps, see [Important changes (deprecations) coming in Power Apps, Power Automate, and customer engagement apps](/power-platform/important-changes-coming) 
 
 > [!Important]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and is fully supported until it is officially removed. This deprecation notification might span a few years. After removal, the feature or capability will no longer work. We are notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
 
 ## Premium auto capture will be deprecated
 
-| &nbsp; | &nbsp; | 
-|-------------|------------|
-| Reason for deprecation/removal | Lower adoption. |
-| Replaced by another feature? | Partly. Switch to basic auto capture for activity suggestions. No alternative available for contact suggestions currently.  |
-| Product areas affected | Application |
-| Deployment option | All |
-| Status | Will be removed in July 2022  |
+Effective July 2022, premium auto capture will be deprecated. The deprecation will impact customers who have enabled the premium auto capture preview. This feature enables users to get activity and contact suggestions. 
+
+You can switch to basic auto capture to get activity suggestions. However, no alternative is available for contact suggestions currently. For more information about basic auto capture, see [Capture customer-related activities with auto capture](auto-capture.md). 
+
 > [!NOTE]
 > If you’ve added the premium auto capture suggestion grid to your custom app, remove it manually. The grid will not show any suggestions after the feature is deprecated.  
 
@@ -56,15 +51,9 @@ It is our goal to deliver a powerful bot experience that allows users to retriev
 Effective April 1, 2021, Dynamics 365 – Gamification is deprecated. Until September 30, 2021, Microsoft provided limited support for this solution. From October 1, 2021, the Dynamics 365 – Gamification solution won’t be functional. To uninstall Gamification, delete the **GamificationUpdater** and **Gamification** solutions from the Dynamics 365 organization. Note that you must first delete the **GamificationUpdater** solution followed by the **Gamification** solution. More information: [Delete a preferred solution](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn878909(v=crm.8)#Delete%20a%20preferred%20solution).
 
 
-## Dynamics 365 assistant application for Teams
+## Dynamics 365 assistant application for Teams is deprecated
 
-| &nbsp; | &nbsp; | 
-|-------------|------------|
-| Reason for deprecation/removal | Not legally required. |
-| Replaced by another feature? | Yes. An improved version of the application for mobile devices with features that include some of the capabilities of Dynamics 365 assistant application for Teams. |
-| Product areas affected | Application |
-| Deployment option | All |
-| Status | Removed: By October 15, 2020 |
+Effective October 15, 2020, assistant application for Teams is deprecated. The Dynamics 365 Sales mobile app has been enhanced to include some of the features of the assistant application for Teams. More information: [Use the Dynamics 365 Sales mobile app](sales-mobile/use-sales-mobile-app.md)
 
 
 ## Dynamics 365 Product Visualize is deprecated

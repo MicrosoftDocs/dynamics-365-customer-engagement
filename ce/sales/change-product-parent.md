@@ -1,7 +1,7 @@
 ---
 title: "Change the parent of a product (reparenting) (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Create a product hierarchy by associating products and product families in a parent-child relationship in Dynamics 365 Sales."
-ms.date: 03/23/2022
+ms.date: 05/10/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -56,7 +56,8 @@ When you change the parent of a product, inherited properties from the previous 
 ### See also
 
 [Set up products (Sales and Sales Hub)](create-product-sales.md)  
-[Set up a product family (Sales and Sales Hub)](create-product-family.md) 
+[Set up a product family (Sales and Sales Hub)](create-product-family.md)   
+[Troubleshoot issues with products](/troubleshoot/dynamics-365/sales/troubleshoot-products-issues)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
