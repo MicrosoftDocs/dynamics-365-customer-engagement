@@ -1,8 +1,7 @@
 ---
 title: "Design, check, and publish marketing pages (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to design and deploy landing, forwarding, and subscription pages in Dynamics 365 Marketing."
-ms.date: 12/16/2021
-
+ms.date: 05/05/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -19,6 +18,8 @@ search.app:
 ---
 
 # Create and deploy marketing pages
+
+[!INCLUDE[marketing-trial-cta](../shared/trials/marketing-trial-cta.md)]
 
 A marketing page is a webpage that includes a form where people can register for an offer, update their contact information, manage mailing list subscriptions, and more. All the information submitted through a marketing page is automatically captured by Dynamics 365 Marketing and applied immediately to your customer database.
 

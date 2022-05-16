@@ -1,31 +1,30 @@
 ---
-title: "Regional availability of the voice channel | MicrosoftDocs"
-description: "Use this article to learn about the regional availability and supported languages for the voice channel in Omnichannel for Customer Service."
+title: "Supported cloud locations, languages, and locale codes | MicrosoftDocs"
+description: "Use this article to learn about the supported cloud locations, languages, and locale codes for the voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 03/29/2022
+ms.date: 05/16/2022
 ms.topic: article
 
 ---
 
-# Regional availability and supported languages for the voice channel
+# Supported cloud locations, languages, and locale codes 
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Introduction
 
-This article provides information about the availability of the voice channel in different geographical regions, supported languages, locale codes, and language limitations by feature.
+This article provides information about the supported cloud locations, languages, and locale codes.
 
 > [!NOTE]
-> For information about availability of live chat and digital messaging channels, see [International availability of Omnichannel for Customer Service](international-availability.md#international-availability-of-omnichannel-for-customer-service).
+> For information about international availability of live chat and digital messaging channels, see [International availability of Omnichannel for Customer Service](international-availability.md#international-availability-of-omnichannel-for-customer-service).
 
 ## Supported cloud locations
 
-
 Use the information in the following table to know about the availability of the voice channel in Omnichannel for Customer Service.
 
-If the voice channel in Omnichannel for Customer Service for your country or region specific cloud deployments are not yet available, use the general region deployments. For example, country/region cloud for local deployment in the United Kingdom is **To be announced** and is not a part of Europe geographical region availability.
+If the voice channel in Omnichannel for Customer Service for your country or region-specific cloud deployments are not yet available, use the general region deployments. For example, country/region cloud for local deployment in the United Kingdom is **To be announced** and is not a part of Europe geographical region availability.
 
  If you need your data to stay within a country or region, stay tuned for country or region-specific local deployment of the voice channel. More information: [Datacenter regions](/power-platform/admin/new-datacenter-regions)
 
@@ -46,29 +45,30 @@ If the voice channel in Omnichannel for Customer Service for your country or reg
 ### Direct offer availability
 
 Azure direct offer or [Microsoft as a carrier](/azure/communication-services/concepts/telephony/telephony-concept) is available for customers with billing locations in the United States, United Kingdom, Ireland, and Puerto Rico.  Azure direct offer supports the following options:
-- The purchase of new US and Puerto Rico numbers. More information: [Subscription eligibility and number capabilities](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability).
-- The porting of existing US or toll-free phone numbers. More information: [Port a phone number](/azure/communication-services/quickstarts/telephony/port-phone-number)
 
- Only the listed billing locations are supported even if Microsoft as a carrier is available in other regions. Customers can select a [different carrier](voice-channel-bring-your-own-number.md) using Azure direct routing.
+- The purchase of new US and Puerto Rico numbers. For information, see [Subscription eligibility and number capabilities](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability).
+- The porting of existing US or toll-free phone numbers. For information, see [Port a phone number](/azure/communication-services/quickstarts/telephony/port-phone-number).
+- The purchase of new numbers in United Kingdom (preview) and Denmark (preview). For information, see [Customers with UK Azure billing addresses](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability#customers-with-uk-azure-billing-addresses) and [Customers with Denmark Azure Billing Addresses](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability#customers-with-denmark-azure-billing-addresses). You can purchase the United Kingdom and Denmark numbers only if you have a billing address in the respective country. You must purchase the numbers through the Azure portal, then you can sync into Omnichannel for Customer Service through the [sync option](voice-channel-acs-resource.md#sync-from-azure).
+
+The listed billing locations only are supported even if Microsoft as a carrier is available in other regions. Customers can select a [different carrier](voice-channel-bring-your-own-number.md) using Azure direct routing.
 
 ### Direct routing availability
 
-Bring your own carrier through [Azure direct routing](/azure/communication-services/concepts/telephony/telephony-concept#azure-direct-routing) is supported across all geographic locations using certified Session Border Controllers. More information: [Bring your own carrier](voice-channel-bring-your-own-number.md). 
+Bring your own carrier through [Azure direct routing](/azure/communication-services/concepts/telephony/telephony-concept#azure-direct-routing) is supported across all geographic locations using certified Session Border Controllers. More information: [Bring your own carrier](voice-channel-bring-your-own-number.md)
 
- In the geographic region where the voice channel is generally available, Azure direct routing extends general availability support.
+In the geographic location where the voice channel is generally available, Azure direct routing extends general availability support.
 
 ## Supported languages and locale codes
 
 See the information in the following table to know about the supported languages and locale codes.
 
-We use the Azure Cognitive Services Speech service Speech-to-Text for transcription, so we'll support all the languages that Speech-to-Text supports today. We also support a bring-your-own bot through Azure Bot Service for Interactive Voice Response (IVR) that will be constrained by the languages that Speech-to-Text supports. End-to-end voice and IVR support is available only if a language is supported in the Power Virtual Agents or Azure bot service, and Omnichannel for Customer Service. Sentiment and AI insights are optional for the voice functionality.  
+We use the Azure Cognitive Services Speech service Speech-to-Text for transcription, so we'll support all the languages that Speech-to-Text supports today. We also support a bring-your-own bot through Azure Bot Service for Interactive Voice Response (IVR) that will be constrained by the languages that Speech-to-Text supports. End-to-end voice and IVR support is available only if a language is supported in the Power Virtual Agents or Azure Bot Service, and Omnichannel for Customer Service. Sentiment and AI insights are optional for the voice functionality.  
 
-
-| Language | Language code | Voice channel in Omnichannel for Customer Service | Power Virtual Agents | Speech-to-Text |Text-to-Speech | Sentiment | AI suggestions | UI language support |
-|---|---|---|---|---|---|--|--|--|
+| Language | Locale code | Voice channel | Power Virtual Agents | Speech-to-Text | Text-to-Speech | Sentiment | AI suggestions | UI language support |
+|----|----|----|----|----|----|----|----|----|
 | Afrikaans - South Africa | `af- ZA` |x|x|x|x|x|x|x|
 | Albanian | `sq` |x|x|x|x|x|x|x|
-| Amharic | `am- ET` |x|x|x|x|x|x|
+| Amharic | `am- ET` |x|x|x|x|x|x|x|
 | Arabic - Algeria| `ar-DZ` |x|x|✔|✔|x|x|x|
 | Arabic - Bahrain| `ar-BH` |x|x|✔|✔|x|x|x|
 | Arabic - Egypt| `ar-EG` |x|x|✔|✔|x|x|x|
@@ -252,5 +252,5 @@ Use the information in the following table to find out more about language suppo
 ### See also
 
 [Overview of the voice channel](voice-channel.md)  
-[FAQs about the voice channel in Omnichannel for Customer Service](voice-channel-faqs.md)  
+[FAQ about the voice channel in Omnichannel for Customer Service](voice-channel-faqs.md)  
 

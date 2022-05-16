@@ -432,7 +432,7 @@ Sdk.startSample = function () {
  [Perform conditional operations using the Web API](perform-conditional-operations-using-web-api.md)   
  [Web API Samples](web-api-samples.md)   
  [Web API Conditional Operations Sample](web-api-conditional-operations-sample.md)   
- [Web API Conditional Operations Sample (C#)](web-api-conditional-operations-sample-csharp.md)   
+ [Web API Conditional Operations Sample (C#)](/power-apps/developer/data-platform/webapi/samples/cdswebapiservice-conditional-operations)   
  [Web API Samples (Client-side JavaScript)](web-api-samples-client-side-javascript.md)   
  [Web API Basic Operations Sample (Client-side JavaScript)](web-api-basic-operations-sample-client-side-javascript.md)   
  [Web API Query Data Sample (Client-side JavaScript)](web-api-query-data-sample-client-side-javascript.md)   

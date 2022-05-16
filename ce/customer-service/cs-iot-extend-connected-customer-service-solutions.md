@@ -22,7 +22,7 @@ The Azure services and components, including the ones detailed in [Connected Cus
   
  Although extending these Azure services (or adding additional ones) is beyond the scope of this topic, there are ample resources available to the developer, including the following from Microsoft:  
   
--   The [Microsoft Azure](https://azure.microsoft.com/) site for product descriptions, pricing and trial offers, documentation, downloads, blogs, and related resources, including the [Azure Documentation Center](https://azure.microsoft.com/documentation/) for developers and administrators. Most developers will want to download one or more [Azure SDKs](https://azure.microsoft.com/downloads/) and tools such as the [Azure Storage Explorer](https://storageexplorer.com/) and the [Azure Device Explorer](https://github.com/Azure/azure-iot-sdks/blob/master/tools/DeviceExplorer/doc/how_to_use_device_explorer.md).  
+-   The [Microsoft Azure](https://azure.microsoft.com/) site for product descriptions, pricing and trial offers, documentation, downloads, blogs, and related resources, including the [Azure Documentation Center](https://azure.microsoft.com/documentation/) for developers and administrators. Most developers will want to download one or more [Azure SDKs](https://azure.microsoft.com/downloads/) and tools such as the [Azure Storage Explorer](https://storageexplorer.com/) and the [Azure Device Explorer](/azure/iot-fundamentals/howto-use-iot-explorer).  
   
 -   [MSDN Azure Technical Documentation Library](/azure/) for developer-oriented information and downloads  
   
