@@ -13,7 +13,7 @@ manager: shujoshi
 
 Your organization's sales teams can use the relationship analytics in Dynamics 365 Sales to monitor the health and risks of their customer relationships. Graphical representations of KPIs and activity histories are available for any contact, opportunity, lead, or account. Detailed analytics about customer interactions, patterns, and trends are based on interaction data from Dynamics 365 and Office. With more accurate and complete relationship information, sales teams can more effectively identify customers who need their attention.
 
-Relationship analytics appears on Sales Insights opportunity record forms. Relationship health appears on opportunity record forms, list views, and charts.
+Relationship analytics appears on Sales Insights opportunity record forms. Relationship health appears on opportunity record forms, list views, and charts. For more information how the relationship analytics and health scores appear for sellers, see [Use relationship analytics to gather KPIs](relationship-analytics.md).
 
 ## License and role requirements
 | Requirement type | You must have |
@@ -31,32 +31,29 @@ Relationship analytics appears on Sales Insights opportunity record forms. Relat
 1. Under **Relationship insights**, select **Overview**.
 
     >[!NOTE]
-    >If you don't see **Relationship insights**, make sure the advanced Sales Insights features are turned on. To learn more, see [Install and configure premium Sales Insights features](./intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features).
+    >If you don't see **Relationship insights**, make sure the premium Sales Insights features are turned on. To learn more, see [Install and configure premium Sales Insights features](./intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features).
 
 1. Turn on the toggle under **Get started with Relationship Intelligence** to enable the relationship intelligence features such as relationship analytics and who knows whom.
 
 1. Turn on **Relationship analytics and health**.
-    With this selection, relationship analytics can get insights based on your Dynamics 365 data. If you want to get advanced insights from office data, your Microsoft 365 admin must give consent. If the consent hasn't been given, the following message is displayed:
-    
-    `Relationship analytics is enabled. Aggregated insights for users consent required for office data.`
-
-    Work with your Microsoft 365 administrator to get consent. For more information, see [Provide consent for collecting data from Office 365](./provide-consent-office365.md). 
+    With this selection, relationship analytics can get insights based on your Dynamics 365 data. If you want to get comprehensive insights from office data, your Microsoft 365 admin must give consent. If the consent hasn't been given, a message indicating the same is displayed. Work with your Microsoft 365 administrator to [get consent](provide-consent-office365.md).
 
     > [!NOTE]
-    > After the consent is provided, Dynamics 365 will analyze Exchange emails pertaining to the last two years.  
+    >- After the consent is provided, Dynamics 365 will analyze Exchange emails pertaining to the last one year.  
+    >- Make sure the consent is provided within 14 days of turning on the feature. Otherwise, it'll be automatically turned off on the 14th day. You need to turn it on again. 
 
     If you don't want to use Office data, you can turn it off as described in the following steps.
    
 1. Select **Settings** next to the **Relationship Analytics** toggle to configure additional settings.
 
-1. Under **Data Sources**, turn off **Exchange Online** if you don't want to include emails from Exchange Online in KPI calculations and analytics.
+1. Under **Data Sources**, turn off **Exchange Online** if you don't want to include emails and meetings from Exchange Online in KPI calculations and analytics.
 
     :::image type="content" source="./media/si-admin-relationship-analytics-enable-in-organization.png" alt-text="A screenshot of the Relationship analytics and health settings page.":::
 
-1. To show the relationship health score in opportunities, views, and charts, turn on **Relationship Health**.
+1. To show the relationship health score in opportunities, views, and charts, turn on **Relationship Health**. For more information on relationship health, see [Use relationship analytics to gather KPIs](relationship-analytics.md).
 
     >[!NOTE]
-    >You can turn this option off if you don't want to show the score. However, relevant health data is still collected.
+    >You can turn off this option if you don't want to show the score. However, relevant health data is still collected.
 
     :::image type="content" source="./media/relationship-analytics-relationship-health-enable.png" alt-text="A screenshot of the Relationship analytics and health settings page, with the Relationship Health option shown.":::
 

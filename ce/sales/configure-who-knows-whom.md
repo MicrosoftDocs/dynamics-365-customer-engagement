@@ -9,7 +9,7 @@ manager: shujoshi
 ---
 # Configure who knows whom 
 
-The Who knows whom feature helps sellers to quickly identify colleagues who can introduce them to leads or contacts, based on their email interactions. 
+Based on email interactions of colleagues in the organization, the who knows whom feature suggests who can introduce the seller to a lead or contact. 
 
 >[!NOTE]
 >- To know whether the Who knows whom feature is available in your region, see [In which region are the features available?](faqs-sales-insights.md#in-which-region-are-the-features-available).
@@ -56,7 +56,7 @@ The Who knows whom feature helps sellers to quickly identify colleagues who can 
     For more information about the consent and where to provide it, see [Provide consent for collecting data from Office 365](./provide-consent-office365.md).  
 
     > [!NOTE]
-    > After the consent is provided, Dynamics 365 will analyze Exchange emails pertaining to the last two years.  
+    > After the consent is provided, Dynamics 365 will analyze Exchange emails pertaining to the last one year.  
 
 
 **Next steps:**
