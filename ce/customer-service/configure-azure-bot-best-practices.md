@@ -1,7 +1,7 @@
 ---
 title: "Best practices for configuring Azure bots | MicrosoftDocs"
 description: "Use this article to understand the best practices for configuring Azure bots in Omnichannel for Customer Service."
-ms.date: 04/12/2022
+ms.date: 05/16/2022
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi

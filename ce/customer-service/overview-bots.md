@@ -1,7 +1,7 @@
 ---
 title: "Overview of bots | MicrosoftDocs"
 description: "Get an overview of bots and how you can configure and use them in Omnichannel for Customer Service."
-ms.date: 04/08/2022
+ms.date: 05/16/2022
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -39,5 +39,6 @@ When you integrate bots with Omnichannel for Customer Service, you get the follo
 [Integrate an Azure bot](configure-bot.md)  
 [Integrate Power Virtual Agents bot](configure-bot-virtual-agent.md)  
 [Configure Power Virtual Agents bot for voice](voice-channel-ivr-bots.md)  
+[Configure Azure bots for voice](voice-channel-azure-bot-service.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

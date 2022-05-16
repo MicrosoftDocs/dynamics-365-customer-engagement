@@ -1,7 +1,7 @@
 ---
 title: "Bot sessions and licensing | MicrosoftDocs"
 description: "Use this article to learn about bot sessions and how you can purchase additional chatbot sessions."
-ms.date: 04/08/2022
+ms.date: 05/16/2022
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
