@@ -42,8 +42,6 @@ This article describes how you can configure Azure bots to enable voice services
 
 After you've checked for the prerequisites, follow the instructions mentioned in [Integrate Azure bots with Omnichannel for Customer Service](configure-bot.md#integrate-azure-bots-with-omnichannel-for-customer-service).
 
-Additionally, you can also enable your Azure bot to answer incoming calls.
-
 **To add bot user to a voice workstream**
 
 1. In Customer Service admin center or Omnichannel admin center, open the workstream related to your voice channel.
