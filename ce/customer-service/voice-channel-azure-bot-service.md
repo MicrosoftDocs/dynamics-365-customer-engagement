@@ -50,8 +50,6 @@ After you've checked for the prerequisites, follow the instructions mentioned in
 
 1. Select an existing bot from the dropdown list and select **Save and close**.
 
-Now, if there's a valid phone number associated with the workstream, the bot will automatically receive and respond to the phone call.
-
 
 ### See also
 
