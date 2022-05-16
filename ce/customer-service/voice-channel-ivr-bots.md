@@ -1,5 +1,5 @@
 ---
-title: "Integrate Power Virtual Agents bot for voice | MicrosoftDocs"
+title: "Configure Power Virtual Agents bots for voice | MicrosoftDocs"
 description: "Learn about how to add a Power Virtual Agents bot for using in voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
@@ -11,7 +11,7 @@ ms.custom: intro-internal
 ---
 
 
-# Integrate a Power Virtual Agents bot for voice
+# Configure Power Virtual Agents bots for voice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -97,6 +97,7 @@ More information:
 ### See also
 
 [Overview of the voice channel](voice-channel.md)  
-[Configure context variables](context-variables-for-bot.md)
+[Configure context variables](context-variables-for-bot.md)  
+[Configure Azure bots for voice](voice-channel-azure-bot-service.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
