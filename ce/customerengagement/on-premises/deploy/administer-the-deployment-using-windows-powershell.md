@@ -24,7 +24,7 @@ With [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] you can easily run 
   
  Find help about the [!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)] cmdlets for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] at [Microsoft Dynamics 365 PowerShell Reference](/powershell/dynamics365/customer-engagement/overview?view=dynamics365ce-ps).  
   
- For more information about using [!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)], see [PowerShell](/powershell/scripting/powershell-scripting?view=powershell-6).  
+ For more information about using [!INCLUDE[pn_PowerShell_short](../includes/pn-powershell-short.md)], see [PowerShell](/powershell/scripting/learn/ps101/01-getting-started?view=powershell-7.2).  
   
  For more information about the programmatic use of the [!INCLUDE[pn_Deployment_Web_Service](../includes/pn-deployment-web-service.md)], see [MSDN: Administer the deployment using the deployment web service](/previous-versions/dynamicscrm-2016/developers-guide/gg327886(v=crm.8)).  
 
