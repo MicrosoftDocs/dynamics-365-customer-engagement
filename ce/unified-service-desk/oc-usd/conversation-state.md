@@ -1,7 +1,7 @@
 ---
 title: "Understand conversation states | MicrosoftDocs"
 description: "Use this article to learn about the different states and status reasons that conversations go through in Omnichannel for Customer Service."
-ms.date: 05/03/2022
+ms.date: 05/17/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
