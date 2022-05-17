@@ -39,7 +39,7 @@ Set up delegate access to allow someone to track information in your Dynamics 36
 ## Enable delegate access
 
 
-To enable delegate access, you need to enable the **OrgDBOrgSettings** in your organization. Microsoft Dataverse apps provide the **OrgDBOrgSettings** tool that gives administrators the ability to implement specific updates that were previously reserved for registry implementations. For more information, see [Environment database settings](/power-platform/admin/environment-database-settings.md). After extracting the tool, enable **OrgDBOrgSettings TrackAppointmentsFromNonOrganizer** and **DelegateAccessEnabled**.
+To enable delegate access, you need to enable the **OrgDBOrgSettings** in your organization. Microsoft Dataverse apps provide the **OrgDBOrgSettings** tool that gives administrators the ability to implement specific updates that were previously reserved for registry implementations. For more information, see [Environment database settings](/power-platform/admin/environment-database-settings). After extracting the tool, enable **OrgDBOrgSettings TrackAppointmentsFromNonOrganizer** and **DelegateAccessEnabled**.
 
 You can also use [this tool](https://github.com/seanmcne/OrgDbOrgSettings/releases/) to edit **OrgDBOrgSettings TrackAppointmentsFromNonOrganizer** and **DelegateAccessEnabled**.
 

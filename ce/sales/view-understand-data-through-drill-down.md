@@ -1,7 +1,7 @@
 ---
 title: "View and understand data through drill-down entities (Dynamics 365 Sales) | MicrosoftDocs"
 description: "View and understand drill-down entities in a forecast in Dynamics 365 Sales."
-ms.date: 10/26/2020
+ms.date: 05/10/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -90,7 +90,8 @@ More information: [View and manage underlying opportunities](view-and-manage-und
 ## See also
 
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)  
-[Configure and manage drill-down entities](configure-manage-drill-downs.md)
+[Configure and manage drill-down entities](configure-manage-drill-downs.md)   
+[Troubleshoot issues with forecasting](/troubleshoot/dynamics-365/sales/troubleshoot-forecast-issues)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

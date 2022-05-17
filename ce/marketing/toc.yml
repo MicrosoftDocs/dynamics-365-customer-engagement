@@ -6,18 +6,20 @@
     href: overview.md
   - name: What's new
     href: whats-new-marketing.md
+  - name: Free trial
+    items:
+    - name: Sign up for a free Marketing trial
+      href: trial-signup.md
+    - name: Marketing trial FAQ
+      href: trial-faq.md
   - name: Get started
-    href: get-started.md
-  - name: Connect rich customer data from multiple sources
-    href: ci-get-started.md
+    items:
+    - name: Quickstart guide
+      href: get-started.md
+    - name: Integrate with Dynamics 365 Customer Insights
+      href: ci-get-started.md
   - name: Installation and environment management
     items: 
-    - name: Sign up for a Marketing trial
-      items:
-      - name: Sign up for a free Marketing trial
-        href: trial-signup.md
-      - name: Marketing trial FAQ
-        href: trial-faq.md
     - name: Install or uninstall
       items:
       - name: Purchase and set up Marketing
@@ -186,6 +188,8 @@
         href: form-double-opt-in.md
       - name: How the app uses cookies
         href: cookies.md
+      - name: Anonymized customer data human review notice
+        href: anonymized-data-review.md
     - name: Terms and fair use
       items:
       - name: Service limits and fair use policy
@@ -216,13 +220,13 @@
         href: real-time-marketing-channel-optimization.md
     - name: Customer engagement
       items: 
-      - name: Event-based journeys
+      - name: Trigger-based journeys
         items:
-        - name: Create an event-based journey
-          href: real-time-marketing-event-based-journey.md
+        - name: Create a trigger-based journey
+          href: real-time-marketing-trigger-based-journey.md
         - name: Real-time marketing triggers
           href: real-time-marketing-triggers.md
-        - name: "Preview: Trigger an action outside of a journey"
+        - name: Trigger an action outside of a journey
           href: real-time-marketing-custom-actions.md
         - name: Create custom triggers
           href: real-time-marketing-custom-triggers.md
@@ -250,8 +254,8 @@
         items:
         - name: Personalize content
           href: real-time-marketing-personalization.md
-        - name: "Preview: Personalize content using pre-defined tokens"
-          href: real-time-marketing-predefined-tokens.md
+        - name: "Personalize content using pre-defined dynamic text"
+          href: real-time-marketing-predefined-dynamic-text.md
       - name: Analytics
         items:
         - name: Access and interpret analytics
@@ -400,7 +404,7 @@
       items: 
       - name: Upload and use images and files
         href: upload-images-files.md
-      - name: Create reusable content blocks
+      - name: "Preview: Create reusable content blocks"
         href: content-blocks.md
       - name: Create a video library and add videos to your designs
         href: video-content.md
@@ -508,6 +512,8 @@
           href: marketing-analytics/analytics-gallery-forms.md
     - name: "Preview: Collaborate using Microsoft Teams chat"
       href: teams-chat.md
+    - name: "Preview: Customer interactions timeline"
+      href: timeline.md
     - name: Work with marketing calendars
       href: marketing-calendar.md
     - name: Go live with publishable entities and track their status

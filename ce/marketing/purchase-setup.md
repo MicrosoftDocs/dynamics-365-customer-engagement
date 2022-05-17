@@ -1,7 +1,7 @@
 ---
 title: "Set up Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to run the setup wizard for Dynamics 365 Marketing."
-ms.date: 04/20/2022
+ms.date: 05/05/2022
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
@@ -19,6 +19,8 @@ search.app:
 ---
 
 # Purchase and set up Dynamics 365 Marketing
+
+[!INCLUDE[marketing-trial-cta](../shared/trials/marketing-trial-cta.md)]
 
 This article explains how to purchase and set up a new Dynamics 365 Marketing environment.
 
@@ -54,6 +56,9 @@ Each license also includes quotas that limit the total number of free Litmus inb
 #### Non-production app
 A non-production license entitles you to set up a test environment for trying out new features or customizations. Non-production licenses include both solutions and services, and are fully functional, but have much stricter quotas and can't be used to run production campaigns.
 
+> [!TIP]
+> The distinction between a non-production license and a production license is only relevant to the purchase price at the time you buy the license. Whether you use a non-production or production app, the app's interface and functionality will be the same. The non-production license simply allows you to have a separate fully functional app in a non-production environment so that you can test your configuration before implementing it in the production environment.
+
 #### Solution Only app
 A Solution Only license includes all of the entities and solutions for Dynamics 365 Marketing, but doesn't include any of the marketing services. This means that marketing capabilities aren't available in this option (including email  creation, email delivery, segmentation, customer journeys, and more). This license is intended for use on development and test environments when making customizations, solving compatibility issues, importing or exporting solutions, and doing other types of development and non-functional marketing testing. A Solution Only license is included with all paid licenses and allows you to install the Solution Only app on as many environments as needed.
 
@@ -62,10 +67,10 @@ As shown below, the Solution Only app appears as a separate Dynamics 365 Marketi
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the Dynamics 365 Marketing Solution Only app in the Power Platform admin center.](media/purchase-setup-solution-only.png)
 
-As with production environments, Solution Only app updates [are pushed to all customers automatically](apply-updates.md) each time an update becomes available. To convert a Solution Only environment to a production environment, make sure you have an unconfigured production license and then [run the setup wizard](#run-wizard) to apply that license to the existing Solution Only environment.
+As with production environments, Solution Only app updates [are pushed to all customers automatically](apply-updates.md) each time an update becomes available. To convert a Solution Only environment to a production or non-production environment, make sure you have an unconfigured production or non-production license and then [run the setup wizard](#run-wizard) to apply that license to the existing Solution Only environment. This will allow you to preserve your customizations and data from the Solution Only app.
 
 > [!IMPORTANT]
-> Solution Only apps do not support some functionality that is supported by fully paid Marketing apps, specifically, portals, insights, and their solutions. If you need to use such functionality in a non-production environment, you will need to purchase a license.
+> Solution Only apps do not support some functionality that is supported by fully paid Marketing apps, specifically, portals, insights, and their solutions. If you need to use such functionality in a non-production environment, you will need to purchase a non-production license.
 
 ## User and portal licensing
 
@@ -83,7 +88,7 @@ To run the setup wizard, you must meet all the following requirements:
 - An unconfigured Dynamics 365 Marketing app must be available on your tenant.
 - You must not already have a Dynamics 365 Marketing app installed on your Dynamics 365 environment. You can have at most one Dynamics 365 Marketing app per environment, and each Dynamics 365 Marketing app can only be used with one Dynamics 365 environment.
 - You must sign into your tenant with a user account that has all the following:
-   - A security role (such as _Global admin_ or _Service support admin_) that allows you to modify the target Dynamics 365 environment. (If you're reinstalling Marketing on an environment where Marketing was previously installed, then _Service support admin_ users must use the same user ID as was used for the initial install. If you're not sure which ID was used for the initial install, or if you're getting errors, then try to install as a _Global admin_.)
+   - A security role (such as _Global admin_ or [_Service support admin_](/power-platform/admin/use-service-admin-role-manage-tenant)) that allows you to modify the target Dynamics 365 environment. (If you're reinstalling Marketing on an environment where Marketing was previously installed, then _Service support admin_ users [_Dynamics 365 administrator_ or _Power Platform administrator_] must use the same user ID as was used for the initial install. If you're not sure which ID was used for the initial install, or if you're getting errors, then try to install as a _Global admin_.)
    - Permissions to register applications in Azure. The global administrator always has this right, but other accounts can also have it. See [Do I have permissions to register applications on Azure?](setup-troubleshooting.yml#register-apps-azure) for information about how to confirm this setting for your account.
    - A Dynamics 365 license with the _System Administrator_ security role assigned on your target Dynamics 365 environment. (The Dynamics 365 Marketing license agreement doesn't legally require the installing user to have this license, but a known technical issue currently makes it necessary.)
 - You must be located in a country/region where the product is supported. To read the latest list of countries/regions where you can use Dynamics 365 Marketing, download the [Microsoft Dynamics 365 International Availability](https://go.microsoft.com/fwlink/p/?linkid=875097) document (PDF).

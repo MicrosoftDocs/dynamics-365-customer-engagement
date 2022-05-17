@@ -1,4 +1,12 @@
 
+## 3.12.77.18
+
+(Includes Resource Scheduling controls version 1.2.18.221304).
+
+## 3.12.76.1
+
+(Includes Resource Scheduling controls version 1.2.17.221165).
+
 ## 3.12.75.2
 
 (Includes Resource Scheduling controls version 1.2.16.220914).
@@ -94,7 +102,7 @@
 
 - Enabled **Time Group Detail Start** and **Time Group Detail End** column and sorting on list view when returning results with **Find Availability** functionality. 
 - Fixed bug: Resource available hours are not showing correctly on new schedule board when configured calendar with working hours and a time off. 
-- Fixed bug: Changing status of booking should not update start time and estimated arrival time on new schedule board.
+- Fixed bug: where changing status of booking updated the **Start Time** and **Estimated Arrival Time** incorrectly in some scenarios on new schedule board.
 - Fixed bug: Cannot create or update a resource preference to a crew type resource.
 - Fixed bug: Time zone conversion issue when select time from time picker on **Search Start** and **Search End** fields when using **Find Availability** on new schedule board.
 - Fixed bug: Progress indicator div blocking click events on the booking when define an new booking template. 
@@ -105,7 +113,7 @@
 
 (Includes Resource Scheduling controls version 1.2.8.213282)
 
-- Fixed bug: changing status of booking should not update **Start Time** and **Estimated Arrival Time**.
+- Fixed bug: where changing status of booking updated the **Start Time** and **Estimated Arrival Time** incorrectly in some scenarios.
 - Enabled fulfillment preference support for single requirement when user uses **Find Availability** to schedule requirement.
 
 (Includes Resource Scheduling controls version 1.2.7.213012)

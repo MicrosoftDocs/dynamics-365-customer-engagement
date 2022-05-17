@@ -128,7 +128,7 @@ Create the bot. More information: [Azure Bot Service](https://azure.microsoft.co
 
 ## Add your bot to the workstream
 
-Add the bot as an IVR bot to the workstream. More information: [Integrate an Azure bot](configure-bot.md#add-bot-user-to-a-voice-or-phone-call-workstream)
+Add the bot as an IVR bot to the workstream. More information: [Configure Azure bots for voice (Preview)](voice-channel-azure-bot-service.md)
 
 
 ## Supported languages and locale codes
@@ -183,8 +183,11 @@ Add the bot as an IVR bot to the workstream. More information: [Integrate an Azu
 
 ## Configuration considerations
 
-The Azure bot should respect the primary language of the workstream. For example, if the primary language is English, the Azure bot should initially greet the customer in English.
+The language of the bot must be the same as that of the voice workstream to which the bot will be attached. You can configure different geographic locales for the bot and voice workstream.<br><br>
 
+For example, you can set English-UK in the voice profile and English-US in the bot.<br>
+
+The bot's accuracy depends on the similarities between locales. However, if you configure different locales, preconfigured entities for the bot, such as zipcode, mightn't be accurate. 
 
 ### See also
 
