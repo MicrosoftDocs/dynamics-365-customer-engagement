@@ -402,9 +402,9 @@
         href: add-timer-control-case-form-track-time-against-sla.md
       - name: Add a timer in forms to track time against enhanced SLAs
         href: add-timer-forms-track-time-against-enhanced-sla.md
-      - name: Create a standard SLA (Customer Service app)
+      - name: Create standard SLAs
         href: create-standard-sla.md
-      - name: Create an enhanced SLA (Customer Service app)
+      - name: Create enhanced SLAs
         href: create-enhanced-sla.md
       - name: SLA Limitations
         href: sla-limitations.md
