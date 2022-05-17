@@ -22,7 +22,7 @@ ms.custom:
 
 > [!NOTE]
 >
-> Enhanced SLAs have been deprecated and replaced with Unified Interface SLAs <br><br>More information: [SLAs in web client are deprecated](deprecations-customer-service.md#sla-items-in-web-client-are-deprecated)
+> Enhanced SLAs have been deprecated and replaced with Unified Interface SLAs. <br><br>More information: [SLAs in web client are deprecated](deprecations-customer-service.md#sla-items-in-web-client-are-deprecated)
 
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
 
