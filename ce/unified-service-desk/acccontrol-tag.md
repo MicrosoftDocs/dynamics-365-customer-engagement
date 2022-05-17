@@ -46,10 +46,10 @@ The following XML example shows a control definition using the `AccControl` tag.
 >    ```  
 >  **Example 2**
 > 
->     ```  
->     <Caption>Test Application</Caption>  
->     <Caption>Test Application</Caption>  
->     ```  
+>  ```  
+>  <Caption>Test Application</Caption>  
+>  <Caption>Test Application</Caption>  
+>  ```  
 > If `<match>` isn’t specified, the default value is 0.  
   
  The [String)](/dotnet/api/microsoft.uii.hostedapplicationtoolkit.datadrivenadapter.datadrivenadapterbase.getcontrolvalue) method on an `AccControl` tag is always mapped to the `get_accValue` method on the subject `IAccessible` node, unless the node contains `role="radio button"` or `role="check box"`. In these cases, the [String)](/dotnet/api/microsoft.uii.hostedapplicationtoolkit.datadrivenadapter.datadrivenadapterbase.getcontrolvalue) method returns `True` or `False`, depending on whether the state of the node is selected.  
