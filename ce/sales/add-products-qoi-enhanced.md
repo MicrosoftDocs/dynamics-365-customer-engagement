@@ -1,7 +1,7 @@
 ---
 title: "Enhanced experience for Adding products to quotes, orders, or invoices (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Use the enhanced experience to quickly find and add multiple products that your customer is interested in purchasing to your quote, order, or invoice in Dynamics 365 Sales Enterprise."
-ms.date: 10/25/2021
+ms.date: 05/17/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -96,7 +96,7 @@ If you've created a quote from an opportunity, the products added to the opportu
        >
        > The left pane disappears once you start typing in the search box. If you want to filter the search results by product family, use the drop-down menu. Also, the count of products in the left pane is available only when the number of products and families are less than 50,000 and 5,000 respectively.
 
-   - If you want to add products that you have recently chosen for another entity, open the **Recently used** tab.
+   - To add products that you have recently chosen for another entity such as opportunity, quote, order, or invoice, open the **Recently used** tab.
 
    - If you want to add a product or service that is not in the standard product catalog but is specific to the quote, open the **write in** tab and create a product on-the-fly.
       > [!NOTE]

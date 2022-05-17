@@ -1,7 +1,7 @@
 ---
 title: "Find and add multiple products to opportunity | MicrosoftDocs"
 description: "Use the enhanced experience to quickly identify and add multiple products from catalog to opportunities."
-ms.date: 04/02/2021
+ms.date: 05/17/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -83,15 +83,15 @@ As a salesperson, you want to be able to easily identify and add products from t
 6. Use one of the following options to identify and add products:
 
    - If you know the product names, simply search for them and add.
-   - (Applicable for Sales Premium and Sales Enterprise) If you want to choose products from a specific product family, use the left pane or the drop-down menu before the search box to filter products by family.
+   - (Applicable for Sales Premium and Sales Enterprise) To choose products from a specific product family, use the left pane or the drop-down menu before the search box to filter products by family.
 
      > [!NOTE]
      > - The products and product families displayed depend on the price list that you've chosen, so if you don't see a product, ensure that the product is associated with the selected price list.
      > - The left pane disappears once you start typing in the search box. If you want to filter the search results by product family, use the drop-down menu. Also, the count of products in the left pane is available only when the number of products and families are less than 50,000 and 5,000 respectively.
 
-   - If you want to add products that you have recently chosen for another opportunity, open the **Recently used** tab.
+   - To add products that you have recently chosen for another entity such as opportunity, quote, order, or invoice, open the **Recently used** tab.
 
-   - If you want to add a product or service that is not in the standard product catalog but is specific to the opportunity, open the **write in** tab and create a product on-the-fly.
+   - To add a product or service that is not in the standard product catalog but is specific to the opportunity, open the **write in** tab and create a product on-the-fly.
     > [!IMPORTANT]
     >Do not use the write in option for standard products and services that your organization offers.
 
