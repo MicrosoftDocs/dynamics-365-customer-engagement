@@ -1,5 +1,5 @@
 ---
-title: "FAQs for Dynamics 365 Channel Integration Framework | MicrosoftDocs"
+title: "FAQ for Dynamics 365 Channel Integration Framework | MicrosoftDocs"
 description: "Frequently asked questions about Dynamics 365 Channel Integration Framework and its APIs for Dynamics 365."
 ms.date: 05/04/2022
 ms.topic: reference
@@ -11,9 +11,9 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# FAQs for Dynamics 365 Channel Integration Framework
+# FAQ for Dynamics 365 Channel Integration Framework
 
-## General FAQs
+## General FAQ
 
 ### What is Dynamics 365 Channel Integration Framework?
 
@@ -127,7 +127,7 @@ This is to make sure that the updated data is available for the agent at all tim
 
 ### Is it possible to integrate custom messaging channel providers?
 
-Yes, you can integrate custom messaging channels using Direct Line bot. More information: [Bring your own channel](../../customer-service/bring-your-own-channel.md)
+Yes, you can integrate custom messaging channels using Direct Line bot. More information: [Integrate your your own custom channel: Direct Line](../../customer-service/bring-your-own-channel.md)
 
 ### Is it possible to view the existing channel providers from Channel Integration Framework 2.0 model-driven app?
 
@@ -150,10 +150,10 @@ No, that is not supported.
 
 ### See also
 
-[Overview of Dynamics 365 Channel Integration Framework](overview-channel-integration-framework.md)<br />
-[What's new in Dynamics 365 Channel Integration Framework](whats-new-channel-integration-framework.md)<br />
-[System requirements of Dynamics 365 Channel Integration Framework](system-requirements-channel-integration-framework.md)<br />
-[Known issues of Dynamics 365 Channel Integration Framework](https://go.microsoft.com/fwlink/p/?linkid=2171869)
+[Overview of Dynamics 365 Channel Integration Framework](overview-channel-integration-framework.md)  
+[What's new in Dynamics 365 Channel Integration Framework](whats-new-channel-integration-framework.md)  
+[System requirements of Dynamics 365 Channel Integration Framework](system-requirements-channel-integration-framework.md)  
+[Known issues in Dynamics 365 Channel Integration Framework](https://go.microsoft.com/fwlink/p/?linkid=2171869)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
