@@ -1,7 +1,7 @@
 ---
 title: Deprecations in Dynamics 365 Customer Service | MicrosoftDocs
 description: "Use this topic to get information about features that are deprecated in Dynamics 365 Customer Service."
-ms.date: 02/25/2022
+ms.date: 05/17/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -54,9 +54,9 @@ Effective October 01, 2020, the automatic record creation and update rules are d
 > [!NOTE]
 > The deprecation and end of life are not applicable to the feature in Dynamics 365 Customer Engagement (on-premises).
 
-## SLA items in web client are deprecated
+## SLAs in web client are deprecated
 
-Effective October 01, 2020, the service-level agreements (SLAs) are deprecated in the web client. You are encouraged to migrate your SLA items that were created in the web client to the new Unified Interface experience. For information on how to migrate the items, see [Migrate automatic record creation rules and service-level agreements](migrate-automatic-record-creation-and-sla-agreements.md). Microsoft will continue to provide support and critical security updates for these features in the web client until end of life, October 01, 2022.
+Effective October 01, 2020, the service-level agreements (SLAs) are deprecated in the web client. You are encouraged to migrate your SLAs that were created in the web client to the new Unified Interface experience. For information on how to migrate the items, see [Migrate automatic record creation rules and service-level agreements](migrate-automatic-record-creation-and-sla-agreements.md). Microsoft will continue to provide support and critical security updates for these features in the web client until end of life, October 01, 2022.
 
 > [!NOTE]
 > The deprecation and end of life are not applicable to the feature in Dynamics 365 Customer Engagement (on-premises).

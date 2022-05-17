@@ -1,7 +1,7 @@
 ---
 title: "Define service-level agreements in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how to define service-level agreements in Dynamics 365 Customer Service."
-ms.date: 05/11/2022
+ms.date: 05/17/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -243,32 +243,6 @@ You can create an SLA item from the Customer Service admin center or Customer Se
 5. Define as many SLA items as you need.
 
 6. Select **Activate**. The SLA is activated.
-
-
-## Set an SLA as the default
-
-For a Case entity, set an SLA as the default if you want it to apply to all cases that don't have an SLA applied through an entitlement. This is useful when a customer wants an SLA but doesn't have an entitlement. For all other entities that are enabled for SLA, you can set one default SLA.
-
-To set an SLA as the default, select an active SLA from the list, and then select **Set as Default** on the command bar.  
-
-> [!NOTE]
-> If you deactivate a default SLA, you must activate it again before resetting it as the default.  
-
-### Disable an SLA in Customer Service app
-
-During maintenance activities or when you're importing records and you don't want the SLAs to be applied, you can disable SLAs for your organization. A system administrator can disable SLAs from the **System Settings** dialog box. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Service tab](/power-platform/admin/system-settings-dialog-box-service-tab)  
-
-## Track SLA status and details on the case record
-
-The service rep who is working on a case can see the SLA details right on the case form. The following table explains what happens when a standard or enhanced SLA is applied to a case form.
-
-
-| Case form with a standard SLA applied |  Case form with an enhanced SLA applied |
-|-------------------------------------|--------------------------------------|
-| Only the failure time is tracked and saved on the case record.<br /><br /> You can ask your system administrator or customizer to add a timer to the case form. The timer shows the time remaining to meet the SLA or the time elapsed since the SLA failed. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a timer control to the case form to track time against an SLA](add-timer-control-case-form-track-time-against-sla.md) | When an enhanced SLA is applied to a case, a related SLA KPI Instance record is created for each SLA KPI that is tracked for that case. In the **Enhanced SLA Details** section of the case record, you'll see a timer and the SLA KPI Instances for the case with their status, failure times, and warning times.<br /><br /> When a service rep puts a case on hold, the status of the SLA KPI Instance is set to Paused. You can see the time during which a case was on hold and the last time the case was put on hold. These details aren't available on the case form by default, but your system customizer can add these fields for you. The on-hold time is the time during which the case was set to a status that you defined as an On-Hold status in the **System Settings** dialog box. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Service tab](/power-platform/admin/system-settings-dialog-box-service-tab)<br /><br /> When the service rep resumes a case, the status of the SLA KPI Instance record is updated. The following details are updated in the record if the SLA isn't violated:<br /><br /> -   Failure time<br />-   Warning time<br />-   Total time the case has been on hold<br /><br /> If the service rep puts the case on hold after the warning time, the warning time isn't updated when the case is resumed. |
-
-> [!IMPORTANT]
->  To track SLAs for entities other than the Case entity, ask your system administrator or customizer to add an enhanced SLA timer on the entity forms. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a timer to forms to track time against enhanced SLAs](add-timer-forms-track-time-against-enhanced-sla.md)  
 
 ### See also
 
