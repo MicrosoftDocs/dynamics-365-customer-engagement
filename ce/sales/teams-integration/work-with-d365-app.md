@@ -16,6 +16,9 @@ manager: shujoshi
 
 With the Dynamics 365 app, you can view information about a linked record before the meeting, in the side panel during the meeting, and after the meeting.
 
+> [!NOTE]
+> The Dynamics 365 app for Teams is available only in the Teams desktop app. If you are working in Teams web client, the Dynamics 365 app icon and the side panel will not be visible.
+
 ## View record details before or after a meeting
 
 Open the meeting in Teams, and then select the **Dynamics 365** tab. You can work with the linked record as you would in your customer engagement apps, such as Dynamics 365 Sales or Dynamics 365 Customer Service.

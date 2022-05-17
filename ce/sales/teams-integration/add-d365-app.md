@@ -16,6 +16,9 @@ manager: shujoshi
 
 When you add the Dynamics 365 app to a Teams meeting, you can view record details before, during, and after a meeting. The Dynamics 365 app can be added to a Teams meeting automatically or manually.
 
+> [!NOTE]
+> The Dynamics 365 app for Teams is available only in Teams desktop app. If you are working in Teams web client, you'll not be able to add the Dynamics 365 app to a meeting.
+
 ## Automatically add the app
 
 If you link a Dynamics 365 record to a meeting while you're creating it in Dynamics 365 or Outlook, the Dynamics 365 app is added to the meeting automatically. This allows you to view record details before, during, and after a meeting.
