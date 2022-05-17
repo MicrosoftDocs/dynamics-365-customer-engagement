@@ -12,13 +12,11 @@ ms.custom:
 
 # Configure context variables for a bot
 
-
-
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 ## Introduction
 
-Context variables enrich conversations with pre-chat data, channel data, and custom context data. These attributes can then be used to define routing rules to route conversations to different queues. This topic lists the context variables and how you can configure them for Azure or Power Virtual Agents bots in Omnichannel for Customer Service.
+Context variables enrich conversations with pre-chat data, channel data, and custom context data. These attributes can then be used to define routing rules to route conversations to different queues. This topic lists the context variables for Azure and Power Virtual Agents bots, and how you can configure them in Omnichannel for Customer Service.
 
 ## Considerations
 
@@ -47,7 +45,7 @@ The following table contains the list of context variables available in Omnichan
 | Context variable type | Context variable name | Description | How to map in Power Virtual Agents |
 |-----------------------|  ---------------------| ----------- | -----------------------------------|
 | [Pre-conversation survey](configure-pre-chat-survey.md) | Use the question type that you create in Omnichannel for Customer Service. | The context variables for pre-conversation answers store the customer answers for questions in the pre-conversation survey. | Use the following information to map the question type variable in Omnichannel for Customer Service with the variable type in Power Virtual Agents:<br><ul><li> **Single line**: User’s entire response</li>**Multiple lines**: User's entire response<li>**Option set**: User's entire response</li><li>**User Consent**: Boolean</li></ul> |
-| [Custom context](send-context-starting-chat.md) | Use the variable name that you create in Omnichannel for Customer Service or pass using the setContextProvider API. | These are custom context variables that can be created and passed through the live chat SDK. | Use the following information to map the custom context variable in Omnichannel for Customer Service with the variable type in Power Virtual Agents: <br><ul><li> **String**: User's entire response </li> **Boolean**: Boolean <li> **Number**, **Floating Number**: Number |
+| [Custom context](send-context-starting-chat.md) | Use the variable name that you create in Omnichannel for Customer Service or pass using the [setContextProvider API](developer/reference/methods/setContextProvider.md). | These are custom context variables that can be created and passed through the live chat SDK. | Use the following information to map the custom context variable in Omnichannel for Customer Service with the variable type in Power Virtual Agents: <br><ul><li> **String**: User's entire response </li> **Boolean**: Boolean <li> **Number**, **Floating Number**: Number |
 | Conversation | msdyn_ConversationId | Use the context variable that contains the conversation ID for the ongoing conversation and can fetch and perform operations on the record in Microsoft Dataverse. | **String**: User's entire response.  |
 |  Messaging and voice variables | msdyn_CustomerType   | Use this context variable that contains the customer type for the *account* or *contact* record that's linked to the conversation.    | Select the Omnichannel for Customer Service extension solution variable.|
 |  | msdyn_CustomerName	| Use this context variable that contains the customer name for the *account* or *contact* record that's linked to the conversation. | Select the Omnichannel for Customer Service extension solution variable. |
@@ -118,6 +116,7 @@ A copy of the sample schema details is as follows:
 
 [Integrate a Power Virtual Agents bot](configure-bot-virtual-agent.md)  
 [Integrate an Azure bot](configure-bot.md)  
-[Live chat SDK JavaScript API Reference](developer/omnichannel-reference.md)  
+[Configure bots to escalate and end conversations](bot-escalate-end-conversation.md)  
+[Live chat SDK reference](developer/omnichannel-reference.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

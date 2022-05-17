@@ -32,9 +32,9 @@ interface {
 }
 ```
 
-The `initializeNewConversation` parameter in above interface represents a function which will be called to initialize a conversation. More information: [initializeNewConversation](/dynamics365/omnichannel/developer/reference/methods/initializenewconversation)
+The `initializeNewConversation` parameter in above interface represents a function which will be called to initialize a conversation. More information: [initializeNewConversation](/dynamics365/customer-service/developer/reference/methods/initializeNewConversation)
 
-The `translateMessage` parameter in above interface represents a function which will be called to translate a message. More information: [translateMessage](/dynamics365/omnichannel/developer/reference/methods/translatemessage).
+The `translateMessage` parameter in above interface represents a function which will be called to translate a message. More information: [translateMessage](/dynamics365/customer-service/developer/reference/methods/translateMessage).
 
 A sample of setting the `getTranslationProvider` property is as follows.
 

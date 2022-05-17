@@ -1,6 +1,6 @@
 ---
 title: "FAQ about the voice channel | MicrosoftDocs"
-description: "This article includes frequently asked questions (FAQs) about the voice channel in Omnichannel for Customer Service."
+description: "This article includes frequently asked questions (FAQ) about the voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -13,7 +13,7 @@ ms.topic: article
 
 ## Overview
 
-This topic contains the frequently asked questions (FAQs) that you might have about the voice channel.
+This topic contains the frequently asked questions (FAQ) that you might have about the voice channel.
 
 ### Does the voice channel include real-time keyword recognition or sentiment tracking while an agent is on a call?
 
@@ -47,7 +47,7 @@ Yes, you have the following two options to bring your existing numbers to Dynami
  
 ### How can I acquire additional phone numbers from Azure direct offer?
 
-You can purchase one phone number per tenant for Azure Communication Services through the Azure Portal. To acquire phone numbers in bulk or request for a specific phone number, complete this [form](https://github.com/Azure/Communication/blob/master/Forms/ACS%20-%20Bulk%20Number%20Acquisition.docx) and email it to acstnrequest@microsoft.com. Ensure that the subject line of the email begins with "Azure Communication Services Number Request:"
+You can purchase one phone number per tenant for Azure Communication Services through the Azure Portal. To acquire phone numbers in bulk or request for a specific phone number, complete this [form](https://github.com/Azure/Communication/blob/master/Forms/ACS%20-%20Bulk%20Number%20Acquisition.docx) and email it to acstnrequest@microsoft.com. Ensure that the subject line of the email begins with "Azure Communication Services Number Request:".
 
 ### Can I keep my existing contract with my carrier?
 
@@ -72,8 +72,8 @@ The voice channel is supported only in the Customer Service workspace and Omnich
 ### How can I set up an IVR bot in the voice channel?
 
 See the following topics to set up the interactive voice response (IVR) bot in the voice channel:
-- [Integrate a Power Virtual Agents bot for voice](voice-channel-ivr-bots.md)
-- [Integrate an Azure bot](configure-bot.md)
+- [Configure Power Virtual Agents bots for voice](voice-channel-ivr-bots.md)
+- [Configure Azure bots for voice](voice-channel-azure-bot-service.md)
 - [Integrate third-party IVR systems with voice channel](voice-channel-contextual-transfer-external-ivr.md)
 
  ### Should the language of the bot be the same as the primary language configured in the Omnichannel admin center app?
