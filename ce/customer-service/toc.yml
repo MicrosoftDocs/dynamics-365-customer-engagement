@@ -468,7 +468,7 @@
         href: create-manage-categories.md
       - name: Create knowledge article templates in Power Apps
         href: /power-platform/admin/create-templates-articles
-      - name: Integrate knowledge management in Dynamics 365 with Power Virtual Agents bots (preview)
+      - name: Integrate knowledge management in Dynamics 365 with Power Virtual Agents bots
         href: integrate-KM-with-PVA.md
       - name: Configure the origin allowlist for knowledge articles
         href: configure-knowledge-article-origin-allow-list.md
@@ -508,8 +508,6 @@
       items:
       - name: Search the knowledge base on portals
         href: knowledge-base-search-methods.md
-  - name: Microsoft Teams chat for enterprise collaboration
-  - name: Microsoft Teams collaboration
   - name: Microsoft Teams for collaboration
     items:
     - name: Introduction to collaboration
@@ -536,6 +534,24 @@
         href: use-ai-suggested-contacts-teams.md
       - name: Use customer support swarming to resolve issues
         href: use-customer-support-swarming.md
+      - name: Share and update Dynamics 365 records within Microsoft Teams conversation
+        items:
+        - name: Overview
+          href: /sales/teams-integration/share-d365-record-overview?context=/dynamics365/context/customer-service-context.md
+        - name: Work with the Dynamics 365 app
+          items:
+          - name: Access the Dynamics 365 app through messaging extensions
+            href: /sales/teams-integration/access-d365-app?context=/dynamics365/context/customer-service-context.md
+          - name: Edit settings of the Dynamics 365 app
+            href: /sales/teams-integration/edit-d365-app?context=/dynamics365/context/customer-service-context.md
+          - name: Share feedback
+            href: /sales/teams-integration/share-feedback-d365-app?context=/dynamics365/context/customer-service-context.md
+          - name: Share a record in Teams conversation
+            href: /sales/teams-integration/share-dynamics-records-in-teams?context=/dynamics365/context/customer-service-context.md
+          - name: View and update record details
+            href: /sales/teams-integration/view-update-dynamics-records?context=/dynamics365/context/customer-service-context.md
+          - name: Add chat messages to Dynamics 365 as notes or tasks
+            href: /sales/teams-integration/add-chat-d365?context=/dynamics365/context/customer-service-context.md
   - name: Voice
     items:
     - name: Introduction to the voice channel
@@ -559,11 +575,11 @@
       - name: Set up outbound calling
         href: voice-channel-outbound-calling.md
       - name: Configure historical analytics for voice
-        href: cs-voice-historical-analytics.md
-      - name: Add Power Virtual Agents bot for voice
+        href: cs-voice-historical-analytics.md  
+      - name: Configure Azure bots for voice
+        href: voice-channel-azure-bot-service.md
+      - name: Configure Power Virtual Agents bots for voice
         href: voice-channel-ivr-bots.md
-      - name: Integrate Azure bots for voice
-        href: configure-bot.md
       - name: View voice calls usage
         href: voice-channel-usage.md
       - name: Configure post-call survey
@@ -586,7 +602,7 @@
         href: voice-channel-bring-your-own-number.md
       - name: Integrate third-party IVR systems with voice channel
         href: voice-channel-contextual-transfer-external-ivr.md 
-      - name: Supported regions and languages
+      - name: Supported cloud locations, languages, and locale codes
         href: voice-channel-region-availability.md
     - name: Agent experience
       items:
@@ -606,6 +622,8 @@
         href: voice-channel-reports-analytics.md
     - name: Emergency calling in the voice channel
       href: voice-channel-emergency-calling.md
+    - name: FAQ about the voice channel
+      href: voice-channel-faqs.md  
   - name: Chat
     items: 
     - name: Administrator experience
@@ -856,13 +874,23 @@
         href: smart-assist-scenario.md
   - name: Bots
     items:
+    - name: Overview of bots
+      href: overview-bots.md
+    - name: Bot sessions and licensing
+      href: bot-session-licensing.md
     - name: Administrator experience
       items:
+      - name: Configure Azure bots
+        items:
+        - name: Integrate an Azure bot
+          href: configure-bot.md
+        - name: Sample configuration
+          href: sample-config-azure-bot.md
+        - name: Best practices
+          href: configure-azure-bot-best-practices.md
       - name: Integrate a Power Virtual Agents bot
         href: configure-bot-virtual-agent.md
-      - name: Integrate an Azure bot
-        href: configure-bot.md
-      - name: Configure context variables for bots
+      - name: Configure context variables for a bot
         href: context-variables-for-bot.md
       - name: Link customer and case when bot escalates or ends conversations
         href: link-customer-case-when-bot-escalates.md
@@ -870,7 +898,7 @@
       items: 
       - name: Enable bot context NuGet package
         href: enable-bot-context.md
-      - name: Enable an Azure bot to escalate and end conversations
+      - name: Configure Azure bots to escalate and end conversations
         href: bot-escalate-end-conversation.md
       - name: Download file attachments from Azure bot
         href: download-attachments-bot.md
