@@ -48,7 +48,7 @@ After you have enabled IFD on the [!INCLUDE[pn_microsoftcrm_server](../includes/
   
 10. On the **Ready to Add Trust** page, on the **Identifiers** tab, verify that **Relying party identifiers** has three identifiers such as the following:  
   
-    -   `https://auth.contoso.com`  
+    -   `https://auth.contoso.com`
   
     -   `https://orgname.contoso.com`  
   
