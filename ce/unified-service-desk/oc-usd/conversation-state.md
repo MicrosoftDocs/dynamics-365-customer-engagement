@@ -9,7 +9,7 @@ manager: shujoshi
 monikerRange: '>= dynamics-usd-4.1'
 ---
 
-# Understand how conversation states work in Omnichannel for Customer Service
+# Understand conversation states
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
