@@ -12,7 +12,7 @@ Allocation methods include:
 - Distribute evenly
 - Front load
 
-For more information, see the topic on [allocation methods](https://docs.microsoft.com/dynamics365/customer-engagement/project-service/faq-allocation-methods).
+For more information, see the topic on [allocation methods](/dynamics365/project-operations/psa/FAQ-allocation-methods).
 
 Let's explore multi-day scheduling and allocation methods by configuring 3 scenarios:
 
@@ -25,7 +25,7 @@ Let's explore multi-day scheduling and allocation methods by configuring 3 scena
 
 ## Prerequisites
 
-If the work you wish to schedule spans multiple weeks or has dependencies on previous steps and milestones, consider using Dynamics 365 Project Service, which has [Gantt chart functionality](https://docs.microsoft.com/dynamics365/customer-engagement/project-service/schedule-project-work-breakdown-structure). 
+If the work you wish to schedule spans multiple weeks or has dependencies on previous steps and milestones, consider using Dynamics 365 Project Service, which has [Gantt chart functionality](/dynamics365/project-operations/psa/schedule-project-work-breakdown-structure). 
 
 
 ## Scenario 1: Schedule a multi-day work order manually on the schedule board
@@ -106,7 +106,7 @@ For **Allocation Method**, select one of the following:
 - Distribute evenly
 - Front load
 
-For more details on each of these, see the topic on [Allocation methods](https://docs.microsoft.com/dynamics365/customer-engagement/project-service/faq-allocation-methods).
+For more details on each of these, see the topic on [Allocation methods](/dynamics365/project-operations/psa/FAQ-allocation-methods).
 
 > [!Note]
 > You need to set an allocation method before saving.
@@ -206,5 +206,5 @@ Bookings are created for each resource on the days selected. Availability for ea
 
 ### See also
 
-- [Allocation methods](https://docs.microsoft.com/dynamics365/customer-engagement/project-service/faq-allocation-methods)
+- [Allocation methods](/dynamics365/project-operations/psa/FAQ-allocation-methods)
 - [Multi-resource scheduling](../../field-service/multi-resource-scheduling-requirement-groups.md)

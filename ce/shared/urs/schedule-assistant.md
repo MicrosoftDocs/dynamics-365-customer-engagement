@@ -132,21 +132,21 @@ For more information on setting up requirement groups, see the article [Multi-re
 
 To learn more about the schedule assistant and the many ways it can be put to use, check out the following articles.
 
-- [Schedule with travel time and distance](https://docs.microsoft.com/dynamics365/field-service/schedule-with-travel-time): Explore how travel time and distance are calculated and visualized for dispatchers during manual scheduling, semi-automated scheduling with the schedule assistant, and automated scheduling with Resource Scheduling Optimization (RSO)
+- [Schedule with travel time and distance](/dynamics365/field-service/schedule-with-travel-time): Explore how travel time and distance are calculated and visualized for dispatchers during manual scheduling, semi-automated scheduling with the schedule assistant, and automated scheduling with Resource Scheduling Optimization (RSO)
 
-- [Schedule within time constraints](https://docs.microsoft.com/dynamics365/field-service/schedule-time-constraints): When scheduling a work order, case, quote, or any entity enabled for scheduling, you can set date and time parameters to control when the requirement is booked.
+- [Schedule within time constraints](/dynamics365/field-service/schedule-time-constraints): When scheduling a work order, case, quote, or any entity enabled for scheduling, you can set date and time parameters to control when the requirement is booked.
 
-- [Resource preferences](https://docs.microsoft.com/dynamics365/field-service/resource-preferences): Resource preferences allow dispatchers to give preference to specific resources over others when scheduling with the schedule assistant or resource scheduling optimization.
+- [Resource preferences](/dynamics365/field-service/resource-preferences): Resource preferences allow dispatchers to give preference to specific resources over others when scheduling with the schedule assistant or resource scheduling optimization.
 
-- [Quick scheduling in Field Service](https://docs.microsoft.com/dynamics365/field-service/quick-scheduling): Quick scheduling (sometimes referred to as "quick book") simplifies the schedule assistant experience to make scheduling easier and quicker.
+- [Quick scheduling in Field Service](/dynamics365/field-service/quick-scheduling): Quick scheduling (sometimes referred to as "quick book") simplifies the schedule assistant experience to make scheduling easier and quicker.
 
-- [Schedule work over multiple days](https://docs.microsoft.com/dynamics365/field-service/schedule-multi-day-work): Work orders and scheduling requirements can be scheduled across multiple days and weeks. This article explores a few common scenarios.
+- [Schedule work over multiple days](/dynamics365/field-service/schedule-multi-day-work): Work orders and scheduling requirements can be scheduled across multiple days and weeks. This article explores a few common scenarios.
 
-- [Resource crew scheduling](https://docs.microsoft.com/dynamics365/field-service/resource-crews): Resource crews allow dispatchers to search and schedule multiple resources at once. This can include a group of employees, subcontractors, equipment, facilities, or any combination thereof who will perform the same work during a period of time. This article walks through how to set up resource crews.
+- [Resource crew scheduling](/dynamics365/field-service/resource-crews): Resource crews allow dispatchers to search and schedule multiple resources at once. This can include a group of employees, subcontractors, equipment, facilities, or any combination thereof who will perform the same work during a period of time. This article walks through how to set up resource crews.
 
-- [Resource pool scheduling](https://docs.microsoft.com/dynamics365/field-service/resource-pools): Resource pool scheduling allows you to assemble groups of similar resources to manage capacity and give schedulers the option to assign specific resources at a later time. This article walks through two common scenarios.
+- [Resource pool scheduling](/dynamics365/field-service/resource-pools): Resource pool scheduling allows you to assemble groups of similar resources to manage capacity and give schedulers the option to assign specific resources at a later time. This article walks through two common scenarios.
 
-- [Facility scheduling](https://docs.microsoft.com/dynamics365/field-service/facility-scheduling): For scenarios where a customer is expected to travel to the company's location, the facility scheduling feature can coordinate physical spaces and related resources.
+- [Facility scheduling](/dynamics365/field-service/facility-scheduling): For scenarios where a customer is expected to travel to the company's location, the facility scheduling feature can coordinate physical spaces and related resources.
 
 ## Configuration considerations
 
