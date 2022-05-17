@@ -482,6 +482,10 @@
         href: search-knowledge-articles-csh.md
       - name: Understand how search works in knowledge management
         href: search-operators.md
+    - name: Self-service experience
+      items:
+      - name: Search the knowledge base on portals
+        href: knowledge-base-search-methods.md
     - name: Customization experience
       items: 
       - name: Add the knowledge base search control to forms
@@ -494,10 +498,6 @@
         href: create-knowledge-article-using-template.md
       - name: Extend transformer logic on templates
         href: extend-transformer-logic-template.md
-    - name: Self-service experience
-      items:
-      - name: Search the knowledge base on portals
-        href: knowledge-base-search-methods.md
   - name: Microsoft Teams for collaboration
     items:
     - name: Introduction to collaboration
