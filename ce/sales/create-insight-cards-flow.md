@@ -260,7 +260,7 @@ To add a custom action, follow these steps:
 
 ### Launch playbook
 
-Use the **Launch playbook** option to launch a playbook from the card. Before you use the playbook option, verify that playbook solution is available in your organization. To learn more, see [Enforce best practices with playbooks](/sales-enterprise/enforce-best-practices-playbooks).
+Use the **Launch playbook** option to launch a playbook from the card. Before you use the playbook option, verify that playbook solution is available in your organization. To learn more, see [Enforce best practices with playbooks](/dynamics365/sales/enforce-best-practices-playbooks).
 
 1. On the **Create card for assistant V2 (preview)** step, select the **Button type** as **Launch playbook**.
 
