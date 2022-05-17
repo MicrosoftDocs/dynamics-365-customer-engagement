@@ -1,7 +1,7 @@
 ---
 title: "Track and manage SLAs in Customer Service Hub | Microsoft Docs"
 description: "Learn how to track and manage SLAs with the help of interactive dashboards in Customer Service Hub for Dynamics 365 Customer Service."
-ms.date: 05/16/2022
+ms.date: 05/17/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -34,7 +34,7 @@ If your administrator has configured to display the statuses of the configured S
 - The icons are updated for the different stages that the KPIs go through.
 - The KPIs are refreshed at the interval that you specify at the time of configuration.
 
-The statuses and their corresponding symbols are as follows. 
+The following is a list of statuses and their corresponding symbols:
 
 | Symbol | Status |
 |------|----------|
@@ -46,7 +46,7 @@ The statuses and their corresponding symbols are as follows.
 | :::image type="icon" source="media/slakpi-canceled.ico":::|Canceled |
 |||
 
-A sample runtime view of the SLA Timer is as follows. However, note that the SLA KPIs aren't displayed in any particular order.
+The following is a sample runtime view of the SLA Timer. However, note that the SLA KPIs aren't displayed in any particular order.
 
 ![Run time view of SLA timers.](media/sla-timer-runtime.png "Run time view of SLA timers")
 
