@@ -1,5 +1,5 @@
 ---
-title: "FAQs for Dynamics 365 Channel Integration Framework | MicrosoftDocs"
+title: "FAQ for Dynamics 365 Channel Integration Framework | MicrosoftDocs"
 description: "Frequently asked questions about Dynamics 365 Channel Integration Framework and its APIs for Dynamics 365."
 ms.date: 05/04/2022
 ms.topic: reference
@@ -11,9 +11,9 @@ ms.custom:
   - "dyn365-developer"
 ---
 
-# FAQs for Dynamics 365 Channel Integration Framework
+# FAQ for Dynamics 365 Channel Integration Framework
 
-## General FAQs
+## General FAQ
 
 ### What is Dynamics 365 Channel Integration Framework?
 
@@ -113,13 +113,13 @@ For information on license, see [Dynamics 365 Customer Service pricing overview]
 
 ### How can third-party telephony providers start their default session?
 
-You can invoke the [Microsoft.CIFramework.setMode(1)](reference/microsoft-ciframework/setmode.md) method from your provider code to make the panel visible. This can be added at the end of your initialization code, so that the widget is visible right from the time the channel provider is loaded. Beyond that point, you can listen to the [onSessionClosed](/dynamics365/customer-service/dynamics365/channel-integration-framework/referen/v2/reference/events/onSessionClosed) event to show the provider widget when the last session is closed. This way you can make sure that the channel provider widget is visible all the time whether or not a session is open.
+You can invoke the [Microsoft.CIFramework.setMode(1)](reference/microsoft-ciframework/setmode.md) method from your provider code to make the panel visible. This can be added at the end of your initialization code, so that the widget is visible right from the time the channel provider is loaded. Beyond that point, you can listen to the [onSessionClosed](/dynamics365/customer-service/channel-integration-framework/v2/reference/events/onsessionclosed) event to show the provider widget when the last session is closed. This way you can make sure that the channel provider widget is visible all the time whether or not a session is open.
 
 ### My organization uses multiple channel providers. How can I start a default session? Also, why is the widget not visible in the home session?
 
 If there are multiple channel providers in your organization, the widget will not be visible in the home session, as the home session isn't associated with any provider. Note that the [setMode](reference/microsoft-ciframework/setmode.md) API is not supported in the home page. So, in such a scenario, you must create a default session to show a dialer experience in the communication widget, conversation dashboards in the application tab, and so on. 
 To create a default session, do the following:
-1. Use the [createSession](reference/microsoft-ciframework/createSession.md) API to create a session with relevant application tabs and load them together with the widget.
+1. Use the [createSession](/dynamics365/customer-service/channel-integration-framework/v2/reference/microsoft-ciframework/createsession) API to create a session with relevant application tabs and load them together with the widget.
 2. Use the [Microsoft.CIFramework.setMode(1)](reference/microsoft-ciframework/setmode.md) method in your provider code, at the end of the initialization section. This ensures that the widget is visible right from the time the channel provider is loaded.
 ### Why do tabs reload when an agent switches session tabs or switches from session tab to widget?
 
@@ -127,7 +127,7 @@ This is to make sure that the updated data is available for the agent at all tim
 
 ### Is it possible to integrate custom messaging channel providers?
 
-Yes, you can integrate custom messaging channels using Direct Line bot. More information: [Bring your own channel](../../customer-service/bring-your-own-channel.md)
+Yes, you can integrate custom messaging channels using Direct Line bot. More information: [Integrate your your own custom channel: Direct Line](../../customer-service/bring-your-own-channel.md)
 
 ### Is it possible to view the existing channel providers from Channel Integration Framework 2.0 model-driven app?
 
@@ -150,10 +150,10 @@ No, that is not supported.
 
 ### See also
 
-[Overview of Dynamics 365 Channel Integration Framework](overview-channel-integration-framework.md)<br />
-[What's new in Dynamics 365 Channel Integration Framework](whats-new-channel-integration-framework.md)<br />
-[System requirements of Dynamics 365 Channel Integration Framework](system-requirements-channel-integration-framework.md)<br />
-[Known issues of Dynamics 365 Channel Integration Framework](https://go.microsoft.com/fwlink/p/?linkid=2171869)
+[Overview of Dynamics 365 Channel Integration Framework](overview-channel-integration-framework.md)  
+[What's new in Dynamics 365 Channel Integration Framework](whats-new-channel-integration-framework.md)  
+[System requirements of Dynamics 365 Channel Integration Framework](system-requirements-channel-integration-framework.md)  
+[Known issues in Dynamics 365 Channel Integration Framework](https://go.microsoft.com/fwlink/p/?linkid=2171869)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
