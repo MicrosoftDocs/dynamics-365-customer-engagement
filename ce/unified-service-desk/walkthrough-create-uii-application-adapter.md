@@ -141,7 +141,7 @@ You can create an application adapter if you want to integrate an external appli
            int intIDCoordY = 126;  
    ```  
   
-5. Add the following code to the definition of `NotifyContextChange` to notify the application that the context has changed. For more information, see [Context)](/dotnet/api/microsoft.uii.csr.hostedapplicationadapter.notifycontextchange(microsoft.uii.csr.context))  
+5. Add the following code to the definition of `NotifyContextChange` to notify the application that the context has changed. For more information, see [Context)](/dotnet/api/microsoft.uii.csr.hostedwebapplication.notifycontextchange)  
   
    ```csharp  
    public override bool NotifyContextChange(Context context)  
