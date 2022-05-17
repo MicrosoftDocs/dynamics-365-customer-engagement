@@ -34,7 +34,7 @@ If your administrator has configured to display the statuses of the configured S
 - The icons are updated for the different stages that the KPIs go through.
 - The KPIs are refreshed at the interval that you specify at the time of configuration.
 
-The following is a list of statuses and their corresponding symbols:
+The following is a list of statuses and their corresponding symbols.
 
 | Symbol | Status |
 |------|----------|
