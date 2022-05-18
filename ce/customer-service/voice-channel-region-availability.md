@@ -101,7 +101,7 @@ We use the Azure Cognitive Services Speech service Speech-to-Text for transcript
 | Chinese - China - Mandarin| `zh-CN` |✔|✔|✔|✔|✔|x|✔|
 | Chinese - Hong Kong SAR - Cantonese - Taiwan - Traditional| `zh-CN` |✔|✔|✔|✔|✔|x|✔|
 | Chinese - Literary | `lzh` |x|x|x|x|x|x|x|
-| Croatian - Croatia | `hr-HR` |✔|x|✔|✔|✔|x|✔|x|
+| Croatian - Croatia | `hr-HR` |✔|x|✔|✔|✔|x|✔|
 | Czech - Czech Republic | `cs-CZ` |✔|x|✔|✔|✔|x|✔|
 | Danish - Denmark | `da-DK` |✔|✔|✔|✔|✔|x|✔|
 | Dari | `prs` |x|x|x|x|x|x|x|
