@@ -71,7 +71,7 @@ Further, you can share the saved summary with the stakeholders through an email.
 >[!NOTE]
 >If you don’t see the **Notes** tab, contact your administrator to enable the coming soon features in the conversation intelligence configuration page. More information: [Enable coming soon features for conversation intelligence](enable-preview-features-sales-app.md)
 
-##### To write a summary 
+##### To write a call summary or notes
 
 1. Go to the **Notes** tab.
     

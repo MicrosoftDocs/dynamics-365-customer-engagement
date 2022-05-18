@@ -1,5 +1,5 @@
 ---
-title: "View and understand call summary page"
+title: "View and understand call summary page in Conversation Intelligence app"
 description: "Use call summary a get a high-level view of how a conversation with customer went, and includes action items and relevant keywords, timeline, transcript."
 ms.date: 05/18/2022
 ms.topic: article
@@ -7,7 +7,7 @@ author: udaykirang
 ms.author: udag
 manager: shujoshi
 ---
-# View and understand call summary page 
+# View and understand call summary page in Conversation Intelligence app
 
 Sellers and their managers need an easy way to review the conversations they've had with their customers and quickly find relevant talking points, keywords, and insights.  
 The call summary page provides a high-level view of how the conversation with a customer went, and includes action items and relevant keywords, a timeline, a transcript of the call, and more.  
@@ -64,7 +64,7 @@ Further, you can share the saved summary with the stakeholders through an email.
 >[!NOTE]
 >If you don’t see the **Notes** tab, contact your administrator to enable the coming soon features in the conversation intelligence configuration page. More information: [Enable coming soon features for conversation intelligence](enable-preview-features-sales-app.md)
 
-##### To write a summary 
+##### To write a call summary or notes
 
 1. Go to the **Notes** tab.
     
