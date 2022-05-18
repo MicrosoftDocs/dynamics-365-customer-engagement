@@ -66,7 +66,7 @@ As an example, let's see how to remove the **Billable Time** field from the **In
 2. Open the form you want to edit. For this example, let's select the **Information** form.
     The form opens in the form designer.
 
-3. In the form designer, do the following:
+3. In the form designer, do the following actions:
     1. Select **Billable Time**.
 
     2. On the command bar, select **Remove**.
@@ -103,7 +103,7 @@ Let's understand how to add custom status values to the case resolution dialog w
 
 8. Select **OK**.
 
-9. If you've preconfigured status reason transitions, select **Edit Status Reason Transitions** to setup new status reasons.
+9. If you've preconfigured status reason transitions, select **Edit Status Reason Transitions** to set up new status reasons.
 For more information, see: [Define status reason transitions](/power-apps/maker/data-platform/define-status-reason-transitions).
 
 1.  Select **Save and Close**. You've successfully added a custom status type and status value to the case entity.  
@@ -126,7 +126,7 @@ Now, let's see how to use the **Duplicate** custom status value in case resoluti
 
 Continuing with the same example, let's now see how to use the **Duplicate** custom status value in case resolution, so that duplicate cases are automatically marked as resolved.
 
-### To automatically resolve duplicate cases
+### Automatically resolve duplicate cases
 
 1. In Customer Service workspace, open a case that you recognize as similar or duplicate of a previously resolved case. The Summary page with the case details opens. If you're using Customer Service Hub, in the site map, go to **Service**, select **Cases**, and select a case.
 

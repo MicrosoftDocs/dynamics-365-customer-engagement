@@ -51,19 +51,6 @@ The environment you receive in trial is a fully functional, Dynamics 365 environ
 - Dynamics 365 Power Automate
   - To build customized and automated flows and business processes
 
-The following service plans are available:
-
-- Dynamics 365 Customer Service Enterprise Viral Trial
-- Dynamics 365 AI for Customer Service Virtual Agents Viral
-- Dynamics 365 Customer Service Digital Messaging vTrial
-- Dynamics 365 Customer Service Enterprise vTrial
-- Dynamics 365 Customer Service Insights vTrial
-- Dynamics 365 Customer Service Voice vTrial
-- Power Apps for Dynamics 365 vTrial
-- Power Automate for Dynamics 365 vTrial
-- Exchange Foundation
-- Customer Voice for Dynamics 365 vTrial
-
 ### How do I remove sample data from the trial instance?
 
 Your trial environment has been curated to provide you with a fully functional application to ensure you can discover the business value of Customer Service right away. Sample data is provided to ensure all features are fully illustrated for you to learn how the product works as if it were deployed to many users in your organization and with existing customer interactions. Because this is a real environment, you can manually add or delete individual data records in your trial environment as you want. There is no option to bulk delete the sample data and configurations from the trial environments.
