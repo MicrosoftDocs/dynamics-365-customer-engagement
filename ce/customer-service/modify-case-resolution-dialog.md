@@ -110,8 +110,6 @@ For more information, see: [Define status reason transitions](/power-apps/maker/
 
 ### Update the case resolution entity
 
-Now, let's see how to use the **Duplicate** custom status value in case resolution, so that duplicate cases are automatically marked as resolved.
-
 1. In the solution explorer under **Components**, expand **Entities**, select **Case Resolution**, and then select **Fields**.
 
 2. On the page that appears, select the field that you want to update. For this example, let's select **resolutiontypecode** in the **Name** column.
@@ -128,7 +126,9 @@ Continuing with the same example, let's now see how to use the **Duplicate** cus
 
 ### Automatically resolve duplicate cases
 
-1. In Customer Service workspace, open a case that you recognize as similar or duplicate of a previously resolved case. The Summary page with the case details opens. If you're using Customer Service Hub, in the site map, go to **Service**, select **Cases**, and select a case.
+Now, let's see how to use the **Duplicate** custom status value in case resolution, so that duplicate cases are automatically marked as resolved.
+
+1. In Customer Service workspace, open a case that you recognize as similar or duplicate of a previously resolved case. The **Summary** page with the case details opens. If you're using Customer Service Hub, in the site map, go to **Service**, select **Cases**, and select a case.
 
 2. To resolve the case, select **Resolve Case** on the command bar.
 
