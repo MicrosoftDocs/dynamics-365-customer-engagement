@@ -291,6 +291,6 @@ Perform the following steps to use the activity monitor for the rules:
 
 [Create and manage queues](set-up-queues-manage-activities-cases.md)  
 [Create rules to automatically route cases](create-rules-automatically-route-cases.md)  
-[FAQs on activity monitor](arc-faqs.md)
+[FAQ on activity monitor](arc-faqs.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -108,7 +108,7 @@ Perform the following steps to configure the default view for the [enhanced emai
 [Insert an email template](customer-service-hub-user-guide-email-insert-template.md)<br>
 [Convert an email to a template](customer-service-hub-user-guide-email-convert-template.md)<br>
 [Use a signature in email](customer-service-hub-user-guide-email-create-signature.md)<br>
-[Email FAQs](email-faqs.md)  
+[Email FAQ](email-faqs.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
