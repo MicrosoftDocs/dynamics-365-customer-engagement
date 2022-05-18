@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/unified-service-desk/oc-usd/conversation-state.md",
+      "redirect_url": "/dynamics365/customer-service/oc-conversation-state",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/marketing/real-time-marketing-event-based-journey.md",
       "redirect_url": "real-time-marketing-trigger-based-journey",
       "redirect_document_id": "false"
