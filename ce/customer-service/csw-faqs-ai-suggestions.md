@@ -1,6 +1,6 @@
 ---
-title: FAQs for AI suggestions for cases, knowledge articles | MicrosoftDocs
-description: FAQs for AI suggestions for cases and knowledge articles in Dynamics 365 Customer Service.
+title: FAQ for AI suggestions for cases, knowledge articles | MicrosoftDocs
+description: FAQ for AI suggestions for cases and knowledge articles in Dynamics 365 Customer Service.
 ms.date: 11/17/2020
 ms.topic: article
 author: neeranelli
@@ -15,7 +15,7 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# FAQs on AI suggestions for cases and knowledge articles
+# FAQ on AI suggestions for cases and knowledge articles
 
 A few answers to common questions about the AI-suggested similar cases and knowledge articles are listed here.
 

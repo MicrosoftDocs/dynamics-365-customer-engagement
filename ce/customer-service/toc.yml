@@ -370,6 +370,8 @@
         href: define-service-level-agreements.md
       - name: Enable entities for service level agreements
         href: enable-entities-service-level-agreements.md
+      - name: Apply SLAs
+        href: apply-slas.md
       - name: Calculate SLA KPIs
         items:
         - name: Recalculate SLAs in terminal status
@@ -428,7 +430,7 @@
           href: /power-apps/user/email-template-convert?context=/dynamics365/context/customer-service-context
         - name: Create a signature for emails
           href: /power-apps/user/email-signature?context=/dynamics365/context/customer-service-context
-      - name: Email FAQs and known issues
+      - name: Email FAQ and known issues
         href: /power-apps/user/activities-known-issues?context=/dynamics365/context/customer-service-context 
   - name: Timeline
     items: 
@@ -436,7 +438,7 @@
       href: /powerapps/maker/model-driven-apps/set-up-timeline-control?context=/dynamics365/context/customer-service-context
     - name: Use timeline
       href: /powerapps/user/add-activities
-    - name: FAQs about Activities and the Timeline Wall
+    - name: FAQ about Activities and the Timeline Wall
       href: /powerapps/user/faq-for-timeline-and-activity
   - name: Knowledge management
     items:
@@ -496,8 +498,6 @@
       items:
       - name: Search the knowledge base on portals
         href: knowledge-base-search-methods.md
-  - name: Microsoft Teams chat for enterprise collaboration
-  - name: Microsoft Teams collaboration
   - name: Microsoft Teams for collaboration
     items:
     - name: Introduction to collaboration
@@ -524,6 +524,24 @@
         href: use-ai-suggested-contacts-teams.md
       - name: Use customer support swarming to resolve issues
         href: use-customer-support-swarming.md
+      - name: Share and update Dynamics 365 records within Microsoft Teams conversation
+        items:
+        - name: Overview
+          href: ../sales/teams-integration/share-d365-record-overview?context=/dynamics365/context/customer-service-context
+        - name: Work with the Dynamics 365 app
+          items:
+          - name: Access the Dynamics 365 app through messaging extensions
+            href: ../sales/teams-integration/access-d365-app?context=/dynamics365/context/customer-service-context
+          - name: Edit settings of the Dynamics 365 app
+            href: ../sales/teams-integration/edit-d365-app?context=/dynamics365/context/customer-service-context
+          - name: Share feedback
+            href: ../sales/teams-integration/share-feedback-d365-app?context=/dynamics365/context/customer-service-context
+          - name: Share a record in Teams conversation
+            href: ../sales/teams-integration/share-dynamics-records-in-teams?context=/dynamics365/context/customer-service-context
+          - name: View and update record details
+            href: ../sales/teams-integration/view-update-dynamics-records?context=/dynamics365/context/customer-service-context
+          - name: Add chat messages to Dynamics 365 as notes or tasks
+            href: ../sales/teams-integration/add-chat-d365?context=/dynamics365/context/customer-service-context
   - name: Voice
     items:
     - name: Introduction to the voice channel
@@ -594,8 +612,6 @@
         href: voice-channel-reports-analytics.md
     - name: Emergency calling in the voice channel
       href: voice-channel-emergency-calling.md
-    - name: FAQs about the voice channel
-      href: voice-channel-faqs.md  
   - name: Chat
     items: 
     - name: Administrator experience
@@ -868,8 +884,6 @@
         href: user-details-teams-azure-bot.md
       - name: Display suggested actions in a vertical layout
         href: suggested-actions.md
-      - name: Download attachments from Power Virtual Agents bot
-        href: download-attachments-PVA-bot.md
   - name: Insights
     items: 
     - name: Introduction to Customer Service Insights
@@ -1040,9 +1054,9 @@
         href: create-edit-resource-group.md
       - name: Manage sites
         href: use-sites-manage-service-locations.md
-    - name: Service Scheduling FAQs
+    - name: Service Scheduling FAQ
       items:
-      - name: Service Scheduling FAQs
+      - name: Service Scheduling FAQ
         href: service-scheduling-faq.md
     - name: Developer experience
       items: 
@@ -1108,7 +1122,7 @@
         href: plan-migration.md
       - name: Migrate service scheduling
         href: migrate-entity-records.md
-    - name: Migration FAQs
+    - name: Migration FAQ
       items: 
       - name: FAQs on Migration tool for automatic record creation rules and SLAs
         href: migrate-tool-faqs.md
@@ -1524,18 +1538,20 @@
       href: report-issues.md
   - name: Share feedback in Customer Service
     href: cs-share-feedback.md
-  - name: FAQs about Customer Service
+  - name: FAQ about Customer Service
     items: 
-    - name: FAQs about Customer Service admin center
+    - name: FAQ about Customer Service admin center
       href: faq-customer-service-admin-center.md
-    - name: FAQs about unified routing
+    - name: FAQ about unified routing
       href: unified-routing-faqs.md
-    - name: FAQs about AI suggestions for cases and knowledge articles
+    - name: FAQ about AI suggestions for cases and knowledge articles
       href: csw-faqs-ai-suggestions.md
-    - name: FAQs about Omnichannel for Customer Service
+    - name: FAQ about Omnichannel for Customer Service
       href: faqs.md
-    - name: FAQs about custom time calculation of SLA KPIs
+    - name: FAQ about custom time calculation of SLA KPIs
       href: faqs-custom-time-sla-kpis.md
+    - name: FAQ about the voice channel
+      href: voice-channel-faqs.md  
   - name: Omnichannel for Customer Service on Unified Service Desk
     href: ../unified-service-desk/oc-usd/omnichannel-customer-service-unified-service-desk.md
   - name: Unified Service Desk Guide

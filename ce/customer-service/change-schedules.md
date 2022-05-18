@@ -69,7 +69,7 @@ Recommendation:
  
 1. Don't modify the existing SLA and calendar. The existing SLA can continue to remain in an active state in the production environment. Create a similar SLA with a new calendar and the same kind of SLA items.
 
-1. Activate the new SLA and set it as the default. This will ensure that all the new cases are created with the new SLA, and time calculation will be done with the new calendar information. If you aren't using a default SLA, update your SLA condition to update the SLA ID in the Case entity accordingly. More information: [Apply SLAs on demand](define-service-level-agreements.md#apply-slas-on-demand)
+1. Activate the new SLA and set it as the default. This will ensure that all the new cases are created with the new SLA, and time calculation will be done with the new calendar information. If you aren't using a default SLA, update your SLA condition to update the SLA ID in the Case entity accordingly. More information: [Apply SLAs](apply-slas.md#apply-slas)
 
 **Scenario 2**
 
@@ -87,7 +87,7 @@ Recommendation:
 
 1. Activate the new SLAs. This will ensure that all the new cases are created with the new SLA, and time calculation will be done with the new calendar information.
 
-1. Update your SLA conditions to update the SLA ID in the Case entity accordingly. More information: [Apply SLAs on demand<a name="apply-sla-on-demand"></a>](define-service-level-agreements.md#apply-slas-on-demand)
+1. Update your SLA conditions to update the SLA ID in the Case entity accordingly. More information: [Apply SLAs](apply-slas.md#apply-slas)
 
 **Scenario 3**
 
@@ -112,7 +112,7 @@ For example, a flow can run during the lowest activity hours with the following 
 - Do an update on the case to put it to a paused state.
 - Do the next update on the case, which puts it back to Resume.
 
-More information: [Apply SLAs on demand<a name="apply-sla-on-demand"></a>](define-service-level-agreements.md#apply-slas-on-demand)
+More information: [Apply SLAs](apply-slas.md#apply-slas)
 
 **Scenario 4**
 

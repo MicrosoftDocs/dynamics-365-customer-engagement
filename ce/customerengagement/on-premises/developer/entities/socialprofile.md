@@ -12,7 +12,8 @@ search.audienceType:
   - developer
 
 ---
-# SocialProfile Entity Reference
+
+# SocialProfile Entity Reference for Dynamics 365 Customer Engagement
 
 This entity is used to store social profile information of its associated account and contacts on different social channels.
 
