@@ -53,25 +53,23 @@ Enabling the user configured settings to an email form consists of the following
    
 1. Copy the text in the **Source** field, and then close the window.
 
-   ![Copy web resource file.](media/email-copy-web-resource-file.png "Copy the web resource file.")
+   ![Copy web resource file.](media/email-copy-web-resource-file.png "Copy the web resource file.") 
 
 1. Create a new web resource and paste the code you copied from the existing file into it.
 
+1. Make any changes you want, and then select **Save and publish**.
    > [!NOTE]
-   > A code editor such as Visual Studio Code can provide a better editing experience.<br></br>
-     There are a variety of properties that can be modified and will apply to the email form when you configure it. For more information, see [Rich Text Editor Properties](/power-apps/maker/model-driven-apps/rich-text-editor-control#rich-text-editor-properties).
+   >  - A code editor such as Visual Studio Code can provide a better editing experience.
+   >  - There are a variety of properties that can be modified and will apply to the email form when you configure it. For more information, see [Rich Text Editor Properties](/power-apps/maker/model-driven-apps/rich-text-editor-control#rich-text-editor-properties).
+   >  - Ensure that the **disableDefaultImageProcessing** property is set to **True** for inline images added to the editor to load properly in the recipient's email.
 
-1. Make any changes you want, and then select **Save and publish**. Save the URL to the new web resource because you'll need it to map the new web resource file to the **Enhanced Email** form.
-
-   ![Save web resource URL.](media/email-web-resource-url.png "Save the web resource URL.")
-
-1. Navigate to **Customization** > **Customize the system** > **Entity** > **Email** > **Forms**.
-
-1. Open the **Enhanced Email** form, double-click **Description**, and then navigate to the **Control** tab.
-	
-1. Add the RTE control, select **Custom Configuration URL**, and then in the URL field, enter the URL from the new web resource file you created.
-
-1. Select **Save** and then **Publish All Customizations**.
+3.  Save the URL to the new web resource because you'll need it to map the new web resource file to the **Enhanced Email** form.
+   
+     ![Save web resource URL.](media/email-web-resource-url.png "Save the web resource URL.")
+5.  Navigate to **Customization** > **Customize the system** > **Entity** > **Email** > **Forms**.
+6.  Open the **Enhanced Email** form, double-click **Description**, and then navigate to the **Control** tab.
+7.  Add the RTE control, select **Custom Configuration URL**, and then in the URL field, enter the URL from the new web resource file you created.
+8.  Select **Save** and then **Publish All Customizations**.
 
 
 ### Enable the RTE control in the email form
@@ -110,7 +108,7 @@ Perform the following steps to configure the default view for the [enhanced emai
 [Insert an email template](customer-service-hub-user-guide-email-insert-template.md)<br>
 [Convert an email to a template](customer-service-hub-user-guide-email-convert-template.md)<br>
 [Use a signature in email](customer-service-hub-user-guide-email-create-signature.md)<br>
-[Email FAQs](email-faqs.md)  
+[Email FAQ](email-faqs.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

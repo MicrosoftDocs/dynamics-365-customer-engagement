@@ -8,7 +8,7 @@ ms.author: sdas
 manager: shujoshi
 ---
 
-# Integrate knowledge management in Dynamics 365 with Power Virtual Agents bots (preview)
+# Integrate knowledge management in Dynamics 365 with Power Virtual Agents bots (Preview)
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
@@ -33,20 +33,20 @@ You can integrate knowledge management with a Power Virtual Agents bot by using 
 
 ## Prerequisites
 
-- Dataverse search must be enabled for the integration. You must have a system administrator role to be able to enable Dataverse search. More information: [Configure Dataverse search for your environment](/power-platform/admin/configure-relevance-search-organization).
+- Dataverse search must be enabled for the integration. You must have a system administrator role to be able to enable Dataverse search. More information: [Configure Dataverse search for your environment](/power-platform/admin/configure-relevance-search-organization)
 
-- You must perform the following two steps before you begin the integration:
+- You must perform the following two steps before you begin the integration.
 
   - Create and publish knowledge articles to a portal created in Power Apps.
   
     Set up your portal with the Power Apps portals feature before integrating knowledge management with the Power Virtual Agents bot. More information: [Use settings to set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md). For more information on setting up your Power Apps portal, see: [Power Apps portal documentation](/powerapps/maker/portals/).
 
-    You can create and manage knowledge articles by setting the **Internal** field to **No**. More information: [knowledgearticle EntityType](/dynamics365/customer-engagement/web-api/knowledgearticle).
+    You can create and manage knowledge articles by setting the **Internal** field to **No**. More information: [knowledgearticle EntityType](/dynamics365/customer-engagement/web-api/knowledgearticle)
 
-  - Create a  Power Virtual Agents bot and a topic in it.
+  - Create a Power Virtual Agents bot and a topic in it.
 
-    - For more information on creating a bot, see: [Create and delete Power Virtual Agents bots](/power-virtual-agents/authoring-first-bot)
-    - For more information on creating a topic, see: [Create and edit topics in your Power Virtual Agents bot](/power-virtual-agents/authoring-create-edit-topics)
+    - For more information on creating a bot, see [Create and delete Power Virtual Agents bots](/power-virtual-agents/authoring-first-bot).
+    - For more information on creating a topic, see [Create and edit topics in your Power Virtual Agents bot](/power-virtual-agents/authoring-create-edit-topics).
    
 ## Use the Search Dynamics 365 knowledge article flow (Preview) action
 

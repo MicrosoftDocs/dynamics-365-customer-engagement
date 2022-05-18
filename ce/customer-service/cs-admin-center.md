@@ -95,9 +95,9 @@ You can manage the following features in **Operations**:
 
   :::image type="content" source="media/operations-overview.png" alt-text="Overview page of operations in Customer Service admin center.":::
 
-### FAQs
+### FAQ
 
-See the [FAQs about Customer Service admin center](faq-customer-service-admin-center.md) for any questions that you might have.
+See the [FAQ about Customer Service admin center](faq-customer-service-admin-center.md) for any questions that you might have.
 
 ### See also
 

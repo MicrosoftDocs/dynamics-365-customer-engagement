@@ -17,7 +17,7 @@ The purpose of this document is to provide information about the geographic loca
 
 
 > [!NOTE]
-> For information about the availability of the voice channel, see [Regional availability and supported languages for the voice channel](voice-channel-region-availability.md).
+> For information about the supported regions and languages in the voice channel, see [Supported cloud locations, languages, and locale codes](voice-channel-region-availability.md).
 
 
 ## Geographic location availability
@@ -26,7 +26,7 @@ Your Microsoft 365 tenant must be co-located in one of the following geographic 
 
 > [!Note]
 >
-> In the South America, Europe, and Asia Pacific regions, Omnichannel for Customer Service is currently not available in a tenant that's located in Brazil, Norway, Sweden, and Singapore respectively.
+> In the South America, Europe, and Asia Pacific regions, Omnichannel for Customer Service is currently not available in a tenant that's located in Brazil, Norway, Sweden, and Singapore.
 
 ### April 2022 update
 

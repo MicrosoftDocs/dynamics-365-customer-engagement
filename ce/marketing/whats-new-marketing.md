@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 05/03/2022
+ms.date: 05/10/2022
 ms.custom:
   - dyn365-marketing
 ms.topic: article
@@ -18,6 +18,8 @@ search.app:
 ---
 
 # What's new in Dynamics 365 Marketing
+
+[!INCLUDE[marketing-trial-cta](../shared/trials/marketing-trial-cta.md)]
 
 We're excited to announce our newest updates! This article summarizes early access features, preview features, general availability enhancements, monthly updates, and bug fixes. To see the long-term feature plans, take a look at the [Dynamics 365 and Power Platform release plans](/dynamics365/release-plans/).
 
@@ -55,21 +57,23 @@ The update also includes monthly enhancements to journeys, domain authentication
 - **Create emails faster with precise drag-and-drop, in-context menu, and easy-select interactions**
     - The reimagined email editor is optimized for a productive workflow, allowing you to quickly create engaging and relevant content. With this release, the editor is further enhanced with precise drag-and-drop interactions, easy selection of elements, columns, or sections, and an in-context menu for faster content creation so you can create pixel-perfect emails in minutes.
     - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/create-emails-faster-precise-drag-and-drop-in-context-menu-easy-select-interactions)
+    - [Docs](create-marketing-email.md)
 
 - **Personalize interactions using a unified view of customer activity across Dynamics 365 Marketing, Sales, and Customer Service**
     - Sales and Customer Service agents use the Dynamics 365 unified timeline to view their customers’ past activities so they can personalize engagement. Now, these agents can also view real-time and outbound marketing activities in the Dynamics 365 unified timeline. The timeline allows filtering based on the specific type(s) of activity or interactions. It also allows previews of messages sent to customers. This enables, for instance, loan agents in a financial services firm to know what document request was made to a loan applicant in a previous email so that the agent can quickly find the right document.
     - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/personalize-interactions-using-unified-view-customer-activity-across-dynamics-365-marketing-sales-customer-service)
-    - [Docs](/power-apps/user/add-activities)
+    - [Docs](timeline.md)
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of new timeline view.](media/whats-new-timelineview.png "Screenshot of new timeline view")
 
-- **Quickly create emails with enhanced reusable content fragments**
+- **Quickly create emails with enhanced reusable content blocks**
     - Content blocks are reusable pieces of content that let you easily assemble rich and consistent emails. New and enhanced content blocks are now available in outbound and real-time marketing. The enhanced content blocks can include all standard elements such as text, images, and buttons, as well as custom layouts and personalization.
-    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/quickly-create-emails-enhanced-reusable-content-fragments).
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/quickly-create-emails-enhanced-reusable-content-fragments)
+    - [Docs](content-blocks.md)
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of new content fragments.](media/whats-new-content-fragments-themes.png "Screenshot of new content fragments")
+    > ![Screenshot of new content blocks.](media/whats-new-content-blocks.png "Screenshot of new content blocks")
 
 #### General availability enhancements
 
@@ -85,6 +89,7 @@ The update also includes monthly enhancements to journeys, domain authentication
 - **Improved email layout templates for faster content creation**
     - Default layout templates have been replaced with popular and useful layouts allowing marketers to easily kick-start the email creation process. The templates have a modern look and feel for a better experience. They include simplified guidance with more descriptive and actionable content placeholders.
     - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/improved-email-layout-templates-faster-content-creation)
+    - [Docs](email-templates.md)
 
 - **Easily author personalized content using pre-defined dynamic text without the need to understand the data model**
     - With pre-defined dynamic text, marketers have a quick list of the most commonly used dynamic text to select from. Marketers can simply select and insert the pre-defined text into an email to personalize it. Marketers familiar with the data model can create and share additional dynamic text so that the rest of the team can focus on authoring content rather than learning database concepts. Not only does this promote ease of use, but it also customizes the list with dynamic text that’s specific to individual businesses.

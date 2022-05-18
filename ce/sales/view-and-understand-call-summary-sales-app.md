@@ -1,7 +1,7 @@
 ---
 title: "View and understand call summary page in Dynamics 365 Sales Hub app"
 description: "Use call summary a get a high-level view of how a conversation with customer went, and includes action items and relevant keywords, timeline, transcript in Sales Hub app."
-ms.date: 11/26/2021
+ms.date: 05/18/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -47,64 +47,61 @@ The **Call Insights** tab is available under activities for leads and opportunit
 
 ## Understand the call summary page   
 A call summary page includes the following sections:     
-- [Overview, summary, action items, and highlights](#overview-summary-action-items-and-highlights)   
+- [Overview, notes, action items, and highlights](#overview-notes-action-items-and-highlights)   
 - [Call transcript and translation](#call-transcript-and-translation)  
 - [Call playback timeline and segmentation](#call-playback-timeline-and-segmentation)    
 
-### Overview, summary, action items, and highlights   
+### Overview, notes, action items, and highlights   
 
 #### Overview tab
 
-The **Overview** tab displays the names of the people who participated in a conversation, along with KPIs such as average talking speed, switch per conversations, average pause, and longest customer monologue. Also, you can see the tags that have been added to the conversation to improve searchability. The following image shows a **Overview** tab.    
+The **Overview** tab displays the names of the people who participated in a conversation, along with KPIs such as average talking speed, switch per conversations, average pause, and longest customer monologue. Also, you can see the tags that have been added to the conversation to improve searchability. The following image shows the **Overview** tab.    
 > [!div class="mx-imgBorder"]
 > ![Sample overview tab](media/ci-summary-call-overview.png "Sample Overview tab")
 
 
-#### Summary tab   
+#### Notes tab   
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-The **Summary** tab in the call summary page helps you reduce the time to summarize the call  and add the provided intelligent suggestions to the summary including action items, commitments, call minutes, and next steps.      
-You can write  a quick and personalized summary without moving away from the context of the call in the **Summary** tab. Providing a summary of the call helps you to save time, focus on the customer’s call, quickly review the key points, and understand the next course of action.    
-Further, you can share the saved summary with the stakeholders through an email.     
+The **Notes** tab in the call summary page helps you reduce the time to summarize the call  and add the provided intelligent suggestions to the summary including action items, commitments, call minutes, and next steps.      
+You can write  a quick and personalized summary without moving away from the context of the call in the **Notes** tab. Providing a summary of the call helps you to save time, focus on the customer’s call, quickly review the key points, and understand the next course of action.    
+Further, you can share the saved summary with the stakeholders through an email.  
 
 >[!NOTE]
->If you don’t see the **Summary** tab, contact your administrator to enable the coming soon features in the conversation intelligence configuration page. More information: [Enable coming soon features for conversation intelligence](enable-preview-features-sales-app.md)
+>If you don’t see the **Notes** tab, contact your administrator to enable the coming soon features in the conversation intelligence configuration page. More information: [Enable coming soon features for conversation intelligence](enable-preview-features-sales-app.md)
 
-##### To write a summary 
+##### To write a call summary or notes
 
-1. Go to the **Summary** tab.
+1. Go to the **Notes** tab.
     
     > [!div class="mx-imgBorder"]
-    > ![Sample Summary tab](media/ci-summary-call-summary-sales-app.png "Sample Summary tab")
+    > ![Sample Notes tab](media/ci-summary-call-summary-sales-app.png "Sample Notes tab")
+    You would see any notes that you had taken during the meeting. 
+         
+2.	Edit your notes or check out the **Suggested notes** pane for call highlights and action items.
 
-2. Select **Edit**.    
-3.	Type your notes and select the bulb icon to add the automatically generated suggestions from the items on the right.    
-
-    >[!NOTE]
-    >-	To add notes from the call highlights and action items, select **Add** corresponding to the item. 
-    >-	To add all the suggested notes, select More options (…) corresponding to Suggested notes, and then select **Add all**.
-    >-	To understand and know more about the context of the note, select the timestamp corresponding to the notes and you are directed to the section in the transcript. 
+    -	To add notes from the call highlights and action items, select **Add** corresponding to the item. 
+    
+    -	To add all the suggested notes, select More options (…) corresponding to Suggested notes, and then select **Add all**.
+    -	To understand and know more about the context of the note, select the timestamp corresponding to the notes and you are directed to the section in the transcript and the playback. 
 
     > [!div class="mx-imgBorder"]
-    > ![Suggested notes in the summary tab](media/ci-summary-call-summary-suggested-notes-sales-app.png "Suggested notes in the summary tab")
+    > ![Suggested notes in the Notes tab](media/ci-summary-call-summary-suggested-notes-sales-app.png "Suggested notes in the Notes tab")
 
 4. Select **Save**.    
     The call summary is saved. You can use the summary to: 
     -	Share with the stakeholders.  
     -	Keep as a reference.
 
-    > [!div class="mx-imgBorder"]
-    > ![Sample saved call summary](media/ci-summary-call-summary-saved-sales-app.png "Sample saved call summary")
-
-##### Email call summary to participants and stakeholders
+##### Email call summary or notes to participants and stakeholders
 
 1.	From the notes section, select **Copy to clipboard**.
 
     > [!div class="mx-imgBorder"]
     > ![Select the copy to clipboard option to copy summary notes](media/ci-summary-call-summary-copy-summary-notes-sales-app.png "Select the copy to clipboard option to copy summary notes")
 
-2.	Open your email and past the copied summary. The summary is pasted in the following format:
+2.	Open your email and paste the copied summary. The summary is pasted in the following format:
     -	**Subject**: Specifies the subject of the call. For example, Gym membership.
     -	**Participants**: Lists the players who are connected during the call.  
     -	**Call date and time**: Specifies the date and time of the call.   

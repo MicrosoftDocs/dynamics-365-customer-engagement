@@ -2,7 +2,6 @@
 title: "Manage user compliance settings (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to manage real-time marketing compliance settings in Dynamics 365 Marketing."
 ms.date: 10/04/2021
-
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
