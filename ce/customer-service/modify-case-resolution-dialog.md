@@ -31,8 +31,7 @@ Make sure that the CSR Manager and Customer Service Representative security role
 - **Customer Service Manager**: Create, Read, and Write
 - **Customer Service Representative**: Read
 
-> [!Note]
-> If you've created custom security roles, you'll need to update the roles before you can use the modified case resolution dialog.
+If you've created custom security roles, you'll need to update the roles to use the modified case resolution dialog.
 
 ## Customize dialogs
 
@@ -79,11 +78,11 @@ When the customer service representatives try to resolve a case, the case resolu
 ## Add custom values to the case resolution dialog
 
 Let's understand how to add custom status values to the case resolution dialog with an example. Say, for example, you receive many similar business cases and you want to improve agent productivity and reduce case resolution time. You can add a case resolution rule where any case that's similar to a previously resolved case can be resolved by marking it as a "duplicate case".
-
-To do so, you'll need to update the Case entity to add a new **Resolved** status type and assign a **Duplicate** custom value to it. You'll also need to update the resolution type of the Case Resolution entity with the same custom value to ensure that all duplicate cases are assigned the same resolution type.
+ 1. Update the Case entity to add a new Resolved status type and assign a Duplicate custom value to it.
+ 1. Update the resolution type of the Case Resolution entity with the same custom value to ensure that all duplicate cases are assigned the same resolution type.
 
 > [!Important]
-> If you change the value in **Case entity**, be sure to update the value in **Case Resolution entity** so they match. If the values don't match, an error might be thrown. If the values don't match in the customizable dialog, the values that you specified won't display.
+> If you change the value in **Case entity**, be sure to update the value in **Case Resolution entity** so they match. If the values don't match, an error might occur. If the values don't match in the customizable dialog, the values that you specified won't be displayed.
 
 ### To update the case entity
 
