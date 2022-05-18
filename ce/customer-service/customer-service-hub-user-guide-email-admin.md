@@ -62,7 +62,7 @@ To enable email:
 
 Enhanced email is the default setting, but you must enable email for users to access and use the features. 
 
-Sign in to https://<YourOrgURL>.dynamics.com/apps and open a customer engagement app. In the app:	
+Sign in to https://`<YourOrgURL>`.dynamics.com/apps and open a customer engagement app. In the app:
 
 1. Go to **Settings** > **Advanced Settings**.
 
