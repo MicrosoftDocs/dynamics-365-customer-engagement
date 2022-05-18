@@ -85,7 +85,7 @@ To do so, you'll need to update the Case entity to add a new **Resolved** status
 > [!Important]
 > If you change the value in **Case entity**, be sure to update the value in **Case Resolution entity** so they match. If the values don't match, an error might be thrown. If the values don't match in the customizable dialog, the values that you specified won't display.
 
-**To update the case entity**
+### To update the case entity
 
 1. In Dynamics 365, go to **Advanced Settings**, select **Customizations**, and then select **Customize the System**.
    
@@ -111,7 +111,7 @@ For more information, see: [Define status reason transitions](/power-apps/maker/
 
 After you've added the **Duplicate** custom status value to the status code field of the case entity, add the same status value to the resolution type field of the case resolution entity, as described in the following section.
 
-**To update the case resolution entity**
+### To update the case resolution entity
 
 1. In the solution explorer under **Components**, expand **Entities**, select **Case Resolution**, and then select **Fields**.
 
@@ -127,7 +127,7 @@ After you've added the **Duplicate** custom status value to the status code fiel
 
 Continuing with the same example, let's now see how to use the **Duplicate** custom status value in case resolution, so that duplicate cases are automatically marked as resolved.
 
-**To automatically resolve duplicate cases**
+### To automatically resolve duplicate cases
 
 1. In Customer Service workspace, open a case that you recognize as similar or duplicate of a previously resolved case. The Summary page with the case details opens. If you're using Customer Service Hub, in the site map, go to **Service**, select **Cases**, and select a case.
 
