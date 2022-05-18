@@ -1,7 +1,7 @@
 ---
 title: "Modify case resolution dialog in Customer Service Hub | MicrosoftDocs"
 description: "Learn to customize the case resolution dialog in Customer Service Hub to support varied business needs."
-ms.date: 04/04/2022
+ms.date: 05/18/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -104,7 +104,7 @@ To do so, you'll need to update the Case entity to add a new **Resolved** status
 
 8. Select **OK**.
 
-9. If you have pre configured status reason transitions available, select **Edit Status Reason Transitions** to setup new status reasons, then select **Ok**.
+9. If you've preconfigured status reason transitions, select **Edit Status Reason Transitions** to setup new status reasons.
 For more information, see: [Define status reason transitions](/power-apps/maker/data-platform/define-status-reason-transitions).
 
 1.  Select **Save and Close**. You've successfully added a custom status type and status value to the case entity.  
