@@ -117,5 +117,5 @@ OData-Version: 4.0
 ### See also
 
 [Integrate Dynamics 365 Customer Engagement (on-premises) with Microsoft Teams](/dynamics365/sales/teams-integration/teams-collaboration-enhanced-experience)<br/>
-[Admins: Enable Microsoft Teams integration Preview features](https://docs.microsoft.com/en-us/microsoftteams/)
+[Admins: Enable Microsoft Teams integration Preview features](/microsoftteams/)
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
