@@ -84,7 +84,7 @@ Let's understand how to add custom status values to the case resolution dialog w
 > [!Important]
 > If you change the value in **Case entity**, be sure to update the value in **Case Resolution entity** so they match. If the values don't match, an error might occur. If the values don't match in the customizable dialog, the values that you specified won't be displayed.
 
-### To update the case entity
+### Update the case entity
 
 1. In Dynamics 365, go to **Advanced Settings**, select **Customizations**, and then select **Customize the System**.
    
@@ -108,9 +108,9 @@ For more information, see: [Define status reason transitions](/power-apps/maker/
 
 1.  Select **Save and Close**. You've successfully added a custom status type and status value to the case entity.  
 
-After you've added the **Duplicate** custom status value to the status code field of the case entity, add the same status value to the resolution type field of the case resolution entity, as described in the following section.
+### Update the case resolution entity
 
-### To update the case resolution entity
+Now, let's see how to use the **Duplicate** custom status value in case resolution, so that duplicate cases are automatically marked as resolved.
 
 1. In the solution explorer under **Components**, expand **Entities**, select **Case Resolution**, and then select **Fields**.
 
