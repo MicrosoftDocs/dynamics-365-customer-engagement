@@ -82,4 +82,6 @@ Optionally, you can configure the following settings.
 [Set up skill-based routing](overview-skill-work-distribution.md)  
 [Manage capacity profiles](capacity-profiles.md)  
 [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md)  
-[FAQs on unified routing](unified-routing-faqs.md)  
+[Export and import configuration data for the record channel](export-import-config-data-for-records.md)  
+[Export import data for the live chat channel](export-import-config-data-for-live-chat.md)  
+[FAQ on unified routing](unified-routing-faqs.md)  
