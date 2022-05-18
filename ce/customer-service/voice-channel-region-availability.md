@@ -4,7 +4,7 @@ description: "Use this article to learn about the supported cloud locations, lan
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/16/2022
+ms.date: 05/18/2022
 ms.topic: article
 
 ---
@@ -34,8 +34,8 @@ If the voice channel in Omnichannel for Customer Service for your country or reg
 |Geographic location | Availability | Availability in Customer Service trial|
 |----------|---------|-----|
 |North America (crm.dynamics.com) |November 2021  | November 2021|
-|Europe, Middle East, Africa (crm4.dynamics.com)|December 2021 |To be announced|
-|Asia Pacific (crm5.dynamics.com) |December 2021 |To be announced|
+|Europe, Middle East, Africa (crm4.dynamics.com)|December 2021 | May 2022|
+|Asia Pacific (crm5.dynamics.com) |December 2021 | May 2022 |
 |Australia, New Zealand, Fiji (crm6.dynamics.com) |December 2021 |To be announced|
 |South America (crm2.dynamics.com) |To be announced | To be announced|
 |Country/Region clouds: Canada, France, Germany, India, Japan, Switzerland, United Arab Emirates (UAE), United Kingdom |To be announced |To be announced|
@@ -62,10 +62,10 @@ In the geographic location where the voice channel is generally available, Azure
 
 See the information in the following table to know about the supported languages and locale codes.
 
-We use the Azure Cognitive Services Speech service Speech-to-Text for transcription, so we'll support all the languages that Speech-to-Text supports today. We also support a bring-your-own bot through Azure Bot Service for Interactive Voice Response (IVR) that will be constrained by the languages that Speech-to-Text supports. End-to-end voice and IVR support is available only if a language is supported in the Power Virtual Agents or Azure Bot Service, and Omnichannel for Customer Service. Sentiment and AI insights are optional for the voice functionality.  
+We use the Azure Cognitive Services Speech service Speech-to-Text for transcription, so we'll support all the languages that Speech-to-Text supports today. We also support a bring-your-own bot through Azure Bot Service for Interactive Voice Response (IVR) that will be constrained by the languages that Speech-to-Text supports. End-to-end voice and IVR support is available only if a language is supported in the Power Virtual Agents or Azure Bot Service, and Omnichannel for Customer Service. Sentiment and AI insights are optional for the voice functionality.
 
 | Language | Locale code | Voice channel | Power Virtual Agents | Speech-to-Text | Text-to-Speech | Sentiment | AI suggestions | UI language support |
-|----|----|----|----|----|----|----|----|----|
+|---|---|---|---|---|---|---|---|---|
 | Afrikaans - South Africa | `af- ZA` |x|x|x|x|x|x|x|
 | Albanian | `sq` |x|x|x|x|x|x|x|
 | Amharic | `am- ET` |x|x|x|x|x|x|x|
@@ -101,7 +101,7 @@ We use the Azure Cognitive Services Speech service Speech-to-Text for transcript
 | Chinese - China - Mandarin| `zh-CN` |✔|✔|✔|✔|✔|x|✔|
 | Chinese - Hong Kong SAR - Cantonese - Taiwan - Traditional| `zh-CN` |✔|✔|✔|✔|✔|x|✔|
 | Chinese - Literary | `lzh` |x|x|x|x|x|x|x|
-| Croatian - Croatia | `hr-HR` |✔|x|✔|✔|✔|x|✔|x|
+| Croatian - Croatia | `hr-HR` |✔|x|✔|✔|✔|x|✔|
 | Czech - Czech Republic | `cs-CZ` |✔|x|✔|✔|✔|x|✔|
 | Danish - Denmark | `da-DK` |✔|✔|✔|✔|✔|x|✔|
 | Dari | `prs` |x|x|x|x|x|x|x|
@@ -238,7 +238,7 @@ We use the Azure Cognitive Services Speech service Speech-to-Text for transcript
 ||||||||||
 
 Use the information in the following table to find out more about language support for voice-related features.
- 
+
 | Feature |	List of supported languages |
 | ---- | ---- |
 | Transcription | [Language and speech support](/azure/cognitive-services/speech-service/language-support)|
