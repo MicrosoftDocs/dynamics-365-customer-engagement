@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/mobile-app/secure-mobile-data-dynamics-365-good.md",
+      "redirect_url": "/power-apps/mobile/intune",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/unified-service-desk/oc-usd/conversation-state.md",
       "redirect_url": "/dynamics365/customer-service/oc-conversation-state",
       "redirect_document_id": "false"
