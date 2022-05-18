@@ -4,7 +4,7 @@ description: "Use this article to learn about the supported cloud locations, lan
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/16/2022
+ms.date: 05/18/2022
 ms.topic: article
 
 ---
@@ -34,8 +34,8 @@ If the voice channel in Omnichannel for Customer Service for your country or reg
 |Geographic location | Availability | Availability in Customer Service trial|
 |----------|---------|-----|
 |North America (crm.dynamics.com) |November 2021  | November 2021|
-|Europe, Middle East, Africa (crm4.dynamics.com)|December 2021 |To be announced|
-|Asia Pacific (crm5.dynamics.com) |December 2021 |To be announced|
+|Europe, Middle East, Africa (crm4.dynamics.com)|December 2021 | May 2022|
+|Asia Pacific (crm5.dynamics.com) |December 2021 | May 2022 |
 |Australia, New Zealand, Fiji (crm6.dynamics.com) |December 2021 |To be announced|
 |South America (crm2.dynamics.com) |To be announced | To be announced|
 |Country/Region clouds: Canada, France, Germany, India, Japan, Switzerland, United Arab Emirates (UAE), United Kingdom |To be announced |To be announced|
