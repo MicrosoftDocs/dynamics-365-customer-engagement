@@ -43,9 +43,9 @@ In the **Closed work items** stream, the stream refreshes and shows you all the 
 > [!div class="nextstepaction"]
 > [Next topic: Create a record](create-record.md)
 
-## See also
+### See also
 
-- [Introduction to the agent interface in Omnichannel for Customer Service](introduction-agent-interface.md)
+[Introduction to the agent interface in Omnichannel for Customer Service](introduction-agent-interface.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
