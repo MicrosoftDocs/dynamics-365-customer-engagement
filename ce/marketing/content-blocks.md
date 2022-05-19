@@ -19,12 +19,12 @@ search.app:
 
 # Preview: Create content blocks that you can reuse in multiple designs
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XNCb]
+
 > [!IMPORTANT]
 > A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
 > 
 > Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
-
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/RE4XNCb" frameborder="0" allowfullscreen=""></iframe></div>
 
 ## How to enable the content blocks preview
 
