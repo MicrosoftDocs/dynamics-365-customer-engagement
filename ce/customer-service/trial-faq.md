@@ -13,7 +13,7 @@ ms.custom:
 
 # Dynamics 365 Customer Service trial FAQ
 
-This topic answers your most frequently asked questions about the free product trial of Customer Service and Omnichannel for Customer Service.
+This article answers your most frequently asked questions about the free product trial of Customer Service and Omnichannel for Customer Service.
 
 [!INCLUDE [trial-platform-faqs](../shared/trials/trial-faq-platform.md)]
 
@@ -23,14 +23,14 @@ Yes, you can purchase licenses through direct, credit card purchase at admin.mic
 
 To purchase the license using an existing account, work with the administrator of the account to apply for licenses.
 
-After you have applied for the license to your tenant, you can publish your environment to production. You can remove the sample data. However, you have to manually reset the configuration and remove any test data that you've added. We recommend that you create a fresh environment to use for your production environment and add the configurations you’d like to move forward with.
+After you've applied for the license to your tenant, you can publish your environment to production. You can remove the sample data. However, you have to manually reset the configuration and remove any test data that you've added. We recommend that you create a fresh environment to use for your production environment and add the configurations you’d like to move forward with.
 
 ### What are the trial limits and quotas?
 
 The following limitations apply for the trial:
 
 - The trial is available to you for 30 days. After that, you can request for an extension for another 30 days, buy a paid license, or sign up for a new trial.
-- The trial will expire if there’s no activity on the app for 14 consecutive days. Expired trials cannot be reactivated. However, you can start a new trial.
+- The trial will expire if there’s no activity on the app for 14 consecutive days. Expired trials can't be reactivated. However, you can start a new trial.
 - You can have only one active trial per app at a time. You can sign up again after your current trial for the app ends.
 
 ## Customer Service-specific questions
@@ -55,7 +55,7 @@ The environment you receive in trial is a fully functional, Dynamics 365 environ
 
 ### How do I remove sample data from the trial instance?
 
-Your trial environment has been curated to provide you with a fully functional application to ensure you can discover the business value of Customer Service right away. Sample data is provided to ensure all features are fully illustrated for you to learn how the product works as if it were deployed to many users in your organization and with existing customer interactions. Because this is a real environment, you can manually add or delete individual data records in your trial environment as you want. There is no option to bulk delete the sample data and configurations from the trial environments.
+Your trial environment is curated to provide you with a fully functional application to ensure you can discover the business value of Customer Service right away. Sample data is provided to ensure all features are fully illustrated for you to learn how the product works as if it were deployed to many users in your organization and with existing customer interactions. Because it's a real environment, you can manually add or delete individual data records in your trial environment as you want. You can't do a bulk delete of the sample data and configurations from the trial environments.
 
 ### How do I reset or reimport sample data?
 
@@ -65,7 +65,7 @@ Sample data comes with the trial environment and experience. To get a fresh data
 
 For the list of geographical regions supported in Customer Service, see [Datacenter regions](/power-platform/admin/new-datacenter-regions).
 
-For the list of geographical regions supported in Omnichannel for Customer Service, see [International availability](international-availability.md). Additionally, the new trial experience is not supported in Brazil, Government Community Cloud, Norway, and South Africa.
+For the list of geographical regions supported in Omnichannel for Customer Service, see [International availability](international-availability.md). Additionally, the new trial experience isn't supported in Brazil, Government Community Cloud, Norway, and South Africa.
 
 ### Which languages are supported in the trial version of Omnichannel for Customer Service?
 
