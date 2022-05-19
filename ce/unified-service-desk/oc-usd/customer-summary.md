@@ -179,13 +179,13 @@ A *sub-agent script* is another agent script that has been invoked from the curr
 
 ### See also
 
-- [Introduction to the agent interface in Omnichannel for Customer Service](introduction-agent-interface.md)
-- [View call scripts, take notes, and search knowledge articles](right-control-panel.md)
-- [View customer summary for an incoming conversation request](view-customer-summary-incoming-conversation-request.md)
-- [Create a record](create-record.md)
-- [Search for records](search-record.md)
-- [Link and unlink a record](link-unlink-record.md)
-- [setContextProvider](../../customer-service/developer/reference/methods/setContextProvider.md)
+[Introduction to the agent interface in Omnichannel for Customer Service](introduction-agent-interface.md)  
+[View call scripts, take notes, and search knowledge articles](right-control-panel.md)  
+[View customer summary for an incoming conversation request](view-customer-summary-incoming-conversation-request.md)  
+[Create a record](create-record.md)  
+[Search for records](search-record.md)  
+[Link and unlink a record](link-unlink-record.md)  
+[setContextProvider](../../customer-service/developer/reference/methods/setContextProvider.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
