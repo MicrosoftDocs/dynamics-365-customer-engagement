@@ -40,10 +40,10 @@ You signed in to Unified Service Desk - Omnichannel for Customer Service applica
 > [!div class="nextstepaction"]
 > [Next topic: Introduction to the agent interface in Omnichannel for Customer Service](introduction-agent-interface.md)
 
-## See also
+### See also
 
-- [Omnichannel for agents](omnichannel-agent.md)
-- [View agent dashboard and agent work items](introduction-agent-dashboard.md)
+[Omnichannel for agents](omnichannel-agent.md)  
+[View agent dashboard and agent work items](introduction-agent-dashboard.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
