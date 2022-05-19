@@ -1,7 +1,7 @@
 ---
 title: "Smart assist for agents configured using custom Azure bot | MicrosoftDocs"
 description: "Learn how to configure the smart assist bot by using Azure bot in the Omnichannel for Customer Service app."
-ms.date: 09/07/2020
+ms.date: 05/19/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -27,9 +27,6 @@ The recommendations appear in the user interface as cards. The most recent card 
 For a macro recommendation card, if the run is successful, a success message is displayed; otherwise, an error message is displayed in the user interface.
 
 When a conversation is escalated from a bot, the agent needs to accept the request and start the conversation with the customer. Now, from this instance, the smart assist bot interprets the conversation in real-time and provides recommendations.
-
-> [!div class=mx-imgBorder]
-> ![Smart assist.](media/smart-assist.png "Smart assist")
 
 ## See also
 
