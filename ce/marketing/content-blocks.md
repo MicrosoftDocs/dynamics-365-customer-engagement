@@ -24,7 +24,7 @@ search.app:
 > 
 > Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XNCb]
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/RE4XNCb" frameborder="0" allowfullscreen=""></iframe></div>
 
 ## How to enable the content blocks preview
 
