@@ -1,7 +1,7 @@
 ---
 title: "Sign up for a free trial - Dynamics 365 Customer Service | Microsoft Docs"
 description: "Learn how to quickly sign up for and start a free Dynamics 365 Customer Service trial. Explore the app with tours and videos, and find additional learning resources."
-ms.date: 08/31/2021
+ms.date: 05/19/2022
 ms.topic: get-started
 author: neeranelli
 ms.author: nenellim
@@ -48,6 +48,7 @@ The trial environment includes many of the same features as the paid version. Th
 - [View AI-suggested cases and knowledge articles for a case](csw-view-ai-suggested-cases-knowledge-articles.md).
 - [Explore the agent dashboard](oc-agent-dashboard.md).
 - [Understand the agent communication pane for conversations](oc-conversation-control.md).
+- [Overview of the voice channel](voice-channel.md).
 - [Know more about chat notifications](oc-notifications.md).
 - [View AI-suggested cases and knowledge articles for a conversation](oc-view-ai-suggested-cases-articles.md).
 - [View how supervisors monitor agent conversations](ongoing-conversations-dashboard.md).

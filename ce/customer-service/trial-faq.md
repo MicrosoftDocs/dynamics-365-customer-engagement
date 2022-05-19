@@ -1,7 +1,7 @@
 ---
 title: "Trial FAQ - Dynamics 365 Customer Service | Microsoft Docs"
 description: "Solutions to common questions related to Dynamics 365 Customer Service trial setup and management. Learn how to resolve platform and app-specific issues."
-ms.date: 08/31/2021
+ms.date: 05/19/2022
 ms.topic: get-started
 author: neeranelli
 ms.author: nenellim
@@ -44,6 +44,8 @@ The environment you receive in trial is a fully functional, Dynamics 365 environ
   - Case management, knowledge management, unified routing, email
 - Dynamics 365 Digital Messaging
   - Chat and channels
+- Voice Channel for Dynamics 365 Customer Service
+  - Voice channel
 - Dynamics 365 Power Virtual Agents
   - To add Power Virtual Agents bot to chat and channels
 - Dynamics 365 Customer Voice
