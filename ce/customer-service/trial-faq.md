@@ -46,6 +46,8 @@ The environment you receive in trial is a fully functional, Dynamics 365 environ
   - Chat and channels
 - Voice Channel for Dynamics 365 Customer Service
   - Voice channel
+- Power Apps
+  - To create app profiles, configure templates, customize the solution
 - Dynamics 365 Power Virtual Agents
   - To add Power Virtual Agents bot to chat and channels
 - Dynamics 365 Customer Voice
