@@ -336,8 +336,8 @@
         href: customer-service-hub-user-guide-resolve-cancel-reassign-a-case.md
       - name: Merge cases
         href: customer-service-hub-user-guide-merge-cases.md
-      - name: View, block, or deactivate a social profile
-        href: view-block-deactivate-social-profile.md
+      - name: View a social profile
+        href: view-social-profile.md
       - name: Convert a case to a knowledge article
         href: customer-service-hub-user-guide-convert-case-to-knowledge-article.md
       - name: View AI suggested similar cases and knowledge articles
