@@ -24,9 +24,6 @@ Service-level agreements (SLAs) enable businesses to track support policies and 
 
 You can define the level of service or support that your organization agrees to offer to a customer by using SLAs in Dynamics 365 Customer Service. Providing support based on service levels ensures that you're delivering measured and predictable service.
 
-You can associate an SLA with an entitlement, so that when an entitlement is added to a case, the associated SLA is also applied. You can only associate SLAs that are created for the Case entity with entitlements. More information: [Create entitlements to define support terms](create-entitlement-define-support-terms-customer.md#create-entitlements-to-define-support-terms). You can also enable SLA for entities other than case. More information: [Enable entities for service level agreements](enable-entities-service-level-agreements.md#enable-entities-for-service-level-agreements).
-
-Alternatively, you can set up a default SLA for the organization. More information: [Set an SLA as the default](define-service-level-agreements.md#set-an-sla-as-the-default).
 
 ## Benefits of service-level agreements
 
@@ -45,6 +42,19 @@ Alternatively, you can set up a default SLA for the organization. More informati
 ### Reminders
 
   You can include detailed items to define metrics or key performance indicators (KPIs) to attain that service level. SLA KPIs help you get timely warnings about any issues your customer support team might be having. More information: [Create SLA KPIs](define-service-level-agreements.md#create-sla-kpis).
+
+## Features of service-level agreements
+
+### Create SLAs
+
+### Configure SLAs
+
+### Manage SLAs
+Apply SLA< set SLA as default, enable entities
+
+You can associate an SLA with an entitlement, so that when an entitlement is added to a case, the associated SLA is also applied. You can only associate SLAs that are created for the Case entity with entitlements. More information: [Create entitlements to define support terms](create-entitlement-define-support-terms-customer.md#create-entitlements-to-define-support-terms). You can also enable SLA for entities other than case. More information: [Enable entities for service level agreements](enable-entities-service-level-agreements.md#enable-entities-for-service-level-agreements).
+
+Alternatively, you can set up a default SLA for the organization. More information: [Set an SLA as the default](define-service-level-agreements.md#set-an-sla-as-the-default)
 
 ### See also
 
