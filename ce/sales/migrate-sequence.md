@@ -37,7 +37,7 @@ Let’s create a sequence solution with an example.
 
 2. On the Advanced settings page, go to **Setting** > **Customization** > **Solutions**.   
 
-2.	On the solutions page, select **New** and then on the **New solution** pane, enter the values for the following fields:
+2.	On the solutions page, select **New** and then on the **New solution** dialog, enter the values for the following fields:
             
     | Column | Description |
     |--------|-------------|    
@@ -47,7 +47,7 @@ Let’s create a sequence solution with an example.
     | Version | Specify a version number for the solution.  This version number will be included in the file name when you export the solution. |    
 
     >[!div class="mx-imgBorder"]
-    >![Enter values for the solution in the new solution pane](media/la-sa-sequence-migration-enter-solution-values.png "Enter values for the solution in the new solution pane")            
+    >![Enter values for the solution in the new solution dialog](media/la-sa-sequence-migration-enter-solution-values.png "Enter values for the solution in the new solution dialog")            
 
 3.	Select **Save and close**.
         
@@ -151,7 +151,7 @@ Now, the solution is ready for import.
     The solution is imported into the target environment along with its dependent components. Also, when you delete the sequence, the dependent components remain in the imported environment, in case the components are used by other sequences or entities. 
 
     >[!NOTE]
-    >If the import fails due to missing dependencies, a message is displayed on the top of the pane. 
+    >If the import fails due to missing dependencies, a message is displayed on the top of the dialog. 
     >To troubleshoot import-related issues for solutions, go to [Troubleshoot solution import errors in Microsoft Dynamics 365](/troubleshoot/dynamics-365/sales/troubleshoot-solution-import-errors-in-dynamics-365).
 
 6. On the **Importing Solution** dialog, select **Close**.
