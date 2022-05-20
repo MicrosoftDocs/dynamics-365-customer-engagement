@@ -51,7 +51,7 @@ Alternatively, you can set up a default SLA for the organization. More informati
 
 ### Configure SLAs
 
-Configuring SLAs includes the complete process of creating SLA KPIs, SLAs, and then applying the SLAs that you have created.
+Configuring SLAs includes the process of creating SLA KPIs, SLAs, and then applying the SLAs that you have created.
 
 #### Create SLA KPIs
 
@@ -79,15 +79,15 @@ After you have configured and applied your SLAs, you can mange the various aspec
 - You can manage the calculation of SLA KPIs. You can enable the recalculation of SLA KPIs that reach the terminal status in the Customer Service admin center or Customer Service Hub app. More information: [Enable recalculation of SLAs on reaching terminal status](enable-sla-recalculation.md#enable-recalculation-of-slas-on-reaching-terminal-status). 
 
 - Additionally, you can also enable the custom time calculation and custom recalculation of SLA KPIs. More information: [Enable custom time calculation of SLA KPIs](enable-sla-custom-time-calculation.md#enable-custom-time-calculation-of-sla-kpis) and [Enable custom recalculation of SLA KPIs](enable-sla-force-recalculation.md#enable-custom-recalculation-of-sla-kpis)
-manage
+
 #### Create and manage customer service and holiday schedules
 
-- You can create customer service schedules and define the work hours to determine whether the support team's availability to provide support to customers. More information: [Create customer service schedule and define the work hours](create-customer-service-schedule-define-work-hours.md#create-customer-service-schedule-and-define-the-work-hours)
+- You can create customer service schedules and define the work hours to determine the support team's availability to provide support to customers. More information: [Create customer service schedule and define the work hours](create-customer-service-schedule-define-work-hours.md#create-customer-service-schedule-and-define-the-work-hours)
 - You can create and manage holiday schedules and any changes that occur to the schedules as well. This will help avoid any issues with your SLA, in cases where your service organization has a holiday. More information: [Create and manage holiday schedules](set-up-holiday-schedule.md#create-and-manage-holiday-schedules)
 
-#### Add and a timer control to a SLA enabled entity form and customize the SLA timer control display label
+#### Add a timer control to an SLA-enabled entity form and customize the SLA timer control display label
 
-- To help your service organization manage the current status and the time remaining for the configured SLA KPIs, you can add a timer control to a service-level agreement (SLA) enabled entity form. More information: [Add a timer control for SLA-enabled entities](add-timer-control-case-form-track-time-against-sla.md#add-a-timer-control-for-sla-enabled-entities). 
+- To help your service organization manage the current status and the time remaining for the configured SLA KPIs, you can add a timer control to an SLA-enabled entity form. More information: [Add a timer control for SLA-enabled entities](add-timer-control-case-form-track-time-against-sla.md#add-a-timer-control-for-sla-enabled-entities). 
 - Additionally, you can also customize the SLA timer control display label according to the needs of your organization. More information: [Customize the SLA timer control display label](add-timer-control-case-form-track-time-against-sla.md#customize-the-sla-timer-control-display-label)
 
 
