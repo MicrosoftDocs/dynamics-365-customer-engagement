@@ -268,6 +268,8 @@
       items: 
       - name: Manage consent for email and text messages in real-time marketing
         href: real-time-marketing-email-text-consent.md
+      - name: Real-time marketing domain authentication
+        href: real-time-marketing-domain.md
       - name: Select the audience source for real-time journeys
         href: real-time-marketing-audience-data.md
       - name: Move custom triggers between environments
