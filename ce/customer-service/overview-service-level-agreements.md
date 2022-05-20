@@ -32,11 +32,12 @@ Alternatively, you can set up a default SLA for the organization. More informati
 
 ### Tracking
 
+  - After you've configured the SLA KPIs, SLAs, and SLA items for an entity, you can add the SLA Timer control to display the SLA KPIs that are configured for the entity. You can customize the views to filter the KPIs and display only the relevant KPIs to agents. More information: [Add a timer control for SLA-enabled entities](add-timer-control-case-form-track-time-against-sla.md#add-a-timer-control-for-sla-enabled-entities). This helps agents monitor their service level performance and meet their service level goals.
    - You can create SLA KPIs with target times by setting up customer holiday schedules or customer service schedules to calculate business hours to be considered during time calculation. 
    
   - You can also enable recalculation of SLAs, providing agents with sufficient time to work on their services. More information: [Enable recalculation of SLAs on reaching terminal status](enable-sla-recalculation.md#enable-recalculation-of-slas-on-reaching-terminal-status).
   
-  - After you've configured the SLA KPIs, SLAs, and SLA items for an entity, you can add the SLA Timer control to display the SLA KPIs that are configured for the entity. You can customize the views to filter the KPIs and display only the relevant KPIs to agents. More information: [Add a timer control for SLA-enabled entities](add-timer-control-case-form-track-time-against-sla.md#add-a-timer-control-for-sla-enabled-entities). This helps agents monitor their service level performance and meet their service level goals.
+ 
 
 ### Prioritization
 
@@ -54,7 +55,7 @@ Configuring SLAs includes the complete process of creating SLA KPIs, SLAs, and t
 
 #### Create SLA KPIs
 
-Creating key performance indicators (KPIs) for your SLAs help define the success, failure, or warning criteria for your SLAs. KPIs also include performance metrics such as the response and resolution time which help define whether the scope of services to be covered were met or breached. More information: [Create SLA KPIs <a name="create-sla-kpis"></a>](define-service-level-agreements.md#create-sla-kpis-a-namecreate-sla-kpisa)
+Creating KPIs for your SLAs help define the success, failure, or warning criteria for your SLAs. KPIs also include performance metrics such as the response and resolution time which help define whether the scope of services to be covered were met or breached. More information: [Create SLA KPIs <a name="create-sla-kpis"></a>](define-service-level-agreements.md#create-sla-kpis-a-namecreate-sla-kpisa)
 
 #### Create SLAs
 
@@ -64,7 +65,7 @@ After you have created the SLA KPIs, you can create SLAs from the Customer Servi
 
 As a final step, you can apply SLAs automatically, manually, through entitlements, or by setting up a default SLA. More information: [Apply SLAs](apply-slas.md#apply-slas)
 
-### Manage SLAs
+### Implement and manage SLAs
 
 After you have configured and applied your SLAs, you can mange the various aspects your SLA.
 
