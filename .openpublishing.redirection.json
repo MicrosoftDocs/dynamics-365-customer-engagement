@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ce/customer-service/view-block-deactivate-social-profile.md",
+      "redirect_url": "view-social-profile",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/mobile-app/secure-mobile-data-dynamics-365-good.md",
       "redirect_url": "/power-apps/mobile/intune",
       "redirect_document_id": "false"
