@@ -1,5 +1,55 @@
 {
-  "redirections": [
+  "redirections": [    {
+      "source_path": "ce/customerengagement/on-premises/admin/configure-server-based-authentication-sharepoint-on-premises.md",
+      "redirect_url": "on-prem-server-based-sharepoint-on-prem",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/admin/connect-exchange-server-on-premises.md",
+      "redirect_url": "on-prem-server-based-sharepoint-on-prem",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/admin/create-edit-document-location-records.md",
+      "redirect_url": "manage-documents-using-sharepoint",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/admin/deploy-office-365-groups.md",
+      "redirect_url": "/dynamics365/customerengagement/on-premises/basics/collaborate-with-colleagues-using-office-365-groups",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/admin/deploy-packages-using-package-deployer-windows-powershell.md",
+      "redirect_url": "/power-platform/alm/package-deployer-tool",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/admin/doc-management-sharepoint.md",
+      "redirect_url": "manage-documents-using-sharepoint",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/admin/edit-existing-sharepoint-site-records.md",
+      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/integration-dev/actions-on-sharepoint-location-records",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/admin/enable-profile-card.md",
+      "redirect_url": "/dynamics365/customerengagement/on-premises/basics/basics-guide?view=op-9-1",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/admin/enable-sharepoint-document-management-specific-entities.md",
+      "redirect_url": "on-prem-server-based-sharepoint-on-prem",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/admin/troubleshooting-server-based-authentication.md",
+      "redirect_url": "troubleshoot-set-up-sharepoint-online",
+      "redirect_document_id": "false"
+    },
+
     {
       "source_path": "ce/customer-service/view-block-deactivate-social-profile.md",
       "redirect_url": "view-social-profile",
