@@ -1,7 +1,7 @@
 ---
 title: "Real-time marketing domain authentication (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to authenticate domains for real-time marketing functionality in Dynamics 365 Marketing."
-ms.date: 05/19/2022
+ms.date: 05/20/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -21,9 +21,14 @@ search.app:
 
 As discussed in the [Authenticate your domains](mkt-settings-authenticate-domains.md) article, domain authentication enables recipient email servers to confirm that the from-address shown on each of your email messages belongs to your organization. A method called *DomainKeys Identified Mail* (DKIM) helps make email authentication possible.
 
-Dynamics 365 Marketing includes a guided wizard to set up DKIM, allowing you to authenticate domains for use in real-time marketing features. This article describes how to use the wizard.
+Authenticating your domains also enables you to embed outbound marketing forms on externally hosted websites and pre-fill them with data for known contacts.
 
-## Authenticate a domain for use in real-time marketing
+Dynamics 365 Marketing includes a guided domain authentication wizard, allowing you to authenticate domains for use in real-time marketing and outbound marketing features. This article describes how to use the wizard.
+
+> [!NOTE]
+> The wizard described below only appears when [real-time marketing](real-time-marketing-overview.md) features are installed. If real-time marketing is installed, the wizard applies domain authentication settings to real-time and outbound marketing features. If real-time marketing is not installed, you must follow the setup described in the [Authenticate your domains](mkt-settings-authenticate-domains.md) article to authenticate domains for use in outbound marketing features.
+
+## How to use the domain authentication wizard
 
 To authenticate a new domain or a subdomain for email sending and/or form hosting, follow the steps below:
 
