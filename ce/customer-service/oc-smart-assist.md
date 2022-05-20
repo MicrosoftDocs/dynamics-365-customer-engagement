@@ -14,9 +14,9 @@ manager: shujoshi
 
 ## Introduction
 
-Smart assist is an intelligent assistant that provides real-time recommendations to you, helping you take actions during your interactions with customers. It shows relevant recommendations such as knowledge articles, similar cases, and next-best steps.
+Smart assist is an intelligent assistant that provides real-time recommendations to you, thereby helping you take actions during your interactions with customers. It shows relevant recommendations such as knowledge articles, similar cases, and the next-best steps.
 
-If your administrator has enabled the productivity pane, then the productivity pane appears and on which the smart assist cards appear. By default, the productivity pane is enabled out of the box.
+By default, the productivity pane is enabled. The smart assist cards appear on the productivity pane.
 
 ## Smart assist suggestions configured using custom Azure bot user
 
