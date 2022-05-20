@@ -1,7 +1,7 @@
 ---
 title: "Migrate sequences from one environment to another"
-description: "Use the solution import functionality to migrate sequences from one environment to another in Dynamics 365 Sales."
-ms.date: 05/10/2022
+description: "Use the solution export and import functionality to migrate sequences from one environment to another in Dynamics 365 Sales."
+ms.date: 05/20/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -10,7 +10,7 @@ manager: shujoshi
 
 # Migrate sequences from one environment to another
 
-Use the solution import functionality to migrate sequences from one environment to another in Dynamics 365 Sales.
+Use the solution export and import functionality to migrate sequences from one environment to another in Dynamics 365 Sales.
 
 ## License and role requirements
 | Requirement type | You must have |
@@ -33,11 +33,11 @@ Administrators and sales managers can now migrate sequences along with their dep
 
 Let’s create a sequence solution with an example.
 
-1.	Sign in to Sales Hub app and go to **Settings** > **Advanced Settings**.
+1.	Sign in to the Sales Hub app and go to **Settings** > **Advanced Settings**.
 
-2. On the Advanced settings page, go to **Setting** > **Customization** > **Solutions**.   
+2. On the **Advanced settings** page, go to **Setting** > **Customization** > **Solutions**.   
 
-2.	On the solutions page, select **New** and then on the **New solution** dialog, enter the values for the following fields:
+2.	On the **Solutions** page, select **New** and then on the **New solution** dialog, enter the values for the following fields:
             
     | Column | Description |
     |--------|-------------|    
@@ -86,7 +86,7 @@ After you create the solution, add the sequences that you want to export through
     To see other dependent entities of the added sequences, select the sequence, and then select **Show Dependencies** and go to the **Required components** section. In this example, we are viewing the other dependencies of **APAC Leads** sequence.
     
     >[!NOTE]
-    >If the sequence contains managed components, they won't be added to the solution. Therefore, when the solution is imported, the steps that are dependent on the missed components will show an error.
+    >If the sequence contains managed components, they won't be added to the solution. Therefore, when the solution is imported, the steps that are dependent on the missed components will show an error. To resolve the errors in the target organization, go to [Troubleshoot solution import errors in Microsoft Dynamics 365](/troubleshoot/dynamics-365/sales/troubleshoot-solution-import-errors-in-dynamics-365).
 
     >[!div class="mx-imgBorder"]
     >![View complete list of added components of the sequence](media/la-sa-sequence-migration-complete-list-dependent-components.png "View complete list of added components of the sequence") 
@@ -126,9 +126,9 @@ Now, the solution is ready for import.
 
 ## Import the solution
 
-1.	Sign in to Sales Hub app and go to **Settings** > **Advanced Settings**.
+1.	Sign in to the Sales Hub app and go to **Settings** > **Advanced Settings**.
 
-2. On the Advanced settings page, go to **Setting** > **Customization** > **Solutions** and select **Import**.   
+2. On the **Advanced settings** page, go to **Setting** > **Customization** > **Solutions** and select **Import**.   
 
     >[!div class="mx-imgBorder"]
     >![Select the import solution option](media/la-sa-sequence-migration-select-import-solution.png "Select the import solution option")
