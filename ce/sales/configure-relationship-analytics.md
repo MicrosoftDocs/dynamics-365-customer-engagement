@@ -11,9 +11,7 @@ manager: shujoshi
 
 # Configure relationship analytics and health
 
-Your organization's sales teams can use the relationship analytics in Dynamics 365 Sales to monitor the health and risks of their customer relationships. Graphical representations of KPIs and activity histories are available for any contact, opportunity, lead, or account. Detailed analytics about customer interactions, patterns, and trends are based on interaction data from Dynamics 365 and Office. With more accurate and complete relationship information, sales teams can more effectively identify customers who need their attention.
-
-Relationship analytics appears on Sales Insights opportunity record forms. Relationship health appears on opportunity record forms, list views, and charts. For more information how the relationship analytics and health scores appear for sellers, see [Use relationship analytics to gather KPIs](relationship-analytics.md).
+Configure relationship analytics to specify whether you want to use Exchange data for comprehensive insights or use insights generated from Dynamics 365 data. You can also configure parameters that would determine the health of customer relationship.  
 
 ## License and role requirements
 | Requirement type | You must have |
@@ -25,28 +23,16 @@ Relationship analytics appears on Sales Insights opportunity record forms. Relat
 >[!IMPORTANT]
 >This feature is intended to help sellers or sales managers enhance their team’s performance. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with users. This also includes adequately notifying users that their communications with sales persons may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their sales persons that their communications with users may be monitored, recorded, or stored.
 
-## Turn on and configure relationship analytics and health
+## To configure relationship analytics and health
 
-1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
-1. Under **Relationship insights**, select **Overview**.
+1. Enable [relationship intelligence](enable-ri.md) if you haven't already.
 
-    >[!NOTE]
-    >If you don't see **Relationship insights**, make sure the premium Sales Insights features are turned on. To learn more, see [Install and configure premium Sales Insights features](./intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features).
-
-1. Turn on the toggle under **Get started with Relationship Intelligence** to enable the relationship intelligence features such as relationship analytics and who knows whom.
-
-1. Turn on **Relationship analytics and health**.
-    With this selection, relationship analytics can get insights based on your Dynamics 365 data. If you want to get comprehensive insights from office data, your Microsoft 365 admin must give consent. If the consent hasn't been given, a message indicating the same is displayed. Work with your Microsoft 365 administrator to [get consent](provide-consent-office365.md).
-
-    > [!NOTE]
-    >- After the consent is provided, Dynamics 365 will analyze Exchange emails pertaining to the last one year.  
-    >- Make sure the consent is provided within 14 days of turning on the feature. Otherwise, it'll be automatically turned off on the 14th day. You need to turn it on again. 
-
-    If you don't want to use Office data, you can turn it off as described in the following steps.
+1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**. 
    
-1. Select **Settings** next to the **Relationship Analytics** toggle to configure additional settings.
+3. Under **Relationship insights**, select **Analytics and Health**.
+    When you enable the relationship analytics feature, exchange integration is automatically enabled. However, your Microsoft 365 admin must provide consent for Dynamics 365 to collect the data.  
 
-1. Under **Data Sources**, turn off **Exchange Online** if you don't want to include emails and meetings from Exchange Online in KPI calculations and analytics.
+1. (Optional)Under **Data Sources**, turn off **Exchange Online** if you don't want to include emails and meetings from Exchange Online in KPI calculations and analytics. In this case, the analytics will be based on Dynamics 365 data.
 
     :::image type="content" source="./media/si-admin-relationship-analytics-enable-in-organization.png" alt-text="A screenshot of the Relationship analytics and health settings page.":::
 
@@ -78,9 +64,15 @@ Relationship analytics appears on Sales Insights opportunity record forms. Relat
 1. Select **Save**.
     Relationship analytics is now enabled and configured for your organization. To view the analytics, see [Use relationship analytics to gather KPIs](../sales/relationship-analytics.md).
 
-**Next steps:**
+## Next steps
 
-- If your organization is using a custom sales app or a custom form for lead or contact, add the [relationship analytics widget](add-ri-widgets-to-custom-form.md) to your app. The widget makes the relationship health information available to sellers.
+- Work with your Microsoft 365 admin to [provide consent](provide-consent-office365.md) to use Exchange data.
+
+    > [!NOTE]
+    > Until the consent is provided, a banner is displayed on the **Overview** page to notify the pending action.
+    > :::image type="content" source="media/enable-ri-overview-banner.png" alt-text="A screenshot highlighting the message banner when the consent isn't provided":::
+
+- [Add the health score widget to custom forms](add-ri-widgets-to-custom-form.md) if your organization is using a custom sales app or a custom form for lead or contact.
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 

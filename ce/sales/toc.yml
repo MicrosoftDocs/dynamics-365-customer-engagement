@@ -435,16 +435,21 @@
               href: manage-playbook-templates.md
     - name: Relationship intelligence
       items: 
+        - name: Enable relationship intelligence
+          href: enable-ri.md
         - name: Configure relationship analytics and health
           href: configure-relationship-analytics.md
         - name: Configure talking points
           href: configure-talking-points.md
         - name: Configure who knows whom
           href: configure-who-knows-whom.md
-        - name: Add relationship intelligence widgets to custom forms
-          href: add-ri-widgets-to-custom-form.md
         - name: Provide consent to collect Office data
           href: provide-consent-office365.md
+        - name: Insights generated from Microsoft 365 data
+          href: insights-from-m365.md
+        - name: Add relationship intelligence widgets to custom forms
+          href: add-ri-widgets-to-custom-form.md
+
     - name: Conversation intelligence
       items: 
         - name: Prerequisites to use Conversation Intelligence
