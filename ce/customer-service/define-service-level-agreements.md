@@ -244,6 +244,9 @@ You can create an SLA item from the Customer Service admin center or Customer Se
 
 6. Select **Activate**. The SLA is activated.
 
+## Apply SLAs
+To understand how you can apply SLAs, see [Apply SLAs](apply-slas.md#apply-slas)
+
 ### See also
 
 [Enable entities for service-level agreements](enable-entities-service-level-agreements.md)  
