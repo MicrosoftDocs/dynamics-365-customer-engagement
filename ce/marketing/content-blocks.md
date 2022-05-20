@@ -1,7 +1,7 @@
 ---
 title: "Preview: Work with reusable content blocks (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to create reusable content blocks and use them in your email designs in Dynamics 365 Marketing."
-ms.date: 05/06/2022
+ms.date: 05/19/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -18,6 +18,8 @@ search.app:
 ---
 
 # Preview: Create content blocks that you can reuse in multiple designs
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4XNCb]
 
 > [!IMPORTANT]
 > A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
