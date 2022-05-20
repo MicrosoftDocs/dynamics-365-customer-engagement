@@ -3,10 +3,16 @@
 
 (Includes Resource Scheduling controls version 1.2.18.221304).
 
+- New schedule board updates to address issues with auto refresh, resource requirement data not populating, time calculation, time zone application, schedule assistance filters.
+- msdyn_SearchResourceAvailability API update to support territory constraints
+
+
+
 ## 3.12.76.1
 
 (Includes Resource Scheduling controls version 1.2.17.221165).
 
+- New schedule board updates to address issues with requirements on map view, drag and drop errors setting duration, and schedule assistance application of booking rules.
 ## 3.12.75.2
 
 (Includes Resource Scheduling controls version 1.2.16.220914).
