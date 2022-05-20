@@ -1,20 +1,20 @@
 ---
-title: "Understand conversation states in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn about various states and status reasons of conversations or work items in Omnichannel for Customer Service."
-ms.date: 11/18/2021
+title: "Understand conversation states | MicrosoftDocs"
+description: "Use this article to learn about various states and status reasons of conversations or work items in Omnichannel for Customer Service."
+ms.date: 05/17/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ---
 
-# Understand conversation states in Omnichannel for Customer Service
+# Understand conversation states
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
 This topic explains the various states and status reasons of the conversation (work item) in Omnichannel for Customer Service.
 
-The conversation can be in an open or closed state and can have the following status reasons:
+The conversation can be in an open or closed state, and can have the following status reasons:
 
 - [Open](#open)
 - [Active](#active)
@@ -22,12 +22,12 @@ The conversation can be in an open or closed state and can have the following st
 - [Wrap-up](#wrap-up)
 - [Closed](#closed)
 
-> [!NOTE]
-> Additionally, the conversation might have the resolved or scheduled status reason, which is for internal use only.
-
  ![Omnichannel conversation states.](media/oc-conversation-state.png "Conversation states")
 
- *Channel* refers to SMS, social, and Teams channels supported in Omnichannel for Customer Service.
+ *Channel* refers to SMS, social, and Microsoft Teams channels supported in Omnichannel for Customer Service.
+
+> [!NOTE]
+> Additionally, the conversation might have the resolved or scheduled status reason, which is for internal use only.
 
 ## Open
 
@@ -125,19 +125,19 @@ For the chat channel, consider a conversation that's in the **Open** state at 18
 
 ### Conversation in waiting
 
-A conversation in **Waiting** is moved to the **Closed** state when the conversation is inactive for a specified time. The inactive time can be set in the work stream for the **Auto-close after inactivity** option, based on which the conversation will be moved to the closed state after the criteria is met.
+A conversation in **Waiting** is moved to the **Closed** state when the conversation is inactive for a specified time. The inactive time can be set in the workstream for the **Auto-close after inactivity** option, based on which the conversation will be moved to the closed state after the criteria is met.
 
 For example, when you set **Auto-close after inactivity** to 5 minutes, the conversation is moved to the **Closed** state if it has been in **Waiting** for more than 5 minutes.
 
-To learn more, see [Create a workstream](work-streams-introduction.md#create-a-work-stream).
+To learn more, see [Create a workstream](../customer-service/create-workstreams.md).
 
 ### Set default time using APIs
 
-Programmatically, you can change the default time and set it as per your organization's requirements using the Web APIs. To learn more, see [Configure automatic closure of conversations](auto-close-conversation.md).
+Programmatically, you can change the default time and set it as per your organization's requirements using the Web APIs. To learn more, see [Configure automatic closure of conversations](../customer-service/auto-close-conversation.md).
 
 ### See also
 
 [View communication panel](oc-conversation-control.md)  
-[Automatic closure of a conversation](auto-close-conversation.md)  
+[Configure automatic closure of conversations](auto-close-conversation.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

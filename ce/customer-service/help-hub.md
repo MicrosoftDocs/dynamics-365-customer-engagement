@@ -154,15 +154,15 @@ ms.custom:
 
 <tr> 
 
- <td><h2>Troubleshoot and FAQs</h2>
+ <td><h2>Troubleshoot and FAQ</h2>
    <ul>
   <li><a href="troubleshoot-case-email-issue.md" data-raw-source="[Issue converting an email to a case](troubleshoot-case-email-issue.md)">Issue converting an email to a case</a>
   <li><a href="troubleshoot-sla-issues.md" data-raw-source="[SLA timer does not pause when its state is changed from InProgress to OnHold on a holiday](troubleshoot-sla-issuea.md)">SLA timer does not pause when its state is changed from InProgress to OnHold on a holiday</a>
 </li>
   <li><a href="troubleshoot-delete-managed-solution.md" data-raw-source="[Unable to delete a managed solution consisting an SLA enabled entity](troubleshoot-delete-managed-solution.md)">Unable to delete a managed solution consisting of an SLA-enabled entity</a></li>
-<li><a href="migrate-tool-faqs.md" data-raw-source="[Migration Tool FAQs](migrate-tool-faqs.md)">Migration Tool FAQs</a></li>
-<li><a href="/dynamics365/omnichannel/faqs" data-raw-source="[Omnichannel for Customer Service FAQs](./faqs.md)">Omnichannel for Customer Service FAQs</a></li>
-<li><a href="service-scheduling-faq.md" data-raw-source="[Service Scheduling FAQs](service-scheduling-faq.md)">Service Scheduling FAQ</a></li>
+<li><a href="migrate-tool-faqs.md" data-raw-source="[Migration Tool FAQ](migrate-tool-faqs.md)">Migration Tool FAQ</a></li>
+<li><a href="/dynamics365/omnichannel/faqs" data-raw-source="[Omnichannel for Customer Service FAQ](./faqs.md)">Omnichannel for Customer Service FAQ</a></li>
+<li><a href="service-scheduling-faq.md" data-raw-source="[Service Scheduling FAQ](service-scheduling-faq.md)">Service Scheduling FAQ</a></li>
 
      
  </td>
