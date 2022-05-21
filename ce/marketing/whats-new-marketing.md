@@ -34,7 +34,7 @@ Marketing updates are [pushed to customers automatically](https://cloudblogs.mic
 
 The Dynamics 365 Marketing May 2022 update has two preview features and three general availability features from the [2022 wave 1 release plans](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/get-started). The preview features include conditional dynamic content, which helps marketers create hyper-personalized messages, and a new channel analytics dashboard to track delivery and engagement metrics across multiple channels.
 
-The general availability features include the ability to use outbound subscription centers in real-time marketing, a new email creation canvas and user experience, and a bring your own data lake option for Customer Insights integration.
+The general availability features include the ability to use outbound subscription centers in real-time marketing and a new email creation canvas and user experience.
 
 The update also includes improved email content blocks, the ability to manually populate event trigger parameters when raising triggers to run power automate flows, and real-time marketing geo expansion to Brazil, India, Japan, and the United Arab Emirates. Read on for details!
 
