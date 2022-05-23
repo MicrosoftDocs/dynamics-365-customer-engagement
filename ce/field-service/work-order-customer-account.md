@@ -1,7 +1,7 @@
 ---
 title: "Add an account with customer, location, and related details to a work order in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to add a customer, location, and related account details to a work order in Dynamics 365 Field Service
-ms.date: 09/14/2021
+ms.date: 05/23/2022
 ms.reviewer: krbjoran
 
 ms.topic: article
@@ -150,7 +150,7 @@ Go to **Field Service > Sales > Invoices** to view the newly generated invoice f
 
 ### Travel charges, demystified
 
-If the work order's service account (*not* billing account) has a travel charge type set, then a work order product for a travel charge will be added when the **Work Order System Status** becomes **Open-Completed** after being booked. 
+If the work order's service account (*not* billing account) has a travel charge type set, then a work order product for a travel charge will be added after the work order is scheduled and the generated booking's **Booking Status** changes.
 
 First, go to **Field Service > Settings > Field Service Settings** and specify a product in the **Travel Charge Item** field. 
 
