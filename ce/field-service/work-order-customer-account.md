@@ -163,8 +163,7 @@ This is the product that will later show as a work order product.
 > ![Screenshot of travel charge added as a work order product.](./media/work-order-service-account-travel-charge-product.png)
 
 > [!Note]
-> The travel charge work order product is subject to the same pricing rules as all work order products and services. The unit amount pricing of travel charge work order products is dictated first by the **price list**; if the travel charge product is not part of the price list as a price list item, then the **list price** on the travel charge product will be used. If no list price is entered, the unit amount price will be the value entered in the service account **travel charge**.
-
+> The travel charge work order product's unit amount price will be the value entered in the service account **travel charge**.
 
 Though the unit amount price of the travel charge is dictated by the price list, list price, and travel charge, the *quantity* is dictated by the **Travel Charge Type** on the service account. Here's what the quantity options mean: 
 
