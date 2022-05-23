@@ -1,6 +1,6 @@
 ---
 title: "Agent scripts in the Omnichannel for Customer Service app | MicrosoftDocs"
-description: "The information mentioned in this topic can help you learn how to use agent scripts in the Omnichannel for Customer Service app."
+description: "The information mentioned in this article can help you learn how to use agent scripts in the Omnichannel for Customer Service app."
 ms.date: 05/23/2022
 ms.topic: article
 author: neeranelli
@@ -35,7 +35,7 @@ The agent script section consists of a set of steps. Based on the type of agent 
 - Macro
 - Agent script
 
-Each of the steps can be identified with the actionable icon. When you expand a step, the section displays a short description of what the step entails and the action you need to perform using the icons next to it. The step that is executed successfully is indicated with a green Tick icon, and the step that has an error is indicated with a red Cross icon. You can execute the steps again as needed, and the final state of the step, green Tick or red Cross, is based on the last run.
+Each of the steps can be identified with the actionable icon. When you expand a step, the section displays a short description of what the step entails and the action you need to perform using the icons next to it. The step that is executed successfully is indicated with a green Tick icon, and the step that has an error is indicated with a red Cross icon. You can run the steps again as needed, and the final state of the step, green Tick or red Cross, is based on the last run.
 
 ## Prerequisite
 
