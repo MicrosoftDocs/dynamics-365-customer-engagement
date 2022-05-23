@@ -1,7 +1,7 @@
 ---
 title: "Uninstall solutions in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Perform the steps mentioned in the topic to remove solutions in Omnichannel for Customer Service."
-ms.date: 04/07/2022
+ms.date: 05/13/2022
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -45,44 +45,33 @@ When you uninstall Omnichannel for Customer Service from your organization, the 
     |	11	| `OmnichannelPrimeTeams` 	                        |		|
     |	12	| `OmnichannelPrimeSocialChannelsAnchor`	        |		|
     |	13	| `OmnichannelPrimeOutboundAnchor`	                |		|
-    |	14	|	 `OmnichannelPrimeAnchor`	                    |		|
-    |	15	|	 `msdyn_CustomerServiceworkspaceChannels`       |		|
-    |	16	|	 `msdyn_OmnichannelEngagementHubPatch`	        |		|
-    |	17	|	 `OmnichannelEngagementHubPreview`	            |		|
-    |	18	|	 `msdyn_OmnichannelPrimePatch`	                |		|
-    |	19	|	 `OmnichannelPrime`	                            |		|
-    |	20	|	 `msdyn_OmnichannelSMSPatch`	                |		|
-    |	21	|	 `msdyn_OmnichannelFacebookPatch`	            |		|
-    |	22	|	 `OmnichannelOutbound`	                        |		|
-    |	23	|	 `OmnichannelSMS`	                            |		|
-    |	24	|	 `OmnichannelTeams`                            	|		|
-    |	25	|	 `OmnichannelSocialChannels`                    |		|
-    |	26	|	 `OmnichannelChat`	                            |		|
-    |	27	|	 `OmnichannelFacebook`	                        |		|
+    |   14  |  `OmnichannelPrimeTelephony`                      |       |
+    |	15	|	 `OmnichannelPrimeAnchor`	                    |		|
+    |	16	|	 `msdyn_CustomerServiceworkspaceChannels`       |		|
+    |	17	|	 `msdyn_OmnichannelEngagementHubPatch`	        |		|
+    |	18	|	 `OmnichannelEngagementHubPreview`	            |		|
+    |	19	|	 `msdyn_OmnichannelPrimePatch`	                |		|
+    |	20	|	 `OmnichannelPrime`	                            |		|
+    |	21	|	 `msdyn_OmnichannelSMSPatch`	                |		|
+    |	22	|	 `msdyn_OmnichannelFacebookPatch`	            |		|
+    |	23	|	 `OmnichannelOutbound`	                        |		|
+    |	24	|	 `OmnichannelSMS`	                            |		|
+    |	25	|	 `OmnichannelTeams`                            	|		|
+    |	26	|	 `OmnichannelSocialChannels`                    |		|
+    |	27	|	 `OmnichannelChat`	                            |		|
+    |	28	|	 `OmnichannelFacebook`	                        |		|
     |	28	|	 `msdyn_OmnichannelBotEnablerPatch`	            |		|
-    |	39	|	 `OmnichannelBotEnabler`	                    |		|
-    |	30	|	 `msdyn_UnifiedRoutingForCS`	                | Required for unified routing in Customer Service		|
-    |	31	|	 `UnifiedRoutingPrimeAnchor`                    | Required for unified routing in Customer Service		|
-    |	32	|	 `msdyn_OmnichannelSBRPatch_managed`	        | Required for unified routing in Customer Service		|
-    |	33	|	 `OmnichannelSBR`                            	| Required for unified routing in Customer Service		|
-    |	34	|	 `OCBaseURBase`	                                | Required for unified routing in Customer Service		|
-    |	35	|	 `OmnichannelBase`	                            | Required for unified routing in Customer Service		|
-    |	36	|	 `MLDecisionEngine`	                            | Required for unified routing in Customer Service		|
-    |	37	|	 `UnifiedRouting`	                            | Required for unified routing in Customer Service		|
-    |	38	|	 `msdyn_UnifiedRoutingForEntity`	            | Required for unified routing in Customer Service		|
-    |	39	|	 `DecisionEngine`	                            | Required for unified routing in Customer Service		|
-    |	40	| `msdynce_AnyEntityRoutingRulePatch202001_managed`	| Required for unified routing in Customer Service		|
-    |	41	|	 `msdynce_AnyEntityRoutingRule`	                | Required for unified routing in Customer Service		|
-    |	42	|	 `ScenariosAndChannels`	                        |		|
-    |	43	|	 `msdyn_CIFrameworkPatch`	                    |		|
-    |	44	|	 `ChannelAPIIntegrationFramework`	            |		|
-    |	45	|	 `OmnichannelIntelligence` 	                    |		|
-    |	46	|	 `OmnichannelConfiguration`                    	|		| 
-    |	47	|	 `msdyn_MacrosDataOmnichannel`	                |		|
+    |	29	|	 `OmnichannelBotEnabler`	                    |		|
+    |	30  |   `OmnichannelTelephony`                          | You must delete all the related workstreams before you delete OmnichannelTelephony |
+    |	31	|	 `ScenariosAndChannels`	                        |		|
+    |	32	|	 `msdyn_CIFrameworkPatch`	                    |		|
+    |	33	|	 `ChannelAPIIntegrationFramework`	            |		|
+    |	34	|	 `OmnichannelIntelligence` 	                    |		|
+    |	35	|	 `OmnichannelConfiguration`                    	|		| 
+    |	36	|	 `msdyn_MacrosDataOmnichannel`	                |		|
     ||||
 
 5. A confirmation message appears that prompts you to uninstall the managed solution. Select **OK**.
-
 
 ## Uninstall Omnichannel historical analytics solutions
 

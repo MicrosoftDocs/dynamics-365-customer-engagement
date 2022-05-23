@@ -1,8 +1,7 @@
 ---
 title: "Finalizing registrations for paid events (Dynamics 365 Marketing Developer Guide) | Microsoft Docs"
 description: "Provides information about how to finalize registrations for paid events."
-ms.date: 07/12/2019
-
+ms.date: 05/06/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -33,6 +32,8 @@ In this topic, we use [OAuth]( https://docs.microsoft.com/powerapps/developer/co
 
 3. Install the following NuGet packages: 
    - [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory) is used to simplify the authentication with OData. If you’re using a programming language that is not supported by this library, you need to use another library that supports your programming language or take care of the authentication manually.
+    > [!IMPORTANT]
+    > The [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory) NuGet package and Azure AD Authentication Library (ADAL) have been deprecated. No new features have been added since June 30, 2020.   We strongly encourage you to upgrade, see the [migration guide](/azure/active-directory/develop/msal-migration) for more details.
    
    - [Newtonsoft.Json]( https://www.nuget.org/packages/Newtonsoft.Json/) is used to serialize and deserialize the data. 
  
@@ -53,6 +54,7 @@ Follow these steps to register your application:
     ![Supported account types.](../media/supported-account-types.png "Supported account types")
 
 1. Select **Register**. 
+
 1. After the application is registered, you should be redirected to the **Overview** page. Look for the **application ID** and **tenant ID** values and save them. 
 
 1. Navigate to **Certificates & secrets** and select **New client secret**. Make note of the client secret value.  
@@ -356,6 +358,5 @@ namespace TriggerFinalizeRegistration
 [Power Apps portal hosted](portal-hosted.md)<br/>
 [Customer Event Portal Localization](event-portal-localization.md)<br />
 [Host your custom event website on Azure](host-custom-event-website-on-azure.md)
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

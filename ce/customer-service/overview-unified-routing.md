@@ -71,8 +71,10 @@ The intelligent skill finder depends upon the custom AI Builder category classif
 [Configure work classification rulesets](configure-work-classification.md)  
 [Historical analytics for Unified routing in Customer Service](cs-historical-analytics-unified-routing.md)  
 [Historical analytics for unified routing in Omnichannel for Customer Service](oc-historical-analytics-unified-routing.md)  
-[FAQs on unified routing](unified-routing-faqs.md)  
+[FAQ on unified routing](unified-routing-faqs.md)  
 [Migrate workstreams created in Omnichannel Administration app](migrate-workstreams.md)  
+[Export and import configuration data for the record channel](export-import-config-data-for-records.md)  
+[Export import data for the live chat channel](export-import-config-data-for-live-chat.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

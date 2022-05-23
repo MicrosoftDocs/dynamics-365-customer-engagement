@@ -4,13 +4,15 @@ description: "Get an overview of the voice channel and its offerings in Omnichan
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/01/2022
+ms.date: 04/26/2022
 ms.topic: overview
 ---
 
 # Introduction to the voice channel
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
+
+[!INCLUDE[cc-trial-sign-up](../includes/cc-trial-sign-up.md)]
 
 Enable your customer service representatives to communicate with customers on the phone to resolve issues using the voice channel in Dynamics 365 Customer Service. While many customers increasingly use chat, SMS messages, and social media to engage and request support from organizations, phone calls continue to be an important communication channel. With the voice channel, Omnichannel for Customer Service provides agents with the ability to receive and make public switched telephone network (PSTN) calls through a native calling experience in Dynamics 365, with real-time AI-powered features such as live call transcription, sentiment analysis, and AI-based suggestions to boost agent productivity. Omnichannel for Customer Service also provides a rich set of analytics and insights, including AI-driven topic clustering and call insights.
 
@@ -51,12 +53,11 @@ Take a look at some of the key capabilities that makes the voice channel great f
 ### See also
 
 [Install the voice channel](voice-channel-install.md)  
-[Regional availability of the voice channel](voice-channel-region-availability.md)  
+[Supported cloud locations, languages, and locale codes ](voice-channel-region-availability.md)  
 [International availability of Omnichannel for Customer Service](international-availability.md)  
 [System requirements](system-requirements-omnichannel.md)  
 [Provision Omnichannel for Customer Service](omnichannel-provision-license.md)  
-[FAQs about the voice channel in Omnichannel for Customer Service](voice-channel-faqs.md)  
-
+[FAQ about the voice channel in Omnichannel for Customer Service](voice-channel-faqs.md)  
 [Blog: New voice channel streamlines omnichannel customer experiences](https://cloudblogs.microsoft.com/dynamics365/bdm/2020/09/23/new-voice-channel-streamlines-omnichannel-customer-experiences/)  
 
 

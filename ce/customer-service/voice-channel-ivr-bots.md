@@ -1,5 +1,5 @@
 ---
-title: "Integrate Power Virtual Agents bot for voice | MicrosoftDocs"
+title: "Configure Power Virtual Agents bots for voice | MicrosoftDocs"
 description: "Learn about how to add a Power Virtual Agents bot for using in voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
@@ -11,7 +11,7 @@ ms.custom: intro-internal
 ---
 
 
-# Integrate a Power Virtual Agents bot for voice
+# Configure Power Virtual Agents bots for voice
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -31,7 +31,10 @@ The following prerequisites must be met for the Power Virtual Agents bot:
 
 - The bot is published, and the **Agent transfers** setting is configured by selecting **Omnichannel**. More information: [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/power-virtual-agents/configuration-hand-off-omnichannel)
 - The **Enable voice** option is selected in the **Omnichannel** section of the **Agent transfers** setting.
-
+- Manually install the following extensions for voice hand-off in the specified order if they aren't installed:
+   1. [Power Virtual Agents telephony extension](https://appsource.microsoft.com/product/dynamics-365/mscrm.mspva_telephony_extension)
+   1. [Omnichannel Power Virtual Agent extension](https://appsource.microsoft.com/product/dynamics-365/mscrm.omnichannelpvaextension)
+   1. [Omnichannel Voice Power Virtual Agent extension](https://appsource.microsoft.com/product/dynamics-365/mscrm.omnichannelvoicepvaextension)
 
 ## Configure a bot for voice
 
@@ -39,14 +42,14 @@ The following prerequisites must be met for the Power Virtual Agents bot:
 
 1. In the Customer Service admin center or Omnichannel admin center app, go to the workstream that you created for the voice channel, and then in the **Bot section,** select **Add Bot**.
 
-
 1. On the **Add Bot** pane, select a bot from the **Name** box.
 
-   > ![Select a bot.](media/add-bot.png)
+   :::image type="content" source="media/add-bot.png" alt-text="Select a bot.":::
+
 
 1. Select **Save and close**. The bot is added to the workstream.
 
-   > ![Sample bot details.](media/bot-in-workstream.png)
+   :::image type="content" source="media/bot-in-workstream.png" alt-text="Sample bot details.":::
 
 More information:
 
@@ -67,7 +70,6 @@ More information:
    1. Select **Enable**. One of the following messages appears:
    
      - That Omnichannel is enabled is displayed at the top of the page.
-     - If you haven't installed the [required extensions](/power-virtual-agents/configuration-hand-off-omnichannel#install-extensions), you'll see a message that your bot doesn't have access to the variables or actions it needs. You must install at least [Omnichannel Power Virtual Agent extension](https://appsource.microsoft.com/product/dynamics-365/mscrm.omnichannelpvaextension) for hand-off to work.
      - If you're using Application Lifecycle Management (ALM), you might see the following message: "We can't determine if omnichannel integration is enabled for the environment". For more information, see [Bots with ALM](/power-virtual-agents/configuration-hand-off-omnichannel#bots-with-alm).
    2. Turn on the **Enable voice** toggle.
    
@@ -95,6 +97,7 @@ More information:
 ### See also
 
 [Overview of the voice channel](voice-channel.md)  
-[Configure context variables](context-variables-for-bot.md)
+[Configure context variables](context-variables-for-bot.md)  
+[Configure Azure bots for voice](voice-channel-azure-bot-service.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

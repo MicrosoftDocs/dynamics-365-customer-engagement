@@ -42,8 +42,8 @@ landingContent:
     linkLists:
       - linkListType: how-to-guide
         links:
-          - text: Create an event-based journey
-            url: real-time-marketing-event-based-journey.md
+          - text: Create a trigger-based journey
+            url: real-time-marketing-trigger-based-journey.md
           - text: Create a segment-based journey
             url: real-time-marketing-segment-based-journey.md
           - text: Set a business goal and measure progress through a journey

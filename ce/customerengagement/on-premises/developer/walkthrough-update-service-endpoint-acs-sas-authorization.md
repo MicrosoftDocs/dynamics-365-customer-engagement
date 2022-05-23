@@ -31,7 +31,7 @@ Shared Access Signature (SAS) is the recommended authorization method for the Dy
   
 ### Perform the update  
   
-1. Sign in to the [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)][Classic portal](https://manage.windowsazure.com).  
+1. Sign in to the [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)][ Portal](https://ms.portal.azure.com/#home).  
   
 2. Navigate to the messaging entity that you plan to update.  
   

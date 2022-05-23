@@ -60,7 +60,7 @@ Complete the following steps to enable Teams meeting integration.
 As mentioned in the prerequisites, the following settings are displayed on the page:
 
 - **Sync calendars**: This optional setting ensures that the meetings created in Dynamics 365 are added to Microsoft Outlook and Teams, and show up on agent calendars. More information: [Set up server-side synchronization of email, appointments, contacts, and tasks - Power Platform](/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)
-- **Add and join meetings**: This required setting ensures that an agent can create and join MIcrosoft Teams meetings directly from Dynamics 365. More information: [Manage feature settings - Power Platform](/power-platform/admin/settings-features)
+- **Add and join meetings**: This required setting ensures that an agent can create and join Microsoft Teams meetings directly from Dynamics 365. More information: [Manage feature settings - Power Platform](/power-platform/admin/settings-features)
 
 > [!Note]
 > The **Record and get insights** setting is only available in Dynamics 365 Sales apps where customers have a premium license.

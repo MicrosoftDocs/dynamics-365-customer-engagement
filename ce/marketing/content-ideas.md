@@ -2,7 +2,6 @@
 title: "Preview: Use AI to kickstart email creation with Content ideas (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to use AI-powered Content ideas to generate content in Dynamics 365 Marketing."
 ms.date: 11/08/2021
-
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -51,7 +50,7 @@ Content ideas analyzes the last ready-to-send marketing emails in your organizat
 
 To begin the Content ideas analysis:
 
-1. Go to the outbound marketing or real-time marketing email editor. Select the **Content ideas** button is the top-right corner to display the Content ideas pane.
+1. Go to the outbound marketing or real-time marketing email editor. Select the **Content ideas** button ![Content ideas button.](media/content-ideas-button.png "Content ideas button") on the right side menu to display the Content ideas pane.
 1. If there are enough emails in your organization to start the analysis process (minimum 20) and you have read permission to access all the emails, you will see a message in the Content ideas pane stating that it is ready to analyze your emails. Select **Continue** to proceed.
     > [!NOTE]
     > You will only be able to start the analysis process if you have read permission access to all the emails in your organization.

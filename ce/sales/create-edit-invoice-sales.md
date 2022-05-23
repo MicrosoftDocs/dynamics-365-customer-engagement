@@ -1,7 +1,7 @@
 ---
 title: "Create or edit invoices in Dynamics 365 Sales"
 description: "An invoice is an order that has been billed to the customer. You can either convert an order into an invoice or create an invoice separately."
-ms.date: 10/25/2021
+ms.date: 05/10/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -154,7 +154,8 @@ To directly send an email to a customer with an invoice attached, open the invoi
 ### See also  
 
 [Nurture sales from lead to order](nurture-sales-from-lead-order-sales.md)  
-[Print quote, invoice, or other records](print-records.md)
+[Print quote, invoice, or other records](print-records.md)   
+[Troubleshoot issues with orders](/troubleshoot/dynamics-365/sales/troubleshoot-orders-issues)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

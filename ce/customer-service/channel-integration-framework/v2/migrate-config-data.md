@@ -23,9 +23,9 @@ Perform the following steps to migrate third-party channel configuration data fr
 
 2. Open the app profile manager in [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083), configure a new channel provider, and copy the channel URL and other attribute values from the Channel Integration Framework 1.0 provider. More information: [Configure channel provider using app profile manager](/dynamics365/app-profile-manager/overview)
 
-3. [Assign user to this profile](/app-profile-manager/app-profile-manager#assign-profiles-to-users).
+3. [Assign user to this profile](/dynamics365/app-profile-manager/app-profile-manager#assign-users-to-the-profile).
 
-4. In the channel provider code, make sure that the communication panel is set to the docked state using the [setMode(1)](/channel-integration-framework/v2/reference/microsoft-ciframework/setmode) API.
+4. In the channel provider code, make sure that the communication panel is set to the docked state using the [setMode(1)](/dynamics365/customer-service/channel-integration-framework/v2/reference/microsoft-ciframework/setmode) API.
 
 5. Open Customer Service workspace and check if the communication panel is visible.
 
