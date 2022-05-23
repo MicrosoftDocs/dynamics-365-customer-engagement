@@ -131,7 +131,7 @@ Typical examples are:
 - The first Monday of each month
 - Every other Friday
 
-You can also define custom dates work orders that should be performed in addition to a recurrance if a pattern does not reflect your business needs. For example, perhaps an agreement to perform service on various holidays throughout the year. Note that custom date work orders will not be generated, unless a recurrance is provided.
+You can also define custom dates work orders that should be performed in addition to a recurrence if a pattern does not reflect your business needs. For example, perhaps an agreement to perform service on various holidays throughout the year. Note that custom date work orders will not be generated, unless a recurrence is provided.
 
 - **End Date Behavior**: Entering specific start and end date behavior allows you to generate work orders for all or part of the agreement duration. Selecting **No End Date** means the work orders should be generated until the agreement end date.
 
