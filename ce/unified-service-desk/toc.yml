@@ -3,7 +3,7 @@
 - name: Release history
   href: release-history.md
 - name: Migrate to Customer Service workspace
-  href: migrate-to-csw.md
+  href: admin/migrate-to-csw.md
 - name: What's new
   items:
   - name: What's new for Administrators
