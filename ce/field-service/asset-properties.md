@@ -101,6 +101,9 @@ From the template, you can also directly relate specific assets, which will then
 
 Once properties are defined for an asset, you can then add specific values for those properties, and build out a log of current and changing values. 
 
+>[!Note]
+> There is a known bug that hides the "Assets and Locations" and "Properties" tabs in the out of the box product. 
+
 Go to the customer asset > **Properties** > **New Property Log**.
 
 > [!div class="mx-imgBorder"]
