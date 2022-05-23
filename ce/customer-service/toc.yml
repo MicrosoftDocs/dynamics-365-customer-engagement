@@ -418,6 +418,8 @@
       items:
       - name: Use email
         href: /power-apps/user/view-create-email?context=/dynamics365/context/customer-service-context
+      - name: Attach a file to email
+        href: /power-apps/user/attach-email?context=/dynamics365/context/customer-service-context
       - name: Email templates
         items: 
         - name: Create an email template
