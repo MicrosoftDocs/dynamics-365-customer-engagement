@@ -1,7 +1,7 @@
 ---
-title: Search knowledge articles in the Customer Service workspace in Dynamics 365 Customer Service | Microsoft Docs
-description: See how you can effectively search knowledge articles in the Customer Service workspace.
-ms.date: 04/01/2022
+title: Search knowledge articles in Dynamics 365 Customer Service | Microsoft Docs
+description: See how you can effectively search knowledge articles in Dynamics 365 Customer Service.
+ms.date: 05/23/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -19,9 +19,11 @@ ms.custom:
 
 # Search for knowledge articles in Customer Service workspace
 
+You can search for knowledge articles through Customer Service workspace or Customer Service Hub.
+
 In Customer Service workspace, knowledge base search lets you search for relevant knowledge articles to resolve a case. The knowledge area is available on the productivity pane.
 
-## Prerequisites
+## Prerequisites to search for knowledge articles in Customer Service workspace
 
 - The productivity pane and knowledge search must be enabled in the app profile manager.
 - The anchor tab should be a case or conversation for the knowledge search pane to be displayed.
