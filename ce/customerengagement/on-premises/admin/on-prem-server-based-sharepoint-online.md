@@ -56,9 +56,7 @@ Before you configure Customer Engagement (on-premises) and SharePoint Online for
   - Microsoft Dynamics 365 Hybrid Connector. The Microsoft Dynamics 365 Hybrid Connector is a free connector that lets you use server-based authentication with Dynamics 365 (on-premises) and SharePoint Online. More information: [Microsoft Dynamics CRM Hybrid Connector](https://signup.microsoft.com/Signup?OfferId=2d11d538-945d-48c6-b609-a5ce54ce7b18&pc=76ac7a4d-8346-4419-959c-d3896e89b3c9&ali=1)
   - An x509 digital certificate issued by a trusted certificate authority that will be used to authenticate between Customer Engagement (on-premises) and SharePoint Online. If you are evaluating server-based authentication, you can use a self-signed certificate.
 
-The following software features are required to run the Windows PowerShell cmdlets described in this topic.
-
-  - [Microsoft Online Services Sign-In Assistant for IT Professionals Beta](https://www.microsoft.com/download/details.aspx?id=39267)
+The following software feature is required to run the Windows PowerShell cmdlets described in this topic.
 
   - [Azure Active Directory Module for Windows PowerShell (64-bit version)](/powershell/azure/active-directory/install-msonlinev1?view=azureadps-1.0)
 
@@ -156,7 +154,7 @@ The following software features are required to run the Windows PowerShell cmdle
 
 5.  On the Prepare Sites stage, enter the following information.
     
-      - Enter the SharePoint Online site collection **URL**, such as *https://contoso.sharepoint.com/sites/salesteam*.
+      - Enter the SharePoint Online site collection **URL**, such as `https://contoso.sharepoint.com/sites/salesteam`.
     
       - Enter the **tenant ID**. More information: Get the SharePoint online tenant ID
 

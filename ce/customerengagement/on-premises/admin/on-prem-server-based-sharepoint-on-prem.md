@@ -200,7 +200,7 @@ On the SharePoint on-premises server, in the SharePoint Management Shell, run th
     
     To run the following commands, you must specify two parameters:
     
-      - The SharePoint On-Premises site collection URL. In the example here, *https://sharepoint.contoso.com/sites/crm/* is used for the site collection URL.
+      - The SharePoint On-Premises site collection URL. In the example here, `https://sharepoint.contoso.com/sites/crm/` is used for the site collection URL.
     
       - The *CrmRealmId* is the ID of the Customer Engagement (on-premises) organization you want to use for document management with SharePoint. More information: [Get the Dynamics 365 Realm ID](#get-the-dynamics-365-realm-id)
     

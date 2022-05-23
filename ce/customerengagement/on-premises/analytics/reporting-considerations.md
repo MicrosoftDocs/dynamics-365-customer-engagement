@@ -59,7 +59,7 @@ Microsoft Dynamics 365 Customer Engagement (on-premises) have a number of capabi
 > [!IMPORTANT]
 >  When you use these tools, we recommend you move or synchronize data during nonbusiness hours.  
   
- If needed, there are many Microsoft partners who can help provide a solution for your specific reporting needs, such as creating an offline copy of the data specifically used for running large reports.  These partners are knowledgeable with the data integration tools available. More information: [Find the right partner](https://dynamics-crm.pinpoint.microsoft.com/companies/search?q=)  
+ If needed, there are many Microsoft partners who can help provide a solution for your specific reporting needs, such as creating an offline copy of the data specifically used for running large reports.  These partners are knowledgeable with the data integration tools available. More information: [Find the right partner](https://dynamics.microsoft.com/en-us/partners/find-a-partner/)  
   
 <a name="BKMK_ThirdPartyAdapt"></a>   
 ## Third-party adapters for SSIS  
