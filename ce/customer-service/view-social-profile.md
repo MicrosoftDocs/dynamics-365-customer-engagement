@@ -1,7 +1,7 @@
 ---
-title: View, block, or deactivate a social profile in social care sample application (Dynamics 365 Customer Service) | MicrosoftDocs
-description: See how to view, block, or deactivate a social profile in social care sample application in Dynamics 365 Customer Service
-ms.date: 06/01/2018
+title: View a social profile in social care sample application (Dynamics 365 Customer Service) | MicrosoftDocs
+description: See how to view a social profile in social care sample application in Dynamics 365 Customer Service
+ms.date: 05/19/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -17,7 +17,7 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# View, block, or deactivate a social profile in social care sample application
+# View a social profile in social care sample application
 
 
 
@@ -28,7 +28,7 @@ Track the high influencers and the customers for your business, and save them as
  Every social profile has a corresponding contact in Dynamics 365 Customer Service. A contact can have several social profiles, but a social profile can’t have several contacts.  
   
 > [!NOTE]
->  The social profile data in the application is read-only. You can only view, block, define a workflow, or change the owner of the record.  
+> The social profile data in the application is read-only. You can only view, define a workflow, or change the owner of the record.  
   
 ## View a social profile  
   
@@ -40,20 +40,6 @@ Track the high influencers and the customers for your business, and save them as
   
     The social profile form shows the name, profile link of the contact, and the cases associated with this social profile. You can also view the influencer score if it is included as part of the social feed.  
   
-## Block a social profile  
- To make sure you receive only actionable social posts and avoid case creation for any unnecessary information, based on the social posts, you can block certain social profiles in Dynamics 365 Customer Service.  
-  
-1.  Open the social profile you want to block.  
-  
-2.  In the **Blocked** drop-down menu, select **Yes**.  
-  
-3.  Click the **Save** button.  
-  
-## Deactivate a social profile
-
- If you no longer work with a social profile, you can deactivate the profile temporarily. To do this, from the list of social profiles, select a profile, and click **Deactivate** on the command bar.  
-  
- You can reactivate the profile by selecting it and clicking **Activate** on the command bar.
  
 ### See also
 

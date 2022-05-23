@@ -1,7 +1,7 @@
 ---
 title: "Set up Dynamics 365 Marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "How to run the setup wizard for Dynamics 365 Marketing."
-ms.date: 05/05/2022
+ms.date: 05/20/2022
 ms.custom: 
   - dyn365-admin
   - dyn365-marketing
@@ -162,13 +162,12 @@ To set up a new Marketing environment:
 
 1. If you selected to **Use Dynamics 365 Portals or a Power Apps portal**, then enter a prefix for your portal URL in the field provided (under **Where do you want to host your webpage?**). You can also see what the full URL will be here. All your portals are hosted on your tenant, which uses a Microsoft-owned domain name, plus the subdomain name that you choose here. Your contacts and customers can see the URL when they open a portal, so you should choose a subdomain name that they'll recognize, such as your organization's name. The subdomain that you choose must also be unique among all other subdomains in the same tenant; you'll be notified to try again if you pick one that's already in use. If you want to reuse a name that's reported as already in use, then you can reclaim it by resetting the relevant portal and then removing the binding to the existing name as described in [Reset any Power Apps portals connected to the uninstalled Marketing app](uninstall-marketing.md#reset-portal).
 
-1. Select  **Continue**  to continue. Dynamics 365 Marketing includes several services, solutions, and apps, some of which require you to consider and accept various license agreements and privacy statements. The second page of the setup wizard lists each of these and provides links for more information. It also asks you to enter your organization's postal address.
+1. Select  **Continue**  to continue. The next screen asks you to enter your organization's postal address.
 
-    ![Provide consent and enter your postal address.](media/setup-form-4.png "Provide consent and enter your postal address")
+    > [!div class="mx-imgBorder"]
+    > ![Provide consent and enter your postal address.](media/setup-form-4.png "Provide consent and enter your postal address")
 
-1. Carefully read the consent text shown for each check box, and follow the links to make sure you understand all the relevant issues. If you agree with the terms, then mark each check box as you go to indicate your consent. Some of these are optional, so you can still use the product without them, though the related features will be disabled. Other features are required, so you won't be able to use Dynamics 365 Marketing without agreeing to them.
-
-1. Type the full physical street address for your organization in the field provided. All marketing email messages sent by Dynamics 365 Marketing must include the physical street address of your organization, and several other required elements. These requirements help maximize email deliverability while also helping make sure you conform to common legal requirements for marketing email.  More information: [Best practices for email marketing](get-ready-email-marketing.md)
+1. Type the full physical street address for your organization in the field provided. All marketing email messages sent by Dynamics 365 Marketing must include the physical street address of your organization, and several other required elements. These requirements help maximize email deliverability while also helping make sure you conform to common legal requirements for marketing email.  More information: [Best practices for email marketing](get-ready-email-marketing.md).
 
 1. Select  **Setup**  to start setting up the app. A page will open that tracks the setup progress, which typically takes about three hours to set up a paid environment.
 

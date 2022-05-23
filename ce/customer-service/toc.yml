@@ -336,8 +336,8 @@
         href: customer-service-hub-user-guide-resolve-cancel-reassign-a-case.md
       - name: Merge cases
         href: customer-service-hub-user-guide-merge-cases.md
-      - name: View, block, or deactivate a social profile
-        href: view-block-deactivate-social-profile.md
+      - name: View a social profile
+        href: view-social-profile.md
       - name: Convert a case to a knowledge article
         href: customer-service-hub-user-guide-convert-case-to-knowledge-article.md
       - name: View AI suggested similar cases and knowledge articles
@@ -418,6 +418,8 @@
       items:
       - name: Use email
         href: /power-apps/user/view-create-email?context=/dynamics365/context/customer-service-context
+      - name: Attach a file to email
+        href: /power-apps/user/attach-email?context=/dynamics365/context/customer-service-context
       - name: Email templates
         items: 
         - name: Create an email template
@@ -482,6 +484,10 @@
         href: search-knowledge-articles-csh.md
       - name: Understand how search works in knowledge management
         href: search-operators.md
+    - name: Self-service experience
+      items:
+      - name: Search the knowledge base on portals
+        href: knowledge-base-search-methods.md
     - name: Customization experience
       items: 
       - name: Add the knowledge base search control to forms
@@ -494,10 +500,6 @@
         href: create-knowledge-article-using-template.md
       - name: Extend transformer logic on templates
         href: extend-transformer-logic-template.md
-    - name: Self-service experience
-      items:
-      - name: Search the knowledge base on portals
-        href: knowledge-base-search-methods.md
   - name: Microsoft Teams for collaboration
     items:
     - name: Introduction to collaboration
@@ -1126,6 +1128,8 @@
       href: contract-to-entitlement-migration.md
     - name: Migration changes for new omnichannel messaging platform
       href: migrate-acs.md
+    - name: FAQ about create records automatically and activity monitor
+      href: arc-faqs.md  
     - name: Migrate service scheduling
       items: 
       - name: Introduction to service scheduling migration
@@ -1136,30 +1140,30 @@
         href: migrate-entity-records.md
     - name: Migration FAQ
       items: 
-      - name: FAQs on Migration tool for automatic record creation rules and SLAs
+      - name: FAQ on Migration tool for automatic record creation rules and SLAs
         href: migrate-tool-faqs.md
   - name: Deprecations
     items: 
     - name: Deprecations in Customer Service
       href: deprecations-customer-service.md
-  - name: Routing in Omnichannel Administration (Deprecated)
-    items:
-    - name: Routing and assignment in Omnichannel Administration
-      href: routing-work-distribution-oca.md
-    - name: Create and manage workstreams in Omnichannel Administration
-      href: create-workstreams-oca.md
-    - name: Create queues in Omnichannel Administration
-      href: Create-queues-oca.md
-    - name: Set up routing and assignment rules in Omnichannel Administration
-      href: routing-rules.md  
-    - name: Set up record routing in Omnichannel Administration
-      href: set-up-entity-workstream.md
-    - name: Create multiple workstreams for records in Omnichannel Administration
-      href: multiple-ws-entity-record-routing.md  
-    - name: Route records in Omnichannel Administration app
-      href: entity-channel.md
-    - name: Set up skill-based routing in Omnichannel Administration
-      href: attach-skills.md
+    - name: Routing in Omnichannel Administration
+      items:
+      - name: Routing and assignment in Omnichannel Administration
+        href: routing-work-distribution-oca.md
+      - name: Create and manage workstreams in Omnichannel Administration
+        href: create-workstreams-oca.md
+      - name: Create queues in Omnichannel Administration
+        href: Create-queues-oca.md
+      - name: Set up routing and assignment rules in Omnichannel Administration
+        href: routing-rules.md  
+      - name: Set up record routing in Omnichannel Administration
+        href: set-up-entity-workstream.md
+      - name: Create multiple workstreams for records in Omnichannel Administration
+        href: multiple-ws-entity-record-routing.md  
+      - name: Route records in Omnichannel Administration app
+        href: entity-channel.md
+      - name: Set up skill-based routing in Omnichannel Administration
+        href: attach-skills.md
   - name: Extend Customer Service
     items: 
     - name: Overview

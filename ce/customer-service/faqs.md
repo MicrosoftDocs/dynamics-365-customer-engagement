@@ -1,5 +1,5 @@
 ---
-title: "FAQs about Omnichannel for Customer Service | MicrosoftDocs"
+title: "FAQ about Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn about the frequently asked questions (FAQs) on the different features in Omnichannel for Customer Service and their requirements."
 ms.date: 02/25/2022
 ms.topic: article
@@ -8,7 +8,7 @@ ms.author: nenellim
 manager: shujoshi
 ---
 
-# Frequently asked questions (FAQs) about Omnichannel for Customer Service
+# Frequently asked questions (FAQ) about Omnichannel for Customer Service
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
