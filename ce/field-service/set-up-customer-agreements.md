@@ -1,7 +1,7 @@
 ---
 title: "Set up customer agreements (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn about customer agreements and how to set them up in Dynamics 365 Field Service
-ms.date: 07/06/2020
+ms.date: 05/23/2022
 ms.reviewer: krbjoran
 ms.topic: article
 author: FieldServiceDave
@@ -131,7 +131,7 @@ Typical examples are:
 - The first Monday of each month
 - Every other Friday
 
-You can also define custom dates work orders should be performed if a pattern does not reflect your business needs. For example, perhaps an agreement to perform service on various holidays throughout the year.
+You can also define custom dates work orders that should be performed in addition to a recurrance if a pattern does not reflect your business needs. For example, perhaps an agreement to perform service on various holidays throughout the year. Note that custom date work orders will not be generated, unless a recurrance is provided.
 
 - **End Date Behavior**: Entering specific start and end date behavior allows you to generate work orders for all or part of the agreement duration. Selecting **No End Date** means the work orders should be generated until the agreement end date.
 
