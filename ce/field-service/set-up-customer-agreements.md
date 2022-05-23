@@ -305,7 +305,7 @@ In Field Service settings, there are important defaults you can set for agreemen
 ### Multiple incidents vs multiple recurrences
 As agreement work increases, you will have to decide whether to add multiple agreement incidents to a single recurrence or to add multiple recurrences, each with one or more incidents. Here are a few things to consider:
 
-- *Who will perform the work order(s)?*: A single recurrence will create a single work order, whereas multiple recurrences will create multiple work orders, and work orders are generally performed by a single person. If you envision the agreement work being completed by a single person, then using a single recurrence may be better. One workaround is to use incident types with [requirement group templates](/multi-resource-scheduling-requirement-groups.md) that help schedule single work orders to multiple resources.
+- *Who will perform the work order(s)?*: A single recurrence will create a single work order, whereas multiple recurrences will create multiple work orders, and work orders are generally performed by a single person. If you envision the agreement work being completed by a single person, then using a single recurrence may be better. One workaround is to use incident types with [requirement group templates](/dynamics365/field-service/multi-resource-scheduling-requirement-groups) that help schedule single work orders to multiple resources.
 
 - *Travel*: If multiple recurrences create multiple work orders, then this may create more trips and more travel.
 
