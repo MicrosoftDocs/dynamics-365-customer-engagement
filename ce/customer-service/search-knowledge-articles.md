@@ -17,9 +17,15 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Search for knowledge articles in Customer Service workspace
+# Search for knowledge articles
 
 You can search for knowledge articles through Customer Service workspace or Customer Service Hub.
+
+In the Customer Service Hub app, **Knowledge Search** lets you search for relevant knowledge articles to resolve a case. To search for knowledge articles in a case form, select the Knowledge Base Search search box in the Knowledge Base Search control of the Related section.
+
+The search results are automatically populated based on a field your administrator configured in the Knowledge Base Search control properties. Out of the box, for a case, this is the title of the case record.
+
+For more information, see Knowledge Base Search control.
 
 In Customer Service workspace, knowledge base search lets you search for relevant knowledge articles to resolve a case. The knowledge area is available on the productivity pane.
 
@@ -29,7 +35,7 @@ In Customer Service workspace, knowledge base search lets you search for relevan
 - The anchor tab should be a case or conversation for the knowledge search pane to be displayed.
 - Dataverse search must be enabled.
 
-The knowledge base search uses the dataverse search mechanism in the knowledge base search control area. More information: [Knowledge base search control powered by Dataverse search](search-knowledge-articles-csh.md#knowledge-base-search-control-powered-by-dataverse-search). Before you begin using dataverse search, your administrator must configure certain view columns in the Quick Find view columns list. More information: [Before you begin using Dataverse Search](search-knowledge-articles-csh.md#before-you-begin-using-dataverse-search).
+The knowledge base search uses the Dataverse search mechanism in the knowledge base search control area. More information: [Knowledge base search control powered by Dataverse search](search-knowledge-articles-csh.md#knowledge-base-search-control-powered-by-dataverse-search). Before you begin using Dataverse search, your administrator must configure certain view columns in the Quick Find view columns list. More information: [Before you begin using Dataverse Search](search-knowledge-articles-csh.md#before-you-begin-using-dataverse-search).
 
 ## Use the knowledge search pane to search articles
 
