@@ -10,7 +10,7 @@ manager: shujoshi
 
 # Provide consent to collect data from Microsoft 365  
 
-Dynamics 365 Sales uses Microsoft 365 data for generating the following insights:
+Dynamics 365 Sales uses Microsoft 365 data to generate the following insights:
 
 - Relationship analytics KPIs and health score
 - Who knows whom suggestions
@@ -18,14 +18,14 @@ Dynamics 365 Sales uses Microsoft 365 data for generating the following insights
 Previously, the consent for these capabilities were provided from **Microsoft 365 admin center** > **Settings** > **Org settings** > **Dynamics 365 Sales Insights - Analytics** and **Dynamics 365 Sales Insights - Connection graph** respectively. The consent to use office data is now consolidated and is applicable for all Dynamics 365 applications.  
    
 > [!IMPORTANT]
-> The consent provided in **Dynamics 365 Sales Insights - Analytics** is valid until September 2022. After that, you'll need to provide consent as described in this article. We recommend that you provide consent as early as possible to avoid any loss of functionality.
+> The consent provided for relationship analytics in **Dynamics 365 Sales Insights - Analytics** is valid until September 2022. After that, you'll need to provide consent as described in this article. We recommend that you provide consent as early as possible to avoid any loss of functionality.
 
-The Relationship analytics and who knows whom capabilities in Dynamics 365 Sales include insights based on email interactions and meetings from Exchange Online. 
+The relationship analytics and who knows whom capabilities in Dynamics 365 Sales include insights based on email interactions and meetings from Exchange Online. 
 
 To enable Dynamics 365 to collect information from your organization's Exchange server, your Microsoft 365 administrator must provide consent to use Exchange data.  
 
 > [!NOTE]
-> When the consent is provided, Dynamics 365 analyzes Exchange emails pertaining to last one year.  
+> When consent is provided, Dynamics 365 analyzes Exchange emails from the last one year.  
 
 If you're Microsoft 365 administrator, here's how you provide consent:
 

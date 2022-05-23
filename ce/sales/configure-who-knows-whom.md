@@ -12,10 +12,10 @@ manager: shujoshi
 Configure who knows whom to select a customized email template for sending introduction emails.
 
 >[!NOTE]
->- To know whether the Who knows whom feature is available in your region, see [In which region are the features available?](faqs-sales-insights.md#in-which-region-are-the-features-available).
+>- To know whether the who knows whom feature is available in your region, see [In which region are the features available?](faqs-sales-insights.md#in-which-region-are-the-features-available).
 >- For Office 365 data, your organization's data location must be in one of the following locations and not in your region-specific datacenter location:
 >    - Global Geography 1 – EMEA (Austria, Finland, France, Ireland, Netherlands)
->    - Global Geography 2 – Asia Pacific (Hong Kong, Japan, Malaysia, Singapore, South Korea).
+>    - Global Geography 2 – Asia Pacific (Hong Kong SAR, Japan, Malaysia, Singapore, South Korea).
 >    - Global Geography 3 – Americas (Brazil, Chile, United States).    
 > To learn more on data center locations, see [Data Center Locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations&preserve-view=true).
 
@@ -34,13 +34,13 @@ Configure who knows whom to select a customized email template for sending intro
    
 3.  Under **Relationship insights**, select **Who Knows Whom**.
 
-5.  Select the email template to use when a seller wants to contact a colleague to get introduced to a lead or contact. By default, the who knows whom introduction emails template is selected.
+5.  Select the email template to use when a seller wants to contact a colleague to get introduced to a lead or contact. 
     
-    The following screenshot shows an example introduction email:
+    The following screenshot shows an example introduction email using the default email template:
 
     :::image type="content" source="media/wkw_mail_to_introduction.png" alt-text="Screenshot of an example introduction email":::
     > [!NOTE]
-    > For instructions on creating a new email template, go to [Create email templates](/powerapps/user/email-template-create) 
+    > For instructions on creating a new email template, go to [Create email templates](/powerapps/user/email-template-create).  
 
 6. Save the changes.
 
@@ -48,10 +48,6 @@ Configure who knows whom to select a customized email template for sending intro
 ## Next steps
 
 - Work with your Microsoft 365 admin to [provide consent](provide-consent-office365.md) to use Exchange data.
-
-    > [!NOTE]
-    > Until the consent is provided, a banner is displayed on the **Overview** page to notify the pending action.
-    > :::image type="content" source="media/enable-ri-overview-banner.png" alt-text="A screenshot highlighting the message banner when the consent isn't provided":::
 
 - [Add the who knows whom widget to custom forms](add-ri-widgets-to-custom-form.md) if your organization is using a custom sales app or a custom form for lead or contact.
 

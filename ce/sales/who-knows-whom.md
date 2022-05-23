@@ -1,5 +1,5 @@
 ---
-title: "Who Knows Whom in Dynamics 365 Sales"
+title: "Who knows whom in Dynamics 365 Sales"
 description: "Use who knows whom to quickly identify colleagues within your organization who can introduce you to a lead or contact."
 ms.date: 10/31/2018
 ms.topic: article
@@ -20,17 +20,17 @@ Use who knows whom to quickly identify colleagues within your organization who c
 
 ## What is who knows whom?
 
-As a sales representative, you will interact with leads who you have never met or talked. So, it can be difficult to turn these interactions into positive outcomes. To help in these situations, Dynamics 365 Sales provides a feature known as **Who Knows Whom**. This feature provides you with details such as names and email addresses of your colleagues who know the lead. With these details, you can contact your colleagues for help with getting introduced to a lead. Such introduction can increase the chances of a positive outcome during the interaction.
+As a sales representative, you will interact with leads who you've never talked to or even met before. It can be difficult to turn these interactions into positive outcomes. To help in these situations, Dynamics 365 Sales provides a feature known as **Who knows whom**. This feature provides you with details such as names and email addresses of your colleagues who know the lead. With these details, you can contact your colleagues for help with getting introduced to a lead. Such introductions can increase the chances of a positive outcome during the interaction.
 
-Who knows Whom relationships are calculated from the communication and collaboration patterns of users in your Microsoft Exchange environment. This data helps connect you to others users within your Microsoft Exchange environment that can help facilitate a connection. Contacts or leads that are external to your Microsoft Exchange organization can be queried for and, in some cases, users internal to your Microsoft Exchange organization can also be queried for. For example, this is possible if a user within your Microsoft Exchange organization has added an internal user’s email address to their Microsoft Exchange address book.
+Who knows whom relationships are calculated from the communication and collaboration patterns of users in your Microsoft Exchange environment. This data helps connect you to others users within your Microsoft Exchange environment who can help make a connection. Contacts or leads who are outside of your Microsoft Exchange organization can be queried for and, in some cases, users internal to your Microsoft Exchange organization can also be queried for. For example, this is possible if a user within your Microsoft Exchange organization has added an internal user’s email address to their Microsoft Exchange address book.
 
-Who Knows Whom is available in **Contact** and **Lead** forms. When you open a lead or contact and select the **Sales Insights** view, the **Who Knows Whom** tile is displayed.  
+Who knows whom is available in **Contact** and **Lead** forms. When you open a lead or contact and select the **Sales Insights** view, the **Who Knows Whom** tile is displayed.  
 
 > [!NOTE]
-> If you do not see the **Who Knows Whom** tile in the **Sales Insights** view of a contact or lead, contact your administrator to enable this feature. To learn more, see [Configure Who knows whom](configure-who-knows-whom.md).
+> If you don't see the **Who Knows Whom** tile in the **Sales Insights** view of a contact or lead, ask your admin to enable this feature. To learn more, see [Configure who knows whom](configure-who-knows-whom.md).
 
 > [!div class="mx-imgBorder"]
-> ![Who Knows Whom widget](media/wkw-widget.png "Who knows whom widget")
+> ![Who knows whom widget](media/wkw-widget.png "Who knows whom widget")
 
 1. **Contacts who know the lead.** These contacts are the people in your organization who have communicated with the lead through calls and emails. A maximum of five contacts are displayed for a lead. These contacts are displayed based on the most communication with the lead.
 
@@ -44,7 +44,7 @@ Who Knows Whom is available in **Contact** and **Lead** forms. When you open a l
       1. Strength of the connection
       2. Contact details
   
-    To get introduced to the lead, you can send an email to the selected contact without leaving the page you are on. Select **Get Introduced**. This opens an email with a default request to introduce the lead. Select **Send** to send the email. If you want to customize the email with more options, select **Open Email Form**.
+    To get introduced to the lead, you can send an email to the selected contact without leaving the page you're on. Select **Get Introduced**. This opens an email with a default request to introduce the lead. Select **Send** to send the email. If you want to customize the email with more options, select **Open Email Form**.
 
     > [!div class="mx-imgBorder"]
     > ![Email with default message](media/wkw_mail_to_introduction.png "Email with default message")
@@ -54,20 +54,20 @@ Who Knows Whom is available in **Contact** and **Lead** forms. When you open a l
     > [!div class="mx-imgBorder"]
     > ![Connection details in list view](media/wkw_list_view.png "Connection details in list view")<br>
 
-Let’s look at an example. Blaine Carmack is a sales representative who sells coffee makers. He has a new lead, Yvonne McKay, who owns Fourth Coffee and has opened a new store. Blaine wants to sell coffee machines to Yvonne, but he has not met or spoken to her. Before Blaine makes a call to Yvonne, he wants to know if any of his colleagues know her so that they could introduce him to increase the positive outcome of the call. Blaine performs the following steps:
+Let’s look at an example. Blaine Carmack is a sales representative who sells coffee makers. He has a new lead, Yvonne McKay, who owns Fourth Coffee and has opened a new store. Blaine wants to sell coffee machines to Yvonne, but he has not met or spoken to her. Before Blaine makes a call to Yvonne, he wants to know if any of his colleagues know her so that they could introduce him to increase the positive outcome of the call. Blaine will perform the following steps:
 
 1.	Open the Sales app and go to the **My Open Leads** view.
 2.	Open the lead **Yvonne McKay** with the topic **New store opened this year - follow up**. <br>
     The summary of the lead displays.
-3.	Select the **Lead:Sales Insights** view from the view dropdown.
+3.	Select the **Lead:Sales Insights** view from the view dropdown list.
 
     > [!div class="mx-imgBorder"]
-    > ![Select Who Knows Whom view](media/wkw_select_view.png "Select who knows whom view")
+    > ![Select Who Knows Whom view](media/wkw_select_view.png "Select Who Knows Whom view")
 
-    The **Who Knows Whom** tile is displayed as shown next.
+    The **Who Knows Whom** tile is displayed.
 
     > [!div class="mx-imgBorder"]
-    > ![Who Knows Whom view](media/who_knows_whom.png "Who knows whom view")
+    > ![Who Knows Whom view](media/who_knows_whom.png "Who Knows Whom view")
 
 4.  Select each contact to view the details and verify the connection strength to increase the chances of an introduction to the lead. Here, Tricia Potter has a better chance to introduce Yvonne McKay because of her strong connection strength.
 
@@ -104,7 +104,7 @@ As a user, you can always choose to opt out if you don't want Dynamics 365 Sales
 3. In the **Services** section, select the arrow next to **Dynamics 365 applications**.  
 
     > [!div class="mx-imgBorder"]
-    > ![Expand the Dynamics 365 applications option](media/sales-insights-addon-o365-expand-connection-graph-settings.png "A screenshot of the **Dynamics 365 applications** option")
+    > ![Expand the Dynamics 365 applications option](media/sales-insights-addon-o365-expand-connection-graph-settings.png "A screenshot of the Dynamics 365 applications option")
 
 4. Turn off the **Include my data in Dynamics 365 applications** toggle.
 

@@ -11,7 +11,7 @@ manager: shujoshi
 
 # Configure relationship analytics and health
 
-Configure relationship analytics to specify whether you want to use Exchange data for comprehensive insights or use insights generated from Dynamics 365 data. You can also configure parameters that would determine the health of customer relationship.  
+Configure relationship analytics to specify whether you want to use Exchange data for comprehensive insights or use insights generated from Dynamics 365 data. You can also configure parameters that would determine the customer relationship health.  
 
 ## License and role requirements
 | Requirement type | You must have |
@@ -30,9 +30,9 @@ Configure relationship analytics to specify whether you want to use Exchange dat
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**. 
    
 3. Under **Relationship insights**, select **Analytics and Health**.
-    When you enable the relationship analytics feature, exchange integration is automatically enabled. However, your Microsoft 365 admin must provide consent for Dynamics 365 to collect the data.  
+    When you enable the relationship analytics feature, exchange integration is also automatically enabled. However, the integration won't work until your Microsoft 365 admin provides consent for Dynamics 365 to collect the data.  
 
-1. (Optional)Under **Data Sources**, turn off **Exchange Online** if you don't want to include emails and meetings from Exchange Online in KPI calculations and analytics. In this case, the analytics will be based on Dynamics 365 data.
+1. (Optional)Under **Data Sources**, turn off **Exchange Online** if you don't want to include emails and meetings from Exchange Online in KPI calculations and analytics. In this case,  relationship analytics will be generated based on Dynamics 365 data.
 
     :::image type="content" source="./media/si-admin-relationship-analytics-enable-in-organization.png" alt-text="A screenshot of the Relationship analytics and health settings page.":::
 
@@ -41,7 +41,7 @@ Configure relationship analytics to specify whether you want to use Exchange dat
     >[!NOTE]
     >You can turn off this option if you don't want to show the score. However, relevant health data is still collected.
 
-    :::image type="content" source="./media/relationship-analytics-relationship-health-enable.png" alt-text="A screenshot of the Relationship analytics and health settings page, with the Relationship Health option shown.":::
+    :::image type="content" source="./media/relationship-analytics-relationship-health-enable.png" alt-text="A screenshot of the Relationship Health option in the Relationship analytics and health settings page.":::
 
 1. Under **Activity influence**, adjust the sliders according to the relative importance of common activities in calculating the relationship health score.  
 
@@ -67,10 +67,6 @@ Configure relationship analytics to specify whether you want to use Exchange dat
 ## Next steps
 
 - Work with your Microsoft 365 admin to [provide consent](provide-consent-office365.md) to use Exchange data.
-
-    > [!NOTE]
-    > Until the consent is provided, a banner is displayed on the **Overview** page to notify the pending action.
-    > :::image type="content" source="media/enable-ri-overview-banner.png" alt-text="A screenshot highlighting the message banner when the consent isn't provided":::
 
 - [Add the health score widget to custom forms](add-ri-widgets-to-custom-form.md) if your organization is using a custom sales app or a custom form for lead or contact.
 
