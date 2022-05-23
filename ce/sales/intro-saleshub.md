@@ -48,7 +48,7 @@ Sales Hub is a Microsoft first-party app that's designed for ideal seller experi
 
 - Access preview features with minimal setup.
 
-- Access premium features, for a specific period, when they're made available (Sales Enterprise users only).
+- Access premium features with a limited monthly capacity (Sales Enterprise users only). More information: [Digital selling capabilities in Sales Enterprise](digital-selling.md) 
 
 - Customize the app and configure features as required.
 
