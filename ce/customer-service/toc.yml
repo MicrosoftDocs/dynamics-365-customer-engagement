@@ -529,21 +529,21 @@
       - name: Share and update Dynamics 365 records within Microsoft Teams conversation
         items:
         - name: Overview
-          href: /sales/teams-integration/share-d365-record-overview?context=/dynamics365/context/customer-service-context.md
+          href: /dynamics365/sales/teams-integration/share-d365-record-overview?context=/dynamics365/context/customer-service-context.md
         - name: Work with the Dynamics 365 app
           items:
           - name: Access the Dynamics 365 app through messaging extensions
-            href: /sales/teams-integration/access-d365-app?context=/dynamics365/context/customer-service-context.md
+            href: /dynamics365/sales/teams-integration/access-d365-app?context=/dynamics365/context/customer-service-context.md
           - name: Edit settings of the Dynamics 365 app
-            href: /sales/teams-integration/edit-d365-app?context=/dynamics365/context/customer-service-context.md
+            href: /dynamics365/sales/teams-integration/edit-d365-app?context=/dynamics365/context/customer-service-context.md
           - name: Share feedback
-            href: /sales/teams-integration/share-feedback-d365-app?context=/dynamics365/context/customer-service-context.md
+            href: /dynamics365/sales/teams-integration/share-feedback-d365-app?context=/dynamics365/context/customer-service-context.md
           - name: Share a record in Teams conversation
-            href: /sales/teams-integration/share-dynamics-records-in-teams?context=/dynamics365/context/customer-service-context.md
+            href: /dynamics365/sales/teams-integration/share-dynamics-records-in-teams?context=/dynamics365/context/customer-service-context.md
           - name: View and update record details
-            href: /sales/teams-integration/view-update-dynamics-records?context=/dynamics365/context/customer-service-context.md
+            href: /dynamics365/sales/teams-integration/view-update-dynamics-records?context=/dynamics365/context/customer-service-context.md
           - name: Add chat messages to Dynamics 365 as notes or tasks
-            href: /sales/teams-integration/add-chat-d365?context=/dynamics365/context/customer-service-context.md
+            href: /dynamics365/sales/teams-integration/add-chat-d365?context=/dynamics365/context/customer-service-context.md
   - name: Voice
     items:
     - name: Introduction to the voice channel
