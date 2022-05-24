@@ -1,7 +1,7 @@
 ---
 title: "Uninstall Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to uninstall Dynamics 365 Field Service 
-ms.date: 03/29/2022
+ms.date: 05/23/2022
 ms.reviewer: krbjoran
 
 ms.topic: article
@@ -49,18 +49,19 @@ To uninstall Field Service, administrators can go to **Settings** > **Solutions*
 | 22    | msdyn_FieldService_patch_xx          | Patch name or number may vary                             |
 | 23    | FieldService                         |                                                           |
 | 24    | msdyn_Inspections                    |                                                           |
-| 25    | FieldServiceCommon                   | Required for DualWrite (with Dynamics 365 Finance or Dynamics 365 Supply Chain Management)  |
-| 26    | msdyn_AssetCommon                    | Required for DualWrite (with Dynamics 365 Finance or Dynamics 365 Supply Chain Management)              |
-| 27    | msdyn_TESA_Anchor                    | Required for Project Service Automation       |
-| 28    | msdyn_TESA_Patch                     | Required for Project Service Automation       |
-| 29    | msdyn_TESA                           | Required for Project Service Automation       |
-| 30    | ResourceSchedulingControls           | Required for Project Service Automation                   |
-| 31    | msdyn_FieldServiceSurveys            |                                                           |
-| 32    | MicrosoftDynamicsScheduling_Anchor   | Required for Project Service Automation                   |
-| 33    |	MicrosoftDynamicsScheduling3_CumulativePatch | Required for Project Service Automation           |
-| 34    | MicrosoftDynamicsScheduling_Patch_xx | Required for Project Service Automation                   |
-| 35    | MicrosoftDynamicsScheduling          | Required for Project Service Automation                   |
-| 36    | msdynce_3DViewer                     |                                                           |
+| 25    | msdyn_FieldServiceSurveys            |                                                           |
+| 26    | FieldServiceCommon                   | Required for DualWrite (with Dynamics 365 Finance or Dynamics 365 Supply Chain Management)  |
+| 27    | msdyn_AssetCommon                    | Required for DualWrite (with Dynamics 365 Finance or Dynamics 365 Supply Chain Management)              |
+| 28    | msdyn_TESA_Anchor                    | Required for Project Service Automation       |
+| 29    | msdyn_TESA_Patch                     | Required for Project Service Automation       |
+| 30    | msdyn_TESA                           | Required for Project Service Automation       |
+| 31    | ResourceSchedulingControls           | Required for Project Service Automation                   |
+| 32    | msdyn_FieldServiceSurveys            |                                                           |
+| 33    | MicrosoftDynamicsScheduling_Anchor   | Required for Project Service Automation                   |
+| 34    |	MicrosoftDynamicsScheduling3_CumulativePatch | Required for Project Service Automation           |
+| 35    | MicrosoftDynamicsScheduling_Patch_xx | Required for Project Service Automation                   |
+| 36    | MicrosoftDynamicsScheduling          | Required for Project Service Automation                   |
+| 37    | msdynce_3DViewer                     |                                                           |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
