@@ -127,7 +127,7 @@ If your administrator hasn't assigned any of the above rights to you or your rol
 
 ## Use suggested contacts
 
-The suggested contacts list displays users who are connected or have interacted with the record. Suggested contacts might include a team admin or members who've logged an activity in the record timeline, and so forth. There are two different types of suggestions: AI-based and rules-based. For more information, see [Use suggested contacts to collaborate with the right coworkers](/teams-use-suggested-contacts.md).
+The suggested contacts list displays users who are connected or have interacted with the record. Suggested contacts might include a team admin or members who've logged an activity in the record timeline, and so forth. There are two different types of suggestions: AI-based and rules-based. For more information, see [Use suggested contacts to collaborate with the right coworkers](/dynamics365/customer-service/teams-use-suggested-contacts).
 
 ## Link a Teams channel to a record
 
