@@ -21,7 +21,7 @@ Dynamics 365 Customer Service workspace provides a modern customer service exper
 
 - Modernize your customer service with cloud-based workspace for faster deployment.
 - Focus on your business processes rather than managing the Dynamics 365 Unified Service Desk client desktop.
-- Connect with your customers with simplified channel integration for enhanced omnichannel experiences.
+- Connect with your customers with simplified channel integration for enhanced omnichannel experience.
 - Personalize your customer experience using AI.
 - Enhance collaboration with native Microsoft Teams integration.
 
