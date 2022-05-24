@@ -14,13 +14,14 @@ ms.custom: template-how-to
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
+<!---
 ## Introduction
 
 *Azure Communication Services integrates with Azure Event Grid to send real-time event notifications for chat, telephony, SMS, video, and voice-calling events. The Azure Event grid uses event subscriptions to route event messages to subscribers. So, to enable voice calling and SMS services, you must configure your applications to listen to Azure Communication Services events by registering event grid system topics. More information: [System topics in Azure Event Grid](/azure/event-grid/system-topics)*
 
 This topic explains how to create, deploy, and register event grid system topics for an existing Azure resource.
+--->
 
-## Create, deploy, and register event grid system topics
 
 <!---**To create, deploy, and register event grid system topics**
 
@@ -35,6 +36,8 @@ This topic explains how to create, deploy, and register event grid system topics
     > ![Create event grid system topic.](./media/voice-channel-create-event-grid-system-topic.png "Create event grid system topic.")
 3. Select **Review + create**. The system topic is validated and deployed.  
 --->
+## Create, deploy, and register event grid system topics
+
 1. Open the Azure portal in a separate window or tab, and then open the **Event Grid System Topics** service.
 1. [Create and deploy an event grid system topic](/azure/event-grid/create-view-manage-system-topics#create-a-system-topic).
 1. On the **Event Grid System Topic** page that's created, select the **Subscription** link.
