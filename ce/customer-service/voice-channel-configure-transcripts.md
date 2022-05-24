@@ -1,10 +1,10 @@
 ---
 title: "Configure call recordings and transcripts in the voice channel administrator dashboard | MicrosoftDocs"
-description: "Learn how to configure call recordings and transcripts in the voice channel for Omnichannel for Customer Service."
+description: "Learn how to configure call recordings and transcripts in the voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/06/2022
+ms.date: 05/19/2022
 ms.topic: article
 
 ---
@@ -12,7 +12,6 @@ ms.topic: article
 # Configure call recordings and transcripts in the voice channel
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
 
 As an administrator, you can enable live transcription and recording of calls, which allows agents and supervisors to view transcripts of customer calls.
 
@@ -29,13 +28,13 @@ As an administrator, you can enable live transcription and recording of calls, w
    > [!div class="mx-imgBorder"]
    > ![Screenshot of Behaviors tab on the Voice settings page.](./media/voice-channel-recording-number.png)
 
-1. In the **Transcription and recording** section, select the **Transcript and recording** dropdown menu, select **Transcription** or **Transcription and recording**, depending on your preference.
+1. In the **Transcription and recording** section, select the **Transcript and recording** dropdown menu, select **Transcription** or **Transcription and recording**.
 
-1. Under **Start setting**, set the toggle to **Automatic** if you want calls to be automatically recorded and transcribed when they begin, or **Manual** if you want to allow agents to choose when they start recording and transcribing their calls.
+2. Under **Start setting**, set the toggle to **Automatic** if you want calls to be automatically recorded and transcribed when they begin, or **Manual** if you want agents to record and transcribe their calls.
 
-1. Set **Allow agents to pause and resume** if you want to allow agents to control the portions of conversations that they record and transcribe.
+3. Set **Allow agents to pause and resume** if you want to allow agents to control the portions of conversations that they record and transcribe.
 
-1. Select **Save**.
+4. Select **Save**.
 
 ## View call transcripts
 
@@ -64,7 +63,7 @@ You can view the call transcriptions in  Customer Service admin center or Omnich
 
 The maximum file size of a recording can be 512 MB. The voice recordings and transcripts data resides in the following locations:
 
-- **Data at rest**: Is stored wherever your Dynamics instance is located.
+- **Data at rest**: Is stored in Dataverse wherever your Dynamics instance is located.
 - **Data in transit**: For components within the Microsoft stack, we strive to ensure that data doesn’t cross geographical boundaries during transit. The bring your own carrier model has dependencies on third parties, and therefore, data needs to be reviewed end to end and will include components outside the Microsoft stack.
 
 The data storage costs with two participants only is calculated approximately as follows and the cost can fluctuate:

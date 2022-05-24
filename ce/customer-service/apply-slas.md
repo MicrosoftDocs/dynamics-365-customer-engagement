@@ -1,7 +1,7 @@
 ---
 title: "Apply SLAs | MicrosoftDocs"
 description: "Learn how to apply service-level agreements in Dynamics 365 Customer Service."
-ms.date: 05/11/2022
+ms.date: 05/19/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -23,7 +23,7 @@ ms.custom:
 You can apply service-level agreements (SLAs) to a case or an SLA-enabled entity record in one of the following ways:
 
 - By updating the SLA information automatically through a workflow, Power Automate flow, or custom plug-in written for the entity.
-- Through the entitlement associated with the case entity record. This isn't applicable for other SLA-enabled entities.
+- Through the entitlement associated with the case entity record. (This isn't applicable for other SLA-enabled entities.)
 - By setting a particular SLA as the default SLA.
 - Manually applying SLAs to records.
 
@@ -35,15 +35,13 @@ In Unified Interface, by default, when the SLA moves to a terminal status (non-c
 
 > [!NOTE]
 >
-> Only one SLA can be applied to one record. When an entity record is updated by using a different SLA, the previously applied SLA is canceled.  
+> Only one SLA can be applied to a record. When an entity record is updated by using a different SLA, the previously applied SLA is canceled.  
 
 ## Apply SLAs automatically
 
-You can automatically apply SLAs to records based on your business logic by using workflows, Power Automate flows or custom plug-ins.
+You can automatically apply SLAs to records based on your business logic by using workflows, Power Automate flows, or custom plug-ins. For example, if your customers are spread across different countries or regions, you can have multiple SLAs with different business hours and holiday schedules. You can set up business logic to apply SLAs on case records based on the customer's country or region, to make sure that the SLA time calculation is done correctly.  
 
-For example, if your customers are spread across different countries or regions, you can have multiple SLAs with different business hours and holiday schedules. You can set up business logic to apply SLAs on case records based on the customer's country or region, to make sure that the SLA time calculation is done correctly.  
-
-To create workflows so that SLAs will be automatically applied, talk to your customer service managers, administrator, or customizer. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and edit workflow processes](../customerengagement/on-premises/customize/workflow-processes.md)
+To create workflows so that SLAs will be automatically applied, talk to your customer service managers, administrator, or customizer. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Overview of using workflow processes](../customerengagement/on-premises/customize/workflow-processes.md)
 
 You can also use the Power Automate flow portal to update the SLA. Currently the flow expects a GUID of the SLA record. More information: [Create your first flow](/power-automate/getting-started#create-your-first-flow)
 
@@ -68,7 +66,7 @@ You can apply a default SLA in the Customer Service admin center or Customer Ser
 
     ### [Customer Service Hub](#tab/customerservicehub)
 
-      * In the site map, go to **Service Management**, and select **Service Level Agreements** in **Service Terms**.
+      * In the site map, go to **Service Management** and select **Service Level Agreements** in **Service Terms**.
 
 ---
 
@@ -76,7 +74,7 @@ You can apply a default SLA in the Customer Service admin center or Customer Ser
 
 ## Apply SLAs manually
 
-To apply SLAs to records manually, select the SLA in the SLA field. This field isn't available by default on entity forms, so you will need to ask your system administrator to add it.
+To apply SLAs to records manually, select the SLA in the SLA field. This field isn't available by default on entity forms, so you'll need to ask your system administrator to add it.
 
 While applying the SLA, the application first looks for automatically applied SLAs, followed by SLAs applied through entitlement. If there aren't any, the application looks for the SLA that's set as default.
 

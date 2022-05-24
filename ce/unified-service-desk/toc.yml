@@ -619,8 +619,8 @@
       href: oc-usd/create-personal-quick-replies-usd.md
     - name: View call scripts, take notes, and search knowledge articles 
       href: oc-usd/right-control-panel.md
-    - name: Understand conversation states 
-      href: oc-usd/conversation-state.md
+    - name: Understand conversation states in Omnichannel for Customer Service
+      href: /dynamics365/customer-service/oc-conversation-state?context=/dynamics365/context/unified-service-desk-context
     - name: View Omnichannel conversation and Omnichannel session in Model-driven apps 
       href: oc-usd/view-omnichannel-conversation-session.md
     - name: View customer summary for an incoming conversation request 

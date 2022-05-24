@@ -31,7 +31,7 @@ The following prerequisites must be met for the Power Virtual Agents bot:
 
 - The bot is published, and the **Agent transfers** setting is configured by selecting **Omnichannel**. More information: [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/power-virtual-agents/configuration-hand-off-omnichannel)
 - The **Enable voice** option is selected in the **Omnichannel** section of the **Agent transfers** setting.
-- Install the following extensions for voice hand-off in the specified order:
+- Manually install the following extensions for voice hand-off in the specified order if they aren't installed:
    1. [Power Virtual Agents telephony extension](https://appsource.microsoft.com/product/dynamics-365/mscrm.mspva_telephony_extension)
    1. [Omnichannel Power Virtual Agent extension](https://appsource.microsoft.com/product/dynamics-365/mscrm.omnichannelpvaextension)
    1. [Omnichannel Voice Power Virtual Agent extension](https://appsource.microsoft.com/product/dynamics-365/mscrm.omnichannelvoicepvaextension)
@@ -42,14 +42,14 @@ The following prerequisites must be met for the Power Virtual Agents bot:
 
 1. In the Customer Service admin center or Omnichannel admin center app, go to the workstream that you created for the voice channel, and then in the **Bot section,** select **Add Bot**.
 
-
 1. On the **Add Bot** pane, select a bot from the **Name** box.
 
-   > ![Select a bot.](media/add-bot.png)
+   :::image type="content" source="media/add-bot.png" alt-text="Select a bot.":::
+
 
 1. Select **Save and close**. The bot is added to the workstream.
 
-   > ![Sample bot details.](media/bot-in-workstream.png)
+   :::image type="content" source="media/bot-in-workstream.png" alt-text="Sample bot details.":::
 
 More information:
 

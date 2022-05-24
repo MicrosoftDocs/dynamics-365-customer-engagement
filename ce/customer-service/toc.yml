@@ -336,8 +336,8 @@
         href: customer-service-hub-user-guide-resolve-cancel-reassign-a-case.md
       - name: Merge cases
         href: customer-service-hub-user-guide-merge-cases.md
-      - name: View, block, or deactivate a social profile
-        href: view-block-deactivate-social-profile.md
+      - name: View a social profile
+        href: view-social-profile.md
       - name: Convert a case to a knowledge article
         href: customer-service-hub-user-guide-convert-case-to-knowledge-article.md
       - name: View AI suggested similar cases and knowledge articles
@@ -418,6 +418,8 @@
       items:
       - name: Use email
         href: /power-apps/user/view-create-email?context=/dynamics365/context/customer-service-context
+      - name: Attach a file to email
+        href: /power-apps/user/attach-email?context=/dynamics365/context/customer-service-context
       - name: Email templates
         items: 
         - name: Create an email template
@@ -482,6 +484,10 @@
         href: search-knowledge-articles-csh.md
       - name: Understand how search works in knowledge management
         href: search-operators.md
+    - name: Self-service experience
+      items:
+      - name: Search the knowledge base on portals
+        href: knowledge-base-search-methods.md
     - name: Customization experience
       items: 
       - name: Add the knowledge base search control to forms
@@ -494,10 +500,6 @@
         href: create-knowledge-article-using-template.md
       - name: Extend transformer logic on templates
         href: extend-transformer-logic-template.md
-    - name: Self-service experience
-      items:
-      - name: Search the knowledge base on portals
-        href: knowledge-base-search-methods.md
   - name: Microsoft Teams for collaboration
     items:
     - name: Introduction to collaboration
@@ -510,6 +512,8 @@
         href: configure-teams-meetings.md
       - name: Configure AI suggestions for contacts in Teams
         href: configure-teams-collaboration.md
+      - name: Configure AI-generated conversation summary
+        href: cs-enable-ai-generated-summary.md
       - name: Configure customer support swarming
         href: configure-customer-support-swarming.md
     - name: Agent experience
@@ -522,26 +526,28 @@
         href: use-teams-meetings.md
       - name: Collaborate with AI-suggested contacts in Microsoft Teams
         href: use-ai-suggested-contacts-teams.md
+      - name: Use ai-generated summaries for ongoing conversations
+        href: cs-ai-generated-summary.md
       - name: Use customer support swarming to resolve issues
         href: use-customer-support-swarming.md
       - name: Share and update Dynamics 365 records within Microsoft Teams conversation
         items:
         - name: Overview
-          href: /sales/teams-integration/share-d365-record-overview?context=/dynamics365/context/customer-service-context.md
+          href: /dynamics365/sales/teams-integration/share-d365-record-overview?context=/dynamics365/context/customer-service-context
         - name: Work with the Dynamics 365 app
           items:
           - name: Access the Dynamics 365 app through messaging extensions
-            href: /sales/teams-integration/access-d365-app?context=/dynamics365/context/customer-service-context.md
+            href: /dynamics365/sales/teams-integration/access-d365-app?context=/dynamics365/context/customer-service-context
           - name: Edit settings of the Dynamics 365 app
-            href: /sales/teams-integration/edit-d365-app?context=/dynamics365/context/customer-service-context.md
+            href: /dynamics365/sales/teams-integration/edit-d365-app?context=/dynamics365/context/customer-service-context
           - name: Share feedback
-            href: /sales/teams-integration/share-feedback-d365-app?context=/dynamics365/context/customer-service-context.md
+            href: /dynamics365/sales/teams-integration/share-feedback-d365-app?context=/dynamics365/context/customer-service-context
           - name: Share a record in Teams conversation
-            href: /sales/teams-integration/share-dynamics-records-in-teams?context=/dynamics365/context/customer-service-context.md
+            href: /dynamics365/sales/teams-integration/share-dynamics-records-in-teams?context=/dynamics365/context/customer-service-context
           - name: View and update record details
-            href: /sales/teams-integration/view-update-dynamics-records?context=/dynamics365/context/customer-service-context.md
+            href: /dynamics365/sales/teams-integration/view-update-dynamics-records?context=/dynamics365/context/customer-service-context
           - name: Add chat messages to Dynamics 365 as notes or tasks
-            href: /sales/teams-integration/add-chat-d365?context=/dynamics365/context/customer-service-context.md
+            href: /dynamics365/sales/teams-integration/add-chat-d365?context=/dynamics365/context/customer-service-context
   - name: Voice
     items:
     - name: Introduction to the voice channel
