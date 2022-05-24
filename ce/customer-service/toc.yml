@@ -108,12 +108,16 @@
       href: add-users-assign-roles.md
   - name: App profile manager for Customer Service
     items: 
-    - name: Overview of app profile manager
+    - name: Overview of agent experience profiles
       href: ../app-profile-manager/overview.md
     - name: Roles and permissions
       href: ../app-profile-manager/security-roles.md
     - name: Create and use agent experience profiles
-      href: ../app-profile-manager/app-profile-manager.md
+      href: ../app-profile-manager/agent_experience_profile_create.md
+    - name: Experience for accessing templates and productivity tools
+      href: ../app-profile-manager/agent_profile_powerapp.md 
+    - name: Create and use app profiles in Power Apps
+      href: ../app-profile-manager/agent_experience_profile_create.md
     - name: Configure the inbox
       href: configure-inbox.md
     - name: Settings

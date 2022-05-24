@@ -36,7 +36,7 @@ Agent scripts reduce the human errors involved in the process, because agents kn
 
 ## Create agent scripts
 
-Create agent scripts in the Omnichannel admin center, Omnichannel Administration, or Customer Service Hub app. The following procedure is an example of an agent script for a chat session. You can modify the procedure for other types of sessions your agents are likely to come across.
+Create agent scripts in the Customer Service Admin Center, Omnichannel admin center, Omnichannel Administration, or Customer Service Hub app. The following procedure is an example of an agent script for a chat session. You can modify the procedure for other types of sessions your agents are likely to come across.
 
 1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083), and go to the app profile manager page.
 2. In the left pane, under **Productivity**, select **Agent scripts**. The Unified Interface page opens on a new tab.
@@ -57,7 +57,7 @@ Create agent scripts in the Omnichannel admin center, Omnichannel Administration
 6. In the **Agent script steps** section, select **New Agent script step**. **Quick Create: Agent script step** appears.
 
 7. Specify the following in the quick-create form.
-
+ 
     | Field | Description | Example Value |
     |--------------------|------------------------------|-------------------------------------------|
     | Name | Provide a name for the agent script step; this appears for the agent at runtime. You can use slugs for specifying the name of the step. To learn more, see [Slugs](automation-dictionary-keys.md#slugs-for-productivity-tools-macros-and-agent-scripts). | Example 1: Greet the customer. <br><br> Example 2: Hi {customer}  |
@@ -84,7 +84,19 @@ The agent script is now configured.
 
 After you configure the agent script and add the field to a form, you need to associate the agent script with a session template so that the agent script will load for agents based on the type of session they've opened.
 
-1. In the site map of Omnichannel admin center, select **Agent experience** under **Advanced settings**, and then select **Manage** for **Session templates**. If you are using the Omnichannel Administration app, under **Agent Experience**, select **Sessions**.
+
+1. Select one of the following tabs, and perform the steps.
+   
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+
+    In the site map, select **Session templates** in **Workspaces**.
+  
+
+ ### [Omnichannel Admin Ceneter](#tab/Omnichannel Admin Center)
+   
+   In the site map of Omnichannel admin center, select **Agent experience** under **Advanced settings**, and then select **Manage** for **Session templates**.
+
+ If you are using the Omnichannel Administration app, under **Agent Experience**, select **Sessions**.
 
 2. Select a template from the list for which you want to associate the template. For example, select the **Chat - Default Session** template.
 
@@ -111,7 +123,16 @@ Based on these conditions, when an agent accepts an incoming conversation, the a
 
 You can build the expression in the **Agent scripts** tab in the sessions template.
 
-1. In the site map of Omnichannel admin center, select **Agent experience** under **Advanced settings**, and then select **Manage** for **Session templates**. If you are using the Omnichannel Administration app, under **Agent Experience**, select **Sessions**.
+ ### [Customer Service admin center](#tab/customerserviceadmincenter)
+
+    In the site map, select **Session templates** in **Workspaces**.
+  
+
+ ### [Omnichannel Admin Ceneter](#tab/Omnichannel Admin Center)
+   
+   In the site map of Omnichannel admin center, select **Agent experience** under **Advanced settings**, and then select **Manage** for **Session templates**.
+
+ If you are using the Omnichannel Administration app, under **Agent Experience**, select **Sessions**.
 
 2. Go to the **Agent scripts** tab.
 
