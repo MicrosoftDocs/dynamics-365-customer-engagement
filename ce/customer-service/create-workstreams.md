@@ -157,9 +157,9 @@ When a work item needs to be assigned, the classification rules are run and the 
 
 ### Manage workstreams
 
-You can manage workstreams on the workstreams page in the Omnichannel admin center or Customer Service Hub app.
+You can manage workstreams on the workstreams page in any of the Customer Service admin apps.
 
-Select a workstream to perform any of the following actions:
+Select a workstream to perform any of the following actions.
 
 - **Edit**: Lets you edit the workstream, such as add a new channel or update the existing settings.
 - **Copy**: Lets you create a copy of the workstream with all the properties, such as the rules, so that you can reuse the configured workstream in another organization. The copied workstream name is prefixed with "Copy of "*`<workstream>`*.
@@ -168,13 +168,20 @@ Select a workstream to perform any of the following actions:
 
 ### Agent affinity
 
-When a conversation becomes active from the waiting status, it might not be assigned to the same agent who had previously handled it. You can use the **Keep same agent for entire conversation** option in the work distribution settings of the workstream to reassign the conversation to the agent who had worked on it earlier. This helps save the effort to reorient the agent or set the context about the customer issue again. Agent affinity works as follows:
+<!---
+
+When a conversation becomes active from the waiting status, it might not be assigned to the same agent who had previously handled it. You can use the **Keep same agent for entire conversation** option in the work distribution settings of the workstream to reassign the conversation to the agent who had worked on it earlier. This helps save the effort to reorient the agent or set the context about the customer issue again. 
+--->
+Agent affinity works as follows:
 
 - Is enabled by default for SMS, social channels, and Microsoft Teams.
 - Is available only for push type of work distribution.
 - Reassigns conversations to the same agent, irrespective of the agent's capacity and presence.
 
-Because the conversation assignment takes place using the notification alert, the agent has the option to reject the assignment.
+For live chat, when the state of the conversation changes from Active to Open, it will be reassigned to the same agent. 
+
+> [!Note]
+> The agent can choose to reject the assigned conversation via the notification pane.
 
 ### Associate templates
 
