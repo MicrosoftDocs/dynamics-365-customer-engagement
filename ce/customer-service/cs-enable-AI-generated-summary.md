@@ -1,10 +1,10 @@
 ---
 title: Configure AI-generated summary for customer service
 description: Add an AI-generated summary of an ongoing customer conversation in Dynamics 365 Customer Service.
-ms.date: 04/20/2022
+ms.date: 05/24/2022
 ms.topic: article
-author: mgandham
-ms.author: gandhamm
+author: gandhamm 
+ms.author: mgandham
 manager: shujoshi
 ---
 
