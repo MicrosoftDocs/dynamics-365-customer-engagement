@@ -1,7 +1,7 @@
 ---
 title: "Create workstreams in Customer Service | MicrosoftDocs"
-description: "Use this topic to understand how to create workstreams for unified routing in Customer Service and Omnichannel for Customer Service apps."
-ms.date: 04/04/2022
+description: "Use this article to understand how to create workstreams for unified routing in Customer Service and Omnichannel for Customer Service apps."
+ms.date: 05/25/2022
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -98,7 +98,6 @@ You can create workstreams for unified routing in the Customer Service admin cen
 > [!NOTE]
 > If asynchronous plug-ins are installed but disabled in your organization, ensure that you set the value of "DisabledForAsyncProcessing" to "No" to avoid issues when you're creating workstreams.
 
-
 ### Configure routing rules
 
 Routing rules for a workstream consist of work classification rules and route-to-queue rules. For the steps to configure routing rules, see the following:
@@ -108,7 +107,7 @@ Routing rules for a workstream consist of work classification rules and route-to
 
 ### Configure work distribution
 
-In the **Work distribution** area of a workstream, you can either accept the default settings or select **See more** and update the following options:
+In the **Work distribution** area of a workstream, you can either accept the default settings or select **See more** and update the following options.
 
 - **Auto-close after inactivity**: Select a time period after which inactive conversations will be moved to the closed state automatically. This option is available for only persistent chat, SMS, social, and Microsoft Teams channels.
  
