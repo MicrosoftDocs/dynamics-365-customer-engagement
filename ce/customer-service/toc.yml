@@ -114,12 +114,14 @@
       href: ../app-profile-manager/security-roles.md
     - name: Create and use agent experience profiles
       href: ../app-profile-manager/agent_experience_profile_create.md
-    - name: Experience for accessing templates and productivity tools
-      href: ../app-profile-manager/agent_profile_powerapp.md 
+    - name: Configure the inbox
+      href: configure-inbox.md      
+    - name: App profile manager
+      items:
+       - name: Experience for accessing templates and productivity tools
+         href: ../app-profile-manager/agent_profile_powerapp.md 
     - name: Create and use app profiles in Power Apps
       href: ../app-profile-manager/app-profile-manager.md
-    - name: Configure the inbox
-      href: configure-inbox.md
     - name: Settings
       href: ../app-profile-manager/settings.md
     - name: Templates
