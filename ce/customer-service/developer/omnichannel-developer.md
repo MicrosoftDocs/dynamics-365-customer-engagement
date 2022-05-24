@@ -1,6 +1,6 @@
 ---
 title: "Omnichannel for Customer Service for developers | MicrosoftDocs"
-description: "Developer guide for Omnichannel for Customer Service provides developers the information they need to get started with using the extensibility features"
+description: "Developer guide for Omnichannel for Customer Service provides developers the information they need to get started with using the extensibility features."
 ms.date: 05/24/2022
 ms.topic: article
 author: mh-jaya
@@ -13,13 +13,13 @@ manager: shujoshi
 
 ## Live chat widget SDK 
 
-Omnichannel for Customer Service live chat widget SDK provides methods that allow you to:
+Omnichannel for Customer Service live chat widget SDK provides methods that lets you do the following.
 - Set, retrieve, and remove custom context provider for a live chat session.
 - Open an existing chat or start a new one.
 - Set, retrieve, and remove authentication-token providers for a live chat session.
 
 [Start a chat](../initiate-chat-wait-time.md)<br />
-[Live chat SDK JavaScript API reference](omnichannel-reference.md)
+[Live chat SDK reference](omnichannel-reference.md)
 
 ## Start proactive chat 
 
