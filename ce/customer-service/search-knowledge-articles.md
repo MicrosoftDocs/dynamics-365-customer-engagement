@@ -23,21 +23,19 @@ You can search for knowledge articles through Customer Service workspace or Cust
 
 ## Prerequisites
 
-### Prerequisites for Customer Service workspace
+### Customer Service workspace
 
 - The productivity pane and knowledge search must be enabled in the app profile manager.
 - The anchor tab should be a case or conversation for the knowledge search pane to be displayed.
 - Dataverse search must be enabled.
 
-### Prerequisites for Customer Service Hub
+### Customer Service Hub
 
 Dataverse search must be enabled. The knowledge base search uses the Dataverse search mechanism in the knowledge base search control area. More information: [Knowledge base search control powered by Dataverse search](search-knowledge-articles-csh.md#knowledge-base-search-control-powered-by-dataverse-search). Before you begin using Dataverse search, your administrator must configure certain view columns in the Quick Find view columns list. More information: [Before you begin using Dataverse Search](search-knowledge-articles-csh.md#before-you-begin-using-dataverse-search).
 
 ## Use the independent knowledge base search
 
-In the Customer Service Hub site map, you can perform independent knowledge base searches outside of cases using the **Knowledge Search** option in **Knowledge**. This functionality performs like a knowledge search hub.
-
-Agents can do the following:
+In the Customer Service Hub site map, you can perform independent knowledge base searches outside of cases using the **Knowledge Search** option in the **Knowledge** area. This functionality performs like a knowledge search hub, where you can do the following:
 
 - View an article 
 - Send an article pop out 
@@ -128,13 +126,14 @@ In Customer Service workspace, select the **Smart assist** option on the product
 
 ## Use portal search
 
-Use the portal search to access information through simple queries.You can search for your knowledge articles by selecting Knowledge Base from your portal. More information: [Search the knowledge base on portals](knowledge-base-search-methods.md#search-the-knowledge-base-on-portals)
+Use the portal search to access information through simple queries. You can search for your knowledge articles by selecting Knowledge Base from your portal. More information: [Search the knowledge base on portals](knowledge-base-search-methods.md#search-the-knowledge-base-on-portals)
 
 ## How to refine your search
 
+
 ### View the knowledge article on the application tab
 
-In Customer Service workspace, select an article title to view the article on an application tab. You can view up to 10 articles on the application tab.
+In Customer Service workspace, select an article title to view the complete article on an application tab. You can view up to 10 articles on the application tab. 
 
 :::image type="content" source="media/csw-article-app-tab.png" alt-text="Knowledge article search pane":::
 
@@ -143,7 +142,7 @@ You can perform the following actions for the knowledge article:
 - Copy URL to copy the external URL of the article so you can share it with your customers over channels like chat or email.
 - Provide feedback by selecting the thumbs up or thumbs down icon.
   - Make sure that the knowledge article entity is enabled for feedback. To learn more, see [Enable an entity for feedback/ratings](/dynamics365/customer-engagement/customize/enable-entity-feedback).
-  - Customer service agents and customer service managers can create, or view feedback based on their role and privileges on feedback entity. Out of the box, customer service agents can create, view, or edit their own feedback only. Customer service managers or knowledge managers can view feedback submitted by all agents.
+  - Customer service agents (you) and customer service managers can create or view feedback based on your role and privileges on feedback entity. Out of the box, you can create, view, or edit your own feedback only. Customer service managers or knowledge managers can view feedback submitted by you.
 - When you select thumbs down, the **Comments** box to provide feedback appears. Optionally, provide additional information and reasons for the feedback.
 
 ### Filter knowledge articles
@@ -161,6 +160,29 @@ When you select the filter icon, you can see the **Filter by** menu where you ca
   | Modified On | <ul> <li> Last 7 days </li> <li> Last 30 days </li> <li> Last 6 months </li> <li> Last year </li> <li> All </li> </ul> |
   | Language | <ul> <li> List of languages </li> </ul> **Note:** The language list is based on the articles that are present in those languages. For example, there are a total of 50 articles in five different languages such as French, English, Japanese, Spanish, and Danish. The language filter will show only these five languages. |
   |||
+
+### Personalize your knowledge search article filters
+
+If your administrator has configured knowledge filter personalization settings, as an agent, you can select the filters you want to use.
+
+Agents can do the following:
+- Set preselects
+- Activate or deactivate a filter
+
+Only the filters that your administrator has configured are viewable. If your administrator deactivates a filter, that filter becomes invisible without notifying you. If you notice that a filter has suddenly disappeared, contact your administrator for assistance. If your administrator disables all filters, you won't see any filters, and a message will be displayed that says, "No filters have been configured. Contact your administrator."
+
+Any personalization you make to your filter selections will also be applicable to the form-based knowledge control and standalone knowledge base search page.
+
+If you deactivate a filter, it will appear as deactivated. If you reactivate the same filter later, the filter will keep its previous configuration.
+
+1. In **Customer Service Hub**, go to **Service** > **Knowledge** > **Knowledge Personalization**.
+2. For each filter value you want to change, select the ellipsis in the top-right corner, and then select **Preselects**.
+3. To make a filter value available by default, toggle the preset next to the filter to the right so that **Preselected** appears next to the filter name.
+4. When you are finished making your selections, select **Done** > **Save**.
+5. If you want to deactivate a filter, select the ellipsis in the top-right corner for the filter you want to stop using, and then select **Deactivate**.
+6. Select **Done** > **Save**.
+7. When you are ready to reactivate the filter, select the ellipsis again, and then select **Activate**.
+   All of the previous configurations will be reinstated.
 
 ### Sort knowledge articles
 
@@ -193,9 +215,17 @@ You can also share the knowledge article link or knowledge article content throu
 - **Email URL:** The new email form opens with the link to the article in the mailbox.
 - **Email Content:** The article content is populated in the mail body. The fields are automatically populated based on the case and customer details.
 
-Add other information as needed, and then on the command bar, select **Send**. Also, you can perform these actions for only published or expired articles.
+### Email the knowledge article
 
-## Linked knowledge articles subgrid
+Use the **Email** button to send the knowledge article via mail. When you select the **Email** button, first, the knowledge article is linked to the current case record. Simultaneously, an email form opens with the link to the article. The article content is populated in the email body. The fields are automatically populated based on the case and customer details. Add other information as needed, and then on the command bar, select **Send**.
+
+  > [!div class=mx-imgBorder]
+  > ![Email knowledge article.](media/km-email.png "Email knowledge article")
+
+
+You can perform these actions for only published or expired articles.
+
+### Linked knowledge articles subgrid
 
 The linked knowledge article subgrid is available for an entity, such as a case or account, only if your system administrator has added the subgrid to the entity form. The knowledge article subgrid displays the knowledge articles that have been linked with the entity. Some of the options available are as follows:
 
@@ -229,8 +259,6 @@ To link the knowledge article to an entity, you need to do the following steps. 
 
 6. Select **Done**. The article will appear in the **Linked Knowledge Articles** subgrid.
 
-
-
 ### Configure knowledge base article URLs
 
 Knowledge articles can be configured with their portal URLs, and then agents can copy and share the URL links.
@@ -263,61 +291,6 @@ You can configure a knowledge base article URL in the Customer Service admin cen
 
 The knowledge base article link is now active and can be copied and shared.
 
-### Personalize your knowledge search article filters
-
-If your administrator has configured knowledge filter personalization settings, as an agent, you can select the filters you want to use.
-
-Agents can do the following:
-- Set preselects
-- Activate or deactivate a filter
-
-Only the filters that your administrator has configured are viewable. If your administrator deactivates a filter, that filter becomes invisible without notifying you. If you notice that a filter has suddenly disappeared, contact your administrator for assistance. If your administrator disables all filters, you won't see any filters, and a message will be displayed that says, "No filters have been configured. Contact your administrator."
-
-Any personalization you make to your filter selections will also be applicable to the form-based knowledge control and standalone knowledge base search page.
-
-If you deactivate a filter, it will appear as deactivated. If you reactivate the same filter later, the filter will keep its previous configuration.
-
-1. In **Customer Service Hub**, go to **Service** > **Knowledge** > **Knowledge Personalization**.
-2. For each filter value you want to change, select the ellipsis in the top-right corner, and then select **Preselects**.
-3. To make a filter value available by default, toggle the preset next to the filter to the right so that **Preselected** appears next to the filter name.
-4. When you are finished making your selections, select **Done** > **Save**.
-5. If you want to deactivate a filter, select the ellipsis in the top-right corner for the filter you want to stop using, and then select **Deactivate**.
-6. Select **Done** > **Save**.
-7. When you are ready to reactivate the filter, select the ellipsis again, and then select **Activate**.
-   All of the previous configurations will be reinstated.
-
-### Sort knowledge articles
-
-The knowledge base search control provides the option to sort knowledge articles. Select the up-arrow icon to view the sorting options and select one of the options from the following:
-
-- Relevance
-- Number of views
-- Last modified date (newest first) 
-- Last modified date (oldest first)
-
-  > [!div class=mx-imgBorder]
-  > ![Knowledge article sort.](media/km-sort.png "Knowledge article sort")
-  
-
-### Link and unlink a knowledge article to a record
-
-When configured, you can link an article to a case. You can associate and dissociate the knowledge article with a record.
-
-  > [!div class=mx-imgBorder]
-  > ![Link to case.](media/knowledge-base-search-2.png "Link or unlink a knowledge article with a record")
-
-  
-1. In the top-right of the article, there's a link icon. 
-2. If linking is preconfigured, you can select the link icon and it will link the article to your case.
-3. Articles that are linked to a case will display  **Linked to Case** in blue in the bottom left and the link icon will update to show the link.
-
-### Email the knowledge article
-
-Use the **Email** button to send the knowledge article via mail. When you select the **Email** button, first, the knowledge article is linked to the current case record. Simultaneously, an email form opens with the link to the article. The article content is populated in the email body. The fields are automatically populated based on the case and customer details. Add other information as needed, and then on the command bar, select **Send**.
-
-  > [!div class=mx-imgBorder]
-  > ![Email knowledge article.](media/km-email.png "Email knowledge article")
-
 ### View the knowledge article inline in the search control
 
 In Customer Service Hub, select an article title to see its full content rendered in the same control. The article opens inline, and you can scroll to read the complete article.
@@ -336,7 +309,7 @@ In this view mode, you can perform actions such as linking the knowledge article
 >
 > - The **Copy Link**, **Email Link**, and **Email** options can be used only for published or expired articles.
 
-## View auto-filtered results
+### View auto-filtered results
 
 As a customer service agent, to view the most relevant results, you can have knowledge articles automatically filtered based on the case data. This helps with identifying the most relevant articles so that you can resolve customer queries quickly and accurately. You can also disable the auto-filter results and search the entire knowledge base.  
 
@@ -363,7 +336,7 @@ However, if the **Auto-filter results** checkbox isn't selected, you can see mor
 
 ![Deselect Auto-filter results.](media/ka-deselect-auto-filter-results.png "Deselect Auto-filter results")
 
-## View search results from external sources
+### View search results from external sources
 
 In Customer Service Hub, if your administrator has configured the ability for you to search for files, documents, or articles from data sources outside of your current Dynamics 365 organization, you can view those results by selecting the provider from the drop-down list under **Knowledge**.
 
@@ -372,11 +345,11 @@ In Customer Service Hub, if your administrator has configured the ability for yo
 
 For more information on setting up search providers, see [Set up a search provider in Customer Service Hub](set-up-search-providers.md).
     
-## Submit ratings and feedback for knowledge articles
+### Submit ratings and feedback for knowledge articles
 
-In Customer Service Hub, you can easily provide feedback on knowledge articles with the help of knowledge article rating in the Customer Service Hub. Knowledge article rating lets you provide feedback on knowledge articles within the context of case resolution. Knowledge managers can capture and review the feedback on the articles to improve and maintain a healthy knowledge base.
+You can easily provide feedback on knowledge articles with the help of knowledge article rating. Knowledge article rating lets you provide feedback on knowledge articles within the context of case resolution. Knowledge managers can capture and review the feedback on the articles to improve and maintain a healthy knowledge base.
 
-When you are working on a case and refer to an article from the **Knowledge Base Search** control, you'll be presented with an option to rate whether the article is helpful and provides relevant information to assist customers quickly. If you think it’s not helpful, you can rate the article accordingly and provide comments on how it can be improved.
+When you are working on a case and refer to an article from the **Knowledge** tab, you'll be presented with an option to rate whether the article is helpful and provides relevant information to assist customers quickly. If you think it’s not helpful, you can rate the article accordingly and provide comments on how it can be improved.
 
 > [!NOTE]
 > - Ensure that the knowledge article entity is enabled for feedback. To learn more, see [Enable an entity for feedback/ratings](/dynamics365/customer-engagement/customize/enable-entity-feedback).
