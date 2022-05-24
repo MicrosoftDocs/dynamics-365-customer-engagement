@@ -172,16 +172,12 @@ Select a workstream to perform any of the following actions.
 
 When a conversation becomes active from the waiting status, it might not be assigned to the same agent who had previously handled it. You can use the **Keep same agent for entire conversation** option in the work distribution settings of the workstream to reassign the conversation to the agent who had worked on it earlier. This helps save the effort to reorient the agent or set the context about the customer issue again. 
 --->
-Agent affinity works as follows:
+The agent affinity feature ensures that work items are assigned to the agents based on their work history. Agent affinity ensures that conversations are automatically reassigned to the same agent, irrespective of the agent's capacity and presence.
 
-- Is enabled by default for SMS, social channels, and Microsoft Teams.
-- Is available only for push type of work distribution.
-- Reassigns conversations to the same agent, irrespective of the agent's capacity and presence.
-
-For live chat, when the state of the conversation changes from Active to Open, it will be reassigned to the same agent. 
+The feature is enabled by default for SMS, social channels, and Microsoft Teams. For live chat, when the state of the conversation changes from Active to Open, it will be reassigned to the same agent. The agent can, however, choose to reject the assigned conversation via the notification pane.
 
 > [!Note]
-> The agent can choose to reject the assigned conversation via the notification pane.
+> Agent affinity is applicable only for push type of work distribution.
 
 ### Associate templates
 
