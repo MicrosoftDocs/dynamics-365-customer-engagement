@@ -73,7 +73,7 @@ The voice channel is supported only in the Customer Service workspace and Omnich
 
 See the following topics to set up the interactive voice response (IVR) bot in the voice channel:
 - [Configure Power Virtual Agents bots for voice](voice-channel-ivr-bots.md)
-- [Configure Azure bots for voice](voice-channel-azure-bot-service.md)
+- [Configure Azure bots for voice (preview)](voice-channel-azure-bot-service.md)
 - [Integrate third-party IVR systems with voice channel](voice-channel-contextual-transfer-external-ivr.md)
 
  ### Should the language of the bot be the same as the primary language configured in the Omnichannel admin center app?
