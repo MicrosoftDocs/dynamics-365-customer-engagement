@@ -106,7 +106,7 @@
       href: /power-platform/admin/create-users-assign-online-security-roles
     - name: Assign roles and enable users
       href: add-users-assign-roles.md
-  - name: App profile manager for Customer Service
+  - name: Agent experience profiles for Customer Service
     items: 
     - name: Overview of agent experience profiles
       href: ../app-profile-manager/overview.md
@@ -117,7 +117,7 @@
     - name: Experience for accessing templates and productivity tools
       href: ../app-profile-manager/agent_profile_powerapp.md 
     - name: Create and use app profiles in Power Apps
-      href: ../app-profile-manager/agent_experience_profile_create.md
+      href: ../app-profile-manager/app-profile-manager.md
     - name: Configure the inbox
       href: configure-inbox.md
     - name: Settings
