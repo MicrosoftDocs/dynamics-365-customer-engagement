@@ -19,10 +19,10 @@ ms.custom:
 
 Dynamics 365 Customer Service workspace provides a modern customer service experience that optimizes agent productivity and improves customer satisfaction. By migrating to Customer Service workspace, you get the following benefits.
 - Modernize your customer service with cloud-based workspace for faster deployment.
-- Focus on your business processes rather than managing the Dynamics 365 Unified Service Desk client desktop
-- Connect with your customers with simplified channel integration for enhanced omnichannel experiences
-- Personalize your customer experience using AI
-- Enhance collaboration with native Teams integration.
+- Focus on your business processes rather than managing the Dynamics 365 Unified Service Desk client desktop.
+- Connect with your customers with simplified channel integration for enhanced omnichannel experiences.
+- Personalize your customer experience using AI.
+- Enhance collaboration with native Microsoft Teams integration.
 
 ## Download playbook
 
