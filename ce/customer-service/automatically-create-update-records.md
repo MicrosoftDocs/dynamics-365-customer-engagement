@@ -1,7 +1,7 @@
 ---
 title: Automatically create or update records in Customer Service Hub (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to automatically create or update records by setting up rules in Dynamics 365 Customer Service
-ms.date: 05/23/2022
+ms.date: 05/24/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -237,19 +237,19 @@ To create a contact for unknown senders of mail, configure the following options
 
 ### Create contacts for unknown senders using rule owner context
 
-By default, a contact for unknown email sender is created with email owner context. However, rule owner user doesn't have permission to create contacts. You can configure the msdyn_ArcCreateContactWithRuleOwner environment variable to set permission for the rule owner to create contacts.
+By default, a contact for unknown email sender is created with the email owner context. To switch to use the rule owner permissions to create the new contact, you can configure the msdyn_ArcCreateContactWithRuleOwner environment variable as follows:
 
 1. Go to the [Power Apps](https://make.powerapps.com) portal.
 
-1. Select the required environment, select **Solutions** in the left pane.
+2. Select the required environment, select **Solutions** in the left pane.
 
-1. On the **Solutions** page, select **Default Solution**.
+3. On the **Solutions** page, select **Default Solution**.
 
-1. Search for **Environment variables**, and select the **msdyn_ArcCreateContactWithRuleOwner** environment variable.
+4. Search for **Environment variables**, and select the **msdyn_ArcCreateContactWithRuleOwner** environment variable.
 
-1. On the edit page that appears, set the **Current Value** as **1** to override the default value.
+5. On the edit page that appears, set the **Current Value** as **1** to override the default value.
 
-1. Save and publish the customization.
+6. Save and publish the customization.
 
 
 ## Activate a rule for creating or updating records automatically
