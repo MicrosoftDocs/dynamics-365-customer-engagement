@@ -19,9 +19,9 @@ A workstream is a container to enrich, route, and assign work items. The workstr
 
 The workstream can belong to multiple channels of the same type, like multiple chat channels. In this case, all the conversations from these channels inherit the routing and work assignment settings of the workstream they belong to.
 
-The workstream can be one of the following types:
+The workstream can be one of the following types.
 
-- **Messaging**: To route conversations from live chat, SMS, social, and Teams channels.
+- **Messaging**: To route conversations from live chat, SMS, social, and Microsoft Teams channels.
 - **Record**: To route records, such as case, email, and activity.
 - **Voice**: To route calls made to the support numbers listed on the customer portal. More information: [Overview of voice channel](voice-channel.md)
 
@@ -56,7 +56,7 @@ You can create workstreams for unified routing in the Customer Service admin cen
 
     - **Name**: Enter an intuitive name, such as **Contoso chat workstream**.
     
-    - **Type**: Select one of the following types:
+    - **Type**: Select one of the following types.
          - **Messaging**
          - **Record**
          - **Voice**
@@ -100,7 +100,7 @@ You can create workstreams for unified routing in the Customer Service admin cen
 
 ### Configure routing rules
 
-Routing rules for a workstream consist of work classification rules and route-to-queue rules. For the steps to configure routing rules, see the following:
+Routing rules for a workstream consist of work classification rules and route-to-queue rules. For the steps to configure routing rules, see the following articles.
 
 - [Configure work classification rules](configure-work-classification.md)
 - [Configure route-to-queue rules](configure-work-classification.md#configure-route-to-queues-rulesets-and-rules)
