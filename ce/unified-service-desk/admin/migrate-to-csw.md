@@ -27,9 +27,9 @@ Dynamics 365 Customer Service workspace provides a modern customer service exper
 
 ## Download playbook
 
-The playbook explains how you can migrate from Unified Service Desk to Customer Service workspace.
+The Unified Service Desk to Customer Service workspace Migration Playbook explains how you can migrate from Unified Service Desk to Customer Service workspace.
 
-[Download the playbook here](https://www.microsoft.com/download/details.aspx?id=102918).
+[You can download the playbook here](https://www.microsoft.com/download/details.aspx?id=102918).
 
 ## Migrate from Unified Service Desk to Customer Service workspace
 
