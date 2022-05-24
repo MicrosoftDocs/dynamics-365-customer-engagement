@@ -31,13 +31,13 @@ If you're Microsoft 365 administrator, here's how you provide consent:
 
 1. In **Microsoft 365 admin center**, select **Settings** > **Org settings** > **Dynamics 365 Applications**.
 
-    :::image type="content" source="./media/office365-    consent-form.png" alt-text="A screenshot of the Microsoft 365 admin center Org settings, with the Dynamics 365 Apps consent form shown.":::
+    :::image type="content" source="./media/office365-consent-form.png" alt-text="A screenshot of the Microsoft 365 admin center Org settings, with the Dynamics 365 Apps consent form shown.":::
     
 3. Read the description carefully and select the **Aggregated insights for other users** option. 
 
     > [!IMPORTANT]
     >- The consent provided is applicable to all the Dynamics 365 applications that require **Insights for other users** permission.
-    >- When disabling these consents, it can take up to 24 hours for the data to be removed from all apps and up to 30 days for backed-up data to be removed from Microsoft 365 storage accounts.  
+    >- When you disable the consent, the system can take up to 24 hours to remove data from all apps and up to 30 days to removed backed-up data from Microsoft 365 storage accounts.  
 
 4. (Optional) Opt out security groups of users who don't want to share their collaboration and communication data. Add their Microsoft 365 security group ID in the text box.
     > [!NOTE]

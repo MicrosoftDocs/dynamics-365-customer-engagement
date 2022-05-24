@@ -34,7 +34,7 @@ Configure who knows whom to select a customized email template for sending intro
    
 3.  Under **Relationship insights**, select **Who Knows Whom**.
 
-5.  Select the email template to use when a seller wants to contact a colleague to get introduced to a lead or contact. 
+4. Select an email template to use for requesting introductions. This email template is used when a seller contacts a colleague to get introduced to a lead or contact. 
     
     The following screenshot shows an example introduction email using the default email template:
 

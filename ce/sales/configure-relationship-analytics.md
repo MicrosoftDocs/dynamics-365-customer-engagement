@@ -29,10 +29,10 @@ Configure relationship analytics to specify whether you want to use Exchange dat
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**. 
    
-3. Under **Relationship insights**, select **Analytics and Health**.
+3. Under **Relationship insights**, select **Analytics and Health**.  
     When you enable the relationship analytics feature, exchange integration is also automatically enabled. However, the integration won't work until your Microsoft 365 admin provides consent for Dynamics 365 to collect the data.  
 
-1. (Optional)Under **Data Sources**, turn off **Exchange Online** if you don't want to include emails and meetings from Exchange Online in KPI calculations and analytics. In this case,  relationship analytics will be generated based on Dynamics 365 data.
+1. (Optional) Under **Data Sources**, turn off **Exchange Online** if you don't want to include emails and meetings from Exchange Online in KPI calculations and analytics. In this case,  relationship analytics will be generated from Dynamics 365 data.
 
     :::image type="content" source="./media/si-admin-relationship-analytics-enable-in-organization.png" alt-text="A screenshot of the Relationship analytics and health settings page.":::
 
