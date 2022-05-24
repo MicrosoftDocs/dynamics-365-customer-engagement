@@ -12,13 +12,11 @@ ms.reviewer: nenellim
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-This function can be used to send messages to an existing conversation.  
+This function can be used to send messages to a conversation.  
 
 > [!Note]
-> The conversation used must be assigned to the logged in agent.
-
-> [!Note]
-> Supported messages include only string literals and valid rich object JSON.
+> - The conversation must be assigned to the agent that's logged in.
+> - Supported messages include only string literals and valid rich object JSON.
 
 ## Syntax
 
@@ -28,9 +26,9 @@ This function can be used to send messages to an existing conversation.
 
 | Parameter         | Type    | Description |
 | ----------------- | ------- | ----------- |
-| message           | Sting or JSON Object  | Message to send to conversation | 
-| toSendBox         | Boolean  | Determines if the message is sent to sendBox or directly to chat |
-| liveWorkItemId    | String  | Unique identifier for conversation in which to send message |
+| message           | String or JSON object  | Indicates the message to be sent to a conversation. | 
+| toSendBox         | Boolean  | Determines if the message is sent to sendBox or directly to the conversation. |
+| liveWorkItemId    | String  | Unique identifier of the conversation to which the message is to be sent. |
 
 ## Return value
 
@@ -78,7 +76,7 @@ Microsoft.Omnichannel.sendMessageToConversation(validRichObjJSON,  false);
 
 ### See also
 
-[Live chat SDK JavaScript API reference](../../omnichannel-reference.md)
+[Live chat SDK reference](../../omnichannel-reference.md)
 [Omnichannel JavaScript API reference](../../omnichannel-api-reference.md)
 [getConversationId](getConversationId.md)  
 [linkToConversation](linkToConversation.md)  
