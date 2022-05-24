@@ -20,8 +20,6 @@ This article explains how to create event subscription endpoints to enable recor
 
 ## Get the subscriber endpoint for recording
 
-1. In the site map of Omnichannel admin center or Customer Service admin center app, under **General settings**, select **Phone numbers**.
-<!-->
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
@@ -31,28 +29,36 @@ This article explains how to create event subscription endpoints to enable recor
 
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
 
-   - In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**, and then select **Get started**. The **Connect to Azure Communication Services** dialog opens.
-<-->
+   - In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**. 
 
-2. Select a phone number, and then select **Advanced**.
+1. In the **Phone numbers** page that opens, select a phone number, and then select **Advanced**.
 
-3. In the **Manage Azure Communication Services** page that opens, select **Copy** next to **Recording Web Hook Endpoint** and paste the web hook endpoint value in the **Subscriber Endpoint** field.
+1. In the **Manage Azure Communication Services** page that opens, select **Copy** next to **Recording Web Hook Endpoint** and paste the web hook endpoint value in the **Subscriber Endpoint** field.
     > [!div class="mx-imgBorder"]
     > ![Copy recording web hook endpoint.](./media/voice-channel-recording-webhook-endpoint.png "Copy recording web hook endpoint.")
 
-4. Select **Confirm Selection**.
+1. Select **Confirm Selection**.
 
 ## Get the subscriber endpoint for SMS
 
-1. In the site map of Omnichannel admin center or Customer Service admin center app, in **General settings**, select **Phone numbers**.
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
-1. Select a phone number, and then select **Advanced**.
+    1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
+    
+    2. Select **Manage** for **Phone numbers**.
 
-3. In the **Manage Azure Communication Services** page that opens, select **Copy** next to **SMS Web Hook Endpoint** and paste the value in the **Subscriber Endpoint** field.
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+
+   - In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**. 
+
+1. In the **Phone numbers** page that opens, select a phone number, and then select **Advanced**.
+
+1. In the **Manage Azure Communication Services** page that opens, select **Copy** next to **SMS Web Hook Endpoint** and paste the value in the **Subscriber Endpoint** field.
     > [!div class="mx-imgBorder"]
     > ![Copy SMS web hook endpoint.](./media/voice-channel-sms-webhook-endpoint.png "Copy SMS web hook endpoint.")
 
-4. Select **Confirm Selection**.
+1. Select **Confirm Selection**.
 
 ## Create event subscription endpoint for recording
 

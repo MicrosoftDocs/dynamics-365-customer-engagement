@@ -1,6 +1,6 @@
 ---
 title: "Connect to a new Azure resource | MicrosoftDocs"
-description: "Use this article to understand how to connect to Azure Communication Services using a new Azure resource."
+description: "Use this article to understand how to connect to Azure Communication Services using a new Azure resource in Customer Service admin center."
 ms.date: 04/12/2022
 ms.service: dynamics-365-customerservice
 ms.topic: article
@@ -42,15 +42,16 @@ Before you connect an Azure resource to Azure Communication Services, you must h
 
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
 
-   - In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**, and then select **Get started**. The **Connect to Azure Communication Services** dialog opens.
+   - In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**. 
 
-2. Select **Create new resource** and enter the following details.
+1. Select **Get started**. The **Connect to Azure Communication Services** dialog opens.
+1. Select **Create new resource** and enter the following details.
    - **Azure subscription**: Select a subscription from the dropdown list.
    - **Azure resource group**: Select an existing resource group or select **Create new**, and enter a name for a new resource group.
       > [!NOTE]
       > The resource group name should be unique within a subscription.
    - **Resource name**: Enter a name for the resource. The resource name can contain only letters, numbers, and hyphens.
-3. Select **Deploy** to create and deploy the resource.
+1. Select **Deploy** to create and deploy the resource.
     > [!div class="mx-imgBorder"]
     > ![Create new resource.](./media/voice-channel-number-mgmt-azure-create-new-resource.png "Create new resource.")
 
