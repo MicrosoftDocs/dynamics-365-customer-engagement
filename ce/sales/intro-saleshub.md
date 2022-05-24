@@ -1,7 +1,7 @@
 ---
-title: "Use the Sales Hub app to access Dynamics 365 Sales features | MicrosoftDocs"
-description: "The Sales Hub app is preinstalled and preconfigured with several core sales and sales insights features to help you get started quickly"
-ms.date: 04/11/2022
+title: Use the Sales Hub app to access Dynamics 365 Sales features
+description: The Sales Hub app is preinstalled and comes with several core features to help you quickly start using sales and sales insights capabilities of Dynamics 365.
+ms.date: 05/23/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -10,58 +10,59 @@ manager: shujoshi
 
 # Use the Sales Hub app to access Dynamics 365 Sales features
 
-Sales Hub is a free sales app from Microsoft, which is preinstalled and preconfigured with several core sales and sales premium features to help you get started quickly.  
+Sales Hub is a free app from Microsoft. It's preinstalled and comes with several core sales and sales premium features to help you get started using Dynamics 365 Sales quickly. From the Sales Hub app, you can access Sales Premium features such as sales accelerator, conversation intelligence, and predictive scoring with the Dynamics 365 Sales Enterprise license. The premium features are available with a limited monthly capacity for Sales Enterprise customers. More information: [Digital selling capabilities in Sales Enterprise](digital-selling.md) 
 
 > [!TIP]
-> We recommend that you use the Sales Hub app, unless your organization follows unique sales practices that warrant a custom app. For a comparison between the apps, go to [Sales Hub app versus custom app](saleshub-customapp.md).
+> We recommend that you use the Sales Hub app unless your organization follows unique sales practices that warrant a custom app. For a comparison, see [Sales Hub app versus custom app](saleshub-customapp.md).
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
 
+## What's in the Sales Hub app?
 
-## What's in the Sales Hub app? 
+The Sales Hub app has a modern interface that's designed to simplify your day-to-day sales activities. See all the information you need in one place, and focus on the activities that need your attention.
 
-The Sales Hub app has a modern and interactive interface, designed to simplify your day-to-day sales activities. It shows you all the vital information in one place, and lets you focus on the key activities that require your attention.
+Sales Hub is based on the Unified Interface framework. Highlights include:
 
-Sales Hub is based on the Unified Interface framework. Some of the key highlights include:
+- A modern, seamless, and intuitive user interface
 
--   A modern, seamless, and intuitive user interface.
+- An adaptive UI that renders content according to the device it runs on
 
--   An adaptive UI that renders content according to the device it runs on.
+- A built-in mobile app that lets you complete tasks on the go
 
--   A built-in mobile app that lets you complete tasks on the go.
-
--   An app that's built with accessibility in mind.
+- An accessible UI
 
 ## Why should you use the Sales Hub app?
 
-Sales Hub is a Microsoft first-party app that's designed and configured for ideal seller experiences. Use the Sales Hub app to:
+Sales Hub is a Microsoft first-party app that's designed for ideal seller experiences. Use the Sales Hub app to:
 
-- Enable your sales team to harness the power of data and intelligence. The app will help them to forecast, compare annual projections, and measure performance using predictive scoring. 
+- Harness the power of data and intelligence to forecast, compare annual projections, and measure performance using predictive scoring.
 
-- Allow sellers to collaborate using Teams from within Dynamics 365 to accelerate their pipeline, while managers can track team performance and provide coaching to increase customer satisfaction.
--   Get access to standard sales and sales premium (if you have the premium license) features almost instantly.
+- Collaborate using Teams from within Dynamics 365 to accelerate your pipeline while managers track team performance and provide coaching to increase customer satisfaction.
 
--   Get access to the preview features with minimal configuration.
+- Access standard (and premium, if licensed) sales features almost instantly.
 
--   (Sales Enterprise users) Get access to the premium features, for a specific period, when they're made available.
--   Customize the app and configure the features as required. 
+- Access preview features with minimal setup.
 
-- Use the Microsoft documentation to train your sales organization as the documentation is based on the Sales Hub app. You need not create custom documentation.
+- Access premium features with a limited monthly capacity (Sales Enterprise users only). More information: [Digital selling capabilities in Sales Enterprise](digital-selling.md) 
+
+- Customize the app and configure features as required.
+
+Use the Microsoft documentation to train your sales organization, too. The documentation is based on the Sales Hub app, so there's no need to create custom documentation.
 
 > [!NOTE]
-> The Sales Hub app can coexist with any custom sales apps that you might have in your organization. To learn the benefits of using the Sales Hub app versus a custom app, see [Sales Hub app versus custom app](saleshub-customapp.md).
+> The Sales Hub app can coexist with any custom sales apps that you might have in your organization. To learn the benefits of using the Sales Hub app, see [Sales Hub app versus custom app](saleshub-customapp.md).
 
 ## Access the Sales Hub app
 
-Access your Dynamics 365 Sales environment, and select Sales Hub from the **Published Apps** page.
+Access your Dynamics 365 Sales environment, and then select **Sales Hub** from the **Published Apps** page.
 
-![Screenshot of the Sales Hub app card on the **Published apps** page](media/saleshubcard.png)
+:::image type="content" source="media/saleshubcard.png" alt-text="Screenshot of the Sales Hub app card on the **Published apps** page":::
 
-> [!NOTE]
-> If you don't see the app, contact your administrator to grant you access. More information: [Grant or revoke access to the Sales Hub app](grant-access-saleshub.md)
+If you don't see the app, contact your administrator to grant you access. For more information, see [Grant or revoke access to the Sales Hub app](grant-access-saleshub.md).
 
-For instructions on using the Sales Hub app on mobile devices, go to [Sign in and sign out from the app](sales-mobile/use-sales-mobile-app.md#sign-in-and-sign-out-from-the-app).
+For instructions on using the Sales Hub app on mobile devices, see [Sign in and sign out from the app](sales-mobile/use-sales-mobile-app.md#sign-in-and-sign-out-from-the-app).

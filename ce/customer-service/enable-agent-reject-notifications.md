@@ -43,7 +43,7 @@ You can enable agent presence to be updated automatically to **Do not disturb** 
 
 ### See also
 
-[Manage notification settings and templates](/dynamics365/customer-servi/app-profile-manager/notification-templates)  
+[Manage notification settings and templates](/dynamics365/app-profile-manager/notification-templates)  
 [View notifications](oc-notifications.md)  
 
 

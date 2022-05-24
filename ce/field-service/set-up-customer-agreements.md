@@ -1,9 +1,8 @@
 ---
 title: "Set up customer agreements (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn about customer agreements and how to set them up in Dynamics 365 Field Service
-ms.date: 07/06/2020
+ms.date: 05/23/2022
 ms.reviewer: krbjoran
-
 ms.topic: article
 author: FieldServiceDave
 ms.author: daclar
@@ -132,7 +131,7 @@ Typical examples are:
 - The first Monday of each month
 - Every other Friday
 
-You can also define custom dates work orders should be performed if a pattern does not reflect your business needs. For example, perhaps an agreement to perform service on various holidays throughout the year.
+You can also define custom dates work orders that should be performed in addition to a recurrence if a pattern does not reflect your business needs. For example, perhaps an agreement to perform service on various holidays throughout the year. Note that custom date work orders will not be generated, unless a recurrence is provided.
 
 - **End Date Behavior**: Entering specific start and end date behavior allows you to generate work orders for all or part of the agreement duration. Selecting **No End Date** means the work orders should be generated until the agreement end date.
 
@@ -306,7 +305,7 @@ In Field Service settings, there are important defaults you can set for agreemen
 ### Multiple incidents vs multiple recurrences
 As agreement work increases, you will have to decide whether to add multiple agreement incidents to a single recurrence or to add multiple recurrences, each with one or more incidents. Here are a few things to consider:
 
-- *Who will perform the work order(s)?*: A single recurrence will create a single work order, whereas multiple recurrences will create multiple work orders, and work orders are generally performed by a single person. If you envision the agreement work being completed by a single person, then using a single recurrence may be better. One workaround is to use incident types with [requirement group templates](/multi-resource-scheduling-requirement-groups.md) that help schedule single work orders to multiple resources.
+- *Who will perform the work order(s)?*: A single recurrence will create a single work order, whereas multiple recurrences will create multiple work orders, and work orders are generally performed by a single person. If you envision the agreement work being completed by a single person, then using a single recurrence may be better. One workaround is to use incident types with [requirement group templates](/dynamics365/field-service/multi-resource-scheduling-requirement-groups) that help schedule single work orders to multiple resources.
 
 - *Travel*: If multiple recurrences create multiple work orders, then this may create more trips and more travel.
 
@@ -359,7 +358,8 @@ For example, see a recurrence in the following screenshot, and related XML below
 - Agreements work seamlessly with the Dynamics 365 Sales Lead > Opportunity > Quote > Order process. This is achieved by:  
   - Categorizing a lead as a service-maintenance lead
   - Adding opportunity lines with service-based lines
-  - Creating quote lines as service-based lines and adding a quote booking setup  
+  - Creating quote lines as service-based lines and adding a quote booking setup
+- When setting up agreements to automatically generate work orders, limit the number of work order child records - work order products, services, service tasks, incident types, and so on - to be generated to no more than 500. Larger volumes of records, synchronous custom plugins, or custom processes may cause a time out, resulting in the remaining child records not being generated.
 
 - The **Copy Incident Items to Agreement** field during incident type setup is important for two reasons:
 

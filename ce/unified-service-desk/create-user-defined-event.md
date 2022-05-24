@@ -70,7 +70,7 @@ https://event/?EventName=<EVENT_NAME>&key=value&key=value&…
    |      Name      |                                                                                                             Action Call for Title Change                                                                                                              |
    | Hosted Control |                                                                                                                       Incident                                                                                                                        |
    |     Action     |                                                                                                                     RunXrmCommand                                                                                                                     |
-   |      Data      | function titleChangeReaction()  {<br /> window.open("<https://event/?EventName=TitleChanged&NewTitle="+encodeURIComponent(Xrm.Page.getAttribute("title").getValue(>)));<br /> }<br /> Xrm.Page.getAttribute("title").addOnChange(titleChangeReaction); |
+   |      Data      | function titleChangeReaction()  {<br /> window.open(`https://event/?EventName=TitleChanged&NewTitle="+encodeURIComponent(Xrm.Page.getAttribute("title").getValue()`));<br /> }<br /> Xrm.Page.getAttribute("title").addOnChange(titleChangeReaction); |
 
 
 3. Add the new action call that you created to the **BrowserDocumentComplete** event of the **Incident** hosted control. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add action calls to an event](../unified-service-desk/add-action-calls-event.md)  

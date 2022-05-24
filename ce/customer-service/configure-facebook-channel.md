@@ -77,7 +77,7 @@ The following Facebook roles and permissions are required for integrating your F
 
       If you enable the Facebook human agent message tag during an active conversation between the agent and customer, the agent must close the conversation and reopen it to communicate with customers after 24 hours of inactivity. Agents can start conversations with customers for up to seven days.
 
-      To use the Facebook human agent message tag, you must also turn it on in the Facebook app. For more information, see [Facebook Developer Tools](https://www.facebook.com/help/contact/?id=2616212338594331).  
+      To use the Facebook human agent message tag, you must also turn it on in the Facebook app. For more information, see [Facebook Developer Tools](https://developers.facebook.com/tools/).  
    5. Review the **Summary** page, and select **Create**. The channel instance is configured.
 
 1. Configure routing rules. More information: [Configure work classification](configure-work-classification.md)
@@ -210,7 +210,7 @@ When you create conditions for routing rules, the **Facebook Engagement Context 
     
       If you enable the Facebook human agent message tag during an active conversation between the agent and customer, the agent must close the conversation and reopen it in order to communicate with customers after 24 hours of inactivity. Agents can start conversations with customers for up to seven days.
     
-      To use the Facebook human agent message tag, you must also turn it on in the Facebook app. For more information, see [Facebook Developer Tools](https://www.facebook.com/help/contact/?id=2616212338594331).
+      To use the Facebook human agent message tag, you must also turn it on in the Facebook app. For more information, see [Facebook Developer Tools](https://developers.facebook.com/tools/).
 
 3. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md).
 
