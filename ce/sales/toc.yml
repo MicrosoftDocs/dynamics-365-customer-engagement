@@ -546,9 +546,9 @@
       items:
       - name: Microsoft Teams chat in Dynamics 365
         items:
-        - name: Using Teams chat in Dynamics 365
+        - name: Use Teams chat in Sales Hub
           href: teams-integration/using-teams-chat-in-dynamics.md
-        - name: FAQ on Teams chat integration
+        - name: Teams chat integration FAQ
           href: teams-integration/teams-in-dynamics-faq.md
       - name: Microsoft Teams meeting integration
         items:
