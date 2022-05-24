@@ -1,5 +1,5 @@
 ---
-title: "Use outbound =subscription centers in real-time journeys (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Use outbound subscription centers in real-time journeys (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to use outbound marketing subscription centers in real-time journeys in Dynamics 365 Marketing."
 ms.date: 05/24/2022
 ms.custom: 
