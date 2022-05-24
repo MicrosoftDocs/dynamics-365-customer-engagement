@@ -56,9 +56,7 @@ The relationship pipeline view provides a bubble chart that gives you a quick ov
 
     ![Select My Open Opportunities view](media/relationship-insights-my-open-opportunities-relationship.png "Select My Open Opportunities view")   
     
-3.  From the command bar, select **Show Chart**.   
-
-     ![Select Show Chart option](media/relationship-analytics-show-chart.png "Select Show Chart option")   
+3.  From the command bar, select **Show Chart**.  
      
 4.  At the top of the charts pane, open the drop-down list, and then select **Relationship Pipeline**.  
 
@@ -71,8 +69,6 @@ The relationship pipeline view provides a bubble chart that gives you a quick ov
     Each upcoming opportunity is plotted as a bubble on the relationship pipeline chart. The size of each bubble indicates the estimated revenue of the opportunity. Health is plotted on the y-axis, so the higher up the bubble appears on the chart, the higher its health.  Estimated close date is plotted on the x-axis, so opportunities on the left side of the chart may expire soon. So, the most critical opportunities are those with the largest bubbles located near the lower-left corner, while the most promising opportunities are near the top of the chart.    
 
     Hover over a bubble to see the name of the opportunity and other details. Select a bubble to open its opportunity record. The color of each bubble indicates relationship health: green for good, yellow for fair, red for poor, and gray for zero (which indicates that the results have not been calculated, or that there is not enough data). 
-
-    ![Relationship Insights opportunity health chart](media/relationship-insights-opportunity-health-chart.png "Relationship Insights opportunity health chart")     
 
     The relationship pipeline chart relies on several values being available for each opportunity record, but in some cases, these values may be missing for some or all opportunities. This could be due to an oversight, or it could be because you don't use these fields at your organization. The chart represents missing values as follows:     
     -   Opportunities that don't have a relationship health value are gray, with a value of zero. They are plotted at the bottom of the chart.    
@@ -94,7 +90,7 @@ An administrator must enable the feature before you can start using it. More inf
 The following screenshot shows an example of enhanced relationship analytics:   
 
 > [!div class="mx-imgBorder"]
-> ![Relationship analytics home page](media/relationship-analytics-home-page.png "Relationship analytics home page")   
+> ![Relationship analytics home page](media/relationship-analytics-home-page1.png "Relationship analytics home page")   
 
 1. **Summary**: Shows the summary of metrics and KPIs obtained for the records from your interactions with customers through emails, meetings, and phone calls. For example, *You take 12 hours less to respond to emails compared to the similar opportunities*.  
 2. **Relationship health**: Shows your overall relationship health with the customer, and includes the recent trend for the deal.     
