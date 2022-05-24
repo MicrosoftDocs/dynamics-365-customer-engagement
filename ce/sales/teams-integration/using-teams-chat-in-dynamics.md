@@ -1,7 +1,7 @@
 ---
 title: "Use Teams chat in Sales Hub | MicrosoftDocs"
-description: "Start Teams chat conversations from within Dynamics 365 customer engagement apps and link them to records"
-ms.date: 04/20/2022
+description: "Start Teams chat conversations from within Dynamics 365 Sales Hub and link them to records"
+ms.date: 05/24/2022
 ms.topic: article
 author: sbmjais
 search.app: 
@@ -102,6 +102,14 @@ You can start a new linked chat or convert an existing Teams chat into a linked 
 
 All the participants in the linked chat will see the chat when they open the record in Dynamics 365.
 
+## Link or unlink an existing chat from a record
+
+You can link a chat to a single record or multiple records. For example, if you had a chat about a lead that turned into an opportunity, you could also link the chat to the opportunity. If you decided later that you didn't want the chat linked to the lead, you could unlink it.
+
+- To link an existing chat to a record, select the chat from the **Other chats** section, and then select **More (…)** > **Link to this _record_**.
+
+- To unlink a chat from a record, select the chat from the **Other chats** section, and then select **More (…)** > **Unlink from this _record_**.
+
 ## Link a Teams channel to a record
 
 Link relevant Teams channels to a record so that all the members can easily access the linked channels from the record and follow the conversations.
@@ -131,4 +139,4 @@ While you're in any of the records or in the list pane, select :::image type="ic
 
 ### See also
 
-[Enable or disable Microsoft Teams chat in Dynamics 365](enable-teams-chat.md)
+[Enable or disable Microsoft Teams chat in Sales Hub](enable-teams-chat.md)
