@@ -38,9 +38,5 @@ The playbook explains how you can migrate from Unified Service Desk to Customer 
 1. **Chapter 3: Transition** explains how you can build a successful transition plan.
 1. **Chapter 4: Optimize** discusses how you can monitor the adoption of the new app, review the migration experience, plan for innovation and future growth, while also addressing any gaps or issues.
 
-### See also
-
-[Export Unified Service Desk configuration data](../../unified-service-desk/admin/export-unified-service-desk-configuration-data.md)  
-[Import Unified Service Desk configuration data](../../unified-service-desk/admin/import-unified-service-desk-configuration-data.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
