@@ -25,7 +25,7 @@ Dynamics 365 Customer Service workspace provides a modern customer service exper
 - Personalize your customer experience using AI.
 - Enhance collaboration with native Microsoft Teams integration.
 
-## Download playbook
+## Download the migration playbook
 
 The Unified Service Desk to Customer Service workspace Migration Playbook explains how you can migrate from Unified Service Desk to Customer Service workspace.
 
