@@ -18,7 +18,7 @@ In the voice channel, you can quickly connect to Azure Communication Services, p
 
 ## Prerequisites
 
-Before you connect to an Azure resource to Azure Communication Services, you must have the following details:
+Before you connect an Azure resource to Azure Communication Services, you must have the following details.
 
 - An Azure subscription that's in the same tenant as your Dynamics 365 account. Ensure that your Azure subscription meets the [Subscription eligibility and number capabilities](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability) requirements.
 - At least contributor-level permissions to the Azure subscription. To check your role, open your subscription and view the **My role** column of your subscription on the Azure portal. You'll be able to deploy your Azure Communication Services resource only if you have contributor-level permissions.
@@ -26,7 +26,7 @@ Before you connect to an Azure resource to Azure Communication Services, you mus
 
 > [!Important]
 > 
-> On the **Phone numbers** page, the **Get started** button to connect to a new Azure resource will appear only in the following scenarios:
+> On the **Phone numbers** page, the **Get started** button to connect to a new Azure resource will appear only in the following scenarios.
 > - The trial has ended after the free calling time has elapsed.
 > - You've manually ended the trial.
 > - You've [disconnected from the Azure resource](voice-channel-acs-resource.md#disconnect-from-azure-communication-services-resource).
@@ -44,7 +44,7 @@ Before you connect to an Azure resource to Azure Communication Services, you mus
 
    - In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**, and then select **Get started**. The **Connect to Azure Communication Services** dialog opens.
 
-2. Select **Create new resource** and enter the following details:
+2. Select **Create new resource** and enter the following details.
    - **Azure subscription**: Select a subscription from the dropdown list.
    - **Azure resource group**: Select an existing resource group or select **Create new**, and enter a name for a new resource group.
       > [!NOTE]

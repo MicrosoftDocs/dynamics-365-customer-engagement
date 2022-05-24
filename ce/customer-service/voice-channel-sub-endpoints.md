@@ -18,6 +18,42 @@ ms.custom: template-how-to
 
 This article explains how to create event subscription endpoints to enable recording and SMS services for an Azure resource.
 
+## Get the subscriber endpoint for recording
+
+1. In the site map of Omnichannel admin center or Customer Service admin center app, under **General settings**, select **Phone numbers**.
+<!-->
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+
+    1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
+    
+    2. Select **Manage** for **Phone numbers**.
+
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+
+   - In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**, and then select **Get started**. The **Connect to Azure Communication Services** dialog opens.
+<-->
+
+2. Select a phone number, and then select **Advanced**.
+
+3. In the **Manage Azure Communication Services** page that opens, select **Copy** next to **Recording Web Hook Endpoint** and paste the web hook endpoint value in the **Subscriber Endpoint** field.
+    > [!div class="mx-imgBorder"]
+    > ![Copy recording web hook endpoint.](./media/voice-channel-recording-webhook-endpoint.png "Copy recording web hook endpoint.")
+
+4. Select **Confirm Selection**.
+
+## Get the subscriber endpoint for SMS
+
+1. In the site map of Omnichannel admin center or Customer Service admin center app, in **General settings**, select **Phone numbers**.
+
+1. Select a phone number, and then select **Advanced**.
+
+3. In the **Manage Azure Communication Services** page that opens, select **Copy** next to **SMS Web Hook Endpoint** and paste the value in the **Subscriber Endpoint** field.
+    > [!div class="mx-imgBorder"]
+    > ![Copy SMS web hook endpoint.](./media/voice-channel-sms-webhook-endpoint.png "Copy SMS web hook endpoint.")
+
+4. Select **Confirm Selection**.
+
 ## Create event subscription endpoint for recording
 
 1. Open the resource on the Azure portal, go to **Events**, and select **Event Subscription**.
@@ -31,17 +67,6 @@ This article explains how to create event subscription endpoints to enable recor
     - **Filter to Event Types**: Select **Recording File Status Updated (Preview)** from the dropdown list.
     - **Endpoint Type**: Select **Web Hook** from the dropdown list.
     - **Endpoint**: Select **Select an endpoint** and in the **Select Web Hook** dialog that opens, enter the **Subscriber Endpoint**.
-      To get the subscriber endpoint:
-
-         a. In the site map of Omnichannel admin center or Customer Service admin center app, under **General settings**, select **Phone numbers**.
-
-         b. Select a phone number, and then select **Advanced**.
-
-         c. In the **Manage Azure Communication Services** page that opens, select **Copy** next to **Recording Web Hook Endpoint** and paste the web hook endpoint value in the **Subscriber Endpoint** field.
-         > [!div class="mx-imgBorder"]
-         > ![Copy recording web hook endpoint.](./media/voice-channel-recording-webhook-endpoint.png "Copy recording web hook endpoint.")
-          
-         d. Select **Confirm Selection**.
 
 3. Go to the **Additional Features** tab, select the **Use AAD authentication** checkbox, and enter the following details.
     > [!div class="mx-imgBorder"]
@@ -71,18 +96,6 @@ This article explains how to create event subscription endpoints to enable recor
     > ![Add event subscription details for SMS.](./media/voice-channel-create-event-subscription-sms-event-types.png "Add event subscription details for SMS.")
     - **Endpoint Type**: Select **Web Hook** from the dropdown list.
     - **Endpoint**: Select **Select an endpoint** and in the **Select Web Hook** dialog that opens, enter the **Subscriber Endpoint**.
-
-      To get the subscriber endpoint:
-
-      a. In the site map of Omnichannel admin center or Customer Service admin center app, in **General settings**, select **Phone numbers**.
-         
-      b. Select a phone number, and then select **Advanced**.
-        
-      c. In the **Manage Azure Communication Services** page that opens, select **Copy** next to **SMS Web Hook Endpoint** and paste the value in the **Subscriber Endpoint** field.
-         > [!div class="mx-imgBorder"]
-         > ![Copy SMS web hook endpoint.](./media/voice-channel-sms-webhook-endpoint.png "Copy SMS web hook endpoint.")
-
-      d. Select **Confirm Selection**.
 
 3. Go to the **Additional Features** tab, select the **Use AAD authentication** checkbox, and enter the following details.
     > [!div class="mx-imgBorder"]
