@@ -1,7 +1,7 @@
 ---
 title: "Asset properties in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn about how to use asset properties in Dynamics 365 Field Service.
-ms.date: 10/01/2020
+ms.date: 5/23/2022
 ms.reviewer: krbjoran
 
 ms.topic: article
@@ -100,6 +100,9 @@ From the template, you can also directly relate specific assets, which will then
 ## Add property logs
 
 Once properties are defined for an asset, you can then add specific values for those properties, and build out a log of current and changing values. 
+
+> [!Note]
+> There is a known bug that hides the **Assets and Locations** and **Properties** tabs in the out-of-the-box product. 
 
 Go to the customer asset > **Properties** > **New Property Log**.
 
