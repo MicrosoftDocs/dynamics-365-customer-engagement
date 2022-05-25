@@ -114,9 +114,8 @@
       href: ../app-profile-manager/security-roles.md
     - name: Create and use agent experience profiles
       href: ../app-profile-manager/agent_experience_profile_create.md
-      items:
-      - name: Configure the inbox
-        href: configure-inbox.md      
+    - name: Configure the inbox for agents in Customer Service admin center
+      href: configure-inbox.md      
     - name: App profile manager
       items:
        - name: Experience for accessing templates and productivity tools
