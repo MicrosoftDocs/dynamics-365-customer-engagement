@@ -9,7 +9,11 @@ ms.author: shjais
 manager: shujoshi
 ---
 
-# Configure the ability for users to join chats
+# Configure the ability for users to join chats (preview)
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
+[!INCLUDE [preview-disclaimer](../../includes/preview-disclaimer.md)]
 
 As an administrator, you can enable users to view and easily join chats that are linked to records they have write access to, even if they weren't originally part of those chats. You can configure the ability for users to join linked chats at a record-type level. This functionality can help you tailor the user experience for your business processes.
 
@@ -38,4 +42,5 @@ The ability for users to join existing chats is especially useful for the follow
 
 ### See also
 
-[Enable or disable Microsoft Teams chat in Sales Hub](enable-teams-chat.md)
+[Enable or disable Microsoft Teams chat in Sales Hub](enable-teams-chat.md)   
+[Join an existing linked chat](join-chat.md)

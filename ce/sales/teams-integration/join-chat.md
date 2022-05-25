@@ -9,7 +9,11 @@ ms.author: shjais
 manager: shujoshi
 ---
 
-# Join an existing linked chat
+# Join an existing linked chat (preview)
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
+[!INCLUDE [preview-disclaimer](../../includes/preview-disclaimer.md)]
 
 As a seller, you can view and easily join chats that are linked to a record you have write access to, even if you weren’t originally a participant in the chat. For example, if you've onboarded to a lead that was previously handled by another seller, you can join the chat to better understand the context, and then continue to collaborate with your relevant colleagues.
 
@@ -35,3 +39,8 @@ As a seller, you can view and easily join chats that are linked to a record you 
     > ![Shows the instruction to hover over a chat to join it.](media/hover-join-chat.png "Displays the text that says to hover over a chat to join it.")
 
     The Teams pop-up chat will show that you've been added to the chat, and you'll have access to the entire chat history. Other chat members will also receive the system message that you've been added to the chat.
+
+### See also
+
+[Configure the ability for users to join chats](enable-join-chat.md)
+

@@ -9,7 +9,11 @@ ms.author: shjais
 manager: shujoshi
 ---
 
-# Configure the ability to use suggested contacts
+# Configure the ability to use suggested contacts (preview)
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
+[!INCLUDE [preview-disclaimer](../../includes/preview-disclaimer.md)]
 
 As an administrator, you can enable the suggested contacts to be displayed when a seller starts a new linked chat. It helps the sellers to quickly find the right coworkers to collaborate with.
 
@@ -39,4 +43,5 @@ As an administrator, you can enable the suggested contacts to be displayed when 
 
 ### See also
 
-[Enable or disable Microsoft Teams chat in Sales Hub](enable-teams-chat.md)
+[Enable or disable Microsoft Teams chat in Sales Hub](enable-teams-chat.md)   
+[Use Microsoft Teams chat in Sales Hub](using-teams-chat-in-dynamics.md)
