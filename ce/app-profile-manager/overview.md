@@ -19,7 +19,7 @@ ms.topic: overview
 Agent experience profiles enable you to create targeted app experiences for agents and supervisors, and are an alternative to building and maintaining custom apps.
 With the agent experience profiles, administrators can create custom profiles with specific session templates, conversation channels, and productivity tools. These profiles can then be assigned to users.
 
-Agent productivity tools use intelligence and automation to enable agents to find answers to customer questions and help resolve customer issues quickly, thereby improving satisfaction in service delivery. Agent productivity tools enable easy knowledge base search, suggestions for similar knowledge articles and cases, and agent scripts with macros to automate tasks in common workflows. 
+Agent productivity tools use intelligence and automation to enable agents to find answers to customer questions and help resolve customer issues quickly, thereby improving satisfaction in service delivery. The productivity tools help in easy knowledge base search, suggestions for similar knowledge articles and cases, and agent scripts with macros to automate tasks in common workflows. 
 
 The profiles are available for agents and supervisors who use the Customer Service workspace or Omnichannel for Customer Service apps.
 
