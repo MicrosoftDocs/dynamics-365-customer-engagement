@@ -1,7 +1,7 @@
 ---
 title: "Customer Service Overview (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Overview of Dynamics 365 Customer Service"
-ms.date: 04/26/2022
+ms.date: 05/25/2022
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -68,22 +68,14 @@ The following capabilities are available in the different app experiences, depen
 | Multisession          | ✔ | ✔ | ✖ | ✖ | ✖ |
 | Conversations (with Chat or Digital Messaging Offers)  | ✔ | ✔ |✖  | ✖ |✖  |
 | Channels (with Digital Messaging Offer)  | ✔ | ✔ |✖  | ✖ |✖  |
-| Case Management  | ✔ |  ✔  |  ✔  |  ✔  |  ✔  |
-| Knowledge  |  ✔  |  ✔  |✔| Read only | ✔ |
-| Insights  | ✔ | ✔| ✔ | ✖ | ✖ |
-| Service Scheduling  | ✔ | Not applicable | ✔ | ✖ | ✔ |
+| Case management  | ✔ |  ✔  |  ✔  |  ✔  |  ✔  |
+| Knowledge management  |  ✔  |  ✔  |✔| Read only | ✔ |
+| Insights, analytics, and dashboards | ✔ | ✔| ✔ | ✖ | ✖ |
+| Service scheduling  | ✔ | Not applicable | ✔ | ✖ | ✔ |
 | Connected Service with IoT  |✔  | ✖ | ✔  | ✖ |✖  |
 | Extensibility  | ✔ with Channel Integration Framework version 2.0, custom messaging channel | ✔ with Channel Integration Framework version 2.0, custom messaging channel, Mobile SDK | ✔ with Channel Integration Framework version 1.0 | ✖ | ✖ |
 | Unified Interface compliant  | ✔ | ✔ | ✔ | ✔ |✖  |
-| Basic Administration  |Customer Service Hub -> Service Management  | Omnichannel Administration application |Customer Service Hub -> Service Management  | ✖ | Settings -> Service Management |
-| Case Routing & Queue Configuration  | Customer Service Hub -> Service Management | Omnichannel Administration application |Customer Service Hub -> Service Management  | ✖ | Settings -> Service Management |
-| Add & Configure Channels  | Omnichannel Administration  | Omnichannel Administration | ✖ | ✖ | ✖ |
-| Control User Experience for Agent & Supervisor | In app profile manager | In app profile manager | ✖ |  ✖| ✖ |
-| Licensing: Customer Service Professional  | ✖  |✖  | ✔ | ✖ |  ✖|
-| Licensing: Customer Service Enterprise  | ✔  | ✔ | ✔  | ✔ | Not applicable |
-| Licensing: Chat  | ✔  | ✔ | ✖ | ✖ |✖  |
-| Licensing: Digital Messaging  | ✔  | ✔ | ✖ | ✖ |✖  |
-|||||||
+
 
 **Legend**
 
