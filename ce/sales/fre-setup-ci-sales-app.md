@@ -22,7 +22,7 @@ You can configure conversation intelligence with Microsoft Teams. After you sign
 After configuring conversation intelligence, a sales manager or a seller can view the data and settings that are relevant to them. More information: [Configure sales team level settings](configure-sales-team-level-settings.md)
 
 > [!NOTE]
-> You can also enable call recording through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get three hours of conversation intelligence per month. To also enable call recording through quick setup, you must go to the **Get started with digital sales** page under **App Settings**. More information: [Microsoft Teams calls with conversation intelligence](digital-selling.md#microsoft-teams-calls-with-conversation-intelligence)
+> You can also enable call recording through quick setup (with the Dynamics 365 Sales Enterprise license). In this case, you'll get three hours of conversation intelligence per month. To also enable call recording through quick setup, you must go to the **Get started with digital sales** page under **App Settings**. More information: [Microsoft Teams calls with conversation intelligence](digital-selling-microsoft-teams-calls.md)
 
 ## License and role requirements
 | Requirement type | You must have |  
@@ -45,7 +45,7 @@ Review the following requirements before you configure Teams recording for conve
 ### Enable calling with Teams 
 
 Before you can proceed to configure Teams with conversation intelligence, you must enable the Teams dialer for your organization (for phone calls recording) and configure the Dynamics 365 Sales app for Teams (for online meetings). More information: 
-- [Configure Microsoft Teams dialer](configure-microsoft-teams-dialer)
+- [Configure Microsoft Teams dialer](configure-microsoft-teams-dialer.md)
 - [Enable Microsoft Teams meeting integration (preview)](teams-integration/enable-teams-meeting-integration.md)
 
 <a name="teams-tenant-admin-contact"></a>
