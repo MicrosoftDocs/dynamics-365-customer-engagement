@@ -137,6 +137,8 @@
         items:
         - name: Configure Teams chat
           href: teams-integration/enable-teams-chat.md
+        - name: Configure contact suggestions
+          href: teams-integration/enable-contact-suggest.md
       - name: Microsoft Teams meeting integration
         items:
         - name: Enable Microsoft Teams meeting integration
