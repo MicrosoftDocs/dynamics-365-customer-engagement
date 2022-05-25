@@ -78,6 +78,7 @@ Microsoft.Omnichannel.sendMessageToConversation(validRichObjJSON,  false);
 
 [Live chat SDK reference](../../omnichannel-reference.md)  
 [Omnichannel JavaScript API reference](../../omnichannel-api-reference.md)  
+[openConversation](openConversation.md)  
 [getConversationId](getConversationId.md)  
 [linkToConversation](linkToConversation.md)  
 [unlinkFromConversation](unlinkFromConversation.md)  
