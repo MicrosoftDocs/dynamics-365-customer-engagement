@@ -75,9 +75,12 @@ The following table provides the features that can be configured through the adm
 | Licensing: Customer Service Enterprise | ✔ | ✔ | ✔ | ✔ |
 | Licensing: Chat | ✔ | ✔ | ✖ | ✖|
 | Licensing: Digital Messaging| ✔ | ✔ | ✖ | ✖ |
-||||||
 
+**Legend**
 
+✔: Generally available.
+
+✖: Not available
 
 ## Use agent apps to service customers
 
@@ -97,7 +100,6 @@ The following capabilities are available in the different app experiences, depen
 | Connected Service with IoT  |✔  | ✖ | ✔  | ✖ |✖  |
 | Extensibility  | ✔ with Channel Integration Framework version 2.0, custom messaging channel | ✔ with Channel Integration Framework version 2.0, custom messaging channel, Mobile SDK | ✔ with Channel Integration Framework version 1.0 | ✖ | ✖ |
 | Unified Interface compliant  | ✔ | ✔ | ✔ | ✔ |✖  |
-
 
 **Legend**
 
