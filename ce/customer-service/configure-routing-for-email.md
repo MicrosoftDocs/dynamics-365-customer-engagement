@@ -32,7 +32,6 @@ When an email comes from a customer, you can use one of the following methods to
     
     1. **Configure queues**: Create queues, and configure assignment methods. More information: [Create queues for unified routing](queues-omnichannel.md)
 
-
 The high-level process of how email can be routed using unified routing is depicted in the following architecture diagram.
 
 :::image type="content" source="media/email-routing-architecture.png" alt-text="Architecture diagram of email routing.":::
