@@ -14,8 +14,8 @@ manager: shujoshi
 Pre-installing and pinning the Dynamics 365 app in Teams increases the discoverability of the app by business users and encourages them to share records in a secure way. It requires creating a custom Teams app policy and assigning the policy to users.
 
 > [!NOTE]
-> - The ability [to pre-install and pin apps for users by managing app policies](https://docs.microsoft.com/en-us/microsoftteams/teams-app-setup-policies) is available as part of Microsoft Teams and is not a feature of Microsoft Dynamics 365. This document details how to use the Microsoft Teams feature to pre-install the Dynamics 365 app for Teams.
-> - You need to be a Teams administrator to pre-install and pin the Dynamics 365 app for Teams for business users. For more information on Teams administrator roles, refer to [Use Microsoft Teams administrator roles to manage Teams](https://docs.microsoft.com/en-us/microsoftteams/using-admin-roles).
+> - The ability [to pre-install and pin apps for users by managing app policies](/microsoftteams/teams-app-setup-policies) is available as part of Microsoft Teams and is not a feature of Microsoft Dynamics 365. This document details how to use the Microsoft Teams feature to pre-install the Dynamics 365 app for Teams.
+> - You need to be a Teams administrator to pre-install and pin the Dynamics 365 app for Teams for business users. For more information on Teams administrator roles, refer to [Use Microsoft Teams administrator roles to manage Teams](/microsoftteams/using-admin-roles).
 
 ## Create a custom Teams app setup policy
 
@@ -47,7 +47,7 @@ Pre-installing and pinning the Dynamics 365 app in Teams increases the discovera
 
 10.  In the **Add pinned apps** panel, search for the **Dynamics 365** app, and then select **Add**. You can also filter apps by app permission policy.
 
-    ![Pin the Dynamics 365 app](media/teams-admin-pin-d365-app.png "Pin the Dynamics 365 app")
+        ![Pin the Dynamics 365 app](media/teams-admin-pin-d365-app.png "Pin the Dynamics 365 app")
 
 11. Select **Add**.
 
@@ -82,8 +82,8 @@ Policy assignment to groups lets you assign a policy to a group of users, such a
     ![Assign a group policy](media/teams-admin-group-policy-assign.png "Assign a group policy")
 
 > [!NOTE]
-> - To learn more about assignment policies on Teams, go to [Assign policies to users and groups](https://docs.microsoft.com/en-us/microsoftteams/assign-policies-users-and-groups#assign-a-policy-to-individual-users).
-> - You can also [assign the policy to individual users](https://docs.microsoft.com/en-us/microsoftteams/assign-policies-users-and-groups#assign-a-policy-to-individual-users)
+> - To learn more about assignment policies on Teams, go to [Assign policies to users and groups](/microsoftteams/assign-policies-users-and-groups#assign-a-policy-to-individual-users).
+> - You can also [assign the policy to individual users](/microsoftteams/assign-policies-users-and-groups#assign-a-policy-to-individual-users)
 
 ### See also
 
