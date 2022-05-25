@@ -1532,6 +1532,8 @@
           href: developer/reference/methods/linkToConversation.md
         - name: unlinkFromConversation
           href: developer/reference/methods/unlinkFromConversation.md 
+        - name: sendMessageToConversation
+          href: developer/reference/methods/sendMessageToConversation.md
     - name: runMacro
       href: developer/reference/methods/runMacro.md
     - name: Action Reference
