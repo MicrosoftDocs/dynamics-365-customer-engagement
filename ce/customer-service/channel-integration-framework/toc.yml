@@ -92,6 +92,8 @@
       - name: "Client-side events"
         href: reference/client-side-events.md
         items:
+        - name: "CIFInitDone"
+          href: reference/events/cifinitdone.md
         - name: "onclicktoact"
           href: reference/events/onclicktoact.md
         - name: "onmodechanged"
@@ -102,8 +104,6 @@
           href: reference/events/onsendkbarticle.md
         - name: "onsizechanged"
           href: reference/events/onsizechanged.md
-        - name: "CIFInitDone"
-          href: reference/events/cifinitdone.md
       - name: Entity reference
         items:
         - name: "msdyn_ciprovider"

@@ -1,7 +1,7 @@
 ---
 title: "Help resources for Dynamics 365 Customer Service | MicrosoftDocs"
 description: "A starting point for learning Customer Service Hub for Dynamics 365 Customer Service."
-ms.date: 12/16/2020
+ms.date: 05/25/2022
 ms.topic: get-started-article
 author: neeranelli
 ms.author: nenellim
@@ -45,7 +45,7 @@ ms.custom:
   <li><a href="whats-new-customer-service.md" data-raw-source="[What's new in Dynamics 365 Customer Service]whats-new-customer-service.md">What's new in Dynamics 365 Customer Service</a></li>
 <li><a href="Configure-cs.md" data-raw-source="[Configure Customer Service]Configure-cs.md">Configure Customer Service</a></li>
 <li><a href="csw-overview.md" data-raw-source="[Use Customer Service workspace]csw-overview.md">Use Customer Service workspace</a></li>
-
+<li><a href="cs-admin-center.md" data-raw-source="[Use Customer Service admin center]cs-admin-center.md">Use Customer Service admin center</a></li>
 <li><a href="oc-admin-center.md" data-raw-source="[Use Omnichannel admin center]oc-admin-center.md">Use Omnichannel admin center</a></li>
 
       
