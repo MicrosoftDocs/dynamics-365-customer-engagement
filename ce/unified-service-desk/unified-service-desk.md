@@ -1,7 +1,7 @@
 ---
 title: "Unified Service Desk Guide | MicrosoftDocs"
 description: "Use this topic as a starting point to understand Unified Service Desk and its features. Also find useful links for configuring and administering the product."
-ms.date: 05/20/2022
+ms.date: 05/26/2022
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -107,6 +107,7 @@ ms.custom:
 </table>
 
 ::: moniker range="dynamics-usd-3"
+
 ### Videos
 
 See the video to know [What's New in Unified Service Desk 3.3](https://go.microsoft.com/fwlink/?linkid=2008774).
@@ -114,7 +115,6 @@ See the video to know [What's New in Unified Service Desk 3.3](https://go.micros
 
 ### See also
 
- <a href="https://blogs.msdn.com/b/usd/" data-raw-source="[Unified Service Desk Team Blog](https://blogs.msdn.com/b/usd/)">Unified Service Desk Team Blog</a>
-
+[Unified Service Desk Blog](https://cloudblogs.microsoft.com/dynamics365/it/2021/06/22/host-web-apps-using-microsoft-edge-webview2-process-in-unified-service-desk/)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
