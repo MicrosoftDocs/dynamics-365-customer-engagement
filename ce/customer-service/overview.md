@@ -66,9 +66,10 @@ The following capabilities are available in the different app experiences, depen
 |  Features | [Customer Service workspace](csw-overview.md) | [Omnichannel for Customer Service](./introduction-omnichannel.md) | [Customer Service Hub](user-guide-customer-service-hub.md) | [Customer Service Team Member](customer-service-team-member.md) | [Customer Service app (Deprecated)](user-guide-customer-service.md) |
 |---------------------------------------------------------------------|------------|------------|------------|------------|------------|
 | Multisession          | ✔ | ✔ | ✖ | ✖ | ✖ |
+| Case management  | ✔ |  ✔  |  ✔  |  ✔  |  ✔  |
 | Conversations (with Chat or Digital Messaging Offers)  | ✔ | ✔ |✖  | ✖ |✖  |
 | Channels (with Digital Messaging Offer)  | ✔ | ✔ |✖  | ✖ |✖  |
-| Case management  | ✔ |  ✔  |  ✔  |  ✔  |  ✔  |
+|Voice channel (with Voice Channel for Dynamics 365 Customer Service)| ✔ | ✔ |✖  | ✖ |✖  |
 | Knowledge management  |  ✔  |  ✔  |✔| Read only | ✔ |
 | Insights, analytics, and dashboards | ✔ | ✔| ✔ | ✖ | ✖ |
 | Service scheduling  | ✔ | Not applicable | ✔ | ✖ | ✔ |
