@@ -57,6 +57,27 @@ You can configure and manage the different capabilities in Customer Service by u
   > [!NOTE]
   > The Omnichannel Administration app won't be supported after April 30, 2022, and will be deprecated in a future release. We recommend that you use the Omnichannel admin center app. The latest features, such as unified routing and voice channel, can be configured and used only in this admin app. For more information about the deprecation announcement, see [Omnichannel Administration app is deprecated](../customer-service/deprecations-customer-service.md#omnichannel-administration-app-is-deprecated).
 
+The following table provides the features that can be configured through the admin apps.
+
+| Feature| Customer Service admin center | Omnichannel admin center |Customer Service Hub -> Service Management | Power Apps |
+|--------|-------------------------------|--------------------------|-------------------------------------------|------------|
+| Basic administration for Customer service| ✔ | ✖ | ✔ | ✖|
+| Case routing and queue configuration | ✔ | ✔ |✔| ✖ |
+| Configure service scheduling|✔|✖|✔|✖|
+| Add and configure channels| ✔ | ✔ |✖| ✖ |
+| Configure agent experience profiles |✔ | ✖| ✖ |✔|
+| Configure unified routing |✔|✔|✔|✖|
+| Configure voice channel |✔|✔|✖|✖|
+| Configure knowledge management|✔|✖|✔|✖|
+| Configure Insights, analytics, and dashboards|✔|✔|✔|✖|
+| Configure productivity tools |✔|✔|✖|✖|
+| Licensing: Customer Service Professional| ✔|✖ | ✔ | ✔|
+| Licensing: Customer Service Enterprise | ✔ | ✔ | ✔ | ✔ |
+| Licensing: Chat | ✔ | ✔ | ✖ | ✖|
+| Licensing: Digital Messaging| ✔ | ✔ | ✖ | ✖ |
+||||||
+
+
 
 ## Use agent apps to service customers
 
