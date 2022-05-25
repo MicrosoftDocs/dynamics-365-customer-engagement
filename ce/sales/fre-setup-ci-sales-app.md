@@ -1,18 +1,13 @@
 ---
 title: "First-run setup experience for conversation intelligence in sales app"
 description: "First-run configuration of conversation intelligence for Microsoft Teams for your Dynamics 365 Sales environment."
-ms.date: 03/08/2022
+ms.date: 05/25/2022
 ms.custom: 
 ms.topic: article
 ms.assetid: 3e099e3a-f6cb-42cf-b84e-9f8b0c6ee9db
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 1
-topic-status: Drafting
 ---
 
 # First-run setup experience of Microsoft Teams for conversation intelligence
@@ -51,7 +46,7 @@ Review the following requirements before you configure Teams recording for conve
 
 Before you can proceed to configure Teams with conversation intelligence, you must enable the Teams dialer for your organization (for phone calls recording) and configure the Dynamics 365 Sales app for Teams (for online meetings). More information: 
 - [Configure Microsoft Teams dialer](configure-microsoft-teams-dialer)
-- [Install the Dynamics 365 app and set up the Microsoft Teams collaboration channel tab](../teams-integration/teams-install-app)
+- [Enable Microsoft Teams meeting integration (preview)](teams-integration/enable-teams-meeting-integration.md)
 
 <a name="teams-tenant-admin-contact"></a>
 > [!NOTE]
@@ -72,7 +67,7 @@ Before you can proceed to configure Teams with conversation intelligence, you mu
 4.	In the **Microsoft Teams call recordings (preview)** section, enable the preview and then configure the other settings as described in the following table.
 
      > [!NOTE]
-     > Depending on what you've configured, the recording policy applies for calls, meetings, or both. For example, if you've configured both Teams dialer and Dynamics 365 app for teams, the recording policy will apply for both calls and meetings. You can also open the Teams calls and meetings configuration pages from the More options menu.
+     > Depending on what you've configured, the settings apply for calls, meetings, or both. For example, if you've configured both Teams dialer and Dynamics 365 app for teams, the settings will apply for both calls and meetings.
 
     | Option | Description |
     |--------|-------------|
