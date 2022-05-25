@@ -1,7 +1,7 @@
 ---
 title: Automatically create or update records in Customer Service Hub (Dynamics 365 Customer Service) | MicrosoftDocs
 description: Know how to automatically create or update records by setting up rules in Dynamics 365 Customer Service
-ms.date: 05/24/2022
+ms.date: 05/25/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -211,7 +211,7 @@ The mails from known senders only will be processed.
 
 The steps in this section are applicable only when you select the option to manually map in Power Automate in the **Manage unknown senders by** field on the **Advanced** tab of the record creation and update rule.
 
-The option to create the contact is based on the email sender's permission. If the email sender doesn't have the permission, you can configure an environment variable to use the permissions of the automatically create record rule. See **Create contacts for unknown senders using rule owner context** for more information.
+The option to create the contact is based on the email sender's permission. If the email sender doesn't have permission to create a contact and you prefer to not give them this permission, you can configure an environment variable to use the permissions of the rule owner. More information: [Create contacts for unknown senders using rule owner context](#create-contacts-for-unknown-senders-using-rule-owner-context)
 
 To create a contact for unknown senders of mail, configure the following options in Power Automate for the associated rule item:
 
@@ -241,7 +241,7 @@ By default, a contact for unknown email sender is created with the email owner c
 
 1. Go to the [Power Apps](https://make.powerapps.com) portal.
 
-2. Select the required environment, select **Solutions** in the left pane.
+2. Select the required environment, and then select **Solutions** in the left pane.
 
 3. On the **Solutions** page, select **Default Solution**.
 
