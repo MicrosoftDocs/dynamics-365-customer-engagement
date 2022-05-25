@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 05/23/2022
+ms.date: 05/24/2022
 ms.custom:
   - dyn365-marketing
 ms.topic: article
@@ -72,6 +72,7 @@ The update also includes improved email content blocks, the ability to manually 
 - **Use outbound subscription centers in real-time journeys**
     - Collecting consent is a critical business need. Subscription centers are a way to gather consent preferences from your customers. Businesses need to be able to customize their subscription center to match their branding and business needs. They also need the ability to create different subscription centers for different regions, brands, or lines of business. Now, you can bring the flexibility of subscription centers available in outbound marketing to real-time marketing journeys, enabling you to have multiple subscription centers, customized and branded to your needs.
     - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/use-outbound-marketing-subscription-centers-real-time-marketing-journeys)
+    - [Docs](real-time-marketing-outbound-subscription.md)
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of outbound subscription centers in real-time marketing.](media/whats-new-outbound-subscription.png "Screenshot of outbound subscription centers in real-time marketing")
