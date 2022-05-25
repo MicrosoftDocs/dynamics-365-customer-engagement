@@ -90,7 +90,7 @@ An administrator must enable the feature before you can start using it. More inf
 The following screenshot shows an example of enhanced relationship analytics:   
 
 > [!div class="mx-imgBorder"]
-> ![Relationship analytics home page](media/relationship-analytics-home-page1.png "Relationship analytics home page")   
+> ![Relationship analytics home page](media/relationship-analytics-home-page.png "Relationship analytics home page")   
 
 1. **Summary**: Shows the summary of metrics and KPIs obtained for the records from your interactions with customers through emails, meetings, and phone calls. For example, *You take 12 hours less to respond to emails compared to the similar opportunities*.  
 2. **Relationship health**: Shows your overall relationship health with the customer, and includes the recent trend for the deal.     
