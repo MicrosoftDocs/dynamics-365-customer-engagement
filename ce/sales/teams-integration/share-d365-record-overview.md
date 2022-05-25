@@ -30,8 +30,8 @@ When having a conversation with other people over Teams, you might want to share
 > [!NOTE]
 > The functionality of sharing Dynamics 365 records in Teams is not supported on mobile devices.
 
-
 The information in the interactive card is displayed using the view of type **Quick Find View** of a table. To change the information displayed in the cards, admins can [edit the columns](/power-apps/maker/model-driven-apps/choose-and-configure-columns) in the [**Quick Find View**](/power-apps/maker/model-driven-apps/create-edit-views#system-views) view of a table as per the requirement.
+
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4XVnt]
 

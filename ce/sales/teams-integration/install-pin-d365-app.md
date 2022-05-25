@@ -11,7 +11,13 @@ manager: shujoshi
 
 # Pre-install and pin the Dynamics 365 app in Microsoft Teams
 
+The Dynamics 365 app for Teams now allows sellers to share and update Dynamics 365 records, as an interactive card, within Teams conversations. The information in the interactive card is displayed using the view of type **Quick Find View** of a table. To change the information displayed in the cards, you can [edit the columns](/power-apps/maker/model-driven-apps/choose-and-configure-columns) in the [**Quick Find View**](/power-apps/maker/model-driven-apps/create-edit-views#system-views) view of a table as per the requirement.
+
 Pre-installing and pinning the Dynamics 365 app in Teams increases the discoverability of the app by business users and encourages them to share records in a secure way. It requires creating a custom Teams app policy and assigning the policy to users.
+
+After you create a custom policy and assigned it to users, you must encourage your users to sign in to the Dynamics 365 app for Teams to view, share, and update Dynamics 365 records in Microsoft Teams chats and channels. They  need to sign in only once and signing in provides a seamless user experience. When users have the app installed but have not signed in, and they access the Dynamics 365 record in Teams, the following message is displayed in the interactive card.
+
+:::image type="content" source="media/sign-in-msg.png" alt-text="Sign in to Dynamics 365 app":::
 
 > [!NOTE]
 > - The ability [to pre-install and pin apps for users by managing app policies](/microsoftteams/teams-app-setup-policies) is available as part of Microsoft Teams and is not a feature of Microsoft Dynamics 365. This document details how to use the Microsoft Teams feature to pre-install the Dynamics 365 app for Teams.
@@ -19,7 +25,7 @@ Pre-installing and pinning the Dynamics 365 app in Teams increases the discovera
 
 ## Create a custom Teams app setup policy
 
-1.  Log in to [Microsoft Teams admin center](https://admin.teams.microsoft.com/).
+1.  Sign in to [Microsoft Teams admin center](https://admin.teams.microsoft.com/).
 
 2.  In the left pane, go to **Teams apps** &gt; **Setup policies**.
 
@@ -57,11 +63,11 @@ Pre-installing and pinning the Dynamics 365 app in Teams increases the discovera
 
 13. Select **Save**.
 
-## Assign the custom Teams app setup policy to a user groups
+## Assign the custom Teams app setup policy to a user group
 
 Policy assignment to groups lets you assign a policy to a group of users, such as a security group, an organizational unit, or a distribution list.
 
-1.  Log in to [Microsoft Teams admin center](https://admin.teams.microsoft.com/).
+1.  Sign in to [Microsoft Teams admin center](https://admin.teams.microsoft.com/).
 
 2.  In the left pane, go to **Teams apps** &gt; **Setup policies**.
 
