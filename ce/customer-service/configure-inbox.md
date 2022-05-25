@@ -70,10 +70,6 @@ You can configure the inbox in the [Customer Service admin center](/app-profile-
       - **Show**
       - **Hide**
 
-## Enable the inbox in App profile manager
-
-After you enable the inbox for a profile, any user who is added to the profile can use the inbox. More information: [Configure the inbox view in App profile manager.](/dynamics365/app-profile-manager/app-profile-manager#configure-the-inbox-view)
-
 ## Inbox views
 
 The following views are supported in the inbox:
