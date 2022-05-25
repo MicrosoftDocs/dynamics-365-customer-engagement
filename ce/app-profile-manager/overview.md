@@ -16,7 +16,7 @@ ms.topic: overview
 
 ## Introduction
 
-You can create targeted app experiences for agents and supervisors. Agent experience profiles are an alternative to building and maintaining custom apps.
+Agent experience profiles enable you to create targeted app experiences for agents and supervisors, and are an alternative to building and maintaining custom apps.
 With the agent experience profiles, administrators can create custom profiles with specific session templates, conversation channels, and productivity tools. These profiles can then be assigned to users.
 
 Agent productivity tools use intelligence and automation to enable agents to find answers to customer questions and help resolve customer issues quickly, thereby improving satisfaction in service delivery. Agent productivity tools enable easy knowledge base search, suggestions for similar knowledge articles and cases, and agent scripts with macros to automate tasks in common workflows. 
@@ -39,7 +39,7 @@ For existing orgs, only steps 4 and 5 are required.
 
 Thereafter, users with the required agent or supervisor role will be able to see and use the settings that are made available through the assigned agent experience profile. If you do not assign an agent experience profile, by default, the out-of-the-box agent experience profile will be assigned.
 
-You can create and manage agent experience profiles in the Customer Service Admin Center app or in Power Apps.
+You can create and manage agent experience profiles in the [Customer Service Admin Center app](agent_experience_profile_create.md) or in [Power Apps](agent_profile_powerapp.md).
 
 ### See also
 

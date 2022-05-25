@@ -68,3 +68,12 @@ You can access the following options in the **Productivity** area:
 ## Upgrade experience for existing Omnichannel for Customer Service
 
 When you upgrade your existing environments, the settings for templates, productivity tools, and channels configuration in the out-of-the-box app profile will reflect the existing state of your environment. For example, if productivity pane is enabled and smart assist is configured, the settings will be retained in the out-of-the-box app profile.
+
+### See also
+
+[Create and use agent experience profiles](app-profile-manager.mg)
+[Manage session templates](session-templates.md)  
+[Configure channels](../customer-service/channels.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
