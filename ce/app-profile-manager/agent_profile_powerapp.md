@@ -71,7 +71,7 @@ When you upgrade your existing environments, the settings for templates, product
 
 ### See also
 
-[Create and use agent experience profiles](app-profile-manager.mg)
+[Create and use agent experience profiles](app-profile-manager.md)
 [Manage session templates](session-templates.md)  
 [Configure channels](../customer-service/channels.md)  
 
