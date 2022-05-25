@@ -43,11 +43,12 @@ Microsoft.Omnichannel.unlinkFromConversation("incident", "6b726d86-d37c-43b8-b3a
 
 ### See also
 
-[Live chat SDK JavaScript API reference](../../omnichannel-reference.md)  
+[Live chat SDK reference](../../omnichannel-reference.md)  
 [Omnichannel JavaScript API reference](../../omnichannel-api-reference.md)  
 [getConversations](getConversations.md)  
 [getConversationId](getConversationId.md)  
 [linkToConversation](linkToConversation.md)  
 [openConversation](openConversation.md)  
+[sendMessageToConversation](sendMessageToConversation.md)  
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

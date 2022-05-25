@@ -200,10 +200,12 @@
       href: known-issues.md
   - name: "Real-time marketing user guide"
     items: 
-    - name: Real-time marketing user guide overview
+    - name: Real-time marketing user guide
       href: real-time-marketing-user-guide.yml
     - name: Get started with real-time marketing
-      items: 
+      items:
+      - name: Real-time marketing overview
+        href: real-time-marketing-overview.md 
       - name: Use Customer Insights profiles and segments in real-time marketing
         href: real-time-marketing-ci-profile.md
       - name: Known issues in real-time marketing
@@ -260,6 +262,10 @@
         items:
         - name: Access and interpret analytics
           href: real-time-marketing-analytics.md
+        - name: How to use aggregate cross-journey analytics
+          href: real-time-marketing-cross-journey-analytics.md
+        - name: How to use aggregate channel analytics
+          href: real-time-marketing-channel-analytics.md
     - name: Manage assets
       items: 
       - name: Real-time marketing asset library
@@ -268,6 +274,8 @@
       items: 
       - name: Manage consent for email and text messages in real-time marketing
         href: real-time-marketing-email-text-consent.md
+      - name: Use outbound subscription centers in real-time journeys
+        href: real-time-marketing-outbound-subscription.md
       - name: Real-time marketing domain authentication
         href: real-time-marketing-domain.md
       - name: Select the audience source for real-time journeys
