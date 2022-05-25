@@ -82,6 +82,5 @@ Microsoft.Omnichannel.sendMessageToConversation(validRichObjJSON,  false);
 [linkToConversation](linkToConversation.md)  
 [unlinkFromConversation](unlinkFromConversation.md)  
 [getConversations](getConversations.md)  
-[sendMessageToConversation](sendMessageToConversation.md)  
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
