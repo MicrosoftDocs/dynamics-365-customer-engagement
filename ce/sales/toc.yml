@@ -137,6 +137,10 @@
         items:
         - name: Configure Teams chat
           href: teams-integration/enable-teams-chat.md
+        - name: Configure contact suggestions
+          href: teams-integration/enable-contact-suggest.md
+        - name: Configure join chat
+          href: teams-integration/enable-join-chat.md
       - name: Microsoft Teams meeting integration
         items:
         - name: Enable Microsoft Teams meeting integration
@@ -548,6 +552,8 @@
         items:
         - name: Use Teams chat in Sales Hub
           href: teams-integration/using-teams-chat-in-dynamics.md
+        - name: Join an existing linked chat
+          href: teams-integration/join-chat.md
         - name: Teams chat integration FAQ
           href: teams-integration/teams-in-dynamics-faq.md
       - name: Microsoft Teams meeting integration

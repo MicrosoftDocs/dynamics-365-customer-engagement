@@ -1,7 +1,7 @@
 ---
 title: "Use Teams chat in Sales Hub | MicrosoftDocs"
 description: "Start Teams chat conversations from within Sales Hub and link them to records"
-ms.date: 05/24/2022
+ms.date: 05/25/2022
 ms.topic: article
 author: sbmjais
 search.app: 
@@ -50,13 +50,42 @@ The **Teams chats (Preview)** pane opens and displays the following sections on 
 
 - **Chats linked to *record*** lists Teams chats that either you've linked to the selected record or someone else has linked with you as a participant.
     
-- **Suggested contacts** lists suggested contacts depending on the users who are working on the record. For more information, go to [How contact suggestions work](#how-contact-suggestions-work), later in this topic.
-
 - **Other chats** lists your top 200 chat conversations on Teams. You can select any existing conversation and link it to a record.
 
 The **Channel** tab lists the channels that you've linked to the selected record, and any channels someone else has linked to where you're a participant. If you've linked a record to a channel by using the basic or enhanced collaboration experience, that channel is also listed on this tab.
 
+## View all linked Dynamics 365 chats
+
+Open the dashboard or list view of any Dynamics 365 customer engagement table or entity, such as an opportunities list view, and select :::image type="icon" source="media/teams-icon.png" border="false":::. All your linked Dynamics 365 chats will appear under **Chats linked to records**.
+
+## Start a linked Teams chat in Dynamics 365
+
+You can start a new linked chat or convert an existing Teams chat into a linked chat to associate the chat with a Dynamics 365 record.
+
+1.  Open any Dynamics 365 customer engagement record and select :::image type="icon" source="media/teams-icon.png" border="false":::.
+
+    The **Teams chats (preview)** pane opens.
+
+2.  To start a new linked chat with a participant, select **New linked chat** in the **Chats linked to *record*** section.
+
+3. Use one of the following methods to add participants:
+
+    - In the **Participants** field, browse and select the names of the participants you want to chat with.
+    - A list of suggested contacts is automatically displayed for the **Participants** field. Select a participant's name from the **Suggested contacts** list. The **Suggested contacts** list displays the contacts of the users who are working on the record. More information: [How contact suggestions work](#how-contact-suggestions-work)
+
+    The chat name uses the record name or the participant's names, depending on the configuration that your administrator chose. To set the chat name as the record name, you can ask your administrator to turn on the **Use record title as the default chat name for linked chats** setting. You can modify the chat name. It's a good idea to provide a meaningful name so that you can identify the chat even when you're in Teams.
+
+4. After adding the participants, select **Start chat**.
+
+All the participants in the linked chat will see the chat when they open the record in Dynamics 365.
+
 ### How contact suggestions work
+
+The suggested contacts capability helps you to quickly find the right coworkers to collaborate with. This collaboration can help you more quickly work on sales queries.
+
+If you don't see suggested contacts for a record type, your administrator might not have turned on the suggested contacts capability for the record type. Ask your administrator to turn on the capability for that record type.
+
+For the case record type, there are two types of contact suggestions: AI and rules-based. Other record types enabled for linked chats may only have rules-based suggestions.
 
 The suggested contacts list displays users who are connected or have interacted with the record. Accordingly, a suggested contact can be one or more of the following users, in the given order:
 
@@ -75,32 +104,6 @@ The suggested contacts list displays users who are connected or have interacted 
 -   Other users who have logged an activity in the record timeline.
 
 -   *(Applicable only for an opportunity)* All the connected sales team members.
-
-## View all linked Dynamics 365 chats
-
-Open the dashboard or list view of any Dynamics 365 customer engagement table or entity, such as an opportunities list view, and select :::image type="icon" source="media/teams-icon.png" border="false":::. All your linked Dynamics 365 chats will appear under **Chats linked to records**.
-
-## Start a linked Teams chat in Dynamics 365
-
-You can start a new linked chat or convert an existing Teams chat into a linked chat to associate the chat with a Dynamics 365 record.
-
-1.  Open any Dynamics 365 customer engagement record and select :::image type="icon" source="media/teams-icon.png" border="false":::.
-
-    The **Teams chats (preview)** pane opens.
-
-2.  Use one of the following methods:
-
-    -  To start a new linked chat with a participant, select **New linked chat** in the **Chats linked to *record*** section.
-
-    -  To start a linked chat with a suggested contact, select **More (…)** > **Start a linked chat with _contact_** in the **Suggested contacts** section.
-
-    -  To convert an existing chat into a linked chat, select the chat from the **Other chats** section, and then select **More (…)** > **Link to this _record_**.
-
-    The chat name uses the record name or the participant's names, depending on the configuration that your administrator chose. To set the chat name as the record name, you can ask your administrator to turn on the **Use record title as the default chat name for linked chats** setting. You can modify the chat name. It's a good idea to provide a meaningful name so that you can identify the chat even when you're in Teams.
-
-3.  Add more participants to the chat, if you want to.
-
-All the participants in the linked chat will see the chat when they open the record in Dynamics 365.
 
 ## Link or unlink an existing chat from a record
 
@@ -139,4 +142,5 @@ While you're in any of the records or in the list pane, select :::image type="ic
 
 ### See also
 
-[Enable or disable Microsoft Teams chat in Sales Hub](enable-teams-chat.md)
+[Enable or disable Microsoft Teams chat in Sales Hub](enable-teams-chat.md)   
+[Configure the ability to use suggested contacts](enable-contact-suggest.md)
