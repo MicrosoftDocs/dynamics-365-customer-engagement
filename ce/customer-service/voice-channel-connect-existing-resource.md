@@ -1,7 +1,7 @@
 ---
 title: "Connect to an existing Azure resource | MicrosoftDocs"
 description: "Use this article to understand how to connect to Azure Communication Services using an existing Azure resource."
-ms.date: 04/12/2022
+ms.date: 05/27/2022
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: neeranelli
