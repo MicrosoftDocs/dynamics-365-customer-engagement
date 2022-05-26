@@ -858,7 +858,7 @@
         href: csw-productivity-pane.md
       - name: View smart assist suggestions for knowledge articles and similar cases
         href: oc-view-ai-suggested-cases-articles.md
-      - name: View smart assist suggestions for agents configured using custom Azure bot
+      - name: View smart assist suggestions
         href: oc-smart-assist.md
       - name: Use agent scripts for customer interactions
         href: oc-agent-scripts.md
