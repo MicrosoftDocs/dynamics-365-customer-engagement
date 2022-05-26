@@ -29,7 +29,7 @@ Agent scripts in Omnichannel for Customer Service provide guidance about what yo
 3. Macro
 4. Agent script
 
-The agent script section consists of a set of steps. Based on the type of agent script the administrator has configured, you might see the following types: 
+The agent script section consists of a set of steps. Based on the type of agent script the administrator has configured, you might see the following types:
 
 - Text instructions
 - Macro
