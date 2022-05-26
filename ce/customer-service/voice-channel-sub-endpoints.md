@@ -36,7 +36,7 @@ This article explains how you can enable recording and SMS services by creating 
 
 1. In the **Phone numbers** page that opens, select a phone number, and then select **Advanced**.
 
-1. In the **Manage Azure Communication Services** page that opens, select **Copy** next to **Recording Web Hook Endpoint** and paste the web hook endpoint value in the **Subscriber Endpoint** field.
+1. In the **Manage Azure Communication Services** page that opens, select **Copy** next to **Recording Web Hook Endpoint** and paste the web hook endpoint value in the **Subscriber Endpoint** field of the **Event Grid Subscription** page.
     > [!div class="mx-imgBorder"]
     > ![Copy recording web hook endpoint.](./media/voice-channel-recording-webhook-endpoint.png "Copy recording web hook endpoint.")
 
@@ -55,7 +55,7 @@ This article explains how you can enable recording and SMS services by creating 
 
 1. In the **Phone numbers** page that opens, select a phone number, and then select **Advanced**.
 
-1. In the **Manage Azure Communication Services** page that opens, select **Copy** next to **SMS Web Hook Endpoint** and paste the value in the **Subscriber Endpoint** field.
+1. In the **Manage Azure Communication Services** page that opens, select **Copy** next to **SMS Web Hook Endpoint** and note the value.
     > [!div class="mx-imgBorder"]
     > ![Copy SMS web hook endpoint.](./media/voice-channel-sms-webhook-endpoint.png "Copy SMS web hook endpoint.")
 
