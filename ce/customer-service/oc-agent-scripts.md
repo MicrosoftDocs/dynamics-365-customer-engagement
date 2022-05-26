@@ -43,7 +43,7 @@ Ensure you (agent and supervisor) have the **Productivity tools user** security 
 
 ## Text instructions
 
-The text instruction provides guidance on the actions you need to perform. The step in the agent script shows a title, instructions, and the Text instruction icon that is actionable. After you perform the step based on the instructions, you can select the **Mark as done** icon to indicate that you've completed the step.
+The text instruction provides guidance on the actions you need to perform. The step in the agent script shows the title, instructions, and the Text instruction icon that is actionable. After you perform the step based on the instructions, you can select the **Mark as done** icon to indicate that you've completed the step.
 
 **Example:**
 
