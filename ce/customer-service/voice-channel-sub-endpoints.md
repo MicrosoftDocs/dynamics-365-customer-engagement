@@ -68,6 +68,10 @@ This article explains how you can enable recording and SMS services by creating 
     > ![Add event subscription details for recording.](./media/voice-channel-create-event-subscription-recording.png "Add event subscription details for recording.")
     - **Name**: Enter a name for the recording event subscription.
     - **Event Schema**: Select **Event Grid Schema** from the dropdown list.
+    - **Topic Types**: Select **Azure Communication Services** from the dropdown list.
+    - **Subscription**: Select your subscription from the dropdown list.
+    - **Resource Group**: Select the resource group.
+    - **Resource**: Select the resource.
     - **System Topic Name**: This field is automatically populated with the system topic name you created. However, if you see multiple values, select the specific system topic name from the dropdown.
     - **Filter to Event Types**: For recording services, select the **Recording File Status Updated (Preview)** option from the dropdown list. 
     - **Endpoint Type**: Select **Web Hook** from the dropdown list.
