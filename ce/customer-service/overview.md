@@ -1,7 +1,7 @@
 ---
 title: "Customer Service Overview (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Overview of Dynamics 365 Customer Service"
-ms.date: 05/25/2022
+ms.date: 05/26/2022
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -63,18 +63,16 @@ The following table provides the features that can be configured through the adm
 |--------|-------------------------------|--------------------------|-------------------------------------------|------------|
 | Basic administration for Customer service| ✔ | ✖ | ✔ | ✖|
 | Case routing and queue configuration | ✔ | ✔ |✔| ✖ |
-| Configure service scheduling|✔|✖|✔|✖|
-| Add and configure channels| ✔ | ✔ |✖| ✖ |
-| Configure agent experience profiles |✔ | ✖| ✖ |✔|
-| Configure unified routing |✔|✔|✔|✖|
-| Configure voice channel |✔|✔|✖|✖|
-| Configure knowledge management|✔|✖|✔|✖|
-| Configure Insights, analytics, and dashboards|✔|✔|✔|✖|
-| Configure productivity tools |✔|✔|✖|✖|
-| Licensing: Customer Service Professional| ✔|✖ | ✔ | ✔|
-| Licensing: Customer Service Enterprise | ✔ | ✔ | ✔ | ✔ |
-| Licensing: Chat | ✔ | ✔ | ✖ | ✖|
-| Licensing: Digital Messaging| ✔ | ✔ | ✖ | ✖ |
+| Service-level agreements|✔|✖|✔|✖|
+| Service scheduling|✔|✖|✔|✖|
+| Live chat, social channels, Microsoft Teams, SMS| ✔ | ✔ |✖| ✖ |
+| Agent experience profiles |✔ | ✖| ✖ |✔|
+| Unified routing |✔|✔|✔|✖|
+| Voice channel |✔|✔|✖|✖|
+| Knowledge management|✔|✖|✔|✖|
+| Insights, analytics, and dashboards|✔|✔|✔|✖|
+| Productivity tools |✔|✔|✖|✖|
+
 
 **Legend**
 
@@ -85,7 +83,6 @@ The following table provides the features that can be configured through the adm
 ## Use agent apps to service customers
 
 The following capabilities are available in the different app experiences, depending on your needs. In the following table, select the app of your choice to read more about the details of the user experience in each app.
-
 
 |  Features | [Customer Service workspace](csw-overview.md) | [Omnichannel for Customer Service](./introduction-omnichannel.md) | [Customer Service Hub](user-guide-customer-service-hub.md) | [Customer Service Team Member](customer-service-team-member.md) | [Customer Service app (Deprecated)](user-guide-customer-service.md) |
 |---------------------------------------------------------------------|------------|------------|------------|------------|------------|
@@ -112,11 +109,11 @@ The following capabilities are available in the different app experiences, depen
 > [!NOTE]
 > For mobile devices, you can install the applicable app for your device. For more information, see [Install Dynamics 365 for phones and tablets](../mobile-app/Install-Dynamics-365-for-phones-and-tablets.md).
 
-If you're using a desktop browser, you'll see the various Customer Service apps in the app switcher as shown here:
+If you're using a desktop browser, you'll see the various Customer Service apps in the app switcher as shown here.
 
 ![open-sitemap.](media/open-csh-sitemap-overview.png "Customer Service Hub sitemap")
 
-If you're using a mobile device with Dynamics 365 for phones and tablets installed, you'll see the app tiles in the app switcher as shown here:
+If you're using a mobile device with Dynamics 365 for phones and tablets installed, you'll see the app tiles in the app switcher as shown here.
 
 ![csh-mobile.](media/ChooseAnApp_1.png "Customer Service Hub on mobile")
 
