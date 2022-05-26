@@ -77,7 +77,7 @@ When you uninstall Omnichannel for Customer Service from your organization, the 
 
 **To remove the solutions for Omnichannel historical analytics**
 
-1. Disable Omnichannel historical analytics in the Insights section of Omnichannel admin center. More information: [Configure Omnichannel historical analytics reports](/oc-historical-analytics-reports.md)
+1. Disable Omnichannel historical analytics in the Insights section of Omnichannel admin center. More information: [Configure Omnichannel historical analytics reports](/dynamics365/customer-service/oc-historical-analytics-reports)
 
 2. On the **Solutions** page, select and uninstall the following solutions, one at a time, in this order:
    1. `msdyn_InsightsAnalyticsOCConfiguration`

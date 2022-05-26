@@ -104,7 +104,7 @@ Navigate to **Field Service > Warehouse > Product Inventory** to view inventory 
 
 
 ### See also
-- [Install Field Service and Finance & Operations integration solution](https://appsource.microsoft.com/product/dynamics-365/mscrm.p2cfieldserviceintegration?tab=Overview)
+- [Install Field Service and Finance & Operations integration solution](https://appsource.microsoft.com/product/dynamics-365/mscrm.p2cfieldserviceintegrationv2?tab=Overview)
 - [Configure Field Service and Finance & Operations integration](/dynamics365/unified-operations/supply-chain/sales-marketing/field-service)
 
 
