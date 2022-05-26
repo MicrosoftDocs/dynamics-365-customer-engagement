@@ -25,10 +25,10 @@ Before you connect an existing Azure resource to Azure Communication Services, y
 
 - Get the following details from the Azure portal.
 
-    - Resource name and ID of your resource. 
+    - Name and ID of your Azure resource. 
        To get the resource name and ID, open your resource on the Azure portal, go to **Settings** > **Properties**. Note the values of the **ACS Resource Name** and **ACS Resource ID** fields.
 
-    - Connection string of your resource. 
+    - Connection string of your Azure resource. 
       To get the connection string, see [Access your connection string and endpoints](/azure/communication-services/quickstarts/create-communication-resource?tabs=windows&pivots=platform-azp#access-your-connection-strings-and-service-endpoints).
 
     - [Application ID and tenant ID for your registered app](voice-channel-resource-app-details.md#get-application-and-tenant-ids).
