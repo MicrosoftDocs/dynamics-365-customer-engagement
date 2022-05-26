@@ -36,6 +36,7 @@ This article includes short procedures to help you retrieve the resource name, r
    > [!div class="mx-imgBorder"]
    > ![Copy resource ID.](./media/voice-channel-resource-ID.png "Copy resource ID.")
 
+<!--->
 ### Get connection string
 
 **To get the connection string from the Azure portal**
@@ -45,7 +46,7 @@ This article includes short procedures to help you retrieve the resource name, r
 
    > [!div class="mx-imgBorder"]
    > ![Copy connection string.](./media/voice-channel-connection-string.png "Copy connection string.")
-
+--->
 ### Get application and tenant IDs
 
 **To get the application and tenant IDs from the Azure portal**

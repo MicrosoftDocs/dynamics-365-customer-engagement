@@ -25,13 +25,22 @@ Before you connect an existing Azure resource to Azure Communication Services, y
 
 - Get the following details from the Azure portal.
 
-    - [Resource name and ID of your resource](voice-channel-resource-app-details.md#get-resource-name-and-id).
-    - [Connection string of your resource](voice-channel-resource-app-details.md#get-connection-string).
+    - Resource name and ID of your resource. 
+       To get the resource name and ID, open your resource on the Azure portal, go to **Settings** > **Properties**. Note the values of the **ACS Resource Name** and **ACS Resource ID** fields.
+
+    - Connection string of your resource. 
+      To get the connection string, see [Access your connection string and endpoints](/azure/communication-services/quickstarts/create-communication-resource?tabs=windows&pivots=platform-azp#access-your-connection-strings-and-service-endpoints).
+
     - [Application ID and tenant ID for your registered app](voice-channel-resource-app-details.md#get-application-and-tenant-ids).
+      To get the application ID and tenant ID for your registered app:
+      1. Open the Azure portal in a separate window or tab, and then open the **Event Grid System Topics** service.
+      1. [Create and deploy an event grid system topic](/azure/event-grid/create-view-manage-system-topics#create-a-system-topic).
+      1. On the **Event Grid System Topic** page that's created, select the **Subscription** link.
+      1. In the resource subscription page, select **Settings** > **Resource providers**, and then check if the **Microsoft.EventGrid** provider is listed as **Registered**. If the event grid is not registered, select the record and then select **Re-register** to register it.
 
 > [!Important]
 >
-> On the **Phone numbers** page, the **Get started** button to connect to an existing Azure resource will appear only in the following scenarios:
+> On the **Phone numbers** page, the **Get started** button to connect to an existing Azure resource will appear only in the following scenarios.
 > - The trial has ended after the free calling time has elapsed.
 > - You've manually ended the trial.
 > - You've [disconnected from the Azure resource](voice-channel-acs-resource.md#disconnect-from-azure-communication-services-resource).
@@ -70,14 +79,14 @@ Before you connect an existing Azure resource to Azure Communication Services, y
 
 You can now configure the voice workstream settings for the phone number, and also configure outbound and inbound calling to make and/or receive customer calls.
 
+To enable recording and SMS services for the Azure resource, see [Create event subscription endpoints](voice-channel-sub-endpoints.md).
+
 ### See also
 
 [Overview of the voice channel](voice-channel.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
 [Connect to Azure Communication Services](voice-channel-acs-resource.md)  
 [Connect to a new Azure resource](voice-channel-connect-new-resource.md)  
-[Get resource and app registration details from Azure portal](voice-channel-resource-app-details.md)  
-[Register event grid system topics](voice-channel-event-grid.md)  
 [Create event subscription endpoints](voice-channel-sub-endpoints.md)  
 [Set up outbound calling](voice-channel-outbound-calling.md)  
 [Bring your own carrier](voice-channel-bring-your-own-number.md)  
