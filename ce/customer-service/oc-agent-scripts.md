@@ -21,8 +21,7 @@ Agent scripts in Omnichannel for Customer Service provide guidance about what yo
 
 ## Components in agent script
 
-> [!div class='mx-imgBorder']
-> ![Components in agent script.](media/agent-script-section.PNG "Components in agent script")
+:::image type="content" source="media/agent-script-section.png" alt-text="Components in agent script":::
 
 1. Agent script menu
 2. Text instructions
