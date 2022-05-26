@@ -77,9 +77,7 @@ Before you connect an existing Azure resource to Azure Communication Services, y
 
 6. [Add a new phone number](voice-channel-manage-phone-numbers.md#acquire-new-phone-numbers).
 
-You can now configure the voice workstream settings for the phone number, and also configure outbound and inbound calling to make and/or receive customer calls.
-
-To enable recording and SMS services for the Azure resource, see [Create event subscription endpoints](voice-channel-sub-endpoints.md).
+You can now configure the voice workstream settings for the phone number, and set up outbound and inbound calling to make and/or receive customer calls, and also [enable recording and SMS services](voice-channel-sub-endpoints.md).
 
 ### See also
 
