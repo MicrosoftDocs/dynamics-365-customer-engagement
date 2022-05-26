@@ -17,8 +17,7 @@ This article explains how you can enable recording and SMS services by creating 
 
 ## Prerequisites
 
-- You'll need the application (client) ID and directory (tenant) ID from the App registrations page of your Azure resource.
-- Using the Azure resource details, create Event Grid subscriptions on the Azure portal.
+- Get the application (client) ID and directory (tenant) ID from the App registrations page of your Azure resource.
 - [Get the subscriber endpoint for recording](#get-the-subscriber-endpoint-for-recording).
 - [Get the subscriber endpoint for SMS](#get-the-subscriber-endpoint-for-sms).
 - 
@@ -65,11 +64,6 @@ This article explains how you can enable recording and SMS services by creating 
 1. Select **Confirm Selection**.
 
 ## Create event subscription endpoints
-
-1. Open the resource on the Azure portal, go to **Events**, and select **Event Subscription**.
-1. 
-
-## Create event subscription endpoint for recording
 
 1. Open the resource on the Azure portal, go to **Events**, and select **Event Subscription**.
 
