@@ -1,7 +1,7 @@
 ---
 title: "Agent scripts in the Omnichannel for Customer Service app | MicrosoftDocs"
 description: "The information mentioned in this article can help you learn how to use agent scripts in the Omnichannel for Customer Service app."
-ms.date: 05/23/2022
+ms.date: 05/26/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim

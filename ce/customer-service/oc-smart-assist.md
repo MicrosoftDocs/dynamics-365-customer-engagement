@@ -1,7 +1,7 @@
 ---
 title: "View smart assist suggestions | MicrosoftDocs"
 description: "Learn how to view smart assist suggestions in the Omnichannel for Customer Service app."
-ms.date: 05/23/2022
+ms.date: 05/26/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
