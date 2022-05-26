@@ -19,7 +19,7 @@ You can use an existing Azure resource from any of your Azure subscriptions, *av
 
 ## Prerequisites
 
-Before you connect an existing Azure resource to Azure Communication Services, you must do the following:
+Before you connect an existing Azure resource to Azure Communication Services, you must perform the following steps.
 
 - If you're [using a trial phone number](voice-channel-manage-phone-numbers.md#use-trial-phone-number), you must end the trial to be able to see the options to connect to the existing Azure resource.
 
@@ -47,7 +47,7 @@ Before you connect an existing Azure resource to Azure Communication Services, y
 
 ## Connect to an existing Azure resource
 
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
+1. In Dynamics 365, go to one of the admin apps, and perform the following steps.
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
     1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
