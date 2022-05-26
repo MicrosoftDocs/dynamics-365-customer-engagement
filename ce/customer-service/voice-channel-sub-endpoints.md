@@ -20,7 +20,7 @@ This article explains how you can enable recording and SMS services by creating 
 - Get the application (client) ID and directory (tenant) ID from the App registrations page of your Azure resource.
 - [Get the subscriber endpoint for recording](#get-the-subscriber-endpoint-for-recording).
 - [Get the subscriber endpoint for SMS](#get-the-subscriber-endpoint-for-sms).
-- 
+
 ## Get the subscriber endpoint for recording
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
@@ -39,8 +39,6 @@ This article explains how you can enable recording and SMS services by creating 
 1. In the **Manage Azure Communication Services** page that opens, select **Copy** next to **Recording Web Hook Endpoint** and paste the web hook endpoint value in the **Subscriber Endpoint** field.
     > [!div class="mx-imgBorder"]
     > ![Copy recording web hook endpoint.](./media/voice-channel-recording-webhook-endpoint.png "Copy recording web hook endpoint.")
-
-1. Select **Confirm Selection**.
 
 ## Get the subscriber endpoint for SMS
 
@@ -61,8 +59,6 @@ This article explains how you can enable recording and SMS services by creating 
     > [!div class="mx-imgBorder"]
     > ![Copy SMS web hook endpoint.](./media/voice-channel-sms-webhook-endpoint.png "Copy SMS web hook endpoint.")
 
-1. Select **Confirm Selection**.
-
 ## Create event subscription endpoints
 
 1. Open the resource on the Azure portal, go to **Events**, and select **Event Subscription**.
@@ -73,9 +69,9 @@ This article explains how you can enable recording and SMS services by creating 
     - **Name**: Enter a name for the recording event subscription.
     - **Event Schema**: Select **Event Grid Schema** from the dropdown list.
     - **System Topic Name**: This field is automatically populated with the system topic name you created. However, if you see multiple values, select the specific system topic name from the dropdown.
-    - **Filter to Event Types**: For recording services, select the **Recording File Status Updated (Preview)** option from the dropdown list. For SMS services, select **SMS Received** and **SMS Delivery Report Received** options from the dropdown list.
+    - **Filter to Event Types**: For recording services, select the **Recording File Status Updated (Preview)** option from the dropdown list. 
     - **Endpoint Type**: Select **Web Hook** from the dropdown list.
-    - **Endpoint**: Select **Select an endpoint** and in the **Select Web Hook** dialog that opens, enter the **Subscriber Endpoint**.
+    - **Endpoint**: Select **Select an endpoint** and in the **Select Web Hook** dialog that opens, enter the **Subscriber Endpoint** and select **Confirm Selection**.
 
 3. Go to the **Additional Features** tab, select the **Use AAD authentication** checkbox, and enter the following details.
     > [!div class="mx-imgBorder"]
@@ -91,6 +87,11 @@ This article explains how you can enable recording and SMS services by creating 
 
     > [!div class="mx-imgBorder"]
     > ![Successfully created event subscription endpoints for recording.](./media/voice-channel-event-subscription-recording-success.png "Create event grid callbacks for recording.")
+
+## Create event subscription endpoint for SMS
+
+For SMS services, select **SMS Received** and **SMS Delivery Report Received** options from the dropdown list.
+
 
 <!--->
 ## Create event subscription endpoint for SMS
