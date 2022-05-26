@@ -66,6 +66,7 @@ Your new Azure resource is now connected to Azure Communication Services. You ca
 [Set up outbound calling](voice-channel-outbound-calling.md)  
 [Set up inbound calling](voice-channel-route-queues.md) 
 [Bring your own carrier](voice-channel-bring-your-own-number.md)  
+[Enable recording and SMS services](voice-channel-sub-endpoints.md)  
 [Integrate third-party IVR systems with voice channel](voice-channel-contextual-transfer-external-ivr.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

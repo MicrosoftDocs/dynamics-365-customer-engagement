@@ -77,7 +77,7 @@ This article includes short procedures to help you retrieve the resource name, r
 [Connect to a new Azure resource](voice-channel-connect-new-resource.md)  
 [Get resource and app registration details from Azure portal](voice-channel-connect-existing-resource.md)  
 [Register event grid system topics](voice-channel-event-grid.md)  
-[Create event subscription endpoints](voice-channel-sub-endpoints.md)  
+[Enable recording and SMS services](voice-channel-sub-endpoints.md)  
 [Set up outbound calling](voice-channel-outbound-calling.md)  
 [Bring your own carrier](voice-channel-bring-your-own-number.md)   
 [Integrate third-party IVR systems with voice channel](voice-channel-contextual-transfer-external-ivr.md)  

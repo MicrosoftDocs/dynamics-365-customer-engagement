@@ -85,7 +85,7 @@ You can now configure the voice workstream settings for the phone number, and se
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
 [Connect to Azure Communication Services](voice-channel-acs-resource.md)  
 [Connect to a new Azure resource](voice-channel-connect-new-resource.md)  
-[Create event subscription endpoints](voice-channel-sub-endpoints.md)  
+[Enable recording and SMS services](voice-channel-sub-endpoints.md)  
 [Set up outbound calling](voice-channel-outbound-calling.md)  
 [Set up inbound calling](voice-channel-route-queues.md) 
 [Bring your own carrier](voice-channel-bring-your-own-number.md)  

@@ -62,6 +62,6 @@ This topic explains how to create, deploy, and register event grid system topics
 [Connect to an existing Azure resource](voice-channel-connect-existing-resource.md)  
 [Set up outbound calling](voice-channel-outbound-calling.md)  
 [Get resource and app registration details from Azure portal](voice-channel-resource-app-details.md)  
-[Create event subscription endpoints](voice-channel-sub-endpoints.md)  
+[Enable recording and SMS services](voice-channel-sub-endpoints.md)  
   
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
