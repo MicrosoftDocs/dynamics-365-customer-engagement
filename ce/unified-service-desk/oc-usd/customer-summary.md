@@ -124,9 +124,7 @@ An agent script in Omnichannel for Customer Service provides guidance for what y
 
 When you accept an incoming conversation request, a session starts and the **Customer summary** page opens. In the **Agent script** section, you'll see steps as shown in the following illustration.
 
-
-> [!div class='mx-imgBorder']
-> ![Agent script.](../../customer-service/media/agent-script-section.PNG "Agent script")
+:::image type="content" source="../../customer-service/media/components-agent-script.png" alt-text="Agent script components":::
 
 1. Agent script control
 2. Text instructions
