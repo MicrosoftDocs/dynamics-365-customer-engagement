@@ -64,6 +64,7 @@ Your new Azure resource is now connected to Azure Communication Services. You ca
 [Connect to Azure Communication Services](voice-channel-acs-resource.md)  
 [Connect to an existing Azure resource](voice-channel-connect-existing-resource.md)  
 [Set up outbound calling](voice-channel-outbound-calling.md)  
+[Set up inbound calling](voice-channel-route-queues.md) 
 [Bring your own carrier](voice-channel-bring-your-own-number.md)  
 [Integrate third-party IVR systems with voice channel](voice-channel-contextual-transfer-external-ivr.md)  
 

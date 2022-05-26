@@ -87,6 +87,7 @@ You can now configure the voice workstream settings for the phone number, and se
 [Connect to a new Azure resource](voice-channel-connect-new-resource.md)  
 [Create event subscription endpoints](voice-channel-sub-endpoints.md)  
 [Set up outbound calling](voice-channel-outbound-calling.md)  
+[Set up inbound calling](voice-channel-route-queues.md) 
 [Bring your own carrier](voice-channel-bring-your-own-number.md)  
 [Integrate third-party IVR systems with voice channel](voice-channel-contextual-transfer-external-ivr.md)  
 
