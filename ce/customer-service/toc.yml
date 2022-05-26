@@ -512,6 +512,8 @@
         href: configure-teams-meetings.md
       - name: Configure AI suggestions for contacts in Teams
         href: configure-teams-collaboration.md
+      - name: Configure AI-generated conversation summary
+        href: cs-enable-ai-generated-summary.md
       - name: Configure customer support swarming
         href: configure-customer-support-swarming.md
     - name: Agent experience
@@ -524,6 +526,8 @@
         href: use-teams-meetings.md
       - name: Collaborate with AI-suggested contacts in Microsoft Teams
         href: use-ai-suggested-contacts-teams.md
+      - name: Use ai-generated summaries for ongoing conversations
+        href: cs-ai-generated-summary.md
       - name: Use customer support swarming to resolve issues
         href: use-customer-support-swarming.md
       - name: Share and update Dynamics 365 records within Microsoft Teams conversation
@@ -862,7 +866,7 @@
         href: csw-productivity-pane.md
       - name: View smart assist suggestions for knowledge articles and similar cases
         href: oc-view-ai-suggested-cases-articles.md
-      - name: View smart assist suggestions for agents configured using custom Azure bot
+      - name: View smart assist suggestions
         href: oc-smart-assist.md
       - name: Use agent scripts for customer interactions
         href: oc-agent-scripts.md
@@ -1536,6 +1540,8 @@
           href: developer/reference/methods/linkToConversation.md
         - name: unlinkFromConversation
           href: developer/reference/methods/unlinkFromConversation.md 
+        - name: sendMessageToConversation
+          href: developer/reference/methods/sendMessageToConversation.md
     - name: runMacro
       href: developer/reference/methods/runMacro.md
     - name: Action Reference

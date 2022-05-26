@@ -1,7 +1,7 @@
 ---
 title: "Real-time marketing domain authentication (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to authenticate domains for real-time marketing functionality in Dynamics 365 Marketing."
-ms.date: 05/20/2022
+ms.date: 05/25/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article

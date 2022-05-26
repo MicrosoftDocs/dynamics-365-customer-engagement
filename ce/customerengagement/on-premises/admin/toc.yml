@@ -254,6 +254,8 @@
         href: manage-documents-using-sharepoint.md
       - name: Software requirements
         href: sharepoint-document-management-software-requirements.md
+      - name: Security roles and permissions required
+        href: permissions-required-document-management-tasks.md
       - name: Set up
         items: 
         - name: Overview
