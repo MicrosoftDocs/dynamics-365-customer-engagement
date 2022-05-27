@@ -22,7 +22,7 @@ You can delete a channel instance in Customer Service admin center, Omnichannel 
 
 1. On the page toolbar, select **Delete**.
 
-1. On the confirmation dialog that appears, confirm the delete option.
+1. On the confirmation dialog that appears, confirm the deletion.
 
 If you want to reconfigure your social channel or SMS number in Omnichannel for Customer Service, follow the channel-specific instructions.
 
