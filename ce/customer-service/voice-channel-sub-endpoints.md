@@ -98,7 +98,6 @@ For SMS services, select **SMS Received** and **SMS Delivery Report Received** o
 
 
 <!--->
-## Create event subscription endpoint for SMS
 
 1. Open the resource on the Azure portal, go to **Events**, and select **Event Subscription**.
 
