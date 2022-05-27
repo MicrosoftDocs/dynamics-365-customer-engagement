@@ -42,7 +42,7 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 (Includes Universal Resource Scheduling version [3.12.78.23](/dynamics365/field-service/field-service-version-history-resource-scheduling#3127823)).
 
--	Fixed a bug where screen readers were reading “Default value” text boxes as “Question edit” in inspections.
+-	Fixed a bug where screen readers were reading "Default value" text boxes as "Question edit" in inspections.
 
 ## 8.8.66.27
 
