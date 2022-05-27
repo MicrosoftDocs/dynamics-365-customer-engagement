@@ -26,14 +26,17 @@ Before you connect an existing Azure resource to Azure Communication Services, y
 - Get the following details from the Azure portal.
 
     - Name and ID of your Azure resource. 
-       To get the resource name and ID, open your resource on the Azure portal, go to **Settings** > **Properties**. Note the values of the **ACS Resource Name** and **ACS Resource ID** fields.
+      
+      To get the resource name and ID, open your resource on the Azure portal, go to **Settings** > **Properties**. Note the values of the **ACS Resource Name** and **ACS Resource ID** fields.
 
     - Connection string of your Azure resource. 
+      
       To get the connection string, see [Access your connection string and endpoints](/azure/communication-services/quickstarts/create-communication-resource?tabs=windows&pivots=platform-azp#access-your-connection-strings-and-service-endpoints).
 
     - [Application ID and tenant ID for your registered app](voice-channel-resource-app-details.md#get-application-and-tenant-ids).
+      
       To get the application ID and tenant ID for your registered app:
-      1. Open the Azure portal in a separate window or tab, and then open the **Event Grid System Topics** service.
+      1. Open the **Event Grid System Topics** service on the Azure portal.
       1. [Create and deploy an event grid system topic](/azure/event-grid/create-view-manage-system-topics#create-a-system-topic).
       1. On the **Event Grid System Topic** page that's created, select the **Subscription** link.
       1. In the resource subscription page, select **Settings** > **Resource providers**, and then check if the **Microsoft.EventGrid** provider is listed as **Registered**. If the event grid is not registered, select the record and then select **Re-register** to register it.
@@ -68,9 +71,9 @@ Before you connect an existing Azure resource to Azure Communication Services, y
    - **Event grid app tenant ID**: Enter the tenant ID.
 
 4. Select **Connect**.
-    > [!div class="mx-imgBorder"]
+   <!---> > [!div class="mx-imgBorder"]
     > ![Azure resource is connected to Azure Communication Services.](./media/voice-channel-acs-connection.png "Azure resource is connected to Azure Communication Services.")
-
+   --->
     Your existing resource is now connected to Azure Communication Services, and you can [acquire new phone numbers](voice-channel-manage-phone-numbers.md) for your organization via the resource. 
 
 5. Select **Add number**. The **Add phone number** page is displayed.
