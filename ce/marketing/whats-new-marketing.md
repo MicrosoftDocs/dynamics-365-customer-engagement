@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 05/24/2022
+ms.date: 05/26/2022
 ms.custom:
   - dyn365-marketing
 ms.topic: article
@@ -55,6 +55,7 @@ The update also includes improved email content blocks, the ability to manually 
 - **Win customer attention by creating conditional dynamic content with easy-to-use no-code experiences**
     - Conditional dynamic content is key to delivering highly personalized messages to customers. Creating content where entire sections target specific customer segments allows you to craft messages that align with your customers’ interests and preferences, driving engagement and brand loyalty. Until now, achieving this level of dynamic content was complex and required coding. With the new conditional content experience, marketers can easily create messages targeted to specific segments or attributes, bringing content that is truly unique to each customer without writing any code.
     - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/win-customer-attention-creating-conditional-dynamic-content-easy-to-use-no-code-experiences)
+    - [Docs](conditional-content.md)
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of conditional dynamic content.](media/whats-new-conditional-dynamic.png "Screenshot of conditional dynamic content")
