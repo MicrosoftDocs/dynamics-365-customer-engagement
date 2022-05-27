@@ -412,7 +412,7 @@ $Setting = Get-CrmSetting TraceSettings$setting.Enabled = $FalseSet-CrmSetting $
   
 3.  From the **View** menu, select **Show Analytic and Debug Logs**.  
   
-     ![Show Analytic and Debug Logs.](media/crm-ua-moca-showanalytic.png "Show Analytic and Debug Logs")  
+   ![Show Analytic and Debug Logs.](media/crm-ua-moca-showanalytic.png "Show Analytic and Debug Logs")  
   
 4.  Additional nodes will appear under the **AppHost** folder.  
   
