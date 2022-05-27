@@ -23,8 +23,10 @@ To enable [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.m
   
 Additionally, [!INCLUDE[pn_CRM_Reporting_Extensions_server_side](../includes/pn-crm-reporting-extensions-server-side.md)], [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], and [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] can be enabled for tracing.  
   
-<a name="BKMK_deploy-level_tracing"></a>   
-## Microsoft Dynamics 365 deployment-level tracing (on-premises versions only)  
+<a name="BKMK_deploy-level_tracing"></a>
+
+## Microsoft Dynamics 365 deployment-level tracing (on-premises versions only)
+
  Deployment-level tracing monitors all [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server roles and services, regardless of the server roles installed on the local computer. When deployment-level tracing is enabled, all server roles are monitored such as [!INCLUDE[pn_Asynchronous_Service](../includes/pn-asynchronous-service.md)], [!INCLUDE[pn_Sandbox_Processing_Service](../includes/pn-sandbox-processing-service.md)], Unzip Service, Web application (w3wp), and [!INCLUDE[pn_Deployment_Tools](../includes/pn-deployment-tools.md)] (mmc-Tools). Corresponding trace files are created.  
   
  Deployment-level tracing is set by using [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] commands and is maintained in the MSCRM_CONFIG database. Deployment-level tracing can only be enabled from a computer that has the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)][!INCLUDE[pn_Deployment_Tools](../includes/pn-deployment-tools.md)] server role.
@@ -41,7 +43,7 @@ The trace files are located in a folder on the computer where the [!INCLUDE[pn_m
   
 > [!IMPORTANT]
 >  Before you run [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)][!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] commands, the Microsoft.Crm.PowerShell snap-in must be registered by running the `Add-PSSnapin Microsoft.Crm.PowerShell` command.  
->   
+>
 >  For more information, see [Administer the deployment using Windows PowerShell](administer-the-deployment-using-windows-powershell.md).  
   
 > [!TIP]
