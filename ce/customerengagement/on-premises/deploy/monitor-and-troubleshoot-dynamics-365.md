@@ -66,26 +66,28 @@ To turn on deployment-wide trace settings that record the maximum amount of info
 $Setting = Get-CrmSetting TraceSettings$Setting.Enabled = $True $Setting.CallStack=$True$Setting.Categories="*:Verbose"Set-CrmSetting $setting  
 ```  
   
-<a name="optional"></a>   
-### Optional parameters  
+<a name="optional"></a>
+
+### Optional parameters
   
--   **CallStack**. Records callstack information. For detailed troubleshooting, we recommend that you turn this on. By default, this is turned off.  
+- **CallStack**. Records callstack information. For detailed troubleshooting, we recommend that you turn this on. By default, this is turned off.  
   
--   **Categories**. Indicates the level of detail to record.  
+- **Categories**. Indicates the level of detail to record.  
   
-    -   **Error**. By default, the **Categories** value is **Error**, which is the least detailed and only records errors.  
+  - **Error**. By default, the **Categories** value is **Error**, which is the least detailed and only records errors.  
   
-    -   **Warning**. Includes warnings and errors.  
+  - **Warning**. Includes warnings and errors.  
   
-    -   **Info**. Includes warnings, errors, and additional information.  
+  - **Info**. Includes warnings, errors, and additional information.  
   
-    -   **Verbose**. Records the most detailed information.  
+  - **Verbose**. Records the most detailed information.  
   
--   **Directory**. Specifies the location of the trace log file. By default, the location is c:\crmdrop\logs.  
+- **Directory**. Specifies the location of the trace log file. By default, the location is c:\crmdrop\logs.  
   
--   **FileSize**. Specifies the maximum file size of the log file in megabytes before information in the trace file is overwritten.  
+- **FileSize**. Specifies the maximum file size of the log file in megabytes before information in the trace file is overwritten.  
   
-### Disable deployment-level tracing (on-premises versions only)  
+### Disable deployment-level tracing (on-premises versions only)
+
  To disable tracing, run the following commands, in the order provided, from the [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] console on the computer where the [!INCLUDE[pn_Deployment_Tools](../includes/pn-deployment-tools.md)] server role is running.  
   
 ```powershell  
@@ -94,8 +96,10 @@ $Setting = Get-CrmSetting TraceSettings$setting.Enabled = $FalseSet-CrmSetting $
   
  Trace files aren’t deleted when tracing is disabled. Additionally, services used by [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] lock open the trace files. Therefore, you may have to restart any [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] services and the World Wide Web Publishing Service if these services are running on the computer where you want to delete the trace files.  
   
-<a name="BKMKserver-level_tracing"></a>   
-## Microsoft Dynamics 365 server-level tracing (on-premises versions only)  
+<a name="BKMKserver-level_tracing"></a>
+
+## Microsoft Dynamics 365 server-level tracing (on-premises versions only)
+
  Server-level tracing only monitors those [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server roles that are running on the local computer where server-level tracing is enabled. When server-level tracing is enabled, trace files that are specific to the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server roles or services that are running on the local computer are created. Server-level tracing does not require the [!INCLUDE[pn_Deployment_Tools](../includes/pn-deployment-tools.md)] role and can provide a greater degree of control where you can set specific trace values such as what [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] features to trace or the maximum trace file size.  
   
  For more information about setting server-level tracing properties in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], see [How to enable tracing in Microsoft Dynamics CRM](https://support.microsoft.com/kb/907490).  
@@ -109,12 +113,12 @@ $Setting = Get-CrmSetting TraceSettings$setting.Enabled = $FalseSet-CrmSetting $
 ### Enable or disable server-level tracing  
   
 > [!CAUTION]
->  Trace files may contain sensitive or personal information. Use discretion when you send trace files to other people, or when you give other people the ability to view the information that a trace file contains.  
->   
->  When you turn on tracing it can significantly affect performance of the application. We strongly recommend that you only turn on tracing for troubleshooting issues and turn off tracing after the issue is resolved.  
+> Trace files may contain sensitive or personal information. Use discretion when you send trace files to other people, or when you give other people the ability to view the information that a trace file contains.  
+>
+> When you turn on tracing it can significantly affect performance of the application. We strongly recommend that you only turn on tracing for troubleshooting issues and turn off tracing after the issue is resolved.  
   
 > [!CAUTION]
->  This task contains steps that tell you how to modify the registry. However, serious problems might occur if you modify the registry incorrectly. Therefore, make sure that you follow these steps carefully. For added protection, back up the registry before you modify it. Then, you can restore the registry if a problem occurs. For more information about how to back up and restore the registry, see: [How to back up and restore the registry in Windows](https://support.microsoft.com/kb/322756).  
+> This task contains steps that tell you how to modify the registry. However, serious problems might occur if you modify the registry incorrectly. Therefore, make sure that you follow these steps carefully. For added protection, back up the registry before you modify it. Then, you can restore the registry if a problem occurs. For more information about how to back up and restore the registry, see: [How to back up and restore the registry in Windows](https://support.microsoft.com/kb/322756).  
   
  On the [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] that you want to turn on server-level tracing, start RegEdit and locate the following registry location: `HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\MSCRM`  
   
@@ -130,9 +134,9 @@ $Setting = Get-CrmSetting TraceSettings$setting.Enabled = $FalseSet-CrmSetting $
  In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you can create trace files that monitor the actions that are performed by [!INCLUDE[pn_CRM_Reporting_Extensions_server_side](../includes/pn-crm-reporting-extensions-server-side.md)]. Trace files are helpful when you have to troubleshoot error messages or other issues in [!INCLUDE[pn_CRM_Reporting_Extensions_server_side](../includes/pn-crm-reporting-extensions-server-side.md)].  
   
 > [!CAUTION]
->  Trace files may contain sensitive or personal information. Use discretion when you send trace files to other people, or when you give others the ability to view the information that a trace file contains.  
->   
->  When you turn on tracing it can significantly affect performance of the application. We strongly recommend that you only turn on tracing for troubleshooting issues and turn off tracing after the issue is resolved.  
+> Trace files may contain sensitive or personal information. Use discretion when you send trace files to other people, or when you give others the ability to view the information that a trace file contains.  
+>
+> When you turn on tracing it can significantly affect performance of the application. We strongly recommend that you only turn on tracing for troubleshooting issues and turn off tracing after the issue is resolved.  
   
  You can enable tracing for [!INCLUDE[pn_CRM_Reporting_Extensions_server_side](../includes/pn-crm-reporting-extensions-server-side.md)] in two ways:  
   
@@ -143,21 +147,22 @@ $Setting = Get-CrmSetting TraceSettings$setting.Enabled = $FalseSet-CrmSetting $
 > [!IMPORTANT]
 >  Traces will not be generated if the folder specified in **TraceDirectory** does not exist.  
   
-<a name="registry"></a>   
-### Enable tracing using registry values  
+<a name="registry"></a>
+
+### Enable tracing using registry values
   
 > [!CAUTION]
->  This task contains steps that tell you how to modify the registry. However, serious problems might occur if you modify the registry incorrectly. Therefore, make sure that you follow these steps carefully. For added protection, back up the registry before you modify it. Then, you can restore the registry if a problem occurs. For more information about how to back up and restore the registry, see: [How to back up and restore the registry in Windows](https://support.microsoft.com/kb/322756).  
+> This task contains steps that tell you how to modify the registry. However, serious problems might occur if you modify the registry incorrectly. Therefore, make sure that you follow these steps carefully. For added protection, back up the registry before you modify it. Then, you can restore the registry if a problem occurs. For more information about how to back up and restore the registry, see: [How to back up and restore the registry in Windows](https://support.microsoft.com/kb/322756).  
   
-1.  On the computer where you have installed [!INCLUDE[pn_CRM_Reporting_Extensions_server_side](../includes/pn-crm-reporting-extensions-server-side.md)], locate and then select the following registry subkey: `HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\MSCRM`  
+1. On the computer where you have installed [!INCLUDE[pn_CRM_Reporting_Extensions_server_side](../includes/pn-crm-reporting-extensions-server-side.md)], locate and then select the following registry subkey: `HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\MSCRM`  
   
-2.  Set the following registry values:  
+2. Set the following registry values:  
   
-    -   TraceEnabled = 1  
+   - TraceEnabled = 1  
   
-    -   TraceDirectory = \<*directory path where traces will be stored*>  
+   - TraceDirectory = \<*directory path where traces will be stored*>  
   
-     You can also set other row values like **TraceCategories**, but they already have defaults.  
+   You can also set other row values like **TraceCategories**, but they already have defaults.  
   
 3.  Restart [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)].  
   
@@ -168,16 +173,18 @@ $Setting = Get-CrmSetting TraceSettings$setting.Enabled = $FalseSet-CrmSetting $
   
 2.  Locate the row with the value "TraceEnabled" and set its "BitColumn" column’s value to "True".  
   
-     Other row values like **TraceCategories**, **TraceDirectory** already have default values, but you can change these values.  
+   Other row values like **TraceCategories**, **TraceDirectory** already have default values, but you can change these values.  
   
-     You’ll start seeing the traces in the directory specified in the TraceDirectory row in the **DeploymentProperties** table.  
+   You’ll start seeing the traces in the directory specified in the TraceDirectory row in the **DeploymentProperties** table.  
   
 3.  Restart [!INCLUDE[pn_SQL_Server_Reporting](../includes/pn-sql-server-reporting.md)].  
   
- Registry settings take precedence over deployment properties. If there are any invalid entries in the registry, for example, and **TraceDirectory** does not exist, the deployment properties are used.  
+Registry settings take precedence over deployment properties. If there are any invalid entries in the registry, for example, and **TraceDirectory** does not exist, the deployment properties are used.  
   
-<a name="BKMK_OC_client_tracing"></a>   
-## Enable tracing for Microsoft Dynamics 365 for Outlook  
+<a name="BKMK_OC_client_tracing"></a>
+
+## Enable tracing for Microsoft Dynamics 365 for Outlook
+
  This section applies to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and on-premises versions of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] tracing monitors the instance of [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] that is running on the local computer. If an issue is isolated to a particular user running [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], enabling [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] tracing can help determine the cause.  
   
  The [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] tracing files are located in the C:\Users\\<username\>\AppData\Local\Microsoft\MSCRM\Traces folder.  
@@ -204,7 +211,7 @@ $Setting = Get-CrmSetting TraceSettings$setting.Enabled = $FalseSet-CrmSetting $
 >   
 >  This task contains steps that tell you how to modify the registry. However, serious problems might occur if you modify the registry incorrectly. Therefore, make sure that you follow these steps carefully. For added protection, back up the registry before you modify it. Then, you can restore the registry if a problem occurs. For more information about how to back up and restore the registry, see [How to back up and restore the registry in Windows](https://support.microsoft.com/kb/322756).  
   
- Notice that tracing must already be enabled for the following steps to work.  
+Notice that tracing must already be enabled for the following steps to work.  
   
 1.  On the computer where you have installed [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] start RegEdit and locate and then select the following registry subkey: HKEY_CURRENT_USER\Software\Microsoft\MSCRMClient.  
   
@@ -220,30 +227,31 @@ $Setting = Get-CrmSetting TraceSettings$setting.Enabled = $FalseSet-CrmSetting $
 ## Enable tracing for Microsoft Dynamics 365 Email Router  
  This section applies to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and on-premises versions of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. [!INCLUDE[pn_CRM_E-Mail_Router](../includes/pn-crm-e-mail-router.md)] tracing monitors the [!INCLUDE[pn_emailrouter](../includes/pn-emailrouter.md)] service that is running on the local computer.  
   
-#### Enable or disable tracing for Microsoft Dynamics 365 Email Router  
+#### Enable or disable tracing for Microsoft Dynamics 365 Email Router
   
-1.  On the computer where the [!INCLUDE[pn_CRM_E-Mail_Router](../includes/pn-crm-e-mail-router.md)] service (Microsoft Dynamics 365 Email Router) is running, open Microsoft.Crm.Tools.EmailAgent.xml using an XML or text editor. By default, Microsoft.Crm.Tools.EmailAgent.xml is located in the \<drive>:\Program Files\Microsoft CRM Email\Service folder.  
+1. On the computer where the [!INCLUDE[pn_CRM_E-Mail_Router](../includes/pn-crm-e-mail-router.md)] service (Microsoft Dynamics 365 Email Router) is running, open Microsoft.Crm.Tools.EmailAgent.xml using an XML or text editor. By default, Microsoft.Crm.Tools.EmailAgent.xml is located in the \<drive>:\Program Files\Microsoft CRM Email\Service folder.  
   
-2.  Add the following entries between the `<SystemConfiguration>` parent elements:  
+2. Add the following entries between the `<SystemConfiguration>` parent elements:  
   
      <`LogLevel`>*Level*</`LogLevel`>  
      Specifies the logging level. Acceptable values for *Level* are 0, 1, 2, or 3.  
   
-    -   0. No logging. By default, logging is set to 0.  
+   - 0. No logging. By default, logging is set to 0.  
   
-    -   1. Error logging only.  
+   - 1. Error logging only.  
   
-    -   2. Detailed information logging at the mailbox level.  
+   - 2. Detailed information logging at the mailbox level.  
   
-    -   3. Very detailed information logging at the message level.  
+   - 3. Very detailed information logging at the message level.  
   
      <`LogFile`>*Path\Logfilename*</`LogFile`>  
      Specifies the full path of the location to the log file.  
   
-3.  Restart the [!INCLUDE[pn_emailrouter](../includes/pn-emailrouter.md)] service.  
+3. Restart the [!INCLUDE[pn_emailrouter](../includes/pn-emailrouter.md)] service.  
   
-### Sample Microsoft.Crm.Tools.EmailAgent.xml  
- The following Microsoft.Crm.Tools.EmailAgent.xml file sets the logging at level 1 and places the log file at c:\emailRouterLog.txt.  
+### Sample Microsoft.Crm.Tools.EmailAgent.xml
+
+The following Microsoft.Crm.Tools.EmailAgent.xml file sets the logging at level 1 and places the log file at c:\emailRouterLog.txt.  
   
 ```xml  
 <?xml version="1.0" encoding="utf-8"?>  
@@ -268,187 +276,61 @@ $Setting = Get-CrmSetting TraceSettings$setting.Enabled = $FalseSet-CrmSetting $
 </SystemConfiguration>  
 </Configuration>  
 ```  
- <!-- 
-<a name="BKMK_WindowsPhoneTracing"></a>   
-## Enable tracing for Dynamics 365 for phones for Windows Phone  
- To help with troubleshooting, follow these steps to capture and view logs on your [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)].  
-  
- #### Install the Field Medic app  
-  
-1.  Install the Field Medic app from the [Windows Phone store](https://go.microsoft.com/fwlink/p/?LinkID=534099).  
-  
-     ![Install the field Medic app.](media/crm-itpro-tracewinphoneinstallapp.png "Install the field Medic app")  
-  
-#### Create a custom profile for AppHost logging  
-  
-1.  Connect your [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)] to your computer via USB.  
-  
-2.  Create the file FieldMedic-AppHost.xml in the following folder: `computer\<windows phone>\Phone\Documents\FieldMedic`. Create the folder structure if it doesn’t exist already. You can create the file using [!INCLUDE[pn_Notepad](../includes/pn-notepad.md)] and save as FieldMedic-AppHost.xml.  
-  
-     ![Field Medic: folder and XML file.](media/crm-itpro-tracefieldmedicfolder.png "Field Medic: folder and XML file")  
-  
-3.  Using [!INCLUDE[pn_Notepad](../includes/pn-notepad.md)], add the following code to the FieldMedic-AppHost.xml file.  
-  
-    ```  
-    <?xml version="1.0" encoding="utf-8" standalone='yes'?>  
-  
-    <WindowsPerformanceRecorder Version="1.0" Author="CXE Ecosystem SATT" Team="CXE Ecosystem SATT" Comments="FieldMedic ETW profiles" Company="Microsoft Corporation" Copyright="Microsoft Corporation" Tag="FieldMedic">  
-      <Profiles>  
-        // Event Collectors  
-        <EventCollector Id="EventCollector_AppHost" Name="FieldMedic AppHost Category Event Collector" Private="false" ProcessPrivate="false" Secure="false" Realtime="false">  
-          <BufferSize Value="128"/>  
-          <Buffers Value="40"/>  
-          <MaximumFileSize Value="5" FileMode="Circular"/>  
-          <FileMax Value="3"/>  
-        </EventCollector>  
-        // Event Providers  
-        <EventProvider Id="EventProvider_Microsoft-Windows-AppHost" Name="98e0765d-8c42-44a3-a57b-760d7f93225a" Level="5"/>  
-        // Profiles 
-        <Profile Id="AppHost.Verbose.File" LoggingMode="File" Name="AppHost" DetailLevel="Verbose" Description="FieldMedic AppHost category profile">  
-          <Collectors>  
-            <EventCollectorId Value="EventCollector_AppHost">  
-              <EventProviders>  
-                <EventProviderId Value="EventProvider_Microsoft-Windows-AppHost"/>           
-              </EventProviders>  
-            </EventCollectorId>  
-          </Collectors>  
-        </Profile>  
-      </Profiles>  
-    </WindowsPerformanceRecorder>  
-    ```  
-  
-#### Enable logging  
-  
-1.  Open the Field Medic app.  
-  
-2.  Tap **Advanced**.  
-  
-     ![Field Medic: choose Advanced.](media/crm-itpro-tracefieldmedicadvanced.png "Field Medic: choose Advanced")  
-  
-3.  Tap **Choose which ETW providers to use**.  
-  
-     ![Field Medic: choose ETW providers.](media/crm-itpro-tracefieldmedicetw.png "Field Medic: choose ETW providers")  
-  
-4.  Swipe up to locate the **Custom Group** section and then select the checkbox for **FieldMedic-AppHost.xml**.  
-  
-     ![Field Medic: choose FieldMedic&#45;AppHost.xml.](media/crm-itpro-tracefieldmediccustomgroupscheckbox.png "Field Medic: choose FieldMedic-AppHost.xml")  
-  
-5.  Tap the back button twice.  
-  
-     ![Field Medic: Choose the Back button.](media/crm-itpro-tracefieldmedicback.png "Field Medic: Choose the Back button")  
-  
-6.  Tap **Start Logging**.  
-  
-     ![Field Medic: Choose Start Logging.](media/crm-itpro-tracefieldmedicstartloggin.png "Field Medic: Choose Start Logging")  
-  
-     The following will appear.  
-  
-    ||||  
-    |-|-|-|  
-    |![Field Medic: Logging is starting](media/crm-itpro-tracefieldmedicstarting.png "Field Medic: Logging is starting")|>|![Field Medic: Logging events](media/crm-itpro-tracefieldmediclogging.png "Field Medic: Logging events")|  
-  
-#### Reproduce your issue  
-  
-1.  Switch to the [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] app.  
-  
-2.  Reproduce your issue.  
-  
-#### Stop logging  
-  
-1.  Switch to the Field Medic app.  
-  
-2.  Tap **Stop Logging**.  
-  
-     ![Field Medic: Stop Logging.](media/crm-itpro-tracefieldmedicstoplogging.png "Field Medic: Stop Logging")  
-  
-3.  Provide a title for the logs and then tap **Save**.  
-  
-     ![Field Medic: Save log file.](media/crm-itpro-tracefieldmedicsavelog.png "Field Medic: Save log file")  
-  
-4.  Tap **View Reports** to confirm you logs were successfully saved.  
-  
-    ||||  
-    |-|-|-|  
-    |![Field Medic: Choose View Reports](media/crm-itpro-tracefieldmedicviewreports.png "Field Medic: Choose View Reports")|>|![Field Medic: Example of saved report](media/crm-itpro-tracefieldmedicsamplereport.png "Field Medic: Example of saved report")|  
-  
-#### Locate the log files  
-  
-1.  Disconnect and reconnect the USB cable to your [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)]. This will ensure the latest files appear.  
-  
-2.  On your computer, navigate to: `computer\<windows phone>\Phone\Documents\FieldMedic\reports`  
-  
-3.  Copy the contents of this folder to your computer.  
-  
-     ![Field Medic: Reports folder.](media/crm-itpro-tracefieldmedicreportfolder.png "Field Medic: Reports folder")  
-  
-#### View logs using Event Viewer  
-  
-1.  Open [!INCLUDE[pn_Event_Viewer](../includes/pn-event-viewer.md)] on your computer.  
-  
-2.  Select **Action** > **Open Saved Log…**  
-  
-     ![Field Medic: Open a log file.](media/crm-itpro-tracefieldmedicopenreport.png "Field Medic: Open a log file")  
-  
-3.  Navigate to: `computer\<windows phone>\Phone\Documents\FieldMedic\reports` or wherever you copied the log files from your Windows Phone.  
-  
-4.  Select and open the Custom-FieldMedic-AppHost file.  
-  
-5.  If prompted to open the log in the new event log format, select **Yes**, and then select **OK**.  
-  
-6.  Review the event log entries for any errors.  
-  
-     ![Field Medic: Example of event.](media/crm-itpro-tracefieldmediceventsample.png "Field Medic: Example of event")  -->
-  
-<a name="BKMK_MoCA_tracing"></a>   
-## Enable tracing for Dynamics 365 for tablets  
+
+<a name="BKMK_MoCA_tracing"></a>
+
+## Enable tracing for Dynamics 365 for tablets
+
  You can enable tracing in the [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] app to diagnose issues. When you enable tracing, verbose information is recorded on the device. This information can be analyzed to help identify the source of an issue. The way to enable and view tracing differs depending on the tablet operating system.  
   
-### Windows  
- Follow these steps to view events. Tracing is enabled by default.  
+### Windows
+
+Follow these steps to view events. Tracing is enabled by default.  
   
-1.  Open the [!INCLUDE[pn_Event_Viewer](../includes/pn-event-viewer.md)]. To do this, go to the Start screen, type `Run`, and then press or tap **ENTER**. In the Run box type `eventvwr`, and then press or tap **ENTER**.  
+1. Open the [!INCLUDE[pn_Event_Viewer](../includes/pn-event-viewer.md)]. To do this, go to the Start screen, type `Run`, and then press or tap **ENTER**. In the Run box type `eventvwr`, and then press or tap **ENTER**.  
   
-2.  Select the **AppHost** folder under Application And Services Logs\Microsoft\Windows  
+1. Select the **AppHost** folder under Application And Services Logs\Microsoft\Windows  
   
-3.  From the **View** menu, select **Show Analytic and Debug Logs**.  
+1. From the **View** menu, select **Show Analytic and Debug Logs**.  
   
    ![Show Analytic and Debug Logs.](media/crm-ua-moca-showanalytic.png "Show Analytic and Debug Logs")  
   
-4.  Additional nodes will appear under the **AppHost** folder.  
+1. Additional nodes will appear under the **AppHost** folder.  
   
-     ![AppHost Folder.](media/crm-ua-moca-apphostfolder.png "AppHost Folder")  
+   ![AppHost Folder.](media/crm-ua-moca-apphostfolder.png "AppHost Folder")  
   
-5.  Right-click (press and hold) the **AppTracing** node and then select **Enable Log**.  
+1. Right-click (press and hold) the **AppTracing** node and then select **Enable Log**.  
   
-     ![AppTracing Enable Log.](media/crm-ua-moca-enablelog.png "AppTracing Enable Log")  
+   ![AppTracing Enable Log.](media/crm-ua-moca-enablelog.png "AppTracing Enable Log")  
   
-6.  Select **OK** to agree to the following warning.  
+1. Select **OK** to agree to the following warning.  
   
-     ![Warning: logs may lose events.](media/crm-ua-moca-mayloseevents.png "Warning: logs may lose events")  
+   ![Warning: logs may lose events.](media/crm-ua-moca-mayloseevents.png "Warning: logs may lose events")  
   
-7.  After reproducing the issue, right-click (press and hold) **AppTracing** and then click or tap **Disable Log**.  
+1. After reproducing the issue, right-click (press and hold) **AppTracing** and then click or tap **Disable Log**.  
   
-     ![AppTracing Disable Log.](media/crm-ua-moca-disablelog.png "AppTracing Disable Log")  
+  ![AppTracing Disable Log.](media/crm-ua-moca-disablelog.png "AppTracing Disable Log")  
   
-8.  Refresh the Event Viewer to view log events. You can use **F5** or right-click (press and hold) **AppTracing** and then select **Refresh**.  
+1. Refresh the Event Viewer to view log events. You can use **F5** or right-click (press and hold) **AppTracing** and then select **Refresh**.  
   
-     ![Refresh AppTracing.](media/crm-ua-moca-refreshapptrace.png "Refresh AppTracing")  
+  ![Refresh AppTracing.](media/crm-ua-moca-refreshapptrace.png "Refresh AppTracing")  
   
-9. Review the details of events that are logged. Look for entries containing “Dynamics 365” in the field under the **General** tab.  
+1. Review the details of events that are logged. Look for entries containing “Dynamics 365” in the field under the **General** tab.  
   
-     ![AppTracing Find.](media/crm-ua-moca-apptracefind.png "AppTracing Find")  
+  ![AppTracing Find.](media/crm-ua-moca-apptracefind.png "AppTracing Find")  
+
+  > [!TIP]
+  > You can right-click (press and hold) **AppTracing** and then select **Find** to initiate a find. Then search for any events containing a word such as “Dynamics 365.” Ctrl + F is the keyboard shortcut.  
   
-    > [!TIP]
-    >  You can right-click (press and hold) **AppTracing** and then select **Find** to initiate a find. Then search for any events containing a word such as “Dynamics 365.” Ctrl + F is the keyboard shortcut.  
+1. Also check the events logged under **Admin**.  
   
-10. Also check the events logged under **Admin**.  
+  To save an event log, right-click (press and hold) the log and select **Save All Events As**. Specify the directory where you want to save the log file.  
   
-     To save an event log, right-click (press and hold) the log and select **Save All Events As**. Specify the directory where you want to save the log file.  
+  ![Events logged under admin.](media/crm-ua-moca-eventlogadmin.png "Events logged under admin")  
   
-     ![Events logged under admin.](media/crm-ua-moca-eventlogadmin.png "Events logged under admin")  
-  
-### iPad  
- Follow these steps to set up and view logging on the [!INCLUDE[tn_ipad](../includes/tn-ipad.md)].  
+### iPad
+
+Follow these steps to set up and view logging on the [!INCLUDE[tn_ipad](../includes/tn-ipad.md)].  
   
 ##### Enable logging on the iPad  
   
