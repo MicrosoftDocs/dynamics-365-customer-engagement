@@ -2,8 +2,7 @@
 title: "Monitor and troubleshoot Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
 description: Learn how to monitor and troubleshoot Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
-ms.date: "10/01/2018"
-
+ms.date: "05/27/2022"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -18,21 +17,22 @@ manager: kvivek
 ---
 # Monitor and troubleshoot Dynamics 365 Customer Engagement (on-premises)
 
-
-
 In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you can create trace files that monitor the actions that are performed by the server and client applications. Trace files are helpful when you have to troubleshoot error messages or other issues in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
- To enable [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] tracing, you can use deployment-level tracing or server-level tracing. Choosing either method determines the range of server roles monitored, the degree of control, and how to enable tracing and the location of the trace files.  
+To enable [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] tracing, you can use deployment-level tracing or server-level tracing. Choosing either method determines the range of server roles monitored, the degree of control, and how to enable tracing and the location of the trace files.  
   
- Additionally, [!INCLUDE[pn_CRM_Reporting_Extensions_server_side](../includes/pn-crm-reporting-extensions-server-side.md)], [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], and [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] can be enabled for tracing.  
+Additionally, [!INCLUDE[pn_CRM_Reporting_Extensions_server_side](../includes/pn-crm-reporting-extensions-server-side.md)], [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], and [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] can be enabled for tracing.  
   
 <a name="BKMK_deploy-level_tracing"></a>   
 ## Microsoft Dynamics 365 deployment-level tracing (on-premises versions only)  
  Deployment-level tracing monitors all [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server roles and services, regardless of the server roles installed on the local computer. When deployment-level tracing is enabled, all server roles are monitored such as [!INCLUDE[pn_Asynchronous_Service](../includes/pn-asynchronous-service.md)], [!INCLUDE[pn_Sandbox_Processing_Service](../includes/pn-sandbox-processing-service.md)], Unzip Service, Web application (w3wp), and [!INCLUDE[pn_Deployment_Tools](../includes/pn-deployment-tools.md)] (mmc-Tools). Corresponding trace files are created.  
   
- Deployment-level tracing is set by using [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] commands and is maintained in the MSCRM_CONFIG database. Deployment-level tracing can only be enabled from a computer that has the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)][!INCLUDE[pn_Deployment_Tools](../includes/pn-deployment-tools.md)] server role.  
+ Deployment-level tracing is set by using [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] commands and is maintained in the MSCRM_CONFIG database. Deployment-level tracing can only be enabled from a computer that has the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)][!INCLUDE[pn_Deployment_Tools](../includes/pn-deployment-tools.md)] server role.
+
+> [!IMPORTANT]
+> Deployment-level tracing isn't supported with Dynamics 365 Customer Engagement (on-premises), version 9.1.5 or later version.
   
- The trace files are located in a folder on the computer where the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)][!INCLUDE[pn_Deployment_Tools](../includes/pn-deployment-tools.md)] server role is running. By default, the location is C:\crmdrop\logs.  
+The trace files are located in a folder on the computer where the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)][!INCLUDE[pn_Deployment_Tools](../includes/pn-deployment-tools.md)] server role is running. By default, the location is C:\crmdrop\logs.  
   
 > [!CAUTION]
 >  Trace files may contain sensitive or personal information. Use discretion when you send trace files to other people, or when you give other people the ability to view the information in a trace file.  
@@ -53,9 +53,13 @@ In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you can create t
 Get-CrmSetting TraceSettings   
 ```  
   
-### Enable deployment-wide tracing  
- To turn on deployment-wide trace settings that record the maximum amount of information, including detailed logging with callstack information, run the following commands, in the order provided, from the [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] console on the computer where the [!INCLUDE[pn_Deployment_Tools](../includes/pn-deployment-tools.md)] server role is running. To enable less detailed logging or to change the location of the log files, see [Optional parameters](monitor-and-troubleshoot-dynamics-365.md#optional).  
-  
+### Enable deployment-wide tracing
+
+To turn on deployment-wide trace settings that record the maximum amount of information, including detailed logging with callstack information, run the following commands, in the order provided, from the [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] console on the computer where the [!INCLUDE[pn_Deployment_Tools](../includes/pn-deployment-tools.md)] server role is running. To enable less detailed logging or to change the location of the log files, see [Optional parameters](monitor-and-troubleshoot-dynamics-365.md#optional).  
+
+> [!IMPORTANT]
+> Deployment-level tracing isn't supported with Dynamics 365 Customer Engagement (on-premises), version 9.1.5 or later version.
+
 ```powershell  
 $Setting = Get-CrmSetting TraceSettings$Setting.Enabled = $True $Setting.CallStack=$True$Setting.Categories="*:Verbose"Set-CrmSetting $setting  
 ```  
