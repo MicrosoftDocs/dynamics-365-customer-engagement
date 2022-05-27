@@ -70,9 +70,7 @@ Before you connect an existing Azure resource to Azure Communication Services, y
    - **Event grid app ID**: Enter the application ID.
    - **Event grid app tenant ID**: Enter the tenant ID.
 
-4. Select **Connect**.
-
-Your existing resource is now connected to Azure Communication Services.
+4. Select **Connect**. Your existing resource is now connected to Azure Communication Services.
 
 5. Select **Add number**. The **Add phone number** page is displayed.
 
