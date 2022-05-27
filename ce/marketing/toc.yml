@@ -148,6 +148,8 @@
           href: email-warm-up.md
         - name: Create an SPF TXT record
           href: create-spf-record.md
+        - name: Email security and connection encryption
+          href: email-security-encryption.md
         - name: Deliverability recommendations when changing ESPs
           href: deliverability-change-esp.md
         - name: Improve deliverability to China
