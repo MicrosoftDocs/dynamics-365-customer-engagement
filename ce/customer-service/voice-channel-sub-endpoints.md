@@ -97,7 +97,7 @@ This article explains how you can enable recording and SMS services by creating 
 For SMS services, select **SMS Received** and **SMS Delivery Report Received** options from the dropdown list.
 
 
-<!--->
+<!---
 
 1. Open the resource on the Azure portal, go to **Events**, and select **Event Subscription**.
 
