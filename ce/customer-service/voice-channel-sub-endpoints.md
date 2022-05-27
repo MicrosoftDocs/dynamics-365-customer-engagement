@@ -78,14 +78,8 @@ This article explains how you can enable recording and SMS services by creating 
     - **Endpoint**: Select **Select an endpoint** and in the **Select Web Hook** dialog that opens, [get the Recording Web Hook Endpoint](#get-the-subscriber-endpoint-for-recording) and paste the value in the **Subscriber Endpoint** field, and select **Confirm Selection**.
 
 3. Go to the **Additional Features** tab, select the **Use AAD authentication** checkbox, and enter the following details.
-    > [!div class="mx-imgBorder"]
-    > ![Add AAD authentication details.](./media/voice-channel-create-event-subscription-AAD-authentication.png "Add AAD authentication details.")
    - **AAD Tenant ID**: Enter the **Directory (tenant) ID** field value of your Azure resource. 
-   > [!div class="mx-imgBorder"]
-   > ![Copy Directory (tenant) ID.](./media/voice-channel-tenant-ID.png "Copy Directory (tenant) ID.")
    - **AAD Application ID or URI**: Enter the **Application (client) ID** field value of your Azure resource. 
-   > [!div class="mx-imgBorder"]
-   > ![Copy Application (client) ID.](./media/voice-channel-application-ID.png "Copy Application (client) ID.")
 
 4. Select **Create** to create the event subscription endpoint for recording. This might take some time, so if you get a sync error, try refreshing after some time.
 
@@ -98,6 +92,14 @@ For SMS services, select **SMS Received** and **SMS Delivery Report Received** o
 
 
 <!---
+    > [!div class="mx-imgBorder"]
+    > ![Add AAD authentication details.](./media/voice-channel-create-event-subscription-AAD-authentication.png "Add AAD authentication details.")
+
+   > [!div class="mx-imgBorder"]
+   > ![Copy Directory (tenant) ID.](./media/voice-channel-tenant-ID.png "Copy Directory (tenant) ID.")
+
+   > [!div class="mx-imgBorder"]
+   > ![Copy Application (client) ID.](./media/voice-channel-application-ID.png "Copy Application (client) ID.")
 
 1. Open the resource on the Azure portal, go to **Events**, and select **Event Subscription**.
 
