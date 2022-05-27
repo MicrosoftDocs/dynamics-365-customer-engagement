@@ -178,6 +178,6 @@ landingContent:
         - text: Work with Dynamics 365 records within Teams
           url: teams-integration/share-d365-record-overview.md
         - text: Make and receive call using Teams 
-          url: sales/configure-microsoft-teams-dialer.md
+          url: configure-microsoft-teams-dialer.md
         - text: Link Dynamics 365 records to Teams channels
           url: teams-integration/enable-record-linking.md
