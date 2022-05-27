@@ -52,9 +52,7 @@ Before you connect an Azure resource to Azure Communication Services, you must h
       > The resource group name should be unique within a subscription.
    - **Resource name**: Enter a name for the resource. The resource name can contain only letters, numbers, and hyphens.
 1. Select **Deploy** to create and deploy the resource.
-   <!---> > [!div class="mx-imgBorder"]
-    > ![Create new resource.](./media/voice-channel-number-mgmt-azure-create-new-resource.png "Create new resource.")
-   <--->
+
 Your new Azure resource is connected to Azure Communication Services. You can now [acquire new phone numbers](voice-channel-manage-phone-numbers.md) for your organization via the new resource and also [enable recording and SMS services](voice-channel-sub-endpoints.md).
 
 ### See also

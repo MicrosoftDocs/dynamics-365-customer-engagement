@@ -71,10 +71,8 @@ Before you connect an existing Azure resource to Azure Communication Services, y
    - **Event grid app tenant ID**: Enter the tenant ID.
 
 4. Select **Connect**.
-   <!---> > [!div class="mx-imgBorder"]
-    > ![Azure resource is connected to Azure Communication Services.](./media/voice-channel-acs-connection.png "Azure resource is connected to Azure Communication Services.")
-   <--->
-    Your existing resource is now connected to Azure Communication Services, and you can [acquire new phone numbers](voice-channel-manage-phone-numbers.md) for your organization via the resource. 
+
+Your existing resource is now connected to Azure Communication Services.
 
 5. Select **Add number**. The **Add phone number** page is displayed.
 
