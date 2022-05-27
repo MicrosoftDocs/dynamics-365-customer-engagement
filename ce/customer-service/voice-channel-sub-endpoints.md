@@ -59,7 +59,7 @@ This article explains how you can enable recording and SMS services by creating 
     > [!div class="mx-imgBorder"]
     > ![Copy SMS web hook endpoint.](./media/voice-channel-sms-webhook-endpoint.png "Copy SMS web hook endpoint.")
 
-## Create event subscription endpoints
+## Create event subscription endpoint for recording
 
 1. Open the resource on the Azure portal, go to **Events**, and select **Event Subscription**.
 
@@ -75,15 +75,15 @@ This article explains how you can enable recording and SMS services by creating 
     - **System Topic Name**: This field is automatically populated with the system topic name you created. However, if you see multiple values, select the specific system topic name from the dropdown.
     - **Filter to Event Types**: For recording services, select the **Recording File Status Updated (Preview)** option from the dropdown list. 
     - **Endpoint Type**: Select **Web Hook** from the dropdown list.
-    - **Endpoint**: Select **Select an endpoint** and in the **Select Web Hook** dialog that opens, enter the **Subscriber Endpoint** and select **Confirm Selection**.
+    - **Endpoint**: Select **Select an endpoint** and in the **Select Web Hook** dialog that opens, [get the Recording Web Hook Endpoint](#get-the-subscriber-endpoint-for-recording) and paste the value in the **Subscriber Endpoint** field, and select **Confirm Selection**.
 
 3. Go to the **Additional Features** tab, select the **Use AAD authentication** checkbox, and enter the following details.
     > [!div class="mx-imgBorder"]
     > ![Add AAD authentication details.](./media/voice-channel-create-event-subscription-AAD-authentication.png "Add AAD authentication details.")
-   - **AAD Tenant ID**: Copy the **Directory (tenant) ID** field value from your Azure resource to this field. Not sure how to get your tenant ID? See [Get application and tenant IDs](voice-channel-resource-app-details.md#get-application-and-tenant-ids).
+   - **AAD Tenant ID**: Enter the **Directory (tenant) ID** field value of your Azure resource. 
    > [!div class="mx-imgBorder"]
    > ![Copy Directory (tenant) ID.](./media/voice-channel-tenant-ID.png "Copy Directory (tenant) ID.")
-   - **AAD Application ID or URI**: Copy the **Application (client) ID** field value from your Azure resource to this field. Not sure how to get your application ID? See [Get application and tenant IDs](voice-channel-resource-app-details.md#get-application-and-tenant-ids).
+   - **AAD Application ID or URI**: Enter the **Application (client) ID** field value of your Azure resource. 
    > [!div class="mx-imgBorder"]
    > ![Copy Application (client) ID.](./media/voice-channel-application-ID.png "Copy Application (client) ID.")
 
