@@ -1,7 +1,7 @@
 ---
 title: "Customer Service Overview (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Overview of Dynamics 365 Customer Service"
-ms.date: 05/26/2022
+ms.date: 05/27/2022
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -21,7 +21,7 @@ The agent experience is the heart of Dynamics 365 Customer Service. The key to i
 
 We offer several app experiences for you to choose from, depending on your support organization’s needs.
 
-Use [!INCLUDE[pn-ms-dyn-365-for-customer-service](../includes/pn-ms-dyn-365-for-customer-service.md)] to:
+Use Customer Service to:
 
 - Track customer issues through cases
 - Record all interactions related to a case
@@ -59,19 +59,19 @@ You can configure and manage the different capabilities in Customer Service by u
 
 The following table provides the features that can be configured through the admin apps.
 
-| Feature| Customer Service admin center | Omnichannel admin center |Customer Service Hub -> Service Management | Power Apps |
-|--------|-------------------------------|--------------------------|-------------------------------------------|------------|
-| Basic administration for Customer service| ✔ | ✖ | ✔ | ✖|
-| Case routing and queue configuration | ✔ | ✔ |✔| ✖ |
-| Service-level agreements|✔|✖|✔|✖|
-| Service scheduling|✔|✖|✔|✖|
-| Live chat, social channels, Microsoft Teams, SMS| ✔ | ✔ |✖| ✖ |
-| Agent experience profiles |✔ | ✖| ✖ |✔|
-| Unified routing |✔|✔|✔|✖|
-| Voice channel |✔|✔|✖|✖|
-| Knowledge management|✔|✖|✔|✖|
-| Insights, analytics, and dashboards|✔|✔|✔|✖|
-| Productivity tools |✔|✔|✖|✖|
+| Feature| Customer Service admin center | Omnichannel admin center |Customer Service Hub -> Service Management |
+|--------|-------------------------------|--------------------------|-------------------------------------------|
+| Basic administration for Customer service| ✔ | ✖ | ✔ |
+| Case routing and queue configuration | ✔ | ✔ |✔|
+| Service-level agreements|✔|✖|✔|
+| Service scheduling|✔|✖|✔|
+| Live chat, social channels, Microsoft Teams, SMS| ✔ | ✔ |✖|
+| Agent experience profiles |✔ | ✖| ✖ |
+| Unified routing |✔|✔|✔|
+| Voice channel |✔|✔|✖|
+| Knowledge management|✔|✖|✔|
+| Insights, analytics, and dashboards|✔|✔|✔|
+| Productivity tools |✔|✔|✖|
 
 
 **Legend**
