@@ -36,7 +36,7 @@ There are three levels where auditing can be configured: organization, entity, a
 
 After auditing is enabled and data changes are made to those entities and attributes being audited, you can proceed to obtain the data change history. Optionally, you can delete the audit records after you review the change history. To learn more, see [Retrieve and Delete the History of Audited Data Changes](/powerapps/developer/common-data-service/retrieve-and-delete-the-history-of-audited-data-changes) in the Dataverse documentation.
 
-### Behavior of DeleteAuditData message depends on SQL Server edition.
+### Behavior of DeleteAuditData message depends on SQL Server edition
 
 When using Dynamics 365 Customer Engagement (on-premises) the behavior of the `DeleteAuditData` message depends on the which edition of SQL Server is used.
 
