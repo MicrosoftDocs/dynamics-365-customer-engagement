@@ -32,6 +32,8 @@
         href: re-run-setup.md
       - name: Uninstall Marketing
         href: uninstall-marketing.md
+      - name: Solution uninstall order
+        href: solution-uninstall-order.md
     - name: Manage environments
       items:
       - name: Open the Power Platform admin center
