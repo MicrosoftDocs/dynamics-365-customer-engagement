@@ -6,14 +6,13 @@ ms.author: nenellim
 manager: shujoshi
 ms.date: 05/31/2022
 ms.topic: article
-
 ---
 
 # Supported cloud locations, languages, and locale codes
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-This article provides information about the supported cloud locations, languages, and locale codes.
+This article provides information about the supported cloud locations, languages, and locale codes for the voice channel in Omnichannel for Customer Service.
 
 > [!NOTE]
 > For information about international availability of live chat and digital messaging channels, see [International availability of Omnichannel for Customer Service](international-availability.md#international-availability-of-omnichannel-for-customer-service).
@@ -42,7 +41,7 @@ Use the information in the following table to know about the availability of the
 
 ### Microsoft as a carrier
 
-Microsoft as a carrier is available for customers with billing locations in select geographies around the world. More information: [Subscription eligibility and number capabilities](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability) 
+Microsoft as a carrier is available for customers with billing locations in select geographies around the world. More information: [Subscription eligibility and number capabilities](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability)
 
 You can purchase new phone numbers through the Azure portal, and then sync with Omnichannel for Customer Service. More information: [Sync from Azure](voice-channel-acs-resource.md#sync-from-azure)
 
