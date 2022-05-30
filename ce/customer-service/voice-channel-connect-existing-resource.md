@@ -28,12 +28,9 @@ Before you connect an existing Azure resource to Azure Communication Services, y
 
    To get the resource name and ID, open your resource on the Azure portal, go to **Settings** > **Properties**. Note the values of the **ACS Resource Name** and **ACS Resource ID** fields.
 
-- Get the connection string of your Azure resource from the Azure portal.
+- Get the connection string of your Azure resource from the Azure portal. More information: [Access your connection string and endpoints](/azure/communication-services/quickstarts/create-communication-resource?tabs=windows&pivots=platform-azp#access-your-connection-strings-and-service-endpoints)
 
-   To get the connection string, see [Access your connection string and endpoints](/azure/communication-services/quickstarts/create-communication-resource?tabs=windows&pivots=platform-azp#access-your-connection-strings-and-service-endpoints).
-
-- Get the application (client) ID and directory (tenant) ID for your registered app.
-   To get the application , see [Application ID and directory ID for your registered app](voice-channel-resource-app-details.md#get-application-and-tenant-ids).
+- Get the application (client) ID and directory (tenant) ID for your registered app. More information: [Application ID and directory ID for your registered app](voice-channel-resource-app-details.md#get-application-and-tenant-ids)
 
 ## Connect to an existing Azure resource
 
@@ -46,7 +43,7 @@ Before you connect an existing Azure resource to Azure Communication Services, y
 
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
 
-   - In the site map, under **General settings**, select **Phone numbers**, and then select **Get started**. The **Connect to Azure Communication Services** dialog opens.
+   In the site map, under **General settings**, select **Phone numbers**, and then select **Get started**. The **Connect to Azure Communication Services** dialog opens.
 
 2. Select **Use existing resource**.
 
