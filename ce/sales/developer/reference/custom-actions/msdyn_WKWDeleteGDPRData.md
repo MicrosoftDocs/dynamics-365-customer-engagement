@@ -9,7 +9,8 @@ manager: shujoshi
 ---
 # WKWDeleteGDPRData custom action 
 
-To comply with the GDPR requirements, you may need to delete all the user data after they leave the organization. This includes data collected by Dynamics 365 from Microsoft 365 to provide relationship insights. 
+To comply with the GDPR requirements, you may need to delete a user's data after they leave the organization or for other reasons. This includes data collected by Dynamics 365 from Microsoft 365 to provide business insights.  
+
 As a developer, use this reference documentation to understand how to delete a user's Microsoft 365 data stored in Dynamics 365.
 
 ## License and role requirements
