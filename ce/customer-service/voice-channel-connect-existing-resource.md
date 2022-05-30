@@ -23,28 +23,20 @@ Before you connect an existing Azure resource to Azure Communication Services, y
 
 - Get the following details from the Azure portal.
 
-    - Name and ID of your Azure resource. 
-      
+    - Name and ID of your Azure resource.
+
       To get the resource name and ID, open your resource on the Azure portal, go to **Settings** > **Properties**. Note the values of the **ACS Resource Name** and **ACS Resource ID** fields.
 
-    - Connection string of your Azure resource. 
-      
+    - Connection string of your Azure resource.
+
       To get the connection string, see [Access your connection string and endpoints](/azure/communication-services/quickstarts/create-communication-resource?tabs=windows&pivots=platform-azp#access-your-connection-strings-and-service-endpoints).
 
     - [Application ID and tenant ID for your registered app](voice-channel-resource-app-details.md#get-application-and-tenant-ids).
-      
-      To get the application ID and tenant ID for your registered app:
-      1. Open the **Event Grid System Topics** service on the Azure portal.
-      1. [Create and deploy an event grid system topic](/azure/event-grid/create-view-manage-system-topics#create-a-system-topic).
-      1. On the **Event Grid System Topic** page that's created, select the **Subscription** link.
-      1. In the resource subscription page, select **Settings** > **Resource providers**, and then check if the **Microsoft.EventGrid** provider is listed as **Registered**. If the event grid is not registered, select the record and then select **Re-register** to register it.
 
-> [!Important]
->
-> On the **Phone numbers** page, the **Get started** button to connect to an existing Azure resource will appear only in the following scenarios.
-> - The trial has ended after the free calling time has elapsed.
-> - You've manually ended the trial.
-> - You've [disconnected from the Azure resource](voice-channel-acs-resource.md#disconnect-from-azure-communication-services-resource).
+- On the **Phone numbers** page, the **Get started** button to connect to an existing Azure resource will appear only in the following scenarios.
+    - The trial has ended after the free calling time has elapsed.
+    - You've manually ended the trial.
+    - You've [disconnected from the Azure resource](voice-channel-acs-resource.md#disconnect-from-azure-communication-services-resource).
 
 ## Connect to an existing Azure resource
 
@@ -76,8 +68,95 @@ Before you connect an existing Azure resource to Azure Communication Services, y
 
 You can now configure the voice workstream settings for the phone number, set up outbound and inbound calling to make and/or receive customer calls, and also [enable recording and SMS services](voice-channel-sub-endpoints.md).
 
-### Enable....
+### Enable recording and SMS services
 
+This section explains how you can enable recording and SMS services by creating event subscription endpoints. To do this, you must first subscribe to the corresponding events by creating [Event Grid](/azure/event-grid/overview) subscriptions on the Azure portal.
+
+## Prerequisites
+
+- Get the application (client) ID and directory (tenant) ID from the App registrations page of your Azure resource.
+- [Get the subscriber endpoint for recording](#get-the-subscriber-endpoint-for-recording).
+- [Get the subscriber endpoint for SMS](#get-the-subscriber-endpoint-for-sms).
+
+## Create event subscription endpoint for recording
+
+1. Open the resource on the Azure portal, go to **Events**, and select **Event Subscription**.
+
+2. In the **Create Event Subscription** dialog, enter the following details in the **Basic** tab.
+    > [!div class="mx-imgBorder"]
+    > ![Add event subscription details for recording.](./media/voice-channel-create-event-subscription-recording.png "Add event subscription details for recording.")
+    - **Name**: Enter a name for the recording event subscription.
+    - **Event Schema**: Select **Event Grid Schema** from the dropdown list.
+    - **Topic Types**: Select **Azure Communication Services** from the dropdown list.
+    - **Subscription**: Select your subscription from the dropdown list.
+    - **Resource Group**: Select the resource group.
+    - **Resource**: Select the resource.
+    - **System Topic Name**: This field is automatically populated with the system topic name you created. However, if you see multiple values, select the specific system topic name from the dropdown.
+    - **Filter to Event Types**: For recording services, select the **Recording File Status Updated (Preview)** option from the dropdown list. 
+    - **Endpoint Type**: Select **Web Hook** from the dropdown list.
+    - **Endpoint**: Select **Select an endpoint** and in the **Select Web Hook** dialog that opens, [get the Recording Web Hook Endpoint](#get-the-subscriber-endpoint-for-recording) and paste the value in the **Subscriber Endpoint** field, and select **Confirm Selection**.
+
+3. Go to the **Additional Features** tab, select the **Use AAD authentication** checkbox, and enter the following details.
+   - **AAD Tenant ID**: Enter the **Directory (tenant) ID** field value of your Azure resource. 
+   - **AAD Application ID or URI**: Enter the **Application (client) ID** field value of your Azure resource. 
+
+4. Select **Create** to create the event subscription endpoint for recording. This might take some time, so if you get a sync error, try refreshing after some time.
+
+    > [!div class="mx-imgBorder"]
+    > ![Successfully created event subscription endpoints for recording.](./media/voice-channel-event-subscription-recording-success.png "Create event grid callbacks for recording.")
+
+
+### Get the application (client) ID and directory (tenant) ID
+
+ To get the application ID and tenant ID for your registered app
+      1. Open the **Event Grid System Topics** service on the Azure portal.
+      1. [Create and deploy an event grid system topic](/azure/event-grid/create-view-manage-system-topics#create-a-system-topic).
+      1. On the **Event Grid System Topic** page that's created, select the **Subscription** link.
+      1. In the resource subscription page, select **Settings** > **Resource providers**, and then check if the **Microsoft.EventGrid** provider is listed as **Registered**. If the event grid is not registered, select the record and then select **Re-register** to register it.
+
+
+### Create event subscription endpoint for SMS
+
+Follow the procedure to 
+For SMS services, select **SMS Received** and **SMS Delivery Report Received** options from the dropdown list.
+
+### Get the subscriber endpoint for recording
+
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+
+    1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
+    
+    2. Select **Manage** for **Phone numbers**.
+
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+
+   - In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**. 
+
+1. In the **Phone numbers** page that opens, select a phone number, and then select **Advanced**.
+
+1. In the **Manage Azure Communication Services** page that opens, select **Copy** next to **Recording Web Hook Endpoint** and paste the web hook endpoint value in the **Subscriber Endpoint** field of the **Event Grid Subscription** page.
+    > [!div class="mx-imgBorder"]
+    > ![Copy recording web hook endpoint.](./media/voice-channel-recording-webhook-endpoint.png "Copy recording web hook endpoint.")
+
+### Get the subscriber endpoint for SMS
+
+1. In Dynamics 365, go to one of the apps, and perform the following steps.
+   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+
+    1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
+    
+    2. Select **Manage** for **Phone numbers**.
+
+   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+
+   - In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**. 
+
+1. In the **Phone numbers** page that opens, select a phone number, and then select **Advanced**.
+
+1. In the **Manage Azure Communication Services** page that opens, select **Copy** next to **SMS Web Hook Endpoint** and note the value.
+    > [!div class="mx-imgBorder"]
+    > ![Copy SMS web hook endpoint.](./media/voice-channel-sms-webhook-endpoint.png "Copy SMS web hook endpoint.")
 ### See also
 
 [Overview of the voice channel](voice-channel.md)  

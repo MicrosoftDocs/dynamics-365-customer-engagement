@@ -50,6 +50,8 @@ Before you connect an Azure resource to Azure Communication Services, you must h
 
 Your new Azure resource is connected to Azure Communication Services. You can now [acquire new phone numbers](voice-channel-manage-phone-numbers.md) for your organization via the new resource and also [enable recording and SMS services](voice-channel-sub-endpoints.md).
 
+
+
 ### See also
 
 [Overview of the voice channel](voice-channel.md)  

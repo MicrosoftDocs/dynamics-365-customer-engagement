@@ -9,87 +9,10 @@ manager: shujoshi
 ms.topic: article
 ---
 
-# Enable recording and SMS services 
+# Enable recording and SMS services
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-This article explains how you can enable recording and SMS services by creating event subscription endpoints. To do this, you must first subscribe to the corresponding events by creating [Event Grid](/azure/event-grid/overview) subscriptions on the Azure portal.
-
-## Prerequisites
-
-- Get the application (client) ID and directory (tenant) ID from the App registrations page of your Azure resource.
-- [Get the subscriber endpoint for recording](#get-the-subscriber-endpoint-for-recording).
-- [Get the subscriber endpoint for SMS](#get-the-subscriber-endpoint-for-sms).
-
-## Get the subscriber endpoint for recording
-
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
-    
-    2. Select **Manage** for **Phone numbers**.
-
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
-
-   - In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**. 
-
-1. In the **Phone numbers** page that opens, select a phone number, and then select **Advanced**.
-
-1. In the **Manage Azure Communication Services** page that opens, select **Copy** next to **Recording Web Hook Endpoint** and paste the web hook endpoint value in the **Subscriber Endpoint** field of the **Event Grid Subscription** page.
-    > [!div class="mx-imgBorder"]
-    > ![Copy recording web hook endpoint.](./media/voice-channel-recording-webhook-endpoint.png "Copy recording web hook endpoint.")
-
-## Get the subscriber endpoint for SMS
-
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
-    
-    2. Select **Manage** for **Phone numbers**.
-
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
-
-   - In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**. 
-
-1. In the **Phone numbers** page that opens, select a phone number, and then select **Advanced**.
-
-1. In the **Manage Azure Communication Services** page that opens, select **Copy** next to **SMS Web Hook Endpoint** and note the value.
-    > [!div class="mx-imgBorder"]
-    > ![Copy SMS web hook endpoint.](./media/voice-channel-sms-webhook-endpoint.png "Copy SMS web hook endpoint.")
-
-## Create event subscription endpoint for recording
-
-1. Open the resource on the Azure portal, go to **Events**, and select **Event Subscription**.
-
-2. In the **Create Event Subscription** dialog, enter the following details in the **Basic** tab.
-    > [!div class="mx-imgBorder"]
-    > ![Add event subscription details for recording.](./media/voice-channel-create-event-subscription-recording.png "Add event subscription details for recording.")
-    - **Name**: Enter a name for the recording event subscription.
-    - **Event Schema**: Select **Event Grid Schema** from the dropdown list.
-    - **Topic Types**: Select **Azure Communication Services** from the dropdown list.
-    - **Subscription**: Select your subscription from the dropdown list.
-    - **Resource Group**: Select the resource group.
-    - **Resource**: Select the resource.
-    - **System Topic Name**: This field is automatically populated with the system topic name you created. However, if you see multiple values, select the specific system topic name from the dropdown.
-    - **Filter to Event Types**: For recording services, select the **Recording File Status Updated (Preview)** option from the dropdown list. 
-    - **Endpoint Type**: Select **Web Hook** from the dropdown list.
-    - **Endpoint**: Select **Select an endpoint** and in the **Select Web Hook** dialog that opens, [get the Recording Web Hook Endpoint](#get-the-subscriber-endpoint-for-recording) and paste the value in the **Subscriber Endpoint** field, and select **Confirm Selection**.
-
-3. Go to the **Additional Features** tab, select the **Use AAD authentication** checkbox, and enter the following details.
-   - **AAD Tenant ID**: Enter the **Directory (tenant) ID** field value of your Azure resource. 
-   - **AAD Application ID or URI**: Enter the **Application (client) ID** field value of your Azure resource. 
-
-4. Select **Create** to create the event subscription endpoint for recording. This might take some time, so if you get a sync error, try refreshing after some time.
-
-    > [!div class="mx-imgBorder"]
-    > ![Successfully created event subscription endpoints for recording.](./media/voice-channel-event-subscription-recording-success.png "Create event grid callbacks for recording.")
-
-## Create event subscription endpoint for SMS
-
-Follow the procedure to 
-For SMS services, select **SMS Received** and **SMS Delivery Report Received** options from the dropdown list.
 
 
 <!---
