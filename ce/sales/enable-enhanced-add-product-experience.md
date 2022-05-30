@@ -32,14 +32,14 @@ Enable your salespeople to quickly find and add multiple products to an opportun
 
  By using the enhanced experience, salespeople can do the following:
 
-- Quickly search for products and filter by product families.
-    > [!NOTE]
-    > Product families are only supported for Sales Enterprise and Sales Premium.
+- Quickly search for products and add them to opportunity, quote, order, or invoice 
+- Filter by product families if you have the Sales Enterprise or Sales Premium license.
 - View product details inline.
 - Compare products before selecting them.
 - Add multiple products in one go.
 
 [!INCLUDE [add-products-experience-on-mobile](../includes/add-products-experience-on-mobile.md)]
+
 
 
 ## Enable or disable the enhanced experience
