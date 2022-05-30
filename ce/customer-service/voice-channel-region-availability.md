@@ -9,7 +9,7 @@ ms.topic: article
 
 ---
 
-# Supported cloud locations, languages, and locale codes 
+# Supported cloud locations, languages, and locale codes
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -44,7 +44,7 @@ Use the information in the following table to know about the availability of the
 
 Microsoft as a carrier is available for customers with billing locations in select geographies around the world. More information: [Subscription eligibility and number capabilities](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability) 
 
-You can purchase new numbers through the Azure portal, and then sync with Omnichannel for Customer Service. More information: [Sync from Azure](voice-channel-acs-resource.md#sync-from-azure)
+You can purchase new phone numbers through the Azure portal, and then sync with Omnichannel for Customer Service. More information: [Sync from Azure](voice-channel-acs-resource.md#sync-from-azure)
 
 You can also port existing US or toll-free phone numbers. More information: [Port a phone number](/azure/communication-services/quickstarts/telephony/port-phone-number)
 
