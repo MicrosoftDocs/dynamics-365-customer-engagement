@@ -88,6 +88,7 @@ This article explains how you can enable recording and SMS services by creating 
 
 ## Create event subscription endpoint for SMS
 
+Follow the procedure to 
 For SMS services, select **SMS Received** and **SMS Delivery Report Received** options from the dropdown list.
 
 
