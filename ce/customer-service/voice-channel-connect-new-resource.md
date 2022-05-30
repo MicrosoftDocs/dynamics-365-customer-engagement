@@ -40,7 +40,7 @@ Before you connect an Azure resource to Azure Communication Services, you must p
 
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
 
-   In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**. 
+   In the site map of Omnichannel admin center, under **General settings**, select **Phone numbers**.
 
 1. Select **Get started**. The **Connect to Azure Communication Services** dialog opens.
 1. Select **Create new resource** and enter the following details.
@@ -52,8 +52,6 @@ Before you connect an Azure resource to Azure Communication Services, you must p
 1. Select **Deploy** to create and deploy the resource.
 
 Your new Azure resource is connected to Azure Communication Services. You can now [acquire new phone numbers](voice-channel-manage-phone-numbers.md) for your organization via the new resource and also [enable recording and SMS services](voice-channel-sub-endpoints.md).
-
-
 
 ### See also
 
