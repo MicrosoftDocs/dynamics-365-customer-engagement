@@ -62,7 +62,7 @@ So, to enable voice recording and SMS services, you must configure your applicat
 1. Open the **Event Grid System Topics** service on the Azure portal.
 2. Create and deploy an event grid system topic. More information: [Create a system topic](/azure/event-grid/create-view-manage-system-topics#create-a-system-topic)
 3. On the **Event Grid System Topic** page that's created, select the **Subscription** link.
-4. In the resource subscription page, select **Settings** > **Resource providers**, and then check if the **Microsoft.EventGrid** provider is listed as **Registered**. If the event grid is not registered, select the record and then select **Re-register** to register it.
+4. In the resource subscription page, select **Settings** > **Resource providers**, and then check if the **Microsoft.EventGrid** provider is listed as **Registered**. If the event grid is not registered, select the record, and then select **Re-register** to register it.
 5. Open the resource on the Azure portal, go to **Events**, and select **Event Subscription**.
 6. In the **Create Event Subscription** dialog, enter the following details in the **Basic** tab.
     - **Name**: Enter a name for the recording event subscription.
