@@ -12,20 +12,23 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-In the voice channel, you can quickly connect to [Azure Communication Services](/azure/communication-services/overview), provision phone numbers, and set up outbound and inbound calling for your business by creating and deploying a new Azure resource.
+In the voice channel, you can quickly connect to Azure Communication Services, provision phone numbers, and set up outbound and inbound calling for your business by creating and deploying a new Azure resource. More information: [Azure Communication Services](/azure/communication-services/overview)
 
 ## Prerequisites
 
-Before you connect an Azure resource to Azure Communication Services, you must have the following details.
+Before you connect an Azure resource to Azure Communication Services, you must perform the following steps.
 
-- An Azure subscription that's in the same tenant as your Dynamics 365 account. Ensure that your Azure subscription meets the [Subscription eligibility and number capabilities](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability) requirements.
-- At least contributor-level permissions to the Azure subscription. To check your role, open your subscription and view the **My role** column of your subscription on the Azure portal. You'll be able to deploy your Azure Communication Services resource only if you have contributor-level permissions.
-- If you're [using a trial phone number](voice-channel-manage-phone-numbers.md#use-trial-phone-number), you must end the trial to be able to see the options to connect to a new Azure resource.
-- On the **Phone numbers** page, the **Get started** button to connect to a new Azure resource will appear only in the following scenarios.
+- Check whether the **Get started** button to connect to an existing Azure resource is visible on the **Phone numbers** page. The **Get Started** button appears only in the following scenarios.
     - The trial has ended after the free calling time has elapsed.
     - You've manually ended the trial.
-    - You've [disconnected from the Azure resource](voice-channel-acs-resource.md#disconnect-from-azure-communication-services-resource).
+    - You've disconnected from the Azure resource. More information: [Disconnect from Azure Communication Services resource](voice-channel-acs-resource.md#disconnect-from-azure-communication-services-resource)
 
+- An Azure subscription that's in the same tenant as your Dynamics 365 account. Ensure that your Azure subscription meets the [Subscription eligibility and number capabilities](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability) requirements.
+
+- At least contributor-level permissions to the Azure subscription. To check your role, open your subscription and view the **My role** column of your subscription on the Azure portal. You'll be able to deploy your Azure Communication Services resource only if you have contributor-level permissions.
+
+- If you're [using a trial phone number](voice-channel-manage-phone-numbers.md#use-trial-phone-number), you must end the trial to be able to see the options to connect to a new Azure resource.
+ 
 ## Connect to a new Azure resource
 
 1. In Dynamics 365, go to one of the admin apps, and perform the following steps.

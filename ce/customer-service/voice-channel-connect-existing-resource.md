@@ -30,7 +30,7 @@ Before you connect an existing Azure resource to Azure Communication Services, y
 
 - Get the connection string of your Azure resource from the Azure portal. More information: [Access your connection string and endpoints](/azure/communication-services/quickstarts/create-communication-resource?tabs=windows&pivots=platform-azp#access-your-connection-strings-and-service-endpoints)
 
-- Get the application (client) ID and directory (tenant) ID for your registered app. More information: [Application ID and directory ID for your registered app](voice-channel-resource-app-details.md#get-application-and-tenant-ids)
+- Get the application (client) ID and directory (tenant) ID for your registered app. More information: [Get the application ID and directory ID](#get-the-application-id-and-directory-id)
 
 ## Connect to an existing Azure resource
 
@@ -64,9 +64,7 @@ You can now configure the voice workstream settings for the phone number, set up
 
 ### Enable recording and SMS services
 
-This section explains how you can enable recording or SMS services by creating event subscription endpoints. To do this, you must first subscribe to the corresponding events by creating [Event Grid](/azure/event-grid/overview) subscriptions on the Azure portal.
-
-## Prerequisites
+This section explains how you can enable recording or SMS services by creating event subscription endpoints. To do this, you must first subscribe to the corresponding recording or SMS events by creating Event Grid subscriptions on the Azure portal. More information: [Event Grid](/azure/event-grid/overview)
 
 - [Get the subscriber endpoint for recording](#get-the-subscriber-endpoint-for-recording).
 - [Get the web hook endpoint for SMS](#get-the-subscriber-endpoint-for-sms).
@@ -98,10 +96,9 @@ This section explains how you can enable recording or SMS services by creating e
     > [!div class="mx-imgBorder"]
     > ![Successfully created event subscription endpoints for recording.](./media/voice-channel-event-subscription-recording-success.png "Create event grid callbacks for recording.")
 
+### Get the application ID and directory ID
 
-### Get the application (client) ID and directory (tenant) ID
-
- To get the application ID and tenant ID for your registered app
+ To get the application (client) ID and directory (tenant) ID for your registered app
       1. Open the **Event Grid System Topics** service on the Azure portal.
       1. [Create and deploy an event grid system topic](/azure/event-grid/create-view-manage-system-topics#create-a-system-topic).
       1. On the **Event Grid System Topic** page that's created, select the **Subscription** link.
