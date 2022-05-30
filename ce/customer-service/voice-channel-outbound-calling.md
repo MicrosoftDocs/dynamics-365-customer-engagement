@@ -34,7 +34,7 @@ To check whether a phone number is enabled for outbound calling, go to **General
 
 1. In Dynamics 365, go to one of the apps, and perform the following steps.  
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
-    1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.    
+    1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
     2. Select **Manage** for **Phone numbers**.
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
     In the site map, select **Phone numbers** in **General settings**.
