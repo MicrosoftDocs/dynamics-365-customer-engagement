@@ -43,8 +43,7 @@ The Summary and Model run summary views provide key information about how the to
 
 ### Improve data quality by cleaning support case data
 
-   > [!div class=ms-imgBorder]
-   > ![Clean support case data.](media/clean-support-case-data-cs.png "Clean support case data to improve data quality")
+  :::image type="content" source="clean-support-case-data-cs.png" alt-text="Clean support case data to improve data quality":::
 
 Customer Service Insights uses AI technology to give you insights into your customer service data by grouping support cases as topics that are a collection of related cases. This can help you identify areas for improvement that can have the greatest impact on system performance. 
 
@@ -54,8 +53,7 @@ The AI Insights charts displayed on the Customer Service Insights dashboards are
 
 AI discovered topics in Customer Service Historical Analytics are often prime candidates as topics for automation in Power Virtual Agents bots. If Power Virtual Agents is available in the region that your Customer Service organization is in, then the feature can be enabled by selecting the **Enable** toggle and selecting **Save**.
 
-> [!div class=ms-imgBorder]
-   > ![Topic automation for PVA.](media/cs-topic-automation.png "Topic automation for PVA")
+:::image type="content" source="cs-topic-automation.png" alt-text="Topic automation for PVA":::
 
 > [!NOTE]
 > Topic automation to Power Virtual Agents bot is currently not supported in Government Community Cloud.
