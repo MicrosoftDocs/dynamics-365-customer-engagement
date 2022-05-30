@@ -18,21 +18,17 @@ manager: shujoshi
 ## Prerequisites
 
 - Connect to an Azure Communication Services resource to bring in your carrier via Azure direct routing. You must then set up Azure direct routing for the connected Azure resource.
-
 - Be familiar with the following concepts.
-
   - [Azure Communication Services](/azure/communication-services/overview)
-  - [Azure direct routing](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing)
-
-- Also, ensure that the following settings are in place to enable your carrier to work with Azure Communication Services.
-
-  - [Azure direct routing infrastructure](/azure/communication-services/concepts/telephony-sms/direct-routing-infrastructure)
-  - [Get a certified Session Border Controller (SBC)](/azure/communication-services/concepts/telephony-sms/certified-session-border-controllers)
-  - [Connect the SBC to Azure Communication Services](/azure/communication-services/concepts/telephony-sms/direct-routing-provisioning)
+  - [Azure direct routing (preview)](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing)
+- Ensure that the following settings are in place to enable your carrier to work with Azure Communication Services.
+  - Check your [Azure direct routing infrastructure requirements](/azure/communication-services/concepts/telephony-sms/direct-routing-infrastructure).
+  - [Get a certified Session Border Controller (SBC)](/azure/communication-services/concepts/telephony/certified-session-border-controllers).
+  - [Connect the SBC to Azure Communication Services](/azure/communication-services/concepts/telephony/direct-routing-provisioning).
 
 ## Bring your own phone number via Azure direct routing
 
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
+1. In Dynamics 365, go to one of the admin apps, and perform the following steps.
    
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
@@ -48,16 +44,11 @@ manager: shujoshi
 
 1. Select **Add Number** for **Bring your own number via Azure Direct Routing (preview)**.
 
-1. In the **Add your own phone number** dialog, enter the following details:
-
+1. In the **Add your own phone number** dialog, enter the following details.
     - **Phone number**: Indicates the phone number that you own and have configured in your SBC.
-
     - **Carrier**: Indicates the carrier to which the phone number belongs. If the carrier doesn’t exist yet, you can create a new record.
-
     - **Country/Region**: Select the country or region the phone number belongs to.
-
     - **Number type**: Select whether toll-free or a local phone number.
-
     - **Calling plans**: Select whether you can make or receive calls on the phone number.
         > [!Note]
         > SMS is not supported with Azure direct routing (preview).
