@@ -1,7 +1,7 @@
 ---
 title: "Configure AI topic clustering for conversations | MicrosoftDocs"
 description: "Configure topic cLustering for conversations using AI"
-ms.date: 05/26/2022
+ms.date: 05/30/2022
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
