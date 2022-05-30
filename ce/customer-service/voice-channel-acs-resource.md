@@ -13,8 +13,6 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Overview
-
 The voice channel in Omnichannel for Customer Service is built over Azure Communication Services. This capability lets you provision phone numbers for your business by connecting to Azure Communication Services. However, to acquire phone numbers, you must first establish connection with Azure Communication Services. You can do this in the following ways:
 
 - [Quickstart: Connect to a new Azure resource](voice-channel-connect-new-resource.md)
@@ -31,26 +29,19 @@ You can also [import phone numbers](#sync-from-azure) or [connect your existing 
 
 You can import phone numbers that you purchased or acquired earlier via Azure Communication Services resources into Omnichannel for Customer Service. 
 
-**To sync from Azure**
-
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
-   
+1. In Dynamics 365, go to one of the apps, and perform the following steps. 
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
-    1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
-    
+    1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.    
     2. Select **Manage** for **Phone numbers**.
-
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
     - In the site map, select **Phone numbers** in **General settings**.
-
 2. Select **Advanced** on the menu.
-
 3. Select **Sync** for **Sync from Azure**. A dialog requesting you to confirm the sync action is displayed.
 4. Select **Sync**.
 
    After you perform the sync, all the phone numbers that were acquired previously are listed on the **Phone numbers** page with the numbers that have been acquired in Omnichannel for Customer Service.
- 
+
 ## Disconnect from Azure Communication Services resource
 
 If you're no longer using an Azure Communication Services resource or want to connect to a different resource, you can disconnect the current resource, and later reconnect to a new or existing resource by selecting the **Get started** button.
@@ -66,17 +57,13 @@ To permanently release or remove one or more phone numbers from your organizatio
    
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
-    1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
-    
+    1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.   
     2. Select **Manage** for **Phone numbers**.
-
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
-
     - In the site map, select **Phone numbers** in **General settings**.
-
-1. Select **Advanced** on the menu. The **Manage Azure Communication Services** dialog opens.
-2. Select **Disconnect** for **Disconnect from Azure**. A dialog requesting you to confirm the disconnection is displayed. 
-3. Select **Disconnect** again.
+2. Select **Advanced** on the menu. The **Manage Azure Communication Services** dialog opens.
+3. Select **Disconnect** for **Disconnect from Azure**. A dialog requesting you to confirm the disconnection is displayed. 
+4. Select **Disconnect** again.
    Any phone numbers associated with the resource will no longer be displayed on the **Phone numbers** page.
 
 ### See also
