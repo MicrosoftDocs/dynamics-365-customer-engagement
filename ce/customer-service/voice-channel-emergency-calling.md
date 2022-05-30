@@ -15,7 +15,7 @@ ms.topic: article
 This article describes how emergency calling works in Omnichannel for Customer Service when agents dial an emergency number during crisis situations.
 
 > [!Note]
-> - Emergency calling is currently supported only in the United States and Puerto Rico where the emergency calling number is 911.
+> Emergency calling is currently supported only in the United States and Puerto Rico where the emergency calling number is 911.
 
 ## Prerequisites
 
