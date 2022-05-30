@@ -34,7 +34,7 @@ The Summary and Model Run Summary views provide key information about how the to
 
 ## Automate topics to Power Virtual Agents bots
 
-AI discovered topics in Omnichannel historical analytics are often prime candidates as topics for automation in Power Virtual Agents bots. If Power Virtual Agents is available in the region that your Customer Service organization is in, the feature can be enabled by turning the **Disabled** toggle to **Enabled**.
+AI discovered topics in Omnichannel historical analytics are often prime candidates as topics for automation in Power Virtual Agents bots. If Power Virtual Agents is available in the region that your Customer Service organization is in, the feature can be enabled by switching the **Disabled** toggle to **Enabled**.
 
 :::image type="content" source="pva-topics-conversations.png" alt-text="Automate topics to Power Virtual Agents bots":::
 
