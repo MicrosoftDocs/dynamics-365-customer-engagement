@@ -42,23 +42,25 @@ Use the information in the following table to know about the availability of the
 
 ### Microsoft as a carrier
 
-[Microsoft as a carrier](/azure/communication-services/concepts/telephony/telephony-concept) is available for customers with billing locations in the United States, United Kingdom, Ireland, and Puerto Rico.  Azure direct offer supports the following options:
+Microsoft as a carrier is available for customers with billing locations in select geographies around the world. More information: [Subscription eligibility and number capabilities](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability) 
 
-- The purchase of new US and Puerto Rico numbers. For information, see [Subscription eligibility and number capabilities](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability).
-- The porting of existing US or toll-free phone numbers. For information, see [Port a phone number](/azure/communication-services/quickstarts/telephony/port-phone-number).
-- The purchase of new numbers in United Kingdom (preview) and Denmark (preview). For information, see [Customers with UK Azure billing addresses](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability#customers-with-uk-azure-billing-addresses) and [Customers with Denmark Azure Billing Addresses](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability#customers-with-denmark-azure-billing-addresses). You can purchase the United Kingdom and Denmark numbers only if you have a billing address in the respective country. You must purchase the numbers through the Azure portal, then you can sync into Omnichannel for Customer Service through the [sync option](voice-channel-acs-resource.md#sync-from-azure).
+You can purchase new numbers through the Azure portal, and then sync with Omnichannel for Customer Service. More information: [Sync from Azure](voice-channel-acs-resource.md#sync-from-azure)
 
-The listed billing locations only are supported even if Microsoft as a carrier is available in other regions. Customers can select a [different carrier](voice-channel-bring-your-own-number.md) using Azure direct routing.
+You can also port existing US or toll-free phone numbers. More information: [Port a phone number](/azure/communication-services/quickstarts/telephony/port-phone-number)
 
 ### Azure direct routing
 
-Bring your own carrier through [Azure direct routing (preview)](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing) is supported across all geographic locations using certified Session Border Controllers. More information: [Bring your own carrier](voice-channel-bring-your-own-number.md)
+You can bring your own carrier through [Azure direct routing (preview)](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing). This feature is supported across all geographic locations using certified Session Border Controller (SBC). More information: [Bring your own carrier](voice-channel-bring-your-own-number.md)
 
 In the geographic location where the voice channel is generally available, Azure direct routing extends general availability support.
 
 ## Supported languages and locale codes
 
-We use the Azure Cognitive Services Speech-to-Text Speech service for transcription, so we'll support all the languages that Speech-to-Text supports today. We also support a bring-your-own bot through Azure Bot Service for Interactive Voice Response (IVR) that will be constrained by the languages that Speech-to-Text supports. End-to-end voice and IVR support is available only if a language is supported in Power Virtual Agents or Azure Bot Service, and Omnichannel for Customer Service. Sentiment and AI insights are optional for the voice functionality.
+We use the Azure Cognitive Services Speech-to-Text service for transcription, so all the languages supported by Speech-to-Text can be transcribed. You can also bring your own bot through Azure Bot Service for Interactive Voice Response (IVR).
+
+> [!Note]
+> - End-to-end voice and IVR support is available only if a language is supported in Power Virtual Agents or Azure Bot Service, and Omnichannel for Customer Service. 
+> - Sentiment and AI insights are optional for the voice functionality.
 
 See the information in the following table to know about the supported languages and locale codes.
 
@@ -250,5 +252,4 @@ Use the information in the following table to find out more about language suppo
 ### See also
 
 [Overview of the voice channel](voice-channel.md)  
-[FAQ about the voice channel in Omnichannel for Customer Service](voice-channel-faqs.md)  
-
+[FAQ about the voice channel in Omnichannel for Customer Service](voice-channel-faqs.md) 

@@ -13,22 +13,18 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Introduction
-
 [Azure direct routing (preview)](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing) enables you to connect your existing telephony infrastructure with Azure so that you can retain your existing carrier and phone numbers, and streamline inter-office call transfers.
 
 ## Prerequisites
 
-The following prerequisites must be met:
-
 - Connect to an Azure Communication Services resource to bring in your carrier via Azure direct routing. You must then set up Azure direct routing for the connected Azure resource.
 
-- Familiarity with the following features:
+- Be familiar with the following concepts.
 
-  - [Understand Azure Communication Services](/azure/communication-services/overview)
-  - [Understand Azure direct routing](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing)
+  - [Azure Communication Services](/azure/communication-services/overview)
+  - [Azure direct routing](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing)
 
-- Also, ensure that the following settings are in place to enable your carrier to work with Azure Communication Services:
+- Also, ensure that the following settings are in place to enable your carrier to work with Azure Communication Services.
 
   - [Azure direct routing infrastructure](/azure/communication-services/concepts/telephony-sms/direct-routing-infrastructure)
   - [Get a certified Session Border Controller (SBC)](/azure/communication-services/concepts/telephony-sms/certified-session-border-controllers)
@@ -46,7 +42,7 @@ The following prerequisites must be met:
 
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
 
-    - In the site map, select **Phone numbers** in **General settings**.
+    In the site map, select **Phone numbers** in **General settings**.
 
 1. Select **Advanced** on the menu.
 

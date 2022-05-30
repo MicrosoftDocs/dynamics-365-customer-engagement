@@ -39,7 +39,7 @@ The voice channel supports the G.711 and Opus codecs for PSTN and VoIP services.
 
 ### Can I bring my own phone number?
 
-Yes, you have the following two options to bring your existing numbers to Dynamics 365:
+Yes, you have the following two options to bring your existing numbers to Dynamics 365.
 
 - Port the number to Azure Communication Services. This will change ownership of the phone number from the existing carrier to Microsoft. More information: [Quickstart: Port a phone number into Azure Communication Services](/azure/communication-services/quickstarts/telephony/port-phone-number)
 
