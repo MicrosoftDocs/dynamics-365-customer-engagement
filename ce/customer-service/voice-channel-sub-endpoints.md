@@ -1,7 +1,7 @@
 ---
 title: "Enable recording and SMS services  | MicrosoftDocs"
 description: "This article explains how to create event subscription endpoints to enable recording and SMS services for an Azure resource."
-ms.date: 05/27/2022
+ms.date: 05/31/2022
 ms.service: dynamics-365-customerservice
 author: neeranelli
 ms.author: nenellim
