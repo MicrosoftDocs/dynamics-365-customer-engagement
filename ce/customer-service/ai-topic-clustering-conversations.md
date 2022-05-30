@@ -22,6 +22,8 @@ Topic clustering is enabled by default when you enable historical analytics. To 
 
 The Summary and Model Run Summary views provide key information about how the topic model is operating.
 
+:::image type="content" source="summary-model-run-conversations.png" alt-text="Summary and Model Run Summary":::
+
 | View | Description |
 | -------- | ----------------------- |
 | Status | Whether the feature is enabled or not. |
@@ -30,14 +32,14 @@ The Summary and Model Run Summary views provide key information about how the to
 | Last successful run | Time stamp of the last time new cases were processed. |
 | Run frequency | The cadence in which cases are processed and tagged with topics. |
 
-:::image type="content" source="summary-model-run-conversations.png" alt-text="Summary and Model Run Summary":::
-
 ## Automate topics to Power Virtual Agents bots
 
-AI discovered topics in Omnichannel historical analytics are often prime candidates as topics for automation in Power Virtual Agents bots. If Power Virtual Agents is available in the region that your Customer Service organization is in, the feature can be enabled by selecting the **Enable** toggle and selecting **Save**.
+AI discovered topics in Omnichannel historical analytics are often prime candidates as topics for automation in Power Virtual Agents bots. If Power Virtual Agents is available in the region that your Customer Service organization is in, the feature can be enabled by turning the **Disabled** toggle to **Enabled**.
+
+:::image type="content" source="pva-topics-conversations.png" alt-text="Automate topics to Power Virtual Agents bots":::
 
 > [!NOTE]
-> Topic automation to Power Virtual Agents bot is not available in Government Community Cloud.
+> Topic automation to Power Virtual Agents bot isn't available in Government Community Cloud.
 
 ## Language availability for topics
 
