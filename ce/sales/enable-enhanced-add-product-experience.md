@@ -32,7 +32,7 @@ Enable your salespeople to quickly find and add multiple products to an opportun
 
  By using the enhanced experience, salespeople can do the following:
 
-- Quickly search for products and add them to opportunity, quote, order, or invoice 
+- Quickly search for products and add them to opportunity, quote, order, or invoice.  
 - Filter by product families if you have the Sales Enterprise or Sales Premium license.
 - View product details inline.
 - Compare products before selecting them.
