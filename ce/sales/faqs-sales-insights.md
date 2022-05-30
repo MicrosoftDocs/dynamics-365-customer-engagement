@@ -344,7 +344,7 @@ The insights are generated within the Exchange Online system, so we follow the s
 The service is fully GDPR-compliant. Dynamics 365 won't cache any data on its side, and the data is queried every time a page is loaded with who knows whom.
 
 ### How do I opt out?
-You can choose to opt out of the connection graph. More information: [Opt out of the connection graph](who-knows-whom.md#opt-out-of-the-connection-graph).
+You can choose to opt out of sharing your Microsoft 365 data. More information: [Turn off data sharing with Dynamics 365 applications](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
 
 ### How does an Exchange administrator exclude users?
 The Exchange administrator can provide the Azure AD group that contains all the users that they want to exclude (for example, CEOs or vice presidents). 

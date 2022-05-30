@@ -1095,7 +1095,7 @@
             - name: msdyn_wkwcolleaguesforcontact
               href: developer-sp/msdyn_wkwcolleaguesforcontact.md
             - name: msdyn_wkwcolleaguesforcompany
-              href: developer-sp/msdyn_wkwcolleaguesforcompany,md
+              href: developer-sp/msdyn_wkwcolleaguesforcompany.md
         - name: Create insight cards using solution
           href: extend-relationship-assistant-card.md
           items: 
