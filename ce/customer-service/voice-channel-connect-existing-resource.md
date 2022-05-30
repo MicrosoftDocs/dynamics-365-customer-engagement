@@ -26,7 +26,7 @@ Before you connect an existing Azure resource to Azure Communication Services, y
 - Get the name and ID of your Azure resource from the Azure portal.
    To get the resource name and ID, open your resource on the Azure portal, go to **Settings** > **Properties**. Note the values of the **ACS Resource Name** and **ACS Resource ID** fields.
 - Get the connection string of your Azure resource from the Azure portal. More information: [Access your connection string and endpoints](/azure/communication-services/quickstarts/create-communication-resource?tabs=windows&pivots=platform-azp#access-your-connection-strings-and-service-endpoints)
-- Get the application (client) ID and tenant (directory) ID for your registered app. More information: [Get application and tenant IDs](#get-the-application-id-and-tenant-id)
+- Get the application (client) ID and tenant (directory) ID for your registered app. More information: [Get application and tenant IDs](#get-application-and-tenant-ids)
 
 ## Connect to an existing Azure resource
 
@@ -78,8 +78,8 @@ So, to enable voice recording and SMS services, you must configure your applicat
         - To enable recording services, get the **Recording Web Hook Endpoint** and paste the value in the **Subscriber Endpoint** field, and select **Confirm Selection**. More information: [Get the Recording Web Hook Endpoint](#get-the-subscriber-endpoint-for-recording)
         - To enable SMS services, get the **SMS Web Hook Endpoint** and paste the value in the **Subscriber Endpoint** field, and select **Confirm Selection**. More information: [Get the SMS Web Hook Endpoint](#get-the-subscriber-endpoint-for-sms)
 7. Go to the **Additional Features** tab, select the **Use AAD authentication** checkbox, and enter the following details.
-   - **AAD Tenant ID**: Enter the tenant ID of your Azure resource.
-   - **AAD Application ID or URI**: Enter the application ID of your Azure resource.
+   - **AAD Tenant ID**: Enter the tenant (directory) ID of your Azure resource.
+   - **AAD Application ID or URI**: Enter the application (client) ID of your Azure resource.
 8. Select **Create** to create the event subscription endpoint for recording. This might take some time, so if you get a sync error, try refreshing after some time.
 
 #### Get application and tenant IDs
