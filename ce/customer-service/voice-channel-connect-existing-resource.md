@@ -26,7 +26,7 @@ Before you connect an existing Azure resource to Azure Communication Services, y
 - Get the name and ID of your Azure resource from the Azure portal.
    To get the resource name and ID, open your resource on the Azure portal, go to **Settings** > **Properties**. Note the values of the **ACS Resource Name** and **ACS Resource ID** fields.
 - Get the connection string of your Azure resource from the Azure portal. More information: [Access your connection string and endpoints](/azure/communication-services/quickstarts/create-communication-resource?tabs=windows&pivots=platform-azp#access-your-connection-strings-and-service-endpoints)
-- Get the application (client) ID and directory (tenant) ID for your registered app. More information: [Get the application ID and directory ID](#get-the-application-id-and-directory-id)
+- Get the application (client) ID and tenant (directory) ID for your registered app. More information: [Get application and tenant IDs](#get-the-application-id-and-tenant-id)
 
 ## Connect to an existing Azure resource
 
@@ -82,11 +82,22 @@ So, to enable voice recording and SMS services, you must configure your applicat
    - **AAD Application ID or URI**: Enter the application ID of your Azure resource.
 8. Select **Create** to create the event subscription endpoint for recording. This might take some time, so if you get a sync error, try refreshing after some time.
 
+#### Get application and tenant IDs
+
+1. Open the **App registrations** page on the Azure portal in a separate window or tab.
+    If you're registering your app on the Azure portal for the first time, then do the following.
+    1. On the **Register an application** page, enter the following details.
+        - **Name**: Enter a name for your application.
+        - **Supported account types**: Select **Accounts in any organizational directory (Any Azure AD directory - Multitenant)**.
+    2. Select **Register**.
+2. Select the value of the **Application (client) ID** field, select the **Copy to clipboard** button, and then note the value.
+3. Select the value of the **Directory (tenant) ID** field, select the **Copy to clipboard** button, and then note the value.
+
 #### Get the subscriber endpoint for recording
 
 1. In Dynamics 365, go to one of the admin apps, and perform the following steps.
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
-    1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.   
+    1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
     2. Select **Manage** for **Phone numbers**.
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
 
