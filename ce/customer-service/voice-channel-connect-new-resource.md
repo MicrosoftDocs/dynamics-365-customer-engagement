@@ -28,7 +28,7 @@ Before you connect an Azure resource to Azure Communication Services, you must h
 
 ## Connect to a new Azure resource
 
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
+1. In Dynamics 365, go to one of the admin apps, and perform the following steps.
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
     1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.

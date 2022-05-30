@@ -19,24 +19,21 @@ You can use an existing Azure resource from any of your Azure subscriptions, *av
 
 Before you connect an existing Azure resource to Azure Communication Services, you must perform the following steps.
 
-- If you're [using a trial phone number](voice-channel-manage-phone-numbers.md#use-trial-phone-number), you must end the trial to be able to see the options to connect to the existing Azure resource.
-
-- Get the following details from the Azure portal.
-
-    - Name and ID of your Azure resource.
-
-      To get the resource name and ID, open your resource on the Azure portal, go to **Settings** > **Properties**. Note the values of the **ACS Resource Name** and **ACS Resource ID** fields.
-
-    - Connection string of your Azure resource.
-
-      To get the connection string, see [Access your connection string and endpoints](/azure/communication-services/quickstarts/create-communication-resource?tabs=windows&pivots=platform-azp#access-your-connection-strings-and-service-endpoints).
-
-    - [Application ID and tenant ID for your registered app](voice-channel-resource-app-details.md#get-application-and-tenant-ids).
-
-- On the **Phone numbers** page, the **Get started** button to connect to an existing Azure resource will appear only in the following scenarios.
+- Check whether the **Get started** button to connect to an existing Azure resource is visible on the **Phone numbers** page. The **Get Started** button appears only in the following scenarios.
     - The trial has ended after the free calling time has elapsed.
     - You've manually ended the trial.
-    - You've [disconnected from the Azure resource](voice-channel-acs-resource.md#disconnect-from-azure-communication-services-resource).
+    - You've disconnected from the Azure resource. More information: [Disconnect from Azure Communication Services resource](voice-channel-acs-resource.md#disconnect-from-azure-communication-services-resource)
+
+- Get the name and ID of your Azure resource from the Azure portal.
+
+   To get the resource name and ID, open your resource on the Azure portal, go to **Settings** > **Properties**. Note the values of the **ACS Resource Name** and **ACS Resource ID** fields.
+
+- Get the connection string of your Azure resource from the Azure portal.
+
+   To get the connection string, see [Access your connection string and endpoints](/azure/communication-services/quickstarts/create-communication-resource?tabs=windows&pivots=platform-azp#access-your-connection-strings-and-service-endpoints).
+
+- Get the application (client) ID and directory (tenant) ID for your registered app.
+   To get the application , see [Application ID and directory ID for your registered app](voice-channel-resource-app-details.md#get-application-and-tenant-ids).
 
 ## Connect to an existing Azure resource
 
@@ -66,19 +63,16 @@ Before you connect an existing Azure resource to Azure Communication Services, y
 
 6. [Add a new phone number](voice-channel-manage-phone-numbers.md#acquire-new-phone-numbers).
 
-You can now configure the voice workstream settings for the phone number, set up outbound and inbound calling to make and/or receive customer calls, and also [enable recording and SMS services](voice-channel-sub-endpoints.md).
+You can now configure the voice workstream settings for the phone number, set up outbound and inbound calling to make and/or receive customer calls, and also enable recording and SMS services. More information: [Enable recording and SMS services](enable-recording-and-SMS-services)
 
 ### Enable recording and SMS services
 
-This section explains how you can enable recording and SMS services by creating event subscription endpoints. To do this, you must first subscribe to the corresponding events by creating [Event Grid](/azure/event-grid/overview) subscriptions on the Azure portal.
+This section explains how you can enable recording or SMS services by creating event subscription endpoints. To do this, you must first subscribe to the corresponding events by creating [Event Grid](/azure/event-grid/overview) subscriptions on the Azure portal.
 
 ## Prerequisites
 
-- Get the application (client) ID and directory (tenant) ID from the App registrations page of your Azure resource.
 - [Get the subscriber endpoint for recording](#get-the-subscriber-endpoint-for-recording).
-- [Get the subscriber endpoint for SMS](#get-the-subscriber-endpoint-for-sms).
-
-## Create event subscription endpoint for recording
+- [Get the web hook endpoint for SMS](#get-the-subscriber-endpoint-for-sms).
 
 1. Open the resource on the Azure portal, go to **Events**, and select **Event Subscription**.
 
@@ -94,7 +88,9 @@ This section explains how you can enable recording and SMS services by creating 
     - **System Topic Name**: This field is automatically populated with the system topic name you created. However, if you see multiple values, select the specific system topic name from the dropdown.
     - **Filter to Event Types**: For recording services, select the **Recording File Status Updated (Preview)** option from the dropdown list. 
     - **Endpoint Type**: Select **Web Hook** from the dropdown list.
-    - **Endpoint**: Select **Select an endpoint** and in the **Select Web Hook** dialog that opens, [get the Recording Web Hook Endpoint](#get-the-subscriber-endpoint-for-recording) and paste the value in the **Subscriber Endpoint** field, and select **Confirm Selection**.
+    - **Endpoint**: Select **Select an endpoint** and in the **Select Web Hook** dialog that opens, enter recording or SMS web hook endpoint as follows.
+        - To enable recording services, [get the Recording Web Hook Endpoint](#get-the-subscriber-endpoint-for-recording) and paste the value in the **Subscriber Endpoint** field, and select **Confirm Selection**.
+        - To enable SMS services, [get the SMS Web Hook Endpoint](#get-the-subscriber-endpoint-for-sms) and paste the value in the **Subscriber Endpoint** field, and select **Confirm Selection**.
 
 3. Go to the **Additional Features** tab, select the **Use AAD authentication** checkbox, and enter the following details.
    - **AAD Tenant ID**: Enter the **Directory (tenant) ID** field value of your Azure resource. 
