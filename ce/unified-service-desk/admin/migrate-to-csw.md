@@ -1,7 +1,7 @@
 ---
-title: "Migrate to Dynamics 365 Customer Service workspace | MicrosoftDocs"
-description: "Use this article to understand how you can migrate from Dynamics 365 Unified Service Desk to Dynamics 365 Customer Service workspace."
-ms.date: 05/25/2022
+title: "Migrate to Customer Service workspace | MicrosoftDocs"
+description: "Use this article to understand how you can migrate from Dynamics 365 Unified Service Desk to Customer Service workspace."
+ms.date: 05/31/2022
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -15,9 +15,9 @@ ms.custom:
   - dyn365-USD
   - dyn365-admin
 ---
-# Migrate to Dynamics 365 Customer Service workspace
+# Migrate to Customer Service workspace
 
-Dynamics 365 Customer Service workspace provides a modern customer service experience that optimizes agent productivity and improves customer satisfaction. By migrating to Customer Service workspace, you get the following benefits.
+Customer Service workspace provides a modern customer service experience that optimizes agent productivity and improves customer satisfaction. By migrating to Customer Service workspace, you get the following benefits.
 
 - Modernize your customer service with cloud-based workspace for faster deployment.
 - Focus on your business processes rather than managing the Dynamics 365 Unified Service Desk client desktop.
@@ -33,10 +33,18 @@ The Unified Service Desk to Customer Service workspace Migration Playbook explai
 
 ## Migrate from Unified Service Desk to Customer Service workspace
 
-The playbook gives you an insight about what Customer Service workspace entails over Unified Service Desk, and how you can plan and execute the transition from Unified Service Desk to Customer Service workspace. The playbook consists of the following chapters.
-1. **Chapter 1: Initiate** discusses how you can initiate the migration process after understanding the differences between Customer Service workspace and Unified Service Desk.
-1. **Chapter 2: Explore** describes the Customer Service workspace app, how you can define your transition plan, and how you can create a pilot app.
-1. **Chapter 3: Transition** explains how you can build a successful transition plan.
-1. **Chapter 4: Optimize** discusses how you can monitor the adoption of the new app, review the migration experience, plan for innovation and future growth, while also addressing any gaps or issues.
+The playbook gives you an insight about what Customer Service workspace entails over Unified Service Desk, and how you can plan and run the transition from Unified Service Desk to Customer Service workspace. The playbook consists of the following chapters.
+
+**Chapter 1: Initiate** discusses how you can initiate the migration process after understanding the differences between Customer Service workspace and Unified Service Desk.
+
+**Chapter 2: Explore** describes the Customer Service workspace app, how you can define your transition plan, and how you can create a pilot app.
+
+**Chapter 3: Transition** explains how you can build a successful transition plan.
+
+**Chapter 4: Optimize** discusses how you can monitor the adoption of the new app, review the migration experience, plan for innovation and future growth, while also addressing any gaps or issues.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+
+### See also
+
+[Get started with Customer Service workspace](/../customer-service/csw-overview.md)  
