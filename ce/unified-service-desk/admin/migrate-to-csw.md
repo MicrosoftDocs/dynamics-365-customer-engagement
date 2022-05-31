@@ -25,12 +25,6 @@ Customer Service workspace provides a modern customer service experience that op
 - Personalize your customer experience using AI.
 - Enhance collaboration with native Microsoft Teams integration.
 
-## Download the migration playbook
-
-The Customer Service workspace Migration Playbook explains how you can migrate from Unified Service Desk to Customer Service workspace.
-
-[You can download the playbook here](https://go.microsoft.com/fwlink/?linkid=2197624).
-
 ## Migrate from Unified Service Desk to Customer Service workspace
 
 The playbook gives you an insight about what Customer Service workspace entails over Unified Service Desk, and how you can plan and run the transition from Unified Service Desk to Customer Service workspace. The playbook consists of the following chapters.
@@ -42,6 +36,12 @@ The playbook gives you an insight about what Customer Service workspace entails 
 **Chapter 3: Transition** explains how you can build a successful transition plan.
 
 **Chapter 4: Optimize** discusses how you can monitor the adoption of the new app, review the migration experience, plan for innovation and future growth, while also addressing any gaps or issues.
+
+## Download the migration playbook
+
+The Customer Service workspace Migration Playbook explains how you can migrate from Unified Service Desk to Customer Service workspace.
+
+[You can download the playbook here](https://go.microsoft.com/fwlink/?linkid=2197624).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 
