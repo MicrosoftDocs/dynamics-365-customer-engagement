@@ -27,9 +27,9 @@ Customer Service workspace provides a modern customer service experience that op
 
 ## Download the migration playbook
 
-The Unified Service Desk to Customer Service workspace Migration Playbook explains how you can migrate from Unified Service Desk to Customer Service workspace.
+The Customer Service workspace Migration Playbook explains how you can migrate from Unified Service Desk to Customer Service workspace.
 
-[You can download the playbook here](https://www.microsoft.com/download/details.aspx?id=102918).
+[You can download the playbook here](https://go.microsoft.com/fwlink/?linkid=2197624).
 
 ## Migrate from Unified Service Desk to Customer Service workspace
 
