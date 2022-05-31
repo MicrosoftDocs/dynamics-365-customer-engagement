@@ -11,7 +11,7 @@ ms.author: shjais
 manager: shujoshi
 ---
 
-# Enable or disable Microsoft Teams chat (preview)
+# Configure Microsoft Teams chat in Sales Hub (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -36,7 +36,7 @@ This feature requires certain permissions to access Teams data. Review the [Perm
 | User.Read.All       | Application | Reads the display name and licenses of users to validate whether the suggested participants have a Teams license assigned. This permission is used by the **Suggested chats & contacts** section in the chat list. The permission is set at the application level, because it's used by a background service for better performance. |
 | User.ReadBasic.All  | Delegated   | Reads users' photos.  |
 
-## Enable or disable Teams chat in Sales Hub
+## Enable or disable Teams chat
 
 1. In the Sales Hub app, select **Change area** ![Icon to change the work area](media/change-area-icon.png) in the lower-left corner, and then select **App Settings**.
 
