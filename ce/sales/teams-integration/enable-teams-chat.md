@@ -11,7 +11,7 @@ ms.author: shjais
 manager: shujoshi
 ---
 
-# Enable or disable Microsoft Teams chat in Sales Hub (preview)
+# Configure Microsoft Teams chat in Sales Hub (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -73,6 +73,28 @@ The preview is now enabled for all the customer engagement apps. You can open a 
 
 7. Save and publish the changes.
 
+
+## Enable Teams chat from Power Platform admin center
+
+1. Sign in to [Power Platform admin center](https://admin.powerplatform.microsoft.com).
+
+2. Go to the **Environments** tab, select an environment in which you want to enable Teams chat.
+
+3. On the **Environments** page, select **Settings**.
+
+4. On the **Settings** page, expand **Integration**, and then select **Teams integration settings**.
+
+    :::image type="content" source="media/ppac-teams-chat.png" alt-text="Enable Teams chat from Power Platform admin center":::
+
+5. On the **Microsoft Teams collaboration and chat** page, perform the following actions:
+    
+    1. Turn on the **Turn on Microsoft Teams chats inside Dynamics 365 (preview)** toggle.
+
+    2. To set the chat title to be used as the record title by default, turn on the **Use record title as the default chat name for linked chats** toggle. Users can change the title if they want.
+
+        :::image type="content" source="media/teams-settings.png" alt-text="Teams settings page showing these two toggles set to Yes.":::
+
+6. Save the changes.
 
 ## Data security and privacy
 
