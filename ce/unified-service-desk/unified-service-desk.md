@@ -1,7 +1,7 @@
 ---
 title: "Unified Service Desk Guide | MicrosoftDocs"
 description: "Use this topic as a starting point to understand Unified Service Desk and its features. Also find useful links for configuring and administering the product."
-ms.date: 05/26/2022
+ms.date: 05/31/2022
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
