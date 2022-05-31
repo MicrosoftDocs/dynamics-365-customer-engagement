@@ -24,7 +24,7 @@ After requesting the deletion of user data using the msdyn_WKWDeleteGDPRData API
 
 |Name|Type|Required|Description|
 |----|----|----|----|
-|UserIds|list|Yes|Comma-separated list of system user IDs of users whose status you want to check. |
+|UserIds|list|Yes|Comma-separated list of system user IDs of users whose data deletion status you want to check. |
 
 ## Request
 
@@ -32,9 +32,9 @@ Request type: POST
 Request URL: {orgUrl}/api/data/v9.1/msdyn_WKWGDPRDeleteStatus
 Body: {"UserIds": List of system userid’s}
 
-### Sample Request
+### Sample request
 
-Given below is a sample deletion request.
+Given below is a sample request to check the deletion status.
 
 ```html
 POST {orgUrl}/api/data/v9.1/msdyn_WKWGDPRDeleteStatus
@@ -45,8 +45,20 @@ POST {orgUrl}/api/data/v9.1/msdyn_WKWGDPRDeleteStatus
 
 ## Response
 
-The following response is returned after the request is submitted successfully: 
+The following response is returned:
 
-HTTP 204 
+```html
+{
+    UsersWithRequest:[{“SystemUserId” : Systemuser id, “Status”: can be PROCESSING, COMPLETED or FAILED}],
+    UsersWithNoRequest: List of Systemuser ids provided for status check, but have no GDPR delete request for them
+}
 
+```
 
+### Sample response
+```html
+{
+    "@odata.context": {orgUrl}/api/data/v9.1/$metadata#Microsoft.Dynamics.CRM.msdyn_WKWGDPRDeleteStatusResponse,
+    "Response": "{\"UsersWithRequest\":[{\"SystemUserId\":\"3671fb10-d6d0-ec11-a7b6-000d3a5bc91c\",\"Status\":\"PROCESSING\"},{\"SystemUserId\":\"5571fb10-d6d0-ec11-a7b6-000d3a5bc91c\",\"Status\":\"PROCESSING\"}],\"UsersWithNoRequest\":[\"7771fb10-d6d0-ec11-a7b6-000d3a5bc91c\"]}"
+}
+```
