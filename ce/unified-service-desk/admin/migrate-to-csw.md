@@ -1,5 +1,5 @@
 ---
-title: "Migrate to Customer Service workspace | MicrosoftDocs"
+title: "Migrate from Unified Service Desk to Customer Service workspace | MicrosoftDocs"
 description: "Use this article to understand how you can migrate from Dynamics 365 Unified Service Desk to Customer Service workspace."
 ms.date: 05/31/2022
 ms.topic: article
@@ -15,7 +15,7 @@ ms.custom:
   - dyn365-USD
   - dyn365-admin
 ---
-# Migrate to Customer Service workspace
+# Migrate from Unified Service Desk to Customer Service workspace
 
 Customer Service workspace provides a modern customer service experience that optimizes agent productivity and improves customer satisfaction. By migrating to Customer Service workspace, you get the following benefits.
 
