@@ -28,9 +28,9 @@ As a developer, use this reference documentation to understand how to delete a u
 
 ## Request
 
-Request type: POST
-Request URL: {orgUrl}/api/data/v9.1/msdyn_WKWDeleteGDPRData
-Body: {"UserIds": List of system userid’s}
+**Request type**: POST  
+**Request URL**: {orgUrl}/api/data/v9.1/msdyn_WKWDeleteGDPRData  
+**Body**: {"UserIds": List of system userid’s}  
 
 ### Sample Request
 

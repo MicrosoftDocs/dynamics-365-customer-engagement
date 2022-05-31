@@ -28,9 +28,9 @@ After requesting the deletion of user data using the msdyn_WKWDeleteGDPRData API
 
 ## Request
 
-Request type: POST
-Request URL: {orgUrl}/api/data/v9.1/msdyn_WKWGDPRDeleteStatus
-Body: {"UserIds": List of system userid’s}
+**Request type**: POST  
+**Request URL**: {orgUrl}/api/data/v9.1/msdyn_WKWGDPRDeleteStatus  
+**Body**: {"UserIds": List of system userid’s}  
 
 ### Sample request
 
