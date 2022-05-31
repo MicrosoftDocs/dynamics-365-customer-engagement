@@ -56,6 +56,7 @@ The following response is returned:
 ```
 
 ### Sample response
+
 ```html
 {
     "@odata.context": {orgUrl}/api/data/v9.1/$metadata#Microsoft.Dynamics.CRM.msdyn_WKWGDPRDeleteStatusResponse,
