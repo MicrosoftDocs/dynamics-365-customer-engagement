@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot SLA issues in Customer Service | Microsoft Docs
 description: Know about the SLA issues and how to troubleshoot them.
-ms.date: 05/12/2022
+ms.date: 05/31/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -126,6 +126,27 @@ To change the owner of any flow, perform the following steps:
 1. Search for the failed flow with the error.
 1. Select **Edit**. A new flyout menu is displayed, where you can set a new owner.
 1. In the Owner field, remove the current owner and add the new owner. Ensure that the new owner has all required flow licenses.
+
+##  Warning message appears on slakpiinstances
+
+The following warning message is displayed on entity records: "The SLA instances may be incorrect because workflow ee2079d2-a93f-48b5-887a-c54ad830cbe5 is turned off. Please contact your admin to turn the workflow on."
+
+The workflow ID varies from system to system.
+
+### Reason
+
+The **SLAInstanceMonitoringWarningAndExpiryFlow** must be  enabled.
+
+### Resolution
+
+If none of the UCI SLAs are activated, activate one of the SLAs which will then activate the **SLAWarningAndExpiryMonitoringFlow**.
+
+Alternately, if all SLAs are active but the flow is still deactivated, perform the following steps:
+
+1. In https://powerautomate.microsoft.com, navigate to **My flows > Cloud flows**.
+2. In **Cloud flows**, open the **SLAWarningAndExpiryMonitoringFlow**.
+3. On the ribbon, select **Turn on**.
+
 
 ### See also
 
