@@ -858,7 +858,7 @@
         href: csw-productivity-pane.md
       - name: View smart assist suggestions for knowledge articles and similar cases
         href: oc-view-ai-suggested-cases-articles.md
-      - name: View smart assist suggestions for agents configured using custom Azure bot
+      - name: View smart assist suggestions
         href: oc-smart-assist.md
       - name: Use agent scripts for customer interactions
         href: oc-agent-scripts.md
@@ -1532,6 +1532,8 @@
           href: developer/reference/methods/linkToConversation.md
         - name: unlinkFromConversation
           href: developer/reference/methods/unlinkFromConversation.md 
+        - name: sendMessageToConversation
+          href: developer/reference/methods/sendMessageToConversation.md
     - name: runMacro
       href: developer/reference/methods/runMacro.md
     - name: Action Reference
