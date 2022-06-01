@@ -135,7 +135,7 @@ The workflow ID shown in the message will vary from system to system.
 
 ### Reason
 
-The **SLAInstanceMonitoringWarningAndExpiryFlow** must be  enabled.
+The **SLAWarningAndExpiryMonitoringFlow** must be  enabled.
 
 ### Resolution
 
