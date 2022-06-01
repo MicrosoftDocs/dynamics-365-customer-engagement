@@ -1,7 +1,7 @@
 ---
 title: Configure knowledge search control on app side pane for an entity record | Microsoft Docs
 description: See how to configure the settings for knowledge search control in Dynamics 365 Customer Service
-ms.date: 04/04/2022
+ms.date: 06/01/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -59,7 +59,7 @@ To set up knowledge search control on the app side pane, see [Configure knowledg
 
 ## Configure knowledge search control on the app side pane<a name="configure-knowledge-search-control-on-app-side-pane"></a>
 
-After you've added the record types for which you want to turn on knowledge management, you can configure the knowledge search control on the app side pane by editing the record type. The app side pane is available only in Customer Service workspace and Omnichannel for Customer Service. For more information on how to set up an app side pane, go to [Configure productivity pane](../app-profile-manager/app-profile-manager.md#assign-templates-configure-productivity-pane-channels).
+After you've added the record types for which you want to turn on knowledge management, you can configure the knowledge search control on the app side pane by editing the record type. The app side pane is available only in Customer Service workspace and Omnichannel for Customer Service. For more information on how to set up an app side pane, go to [Configure productivity pane](../app-profile-manager/agent_experience_profile_create.md#assign-templates-configure-productivity-pane-channels).
 
 > [!NOTE]
 > You can configure the knowledge settings for record types from the Customer Service admin center app only. You'll also be able to view and edit the record types that you've previously enabled in Customer Service Hub.
