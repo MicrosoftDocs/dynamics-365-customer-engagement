@@ -16,7 +16,7 @@ In the customer service industry, agents need to deal with continuous updates bo
 
 Agent scripts provide guidance to agents about what to do when they get a customer issue. The scripts ensure that only accurate, company-endorsed information is being shared, while also safeguarding the organization in regard to issues of legal compliance. Agent scripts help organizations to be unified, accurate, and effective while also being faster and more efficient in terms of customer handling.
 
-Agent scripts reduce the human errors involved in the process, because agents know which actions they need to perform next while they interact with a customer, which enables them to adhere to business process. This, in turn, leads agents to provide quick resolutions for the issue (low average handling time) and improve customer satisfaction.
+Agent scripts reduce the human errors involved, because agents know which actions they need to perform next while they interact with a customer, enabling agents to adhere to the business process. This, in turn, leads agents to provide quick resolutions for the issue (low average handling time) and improve customer satisfaction.
 
 ## Value propositions
 
@@ -53,13 +53,13 @@ Create agent scripts in the Customer Service Admin Center, Omnichannel admin cen
 
 6. In the **Agent script steps** section, select **New Agent script step**. **Quick Create: Agent script step** appears.
 
-7. Specify the following in the quick-create form.
+7. Specify the following fields in the quick-create form.
  
     | Field | Description | Example Value |
     |--------------------|------------------------------|-------------------------------------------|
     | Name | Provide a name for the agent script step; this appears for the agent at runtime. You can use slugs for specifying the name of the step. To learn more, see [Slugs](automation-dictionary-keys.md#slugs-for-productivity-tools-macros-and-agent-scripts). | Example 1: Greet the customer. <br><br> Example 2: Hi {customer}  |
     |Unique Name |A unique identifier in the <*prefix*>_<*name*> format.<br>**Important:** The following are required for the unique name:<br><ul><li> The prefix can only be alphanumeric and its length must be between 3 to 8 characters.</li> <li>An underscore must be there between the prefix and name.</li></ul>| Greet_script|
-    |Owner|By default, the signed in user is displayed as the owner.| Clay Roddy |
+    |Owner|By default, the signed in user is displayed as the owner.| Clay Rowdy |
     |Agent script | The agent script for which the script step is being created.| Chat session script|
     | Order | Specify the order number based on which step is displayed to the agent. | 1 |
     | Action Type | Select an action type from the list: <ul> <li> Text instruction </li> <li> Macro </li> <li> Script </li> |
@@ -89,11 +89,11 @@ After you configure the agent script and add the field to a form, you need to as
     In the site map, select **Session templates** in **Workspaces**.
   
 
- ### [Omnichannel Admin Ceneter](#tab/Omnichannel Admin Center)
+ ### [Omnichannel Admin Center](#tab/Omnichannel Admin Center)
    
    In the site map of Omnichannel admin center, select **Agent experience** under **Advanced settings**, and then select **Manage** for **Session templates**.
 
- If you are using the Omnichannel Administration app, under **Agent Experience**, select **Sessions**.
+ If you're using the Omnichannel Administration app, under **Agent Experience**, select **Sessions**.
 
 2. Select a template from the list for which you want to associate the template. For example, select the **Chat - Default Session** template.
 
@@ -124,11 +124,11 @@ You can build the expression in the **Agent scripts** tab in the sessions templa
 
   In the site map, select **Session templates** in **Workspaces**.
   
- ### [Omnichannel Admin Ceneter](#tab/Omnichannel Admin Center)
+ ### [Omnichannel Admin Center](#tab/Omnichannel Admin Center)
    
   In the site map of Omnichannel admin center, select **Agent experience** under **Advanced settings**, and then select **Manage** for **Session templates**.
 
- If you are using the Omnichannel Administration app, under **Agent Experience**, select **Sessions**.
+ If you're using the Omnichannel Administration app, under **Agent Experience**, select **Sessions**.
 
 2. Go to the **Agent scripts** tab.
 

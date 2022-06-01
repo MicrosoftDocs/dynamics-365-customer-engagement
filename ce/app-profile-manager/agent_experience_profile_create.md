@@ -70,7 +70,7 @@ Use the options on the profile page to configure the templates that'll define th
 
 3. On the profile page, in **Productivity pane**, select **Turn On**. The options for productivity pane appear.
 
-   1. On the Productivity pane dialog, for **Productivity pane**, turn on the toggle. The additional settings are enabled.
+   1. On the Productivity pane dialog, for **Productivity pane**, turn on the toggle. **Additional settings** is enabled.
 
    2. Turn on the toggle for the following settings:
 

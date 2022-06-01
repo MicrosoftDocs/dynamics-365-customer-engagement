@@ -28,9 +28,9 @@ searchScope:
 
 ## Introduction
 
-You can configure how you want the knowledge base search control to appear for your entities on the app side pane of Customer Service workspace and Omnichannel for Customer Service. To do so, you will need to first add the record types for which you want to turn on knowledge management and then configure the record type settings.
+You can configure how you want the knowledge base search control to appear for your entities on the app side pane of Customer Service workspace and Omnichannel for Customer Service. To do so, you'll need to first add the record types for which you want to turn on knowledge management and then configure the record type settings.
 
-Configuring a record type will specify the information that your agents will see while they interact with customers. **Case** and **Conversation** record types are enabled by default. The **Conversation** record type will be available by default if you have purchased add-on SKUs, such as Chat, Digital messaging, or Voice. If you are an existing user, you will also see all the entities previously enabled by you.
+Configuring a record type will specify the information that your agents will see while they interact with customers. **Case** and **Conversation** record types are enabled by default. The **Conversation** record type will be available by default if you have purchased add-on SKUs, such as Chat, Digital messaging, or Voice. If you're an existing user, you'll also see all the entities previously enabled by you.
 
 ## Add record types for which you want to turn on knowledge management
 
@@ -52,7 +52,7 @@ Go to the Customer Service admin center or Customer Service Hub app, and perform
 
 ---
 
-After you have enabled a record type, to set up knowledge base search control on a standard or custom form, see [Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-forms). Setting up knowledge base search control on a standard or custom form makes it easy for agents in your organization to find knowledge articles, so they can answer common customer questions and resolve their issues right from the records, without having to switch to a different application.
+After you've enabled a record type, to set up knowledge base search control on a standard or custom form, see [Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-forms). Setting up knowledge base search control on a standard or custom form makes it easy for agents in your organization to find knowledge articles, so they can answer common customer questions and resolve their issues right from the records, without having to switch to a different application.
 
 To set up knowledge search control on the app side pane, see [Configure knowledge search control on the app side pane](#configure-knowledge-search-control-on-app-side-pane).
 

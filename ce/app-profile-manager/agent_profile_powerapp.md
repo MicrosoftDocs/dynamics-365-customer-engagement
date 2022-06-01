@@ -4,9 +4,8 @@ description: "Overview of the app profiles."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
+ms.date: 06/01/2022
 ms.topic: overview
-
 
 ---
 
@@ -37,7 +36,7 @@ All these options are available in Unified Interface and open on a new tab when 
 
 > ![Navigation menu.](media/app-profile-navigation-items.png "App profiles home page")
 
-Irrespective of the path from where you navigate to any of the components, such as session templates or application tab templates, the templates that you have defined for Customer Service workspace and Omnichannel for Customer Service will be displayed because they are stored in a common library.
+Irrespective of the path from where you navigate to any of the components, such as session templates or application tab templates, the templates that you've defined for Customer Service workspace and Omnichannel for Customer Service will be displayed because they're stored in a common library.
 
 ## Settings
 
@@ -53,7 +52,7 @@ The **Channel provider** option in **Customer Service workspace** or **Omnichann
 
 The following template types can be accessed:
 
-- **Session templates:** Opens the Session templates page where the out-of-the-box templates and custom templates created by you are listed.
+- **Session templates:** Opens the Session templates page where the out-of-the-box templates and custom templates created by you're listed.
 - **Application tabs:** Opens the application tab templates page to create and manage application tab templates.
 - **Notifications:** Opens the notifications templates page to manage the templates.
 

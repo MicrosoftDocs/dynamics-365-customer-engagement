@@ -4,7 +4,7 @@ description: "Learn how to create and manage app profiles for customized agent e
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/04/2022
+ms.date: 06/01/2022
 ms.topic: article
 ---
 
@@ -12,7 +12,7 @@ ms.topic: article
 
 1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083).
 2. Select the environment in which you want to create the app profiles.
-3. Do one of the following:
+3. Do one of the following actions:
    - On the **Home** page, go to **Your apps** section.
    - In the left pane, select **Apps**.
 4. Select **More commands** beside **Omnichannel for Customer Service** or **Customer Service workspace**, and then select **App profile manager** on the menu that appears.
@@ -31,7 +31,7 @@ ms.topic: article
   
 ### Assign templates and enable productivity pane and channels<a name="enable-prod-pane"></a>
 
-For an app profile, you can add only one session template for each entity type. Typically, you will add one session template for each entity type, such as one each session template for accounts, contacts, and cases.
+For an app profile, you can add only one session template for each entity type. Typically, you'll add one session template for each entity type, such as one each session template for accounts, contacts, and cases.
 
 The settings that you enable for the app profile will be available for agents and supervisor only when you configure the corresponding templates and settings in the Customer Service Hub app or Omnichannel Administration app. For example, channels must be provisioned in Omnichannel for Customer Service and channel instances must be configured.
 
@@ -54,7 +54,7 @@ The settings that you enable for the app profile will be available for agents an
    > The toggle for channels will be enabled in the out-of-the-box app profile for Omnichannel for Customer Service.
 
 6. To add a third-party channel provider, in the **Voice channels** section, select **Add channel providers**, search for the configured channel, and select it.
-7. If a channel does not exist, select **Create a new channel provider in Unified Interface**. The channel configuration page opens on a new tab. More information: [Configure channel provider using app profile manager](../customer-service/channel-integration-framework/v2/configure-channel-provider-app-profile-manager.md)
+7. If a channel doesn't exist, select **Create a new channel provider in Unified Interface**. The channel configuration page opens on a new tab. More information: [Configure channel provider using app profile manager](../customer-service/channel-integration-framework/v2/configure-channel-provider-app-profile-manager.md)
 
    > [!NOTE]
    > - Only telephony or voice channels are supported.
