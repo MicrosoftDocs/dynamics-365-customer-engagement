@@ -129,9 +129,9 @@ To change the owner of any flow, perform the following steps:
 
 ##  Warning message appears on slakpiinstances
 
-The following warning message is displayed on entity records: "The SLA instances may be incorrect because workflow ee2079d2-a93f-48b5-887a-c54ad830cbe5 is turned off. Please contact your admin to turn the workflow on."
+The following warning message is displayed on entity records: "The SLA instances may be incorrect because workflow <*workflow ID*> is turned off. Please contact your admin to turn the workflow on."
 
-The workflow ID shown in the message will vary from system to system.
+The workflow ID varies from system to system.
 
 ### Reason
 
