@@ -158,6 +158,8 @@
           href: improve-deliverability-to-china.md
         - name: Google Postmaster Tools - What it is and how it can help you
           href: google-postmaster.md
+        - name: Troubleshoot email forwarding and replies
+          href: forwarding-and-replies.md
       - name: Improve sending reputation
         items:
         - name: Email policies and suspension standards
