@@ -4,7 +4,7 @@ description: "Follow the steps mentioned in the article to create and configure 
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/09/2021
+ms.date: 06/01/2022
 ms.topic: article
 ---
 
@@ -20,13 +20,10 @@ Agent scripts reduce the human errors involved in the process, because agents kn
 
 ## Value propositions
 
-- Minimization of human errors.
-
-- Adherence to business processes.
-
-- Lower average handling time.
-
-- Improved customer satisfaction.
+- Minimization of human errors
+- Adherence to business processes
+- Lower average handling time
+- Improved customer satisfaction
 
 ## Prerequisites
 
@@ -125,12 +122,11 @@ You can build the expression in the **Agent scripts** tab in the sessions templa
 
  ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
-    In the site map, select **Session templates** in **Workspaces**.
+  In the site map, select **Session templates** in **Workspaces**.
   
-
  ### [Omnichannel Admin Ceneter](#tab/Omnichannel Admin Center)
    
-   In the site map of Omnichannel admin center, select **Agent experience** under **Advanced settings**, and then select **Manage** for **Session templates**.
+  In the site map of Omnichannel admin center, select **Agent experience** under **Advanced settings**, and then select **Manage** for **Session templates**.
 
  If you are using the Omnichannel Administration app, under **Agent Experience**, select **Sessions**.
 
