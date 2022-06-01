@@ -17,7 +17,7 @@ ms.custom:
 ---
 # Migrate to Customer Service workspace
 
-Customer Service workspace provides a modern customer service experience that optimizes agent productivity and improves customer satisfaction. By migrating to Customer Service workspace, you get the following benefits.
+Customer Service workspace provides a modern customer service experience that optimizes agent productivity and improves customer satisfaction. By migrating to Customer Service workspace, you can:
 
 - Modernize your customer service with cloud-based workspace for faster deployment.
 - Focus on your business processes rather than managing the Dynamics 365 Unified Service Desk client desktop.
