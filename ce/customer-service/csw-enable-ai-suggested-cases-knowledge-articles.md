@@ -28,7 +28,7 @@ The key highlights of the feature are as follows:
 - AI-driven case and knowledge article suggestions that are based on case context and historical success rate.
 - Secondary actions that agents can take, such as collaborating with an expert, after a similar case has been found.
 - Capability of the AI model to process up to one million of the most recent cases for listing them at runtime.
-- Continuous improvement of the recommendation model through a comprehensive feedback mechanism.
+
 
 > [!NOTE]
 > The AI suggestions feature is currently available in few geographical locations. More information, see: [Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md).
