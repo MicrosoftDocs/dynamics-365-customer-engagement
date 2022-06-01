@@ -36,7 +36,7 @@ By using profiles, you can create targeted app experiences for agents and superv
 
 1. In the site map, select **Workspaces** in **Agent experience**.
 
-2. Select **Manage** for **Agent experience profiles**.
+2. In the **Agent experience profiles** section, select **Manage**.
 
 3. Select **New**, and enter the following details on the **Create a new agent experience profile** dialog.
 
@@ -50,9 +50,9 @@ By using profiles, you can create targeted app experiences for agents and superv
 
 **To assign users to the profile**
 
-1. Go to the profile that you created.
-2. On the page that appears, select **Add users**.
-3. On the **Add users** dialog, select the users in the **Available users** list, and then select **Add**. Alternatively, you can search for the users using the **Search** box. The assigned users are listed on the profile page. 
+1. In the **Agent experience profiles** page, select the profile that you created.
+2. On the page that appears, select **Add users** .
+3. On the **Add users** dialog, select and add users from the **Available users** list. Alternatively, you can search for the users using the **Search** box. The assigned users are listed on the profile page. 
 
 ### Assign templates, configure productivity pane, channels
 
@@ -60,17 +60,17 @@ Use the options on the profile page to configure the templates that'll define th
 
 **To assign templates and configure productivity pane and channels**
 
-1. Select the profile that you need to update.
+1. In the **Agent experience profiles** page, select the profile that you must update.
 
-2. On the page that appears, select **Add entity session template**.
+2.  On the page that appears, select **Add entity session template**.
 
-   1. On the **Entity session templates** dialog, use the **Search** box to search for the session template.
+   1. On the **Entity session templates** dialog, use **Search** to search for the session template.
 
    2. Select the required template from the search results, and select **Save and close**.
 
-3. On the profile page, in **Productivity pane**, select **Turn On**. The options for productivity pane appear.
+3. In **Productivity pane** section, select **Turn On**. The options for productivity pane appear.
 
-   1. On the Productivity pane dialog, for **Productivity pane**, turn on the toggle. **Additional settings** is enabled.
+   1. On the Productivity pane dialog, for **Productivity pane**, turn on the toggle. Additional settings are enabled.
 
    2. Turn on the toggle for the following settings:
 
@@ -82,13 +82,12 @@ Use the options on the profile page to configure the templates that'll define th
 
    3. Select **Save and close**.
 
-4. On the profile page, select **Edit** for **Inbox**. By default the **Inbox** view is turned off.
+4. In the **Email** section, select **Edit**. By default, the **Inbox** view is turned off.
    1. On the **Inbox** dialog, turn on the toggle.
    2. Select **Save and close**.
 
-5. On the profile page, for **Channel providers**, select **Edit**.
-   1. On the **Channel providers** dialog, turn on the **All active channels** toggle.
-   2. Optionally, select a channel provider in the **Third party voice channel providers** section.
+5. In the **Channel providers** section, select **Edit**.
+   1. On the **Channel providers** dialog, turn on the **All active channels** toggle. You can also select a channel provider in the **Third party voice channel providers** section.
    3. Select **Save and close**.
 
 :::image type="content" source="../customer-service/media/agent-experience-profile.png" alt-text="The agent experience profile with configured settings in Customer Service admin center.":::

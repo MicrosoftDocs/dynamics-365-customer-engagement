@@ -33,7 +33,7 @@ Agent scripts reduce the human errors involved, because agents know which action
 
 ## Create agent scripts
 
-Create agent scripts in the Customer Service Admin Center, Omnichannel admin center, Omnichannel Administration, or Customer Service Hub app. The following procedure is an example of an agent script for a chat session. You can modify the procedure for other types of sessions your agents are likely to come across.
+Create agent scripts in the Customer Service admin center, Omnichannel admin center, Omnichannel Administration, or Customer Service Hub app. The following procedure is an example of an agent script for a chat session. You can modify the procedure for other types of sessions your agents are likely to come across.
 
 1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083), and go to the app profile manager page.
 2. In the left pane, under **Productivity**, select **Agent scripts**. The Unified Interface page opens on a new tab.
@@ -59,7 +59,7 @@ Create agent scripts in the Customer Service Admin Center, Omnichannel admin cen
     |--------------------|------------------------------|-------------------------------------------|
     | Name | Provide a name for the agent script step; this appears for the agent at runtime. You can use slugs for specifying the name of the step. To learn more, see [Slugs](automation-dictionary-keys.md#slugs-for-productivity-tools-macros-and-agent-scripts). | Example 1: Greet the customer. <br><br> Example 2: Hi {customer}  |
     |Unique Name |A unique identifier in the <*prefix*>_<*name*> format.<br>**Important:** The following are required for the unique name:<br><ul><li> The prefix can only be alphanumeric and its length must be between 3 to 8 characters.</li> <li>An underscore must be there between the prefix and name.</li></ul>| Greet_script|
-    |Owner|By default, the signed in user is displayed as the owner.| Clay Rowdy |
+    |Owner|By default, the signed in user is displayed as the owner.| Clay Roddy |
     |Agent script | The agent script for which the script step is being created.| Chat session script|
     | Order | Specify the order number based on which step is displayed to the agent. | 1 |
     | Action Type | Select an action type from the list: <ul> <li> Text instruction </li> <li> Macro </li> <li> Script </li> |
