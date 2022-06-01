@@ -37,7 +37,7 @@ The Summary and Model run summary views provide key information about how the to
 
 ## Data mapping
 
-  Data mapping enables you to choose the text field which agents in your organization will most likely use to describe the reason why a customer reached out to support. By default, the Case Title attribute is used. The other attributes available to you are Serial Number, Description, and Case Title.
+  Data mapping enables you to choose the text field that the agents in your organization will most likely use to describe the reason why a customer reached out to support. By default, the Case Title attribute is used. The other attributes available to you are Serial Number, Description, and Case Title.
 
  :::image type="content" source="data-mapping-cs.png" alt-text="Data Mapping":::
 
