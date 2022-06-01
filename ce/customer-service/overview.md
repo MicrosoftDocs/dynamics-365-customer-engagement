@@ -1,7 +1,7 @@
 ---
 title: "Customer Service Overview (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Overview of Dynamics 365 Customer Service"
-ms.date: 04/26/2022
+ms.date: 05/27/2022
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -21,7 +21,7 @@ The agent experience is the heart of Dynamics 365 Customer Service. The key to i
 
 We offer several app experiences for you to choose from, depending on your support organization’s needs.
 
-Use [!INCLUDE[pn-ms-dyn-365-for-customer-service](../includes/pn-ms-dyn-365-for-customer-service.md)] to:
+Use Customer Service to:
 
 - Track customer issues through cases
 - Record all interactions related to a case
@@ -57,33 +57,46 @@ You can configure and manage the different capabilities in Customer Service by u
   > [!NOTE]
   > The Omnichannel Administration app won't be supported after April 30, 2022, and will be deprecated in a future release. We recommend that you use the Omnichannel admin center app. The latest features, such as unified routing and voice channel, can be configured and used only in this admin app. For more information about the deprecation announcement, see [Omnichannel Administration app is deprecated](../customer-service/deprecations-customer-service.md#omnichannel-administration-app-is-deprecated).
 
+The following table provides the features that can be configured through the admin apps.
+
+| Feature| Customer Service admin center | Omnichannel admin center |Customer Service Hub -> Service Management |
+|--------|-------------------------------|--------------------------|-------------------------------------------|
+| Basic administration for Customer service| ✔ | ✖ | ✔ |
+| Case routing and queue configuration | ✔ | ✔ |✔|
+| Service-level agreements|✔|✖|✔|
+| Service scheduling|✔|✖|✔|
+| Live chat, social channels, Microsoft Teams, SMS| ✔ | ✔ |✖|
+| Agent experience profiles |✔ | ✖| ✖ |
+| Unified routing |✔|✔|✔|
+| Voice channel |✔|✔|✖|
+| Knowledge management|✔|✖|✔|
+| Insights, analytics, and dashboards|✔|✔|✔|
+| Productivity tools |✔|✔|✖|
+
+
+**Legend**
+
+✔: Generally available.
+
+✖: Not available
 
 ## Use agent apps to service customers
 
 The following capabilities are available in the different app experiences, depending on your needs. In the following table, select the app of your choice to read more about the details of the user experience in each app.
 
-
 |  Features | [Customer Service workspace](csw-overview.md) | [Omnichannel for Customer Service](./introduction-omnichannel.md) | [Customer Service Hub](user-guide-customer-service-hub.md) | [Customer Service Team Member](customer-service-team-member.md) | [Customer Service app (Deprecated)](user-guide-customer-service.md) |
 |---------------------------------------------------------------------|------------|------------|------------|------------|------------|
 | Multisession          | ✔ | ✔ | ✖ | ✖ | ✖ |
+| Case management  | ✔ |  ✔  |  ✔  |  ✔  |  ✔  |
 | Conversations (with Chat or Digital Messaging Offers)  | ✔ | ✔ |✖  | ✖ |✖  |
 | Channels (with Digital Messaging Offer)  | ✔ | ✔ |✖  | ✖ |✖  |
-| Case Management  | ✔ |  ✔  |  ✔  |  ✔  |  ✔  |
-| Knowledge  |  ✔  |  ✔  |✔| Read only | ✔ |
-| Insights  | ✔ | ✔| ✔ | ✖ | ✖ |
-| Service Scheduling  | ✔ | Not applicable | ✔ | ✖ | ✔ |
+|Voice channel (with Voice Channel for Dynamics 365 Customer Service)| ✔ | ✔ |✖  | ✖ |✖  |
+| Knowledge management  |  ✔  |  ✔  |✔| Read only | ✔ |
+| Insights, analytics, and dashboards | ✔ | ✔| ✔ | ✖ | ✖ |
+| Service scheduling  | ✔ | Not applicable | ✔ | ✖ | ✔ |
 | Connected Service with IoT  |✔  | ✖ | ✔  | ✖ |✖  |
 | Extensibility  | ✔ with Channel Integration Framework version 2.0, custom messaging channel | ✔ with Channel Integration Framework version 2.0, custom messaging channel, Mobile SDK | ✔ with Channel Integration Framework version 1.0 | ✖ | ✖ |
 | Unified Interface compliant  | ✔ | ✔ | ✔ | ✔ |✖  |
-| Basic Administration  |Customer Service Hub -> Service Management  | Omnichannel Administration application |Customer Service Hub -> Service Management  | ✖ | Settings -> Service Management |
-| Case Routing & Queue Configuration  | Customer Service Hub -> Service Management | Omnichannel Administration application |Customer Service Hub -> Service Management  | ✖ | Settings -> Service Management |
-| Add & Configure Channels  | Omnichannel Administration  | Omnichannel Administration | ✖ | ✖ | ✖ |
-| Control User Experience for Agent & Supervisor | In app profile manager | In app profile manager | ✖ |  ✖| ✖ |
-| Licensing: Customer Service Professional  | ✖  |✖  | ✔ | ✖ |  ✖|
-| Licensing: Customer Service Enterprise  | ✔  | ✔ | ✔  | ✔ | Not applicable |
-| Licensing: Chat  | ✔  | ✔ | ✖ | ✖ |✖  |
-| Licensing: Digital Messaging  | ✔  | ✔ | ✖ | ✖ |✖  |
-|||||||
 
 **Legend**
 
@@ -96,11 +109,11 @@ The following capabilities are available in the different app experiences, depen
 > [!NOTE]
 > For mobile devices, you can install the applicable app for your device. For more information, see [Install Dynamics 365 for phones and tablets](../mobile-app/Install-Dynamics-365-for-phones-and-tablets.md).
 
-If you're using a desktop browser, you'll see the various Customer Service apps in the app switcher as shown here:
+If you're using a desktop browser, you'll see the various Customer Service apps in the app switcher as shown here.
 
 ![open-sitemap.](media/open-csh-sitemap-overview.png "Customer Service Hub sitemap")
 
-If you're using a mobile device with Dynamics 365 for phones and tablets installed, you'll see the app tiles in the app switcher as shown here:
+If you're using a mobile device with Dynamics 365 for phones and tablets installed, you'll see the app tiles in the app switcher as shown here.
 
 ![csh-mobile.](media/ChooseAnApp_1.png "Customer Service Hub on mobile")
 

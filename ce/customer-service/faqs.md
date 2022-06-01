@@ -216,7 +216,7 @@ The Validate API Key functionality will validate the customer ID and the API key
 
 ### How can I know if I can get a phone number from TeleSign in a specific country?
 
-See the [TeleSign coverage map for Two-Way SMS](https://www.telesign.com/coverage-map/). For any additional queries, we recommend that you send an email request to support@telesign.com.
+See the [TeleSign coverage map for Two-Way SMS](https://www.telesign.com). For any additional queries, we recommend that you send an email request to support@telesign.com.
 
 ### Which phone number types are supported?
 
