@@ -91,7 +91,7 @@ ms.custom:
 <tr>
 <td>
 <h2> Migrate </h2>
-<li><a href="admin/migrate-to-csw.md" data-raw-source="[Migrate from Unified Service Desk to Customer Service workspace](admin/migrate-to-csw.md)">Migrate from Unified Service Desk to Customer Service workspace</a></li>
+<li><a href="admin/migrate-to-csw.md" data-raw-source="[Migrate to Customer Service workspace](admin/migrate-to-csw.md)">Migrate to Customer Service workspace</a></li>
 <br> </br>
 <br> </br>
 </td>
