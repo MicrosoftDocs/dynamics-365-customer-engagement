@@ -1,10 +1,10 @@
 ---
 title: "Create and use agent experience profiles | MicrosoftDocs"
-description: "Learn how to create and manage app profiles for customized agent experiences."
+description: "Learn how to create and manage agent experience profiles for customized agent experiences."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/04/2022
+ms.date: 06/01/2022
 ms.topic: article
 ---
 
@@ -92,3 +92,10 @@ Use the options on the profile page to configure the templates that'll define th
    3. Select **Save and close**.
 
 :::image type="content" source="../customer-service/media/agent-experience-profile.png" alt-text="The agent experience profile with configured settings in Customer Service admin center.":::
+
+### See also
+
+[Overview of agent experience profiles](agent_experience_profile_create.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
