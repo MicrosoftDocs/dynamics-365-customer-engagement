@@ -22616,6 +22616,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "/dynamics365/sales/set-up-dynamics-365-sales.md",
+      "redirect_url": "/dynamics365/sales/intro-saleshub",
+      "redirect_document_id": "false"
+    },    
+    {
       "source_path": "ce/sales-enterprise/manage-snapshots-forecast.md",
       "redirect_url": "/dynamics365/sales/manage-snapshots-forecast",
       "redirect_document_id": "false"
