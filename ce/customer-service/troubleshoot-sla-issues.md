@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot SLA issues in Customer Service | Microsoft Docs
 description: Know about the SLA issues and how to troubleshoot them.
-ms.date: 05/31/2022
+ms.date: 06/01/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -70,7 +70,7 @@ When you define the **Applicable when** and **Success condition** on the same at
 > [!NOTE]
 > When you define the conditions on the same attribute, a recommendation message is displayed that suggests you to not use the same attribute.
 
-### Workaround
+### Resolution
 
 In such scenarios, we recommend that you don't define the **Applicable when** and **Success condition** on the same attribute.
 
@@ -131,7 +131,7 @@ To change the owner of any flow, perform the following steps:
 
 The following warning message is displayed on entity records: "The SLA instances may be incorrect because workflow ee2079d2-a93f-48b5-887a-c54ad830cbe5 is turned off. Please contact your admin to turn the workflow on."
 
-The workflow ID varies from system to system.
+The workflow ID shown in the message will vary from system to system.
 
 ### Reason
 
@@ -139,13 +139,13 @@ The **SLAInstanceMonitoringWarningAndExpiryFlow** must be  enabled.
 
 ### Resolution
 
-If none of the UCI SLAs are activated, activate one of the SLAs which will then activate the **SLAWarningAndExpiryMonitoringFlow**.
+If none of the Unified Interface SLAs are activated, then you must activate one of the SLAs to activate the **SLAWarningAndExpiryMonitoringFlow**.
 
-Alternately, if all SLAs are active but the flow is still deactivated, perform the following steps:
+However, if all the SLAs are active but the flow is still deactivated, perform the following steps:
 
 1. In https://powerautomate.microsoft.com, navigate to **My flows > Cloud flows**.
-2. In **Cloud flows**, open the **SLAWarningAndExpiryMonitoringFlow**.
-3. On the ribbon, select **Turn on**.
+2. In **Cloud flows**, select  **SLAWarningAndExpiryMonitoringFlow**.
+3. Select **Turn on**.
 
 
 ### See also
