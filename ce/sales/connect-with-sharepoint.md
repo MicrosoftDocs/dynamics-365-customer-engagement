@@ -19,7 +19,7 @@ the Sales app by integrating with SharePoint Online.
 | Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Sales Manager, Sales Professional Manager, or Vice President of Sales <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+| **Security roles** | System Administrtor, Sales Manager, Sales Professional Manager, or Vice President of Sales <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 
 ## Configure the integration
@@ -27,6 +27,16 @@ the Sales app by integrating with SharePoint Online.
 Depending on the Dynamics 365 Sales license you have, select one of the following tabs for specific information:
 
 # [Sales Premium and Sales Enterprise](#tab/SE)
+
+### Prerequisites
+
+To be able to configure SharePoint, you must have:
+
+-   Microsoft 365 subscription
+
+-   SharePoint Online subscription
+
+### Steps to integrate
 
 1. From the Sales Hub app, select the **Settings** icon ![Settings icon.](media/settings-icon.png "Settings icon"), and then **Advanced settings**. 
 
@@ -39,8 +49,6 @@ Depending on the Dynamics 365 Sales license you have, select one of the followin
 ### Prerequisites
 
 To be able to configure SharePoint, you must have:
-
--   Sales Professional Manager or System Administrator role
 
 -   Microsoft 365 subscription
 

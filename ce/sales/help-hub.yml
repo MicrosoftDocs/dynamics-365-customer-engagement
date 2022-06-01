@@ -32,8 +32,6 @@ landingContent:
         links:
         - text: Sign up for a free trial 
           url: sign-up-for-sales-trial.md
-        - text: Set up Dynamics 365 Sales 
-          url: set-up-dynamics-365-sales.md
         - text: Learn the basics 
           url: user-guide-learn-basics.md
         - text: Set up Sales premium features 
