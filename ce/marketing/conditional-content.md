@@ -1,7 +1,7 @@
 ---
 title: "Preview: How to use conditional content (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to use conditional content features in Dynamics 365 Marketing."
-ms.date: 05/26/2022
+ms.date: 06/01/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -33,7 +33,9 @@ This article refers to a feature that is in preview and may not be enabled in yo
 
 ## What is conditional content?
 
-Conditional content is an easy way to deliver effective and engaging personalized content. A simple example of conditional content is including different images based on a recipient’s profession, age group, address, interests, or other such factors. Creating this kind of personalized content in Dynamics 365 Marketing is straightforward, requiring no coding or scripting.
+Conditional content is an easy way to deliver effective and engaging personalized content. A simple example of conditional content is including different images based on a recipient’s profession, age group, address, interests, or other such factors. Creating this kind of personalized content in Dynamics 365 Marketing is straightforward, requiring no coding or scripting. Here is a short video that shows conditional content in action:
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Yb7B]
 
 Conditional content, as the name implies, consists of two parts: condition and content. The combination of these two parts is called a “variation.” You can create as many variations as needed. At the time an email is sent, conditions are evaluated in the order they're present in the email. When a condition is satisfied, the corresponding content is included and the conditional evaluation stops. If none of the conditions are satisfied, the default content is used. If there's no default content, then no content is included.
 
@@ -61,6 +63,8 @@ This section explains how to create, delete, preview, and test conditional conte
 
 ### Create
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Yb7A]
+
 1. In the email designer, select a section (or an image) and then select the conditional content button.
 
     > [!div class="mx-imgBorder"]
@@ -79,6 +83,8 @@ This section explains how to create, delete, preview, and test conditional conte
 1. This will convert the conditional section (or the conditional image) into a normal section (or image) by deleting all conditions and associated content. The default content (or the first condition’s content if there's no default) is retained in the designer.
 
 ### Preview and test
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4YmOM]
 
 In the designer, you should always preview and test each variation to make sure there are no unexpected results. To preview and test, follow the steps below.
 
