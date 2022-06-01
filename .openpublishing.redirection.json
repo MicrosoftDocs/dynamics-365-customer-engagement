@@ -1,5 +1,11 @@
 {
-  "redirections": [    {
+  "redirections": [
+    {
+      "source_path": "ce/marketing/create-spf-record.md",
+      "redirect_url": "mkt-settings-authenticate-domains#envelope-from-domain",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customerengagement/on-premises/admin/configure-server-based-authentication-sharepoint-on-premises.md",
       "redirect_url": "on-prem-server-based-sharepoint-on-prem",
       "redirect_document_id": "false"
