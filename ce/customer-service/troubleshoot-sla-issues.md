@@ -110,7 +110,7 @@ The flow runs that are created for the SLA KPI Instances timer fail with a licen
 
 ### Reason
 
-The **SLAWarningAndExpiryMonitoringFlow** is required to move the **SLA KPI Instances** to a **Nearing non-compliance** or **Non-complaint** state. This flow always works in the context of the user who activates the first SLA in the organization. It must be ensured that the user who activates the first SLA on the organization must have all the required licenses for the flow execution.
+The **SLAWarningAndExpiryMonitoringFlow** is required to move the **SLA KPI Instances** to a **Nearing non-compliance** or **Non-complaint** state. The flow always works in the context of the user who activates the first SLA in the organization. It must be ensured that the user who activates the first SLA on the organization must have all the required licenses for the flow execution.
 
 If the user is missing any of the required licenses, then the flow runs that are created for the corresponding SLA KPI Instance will fail with a license required error: "The user with SystermUserId = XXXX in OrganizationContext = YYYY is not licensed". Thus, the SLA KPI Instance will never reach the **Nearing non-compliance** or **Non-complaint** state and the SLA KPI Instance timer will continue to run.
 
