@@ -1,7 +1,7 @@
 ---
 title: Enable or disable the enhanced add products experience
 description: "Enable your salespeople to quickly find and add multiple products to an opportunity, quote, order, or invoice by enabling the enhanced add product experience."
-ms.date: 10/26/2021
+ms.date: 05/30/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -32,12 +32,14 @@ Enable your salespeople to quickly find and add multiple products to an opportun
 
  By using the enhanced experience, salespeople can do the following:
 
-- Quickly search for products and filter by product families.
+- Quickly search for products and add them to opportunity, quote, order, or invoice.  
+- Filter by product families if you have the Sales Enterprise or Sales Premium license.
 - View product details inline.
 - Compare products before selecting them.
 - Add multiple products in one go.
 
 [!INCLUDE [add-products-experience-on-mobile](../includes/add-products-experience-on-mobile.md)]
+
 
 
 ## Enable or disable the enhanced experience

@@ -34,6 +34,8 @@ Quotes have important data about the customers and the products they're interest
 
 4.  To enable creation of orders from quotes, set **Enable automatic quote to order generation** to **Enabled**.
 
+    :::image type="content" source="media/enable-quote-to-order-sp.png" alt-text="A screenshot of Sales Professional Settings to enable automatic creation of quote to order.":::
+
 6.  Select **Save**. 
 7.  Open a quote, activate it, and verify if the **Create Order** option is available on the command bar. You can now select **Create Order** to create an order based on the quote. 
 
