@@ -667,4 +667,4 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 [About the Entity Reference](../about-entity-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.msdyn_preferredagentcustomeridentity?text=msdyn_preferredagentcustomeridentity EntityType" />
+[msdyn_preferredagentcustomeridentity](msdyn_preferredagentcustomeridentity.md)
