@@ -11,7 +11,7 @@ manager: "shujoshi"
 search.audienceType: 
   - developer
 ---
-# msdyn_preferredagent table/entity reference
+# msdyn_preferredagent entity reference
 
 > [!NOTE]
 > Unsure about table vs. entity? See [Developers: Understand terminology in Microsoft Dataverse](/powerapps/developer/data-platform/understand-terminology).
