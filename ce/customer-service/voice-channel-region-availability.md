@@ -240,7 +240,7 @@ Use the information in the following table to find out more about language suppo
 | Feature |	List of supported languages |
 | ---- | ---- |
 | Transcription | [Language and speech support](/azure/cognitive-services/speech-service/language-support)|
-| Power Virtual Agents (IVR) | [Power Virtual Agents supported languages](/power-virtual-agents/authoring-language-support)|
+| Power Virtual Agents (IVR) | [Languages supported by Power Virtual Agents](/power-virtual-agents/authoring-language-support)|
 | Bring your own bot (IVR) | [Language and voice support for the Speech service](/azure/cognitive-services/speech-service/language-support)|
 | AI suggestions | [Language support for AI suggestions](csw-enable-ai-suggested-cases-knowledge-articles.md#language-support-for-ai-suggestions)|
 | Sentiment Analysis | [Multilingual sentiment](enable-sentiment-analysis.md#multilingual-sentiment) |
