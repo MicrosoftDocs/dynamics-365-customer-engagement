@@ -1,12 +1,12 @@
 ---
 title: "msdyn_preferredagent entity reference (Microsoft Dataverse)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_preferredagent entity."
-ms.date: 06-01-2022
+ms.date: 6-1-2022
 
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "KumarVivek"
-ms.author: "kvivek"
+author: "mgandham"
+ms.author: "gandhamm"
 manager: "annbe"
 search.audienceType: 
   - developer
@@ -811,4 +811,4 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 [About the Entity Reference](../about-entity-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.msdyn_preferredagent?text=msdyn_preferredagent EntityType" />
+[msdyn_preferredagent](msdyn_preferredagent.md)
