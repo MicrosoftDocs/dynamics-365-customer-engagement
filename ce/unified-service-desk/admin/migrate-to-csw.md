@@ -29,13 +29,13 @@ Customer Service workspace provides a modern customer service experience that op
 
 The **Unified Service Desk to Customer Service workspace Migration Playbook** gives you an insight about what Customer Service workspace entails over Unified Service Desk, and how you can plan and run the transition from Unified Service Desk to Customer Service workspace. The playbook consists of the following chapters:
 
-**Chapter 1: Initiate** discusses how you can initiate the migration process after understanding the differences between Customer Service workspace and Unified Service Desk.
+- **Chapter 1: Initiate** discusses how you can initiate the migration process after understanding the differences between Customer Service workspace and Unified Service Desk.
 
-**Chapter 2: Explore** describes the Customer Service workspace app, how you can define your transition plan, and how you can create a pilot app.
+- **Chapter 2: Explore** describes the Customer Service workspace app, how you can define your transition plan, and how you can create a pilot app.
 
-**Chapter 3: Transition** explains how you can build a successful transition plan.
+- **Chapter 3: Transition** explains how you can build a successful transition plan.
 
-**Chapter 4: Optimize** discusses how you can monitor the adoption of the new app, review the migration experience, plan for innovation and future growth, while also addressing any gaps or issues.
+- **Chapter 4: Optimize** discusses how you can monitor the adoption of the new app, review the migration experience, plan for innovation and future growth, while also addressing any gaps or issues.
 
 ## Download the migration playbook
 
