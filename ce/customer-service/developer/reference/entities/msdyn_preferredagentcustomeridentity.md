@@ -1,6 +1,6 @@
 ---
-title: "msdyn_preferredagent entity reference (Microsoft Dataverse)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_preferredagent entity."
+title: "msdyn_preferredagentcustomeridentity entity reference (Microsoft Dataverse)| MicrosoftDocs"
+description: "Includes schema information and supported messages for the msdyn_preferredagentcustomeridentity entity."
 ms.date: 6/3/2022
 ms.service: "powerapps"
 ms.topic: "reference"
