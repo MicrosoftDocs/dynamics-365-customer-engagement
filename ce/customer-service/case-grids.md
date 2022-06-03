@@ -68,7 +68,7 @@ The following are some of the key features:
 1. On the **Controls** tab, do the following:
 
     1. **Controls** section: For **(Preview) Power Apps grid control**, select **Web**, **Phone**, and **Tablet** radio button/options.
-    1.	**Property** section: In **Customizer Control** field, select **Edit**. The Configure property “Customizer Control Name”**** dialog appears.
+    1.	**Property** section: In **Customizer Control** field, select **Edit**. The **Configure property “Customizer Control Name”** dialog appears.
     1. Select the **Bind to a static value option**, and for **Singleline.Text**, select **MscrmControls.CustomCellControl.CustomCellControl** and then select**OK**.
      1. To enable inline editing, in the **Property** section, in **Enable editing**, select **Edit**. The Configure property **Enable Editing** dialog appears. 
      1. Select **Bind to static options** and select **Yes** from the dropdown list, and then select **OK**.
@@ -79,7 +79,8 @@ The following are some of the key features:
 
 ## Enable Enhanced Active Cases View in Customer Service workspace app
 
- 1. Navigate to your environment using your organization link. 
+ 1. Navigate to your environment using your organization link.
+ 
  1. From the list of apps, select **More Options** in Customer Service Workspace Model Driven App and then select **Open in App Designer**.
   1. From **Components > Entity Assets > Views**, select the **Case** entity. 
   1. In the Components tab, search for **Enhanced Active Cases** view and select the checkbox. 
@@ -91,7 +92,8 @@ Depending on the information that you want to view, you can choose to add column
 
 To create a copy of the **Enhanced Active Cases** view and customize it to add a new column:
 
-1. In the Customer Service workspace site map, open a new tab and select Cases. 
+1. In the Customer Service workspace site map, open a new tab and select Cases.
+
 1. Select **Enhanced Active Cases** from the dropdown list.
 1. Select **Switch to classic** view.
 1. Enter a new name for the view to save it as a copy of the **Enhanced Active Cases**view.
@@ -104,6 +106,7 @@ To create a copy of the **Enhanced Active Cases** view and customize it to add a
 
 You can also make changes to existing case grid views. For example, if you want to add **Last Interaction** or any of the other new key data columns, you must perform the following steps:
 1.	In the Customer Service workspace site map, open a new tab and select **Cases**. 
+
 1.	Select any of the existing views from the dropdown list.
 1.	Select **Column Options**.
 1.	On the **Edit columns** dialog, select **Add columns**. The **Add columns** dialog appears.
@@ -116,6 +119,7 @@ You can also make changes to existing case grid views. For example, if you want 
 To add columns in the Case grid:
 
 1. Go to the https://powerautomate.microsoft.com portal.
+
 1. Select **Solutions**. The **Solutions** page appears.
 1. On the **Solutions** page, select **Default Solution**.
 1. On the **Default Solution** page, select **Tables** from the left panel and then select the **Case** entity.
