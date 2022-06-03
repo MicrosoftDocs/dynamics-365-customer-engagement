@@ -1,7 +1,7 @@
 ---
-title: Overview of the Customer Service workspace application for Dynamics 365 Customer Service | Microsoft Docs
-description: Overview of the Customer Service workspace application for Dynamics 365 Customer Service
-ms.date: 10/19/2021
+title: Overview of Customer Service workspace for Dynamics 365 Customer Service | MicrosoftDocs
+description: "Overview of the Customer Service workspace application for Dynamics 365 Customer Service."
+ms.date: 06/03/2022
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -26,7 +26,8 @@ Welcome to the Customer Service workspace app module, where we're increasing age
 
 If you've used Customer Service Hub or Omnichannel for Customer Service before, much of the behavior for managing cases and activities in the Customer Service workspace app module works the same way, with some exceptions to accommodate the multisession and conversation capabilities. This article walks you through the Customer Service workspace experience and explains how to navigate the app.
 
-Before we begin, a quick note about administration of Customer Service workspace: Currently, there isn't a dedicated administrator experience for Customer Service workspace. As such, configuring and managing core customer service capabilities, such as queues and routing rules, is done in the [Customer Service Hub](customer-service-hub-user-guide-basics.md) > Service Management experience. Channel configuration is done in [app profile manager](../app-profile-manager/overview.md). Because all of these apps are on [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro), the data created through these experiences is accessible.
+> [!Note] 
+> Currently, there isn't a dedicated administrator experience for Customer Service workspace. As such, configuring and managing core customer service capabilities, such as queues and routing rules, is done in the [Customer Service Hub](customer-service-hub-user-guide-basics.md) > **Service Management** experience. Channel configuration is done in [app profile manager](../app-profile-manager/overview.md). Because all of these apps are on [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro), the data created through these experiences is accessible.
 
 ## Introduction to Customer Service workspace
 
@@ -146,13 +147,13 @@ Let's explore the fields you can edit on the **Case Additional Details** tab.
 
 ## Work with activities
 
-From the Customer Service Agent Dashboard in Customer Service workspace, you can.
+From the Customer Service Agent Dashboard in Customer Service workspace, you can manage your activities.
 
 :::image type="content" source="media/bulkEditActivities.png" alt-text="Customer Service workspace bulk edit activities" border="false":::
 
 | Label | Description|
 |------------ | -------------|
-| 1 | Select multiple activities to work with. Select the top check mark to choose all, or select individual check boxes next to each activity to select a specific group of activities.|
+| 1 | Select multiple activities to work with. Select the top checkbox to choose all, or select individual checkboxes next to each activity to select a specific group of activities.|
 | 2 | Edit selected activities. |
 | 3 | Delete selected cases. |
 | 4 | Open the menu for additional actions including Mark Complete, Cancel, Set Regarding, Assign, Email a Link, Add to Queue, Run Report. |
@@ -174,7 +175,7 @@ Intelligent knowledge suggestions are displayed in the productivity pane while y
 
 ## Use email templates and signatures
 
-From the Customer Service Agent Dashboard in Customer Service workspace, you can access email templates and signatures as follows.
+From the Customer Service Agent Dashboard in Customer Service workspace, you can access email templates and signatures.
 
 :::image type="content" source="media/email-csw.png" alt-text="Customer Service workspace email" border="false":::
 
@@ -183,12 +184,13 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 
 ### Use the inbox
 
-As an agent, when you open Customer Service workspace or Omnichannel for Customer Service, you can select the inbox icon to show all of the cases and conversations that are assigned to you. The inbox is designed to help you efficiently work on high velocity tasks, as well as promote inbox sessions to regular sessions when you need more time to resolve cases and complete your conversations. The following asynchronized channels are available in the conversation inbox: SMS, persistent chat, Facebook, Twitter, WeChat, LINE, WhatsApp, and Teams.
+As an agent, when you open Customer Service workspace or Omnichannel for Customer Service, you can select the inbox icon to show all of the cases and conversations that are assigned to you. The inbox is designed to help you efficiently work on high velocity tasks, as well as promote inbox sessions to regular sessions when you need more time to resolve cases and complete your conversations. The following asynchronized channels are available in the conversation inbox: SMS, persistent chat, Facebook, Twitter, WeChat, LINE, WhatsApp, and Microsoft Teams.
 
-The following image shows the inbox conversation view:
+The following image shows the inbox conversation view.
+
 :::image type="content" source="media/inbox-csw.png" alt-text="Customer Service workspace inbox conversations view" border="false":::
 
-The following image shows the inbox case view:
+The following image shows the inbox case view.
 
 :::image type="content" source="media/inbox-case.png" alt-text="Customer Service workspace inbox case view" border="false":::
 
