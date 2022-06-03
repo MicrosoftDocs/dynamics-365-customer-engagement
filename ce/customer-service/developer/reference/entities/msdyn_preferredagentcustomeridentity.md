@@ -13,7 +13,7 @@ applies_to:
   - "Dynamics 365 (online)"
 ---
 
-# msdyn_preferredagentcustomeridentity table/entity reference
+# msdyn_preferredagentcustomeridentity entity reference
 
 > [!NOTE]
 > Unsure about table vs. entity? See [Developers: Understand terminology in Microsoft Dataverse](/powerapps/developer/data-platform/understand-terminology).
