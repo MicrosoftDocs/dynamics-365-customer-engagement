@@ -1,5 +1,5 @@
 ---
-title: "msdyn_preferredagent table/entity reference (Microsoft Dataverse)| MicrosoftDocs"
+title: "msdyn_preferredagent entity reference (Microsoft Dataverse)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_preferredagent entity."
 ms.date: 6/3/2022
 ms.service: "powerapps"
