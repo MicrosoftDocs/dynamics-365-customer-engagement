@@ -96,7 +96,7 @@ From the **Home** session, you can select a record in the following ways and ope
 
 1.	Sign in to Dynamics 365.
 2.	Select F12 to open the developer tools.
-3.	Run the following command at the console window.
+3.	Run the following command at the console window:
     Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_SuppressSessionCloseWarning",true)
 
 ## Work with cases
