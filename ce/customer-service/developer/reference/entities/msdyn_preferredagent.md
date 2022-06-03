@@ -1,12 +1,12 @@
 ---
 title: "msdyn_preferredagent entity reference (Microsoft Dataverse)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_preferredagent entity."
-ms.date: 6-1-2022
+ms.date: 6/1/2022
 
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "mgandham"
-ms.author: "gandhamm"
+author: "gandhamm"
+ms.author: "mgandham"
 manager: "shujoshi"
 search.audienceType: 
   - developer
