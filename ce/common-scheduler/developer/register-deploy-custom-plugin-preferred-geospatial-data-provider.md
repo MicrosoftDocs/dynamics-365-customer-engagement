@@ -95,7 +95,7 @@ You are now done with registering steps to call your custom plug-in for both the
 
 If you view any of the Universal Resource Scheduling geospatial actions in the Plug-in Registration tool, you will see both the default and your custom plug-in registered for the action. For example, see the plug-ins for the **mdyn_GeocodeAddress** action.
 
-![](../media/FS-registered-plugins-for-message.png)
+![The Plug-in Registration tool](../media/FS-registered-plugins-for-message.png "The Plug-in Registration tool")
 
 ### See also  
 
