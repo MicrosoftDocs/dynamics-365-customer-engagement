@@ -1,7 +1,7 @@
 ---
 title: "Known issues in real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about known issues in real-time marketing and how to work around them."
-ms.date: 05/03/2022
+ms.date: 06/02/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -41,7 +41,6 @@ As we continue to work on real-time marketing and refine the experience, we've b
 
 ## Dynamics 365 Customer Insights
 
--	Data from Customer Insights environments that use the Azure Data Lake Gen v2 storage isn’t accessible in real-time marketing. To use Customer Insights data in real-time marketing, you must create a new environment using a copy of the existing environment, then use the Customer Insights storage option and enable data sharing with the Dataverse org on which Dynamics 365 Marketing is installed.
 -	Segments and profiles in Customer Insights aren’t evaluated in real time. Segments and profiles can be set to refresh on a schedule defined by the Customer Insights admin. When a customer journey uses profiles from Customer Insights, the earliest you can engage with a new customer is when their profile is created on the next scheduled refresh. Similarly, when you use segments from Customer Insights, new customers will only enter the journey on the next scheduled refresh.
 -	Once you start using Customer Insights data in customer journeys, you can’t remove the profile attributes being used from the data unification process (Map-Match-Merge). Doing so might break customer journeys and personalization tokens that reference those attributes.
 - Customer Insights segments used in customer journeys can’t currently exceed 10 million profiles. A larger sized segment may get truncated to the first 10 million profiles only.
