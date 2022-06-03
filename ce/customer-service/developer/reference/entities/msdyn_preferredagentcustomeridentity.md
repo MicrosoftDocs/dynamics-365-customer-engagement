@@ -1,11 +1,11 @@
 ---
 title: "msdyn_preferredagent table/entity reference (Microsoft Dataverse)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_preferredagent entity."
-ms.date: 06-01-2022
+ms.date: 6/3/2022
 ms.service: "powerapps"
 ms.topic: "reference"
-author: "mgandham"
-ms.author: "gandhamm"
+author: "gandhamm"
+ms.author: "mgandham"
 manager: "shujoshi"
 search.audienceType: 
   - developer
@@ -665,6 +665,6 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 ### See also
 
-[About the Entity Reference](../about-entity-reference.md)<br />
+[About the Entity Reference](../../../../customerengagement/on-premises/developer/about-entity-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-[msdyn_preferredagentcustomeridentity](msdyn_preferredagentcustomeridentity.md)
+[msdyn_preferredagent](msdyn_preferredagent.md)
