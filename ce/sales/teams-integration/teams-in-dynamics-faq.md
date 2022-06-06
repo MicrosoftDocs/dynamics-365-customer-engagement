@@ -1,7 +1,7 @@
 ---
-title: "FAQ on Teams integration  | MicrosoftDocs"
+title: "Frequently asked questions about Teams chat integration  | MicrosoftDocs"
 description: "Collaborate efficiently in Dynamics 365 without switching to Teams. This page include FAQs about the integration."
-ms.date: 04/20/2022
+ms.date: 05/24/2022
 ms.topic: article
 
 search.app: 
@@ -11,7 +11,8 @@ author: sbmjais
 ms.author: shjais
 manager: shujoshi
 ---
-# FAQ on Dynamics 365 integration with Microsoft Teams 
+
+# Microsoft Teams chat integration FAQ
 
 ## Who needs to provide consent for this integration?  
 

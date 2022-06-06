@@ -1,7 +1,7 @@
 ---
 title: Add the Dynamics 365 app to a Microsoft Teams meeting created in Dynamics 365
 description: Learn how to add the Dynamics 365 app to a Teams meeting created in Dynamics 365.
-ms.date: 04/20/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -15,6 +15,9 @@ manager: shujoshi
 
 
 When you add the Dynamics 365 app to a Teams meeting, you can view record details before, during, and after a meeting. The Dynamics 365 app can be added to a Teams meeting automatically or manually.
+
+> [!NOTE]
+> The Dynamics 365 app for Teams is available only in the Teams desktop app. If you are working in Teams web client or Teams mobile app, you'll not be able to add the Dynamics 365 app to a meeting.
 
 ## Automatically add the app
 

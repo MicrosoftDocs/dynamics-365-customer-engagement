@@ -1,7 +1,7 @@
 ---
 title: "Regional availability, language availability, and service limits for Dynamics 365 Customer Service Insights | MicrosoftDocs"
 description: "Learn about regional availability, languages supported, and service limits for Customer Service Insights."
-ms.date: 02/15/2022
+ms.date: 05/24/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -35,6 +35,7 @@ The following table lists the regional availability of Customer Service Insights
 | Sentiment prediction-based routing | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ | ✖ |
 | Effort estimation model for routing | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ | ✖ |
 | AI suggestions for contacts in Microsoft Teams | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✖ | ✖ |
+| AI generated summary for contacts in Microsoft Teams | ✔ | ✔ | ✖ |✖ |✖ | ✖ | ✖ |✖ | ✔ | ✖| ✖ | ✖| ✖| ✖ | ✖ | ✖ |
 | Forecast report for cases and conversations | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✔ | ✔ | ✔ | ✖ | ✔ | ✖ | ✖ | ✖ | ✖ | ✖ |
 
 ✔ : Available  
@@ -61,6 +62,7 @@ The following table lists the language availability of other Customer Service in
 | AI suggestions for contacts in Microsoft Teams | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
 | AI topic discovery | ✔ | ✖ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✔ |
 | AI suggestions for article keywords and description |  ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
+|AI generated summary for contacts in Microsoft Teams|  ✔ | ✖ | ✖ | ✖  | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ |
 
 ✔ : Available  
 ✖ : Not available

@@ -119,7 +119,7 @@ For more information, see [Run business process flows offline](/power-automate/b
 
 - **Web resources**: Web resources are partially supported in offline mode. Refer to the table below for more information.
 
-|Web resource configuration |Offline support on Android|Offline support on iOS|  
+|Web resource configuration |Offline support on Android and Windows|Offline support on iOS|  
 |-------------|---------|--------|  
 |Web resource used on form handlers, form scripts and ribbon commands|Supported (File names should be in lower case)|Supported (file names need should be in lower case)|
 |JavaScript files referenced within an HTML web resource|Supported| Partially supported: The web resource needs to be opened at least once you are in online mode so that it's cached by your browser. Then it is handled for lifetime and or availability.|

@@ -171,7 +171,7 @@ When you validate the API key while setting up the SMS channel, a call is made t
     > [!NOTE]
     >
     > - You can configure only one phone number per workstream.
-    > - Ensure that the phone number is entered in the following format without spaces and special characters: &lt;phone number&gt;. For information on availability of international numbers, see [TeleSign coverage map](https://www.telesign.com/coverage-map/).
+    > - Ensure that the phone number is entered in the following format without spaces and special characters: &lt;phone number&gt;. For information on availability of international numbers, see [TeleSign coverage map](https://www.telesign.com/).
     > - Short code is supported for enterprise accounts.
 
     > [!div class=mx-imgBorder]
