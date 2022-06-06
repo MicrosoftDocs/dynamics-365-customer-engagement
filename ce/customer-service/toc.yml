@@ -380,7 +380,7 @@
           href: change-schedules.md
       - name: Configure service-level agreements
         href: define-service-level-agreements.md
-      - name: Apply SLAs
+      - name: Apply service-level agreements
         href: apply-slas.md
       - name: Add timer control for SLA-enabled entities
         href: add-timer-control-case-form-track-time-against-sla.md
