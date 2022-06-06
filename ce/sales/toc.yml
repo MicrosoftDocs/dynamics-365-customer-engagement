@@ -145,8 +145,8 @@
           href: teams-integration/customize-record-side-panel.md
       - name: Share and update Dynamics 365 records within Microsoft Teams conversation
         items:
-        - name: Pre-install and pin the Dynamics 365 app in Teams
-          href: teams-integration/install-pin-d365-app.md
+        - name: Overview
+          href: teams-integration/share-d365-record-admin.md
       - name: Make and receive calls using Microsoft Teams
         items:
         - name: Configure Microsoft Teams dialer

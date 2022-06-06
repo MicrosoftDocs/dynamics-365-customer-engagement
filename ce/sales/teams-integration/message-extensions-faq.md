@@ -73,7 +73,7 @@ No, when you change the settings of the app, you are changing it for all chats a
 
 The cards continue to display the record information to the user even after the user uninstalls the Dynamics 365 app in Teams. The cards would auto refresh as well. However, when such a user select **View details** on the card, they would see the app installation dialog box again.
 
-## Why messages containing attachments or media do not get copied to Dynamics 365 while using the action **Add to Dynamics 365**?  
+## Why do messages containing attachments or media not get copied to Dynamics 365 while using the **Add to Dynamics 365** action?  
 
 We do not support copying over of messages with media such as files, images, videos, adaptive cards, etc. to Dynamics 365. The messages with simple and rich text information with less than 3000 characters get automatically copied.
 
