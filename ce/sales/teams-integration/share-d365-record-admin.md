@@ -35,7 +35,7 @@ It is important to get familiarized with the feature to understand the nuances o
 
 2. [Access and sign into the Dynamics 365 app for Teams](access-d365-app.md#access-the-dynamics-365-app)
 
-3. [Set up the Dynamics 365 app for Teams](access-d365-app#set-up-the-dynamics-365-app) 
+3. [Set up the Dynamics 365 app for Teams](access-d365-app.md#set-up-the-dynamics-365-app) 
 
 4. [Share a record in a Teams chat and channel by pasting its URL](share-dynamics-records-in-teams.md#share-a-record-through-url)
 
@@ -133,7 +133,7 @@ After you create a custom policy and assigned it to users, you must encourage yo
 
 :::image type="content" source="media/sign-in-msg.png" alt-text="Sign in to Dynamics 365 app":::
 
-For information on how to sign in to the Dynamics 365 app, see [Sign in and set up the Dynamics 365 app for Teams](access-d365-app#set-up-the-dynamics-365-app).
+For information on how to sign in to the Dynamics 365 app, see [Sign in and set up the Dynamics 365 app for Teams](access-d365-app.md#set-up-the-dynamics-365-app).
 
 ### See also
 
