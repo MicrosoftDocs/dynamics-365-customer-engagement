@@ -67,7 +67,7 @@ The listed billing locations only are supported even if Microsoft as a carrier i
 
 ### Direct routing availability
 
-Bring your own carrier through [Azure direct routing](/azure/communication-services/concepts/telephony/telephony-concept#azure-direct-routing) is supported across all geographic locations using certified Session Border Controllers. More information: [Bring your own carrier](voice-channel-bring-your-own-number.md)
+You can bring your own carrier through [Azure direct routing](/azure/communication-services/concepts/telephony/telephony-concept#azure-direct-routing) using certified Session Border Controllers. More information: [Bring your own carrier](voice-channel-bring-your-own-number.md)
 
 In the geographic location where the voice channel is generally available, Azure direct routing extends general availability support.
 
