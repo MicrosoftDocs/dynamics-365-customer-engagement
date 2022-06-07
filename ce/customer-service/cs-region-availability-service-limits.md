@@ -11,7 +11,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Regional availability, language availability, and service limits for Customer Service Insights
 
-Depending on your location, certain features are available for in Dynamics 365 Customer Service Insights. Service limits also apply.
+Depending on your location, certain features are available for in Dynamics 365 Customer Service insights. Service limits also apply.
 
 ## Regional availability of Customer Service Insights
 
@@ -22,6 +22,9 @@ The following features are available in all geographic locations that Omnichanne
 Geographic support for real-time message translation is dependent on your translator service.
 
 The following table lists the regional availability of Customer Service insights features.
+
+> [!NOTE]
+> The features listed in the table are not available in South Africa, Korea, and Norway.
 
 | Feature | North America| Europe | Asia Pacific | South America | Australia |Japan | India | Canada | United Kingdom | France | United Arab Emirates | Switzerland |Germany | Government Community Cloud|
 | ------------------------ | ----- | ------- | -------- | ----- | ------- | ------- | ----- |---- | ------ | ------ | -------- | ------ | 
@@ -43,9 +46,6 @@ The following table lists the regional availability of Customer Service insights
 
 ✔ : Available  
 ✖ : Not available
-
-> [!NOTE]
-> The features listed in the table are not available in South Africa, Korea, and Norway.
 
 ## Language availability for AI features in Customer Service Insights
 
