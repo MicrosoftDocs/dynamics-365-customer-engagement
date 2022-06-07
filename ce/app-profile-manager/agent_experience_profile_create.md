@@ -30,13 +30,9 @@ To create agent experience profiles in Customer Service admin center, the Basic 
 
 ## Create agent experience profiles in Customer Service admin center
 
-By using profiles, you can create targeted app experiences for agents and supervisors. Profiles help access the features that your agents and supervisors can use in their daily tasks to resolve customer issues.
+By using agent profiles, you can create targeted app experiences for agents and supervisors. Profiles help access the features that your agents and supervisors can use in their daily tasks to resolve customer issues.
 
-**To create the agent experience profile**
-
-1. In the site map, select **Workspaces** in **Agent experience**.
-
-2. In the **Agent experience profiles** section, select **Manage**.
+1. Go to  **Agent experience profiles** in **Agent experience** > **Workspaces**.
 
 3. Select **New**, and enter the following details on the **Create a new agent experience profile** dialog.
 
@@ -44,51 +40,32 @@ By using profiles, you can create targeted app experiences for agents and superv
    - **Unique name:** A unique identifier in the <*prefix*>_<*name*> format.
    - **Description:** A description for the profile.
 
-4. Select **Create**.
+4. Select **Create**. An agent experience profile is created.
 
-### Assign users to the profile
 
-**To assign users to the profile**
+### Assign users, templates, configure productivity pane, channels
 
-1. In the **Agent experience profiles** page, select the profile that you created.
-2. On the page that appears, select **Add users** .
-3. On the **Add users** dialog, select and add users from the **Available users** list. Alternatively, you can search for the users using the **Search** box. The assigned users are listed on the profile page. 
+On the agent experience profile, you can add users and configure customized profiles with specific session templates, conversation channels, and productivity tools.
 
-### Assign templates, configure productivity pane, channels
+ Go to **Agent experience profiles** and select the required agent experience profile. You can perform the following actions:
 
-Use the options on the profile page to configure the templates that'll define the session behavior. You can turn on the productivity pane and the productivity tools that the agents can access when they work on their assigned tasks. You can also turn on the inbox view so that agents can view all their work items on one screen, that help in prioritizing tasks and working on multiple items more efficient. You can also enable the channels and select third-party voice channel providers.
+- In the **Users** section, specify the agents this profile must be associated with. Select **Add Users** to select users from the available users, or search for and add users to the profile.
+- Select **Add entity session template** to link a [session template]((session-templates.md) to the profile. On the **Entity session templates** pane, you can select an existing template or create a new entity session template.
+ 
+- In the **Productivity pane**, select **Turn on** to enable the [productivity tools](productivity-tools.md) that the agents can access when they work on their assigned tasks. The following productivity tool options are available:
+  
+   - Default mode
+   - Smart assist
+   - Agent scripts
+   - Microsoft Teams
+   - Knowledge search
 
-**To assign templates and configure productivity pane and channels**
-
-1. In the **Agent experience profiles** page, select the profile that you must update.
-
-2.  On the page that appears, select **Add entity session template**.
-
-   1. On the **Entity session templates** dialog, use **Search** to search for the session template.
-
-   2. Select the required template from the search results, and select **Save and close**.
-
-3. In **Productivity pane** section, select **Turn On**. The options for productivity pane appear.
-
-   1. On the Productivity pane dialog, for **Productivity pane**, turn on the toggle. Additional settings are enabled.
-
-   2. Turn on the toggle for the following settings:
-
-      - Default mode
-      - Smart assist
-      - Agent scripts
-      - Microsoft Teams
-      - Knowledge search
-
-   3. Select **Save and close**.
-
-4. In the **Email** section, select **Edit**. By default, the **Inbox** view is turned off.
-   1. On the **Inbox** dialog, turn on the toggle.
-   2. Select **Save and close**.
-
-5. In the **Channel providers** section, select **Edit**.
-   1. On the **Channel providers** dialog, turn on the **All active channels** toggle. You can also select a channel provider in the **Third party voice channel providers** section.
-   3. Select **Save and close**.
+  Turn on the toggle against each option in the **Productivity Pane** to enable it for the agent.
+ - In the **Inbox** section, select **Edit** to enable the inbox view. This allows agents to view all their work items on one screen and helps them to prioritize tasks and efficiently work on multiple taskS.
+ - In the **Channel providers** section, select **Edit** to enable the [channels](../customer-service/channels.md) and select third-party voice channel providers. On the **Channel providers**  pane you can:
+    -  turn on the **All active channels** toggle
+    - select a channel provider or create channel providers in the **Third party voice channel providers** section.
+  
 
 :::image type="content" source="../customer-service/media/agent-experience-profile.png" alt-text="The agent experience profile with configured settings in Customer Service admin center.":::
 
