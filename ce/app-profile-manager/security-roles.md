@@ -11,8 +11,6 @@ ms.custom: intro-internal
 
 # Roles and privileges associated with app profile manager
 
-## Introduction
-
 The following roles are available with the app profile manager:
 
 - App Profile Manager Administrator
