@@ -54,11 +54,11 @@ On the agent experience profile, you can add users and configure customized prof
  
 - In the **Productivity pane**, select **Turn on** to enable the [productivity tools](productivity-tools.md) that the agents can access when they work on their assigned tasks. The following productivity tool options are available:
   
-   - Default mode
-   - Smart assist
-   - Agent scripts
-   - Microsoft Teams
-   - Knowledge search
+    - Default mode
+    - Smart assist
+    - Agent scripts
+    - Microsoft Teams
+    - Knowledge search
 
   Turn on the toggle against each option in the **Productivity Pane** to enable it for the agent.
  - In the **Inbox** section, select **Edit** to enable the inbox view. This allows agents to view all their work items on one screen and helps them to prioritize tasks and efficiently work on multiple taskS.
