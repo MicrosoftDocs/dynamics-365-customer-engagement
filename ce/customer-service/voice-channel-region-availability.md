@@ -4,7 +4,7 @@ description: "Use this article to learn about the supported cloud locations, lan
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 05/18/2022
+ms.date: 06/07/2022
 ms.topic: article
 
 ---
@@ -22,14 +22,13 @@ This article provides information about the supported cloud locations, languages
 
 ## Supported cloud locations
 
-Use the information in the following table to know about the availability of the voice channel in Omnichannel for Customer Service.
-
-If the voice channel in Omnichannel for Customer Service for your country or region-specific cloud deployments are not yet available, use the general region deployments. For example, country/region cloud for local deployment in the United Kingdom is **To be announced** and is not a part of Europe geographical region availability.
-
- If you need your data to stay within a country or region, stay tuned for country or region-specific local deployment of the voice channel. More information: [Datacenter regions](/power-platform/admin/new-datacenter-regions)
+The following table lists the availability of the voice channel in Omnichannel for Customer Service for various regions. Use the general region deployments if the voice channel in Omnichannel for Customer Service is not yet available for your country or region-specific cloud deployments. 
 
 > [!IMPORTANT]
-> Your Microsoft 365 tenant must be co-located in one of the following geographic locations where Omnichannel for Customer Service is available. These geographic locations refer to your Microsoft 365 tenant only and not the data center where your Dynamics 365 environment or org instance resides.
+> - Your Microsoft 365 tenant must be colocated in one of the following geographic locations where Omnichannel for Customer Service is available.
+> - The geographic locations refer to your Microsoft 365 tenant only and not the data center where your Dynamics 365 environment or org instance resides.
+
+**General region deployments**
 
 |Geographic location | Availability | Availability in Customer Service trial|
 |----------|---------|-----|
@@ -38,8 +37,22 @@ If the voice channel in Omnichannel for Customer Service for your country or reg
 |Asia Pacific (crm5.dynamics.com) |December 2021 | May 2022 |
 |Australia, New Zealand, Fiji (crm6.dynamics.com) |December 2021 |To be announced|
 |South America (crm2.dynamics.com) |To be announced | To be announced|
-|Country/Region clouds: Canada, France, Germany, India, Japan, Switzerland, United Arab Emirates (UAE), United Kingdom |To be announced |To be announced|
 |Government Community Cloud (GCC) (crm9.dynamics.com) |To be announced |To be announced|
+||||
+
+If you need your data to stay within a country or region, see the following table for preview and availability timelines. Stay tuned for country or region-specific local deployment of the voice channel. More information: [Datacenter regions](/power-platform/admin/new-datacenter-regions)
+
+**Region-specific deployments**
+
+|Geographic location | Preview | Availability |
+|----------|---------|-----|
+|United Kingdom |June 2022  | October 2022 |
+|Canada |August 2022 | To be announced  |
+|India | August 2022 | To be announced  |
+|Switzerland | August 2022 | To be announced|
+|France | To be announced | To be announced|
+|Germany | To be announced | To be announced|
+| United Arab Emirates | To be announced | To be announced |
 ||||
 
 ### Direct offer availability
