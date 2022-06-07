@@ -20,10 +20,9 @@ ms.custom:
 # Add a timer in forms to track time against enhanced SLAs
 
 > [!NOTE]
+> - Enhanced SLAs have been deprecated and replaced with Unified Interface SLAs. More information: [SLAs in web client are deprecated](deprecations-customer-service.md#slas-in-web-client-are-deprecated).
+> - For more information on adding timer control to Unified Interface SLA-enabled entities, see [Add a timer control for SLA-enabled entities](add-timer-control-case-form-track-time-against-sla.md#add-a-timer-control-for-sla-enabled-entities).
 >
-> Enhanced SLAs have been deprecated and replaced with Unified Interface SLAs. More information: [SLAs in web client are deprecated](deprecations-customer-service.md#sla-items-in-web-client-are-deprecated) 
-
-> For more information on adding timer control for Unified Interface SLA-enabled entities, see [Add a timer control for SLA-enabled entities](add-timer-control-case-form-track-time-against-sla.md#add-a-timer-control-for-sla-enabled-entities).
 
 A timer helps users gauge the amount of time they have to complete a key performance indicator (KPI) that is typically associated with a service level agreement (SLA). If your organization uses enhanced SLAs, you must use quick view forms to add a timer to track time against such SLAs.  
   
