@@ -22,7 +22,7 @@ ms.custom:
 
 > [!NOTE]
 >
-> Standard SLAs have been deprecated and replaced with replaced with Unified Interface SLAs. <br><br>More information: [Standard SLAs in Dynamics 365 Customer Service are deprecated](deprecations-customer-service.md#standard-slas-in-dynamics-365-customer-service-are-deprecated)
+> Standard SLAs have been deprecated and replaced with replaced with Unified Interface SLAs. <br>More information: [SLAs in web client are deprecated](deprecations-customer-service.md#slas-in-web-client-are-deprecated)
 
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
 
