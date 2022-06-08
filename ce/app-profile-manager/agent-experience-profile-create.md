@@ -72,7 +72,7 @@ For the profile that you created, you can add users and configure option such as
 [Manage session template](session-templates.md)
 [Overview of Dynamics 365 Productivity Tools](productivity-tools.md)
 [Overview of channels in Omnichannel for Customer Service](../customer-service/channels.md) 
-[Overview of agent experience profiles](agent_experience_profile_create.md)  
+[Overview of agent experience profiles](agent-experience-profile-create.md)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
