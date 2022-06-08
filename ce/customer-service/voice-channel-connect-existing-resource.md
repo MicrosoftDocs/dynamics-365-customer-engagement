@@ -1,5 +1,5 @@
 ---
-title: "Connect to an existing Azure resource | MicrosoftDocs"
+title: "Connect using an existing Azure resource | MicrosoftDocs"
 description: "Use this article to understand how to connect to Azure Communication Services using an existing Azure resource."
 ms.date: 06/08/2022
 ms.service: dynamics-365-customerservice
@@ -9,7 +9,7 @@ ms.author: nenellim
 manager: shujoshi
 ---
 
-# Advanced: Connect to an existing Azure resource
+# Advanced: Connect using an existing Azure resource
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -28,7 +28,7 @@ Before you connect an existing Azure resource to Azure Communication Services, y
 - Get the connection string of your Azure resource from the Azure portal. More information: [Access your connection string and endpoints](/azure/communication-services/quickstarts/create-communication-resource?tabs=windows&pivots=platform-azp#access-your-connection-strings-and-service-endpoints)
 - Get the application (client) ID and tenant (directory) ID for your registered app. More information: [Get application and tenant IDs](#get-application-and-tenant-ids)
 
-## Connect to an existing Azure resource
+## Connect using an existing Azure resource
 
 1. In Dynamics 365, go to one of the admin apps, and perform the following steps.
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
@@ -123,7 +123,7 @@ So, to enable voice recording and SMS services, you must configure your applicat
 [Overview of the voice channel](voice-channel.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
 [Connect to Azure Communication Services](voice-channel-acs-resource.md)  
-[Connect to a new Azure resource](voice-channel-connect-new-resource.md)  
+[Connect using a new Azure resource](voice-channel-connect-new-resource.md)  
 [Set up outbound calling](voice-channel-outbound-calling.md)  
 [Set up inbound calling](voice-channel-route-queues.md)  
 [Bring your own carrier](voice-channel-bring-your-own-number.md)  

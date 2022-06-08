@@ -69,8 +69,8 @@ To permanently release or remove one or more phone numbers from your organizatio
 ### See also
 
 [Overview of the voice channel](voice-channel.md)  
-[Connect to a new Azure resource](voice-channel-connect-new-resource.md)  
-[Connect to an existing Azure resource](voice-channel-connect-existing-resource.md)  
+[Connect using a new Azure resource](voice-channel-connect-new-resource.md)  
+[Connect using an existing Azure resource](voice-channel-connect-existing-resource.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
 [Set up outbound calling](voice-channel-outbound-calling.md)  
 [Bring your own carrier](voice-channel-bring-your-own-number.md)  

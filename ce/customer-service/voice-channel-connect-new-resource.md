@@ -1,5 +1,5 @@
 ---
-title: "Connect to a new Azure resource | MicrosoftDocs"
+title: "Connect using a new Azure resource | MicrosoftDocs"
 description: "Use this article to understand how to connect to Azure Communication Services using a new Azure resource in Customer Service admin center."
 ms.date: 06/08/2022
 ms.service: dynamics-365-customerservice
@@ -8,7 +8,7 @@ author: neeranelli
 ms.author: nenellim
 manager: shujoshi
 ---
-# Quickstart: Connect to a new Azure resource
+# Quickstart: Connect using a new Azure resource
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -25,7 +25,7 @@ Before you connect an Azure resource to Azure Communication Services, you must p
 - Have an Azure subscription that's in the same tenant as your Dynamics 365 account. Ensure that your Azure subscription meets the [Subscription eligibility and number capabilities](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability) requirements.
 - Have at least contributor-level permissions to the Azure subscription. To check your role, open your subscription and view the **My role** column of your subscription on the Azure portal. You'll be able to deploy your Azure Communication Services resource only if you have contributor-level permissions.
  
-## Connect to a new Azure resource
+## Connect using a new Azure resource
 
 1. In Dynamics 365, go to one of the admin apps, and perform the following steps.
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
@@ -51,7 +51,7 @@ Your new Azure resource is connected to Azure Communication Services. You can no
 [Overview of the voice channel](voice-channel.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
 [Connect to Azure Communication Services](voice-channel-acs-resource.md)  
-[Connect to an existing Azure resource](voice-channel-connect-existing-resource.md)  
+[Connect using an existing Azure resource](voice-channel-connect-existing-resource.md)  
 [Set up outbound calling](voice-channel-outbound-calling.md)  
 [Set up inbound calling](voice-channel-route-queues.md)  
 [Bring your own carrier](voice-channel-bring-your-own-number.md)  
