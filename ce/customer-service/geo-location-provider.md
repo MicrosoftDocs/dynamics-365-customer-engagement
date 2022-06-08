@@ -39,8 +39,6 @@ You can create a geo location provider record in the Customer Service admin cent
 
       The **Active Geo Location Providers** page is displayed. 
 
- If you're using the Omnichannel Administration app, go to **Geo Location** under **Settings**. A list of existing records is displayed.
-
 2. Select **New** to add a geo location provider record.
 
 3. In the **New Geo Location Provider** pane, provide the following information:

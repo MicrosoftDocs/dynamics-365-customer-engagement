@@ -79,7 +79,7 @@ The agent script is now configured.
 
 After you configure the agent script and add the field to a form, you need to associate the agent script with a session template so that the agent script will load for agents based on the type of session they've opened.
 
-1. Select one of the following tabs, and perform the steps.
+1. Select one of the following apps, and perform the steps.
    
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
@@ -89,8 +89,6 @@ After you configure the agent script and add the field to a form, you need to as
    
 
       In the site map of Omnichannel admin center, select **Agent experience** under **Advanced settings**, and then select **Manage** for **Session templates**.
-
- If you're using the Omnichannel Administration app, under **Agent Experience**, select **Sessions**.
 
 2. Select a template from the list for which you want to associate the template. For example, select the **Chat - Default Session** template.
 
@@ -116,7 +114,7 @@ Based on these conditions, when an agent accepts an incoming conversation, the a
 ### Enable and build the expression
 You can build the expression in the **Agent scripts** tab in the sessions template.
 
-1. Select one of the following tabs, and perform the steps.
+1. Select one of the following appss, and perform the steps.
    
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
@@ -127,8 +125,6 @@ You can build the expression in the **Agent scripts** tab in the sessions templa
 
       In the site map of Omnichannel admin center, select **Agent experience** under **Advanced settings**, and then select **Manage** for **Session templates**.
     
- If you're using the Omnichannel Administration app, under **Agent Experience**, select **Sessions**.
-
 2. Go to the **Agent scripts** tab.
 
 3. Set the **Enable build expression** toggle to **Yes**, and then select **Build Expression** to define the expression. The **Expression builder** page is displayed.

@@ -70,8 +70,6 @@ You can set up the outbound configuration in the Customer Service admin center o
 
       The **Active Outbound Configurations** page is displayed.
 
- If you're using the Omnichannel Administration app, go to **Settings**, and select **Outbound**.
-
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 2. Select **New**, and on New Outbound Configuration page,  enter the details for the settings mentioned in the following table.

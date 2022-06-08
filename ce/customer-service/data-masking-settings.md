@@ -57,8 +57,6 @@ As an administrator, you can delete or modify the out-of-the-box masking rules a
 
 1.	Select **Manage** for **Data masking**.
 
-    If you're using the Omnichannel Administration app, select **Data Masking** under **Settings**.
-
 1.	In **Masking rules**, select **New Masking Rule**.
 
 1.	On the **New Masking Rule** page, provide the following information:

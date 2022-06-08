@@ -29,9 +29,6 @@ Message templates enable the one-time creation of reusable messages that can be 
 
 1. Select **Manage** for **Message templates**.
 
-    > [!Note]
-    > If you're using the Omnichannel Administration app, under **Settings**, select **Message templates**.
-
 1. Select **New**, and enter the following details:
 
     - **Name:** Enter a name.
