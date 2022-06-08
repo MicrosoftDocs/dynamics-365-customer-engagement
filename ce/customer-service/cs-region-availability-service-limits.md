@@ -15,7 +15,7 @@ Depending on your location, certain features are available for in Dynamics 365 C
 
 ## Regional availability of Customer Service Insights
 
-The following features are available in all geographic locations that Omnichannel for Customer Service (voice channel) supports:
+The following features are available in all geographic locations where the voice channel in Omnichannel for Customer Service is supported:
 - Call transcription
 - Call insights
 
@@ -94,7 +94,7 @@ The following table lists the built-in limits for the embedded version of insigh
 
 ## Service protection limits for AI suggestions
 
-AI suggestions for case and knowledge were introduced in October 2020 with service protection limits on these capabilities to maintain a consistent quality of service for all our customers, but there aren't penalties if customers exceed pre-defined limits. Over time, Microsoft may adjust these limits in keeping with customer usage patterns and provide options for customers with high usage scenarios and patterns to purchase additional capacity in a manner minimally disruptive to those customers.
+AI suggestions for case and knowledge was introduced in October 2020 with service protection limits on these capabilities to maintain a consistent quality of service for all our customers, but there aren't penalties if customers exceed pre-defined limits. Over time, Microsoft may adjust these limits in keeping with customer usage patterns and provide options for customers with high usage scenarios and patterns to purchase additional capacity in a manner minimally disruptive to those customers.
 
 For information on the service protection limits for AI suggestions, see [Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md). The total limits are pooled at the tenant level based on the number of Customer Service Enterprise user licenses that are available in the tenant.
 
