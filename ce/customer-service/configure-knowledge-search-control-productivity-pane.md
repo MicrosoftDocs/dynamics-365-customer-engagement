@@ -59,7 +59,7 @@ To set up knowledge search control on the app side pane, see [Configure knowledg
 
 ## Configure knowledge search control on the app side pane<a name="configure-knowledge-search-control-on-app-side-pane"></a>
 
-After you've added the record types for which you want to turn on knowledge management, you can configure the knowledge search control on the app side pane by editing the record type. The app side pane is available only in Customer Service workspace and Omnichannel for Customer Service. For more information on how to set up an app side pane, go to [Configure productivity pane](../app-profile-manager/agent-experience-profile-create.md#assign-users-templates-configure-productivity-pane-channels).
+After you've added the record types for which you want to turn on knowledge management, you can configure the knowledge search control on the app side pane by editing the record type. The app side pane is available only in Customer Service workspace and Omnichannel for Customer Service. For more information on how to set up an app side pane, go to [Configure productivity pane](../app-profile-manager/create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels).
 
 > [!NOTE]
 > You can configure the knowledge settings for record types from the Customer Service admin center app only. You'll also be able to view and edit the record types that you've previously enabled in Customer Service Hub.
