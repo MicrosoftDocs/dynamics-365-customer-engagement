@@ -35,7 +35,7 @@ You can import phone numbers that you purchased or acquired earlier via Azure Co
     1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.    
     2. Select **Manage** for **Phone numbers**.
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
-    - In the site map, select **Phone numbers** in **General settings**.
+    In the site map, select **Phone numbers** in **General settings**.
 2. Select **Advanced** on the menu.
 3. Select **Sync** for **Sync from Azure**. A dialog requesting you to confirm the sync action is displayed.
 4. Select **Sync**.
@@ -60,7 +60,7 @@ To permanently release or remove one or more phone numbers from your organizatio
     1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.   
     2. Select **Manage** for **Phone numbers**.
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
-    - In the site map, select **Phone numbers** in **General settings**.
+    In the site map, select **Phone numbers** in **General settings**.
 2. Select **Advanced** on the menu. The **Manage Azure Communication Services** dialog opens.
 3. Select **Disconnect** for **Disconnect from Azure**. A dialog requesting you to confirm the disconnection is displayed. 
 4. Select **Disconnect** again.
