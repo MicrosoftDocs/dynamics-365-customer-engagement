@@ -12,19 +12,19 @@ ms.topic: article
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
-By default, the following app profiles are available out of the box for Customer Service workspace and Omnichannel for Customer Service. These profiles can't be deleted or modified. When no app profile is assigned to an agent, the default profile is assigned.
+By default, the following agent experience profiles are available out of the box for Customer Service workspace and Omnichannel for Customer Service. These profiles can't be deleted or modified.  When you don't assign a custom profile to an agent, the default profile is assigned.
 
 - Omnichannel for Customer Service - default profile
 - Customer Service workspace - default profile
 - Customer Service workspace + channels - default profile
 
-The app profile manager is available in Power Apps where you'll create the app profiles.
+You can configure agent experience profiles in Customer Service admin center or app profile manager. The app profile manager can be accessed through Power Apps. 
 
 ## Prerequisites
 
 Make sure you have the App Profile Manager Administrator role. More information: [Security roles](security-roles.md)
 
-To create agent experience profiles in Customer Service admin center, the Basic User role is also required.
+The Basic User role is also required to create profiles in Customer Service admin center.
 
 ## Create agent experience profiles in Customer Service admin center
 
@@ -43,7 +43,7 @@ By using agent profiles, you can create targeted app experiences for agents and 
 
 ### Assign users, templates, configure productivity pane, channels
 
-On the agent experience profile, you can add users and configure customized profiles with specific session templates, conversation channels, and productivity tools.
+For the profile that you created, you can add users and configure option such as specific session templates, conversation channels, and productivity tools.
 
  Go to **Agent experience profiles** and select the required agent experience profile. You can perform the following actions:
 
