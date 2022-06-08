@@ -1,6 +1,6 @@
 ---
 title: "Overview of app profiles | MicrosoftDocs"
-description: "Overview of the app profiles."
+description: "Learn how to create app profiles using the App Profile manager"
 author: gandhamm
 ms.author: mgandham
 manager: shujoshi
