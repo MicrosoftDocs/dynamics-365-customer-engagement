@@ -42,9 +42,9 @@ Use the information in the following table to know about the availability of the
 
 Microsoft as a carrier is available for customers with billing locations in select geographies around the world. To learn more about your eligibility, see [Subscription eligibility and number capabilities](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability).
 
-You can purchase new phone numbers through the Azure portal, and then sync with Omnichannel for Customer Service. You'l get more information here: [Sync from Azure](voice-channel-acs-resource.md#sync-from-azure)
+You can purchase new phone numbers through the Azure portal, and then sync with Omnichannel for Customer Service. More information: [Sync from Azure](voice-channel-acs-resource.md#sync-from-azure)
 
-You can also port existing US or toll-free phone numbers. Want to know how? See [Port a phone number](/azure/communication-services/quickstarts/telephony/port-phone-number).
+You can also port existing US or toll-free phone numbers. More information: [Port a phone number](/azure/communication-services/quickstarts/telephony/port-phone-number)
 
 ### Azure direct routing
 
@@ -250,4 +250,4 @@ Use the information in the following table to find out more about language suppo
 ### See also
 
 [Overview of the voice channel](voice-channel.md)  
-[FAQ about the voice channel in Omnichannel for Customer Service](voice-channel-faqs.md) 
+[FAQ about the voice channel in Omnichannel for Customer Service](voice-channel-faqs.md)  

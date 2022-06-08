@@ -75,5 +75,6 @@ The data storage costs with two participants only is calculated approximately as
 
 [Overview of the voice channel](voice-channel.md)  
 [Agent experience: View call recordings and transcripts](voice-channel-agent-experience.md)  
-
+[Supported cloud locations, languages, and locale codes](voice-channel-region-availability.md)  
+  
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -24,7 +24,7 @@ Before you connect an existing Azure resource to Azure Communication Services, y
     - You've manually ended the trial.
     - You've disconnected from the Azure resource. More information: [Disconnect from Azure Communication Services resource](voice-channel-acs-resource.md#disconnect-from-azure-communication-services-resource)
 - Get the name and ID of your Azure resource from the Azure portal.
-   To get the resource name and ID, open your resource on the Azure portal, go to **Settings** > **Properties**. Note the values of the **ACS Resource Name** and **ACS Resource ID** fields.
+   To get the resource name and ID, open your resource on the Azure portal, go to **Settings** > **Properties**. Note the values of the **Id** and **Resource name** fields.
 - Get the connection string of your Azure resource from the Azure portal. More information: [Access your connection string and endpoints](/azure/communication-services/quickstarts/create-communication-resource?tabs=windows&pivots=platform-azp#access-your-connection-strings-and-service-endpoints)
 - Get the application (client) ID and tenant (directory) ID for your registered app. More information: [Get application and tenant IDs](#get-application-and-tenant-ids)
 
