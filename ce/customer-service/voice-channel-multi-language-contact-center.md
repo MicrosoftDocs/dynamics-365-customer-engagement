@@ -55,7 +55,7 @@ Create the bot. More information: [Azure Bot Service](https://azure.microsoft.co
 ### Sample code for multilingual IVR bot
 
 > [!Note]
-> The bot author must set the va_CustomerLocale context variable field during the IVR handoff with the locale code for the language they want to support. For information on supported locale codes see [Supported cloud locations, languages, and locale codes](#supported-languages-and-locale-codes).
+> The bot author must set the va_CustomerLocale context variable field during the IVR handoff with the locale code for the language they want to support. For information on supported locale codes, see [Supported languages and locale codes](voice-channel-region-availability.md#supported-languages-and-locale-codes).
 
 ```csharp
         // Copyright (c) Microsoft Corporation. All rights reserved.

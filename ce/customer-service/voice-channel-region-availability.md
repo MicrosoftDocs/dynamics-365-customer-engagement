@@ -48,7 +48,7 @@ You can also port existing US or toll-free phone numbers. Want to know how? See 
 
 ### Azure direct routing
 
-You can bring your own carrier through [Azure direct routing (preview)](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing). This feature is supported across all geographic locations using certified Session Border Controller (SBC). To know more, see: [Bring your own carrier](voice-channel-bring-your-own-number.md)
+You can bring your own carrier through [Azure direct routing (preview)](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing). This feature is supported across all geographic locations using certified Session Border Controller (SBC). To know more, see [Bring your own carrier](voice-channel-bring-your-own-number.md)
 
 In the geographic location where the voice channel is generally available, Azure direct routing extends general availability support.
 
