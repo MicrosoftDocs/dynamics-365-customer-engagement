@@ -1,10 +1,10 @@
 ---
-title: "Create and use agent experience profiles | MicrosoftDocs"
+title: "Configure app profiles in app profile manager | MicrosoftDocs"
 description: "Learn how to create and manage agent experience profiles for customized agent experiences."
-author: neeranelli
-ms.author: nenellim
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
-ms.date: 06/01/2022
+ms.date: 06/08/2022
 ms.topic: article
 ---
 

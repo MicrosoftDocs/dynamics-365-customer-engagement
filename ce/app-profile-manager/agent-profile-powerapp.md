@@ -1,8 +1,8 @@
 ---
 title: "Overview of app profiles | MicrosoftDocs"
 description: "Overview of the app profiles."
-author: neeranelli
-ms.author: nenellim
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
 ms.date: 06/01/2022
 ms.topic: overview
