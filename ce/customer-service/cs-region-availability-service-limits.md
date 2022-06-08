@@ -1,7 +1,7 @@
 ---
 title: "Regional availability, language availability, and service limits for Dynamics 365 Customer Service Insights | MicrosoftDocs"
 description: "Learn about regional availability, languages supported, and service limits for Customer Service Insights."
-ms.date: 05/24/2022
+ms.date: 06/08/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
