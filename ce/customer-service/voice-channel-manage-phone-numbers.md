@@ -15,19 +15,19 @@ manager: shujoshi
 
 Omnichannel for Customer Service helps you enable and use voice and SMS services seamlessly within Dynamics 365. As an administrator, you can purchase phone numbers and calling plans, decide whether you want to avail calling and/or SMS services, or whether you'd like to set up inbound or outbound calling options for your business.
 
-You can also [bring your own phone number via Azure direct routing](voice-channel-bring-your-own-number.md).
+You can also bring your own phone number via Azure direct routing. More information: [Bring your own carrier](voice-channel-bring-your-own-number.md)
 
 ## Prerequisites
 
 - Check for the following criteria.
-    - [Azure subscriptions eligibility](/azure/communication-services/concepts/telephony/plan-solution#azure-subscriptions-eligibility).
-    - [Service limits for Azure Communication Services](/azure/communication-services/concepts/service-limits#acquiring-phone-numbers).
-    - [Country/region availability](/azure/communication-services/concepts/telephony/plan-solution#countryregion-availability).
+    - [Azure subscriptions eligibility](/azure/communication-services/concepts/telephony/plan-solution#azure-subscriptions-eligibility)
+    - [Service limits for Azure Communication Services](/azure/communication-services/concepts/service-limits#acquiring-phone-numbers)
+    - [Country/region availability](/azure/communication-services/concepts/telephony/plan-solution#countryregion-availability)
 - [Install the voice channel in Omnichannel for Customer Service](voice-channel-install.md).
 - [Connect to Azure Communication Services using an existing or new Azure resource](voice-channel-acs-resource.md), and then deploy the resource through Dynamics 365.
 
 > [!Important]
-> You can purchase one phone number per tenant for Azure Communication Services via the Azure Portal. However, if you'd like to acquire numbers in bulk or if your desired phone number is unavailable, complete [this form](https://github.com/Azure/Communication/blob/master/Forms/ACS%20-%20Bulk%20Number%20Acquisition.docx) and email it to acstnrequest@microsoft.com with a subject line beginning with "Azure Communication Services Number Request:".
+> You can purchase one phone number per tenant for Azure Communication Services via the Azure Portal. However, if you'd like to acquire numbers in bulk or if your preferred phone number is unavailable, complete [this form](https://github.com/Azure/Communication/blob/master/Forms/ACS%20-%20Bulk%20Number%20Acquisition.docx) and email it to acstnrequest@microsoft.com with a subject line beginning with "Azure Communication Services Number Request:".
 
 ## Use trial phone number
 
