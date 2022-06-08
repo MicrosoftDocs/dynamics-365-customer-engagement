@@ -82,12 +82,9 @@ After you configure the agent script and add the field to a form, you need to as
 1. In Dynamics 365, go to one of the apps, and perform the following steps.
    
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    In the site map, select **Session templates** in **Workspaces**.
-  
+      In the site map, select **Session templates** in **Workspaces**.
    ### [Omnichannel Admin Center](#tab/Omnichannel Admin Center)
-   
-   In the site map of Omnichannel admin center, select **Agent experience** under **Advanced settings**, and then select **Manage** for **Session templates**.
+      In the site map of Omnichannel admin center, select **Agent experience** under **Advanced settings**, and then select **Manage** for **Session templates**.
 
  If you're using the Omnichannel Administration app, under **Agent Experience**, select **Sessions**.
 
@@ -113,13 +110,11 @@ As an administrator, you can set different default agent scripts for agents who 
 Based on these conditions, when an agent accepts an incoming conversation, the agent script control selects a script from the different scripts that were made available for that particular session type and shows the script to the agent. In addition, agents can manually select a script from the list of available agent scripts if they need to switch between different scripts.
 
 ### Enable and build the expression
-
 You can build the expression in the **Agent scripts** tab in the sessions template.
-
+    
 ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-  In the site map, select **Session templates** in **Workspaces**.
-  
+   In the site map, select **Session templates** in **Workspaces**. 
+    
 ### [Omnichannel Admin Center](#tab/Omnichannel Admin Center)
    
   In the site map of Omnichannel admin center, select **Agent experience** under **Advanced settings**, and then select **Manage** for **Session templates**.
