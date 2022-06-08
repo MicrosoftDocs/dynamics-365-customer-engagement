@@ -76,7 +76,7 @@ See the following topics to set up the interactive voice response (IVR) bot in t
 - [Configure Azure bots for voice (preview)](voice-channel-azure-bot-service.md)
 - [Integrate third-party IVR systems with voice channel](voice-channel-contextual-transfer-external-ivr.md)
 
- ### Should the language of the bot be the same as the primary language configured in the Omnichannel admin center app?
+### Should the language of the bot be the same as the primary language configured in the Omnichannel admin center app?
  
 Yes, the language of the bot must be the same as that of the voice workstream to which the bot will be attached. You can configure different geographic locales for the bot and voice workstream.<br>
 
@@ -100,4 +100,4 @@ Yes, the voice channel supports emergency calling; agents can call the emergency
 
 [Introduction to the voice channel](voice-channel.md)  
 [System requirements for Omnichannel for Customer Service](system-requirements-omnichannel.md)  
-[Voice channel regional availability](voice-channel-region-availability.md)  
+[Supported cloud locations, languages, and locale codes](voice-channel-region-availability.md)  
