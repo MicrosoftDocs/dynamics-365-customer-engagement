@@ -125,7 +125,7 @@ So, to enable voice recording and SMS services, you must configure your applicat
 [Connect to Azure Communication Services](voice-channel-acs-resource.md)  
 [Connect to a new Azure resource](voice-channel-connect-new-resource.md)  
 [Set up outbound calling](voice-channel-outbound-calling.md)  
-[Set up inbound calling](voice-channel-route-queues.md) 
+[Set up inbound calling](voice-channel-route-queues.md)  
 [Bring your own carrier](voice-channel-bring-your-own-number.md)  
 [Integrate third-party IVR systems with voice channel](voice-channel-contextual-transfer-external-ivr.md)  
 
