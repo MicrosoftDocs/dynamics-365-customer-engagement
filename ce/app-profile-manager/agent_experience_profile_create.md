@@ -59,7 +59,7 @@ For the profile that you created, you can add users and configure option such as
     - Knowledge search
 
   Turn on the toggle against each option in the **Productivity Pane** to enable it for the agent.
- - In the **Inbox** section, select **Edit** to enable the inbox view. This allows agents to view all their work items on one screen and helps them to prioritize tasks and efficiently work on multiple taskS.
+ - In the **Inbox** section, select **Edit** to enable the inbox view. This allows agents to view all their work items on one screen and helps them to prioritize tasks and efficiently work on multiple tasks.
  - In the **Channel providers** section, select **Edit** to enable the channels and select third-party voice channel providers. On the **Channel providers**  pane you can:
     -  turn on the **All active channels** toggle
     - select a channel provider or create channel providers in the **Third party voice channel providers** section.
