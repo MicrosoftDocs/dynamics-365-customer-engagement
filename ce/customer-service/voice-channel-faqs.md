@@ -73,7 +73,6 @@ The voice channel is supported only in the Customer Service workspace and Omnich
 
 See the following topics to set up the interactive voice response (IVR) bot in the voice channel:
 - [Configure Power Virtual Agents bots for voice](voice-channel-ivr-bots.md)
-- [Configure Azure bots for voice (preview)](voice-channel-azure-bot-service.md)
 - [Integrate third-party IVR systems with voice channel](voice-channel-contextual-transfer-external-ivr.md)
 
 ### Should the language of the bot be the same as the primary language configured in the Omnichannel admin center app?
@@ -82,7 +81,7 @@ Yes, the language of the bot must be the same as that of the voice workstream to
 
 For example, you can set English-UK in the voice profile and English-US in the bot.<br>
 
-The bot's accuracy depends on the similarities between locales. However, if you configure different locales, preconfigured entities for the bot, such as zipcode, might not be accurate. 
+The bot's accuracy depends on the similarities between locales. However, if you configure different locales, preconfigured entities for the bot such as zipcode, might not be accurate. 
 
 ### Can I recover a voice trial after it's no longer provisioned?
 
