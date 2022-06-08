@@ -4,7 +4,7 @@ description: "Use this article to learn about the supported cloud locations, lan
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/07/2022
+ms.date: 06/09/2022
 ms.topic: article
 
 ---
@@ -13,12 +13,9 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-## Introduction
-
 This article provides information about the supported cloud locations, languages, and locale codes.
 
-> [!NOTE]
-> For information about international availability of live chat and digital messaging channels, see [International availability of Omnichannel for Customer Service](international-availability.md#international-availability-of-omnichannel-for-customer-service).
+For information about international availability of live chat and digital messaging channels, see [International availability of Omnichannel for Customer Service](international-availability.md#international-availability-of-omnichannel-for-customer-service).
 
 ## Supported cloud locations
 
@@ -55,19 +52,18 @@ If you need your data to stay within a country or region, see the following tabl
 | United Arab Emirates | To be announced | To be announced |
 ||||
 
-### Direct offer availability
+### Microsoft as a carrier
 
-Azure direct offer or [Microsoft as a carrier](/azure/communication-services/concepts/telephony/telephony-concept) is available for customers with billing locations in the United States, United Kingdom, Ireland, and Puerto Rico.  Azure direct offer supports the following options:
+Microsoft as a carrier is available for customers with billing locations in select geographies around the world. To learn more about your eligibility, see [Subscription eligibility and number capabilities](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability).
 
-- The purchase of new US and Puerto Rico numbers. For information, see [Subscription eligibility and number capabilities](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability).
-- The porting of existing US or toll-free phone numbers. For information, see [Port a phone number](/azure/communication-services/quickstarts/telephony/port-phone-number).
-- The purchase of new numbers in United Kingdom (preview) and Denmark (preview). For information, see [Customers with UK Azure billing addresses](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability#customers-with-uk-azure-billing-addresses) and [Customers with Denmark Azure Billing Addresses](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability#customers-with-denmark-azure-billing-addresses). You can purchase the United Kingdom and Denmark numbers only if you have a billing address in the respective country. You must purchase the numbers through the Azure portal, then you can sync into Omnichannel for Customer Service through the [sync option](voice-channel-acs-resource.md#sync-from-azure).
+You can purchase new phone numbers through the Azure portal, and then sync with Omnichannel for Customer Service. More information: [Sync from Azure](voice-channel-acs-resource.md#sync-from-azure)
 
-The listed billing locations only are supported even if Microsoft as a carrier is available in other regions. Customers can select a [different carrier](voice-channel-bring-your-own-number.md) using Azure direct routing.
+You can also port existing US or toll-free phone numbers. More information: [Port a phone number](/azure/communication-services/quickstarts/telephony/port-phone-number)
 
-### Direct routing availability
 
-You can bring your own carrier through [Azure direct routing](/azure/communication-services/concepts/telephony/telephony-concept#azure-direct-routing) using certified Session Border Controllers. More information: [Bring your own carrier](voice-channel-bring-your-own-number.md)
+### Azure direct routing
+
+You can bring your own carrier through Azure direct routing (preview). This feature is supported across all geographic locations using certified Session Border Controller (SBC). More information: [Bring your own carrier](voice-channel-bring-your-own-number.md)
 
 In the geographic location where the voice channel is generally available, Azure direct routing extends general availability support.
 
