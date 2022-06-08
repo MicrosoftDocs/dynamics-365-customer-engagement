@@ -41,8 +41,6 @@ Relationship analytics help sales professionals and managers answer questions su
 - How many activities were initiated by the customer?   
 - How long does it take our team to respond?    
 
-   
-
 ## Get the big picture with relationship analytics in list views
 
 Relationship analytics provides the following for records:   
@@ -52,8 +50,6 @@ Relationship analytics provides the following for records:
   The most important KPIs (including your team's previous and next activity) are shown in the list view for each of these record types, so you can get an overview and sort the list by them.  
 
 ![Relationship health details in a grid view](media/relationship-health-details-grid-view.png "Relationship health details in a grid view")  
-
-     
 
 ## Identify critical opportunities with the relationship pipeline view
 
@@ -79,15 +75,15 @@ The relationship pipeline view provides a bubble chart that gives you a quick ov
 
    Hover over a bubble to see the name of the opportunity and other details. Select a bubble to open its opportunity record. The color of each bubble indicates relationship health: 
 
-- green for good
+	- green for good
 
-- yellow for fair
+	- yellow for fair
 
-- red for poor 
+	- red for poor 
 
-- gray for zero (which indicates that the results have not been calculated, or that there is not enough data)
+	- gray for zero (which indicates that the results have not been calculated, or that there is not enough data)
 
-- blue for pending computation
+	- blue for pending computation
 
 The relationship pipeline chart relies on several values being available for each opportunity record, but in some cases, these values may be missing for some or all opportunities. This could be due to an oversight, or it could be because you don't use these fields at your organization. The chart represents missing values as follows:     
 
@@ -95,8 +91,6 @@ The relationship pipeline chart relies on several values being available for eac
 - Opportunities with an estimated close date in the past are not shown.   
 - Opportunities without an estimated close date are not shown.   
 - Opportunities without an estimated revenue value show a value of zero. They are plotted as very small bubbles.  
-
-     
 
 ## Relationship analytics with similar opportunities
 
@@ -135,12 +129,12 @@ The following screenshot shows an example of enhanced relationship analytics:
  1. **Your response time**: Shows the average amount of time taken by your sellers to respond to customer emails on the opportunity, to the average amount of time taken for a response from the customer for all similar won deals.
 
     > [!NOTE]
-    > [Connect to Exchange Online](/power-platform/admin/connect-exchange-online) to view data in the **Your response time** section.  
+    > [Connect to Exchange Online](/power-platform/admin/connect-exchange-online) to view data in the **Your response time** section.
 
  1. **Customer's response time**: Shows the average amount of time taken by your customers to respond to emails on this opportunity, to the average amount of time taken for a response by customers on all similar won deals.   
 
     > [!NOTE]
-    > [Connect to Exchange Online](/power-platform/admin/connect-exchange-online) to view data in the **Customer's response time** section.   
+    > [Connect to Exchange Online](/power-platform/admin/connect-exchange-online) to view data in the **Customer's response time** section.
 
  1. **Your email send/receive ratio**: Shows the ratio of the number of emails sent by you and received by the customer in this opportunity, to the average sent and received ratio in all similar won deals.    
 
@@ -151,8 +145,6 @@ The following screenshot shows an example of enhanced relationship analytics:
 
 1. **Relationship activities**: Provides a detailed look at activities over 90 days, broken down by date and activity type, such as emails sent, emails received, meetings sent, meetings received, phone calls made, and phone calls received.       
 
-   
-
 ## How relationship analytics values are calculated
 
 Relationship analytics values are derived from a careful analysis of the many related people, activities, companies, appointments, and email stored on your [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] servers. The process for finding and calculating the scores is summarized in the following flow chart.    
@@ -160,8 +152,6 @@ Relationship analytics values are derived from a careful analysis of the many re
 ![How relationship analytics are calculated](media/how-relationship-analytics-are-calculated.png "How relationship analytics are calculated")    
 
 The following sections describe the function of each block in the flow chart.    
-
-   
 
 ### Step 1: Find contacts of interest for the record
 
@@ -176,8 +166,6 @@ This table shows how the system finds contacts that have an interest in each typ
 |    Lead     | -   The **Owner** of the lead record. | -   Contact information in the lead's **Contact** section.<br />-   All contacts in the lead's **Stakeholders** list. |
 |   Contact   | -   Any [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] user. | -   Contact information in the contact's **Contact** section.|
 
-   
-
 ### Step 2: Link activities to the record
 
 Once the system has identified contacts of interest, it looks for activities associated with each contact and then identifies which activities to include in the relationship analytics for the record you are looking at. It identifies relevant activities as follows:    
@@ -187,8 +175,6 @@ Once the system has identified contacts of interest, it looks for activities ass
 - **Appointments.** Includes all metadata from appointments where a contact of interest is shown in the **Required** or **Optional** fields.    
 - **Phone calls.** Includes all calls where  a contact of interest is shown in the **From** or **To** fields.  
 
-   
-
 ### Examples of how relevant activities are identified
 
 Here are a few examples of how the rules outlined in the previous sections might be applied:   
@@ -196,8 +182,6 @@ Here are a few examples of how the rules outlined in the previous sections might
 - If you are assigned to a lead and register a phone call activity with one of the stakeholders for that lead, then that phone call will be counted in the KPIs for that lead. Other users who call that same stakeholder, but who are not assigned to the lead, will not have their calls counted in the KPIs for that lead.   
 - If you are on the sales team for an opportunity and send an email regarding that opportunity to one of its stakeholders, then the metadata about that email will be counted in the KPIs for that account. An email from another user, who isn't on the team for that account, to that same stakeholder will not be counted for that opportunity.   
 - If you attend a meeting with the primary contact for an account, then the metadata about that appointment will be counted in the KPIs for that account and for that contact. If that account is also associated with an opportunity, the appointment will only count for that opportunity if you are also **Assigned** to that opportunity (or are on its **Sales Team**) and if the appointment is set as **Regarding** that opportunity.    
-
-   
 
 ### Step 3: Compute relationship analytics KPIs
 
@@ -228,8 +212,6 @@ For KPIs that report your team and your customer, the system finds durations by 
 > If you hold an appointment where three members of your team (including you) meet with two members of your customer's team, and the appointment lasts for 30 minutes, then that appointment contributes to your time KPIs as follows:
 > - **Time spent by my team**: *90 minutes* (30 minutes × 3 team members present)
 > - **Time spent by the customer**: *30 minutes* (time isn't multiplied by customer participants)
-
-   
 
 ### Step 4: Compute the relationship health and health trend
 
