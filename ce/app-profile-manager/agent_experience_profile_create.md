@@ -48,9 +48,9 @@ For the profile that you created, you can add users and configure option such as
  Go to **Agent experience profiles** and select the required agent experience profile. You can perform the following actions:
 
 - In the **Users** section, specify the agents this profile must be associated with. Select **Add Users** to select users from the available users, or search for and add users to the profile.
-- Select **Add entity session template** to link a [session template]((session-templates.md) to the profile. On the **Entity session templates** pane, you can select an existing template or create a new entity session template.
+- Select **Add entity session template** to link a session template to the profile. On the **Entity session templates** pane, you can select an existing template or create a new entity session template.
  
-- In the **Productivity pane**, select **Turn on** to enable the [productivity tools](productivity-tools.md) that the agents can access when they work on their assigned tasks. The following productivity tool options are available:
+- In the **Productivity pane**, select **Turn on** to enable the productivity tools that the agents can access when they work on their assigned tasks. The following productivity tool options are available:
   
     - Default mode
     - Smart assist
@@ -60,7 +60,7 @@ For the profile that you created, you can add users and configure option such as
 
   Turn on the toggle against each option in the **Productivity Pane** to enable it for the agent.
  - In the **Inbox** section, select **Edit** to enable the inbox view. This allows agents to view all their work items on one screen and helps them to prioritize tasks and efficiently work on multiple taskS.
- - In the **Channel providers** section, select **Edit** to enable the [channels](../customer-service/channels.md) and select third-party voice channel providers. On the **Channel providers**  pane you can:
+ - In the **Channel providers** section, select **Edit** to enable the channels and select third-party voice channel providers. On the **Channel providers**  pane you can:
     -  turn on the **All active channels** toggle
     - select a channel provider or create channel providers in the **Third party voice channel providers** section.
   
@@ -69,6 +69,9 @@ For the profile that you created, you can add users and configure option such as
 
 ### See also
 
+[Manage session template](session-templates.md)
+[Overview of Dynamics 365 Productivity Tools](productivity-tools.md)
+[Overview of channels in Omnichannel for Customer Service](../customer-service/channels.md) 
 [Overview of agent experience profiles](agent_experience_profile_create.md)  
 
 
