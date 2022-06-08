@@ -4,7 +4,7 @@ description: "Use this article to learn about the supported cloud locations, lan
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/09/2022
+ms.date: 06/08/2022
 ms.topic: article
 
 ---
@@ -27,7 +27,7 @@ The following table lists the availability of the voice channel in Omnichannel f
 
 **General region deployments**
 
-|Geographic location | Availability | Availability in Customer Service trial|
+|Geographic location | General availability | Availability in Customer Service trial|
 |----------|---------|-----|
 |North America (crm.dynamics.com) |November 2021  | November 2021|
 |Europe, Middle East, Africa (crm4.dynamics.com)|December 2021 | May 2022|
@@ -37,11 +37,11 @@ The following table lists the availability of the voice channel in Omnichannel f
 |Government Community Cloud (GCC) (crm9.dynamics.com) |To be announced |To be announced|
 ||||
 
-If you need your data to stay within a country or region, see the following table for preview and availability timelines. Stay tuned for country or region-specific local deployment of the voice channel. More information: [Datacenter regions](/power-platform/admin/new-datacenter-regions)
+If you need your data to stay within a country or region, see the following table for preview and general availability timelines. Stay tuned for country or region-specific local deployment of the voice channel. More information: [Datacenter regions](/power-platform/admin/new-datacenter-regions)
 
 **Region-specific deployments**
 
-|Geographic location | Preview | Availability |
+|Geographic location | Preview availability| General availability |
 |----------|---------|-----|
 |United Kingdom |June 2022  | October 2022 |
 |Canada |August 2022 | To be announced  |
