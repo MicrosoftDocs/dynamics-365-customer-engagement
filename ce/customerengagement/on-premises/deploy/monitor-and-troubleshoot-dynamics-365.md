@@ -18,22 +18,24 @@ manager: kvivek
 # Monitor and troubleshoot Dynamics 365 Customer Engagement (on-premises)
 
 In [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you can create trace files that monitor the actions that are performed by the server and client applications. Trace files are helpful when you have to troubleshoot error messages or other issues in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
-  
+
 To enable [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] tracing, you can use deployment-level tracing or server-level tracing. Choosing either method determines the range of server roles monitored, the degree of control, and how to enable tracing and the location of the trace files.  
-  
-Additionally, [!INCLUDE[pn_CRM_Reporting_Extensions_server_side](../includes/pn-crm-reporting-extensions-server-side.md)], [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], and [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] can be enabled for tracing.  
-  
+
+> [!IMPORTANT]
+> Deployment-level tracing isn't supported with Dynamics 365 Customer Engagement (on-premises), version 9.1 or later versions.
+
+Additionally, [!INCLUDE[pn_CRM_Reporting_Extensions_server_side](../includes/pn-crm-reporting-extensions-server-side.md)], [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], and [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] can be enabled for tracing.
+
+::: moniker range="op-9-0"
+
 <a name="BKMK_deploy-level_tracing"></a>
 
 ## Microsoft Dynamics 365 deployment-level tracing (on-premises versions only)
 
- Deployment-level tracing monitors all [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server roles and services, regardless of the server roles installed on the local computer. When deployment-level tracing is enabled, all server roles are monitored such as [!INCLUDE[pn_Asynchronous_Service](../includes/pn-asynchronous-service.md)], [!INCLUDE[pn_Sandbox_Processing_Service](../includes/pn-sandbox-processing-service.md)], Unzip Service, Web application (w3wp), and [!INCLUDE[pn_Deployment_Tools](../includes/pn-deployment-tools.md)] (mmc-Tools). Corresponding trace files are created.  
-  
- Deployment-level tracing is set by using [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] commands and is maintained in the MSCRM_CONFIG database. Deployment-level tracing can only be enabled from a computer that has the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)][!INCLUDE[pn_Deployment_Tools](../includes/pn-deployment-tools.md)] server role.
+Deployment-level tracing monitors all [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server roles and services, regardless of the server roles installed on the local computer. When deployment-level tracing is enabled, all server roles are monitored such as [!INCLUDE[pn_Asynchronous_Service](../includes/pn-asynchronous-service.md)], [!INCLUDE[pn_Sandbox_Processing_Service](../includes/pn-sandbox-processing-service.md)], Unzip Service, Web application (w3wp), and [!INCLUDE[pn_Deployment_Tools](../includes/pn-deployment-tools.md)] (mmc-Tools). Corresponding trace files are created.  
 
-> [!IMPORTANT]
-> Deployment-level tracing isn't supported with Dynamics 365 Customer Engagement (on-premises), version 9.1.5 or later version.
-  
+Deployment-level tracing is set by using [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] commands and is maintained in the MSCRM_CONFIG database. Deployment-level tracing can only be enabled from a computer that has the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)][!INCLUDE[pn_Deployment_Tools](../includes/pn-deployment-tools.md)] server role.
+
 The trace files are located in a folder on the computer where the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)][!INCLUDE[pn_Deployment_Tools](../includes/pn-deployment-tools.md)] server role is running. By default, the location is C:\crmdrop\logs.  
   
 > [!CAUTION]
@@ -94,21 +96,24 @@ $Setting = Get-CrmSetting TraceSettings$Setting.Enabled = $True $Setting.CallSta
 $Setting = Get-CrmSetting TraceSettings$setting.Enabled = $FalseSet-CrmSetting $setting  
 ```  
   
- Trace files aren’t deleted when tracing is disabled. Additionally, services used by [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] lock open the trace files. Therefore, you may have to restart any [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] services and the World Wide Web Publishing Service if these services are running on the computer where you want to delete the trace files.  
-  
+Trace files aren’t deleted when tracing is disabled. Additionally, services used by [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] lock open the trace files. Therefore, you may have to restart any [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] services and the World Wide Web Publishing Service if these services are running on the computer where you want to delete the trace files.
+
+> [!NOTE]
+> If both deployment-level and server-level tracing are enabled on the same computer, only server-level tracing will be used.
+
+::: moniker-end
+
 <a name="BKMKserver-level_tracing"></a>
 
 ## Microsoft Dynamics 365 server-level tracing (on-premises versions only)
 
- Server-level tracing only monitors those [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server roles that are running on the local computer where server-level tracing is enabled. When server-level tracing is enabled, trace files that are specific to the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server roles or services that are running on the local computer are created. Server-level tracing does not require the [!INCLUDE[pn_Deployment_Tools](../includes/pn-deployment-tools.md)] role and can provide a greater degree of control where you can set specific trace values such as what [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] features to trace or the maximum trace file size.  
+Server-level tracing only monitors those [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server roles that are running on the local computer where server-level tracing is enabled. When server-level tracing is enabled, trace files that are specific to the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server roles or services that are running on the local computer are created. Server-level tracing does not require the [!INCLUDE[pn_Deployment_Tools](../includes/pn-deployment-tools.md)] role and can provide a greater degree of control where you can set specific trace values such as what [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] features to trace or the maximum trace file size.  
   
- For more information about setting server-level tracing properties in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], see [How to enable tracing in Microsoft Dynamics CRM](https://support.microsoft.com/kb/907490).  
+For more information about setting server-level tracing properties in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], see [How to enable tracing in Microsoft Dynamics CRM](https://support.microsoft.com/kb/907490).  
   
- If both deployment-level and server-level tracing are enabled on the same computer, only server-level tracing will be used.  
+Server-level tracing must be manually set in the [!INCLUDE[pn_Windows_registry](../includes/pn-windows-registry.md)] on the computer where one or more [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server roles are running.  
   
- Server-level tracing must be manually set in the [!INCLUDE[pn_Windows_registry](../includes/pn-windows-registry.md)] on the computer where one or more [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server roles are running.  
-  
- The server-level tracing files are located in the **Traces** folder of the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] installation folder. By default, the location is C:\Program Files\Microsoft Dynamics CRM\Trace.  
+The server-level tracing files are located in the **Traces** folder of the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] installation folder. By default, the location is C:\Program Files\Microsoft Dynamics CRM\Trace.  
   
 ### Enable or disable server-level tracing  
   
@@ -281,7 +286,7 @@ The following Microsoft.Crm.Tools.EmailAgent.xml file sets the logging at level 
 
 ## Enable tracing for Dynamics 365 for tablets
 
- You can enable tracing in the [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] app to diagnose issues. When you enable tracing, verbose information is recorded on the device. This information can be analyzed to help identify the source of an issue. The way to enable and view tracing differs depending on the tablet operating system.  
+You can enable tracing in the [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] app to diagnose issues. When you enable tracing, verbose information is recorded on the device. This information can be analyzed to help identify the source of an issue. The way to enable and view tracing differs depending on the tablet operating system.  
   
 ### Windows
 
@@ -426,14 +431,9 @@ Follow these steps to set up and view logging on the [!INCLUDE[tn_ipad](../inclu
 ```Output  
 2013-08-20 15:33:23 +0000 [INFO]: Unique install id | 5FDD3711-9E89-4D8B-B835-88B2C7C51703 2013-08-20 15:33:23 +0000 [INFO]: Application activated 2013-08-20 15:33:24 +0000 [INFO]: Application resume 2013-08-20 15:33:25 +0000 [ERROR]: App WebView Load failed | -1003 2013-08-20 15:33:32 +0000 [INFO]: [PAL] | Authentication: Starting 2013-08-20 15:33:32 +0000 [INFO]: [PAL] | Authentication: Starting authorization 2013-08-20 15:33:32 +0000 [INFO]: [PAL] | Authentication: Authorization error: -2147093999 2013-08-20 15:33:39 +0000 [INFO]: [PAL] | Authentication: Starting 2013-08-20 15:33:39 +0000 [INFO]: [PAL] | Authentication: Starting authorization 2013-08-20 15:33:39 +0000 [INFO]: [PAL] | Authentication: Authorization error: -2147093999 2013-08-20 15:33:42 +0000 [INFO]: Application Pause 2013-08-20 15:34:27 +0000 [INFO]: Unique install id | 5FDD3711-9E89-4D8B-B835-88B2C7C51703 2013-08-20 15:34:27 +0000 [INFO]: Application activated 2013-08-20 15:34:27 +0000 [INFO]: Application resume 2013-08-20 15:34:27 +0000 [INFO]: [PAL] | Authentication: Failed - cookie setup 2013-08-20 15:34:28 +0000 [INFO]: [PAL] | Authentication: Complete 2013-08-20 15:34:30 +0000 [INFO]: [PAL] | Authentication: Starting 2013-08-20 15:34:30 +0000 [INFO]: [PAL] | Authentication: Starting authorization 2013-08-20 15:34:30 +0000 [INFO]: [PAL] | Authentication: Authorization complete 2013-08-20 15:34:30 +0000 [INFO]: [PAL] | Authentication: Complete 2013-08-20 15:34:31 +0000 [INFO]: [PAL] | Error Messages: 1: Principal user (Id=d0961fb9-0f09-e311-b8aa-00155d05381a, type=8) is missing prvReadAccount privilege (Id=886b280c-6396-4d56-a0a3-2c1b0a50ceb0)2: Principal user (Id=d0961fb9-0f09-e311-b8aa-00155d05381a, type=8) is missing prvReadAccount privilege (Id=886b280c-6396-4d56-a0a3-2c1b0a50ceb0)2013-08-20 15:36:30 +0000 [INFO]: Application Pause  
 ```  
- <!-- 
-<a name="CRM2011SCOM"></a>   
-## System Center Operations Manager management pack for Microsoft Dynamics 365 (on-premises versions only)  
- The [!INCLUDE[pn_oper_mgr_mp_for_crm_short](../includes/pn-oper-mgr-mp-for-crm-short.md)] enables you to monitor [!INCLUDE[pn_crm_2016](../includes/pn-crm-2016.md)] (on-premises) in [!INCLUDE[scom_MS_Sys_Cent_Op_Mgr](../includes/scom-ms-sys-cent-op-mgr.md)].  
-  
- You can download the [!INCLUDE[pn_ms_sys_ctr_oper_mgr_mp_for_crm_2016_long](../includes/pn-ms-sys-ctr-oper-mgr-mp-for-crm-2016-long.md)][here](https://go.microsoft.com/fwlink/p/?LinkId=708508).  -->
-  
-## See Also  
+
+## See also
+
  [Operating Microsoft Dynamics 365](operating-microsoft-dynamics-365.md) </br>
  [Known issues for Dynamics 365 for tablets and phones](../../../mobile-app/troubleshooting-things-know-about-phones-tablets.md) </br>  
  [Dynamics 365 PowerShell Reference](/powershell/dynamics365/customer-engagement/overview)
