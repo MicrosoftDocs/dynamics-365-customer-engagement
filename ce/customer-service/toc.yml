@@ -562,12 +562,12 @@
           href: voice-channel-acs-resource.md
         - name: "Quickstart: Connect using a new Azure resource"
           href: voice-channel-connect-new-resource.md
-        - name: "Advanced: Connect using an existing Azure resource"    
+        - name: "Advanced: Connect using an existing Azure resource"
           href: voice-channel-connect-existing-resource.md 
-        - name: "Sync: Connect using a new Azure resource"
-          href: voice-channel-sync-new-resource.md
-        - name: "Advanced: Connect using an existing Azure resource"    
-          href: voice-channel-connect-existing-resource.md 
+        - name: Sync from Azure Communication Services
+          href: voice-channel-sync-from-acs.md
+        - name: Disconnect from Azure Communication Services
+          href: voice-channel-disconnect-from-acs.md 
       - name: Manage phone numbers
         href: voice-channel-manage-phone-numbers.md
       - name: Set up inbound calling

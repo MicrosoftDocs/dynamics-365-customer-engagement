@@ -13,7 +13,7 @@ manager: shujoshi
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-[Azure direct routing (preview)](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing) enables you to connect your existing telephony infrastructure with Azure so that you can retain your existing carrier and phone numbers, and streamline inter-office call transfers.
+Azure direct routing (preview) enables you to connect your existing telephony infrastructure with Azure so that you can retain your existing carrier and phone numbers, and streamline inter-office call transfers.
 
 ## Prerequisites
 
@@ -64,7 +64,7 @@ The new phone number will be displayed in the **Phone numbers** list and is read
 [Set up outbound calling](voice-channel-outbound-calling.md)  
 [Set up inbound calling](voice-channel-route-queues.md)  
 [Connect to Azure Communication Services](voice-channel-acs-resource.md)  
-[Integrate third-party IVR systems with voice channel](voice-channel-contextual-transfer-external-ivr.md)  
+[Integrate a third-party IVR system with voice channel](voice-channel-contextual-transfer-external-ivr.md)  
 [Supported cloud locations, languages, and locale codes](voice-channel-region-availability.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

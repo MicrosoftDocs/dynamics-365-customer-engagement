@@ -126,7 +126,7 @@ As a bot author, you must set the `va_CustomerLocale` context variable field dur
 
 ## Add your bot to the workstream
 
-Add the bot as an IVR bot to the workstream. More information: [Configure Azure bots for voice (Preview)](voice-channel-azure-bot-service.md)
+Add the bot as an IVR bot to the workstream. More information: [Integrate an Azure bot](configure-bot.md)
 
 
 ## Supported languages and locale codes
