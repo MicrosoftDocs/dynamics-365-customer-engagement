@@ -402,6 +402,8 @@
         href: set-up-entitlements-templates.md
       - name: SLA Limitations
         href: sla-limitations.md
+      - name: Migrate SLAs
+        href: migrate-slas.md
       - name: Create standard SLAs
         href: create-standard-sla.md
       - name: Create enhanced SLAs

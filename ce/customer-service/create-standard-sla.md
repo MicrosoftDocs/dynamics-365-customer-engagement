@@ -1,7 +1,7 @@
 ---
 title: "Create standard service-level agreements in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how to create standard service-level agreements in Dynamics 365 Customer Service."
-ms.date: 06/07/2022
+ms.date: 06/09/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -22,7 +22,8 @@ ms.custom:
 
 > [!NOTE]
 >
-> Standard SLAs have been deprecated and replaced with replaced with Unified Interface SLAs. <br>More information: [SLAs in web client are deprecated](deprecations-customer-service.md#slas-in-web-client-are-deprecated)
+> - Standard SLAs have been deprecated and replaced with Unified Interface SLAs. <br>More information: [SLAs in web client are deprecated](deprecations-customer-service.md#slas-in-web-client-are-deprecated)
+> - We recommend migrating standard SLAs to Unified Interface. For more information on migration, see [Migrate SLAs](migrate-slas.md#migrate-slas).
 
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
 
