@@ -1,18 +1,17 @@
 ---
 title: "Overview of app profiles | MicrosoftDocs"
-description: "Overview of the app profiles."
-author: neeranelli
-ms.author: nenellim
+description: "Learn how to create app profiles using the App Profile manager"
+author: gandhamm
+ms.author: mgandham
 manager: shujoshi
-ms.date: 10/12/2020
+ms.date: 06/01/2022
 ms.topic: overview
-
 
 ---
 
 # Experience for accessing templates and productivity tools
 
-The Power Apps home page for app profile manager is an easy-to-use interface that helps you get started with what you can do on the page.
+The app profile manager is an easy-to-use interface that helps you get started with what you can do on the page.
 
   > [!div class=mx-imgBorder]
   > ![App profiles home page.](media/app-profile-home.png "App profiles home page")
@@ -33,17 +32,17 @@ The options to access and manage the following entities are available on the lef
   - Agent scripts
 - Macros
 
-All these options are available in Unified Interface and open on a new tab when you select any to access it.
+All these options are available in Unified Interface. Select any of the option to open it in  a new tab.
 
 > ![Navigation menu.](media/app-profile-navigation-items.png "App profiles home page")
 
-Irrespective of the path from where you navigate to any of the components, such as session templates or application tab templates, the templates that you have defined for Customer Service workspace and Omnichannel for Customer Service will be displayed because they are stored in a common library.
+Irrespective of the path from where you navigate to any of the components, such as session templates or application tab templates, the templates that you've defined for Customer Service workspace and Omnichannel for Customer Service will be displayed because they're stored in a common library.
 
 ## Settings
 
-The **Settings** option in **Customer Service workspace** opens the **Queues** page on a new tab.
+Select **Settings** in **Customer Service workspace** to open the **Queues** page on a new tab.
 
-The **Settings** option in **Omnichannel Administration** opens the **Entity Records** page on a new tab.
+Select **Settings** in **Omnichannel Administration** to open the **Entity Records** page on a new tab.
 
 ### Channel provider
 
@@ -53,7 +52,7 @@ The **Channel provider** option in **Customer Service workspace** or **Omnichann
 
 The following template types can be accessed:
 
-- **Session templates:** Opens the Session templates page where the out-of-the-box templates and custom templates created by you are listed.
+- **Session templates:** Opens the Session templates page where the out-of-the-box templates and custom templates created by you're listed.
 - **Application tabs:** Opens the application tab templates page to create and manage application tab templates.
 - **Notifications:** Opens the notifications templates page to manage the templates.
 
@@ -68,3 +67,12 @@ You can access the following options in the **Productivity** area:
 ## Upgrade experience for existing Omnichannel for Customer Service
 
 When you upgrade your existing environments, the settings for templates, productivity tools, and channels configuration in the out-of-the-box app profile will reflect the existing state of your environment. For example, if productivity pane is enabled and smart assist is configured, the settings will be retained in the out-of-the-box app profile.
+
+### See also
+
+[Create and use agent experience profiles](app-profile-manager.md)
+[Manage session templates](session-templates.md)  
+[Configure channels](../customer-service/channels.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

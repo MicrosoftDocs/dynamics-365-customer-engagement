@@ -22,6 +22,8 @@ As an administrator, you can configure the inbox setting so that when your agent
 
 You can configure the inbox settings for custom experiences only.
 
+You can also configure and enable the inbox in [app profile manager](/dynamics365/app-profile-manager/app-profile-manager?branch=mg-app-profile#configure-the-inbox-view).
+
 The following asynchronized channels are available in the conversation inbox.
 
 - SMS
@@ -69,10 +71,6 @@ You can configure the inbox in the [Customer Service admin center](/app-profile-
     - **Agent Visibility**: Select one of the following options to show or hide the view to agents:
       - **Show**
       - **Hide**
-
-## Enable the inbox in App profile manager
-
-After you enable the inbox for a profile, any user who is added to the profile can use the inbox. More information: [Configure the inbox view in App profile manager.](/dynamics365/app-profile-manager/app-profile-manager#configure-the-inbox-view)
 
 ## Inbox views
 

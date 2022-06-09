@@ -26,9 +26,6 @@ Quick replies are predefined messages that can be created for agents to quickly 
      - In the site map, in **Advanced settings**, select **Agent experience**.
 
 1. Select **Manage** for **Quick replies**.
-   
-   > [!NOTE]
-   > If you're using the Omnichannel Administration app, go to **Quick replies** under **Agent Experience**.
 
 1. To create a quick reply, select **New**, or to edit an existing quick reply, select the name of the quick reply.
 

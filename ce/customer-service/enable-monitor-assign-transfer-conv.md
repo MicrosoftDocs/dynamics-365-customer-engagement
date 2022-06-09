@@ -34,9 +34,6 @@ As an administrator, you can enable your supervisors to take specific actions on
 
       The **Omnichannel Configuration.Supervisor Settings** page is displayed.    
 
- > [!NOTE]
- > If you're using the Omnichannel Administration app, select **Ongoing Conversations Dashboard** under **Supervisor Experience**.
-
 2. Enable the relevant supervisor setting as follows:
     - To enable supervisors to monitor how conversations are happening or being handled by their agents, set the **Supervisor Monitor** toggle to **Yes**. 
 
