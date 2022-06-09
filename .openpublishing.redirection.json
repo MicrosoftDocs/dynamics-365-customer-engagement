@@ -23794,6 +23794,11 @@
       "source_path": "ce/sales/set-up-dynamics-365-sales.md",
       "redirect_url": "/dynamics365/sales/intro-saleshub",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/voice-channel-azure-bot-service.md",
+      "redirect_url": "/dynamics365/customer-service/configure-bot",
+      "redirect_document_id": "false"
     }
   ]
 }
