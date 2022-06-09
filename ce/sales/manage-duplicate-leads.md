@@ -62,6 +62,8 @@ Duplicate leads are identified based on the following rules.
     >[!div class="mx-imgBorder"]
     >![View the duplicates list](media/lead-duplicate-detection-duplicate-list.png "View the duplicates list")    
 
+After detecting the duplicates, you can merge and maintain a single record. More information: [Merge duplicate leads](#merge-duplicate-leads)
+
 
 ## Understand the duplicate list page
 
@@ -70,6 +72,57 @@ Duplicate leads are identified based on the following rules.
 - The attributes that contain similar data are highlighted across the identified duplicate leads. For example, in the preceding image, you can see that the name and the **Business Phone** are highlighted, indicating that the data is similar when compared with the selected lead.
 
 - Only two duplicate leads are visible on the page. To view the other leads, select the right arrow. The message in the upper-right corner shows the count of the leads you're viewing. For example, in the preceding image, the message **Showing 1-2 of 4 duplicates** indicates that you're viewing the first two leads of a total of four duplicate leads.
+ 
+## Merge duplicate leads
+
+To work on a prospect, merge the duplicate records into a single relevant record. With the duplicate detection feature of Microsoft Power Platform, you can only merge one with the primary record. The sales duplicate detection feature is enhanced to merge a record with at least four duplicates. This helps the sellers to maintain a single record with the latest information.
+
+Let’s look at the merger process with an example–**Lidman Anna**.
+
+1.	Open the lead. More information: [View and identify duplicate leads](#view-and-identify-duplicate-leads).    
+    In this example, we are opening the **Lidman Anna (sample)** record.
+ 
+    >[!div class="mx-imgBorder"]
+    >![Open a lead from the list to merge with duplicates](media/lead-duplicate-merge-open-lead.png "Open a lead from the list to merge with duplicates") 
+
+2.	On the duplicate records dialog box, select the records that you want to merge. You can select up to four duplicate records.    
+    The **Lidman Anna (sample)** lead contains three possible duplicates and select the records that you want to merge. 
+
+    >[!div class="mx-imgBorder"]
+    >![Select duplicate records to merge](media/lead-duplicate-select-records-merge.png "Select duplicate records to merge") 
+
+    >[!NOTE]
+    >The **Merge** option will be active only when you select the current record and at least one duplicate record.    
+
+3.	Select **Merge**.    
+    The Merge dialog opens and let’s look at it in detail. 
+
+    >[!div class="mx-imgBorder"]
+    >![The merge dialog box opens with merge details](media/lead-duplicate-merge-dialog.png "The merge dialog box opens with merge details") 
+ 
+    -	**Primary record**: A primary record is always the lead that has most activities related to it or the most recently updated. For example, though we have selected **Lidman Anna (sample)** to view the duplicates, the primary record is **Lidman Anna** with topic **Wi-Fi Printer**. Because **Lidman Anna** with topic **Wi-Fi Printer** is the most recently updated record.    
+        
+        To make other records as primary, select the **Make primary** option from the top of the record. A confirmation message is displayed stating that the changes made to the current primary record will be lost, select **Continue**.    
+
+    -	**Fill the empty fields of the primary record**: If the primary record contains empty fields and the other records have values, select the **Fill the empty fields of the primary record** option. By default, the option is selected.      
+        
+        The empty fields in the primary records are automatically updated with the information from the next available record (in the order of display). Also, you can see that the updated fields in the primary record are proceeded with the undo icon.    
+        
+        Similarly, field values that are added to the primary record are preceded with a check icon on the record from where it is added. For example, you can see that field values such as, **No. of Employees**, **Source Campaign**, and **Lead Source** are added from **Lidman Anna (sample)** to the primary record **Lidman Anna**.    
+        
+        To add the required value from the duplicate records to the primary record, hover over the field and select the check icon. For example, if you want the lead’s job title to be **Sales Manager**, select the **Job Title** field from the first duplicate record.    
+            
+        To remove the value of a field:   
+        -	Select the undo icon ![The undo icon](media/lead-duplicate-merge-undo-icon.png "The undo icon") on the primary record or    
+        -	Uncheck the filed on the duplicate record.   
+
+    - **Hide fields with same data**: To hide fields with similar values across all the records, select **Hide fields with same data**. By default, the option is selected.
+
+4.	Select **Merge**.
+
+5.	On the confirmation message, select **Continue**.
+ 
+The primary record is updated, and other records are deactivated. 
 
 ## Delete duplicate leads
 
