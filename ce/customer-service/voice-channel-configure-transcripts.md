@@ -1,5 +1,5 @@
 ---
-title: "Configure call recordings and transcripts in the voice channel administrator dashboard | MicrosoftDocs"
+title: "Configure call recordings and transcripts | MicrosoftDocs"
 description: "Learn how to configure call recordings and transcripts in the voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
@@ -16,7 +16,7 @@ ms.topic: article
 As an administrator, you can enable live transcription and recording of calls, which allows agents and supervisors to view transcripts of customer calls.
 
 > [!NOTE]
-> Many countries and states have laws and regulations that apply to the recording of PSTN, voice, and video calls, and may require that users first consent to the recording of their communications. It is your responsibility to use the call recording capabilities in compliance with the law. Before using call recording features, you must obtain consent from the parties of recorded communications in a manner that complies with all applicable laws for each participant.
+> Many countries and states have laws and regulations that apply to the recording of PSTN (Public Switched Telephone Network), voice, and video calls, and may require that users first consent to the recording of their communications. It is your responsibility to use the call recording capabilities in compliance with the law. Before using call recording features, you must obtain consent from the parties of recorded communications in a manner that complies with all applicable laws for each participant.
 
 ## Enable call recordings and transcripts for voice
 
@@ -75,6 +75,7 @@ The data storage costs with two participants only is calculated approximately as
 
 [Overview of the voice channel](voice-channel.md)  
 [Agent experience: View call recordings and transcripts](voice-channel-agent-experience.md)  
+[Enable recording and SMS services](voice-channel-connect-existing-resource.md#enable-recording-and-sms-services)  
 [Supported cloud locations, languages, and locale codes](voice-channel-region-availability.md)  
   
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

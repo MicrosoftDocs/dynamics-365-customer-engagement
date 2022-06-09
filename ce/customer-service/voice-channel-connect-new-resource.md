@@ -1,7 +1,7 @@
 ---
 title: "Connect using a new Azure resource | MicrosoftDocs"
 description: "Use this article to understand how to connect to Azure Communication Services using a new Azure resource in Customer Service admin center."
-ms.date: 06/08/2022
+ms.date: 06/09/2022
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: neeranelli

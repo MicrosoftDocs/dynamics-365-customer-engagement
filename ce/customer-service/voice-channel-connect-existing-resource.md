@@ -1,7 +1,7 @@
 ---
 title: "Connect using an existing Azure resource | MicrosoftDocs"
 description: "Use this article to understand how to connect to Azure Communication Services using an existing Azure resource."
-ms.date: 06/08/2022
+ms.date: 06/09/2022
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: neeranelli
@@ -81,6 +81,8 @@ So, to enable voice recording and SMS services, you must configure your applicat
    - **AAD Tenant ID**: Enter the tenant (directory) ID of your Azure resource.
    - **AAD Application ID or URI**: Enter the application (client) ID of your Azure resource.
 8. Select **Create** to create the event subscription endpoint for recording. This might take some time, so if you get a sync error, try refreshing after some time.
+
+For information about enabling call recordings and transcripts for a voice workstream in Omnichannel for Customer Service, see [Configure call recordings and transcripts](voice-channel-configure-transcripts.md).
 
 #### Get application and tenant IDs
 

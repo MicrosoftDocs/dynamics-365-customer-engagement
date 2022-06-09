@@ -33,5 +33,6 @@ You can import phone numbers that you purchased or acquired earlier via Azure Co
 [Disconnect from Azure Communication Services](voice-channel-disconnect-from-acs.md)  
 [Integrate a third-party IVR system with voice channel](voice-channel-contextual-transfer-external-ivr.md)  
 [Supported cloud locations, languages, and locale codes](voice-channel-region-availability.md)  
+[Port a phone number](/azure/communication-services/quickstarts/telephony/port-phone-number)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

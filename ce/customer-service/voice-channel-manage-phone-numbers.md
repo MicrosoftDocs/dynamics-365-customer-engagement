@@ -1,7 +1,7 @@
 ---
 title: "Manage phone numbers | MicrosoftDocs"
 description: "Use this article to understand how you can acquire new phone numbers, and also view, update, and release existing phone numbers in Omnichannel for Customer Service."
-ms.date: 06/08/2022
+ms.date: 06/09/2022
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: gandhamm
@@ -173,5 +173,6 @@ If you no longer need a phone number, you can release it from your organization'
 [Block spam numbers](voice-channel-block-number.md)  
 [Bring your own carrier](voice-channel-bring-your-own-number.md)  
 [Integrate a third-party IVR system with voice channel](voice-channel-contextual-transfer-external-ivr.md)  
+[Port a phone number](/azure/communication-services/quickstarts/telephony/port-phone-number)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
