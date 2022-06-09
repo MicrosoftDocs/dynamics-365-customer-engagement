@@ -40,11 +40,8 @@ When you set up digital sales with Sales Enterprise license, you get to explore 
 |Feature  |Sales Enterprise license  |Sales Premium license  |
 |---------|---------|---------|
 |Sales accelerator     | 1,500 sequence-connected records per month        |  No limit       |
-|Conversation intelligence     |Three hours of conversation intelligence (recording and processing) per month         | 10 hours of call processing capacity        |
+|Conversation intelligence     |Three hours of conversation intelligence (recording and processing) per month. To buy more hours, upgrade to Sales Premium license.         | 10 hours of conversation intelligence (recording and processing) per month. To buy more hours, see [this FAQ](faqs-sales-insights.md#how-do-i-buy-more-conversation-intelligence-hours).        |
 |Predictive lead and opportunity scoring     | 1,500 records per month        | No limit        |
-
-
-## Set up digital sales
 
 1. In the lower-left corner of the screen, select **Change area** ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area") and then select **App Settings**.
 
