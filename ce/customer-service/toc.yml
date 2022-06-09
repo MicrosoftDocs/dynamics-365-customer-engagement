@@ -120,7 +120,7 @@
       items:
        - name: Experience for accessing templates and productivity tools
          href: ../app-profile-manager/create-app-profiles-powerapps.md 
-       - name: Create and use app profiles,inbox in Power Apps
+       - name: Create and use app profiles, inbox in Power Apps
          href: ../app-profile-manager/app-profile-manager.md
     - name: Settings
       href: ../app-profile-manager/settings.md
