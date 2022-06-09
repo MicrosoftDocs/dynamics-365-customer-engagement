@@ -558,11 +558,15 @@
         href: voice-channel-install.md  
       - name: Connect to Azure Communication Services
         items: 
-        - name: Overview
+        - name: Connect to Azure Communication Services
           href: voice-channel-acs-resource.md
-        - name: "Quickstart: Connect to a new Azure resource"
+        - name: "Quickstart: Connect using a new Azure resource"
           href: voice-channel-connect-new-resource.md
-        - name: "Advanced: Connect to an existing Azure resource"    
+        - name: "Advanced: Connect using an existing Azure resource"    
+          href: voice-channel-connect-existing-resource.md 
+        - name: "Sync: Connect using a new Azure resource"
+          href: voice-channel-sync-new-resource.md
+        - name: "Advanced: Connect using an existing Azure resource"    
           href: voice-channel-connect-existing-resource.md 
       - name: Manage phone numbers
         href: voice-channel-manage-phone-numbers.md
@@ -594,7 +598,7 @@
         href: voice-channel-multi-language-contact-center.md
       - name: Bring your own carrier
         href: voice-channel-bring-your-own-number.md
-      - name: Integrate third-party IVR systems with voice channel
+      - name: Integrate a third-party IVR system with voice channel
         href: voice-channel-contextual-transfer-external-ivr.md 
       - name: Supported cloud locations, languages, and locale codes
         href: voice-channel-region-availability.md

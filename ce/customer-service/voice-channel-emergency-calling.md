@@ -19,9 +19,9 @@ This article describes how emergency calling works in Omnichannel for Customer S
 
 ## Prerequisites
 
-You must ensure the following conditions are met for emergency calling to work properly.
+You must ensure that the following conditions are met for emergency calling to work properly.
 - The omnichannel user must have a capacity profile associated with a voice outbound profile. For more information, see [Configure capacity profiles](voice-channel-outbound-calling.md#configure-capacity-profiles-and-assign-users) and [Create outbound profiles](voice-channel-outbound-calling.md#create-outbound-profiles).
-- Browser location setting must be enabled and set to United States or Puerto Rico.
+- Browser location setting must be enabled, and set to United States or Puerto Rico.
 
 ## How emergency calling works
 
