@@ -11,7 +11,7 @@ ms.topic: overview
 
 # Experience for accessing templates and productivity tools
 
-The Power Apps home page for app profile manager is an easy-to-use interface that helps you get started with what you can do on the page.
+The app profile manager is an easy-to-use interface that helps you get started with what you can do on the page.
 
   > [!div class=mx-imgBorder]
   > ![App profiles home page.](media/app-profile-home.png "App profiles home page")

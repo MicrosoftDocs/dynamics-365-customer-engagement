@@ -8,13 +8,10 @@ ms.date: 06/01/2022
 ms.topic: article
 ---
 
-# Create an app profile in Power Apps
+# Create an app profile
 
-1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083).
-2. Select the environment in which you want to create the app profiles.
-3. Perform the following actions:
-   - On the **Home** page, go to **Your apps** section.
-   - In the left pane, select **Apps**.
+In the App profile manager, select the environment in which you want to create the app profiles. Perform the following actions:
+1. On the **Home** page, go to **Your apps** section. In the left pane, select **Apps**.
 4. Select **More commands** in **Omnichannel for Customer Service** or **Customer Service workspace**, and then select **App profile manager** on the menu that appears.
 5. In the left pane, select **App profiles**.
 6. On the **App profile manager** page, select **New profile**.
