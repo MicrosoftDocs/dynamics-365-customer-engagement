@@ -23,12 +23,10 @@ Perform the following actions to create an app profile:
 8. On the **New profile** pane, specify the following:
    - **Name:** The app profile name.
    - **Unique name:** A unique identifier in the <*prefix*>_<*name*> format.
-
      > [!IMPORTANT]
      > The following are required for the unique name:
      > - The prefix can only be alphanumeric and its length must be between 3 to 8 characters.
      > - An underscore must be used between the prefix and name.
-
    - **Description:** A description for the profile.
   
 ### Assign templates and enable productivity pane and channels<a name="enable-prod-pane"></a>
