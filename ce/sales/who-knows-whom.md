@@ -86,7 +86,7 @@ Let’s look at an example. Blaine Carmack is a sales representative who sells c
 
 ## Turn off data sharing with Dynamics 365 applications
 
-As a user, you can always choose to opt out if you don't want Dynamics 365 Sales to analyze your communication and collaboration data. 
+As a user, you can always choose to opt out if you don't want Dynamics 365 to analyze your communication and collaboration data. 
 
 >[!NOTE]
 >You can only opt out if your Office 365 organization is in the EMEA or Asia Pacific global geography. More information: [Datacenter locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide&preserve-view=true)

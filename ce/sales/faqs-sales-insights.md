@@ -346,6 +346,12 @@ The service is fully GDPR-compliant. Dynamics 365 won't cache any data on its si
 ### How do I opt out?
 You can choose to opt out of sharing your Microsoft 365 data. More information: [Turn off data sharing with Dynamics 365 applications](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
 
+### How long does it take to remove my data after I opt out?
+
+If you are part of a security group that has been opted out by your administrator, the system can take up to 24 hours to remove data from all apps and up to 30 days to remove backed-up data from Microsoft 365 storage accounts. 
+
+If you have opted out on your own, the data will be removed immediately.  
+
 ### How does an Exchange administrator exclude users?
 The Exchange administrator can provide the Azure AD group that contains all the users that they want to exclude (for example, CEOs or vice presidents). 
 

@@ -37,7 +37,7 @@ If you're Microsoft 365 administrator, here's how you provide consent:
 
     > [!IMPORTANT]
     >- The consent provided is applicable to all the Dynamics 365 applications that require **Insights for other users** permission.
-    >- When you disable the consent, the system can take up to 24 hours to remove data from all apps and up to 30 days to removed backed-up data from Microsoft 365 storage accounts.  
+    >- When you disable the consent, the system can take up to 24 hours to remove data from all apps and up to 30 days to remove backed-up data from Microsoft 365 storage accounts.  
 
 4. (Optional) Opt out security groups of users who don't want to share their collaboration and communication data. Add their Microsoft 365 security group ID in the text box.
     > [!NOTE]
