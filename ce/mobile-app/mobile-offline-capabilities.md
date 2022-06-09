@@ -27,7 +27,7 @@ search.app:
 Before you set-up the mobile app in offline mode be sure to read through the following capabilities, tips,  and limitations. 
 
 These tables and corresponding commands are available in offline mode.
-
+Note - all unsupported commands are hidden in offline.
 
 |Table |Commands|  
 |-------------|---------|  
