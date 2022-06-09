@@ -75,15 +75,15 @@ The relationship pipeline view provides a bubble chart that gives you a quick ov
 
    Hover over a bubble to see the name of the opportunity and other details. Select a bubble to open its opportunity record. The color of each bubble indicates relationship health: 
 
-	- green for good
+   - green for good
 
-	- yellow for fair
+   - amber for fair
 
-	- red for poor 
+   - red for poor 
 
-	- gray for zero (which indicates that the results have not been calculated, or that there is not enough data)
+   - blue for pending computation
 
-	- blue for pending computation
+   - gray for no computation (indicates that the results have not been calculated, or that there is not enough data)
 
 The relationship pipeline chart relies on several values being available for each opportunity record, but in some cases, these values may be missing for some or all opportunities. This could be due to an oversight, or it could be because you don't use these fields at your organization. The chart represents missing values as follows:     
 
