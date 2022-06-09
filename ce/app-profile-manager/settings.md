@@ -4,7 +4,7 @@ description: "Learn about managing settings in Customer Service"
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
+ms.date: 06/09/2022
 ms.topic: article
 ---
 
