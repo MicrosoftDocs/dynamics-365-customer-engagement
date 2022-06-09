@@ -10,7 +10,8 @@ ms.topic: article
 
 # Create an app profile
 
-Perform the following actions to create an app profile:
+Perform the following steps to create an app profile:
+
 1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083).
 2. Select the environment in which you want to create the app profiles.
 3. Do one of the following:
@@ -100,6 +101,7 @@ More information: [Roles and privileges associated with app profile manager](sec
 ### See also
 
 [Get started with Customer Service admin center](../customer-service/cs-admin-center.md)  
+[Configure agent experience profiles](create-agent-experience-profile.md)  
 [Manage session templates](session-templates.md)  
 [Configure channels](../customer-service/channels.md)  
 [Manage agent scripts](agent-scripts.md)  
