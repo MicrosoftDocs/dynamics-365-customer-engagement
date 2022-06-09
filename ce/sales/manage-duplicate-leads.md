@@ -80,7 +80,7 @@ To work on a prospect, merge the duplicate records into a single relevant record
 Let’s look at the merger process with an example–**Lidman Anna**.
 
 1.	Open the lead. More information: [View and identify duplicate leads](#view-and-identify-duplicate-leads).    
-    In this example, we are opening the **Lidman Anna (sample)** record.
+    In this example, we're opening the **Lidman Anna (sample)** record.
  
     >[!div class="mx-imgBorder"]
     >![Open a lead from the list to merge with duplicates](media/lead-duplicate-merge-open-lead.png "Open a lead from the list to merge with duplicates") 
@@ -108,7 +108,7 @@ Let’s look at the merger process with an example–**Lidman Anna**.
         
         The empty fields in the primary records are automatically updated with the information from the next available record (in the order of display). Also, you can see that the updated fields in the primary record are proceeded with the undo icon.    
         
-        Similarly, field values that are added to the primary record are preceded with a check icon on the record from where it is added. For example, you can see that field values such as, **No. of Employees**, **Source Campaign**, and **Lead Source** are added from **Lidman Anna (sample)** to the primary record **Lidman Anna**.    
+        Similarly, field values that are added to the primary record are preceded with a check icon on the record from where it's added. For example, you can see that field values such as, **No. of Employees**, **Source Campaign**, and **Lead Source** are added from **Lidman Anna (sample)** to the primary record **Lidman Anna**.    
         
         To add the required value from the duplicate records to the primary record, hover over the field and select the check icon. For example, if you want the lead’s job title to be **Sales Manager**, select the **Job Title** field from the first duplicate record.    
             
