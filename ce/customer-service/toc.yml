@@ -588,7 +588,7 @@
         href: voice-channel-call-overflow.md
       - name: Configure call recordings and transcripts
         href: voice-channel-configure-transcripts.md
-      - name: Enable consult with Microsoft Teams users
+      - name: Enable voice consult with Microsoft Teams users
         href: voice-consult-microsoft-teams-user.md
       - name: Manage phone music
         href: voice-channel-music.md
