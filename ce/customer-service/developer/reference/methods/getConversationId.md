@@ -19,6 +19,7 @@ This function can be called to fetch the unique GUID of the current ongoing conv
 `Microsoft.Omnichannel.getConversationId();`
 
 ## Parameters
+
 None
 
 ## Return value
@@ -31,11 +32,12 @@ Returns a promise resolved with currently ongoing conversation ID.
 
 ### See also
 
-[Live chat SDK JavaScript API reference](../../omnichannel-reference.md)  
+[Live chat SDK reference](../../omnichannel-reference.md)  
 [Omnichannel JavaScript API reference](../../omnichannel-api-reference.md)  
 [getConversations](getConversations.md)  
 [linkToConversation](linkToConversation.md)  
 [unlinkFromConversation](unlinkFromConversation.md)  
 [openConversation](openConversation.md)  
+[sendMessageToConversation](sendMessageToConversation.md)  
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

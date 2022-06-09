@@ -1,7 +1,7 @@
 ---
 title: "New and upcoming features (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Information about new features, improvements, and bug fixes in Dynamics 365 Marketing releases."
-ms.date: 05/10/2022
+ms.date: 05/26/2022
 ms.custom:
   - dyn365-marketing
 ms.topic: article
@@ -29,6 +29,68 @@ Marketing updates are [pushed to customers automatically](https://cloudblogs.mic
 > To submit and vote on **feature requests** and **product suggestions**, go to the [Dynamics 365 Application Ideas portal](https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20Marketing).
 
 ## 2022 updates
+
+### May 2022 update
+
+The Dynamics 365 Marketing May 2022 update has two preview features and one general availability feature from the [2022 wave 1 release plans](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/get-started). The preview features include conditional dynamic content, which helps marketers create hyper-personalized messages, and a new channel analytics dashboard to track delivery and engagement metrics across multiple channels. The new general availability feature enables the use of outbound subscription centers in real-time marketing.
+
+The update also includes improved email content blocks, the ability to manually populate event trigger parameters when raising triggers to run power automate flows, and real-time marketing geographical expansion to Brazil, India, Japan, and the United Arab Emirates. Read on for details!
+
+#### Version number
+
+| App              | GA release      |
+|------------------|-----------------|
+| Marketing        | 1.83.2008.0 |
+
+> [!Tip]
+> To check your current version number, go to **Settings** > **Overview** > **Versions**.
+
+#### Preview features
+
+> [!IMPORTANT]
+> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.
+> 
+> Microsoft doesn't provide support for this preview feature. Microsoft Dynamics 365 Technical Support won’t be able to help you with issues or questions. Preview features aren’t meant for production use, especially to process personal data or other data that are subject to legal or regulatory compliance requirements.
+
+- **Win customer attention by creating conditional dynamic content with easy-to-use no-code experiences**
+    - Conditional dynamic content is key to delivering highly personalized messages to customers. Creating content where entire sections target specific customer segments allows you to craft messages that align with your customers’ interests and preferences, driving engagement and brand loyalty. Until now, achieving this level of dynamic content was complex and required coding. With the new conditional content experience, marketers can easily create messages targeted to specific segments or attributes, bringing content that is truly unique to each customer without writing any code.
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/win-customer-attention-creating-conditional-dynamic-content-easy-to-use-no-code-experiences)
+    - [Docs](conditional-content.md)
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of conditional dynamic content.](media/whats-new-conditional-dynamic.png "Screenshot of conditional dynamic content")
+
+- **Measure campaign effectiveness with a new channel analytics dashboard**
+    - To create effective campaigns, marketers need to continuously track the delivery of assets across numerous channels. They also need to review campaign engagement metrics so that they can make improvements where needed. With the new out-of-the-box aggregated channel analytics dashboard in real-time marketing, you can track important delivery and engagement metrics at any level of aggregation—across all channels, journeys, and marketing assets. You can even zoom in on a particular channel or message. You can also learn from trends of important metrics over a specified time period to further improve your marketing efforts.
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/measure-campaign-effectiveness-new-channel-analytics-dashboard)
+    - [Docs](real-time-marketing-channel-analytics.md)
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of real-time marketing aggregate channel analytics.](media/whats-new-channel-analytics.png "Screenshot of real-time marketing aggregate channel analytics")
+
+#### General availability enhancements
+
+- **Use outbound subscription centers in real-time journeys**
+    - Collecting consent is a critical business need. Subscription centers are a way to gather consent preferences from your customers. Businesses need to be able to customize their subscription center to match their branding and business needs. They also need the ability to create different subscription centers for different regions, brands, or lines of business. Now, you can bring the flexibility of subscription centers available in outbound marketing to real-time marketing journeys, enabling you to have multiple subscription centers, customized and branded to your needs.
+    - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/use-outbound-marketing-subscription-centers-real-time-marketing-journeys)
+    - [Docs](real-time-marketing-outbound-subscription.md)
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of outbound subscription centers in real-time marketing.](media/whats-new-outbound-subscription.png "Screenshot of outbound subscription centers in real-time marketing")
+
+#### Monthly enhancements
+
+- **Email content blocks**
+    - [Preview] User can locate all emails where the current content block is used.
+- **Custom triggers**
+    - Pass trigger parameters from a journey to a Power Automate flow or to another journey by easily populating the data for a custom trigger inside a journey.
+- **Geographic expansion**
+    - Real-time marketing is now available in four additional geographies: Brazil, India, Japan, and the United Arab Emirates.
+
+#### Bug fixes
+
+- **Real-time marketing**
+    - Resolved a bug that sometimes prevented real-time marketing solutions from being manually uninstalled.
 
 ### April 2022 update
 

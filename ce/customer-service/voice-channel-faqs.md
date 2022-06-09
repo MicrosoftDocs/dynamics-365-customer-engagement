@@ -47,7 +47,7 @@ Yes, you have the following two options to bring your existing numbers to Dynami
  
 ### How can I acquire additional phone numbers from Azure direct offer?
 
-You can purchase one phone number per tenant for Azure Communication Services through the Azure Portal. To acquire phone numbers in bulk or request for a specific phone number, complete this [form](https://github.com/Azure/Communication/blob/master/Forms/ACS%20-%20Bulk%20Number%20Acquisition.docx) and email it to acstnrequest@microsoft.com. Ensure that the subject line of the email begins with "Azure Communication Services Number Request:".
+You can purchase one phone number per tenant for Azure Communication Services through the Azure Portal. To acquire phone numbers in bulk or request for a specific phone number, download and complete this [form](https://github.com/Azure/Communication/blob/master/Forms/ACS%20-%20Manual%20Number%20Acquisition%20Form%20US-UK-CA-DK.docx) and email it to acstnrequest@microsoft.com. Ensure that the subject line of the email begins with "Azure Communication Services Number Request:".
 
 ### Can I keep my existing contract with my carrier?
 
@@ -73,7 +73,7 @@ The voice channel is supported only in the Customer Service workspace and Omnich
 
 See the following topics to set up the interactive voice response (IVR) bot in the voice channel:
 - [Configure Power Virtual Agents bots for voice](voice-channel-ivr-bots.md)
-- [Configure Azure bots for voice](voice-channel-azure-bot-service.md)
+- [Configure Azure bots for voice (preview)](voice-channel-azure-bot-service.md)
 - [Integrate third-party IVR systems with voice channel](voice-channel-contextual-transfer-external-ivr.md)
 
  ### Should the language of the bot be the same as the primary language configured in the Omnichannel admin center app?
