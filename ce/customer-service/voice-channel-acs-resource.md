@@ -18,7 +18,7 @@ The voice channel in Omnichannel for Customer Service is built over Azure Commun
 - [Quickstart: Connect using a new Azure resource](voice-channel-connect-new-resource.md)
 - [Advanced: Connect using an existing Azure resource](voice-channel-connect-existing-resource.md)
 
-You can also [import phone numbers](voice-channel-sync-from-azure.md) or [connect your existing telephony infrastructure with Azure](voice-channel-bring-your-own-number.md).
+You can also [import phone numbers](voice-channel-sync-from-acs.md) or [connect your existing telephony infrastructure with Azure](voice-channel-bring-your-own-number.md).
 
 > [!Note]
 > 
@@ -30,6 +30,8 @@ You can also [import phone numbers](voice-channel-sync-from-azure.md) or [connec
 [Overview of the voice channel](voice-channel.md)  
 [Connect using a new Azure resource](voice-channel-connect-new-resource.md)  
 [Connect using an existing Azure resource](voice-channel-connect-existing-resource.md)  
+[Import phone numbers](voice-channel-sync-from-acs.md)   
+[Disconnect from Azure Communication Services](voice-channel-disconnect-from-acs.md) 
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
 [Set up outbound calling](voice-channel-outbound-calling.md)  
 [Bring your own carrier](voice-channel-bring-your-own-number.md)  

@@ -42,7 +42,7 @@ If you need your data to stay within a country or region, see the following tabl
 
 Microsoft as a carrier is available for customers with billing locations in select geographies around the world. To learn more about your eligibility, see [Subscription eligibility and number capabilities](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability).
 
-You can purchase new phone numbers through the Azure portal, and then sync with Omnichannel for Customer Service. More information: [Sync from Azure](voice-channel-acs-resource.md#sync-from-azure)
+You can purchase new phone numbers through the Azure portal, and then sync with Omnichannel for Customer Service. More information: [Sync from Azure](voice-channel-sync-from-acs.md)
 
 You can also port existing US or toll-free phone numbers. More information: [Port a phone number](/azure/communication-services/quickstarts/telephony/port-phone-number)
 

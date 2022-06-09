@@ -32,3 +32,14 @@ To permanently release or remove one or more phone numbers from your organizatio
 3. Select **Disconnect** for **Disconnect from Azure**. A dialog requesting you to confirm the disconnection is displayed. 
 4. Select **Disconnect** again.
    Any phone numbers associated with the resource will no longer be displayed on the **Phone numbers** page.
+
+### See also
+ 
+[Manage phone numbers](voice-channel-manage-phone-numbers.md)  
+[Connect to Azure Communication Services](voice-channel-acs-resource.md)  
+[Import phone numbers](voice-channel-sync-from-acs.md)  
+[Integrate a third-party IVR system with voice channel](voice-channel-contextual-transfer-external-ivr.md)  
+[Supported cloud locations, languages, and locale codes](voice-channel-region-availability.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
+

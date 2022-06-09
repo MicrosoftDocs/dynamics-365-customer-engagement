@@ -21,7 +21,7 @@ Before you connect an Azure resource to Azure Communication Services, you must p
 - Check whether the **Get started** button to connect to an existing Azure resource is visible on the **Phone numbers** page. The **Get Started** button appears only in the following scenarios.
     - The trial has ended after the free calling time has elapsed.
     - You've manually ended the trial.
-    - You've disconnected from the Azure resource. More information: [Disconnect from Azure Communication Services resource](voice-channel-acs-resource.md#disconnect-from-azure-communication-services-resource)
+    - You've disconnected from the Azure resource. More information: [Disconnect from Azure Communication Services resource](voice-channel-disconnect-from-acs.md)
 - Have an Azure subscription that's in the same tenant as your Dynamics 365 account. Ensure that your Azure subscription meets the [Subscription eligibility and number capabilities](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability) requirements.
 - Have at least contributor-level permissions to the Azure subscription. To check your role, open your subscription and view the **My role** column of your subscription on the Azure portal. You'll be able to deploy your Azure Communication Services resource only if you have contributor-level permissions.
  
@@ -52,9 +52,12 @@ Your new Azure resource is connected to Azure Communication Services. You can no
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
 [Connect to Azure Communication Services](voice-channel-acs-resource.md)  
 [Connect using an existing Azure resource](voice-channel-connect-existing-resource.md)  
+[Disconnect from Azure Communication Services](voice-channel-disconnect-from-acs.md)  
 [Set up outbound calling](voice-channel-outbound-calling.md)  
 [Set up inbound calling](voice-channel-route-queues.md)  
 [Bring your own carrier](voice-channel-bring-your-own-number.md)  
 [Integrate third-party IVR systems with voice channel](voice-channel-contextual-transfer-external-ivr.md)   
+[Import phone numbers](voice-channel-sync-from-acs.md)  
+[Disconnect from Azure Communication Services](voice-channel-disconnect-from-acs.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

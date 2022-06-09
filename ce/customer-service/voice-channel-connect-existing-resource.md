@@ -22,7 +22,7 @@ Before you connect an existing Azure resource to Azure Communication Services, y
 - Check whether the **Get started** button to connect to an existing Azure resource is visible on the **Phone numbers** page. The **Get Started** button appears only in the following scenarios.
     - The trial has ended after the free calling time has elapsed.
     - You've manually ended the trial.
-    - You've disconnected from the Azure resource. More information: [Disconnect from Azure Communication Services resource](voice-channel-acs-resource.md#disconnect-from-azure-communication-services-resource)
+    - You've disconnected from the Azure resource. More information: [Disconnect from Azure Communication Services resource](voice-channel-disconnect-from-acs.md)
 - Get the name and ID of your Azure resource from the Azure portal.
    To get the resource name and ID, open your resource on the Azure portal, go to **Settings** > **Properties**. Note the values of the **Id** and **Resource name** fields.
 - Get the connection string of your Azure resource from the Azure portal. More information: [Access your connection string and endpoints](/azure/communication-services/quickstarts/create-communication-resource?tabs=windows&pivots=platform-azp#access-your-connection-strings-and-service-endpoints)
