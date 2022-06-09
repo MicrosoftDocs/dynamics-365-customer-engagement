@@ -1,5 +1,5 @@
 ---
-title: "Work with case grids | MicrosoftDocs"
+title: "Manage cases with case grids | MicrosoftDocs"
 description: "Learn how to work with case grids and increase agent productivity. "
 ms.date: 06/09/2022
 ms.topic: article
@@ -18,7 +18,7 @@ ms.custom:
   - intro-internal
 ---
 
-# Work with case grids (Preview)
+# Manage cases with case grids (Preview)
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
