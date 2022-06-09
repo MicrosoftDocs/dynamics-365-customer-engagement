@@ -12,33 +12,33 @@ ms.topic: article
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
-This article provides information about the supported cloud locations, languages, and locale codes for the voice channel in Omnichannel for Customer Service.
+This article provides information about the supported cloud locations, languages, and locale codes.
 
-Need information about international availability of live chat and digital messaging channels? See [International availability of Omnichannel for Customer Service](international-availability.md#international-availability-of-omnichannel-for-customer-service).
+For information about international availability of live chat and digital messaging channels, see [International availability of Omnichannel for Customer Service](international-availability.md#international-availability-of-omnichannel-for-customer-service).
 
 ## Supported cloud locations
 
-If the voice channel in Omnichannel for Customer Service for your country or region-specific cloud deployments aren't yet available, use the general region deployments. For example, country/region cloud for local deployment in the United Kingdom is **To be announced** and isn't a part of Europe geographical region availability.
-
- If you need your data to stay within a country or region, stay tuned for country or region-specific local deployment of the voice channel. More information: [Datacenter regions](/power-platform/admin/new-datacenter-regions)
+The following table lists the availability of the voice channel in Omnichannel for Customer Service for various regions. Use the general region deployments if the voice channel in Omnichannel for Customer Service is not yet available for your country or region-specific cloud deployments. 
 
 > [!IMPORTANT]
-> Your Microsoft 365 tenant must be colocated in one of the following geographic locations where Omnichannel for Customer Service is available. These geographic locations refer to your Microsoft 365 tenant only and not the data center where your Dynamics 365 environment or org instance resides.
+> - Your Microsoft 365 tenant must be colocated in one of the following geographic locations where Omnichannel for Customer Service is available.
+> - The geographic locations refer to your Microsoft 365 tenant only and not the data center where your Dynamics 365 environment or org instance resides.
 
-Use the information in the following table to know about the availability of the voice channel in Omnichannel for Customer Service.
+**General region deployments**
 
-|Geographic location | Availability | Availability in Customer Service trial|
+|Geographic location | General availability | Availability in Customer Service trial|
 |----------|---------|-----|
 |North America (crm.dynamics.com) |November 2021  | November 2021|
 |Europe, Middle East, Africa (crm4.dynamics.com)|December 2021 | May 2022|
 |Asia Pacific (crm5.dynamics.com) |December 2021 | May 2022 |
 |Australia, New Zealand, Fiji (crm6.dynamics.com) |December 2021 |To be announced|
 |South America (crm2.dynamics.com) |To be announced | To be announced|
-|Country/Region clouds: Canada, France, Germany, India, Japan, Switzerland, United Arab Emirates (UAE), United Kingdom |To be announced |To be announced|
 |Government Community Cloud (GCC) (crm9.dynamics.com) |To be announced |To be announced|
 ||||
 
-### Microsoft as a carrier
+If you need your data to stay within a country or region, see the following table for preview and general availability timelines. Stay tuned for country or region-specific local deployment of the voice channel. More information: [Datacenter regions](/power-platform/admin/new-datacenter-regions)
+
+**Region-specific deployments**
 
 Microsoft as a carrier is available for customers with billing locations in select geographies around the world. To learn more about your eligibility, see [Subscription eligibility and number capabilities](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability).
 
@@ -46,9 +46,10 @@ You can purchase new phone numbers through the Azure portal, and then sync with 
 
 You can also port existing US or toll-free phone numbers. More information: [Port a phone number](/azure/communication-services/quickstarts/telephony/port-phone-number)
 
+
 ### Azure direct routing
 
-You can bring your own carrier through [Azure direct routing (preview)](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing). This feature is supported across all geographic locations using certified Session Border Controller (SBC). To know more, see [Bring your own carrier](voice-channel-bring-your-own-number.md)
+You can bring your own carrier through Azure direct routing (preview). This feature is supported across all geographic locations using certified Session Border Controller (SBC). More information: [Bring your own carrier](voice-channel-bring-your-own-number.md)
 
 In the geographic location where the voice channel is generally available, Azure direct routing extends general availability support.
 
@@ -65,7 +66,6 @@ See the information in the following table to know about the supported languages
 | Language | Locale code | Voice channel | Power Virtual Agents | Speech-to-Text | Text-to-Speech | Sentiment | AI suggestions | UI language support |
 |---|---|---|---|---|---|---|---|---|
 | Afrikaans - South Africa | `af- ZA` |x|x|x|x|x|x|x|
-| Albanian | `sq` |x|x|x|x|x|x|x|
 | Amharic | `am- ET` |x|x|x|x|x|x|x|
 | Arabic - Algeria| `ar-DZ` |x|x|✔|✔|x|x|x|
 | Arabic - Bahrain| `ar-BH` |x|x|✔|✔|x|x|x|
