@@ -4,7 +4,7 @@ description: "Get information on Markdown formats that agents can use in Omnicha
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 03/04/2022
+ms.date: 06/10/2022
 ms.topic: reference
 
 ---
@@ -26,9 +26,8 @@ In Omnichannel for Customer Service, you can use Markdown to format messages whe
 
 ## Markdown formats
 
-The following table lists the Markdown formats that you can use. Formatted messages are supported in channels such as Microsoft Teams, WhatsApp, Facebook, Telegram, and Direct Line.
-
-To know the formats supported by the various channels, see [Support for formatted messages](card-support-in-channels.md#formatted-messages).
+Formatted messages are supported in channels such as Microsoft Teams, WhatsApp, Facebook, Telegram, and Direct Line. More information: [Support for formatted messages](card-support-in-channels.md#formatted-messages)
+The following table lists the Markdown formats that you can use in Omnichannel for Customer Service. 
 
 |  Style                    |    You type...                       | The text displays as...  |
 | ------------------------- | -------------------------------      | -----------------------  |
@@ -42,6 +41,9 @@ To know the formats supported by the various channels, see [Support for formatte
 | monospace                 | \`\`\` <br> text<br>\`\`\`           | ```text```                     |
 | numbered list             |  \<number\> item one                   |  <ol><li> item one </li> <li> item two</li></ol>  |
 | unordered list            | \* item one <br> or <br> - item one  |  \* item one <br> \* item two  |
+
+> [!Note]
+> We currently do not support line breaks in Markdown for messages.
 
 ### See also
 
