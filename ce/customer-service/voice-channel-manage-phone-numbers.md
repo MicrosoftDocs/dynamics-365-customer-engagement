@@ -169,7 +169,7 @@ If you no longer need a phone number, you can release it from your organization'
 [Import phone numbers](voice-channel-sync-from-acs.md)  
 [Disconnect from Azure Communication Services](voice-channel-disconnect-from-acs.md)  
 [Set up outbound calling](voice-channel-outbound-calling.md)  
-[Set up inbound calling](voice-channel-route-queues.md)  
+[Set up inbound calling](voice-channel-inbound-calling.md)  
 [Block spam numbers](voice-channel-block-number.md)  
 [Bring your own carrier](voice-channel-bring-your-own-number.md)  
 [Integrate a third-party IVR system with voice channel](voice-channel-contextual-transfer-external-ivr.md)  

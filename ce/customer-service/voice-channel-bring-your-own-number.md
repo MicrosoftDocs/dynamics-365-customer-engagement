@@ -62,7 +62,7 @@ The new phone number will be displayed in the **Phone numbers** list and is read
 [Overview of the voice channel](voice-channel.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
 [Set up outbound calling](voice-channel-outbound-calling.md)  
-[Set up inbound calling](voice-channel-route-queues.md)  
+[Set up inbound calling](voice-channel-inbound-calling.md)  
 [Connect to Azure Communication Services](voice-channel-acs-resource.md)  
 [Integrate a third-party IVR system with voice channel](voice-channel-contextual-transfer-external-ivr.md)  
 [Supported cloud locations, languages, and locale codes](voice-channel-region-availability.md)  
