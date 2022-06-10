@@ -38,7 +38,7 @@ You can configure a phone number in a workstream that allows the customer to cho
 
 1. In **Voice profile**, select a voice, voice style, speaking speed, and pitch for the bot.
 
-1. Turn on the **Post-call survey** toggle if you want the bot to present a survey to the customer at the end of the call. If this feature is turned on, the call is automatically transferred to the survey bot after the agent hangs up.
+1. Turn on the **Post-call survey** toggle if you want the bot to present a survey to the customer at the end of the call. If this feature is turned on, the call will automatically get transferred to the survey bot after the agent hangs up.
 
 1. When you've finished configuring the settings, select **Confirm**.
 
@@ -48,7 +48,7 @@ You can configure a phone number in a workstream that allows the customer to cho
 
 Define the language-based routing rules. More information: [Configure work classification rulesets for unified routing](configure-work-classification.md)
 
-## Configuration considerations
+## Considerations
 
 Here are a few things to consider when you configure your bots for multilingual contact center.
 - The language of the bot must be the same as that of the voice workstream to which the bot will be attached. 
