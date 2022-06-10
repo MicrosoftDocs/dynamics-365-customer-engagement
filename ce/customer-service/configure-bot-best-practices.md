@@ -22,7 +22,7 @@ Consider the following points when you configure Azure bots in Omnichannel for C
 
 ### See also
 
-[Integrate an Azure bot](configure-bot.md)  
+[Integrate an Azure bot](configure-bot-azure.md)  
 [Configure bots to escalate and end conversations](bot-escalate-end-conversation.md)  
 [Context variables for a bot](context-variables-for-bot.md)  
 
