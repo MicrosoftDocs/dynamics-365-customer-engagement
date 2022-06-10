@@ -3,6 +3,14 @@
 
 (Includes Resource Scheduling controls version 1.2.19.221374).
 
+-	Msdyn_SearchResourceAvailability API fix applying Territories constraint.
+-	Updates to new schedule board: 
+    -	Schedule assistant update to show error message from server side plug in.
+    -	Schedule assistant use of custom filters.
+    -	Date picker localization of “Today”.
+    -	Map view support for certain letters (e.g. ŁĄŚĆŻĘŃÓŹ).
+    -	Schedule board loading when no default language is provider (e.g. UiLanguageId missing in UserSettings). 
+
 ## 3.12.77.18
 
 (Includes Resource Scheduling controls version 1.2.18.221304).
