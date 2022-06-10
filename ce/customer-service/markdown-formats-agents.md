@@ -27,9 +27,9 @@ In Omnichannel for Customer Service, you can use Markdown to format messages whe
 ## Markdown formats
 
 Formatted messages are supported in channels such as Microsoft Teams, WhatsApp, Facebook, Telegram, and Direct Line. More information: [Support for formatted messages](card-support-in-channels.md#formatted-messages)
-The following table lists the Markdown formats that you can use in Omnichannel for Customer Service. 
+The following table lists the Markdown formats that you can use for your chat messages in Omnichannel for Customer Service. 
 
-|  Style                    |    You type...                       | The text displays as...  |
+|  Text style                    |    You type...                  | The text displays as...  |
 | ------------------------- | -------------------------------      | -----------------------  |
 | bold                      | \*bold\*                             | **text**                 |
 | italics                   | \_italics\_                          | *text*                   |
