@@ -130,6 +130,7 @@ The following stages are available:
   > Assignment trace is currently unavailable in the North America region.
 
   - **Assignment criteria**:
+      - **Preferred agent**: Displays whether the setting is enabled or disabled. (This feature is in preview.)
       - **Assignment method**: Displays "Highest", "Round robin", or "custom".
       - **Capacity**: Displays the capacity information.
       - **Presence**: Displays the presence used.
