@@ -32,6 +32,10 @@ As a seller, you can personalize the sales accelerator by determining how activi
 
 Configure your working days, hours, and days off to adjust scheduled tasks and lead assignment according to your availability. For example, you're taking a day off on April 1, 2021, and you have a few activities to complete that day. When you configure the calendar with your day off, any activities that were scheduled for that day will be moved to your next available date or time.
 
+>[!NOTE]
+>As a sales manager, you can configure the availability of sellers who report to you through the calendar API. While using the API, enter the value of the ```EntityLogicalName``` string as ```msdyn_extendedusersetting```.
+>More information: [Edit work hour calendars by using APIs](https://docs.microsoft.com/dynamics365/field-service/field-service-work-hours-calendar-api) 
+
 Depending on the license you have in the organization, you use one of the following ways to configure your work availability:
 - Sales Premium: [Through work list settings](#through-work-list-settings)
 - Sales Enterprise: [Through personal settings](#through-personal-settings)
