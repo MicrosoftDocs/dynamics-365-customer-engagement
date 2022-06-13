@@ -10,7 +10,7 @@ ms.topic: article
 
 # Best practices for configuring Azure bots
 
-Consider the following points when you configure Azure bots in Omnichannel for Customer Service:
+Here are some best practices that you can follow when you configure Azure bots in Omnichannel for Customer Service:
 
 - In a queue, if both bots and human agents are available, set the bot’s capacity higher than all agents. A bot’s capacity is not reduced even after a work item is assigned to it. This ensures that any chat routed to the queue is first picked up by the bot.
 
