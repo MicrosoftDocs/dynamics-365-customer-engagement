@@ -42,8 +42,8 @@ Chatbot session add-ons entitle customers with Chat or Digital Messaging to an a
 ### See also
 
 [Overview of bots](overview-bots.md)  
-[Integrate an Azure bot](configure-bot.md)  
+[Integrate an Azure bot](configure-bot-azure.md)  
 [Integrate Power Virtual Agents bot](configure-bot-virtual-agent.md)  
-[Configure Power Virtual Agents bot for voice](voice-channel-ivr-bots.md)  
+[Configure Power Virtual Agents bot for voice](voice-channel-pva-bots.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: "Create and manage data masking rules | MicrosoftDocs"
 description: "Learn how to create and manage data masking rules to block sensitive data in Omnichannel for Customer Service."
-ms.date: 04/04/2022
+ms.date: 06/09/2022
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
@@ -56,8 +56,6 @@ As an administrator, you can delete or modify the out-of-the-box masking rules a
      - In the site map, in **Advanced settings**, select **Agent experience**.
 
 1.	Select **Manage** for **Data masking**.
-
-    If you're using the Omnichannel Administration app, select **Data Masking** under **Settings**.
 
 1.	In **Masking rules**, select **New Masking Rule**.
 

@@ -4,15 +4,13 @@ description: "Learn about managing settings in Customer Service"
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
+ms.date: 06/09/2022
 ms.topic: article
 ---
 
 # Manage settings
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
-
-## Introduction
 
 The Settings option under Customer Service workspace or Omnichannel Administration lets you manage the settings required to run or use Customer Service workspace or Omnichannel for Customer Service.
 

@@ -21,7 +21,7 @@ This article explains how you can program an Azure bot to route a conversation t
 
 ## Prerequisites
 
-- You must have an Azure bot that's configured and integrated with Omnichannel for Customer Service. More information: [Integrate an Azure bot](configure-bot.md)
+- You must have an Azure bot that's configured and integrated with Omnichannel for Customer Service. More information: [Integrate an Azure bot](configure-bot-azure.md)
 - Skill-based routing should be enabled.
 
 ## Escalate a conversation to a human agent
@@ -274,7 +274,7 @@ The bot can also send an escalation summary that'll be visible only to the agent
 
 ### See also
 
-[Integrate an Azure bot](configure-bot.md)  
+[Integrate an Azure bot](configure-bot-azure.md)  
 [Add context variables](context-variables-for-bot.md#add-context-variables)  
 [Azure Bot Service](/azure/bot-service/?view=azure-bot-service-4.0&preserve-view=true)  
 [Connect a bot to channels](/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0&preserve-view=true)  

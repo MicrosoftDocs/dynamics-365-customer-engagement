@@ -227,6 +227,7 @@ To view more videos on Omnichannel for Customer Service, see [Videos](videos.md)
 
 ### See also
 
+[Integrate an Azure bot](configure-bot-azure.md)  
 [Understand and create workstreams](create-workstreams.md)  
 [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)  
 [Identify customers automatically](record-identification-rule.md)  
@@ -234,5 +235,6 @@ To view more videos on Omnichannel for Customer Service, see [Videos](videos.md)
 [Enable a bot to escalate and end conversation](bot-escalate-end-conversation.md)  
 [Create and edit topics in Power Virtual Agents bot](/power-virtual-agents/authoring-create-edit-topics)  
 [Suggested actions](suggested-actions.md)  
+[Best practices for configuring Azure and Power Virtual Agents bots](configure-bot-best-practices.md) 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

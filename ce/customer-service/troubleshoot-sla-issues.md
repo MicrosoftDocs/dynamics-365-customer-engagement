@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot SLA issues in Customer Service | Microsoft Docs
 description: Know about the SLA issues and how to troubleshoot them.
-ms.date: 05/12/2022
+ms.date: 06/01/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -70,7 +70,7 @@ When you define the **Applicable when** and **Success condition** on the same at
 > [!NOTE]
 > When you define the conditions on the same attribute, a recommendation message is displayed that suggests you to not use the same attribute.
 
-### Workaround
+### Resolution
 
 In such scenarios, we recommend that you don't define the **Applicable when** and **Success condition** on the same attribute.
 
@@ -110,7 +110,7 @@ The flow runs that are created for the SLA KPI Instances timer fail with a licen
 
 ### Reason
 
-The **SLAWarningAndExpiryMonitoringFlow** is required to move the **SLA KPI Instances** to a **Nearing non-compliance** or **Non-complaint** state. This flow always works in the context of the user who activates the first SLA in the organization. It must be ensured that the user who activates the first SLA on the organization must have all the required licenses for the flow execution.
+The **SLAWarningAndExpiryMonitoringFlow** is required to move the **SLA KPI Instances** to a **Nearing non-compliance** or **Non-complaint** state. The flow always works in the context of the user who activates the first SLA in the organization. It must be ensured that the user who activates the first SLA on the organization must have all the required licenses for the flow execution.
 
 If the user is missing any of the required licenses, then the flow runs that are created for the corresponding SLA KPI Instance will fail with a license required error: "The user with SystermUserId = XXXX in OrganizationContext = YYYY is not licensed". Thus, the SLA KPI Instance will never reach the **Nearing non-compliance** or **Non-complaint** state and the SLA KPI Instance timer will continue to run.
 
@@ -126,6 +126,27 @@ To change the owner of any flow, perform the following steps:
 1. Search for the failed flow with the error.
 1. Select **Edit**. A new flyout menu is displayed, where you can set a new owner.
 1. In the Owner field, remove the current owner and add the new owner. Ensure that the new owner has all required flow licenses.
+
+##  Warning message appears on slakpiinstances
+
+The following warning message is displayed on entity records: "The SLA instances may be incorrect because workflow <*workflow ID*> is turned off. Please contact your admin to turn the workflow on."
+
+The workflow ID varies from system to system.
+
+### Reason
+
+The **SLAWarningAndExpiryMonitoringFlow** must be  enabled.
+
+### Resolution
+
+If none of the Unified Interface SLAs are activated, then you must activate one of the SLAs to activate the **SLAWarningAndExpiryMonitoringFlow**.
+
+However, if all the SLAs are active but the flow is still deactivated, perform the following steps:
+
+1. In https://powerautomate.microsoft.com, navigate to **My flows > Cloud flows**.
+2. In **Cloud flows**, select  **SLAWarningAndExpiryMonitoringFlow**.
+3. Select **Turn on**.
+
 
 ### See also
 
