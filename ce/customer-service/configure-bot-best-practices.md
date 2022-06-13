@@ -1,6 +1,6 @@
 ---
-title: "Best practices for configuring Azure bots | MicrosoftDocs"
-description: "Use this article to understand the best practices for configuring Azure bots in Omnichannel for Customer Service."
+title: "Best practices for configuring bots | MicrosoftDocs"
+description: "This article lists the best practices that you can follow when you configure Azure and Power Virtual Agents bots in Omnichannel for Customer Service."
 ms.date: 05/16/2022
 author: neeranelli
 ms.author: nenellim
@@ -8,9 +8,9 @@ manager: shujoshi
 ms.topic: article
 ---
 
-# Best practices for configuring Azure bots
+# Best practices for configuring bots
 
-Here are some best practices that you can follow when you configure Azure bots in Omnichannel for Customer Service:
+Here are some best practices that you can follow when you configure Azure and Power Virtual Agents bots in Omnichannel for Customer Service:
 
 - In a queue, if both bots and human agents are available, set the bot’s capacity higher than all agents. A bot’s capacity isn't reduced even after a work item is assigned to it. This ensures that any chat routed to the queue is first picked up by the bot.
 
@@ -23,6 +23,7 @@ Here are some best practices that you can follow when you configure Azure bots i
 ### See also
 
 [Integrate an Azure bot](configure-bot-azure.md)  
+[Integrate a Power Virtual Agents bot](configure-bot-virtual-agent.md)  
 [Configure bots to escalate and end conversations](bot-escalate-end-conversation.md)  
 [Context variables for a bot](context-variables-for-bot.md)  
 

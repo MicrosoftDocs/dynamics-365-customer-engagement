@@ -882,6 +882,8 @@
       href: overview-bots.md
     - name: Bot sessions and licensing
       href: bot-session-licensing.md
+    - name: Best practices for configuring bots
+      href: configure-bot-best-practices.md   
     - name: Administrator experience
       items:
       - name: Configure Azure bots
@@ -890,8 +892,6 @@
           href: configure-bot-azure.md
         - name: Sample configuration
           href: sample-config-azure-bot.md
-        - name: Best practices
-          href: configure-bot-best-practices.md
       - name: Integrate a Power Virtual Agents bot
         href: configure-bot-virtual-agent.md
       - name: Configure context variables for a bot
