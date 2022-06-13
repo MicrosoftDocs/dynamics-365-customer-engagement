@@ -116,9 +116,9 @@ After you've acquired a phone number, you must add it to a voice workstream to b
 
 1. In Customer Service admin center or Omnichannel admin center, go to the **Phone numbers** page, and then select the phone number that's marked **Ready for setup** in the **Status** column.
 2. Select **Setup workstream**. The **Workstreams** page with a list of all workstreams is displayed.
-3. If you want to create a new workstream, select **New workstream** and then follow the steps to [set up a voice workstream](voice-channel-route-queues.md#set-up-a-voice-workstream).
+3. If you want to create a new workstream, select **New workstream** and then follow the steps to [set up a voice workstream](voice-channel-inbound-calling.md#set-up-a-voice-workstream).
 4. Select an existing workstream from the list.
-5. Follow the steps to [configure a voice channel](voice-channel-route-queues.md#configure-a-voice-channel).
+5. Follow the steps to [configure a voice channel](voice-channel-inbound-calling.md#configure-a-voice-channel).
 
    The phone number is added to the workstream, and you can view the **Connected** status for the phone number on the **Phone numbers** page.
 
@@ -128,7 +128,7 @@ After you've purchased phone numbers and associated them with voice workstreams,
 
 ## Configure voice channel for inbound calling
 
-You can also enable your agents to receive customer calls, create queues for the voice channel, and set up routing rules. More information: [Set up workstreams and queues for the voice channel](voice-channel-route-queues.md)
+You can also enable your agents to receive customer calls, create queues for the voice channel, and set up routing rules. More information: [Set up workstreams and queues for the voice channel](voice-channel-inbound-calling.md)
 
 ## Assign phone numbers to agents
 
@@ -169,7 +169,7 @@ If you no longer need a phone number, you can release it from your organization'
 [Import phone numbers](voice-channel-sync-from-acs.md)  
 [Disconnect from Azure Communication Services](voice-channel-disconnect-from-acs.md)  
 [Set up outbound calling](voice-channel-outbound-calling.md)  
-[Set up inbound calling](voice-channel-route-queues.md)  
+[Set up inbound calling](voice-channel-inbound-calling.md)  
 [Block spam numbers](voice-channel-block-number.md)  
 [Bring your own carrier](voice-channel-bring-your-own-number.md)  
 [Integrate a third-party IVR system with voice channel](voice-channel-contextual-transfer-external-ivr.md)  
