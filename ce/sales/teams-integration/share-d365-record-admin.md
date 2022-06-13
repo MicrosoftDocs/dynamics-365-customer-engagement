@@ -20,8 +20,8 @@ The Dynamics 365 app for Teams allows sellers to share and update Dynamics 365 r
 
 While business users can access the feature themselves by adding, signing-in and setting up the Dynamics 365 app for Teams, you can drive faster and more seamless adoption by:
 
-1.	Familiarizing with the feature
-2.	Uderstanding how the information is displayed in the interactive card
+1.	Familiarizing yourself with the feature
+2.	Understanding how the information is displayed in the interactive card
 3.	Pre-installing and pinning the app for business users who can benefit from the feature
 4.	Encouraging business users to sign-in and setup the app
 

@@ -45,10 +45,6 @@ No, you cannot change the action buttons on a card.
 
 The card is reloaded or refreshed every time you open the chat in which the card is inserted.
 
-## Why does the card not reflect the changes made by me when selecting View details on the card after I return to the chat?  
-
-The card is not yet automatically refreshed when you return to the chat after making changes to the record using the **View details** button. You need to manually refresh the card to see the updated information.
-
 ## What happens if I inadvertently share a record with someone who does not have permissions to view the record on Dynamics?
 
 Only users who are authorized to access the record on Dynamics are allowed to view the information on the card. Those who do not have permissions will see a message calling out their lack of permissions.
