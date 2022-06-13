@@ -14,9 +14,9 @@ Here are some best practices that you can follow when you configure Azure and Po
 
 - In a queue, if both bots and human agents are available, set the bot’s capacity higher than all agents. A bot’s capacity isn't reduced even after a work item is assigned to it. This ensures that any chat routed to the queue is first picked up by the bot.
 
-- In case of bot escalation, make sure that the context variables being updated by the bot and the corresponding routing rules match correctly.
+- When a bot escalates a conversation to a human agent, make sure that the context variables being updated by the bot and the corresponding routing rules match correctly.
 
-- If a chat that's escalated by the bot comes to the same queue due to incorrect configurations or due to failure in updating context variables, then bot won't be assigned the same chat again. This ensures that the chat doesn't end up in an infinite loop. Therefore, some human agents should be configured as backup in the bot queue to handle such chats.
+- When a chat escalated by a bot comes to the same queue due to incorrect configurations or due to failure in updating context variables, then the bot won't be assigned to the same chat again. This ensures that the chat doesn't end up in an infinite loop. Therefore, some human agents should be configured as backup in the bot queue to handle such chats.
 
 - Unlike other Omnichannel for Customer Service agents, bots aren't added to a "default" queue at the outset; they're added from the Omnichannel admin center or Customer Service admin center apps.
 
@@ -26,5 +26,6 @@ Here are some best practices that you can follow when you configure Azure and Po
 [Integrate a Power Virtual Agents bot](configure-bot-virtual-agent.md)  
 [Configure bots to escalate and end conversations](bot-escalate-end-conversation.md)  
 [Context variables for a bot](context-variables-for-bot.md)  
+[Fallback queues](queues-omnichannel.md#fallback-queues)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
