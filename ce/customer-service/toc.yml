@@ -577,7 +577,7 @@
       - name: Manage phone numbers
         href: voice-channel-manage-phone-numbers.md
       - name: Set up inbound calling
-        href: voice-channel-inbound calling.md      
+        href: voice-channel-inbound-calling.md      
       - name: Set up outbound calling
         href: voice-channel-outbound-calling.md
       - name: Configure historical analytics for voice
