@@ -30,12 +30,12 @@ When you create an event from a template, the main template record and all its r
 
 ## Event template limitations
 
-Creating a template from event is essentially the same as creating an event from an event. There are, however, a few differences between the operations. It's handy to know the differences between templates and creating an event from an event because some plugins are sensitive to whether the clone is a template or an event.
+Creating a template from an event is essentially the same as creating an event from an event. There are, however, a few differences between the operations. It's handy to know the differences between templates and creating an event from an event because some plugins are sensitive to whether the clone is a template or an event.
   
 The following information isn't copied to templates:
 
 - The start/end date of the session's speaker engagements
-- The start/end date of event's speaker engagements
+- The start/end date of the event's speaker engagements
 - The event room reservations
 - Session room reservations
 - Webinar configurations
