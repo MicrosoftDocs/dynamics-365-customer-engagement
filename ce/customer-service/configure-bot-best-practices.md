@@ -14,9 +14,9 @@ Consider the following points when you configure Azure bots in Omnichannel for C
 
 - In a queue, if both bots and human agents are available, set the bot’s capacity higher than all agents. A bot’s capacity is not reduced even after a work item is assigned to it. This ensures that any chat routed to the queue is first picked up by the bot.
 
-- In case of bot escalation, make sure that context variables being updated by the bot and the corresponding routing rules are correctly matched.
+- In case of bot escalation, make sure that the context variables being updated by the bot and the corresponding routing rules match correctly.
 
-- If a chat that's escalated by the bot comes to the same queue due to incorrect configurations or due to failure in updating context variables, the bot will not be assigned the same chat again. This is to ensure that the chat does not end up in an infinite loop. Therefore, some human agents should be configured as backup in the bot queue to handle such chats.
+- If a chat that's escalated by the bot comes to the same queue due to incorrect configurations or due to failure in updating context variables, then bot won't be assigned the same chat again. This is to ensure that the chat doesn't end up in an infinite loop. Therefore, some human agents should be configured as backup in the bot queue to handle such chats.
 
 - Unlike other Omnichannel for Customer Service agents, bots are not added to a "default" queue at the outset; they're added from the Omnichannel admin center or Customer Service admin center apps.
 
