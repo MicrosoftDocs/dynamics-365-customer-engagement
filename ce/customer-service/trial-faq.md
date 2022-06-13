@@ -42,10 +42,8 @@ The environment you receive in trial is a fully functional, Dynamics 365 environ
 - Dynamics 365 Customer Service Enterprise
   - Customer Service workspace with AI-powered case and knowledge suggestions, knowledge search, and agent scripts with macros for common tasks automation
   - Case management, knowledge management, unified routing, email
-- Dynamics 365 Digital Messaging
-  - Chat and channels
-- Voice Channel for Dynamics 365 Customer Service
-  - Voice channel
+- Digital Messaging and Voice Channel for Dynamics 365 Customer Service
+  - Chat, voice, and other digital messaging channels
 - Power Apps
   - To create app profiles, configure templates, customize the solution
 - Dynamics 365 Power Virtual Agents
