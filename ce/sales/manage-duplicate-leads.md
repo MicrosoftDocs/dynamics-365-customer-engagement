@@ -75,18 +75,20 @@ After detecting the duplicates, you can merge and maintain a single record. More
  
 ## Merge duplicate leads
 
-To work on a prospect, merge the duplicate records into a single relevant record. With the duplicate detection feature of Microsoft Power Platform, you can only merge one with the primary record. The sales duplicate detection feature is enhanced to merge a record with at least four duplicates. This helps the sellers to maintain a single record with the latest information.
+To work on a prospect, you first need to merge any duplicate records into a single record. With the duplicate detection feature of Microsoft Power Platform, you can only merge one duplicate with the primary record. The Sales duplicate detection feature has been enhanced so you can merge a record that has as many as<!--note from editor: "At least" implies that there must be a minimum of four --> four duplicates. This helps you maintain a single record with the latest information.
 
-Let’s look at the merger process with an example–**Lidman Anna**.
+Let's look at the merge process by using an example of a lead named **Lidman Anna**.
 
-1.	Open the lead. More information: [View and identify duplicate leads](#view-and-identify-duplicate-leads).    
+1.	Open the lead as described in [View and identify duplicate leads](#view-and-identify-duplicate-leads), earlier in this article.<!--note from editor: I think you need to fix the template you're using. These trailing spaces create a "line feed"-type break in the middle of text. This violates our style on docs.microsoft.com, which is to use blank lines to show that a new paragraph is beginning. Even worse, these breaks disappear completely when the window is resized just so. Also, you're using hard tabs instead of spaces for lists, which is probably because of this template and isn't correct markdown.-->
+
     In this example, we're opening the **Lidman Anna (sample)** record.
  
     >[!div class="mx-imgBorder"]
     >![Open a lead from the list to merge with duplicates](media/lead-duplicate-merge-open-lead.png "Open a lead from the list to merge with duplicates") 
 
-2.	On the duplicate records dialog box, select the records that you want to merge. You can select up to four duplicate records.    
-    The **Lidman Anna (sample)** lead contains three possible duplicates and select the records that you want to merge. 
+2.	In the duplicate records dialog, select the records that you want to merge. You can select up to four duplicate records.
+
+    The **Lidman Anna (sample)** lead contains three possible duplicates. Select the records that you want to merge. 
 
     >[!div class="mx-imgBorder"]
     >![Select duplicate records to merge](media/lead-duplicate-select-records-merge.png "Select duplicate records to merge") 
@@ -94,34 +96,39 @@ Let’s look at the merger process with an example–**Lidman Anna**.
     >[!NOTE]
     >The **Merge** option will be active only when you select the current record and at least one duplicate record.    
 
-3.	Select **Merge**.    
-    The Merge dialog opens and let’s look at it in detail. 
+3.	Select **Merge**.
+ 
+    The Merge dialog opens. Let's look at it in detail. 
 
     >[!div class="mx-imgBorder"]
-    >![The merge dialog box opens with merge details](media/lead-duplicate-merge-dialog.png "The merge dialog box opens with merge details") 
+    >![The Merge dialog opens with merge details](media/lead-duplicate-merge-dialog.png "The Merge dialog opens with merge details") 
  
-    -	**Primary record**: A primary record is always the lead that has most activities related to it or the most recently updated. For example, though we have selected **Lidman Anna (sample)** to view the duplicates, the primary record is **Lidman Anna** with topic **Wi-Fi Printer**. Because **Lidman Anna** with topic **Wi-Fi Printer** is the most recently updated record.    
-        
-        To make other records as primary, select the **Make primary** option from the top of the record. A confirmation message is displayed stating that the changes made to the current primary record will be lost, select **Continue**.    
+    - **Primary record**: A primary record is always the lead that has the most activities related to it or was most recently updated. For example, though we've selected **Lidman Anna (sample)** to view the duplicates, the primary record is **Lidman Anna** with the topic **Wi-Fi Printer** because this is the record that was most recently updated.
 
-    -	**Fill the empty fields of the primary record**: If the primary record contains empty fields and the other records have values, select the **Fill the empty fields of the primary record** option. By default, the option is selected.      
-        
-        The empty fields in the primary records are automatically updated with the information from the next available record (in the order of display). Also, you can see that the updated fields in the primary record are proceeded with the undo icon.    
-        
-        Similarly, field values that are added to the primary record are preceded with a check icon on the record from where it's added. For example, you can see that field values such as, **No. of Employees**, **Source Campaign**, and **Lead Source** are added from **Lidman Anna (sample)** to the primary record **Lidman Anna**.    
-        
-        To add the required value from the duplicate records to the primary record, hover over the field and select the check icon. For example, if you want the lead’s job title to be **Sales Manager**, select the **Job Title** field from the first duplicate record.    
-            
-        To remove the value of a field:   
-        -	Select the undo icon ![The undo icon](media/lead-duplicate-merge-undo-icon.png "The undo icon") on the primary record or    
-        -	Uncheck the filed on the duplicate record.   
+       To make another record the primary, select the **Make primary** option from the top of the record. In the confirmation message that appears, stating that the changes made to the current primary record will be lost, select **Continue**.    
 
-    - **Hide fields with same data**: To hide fields with similar values across all the records, select **Hide fields with same data**. By default, the option is selected.
+    - **Fill the empty fields of the primary record**: If the primary record contains empty fields and the other records contain values for those fields<!--note from editor: Suggested.-->, select **Fill the empty fields of the primary record**. By default, this option is selected.      
 
-4.	Select **Merge**.
+       The empty fields in the primary record will be automatically updated with the information from the next available record (in the order of display). The **Undo** icon ![The undo icon](media/lead-duplicate-merge-undo-icon.png "The undo icon") appears next to the fields that have been updated.
 
-5.	On the confirmation message, select **Continue**.
- 
+       Similarly, field values that have been added to the primary record are preceded with a check mark on the record from which they've been added. In our example, you can see that field values **No. of Employees**, **Source Campaign**, **State/Province**, and **Lead Source** have been added from **Lidman Anna (sample)** to the primary record **Lidman Anna**.    
+
+        To add a value from a duplicate record to the primary record, hover over the field and select the check mark icon. In our example, if you want the lead's job title to be **Sales Manager**, select the **Job Title** field from the first duplicate record.
+
+        To remove the value of a field, do one of the following:<!--note from editor: Just FYI, the format for the following is covered in the style guide at https://styleguides.azurewebsites.net/Styleguide/Read?id=2700&topicid=29028.-->
+
+        - Select ![The undo icon](media/lead-duplicate-merge-undo-icon.png "The undo icon") on the primary record.
+
+           or
+
+        - Clear the check mark next to the field on the duplicate record.
+
+    - **Hide fields with same data**: To hide fields that have similar values across all the records, select **Hide fields with same data**. By default, this option is selected.
+
+4. Select **Merge**.
+
+5. In the confirmation message, select **Continue**.
+
 The primary record is updated, and other records are deactivated. 
 
 ## Delete duplicate leads
