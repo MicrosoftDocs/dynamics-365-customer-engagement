@@ -98,13 +98,7 @@ As a user, you can always choose to opt out if you don't want Dynamics 365 to an
 
 2. Select **Settings & Privacy**, and then select the **Privacy** tab. 
 
-    > [!div class="mx-imgBorder"]
-    > ![Open privacy settings](media/sales-insights-addon-o365-privacy-settings-tab.png "Open privacy settings")
-
 3. In the **Services** section, select the arrow next to **Dynamics 365 applications**.  
-
-    > [!div class="mx-imgBorder"]
-    > ![Expand the Dynamics 365 applications option](media/sales-insights-addon-o365-expand-connection-graph-settings.png "A screenshot of the Dynamics 365 applications option")
 
 4. Turn off the **Include my data in Dynamics 365 applications** toggle.
 
