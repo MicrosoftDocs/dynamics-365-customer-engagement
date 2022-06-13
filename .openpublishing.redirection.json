@@ -1,5 +1,11 @@
 {
-  "redirections": [    {
+  "redirections": [
+    {
+      "source_path": "ce/marketing/create-spf-record.md",
+      "redirect_url": "mkt-settings-authenticate-domains#envelope-from-domain",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customerengagement/on-premises/admin/configure-server-based-authentication-sharepoint-on-premises.md",
       "redirect_url": "on-prem-server-based-sharepoint-on-prem",
       "redirect_document_id": "false"
@@ -22608,7 +22614,7 @@
       "source_path": "ce/sales-enterprise/manage-seller-attributes.md",
       "redirect_url": "/dynamics365/sales/manage-seller-attributes",
       "redirect_document_id": "false"
-    },
+    },    
     {
       "source_path": "ce/sales-enterprise/manage-snapshots-forecast.md",
       "redirect_url": "/dynamics365/sales/manage-snapshots-forecast",
@@ -23783,6 +23789,16 @@
       "source_path": "ce/customer-service/download-attachments-pva-bot.md",
       "redirect_url": "/dynamics365/customer-service/configure-bot-virtual-agent",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/sales/set-up-dynamics-365-sales.md",
+      "redirect_url": "/dynamics365/sales/intro-saleshub",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/voice-channel-azure-bot-service.md",
+      "redirect_url": "/dynamics365/customer-service/configure-bot",
+      "redirect_document_id": "false"
     }
   ]
 }

@@ -16,8 +16,6 @@
         href: sales-previews-in-trial.md
   - name: Install and configure
     items:
-    - name: Set up Dynamics 365 Sales
-      href: set-up-dynamics-365-sales.md
     - name: Use the Sales Hub app 
       href: intro-saleshub.md
       items: 

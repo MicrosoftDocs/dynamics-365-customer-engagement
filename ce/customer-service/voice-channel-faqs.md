@@ -4,7 +4,7 @@ description: "This article includes frequently asked questions (FAQ) about the v
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/29/2022
+ms.date: 06/08/2022
 ms.topic: article
 
 ---
@@ -39,7 +39,7 @@ The voice channel supports the G.711 and Opus codecs for PSTN and VoIP services.
 
 ### Can I bring my own phone number?
 
-Yes, you have the following two options to bring your existing numbers to Dynamics 365:
+Yes, you have the following two options to bring your existing numbers to Dynamics 365.
 
 - Port the number to Azure Communication Services. This will change ownership of the phone number from the existing carrier to Microsoft. More information: [Quickstart: Port a phone number into Azure Communication Services](/azure/communication-services/quickstarts/telephony/port-phone-number)
 
@@ -47,7 +47,7 @@ Yes, you have the following two options to bring your existing numbers to Dynami
  
 ### How can I acquire additional phone numbers from Azure direct offer?
 
-You can purchase one phone number per tenant for Azure Communication Services through the Azure Portal. To acquire phone numbers in bulk or request for a specific phone number, complete this [form](https://github.com/Azure/Communication/blob/master/Forms/ACS%20-%20Bulk%20Number%20Acquisition.docx) and email it to acstnrequest@microsoft.com. Ensure that the subject line of the email begins with "Azure Communication Services Number Request:".
+You can purchase one phone number per tenant for Azure Communication Services through the Azure Portal. To acquire phone numbers in bulk or request for a specific phone number, download and complete this [form](https://github.com/Azure/Communication/blob/master/Forms/ACS%20-%20Manual%20Number%20Acquisition%20Form%20US-UK-CA-DK.docx) and email it to acstnrequest@microsoft.com. Ensure that the subject line of the email begins with "Azure Communication Services Number Request:".
 
 ### Can I keep my existing contract with my carrier?
 
@@ -73,16 +73,15 @@ The voice channel is supported only in the Customer Service workspace and Omnich
 
 See the following topics to set up the interactive voice response (IVR) bot in the voice channel:
 - [Configure Power Virtual Agents bots for voice](voice-channel-ivr-bots.md)
-- [Configure Azure bots for voice (preview)](voice-channel-azure-bot-service.md)
 - [Integrate third-party IVR systems with voice channel](voice-channel-contextual-transfer-external-ivr.md)
 
- ### Should the language of the bot be the same as the primary language configured in the Omnichannel admin center app?
+### Should the language of the bot be the same as the primary language configured in the Omnichannel admin center app?
  
 Yes, the language of the bot must be the same as that of the voice workstream to which the bot will be attached. You can configure different geographic locales for the bot and voice workstream.<br>
 
 For example, you can set English-UK in the voice profile and English-US in the bot.<br>
 
-The bot's accuracy depends on the similarities between locales. However, if you configure different locales, preconfigured entities for the bot, such as zipcode, might not be accurate. 
+The bot's accuracy depends on the similarities between locales. However, if you configure different locales, preconfigured entities for the bot such as zipcode, might not be accurate. 
 
 ### Can I recover a voice trial after it's no longer provisioned?
 
@@ -99,5 +98,5 @@ Yes, the voice channel supports emergency calling; agents can call the emergency
 ### See also
 
 [Introduction to the voice channel](voice-channel.md)  
-[System requirements](system-requirements-omnichannel.md)  
-[Voice channel regional availability](voice-channel-region-availability.md)  
+[System requirements for Omnichannel for Customer Service](system-requirements-omnichannel.md)  
+[Supported cloud locations, languages, and locale codes](voice-channel-region-availability.md)  
