@@ -1,7 +1,7 @@
 ---
 title: Configure the inbox | MicrosoftDocs
 description: Learn how to enable the inbox in Dynamics 365 Customer Service App profile manager and configure inbox settings in Customer Service admin center.
-ms.date: 04/04/2022
+ms.date: 06/09/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -21,6 +21,8 @@ ms.custom:
 As an administrator, you can configure the inbox setting so that when your agents open Customer Service workspace or Omnichannel for Customer Service, they can select the inbox icon to show all the cases and conversations that are assigned to them. The inbox is designed to help agents efficiently work on high velocity tasks, and promote inbox sessions to regular sessions when they need more time to resolve cases and complete their conversations.
 
 You can configure the inbox settings for custom experiences only.
+
+You can also configure and enable the inbox in [app profile manager](/dynamics365/app-profile-manager/app-profile-manager?branch=mg-app-profile#configure-the-inbox-view).
 
 The following asynchronized channels are available in the conversation inbox.
 
@@ -69,10 +71,6 @@ You can configure the inbox in the [Customer Service admin center](/app-profile-
     - **Agent Visibility**: Select one of the following options to show or hide the view to agents:
       - **Show**
       - **Hide**
-
-## Enable the inbox in App profile manager
-
-After you enable the inbox for a profile, any user who is added to the profile can use the inbox. More information: [Configure the inbox view in App profile manager.](/dynamics365/app-profile-manager/app-profile-manager#configure-the-inbox-view)
 
 ## Inbox views
 

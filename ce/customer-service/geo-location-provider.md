@@ -1,7 +1,7 @@
 ---
 title: "Set up visitor location detection | MicrosoftDocs"
 description: "Perform the steps to set up detection of visitor location and create a geo location provider record in Omnichannel for Customer Service."
-ms.date: 04/04/2022
+ms.date: 06/09/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -38,8 +38,6 @@ You can create a geo location provider record in the Customer Service admin cent
      2. In the **Geo location** section, select **Manage**.
 
       The **Active Geo Location Providers** page is displayed. 
-
- If you're using the Omnichannel Administration app, go to **Geo Location** under **Settings**. A list of existing records is displayed.
 
 2. Select **New** to add a geo location provider record.
 
