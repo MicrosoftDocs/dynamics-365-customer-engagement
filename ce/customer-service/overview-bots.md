@@ -36,9 +36,8 @@ When you integrate bots with Omnichannel for Customer Service, you get the follo
 ### See also
 
 [Bot sessions and licensing](bot-session-licensing.md)  
-[Integrate an Azure bot](configure-bot.md)  
+[Integrate an Azure bot](configure-bot-azure.md)  
 [Integrate Power Virtual Agents bot](configure-bot-virtual-agent.md)  
-[Configure Power Virtual Agents bot for voice](voice-channel-ivr-bots.md)  
-[Configure Azure bots for voice](voice-channel-azure-bot-service.md)  
+[Configure Power Virtual Agents bot for voice](voice-channel-pva-bots.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
