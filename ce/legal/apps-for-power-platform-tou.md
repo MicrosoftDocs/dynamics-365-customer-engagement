@@ -1,7 +1,7 @@
 ---
 title: Apps for Power Platform Terms of Use
 author: ReneeW-CPub
-ms.auhtor: ReneeW-CPub
+ms.author: renwe
 robots: noindex,nofollow
 ---
 
