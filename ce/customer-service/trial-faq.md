@@ -37,7 +37,7 @@ The following limitations apply for the trial:
 
 ### What features are available in the trial?
 
-The environment you receive in trial is a fully functional, Dynamics 365 environment with the following out of the box capabilities:
+The environment you receive in trial is a fully functional, Dynamics 365 environment with the following out-of-the-box capabilities:
 
 - Dynamics 365 Customer Service Enterprise
   - Customer Service workspace with AI-powered case and knowledge suggestions, knowledge search, and agent scripts with macros for common tasks automation
@@ -53,7 +53,7 @@ The environment you receive in trial is a fully functional, Dynamics 365 environ
 - Dynamics 365 Power Automate
   - To build customized and automated flows and business processes
 
-For more information on licenses and pricing, see: [Dynamics 365 Customer Service pricing](https://dynamics.microsoft.com/customer-service/pricing/)
+More information: [Dynamics 365 Customer Service pricing](https://dynamics.microsoft.com/customer-service/pricing/)
 ### How do I remove sample data from the trial instance?
 
 Your trial environment is curated to provide you with a fully functional application to ensure you can discover the business value of Customer Service right away. Sample data is provided to ensure all features are fully illustrated for you to learn how the product works as if it were deployed to many users in your organization and with existing customer interactions. Because it's a real environment, you can manually add or delete individual data records in your trial environment as you want. You can't do a bulk delete of the sample data and configurations from the trial environments.
