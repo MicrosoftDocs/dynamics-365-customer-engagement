@@ -577,13 +577,13 @@
       - name: Manage phone numbers
         href: voice-channel-manage-phone-numbers.md
       - name: Set up inbound calling
-        href: voice-channel-route-queues.md      
+        href: voice-channel-inbound calling.md      
       - name: Set up outbound calling
         href: voice-channel-outbound-calling.md
       - name: Configure historical analytics for voice
         href: cs-voice-historical-analytics.md  
       - name: Configure Power Virtual Agents bots for voice
-        href: voice-channel-ivr-bots.md
+        href: voice-channel-pva-bots.md
       - name: View voice calls usage
         href: voice-channel-usage.md
       - name: Configure post-call survey
@@ -887,11 +887,11 @@
       - name: Configure Azure bots
         items:
         - name: Integrate an Azure bot
-          href: configure-bot.md
+          href: configure-bot-azure.md
         - name: Sample configuration
           href: sample-config-azure-bot.md
         - name: Best practices
-          href: configure-azure-bot-best-practices.md
+          href: configure-bot-best-practices.md
       - name: Integrate a Power Virtual Agents bot
         href: configure-bot-virtual-agent.md
       - name: Configure context variables for a bot
