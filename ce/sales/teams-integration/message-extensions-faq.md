@@ -1,4 +1,4 @@
-﻿---
+---
 title: Frequently asked questions about messaging extensions
 description: Use this topic to know about the frequently asked questions and their answers about messaging extensions.
 ms.date: 05/24/2022
