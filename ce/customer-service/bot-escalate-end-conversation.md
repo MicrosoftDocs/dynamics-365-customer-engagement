@@ -1,7 +1,7 @@
 ---
 title: "Configure Azure bots to escalate and end conversations | MicrosoftDocs"
 description: "Use this article to understand how to program Azure bots to route conversations to human agents and also end conversations in Omnichannel for Customer Service."
-ms.date: 10/22/2021
+ms.date: 06/14/2022
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
