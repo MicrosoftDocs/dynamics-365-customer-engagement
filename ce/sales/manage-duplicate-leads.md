@@ -1,7 +1,7 @@
 ---
 title: "Manage duplicate leads"
 description: "Find and address duplicate leads by using duplicate detection in Dynamics 365 Sales."
-ms.date: 02/11/2022
+ms.date: 06/14/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
