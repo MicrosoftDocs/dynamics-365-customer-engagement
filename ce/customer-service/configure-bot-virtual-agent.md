@@ -209,9 +209,6 @@ When bots receive a conversation that is subsequently not escalated to a human a
 
 This conversation will then appear in the **Closed** state in the Omnichannel for Customer Service dashboard and in **Resolved/abandoned** state in the Power Virtual Agents dashboard. For more information on the state of conversations, see [Session outcomes over time chart](/power-virtual-agents/analytics-summary#session-outcomes-over-time-chart).
 
-## Enable a Power Virtual Agents bot to end conversations
-
-You can configure the Power Virtual Agents bot to end conversations when the customer issue has been resolved or if the customer has been inactive for a period of time. The bot conversations will automatically close after 30 minutes of inactivity.
 
 ## Privacy notice
 
