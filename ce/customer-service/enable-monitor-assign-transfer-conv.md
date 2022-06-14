@@ -8,7 +8,7 @@ ms.author: laalexan
 manager: shujoshi
 ---
 
-# Enable your supervisors to monitor, assign, and transfer conversations
+# Enable your supervisors to monitor, assign,transfer, and forcibly end conversations
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -34,12 +34,14 @@ As an administrator, you can enable your supervisors to take specific actions on
 
       The **Omnichannel Configuration.Supervisor Settings** page is displayed.    
 
-2. Enable the relevant supervisor setting as follows:
-    - To enable supervisors to monitor how conversations are happening or being handled by their agents, set the **Supervisor Monitor** toggle to **Yes**. 
+2. To enable the supervisors to perform the following actions, set the corresponding toggles to **Yes**:
+    - **Supervisor Monitor**: Monitor how conversations are happening or being handled by their agents.
 
-    - To enable supervisors to assign conversations to agents, set the **Supervisor Assign** toggle to **Yes**. 
+    - **Supervisor Assign**: Assign conversations to agents.
 
-    - To enable supervisors to transfer conversations from one agent to another, set the **Supervisor Transfer** toggle to **Yes**. 
+    - **Supervisor Transfer**: Transfer conversations from one agent to another.
+    - 
+    - **Force Close**: End resolved conversations that are still represented as being actively worked on by the agent.
 
 3. To disable any of the settings, set its corresponding toggle to **No**.
 

@@ -7,7 +7,7 @@ author: "neeranelli"
 ms.author: nenellim
 manager: shujoshi
 ---
-# Monitor, assign, and transfer conversations
+# Monitor, assign,transfer, and forcibly end conversations
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -81,6 +81,20 @@ You can transfer ongoing conversations that are in the **Active** or **Waiting**
 
 > [!NOTE]
 > When you transfer an **Active** conversation from one agent to another, the first agent is added as a consultant to the conversation that's now being managed by the second agent. The conversation is successfully transferred when the second agent acknowledges the notification by selecting **Accept** or **Reject**. Be sure to refresh the dashboard to get an updated status, just in case there are some network issues or delays in acknowledgment.
+
+## Force close conversations
+
+Conversations that have been resolved by an agent are sometimes represented as being actively worked on in the **My work items** section of **Omnichannel Agent Dashboard**. You can end such conversations and move them to the closed state . You can forcibly end all conversations that take place on messaging channels such as Live Chat, SMS, or WhatsApp.
+> [!NOTE]
+> **Force close** is not applicable to voice calls, routed records, or conversations that have been converted to audio or video calls.
+
+1. From the dashboard view selector in Omnichannel for Customer Service, select the **Omnichannel Ongoing Conversations** dashboard.
+
+    The list of available agents and their capacities is displayed.
+
+2. Select a conversation in the **Active** or **Waiting** state, and then select **Force Close**.
+
+When you forcibly end the conversation, the customer and agent are notified that the conversation is ended by the supervisor. 
 
 ### See also
 
