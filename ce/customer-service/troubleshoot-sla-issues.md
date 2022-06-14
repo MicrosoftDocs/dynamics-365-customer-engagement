@@ -149,8 +149,9 @@ However, if all the SLAs are active but the flow is still deactivated, perform t
 
 ## Deletion of SLA or the SLA Item throws error messages in UCI during solution upgrade or manual deletion
 
-The following two error messages are displayed:
- Error 1: "The SLA Item you tried to delete is associated with existing SLA KPI instances and cannot be deleted."
+The two following error messages are displayed:
+
+Error 1: "The SLA Item you tried to delete is associated with existing SLA KPI instances and cannot be deleted."
 
 Error 2: "SLAItem delete operation encountered some errors. The process is part of a managed solution and cannot be individually deleted. Uninstall the parent solution to remove the process. See log for more details."
 
@@ -168,8 +169,7 @@ Resolution 1:
 
 Resolution 2:
 
-The solution below will remove all the SLAs and nullify the SLA references.
-1. We recommend using the below script on the support instance first and then on the production instance post customer's confirmation.
+This resolution removes all the SLAs and nullifies the SLA references. We recommend using the following script on the support instance first and then on the production instance post customer's confirmation.
 https://dynamicscrm.visualstudio.com/OneCRM/_git/CRM.Internal.ScriptsForProduction?path=/Mitigation/Solutions/Service/DeleteSLAAndSLAItemWithReferenceForEntity.sql&version=GBmaster&_a=contents
 Parameters : {"@slaId":{"Type":"NVARCHAR(256)","Value":"<slaid>"}, "@objecttypecode":{"Type":"int","Value":"<relatedentity objecttypecode>"}}
 
