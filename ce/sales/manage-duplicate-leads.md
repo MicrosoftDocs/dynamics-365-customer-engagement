@@ -75,11 +75,11 @@ After detecting the duplicates, you can merge and maintain a single record. More
  
 ## Merge duplicate leads
 
-To work on a prospect, you first need to merge any duplicate records into a single record. With the duplicate detection feature of Microsoft Power Platform, you can only merge one duplicate with the primary record. The Sales duplicate detection feature has been enhanced so you can merge a record that has as many as<!--note from editor: "At least" implies that there must be a minimum of four --> four duplicates. This helps you maintain a single record with the latest information.
+To work on a prospect, you first need to merge any duplicate records into a single record. With the duplicate detection feature of Microsoft Power Platform, you can only merge one duplicate with the primary record. The Sales duplicate detection feature has been enhanced so you can merge a record that has as many as four duplicates. This helps you maintain a single record with the latest information.
 
 Let's look at the merge process by using an example of a lead named **Lidman Anna**.
 
-1.	Open the lead as described in [View and identify duplicate leads](#view-and-identify-duplicate-leads), earlier in this article.<!--note from editor: I think you need to fix the template you're using. These trailing spaces create a "line feed"-type break in the middle of text. This violates our style on docs.microsoft.com, which is to use blank lines to show that a new paragraph is beginning. Even worse, these breaks disappear completely when the window is resized just so. Also, you're using hard tabs instead of spaces for lists, which is probably because of this template and isn't correct markdown.-->
+1.	Open the lead as described in [View and identify duplicate leads](#view-and-identify-duplicate-leads), earlier in this article.
 
     In this example, we're opening the **Lidman Anna (sample)** record.
  
@@ -107,7 +107,7 @@ Let's look at the merge process by using an example of a lead named **Lidman Ann
 
        To make another record the primary, select the **Make primary** option from the top of the record. In the confirmation message that appears, stating that the changes made to the current primary record will be lost, select **Continue**.    
 
-    - **Fill the empty fields of the primary record**: If the primary record contains empty fields and the other records contain values for those fields<!--note from editor: Suggested.-->, select **Fill the empty fields of the primary record**. By default, this option is selected.      
+    - **Fill the empty fields of the primary record**: If the primary record contains empty fields and the other records contain values for those fields, select **Fill the empty fields of the primary record**. By default, this option is selected.      
 
        The empty fields in the primary record will be automatically updated with the information from the next available record (in the order of display). The **Undo** icon ![The undo icon](media/lead-duplicate-merge-undo-icon.png "The undo icon") appears next to the fields that have been updated.
 
@@ -115,7 +115,7 @@ Let's look at the merge process by using an example of a lead named **Lidman Ann
 
         To add a value from a duplicate record to the primary record, hover over the field and select the check mark icon. In our example, if you want the lead's job title to be **Sales Manager**, select the **Job Title** field from the first duplicate record.
 
-        To remove the value of a field, do one of the following:<!--note from editor: Just FYI, the format for the following is covered in the style guide at https://styleguides.azurewebsites.net/Styleguide/Read?id=2700&topicid=29028.-->
+        To remove the value of a field, do one of the following action:
 
         - Select ![The undo icon](media/lead-duplicate-merge-undo-icon.png "The undo icon") on the primary record.
 
@@ -129,7 +129,7 @@ Let's look at the merge process by using an example of a lead named **Lidman Ann
 
 5. In the confirmation message, select **Continue**.
 
-The primary record is updated, and other records are deactivated. 
+The primary record is updated, and other records are deactivated. If the deactivated duplicates contain related records, they're automatically merged and listed under the primary record. 
 
 ## Delete duplicate leads
 
