@@ -84,7 +84,7 @@ You can transfer ongoing conversations that are in the **Active** or **Waiting**
 
 ## Force close conversations
 
-Conversations that have been resolved by an agent are sometimes represented as being actively worked on in the **My work items** section of **Omnichannel Agent Dashboard**. You can end such conversations and move them to the closed state . You can forcibly end all conversations that take place on messaging channels such as Live Chat, SMS, or WhatsApp.
+Conversations that have been resolved by an agent are sometimes represented as being actively worked on in the **My work items** section of **Omnichannel Agent Dashboard**. You can use **Force Close** to end such conversations and move them to the closed state. You can force close conversations that take place on messaging channels such as Live Chat, SMS, or WhatsApp.
 > [!NOTE]
 > **Force close** is not applicable to voice calls, routed records, or conversations that have been converted to audio or video calls.
 
