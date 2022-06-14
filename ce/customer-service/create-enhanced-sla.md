@@ -1,7 +1,7 @@
 ---
 title: "Create enhanced service-level agreements in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how to create enhanced service-level agreements in Dynamics 365 Customer Service."
-ms.date: 06/07/2022
+ms.date: 06/14/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -22,8 +22,7 @@ ms.custom:
 
 > [!NOTE]
 >
->- Enhanced SLAs have been deprecated and replaced with Unified Interface SLAs. More information: [SLAs in web client are deprecated](deprecations-customer-service.md#slas-in-web-client-are-deprecated)
-> - We recommend migrating enhanced SLAs to Unified Interface. For more information on migration, see [Migrate SLAs](migrate-slas.md#migrate-slas).
+> Enhanced SLAs created in the web client have been deprecated and replaced with Unified Interface SLAs. For more information on deprecation, see [SLAs in web client are deprecated](deprecations-customer-service.md#slas-in-web-client-are-deprecated). It is recommended to migrate the enhanced SLAs created in the web client to Unified Interface. For more information on migrating SLAs, see [Migrate SLAs](migrate-slas.md#migrate-slas).
 
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
 

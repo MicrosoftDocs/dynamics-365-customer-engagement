@@ -1,7 +1,7 @@
 ---
 title: "Migrate service-level agreements in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn why you should migrate service-level agreements in Dynamics 365 Customer Service."
-ms.date: 06/09/2022
+ms.date: 06/14/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -20,7 +20,7 @@ ms.custom:
 
 # Migrate SLAs
 
-Migrating standard and enhanced SLAs from web client to Unified Interface is recommended. The migration tool for automatic record creation rules and service-level agreements (SLAs) helps migrate the rules in the web client to Unified Interface.
+Service-level agreements (SLAs) are deprecated in the web client. Therefore, it is recommended to migrate standard and enhanced SLAs created in web client to Unified Interface. For more information on the deprecation, see [SLAs in web client are deprecated](deprecations-customer-service.md#slas-in-web-client-are-deprecated). The migration tool for automatic record creation rules and service-level agreements (SLAs) helps migrate the rules in the web client to Unified Interface.
 
 Before you begin the migration, learn how migrating to Unified Interface helps:
 
