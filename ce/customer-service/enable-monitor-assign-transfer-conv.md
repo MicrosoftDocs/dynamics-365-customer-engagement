@@ -36,11 +36,8 @@ As an administrator, you can enable your supervisors to take specific actions on
 
 2. To enable the supervisors to perform the following actions, set the corresponding toggles to **Yes**:
     - **Supervisor Monitor**: Monitor how conversations are happening or being handled by their agents.
-
     - **Supervisor Assign**: Assign conversations to agents.
-
     - **Supervisor Transfer**: Transfer conversations from one agent to another.
-    - 
     - **Force Close**: End resolved conversations that are still represented as being actively worked on by the agent.
 
 3. To disable any of the settings, set its corresponding toggle to **No**.
