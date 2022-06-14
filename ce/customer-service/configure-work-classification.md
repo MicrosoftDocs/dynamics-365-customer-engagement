@@ -1,7 +1,7 @@
 ---
 title: "Configure work classification rulesets | MicrosoftDocs"
 description: "Learn about how to configure work classification rulesets for unified routing."
-ms.date: 05/02/2022
+ms.date: 06/14/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -159,6 +159,35 @@ When no rule condition is matched or no rule is defined, the work item is assign
 5. Repeat steps 2 through 4 to define the rules to cater to your business needs.
 
 6. Optionally, after you create the required rules, you can reorder them in the ruleset by selecting the arrows in the **Order** column on the **Decision list** page.
+
+### Configure routing rules for asynchronous channels
+
+You can configure routing rule conditions for the social channels, such as Facebook and WhatApp based on the attribute values. The attributes are listed channel wise as follows:
+
+- **Facebook**: Use the **Facebook Engagement Context (Conversation)** entity to set conditions on the following attributes:
+
+  - **Customer name**: The customer name is shown in the format "first name, last name".
+  - **Locale**: For a list of locales, see Facebook developer documentation.
+  - **Timezone**: Timezone is shown as a number relative to GMT, for example, “5.5”.
+  - **User Page Scoped Id**: This is shown as a number string.
+
+- **LINE**: Use the **LINE Engagement Context** entity to set conditions on the **Customer name** attribute.
+
+- **WeChat**: Use the **WeChat Engagement Context** entity to set conditions on the following attributes:
+
+  - Customer name
+  - Gender
+  - City
+  - Province
+  - Country
+
+- **Microsoft Teams**: Use the **Teams Engagement Context** entity to set a condition on the **Customer name** attribute.
+- **SMS**: Use the **SMS Engagement Context** entity to set conditions on the following attributes:
+  - Customer phone number
+  - Org phone number
+  - Locale
+  - Provider
+  - Provider display name
 
 ## Options available for rulesets
 
