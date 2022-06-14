@@ -38,7 +38,7 @@ You can configure a phone number in a workstream that allows the customer to cho
 
 1. In **Voice profile**, select a voice, voice style, speaking speed, and pitch for the bot.
 
-1. Turn on the **Post-call survey** toggle if you want the bot to present a survey to the customer at the end of the call. If this feature is on, the call is automatically transferred to the survey bot after the agent hangs up.
+1. Turn on the **Post-call survey** toggle if you want the bot to present a survey to the customer at the end of the call. If this feature is turned on, the call is automatically transferred to the survey bot after the agent hangs up.
 
 1. When you've finished configuring the settings, select **Confirm**.
 
@@ -54,9 +54,7 @@ Create the bot. More information: [Azure Bot Service](https://azure.microsoft.co
 
 ### Sample code for multilingual IVR bot
 
-> [!Note]
-> The bot author must set the va_CustomerLocale context variable field during the IVR handoff with the locale code for the language they want to support. 
-> More information: [Supported locations and locale codes](#supported-languages-and-locale-codes)
+As a bot author, you must set the `va_CustomerLocale` context variable field during the IVR handoff with the locale code for the supported language. For information on supported locale codes, see [Supported languages and locale codes](#supported-languages-and-locale-codes).
 
 ```csharp
         // Copyright (c) Microsoft Corporation. All rights reserved.
@@ -128,7 +126,7 @@ Create the bot. More information: [Azure Bot Service](https://azure.microsoft.co
 
 ## Add your bot to the workstream
 
-Add the bot as an IVR bot to the workstream. More information: [Configure Azure bots for voice (Preview)](voice-channel-azure-bot-service.md)
+Add the bot as an IVR bot to the workstream. More information: [Integrate an Azure bot](configure-bot.md)
 
 
 ## Supported languages and locale codes

@@ -556,10 +556,14 @@
         href: event-recurring.md
       - name: Create and use event templates
         href: event-templates.md
+      - name: Create an event from another event
+        href: event-from-event.md
     - name: Host a Microsoft Teams webinar
       items:
       - name: Set up a Teams webinar
         href: teams-webinar.md
+      - name: Optimize your event check-in flow
+        href: optimize-check-in.md
       - name: Customize your Teams webinar participant follow-up
         href: teams-webinar-follow-up.md
       - name: Set up a non-Teams webinar

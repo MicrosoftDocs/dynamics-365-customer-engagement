@@ -4,13 +4,11 @@ description: "Learn about managing session templates in Customer Service workspa
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/04/2022
+ms.date: 06/09/2022
 ms.topic: article
 ---
 
 # Manage session templates
-
-## Introduction
 
 A session template is a combination of attributes and application tab information that can be reused.
 

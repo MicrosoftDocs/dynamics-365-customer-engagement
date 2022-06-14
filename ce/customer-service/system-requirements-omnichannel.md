@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel for Customer Service system requirements | MicrosoftDocs"
 description: "This topic provides information about the prerequisites and system requirements for deploying Omnichannel for Customer Service."
-ms.date: 04/06/2022
+ms.date: 06/09/2022
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -152,7 +152,7 @@ The Government community cloud links that should be made accessible are as follo
 ### See also
 
 [Introduction to Omnichannel for Customer Service](introduction-omnichannel.md)  
-[Administrator guide](omnichannel-administrator.md)  
+[Get started with Customer Service admin center](cs-admin-center.md)  
 [Agents using Unified Service Desk](../unified-service-desk/oc-usd/omnichannel-agent.md)  
 [Agents using Omnichannel for Customer Service](omnichannel-customer-service-app-agent.md)  
 [System customizer guide](omnichannel-customizer.md)  

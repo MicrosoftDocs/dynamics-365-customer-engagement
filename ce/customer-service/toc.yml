@@ -106,16 +106,22 @@
       href: /power-platform/admin/create-users-assign-online-security-roles
     - name: Assign roles and enable users
       href: add-users-assign-roles.md
-  - name: App profile manager for Customer Service
+  - name: Agent experience profiles for Customer Service
     items: 
-    - name: Overview of app profile manager
+    - name: Overview of agent experience profiles
       href: ../app-profile-manager/overview.md
     - name: Roles and permissions
       href: ../app-profile-manager/security-roles.md
     - name: Create and use agent experience profiles
-      href: ../app-profile-manager/app-profile-manager.md
-    - name: Configure the inbox
-      href: configure-inbox.md
+      href: ../app-profile-manager/create-agent-experience-profile.md
+    - name: Configure the inbox for agents
+      href: configure-inbox.md      
+    - name: App profile manager
+      items:
+       - name: Experience for accessing templates and productivity tools
+         href: ../app-profile-manager/create-app-profiles-powerapps.md 
+       - name: Create and use app profiles, inbox in Power Apps
+         href: ../app-profile-manager/app-profile-manager.md
     - name: Settings
       href: ../app-profile-manager/settings.md
     - name: Templates
@@ -518,7 +524,7 @@
       href: collaboration.md
     - name: Administrator experience
       items: 
-      - name: Configure Teams chat
+      - name: Configure Microsoft Teams chat
         href: configure-teams-chat.md
       - name: Enable Teams meetings in Customer Service apps
         href: configure-teams-meetings.md
@@ -530,7 +536,7 @@
         href: configure-customer-support-swarming.md
     - name: Agent experience
       items:
-      - name: Use Teams chat
+      - name: Use Microsoft Teams chat
         href: use-teams-chat.md
       - name: Use suggested contacts to collaborate with coworkers
         href: teams-use-suggested-contacts.md
@@ -570,24 +576,26 @@
         href: voice-channel-install.md  
       - name: Connect to Azure Communication Services
         items: 
-        - name: Overview
+        - name: Connect to Azure Communication Services
           href: voice-channel-acs-resource.md
-        - name: "Quickstart: Connect to a new Azure resource"
+        - name: "Quickstart: Connect using a new Azure resource"
           href: voice-channel-connect-new-resource.md
-        - name: "Advanced: Connect to an existing Azure resource"    
-          href: voice-channel-connect-existing-resource.md  
+        - name: "Advanced: Connect using an existing Azure resource"
+          href: voice-channel-connect-existing-resource.md 
+        - name: Sync from Azure Communication Services
+          href: voice-channel-sync-from-acs.md
+        - name: Disconnect from Azure Communication Services
+          href: voice-channel-disconnect-from-acs.md 
       - name: Manage phone numbers
         href: voice-channel-manage-phone-numbers.md
       - name: Set up inbound calling
-        href: voice-channel-route-queues.md      
+        href: voice-channel-inbound-calling.md      
       - name: Set up outbound calling
         href: voice-channel-outbound-calling.md
       - name: Configure historical analytics for voice
         href: cs-voice-historical-analytics.md  
-      - name: Configure Azure bots for voice
-        href: voice-channel-azure-bot-service.md
       - name: Configure Power Virtual Agents bots for voice
-        href: voice-channel-ivr-bots.md
+        href: voice-channel-pva-bots.md
       - name: View voice calls usage
         href: voice-channel-usage.md
       - name: Configure post-call survey
@@ -598,7 +606,7 @@
         href: voice-channel-call-overflow.md
       - name: Configure call recordings and transcripts
         href: voice-channel-configure-transcripts.md
-      - name: Enable consult with Microsoft Teams users
+      - name: Enable voice consult with Microsoft Teams users
         href: voice-consult-microsoft-teams-user.md
       - name: Manage phone music
         href: voice-channel-music.md
@@ -608,7 +616,7 @@
         href: voice-channel-multi-language-contact-center.md
       - name: Bring your own carrier
         href: voice-channel-bring-your-own-number.md
-      - name: Integrate third-party IVR systems with voice channel
+      - name: Integrate a third-party IVR system with voice channel
         href: voice-channel-contextual-transfer-external-ivr.md 
       - name: Supported cloud locations, languages, and locale codes
         href: voice-channel-region-availability.md
@@ -627,7 +635,7 @@
       - name: Monitor voice calls
         href: voice-channel-monitor-calls.md
       - name: Voice channel analytics, reports, and call insights
-        href: voice-channel-reports-analytics.md
+        href: voice-channel-reports-analytics.md 
     - name: Emergency calling in the voice channel
       href: voice-channel-emergency-calling.md
     - name: FAQ about the voice channel
@@ -886,16 +894,16 @@
       href: overview-bots.md
     - name: Bot sessions and licensing
       href: bot-session-licensing.md
+    - name: Best practices for configuring bots
+      href: configure-bot-best-practices.md   
     - name: Administrator experience
       items:
       - name: Configure Azure bots
         items:
         - name: Integrate an Azure bot
-          href: configure-bot.md
+          href: configure-bot-azure.md
         - name: Sample configuration
           href: sample-config-azure-bot.md
-        - name: Best practices
-          href: configure-azure-bot-best-practices.md
       - name: Integrate a Power Virtual Agents bot
         href: configure-bot-virtual-agent.md
       - name: Configure context variables for a bot
