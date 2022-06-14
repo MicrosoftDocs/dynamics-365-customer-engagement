@@ -255,7 +255,7 @@
         - name: Configure assignment methods for queues
           href: configure-assignment-rules.md
         - name: Configure routing to preferred agents
-          href: configure-preferred-agents.md
+          href: configure-preferred-agent.md
       - name: Set up record routing
         items:
         - name: Provision unified routing for Customer Service
