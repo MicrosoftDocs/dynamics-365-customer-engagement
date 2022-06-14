@@ -129,7 +129,7 @@ Let's look at the merge process by using an example of a lead named **Lidman Ann
 
 5. In the confirmation message, select **Continue**.
 
-The primary record is updated, and other records are deactivated. If the deactivated duplicates contain related records, they're automatically merged and listed under the primary record. 
+The primary record is updated, and other records are deactivated. If the deactivated duplicates contain related records, they're automatically moved under the primary record. 
 
 ## Delete duplicate leads
 
