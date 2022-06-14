@@ -16,7 +16,7 @@ manager: shujoshi
 This article explains how you can program an Azure bot to route a conversation to a human agent in Omnichannel for Customer Service. It also describes how to program the bot to end the conversation.
 
 > [!Important]
-> - Bots can escalate conversations to agents only if they're part of push-based workstreams.
+> - Bots can receive conversations only if they're added to push-based workstreams.
 > - Bot agents are not supported in consult mode.
 
 ## Prerequisites
@@ -31,6 +31,7 @@ In Omnichannel for Customer Service, a bot can escalate the current conversation
 The bot routes conversations by using the Omnichannel for Customer Service context variables that are associated with the chat. The bot can send a list of context variables and associated values to Omnichannel for Customer Service, together with the escalation request. Omnichannel for Customer Service will then update the context variables with the specified values, and run the routing engine again. This ensures that the escalated chat is routed to the right queue.
 
 After the agent accepts the escalation request, the chat transcript of the bot's conversation with the customer is visible on the agent’s conversation widget. The agent can then continue the chat with the customer.
+
 > [!Note]
 > The chat summary won't be visible to the customer.
 

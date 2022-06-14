@@ -60,7 +60,7 @@ Follow the procedure in the section [Connect omnichannel to your Power Virtual A
 In Omnichannel admin center, select the Power Virtual Agents bot from the list of bots in the **Workstreams** area, so the bot can be used to hand off conversations to human agents. For more information, see [Add a bot to a workstream](create-workstreams.md#add-a-bot-to-a-workstream).
 
 > [!NOTE]
-> Bots can escalate conversations to agents only if they're a part of push-based workstreams.
+> Bots can receive conversations only if they're added to push-based workstreams.
 
 ## Configure your Power Virtual Agents bot in Omnichannel Administration
 

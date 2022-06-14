@@ -152,7 +152,7 @@ When a work item needs to be assigned, the classification rules are run and the 
 
 > [!Note]
 > 
-> - The bot is supported only in push type of workstreams.
+> - Bots can receive conversations only if they're added to push-based workstreams.
 > - We recommend that you don't add bots to workstreams that are meant for record routing.
 
 ### Manage workstreams
