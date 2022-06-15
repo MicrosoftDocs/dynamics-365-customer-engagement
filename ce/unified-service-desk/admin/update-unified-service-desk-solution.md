@@ -1,6 +1,6 @@
 ---
 title: "Update Unified Service Desk solution | MicrosoftDocs"
-description: "Learn how to how to check the current version and update your existing installation of Unified Service Desk to the latest version, if required."
+description: "Learn how to check the current version and update your existing installation of Unified Service Desk to the latest version, if required."
 ms.date: 06/15/2022
 ms.topic: article
 author: mh-jaya
@@ -26,7 +26,7 @@ If you’re installing [!INCLUDE[pn_unified_service_desk](../../includes/pn-unif
 
 ## Check your Unified Service Desk solution version number
 
-To determine whether you need to update your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] installation, check your solution version number to see if it's the latest one.
+To determine whether you need to update your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] installation, you must check your solution version number to see if it's the latest.
   
 In your Dataverse instance, navigate to Dataverse, then select **Settings** > **Solutions**. If the version numbers of the **UiiForMicrosoftDynamicsCRM2011** and **DynamicsUnifiedServiceDesk** solutions match those that are mentioned in the following table, then you have the latest version of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].  
 
