@@ -1,7 +1,7 @@
 ---
 title: Overview of the Customer Service workspace application for Dynamics 365 Customer Service | Microsoft Docs
 description: Overview of the Customer Service workspace application for Dynamics 365 Customer Service
-ms.date: 10/19/2021
+ms.date: 06/15/2022
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -24,6 +24,9 @@ ms.custom:
 Welcome to the Customer Service workspace app module, where we're increasing agent productivity for core customer service with the ability to work on multiple sessions at a time in a single workspace experience. If you choose to expand your customer service offering to provide chat and channels, the Customer Service workspace seamlessly adjusts to support managing conversations as well.
 
 If you've used Customer Service Hub or Omnichannel for Customer Service before, much of the behavior for managing cases and activities in the Customer Service workspace app module works the same way, with some exceptions to accommodate the multisession and conversation capabilities. This article walks you through the Customer Service workspace experience and explains how to navigate the app.
+
+> [!NOTE]
+> The Customer Service workspace app is currently not available on mobile devices.
 
 ## Introduction to Customer Service workspace
 
