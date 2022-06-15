@@ -67,10 +67,10 @@ In the geographic location where the voice channel is generally available, Azure
 
 ## Supported languages and locale codes
 
-Omnichannel for Customer Service uses the Azure Cognitive Services Speech-to-Text service for transcription. So, all languages supported by Speech-to-Text can be transcribed. You can also bring your own bot through Azure Bot Service for Interactive Voice Response (IVR).
+Omnichannel for Customer Service uses the Azure Cognitive Services Speech-to-Text service for transcription. So, all languages supported by Speech-to-Text can be transcribed. More information: [Speech-to-text documentation](/azure/cognitive-services/speech-service/index-speech-to-text)
 
 > [!Note]
-> - End-to-end voice and IVR support is available only if a language is supported in Power Virtual Agents or Azure Bot Service, and Omnichannel for Customer Service. 
+> - End-to-end voice and IVR support is available only if a language is supported in Power Virtual Agents and Omnichannel for Customer Service. 
 > - Sentiment and AI insights are optional for the voice functionality.
 
 See the information in the following table to know about the supported languages and locale codes.
