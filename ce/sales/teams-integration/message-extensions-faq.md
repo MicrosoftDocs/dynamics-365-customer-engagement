@@ -1,6 +1,6 @@
 ---
 title: Frequently asked questions about messaging extensions
-description: Use this topic to know about the frequently asked questions and their answers about messaging extensions.
+description: Use this topic to find frequently asked questions (FAQs) and answers about messaging extensions.
 ms.date: 05/24/2022
 ms.topic: article
 ms.service: dynamics-365-sales
@@ -13,21 +13,21 @@ manager: shujoshi
 
 We've compiled a list of frequently asked questions and provided brief answers to help you get to your information quickly.
 
-## How is the Dynamics 365 messaging extension and the Dynamics 365 app for Teams related?
+**How are the Dynamics 365 messaging extension and the Dynamics 365 app for Teams related?**
 
 The Dynamics 365 messaging extension is a part of the Dynamics 365 app for Teams. You get access to the messaging extension when you install the Dynamics 365 app for Teams. Conversely, if you want to access the messaging extension, you need to install the Dynamics 365 app for Teams.
 
-## If I'm already using (and therefore have installed) the Dynamics 365 app for Teams, do I need to do any installation to access the messaging extension?  
+**If I'm already using (and therefore have installed) the Dynamics 365 app for Teams, do I need to do any installation to access the messaging extension?**  
 
-No. If you are already using (and therefore installed) the Dynamics 365 app for Teams, you will find the Dynamics 365 app in the messaging extensions (…) list in the compose toolbar. But, it may not be pinned.
+No. If you're already using (and therefore have installed) the Dynamics 365 app for Teams, you'll find the Dynamics 365 app in the messaging extensions (…) list in the compose toolbar. But, it may not be pinned.
 
-## If I install the Dynamics 365 app from the messaging extension (…) compose toolbar in a chat, will it also add a personal dashboard to Teams?
+**If I install the Dynamics 365 app from the messaging extension (…) compose toolbar in a chat, will it also add a personal dashboard to Teams?**
 
-Yes, if you install the Dynamics 365 app from the messaging extension (…) compose toolbar in a chat, it will add a personal dashboard to Teams. You will need to configure it before use when you first access the personal dashboard.
+Yes, if you install the Dynamics 365 app from the messaging extension (…) compose toolbar in a chat, it will add a personal dashboard to Teams. You'll need to configure it before use when you first access the personal dashboard.
 
-## Can I search and share custom table records using the Dynamics 365 app?  
+**Can I search and share custom table records using the Dynamics 365 app?**  
 
-Yes, you can search and share custom table records using the Dynamics 365 app. The **All** tab in the Dynamics 365 app will allow you to search on all tables, including custom tables. The search in **All** tab is powered by [Dataverse Search](/power-platform/admin/configure-relevance-search-organization) if it is enabled on the organization, else it defaults to [Categorized search](/powerapps/user/quick-find#multiple-table-quick-find-categorized-search). The tabs in the search fly out show the most recently used records across tables by default (before you start a search).
+Yes, you can search and share custom table records using the Dynamics 365 app. The **All** tab in the Dynamics 365 app will allow you to search on all tables, including custom tables. The search in **All** tab is powered by [Dataverse Search](/power-platform/admin/configure-relevance-search-organization) if it is enabled on the organization; otherwise, it defaults to [Categorized search](/powerapps/user/quick-find#multiple-table-quick-find-categorized-search). The tabs in the search fly-out show the most recently used records across tables by default (before you start a search).
 
 ## How does the application pick the information to show in the card about a record I choose to share?
 
