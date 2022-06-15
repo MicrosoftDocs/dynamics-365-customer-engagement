@@ -1,7 +1,7 @@
 ---
 title: "Support for live chat and asynchronous channels | MicrosoftDocs"
 description: "Get information on the support for adaptive cards, emojis, file attachments, and message formatting in live chat and asynchronous channels in Omnichannel for Customer Service."
-ms.date: 03/04/2022
+ms.date: 06/14/2022
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -70,17 +70,17 @@ Suggested actions are supported fully with the exception that some channels migh
 
 You can enable file attachments on the **General settings** tab of a channel so that customers and agents can send files as attachments. Inbound attachments refer to attachments that customers send to agents, and outbound attachments refer to attachments that agents send to customers. For more information about file attachments, see [Enable file attachments](enable-file-attachments.md).
 
-| Channel              | Inbound attachments                        | Outbound attachments                  |
-|----------------------|--------------------------------------------|---------------------------------------|
-| Microsoft Teams      | Image, Audio, Video, Document, GIF, and Emoji | Image, Audio, Video, Document, and GIF   |
-| Facebook             | Image, Audio, Video, Document, GIF, and Emoji | Image, Audio, Video, Document, and GIF    |
-| LINE                 | Image, Audio, Video, and GIF                   | Image, Audio, Video, Document, and GIF   |
-| Twitter              | Image, Video, GIF, and Emoji                   | Image, Video, and GIF                     |
-| WeChat               | Image, Audio, and Video                        | Image, Audio, and Video                   |
-| WhatsApp             | Image, Audio, Video, GIF, and PDF               | Image, Audio, Video, and PDF              |
-| SMS (Twilio)         | Image, Video, GIF, and Emoji                   | Image, Audio, Video, and GIF              |
-| Custom messaging (Telegram)    | Image, Audio, Video, Document, GIF, and Emoji | Image, Audio, Video, Document, and GIF   |
-| Custom messaging (Direct Line) | All types except blocked types in org      | All types except blocked types in org |
+| Channel              | Inbound attachments                        | Outbound attachments                  | Allowed file extensions types |
+|----------------------|--------------------------------------------|---------------------------------------|---------------------------|
+| Microsoft Teams      | Image, Audio, Video, Document, GIF, and Emoji | Image, Audio, Video, Document, and GIF   | .jpg, .jpeg, .png, .mp3, .oga, .ogg, .amr, .mp4, .pdf, .docx, .txt, .gif, .xlsx, |
+| Facebook             | Image, Audio, Video, Document, GIF, and Emoji | Image, Audio, Video, Document, and GIF    | .jpg, .jpeg, .png, .mp3, .oga, .ogg, .amr, .mp4, .pdf, .docx, .txt, .gif, .xlsx, .xls |
+| LINE                 | Image, Audio, Video, and GIF                   | Image, Audio, Video, Document, and GIF   | .jpg, .jpeg, .png, .mp3, .oga, .ogg, .amr, .mp4, .pdf, .docx, .txt, .gif |
+| Twitter              | Image, Video, GIF, and Emoji                   | Image, Video, and GIF                     | .jpg, .jpeg, .png, .mp4, .gif |
+| WeChat               | Image, Audio, and Video                        | Image, Audio, and Video                   | .jpg, .jpeg, .png, .amr, .mp4 |
+| WhatsApp             | Image, Audio, Video, GIF, and PDF               | Image, Audio, Video, and PDF              | .jpg, .jpeg, .png, .mp3, .oga, .ogg, .amr, .mp4, .pdf |
+| SMS (Twilio)         | Image, Video, GIF, and Emoji                   | Image, Audio, Video, and GIF              | .jpg, .jpeg, .gif, .png, .mp3, .oga, .ogg, .amr, .mp4, .pdf, .csv |
+| Custom messaging (Telegram)    | Image, Audio, Video, Document, GIF, and Emoji | Image, Audio, Video, Document, and GIF   | .jpg, .jpeg, .png, .mp3, .oga, .ogg, .amr, .mp4, .pdf, .docx, .txt, .gif |
+| Custom messaging (Direct Line) | All types except blocked types in org      | All types except blocked types in org | .jpg, .jpeg, .png, .mp3, .oga, .ogg, .amr, .mp4, .pdf, .docx, .txt, .gif, .xlsx |
 
 > [!Note]
 >
