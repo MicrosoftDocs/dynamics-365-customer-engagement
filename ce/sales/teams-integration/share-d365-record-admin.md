@@ -98,6 +98,10 @@ Preinstalling and pinning the Dynamics 365 app in Teams increases the discoverab
 
 13. Select **Save**.
 
+
+
+
+
 ### Assign the custom Teams app setup policy to a user group
 
 Policy assignment to groups lets you assign a policy to a group of users, such as a security group, an organizational unit, or a distribution list.
