@@ -26,7 +26,7 @@ You can define the level of service or support that your organization agrees to 
 
 You can associate an SLA with an entitlement, so that when an entitlement is added to a case, the associated SLA is also applied. You can only associate SLAs that are created for the Case entity with entitlements. More information: [Create entitlements to define support terms](create-entitlement-define-support-terms-customer.md#create-entitlements-to-define-support-terms). You can also enable SLA for entities other than case. More information: [Enable entities for service level agreements](enable-entities-service-level-agreements.md#enable-entities-for-service-level-agreements).
 
-Alternatively, you can set up a default SLA for the organization. More information: [Set an SLA as the default](define-service-level-agreements.md#set-an-sla-as-the-default)
+Alternatively, you can set up a default SLA for the organization. More information: [Set a default SLA](apply-slas.md#set-a-default-sla)
 
 ## Benefits of service-level agreements
 
