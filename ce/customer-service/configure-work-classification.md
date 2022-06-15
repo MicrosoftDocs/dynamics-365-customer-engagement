@@ -164,6 +164,8 @@ When no rule condition is matched or no rule is defined, the work item is assign
 
 You can configure routing rule conditions for the social channels, such as Facebook and WhatApp based on the attribute values. The attributes are listed channel wise as follows:
 
+- **Microsoft Teams**: Use the **Teams Engagement Context** entity to set a condition on the **Customer name** attribute.
+
 - **Facebook**: Use the **Facebook Engagement Context (Conversation)** entity to set conditions on the following attributes:
 
   - **Customer name**: The customer name is shown in the format "first name, last name".
@@ -181,7 +183,14 @@ You can configure routing rule conditions for the social channels, such as Faceb
   - Province
   - Country
 
-- **Microsoft Teams**: Use the **Teams Engagement Context** entity to set a condition on the **Customer name** attribute.
+- **WhatsApp**: Use the **WhatsApp Engagement Context (Conversation)** entity to set conditions on the **Customer Phone Number** and **Customer First Message** attributes. The **Customer First Message** attribute lets you create a pre-filled message that will automatically appear in the text field of a customer chat.
+
+- **Twitter**: Use the **Twitter Engagement Context (Conversation)** entity to set conditions on the following attributes:
+  - Customer name 
+  - Customer screen name
+  - Followers count
+  - Friends count
+
 - **SMS**: Use the **SMS Engagement Context** entity to set conditions on the following attributes:
   - Customer phone number
   - Org phone number
