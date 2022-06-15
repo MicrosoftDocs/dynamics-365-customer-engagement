@@ -160,7 +160,7 @@ When no rule condition is matched or no rule is defined, the work item is assign
 
 6. Optionally, after you create the required rules, you can reorder them in the ruleset by selecting the arrows in the **Order** column on the **Decision list** page.
 
-### Configure routing rules for asynchronous channels
+### Engagement context for asynchronous channels
 
 You can configure routing rule conditions for the social channels, such as Facebook and WhatApp based on the attribute values. The attributes are listed channel wise as follows:
 
@@ -186,7 +186,7 @@ You can configure routing rule conditions for the social channels, such as Faceb
 - **WhatsApp**: Use the **WhatsApp Engagement Context (Conversation)** entity to set conditions on the **Customer Phone Number** and **Customer First Message** attributes. The **Customer First Message** attribute lets you create a pre-filled message that will automatically appear in the text field of a customer chat.
 
 - **Twitter**: Use the **Twitter Engagement Context (Conversation)** entity to set conditions on the following attributes:
-  - Customer name 
+  - Customer name
   - Customer screen name
   - Followers count
   - Friends count
