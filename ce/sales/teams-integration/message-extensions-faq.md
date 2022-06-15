@@ -19,15 +19,15 @@ The Dynamics 365 messaging extension is a part of the Dynamics 365 app for Teams
 
 **If I'm already using (and therefore have installed) the Dynamics 365 app for Teams, do I need to do any installation to access the messaging extension?**  
 
-No. If you're already using (and therefore have installed) the Dynamics 365 app for Teams, you'll find the Dynamics 365 app in the messaging extensions (…) list in the compose toolbar. But, it may not be pinned.
+If you're already using (and therefore have installed) the Dynamics 365 app for Teams, you'll find the Dynamics 365 app in the messaging extensions (…) list in the compose toolbar. But, it may not be pinned.
 
 **If I install the Dynamics 365 app from the messaging extension (…) compose toolbar in a chat, will it also add a personal dashboard to Teams?**
 
-Yes, if you install the Dynamics 365 app from the messaging extension (…) compose toolbar in a chat, it will add a personal dashboard to Teams. You'll need to configure it before use when you first access the personal dashboard.
+If you install the Dynamics 365 app from the messaging extension (…) compose toolbar in a chat, it will add a personal dashboard to Teams. You'll need to configure it before use when you first access the personal dashboard.
 
 **Can I search and share custom table records using the Dynamics 365 app?**  
 
-Yes, you can search and share custom table records using the Dynamics 365 app. The **All** tab in the Dynamics 365 app will allow you to search on all tables, including custom tables. The search in **All** tab is powered by [Dataverse Search](/power-platform/admin/configure-relevance-search-organization) if it is enabled on the organization; otherwise, it defaults to [Categorized search](/powerapps/user/quick-find#multiple-table-quick-find-categorized-search). The tabs in the search fly-out show the most recently used records across tables by default (before you start a search).
+You can search and share custom table records using the Dynamics 365 app. The **All** tab in the Dynamics 365 app will allow you to search on all tables, including custom tables. The search in **All** tab is powered by [Dataverse Search](/power-platform/admin/configure-relevance-search-organization) if it is enabled on the organization; otherwise, it defaults to [Categorized search](/powerapps/user/quick-find#multiple-table-quick-find-categorized-search). The tabs in the search fly-out show the most recently used records across tables by default (before you start a search).
 
 **How does the application pick the information to show in the card about a record I choose to share?**
 
