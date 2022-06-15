@@ -90,13 +90,8 @@ For an app profile, you can enable the inbox view in the Customer Service worksp
 
 When users are assigned roles corresponding to Customer Service workspace or Omnichannel for Customer Service, the default app profiles are assigned as follows.
 
-- **Customer Service workspace:** The out-of-the-box app profile is assigned to users with the following roles:
-  - CSR Manager
-  - Customer Service Representative
-- **Omnichannel for Customer Service:** The out-of-the-box app profile is assigned to users with the following roles:
-  - Omnichannel administrator
-  - Omnichannel supervisor
-  - Omnichannel agent
+- **Customer Service workspace**: Users with the CSR Manager and Customer Service Representative roles.
+- **Omnichannel for Customer Service**: Users with the Omnichannel administrator, Omnichannel supervisor, and Omnichannel agent roles.
 
 More information: [Roles and privileges associated with app profile manager](security-roles.md)
 

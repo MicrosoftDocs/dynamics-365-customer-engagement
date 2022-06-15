@@ -55,7 +55,7 @@ You can configure and manage the different capabilities in Customer Service by u
 - **Omnichannel Administration**: Helps in setting up and managing the chat and digital messaging channels and other features in Omnichannel for Customer Service. More information: [Omnichannel Administration](omnichannel-administrator.md)
   
   > [!NOTE]
-  > Support for the Omnichannel Administration app ended on April 30, 2022. We recommend that you use the Omnichannel admin center or Customer Service admin center app to configure and use the latest features, such as unified routing and voice channel. For more information about the deprecation announcement, see [Omnichannel Administration app is deprecated](../customer-service/deprecations-customer-service.md#omnichannel-administration-app-is-deprecated).
+  > Support for the Omnichannel Administration app ended on April 30, 2022. We recommend that you use the Omnichannel admin center or Customer Service admin center app to configure the latest features, such as unified routing and voice channel. For more information about the deprecation announcement, see [Omnichannel Administration app is deprecated](../customer-service/deprecations-customer-service.md#omnichannel-administration-app-is-deprecated).
 
 The following table provides the features that can be configured through the admin apps.
 
