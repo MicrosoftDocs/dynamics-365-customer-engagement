@@ -4,7 +4,7 @@ description: "Learn how to set up a multilingual contact center in the voice cha
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.date: 06/10/2022
+ms.date: 06/15/2022
 ms.topic: article
 
 ---
@@ -53,7 +53,7 @@ Define the language-based routing rules. More information: [Configure work class
 Here are a few things to consider when you configure your bots for multilingual contact center.
 - The language of the bot must be the same as that of the voice workstream to which the bot will be attached. 
 - You can configure different geographic locales for the bot and voice workstream. For example, you can set English-UK in the voice profile and English-US in the bot.
-- The bot's accuracy depends on the similarities between locales. However, if you configure different locales, the pre-configured entities for the bot, such as zipcode, might not be accurate. 
+- The bot's accuracy depends on the similarities between locales. However, if you configure different locales, the preconfigured entities for the bot, such as zipcode, might not be accurate. 
 
 ### See also
 
