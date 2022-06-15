@@ -42,8 +42,6 @@ To learn how to install and use the Customer Service Hub app on a mobile device,
   
 [Track your cases efficiently and act on them quickly](customer-service-hub-user-guide-case-sla.md)
   
-[Use SLA on the Customers Service Hub records](customer-service-hub-user-guide-case-sla.md#use-sla-on-the-customer-service-hub-records)
-  
 [Reduce call handling times with knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
   
 [Use interactive dashboards to effectively manage service cases](customer-service-hub-user-guide-dashboard.md)
