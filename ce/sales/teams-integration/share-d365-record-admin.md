@@ -60,6 +60,12 @@ Preinstalling and pinning the Dynamics 365 app in Teams increases the discoverab
 
 ### Create a custom Teams app setup policy
 
+
+
+<!-- Are steps 8 and 11 needed? They each say "Select Add," but the prior steps also say "Select Add." -->
+
+
+
 1.  Sign in to [Microsoft Teams admin center](https://admin.teams.microsoft.com/).
 
 2.  In the left pane, go to **Teams apps** &gt; **Setup policies**.
@@ -98,10 +104,6 @@ Preinstalling and pinning the Dynamics 365 app in Teams increases the discoverab
 
 13. Select **Save**.
 
-
-
-
-
 ### Assign the custom Teams app setup policy to a user group
 
 Policy assignment to groups lets you assign a policy to a group of users, such as a security group, an organizational unit, or a distribution list.
@@ -116,11 +118,11 @@ Policy assignment to groups lets you assign a policy to a group of users, such a
 
 4.  In the **Assign policy to group** panel, do the following:
 
-    1.  Search for and add the group you want to assign the policy to. Ideally this would be the group to which sellers, service agents, and other Dynamics 365 users belong to. If you have Dynamics 365 users spread across multiple groups, you will have to create multiple group policy assignments.
+    1.  Search for and add the group you want to assign the policy to. Ideally this would be the group to which sellers, service agents, and other Dynamics 365 users belong to. If you have Dynamics 365 users spread across multiple groups, you'll have to create multiple group policy assignments.
 
     2.  Set the ranking for the group assignment.
 
-    3.  Select the policy created earlier – to pre-install and pin the Dynamics 365 app for Teams.
+    3.  Select the policy created earlier – to preinstall and pin the Dynamics 365 app for Teams.
 
     4.  Select **Apply**.
 
@@ -128,12 +130,12 @@ Policy assignment to groups lets you assign a policy to a group of users, such a
 
 > [!NOTE]
 > - To learn more about assignment policies on Teams, go to [Assign policies to users and groups](/microsoftteams/assign-policies-users-and-groups#assign-a-policy-to-individual-users).
-> - You can also [assign the policy to individual users](/microsoftteams/assign-policies-users-and-groups#assign-a-policy-to-individual-users)
+> - You can also [assign the policy to individual users](/microsoftteams/assign-policies-users-and-groups#assign-a-policy-to-individual-users).
 
 
-## Encourage business users to sign-in and setup the app
+## Encourage business users to sign in and set up the app
 
-After you create a custom policy and assigned it to users, you must encourage your users to sign in to the Dynamics 365 app for Teams to view, share, and update Dynamics 365 records in Microsoft Teams chats and channels. They  need to sign in only once and signing in provides a seamless user experience. When users have the app installed but have not signed in, and they access the Dynamics 365 record in Teams, the following message is displayed in the interactive card.
+After you create a custom policy and assign it to users, you must encourage your users to sign in to the Dynamics 365 app for Teams to view, share, and update Dynamics 365 records in Microsoft Teams chats and channels. They need to sign in only once. and signing in provides a seamless user experience. When users have the app installed but haven't signed in, they'll see this message displayed in the interactive card when they access the Dynamics 365 record in Teams:
 
 :::image type="content" source="media/sign-in-msg.png" alt-text="Sign in to Dynamics 365 app":::
 
