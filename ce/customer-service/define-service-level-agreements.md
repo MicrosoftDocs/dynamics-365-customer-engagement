@@ -1,7 +1,7 @@
 ---
 title: "Define service-level agreements in Dynamics 365 Customer Service | MicrosoftDocs"
 description: "Learn how to define service-level agreements in Dynamics 365 Customer Service."
-ms.date: 05/17/2022
+ms.date: 06/15/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -245,7 +245,7 @@ You can create an SLA item from the Customer Service admin center or Customer Se
 6. Select **Activate**. The SLA is activated.
 
 ## Apply SLAs
-To understand how you can apply SLAs, see [Apply SLAs](apply-slas.md#apply-slas)
+To understand how you can apply SLAs, see [Apply service-level agreements](apply-slas.md#apply-slas)
 
 ### See also
 
