@@ -16,7 +16,7 @@ ms.topic: article
 
 The automation dictionary maintains the contextual data for sessions. You can use the keys from the automation dictionary to pass the parameter in an action.​
 
-While creating templates and macros in the Omnichannel Administration app, you can pass parameter keys such as title of a session, title of notification, title of an application tab template, and custom parameter values for application tab types. These keys are replaced based on the contextual information available at the time of execution.
+While creating templates and macros in the admin app, you can pass parameter keys such as title of a session, title of notification, title of an application tab template, and custom parameter values for application tab types. These keys are replaced based on the contextual information available at the time of execution.
 
 ### Pass data parameter in templates
 

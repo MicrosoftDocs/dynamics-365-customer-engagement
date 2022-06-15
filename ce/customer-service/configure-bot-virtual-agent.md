@@ -17,9 +17,7 @@ ms.custom:
 
 [!INCLUDE[cc-trial-sign-up](../includes/cc-trial-sign-up.md)]
 
-## Introduction
-
-Microsoft Power Virtual Agents allows organizations to automate routine conversations, letting agents focus on high-value interactions. When a conversation is escalated from a bot to a human agent, agents can see the full transcript of the bot conversation and get complete context while engaging with customers.
+Microsoft Power Virtual Agents allows organizations to automate routine conversations, letting agents focus on high-value interactions. When a conversation is escalated from a bot to a human agent, the agent can see the full transcript of the bot conversation and get complete context while engaging with the customer.
 
 After you've created your bot and connected it to an Omnichannel for Customer Service environment, you can go to the Omnichannel admin center or [Customer Service admin center](cs-admin-center.md) app to add your bot to queues and configure context variables to route work items.
 
@@ -36,14 +34,18 @@ When you integrate a Power Virtual Agents bot with Omnichannel for Customer Serv
 
 Before you integrate Power Virtual Agents bots in Omnichannel for Customer Service, check the following:
 
-- **Product licenses** - You need a [product license for Power Virtual Agents](https://go.microsoft.com/fwlink/?LinkId=2092080&clcid=0x409) and a [product license with the Chat Add-in for Dynamics 365 Customer service](/dynamics365/customer-engagement/omnichannel/try-chat-for-dynamics365).
-- **Role** - You must have the Omnichannel administrator role. More information: [Manage user roles](add-users-assign-roles.md)
-- **Azure Application ID** - You'll need an application registered on the Azure portal before connecting to Omnichannel for Customer Service. More information: [Register an application with Azure AD](/azure/active-directory/develop/howto-create-service-principal-portal#create-an-azure-active-directory-application)
-- **Bot** - You must have a pre-configured bot that can integrate with Omnichannel for Customer Service. More information: [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/power-virtual-agents/configuration-hand-off-omnichannel)
+1. You must have the following licenses:
+
+    - A product license for Power Virtual Agents. More information: [Licensing for Power Virtual Agents](/power-virtual-agents/requirements-licensing-subscriptions)
+
+    - A product license for chat, digital messaging, or voice channel for Dynamics 365 Customer Service, depending on your business requirements.
+1. You must have the Omnichannel administrator role. More information: [Manage user roles](add-users-assign-roles.md)
+1. You'll need an application registered on the Azure portal before connecting to Omnichannel for Customer Service. More information: [Register an application with Azure AD](/azure/active-directory/develop/how/power-virtual-agents/requirements-licensing-subscriptionsto-create-service-principal-portal#create-an-azure-active-directory-application)
+1. You must have a preconfigured bot that can integrate with Omnichannel for Customer Service. More information: [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/power-virtual-agents/configuration-hand-off-omnichannel)
 
 ## Install Power Virtual Agents extensions
 
-Power Virtual Agents lets you seamlessly hand off voice and text-based conversations to human agents using the Chat Add-in for Dynamics 365 Customer Service. For your bot to hand off conversations to the omnichannel interface, you must install the Power Virtual Agents extension solutions for Dynamics 365 Customer Service.
+Power Virtual Agents lets you seamlessly hand off voice and text-based conversations to human agents using the chat, digital messaging, and voice channels in Dynamics 365 Customer Service. For your bot to hand off conversations to the omnichannel interface, you must install the Power Virtual Agents extension solutions for Dynamics 365 Customer Service.
 
 To do so, perform the following steps:
 
@@ -53,14 +55,14 @@ To do so, perform the following steps:
 
 ## Connect your Power Virtual Agents bot to omnichannel instance
 
-Follow the procedure in the section [Connect omnichannel to your Power Virtual Agents bot](/power-virtual-agents/configuration-hand-off-omnichannel#connect-omnichannel-to-your-power-virtual-agents-bot) to connect your Power Virtual Agents bot to the omnichannel instance.
+Follow the procedure in the section [Connect omnichannel to your Power Virtual Agents bot](/power-virtual-agents/configuration-hand-off-omnichannel#connect-your-bot-to-omnichannel-for-customer-service) to connect your Power Virtual Agents bot to the omnichannel instance.
 
-## Configure your Power Virtual Agents bot in Omnichannel admin center
+## Configure your Power Virtual Agents bot in the admin app
 
-In Omnichannel admin center, select the Power Virtual Agents bot from the list of bots in the **Workstreams** area, so the bot can be used to hand off conversations to human agents. For more information, see [Add a bot to a workstream](create-workstreams.md#add-a-bot-to-a-workstream).
+In Customer Service admin center or Omnichannel admin center, select the Power Virtual Agents bot from the list of bots in the **Workstreams** area, so the bot can be used to hand off conversations to human agents. For more information, see [Add a bot to a workstream](create-workstreams.md#add-a-bot-to-a-workstream).
 
 > [!NOTE]
-> Bots can escalate conversations to agents only if they're a part of push-based workstreams.
+> Bots can receive conversations only if they're added to push-based workstreams.
 
 ## Configure your Power Virtual Agents bot in Omnichannel Administration
 
