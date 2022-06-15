@@ -55,11 +55,11 @@ Configuring SLAs includes the process of creating SLA KPIs, SLAs, and then apply
 
 #### Create SLA KPIs
 
-Creating KPIs for your SLAs help define the success, failure, or warning criteria for your SLAs. KPIs also include performance metrics such as the response and resolution time which help define whether the scope of services to be covered were met or breached. More information: [Create SLA KPIs <a name="create-sla-kpis"></a>](define-service-level-agreements.md#create-sla-kpis-a-namecreate-sla-kpisa)
+Creating KPIs for your SLAs help define the success, failure, or warning criteria for your SLAs. KPIs also include performance metrics such as the response and resolution time which help define whether the scope of services to be covered were met or breached. More information: [Create SLA KPIs <a name="create-sla-kpis"></a>](define-service-level-agreements.md)
 
 #### Create SLAs
 
-After you have created the SLA KPIs, you can create SLAs from the Customer Service admin center or Customer Service Hub app. Creating an SLA includes creating an SLA, SLA item, configuring actions for the SLA item, and then activating the SLA. More information: [Create SLAs <a name="create-slas"></a>](define-service-level-agreements.md#create-slas-a-namecreate-slasa)
+After you have created the SLA KPIs, you can create SLAs from the Customer Service admin center or Customer Service Hub app. Creating an SLA includes creating an SLA, SLA item, configuring actions for the SLA item, and then activating the SLA. More information: [Create SLAs <a name="create-slas"></a>](define-service-level-agreements.md)
 
 #### Apply SLAs
 
