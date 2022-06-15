@@ -333,7 +333,7 @@ If an inspection question is required, the technician will not be able to mark *
 - Inactive inspections and work order service tasks are not available in offline mode. 
 - Inspections do not load in Internet Explorer. Microsoft Edge or Chrome is recommended. 
 - The question type "Entity lookup" shows inactive records.
-- If an inspection contains a large (50+) number of files, user may encounter errors while loading the inspection form. 
+- If an inspection contains a large (50+) number of files, users may encounter errors while loading the inspection form. 
 
 ### Field Service inspections or Power Apps inspections
 
