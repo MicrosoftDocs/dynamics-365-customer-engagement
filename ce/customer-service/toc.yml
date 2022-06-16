@@ -106,6 +106,14 @@
       href: /power-platform/admin/create-users-assign-online-security-roles
     - name: Assign roles and enable users
       href: add-users-assign-roles.md
+    - name: Manage users
+      href: users-user-profiles.md
+    - name: Manage capacity profiles
+      href: capacity-profiles.md
+    - name: Manage personas and custom security roles
+      href: role-persona-mapping.md
+    - name: Personas and privileges
+      href: persona-privilege-mapping.md  
   - name: Agent experience profiles for Customer Service
     items: 
     - name: Overview of agent experience profiles
@@ -284,16 +292,6 @@
           href: set-up-queues-manage-activities-cases.md
         - name: Route cases using basic rulesets
           href: create-rules-automatically-route-cases.md
-      - name: Configure users for unified routing
-        items:
-        - name: Manage users
-          href: users-user-profiles.md
-        - name: Manage capacity profiles
-          href: capacity-profiles.md
-        - name: Manage personas and custom security roles
-          href: role-persona-mapping.md
-        - name: Personas and privileges
-          href: persona-privilege-mapping.md
       - name: Diagnostics for unified routing
         href: unified-routing-diagnostics.md
     - name: Supervisor experience
