@@ -4,7 +4,7 @@ description: "Use this article to learn about the supported cloud locations, lan
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/15/2022
+ms.date: 06/16/2022
 ms.topic: article
 ---
 
@@ -34,7 +34,7 @@ The following table lists the availability of the voice channel in Omnichannel f
 |Australia, New Zealand, Fiji (crm6.dynamics.com) |December 2021 |To be announced|
 |South America (crm2.dynamics.com) |To be announced | To be announced|
 |Government Community Cloud (GCC) (crm9.dynamics.com) |To be announced |To be announced|
-||||
+
 
 If you need your data to stay within a country or region, see the following table for preview and general availability timelines. Stay tuned for country or region-specific local deployment of the voice channel. More information: [Datacenter regions](/power-platform/admin/new-datacenter-regions)
 
@@ -42,14 +42,16 @@ If you need your data to stay within a country or region, see the following tabl
 
 |Geographic location | Preview availability| General availability |
 |----------|---------|-----|
-|United Kingdom |June 2022  | October 2022 |
-|Canada |August 2022 | To be announced  |
-|India | August 2022 | To be announced  |
-|Switzerland | August 2022 | To be announced|
+|United Kingdom ***** |June 2022  | October 2022 |
+|Canada ***** |August 2022 | To be announced  |
+|India ***** | August 2022 | To be announced  |
+|Switzerland ***** | August 2022 | To be announced|
 |France | To be announced | To be announced|
 |Germany | To be announced | To be announced|
 | United Arab Emirates | To be announced | To be announced |
-||||
+
+> [!NOTE]
+> *****: The geographic location currently doesn't have business continuity and disaster recovery (BCDR) support. BCDR support will be a fast follow in this region.
 
 ### Microsoft as a carrier
 
