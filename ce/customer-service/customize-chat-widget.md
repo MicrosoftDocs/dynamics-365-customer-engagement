@@ -1,6 +1,6 @@
 ---
 title: "Customize live chat widgets using data tags | MicrosoftDocs"
-description: "Learn to customize chat widgets by using data tags in the chat widget script in Customer Service admin center or Omnichannel admin center apps."
+description: "Learn to customize chat widgets by using data tags in the chat widget script in the Customer Service admin center or Omnichannel admin center app."
 ms.date: 06/16/2022
 ms.topic: reference
 author: neeranelli
@@ -11,7 +11,7 @@ manager: shujoshi
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
-You can customize live chat widgets by using data tags in the widget script. You can use the following tags in the chat widget script that you copy from your admin app such as Customer Service admin center, Omnichannel admin center, or Omnichannel Administration.
+You can customize live chat widgets by using data tags in the widget script. You can use the following tags in the chat widget script that you copy from your admin app such as Customer Service admin center, Omnichannel admin center, or Omnichannel Administration. More information: [Embed chat widget in your website or portal](embed-chat-widget-portal.md)
 
 |Attribute name|Description|Example|
 |----|-----|-----|
@@ -27,7 +27,6 @@ You can customize live chat widgets by using data tags in the widget script. You
 ||||
 
 ### See also
-
 [Start chat proactively](start-proactive-chat.md)  
 [Live chat SDK reference](developer/omnichannel-reference.md)  
 
