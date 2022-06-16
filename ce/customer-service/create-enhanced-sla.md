@@ -69,14 +69,14 @@ ms.custom:
 
    - **Name**: Type a meaningful name.  
 
-   - **SLA KPI**: Select the KPI the SLA item is about. For example, if you're creating a KPI for sending the first response within a specified time, select the **First Response By KPI** option from the drop-down list.  
+   - **SLA KPI**: Select the KPI the SLA item is about. For example, if you're creating a KPI for sending the first response within a specified time, select the **First Response By KPI** option from the dropdown list.  
 
         For example, select **First Response By KPI** in the **SLA KPI** field, and set **Failure After** to two hours from the time the record was created. If the record was created at 09:00, the **Failure Time** field of the SLA KPI Instance record is set to 11:00, assuming business hours are all day, every day.  
 
        > [!TIP]
-       >  If you're creating an SLA for a Case entity, by default you have two options to choose from in the drop-down list. If you want to track other KPIs for a case or if you're creating the SLA for entities other than the Case entity, ask your system customizer to create new fields (of type Lookup) that refer to the SLA KPI Instance entity.  
+       >  If you're creating an SLA for a Case entity, by default you have two options to choose from in the dropdown list. If you want to track other KPIs for a case or if you're creating the SLA for entities other than the Case entity, ask your system customizer to create new fields (of type Lookup) that refer to the SLA KPI Instance entity.  
 
-   - In the **Applicable When** section, define the conditions under which the KPI will be applied. The condition can be based on primary entity or related entity fields.  
+   - In the **Applicable When** section, define the conditions under which the KPI will be applied. Conditions can be based on primary entity or related entity fields.  
 
       For example, the conditions might be as shown in the following image.
 
@@ -90,13 +90,13 @@ ms.custom:
      > - Before you specify the failure and warning actions for an SLA, save the SLA item record.
      > - If the conditions configured in the SLA fields conflict with each other, the SLA is canceled before it meets the success or failure criteria. For example, if the **Case Status** field is set as **Active** in the **Applicable When** section and is set as not equal to **Active** in the **Success Criteria** section, the SLA will be canceled when implemented. 
 
-   - In the **Success Action** section, select **Add Step**, and then specify the actions that you want the application to take when the success criteria is met before the violation time. For example, select **Add Step** > **Change Status**, and then in the first drop-down list, select **Case**, and in the next drop-down list, select **Information Provided**.
+   - In the **Success Action** section, select **Add Step**, and then specify the actions that you want the application to take when the success criteria is met before the violation time. For example, select **Add Step** > **Change Status**, and then in the first dropdown list, select **Case**, and in the next dropdown list, select **Information Provided**.
 
-   - Under **SLA Item Failure**, in the **Failure After** drop-down list, select when the SLA items will be considered as failed. For example, if you select **1 hour**, the KPI will be considered as failed if the first response isn't completed within one hour of the time the case was created. One hour is calculated based on the value in the DateTime field that you select in the **Applicable From** field of the SLA record.  
+   - Under **SLA Item Failure**, in the **Failure After** dropdown list, select when the SLA items will be considered as failed. For example, if you select **1 hour**, the KPI will be considered as failed if the first response isn't completed within one hour of the time the case was created. One hour is calculated based on the value in the DateTime field that you select in the **Applicable From** field of the SLA record.  
 
    - In the **Failure Actions** section, select **Add Step**, and then specify the actions to be taken if the success criteria aren't met and the record exceeds the specified failure time. For example, to mark a case for escalation when the KPI has failed, select **Add Step** > **Update Record** > **Case** > **Set Properties**. Now in the case record, change the value of the **Is Escalated** field, and then close the case form.  
 
-   - Under **SLA Item Warning**, in the **Warn After** drop-down list, select the time when a warning is to be raised that the KPI is nearing violation.  
+   - Under **SLA Item Warning**, in the **Warn After** dropdown list, select the time when a warning is to be raised that the KPI is nearing violation.  
 
    - In the **Warning Actions** section, select **Add Step**, and then specify the actions to be taken when the KPI reaches the warning time. For example, to warn the case owner that the KPI is nearing violation, select **Add Step** > **Send Email** > **Create New Message** > **Set Properties**. In the email record, specify the email details, and then close the email form.  
 
@@ -129,8 +129,8 @@ This sample SLA KPI tracks whether the salesperson has taken necessary action on
 
 > [!IMPORTANT]
 > - We recommend that you not create or update SLAs by using [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]. Use the Customer Service app for this purpose.  
-> - Make sure you don't have too many SLA items in an SLA, because that might negatively affect the create and update operations on the record on which the SLA is applied or reevaluated. We recommend that you have no more than 15 SLA items in an SLA, for performance reasons. 
-> - The SLA business logic relies on **SLA KPI Instance** record values, so to avoid any conflict we recommend that you not create plug-ins or processes to directly update the **SLA KPI Instance** record values.
+> - Make sure you don't have too many SLA items in an SLA because that might negatively affect the create and update operations on the record on which the SLA is applied or reevaluated. For performance reasons, we recommend that you have no more than 15 SLA items in an SLA. 
+> - The SLA business logic relies on **SLA KPI Instance** record values, so to avoid any conflict, we recommend that you don't create plug-ins or processes to directly update the **SLA KPI Instance** record values.
 
 ### See also
 

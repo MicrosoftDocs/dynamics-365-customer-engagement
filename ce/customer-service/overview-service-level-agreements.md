@@ -55,7 +55,7 @@ Configuring SLAs includes the process of creating SLA KPIs, SLAs, and then apply
 
 #### Create SLA KPIs
 
-Creating KPIs for your SLAs help define the success, failure, or warning criteria for your SLAs. KPIs also include performance metrics such as the response and resolution time which help define whether the scope of services to be covered were met or breached. More information: [Create SLA KPIs <a name="create-sla-kpis"></a>](define-service-level-agreements.md)
+Creating KPIs for your SLAs help define the success, failure, or warning criteria for your SLAs. KPIs also include performance metrics such as the response and resolution time which helps define whether the scope of services to be covered were met or breached. More information: [Create SLA KPIs <a name="create-sla-kpis"></a>](define-service-level-agreements.md)
 
 #### Create SLAs
 
@@ -83,7 +83,7 @@ After you have configured and applied your SLAs, you can mange the various aspec
 #### Create and manage customer service and holiday schedules
 
 - You can create customer service schedules and define the work hours to determine the support team's availability to provide support to customers. More information: [Create customer service schedule and define the work hours](create-customer-service-schedule-define-work-hours.md#create-customer-service-schedule-and-define-the-work-hours)
-- You can create and manage holiday schedules and any changes that occur to the schedules as well. This will help avoid any issues with your SLA, in cases where your service organization has a holiday. More information: [Create and manage holiday schedules](set-up-holiday-schedule.md#create-and-manage-holiday-schedules)
+- You can create and manage holiday schedules and any changes that occur to the schedules as well. This will help avoid any issues with your SLA in cases where your service organization has a holiday. More information: [Create and manage holiday schedules](set-up-holiday-schedule.md#create-and-manage-holiday-schedules)
 
 #### Add a timer control to an SLA-enabled entity form and customize the SLA timer control display label
 
