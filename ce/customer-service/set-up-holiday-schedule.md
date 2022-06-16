@@ -81,7 +81,7 @@ To resolve any issues with the SLA during holidays, see [SLA timer does not paus
   
 7. In the **Add a Holiday** dialog box, specify the name and select the time of the holiday, and then select **OK**.  
   
-   The holiday is created and associated with your customer service calendar. After the customer service schedule is associated to an SLA,  then your SLA during business hours is not affected. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define service level agreements](../customer-service/define-service-level-agreements.md)  
+   The holiday is created and associated with your customer service calendar. After the customer service schedule is associated to an SLA,  then your SLA during business hours is not affected. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure service-level agreements](../customer-service/define-service-level-agreements.md)  
 
 ## Additional actions
 
