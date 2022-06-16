@@ -444,6 +444,8 @@
           href: /power-apps/user/email-template-create?context=/dynamics365/context/customer-service-context
         - name: Insert an email template
           href: /power-apps/user/insert-email-template?context=/dynamics365/context/customer-service-context
+        - name: Personalize emails with dynamic text
+          href: /power-apps/user/email-dynamic-text?context=/dynamics365/context/customer-service-context          
         - name: Customize an email templates using the template editor
           href: /power-apps/user/cs-template-options?context=/dynamics365/context/customer-service-context
         - name: Convert an email to a template
