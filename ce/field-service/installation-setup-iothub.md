@@ -1,7 +1,7 @@
 ---
 title: "Installation and setup for Connected Field Service for Azure IoT Hub (Dynamics 365 Field Service) | Microsoft Docs"
 description: Learn how connect and setup Dynamics 365 Field Service with Azure IoT Hub.
-ms.date: 09/14/2020
+ms.date: 06/16/2022
 ms.reviewer: krbjoran
 
 ms.subservice: connected-field-service
@@ -41,27 +41,19 @@ Connected Field Service is included with Dynamics 365 Field Service. Creating a 
 
 Verify you have the Connected Field Service entities in your environment.
 
-## Step 2: Deploy Connected Field Service and Azure resources 
+## Step 2: Deploy Connected Field Service and Azure resources
+
+> [!IMPORTANT]
+> The current deployment app will be deprecated in July 2022, and new deployment options will be made available.
 
 Next, deploy and connect Azure IoTHub to your Field Service environment by going to [https://cfsdeployment.crm.dynamics.com/](https://cfsdeployment.crm.dynamics.com/) and following the instructions.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the IoT deployment app.](./media/cfs-deployment-app-screen-1.png)
 
-
 > [!Note]
-> If you are using an older version of Field Service and cannot upgrade, you can add the connected field service solution  you your field service environment from the app store. 
-  1. Sign in to [https://admin.microsoft.com](https://admin.microsoft.com) with your Global Administrator or Dynamics 365 system administrator credentials.  
-  2. Select **Admin centers** > **Dynamics 365**  
-  3. Select the **Applications** tab, and then select **Connected Field Service**.  
-  4. Select **Manage**.  
-  5. Read and accept the **Terms of service**.  
-  6. In the **Installing Azure Required Assets** dialog box, enter your Azure account, select **Sign In User**, and then  follow the sign-in process.  
-  7. In the **Selecting Azure Subscription** dialog box, select the Azure subscription that you want to create resources under and then select **Next**.  
-  8. In the **Choose a resource group** dialog box, create a new resource group or use an existing resource group.  
-  9. **Optional Step for Power BI**.  To install the Azure SQL database that is used for Power BI, check the **Enable Power BI Integration** box, and then enter the Azure SQL database user name and password. 
-  10. Select **Deploy**.  
-  
+> If you are using an older version of Field Service and cannot upgrade, you can add the connected field service solution in your field service environment from the app store.
+
 Before proceeding, make sure all required Azure resources are successfully deployed and that the overall deployment status is **Success**.  
 
 ## Step 3: Authorize Azure app connection 
@@ -112,9 +104,9 @@ Now you can send a test command by using the sample simulator. For example, sele
 ## Privacy notice
 [!INCLUDE[cc_privacy_crm_connected_field_service](../includes/cc-privacy-crm-connected-field-service.md)]
 
-[Azure Time Series Insight (Preview)](/azure/time-series-insights/)
+[Azure Time Series Insight](/azure/time-series-insights/)
 
-[Connected Field Service Device Readings (Preview)](cfs-visualizations-iot-hub.md) uses Azure Time Series Insight to store, process, and query IoT devices measurements from IoT Hub.
+[Connected Field Service Device Readings](cfs-visualizations-iot-hub.md) uses Azure Time Series Insight to store, process, and query IoT devices measurements from IoT Hub.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
