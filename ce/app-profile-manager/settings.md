@@ -16,7 +16,7 @@ The Settings option under Customer Service workspace or Omnichannel Administrati
 
 ### Customer Service workspace
 
-When you select settings from Customer Service workspace (preview) in the left pane, the **Queues** page is opened on a new tab. In Service Management, you can manage cases, accounts, service schedules, and other settings.
+When you select settings from Customer Service workspace in the left pane, the **Queues** page is opened on a new tab. In Service Management, you can manage cases, accounts, service schedules, and other settings.
 
 ### Omnichannel for Customer Service
 
