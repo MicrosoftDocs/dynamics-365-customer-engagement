@@ -46,6 +46,9 @@ You can upgrade an existing Unified Service Desk sample application package to t
 9. The **Executing Install Actions** page appears. The installation can take several minutes.  
   
 10. Select **Finish** to complete the upgrade.  
+
+> [!Important]
+> Please be sure to clear the cache after you upgrade your sample application package.
   
 ### See also  
 
