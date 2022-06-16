@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Customer Service | MicrosoftDocs"
 description: "Learn about Customer Service Hub."
-ms.date: 07/31/2019
+ms.date: 06/16/2022
 ms.topic: get-started-article
 author: Soumyasd27
 ms.author: sdas

@@ -1,7 +1,7 @@
 ---
 title: "Track and manage SLAs in Customer Service workspace | Microsoft Docs"
 description: "Learn how to track and manage SLAs with the help of interactive dashboards in Customer Service workspace for Dynamics 365 Customer Service."
-ms.date: 06/15/2022
+ms.date: 06/16/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
