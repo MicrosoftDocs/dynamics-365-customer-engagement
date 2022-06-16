@@ -19,7 +19,8 @@ search.app:
 ---
 
 # Manage SMS keywords used in customer journeys
-The SMS keywords page includes all keywords that have been created and/or used in customer journeys. To access it, go to **Settings > Customer engagement > SMS keywords**.
+
+The **SMS keywords** page includes all keywords that have been created and/or used in customer journeys. To access it, go to **Settings > Customer engagement > SMS keywords**.
 
 From this page, you can delete obsolete keywords, update keywords to new ones that will improve your response rate, and add new keywords that will show up in the SMS editor and your customer journeys.
 
@@ -37,5 +38,7 @@ To update a keyword:
 1. Select it from the keywords list.
 2. Select the **Edit** button.
 3. Add the new text and select **Update**.
+
+ The following screenshot shows the **SMS keywords** page. 
 
 > ![SMS keywords page screenshot.](media/sms-keywords-page.png "SMS keywords page screenshot")
