@@ -24,7 +24,7 @@ The following table lists the availability of the voice channel in Omnichannel f
 > - Your Microsoft 365 tenant must be colocated in one of the following geographic locations where Omnichannel for Customer Service is available.
 > - The geographic locations refer to your Microsoft 365 tenant only and not the data center where your Dynamics 365 environment or org instance resides.
 
-**General region deployments**
+### General region deployments
 
 |Geographic location | General availability | Availability in Customer Service trial|
 |----------|---------|-----|
@@ -35,23 +35,22 @@ The following table lists the availability of the voice channel in Omnichannel f
 |South America (crm2.dynamics.com) |To be announced | To be announced|
 |Government Community Cloud (GCC) (crm9.dynamics.com) |To be announced |To be announced|
 
-
 If you need your data to stay within a country or region, see the following table for preview and general availability timelines. Stay tuned for country or region-specific local deployment of the voice channel. More information: [Datacenter regions](/power-platform/admin/new-datacenter-regions)
 
-**Region-specific deployments**
+### Region-specific deployments
 
 |Geographic location | Preview availability| General availability |
 |----------|---------|-----|
-|United Kingdom **<sup>*</sup>** |June 2022  | October 2022 |
-|Canada **<sup>*</sup>** |August 2022 | To be announced  |
-|India **<sup>*</sup>** | August 2022 | To be announced  |
-|Switzerland **<sup>*</sup>** | August 2022 | To be announced|
+|United Kingdom **<sup>1</sup>** |June 2022  | October 2022 |
+|Canada **<sup>1</sup>** |August 2022 | To be announced  |
+|India **<sup>1</sup>** | August 2022 | To be announced  |
+|Switzerland **<sup>1</sup>** | August 2022 | To be announced|
 |France | To be announced | To be announced|
 |Germany | To be announced | To be announced|
 | United Arab Emirates | To be announced | To be announced |
 
 > [!NOTE]
-> **<sup>*</sup>** The geographic location currently doesn't have business continuity and disaster recovery (BCDR) support. BCDR support will be a fast follow in this region.
+> **<sup> 1</sup>** The geographic location currently doesn't have business continuity and disaster recovery (BCDR) support. BCDR support will be a fast follow in this region.
 
 ### Microsoft as a carrier
 
