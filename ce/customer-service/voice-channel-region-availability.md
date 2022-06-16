@@ -42,16 +42,16 @@ If you need your data to stay within a country or region, see the following tabl
 
 |Geographic location | Preview availability| General availability |
 |----------|---------|-----|
-|United Kingdom ***** |June 2022  | October 2022 |
-|Canada ***** |August 2022 | To be announced  |
-|India ***** | August 2022 | To be announced  |
-|Switzerland ***** | August 2022 | To be announced|
+|United Kingdom **<sup>*</sup>** |June 2022  | October 2022 |
+|Canada **<sup>*</sup>** |August 2022 | To be announced  |
+|India **<sup>*</sup>** | August 2022 | To be announced  |
+|Switzerland **<sup>*</sup>** | August 2022 | To be announced|
 |France | To be announced | To be announced|
 |Germany | To be announced | To be announced|
 | United Arab Emirates | To be announced | To be announced |
 
 > [!NOTE]
-> *****: The geographic location currently doesn't have business continuity and disaster recovery (BCDR) support. BCDR support will be a fast follow in this region.
+> **<sup>*</sup>** The geographic location currently doesn't have business continuity and disaster recovery (BCDR) support. BCDR support will be a fast follow in this region.
 
 ### Microsoft as a carrier
 
