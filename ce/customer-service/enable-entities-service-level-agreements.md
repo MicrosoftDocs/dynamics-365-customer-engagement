@@ -1,10 +1,10 @@
 ---
 title: "Enable entities for service level agreements (Dynamics 365 Customer Service) | MicrosoftDocs"
 description: "Learn how to enable entities for service level agreements in Dynamics 365 Customer Service."
-ms.date: 09/07/2020
+ms.date: 06/16/2022
 ms.topic: article
-author: neeranelli
-ms.author: nenellim
+author: Soumyasd27
+ms.author: sdas
 manager: shujoshi
 search.audienceType: 
   - admin
@@ -74,7 +74,7 @@ With Customer Service, you can create enhanced SLAs for entities that are enable
   
 ### See also
 
- [Define service level agreements](../customer-service/define-service-level-agreements.md)
+ [Configure service level agreements](../customer-service/define-service-level-agreements.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
