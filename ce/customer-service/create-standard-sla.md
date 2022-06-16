@@ -44,7 +44,7 @@ ms.custom:
 
     To edit an SLA, select the SLA in the list of records, and then select **Edit** on the command bar.  
 
-5. If you're creating a new SLA, you'll see the **Create SLA** dialog box. Type a name for the SLA, and then in the **Entity** drop-down list, select **Case**.  
+5. If you're creating a new SLA, you'll see the **Create SLA** dialog box. Type a name for the SLA, and then in the **Entity** dropdown list, select **Case**.  
 
     You do this because you can create a standard SLA only for the Case entity.  
 
@@ -71,7 +71,7 @@ ms.custom:
 
     Define success criteria and the failure and warning actions that need to be taken when an SLA metric isn't met for a customer case.  
 
-    SLA KPIs are performance indicators that you'd like to track, for example First Response or Resolve By. SLA items refer to SLA KPIs based on specific conditions. You can add multiple SLA items and arrange them in the order that works for you. For any given KPI, only the first SLA item that matches the conditions in the **Applicable When** section is applied.  
+    SLA KPIs are performance indicators that you'd like to track. For example, First Response or Resolve By. SLA items refer to SLA KPIs based on specific conditions. You can add multiple SLA items and arrange them in the order that works for you. For any given KPI, only the first SLA item that matches the conditions in the **Applicable When** section is applied.  
 
    > [!NOTE]
    >  In Customer Service, SLA and SLA KPIs (SLA details) use the process (workflow) functionality. Although SLA KPIs use workflows, not all of the actions available in workflows are available for defining failure and warning actions. The available actions are currently limited to **Send Email**, **Create Record**, **Update Record**, **Assign Record**, and **Change Status**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and edit workflow processes](../customerengagement/on-premises/customize/workflow-processes.md)  
@@ -80,12 +80,12 @@ ms.custom:
 
    - **Name**: Type a meaningful name.  
 
-   - **Related Case Field**: Select a field of DateTime type of the case record that this SLA item refers to. For example, if you're creating a KPI for sending the first response within a specified time, select the **First Response By** option from the drop-down list. If necessary, ask your system customizer to create new fields of type DateTime.  
+   - **Related Case Field**: Select a field of DateTime type of the case record that this SLA item refers to. For example, if you're creating a KPI for sending the first response within a specified time, select the **First Response By** option from the dropdown list. If necessary, ask your system customizer to create new fields of type DateTime.  
 
         When a case record is created or updated, this field is set to the date and time when the failure time will be reached for the respective SLA item. For example, select **First Response By** in **Related Case Field**, and set **Failure After** to two hours from the time the case was created. If the case was created at 09:00, the **First Response By** field in the case record will be set to 11:00, assuming the business hours are all day, every day.  
 
        > [!TIP]
-       >  By default, there are four options available in the drop-down list. If you want to track other KPIs, ask your system customizer to create case fields of type DateTime.  
+       >  By default, there are four options available in the dropdown list. If you want to track other KPIs, ask your system customizer to create case fields of type DateTime.  
 
    - In the **Applicable When** section, define the conditions under which the KPI will be applied. The condition can be based on case or related entity fields.  
 
@@ -103,11 +103,11 @@ ms.custom:
      > [!NOTE]
      >  Before you specify the failure and warning actions for the SLA, save the SLA item record.  </br> </br> If the conditions configured in the SLA fields conflict with each other, the SLA is canceled before it meets the success or failure criteria. For example, if the **Case Status** field is set as **Active** in the **Applicable When** section and is set as **not equal to Active** in the **Success Criteria** section, the SLA will be canceled when implemented.
 
-   - Under **SLA Item Failure**, in the **Failure After** drop-down list, select when the SLA items will be considered as failed. For example, if you select **1 hour**, the KPI will be considered as failed if the first response isn't completed within one hour of the time the case was created. One hour is calculated based on the value in the date-time field that you select in the **Applicable From** field of the SLA record.  
+   - Under **SLA Item Failure**, in the **Failure After** dropdown list, select when the SLA items will be considered as failed. For example, if you select **1 hour**, the KPI will be considered as failed if the first response isn't completed within one hour of the time the case was created. One hour is calculated based on the value in the date-time field that you select in the **Applicable From** field of the SLA record.  
 
    - In the **Failure Actions** section, select **Add Step**, and then specify the actions to be taken if the success criteria aren't met and the case exceeds the specified failure time. For example, to mark a case for escalation when the KPI has failed, select **Add Step** > **Update Record** > **Case** > **Set Properties**. In the case record, change the value of the **Is Escalated** field, and then close the case form.  
 
-   - Under **SLA Item Warning**, in the **Warn After** drop-down list, select the time when a warning is to be raised that the KPI is nearing violation.  
+   - Under **SLA Item Warning**, in the **Warn After** dropdown list, select the time when a warning is to be raised that the KPI is nearing violation.  
 
    - In the **Warning Actions** section, select **Add Step**, and then specify the actions to be taken when the KPI reaches the time when a warning is to be raised. For example, to warn the case owner that the KPI is nearing violation, select **Add Step** > **Send Email** > **Create New Message** > **Set Properties**. In the email record, type the email details, and then close the email form.  
 
@@ -115,14 +115,14 @@ ms.custom:
      >  The time for failure and warning is calculated after considering the business hours selected in the SLA record. If a business hours record (customer service schedule) isn't selected, the work hours are considered to be all day, every day.
 
      > [!IMPORTANT]
-     >  Make sure that you don't have too many SLA items in an SLA, because that might negatively affect the create and update operations on the record on which the SLA is applied or reevaluated. We recommend that you have no more than 15 SLA items in an SLA record, for performance reasons.  
+     >  Make sure that you don't have too many SLA items in an SLA because it might negatively affect the create and update operations on the record on which the SLA is applied or reevaluated. For performance reasons, we recommend that you don't have more than 15 SLA items in an SLA record.  
 
 10. [!INCLUDE[proc_click_or_tap_save_and_close](../includes/proc-click-or-tap-save-and-close.md)]  
 
     > [!IMPORTANT]
-    > - Failure and warning actions run asynchronously, and might not be triggered exactly at the failure or warning time.
-    > - If failure or warning times are set to less than one hour, processing of the failure or warning actions might be delayed.
-    > - Make sure you author SLAs in a way that best suits your company's needs. For example, in the SLA **Applicable When** conditions, we recommend that you don't use case fields that are updated too frequently, because any change to the field value might lead to the SLA item being canceled.
+    > - Failure and warning actions run asynchronously and might not be triggered exactly at the failure or warning time.
+    > - If failure or warning times are set to less than one hour, the processing of failure or warning actions might be delayed.
+    > - Make sure you author SLAs in a way that best suits your company's needs. For example, in the SLA **Applicable When** conditions, we recommend that you don't use case fields that are updated too frequently because any change to the field value might lead to the SLA item being canceled.
 
 ### See also
 

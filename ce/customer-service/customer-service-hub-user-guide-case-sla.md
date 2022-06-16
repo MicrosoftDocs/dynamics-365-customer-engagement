@@ -1,6 +1,6 @@
 ---
-title: "Track and manage SLAs in Customer Service Workspace | Microsoft Docs"
-description: "Learn how to track and manage SLAs with the help of interactive dashboards in Customer Service Workspace for Dynamics 365 Customer Service."
+title: "Track and manage SLAs in Customer Service workspace | Microsoft Docs"
+description: "Learn how to track and manage SLAs with the help of interactive dashboards in Customer Service workspace for Dynamics 365 Customer Service."
 ms.date: 06/15/2022
 ms.topic: article
 author: Soumyasd27
@@ -19,7 +19,7 @@ ms.custom:
 
 # Manage SLAs
 
-You can track and manage SLAs in Customer Service Workspace.
+You can track and manage SLAs in Customer Service workspace.
 
 ## Track SLA details with Timer control
 
@@ -63,7 +63,7 @@ Based on the business hours, the timer displays the time remaining to meet the S
 When an SLA is applied to an entity, a related SLA KPI Instance record is created for each SLA KPI that is tracked for that entity. The on-hold time is the time for which the case was set to a status that you defined as an On-Hold status in the System settings dialog box. 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Service tab.](/power-platform/admin/system-settings-dialog-box-service-tab)
 
-For example, when you put a case on hold, the status of the SLA KPI Instance is set to Paused. You can see the time for which a case was on hold and the last time the case was put on hold. These details aren't available on the case form by default, but your system customizer can add these fields on the case form for you.
+For example, when you put a case on hold, the status of the SLA KPI Instance is set to Paused. You can see the time for which a case was on hold and the last time the case was put on hold. These details aren't available on the case form by default but your system customizer can add these fields on the case form for you.
 
 When you resume a case, the status of the SLA KPI Instance record is updated. The following details are updated in the record if the SLA isn’t violated:
 
