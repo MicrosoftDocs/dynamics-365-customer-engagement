@@ -76,7 +76,7 @@ ms.custom:
        > [!TIP]
        >  If you're creating an SLA for a Case entity, by default you have two options to choose from in the drop-down list. If you want to track other KPIs for a case or if you're creating the SLA for entities other than the Case entity, ask your system customizer to create new fields (of type Lookup) that refer to the SLA KPI Instance entity.  
 
-   - In the **Applicable When** section, define the conditions under which the KPI will be applied. The condition can be based on primary entity or related entity fields.  
+   - In the **Applicable When** section, define the conditions under which the KPI will be applied. Conditions can be based on primary entity or related entity fields.  
 
       For example, the conditions might be as shown in the following image.
 
@@ -129,8 +129,8 @@ This sample SLA KPI tracks whether the salesperson has taken necessary action on
 
 > [!IMPORTANT]
 > - We recommend that you not create or update SLAs by using [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]. Use the Customer Service app for this purpose.  
-> - Make sure you don't have too many SLA items in an SLA, because that might negatively affect the create and update operations on the record on which the SLA is applied or reevaluated. We recommend that you have no more than 15 SLA items in an SLA, for performance reasons. 
-> - The SLA business logic relies on **SLA KPI Instance** record values, so to avoid any conflict we recommend that you not create plug-ins or processes to directly update the **SLA KPI Instance** record values.
+> - Make sure you don't have too many SLA items in an SLA because that might negatively affect the create and update operations on the record on which the SLA is applied or reevaluated. For performance reasons, we recommend that you have no more than 15 SLA items in an SLA. 
+> - The SLA business logic relies on **SLA KPI Instance** record values, so to avoid any conflict, we recommend that you don't create plug-ins or processes to directly update the **SLA KPI Instance** record values.
 
 ### See also
 
