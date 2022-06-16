@@ -39,7 +39,7 @@ The following table lists the rich cards that are supported across different cha
 
 🌐: Card is converted to unformatted text, links might not be active, images might not be displayed, or media might not work. The behavior might vary by channel.
 
-The markdown element for adaptive cards is partially supported across all chat channels. For example, the markdown element is not supported in live chat, whereas, it is supported in LINE.
+The markdown element for adaptive cards is partially supported across all chat channels. For example, the markdown element isn't supported in live chat, whereas, it's supported in LINE.
 
 Media or audio card and date input elements for adaptive cards are only supported in Live chat channels. Adaptive card elements like text block and images are also supported across channels.
 
@@ -111,13 +111,13 @@ You can enable file attachments on the **General settings** tab of a channel so 
 | Channel            | Sticker behavior                                                    |
 |--------------------|---------------------------------------------------------------------|
 | Microsoft Teams    | Not supported.                                                      |
-| Facebook           | Yes, as a PNG image                                                 |
+| Facebook           | Yes, as a PNG image.                                                 |
 | LINE               | Not supported. Recipient sees "Sticker" text.                       |
 | Twitter            | Not supported.                                                      |
 | WeChat             | Not supported. Recipient sees "Unsupported message" text.           |
 | WhatsApp           | Not supported.                                                      |
 | Custom messaging (Telegram) | Not supported.                                             |
-| Custom messaging (Direct Line) | Yes, as sticker image                                   |
+| Custom messaging (Direct Line) | Yes, as sticker image.                                  |
 
 > [!Note]
 > The Direct Line channel supports stickers, but it's up to the client to implement them.
