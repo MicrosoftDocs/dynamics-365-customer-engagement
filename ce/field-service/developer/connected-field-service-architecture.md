@@ -34,7 +34,7 @@ For this topic, the words **data** and **telemetry** refer to information sent f
 - **IoT Devices & Edge**: Internet-connected sensors on equipment send data to IoTHub typically via WiFi or cellular connectivity. A single piece of equipment can have multiple sensors each taking different measurements such as temperature and pressure. If a building or area has a collection of equipment each with multiple sensors, then an **Edge device** can be used to organize them and broker telemetry sent to IoTHub.
   
   > [!NOTE]
-  > Currently, the Connected Field Service implementation with IoT Hub does not support splitting out telemetry data for IoT Edge modules.
+  > Currently, the Connected Field Service implementation with IoT Hub doesn't support splitting the telemetry data for IoT Edge modules.
 
 - **Device Simulator**: Administrators can simulate devices and telemetry for testing and development purposes before the hardware is set up. This lets them see how simulated alerts flow to Dynamics 365 Field Service and create work orders.
 
