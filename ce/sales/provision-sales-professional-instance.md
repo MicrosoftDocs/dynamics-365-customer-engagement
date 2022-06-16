@@ -1,7 +1,7 @@
 ---
 title: "Provision your Dynamics 365 Sales Professional environment (Dynamics 365 Sales Professional) | MicrosoftDocs"
 description: "Learn about the provisioning of your environment in Dynamics 365 Sales Professional."
-ms.date: 09/23/2020
+ms.date: 06/14/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -116,8 +116,6 @@ To install the Sales Professional solution on a Dynamics 365 environment
  
     ![Sales Professional app tile.](media/sales-professional-app-tile.png "Sales Professional app tile")
 
-    > [!IMPORTANT]
-    > You can't install the Sales Professional app on Microsoft Dataverse environments. When you try to install Dynamics 365 Sales, Professional on a Microsoft Dataverse environment, you'll be asked to select a different environment. 
 
 ### See also
 [Overview of Dynamics 365 Sales](overview.md)  
