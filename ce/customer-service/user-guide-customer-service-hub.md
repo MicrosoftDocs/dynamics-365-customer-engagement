@@ -1,10 +1,10 @@
 ---
 title: "Introduction to Customer Service | MicrosoftDocs"
 description: "Learn about Customer Service Hub."
-ms.date: 07/31/2019
+ms.date: 06/16/2022
 ms.topic: get-started-article
-author: neeranelli
-ms.author: nenellim
+author: Soumyasd27
+ms.author: sdas
 manager: shujoshi
 ms.custom: 
   - dyn365-customerservice
@@ -41,8 +41,8 @@ To learn how to install and use the Customer Service Hub app on a mobile device,
 [Learn the basics of the Customer Service Hub ](customer-service-hub-user-guide-basics.md)
   
 [Track your cases efficiently and act on them quickly](customer-service-hub-user-guide-case-sla.md)
-  
-[Use SLA on the Customers Service Hub records](customer-service-hub-user-guide-case-sla.md#use-sla-on-the-customer-service-hub-records)
+
+[Use SLA on the Customers Service Hub records](enable-entities-service-level-agreements.md)
   
 [Reduce call handling times with knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
   
