@@ -150,7 +150,7 @@ The following screenshot shows how to add SMS keywords in your text message.
 
 > ![Add SMS keywords screenshot](media/add-sms-keywords.png "[Add SMS keywords screenshot")
  
-All keywords created through the SMS editor are also added to the [SMS keywords page]( ). 
+All keywords created through the SMS editor are also added to the [SMS keywords page](manage-sms-keywords.md ). 
  
 ## Track your text message metrics from channel insights
 
