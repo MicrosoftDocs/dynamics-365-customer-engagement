@@ -1,7 +1,7 @@
 ---
 title: "Integrate a Power Virtual Agents bot | MicrosoftDocs"
 description: "Use this article to get instructions on how to integrate a Power Virtual Agents bot in Omnichannel for Customer Service."
-ms.date: 06/14/2022
+ms.date: 06/16/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -19,7 +19,7 @@ ms.custom:
 
 Microsoft Power Virtual Agents allows organizations to automate routine conversations, letting agents focus on high-value interactions. When a conversation is escalated from a bot to a human agent, the agent can see the full transcript of the bot conversation and get complete context while engaging with the customer.
 
-After you've created your bot and connected it to an Omnichannel for Customer Service environment, you can go to the Omnichannel admin center or [Customer Service admin center](cs-admin-center.md) app to add your bot to queues and configure context variables to route work items.
+After you've created your bot and connected it to an Omnichannel for Customer Service environment, you can go to the [Customer Service admin center](cs-admin-center.md) or Omnichannel admin center app to add your bot to queues and configure context variables to route work items.
 
 When you integrate a Power Virtual Agents bot with Omnichannel for Customer Service, you get the following capabilities for bot conversations:
 
@@ -205,15 +205,13 @@ The global variables that are created in Power Virtual Agents can be passed to O
 
 ## When is a conversation closed in Omnichannel for Customer Service
 
-When bots receive a conversation that is subsequently not escalated to a human agent, the conversation is closed if the customer abandons it. The conversation will also be closed automatically after 30 minutes of inactivity.
+When a bot receives a conversation that's subsequently not escalated to a human agent, the conversation is closed if the customer abandons it. The conversation will also be closed automatically after 30 minutes of inactivity.
 
 This conversation will then appear in the **Closed** state in the Omnichannel for Customer Service dashboard and in **Resolved/abandoned** state in the Power Virtual Agents dashboard. For more information on the state of conversations, see [Session outcomes over time chart](/power-virtual-agents/analytics-summary#session-outcomes-over-time-chart).
 
-## Enable a Power Virtual Agents bot to end conversations
+## End bot conversation
 
-To configure the Power Virtual Agents web app bot to end conversations, see [End conversation](/power-virtual-agents/authoring-create-edit-topics#end-the-conversation). 
-
-If you're using the Power Virtual Agents bot in Microsoft Teams, see [End with survey](/power-virtual-agents/authoring-create-edit-topics#end-the-conversation).
+To configure a Power Virtual Agents web app bot to end a conversation, see [End conversation](/power-virtual-agents/authoring-create-edit-topics#end-the-conversation).
 
 ## Privacy notice
 
