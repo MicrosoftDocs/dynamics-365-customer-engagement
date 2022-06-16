@@ -146,6 +146,8 @@ To add a keyword to a text message:
 2. Type the keyword that you’d like to add. 
 3. Select it from the list if it has been used previously in the journey or select the **New keyword** button to create it. 
 
+The following screenshot shows how to add SMS keywords in your text message. 
+
 > ![Add SMS keywords screenshot](media/add-sms-keywords.png "[Add SMS keywords screenshot")
  
 All keywords created through the SMS editor are also added to the [SMS keywords page]( ). 
