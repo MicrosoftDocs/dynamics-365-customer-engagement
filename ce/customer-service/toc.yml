@@ -346,7 +346,7 @@
         href: view-social-profile.md
       - name: Convert a case to a knowledge article
         href: customer-service-hub-user-guide-convert-case-to-knowledge-article.md
-      - name: View AI suggested similar cases and knowledge articles
+      - name: View AI-suggested similar cases and knowledge articles
         href: csw-view-ai-suggested-cases-knowledge-articles.md
       - name: Manage cases using interactive dashboards
         href: customer-service-hub-user-guide-dashboard.md
@@ -532,7 +532,7 @@
         href: use-teams-meetings.md
       - name: Collaborate with AI-suggested contacts in Microsoft Teams
         href: use-ai-suggested-contacts-teams.md
-      - name: Use ai-generated summaries for ongoing conversations
+      - name: Use AI-generated summaries for ongoing conversations
         href: cs-ai-generated-summary.md
       - name: Use customer support swarming to resolve issues
         href: use-customer-support-swarming.md
