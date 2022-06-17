@@ -58,7 +58,7 @@ The following features support all languages that the product supports.
 
 Language availability for real-time message translation is dependent on your translator service provider.
 
-The following table lists the language availability of other Customer Service insights features.
+The following table lists the language availability of the other Customer Service insights features.
 
 | Feature name | English | Arabic | Dutch | French | German | Italian | Japanese | Portuguese | Simplified Chinese | Spanish |
 | ------- | ----- | -------- | ----- | ------- | ------- | ----- |---- | ------ | ------ | -------- | ------ | 
