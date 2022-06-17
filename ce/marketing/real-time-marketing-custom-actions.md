@@ -32,13 +32,13 @@ To learn more about creating custom triggers, see [Create custom triggers in rea
 
 ## Launch an action outside of a journey using a custom trigger
 
-Let's say you create a journey with the goal of nurturing customers who have made purchases. Customers enter the journey when they’ve made a purchase from an online store and you want to respond to them using the relevant purchase data. This journey uses an **Attribute** tile that sends customers to the **Yes** branch if they’re a new customer and the **No** branch if they’re a current customer or rewards member. Each branch contains a custom trigger that fulfills a specific task.
+Let's say you create a journey with the goal of nurturing shoppers who have made purchases and building loyalty with first time shoppers. Shoppers enter the journey when they’ve made a purchase from an online store and you want to respond to them using the relevant purchase data. This journey uses an **Attribute** tile that sends customers to the **Yes** branch if they’re a new shopper and the **No** branch if they’re a current shopper or rewards member. Each branch contains a custom trigger that fulfills a specific task.
 
 Given Customer 1 and Customer 2, here’s how the custom triggers work in the journey:
 
-*Customer 1: Enters the journey as an existing rewards member and proceeds to the **No** branch of the attribute tile. The **No** branch contains a custom trigger that sends Customer 1 to a separate journey designed to nurture rewards members.*
+*Customer 1: Enters the journey as an existing rewards member and proceeds to the **No** branch of the attribute tile. Since this shopper is an existing rewards member, you simply want to continue nurturing them. The **No** branch contains a custom trigger that sends Customer 1 to a separate journey designed to nurture rewards members.*
 
-*Customer 2: Enters the journey as a new customer and proceeds down the **Yes** branch of the attribute tile. In the **Yes** branch, they reach a custom trigger that you've connected to a Power Automate flow. Because the customer has never made a prior purchase, you want to pre-fill relevant information about the customer using the purchase data. The flow assigns a rewards number to the customer if there’s a valid phone number provided at the time of registration.*
+*Customer 2: Enters the journey as a new shopper and proceeds down the **Yes** branch of the attribute tile. In the **Yes** branch, you want to send the shopper to a human agent who can talk to the shopper about becoming a loyalty member by getting a branded credit card. This is enabled by using a custom trigger that you've connected to a Power Automate flow. Through this flow, you're routing the shopper to an agent*
 
 Setting up a custom trigger action requires three steps: selecting a custom trigger, understanding the selected trigger usage, and mapping the attributes.
 
@@ -46,12 +46,15 @@ Setting up a custom trigger action requires three steps: selecting a custom trig
 
 After placing a **Custom trigger** tile on the journey canvas, select which custom trigger will be activated when a customer reaches this point in the journey.
 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of a trigger for a nurture journey.](media/Adding-custom-trigger-step1.png "Screenshot of a trigger for a nurture journey")
+
 ## 2. Understand the selected trigger usage
 
 After you select the custom trigger, the current usage of the custom trigger in all journeys will be displayed in **Used in:** field in the properties pane. By selecting the **Used in:** link, you’ll be able to see all journeys and corresponding states that use the same custom trigger.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a trigger for a nurture journey.](media/real-time-marketing-custom-actions-nuture-journey.png "Screenshot of a trigger for a nurture journey")
+> ![Screenshot of viewing custom trigger usage.](media/viewing-custom-trigger-usage-step2.png "Screenshot of viewing the usage for a custom trigger")
 
 > [!NOTE]
 > Power Automate flows that reference the custom event are not tracked or displayed here.
@@ -61,12 +64,27 @@ After you select the custom trigger, the current usage of the custom trigger in 
 
 ## 3. Map attributes
 
-When a customer reaches this stage of the journey, the custom trigger activated needs to know where to get the customer information. The **Map attributes** shown in the custom trigger side pane allow dynamic mapping for the information sent in the trigger action.
+When a customer reaches this stage of the journey, the custom trigger activated needs to know where to get the customer information that it will carry. The **Map attributes** shown in the custom trigger side pane allow you to set/populate the trigger fields in 2 ways:
 
-To map each attribute, select the attribute, then select the data field that the trigger data comes from. After you map the data, select **Save** for each attribute.
+1. Specify a fixed value: In the example here, you can pass the name of the source journey that's activating the custom trigger and in turn, sending the shopper to the nurture journey connected to that custom trigger. This is shown in the screenshot below. 
+> [!div class="mx-imgBorder"]
+> ![Screenshot of mapping custom triggers with a value step 1.](media/map-custom-trigger-attribute-step3.png "Screenshot of mapping custom triggers with a value step 1")
+
+> [!div class="mx-imgBorder"]
+> ![Screenshot of mapping custom triggers with a value step 2.](media/map-custom-trigger-attribute-step4.png "Screenshot of mapping custom triggers with a value step 2")
+
+Passing the name of the source journey will then allow the nurture journey to do journey filtering/branching and take specific steps when being activated by a post purchase journey (vs. when being activated by other sources). This is discussed further in the section "Using customer triggers to activate chained journeys"
+
+2. Specify a value using a field from the customer profile or another trigger in the journey: To illustrate this approach, you can now activate another custom trigger to send shopper to a human agent in the "No" branch of the journey ("Send to a Sales agent" in the screenshot below). With this trigger, we als want to pass on relevant customer details to the human agent so that they can have all the context for the call. Since the customer data will be different for each specific shopper going through the journey, the above approach of specifying a fixed value cannot be used. In this case, the mapping step can be done using the attribute option, where attribute refers to a field from the customer profile or from an existing trigger in the journey. You're able to see all these fields in the flyout that appears when you select the "attribute" mapping option. You can then search for the relevant fields. In this example shown in the screenshot below, you can map the phone number from the customer profile to the 'phone number' field of the custom trigger
+> [!div class="mx-imgBorder"]
+> ![Screenshot of mapping custom triggers with attribute step 1.](media/map-custom-trigger-attribute-step6.png "Screenshot of mapping custom triggers with attribute step 1")
+> > [!div class="mx-imgBorder"]
+> ![Screenshot of mapping custom triggers with attribute step 2.](media/map-custom-trigger-attribute-step7.png "Screenshot of mapping custom triggers with attribute step 2")
+
+
 
 > [!NOTE]
-> Custom trigger attributes are data-type-specific.
+> Custom trigger attributes are data-type-specific. So you can only map, for instance, a numeric field from the customer profile into the phone number field of the custom trigger (since the field is of type 'Number'). 
 
 ## Trigger Power Automate flows from real-time marketing journeys
 
