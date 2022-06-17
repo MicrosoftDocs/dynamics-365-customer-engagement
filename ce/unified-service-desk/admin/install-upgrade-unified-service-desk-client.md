@@ -1,7 +1,7 @@
 ---
 title: "Install the Unified Service Desk client | MicrosoftDocs"
 description: "Learn how to install and upgrade Unified Service Desk client. Also find the download link to the product."
-ms.date: 01/25/2018
+ms.date: 06/17/2022
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -17,10 +17,7 @@ ms.custom:
 tags: MigrationHO
 ---
 
-# How to install the Unified Service Desk client
-
-
-
+# Install the Unified Service Desk client
 
 Make sure your computer meets all requirements before you install the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Unified Service Desk system requirements](../../unified-service-desk/admin/unified-service-desk-system-requirements.md)
 
@@ -31,6 +28,9 @@ Make sure your computer meets all requirements before you install the [!INCLUDE[
 - For a 32-bit version of [!INCLUDE[pn_ms_Windows_short](../../includes/pn-ms-windows-short.md)], download the Dynamics365-USD-4.x.x.xxx-i386.exe file.
 
 - For a 64-bit version of [!INCLUDE[pn_ms_Windows_short](../../includes/pn-ms-windows-short.md)], download the Dynamics365-USD-4.x.x.xxx-amd64.exe file.
+
+> [!Important]
+> Please be sure to clear the cache **before and after** you upgrade your Unified Service Desk client. The cache is located at: `%appData%\Roaming\Microsoft\USD`. More information: [Configure client caching](/unified-service-desk/admin/configure-client-caching-unified-service-desk.md)
 
 ::: moniker-end
 
