@@ -1,6 +1,6 @@
 ---
-title: Search knowledge articles in Dynamics 365 Customer Service | Microsoft Docs
-description: Learn how you can search knowledge articles in Dynamics 365 Customer Service.
+title: Submit feedback about knowledge articles in Dynamics 365 Customer Service | Microsoft Docs
+description: Learn how you can submit feedback about knowledge articles in Dynamics 365 Customer Service.
 ms.date: 06/17/2022
 ms.topic: article
 author: Soumyasd27

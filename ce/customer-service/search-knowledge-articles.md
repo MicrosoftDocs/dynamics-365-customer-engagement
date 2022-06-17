@@ -146,7 +146,7 @@ In Customer Service Hub, select an article title to see its full content rendere
 
 However, if you see an error while trying to open an article, it might be because the link types used in the article aren't a part of the origins allow list. The error message "Update your origins allow list if any iframe in the article doesn't work or displays error" will also appear. You must contact your administrator to update your origins allow list. More information: [Configure the origins allow list for knowledge articles](configure-knowledge-article-origin-allow-list.md)
 
-In this view mode, you can perform actions such as linking the knowledge article to a record or emailing the knowledge article to a customer. To learn more about sending the knowledge articles via email, go to [Email the knowledge article](#email-the-knowledge-article).
+In this view mode, you can perform actions such as linking the knowledge article to a record or emailing the knowledge article to a customer. To learn more about sending the knowledge articles via email, go to [Email a knowledge article](email-articles.md#email-a-knowledge-article).
 
   > [!div class=mx-imgBorder]
   > ![Knowledge article inline view.](media/km-inline-article-view.png "Knowledge article inline view")
