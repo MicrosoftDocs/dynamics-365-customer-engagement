@@ -29,7 +29,7 @@ You can also share the knowledge article link or knowledge article content throu
 - **Email URL:** The new email form opens with the link to the article in the mailbox.
 - **Email Content:** The article content is populated in the mail body. The fields are automatically populated based on the case and customer details.
 
-### Email the knowledge article
+## Email the knowledge article
 
 Use the **Email** button to send the knowledge article via mail. When you select the **Email** button, first, the knowledge article is linked to the current case record. Simultaneously, an email form opens with the link to the article. The article content is populated in the email body. The fields are automatically populated based on the case and customer details. Add other information as needed, and then on the command bar, select **Send**.
 
