@@ -4,7 +4,7 @@ description: "This article includes frequently asked questions (FAQ) about the v
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/08/2022
+ms.date: 06/17/2022
 ms.topic: article
 
 ---
@@ -85,11 +85,12 @@ The bot's accuracy depends on the similarities between locales. However, if you 
 
 ### Can I recover a voice trial after it's no longer provisioned?
 
-No, you can't recover your data after the trial organization is deprovisioned.
+No, you can't recover your data and trial phone numbers after the trial organization is deprovisioned.
 
 ### Is disaster recovery supported for the voice channel?
 
-Yes, business continuity and disaster recovery for production instances of the voice channel are supported and are based on [business continuity and disaster recovery for Dynamics 365](/power-platform/admin/business-continuity-disaster-recovery) and [SLA for Azure Communication Services](https://azure.microsoft.com/support/legal/sla/communication-services/v1_0/).
+- Business Continuity and Disaster Recovery (BCDR) for production instances of the voice channel are supported on a geographical basis and in certain regions BCDR will be a fast follow. For specific details on the geographies that're currently supported and the geographies where BCDR is a fast follow, see [Supported cloud locations, languages, and locale codes](voice-channel-region-availability.md).
+- In supported regions, BCDR policies are based upon business continuity and disaster recovery for Dynamics 365 and SLA for Azure Communication Services. For more information, see [Business continuity and disaster recovery](/power-platform/admin/business-continuity-disaster-recovery) and [SLA for Azure Communication Services](https://azure.microsoft.com/support/legal/sla/communication-services/v1_0/)
 
 ### Does the voice channel support emergency calling?
 
