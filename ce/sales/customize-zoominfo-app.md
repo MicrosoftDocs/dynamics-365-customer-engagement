@@ -12,7 +12,7 @@ manager: shujoshi
 After you install the ZoomInfo app, it's available as a standalone app, so every time sellers must come back to the app selection area and choose ZoomInfo to view the required information. 
 
 As an administrator, you can customize the ZoomInfo app in the following ways:   
--	**Add ZoomInfo entry to the site map**: You can add the ZoomInfo entry to your Dynamics 365 Sales environment on the left navigation site map and provide easy access to ZoomInfo, including the Admin Portal and ZoomInfo Knowledge Center. More information: [Add ZoomInfo entry to site map](#add-zoominfo-entry-to-site-map).
+-	**Add ZoomInfo entry to the site map**: You can add the ZoomInfo entry to your Dynamics 365 Sales app on the left navigation site map and provide easy access to ZoomInfo, including the Admin Portal and ZoomInfo Knowledge Center. More information: [Add ZoomInfo entry to site map](#add-zoominfo-entry-to-site-map).
 -	**Add ZoomInfo form to table entities**: You can add the ZoomInfo form to standard or custom Account, Contacts, and Leads table entities to provide sellers with inline access to ZoomInfo data. More information: [Add ZoomInfo form to entities](#add-zoominfo-form-to-table-entities).
 
 ## License and role requirements
@@ -98,8 +98,9 @@ To do this, follow this sequence of steps:
 3.	[Add form to table entity](#add-form-to-table-entity) 
 4.	[Customize form components](#customize-form-components)
 
-### Create a solution   
-Create a solution to locate and work with the components you’ve customized and then apply them to your Dynamics 365 environment. This makes it easier to return to your custom solution to make future changes.  
+### Create a solution
+
+Create a solution to locate and work with the components you’ve customized and then apply them to your Power Platform environment with Dynamics 365. This makes it easier to return to your custom solution to make future changes.  
 
 **To create a solution:**    
 1.	Sign in to the [Power Apps portal](https://make.preview.powerapps.com/) and choose the organization in which you’ve installed the ZoomInfo app.
