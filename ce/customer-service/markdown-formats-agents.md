@@ -4,7 +4,7 @@ description: "Get information on Markdown formats that agents can use in Omnicha
 author: mh-jaya
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 06/16/2022
+ms.date: 06/17/2022
 ms.topic: reference
 
 ---
