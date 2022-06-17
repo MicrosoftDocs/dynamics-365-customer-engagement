@@ -1,7 +1,7 @@
 ---
 title: "Configure a Twitter Direct Message channel | MicrosoftDocs"
 description: "Use this topic to get instructions to configure a Twitter Direct Message channel in Omnichannel for Customer Service."
-ms.date: 04/04/2022
+ms.date: 06/17/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -11,8 +11,6 @@ manager: shujoshi
 # Configure a Twitter Direct Message channel
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-## Introduction
 
 Many customers use social messaging channels like Twitter Direct Message for their personal communication needs. Many also prefer using these messaging channels to engage with businesses. The asynchronous nature of these channels gives customers the convenience of getting their issues resolved as and when they find time, unlike real-time channels like Chat for Dynamics 365, where the session ends when the chat window is closed.
 
@@ -29,10 +27,6 @@ The following are important prerequisites that you must complete before configur
 3.	Create a Twitter application. Apply for a developer account, not a team account. Create a Twitter developer environment. More information: [App Development](https://developer.twitter.com/docs/basics/apps/overview)
 4.  Update the Twitter application permissions to read, write, and access Direct Messages. More information: [App permissions](https://developer.twitter.com/docs/basics/apps/guides/app-permissions)
 
-After completing the prerequisites, you can add the Twitter channel for your organization by following these steps:
-
-1. Create a Twitter channel and add a Twitter handle.
-2. Create routing rules.
 
 ## Create a Twitter channel and add a Twitter handle
 
@@ -130,18 +124,16 @@ After completing the prerequisites, you can add the Twitter channel for your org
 > [!div class=mx-imgBorder]
 > ![Twitter Callback information.](media/twitter-callback-information.png "Twitter Callback URL")
 
-6. Add a Twitter handle: In the **Twitter app** section, select **New Twitter handle** to add Twitter handles.
+5. Add a Twitter handle: In the **Twitter app** section, select **New Twitter handle** to add Twitter handles.
 
-6.	On the **New Twitter handle** page, provide the following information:
-
-    - **Name**: Not the Twitter handle, but a name that you can reference. 
+6.	On the **New Twitter handle** page, in **Name**, enter a name that you can reference. It should not be the Twitter handle. 
 
 7.	Select **Sign on to Twitter**. A pop-up window appears. Sign in by using the Twitter handle and password that will be added here.
 
     > [!NOTE]
     > If you receive a message that says pop-up windows are blocked, select to always allow them.
 
-8.  On the **General settings** tab, provide the following information:
+1.  On the **General settings** tab, provide the following information:
     
     - **Language**: Select the preferred language for your Facebook page.
     
@@ -158,11 +150,11 @@ After completing the prerequisites, you can add the Twitter channel for your org
        > [!div class=mx-imgBorder]
        > ![Twitter work stream.](media/twitter-create-handle.png "Twitter work stream")
 
-9. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
+2. On the **Automated messages** tab, [configure automated messages](configure-automated-message.md). 
     
-10. On the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
+3.  On the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
 
-11. Select **Save** to save the record. The Twitter channel setup is complete.
+4.  Select **Save** to save the record. The Twitter channel setup is complete.
  
 > [!div class=mx-imgBorder]
 > ![Twitter channel enabled.](media/twitter-account-complete.png "Twitter channel enabled")
