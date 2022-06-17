@@ -1,5 +1,5 @@
 ---
-title: Overview about enabling sales teams to share and act on Dynamics 365 records within Microsoft Teams conversations
+title: Enable sales teams to share and act on Dynamics 365 records within Microsoft Teams conversations
 description: Learn about enabling sales teams to share and act on Dynamics 365 records within Microsoft Teams conversations.
 ms.date: 05/24/2022
 ms.topic: article
@@ -9,31 +9,31 @@ ms.author: shjais
 manager: shujoshi
 ---
 
-# Enable sales teams to work with Dynamics 365 records within Microsoft Teams conversations (production-ready preview)
+# Enable sales teams to work with Dynamics 365 records within Teams conversations (production-ready preview)
 
 > [!IMPORTANT]
 > - This topic is prerelease documentation and is subject to change.
 > - Preview features designated as production-ready employ privacy and security measures typically present in generally available features, as further explained in our [preview terms](https://go.microsoft.com/fwlink/?linkid=2105274).
 
 
-The Dynamics 365 app for Teams allows sellers to share and update Dynamics 365 records, as an interactive card, within Teams conversations. 
+The Dynamics 365 app for Microsoft Teams allows sellers to share and update Dynamics 365 records, as an interactive card, within Teams conversations. 
 
-While business users can access the feature themselves by adding, signing-in and setting up the Dynamics 365 app for Teams, you can drive faster and more seamless adoption by:
+While business users can access the feature themselves by adding, signing in, and setting up the Dynamics 365 app for Teams, you can drive faster and more seamless adoption by:
 
-1.	Familiarizing yourself with the feature
-2.	Understanding how the information is displayed in the interactive card
-3.	Pre-installing and pinning the app for business users who can benefit from the feature
-4.	Encouraging business users to sign-in and setup the app
+- Familiarizing yourself with the feature.
+- Understanding how the information is displayed in the interactive card.
+- Preinstalling and pinning the app for business users who can benefit from the feature.
+- Encouraging business users to sign in and set up the app.
 
-## Familiarize with the feature
+## Familiarize yourself with the feature
 
-It is important to get familiarized with the feature to understand the nuances of how it works and identify the business users for whom pre-installing and pinning the app will add value. 
+It's important to become familiar with the feature to understand the nuances of how it works and identify the business users for whom preinstalling and pinning the app will add value. 
 
-**To familiarize with the feature**:
+**To familiarize yourself with the feature**:
 
 1. [Add the Dynamics 365 app for Teams](access-d365-app.md#add-the-dynamics-365-app)
 
-2. [Access and sign into the Dynamics 365 app for Teams](access-d365-app.md#access-the-dynamics-365-app)
+2. [Access and sign in to the Dynamics 365 app for Teams](access-d365-app.md#access-the-dynamics-365-app)
 
 3. [Set up the Dynamics 365 app for Teams](access-d365-app.md#set-up-the-dynamics-365-app) 
 
@@ -46,19 +46,25 @@ It is important to get familiarized with the feature to understand the nuances o
 7. [Add chat messages to Dynamics 365 as notes or tasks](add-chat-d365.md)
 
 
-## How is the information displayed in interactive card?
+## How is the information displayed in the interactive card?
 
-The information in the interactive card is displayed using the view of type **Quick Find View** of a table. You must validating and edit the columns in the **Quick Find View** view to ensure that the right information is displayed in interactive cards. To change the information displayed in the cards, you can [edit the columns](/power-apps/maker/model-driven-apps/choose-and-configure-columns) in the [**Quick Find View**](/power-apps/maker/model-driven-apps/create-edit-views#system-views) view of a table as per the requirement.
+The information in the interactive card is displayed using the view of type **Quick Find View** of a table. You must validate and edit the columns in the **Quick Find View** view to ensure that interactive cards display the right information. To change the information that the cards display, you can [edit the columns](/power-apps/maker/model-driven-apps/choose-and-configure-columns) in the [**Quick Find View**](/power-apps/maker/model-driven-apps/create-edit-views#system-views) view of a table as per the requirement.
 
-## Pre-install and pin the Dynamics 365 app in Microsoft Teams
+## Preinstall and pin the Dynamics 365 app in Microsoft Teams
 
-Pre-installing and pinning the Dynamics 365 app in Teams increases the discoverability of the app by business users and encourages them to share records in a secure way. It requires creating a custom Teams app policy and assigning the policy to users.
+Preinstalling and pinning the Dynamics 365 app in Teams increases the discoverability of the app by business users and encourages them to share records in a secure way. It requires creating a custom Teams app policy and assigning the policy to users.
 
 > [!NOTE]
-> - The ability [to pre-install and pin apps for users by managing app policies](/microsoftteams/teams-app-setup-policies) is available as part of Microsoft Teams and is not a feature of Microsoft Dynamics 365. This document details how to use the Microsoft Teams feature to pre-install the Dynamics 365 app for Teams.
-> - You need to be a Teams administrator to pre-install and pin the Dynamics 365 app for Teams for business users. For more information on Teams administrator roles, refer to [Use Microsoft Teams administrator roles to manage Teams](/microsoftteams/using-admin-roles).
+> - The ability [to preinstall and pin apps for users by managing app policies](/microsoftteams/teams-app-setup-policies) is available as part of Microsoft Teams and is not a feature of Microsoft Dynamics 365. This document details how to use the Microsoft Teams feature to preinstall the Dynamics 365 app for Teams.
+> - You need to be a Teams administrator to preinstall and pin the Dynamics 365 app for Teams for business users. For more information on Teams administrator roles, refer to [Use Microsoft Teams administrator roles to manage Teams](/microsoftteams/using-admin-roles).
 
 ### Create a custom Teams app setup policy
+
+
+
+<!-- Are steps 8 and 11 needed? They each say "Select Add," but the prior steps also say "Select Add." -->
+
+
 
 1.  Sign in to [Microsoft Teams admin center](https://admin.teams.microsoft.com/).
 
@@ -112,11 +118,11 @@ Policy assignment to groups lets you assign a policy to a group of users, such a
 
 4.  In the **Assign policy to group** panel, do the following:
 
-    1.  Search for and add the group you want to assign the policy to. Ideally this would be the group to which sellers, service agents, and other Dynamics 365 users belong to. If you have Dynamics 365 users spread across multiple groups, you will have to create multiple group policy assignments.
+    1.  Search for and add the group you want to assign the policy to. Ideally this would be the group to which sellers, service agents, and other Dynamics 365 users belong to. If you have Dynamics 365 users spread across multiple groups, you'll have to create multiple group policy assignments.
 
     2.  Set the ranking for the group assignment.
 
-    3.  Select the policy created earlier – to pre-install and pin the Dynamics 365 app for Teams.
+    3.  Select the policy created earlier – to preinstall and pin the Dynamics 365 app for Teams.
 
     4.  Select **Apply**.
 
@@ -124,12 +130,12 @@ Policy assignment to groups lets you assign a policy to a group of users, such a
 
 > [!NOTE]
 > - To learn more about assignment policies on Teams, go to [Assign policies to users and groups](/microsoftteams/assign-policies-users-and-groups#assign-a-policy-to-individual-users).
-> - You can also [assign the policy to individual users](/microsoftteams/assign-policies-users-and-groups#assign-a-policy-to-individual-users)
+> - You can also [assign the policy to individual users](/microsoftteams/assign-policies-users-and-groups#assign-a-policy-to-individual-users).
 
 
-## Encourage business users to sign-in and setup the app
+## Encourage business users to sign in and set up the app
 
-After you create a custom policy and assigned it to users, you must encourage your users to sign in to the Dynamics 365 app for Teams to view, share, and update Dynamics 365 records in Microsoft Teams chats and channels. They  need to sign in only once and signing in provides a seamless user experience. When users have the app installed but have not signed in, and they access the Dynamics 365 record in Teams, the following message is displayed in the interactive card.
+After you create a custom policy and assign it to users, you must encourage your users to sign in to the Dynamics 365 app for Teams to view, share, and update Dynamics 365 records in Microsoft Teams chats and channels. They need to sign in only once. and signing in provides a seamless user experience. When users have the app installed but haven't signed in, they'll see this message displayed in the interactive card when they access the Dynamics 365 record in Teams:
 
 :::image type="content" source="media/sign-in-msg.png" alt-text="Sign in to Dynamics 365 app":::
 
