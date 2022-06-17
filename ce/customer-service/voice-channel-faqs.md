@@ -4,7 +4,7 @@ description: "This article includes frequently asked questions (FAQ) about the v
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/16/2022
+ms.date: 06/17/2022
 ms.topic: article
 
 ---
@@ -85,7 +85,7 @@ The bot's accuracy depends on the similarities between locales. However, if you 
 
 ### Can I recover a voice trial after it's no longer provisioned?
 
-No, you can't recover your data after the trial organization is deprovisioned.
+No, you can't recover your data and trial phone numbers after the trial organization is deprovisioned.
 
 ### Is disaster recovery supported for the voice channel?
 
