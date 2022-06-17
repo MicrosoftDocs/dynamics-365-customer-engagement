@@ -235,6 +235,6 @@ For more information, see the developer guide, [Test your custom messaging chann
 [Productivity tools](../app-profile-manager/productivity-tools.md)  
 [Smart assist](../app-profile-manager/smart-assist.md)  
 [Templates](/dynamics365/app-profile-manager/templates-overview)  
-
+[Support for live chat and asynchronous channels](card-support-in-channels.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

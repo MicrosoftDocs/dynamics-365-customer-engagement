@@ -250,14 +250,14 @@ When you create conditions for routing rules, the **WhatsApp Engagement Context 
 
 ### See also
 
-[Understand and create workstreams](work-streams-introduction.md)<br>
-[Create and manage routing rules](routing-rules.md)<br>
-[Configure automated messages](configure-automated-message.md)<br> 
-[Configure a post-conversation survey](configure-post-conversation-survey.md)<br>
-[Skill-based routing](overview-skill-work-distribution.md)<br>
-[Create message templates](create-message-templates.md)<br>
-[Templates](/dynamics365/app-profile-manager/templates-overview)<br>
-[Delete a configured channel](delete-channel.md)
-
+[Understand and create workstreams](work-streams-introduction.md)  
+[Create and manage routing rules](routing-rules.md)  
+[Configure automated messages](configure-automated-message.md)  
+[Configure a post-conversation survey](configure-post-conversation-survey.md)  
+[Skill-based routing](overview-skill-work-distribution.md)  
+[Create message templates](create-message-templates.md)  
+[Templates](/dynamics365/app-profile-manager/templates-overview)  
+[Delete a configured channel](delete-channel.md)  
+[Support for live chat and asynchronous channels](card-support-in-channels.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
