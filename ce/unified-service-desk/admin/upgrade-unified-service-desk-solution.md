@@ -1,7 +1,7 @@
 ---
 title: "Upgrade a Unified Service Desk solution | MicrosoftDocs"
 description: "Learn how to upgrade Unified Service Desk sample application package to the latest version using the upgrade procedure."
-ms.date: 06/15/2022
+ms.date: 06/20/2022
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -20,7 +20,7 @@ ms.custom:
 You can upgrade an existing Unified Service Desk sample application package to the latest Unified Service Desk by importing the Upgrade sample application package. The upgrade won't affect the configuration data associated with the existing solution.  
 
 > [!Important]
-> Please be sure to clear the cache before and after you upgrade your sample application package. The cache is located at: `%appData%\Roaming\Microsoft\USD`
+> Please be sure to clear the cache **before and after** you upgrade your sample application package. The cache is located at: `%appData%\Roaming\Microsoft\USD`
   
 ## Upgrade a Unified Service Desk sample application package
   
