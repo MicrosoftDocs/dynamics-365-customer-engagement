@@ -62,7 +62,7 @@ The following table lists the language availability of other Customer Service in
 
 | Feature name | English | Arabic | Dutch | French | German | Italian | Japanese | Portuguese | Simplified Chinese | Spanish |
 | ------- | ----- | -------- | ----- | ------- | ------- | ----- |---- | ------ | ------ | -------- | ------ | 
-| Intelligent skill finder for Unified Routing | ✔ | ✖ | ✖ |✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
+| Intelligent skill finder for unified routing | ✔ | ✖ | ✖ |✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
 | Effort estimation model for routing | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
 | AI suggestions for cases and knowledge articles | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
 | AI suggestions for contacts in Microsoft Teams | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
