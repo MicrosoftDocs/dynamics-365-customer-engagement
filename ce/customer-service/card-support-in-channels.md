@@ -1,7 +1,7 @@
 ---
 title: "Support for live chat and asynchronous channels | MicrosoftDocs"
 description: "Get information on the support for adaptive cards, emojis, file attachments, and message formatting in live chat and asynchronous channels in Omnichannel for Customer Service."
-ms.date: 03/04/2022
+ms.date: 06/16/2022
 ms.topic: article
 author: mh-jaya
 ms.author: v-jmh
@@ -39,7 +39,7 @@ The following table lists the rich cards that are supported across different cha
 
 🌐: Card is converted to unformatted text, links might not be active, images might not be displayed, or media might not work. The behavior might vary by channel.
 
-The markdown element for adaptive cards is partially supported across all chat channels. For example, the markdown element is not supported in live chat, whereas, it is supported in LINE.
+The markdown element for adaptive cards is partially supported across all chat channels. For example, the markdown element isn't supported in live chat, whereas, it's supported in LINE.
 
 Media or audio card and date input elements for adaptive cards are only supported in Live chat channels. Adaptive card elements like text block and images are also supported across channels.
 
@@ -70,17 +70,17 @@ Suggested actions are supported fully with the exception that some channels migh
 
 You can enable file attachments on the **General settings** tab of a channel so that customers and agents can send files as attachments. Inbound attachments refer to attachments that customers send to agents, and outbound attachments refer to attachments that agents send to customers. For more information about file attachments, see [Enable file attachments](enable-file-attachments.md).
 
-| Channel              | Inbound attachments                        | Outbound attachments                  |
+| Channel              | Inbound attachments                        | Outbound attachments                  | 
 |----------------------|--------------------------------------------|---------------------------------------|
-| Microsoft Teams      | Image, Audio, Video, Document, GIF, and Emoji | Image, Audio, Video, Document, and GIF   |
-| Facebook             | Image, Audio, Video, Document, GIF, and Emoji | Image, Audio, Video, Document, and GIF    |
-| LINE                 | Image, Audio, Video, and GIF                   | Image, Audio, Video, Document, and GIF   |
-| Twitter              | Image, Video, GIF, and Emoji                   | Image, Video, and GIF                     |
-| WeChat               | Image, Audio, and Video                        | Image, Audio, and Video                   |
-| WhatsApp             | Image, Audio, Video, GIF, and PDF               | Image, Audio, Video, and PDF              |
-| SMS (Twilio)         | Image, Video, GIF, and Emoji                   | Image, Audio, Video, and GIF              |
-| Custom messaging (Telegram)    | Image, Audio, Video, Document, GIF, and Emoji | Image, Audio, Video, Document, and GIF   |
-| Custom messaging (Direct Line) | All types except blocked types in org      | All types except blocked types in org |
+| Microsoft Teams      | Image, Audio, Video, Document, GIF, and Emoji | Image, Audio, Video, Document, and GIF <br><br> Allowed file extensions: .jpg, .jpeg, .png, .mp3, .oga, .ogg, .amr, .mp4, .pdf, .docx, .txt, .gif, .xlsx  | 
+| Facebook             | Image, Audio, Video, Document, GIF, and Emoji | Image, Audio, Video, Document, and GIF <br><br> Allowed file extensions: .jpg, .jpeg, .png, .mp3, .oga, .ogg, .amr, .mp4, .pdf, .docx, .txt, .gif, .xlsx, .xls |
+| LINE                 | Image, Audio, Video, and GIF                   | Image, Audio, Video, Document, and GIF <br><br> Allowed file extensions: .jpg, .jpeg, .png, .mp3, .oga, .ogg, .amr, .mp4, .pdf, .docx, .txt, .gif | 
+| Twitter              | Image, Video, GIF, and Emoji                   | Image, Video, and GIF  <br><br> Allowed file extensions: .jpg, .jpeg, .png, .mp4, .gif |
+| WeChat               | Image, Audio, and Video                        | Image, Audio, and Video <br><br> Allowed file extensions: .jpg, .jpeg, .png, .amr, .mp4 |
+| WhatsApp             | Image, Audio, Video, GIF, and PDF               | Image, Audio, Video, and PDF  <br><br> Allowed file extensions: .jpg, .jpeg, .png, .mp3, .oga, .ogg, .amr, .mp4, .pdf |
+| SMS (Twilio)         | Image, Video, GIF, and Emoji                   | Image, Audio, Video, and GIF   <br><br> Allowed file extensions: .jpg, .jpeg, .gif, .png, .mp3, .oga, .ogg, .amr, .mp4, .pdf, .csv |
+| Custom messaging (Telegram)    | Image, Audio, Video, Document, GIF, and Emoji | Image, Audio, Video, Document, and GIF <br><br> Allowed file extensions: .jpg, .jpeg, .png, .mp3, .oga, .ogg, .amr, .mp4, .pdf, .docx, .txt, .gif |
+| Custom messaging (Direct Line) | All types except blocked types in org      | All types except blocked types in org <br><br> Allowed file extensions: .jpg, .jpeg, .png, .mp3, .oga, .ogg, .amr, .mp4, .pdf, .docx, .txt, .gif, .xlsx |
 
 > [!Note]
 >
@@ -111,13 +111,13 @@ You can enable file attachments on the **General settings** tab of a channel so 
 | Channel            | Sticker behavior                                                    |
 |--------------------|---------------------------------------------------------------------|
 | Microsoft Teams    | Not supported.                                                      |
-| Facebook           | Yes, as a PNG image                                                 |
+| Facebook           | Yes, as a PNG image.                                                 |
 | LINE               | Not supported. Recipient sees "Sticker" text.                       |
 | Twitter            | Not supported.                                                      |
 | WeChat             | Not supported. Recipient sees "Unsupported message" text.           |
 | WhatsApp           | Not supported.                                                      |
 | Custom messaging (Telegram) | Not supported.                                             |
-| Custom messaging (Direct Line) | Yes, as sticker image                                   |
+| Custom messaging (Direct Line) | Yes, as sticker image.                                  |
 
 > [!Note]
 > The Direct Line channel supports stickers, but it's up to the client to implement them.
