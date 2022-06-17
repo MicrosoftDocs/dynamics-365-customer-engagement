@@ -42,6 +42,12 @@ For information about other updates to Field Service, visit the [Dynamics 365 re
 
 (Includes Universal Resource Scheduling version [3.12.79.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#3127916)).
 
+- Field Service (D365) Mobile: Improved accessibility of Booking Status control with Talkback & VoiceOver enabled.
+- Field Service (D365) Mobile Bug Fix: Inspections File Picker will open correctly on the Windows application. 
+- Field Service (D365) Mobile: While using the application in online mode, the Service View Control will validate inventory and prompt with an error if trying to use   a Product which does not have quantity available. 
+- Add a condition to workflow (GenerateGeofenceWhenBookingIsCreated) to check that the Booking has a Work Order to avoid making unnecessary plugin calls.
+
+
 ## 8.8.67.16
 
 (Includes Universal Resource Scheduling version [3.12.78.23](/dynamics365/field-service/field-service-version-history-resource-scheduling#3127823)).
