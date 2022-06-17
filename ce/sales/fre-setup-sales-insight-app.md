@@ -2,17 +2,10 @@
 title: "First-run setup experience in conversation intelligence application"
 description: ""Learn how to set up conversation intelligence for Teams meetings and calls through the conversation intelligence app."
 ms.date: 01/10/2022
-ms.custom: 
 ms.topic: article
-ms.assetid: 3e099e3a-f6cb-42cf-b84e-9f8b0c6ee9db
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 1
-topic-status: Drafting
 ---
 
 # First-run setup in conversation intelligence app

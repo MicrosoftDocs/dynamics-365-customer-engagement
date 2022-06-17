@@ -23,7 +23,7 @@ Congratulations on the purchase of the Sales Professional application.
 Before you can start using the Sales Professional application, you need to do one of the following actions:
 
 - If you don't have an existing Power Platform environment with Dynamics 365 apps enabled, [provision a new environment and install the Sales Professional app](#provision-a-new-power-platform-environment-for-sales-professional) 
-- If you have an existing Power Platform environment with Dynamics 365 apps enabled, just [install the Sales Professional app on that environment](#install-the-sales-professional-app-on-an-existing-environmenta-nameinstall-app-a) 
+- If you have an existing Power Platform environment with Dynamics 365 apps enabled, just [install the Sales Professional app on that environment](#install-the-sales-professional-app-on-an-existing-environment)
 
 > [!NOTE]
 > You must be a global administrator of your Microsoft 365 org (tenant) to perform both the above actions.
@@ -38,7 +38,9 @@ Before you can start using the Sales Professional application, you need to do on
 
 8.	In the list of application, select **Sales Professional**. 
 
-## Install the Sales Professional app on an existing environment<a name="install-app"> </a>
+## Install the Sales Professional app on an existing environment
+
+<a name="install-app"> </a>
 
 You can install the Sales Professional app on an existing Power Platform environment, which is enabled for Dynamics 365 apps. For example, if you already have an environment for Dynamics 365 Customer Service, you can install the Sales Professional app on the same environment. 
 
