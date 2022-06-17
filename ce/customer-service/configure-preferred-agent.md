@@ -19,13 +19,13 @@ manager: shujoshi
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
-To provide highly personalized services to your customers and address their pain points efficiently, you can configure the option to route work items to specific agents of your choice. You can configure the preferred agent settings for a contact or for an account depending on your business needs.
+To provide highly personalized services to your customers and enable highly context-aware conversations, you can configure the option to route work items from a specific account or contact to preferred agents or relationship managers.
 
 > [!NOTE]
 >
 > - The settings to configure preferred agents are available only in Customer Service admin center.
-> - In the preview release, you can configure contacts only.
-> - To map the contact with the agent at runtime, for chat conversations, the pre-conversation survey question name must be "Name".
+> - In the preview release, you can map agents to contacts only.
+> - To find the preferred agent at runtime for an incoming work item, the contact should be identified. More information: [Identify customers automatically](record-identification-rule.md)
 
 For preferred agents to work optimally, you must ensure that the configured agent is also a part of the queues to which the work item will be routed.
 
