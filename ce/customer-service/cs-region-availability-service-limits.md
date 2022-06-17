@@ -68,7 +68,7 @@ The following table lists the language availability of other Customer Service in
 | AI suggestions for contacts in Microsoft Teams | ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
 | AI topic discovery | ✔ | ✖ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✔ |
 | AI suggestions for article keywords and description |  ✔ | ✖ | ✔ | ✔ | ✔ | ✔ | ✔ | ✖ | ✖ | ✔ |
-|AI generated summary for contacts in Microsoft Teams|  ✔ | ✖ | ✖ | ✔ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ |
+|AI generated summary for contacts in Microsoft Teams|  ✔ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ | ✖ |
 
 ✔ : Available  
 ✖ : Not available
