@@ -29,7 +29,7 @@ If the live chat SDK does not meet your requirements, then you can embed a widge
 
 ## Render the live chat widget using embedded code
 
- A `WebView` is an embedded browser that enables a native application to display web content. Use the `WebView` component of your mobile operating system language to enable rendering of the web version of the chat widget on mobile devices. The WebView capability is offered on both Android and iOS.
+A `WebView` is an embedded browser that enables a native application to display web content. Use the `WebView` component of your mobile operating system language to enable rendering of the web version of the chat widget on mobile devices. The WebView capability is offered on both Android and iOS.
 
 The following sample code renders the chat widget in a mobile application.
 
