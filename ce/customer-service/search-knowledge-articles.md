@@ -17,9 +17,9 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Search for knowledge articles
+# Search knowledge articles
 
-You can search for knowledge articles through Customer Service workspace or Customer Service Hub.
+You can search knowledge articles through Customer Service workspace or Customer Service Hub.
 
 ## Prerequisites
 

@@ -500,6 +500,16 @@
         href: csw-search-knowledge-articles.md
       - name: Search for knowledge articles in Customer Service Hub
         href: search-knowledge-articles-csh.md
+      - name: Search knowledge articles
+        href: search-knowlegde-articles.md
+      - name: Email a knowledge article
+        href: email-articles.md
+      - name: Link and unlink knowledge articles
+        href: link-articles.md
+      - name: Filter knowledge articles
+        href: filter-articles.md
+      - name: Submit ratings and feedback for knowledge articles
+        href: submit-feedback.md
       - name: Understand how search works in knowledge management
         href: search-operators.md
     - name: Self-service experience
