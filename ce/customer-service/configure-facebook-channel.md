@@ -1,7 +1,7 @@
 ---
 title: "Configure a Facebook channel | MicrosoftDocs"
 description: "This topic provides steps to configure a Facebook channel and corresponding Facebook pages in Omnichannel for Customer Service."
-ms.date: 04/04/2022
+ms.date: 06/17/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -14,7 +14,7 @@ manager: shujoshi
 
 ## Introduction
 
-You can integrate social messaging channels like Facebook Messenger with Omnichannel for Customer Service to engage with your customers. The asynchronous nature of the channel gives your customers the flexibility to reach out to your businesses when they find time to get their issues resolved.
+Many customers use social messaging channels like LINE for their personal communication needs. Many also prefer using these messaging channels to engage with businesses. The asynchronous nature of these channels gives customers the convenience of getting their issues resolved as and when they find time, unlike real-time channels like Chat for Dynamics 365 Customer Service, where the session ends when the chat window is closed.
 
 ## Prerequisites
 
@@ -246,12 +246,12 @@ Customers are solely responsible for using Dynamics 365, this feature, and any a
 
 ### See also
 
-[Understand and create workstreams](create-workstreams.md)<br>
-[Create and manage routing rules](routing-rules.md)<br>
-[Configure automated messages](configure-automated-message.md)<br> 
-[Configure a pre-chat survey](configure-pre-chat-survey.md)<br>
-[Configure a post-conversation survey](configure-post-conversation-survey.md)<br>
-[Delete a configured channel](delete-channel.md)
-
+[Understand and create workstreams](create-workstreams.md)  
+[Create and manage routing rules](routing-rules.md)  
+[Configure automated messages](configure-automated-message.md)  
+[Configure a pre-chat survey](configure-pre-chat-survey.md)  
+[Configure a post-conversation survey](configure-post-conversation-survey.md)  
+[Delete a configured channel](delete-channel.md)  
+[Support for live chat and asynchronous channels](card-support-in-channels.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
