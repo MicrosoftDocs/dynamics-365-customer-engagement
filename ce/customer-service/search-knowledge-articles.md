@@ -1,7 +1,7 @@
 ---
 title: Search knowledge articles in Dynamics 365 Customer Service | Microsoft Docs
 description: Learn how you can search knowledge articles in Dynamics 365 Customer Service.
-ms.date: 06/16/2022
+ms.date: 06/17/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -124,12 +124,7 @@ Smart assist provides real-time knowledge article suggestions depending on the o
 
 In Customer Service workspace, select the **Smart assist** option on the productivity pane to see knowledge article suggestions related to your case.
 
-## Use portal search
-
-Use the portal search to access information through simple queries. You can search for your knowledge articles by selecting Knowledge Base from your portal. More information: [Search the knowledge base on portals](knowledge-base-search-methods.md#search-the-knowledge-base-on-portals)
-
-## How to refine your search
-
+## View a knowledge article
 
 ### View the knowledge article on the application tab
 
@@ -214,68 +209,6 @@ Select the up-arrow icon to view the sorting options and select an option from t
 - Number of views
 - Last modified date (newest first) 
 - Last modified date (oldest first)
-
-### Link and unlink the knowledge article to a record
-
-When configured, you can link an article to a case. You can associate and dissociate the knowledge article with a record.
-
-:::image type="content" source="media/csw-link-unlink-km.png" alt-text="Link or unlink an article to a case":::
-
-By default, the articles aren't linked to the case. When you select to link the article to the case, the link icon changes, and **Linked to Case** is displayed for the article.
-
-### Email options
-
-You can also share the knowledge article link or knowledge article content through mail by selecting the ellipsis next to an article.
-
-:::image type="content" source="media/csw-email-url.png" alt-text="Email options for knowledge artcile":::
-
-- **Copy URL**: You can copy the URL to share the knowledge article link.
-- **Email URL:** The new email form opens with the link to the article in the mailbox.
-- **Email Content:** The article content is populated in the mail body. The fields are automatically populated based on the case and customer details.
-
-### Email the knowledge article
-
-Use the **Email** button to send the knowledge article via mail. When you select the **Email** button, first, the knowledge article is linked to the current case record. Simultaneously, an email form opens with the link to the article. The article content is populated in the email body. The fields are automatically populated based on the case and customer details. Add other information as needed, and then on the command bar, select **Send**.
-
-  > [!div class=mx-imgBorder]
-  > ![Email knowledge article.](media/km-email.png "Email knowledge article")
-
-
-You can perform these actions for only published or expired articles.
-
-### Linked knowledge articles subgrid
-
-The linked knowledge article subgrid is available for an entity, such as a case or account, only if your system administrator has added the subgrid to the entity form. The knowledge article subgrid displays the knowledge articles that have been linked with the entity. Some of the options available are as follows:
-
-- Add a knowledge article
-- Select and edit an article's content
-- Sort
-- Bulk operations
- 
-You can also edit a knowledge article by double-clicking it in the linked articles list.
-
-To link the knowledge article to an entity, you need to do the following steps. For the sake of this example, let us consider the entity as Accounts.
-
-1. In the Customer Service Hub site map, go to **Customers** > **Accounts**.
-
-2. Select any active account from the list of accounts.
-
-3. On the **Summary** tab, scroll down to the **Linked Knowledge Articles** subgrid.
-
-  > [!NOTE]
-  > The name of the subgrid can vary depending on the customizations your organization has made.
-
-4. Select **More commands** (⁝), and then select **Add Existing Knowledge Article**.
-
-   > [!div class=mx-imgBorder]
-   > ![Add an existing knowledge article.](media/add-existing-knowledge-article.png "Add an existing knowledge article")
-
-5. Search for the knowledge article that you want to link, and select **Link.**
-
-   > [!div class=mx-imgBorder]
-   > ![Search for a knowledge article to link to an entity.](media/search-related-article.png "Search for a related knowledge article to link to an entity")
-
-6. Select **Done**. The article will appear in the **Linked Knowledge Articles** subgrid.
 
 ### Configure knowledge base article URLs
 
