@@ -30,7 +30,7 @@ Make sure your computer meets all requirements before you install the [!INCLUDE[
 - For a 64-bit version of [!INCLUDE[pn_ms_Windows_short](../../includes/pn-ms-windows-short.md)], download the Dynamics365-USD-4.x.x.xxx-amd64.exe file.
 
 > [!Important]
-> Please be sure to clear the cache **before and after** you upgrade your Unified Service Desk client. The cache is located at: `%appData%\Roaming\Microsoft\USD`. More information: [Configure client caching](/unified-service-desk/admin/configure-client-caching-unified-service-desk.md)
+> Clear the cache **before and after** you upgrade your Unified Service Desk client. The cache is located at: `%appData%\Roaming\Microsoft\USD`. More information: [Configure client caching](/unified-service-desk/admin/configure-client-caching-unified-service-desk.md)
 
 ::: moniker-end
 
