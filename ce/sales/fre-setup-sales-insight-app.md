@@ -1,6 +1,6 @@
 ---
 title: "First-run setup experience in conversation intelligence application"
-description: "First-run configuration of conversation intelligence in conversation intelligence application for your Dynamics 365 Sales environment."
+description: ""Learn how to set up conversation intelligence for Teams meetings and calls through the conversation intelligence app."
 ms.date: 01/10/2022
 ms.custom: 
 ms.topic: article
@@ -33,9 +33,9 @@ After you sign in to conversation intelligence app as an administrator, you can 
     > [!div class="mx-imgBorder"]
     > ![Administrator conversation intelligence home page.](media/si-app-admin-home-page-admin-signin.png "Administrator conversation intelligence home page")   
 3.	Select **Set up Conversation intelligence**.   
-4.	In the **Connect your data** dialog, select your Dynamics 365 Sales environment to connect with the application.  
+4.	In the **Connect your data** dialog, select the Power Platform environment that hosts Dynamics 365 Sales to connect with the application.  
     > [!div class="mx-imgBorder"]
-    > ![Select Dynamics 365 Sales environment.](media/si-app-admin-connect-d365-organization.png "Select Dynamics 365 Sales environment")    
+    > ![Select the environment.](media/si-app-admin-connect-d365-organization.png "Select the environment")    
     The application detects your environment.  
 5.	In the **Terms and conditions** dialog, carefully read the [Microsoft privacy statement](https://privacy.microsoft.com/privacystatement), and read and select the checkbox for the [terms and conditions](https://www.microsoft.com/licensing/product-licensing/products). Select **Agree and continue**.  
     > [!div class="mx-imgBorder"]

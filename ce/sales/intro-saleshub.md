@@ -59,7 +59,11 @@ Use the Microsoft documentation to train your sales organization, too. The docum
 
 ## Access the Sales Hub app
 
-Access your Dynamics 365 Sales environment, and then select **Sales Hub** from the **Published Apps** page.
+Open your Dynamics 365 Apps page, and then select **Sales Hub** from the list of published apps.
+
+> [!NOTE]
+> If you've already logged into a Dynamics 365 app, select the app name at the upper-left corner of the page to open the **Apps** page.  
+> :::image type="content" source="media/open-app.PNG" alt-text="A screenshot of a Dynamics 365 app with the app name highlighted.":::
 
 :::image type="content" source="media/saleshubcard.png" alt-text="Screenshot of the Sales Hub app card on the **Published apps** page":::
 

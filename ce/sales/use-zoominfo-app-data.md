@@ -36,7 +36,7 @@ You can access the ZoomInfo app in the following ways:
 
 To access and understand the ZoomInfo data, follow these steps:   
 
-1.	Sign in to your Dynamics 365 environment and choose one of the following options to open the ZoomInfo data:   
+1.	Open your Dynamics 365 Apps page and choose one of the following options to open the ZoomInfo data:   
     -	Select the **ZoomInfo** app and on the left navigation pane, select **Accounts**, **Contacts**, or **Leads**, depending on the record for which you want to view information.
     -	Select the **Sales Hub** app and on the left navigation pane, select **Accounts**, **Contacts**, or **Leads**, depending on the record for which you want to view information.
  

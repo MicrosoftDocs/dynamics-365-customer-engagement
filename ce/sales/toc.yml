@@ -463,7 +463,7 @@
               href: configure-view-your-team-page.md
             - name: Configure conversation content
               href: configure-keywords-competitors.md
-            - name: Connect to Dynamics 365 Sales environment
+            - name: Connect conversation intelligence to an environment 
               href: connect-dynamics365-sales-environment.md
             - name: Data retention and deletion through Privacy
               href: data-retention-deletion-policy.md

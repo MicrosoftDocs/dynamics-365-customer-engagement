@@ -1,6 +1,6 @@
 ---
 title: "First-run setup experience for conversation intelligence in sales app"
-description: "First-run configuration of conversation intelligence for Microsoft Teams for your Dynamics 365 Sales environment."
+description: "Learn how to set up conversation intelligence for Teams meetings and calls through the Sales Hub app."
 ms.date: 05/27/2022
 ms.custom: 
 ms.topic: article

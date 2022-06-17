@@ -70,7 +70,7 @@ After you’ve purchased the licenses, assign the licenses to users.
 
 ## Install Dynamics 365 Sales Enterprise solution  
 
-To install the Sales Enterprise solution on a Dynamics 365 environment:
+To install the Sales Enterprise solution on a Power Platform environment with Dynamics 365 apps enabled:
 
 1.	Sign in to the Power Platform admin center at [https://admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com) as an admin (Dynamics 365 admin, Global admin, or Power Platform admin).
 
