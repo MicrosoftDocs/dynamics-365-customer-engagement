@@ -4,7 +4,7 @@ description: "Use this article to learn about the supported cloud locations, lan
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/10/2022
+ms.date: 06/15/2022
 ms.topic: article
 ---
 
@@ -51,6 +51,14 @@ If you need your data to stay within a country or region, see the following tabl
 | United Arab Emirates | To be announced | To be announced |
 ||||
 
+### Microsoft as a carrier
+
+Microsoft as a carrier is available for customers with billing locations in select geographies around the world. To learn more about your eligibility, see [Subscription eligibility and number capabilities](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability).
+
+You can purchase new phone numbers through the Azure portal, and then sync with Omnichannel for Customer Service. More information: [Import phone numbers](voice-channel-sync-from-acs.md)
+
+You can also port existing US or toll-free phone numbers. More information: [Port a phone number](/azure/communication-services/quickstarts/telephony/port-phone-number)
+
 ### Azure direct routing
 
 You can bring your own carrier through Azure direct routing (preview). This feature is supported across all geographic locations using certified Session Border Controller (SBC). More information: [Bring your own carrier](voice-channel-bring-your-own-number.md)
@@ -59,10 +67,10 @@ In the geographic location where the voice channel is generally available, Azure
 
 ## Supported languages and locale codes
 
-Omnichannel for Customer Service uses the Azure Cognitive Services Speech-to-Text service for transcription. So, all languages supported by Speech-to-Text can be transcribed. You can also bring your own bot through Azure Bot Service for Interactive Voice Response (IVR).
+Omnichannel for Customer Service uses the Azure Cognitive Services Speech-to-Text service for transcription. So, all languages supported by Speech-to-Text can be transcribed. More information: [Speech-to-text documentation](/azure/cognitive-services/speech-service/index-speech-to-text)
 
 > [!Note]
-> - End-to-end voice and IVR support is available only if a language is supported in Power Virtual Agents or Azure Bot Service, and Omnichannel for Customer Service. 
+> - End-to-end voice and IVR support is available only if a language is supported in Power Virtual Agents and Omnichannel for Customer Service. 
 > - Sentiment and AI insights are optional for the voice functionality.
 
 See the information in the following table to know about the supported languages and locale codes.

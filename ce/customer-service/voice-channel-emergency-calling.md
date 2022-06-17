@@ -38,6 +38,6 @@ Here's how emergency calling works:
 ### See also
 
 [Set up outbound calling in the voice channel](voice-channel-outbound-calling.md)  
-[Set up inbound calling in the voice channel](voice-channel-route-queues.md)  
+[Set up inbound calling in the voice channel](voice-channel-inbound-calling.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
