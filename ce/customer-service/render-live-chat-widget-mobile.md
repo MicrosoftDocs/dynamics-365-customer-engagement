@@ -25,11 +25,11 @@ ms.custom:
 If the live chat SDK does not meet your requirements, then you can embed a widget code in your mobile app. However, embedding a chat widget code has many limitations such as reduced performance, limited mobile usability, and unavailable features.
 
 > [!NOTE]
-> - Live chat widget features&mdash;escalating to voice and video, and downloading the chat transcript&mdash;aren't supported on mobile apps.
+> Live chat widget features&mdash;escalating to voice and video, and downloading the chat transcript&mdash;aren't supported on mobile apps.
 
 ## Render the live chat widget using embedded code
 
-Use the `WebView` component of your mobile operation system language to enable rendering of the web version of the chat widget on mobile devices. A `WebView` is an embedded browser that enables a native application to display web content. The WebView capability is offered on both Android and iOS.
+A `WebView` is an embedded browser that enables a native application to display web content. Use the `WebView` component of your mobile operating system language to enable rendering of the web version of the chat widget on mobile devices. The WebView capability is offered on both Android and iOS.
 
 The following sample code renders the chat widget in a mobile application.
 
@@ -94,5 +94,6 @@ When the chat is closed, the live chat widget triggers the [lcw:closeChat](devel
 [closeChat](developer/reference/methods/closechat.md)  
 [lcw:chatRetrieved](developer/reference/events/lcw-chatRetrieved.md)  
 [lcw:chatQueued](developer/reference/events/lcw-chatQueued.md)  
+[Customize live chat widgets using data tags](customize-chat-widget.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
