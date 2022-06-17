@@ -67,9 +67,13 @@ Make sure your computer meets all requirements before you install the [!INCLUDE[
 
 ## Upgrade the Unified Service Desk client using the Setup Wizard  
 
+::: moniker range="=dynamics-usd-4.2"
+
 > [!Important]
 > Clear the cache **before and after** you upgrade your Unified Service Desk client. The cache is located at: `%appData%\Roaming\Microsoft\USD`. More information: [Configure client caching](/unified-service-desk/admin/configure-client-caching-unified-service-desk.md)
-  
+
+::: moniker-end
+
 1. On a computer where a previous version of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client is installed, sign in to the computer as a user with local Administrators group membership, and then double-click the SetupUnifiedServiceDesk.exe file to begin the upgrade.  
   
 2. When setup detects the previous version of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client, you'll see the following information:  
