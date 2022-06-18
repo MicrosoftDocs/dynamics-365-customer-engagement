@@ -113,7 +113,7 @@ To use a custom trigger with a Power Automate flow, navigate to [Power Apps Port
   4. Set Action name to the name of the custom trigger you activated in your customer journey. In this example, the name of the custom trigger is "Send to Sales agent"
 4. Start adding the subsequent step to the Flow. In each of these steps, you can use the data fields that came with the custom trigger. In this example, the phone number field mapped in the earlier steps will be available in all the steps of this Flow.
 > [!div class="mx-imgBorder"]
-> ![Screenshot of adding steps to a Power Automate Flow.](media/create-automated-flow-step8.png "Screenshot of adding steps to a Power Automate Flow")
+> ![Screenshot of adding steps to a Power Automate Flow.](media/create-automated-flow-step9.png "Screenshot of adding steps to a Power Automate Flow")
 
     > [!IMPORTANT]
     > All attributes must be defined to perform the trigger successfully.
