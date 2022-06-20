@@ -11,6 +11,9 @@ topic-status: Drafting
 ---
 # Know conversation starters for your customers  
 
+> [!IMPORTANT]
+> Talking points will be deprecated from August 2022. After the feature is deprecated, you’ll stop getting talking point suggestions on the contact's page. We recommend that you use LinkedIn Sales Navigator to get suggestions based on your contact's LinkedIn activities. For more information on what you get with the integration, see [View and work with LinkedIn Sales Navigator controls on forms](../linkedin/view-sales-navigator-forms.md). Contact your administrator if LinkedIn Sales Navigator is not integrated in your environment. 
+
 Use talking points to automatically identify conversation starters of your customers before you interact with them.
 
 ## License and role requirements
