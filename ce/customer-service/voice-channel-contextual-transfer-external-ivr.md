@@ -1,7 +1,7 @@
 ---
 title: "Integrate a third-party IVR system with voice channel | MicrosoftDocs"
-description: "Use this topic to understand how you can integrate third-party IVR systems with Omnichannel for Customer Service voice channel and set up contextual call transfer via Azure direct routing."
-ms.date: 05/31/2022
+description: "Use this article to understand how you can integrate third-party IVR systems with Omnichannel for Customer Service voice channel and set up contextual call transfer via Azure direct routing."
+ms.date: 06/20/2022
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: gandhamm
@@ -26,11 +26,11 @@ Before you proceed with this section, you must be familiar with the following co
 
 This section lists the high-level steps you must perform to enable contextual call transfer between a third-party IVR system and the voice channel.
 
-1. Set up Azure direct routing and connect a Session Border Controller (SBC), that’s linked to the third-party IVR system, with Azure Communication Services resource, that’s in turn connected to Omnichannel for Customer Service.
+1. Set up Azure direct routing and connect a Session Border Controller (SBC), which is linked to the third-party IVR system, with Azure Communication Services resource, which is in turn connected to Omnichannel for Customer Service.
 
 2. Follow the steps in the section [Bring your own phone number](voice-channel-bring-your-own-number.md) to register the phone number that’s assigned to the third-party IVR system with Omnichannel for Customer Service.
 
-3. To transfer a call from the IVR system, issue an SIP (Session Initiation Protocol) INVITE request to the Azure Communication Services resource. This will transfer the call to the Azure resource that's connected to Omnichannel for Customer Service.
+3. To transfer a call from the IVR system, issue an SIP (Session Initiation Protocol) INVITE request to the Azure Communication Services resource that'll transfer the call to the Azure resource that's connected to Omnichannel for Customer Service.
 
 4. To include context in the payload, populate the SIP UUI (User-to-User Information) header with context data: "userToUserInformation": "param1=value1;param2=value2".  
 
@@ -44,9 +44,13 @@ This section lists the high-level steps you must perform to enable contextual ca
     5. Enter the values for **Name** and **Type**. Ensure that the names of the context variables match exactly with the param names in the SIP UUI header.
     6. Select **Create**.
     
-        The SIP UUI payload is automatically converted into context data that can be used in the voice channel for routing and to show relevant information to the agent.
+    The SIP UUI payload is automatically converted into context data that can be used in the voice channel for routing and to show relevant information to the agent.
 
 You can now call the phone number assigned to the third-party IVR system and achieve a contextual call transfer with the voice channel.
+
+> [!NOTE]
+> Call record and transcription is unavailable for third-party IVR calls with customers.
+
 
 ### See also
 
