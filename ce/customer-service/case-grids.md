@@ -30,33 +30,22 @@ ms.custom:
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 >
 
-The modernized Case grid helps you increase agent productivity by providing quick access to information, such as last customer interaction, case age, and the next SLA breach. The modern UI presents data in an intuitive manner that helps supervisors and agents perform inline edits and quick operations with minimal clicks, thereby facilitating decision-making.
+The modernized Case grids help you increase agent productivity by providing quick access to information, such as last customer interaction, case age, and the next SLA breach. The modern UI presents data in an intuitive manner that helps supervisors and agents perform inline edits and quick operations with minimal clicks, thereby facilitating decision-making.
 
 ## Key features
 
-The following are some of the key features:
+The following are some of the key features of the modernized case grids:
 
-- New view called **Enhanced Active Cases** with a set of pre-defined columns.
-- View icons for **Priority** and the **Origin** channel.
--	View avatars for the assigned **Owner**.
-- View key data, such as **Case Age**, **Next SLA Breach**, and **Last Interaction** with attachments.
+- New view called **Enhanced Active Cases** with a set of pre-defined columns:
+    - View icons for **Priority** and the **Origin** channel.
+    -	View avatars for the assigned **Owner**.
+    - View key data, such as **Case Age**, **Next SLA Breach**, and **Last Interaction** with attachments.
 - Perform inline edits and update data for columns. For example, you can double-click on the **Status Reason** column to change the status of the case or set the toggle to **Yes** or **No** in the **Is Escalated** column. The data update is auto saved only when you move to the next row.
 - Use quick navigation to respond to the latest interaction.
 
-## Columns on the Enhanced Active Cases View
+## Enable the (Preview) Power Apps grid control for the Case entity
 
-|Column  |Experience with (Preview) Power Apps grid control |Experience with other grids  |
-|---------|---------|---------|
-|Origin    |Shows the Origin Icon followed by the text for all the views on Case Grid. It is editable on double-click. Sorting and filtering are supported. | Only the text will appear without any icons.      |
-|Priority   | Shows the color-coded Priority Icon followed by the text for all the views on Case Grid. It is editable on double-click. Sorting and filtering are supported. | Only the text will appear without any icons.     |
-|Owner  | Shows the profile image of the Owner if available, else shows the initials followed by the Owner name as text. It is editable on double-click. Sorting and filtering are supported.| Only the Owner’s name will appear without any Profile image or the Initials.    |
-|Last Interaction    | Shows the last activity and the action performed on that activity for that case. For example, **Note Added** for standard activities. For custom activities, only the created or updated status is shown. Selecting this will open the corresponding activity’s form. It is read-only. Sorting and filtering aren’t supported.            Additionally, if the activity has an attachment, it is displayed by an attachment icon, next to the activity.|  Only empty text will appear. |
-|Next SLA   | Searches through all active (Non cancelled) SLA KPI instances attached to the given case, filters, and picks the SLA KPI instance which is in unresolved state and with the earliest expiry time. If the expiry time is in the past, it will denote that there is an expired SLA instance associated with the case. SLA KPI instance name is not shown along with the timer control. Properties of the SLA Timer Control which are not supported are: Negative timer, Customized Labels, Upgrade Frequency, and auto-refresh. It is read-only. Sorting is supported but not filtering. | SLA Timer will not appear. Only the value assigned to Next SLA field in the backend will appear. It has details such as name of sla instance, expiry/warning time, and so on.|
-|Subject   | Shows a subject associated with the case. It is editable on double-click. All the available options are listed to be selected. A hierarchical view is not supported. Sorting and filtering are supported. | Subject associated with the case will appear as a text. |
-|Is Escalated   | Shows a toggle button reflecting whether the case is escalated or not. It is editable. Sorting and filtering are supported. | Escalated information as Yes/No will appear as a text. |
-|Case Age| Shows the static text with the duration for which the case is active for active and resolved cases in the format: {xx}d {yy}h or {xx}h {yy}m. For cancelled cases, the column shows Cancelled. The time gets refreshed every minute. The column will show 0h 0m when a case is created, after which the column will show either {xx}h {yy}m or {xx}d {yy}h. It is read-only. Sorting and filtering are not supported. | Duration in minutes (whole number) for active and resolved cases will appear. For cancelled cases, Cancelled will appear. |
-
-## Enable the modernized grids for Case entity
+To make the **Enhanced Active Cases** view accessible to users, as an administrator, you must enable the (Preview) Power Apps grid control:
 
 1. Go to the https://powerautomate.microsoft.com portal.
 1. Select **Solutions**. The **Solutions** page appears.
@@ -64,7 +53,7 @@ The following are some of the key features:
 1. On the **Default Solution** page, select **Tables** from the left panel and then select the **Case** entity.
 1. Select **Switch to classic** view.
 1. On the **Case** page, in the **Controls** section, select **Add Control**.
-1. On the **Add Control** dialog, select (Preview) Power Apps grid control > Add.
+1. On the **Add Control** dialog, select **(Preview) Power Apps grid control**> **Add**.
 1. On the **Controls** tab, do the following:
 
     1. **Controls** section: For **(Preview) Power Apps grid control**, select **Web**, **Phone**, and **Tablet** radio button/options.
@@ -77,18 +66,35 @@ The following are some of the key features:
 > [!NOTE]
 > New columns introduced as part of a solution will be available in the environment, after the solution is installed. Experience of these columns will depend on enabling the modernized grids.
 
-## Enable Enhanced Active Cases View in Customer Service workspace
+## Columns on the Enhanced Active Cases View
+
+The following table shows the enhancements in the **Enhanced Active Cases** View columns, when the **(Preview) Power Apps grid control** is enabled.
+
+|Column  |Experience with (Preview) Power Apps grid control |Experience with other grids  |
+|---------|---------|---------|
+|Origin    |Shows the Origin Icon followed by the text for all the views on Case Grid. It is editable on double-click. Sorting and filtering are supported. | Only the text will appear without any icons.      |
+|Priority   | Shows the color-coded Priority Icon followed by the text for all the views on Case Grid. It is editable on double-click. Sorting and filtering are supported. | Only the text will appear without any icons.     |
+|Owner  | Shows the profile image of the Owner if available, else shows the initials followed by the Owner name as text. It is editable on double-click. Sorting and filtering are supported.| Only the Owner’s name will appear without any Profile image or the Initials.    |
+|Last Interaction    | Shows the last activity and the action performed on that activity for that case. For example, **Note Added** for standard activities. For custom activities, only the created or updated status is shown. Selecting this will open the corresponding activity’s form. It is read-only. Sorting and filtering aren’t supported.            Additionally, if the activity has an attachment, it is displayed by an attachment icon, next to the activity.|  Only empty text will appear. |
+|Next SLA   | Searches through all active (Non cancelled) SLA KPI instances attached to the given case, filters, and picks the SLA KPI instance which is in unresolved state and with the earliest expiry time. If the expiry time is in the past, it will denote that there is an expired SLA instance associated with the case. SLA KPI instance name isn't shown along with the timer control. Properties of the SLA Timer Control which are not supported are: Negative timer, Customized Labels, Upgrade Frequency, and auto-refresh. It is read-only. Sorting is supported but not filtering. | SLA Timer won't appear. Only the value assigned to Next SLA field in the backend will appear. It has details such as name of sla instance, expiry/warning time, and so on.|
+|Subject   | Shows a subject associated with the case. It is editable on double-click. All the available options are listed to be selected. A hierarchical view isn't supported. Sorting and filtering are supported. | Subject associated with the case will appear as a text. |
+|Is Escalated   | Shows a toggle button reflecting whether the case is escalated or not. It is editable. Sorting and filtering are supported. | Escalated information as Yes/No will appear as a text. |
+|Case Age| Shows the static text with the duration for which the case is active for active and resolved cases in the format: {xx}d {yy}h or {xx}h {yy}m. For cancelled cases, the column shows Cancelled. The time gets refreshed every minute. The column will show 0h 0m when a case is created, after which the column will show either {xx}h {yy}m or {xx}d {yy}h. It is read-only. Sorting and filtering are not supported. | Duration in minutes (whole number) for active and resolved cases will appear. For cancelled cases, Cancelled will appear. |
+
+## Enable the Enhanced Active Cases View in Customer Service workspace
 
  1. Navigate to your environment using your organization link.
  
  1. From the list of apps, select **More Options** in Customer Service Workspace Model Driven App and then select **Open in App Designer**.
   1. From **Components > Entity Assets > Views**, select the **Case** entity. 
   1. In the Components tab, search for **Enhanced Active Cases** view and select the checkbox. 
-  1. Select **Save** and then select **Publish**. 
+  1. Select **Save** and then select **Publish**.
 
-## Add columns to the Case grid on the client side
+## Customize the Case grid
 
-Depending on the information that you want to view, you can choose to add columns to the Case grid. Adding columns to the new **Enhanced Active Cases** view is not supported. However, you can create a copy of the existing view and customize it. You can also add columns to your existing views.
+### Add columns to the Case grid as a user
+
+Depending on the information that you want to view, you can choose to add columns to the Case grid. Adding columns to the new **Enhanced Active Cases** view isn't supported. However, you can create a copy of the existing view and customize it. You can also add columns to your existing views.
 
 To create a copy of the **Enhanced Active Cases** view and customize it to add a new column:
 
@@ -114,7 +120,7 @@ You can also make changes to existing case grid views. For example, if you want 
 1.	Select **Last Interaction** and then select **Close**. **Last Interaction** shows up on the **Edit columns** dialog.
 1.	Select **Apply**. If you want to change the sequence of the columns, select **Move up** and then **Apply**.
 
-## Add columns to the Case grid on the server side
+### Add columns to the Case grid as an administrator
 
 To add columns in the Case grid:
 
@@ -129,9 +135,9 @@ To add columns in the Case grid:
 1. On the **View column** dialog, search for the column that you want to add, for example, **Last Interaction** column. The **Last Interaction**column now appears on the View page.
 1. Select **Save** and **Publish**.
 
-## Add new icons for Origin and Priority Columns
+### Add new icons for Origin and Priority Columns
 
-Here is an example of adding a new Option Set Value for the Priority column with the label Custom.
+Here's an example of adding a new Option Set Value for the Priority column with the label Custom.
 
 1. Go to the https://powerautomate.microsoft.com portal.
 1. Select **Solutions**.
