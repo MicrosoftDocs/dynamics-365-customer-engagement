@@ -1,7 +1,7 @@
 ---
 title: "Integrate a third-party IVR system with voice channel | MicrosoftDocs"
 description: "Use this topic to understand how you can integrate third-party IVR systems with Omnichannel for Customer Service voice channel and set up contextual call transfer via Azure direct routing."
-ms.date: 05/31/2022
+ms.date: 06/20/2022
 ms.service: dynamics-365-customerservice
 ms.topic: article
 author: gandhamm
@@ -47,6 +47,10 @@ This section lists the high-level steps you must perform to enable contextual ca
         The SIP UUI payload is automatically converted into context data that can be used in the voice channel for routing and to show relevant information to the agent.
 
 You can now call the phone number assigned to the third-party IVR system and achieve a contextual call transfer with the voice channel.
+
+> [!NOTE]
+> Call record and transcription is unavailable for third-party IVR calls with customer.
+
 
 ### See also
 
