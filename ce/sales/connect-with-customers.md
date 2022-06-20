@@ -19,7 +19,6 @@ If an activity isn't required to be completed by the due date or you're unable t
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
 
-
 ## Call a customer
 
 You can make a phone call to your customer from a record in the **My work** list or an activity in the **Up next** widget. The business phone number of the contact is used to initiate the call. If the business phone number isn't available, the mobile phone number will be used to initiate the call. If both business and mobile phone number are not available, the softphone dialer is displayed for you to dial a phone number manually. If the contact has set their preference not to be contacted by phone, a warning message is displayed. After you've successfully made the phone call, you must mark the **Phone Call** activity as complete.
@@ -106,7 +105,42 @@ Do one of the following actions:
     > [!div class="mx-imgBorder"]
     > ![Create an appointment through the Up next widget](media/sa-create-appointment-upnext-widget.png "Create an appointment through the Up next widget") 
 
+## Add a note to an activity
 
+Notes helps you to provide more information about the activity at that moment in time. The provided information is displayed on the record's **Timeline** wall, which helps the stake holders to refer this information when required.
+
+>[!NOTE]
+>If you are using customs forms for the records and the **Timeline** wall is not add to the form, add the **Timeline** section the forms. More information: [Add, configure, move, or delete sections on a form](/power-apps/maker/model-driven-apps/add-move-or-delete-sections-on-form)
+
+You can add notes in the following modes:
+
+**Activity in progress**
+
+To add a note when an activity is in progress:
+
+1. Select the **More options** (**...**) icon > **Notes**.
+    
+    > [!div class="mx-imgBorder"]
+    > ![Select add note](media/sa-add-notes-up-next-widget.png "Select add note")
+
+2. On the **Add a note** dialog box, provide the information as required and then select **Save**.
+    
+    > [!div class="mx-imgBorder"]
+    > ![Provide information and select save](media/sa-provide-notes-up-next-widget.png "Provide information and select save")
+
+**Close the activity**
+ 
+While closing (**Mark complete**) an activity, you can provide the necessary reason on why you are closing the activity or any other information. 
+
+1. On the activity, select **Mark complete**.  
+      
+    A confirmation dialog box is displayed.    
+    
+    > [!div class="mx-imgBorder"]
+    > ![Confirmation dialog box for closing an activity](media/sa-provide-notes-mark-complete-dialog.png "Confirmation dialog box for closing an activity")
+    
+1. On the confirmation dialog box, enter the required information in the **Add a note** section and then select **Got it**.
+   
 ## Skip or snooze an activity
 
 You can skip an activity if it's not required to be completed by the due date. When you skip an activity, it's removed from the sequence and the next activity is displayed for taking action. The skipped activity is moved to the completed list. If you skip a manual task, it's marked as canceled.
