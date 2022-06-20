@@ -2,10 +2,9 @@
 title: SUPPLEMENTAL TERMS FOR TRIAL SERVICES
 author: ReneeW-CPub
 ---
+# SUPPLEMENTAL TERMS FOR TRIAL SERVICES
 
 <a name="top"></a>
-
-# SUPPLEMENTAL TERMS FOR TRIAL SERVICES
 
 These terms supplement the applicable terms of the [Microsoft Online
 Subscription
