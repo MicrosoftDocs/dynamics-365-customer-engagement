@@ -23794,6 +23794,31 @@
       "source_path": "ce/sales/set-up-dynamics-365-sales.md",
       "redirect_url": "/dynamics365/sales/intro-saleshub",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/voice-channel-azure-bot-service.md",
+      "redirect_url": "/dynamics365/customer-service/configure-bot",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/voice-channel-route-queues.md",
+      "redirect_url": "/dynamics365/customer-service/voice-channel-inbound-calling",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/voice-channel-ivr-bots.md",
+      "redirect_url": "/dynamics365/customer-service/voice-channel-pva-bots",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/configure-bot.md",
+      "redirect_url": "/dynamics365/customer-service/configure-bot-azure",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/configure-azure-bot-best-practices.md",
+      "redirect_url": "/dynamics365/customer-service/configure-bot-best-practices",
+      "redirect_document_id": "false"
     }
   ]
 }
