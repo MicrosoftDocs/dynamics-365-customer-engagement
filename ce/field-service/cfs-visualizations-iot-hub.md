@@ -1,7 +1,7 @@
 ---
 title: "Visualizing device readings with Connected Field Service| MicrosoftDocs"
 description: Learn how to better understand the state of a device and its repair history with visualized device readings in Connected Field Service.
-ms.date: 01/19/2021
+ms.date: 06/20/2022
 ms.reviewer: krbjoran
 
 ms.subservice: connected-field-service
@@ -28,6 +28,9 @@ To enable the device readings chart, administrators need to deploy Azure Time Se
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an IoT alert in Connected Field Service.](./media/cfs-device-readings-hover-history.png)
+
+> [!NOTE]
+> Time Series Insights (TSI) will be deprecated after March 2025. We'll transition Connected Field Service to a new platform and announce it when the deprecation takes place. More information: [Migrate to Azure Data Explorer](/azure/time-series-insights/migration-to-adx)
 
 ## Prerequisites
 

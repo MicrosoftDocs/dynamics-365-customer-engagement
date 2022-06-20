@@ -1,7 +1,7 @@
 ---
 title: "Installation and setup for Connected Field Service for Azure IoT Hub (Dynamics 365 Field Service) | Microsoft Docs"
 description: Learn how connect and setup Dynamics 365 Field Service with Azure IoT Hub.
-ms.date: 06/16/2022
+ms.date: 06/20/2022
 ms.reviewer: krbjoran
 
 ms.subservice: connected-field-service
@@ -16,6 +16,9 @@ search.app:
 # Installation and setup - Connected Field Service for Azure IoT Hub
 
 This guide provides all the steps required for getting up and running with Connected Field Service (CFS) for IoT Hub.
+
+> [!NOTE]
+> Time Series Insights (TSI) will be deprecated after March 2025. We'll transition Connected Field Service to a new platform and announce it when the deprecation takes place. More information: [Migrate to Azure Data Explorer](/azure/time-series-insights/migration-to-adx)
 
 ## Prerequisites
 
@@ -104,7 +107,7 @@ Now you can send a test command by using the sample simulator. For example, sele
 ## Privacy notice
 [!INCLUDE[cc_privacy_crm_connected_field_service](../includes/cc-privacy-crm-connected-field-service.md)]
 
-[Azure Time Series Insight](/azure/time-series-insights/)
+[Azure Time Series Insights](/azure/time-series-insights/)
 
 [Connected Field Service Device Readings](cfs-visualizations-iot-hub.md) uses Azure Time Series Insight to store, process, and query IoT devices measurements from IoT Hub.
 

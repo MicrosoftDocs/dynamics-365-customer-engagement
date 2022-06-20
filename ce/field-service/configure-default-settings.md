@@ -1,7 +1,7 @@
 ---
 title: "Configure default settings (Dynamics 365 Field Service) | MicrosoftDocs"
 description: Learn how to set defaults for work orders, bookings, the schedule board, and agreements in Dynamics 365 Field Service.
-ms.date: 06/16/2022
+ms.date: 06/20/2022
 
 ms.topic: article
 author: FieldServiceDave

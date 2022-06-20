@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot Connected Field Service | Microsoft Docs"
 description: Troubleshoot issues with Connected Field Service
-ms.date: 11/19/2020
+ms.date: 06/20/2022
 ms.reviewer: krbjoran
 ms.topic: troubleshooting
 
@@ -42,6 +42,10 @@ Use the information in failed logic apps to diagnose the issue and to provide to
 
 > [!Note]
 > We don't recommend editing the logic apps that are deployed by the solution.
+
+## How do I change my application's TSI instance?
+
+If you'd like to change your time series iInsights (TSI) instance to a different one after you've deployed connected field service, open a support ticket; our support team will assist you in changing your instance.
 
 ## Why can't I pull device data?
 
