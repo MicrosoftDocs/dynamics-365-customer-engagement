@@ -19,7 +19,7 @@ ms.custom:
 
 # Search knowledge articles
 
-You can search knowledge articles through Customer Service workspace or Customer Service Hub.
+You can search knowledge articles through Customer Service workspace or Customer Service Hub. 
 
 ## Prerequisites
 
