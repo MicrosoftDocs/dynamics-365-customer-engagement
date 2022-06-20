@@ -1,7 +1,7 @@
 ---
 title: Filter knowledge articles in Dynamics 365 Customer Service | Microsoft Docs
 description: Learn how you can filter knowledge articles in Dynamics 365 Customer Service.
-ms.date: 06/17/2022
+ms.date: 06/20/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -21,7 +21,7 @@ ms.custom:
 
 ## Filter knowledge articles
 
-With the help of text and visual filters, you can filter the knowledge articles.
+With the help of text and visual filters, you can filter knowledge articles.
 
 :::image type="content" source="media/csw-article-filter.png" alt-text="Filter knowledge articles":::
 
@@ -39,7 +39,7 @@ When you select the filter icon, you can see the **Filter by** menu where you ca
 
 If your administrator has configured knowledge filter personalization settings, as an agent, you can select the filters you want to use.
 
-Agents can do the following:
+You can do the following:
 - Set preselects
 - Activate or deactivate a filter
 
@@ -100,8 +100,10 @@ However, if the **Auto-filter results** checkbox isn't selected, you can see mor
 
 ### See also
 
-[Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md)  
-[Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)  
+[Search knowledge articles](search-knowledge-articles.md#search-knowledge-articles)
+
+[Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
+
 [Understand knowledge base search mechanisms](knowledge-base-search-methods.md)  
 
 

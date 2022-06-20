@@ -1,7 +1,7 @@
 ---
 title: Search knowledge articles in Dynamics 365 Customer Service | Microsoft Docs
 description: Learn how you can search knowledge articles in Dynamics 365 Customer Service.
-ms.date: 06/17/2022
+ms.date: 06/20/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -63,7 +63,7 @@ Type a keyword in the search field to search for knowledge articles.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add the Knowledge Base Search control to Main forms](add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-main-forms) 
 
-## Use the Knowledge Search pane to search articles related to a case
+## Use the productivity pane to search articles related to a case
 
 ### How to search in Customer Service workspace
 
@@ -201,7 +201,6 @@ The knowledge base article link is now active and can be copied and shared.
 
 ### See also
 
-[Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md)  
 [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)  
 [Understand knowledge base search mechanisms](knowledge-base-search-methods.md)  
 

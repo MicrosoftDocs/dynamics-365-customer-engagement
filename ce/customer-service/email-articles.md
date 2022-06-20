@@ -1,7 +1,7 @@
 ---
 title: Email knowledge articles in Dynamics 365 Customer Service | Microsoft Docs
 description: Learn how you can email knowledge articles in Dynamics 365 Customer Service.
-ms.date: 06/17/2022
+ms.date: 06/20/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -40,8 +40,10 @@ You can perform these actions for only published or expired articles.
 
 ### See also
 
-[Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md)  
-[Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)  
+[Link and unlink knowledge articles](link-articles.md#link-and-unlink-knowledge-articles)
+
+[Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
+
 [Understand knowledge base search mechanisms](knowledge-base-search-methods.md)  
 
 

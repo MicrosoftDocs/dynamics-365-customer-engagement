@@ -1,7 +1,7 @@
 ---
 title: Submit feedback about knowledge articles in Dynamics 365 Customer Service | Microsoft Docs
 description: Learn how you can submit feedback about knowledge articles in Dynamics 365 Customer Service.
-ms.date: 06/17/2022
+ms.date: 06/20/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -43,8 +43,10 @@ To set up the feedback control, see [Set up knowledge management](set-up-knowled
 
 ### See also
 
-[Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md)  
-[Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)  
+[Search knowledge articles](search-knowledge-articles.md#search-knowledge-articles)
+
+[Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
+ 
 [Understand knowledge base search mechanisms](knowledge-base-search-methods.md)  
 
 
