@@ -1,7 +1,7 @@
 ---
 title: Overview of the Customer Service workspace application for Dynamics 365 Customer Service | Microsoft Docs
 description: Overview of the Customer Service workspace application for Dynamics 365 Customer Service
-ms.date: 10/19/2021
+ms.date: 06/15/2022
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -21,12 +21,12 @@ ms.custom:
 # Get started with Customer Service workspace
 
 
-
 Welcome to the Customer Service workspace app module, where we're increasing agent productivity for core customer service with the ability to work on multiple sessions at a time in a single workspace experience. If you choose to expand your customer service offering to provide chat and channels, the Customer Service workspace seamlessly adjusts to support managing conversations as well.
 
 If you've used Customer Service Hub or Omnichannel for Customer Service before, much of the behavior for managing cases and activities in the Customer Service workspace app module works the same way, with some exceptions to accommodate the multisession and conversation capabilities. This article walks you through the Customer Service workspace experience and explains how to navigate the app.
 
-Before we begin, a quick note about administration of Customer Service workspace: Currently, there isn't a dedicated administrator experience for Customer Service workspace. As such, configuring and managing core customer service capabilities, such as queues and routing rules, is done in the [Customer Service Hub](customer-service-hub-user-guide-basics.md) > Service Management experience. Channel configuration is done in [app profile manager](../app-profile-manager/overview.md). Because all of these apps are on [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro), the data created through these experiences is accessible.
+> [!NOTE]
+> The Customer Service workspace app is currently not available on mobile devices.
 
 ## Introduction to Customer Service workspace
 
@@ -49,7 +49,7 @@ The following table displays the elements of the Customer Service workspace.
 | 6 | Select the + icon to expand the menu to view a list of forms, views, and activities. Select the one you want to open in a new tab. |
 | 7 | Select the drop-down selector to filter cases in queues you can choose to work on. |
 | 8 | Select Shift + mouse click to open a new session for an activity. A single click replaces your view with the activity form. Select the back arrow in the upper-left corner of the form to go back to your previous view. |
-|||
+
 
 ## Navigate Customer Service workspace
 
@@ -94,9 +94,9 @@ From the **Home** session, you can select a record in the following ways and ope
 
 ### Disable the close session dialog
 
-1.	Sign in to Dynamics 365.
-2.	Select F12 to open the developer tools.
-3.	Run the following command at the console window:
+1. Sign in to Dynamics 365.
+2. Select F12 to open the developer tools.
+3. Run the following command at the console window:
     Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_SuppressSessionCloseWarning",true)
 
 ## Work with cases
@@ -207,6 +207,6 @@ For more information, see [Productivity pane](csw-productivity-pane.md).
 [Work with cases in Customer Service Hub](customer-service-hub-user-guide-create-a-case.md)  
 [Work with activities in Customer Service Hub](customer-service-hub-user-guide-manage-timeline-activities.md)  
 [Overview of the productivity pane](csw-productivity-pane.md)  
-
+[Migrate from Unified Service Desk to Customer Service workspace](../unified-service-desk/admin/migrate-to-csw.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

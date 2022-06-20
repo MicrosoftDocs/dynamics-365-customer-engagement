@@ -1,16 +1,14 @@
 ---
-title: "Manage notification templates in Omnichannel Administration app | MicrosoftDocs"
-description: "Learn about managing notification templates in Omnichannel Administration app"
+title: "Manage notification templates | MicrosoftDocs"
+description: "Learn about managing notification templates in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 04/04/2022
+ms.date: 06/09/2022
 ms.topic: article
 ---
 
 # Manage notification settings and templates
-
-## Introduction
 
 When a notification is sent to an agent, it displays certain information, such as the customer from who the conversation request is coming, the timeout period after which the notification will disappear, and accept and reject buttons. Each organization has varied business requirements and wants the notifications to show relevant information to the agents.
 

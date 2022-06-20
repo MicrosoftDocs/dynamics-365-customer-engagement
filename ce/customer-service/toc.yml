@@ -103,19 +103,33 @@
     - name: Overview of user management
       href: overview-users.md
     - name: Create users and assign security roles
-      href: /power-platform/admin/create-users-assign-online-security-roles
+      href: /power-platform/admin/create-users-assign-online-security-roles?context=/dynamics365/context/customer-service-context
     - name: Assign roles and enable users
       href: add-users-assign-roles.md
-  - name: App profile manager for Customer Service
+    - name: Manage users
+      href: users-user-profiles.md
+    - name: Manage capacity profiles
+      href: capacity-profiles.md
+    - name: Manage personas and custom security roles
+      href: role-persona-mapping.md
+    - name: Personas and privileges
+      href: persona-privilege-mapping.md  
+  - name: Agent experience profiles for Customer Service
     items: 
-    - name: Overview of app profile manager
+    - name: Overview of agent experience profiles
       href: ../app-profile-manager/overview.md
     - name: Roles and permissions
       href: ../app-profile-manager/security-roles.md
     - name: Create and use agent experience profiles
-      href: ../app-profile-manager/app-profile-manager.md
-    - name: Configure the inbox
-      href: configure-inbox.md
+      href: ../app-profile-manager/create-agent-experience-profile.md
+    - name: Configure the inbox for agents
+      href: configure-inbox.md      
+    - name: App profile manager
+      items:
+       - name: Experience for accessing templates and productivity tools
+         href: ../app-profile-manager/create-app-profiles-powerapps.md 
+       - name: Create and use app profiles, inbox in Power Apps
+         href: ../app-profile-manager/app-profile-manager.md
     - name: Settings
       href: ../app-profile-manager/settings.md
     - name: Templates
@@ -278,16 +292,6 @@
           href: set-up-queues-manage-activities-cases.md
         - name: Route cases using basic rulesets
           href: create-rules-automatically-route-cases.md
-      - name: Configure users for unified routing
-        items:
-        - name: Manage users
-          href: users-user-profiles.md
-        - name: Manage capacity profiles
-          href: capacity-profiles.md
-        - name: Manage personas and custom security roles
-          href: role-persona-mapping.md
-        - name: Personas and privileges
-          href: persona-privilege-mapping.md
       - name: Diagnostics for unified routing
         href: unified-routing-diagnostics.md
     - name: Supervisor experience
@@ -363,15 +367,31 @@
     - name: Create records from emails in legacy app
       href: automatically-create-case-from-email.md
   - name: Service-level agreements
-    items: 
+    items:
+    - name: Overview of service-level agreements
+      href: overview-service-level-agreements.md 
     - name: Administrator experience
       items: 
-      - name: Define service-level agreements
-        href: define-service-level-agreements.md
       - name: Enable entities for service level agreements
         href: enable-entities-service-level-agreements.md
-      - name: Apply SLAs
+      - name: Manage customer service schedules
+        items: 
+        - name: Create customer service schedules
+          href: create-customer-service-schedule-define-work-hours.md
+        - name: Create and manage holiday schedules
+          href: set-up-holiday-schedule.md
+        - name: Manage changes to customer service and holiday schedules
+          href: change-schedules.md
+      - name: Configure service-level agreements
+        href: define-service-level-agreements.md
+      - name: Apply service-level agreements
         href: apply-slas.md
+      - name: Add timer control for SLA-enabled entities
+        href: add-timer-control-case-form-track-time-against-sla.md
+      - name: Export and import a solution with SLAs
+        href: export-import-solution.md
+      - name: Manage service configuration settings
+        href: ../admin/system-settings-dialog-box-service-tab.md
       - name: Calculate SLA KPIs
         items:
         - name: Recalculate SLAs in terminal status
@@ -384,23 +404,19 @@
         href: create-entitlement-define-support-terms-customer.md
       - name: Use entitlement templates to set up entitlements  
         href: set-up-entitlements-templates.md
-      - name: Manage service configuration settings
-        href: ../admin/system-settings-dialog-box-service-tab.md
-      - name: Manage service schedules
-        items: 
-        - name: Create customer service schedules
-          href: create-customer-service-schedule-define-work-hours.md
-        - name: Create and manage holiday schedules
-          href: set-up-holiday-schedule.md
-        - name: Manage changes to customer service and holiday schedules
-          href: change-schedules.md
-      - name: Add timer control for SLA-enabled entities
-        href: add-timer-control-case-form-track-time-against-sla.md
+      - name: SLA Limitations
+        href: sla-limitations.md
+      - name: Migrate SLAs
+        href: migrate-slas.md
+      - name: Create standard SLAs
+        href: create-standard-sla.md
+      - name: Create enhanced SLAs
+        href: create-enhanced-sla.md
       - name: Add a timer in forms to track time against enhanced SLAs
         href: add-timer-forms-track-time-against-enhanced-sla.md
     - name: Agent experience
       items: 
-      - name: Manage case SLAs
+      - name: Manage SLAs
         href: customer-service-hub-user-guide-case-sla.md
   - name: Email
     items: 
@@ -426,6 +442,8 @@
           href: /power-apps/user/email-template-create?context=/dynamics365/context/customer-service-context
         - name: Insert an email template
           href: /power-apps/user/insert-email-template?context=/dynamics365/context/customer-service-context
+        - name: Personalize emails with dynamic text
+          href: /power-apps/user/email-dynamic-text?context=/dynamics365/context/customer-service-context          
         - name: Customize an email templates using the template editor
           href: /power-apps/user/cs-template-options?context=/dynamics365/context/customer-service-context
         - name: Convert an email to a template
@@ -506,7 +524,7 @@
       href: collaboration.md
     - name: Administrator experience
       items: 
-      - name: Configure Teams chat
+      - name: Configure Microsoft Teams chat
         href: configure-teams-chat.md
       - name: Enable Teams meetings in Customer Service apps
         href: configure-teams-meetings.md
@@ -518,7 +536,7 @@
         href: configure-customer-support-swarming.md
     - name: Agent experience
       items:
-      - name: Use Teams chat
+      - name: Use Microsoft Teams chat
         href: use-teams-chat.md
       - name: Use suggested contacts to collaborate with coworkers
         href: teams-use-suggested-contacts.md
@@ -558,24 +576,26 @@
         href: voice-channel-install.md  
       - name: Connect to Azure Communication Services
         items: 
-        - name: Overview
+        - name: Connect to Azure Communication Services
           href: voice-channel-acs-resource.md
-        - name: "Quickstart: Connect to a new Azure resource"
+        - name: "Quickstart: Connect using a new Azure resource"
           href: voice-channel-connect-new-resource.md
-        - name: "Advanced: Connect to an existing Azure resource"    
-          href: voice-channel-connect-existing-resource.md  
+        - name: "Advanced: Connect using an existing Azure resource"
+          href: voice-channel-connect-existing-resource.md 
+        - name: Sync from Azure Communication Services
+          href: voice-channel-sync-from-acs.md
+        - name: Disconnect from Azure Communication Services
+          href: voice-channel-disconnect-from-acs.md 
       - name: Manage phone numbers
         href: voice-channel-manage-phone-numbers.md
       - name: Set up inbound calling
-        href: voice-channel-route-queues.md      
+        href: voice-channel-inbound-calling.md      
       - name: Set up outbound calling
         href: voice-channel-outbound-calling.md
       - name: Configure historical analytics for voice
         href: cs-voice-historical-analytics.md  
-      - name: Configure Azure bots for voice
-        href: voice-channel-azure-bot-service.md
       - name: Configure Power Virtual Agents bots for voice
-        href: voice-channel-ivr-bots.md
+        href: voice-channel-pva-bots.md
       - name: View voice calls usage
         href: voice-channel-usage.md
       - name: Configure post-call survey
@@ -586,7 +606,7 @@
         href: voice-channel-call-overflow.md
       - name: Configure call recordings and transcripts
         href: voice-channel-configure-transcripts.md
-      - name: Enable consult with Microsoft Teams users
+      - name: Enable voice consult with Microsoft Teams users
         href: voice-consult-microsoft-teams-user.md
       - name: Manage phone music
         href: voice-channel-music.md
@@ -596,7 +616,7 @@
         href: voice-channel-multi-language-contact-center.md
       - name: Bring your own carrier
         href: voice-channel-bring-your-own-number.md
-      - name: Integrate third-party IVR systems with voice channel
+      - name: Integrate a third-party IVR system with voice channel
         href: voice-channel-contextual-transfer-external-ivr.md 
       - name: Supported cloud locations, languages, and locale codes
         href: voice-channel-region-availability.md
@@ -615,7 +635,7 @@
       - name: Monitor voice calls
         href: voice-channel-monitor-calls.md
       - name: Voice channel analytics, reports, and call insights
-        href: voice-channel-reports-analytics.md
+        href: voice-channel-reports-analytics.md 
     - name: Emergency calling in the voice channel
       href: voice-channel-emergency-calling.md
     - name: FAQ about the voice channel
@@ -858,7 +878,7 @@
         href: csw-productivity-pane.md
       - name: View smart assist suggestions for knowledge articles and similar cases
         href: oc-view-ai-suggested-cases-articles.md
-      - name: View smart assist suggestions for agents configured using custom Azure bot
+      - name: View smart assist suggestions
         href: oc-smart-assist.md
       - name: Use agent scripts for customer interactions
         href: oc-agent-scripts.md
@@ -874,16 +894,16 @@
       href: overview-bots.md
     - name: Bot sessions and licensing
       href: bot-session-licensing.md
+    - name: Best practices for configuring bots
+      href: configure-bot-best-practices.md   
     - name: Administrator experience
       items:
       - name: Configure Azure bots
         items:
         - name: Integrate an Azure bot
-          href: configure-bot.md
+          href: configure-bot-azure.md
         - name: Sample configuration
           href: sample-config-azure-bot.md
-        - name: Best practices
-          href: configure-azure-bot-best-practices.md
       - name: Integrate a Power Virtual Agents bot
         href: configure-bot-virtual-agent.md
       - name: Configure context variables for a bot
@@ -1532,6 +1552,8 @@
           href: developer/reference/methods/linkToConversation.md
         - name: unlinkFromConversation
           href: developer/reference/methods/unlinkFromConversation.md 
+        - name: sendMessageToConversation
+          href: developer/reference/methods/sendMessageToConversation.md
     - name: runMacro
       href: developer/reference/methods/runMacro.md
     - name: Action Reference
