@@ -300,7 +300,7 @@ Software.
 The Software is subject to United States export laws and regulations. You must
 comply with all domestic and international export laws and regulations that
 apply to the Software. These laws include restrictions on destinations, end
-users and end use. For additional information, see <http://aka.ms/exporting>.
+users and end use. For additional information, see <https://aka.ms/exporting>.
 
 Unless we notify you otherwise, your license to use the Software provided by us
 as part of the Services will end when your right to use the Services ends, and
