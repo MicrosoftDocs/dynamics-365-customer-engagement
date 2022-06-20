@@ -49,7 +49,7 @@ This section lists the high-level steps you must perform to enable contextual ca
 You can now call the phone number assigned to the third-party IVR system and achieve a contextual call transfer with the voice channel.
 
 > [!NOTE]
-> Call record and transcription is unavailable for third-party IVR calls with customers.
+> Call record and transcriptions from the third-party IVR call with the customer aren't available for agents.
 
 
 ### See also
