@@ -79,7 +79,7 @@ An administrator or system customizer must configure this option for you. More i
 
 To view the auto-filtered results:
 
-1. Search knowledge articles from the related section of the case. More information: [Search for knowledge articles in the Customer Service Hub](#search-for-knowledge-articles-in-the-customer-service-hub)
+1. Search knowledge articles from the related section of the case. More information: [Search knowledge articles](search-knowledge-articles.md#search-knowledge-articles)
 
 2. The articles are automatically filtered and displayed based on case data.
 
