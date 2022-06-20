@@ -77,7 +77,7 @@ The following are some of the key features:
 > [!NOTE]
 > New columns introduced as part of a solution will be available in the environment, after the solution is installed. Experience of these columns will depend on enabling the modernized grids.
 
-## Enable Enhanced Active Cases View in Customer Service workspace app
+## Enable Enhanced Active Cases View in Customer Service workspace
 
  1. Navigate to your environment using your organization link.
  
@@ -131,7 +131,7 @@ To add columns in the Case grid:
 
 ## Add new icons for Origin and Priority Columns
 
-The following section takes the example of adding a new Option Set Value for the Priority column with the label Custom.
+Here is an example of adding a new Option Set Value for the Priority column with the label Custom.
 
 1. Go to the https://powerautomate.microsoft.com portal.
 1. Select **Solutions**.
