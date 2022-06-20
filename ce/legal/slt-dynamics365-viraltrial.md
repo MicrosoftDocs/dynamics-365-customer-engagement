@@ -1,6 +1,7 @@
 ---
 title: SUPPLEMENTAL TERMS FOR TRIAL SERVICES
 author: ReneeW-CPub
+ms.author: renwe
 ---
 
 <a name="top"></a>
