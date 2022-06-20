@@ -60,12 +60,6 @@ Preinstalling and pinning the Dynamics 365 app in Teams increases the discoverab
 
 ### Create a custom Teams app setup policy
 
-
-
-<!-- Are steps 8 and 11 needed? They each say "Select Add," but the prior steps also say "Select Add." -->
-
-
-
 1.  Sign in to [Microsoft Teams admin center](https://admin.teams.microsoft.com/).
 
 2.  In the left pane, go to **Teams apps** &gt; **Setup policies**.
