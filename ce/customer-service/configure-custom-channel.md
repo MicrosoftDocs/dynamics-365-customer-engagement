@@ -1,7 +1,7 @@
 ---
 title: "Configure custom channel, or bring your own channel | MicrosoftDocs"
 description: "Learn what a custom channel is and how to configure the channel, or bring your own channel, in Omnichannel for Customer Service."
-ms.date: 04/04/2022
+ms.date: 06/17/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -15,14 +15,9 @@ ms.custom: intro-internal
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
-## Overview
+As an organization, you want the ability to integrate your line-of-business (in-house) messaging channels or other messaging channels with Omnichannel for Customer Service. The custom messaging channel capability lets you bring in your own channels, so you can engage better with customers. Direct Line and Telegram messaging channel integrations are supported. More information: [Direct Line](bring-your-own-channel.md)
 
-As an organization, you want the ability to integrate your line-of-business (in-house) messaging channels or other messaging channels with Omnichannel for Customer Service. The custom messaging channel capability lets you bring in your own channels, so you can engage better with customers. Here are some of the messaging channel integrations that are supported:
-
-- [Direct Line](bring-your-own-channel.md)
-- Telegram
-
-### Value proposition
+The value proposition of integrating a custom channel is as follows:
 
 - Integrate line-of-business (in-house) messaging channels that are specific to your organization.
 
@@ -50,7 +45,7 @@ You must have channels provisioned in your environment. More information: [Provi
 
 1. Register your custom channel in **Azure Bot Service** by selecting a multitenant bot. To learn how to register, see [Register a bot with Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration).
 
-2. Save the **Microsoft App ID** and **Client secret** values safely for future use. These two values are required to create a custom channel configuration in the Omnichannel admin center app. More information: [Get registration password](/azure/bot-service/bot-service-quickstart-registration#get-registration-password).
+2. Save the **Microsoft App ID** and **Client secret** values for future use. These two values are required to create a custom channel configuration in the Omnichannel admin center app. More information: [Get registration password](/azure/bot-service/bot-service-quickstart-registration#get-registration-password).
 
 ## Add the messaging channel to bot channel registration
 
@@ -156,8 +151,8 @@ To create a custom channel, follow these steps:
 
 5. Select **Validate app ID + secret**  to validate the **Microsoft app ID** and **Client secret** values. After the validation, a toast notification is displayed. Also, the **Last validated** field shows time and date. This ensures that bots are active and client secret refreshes are consumed. 
 
-    > [!div class=mx-imgBorder]
-    > ![Account details in custom channel.](media/custom-channel-1.png "Account details in custom channel")
+   :::image type="content" source="media/custom-channel-1.png" alt-text="Account details in custom channel.":::
+   
 
 6. Select **Save** to save the changes. After you save, in the **Callback information** section, the **Message endpoint (URL)** field is generated with a URL. Copy the URL from the field.
 
@@ -182,9 +177,7 @@ To create a custom channel, follow these steps:
     > [!Note]
     > A **Custom messaging account** can have multiple unique channel IDs. Don't add two or more same Channel IDs to a **Custom messaging account** because the Azure Bot Framework supports only one messaging account per App ID. For example, for **Contoso custom account**, you can't add two or more **Telegram** Channel IDs.
 
-
-    > [!div class=mx-imgBorder]
-    > ![General tab page for custom channel.](media/custom-channel-3.png "General tab page for custom channel") 
+    :::image type="content" source="media/custom-channel-3.png" alt-text="General tab page for custom channels.":::
 
 10. Optionally, on the **Surveys** tab, [configure a post-conversation survey](configure-post-conversation-survey.md).
 
@@ -194,8 +187,8 @@ To create a custom channel, follow these steps:
 
 13. Select **Save** to save the configurations.
 
-    > [!div class=mx-imgBorder]
-    > ![Summary page for custom channel.](media/custom-channel-4.png "Summary page for custom channel")
+    :::image type="content" source="media/custom-channel-4.png" alt-text="Summary page for custom channel.":::
+
 
 ## Test your custom channel
 
@@ -235,6 +228,6 @@ For more information, see the developer guide, [Test your custom messaging chann
 [Productivity tools](../app-profile-manager/productivity-tools.md)  
 [Smart assist](../app-profile-manager/smart-assist.md)  
 [Templates](/dynamics365/app-profile-manager/templates-overview)  
-
+[Support for live chat and asynchronous channels](card-support-in-channels.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
