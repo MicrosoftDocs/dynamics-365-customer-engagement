@@ -1,7 +1,7 @@
 ---
 title: "Manage cases with case grids | MicrosoftDocs"
 description: "Learn how to work with case grids and increase agent productivity. "
-ms.date: 06/09/2022
+ms.date: 06/20/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -40,7 +40,7 @@ The following are some of the key features:
 - View icons for **Priority** and the **Origin** channel.
 -	View avatars for the assigned **Owner**.
 - View key data, such as **Case Age**, **Next SLA Breach**, and **Last Interaction** with attachments.
-- Perform inline edits and update data for columns. For example, you can double-click on the **Status Reason** column to change the status of the case or set the toggle to **Yes** or **No** in the **Is Escalated** column. The data update is auto saved.
+- Perform inline edits and update data for columns. For example, you can double-click on the **Status Reason** column to change the status of the case or set the toggle to **Yes** or **No** in the **Is Escalated** column. The data update is auto saved only when you move to the next row.
 - Use quick navigation to respond to the latest interaction.
 
 ## Columns on the Enhanced Active Cases View
@@ -68,8 +68,8 @@ The following are some of the key features:
 1. On the **Controls** tab, do the following:
 
     1. **Controls** section: For **(Preview) Power Apps grid control**, select **Web**, **Phone**, and **Tablet** radio button/options.
-    1.	**Property** section: In **Customizer Control** field, select **Edit**. The **Configure property “Customizer Control Name”** dialog appears.
-    1. Select the **Bind to a static value option**, and for **Singleline.Text**, select **MscrmControls.CustomCellControl.CustomCellControl** and then select**OK**.
+    1. **Property** section: In **Customizer Control** field, select **Edit**. The **Configure property “Customizer Control Name”** dialog appears.
+    1. Select the **Bind to a static value option**, and for **Singleline.Text**, select **MscrmControls.CustomCellControl.CustomCellControl** and then select **OK**.
      1. To enable inline editing, in the **Property** section, in **Enable editing**, select **Edit**. The Configure property **Enable Editing** dialog appears. 
      1. Select **Bind to static options** and select **Yes** from the dropdown list, and then select **OK**.
 1. Select **Save** and then select **Publish**.
