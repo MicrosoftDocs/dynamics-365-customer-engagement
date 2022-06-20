@@ -4,12 +4,11 @@ description: "Use this article to learn about the supported cloud locations, lan
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/08/2022
+ms.date: 06/17/2022
 ms.topic: article
-
 ---
 
-# Supported cloud locations, languages, and locale codes 
+# Supported cloud locations, languages, and locale codes
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
 
@@ -25,7 +24,7 @@ The following table lists the availability of the voice channel in Omnichannel f
 > - Your Microsoft 365 tenant must be colocated in one of the following geographic locations where Omnichannel for Customer Service is available.
 > - The geographic locations refer to your Microsoft 365 tenant only and not the data center where your Dynamics 365 environment or org instance resides.
 
-**General region deployments**
+### General region deployments
 
 |Geographic location | General availability | Availability in Customer Service trial|
 |----------|---------|-----|
@@ -35,31 +34,31 @@ The following table lists the availability of the voice channel in Omnichannel f
 |Australia, New Zealand, Fiji (crm6.dynamics.com) |December 2021 |To be announced|
 |South America (crm2.dynamics.com) |To be announced | To be announced|
 |Government Community Cloud (GCC) (crm9.dynamics.com) |To be announced |To be announced|
-||||
 
 If you need your data to stay within a country or region, see the following table for preview and general availability timelines. Stay tuned for country or region-specific local deployment of the voice channel. More information: [Datacenter regions](/power-platform/admin/new-datacenter-regions)
 
-**Region-specific deployments**
+### Region-specific deployments
 
 |Geographic location | Preview availability| General availability |
 |----------|---------|-----|
-|United Kingdom |June 2022  | October 2022 |
-|Canada |August 2022 | To be announced  |
-|India | August 2022 | To be announced  |
-|Switzerland | August 2022 | To be announced|
+|United Kingdom **<sup>1</sup>** |June 2022  | October 2022 |
+|Canada **<sup>1</sup>** |August 2022 | To be announced  |
+|India **<sup>1</sup>** | August 2022 | To be announced  |
+|Switzerland **<sup>1</sup>** | August 2022 | To be announced|
 |France | To be announced | To be announced|
 |Germany | To be announced | To be announced|
 | United Arab Emirates | To be announced | To be announced |
-||||
+
+> [!NOTE]
+> **<sup> 1</sup>** The geographic location currently doesn't have business continuity and disaster recovery (BCDR) support. BCDR support will be a fast follow in this region.
 
 ### Microsoft as a carrier
 
 Microsoft as a carrier is available for customers with billing locations in select geographies around the world. To learn more about your eligibility, see [Subscription eligibility and number capabilities](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability).
 
-You can purchase new phone numbers through the Azure portal, and then sync with Omnichannel for Customer Service. More information: [Sync from Azure](voice-channel-acs-resource.md#sync-from-azure)
+You can purchase new phone numbers through the Azure portal, and then sync with Omnichannel for Customer Service. More information: [Import phone numbers](voice-channel-sync-from-acs.md)
 
 You can also port existing US or toll-free phone numbers. More information: [Port a phone number](/azure/communication-services/quickstarts/telephony/port-phone-number)
-
 
 ### Azure direct routing
 
@@ -69,14 +68,17 @@ In the geographic location where the voice channel is generally available, Azure
 
 ## Supported languages and locale codes
 
-See the information in the following table to know about the supported languages and locale codes.
+Omnichannel for Customer Service uses the Azure Cognitive Services Speech-to-Text service for transcription. So, all languages supported by Speech-to-Text can be transcribed. More information: [Speech-to-text documentation](/azure/cognitive-services/speech-service/index-speech-to-text)
 
-We use the Azure Cognitive Services Speech service Speech-to-Text for transcription, so we'll support all the languages that Speech-to-Text supports today. We also support a bring-your-own bot through Azure Bot Service for Interactive Voice Response (IVR) that will be constrained by the languages that Speech-to-Text supports. End-to-end voice and IVR support is available only if a language is supported in the Power Virtual Agents or Azure Bot Service, and Omnichannel for Customer Service. Sentiment and AI insights are optional for the voice functionality.
+> [!Note]
+> - End-to-end voice and IVR support is available only if a language is supported in Power Virtual Agents and Omnichannel for Customer Service. 
+> - Sentiment and AI insights are optional for the voice functionality.
+
+See the information in the following table to know about the supported languages and locale codes.
 
 | Language | Locale code | Voice channel | Power Virtual Agents | Speech-to-Text | Text-to-Speech | Sentiment | AI suggestions | UI language support |
 |---|---|---|---|---|---|---|---|---|
 | Afrikaans - South Africa | `af- ZA` |x|x|x|x|x|x|x|
-| Albanian | `sq` |x|x|x|x|x|x|x|
 | Amharic | `am- ET` |x|x|x|x|x|x|x|
 | Arabic - Algeria| `ar-DZ` |x|x|✔|✔|x|x|x|
 | Arabic - Bahrain| `ar-BH` |x|x|✔|✔|x|x|x|
@@ -251,7 +253,7 @@ Use the information in the following table to find out more about language suppo
 | Feature |	List of supported languages |
 | ---- | ---- |
 | Transcription | [Language and speech support](/azure/cognitive-services/speech-service/language-support)|
-| Power Virtual Agents (IVR) | [Power Virtual Agents supported languages](/power-virtual-agents/authoring-language-support)|
+| Power Virtual Agents (IVR) | [Languages supported by Power Virtual Agents](/power-virtual-agents/authoring-language-support)|
 | Bring your own bot (IVR) | [Language and voice support for the Speech service](/azure/cognitive-services/speech-service/language-support)|
 | AI suggestions | [Language support for AI suggestions](csw-enable-ai-suggested-cases-knowledge-articles.md#language-support-for-ai-suggestions)|
 | Sentiment Analysis | [Multilingual sentiment](enable-sentiment-analysis.md#multilingual-sentiment) |
@@ -262,4 +264,3 @@ Use the information in the following table to find out more about language suppo
 
 [Overview of the voice channel](voice-channel.md)  
 [FAQ about the voice channel in Omnichannel for Customer Service](voice-channel-faqs.md)  
-

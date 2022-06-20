@@ -353,6 +353,13 @@ The Dynamics 365 administrator must enable the feature in Dynamics 365 Sales, an
 ### How long does it take for data updates to reflect in the app?
 The data is refreshed periodically and could take up to 12 hours to reflect. We continue to make improvements to reduce this delay.
 
+### How do I buy more conversation intelligence hours?
+
+With the Sales Premium license, you get 10 hours of call recording and processing capacity per month for conversation intelligence. If you need more hours, [buy the Conversation Intelligence add-on](/microsoft-365/commerce/buy-or-edit-an-add-on?view=o365-worldwide#buy-an-add-on). For information on the additional hours provided by the add-on, see the [licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409).  
+
+> [!NOTE]
+> If you have the Sales Enterprise license, upgrade to Sales Premium license to buy more hours.  
+
 ### Can sellers (or non-managers) use this app?
 Yes, the application is also available for sellers and can view their conversational insights.
 
