@@ -692,7 +692,7 @@ How to Contact Microsoft
 
 If Customer believes that Microsoft is not adhering to its privacy or security
 commitments, Customer may contact customer support or use Microsoft’s Privacy
-web form, located at http://go.microsoft.com/?linkid=9846224. Microsoft’s
+web form, located at https://go.microsoft.com/?linkid=9846224. Microsoft’s
 mailing address is:
 
 Microsoft Enterprise Service Privacy
