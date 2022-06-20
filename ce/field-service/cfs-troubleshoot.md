@@ -45,7 +45,7 @@ Use the information in failed logic apps to diagnose the issue and to provide to
 
 ## How do I change my application's TSI instance?
 
-To change your time series iInsights (TSI) instance to a different one after you've deployed connected field service, open a support ticket; our support team will assist you in changing your instance.
+If you'd like to change your Time Series Insights (TSI) instance to a different one after you've deployed connected field service, open a support ticket; our support team will assist you in changing your instance.
 
 ## Why can't I pull device data?
 
