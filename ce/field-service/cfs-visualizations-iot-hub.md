@@ -55,8 +55,8 @@ To enable the device readings chart, administrators need to deploy Azure Time Se
 5. Select **Deploy**.
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the deployment screen showing configuration of Azure resources.](./media/connected-field-service-IoT-hub-device-measurements-deployment1-2.png)
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of the deployment screen showing configuration of Azure resources.](./media/connected-field-service-IoT-hub-device-measurements-deployment1-2.png)
 
 6. Follow the remaining steps in the IoT Deployment app to complete the Time Series Insights deployment.
 - Create the application (client) ID: Follow the steps in [Create an Azure Active Directory application](/azure/active-directory/develop/howto-create-service-principal-portal#create-an-azure-active-directory-application
@@ -64,8 +64,8 @@ To enable the device readings chart, administrators need to deploy Azure Time Se
 - Create the client secret: Follow the steps in [Create a new application secret](/azure/active-directory/develop/howto-create-service-principal-portal#create-a-new-application-secret
 ). 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing fields on the Time Series Insights screen.](./media/connected-field-service-IoT-hub-device-measurements-deployment2-2.png)
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot showing fields on the Time Series Insights screen.](./media/connected-field-service-IoT-hub-device-measurements-deployment2-2.png)
 
 > [!Note]
 > - Storage account selection is only available when you're upgrading an existing deployment.
@@ -89,32 +89,32 @@ To view device readings, the following data must be in place:
  1. Open the **Device Readings** tab on IoT alert, work order, case, device, or asset form.
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of standard device readings.](./media/cfs-device-readings-standard.png)
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of standard device readings.](./media/cfs-device-readings-standard.png)
 
 
 2. Choose the time period from the drop-down list. If the device sends device measurements to TSI, and the device measurement data exists for the selected time period, a chart is loaded.  
 
-> [!Note]
-> If you select a **Custom** time period, limit your time range to no more than 90 days. 
+   > [!Note]
+   > If you select a **Custom** time period, limit your time range to no more than 90 days. 
 
 3. Select the eye icon next to the measurement to show or hide the measurement on the chart.
 
 4. Hover over the chart to see tooltip with measurement details. 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of an IoT alert device reading, showing information on hover.](./media/cfs-device-readings-select.png)
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of an IoT alert device reading, showing information on hover.](./media/cfs-device-readings-select.png)
 
 
 5. Cases and work orders related to the IoT alert are displayed as pins on the device readings chart. Select a pin to open service history with a link directly to the work order or case. 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of an IoT alert showing service history.](./media/cfs-device-readings-click-history.png)
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of an IoT alert showing service history.](./media/cfs-device-readings-click-history.png)
 
 6. Select the eye icon next to **Work Orders** to show or hide any work orders created and closed during the selected time period. 
 
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of device readings chart showing toolip for work orders.](./media/connected-field-service-IoT-hub-device-measurements-workorder.png)
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of device readings chart showing toolip for work orders.](./media/connected-field-service-IoT-hub-device-measurements-workorder.png)
 
 > [!Note]
 > If there are no work orders in the selected time period, work order selection will not be displayed.

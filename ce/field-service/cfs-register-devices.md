@@ -37,7 +37,7 @@ For a guided walkthrough, check out the following video.
 
 ## Prerequisites
 
-- Connected Field Service must be connected to Azure IoT Hub or another custom IoT provider. For more information, see the [article on getting set up with Azure IoT Hub](installation-setup-iothub.md), or the article on [setting up custom IoT providers](cfs-custom-iot-provider.md).
+Connected Field Service must be connected to Azure IoT Hub or another custom IoT provider. For more information, see the [article on getting set up with Azure IoT Hub](installation-setup-iothub.md), or the article on [setting up custom IoT providers](cfs-custom-iot-provider.md).
 
 
 ## Create and register an IoT device from IoT Hub
@@ -111,7 +111,7 @@ Once the IoT device has been associated with the asset, a new section will appea
 > [!Note]
 >
 > - Multiple IoT devices can be associated with a single customer asset. On the asset, go to **Related** > **Connections** to associate additional IoT devices.
-> - When you're associating a device with an asset, you can set a primary device ID for the asset. If you associate multiple devices to the asset, the primary device ID for the asset won't be displayed in the form; however, a device ID link'll still exist in the background. Also, the first or the oldest device that's associated with the asset will be primary device ID for the asset. If you delete the link to the primary device ID, then the next oldest-connected device ID will be set as the primary ID.
+> - When you're associating a device with an asset, you can set a primary device ID for the asset. If you associate multiple devices with the asset, the primary device ID for the asset won't be displayed in the form; however, a device ID link'll still exist in the background. Also, the first or the oldest device that's associated with the asset will be the primary device ID for the asset. If you delete the link to the primary device ID, then the next oldest-connected device ID will be set as the primary ID.
 
 
 ## Registration error
