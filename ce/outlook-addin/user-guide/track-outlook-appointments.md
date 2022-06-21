@@ -46,7 +46,7 @@ You can track an appointment in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook]
     [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] doesn’t support inline attachments (attachments included in the body of the message).
 
    > [!NOTE]
-   >  The maximum size for an attachment is 5MB, although this can be increased to 32 MB by a system administrator.  
+   >  The maximum size for an attachment is 5MB, although this can be increased to 32MB by a system administrator.  
   
 3. To track the appointment, do one of the following:  
   
