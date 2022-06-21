@@ -1,10 +1,10 @@
 ---
 title: "Supported cloud locations, languages, and locale codes | MicrosoftDocs"
-description: "Use this article to learn about the supported cloud locations, languages, and locale codes for the voice channel in Omnichannel for Customer Service."
+description: "Use this article to know about the supported cloud locations, languages, and locale codes for the voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/17/2022
+ms.date: 06/20/2022
 ms.topic: article
 ---
 
@@ -41,13 +41,20 @@ If you need your data to stay within a country or region, see the following tabl
 
 |Geographic location | Preview availability| General availability |
 |----------|---------|-----|
-|United Kingdom **<sup>1</sup>** |June 2022  | October 2022 |
+|United Kingdom **<sup>1</sup>** (crm11.dynamics.com) |June 2022  | October 2022 |
 |Canada **<sup>1</sup>** |August 2022 | To be announced  |
 |India **<sup>1</sup>** | August 2022 | To be announced  |
 |Switzerland **<sup>1</sup>** | August 2022 | To be announced|
+|Japan **<sup>1</sup>** | August 2022 | To be announced  |
 |France | To be announced | To be announced|
 |Germany | To be announced | To be announced|
 | United Arab Emirates | To be announced | To be announced |
+|Brazil | To be announced | To be announced|
+|South Africa | To be announced | To be announced|
+|China | To be announced | To be announced|
+|Norway | To be announced | To be announced|
+|Korea | To be announced | To be announced|
+
 
 > [!NOTE]
 > **<sup> 1</sup>** The geographic location currently doesn't have business continuity and disaster recovery (BCDR) support. BCDR support will be a fast follow in this region.
