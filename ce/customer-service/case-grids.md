@@ -49,6 +49,8 @@ The following table explains the enhancements that you would find in the **Enhan
 |Is Escalated   | Shows a toggle button reflecting whether the case is escalated or not. It is editable. Sorting and filtering are supported. | Escalated information as Yes/No will appear as a text. |
 |Case Age| Shows the static text with the duration for which the case is active for active and resolved cases in the format: {xx}d {yy}h or {xx}h {yy}m. For cancelled cases, the column shows Cancelled. The time gets refreshed every minute. The column will show 0h 0m when a case is created, after which the column will show either {xx}h {yy}m or {xx}d {yy}h. It is read-only. Sorting and filtering are not supported. | Duration in minutes (whole number) for active and resolved cases will appear. For cancelled cases, Cancelled will appear. |
 
+:::image type="content" source="media/case-grids.png" alt-text="Enhanced Active Cases view":::
+
 ## Customize the Case grid
 
 Depending on the information that you want to view, you can choose to add columns to the Case grid.

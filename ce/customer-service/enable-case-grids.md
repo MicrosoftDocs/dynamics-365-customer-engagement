@@ -30,7 +30,7 @@ ms.custom:
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 >
 
-The modernized Case grids help you increase agent productivity by providing quick access to information, such as last customer interaction, case age, and the next SLA breach. The modern UI presents data in an intuitive manner that helps you and your agents perform inline edits and quick operations with minimal clicks, thereby facilitating decision-making.
+The modernized Case grids help you increase agent productivity by providing quick access to information, such as last customer interaction, case age, and the next SLA breach. The modern UI presents data in an intuitive manner that helps you and your agents perform inline edits and quick operations with minimal clicks, thereby facilitating decision-making. 
 
 ## Key features
 
