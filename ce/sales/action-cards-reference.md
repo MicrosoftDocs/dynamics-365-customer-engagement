@@ -81,9 +81,8 @@ The following cards are available under **Insights**.
 | [Opportunity at risk (sentiment detection)](#OpportunityRiskSentiment) | [Opportunity at risk (phrase detection)](#OpportunityRiskPhrase) | [Competitor mentioned](#CompetitorMentioned) |
 | [Issue detected](#IssueDetected) | [Customer question](#CustomerQuestion) | [Meeting requested](#MeetingRequested) |
 | [File requested](#FileRequested) | [Buying intent detected in email](#BuyingIntentDetectedEmail) | [Suggested stakeholder](#SuggestedStakeholder) |
-| [Suggested activities](#SuggestedActivities) | [Suggested contacts](#SuggestedContacts) | [Relationship analytics](#RelationshipAnalytics) |
-| [Contact is no longer with the company](#ContactMovedToNewOrg) | [Today's top people](#TodaysTopPeople) | [Today's top records](#TodaysTopRecords) |
-| [Upcoming flight](#UpcomingFlight) |||
+| [Suggested activities](#SuggestedActivities) | [Relationship analytics](#RelationshipAnalytics) | [Contact is no longer with the company](#ContactMovedToNewOrg) |
+| [Today's top people](#TodaysTopPeople) | [Today's top records](#TodaysTopRecords) | [Upcoming flight](#UpcomingFlight) |||
 
 >[!NOTE]
 >- The standard insight card types are available to you with the Sales Enterprise license.
