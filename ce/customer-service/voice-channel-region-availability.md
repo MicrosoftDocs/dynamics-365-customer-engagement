@@ -8,6 +8,11 @@ ms.date: 06/20/2022
 ms.topic: article
 ---
 
+
+<!-- Lines 180 and 181 mention "Klingon" as a language. Is this serious? Isn't that just a made-up language for entertainment? Was it put in as a joke? -->
+
+
+
 # Supported cloud locations, languages, and locale codes
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
