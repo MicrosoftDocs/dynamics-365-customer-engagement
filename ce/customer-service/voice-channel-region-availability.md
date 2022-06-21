@@ -134,7 +134,7 @@ See the information in the following table to know about the supported languages
 | English - Australia | `en-AU` |x|x|✔|✔|x|x|x|
 | English - Canada | `en-CA` |x|x|✔|✔|x|x|x|
 | English - Ghana | `en-GH` |x|x|✔|✔|x|x|x|
-| English - Hong Kong | `en-HK` |x|x|✔|✔|x|x|x|
+| English - Hong Kong SAR | `en-HK` |x|x|✔|✔|x|x|x|
 | English - India | `en-IN` |x|x|✔|✔|x|x|x|
 | English - Ireland | `en-IE` |x|x|✔|✔|x|x|x|
 | English - Kenya | `en-KE` |x|x|✔|✔|x|x|x|
