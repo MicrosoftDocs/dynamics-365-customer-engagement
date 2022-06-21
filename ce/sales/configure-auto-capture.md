@@ -30,7 +30,7 @@ Configure auto capture to helps your sellers to get suggestions on relevant cust
 | **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 
-## Configure basic auto capture
+## Configure auto capture
 
 When you enable auto capture, you help salespeople in your organization by suggesting relevant customer activities in Microsoft Dynamics 365 Sales by capturing emails and meetings from Outlook.
 
@@ -38,15 +38,15 @@ When you enable auto capture, you help salespeople in your organization by sugge
 > By enabling this feature, you consent to share data about your customers' email activity with an external system. Data imported from external systems into Sales Insights are subject to the [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?linkid=2116778).
 
 
-## How to enable basic auto capture
+## How to enable auto capture
 
-Enable basic auto capture by following these steps:
+Enable auto capture by following these steps:
 
 1.	[Review prerequisites for auto capture](#prerequisites-for-basic-auto-capture).
 
 2.	[Enable auto capture](#enable-basic-auto-capture).
 
-### Prerequisites for basic auto capture
+### Prerequisites for auto capture
 
 Before you enable auto capture, perform the following tasks: 
 
@@ -58,7 +58,7 @@ Before you enable auto capture, perform the following tasks:
 
 -	Set up server-side synchronization. To learn more, see [Set up server-side synchronization of email, appointments, contacts, and tasks](/dynamics365/customer-engagement/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks).
 
-### Enable basic auto capture
+### Enable auto capture
 
 1.	Sign in to the Dynamics 365 Sales Hub app, and go to **Change area** > **Sales Insights settings**.
 
