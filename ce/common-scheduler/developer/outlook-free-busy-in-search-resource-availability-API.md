@@ -1,7 +1,7 @@
 ---
 title: "Outlook free/busy schedules considered by Universal Resource Scheduling's search resource availability API | MicrosoftDocs"
 description: "Learn how to consider Outlook free/busy schedules when calling Universal Resource Scheduling's search resource availability API."
-ms.date: 11/15/2021
+ms.date: 06/21/2022
 ms.reviewer: krbjoran
 
 ms.subservice: common-scheduler
