@@ -1,7 +1,7 @@
 ---
 title: "Configure routing to preferred agents | MicrosoftDocs"
 description: "Know how you can configure the settings to route work items to preferred agents in Customer Service."
-ms.date: 06/14/2022
+ms.date: 06/21/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -28,10 +28,9 @@ To provide highly personalized services to your customers and enable highly cont
 > - To find the preferred agent at runtime for an incoming work item, the contact should be identified. More information: [Identify customers automatically](record-identification-rule.md)
 
 
-
 ## Configure settings for routing to preferred agent
 
-The agents that you'll map must be configured as bookable resources. You can map up to three agents to one contact as preferred agents. The order reflects the preference order in which the agents'll be assigned the work items if agents aren't available.
+The agents that you'll map must be configured as bookable resources. For preferred agents to work optimally, you must ensure that the configured agent is also a part of the queues to which the work item will be routed. You can map up to three agents to one contact as preferred agents. The order reflects the preference order in which the agents'll be assigned the work items if agents aren't available.
 
 1. In Customer Service admin center, select **Routing** in the site map, and then select **Manage** for **Preferred agent routing (preview)** on the page that appears.
 
@@ -54,7 +53,6 @@ The agents that you'll map must be configured as bookable resources. You can map
 1. You can add or remove agents in the list but at least one agent will remain in the list at any point in time.
 
 1. In **Preferred agents matrix**, you can use the edit and remove options to modify the contacts.
-
 
 The routing diagnostics if enabled will display information on the preferred agent routing under **Agent assignment trace** of the diagnostics page of the work item. The **Assignment criteria** section displays information whether the setting is enabled. The **Assignment trace** section displays the reason information.
 
