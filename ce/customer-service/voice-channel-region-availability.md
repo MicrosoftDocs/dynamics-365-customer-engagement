@@ -75,7 +75,7 @@ In the geographic location where the voice channel is generally available, Azure
 
 ## Supported languages and locale codes
 
-Omnichannel for Customer Service uses the Azure Cognitive Services Speech-to-Text service for transcription. So, all languages supported by Speech-to-Text can be transcribed. More information: [Speech-to-text documentation](/azure/cognitive-services/speech-service/index-speech-to-text)
+Omnichannel for Customer Service uses the Azure Cognitive Services speech-to-text service for transcription. So, all languages supported by speech-to-text can be transcribed. More information: [Speech-to-text documentation](/azure/cognitive-services/speech-service/index-speech-to-text)
 
 > [!Note]
 > - End-to-end voice and IVR support is available only if a language is supported in Power Virtual Agents and Omnichannel for Customer Service. 
@@ -83,7 +83,7 @@ Omnichannel for Customer Service uses the Azure Cognitive Services Speech-to-Tex
 
 See the information in the following table to know about the supported languages and locale codes.
 
-| Language | Locale code | Voice channel | Power Virtual Agents | Speech-to-Text | Text-to-Speech | Sentiment | AI suggestions | UI language support |
+| Language | Locale code | Voice channel | Power Virtual Agents | Speech-to-text | Text-to-speech | Sentiment | AI suggestions | UI language support |
 |---|---|---|---|---|---|---|---|---|
 | Afrikaans - South Africa | `af- ZA` |x|x|x|x|x|x|x|
 | Amharic | `am- ET` |x|x|x|x|x|x|x|
@@ -145,7 +145,7 @@ See the information in the following table to know about the supported languages
 | Fijian | `fj` |x|x|x|x|x|x|x|
 | Filipino | `fil-PH` |x|x|x|✔|x|x|x|
 | Finnish | `fi-FI` |✔|x|✔|✔|✔|x|✔|
-| French -Canada | `fr-CA` |x|x|✔|✔|x|x|x|
+| French - Canada | `fr-CA` |x|x|✔|✔|x|x|x|
 | French - France | `fr-FR` |✔|✔|✔|✔|✔|✔|✔|
 | French - Switzerland| `fr-CH` |x|x|✔|✔|x|x|x|
 | Galician | `gl-ES` |x|x|x|x|x|x|✔|
@@ -233,8 +233,8 @@ See the information in the following table to know about the supported languages
 | Spanish - US| `es-US` |x|x|✔|✔|x|x|x|
 | Sudanese - Indonesia | `su-ID` |x|x|x|x|x|x|x|
 | Swahili - Kenya| `sw-KE` |x|x|✔|✔|x|x|x|
-| Swedish - Sweden | `sv-SE` |✔|✔|✔|✔|✔|x|✔|
 | Swahili - Tanzania| `sw-TZ` |x|x|x|x|x|x|x|
+| Swedish - Sweden | `sv-SE` |✔|✔|✔|✔|✔|x|✔|
 | Tahitian | `ty` |x|x|x|x|x|x|x|
 | Tamil - India | `ta-IN` |x|x|✔|✔|x|x|x|
 | Tatar | `tt` |x|x|x|x|x|x|x|
