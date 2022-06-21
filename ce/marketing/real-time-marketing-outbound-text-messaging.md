@@ -1,7 +1,7 @@
 ---
 title: "Create outbound text messages (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to create outbound text messages for real-time marketing journeys in Dynamics 365 Marketing."
-ms.date: 01/27/2022
+ms.date: 06/20/2022
 
 ms.custom: 
   - dyn365-marketing
@@ -136,6 +136,22 @@ To add a Customer Voice survey to a text message:
 
 When you send the text message from a journey, it will automatically populate the token with the survey and options you selected.
 
+## Add SMS keywords to a text message 
+
+Adding SMS keywords in your text message allows you to use them in your customer journey to branch it based on your customer’s response to your text messages.  
+ 
+To add a keyword to a text message: 
+ 
+1. Select the keyword icon. 
+2. Type the keyword that you’d like to add. 
+3. Select it from the list if it has been used previously in the journey or select the **New keyword** button to create it. 
+
+The following screenshot shows how to add SMS keywords in your text message. 
+
+> ![Add SMS keywords screenshot](media/add-sms-keywords.png "[Add SMS keywords screenshot")
+ 
+All keywords created through the SMS editor are also added to the [SMS keywords page](manage-sms-keywords.md ). 
+ 
 ## Track your text message metrics from channel insights
 
 You can see how customers react to your text messages by checking the text message analytics in the message itself and within journeys.
