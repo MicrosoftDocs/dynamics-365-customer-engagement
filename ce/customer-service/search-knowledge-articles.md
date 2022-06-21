@@ -1,7 +1,7 @@
 ---
 title: Search knowledge articles in Dynamics 365 Customer Service | Microsoft Docs
 description: Learn how you can search knowledge articles in Dynamics 365 Customer Service.
-ms.date: 06/20/2022
+ms.date: 06/21/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -19,15 +19,14 @@ ms.custom:
 
 # Search knowledge articles
 
-You can search knowledge articles through Customer Service workspace or Customer Service Hub. 
+You can search knowledge articles through Customer Service workspace or Customer Service Hub.
 
 ## Prerequisites
 
 ### Customer Service workspace
 
 - The productivity pane and knowledge search must be enabled in the app profile manager.
-- The anchor tab should be a case or conversation for the knowledge search pane to be displayed.
-- Dataverse search must be enabled.
+- Dataverse search must be enabled. If dataverse search isn't enabled, then the full-text search mechanism works.
 
 ### Customer Service Hub
 
@@ -63,13 +62,13 @@ Type a keyword in the search field to search for knowledge articles.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add the Knowledge Base Search control to Main forms](add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-main-forms) 
 
-## Use the productivity pane to search articles related to a case
+## Use the productivity pane to search knowledge articles
 
 ### How to search in Customer Service workspace
 
-In Customer Service workspace, for a case, when you select the **Knowledge search** tab in the productivity pane, knowledge articles that match the case title are displayed on the **Knowledge search** pane. These articles are displayed based on relevance and full-text search mechanisms.
+In Customer Service workspace, for example for a case, when you select the **Knowledge search** tab in the productivity pane, knowledge articles that match the case title are displayed on the **Knowledge search** pane. These articles are displayed based on dataverse and full-text search mechanisms.
 
-The knowledge articles are applicable for all knowledge-enabled entities. By default, the full-text search displays 10 results and Dataverse search displays 50 results. You can also use the search box to enter keywords and search for articles if those displayed by default are not relevant.
+The knowledge articles are applicable for all the knowledge-enabled entities. By default, the full-text search and Dataverse search display 10 results. You can also use the search box to enter keywords and search for articles if those displayed by default aren't relevant.
 
 :::image type="content" source="media/csw-knowledge-tab.png" alt-text="View features in knowledge base search":::
 
@@ -86,7 +85,7 @@ The knowledge articles are applicable for all knowledge-enabled entities. By def
 
 ### How to search in Customer Service Hub
 
-In Customer Service Hub, for a case, when you select the **Knowledge** option in the **Related** section, the **Knowledge** tab shows you articles arranged in a single stream. Searching, sorting, and filtering the articles in the search control is faster and more responsive, with improvements to article viewability and usability. The Knowledge Base Search capability is also available in Dynamics 365 Customer Engagement (on-premises) 9.1. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new.md#agent-productivity-enhancements-to-knowledge-capabilities)
+In Customer Service Hub, for example for a case, when you select the **Knowledge** option in the **Related** section, the **Knowledge** tab shows you articles arranged in a single stream. Searching, sorting, and filtering the articles in the search control is faster and more responsive, with improvements to article viewability and usability. The Knowledge Base Search capability is also available in Dynamics 365 Customer Engagement (on-premises) 9.1. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../customerengagement/on-premises/whats-new.md#agent-productivity-enhancements-to-knowledge-capabilities)
 
 On the **Knowledge** tab, and you can view the following:
 
