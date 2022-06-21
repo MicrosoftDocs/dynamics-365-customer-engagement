@@ -7,7 +7,7 @@
 - Filter panel fix to stay open when switching schedule board views.
 - Booking tooltip usability improvements to address issues where it was not consistently rendering.
 - Bug fix for resource count when booking from a work order using scheduling assistant.
-- On Dragging the booking to next dates in Daily View "Extend to" date is shown one day earlier.
+- On dragging the booking to next dates in Daily View "Extend to" date is shown one day earlier.
 - Bug fix for pool scheduling showing incorrect results.
 - Performance improvements for requirement group scheduling with a large number of bookable resources.
 - Bug fix for the requirements grid tabs not visible after multiple drag and drops. 
