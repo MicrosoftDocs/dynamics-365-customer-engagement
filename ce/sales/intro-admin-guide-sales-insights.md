@@ -163,7 +163,7 @@ The premium Sales Insights features aren't available by default. You must instal
 After installing the premium Sales Insights features, you can configure the premium features as required:
 
 -	To configure the premium assistant, see [Configure and manage insight cards for the premium assistant](configure-assistant.md#configure-and-manage-insight-cards-for-the-premium-assistant).   
--	To configure premium auto capture, see [Configure auto capture](configure-auto-capture.md).   
+ 
 -	To configure notes analysis, see [Configure notes analysis](configure-notes-analysis.md).   
 -	To configure relationship analytics, see [Configure Relationship analytics](configure-relationship-analytics.md).   
 -	To configure talking points, see [Configure talking points](configure-talking-points.md).   

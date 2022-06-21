@@ -624,8 +624,6 @@
           items: 
             - name: Use basic auto capture
               href: free-auto-capture.md
-            - name: Premium auto capture
-              href: premium-auto-capture.md
         - name: View message interactions with email engagement
           href: email-engagement.md
         - name: How notes analysis assists you with suggestion
