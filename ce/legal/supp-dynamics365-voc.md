@@ -1,6 +1,7 @@
 ---
+title: Supplement Terms
 author: m-hartmann
-title: Supplement
+ms.author: mhart
 ---
 # Supplemental Terms of Use for Microsoft Dynamics 365 Voice of the Customer
 
