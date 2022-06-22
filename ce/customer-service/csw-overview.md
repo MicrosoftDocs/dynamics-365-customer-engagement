@@ -34,33 +34,33 @@ You can access Customer Service workspace through the app selector (where you fi
 
 As an agent with the Customer Service Representative security role, when you open Customer Service workspace, you start on the Customer Service Agent Dashboard unless your administrator has changed the default view. This dashboard shows you your active cases, cases you can work in queues you are assigned to, and your open activities. You can open existing cases and activities or begin working new cases from the queues you are assigned to and create activities.
 
-:::image type="content" source="media/csw-overview.png" alt-text="Customer Service workspace overview" border="false":::
+:::image type="content" source="media/csw-overview.png#lightbox" alt-text="Customer Service workspace overview" border="false":::
 
 The following table displays the elements of the Customer Service workspace.
 
 
 | Label | Description|
 | ------------ | ------------- |
-| 1 | The session pane lists all the sessions that you are actively working on. Select the tabs to navigate among sessions.  |
-| 2 | The Home session returns you to the Customer Service Agent Dashboard view.|
-| 3 | Each session has a tab in the session panel. Select a tab to navigate to the session you want to work on. |
-| 4 | Select a case to open a new session. A single click on a case replaces your view with the case form. Select the back arrow in the upper-left corner of the form to get back to your previous view.|
-| 5 | Select the tabs to navigate to your open activities, cases, forms and views. |
-| 6 | Select the + icon to expand the menu to view a list of forms, views, and activities. Select the one you want to open in a new tab. |
-| 7 | Select the drop-down selector to filter cases in queues you can choose to work on. |
-| 8 | Select Shift + mouse click to open a new session for an activity. A single click replaces your view with the activity form. Select the back arrow in the upper-left corner of the form to go back to your previous view. |
+| 1 | Select the icon to open the Site Map. You can view a list of forms, views, and activities. Select the one you want to open in a new tab. |
+| 2 | Select this button to return to the Customer Service Agent Dashboard view.|
+| 3 | Select this button to view all of the cases and conversations that are assigned to you. |
+| 4 | Each session has a tab in the session panel. Select a tab to navigate to the session you want to work on.|
+| 5 |Select a case to open a new session. A single click on a case replaces your view with the case form. Select the back arrow in the upper-left corner of the form to get back to your previous view. |
+| 6 | Select the drop-down selector to filter cases in queues you can choose to work on. |
+| 7 | Select Shift + mouse click to open a new session for an activity. A single click replaces your view with the activity form. Select the back arrow in the upper-left corner of the form to go back to your previous view. |
 
 
 ## Navigate Customer Service workspace
 
 From the **Home** session, you can select a record in the following ways and open it as a new session:
 
-- Select a record in a view to open the record in a new session.
-- Select a record in a dashboard to open the record in a new session.
-- Select a record from a queue to open the record in a new session.
+- Select a record in a view to open the record in a new session tab.
+- Select a record in a dashboard to open the record in a new session tab.
+- Select a record from a queue to open the record in a new tab. 
 - Create a new record in a view&mdash;select **New** to open the entity form in a new session.
-- Select a case. The case record opens on a session tab.
-- Select the customer in the case. The customer record opens on an application tab
+- Select a case. The case record opens in a new session tab.
+- Select the customer in the case. The customer record opens in a new session.
+
 - When you use global search, you can:
 
   - Search records and open a list of all the retrieved records on a new tab. 
@@ -160,25 +160,18 @@ From the Customer Service Agent Dashboard in Customer Service workspace, you can
 
 ## Create and search knowledge articles
 
-From the Customer Service Agent Dashboard in Customer Service workspace, you can access knowledge search and knowledge articles.
+From the Customer Service Agent Dashboard in Customer Service workspace, you can access knowledge search and knowledge articles as follows:
 
-:::image type="content" source="media/knowledge-csw.png" alt-text="Customer Service workspace knowledge" border="false":::
-
-|Label | Description|
-|------------ | -------------|
-| 1 | Select the plus sign (+) to expand the tab menu.|
-| 2 | Select Knowledge Article or Knowledge Search. You can also create and manage knowledge articles in other ways. For more information, see [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md).|
-|||
+1. Select the Site Map to expand the menu.
+2. Select EKnowledge Article or Knowledge Search. You can also create and manage knowledge articles in other ways. For more information, see [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md).
 
 Intelligent knowledge suggestions are displayed in the productivity pane while you are working on a case.
 
 ## Use email templates and signatures
 
-From the Customer Service Agent Dashboard in Customer Service workspace, you can access email templates and signatures as follows.
+From the Customer Service Agent Dashboard in Customer Service workspace, you can access email templates and signatures as follows:
 
-:::image type="content" source="media/email-csw.png" alt-text="Customer Service workspace email" border="false":::
-
-1. Select the plus sign (+) to expand the tab menu.
+1. Select the Site Map to expand the menu.
 2. Select Email Templates or Email Signatures.
 
 ### Use the inbox
