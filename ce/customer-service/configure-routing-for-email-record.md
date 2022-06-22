@@ -10,9 +10,13 @@ manager: shujoshi
 
 # Configure unified routing for email records
 
-In Customer Service, you can configure emails to be routed as a work item and added to queues so that they can be picked up by agents.
 
-***PMs, dev leads, help elaborate the introduction.***
+In Customer Service, you can configure emails to be routed as work items and added to queues for agents to work on them.
+
+In your organization, you can configure the following two methods for your agents to work on emails:
+
+Conv
+
 
 ## How you can configure routing of email records
 
@@ -24,7 +28,7 @@ When an email comes from a customer, you can use one of the following methods to
 
   1. **Configure a dedicated mailbox and share the mail ID with customers**. Customers can write to the configured mail ID and the mails are converted to cases and routed to the queue that's associated with the mailbox.
   
-  1. **Server-side sync**. More information: [Server-side sync](/dynamics365/customerengagement/on-premises/admin/server-side-synchronization?view=op-9-1)
+  1. **Configure server-side sync to create email record and queue item when customer sends mail**. More information: [Server-side sync](/dynamics365/customerengagement/on-premises/admin/server-side-synchronization?view=op-9-1)
   
   1. **Power Automate flow**. Configure the flow in Power Automate to automatically route the work items to agents. The routed records will appear on the agent dashboard as work items. More information: [Route records automatically](routing-trigger-automatic.md)
 
