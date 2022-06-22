@@ -21,7 +21,7 @@ manager: shujoshi
 
 To provide highly personalized services to your customers and enable highly context-aware conversations, you can configure the option to route work items from a specific contact to preferred agents or relationship managers.
 
-The settings to configure preferred agents are available only in Customer Service admin center.
+You can configure preferred agents in Customer Service admin center only.
 
 To find the preferred agent at runtime for an incoming work item, the contact should be identified. More information: [Identify customers automatically](record-identification-rule.md)
 
