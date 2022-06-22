@@ -228,8 +228,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|The topic cluster id from clustering algorithm
--1 represent outlier cluster
+|Description|The topic cluster id from clustering algorithm-1 represent outlier cluster|
 Positive number like 5 represent topic cluster|
 |DisplayName|Topic index|
 |Format|None|
