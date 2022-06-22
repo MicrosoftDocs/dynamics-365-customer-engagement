@@ -18,7 +18,7 @@ ms.custom:
   - intro-internal
 ---
 
-# Enable case grids (Preview)
+# Enable case grids (preview)
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../includes/cc-preview-feature.md)]
