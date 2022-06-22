@@ -1,7 +1,10 @@
 ---
 title: Supplemental Terms
 author: ReneeW-CPub
+ms author: renwe
 ---
+
+# Supplemental Terms of Use for Dynamics 365
 
 **PLEASE NOTE:**  Microsoft Corporation (or based on where you live, one of its
 affiliates) licenses this supplement to you.  You may use it with each validly

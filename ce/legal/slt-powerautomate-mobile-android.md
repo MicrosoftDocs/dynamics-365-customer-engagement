@@ -1,6 +1,7 @@
 ---
 title: MICROSOFT SOFTWARE LICENSE TERMS MICROSOFT POWER AUTOMATE - ANDROID
 author: MSFTMan
+ms.author: deonhe
 ---
 
 # MICROSOFT SOFTWARE LICENSE TERMS<br>MICROSOFT POWER AUTOMATE
@@ -22,7 +23,7 @@ HAVE THE RIGHTS BELOW. BY USING THE SOFTWARE, YOU ACCEPT THESE TERMS.
 >   applications that are licensed to you under this agreement or under their
 >   own terms. License terms, notices, and acknowledgements, if any, for the
 >   third party applications may be accessible online at
->   <http://aka.ms/thirdpartynotices> or in an accompanying notices file. Even
+>   <https://aka.ms/thirdpartynotices> or in an accompanying notices file. Even
 >   if such applications are governed by other agreements, the disclaimer,
 >   limitations on, and exclusions of damages below also apply to the extent
 >   allowed by applicable law.
@@ -31,7 +32,7 @@ HAVE THE RIGHTS BELOW. BY USING THE SOFTWARE, YOU ACCEPT THESE TERMS.
 >   access to, or rely on, online services. The use of those services (but not
 >   the software) is governed by the separate terms and privacy policies in the
 >   Microsoft Services Agreement at
->   <http://go.microsoft.com/fwlink/?linkid=398923>. Please read them. The
+>   <https://go.microsoft.com/fwlink/?linkid=398923>. Please read them. The
 >   services may not be available in all regions.
 
 **2. DATA COLLECTION.** The software may collect information about you and your
@@ -76,7 +77,7 @@ limitation, you will not (and have no right to):
 **4. EXPORT RESTRICTIONS.** You must comply with all domestic and international
 export laws and regulations that apply to the software, which include
 restrictions on destinations, end users, and end use. For further information on
-export restrictions, visit <http://aka.ms/exporting>.
+export restrictions, visit <https://aka.ms/exporting>.
 
 **5. SUPPORT SERVICES.** Microsoft is not obligated under this agreement to
 provide any support services for the software. Any support provided is “as is”,
