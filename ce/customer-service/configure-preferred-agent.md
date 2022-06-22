@@ -57,6 +57,16 @@ For a contact, you can add or remove agents in the list but at least one agent w
 
 In **Preferred agents matrix**, use the edit and remove options to modify the contacts and the associated agents.
 
+### Channel-specific support for identifying a contact record
+
+The information in the following table helps you understand how the customer record is retrieved in the supported channels.
+
+|Channel|Customer record|
+|-------|---------------|
+|Record |<ul><li>**Case**: Use the **Customer** field to store the contact ID.</li><li>**Email, phone, fax, letter, appointment**: Use the **Regarding** field to store the contact ID. </li></ul>|
+|**Digital messaging**: Chat, voice, and other channels|<ul><li> **Chat**: Authenticated users are automatically identified as contacts. For unauthenticated users, use the pre-conversation survey to set the survey question name as **Name**. More information: [Identify customers automatically](record-identification-rule.md)</li><li>**Voice**: No additional setup is required.</li></ul> |
+
+
 ### See also
 
 [Overview of unified routing](overview-unified-routing.md)  
