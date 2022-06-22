@@ -1,7 +1,7 @@
 ---
 title: "Known issues in real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about known issues in real-time marketing and how to work around them."
-ms.date: 06/02/2022
+ms.date: 06/22/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -68,8 +68,3 @@ As we continue to work on real-time marketing and refine the experience, we've b
 
 - Changing the data binding of existing dynamic text creates new dynamic text.
 - Even if you delete all usage of a piece of dynamic text from the current message, it is still shown and considered in use.
-
-## SMS
-
-- Currently limited to one phone number.
-- Only United States numbers are issued (even when using the app in the United Kingdom).
