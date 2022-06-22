@@ -34,7 +34,7 @@ You can access Customer Service workspace through the app selector (where you fi
 
 As an agent with the Customer Service Representative security role, when you open Customer Service workspace, you start on the Customer Service Agent Dashboard unless your administrator has changed the default view. This dashboard shows you your active cases, cases you can work in queues you are assigned to, and your open activities. You can open existing cases and activities or begin working new cases from the queues you are assigned to and create activities.
 
-:::image type="content" source="media/csw-overview.png#lightbox" alt-text="Customer Service workspace overview" border="false":::
+:::image type="content" source="media/csw-overview.png" alt-text="Customer Service workspace overview" lightbox="media/csw-overview.png:::
 
 The following table displays the elements of the Customer Service workspace.
 
