@@ -34,6 +34,10 @@ You can access Customer Service workspace through the app selector (where you fi
 
 As an agent with the Customer Service Representative security role, when you open Customer Service workspace, you start on the Customer Service Agent Dashboard unless your administrator has changed the default view. This dashboard shows you your active cases, cases you can work in queues you are assigned to, and your open activities. You can open existing cases and activities or begin working new cases from the queues you are assigned to and create activities.
 
+You can choose the enhanced multisession experience or default experience.
+
+### Enhanced multisession workspace (Preview)
+
 [ ![Image alt text.](media/csw-overview.png) ](media/csw-overview.png#lightbox)
 
 The following table displays the elements of the Customer Service workspace.
@@ -43,12 +47,30 @@ The following table displays the elements of the Customer Service workspace.
 | ------------ | ------------- |
 | 1 | Select the icon to open the site map. You can view a list of forms, views, and activities. Select the one you want to open in a new tab. |
 | 2 | Select this button to return to the Customer Service Agent Dashboard view.|
-| 3 | Select this button to view all of the cases and conversations that are assigned to you. |
+| 3 | Select this button to view all of the cases and conversations that are assigned to you. **Inbox** is enabled only if it is configured for your profile.|
 | 4 | Each session has a tab in the session panel. Select a tab to navigate to the session you want to work on.|
 | 5 |Select a case to open a new session. A single click on a case replaces your view with the case form. Select the back arrow in the upper-left corner of the form to get back to your previous view. |
 | 6 | Select the drop-down selector to filter cases in queues you can choose to work on. |
 | 7 | Select Shift + mouse click to open a new session for an activity. A single click replaces your view with the activity form. Select the back arrow in the upper-left corner of the form to go back to your previous view. |
 
+### Default multisession workspace
+
+
+:::image type="content" source="media/csw-overview.png" alt-text="Customer Service workspace overview" border="false":::
+
+The following table displays the elements of the Customer Service workspace.
+
+
+| Label | Description|
+| ------------ | ------------- |
+| 1 | The session pane lists all the sessions that you are actively working on. Select the tabs to navigate among sessions.  |
+| 2 | The Home session returns you to the Customer Service Agent Dashboard view.|
+| 3 | Each session has a tab in the session panel. Select a tab to navigate to the session you want to work on. |
+| 4 | Select a case to open a new session. A single click on a case replaces your view with the case form. Select the back arrow in the upper-left corner of the form to get back to your previous view.|
+| 5 | Select the tabs to navigate to your open activities, cases, forms and views. |
+| 6 | Select the + icon to expand the menu to view a list of forms, views, and activities. Select the one you want to open in a new tab. |
+| 7 | Select the drop-down selector to filter cases in queues you can choose to work on. |
+| 8 | Select Shift + mouse click to open a new session for an activity. A single click replaces your view with the activity form. Select the back arrow in the upper-left corner of the form to go back to your previous view. |
 
 ## Navigate Customer Service workspace
 
@@ -78,6 +100,17 @@ From the **Home** session, you can select a record in the following ways and ope
 - Selecting a record or session that's already open sets focus to the open session, instead of opening the session or record multiple times.
 
 - Selecting Shift while clicking overrides the new, simplified navigation  and opens the record in a new session. Selecting Ctrl while clicking overrides the simplified navigation and opens the record on a new tab.
+
+### Enable the enhanced multisession navigation (Preview)
+
+1. Sign in to Dynamics 365, and open Customer Service workspace.
+2. Select F12 to open the developer tools.
+3. Run the following command at the console window.
+    Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultiSessionLayoutImprovements",true)
+4. Refresh the app.
+
+> [!Note]
+> If you enable the enhanced multisession navigation, the navigation is applicable for both Customer Service workspace and Omnichannel for Customer Service. 
 
 ### Enable legacy navigation (deprecated)
 
