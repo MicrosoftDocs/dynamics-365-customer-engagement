@@ -12,10 +12,10 @@ topic-status: Drafting
 ---
 # Connect conversation intelligence to an environment  
 
-> [!NOTE]
-> Throughout this article, environment refers to a Power Platform environment that hosts Dynamics 365 Sales.
-
 The **Data sources** section helps you to disconnect or connect an environment with conversation intelligence. If you have multiple environments in your organization and want to activate another environment to display data in the application, use this section. 
+
+> [!NOTE]
+> Throughout this article, environment refers to a [Power Platform environment with a Dataverse database](/power-platform/admin/create-environment#create-an-environment-with-a-database) that hosts Dynamics 365 Sales.
 
 At a time, you can have only one active environment that is connected to the application. When you activate an environment, the existing environment will automatically deactivate, and the new environment’s data will be displayed on the application. Also, you must add tracked keywords and competitors as well as provide permission to access the data to the added environment.
 
