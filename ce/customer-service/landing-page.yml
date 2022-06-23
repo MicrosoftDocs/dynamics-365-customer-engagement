@@ -54,9 +54,9 @@ landingContent:
     - linkListType: how-to-guide
       links:
         - text: Create and manage knowledge articles
-          url: customer-service-hub-user-guide-knowledge-article
+          url: customer-service-hub-user-guide-knowledge-article.md
         - text: Configure knowledge management
-          url: set-up-knowledge-management-embedded-knowledge-search
+          url: set-up-knowledge-management-embedded-knowledge-search.md
 
 - title: Videos
     linkLists:
