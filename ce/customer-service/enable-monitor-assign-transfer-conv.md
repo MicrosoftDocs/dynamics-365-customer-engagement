@@ -14,7 +14,7 @@ manager: shujoshi
 
 ## Introduction
 
-As an administrator, you can enable your supervisors to take specific actions on various conversations being handled by their agents in Omnichannel for Customer Service. You can grant your supervisors permissions to monitor, assign, and transfer conversations by enabling the respective permissions in the Customer Service admin center, Omnichannel admin center or Omnichannel Administration apps.
+As an administrator, you can enable your supervisors to take specific actions on various conversations being handled by their agents in Omnichannel for Customer Service. You can grant your supervisors permissions to monitor, assign, transfer, and forcibly end conversations by enabling the respective permissions in the Customer Service admin center, Omnichannel admin center or Omnichannel Administration apps.
 
 ## Configure Supervisor settings
 
@@ -38,7 +38,7 @@ As an administrator, you can enable your supervisors to take specific actions on
     - **Supervisor Monitor**: Monitor how conversations are happening or being handled by their agents.
     - **Supervisor Assign**: Assign conversations to agents.
     - **Supervisor Transfer**: Transfer conversations from one agent to another.
-    - **Force Close**: End resolved conversations that are still represented as being actively worked on by the agent.
+    - **Force Close**: End conversations that hat take place on messaging channels.
 
 3. To disable any of the settings, set its corresponding toggle to **No**.
 
