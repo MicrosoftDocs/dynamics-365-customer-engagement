@@ -51,6 +51,8 @@ For preferred agents to work optimally, you must ensure that the configured agen
 
 1. Save and close.
 
+  :::image type="content" source="media/preferred-agents-mapped-view.png" alt-text="Summary screenshot of contacts and their preferred agents mapping.":::
+
 The routing diagnostics if enabled will display information on the preferred agent routing under **Agent assignment trace** of the diagnostics page of the work item. The **Assignment criteria** section displays information whether the setting is enabled. The **Assignment trace** section displays the reason information.
 
 ## Update contacts and preferred agents
