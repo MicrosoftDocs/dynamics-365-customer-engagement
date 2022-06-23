@@ -17,7 +17,7 @@ manager: shujoshi
 
 ## Introduction
 
-As a supervisor, you can monitor, assign, or transfer conversations that are being handled by your agents by using the **Omnichannel Ongoing Conversations** dashboard. More information: [Omnichannel Ongoing Conversations dashboard](ongoing-conversations-dashboard.md)
+As a supervisor, you can monitor, assign, transfer, or end conversations that are being handled by your agents by using the **Omnichannel Ongoing Conversations** dashboard. More information: [Omnichannel Ongoing Conversations dashboard](ongoing-conversations-dashboard.md)
 
 When you monitor conversations, you can understand how they're being handled by your agents and also check whether any conversation needs your immediate attention. You can also view customer sentiment and agent responses.
 
@@ -84,7 +84,8 @@ You can transfer ongoing conversations that are in the **Active** or **Waiting**
 
 ## Force close conversations
 
-Conversations that have been resolved by an agent are sometimes represented as being actively worked on in the **My work items** section of **Omnichannel Agent Dashboard**. You can use **Force Close** to end such conversations and move them to the closed state. You can force close conversations that take place on messaging channels such as Live Chat, SMS, or WhatsApp.
+You can use **Force Close** to end conversations that take place on messaging channels such as Live Chat, SMS, or WhatsApp.such conversations and move them to the closed state. 
+
 > [!NOTE]
 > **Force close** is not applicable to voice calls, routed records, or conversations that have been converted to audio or video calls.
 
@@ -92,7 +93,7 @@ Conversations that have been resolved by an agent are sometimes represented as b
 
     The list of available agents and their capacities is displayed.
 
-2. Select a conversation in the **Active** or **Waiting** state, and then select **Force Close**.
+2. Select a conversation and then select **Force Close**.
 
 When you forcibly end the conversation, the customer and agent are notified that the conversation is ended by the supervisor. 
 
