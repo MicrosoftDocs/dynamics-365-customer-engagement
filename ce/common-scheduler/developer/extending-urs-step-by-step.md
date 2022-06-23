@@ -2,7 +2,7 @@
 title: "Extend Universal Resource Scheduling with custom constraint"
 description: "This page is a step-by-step guide for extending Universal Resource Scheduling with a custom constraint, using the example of filtering resources by language."
 author: FieldServiceDave
-ms.author: daclar
+ms.author: v-daclar
 ms.date: 06/14/2018
 ms.reviewer: krbjoran
 
