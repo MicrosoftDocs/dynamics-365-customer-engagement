@@ -1,7 +1,7 @@
 ---
 title: "Configure Dynamics 365 Sales to integrate with SharePoint | MicrosoftDocs"
 description: "Allow your users to store sales documents in SharePoint and collaborate on them by integrating Dynamics 365 Sales with SharePoint."
-ms.date: 10/01/2019
+ms.date: 06/23/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
