@@ -1,7 +1,7 @@
 ---
 title: Supplemental Terms
 author: ReneeW-CPub
-ms author: renwe
+ms.author: renwe
 ---
 
 # Supplemental Terms of Use for Dynamics 365
