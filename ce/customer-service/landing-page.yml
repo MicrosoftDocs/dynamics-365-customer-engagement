@@ -16,9 +16,8 @@ metadata:
   ms.topic: landing-page
   ms.custom: template-landing-page
 
-  ms.prod: # Use ms.prod for on-premises products, ms.service for cloud services; remove the one you don't use
-  ms.service:
-  ms.subservice: # Required if you provide a value for ms.service
+  ms.service: service
+  
 
 # Cards and links should be based on top customer tasks or top subjects
 # Start card title with a verb
@@ -27,36 +26,36 @@ metadata:
 # linkListType: concept | deploy | download | get-started | how-to-guide | overview | reference | sample | video | whats-new
 
 landingContent:
-  - title: Meet CAPABILITY OR FEATURE
+  - title: Overview
     linkLists:
     - linkListType: overview
       links:
-      - text: Product overview
+      - text: Dynamics 365 Customer Service overview
         url: overview.md
-      - text: New and updated features
-        url: whats-new.md
-      - text: Release plans
-        url: /dynamics365/release-plans/
+      - text: What's new in Dynamics 365 Customer Service
+        url: whats-new-customer-service.md
     - linkListType: learn
       links:
-        - text: CAPABILITY OR FEATURE learning path
-          url: /learn/paths/build-customer-insights/
+        - text: Learn the fundamentals of Microsoft Dynamics 365 Customer Service
+          url: /learn/paths/learn-fundamentals-microsoft-dynamics-365-customer-service/
+        - text: Get started with Dynamics 365 Customer Service
+          url: /learn/modules/get-started-with-dynamics-365-for-customer-service/
 
   - title: Get started
     linkLists:
     - linkListType: get-started
       links:
-        - text: Quick-start guide
-          url: get-started.md
-        - text: Terms and concepts
-          url: glossary.md
+        - text: Configure Customer Service
+          url: configure-cs.md
+        - text: Get started with Customer Service admin center
+          url: cs-admin-center.md
 
-  - title: DO SOMETHING WITH SOMETHING
+  - title: Knowledge management
     linkLists:
     - linkListType: how-to-guide
       links:
-        - text:
-          url:
-        - text:
-          url:
+        - text: Create and manage knowledge articles
+          url: customer-service-hub-user-guide-knowledge-article
+        - text: Configure knowledge management
+          url: set-up-knowledge-management-embedded-knowledge-search
 
