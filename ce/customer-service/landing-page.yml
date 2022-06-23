@@ -21,7 +21,6 @@ metadata:
 
 # Cards and links should be based on top customer tasks or top subjects
 # Start card title with a verb
-# Replace TEXT and URLs as needed
 
 # linkListType: concept | deploy | download | get-started | how-to-guide | overview | reference | sample | video | whats-new
 
@@ -59,3 +58,11 @@ landingContent:
         - text: Configure knowledge management
           url: set-up-knowledge-management-embedded-knowledge-search
 
+- title: Videos
+    linkLists:
+    - linkListType: video
+      links:
+        - text: Configure Customer Service
+          url: configure-cs.md
+        - text: Get started with Customer Service admin center
+          url: cs-admin-center.md
