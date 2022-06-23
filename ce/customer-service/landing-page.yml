@@ -58,7 +58,7 @@ landingContent:
         - text: Configure knowledge management
           url: set-up-knowledge-management-embedded-knowledge-search.md
 
-- title: Videos
+  - title: Videos
     linkLists:
     - linkListType: video
       links:
