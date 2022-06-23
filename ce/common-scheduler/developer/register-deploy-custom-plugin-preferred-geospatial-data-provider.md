@@ -6,11 +6,10 @@ searchScope:
   - Field Service
   - Project Service
 ms.reviewer: krbjoran
-
 ms.subservice: common-scheduler
 ms.topic: conceptual
 author: FieldServiceDave
-ms.author: daclar
+ms.author: v-daclar
 search.app: 
   - D365CE
   - D365PS
