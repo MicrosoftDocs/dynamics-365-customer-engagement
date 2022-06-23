@@ -84,7 +84,7 @@ You can transfer ongoing conversations that are in the **Active** or **Waiting**
 
 ## Force close conversations
 
-You can use **Force Close** to end conversations that take place on messaging channels such as Live Chat, SMS, or WhatsApp.such conversations and move them to the closed state. 
+You can use **Force Close** to end conversations that take place on messaging channels such as Live Chat, SMS, or WhatsApp. Once ended, these conversations are moved to the closed state. 
 
 > [!NOTE]
 > **Force close** is not applicable to voice calls, routed records, or conversations that have been converted to audio or video calls.
