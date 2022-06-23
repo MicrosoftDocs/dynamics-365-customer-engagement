@@ -19,8 +19,6 @@ applies_to:
 ---
 # Enable and configure auto capture 
 
-[!INCLUDE [premium-adc-deprecation](../includes/premium-adc-deprecation.md)]
-
 Configure auto capture to helps your sellers to get suggestions on relevant customer activities by capturing emails and meetings from Outlook.
 
 ## License and role requirements
