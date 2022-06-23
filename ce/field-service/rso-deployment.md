@@ -38,11 +38,10 @@ After [getting access to Resource Scheduling Optimization](./rso-get-install.md)
 >[!Note] 
 > It may take several hours betweeen the time the subscription appears in Microsoft 365 Admin Center and Power Platform Admin Center.
 
-    > [!div class="mx-imgBorder"]
-    > ![Screenshot of the "Deploy Resource Scheduling Optimization instance" window](media/rso-instance.png)
-```    
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the "Deploy Resource Scheduling Optimization instance" window](media/rso-instance.png) 
+  
 Resource Scheduling Optimization is associated with a single Dynamics 365 organization in the tenant. You can change the associated organization through the Resource Scheduling Optimization deployment app’s page. If additional Resource Scheduling Optimization instances are needed for development and testing environments and you have an Enterprise Agreement with Microsoft, contact your technical account manager or commercial executive (formerly licensing specialist). Such instances are not yet available to cloud solution providers or retail purchase.
-```
 
 5. Select **Upgrade to new version** to apply a new update if one is available.
 
