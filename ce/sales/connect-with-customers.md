@@ -107,7 +107,7 @@ Do one of the following actions:
 
 ## Add a note to an activity
 
-Notes helps you to provide more information about the activity at that moment in time. The provided information is displayed on the record's **Timeline** wall, which helps the stake holders to refer this information when required.
+Notes helps you to provide more information about the activity. The provided information is displayed on the record's **Timeline** wall, which helps the stakeholders to refer this information when required.
 
 >[!NOTE]
 >If you are using customs forms for the records and the **Timeline** wall is not add to the form, add the **Timeline** section the forms. More information: [Add, configure, move, or delete sections on a form](/power-apps/maker/model-driven-apps/add-move-or-delete-sections-on-form)
@@ -118,7 +118,7 @@ You can add notes in the following modes:
 
 To add a note when an activity is in progress:
 
-1. Select the **More options** (**...**) icon > **Notes**.
+1. Select the **More options** (**...**) icon > **+ Note**.
     
     > [!div class="mx-imgBorder"]
     > ![Select add note](media/sa-add-notes-up-next-widget.png "Select add note")
@@ -130,7 +130,7 @@ To add a note when an activity is in progress:
 
 **Closing an activity**
  
-While closing (**Mark complete**) an activity, you can provide the necessary reason on why you are closing the activity or any other information. 
+While closing (**Mark complete**) an activity, you can provide the reason for closing the activity as a note. 
 
 1. On the activity, select **Mark complete**.  
       
