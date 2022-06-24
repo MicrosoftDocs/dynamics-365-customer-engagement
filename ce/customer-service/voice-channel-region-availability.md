@@ -1,10 +1,10 @@
 ---
 title: "Supported cloud locations, languages, and locale codes | MicrosoftDocs"
-description: "Use this article to learn about the supported cloud locations, languages, and locale codes for the voice channel in Omnichannel for Customer Service."
+description: "Use this article to know about the supported cloud locations, languages, and locale codes for the voice channel in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 06/17/2022
+ms.date: 06/20/2022
 ms.topic: article
 ---
 
@@ -41,13 +41,20 @@ If you need your data to stay within a country or region, see the following tabl
 
 |Geographic location | Preview availability| General availability |
 |----------|---------|-----|
-|United Kingdom **<sup>1</sup>** |June 2022  | October 2022 |
+|United Kingdom **<sup>1</sup>** (crm11.dynamics.com) |June 2022  | October 2022 |
 |Canada **<sup>1</sup>** |August 2022 | To be announced  |
 |India **<sup>1</sup>** | August 2022 | To be announced  |
 |Switzerland **<sup>1</sup>** | August 2022 | To be announced|
+|Japan **<sup>1</sup>** | August 2022 | To be announced  |
 |France | To be announced | To be announced|
 |Germany | To be announced | To be announced|
 | United Arab Emirates | To be announced | To be announced |
+|Brazil | To be announced | To be announced|
+|South Africa | To be announced | To be announced|
+|China | To be announced | To be announced|
+|Norway | To be announced | To be announced|
+|Korea | To be announced | To be announced|
+
 
 > [!NOTE]
 > **<sup> 1</sup>** The geographic location currently doesn't have business continuity and disaster recovery (BCDR) support. BCDR support will be a fast follow in this region.
@@ -68,7 +75,7 @@ In the geographic location where the voice channel is generally available, Azure
 
 ## Supported languages and locale codes
 
-Omnichannel for Customer Service uses the Azure Cognitive Services Speech-to-Text service for transcription. So, all languages supported by Speech-to-Text can be transcribed. More information: [Speech-to-text documentation](/azure/cognitive-services/speech-service/index-speech-to-text)
+Omnichannel for Customer Service uses the Azure Cognitive Services speech-to-text service for transcription. So, all languages supported by speech-to-text can be transcribed. More information: [Speech-to-text documentation](/azure/cognitive-services/speech-service/index-speech-to-text)
 
 > [!Note]
 > - End-to-end voice and IVR support is available only if a language is supported in Power Virtual Agents and Omnichannel for Customer Service. 
@@ -76,7 +83,7 @@ Omnichannel for Customer Service uses the Azure Cognitive Services Speech-to-Tex
 
 See the information in the following table to know about the supported languages and locale codes.
 
-| Language | Locale code | Voice channel | Power Virtual Agents | Speech-to-Text | Text-to-Speech | Sentiment | AI suggestions | UI language support |
+| Language | Locale code | Voice channel | Power Virtual Agents | Speech-to-text | Text-to-speech | Sentiment | AI suggestions | UI language support |
 |---|---|---|---|---|---|---|---|---|
 | Afrikaans - South Africa | `af- ZA` |x|x|x|x|x|x|x|
 | Amharic | `am- ET` |x|x|x|x|x|x|x|
@@ -122,7 +129,7 @@ See the information in the following table to know about the supported languages
 | English - Australia | `en-AU` |x|x|✔|✔|x|x|x|
 | English - Canada | `en-CA` |x|x|✔|✔|x|x|x|
 | English - Ghana | `en-GH` |x|x|✔|✔|x|x|x|
-| English - Hong Kong | `en-HK` |x|x|✔|✔|x|x|x|
+| English - Hong Kong SAR | `en-HK` |x|x|✔|✔|x|x|x|
 | English - India | `en-IN` |x|x|✔|✔|x|x|x|
 | English - Ireland | `en-IE` |x|x|✔|✔|x|x|x|
 | English - Kenya | `en-KE` |x|x|✔|✔|x|x|x|
@@ -138,7 +145,7 @@ See the information in the following table to know about the supported languages
 | Fijian | `fj` |x|x|x|x|x|x|x|
 | Filipino | `fil-PH` |x|x|x|✔|x|x|x|
 | Finnish | `fi-FI` |✔|x|✔|✔|✔|x|✔|
-| French -Canada | `fr-CA` |x|x|✔|✔|x|x|x|
+| French - Canada | `fr-CA` |x|x|✔|✔|x|x|x|
 | French - France | `fr-FR` |✔|✔|✔|✔|✔|✔|✔|
 | French - Switzerland| `fr-CH` |x|x|✔|✔|x|x|x|
 | Galician | `gl-ES` |x|x|x|x|x|x|✔|
@@ -226,8 +233,8 @@ See the information in the following table to know about the supported languages
 | Spanish - US| `es-US` |x|x|✔|✔|x|x|x|
 | Sudanese - Indonesia | `su-ID` |x|x|x|x|x|x|x|
 | Swahili - Kenya| `sw-KE` |x|x|✔|✔|x|x|x|
-| Swedish - Sweden | `sv-SE` |✔|✔|✔|✔|✔|x|✔|
 | Swahili - Tanzania| `sw-TZ` |x|x|x|x|x|x|x|
+| Swedish - Sweden | `sv-SE` |✔|✔|✔|✔|✔|x|✔|
 | Tahitian | `ty` |x|x|x|x|x|x|x|
 | Tamil - India | `ta-IN` |x|x|✔|✔|x|x|x|
 | Tatar | `tt` |x|x|x|x|x|x|x|

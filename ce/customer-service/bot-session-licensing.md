@@ -1,7 +1,7 @@
 ---
 title: "Bot sessions and licensing | MicrosoftDocs"
 description: "Use this article to learn about bot sessions and how you can purchase additional chatbot sessions."
-ms.date: 05/16/2022
+ms.date: 06/21/2022
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -34,9 +34,6 @@ Chatbot session add-ons entitle customers with Chat or Digital Messaging to an a
 3. Under **Add-ons**, select **Dynamics 365 for Customer Service Chatbot session add-on**.
 
 4. Select the number of add-ons required and complete the purchase.
-
-> [!Note]
-> Authentication cards are not supported in bots that are integrated with Omnichannel for Customer Service.
 
 
 ### See also

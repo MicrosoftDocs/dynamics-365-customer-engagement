@@ -93,7 +93,7 @@ An agent can transfer a chat to a bot by adding the bot to a queue, and then tra
 
 Routing rules route the incoming customer queries to their respective queues. Each routing rule has a condition and a destination queue. If the condition is evaluated as true, the customer query is routed to the destination queue. For bots, the condition is built by using context variables. To learn about context variables and how to add them, see [Configure context variables for a bot](context-variables-for-bot.md).
 
-Bots can be developed to receive customer queries first, gain information about the query, and then pass the query to a human agent if required. To achieve this behavior, you must first add the bot user to the queue and [configure routing rules](routing-rules.md) in a way that the incoming customer queries are routed to the queue with the bot user. Be sure to map the routing rules to the correct queues so that the queries are routed appropriately.
+Bots can be developed to receive customer queries first, gain information about the query, and then pass the query to a human agent if required. To achieve this behavior, you must first add the bot user to the queue and [configure routing rules](configure-work-classification.md#configure-route-to-queues-rulesets-and-rules) in a way that the incoming customer queries are routed to the queue with the bot user. Be sure to map the routing rules to the correct queues so that the queries are routed appropriately.
 
 ### Set escalation rules
 
