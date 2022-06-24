@@ -128,7 +128,7 @@ To add a note when an activity is in progress:
     > [!div class="mx-imgBorder"]
     > ![Provide information and select save](media/sa-provide-notes-up-next-widget.png "Provide information and select save")
 
-**Closing an activity**
+**Close an activity**
  
 While closing (**Mark complete**) an activity, you can provide the reason for closing the activity as a note. 
 
