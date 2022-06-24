@@ -1,7 +1,7 @@
 ---
 title: "Overview of service-level agreements | MicrosoftDocs"
 description: "Learn about service-level agreements in Dynamics 365 Customer Service."
-ms.date: 06/16/2022
+ms.date: 06/24/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
