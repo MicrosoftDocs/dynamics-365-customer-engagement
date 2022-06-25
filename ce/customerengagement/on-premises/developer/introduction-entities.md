@@ -189,7 +189,7 @@ The *entities* are used to model and manage business data in Dynamics 365 Custom
 
 <a name="EntityOwnership"></a>   
 ## Entity ownership  
- There are several types of entity ownership. Most entities, including custom entities, are owned by the organization, by a user, or a team. There are some business entities that do not have an owner, such as discount type (discount list), where the ownership is defined by its parent entity discount. The type of ownership defines some of the operations that can be performed on a record. Ownership for an entity is defined in the metadata property <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.OwnershipType>. The following table lists the ownership properties.  
+ There are several types of entity ownership. Most entities, including custom entities, are either owned by the organization or by a user or team. There are some business entities that do not have an owner, such as discount type (discount list), where the ownership is defined by its parent entity discount. Ownership type is configured at the time of entity (table) creation and changing ownership type later is not supported. The type of ownership defines some of the operations that can be performed on a record. Ownership for an entity is defined in the metadata property <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.OwnershipType>. The following table lists the ownership properties.  
 
 |Ownership Type|Description|  
 |--------------------|-----------------|  

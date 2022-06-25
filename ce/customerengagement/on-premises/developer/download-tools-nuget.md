@@ -45,7 +45,11 @@ You can download all SDK tools using the Windows PowerShell script provided belo
     Remove-Item .\Tools -Force -Recurse -ErrorAction Ignore
     Invoke-WebRequest $sourceNugetExe -OutFile $targetNugetExe
     Set-Alias nuget $targetNugetExe -Scope Global -Verbose
-        
+
+    if (-not (./nuget source | ? { $_ -like "*https://api.nuget.org/v3/index.json*"})) {
+      .\nuget sources Add -Name nuget.org.v3 -Source  https://api.nuget.org/v3/index.json
+    }
+
     ##
     ##Download Plugin Registration Tool
     ##
