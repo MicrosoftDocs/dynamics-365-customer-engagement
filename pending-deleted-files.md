@@ -13,7 +13,7 @@ ce\marketing\easy-subscription-lists.md
 ce\marketing\email-layouts.md
 ce\marketing\segments-explorer.md
 ce\teams-integration\teams-work-records-and-view.md
-ce\customerengagement\on-premises\basics\add-edit-power-bi-visualizations-dashboard.md
+
 ce/customerengagement/on-premises/developer/data-export-service.md
 
 These files have been deleted, but the list hasn't been communicated to loc yet.
