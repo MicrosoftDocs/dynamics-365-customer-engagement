@@ -47,7 +47,7 @@ Configure who knows whom to select a customized email template for sending intro
  
 ## Next steps
 
-- Work with your Microsoft 365 admin to [provide consent](provide-consent-office365.md) to use Exchange data.
+- Work with your Microsoft 365 admin to [provide consent](provide-consent-office365.md) to use Microsoft 365 data.
 
 - [Add the who knows whom widget to custom forms](add-ri-widgets-to-custom-form.md) if your organization is using a custom sales app or a custom form for lead or contact.
 

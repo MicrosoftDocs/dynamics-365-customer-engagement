@@ -20,7 +20,7 @@ Previously, the consent for these capabilities were provided from **Microsoft 36
 > [!IMPORTANT]
 > The consent provided for relationship analytics is valid until September 2022 and who knows whom is valid until July 30, 2022. After that, you'll need to provide consent as described in this article. We recommend that you provide consent as early as possible to avoid any loss of functionality.
 
-The relationship analytics and who knows whom capabilities in Dynamics 365 Sales include insights based on email interactions and meetings from Exchange Online. 
+The relationship analytics and who knows whom capabilities in Dynamics 365 Sales include insights based on email interactions and meetings from Exchange Online.  
 
 To enable Dynamics 365 to collect information from your organization's Exchange server, your Microsoft 365 administrator must provide consent to use Exchange data.  
 
@@ -40,16 +40,21 @@ If you're Microsoft 365 administrator, here's how you provide consent:
     >- When you disable the consent, the system can take up to 24 hours to remove data from all apps and up to 30 days to remove backed-up data from Microsoft 365 storage accounts.  
 
 4. (Optional) Opt out security groups of users who don't want to share their collaboration and communication data. Add their Microsoft 365 security group ID in the text box.
+    :::image type="content" source="media/admin-opt-out.png" alt-text="A screenshot of the option to opt-out security groups":::
+    
     > [!NOTE]
-    > Individual users can opt out too. More information: [Turn off data sharing with Dynamics 365 applications](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications)
+    >- If you had already opted out security groups in the old consent form, they'll be automatically migrated after you provide the consent in the new form.
+    >- Individual users can opt out too. More information: [Turn off data sharing with Dynamics 365 applications](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications)
+
+ 
 1. Save the changes.  
     Dynamics 365 applications can now access the Microsoft 365 data.
 
 
 ### See also
 
-[Insights generated from Microsoft 365 data](insights-from-m365.md)
-[Configure relationship analytics and health](configure-relationship-analytics.md)
-[Use relationship analytics to gather KPIs](./relationship-analytics.md)
-[Configure who knows whom](configure-who-knows-whom.md)
-[How to get introduced to leads or contacts](who-knows-whom.md)
+[Insights generated from Microsoft 365 data](insights-from-m365.md)  
+[Configure relationship analytics and health](configure-relationship-analytics.md)  
+[Use relationship analytics to gather KPIs](./relationship-analytics.md)  
+[Configure who knows whom](configure-who-knows-whom.md)  
+[How to get introduced to leads or contacts](who-knows-whom.md)  
