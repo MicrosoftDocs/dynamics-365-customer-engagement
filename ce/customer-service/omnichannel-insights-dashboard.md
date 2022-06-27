@@ -15,7 +15,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 ## Omnichannel Insights  
 
-The Omnichannel Insights dashboard provides KPIs and trends for supervisors to understand the overall state of the support experience at a glance. It also provides insights on the customer sentiments derived using support-specific machine learning algorithms with an ability to slice through different levels in the organizational hierarchy. Supervisors can rely on the information improve the overall customer support experience.  
+The Omnichannel Insights dashboard provides KPIs and trends for supervisors to understand the overall state of the support experience at a glance. It also provides insights on the customer sentiments derived using support-specific machine learning algorithms with an ability to slice through different levels in the organizational hierarchy. Supervisors can rely on the information to improve the overall customer support experience.  
 
 The overview dashboard is divided into two sections:
 
@@ -92,9 +92,9 @@ The KPIs for conversations and channels are listed in the following table. For c
 | Average monitor time | The total monitor time divided by the total of monitor sessions. | Only monitor sessions are considered as a denominator. | FactSessionParticipant[AvgMonitorTime] |
 | Average Customer sentiment pulse (CSP) | The predicted customer sentiment in a given timeframe for a set queue or agent, which indicates the degree of positive sentiment expressed by customers at the end of their interactions. | Conversations engaged are considered. | Average of FactConversationSentiment[msdyn_sentimentpulse] |
 
-### Queues and agents
+### Queue and agents
 
-The Queues and agents section provides historical visibility into how each queue and agent is performing across different channels and queues so that supervisors can take appropriate steps to improve the support experience for the customer.
+The Queue and Agent sections provide historical visibility into how each queue and agent is performing across different channels and queues so that supervisors can take appropriate steps to improve the support experience for the customer.
 
    > [!div class=mx-imgBorder]
    > ![Queue report.](media/queue-report.png "Queue report")
