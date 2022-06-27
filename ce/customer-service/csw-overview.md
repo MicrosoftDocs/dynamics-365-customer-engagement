@@ -101,7 +101,7 @@ From the **Home** session, you can select a record in the following ways and ope
 
 - Selecting Shift while clicking overrides the new, simplified navigation  and opens the record in a new session. Selecting Ctrl while clicking overrides the simplified navigation and opens the record on a new tab.
 
-### Enable the enhanced multisession navigation (Preview)
+### Enable the enhanced multisession layout (Preview)
 
 1. Sign in to Dynamics 365, and open Customer Service workspace.
 2. Select F12 to open the developer tools.
@@ -112,6 +112,13 @@ From the **Home** session, you can select a record in the following ways and ope
 > [!Note]
 > If you enable the enhanced multisession navigation, the navigation is applicable for both Customer Service workspace and Omnichannel for Customer Service. 
 
+### Disable the close session dialog
+
+1. Sign in to Dynamics 365.
+2. Select F12 to open the developer tools.
+3. Run the following command at the console window:
+    Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_SuppressSessionCloseWarning",true)
+    
 ### Enable legacy navigation (deprecated)
 
 > [!Note]
@@ -123,14 +130,7 @@ From the **Home** session, you can select a record in the following ways and ope
 2. Select F12 to open the developer tools.
 3. Run the following command at the console window.
     Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultisessionNavigationImprovements",false)
-4. Refresh the app.
-
-### Disable the close session dialog
-
-1. Sign in to Dynamics 365.
-2. Select F12 to open the developer tools.
-3. Run the following command at the console window:
-    Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_SuppressSessionCloseWarning",true)
+4. Refresh the app.    
 
 ## Work with cases
 
