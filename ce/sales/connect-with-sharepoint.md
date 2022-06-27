@@ -1,7 +1,7 @@
 ---
 title: "Configure Dynamics 365 Sales to integrate with SharePoint | MicrosoftDocs"
 description: "Allow your users to store sales documents in SharePoint and collaborate on them by integrating Dynamics 365 Sales with SharePoint."
-ms.date: 10/01/2019
+ms.date: 06/23/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -36,6 +36,9 @@ To be able to configure SharePoint, you must have:
 
 -   SharePoint Online subscription
 
+> [!NOTE]
+> The subscriptions are part of your Dynamics 365 Sales license.
+
 ### Steps to integrate
 
 1. From the Sales Hub app, select the **Settings** icon ![Settings icon.](media/settings-icon.png "Settings icon"), and then **Advanced settings**. 
@@ -53,6 +56,9 @@ To be able to configure SharePoint, you must have:
 -   Microsoft 365 subscription
 
 -   SharePoint Online subscription
+
+> [!NOTE]
+> The subscriptions are part of your Dynamics 365 Sales license.
 
 ### Integrate with SharePoint
 
