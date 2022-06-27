@@ -38,7 +38,7 @@ As an administrator, you can enable your supervisors to take specific actions on
     - **Supervisor Monitor**: Monitor how conversations are happening or being handled by their agents.
     - **Supervisor Assign**: Assign conversations to agents.
     - **Supervisor Transfer**: Transfer conversations from one agent to another.
-    - **Force Close**: End conversations that hat take place on messaging channels.
+    - **Force Close**: End conversations that take place on messaging channels.
 
 3. To disable any of the settings, set its corresponding toggle to **No**.
 
