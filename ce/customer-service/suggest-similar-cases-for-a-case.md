@@ -3,7 +3,7 @@ title: "Suggest similar cases for a case with Dynamics 365 Customer Service | Mi
 description: "Learn how to use the similarity rules and relevance search in Customer Service."
 author: neeranelli
 ms.author: nenellim
-ms.date: 06/22/2022
+ms.date: 04/04/2022
 ms.topic: article
 manager: shujoshi
 search.audienceType: 
@@ -62,29 +62,33 @@ Based on configured data input, the Relevance search mechanism filters the cases
    ### [Customer Service Hub](#tab/customerservicehub)
     
      1. In the site map, select **Service Management**.
-     1. Select **Advanced similarity rules** in **Similar Records Suggestion**. 
+     2. Select **Advanced similarity rules** in **Similar Records Suggestion**. 
   
       The **All Advanced Similarity Rules** page is displayed. 
 
-1. Select **New** on the command bar to create an advanced similarity rule.  
+2. Select **New** on the command bar to create an advanced similarity rule.  
 
-1. Enter the following details on the **Details** tab:
-   
-   - **Name** (required): The rule name.
-   - **Source Entity** (required): Select Case entity for similar cases suggestions.
-   - **Description**: A description of the similarity rule.
-   - **Noise Key phrases**: Provide noise key phrases separated by a semicolon ( ; ). These phrases will be filtered while searching for a similar case.
-   - **Filter Result by Status**: Filter records by status. If you set the value to **Active**, then only similar cases with active status will be retrieved. If you don’t set a value, then it will retrieve similar cases that're in all statuses.
+3. In the **Details** tab:
+   - Fill in the fields in the new advanced similarity rule dialog box:
 
-    1. Select **Save** to save the rule.
+
+     |                   Item                   |                                                                                                                                                                                                      Description                                                                                                                                                                                                      |
+     |------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+     |             Name (required)              |                                                                                                                                                                                             The name of the rule.                                                                                                                                                                                              |
+     |         Source Entity (required)         |                                                                                                Select Case entity for similar cases suggestions.                                                                                                |
+     |               Description                |                                                                                                                                                                                         A description of the similarity rule.                                                                                                                                                                                         |
+     |Noise Key phrases|Provide noise key phrases separated by a semicolon ( ; ). These phrases will be filtered while searching for a similar case| 
+      |         Filter Result by Status          |                                                                                                                                          Filter records by status                                                                                                                                          |
+     |||
+    - Select **Save** to save the rule.
   
 
       ![Similar case configuration.](media/similar-case-config.PNG "Similar case configuration")
 
-    1. On the **Match Fields** tab:
+  1. In the **Match Fields** tab:
 
-       - Select **New Text Analytics Entity Mapping** to add a related text analytics entity mapping record to this rule.
-       - Fill in the details on the **Details** tab in the new record. These values are used to determine the keywords or key phrases from source records using relevance search to match with target records using text search. This helps to achieve keyword-based similarity between source and target records.  
+     - Select **New Text Analytics Entity Mapping** to add a related text analytics entity mapping record to this rule.
+     - Fill in the details in the **Details** tab in the new record. These values are used to determine the keywords or key phrases from source records using relevance search to match with target records using text search. This helps to achieve keyword-based similarity between source and target records.  
 
 
        |   Item   |                                                                                                                                                                                                                                                                                                                                                                            Description                                                                                                                                                                                                                                                                                                                                                                             |
@@ -96,9 +100,9 @@ Based on configured data input, the Relevance search mechanism filters the cases
 
        ![Similar case rule.](media/similar-case-rule.PNG "Similar case rule")
 
-1. Select **Save** to save the rule.
+4. Select **Save** to save the rule.
 
-1. Select **Activate** from the command bar to activate the rule.
+5. Select **Activate** from the command bar to activate the rule.
 
 Similarly, add more mappings to view a comprehensive search of related records.
 
