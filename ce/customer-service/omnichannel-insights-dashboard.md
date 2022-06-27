@@ -1,7 +1,7 @@
 ---
 title: "Omnichannel Insights dashboards for supervisors | MicrosoftDocs"
 description: "Learn about Omnichannel Insights dashboards for supervisors"
-ms.date: 03/12/2021
+ms.date: 06/27/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -178,33 +178,7 @@ The following illustration provides a detailed view of the Omnichannel Sentime
    |% Negative Sentiment                 |Count of negative sentiment zone conversations divided by total sessions.  |
    |Conversations with Sentiment prediction  |Count of conversations to predict the customer sentiment metrics.|
 
-## Preview: Omnichannel Insights – Sentiment drivers reporting
-
-[!include[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-Topics are generated when chat transcripts from Omnichannel for Customer Service are analyzed and grouped together, and similarities are discovered among the conversations. These are then correlated with sentiment, so that supervisors can better understand how their customers feel about each topic on which they've interacted with agents.
-
-   > [!div class=mx-imgBorder]
-   > ![Topics that affect sentiment.](media/topics-impacting-sentiment.png "Topics that affect sentiment")
-
-   > [!NOTE]
-   >
-   > - The filters at the top of the report (duration, channel, agent, queue) don't have an impact on the topic-related tiles.
-   > - This component of the report will display data only when sentiment drivers reporting is enabled and a minimum of 10 chat conversations per organization take place.
-
-   |Tile             |Description                |
-   |-----------------|---------------------------|
-   |Grid             | Displays the discovered topics from the most recent 24-hour period in which chat transcripts were processed. |
-   |Keyword          | Displays the keywords that are related to a topic.  |
-   |Ribbon chart     | Displays the topics that have been discovered over the course of the most recent full week in which chat transcripts were processed. |
-
-   |KPI             |Description                |
-   |-----------------|---------------------------|
-   |Impact           | Denotes the extent to which conversations related to a topic are driving overall sentiment up or down. This is determined by factoring out the sentiment of chats for the topic in question and comparing the resulting average to the overall sentiment across all chats. The difference indicates negative or positive impact on sentiment.  |
-   |Volume  |Denotes the total number of chat transcripts that are assigned to a topic. |
-   |Avg. Sentiment    | Denotes the average sentiment of chat transcripts that correspond to a topic.
-
-## Sentiment zones
+### Sentiment zones
 
 **Positive sentiment**
 
