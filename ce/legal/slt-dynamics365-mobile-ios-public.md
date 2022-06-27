@@ -4,7 +4,6 @@ author: ReneeW-CPub
 robots: noindex,nofollow
 ms.author: renwe
 ---
-
 # MICROSOFT SOFTWARE LICENSE TERMS<br>MICROSOFT DYNAMICS 365 SALES MOBILE FOR iOS PUBLIC PREVIEW
 
 These license terms are an agreement between you and Microsoft Corporation (or
