@@ -52,7 +52,7 @@ Omnichannel Insights reports provide comprehensive information on how overall su
 The reporting structure consists of the following sections:
 
 - [Conversations and channels](#conversations-and-channels)
-- [Queue and agents](#queues-and-agents)
+- [Queue and agents](#queue-and-agents)
 - [Bot insights](#botinsights)
 
 ### Conversations and channels
