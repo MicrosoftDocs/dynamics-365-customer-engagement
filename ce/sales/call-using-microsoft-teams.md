@@ -1,7 +1,7 @@
 ---
 title: "Make and receive calls through Microsoft Teams dialer"
 description: "Make and receive calls through Microsoft Teams through the dialer, a record, or a work item in Dynamics 365 Sales."
-ms.date: 01/10/2022
+ms.date: 06/09/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -21,7 +21,7 @@ Microsoft Teams dialer helps you to be more productive and get work done effecti
 ## License and role requirements
 | Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
 
 

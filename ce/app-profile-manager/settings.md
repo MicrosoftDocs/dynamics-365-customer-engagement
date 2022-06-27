@@ -4,7 +4,7 @@ description: "Learn about managing settings in Customer Service"
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
-ms.date: 10/12/2020
+ms.date: 06/09/2022
 ms.topic: article
 ---
 
@@ -12,13 +12,11 @@ ms.topic: article
 
 [!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../includes/cc-omnichannel-administration-deprecation-note.md)]
 
-## Introduction
-
 The Settings option under Customer Service workspace or Omnichannel Administration lets you manage the settings required to run or use Customer Service workspace or Omnichannel for Customer Service.
 
 ### Customer Service workspace
 
-When you select settings from Customer Service workspace (preview) in the left pane, the **Queues** page is opened on a new tab. In Service Management, you can manage cases, accounts, service schedules, and other settings.
+When you select settings from Customer Service workspace in the left pane, the **Queues** page is opened on a new tab. In Service Management, you can manage cases, accounts, service schedules, and other settings.
 
 ### Omnichannel for Customer Service
 

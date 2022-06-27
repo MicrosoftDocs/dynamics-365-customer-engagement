@@ -1,7 +1,7 @@
 ---
 title: "Configure Azure bots to escalate and end conversations | MicrosoftDocs"
 description: "Use this article to understand how to program Azure bots to route conversations to human agents and also end conversations in Omnichannel for Customer Service."
-ms.date: 10/22/2021
+ms.date: 06/14/2022
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
@@ -16,12 +16,12 @@ manager: shujoshi
 This article explains how you can program an Azure bot to route a conversation to a human agent in Omnichannel for Customer Service. It also describes how to program the bot to end the conversation.
 
 > [!Important]
-> - Bots can escalate conversations to agents only if they're part of push-based workstreams.
+> - Bots can receive conversations only if they're added to push-based workstreams.
 > - Bot agents are not supported in consult mode.
 
 ## Prerequisites
 
-- You must have an Azure bot that's configured and integrated with Omnichannel for Customer Service. More information: [Integrate an Azure bot](configure-bot.md)
+- You must have an Azure bot that's configured and integrated with Omnichannel for Customer Service. More information: [Integrate an Azure bot](configure-bot-azure.md)
 - Skill-based routing should be enabled.
 
 ## Escalate a conversation to a human agent
@@ -31,6 +31,7 @@ In Omnichannel for Customer Service, a bot can escalate the current conversation
 The bot routes conversations by using the Omnichannel for Customer Service context variables that are associated with the chat. The bot can send a list of context variables and associated values to Omnichannel for Customer Service, together with the escalation request. Omnichannel for Customer Service will then update the context variables with the specified values, and run the routing engine again. This ensures that the escalated chat is routed to the right queue.
 
 After the agent accepts the escalation request, the chat transcript of the bot's conversation with the customer is visible on the agent’s conversation widget. The agent can then continue the chat with the customer.
+
 > [!Note]
 > The chat summary won't be visible to the customer.
 
@@ -274,7 +275,7 @@ The bot can also send an escalation summary that'll be visible only to the agent
 
 ### See also
 
-[Integrate an Azure bot](configure-bot.md)  
+[Integrate an Azure bot](configure-bot-azure.md)  
 [Add context variables](context-variables-for-bot.md#add-context-variables)  
 [Azure Bot Service](/azure/bot-service/?view=azure-bot-service-4.0&preserve-view=true)  
 [Connect a bot to channels](/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0&preserve-view=true)  

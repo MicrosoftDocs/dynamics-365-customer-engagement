@@ -42,12 +42,12 @@ Microsoft.Omnichannel.openConversation("051a340d-c821-42be-8c43-dfb42c4da821", "
  
 ### See also
 
-[Live chat SDK JavaScript API reference](../../omnichannel-reference.md)
+[Live chat SDK reference](../../omnichannel-reference.md)
 [Omnichannel JavaScript API reference](../../omnichannel-api-reference.md)
 [getConversationId](getConversationId.md)  
 [linkToConversation](linkToConversation.md)  
 [unlinkFromConversation](unlinkFromConversation.md)  
-[getConversations](getConversations.md)   
-
+[getConversations](getConversations.md)  
+[sendMessageToConversation](sendMessageToConversation.md)  
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
