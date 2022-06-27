@@ -82,7 +82,7 @@ Based on configured data input, the Relevance search mechanism filters the cases
 
 1. On the **Details** tab, enter the following values. These values are used to determine the keywords or key phrases from source records using relevance search to match with target records using text search. This helps to achieve keyword-based similarity between source and target records.
 
-   - **Criteria**: Select **Text match** if you want text in these fields to be used for finding key phrases to match. For example, if you select **Case Title** or **Description**, text in these fields will be matched. Select **Exact match** if you want all fields except single-line and multi-line text fields to be enabled for exact match.More information: Enable a field for exact matching of similar records
+   - **Criteria**: Select **Text match** if you want text in these fields to be used for finding key phrases to match. For example, if you select **Case Title** or **Description**, text in these fields will be matched. Select **Exact match** if you want all fields except single-line and multi-line text fields to be enabled for exact match. More information: Enable a field for exact matching of similar records
    - **Entity** (required): Choose an entity from the drop-down list to be used to create a text search rule to find matching records in Dynamics 365 apps.
    - **Field** (required): Choose the field to be used to create a text search rule to find matching target records.
 
