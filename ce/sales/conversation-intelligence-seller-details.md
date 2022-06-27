@@ -1,7 +1,7 @@
 ---
 title: "Work with call intelligence feature"
 description: "View insights and analyze the performers of sellers during calls with customer to improve sales and generate revenue."
-ms.date: 04/09/2020
+ms.date: 06/27/2022
 ms.custom: 
 ms.topic: article
 author: udaykirang

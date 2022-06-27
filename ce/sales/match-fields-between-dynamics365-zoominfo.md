@@ -1,7 +1,7 @@
 ---
 title: "Match Dynamics 365 fields with ZoomInfo fields (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how to map the fields between Dynamics 365 and ZoomInfo to avoid mismatches when exporting data from the app to your organization."
-ms.date: 07/05/2021
+ms.date: 06/27/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag

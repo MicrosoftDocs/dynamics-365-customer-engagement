@@ -1,7 +1,7 @@
 ---
 title: "Customize the ZoomInfo app for Dynamics 365 Sales"
 description: "Learn how to customize the ZoomInfo app to display in table entities and add a site map to your Dynamics 365 Sales app."
-ms.date: 10/26/2021
+ms.date: 06/27/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag

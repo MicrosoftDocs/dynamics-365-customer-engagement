@@ -1,7 +1,7 @@
 ---
 title: "Provision an environment for Dynamics 365 Sales Professional"
 description: "Learn about provisioning a Power Platform environment for Dynamics 365 Sales Professional."
-ms.date: 06/17/2022
+ms.date: 06/27/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
