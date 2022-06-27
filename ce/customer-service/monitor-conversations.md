@@ -22,7 +22,7 @@ As a supervisor, you can monitor, assign, transfer, or end conversations that ar
 When you monitor conversations, you can understand how they're being handled by your agents and also check whether any conversation needs your immediate attention. You can also view customer sentiment and agent responses.
 
 > [!NOTE]
-> To be able to monitor, assign, or transfer conversations, your administrator should enable the respective settings&mdash;**Supervisor Monitor**, **Supervisor Assign**, or **Supervisor Transfer**&mdash;in Omnichannel admin center. More information: [Enable your supervisors to monitor, assign, and transfer conversations](enable-monitor-assign-transfer-conv.md)
+> To be able to monitor, assign, or transfer conversations, your administrator should enable the respective settings, **Supervisor Monitor**, **Supervisor Assign**, **Supervisor Transfer**, or **Force Close** in Omnichannel admin center. More information: [Enable your supervisors to monitor, assign, transfer, and forcibly end conversations](enable-monitor-assign-transfer-conv.md)
 
 ## Monitor and join conversations
 
@@ -69,8 +69,6 @@ You can transfer ongoing conversations that are in the **Active** or **Waiting**
 
 1. From the dashboard view selector in Omnichannel for Customer Service, select the **Omnichannel Ongoing Conversations** dashboard.
 
-    The list of available agents and their capacities is displayed.
-
 2. Select a conversation in the **Active** or **Waiting** state, and then select **Transfer**.
 
 3. In the **Transfer conversations** dialog box, select an agent from the list of agents that appears.
@@ -95,11 +93,9 @@ You can use **Force Close** to end conversations that take place on messaging ch
 
 1. From the dashboard view selector in Omnichannel for Customer Service, select the **Omnichannel Ongoing Conversations** dashboard.
 
-    The list of available agents and their capacities is displayed.
-
 2. Select a conversation and then select **Force Close**.
 
-When you forcibly end the conversation, the customer and agent are notified that the conversation is ended by the supervisor. 
+When you forcibly end conversations, customers and agents are notified that the conversations are ended by a Supervisor. 
 
 ### See also
 
