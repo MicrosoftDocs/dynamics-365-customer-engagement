@@ -84,13 +84,12 @@ You can transfer ongoing conversations that are in the **Active** or **Waiting**
 
 ## Force close conversations
 
-You can use **Force Close** to end conversations that take place on messaging channels such as Live Chat, SMS, or WhatsApp. Once ended, the status of the conversations is set to Closed. 
-
-> [!CAUTION]
-> We recommend that you use **Force Close** to end stale conversations that've already been resolved, though their status in the **Omnichannel Agent Dashboard** indicates that they're still being worked on.
+You can use **Force Close** to end conversations that take place on messaging channels. Once ended, the status of the conversations is set to Closed. 
 
 > [!NOTE]
-> **Force close** is not applicable to voice calls, routed records, or conversations that have been converted to audio or video calls.
+> **Force close** is not applicable to non messaging channels.
+> [!IMPORTANT]
+> We recommend supervisors use their discretion when using **Force Close** to forcibly end conversations. 
 
 1. From the dashboard view selector in Omnichannel for Customer Service, select the **Omnichannel Ongoing Conversations** dashboard.
 
