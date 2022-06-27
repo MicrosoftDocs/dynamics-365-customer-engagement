@@ -52,7 +52,7 @@ Omnichannel Insights reports provide comprehensive information on how overall su
 The reporting structure consists of the following sections:
 
 - [Conversations and channels](#conversations-and-channels)
-- [Queue and agents](#queues-and-agents)
+- [Queue and agents](#queue-and-agents)
 - [Bot insights](#botinsights)
 
 ### Conversations and channels
@@ -65,7 +65,7 @@ This section provides historical visibility into the overall support operations 
    > [!div class=mx-imgBorder]
    > ![Channel report.](media/channel.png "Channel report")
 
-The KPIs for conversations and channels are listed in the following table. For conversations, these are applicable to scenarios in which bots escalate to agents or agents directly handle customer calls. For channels, the KPIs represent support operations by each channel to help supervisors easily understand how each support channel is performing, and take appropriate actions to improve the overall support experience for customers. <br> <br>
+The KPIs for conversations and channels are listed in the following table. For conversations, these KPIs are applicable to scenarios in which bots escalate to agents or agents directly handle customer calls. The KPIs for channels represent support operations by each channel to help supervisors easily understand how each support channel is performing, and take appropriate actions to improve the overall support experience for customers. <br> <br>
 
 | KPI | Description | Derivation | Measure |
 |------|----------|------------|---------|
@@ -160,7 +160,7 @@ This illustration of the Omnichannel Sentiment Analysis dashboard provides
 
 ## Omnichannel Insights – Sentiment Analysis report
 
-The following illustration provides a detailed view of the Omnichannel Sentiment Analysis report .
+The following illustration provides a detailed view of the Omnichannel Sentiment Analysis report.
 
    > [!div class=mx-imgBorder]
    > ![Sentiment Analysis detailed report.](media/oc-detailed.png "Sentiment Analysis detailed report")
