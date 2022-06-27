@@ -1,7 +1,7 @@
 ---
 title: "Match Dynamics 365 fields with ZoomInfo fields (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how to map the fields between Dynamics 365 and ZoomInfo to avoid mismatches when exporting data from the app to your organization."
-ms.date: 07/05/2021
+ms.date: 06/27/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -24,7 +24,7 @@ Before you start, be sure you've met the following prerequisites:
 -	You have a license to use the ZoomInfo app.
 
 ## Map the fields     
-1.	Sign in to your Dynamics 365 environment and open the ZoomInfo app.    
+1.	Open your Dynamics 365 Apps page and then open the ZoomInfo app.    
 2.	On the left navigation pane, select **ZoomInfo** > **ZoomInfo**.   
     >[!NOTE]
     >The app might prompt you to enter credentials. Select either Google, Office, or enter your ZoomInfo credentials if you have an account with ZoomInfo.  
