@@ -34,7 +34,7 @@ Before you can start using the Sales Professional application, you need to do on
 
 1. Select **Sales Pro** as app name to deploy in the environment.  
     
-1. After the environment moves to **Ready** state, go to Dynamics 365 home. 
+1. After the environment moves to **Ready** state, open the environment URL. 
 
 8.	In the list of application, select **Sales Professional**. 
 
@@ -44,29 +44,11 @@ Before you can start using the Sales Professional application, you need to do on
 
 You can install the Sales Professional app on an existing Power Platform environment, which is enabled for Dynamics 365 apps. For example, if you already have an environment for Dynamics 365 Customer Service, you can install the Sales Professional app on the same environment. 
 
-1.	Sign in to the Power Platform admin center at [https://admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com) as an admin (Dynamics 365 admin, Global admin, or Power Platform admin).
+To install the app, follow the instructions in the [Power Platform documentation](/power-platform/admin/manage-apps#install-an-app-in-the-environment-view).
 
-2. In the navigation pane, select **Environments**. 
+After the app is installed, open the environment URL and select the Sales Professional app.
 
-3.	Open the environment in which you want to install the Sales Professional app, and select **Resources** > **Dynamics 365 apps**.
-
-   > [!div class="mx-imgBorder"] 
-   > ![Select Dynamics 365 apps resource.](media/resources-select-dynamics-365-apps.png "Select Dynamics 365 apps resource")
-
-4.	On the command bar, select **Install app**.
-
-   > [!div class="mx-imgBorder"] 
-   > ![Select Install app.](media/select-install-app-dynamics365-apps-resource.png "Select Install app")
-
-5. In the **Install Dynamics 365 apps** panel, select 'Dynamics 365 Sales, Professional', and select **Next**.
-
-6. Agree to the terms of service, and then select **Install**.
-
-7.	After the installation, go to Dynamics 365 home. 
-
-8.	In the list of application, select **Sales Professional**. 
- 
-    ![Sales Professional app tile.](media/sales-professional-app-tile.png "Sales Professional app tile")
+![Sales Professional app tile.](media/sales-professional-app-tile.png "Sales Professional app tile")
 
 
 ### See also
