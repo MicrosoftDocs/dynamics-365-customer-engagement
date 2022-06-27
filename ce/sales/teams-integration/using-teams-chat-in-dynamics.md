@@ -1,7 +1,7 @@
 ---
 title: "Use Teams chat in Sales Hub | MicrosoftDocs"
 description: "Start Teams chat conversations from within Sales Hub and link them to records"
-ms.date: 05/25/2022
+ms.date: 06/27/2022
 ms.topic: article
 author: sbmjais
 search.app: 
@@ -39,6 +39,10 @@ You can do the following Teams collaboration activities from Dynamics 365:
 
 - **Link an existing channel to a record**: Although the channel is linked to the record, the channel conversations can only be accessed from within Teams. 
 
+- **Join an existing linked chat**: View and easily join chats that are linked to a record you have write access to, even if you weren't originally a participant in the chat.
+
+- **Navigate to a record from a linked chat**: Navigate to a related record directly from the linked chat.
+
 
 ## Open Teams chats and channels related to a record
 
@@ -56,7 +60,7 @@ The **Channel** tab lists the channels that you've linked to the selected record
 
 ## View all linked Dynamics 365 chats
 
-Open the dashboard or list view of any Dynamics 365 customer engagement table or entity, such as an opportunities list view, and select :::image type="icon" source="media/teams-icon.png" border="false":::. All your linked Dynamics 365 chats will appear under **Chats linked to records**.
+Open the dashboard or list view of any Dynamics 365 customer engagement table, such as an opportunities list view, and select :::image type="icon" source="media/teams-icon.png" border="false":::. All your linked Dynamics 365 chats will appear under **Chats linked to records**. The chats display the record names to which they are linked and the latest chat message. You can navigate to a related record from the linked chat. For more information, see [Navigate to a record from a linked chat](#navigate-to-a-record-from-a-linked-chat).
 
 ## Start a linked Teams chat in Dynamics 365
 
@@ -109,7 +113,7 @@ The suggested contacts list displays users who are connected or have interacted 
 
 You can link a chat to a single record or multiple records. For example, if you had a chat about a lead that turned into an opportunity, you could also link the chat to the opportunity. If you decided later that you didn't want the chat linked to the lead, you could unlink it.
 
-- To link an existing chat to a record, select the chat from the **Other chats** section, and then select **More (…)** > **Link to this _record_**.
+- To link an existing chat to a record, select the chat, and then select **More (…)** > **Link to this _record_**.
 
 - To unlink a chat from a record, select the chat from the **Other chats** section, and then select **More (…)** > **Unlink from this _record_**.
 
@@ -139,6 +143,15 @@ You can start a regular conversation in Dynamics 365 if you don't want to switch
 
 While you're in any of the records or in the list pane, select :::image type="icon" source="media/teams-icon.png" border="false":::, and then select the **Compose chat** icon :::image type="icon" source="media/compose-chat-icon.png" border="false"::: in the upper-right corner of the **Teams chats (preview)** pane. This option starts an individual or group chat but doesn't link it to the record.
 
+## Navigate to a record from a linked chat
+
+When you [view all linked Dynamics 365 chats](#view-all-linked-dynamics-365-chats) from the dashboard, list view of a table type (such as opportunities or accounts), or [open chats related to a record](#open-teams-chats-and-channels-related-to-a-record), the linked chats display one or more record names they are linked to.
+
+<<image of display of linked records>>
+
+To navigate to a related record from the linked chat, hover over the chat, select **...**, and then select the record. The selected record opens and the **Teams chat (Preview)** panel is refreshed with the chats linked to the opened record.
+
+<<image of linked record types>>
 
 ### See also
 
