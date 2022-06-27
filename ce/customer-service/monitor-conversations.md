@@ -95,7 +95,7 @@ You can use **Force Close** to end conversations that take place on messaging ch
 
 2. Select a conversation and then select **Force Close**.
 
-When you forcibly end conversations, customers and agents are notified that the conversations are ended by a Supervisor. 
+Customers and agents participating in the conversations receive a notification that their conversations were ended by a Supervisor. 
 
 ### See also
 
