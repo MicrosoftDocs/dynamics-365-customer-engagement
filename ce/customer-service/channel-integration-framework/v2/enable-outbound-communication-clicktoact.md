@@ -12,7 +12,7 @@ ms.custom:
 # Enable outbound communication (ClickToAct) in Dynamics 365 Channel Integration Framework 2.0
 
 > [!IMPORTANT]
-> The minimum versions required to use this feature working without any customizations are:
+> The minimum versions required to use this feature without any customizations are:
 > -	Platform version: 9.1.0000.15343
 > -	Dynamics 365 Channel Integration Framework 2.0: 9.2.1.690
 
