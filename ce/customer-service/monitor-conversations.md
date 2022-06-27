@@ -1,5 +1,5 @@
 ---
-title: "Monitor, assign, and transfer conversations as a supervisor | MicrosoftDocs"
+title: "Monitor, assign, transfer, and end conversations as a supervisor | MicrosoftDocs"
 description: "Learn how to monitor, assign, and transfer conversations being handled by your agents using the Omnichannel Ongoing Conversations dashboard."
 ms.date: 02/25/2022
 ms.topic: article
@@ -87,9 +87,10 @@ You can transfer ongoing conversations that are in the **Active** or **Waiting**
 You can use **Force Close** to end conversations that take place on messaging channels. Once ended, the status of the conversations is set to Closed. 
 
 > [!NOTE]
-> **Force close** is not applicable to non messaging channels.
-> [!IMPORTANT]
-> We recommend supervisors use their discretion when using **Force Close** to forcibly end conversations. 
+> **Force close** isn't applicable to conversation that take place on non messaging channels.
+
+> [!CAUTION]
+> We recommend supervisors to use their discretion when using **Force Close** to end agent conversations. 
 
 1. From the dashboard view selector in Omnichannel for Customer Service, select the **Omnichannel Ongoing Conversations** dashboard.
 
