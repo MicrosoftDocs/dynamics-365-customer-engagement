@@ -46,7 +46,6 @@ If you're Microsoft 365 administrator, here's how you provide consent:
     >- If you had already opted out security groups in the old consent form, they'll be automatically migrated after you provide the consent in the new form.
     >- Individual users can opt out too. More information: [Turn off data sharing with Dynamics 365 applications](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications)
 
- 
 1. Save the changes.  
     Dynamics 365 applications can now access the Microsoft 365 data.
 

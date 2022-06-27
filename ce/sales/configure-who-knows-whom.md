@@ -1,7 +1,7 @@
 ---
 title: "Configure who knows whom"
 description: "Configure who knows whom to help sellers quickly identify colleagues within their organization who can introduce them to leads or contacts."
-ms.date: 05/13/2022
+ms.date: 07/01/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -47,7 +47,7 @@ Configure who knows whom to select a customized email template for sending intro
  
 ## Next steps
 
-- Work with your Microsoft 365 admin to [provide consent](provide-consent-office365.md) to use Microsoft 365 data.
+- Work with your Microsoft 365 admin to [provide consent](provide-consent-office365.md) to use Microsoft 365 data. If the consent is not provided within 30 days, who knows whom will be automatically turned off in Dynamics 365.
 
 - [Add the who knows whom widget to custom forms](add-ri-widgets-to-custom-form.md) if your organization is using a custom sales app or a custom form for lead or contact.
 
