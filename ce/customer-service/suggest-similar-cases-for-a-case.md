@@ -29,9 +29,9 @@ If an agent is working on a support case, they can view similar cases in the **R
   
 ## Similar case suggestion scenario
 
-Gilda is resolving an issue where a customer is not able to book a travel package on the portal. To assist the customer quickly, she seeks guidance by looking for similar cases in the **Similar cases** tab in the **Related** section of the current case.
+Gilda is resolving an issue where a customer isn't able to book a travel package on the portal. To assist the customer quickly, she seeks guidance by looking for similar cases in the **Similar cases** tab in the **Related** section of the current case.
 
-Based on configured data input, the Relevance search mechanism filters the cases using key phrases and suggests a list of cases that Gilda can refer. She selects a relevant case and glances through the details. She is able to resolve the customer issue with this suggested case. She can also link the case to the current case for future reference. 
+Based on configured data input, the Relevance search mechanism filters the cases using key phrases and suggests a list of cases that Gilda can refer. She selects a relevant case and glances through the details. She's able to resolve the customer issue with this suggested case. She can also link the case to the current case for future reference. 
 
 ## Create a new similarity rule to view similar cases
 
@@ -50,7 +50,7 @@ Based on configured data input, the Relevance search mechanism filters the cases
   
     - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
-1. Navigate to the Customer Service admin center or Customer Service Hub app, and perform the following:
+1. Navigate to the Customer Service admin center or Customer Service Hub app, and perform the following steps:
    
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
      
@@ -73,12 +73,12 @@ Based on configured data input, the Relevance search mechanism filters the cases
    - **Name** (required): The rule name.
    - **Source Entity** (required): Select Case entity for similar cases suggestions.
    - **Description**: A description of the similarity rule.
-   - **Noise Key phrases**: Provide noise key phrases separated by a semicolon ( ; ). These phrases will be filtered while searching for a similar case.
+   - **Noise Key phrases**: Provide noise key phrases separated by a semicolon (**;**). These phrases will be filtered out in the search for a similar case.
    - **Filter Result by Status**: Filter records by status. If you set the value to **Active**, then only similar cases with active status will be retrieved. If you don’t set a value, then it will retrieve similar cases that are in all statuses.
 
 1. Select **Save** to save the rule.
 
-1. On the **Match Fields** tab, select **New Text Analytics Entity Mapping** to add a related text analytics entity mapping record to this rule.
+1. On the **Match Fields** tab, select **New Text Analytics Entity Mapping** to add a related text analytics entity mapping record to the rule.
 
 1. On the **Details** tab, enter the following values. These values are used to determine the keywords or key phrases from source records using relevance search to match with target records using text search. This helps to achieve keyword-based similarity between source and target records.
 
