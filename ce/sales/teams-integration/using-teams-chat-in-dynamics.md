@@ -109,13 +109,21 @@ The suggested contacts list displays users who are connected or have interacted 
 
 -   *(Applicable only for an opportunity)* All the connected sales team members.
 
+## Start a linked chat with other online members
+
+You can start a linked chat with other members who are online and viewing the same record as you are. To start a linked chat with one or more online members, select a user icon on the command bar at the top, and then select **Start Teams chat**.
+
+`<<image of the option>>`
+
+The Teams popup chat is displayed and you can start chatting.
+
 ## Link or unlink an existing chat from a record
 
 You can link a chat to a single record or multiple records. For example, if you had a chat about a lead that turned into an opportunity, you could also link the chat to the opportunity. If you decided later that you didn't want the chat linked to the lead, you could unlink it.
 
-- To link an existing chat to a record, select the chat, and then select **More (…)** > **Link to this _record_**.
+- To link an existing chat to a record, select the chat from the **Other chats** section, and then select **More (…)** > **Link to this _record_**.
 
-- To unlink a chat from a record, select the chat from the **Other chats** section, and then select **More (…)** > **Unlink from this _record_**.
+- To unlink a chat from a record, select the chat, and then select **More (…)** > **Unlink from this _record_**.
 
 ## Link a Teams channel to a record
 
@@ -147,11 +155,13 @@ While you're in any of the records or in the list pane, select :::image type="ic
 
 When you [view all linked Dynamics 365 chats](#view-all-linked-dynamics-365-chats) from the dashboard, list view of a table type (such as opportunities or accounts), or [open chats related to a record](#open-teams-chats-and-channels-related-to-a-record), the linked chats display one or more record names they are linked to.
 
-<<image of display of linked records>>
+`<<image of display of linked records>>`
 
-To navigate to a related record from the linked chat, hover over the chat, select **...**, and then select the record. The selected record opens and the **Teams chat (Preview)** panel is refreshed with the chats linked to the opened record.
+To navigate to a related record from the linked chat, hover over the chat, select **...**, and then select the record. 
 
-<<image of linked record types>>
+`<<image of linked record types>>`
+
+The selected record opens and the **Teams chat (Preview)** panel is refreshed with the chats linked to the opened record.
 
 ### See also
 
