@@ -138,7 +138,7 @@ You must perform the following steps to integrate knowledge management with a Po
    
 ### Create a flow using the template
 
-1. Go to [flow.microsoft.com](/powerautomate.microsoft.com).
+1. Go to [flow.microsoft.com](https://powerautomate.microsoft.com).
 
 2. On the templates page, search for the **Generate answers from Dataverse knowledge articles to Power Virtual Agent** template.
 
