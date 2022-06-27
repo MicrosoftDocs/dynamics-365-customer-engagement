@@ -38,7 +38,7 @@ This section consists of the following conversation KPIs.
 |Conversations engaged | Offered conversations that are engaged by an agent. Customer-to-agent communication can begin at this point.  |
 |Average wait time (mins) | The length of time, in minutes, a customer is waiting in a queue. |
 |Average wait time | Total length of time (in minutes) / Offered |
-|Abandon Rate | The percentage of conversations that are not engaged by agents.|
+|Abandon Rate | The percentage of conversations that aren't engaged by agents.|
 |Average Handle Time (mins) |Average length of time an agent takes to complete a conversation with a customer. This time considers the time spent by one or more agents to help the customer.|
 |Transfer rate |The percentage of conversations that are transferred to another agent/queue.|
 |Average Customer Sentiment Pulse (CSP) | The predicted customer sentiment in a given timeframe for a set queue or agent, which indicates the degree of positive sentiment expressed by customers at the end of their interactions.|
@@ -71,7 +71,7 @@ The KPIs for conversations and channels are listed in the following table. For c
 |------|----------|------------|---------|
 | Incoming conversations | The number of conversations initiated by the customers that can be presented to agents. | All conversations are considered. | FactConversation[InComingConversationCount] |
 | Conversations engaged | Offered conversations that are engaged by an agent. Customer-to-agent communication can begin at this point. | All conversations are considered. | FactConversation[Engaged] |
-| Abandon rate | The percentage of conversations that are not engaged by agents. | All conversations are considered. | FactConversation[AbandonedRate] |
+| Abandon rate | The percentage of conversations that aren't engaged by agents. | All conversations are considered. | FactConversation[AbandonedRate] |
 | Transfer rate | The percentage of conversations that are transferred to another agent or queue. |Conversations engaged and conversations that are in the closed state are considered.| FactConversation[TransferRate] |
 | Conversation active time | Cumulative session active time for a conversation. | Conversations engaged and conversations that are in the closed state are considered. | FactConversation[ConversationActiveTime] |
 | Conversation inactive time | Cumulative session inactive time for a conversation. | Conversations engaged and conversations that are in the closed state are considered. | FactConversation[ConversationInactiveTime]|
@@ -84,7 +84,7 @@ The KPIs for conversations and channels are listed in the following table. For c
 | Average Conversation time | Average time from the conversation start to conversation end. | Conversations engaged and conversations that are in the closed state are considered. | FactConversation[AvgConversationTime] |
 | Average Customer Effort time  | Average time from the conversation start to the conversation wrap-up start time. | Conversations engaged and conversations that are in the closed state are considered. | FactConversation[AvgCustomerEffort] |
 | Speed to answer | The average time customers have waited in the queue before connecting to an agent. | Conversations engaged and conversations that are in the closed state are considered. | FactConversation[AvgSpeedtoAnswer] |
-| SLA - Speed to answer | Number of SLAs met divided by the number of conversations handled. For example, if the Speed to answer is less than 180 seconds, then this is considered met. Otherwise, it is not met. | Conversations engaged and conversations that are in the closed state are considered. | FactMessage[SLASpeedtoAnswer] |
+| SLA - Speed to answer | Number of SLAs met divided by the number of conversations handled. For example, if the Speed to answer is less than 180 seconds, then this is considered met. Otherwise, it isn't met. | Conversations engaged and conversations that are in the closed state are considered. | FactMessage[SLASpeedtoAnswer] |
 | Customer wait time  | The average time customers have waited before connecting to agents. This is similar to “Speed to answer” but includes the time waited on each session within a conversation. | Conversations engaged are considered. | FactConversationParticipant[AvgWaittime(mins)] |
 | Total consult time | The time spent on the consult from when the agent joined to when they left in session participant. | Only consult sessions are considered as a denominator. |  |
 | Average consult time | Total consult time divided by the total consult sessions. | Only consult sessions are considered as a denominator. | FactSessionParticipant[AvgConsultTime] |
@@ -113,7 +113,7 @@ The KPIs for queues and agents are listed in the following table. Metrics in thi
 | Total monitor time | The time spent on the monitor from when the agent joined to when they left in session participant. | Only monitor sessions are considered as a denominator. | |
 | Average monitor time | The total monitor time divided by the total of monitor sessions. | Only monitor sessions are considered as a denominator. | FactSessionParticipant[AvgMonitorTime] |
 | Sessions engaged | # Sessions presented to an agent and accepted by an agent | Conversations engaged are considered and all conversation states are considered. | FactSession[EngagedByAgentSessionCount] |
-| Session rejection rate | The number of sessions presented to an agent and are not accepted by an agent. | Conversations engaged are considered and all conversation state are considered. | FactSession[SessionRejectionRate] |
+| Session rejection rate | The number of sessions presented to an agent and aren't accepted by an agent. | Conversations engaged are considered and all conversation state are considered. | FactSession[SessionRejectionRate] |
 | Transfer rate | The number of sessions transferred by an agent. | Conversations engaged are considered and all conversation states are considered. | FactSession[QueueTransferRate] |
 | Consult sessions | The number of sessions where the agent has participated in consult mode. | Conversations engaged are considered and all conversation states are considered. | FactSessionParticipant[ConsultSessionCount] |
 | Monitor sessions | The number of sessions where the agent has participated in monitor mode. | Conversations engaged are considered and all conversation states are considered. | FactSessionParticipant[MonitorSessionCount] |
@@ -124,15 +124,15 @@ The KPIs for queues and agents are listed in the following table. Metrics in thi
 | Average consult time | The average time the agent spent on a session in consulting mode. | The sum of consult time divided by consult sessions. | FactSessionParticipant[AvgConsultTime] |
 | Average monitor time | The session level average time the agent spent on a session in monitoring mode. | The sum of monitor time divided by monitor sessions. | FactSessionParticipant[AvgMonitorTime] |
 | Session active time | The time an agent actively spent on a session. | Conversations engaged are considered and all conversation states are considered. |  |
-| Session inactive time. | The time an agent is not actively working on a session. | Conversations engaged are considered and all conversation states are considered. |  |
+| Session inactive time. | The time an agent isn't actively working on a session. | Conversations engaged are considered and all conversation states are considered. |  |
 | Session handle time | the time an agent actively spent on a session. | Conversations engaged are considered and all conversation states are considered. |  |
-| Agent total login time | The total time the agent is signed in. Note: This metric is not sliced in any dimension other than from Date and Agent. | This is based on the agent signin and signout timestamp, and is not sliced by any other metrics other than from Date and Agent. | FactAgentStatusHistory[AgentTotalLoginTime(hrs)] |
-| Agent Total Login Time (hrs) | The time an agent is signed in to the Omnichannel application. | This is based on the agent signin and signout timestamp, and is not sliced by any other metrics other than from Date and Agent. | FactAgentStatusHistory[AgentTotalLoginTime(hrs)] |
-| Agent Available Duration (hrs) | The time an agent is in the available state in the Omnichannel application. | This is based on the agent signin and signout timestamp, and is not sliced by any other metrics other than from Date and Agent. | FactAgentStatusHistory[AgentAvailableDuration(hrs)] |
-| Agent Busy Duration (hrs) | Time an agent in the busy state in Omnichannel application. | This is based on the agent signin and signout timestamp, and is not sliced by any other metrics other than from Date and Agent. | FactAgentStatusHistory[AgentBusyDuration(hrs))] |
-| Agent Busy DND Duration (hrs) | The time an agent is in the Busy DND state in the Omnichannel application. | This is based on the agent signin and signout timestamp, and is not sliced by any other metrics other than from Date and Agent. | FactAgentStatusHistory[AgentBusyDNDDuration(hrs)] |
-| Agent Away Duration (hrs) | The time an agent is in the Away state in the Omnichannel application | This is based on the agent signin and signout timestamp, and is not sliced by any other metrics other than from Date and Agent.  | FactAgentStatusHistory[AgentAwayDuration(hrs))] |
-| Agent Offline Duration (hrs) | The time an agent signed out of the Omnichannel application. | This is based on the agent signin and signout timestamp, and is not sliced by any other metrics other than from Date and Agent. | FactAgentStatusHistory[AgentOfflineDuration(hrs) )] |
+| Agent total login time | The total time the agent is signed in. Note: This metric isn't sliced in any dimension other than from Date and Agent. | This is based on the agent sign in and sign out timestamp, and isn't sliced by any other metrics other than from Date and Agent. | FactAgentStatusHistory[AgentTotalLoginTime(hrs)] |
+| Agent Total Login Time (hrs) | The time an agent is signed in to the Omnichannel application. | This is based on the agent sign in and sign out timestamp, and isn't sliced by any other metrics other than from Date and Agent. | FactAgentStatusHistory[AgentTotalLoginTime(hrs)] |
+| Agent Available Duration (hrs) | The time an agent is in the available state in the Omnichannel application. | This is based on the agent sign in and sign out timestamp, and isn't sliced by any other metrics other than from Date and Agent. | FactAgentStatusHistory[AgentAvailableDuration(hrs)] |
+| Agent Busy Duration (hrs) | Time an agent in the busy state in Omnichannel application. | This is based on the agent sign in and sign out timestamp, and isn't sliced by any other metrics other than from Date and Agent. | FactAgentStatusHistory[AgentBusyDuration(hrs))] |
+| Agent Busy DND Duration (hrs) | The time an agent is in the Busy DND state in the Omnichannel application. | This is based on the agent sign in and sign out timestamp, and isn't sliced by any other metrics other than from Date and Agent. | FactAgentStatusHistory[AgentBusyDNDDuration(hrs)] |
+| Agent Away Duration (hrs) | The time an agent is in the Away state in the Omnichannel application | This is based on the agent sign in and sign out timestamp, and isn't sliced by any other metrics other than from Date and Agent.  | FactAgentStatusHistory[AgentAwayDuration(hrs))] |
+| Agent Offline Duration (hrs) | The time an agent signed out of the Omnichannel application. | This is based on the agent sign in and sign out timestamp, and isn't sliced by any other metrics other than from Date and Agent. | FactAgentStatusHistory[AgentOfflineDuration(hrs) )] |
   
 ### Bot insights
 
@@ -149,7 +149,7 @@ The KPIs for bots are listed in the following table.
 | Bot resolution rate  | The percentage of conversations that were closed by interacting with a bot out of all conversations handled by a bot. | All conversations are considered. | FactSession[BOTResolutionRate] |
 | Bot resolution time (mins) | The length of time, in minutes, a customer interacted with a bot before the conversation was closed. | All conversations are considered. | FactSession[AvgResolutionTime] |
 | Bot escalation rate  | The percentage of conversations that are escalated by a bot to a human agent. | All conversations are considered. | FactSession[BotEscalationRate] |
-| Bot escalation time (mins)  | The length of time, in minutes, a customer interacted with a bot before the conversation was escalated to an human agent. | All conversations are considered. | FactSession[BotEscalationTime] |
+| Bot escalation time (mins)  | The length of time, in minutes, a customer interacted with a bot before the conversation was escalated to a human agent. | All conversations are considered. | FactSession[BotEscalationTime] |
 
 ## Omnichannel Sentiment Analysis dashboard
 
@@ -179,7 +179,7 @@ The following illustration provides a detailed view of the Omnichannel Sentime
 
 **Positive sentiment**
 
-Positive sentiment is expressed by the customer writing messages that they're happy, pleased, or positive as a result of the support interaction. Positive sentiment requires the positive words to convey positive feeling beyond just simple pleasantries or politeness.
+Positive sentiment is expressed by the customer writing messages that they're happy, pleased, or positive as a result of the support interaction. Positive sentiment requires the positive words to convey positive feeling beyond simple pleasantries or politeness.
 
 For example, when a customer writes "thank you," that's just being polite—it doesn't necessarily mean they're pleased or happy. However, if a customer writes "I can't thank you enough" or "thank you very much," that portrays clear positive feeling. Other examples of simple pleasantries or politeness that shouldn't be mischaracterized as positive are "Please help" and "Yes."
 
