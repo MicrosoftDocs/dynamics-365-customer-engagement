@@ -1,6 +1,6 @@
 ---
 title: "Provision an environment for Dynamics 365 Sales Professional"
-description: "Learn about the provisioning a Power Platform environment for Dynamics 365 Sales Professional."
+description: "Learn about provisioning a Power Platform environment for Dynamics 365 Sales Professional."
 ms.date: 06/17/2022
 ms.topic: article
 author: lavanyakr01
@@ -30,7 +30,7 @@ Before you can start using the Sales Professional application, you need to do on
 
 ## Provision a new Power Platform environment for Sales Professional
 
-1. Follow the instructions in [Create an environment with a database](/power-platform/admin/create-environment#create-an-environment-with-a-database).
+1. Follow the instructions in [Create an environment with a database](/power-platform/admin/create-environment#create-an-environment-with-a-database) in the Power Platform admin guide.
 
 1. Select **Sales Pro** as app name to deploy in the environment.  
     
