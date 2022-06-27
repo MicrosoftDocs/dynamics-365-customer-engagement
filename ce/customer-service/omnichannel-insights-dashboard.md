@@ -160,7 +160,7 @@ This illustration of the Omnichannel Sentiment Analysis dashboard provides
 
 ## Omnichannel Insights – Sentiment Analysis report
 
-The following illustration provides a detailed view of the Omnichannel Sentiment Analysis report .
+The following illustration provides a detailed view of the Omnichannel Sentiment Analysis report.
 
    > [!div class=mx-imgBorder]
    > ![Sentiment Analysis detailed report.](media/oc-detailed.png "Sentiment Analysis detailed report")
