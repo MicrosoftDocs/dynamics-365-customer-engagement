@@ -89,5 +89,5 @@ For information about how to configure real-time translation for conversations i
 
 ### See also
 
-[Create and use agent experience profiles](create-agent-experience-profile.md) <br>
+[Create and use agent experience profiles](/app-profile-manager/create-agent-experience-profile) <br>
 [Overview of agent experience profiles](overview.md)   
