@@ -155,11 +155,11 @@ While you're in any of the records or in the list pane, select :::image type="ic
 
 When you [view all linked Dynamics 365 chats](#view-all-linked-dynamics-365-chats) from the dashboard, list view of a table type (such as opportunities or accounts), or [open chats related to a record](#open-teams-chats-and-channels-related-to-a-record), the linked chats display one or more record names they are linked to.
 
-`<<image of display of linked records>>`
+:::image type="content" source="media/linked-records.png" alt-text="Linked records to a linked chat":::
 
 To navigate to a related record from the linked chat, hover over the chat, select **...**, and then select the record. 
 
-`<<image of linked record types>>`
+:::image type="content" source="media/linked-record-open.png" alt-text="Open a linked record":::
 
 The selected record opens and the **Teams chat (Preview)** panel is refreshed with the chats linked to the opened record.
 
