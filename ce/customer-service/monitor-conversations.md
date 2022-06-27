@@ -90,7 +90,7 @@ You can use **Force Close** to end conversations that take place on messaging ch
 > **Force close** isn't applicable to conversation that take place on non messaging channels.
 
 > [!CAUTION]
-> We recommend supervisors to use their discretion when using **Force Close** to end agent conversations. 
+> We recommend that Supervisors use the **Force Closure** feature responsibly when ending agent conversations. 
 
 1. From the dashboard view selector in Omnichannel for Customer Service, select the **Omnichannel Ongoing Conversations** dashboard.
 
