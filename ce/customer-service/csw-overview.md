@@ -38,7 +38,7 @@ You can choose the enhanced multisession experience or default experience.
 
 ### Enhanced multisession workspace (Preview)
 
-[ ![Customer Service workspace overview.](media/csw-overview.png) ](media/csw-overview.png#lightbox)
+[ ![Customer Service workspace overview.](media/csw-overview-enhanced.png) ](media/csw-overview.png#lightbox)
 
 The following table displays the elements of the Customer Service workspace.
 
