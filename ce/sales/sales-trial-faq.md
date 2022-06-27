@@ -3,7 +3,7 @@ title: "Sales Trial FAQ | Microsoft Docs"
 description: "Solutions to common questions related to Dynamics 365 Sales trial sign up and management. Learn how to resolve platform and app-specific issues."
 author: lavanyakr01
 ms.author: lavanyakr
-ms.date: 03/29/2022
+ms.date: 06/27/2022
 ms.topic: get-started
 ms.custom: template-trial-faq
 ms.reviewer: shujoshi
@@ -89,8 +89,8 @@ To get started with the Sales Insights functionalities, see [Sales Insights Add-
 > [!NOTE]
 > Sales Insights functionalities are restricted to specific regions. For information on supported regions, see [In which region is Sales Insights available?](/dynamics365/sales/faqs-sales-insights#general). If you are not in a supported region, you can only  access the Sales Enterprise functionalities.  
 
-**Dynamics 365 Power Platform**
-- Administer and customize your Dynamics 365 Sales environment to fit your needs  
+**Microsoft Power Platform**
+- Administer and customize the Power Platform environment that hosts Dynamics 365 Sales to fit your needs.
 
 ### Why am I not able to use conversation intelligence features? 
 
