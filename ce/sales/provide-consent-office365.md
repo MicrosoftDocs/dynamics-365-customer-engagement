@@ -32,7 +32,7 @@ Before you provide the consent, review the following information:
 - When you disable the consent, the system can take up to 24 hours to remove data from all apps and up to 30 days to remove backed-up data from Microsoft 365 storage accounts. 
 
 
-## To provide consent 
+## Provide consent 
 
 If you're a Microsoft 365 administrator, here's how you provide consent:
 
@@ -42,7 +42,8 @@ If you're a Microsoft 365 administrator, here's how you provide consent:
     
 3. Read the description carefully and select the **Identifiable insights for other users** option.  
 
-4. (Optional) Opt out security groups of users who don't want to share their collaboration and communication data. Add their Microsoft 365 security group ID in the text box.
+4. (Optional) Opt out security groups of users who don't want to share their collaboration and communication data. Add their Microsoft 365 security group ID in the text box.  
+
     :::image type="content" source="media/admin-opt-out.png" alt-text="A screenshot of the option to opt-out security groups":::
     
     > [!NOTE]
