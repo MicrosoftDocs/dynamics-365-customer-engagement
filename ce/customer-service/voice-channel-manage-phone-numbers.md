@@ -41,13 +41,13 @@ If you want to end the trial earlier, select **End trial** on the **Phone number
 
       ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
-       1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
+        1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
     
-       2. Select **Manage** for **Phone numbers**.
+        2. Select **Manage** for **Phone numbers**.
 
       ### [Omnichannel admin center](#tab/omnichanneladmincenter)
 
-       - In the site map, select **Phone numbers** in **General settings**.
+        - In the site map, select **Phone numbers** in **General settings**.
 
 You'll see a list of all available phone numbers together with their carrier name, calling plan details, associated workstream, connection status, and other details.
 
