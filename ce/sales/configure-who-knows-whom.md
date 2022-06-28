@@ -45,12 +45,6 @@ Configure who knows whom to select a customized email template for sending intro
 6. Save the changes.
 
  
-## Next steps
-
-- Work with your Microsoft 365 admin to [provide consent](provide-consent-office365.md) to use Microsoft 365 data. If the consent is not provided within 30 days, who knows whom will be automatically turned off in Dynamics 365.
-
-- [Add the who knows whom widget to custom forms](add-ri-widgets-to-custom-form.md) if your organization is using a custom sales app or a custom form for lead or contact.
-
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 

@@ -1,7 +1,7 @@
 ---
 title: Configure relationship analytics and health
 description: Configure relationship analytics to help sales teams monitor customer relationship health and risks in Dynamics 365 Sales.
-ms.date: 05/13/2022
+ms.date: 07/01/2022
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -64,11 +64,6 @@ Configure relationship analytics to specify whether you want to use Exchange dat
 1. Select **Save**.
     Relationship analytics is now enabled and configured for your organization. To view the analytics, see [Use relationship analytics to gather KPIs](../sales/relationship-analytics.md).
 
-## Next steps
-
-- Work with your Microsoft 365 admin to [provide consent](provide-consent-office365.md) to use Exchange data.
-
-- [Add the health score widget to custom forms](add-ri-widgets-to-custom-form.md) if your organization is using a custom sales app or a custom form for lead or contact.
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
