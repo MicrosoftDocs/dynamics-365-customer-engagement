@@ -21,27 +21,25 @@ ms.custom:
 # Get started with Customer Service workspace
 
 
-Welcome to the Customer Service workspace app module, where we're increasing agent productivity for core customer service with the ability to work on multiple sessions at a time in a single workspace experience. If you choose to expand your customer service offering to provide chat and channels, the Customer Service workspace seamlessly adjusts to support managing conversations as well.
-
-If you've used Customer Service Hub or Omnichannel for Customer Service before, much of the behavior for managing cases and activities in the Customer Service workspace app module works the same way, with some exceptions to accommodate the multisession and conversation capabilities. This article walks you through the Customer Service workspace experience and explains how to navigate the app.
+The Customer Service workspace is a modern, customizable, high-productivity app that helps increase increases agent productivity for core customer service and allows agents to work on multiple sessions at a time in a single workspace. Customer Service workspace seamlessly adjusts to support managing agent conversations across different channels.
 
 > [!NOTE]
 > The Customer Service workspace app is currently not available on mobile devices.
 
 ## Introduction to Customer Service workspace
 
-You can access Customer Service workspace through the app selector (where you find all of your other Dynamics 365 apps) by choosing the Customer Service workspace app tile. You can also access the app in the Dynamics 365 drop-down navigation in the upper-left corner of Dynamics 365.
+You can access the Customer Service workspace as follows:
+- Select the Customer Service workspace app through the app selector
+- Select the app in the Dynamics 365 drop-down navigation in the upper-left corner of Dynamics 365.
 
-As an agent with the Customer Service Representative security role, when you open Customer Service workspace, you start on the Customer Service Agent Dashboard unless your administrator has changed the default view. This dashboard shows you your active cases, cases you can work in queues you are assigned to, and your open activities. You can open existing cases and activities or begin working new cases from the queues you are assigned to and create activities.
+As an agent with the Customer Service Representative security role, when you open Customer Service workspace, you'll see the Customer Service Agent Dashboard unless your administrator has changed the default view. This dashboard shows your active cases, cases you can work in queues you are assigned to, and your open activities. You can open existing cases and activities or begin working new cases from the queues you are assigned to and create activities.
 
-You can choose the enhanced multisession experience or default experience.
 
 ### Enhanced multisession workspace (Preview)
 
 [ ![Customer Service workspace overview.](media/csw-overview-enhanced.png) ](media/csw-overview.png#lightbox)
 
 The following table displays the elements of the Customer Service workspace.
-
 
 | Label | Description|
 | ------------ | ------------- |
@@ -54,7 +52,6 @@ The following table displays the elements of the Customer Service workspace.
 | 7 | Select Shift + mouse click to open a new session for an activity. A single click replaces your view with the activity form. Select the back arrow in the upper-left corner of the form to go back to your previous view. |
 
 ### Default multisession workspace
-
 
 :::image type="content" source="media/csw-overview.png" alt-text="Customer Service workspace overview" border="false":::
 
@@ -73,21 +70,11 @@ The following table displays the elements of the Customer Service workspace.
 | 8 | Select Shift + mouse click to open a new session for an activity. A single click replaces your view with the activity form. Select the back arrow in the upper-left corner of the form to go back to your previous view. |
 
 ## Navigate Customer Service workspace
-
-From the **Home** session, you can select a record in the following ways and open it as a new session:
-
-- Select a record in a view to open the record in a new session tab.
-- Select a record in a dashboard to open the record in a new session tab.
-- Select a record from a queue to open the record in a new tab. 
-- Create a new record in a view&mdash;select **New** to open the entity form in a new session.
-- Select a case. The case record opens in a new session tab.
-- Select the customer in the case. The customer record opens in a new session.
-
-- When you use global search, you can:
-
-  - Search records and open a list of all the retrieved records on a new tab. 
-  - Search for and select a record from the Home session and open the record in a new session. 
-  - Search for and select a record from an existing session and open the record on a new tab.
+- From the **Home** session, you can:
+   - Select a record in a view, dashboard, or a queue to open the record in a new session tab.
+   - Select a case or a customer in a case. These records open in a new tab.
+   - Create a new record in a view&mdash;select **New** to open the entity form in a new session.
+   - Select the global search to open the search feature in a new tab. 
 
 - In a session that's already open, you'll be able to use the following navigation to open records.
 
@@ -95,11 +82,9 @@ From the **Home** session, you can select a record in the following ways and ope
   - Select a related record from the timeline to automatically open the record on a new tab within the same session.
   - Create a record from the timeline to automatically open the entity form on a new tab in the same session.
   - Select **New** to create a new record from a form to open the entity form in a new session.
+  - Search for and select a record from an existing session and open the record in a new tab.
 
-
-- Selecting a record or session that's already open sets focus to the open session, instead of opening the session or record multiple times.
-
-- Selecting Shift while clicking overrides the new, simplified navigation  and opens the record in a new session. Selecting Ctrl while clicking overrides the simplified navigation and opens the record on a new tab.
+- Selecting a record or session that's already open highlights the open session, instead of opening the session or record multiple times.
 
 ### Enable the enhanced multisession layout (Preview)
 
