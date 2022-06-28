@@ -19,7 +19,7 @@ search.app:
 
 # Get Resource Scheduling Optimization
 
-In order to purchase access to Resource Scheduling Optimization, you must first have access to Field Service. If you already have Field Service installed, skip to step 4.   
+In order to purchase access to Resource Scheduling Optimization, you must first have access to Field Service. If you have already acquired your Field Service license through a product bundle, you do not need to repurchase it. If you already have Field Service installed, skip to step 4.
 
 1. Purchase Field Service. Go to the **Microsoft 365 Admin Center** > **Billing > Purchase Services**.
    
@@ -37,11 +37,12 @@ In order to purchase access to Resource Scheduling Optimization, you must first 
 4. Purchase Resource Scheduling Optimization. Go to the **Microsoft 365 Admin Center** > **Billing** > **Purchase services**. The price of Resource Scheduling Optimization is based on the number of resources whose schedules are optimized. 
 
 > [!NOTE]
-> You are required to purchase as many licenses as the number of bookable resources that are to be optimized. One license provides Resource Scheduling Optimization capability for one bookable resource. The add-on purchase allows unlimited usage of Resource Scheduling Optimization for resources equal to the number of user licenses purchased, be it on a regular cadence or adhoc.
+> You are required to purchase as many licenses as the number of bookable resources that are to be optimized. One license provides Resource Scheduling Optimization capability for one bookable resource. The add-on purchase allows unlimited usage of Resource Scheduling Optimization for resources equal to the number of user licenses purchased, be it on a regular cadence or adhoc. 
 
 ## Next steps
 
 After purchasing Resource Scheduling Optimization, follow the [Resource Scheduling Optimization deployment steps](./rso-deployment.md). 
+Note that RSO is not visible from the main product catalog; It can only be found in the FS product details page via the Add On Tab
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
