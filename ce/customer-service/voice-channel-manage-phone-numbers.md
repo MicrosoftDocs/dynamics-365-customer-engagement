@@ -37,23 +37,24 @@ If you want to end the trial earlier, select **End trial** on the **Phone number
 
 ## View phone numbers
 
-To view the available phone numbers in your organization, go to one of the apps in Dynamics 365, and do the following:
-   
-### [Customer Service admin center](#tab/customerserviceadmincenter)
+1. To view the available phone numbers in your organization, go to one of the apps in Dynamics 365, and do the following:
 
-   1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.    
-   2. Select **Manage** for **Phone numbers**.
+      ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
-### [Omnichannel admin center](#tab/omnichanneladmincenter)
+      1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
+    
+      2. Select **Manage** for **Phone numbers**.
 
-In the site map, select **Phone numbers** in **General settings**.
+      ### [Omnichannel admin center](#tab/omnichanneladmincenter)
+
+      - In the site map, select **Phone numbers** in **General settings**.
 
 You'll see a list of all available phone numbers together with their carrier name, calling plan details, associated workstream, connection status, and other details.
 
    > [!div class="mx-imgBorder"]
    > ![View list of phone numbers.](./media/voice-channel-number-mgmt-view-phone-numbers.png "View list of phone numbers.")
 
-If you don't have any phone numbers set up for your business, see [Acquire new phone numbers](#acquire-new-phone-numbers) to learn how you can purchase new numbers.
+If you don't have any phone numbers set up for your business, see Acquire new phone numbers to learn how you can purchase new numbers.
 
 ## Acquire new phone numbers
 
@@ -65,15 +66,17 @@ You can purchase new phone numbers for your organization after you've checked fo
    
    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
-    1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
+   1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
     
-    2. Select **Manage** for **Phone numbers**.
+   2. Select **Manage** for **Phone numbers**.
 
    ### [Omnichannel admin center](#tab/omnichanneladmincenter)
 
-    In the site map, select **Phone numbers** in **General settings**.
+   - In the site map, select **Phone numbers** in **General settings**.
+    
 2. On the **Phone numbers** page, select **New number**. The **Add phone number** dialog opens.
-3. On the **Features** page, do the following:
+
+1. On the **Features** page, do the following:
 
    a. Select **Country/Region** from the dropdown list. The list of available plans for the selected country or region appears.
 
@@ -105,8 +108,8 @@ You can purchase new phone numbers for your organization after you've checked fo
 5. (Optional) Select **Setup Workstream** to [add the phone number to a voice workstream](#add-a-phone-number-to-a-voice-workstream).
 6. Select **Done** to go back to the **Phone numbers** page where you can view details of the phone number that you just acquired.
 
-> [!Note]
-> To port your phone number into an Azure Communication Services resource, see [Port a phone number](/azure/communication-services/quickstarts/telephony/port-phone-number).
+ > [!Note]
+ > To port your phone number into an Azure Communication Services resource, see [Port a phone number](/azure/communication-services/quickstarts/telephony/port-phone-number).
 
 ## Add a phone number to a voice workstream
 
