@@ -24,9 +24,6 @@ search.app:
 
 This article explains how to purchase and set up a new Dynamics 365 Marketing environment.
 
-> [!TIP]
-> If you'd like to set up a free trial, go to [Try Dynamics 365 Marketing free for 30 days](https://dynamics.microsoft.com/marketing/marketing/free-trial/).
-
 <a name="how-licensed"></a>
 
 ## How to purchase Dynamics 365 Marketing
