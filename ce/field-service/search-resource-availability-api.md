@@ -137,50 +137,87 @@ In this example, v3 of schedule assistant API which allows for web API calls is 
 
 ```
 {
+  
     "Version": "3",
   
     "IsWebApi": true,
   
     "Requirement": {
+  
         "msdyn_fromdate": "2021-07-14T00:00:00Z",
+  
         "msdyn_todate": "2021-07-15T23:59:00Z",
+  
         "msdyn_remainingduration": 60,
+  
         "msdyn_duration": 60,
+  
         "@odata.type": "Microsoft.Dynamics.CRM.msdyn_resourcerequirement"
+  
     },
   
     "Settings": {
+  
         "ConsiderSlotsWithProposedBookings": false,
+  
         "MovePastStartDateToCurrentDate": true,
+  
         "@odata.type": "Microsoft.Dynamics.CRM.expando"
+  
     },
   
     "ResourceSpecification": {
+  
         "@odata.type": "Microsoft.Dynamics.CRM.expando",
+  
         "ResourceTypes@odata.type": "Collection(Microsoft.Dynamics.CRM.expando)",
+  
         "ResourceTypes": [
+  
             {
+  
                 "@odata.type": "Microsoft.Dynamics.CRM.expando",
+  
                 "value": "1"
+  
             },
+  
             {
                 "@odata.type": "Microsoft.Dynamics.CRM.expando",
+  
                 "value": "2"
+  
             }
+  
         ],
+  
         "Constraints": {
+  
             "@odata.type": "Microsoft.Dynamics.CRM.expando",
+  
             "Characteristics@odata.type": "Collection(Microsoft.Dynamics.CRM.expando)",
+  
             "Characteristics": [
+  
                 {
+  
                     "@odata.type": "Microsoft.Dynamics.CRM.expando",
+  
                     "characteristic": {
+  
                         "@odata.type": "Microsoft.Dynamics.CRM.expando",
+  
                         "value": "67387f9f-12e2-ec11-bb43-000d3aed25f7"
+  
                     }
+  
                 }
+  
             ]
+  
         }
+  
     }
+  
 }
 ```
