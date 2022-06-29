@@ -1,7 +1,7 @@
 ---
 title: "Search resource availability API in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to use an API to find eligible resources in Field Service. 
-ms.date: 08/11/2021
+ms.date: 06/29/2022
 ms.reviewer: krbjoran
 
 ms.topic: article
