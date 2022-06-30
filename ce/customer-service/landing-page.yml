@@ -58,7 +58,7 @@ landingContent:
       - text: Upgrade Omnichannel for Customer Service
         url: /dynamics365/customer-service/upgrade-omnichannel
       
-   - title: Enable system requirements
+  - title: Enable system requirements
     linkLists:
     - linkListType: deploy
       links:
