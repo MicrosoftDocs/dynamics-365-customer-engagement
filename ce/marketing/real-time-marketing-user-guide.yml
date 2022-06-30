@@ -46,8 +46,8 @@ landingContent:
             url: real-time-marketing-trigger-based-journey.md
           - text: Create a segment-based journey
             url: real-time-marketing-segment-based-journey.md
-          - name: "Preview: Build segments in real-time marketing"
-            href: real-time-marketing-build-segments.md
+          - text: "Preview: Build segments in real-time marketing"
+            url: real-time-marketing-build-segments.md
           - text: Set a business goal and measure progress through a journey
             url: real-time-marketing-business-goals.md
           - text: Experiment and refine real-time marketing journeys
