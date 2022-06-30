@@ -82,11 +82,11 @@ When you sign in, your presence is set to the default presence if no work items 
 
 ### Accept work items
 
-When you accept a work item manually or it is assigned automatically, the system determines your presence based on your work capacity. However, if your presence is set to Away or Offline, or if you have manually changed your presence to Do not disturb, the system doesn’t change your presence. 
+When you accept a work item manually or it's assigned automatically, the system determines your presence based on your work capacity. However, if your presence is set to Away or Offline, or if you've manually changed your presence to Do not disturb, the system doesn’t change your presence. 
 
 ### Close work items 
 
-When you close a session, or resolve, cancel, or reroute a case, the system determines your presence based on your work capacity. However, if your presence is set to Away or Offline, or if you have manually changed your presence to Do not disturb, the system doesn’t change your presence.
+When you close a session, or resolve, cancel, or reroute a case, the system determines your presence based on your work capacity. However, if your presence is set to Away or Offline, or if you've manually changed your presence to Do not disturb, the system doesn’t change your presence.
 
 ### Reset agent presence
 
@@ -98,12 +98,12 @@ When you reset the agent presence based on the missed notification or the agent 
 
 ### See also
 
-- [View notifications](oc-notifications.md)
-- [Introduction to the agent interface](oc-introduction-agent-interface.md)
-- [Manage sessions](oc-manage-sessions.md)
-- [Manage applications](oc-manage-applications.md)
-- [View the communication panel for conversations](oc-conversation-control.md)
-- [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)
+[View notifications](oc-notifications.md)
+[Introduction to the agent interface](oc-introduction-agent-interface.md)
+[Manage sessions](oc-manage-sessions.md)
+[Manage applications](oc-manage-applications.md)
+[View the communication panel for conversations](oc-conversation-control.md)
+[Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
