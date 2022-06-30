@@ -190,6 +190,7 @@ landingContent:
         - text: Dynamics 365 Channel Integration Framework guide
           url: /dynamics365/customer-service/channel-integration-framework/channel-integration-framework
 
+additionalContent:
   sections:
     - title: Add-in solutions and apps
       items:
