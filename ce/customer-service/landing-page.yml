@@ -75,14 +75,17 @@ landingContent:
       links:
         - text: Get started with Dynamics 365 Customer Service
           url: /learn/modules/get-started-with-dynamics-365-for-customer-service/
-        - text: Sign up for a free Customer Service trial
-          url: /dynamics365/customer-service/try-customer-service
         - text: Get started with Customer Service admin center
           url: cs-admin-center.md
         - text: Get started with Customer Service workspace
           url: csw-overview.md
         - text: Get started with Omnichannel admin center
           url: oc-admin-center.md
+    linkLists:
+    - linkListType: quickstart
+      links:
+        - text: Sign up for a free Customer Service trial
+          url: /dynamics365/customer-service/try-customer-service
 
   - title: Extend Customer Service
     linkLists:
