@@ -1,7 +1,7 @@
 ---
 title: Manage presence status in Omnichannel for Customer Service | MicrosoftDocs
 description: "Use this article to learn how to view and update your presence status in Omnichannel for Customer Service."
-ms.date: 05/25/2022
+ms.date: 06/30/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -11,8 +11,6 @@ manager: shujoshi
 # Manage presence status
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-## Introduction
 
 Presence is an indication of your availability or status in the application.
 
