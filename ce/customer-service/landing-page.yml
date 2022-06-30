@@ -27,42 +27,128 @@ metadata:
 landingContent:
   - title: Overview
     linkLists:
-    - linkListType: overview
+    - linkListType: concept
       links:
       - text: Dynamics 365 Customer Service overview
         url: overview.md
+      - text: Overview of unified routing
+        url: overview-unified-routing.md
+      - text: Overview of knowledge management
+        url: overview-knowledge-management.md
+      - text: Introduction to the voice channel
+        url: voice-channel.md
+      - text: Overview of collaboration
+        url: collaboration.md
+      
+    - title: What's new
+    linkLists:
+    - linkListType: whats-new
+      links:
       - text: What's new in Dynamics 365 Customer Service
         url: whats-new-customer-service.md
-    - linkListType: learn
-      links:
-        - text: Learn the fundamentals of Microsoft Dynamics 365 Customer Service
-          url: /learn/paths/learn-fundamentals-microsoft-dynamics-365-customer-service/
-        - text: Get started with Dynamics 365 Customer Service
-          url: /learn/modules/get-started-with-dynamics-365-for-customer-service/
-
+      
   - title: Get started
     linkLists:
     - linkListType: get-started
       links:
+        - text: Get started with Dynamics 365 Customer Service
+          url: /learn/modules/get-started-with-dynamics-365-for-customer-service/
         - text: Configure Customer Service
           url: configure-cs.md
         - text: Get started with Customer Service admin center
           url: cs-admin-center.md
+        - text: Get started with Customer Service workspace
+          url: csw-overview.md
+        - text: Get started with Omnichannel admin center
+          url: oc-admin-center.md
 
-  - title: Knowledge management
+  - title: Learn
     linkLists:
     - linkListType: how-to-guide
       links:
-        - text: Create and manage knowledge articles
-          url: customer-service-hub-user-guide-knowledge-article.md
-        - text: Configure knowledge management
-          url: set-up-knowledge-management-embedded-knowledge-search.md
+        - text: Get started with Dynamics 365 Customer Service
+          url: /learn/modules/get-started-with-dynamics-365-for-customer-service/
+        - text: Learn the fundamentals of Microsoft Dynamics 365 Customer Service
+          url: /learn/paths/learn-fundamentals-microsoft-dynamics-365-customer-service/
+        - text: Getting started with Omnichannel for Customer Service
+          url: /learn/modules/getting-started-omnichannel/
+        - text: Routing and work distribution in Omnichannel for Dynamics 365 Customer Service
+          url: /learn/modules/work-distribution-omnichannel/
+        
 
   - title: Videos
     linkLists:
     - linkListType: video
       links:
-        - text: Configure Customer Service
-          url: configure-cs.md
-        - text: Get started with Customer Service admin center
-          url: cs-admin-center.md
+        - text: Improve agent productivity with process automation tools
+          url: https://www.youtube.com/watch?v=iE1U-l7gE34
+        - text: Microsoft Dynamics 365 for Customer Service
+          url: https://www.youtube.com/watch?v=uzUyJhKOySA
+        - text: Introduction to Omnichannel for Customer Service
+          url: https://www.youtube.com/watch?v=Y_eV4HeIm04
+        - text: 
+          url:
+
+  - title: Accessibility and privacy
+    linkLists:
+    - linkListType: concept, video
+      links:
+        - text: Accessibility in Dynamics 365 Customer Service
+          url: accessibility.md
+        - text: Privacy and personal data for Microsoft Dynamics 365
+          url: /dynamics365/get-started/gdpr/
+
+  - title: Extend Customer Service
+    linkLists:
+    - linkListType: video
+      links:
+        - text: Overview
+          url: /dynamics365/customer-service/developer/omnichannel-developer
+        - text: Extend Omnichannel for Customer Service
+          url: extend-omnichannel.md
+        - text: Extend live chat widget of Omnichannel for Customer Service
+          url: omnichannel-reference.md
+        - text: Extend Omnichannel for Customer Service SDK
+          url: omnichannel-api-reference.md
+
+  - title: FAQs
+    linkLists:
+    - linkListType: how-to-guide
+      links:
+        - text: FAQ about Customer Service admin center
+          url: faq-customer-service-admin-center.md
+        - text: FAQ on AI suggestions for cases and knowledge articles
+          url: csw-faqs-ai-suggestions.md
+        - text: FAQ about custom time calculation of SLA KPIs
+          url: faqs-custom-time-sla-kpis
+        - text: FAQ about the voice channel in Omnichannel for Customer Service
+          url: voice-channel-faqs
+
+  - title: Troubleshooting
+    linkLists:
+    - linkListType: how-to-guide
+      links:
+        - text: Troubleshoot issues in Omnichannel for Customer Service
+          url: troubleshoot-omnichannel-customer-service.md
+        - text: Troubleshoot issues in service-level agreements in Customer Service
+          url: troubleshoot-sla-issues.md
+        - text: Unable to delete a managed solution consisting of an SLA-enabled entity
+          url: troubleshoot-delete-managed-solution.md
+        - text: Issue converting an email to a case
+          url: troubleshoot-case-email-issue.md
+
+
+  - title: Blogs
+    linkLists:
+    - linkListType: concept
+      links:
+        - text: Innovation on the service suite of Dynamics 365 applications
+          url: /dynamics365/bdm/2020/10/06/innovation-on-the-service-suite-of-dynamics-365-applications/
+        - text: How omnichannel enhances the customer experience
+          url: /dynamics365/bdm/2020/11/24/how-omnichannel-enhances-the-customer-experience/
+        - text: Build targeted user experiences efficiently by using app profiles in multisession apps
+          url: /dynamics365/it/2020/10/13/build-targeted-user-experiences-efficiently-by-using-app-profiles-in-multisession-apps/
+        - text: New voice channel streamlines omnichannel customer experiences
+          url: /dynamics365/bdm/2020/09/23/new-voice-channel-streamlines-omnichannel-customer-experiences/
+        - text: New voice channel streamlines omnichannel customer experiences
+          url: /dynamics365/bdm/2020/09/23/new-voice-channel-streamlines-omnichannel-customer-experiences/
