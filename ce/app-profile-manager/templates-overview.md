@@ -19,7 +19,7 @@ For example, when you accept an incoming chat conversation notification, a sessi
 
 To choose the applications you want to open for every session, in accordance with your organization's requirements, session templates are introduced.
 
-You can use the following templates in the Omnichannel Administration app.
+You can use the following templates:
 
 - [Session templates](session-templates.md)
 - [Application tab templates](application-tab-templates.md)

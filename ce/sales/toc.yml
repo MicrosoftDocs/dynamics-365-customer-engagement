@@ -16,8 +16,6 @@
         href: sales-previews-in-trial.md
   - name: Install and configure
     items:
-    - name: Set up Dynamics 365 Sales
-      href: set-up-dynamics-365-sales.md
     - name: Use the Sales Hub app 
       href: intro-saleshub.md
       items: 
@@ -25,6 +23,8 @@
           href: grant-access-saleshub.md
         - name: Sales Hub app versus custom app
           href: saleshub-customapp.md
+    - name: Install Sales Professional app
+      href: provision-sales-professional-instance.md
     - name: Add sample data
       items: 
         - name: Add or remove sample data in Sales Hub
@@ -137,12 +137,20 @@
         items:
         - name: Configure Teams chat
           href: teams-integration/enable-teams-chat.md
+        - name: Configure contact suggestions
+          href: teams-integration/enable-contact-suggest.md
+        - name: Configure join chat
+          href: teams-integration/enable-join-chat.md
       - name: Microsoft Teams meeting integration
         items:
         - name: Enable Microsoft Teams meeting integration
           href: teams-integration/enable-teams-meeting-integration.md
         - name: Customize record details in the side panel
           href: teams-integration/customize-record-side-panel.md
+      - name: Share and update Dynamics 365 records within Microsoft Teams conversation
+        items:
+        - name: Overview
+          href: teams-integration/share-d365-record-admin.md
       - name: Make and receive calls using Microsoft Teams
         items:
         - name: Configure Microsoft Teams dialer
@@ -459,7 +467,7 @@
               href: configure-view-your-team-page.md
             - name: Configure conversation content
               href: configure-keywords-competitors.md
-            - name: Connect to Dynamics 365 Sales environment
+            - name: Connect conversation intelligence to an environment 
               href: connect-dynamics365-sales-environment.md
             - name: Data retention and deletion through Privacy
               href: data-retention-deletion-policy.md
@@ -548,6 +556,8 @@
         items:
         - name: Use Teams chat in Sales Hub
           href: teams-integration/using-teams-chat-in-dynamics.md
+        - name: Join an existing linked chat
+          href: teams-integration/join-chat.md
         - name: Teams chat integration FAQ
           href: teams-integration/teams-in-dynamics-faq.md
       - name: Microsoft Teams meeting integration
@@ -588,6 +598,8 @@
           href: teams-integration/view-update-dynamics-records.md
         - name: Add chat messages to Dynamics 365 as notes or tasks
           href: teams-integration/add-chat-d365.md
+        - name: Frequently asked questions
+          href: teams-integration/message-extensions-faq.md
       - name: Make and receive calls using Microsoft Teams
         items:
         - name: Make and receive calls through Microsoft Teams

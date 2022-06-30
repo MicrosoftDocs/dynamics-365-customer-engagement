@@ -1,7 +1,7 @@
 ---
 title: "Create custom triggers in real-time marketing (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn about creating real-time marketing custom triggers in Dynamics 365 Marketing."
-ms.date: 03/21/2022
+ms.date: 06/29/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -43,7 +43,7 @@ This step is performed in the **Triggers** section of real-time marketing. To cr
 
 - **Special Attributes**
   
-    **Customer data** is a special attribute present by default in every custom trigger. This attribute contains information about the customer that performs the trigger action. The data type can either be a Dynamics 365 contact or lead, or a [Customer Insights profile](/customer-insights/audience-insights/overview). In code, this attribute is referred to as *authID*.
+    **Customer data** is a special attribute present by default in every custom trigger. This attribute contains information about the customer that performs the trigger action. The data type can either be a Dynamics 365 contact or lead, or a [Customer Insights profile](/dynamics365/customer-insights/customer-profiles). In code, this attribute is referred to as *authID*.
 
     **contactpoint_email** is a special attribute that is present in a custom trigger that is tied to a Customer Insights profile. This attribute will be used as a fall back in case the full Customer Insights profile isn't available. Developers should include the customer's email in this attribute to ensure the customer can be reached by email even if their full profile information isn't available.
 

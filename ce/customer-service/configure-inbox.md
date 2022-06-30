@@ -1,7 +1,7 @@
 ---
 title: Configure the inbox | MicrosoftDocs
 description: Learn how to enable the inbox in Dynamics 365 Customer Service App profile manager and configure inbox settings in Customer Service admin center.
-ms.date: 04/04/2022
+ms.date: 06/09/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -22,6 +22,8 @@ As an administrator, you can configure the inbox setting so that when your agent
 
 You can configure the inbox settings for custom experiences only.
 
+You can also configure and enable the inbox in [app profile manager](/dynamics365/app-profile-manager/app-profile-manager?#configure-the-inbox-view).
+
 The following asynchronized channels are available in the conversation inbox.
 
 - SMS
@@ -35,7 +37,7 @@ The following asynchronized channels are available in the conversation inbox.
 
 ## Configure the inbox setting for agents
 
-You can configure the inbox in the [Customer Service admin center](/app-profile-manager/app-profile-manager#create-agent-experience-profiles-in-customer-service-admin-center-preview) by editing the agent experience profile to meet your preferred inbox settings.
+You can configure the inbox in the Customer Service admin center by editing the agent experience profile to meet your preferred inbox settings.
 
 1. Open the Customer Service admin center app.
 
@@ -70,10 +72,6 @@ You can configure the inbox in the [Customer Service admin center](/app-profile-
       - **Show**
       - **Hide**
 
-## Enable the inbox in App profile manager
-
-After you enable the inbox for a profile, any user who is added to the profile can use the inbox. More information: [Configure the inbox view in App profile manager.](/dynamics365/app-profile-manager/app-profile-manager#configure-the-inbox-view)
-
 ## Inbox views
 
 The following views are supported in the inbox:
@@ -91,5 +89,5 @@ For information about how to configure real-time translation for conversations i
 
 ### See also
 
-[Customer Service admin center](/app-profile-manager/app-profile-manager)<br>
-[Enable real-time translation of conversations](enable-real-time-translation.md) 
+[Create and use agent experience profiles](../app-profile-manager/create-agent-experience-profile.md) <br>
+[Overview of agent experience profiles](../app-profile-manager/overview.md)   

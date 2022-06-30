@@ -1,7 +1,7 @@
 ---
 title: "Real-time marketing domain authentication (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to authenticate domains for real-time marketing functionality in Dynamics 365 Marketing."
-ms.date: 05/20/2022
+ms.date: 05/27/2022
 ms.custom: 
   - dyn365-marketing
 ms.topic: article
@@ -52,3 +52,6 @@ To authenticate a new domain or a subdomain for email sending and/or form hostin
 
 > [!NOTE]
 > DNS registration may require up to 24 hours to take effect. You can leave the wizard at any time and come back to it to try again if the registration is not confirmed right away.
+
+> [!TIP]
+> For help with domain authentication errors, see [Troubleshoot domain authentication errors](troubleshoot-domain-authentication.md).
