@@ -29,23 +29,45 @@ landingContent:
     linkLists:
     - linkListType: concept
       links:
-      - text: Dynamics 365 Customer Service overview
+      - text: Overview of Dynamics 365 Customer Service
         url: overview.md
       - text: Overview of unified routing
         url: overview-unified-routing.md
       - text: Overview of knowledge management
         url: overview-knowledge-management.md
-      - text: Introduction to the voice channel
+      - text: Overview of the voice channel
         url: voice-channel.md
       - text: Overview of collaboration
         url: collaboration.md
       
-  - title: What's new
+  - title: Learn what's new
     linkLists:
     - linkListType: whats-new
       links:
       - text: What's new in Dynamics 365 Customer Service
         url: whats-new-customer-service.md
+
+   - title: Install and Upgrade
+    linkLists:
+    - linkListType: deploy
+      links:
+      - text: Install Customer Service
+        url: /dynamics365/customer-service/availability-customer-service-hub
+      - text: Install Omnichannel for Customer Service
+        url: /dynamics365/customer-service/omnichannel-provision-license
+      - text: Upgrade Omnichannel for Customer Service
+        url: /dynamics365/customer-service/upgrade-omnichannel
+      
+   - title: Enable system requirements
+    linkLists:
+    - linkListType: deploy
+      links:
+      - text: System requirements for Customer Service
+        url: /dynamics365/customer-service/csh-system-requirements
+      - text: System requirements for Customer Service workspace
+        url: dynamics365/customer-service/customer-service-workspace-system-requirements
+      - text: System requirements for Omnichannel for Customer Service
+        url: /dynamics365/customer-service/system-requirements-omnichannel
       
   - title: Get started
     linkLists:
@@ -55,51 +77,12 @@ landingContent:
           url: /learn/modules/get-started-with-dynamics-365-for-customer-service/
         - text: Sign up for a free Customer Service trial
           url: /dynamics365/customer-service/try-customer-service
-        - text: Configure Customer Service
-          url: configure-cs.md
         - text: Get started with Customer Service admin center
           url: cs-admin-center.md
         - text: Get started with Customer Service workspace
           url: csw-overview.md
         - text: Get started with Omnichannel admin center
           url: oc-admin-center.md
-
-  - title: Learn
-    linkLists:
-    - linkListType: how-to-guide
-      links:
-        - text: Get started with Dynamics 365 Customer Service
-          url: /learn/modules/get-started-with-dynamics-365-for-customer-service/
-        - text: Learn the fundamentals of Microsoft Dynamics 365 Customer Service
-          url: /learn/paths/learn-fundamentals-microsoft-dynamics-365-customer-service/
-        - text: Getting started with Omnichannel for Customer Service
-          url: /learn/modules/getting-started-omnichannel/
-        - text: Routing and work distribution in Omnichannel for Dynamics 365 Customer Service
-          url: /learn/modules/work-distribution-omnichannel/
-        
-
-  - title: Videos
-    linkLists:
-    - linkListType: video
-      links:
-        - text: Improve agent productivity with process automation tools
-          url: https://www.youtube.com/watch?v=iE1U-l7gE34
-        - text: Microsoft Dynamics 365 for Customer Service
-          url: https://www.youtube.com/watch?v=uzUyJhKOySA
-        - text: Introduction to Omnichannel for Customer Service
-          url: https://www.youtube.com/watch?v=Y_eV4HeIm04
-        
-
-  - title: Accessibility and privacy
-    linkLists:
-    - linkListType: concept
-      links:
-        - text: Accessibility in Dynamics 365 Customer Service
-          url: /dynamics365/get-started/accessibility/customer-engagement/accessibility
-        - text: Privacy and personal data for Microsoft Dynamics 365
-          url: /dynamics365/get-started/gdpr/
-        - text: Keyboard navigation support for the Customer Service Hub
-          url: /dynamics365/customer-service/keyboard-navigation-support-customer-service-hub
 
   - title: Extend Customer Service
     linkLists:
@@ -115,11 +98,59 @@ landingContent:
           url: /dynamics365/customer-service/develop-live-chat-widget
         - text: Customize live chat widgets using data tags
           url: /dynamics365/customer-service/customize-chat-widget
-        
-
-  - title: FAQs
+  
+  - title: Learn
     linkLists:
     - linkListType: how-to-guide
+      links:
+        - text: Get started with Dynamics 365 Customer Service
+          url: /learn/modules/get-started-with-dynamics-365-for-customer-service/
+        - text: Learn the fundamentals of Microsoft Dynamics 365 Customer Service
+          url: /learn/paths/learn-fundamentals-microsoft-dynamics-365-customer-service/
+        - text: Getting started with Omnichannel for Customer Service
+          url: /learn/modules/getting-started-omnichannel/
+        - text: Routing and work distribution in Omnichannel for Dynamics 365 Customer Service
+          url: /learn/modules/work-distribution-omnichannel/
+        
+  - title: Troubleshoot
+    linkLists:
+    - linkListType: how-to-guide
+      links:
+        - text: Troubleshoot issues in Omnichannel for Customer Service
+          url: troubleshoot-omnichannel-customer-service.md
+        - text: Troubleshoot issues in service-level agreements in Customer Service
+          url: troubleshoot-sla-issues.md
+        - text: Unable to delete a managed solution consisting of an SLA-enabled entity
+          url: troubleshoot-delete-managed-solution.md
+        - text: Issue converting an email to a case
+          url: troubleshoot-case-email-issue.md
+  
+  - title: Watch videos
+    linkLists:
+    - linkListType: video
+      links:
+        - text: Improve agent productivity with process automation tools
+          url: https://www.youtube.com/watch?v=iE1U-l7gE34
+        - text: Microsoft Dynamics 365 for Customer Service
+          url: https://www.youtube.com/watch?v=uzUyJhKOySA
+        - text: Introduction to Omnichannel for Customer Service
+          url: https://www.youtube.com/watch?v=Y_eV4HeIm04
+        
+
+  - title: Find accessibility and privacy information
+    linkLists:
+    - linkListType: concept
+      links:
+        - text: Accessibility in Dynamics 365 Customer Service
+          url: /dynamics365/get-started/accessibility/customer-engagement/accessibility
+        - text: Privacy and personal data for Microsoft Dynamics 365
+          url: /dynamics365/get-started/gdpr/
+        - text: Keyboard navigation support for the Customer Service Hub
+          url: /dynamics365/customer-service/keyboard-navigation-support-customer-service-hub
+
+  - title: Refer to FAQs
+    linkLists:
+    - linkListType: reference
       links:
         - text: FAQ about Customer Service admin center
           url: faq-customer-service-admin-center.md
@@ -132,21 +163,7 @@ landingContent:
         - text: Customer Service trial FAQ
           url: /dynamics365/customer-service/trial-faq
 
-  - title: Troubleshooting
-    linkLists:
-    - linkListType: how-to-guide
-      links:
-        - text: Troubleshoot issues in Omnichannel for Customer Service
-          url: troubleshoot-omnichannel-customer-service.md
-        - text: Troubleshoot issues in service-level agreements in Customer Service
-          url: troubleshoot-sla-issues.md
-        - text: Unable to delete a managed solution consisting of an SLA-enabled entity
-          url: troubleshoot-delete-managed-solution.md
-        - text: Issue converting an email to a case
-          url: troubleshoot-case-email-issue.md
-
-
-  - title: Blogs
+  - title: Read blogs
     linkLists:
     - linkListType: concept
       links:
@@ -161,7 +178,7 @@ landingContent:
         - text: New voice channel streamlines omnichannel customer experiences
           url: /dynamics365/bdm/2020/09/23/new-voice-channel-streamlines-omnichannel-customer-experiences/
 
-  - title: Related apps & framework
+  - title: Refer related apps and framework
     linkLists:
     - linkListType: reference
       links:
