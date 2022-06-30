@@ -53,6 +53,8 @@ landingContent:
       links:
         - text: Get started with Dynamics 365 Customer Service
           url: /learn/modules/get-started-with-dynamics-365-for-customer-service/
+        - text: Sign up for a free Customer Service trial
+          url: /dynamics365/customer-service/try-customer-service
         - text: Configure Customer Service
           url: configure-cs.md
         - text: Get started with Customer Service admin center
@@ -93,9 +95,11 @@ landingContent:
     - linkListType: concept
       links:
         - text: Accessibility in Dynamics 365 Customer Service
-          url: accessibility.md
+          url: /dynamics365/get-started/accessibility/customer-engagement/accessibility
         - text: Privacy and personal data for Microsoft Dynamics 365
           url: /dynamics365/get-started/gdpr/
+        - text: Keyboard navigation support for the Customer Service Hub
+          url: /dynamics365/customer-service/keyboard-navigation-support-customer-service-hub
 
   - title: Extend Customer Service
     linkLists:
@@ -106,7 +110,7 @@ landingContent:
         - text: Extend Omnichannel for Customer Service
           url: /dynamics365/customer-service/extend-omnichannel
         - text: Extend live chat widget of Omnichannel for Customer Service
-          url: omnichannel-reference.md
+          url: /dynamics365/customer-service/developer/omnichannel-reference
         - text: Develop a custom live chat widget
           url: /dynamics365/customer-service/develop-live-chat-widget
         - text: Customize live chat widgets using data tags
@@ -125,6 +129,8 @@ landingContent:
           url: faqs-custom-time-sla-kpis.md
         - text: FAQ about the voice channel in Omnichannel for Customer Service
           url: voice-channel-faqs.md
+        - text: Customer Service trial FAQ
+          url: /dynamics365/customer-service/trial-faq
 
   - title: Troubleshooting
     linkLists:
