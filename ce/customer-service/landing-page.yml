@@ -40,7 +40,7 @@ landingContent:
       - text: Overview of collaboration
         url: collaboration.md
       
-    - title: What's new
+  - title: What's new
     linkLists:
     - linkListType: whats-new
       links:
@@ -86,12 +86,11 @@ landingContent:
           url: https://www.youtube.com/watch?v=uzUyJhKOySA
         - text: Introduction to Omnichannel for Customer Service
           url: https://www.youtube.com/watch?v=Y_eV4HeIm04
-        - text: 
-          url:
+        
 
   - title: Accessibility and privacy
     linkLists:
-    - linkListType: concept, video
+    - linkListType: concept
       links:
         - text: Accessibility in Dynamics 365 Customer Service
           url: accessibility.md
@@ -100,16 +99,19 @@ landingContent:
 
   - title: Extend Customer Service
     linkLists:
-    - linkListType: video
+    - linkListType: how-to-guide
       links:
         - text: Overview
           url: /dynamics365/customer-service/developer/omnichannel-developer
         - text: Extend Omnichannel for Customer Service
-          url: extend-omnichannel.md
+          url: /dynamics365/customer-service/extend-omnichannel
         - text: Extend live chat widget of Omnichannel for Customer Service
           url: omnichannel-reference.md
-        - text: Extend Omnichannel for Customer Service SDK
-          url: omnichannel-api-reference.md
+        - text: Develop a custom live chat widget
+          url: /dynamics365/customer-service/develop-live-chat-widget
+        - text: Customize live chat widgets using data tags
+          url: /dynamics365/customer-service/customize-chat-widget
+        
 
   - title: FAQs
     linkLists:
@@ -120,9 +122,9 @@ landingContent:
         - text: FAQ on AI suggestions for cases and knowledge articles
           url: csw-faqs-ai-suggestions.md
         - text: FAQ about custom time calculation of SLA KPIs
-          url: faqs-custom-time-sla-kpis
+          url: faqs-custom-time-sla-kpis.md
         - text: FAQ about the voice channel in Omnichannel for Customer Service
-          url: voice-channel-faqs
+          url: voice-channel-faqs.md
 
   - title: Troubleshooting
     linkLists:
@@ -152,3 +154,14 @@ landingContent:
           url: /dynamics365/bdm/2020/09/23/new-voice-channel-streamlines-omnichannel-customer-experiences/
         - text: New voice channel streamlines omnichannel customer experiences
           url: /dynamics365/bdm/2020/09/23/new-voice-channel-streamlines-omnichannel-customer-experiences/
+
+  - title: Related apps & framework
+    linkLists:
+    - linkListType: reference
+      links:
+        - text: App profile manager
+          url: /dynamics365/app-profile-manager/overview
+        - text: Unified Service Desk Guide
+          url: /dynamics365/unified-service-desk/unified-service-desk
+        - text: Dynamics 365 Channel Integration Framework guide
+          url: /dynamics365/customer-service/channel-integration-framework/channel-integration-framework
