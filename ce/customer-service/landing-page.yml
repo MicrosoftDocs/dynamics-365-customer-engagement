@@ -47,7 +47,7 @@ landingContent:
       - text: What's new in Dynamics 365 Customer Service
         url: whats-new-customer-service.md
 
-   - title: Install and Upgrade
+  - title: Install and Upgrade
     linkLists:
     - linkListType: deploy
       links:
@@ -111,6 +111,8 @@ landingContent:
           url: /learn/modules/getting-started-omnichannel/
         - text: Routing and work distribution in Omnichannel for Dynamics 365 Customer Service
           url: /learn/modules/work-distribution-omnichannel/
+        - text: Work with entitlements and service level agreements in Dynamics 365 Customer Service
+          url: /learn/paths/work-with-entitlements-and-slas-in-microsoft-dynamics-365-for-customer-service/
         
   - title: Troubleshoot
     linkLists:
