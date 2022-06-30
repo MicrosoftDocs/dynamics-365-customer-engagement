@@ -62,7 +62,7 @@ You can customize messages across instances within a channel. For example, you c
 
 You can customize automated messages at the channel instance level. For example, you can apply a change to one specific Facebook account, one specific SMS number, and so on. If you don't create customized automated messages at the channel instance level, each instance will inherit the channel-level settings. If you create customized automated messages at the channel instance level, the channel-level settings are overwritten.
 
-### Add custom automated messages in Omnichannel admin center
+### Add custom automated messages in Customer Service admin center or Omnichannel admin center
 
 Do the following for the channel in which you want to create custom automated messages in the Customer Service admin center or Omnichannel admin center app:
 
@@ -116,8 +116,8 @@ To deactivate messages at the channel instance level, select one or more message
 
 | **Message trigger** | **Definition** | **When to trigger** |
 |-----------------|------------|-----------------|
-| Customer is waiting in queue with queue position 2 or more Customer's position in queue |      | Triggered when customer is waiting in queue with queue position 2 or more |
-| Customer is next in line      |     |    Triggered when customer is waiting next in line in the queue |
+| Customer is waiting in queue with queue position two or more customer positions in queue |      | Triggered when customer is waiting in queue with queue position 2 or more |
+| Customer is next in line      |     |    Triggered when customer is next in line in the queue |
 | Average wait time for customers: Minutes |      |                 Triggered when customer is waiting in queue with average wait time in minutes |
 | Average wait time for customers: Hours   |     |                 Triggered when customer is waiting in queue with average wait time in hours |
 | Average wait time for customers: Hours and Minutes  |         |         Triggered when customer is waiting in queue with average wait time being more than 1 hour |
