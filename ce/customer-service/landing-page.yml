@@ -138,7 +138,6 @@ landingContent:
         - text: Introduction to Omnichannel for Customer Service
           url: https://www.youtube.com/watch?v=Y_eV4HeIm04
         
-
   - title: Find accessibility and privacy information
     linkLists:
     - linkListType: concept
@@ -191,8 +190,6 @@ landingContent:
         - text: Dynamics 365 Channel Integration Framework guide
           url: /dynamics365/customer-service/channel-integration-framework/channel-integration-framework
 
-additionalContent:
-  # Supports up to 3 sections
   sections:
     - title: Add-in solutions and apps
       items:
