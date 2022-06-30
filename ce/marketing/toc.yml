@@ -240,7 +240,7 @@
           href: real-time-marketing-custom-triggers.md
       - name: Segment-based journeys
         items:
-        - name: Build segments in real-time marketing
+        - name: "Preview: Build segments in real-time marketing"
           href: real-time-marketing-build-segments.md
         - name: Work with segments in real-time marketing
           href: real-time-marketing-segments.md
