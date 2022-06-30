@@ -189,20 +189,3 @@ landingContent:
           url: /dynamics365/unified-service-desk/unified-service-desk
         - text: Dynamics 365 Channel Integration Framework guide
           url: /dynamics365/customer-service/channel-integration-framework/channel-integration-framework
-
-additionalContent:
-  sections:
-    - title: Add-in solutions and apps
-      items:
-        # Card
-        - title: Omnichannel for Customer Service
-          summary: Enable organizations to instantly connect and engage with their customers via channels like Live Chat and SMS.
-          url: ./introduction-omnichannel.md
-        # Card
-        - title: Unified Service Desk
-          summary: Quickly build applications for call centers so that agents can get a unified view of the customer data stored in the model-driven apps in Dynamics 365.
-          url: ../unified-service-desk/unified-service-desk.md?view=dynamics-usd-4.1
-        # Card
-        - title: Dynamics 365 Channel Integration Framework
-          summary: "Integrate any third-party channel provider or channel aggregators into Unified Interface Apps."
-          url: ./channel-integration-framework/channel-integration-framework.md
