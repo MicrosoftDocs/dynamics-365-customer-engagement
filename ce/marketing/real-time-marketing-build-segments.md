@@ -24,3 +24,11 @@ To improve marketing return on investment, it is important to target the right a
 
 ## How to create a demographic segment targeting leads
 
+You can now create dynamic segments targeting leads directly without having to connect it to a parent contact.
+
+To target leads directly, go to **Real-time marketing** > **Audience** > **Segments** and select **+ New Segment** in the top toolbar. You can then name the new segment and select **Lead** under the **Select a target audience** dropdown. After you select the **Create** button, you will be taken directly to the segment builder where you can create and save your segment.
+
+> [!div class="mx-imgBorder"]
+> ![Create a segment to target leads.](media/real-time-marketing-build-segment-create.png "Create a segment to target leads")
+
+In the right pane of the segment builder, you can search for attributes to add to the builder canvas. For example, you could search for qualifying leads that are scheduled for a follow up in the next seven days:
