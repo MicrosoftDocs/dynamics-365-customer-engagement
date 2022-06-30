@@ -49,7 +49,7 @@ You can update the presence status in the following two ways.
    You might also see other additional presence statuses that your administrator configured for you.
 
   > [!div class=mx-imgBorder]
-  > ![Set your status.](media/oceh-presence.png "Set your status")
+  > ![Set your presence status.](media/oceh-presence.png "Set your presence status")
 
 - **Automatically** - The status is set automatically based on the work item assignment. That is, when a conversation (work item) is assigned to you, the status is updated based on the capacity as follows:
 
