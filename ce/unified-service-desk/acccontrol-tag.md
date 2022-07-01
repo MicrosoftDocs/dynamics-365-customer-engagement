@@ -54,7 +54,7 @@ The following XML example shows a control definition using the `AccControl` tag.
   
  The [String)](/dotnet/api/microsoft.uii.hostedapplicationtoolkit.datadrivenadapter.datadrivenadapterbase.getcontrolvalue) method on an `AccControl` tag is always mapped to the `get_accValue` method on the subject `IAccessible` node, unless the node contains `role="radio button"` or `role="check box"`. In these cases, the [String)](/dotnet/api/microsoft.uii.hostedapplicationtoolkit.datadrivenadapter.datadrivenadapterbase.getcontrolvalue) method returns `True` or `False`, depending on whether the state of the node is selected.  
   
- The [String)](/dotnet/api/microsoft.uii.hostedapplicationtoolkit.datadrivenadapter.datadrivenadapterbase.setcontrolvalue(system.string,system.string,system.string)) method on an `AccControl` tag is always mapped to the `set_accValue` method on the subject `IAccessible` node, with the exception of nodes that have `role="radio button"` or `role="check box"`. In the case of a radio button, an `UnsupportedControlOperation` exception is raised because a radio button can’t be assigned a `True` or `False` value.  
+ The [String)](/dotnet/api/microsoft.uii.hostedapplicationtoolkit.datadrivenadapter.datadrivenadapterbase.setcontrolvalue) method on an `AccControl` tag is always mapped to the `set_accValue` method on the subject `IAccessible` node, with the exception of nodes that have `role="radio button"` or `role="check box"`. In the case of a radio button, an `UnsupportedControlOperation` exception is raised because a radio button can’t be assigned a `True` or `False` value.  
   
  The following example displays the [RELAX NG](https://relaxng.org/compact-tutorial-20030326.html) XML code for the `<Path>` tag.  
   
@@ -74,9 +74,9 @@ grammar
 }  
 ```  
   
-### See also  
- [Win DDA](../unified-service-desk/windda.md)   
- [Use Data Driven Adapters (DDAs)](../unified-service-desk/use-data-driven-adapters-ddas.md)
+### See also
 
+[Win DDA](../unified-service-desk/windda.md)  
+[Use Data Driven Adapters (DDAs)](../unified-service-desk/use-data-driven-adapters-ddas.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
