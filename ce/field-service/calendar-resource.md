@@ -19,7 +19,7 @@ Once you’ve created a work hours template, you need to assign it to resources 
   
 1. Go to **Field Service** > **Resources**.  
   
-2. Select the resource you want to set the calendar for. You can select more than one resource but due to performance constraints the maximum number of resources you can select is 25.  
+2. Select the resource you want to set the calendar for. You can select more than one resource, but due to performance constraints, the maximum number of resources you can select is 25.  
   
 3. Select **Set Calendar**.  
   
