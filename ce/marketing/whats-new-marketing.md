@@ -63,6 +63,7 @@ The update also includes an admin digital data sharing opt-in for better perform
 - **Continue the conversation with your customers by taking action on their SMS replies**
     - SMS allows you to quickly communicate with your customers. However, it’s not enough to just send messages out, you also need to act on their responses. Now you can interact with your customers by creating journeys based on their replies to your SMS messages. Easily create custom keywords and add them to your messages and journey branches to continue the conversation with your customers.
     - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/continue-conversation-customers-taking-action-their-sms-replies)
+    - [Docs](set-up-automated-sms-keyword-flow.md)
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of SMS replies journey.](media/whats-new-sms-keyword-response.png "Screenshot of SMS replies journey")
@@ -70,6 +71,10 @@ The update also includes an admin digital data sharing opt-in for better perform
 - **Create more personalized journey variations using multiple journey branches**
     - Journey branches let you create personalized journeys for customers, engaging them in different ways based on who they are and their past actions. Now, you can easily create more than two branches at any given step in the journey—creating more fine-grained personalization and engaging each customer differently based on their unique profile and behavioral signals. This eliminates the need to nest branches and makes analyzing journeys easier. In addition, you can merge the branches back so that customers can continue the common journey steps after going through their specialized branches.
     - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/create-more-personalized-journey-variations-using-multiple-journey-branches)
+    - [Docs](real-time-marketing-multiple-branches.md)
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of multiple branches.](media/whats-new-multiple-branches.png "Screenshot of multiple branches")
 
 #### General availability enhancements
 
