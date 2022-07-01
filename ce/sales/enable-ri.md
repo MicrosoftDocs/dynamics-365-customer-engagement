@@ -1,7 +1,7 @@
 ---
 title: "Enable relationship intelligence"
 description: "Relationship intelligence provides relationship analytics and who knows whom capabilities."
-ms.date: 05/13/2022
+ms.date: 07/01/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -11,8 +11,9 @@ manager: shujoshi
 
 Enable relationship intelligence to get the following insights based on your sellers interactions with their customers:  
 
-- Relationship analytics KPIs and customer relationship health score
-- Who knows whom suggestions 
+- Relationship analytics KPIs and customer relationship health score based on Dynamics 365 and Exchange data
+
+- Who knows whom suggestions based on Exchange data 
 
 ## License and role requirements
 | Requirement type | You must have |
@@ -32,11 +33,16 @@ Enable relationship intelligence to get the following insights based on your sel
 1. Turn on the toggle under **Get started with Relationship Intelligence**.
     The relationship intelligence features&mdash;relationship analytics and who knows whom&mdash;are turned on by default.  
     :::image type="content" source="media/enable-ri-overview.png" alt-text="A screenshot of the Overview page to enable the relationship intelligence features":::
-1. Select the security roles of users who are allowed to contribute to relationship insights.  
-    If you have selected specific security roles, the data of users who belong to those security roles are collected and used for generating insights.
+
+1. Select the security roles of users whose Exchange data will be used for generating relationship insights.  
+    If you have selected specific security roles, the exchange data of users who belong to those security roles are collected and used for generating insights.
+
+    > [!NOTE]
+    >- If you don't want to collect Exchange data at all, you can turn off exchange integration. More information: [Configure relationship analytics and health](configure-relationship-analytics.md) 
+    >- The security role selection only applies to Exchange data. Data and emails stored in Dynamics 365 will be used for generating insights by default. 
+ 
 1. Save the changes.  
     Relationship intelligence features are enabled but you must complete the [next steps](#next-steps), for the features to be fully functional.  
-
 
 
 ## Next steps
