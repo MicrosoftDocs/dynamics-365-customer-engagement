@@ -1,5 +1,5 @@
 ---
-title: "Preview: Customer interactions timeline (Dynamics 365 Marketing) | Microsoft Docs"
+title: "Customer interactions timeline (Dynamics 365 Marketing) | Microsoft Docs"
 description: "Learn how to use the customer interactions timeline to view historical activity in Dynamics 365 Marketing."
 ms.date: 05/10/2022
 ms.custom: 
@@ -17,7 +17,7 @@ search.app:
   - D365Mktg
 ---
 
-# Preview: Customer interactions timeline
+# Customer interactions timeline
 
 The interactions timeline for a contact or lead provides a unified view of historical interactions based on customer activities in Dynamics 365 Marketing (both real-time  and outbound), Sales, and Customer Service.
 
