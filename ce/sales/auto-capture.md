@@ -2,7 +2,7 @@
 title: "Auto capture customer-related activities"
 description: "Use auto capture to collect customer-related activities from your Outlook data and display suggestions on emails and meetings." 
 keywords: 
-ms.date: 10/26/2021
+ms.date: 07/08/2022
 ms.custom: 
 ms.topic: article
 ms.assetid: 1d005ded-099e-4d66-a435-f1024e1316b6

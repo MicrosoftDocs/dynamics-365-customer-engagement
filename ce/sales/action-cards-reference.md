@@ -2,7 +2,7 @@
 title: "Insight cards reference for Dynamics 365 Sales | MicrosoftDocs"
 description: "List of upcoming meetings, reminders, and insights cards, and how you can use them to stay updated with your work."
 keywords: 
-ms.date: 10/26/2021
+ms.date: 07/08/2022
 ms.custom: 
 ms.topic: article
 ms.assetid: 7808da18-7d62-4a04-911d-f429ad87248e
