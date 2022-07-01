@@ -70,6 +70,10 @@ The update also includes an admin digital data sharing opt-in for better perform
 - **Create more personalized journey variations using multiple journey branches**
     - Journey branches let you create personalized journeys for customers, engaging them in different ways based on who they are and their past actions. Now, you can easily create more than two branches at any given step in the journey—creating more fine-grained personalization and engaging each customer differently based on their unique profile and behavioral signals. This eliminates the need to nest branches and makes analyzing journeys easier. In addition, you can merge the branches back so that customers can continue the common journey steps after going through their specialized branches.
     - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/create-more-personalized-journey-variations-using-multiple-journey-branches)
+    - [Docs](real-time-marketing-multiple-branches.md)
+
+    > [!div class="mx-imgBorder"]
+    > ![Screenshot of multiple branches.](media/whats-new-multiple-branches.png "Screenshot of multiple branches")
 
 #### General availability enhancements
 
