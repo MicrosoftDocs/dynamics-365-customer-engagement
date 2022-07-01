@@ -1,7 +1,7 @@
 ---
 title: "Configure talking points"
 description: "Configure talking points to provide suggestions on conversation starters that help sellers to quickly establish communications with customers."
-ms.date: 10/26/2021
+ms.date: 07/01/2022
 ms.custom: 
 ms.topic: article
 ms.assetid: cc6353f5-f044-4872-a486-9954550caa1b
