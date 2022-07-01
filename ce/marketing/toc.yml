@@ -252,7 +252,7 @@
           href: real-time-marketing-tile-reference.md
         - name: When to use attribute versus if/then branches
           href: real-time-marketing-branches.md
-        - name: Set up an automated SMS keyword flow in customer journeys
+        - name: "Preview: Set up an automated SMS keyword flow in customer journeys"
           href: set-up-automated-sms-keyword-flow.md
         - name: Create a new version of a customer journey
           href: real-time-marketing-new-journey-version.md
