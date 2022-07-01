@@ -63,6 +63,7 @@ The update also includes an admin digital data sharing opt-in for better perform
 - **Continue the conversation with your customers by taking action on their SMS replies**
     - SMS allows you to quickly communicate with your customers. However, it’s not enough to just send messages out, you also need to act on their responses. Now you can interact with your customers by creating journeys based on their replies to your SMS messages. Easily create custom keywords and add them to your messages and journey branches to continue the conversation with your customers.
     - [Release plan](/dynamics365-release-plan/2022wave1/marketing/dynamics365-marketing/continue-conversation-customers-taking-action-their-sms-replies)
+    - [Docs](set-up-automated-sms-keyword-flow.md)
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of SMS replies journey.](media/whats-new-sms-keyword-response.png "Screenshot of SMS replies journey")
