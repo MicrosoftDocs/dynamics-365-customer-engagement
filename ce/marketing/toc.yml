@@ -234,10 +234,12 @@
           href: real-time-marketing-trigger-based-journey.md
         - name: Real-time marketing triggers
           href: real-time-marketing-triggers.md
-        - name: Trigger an action outside of a journey
-          href: real-time-marketing-custom-actions.md
         - name: Create custom triggers
           href: real-time-marketing-custom-triggers.md
+        - name: Trigger a journey based on any Dataverse record change
+          href: real-time-marketing-dataverse-trigger.md
+        - name: Trigger an action outside of a journey
+          href: real-time-marketing-custom-actions.md
       - name: Segment-based journeys
         items:
         - name: "Preview: Build segments in real-time marketing"
