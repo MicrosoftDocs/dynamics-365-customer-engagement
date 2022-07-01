@@ -17,7 +17,7 @@ topic-status: Drafting
 # Configure talking points 
 
 > [!IMPORTANT]
-> Talking points will be deprecated from August 2022. After the feature is deprecated, sellers will stop getting talking point suggestions on the contact and lead pages. To continue getting suggestions, you can buy the LinkedIn Sales Navigator license and integrate it with Dynamics 365 Sales. For more information on what you get with the integration, see [View and work with LinkedIn Sales Navigator controls on forms](../linkedin/view-sales-navigator-forms.md) and for instructions on how to integrate, see [Integrate LinkedIn Sales Navigator solutions for Dynamics 365 Sales](../linkedin/integrate-sales-navigator.md). 
+> Talking points will be deprecated from August 2022. For more information about the impact and alternative options, see the [deprecation announcement](deprecations-sales.md#talking-points-will-be-deprecated). 
 
 The talking points feature helps users in your organization to quickly establish communications with customers.
 

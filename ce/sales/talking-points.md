@@ -10,7 +10,7 @@ manager: shujoshi
 # Know conversation starters for your customers  
 
 > [!IMPORTANT]
-> Talking points will be deprecated from August 2022. After the feature is deprecated, you’ll stop getting talking point suggestions on the contact and lead pages. You can use LinkedIn Sales Navigator to get suggestions based on your contact's LinkedIn activities. For more information on what you get with the integration, see [View and work with LinkedIn Sales Navigator controls on forms](../linkedin/view-sales-navigator-forms.md). Contact your administrator if LinkedIn Sales Navigator is not integrated in your environment. 
+> Talking points will be deprecated from August 2022. For more information about the impact and alternative options, see the [deprecation announcement](deprecations-sales.md#talking-points-will-be-deprecated).  
 
 Use talking points to automatically identify conversation starters of your customers before you interact with them.
 
