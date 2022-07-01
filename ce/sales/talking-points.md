@@ -10,7 +10,7 @@ manager: shujoshi
 # Know conversation starters for your customers  
 
 > [!IMPORTANT]
-> Talking points will be deprecated from August 2022. For more information about the impact and alternative options, see the [deprecation announcement](deprecations-sales.md#talking-points-will-be-deprecated).  
+> Talking points will be deprecated from August 2022. For more information about its impact and alternative options, see the [deprecation announcement](deprecations-sales.md#talking-points-will-be-deprecated).  
 
 Use talking points to automatically identify conversation starters of your customers before you interact with them.
 

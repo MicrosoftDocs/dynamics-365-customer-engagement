@@ -17,7 +17,7 @@ topic-status: Drafting
 # Configure talking points 
 
 > [!IMPORTANT]
-> Talking points will be deprecated from August 2022. For more information about the impact and alternative options, see the [deprecation announcement](deprecations-sales.md#talking-points-will-be-deprecated). 
+> Talking points will be deprecated from August 2022. For more information about its impact and alternative options, see the [deprecation announcement](deprecations-sales.md#talking-points-will-be-deprecated). 
 
 The talking points feature helps users in your organization to quickly establish communications with customers.
 
