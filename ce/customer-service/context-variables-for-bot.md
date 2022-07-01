@@ -1,7 +1,7 @@
 ---
 title: "Configure context variables for a bot | MicrosoftDocs"
 description: "Use this topic to understand how you can add context variables and then configure them for Azure or Power Virtual Agents bots in Omnichannel for Customer Service."
-ms.date: 12/10/2021
+ms.date: 07/01/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -13,8 +13,6 @@ ms.custom:
 # Configure context variables for a bot
 
 [!INCLUDE[cc-use-with-omnichannel](../includes/cc-use-with-omnichannel.md)]
-
-## Introduction
 
 Context variables enrich conversations with pre-chat data, channel data, and custom context data. These attributes can then be used to define routing rules to route conversations to different queues. This topic lists the context variables for Azure and Power Virtual Agents bots, and how you can configure them in Omnichannel for Customer Service.
 
@@ -37,7 +35,7 @@ Before you configure context variables for Azure or Power Virtual Agents bots, c
 
 ## Context variables for Power Virtual Agents bots
 
-The following table contains the list of context variables available in Omnichannel for Customer Service that you can use for [configuring Power Virtual Agents bot](configure-bot-virtual-agent.md).
+The following table contains the list of context variables available in Omnichannel for Customer Service that you can use for [configuring Power Virtual Agents bots](configure-bot-virtual-agent.md).
 
 > [!Important]
 > To be able to use the messaging and voice variables, ensure that you first [install the extension solutions](/power-virtual-agents/configuration-hand-off-omnichannel#install-extension-solutions).
@@ -80,7 +78,7 @@ The following table contains the list of context variables in Omnichannel for Cu
 Make sure that you have the following details:
 
 - The Omnichannel for Customer Service context variable, such as msdyn_contact_msdyn_ocliveworkitem_Customer.
-- The schema details.
+- The schema details
 
 A copy of the sample schema details is as follows:
 
@@ -111,6 +109,20 @@ A copy of the sample schema details is as follows:
 - **Cases:** Case title
 - **Contacts:** Full name
 - **Accounts:** Name
+
+Here's a sample context record.
+
+```JavaScript
+{
+    "msdyn_contact_msdyn_ocliveworkitem_Customer": [
+        {
+            "RecordId": "<GUID>",
+            "PrimaryDisplayValue": "<FullName>"
+        }
+    ],
+    "msdyn_liveworkitemid": "<GUID>"
+}
+```
 
 ### See also
 
