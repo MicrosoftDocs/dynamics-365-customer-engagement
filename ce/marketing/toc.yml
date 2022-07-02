@@ -236,7 +236,7 @@
           href: real-time-marketing-triggers.md
         - name: Create custom triggers
           href: real-time-marketing-custom-triggers.md
-        - name: Trigger a journey based on any Dataverse record change
+        - name: Trigger a journey based on a Dataverse record change
           href: real-time-marketing-dataverse-trigger.md
         - name: Trigger an action outside of a journey
           href: real-time-marketing-custom-actions.md
