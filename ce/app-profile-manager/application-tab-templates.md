@@ -4,7 +4,7 @@ description: "Learn how to create application tab templates in Customer Service.
 author: "mh-jaya"
 ms.author: v-jmh
 manager: shujoshi
-ms.date: 07/01/2022
+ms.date: 07/04/2022
 ms.topic: article
 ---
 
