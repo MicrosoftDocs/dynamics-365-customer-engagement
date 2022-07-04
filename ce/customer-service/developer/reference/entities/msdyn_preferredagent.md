@@ -17,8 +17,7 @@ search.audienceType:
 > Unsure about table vs. entity? See [Developers: Understand terminology in Microsoft Dataverse](/powerapps/developer/data-platform/understand-terminology).
 Preferred Agent Entity
 
-**Added by**: Configuration_sn Solution
-
+**Added by**: Unified Routing solution
 
 ## Messages
 
