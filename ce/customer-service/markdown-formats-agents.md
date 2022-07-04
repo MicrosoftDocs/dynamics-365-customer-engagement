@@ -42,7 +42,7 @@ The following table lists the Markdown formats that you can use for your chat me
 | monospace                 | \`\`\` <br> text<br>\`\`\`           | ```text```                     |
 | numbered list             |  \<number\> item one                 |  <ol><li> item one </li> <li> item two</li></ol>  |
 | unordered list            | \* item one <br> or <br> - item one  |  \* item one <br> \* item two  |
-| line break                | \\n                                  | Text 1 <br> Text 2             |
+| line break                | Line 1 \\n Line 2                                  | Line 1 <br> Line 2             |
 
 > [!Note]
 > We currently support only single line breaks between text.
