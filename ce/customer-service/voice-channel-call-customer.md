@@ -15,14 +15,12 @@ manager: shujoshi
 
 To be able to call customers, your administrator must configure outbound calling, add you as user to the outbound capacity profile, and then set up outbound profiles. More information: [Outbound calling](voice-channel-outbound-calling.md). You can call a customer by selecting the **Mobile phone** field or the launch dialer option.
 
-**To call a customer**
-
 - In Omnichannel for Customer Service, go to **Contacts**, and then select a customer to call.
 
-   1. On the customer summary page, locate the **Mobile Phone** field, and then select the call icon to call the customer.
+   - On the customer summary page, locate the **Mobile Phone** field, and then select the call icon to call the customer.
    The phone dialer opens with the phone number.
 
-   1. Select **Call** on the phone dialer.
+   - Select **Call** on the phone dialer.
 
    > [!Note]
    > In the **Call** dropdown list, you'll see the phone number that you're making the call from. This is the outbound calling number that'll be displayed on the customer's phone when you make the call.
