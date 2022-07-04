@@ -31,10 +31,8 @@ When the call connects, you'll see the customer details on the conversation page
 
 ## Call customer using the phone dialer
 
-In Omnichannel for Customer Service, you can select the **Launch dialer** phone icon on the menu bar to quickly call a customer. The dialer opens the number pad where you can enter the customer's phone number and then select **Call** to make your call.
+In Omnichannel for Customer Service, you can select the **Launch dialer** phone icon on the menu bar to quickly call a customer. The dialer opens the number pad where you can enter the customer's phone number and then select **Call** to make your call. To make an international call, enter the plus sign (+) followed by the country code and phone number, then select **Call**.
 
- > [!NOTE]
- > The dialer adds the plus (+) sign when you enter a number to call.
 
 ### See also
 
