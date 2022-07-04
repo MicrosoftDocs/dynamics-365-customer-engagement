@@ -30,7 +30,7 @@ Formatted messages are supported in channels such as Microsoft Teams, WhatsApp, 
 
 The following table lists the Markdown formats that you can use for your chat messages in Omnichannel for Customer Service. 
 
-|  Text style                    |    You type...                  | The text displays as...  |
+|  Text style               |    You type...                       | The text displays as...  |
 | ------------------------- | -------------------------------      | -----------------------  |
 | bold                      | \*bold\*                             | **text**                 |
 | italics                   | \_italics\_                          | *text*                   |
@@ -40,11 +40,12 @@ The following table lists the Markdown formats that you can use for your chat me
 | hyperlink                 | https://www.microsoft.com            | <https://www.microsoft.com>    |
 | hyperlink with text       | [text]\(https://www.microsoft.com\)  | [Microsoft website](https://www.microsoft.com) |
 | monospace                 | \`\`\` <br> text<br>\`\`\`           | ```text```                     |
-| numbered list             |  \<number\> item one                   |  <ol><li> item one </li> <li> item two</li></ol>  |
+| numbered list             |  \<number\> item one                 |  <ol><li> item one </li> <li> item two</li></ol>  |
 | unordered list            | \* item one <br> or <br> - item one  |  \* item one <br> \* item two  |
+| line break               | \\n                                   | Text 1 <br> Text 2
 
 > [!Note]
-> We currently do not support line breaks in Markdown for messages.
+> We currently support only single line breaks between text.
 
 ### See also
 
