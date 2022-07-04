@@ -1,7 +1,7 @@
 ---
 title: "Create workstreams in Customer Service | MicrosoftDocs"
 description: "Use this topic to understand how to create workstreams for unified routing in Customer Service and Omnichannel for Customer Service apps."
-ms.date: 04/04/2022
+ms.date: 06/14/2022
 author: neeranelli
 ms.author: nenellim
 manager: shujoshi
@@ -152,7 +152,7 @@ When a work item needs to be assigned, the classification rules are run and the 
 
 > [!Note]
 > 
-> - The bot is supported only in push type of workstreams.
+> - Bots can receive conversations only if they're added to push-based workstreams.
 > - We recommend that you don't add bots to workstreams that are meant for record routing.
 
 ### Manage workstreams

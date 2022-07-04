@@ -60,7 +60,7 @@ The following table contains the list of context variables available in Omnichan
 
 ## Context variables for Azure bots
 
-The following table contains the list of context variables in Omnichannel for Customer Service that you can use for [configuring Azure bots](configure-bot.md).
+The following table contains the list of context variables in Omnichannel for Customer Service that you can use for [configuring Azure bots](configure-bot-azure.md).
 
 | Context variable type | Context variable name | Description  | How to map in Azure |
 |-----|-----|-------|-------|
@@ -115,7 +115,7 @@ A copy of the sample schema details is as follows:
 ### See also
 
 [Integrate a Power Virtual Agents bot](configure-bot-virtual-agent.md)  
-[Integrate an Azure bot](configure-bot.md)  
+[Integrate an Azure bot](configure-bot-azure.md)  
 [Configure bots to escalate and end conversations](bot-escalate-end-conversation.md)  
 [Live chat SDK reference](developer/omnichannel-reference.md)  
 

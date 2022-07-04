@@ -1,7 +1,7 @@
 ---
 title: "First-run setup experience for conversation intelligence in sales app"
-description: "First-run configuration of conversation intelligence for Microsoft Teams for your Dynamics 365 Sales environment."
-ms.date: 05/27/2022
+description: "Learn how to set up conversation intelligence for Teams meetings and calls through the Sales Hub app."
+ms.date: 06/27/2022
 ms.custom: 
 ms.topic: article
 ms.assetid: 3e099e3a-f6cb-42cf-b84e-9f8b0c6ee9db
@@ -110,6 +110,8 @@ Before you can proceed to configure Teams with conversation intelligence, you mu
 
     > [!div class="mx-imgBorder"]
     > ![View license usage information.](media/ci-admin-license-usage.png "View license usage information")
+
+    To buy more hours, see [this FAQ](faqs-sales-insights.md#how-do-i-buy-more-conversation-intelligence-hours). 
 
 9.	(Optional) In the **Coming soon** section, select the **Access new features before they're released to all our customers** checkbox to turn on the "coming soon" feature.
 
