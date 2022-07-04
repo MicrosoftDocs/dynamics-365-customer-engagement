@@ -38,7 +38,9 @@ For the presence status or the icon to be displayed correctly, ensure that cooki
 ## Update your presence status
 
 You can update the presence status in the following two ways:
-- **Manually** - Change the status manually according to your availability.<br> To view and set the presence, select the presence icon from the navigation bar and then select the status from the list. The list shows five standard presence statuses:
+- **Manually** - Change the status manually according to your availability.
+
+    To view and set the presence, select the presence icon on the navigation bar. In the **Set Your Presence Status** dialog, select a status from the list. The list shows the following standard presence statuses:
 
   - Offline
   - Appear away
