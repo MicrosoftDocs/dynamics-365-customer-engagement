@@ -9,8 +9,8 @@ ms.reviewer: krbjoran
 
 ms.subservice: common-scheduler
 ms.topic: article
-author: FieldServiceDave
-ms.author: daclar
+author: krbjoran
+ms.author: krbjoran
 search.app: 
   - D365CE
   - D365PS
