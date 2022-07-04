@@ -1,7 +1,7 @@
 ---
 title: "Create or edit sales orders in Dynamics 365 Sales"
 description: "Use orders to track details of the products or services that your customers want to place an order for."
-ms.date: 10/25/2021
+ms.date: 07/04/2022
 ms.topic: get-started-article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -109,6 +109,7 @@ meaningful and unique. By default, these records are sorted by Name in the recor
   
 > [!NOTE]
 >  - You close an order by either fulfilling the order or canceling the order. Products or services that are shipped are fulfilled. You should cancel orders for any products or services that are not shipped.  
+>  - You can't set the status of multiple orders to fulfilled at one go.  
 >  - You can't update or change an order after it has been closed, or if it has been partially or completely fulfilled.  
   
   
