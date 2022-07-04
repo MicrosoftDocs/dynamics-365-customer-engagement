@@ -1,7 +1,7 @@
 ---
 title: "Configure routing to preferred agents | MicrosoftDocs"
 description: "Know how you can configure the settings to route work items to preferred agents in Customer Service."
-ms.date: 06/21/2022
+ms.date: 07/05/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -19,11 +19,11 @@ manager: shujoshi
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
-To provide highly personalized services to your customers and enable very context-aware conversations, you can configure the option to route work items from a specific contact to preferred agents or relationship managers.
+To provide personalized services to your customers and enable context-aware conversations, you can configure the option to route work items from a specific contact to preferred agents or relationship managers.
 
 You can configure preferred agents in Customer Service admin center only. If a contact isn't configured, the preferred agent settings won't be applicable for the contact.
 
-To find the preferred agent at runtime for an incoming work item, the contact should be identified.
+To find the preferred agent for an incoming work item, the contact should be identified. For more information, see the **Channel-specific support for identifying a contact record** section.
 
 In the preview release, you can map agents to contacts only.
 
