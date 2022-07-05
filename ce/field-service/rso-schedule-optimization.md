@@ -24,7 +24,7 @@ search.app:
 
 - **Publishing**: The system is trying to publish schedules.
 
-- **Published**: The system published a schedule and it’s good to run.
+- **Published**: The system published a schedule and it's good to run.
 
 - **Out of Sync**: Changes made against the schedule require it to be
     published again.
