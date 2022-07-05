@@ -1,7 +1,7 @@
 ---
-title: Overview of the Customer Service workspace application for Dynamics 365 Customer Service | Microsoft Docs
-description: Overview of the Customer Service workspace application for Dynamics 365 Customer Service
-ms.date: 06/22/2022
+title: Overview of the Customer Service workspace application for Dynamics 365 Customer Service
+description: Overview of the Customer Service workspace application for Dynamics 365 Customer Service.
+ms.date: 07/05/2022
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -20,198 +20,180 @@ ms.custom:
 
 # Get started with Customer Service workspace
 
-
-The Customer Service workspace is a modern, customizable, high-productivity app that helps increase increases agent productivity for core customer service and allows agents to work on multiple sessions at a time in a single workspace. Customer Service workspace seamlessly adjusts to support managing agent conversations across different channels.
+The Dynamics 365 Customer Service workspace helps increase agent productivity for core customer service. It's a modern, customizable, high-productivity application that allows agents to work on multiple sessions at a time in a single workspace. Customer Service workspace seamlessly adjusts to support managing agent conversations across different channels.
 
 > [!NOTE]
-> The Customer Service workspace app is currently not available on mobile devices.
+> Customer Service workspace is currently not available on mobile devices.
 
 ## Introduction to Customer Service workspace
 
-You can access the Customer Service workspace as follows:
-- Select the Customer Service workspace app through the app selector
-- Select the app in the Dynamics 365 drop-down navigation in the upper-left corner of Dynamics 365.
+Access Customer Service workspace through the app selector where you find other Dynamics 365 apps. Or, select it in the drop-down navigation in the upper-left corner of Dynamics 365.
 
-As an agent with the Customer Service Representative security role, when you open Customer Service workspace, you'll see the Customer Service Agent Dashboard unless your administrator has changed the default view. This dashboard shows your active cases, cases you can work in queues you are assigned to, and your open activities. You can open existing cases and activities or begin working new cases from the queues you are assigned to and create activities.
+Customer Service workspace opens in the Customer Service Agent Dashboard, unless your administrator has changed the default view. The dashboard shows your active cases, cases you can work on in queues that you're assigned to, and your open activities. You can open existing cases and activities, work on new cases and activities, and create cases and activities.
 
+### Enhanced multisession workspace (preview)
 
-### Enhanced multisession workspace (Preview)
+If you or your administrator has [turned on the enhanced multisession workspace](#turn-on-the-enhanced-multisession-workspace-preview), your view will look like this:
 
-[ ![Customer Service workspace overview.](media/csw-overview-enhanced.png) ](media/csw-overview.png#lightbox)
+:::image type="content" source="media/csw-overview-enhanced.png" alt-text="Screenshot of the enhanced multisession Customer Service workspace, with items labeled according to a table below the screenshot.":::
 
-The following table displays the elements of the Customer Service workspace.
-
-| Label | Description|
+| Label | Description |
 | ------------ | ------------- |
-| 1 | Select the icon to open the site map. You can view a list of forms, views, and activities. Select the one you want to open in a new tab. |
-| 2 | Select this button to return to the Customer Service Agent Dashboard view.|
-| 3 | Select this button to view all of the cases and conversations that are assigned to you. **Inbox** is enabled only if it is configured for your profile.|
-| 4 | Each session has a tab in the session panel. Select a tab to navigate to the session you want to work on.|
-| 5 |Select a case to open a new session. A single click on a case replaces your view with the case form. Select the back arrow in the upper-left corner of the form to get back to your previous view. |
-| 6 | Select the drop-down selector to filter cases in queues you can choose to work on. |
-| 7 | Select Shift + mouse click to open a new session for an activity. A single click replaces your view with the activity form. Select the back arrow in the upper-left corner of the form to go back to your previous view. |
+| 1 | Select the icon to open the site map. |
+| 2 | Select the **Home** tab to return to the Customer Service Agent Dashboard view. |
+| 3 | Select the [**Inbox**](#use-the-inbox) tab to view all the cases and conversations that are assigned to you. You'll only see the inbox if it's turned on for your profile. |
+| 4 | Each open session has a tab in the tab row. Select a tab to navigate between sessions. |
+| 5 | Select a case or an activity to open a new session. The session opens in a new tab in the workspace window. |
+| 6 | Select the arrow to choose a different view. |
+| 7 | Select the arrow to view a different dashboard. |
 
 ### Default multisession workspace
 
-:::image type="content" source="media/csw-overview.png" alt-text="Customer Service workspace overview" border="false":::
+If your or your administrator hasn't turned on the enhanced multisession workspace, your view will look like this:
 
-The following table displays the elements of the Customer Service workspace.
-
+:::image type="content" source="media/csw-overview.png" alt-text="Screenshot of the default Customer Service workspace, with items labeled according to a table below the screenshot.":::
 
 | Label | Description|
 | ------------ | ------------- |
-| 1 | The session pane lists all the sessions that you are actively working on. Select the tabs to navigate among sessions.  |
-| 2 | The Home session returns you to the Customer Service Agent Dashboard view.|
-| 3 | Each session has a tab in the session panel. Select a tab to navigate to the session you want to work on. |
-| 4 | Select a case to open a new session. A single click on a case replaces your view with the case form. Select the back arrow in the upper-left corner of the form to get back to your previous view.|
-| 5 | Select the tabs to navigate to your open activities, cases, forms and views. |
-| 6 | Select the + icon to expand the menu to view a list of forms, views, and activities. Select the one you want to open in a new tab. |
-| 7 | Select the drop-down selector to filter cases in queues you can choose to work on. |
-| 8 | Select Shift + mouse click to open a new session for an activity. A single click replaces your view with the activity form. Select the back arrow in the upper-left corner of the form to go back to your previous view. |
+| 1 | Select the **Home** icon to return to the Customer Service Agent Dashboard view. |
+| 2 | The session pane shows all the sessions you've opened. Select the icons to navigate between sessions. |
+| 3 | Select the **+** icon in the tab bar to open more workspaces in a new tab. If you hold the Ctrl key while you select a case or an activity, the case or activity opens in a new tab, too. Select a tab to navigate between sessions. |
+| 4 | Select the arrow to choose a different view. |
+| 5 | Select a case or an activity to open a new session. The session replaces your current view with the case form. Select the back arrow in the upper-left corner of the form to get back to your previous view. To open the case or activity in a new tab, hold the Ctrl key while you select it. |
+| 6 | Select the arrow to view a different dashboard. |
 
-## Navigate Customer Service workspace
-- From the **Home** session, you can:
-   - Select a record in a view, dashboard, or a queue to open the record in a new session tab.
-   - Select a case or a customer in a case. These records open in a new tab.
-   - Create a new record in a view&mdash;select **New** to open the entity form in a new session.
-   - Select the global search to open the search feature in a new tab. 
+## Customize Customer Service workspace
 
-- In a session that's already open, you'll be able to use the following navigation to open records.
+You can use your browser's developer tools to customize some aspects of the Customer Service workspace.
 
-  - Select a related record from a form in a session to automatically open the record on a new tab within the same session.
-  - Select a related record from the timeline to automatically open the record on a new tab within the same session.
-  - Create a record from the timeline to automatically open the entity form on a new tab in the same session.
-  - Select **New** to create a new record from a form to open the entity form in a new session.
-  - Search for and select a record from an existing session and open the record in a new tab.
+### Turn on the enhanced multisession workspace (preview)
 
-- Selecting a record or session that's already open highlights the open session, instead of opening the session or record multiple times.
+1. With Customer Service workspace open, press the F12 key to open the developer tools window.
+1. In the console window, type the following command and press Enter: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultiSessionLayoutImprovements",true)`
+1. Refresh the app page.
 
-### Enable the enhanced multisession layout (Preview)
+> [!NOTE]
+> If you turn on the enhanced multisession workspace, the enhanced experience applies in both Customer Service workspace and Omnichannel for Customer Service.
 
-1. Sign in to Dynamics 365, and open Customer Service workspace.
-2. Select F12 to open the developer tools.
-3. Run the following command at the console window.
-    Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultiSessionLayoutImprovements",true)
-4. Refresh the app.
+### Turn off the close session dialog
 
-> [!Note]
-> If you enable the enhanced multisession navigation, the navigation is applicable for both Customer Service workspace and Omnichannel for Customer Service. 
+1. With Customer Service workspace open, press the F12 key to open the developer tools window.
+1. In the console window, type the following command and press Enter: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_SuppressSessionCloseWarning",true)`
+1. Refresh the app page.
 
-### Disable the close session dialog
+### Turn on legacy navigation (deprecated)
 
-1. Sign in to Dynamics 365.
-2. Select F12 to open the developer tools.
-3. Run the following command at the console window:
-    Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_SuppressSessionCloseWarning",true)
-    
-### Enable legacy navigation (deprecated)
-
-> [!Note]
+> [!NOTE]
 > The legacy navigation is deprecated and will be removed in a future release.
 
-**To enable the legacy navigation experience**
+1. With Customer Service workspace open, press the F12 key to open the developer tools window.
+1. In the console window, type the following command and press Enter: `Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultisessionNavigationImprovements",false)`
+1. Refresh the app page.
 
-1. Sign in to Dynamics 365, and open Customer Service workspace.
-2. Select F12 to open the developer tools.
-3. Run the following command at the console window.
-    Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_MultisessionNavigationImprovements",false)
-4. Refresh the app.    
+## Navigate Customer Service workspace
+
+From the **Home** session, you can:
+
+- Select a record in a view, a dashboard, or a queue to open the record in a new session tab.
+- Select a case or a customer in a case. These records open in a new tab.
+- Create a new record in a view. Select **New** to open the entity form in a new session.
+- Select the global search to open the search feature in a new tab.
+
+In a session that's open, you can:
+
+- Select a related record from a form to open the record in a new tab in the same session.
+- Select a related record from the timeline to open the record in a new tab in the same session.
+- Create a record from the timeline to open the entity form in a new tab in the same session.
+- Select **New** to create a record from a form. The entity form opens in a new session.
+- Search for and select a record from an existing session and open the record in a new tab.
+
+    If you select a record or a session that's already open, it's highlighted instead of opening multiple times.
 
 ## Work with cases
 
-From the Customer Service Agent Dashboard in Customer Service workspace, you can perform the following actions.
+:::image type="content" source="media/bulkEditCases.png" alt-text="Screenshot that shows multiple cases selected and items labeled according to a table below the screenshot.":::
 
-:::image type="content" source="media/bulkEditCases.png" alt-text="Customer Service workspace bulk edit case" border="false":::
-
-|Label | Description|
-|------------ | -------------|
-| 1 | Select multiple cases to work with. Select the top check mark to select all cases, or select individual check boxes next to each case to select a specific group of cases.
+| Label | Description|
+| ------------ | ------------ |
+| 1 | Select the top check mark to select all cases in the view, or select individual check boxes to group cases for bulk editing. |
 | 2 | Associate child cases with selected cases. |
-| 3 | Merge cases together. |
+| 3 | Merge selected cases. |
 | 4 | Edit selected cases. |
 | 5 | Delete selected cases. |
-| 6 | Apply a routing rule to route cases to a queue. |
-| 7 | Open the menu for additional actions including Assign, Add to Queue, Run Report, Email a Link, Share, Follow, or Unfollow cases. |
-|||
-
+| 6 | Apply a routing rule to route selected cases to a queue. |
+| 7 | Open the menu for more actions including Assign, Add to Queue, Run Report, Email a Link, Share, Follow, and Unfollow cases. |
 
 ### Edit case data
 
-Let's explore the fields you can edit on the **Case Summary** tab.
+Let's explore the fields you can edit on the **Summary** tab.
 
-:::image type="content" source="media/CaseSummary.png" alt-text="Customer Service workspace Case Summary" border="false":::
+:::image type="content" source="media/CaseSummary.png" alt-text="Screenshot of the Customer Service workspace case Summary tab, with items labeled according to a table below the screenshot.":::
 
 | Label | Description |
 | ------------ | ------------- |
-| 1 | In Case Details, you can update the Case Title, Customer, Subject, Priority, Case Status, Product, and Description.|
-| 2 | These are attributes that are set when the case is created by the system including Case Number, Origin, and Created On Date that won't change. You can change the case owner here. |
+| 1 | You can update the Case Title, Customer, Subject, Priority, Case Status, Product, and Description. |
+| 2 | Case Number, Origin, and Created On are set when the case is created. You can't change these attributes. You can change the Case Owner. |
 | 3 | Select the plus sign (+) on the timeline to expand the menu of timeline actions. |
-|||
 
-Let's explore the fields you can edit on the **Case Additional Details** tab.
+Let's explore the fields you can edit on the **Additional Details** or **Details** tab.
 
-:::image type="content" source="media/CaseAddtlDetails.png" alt-text="Customer Service workspace Case Additional Details" border="false":::
+:::image type="content" source="media/CaseAddtlDetails.png" alt-text="Screenshot of the Customer Service workspace case Additional Details tab, with items labeled according to a table below the screenshot.":::
 
 | Label | Description |
 | ------------ | ------------- |
-| 1 | You can set Service Level Agreement (SLA) attributes on the case so that customer support managers can measure the overall success of the support organization against its goals of meeting customer Service Level Agreements.|
-| 2 | Associate a parent case, classify the type of case, and apply a support Entitlement. |
-| 3 | Sort and export the list of associated knowledge articles.|
-| 4 | View and export the list of similar cases.|
+| 1 | You can set Service Level Agreement (SLA) attributes so that customer support managers can measure the overall success of the support organization against its goals. |
+| 2 | Associate a Parent Case, classify the case Type, and apply a support Entitlement. |
+| 3 | Sort and export the list of associated knowledge articles. |
+| 4 | View and export the list of similar cases. |
 | 5 | View, add associations, and export child cases. |
-| 6 | View and export the list of merged cases.|
-|||
+| 6 | View and export the list of merged cases. |
 
 ## Work with activities
 
-From the Customer Service Agent Dashboard in Customer Service workspace, you can.
-
-:::image type="content" source="media/bulkEditActivities.png" alt-text="Customer Service workspace bulk edit activities" border="false":::
+:::image type="content" source="media/bulkEditActivities.png" alt-text="Screenshot that shows multiple activities selected and items labeled according to a table below the screenshot.":::
 
 | Label | Description|
-|------------ | -------------|
-| 1 | Select multiple activities to work with. Select the top check mark to choose all, or select individual check boxes next to each activity to select a specific group of activities.|
+| ------------ | -------------|
+| 1 | Select the top check mark to select all activities in the view, or select individual check boxes to group activities for bulk editing.|
 | 2 | Edit selected activities. |
-| 3 | Delete selected cases. |
-| 4 | Open the menu for additional actions including Mark Complete, Cancel, Set Regarding, Assign, Email a Link, Add to Queue, Run Report. |
-|||
+| 3 | Delete selected activities. |
+| 4 | Open the menu for more actions including Mark Complete, Cancel, Set Regarding, Assign, Email a Link, Add to Queue, and Run Report. |
 
 ## Create and search knowledge articles
 
-From the Customer Service Agent Dashboard in Customer Service workspace, you can access knowledge search and knowledge articles as follows:
+Expand the Customer Service workspace site map and select **Knowledge Articles** or **Knowledge Search**. Intelligent knowledge suggestions are displayed in the productivity pane while you're working on a case.
 
-1. Select the Site Map to expand the menu.
-2. Select EKnowledge Article or Knowledge Search. You can also create and manage knowledge articles in other ways. For more information, see [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md).
-
-Intelligent knowledge suggestions are displayed in the productivity pane while you are working on a case.
+Learn more about how to [create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md).
 
 ## Use email templates and signatures
 
-From the Customer Service Agent Dashboard in Customer Service workspace, you can access email templates and signatures as follows:
+Expand the Customer Service workspace site map and select **Email Templates** or **Email Signatures**.
 
-1. Select the Site Map to expand the menu.
-2. Select Email Templates or Email Signatures.
+Learn more about how to create [email templates](../../../powerapps-docs-pr/powerapps-docs/user/email-template-create.md) and [email signatures](../../../powerapps-docs-pr/powerapps-docs/user/email-signature.md).
 
-### Use the inbox
+## Use the Inbox
 
-As an agent, when you open Customer Service workspace or Omnichannel for Customer Service, you can select the inbox icon to show all of the cases and conversations that are assigned to you. The inbox is designed to help you efficiently work on high velocity tasks, as well as promote inbox sessions to regular sessions when you need more time to resolve cases and complete your conversations. The following asynchronized channels are available in the conversation inbox: SMS, persistent chat, Facebook, Twitter, WeChat, LINE, WhatsApp, and Teams.
+If your administrator has turned on the inbox for your profile, you can select the **Inbox** tab to view all the cases, conversations, and activities that are assigned to you. Use the inbox to work on high-velocity tasks. You can also promote inbox sessions to regular sessions when you need more time to resolve a case or complete a conversation.
 
-The following image shows the inbox conversation view:
-:::image type="content" source="media/inbox-csw.png" alt-text="Customer Service workspace inbox conversations view" border="false":::
+The following asynchronous channels are available in the conversation inbox: SMS, persistent chat, Facebook, Twitter, WeChat, LINE, WhatsApp, and Teams.
 
-The following image shows the inbox case view:
+The inbox conversation view looks like this:
 
-:::image type="content" source="media/inbox-case.png" alt-text="Customer Service workspace inbox case view" border="false":::
+:::image type="content" source="media/inbox-csw.png" alt-text="Screenshot of the Customer Service workspace inbox conversation view.":::
 
-For information on how to configure the inbox view, see [Configure the inbox view in App profile manager](/dynamics365/app-profile-manager/app-profile-manager#configure-the-inbox-view).
+The inbox case view looks like this:
 
-### Productivity pane with Smart Assist
+:::image type="content" source="media/inbox-case.png" alt-text="Screenshot of the Customer Service workspace inbox case view.":::
 
-While you're working on a case, the productivity pane on the right side of the Customer Service workspace displays intelligence-driven suggestions to help agents better help customers. The productivity pane hosts Smart assist, which suggests related cases and knowledge articles that could be relevant to the current case, and agent scripts to guide agents through a consistent series of steps with potentially automated actions through macros.
+Learn how to [configure the inbox view](/../../dynamics-365-customer-engagement-pr/ce/app-profile-manager/app-profile-manager.md#configure-the-inbox-view).
 
-:::image type="content" source="media/productivity-pane-overview.png" alt-text="Productivity pane with Smart Assist" border="false":::
+## Use the productivity pane with Smart Assist
 
-For more information, see [Productivity pane](csw-productivity-pane.md).
+While you're working on a case, the productivity pane on the right side of the Customer Service workspace displays intelligence-driven suggestions to help you. The productivity pane uses Smart Assist to suggest related cases and knowledge articles that could be relevant. You'll also see agent scripts that guide you through a consistent series of steps with potentially automated actions through macros.
+
+:::image type="content" source="media/productivity-pane-overview.png" alt-text="Screenshot of the productivity pane with Smart Assist suggestions.":::
+
+Learn more about using the [productivity pane](csw-productivity-pane.md).
 
 ### See also
 
