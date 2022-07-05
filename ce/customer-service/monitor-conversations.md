@@ -86,10 +86,7 @@ You can transfer ongoing conversations that are in the **Active** or **Waiting**
 > [!CAUTION]
 > We recommend that Supervisors use the **Force Closure** feature responsibly when ending agent conversations. 
 
-You can use **Force Close** to end conversations that take place on messaging channels. Once ended, the status of the conversations is set to Closed. 
-
-> [!NOTE]
-> **Force close** isn't applicable to conversations that take place on non messaging channels.
+You can use **Force Close** to end conversations that take place only on messaging channels. Once ended, the status of the conversations is set to Closed. 
 
 1. From the dashboard view selector in Omnichannel for Customer Service, select the **Omnichannel Ongoing Conversations** dashboard.
 
