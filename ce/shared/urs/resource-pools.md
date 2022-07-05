@@ -318,7 +318,7 @@ When running the schedule assistant on the requirement, presuming availability, 
 
 ### Pool availability affects member availability and vice versa
 
-Being part of a pool can severely limit a resource's ability to be scheduled. Resources cannot be expected to operate as part of a pool and independently at the same time. If a pool resource itself is booked to capacity for a given time slot, pool members will not show as available for that time slot and vice versa. If all pool members are booked for a given time slot, the pool will not show as available for that time slot.
+Being part of a pool can severely limit a resource's ability to be scheduled. Resources cannot be expected to operate as part of a pool and independently at the same time. If a pool resource itself is booked to capacity for a given time slot, pool members will not show as available for that time slot and vice versa. If all pool members are booked for a given time slot, the pool will not show as available for that time slot. Conversely, if different members of the pool have availbility at different times then the pool will show as available throughout.
 
 #### Example 1: Pool resource only
 
@@ -331,6 +331,12 @@ For example, let’s say you are searching for a 30-minute requirement. If the p
 If the bookings for the pool and its members exceed the total capacity established on the pool, every resource in the pool and the pool itself is considered unavailable. But if there is overall aggregate availability, then each resource still has its own availability calculation. For example, consider if a pool resource has a capacity of 10, and there are 9 bookings between 10 AM and 10:30 AM on the pool resource, and the child resource has one booking from 10 to 10:30. In this case, since in aggregate the pool and its children have as many or more bookings (10) than the capacity on the Pool (10), the entire pool and its child resources are considered unavailable for that timeframe (10:00 AM to 10:30 AM). 
 
 However, if the pool resource has 8 bookings and the child resource has 1 booking, since this is a total of 9 bookings, the pool and its child resources will not be removed between 10 and 10:30. In this case, the pool itself will show as available, however the child resource will not return as available since there is already a booking at 10 AM for the child resource.
+
+#### Example 3: Pool resource and child resources 
+
+Pool will be shown as available whenever there is at least a single child resource available at each point of time during the desired time range, but it does not have to be the same resource throughout. When searching for availability, the schedule assistant will look at the pool capacity set on the pool resource, and will subtract existing bookings that are booked to the pool resource itself, or any of the pool’s child resources. This means that the capacity calculation is done without considering which specific resource will be available. 
+
+For example, assume there are two child resources for a pool and so the pool capacity is 2. Let's assume that the child resource #1 already has a booking between 10 AM and 11 AM, and child resource #2 has a booking from 11 AM to 12 PM. Let's say that you are searching for a new 2-hour requirement. In this case this pool would show as available between 10 AM and 12 PM even though no single resource is available for 2 hours continuously and the requirement would be satisfied only when split into multiple segments. This behavior occurs because the capacity of the pool is calculated collectively without considering which child resource has capacity since they are treated as equivalent resources. That means that the dispatcher might want to check child availability and adjust the bookings to make them continuous.
 
 ### Pools vs. crews: when to use each?
 
