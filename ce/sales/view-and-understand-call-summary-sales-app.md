@@ -1,7 +1,7 @@
 ---
 title: "View and understand call summary page in Dynamics 365 Sales Hub app"
 description: "Use call summary a get a high-level view of how a conversation with customer went, and includes action items and relevant keywords, timeline, transcript in Sales Hub app."
-ms.date: 05/18/2022
+ms.date: 07/05/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -172,18 +172,25 @@ If a meeting is mentioned in the transcript, the transcript is highlighted in bl
 >If you think this action item would be better handled as a task than a meeting, select **Create task**.
 
 #### Highlights tab   
-The **Highlights** tab displays talking points&mdash;such as keywords, stakeholders, products, and competitors&mdash;that were mentioned during the call. When you select any of the items listed in the following sections, you can see when that item was mentioned on the transcript.   
-- **Tracked keywords**: Displays the predefined keywords that customers mentioned during the call.
+The **Highlights** tab displays talking points&mdash;such as keywords, stakeholders, products, questions, and competitors&mdash;that were mentioned during the call. When you select any of the items listed in the following sections, you can see when that item was mentioned on the transcript.   
+
+- **Keywords mentioned**: Displays the predefined keywords that customers mentioned during the call.
+
 - **People**: Displays the names of people mentioned during the call; for example, Sarah calling from Contoso.
 - **Products**: Displays the names of the products mentioned during the call; for example, "I only know how to use a Fabrikam LED TV."  
 - **Competitors**: Displays the predefined competitors that customers mentioned during the call.
 - **Best-practice keywords**: Displays keywords that can be used as best practices during the call.
-- **Other brands and organizations**: Displays brand and organization names (other than your own) that the customer mentioned during the call.    
+- **Brands mentioned**: Displays brand and organization names (other than your own) that the customer mentioned during the call.  
+- - **Other brands and organizations**: Displays brand and organization names (other than your own) that the customer mentioned during the call. 
+- **Questions asked by sellers**: Displays the questions asked by the seller during the call. For example, What do you think about the demo? 
+- **Questions asked by others**: Displays the questions asked by the other participants during the call. 
+
 The following image is an example of a **Highlights** tab.   
 > [!div class="mx-imgBorder"]
 > ![Highlights tab](media/ci-summary-keywords.png "Highlights tab")  
 
-### Call transcript and translation    
+### Call transcript and translation
+
 The **Transcript** tab displays a written record of the call&mdash;which you can read, comment on, and translate&mdash;and the timeline of the call. The following image shows an example of a **Transcript** tab.    
 > [!div class="mx-imgBorder"]
 > ![Transcript tab with sample transcript](media/ci-transcript-conversation-transcript.png "Transcript tab with sample transcript")   
